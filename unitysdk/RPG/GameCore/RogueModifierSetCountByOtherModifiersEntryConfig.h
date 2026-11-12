@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueModifierSetCountByOtherModifiersEntryConfig; }
 
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A650)
-#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1A610)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2C750)
+#define RPG_GAMECORE_ROGUEMODIFIERSETCOUNTBYOTHERMODIFIERSENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC2C710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierSetCountByOtherModifiersEntryConfig_TypeDefinitionIndex = 17722;
+	inline static constexpr unsigned int RogueModifierSetCountByOtherModifiersEntryConfig_TypeDefinitionIndex = 17891;
 
 	class RogueModifierSetCountByOtherModifiersEntryConfig : public ::RPG::GameCore::JsonConfig
 	{

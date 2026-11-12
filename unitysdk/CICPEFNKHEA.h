@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CreateCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CICPEFNKHEA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF65490)
-#define CICPEFNKHEA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF654A0)
-#define CICPEFNKHEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF654E0)
-#define CICPEFNKHEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF65C00)
-#define CICPEFNKHEA_TICK_OFFSET UNITYSDK_OFFSET(0xCF65C50)
+#define CICPEFNKHEA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8D2AA0)
+#define CICPEFNKHEA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD8D2AB0)
+#define CICPEFNKHEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD8D2AF0)
+#define CICPEFNKHEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD8D3200)
+#define CICPEFNKHEA_TICK_OFFSET UNITYSDK_OFFSET(0xD8D3250)
 
-inline static constexpr unsigned int CICPEFNKHEA_TypeDefinitionIndex = 58047;
+inline static constexpr unsigned int CICPEFNKHEA_TypeDefinitionIndex = 59286;
 
 	class CICPEFNKHEA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CreateCharacter* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CreateCharacter* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateCharacter* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CreateCharacter*))((::PBYTE)hIl2Cpp + CICPEFNKHEA_CTOR_OFFSET))(this, a1, a2);

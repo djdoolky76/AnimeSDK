@@ -4,12 +4,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PMNOLJMLIFH_AMFONDKCDEN_OFFSET UNITYSDK_OFFSET(0xC3289D0)
-#define PMNOLJMLIFH_CIJMOJJPBBN_OFFSET UNITYSDK_OFFSET(0xC328AA0)
-#define PMNOLJMLIFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC328B60)
-#define PMNOLJMLIFH_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC328A40)
+#define PMNOLJMLIFH_AMFONDKCDEN_OFFSET UNITYSDK_OFFSET(0xCC57D00)
+#define PMNOLJMLIFH_CIJMOJJPBBN_OFFSET UNITYSDK_OFFSET(0xCC57DD0)
+#define PMNOLJMLIFH_CTOR_OFFSET UNITYSDK_OFFSET(0xCC57E90)
+#define PMNOLJMLIFH_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCC57D70)
 
-inline static constexpr unsigned int PMNOLJMLIFH_TypeDefinitionIndex = 66718;
+inline static constexpr unsigned int PMNOLJMLIFH_TypeDefinitionIndex = 68654;
 
 	class PMNOLJMLIFH : public ::System::Object
 	{

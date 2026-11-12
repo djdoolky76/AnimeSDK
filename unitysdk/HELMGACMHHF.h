@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HELMGACMHHF_TypeDefinitionIndex = 25291;
+inline static constexpr unsigned int HELMGACMHHF_TypeDefinitionIndex = 25769;
 
 	enum class HELMGACMHHF : ::System::Int32
 	{

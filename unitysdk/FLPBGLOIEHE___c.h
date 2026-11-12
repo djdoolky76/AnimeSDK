@@ -5,23 +5,23 @@ class NCGPIKOCNNL;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define FLPBGLOIEHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15844480)
-#define FLPBGLOIEHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x158444B0)
-#define FLPBGLOIEHE___C___SORTSUBPANELS_B__10_0_OFFSET UNITYSDK_OFFSET(0x158444C0)
+#define FLPBGLOIEHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x167B4120)
+#define FLPBGLOIEHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x167B4150)
+#define FLPBGLOIEHE___C___SORTSUBPANELS_B__10_0_OFFSET UNITYSDK_OFFSET(0x167B4160)
 
-inline static constexpr unsigned int FLPBGLOIEHE___c_TypeDefinitionIndex = 71769;
+inline static constexpr unsigned int FLPBGLOIEHE___c_TypeDefinitionIndex = 73777;
 
 	class FLPBGLOIEHE___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::NCGPIKOCNNL*>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::NCGPIKOCNNL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x546B0);
+			return (::System::Comparison_1<::NCGPIKOCNNL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68360);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x546B8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68368);
 		}
 
 		static ::System::Void _cctor()

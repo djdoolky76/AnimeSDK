@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 namespace UnityEngine { class Renderer; }
 
-#define AJACKPCNNDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CB0F30)
-#define AJACKPCNNDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB0F70)
-#define AJACKPCNNDM___C___COLLECTRENDERERS_B__8_0_OFFSET UNITYSDK_OFFSET(0x12CB0F80)
+#define AJACKPCNNDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12D8F710)
+#define AJACKPCNNDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12D8F750)
+#define AJACKPCNNDM___C___COLLECTRENDERERS_B__8_0_OFFSET UNITYSDK_OFFSET(0x12D8F760)
 
-inline static constexpr unsigned int AJACKPCNNDM___c_TypeDefinitionIndex = 60202;
+inline static constexpr unsigned int AJACKPCNNDM___c_TypeDefinitionIndex = 61486;
 
 	class AJACKPCNNDM___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::UnityEngine::Renderer*>** StaticGet___9__8_0()
 		{
-			return (::System::Predicate_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A800);
+			return (::System::Predicate_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59550);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A808);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59558);
 		}
 
 		static ::System::Void _cctor()

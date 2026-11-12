@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTeamFormationWidth; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDNFOBFGJIB_CTOR_OFFSET UNITYSDK_OFFSET(0xB63E3F0)
-#define LDNFOBFGJIB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB63E420)
+#define LDNFOBFGJIB_CTOR_OFFSET UNITYSDK_OFFSET(0xBED40D0)
+#define LDNFOBFGJIB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBED4100)
 
-inline static constexpr unsigned int LDNFOBFGJIB_TypeDefinitionIndex = 54583;
+inline static constexpr unsigned int LDNFOBFGJIB_TypeDefinitionIndex = 55748;
 
 	class LDNFOBFGJIB
 	{

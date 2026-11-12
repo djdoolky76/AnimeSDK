@@ -8,12 +8,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EvolveBuildRaccoonTalkRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6859C0)
-#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6852E0)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E891F30)
+#define RPG_GAMECORE_EVOLVEBUILDRACCOONTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E891850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 11418;
+	inline static constexpr unsigned int EvolveBuildRaccoonTalkRow_TypeDefinitionIndex = 11469;
 
 	class EvolveBuildRaccoonTalkRow : public ::System::Object
 	{

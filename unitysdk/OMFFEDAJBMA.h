@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OMFFEDAJBMA_PGNGOMDAJKJ_OFFSET UNITYSDK_OFFSET(0x1EC3F8A0)
+#define OMFFEDAJBMA_PGNGOMDAJKJ_OFFSET UNITYSDK_OFFSET(0x1FEF0360)
 
-inline static constexpr unsigned int OMFFEDAJBMA_TypeDefinitionIndex = 35283;
+inline static constexpr unsigned int OMFFEDAJBMA_TypeDefinitionIndex = 36211;
 
 	class OMFFEDAJBMA : public ::System::Object
 	{

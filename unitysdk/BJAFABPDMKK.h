@@ -5,10 +5,10 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerParamModifierCustomEvent; }
 
-#define BJAFABPDMKK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7960C0)
-#define BJAFABPDMKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB796220)
+#define BJAFABPDMKK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE59190)
+#define BJAFABPDMKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE592F0)
 
-inline static constexpr unsigned int BJAFABPDMKK_TypeDefinitionIndex = 55761;
+inline static constexpr unsigned int BJAFABPDMKK_TypeDefinitionIndex = 56964;
 
 	class BJAFABPDMKK
 	{

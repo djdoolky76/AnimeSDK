@@ -6,26 +6,26 @@
 class KAJJEJMHCGD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FDHFGKLGEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C615760)
-#define FDHFGKLGEBC_KKLHOBPLIOP_OFFSET UNITYSDK_OFFSET(0x1C615700)
-#define FDHFGKLGEBC_OGHACFJMBMC_OFFSET UNITYSDK_OFFSET(0x1C5F1FC0)
-#define FDHFGKLGEBC_PNNBJAGIHKD_OFFSET UNITYSDK_OFFSET(0x1C5F1480)
+#define FDHFGKLGEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D796D20)
+#define FDHFGKLGEBC_KKLHOBPLIOP_OFFSET UNITYSDK_OFFSET(0x1D796CC0)
+#define FDHFGKLGEBC_OGHACFJMBMC_OFFSET UNITYSDK_OFFSET(0x1D773700)
+#define FDHFGKLGEBC_PNNBJAGIHKD_OFFSET UNITYSDK_OFFSET(0x1D772BC0)
 
-inline static constexpr unsigned int FDHFGKLGEBC_TypeDefinitionIndex = 37243;
+inline static constexpr unsigned int FDHFGKLGEBC_TypeDefinitionIndex = 38171;
 
 	class FDHFGKLGEBC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* DOAHCFCFKDD; // 0x10
-		::KAJJEJMHCGD* FGBOCEOCCJN; // 0x18
-		::System::Boolean MLLBLJEALGA; // 0x20
-		::System::Boolean HGMGLFNFGGN; // 0x21
-		::System::Boolean OHAHHCFNLFF; // 0x22
+		::KAJJEJMHCGD* FGBOCEOCCJN; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>* DOAHCFCFKDD; // 0x18
+		::RPG::GameCore::CakeRaceMoveState ALHAFOGCGJK; // 0x20
+		::System::Int32 FLDIHFHMLAM; // 0x24
+		::System::Boolean HGMGLFNFGGN; // 0x28
+		::System::Boolean MLLBLJEALGA; // 0x29
+		::System::Boolean OHAHHCFNLFF; // 0x2A
 		::System::Byte _padding0[0x1];
-		::RPG::GameCore::CakeRaceMoveState ALHAFOGCGJK; // 0x24
-		::System::UInt32 NMALDHAIMCF; // 0x28
-		::System::Int32 FLDIHFHMLAM; // 0x2C
-		::System::Int32 GCHLCKLCGNB; // 0x30
+		::System::Int32 GCHLCKLCGNB; // 0x2C
+		::System::UInt32 NMALDHAIMCF; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDHFGKLGEBC_CTOR_OFFSET))(this);

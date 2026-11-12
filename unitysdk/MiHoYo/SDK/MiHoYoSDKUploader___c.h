@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFE5010)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAFE5050)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__COMBOSIGN_B__20_0_OFFSET UNITYSDK_OFFSET(0xAFE5120)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__GET_INSTANCE_B__10_0_OFFSET UNITYSDK_OFFSET(0xAFE5060)
-#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__POSTREQUEST_B__17_1_OFFSET UNITYSDK_OFFSET(0xAFE5070)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6462C0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB646300)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__COMBOSIGN_B__20_0_OFFSET UNITYSDK_OFFSET(0xB6463D0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__GET_INSTANCE_B__10_0_OFFSET UNITYSDK_OFFSET(0xB646310)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER___C__POSTREQUEST_B__17_1_OFFSET UNITYSDK_OFFSET(0xB646320)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKUploader___c_TypeDefinitionIndex = 46465;
+	inline static constexpr unsigned int MiHoYoSDKUploader___c_TypeDefinitionIndex = 47493;
 
 	class MiHoYoSDKUploader___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__17_1()
-		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2BF70);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2BF78);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__20_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2BF80);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x25990);
 		}
 
 		static ::System::Action** StaticGet___9__10_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2BF88);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x25998);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__20_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x259A0);
+		}
+
+		static ::System::Action** StaticGet___9__17_1()
+		{
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x259A8);
 		}
 
 		static ::System::Void _cctor()

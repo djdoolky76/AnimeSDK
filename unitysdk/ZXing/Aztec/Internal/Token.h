@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 namespace ZXing::Aztec::Internal { class Token; }
 
-#define ZXING_AZTEC_INTERNAL_TOKEN_ADDBINARYSHIFT_OFFSET UNITYSDK_OFFSET(0x1F6A34E0)
-#define ZXING_AZTEC_INTERNAL_TOKEN_ADD_OFFSET UNITYSDK_OFFSET(0x1F6A3440)
-#define ZXING_AZTEC_INTERNAL_TOKEN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6A3740)
-#define ZXING_AZTEC_INTERNAL_TOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F69CE00)
-#define ZXING_AZTEC_INTERNAL_TOKEN_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x1F6A3730)
+#define ZXING_AZTEC_INTERNAL_TOKEN_ADDBINARYSHIFT_OFFSET UNITYSDK_OFFSET(0x20952C50)
+#define ZXING_AZTEC_INTERNAL_TOKEN_ADD_OFFSET UNITYSDK_OFFSET(0x20952BB0)
+#define ZXING_AZTEC_INTERNAL_TOKEN_CCTOR_OFFSET UNITYSDK_OFFSET(0x20952EB0)
+#define ZXING_AZTEC_INTERNAL_TOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x2094C570)
+#define ZXING_AZTEC_INTERNAL_TOKEN_GET_PREVIOUS_OFFSET UNITYSDK_OFFSET(0x20952EA0)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int Token_TypeDefinitionIndex = 7017;
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 7028;
 
 	class Token : public ::System::Object
 	{
@@ -19,7 +19,7 @@ namespace ZXing::Aztec::Internal
 		::ZXing::Aztec::Internal::Token* previous; // 0x10
 		static ::ZXing::Aztec::Internal::Token** StaticGet_EMPTY()
 		{
-			return (::ZXing::Aztec::Internal::Token**)UnitySDK::FromName("ZXing.Aztec.Internal", "Token")->GetStaticField(0x21300);
+			return (::ZXing::Aztec::Internal::Token**)UnitySDK::FromName("ZXing.Aztec.Internal", "Token")->GetStaticField(0x41250);
 		}
 
 		::System::Void _ctor(::ZXing::Aztec::Internal::Token* a1)

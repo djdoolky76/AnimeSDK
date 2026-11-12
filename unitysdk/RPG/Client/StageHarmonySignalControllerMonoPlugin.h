@@ -6,13 +6,13 @@ namespace RPG::Client { class StageHarmonyCurve; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE114110)
-#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_PLAY_OFFSET UNITYSDK_OFFSET(0xE113F70)
-#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_STOP_OFFSET UNITYSDK_OFFSET(0xE114040)
+#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC0FA0)
+#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_PLAY_OFFSET UNITYSDK_OFFSET(0xEBC0E00)
+#define RPG_CLIENT_STAGEHARMONYSIGNALCONTROLLERMONOPLUGIN_STOP_OFFSET UNITYSDK_OFFSET(0xEBC0ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonySignalControllerMonoPlugin_TypeDefinitionIndex = 70985;
+	inline static constexpr unsigned int StageHarmonySignalControllerMonoPlugin_TypeDefinitionIndex = 72964;
 
 	class StageHarmonySignalControllerMonoPlugin
 	{

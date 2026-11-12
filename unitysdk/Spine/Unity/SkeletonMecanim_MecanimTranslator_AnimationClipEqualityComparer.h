@@ -4,21 +4,21 @@
 namespace System::Collections::Generic { template <typename T> class IEqualityComparer_1; }
 namespace UnityEngine { class AnimationClip; }
 
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED21A10)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED21A00)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1ED21920)
-#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1ED219B0)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFD1770)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFD1760)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x1FFD1680)
+#define SPINE_UNITY_SKELETONMECANIM_MECANIMTRANSLATOR_ANIMATIONCLIPEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1FFD1710)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_AnimationClipEqualityComparer_TypeDefinitionIndex = 45040;
+	inline static constexpr unsigned int SkeletonMecanim_MecanimTranslator_AnimationClipEqualityComparer_TypeDefinitionIndex = 46115;
 
 	class SkeletonMecanim_MecanimTranslator_AnimationClipEqualityComparer : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::AnimationClip*>** StaticGet_Instance()
 		{
-			return (::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::AnimationClip*>**)UnitySDK::FromName("Spine.Unity", "AnimationClipEqualityComparer")->GetStaticField(0x13A00);
+			return (::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::AnimationClip*>**)UnitySDK::FromName("Spine.Unity", "AnimationClipEqualityComparer")->GetStaticField(0xECD0);
 		}
 
 		::System::Void _ctor()

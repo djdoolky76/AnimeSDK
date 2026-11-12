@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define CHGHIALKMFM___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54ABB0)
-#define CHGHIALKMFM___C__DISPLAYCLASS33_0__ITERATECOVEREDCELLS_B__0_OFFSET UNITYSDK_OFFSET(0x1C54B810)
+#define CHGHIALKMFM___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CC580)
+#define CHGHIALKMFM___C__DISPLAYCLASS33_0__ITERATECOVEREDCELLS_B__0_OFFSET UNITYSDK_OFFSET(0x1D6CD1E0)
 
-inline static constexpr unsigned int CHGHIALKMFM___c__DisplayClass33_0_TypeDefinitionIndex = 41807;
+inline static constexpr unsigned int CHGHIALKMFM___c__DisplayClass33_0_TypeDefinitionIndex = 42782;
 
 	class CHGHIALKMFM___c__DisplayClass33_0 : public ::System::Object
 	{

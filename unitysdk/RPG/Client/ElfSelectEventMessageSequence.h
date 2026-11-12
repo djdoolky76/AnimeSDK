@@ -5,18 +5,18 @@ namespace RPG::Client { class ElfSelectEventMessageData; }
 namespace RPG::Client { class ElfSelectEventMessageSequence; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFSELECTEVENTMESSAGESEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE1610)
+#define RPG_CLIENT_ELFSELECTEVENTMESSAGESEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0xD7A88E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfSelectEventMessageSequence_TypeDefinitionIndex = 63672;
+	inline static constexpr unsigned int ElfSelectEventMessageSequence_TypeDefinitionIndex = 65114;
 
 	class ElfSelectEventMessageSequence : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ElfSelectEventMessageData*>* MessageList; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ElfSelectEventMessageSequence*>* OptionMessageSequenceList; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ElfSelectEventMessageData*>* OptionList; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ElfSelectEventMessageData*>* OptionList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ElfSelectEventMessageSequence*>* OptionMessageSequenceList; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFSELECTEVENTMESSAGESEQUENCE_CTOR_OFFSET))(this);

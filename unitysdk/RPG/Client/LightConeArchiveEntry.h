@@ -1,30 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BaseArchiveEntry.h"
-#include "unitysdk/RPG/GameCore/AvatarBaseType.h"
-namespace RPG::GameCore { class EquipmentRow; }
+namespace RPG::AvatarSystem { class AvatarPath; }
+namespace RPG::Client { class EquipmentData; }
 
-#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xD394F50)
-#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GETAVATARBASETYPE_OFFSET UNITYSDK_OFFSET(0xD395020)
-#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GET_ROW_OFFSET UNITYSDK_OFFSET(0xD394BB0)
-#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GET_SORTID_OFFSET UNITYSDK_OFFSET(0xD394F70)
+#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xDDCAF30)
+#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GETPATH_OFFSET UNITYSDK_OFFSET(0xDDCAB50)
+#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GET_EQUIPMENTDATA_OFFSET UNITYSDK_OFFSET(0xDDCAF50)
+#define RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GET_SORTID_OFFSET UNITYSDK_OFFSET(0xDDCAFC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeArchiveEntry_TypeDefinitionIndex = 62428;
+	inline static constexpr unsigned int LightConeArchiveEntry_TypeDefinitionIndex = 63841;
 
 	class LightConeArchiveEntry : public ::RPG::Client::BaseArchiveEntry
 	{
 	public:
-		::RPG::GameCore::EquipmentRow* _Row; // 0x20
+		::RPG::Client::EquipmentData* _EquipmentData; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEARCHIVEENTRY_CTOR_OFFSET))(this);
 		}
 
-		::RPG::GameCore::EquipmentRow* get_Row()
+		::RPG::Client::EquipmentData* get_EquipmentData()
 		{
-			return ((::RPG::GameCore::EquipmentRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GET_ROW_OFFSET))(this);
+			return ((::RPG::Client::EquipmentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GET_EQUIPMENTDATA_OFFSET))(this);
 		}
 
 		::System::Int32 get_SortID()
@@ -32,9 +32,9 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GET_SORTID_OFFSET))(this);
 		}
 
-		::RPG::GameCore::AvatarBaseType GetAvatarBaseType()
+		::RPG::AvatarSystem::AvatarPath* GetPath()
 		{
-			return ((::RPG::GameCore::AvatarBaseType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GETAVATARBASETYPE_OFFSET))(this);
+			return ((::RPG::AvatarSystem::AvatarPath*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIGHTCONEARCHIVEENTRY_GETPATH_OFFSET))(this);
 		}
 
 	};

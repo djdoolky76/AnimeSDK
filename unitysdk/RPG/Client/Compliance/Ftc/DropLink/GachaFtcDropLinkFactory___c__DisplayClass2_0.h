@@ -4,12 +4,12 @@
 namespace RPG::Client { class ItemData; }
 namespace System { class String; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_GACHAFTCDROPLINKFACTORY___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAF6E0)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_GACHAFTCDROPLINKFACTORY___C__DISPLAYCLASS2_0___CREATEFORGACHANORMALTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0xCBAF7F0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_GACHAFTCDROPLINKFACTORY___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD523520)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_GACHAFTCDROPLINKFACTORY___C__DISPLAYCLASS2_0___CREATEFORGACHANORMALTOKEN_B__0_OFFSET UNITYSDK_OFFSET(0xD523630)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int GachaFtcDropLinkFactory___c__DisplayClass2_0_TypeDefinitionIndex = 74824;
+	inline static constexpr unsigned int GachaFtcDropLinkFactory___c__DisplayClass2_0_TypeDefinitionIndex = 76994;
 
 	class GachaFtcDropLinkFactory___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class EBOAECKDKNN;
 namespace System { class Object; }
 
-#define EBOAECKDKNN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E245FD0)
-#define EBOAECKDKNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E246000)
-#define EBOAECKDKNN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E246010)
+#define EBOAECKDKNN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F543140)
+#define EBOAECKDKNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F543170)
+#define EBOAECKDKNN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F543180)
 
-inline static constexpr unsigned int EBOAECKDKNN___c_TypeDefinitionIndex = 26503;
+inline static constexpr unsigned int EBOAECKDKNN___c_TypeDefinitionIndex = 27034;
 
 	class EBOAECKDKNN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C8C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C760);
 		}
 
 		static ::System::Void _cctor()

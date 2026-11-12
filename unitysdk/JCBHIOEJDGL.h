@@ -3,10 +3,10 @@
 #include "unitysdk/GEJKIKIKHFK.h"
 namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 
-#define JCBHIOEJDGL_AMPLNFFNNJI_OFFSET UNITYSDK_OFFSET(0x16579B70)
-#define JCBHIOEJDGL_CTOR_OFFSET UNITYSDK_OFFSET(0x16579B60)
+#define JCBHIOEJDGL_AMPLNFFNNJI_OFFSET UNITYSDK_OFFSET(0xB8B2D10)
+#define JCBHIOEJDGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B2D00)
 
-inline static constexpr unsigned int JCBHIOEJDGL_TypeDefinitionIndex = 63478;
+inline static constexpr unsigned int JCBHIOEJDGL_TypeDefinitionIndex = 64916;
 
 	class JCBHIOEJDGL : public ::GEJKIKIKHFK
 	{

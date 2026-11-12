@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define IMMNFMOPJOH_JMEOAHJLNNG_OFFSET UNITYSDK_OFFSET(0x164E0EE0)
+#define IMMNFMOPJOH_JMEOAHJLNNG_OFFSET UNITYSDK_OFFSET(0xB810810)
 
-inline static constexpr unsigned int IMMNFMOPJOH_TypeDefinitionIndex = 69817;
+inline static constexpr unsigned int IMMNFMOPJOH_TypeDefinitionIndex = 71776;
 
 	class IMMNFMOPJOH : public ::System::Object
 	{

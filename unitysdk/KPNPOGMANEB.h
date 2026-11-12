@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFiveDimEntityAttachTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KPNPOGMANEB_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CE840)
-#define KPNPOGMANEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5CE870)
+#define KPNPOGMANEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE23110)
+#define KPNPOGMANEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE23140)
 
-inline static constexpr unsigned int KPNPOGMANEB_TypeDefinitionIndex = 52889;
+inline static constexpr unsigned int KPNPOGMANEB_TypeDefinitionIndex = 54045;
 
 	class KPNPOGMANEB
 	{

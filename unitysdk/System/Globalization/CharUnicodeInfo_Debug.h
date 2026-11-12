@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1C212770)
+#define SYSTEM_GLOBALIZATION_CHARUNICODEINFO_DEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1D3993E0)
 
 namespace System::Globalization
 {

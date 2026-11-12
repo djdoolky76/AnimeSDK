@@ -7,22 +7,22 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define PPAJKILOCOI_CCTOR_OFFSET UNITYSDK_OFFSET(0xC37A4E0)
-#define PPAJKILOCOI_DKLLOMMLDJB_OFFSET UNITYSDK_OFFSET(0xC37A0E0)
-#define PPAJKILOCOI_DLHACJMNKEM_OFFSET UNITYSDK_OFFSET(0xC37A210)
-#define PPAJKILOCOI_HIBDOFIDBIB_OFFSET UNITYSDK_OFFSET(0xC37A360)
-#define PPAJKILOCOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC377C80)
-#define PPAJKILOCOI_LBMJMGMMALD_OFFSET UNITYSDK_OFFSET(0xC37A300)
-#define PPAJKILOCOI_LMLNKBPEDBI_OFFSET UNITYSDK_OFFSET(0xC37A040)
+#define PPAJKILOCOI_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCAFCE0)
+#define PPAJKILOCOI_DKLLOMMLDJB_OFFSET UNITYSDK_OFFSET(0xCCAF8E0)
+#define PPAJKILOCOI_DLHACJMNKEM_OFFSET UNITYSDK_OFFSET(0xCCAFA10)
+#define PPAJKILOCOI_HIBDOFIDBIB_OFFSET UNITYSDK_OFFSET(0xCCAFB60)
+#define PPAJKILOCOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCCAD230)
+#define PPAJKILOCOI_LBMJMGMMALD_OFFSET UNITYSDK_OFFSET(0xCCAFB00)
+#define PPAJKILOCOI_LMLNKBPEDBI_OFFSET UNITYSDK_OFFSET(0xCCAF840)
 
-inline static constexpr unsigned int PPAJKILOCOI_TypeDefinitionIndex = 59291;
+inline static constexpr unsigned int PPAJKILOCOI_TypeDefinitionIndex = 60568;
 
 	class PPAJKILOCOI : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::UInt16>** StaticGet_MKOKMGIHECP()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt16>**)UnitySDK::FromName("", "PPAJKILOCOI")->GetStaticField(0xBAA0);
+			return (::System::Collections::Generic::HashSet_1<::System::UInt16>**)UnitySDK::FromName("", "PPAJKILOCOI")->GetStaticField(0xAE00);
 		}
 
 		static ::System::Void _cctor()

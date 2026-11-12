@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CreateAvatarAssistant; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CBFDMGJCCHA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A1CF0)
-#define CBFDMGJCCHA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4A1D00)
-#define CBFDMGJCCHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4A1D40)
-#define CBFDMGJCCHA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC4A1D90)
-#define CBFDMGJCCHA_TICK_OFFSET UNITYSDK_OFFSET(0xC4A1DE0)
+#define CBFDMGJCCHA_CTOR_OFFSET UNITYSDK_OFFSET(0xCE0AED0)
+#define CBFDMGJCCHA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE0AEE0)
+#define CBFDMGJCCHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE0AF20)
+#define CBFDMGJCCHA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCE0AF70)
+#define CBFDMGJCCHA_TICK_OFFSET UNITYSDK_OFFSET(0xCE0AFC0)
 
-inline static constexpr unsigned int CBFDMGJCCHA_TypeDefinitionIndex = 58038;
+inline static constexpr unsigned int CBFDMGJCCHA_TypeDefinitionIndex = 59277;
 
 	class CBFDMGJCCHA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CreateAvatarAssistant* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CreateAvatarAssistant* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateAvatarAssistant* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CreateAvatarAssistant*))((::PBYTE)hIl2Cpp + CBFDMGJCCHA_CTOR_OFFSET))(this, a1, a2);

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EvolveGearConfig; }
 
-#define RPG_GAMECORE_EVOLVEGEARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68AE30)
-#define RPG_GAMECORE_EVOLVEGEARCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D68AD10)
+#define RPG_GAMECORE_EVOLVEGEARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8973A0)
+#define RPG_GAMECORE_EVOLVEGEARCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E897280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveGearConfig_TypeDefinitionIndex = 13073;
+	inline static constexpr unsigned int EvolveGearConfig_TypeDefinitionIndex = 13141;
 
 	class EvolveGearConfig : public ::System::Object
 	{

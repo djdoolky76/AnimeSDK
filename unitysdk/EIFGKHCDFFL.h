@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EIFGKHCDFFL_CTOR_OFFSET UNITYSDK_OFFSET(0x154C1A90)
+#define EIFGKHCDFFL_CTOR_OFFSET UNITYSDK_OFFSET(0x16400400)
 
-inline static constexpr unsigned int EIFGKHCDFFL_TypeDefinitionIndex = 59994;
+inline static constexpr unsigned int EIFGKHCDFFL_TypeDefinitionIndex = 61278;
 
 	class EIFGKHCDFFL : public ::System::Object
 	{
@@ -460,6 +460,10 @@ inline static constexpr unsigned int EIFGKHCDFFL_TypeDefinitionIndex = 59994;
 		// static const ::System::String* GEMNMOFLMJP; // 0x0
 		// static const ::System::Object JHAABBKLICI; // 0x0
 		// static const ::System::String* CGNAJEEDIOH; // 0x0
+		// static const ::System::Object LNKNLMKGNPN; // 0x0
+		// static const ::System::String* EDJCGPHBDKH; // 0x0
+		// static const ::System::Object ANBIOBCFGJC; // 0x0
+		// static const ::System::String* LDDJJCGLMDN; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EIFGKHCDFFL_CTOR_OFFSET))(this);

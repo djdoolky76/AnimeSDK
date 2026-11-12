@@ -5,20 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StrongChallengeBossDetailRow; }
 
-#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2BDC0)
-#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB2BBD0)
+#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDB5A0)
+#define RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EDDB3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StrongChallengeBossDetailRow_TypeDefinitionIndex = 12403;
+	inline static constexpr unsigned int StrongChallengeBossDetailRow_TypeDefinitionIndex = 12470;
 
 	class StrongChallengeBossDetailRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BossDetailID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Detail; // 0x18
-		::RPG::Client::TextID Name; // 0x28
+		::RPG::Client::TextID Name; // 0x10
+		::RPG::Client::TextID Detail; // 0x20
+		::System::UInt32 BossDetailID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STRONGCHALLENGEBOSSDETAILROW_CTOR_OFFSET))(this);

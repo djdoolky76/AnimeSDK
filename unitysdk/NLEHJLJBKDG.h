@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class CKMLAGBDPIL;
 
-inline static constexpr unsigned int NLEHJLJBKDG_TypeDefinitionIndex = 54239;
+inline static constexpr unsigned int NLEHJLJBKDG_TypeDefinitionIndex = 55403;
 
 	struct alignas(8) NLEHJLJBKDG
 	{

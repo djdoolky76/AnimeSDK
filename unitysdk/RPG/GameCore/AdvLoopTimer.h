@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvLoopTimer; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A3150)
-#define RPG_GAMECORE_ADVLOOPTIMER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A3160)
-#define RPG_GAMECORE_ADVLOOPTIMER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A3120)
+#define RPG_GAMECORE_ADVLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B2900)
+#define RPG_GAMECORE_ADVLOOPTIMER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B2910)
+#define RPG_GAMECORE_ADVLOOPTIMER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B28D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvLoopTimer_TypeDefinitionIndex = 21229;
+	inline static constexpr unsigned int AdvLoopTimer_TypeDefinitionIndex = 21572;
 
 	class AdvLoopTimer : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdjoinType_TypeDefinitionIndex = 24797;
+	inline static constexpr unsigned int AdjoinType_TypeDefinitionIndex = 25277;
 
 	enum class AdjoinType : ::System::UInt16
 	{

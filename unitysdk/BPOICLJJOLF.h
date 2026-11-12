@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define BPOICLJJOLF_CTOR_OFFSET UNITYSDK_OFFSET(0xC1ADB60)
-#define BPOICLJJOLF_GET_ONFINISH_OFFSET UNITYSDK_OFFSET(0xC1ADB70)
+#define BPOICLJJOLF_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4ED50)
+#define BPOICLJJOLF_GET_ONFINISH_OFFSET UNITYSDK_OFFSET(0xCB4ED60)
 
-inline static constexpr unsigned int BPOICLJJOLF_TypeDefinitionIndex = 76063;
+inline static constexpr unsigned int BPOICLJJOLF_TypeDefinitionIndex = 78390;
 
 	class BPOICLJJOLF : public ::System::Object
 	{

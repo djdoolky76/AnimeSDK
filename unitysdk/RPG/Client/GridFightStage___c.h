@@ -3,74 +3,67 @@
 #include "unitysdk/System/Object.h"
 class LAAMIAJFOMC;
 class LHNCMINFONJ;
-namespace RPG::Client { class GridFightEnemyDifficultyModifier; }
 namespace RPG::Client { class GridFightMonsterAffixConfig; }
 namespace RPG::Client { class GridFightMonsterCampConfig; }
 namespace RPG::Client { class GridFightStageNode; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD286DF0)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD286E30)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__105_0_OFFSET UNITYSDK_OFFSET(0xD287170)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__105_1_OFFSET UNITYSDK_OFFSET(0xD287230)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__107_0_OFFSET UNITYSDK_OFFSET(0xD287240)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__107_1_OFFSET UNITYSDK_OFFSET(0xD287300)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_DIFFICULTYMODIFYVALUE_B__42_1_OFFSET UNITYSDK_OFFSET(0xD286E40)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTBATTENODE_B__89_0_OFFSET UNITYSDK_OFFSET(0xD286E60)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTMONSTERNODE_B__91_0_OFFSET UNITYSDK_OFFSET(0xD287110)
-#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_PROGRESS_B__95_0_OFFSET UNITYSDK_OFFSET(0xD287150)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC96220)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC96260)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__107_0_OFFSET UNITYSDK_OFFSET(0xDC963B0)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__107_1_OFFSET UNITYSDK_OFFSET(0xDC96470)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__109_0_OFFSET UNITYSDK_OFFSET(0xDC96480)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__109_1_OFFSET UNITYSDK_OFFSET(0xDC96620)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTBATTENODE_B__91_0_OFFSET UNITYSDK_OFFSET(0xDC96270)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTMONSTERNODE_B__93_0_OFFSET UNITYSDK_OFFSET(0xDC96350)
+#define RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_PROGRESS_B__97_0_OFFSET UNITYSDK_OFFSET(0xDC96390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStage___c_TypeDefinitionIndex = 65244;
+	inline static constexpr unsigned int GridFightStage___c_TypeDefinitionIndex = 66994;
 
 	class GridFightStage___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>** StaticGet___9__89_0()
+		static ::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>** StaticGet___9__93_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E940);
+			return (::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE20);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightMonsterAffixConfig*, ::System::Boolean>** StaticGet___9__105_1()
+		static ::System::Func_2<::RPG::Client::GridFightMonsterCampConfig*, ::System::Boolean>** StaticGet___9__109_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightMonsterAffixConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E948);
+			return (::System::Func_2<::RPG::Client::GridFightMonsterCampConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE28);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>** StaticGet___9__97_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E950);
+			return (::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE30);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>** StaticGet___9__95_0()
+		static ::System::Func_2<::RPG::Client::GridFightMonsterAffixConfig*, ::System::Boolean>** StaticGet___9__107_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E958);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightEnemyDifficultyModifier*, ::System::Int32>** StaticGet___9__42_1()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEnemyDifficultyModifier*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E960);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightMonsterCampConfig*, ::System::Boolean>** StaticGet___9__107_1()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightMonsterCampConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E968);
-		}
-
-		static ::System::Func_2<::LHNCMINFONJ*, ::RPG::Client::GridFightMonsterCampConfig*>** StaticGet___9__107_0()
-		{
-			return (::System::Func_2<::LHNCMINFONJ*, ::RPG::Client::GridFightMonsterCampConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E970);
+			return (::System::Func_2<::RPG::Client::GridFightMonsterAffixConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE38);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>** StaticGet___9__91_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E978);
+			return (::System::Func_2<::RPG::Client::GridFightStageNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE40);
 		}
 
-		static ::System::Func_2<::LAAMIAJFOMC*, ::RPG::Client::GridFightMonsterAffixConfig*>** StaticGet___9__105_0()
+		static ::System::Func_2<::LHNCMINFONJ*, ::RPG::Client::GridFightMonsterCampConfig*>** StaticGet___9__109_0()
 		{
-			return (::System::Func_2<::LAAMIAJFOMC*, ::RPG::Client::GridFightMonsterAffixConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E980);
+			return (::System::Func_2<::LHNCMINFONJ*, ::RPG::Client::GridFightMonsterCampConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE48);
+		}
+
+		static ::System::Func_2<::LAAMIAJFOMC*, ::RPG::Client::GridFightMonsterAffixConfig*>** StaticGet___9__107_0()
+		{
+			return (::System::Func_2<::LAAMIAJFOMC*, ::RPG::Client::GridFightMonsterAffixConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE50);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEE58);
 		}
 
 		static ::System::Void _cctor()
@@ -83,44 +76,39 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _get_DifficultyModifyValue_b__42_1(::RPG::Client::GridFightEnemyDifficultyModifier* a1)
+		::System::Boolean _get_LatestBatteNode_b__91_0(::RPG::Client::GridFightStageNode* a1)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::GridFightEnemyDifficultyModifier*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_DIFFICULTYMODIFYVALUE_B__42_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTBATTENODE_B__91_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_LatestBatteNode_b__89_0(::RPG::Client::GridFightStageNode* a1)
+		::System::Boolean _get_LatestMonsterNode_b__93_0(::RPG::Client::GridFightStageNode* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTBATTENODE_B__89_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTMONSTERNODE_B__93_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_LatestMonsterNode_b__91_0(::RPG::Client::GridFightStageNode* a1)
+		::System::Boolean _get_Progress_b__97_0(::RPG::Client::GridFightStageNode* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_LATESTMONSTERNODE_B__91_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_PROGRESS_B__97_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_Progress_b__95_0(::RPG::Client::GridFightStageNode* a1)
+		::RPG::Client::GridFightMonsterAffixConfig* _get_AffixDataList_b__107_0(::LAAMIAJFOMC* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightStageNode*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_PROGRESS_B__95_0_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightMonsterAffixConfig*(*)(::PVOID, ::LAAMIAJFOMC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__107_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightMonsterAffixConfig* _get_AffixDataList_b__105_0(::LAAMIAJFOMC* a1)
+		::System::Boolean _get_AffixDataList_b__107_1(::RPG::Client::GridFightMonsterAffixConfig* a1)
 		{
-			return ((::RPG::Client::GridFightMonsterAffixConfig*(*)(::PVOID, ::LAAMIAJFOMC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__105_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightMonsterAffixConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__107_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_AffixDataList_b__105_1(::RPG::Client::GridFightMonsterAffixConfig* a1)
+		::RPG::Client::GridFightMonsterCampConfig* _get_CampDataList_b__109_0(::LHNCMINFONJ* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightMonsterAffixConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_AFFIXDATALIST_B__105_1_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightMonsterCampConfig*(*)(::PVOID, ::LHNCMINFONJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__109_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightMonsterCampConfig* _get_CampDataList_b__107_0(::LHNCMINFONJ* a1)
+		::System::Boolean _get_CampDataList_b__109_1(::RPG::Client::GridFightMonsterCampConfig* a1)
 		{
-			return ((::RPG::Client::GridFightMonsterCampConfig*(*)(::PVOID, ::LHNCMINFONJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__107_0_OFFSET))(this, a1);
-		}
-
-		::System::Boolean _get_CampDataList_b__107_1(::RPG::Client::GridFightMonsterCampConfig* a1)
-		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightMonsterCampConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__107_1_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightMonsterCampConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGE___C__GET_CAMPDATALIST_B__109_1_OFFSET))(this, a1);
 		}
 
 	};

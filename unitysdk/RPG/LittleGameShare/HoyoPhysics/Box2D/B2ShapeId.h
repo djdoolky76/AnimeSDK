@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEID_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2BFD0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SHAPEID_CTOR_OFFSET UNITYSDK_OFFSET(0x3E7AFB0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeId_TypeDefinitionIndex = 36766;
+	inline static constexpr unsigned int B2ShapeId_TypeDefinitionIndex = 37694;
 
 	struct alignas(8) B2ShapeId
 	{

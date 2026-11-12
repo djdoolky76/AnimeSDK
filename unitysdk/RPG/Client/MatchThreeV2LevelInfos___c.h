@@ -5,31 +5,31 @@ namespace RPG::Client { class MatchThreeV2LevelData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5BAF90)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5BAFC0)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C__GETREQUIREDSUBMISSIONIDS_B__7_0_OFFSET UNITYSDK_OFFSET(0xD5BAFD0)
-#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C__GETREQUIREDSUBMISSIONIDS_B__7_1_OFFSET UNITYSDK_OFFSET(0xD5BAFF0)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE00D470)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE00D4A0)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C__GETREQUIREDSUBMISSIONIDS_B__7_0_OFFSET UNITYSDK_OFFSET(0xE00D4B0)
+#define RPG_CLIENT_MATCHTHREEV2LEVELINFOS___C__GETREQUIREDSUBMISSIONIDS_B__7_1_OFFSET UNITYSDK_OFFSET(0xE00D4D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2LevelInfos___c_TypeDefinitionIndex = 66003;
+	inline static constexpr unsigned int MatchThreeV2LevelInfos___c_TypeDefinitionIndex = 67935;
 
 	class MatchThreeV2LevelInfos___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__7_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55040);
-		}
-
-		static ::System::Func_2<::RPG::Client::MatchThreeV2LevelData*, ::System::UInt32>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::MatchThreeV2LevelData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55048);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C9E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55050);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C9E8);
+		}
+
+		static ::System::Func_2<::RPG::Client::MatchThreeV2LevelData*, ::System::UInt32>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::MatchThreeV2LevelData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C9F0);
 		}
 
 		static ::System::Void _cctor()

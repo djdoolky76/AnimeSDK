@@ -4,12 +4,12 @@
 class KOLCCDIJBGO;
 namespace RPG::Client { class FateBuffData; }
 
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE827E0)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0__SYNCBUFFUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xCE85780)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD84D9F0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__DISPLAYCLASS3_0__SYNCBUFFUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xD84DA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass3_0_TypeDefinitionIndex = 64002;
+	inline static constexpr unsigned int FateBuffTraitInfo___c__DisplayClass3_0_TypeDefinitionIndex = 65447;
 
 	class FateBuffTraitInfo___c__DisplayClass3_0 : public ::System::Object
 	{

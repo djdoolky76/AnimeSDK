@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class RawImage; }
 
-inline static constexpr unsigned int PHLPHOICCDI___c__0_1_TypeDefinitionIndex = 49940;
+inline static constexpr unsigned int PHLPHOICCDI___c__0_1_TypeDefinitionIndex = 50988;
 
 	template <typename T>
 	class PHLPHOICCDI___c__0_1 : public ::System::Object

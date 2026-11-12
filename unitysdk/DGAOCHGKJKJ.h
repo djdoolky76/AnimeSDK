@@ -8,17 +8,17 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DGAOCHGKJKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1B6A0)
-#define DGAOCHGKJKJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD1B6B0)
-#define DGAOCHGKJKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD1B670)
+#define DGAOCHGKJKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE82C0)
+#define DGAOCHGKJKJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DEE82D0)
+#define DGAOCHGKJKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEE8290)
 
-inline static constexpr unsigned int DGAOCHGKJKJ_TypeDefinitionIndex = 22477;
+inline static constexpr unsigned int DGAOCHGKJKJ_TypeDefinitionIndex = 22886;
 
 	class DGAOCHGKJKJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillLayoutKey, ::RPG::GameCore::ControlSkillType>* GHOBEHHNMEC; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::SkillLayoutKey, ::RPG::GameCore::ControlSkillType>* GHOBEHHNMEC; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::System::Boolean JHLNDMMBMJP; // 0x28
 		::System::Void _ctor()
 		{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define GIFGNANJKPO_CLEAR_OFFSET UNITYSDK_OFFSET(0x15A34370)
-#define GIFGNANJKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A343C0)
+#define GIFGNANJKPO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1696EA90)
+#define GIFGNANJKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1696EAE0)
 
-inline static constexpr unsigned int GIFGNANJKPO_TypeDefinitionIndex = 57655;
+inline static constexpr unsigned int GIFGNANJKPO_TypeDefinitionIndex = 58885;
 
 	class GIFGNANJKPO : public ::System::Object
 	{

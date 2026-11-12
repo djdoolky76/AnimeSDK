@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define LODKHMFCLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1B470)
+#define LODKHMFCLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F240)
 
-inline static constexpr unsigned int LODKHMFCLOG_TypeDefinitionIndex = 57305;
+inline static constexpr unsigned int LODKHMFCLOG_TypeDefinitionIndex = 58533;
 
 	struct alignas(8) LODKHMFCLOG
 	{

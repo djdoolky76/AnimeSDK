@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PHAOIGLGBMG_TypeDefinitionIndex = 33591;
+inline static constexpr unsigned int PHAOIGLGBMG_TypeDefinitionIndex = 34506;
 
 	enum class PHAOIGLGBMG : ::System::Int32
 	{

@@ -6,23 +6,23 @@ namespace RPG::Client { class AudiencePrefabSpecialTag_Blink; }
 namespace RPG::GameCore { class CharacterAtlasFaceSet; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HGPOFIGCPAM_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB38F0)
-#define HGPOFIGCPAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CB3D20)
-#define HGPOFIGCPAM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15CB3D70)
-#define HGPOFIGCPAM_MEFIGIGJAAF_OFFSET UNITYSDK_OFFSET(0x15CB3B80)
-#define HGPOFIGCPAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15CB3980)
+#define HGPOFIGCPAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16BFF810)
+#define HGPOFIGCPAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16BFFC40)
+#define HGPOFIGCPAM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16BFFC90)
+#define HGPOFIGCPAM_MEFIGIGJAAF_OFFSET UNITYSDK_OFFSET(0x16BFFAA0)
+#define HGPOFIGCPAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x16BFF8A0)
 
-inline static constexpr unsigned int HGPOFIGCPAM_TypeDefinitionIndex = 69138;
+inline static constexpr unsigned int HGPOFIGCPAM_TypeDefinitionIndex = 71091;
 
 	class HGPOFIGCPAM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Int32>* OIKPPAFNOEJ; // 0x10
-		::RPG::Client::AudiencePrefabSpecialTag_Blink* EIALGCHCOCN; // 0x18
-		::RPG::GameCore::CharacterAtlasFaceSet* IBOHAFFKOJN; // 0x20
+		::RPG::GameCore::CharacterAtlasFaceSet* IBOHAFFKOJN; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* OIKPPAFNOEJ; // 0x18
+		::RPG::Client::AudiencePrefabSpecialTag_Blink* EIALGCHCOCN; // 0x20
 		::FLIGGMCNCHM* EDLCJHNBKDN; // 0x28
-		::System::Single CLLHFCJIAHB; // 0x30
-		::System::Single MLHIGPBLBPN; // 0x34
+		::System::Single MLHIGPBLBPN; // 0x30
+		::System::Single CLLHFCJIAHB; // 0x34
 		::System::Void _ctor(::FLIGGMCNCHM* a1, ::RPG::Client::AudiencePrefabSpecialTag_Blink* a2, ::RPG::GameCore::CharacterAtlasFaceSet* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::FLIGGMCNCHM*, ::RPG::Client::AudiencePrefabSpecialTag_Blink*, ::RPG::GameCore::CharacterAtlasFaceSet*))((::PBYTE)hIl2Cpp + HGPOFIGCPAM_CTOR_OFFSET))(this, a1, a2, a3);

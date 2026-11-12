@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTeamLeader; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMNOOJKLHEA_CTOR_OFFSET UNITYSDK_OFFSET(0x164E11A0)
-#define IMNOOJKLHEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164E11D0)
+#define IMNOOJKLHEA_CTOR_OFFSET UNITYSDK_OFFSET(0xB810AD0)
+#define IMNOOJKLHEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB810B00)
 
-inline static constexpr unsigned int IMNOOJKLHEA_TypeDefinitionIndex = 53150;
+inline static constexpr unsigned int IMNOOJKLHEA_TypeDefinitionIndex = 54312;
 
 	class IMNOOJKLHEA
 	{

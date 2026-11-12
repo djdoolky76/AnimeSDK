@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerPamActionPhaseSettle; }
 
-#define BMACDJHPGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA85660)
-#define BMACDJHPGPP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA85670)
-#define BMACDJHPGPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA856B0)
-#define BMACDJHPGPP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA85750)
-#define BMACDJHPGPP_TICK_OFFSET UNITYSDK_OFFSET(0xBA857A0)
+#define BMACDJHPGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xC417BF0)
+#define BMACDJHPGPP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC417C00)
+#define BMACDJHPGPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC417C40)
+#define BMACDJHPGPP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC417CE0)
+#define BMACDJHPGPP_TICK_OFFSET UNITYSDK_OFFSET(0xC417D30)
 
-inline static constexpr unsigned int BMACDJHPGPP_TypeDefinitionIndex = 58981;
+inline static constexpr unsigned int BMACDJHPGPP_TypeDefinitionIndex = 60254;
 
 	class BMACDJHPGPP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TriggerPamActionPhaseSettle* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TriggerPamActionPhaseSettle* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerPamActionPhaseSettle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerPamActionPhaseSettle*))((::PBYTE)hIl2Cpp + BMACDJHPGPP_CTOR_OFFSET))(this, a1, a2);

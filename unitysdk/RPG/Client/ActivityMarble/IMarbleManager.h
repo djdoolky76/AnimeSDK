@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int IMarbleManager_TypeDefinitionIndex = 75961;
+	inline static constexpr unsigned int IMarbleManager_TypeDefinitionIndex = 78288;
 
 	class IMarbleManager
 	{

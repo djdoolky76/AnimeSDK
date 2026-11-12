@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MissionModule; }
 
-#define BLNHAGFEPKF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7EB80)
-#define BLNHAGFEPKF___C__DISPLAYCLASS6_0___ACCEPTANDTRACKPREMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xBA7ED60)
+#define BLNHAGFEPKF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC410D90)
+#define BLNHAGFEPKF___C__DISPLAYCLASS6_0___ACCEPTANDTRACKPREMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xC410F70)
 
-inline static constexpr unsigned int BLNHAGFEPKF___c__DisplayClass6_0_TypeDefinitionIndex = 53080;
+inline static constexpr unsigned int BLNHAGFEPKF___c__DisplayClass6_0_TypeDefinitionIndex = 54241;
 
 	class BLNHAGFEPKF___c__DisplayClass6_0 : public ::System::Object
 	{

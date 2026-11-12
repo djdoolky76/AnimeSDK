@@ -5,23 +5,23 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define IBJPMEHJNMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E3C9F0)
-#define IBJPMEHJNMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E3CA20)
-#define IBJPMEHJNMA___C__ONTASKBEGIN_B__3_1_OFFSET UNITYSDK_OFFSET(0x15E3CA30)
+#define IBJPMEHJNMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16DE7550)
+#define IBJPMEHJNMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16DE7580)
+#define IBJPMEHJNMA___C__ONTASKBEGIN_B__3_1_OFFSET UNITYSDK_OFFSET(0x16DE7590)
 
-inline static constexpr unsigned int IBJPMEHJNMA___c_TypeDefinitionIndex = 55750;
+inline static constexpr unsigned int IBJPMEHJNMA___c_TypeDefinitionIndex = 56952;
 
 	class IBJPMEHJNMA___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__3_1()
-		{
-			return (::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48FA0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48FA8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30D90);
+		}
+
+		static ::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__3_1()
+		{
+			return (::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30D98);
 		}
 
 		static ::System::Void _cctor()

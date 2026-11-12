@@ -5,23 +5,23 @@ class LFCKLPMBGGI;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define GDFPOKAIKEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C479410)
-#define GDFPOKAIKEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C479450)
-#define GDFPOKAIKEE___C__LOAD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C479460)
+#define GDFPOKAIKEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5FD380)
+#define GDFPOKAIKEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FD3C0)
+#define GDFPOKAIKEE___C__LOAD_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D5FD3D0)
 
-inline static constexpr unsigned int GDFPOKAIKEE___c_TypeDefinitionIndex = 41539;
+inline static constexpr unsigned int GDFPOKAIKEE___c_TypeDefinitionIndex = 42514;
 
 	class GDFPOKAIKEE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x120A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70FA0);
 		}
 
 		static ::System::Comparison_1<::LFCKLPMBGGI*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::LFCKLPMBGGI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x120A8);
+			return (::System::Comparison_1<::LFCKLPMBGGI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70FA8);
 		}
 
 		static ::System::Void _cctor()

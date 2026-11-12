@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/CustomRP/DLSSPass_Resolution.h"
 #include "unitysdk/UnityEngine/NVIDIA/DLSSQuality.h"
 
-#define RPG_CUSTOMRP_DLSSPASS_DLSSVIEWDATA_CANFITINPUT_OFFSET UNITYSDK_OFFSET(0x3C34650)
+#define RPG_CUSTOMRP_DLSSPASS_DLSSVIEWDATA_CANFITINPUT_OFFSET UNITYSDK_OFFSET(0x3E835F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass_DlssViewData_TypeDefinitionIndex = 37558;
+	inline static constexpr unsigned int DLSSPass_DlssViewData_TypeDefinitionIndex = 38486;
 
 	struct alignas(4) DLSSPass_DlssViewData
 	{

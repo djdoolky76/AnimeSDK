@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DevTalkInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEVTALKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FE130)
-#define RPG_GAMECORE_DEVTALKINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FDFB0)
+#define RPG_GAMECORE_DEVTALKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E811390)
+#define RPG_GAMECORE_DEVTALKINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E811210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DevTalkInfo_TypeDefinitionIndex = 21134;
+	inline static constexpr unsigned int DevTalkInfo_TypeDefinitionIndex = 21475;
 
 	class DevTalkInfo : public ::RPG::GameCore::JsonConfig
 	{

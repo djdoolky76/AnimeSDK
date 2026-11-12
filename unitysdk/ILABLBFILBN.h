@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyEvolveBuildProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILABLBFILBN_CTOR_OFFSET UNITYSDK_OFFSET(0x164A1710)
-#define ILABLBFILBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164A1740)
+#define ILABLBFILBN_CTOR_OFFSET UNITYSDK_OFFSET(0x174757B0)
+#define ILABLBFILBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x174757E0)
 
-inline static constexpr unsigned int ILABLBFILBN_TypeDefinitionIndex = 55199;
+inline static constexpr unsigned int ILABLBFILBN_TypeDefinitionIndex = 56380;
 
 	class ILABLBFILBN
 	{

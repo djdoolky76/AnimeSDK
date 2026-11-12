@@ -6,18 +6,18 @@ class EBMOBIGHCLP;
 class GLLIPCNMDBO;
 class HGJFHGEPFPP;
 
-#define EBMOBIGHCLP_CCTOR_OFFSET UNITYSDK_OFFSET(0x12D03DA0)
-#define EBMOBIGHCLP_CTOR_OFFSET UNITYSDK_OFFSET(0x12D03D90)
-#define EBMOBIGHCLP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x12D03D10)
+#define EBMOBIGHCLP_CCTOR_OFFSET UNITYSDK_OFFSET(0x13AB5000)
+#define EBMOBIGHCLP_CTOR_OFFSET UNITYSDK_OFFSET(0x13AB4FF0)
+#define EBMOBIGHCLP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x13AB4F70)
 
-inline static constexpr unsigned int EBMOBIGHCLP_TypeDefinitionIndex = 77297;
+inline static constexpr unsigned int EBMOBIGHCLP_TypeDefinitionIndex = 79631;
 
 	class EBMOBIGHCLP : public ::System::Object
 	{
 	public:
 		static ::EBMOBIGHCLP** StaticGet_FMJPMFEDIJL()
 		{
-			return (::EBMOBIGHCLP**)UnitySDK::FromName("", "EBMOBIGHCLP")->GetStaticField(0x6C230);
+			return (::EBMOBIGHCLP**)UnitySDK::FromName("", "EBMOBIGHCLP")->GetStaticField(0x65D40);
 		}
 
 		::System::Void _ctor()

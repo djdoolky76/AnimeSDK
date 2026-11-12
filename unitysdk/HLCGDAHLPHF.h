@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HLCGDAHLPHF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CEBE690)
-#define HLCGDAHLPHF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEBEC60)
-#define HLCGDAHLPHF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CEBE800)
-#define HLCGDAHLPHF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CEBE100)
-#define HLCGDAHLPHF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CEBE390)
-#define HLCGDAHLPHF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CEBE8A0)
-#define HLCGDAHLPHF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CEBE8F0)
-#define HLCGDAHLPHF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CEBE6D0)
-#define HLCGDAHLPHF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CEBE330)
-#define HLCGDAHLPHF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CEBE500)
-#define HLCGDAHLPHF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEBE760)
-#define HLCGDAHLPHF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEBE080)
+#define HLCGDAHLPHF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E09F300)
+#define HLCGDAHLPHF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E09F8D0)
+#define HLCGDAHLPHF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E09F470)
+#define HLCGDAHLPHF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E09ED70)
+#define HLCGDAHLPHF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E09F000)
+#define HLCGDAHLPHF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E09F510)
+#define HLCGDAHLPHF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E09F560)
+#define HLCGDAHLPHF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E09F340)
+#define HLCGDAHLPHF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E09EFA0)
+#define HLCGDAHLPHF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E09F170)
+#define HLCGDAHLPHF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E09F3D0)
+#define HLCGDAHLPHF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E09ECF0)
 
-inline static constexpr unsigned int HLCGDAHLPHF_TypeDefinitionIndex = 13654;
+inline static constexpr unsigned int HLCGDAHLPHF_TypeDefinitionIndex = 13779;
 
 	class HLCGDAHLPHF : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightPortalExpiredConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x1ED60);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightPortalExpiredConfigRow*>**)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x16AC0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x1ED68);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x16AC8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightPortalExpiredConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightPortalExpiredConfigRow*>**)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x1ED70);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x7120);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x16AD0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x7121);
+			return (::System::Byte*)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x4AC0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "HLCGDAHLPHF")->GetStaticField(0x4AC1);
 		}
 
 		static ::System::Void _cctor()

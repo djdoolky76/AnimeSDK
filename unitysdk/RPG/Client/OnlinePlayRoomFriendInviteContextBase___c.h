@@ -5,25 +5,25 @@ namespace RPG::Client { class PlayerBriefDisplayData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9E73C0)
-#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD9E7400)
-#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE___C__GETINVITEFRIENDGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0xD9E7410)
+#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE47D800)
+#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE47D840)
+#define RPG_CLIENT_ONLINEPLAYROOMFRIENDINVITECONTEXTBASE___C__GETINVITEFRIENDGROUPS_B__0_0_OFFSET UNITYSDK_OFFSET(0xE47D850)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlinePlayRoomFriendInviteContextBase___c_TypeDefinitionIndex = 66394;
+	inline static constexpr unsigned int OnlinePlayRoomFriendInviteContextBase___c_TypeDefinitionIndex = 68330;
 
 	class OnlinePlayRoomFriendInviteContextBase___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::PlayerBriefDisplayData*, ::System::UInt32>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::RPG::Client::PlayerBriefDisplayData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x33F0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x33F8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17A90);
+		}
+
+		static ::System::Func_2<::RPG::Client::PlayerBriefDisplayData*, ::System::UInt32>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::RPG::Client::PlayerBriefDisplayData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17A98);
 		}
 
 		static ::System::Void _cctor()

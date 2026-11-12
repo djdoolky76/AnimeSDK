@@ -6,29 +6,29 @@ namespace UnityEngine { class WaitForEndOfFrame; }
 namespace UnityEngine { class WaitForFixedUpdate; }
 namespace UnityEngine { class WaitForSeconds; }
 
-#define IAOCEDEDIDK_BMJLKKNAPBP_OFFSET UNITYSDK_OFFSET(0x1EC1D4F0)
-#define IAOCEDEDIDK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC1D940)
-#define IAOCEDEDIDK_HPNAIEIMMPN_OFFSET UNITYSDK_OFFSET(0x1EC1D5B0)
-#define IAOCEDEDIDK_LCOHAPIIFMC_OFFSET UNITYSDK_OFFSET(0x1EC1D550)
+#define IAOCEDEDIDK_BMJLKKNAPBP_OFFSET UNITYSDK_OFFSET(0x1FECDF90)
+#define IAOCEDEDIDK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FECE3C0)
+#define IAOCEDEDIDK_HPNAIEIMMPN_OFFSET UNITYSDK_OFFSET(0x1FECE050)
+#define IAOCEDEDIDK_LCOHAPIIFMC_OFFSET UNITYSDK_OFFSET(0x1FECDFF0)
 
-inline static constexpr unsigned int IAOCEDEDIDK_TypeDefinitionIndex = 35173;
+inline static constexpr unsigned int IAOCEDEDIDK_TypeDefinitionIndex = 36101;
 
 	class IAOCEDEDIDK : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::WaitForEndOfFrame** StaticGet_GKKHJLLNIOJ()
 		{
-			return (::UnityEngine::WaitForEndOfFrame**)UnitySDK::FromName("", "IAOCEDEDIDK")->GetStaticField(0x4B670);
+			return (::UnityEngine::WaitForEndOfFrame**)UnitySDK::FromName("", "IAOCEDEDIDK")->GetStaticField(0x55620);
 		}
 
 		static ::UnityEngine::WaitForFixedUpdate** StaticGet_KIONDMCELHN()
 		{
-			return (::UnityEngine::WaitForFixedUpdate**)UnitySDK::FromName("", "IAOCEDEDIDK")->GetStaticField(0x4B678);
+			return (::UnityEngine::WaitForFixedUpdate**)UnitySDK::FromName("", "IAOCEDEDIDK")->GetStaticField(0x55628);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Single, ::UnityEngine::WaitForSeconds*>** StaticGet_HANKAANFAFF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Single, ::UnityEngine::WaitForSeconds*>**)UnitySDK::FromName("", "IAOCEDEDIDK")->GetStaticField(0x4B680);
+			return (::System::Collections::Generic::Dictionary_2<::System::Single, ::UnityEngine::WaitForSeconds*>**)UnitySDK::FromName("", "IAOCEDEDIDK")->GetStaticField(0x55630);
 		}
 
 		static ::System::Void _cctor()

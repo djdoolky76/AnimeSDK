@@ -5,7 +5,7 @@ namespace System { class String; }
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcfDebug_GlobalAisacInfo_TypeDefinitionIndex = 40182;
+	inline static constexpr unsigned int CriAtomExAcfDebug_GlobalAisacInfo_TypeDefinitionIndex = 41157;
 
 	struct alignas(8) CriAtomExAcfDebug_GlobalAisacInfo
 	{

@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FourRotateVoxelMoveConfig; }
 namespace RPG::GameCore { class FourRotateVoxelPlayerConfig; }
 namespace RPG::GameCore { class FourRotateVoxelRevertConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EE5D0)
-#define RPG_GAMECORE_FOURROTATEVOXELGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6EE5E0)
-#define RPG_GAMECORE_FOURROTATEVOXELGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EE5A0)
+#define RPG_GAMECORE_FOURROTATEVOXELGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F8990)
+#define RPG_GAMECORE_FOURROTATEVOXELGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8F89A0)
+#define RPG_GAMECORE_FOURROTATEVOXELGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F8960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelGameConfig_TypeDefinitionIndex = 16747;
+	inline static constexpr unsigned int FourRotateVoxelGameConfig_TypeDefinitionIndex = 16913;
 
 	class FourRotateVoxelGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

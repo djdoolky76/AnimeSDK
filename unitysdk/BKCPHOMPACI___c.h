@@ -4,18 +4,18 @@
 class BKCPHOMPACI;
 namespace System { class Object; }
 
-#define BKCPHOMPACI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF4F9F0)
-#define BKCPHOMPACI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF4FA30)
-#define BKCPHOMPACI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF4FA40)
+#define BKCPHOMPACI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1727A0)
+#define BKCPHOMPACI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1727E0)
+#define BKCPHOMPACI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F1727F0)
 
-inline static constexpr unsigned int BKCPHOMPACI___c_TypeDefinitionIndex = 31383;
+inline static constexpr unsigned int BKCPHOMPACI___c_TypeDefinitionIndex = 32296;
 
 	class BKCPHOMPACI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A920);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CD60);
 		}
 
 		static ::System::Void _cctor()

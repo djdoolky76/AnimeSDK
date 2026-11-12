@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
-#define PAGBIOGLAHE_APPLY_OFFSET UNITYSDK_OFFSET(0xBFC8D50)
-#define PAGBIOGLAHE_COMBINE_OFFSET UNITYSDK_OFFSET(0xBFC8DA0)
-#define PAGBIOGLAHE_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC8D40)
-#define PAGBIOGLAHE_RESET_OFFSET UNITYSDK_OFFSET(0xBFC8E00)
+#define PAGBIOGLAHE_APPLY_OFFSET UNITYSDK_OFFSET(0xC8CB940)
+#define PAGBIOGLAHE_COMBINE_OFFSET UNITYSDK_OFFSET(0xC8CB990)
+#define PAGBIOGLAHE_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CB930)
+#define PAGBIOGLAHE_RESET_OFFSET UNITYSDK_OFFSET(0xC8CB9F0)
 
-inline static constexpr unsigned int PAGBIOGLAHE_TypeDefinitionIndex = 62713;
+inline static constexpr unsigned int PAGBIOGLAHE_TypeDefinitionIndex = 64147;
 
 	class PAGBIOGLAHE : public ::System::Object
 	{

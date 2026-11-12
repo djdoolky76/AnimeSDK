@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PIFGICNAFMF_FailReason_TypeDefinitionIndex = 58944;
+inline static constexpr unsigned int PIFGICNAFMF_FailReason_TypeDefinitionIndex = 60217;
 
 	enum class PIFGICNAFMF_FailReason : ::System::Int32
 	{

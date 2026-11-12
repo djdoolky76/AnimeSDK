@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int ILoginByAccountDialog_TypeDefinitionIndex = 8464;
+	inline static constexpr unsigned int ILoginByAccountDialog_TypeDefinitionIndex = 8473;
 
 	class ILoginByAccountDialog
 	{

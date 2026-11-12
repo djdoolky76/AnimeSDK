@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvPillarPuzzleInteractingPillar; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GKOBEMLAGLF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA7AF0)
-#define GKOBEMLAGLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AA7B60)
+#define GKOBEMLAGLF_CTOR_OFFSET UNITYSDK_OFFSET(0x169E4A90)
+#define GKOBEMLAGLF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169E4B00)
 
-inline static constexpr unsigned int GKOBEMLAGLF_TypeDefinitionIndex = 59101;
+inline static constexpr unsigned int GKOBEMLAGLF_TypeDefinitionIndex = 60376;
 
 	class GKOBEMLAGLF
 	{

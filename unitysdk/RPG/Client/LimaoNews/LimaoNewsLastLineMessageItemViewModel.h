@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LimaoNews/LimaoNewsMessageItemViewModel.h"
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLASTLINEMESSAGEITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3BAFA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSLASTLINEMESSAGEITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDDF0BA0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsLastLineMessageItemViewModel_TypeDefinitionIndex = 80436;
+	inline static constexpr unsigned int LimaoNewsLastLineMessageItemViewModel_TypeDefinitionIndex = 83216;
 
 	class LimaoNewsLastLineMessageItemViewModel : public ::RPG::Client::LimaoNews::LimaoNewsMessageItemViewModel
 	{

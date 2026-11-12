@@ -6,19 +6,19 @@ class HFJJCHKBGCC;
 class ODGPPIHLOFF;
 namespace System { class Action; }
 
-#define HFJJCHKBGCC___C__DISPLAYCLASS144_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C83BB0)
-#define HFJJCHKBGCC___C__DISPLAYCLASS144_0__ACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x15C87170)
-#define HFJJCHKBGCC___C__DISPLAYCLASS144_0__ACTIVEPROFILEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x15C871B0)
+#define HFJJCHKBGCC___C__DISPLAYCLASS144_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16BCB1A0)
+#define HFJJCHKBGCC___C__DISPLAYCLASS144_0__ACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x16BCE910)
+#define HFJJCHKBGCC___C__DISPLAYCLASS144_0__ACTIVEPROFILEASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x16BCE950)
 
-inline static constexpr unsigned int HFJJCHKBGCC___c__DisplayClass144_0_TypeDefinitionIndex = 49281;
+inline static constexpr unsigned int HFJJCHKBGCC___c__DisplayClass144_0_TypeDefinitionIndex = 50357;
 
 	class HFJJCHKBGCC___c__DisplayClass144_0 : public ::System::Object
 	{
 	public:
-		::CBEBICGIOAB* source; // 0x10
-		::System::Action* onChangeFinish; // 0x18
-		::ODGPPIHLOFF* profileChangeAsyncHandle; // 0x20
-		::HFJJCHKBGCC* __4__this; // 0x28
+		::ODGPPIHLOFF* profileChangeAsyncHandle; // 0x10
+		::CBEBICGIOAB* source; // 0x18
+		::HFJJCHKBGCC* __4__this; // 0x20
+		::System::Action* onChangeFinish; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HFJJCHKBGCC___C__DISPLAYCLASS144_0_CTOR_OFFSET))(this);

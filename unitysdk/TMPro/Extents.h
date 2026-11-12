@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class String; }
 
-#define TMPRO_EXTENTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2E5580)
-#define TMPRO_EXTENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
-#define TMPRO_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C670D0)
+#define TMPRO_EXTENTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x205963F0)
+#define TMPRO_EXTENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
+#define TMPRO_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3EB6430)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int Extents_TypeDefinitionIndex = 44686;
+	inline static constexpr unsigned int Extents_TypeDefinitionIndex = 45761;
 
 	struct alignas(4) Extents
 	{
@@ -17,12 +17,12 @@ namespace TMPro
 		::UnityEngine::Vector2 max; // 0x18
 		static ::TMPro::Extents* StaticGet_zero()
 		{
-			return (::TMPro::Extents*)UnitySDK::FromName("TMPro", "Extents")->GetStaticField(0x13740);
+			return (::TMPro::Extents*)UnitySDK::FromName("TMPro", "Extents")->GetStaticField(0x154A0);
 		}
 
 		static ::TMPro::Extents* StaticGet_uninitialized()
 		{
-			return (::TMPro::Extents*)UnitySDK::FromName("TMPro", "Extents")->GetStaticField(0x13750);
+			return (::TMPro::Extents*)UnitySDK::FromName("TMPro", "Extents")->GetStaticField(0x154B0);
 		}
 
 		::System::Void _ctor(::UnityEngine::Vector2 a1, ::UnityEngine::Vector2 a2)

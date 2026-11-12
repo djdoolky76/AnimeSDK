@@ -5,29 +5,29 @@ class GGJFAFONDHN;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define AANBMDMHDLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0D3650)
-#define AANBMDMHDLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB0D3680)
-#define AANBMDMHDLE___C__POSTINIT_B__6_0_OFFSET UNITYSDK_OFFSET(0xB0D3690)
-#define AANBMDMHDLE___C__POSTINIT_B__6_1_OFFSET UNITYSDK_OFFSET(0xB0D36A0)
+#define AANBMDMHDLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7350E0)
+#define AANBMDMHDLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB735110)
+#define AANBMDMHDLE___C__POSTINIT_B__6_0_OFFSET UNITYSDK_OFFSET(0xB735120)
+#define AANBMDMHDLE___C__POSTINIT_B__6_1_OFFSET UNITYSDK_OFFSET(0xB735130)
 
-inline static constexpr unsigned int AANBMDMHDLE___c_TypeDefinitionIndex = 49363;
+inline static constexpr unsigned int AANBMDMHDLE___c_TypeDefinitionIndex = 50439;
 
 	class AANBMDMHDLE___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::GGJFAFONDHN*>** StaticGet___9__6_1()
 		{
-			return (::System::Action_1<::GGJFAFONDHN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41990);
+			return (::System::Action_1<::GGJFAFONDHN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36C70);
 		}
 
 		static ::System::Action_1<::GGJFAFONDHN*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_1<::GGJFAFONDHN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41998);
+			return (::System::Action_1<::GGJFAFONDHN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36C78);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x419A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36C80);
 		}
 
 		static ::System::Void _cctor()

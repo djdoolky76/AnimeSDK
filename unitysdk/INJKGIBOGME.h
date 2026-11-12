@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GOBNOHBLEHH;
 
-#define INJKGIBOGME_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB78910)
-#define INJKGIBOGME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB789A0)
+#define INJKGIBOGME_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD3EF00)
+#define INJKGIBOGME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3EF90)
 
-inline static constexpr unsigned int INJKGIBOGME_TypeDefinitionIndex = 43670;
+inline static constexpr unsigned int INJKGIBOGME_TypeDefinitionIndex = 44653;
 
 	class INJKGIBOGME : public ::System::Object
 	{

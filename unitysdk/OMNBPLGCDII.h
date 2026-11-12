@@ -4,20 +4,20 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define OMNBPLGCDII_CTOR_OFFSET UNITYSDK_OFFSET(0xBF34680)
-#define OMNBPLGCDII_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xBF34580)
-#define OMNBPLGCDII_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBF345C0)
-#define OMNBPLGCDII_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBF34370)
-#define OMNBPLGCDII_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBF34380)
+#define OMNBPLGCDII_CTOR_OFFSET UNITYSDK_OFFSET(0xC832090)
+#define OMNBPLGCDII_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xC831F90)
+#define OMNBPLGCDII_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xC831FD0)
+#define OMNBPLGCDII_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC831D80)
+#define OMNBPLGCDII_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xC831D90)
 
-inline static constexpr unsigned int OMNBPLGCDII_TypeDefinitionIndex = 56127;
+inline static constexpr unsigned int OMNBPLGCDII_TypeDefinitionIndex = 57339;
 
 	class OMNBPLGCDII : public ::DBGDNLLDPFI
 	{
 	public:
 		::System::String* ICEPLFPKAHC; // 0x10
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x18
-		::System::UInt32 CEGOPEIKDLA; // 0x1C
+		::System::UInt32 CEGOPEIKDLA; // 0x18
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMNBPLGCDII_CTOR_OFFSET))(this);

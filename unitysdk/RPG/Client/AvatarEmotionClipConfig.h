@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATAREMOTIONCLIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC6D3670)
+#define RPG_CLIENT_AVATAREMOTIONCLIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD030190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarEmotionClipConfig_TypeDefinitionIndex = 69417;
+	inline static constexpr unsigned int AvatarEmotionClipConfig_TypeDefinitionIndex = 71371;
 
 	class AvatarEmotionClipConfig : public ::UnityEngine::ScriptableObject
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LevelTriggerInfo; }
 
-#define JLHCGPJHMIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA2FD0)
+#define JLHCGPJHMIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD70FB0)
 
-inline static constexpr unsigned int JLHCGPJHMIL_TypeDefinitionIndex = 43650;
+inline static constexpr unsigned int JLHCGPJHMIL_TypeDefinitionIndex = 44633;
 
 	class JLHCGPJHMIL : public ::System::Object
 	{

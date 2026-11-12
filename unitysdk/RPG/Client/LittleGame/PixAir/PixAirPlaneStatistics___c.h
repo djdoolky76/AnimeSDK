@@ -5,25 +5,25 @@ namespace RPG::Client::LittleGame::PixAir { class PixAirEquipStatistics; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA09560)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA095A0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1CA095B0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBCCC90)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBCCCD0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS___C__GETEQUIPSTATSSORTEDBYUSECOUNT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1DBCCCE0)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 43677;
+	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 44660;
 
 	class PixAirPlaneStatistics___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5E5A0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5D8D0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5E5A8);
+			return (::System::Comparison_1<::RPG::Client::LittleGame::PixAir::PixAirEquipStatistics*>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x5D8D8);
 		}
 
 		static ::System::Void _cctor()

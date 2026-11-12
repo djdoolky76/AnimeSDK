@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_BOOLPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A8BB0)
+#define UNITYENGINE_RENDERING_BOOLPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x20559920)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BoolParameter_TypeDefinitionIndex = 35623;
+	inline static constexpr unsigned int BoolParameter_TypeDefinitionIndex = 36551;
 
 	class BoolParameter
 	{

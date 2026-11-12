@@ -3,24 +3,24 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define LMPKAECJFJD_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB7D3DB0)
-#define LMPKAECJFJD_CTOR_2_OFFSET UNITYSDK_OFFSET(0xB7D3FA0)
-#define LMPKAECJFJD_CTOR_3_OFFSET UNITYSDK_OFFSET(0xB7D40B0)
-#define LMPKAECJFJD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D3D90)
-#define LMPKAECJFJD_LIEIJEFAGPN_OFFSET UNITYSDK_OFFSET(0xB7D3E90)
+#define LMPKAECJFJD_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC0304C0)
+#define LMPKAECJFJD_CTOR_2_OFFSET UNITYSDK_OFFSET(0xC0306B0)
+#define LMPKAECJFJD_CTOR_3_OFFSET UNITYSDK_OFFSET(0xC0307C0)
+#define LMPKAECJFJD_CTOR_OFFSET UNITYSDK_OFFSET(0xC0304A0)
+#define LMPKAECJFJD_LIEIJEFAGPN_OFFSET UNITYSDK_OFFSET(0xC0305A0)
 
-inline static constexpr unsigned int LMPKAECJFJD_TypeDefinitionIndex = 73662;
+inline static constexpr unsigned int LMPKAECJFJD_TypeDefinitionIndex = 75785;
 
 	class LMPKAECJFJD : public ::System::Attribute
 	{
 	public:
-		::Il2CppArray<::System::String*>* DKLNJDJGBDP; // 0x10
-		::Il2CppArray<::System::Single>* JIIHLCNPALD; // 0x18
-		::Il2CppArray<::System::Single>* MNOEGGPLECD; // 0x20
+		::Il2CppArray<::System::Single>* JIIHLCNPALD; // 0x10
+		::Il2CppArray<::System::Single>* MNOEGGPLECD; // 0x18
+		::Il2CppArray<::System::String*>* DKLNJDJGBDP; // 0x20
 		::System::Boolean LNJNLIOECNH; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::Single ENMIPOPKOOL; // 0x2C
-		::System::Single PJKFLONMKED; // 0x30
+		::System::Single PJKFLONMKED; // 0x2C
+		::System::Single ENMIPOPKOOL; // 0x30
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::Il2CppArray<::System::String*>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + LMPKAECJFJD_CTOR_OFFSET))(this, a1, a2, a3);

@@ -5,17 +5,17 @@ class KANKEPCJION;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define KANKEPCJION___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E2170)
-#define KANKEPCJION___C__DISPLAYCLASS36_0__SETUPSKILL_B__0_OFFSET UNITYSDK_OFFSET(0xB2E4BD0)
+#define KANKEPCJION___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB67480)
+#define KANKEPCJION___C__DISPLAYCLASS36_0__SETUPSKILL_B__0_OFFSET UNITYSDK_OFFSET(0xBB69EE0)
 
-inline static constexpr unsigned int KANKEPCJION___c__DisplayClass36_0_TypeDefinitionIndex = 71898;
+inline static constexpr unsigned int KANKEPCJION___c__DisplayClass36_0_TypeDefinitionIndex = 73919;
 
 	class KANKEPCJION___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::KANKEPCJION* __4__this; // 0x10
+		::RPG::GameCore::GameEntity* entity; // 0x10
 		::RPG::GameCore::SkillData* skillData; // 0x18
-		::RPG::GameCore::GameEntity* entity; // 0x20
+		::KANKEPCJION* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KANKEPCJION___C__DISPLAYCLASS36_0_CTOR_OFFSET))(this);

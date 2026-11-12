@@ -1,5 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/InControl/InputControlType.h"
 #include "unitysdk/Unity/Profiling/ProfilerMarker.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class PBFBCDFNKBE;
@@ -10,23 +11,23 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define RPG_CLIENT_MONOINCONTROLMOVE_AWAKE_OFFSET UNITYSDK_OFFSET(0xD83BAA0)
-#define RPG_CLIENT_MONOINCONTROLMOVE_CCTOR_OFFSET UNITYSDK_OFFSET(0xD83CAC0)
-#define RPG_CLIENT_MONOINCONTROLMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0xD83CAA0)
-#define RPG_CLIENT_MONOINCONTROLMOVE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xD83CA40)
-#define RPG_CLIENT_MONOINCONTROLMOVE_GETACTIONHINTNAME_OFFSET UNITYSDK_OFFSET(0xD83BC50)
-#define RPG_CLIENT_MONOINCONTROLMOVE_GET_OFFSET UNITYSDK_OFFSET(0xD83B980)
-#define RPG_CLIENT_MONOINCONTROLMOVE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD83C910)
-#define RPG_CLIENT_MONOINCONTROLMOVE_SPAWNED_OFFSET UNITYSDK_OFFSET(0xD83C9D0)
-#define RPG_CLIENT_MONOINCONTROLMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xD83BDA0)
-#define RPG_CLIENT_MONOINCONTROLMOVE__APPLYLOCALDELTA_OFFSET UNITYSDK_OFFSET(0xD83C7E0)
-#define RPG_CLIENT_MONOINCONTROLMOVE__CANPROCESSINPUT_OFFSET UNITYSDK_OFFSET(0xD83C1D0)
-#define RPG_CLIENT_MONOINCONTROLMOVE__CLEAR_OFFSET UNITYSDK_OFFSET(0xD83C980)
-#define RPG_CLIENT_MONOINCONTROLMOVE__GETUICONTROLLER_OFFSET UNITYSDK_OFFSET(0xD83C690)
+#define RPG_CLIENT_MONOINCONTROLMOVE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE28E340)
+#define RPG_CLIENT_MONOINCONTROLMOVE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE28F2B0)
+#define RPG_CLIENT_MONOINCONTROLMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0xE28F290)
+#define RPG_CLIENT_MONOINCONTROLMOVE_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xE28F230)
+#define RPG_CLIENT_MONOINCONTROLMOVE_GETACTIONHINTNAME_OFFSET UNITYSDK_OFFSET(0xE28E440)
+#define RPG_CLIENT_MONOINCONTROLMOVE_GET_OFFSET UNITYSDK_OFFSET(0xE28E220)
+#define RPG_CLIENT_MONOINCONTROLMOVE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE28F100)
+#define RPG_CLIENT_MONOINCONTROLMOVE_SPAWNED_OFFSET UNITYSDK_OFFSET(0xE28F1C0)
+#define RPG_CLIENT_MONOINCONTROLMOVE_UPDATE_OFFSET UNITYSDK_OFFSET(0xE28E5B0)
+#define RPG_CLIENT_MONOINCONTROLMOVE__APPLYLOCALDELTA_OFFSET UNITYSDK_OFFSET(0xE28EFD0)
+#define RPG_CLIENT_MONOINCONTROLMOVE__CANPROCESSINPUT_OFFSET UNITYSDK_OFFSET(0xE28E9E0)
+#define RPG_CLIENT_MONOINCONTROLMOVE__CLEAR_OFFSET UNITYSDK_OFFSET(0xE28F170)
+#define RPG_CLIENT_MONOINCONTROLMOVE__GETUICONTROLLER_OFFSET UNITYSDK_OFFSET(0xE28EE80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoInControlMove_TypeDefinitionIndex = 61344;
+	inline static constexpr unsigned int MonoInControlMove_TypeDefinitionIndex = 62729;
 
 	class MonoInControlMove : public ::UnityEngine::MonoBehaviour
 	{
@@ -35,24 +36,30 @@ namespace RPG::Client
 		::System::Boolean IsVertical; // 0x19
 		::System::Boolean UseLeftStick; // 0x1A
 		::System::Byte _padding0[0x1];
-		::System::Single MoveStep; // 0x1C
-		::System::Single MoveStepFactor; // 0x20
-		::System::Byte _padding1[0x4];
+		::InControl::InputControlType ModifierControl; // 0x1C
+		::System::Single MoveStep; // 0x20
+		::System::Single MoveStepFactor; // 0x24
 		::UnityEngine::UI::ScrollRect* ScrollRect; // 0x28
 		::RPG::Client::MonoInControlTip* MonoInControlTip; // 0x30
 		::System::Single _Threshold; // 0x38
-		::System::Byte _padding2[0x4];
+		::System::Byte _padding1[0x4];
 		::PBFBCDFNKBE* _ControllerGetter; // 0x40
 		::RPG::Client::UIController* OverrideController; // 0x48
+		static ::Il2CppArray<::InControl::InputControlType>** StaticGet__SupportedModifierControls()
+		{
+			return (::Il2CppArray<::InControl::InputControlType>**)UnitySDK::FromName("RPG.Client", "MonoInControlMove")->GetStaticField(0x5F700);
+		}
+
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_InControlMoveUpdateMarker()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("RPG.Client", "MonoInControlMove")->GetStaticField(0x14E70);
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("RPG.Client", "MonoInControlMove")->GetStaticField(0x14250);
 		}
 
 		// static const ::System::String* VERTICAL_ACTION_HINT_NAME; // 0x0
 		// static const ::System::String* HORIZONTAL_ACTION_HINT_NAME; // 0x0
 		// static const ::System::String* VERTICAL_LEFT_STICK_ACTION_HINT_NAME; // 0x0
 		// static const ::System::String* HORIZONTAL_LEFT_STICK_ACTION_HINT_NAME; // 0x0
+		// static const ::System::String* VERTICAL_LT_ACTION_HINT_NAME; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONOINCONTROLMOVE_CTOR_OFFSET))(this);

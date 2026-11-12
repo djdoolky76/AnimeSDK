@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define PKNFLMLCJEC_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E7BC0)
+#define PKNFLMLCJEC_CTOR_OFFSET UNITYSDK_OFFSET(0xCC169C0)
 
-inline static constexpr unsigned int PKNFLMLCJEC_TypeDefinitionIndex = 61276;
+inline static constexpr unsigned int PKNFLMLCJEC_TypeDefinitionIndex = 62661;
 
 	class PKNFLMLCJEC : public ::System::Exception
 	{

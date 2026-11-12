@@ -5,27 +5,27 @@
 class JFDPLMMJDJD;
 namespace System { class String; }
 
-#define DBDIHLMEFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDFDCD70)
-#define DBDIHLMEFAJ_GET_CMT_OFFSET UNITYSDK_OFFSET(0xDFDCD40)
-#define DBDIHLMEFAJ_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0xDFDCD20)
-#define DBDIHLMEFAJ_GET_ID_OFFSET UNITYSDK_OFFSET(0xDFDCD10)
-#define DBDIHLMEFAJ_GET_ISPOSTER_OFFSET UNITYSDK_OFFSET(0xDFDCD60)
-#define DBDIHLMEFAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDFDCD30)
-#define DBDIHLMEFAJ_GET_PARENT_OFFSET UNITYSDK_OFFSET(0xDFDCD50)
+#define DBDIHLMEFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7EEB0)
+#define DBDIHLMEFAJ_GET_CMT_OFFSET UNITYSDK_OFFSET(0xEB7EE80)
+#define DBDIHLMEFAJ_GET_HEADICON_OFFSET UNITYSDK_OFFSET(0xEB7EE60)
+#define DBDIHLMEFAJ_GET_ID_OFFSET UNITYSDK_OFFSET(0xEB7EE50)
+#define DBDIHLMEFAJ_GET_ISPOSTER_OFFSET UNITYSDK_OFFSET(0xEB7EEA0)
+#define DBDIHLMEFAJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xEB7EE70)
+#define DBDIHLMEFAJ_GET_PARENT_OFFSET UNITYSDK_OFFSET(0xEB7EE90)
 
-inline static constexpr unsigned int DBDIHLMEFAJ_TypeDefinitionIndex = 80142;
+inline static constexpr unsigned int DBDIHLMEFAJ_TypeDefinitionIndex = 82919;
 
 	class DBDIHLMEFAJ : public ::System::Object
 	{
 	public:
 		::System::String* _HeadIcon_k__BackingField; // 0x10
-		::RPG::Client::TextID _Name_k__BackingField; // 0x18
-		::System::UInt32 _ID_k__BackingField; // 0x28
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Cmt_k__BackingField; // 0x30
-		::System::Boolean _IsPoster_k__BackingField; // 0x40
-		::System::Byte _padding1[0x3];
-		::System::UInt32 _Parent_k__BackingField; // 0x44
+		::System::Boolean _IsPoster_k__BackingField; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _Parent_k__BackingField; // 0x1C
+		::RPG::Client::TextID _Cmt_k__BackingField; // 0x20
+		::System::UInt32 _ID_k__BackingField; // 0x30
+		::System::Byte _padding1[0x4];
+		::RPG::Client::TextID _Name_k__BackingField; // 0x38
 		::System::Void _ctor(::JFDPLMMJDJD* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::JFDPLMMJDJD*))((::PBYTE)hIl2Cpp + DBDIHLMEFAJ_CTOR_OFFSET))(this, a1);

@@ -6,12 +6,12 @@ namespace Google::Protobuf::Reflection { class FieldDescriptor; }
 namespace Google::Protobuf::Reflection { class FieldDescriptorProto; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B875270)
-#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B876DB0)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FE270)
+#define GOOGLE_PROTOBUF_REFLECTION_EXTENSIONCOLLECTION___C__DISPLAYCLASS3_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C9FFDB0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 5539;
+	inline static constexpr unsigned int ExtensionCollection___c__DisplayClass3_0_TypeDefinitionIndex = 5544;
 
 	class ExtensionCollection___c__DisplayClass3_0 : public ::System::Object
 	{

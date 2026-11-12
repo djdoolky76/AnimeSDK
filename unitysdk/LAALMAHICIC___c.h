@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LAALMAHICIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C71F2B0)
-#define LAALMAHICIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71F2F0)
-#define LAALMAHICIC___C___TRIGGERNEWWEATHEREFFECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1C71F300)
+#define LAALMAHICIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8A0C30)
+#define LAALMAHICIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A0C70)
+#define LAALMAHICIC___C___TRIGGERNEWWEATHEREFFECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1D8A0C80)
 
-inline static constexpr unsigned int LAALMAHICIC___c_TypeDefinitionIndex = 36531;
+inline static constexpr unsigned int LAALMAHICIC___c_TypeDefinitionIndex = 37459;
 
 	class LAALMAHICIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x135D0);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB3E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x135D8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB3E8);
 		}
 
 		static ::System::Void _cctor()

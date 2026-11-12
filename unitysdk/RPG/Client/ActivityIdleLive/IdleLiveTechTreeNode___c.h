@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeNode; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREENODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC50A1E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREENODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC50A220)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREENODE___C__REFRESHISUNLOCK_B__3_0_OFFSET UNITYSDK_OFFSET(0xC50A230)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREENODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE47BB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREENODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE47BF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETECHTREENODE___C__REFRESHISUNLOCK_B__3_0_OFFSET UNITYSDK_OFFSET(0xCE47C00)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTechTreeNode___c_TypeDefinitionIndex = 75410;
+	inline static constexpr unsigned int IdleLiveTechTreeNode___c_TypeDefinitionIndex = 77737;
 
 	class IdleLiveTechTreeNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x2DA90);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveTechTreeNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x263E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x2DA98);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x263E8);
 		}
 
 		static ::System::Void _cctor()

@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define IHDDEOPCLAO_CTOR_OFFSET UNITYSDK_OFFSET(0x16419DE0)
-#define IHDDEOPCLAO_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x16419DA0)
+#define IHDDEOPCLAO_CTOR_OFFSET UNITYSDK_OFFSET(0x173CD350)
+#define IHDDEOPCLAO_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0x173CD310)
 
-inline static constexpr unsigned int IHDDEOPCLAO_TypeDefinitionIndex = 69742;
+inline static constexpr unsigned int IHDDEOPCLAO_TypeDefinitionIndex = 71699;
 
 	class IHDDEOPCLAO
 	{

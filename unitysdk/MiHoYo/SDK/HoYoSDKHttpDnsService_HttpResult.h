@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA3840)
+#define MIHOYO_SDK_HOYOSDKHTTPDNSSERVICE_HTTPRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xB604E20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpResult_TypeDefinitionIndex = 46099;
+	inline static constexpr unsigned int HoYoSDKHttpDnsService_HttpResult_TypeDefinitionIndex = 47128;
 
 	class HoYoSDKHttpDnsService_HttpResult : public ::System::Object
 	{
 	public:
-		::System::String* error_msg; // 0x10
-		::System::String* header_response; // 0x18
-		::System::String* response; // 0x20
+		::System::String* response; // 0x10
+		::System::String* error_msg; // 0x18
+		::System::String* header_response; // 0x20
 		::System::Int32 http_code; // 0x28
 		::System::Int32 error_code; // 0x2C
 		::System::Void _ctor()

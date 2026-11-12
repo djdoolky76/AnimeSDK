@@ -14,57 +14,57 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineAsset; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define JABNLOAOIBH_AFJIIFDOJMJ_OFFSET UNITYSDK_OFFSET(0x1653CA20)
-#define JABNLOAOIBH_CCTOR_OFFSET UNITYSDK_OFFSET(0x165400B0)
-#define JABNLOAOIBH_HIPGBJJFJCF_OFFSET UNITYSDK_OFFSET(0x1653E830)
-#define JABNLOAOIBH_INHBHGCOPOO_OFFSET UNITYSDK_OFFSET(0x1653FD70)
-#define JABNLOAOIBH_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0x1653CB60)
-#define JABNLOAOIBH_MMKEHEJPCDC_OFFSET UNITYSDK_OFFSET(0x1653CD70)
-#define JABNLOAOIBH_NMGEGNECDLA_OFFSET UNITYSDK_OFFSET(0x1653FCE0)
+#define JABNLOAOIBH_AFJIIFDOJMJ_OFFSET UNITYSDK_OFFSET(0xB872970)
+#define JABNLOAOIBH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB876030)
+#define JABNLOAOIBH_HIPGBJJFJCF_OFFSET UNITYSDK_OFFSET(0xB8747B0)
+#define JABNLOAOIBH_INHBHGCOPOO_OFFSET UNITYSDK_OFFSET(0xB875CF0)
+#define JABNLOAOIBH_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0xB872AB0)
+#define JABNLOAOIBH_MMKEHEJPCDC_OFFSET UNITYSDK_OFFSET(0xB872CF0)
+#define JABNLOAOIBH_NMGEGNECDLA_OFFSET UNITYSDK_OFFSET(0xB875C60)
 
-inline static constexpr unsigned int JABNLOAOIBH_TypeDefinitionIndex = 48477;
+inline static constexpr unsigned int JABNLOAOIBH_TypeDefinitionIndex = 49518;
 
 	class JABNLOAOIBH : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Transform** StaticGet_NBHFAKPKFAB()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>** StaticGet_ILPOECBBOMG()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE40);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_IKFPMGIAJHI()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE48);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_MLNEFFDMNMM()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE50);
-		}
-
-		static ::System::String** StaticGet_JGFHAJBFHJC()
-		{
-			return (::System::String**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE58);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x5B8A0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>** StaticGet_BDLABNOJLAH()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE60);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Timeline::TimelineClip*, ::System::String*, ::System::String*>>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x5B8A8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>** StaticGet_ILPOECBBOMG()
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_MLNEFFDMNMM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Timeline::TimelineClip*, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE68);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x5B8B0);
 		}
 
 		static ::System::String** StaticGet_BDHAOINGJLC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x6DE70);
+			return (::System::String**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x5B8B8);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_NBHFAKPKFAB()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x5B8C0);
+		}
+
+		static ::System::String** StaticGet_JGFHAJBFHJC()
+		{
+			return (::System::String**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x5B8C8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>** StaticGet_IKFPMGIAJHI()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Collections::Generic::List_1<::System::String*>*>**)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x5B8D0);
 		}
 
 		static ::System::Nullable_1<::UnityEngine::SceneManagement::Scene>* StaticGet_EBNCHKLGCLC()
 		{
-			return (::System::Nullable_1<::UnityEngine::SceneManagement::Scene>*)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x154A0);
+			return (::System::Nullable_1<::UnityEngine::SceneManagement::Scene>*)UnitySDK::FromName("", "JABNLOAOIBH")->GetStaticField(0x138F0);
 		}
 
 		static ::System::Void _cctor()

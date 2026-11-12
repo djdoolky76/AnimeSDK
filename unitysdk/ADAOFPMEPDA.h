@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ADAOFPMEPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877F10)
+#define ADAOFPMEPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F9630)
 
-inline static constexpr unsigned int ADAOFPMEPDA_TypeDefinitionIndex = 42138;
+inline static constexpr unsigned int ADAOFPMEPDA_TypeDefinitionIndex = 43113;
 
 	class ADAOFPMEPDA : public ::System::Object
 	{

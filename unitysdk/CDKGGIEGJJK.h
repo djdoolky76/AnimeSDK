@@ -4,11 +4,11 @@ namespace RPG::Client { class MemberData; }
 namespace RPG::GameCore { class AdventureRevivePlayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CDKGGIEGJJK_CTOR_OFFSET UNITYSDK_OFFSET(0xC76BE50)
-#define CDKGGIEGJJK_NHAKPCPMNFF_OFFSET UNITYSDK_OFFSET(0xC76C450)
-#define CDKGGIEGJJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC76BE80)
+#define CDKGGIEGJJK_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D4E80)
+#define CDKGGIEGJJK_NHAKPCPMNFF_OFFSET UNITYSDK_OFFSET(0xD0D5480)
+#define CDKGGIEGJJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD0D4EB0)
 
-inline static constexpr unsigned int CDKGGIEGJJK_TypeDefinitionIndex = 57912;
+inline static constexpr unsigned int CDKGGIEGJJK_TypeDefinitionIndex = 59149;
 
 	class CDKGGIEGJJK
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define EMIOLHAIOIG_CTOR_OFFSET UNITYSDK_OFFSET(0x2E73720)
+#define EMIOLHAIOIG_CTOR_OFFSET UNITYSDK_OFFSET(0x3048E20)
 #define EMIOLHAIOIG_GET_BLOCKNAME_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define EMIOLHAIOIG_GET_REASON_OFFSET UNITYSDK_OFFSET(0x1D40)
 
-inline static constexpr unsigned int EMIOLHAIOIG_TypeDefinitionIndex = 62166;
+inline static constexpr unsigned int EMIOLHAIOIG_TypeDefinitionIndex = 63579;
 
 	struct alignas(8) EMIOLHAIOIG
 	{

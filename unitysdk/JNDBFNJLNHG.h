@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace UnityEngine { class Renderer; }
 
-#define JNDBFNJLNHG_CTOR_OFFSET UNITYSDK_OFFSET(0xB27A330)
-#define JNDBFNJLNHG_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0xB27A390)
-#define JNDBFNJLNHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB27A430)
+#define JNDBFNJLNHG_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA55A0)
+#define JNDBFNJLNHG_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0xBAA5600)
+#define JNDBFNJLNHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBAA56A0)
 
-inline static constexpr unsigned int JNDBFNJLNHG_TypeDefinitionIndex = 70178;
+inline static constexpr unsigned int JNDBFNJLNHG_TypeDefinitionIndex = 72144;
 
 	class JNDBFNJLNHG : public ::System::Object
 	{
 	public:
 		::UnityEngine::Renderer* JAMDAALMOAL; // 0x10
-		::System::Single NEHMFKCDKDI; // 0x18
-		::System::Single NHGFCDCCBNL; // 0x1C
+		::System::Single NHGFCDCCBNL; // 0x18
+		::System::Single NEHMFKCDKDI; // 0x1C
 		::System::Int32 LAPPEBCGDEG; // 0x20
 		::System::Void _ctor(::UnityEngine::Renderer* a1, ::System::String* a2, ::System::Single a3)
 		{

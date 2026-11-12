@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LittleGameAttachPointConfig; }
 
-#define MMEADKNKPNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92D7B0)
+#define MMEADKNKPNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEECA0)
 
-inline static constexpr unsigned int MMEADKNKPNO_TypeDefinitionIndex = 42026;
+inline static constexpr unsigned int MMEADKNKPNO_TypeDefinitionIndex = 43001;
 
 	class MMEADKNKPNO : public ::System::Object
 	{

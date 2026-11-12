@@ -5,19 +5,20 @@
 class DFBNOICFONC;
 namespace RPG::Client::LittleGame::CakeRace { class CakeRaceTalkBubbleMonoView; }
 
-#define DFBNOICFONC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE824550)
-#define DFBNOICFONC_CTOR_OFFSET UNITYSDK_OFFSET(0xE824810)
-#define DFBNOICFONC_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xE824790)
-#define DFBNOICFONC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE8245F0)
+#define DFBNOICFONC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF184A80)
+#define DFBNOICFONC_CTOR_OFFSET UNITYSDK_OFFSET(0xF184D40)
+#define DFBNOICFONC_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xF184CC0)
+#define DFBNOICFONC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xF184B20)
 
-inline static constexpr unsigned int DFBNOICFONC_TypeDefinitionIndex = 78169;
+inline static constexpr unsigned int DFBNOICFONC_TypeDefinitionIndex = 80904;
 
 	class DFBNOICFONC : public ::AJHHFMBOCEN
 	{
 	public:
 		::RPG::Client::LittleGame::CakeRace::CakeRaceTalkBubbleMonoView* OFHPEPANKAL; // 0x20
-		::RPG::Client::TextID DIDPADKMCAL; // 0x28
-		::System::Boolean FMNEEONAMNO; // 0x38
+		::System::Boolean FMNEEONAMNO; // 0x28
+		::System::Byte _padding0[0x7];
+		::RPG::Client::TextID DIDPADKMCAL; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DFBNOICFONC_CTOR_OFFSET))(this);

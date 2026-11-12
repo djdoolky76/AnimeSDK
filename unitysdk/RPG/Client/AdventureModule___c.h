@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ADVENTUREMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5F64E0)
-#define RPG_CLIENT_ADVENTUREMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5F6520)
-#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__86_0_OFFSET UNITYSDK_OFFSET(0xC5F6530)
-#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__86_1_OFFSET UNITYSDK_OFFSET(0xC5F6570)
-#define RPG_CLIENT_ADVENTUREMODULE___C__TRIGGERONFINISHPERFORMANCESTANDALONEPLAY_B__322_0_OFFSET UNITYSDK_OFFSET(0xC5F6590)
+#define RPG_CLIENT_ADVENTUREMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF51110)
+#define RPG_CLIENT_ADVENTUREMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF51140)
+#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__86_0_OFFSET UNITYSDK_OFFSET(0xCF51150)
+#define RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__86_1_OFFSET UNITYSDK_OFFSET(0xCF51190)
+#define RPG_CLIENT_ADVENTUREMODULE___C__TRIGGERONFINISHPERFORMANCESTANDALONEPLAY_B__328_0_OFFSET UNITYSDK_OFFSET(0xCF511B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureModule___c_TypeDefinitionIndex = 62011;
+	inline static constexpr unsigned int AdventureModule___c_TypeDefinitionIndex = 63423;
 
 	class AdventureModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::TrainExteriorConfigRow*>** StaticGet___9__86_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::TrainExteriorConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46470);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46478);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x39B40);
 		}
 
-		static ::System::Action** StaticGet___9__322_0()
+		static ::System::Comparison_1<::RPG::GameCore::TrainExteriorConfigRow*>** StaticGet___9__86_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46480);
+			return (::System::Comparison_1<::RPG::GameCore::TrainExteriorConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x39B48);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::TrainExteriorConfigRow*, ::System::Boolean>** StaticGet___9__86_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::TrainExteriorConfigRow*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x46488);
+			return (::System::Func_2<::RPG::GameCore::TrainExteriorConfigRow*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x39B50);
+		}
+
+		static ::System::Action** StaticGet___9__328_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x39B58);
 		}
 
 		static ::System::Void _cctor()
@@ -60,9 +60,9 @@ namespace RPG::Client
 			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::TrainExteriorConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE___C__GETTRAINOUTSIDESCENEID_B__86_1_OFFSET))(this, a1);
 		}
 
-		::System::Void _TriggerOnFinishPerformanceStandalonePlay_b__322_0()
+		::System::Void _TriggerOnFinishPerformanceStandalonePlay_b__328_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE___C__TRIGGERONFINISHPERFORMANCESTANDALONEPLAY_B__322_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ADVENTUREMODULE___C__TRIGGERONFINISHPERFORMANCESTANDALONEPLAY_B__328_0_OFFSET))(this);
 		}
 
 	};

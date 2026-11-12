@@ -3,11 +3,11 @@
 #include "unitysdk/MiHoYo/SDK/KibanaBaseModel.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_KIBANANETWORKMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE88060)
+#define MIHOYO_SDK_KIBANANETWORKMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D011260)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int KibanaNetworkModel_TypeDefinitionIndex = 7883;
+	inline static constexpr unsigned int KibanaNetworkModel_TypeDefinitionIndex = 7892;
 
 	class KibanaNetworkModel : public ::MiHoYo::SDK::KibanaBaseModel
 	{

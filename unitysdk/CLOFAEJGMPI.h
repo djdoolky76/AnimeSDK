@@ -4,10 +4,10 @@
 #include "unitysdk/EFANACEOGDH.h"
 #include "unitysdk/System/Threading/CancellationToken.h"
 
-#define CLOFAEJGMPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC667F0)
-#define CLOFAEJGMPI_IGGPJHJPMPJ_OFFSET UNITYSDK_OFFSET(0x1EC66810)
+#define CLOFAEJGMPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF17210)
+#define CLOFAEJGMPI_IGGPJHJPMPJ_OFFSET UNITYSDK_OFFSET(0x1FF17230)
 
-inline static constexpr unsigned int CLOFAEJGMPI_TypeDefinitionIndex = 44190;
+inline static constexpr unsigned int CLOFAEJGMPI_TypeDefinitionIndex = 45265;
 
 	class CLOFAEJGMPI
 	{

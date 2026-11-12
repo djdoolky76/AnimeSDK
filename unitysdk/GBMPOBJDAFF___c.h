@@ -4,18 +4,18 @@
 class GBMPOBJDAFF;
 namespace System { class Object; }
 
-#define GBMPOBJDAFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E433110)
-#define GBMPOBJDAFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E433150)
-#define GBMPOBJDAFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E433160)
+#define GBMPOBJDAFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F720F50)
+#define GBMPOBJDAFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F720F90)
+#define GBMPOBJDAFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F720FA0)
 
-inline static constexpr unsigned int GBMPOBJDAFF___c_TypeDefinitionIndex = 28809;
+inline static constexpr unsigned int GBMPOBJDAFF___c_TypeDefinitionIndex = 29399;
 
 	class GBMPOBJDAFF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xDF60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55AA0);
 		}
 
 		static ::System::Void _cctor()

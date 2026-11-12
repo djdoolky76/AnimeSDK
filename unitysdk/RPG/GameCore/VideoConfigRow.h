@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VideoConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VIDEOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8FF20)
-#define RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC8F520)
+#define RPG_GAMECORE_VIDEOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA2600)
+#define RPG_GAMECORE_VIDEOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EEA1C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoConfigRow_TypeDefinitionIndex = 15413;
+	inline static constexpr unsigned int VideoConfigRow_TypeDefinitionIndex = 15570;
 
 	class VideoConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* CaptionPath; // 0x10
-		::System::String* VideoPath; // 0x18
+		::System::String* VideoPath; // 0x10
+		::System::String* CaptionPath; // 0x18
 		::System::UInt32 VideoID; // 0x20
 		::System::Boolean IsPlayerInvolved; // 0x24
 		::System::Void _ctor()

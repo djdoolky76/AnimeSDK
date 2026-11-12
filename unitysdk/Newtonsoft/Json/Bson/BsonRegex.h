@@ -5,20 +5,20 @@
 namespace Newtonsoft::Json::Bson { class BsonString; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_BSON_BSONREGEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3795E0)
-#define NEWTONSOFT_JSON_BSON_BSONREGEX_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C379650)
-#define NEWTONSOFT_JSON_BSON_BSONREGEX_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1C3795D0)
-#define NEWTONSOFT_JSON_BSON_BSONREGEX_SET_PATTERN_OFFSET UNITYSDK_OFFSET(0x1C3795C0)
+#define NEWTONSOFT_JSON_BSON_BSONREGEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4FFD30)
+#define NEWTONSOFT_JSON_BSON_BSONREGEX_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1D4FFDA0)
+#define NEWTONSOFT_JSON_BSON_BSONREGEX_SET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x1D4FFD20)
+#define NEWTONSOFT_JSON_BSON_BSONREGEX_SET_PATTERN_OFFSET UNITYSDK_OFFSET(0x1D4FFD10)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonRegex_TypeDefinitionIndex = 9857;
+	inline static constexpr unsigned int BsonRegex_TypeDefinitionIndex = 9865;
 
 	class BsonRegex : public ::Newtonsoft::Json::Bson::BsonToken
 	{
 	public:
-		::Newtonsoft::Json::Bson::BsonString* _Options_k__BackingField; // 0x18
-		::Newtonsoft::Json::Bson::BsonString* _Pattern_k__BackingField; // 0x20
+		::Newtonsoft::Json::Bson::BsonString* _Pattern_k__BackingField; // 0x18
+		::Newtonsoft::Json::Bson::BsonString* _Options_k__BackingField; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONREGEX_CTOR_OFFSET))(this, a1, a2);

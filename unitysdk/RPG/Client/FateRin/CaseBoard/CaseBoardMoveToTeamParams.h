@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDMOVETOTEAMPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFC1D0)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDMOVETOTEAMPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xD916BE0)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardMoveToTeamParams_TypeDefinitionIndex = 80804;
+	inline static constexpr unsigned int CaseBoardMoveToTeamParams_TypeDefinitionIndex = 83584;
 
 	class CaseBoardMoveToTeamParams : public ::System::Object
 	{

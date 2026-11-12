@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0D37D0)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D3810)
-#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__29_0_OFFSET UNITYSDK_OFFSET(0xD0D3820)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA67A40)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA67A80)
+#define RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__30_0_OFFSET UNITYSDK_OFFSET(0xDA67A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAugmentSelectItem___c_TypeDefinitionIndex = 64384;
+	inline static constexpr unsigned int GridFightAugmentSelectItem___c_TypeDefinitionIndex = 65831;
 
 	class GridFightAugmentSelectItem___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__29_0()
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x64200);
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B190);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x64208);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6B198);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C_CTOR_OFFSET))(this);
 		}
 
-		::RPG::Client::GridFightEquipItemConfig* _GetDescDetailObject_b__29_0(::System::UInt32 a1)
+		::RPG::Client::GridFightEquipItemConfig* _GetDescDetailObject_b__30_0(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::GridFightEquipItemConfig*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__29_0_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightEquipItemConfig*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTAUGMENTSELECTITEM___C__GETDESCDETAILOBJECT_B__30_0_OFFSET))(this, a1);
 		}
 
 	};

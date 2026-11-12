@@ -4,18 +4,18 @@
 class EEAGACLNDFN;
 namespace System { class Object; }
 
-#define EEAGACLNDFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E264290)
-#define EEAGACLNDFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2642D0)
-#define EEAGACLNDFN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2642E0)
+#define EEAGACLNDFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F561AC0)
+#define EEAGACLNDFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F561B00)
+#define EEAGACLNDFN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F561B10)
 
-inline static constexpr unsigned int EEAGACLNDFN___c_TypeDefinitionIndex = 28031;
+inline static constexpr unsigned int EEAGACLNDFN___c_TypeDefinitionIndex = 28621;
 
 	class EEAGACLNDFN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41020);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50F60);
 		}
 
 		static ::System::Void _cctor()

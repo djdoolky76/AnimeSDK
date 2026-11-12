@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F116F10)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F116F50)
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x1F116F60)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203C7F50)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203C7F90)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY___C__GETSTATE_B__0_0_OFFSET UNITYSDK_OFFSET(0x203C7FA0)
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 38709;
+	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 39638;
 
 	class StateMachineUtility___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x3EDC0);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x36770);
 		}
 
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x3EDC8);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Cysharp.Threading.Tasks.CompilerServices", "<>c")->GetStaticField(0x36778);
 		}
 
 		static ::System::Void _cctor()

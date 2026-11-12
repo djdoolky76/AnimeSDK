@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int KLPGPGDOCCA_BOJFIJLHACE_TypeDefinitionIndex = 70320;
+inline static constexpr unsigned int KLPGPGDOCCA_BOJFIJLHACE_TypeDefinitionIndex = 72286;
 
 	struct alignas(4) KLPGPGDOCCA_BOJFIJLHACE
 	{

@@ -1,0 +1,174 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightTraitEffectBase.h"
+#include "unitysdk/RPG/Client/GridFightTraitEffectEffType.h"
+class MGBHKCMHDOK;
+namespace RPG::Client { class GridFightRole; }
+namespace RPG::Client { class GridFightTrait; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_APPLY_OFFSET UNITYSDK_OFFSET(0xDC0A4A0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC090B0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GETSHOWICON_OFFSET UNITYSDK_OFFSET(0xDC0A2A0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GETSHOWMEMBERUIDS_OFFSET UNITYSDK_OFFSET(0xDC09680)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_BESTROLEID_OFFSET UNITYSDK_OFFSET(0xDC09350)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_EFFTYPE_OFFSET UNITYSDK_OFFSET(0xDC092D0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_HASGRANTED_OFFSET UNITYSDK_OFFSET(0xDC09370)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_HASINFO_OFFSET UNITYSDK_OFFSET(0xDC093B0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_ISGOLDORHIGHERACTIVATED_OFFSET UNITYSDK_OFFSET(0xDC09400)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_ISSPOTLIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0xDC09390)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_NEEDPLAYACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0xDC09B80)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_ROLEID_OFFSET UNITYSDK_OFFSET(0xDC09330)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_SHOULDDEFERGOLDENHANCEICON_OFFSET UNITYSDK_OFFSET(0xDC094A0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_SPOTLIGHTID_OFFSET UNITYSDK_OFFSET(0xDC09310)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_ONTRAITCHANGE_OFFSET UNITYSDK_OFFSET(0xDC09BC0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xDC0A310)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_PULLPENDINGGOLDENHANCEUIDS_OFFSET UNITYSDK_OFFSET(0xDC09D50)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_BESTROLEID_OFFSET UNITYSDK_OFFSET(0xDC09360)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_HASGRANTED_OFFSET UNITYSDK_OFFSET(0xDC09380)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_ISSPOTLIGHTACTIVE_OFFSET UNITYSDK_OFFSET(0xDC093A0)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_ROLEID_OFFSET UNITYSDK_OFFSET(0xDC09340)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_SPOTLIGHTID_OFFSET UNITYSDK_OFFSET(0xDC09320)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SYNCGOLDENHANCESHOWCONSUMED_OFFSET UNITYSDK_OFFSET(0xDC0A090)
+#define RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT__GETSHOWMEMBERUIDS_B__35_0_OFFSET UNITYSDK_OFFSET(0xDC0A8C0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightMoonGameSpotLightTraitEffect_TypeDefinitionIndex = 67214;
+
+	class GridFightMoonGameSpotLightTraitEffect : public ::RPG::Client::GridFightTraitEffectBase
+	{
+	public:
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* _PresentedShowUIDs; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* _PendingGoldEnhanceUIDs; // 0x38
+		::System::Collections::Generic::List_1<::System::UInt32>* _ShowUIDs; // 0x40
+		::System::Boolean _HasGranted_k__BackingField; // 0x48
+		::System::Boolean _IsSpotLightActive_k__BackingField; // 0x49
+		::System::Byte _padding0[0x2];
+		::System::UInt32 _RoleId_k__BackingField; // 0x4C
+		::System::UInt32 _BestRoleId_k__BackingField; // 0x50
+		::System::UInt32 _SpotLightId_k__BackingField; // 0x54
+		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::GridFightTrait* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::GridFightTraitEffectEffType get_EffType()
+		{
+			return ((::RPG::Client::GridFightTraitEffectEffType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_EFFTYPE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SpotLightId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_SPOTLIGHTID_OFFSET))(this);
+		}
+
+		::System::Void set_SpotLightId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_SPOTLIGHTID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_RoleId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_ROLEID_OFFSET))(this);
+		}
+
+		::System::Void set_RoleId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_ROLEID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_BestRoleId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_BESTROLEID_OFFSET))(this);
+		}
+
+		::System::Void set_BestRoleId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_BESTROLEID_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_HasGranted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_HASGRANTED_OFFSET))(this);
+		}
+
+		::System::Void set_HasGranted(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_HASGRANTED_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsSpotLightActive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_ISSPOTLIGHTACTIVE_OFFSET))(this);
+		}
+
+		::System::Void set_IsSpotLightActive(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SET_ISSPOTLIGHTACTIVE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_HasInfo()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_HASINFO_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsGoldOrHigherActivated()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_ISGOLDORHIGHERACTIVATED_OFFSET))(this);
+		}
+
+		::System::Boolean get_ShouldDeferGoldEnhanceIcon()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_SHOULDDEFERGOLDENHANCEICON_OFFSET))(this);
+		}
+
+		::System::Boolean get_NeedPlayActiveEffect()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GET_NEEDPLAYACTIVEEFFECT_OFFSET))(this);
+		}
+
+		::System::Void OnTraitChange(::System::UInt32 a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_ONTRAITCHANGE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* PullPendingGoldEnhanceUIDs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_PULLPENDINGGOLDENHANCEUIDS_OFFSET))(this);
+		}
+
+		::System::Void SyncGoldEnhanceShowConsumed()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_SYNCGOLDENHANCESHOWCONSUMED_OFFSET))(this);
+		}
+
+		::System::String* GetShowIcon()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GETSHOWICON_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* GetShowMemberUIDs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_GETSHOWMEMBERUIDS_OFFSET))(this);
+		}
+
+		::System::Void OnUpdate(::MGBHKCMHDOK* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::MGBHKCMHDOK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_ONUPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void Apply(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4, ::System::Boolean a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT_APPLY_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::System::Boolean _GetShowMemberUIDs_b__35_0(::RPG::Client::GridFightRole* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMOONGAMESPOTLIGHTTRAITEFFECT__GETSHOWMEMBERUIDS_B__35_0_OFFSET))(this, a1);
+		}
+
+	};
+}

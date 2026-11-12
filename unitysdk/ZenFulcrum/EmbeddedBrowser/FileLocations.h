@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace ZenFulcrum::EmbeddedBrowser { class FileLocations_CEFDirs; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GETCEFDIRS_OFFSET UNITYSDK_OFFSET(0x1F65E110)
-#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GET_DIRS_OFFSET UNITYSDK_OFFSET(0x1F637940)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GETCEFDIRS_OFFSET UNITYSDK_OFFSET(0x2090D8D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_FILELOCATIONS_GET_DIRS_OFFSET UNITYSDK_OFFSET(0x208E7180)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int FileLocations_TypeDefinitionIndex = 39505;
+	inline static constexpr unsigned int FileLocations_TypeDefinitionIndex = 40434;
 
 	class FileLocations : public ::System::Object
 	{
 	public:
 		static ::ZenFulcrum::EmbeddedBrowser::FileLocations_CEFDirs** StaticGet__dirs()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::FileLocations_CEFDirs**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "FileLocations")->GetStaticField(0x529F0);
+			return (::ZenFulcrum::EmbeddedBrowser::FileLocations_CEFDirs**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "FileLocations")->GetStaticField(0x497F0);
 		}
 
 		// static const ::System::String* SlaveExecutable; // 0x0

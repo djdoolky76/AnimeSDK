@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InfiniteWaveInsertMonster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJLBPNGCCDO_CTOR_OFFSET UNITYSDK_OFFSET(0xB71E930)
-#define LJLBPNGCCDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB71E960)
+#define LJLBPNGCCDO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBB3F0)
+#define LJLBPNGCCDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFBB420)
 
-inline static constexpr unsigned int LJLBPNGCCDO_TypeDefinitionIndex = 55123;
+inline static constexpr unsigned int LJLBPNGCCDO_TypeDefinitionIndex = 56300;
 
 	class LJLBPNGCCDO
 	{

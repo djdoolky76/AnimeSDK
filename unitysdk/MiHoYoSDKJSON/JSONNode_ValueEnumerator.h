@@ -13,7 +13,7 @@ namespace System { class Object; }
 
 namespace MiHoYoSDKJSON
 {
-	inline static constexpr unsigned int JSONNode_ValueEnumerator_TypeDefinitionIndex = 46049;
+	inline static constexpr unsigned int JSONNode_ValueEnumerator_TypeDefinitionIndex = 47078;
 
 	struct alignas(4) JSONNode_ValueEnumerator
 	{

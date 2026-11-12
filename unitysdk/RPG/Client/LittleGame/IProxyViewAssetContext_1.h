@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IProxyViewAssetContext_1_TypeDefinitionIndex = 42715;
+	inline static constexpr unsigned int IProxyViewAssetContext_1_TypeDefinitionIndex = 43694;
 
 	template <typename T>
 	class IProxyViewAssetContext_1

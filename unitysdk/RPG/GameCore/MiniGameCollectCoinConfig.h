@@ -8,12 +8,12 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 namespace RPG::GameCore { class MiniGameCollectCoin_CurveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8808B0)
-#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D880240)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9AD40)
+#define RPG_GAMECORE_MINIGAMECOLLECTCOINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA9A6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniGameCollectCoinConfig_TypeDefinitionIndex = 18801;
+	inline static constexpr unsigned int MiniGameCollectCoinConfig_TypeDefinitionIndex = 18962;
 
 	class MiniGameCollectCoinConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define AEFBPMPIKNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB14F540)
-#define AEFBPMPIKNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB14F570)
-#define AEFBPMPIKNB___C___LISTENLEVELVAR_B__9_0_OFFSET UNITYSDK_OFFSET(0xB14F580)
+#define AEFBPMPIKNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7B4AC0)
+#define AEFBPMPIKNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7B4B00)
+#define AEFBPMPIKNB___C___LISTENLEVELVAR_B__9_0_OFFSET UNITYSDK_OFFSET(0xB7B4B10)
 
-inline static constexpr unsigned int AEFBPMPIKNB___c_TypeDefinitionIndex = 77075;
+inline static constexpr unsigned int AEFBPMPIKNB___c_TypeDefinitionIndex = 79409;
 
 	class AEFBPMPIKNB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C310);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42560);
 		}
 
 		static ::System::Action_3<::AEFBPMPIKNB*, ::System::Int32, ::System::String*>** StaticGet___9__9_0()
 		{
-			return (::System::Action_3<::AEFBPMPIKNB*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C318);
+			return (::System::Action_3<::AEFBPMPIKNB*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42568);
 		}
 
 		static ::System::Void _cctor()

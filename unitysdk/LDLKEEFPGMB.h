@@ -8,33 +8,33 @@ class OGIFJNIGHBO;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 
-#define LDLKEEFPGMB_AFBPLPPOOIA_OFFSET UNITYSDK_OFFSET(0xB63C950)
-#define LDLKEEFPGMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB63CA50)
-#define LDLKEEFPGMB_GET_RELEASETYPE_OFFSET UNITYSDK_OFFSET(0xB63C910)
-#define LDLKEEFPGMB_GET_SCHEDULEACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0xB63C930)
-#define LDLKEEFPGMB_MOFIPAIPFHO_OFFSET UNITYSDK_OFFSET(0xB63C9B0)
-#define LDLKEEFPGMB_SET_RELEASETYPE_OFFSET UNITYSDK_OFFSET(0xB63C920)
-#define LDLKEEFPGMB_SET_SCHEDULEACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0xB63C940)
+#define LDLKEEFPGMB_AFBPLPPOOIA_OFFSET UNITYSDK_OFFSET(0xBED21F0)
+#define LDLKEEFPGMB_CTOR_OFFSET UNITYSDK_OFFSET(0xBED22F0)
+#define LDLKEEFPGMB_GET_RELEASETYPE_OFFSET UNITYSDK_OFFSET(0xBED21B0)
+#define LDLKEEFPGMB_GET_SCHEDULEACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0xBED21D0)
+#define LDLKEEFPGMB_MOFIPAIPFHO_OFFSET UNITYSDK_OFFSET(0xBED2250)
+#define LDLKEEFPGMB_SET_RELEASETYPE_OFFSET UNITYSDK_OFFSET(0xBED21C0)
+#define LDLKEEFPGMB_SET_SCHEDULEACTIVITYMODULEID_OFFSET UNITYSDK_OFFSET(0xBED21E0)
 
-inline static constexpr unsigned int LDLKEEFPGMB_TypeDefinitionIndex = 66721;
+inline static constexpr unsigned int LDLKEEFPGMB_TypeDefinitionIndex = 68657;
 
 	class LDLKEEFPGMB : public ::System::Object
 	{
 	public:
-		::RPG::AvatarSystem::IAvatar* KBFHJNEEOOL; // 0x10
-		::System::String* CAKAJFGJGPE; // 0x18
-		::System::String* IMGPNLCKNHE; // 0x20
-		::System::String* DOPEILKFLGI; // 0x28
-		::System::String* DKLNOJHPHDF; // 0x30
-		::System::UInt32 PMIEAEGJNMJ; // 0x38
-		::System::UInt32 MEFDNHMPHOH; // 0x3C
-		::System::UInt32 FEKHEHMPDHC; // 0x40
-		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x44
+		::System::String* DOPEILKFLGI; // 0x10
+		::System::String* DKLNOJHPHDF; // 0x18
+		::System::String* CAKAJFGJGPE; // 0x20
+		::RPG::AvatarSystem::IAvatar* KBFHJNEEOOL; // 0x28
+		::System::String* IMGPNLCKNHE; // 0x30
+		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x38
+		::RPG::GameCore::AvatarBaseType GCIDABGHIHN; // 0x3C
+		::System::UInt32 PMIEAEGJNMJ; // 0x40
+		::System::UInt32 MEFDNHMPHOH; // 0x44
 		::System::UInt32 GGEIJACCPCK; // 0x48
-		::RPG::GameCore::AvatarBaseType GCIDABGHIHN; // 0x4C
+		::RPG::GameCore::PreAvatarType _ReleaseType_k__BackingField; // 0x4C
 		::System::UInt32 _ScheduleActivityModuleID_k__BackingField; // 0x50
 		::System::UInt32 KDKMALLNING; // 0x54
-		::RPG::GameCore::PreAvatarType _ReleaseType_k__BackingField; // 0x58
+		::System::UInt32 FEKHEHMPDHC; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDLKEEFPGMB_CTOR_OFFSET))(this);

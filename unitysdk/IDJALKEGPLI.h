@@ -13,44 +13,44 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define IDJALKEGPLI_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E62D050)
-#define IDJALKEGPLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E62D3F0)
-#define IDJALKEGPLI_CLONE_OFFSET UNITYSDK_OFFSET(0x1E62CB40)
-#define IDJALKEGPLI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E62CAB0)
-#define IDJALKEGPLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62CA70)
-#define IDJALKEGPLI_DKJLMFCJFFK_OFFSET UNITYSDK_OFFSET(0x1E62CB90)
-#define IDJALKEGPLI_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E62CD50)
-#define IDJALKEGPLI_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E62CBC0)
-#define IDJALKEGPLI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E62CE70)
-#define IDJALKEGPLI_IPLBECBNJLK_OFFSET UNITYSDK_OFFSET(0x1E62CBA0)
-#define IDJALKEGPLI_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E62CA00)
-#define IDJALKEGPLI_LMLKAECMDNH_OFFSET UNITYSDK_OFFSET(0x1E62CBB0)
-#define IDJALKEGPLI_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E62D220)
-#define IDJALKEGPLI_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E62D180)
-#define IDJALKEGPLI_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E62CA60)
-#define IDJALKEGPLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62CEE0)
-#define IDJALKEGPLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62CF40)
+#define IDJALKEGPLI_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F94A830)
+#define IDJALKEGPLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F94ABB0)
+#define IDJALKEGPLI_CLONE_OFFSET UNITYSDK_OFFSET(0x1F94A320)
+#define IDJALKEGPLI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F94A290)
+#define IDJALKEGPLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1F94A250)
+#define IDJALKEGPLI_DKJLMFCJFFK_OFFSET UNITYSDK_OFFSET(0x1F94A390)
+#define IDJALKEGPLI_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F94A530)
+#define IDJALKEGPLI_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F94A3A0)
+#define IDJALKEGPLI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F94A660)
+#define IDJALKEGPLI_IPLBECBNJLK_OFFSET UNITYSDK_OFFSET(0x1F94A370)
+#define IDJALKEGPLI_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F94A1E0)
+#define IDJALKEGPLI_LMLKAECMDNH_OFFSET UNITYSDK_OFFSET(0x1F94A380)
+#define IDJALKEGPLI_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F94A9E0)
+#define IDJALKEGPLI_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F94A940)
+#define IDJALKEGPLI_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F94A240)
+#define IDJALKEGPLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F94A6D0)
+#define IDJALKEGPLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F94A730)
 
-inline static constexpr unsigned int IDJALKEGPLI_TypeDefinitionIndex = 31615;
+inline static constexpr unsigned int IDJALKEGPLI_TypeDefinitionIndex = 32528;
 
 	class IDJALKEGPLI : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::APAMFCKFHLL*>* GPOFAEPIOJM; // 0x10
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::APAMFCKFHLL*>* GPOFAEPIOJM; // 0x18
 		::System::UInt32 BHFEEGICLMK; // 0x20
-		static ::Google::Protobuf::MessageParser_1<::IDJALKEGPLI*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::IDJALKEGPLI*>**)UnitySDK::FromName("", "IDJALKEGPLI")->GetStaticField(0x46440);
-		}
-
 		static ::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>** StaticGet_KDDKFBJMOAI()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>**)UnitySDK::FromName("", "IDJALKEGPLI")->GetStaticField(0x46448);
+			return (::Google::Protobuf::FieldCodec_1<::APAMFCKFHLL*>**)UnitySDK::FromName("", "IDJALKEGPLI")->GetStaticField(0x4D560);
 		}
 
-		// static const ::System::Object CAPFCADNIJI; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::IDJALKEGPLI*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::IDJALKEGPLI*>**)UnitySDK::FromName("", "IDJALKEGPLI")->GetStaticField(0x4D568);
+		}
+
 		// static const ::System::Object OEMNIDFIJEO; // 0x0
+		// static const ::System::Object CAPFCADNIJI; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IDJALKEGPLI_CTOR_OFFSET))(this);
@@ -81,11 +81,6 @@ inline static constexpr unsigned int IDJALKEGPLI_TypeDefinitionIndex = 31615;
 			return ((::IDJALKEGPLI*(*)(::PVOID))((::PBYTE)hIl2Cpp + IDJALKEGPLI_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::APAMFCKFHLL*>* DKJLMFCJFFK()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::APAMFCKFHLL*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IDJALKEGPLI_DKJLMFCJFFK_OFFSET))(this);
-		}
-
 		::System::UInt32 IPLBECBNJLK()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + IDJALKEGPLI_IPLBECBNJLK_OFFSET))(this);
@@ -94,6 +89,11 @@ inline static constexpr unsigned int IDJALKEGPLI_TypeDefinitionIndex = 31615;
 		::System::Void LMLKAECMDNH(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + IDJALKEGPLI_LMLKAECMDNH_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::APAMFCKFHLL*>* DKJLMFCJFFK()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::APAMFCKFHLL*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IDJALKEGPLI_DKJLMFCJFFK_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

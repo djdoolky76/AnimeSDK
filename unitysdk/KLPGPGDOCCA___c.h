@@ -5,23 +5,23 @@ class KLPGPGDOCCA_AnimatedInstance;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define KLPGPGDOCCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB53A9B0)
-#define KLPGPGDOCCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB53A9F0)
-#define KLPGPGDOCCA___C__PLAY_B__4_0_OFFSET UNITYSDK_OFFSET(0xB53AA00)
+#define KLPGPGDOCCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD85A20)
+#define KLPGPGDOCCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD85A60)
+#define KLPGPGDOCCA___C__PLAY_B__4_0_OFFSET UNITYSDK_OFFSET(0xBD85A70)
 
-inline static constexpr unsigned int KLPGPGDOCCA___c_TypeDefinitionIndex = 70321;
+inline static constexpr unsigned int KLPGPGDOCCA___c_TypeDefinitionIndex = 72287;
 
 	class KLPGPGDOCCA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ECB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55A10);
 		}
 
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ECB8);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55A18);
 		}
 
 		static ::System::Void _cctor()

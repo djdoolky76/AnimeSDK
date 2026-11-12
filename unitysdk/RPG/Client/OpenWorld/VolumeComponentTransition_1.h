@@ -4,7 +4,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int VolumeComponentTransition_1_TypeDefinitionIndex = 74036;
+	inline static constexpr unsigned int VolumeComponentTransition_1_TypeDefinitionIndex = 76172;
 
 	template <typename T>
 	class VolumeComponentTransition_1 : public ::FCLGKGNNJOA

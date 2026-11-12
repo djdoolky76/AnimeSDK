@@ -9,13 +9,13 @@ namespace RPG::GameCore { class PropMoveToV2TargetBase; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROPMOVETOV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1D950150)
-#define RPG_GAMECORE_PROPMOVETOV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9501F0)
-#define RPG_GAMECORE_PROPMOVETOV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D950090)
+#define RPG_GAMECORE_PROPMOVETOV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB68F90)
+#define RPG_GAMECORE_PROPMOVETOV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB69030)
+#define RPG_GAMECORE_PROPMOVETOV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB68ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropMoveToV2_TypeDefinitionIndex = 21964;
+	inline static constexpr unsigned int PropMoveToV2_TypeDefinitionIndex = 22355;
 
 	class PropMoveToV2 : public ::RPG::GameCore::TaskConfig
 	{

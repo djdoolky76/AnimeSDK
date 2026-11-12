@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class OEIGEPGAGNA;
 
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC841680)
-#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS9_0___ENTERREPLAYWITHMAZEINFONEXTFRAME_B__0_OFFSET UNITYSDK_OFFSET(0xC841690)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1A4630)
+#define RPG_CLIENT_BATTLELINEUPGAMEPHASE___C__DISPLAYCLASS9_0___ENTERREPLAYWITHMAZEINFONEXTFRAME_B__0_OFFSET UNITYSDK_OFFSET(0xD1A4640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleLineupGamePhase___c__DisplayClass9_0_TypeDefinitionIndex = 60987;
+	inline static constexpr unsigned int BattleLineupGamePhase___c__DisplayClass9_0_TypeDefinitionIndex = 62363;
 
 	class BattleLineupGamePhase___c__DisplayClass9_0 : public ::System::Object
 	{

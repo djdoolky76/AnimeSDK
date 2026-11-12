@@ -3,10 +3,10 @@
 class BCNMIFBIGIE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEHNDNFMCHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB152770)
-#define AEHNDNFMCHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1527A0)
+#define AEHNDNFMCHB_CTOR_OFFSET UNITYSDK_OFFSET(0xD5ADF70)
+#define AEHNDNFMCHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5ADFA0)
 
-inline static constexpr unsigned int AEHNDNFMCHB_TypeDefinitionIndex = 55685;
+inline static constexpr unsigned int AEHNDNFMCHB_TypeDefinitionIndex = 56883;
 
 	class AEHNDNFMCHB
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityPunkLordBonusRewardRow; }
 
-#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D370A90)
-#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D370410)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57FCC0)
+#define RPG_GAMECORE_ACTIVITYPUNKLORDBONUSREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E57F640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPunkLordBonusRewardRow_TypeDefinitionIndex = 12293;
+	inline static constexpr unsigned int ActivityPunkLordBonusRewardRow_TypeDefinitionIndex = 12350;
 
 	class ActivityPunkLordBonusRewardRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 24835;
+	inline static constexpr unsigned int ServerPrefsType_TypeDefinitionIndex = 25315;
 
 	enum class ServerPrefsType : ::System::Int32
 	{
@@ -184,5 +184,14 @@ namespace RPG::GameCore
 		IsPetMarbleResidentRewardSeen = 4632,
 		IsPetMarbleArchiveSeen = 4633,
 		IsVoracityInvasionCutinHasSeen = 4641,
+		MessageSeenUnfrozenMessageGroupIDs = 4701,
+		MessageSeenUnfrozenContactIDs = 4702,
+		AhaEidolonSpecialView = 4730,
+		SeenElationSeriesSkill = 4731,
+		DepletablePoolIntroVideoSeenPoolIDs = 4711,
+		GridFightSeasonShowSettleBtn = 4720,
+		GridFightSeenMaxSeasonLevels = 4721,
+		ActivityRealityShowBadgeObtainDialogShowed = 4740,
+		RecommendShopSeenRechargeBenefitIDs = 4750,
 	};
 }

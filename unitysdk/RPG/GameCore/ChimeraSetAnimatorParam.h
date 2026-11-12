@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ChimeraBattleBaseEvaluator; }
 namespace RPG::GameCore { class ChimeraSetAnimatorParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERASETANIMATORPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AE6A0)
-#define RPG_GAMECORE_CHIMERASETANIMATORPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5AE6B0)
-#define RPG_GAMECORE_CHIMERASETANIMATORPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5AE650)
+#define RPG_GAMECORE_CHIMERASETANIMATORPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A9670)
+#define RPG_GAMECORE_CHIMERASETANIMATORPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A9680)
+#define RPG_GAMECORE_CHIMERASETANIMATORPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7BE4E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraSetAnimatorParam_TypeDefinitionIndex = 15871;
+	inline static constexpr unsigned int ChimeraSetAnimatorParam_TypeDefinitionIndex = 16029;
 
 	class ChimeraSetAnimatorParam : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

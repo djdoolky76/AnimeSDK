@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCD4F90)
-#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD4FD0)
-#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__GETSUBSTEPFINISHSTATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xCCD4FE0)
+#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD697D10)
+#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD697D50)
+#define RPG_CLIENT_DRINKMAKERBARDRINKMAKINGSTEP___C__GETSUBSTEPFINISHSTATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xD697D60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex = 63593;
+	inline static constexpr unsigned int DrinkMakerBarDrinkMakingStep___c_TypeDefinitionIndex = 65035;
 
 	class DrinkMakerBarDrinkMakingStep___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2FB90);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2FB98);
+			return (::System::Func_2<::System::Collections::Generic::List_1<::System::UInt32>*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2D000);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2D008);
 		}
 
 		static ::System::Void _cctor()

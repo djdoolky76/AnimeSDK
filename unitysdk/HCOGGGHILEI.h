@@ -5,26 +5,26 @@ namespace System { class Object; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define HCOGGGHILEI_BMMHMFJHJED_OFFSET UNITYSDK_OFFSET(0x1DD61830)
-#define HCOGGGHILEI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD61B30)
-#define HCOGGGHILEI_FJDJNHCHBNL_OFFSET UNITYSDK_OFFSET(0x1DD61700)
-#define HCOGGGHILEI_KAGBELPHFBB_OFFSET UNITYSDK_OFFSET(0x1DD618B0)
-#define HCOGGGHILEI_KJLMKPGKGHB_OFFSET UNITYSDK_OFFSET(0x1DD61AE0)
-#define HCOGGGHILEI_MMCMILPKEHO_OFFSET UNITYSDK_OFFSET(0x1DD61A80)
+#define HCOGGGHILEI_BMMHMFJHJED_OFFSET UNITYSDK_OFFSET(0x1EF63FB0)
+#define HCOGGGHILEI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF642B0)
+#define HCOGGGHILEI_FJDJNHCHBNL_OFFSET UNITYSDK_OFFSET(0x1EF63E80)
+#define HCOGGGHILEI_KAGBELPHFBB_OFFSET UNITYSDK_OFFSET(0x1EF64030)
+#define HCOGGGHILEI_KJLMKPGKGHB_OFFSET UNITYSDK_OFFSET(0x1EF64260)
+#define HCOGGGHILEI_MMCMILPKEHO_OFFSET UNITYSDK_OFFSET(0x1EF64200)
 
-inline static constexpr unsigned int HCOGGGHILEI_TypeDefinitionIndex = 6325;
+inline static constexpr unsigned int HCOGGGHILEI_TypeDefinitionIndex = 6332;
 
 	class HCOGGGHILEI : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_OJFBPIFNHKN()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "HCOGGGHILEI")->GetStaticField(0x2BD30);
-		}
-
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_JOOMJIJLHBK()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)UnitySDK::FromName("", "HCOGGGHILEI")->GetStaticField(0x2BD38);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)UnitySDK::FromName("", "HCOGGGHILEI")->GetStaticField(0x31590);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_OJFBPIFNHKN()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "HCOGGGHILEI")->GetStaticField(0x31598);
 		}
 
 		// static const ::System::Object BGFIKHHKMEP; // 0x0

@@ -4,22 +4,22 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 
-#define PBGJFNCHEJO_ABOMEAHIEFN_OFFSET UNITYSDK_OFFSET(0xBFED1A0)
-#define PBGJFNCHEJO_CLEAR_OFFSET UNITYSDK_OFFSET(0xBFED150)
-#define PBGJFNCHEJO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFED2C0)
-#define PBGJFNCHEJO_HADGAGKJBHG_OFFSET UNITYSDK_OFFSET(0xBFED200)
-#define PBGJFNCHEJO_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xBFED260)
+#define PBGJFNCHEJO_ABOMEAHIEFN_OFFSET UNITYSDK_OFFSET(0xC8F16D0)
+#define PBGJFNCHEJO_CLEAR_OFFSET UNITYSDK_OFFSET(0xC8F1680)
+#define PBGJFNCHEJO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F17F0)
+#define PBGJFNCHEJO_HADGAGKJBHG_OFFSET UNITYSDK_OFFSET(0xC8F1730)
+#define PBGJFNCHEJO_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xC8F1790)
 
-inline static constexpr unsigned int PBGJFNCHEJO_TypeDefinitionIndex = 60777;
+inline static constexpr unsigned int PBGJFNCHEJO_TypeDefinitionIndex = 62156;
 
 	class PBGJFNCHEJO : public ::System::Object
 	{
 	public:
-		::System::Action* LNNLMNBOPCB; // 0x10
+		::System::Action* CDJGBPCECMB; // 0x10
 		::System::Action* OLHHIJIBKEM; // 0x18
-		::RPG::GameCore::GameEntity* LGIABFPBNPG; // 0x20
-		::System::Action* CDJGBPCECMB; // 0x28
-		::RPG::GameCore::GameEntity* JPBIPLGPMFO; // 0x30
+		::System::Action* LNNLMNBOPCB; // 0x20
+		::RPG::GameCore::GameEntity* JPBIPLGPMFO; // 0x28
+		::RPG::GameCore::GameEntity* LGIABFPBNPG; // 0x30
 		::System::Boolean FKAJFHIEOAH; // 0x38
 		::System::Void _ctor()
 		{

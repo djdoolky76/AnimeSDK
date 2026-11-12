@@ -5,14 +5,14 @@ namespace RPG::GameCore { class RequestGroupStateChange; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define HMBEHBOFDML_CTOR_OFFSET UNITYSDK_OFFSET(0x15D78D00)
-#define HMBEHBOFDML_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D78D10)
-#define HMBEHBOFDML_HMFOOIOLAHF_OFFSET UNITYSDK_OFFSET(0x15D794B0)
-#define HMBEHBOFDML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D78ED0)
-#define HMBEHBOFDML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D78DD0)
-#define HMBEHBOFDML_TICK_OFFSET UNITYSDK_OFFSET(0x15D78E70)
+#define HMBEHBOFDML_CTOR_OFFSET UNITYSDK_OFFSET(0x16CD4A50)
+#define HMBEHBOFDML_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16CD4A60)
+#define HMBEHBOFDML_HMFOOIOLAHF_OFFSET UNITYSDK_OFFSET(0x16CD5200)
+#define HMBEHBOFDML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16CD4C20)
+#define HMBEHBOFDML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16CD4B20)
+#define HMBEHBOFDML_TICK_OFFSET UNITYSDK_OFFSET(0x16CD4BC0)
 
-inline static constexpr unsigned int HMBEHBOFDML_TypeDefinitionIndex = 53201;
+inline static constexpr unsigned int HMBEHBOFDML_TypeDefinitionIndex = 54363;
 
 	class HMBEHBOFDML : public ::GELIALJDFBL
 	{
@@ -22,8 +22,8 @@ inline static constexpr unsigned int HMBEHBOFDML_TypeDefinitionIndex = 53201;
 		::System::UInt32 AJJFAODDKFB; // 0x28
 		::System::UInt32 PEEFHNHDBMF; // 0x2C
 		::System::UInt64 FDIBNPCCJAE; // 0x30
-		::System::UInt32 DEMEIKDPBAL; // 0x38
-		::System::UInt32 ACHIDNBOBLA; // 0x3C
+		::System::UInt32 ACHIDNBOBLA; // 0x38
+		::System::UInt32 DEMEIKDPBAL; // 0x3C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RequestGroupStateChange* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RequestGroupStateChange*))((::PBYTE)hIl2Cpp + HMBEHBOFDML_CTOR_OFFSET))(this, a1, a2);

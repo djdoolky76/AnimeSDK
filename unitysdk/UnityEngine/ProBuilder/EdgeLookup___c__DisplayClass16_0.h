@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/ProBuilder/EdgeLookup.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1D67E0)
-#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET UNITYSDK_OFFSET(0x1F1D6D80)
+#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0x20487C20)
+#define UNITYENGINE_PROBUILDER_EDGELOOKUP___C__DISPLAYCLASS16_0__GETEDGELOOKUP_B__0_OFFSET UNITYSDK_OFFSET(0x204881C0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EdgeLookup___c__DisplayClass16_0_TypeDefinitionIndex = 44353;
+	inline static constexpr unsigned int EdgeLookup___c__DisplayClass16_0_TypeDefinitionIndex = 45428;
 
 	class EdgeLookup___c__DisplayClass16_0 : public ::System::Object
 	{

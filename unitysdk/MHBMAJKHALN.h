@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LFPEEBKPEIO.h"
 
-#define MHBMAJKHALN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BC790)
+#define MHBMAJKHALN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63FC70)
 
-inline static constexpr unsigned int MHBMAJKHALN_TypeDefinitionIndex = 41438;
+inline static constexpr unsigned int MHBMAJKHALN_TypeDefinitionIndex = 42413;
 
 	class MHBMAJKHALN : public ::LFPEEBKPEIO
 	{

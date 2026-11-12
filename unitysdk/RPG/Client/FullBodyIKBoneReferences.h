@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_EAGCDCPOFEL_OFFSET UNITYSDK_OFFSET(0xE9410)
-#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xE9400)
+#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_EAGCDCPOFEL_OFFSET UNITYSDK_OFFSET(0xF4FE0)
+#define RPG_CLIENT_FULLBODYIKBONEREFERENCES_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xF4FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullBodyIKBoneReferences_TypeDefinitionIndex = 68601;
+	inline static constexpr unsigned int FullBodyIKBoneReferences_TypeDefinitionIndex = 70549;
 
 	struct alignas(8) FullBodyIKBoneReferences
 	{

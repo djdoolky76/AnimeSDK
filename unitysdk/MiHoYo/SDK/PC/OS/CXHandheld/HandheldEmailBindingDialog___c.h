@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldEmailBindingDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEF0DC0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF0E00)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__SHOW_B__71_0_OFFSET UNITYSDK_OFFSET(0x1BEF0E10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0778C0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D077900)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__SHOW_B__71_0_OFFSET UNITYSDK_OFFSET(0x1D077910)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldEmailBindingDialog___c_TypeDefinitionIndex = 8810;
+	inline static constexpr unsigned int HandheldEmailBindingDialog___c_TypeDefinitionIndex = 8819;
 
 	class HandheldEmailBindingDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>** StaticGet___9__71_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x12760);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0x12768);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0xDBA0);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>** StaticGet___9__71_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::PC::OS::CXHandheld::HandheldEmailBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS.CXHandheld", "<>c")->GetStaticField(0xDBA8);
 		}
 
 		static ::System::Void _cctor()

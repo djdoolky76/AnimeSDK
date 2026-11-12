@@ -5,23 +5,23 @@ namespace RPG::Client { class BaseLobby; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IILCHDOMOME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x164495F0)
-#define IILCHDOMOME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16449630)
-#define IILCHDOMOME___C___BEGINJOINLOBBY_B__7_0_OFFSET UNITYSDK_OFFSET(0x16449640)
+#define IILCHDOMOME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17404390)
+#define IILCHDOMOME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x174043D0)
+#define IILCHDOMOME___C___BEGINJOINLOBBY_B__7_0_OFFSET UNITYSDK_OFFSET(0x174043E0)
 
-inline static constexpr unsigned int IILCHDOMOME___c_TypeDefinitionIndex = 66043;
+inline static constexpr unsigned int IILCHDOMOME___c_TypeDefinitionIndex = 67975;
 
 	class IILCHDOMOME___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FB50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67DF0);
 		}
 
 		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FB58);
+			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::BaseLobby*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67DF8);
 		}
 
 		static ::System::Void _cctor()

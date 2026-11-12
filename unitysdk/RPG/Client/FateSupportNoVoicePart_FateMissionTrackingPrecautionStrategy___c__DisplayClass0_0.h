@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFDB2A0)
-#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xCFDB2B0)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD95C900)
+#define RPG_CLIENT_FATESUPPORTNOVOICEPART_FATEMISSIONTRACKINGPRECAUTIONSTRATEGY___C__DISPLAYCLASS0_0__TRYCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xD95C910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0_TypeDefinitionIndex = 64163;
+	inline static constexpr unsigned int FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0_TypeDefinitionIndex = 65608;
 
 	class FateSupportNoVoicePart_FateMissionTrackingPrecautionStrategy___c__DisplayClass0_0 : public ::System::Object
 	{

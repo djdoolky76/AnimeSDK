@@ -5,18 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemPurposeRow; }
 
-#define RPG_GAMECORE_ITEMPURPOSEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79A9B0)
-#define RPG_GAMECORE_ITEMPURPOSEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79A370)
+#define RPG_GAMECORE_ITEMPURPOSEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DDEE0)
+#define RPG_GAMECORE_ITEMPURPOSEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9DD8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemPurposeRow_TypeDefinitionIndex = 13875;
+	inline static constexpr unsigned int ItemPurposeRow_TypeDefinitionIndex = 14032;
 
 	class ItemPurposeRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID PurposeText; // 0x10
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID PurposeText; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMPURPOSEROW_CTOR_OFFSET))(this);

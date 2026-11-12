@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchDataViewUISelectLeave; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OLGBFEDDODM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF08510)
-#define OLGBFEDDODM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF08560)
+#define OLGBFEDDODM_CTOR_OFFSET UNITYSDK_OFFSET(0xC8039F0)
+#define OLGBFEDDODM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC803A40)
 
-inline static constexpr unsigned int OLGBFEDDODM_TypeDefinitionIndex = 59253;
+inline static constexpr unsigned int OLGBFEDDODM_TypeDefinitionIndex = 60530;
 
 	class OLGBFEDDODM
 	{

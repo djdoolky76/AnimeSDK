@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define LNEMEKHMGLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C426EC0)
+#define LNEMEKHMGLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AD6B0)
 
-inline static constexpr unsigned int LNEMEKHMGLA_TypeDefinitionIndex = 5630;
+inline static constexpr unsigned int LNEMEKHMGLA_TypeDefinitionIndex = 5635;
 
 	class LNEMEKHMGLA : public ::System::Attribute
 	{

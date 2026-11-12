@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesGachaAvatarRow; }
 
-#define RPG_GAMECORE_PLANETFESGACHAAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D926080)
-#define RPG_GAMECORE_PLANETFESGACHAAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D925FC0)
+#define RPG_GAMECORE_PLANETFESGACHAAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB3F180)
+#define RPG_GAMECORE_PLANETFESGACHAAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB3F0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGachaAvatarRow_TypeDefinitionIndex = 12216;
+	inline static constexpr unsigned int PlanetFesGachaAvatarRow_TypeDefinitionIndex = 12273;
 
 	class PlanetFesGachaAvatarRow : public ::System::Object
 	{

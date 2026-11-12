@@ -4,18 +4,18 @@
 class DFNKGEIEDOA;
 namespace System { class Object; }
 
-#define DFNKGEIEDOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1A8E70)
-#define DFNKGEIEDOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A8EB0)
-#define DFNKGEIEDOA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1A8EC0)
+#define DFNKGEIEDOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F483B90)
+#define DFNKGEIEDOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F483BD0)
+#define DFNKGEIEDOA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F483BE0)
 
-inline static constexpr unsigned int DFNKGEIEDOA___c_TypeDefinitionIndex = 31897;
+inline static constexpr unsigned int DFNKGEIEDOA___c_TypeDefinitionIndex = 32810;
 
 	class DFNKGEIEDOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33270);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2EA70);
 		}
 
 		static ::System::Void _cctor()

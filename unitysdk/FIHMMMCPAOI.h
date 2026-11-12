@@ -9,26 +9,26 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FIHMMMCPAOI_APDCCFBPCEF_OFFSET UNITYSDK_OFFSET(0x157A7F80)
-#define FIHMMMCPAOI_CCTOR_OFFSET UNITYSDK_OFFSET(0x157A8870)
-#define FIHMMMCPAOI_CTOR_OFFSET UNITYSDK_OFFSET(0x157A79A0)
-#define FIHMMMCPAOI_DCPIGALKBBB_OFFSET UNITYSDK_OFFSET(0x157A84A0)
-#define FIHMMMCPAOI_HPPCGJDIFMO_OFFSET UNITYSDK_OFFSET(0x157A8580)
-#define FIHMMMCPAOI_JJJAGNBCLBJ_OFFSET UNITYSDK_OFFSET(0x157A8270)
-#define FIHMMMCPAOI_KOHOGMCJHBH_OFFSET UNITYSDK_OFFSET(0x157A7E80)
-#define FIHMMMCPAOI_NINKGGDNLFJ_OFFSET UNITYSDK_OFFSET(0x157A8340)
-#define FIHMMMCPAOI___NOTIFYFLOWDISPOSE_B__5_0_OFFSET UNITYSDK_OFFSET(0x157A89C0)
+#define FIHMMMCPAOI_APDCCFBPCEF_OFFSET UNITYSDK_OFFSET(0x166C9A00)
+#define FIHMMMCPAOI_CCTOR_OFFSET UNITYSDK_OFFSET(0x166CA2F0)
+#define FIHMMMCPAOI_CTOR_OFFSET UNITYSDK_OFFSET(0x166C9420)
+#define FIHMMMCPAOI_DCPIGALKBBB_OFFSET UNITYSDK_OFFSET(0x166C9F20)
+#define FIHMMMCPAOI_HPPCGJDIFMO_OFFSET UNITYSDK_OFFSET(0x166CA000)
+#define FIHMMMCPAOI_JJJAGNBCLBJ_OFFSET UNITYSDK_OFFSET(0x166C9CF0)
+#define FIHMMMCPAOI_KOHOGMCJHBH_OFFSET UNITYSDK_OFFSET(0x166C9900)
+#define FIHMMMCPAOI_NINKGGDNLFJ_OFFSET UNITYSDK_OFFSET(0x166C9DC0)
+#define FIHMMMCPAOI___NOTIFYFLOWDISPOSE_B__5_0_OFFSET UNITYSDK_OFFSET(0x166CA440)
 
-inline static constexpr unsigned int FIHMMMCPAOI_TypeDefinitionIndex = 67637;
+inline static constexpr unsigned int FIHMMMCPAOI_TypeDefinitionIndex = 69581;
 
 	class FIHMMMCPAOI : public ::ODGEOHLNBIP
 	{
 	public:
-		::System::Collections::Generic::List_1<::HFEOGNAMHCG*>* BALPKNPJIMP; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueFormulaData*>* OIJFFAAEDNK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueFormulaData*>* OIJFFAAEDNK; // 0x18
+		::System::Collections::Generic::List_1<::HFEOGNAMHCG*>* BALPKNPJIMP; // 0x20
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueFormulaCategory, ::System::UInt32>** StaticGet_BDPMEPMMHAA()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueFormulaCategory, ::System::UInt32>**)UnitySDK::FromName("", "FIHMMMCPAOI")->GetStaticField(0x6CE10);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueFormulaCategory, ::System::UInt32>**)UnitySDK::FromName("", "FIHMMMCPAOI")->GetStaticField(0x5E460);
 		}
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::HFEOGNAMHCG*>* a1)

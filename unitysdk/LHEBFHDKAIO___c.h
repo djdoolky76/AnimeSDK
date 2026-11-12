@@ -4,18 +4,18 @@
 class LHEBFHDKAIO;
 namespace System { class Object; }
 
-#define LHEBFHDKAIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E95ECF0)
-#define LHEBFHDKAIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E95ED30)
-#define LHEBFHDKAIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E95ED40)
+#define LHEBFHDKAIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC7F3F0)
+#define LHEBFHDKAIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC7F430)
+#define LHEBFHDKAIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC7F440)
 
-inline static constexpr unsigned int LHEBFHDKAIO___c_TypeDefinitionIndex = 28559;
+inline static constexpr unsigned int LHEBFHDKAIO___c_TypeDefinitionIndex = 29149;
 
 	class LHEBFHDKAIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40D90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34340);
 		}
 
 		static ::System::Void _cctor()

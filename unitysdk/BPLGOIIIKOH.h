@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class AOFOEOIJEHF;
 class CDEAABODKCP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BPLGOIIIKOH_CTOR_OFFSET UNITYSDK_OFFSET(0xC1AA730)
-#define BPLGOIIIKOH_EOMJBFAECGD_OFFSET UNITYSDK_OFFSET(0xC1A9AB0)
-#define BPLGOIIIKOH_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xC1A99E0)
-#define BPLGOIIIKOH_MBINGCOGKAI_OFFSET UNITYSDK_OFFSET(0xC1A9E50)
-#define BPLGOIIIKOH_PREUPDATEDONE_OFFSET UNITYSDK_OFFSET(0xC1AA420)
-#define BPLGOIIIKOH_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xC1AA390)
-#define BPLGOIIIKOH_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xC1A9A30)
+#define BPLGOIIIKOH_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4B560)
+#define BPLGOIIIKOH_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xCB4A8A0)
+#define BPLGOIIIKOH_PREUPDATEDONE_OFFSET UNITYSDK_OFFSET(0xCB4B2E0)
+#define BPLGOIIIKOH_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xCB4B250)
+#define BPLGOIIIKOH_UPDATEITEMREMOVE_OFFSET UNITYSDK_OFFSET(0xCB4AD10)
+#define BPLGOIIIKOH_UPDATEROLE_OFFSET UNITYSDK_OFFSET(0xCB4A970)
+#define BPLGOIIIKOH_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xCB4A8F0)
 
-inline static constexpr unsigned int BPLGOIIIKOH_TypeDefinitionIndex = 64956;
+inline static constexpr unsigned int BPLGOIIIKOH_TypeDefinitionIndex = 66563;
 
-	class BPLGOIIIKOH : public ::AMCOEFHHBPO
+	class BPLGOIIIKOH : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* JBMFIEIKFGA; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* OIFFHOOCAGA; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* OIFFHOOCAGA; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* JBMFIEIKFGA; // 0x18
 		::System::UInt32 FPJKDKMDKFB; // 0x20
 		::System::UInt32 GOGHILAKAAA; // 0x24
 		::System::Void _ctor()
@@ -38,14 +38,14 @@ inline static constexpr unsigned int BPLGOIIIKOH_TypeDefinitionIndex = 64956;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BPLGOIIIKOH_UPDATESTART_OFFSET))(this);
 		}
 
-		::System::Void EOMJBFAECGD(::CDEAABODKCP* a1)
+		::System::Void UpdateRole(::CDEAABODKCP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::CDEAABODKCP*))((::PBYTE)hIl2Cpp + BPLGOIIIKOH_EOMJBFAECGD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::CDEAABODKCP*))((::PBYTE)hIl2Cpp + BPLGOIIIKOH_UPDATEROLE_OFFSET))(this, a1);
 		}
 
-		::System::Void MBINGCOGKAI(::AOFOEOIJEHF* a1)
+		::System::Void UpdateItemRemove(::AOFOEOIJEHF* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::AOFOEOIJEHF*))((::PBYTE)hIl2Cpp + BPLGOIIIKOH_MBINGCOGKAI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::AOFOEOIJEHF*))((::PBYTE)hIl2Cpp + BPLGOIIIKOH_UPDATEITEMREMOVE_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateAddItem(::AOFOEOIJEHF* a1)

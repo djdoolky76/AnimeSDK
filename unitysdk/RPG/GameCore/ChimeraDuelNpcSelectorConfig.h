@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelNpcSelectorConfig; }
 
-#define RPG_GAMECORE_CHIMERADUELNPCSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A65C0)
-#define RPG_GAMECORE_CHIMERADUELNPCSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A6470)
+#define RPG_GAMECORE_CHIMERADUELNPCSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B71C0)
+#define RPG_GAMECORE_CHIMERADUELNPCSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7B6B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelNpcSelectorConfig_TypeDefinitionIndex = 15952;
+	inline static constexpr unsigned int ChimeraDuelNpcSelectorConfig_TypeDefinitionIndex = 16110;
 
 	class ChimeraDuelNpcSelectorConfig : public ::RPG::GameCore::JsonConfig
 	{

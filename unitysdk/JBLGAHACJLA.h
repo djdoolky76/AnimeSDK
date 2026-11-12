@@ -7,29 +7,29 @@ namespace RPG::GameCore { class ComplexSkillAIFactorGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JBLGAHACJLA_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0x16571F40)
-#define JBLGAHACJLA_AADOIGAFMJF_OFFSET UNITYSDK_OFFSET(0x16571D50)
-#define JBLGAHACJLA_CCTOR_OFFSET UNITYSDK_OFFSET(0x16572620)
-#define JBLGAHACJLA_ECKLJGMMCAI_OFFSET UNITYSDK_OFFSET(0x16572210)
-#define JBLGAHACJLA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x16571B60)
-#define JBLGAHACJLA_GGPKCNGMMEG_OFFSET UNITYSDK_OFFSET(0x16572010)
-#define JBLGAHACJLA_HBAELKMEFAM_OFFSET UNITYSDK_OFFSET(0x16571CF0)
-#define JBLGAHACJLA_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0x165725A0)
-#define JBLGAHACJLA_NGEAGIFJDMK_OFFSET UNITYSDK_OFFSET(0x165723A0)
+#define JBLGAHACJLA_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0xB8AAEB0)
+#define JBLGAHACJLA_AADOIGAFMJF_OFFSET UNITYSDK_OFFSET(0xB8AACC0)
+#define JBLGAHACJLA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8AB590)
+#define JBLGAHACJLA_ECKLJGMMCAI_OFFSET UNITYSDK_OFFSET(0xB8AB180)
+#define JBLGAHACJLA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0xB8AAAD0)
+#define JBLGAHACJLA_GGPKCNGMMEG_OFFSET UNITYSDK_OFFSET(0xB8AAF80)
+#define JBLGAHACJLA_HBAELKMEFAM_OFFSET UNITYSDK_OFFSET(0xB8AAC60)
+#define JBLGAHACJLA_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0xB8AB510)
+#define JBLGAHACJLA_NGEAGIFJDMK_OFFSET UNITYSDK_OFFSET(0xB8AB310)
 
-inline static constexpr unsigned int JBLGAHACJLA_TypeDefinitionIndex = 56484;
+inline static constexpr unsigned int JBLGAHACJLA_TypeDefinitionIndex = 57704;
 
 	class JBLGAHACJLA : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::AIGlobalVarsConfig** StaticGet_PBMPIJFLNIA()
 		{
-			return (::RPG::GameCore::AIGlobalVarsConfig**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x64540);
+			return (::RPG::GameCore::AIGlobalVarsConfig**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x5F1B0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::GDFCJJAAOPJ*>** StaticGet_ENICAPCDPEK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::GDFCJJAAOPJ*>**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x64548);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::GDFCJJAAOPJ*>**)UnitySDK::FromName("", "JBLGAHACJLA")->GetStaticField(0x5F1B8);
 		}
 
 		static ::System::Void _cctor()

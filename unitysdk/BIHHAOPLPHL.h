@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BIHHAOPLPHL_CEPDAOEBPJD_OFFSET UNITYSDK_OFFSET(0xB4A86F0)
+#define BIHHAOPLPHL_CEPDAOEBPJD_OFFSET UNITYSDK_OFFSET(0xBE3B800)
 
-inline static constexpr unsigned int BIHHAOPLPHL_TypeDefinitionIndex = 63518;
+inline static constexpr unsigned int BIHHAOPLPHL_TypeDefinitionIndex = 64956;
 
 	class BIHHAOPLPHL : public ::System::Object
 	{

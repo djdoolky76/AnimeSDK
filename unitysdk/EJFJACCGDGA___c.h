@@ -4,18 +4,18 @@
 class EJFJACCGDGA;
 namespace System { class Object; }
 
-#define EJFJACCGDGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2B6250)
-#define EJFJACCGDGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B6280)
-#define EJFJACCGDGA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2B6290)
+#define EJFJACCGDGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5998A0)
+#define EJFJACCGDGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5998D0)
+#define EJFJACCGDGA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F5998E0)
 
-inline static constexpr unsigned int EJFJACCGDGA___c_TypeDefinitionIndex = 34073;
+inline static constexpr unsigned int EJFJACCGDGA___c_TypeDefinitionIndex = 34988;
 
 	class EJFJACCGDGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B700);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x450B0);
 		}
 
 		static ::System::Void _cctor()

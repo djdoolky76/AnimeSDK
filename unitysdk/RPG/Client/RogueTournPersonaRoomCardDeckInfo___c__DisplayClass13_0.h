@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE02DA40)
-#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0___GETCARDSBYPILE_B__0_OFFSET UNITYSDK_OFFSET(0xE02DB90)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEA97EF0)
+#define RPG_CLIENT_ROGUETOURNPERSONAROOMCARDDECKINFO___C__DISPLAYCLASS13_0___GETCARDSBYPILE_B__0_OFFSET UNITYSDK_OFFSET(0xEA98040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0_TypeDefinitionIndex = 67741;
+	inline static constexpr unsigned int RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0_TypeDefinitionIndex = 69686;
 
 	class RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0 : public ::System::Object
 	{

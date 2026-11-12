@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define LEAGKPGBLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB649AE0)
+#define LEAGKPGBLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE0020)
 
-inline static constexpr unsigned int LEAGKPGBLAN_TypeDefinitionIndex = 48174;
+inline static constexpr unsigned int LEAGKPGBLAN_TypeDefinitionIndex = 49205;
 
 	class LEAGKPGBLAN : public ::UnityEngine::Playables::PlayableBehaviour
 	{

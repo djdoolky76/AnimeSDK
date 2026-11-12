@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenOutfitTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D368450)
-#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D368230)
+#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E576D80)
+#define RPG_GAMECORE_ACTIVITYHIPPLENOUTFITTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E576B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenOutfitTypeRow_TypeDefinitionIndex = 11671;
+	inline static constexpr unsigned int ActivityHipplenOutfitTypeRow_TypeDefinitionIndex = 11722;
 
 	class ActivityHipplenOutfitTypeRow : public ::System::Object
 	{

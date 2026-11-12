@@ -8,20 +8,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AOPFJJLMKAI_CTOR_OFFSET UNITYSDK_OFFSET(0x158C7E90)
-#define AOPFJJLMKAI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158C84F0)
-#define AOPFJJLMKAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158C7F10)
-#define AOPFJJLMKAI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158C8400)
-#define AOPFJJLMKAI_TICK_OFFSET UNITYSDK_OFFSET(0x158C8540)
+#define AOPFJJLMKAI_CTOR_OFFSET UNITYSDK_OFFSET(0x169EF9F0)
+#define AOPFJJLMKAI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x169F0050)
+#define AOPFJJLMKAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169EFA70)
+#define AOPFJJLMKAI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x169EFF60)
+#define AOPFJJLMKAI_TICK_OFFSET UNITYSDK_OFFSET(0x169F00A0)
 
-inline static constexpr unsigned int AOPFJJLMKAI_TypeDefinitionIndex = 58176;
+inline static constexpr unsigned int AOPFJJLMKAI_TypeDefinitionIndex = 59429;
 
 	class AOPFJJLMKAI : public ::GELIALJDFBL
 	{
 	public:
 		::GHFPPJFOAGI* OFKGLJOAMLD; // 0x18
-		::System::String* FKFFINDOLOJ; // 0x20
-		::RPG::Client::Stage* PKLNPNKEJOO; // 0x28
+		::RPG::Client::Stage* PKLNPNKEJOO; // 0x20
+		::System::String* FKFFINDOLOJ; // 0x28
 		::System::Collections::Generic::List_1<::KLEFGGIHGMI*>* PCDIEBGDABE; // 0x30
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::GHFPPJFOAGI* a2)

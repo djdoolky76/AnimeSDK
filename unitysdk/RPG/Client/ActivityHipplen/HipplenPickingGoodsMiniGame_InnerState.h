@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int HipplenPickingGoodsMiniGame_InnerState_TypeDefinitionIndex = 75598;
+	inline static constexpr unsigned int HipplenPickingGoodsMiniGame_InnerState_TypeDefinitionIndex = 77925;
 
 	enum class HipplenPickingGoodsMiniGame_InnerState : ::System::Int32
 	{

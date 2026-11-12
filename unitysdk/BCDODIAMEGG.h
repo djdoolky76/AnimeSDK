@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeMonsterName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BCDODIAMEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA5650)
-#define BCDODIAMEGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EA5680)
+#define BCDODIAMEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1709DCE0)
+#define BCDODIAMEGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1709DD10)
 
-inline static constexpr unsigned int BCDODIAMEGG_TypeDefinitionIndex = 54927;
+inline static constexpr unsigned int BCDODIAMEGG_TypeDefinitionIndex = 56099;
 
 	class BCDODIAMEGG
 	{

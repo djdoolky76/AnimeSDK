@@ -5,53 +5,53 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::IO { class StreamWriter; }
 
-#define MGKKMAJDHOP_CCKNBJMOEPN_OFFSET UNITYSDK_OFFSET(0x1C4BC560)
-#define MGKKMAJDHOP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4BC630)
-#define MGKKMAJDHOP_DAMECECDJHH_OFFSET UNITYSDK_OFFSET(0x1C4BC500)
-#define MGKKMAJDHOP_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x1C4BB250)
-#define MGKKMAJDHOP_DJFELJABBHP_OFFSET UNITYSDK_OFFSET(0x1C4BC4A0)
-#define MGKKMAJDHOP_GET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x1C4BC5C0)
-#define MGKKMAJDHOP_GNAAOCHCEOB_OFFSET UNITYSDK_OFFSET(0x1C4BBF40)
-#define MGKKMAJDHOP_IBHCPBKNIOI_OFFSET UNITYSDK_OFFSET(0x1C4BB8E0)
-#define MGKKMAJDHOP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C4BB1B0)
-#define MGKKMAJDHOP_MNFOFJKGCHL_OFFSET UNITYSDK_OFFSET(0x1C4BB830)
-#define MGKKMAJDHOP_NIFLOHIKPCO_OFFSET UNITYSDK_OFFSET(0x1C4BBE90)
-#define MGKKMAJDHOP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1C4BB6D0)
-#define MGKKMAJDHOP_SET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x1C4BC600)
+#define MGKKMAJDHOP_CCKNBJMOEPN_OFFSET UNITYSDK_OFFSET(0x1D63FA40)
+#define MGKKMAJDHOP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D63FB10)
+#define MGKKMAJDHOP_DAMECECDJHH_OFFSET UNITYSDK_OFFSET(0x1D63F9E0)
+#define MGKKMAJDHOP_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x1D63E770)
+#define MGKKMAJDHOP_DJFELJABBHP_OFFSET UNITYSDK_OFFSET(0x1D63F980)
+#define MGKKMAJDHOP_GET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x1D63FAA0)
+#define MGKKMAJDHOP_GNAAOCHCEOB_OFFSET UNITYSDK_OFFSET(0x1D63F420)
+#define MGKKMAJDHOP_IBHCPBKNIOI_OFFSET UNITYSDK_OFFSET(0x1D63EDC0)
+#define MGKKMAJDHOP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1D63E6D0)
+#define MGKKMAJDHOP_MNFOFJKGCHL_OFFSET UNITYSDK_OFFSET(0x1D63ED10)
+#define MGKKMAJDHOP_NIFLOHIKPCO_OFFSET UNITYSDK_OFFSET(0x1D63F370)
+#define MGKKMAJDHOP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1D63EBC0)
+#define MGKKMAJDHOP_SET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x1D63FAE0)
 
-inline static constexpr unsigned int MGKKMAJDHOP_TypeDefinitionIndex = 41378;
+inline static constexpr unsigned int MGKKMAJDHOP_TypeDefinitionIndex = 42353;
 
 	class MGKKMAJDHOP : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_KBINADGPLBO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x14430);
+			return (::System::String**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0xBE80);
 		}
 
 		static ::System::IO::StreamWriter** StaticGet_IADACDFOAJC()
 		{
-			return (::System::IO::StreamWriter**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x14438);
+			return (::System::IO::StreamWriter**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0xBE88);
 		}
 
 		static ::System::String** StaticGet_IPBLECJACII()
 		{
-			return (::System::String**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x14440);
+			return (::System::String**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0xBE90);
 		}
 
 		static ::System::String** StaticGet_MHINMLHJKKN()
 		{
-			return (::System::String**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x14448);
+			return (::System::String**)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0xBE98);
 		}
 
 		static ::System::Int32* StaticGet_BMLMPIHLNDP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x4D00);
+			return (::System::Int32*)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x1590);
 		}
 
 		static ::System::Boolean* StaticGet__EnableAssetLoadRecord_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x4D04);
+			return (::System::Boolean*)UnitySDK::FromName("", "MGKKMAJDHOP")->GetStaticField(0x1594);
 		}
 
 		// static const ::System::Object DHJCCOOBGIE; // 0x0

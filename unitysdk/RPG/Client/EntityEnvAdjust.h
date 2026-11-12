@@ -6,15 +6,15 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_ENTITYENVADJUST_CCTOR_OFFSET UNITYSDK_OFFSET(0xCDF26D0)
-#define RPG_CLIENT_ENTITYENVADJUST_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF2630)
-#define RPG_CLIENT_ENTITYENVADJUST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCDF2350)
-#define RPG_CLIENT_ENTITYENVADJUST_START_OFFSET UNITYSDK_OFFSET(0xCDF1E60)
-#define RPG_CLIENT_ENTITYENVADJUST_UPDATE_OFFSET UNITYSDK_OFFSET(0xCDF21A0)
+#define RPG_CLIENT_ENTITYENVADJUST_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7BA5B0)
+#define RPG_CLIENT_ENTITYENVADJUST_CTOR_OFFSET UNITYSDK_OFFSET(0xD7BA510)
+#define RPG_CLIENT_ENTITYENVADJUST_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD7BA230)
+#define RPG_CLIENT_ENTITYENVADJUST_START_OFFSET UNITYSDK_OFFSET(0xD7B9D40)
+#define RPG_CLIENT_ENTITYENVADJUST_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7BA080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EntityEnvAdjust_TypeDefinitionIndex = 70273;
+	inline static constexpr unsigned int EntityEnvAdjust_TypeDefinitionIndex = 72239;
 
 	class EntityEnvAdjust : public ::UnityEngine::MonoBehaviour
 	{
@@ -29,12 +29,12 @@ namespace RPG::Client
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* HOKOOCAHEAO; // 0x68
 		static ::System::Int32* StaticGet_HPJJPPKHOKN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EntityEnvAdjust")->GetStaticField(0x11AA0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EntityEnvAdjust")->GetStaticField(0xF260);
 		}
 
 		static ::System::Int32* StaticGet_NIAJFKBGIGH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EntityEnvAdjust")->GetStaticField(0x11AA4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EntityEnvAdjust")->GetStaticField(0xF264);
 		}
 
 		::System::Void _ctor()

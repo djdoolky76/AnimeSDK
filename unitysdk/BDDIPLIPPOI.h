@@ -8,28 +8,29 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define BDDIPLIPPOI_CTOR_OFFSET UNITYSDK_OFFSET(0x162F2B70)
-#define BDDIPLIPPOI_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x162F22A0)
-#define BDDIPLIPPOI_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x162F2520)
-#define BDDIPLIPPOI_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x162F2190)
-#define BDDIPLIPPOI_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x162F21B0)
-#define BDDIPLIPPOI_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0x162F21F0)
-#define BDDIPLIPPOI_NEOFNEBLKKL_OFFSET UNITYSDK_OFFSET(0x162F25E0)
-#define BDDIPLIPPOI_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x162F23B0)
-#define BDDIPLIPPOI_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x162F21A0)
-#define BDDIPLIPPOI__ONBIND_OFFSET UNITYSDK_OFFSET(0x162F20D0)
+#define BDDIPLIPPOI_CTOR_OFFSET UNITYSDK_OFFSET(0x170BA0B0)
+#define BDDIPLIPPOI_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x170B97E0)
+#define BDDIPLIPPOI_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x170B96D0)
+#define BDDIPLIPPOI_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x170B96F0)
+#define BDDIPLIPPOI_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0x170B9730)
+#define BDDIPLIPPOI_NEOFNEBLKKL_OFFSET UNITYSDK_OFFSET(0x170B9B20)
+#define BDDIPLIPPOI_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x170B96E0)
+#define BDDIPLIPPOI__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x170B98F0)
+#define BDDIPLIPPOI__ONBIND_OFFSET UNITYSDK_OFFSET(0x170B94E0)
+#define BDDIPLIPPOI__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x170B9A60)
 
-inline static constexpr unsigned int BDDIPLIPPOI_TypeDefinitionIndex = 72360;
+inline static constexpr unsigned int BDDIPLIPPOI_TypeDefinitionIndex = 74439;
 
 	class BDDIPLIPPOI : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Text* GEPFFDDHPAI; // 0x60
-		::RPG::Client::MonoInControlButton* OKPAHCBDGKF; // 0x68
-		::UnityEngine::UI::Button* PFBLCICMBBK; // 0x70
+		::UnityEngine::UI::Button* PFBLCICMBBK; // 0x60
+		::UnityEngine::UI::Text* GEPFFDDHPAI; // 0x68
+		::RPG::Client::MonoInControlButton* OKPAHCBDGKF; // 0x70
 		::RPG::GameCore::LevelDataComponent* OOGADIKBBBA; // 0x78
-		::System::Int32 _Index_k__BackingField; // 0x80
-		::System::Boolean AKBPNMEFGAO; // 0x84
+		::System::Boolean AKBPNMEFGAO; // 0x80
+		::System::Byte _padding0[0x3];
+		::System::Int32 _Index_k__BackingField; // 0x84
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::String* DFAIPLJPCCL; // 0x0
 		::System::Void _ctor()
@@ -67,14 +68,14 @@ inline static constexpr unsigned int BDDIPLIPPOI_TypeDefinitionIndex = 72360;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDDIPLIPPOI_ECOHEIAHIAO_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDDIPLIPPOI_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDDIPLIPPOI__INITVARONCE_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDDIPLIPPOI_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDDIPLIPPOI__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void NEOFNEBLKKL(::System::Object* a1)

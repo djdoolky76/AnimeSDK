@@ -2,19 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KDOOCNGDICH_CTOR_OFFSET UNITYSDK_OFFSET(0xB36C410)
-#define KDOOCNGDICH_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0xB36C420)
-#define KDOOCNGDICH_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB36C430)
-#define KDOOCNGDICH_INJKJEMKIOJ_OFFSET UNITYSDK_OFFSET(0xB36C450)
-#define KDOOCNGDICH_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB36C440)
+#define KDOOCNGDICH_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF6D10)
+#define KDOOCNGDICH_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0xBBF6D20)
+#define KDOOCNGDICH_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xBBF6D30)
+#define KDOOCNGDICH_INJKJEMKIOJ_OFFSET UNITYSDK_OFFSET(0xBBF6D50)
+#define KDOOCNGDICH_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xBBF6D40)
 
-inline static constexpr unsigned int KDOOCNGDICH_TypeDefinitionIndex = 80717;
+inline static constexpr unsigned int KDOOCNGDICH_TypeDefinitionIndex = 83497;
 
 	class KDOOCNGDICH : public ::System::Object
 	{
 	public:
-		::System::Int32 _CardIndex_k__BackingField; // 0x10
-		::System::Boolean _IsSelected_k__BackingField; // 0x14
+		::System::Boolean _IsSelected_k__BackingField; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::Int32 _CardIndex_k__BackingField; // 0x14
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + KDOOCNGDICH_CTOR_OFFSET))(this, a1);

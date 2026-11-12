@@ -3,10 +3,10 @@
 #include "unitysdk/MFLJIEBFMOF.h"
 #include "unitysdk/RPG/Client/TextID.h"
 
-#define HNLNALODNMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA01D0)
-#define HNLNALODNMP_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x15DA01C0)
+#define HNLNALODNMP_CTOR_OFFSET UNITYSDK_OFFSET(0x16D411E0)
+#define HNLNALODNMP_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x16D411D0)
 
-inline static constexpr unsigned int HNLNALODNMP_TypeDefinitionIndex = 68936;
+inline static constexpr unsigned int HNLNALODNMP_TypeDefinitionIndex = 70889;
 
 	class HNLNALODNMP : public ::MFLJIEBFMOF
 	{

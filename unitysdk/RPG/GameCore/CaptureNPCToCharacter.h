@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D557780)
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D557790)
-#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D557740)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E769400)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E769410)
+#define RPG_GAMECORE_CAPTURENPCTOCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7693C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CaptureNPCToCharacter_TypeDefinitionIndex = 20292;
+	inline static constexpr unsigned int CaptureNPCToCharacter_TypeDefinitionIndex = 20627;
 
 	class CaptureNPCToCharacter : public ::RPG::GameCore::TaskConfig
 	{

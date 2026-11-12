@@ -4,31 +4,31 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHESSROGUEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB037F0)
-#define RPG_CLIENT_CHESSROGUEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB03820)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCB03830)
-#define RPG_CLIENT_CHESSROGUEMODULE___C__ONLOGINFINISH_B__2_0_OFFSET UNITYSDK_OFFSET(0xCB038D0)
+#define RPG_CLIENT_CHESSROGUEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD467040)
+#define RPG_CLIENT_CHESSROGUEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD467070)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xD467080)
+#define RPG_CLIENT_CHESSROGUEMODULE___C__ONLOGINFINISH_B__2_0_OFFSET UNITYSDK_OFFSET(0xD467120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueModule___c_TypeDefinitionIndex = 66933;
+	inline static constexpr unsigned int ChessRogueModule___c_TypeDefinitionIndex = 68877;
 
 	class ChessRogueModule___c : public ::System::Object
 	{
 	public:
+		static ::System::Action** StaticGet___9__1_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC0A0);
+		}
+
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xDB60);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC0A8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xDB68);
-		}
-
-		static ::System::Action** StaticGet___9__1_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xDB70);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC0B0);
 		}
 
 		static ::System::Void _cctor()

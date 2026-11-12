@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class HBAHBGCOOML;
 
-inline static constexpr unsigned int NDGBEEKKHFI_TypeDefinitionIndex = 36275;
+inline static constexpr unsigned int NDGBEEKKHFI_TypeDefinitionIndex = 37203;
 
 	struct alignas(8) NDGBEEKKHFI
 	{

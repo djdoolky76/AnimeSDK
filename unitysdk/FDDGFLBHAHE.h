@@ -6,17 +6,17 @@ class FDDGFLBHAHE;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define FDDGFLBHAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDA8B0)
-#define FDDGFLBHAHE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDDA940)
-#define FDDGFLBHAHE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDDA800)
+#define FDDGFLBHAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB20C0)
+#define FDDGFLBHAHE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DFB2150)
+#define FDDGFLBHAHE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DFB2010)
 
-inline static constexpr unsigned int FDDGFLBHAHE_TypeDefinitionIndex = 22808;
+inline static constexpr unsigned int FDDGFLBHAHE_TypeDefinitionIndex = 23231;
 
 	class FDDGFLBHAHE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* OKCDNKKJFOB; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::DynamicFloat* OKCDNKKJFOB; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDDGFLBHAHE_CTOR_OFFSET))(this);

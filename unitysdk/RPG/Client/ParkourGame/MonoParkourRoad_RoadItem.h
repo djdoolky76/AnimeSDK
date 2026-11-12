@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 namespace RPG::Client::ParkourGame { class MonoParkourItem; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_ROADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA7BB40)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_ROADITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xE4D10E0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoad_RoadItem_TypeDefinitionIndex = 74156;
+	inline static constexpr unsigned int MonoParkourRoad_RoadItem_TypeDefinitionIndex = 76304;
 
 	class MonoParkourRoad_RoadItem : public ::System::Object
 	{

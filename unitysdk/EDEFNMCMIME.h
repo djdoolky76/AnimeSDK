@@ -6,11 +6,11 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDEFNMCMIME_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0x13311FE0)
-#define EDEFNMCMIME_CTOR_OFFSET UNITYSDK_OFFSET(0x13311D30)
-#define EDEFNMCMIME_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13311D60)
+#define EDEFNMCMIME_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0x140CEB30)
+#define EDEFNMCMIME_CTOR_OFFSET UNITYSDK_OFFSET(0x140CE890)
+#define EDEFNMCMIME_EVALUATE_OFFSET UNITYSDK_OFFSET(0x140CE8C0)
 
-inline static constexpr unsigned int EDEFNMCMIME_TypeDefinitionIndex = 57981;
+inline static constexpr unsigned int EDEFNMCMIME_TypeDefinitionIndex = 59219;
 
 	class EDEFNMCMIME
 	{

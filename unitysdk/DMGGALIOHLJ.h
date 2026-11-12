@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DMGGALIOHLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EEF0)
+#define DMGGALIOHLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF2720)
 
-inline static constexpr unsigned int DMGGALIOHLJ_TypeDefinitionIndex = 42104;
+inline static constexpr unsigned int DMGGALIOHLJ_TypeDefinitionIndex = 43079;
 
 	class DMGGALIOHLJ : public ::System::Object
 	{

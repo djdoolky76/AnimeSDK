@@ -4,18 +4,18 @@
 class MDGPIJNKMLO;
 namespace System { class Object; }
 
-#define MDGPIJNKMLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA03430)
-#define MDGPIJNKMLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA03460)
-#define MDGPIJNKMLO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EA03470)
+#define MDGPIJNKMLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD4D300)
+#define MDGPIJNKMLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD4D330)
+#define MDGPIJNKMLO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FD4D340)
 
-inline static constexpr unsigned int MDGPIJNKMLO___c_TypeDefinitionIndex = 30526;
+inline static constexpr unsigned int MDGPIJNKMLO___c_TypeDefinitionIndex = 31432;
 
 	class MDGPIJNKMLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x495F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50400);
 		}
 
 		static ::System::Void _cctor()

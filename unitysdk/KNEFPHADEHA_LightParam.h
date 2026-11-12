@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KNEFPHADEHA_LightParam_TypeDefinitionIndex = 47378;
+inline static constexpr unsigned int KNEFPHADEHA_LightParam_TypeDefinitionIndex = 48407;
 
 	enum class KNEFPHADEHA_LightParam : ::System::Int32
 	{

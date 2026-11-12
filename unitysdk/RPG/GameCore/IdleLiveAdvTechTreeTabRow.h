@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveAdvTechTreeTabRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEADVTECHTREETABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D777810)
-#define RPG_GAMECORE_IDLELIVEADVTECHTREETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7775E0)
+#define RPG_GAMECORE_IDLELIVEADVTECHTREETABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98AF40)
+#define RPG_GAMECORE_IDLELIVEADVTECHTREETABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98AD10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAdvTechTreeTabRow_TypeDefinitionIndex = 11731;
+	inline static constexpr unsigned int IdleLiveAdvTechTreeTabRow_TypeDefinitionIndex = 11788;
 
 	class IdleLiveAdvTechTreeTabRow : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* RecommendAvatarList; // 0x10
 		::System::String* IconPath; // 0x18
 		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 StartPoint; // 0x30
-		::System::UInt32 ID; // 0x34
+		::System::UInt32 ID; // 0x30
+		::System::UInt32 StartPoint; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEADVTECHTREETABROW_CTOR_OFFSET))(this);

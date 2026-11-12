@@ -5,13 +5,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelStatisticsResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxStatisticsExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF312F0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF312B0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF312A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B7E90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1D0B7E50)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0B7E40)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelStatisticsResult_TypeDefinitionIndex = 8632;
+	inline static constexpr unsigned int HoYoChannelStatisticsResult_TypeDefinitionIndex = 8641;
 
 	class HoYoChannelStatisticsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

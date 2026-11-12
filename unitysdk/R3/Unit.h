@@ -3,21 +3,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define R3_UNIT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C426600)
-#define R3_UNIT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C27110)
-#define R3_UNIT_EQUALS_OFFSET UNITYSDK_OFFSET(0x2F09290)
-#define R3_UNIT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2E8C190)
-#define R3_UNIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27160)
+#define R3_UNIT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5ACDF0)
+#define R3_UNIT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3E76090)
+#define R3_UNIT_EQUALS_OFFSET UNITYSDK_OFFSET(0x30E00D0)
+#define R3_UNIT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x305E7C0)
+#define R3_UNIT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E760E0)
 
 namespace R3
 {
-	inline static constexpr unsigned int Unit_TypeDefinitionIndex = 35974;
+	inline static constexpr unsigned int Unit_TypeDefinitionIndex = 36902;
 
 	struct alignas(4) Unit
 	{
 		static ::System::Object** StaticGet_Box()
 		{
-			return (::System::Object**)UnitySDK::FromName("R3", "Unit")->GetStaticField(0xA90);
+			return (::System::Object**)UnitySDK::FromName("R3", "Unit")->GetStaticField(0xA40);
 		}
 
 		static ::R3::Unit* StaticGet_Default()

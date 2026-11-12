@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class PCOMPBCHHKC;
 
-#define MAIBPGFPLOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C747640)
+#define MAIBPGFPLOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C8FD0)
 
-inline static constexpr unsigned int MAIBPGFPLOJ_TypeDefinitionIndex = 36936;
+inline static constexpr unsigned int MAIBPGFPLOJ_TypeDefinitionIndex = 37864;
 
 	class MAIBPGFPLOJ : public ::System::Object
 	{

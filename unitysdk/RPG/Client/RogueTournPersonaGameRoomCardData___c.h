@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournPersonaRoomAttributeData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMEROOMCARDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE01C4B0)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMEROOMCARDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE01C4E0)
-#define RPG_CLIENT_ROGUETOURNPERSONAGAMEROOMCARDDATA___C__CLONE_B__2_0_OFFSET UNITYSDK_OFFSET(0xE01C4F0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMEROOMCARDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA868B0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMEROOMCARDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA868E0)
+#define RPG_CLIENT_ROGUETOURNPERSONAGAMEROOMCARDDATA___C__CLONE_B__2_0_OFFSET UNITYSDK_OFFSET(0xEA868F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaGameRoomCardData___c_TypeDefinitionIndex = 67731;
+	inline static constexpr unsigned int RogueTournPersonaGameRoomCardData___c_TypeDefinitionIndex = 69676;
 
 	class RogueTournPersonaGameRoomCardData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D5B0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x724E0);
 		}
 
 		static ::System::Func_2<::RPG::Client::RogueTournPersonaRoomAttributeData*, ::RPG::Client::RogueTournPersonaRoomAttributeData*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournPersonaRoomAttributeData*, ::RPG::Client::RogueTournPersonaRoomAttributeData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D5B8);
+			return (::System::Func_2<::RPG::Client::RogueTournPersonaRoomAttributeData*, ::RPG::Client::RogueTournPersonaRoomAttributeData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x724E8);
 		}
 
 		static ::System::Void _cctor()

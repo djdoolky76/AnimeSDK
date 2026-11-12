@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define GNFKMKHOCKD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B02330)
-#define GNFKMKHOCKD_GET_COMPONENTINTERFACES_OFFSET UNITYSDK_OFFSET(0x15B02320)
+#define GNFKMKHOCKD_CTOR_OFFSET UNITYSDK_OFFSET(0x16A85260)
+#define GNFKMKHOCKD_GET_COMPONENTINTERFACES_OFFSET UNITYSDK_OFFSET(0x16A85250)
 
-inline static constexpr unsigned int GNFKMKHOCKD_TypeDefinitionIndex = 74064;
+inline static constexpr unsigned int GNFKMKHOCKD_TypeDefinitionIndex = 76212;
 
 	class GNFKMKHOCKD : public ::System::Attribute
 	{

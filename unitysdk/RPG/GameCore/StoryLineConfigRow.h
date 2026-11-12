@@ -6,25 +6,25 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class StoryLineConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYLINECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27A90)
-#define RPG_GAMECORE_STORYLINECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB27800)
+#define RPG_GAMECORE_STORYLINECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED392F0)
+#define RPG_GAMECORE_STORYLINECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED39060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryLineConfigRow_TypeDefinitionIndex = 15199;
+	inline static constexpr unsigned int StoryLineConfigRow_TypeDefinitionIndex = 15355;
 
 	class StoryLineConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* PerformanceStoryAvatar; // 0x10
-		::System::String* ShowCondition; // 0x18
+		::System::String* ShowCondition; // 0x10
+		::System::String* PerformanceStoryAvatar; // 0x18
 		::RPG::GameCore::ConditionParam* BeginCondition; // 0x20
 		::RPG::GameCore::ConditionParam* EndCondition; // 0x28
 		::System::UInt32 InitGroupID; // 0x30
-		::System::UInt32 InitAnchorID; // 0x34
-		::System::UInt32 StoryLineID; // 0x38
-		::System::UInt32 EarlyAccessContentID; // 0x3C
-		::System::UInt32 InitEntranceID; // 0x40
+		::System::UInt32 EarlyAccessContentID; // 0x34
+		::System::UInt32 InitEntranceID; // 0x38
+		::System::UInt32 StoryLineID; // 0x3C
+		::System::UInt32 InitAnchorID; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STORYLINECONFIGROW_CTOR_OFFSET))(this);

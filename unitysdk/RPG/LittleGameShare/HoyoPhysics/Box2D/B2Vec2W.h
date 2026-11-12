@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2FloatW.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2VEC2W_CTOR_OFFSET UNITYSDK_OFFSET(0x2EB0880)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2VEC2W_CTOR_OFFSET UNITYSDK_OFFSET(0x3084BA0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Vec2W_TypeDefinitionIndex = 36804;
+	inline static constexpr unsigned int B2Vec2W_TypeDefinitionIndex = 37732;
 
 	struct alignas(4) B2Vec2W
 	{

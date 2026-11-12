@@ -5,23 +5,23 @@ class LKFPICOFNDF;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define AIAMKDMMJFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEB91D00)
-#define AIAMKDMMJFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEB91D40)
-#define AIAMKDMMJFE___C__APPLY_B__1_0_OFFSET UNITYSDK_OFFSET(0xEB91D50)
+#define AIAMKDMMJFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF151930)
+#define AIAMKDMMJFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF151970)
+#define AIAMKDMMJFE___C__APPLY_B__1_0_OFFSET UNITYSDK_OFFSET(0xF151980)
 
-inline static constexpr unsigned int AIAMKDMMJFE___c_TypeDefinitionIndex = 77850;
+inline static constexpr unsigned int AIAMKDMMJFE___c_TypeDefinitionIndex = 80585;
 
 	class AIAMKDMMJFE___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57530);
-		}
-
 		static ::System::Func_2<::LKFPICOFNDF*, ::System::Single>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::LKFPICOFNDF*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57538);
+			return (::System::Func_2<::LKFPICOFNDF*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52D70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52D78);
 		}
 
 		static ::System::Void _cctor()

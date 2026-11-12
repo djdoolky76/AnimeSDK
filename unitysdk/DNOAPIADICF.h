@@ -7,17 +7,17 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-#define DNOAPIADICF_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDBE80)
-#define DNOAPIADICF_OKJPJMNNMGF_OFFSET UNITYSDK_OFFSET(0x11FDC4C0)
-#define DNOAPIADICF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FDBEF0)
+#define DNOAPIADICF_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD5360)
+#define DNOAPIADICF_OKJPJMNNMGF_OFFSET UNITYSDK_OFFSET(0x12DD59A0)
+#define DNOAPIADICF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DD53D0)
 
-inline static constexpr unsigned int DNOAPIADICF_TypeDefinitionIndex = 55211;
+inline static constexpr unsigned int DNOAPIADICF_TypeDefinitionIndex = 56392;
 
 	class DNOAPIADICF
 	{
 	public:
-		::RPG::GameCore::StringHash IGDMHJBOOLE; // 0x28
-		::RPG::GameCore::StringHash KNBEODCOLAC; // 0x2C
+		::RPG::GameCore::StringHash KNBEODCOLAC; // 0x28
+		::RPG::GameCore::StringHash IGDMHJBOOLE; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyShieldValueByNewShieldModifier* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyShieldValueByNewShieldModifier*))((::PBYTE)hIl2Cpp + DNOAPIADICF_CTOR_OFFSET))(this, a1, a2);

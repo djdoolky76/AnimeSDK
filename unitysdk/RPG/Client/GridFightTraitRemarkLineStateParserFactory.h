@@ -7,19 +7,19 @@ namespace RPG::Client { class IGridFightTraitRemarkLineStateParser; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2C1480)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY_CREATEPARSER_OFFSET UNITYSDK_OFFSET(0xD2BF520)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCE9FC0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINESTATEPARSERFACTORY_CREATEPARSER_OFFSET UNITYSDK_OFFSET(0xDCE6A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineStateParserFactory_TypeDefinitionIndex = 65495;
+	inline static constexpr unsigned int GridFightTraitRemarkLineStateParserFactory_TypeDefinitionIndex = 67408;
 
 	class GridFightTraitRemarkLineStateParserFactory : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GridFightTraitRemarkActiveType, ::System::Func_3<::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*, ::RPG::Client::IGridFightTraitRemarkLineStateParser*>*>** StaticGet__parserCreators()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GridFightTraitRemarkActiveType, ::System::Func_3<::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*, ::RPG::Client::IGridFightTraitRemarkLineStateParser*>*>**)UnitySDK::FromName("RPG.Client", "GridFightTraitRemarkLineStateParserFactory")->GetStaticField(0xB170);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GridFightTraitRemarkActiveType, ::System::Func_3<::Il2CppArray<::System::UInt32>*, ::RPG::Client::GridFightTrait*, ::RPG::Client::IGridFightTraitRemarkLineStateParser*>*>**)UnitySDK::FromName("RPG.Client", "GridFightTraitRemarkLineStateParserFactory")->GetStaticField(0x15430);
 		}
 
 		static ::System::Void _cctor()

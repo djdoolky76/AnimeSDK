@@ -5,7 +5,7 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Texture; }
 
-inline static constexpr unsigned int DJKCGMHILBC___c__1_2_TypeDefinitionIndex = 49921;
+inline static constexpr unsigned int DJKCGMHILBC___c__1_2_TypeDefinitionIndex = 50969;
 
 	template <typename T1, typename T2>
 	class DJKCGMHILBC___c__1_2 : public ::System::Object

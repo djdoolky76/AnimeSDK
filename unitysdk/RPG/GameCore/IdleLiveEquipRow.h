@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveEquipRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEEQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77AE10)
-#define RPG_GAMECORE_IDLELIVEEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77AC50)
+#define RPG_GAMECORE_IDLELIVEEQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98E540)
+#define RPG_GAMECORE_IDLELIVEEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98E380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEquipRow_TypeDefinitionIndex = 11755;
+	inline static constexpr unsigned int IdleLiveEquipRow_TypeDefinitionIndex = 11812;
 
 	class IdleLiveEquipRow : public ::System::Object
 	{

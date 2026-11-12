@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LOAMKOLJMNL_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1D11F7D0)
+#define LOAMKOLJMNL_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1E31E650)
 
-inline static constexpr unsigned int LOAMKOLJMNL_TypeDefinitionIndex = 10735;
+inline static constexpr unsigned int LOAMKOLJMNL_TypeDefinitionIndex = 10751;
 
 	class LOAMKOLJMNL : public ::System::Object
 	{

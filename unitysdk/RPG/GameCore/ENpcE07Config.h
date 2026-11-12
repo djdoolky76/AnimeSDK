@@ -3,6 +3,7 @@
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
 class ENEIHJJPNPI;
 class FCOEMCEDLNL;
+class FOFFCBGKLDD;
 namespace RPG::GameCore { class CharacterConfig; }
 namespace RPG::GameCore { class ENpcE07AnimClipOverrideConfig; }
 namespace RPG::GameCore { class ENpcE07Config; }
@@ -11,13 +12,13 @@ namespace RPG::GameCore { class SkillConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENPCE07CONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D62D9F0)
-#define RPG_GAMECORE_ENPCE07CONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D62D630)
-#define RPG_GAMECORE_ENPCE07CONFIG_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x1D62DA00)
+#define RPG_GAMECORE_ENPCE07CONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86B700)
+#define RPG_GAMECORE_ENPCE07CONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86B2F0)
+#define RPG_GAMECORE_ENPCE07CONFIG_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x1E86B710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ENpcE07Config_TypeDefinitionIndex = 16520;
+	inline static constexpr unsigned int ENpcE07Config_TypeDefinitionIndex = 16684;
 
 	class ENpcE07Config : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,7 +31,8 @@ namespace RPG::GameCore
 		::ENEIHJJPNPI* AddDynamicValues; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* AddDynamicStrings; // 0x40
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* AddCustomValues; // 0x48
-		::Il2CppArray<::RPG::GameCore::ENpcE07AnimClipOverrideConfig*>* AnimClipOverrideList; // 0x50
+		::Il2CppArray<::FOFFCBGKLDD*>* SkillParamModifyList; // 0x50
+		::Il2CppArray<::RPG::GameCore::ENpcE07AnimClipOverrideConfig*>* AnimClipOverrideList; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENPCE07CONFIG_CTOR_OFFSET))(this);

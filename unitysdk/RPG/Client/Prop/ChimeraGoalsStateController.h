@@ -3,13 +3,13 @@
 #include "unitysdk/RPG/Client/Prop/ChimeraPreparationState.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraPreparationStateControllerBase.h"
 
-#define RPG_CLIENT_PROP_CHIMERAGOALSSTATECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC7BDB0)
-#define RPG_CLIENT_PROP_CHIMERAGOALSSTATECONTROLLER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xDC7BB90)
-#define RPG_CLIENT_PROP_CHIMERAGOALSSTATECONTROLLER_ONENTER_OFFSET UNITYSDK_OFFSET(0xDC7BBE0)
+#define RPG_CLIENT_PROP_CHIMERAGOALSSTATECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE718A80)
+#define RPG_CLIENT_PROP_CHIMERAGOALSSTATECONTROLLER_GET_STATE_OFFSET UNITYSDK_OFFSET(0xE718860)
+#define RPG_CLIENT_PROP_CHIMERAGOALSSTATECONTROLLER_ONENTER_OFFSET UNITYSDK_OFFSET(0xE7188B0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraGoalsStateController_TypeDefinitionIndex = 78497;
+	inline static constexpr unsigned int ChimeraGoalsStateController_TypeDefinitionIndex = 81232;
 
 	class ChimeraGoalsStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{

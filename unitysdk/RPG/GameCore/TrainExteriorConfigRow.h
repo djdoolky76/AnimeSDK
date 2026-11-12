@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class TrainExteriorConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINEXTERIORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2C5A0)
-#define RPG_GAMECORE_TRAINEXTERIORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC2C3F0)
+#define RPG_GAMECORE_TRAINEXTERIORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE402C0)
+#define RPG_GAMECORE_TRAINEXTERIORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE40110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainExteriorConfigRow_TypeDefinitionIndex = 14022;
+	inline static constexpr unsigned int TrainExteriorConfigRow_TypeDefinitionIndex = 14179;
 
 	class TrainExteriorConfigRow : public ::System::Object
 	{

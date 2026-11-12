@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EKKHCDCABPE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD97A50)
-#define EKKHCDCABPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD98020)
-#define EKKHCDCABPE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD97BC0)
-#define EKKHCDCABPE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD974C0)
-#define EKKHCDCABPE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD97750)
-#define EKKHCDCABPE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD97C60)
-#define EKKHCDCABPE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD97CB0)
-#define EKKHCDCABPE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD97A90)
-#define EKKHCDCABPE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD976F0)
-#define EKKHCDCABPE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD978C0)
-#define EKKHCDCABPE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD97B20)
-#define EKKHCDCABPE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD97440)
+#define EKKHCDCABPE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DF6AA10)
+#define EKKHCDCABPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF6AFE0)
+#define EKKHCDCABPE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DF6AB80)
+#define EKKHCDCABPE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DF6A480)
+#define EKKHCDCABPE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DF6A710)
+#define EKKHCDCABPE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DF6AC20)
+#define EKKHCDCABPE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DF6AC70)
+#define EKKHCDCABPE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DF6AA50)
+#define EKKHCDCABPE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DF6A6B0)
+#define EKKHCDCABPE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DF6A880)
+#define EKKHCDCABPE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DF6AAE0)
+#define EKKHCDCABPE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DF6A400)
 
-inline static constexpr unsigned int EKKHCDCABPE_TypeDefinitionIndex = 12813;
+inline static constexpr unsigned int EKKHCDCABPE_TypeDefinitionIndex = 12885;
 
 	class EKKHCDCABPE : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x2480);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarServantSkillLinkRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarServantSkillLinkRow*>**)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x2488);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AvatarServantSkillLinkRow*>**)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x38990);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x2490);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x38998);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x1D90);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x389A0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0x1D91);
+			return (::System::Byte*)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0xC4C0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "EKKHCDCABPE")->GetStaticField(0xC4C1);
 		}
 
 		static ::System::Void _cctor()

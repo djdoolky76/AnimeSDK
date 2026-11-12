@@ -6,10 +6,10 @@ class LNDHLHALKAK;
 class MonoUIAdaptConfigItem;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MONOUIADAPTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4FA30)
-#define MONOUIADAPTCONFIG_GETUIADAPTIONOPERATIONS_OFFSET UNITYSDK_OFFSET(0xBA4F3D0)
+#define MONOUIADAPTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC30FE80)
+#define MONOUIADAPTCONFIG_GETUIADAPTIONOPERATIONS_OFFSET UNITYSDK_OFFSET(0xC30F820)
 
-inline static constexpr unsigned int MonoUIAdaptConfig_TypeDefinitionIndex = 47585;
+inline static constexpr unsigned int MonoUIAdaptConfig_TypeDefinitionIndex = 48614;
 
 	class MonoUIAdaptConfig : public ::UnityEngine::MonoBehaviour
 	{

@@ -7,10 +7,10 @@ namespace RPG::Client::FateRin::Avatar { class IFateRinAvatarViewModel; }
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 
-#define PCPLDNFFLMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC00B450)
-#define PCPLDNFFLMF_OKABKEJCCNN_OFFSET UNITYSDK_OFFSET(0xC00B500)
+#define PCPLDNFFLMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC9112D0)
+#define PCPLDNFFLMF_OKABKEJCCNN_OFFSET UNITYSDK_OFFSET(0xC911380)
 
-inline static constexpr unsigned int PCPLDNFFLMF_TypeDefinitionIndex = 81233;
+inline static constexpr unsigned int PCPLDNFFLMF_TypeDefinitionIndex = 84013;
 
 	class PCPLDNFFLMF : public ::System::Object
 	{

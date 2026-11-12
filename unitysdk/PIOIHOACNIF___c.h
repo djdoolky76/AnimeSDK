@@ -5,29 +5,29 @@ class PIOIHOACNIF;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define PIOIHOACNIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC275F90)
-#define PIOIHOACNIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC275FD0)
-#define PIOIHOACNIF___C__GET__ONPLAYERCREATEACTION_B__9_0_OFFSET UNITYSDK_OFFSET(0xC275FE0)
-#define PIOIHOACNIF___C__GET__ONPLAYERDESTROYACTION_B__11_0_OFFSET UNITYSDK_OFFSET(0xC276060)
+#define PIOIHOACNIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB9E0E0)
+#define PIOIHOACNIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9E120)
+#define PIOIHOACNIF___C__GET__ONPLAYERCREATEACTION_B__9_0_OFFSET UNITYSDK_OFFSET(0xCB9E130)
+#define PIOIHOACNIF___C__GET__ONPLAYERDESTROYACTION_B__11_0_OFFSET UNITYSDK_OFFSET(0xCB9E1B0)
 
-inline static constexpr unsigned int PIOIHOACNIF___c_TypeDefinitionIndex = 52836;
+inline static constexpr unsigned int PIOIHOACNIF___c_TypeDefinitionIndex = 53989;
 
 	class PIOIHOACNIF___c : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::PIOIHOACNIF*>** StaticGet___9__11_0()
+		{
+			return (::System::Action_1<::PIOIHOACNIF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71F20);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71F28);
 		}
 
 		static ::System::Action_1<::PIOIHOACNIF*>** StaticGet___9__9_0()
 		{
-			return (::System::Action_1<::PIOIHOACNIF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8A8);
-		}
-
-		static ::System::Action_1<::PIOIHOACNIF*>** StaticGet___9__11_0()
-		{
-			return (::System::Action_1<::PIOIHOACNIF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8B0);
+			return (::System::Action_1<::PIOIHOACNIF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71F30);
 		}
 
 		static ::System::Void _cctor()

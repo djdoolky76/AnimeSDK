@@ -3,10 +3,10 @@
 #include "unitysdk/IHDHPABKGPB.h"
 namespace UnityEngine { class Transform; }
 
-#define JEBGCHEKALN_CTOR_OFFSET UNITYSDK_OFFSET(0x16618BE0)
-#define JEBGCHEKALN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16618C50)
+#define JEBGCHEKALN_CTOR_OFFSET UNITYSDK_OFFSET(0xB9617E0)
+#define JEBGCHEKALN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB961850)
 
-inline static constexpr unsigned int JEBGCHEKALN_TypeDefinitionIndex = 69799;
+inline static constexpr unsigned int JEBGCHEKALN_TypeDefinitionIndex = 71758;
 
 	class JEBGCHEKALN : public ::IHDHPABKGPB
 	{

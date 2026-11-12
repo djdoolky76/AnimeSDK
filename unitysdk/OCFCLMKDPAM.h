@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ForceRefreshCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OCFCLMKDPAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD5F8E0)
-#define OCFCLMKDPAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD5F910)
+#define OCFCLMKDPAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC6642B0)
+#define OCFCLMKDPAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC6642E0)
 
-inline static constexpr unsigned int OCFCLMKDPAM_TypeDefinitionIndex = 52901;
+inline static constexpr unsigned int OCFCLMKDPAM_TypeDefinitionIndex = 54057;
 
 	class OCFCLMKDPAM
 	{

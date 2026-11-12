@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS55_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD238B0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS55_1__GETREALNAMEURL_B__0_OFFSET UNITYSDK_OFFSET(0x1BD32360)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS55_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEAC820)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS55_1__GETREALNAMEURL_B__0_OFFSET UNITYSDK_OFFSET(0x1CEBB2D0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass55_1_TypeDefinitionIndex = 9434;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass55_1_TypeDefinitionIndex = 9442;
 
 	template <typename T>
 	class ComboManager___c__DisplayClass55_1 : public ::System::Object

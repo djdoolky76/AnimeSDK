@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByDamageSourceContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PNOIGOKKNDP_CTOR_OFFSET UNITYSDK_OFFSET(0xC355730)
-#define PNOIGOKKNDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC356070)
+#define PNOIGOKKNDP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC885F0)
+#define PNOIGOKKNDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC88620)
 
-inline static constexpr unsigned int PNOIGOKKNDP_TypeDefinitionIndex = 54602;
+inline static constexpr unsigned int PNOIGOKKNDP_TypeDefinitionIndex = 55767;
 
 	class PNOIGOKKNDP
 	{

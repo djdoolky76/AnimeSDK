@@ -3,10 +3,10 @@
 class MNAKABIKBLP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGODNGKOCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBBB2B00)
-#define NGODNGKOCBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBB2B30)
+#define NGODNGKOCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC48ECA0)
+#define NGODNGKOCBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC48ECD0)
 
-inline static constexpr unsigned int NGODNGKOCBI_TypeDefinitionIndex = 52859;
+inline static constexpr unsigned int NGODNGKOCBI_TypeDefinitionIndex = 54014;
 
 	class NGODNGKOCBI
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VideoSequenceItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VIDEOSEQUENCEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC902D0)
-#define RPG_GAMECORE_VIDEOSEQUENCEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC900C0)
+#define RPG_GAMECORE_VIDEOSEQUENCEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA29B0)
+#define RPG_GAMECORE_VIDEOSEQUENCEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEA27A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoSequenceItem_TypeDefinitionIndex = 17017;
+	inline static constexpr unsigned int VideoSequenceItem_TypeDefinitionIndex = 17184;
 
 	class VideoSequenceItem : public ::RPG::GameCore::JsonConfig
 	{

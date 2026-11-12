@@ -7,7 +7,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterCustomBlushBehavior_FIOGCIAEGLE_TypeDefinitionIndex = 70260;
+	inline static constexpr unsigned int CharacterCustomBlushBehavior_FIOGCIAEGLE_TypeDefinitionIndex = 72226;
 
 	struct alignas(8) CharacterCustomBlushBehavior_FIOGCIAEGLE
 	{

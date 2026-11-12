@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewModel; }
 
-#define JMCEHJCEHEB_BGPLHPNDJGM_OFFSET UNITYSDK_OFFSET(0x11DD0)
-#define JMCEHJCEHEB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB25E540)
+#define JMCEHJCEHEB_BGPLHPNDJGM_OFFSET UNITYSDK_OFFSET(0x15990)
+#define JMCEHJCEHEB_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA89660)
 
-inline static constexpr unsigned int JMCEHJCEHEB_TypeDefinitionIndex = 80964;
+inline static constexpr unsigned int JMCEHJCEHEB_TypeDefinitionIndex = 83744;
 
 	struct alignas(8) JMCEHJCEHEB
 	{
 		::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel* NBBACHCJOCL; // 0x10
 		static ::JMCEHJCEHEB* StaticGet_GPKBJPNFGKI()
 		{
-			return (::JMCEHJCEHEB*)UnitySDK::FromName("", "JMCEHJCEHEB")->GetStaticField(0x1E120);
+			return (::JMCEHJCEHEB*)UnitySDK::FromName("", "JMCEHJCEHEB")->GetStaticField(0x16FB0);
 		}
 
 		static ::System::Void _cctor()

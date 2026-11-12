@@ -4,7 +4,7 @@
 namespace RPG::Client { class IRogueTournBuildRefDataItem; }
 namespace System { class String; }
 
-inline static constexpr unsigned int IDKGOANJEKH_PMKDENEDJLK_TypeDefinitionIndex = 67809;
+inline static constexpr unsigned int IDKGOANJEKH_PMKDENEDJLK_TypeDefinitionIndex = 69754;
 
 	struct alignas(8) IDKGOANJEKH_PMKDENEDJLK
 	{

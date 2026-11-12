@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class LevelAudioState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELAUDIOSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A5EE0)
-#define RPG_GAMECORE_LEVELAUDIOSTATE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7A5EF0)
-#define RPG_GAMECORE_LEVELAUDIOSTATE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A5EB0)
+#define RPG_GAMECORE_LEVELAUDIOSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E90D0)
+#define RPG_GAMECORE_LEVELAUDIOSTATE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1E9E90E0)
+#define RPG_GAMECORE_LEVELAUDIOSTATE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9E90A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioState_TypeDefinitionIndex = 23791;
+	inline static constexpr unsigned int LevelAudioState_TypeDefinitionIndex = 24247;
 
 	class LevelAudioState : public ::RPG::GameCore::TaskConfig
 	{

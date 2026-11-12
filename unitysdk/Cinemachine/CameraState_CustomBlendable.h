@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Object; }
 
-#define CINEMACHINE_CAMERASTATE_CUSTOMBLENDABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE9D80)
+#define CINEMACHINE_CAMERASTATE_CUSTOMBLENDABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xF5D80)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CameraState_CustomBlendable_TypeDefinitionIndex = 39801;
+	inline static constexpr unsigned int CameraState_CustomBlendable_TypeDefinitionIndex = 40730;
 
 	struct alignas(8) CameraState_CustomBlendable
 	{

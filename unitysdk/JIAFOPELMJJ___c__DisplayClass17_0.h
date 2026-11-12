@@ -13,24 +13,24 @@ class JIAFOPELMJJ;
 class NICDGKAKNJJ;
 class PNFLEMCDMJD;
 
-#define JIAFOPELMJJ___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1D1250)
-#define JIAFOPELMJJ___C__DISPLAYCLASS17_0__STARTFORPREDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB1E5F50)
-#define JIAFOPELMJJ___C__DISPLAYCLASS17_0__STARTFORPREDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0xB1E6010)
+#define JIAFOPELMJJ___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9F31B0)
+#define JIAFOPELMJJ___C__DISPLAYCLASS17_0__STARTFORPREDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xBA07E80)
+#define JIAFOPELMJJ___C__DISPLAYCLASS17_0__STARTFORPREDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0xBA07F40)
 
-inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass17_0_TypeDefinitionIndex = 59507;
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass17_0_TypeDefinitionIndex = 60784;
 
 	class JIAFOPELMJJ___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::AODPGPILMKK* archiveData; // 0x10
-		::CEOABLKMPKE* audioHPatch; // 0x18
-		::JIAFOPELMJJ* __4__this; // 0x20
-		::HPLHOPDDJCM* blockData; // 0x28
-		::NICDGKAKNJJ* videoData; // 0x30
-		::EJLIOMPMHHI* queue; // 0x38
-		::CCKEHNGDJJF* audioData; // 0x40
-		::EBGMOALCIEA* rawData; // 0x48
-		::PNFLEMCDMJD* blockHPatch; // 0x50
+		::PNFLEMCDMJD* blockHPatch; // 0x10
+		::AODPGPILMKK* archiveData; // 0x18
+		::HPLHOPDDJCM* blockData; // 0x20
+		::JIAFOPELMJJ* __4__this; // 0x28
+		::EBGMOALCIEA* rawData; // 0x30
+		::NICDGKAKNJJ* videoData; // 0x38
+		::CEOABLKMPKE* audioHPatch; // 0x40
+		::EJLIOMPMHHI* queue; // 0x48
+		::CCKEHNGDJJF* audioData; // 0x50
 		::RPG::Client::TextID progressDescText; // 0x58
 		::System::Void _ctor()
 		{

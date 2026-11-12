@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define HOUDINIENGINEUNITY_HEU_INPUTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B92BCA0)
+#define HOUDINIENGINEUNITY_HEU_INPUTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB4C10)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_InputData_TypeDefinitionIndex = 40642;
+	inline static constexpr unsigned int HEU_InputData_TypeDefinitionIndex = 41617;
 
 	class HEU_InputData : public ::System::Object
 	{

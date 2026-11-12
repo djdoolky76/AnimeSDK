@@ -7,10 +7,10 @@ class IJFIHJJPHNA;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Intersect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NABFANLJOKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C784EE0)
-#define NABFANLJOKD_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C784EF0)
+#define NABFANLJOKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D906820)
+#define NABFANLJOKD_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1D906830)
 
-inline static constexpr unsigned int NABFANLJOKD_TypeDefinitionIndex = 36387;
+inline static constexpr unsigned int NABFANLJOKD_TypeDefinitionIndex = 37315;
 
 	class NABFANLJOKD : public ::IFNMPBPNBIF
 	{

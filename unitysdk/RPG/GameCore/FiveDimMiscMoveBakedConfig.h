@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimMiscMoveBakedConfig; }
 
-#define RPG_GAMECORE_FIVEDIMMISCMOVEBAKEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C8D40)
-#define RPG_GAMECORE_FIVEDIMMISCMOVEBAKEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C8A90)
+#define RPG_GAMECORE_FIVEDIMMISCMOVEBAKEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D54B0)
+#define RPG_GAMECORE_FIVEDIMMISCMOVEBAKEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8D5310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMiscMoveBakedConfig_TypeDefinitionIndex = 16658;
+	inline static constexpr unsigned int FiveDimMiscMoveBakedConfig_TypeDefinitionIndex = 16824;
 
 	class FiveDimMiscMoveBakedConfig : public ::RPG::GameCore::JsonConfig
 	{

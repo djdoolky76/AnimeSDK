@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace XLua { class ObjectCast; }
 
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14DCC6F0)
-#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__GENNULLABLECASTER_B__0_OFFSET UNITYSDK_OFFSET(0x14DCF4B0)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8CD30)
+#define XLUA_OBJECTCASTERS___C__DISPLAYCLASS25_0__GENNULLABLECASTER_B__0_OFFSET UNITYSDK_OFFSET(0x15C8FAC0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCasters___c__DisplayClass25_0_TypeDefinitionIndex = 50241;
+	inline static constexpr unsigned int ObjectCasters___c__DisplayClass25_0_TypeDefinitionIndex = 51292;
 
 	class ObjectCasters___c__DisplayClass25_0 : public ::System::Object
 	{

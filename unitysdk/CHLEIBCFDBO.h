@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CHLEIBCFDBO_TypeDefinitionIndex = 35077;
+inline static constexpr unsigned int CHLEIBCFDBO_TypeDefinitionIndex = 36005;
 
 	enum class CHLEIBCFDBO : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		DDKCNBCOELM = 460,
-		HBAPBPBKJLL = 416,
-		KNFMJKOGEGF = 434,
-		HCNHEDFNLJC = 425,
+		HCNHEDFNLJC = 419,
+		DDKCNBCOELM = 405,
+		KNFMJKOGEGF = 474,
+		HBAPBPBKJLL = 471,
 	};

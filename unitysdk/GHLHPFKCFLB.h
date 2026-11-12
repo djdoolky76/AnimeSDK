@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareNPCMonsterID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHLHPFKCFLB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A28550)
-#define GHLHPFKCFLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A28580)
+#define GHLHPFKCFLB_CTOR_OFFSET UNITYSDK_OFFSET(0x16962B30)
+#define GHLHPFKCFLB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16962B60)
 
-inline static constexpr unsigned int GHLHPFKCFLB_TypeDefinitionIndex = 52581;
+inline static constexpr unsigned int GHLHPFKCFLB_TypeDefinitionIndex = 53687;
 
 	class GHLHPFKCFLB
 	{

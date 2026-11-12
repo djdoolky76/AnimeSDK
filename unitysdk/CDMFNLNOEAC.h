@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int CDMFNLNOEAC_TypeDefinitionIndex = 53852;
+inline static constexpr unsigned int CDMFNLNOEAC_TypeDefinitionIndex = 55016;
 
 	struct alignas(4) CDMFNLNOEAC
 	{

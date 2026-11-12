@@ -5,10 +5,10 @@
 class CIICMHFLBNF;
 namespace RPG::Client { class ExpeditionBattleTeam; }
 
-#define OFEODCOJNKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3F480)
-#define OFEODCOJNKB_HEIJDKMBPMI_OFFSET UNITYSDK_OFFSET(0xBE3F490)
+#define OFEODCOJNKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F7EE0)
+#define OFEODCOJNKB_HEIJDKMBPMI_OFFSET UNITYSDK_OFFSET(0xC6F7EF0)
 
-inline static constexpr unsigned int OFEODCOJNKB_TypeDefinitionIndex = 63940;
+inline static constexpr unsigned int OFEODCOJNKB_TypeDefinitionIndex = 65382;
 
 	class OFEODCOJNKB : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 class NOCPNPNNLOM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJBKGDJHKHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E0CC0)
-#define LJBKGDJHKHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6E0CF0)
+#define LJBKGDJHKHC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7BE40)
+#define LJBKGDJHKHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF7BE70)
 
-inline static constexpr unsigned int LJBKGDJHKHC_TypeDefinitionIndex = 53338;
+inline static constexpr unsigned int LJBKGDJHKHC_TypeDefinitionIndex = 54500;
 
 	class LJBKGDJHKHC
 	{

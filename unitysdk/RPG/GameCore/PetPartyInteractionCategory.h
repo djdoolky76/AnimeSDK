@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartyInteractionCategory_TypeDefinitionIndex = 17540;
+	inline static constexpr unsigned int PetPartyInteractionCategory_TypeDefinitionIndex = 17708;
 
 	enum class PetPartyInteractionCategory : ::System::Int32
 	{

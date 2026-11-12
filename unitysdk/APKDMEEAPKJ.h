@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define APKDMEEAPKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15BACD30)
+#define APKDMEEAPKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16A0D550)
 
-inline static constexpr unsigned int APKDMEEAPKJ_TypeDefinitionIndex = 55340;
+inline static constexpr unsigned int APKDMEEAPKJ_TypeDefinitionIndex = 56523;
 
 	class APKDMEEAPKJ : public ::System::Object
 	{

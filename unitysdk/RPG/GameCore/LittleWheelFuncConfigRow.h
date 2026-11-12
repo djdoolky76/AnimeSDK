@@ -7,19 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleWheelFuncConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E8A40)
-#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7E83F0)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2B920)
+#define RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA2B2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleWheelFuncConfigRow_TypeDefinitionIndex = 13325;
+	inline static constexpr unsigned int LittleWheelFuncConfigRow_TypeDefinitionIndex = 13397;
 
 	class LittleWheelFuncConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::GameCore::ShortCutWheelGotoType LittleWheelFuncID; // 0x18
-		::RPG::GameCore::LittleWheelType Type; // 0x1C
+		::RPG::GameCore::LittleWheelType Type; // 0x18
+		::RPG::GameCore::ShortCutWheelGotoType LittleWheelFuncID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEWHEELFUNCCONFIGROW_CTOR_OFFSET))(this);

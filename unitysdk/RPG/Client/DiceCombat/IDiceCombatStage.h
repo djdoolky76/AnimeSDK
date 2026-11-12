@@ -3,7 +3,7 @@
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int IDiceCombatStage_TypeDefinitionIndex = 76090;
+	inline static constexpr unsigned int IDiceCombatStage_TypeDefinitionIndex = 78417;
 
 	class IDiceCombatStage
 	{

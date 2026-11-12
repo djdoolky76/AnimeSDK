@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define APLGGFPHJDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8ACE80)
+#define APLGGFPHJDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2DB40)
 
-inline static constexpr unsigned int APLGGFPHJDI_TypeDefinitionIndex = 42280;
+inline static constexpr unsigned int APLGGFPHJDI_TypeDefinitionIndex = 43255;
 
 	class APLGGFPHJDI : public ::System::Object
 	{

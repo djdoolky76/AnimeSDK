@@ -5,23 +5,23 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define JBCHPOIENKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1170)
+#define JBCHPOIENKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D872BE0)
 
-inline static constexpr unsigned int JBCHPOIENKK_TypeDefinitionIndex = 36564;
+inline static constexpr unsigned int JBCHPOIENKK_TypeDefinitionIndex = 37492;
 
 	class JBCHPOIENKK : public ::System::Object
 	{
 	public:
 		::System::Object* MLJJIEIPIEM; // 0x10
-		::System::Single BAFKPLNKGGD; // 0x18
-		::System::Single NFEIGKAMLNE; // 0x1C
-		::RPG::MVector2 IONGHEOGALH; // 0x20
-		::System::Boolean GECBBOEPHFC; // 0x28
-		::System::Byte _padding0[0x3];
+		::System::Single NFEIGKAMLNE; // 0x18
+		::RPG::MVector2 IONGHEOGALH; // 0x1C
+		::RPG::MVector2 BBFOLEOPPPL; // 0x24
 		::RPG::GameCore::PhysicsRigidBodyType GMPGDEINODK; // 0x2C
-		::System::Single FEFFFCHGJHE; // 0x30
-		::RPG::MVector2 BBFOLEOPPPL; // 0x34
-		::RPG::MVector2 NMELCPIOKNO; // 0x3C
+		::System::Boolean GECBBOEPHFC; // 0x30
+		::System::Byte _padding0[0x3];
+		::RPG::MVector2 NMELCPIOKNO; // 0x34
+		::System::Single FEFFFCHGJHE; // 0x3C
+		::System::Single BAFKPLNKGGD; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JBCHPOIENKK_CTOR_OFFSET))(this);

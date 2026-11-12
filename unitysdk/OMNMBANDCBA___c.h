@@ -4,18 +4,18 @@
 class OMNMBANDCBA;
 namespace System { class Object; }
 
-#define OMNMBANDCBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEBDB40)
-#define OMNMBANDCBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBDB80)
-#define OMNMBANDCBA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DEBDB90)
+#define OMNMBANDCBA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1858B0)
+#define OMNMBANDCBA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1858F0)
+#define OMNMBANDCBA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F185900)
 
-inline static constexpr unsigned int OMNMBANDCBA___c_TypeDefinitionIndex = 33312;
+inline static constexpr unsigned int OMNMBANDCBA___c_TypeDefinitionIndex = 34227;
 
 	class OMNMBANDCBA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BA30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x254C0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionDelayPreshowConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ACTIONDELAYPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3446F0)
-#define RPG_GAMECORE_ACTIONDELAYPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3441B0)
+#define RPG_GAMECORE_ACTIONDELAYPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E553000)
+#define RPG_GAMECORE_ACTIONDELAYPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E552AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionDelayPreshowConfig_TypeDefinitionIndex = 18179;
+	inline static constexpr unsigned int ActionDelayPreshowConfig_TypeDefinitionIndex = 18341;
 
 	class ActionDelayPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

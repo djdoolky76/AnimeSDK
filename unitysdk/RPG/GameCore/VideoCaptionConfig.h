@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VideoCaption; }
 namespace RPG::GameCore { class VideoCaptionConfig; }
 
-#define RPG_GAMECORE_VIDEOCAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8F080)
-#define RPG_GAMECORE_VIDEOCAPTIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC8EFC0)
+#define RPG_GAMECORE_VIDEOCAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA1760)
+#define RPG_GAMECORE_VIDEOCAPTIONCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EEA16A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VideoCaptionConfig_TypeDefinitionIndex = 17016;
+	inline static constexpr unsigned int VideoCaptionConfig_TypeDefinitionIndex = 17183;
 
 	class VideoCaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

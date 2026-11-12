@@ -7,31 +7,31 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 namespace System::Runtime::Serialization { class EnumMemberAttribute; }
 
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4101E0)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C410210)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C__GETVALUES_B__5_0_OFFSET UNITYSDK_OFFSET(0x1C410240)
-#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C__INITIALIZEENUMTYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C410220)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5969A0)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5969D0)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C__GETVALUES_B__5_0_OFFSET UNITYSDK_OFFSET(0x1D596A00)
+#define NEWTONSOFT_JSON_UTILITIES_ENUMUTILS___C__INITIALIZEENUMTYPE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D5969E0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int EnumUtils___c_TypeDefinitionIndex = 9669;
+	inline static constexpr unsigned int EnumUtils___c_TypeDefinitionIndex = 9677;
 
 	class EnumUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x31B80);
-		}
-
 		static ::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x31B88);
+			return (::System::Func_2<::System::Runtime::Serialization::EnumMemberAttribute*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x304B0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x304B8);
 		}
 
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x31B90);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "<>c")->GetStaticField(0x304C0);
 		}
 
 		static ::System::Void _cctor()

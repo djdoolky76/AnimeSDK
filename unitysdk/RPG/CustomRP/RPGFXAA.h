@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
 namespace UnityEngine::Rendering { class BoolParameter; }
 
-#define RPG_CUSTOMRP_RPGFXAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC4C580)
-#define RPG_CUSTOMRP_RPGFXAA_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC4C4A0)
+#define RPG_CUSTOMRP_RPGFXAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF39A0)
+#define RPG_CUSTOMRP_RPGFXAA_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1DDF38C0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGFXAA_TypeDefinitionIndex = 37809;
+	inline static constexpr unsigned int RPGFXAA_TypeDefinitionIndex = 38738;
 
 	class RPGFXAA : public ::RPG::CustomRP::CustomVolumeComponent
 	{

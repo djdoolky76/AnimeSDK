@@ -5,7 +5,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class UIDragScope; }
 namespace System { class Action; }
 
-inline static constexpr unsigned int PKBIDJBDHGC_TypeDefinitionIndex = 49854;
+inline static constexpr unsigned int PKBIDJBDHGC_TypeDefinitionIndex = 50902;
 
 	class PKBIDJBDHGC : public ::System::Object
 	{

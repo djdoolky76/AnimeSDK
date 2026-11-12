@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BKCFIHPCEMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AD3B0)
-#define BKCFIHPCEMA_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xB7AD300)
+#define BKCFIHPCEMA_CTOR_OFFSET UNITYSDK_OFFSET(0xC1034A0)
+#define BKCFIHPCEMA_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xC1033F0)
 
-inline static constexpr unsigned int BKCFIHPCEMA_TypeDefinitionIndex = 67325;
+inline static constexpr unsigned int BKCFIHPCEMA_TypeDefinitionIndex = 69269;
 
 	class BKCFIHPCEMA : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class GHMGGIHEHJE;
 
-#define FEIEBAJPIAE_EKPNMIJPCIH_CTOR_OFFSET UNITYSDK_OFFSET(0x2E75970)
+#define FEIEBAJPIAE_EKPNMIJPCIH_CTOR_OFFSET UNITYSDK_OFFSET(0x304AF70)
 
-inline static constexpr unsigned int FEIEBAJPIAE_EKPNMIJPCIH_TypeDefinitionIndex = 75941;
+inline static constexpr unsigned int FEIEBAJPIAE_EKPNMIJPCIH_TypeDefinitionIndex = 78268;
 
 	struct alignas(8) FEIEBAJPIAE_EKPNMIJPCIH
 	{

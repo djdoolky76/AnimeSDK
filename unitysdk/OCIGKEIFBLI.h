@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideEndTransferType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OCIGKEIFBLI_CTOR_OFFSET UNITYSDK_OFFSET(0xBD6CA20)
-#define OCIGKEIFBLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD6CA50)
+#define OCIGKEIFBLI_CTOR_OFFSET UNITYSDK_OFFSET(0xC671430)
+#define OCIGKEIFBLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC671460)
 
-inline static constexpr unsigned int OCIGKEIFBLI_TypeDefinitionIndex = 53049;
+inline static constexpr unsigned int OCIGKEIFBLI_TypeDefinitionIndex = 54209;
 
 	class OCIGKEIFBLI
 	{

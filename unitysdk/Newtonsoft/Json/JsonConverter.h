@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_JSONCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C37AD20)
-#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1C397D60)
-#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1C397D70)
+#define NEWTONSOFT_JSON_JSONCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D501470)
+#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANREAD_OFFSET UNITYSDK_OFFSET(0x1D51E510)
+#define NEWTONSOFT_JSON_JSONCONVERTER_GET_CANWRITE_OFFSET UNITYSDK_OFFSET(0x1D51E520)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConverter_TypeDefinitionIndex = 9614;
+	inline static constexpr unsigned int JsonConverter_TypeDefinitionIndex = 9622;
 
 	class JsonConverter : public ::System::Object
 	{

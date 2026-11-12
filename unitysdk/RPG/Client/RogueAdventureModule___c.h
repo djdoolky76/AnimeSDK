@@ -6,31 +6,31 @@ class JLKNHNFJLDJ;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEED280)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEED2B0)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_0_OFFSET UNITYSDK_OFFSET(0xDEED2C0)
-#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_1_OFFSET UNITYSDK_OFFSET(0xDEED2D0)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE99DA30)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE99DA60)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_0_OFFSET UNITYSDK_OFFSET(0xE99DA70)
+#define RPG_CLIENT_ROGUEADVENTUREMODULE___C___ONCMDSYNCROGUECOMMONACTIONRESULTSCNOTIFY_B__48_1_OFFSET UNITYSDK_OFFSET(0xE99DA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueAdventureModule___c_TypeDefinitionIndex = 67362;
+	inline static constexpr unsigned int RogueAdventureModule___c_TypeDefinitionIndex = 69306;
 
 	class RogueAdventureModule___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::JLKNHNFJLDJ*, ::System::Boolean>** StaticGet___9__48_0()
+		{
+			return (::System::Func_2<::JLKNHNFJLDJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CAF0);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E840);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CAF8);
 		}
 
 		static ::System::Func_2<::AOBICCEGAMM*, ::System::Boolean>** StaticGet___9__48_1()
 		{
-			return (::System::Func_2<::AOBICCEGAMM*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E848);
-		}
-
-		static ::System::Func_2<::JLKNHNFJLDJ*, ::System::Boolean>** StaticGet___9__48_0()
-		{
-			return (::System::Func_2<::JLKNHNFJLDJ*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E850);
+			return (::System::Func_2<::AOBICCEGAMM*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CB00);
 		}
 
 		static ::System::Void _cctor()

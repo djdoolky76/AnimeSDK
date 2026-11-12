@@ -7,7 +7,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int ENFBODGGAAA_TypeDefinitionIndex = 44166;
+inline static constexpr unsigned int ENFBODGGAAA_TypeDefinitionIndex = 45241;
 
 	class ENFBODGGAAA : public ::System::Object
 	{

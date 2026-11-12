@@ -8,23 +8,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define JMHDGNNIFCA_CTOR_OFFSET UNITYSDK_OFFSET(0xB266740)
-#define JMHDGNNIFCA_FJGGODFCDCJ_OFFSET UNITYSDK_OFFSET(0xB2663A0)
-#define JMHDGNNIFCA_KFPKDOLMMNC_OFFSET UNITYSDK_OFFSET(0xB2659A0)
-#define JMHDGNNIFCA_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0xB265630)
+#define JMHDGNNIFCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA91830)
+#define JMHDGNNIFCA_FJGGODFCDCJ_OFFSET UNITYSDK_OFFSET(0xBA91490)
+#define JMHDGNNIFCA_KFPKDOLMMNC_OFFSET UNITYSDK_OFFSET(0xBA90A80)
+#define JMHDGNNIFCA_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0xBA90710)
 
-inline static constexpr unsigned int JMHDGNNIFCA_TypeDefinitionIndex = 59009;
+inline static constexpr unsigned int JMHDGNNIFCA_TypeDefinitionIndex = 60282;
 
 	class JMHDGNNIFCA : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::PKFBNIHNLGG>* CNJNGIOGGKH; // 0x10
 		::System::UInt32 FGIGJGGFIOP; // 0x18
-		::System::UInt32 KAPJNJDCACL; // 0x1C
-		::System::UInt32 AMCPMEAOJJK; // 0x20
+		::System::UInt32 AMCPMEAOJJK; // 0x1C
+		::System::UInt32 KAPJNJDCACL; // 0x20
 		static ::Il2CppArray<::System::Byte>** StaticGet_DMMAEFCLCHK()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "JMHDGNNIFCA")->GetStaticField(0x1EA10);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "JMHDGNNIFCA")->GetStaticField(0x17460);
 		}
 
 		::System::Void _ctor()

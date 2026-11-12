@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityRelationType_TypeDefinitionIndex = 24663;
+	inline static constexpr unsigned int EntityRelationType_TypeDefinitionIndex = 25136;
 
 	enum class EntityRelationType : ::System::Int32
 	{

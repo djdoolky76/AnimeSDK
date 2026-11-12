@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 class OPLFEKDONFO;
 
-#define OPLFEKDONFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2BD560)
-#define OPLFEKDONFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2BD570)
-#define OPLFEKDONFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2BD530)
+#define OPLFEKDONFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C77F0)
+#define OPLFEKDONFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4C7800)
+#define OPLFEKDONFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4C77C0)
 
-inline static constexpr unsigned int OPLFEKDONFO_TypeDefinitionIndex = 24315;
+inline static constexpr unsigned int OPLFEKDONFO_TypeDefinitionIndex = 24774;
 
 	class OPLFEKDONFO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::UInt32 PFDHNIJBGKO; // 0x18
-		::System::UInt32 PBOFFICPNBC; // 0x1C
+		::System::UInt32 KGAPFBKGFIO; // 0x18
+		::System::UInt32 PFDHNIJBGKO; // 0x1C
 		::System::Boolean KBALHCLKIIJ; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::UInt32 KGAPFBKGFIO; // 0x24
+		::System::UInt32 PBOFFICPNBC; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPLFEKDONFO_CTOR_OFFSET))(this);

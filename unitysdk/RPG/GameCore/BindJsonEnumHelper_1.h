@@ -6,7 +6,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindJsonEnumHelper_1_TypeDefinitionIndex = 24850;
+	inline static constexpr unsigned int BindJsonEnumHelper_1_TypeDefinitionIndex = 25330;
 
 	template <typename T>
 	class BindJsonEnumHelper_1 : public ::System::Object

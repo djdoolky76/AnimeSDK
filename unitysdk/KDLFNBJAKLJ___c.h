@@ -8,29 +8,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define KDLFNBJAKLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CBB7280)
-#define KDLFNBJAKLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB72C0)
-#define KDLFNBJAKLJ___C___CTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1CBB72D0)
-#define KDLFNBJAKLJ___C___CTOR_B__43_1_OFFSET UNITYSDK_OFFSET(0x1CBB7300)
+#define KDLFNBJAKLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA69BD0)
+#define KDLFNBJAKLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA69C10)
+#define KDLFNBJAKLJ___C___CTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DA69C20)
+#define KDLFNBJAKLJ___C___CTOR_B__43_1_OFFSET UNITYSDK_OFFSET(0x1DA69C50)
 
-inline static constexpr unsigned int KDLFNBJAKLJ___c_TypeDefinitionIndex = 42613;
+inline static constexpr unsigned int KDLFNBJAKLJ___c_TypeDefinitionIndex = 43592;
 
 	class KDLFNBJAKLJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__43_0()
-		{
-			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C870);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C878);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46270);
+		}
+
+		static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__43_0()
+		{
+			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46278);
 		}
 
 		static ::System::Func_1<::BCLKDMAHONE*>** StaticGet___9__43_1()
 		{
-			return (::System::Func_1<::BCLKDMAHONE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C880);
+			return (::System::Func_1<::BCLKDMAHONE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46280);
 		}
 
 		static ::System::Void _cctor()

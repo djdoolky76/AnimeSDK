@@ -5,10 +5,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define DJCBFIKMGPB_CTOR_OFFSET UNITYSDK_OFFSET(0xF22C4C0)
-#define DJCBFIKMGPB_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xF22C440)
+#define DJCBFIKMGPB_CTOR_OFFSET UNITYSDK_OFFSET(0xFFAD5F0)
+#define DJCBFIKMGPB_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xFFAD570)
 
-inline static constexpr unsigned int DJCBFIKMGPB_TypeDefinitionIndex = 73396;
+inline static constexpr unsigned int DJCBFIKMGPB_TypeDefinitionIndex = 75516;
 
 	class DJCBFIKMGPB : public ::System::Object
 	{

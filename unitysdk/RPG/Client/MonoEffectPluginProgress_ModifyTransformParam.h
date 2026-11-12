@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD807500)
-#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xD807330)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE259480)
+#define RPG_CLIENT_MONOEFFECTPLUGINPROGRESS_MODIFYTRANSFORMPARAM_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE2592B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyTransformParam_TypeDefinitionIndex = 70099;
+	inline static constexpr unsigned int MonoEffectPluginProgress_ModifyTransformParam_TypeDefinitionIndex = 72064;
 
 	class MonoEffectPluginProgress_ModifyTransformParam : public ::System::Object
 	{

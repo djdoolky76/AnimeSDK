@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define STAGEHARMONYLOCALFOGSPHEREINSTANCELINKSLOT_LAJMEHBCIJE_CTOR_OFFSET UNITYSDK_OFFSET(0xE995160)
+#define STAGEHARMONYLOCALFOGSPHEREINSTANCELINKSLOT_LAJMEHBCIJE_CTOR_OFFSET UNITYSDK_OFFSET(0xF4AA760)
 
-inline static constexpr unsigned int StageHarmonyLocalFogSphereInstanceLinkSlot_LAJMEHBCIJE_TypeDefinitionIndex = 47381;
+inline static constexpr unsigned int StageHarmonyLocalFogSphereInstanceLinkSlot_LAJMEHBCIJE_TypeDefinitionIndex = 48410;
 
 	class StageHarmonyLocalFogSphereInstanceLinkSlot_LAJMEHBCIJE : public ::System::Object
 	{

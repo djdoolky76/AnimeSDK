@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class TaskConfig; }
 
-#define BECGIIJOOJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1630D4A0)
+#define BECGIIJOOJP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C45D0)
 
-inline static constexpr unsigned int BECGIIJOOJP_TypeDefinitionIndex = 61073;
+inline static constexpr unsigned int BECGIIJOOJP_TypeDefinitionIndex = 62458;
 
 	class BECGIIJOOJP : public ::System::Object
 	{

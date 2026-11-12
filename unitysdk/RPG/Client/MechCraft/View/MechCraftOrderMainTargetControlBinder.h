@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client { class StaticListView; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERMAINTARGETCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD64F620)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERMAINTARGETCONTROLBINDER_GET_CONDITIONLIST_OFFSET UNITYSDK_OFFSET(0xD64F570)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERMAINTARGETCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DE7E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERMAINTARGETCONTROLBINDER_GET_CONDITIONLIST_OFFSET UNITYSDK_OFFSET(0xE0DE160)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftOrderMainTargetControlBinder_TypeDefinitionIndex = 79992;
+	inline static constexpr unsigned int MechCraftOrderMainTargetControlBinder_TypeDefinitionIndex = 82769;
 
 	class MechCraftOrderMainTargetControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

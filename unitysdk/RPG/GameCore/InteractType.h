@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InteractType_TypeDefinitionIndex = 13826;
+	inline static constexpr unsigned int InteractType_TypeDefinitionIndex = 13983;
 
 	enum class InteractType : ::System::Int32
 	{

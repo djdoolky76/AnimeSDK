@@ -6,43 +6,43 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ITEMFACTORY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD389F60)
-#define RPG_CLIENT_ITEMFACTORY___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD389F90)
-#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMCONFIGLISTIFPLAYERMAXLEVEL_B__15_0_OFFSET UNITYSDK_OFFSET(0xD38A020)
-#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMCONFIGLISTIFPLAYERMAXLEVEL_B__15_1_OFFSET UNITYSDK_OFFSET(0xD38A060)
-#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMDISPLAYDATASIFPLAYERMAXLEVEL_B__13_0_OFFSET UNITYSDK_OFFSET(0xD389FA0)
-#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMDISPLAYDATASIFPLAYERMAXLEVEL_B__13_1_OFFSET UNITYSDK_OFFSET(0xD389FE0)
+#define RPG_CLIENT_ITEMFACTORY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDBF460)
+#define RPG_CLIENT_ITEMFACTORY___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDDBF490)
+#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMCONFIGLISTIFPLAYERMAXLEVEL_B__15_0_OFFSET UNITYSDK_OFFSET(0xDDBF520)
+#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMCONFIGLISTIFPLAYERMAXLEVEL_B__15_1_OFFSET UNITYSDK_OFFSET(0xDDBF560)
+#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMDISPLAYDATASIFPLAYERMAXLEVEL_B__13_0_OFFSET UNITYSDK_OFFSET(0xDDBF4A0)
+#define RPG_CLIENT_ITEMFACTORY___C__MERGEITEMDISPLAYDATASIFPLAYERMAXLEVEL_B__13_1_OFFSET UNITYSDK_OFFSET(0xDDBF4E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemFactory___c_TypeDefinitionIndex = 65716;
+	inline static constexpr unsigned int ItemFactory___c_TypeDefinitionIndex = 67642;
 
 	class ItemFactory___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__13_1()
-		{
-			return (::System::Predicate_1<::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B8B0);
-		}
-
-		static ::System::Predicate_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__13_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B8B8);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B8C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27A80);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__13_1()
+		{
+			return (::System::Predicate_1<::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27A88);
 		}
 
 		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__15_1()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B8C8);
+			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27A90);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__13_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27A98);
 		}
 
 		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__15_0()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1B8D0);
+			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x27AA0);
 		}
 
 		static ::System::Void _cctor()

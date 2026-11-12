@@ -5,16 +5,16 @@ class NLHACPDMPIC;
 namespace RPG::Client::DiceCombat { class DiceCombatShopPageParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define NLHACPDMPIC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC68FC0)
-#define NLHACPDMPIC___C__DISPLAYCLASS21_0__HANDLESHOWSHOPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xBC6B620)
+#define NLHACPDMPIC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC54E360)
+#define NLHACPDMPIC___C__DISPLAYCLASS21_0__HANDLESHOWSHOPPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xC5509D0)
 
-inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass21_0_TypeDefinitionIndex = 76187;
+inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass21_0_TypeDefinitionIndex = 78514;
 
 	class NLHACPDMPIC___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::NLHACPDMPIC* __4__this; // 0x10
-		::RPG::Client::DiceCombat::DiceCombatShopPageParam* param; // 0x18
+		::RPG::Client::DiceCombat::DiceCombatShopPageParam* param; // 0x10
+		::NLHACPDMPIC* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLHACPDMPIC___C__DISPLAYCLASS21_0_CTOR_OFFSET))(this);

@@ -3,15 +3,15 @@
 #include "unitysdk/EPCHCFOEJNL.h"
 #include "unitysdk/System/Object.h"
 
-#define JOMHKKNICMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7D20)
+#define JOMHKKNICMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD79430)
 
-inline static constexpr unsigned int JOMHKKNICMN_TypeDefinitionIndex = 42912;
+inline static constexpr unsigned int JOMHKKNICMN_TypeDefinitionIndex = 43893;
 
 	class JOMHKKNICMN : public ::System::Object
 	{
 	public:
-		::System::Single BEKJOOHPKIL; // 0x10
-		::EPCHCFOEJNL LHIENABAKPH; // 0x14
+		::EPCHCFOEJNL LHIENABAKPH; // 0x10
+		::System::Single BEKJOOHPKIL; // 0xC0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JOMHKKNICMN_CTOR_OFFSET))(this);

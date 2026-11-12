@@ -5,7 +5,7 @@ class DGKBJOHFPBK;
 class FABMDCOFHCG;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-inline static constexpr unsigned int NICBGPNCNLO_TypeDefinitionIndex = 57753;
+inline static constexpr unsigned int NICBGPNCNLO_TypeDefinitionIndex = 58988;
 
 	struct alignas(8) NICBGPNCNLO
 	{

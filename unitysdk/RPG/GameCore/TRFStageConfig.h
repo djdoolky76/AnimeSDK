@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TRFStageConfig; }
 
-#define RPG_GAMECORE_TRFSTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB53BE0)
-#define RPG_GAMECORE_TRFSTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB53AA0)
+#define RPG_GAMECORE_TRFSTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE02DC0)
+#define RPG_GAMECORE_TRFSTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE02C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TRFStageConfig_TypeDefinitionIndex = 18905;
+	inline static constexpr unsigned int TRFStageConfig_TypeDefinitionIndex = 19067;
 
 	class TRFStageConfig : public ::RPG::GameCore::JsonConfig
 	{

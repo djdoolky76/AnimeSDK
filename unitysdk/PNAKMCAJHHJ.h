@@ -3,15 +3,16 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define PNAKMCAJHHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC330E20)
+#define PNAKMCAJHHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCC60970)
 
-inline static constexpr unsigned int PNAKMCAJHHJ_TypeDefinitionIndex = 82049;
+inline static constexpr unsigned int PNAKMCAJHHJ_TypeDefinitionIndex = 84830;
 
 	class PNAKMCAJHHJ : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID IFNMFPACLKL; // 0x10
-		::System::Boolean MMKEDDICDHK; // 0x20
+		::System::Boolean MMKEDDICDHK; // 0x10
+		::System::Byte _padding0[0x7];
+		::RPG::Client::TextID IFNMFPACLKL; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNAKMCAJHHJ_CTOR_OFFSET))(this);

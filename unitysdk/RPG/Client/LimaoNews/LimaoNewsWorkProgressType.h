@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsWorkProgressType_TypeDefinitionIndex = 80446;
+	inline static constexpr unsigned int LimaoNewsWorkProgressType_TypeDefinitionIndex = 83226;
 
 	enum class LimaoNewsWorkProgressType : ::System::Int32
 	{

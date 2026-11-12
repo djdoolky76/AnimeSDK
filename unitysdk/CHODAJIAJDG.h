@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IPHMMEIDKHM.h"
 
-#define CHODAJIAJDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C434360)
+#define CHODAJIAJDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BA990)
 
-inline static constexpr unsigned int CHODAJIAJDG_TypeDefinitionIndex = 41436;
+inline static constexpr unsigned int CHODAJIAJDG_TypeDefinitionIndex = 42411;
 
 	class CHODAJIAJDG : public ::IPHMMEIDKHM
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_BATTLETOMAZESHOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC864670)
+#define RPG_CLIENT_BATTLETOMAZESHOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C9940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleToMazeShotConfig_TypeDefinitionIndex = 69729;
+	inline static constexpr unsigned int BattleToMazeShotConfig_TypeDefinitionIndex = 71686;
 
 	class BattleToMazeShotConfig : public ::System::Object
 	{

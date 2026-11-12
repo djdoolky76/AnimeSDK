@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class QuestGetReward; }
 
-#define RPG_GAMECORE_QUESTGETREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D960B80)
-#define RPG_GAMECORE_QUESTGETREWARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D960B90)
-#define RPG_GAMECORE_QUESTGETREWARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D960B50)
+#define RPG_GAMECORE_QUESTGETREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB78F20)
+#define RPG_GAMECORE_QUESTGETREWARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB78F30)
+#define RPG_GAMECORE_QUESTGETREWARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB78EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestGetReward_TypeDefinitionIndex = 21884;
+	inline static constexpr unsigned int QuestGetReward_TypeDefinitionIndex = 22275;
 
 	class QuestGetReward : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByCountOfBaseType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KIDDKACJDCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB41BAF0)
-#define KIDDKACJDCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB41BBD0)
+#define KIDDKACJDCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCB1DF0)
+#define KIDDKACJDCM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCB1ED0)
 
-inline static constexpr unsigned int KIDDKACJDCM_TypeDefinitionIndex = 55409;
+inline static constexpr unsigned int KIDDKACJDCM_TypeDefinitionIndex = 56594;
 
 	class KIDDKACJDCM
 	{

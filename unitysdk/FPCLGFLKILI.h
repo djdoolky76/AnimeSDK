@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeDynamicOptionalBlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPCLGFLKILI_CTOR_OFFSET UNITYSDK_OFFSET(0x1590FB50)
-#define FPCLGFLKILI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1590FB80)
+#define FPCLGFLKILI_CTOR_OFFSET UNITYSDK_OFFSET(0x168412A0)
+#define FPCLGFLKILI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168412D0)
 
-inline static constexpr unsigned int FPCLGFLKILI_TypeDefinitionIndex = 52638;
+inline static constexpr unsigned int FPCLGFLKILI_TypeDefinitionIndex = 53745;
 
 	class FPCLGFLKILI
 	{

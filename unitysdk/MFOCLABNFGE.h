@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartWindowStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MFOCLABNFGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB910320)
-#define MFOCLABNFGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB910350)
+#define MFOCLABNFGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC1C23E0)
+#define MFOCLABNFGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1C2410)
 
-inline static constexpr unsigned int MFOCLABNFGE_TypeDefinitionIndex = 52892;
+inline static constexpr unsigned int MFOCLABNFGE_TypeDefinitionIndex = 54048;
 
 	class MFOCLABNFGE
 	{

@@ -3,10 +3,10 @@
 class CFEONGLOPGE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OIMJBGGAHIM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA1370)
-#define OIMJBGGAHIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA13A0)
+#define OIMJBGGAHIM_CTOR_OFFSET UNITYSDK_OFFSET(0xC7976F0)
+#define OIMJBGGAHIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC797720)
 
-inline static constexpr unsigned int OIMJBGGAHIM_TypeDefinitionIndex = 58628;
+inline static constexpr unsigned int OIMJBGGAHIM_TypeDefinitionIndex = 59895;
 
 	class OIMJBGGAHIM
 	{

@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformance; }
 namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformanceTriggerCondition; }
 
-#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6157B0)
-#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6154C0)
+#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E853840)
+#define RPG_GAMECORE_DICECOMBATV2SINGLEDIALOGPERFORMANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E853550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformance_TypeDefinitionIndex = 16187;
+	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformance_TypeDefinitionIndex = 16345;
 
 	class DiceCombatV2SingleDialogPerformance : public ::RPG::GameCore::JsonConfig
 	{

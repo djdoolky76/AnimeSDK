@@ -11,13 +11,13 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskScheduler; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1C15CD70)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1C15CED0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1C15CCA0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1C159DD0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C15CC30)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C15A3F0)
-#define SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET UNITYSDK_OFFSET(0x1C15CDC0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKCREATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1D2E40D0)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKFROMASYNCOPTIONS_OFFSET UNITYSDK_OFFSET(0x1D2E4230)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CHECKMULTITASKCONTINUATIONOPTIONS_OFFSET UNITYSDK_OFFSET(0x1D2E4000)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_COMMONCWANYLOGIC_OFFSET UNITYSDK_OFFSET(0x1D2E1110)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D2E3F90)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E1730)
+#define SYSTEM_THREADING_TASKS_TASKFACTORY_STARTNEW_OFFSET UNITYSDK_OFFSET(0x1D2E4120)
 
 namespace System::Threading::Tasks
 {
@@ -26,10 +26,10 @@ namespace System::Threading::Tasks
 	class TaskFactory : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x10
-		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x18
-		::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions; // 0x20
-		::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions; // 0x24
+		::System::Threading::Tasks::TaskScheduler* m_defaultScheduler; // 0x10
+		::System::Threading::CancellationToken m_defaultCancellationToken; // 0x18
+		::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions; // 0x20
+		::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASKFACTORY_CTOR_OFFSET))(this);

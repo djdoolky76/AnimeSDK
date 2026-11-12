@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2BodyType.h"
 #include "unitysdk/System/Object.h"
 
-#define LAFLLHBLMMB_DPOIIHDJGGF_1_OFFSET UNITYSDK_OFFSET(0x1C71FDA0)
-#define LAFLLHBLMMB_DPOIIHDJGGF_OFFSET UNITYSDK_OFFSET(0x1C71FD00)
+#define LAFLLHBLMMB_DPOIIHDJGGF_1_OFFSET UNITYSDK_OFFSET(0x1D8A1720)
+#define LAFLLHBLMMB_DPOIIHDJGGF_OFFSET UNITYSDK_OFFSET(0x1D8A1680)
 
-inline static constexpr unsigned int LAFLLHBLMMB_TypeDefinitionIndex = 36551;
+inline static constexpr unsigned int LAFLLHBLMMB_TypeDefinitionIndex = 37479;
 
 	class LAFLLHBLMMB : public ::System::Object
 	{

@@ -4,11 +4,11 @@ namespace RPG::GameCore { class ClearNpcDistanceTrigger; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNJMLIJIIMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBCB5B80)
-#define NNJMLIJIIMN_NDDDIGNNHMH_OFFSET UNITYSDK_OFFSET(0xBCB5D10)
-#define NNJMLIJIIMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCB5BB0)
+#define NNJMLIJIIMN_CTOR_OFFSET UNITYSDK_OFFSET(0xC59E560)
+#define NNJMLIJIIMN_NDDDIGNNHMH_OFFSET UNITYSDK_OFFSET(0xC59E6F0)
+#define NNJMLIJIIMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC59E590)
 
-inline static constexpr unsigned int NNJMLIJIIMN_TypeDefinitionIndex = 52686;
+inline static constexpr unsigned int NNJMLIJIIMN_TypeDefinitionIndex = 53793;
 
 	class NNJMLIJIIMN
 	{

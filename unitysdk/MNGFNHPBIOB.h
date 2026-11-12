@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitMechanismBarPhase; }
 
-#define MNGFNHPBIOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA08040)
-#define MNGFNHPBIOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA08050)
-#define MNGFNHPBIOB_FBGHGOFHLAA_OFFSET UNITYSDK_OFFSET(0xBA08120)
-#define MNGFNHPBIOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA08090)
-#define MNGFNHPBIOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA08160)
-#define MNGFNHPBIOB_TICK_OFFSET UNITYSDK_OFFSET(0xBA081B0)
+#define MNGFNHPBIOB_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C5660)
+#define MNGFNHPBIOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2C5670)
+#define MNGFNHPBIOB_FBGHGOFHLAA_OFFSET UNITYSDK_OFFSET(0xC2C5740)
+#define MNGFNHPBIOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2C56B0)
+#define MNGFNHPBIOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2C5780)
+#define MNGFNHPBIOB_TICK_OFFSET UNITYSDK_OFFSET(0xC2C57D0)
 
-inline static constexpr unsigned int MNGFNHPBIOB_TypeDefinitionIndex = 55810;
+inline static constexpr unsigned int MNGFNHPBIOB_TypeDefinitionIndex = 57013;
 
 	class MNGFNHPBIOB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WaitMechanismBarPhase* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::WaitMechanismBarPhase* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitMechanismBarPhase* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitMechanismBarPhase*))((::PBYTE)hIl2Cpp + MNGFNHPBIOB_CTOR_OFFSET))(this, a1, a2);

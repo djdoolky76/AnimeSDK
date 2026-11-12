@@ -5,29 +5,29 @@ class FKKIAHNJCBC;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DBHGOLFACFL_KHDEKEEMOCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFE1DA0)
-#define DBHGOLFACFL_KHDEKEEMOCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE1DE0)
-#define DBHGOLFACFL_KHDEKEEMOCE___C__CREATE_B__3_1_OFFSET UNITYSDK_OFFSET(0xDFE1DF0)
-#define DBHGOLFACFL_KHDEKEEMOCE___C__CREATE_B__3_2_OFFSET UNITYSDK_OFFSET(0xDFE1E10)
+#define DBHGOLFACFL_KHDEKEEMOCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEB83EF0)
+#define DBHGOLFACFL_KHDEKEEMOCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEB83F30)
+#define DBHGOLFACFL_KHDEKEEMOCE___C__CREATE_B__3_1_OFFSET UNITYSDK_OFFSET(0xEB83F40)
+#define DBHGOLFACFL_KHDEKEEMOCE___C__CREATE_B__3_2_OFFSET UNITYSDK_OFFSET(0xEB83F60)
 
-inline static constexpr unsigned int DBHGOLFACFL_KHDEKEEMOCE___c_TypeDefinitionIndex = 79436;
+inline static constexpr unsigned int DBHGOLFACFL_KHDEKEEMOCE___c_TypeDefinitionIndex = 82213;
 
 	class DBHGOLFACFL_KHDEKEEMOCE___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::FKKIAHNJCBC*, ::System::Boolean>** StaticGet___9__3_1()
-		{
-			return (::System::Func_2<::FKKIAHNJCBC*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CD80);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CD88);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CE70);
+		}
+
+		static ::System::Func_2<::FKKIAHNJCBC*, ::System::Boolean>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::FKKIAHNJCBC*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CE78);
 		}
 
 		static ::System::Func_2<::FKKIAHNJCBC*, ::System::UInt32>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::FKKIAHNJCBC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CD90);
+			return (::System::Func_2<::FKKIAHNJCBC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CE80);
 		}
 
 		static ::System::Void _cctor()

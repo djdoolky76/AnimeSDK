@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8EE450)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EE480)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CREATETRACKMIXER_B__3_0_OFFSET UNITYSDK_OFFSET(0xE8EE490)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF3C8520)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF3C8550)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPETRACK___C__CREATETRACKMIXER_B__3_0_OFFSET UNITYSDK_OFFSET(0xF3C8560)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex = 48758;
+	inline static constexpr unsigned int EmoDiscussionBlendShapeTrack___c_TypeDefinitionIndex = 49804;
 
 	class EmoDiscussionBlendShapeTrack___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x6FC70);
-		}
-
 		static ::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x6FC78);
+			return (::System::Comparison_1<::UnityEngine::Timeline::TimelineClip*>**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x73D60);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x73D68);
 		}
 
 		static ::System::Void _cctor()

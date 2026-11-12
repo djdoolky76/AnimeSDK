@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveBossDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEBOSSDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D778950)
-#define RPG_GAMECORE_IDLELIVEBOSSDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7786B0)
+#define RPG_GAMECORE_IDLELIVEBOSSDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98C080)
+#define RPG_GAMECORE_IDLELIVEBOSSDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98BDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveBossDataRow_TypeDefinitionIndex = 11703;
+	inline static constexpr unsigned int IdleLiveBossDataRow_TypeDefinitionIndex = 11760;
 
 	class IdleLiveBossDataRow : public ::System::Object
 	{

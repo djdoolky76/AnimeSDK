@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_GRADIENTCOLORKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x2EB2150)
+#define UNITYENGINE_GRADIENTCOLORKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x30865D0)
 
 namespace UnityEngine
 {

@@ -6,18 +6,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElementResistanceConfig; }
 
-#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D633A40)
-#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6338F0)
+#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E871410)
+#define RPG_GAMECORE_ELEMENTRESISTANCECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8712C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElementResistanceConfig_TypeDefinitionIndex = 13074;
+	inline static constexpr unsigned int ElementResistanceConfig_TypeDefinitionIndex = 13142;
 
 	class ElementResistanceConfig : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint Value; // 0x10
-		::RPG::GameCore::AttackDamageType DamageType; // 0x18
+		::RPG::GameCore::AttackDamageType DamageType; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint Value; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELEMENTRESISTANCECONFIG_CTOR_OFFSET))(this);

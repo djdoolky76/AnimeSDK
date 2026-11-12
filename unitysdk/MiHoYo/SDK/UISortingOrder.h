@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UISortingOrder_TypeDefinitionIndex = 8080;
+	inline static constexpr unsigned int UISortingOrder_TypeDefinitionIndex = 8089;
 
 	enum class UISortingOrder : ::System::Int32
 	{

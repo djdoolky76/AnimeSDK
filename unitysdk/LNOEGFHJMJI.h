@@ -5,22 +5,22 @@ namespace RPG::Client { class AdventurePhase; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAetherDivideBattle; }
 
-#define LNOEGFHJMJI_CFFNDPBOCBD_OFFSET UNITYSDK_OFFSET(0xB7E9CF0)
-#define LNOEGFHJMJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E9B70)
-#define LNOEGFHJMJI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7EA080)
-#define LNOEGFHJMJI_GBIKIPGOGCF_OFFSET UNITYSDK_OFFSET(0xB7E9D90)
-#define LNOEGFHJMJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7E9BD0)
-#define LNOEGFHJMJI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7E9B80)
-#define LNOEGFHJMJI_TICK_OFFSET UNITYSDK_OFFSET(0xB7EA020)
+#define LNOEGFHJMJI_CFFNDPBOCBD_OFFSET UNITYSDK_OFFSET(0xC0491D0)
+#define LNOEGFHJMJI_CTOR_OFFSET UNITYSDK_OFFSET(0xC049050)
+#define LNOEGFHJMJI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC049560)
+#define LNOEGFHJMJI_GBIKIPGOGCF_OFFSET UNITYSDK_OFFSET(0xC049270)
+#define LNOEGFHJMJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0490B0)
+#define LNOEGFHJMJI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC049060)
+#define LNOEGFHJMJI_TICK_OFFSET UNITYSDK_OFFSET(0xC049500)
 
-inline static constexpr unsigned int LNOEGFHJMJI_TypeDefinitionIndex = 58768;
+inline static constexpr unsigned int LNOEGFHJMJI_TypeDefinitionIndex = 60036;
 
 	class LNOEGFHJMJI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerAetherDivideBattle* EJJEEJENLDA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
-		::RPG::Client::AdventurePhase* HAGFACOEAFD; // 0x28
+		::RPG::Client::AdventurePhase* HAGFACOEAFD; // 0x18
+		::RPG::GameCore::TriggerAetherDivideBattle* EJJEEJENLDA; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerAetherDivideBattle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerAetherDivideBattle*))((::PBYTE)hIl2Cpp + LNOEGFHJMJI_CTOR_OFFSET))(this, a1, a2);

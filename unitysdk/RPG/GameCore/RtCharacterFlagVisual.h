@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtCharacterFlagVisual; }
 namespace RPG::GameCore { class RtCharacterVisual; }
 
-#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA58250)
-#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA58140)
+#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6A0D0)
+#define RPG_GAMECORE_RTCHARACTERFLAGVISUAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC69FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterFlagVisual_TypeDefinitionIndex = 24092;
+	inline static constexpr unsigned int RtCharacterFlagVisual_TypeDefinitionIndex = 24551;
 
 	class RtCharacterFlagVisual : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class OverrideModifierName; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E7CC0)
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E7D20)
-#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E7C40)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB00760)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB007C0)
+#define RPG_GAMECORE_OVERRIDEMODIFIERNAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB006E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideModifierName_TypeDefinitionIndex = 23706;
+	inline static constexpr unsigned int OverrideModifierName_TypeDefinitionIndex = 24162;
 
 	class OverrideModifierName : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,16 +5,16 @@ class NLHACPDMPIC;
 namespace RPG::Client::DiceCombat { class DiceCombatTeamEditDialogMsgParam; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define NLHACPDMPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC68E00)
-#define NLHACPDMPIC___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xBC6B560)
+#define NLHACPDMPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC54E1A0)
+#define NLHACPDMPIC___C__DISPLAYCLASS19_0__HANDLESHOWTEAMEDITDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xC550910)
 
-inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass19_0_TypeDefinitionIndex = 76186;
+inline static constexpr unsigned int NLHACPDMPIC___c__DisplayClass19_0_TypeDefinitionIndex = 78513;
 
 	class NLHACPDMPIC___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::NLHACPDMPIC* __4__this; // 0x10
-		::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam* param; // 0x18
+		::RPG::Client::DiceCombat::DiceCombatTeamEditDialogMsgParam* param; // 0x10
+		::NLHACPDMPIC* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLHACPDMPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET))(this);

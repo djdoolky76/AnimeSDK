@@ -6,10 +6,10 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageCtrl; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2EAE80)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2EAFF0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2EAFE0)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2EAD20)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_ASYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D471A00)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D471B70)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D471B60)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_ENVOYTERMINATORSINK_SYNCPROCESSMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D4718A0)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -20,7 +20,7 @@ namespace System::Runtime::Remoting::Messaging
 	public:
 		static ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink** StaticGet_Instance()
 		{
-			return (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "EnvoyTerminatorSink")->GetStaticField(0x161B0);
+			return (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink**)UnitySDK::FromName("System.Runtime.Remoting.Messaging", "EnvoyTerminatorSink")->GetStaticField(0x1A440);
 		}
 
 		::System::Void _ctor()

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LockToast; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLCLDBBIELJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF8961A0)
-#define DLCLDBBIELJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF8961B0)
-#define DLCLDBBIELJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8961F0)
-#define DLCLDBBIELJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF896270)
-#define DLCLDBBIELJ_TICK_OFFSET UNITYSDK_OFFSET(0xF8962C0)
+#define DLCLDBBIELJ_CTOR_OFFSET UNITYSDK_OFFSET(0x10605600)
+#define DLCLDBBIELJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x10605610)
+#define DLCLDBBIELJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10605650)
+#define DLCLDBBIELJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x106056D0)
+#define DLCLDBBIELJ_TICK_OFFSET UNITYSDK_OFFSET(0x10605720)
 
-inline static constexpr unsigned int DLCLDBBIELJ_TypeDefinitionIndex = 58207;
+inline static constexpr unsigned int DLCLDBBIELJ_TypeDefinitionIndex = 59463;
 
 	class DLCLDBBIELJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::LockToast* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::LockToast* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LockToast* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LockToast*))((::PBYTE)hIl2Cpp + DLCLDBBIELJ_CTOR_OFFSET))(this, a1, a2);

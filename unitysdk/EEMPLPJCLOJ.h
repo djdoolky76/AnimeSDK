@@ -6,9 +6,9 @@
 namespace System { class Object; }
 namespace System::Collections { class IEnumerable; }
 
-#define EEMPLPJCLOJ_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1DD3A090)
+#define EEMPLPJCLOJ_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1EF3C800)
 
-inline static constexpr unsigned int EEMPLPJCLOJ_TypeDefinitionIndex = 6414;
+inline static constexpr unsigned int EEMPLPJCLOJ_TypeDefinitionIndex = 6421;
 
 	class EEMPLPJCLOJ : public ::System::Object
 	{

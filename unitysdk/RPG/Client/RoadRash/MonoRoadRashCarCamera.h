@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/RoadRash/MonoRoadRashCarCamera_PlayStartCamera.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHCARCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xDECB510)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHCARCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xE97BE60)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashCarCamera_TypeDefinitionIndex = 75845;
+	inline static constexpr unsigned int MonoRoadRashCarCamera_TypeDefinitionIndex = 78172;
 
 	class MonoRoadRashCarCamera : public ::UnityEngine::MonoBehaviour
 	{

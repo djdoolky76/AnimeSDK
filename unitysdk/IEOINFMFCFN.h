@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class AOFHFKPKKJI;
 
-#define IEOINFMFCFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15F07250)
+#define IEOINFMFCFN_CTOR_OFFSET UNITYSDK_OFFSET(0x16E75E50)
 
-inline static constexpr unsigned int IEOINFMFCFN_TypeDefinitionIndex = 80596;
+inline static constexpr unsigned int IEOINFMFCFN_TypeDefinitionIndex = 83376;
 
 	class IEOINFMFCFN : public ::System::Object
 	{

@@ -9,27 +9,31 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define IMENCDLHKAI_BFLENEMBIBM_OFFSET UNITYSDK_OFFSET(0x164D2890)
-#define IMENCDLHKAI_CTOR_OFFSET UNITYSDK_OFFSET(0x164D2B80)
-#define IMENCDLHKAI_EHGMEHPJPBD_OFFSET UNITYSDK_OFFSET(0x164D24D0)
-#define IMENCDLHKAI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x164D2430)
-#define IMENCDLHKAI_KCFDDCKPFPE_OFFSET UNITYSDK_OFFSET(0x164D27E0)
-#define IMENCDLHKAI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x164D2330)
-#define IMENCDLHKAI_LEHKGLNGAGF_OFFSET UNITYSDK_OFFSET(0x164D2B20)
-#define IMENCDLHKAI_LMLFAEBBMFA_OFFSET UNITYSDK_OFFSET(0x164D2930)
+#define IMENCDLHKAI_BFLENEMBIBM_OFFSET UNITYSDK_OFFSET(0xB801E70)
+#define IMENCDLHKAI_CTOR_OFFSET UNITYSDK_OFFSET(0xB802470)
+#define IMENCDLHKAI_EHGMEHPJPBD_OFFSET UNITYSDK_OFFSET(0xB801AB0)
+#define IMENCDLHKAI_GHONAOFLCIO_OFFSET UNITYSDK_OFFSET(0xB801F60)
+#define IMENCDLHKAI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB801A10)
+#define IMENCDLHKAI_KCFDDCKPFPE_OFFSET UNITYSDK_OFFSET(0xB801DC0)
+#define IMENCDLHKAI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB801900)
+#define IMENCDLHKAI_LEHKGLNGAGF_OFFSET UNITYSDK_OFFSET(0xB802400)
+#define IMENCDLHKAI_LMLFAEBBMFA_OFFSET UNITYSDK_OFFSET(0xB801FD0)
+#define IMENCDLHKAI_LMLOIPHLPPM_OFFSET UNITYSDK_OFFSET(0xB802460)
+#define IMENCDLHKAI_MKEHPLBJICO_OFFSET UNITYSDK_OFFSET(0xB802220)
 
-inline static constexpr unsigned int IMENCDLHKAI_TypeDefinitionIndex = 57818;
+inline static constexpr unsigned int IMENCDLHKAI_TypeDefinitionIndex = 59053;
 
 	class IMENCDLHKAI : public ::System::Object
 	{
 	public:
-		::MOIKMFOGHAO GOPMOPPKFPH; // 0x10
-		::System::String* FJEJHABHCPH; // 0x30
-		::Il2CppArray<::HEKOMMJCPJF*>* EKONIPGDFNE; // 0x38
-		::HLCPCNFMECN* HNJMIKCEINB; // 0x40
+		::System::String* FJEJHABHCPH; // 0x10
+		::Il2CppArray<::HEKOMMJCPJF*>* EKONIPGDFNE; // 0x18
+		::MOIKMFOGHAO GOPMOPPKFPH; // 0x20
+		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x40
 		::AIBOPLOBAFN* BHIBFLIGINF; // 0x48
-		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x50
+		::HLCPCNFMECN* HNJMIKCEINB; // 0x50
 		::System::Int32 EMPOLDLHGPA; // 0x58
+		::System::Int32 MFDBOIFKJFK; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMENCDLHKAI_CTOR_OFFSET))(this);
@@ -60,6 +64,11 @@ inline static constexpr unsigned int IMENCDLHKAI_TypeDefinitionIndex = 57818;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + IMENCDLHKAI_LMLFAEBBMFA_OFFSET))(this, a1, a2);
 		}
 
+		::System::Void MKEHPLBJICO(::System::Boolean a1, ::System::Action* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + IMENCDLHKAI_MKEHPLBJICO_OFFSET))(this, a1, a2);
+		}
+
 		::System::Void EHGMEHPJPBD(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + IMENCDLHKAI_EHGMEHPJPBD_OFFSET))(this, a1);
@@ -68,6 +77,16 @@ inline static constexpr unsigned int IMENCDLHKAI_TypeDefinitionIndex = 57818;
 		::System::Boolean LEHKGLNGAGF()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IMENCDLHKAI_LEHKGLNGAGF_OFFSET))(this);
+		}
+
+		::System::Int32 LMLOIPHLPPM()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + IMENCDLHKAI_LMLOIPHLPPM_OFFSET))(this);
+		}
+
+		::System::Int32 GHONAOFLCIO(::System::Int32 a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + IMENCDLHKAI_GHONAOFLCIO_OFFSET))(this, a1);
 		}
 
 	};

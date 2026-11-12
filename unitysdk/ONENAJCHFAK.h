@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByTeamRound; }
 
-#define ONENAJCHFAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99F4D0)
-#define ONENAJCHFAK_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C99F4F0)
+#define ONENAJCHFAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB613C0)
+#define ONENAJCHFAK_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1DB613E0)
 
-inline static constexpr unsigned int ONENAJCHFAK_TypeDefinitionIndex = 43156;
+inline static constexpr unsigned int ONENAJCHFAK_TypeDefinitionIndex = 44137;
 
 	class ONENAJCHFAK : public ::LHJPMDPJPEC
 	{

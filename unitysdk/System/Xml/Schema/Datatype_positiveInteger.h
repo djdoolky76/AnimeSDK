@@ -4,10 +4,10 @@
 #include "unitysdk/System/Xml/Schema/XmlTypeCode.h"
 namespace System::Xml::Schema { class FacetsChecker; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEBB530)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAFCE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EEBB4C0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEBB520)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x2016ACA0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_CTOR_OFFSET UNITYSDK_OFFSET(0x2015F450)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x2016AC30)
+#define SYSTEM_XML_SCHEMA_DATATYPE_POSITIVEINTEGER_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x2016AC90)
 
 namespace System::Xml::Schema
 {
@@ -18,7 +18,7 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric10FacetsChecker()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "Datatype_positiveInteger")->GetStaticField(0x22960);
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "Datatype_positiveInteger")->GetStaticField(0x2D180);
 		}
 
 		::System::Void _ctor()

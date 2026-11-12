@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchLatestEnterStageAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FMPOOMMFNKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15867D10)
-#define FMPOOMMFNKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15867D60)
+#define FMPOOMMFNKP_CTOR_OFFSET UNITYSDK_OFFSET(0x167D9B70)
+#define FMPOOMMFNKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x167D9BC0)
 
-inline static constexpr unsigned int FMPOOMMFNKP_TypeDefinitionIndex = 59181;
+inline static constexpr unsigned int FMPOOMMFNKP_TypeDefinitionIndex = 60458;
 
 	class FMPOOMMFNKP
 	{

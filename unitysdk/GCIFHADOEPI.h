@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_SetStimulusInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GCIFHADOEPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1597B450)
-#define GCIFHADOEPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1597B480)
+#define GCIFHADOEPI_CTOR_OFFSET UNITYSDK_OFFSET(0x168B2030)
+#define GCIFHADOEPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168B2060)
 
-inline static constexpr unsigned int GCIFHADOEPI_TypeDefinitionIndex = 52103;
+inline static constexpr unsigned int GCIFHADOEPI_TypeDefinitionIndex = 53208;
 
 	class GCIFHADOEPI
 	{

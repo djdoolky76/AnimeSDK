@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B7620)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B7660)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B9B7670)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B9B76B0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB40550)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB40590)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CB405A0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1CB405E0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Transform_Extensions___c_TypeDefinitionIndex = 40715;
+	inline static constexpr unsigned int Test_Transform_Extensions___c_TypeDefinitionIndex = 41690;
 
 	class Test_Transform_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::UnityEngine::Transform*, ::HoudiniEngineUnity::Test_Transform*>** StaticGet___9__2_0()
-		{
-			return (::System::Converter_2<::UnityEngine::Transform*, ::HoudiniEngineUnity::Test_Transform*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x577F0);
-		}
-
 		static ::System::Converter_2<::UnityEngine::Transform*, ::HoudiniEngineUnity::Test_Transform*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::Transform*, ::HoudiniEngineUnity::Test_Transform*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x577F8);
+			return (::System::Converter_2<::UnityEngine::Transform*, ::HoudiniEngineUnity::Test_Transform*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68EF0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x57800);
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68EF8);
+		}
+
+		static ::System::Converter_2<::UnityEngine::Transform*, ::HoudiniEngineUnity::Test_Transform*>** StaticGet___9__2_0()
+		{
+			return (::System::Converter_2<::UnityEngine::Transform*, ::HoudiniEngineUnity::Test_Transform*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68F00);
 		}
 
 		static ::System::Void _cctor()

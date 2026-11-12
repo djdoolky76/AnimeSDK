@@ -8,19 +8,19 @@ class LPNPMKNMMOK;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define KNFOFODFEAN_BNJBNIIDHJN_OFFSET UNITYSDK_OFFSET(0xB5826D0)
-#define KNFOFODFEAN_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5827E0)
-#define KNFOFODFEAN_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xB582710)
-#define KNFOFODFEAN_NKCCHCKDPFK_OFFSET UNITYSDK_OFFSET(0xB582760)
+#define KNFOFODFEAN_BNJBNIIDHJN_OFFSET UNITYSDK_OFFSET(0xBDD0270)
+#define KNFOFODFEAN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBDD0380)
+#define KNFOFODFEAN_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xBDD02B0)
+#define KNFOFODFEAN_NKCCHCKDPFK_OFFSET UNITYSDK_OFFSET(0xBDD0300)
 
-inline static constexpr unsigned int KNFOFODFEAN_TypeDefinitionIndex = 55843;
+inline static constexpr unsigned int KNFOFODFEAN_TypeDefinitionIndex = 57046;
 
 	class KNFOFODFEAN : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::RPG::GameCore::TurnBasedModifierInstance*, ::LPNPMKNMMOK*, ::System::Boolean>** StaticGet_LJMDIKHBOJH()
 		{
-			return (::System::Func_3<::RPG::GameCore::TurnBasedModifierInstance*, ::LPNPMKNMMOK*, ::System::Boolean>**)UnitySDK::FromName("", "KNFOFODFEAN")->GetStaticField(0x63D70);
+			return (::System::Func_3<::RPG::GameCore::TurnBasedModifierInstance*, ::LPNPMKNMMOK*, ::System::Boolean>**)UnitySDK::FromName("", "KNFOFODFEAN")->GetStaticField(0x5AD80);
 		}
 
 		static ::System::Void _cctor()

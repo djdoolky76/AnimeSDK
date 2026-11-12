@@ -14,100 +14,112 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define CAELMBLOLIM_AEOPDMBBBBB_OFFSET UNITYSDK_OFFSET(0xC476EF0)
-#define CAELMBLOLIM_BGNIDBMKBBF_OFFSET UNITYSDK_OFFSET(0xC479E50)
-#define CAELMBLOLIM_BNLDPNNOPMN_OFFSET UNITYSDK_OFFSET(0xC476580)
-#define CAELMBLOLIM_CCTOR_OFFSET UNITYSDK_OFFSET(0xC47A190)
-#define CAELMBLOLIM_CJELMBBEDFM_OFFSET UNITYSDK_OFFSET(0xC1BE610)
-#define CAELMBLOLIM_COGJOENDJPA_OFFSET UNITYSDK_OFFSET(0xC479650)
-#define CAELMBLOLIM_CTOR_OFFSET UNITYSDK_OFFSET(0xC1BE740)
-#define CAELMBLOLIM_DDJILELKHDB_OFFSET UNITYSDK_OFFSET(0xC478610)
-#define CAELMBLOLIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC476780)
-#define CAELMBLOLIM_EGKJJAJENPC_OFFSET UNITYSDK_OFFSET(0xC478160)
-#define CAELMBLOLIM_EJFGKFPDFLK_OFFSET UNITYSDK_OFFSET(0xC479320)
-#define CAELMBLOLIM_EMIEGHMJPLO_OFFSET UNITYSDK_OFFSET(0xC4769C0)
-#define CAELMBLOLIM_FDHKAMIFBKA_OFFSET UNITYSDK_OFFSET(0xC478250)
-#define CAELMBLOLIM_FFHPANOFFLE_OFFSET UNITYSDK_OFFSET(0xC4785B0)
-#define CAELMBLOLIM_GAOHIOIJEAD_OFFSET UNITYSDK_OFFSET(0xC477860)
-#define CAELMBLOLIM_GPNDLMOMGBH_OFFSET UNITYSDK_OFFSET(0xC478290)
-#define CAELMBLOLIM_HDKOFGGEPOF_OFFSET UNITYSDK_OFFSET(0xC479570)
-#define CAELMBLOLIM_IEDGIJOKFBC_OFFSET UNITYSDK_OFFSET(0xC478B60)
-#define CAELMBLOLIM_IICBKAIJEKD_OFFSET UNITYSDK_OFFSET(0xC4799D0)
-#define CAELMBLOLIM_IMGCNELAAJD_OFFSET UNITYSDK_OFFSET(0xC4765E0)
-#define CAELMBLOLIM_JAPGOMPDPPP_OFFSET UNITYSDK_OFFSET(0xC479AA0)
-#define CAELMBLOLIM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC475E20)
-#define CAELMBLOLIM_KBHJOKBPPKL_OFFSET UNITYSDK_OFFSET(0xC4764C0)
-#define CAELMBLOLIM_KDBPOBOPDKC_OFFSET UNITYSDK_OFFSET(0xC476F60)
-#define CAELMBLOLIM_KGOBDKCANGL_OFFSET UNITYSDK_OFFSET(0xC4791A0)
-#define CAELMBLOLIM_KKOLGBJCBHP_OFFSET UNITYSDK_OFFSET(0xC477410)
-#define CAELMBLOLIM_LPHGKDOLDOM_OFFSET UNITYSDK_OFFSET(0xC476FB0)
-#define CAELMBLOLIM_MJLNIAKBHOA_OFFSET UNITYSDK_OFFSET(0xC4770F0)
-#define CAELMBLOLIM_MMCDEALDAHD_OFFSET UNITYSDK_OFFSET(0xC479B40)
-#define CAELMBLOLIM_NDKEKOLJPCG_OFFSET UNITYSDK_OFFSET(0xC479A30)
-#define CAELMBLOLIM_NKBNFFGAKDC_OFFSET UNITYSDK_OFFSET(0xC477340)
-#define CAELMBLOLIM_ODOFFOLKMAB_OFFSET UNITYSDK_OFFSET(0xC477D10)
-#define CAELMBLOLIM_OPEEKCKCHFK_OFFSET UNITYSDK_OFFSET(0xC479420)
-#define CAELMBLOLIM_PAMNBAHHKGD_OFFSET UNITYSDK_OFFSET(0xC477AB0)
-#define CAELMBLOLIM_PGDMGGFIBAC_OFFSET UNITYSDK_OFFSET(0xC479800)
-#define CAELMBLOLIM___OPENUI_B__15_0_OFFSET UNITYSDK_OFFSET(0xC47A2A0)
+#define CAELMBLOLIM_AEOPDMBBBBB_OFFSET UNITYSDK_OFFSET(0xCB61B90)
+#define CAELMBLOLIM_BGNIDBMKBBF_OFFSET UNITYSDK_OFFSET(0xCB65730)
+#define CAELMBLOLIM_BNLDPNNOPMN_OFFSET UNITYSDK_OFFSET(0xCB61160)
+#define CAELMBLOLIM_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB65A90)
+#define CAELMBLOLIM_CJELMBBEDFM_OFFSET UNITYSDK_OFFSET(0xCB60770)
+#define CAELMBLOLIM_CKFECAHGEFK_OFFSET UNITYSDK_OFFSET(0xCB64260)
+#define CAELMBLOLIM_COGJOENDJPA_OFFSET UNITYSDK_OFFSET(0xCB64D40)
+#define CAELMBLOLIM_CTOR_OFFSET UNITYSDK_OFFSET(0xCB608A0)
+#define CAELMBLOLIM_DDJILELKHDB_OFFSET UNITYSDK_OFFSET(0xCB63C80)
+#define CAELMBLOLIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB61360)
+#define CAELMBLOLIM_EGKJJAJENPC_OFFSET UNITYSDK_OFFSET(0xCB637D0)
+#define CAELMBLOLIM_EJCJBPJNAOD_OFFSET UNITYSDK_OFFSET(0xCB62F60)
+#define CAELMBLOLIM_EJFGKFPDFLK_OFFSET UNITYSDK_OFFSET(0xCB636D0)
+#define CAELMBLOLIM_EMIEGHMJPLO_OFFSET UNITYSDK_OFFSET(0xCB615D0)
+#define CAELMBLOLIM_FDHKAMIFBKA_OFFSET UNITYSDK_OFFSET(0xCB638C0)
+#define CAELMBLOLIM_FFHPANOFFLE_OFFSET UNITYSDK_OFFSET(0xCB63C20)
+#define CAELMBLOLIM_GAOHIOIJEAD_OFFSET UNITYSDK_OFFSET(0xCB62610)
+#define CAELMBLOLIM_GLCPMAFNADJ_OFFSET UNITYSDK_OFFSET(0xCB65230)
+#define CAELMBLOLIM_GPNDLMOMGBH_OFFSET UNITYSDK_OFFSET(0xCB63900)
+#define CAELMBLOLIM_HDKOFGGEPOF_OFFSET UNITYSDK_OFFSET(0xCB64C60)
+#define CAELMBLOLIM_IEDGIJOKFBC_OFFSET UNITYSDK_OFFSET(0xCB64350)
+#define CAELMBLOLIM_IICBKAIJEKD_OFFSET UNITYSDK_OFFSET(0xCB650C0)
+#define CAELMBLOLIM_IICNKNHNFKJ_OFFSET UNITYSDK_OFFSET(0xCB652E0)
+#define CAELMBLOLIM_IMGCNELAAJD_OFFSET UNITYSDK_OFFSET(0xCB611C0)
+#define CAELMBLOLIM_JAPGOMPDPPP_OFFSET UNITYSDK_OFFSET(0xCB65190)
+#define CAELMBLOLIM_JHCMAGJENBK_OFFSET UNITYSDK_OFFSET(0xCB63610)
+#define CAELMBLOLIM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCB609F0)
+#define CAELMBLOLIM_KBHJOKBPPKL_OFFSET UNITYSDK_OFFSET(0xCB610A0)
+#define CAELMBLOLIM_KDBPOBOPDKC_OFFSET UNITYSDK_OFFSET(0xCB61C00)
+#define CAELMBLOLIM_KGOBDKCANGL_OFFSET UNITYSDK_OFFSET(0xCB64990)
+#define CAELMBLOLIM_KKOLGBJCBHP_OFFSET UNITYSDK_OFFSET(0xCB620D0)
+#define CAELMBLOLIM_LJBAMNPEAPK_OFFSET UNITYSDK_OFFSET(0xCB65390)
+#define CAELMBLOLIM_LPHGKDOLDOM_OFFSET UNITYSDK_OFFSET(0xCB61C50)
+#define CAELMBLOLIM_MJLNIAKBHOA_OFFSET UNITYSDK_OFFSET(0xCB61D90)
+#define CAELMBLOLIM_MMCDEALDAHD_OFFSET UNITYSDK_OFFSET(0xCB65420)
+#define CAELMBLOLIM_NDKEKOLJPCG_OFFSET UNITYSDK_OFFSET(0xCB65120)
+#define CAELMBLOLIM_NKBNFFGAKDC_OFFSET UNITYSDK_OFFSET(0xCB61FF0)
+#define CAELMBLOLIM_ODOFFOLKMAB_OFFSET UNITYSDK_OFFSET(0xCB62AE0)
+#define CAELMBLOLIM_OPEEKCKCHFK_OFFSET UNITYSDK_OFFSET(0xCB64B10)
+#define CAELMBLOLIM_PAMNBAHHKGD_OFFSET UNITYSDK_OFFSET(0xCB62870)
+#define CAELMBLOLIM_PGDMGGFIBAC_OFFSET UNITYSDK_OFFSET(0xCB64EF0)
+#define CAELMBLOLIM___OPENUI_B__15_0_OFFSET UNITYSDK_OFFSET(0xCB65BA0)
 
-inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 60559;
+inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 61848;
 
 	class CAELMBLOLIM : public ::System::Object
 	{
 	public:
-		::MNCOPNHONHO* EDKOLBIBJPJ; // 0x10
-		::RPG::GameCore::GameEntity* PBDLPHFMOEH; // 0x18
-		::System::String* AMNAGGJIGDH; // 0x20
-		::HCLPKMIIANI* PACHDCGDDLF; // 0x28
-		::RPG::GameCore::FiveDimPortalTarget* ILPMJIENGFH; // 0x30
-		::System::Collections::Generic::Stack_1<::System::Object*>* JHDNEEMFLLB; // 0x38
-		::System::String* KKAHKEOBAAF; // 0x40
-		::System::Action* JLOANCFBAEO; // 0x48
-		::System::Action* AMIDPANDGOG; // 0x50
-		::System::String* DINOJGIGOKA; // 0x58
-		::RPG::Client::UIController* EPDGEGCONCE; // 0x60
-		::System::Action* CPHCBDFBAEK; // 0x68
-		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x70
-		::System::Int32 CFHHHLCABGJ; // 0x78
-		::System::UInt32 CEKCPNAPBIE; // 0x7C
-		::UnityEngine::Vector3 JHEBOOJAOPB; // 0x80
-		::System::Boolean PHCDAOBHPHE; // 0x8C
-		::System::Boolean ALBGENABAKM; // 0x8D
-		::System::Boolean HIOODHNPLJA; // 0x8E
-		::System::Boolean NJEDJENCHOJ; // 0x8F
-		::System::Boolean NJLMCLGFELB; // 0x90
-		::System::Boolean HOHAMGIMOCF; // 0x91
-		::System::Boolean DIAFNIICPKM; // 0x92
-		::System::Boolean MNDOMICJGAD; // 0x93
-		::System::Boolean OCADGKINKON; // 0x94
-		::System::Boolean BDENIMANKIC; // 0x95
-		::System::Boolean POHEELFNCOM; // 0x96
-		::System::Boolean OFAHFICIFEJ; // 0x97
-		::System::Int32 BAMCKCBKODH; // 0x98
+		::System::Collections::Generic::Stack_1<::System::Object*>* JHDNEEMFLLB; // 0x10
+		::MNCOPNHONHO* EDKOLBIBJPJ; // 0x18
+		::System::String* KKAHKEOBAAF; // 0x20
+		::RPG::GameCore::GameEntity* PBDLPHFMOEH; // 0x28
+		::System::String* AMNAGGJIGDH; // 0x30
+		::RPG::GameCore::FiveDimPortalTarget* ILPMJIENGFH; // 0x38
+		::RPG::Client::UIController* EPDGEGCONCE; // 0x40
+		::HCLPKMIIANI* PACHDCGDDLF; // 0x48
+		::System::String* DINOJGIGOKA; // 0x50
+		::RPG::GameCore::GameEntity* HPFIKAFEBNG; // 0x58
+		::System::Action* CPHCBDFBAEK; // 0x60
+		::System::Action* AMIDPANDGOG; // 0x68
+		::System::Action* JLOANCFBAEO; // 0x70
+		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x78
+		::RPG::GameCore::GameEntity* FCLPPDJJFBK; // 0x80
+		::UnityEngine::Vector3 JHEBOOJAOPB; // 0x88
+		::System::Boolean HAEEOIHCFOH; // 0x94
+		::System::Boolean OFAHFICIFEJ; // 0x95
+		::System::Boolean HOHAMGIMOCF; // 0x96
+		::System::Boolean OCADGKINKON; // 0x97
+		::System::UInt32 CEKCPNAPBIE; // 0x98
+		::System::Boolean ALBGENABAKM; // 0x9C
+		::System::Boolean DIAFNIICPKM; // 0x9D
+		::System::Boolean HIOODHNPLJA; // 0x9E
+		::System::Boolean PHCDAOBHPHE; // 0x9F
+		::System::Boolean BDENIMANKIC; // 0xA0
+		::System::Boolean POHEELFNCOM; // 0xA1
+		::System::Boolean MNDOMICJGAD; // 0xA2
+		::System::Boolean NJLMCLGFELB; // 0xA3
+		::System::Boolean NJEDJENCHOJ; // 0xA4
+		::System::Boolean OLLPNFNOCIP; // 0xA5
+		::System::Boolean AJPHGJDDBEO; // 0xA6
+		::System::Byte _padding0[0x1];
+		::System::Int32 BAMCKCBKODH; // 0xA8
+		::System::Int32 CFHHHLCABGJ; // 0xAC
 		static ::RPG::GameCore::HoyoTag** StaticGet_GIMINDMIKDO()
 		{
-			return (::RPG::GameCore::HoyoTag**)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0xF790);
-		}
-
-		static ::System::Boolean* StaticGet_NBHODGBJHIG()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0x3490);
+			return (::RPG::GameCore::HoyoTag**)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0x400B0);
 		}
 
 		static ::System::Boolean* StaticGet_BOGECBNOKKI()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0x3491);
+			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0xDBF0);
+		}
+
+		static ::System::Boolean* StaticGet_NBHODGBJHIG()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0xDBF1);
 		}
 
 		static ::System::Boolean* StaticGet_FMODKOLAKOF()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0x3492);
+			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0xDBF2);
 		}
 
 		static ::System::Boolean* StaticGet_PAOBCEGEFEK()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0x3493);
+			return (::System::Boolean*)UnitySDK::FromName("", "CAELMBLOLIM")->GetStaticField(0xDBF3);
 		}
 
 		::System::Void _ctor()
@@ -145,14 +157,14 @@ inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 60559;
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CAELMBLOLIM_KDBPOBOPDKC_OFFSET))(this, a1);
 		}
 
-		::System::Void MJLNIAKBHOA(::System::String* a1, ::RPG::GameCore::GameEntity* a2)
+		::System::Void MJLNIAKBHOA(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CAELMBLOLIM_MJLNIAKBHOA_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::System::UInt32))((::PBYTE)hIl2Cpp + CAELMBLOLIM_MJLNIAKBHOA_OFFSET))(this, a1, a2, a3);
 		}
 
-		::System::Void KKOLGBJCBHP(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3, ::System::Action* a4, ::System::Action* a5, ::System::Boolean a6, ::System::Boolean a7, ::System::UInt32 a8, ::System::Int32 a9)
+		::System::Void KKOLGBJCBHP(::System::String* a1, ::RPG::GameCore::GameEntity* a2, ::RPG::GameCore::GameEntity* a3, ::System::Action* a4, ::System::Action* a5, ::System::Boolean a6, ::System::Boolean a7, ::System::UInt32 a8, ::System::Int32 a9, ::System::UInt32 a10)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Action*, ::System::Action*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Int32))((::PBYTE)hIl2Cpp + CAELMBLOLIM_KKOLGBJCBHP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9);
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Action*, ::System::Action*, ::System::Boolean, ::System::Boolean, ::System::UInt32, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + CAELMBLOLIM_KKOLGBJCBHP_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);
 		}
 
 		::System::Void GAOHIOIJEAD(::System::Action* a1, ::System::Action* a2, ::System::Boolean a3, ::System::Boolean a4)
@@ -168,6 +180,11 @@ inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 60559;
 		::System::Void NKBNFFGAKDC(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + CAELMBLOLIM_NKBNFFGAKDC_OFFSET))(this, a1);
+		}
+
+		::System::Boolean EJCJBPJNAOD()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CAELMBLOLIM_EJCJBPJNAOD_OFFSET))(this);
 		}
 
 		::System::Void EGKJJAJENPC(::RPG::GameCore::FiveDimPortalTarget* a1, ::MNCOPNHONHO* a2)
@@ -200,6 +217,11 @@ inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 60559;
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + CAELMBLOLIM_ODOFFOLKMAB_OFFSET))(this, a1);
 		}
 
+		::System::Void CKFECAHGEFK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAELMBLOLIM_CKFECAHGEFK_OFFSET))(this);
+		}
+
 		::System::Void IEDGIJOKFBC()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAELMBLOLIM_IEDGIJOKFBC_OFFSET))(this);
@@ -218,6 +240,11 @@ inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 60559;
 		::System::Boolean EJFGKFPDFLK()
 		{
 			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CAELMBLOLIM_EJFGKFPDFLK_OFFSET))(this);
+		}
+
+		::System::Boolean JHCMAGJENBK()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CAELMBLOLIM_JHCMAGJENBK_OFFSET))(this);
 		}
 
 		::System::Void KGOBDKCANGL(::System::Boolean a1)
@@ -273,6 +300,21 @@ inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 60559;
 		::System::UInt32 JAPGOMPDPPP()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + CAELMBLOLIM_JAPGOMPDPPP_OFFSET))(this);
+		}
+
+		::System::UInt32 GLCPMAFNADJ(::System::String* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + CAELMBLOLIM_GLCPMAFNADJ_OFFSET))(this, a1);
+		}
+
+		::System::Void IICNKNHNFKJ(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CAELMBLOLIM_IICNKNHNFKJ_OFFSET))(this, a1);
+		}
+
+		::System::Void LJBAMNPEAPK()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAELMBLOLIM_LJBAMNPEAPK_OFFSET))(this);
 		}
 
 		::System::Boolean MMCDEALDAHD(::System::UInt32 a1, ::System::UInt32 a2)

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TimeRewindSetSpecularMat; }
 
-#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB89550)
-#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB89560)
-#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB89520)
+#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE38770)
+#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE38780)
+#define RPG_GAMECORE_TIMEREWINDSETSPECULARMAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE38740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSetSpecularMat_TypeDefinitionIndex = 20646;
+	inline static constexpr unsigned int TimeRewindSetSpecularMat_TypeDefinitionIndex = 20983;
 
 	class TimeRewindSetSpecularMat : public ::RPG::GameCore::TaskConfig
 	{

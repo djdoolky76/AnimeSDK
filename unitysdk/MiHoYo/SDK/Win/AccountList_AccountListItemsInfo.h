@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTLIST_ACCOUNTLISTITEMSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCDBCC0)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST_ACCOUNTLISTITEMSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE64BE0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountList_AccountListItemsInfo_TypeDefinitionIndex = 9294;
+	inline static constexpr unsigned int AccountList_AccountListItemsInfo_TypeDefinitionIndex = 9302;
 
 	class AccountList_AccountListItemsInfo : public ::System::Object
 	{

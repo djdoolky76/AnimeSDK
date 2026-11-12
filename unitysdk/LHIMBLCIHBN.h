@@ -5,16 +5,16 @@
 class ACLMDNMDHLE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LHIMBLCIHBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B43A0)
-#define LHIMBLCIHBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6B4300)
+#define LHIMBLCIHBN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4C200)
+#define LHIMBLCIHBN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF4C160)
 
-inline static constexpr unsigned int LHIMBLCIHBN_TypeDefinitionIndex = 56092;
+inline static constexpr unsigned int LHIMBLCIHBN_TypeDefinitionIndex = 57304;
 
 	class LHIMBLCIHBN : public ::System::Object
 	{
 	public:
-		::ACLMDNMDHLE* IBAADNINFCG; // 0x10
-		::System::Collections::Generic::List_1<::ACLMDNMDHLE*>* AGMDLHDNBGK; // 0x18
+		::System::Collections::Generic::List_1<::ACLMDNMDHLE*>* AGMDLHDNBGK; // 0x10
+		::ACLMDNMDHLE* IBAADNINFCG; // 0x18
 		::RPG::GameCore::FateTraitType FBFCPNADPKB; // 0x20
 		::System::Void _ctor()
 		{

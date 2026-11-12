@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GHJANLNHFLL_TypeDefinitionIndex = 62340;
+inline static constexpr unsigned int GHJANLNHFLL_TypeDefinitionIndex = 63753;
 
 	class GHJANLNHFLL
 	{

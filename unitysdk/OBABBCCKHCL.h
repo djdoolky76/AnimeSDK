@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveStreamingSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OBABBCCKHCL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD30660)
-#define OBABBCCKHCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD30690)
+#define OBABBCCKHCL_CTOR_OFFSET UNITYSDK_OFFSET(0xC633EF0)
+#define OBABBCCKHCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC633F20)
 
-inline static constexpr unsigned int OBABBCCKHCL_TypeDefinitionIndex = 58390;
+inline static constexpr unsigned int OBABBCCKHCL_TypeDefinitionIndex = 59646;
 
 	class OBABBCCKHCL
 	{

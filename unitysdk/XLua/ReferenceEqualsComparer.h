@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define XLUA_REFERENCEEQUALSCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x152C6120)
-#define XLUA_REFERENCEEQUALSCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x152C6100)
-#define XLUA_REFERENCEEQUALSCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x152C6110)
+#define XLUA_REFERENCEEQUALSCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x161A5C50)
+#define XLUA_REFERENCEEQUALSCOMPARER_EQUALS_OFFSET UNITYSDK_OFFSET(0x161A5C30)
+#define XLUA_REFERENCEEQUALSCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x161A5C40)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ReferenceEqualsComparer_TypeDefinitionIndex = 50244;
+	inline static constexpr unsigned int ReferenceEqualsComparer_TypeDefinitionIndex = 51295;
 
 	class ReferenceEqualsComparer : public ::System::Object
 	{

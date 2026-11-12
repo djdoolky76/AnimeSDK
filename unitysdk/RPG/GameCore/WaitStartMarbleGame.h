@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitStartMarbleGame; }
 
-#define RPG_GAMECORE_WAITSTARTMARBLEGAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA2450)
-#define RPG_GAMECORE_WAITSTARTMARBLEGAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA2460)
-#define RPG_GAMECORE_WAITSTARTMARBLEGAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA2420)
+#define RPG_GAMECORE_WAITSTARTMARBLEGAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB4EF0)
+#define RPG_GAMECORE_WAITSTARTMARBLEGAME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB4F00)
+#define RPG_GAMECORE_WAITSTARTMARBLEGAME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB4EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitStartMarbleGame_TypeDefinitionIndex = 22041;
+	inline static constexpr unsigned int WaitStartMarbleGame_TypeDefinitionIndex = 22446;
 
 	class WaitStartMarbleGame : public ::RPG::GameCore::TaskConfig
 	{

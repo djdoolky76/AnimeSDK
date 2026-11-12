@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class GLAKFODMCPH;
 
-#define FHIDMALJNKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E5C0)
+#define FHIDMALJNKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31F30)
 
-inline static constexpr unsigned int FHIDMALJNKJ_TypeDefinitionIndex = 42034;
+inline static constexpr unsigned int FHIDMALJNKJ_TypeDefinitionIndex = 43009;
 
 	class FHIDMALJNKJ : public ::System::Object
 	{

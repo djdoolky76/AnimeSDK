@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ConvinceByCompareHp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AAKFMEOMANC_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CDAA0)
-#define AAKFMEOMANC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB0CDAD0)
+#define AAKFMEOMANC_CTOR_OFFSET UNITYSDK_OFFSET(0xB72F500)
+#define AAKFMEOMANC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB72F530)
 
-inline static constexpr unsigned int AAKFMEOMANC_TypeDefinitionIndex = 52703;
+inline static constexpr unsigned int AAKFMEOMANC_TypeDefinitionIndex = 53847;
 
 	class AAKFMEOMANC
 	{

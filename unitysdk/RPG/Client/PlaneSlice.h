@@ -6,13 +6,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 
-#define RPG_CLIENT_PLANESLICE_CAJFGOIOKGF_OFFSET UNITYSDK_OFFSET(0xDB73090)
-#define RPG_CLIENT_PLANESLICE_CTOR_OFFSET UNITYSDK_OFFSET(0xDB76590)
-#define RPG_CLIENT_PLANESLICE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xDB76310)
+#define RPG_CLIENT_PLANESLICE_CAJFGOIOKGF_OFFSET UNITYSDK_OFFSET(0xE5CA130)
+#define RPG_CLIENT_PLANESLICE_CTOR_OFFSET UNITYSDK_OFFSET(0xE5CD630)
+#define RPG_CLIENT_PLANESLICE_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xE5CD3B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_TypeDefinitionIndex = 70698;
+	inline static constexpr unsigned int PlaneSlice_TypeDefinitionIndex = 72675;
 
 	class PlaneSlice : public ::UnityEngine::MonoBehaviour
 	{

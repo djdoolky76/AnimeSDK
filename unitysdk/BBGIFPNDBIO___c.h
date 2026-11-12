@@ -4,18 +4,18 @@
 class BBGIFPNDBIO;
 namespace System { class Object; }
 
-#define BBGIFPNDBIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7C3770)
-#define BBGIFPNDBIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C37B0)
-#define BBGIFPNDBIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7C37C0)
+#define BBGIFPNDBIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBBF280)
+#define BBGIFPNDBIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBBF2C0)
+#define BBGIFPNDBIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FBBF2D0)
 
-inline static constexpr unsigned int BBGIFPNDBIO___c_TypeDefinitionIndex = 27225;
+inline static constexpr unsigned int BBGIFPNDBIO___c_TypeDefinitionIndex = 27756;
 
 	class BBGIFPNDBIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x419F0);
 		}
 
 		static ::System::Void _cctor()

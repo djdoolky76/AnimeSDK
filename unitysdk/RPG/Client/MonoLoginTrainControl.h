@@ -7,18 +7,18 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CCFNGFBMHKO_OFFSET UNITYSDK_OFFSET(0xD8465F0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xD847090)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD847060)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_FEGBLLOFDHA_OFFSET UNITYSDK_OFFSET(0xD8463C0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_HNJCLJMEAJJ_OFFSET UNITYSDK_OFFSET(0xD8467D0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD846DB0)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD847010)
-#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD845EE0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CCFNGFBMHKO_OFFSET UNITYSDK_OFFSET(0xE298C40)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2996E0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE2996B0)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_FEGBLLOFDHA_OFFSET UNITYSDK_OFFSET(0xE298A10)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_HNJCLJMEAJJ_OFFSET UNITYSDK_OFFSET(0xE298E20)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE299400)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE299660)
+#define RPG_CLIENT_MONOLOGINTRAINCONTROL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE298530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 70155;
+	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 72121;
 
 	class MonoLoginTrainControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,14 +33,14 @@ namespace RPG::Client
 		::System::Byte _padding0[0x3];
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* JDDAANCPKHO; // 0x50
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* EEFPGBGALJI; // 0x58
-		static ::System::Int32* StaticGet_GEANMPPJPDK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoLoginTrainControl")->GetStaticField(0x14ED0);
-		}
-
 		static ::System::Int32* StaticGet_MCFKPLLFPBH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoLoginTrainControl")->GetStaticField(0x14ED4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoLoginTrainControl")->GetStaticField(0x14310);
+		}
+
+		static ::System::Int32* StaticGet_GEANMPPJPDK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoLoginTrainControl")->GetStaticField(0x14314);
 		}
 
 		::System::Void _ctor()

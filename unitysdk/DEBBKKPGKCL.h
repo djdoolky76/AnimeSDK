@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetUltraSkillInnerPieProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DEBBKKPGKCL_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F3ED0)
-#define DEBBKKPGKCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F3F00)
+#define DEBBKKPGKCL_CTOR_OFFSET UNITYSDK_OFFSET(0xEE3ADD0)
+#define DEBBKKPGKCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE3AE00)
 
-inline static constexpr unsigned int DEBBKKPGKCL_TypeDefinitionIndex = 55585;
+inline static constexpr unsigned int DEBBKKPGKCL_TypeDefinitionIndex = 56781;
 
 	class DEBBKKPGKCL
 	{

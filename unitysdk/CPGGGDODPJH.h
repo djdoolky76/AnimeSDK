@@ -7,17 +7,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CPGGGDODPJH_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD3FB0)
-#define CPGGGDODPJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDCD4050)
-#define CPGGGDODPJH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDCD3FC0)
+#define CPGGGDODPJH_CTOR_OFFSET UNITYSDK_OFFSET(0xE620870)
+#define CPGGGDODPJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE620910)
+#define CPGGGDODPJH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xE620880)
 
-inline static constexpr unsigned int CPGGGDODPJH_TypeDefinitionIndex = 59074;
+inline static constexpr unsigned int CPGGGDODPJH_TypeDefinitionIndex = 60349;
 
 	class CPGGGDODPJH : public ::System::Object
 	{
 	public:
-		::NDEKPFNFNDD* LEMBIAHABFA; // 0x10
-		::EILOGENDCCG* JBFFLCHOKKO; // 0x18
+		::EILOGENDCCG* JBFFLCHOKKO; // 0x10
+		::NDEKPFNFNDD* LEMBIAHABFA; // 0x18
 		::System::Void _ctor(::EILOGENDCCG* a1, ::NDEKPFNFNDD* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::EILOGENDCCG*, ::NDEKPFNFNDD*))((::PBYTE)hIl2Cpp + CPGGGDODPJH_CTOR_OFFSET))(this, a1, a2);

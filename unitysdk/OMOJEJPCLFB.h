@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class OMOJEJPCLFB;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define OMOJEJPCLFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D29E490)
-#define OMOJEJPCLFB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D29E4A0)
-#define OMOJEJPCLFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D29E460)
+#define OMOJEJPCLFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4A68F0)
+#define OMOJEJPCLFB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4A6900)
+#define OMOJEJPCLFB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4A68C0)
 
-inline static constexpr unsigned int OMOJEJPCLFB_TypeDefinitionIndex = 19892;
+inline static constexpr unsigned int OMOJEJPCLFB_TypeDefinitionIndex = 20221;
 
 	class OMOJEJPCLFB : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* PAHHNMLMNLN; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DNCFBGANPCD; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DNCFBGANPCD; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* PAHHNMLMNLN; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMOJEJPCLFB_CTOR_OFFSET))(this);

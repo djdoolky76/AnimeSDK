@@ -5,11 +5,11 @@ namespace RPG::GameCore { class ByHasStanceWeakPreview; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JLEFGHCFKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB23CD20)
-#define JLEFGHCFKHB_DCFCCIFJGNB_OFFSET UNITYSDK_OFFSET(0xB23D140)
-#define JLEFGHCFKHB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB23CD70)
+#define JLEFGHCFKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA65450)
+#define JLEFGHCFKHB_DCFCCIFJGNB_OFFSET UNITYSDK_OFFSET(0xBA65870)
+#define JLEFGHCFKHB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA654A0)
 
-inline static constexpr unsigned int JLEFGHCFKHB_TypeDefinitionIndex = 54622;
+inline static constexpr unsigned int JLEFGHCFKHB_TypeDefinitionIndex = 55788;
 
 	class JLEFGHCFKHB
 	{

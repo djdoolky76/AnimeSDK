@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetLoopRewindSnapSection; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SETLOOPREWINDSNAPSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB8950)
-#define RPG_GAMECORE_SETLOOPREWINDSNAPSECTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB8960)
-#define RPG_GAMECORE_SETLOOPREWINDSNAPSECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB8920)
+#define RPG_GAMECORE_SETLOOPREWINDSNAPSECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCAB80)
+#define RPG_GAMECORE_SETLOOPREWINDSNAPSECTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECCAB90)
+#define RPG_GAMECORE_SETLOOPREWINDSNAPSECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECCAB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetLoopRewindSnapSection_TypeDefinitionIndex = 20640;
+	inline static constexpr unsigned int SetLoopRewindSnapSection_TypeDefinitionIndex = 20977;
 
 	class SetLoopRewindSnapSection : public ::RPG::GameCore::TaskConfig
 	{

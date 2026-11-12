@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IPJDPFLHFCD_CCTOR_OFFSET UNITYSDK_OFFSET(0x16524100)
-#define IPJDPFLHFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x165240F0)
+#define IPJDPFLHFCD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB858F50)
+#define IPJDPFLHFCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB858F40)
 
-inline static constexpr unsigned int IPJDPFLHFCD_TypeDefinitionIndex = 70238;
+inline static constexpr unsigned int IPJDPFLHFCD_TypeDefinitionIndex = 72204;
 
 	class IPJDPFLHFCD : public ::System::Attribute
 	{
 	public:
 		static ::System::Boolean* StaticGet_DJELFBLJGPM()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IPJDPFLHFCD")->GetStaticField(0xADA0);
+			return (::System::Boolean*)UnitySDK::FromName("", "IPJDPFLHFCD")->GetStaticField(0xD7B0);
 		}
 
 		::System::Void _ctor()

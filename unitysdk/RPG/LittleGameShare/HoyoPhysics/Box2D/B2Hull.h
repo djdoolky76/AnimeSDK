@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Hull_TypeDefinitionIndex = 36685;
+	inline static constexpr unsigned int B2Hull_TypeDefinitionIndex = 37613;
 
 	struct alignas(8) B2Hull
 	{

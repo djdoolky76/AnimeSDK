@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define LEJBLBEAPAH_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0xB6578B0)
+#define LEJBLBEAPAH_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0xBEEE2C0)
 
-inline static constexpr unsigned int LEJBLBEAPAH_TypeDefinitionIndex = 77365;
+inline static constexpr unsigned int LEJBLBEAPAH_TypeDefinitionIndex = 79699;
 
 	class LEJBLBEAPAH : public ::System::Object
 	{

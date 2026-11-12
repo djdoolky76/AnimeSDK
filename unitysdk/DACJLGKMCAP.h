@@ -3,10 +3,10 @@
 class JKMBAJLFMIP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DACJLGKMCAP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBC940)
-#define DACJLGKMCAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFBC970)
+#define DACJLGKMCAP_CTOR_OFFSET UNITYSDK_OFFSET(0xE91F850)
+#define DACJLGKMCAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE91F880)
 
-inline static constexpr unsigned int DACJLGKMCAP_TypeDefinitionIndex = 52460;
+inline static constexpr unsigned int DACJLGKMCAP_TypeDefinitionIndex = 53566;
 
 	class DACJLGKMCAP
 	{

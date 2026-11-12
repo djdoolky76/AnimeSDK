@@ -8,11 +8,11 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class WWWForm; }
 
-#define MCMJPGLJEAD_HAHPHBCDJDL_OFFSET UNITYSDK_OFFSET(0xB8884C0)
-#define MCMJPGLJEAD_HPNALECGMKC_OFFSET UNITYSDK_OFFSET(0xB888730)
-#define MCMJPGLJEAD_JMBFEFDBFNK_OFFSET UNITYSDK_OFFSET(0xB8885D0)
+#define MCMJPGLJEAD_HAHPHBCDJDL_OFFSET UNITYSDK_OFFSET(0xC134910)
+#define MCMJPGLJEAD_HPNALECGMKC_OFFSET UNITYSDK_OFFSET(0xC134B80)
+#define MCMJPGLJEAD_JMBFEFDBFNK_OFFSET UNITYSDK_OFFSET(0xC134A20)
 
-inline static constexpr unsigned int MCMJPGLJEAD_TypeDefinitionIndex = 49667;
+inline static constexpr unsigned int MCMJPGLJEAD_TypeDefinitionIndex = 50743;
 
 	class MCMJPGLJEAD : public ::System::Object
 	{

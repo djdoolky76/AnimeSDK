@@ -7,41 +7,41 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace ZXing::Aztec::Internal { class State; }
 namespace ZXing::Common { class BitArray; }
 
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F69EE50)
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F69D2B0)
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F69D2C0)
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_SIMPLIFYSTATES_OFFSET UNITYSDK_OFFSET(0x1F6A1860)
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATEFORCHAR_OFFSET UNITYSDK_OFFSET(0x1F6A0C10)
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATEFORPAIR_OFFSET UNITYSDK_OFFSET(0x1F6A2AA0)
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATELISTFORCHAR_OFFSET UNITYSDK_OFFSET(0x1F6A0510)
-#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATELISTFORPAIR_OFFSET UNITYSDK_OFFSET(0x1F6A0030)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_CCTOR_OFFSET UNITYSDK_OFFSET(0x2094E5C0)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_CTOR_OFFSET UNITYSDK_OFFSET(0x2094CA20)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_ENCODE_OFFSET UNITYSDK_OFFSET(0x2094CA30)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_SIMPLIFYSTATES_OFFSET UNITYSDK_OFFSET(0x20950FD0)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATEFORCHAR_OFFSET UNITYSDK_OFFSET(0x20950380)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATEFORPAIR_OFFSET UNITYSDK_OFFSET(0x20952210)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATELISTFORCHAR_OFFSET UNITYSDK_OFFSET(0x2094FC80)
+#define ZXING_AZTEC_INTERNAL_HIGHLEVELENCODER_UPDATESTATELISTFORPAIR_OFFSET UNITYSDK_OFFSET(0x2094F7A0)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int HighLevelEncoder_TypeDefinitionIndex = 7057;
+	inline static constexpr unsigned int HighLevelEncoder_TypeDefinitionIndex = 7068;
 
 	class HighLevelEncoder : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Byte>* text; // 0x10
+		static ::Il2CppArray<::System::String*>** StaticGet_MODE_NAMES()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x40DC0);
+		}
+
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_CHAR_MAP()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x21150);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x40DC8);
 		}
 
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_LATCH_TABLE()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x21158);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x40DD0);
 		}
 
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_SHIFT_TABLE()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x21160);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_MODE_NAMES()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x21168);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.Aztec.Internal", "HighLevelEncoder")->GetStaticField(0x40DD8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearTargetTimeSlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PIBFJAMGGFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC25AF90)
-#define PIBFJAMGGFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25AFC0)
+#define PIBFJAMGGFG_CTOR_OFFSET UNITYSDK_OFFSET(0xCB816E0)
+#define PIBFJAMGGFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB81710)
 
-inline static constexpr unsigned int PIBFJAMGGFG_TypeDefinitionIndex = 54967;
+inline static constexpr unsigned int PIBFJAMGGFG_TypeDefinitionIndex = 56141;
 
 	class PIBFJAMGGFG
 	{

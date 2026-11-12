@@ -16,7 +16,7 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::LittleGame::Ability
 {
-	inline static constexpr unsigned int LittleGameAbilityContext_1_TypeDefinitionIndex = 77363;
+	inline static constexpr unsigned int LittleGameAbilityContext_1_TypeDefinitionIndex = 79697;
 
 	template <typename T>
 	class LittleGameAbilityContext_1 : public ::System::Object

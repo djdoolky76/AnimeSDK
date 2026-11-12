@@ -6,17 +6,17 @@ class ACINPKMDFEM;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define ACINPKMDFEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA6790)
-#define ACINPKMDFEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCA6540)
+#define ACINPKMDFEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE4F380)
+#define ACINPKMDFEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE4F130)
 
-inline static constexpr unsigned int ACINPKMDFEM_TypeDefinitionIndex = 12476;
+inline static constexpr unsigned int ACINPKMDFEM_TypeDefinitionIndex = 12543;
 
 	class ACINPKMDFEM : public ::System::Object
 	{
 	public:
 		::System::String* HCCKLLGBPIA; // 0x10
-		::RPG::Client::TextID OENAMINOLLF; // 0x18
-		::RPG::Client::TextID NMAHGFAPENI; // 0x28
+		::RPG::Client::TextID NMAHGFAPENI; // 0x18
+		::RPG::Client::TextID OENAMINOLLF; // 0x28
 		::System::UInt32 PHFMCACHFIJ; // 0x38
 		::System::Void _ctor()
 		{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define JDABCHLLMPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB8F220)
-#define JDABCHLLMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8F270)
+#define JDABCHLLMPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD55810)
+#define JDABCHLLMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD55860)
 
-inline static constexpr unsigned int JDABCHLLMPL_TypeDefinitionIndex = 42963;
+inline static constexpr unsigned int JDABCHLLMPL_TypeDefinitionIndex = 43944;
 
 	class JDABCHLLMPL : public ::System::Object
 	{

@@ -6,10 +6,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelNpcDitherInNode; }
 
-#define PPNBJAPBFHI_CTOR_OFFSET UNITYSDK_OFFSET(0xC395200)
-#define PPNBJAPBFHI_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xC395120)
+#define PPNBJAPBFHI_CTOR_OFFSET UNITYSDK_OFFSET(0xCCCB1B0)
+#define PPNBJAPBFHI_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xCCCB0D0)
 
-inline static constexpr unsigned int PPNBJAPBFHI_TypeDefinitionIndex = 77688;
+inline static constexpr unsigned int PPNBJAPBFHI_TypeDefinitionIndex = 80423;
 
 	class PPNBJAPBFHI : public ::HBLDGJCDJPF
 	{

@@ -6,18 +6,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightTraitBonusConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D746F50)
-#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D746D30)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E95A080)
+#define RPG_GAMECORE_GRIDFIGHTTRAITBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E959E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitBonusConfigRow_TypeDefinitionIndex = 13680;
+	inline static constexpr unsigned int GridFightTraitBonusConfigRow_TypeDefinitionIndex = 13807;
 
 	class GridFightTraitBonusConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* BonusParamList; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* TraitBonusParamList; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* TraitBonusParamList; // 0x10
+		::Il2CppArray<::System::UInt32>* BonusParamList; // 0x18
 		::System::UInt32 ID; // 0x20
 		::RPG::GameCore::GridFightTraitBonusType BonusType; // 0x24
 		::System::UInt32 BonusThreshold; // 0x28

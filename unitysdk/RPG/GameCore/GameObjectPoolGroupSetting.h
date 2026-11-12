@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GameObjectPoolGroupSetting; }
 
-#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D717DA0)
-#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7179D0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9220C0)
+#define RPG_GAMECORE_GAMEOBJECTPOOLGROUPSETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E921CF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameObjectPoolGroupSetting_TypeDefinitionIndex = 16462;
+	inline static constexpr unsigned int GameObjectPoolGroupSetting_TypeDefinitionIndex = 16626;
 
 	class GameObjectPoolGroupSetting : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetActionBarRightDownMiniIcon; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPBEFFILOHE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF9080)
-#define DPBEFFILOHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF90B0)
+#define DPBEFFILOHE_CTOR_OFFSET UNITYSDK_OFFSET(0x12DF4420)
+#define DPBEFFILOHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DF4450)
 
-inline static constexpr unsigned int DPBEFFILOHE_TypeDefinitionIndex = 55334;
+inline static constexpr unsigned int DPBEFFILOHE_TypeDefinitionIndex = 56516;
 
 	class DPBEFFILOHE
 	{

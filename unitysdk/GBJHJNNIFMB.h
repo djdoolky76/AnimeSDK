@@ -7,9 +7,9 @@ namespace RPG::GameCore { class UIImageNode; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GBJHJNNIFMB_CTOR_OFFSET UNITYSDK_OFFSET(0x159513C0)
+#define GBJHJNNIFMB_CTOR_OFFSET UNITYSDK_OFFSET(0x16886C70)
 
-inline static constexpr unsigned int GBJHJNNIFMB_TypeDefinitionIndex = 47620;
+inline static constexpr unsigned int GBJHJNNIFMB_TypeDefinitionIndex = 48650;
 
 	class GBJHJNNIFMB : public ::System::Object
 	{

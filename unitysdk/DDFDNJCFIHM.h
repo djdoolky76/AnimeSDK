@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
 
-#define DDFDNJCFIHM_JFENOKLCCME_OFFSET UNITYSDK_OFFSET(0xF2CA0)
+#define DDFDNJCFIHM_JFENOKLCCME_OFFSET UNITYSDK_OFFSET(0xFF450)
 
-inline static constexpr unsigned int DDFDNJCFIHM_TypeDefinitionIndex = 56949;
+inline static constexpr unsigned int DDFDNJCFIHM_TypeDefinitionIndex = 58175;
 
 	struct alignas(4) DDFDNJCFIHM
 	{

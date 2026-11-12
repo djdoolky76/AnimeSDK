@@ -8,21 +8,21 @@ namespace RPG::GameCore { class AdventureOnSetTargetAttackResult; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0xE57B180)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xE57B270)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE57B220)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE57B1D0)
-#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_INIT_OFFSET UNITYSDK_OFFSET(0xE57B120)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CLEAR_OFFSET UNITYSDK_OFFSET(0xEFF9340)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xEFF9430)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xEFF93E0)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xEFF9390)
+#define RPG_GAMECORE_ADVENTUREONSETTARGETATTACKRESULT_INIT_OFFSET UNITYSDK_OFFSET(0xEFF92E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureOnSetTargetAttackResult_TypeDefinitionIndex = 56652;
+	inline static constexpr unsigned int AdventureOnSetTargetAttackResult_TypeDefinitionIndex = 57876;
 
 	class AdventureOnSetTargetAttackResult : public ::CMPGEAFHHDC
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x18
-		::RPG::GameCore::AdventureDyingParam* DyingStyleParam; // 0x20
+		::RPG::GameCore::AdventureDyingParam* DyingStyleParam; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* Targets; // 0x20
 		::RPG::GameCore::AdventureAttackResult AttackResult; // 0x28
 		::System::Void _ctor()
 		{

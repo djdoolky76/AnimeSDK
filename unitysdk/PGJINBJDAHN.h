@@ -7,12 +7,12 @@
 class PGJINBJDAHN;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PGJINBJDAHN_CCTOR_OFFSET UNITYSDK_OFFSET(0xC223720)
-#define PGJINBJDAHN_CTOR_OFFSET UNITYSDK_OFFSET(0xC223670)
-#define PGJINBJDAHN_MJEGIKKOGAF_OFFSET UNITYSDK_OFFSET(0xC223470)
-#define PGJINBJDAHN_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xC223570)
+#define PGJINBJDAHN_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB062B0)
+#define PGJINBJDAHN_CTOR_OFFSET UNITYSDK_OFFSET(0xCB06200)
+#define PGJINBJDAHN_MJEGIKKOGAF_OFFSET UNITYSDK_OFFSET(0xCB06000)
+#define PGJINBJDAHN_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xCB06100)
 
-inline static constexpr unsigned int PGJINBJDAHN_TypeDefinitionIndex = 54436;
+inline static constexpr unsigned int PGJINBJDAHN_TypeDefinitionIndex = 55600;
 
 	class PGJINBJDAHN : public ::System::Object
 	{
@@ -24,7 +24,7 @@ inline static constexpr unsigned int PGJINBJDAHN_TypeDefinitionIndex = 54436;
 		::System::Boolean ICMOLOJEKDF; // 0x29
 		static ::PGJINBJDAHN** StaticGet_JNKBIGPJDNK()
 		{
-			return (::PGJINBJDAHN**)UnitySDK::FromName("", "PGJINBJDAHN")->GetStaticField(0x58F80);
+			return (::PGJINBJDAHN**)UnitySDK::FromName("", "PGJINBJDAHN")->GetStaticField(0x62180);
 		}
 
 		::System::Void _ctor()

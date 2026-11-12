@@ -4,10 +4,10 @@
 class IHAJEPBCCFP;
 namespace RPG::GameCore { class FiveDimSplineMoveConfig; }
 
-#define PEJPAFPFEDA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9E7700)
-#define PEJPAFPFEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E77B0)
+#define PEJPAFPFEDA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DBAA4F0)
+#define PEJPAFPFEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBAA5A0)
 
-inline static constexpr unsigned int PEJPAFPFEDA_TypeDefinitionIndex = 43557;
+inline static constexpr unsigned int PEJPAFPFEDA_TypeDefinitionIndex = 44539;
 
 	class PEJPAFPFEDA : public ::System::Object
 	{

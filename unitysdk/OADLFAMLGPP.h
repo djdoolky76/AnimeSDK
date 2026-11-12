@@ -8,42 +8,45 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 
-#define OADLFAMLGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1CA30)
-#define OADLFAMLGPP_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBD1C970)
-#define OADLFAMLGPP_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBD1C990)
-#define OADLFAMLGPP_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xBD1C900)
-#define OADLFAMLGPP_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xBD1C910)
-#define OADLFAMLGPP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xBD1C950)
-#define OADLFAMLGPP_GET_PARAM_OFFSET UNITYSDK_OFFSET(0xBD1CA10)
-#define OADLFAMLGPP_GET_RANKABILITY_OFFSET UNITYSDK_OFFSET(0xBD1C9D0)
-#define OADLFAMLGPP_GET_SKILLADDLEVELLIST_OFFSET UNITYSDK_OFFSET(0xBD1C9B0)
-#define OADLFAMLGPP_GET_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBD1C930)
-#define OADLFAMLGPP_GET_UNLOCKCOST_OFFSET UNITYSDK_OFFSET(0xBD1C9F0)
-#define OADLFAMLGPP_SET_DESC_OFFSET UNITYSDK_OFFSET(0xBD1C980)
-#define OADLFAMLGPP_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xBD1C9A0)
-#define OADLFAMLGPP_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xBD1C920)
-#define OADLFAMLGPP_SET_NAME_OFFSET UNITYSDK_OFFSET(0xBD1C960)
-#define OADLFAMLGPP_SET_PARAM_OFFSET UNITYSDK_OFFSET(0xBD1CA20)
-#define OADLFAMLGPP_SET_RANKABILITY_OFFSET UNITYSDK_OFFSET(0xBD1C9E0)
-#define OADLFAMLGPP_SET_SKILLADDLEVELLIST_OFFSET UNITYSDK_OFFSET(0xBD1C9C0)
-#define OADLFAMLGPP_SET_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBD1C940)
-#define OADLFAMLGPP_SET_UNLOCKCOST_OFFSET UNITYSDK_OFFSET(0xBD1CA00)
+#define OADLFAMLGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xC61B280)
+#define OADLFAMLGPP_GET_BIGIMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC61B1E0)
+#define OADLFAMLGPP_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC61B1A0)
+#define OADLFAMLGPP_GET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC61B1C0)
+#define OADLFAMLGPP_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xC61B130)
+#define OADLFAMLGPP_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC61B140)
+#define OADLFAMLGPP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC61B180)
+#define OADLFAMLGPP_GET_PARAM_OFFSET UNITYSDK_OFFSET(0xC61B260)
+#define OADLFAMLGPP_GET_RANKABILITY_OFFSET UNITYSDK_OFFSET(0xC61B220)
+#define OADLFAMLGPP_GET_SKILLADDLEVELLIST_OFFSET UNITYSDK_OFFSET(0xC61B200)
+#define OADLFAMLGPP_GET_TRIGGER_OFFSET UNITYSDK_OFFSET(0xC61B160)
+#define OADLFAMLGPP_GET_UNLOCKCOST_OFFSET UNITYSDK_OFFSET(0xC61B240)
+#define OADLFAMLGPP_SET_BIGIMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC61B1F0)
+#define OADLFAMLGPP_SET_DESC_OFFSET UNITYSDK_OFFSET(0xC61B1B0)
+#define OADLFAMLGPP_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0xC61B1D0)
+#define OADLFAMLGPP_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC61B150)
+#define OADLFAMLGPP_SET_NAME_OFFSET UNITYSDK_OFFSET(0xC61B190)
+#define OADLFAMLGPP_SET_PARAM_OFFSET UNITYSDK_OFFSET(0xC61B270)
+#define OADLFAMLGPP_SET_RANKABILITY_OFFSET UNITYSDK_OFFSET(0xC61B230)
+#define OADLFAMLGPP_SET_SKILLADDLEVELLIST_OFFSET UNITYSDK_OFFSET(0xC61B210)
+#define OADLFAMLGPP_SET_TRIGGER_OFFSET UNITYSDK_OFFSET(0xC61B170)
+#define OADLFAMLGPP_SET_UNLOCKCOST_OFFSET UNITYSDK_OFFSET(0xC61B250)
 
-inline static constexpr unsigned int OADLFAMLGPP_TypeDefinitionIndex = 51960;
+inline static constexpr unsigned int OADLFAMLGPP_TypeDefinitionIndex = 53061;
 
 	class OADLFAMLGPP : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* _UnlockCost_k__BackingField; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* _Param_k__BackingField; // 0x18
-		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>* _SkillAddLevelList_k__BackingField; // 0x20
-		::System::String* _Desc_k__BackingField; // 0x28
-		::System::String* _Name_k__BackingField; // 0x30
+		::System::String* _Desc_k__BackingField; // 0x10
+		::System::String* _BigImagePath_k__BackingField; // 0x18
+		::System::String* _Name_k__BackingField; // 0x20
+		::Il2CppArray<::System::String*>* _RankAbility_k__BackingField; // 0x28
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* _UnlockCost_k__BackingField; // 0x30
 		::System::String* _IconPath_k__BackingField; // 0x38
-		::Il2CppArray<::System::String*>* _RankAbility_k__BackingField; // 0x40
-		::System::UInt32 _Level_k__BackingField; // 0x48
-		::RPG::GameCore::StringHash _Trigger_k__BackingField; // 0x4C
-		::DCMKIHKMBCF _Identifier_k__BackingField; // 0x50
+		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>* _SkillAddLevelList_k__BackingField; // 0x40
+		::Il2CppArray<::RPG::GameCore::FixPoint>* _Param_k__BackingField; // 0x48
+		::RPG::GameCore::StringHash _Trigger_k__BackingField; // 0x50
+		::System::UInt32 _Level_k__BackingField; // 0x54
+		::DCMKIHKMBCF _Identifier_k__BackingField; // 0x58
 		::System::Void _ctor(::DCMKIHKMBCF a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::DCMKIHKMBCF))((::PBYTE)hIl2Cpp + OADLFAMLGPP_CTOR_OFFSET))(this, a1);
@@ -102,6 +105,16 @@ inline static constexpr unsigned int OADLFAMLGPP_TypeDefinitionIndex = 51960;
 		::System::Void set_IconPath(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_ICONPATH_OFFSET))(this, a1);
+		}
+
+		::System::String* get_BigImagePath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + OADLFAMLGPP_GET_BIGIMAGEPATH_OFFSET))(this);
+		}
+
+		::System::Void set_BigImagePath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + OADLFAMLGPP_SET_BIGIMAGEPATH_OFFSET))(this, a1);
 		}
 
 		::System::Collections::Generic::IReadOnlyDictionary_2<::System::UInt32, ::System::UInt32>* get_SkillAddLevelList()

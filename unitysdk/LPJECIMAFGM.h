@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvTriggerEffectList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPJECIMAFGM_CTOR_OFFSET UNITYSDK_OFFSET(0xB821D60)
-#define LPJECIMAFGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB821D90)
+#define LPJECIMAFGM_CTOR_OFFSET UNITYSDK_OFFSET(0xC083290)
+#define LPJECIMAFGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0832C0)
 
-inline static constexpr unsigned int LPJECIMAFGM_TypeDefinitionIndex = 52518;
+inline static constexpr unsigned int LPJECIMAFGM_TypeDefinitionIndex = 53624;
 
 	class LPJECIMAFGM
 	{

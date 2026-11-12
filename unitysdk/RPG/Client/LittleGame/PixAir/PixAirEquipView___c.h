@@ -6,25 +6,25 @@ namespace RPG::Client { class MonoEffect; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD47EA40)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD47EA80)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C___FIREEFFECT_B__10_0_OFFSET UNITYSDK_OFFSET(0xD47EA90)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEEC9B0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEEC9F0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIREQUIPVIEW___C___FIREEFFECT_B__10_0_OFFSET UNITYSDK_OFFSET(0xDEECA00)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipView___c_TypeDefinitionIndex = 77320;
+	inline static constexpr unsigned int PixAirEquipView___c_TypeDefinitionIndex = 79654;
 
 	class PixAirEquipView___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__10_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x36510);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x425E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x36518);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.PixAir", "<>c")->GetStaticField(0x425E8);
 		}
 
 		static ::System::Void _cctor()

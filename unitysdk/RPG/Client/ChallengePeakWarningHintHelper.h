@@ -5,25 +5,25 @@
 namespace RPG::Client { class ChallengePeakGroup; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHALLENGEPEAKWARNINGHINTHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9BB8F0)
-#define RPG_CLIENT_CHALLENGEPEAKWARNINGHINTHELPER_TRYGETWARNINGHINT_OFFSET UNITYSDK_OFFSET(0xC9BB5A0)
-#define RPG_CLIENT_CHALLENGEPEAKWARNINGHINTHELPER__TRYGET5WEEKDURATION_OFFSET UNITYSDK_OFFSET(0xC9BB670)
+#define RPG_CLIENT_CHALLENGEPEAKWARNINGHINTHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xD320E30)
+#define RPG_CLIENT_CHALLENGEPEAKWARNINGHINTHELPER_TRYGETWARNINGHINT_OFFSET UNITYSDK_OFFSET(0xD320AE0)
+#define RPG_CLIENT_CHALLENGEPEAKWARNINGHINTHELPER__TRYGET5WEEKDURATION_OFFSET UNITYSDK_OFFSET(0xD320BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakWarningHintHelper_TypeDefinitionIndex = 63200;
+	inline static constexpr unsigned int ChallengePeakWarningHintHelper_TypeDefinitionIndex = 64638;
 
 	class ChallengePeakWarningHintHelper : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TextID* StaticGet__PeakNameTextID()
-		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengePeakWarningHintHelper")->GetStaticField(0x15260);
-		}
-
 		static ::RPG::Client::TextID* StaticGet__Warning5WeekTextID()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengePeakWarningHintHelper")->GetStaticField(0x15270);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengePeakWarningHintHelper")->GetStaticField(0x14A40);
+		}
+
+		static ::RPG::Client::TextID* StaticGet__PeakNameTextID()
+		{
+			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengePeakWarningHintHelper")->GetStaticField(0x14A50);
 		}
 
 		// static const ::System::String* _Special5WeekConstKey; // 0x0

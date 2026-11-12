@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PFACHJFCILN_PreloadType_TypeDefinitionIndex = 59694;
+inline static constexpr unsigned int PFACHJFCILN_PreloadType_TypeDefinitionIndex = 60971;
 
 	enum class PFACHJFCILN_PreloadType : ::System::Int32
 	{

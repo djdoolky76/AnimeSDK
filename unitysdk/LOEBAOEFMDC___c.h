@@ -4,18 +4,18 @@
 class LOEBAOEFMDC;
 namespace System { class Object; }
 
-#define LOEBAOEFMDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9BBB30)
-#define LOEBAOEFMDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9BBB70)
-#define LOEBAOEFMDC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9BBB80)
+#define LOEBAOEFMDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCE0AB0)
+#define LOEBAOEFMDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCE0AF0)
+#define LOEBAOEFMDC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FCE0B00)
 
-inline static constexpr unsigned int LOEBAOEFMDC___c_TypeDefinitionIndex = 31154;
+inline static constexpr unsigned int LOEBAOEFMDC___c_TypeDefinitionIndex = 32067;
 
 	class LOEBAOEFMDC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x515A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44E60);
 		}
 
 		static ::System::Void _cctor()

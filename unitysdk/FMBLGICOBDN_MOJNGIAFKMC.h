@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ScenenLightManager/LightTypeID.h"
 
-#define FMBLGICOBDN_MOJNGIAFKMC_CTOR_OFFSET UNITYSDK_OFFSET(0x2E77AA0)
+#define FMBLGICOBDN_MOJNGIAFKMC_CTOR_OFFSET UNITYSDK_OFFSET(0x304DA90)
 
-inline static constexpr unsigned int FMBLGICOBDN_MOJNGIAFKMC_TypeDefinitionIndex = 49141;
+inline static constexpr unsigned int FMBLGICOBDN_MOJNGIAFKMC_TypeDefinitionIndex = 50217;
 
 	struct alignas(4) FMBLGICOBDN_MOJNGIAFKMC
 	{

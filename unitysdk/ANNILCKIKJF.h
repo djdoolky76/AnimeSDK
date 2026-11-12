@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMonsterID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ANNILCKIKJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1589C120)
-#define ANNILCKIKJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1589C150)
+#define ANNILCKIKJF_CTOR_OFFSET UNITYSDK_OFFSET(0x167134C0)
+#define ANNILCKIKJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x167134F0)
 
-inline static constexpr unsigned int ANNILCKIKJF_TypeDefinitionIndex = 54545;
+inline static constexpr unsigned int ANNILCKIKJF_TypeDefinitionIndex = 55710;
 
 	class ANNILCKIKJF
 	{

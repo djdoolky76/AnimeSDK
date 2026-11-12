@@ -7,22 +7,22 @@ namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::GameCore { class RubikEventListener; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IEFCKIKFHDM_CTOR_OFFSET UNITYSDK_OFFSET(0x15EF5440)
-#define IEFCKIKFHDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15EF54D0)
-#define IEFCKIKFHDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EF5940)
-#define IEFCKIKFHDM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15EF5640)
-#define IEFCKIKFHDM_PENKGGKBKFK_OFFSET UNITYSDK_OFFSET(0x15EF5990)
-#define IEFCKIKFHDM_TICK_OFFSET UNITYSDK_OFFSET(0x15EF5690)
+#define IEFCKIKFHDM_CTOR_OFFSET UNITYSDK_OFFSET(0x16E60A50)
+#define IEFCKIKFHDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E60AE0)
+#define IEFCKIKFHDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E60EF0)
+#define IEFCKIKFHDM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16E60C50)
+#define IEFCKIKFHDM_PENKGGKBKFK_OFFSET UNITYSDK_OFFSET(0x16E60F40)
+#define IEFCKIKFHDM_TICK_OFFSET UNITYSDK_OFFSET(0x16E60CA0)
 
-inline static constexpr unsigned int IEFCKIKFHDM_TypeDefinitionIndex = 58503;
+inline static constexpr unsigned int IEFCKIKFHDM_TypeDefinitionIndex = 59767;
 
 	class IEFCKIKFHDM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::Prop::RubikCubePuzzleBoard* MIPPNCGOJNM; // 0x18
+		::RPG::GameCore::RubikEventListener* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::RubikEventListener* OFKGLJOAMLD; // 0x28
-		::KFELGAIGHAP* JCGFOCCPHEH; // 0x30
+		::KFELGAIGHAP* JCGFOCCPHEH; // 0x28
+		::RPG::Client::Prop::RubikCubePuzzleBoard* MIPPNCGOJNM; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RubikEventListener* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RubikEventListener*))((::PBYTE)hIl2Cpp + IEFCKIKFHDM_CTOR_OFFSET))(this, a1, a2);

@@ -5,9 +5,9 @@ class BAIMNJOBDOD;
 class FDPALAEIHPB;
 class GIFNELLKBFE;
 
-#define NODGJIJBINP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE8110)
+#define NODGJIJBINP_CTOR_OFFSET UNITYSDK_OFFSET(0xC5D40E0)
 
-inline static constexpr unsigned int NODGJIJBINP_TypeDefinitionIndex = 75792;
+inline static constexpr unsigned int NODGJIJBINP_TypeDefinitionIndex = 78119;
 
 	class NODGJIJBINP : public ::DJJKNHPLHDI
 	{

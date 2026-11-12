@@ -4,18 +4,18 @@
 class LCGFKNIAMBE;
 namespace System { class Object; }
 
-#define LCGFKNIAMBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8ED520)
-#define LCGFKNIAMBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8ED560)
-#define LCGFKNIAMBE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E8ED570)
+#define LCGFKNIAMBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC2B040)
+#define LCGFKNIAMBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC2B080)
+#define LCGFKNIAMBE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FC2B090)
 
-inline static constexpr unsigned int LCGFKNIAMBE___c_TypeDefinitionIndex = 28659;
+inline static constexpr unsigned int LCGFKNIAMBE___c_TypeDefinitionIndex = 29249;
 
 	class LCGFKNIAMBE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32D40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28E70);
 		}
 
 		static ::System::Void _cctor()

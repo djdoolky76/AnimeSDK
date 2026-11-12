@@ -6,21 +6,21 @@ namespace RPG::Client::Prop { class OraclePuzzleItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IBMHOBKCOKD_AOOEDNJJDKK_OFFSET UNITYSDK_OFFSET(0x15E40F10)
-#define IBMHOBKCOKD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E412E0)
-#define IBMHOBKCOKD_EEBEGAPDBCG_OFFSET UNITYSDK_OFFSET(0x15E40ED0)
-#define IBMHOBKCOKD_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0x15E40B80)
-#define IBMHOBKCOKD_NIIACBMLDAE_OFFSET UNITYSDK_OFFSET(0x15E40F50)
-#define IBMHOBKCOKD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15E40DD0)
+#define IBMHOBKCOKD_AOOEDNJJDKK_OFFSET UNITYSDK_OFFSET(0x16DEBA40)
+#define IBMHOBKCOKD_CTOR_OFFSET UNITYSDK_OFFSET(0x16DEBE10)
+#define IBMHOBKCOKD_EEBEGAPDBCG_OFFSET UNITYSDK_OFFSET(0x16DEBA00)
+#define IBMHOBKCOKD_MJEODHKPKEB_OFFSET UNITYSDK_OFFSET(0x16DEB6B0)
+#define IBMHOBKCOKD_NIIACBMLDAE_OFFSET UNITYSDK_OFFSET(0x16DEBA80)
+#define IBMHOBKCOKD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x16DEB900)
 
-inline static constexpr unsigned int IBMHOBKCOKD_TypeDefinitionIndex = 78736;
+inline static constexpr unsigned int IBMHOBKCOKD_TypeDefinitionIndex = 81471;
 
 	class IBMHOBKCOKD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>* OOBNOFFKCHG; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>* BONALEENMON; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::OraclePuzzleItem*>* OJENGJKCKGE; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::OraclePuzzleItem*>* OJENGJKCKGE; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>* OOBNOFFKCHG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>*>* BONALEENMON; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IBMHOBKCOKD_CTOR_OFFSET))(this);

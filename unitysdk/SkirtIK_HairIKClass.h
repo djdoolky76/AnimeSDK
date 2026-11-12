@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define SKIRTIK_HAIRIKCLASS_AIJFJPGLOAJ_OFFSET UNITYSDK_OFFSET(0xE972D40)
-#define SKIRTIK_HAIRIKCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE972D80)
-#define SKIRTIK_HAIRIKCLASS_GPOHHLEEMKC_OFFSET UNITYSDK_OFFSET(0xE972D00)
+#define SKIRTIK_HAIRIKCLASS_AIJFJPGLOAJ_OFFSET UNITYSDK_OFFSET(0xF490A30)
+#define SKIRTIK_HAIRIKCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xF490A70)
+#define SKIRTIK_HAIRIKCLASS_GPOHHLEEMKC_OFFSET UNITYSDK_OFFSET(0xF4909F0)
 
-inline static constexpr unsigned int SkirtIK_HairIKClass_TypeDefinitionIndex = 47257;
+inline static constexpr unsigned int SkirtIK_HairIKClass_TypeDefinitionIndex = 48285;
 
 	class SkirtIK_HairIKClass : public ::System::Object
 	{

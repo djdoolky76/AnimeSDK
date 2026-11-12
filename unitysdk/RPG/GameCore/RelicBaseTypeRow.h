@@ -8,21 +8,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicBaseTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICBASETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9790C0)
-#define RPG_GAMECORE_RELICBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9789D0)
+#define RPG_GAMECORE_RELICBASETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB914B0)
+#define RPG_GAMECORE_RELICBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB90DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicBaseTypeRow_TypeDefinitionIndex = 14644;
+	inline static constexpr unsigned int RelicBaseTypeRow_TypeDefinitionIndex = 14800;
 
 	class RelicBaseTypeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ValidPropertyList; // 0x10
-		::System::String* BaseTypeIconPath; // 0x18
-		::RPG::GameCore::RelicType Type; // 0x20
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID BaseTypeText; // 0x28
+		::System::String* BaseTypeIconPath; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* ValidPropertyList; // 0x18
+		::RPG::Client::TextID BaseTypeText; // 0x20
+		::RPG::GameCore::RelicType Type; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICBASETYPEROW_CTOR_OFFSET))(this);

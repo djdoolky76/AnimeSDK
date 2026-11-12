@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvMarkAsTauntProxy; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKJGCCLNGEP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C1770)
-#define PKJGCCLNGEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2C17A0)
+#define PKJGCCLNGEP_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEC9A0)
+#define PKJGCCLNGEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBEC9D0)
 
-inline static constexpr unsigned int PKJGCCLNGEP_TypeDefinitionIndex = 52397;
+inline static constexpr unsigned int PKJGCCLNGEP_TypeDefinitionIndex = 53503;
 
 	class PKJGCCLNGEP
 	{

@@ -7,21 +7,21 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelCharacterModifyShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E3550)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E3500)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E34B0)
-#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET UNITYSDK_OFFSET(0xE6E3430)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0xF1E5640)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF1E55F0)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF1E55A0)
+#define RPG_GAMECORE_LEVELCHARACTERMODIFYSHIELD_INIT_OFFSET UNITYSDK_OFFSET(0xF1E5520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCharacterModifyShield_TypeDefinitionIndex = 56790;
+	inline static constexpr unsigned int LevelCharacterModifyShield_TypeDefinitionIndex = 58014;
 
 	class LevelCharacterModifyShield : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x18
+		::RPG::GameCore::GameEntity* Caster; // 0x18
 		::RPG::GameCore::TaskContext* Context; // 0x20
-		::RPG::GameCore::GameEntity* Caster; // 0x28
+		::RPG::GameCore::GameEntity* Target; // 0x28
 		::RPG::GameCore::FixPoint Shield; // 0x30
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropSoundConfigOverrideConfig; }
 namespace RPG::GameCore { class PropSoundOverrideConfig; }
 
-#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D957EB0)
-#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D957DF0)
+#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB70450)
+#define RPG_GAMECORE_PROPSOUNDOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB70390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSoundOverrideConfig_TypeDefinitionIndex = 17560;
+	inline static constexpr unsigned int PropSoundOverrideConfig_TypeDefinitionIndex = 17728;
 
 	class PropSoundOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

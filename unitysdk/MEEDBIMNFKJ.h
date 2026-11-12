@@ -3,10 +3,10 @@
 class MDGGNPMMCCN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MEEDBIMNFKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BD650)
-#define MEEDBIMNFKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8BD680)
+#define MEEDBIMNFKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC16F040)
+#define MEEDBIMNFKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC16F070)
 
-inline static constexpr unsigned int MEEDBIMNFKJ_TypeDefinitionIndex = 52846;
+inline static constexpr unsigned int MEEDBIMNFKJ_TypeDefinitionIndex = 53999;
 
 	class MEEDBIMNFKJ
 	{

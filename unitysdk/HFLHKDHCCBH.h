@@ -5,21 +5,21 @@ namespace RPG::GameCore { class MoveTeamRootPosByTargetDistance; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFLHKDHCCBH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C89830)
-#define HFLHKDHCCBH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C89870)
-#define HFLHKDHCCBH_OMGMBFIAPPE_OFFSET UNITYSDK_OFFSET(0x15C8A100)
-#define HFLHKDHCCBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C898B0)
-#define HFLHKDHCCBH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C8A1C0)
-#define HFLHKDHCCBH_TICK_OFFSET UNITYSDK_OFFSET(0x15C8A210)
+#define HFLHKDHCCBH_CTOR_OFFSET UNITYSDK_OFFSET(0x16BD1190)
+#define HFLHKDHCCBH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16BD11D0)
+#define HFLHKDHCCBH_OMGMBFIAPPE_OFFSET UNITYSDK_OFFSET(0x16BD1A50)
+#define HFLHKDHCCBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BD1210)
+#define HFLHKDHCCBH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16BD1B10)
+#define HFLHKDHCCBH_TICK_OFFSET UNITYSDK_OFFSET(0x16BD1B60)
 
-inline static constexpr unsigned int HFLHKDHCCBH_TypeDefinitionIndex = 55226;
+inline static constexpr unsigned int HFLHKDHCCBH_TypeDefinitionIndex = 56407;
 
 	class HFLHKDHCCBH : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::MoveTeamRootPosByTargetDistance* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TargetEvaluator* FAKOBONILAK; // 0x28
+		::RPG::GameCore::TargetEvaluator* FAKOBONILAK; // 0x20
+		::RPG::GameCore::MoveTeamRootPosByTargetDistance* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MoveTeamRootPosByTargetDistance* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MoveTeamRootPosByTargetDistance*))((::PBYTE)hIl2Cpp + HFLHKDHCCBH_CTOR_OFFSET))(this, a1, a2);

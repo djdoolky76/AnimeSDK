@@ -4,18 +4,18 @@
 class HDAHFLMBAAB;
 namespace System { class Object; }
 
-#define HDAHFLMBAAB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E546540)
-#define HDAHFLMBAAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E546580)
-#define HDAHFLMBAAB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E546590)
+#define HDAHFLMBAAB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F83D760)
+#define HDAHFLMBAAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F83D7A0)
+#define HDAHFLMBAAB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F83D7B0)
 
-inline static constexpr unsigned int HDAHFLMBAAB___c_TypeDefinitionIndex = 30828;
+inline static constexpr unsigned int HDAHFLMBAAB___c_TypeDefinitionIndex = 31741;
 
 	class HDAHFLMBAAB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30E90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26320);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE646EF0)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS29_0__CLIENTCREATESTORYPROPENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xE663F40)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF0E8DB0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS29_0__CLIENTCREATESTORYPROPENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xF0E8DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass29_0_TypeDefinitionIndex = 57778;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass29_0_TypeDefinitionIndex = 59013;
 
 	class EntityManagerExtension___c__DisplayClass29_0 : public ::System::Object
 	{

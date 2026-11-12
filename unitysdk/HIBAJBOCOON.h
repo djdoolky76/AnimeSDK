@@ -4,16 +4,16 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange; }
 
-#define HIBAJBOCOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6674A0)
-#define HIBAJBOCOON_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6674B0)
+#define HIBAJBOCOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E9100)
+#define HIBAJBOCOON_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D7E9110)
 
-inline static constexpr unsigned int HIBAJBOCOON_TypeDefinitionIndex = 36218;
+inline static constexpr unsigned int HIBAJBOCOON_TypeDefinitionIndex = 37146;
 
 	class HIBAJBOCOON : public ::PNECKGBKMEL
 	{
 	public:
-		::KAAMFILLIND* EEFMDEHLLFI; // 0x10
-		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange* IGHAHBNLIJA; // 0x10
+		::KAAMFILLIND* EEFMDEHLLFI; // 0x18
 		::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange* a1, ::KAAMFILLIND* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange*, ::KAAMFILLIND*))((::PBYTE)hIl2Cpp + HIBAJBOCOON_CTOR_OFFSET))(this, a1, a2);

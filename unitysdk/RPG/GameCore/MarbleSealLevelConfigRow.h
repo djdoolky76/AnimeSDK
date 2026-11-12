@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleSealLevelConfigRow; }
 
-#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D847270)
-#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D846F80)
+#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA61C60)
+#define RPG_GAMECORE_MARBLESEALLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA61970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealLevelConfigRow_TypeDefinitionIndex = 11851;
+	inline static constexpr unsigned int MarbleSealLevelConfigRow_TypeDefinitionIndex = 11908;
 
 	class MarbleSealLevelConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SkillParamList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 UnlockSkillID; // 0x1C
-		::System::UInt32 Level; // 0x20
+		::RPG::Client::TextID LevelUpDesc; // 0x18
+		::System::UInt32 Level; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::System::UInt32 UnlockSkillID; // 0x30
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID LevelUpTitle; // 0x28
-		::RPG::Client::TextID LevelUpDesc; // 0x38
+		::RPG::Client::TextID LevelUpTitle; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MARBLESEALLEVELCONFIGROW_CTOR_OFFSET))(this);

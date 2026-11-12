@@ -5,16 +5,16 @@
 #include "unitysdk/System/Object.h"
 class ALMFLCJCHKP;
 
-#define LDLCIEJKBNH_OFMKBFBJDAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB63C570)
+#define LDLCIEJKBNH_OFMKBFBJDAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBED1E10)
 
-inline static constexpr unsigned int LDLCIEJKBNH_OFMKBFBJDAO_TypeDefinitionIndex = 77811;
+inline static constexpr unsigned int LDLCIEJKBNH_OFMKBFBJDAO_TypeDefinitionIndex = 80546;
 
 	class LDLCIEJKBNH_OFMKBFBJDAO : public ::System::Object
 	{
 	public:
 		::ALMFLCJCHKP* ICLEDKFDACO; // 0x10
-		::RPG::MVector3 MELDKNBMIBF; // 0x18
-		::System::Nullable_1<::System::Single> IGDEIKDGBIA; // 0x24
+		::System::Nullable_1<::System::Single> IGDEIKDGBIA; // 0x18
+		::RPG::MVector3 MELDKNBMIBF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDLCIEJKBNH_OFMKBFBJDAO_CTOR_OFFSET))(this);

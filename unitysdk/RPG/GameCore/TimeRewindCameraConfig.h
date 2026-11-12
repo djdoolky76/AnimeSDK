@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB86E80)
-#define RPG_GAMECORE_TIMEREWINDCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB86C10)
+#define RPG_GAMECORE_TIMEREWINDCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE363C0)
+#define RPG_GAMECORE_TIMEREWINDCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE361E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindCameraConfig_TypeDefinitionIndex = 16594;
+	inline static constexpr unsigned int TimeRewindCameraConfig_TypeDefinitionIndex = 16760;
 
 	class TimeRewindCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

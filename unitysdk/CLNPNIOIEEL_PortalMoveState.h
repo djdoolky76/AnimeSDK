@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CLNPNIOIEEL_PortalMoveState_TypeDefinitionIndex = 76994;
+inline static constexpr unsigned int CLNPNIOIEEL_PortalMoveState_TypeDefinitionIndex = 79328;
 
 	enum class CLNPNIOIEEL_PortalMoveState : ::System::Int32
 	{

@@ -12,13 +12,13 @@ namespace RPG::GameCore { class FiveDimMoveBakedConfig; }
 namespace RPG::GameCore { class FiveDimPhysicsBakedConfig; }
 namespace RPG::GameCore { class FiveDimWallBakedConfig; }
 
-#define RPG_GAMECORE_FIVEDIMMOVEBAKEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C99E0)
-#define RPG_GAMECORE_FIVEDIMMOVEBAKEDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C99F0)
-#define RPG_GAMECORE_FIVEDIMMOVEBAKEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C99B0)
+#define RPG_GAMECORE_FIVEDIMMOVEBAKEDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D5FB0)
+#define RPG_GAMECORE_FIVEDIMMOVEBAKEDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8D5FC0)
+#define RPG_GAMECORE_FIVEDIMMOVEBAKEDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8BD070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMoveBakedConfig_TypeDefinitionIndex = 16661;
+	inline static constexpr unsigned int FiveDimMoveBakedConfig_TypeDefinitionIndex = 16827;
 
 	class FiveDimMoveBakedConfig : public ::RPG::GameCore::LittleGameEntityMoveBakedConfig
 	{

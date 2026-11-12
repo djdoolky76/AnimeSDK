@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingBuildingLevelRow; }
 
-#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58A390)
-#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58A1E0)
+#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E79A7D0)
+#define RPG_GAMECORE_CHENLINGBUILDINGLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E79A620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBuildingLevelRow_TypeDefinitionIndex = 11063;
+	inline static constexpr unsigned int ChenLingBuildingLevelRow_TypeDefinitionIndex = 11079;
 
 	class ChenLingBuildingLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 EffectID; // 0x10
-		::System::UInt32 SkillID; // 0x14
-		::System::UInt32 BuildingID; // 0x18
-		::System::UInt32 Level; // 0x1C
+		::System::UInt32 BuildingID; // 0x10
+		::System::UInt32 EffectID; // 0x14
+		::System::UInt32 Level; // 0x18
+		::System::UInt32 SkillID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGBUILDINGLEVELROW_CTOR_OFFSET))(this);

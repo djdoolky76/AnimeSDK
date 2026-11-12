@@ -13,26 +13,26 @@ namespace RPGTools::Timeline::Story { class NpcStoryMoveRunData; }
 namespace RPGTools::Timeline::Story { class NpcStoryMoveWalkData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JJHLNFOJLKE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2067C0)
-#define JJHLNFOJLKE_EGIKNNLEGMK_1_OFFSET UNITYSDK_OFFSET(0xB206370)
-#define JJHLNFOJLKE_EGIKNNLEGMK_OFFSET UNITYSDK_OFFSET(0xB206290)
-#define JJHLNFOJLKE_FPNANILELJE_OFFSET UNITYSDK_OFFSET(0xB2065B0)
-#define JJHLNFOJLKE_GDNLKLHOFFF_1_OFFSET UNITYSDK_OFFSET(0xB206100)
-#define JJHLNFOJLKE_GDNLKLHOFFF_OFFSET UNITYSDK_OFFSET(0xB206020)
-#define JJHLNFOJLKE_GGCBPBLEEKI_OFFSET UNITYSDK_OFFSET(0xB206660)
-#define JJHLNFOJLKE_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xB205960)
-#define JJHLNFOJLKE_NDAHGBBIJJG_OFFSET UNITYSDK_OFFSET(0xB206500)
-#define JJHLNFOJLKE_OMKALAHPJAI_OFFSET UNITYSDK_OFFSET(0xB206710)
+#define JJHLNFOJLKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA29390)
+#define JJHLNFOJLKE_EGIKNNLEGMK_1_OFFSET UNITYSDK_OFFSET(0xBA28F40)
+#define JJHLNFOJLKE_EGIKNNLEGMK_OFFSET UNITYSDK_OFFSET(0xBA28E60)
+#define JJHLNFOJLKE_FPNANILELJE_OFFSET UNITYSDK_OFFSET(0xBA29180)
+#define JJHLNFOJLKE_GDNLKLHOFFF_1_OFFSET UNITYSDK_OFFSET(0xBA28CD0)
+#define JJHLNFOJLKE_GDNLKLHOFFF_OFFSET UNITYSDK_OFFSET(0xBA28BF0)
+#define JJHLNFOJLKE_GGCBPBLEEKI_OFFSET UNITYSDK_OFFSET(0xBA29230)
+#define JJHLNFOJLKE_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xBA28530)
+#define JJHLNFOJLKE_NDAHGBBIJJG_OFFSET UNITYSDK_OFFSET(0xBA290D0)
+#define JJHLNFOJLKE_OMKALAHPJAI_OFFSET UNITYSDK_OFFSET(0xBA292E0)
 
-inline static constexpr unsigned int JJHLNFOJLKE_TypeDefinitionIndex = 48710;
+inline static constexpr unsigned int JJHLNFOJLKE_TypeDefinitionIndex = 49756;
 
 	class JJHLNFOJLKE : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveRunData*>* DLHFOGGKKFJ; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveRunData*>* IDBBMHJLPBI; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveWalkData*>* BCJFDOEAIBI; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveWalkData*>* DNGPKBHFGCN; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::NPCBodySize, ::RPGTools::Timeline::Story::NpcStoryMoveWalkData*>* DNGPKBHFGCN; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BodySize, ::RPGTools::Timeline::Story::AvatarStoryMoveWalkData*>* BCJFDOEAIBI; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JJHLNFOJLKE_CTOR_OFFSET))(this);

@@ -4,12 +4,12 @@
 namespace RPG::Client::Prop { class FastDeliverPuzzleBoard; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCECC40)
-#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0__TICKPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0xDCECC50)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE749300)
+#define RPG_CLIENT_PROP_FASTDELIVERPUZZLEBOARD___C__DISPLAYCLASS105_0__TICKPUZZLE_B__0_OFFSET UNITYSDK_OFFSET(0xE74BE10)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass105_0_TypeDefinitionIndex = 78582;
+	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass105_0_TypeDefinitionIndex = 81317;
 
 	class FastDeliverPuzzleBoard___c__DisplayClass105_0 : public ::System::Object
 	{

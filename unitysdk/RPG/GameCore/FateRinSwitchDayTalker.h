@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinSwitchDayTalker_TypeDefinitionIndex = 11582;
+	inline static constexpr unsigned int FateRinSwitchDayTalker_TypeDefinitionIndex = 11633;
 
 	enum class FateRinSwitchDayTalker : ::System::Int32
 	{

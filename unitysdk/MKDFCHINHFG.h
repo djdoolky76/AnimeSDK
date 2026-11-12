@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class MoveVirtualCameraOnDollyPath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MKDFCHINHFG_CTOR_OFFSET UNITYSDK_OFFSET(0xB98D2A0)
-#define MKDFCHINHFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB98D2B0)
-#define MKDFCHINHFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB98D2F0)
-#define MKDFCHINHFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB98D5F0)
-#define MKDFCHINHFG_TICK_OFFSET UNITYSDK_OFFSET(0xB98D640)
+#define MKDFCHINHFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2477F0)
+#define MKDFCHINHFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC247800)
+#define MKDFCHINHFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC247840)
+#define MKDFCHINHFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC247B40)
+#define MKDFCHINHFG_TICK_OFFSET UNITYSDK_OFFSET(0xC247B90)
 
-inline static constexpr unsigned int MKDFCHINHFG_TypeDefinitionIndex = 58233;
+inline static constexpr unsigned int MKDFCHINHFG_TypeDefinitionIndex = 59489;
 
 	class MKDFCHINHFG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::MoveVirtualCameraOnDollyPath* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::MoveVirtualCameraOnDollyPath* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MoveVirtualCameraOnDollyPath* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MoveVirtualCameraOnDollyPath*))((::PBYTE)hIl2Cpp + MKDFCHINHFG_CTOR_OFFSET))(this, a1, a2);

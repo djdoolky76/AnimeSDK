@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MICROSOFT_WIN32_WIN32NATIVE_WIN32_FIND_DATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C055EC0)
+#define MICROSOFT_WIN32_WIN32NATIVE_WIN32_FIND_DATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DD270)
 
 namespace Microsoft::Win32
 {

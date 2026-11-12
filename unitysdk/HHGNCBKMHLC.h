@@ -4,19 +4,19 @@
 namespace RPG::Client { class AssistantTipsData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HHGNCBKMHLC_CTOR_OFFSET UNITYSDK_OFFSET(0x15CCC830)
-#define HHGNCBKMHLC_GET_PASSEDTIPS_OFFSET UNITYSDK_OFFSET(0x15CCC820)
-#define HHGNCBKMHLC_JGLAJNNIHPG_OFFSET UNITYSDK_OFFSET(0x15CCC700)
-#define HHGNCBKMHLC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15CCC650)
-#define HHGNCBKMHLC_KLDPIEICGEA_OFFSET UNITYSDK_OFFSET(0x15CCC740)
+#define HHGNCBKMHLC_CTOR_OFFSET UNITYSDK_OFFSET(0x16C1A1F0)
+#define HHGNCBKMHLC_GET_PASSEDTIPS_OFFSET UNITYSDK_OFFSET(0x16C1A1E0)
+#define HHGNCBKMHLC_JGLAJNNIHPG_OFFSET UNITYSDK_OFFSET(0x16C1A0C0)
+#define HHGNCBKMHLC_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x16C1A010)
+#define HHGNCBKMHLC_KLDPIEICGEA_OFFSET UNITYSDK_OFFSET(0x16C1A100)
 
-inline static constexpr unsigned int HHGNCBKMHLC_TypeDefinitionIndex = 62442;
+inline static constexpr unsigned int HHGNCBKMHLC_TypeDefinitionIndex = 63855;
 
 	class HHGNCBKMHLC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* KGKDGABPFAM; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* _PassedTips_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* _PassedTips_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::AssistantTipsData*>* KGKDGABPFAM; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHGNCBKMHLC_CTOR_OFFSET))(this);

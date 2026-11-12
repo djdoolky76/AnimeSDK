@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BGGDOPNKDLK_CakeRaceDashResult_TypeDefinitionIndex = 37261;
+inline static constexpr unsigned int BGGDOPNKDLK_CakeRaceDashResult_TypeDefinitionIndex = 38189;
 
 	enum class BGGDOPNKDLK_CakeRaceDashResult : ::System::Int32
 	{

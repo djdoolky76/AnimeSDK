@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class CalcPitchAngle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AOKAJPCKFOP_CTOR_OFFSET UNITYSDK_OFFSET(0x158B1340)
-#define AOKAJPCKFOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158B1420)
+#define AOKAJPCKFOP_CTOR_OFFSET UNITYSDK_OFFSET(0x16728B10)
+#define AOKAJPCKFOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16728BF0)
 
-inline static constexpr unsigned int AOKAJPCKFOP_TypeDefinitionIndex = 56348;
+inline static constexpr unsigned int AOKAJPCKFOP_TypeDefinitionIndex = 57562;
 
 	class AOKAJPCKFOP
 	{

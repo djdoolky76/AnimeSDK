@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitMissionCustomValueChange; }
 
-#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9BDB0)
-#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9BDC0)
-#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9BD70)
+#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAE7E0)
+#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEAE7F0)
+#define RPG_GAMECORE_WAITMISSIONCUSTOMVALUECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEAE7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitMissionCustomValueChange_TypeDefinitionIndex = 21681;
+	inline static constexpr unsigned int WaitMissionCustomValueChange_TypeDefinitionIndex = 22070;
 
 	class WaitMissionCustomValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{

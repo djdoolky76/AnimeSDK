@@ -9,7 +9,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int DefaultIfEmpty_1__DefaultIfEmpty_TypeDefinitionIndex = 45334;
+	inline static constexpr unsigned int DefaultIfEmpty_1__DefaultIfEmpty_TypeDefinitionIndex = 46363;
 
 	template <typename T>
 	class DefaultIfEmpty_1__DefaultIfEmpty : public ::Cysharp::Threading::Tasks::MoveNextSource

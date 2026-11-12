@@ -6,26 +6,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyStepConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC35DB0)
-#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC35A00)
+#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE49050)
+#define RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE48CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStepConfigRow_TypeDefinitionIndex = 15328;
+	inline static constexpr unsigned int TrainPartyStepConfigRow_TypeDefinitionIndex = 15484;
 
 	class TrainPartyStepConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ImgPath; // 0x10
-		::Il2CppArray<::System::UInt32>* StaticPropIDList; // 0x18
-		::System::UInt32 CoinCost; // 0x20
-		::System::UInt32 GroupID; // 0x24
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 SortID; // 0x2C
+		::Il2CppArray<::System::UInt32>* StaticPropIDList; // 0x10
+		::System::String* ImgPath; // 0x18
+		::RPG::Client::TextID Name; // 0x20
 		::System::Boolean HasCutScene; // 0x30
 		::System::Boolean HasPreview; // 0x31
-		::System::Byte _padding0[0x6];
-		::RPG::Client::TextID Name; // 0x38
+		::System::Byte _padding0[0x2];
+		::System::UInt32 GroupID; // 0x34
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 SortID; // 0x3C
+		::System::UInt32 CoinCost; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSTEPCONFIGROW_CTOR_OFFSET))(this);

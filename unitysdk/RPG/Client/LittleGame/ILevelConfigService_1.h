@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ILevelConfigService_1_TypeDefinitionIndex = 42036;
+	inline static constexpr unsigned int ILevelConfigService_1_TypeDefinitionIndex = 43011;
 
 	template <typename T>
 	class ILevelConfigService_1

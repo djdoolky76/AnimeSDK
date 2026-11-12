@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_STORYDURATIONTIMECONFIG_STORYDURATIONTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8D60)
+#define RPGTOOLS_STORYDURATIONTIMECONFIG_STORYDURATIONTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xF382BE0)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int StoryDurationTimeConfig_StoryDurationTime_TypeDefinitionIndex = 47782;
+	inline static constexpr unsigned int StoryDurationTimeConfig_StoryDurationTime_TypeDefinitionIndex = 48813;
 
 	class StoryDurationTimeConfig_StoryDurationTime : public ::System::Object
 	{

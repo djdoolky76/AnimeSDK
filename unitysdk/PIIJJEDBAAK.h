@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PIIJJEDBAAK_CTOR_OFFSET UNITYSDK_OFFSET(0xC269210)
-#define PIIJJEDBAAK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xC269170)
+#define PIIJJEDBAAK_CTOR_OFFSET UNITYSDK_OFFSET(0xCB91430)
+#define PIIJJEDBAAK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xCB91390)
 
-inline static constexpr unsigned int PIIJJEDBAAK_TypeDefinitionIndex = 62455;
+inline static constexpr unsigned int PIIJJEDBAAK_TypeDefinitionIndex = 63868;
 
 	class PIIJJEDBAAK : public ::System::Object
 	{

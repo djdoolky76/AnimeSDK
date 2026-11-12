@@ -4,7 +4,7 @@
 #include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int EPPIFJBJJOO_TypeDefinitionIndex = 55497;
+inline static constexpr unsigned int EPPIFJBJJOO_TypeDefinitionIndex = 56685;
 
 	struct alignas(8) EPPIFJBJJOO
 	{

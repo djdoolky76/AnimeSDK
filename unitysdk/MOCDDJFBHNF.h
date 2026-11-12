@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddChallengeBossInfoPanelState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOCDDJFBHNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBA25120)
-#define MOCDDJFBHNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA25150)
+#define MOCDDJFBHNF_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E39E0)
+#define MOCDDJFBHNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E3A10)
 
-inline static constexpr unsigned int MOCDDJFBHNF_TypeDefinitionIndex = 55679;
+inline static constexpr unsigned int MOCDDJFBHNF_TypeDefinitionIndex = 56877;
 
 	class MOCDDJFBHNF
 	{

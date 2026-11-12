@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE965F20)
-#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA_KPOJIFDIFNJ_OFFSET UNITYSDK_OFFSET(0xE966240)
-#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA_NDDGIDFGMIG_OFFSET UNITYSDK_OFFSET(0xE965FA0)
+#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF484730)
+#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA_KPOJIFDIFNJ_OFFSET UNITYSDK_OFFSET(0xF484A50)
+#define SCENENLIGHTMANAGER_MESHRENDEREXPORTDATA_NDDGIDFGMIG_OFFSET UNITYSDK_OFFSET(0xF4847B0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int MeshRenderExportData_TypeDefinitionIndex = 49146;
+	inline static constexpr unsigned int MeshRenderExportData_TypeDefinitionIndex = 50222;
 
 	class MeshRenderExportData : public ::System::Object
 	{

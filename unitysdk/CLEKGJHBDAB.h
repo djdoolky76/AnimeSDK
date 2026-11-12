@@ -6,17 +6,17 @@ class CFINHCPMLBB;
 class JIDKACGCHMA;
 namespace RPG::Client { class Freelook3rdRigParams; }
 
-#define CLEKGJHBDAB_CTOR_OFFSET UNITYSDK_OFFSET(0xD77BCE0)
-#define CLEKGJHBDAB_IIGINGICOLL_OFFSET UNITYSDK_OFFSET(0xD77BBD0)
+#define CLEKGJHBDAB_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B74F0)
+#define CLEKGJHBDAB_IIGINGICOLL_OFFSET UNITYSDK_OFFSET(0xE0B73E0)
 
-inline static constexpr unsigned int CLEKGJHBDAB_TypeDefinitionIndex = 69678;
+inline static constexpr unsigned int CLEKGJHBDAB_TypeDefinitionIndex = 71635;
 
 	class CLEKGJHBDAB : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::Freelook3rdRigParams*>* GACLJJDFHIK; // 0x10
+		::CFINHCPMLBB* OKDKLBDEKHC; // 0x10
 		::JIDKACGCHMA* MBJHFKGGHKP; // 0x18
-		::CFINHCPMLBB* OKDKLBDEKHC; // 0x20
+		::Il2CppArray<::RPG::Client::Freelook3rdRigParams*>* GACLJJDFHIK; // 0x20
 		::UnityEngine::Vector2 NCKPDKAOMFG; // 0x28
 		::System::Void _ctor()
 		{

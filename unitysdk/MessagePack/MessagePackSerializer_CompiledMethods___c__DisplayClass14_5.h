@@ -8,12 +8,12 @@ namespace System { class Object; }
 namespace System::IO { class Stream; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_5_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC91D0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_5___CTOR_B__7_OFFSET UNITYSDK_OFFSET(0x1BBC9E30)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_5_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD520A0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_5___CTOR_B__7_OFFSET UNITYSDK_OFFSET(0x1CD52D00)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_5_TypeDefinitionIndex = 7225;
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_5_TypeDefinitionIndex = 7236;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class MessagePackSerializer_CompiledMethods___c__DisplayClass14_5 : public ::System::Object

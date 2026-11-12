@@ -4,10 +4,10 @@
 class LMFOOOLDECA;
 class OMNJCDDMLHI;
 
-#define FOLFFPOMJAB_CTOR_OFFSET UNITYSDK_OFFSET(0x158F74E0)
-#define FOLFFPOMJAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x158F74F0)
+#define FOLFFPOMJAB_CTOR_OFFSET UNITYSDK_OFFSET(0x16825EF0)
+#define FOLFFPOMJAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16825F00)
 
-inline static constexpr unsigned int FOLFFPOMJAB_TypeDefinitionIndex = 77968;
+inline static constexpr unsigned int FOLFFPOMJAB_TypeDefinitionIndex = 80703;
 
 	class FOLFFPOMJAB : public ::System::Object
 	{

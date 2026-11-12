@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAvatarDepart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KELGDMHDIIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB37D800)
-#define KELGDMHDIIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB37D830)
+#define KELGDMHDIIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC085F0)
+#define KELGDMHDIIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC08620)
 
-inline static constexpr unsigned int KELGDMHDIIJ_TypeDefinitionIndex = 55347;
+inline static constexpr unsigned int KELGDMHDIIJ_TypeDefinitionIndex = 56530;
 
 	class KELGDMHDIIJ
 	{

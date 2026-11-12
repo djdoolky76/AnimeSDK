@@ -5,11 +5,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define HEU_BOUNDINGVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B9F60)
-#define HEU_BOUNDINGVOLUME_GETALLINTERSECTINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B8B9AF0)
-#define HEU_BOUNDINGVOLUME_GET_BOUNDINGCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1B8B9A80)
+#define HEU_BOUNDINGVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA42F20)
+#define HEU_BOUNDINGVOLUME_GETALLINTERSECTINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x1CA42AB0)
+#define HEU_BOUNDINGVOLUME_GET_BOUNDINGCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1CA42A40)
 
-inline static constexpr unsigned int HEU_BoundingVolume_TypeDefinitionIndex = 40347;
+inline static constexpr unsigned int HEU_BoundingVolume_TypeDefinitionIndex = 41322;
 
 	class HEU_BoundingVolume : public ::UnityEngine::MonoBehaviour
 	{

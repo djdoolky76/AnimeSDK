@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class ECNEEKNHIOE;
 
-#define AOMPIIKDCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x158C3E70)
+#define AOMPIIKDCFH_CTOR_OFFSET UNITYSDK_OFFSET(0x169EB740)
 
-inline static constexpr unsigned int AOMPIIKDCFH_TypeDefinitionIndex = 80566;
+inline static constexpr unsigned int AOMPIIKDCFH_TypeDefinitionIndex = 83346;
 
 	class AOMPIIKDCFH : public ::System::Object
 	{

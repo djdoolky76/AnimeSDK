@@ -9,11 +9,11 @@ namespace System::Net { class ICredentialPolicy; }
 namespace System::Net { class ICredentials; }
 namespace System::Net { class WebRequest; }
 
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1F01E6F0)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F01FC40)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_DOAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1F01E7F0)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_ENSUREMODULES_OFFSET UNITYSDK_OFFSET(0x1F01E340)
-#define SYSTEM_NET_AUTHENTICATIONMANAGER_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x1F01F200)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_AUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x202CDF10)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x202CF460)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_DOAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x202CE010)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_ENSUREMODULES_OFFSET UNITYSDK_OFFSET(0x202CDB60)
+#define SYSTEM_NET_AUTHENTICATIONMANAGER_PREAUTHENTICATE_OFFSET UNITYSDK_OFFSET(0x202CEA20)
 
 namespace System::Net
 {
@@ -24,17 +24,17 @@ namespace System::Net
 	public:
 		static ::System::Object** StaticGet_locker()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Net", "AuthenticationManager")->GetStaticField(0x3DA80);
-		}
-
-		static ::System::Collections::ArrayList** StaticGet_modules()
-		{
-			return (::System::Collections::ArrayList**)UnitySDK::FromName("System.Net", "AuthenticationManager")->GetStaticField(0x3DA88);
+			return (::System::Object**)UnitySDK::FromName("System.Net", "AuthenticationManager")->GetStaticField(0x2DAE0);
 		}
 
 		static ::System::Net::ICredentialPolicy** StaticGet_credential_policy()
 		{
-			return (::System::Net::ICredentialPolicy**)UnitySDK::FromName("System.Net", "AuthenticationManager")->GetStaticField(0x3DA90);
+			return (::System::Net::ICredentialPolicy**)UnitySDK::FromName("System.Net", "AuthenticationManager")->GetStaticField(0x2DAE8);
+		}
+
+		static ::System::Collections::ArrayList** StaticGet_modules()
+		{
+			return (::System::Collections::ArrayList**)UnitySDK::FromName("System.Net", "AuthenticationManager")->GetStaticField(0x2DAF0);
 		}
 
 		static ::System::Void _cctor()

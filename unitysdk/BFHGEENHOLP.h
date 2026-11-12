@@ -6,44 +6,44 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BFHGEENHOLP_BOPLBBHAPLG_OFFSET UNITYSDK_OFFSET(0xB1640D0)
-#define BFHGEENHOLP_CCTOR_OFFSET UNITYSDK_OFFSET(0xB164280)
-#define BFHGEENHOLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB164060)
-#define BFHGEENHOLP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB164020)
-#define BFHGEENHOLP_GET_TOTALSIZE_OFFSET UNITYSDK_OFFSET(0xB164040)
-#define BFHGEENHOLP_NDDILBDLICD_OFFSET UNITYSDK_OFFSET(0xB164240)
-#define BFHGEENHOLP_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB164030)
-#define BFHGEENHOLP_SET_TOTALSIZE_OFFSET UNITYSDK_OFFSET(0xB164050)
+#define BFHGEENHOLP_BOPLBBHAPLG_OFFSET UNITYSDK_OFFSET(0xB7EDCB0)
+#define BFHGEENHOLP_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7EDE60)
+#define BFHGEENHOLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7EDC40)
+#define BFHGEENHOLP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB7EDC00)
+#define BFHGEENHOLP_GET_TOTALSIZE_OFFSET UNITYSDK_OFFSET(0xB7EDC20)
+#define BFHGEENHOLP_NDDILBDLICD_OFFSET UNITYSDK_OFFSET(0xB7EDE20)
+#define BFHGEENHOLP_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB7EDC10)
+#define BFHGEENHOLP_SET_TOTALSIZE_OFFSET UNITYSDK_OFFSET(0xB7EDC30)
 
-inline static constexpr unsigned int BFHGEENHOLP_TypeDefinitionIndex = 69478;
+inline static constexpr unsigned int BFHGEENHOLP_TypeDefinitionIndex = 71432;
 
 	class BFHGEENHOLP : public ::System::Object
 	{
 	public:
-		::System::String* JGGPGNMMKOI; // 0x10
-		::System::String* DCMOCIGCIHJ; // 0x18
-		::System::String* _Name_k__BackingField; // 0x20
+		::System::String* DCMOCIGCIHJ; // 0x10
+		::System::String* _Name_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* FJCAKOIDONG; // 0x20
 		::System::String* CHAGHHONPJN; // 0x28
-		::System::Collections::Generic::List_1<::System::Object*>* FJCAKOIDONG; // 0x30
+		::System::String* JGGPGNMMKOI; // 0x30
 		::System::Int32 _TotalSize_k__BackingField; // 0x38
-		static ::BFHGEENHOLP** StaticGet_NFPNNCGHELC()
-		{
-			return (::BFHGEENHOLP**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x6E3E0);
-		}
-
 		static ::System::String** StaticGet_KFCGOENIDAE()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x6E3E8);
+			return (::System::String**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x69E00);
 		}
 
 		static ::System::String** StaticGet_OOECCGCHLFC()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x6E3F0);
+			return (::System::String**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x69E08);
+		}
+
+		static ::BFHGEENHOLP** StaticGet_NFPNNCGHELC()
+		{
+			return (::BFHGEENHOLP**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x69E10);
 		}
 
 		static ::System::String** StaticGet_ACGNKOKELDI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x6E3F8);
+			return (::System::String**)UnitySDK::FromName("", "BFHGEENHOLP")->GetStaticField(0x69E18);
 		}
 
 		::System::Void _ctor()

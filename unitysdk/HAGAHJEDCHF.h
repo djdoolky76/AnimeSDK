@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HAGAHJEDCHF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAB5710)
-#define HAGAHJEDCHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB5750)
+#define HAGAHJEDCHF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC790F0)
+#define HAGAHJEDCHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC79130)
 
-inline static constexpr unsigned int HAGAHJEDCHF_TypeDefinitionIndex = 43486;
+inline static constexpr unsigned int HAGAHJEDCHF_TypeDefinitionIndex = 44468;
 
 	class HAGAHJEDCHF : public ::System::Object
 	{

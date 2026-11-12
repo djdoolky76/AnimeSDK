@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AddWeakness; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38D360)
-#define RPG_GAMECORE_ADDWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38D370)
-#define RPG_GAMECORE_ADDWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38D330)
+#define RPG_GAMECORE_ADDWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59D030)
+#define RPG_GAMECORE_ADDWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E59D040)
+#define RPG_GAMECORE_ADDWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E59D000)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddWeakness_TypeDefinitionIndex = 23076;
+	inline static constexpr unsigned int AddWeakness_TypeDefinitionIndex = 23505;
 
 	class AddWeakness : public ::RPG::GameCore::TaskConfig
 	{

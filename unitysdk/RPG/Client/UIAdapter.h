@@ -8,45 +8,45 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 
-#define RPG_CLIENT_UIADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE36B160)
-#define RPG_CLIENT_UIADAPTER_DORELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36AED0)
-#define RPG_CLIENT_UIADAPTER_GETDEFAULTUIOPERATIONCONFIGS_OFFSET UNITYSDK_OFFSET(0xE36AF90)
-#define RPG_CLIENT_UIADAPTER_LOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36A870)
-#define RPG_CLIENT_UIADAPTER_RELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36ADF0)
-#define RPG_CLIENT_UIADAPTER_UNLOADCONFIG_OFFSET UNITYSDK_OFFSET(0xE36AD80)
-#define RPG_CLIENT_UIADAPTER__GETOPERATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE36AFF0)
-#define RPG_CLIENT_UIADAPTER__LOADADAPTIVECONFIG_OFFSET UNITYSDK_OFFSET(0xE36AC20)
+#define RPG_CLIENT_UIADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xEDD86E0)
+#define RPG_CLIENT_UIADAPTER_DORELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xEDD8440)
+#define RPG_CLIENT_UIADAPTER_GETDEFAULTUIOPERATIONCONFIGS_OFFSET UNITYSDK_OFFSET(0xEDD8510)
+#define RPG_CLIENT_UIADAPTER_LOADCONFIG_OFFSET UNITYSDK_OFFSET(0xEDD7DD0)
+#define RPG_CLIENT_UIADAPTER_RELOADCONFIG_OFFSET UNITYSDK_OFFSET(0xEDD8360)
+#define RPG_CLIENT_UIADAPTER_UNLOADCONFIG_OFFSET UNITYSDK_OFFSET(0xEDD82E0)
+#define RPG_CLIENT_UIADAPTER__GETOPERATIONCONFIG_OFFSET UNITYSDK_OFFSET(0xEDD8570)
+#define RPG_CLIENT_UIADAPTER__LOADADAPTIVECONFIG_OFFSET UNITYSDK_OFFSET(0xEDD8180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAdapter_TypeDefinitionIndex = 60074;
+	inline static constexpr unsigned int UIAdapter_TypeDefinitionIndex = 61358;
 
 	class UIAdapter : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::SortedList_2<::RPG::GameCore::UIAdaptiveDeviceType, ::System::String*>** StaticGet__AdaptiveConfigPaths()
-		{
-			return (::System::Collections::Generic::SortedList_2<::RPG::GameCore::UIAdaptiveDeviceType, ::System::String*>**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32470);
-		}
-
 		static ::RPG::GameCore::UIOperationConfig** StaticGet__DefaultUIOperationConfig()
 		{
-			return (::RPG::GameCore::UIOperationConfig**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32478);
+			return (::RPG::GameCore::UIOperationConfig**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x3CA50);
 		}
 
-		static ::RPG::GameCore::UIAdaptiveConfig** StaticGet__AdaptiveConfig()
+		static ::System::Collections::Generic::SortedList_2<::RPG::GameCore::UIAdaptiveDeviceType, ::System::String*>** StaticGet__AdaptiveConfigPaths()
 		{
-			return (::RPG::GameCore::UIAdaptiveConfig**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32480);
-		}
-
-		static ::System::String** StaticGet__AdaptiveConfigPath()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32488);
+			return (::System::Collections::Generic::SortedList_2<::RPG::GameCore::UIAdaptiveDeviceType, ::System::String*>**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x3CA58);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIOperationConfig*>** StaticGet__PrefabUIOperationConfigDict()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIOperationConfig*>**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x32490);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::UIOperationConfig*>**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x3CA60);
+		}
+
+		static ::System::String** StaticGet__AdaptiveConfigPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x3CA68);
+		}
+
+		static ::RPG::GameCore::UIAdaptiveConfig** StaticGet__AdaptiveConfig()
+		{
+			return (::RPG::GameCore::UIAdaptiveConfig**)UnitySDK::FromName("RPG.Client", "UIAdapter")->GetStaticField(0x3CA70);
 		}
 
 		static ::System::Void _cctor()

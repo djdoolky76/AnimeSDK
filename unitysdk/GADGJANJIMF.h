@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GADGJANJIMF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE1E570)
-#define GADGJANJIMF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE1EB40)
-#define GADGJANJIMF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE1E6E0)
-#define GADGJANJIMF_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1CE1E360)
-#define GADGJANJIMF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE1DF60)
-#define GADGJANJIMF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE1E1F0)
-#define GADGJANJIMF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE1E780)
-#define GADGJANJIMF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE1E7D0)
-#define GADGJANJIMF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE1E5B0)
-#define GADGJANJIMF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE1E190)
-#define GADGJANJIMF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE1E3E0)
-#define GADGJANJIMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE1E640)
-#define GADGJANJIMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE1DEE0)
+#define GADGJANJIMF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DFF8F40)
+#define GADGJANJIMF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF9510)
+#define GADGJANJIMF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DFF90B0)
+#define GADGJANJIMF_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1DFF8D30)
+#define GADGJANJIMF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DFF8930)
+#define GADGJANJIMF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DFF8BC0)
+#define GADGJANJIMF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DFF9150)
+#define GADGJANJIMF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DFF91A0)
+#define GADGJANJIMF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DFF8F80)
+#define GADGJANJIMF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DFF8B60)
+#define GADGJANJIMF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DFF8DB0)
+#define GADGJANJIMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DFF9010)
+#define GADGJANJIMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DFF88B0)
 
-inline static constexpr unsigned int GADGJANJIMF_TypeDefinitionIndex = 11266;
+inline static constexpr unsigned int GADGJANJIMF_TypeDefinitionIndex = 11317;
 
 	class GADGJANJIMF : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarLevelRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarLevelRow*>**)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0x15710);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0x15718);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0xCC90);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0x15720);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0xCC98);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarLevelRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityDiceCombatAvatarLevelRow*>**)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0xCCA0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0x51F0);
+			return (::System::Byte*)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0x1830);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0x51F1);
+			return (::System::Boolean*)UnitySDK::FromName("", "GADGJANJIMF")->GetStaticField(0x1831);
 		}
 
 		static ::System::Void _cctor()

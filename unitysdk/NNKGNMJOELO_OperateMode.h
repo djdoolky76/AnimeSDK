@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NNKGNMJOELO_OperateMode_TypeDefinitionIndex = 77753;
+inline static constexpr unsigned int NNKGNMJOELO_OperateMode_TypeDefinitionIndex = 80488;
 
 	enum class NNKGNMJOELO_OperateMode : ::System::Int32
 	{

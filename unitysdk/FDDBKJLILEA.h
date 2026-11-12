@@ -5,10 +5,10 @@
 class FEPMIILHIDF;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define FDDBKJLILEA_AJECEFNAMHK_OFFSET UNITYSDK_OFFSET(0x1C544ED0)
-#define FDDBKJLILEA_INFCLOEFHMG_OFFSET UNITYSDK_OFFSET(0x1C5433C0)
+#define FDDBKJLILEA_AJECEFNAMHK_OFFSET UNITYSDK_OFFSET(0x1D6C6890)
+#define FDDBKJLILEA_INFCLOEFHMG_OFFSET UNITYSDK_OFFSET(0x1D6C4D70)
 
-inline static constexpr unsigned int FDDBKJLILEA_TypeDefinitionIndex = 41690;
+inline static constexpr unsigned int FDDBKJLILEA_TypeDefinitionIndex = 42665;
 
 	class FDDBKJLILEA : public ::System::Object
 	{

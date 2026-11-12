@@ -4,10 +4,10 @@
 class HKOJMGEMDNN;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JGPLDAFBAEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A7BA0)
-#define JGPLDAFBAEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1A7B10)
+#define JGPLDAFBAEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C7590)
+#define JGPLDAFBAEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9C7500)
 
-inline static constexpr unsigned int JGPLDAFBAEO_TypeDefinitionIndex = 58641;
+inline static constexpr unsigned int JGPLDAFBAEO_TypeDefinitionIndex = 59908;
 
 	class JGPLDAFBAEO : public ::System::Object
 	{

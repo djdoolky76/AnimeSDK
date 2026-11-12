@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xE35D0)
+#define RPG_CLIENT_CHALLENGEDATA_CHALLENGEOPENRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xEF0D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeData_ChallengeOpenResult_TypeDefinitionIndex = 63086;
+	inline static constexpr unsigned int ChallengeData_ChallengeOpenResult_TypeDefinitionIndex = 64524;
 
 	struct alignas(8) ChallengeData_ChallengeOpenResult
 	{

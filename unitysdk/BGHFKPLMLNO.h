@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define BGHFKPLMLNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB188C70)
+#define BGHFKPLMLNO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB10640)
 
-inline static constexpr unsigned int BGHFKPLMLNO_TypeDefinitionIndex = 47436;
+inline static constexpr unsigned int BGHFKPLMLNO_TypeDefinitionIndex = 48465;
 
 	class BGHFKPLMLNO : public ::UnityEngine::PropertyAttribute
 	{

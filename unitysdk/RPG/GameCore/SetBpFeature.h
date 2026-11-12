@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetBpFeature; }
 namespace RPG::GameCore { class SpecialBpFeature; }
 
-#define RPG_GAMECORE_SETBPFEATURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA98FB0)
-#define RPG_GAMECORE_SETBPFEATURE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA98FC0)
-#define RPG_GAMECORE_SETBPFEATURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA98F80)
+#define RPG_GAMECORE_SETBPFEATURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAB450)
+#define RPG_GAMECORE_SETBPFEATURE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECAB460)
+#define RPG_GAMECORE_SETBPFEATURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECAB420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBpFeature_TypeDefinitionIndex = 23223;
+	inline static constexpr unsigned int SetBpFeature_TypeDefinitionIndex = 23655;
 
 	class SetBpFeature : public ::RPG::GameCore::TaskConfig
 	{

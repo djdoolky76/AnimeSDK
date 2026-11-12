@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define NOMOKAFFKFE_KGAFHLGGNHJ_OFFSET UNITYSDK_OFFSET(0x22400)
+#define NOMOKAFFKFE_KGAFHLGGNHJ_OFFSET UNITYSDK_OFFSET(0x27710)
 
-inline static constexpr unsigned int NOMOKAFFKFE_TypeDefinitionIndex = 56235;
+inline static constexpr unsigned int NOMOKAFFKFE_TypeDefinitionIndex = 57447;
 
 	struct alignas(4) NOMOKAFFKFE
 	{

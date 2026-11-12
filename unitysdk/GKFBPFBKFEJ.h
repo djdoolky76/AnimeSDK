@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByMainMissionFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKFBPFBKFEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A962F0)
-#define GKFBPFBKFEJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A96320)
+#define GKFBPFBKFEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x169D31F0)
+#define GKFBPFBKFEJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169D3220)
 
-inline static constexpr unsigned int GKFBPFBKFEJ_TypeDefinitionIndex = 52603;
+inline static constexpr unsigned int GKFBPFBKFEJ_TypeDefinitionIndex = 53710;
 
 	class GKFBPFBKFEJ
 	{

@@ -4,18 +4,18 @@
 class GCECAGOELDP;
 namespace System { class Object; }
 
-#define GCECAGOELDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E43B8D0)
-#define GCECAGOELDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E43B910)
-#define GCECAGOELDP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E43B920)
+#define GCECAGOELDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F729650)
+#define GCECAGOELDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F729690)
+#define GCECAGOELDP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F7296A0)
 
-inline static constexpr unsigned int GCECAGOELDP___c_TypeDefinitionIndex = 28373;
+inline static constexpr unsigned int GCECAGOELDP___c_TypeDefinitionIndex = 28963;
 
 	class GCECAGOELDP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEFA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55D50);
 		}
 
 		static ::System::Void _cctor()

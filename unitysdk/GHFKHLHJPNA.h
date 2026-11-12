@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopWindowStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHFKHLHJPNA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1B030)
-#define GHFKHLHJPNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A1B060)
+#define GHFKHLHJPNA_CTOR_OFFSET UNITYSDK_OFFSET(0x16955770)
+#define GHFKHLHJPNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169557A0)
 
-inline static constexpr unsigned int GHFKHLHJPNA_TypeDefinitionIndex = 52893;
+inline static constexpr unsigned int GHFKHLHJPNA_TypeDefinitionIndex = 54049;
 
 	class GHFKHLHJPNA
 	{

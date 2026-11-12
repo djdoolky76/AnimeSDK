@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MonoEffectPluginCharaOverlayMatBase.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARABREAK_CTOR_OFFSET UNITYSDK_OFFSET(0xD7C6470)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARABREAK_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7C6320)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARABREAK_CTOR_OFFSET UNITYSDK_OFFSET(0xE2178C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARABREAK_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xE2177C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaBreak_TypeDefinitionIndex = 69936;
+	inline static constexpr unsigned int MonoEffectPluginCharaBreak_TypeDefinitionIndex = 71895;
 
 	class MonoEffectPluginCharaBreak : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{

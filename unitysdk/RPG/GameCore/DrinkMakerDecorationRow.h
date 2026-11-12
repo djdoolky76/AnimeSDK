@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerDecorationRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERDECORATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D61DE20)
-#define RPG_GAMECORE_DRINKMAKERDECORATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D61DBA0)
+#define RPG_GAMECORE_DRINKMAKERDECORATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85BDC0)
+#define RPG_GAMECORE_DRINKMAKERDECORATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E85BB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerDecorationRow_TypeDefinitionIndex = 13174;
+	inline static constexpr unsigned int DrinkMakerDecorationRow_TypeDefinitionIndex = 13248;
 
 	class DrinkMakerDecorationRow : public ::System::Object
 	{
 	public:
-		::System::String* PrefabPath; // 0x10
+		::System::String* IconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* IncludeTagList; // 0x18
-		::System::String* IconPath; // 0x20
-		::System::String* CupAnchoPath; // 0x28
+		::System::String* CupAnchoPath; // 0x20
+		::System::String* PrefabPath; // 0x28
 		::System::UInt32 DecorationID; // 0x30
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID DecorationName; // 0x38

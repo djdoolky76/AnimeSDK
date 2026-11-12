@@ -11,7 +11,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Aggregate__AggregateAsync_d__2_3_TypeDefinitionIndex = 45207;
+	inline static constexpr unsigned int Aggregate__AggregateAsync_d__2_3_TypeDefinitionIndex = 46236;
 
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) Aggregate__AggregateAsync_d__2_3

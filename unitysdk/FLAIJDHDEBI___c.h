@@ -4,18 +4,18 @@
 class FLAIJDHDEBI;
 namespace System { class Object; }
 
-#define FLAIJDHDEBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3B4C30)
-#define FLAIJDHDEBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B4C70)
-#define FLAIJDHDEBI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E3B4C80)
+#define FLAIJDHDEBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6BAFA0)
+#define FLAIJDHDEBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6BAFE0)
+#define FLAIJDHDEBI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F6BAFF0)
 
-inline static constexpr unsigned int FLAIJDHDEBI___c_TypeDefinitionIndex = 31488;
+inline static constexpr unsigned int FLAIJDHDEBI___c_TypeDefinitionIndex = 32401;
 
 	class FLAIJDHDEBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64020);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x499B0);
 		}
 
 		static ::System::Void _cctor()

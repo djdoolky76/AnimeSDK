@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF8F080)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF8F0C0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_0_OFFSET UNITYSDK_OFFSET(0xDF8F0D0)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_1_OFFSET UNITYSDK_OFFSET(0xDF8F340)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA3F310)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA3F350)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_0_OFFSET UNITYSDK_OFFSET(0xEA3F360)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATA___C__TOSTRING_B__1_1_OFFSET UNITYSDK_OFFSET(0xEA3F5D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefTeamData___c_TypeDefinitionIndex = 67534;
+	inline static constexpr unsigned int RogueTournBuildRefTeamData___c_TypeDefinitionIndex = 69478;
 
 	class RogueTournBuildRefTeamData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::String*>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C410);
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71600);
 		}
 
 		static ::System::Func_2<::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*, ::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C418);
+			return (::System::Func_2<::RPG::PoolList_1<::RPG::Client::IRogueTournBuildRefTeamMemberData*>*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71608);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C420);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71610);
 		}
 
 		static ::System::Void _cctor()

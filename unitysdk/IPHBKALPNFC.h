@@ -5,10 +5,10 @@ class CIIKBJFOKHL;
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IPHBKALPNFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1651FD70)
-#define IPHBKALPNFC_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1651FE00)
+#define IPHBKALPNFC_CTOR_OFFSET UNITYSDK_OFFSET(0xB854BB0)
+#define IPHBKALPNFC_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB854C40)
 
-inline static constexpr unsigned int IPHBKALPNFC_TypeDefinitionIndex = 77926;
+inline static constexpr unsigned int IPHBKALPNFC_TypeDefinitionIndex = 80661;
 
 	class IPHBKALPNFC : public ::CIIKBJFOKHL
 	{

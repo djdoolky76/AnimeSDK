@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int APFCOAGONHI_TypeDefinitionIndex = 62106;
+inline static constexpr unsigned int APFCOAGONHI_TypeDefinitionIndex = 63519;
 
 	class APFCOAGONHI
 	{

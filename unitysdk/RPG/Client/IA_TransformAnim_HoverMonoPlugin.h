@@ -6,11 +6,11 @@
 #include "unitysdk/RPG/Client/SceneTransformAnim_RotateAxis.h"
 #include "unitysdk/RPG/Client/SceneTransformAnim_RotateType.h"
 
-#define RPG_CLIENT_IA_TRANSFORMANIM_HOVERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD3354E0)
+#define RPG_CLIENT_IA_TRANSFORMANIM_HOVERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDD69A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IA_TransformAnim_HoverMonoPlugin_TypeDefinitionIndex = 70844;
+	inline static constexpr unsigned int IA_TransformAnim_HoverMonoPlugin_TypeDefinitionIndex = 72823;
 
 	class IA_TransformAnim_HoverMonoPlugin
 	{

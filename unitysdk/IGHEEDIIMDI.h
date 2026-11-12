@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowTargetHPBar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IGHEEDIIMDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1640DCF0)
-#define IGHEEDIIMDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1640DD00)
-#define IGHEEDIIMDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1640DD40)
-#define IGHEEDIIMDI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1640DED0)
-#define IGHEEDIIMDI_TICK_OFFSET UNITYSDK_OFFSET(0x1640DF20)
+#define IGHEEDIIMDI_CTOR_OFFSET UNITYSDK_OFFSET(0x173BDD20)
+#define IGHEEDIIMDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173BDD30)
+#define IGHEEDIIMDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173BDD70)
+#define IGHEEDIIMDI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x173BDF00)
+#define IGHEEDIIMDI_TICK_OFFSET UNITYSDK_OFFSET(0x173BDF50)
 
-inline static constexpr unsigned int IGHEEDIIMDI_TypeDefinitionIndex = 56459;
+inline static constexpr unsigned int IGHEEDIIMDI_TypeDefinitionIndex = 57677;
 
 	class IGHEEDIIMDI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowTargetHPBar* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowTargetHPBar* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowTargetHPBar* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowTargetHPBar*))((::PBYTE)hIl2Cpp + IGHEEDIIMDI_CTOR_OFFSET))(this, a1, a2);

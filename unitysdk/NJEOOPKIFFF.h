@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NJEOOPKIFFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96D360)
+#define NJEOOPKIFFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2F140)
 
-inline static constexpr unsigned int NJEOOPKIFFF_TypeDefinitionIndex = 43694;
+inline static constexpr unsigned int NJEOOPKIFFF_TypeDefinitionIndex = 44677;
 
 	class NJEOOPKIFFF : public ::System::Object
 	{

@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChestMonsterRow; }
 
-#define RPG_GAMECORE_CHESTMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5959D0)
-#define RPG_GAMECORE_CHESTMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D595740)
+#define RPG_GAMECORE_CHESTMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A5CF0)
+#define RPG_GAMECORE_CHESTMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7A5A60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChestMonsterRow_TypeDefinitionIndex = 14387;
+	inline static constexpr unsigned int ChestMonsterRow_TypeDefinitionIndex = 14544;
 
 	class ChestMonsterRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChestMonsterType MonsterType; // 0x10
-		::System::UInt32 EventID; // 0x14
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 FloorID; // 0x1C
-		::System::UInt32 ConfigID; // 0x20
-		::System::UInt32 GroupID; // 0x24
-		::System::UInt32 MainMissionID; // 0x28
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 FloorID; // 0x14
+		::System::UInt32 GroupID; // 0x18
+		::RPG::GameCore::ChestMonsterType MonsterType; // 0x1C
+		::System::UInt32 EventID; // 0x20
+		::System::UInt32 MainMissionID; // 0x24
+		::System::UInt32 ConfigID; // 0x28
 		::System::UInt32 PlaneID; // 0x2C
 		::System::Void _ctor()
 		{

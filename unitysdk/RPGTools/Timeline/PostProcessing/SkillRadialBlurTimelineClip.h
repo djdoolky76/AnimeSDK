@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SKILLRADIALBLURTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE92A280)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SKILLRADIALBLURTIMELINECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xF405EE0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SkillRadialBlurTimelineClip_TypeDefinitionIndex = 48613;
+	inline static constexpr unsigned int SkillRadialBlurTimelineClip_TypeDefinitionIndex = 49654;
 
 	class SkillRadialBlurTimelineClip
 	{

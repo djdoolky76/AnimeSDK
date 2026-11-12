@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class Item; }
 
-#define LIOALDPOLJE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB6DB1C0)
-#define LIOALDPOLJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DB1B0)
+#define LIOALDPOLJE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBF76300)
+#define LIOALDPOLJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBF762F0)
 
-inline static constexpr unsigned int LIOALDPOLJE_TypeDefinitionIndex = 62884;
+inline static constexpr unsigned int LIOALDPOLJE_TypeDefinitionIndex = 64322;
 
 	class LIOALDPOLJE : public ::System::Object
 	{
 	public:
-		::System::UInt32 CMNOEFFFNPE; // 0x10
-		::System::UInt32 PBELLGFMILM; // 0x14
-		::System::UInt32 PJAAGEPKBMM; // 0x18
+		::System::UInt32 PJAAGEPKBMM; // 0x10
+		::System::UInt32 CMNOEFFFNPE; // 0x14
+		::System::UInt32 PBELLGFMILM; // 0x18
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + LIOALDPOLJE_CTOR_OFFSET))(this, a1, a2, a3);

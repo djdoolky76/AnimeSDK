@@ -6,16 +6,16 @@ class HHEIPELCNLH;
 namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 
-#define EBMNAMMEFKB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x12D03C80)
-#define EBMNAMMEFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x12D03C50)
+#define EBMNAMMEFKB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x13AB4EE0)
+#define EBMNAMMEFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x13AB4EB0)
 
-inline static constexpr unsigned int EBMNAMMEFKB_TypeDefinitionIndex = 81201;
+inline static constexpr unsigned int EBMNAMMEFKB_TypeDefinitionIndex = 83981;
 
 	class EBMNAMMEFKB : public ::System::Object
 	{
 	public:
-		::FAODCLALLME* ILMLNDPKFNO; // 0x10
-		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x18
+		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x10
+		::FAODCLALLME* ILMLNDPKFNO; // 0x18
 		::System::Void _ctor(::FAODCLALLME* a1, ::RPG::Client::FateRin::Logging::ILoggerFactory* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::FAODCLALLME*, ::RPG::Client::FateRin::Logging::ILoggerFactory*))((::PBYTE)hIl2Cpp + EBMNAMMEFKB_CTOR_OFFSET))(this, a1, a2);

@@ -8,17 +8,17 @@ class GLPPDCIBMIH;
 class IJFIHJJPHNA;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LADCEAIPJIO_ACKKLEOAMCH_OFFSET UNITYSDK_OFFSET(0x1C71F520)
-#define LADCEAIPJIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71F4A0)
-#define LADCEAIPJIO_PCGCDDDBMFE_OFFSET UNITYSDK_OFFSET(0x1C71F920)
+#define LADCEAIPJIO_ACKKLEOAMCH_OFFSET UNITYSDK_OFFSET(0x1D8A0EA0)
+#define LADCEAIPJIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A0E20)
+#define LADCEAIPJIO_PCGCDDDBMFE_OFFSET UNITYSDK_OFFSET(0x1D8A12A0)
 
-inline static constexpr unsigned int LADCEAIPJIO_TypeDefinitionIndex = 36227;
+inline static constexpr unsigned int LADCEAIPJIO_TypeDefinitionIndex = 37155;
 
 	class LADCEAIPJIO : public ::EGDGOMKKEJI
 	{
 	public:
-		::GGDIMKDOIGA* MLDDDJAEJKH; // 0x38
-		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* MIIHADANIEI; // 0x40
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* MIIHADANIEI; // 0x38
+		::GGDIMKDOIGA* MLDDDJAEJKH; // 0x40
 		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* FPAJMIJIPEH; // 0x48
 		::System::Void _ctor(::GGDIMKDOIGA* a1, ::IJFIHJJPHNA* a2, ::Il2CppArray<::RPG::GameCore::FixPoint>* a3)
 		{

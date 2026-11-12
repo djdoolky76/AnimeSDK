@@ -4,18 +4,18 @@
 class PBFEGMDAIDN;
 namespace System { class Object; }
 
-#define PBFEGMDAIDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF5250)
-#define PBFEGMDAIDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF5290)
-#define PBFEGMDAIDN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEF52A0)
+#define PBFEGMDAIDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1BED20)
+#define PBFEGMDAIDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1BED60)
+#define PBFEGMDAIDN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F1BED70)
 
-inline static constexpr unsigned int PBFEGMDAIDN___c_TypeDefinitionIndex = 33003;
+inline static constexpr unsigned int PBFEGMDAIDN___c_TypeDefinitionIndex = 33918;
 
 	class PBFEGMDAIDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33260);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A970);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetTeamLocation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PEAPKCODABA_CTOR_OFFSET UNITYSDK_OFFSET(0xC0254A0)
-#define PEAPKCODABA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0254D0)
+#define PEAPKCODABA_CTOR_OFFSET UNITYSDK_OFFSET(0xC92B6B0)
+#define PEAPKCODABA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC92B6E0)
 
-inline static constexpr unsigned int PEAPKCODABA_TypeDefinitionIndex = 56430;
+inline static constexpr unsigned int PEAPKCODABA_TypeDefinitionIndex = 57648;
 
 	class PEAPKCODABA
 	{

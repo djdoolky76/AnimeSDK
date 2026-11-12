@@ -5,13 +5,13 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Windows::OS::Channel { class BindManager; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0E1F0)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1BE12880)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1BE12B90)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF96830)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__0_OFFSET UNITYSDK_OFFSET(0x1CF9B310)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS46_0__BINDEMAIL_B__1_OFFSET UNITYSDK_OFFSET(0x1CF9B620)
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass46_0_TypeDefinitionIndex = 8363;
+	inline static constexpr unsigned int BindManager___c__DisplayClass46_0_TypeDefinitionIndex = 8372;
 
 	class BindManager___c__DisplayClass46_0 : public ::System::Object
 	{

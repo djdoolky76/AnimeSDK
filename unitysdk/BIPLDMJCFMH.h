@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define BIPLDMJCFMH_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB7960B0)
-#define BIPLDMJCFMH_CTOR_OFFSET UNITYSDK_OFFSET(0xB7960A0)
+#define BIPLDMJCFMH_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBE59180)
+#define BIPLDMJCFMH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE59170)
 
-inline static constexpr unsigned int BIPLDMJCFMH_TypeDefinitionIndex = 52061;
+inline static constexpr unsigned int BIPLDMJCFMH_TypeDefinitionIndex = 53166;
 
 	class BIPLDMJCFMH : public ::System::Attribute
 	{

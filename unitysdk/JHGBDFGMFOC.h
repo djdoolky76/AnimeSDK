@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowUINodes; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHGBDFGMFOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1B2D80)
-#define JHGBDFGMFOC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1B2D90)
-#define JHGBDFGMFOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1B2DD0)
-#define JHGBDFGMFOC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1B3080)
-#define JHGBDFGMFOC_TICK_OFFSET UNITYSDK_OFFSET(0xB1B30D0)
+#define JHGBDFGMFOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D2CD0)
+#define JHGBDFGMFOC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9D2CE0)
+#define JHGBDFGMFOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9D2D20)
+#define JHGBDFGMFOC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9D2FD0)
+#define JHGBDFGMFOC_TICK_OFFSET UNITYSDK_OFFSET(0xB9D3020)
 
-inline static constexpr unsigned int JHGBDFGMFOC_TypeDefinitionIndex = 58706;
+inline static constexpr unsigned int JHGBDFGMFOC_TypeDefinitionIndex = 59974;
 
 	class JHGBDFGMFOC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowUINodes* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowUINodes* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowUINodes* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowUINodes*))((::PBYTE)hIl2Cpp + JHGBDFGMFOC_CTOR_OFFSET))(this, a1, a2);

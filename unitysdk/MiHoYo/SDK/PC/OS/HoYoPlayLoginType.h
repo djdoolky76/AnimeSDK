@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_HOYOPLAYLOGINTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3F340)
+#define MIHOYO_SDK_PC_OS_HOYOPLAYLOGINTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C5F60)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoPlayLoginType_TypeDefinitionIndex = 8491;
+	inline static constexpr unsigned int HoYoPlayLoginType_TypeDefinitionIndex = 8500;
 
 	class HoYoPlayLoginType : public ::System::Object
 	{

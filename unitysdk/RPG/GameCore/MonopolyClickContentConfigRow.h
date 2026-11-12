@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyClickContentConfigRow; }
 
-#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89D380)
-#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D89D260)
+#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB76D0)
+#define RPG_GAMECORE_MONOPOLYCLICKCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAB75B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyClickContentConfigRow_TypeDefinitionIndex = 12035;
+	inline static constexpr unsigned int MonopolyClickContentConfigRow_TypeDefinitionIndex = 12092;
 
 	class MonopolyClickContentConfigRow : public ::System::Object
 	{

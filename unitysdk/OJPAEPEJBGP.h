@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetFloorCustomString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJPAEPEJBGP_CTOR_OFFSET UNITYSDK_OFFSET(0xBED09F0)
-#define OJPAEPEJBGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBED0A20)
+#define OJPAEPEJBGP_CTOR_OFFSET UNITYSDK_OFFSET(0xC7C8150)
+#define OJPAEPEJBGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7C8180)
 
-inline static constexpr unsigned int OJPAEPEJBGP_TypeDefinitionIndex = 53234;
+inline static constexpr unsigned int OJPAEPEJBGP_TypeDefinitionIndex = 54396;
 
 	class OJPAEPEJBGP
 	{

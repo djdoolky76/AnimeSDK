@@ -5,17 +5,17 @@ class NEEDINKCEHF;
 namespace RPG::Client { class ExpeditionBattleBuff; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EPELDOEFJEO_CTOR_OFFSET UNITYSDK_OFFSET(0x155D2530)
-#define EPELDOEFJEO_GET_BUFFS_OFFSET UNITYSDK_OFFSET(0x155D2520)
-#define EPELDOEFJEO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0x155D25B0)
+#define EPELDOEFJEO_CTOR_OFFSET UNITYSDK_OFFSET(0x164E5230)
+#define EPELDOEFJEO_GET_BUFFS_OFFSET UNITYSDK_OFFSET(0x164E5220)
+#define EPELDOEFJEO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0x164E52B0)
 
-inline static constexpr unsigned int EPELDOEFJEO_TypeDefinitionIndex = 63922;
+inline static constexpr unsigned int EPELDOEFJEO_TypeDefinitionIndex = 65364;
 
 	class EPELDOEFJEO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleBuff*>* _Buffs_k__BackingField; // 0x10
-		::NEEDINKCEHF* LEMBDFBOFLG; // 0x18
+		::NEEDINKCEHF* LEMBDFBOFLG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleBuff*>* _Buffs_k__BackingField; // 0x18
 		::System::Void _ctor(::NEEDINKCEHF* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NEEDINKCEHF*))((::PBYTE)hIl2Cpp + EPELDOEFJEO_CTOR_OFFSET))(this, a1);

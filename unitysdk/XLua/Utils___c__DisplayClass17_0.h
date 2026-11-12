@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define XLUA_UTILS___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x153CC7B0)
-#define XLUA_UTILS___C__DISPLAYCLASS17_0__REFLECTIONWRAP_B__0_OFFSET UNITYSDK_OFFSET(0x153D4920)
+#define XLUA_UTILS___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16303340)
+#define XLUA_UTILS___C__DISPLAYCLASS17_0__REFLECTIONWRAP_B__0_OFFSET UNITYSDK_OFFSET(0x1630B250)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c__DisplayClass17_0_TypeDefinitionIndex = 50271;
+	inline static constexpr unsigned int Utils___c__DisplayClass17_0_TypeDefinitionIndex = 51322;
 
 	class Utils___c__DisplayClass17_0 : public ::System::Object
 	{

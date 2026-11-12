@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NFBACDGNPIN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D200810)
-#define NFBACDGNPIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D200E10)
-#define NFBACDGNPIN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D200980)
-#define NFBACDGNPIN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D200240)
-#define NFBACDGNPIN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2004D0)
-#define NFBACDGNPIN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D200A20)
-#define NFBACDGNPIN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D200A70)
-#define NFBACDGNPIN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D200850)
-#define NFBACDGNPIN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D200470)
-#define NFBACDGNPIN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D200640)
-#define NFBACDGNPIN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2008E0)
-#define NFBACDGNPIN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2001C0)
+#define NFBACDGNPIN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E415510)
+#define NFBACDGNPIN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E415B10)
+#define NFBACDGNPIN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E415680)
+#define NFBACDGNPIN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E414F40)
+#define NFBACDGNPIN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E4151D0)
+#define NFBACDGNPIN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E415720)
+#define NFBACDGNPIN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E415770)
+#define NFBACDGNPIN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E415550)
+#define NFBACDGNPIN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E415170)
+#define NFBACDGNPIN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E415340)
+#define NFBACDGNPIN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E4155E0)
+#define NFBACDGNPIN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E414EC0)
 
-inline static constexpr unsigned int NFBACDGNPIN_TypeDefinitionIndex = 14558;
+inline static constexpr unsigned int NFBACDGNPIN_TypeDefinitionIndex = 14713;
 
 	class NFBACDGNPIN : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x2DED0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PreAvatarLevelingTemplateDataRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PreAvatarLevelingTemplateDataRow*>**)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x2DED8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PreAvatarLevelingTemplateDataRow*>**)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x486F0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x2DEE0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x486F8);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x48700);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x9690);
+			return (::System::Boolean*)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0xEEE0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0x9691);
+			return (::System::Byte*)UnitySDK::FromName("", "NFBACDGNPIN")->GetStaticField(0xEEE1);
 		}
 
 		static ::System::Void _cctor()

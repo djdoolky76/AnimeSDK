@@ -8,19 +8,19 @@ class NIMCJKKDGNG;
 class PNPEAAAFLAA;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JCLBAEHIBLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F43C0)
-#define JCLBAEHIBLA_EMPOAKIKBDI_OFFSET UNITYSDK_OFFSET(0x1C6F4310)
+#define JCLBAEHIBLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D875E20)
+#define JCLBAEHIBLA_EMPOAKIKBDI_OFFSET UNITYSDK_OFFSET(0x1D875D70)
 
-inline static constexpr unsigned int JCLBAEHIBLA_TypeDefinitionIndex = 36269;
+inline static constexpr unsigned int JCLBAEHIBLA_TypeDefinitionIndex = 37197;
 
 	class JCLBAEHIBLA : public ::System::Object
 	{
 	public:
-		::BFAANIPGJEB* MJGPGGNMDDC; // 0x10
-		::PNPEAAAFLAA* GNLAGMCLFFI; // 0x18
-		::NIMCJKKDGNG* ADCPPJNMGJP; // 0x20
-		::GFCOHGKHIPJ* HHCFJMFDLAF; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HAFCMNPMFGO*>* GEGKCAOLMOH; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HAFCMNPMFGO*>* GEGKCAOLMOH; // 0x10
+		::GFCOHGKHIPJ* HHCFJMFDLAF; // 0x18
+		::PNPEAAAFLAA* GNLAGMCLFFI; // 0x20
+		::BFAANIPGJEB* MJGPGGNMDDC; // 0x28
+		::NIMCJKKDGNG* ADCPPJNMGJP; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JCLBAEHIBLA_CTOR_OFFSET))(this);

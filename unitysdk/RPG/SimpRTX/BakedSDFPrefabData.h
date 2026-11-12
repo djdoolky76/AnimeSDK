@@ -5,12 +5,12 @@ namespace RPG::Rendering { class SDFBoundsData; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_SIMPRTX_BAKEDSDFPREFABDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE88A1D0)
-#define RPG_SIMPRTX_BAKEDSDFPREFABDATA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xE88A160)
+#define RPG_SIMPRTX_BAKEDSDFPREFABDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF3575E0)
+#define RPG_SIMPRTX_BAKEDSDFPREFABDATA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xF357570)
 
 namespace RPG::SimpRTX
 {
-	inline static constexpr unsigned int BakedSDFPrefabData_TypeDefinitionIndex = 51775;
+	inline static constexpr unsigned int BakedSDFPrefabData_TypeDefinitionIndex = 52861;
 
 	class BakedSDFPrefabData : public ::System::Object
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LittleGameCustomVisibilityConfig; }
 namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameLevelVarCondition; }
 
-#define RPG_GAMECORE_LITTLEGAMECUSTOMVISIBILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E0910)
-#define RPG_GAMECORE_LITTLEGAMECUSTOMVISIBILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7E0950)
-#define RPG_GAMECORE_LITTLEGAMECUSTOMVISIBILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E0770)
+#define RPG_GAMECORE_LITTLEGAMECUSTOMVISIBILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA21240)
+#define RPG_GAMECORE_LITTLEGAMECUSTOMVISIBILITYCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA21280)
+#define RPG_GAMECORE_LITTLEGAMECUSTOMVISIBILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA210A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameCustomVisibilityConfig_TypeDefinitionIndex = 18870;
+	inline static constexpr unsigned int LittleGameCustomVisibilityConfig_TypeDefinitionIndex = 19032;
 
 	class LittleGameCustomVisibilityConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

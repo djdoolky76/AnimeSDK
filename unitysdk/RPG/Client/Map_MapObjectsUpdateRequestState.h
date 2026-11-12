@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Map_MapObjectsUpdateRequestState_TypeDefinitionIndex = 60862;
+	inline static constexpr unsigned int Map_MapObjectsUpdateRequestState_TypeDefinitionIndex = 62241;
 
 	enum class Map_MapObjectsUpdateRequestState : ::System::Int32
 	{

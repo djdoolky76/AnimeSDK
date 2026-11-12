@@ -5,25 +5,25 @@ namespace RPG::Client { class ChessRogueAeonDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHESSROGUEAEONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCAE31C0)
-#define RPG_CLIENT_CHESSROGUEAEONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCAE3200)
-#define RPG_CLIENT_CHESSROGUEAEONINFO___C__GETCHESSROGUEAEONSORTEDDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xCAE3210)
+#define RPG_CLIENT_CHESSROGUEAEONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD4471C0)
+#define RPG_CLIENT_CHESSROGUEAEONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD447200)
+#define RPG_CLIENT_CHESSROGUEAEONINFO___C__GETCHESSROGUEAEONSORTEDDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xD447210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueAeonInfo___c_TypeDefinitionIndex = 66902;
+	inline static constexpr unsigned int ChessRogueAeonInfo___c_TypeDefinitionIndex = 68846;
 
 	class ChessRogueAeonInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2AE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xA3A0);
 		}
 
 		static ::System::Func_2<::RPG::Client::ChessRogueAeonDataItem*, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChessRogueAeonDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2AE8);
+			return (::System::Func_2<::RPG::Client::ChessRogueAeonDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xA3A8);
 		}
 
 		static ::System::Void _cctor()

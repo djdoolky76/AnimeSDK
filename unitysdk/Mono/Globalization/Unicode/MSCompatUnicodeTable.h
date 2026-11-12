@@ -7,27 +7,27 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_BUILDTAILORINGTABLES_OFFSET UNITYSDK_OFFSET(0x1C058250)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1C058B40)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0592B0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJKCORE_OFFSET UNITYSDK_OFFSET(0x1C059750)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJK_OFFSET UNITYSDK_OFFSET(0x1C059640)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETRESOURCE_OFFSET UNITYSDK_OFFSET(0x1C059220)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETTAILORINGINFO_OFFSET UNITYSDK_OFFSET(0x1C0581F0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GET_ISREADY_OFFSET UNITYSDK_OFFSET(0x1C059210)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_HASSPECIALWEIGHT_OFFSET UNITYSDK_OFFSET(0x1C0590D0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHALFWIDTHKANA_OFFSET UNITYSDK_OFFSET(0x1C059130)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHIRAGANA_OFFSET UNITYSDK_OFFSET(0x1C059140)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLENONSPACING_OFFSET UNITYSDK_OFFSET(0x1C058EB0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLE_OFFSET UNITYSDK_OFFSET(0x1C058D40)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISJAPANESESMALLLETTER_OFFSET UNITYSDK_OFFSET(0x1C059150)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL1_OFFSET UNITYSDK_OFFSET(0x1C058BC0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL2_OFFSET UNITYSDK_OFFSET(0x1C058C40)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL3_OFFSET UNITYSDK_OFFSET(0x1C058CC0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_SETCJKREFERENCES_OFFSET UNITYSDK_OFFSET(0x1C0589E0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOKANATYPEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1C058F50)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOWIDTHCOMPAT_OFFSET UNITYSDK_OFFSET(0x1C058F60)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_UINT32FROMBYTEPTR_OFFSET UNITYSDK_OFFSET(0x1C059280)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_BUILDTAILORINGTABLES_OFFSET UNITYSDK_OFFSET(0x1D1DF600)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1D1DFEF0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1E0630)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJKCORE_OFFSET UNITYSDK_OFFSET(0x1D1E0AD0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_FILLCJK_OFFSET UNITYSDK_OFFSET(0x1D1E09C0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETRESOURCE_OFFSET UNITYSDK_OFFSET(0x1D1E05A0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GETTAILORINGINFO_OFFSET UNITYSDK_OFFSET(0x1D1DF5A0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_GET_ISREADY_OFFSET UNITYSDK_OFFSET(0x1D1E0590)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_HASSPECIALWEIGHT_OFFSET UNITYSDK_OFFSET(0x1D1E0450)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHALFWIDTHKANA_OFFSET UNITYSDK_OFFSET(0x1D1E04B0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISHIRAGANA_OFFSET UNITYSDK_OFFSET(0x1D1E04C0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLENONSPACING_OFFSET UNITYSDK_OFFSET(0x1D1E0230)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISIGNORABLE_OFFSET UNITYSDK_OFFSET(0x1D1E00F0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_ISJAPANESESMALLLETTER_OFFSET UNITYSDK_OFFSET(0x1D1E04D0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL1_OFFSET UNITYSDK_OFFSET(0x1D1DFF70)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL2_OFFSET UNITYSDK_OFFSET(0x1D1DFFF0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_LEVEL3_OFFSET UNITYSDK_OFFSET(0x1D1E0070)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_SETCJKREFERENCES_OFFSET UNITYSDK_OFFSET(0x1D1DFD90)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOKANATYPEINSENSITIVE_OFFSET UNITYSDK_OFFSET(0x1D1E02D0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_TOWIDTHCOMPAT_OFFSET UNITYSDK_OFFSET(0x1D1E02E0)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE_UINT32FROMBYTEPTR_OFFSET UNITYSDK_OFFSET(0x1D1E0600)
 
 namespace Mono::Globalization::Unicode
 {
@@ -36,99 +36,99 @@ namespace Mono::Globalization::Unicode
 	class MSCompatUnicodeTable : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_forLock()
-		{
-			return (::System::Object**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2950);
-		}
-
 		static ::Il2CppArray<::Mono::Globalization::Unicode::TailoringInfo*>** StaticGet_tailoringInfos()
 		{
-			return (::Il2CppArray<::Mono::Globalization::Unicode::TailoringInfo*>**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2958);
+			return (::Il2CppArray<::Mono::Globalization::Unicode::TailoringInfo*>**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x9E60);
+		}
+
+		static ::System::Object** StaticGet_forLock()
+		{
+			return (::System::Object**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x9E68);
 		}
 
 		static ::Il2CppArray<::System::Char>** StaticGet_tailoringArr()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2960);
-		}
-
-		static ::PVOID* StaticGet_cjkCHTcategory()
-		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20C0);
-		}
-
-		static ::PVOID* StaticGet_ignorableFlags()
-		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20C8);
-		}
-
-		static ::PVOID* StaticGet_cjkCHSlv1()
-		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20D0);
-		}
-
-		static ::PVOID* StaticGet_categories()
-		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20D8);
-		}
-
-		static ::PVOID* StaticGet_level1()
-		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20E0);
-		}
-
-		static ::PVOID* StaticGet_cjkKOcategory()
-		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20E8);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x9E70);
 		}
 
 		static ::PVOID* StaticGet_cjkCHTlv1()
 		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20F0);
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC30);
 		}
 
-		static ::PVOID* StaticGet_level2()
+		static ::PVOID* StaticGet_level1()
 		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x20F8);
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC38);
+		}
+
+		static ::PVOID* StaticGet_categories()
+		{
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC40);
 		}
 
 		static ::PVOID* StaticGet_level3()
 		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2100);
-		}
-
-		static ::PVOID* StaticGet_cjkJAcategory()
-		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2108);
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC48);
 		}
 
 		static ::PVOID* StaticGet_cjkKOlv1()
 		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2110);
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC50);
 		}
 
 		static ::PVOID* StaticGet_cjkCHScategory()
 		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2118);
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC58);
 		}
 
-		static ::System::Int32* StaticGet_MaxExpansionLength()
+		static ::PVOID* StaticGet_cjkCHTcategory()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2120);
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC60);
+		}
+
+		static ::PVOID* StaticGet_level2()
+		{
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC68);
 		}
 
 		static ::System::Boolean* StaticGet_isReady()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2124);
+			return (::System::Boolean*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC70);
 		}
 
-		static ::PVOID* StaticGet_cjkKOlv2()
+		static ::System::Int32* StaticGet_MaxExpansionLength()
 		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2128);
+			return (::System::Int32*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC74);
+		}
+
+		static ::PVOID* StaticGet_ignorableFlags()
+		{
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC78);
 		}
 
 		static ::PVOID* StaticGet_cjkJAlv1()
 		{
-			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0x2130);
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC80);
+		}
+
+		static ::PVOID* StaticGet_cjkKOcategory()
+		{
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC88);
+		}
+
+		static ::PVOID* StaticGet_cjkCHSlv1()
+		{
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC90);
+		}
+
+		static ::PVOID* StaticGet_cjkJAcategory()
+		{
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xC98);
+		}
+
+		static ::PVOID* StaticGet_cjkKOlv2()
+		{
+			return (::PVOID*)UnitySDK::FromName("Mono.Globalization.Unicode", "MSCompatUnicodeTable")->GetStaticField(0xCA0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueKeywordData; }
 
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF1AFE0)
-#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0__GETROGUEKEYWORDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xDF1C150)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE9CB530)
+#define RPG_CLIENT_ROGUEKEYWORDINFO___C__DISPLAYCLASS1_0__GETROGUEKEYWORDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xE9CC6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueKeywordInfo___c__DisplayClass1_0_TypeDefinitionIndex = 67267;
+	inline static constexpr unsigned int RogueKeywordInfo___c__DisplayClass1_0_TypeDefinitionIndex = 69211;
 
 	class RogueKeywordInfo___c__DisplayClass1_0 : public ::System::Object
 	{

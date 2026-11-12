@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace RPGTools::Timeline::BattlePerform { class BPCharacterMoveData; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B8EC0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE8B8DA0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF392E20)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xF392D00)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterMoveBehaviour_TypeDefinitionIndex = 48817;
+	inline static constexpr unsigned int BPCharacterMoveBehaviour_TypeDefinitionIndex = 49863;
 
 	class BPCharacterMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

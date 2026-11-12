@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdvSceneDangerMonsterWarningConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSCENEDANGERMONSTERWARNINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AD260)
-#define RPG_GAMECORE_ADVSCENEDANGERMONSTERWARNINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AD060)
+#define RPG_GAMECORE_ADVSCENEDANGERMONSTERWARNINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BC790)
+#define RPG_GAMECORE_ADVSCENEDANGERMONSTERWARNINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5BC590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSceneDangerMonsterWarningConfig_TypeDefinitionIndex = 17624;
+	inline static constexpr unsigned int AdvSceneDangerMonsterWarningConfig_TypeDefinitionIndex = 17793;
 
 	class AdvSceneDangerMonsterWarningConfig : public ::RPG::GameCore::JsonConfig
 	{

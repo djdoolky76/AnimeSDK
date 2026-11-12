@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System::Text { class EncoderFallback; }
 
-#define SYSTEM_TEXT_ENCODERFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C117840)
-#define SYSTEM_TEXT_ENCODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C118130)
-#define SYSTEM_TEXT_ENCODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1C117FF0)
-#define SYSTEM_TEXT_ENCODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x1C116950)
+#define SYSTEM_TEXT_ENCODERFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D29EE40)
+#define SYSTEM_TEXT_ENCODERFALLBACK_GET_EXCEPTIONFALLBACK_OFFSET UNITYSDK_OFFSET(0x1D29F730)
+#define SYSTEM_TEXT_ENCODERFALLBACK_GET_INTERNALSYNCOBJECT_OFFSET UNITYSDK_OFFSET(0x1D29F5F0)
+#define SYSTEM_TEXT_ENCODERFALLBACK_GET_REPLACEMENTFALLBACK_OFFSET UNITYSDK_OFFSET(0x1D29DF50)
 
 namespace System::Text
 {
@@ -19,17 +19,17 @@ namespace System::Text
 		::System::Boolean bIsMicrosoftBestFitFallback; // 0x10
 		static ::System::Text::EncoderFallback** StaticGet_replacementFallback()
 		{
-			return (::System::Text::EncoderFallback**)UnitySDK::FromName("System.Text", "EncoderFallback")->GetStaticField(0x1CC30);
+			return (::System::Text::EncoderFallback**)UnitySDK::FromName("System.Text", "EncoderFallback")->GetStaticField(0x24880);
 		}
 
 		static ::System::Object** StaticGet_s_InternalSyncObject()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Text", "EncoderFallback")->GetStaticField(0x1CC38);
+			return (::System::Object**)UnitySDK::FromName("System.Text", "EncoderFallback")->GetStaticField(0x24888);
 		}
 
 		static ::System::Text::EncoderFallback** StaticGet_exceptionFallback()
 		{
-			return (::System::Text::EncoderFallback**)UnitySDK::FromName("System.Text", "EncoderFallback")->GetStaticField(0x1CC40);
+			return (::System::Text::EncoderFallback**)UnitySDK::FromName("System.Text", "EncoderFallback")->GetStaticField(0x24890);
 		}
 
 		::System::Void _ctor()

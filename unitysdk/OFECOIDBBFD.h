@@ -3,10 +3,10 @@
 class NGGIGGMKJPC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OFECOIDBBFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3E4E0)
-#define OFECOIDBBFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE3E510)
+#define OFECOIDBBFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F6EF0)
+#define OFECOIDBBFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC6F6F20)
 
-inline static constexpr unsigned int OFECOIDBBFD_TypeDefinitionIndex = 52863;
+inline static constexpr unsigned int OFECOIDBBFD_TypeDefinitionIndex = 54018;
 
 	class OFECOIDBBFD
 	{

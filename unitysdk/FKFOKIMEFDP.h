@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSummonUnitCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FKFOKIMEFDP_CTOR_OFFSET UNITYSDK_OFFSET(0x157F03A0)
-#define FKFOKIMEFDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157F03D0)
+#define FKFOKIMEFDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1675CC50)
+#define FKFOKIMEFDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1675CC80)
 
-inline static constexpr unsigned int FKFOKIMEFDP_TypeDefinitionIndex = 54577;
+inline static constexpr unsigned int FKFOKIMEFDP_TypeDefinitionIndex = 55742;
 
 	class FKFOKIMEFDP
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class ItemCost; }
 
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD384F70)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS20_0__GETITEMNEEDCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xD385F80)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB9250)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS20_0__GETITEMNEEDCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xDDBA260)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass20_0_TypeDefinitionIndex = 65698;
+	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass20_0_TypeDefinitionIndex = 67624;
 
 	class ItemCostCalculator___c__DisplayClass20_0 : public ::System::Object
 	{

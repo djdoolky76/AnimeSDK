@@ -4,9 +4,9 @@
 class DAIBEBMKCDC;
 class GIDHOABFFFP;
 
-#define NFALGLBEBFA_CCNNHMNAMIP_OFFSET UNITYSDK_OFFSET(0xBB76E40)
+#define NFALGLBEBFA_CCNNHMNAMIP_OFFSET UNITYSDK_OFFSET(0xC451C70)
 
-inline static constexpr unsigned int NFALGLBEBFA_TypeDefinitionIndex = 62701;
+inline static constexpr unsigned int NFALGLBEBFA_TypeDefinitionIndex = 64135;
 
 	class NFALGLBEBFA : public ::System::Object
 	{

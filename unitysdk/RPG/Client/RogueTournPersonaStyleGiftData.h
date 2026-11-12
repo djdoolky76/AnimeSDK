@@ -4,21 +4,21 @@
 namespace RPG::Client { class RogueTournPersonaStyleGiftData; }
 namespace RPG::Client { template <typename T1, typename T2> class RogueInstanceCacheManager_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE033D40)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE033CC0)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0xE02B780)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA__CREATEDATA_OFFSET UNITYSDK_OFFSET(0xE033CD0)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA9E240)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xEA9E1C0)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0xEA95C30)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEGIFTDATA__CREATEDATA_OFFSET UNITYSDK_OFFSET(0xEA9E1D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaStyleGiftData_TypeDefinitionIndex = 67754;
+	inline static constexpr unsigned int RogueTournPersonaStyleGiftData_TypeDefinitionIndex = 69699;
 
 	class RogueTournPersonaStyleGiftData : public ::RPG::Client::RogueTournPersonaStyleGiftDataBase
 	{
 	public:
 		static ::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaStyleGiftData*>** StaticGet__CacheManager()
 		{
-			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaStyleGiftData*>**)UnitySDK::FromName("RPG.Client", "RogueTournPersonaStyleGiftData")->GetStaticField(0x6DA10);
+			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournPersonaStyleGiftData*>**)UnitySDK::FromName("RPG.Client", "RogueTournPersonaStyleGiftData")->GetStaticField(0x72940);
 		}
 
 		::System::Void _ctor()

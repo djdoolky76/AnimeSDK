@@ -6,18 +6,18 @@ class LMKKFPJBAFD;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define LMKKFPJBAFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1166D0)
-#define LMKKFPJBAFD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1166E0)
-#define LMKKFPJBAFD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1166A0)
+#define LMKKFPJBAFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E312EC0)
+#define LMKKFPJBAFD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E312ED0)
+#define LMKKFPJBAFD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E312E90)
 
-inline static constexpr unsigned int LMKKFPJBAFD_TypeDefinitionIndex = 23376;
+inline static constexpr unsigned int LMKKFPJBAFD_TypeDefinitionIndex = 23819;
 
 	class LMKKFPJBAFD : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x18
+		::RPG::GameCore::DynamicFloat* FNCNMCEOALF; // 0x18
 		::RPG::GameCore::DynamicFloat* IMKHIDEBGEB; // 0x20
-		::RPG::GameCore::DynamicFloat* FNCNMCEOALF; // 0x28
+		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x28
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
 		::System::Void _ctor()
 		{

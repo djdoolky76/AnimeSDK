@@ -2,25 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LEKBDJCLKFD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4AD4D0)
-#define LEKBDJCLKFD_DIANDDDPEGO_OFFSET UNITYSDK_OFFSET(0x1C4AD490)
-#define LEKBDJCLKFD_IKDKNJFLBJP_OFFSET UNITYSDK_OFFSET(0x1C4AD3C0)
-#define LEKBDJCLKFD_LDDELEKINOG_OFFSET UNITYSDK_OFFSET(0x1C4AD3F0)
-#define LEKBDJCLKFD_LEDCFMLFPNH_OFFSET UNITYSDK_OFFSET(0x1C4AD330)
+#define LEKBDJCLKFD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D631020)
+#define LEKBDJCLKFD_DIANDDDPEGO_OFFSET UNITYSDK_OFFSET(0x1D630FE0)
+#define LEKBDJCLKFD_IKDKNJFLBJP_OFFSET UNITYSDK_OFFSET(0x1D630F10)
+#define LEKBDJCLKFD_LDDELEKINOG_OFFSET UNITYSDK_OFFSET(0x1D630F40)
+#define LEKBDJCLKFD_LEDCFMLFPNH_OFFSET UNITYSDK_OFFSET(0x1D630E80)
 
-inline static constexpr unsigned int LEKBDJCLKFD_TypeDefinitionIndex = 41381;
+inline static constexpr unsigned int LEKBDJCLKFD_TypeDefinitionIndex = 42356;
 
 	class LEKBDJCLKFD : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_HHDEOAPGBIM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "LEKBDJCLKFD")->GetStaticField(0x3E00);
+			return (::System::Int32*)UnitySDK::FromName("", "LEKBDJCLKFD")->GetStaticField(0x1270);
 		}
 
 		static ::System::Single* StaticGet_HKJKMIIGJLM()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "LEKBDJCLKFD")->GetStaticField(0x3E04);
+			return (::System::Single*)UnitySDK::FromName("", "LEKBDJCLKFD")->GetStaticField(0x1274);
 		}
 
 		// static const ::System::Object KJAIACONLEM; // 0x0

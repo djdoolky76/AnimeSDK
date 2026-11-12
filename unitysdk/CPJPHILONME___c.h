@@ -4,18 +4,18 @@
 class CPJPHILONME;
 namespace System { class Object; }
 
-#define CPJPHILONME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E13FFB0)
-#define CPJPHILONME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E13FFF0)
-#define CPJPHILONME___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E140000)
+#define CPJPHILONME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4181D0)
+#define CPJPHILONME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F418210)
+#define CPJPHILONME___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F418220)
 
-inline static constexpr unsigned int CPJPHILONME___c_TypeDefinitionIndex = 26490;
+inline static constexpr unsigned int CPJPHILONME___c_TypeDefinitionIndex = 27021;
 
 	class CPJPHILONME___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x229A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D620);
 		}
 
 		static ::System::Void _cctor()

@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenTraitData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC443B40)
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC443B80)
-#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET UNITYSDK_OFFSET(0xC443B90)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD7DFA0)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD7DFE0)
+#define RPG_CLIENT_ACTIVITYHIPPLENMODULE___C___ONGETHIPPLENINHERITSCRSP_B__8_0_OFFSET UNITYSDK_OFFSET(0xCD7DFF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityHipplenModule___c_TypeDefinitionIndex = 61525;
+	inline static constexpr unsigned int ActivityHipplenModule___c_TypeDefinitionIndex = 62910;
 
 	class ActivityHipplenModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1E950);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x179B0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1E958);
+			return (::System::Comparison_1<::RPG::Client::ActivityHipplen::ActivityHipplenTraitData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x179B8);
 		}
 
 		static ::System::Void _cctor()

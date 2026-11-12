@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define EFEPGAKGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A40)
+#define EFEPGAKGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF7290)
 
-inline static constexpr unsigned int EFEPGAKGNBM_TypeDefinitionIndex = 43770;
+inline static constexpr unsigned int EFEPGAKGNBM_TypeDefinitionIndex = 44845;
 
 	class EFEPGAKGNBM : public ::System::Object
 	{

@@ -8,19 +8,19 @@ class ACLMDNMDHLE;
 class FABMDCOFHCG;
 namespace RPG::GameCore { class FateBattleManager; }
 
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE699F10)
-#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xE69B9F0)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF11EB20)
+#define RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0___APPLYFATEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xF120660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 56087;
+	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 57299;
 
 	class FateBattleManager___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::FABMDCOFHCG* pInstance; // 0x10
+		::ACLMDNMDHLE* pFateBuffData; // 0x10
 		::RPG::GameCore::FateBattleManager* __4__this; // 0x18
-		::ACLMDNMDHLE* pFateBuffData; // 0x20
+		::FABMDCOFHCG* pInstance; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FATEBATTLEMANAGER___C__DISPLAYCLASS32_0_CTOR_OFFSET))(this);

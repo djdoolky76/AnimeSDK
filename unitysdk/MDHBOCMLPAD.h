@@ -4,22 +4,21 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define MDHBOCMLPAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A54E0)
-#define MDHBOCMLPAD_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB8A5390)
-#define MDHBOCMLPAD_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB8A53D0)
-#define MDHBOCMLPAD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB8A5120)
-#define MDHBOCMLPAD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB8A5130)
+#define MDHBOCMLPAD_CTOR_OFFSET UNITYSDK_OFFSET(0xC1552C0)
+#define MDHBOCMLPAD_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xC155170)
+#define MDHBOCMLPAD_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xC1551B0)
+#define MDHBOCMLPAD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC154F00)
+#define MDHBOCMLPAD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xC154F10)
 
-inline static constexpr unsigned int MDHBOCMLPAD_TypeDefinitionIndex = 56116;
+inline static constexpr unsigned int MDHBOCMLPAD_TypeDefinitionIndex = 57328;
 
 	class MDHBOCMLPAD : public ::DBGDNLLDPFI
 	{
 	public:
-		::System::String* MCLLALGABAB; // 0x10
-		::System::String* IFNAGLOMHBK; // 0x18
-		::System::Byte KDHPKOFLNFM; // 0x20
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x24
+		::System::String* IFNAGLOMHBK; // 0x10
+		::System::String* MCLLALGABAB; // 0x18
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x20
+		::System::Byte KDHPKOFLNFM; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDHBOCMLPAD_CTOR_OFFSET))(this);

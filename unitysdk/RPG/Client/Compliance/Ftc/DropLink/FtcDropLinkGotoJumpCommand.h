@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKGOTOJUMPCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAE9F0)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKGOTOJUMPCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCBAEA00)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKGOTOJUMPCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xD522830)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKGOTOJUMPCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD522840)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int FtcDropLinkGotoJumpCommand_TypeDefinitionIndex = 74821;
+	inline static constexpr unsigned int FtcDropLinkGotoJumpCommand_TypeDefinitionIndex = 76991;
 
 	class FtcDropLinkGotoJumpCommand : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define CDPMBEPDHIG_BJLDMFEPHJG_OFFSET UNITYSDK_OFFSET(0xC779160)
-#define CDPMBEPDHIG_CLEAR_OFFSET UNITYSDK_OFFSET(0xC779110)
-#define CDPMBEPDHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC779270)
+#define CDPMBEPDHIG_BJLDMFEPHJG_OFFSET UNITYSDK_OFFSET(0xD0E3730)
+#define CDPMBEPDHIG_CLEAR_OFFSET UNITYSDK_OFFSET(0xD0E36E0)
+#define CDPMBEPDHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD0E3840)
 
-inline static constexpr unsigned int CDPMBEPDHIG_TypeDefinitionIndex = 54124;
+inline static constexpr unsigned int CDPMBEPDHIG_TypeDefinitionIndex = 55288;
 
 	class CDPMBEPDHIG : public ::System::Object
 	{

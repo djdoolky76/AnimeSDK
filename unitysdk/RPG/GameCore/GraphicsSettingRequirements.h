@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GraphicsSettingRequirements; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D722E10)
-#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D722CF0)
+#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E92C840)
+#define RPG_GAMECORE_GRAPHICSSETTINGREQUIREMENTS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E92C720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GraphicsSettingRequirements_TypeDefinitionIndex = 18267;
+	inline static constexpr unsigned int GraphicsSettingRequirements_TypeDefinitionIndex = 18429;
 
 	class GraphicsSettingRequirements : public ::RPG::GameCore::JsonConfig
 	{

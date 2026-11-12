@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define JIPHKJINJDB_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FFFC0)
-#define JIPHKJINJDB_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xB1FFE40)
-#define JIPHKJINJDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB1FFEC0)
+#define JIPHKJINJDB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA21D30)
+#define JIPHKJINJDB_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xBA21BB0)
+#define JIPHKJINJDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA21C30)
 
-inline static constexpr unsigned int JIPHKJINJDB_TypeDefinitionIndex = 59275;
+inline static constexpr unsigned int JIPHKJINJDB_TypeDefinitionIndex = 60552;
 
 	class JIPHKJINJDB : public ::System::Object
 	{

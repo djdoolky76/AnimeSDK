@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarDemoEntranceConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40F3A0)
-#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D40F1C0)
+#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62F5B0)
+#define RPG_GAMECORE_AVATARDEMOENTRANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E62F3D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDemoEntranceConfigRow_TypeDefinitionIndex = 12783;
+	inline static constexpr unsigned int AvatarDemoEntranceConfigRow_TypeDefinitionIndex = 12855;
 
 	class AvatarDemoEntranceConfigRow : public ::System::Object
 	{

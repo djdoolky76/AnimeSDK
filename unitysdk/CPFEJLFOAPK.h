@@ -6,7 +6,7 @@ class EDNECKFHLEM;
 namespace RPG::Client { class TabView; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int CPFEJLFOAPK_TypeDefinitionIndex = 49820;
+inline static constexpr unsigned int CPFEJLFOAPK_TypeDefinitionIndex = 50868;
 
 	class CPFEJLFOAPK : public ::System::Object
 	{

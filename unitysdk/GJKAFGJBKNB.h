@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GachaItemData; }
 
-#define GJKAFGJBKNB_KOMHFNNMFJO_OFFSET UNITYSDK_OFFSET(0x15A6A6C0)
+#define GJKAFGJBKNB_KOMHFNNMFJO_OFFSET UNITYSDK_OFFSET(0x169A7360)
 
-inline static constexpr unsigned int GJKAFGJBKNB_TypeDefinitionIndex = 64301;
+inline static constexpr unsigned int GJKAFGJBKNB_TypeDefinitionIndex = 65746;
 
 	class GJKAFGJBKNB : public ::System::Object
 	{

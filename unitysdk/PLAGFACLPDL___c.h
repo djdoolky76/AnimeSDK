@@ -4,18 +4,18 @@
 class PLAGFACLPDL;
 namespace System { class Object; }
 
-#define PLAGFACLPDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF9D040)
-#define PLAGFACLPDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9D080)
-#define PLAGFACLPDL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF9D090)
+#define PLAGFACLPDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24E7B0)
+#define PLAGFACLPDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24E7F0)
+#define PLAGFACLPDL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F24E800)
 
-inline static constexpr unsigned int PLAGFACLPDL___c_TypeDefinitionIndex = 28715;
+inline static constexpr unsigned int PLAGFACLPDL___c_TypeDefinitionIndex = 29305;
 
 	class PLAGFACLPDL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B6A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D050);
 		}
 
 		static ::System::Void _cctor()

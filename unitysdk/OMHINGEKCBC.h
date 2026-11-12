@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropCurveMovePause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMHINGEKCBC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2CEC0)
-#define OMHINGEKCBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF2CEF0)
+#define OMHINGEKCBC_CTOR_OFFSET UNITYSDK_OFFSET(0xC82A7E0)
+#define OMHINGEKCBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC82A810)
 
-inline static constexpr unsigned int OMHINGEKCBC_TypeDefinitionIndex = 58307;
+inline static constexpr unsigned int OMHINGEKCBC_TypeDefinitionIndex = 59563;
 
 	class OMHINGEKCBC
 	{

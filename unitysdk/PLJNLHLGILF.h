@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/Client/UIFloatingTextType.h"
 #include "unitysdk/System/Object.h"
 
-#define PLJNLHLGILF_CTOR_OFFSET UNITYSDK_OFFSET(0xC308A50)
+#define PLJNLHLGILF_CTOR_OFFSET UNITYSDK_OFFSET(0xCC37B10)
 
-inline static constexpr unsigned int PLJNLHLGILF_TypeDefinitionIndex = 73283;
+inline static constexpr unsigned int PLJNLHLGILF_TypeDefinitionIndex = 75399;
 
 	class PLJNLHLGILF : public ::System::Object
 	{

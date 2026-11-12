@@ -4,12 +4,12 @@
 namespace RPG::Client::DiceCombat { class IDiceCombatAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC39620)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__SORTFOREDITTEAMAVATARLIST_B__0_OFFSET UNITYSDK_OFFSET(0xCC43C20)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD64A480)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATUTIL___C__DISPLAYCLASS18_0__SORTFOREDITTEAMAVATARLIST_B__0_OFFSET UNITYSDK_OFFSET(0xD657420)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass18_0_TypeDefinitionIndex = 76102;
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass18_0_TypeDefinitionIndex = 78429;
 
 	class DiceCombatUtil___c__DisplayClass18_0 : public ::System::Object
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D720420)
-#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D720440)
-#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7203E0)
+#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E929E50)
+#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E929E70)
+#define RPG_GAMECORE_GLOBALVISIBILITYCONTROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E929E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalVisibilityControl_TypeDefinitionIndex = 20274;
+	inline static constexpr unsigned int GlobalVisibilityControl_TypeDefinitionIndex = 20609;
 
 	class GlobalVisibilityControl : public ::RPG::GameCore::TaskConfig
 	{

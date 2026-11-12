@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartBattleScoringAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FMIEGACIIDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1585A800)
-#define FMIEGACIIDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1585A830)
+#define FMIEGACIIDH_CTOR_OFFSET UNITYSDK_OFFSET(0x167CAC20)
+#define FMIEGACIIDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x167CAC50)
 
-inline static constexpr unsigned int FMIEGACIIDH_TypeDefinitionIndex = 55658;
+inline static constexpr unsigned int FMIEGACIIDH_TypeDefinitionIndex = 56856;
 
 	class FMIEGACIIDH
 	{

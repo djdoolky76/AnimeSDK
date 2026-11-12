@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AGGHHCLPALK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF2FBA0)
+#define AGGHHCLPALK_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E6990)
 
-inline static constexpr unsigned int AGGHHCLPALK_TypeDefinitionIndex = 56328;
+inline static constexpr unsigned int AGGHHCLPALK_TypeDefinitionIndex = 57542;
 
 	class AGGHHCLPALK : public ::System::Object
 	{

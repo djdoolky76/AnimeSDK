@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::QA::RemoteDebug
 {
-	inline static constexpr unsigned int RemoteDebugDiscoveryReply_TypeDefinitionIndex = 51834;
+	inline static constexpr unsigned int RemoteDebugDiscoveryReply_TypeDefinitionIndex = 52920;
 
 	struct alignas(8) RemoteDebugDiscoveryReply
 	{

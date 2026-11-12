@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BySharedSummonUnitInUse; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FKJINMANIIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15801620)
-#define FKJINMANIIM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15801650)
+#define FKJINMANIIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1676DD60)
+#define FKJINMANIIM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1676DD90)
 
-inline static constexpr unsigned int FKJINMANIIM_TypeDefinitionIndex = 57993;
+inline static constexpr unsigned int FKJINMANIIM_TypeDefinitionIndex = 59232;
 
 	class FKJINMANIIM
 	{

@@ -5,11 +5,11 @@ class FOACJPEHDKO;
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JBBAMLKCDKG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16560530)
-#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__0_OFFSET UNITYSDK_OFFSET(0x16560580)
-#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__1_OFFSET UNITYSDK_OFFSET(0x16560720)
+#define JBBAMLKCDKG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB898D00)
+#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__0_OFFSET UNITYSDK_OFFSET(0xB898D50)
+#define JBBAMLKCDKG___C__DISPLAYCLASS9_0___FINDPATH_B__1_OFFSET UNITYSDK_OFFSET(0xB898EF0)
 
-inline static constexpr unsigned int JBBAMLKCDKG___c__DisplayClass9_0_TypeDefinitionIndex = 79769;
+inline static constexpr unsigned int JBBAMLKCDKG___c__DisplayClass9_0_TypeDefinitionIndex = 82546;
 
 	class JBBAMLKCDKG___c__DisplayClass9_0 : public ::System::Object
 	{

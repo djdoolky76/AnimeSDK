@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define GCNBOLCBKNB_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7A0C0)
-#define GCNBOLCBKNB_ICDIPLCJHGP_OFFSET UNITYSDK_OFFSET(0x2E7A170)
+#define GCNBOLCBKNB_CTOR_OFFSET UNITYSDK_OFFSET(0x304FB20)
+#define GCNBOLCBKNB_ICDIPLCJHGP_OFFSET UNITYSDK_OFFSET(0x304FBC0)
 
-inline static constexpr unsigned int GCNBOLCBKNB_TypeDefinitionIndex = 57014;
+inline static constexpr unsigned int GCNBOLCBKNB_TypeDefinitionIndex = 58240;
 
 	struct alignas(8) GCNBOLCBKNB
 	{

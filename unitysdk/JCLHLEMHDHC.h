@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CameraFollowEntityTimeScale; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JCLHLEMHDHC_CTOR_OFFSET UNITYSDK_OFFSET(0x165A6050)
-#define JCLHLEMHDHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165A6080)
+#define JCLHLEMHDHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB8E9B30)
+#define JCLHLEMHDHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8E9B60)
 
-inline static constexpr unsigned int JCLHLEMHDHC_TypeDefinitionIndex = 54910;
+inline static constexpr unsigned int JCLHLEMHDHC_TypeDefinitionIndex = 56082;
 
 	class JCLHLEMHDHC
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvGameplayTrackNpcReset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DFJFMIPPOBB_CTOR_OFFSET UNITYSDK_OFFSET(0xE82F9C0)
-#define DFJFMIPPOBB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE82F9F0)
+#define DFJFMIPPOBB_CTOR_OFFSET UNITYSDK_OFFSET(0xF190560)
+#define DFJFMIPPOBB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF190590)
 
-inline static constexpr unsigned int DFJFMIPPOBB_TypeDefinitionIndex = 52380;
+inline static constexpr unsigned int DFJFMIPPOBB_TypeDefinitionIndex = 53486;
 
 	class DFJFMIPPOBB
 	{

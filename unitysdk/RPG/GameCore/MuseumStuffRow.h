@@ -6,34 +6,33 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuseumStuffRow; }
 
-#define RPG_GAMECORE_MUSEUMSTUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CA310)
-#define RPG_GAMECORE_MUSEUMSTUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C9D80)
+#define RPG_GAMECORE_MUSEUMSTUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE4030)
+#define RPG_GAMECORE_MUSEUMSTUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAE3AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumStuffRow_TypeDefinitionIndex = 14225;
+	inline static constexpr unsigned int MuseumStuffRow_TypeDefinitionIndex = 14382;
 
 	class MuseumStuffRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockPhase; // 0x10
-		::System::UInt32 StatsC; // 0x14
-		::System::UInt32 ItemID; // 0x18
-		::System::UInt32 StatsA; // 0x1C
-		::System::UInt32 DisplayOrder; // 0x20
-		::System::UInt32 RecruitPrice; // 0x24
-		::System::UInt32 ScenePropID; // 0x28
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID MuseumStuffDesc; // 0x30
-		::System::Boolean IsTargetReward; // 0x40
-		::System::Boolean IsInitial; // 0x41
-		::System::Byte _padding1[0x2];
-		::System::UInt32 StatsB; // 0x44
-		::RPG::Client::TextID EvidenceInfoTextID; // 0x48
-		::System::UInt32 SceneGroupID; // 0x58
-		::System::UInt32 CollectedReward; // 0x5C
-		::RPG::GameCore::StuffType Type; // 0x60
-		::System::UInt32 RecruitUnlockMission; // 0x64
+		::RPG::Client::TextID MuseumStuffDesc; // 0x10
+		::System::UInt32 ScenePropID; // 0x20
+		::System::UInt32 UnlockPhase; // 0x24
+		::System::UInt32 DisplayOrder; // 0x28
+		::System::UInt32 StatsB; // 0x2C
+		::System::UInt32 StatsC; // 0x30
+		::System::UInt32 StatsA; // 0x34
+		::RPG::GameCore::StuffType Type; // 0x38
+		::System::UInt32 RecruitPrice; // 0x3C
+		::System::UInt32 SceneGroupID; // 0x40
+		::System::UInt32 RecruitUnlockMission; // 0x44
+		::System::Boolean IsInitial; // 0x48
+		::System::Boolean IsTargetReward; // 0x49
+		::System::Byte _padding0[0x2];
+		::System::UInt32 ItemID; // 0x4C
+		::RPG::Client::TextID EvidenceInfoTextID; // 0x50
+		::System::UInt32 CollectedReward; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMSTUFFROW_CTOR_OFFSET))(this);

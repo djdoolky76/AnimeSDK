@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int AppOverrideKeys_t_TypeDefinitionIndex = 39310;
+	inline static constexpr unsigned int AppOverrideKeys_t_TypeDefinitionIndex = 40239;
 
 	struct alignas(4) AppOverrideKeys_t
 	{

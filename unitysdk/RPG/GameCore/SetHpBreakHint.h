@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetHpBreakHint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETHPBREAKHINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB61E0)
-#define RPG_GAMECORE_SETHPBREAKHINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB6220)
-#define RPG_GAMECORE_SETHPBREAKHINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB6180)
+#define RPG_GAMECORE_SETHPBREAKHINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC8490)
+#define RPG_GAMECORE_SETHPBREAKHINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC84D0)
+#define RPG_GAMECORE_SETHPBREAKHINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC8430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetHpBreakHint_TypeDefinitionIndex = 23656;
+	inline static constexpr unsigned int SetHpBreakHint_TypeDefinitionIndex = 24109;
 
 	class SetHpBreakHint : public ::RPG::GameCore::TaskConfig
 	{

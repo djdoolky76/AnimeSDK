@@ -4,18 +4,18 @@
 class HFPCLMDMEME;
 namespace System { class Object; }
 
-#define HFPCLMDMEME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E572740)
-#define HFPCLMDMEME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E572780)
-#define HFPCLMDMEME___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E572790)
+#define HFPCLMDMEME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F86CAF0)
+#define HFPCLMDMEME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F86CB30)
+#define HFPCLMDMEME___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F86CB40)
 
-inline static constexpr unsigned int HFPCLMDMEME___c_TypeDefinitionIndex = 33528;
+inline static constexpr unsigned int HFPCLMDMEME___c_TypeDefinitionIndex = 34443;
 
 	class HFPCLMDMEME___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36540);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C750);
 		}
 
 		static ::System::Void _cctor()

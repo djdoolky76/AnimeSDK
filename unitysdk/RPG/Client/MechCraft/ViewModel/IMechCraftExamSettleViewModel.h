@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int IMechCraftExamSettleViewModel_TypeDefinitionIndex = 79727;
+	inline static constexpr unsigned int IMechCraftExamSettleViewModel_TypeDefinitionIndex = 82504;
 
 	class IMechCraftExamSettleViewModel
 	{

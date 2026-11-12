@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Multithread
 {
-	inline static constexpr unsigned int SchedulerType_TypeDefinitionIndex = 43827;
+	inline static constexpr unsigned int SchedulerType_TypeDefinitionIndex = 44902;
 
 	enum class SchedulerType : ::System::Int32
 	{

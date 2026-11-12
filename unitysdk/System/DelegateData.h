@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_DELEGATEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1CD2A0)
+#define SYSTEM_DELEGATEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D353F60)
 
 namespace System
 {

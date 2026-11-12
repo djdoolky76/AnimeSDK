@@ -4,32 +4,32 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATEHARDNORMALS_OFFSET UNITYSDK_OFFSET(0x1F24B930)
-#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATENORMALS_OFFSET UNITYSDK_OFFSET(0x1F1E0C60)
-#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x1F1E16B0)
-#define UNITYENGINE_PROBUILDER_NORMALS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24BFB0)
-#define UNITYENGINE_PROBUILDER_NORMALS_CLEARINTARRAY_OFFSET UNITYSDK_OFFSET(0x1F24B750)
+#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATEHARDNORMALS_OFFSET UNITYSDK_OFFSET(0x204FCCD0)
+#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATENORMALS_OFFSET UNITYSDK_OFFSET(0x20492080)
+#define UNITYENGINE_PROBUILDER_NORMALS_CALCULATETANGENTS_OFFSET UNITYSDK_OFFSET(0x20492AF0)
+#define UNITYENGINE_PROBUILDER_NORMALS_CCTOR_OFFSET UNITYSDK_OFFSET(0x204FD350)
+#define UNITYENGINE_PROBUILDER_NORMALS_CLEARINTARRAY_OFFSET UNITYSDK_OFFSET(0x204FCAF0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int Normals_TypeDefinitionIndex = 44380;
+	inline static constexpr unsigned int Normals_TypeDefinitionIndex = 45455;
 
 	class Normals : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_s_CachedIntArray()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "Normals")->GetStaticField(0x54CC0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "Normals")->GetStaticField(0x68080);
 		}
 
 		static ::Il2CppArray<::System::Single>** StaticGet_s_SmoothAvgCount()
 		{
-			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("UnityEngine.ProBuilder", "Normals")->GetStaticField(0x54CC8);
+			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("UnityEngine.ProBuilder", "Normals")->GetStaticField(0x68088);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_s_SmoothAvg()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder", "Normals")->GetStaticField(0x54CD0);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder", "Normals")->GetStaticField(0x68090);
 		}
 
 		static ::System::Void _cctor()

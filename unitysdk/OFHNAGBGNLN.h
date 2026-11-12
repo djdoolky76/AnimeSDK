@@ -5,19 +5,19 @@ class JCDLELPLKDA;
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OFHNAGBGNLN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE41C40)
-#define OFHNAGBGNLN_HHABKKJJGJE_OFFSET UNITYSDK_OFFSET(0xBE41710)
-#define OFHNAGBGNLN_JKICEBFMCKF_OFFSET UNITYSDK_OFFSET(0xBE41860)
-#define OFHNAGBGNLN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBE419A0)
+#define OFHNAGBGNLN_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6FB570)
+#define OFHNAGBGNLN_HHABKKJJGJE_OFFSET UNITYSDK_OFFSET(0xC6FB040)
+#define OFHNAGBGNLN_JKICEBFMCKF_OFFSET UNITYSDK_OFFSET(0xC6FB190)
+#define OFHNAGBGNLN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC6FB2D0)
 
-inline static constexpr unsigned int OFHNAGBGNLN_TypeDefinitionIndex = 49274;
+inline static constexpr unsigned int OFHNAGBGNLN_TypeDefinitionIndex = 50350;
 
 	class OFHNAGBGNLN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::JCDLELPLKDA*>** StaticGet_NFPMPIGNBDJ()
 		{
-			return (::System::Collections::Generic::List_1<::JCDLELPLKDA*>**)UnitySDK::FromName("", "OFHNAGBGNLN")->GetStaticField(0x64750);
+			return (::System::Collections::Generic::List_1<::JCDLELPLKDA*>**)UnitySDK::FromName("", "OFHNAGBGNLN")->GetStaticField(0x68E20);
 		}
 
 		static ::System::Void _cctor()

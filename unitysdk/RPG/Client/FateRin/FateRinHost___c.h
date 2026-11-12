@@ -5,26 +5,26 @@ class LBJLBMOOJGM;
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_FATERIN_FATERINHOST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFA5A80)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA5AB0)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__TRANSFERANDAUTOSHOWHOUGUMAPPAGE_B__21_0_OFFSET UNITYSDK_OFFSET(0xCFA5AF0)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xCFA5AC0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9271B0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD9271E0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__TRANSFERANDAUTOSHOWHOUGUMAPPAGE_B__21_0_OFFSET UNITYSDK_OFFSET(0xD927220)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xD9271F0)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinHost___c_TypeDefinitionIndex = 80524;
+	inline static constexpr unsigned int FateRinHost___c_TypeDefinitionIndex = 83304;
 
 	class FateRinHost___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__21_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.FateRin", "<>c")->GetStaticField(0x574E0);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.FateRin", "<>c")->GetStaticField(0x5F3B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin", "<>c")->GetStaticField(0x574E8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin", "<>c")->GetStaticField(0x5F3B8);
 		}
 
 		static ::System::Void _cctor()

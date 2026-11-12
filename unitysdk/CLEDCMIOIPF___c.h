@@ -4,18 +4,18 @@
 class CLEDCMIOIPF;
 namespace System { class Object; }
 
-#define CLEDCMIOIPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0F7A00)
-#define CLEDCMIOIPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F7A30)
-#define CLEDCMIOIPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0F7A40)
+#define CLEDCMIOIPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3EE7B0)
+#define CLEDCMIOIPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EE7E0)
+#define CLEDCMIOIPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F3EE7F0)
 
-inline static constexpr unsigned int CLEDCMIOIPF___c_TypeDefinitionIndex = 29642;
+inline static constexpr unsigned int CLEDCMIOIPF___c_TypeDefinitionIndex = 30454;
 
 	class CLEDCMIOIPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D0E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17E60);
 		}
 
 		static ::System::Void _cctor()

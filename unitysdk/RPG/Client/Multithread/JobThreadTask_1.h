@@ -6,7 +6,7 @@ class KOCDPFMMHIN;
 
 namespace RPG::Client::Multithread
 {
-	inline static constexpr unsigned int JobThreadTask_1_TypeDefinitionIndex = 43831;
+	inline static constexpr unsigned int JobThreadTask_1_TypeDefinitionIndex = 44906;
 
 	template <typename T>
 	class JobThreadTask_1 : public ::System::Object

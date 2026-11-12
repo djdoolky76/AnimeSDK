@@ -5,21 +5,21 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UIMonopolyShowFinishedQuiz; }
 
-#define OADLGIEKLDK_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1CA40)
-#define OADLGIEKLDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD1CD90)
-#define OADLGIEKLDK_OFHENNCEPHL_OFFSET UNITYSDK_OFFSET(0xBD1CDF0)
-#define OADLGIEKLDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD1CA50)
-#define OADLGIEKLDK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBD1CD30)
-#define OADLGIEKLDK_TICK_OFFSET UNITYSDK_OFFSET(0xBD1CCD0)
+#define OADLGIEKLDK_CTOR_OFFSET UNITYSDK_OFFSET(0xC61B290)
+#define OADLGIEKLDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC61B5E0)
+#define OADLGIEKLDK_OFHENNCEPHL_OFFSET UNITYSDK_OFFSET(0xC61B640)
+#define OADLGIEKLDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC61B2A0)
+#define OADLGIEKLDK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC61B580)
+#define OADLGIEKLDK_TICK_OFFSET UNITYSDK_OFFSET(0xC61B520)
 
-inline static constexpr unsigned int OADLGIEKLDK_TypeDefinitionIndex = 58834;
+inline static constexpr unsigned int OADLGIEKLDK_TypeDefinitionIndex = 60102;
 
 	class OADLGIEKLDK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::UIMonopolyShowFinishedQuiz* OFKGLJOAMLD; // 0x18
 		::RPG::Client::LuaUIController* CPIIOIPAAKK; // 0x20
-		::RPG::GameCore::UIMonopolyShowFinishedQuiz* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UIMonopolyShowFinishedQuiz* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::UIMonopolyShowFinishedQuiz*))((::PBYTE)hIl2Cpp + OADLGIEKLDK_CTOR_OFFSET))(this, a1, a2);

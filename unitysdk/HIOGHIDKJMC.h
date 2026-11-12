@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CJCHKDLALDN;
 
-#define HIOGHIDKJMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C667790)
+#define HIOGHIDKJMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E93F0)
 
-inline static constexpr unsigned int HIOGHIDKJMC_TypeDefinitionIndex = 36270;
+inline static constexpr unsigned int HIOGHIDKJMC_TypeDefinitionIndex = 37198;
 
 	class HIOGHIDKJMC : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeMusicVisualBeatEffectState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NOKJHAEGJBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF31B0)
-#define NOKJHAEGJBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF31E0)
+#define NOKJHAEGJBA_CTOR_OFFSET UNITYSDK_OFFSET(0xC5DF9C0)
+#define NOKJHAEGJBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC5DF9F0)
 
-inline static constexpr unsigned int NOKJHAEGJBA_TypeDefinitionIndex = 52641;
+inline static constexpr unsigned int NOKJHAEGJBA_TypeDefinitionIndex = 53748;
 
 	class NOKJHAEGJBA
 	{

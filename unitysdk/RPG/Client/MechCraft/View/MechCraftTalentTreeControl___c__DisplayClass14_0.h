@@ -5,12 +5,12 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentPathControl; }
 namespace RPG::Client::MechCraft::View { class MechCraftTalentPointControl; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD670680)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS14_0___FINDPOINTCONTROL_B__0_OFFSET UNITYSDK_OFFSET(0xD670860)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0FF1E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C__DISPLAYCLASS14_0___FINDPOINTCONTROL_B__0_OFFSET UNITYSDK_OFFSET(0xE0FF3C0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentTreeControl___c__DisplayClass14_0_TypeDefinitionIndex = 80057;
+	inline static constexpr unsigned int MechCraftTalentTreeControl___c__DisplayClass14_0_TypeDefinitionIndex = 82834;
 
 	class MechCraftTalentTreeControl___c__DisplayClass14_0 : public ::System::Object
 	{

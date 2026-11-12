@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define STATETAG_CTOR_OFFSET UNITYSDK_OFFSET(0xE998B20)
+#define STATETAG_CTOR_OFFSET UNITYSDK_OFFSET(0xF4AE120)
 
-inline static constexpr unsigned int StateTag_TypeDefinitionIndex = 47574;
+inline static constexpr unsigned int StateTag_TypeDefinitionIndex = 48603;
 
 	class StateTag : public ::System::Object
 	{

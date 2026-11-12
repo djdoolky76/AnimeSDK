@@ -4,10 +4,10 @@
 class DFEPHMALKDK;
 namespace RPG::Client { class PlanetFesTradingCardApplyItem; }
 
-#define JIGBEFNLENA___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F3600)
-#define JIGBEFNLENA___C__DISPLAYCLASS7_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB1FA250)
+#define JIGBEFNLENA___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA15520)
+#define JIGBEFNLENA___C__DISPLAYCLASS7_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xBA1C1A0)
 
-inline static constexpr unsigned int JIGBEFNLENA___c__DisplayClass7_0_TypeDefinitionIndex = 66591;
+inline static constexpr unsigned int JIGBEFNLENA___c__DisplayClass7_0_TypeDefinitionIndex = 68527;
 
 	class JIGBEFNLENA___c__DisplayClass7_0 : public ::System::Object
 	{

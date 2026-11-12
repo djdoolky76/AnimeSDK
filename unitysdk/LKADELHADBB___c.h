@@ -4,18 +4,18 @@
 class LKADELHADBB;
 namespace System { class Object; }
 
-#define LKADELHADBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E98BB60)
-#define LKADELHADBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98BBA0)
-#define LKADELHADBB___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1E98BBB0)
+#define LKADELHADBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCAD430)
+#define LKADELHADBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCAD470)
+#define LKADELHADBB___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1FCAD480)
 
-inline static constexpr unsigned int LKADELHADBB___c_TypeDefinitionIndex = 27739;
+inline static constexpr unsigned int LKADELHADBB___c_TypeDefinitionIndex = 28270;
 
 	class LKADELHADBB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A140);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A910);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@
 class HCNEFGJCCMB;
 namespace RPG::Client { class RogueKeywordInfo; }
 
-#define MHNMHONBDHP_CTOR_OFFSET UNITYSDK_OFFSET(0xB947A80)
-#define MHNMHONBDHP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xB947A90)
+#define MHNMHONBDHP_CTOR_OFFSET UNITYSDK_OFFSET(0xC1FC3E0)
+#define MHNMHONBDHP_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xC1FC3F0)
 
-inline static constexpr unsigned int MHNMHONBDHP_TypeDefinitionIndex = 67089;
+inline static constexpr unsigned int MHNMHONBDHP_TypeDefinitionIndex = 69033;
 
 	class MHNMHONBDHP : public ::PLDEEFFDJFD
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KMNMPNOPKEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB569830)
+#define KMNMPNOPKEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB52F0)
 
-inline static constexpr unsigned int KMNMPNOPKEC_TypeDefinitionIndex = 47295;
+inline static constexpr unsigned int KMNMPNOPKEC_TypeDefinitionIndex = 48324;
 
 	class KMNMPNOPKEC : public ::System::Object
 	{

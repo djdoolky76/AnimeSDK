@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowBattleQTEUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBDHJHMKPFC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE2EB0)
-#define PBDHJHMKPFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFE2EE0)
+#define PBDHJHMKPFC_CTOR_OFFSET UNITYSDK_OFFSET(0xC8E5E00)
+#define PBDHJHMKPFC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8E5E30)
 
-inline static constexpr unsigned int PBDHJHMKPFC_TypeDefinitionIndex = 58611;
+inline static constexpr unsigned int PBDHJHMKPFC_TypeDefinitionIndex = 59876;
 
 	class PBDHJHMKPFC
 	{

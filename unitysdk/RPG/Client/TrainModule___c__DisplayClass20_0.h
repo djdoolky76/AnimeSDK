@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 class NHECDKIDHDB;
 
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE2C3DE0)
-#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS20_0__FINDTRAINVISITORBYGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xE2C5940)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0xED2E960)
+#define RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS20_0__FINDTRAINVISITORBYGROUP_B__0_OFFSET UNITYSDK_OFFSET(0xED304A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainModule___c__DisplayClass20_0_TypeDefinitionIndex = 68155;
+	inline static constexpr unsigned int TrainModule___c__DisplayClass20_0_TypeDefinitionIndex = 70101;
 
 	class TrainModule___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 groupID; // 0x10
-		::System::UInt32 groupNPCID; // 0x14
+		::System::UInt32 groupNPCID; // 0x10
+		::System::UInt32 groupID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINMODULE___C__DISPLAYCLASS20_0_CTOR_OFFSET))(this);

@@ -7,14 +7,14 @@ namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HKENHAIMOCH_ADILDHCDJDJ_OFFSET UNITYSDK_OFFSET(0x15D42FB0)
-#define HKENHAIMOCH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D43080)
-#define HKENHAIMOCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15D42F10)
-#define HKENHAIMOCH_DEPLIJCBDMG_OFFSET UNITYSDK_OFFSET(0x15D43010)
-#define HKENHAIMOCH_GHBGHGPMAGD_OFFSET UNITYSDK_OFFSET(0x15D42F20)
-#define HKENHAIMOCH_MFCNJKGAELC_OFFSET UNITYSDK_OFFSET(0x15D40CD0)
+#define HKENHAIMOCH_ADILDHCDJDJ_OFFSET UNITYSDK_OFFSET(0x16C953E0)
+#define HKENHAIMOCH_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C954B0)
+#define HKENHAIMOCH_CTOR_OFFSET UNITYSDK_OFFSET(0x16C95340)
+#define HKENHAIMOCH_DEPLIJCBDMG_OFFSET UNITYSDK_OFFSET(0x16C95440)
+#define HKENHAIMOCH_GHBGHGPMAGD_OFFSET UNITYSDK_OFFSET(0x16C95350)
+#define HKENHAIMOCH_MFCNJKGAELC_OFFSET UNITYSDK_OFFSET(0x16C92EE0)
 
-inline static constexpr unsigned int HKENHAIMOCH_TypeDefinitionIndex = 64222;
+inline static constexpr unsigned int HKENHAIMOCH_TypeDefinitionIndex = 65667;
 
 	class HKENHAIMOCH : public ::System::Object
 	{
@@ -22,7 +22,7 @@ inline static constexpr unsigned int HKENHAIMOCH_TypeDefinitionIndex = 64222;
 		::System::Collections::Generic::List_1<::JHGAJMAOPJE*>* AFMBJMGJOCG; // 0x10
 		static ::System::UInt32* StaticGet_LDBOLICCMOC()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HKENHAIMOCH")->GetStaticField(0x7C40);
+			return (::System::UInt32*)UnitySDK::FromName("", "HKENHAIMOCH")->GetStaticField(0x44D0);
 		}
 
 		::System::Void _ctor()

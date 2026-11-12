@@ -6,10 +6,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelNpcAnimatorControlNode; }
 
-#define DABODGCJPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBBFB0)
-#define DABODGCJPHG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xDFBBED0)
+#define DABODGCJPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xE91EEC0)
+#define DABODGCJPHG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xE91EDE0)
 
-inline static constexpr unsigned int DABODGCJPHG_TypeDefinitionIndex = 77687;
+inline static constexpr unsigned int DABODGCJPHG_TypeDefinitionIndex = 80422;
 
 	class DABODGCJPHG : public ::HBLDGJCDJPF
 	{

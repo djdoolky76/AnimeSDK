@@ -4,18 +4,18 @@
 class HFAAFFDPBIL;
 namespace System { class Object; }
 
-#define HFAAFFDPBIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E55FF00)
-#define HFAAFFDPBIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55FF40)
-#define HFAAFFDPBIL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E55FF50)
+#define HFAAFFDPBIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8598A0)
+#define HFAAFFDPBIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8598E0)
+#define HFAAFFDPBIL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F8598F0)
 
-inline static constexpr unsigned int HFAAFFDPBIL___c_TypeDefinitionIndex = 25792;
+inline static constexpr unsigned int HFAAFFDPBIL___c_TypeDefinitionIndex = 26289;
 
 	class HFAAFFDPBIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33750);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28BD0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE74F00)
-#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER___C__DISPLAYCLASS22_0__WARNING_B__0_OFFSET UNITYSDK_OFFSET(0x1BE75C10)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFFD7F0)
+#define MIHOYO_SDK_HOYOPASS_REPORTMANAGER___C__DISPLAYCLASS22_0__WARNING_B__0_OFFSET UNITYSDK_OFFSET(0x1CFFE6D0)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int ReportManager___c__DisplayClass22_0_TypeDefinitionIndex = 8352;
+	inline static constexpr unsigned int ReportManager___c__DisplayClass22_0_TypeDefinitionIndex = 8361;
 
 	class ReportManager___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
 		::System::String* msg; // 0x10
-		::System::String* eventName; // 0x18
-		::System::String* module; // 0x20
+		::System::String* module; // 0x18
+		::System::String* eventName; // 0x20
 		::System::Int32 tkCode; // 0x28
 		::System::Void _ctor()
 		{

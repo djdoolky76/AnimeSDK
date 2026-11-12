@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AchievementLevelRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACHIEVEMENTLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D340EE0)
-#define RPG_GAMECORE_ACHIEVEMENTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D340870)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5503D0)
+#define RPG_GAMECORE_ACHIEVEMENTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E54FD60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AchievementLevelRow_TypeDefinitionIndex = 10893;
+	inline static constexpr unsigned int AchievementLevelRow_TypeDefinitionIndex = 10909;
 
 	class AchievementLevelRow : public ::System::Object
 	{

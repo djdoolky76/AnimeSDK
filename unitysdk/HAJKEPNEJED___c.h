@@ -4,18 +4,18 @@
 class HAJKEPNEJED;
 namespace System { class Object; }
 
-#define HAJKEPNEJED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E507880)
-#define HAJKEPNEJED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5078C0)
-#define HAJKEPNEJED___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5078D0)
+#define HAJKEPNEJED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F81C780)
+#define HAJKEPNEJED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F81C7C0)
+#define HAJKEPNEJED___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F81C7D0)
 
-inline static constexpr unsigned int HAJKEPNEJED___c_TypeDefinitionIndex = 30549;
+inline static constexpr unsigned int HAJKEPNEJED___c_TypeDefinitionIndex = 31455;
 
 	class HAJKEPNEJED___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D0B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F2F0);
 		}
 
 		static ::System::Void _cctor()

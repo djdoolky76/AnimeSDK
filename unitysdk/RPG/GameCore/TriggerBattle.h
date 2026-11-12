@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TriggerBattle; }
 
-#define RPG_GAMECORE_TRIGGERBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC44000)
-#define RPG_GAMECORE_TRIGGERBATTLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC44010)
-#define RPG_GAMECORE_TRIGGERBATTLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC43FD0)
+#define RPG_GAMECORE_TRIGGERBATTLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE57240)
+#define RPG_GAMECORE_TRIGGERBATTLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE57250)
+#define RPG_GAMECORE_TRIGGERBATTLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE57210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerBattle_TypeDefinitionIndex = 21696;
+	inline static constexpr unsigned int TriggerBattle_TypeDefinitionIndex = 22085;
 
 	class TriggerBattle : public ::RPG::GameCore::TaskConfig
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEX_AISACINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E885A0)
+#define CRIWARE_CRIATOMEX_AISACINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x305ABE0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_AisacInfo_TypeDefinitionIndex = 39976;
+	inline static constexpr unsigned int CriAtomEx_AisacInfo_TypeDefinitionIndex = 40951;
 
 	struct alignas(8) CriAtomEx_AisacInfo
 	{

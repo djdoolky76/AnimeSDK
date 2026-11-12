@@ -4,16 +4,16 @@
 namespace Google::Protobuf { class IMessage; }
 namespace System { class Action; }
 
-#define HPMJLMFKOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD4ED0)
-#define HPMJLMFKOKP_IDOCGNIBDFE_OFFSET UNITYSDK_OFFSET(0x15DD4DF0)
+#define HPMJLMFKOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x16D78A30)
+#define HPMJLMFKOKP_IDOCGNIBDFE_OFFSET UNITYSDK_OFFSET(0x16D78950)
 
-inline static constexpr unsigned int HPMJLMFKOKP_TypeDefinitionIndex = 69392;
+inline static constexpr unsigned int HPMJLMFKOKP_TypeDefinitionIndex = 71346;
 
 	class HPMJLMFKOKP : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::IMessage* JDONGIOEJGI; // 0x10
-		::System::Action* HOPJMFJMOBD; // 0x18
+		::System::Action* HOPJMFJMOBD; // 0x10
+		::Google::Protobuf::IMessage* JDONGIOEJGI; // 0x18
 		::System::UInt16 ABJOBBCPKLD; // 0x20
 		::System::UInt16 IIPOJCBBMPM; // 0x22
 		::System::Void _ctor()

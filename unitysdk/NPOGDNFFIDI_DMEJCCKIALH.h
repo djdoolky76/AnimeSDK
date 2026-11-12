@@ -4,9 +4,9 @@
 class DFDIEEHGJED;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPOGDNFFIDI_DMEJCCKIALH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD12610)
+#define NPOGDNFFIDI_DMEJCCKIALH_CTOR_OFFSET UNITYSDK_OFFSET(0xC601F50)
 
-inline static constexpr unsigned int NPOGDNFFIDI_DMEJCCKIALH_TypeDefinitionIndex = 77685;
+inline static constexpr unsigned int NPOGDNFFIDI_DMEJCCKIALH_TypeDefinitionIndex = 80420;
 
 	class NPOGDNFFIDI_DMEJCCKIALH : public ::System::Object
 	{

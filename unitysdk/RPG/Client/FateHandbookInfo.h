@@ -7,26 +7,26 @@ namespace RPG::Client { class FateHandbookMasterCollection; }
 namespace RPG::Client { class FateHandbookReijuCollection; }
 namespace RPG::Client { class FateHandbookTraitCollection; }
 
-#define RPG_CLIENT_FATEHANDBOOKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCE9E3D0)
-#define RPG_CLIENT_FATEHANDBOOKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE9E3E0)
-#define RPG_CLIENT_FATEHANDBOOKINFO_GET_BUFFCOLLECTION_OFFSET UNITYSDK_OFFSET(0xCE9E6F0)
-#define RPG_CLIENT_FATEHANDBOOKINFO_GET_HOUGUCOLLECTION_OFFSET UNITYSDK_OFFSET(0xCE9E870)
-#define RPG_CLIENT_FATEHANDBOOKINFO_GET_MASTERCOLLECTION_OFFSET UNITYSDK_OFFSET(0xCE9E8F0)
-#define RPG_CLIENT_FATEHANDBOOKINFO_GET_REIJUCOLLECTION_OFFSET UNITYSDK_OFFSET(0xCE9E7F0)
-#define RPG_CLIENT_FATEHANDBOOKINFO_GET_TRAITCOLLECTION_OFFSET UNITYSDK_OFFSET(0xCE9E770)
+#define RPG_CLIENT_FATEHANDBOOKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD867850)
+#define RPG_CLIENT_FATEHANDBOOKINFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD867860)
+#define RPG_CLIENT_FATEHANDBOOKINFO_GET_BUFFCOLLECTION_OFFSET UNITYSDK_OFFSET(0xD867D30)
+#define RPG_CLIENT_FATEHANDBOOKINFO_GET_HOUGUCOLLECTION_OFFSET UNITYSDK_OFFSET(0xD867ED0)
+#define RPG_CLIENT_FATEHANDBOOKINFO_GET_MASTERCOLLECTION_OFFSET UNITYSDK_OFFSET(0xD867F50)
+#define RPG_CLIENT_FATEHANDBOOKINFO_GET_REIJUCOLLECTION_OFFSET UNITYSDK_OFFSET(0xD867E40)
+#define RPG_CLIENT_FATEHANDBOOKINFO_GET_TRAITCOLLECTION_OFFSET UNITYSDK_OFFSET(0xD867DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateHandbookInfo_TypeDefinitionIndex = 64072;
+	inline static constexpr unsigned int FateHandbookInfo_TypeDefinitionIndex = 65517;
 
 	class FateHandbookInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::FateHandbookBuffCollection* _BuffCollection; // 0x10
 		::RPG::Client::FateHandbookMasterCollection* _MasterCollection; // 0x18
-		::RPG::Client::FateHandbookReijuCollection* _ReijuCollection; // 0x20
-		::RPG::Client::FateHandbookTraitCollection* _TraitCollection; // 0x28
-		::RPG::Client::FateHandbookHouguCollection* _HouguCollection; // 0x30
+		::RPG::Client::FateHandbookTraitCollection* _TraitCollection; // 0x20
+		::RPG::Client::FateHandbookHouguCollection* _HouguCollection; // 0x28
+		::RPG::Client::FateHandbookReijuCollection* _ReijuCollection; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATEHANDBOOKINFO_CTOR_OFFSET))(this);

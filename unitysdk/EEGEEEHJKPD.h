@@ -4,16 +4,16 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceRerollCount; }
 
-#define EEGEEEHJKPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB430)
-#define EEGEEEHJKPD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5FB440)
+#define EEGEEEHJKPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77CAF0)
+#define EEGEEEHJKPD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D77CB00)
 
-inline static constexpr unsigned int EEGEEEHJKPD_TypeDefinitionIndex = 36219;
+inline static constexpr unsigned int EEGEEEHJKPD_TypeDefinitionIndex = 37147;
 
 	class EEGEEEHJKPD : public ::PNECKGBKMEL
 	{
 	public:
-		::KAAMFILLIND* EEFMDEHLLFI; // 0x10
-		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceRerollCount* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceRerollCount* IGHAHBNLIJA; // 0x10
+		::KAAMFILLIND* EEFMDEHLLFI; // 0x18
 		::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceRerollCount* a1, ::KAAMFILLIND* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceRerollCount*, ::KAAMFILLIND*))((::PBYTE)hIl2Cpp + EEGEEEHJKPD_CTOR_OFFSET))(this, a1, a2);

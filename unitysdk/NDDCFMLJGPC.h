@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionChangeRobinRadiusByVote; }
 
-#define NDDCFMLJGPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C786610)
-#define NDDCFMLJGPC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C786620)
+#define NDDCFMLJGPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D907F50)
+#define NDDCFMLJGPC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1D907F60)
 
-inline static constexpr unsigned int NDDCFMLJGPC_TypeDefinitionIndex = 37381;
+inline static constexpr unsigned int NDDCFMLJGPC_TypeDefinitionIndex = 38309;
 
 	class NDDCFMLJGPC : public ::GPLOFONGBGI
 	{

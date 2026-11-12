@@ -3,20 +3,21 @@
 #include "unitysdk/System/Object.h"
 class AkStreamMgrSettings;
 
-#define AKSTREAMMGRSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60A250)
-#define AKSTREAMMGRSETTINGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x1F60A500)
-#define AKSTREAMMGRSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F60A310)
-#define AKSTREAMMGRSETTINGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F60A430)
-#define AKSTREAMMGRSETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F60A260)
-#define AKSTREAMMGRSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F60A2B0)
+#define AKSTREAMMGRSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x208B9B40)
+#define AKSTREAMMGRSETTINGS_DISPOSE_1_OFFSET UNITYSDK_OFFSET(0x208B9DE0)
+#define AKSTREAMMGRSETTINGS_DISPOSE_OFFSET UNITYSDK_OFFSET(0x208B9C00)
+#define AKSTREAMMGRSETTINGS_FINALIZE_OFFSET UNITYSDK_OFFSET(0x208B9D10)
+#define AKSTREAMMGRSETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x208B9B50)
+#define AKSTREAMMGRSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x208B9BA0)
 
-inline static constexpr unsigned int AkStreamMgrSettings_TypeDefinitionIndex = 44791;
+inline static constexpr unsigned int AkStreamMgrSettings_TypeDefinitionIndex = 45866;
 
 	class AkStreamMgrSettings : public ::System::Object
 	{
 	public:
-		::System::IntPtr swigCPtr; // 0x10
-		::System::Boolean swigCMemOwn; // 0x18
+		::System::Boolean swigCMemOwn; // 0x10
+		::System::Byte _padding0[0x7];
+		::System::IntPtr swigCPtr; // 0x18
 		::System::Void _ctor(::System::IntPtr a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSTREAMMGRSETTINGS_CTOR_OFFSET))(this, a1, a2);

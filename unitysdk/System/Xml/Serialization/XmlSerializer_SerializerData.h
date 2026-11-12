@@ -6,7 +6,7 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Xml::Serialization { class XmlSerializationWriter; }
 namespace System::Xml::Serialization { class XmlSerializerImplementation; }
 
-#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZERDATA_CREATEWRITER_OFFSET UNITYSDK_OFFSET(0x1EF39AA0)
+#define SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZERDATA_CREATEWRITER_OFFSET UNITYSDK_OFFSET(0x201E9240)
 
 namespace System::Xml::Serialization
 {
@@ -15,10 +15,10 @@ namespace System::Xml::Serialization
 	class XmlSerializer_SerializerData : public ::System::Object
 	{
 	public:
-		::System::Reflection::MethodInfo* WriterMethod; // 0x10
-		::System::Xml::Serialization::XmlSerializerImplementation* Implementation; // 0x18
-		::System::Type* WriterType; // 0x20
-		::System::Reflection::MethodInfo* ReaderMethod; // 0x28
+		::System::Xml::Serialization::XmlSerializerImplementation* Implementation; // 0x10
+		::System::Reflection::MethodInfo* ReaderMethod; // 0x18
+		::System::Reflection::MethodInfo* WriterMethod; // 0x20
+		::System::Type* WriterType; // 0x28
 		::System::Xml::Serialization::XmlSerializationWriter* CreateWriter()
 		{
 			return ((::System::Xml::Serialization::XmlSerializationWriter*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SERIALIZATION_XMLSERIALIZER_SERIALIZERDATA_CREATEWRITER_OFFSET))(this);

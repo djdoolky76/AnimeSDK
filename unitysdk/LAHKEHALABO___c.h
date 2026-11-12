@@ -4,18 +4,18 @@
 class LAHKEHALABO;
 namespace System { class Object; }
 
-#define LAHKEHALABO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8CCC90)
-#define LAHKEHALABO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8CCCD0)
-#define LAHKEHALABO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8CCCE0)
+#define LAHKEHALABO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC09660)
+#define LAHKEHALABO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC096A0)
+#define LAHKEHALABO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC096B0)
 
-inline static constexpr unsigned int LAHKEHALABO___c_TypeDefinitionIndex = 34567;
+inline static constexpr unsigned int LAHKEHALABO___c_TypeDefinitionIndex = 35495;
 
 	class LAHKEHALABO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F150);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25DE0);
 		}
 
 		static ::System::Void _cctor()

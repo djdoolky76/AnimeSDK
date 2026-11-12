@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class RubikCubePuzzleBrick; }
 
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBRICKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDDA05F0)
-#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBRICKDATA_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xDDA0580)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBRICKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE804B00)
+#define RPG_CLIENT_PROP_RUBIKCUBEPUZZLEBRICKDATA_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xE804A90)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RubikCubePuzzleBrickData_TypeDefinitionIndex = 78818;
+	inline static constexpr unsigned int RubikCubePuzzleBrickData_TypeDefinitionIndex = 81589;
 
 	class RubikCubePuzzleBrickData : public ::System::Object
 	{

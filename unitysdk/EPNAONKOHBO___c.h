@@ -4,18 +4,18 @@
 class EPNAONKOHBO;
 namespace System { class Object; }
 
-#define EPNAONKOHBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E319330)
-#define EPNAONKOHBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E319360)
-#define EPNAONKOHBO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E319370)
+#define EPNAONKOHBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5FE540)
+#define EPNAONKOHBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5FE570)
+#define EPNAONKOHBO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F5FE580)
 
-inline static constexpr unsigned int EPNAONKOHBO___c_TypeDefinitionIndex = 25454;
+inline static constexpr unsigned int EPNAONKOHBO___c_TypeDefinitionIndex = 25933;
 
 	class EPNAONKOHBO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56DD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54B90);
 		}
 
 		static ::System::Void _cctor()

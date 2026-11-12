@@ -4,9 +4,9 @@
 class AOIAGGGHHBD;
 namespace RPG::GameCore { class GameEntity; }
 
-#define LGBMDOLLMIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB68EAD0)
+#define LGBMDOLLMIL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF249C0)
 
-inline static constexpr unsigned int LGBMDOLLMIL_TypeDefinitionIndex = 73286;
+inline static constexpr unsigned int LGBMDOLLMIL_TypeDefinitionIndex = 75402;
 
 	class LGBMDOLLMIL : public ::System::Object
 	{

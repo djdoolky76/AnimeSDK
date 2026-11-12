@@ -4,22 +4,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RaidNpcMonsterOverrideRow; }
 
-#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D969E70)
-#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D969C00)
+#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB82210)
+#define RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB81FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RaidNpcMonsterOverrideRow_TypeDefinitionIndex = 14603;
+	inline static constexpr unsigned int RaidNpcMonsterOverrideRow_TypeDefinitionIndex = 14758;
 
 	class RaidNpcMonsterOverrideRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PlaneEventIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* NpcMonsterIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* ConfigIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* NpcMonsterIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* ConfigIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* PlaneEventIDList; // 0x20
 		::System::UInt32 RaidID; // 0x28
-		::System::UInt32 HardLevel; // 0x2C
-		::System::UInt32 GroupID; // 0x30
+		::System::UInt32 GroupID; // 0x2C
+		::System::UInt32 HardLevel; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RAIDNPCMONSTEROVERRIDEROW_CTOR_OFFSET))(this);

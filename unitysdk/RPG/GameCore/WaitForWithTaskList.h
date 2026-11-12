@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitForWithTaskList; }
 
-#define RPG_GAMECORE_WAITFORWITHTASKLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC99130)
-#define RPG_GAMECORE_WAITFORWITHTASKLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC99140)
-#define RPG_GAMECORE_WAITFORWITHTASKLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC99100)
+#define RPG_GAMECORE_WAITFORWITHTASKLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAB810)
+#define RPG_GAMECORE_WAITFORWITHTASKLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEAB820)
+#define RPG_GAMECORE_WAITFORWITHTASKLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEAB7E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitForWithTaskList_TypeDefinitionIndex = 23794;
+	inline static constexpr unsigned int WaitForWithTaskList_TypeDefinitionIndex = 24250;
 
 	class WaitForWithTaskList : public ::RPG::GameCore::TaskConfig
 	{

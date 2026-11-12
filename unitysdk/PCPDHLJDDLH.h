@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ElfBuff; }
 
-#define PCPDHLJDDLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4F70)
+#define PCPDHLJDDLH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB66E50)
 
-inline static constexpr unsigned int PCPDHLJDDLH_TypeDefinitionIndex = 43645;
+inline static constexpr unsigned int PCPDHLJDDLH_TypeDefinitionIndex = 44628;
 
 	class PCPDHLJDDLH : public ::System::Object
 	{

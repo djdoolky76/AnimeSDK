@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PlayPenaconyEndmostClosePage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IJBHMEDPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0x16458F20)
-#define IJBHMEDPNBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16458F50)
+#define IJBHMEDPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0x17421940)
+#define IJBHMEDPNBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17421970)
 
-inline static constexpr unsigned int IJBHMEDPNBK_TypeDefinitionIndex = 53066;
+inline static constexpr unsigned int IJBHMEDPNBK_TypeDefinitionIndex = 54226;
 
 	class IJBHMEDPNBK
 	{

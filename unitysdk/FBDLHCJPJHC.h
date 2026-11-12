@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetModifierEffectVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBDLHCJPJHC_CTOR_OFFSET UNITYSDK_OFFSET(0x15697220)
-#define FBDLHCJPJHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15697250)
+#define FBDLHCJPJHC_CTOR_OFFSET UNITYSDK_OFFSET(0x165AD2A0)
+#define FBDLHCJPJHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165AD2D0)
 
-inline static constexpr unsigned int FBDLHCJPJHC_TypeDefinitionIndex = 55535;
+inline static constexpr unsigned int FBDLHCJPJHC_TypeDefinitionIndex = 56727;
 
 	class FBDLHCJPJHC
 	{

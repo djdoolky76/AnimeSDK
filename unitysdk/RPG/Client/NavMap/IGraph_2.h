@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IGraph_2_TypeDefinitionIndex = 74551;
+	inline static constexpr unsigned int IGraph_2_TypeDefinitionIndex = 76699;
 
 	template <typename T1, typename T2>
 	class IGraph_2

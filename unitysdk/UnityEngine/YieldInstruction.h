@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_YIELDINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F440E40)
+#define UNITYENGINE_YIELDINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x206F1820)
 
 namespace UnityEngine
 {

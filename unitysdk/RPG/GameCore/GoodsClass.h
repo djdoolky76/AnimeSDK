@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GoodsClass; }
 
-#define RPG_GAMECORE_GOODSCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D720A60)
-#define RPG_GAMECORE_GOODSCLASS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D720970)
+#define RPG_GAMECORE_GOODSCLASS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E92A490)
+#define RPG_GAMECORE_GOODSCLASS_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E92A3A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GoodsClass_TypeDefinitionIndex = 12620;
+	inline static constexpr unsigned int GoodsClass_TypeDefinitionIndex = 12687;
 
 	class GoodsClass : public ::System::Object
 	{
 	public:
-		::System::UInt32 GoodsID; // 0x10
-		::System::UInt32 GoodsCnt; // 0x14
+		::System::UInt32 GoodsCnt; // 0x10
+		::System::UInt32 GoodsID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOODSCLASS_CTOR_OFFSET))(this);

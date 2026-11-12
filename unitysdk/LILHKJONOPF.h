@@ -3,10 +3,10 @@
 class LIGMIDILOAE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LILHKJONOPF_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D9940)
-#define LILHKJONOPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6D9970)
+#define LILHKJONOPF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF73D70)
+#define LILHKJONOPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF73DA0)
 
-inline static constexpr unsigned int LILHKJONOPF_TypeDefinitionIndex = 55624;
+inline static constexpr unsigned int LILHKJONOPF_TypeDefinitionIndex = 56822;
 
 	class LILHKJONOPF
 	{

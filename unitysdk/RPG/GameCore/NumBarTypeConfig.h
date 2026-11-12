@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class NumBarTypeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NUMBARTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DE4E0)
-#define RPG_GAMECORE_NUMBARTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DE370)
+#define RPG_GAMECORE_NUMBARTYPECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF71A0)
+#define RPG_GAMECORE_NUMBARTYPECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAF7010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NumBarTypeConfig_TypeDefinitionIndex = 22736;
+	inline static constexpr unsigned int NumBarTypeConfig_TypeDefinitionIndex = 23158;
 
 	class NumBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{

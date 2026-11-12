@@ -5,20 +5,20 @@
 class GNHMFIJAGIP;
 namespace System { class Object; }
 
-#define GNHMFIJAGIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4E0EF0)
-#define GNHMFIJAGIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E0F20)
-#define GNHMFIJAGIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4E0F30)
-#define GNHMFIJAGIP___C___CCTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1E4E0F80)
-#define GNHMFIJAGIP___C___CCTOR_B__23_2_OFFSET UNITYSDK_OFFSET(0x1E4E0F90)
+#define GNHMFIJAGIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7F1940)
+#define GNHMFIJAGIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7F1970)
+#define GNHMFIJAGIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F7F1980)
+#define GNHMFIJAGIP___C___CCTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1F7F19D0)
+#define GNHMFIJAGIP___C___CCTOR_B__23_2_OFFSET UNITYSDK_OFFSET(0x1F7F19E0)
 
-inline static constexpr unsigned int GNHMFIJAGIP___c_TypeDefinitionIndex = 31291;
+inline static constexpr unsigned int GNHMFIJAGIP___c_TypeDefinitionIndex = 32204;
 
 	class GNHMFIJAGIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23580);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A390);
 		}
 
 		static ::System::Void _cctor()

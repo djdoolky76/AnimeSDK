@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define IANPCCLEEOP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E220D0)
+#define IANPCCLEEOP_CTOR_OFFSET UNITYSDK_OFFSET(0x16DCBB30)
 
-inline static constexpr unsigned int IANPCCLEEOP_TypeDefinitionIndex = 57589;
+inline static constexpr unsigned int IANPCCLEEOP_TypeDefinitionIndex = 58817;
 
 	class IANPCCLEEOP : public ::System::Object
 	{
 	public:
-		::System::UInt32 LDIKOLCAJLH; // 0x10
-		::System::UInt32 PKEKFAHEPAL; // 0x14
+		::System::UInt32 PKEKFAHEPAL; // 0x10
+		::System::UInt32 LDIKOLCAJLH; // 0x14
 		::RPG::GameCore::FixPoint EIAADFEOONK; // 0x18
 		::System::Void _ctor()
 		{

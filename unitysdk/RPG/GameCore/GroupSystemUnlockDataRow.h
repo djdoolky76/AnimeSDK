@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GroupSystemUnlockDataRow; }
 
-#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74CB60)
-#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74CA40)
+#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9605D0)
+#define RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9604B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupSystemUnlockDataRow_TypeDefinitionIndex = 13335;
+	inline static constexpr unsigned int GroupSystemUnlockDataRow_TypeDefinitionIndex = 13407;
 
 	class GroupSystemUnlockDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::System::UInt32 GroupSystemUnlockID; // 0x14
+		::System::UInt32 GroupSystemUnlockID; // 0x10
+		::System::UInt32 UnlockID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GROUPSYSTEMUNLOCKDATAROW_CTOR_OFFSET))(this);

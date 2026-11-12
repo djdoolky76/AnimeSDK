@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByRegionEraState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KLBPEKIDGOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB4E0C20)
-#define KLBPEKIDGOB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4E0C50)
+#define KLBPEKIDGOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2A040)
+#define KLBPEKIDGOB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD2A070)
 
-inline static constexpr unsigned int KLBPEKIDGOB_TypeDefinitionIndex = 52759;
+inline static constexpr unsigned int KLBPEKIDGOB_TypeDefinitionIndex = 53903;
 
 	class KLBPEKIDGOB
 	{

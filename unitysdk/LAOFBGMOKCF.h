@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionEnableTargetLockCat; }
 
-#define LAOFBGMOKCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71FE40)
-#define LAOFBGMOKCF_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C71FE50)
+#define LAOFBGMOKCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A17C0)
+#define LAOFBGMOKCF_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1D8A17D0)
 
-inline static constexpr unsigned int LAOFBGMOKCF_TypeDefinitionIndex = 37372;
+inline static constexpr unsigned int LAOFBGMOKCF_TypeDefinitionIndex = 38300;
 
 	class LAOFBGMOKCF : public ::GPLOFONGBGI
 	{

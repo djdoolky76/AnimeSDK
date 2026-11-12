@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define NOBFCPPBLFD_AOKNJCILDCE_OFFSET UNITYSDK_OFFSET(0xBCE4E10)
-#define NOBFCPPBLFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE5560)
-#define NOBFCPPBLFD_EAGHCCIDDKI_OFFSET UNITYSDK_OFFSET(0xBCE4980)
-#define NOBFCPPBLFD_FCDIHABIHMF_OFFSET UNITYSDK_OFFSET(0xBCE4A10)
-#define NOBFCPPBLFD_LCKPDMFLDBE_OFFSET UNITYSDK_OFFSET(0xBCE4B30)
-#define NOBFCPPBLFD_PCMOHGCOEBA_OFFSET UNITYSDK_OFFSET(0xBCE4F30)
+#define NOBFCPPBLFD_AOKNJCILDCE_OFFSET UNITYSDK_OFFSET(0xC5D0D20)
+#define NOBFCPPBLFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC5D1470)
+#define NOBFCPPBLFD_EAGHCCIDDKI_OFFSET UNITYSDK_OFFSET(0xC5D0890)
+#define NOBFCPPBLFD_FCDIHABIHMF_OFFSET UNITYSDK_OFFSET(0xC5D0920)
+#define NOBFCPPBLFD_LCKPDMFLDBE_OFFSET UNITYSDK_OFFSET(0xC5D0A40)
+#define NOBFCPPBLFD_PCMOHGCOEBA_OFFSET UNITYSDK_OFFSET(0xC5D0E40)
 
-inline static constexpr unsigned int NOBFCPPBLFD_TypeDefinitionIndex = 66743;
+inline static constexpr unsigned int NOBFCPPBLFD_TypeDefinitionIndex = 68679;
 
 	class NOBFCPPBLFD : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* NMCIKIHPGOP; // 0x10
-		::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* LCNIPJJDKGA; // 0x18
+		::System::Collections::Generic::List_1<::NNAGJHEBNJD*>* LCNIPJJDKGA; // 0x10
+		::RPG::Client::Promises::Promise_1<::System::Collections::Generic::List_1<::NNAGJHEBNJD*>*>* NMCIKIHPGOP; // 0x18
 		::System::Collections::Generic::Queue_1<::System::Object*>* FPKPLHACIBF; // 0x20
 		::System::Int32 JIGBBMPCPFH; // 0x28
 		::System::Boolean BAHBLHDGCCJ; // 0x2C

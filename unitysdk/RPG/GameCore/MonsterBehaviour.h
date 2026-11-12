@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterBehaviour; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MONSTERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AE7F0)
-#define RPG_GAMECORE_MONSTERBEHAVIOUR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8AE800)
-#define RPG_GAMECORE_MONSTERBEHAVIOUR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8AE7C0)
+#define RPG_GAMECORE_MONSTERBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC8960)
+#define RPG_GAMECORE_MONSTERBEHAVIOUR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAC8970)
+#define RPG_GAMECORE_MONSTERBEHAVIOUR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAC8930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterBehaviour_TypeDefinitionIndex = 24066;
+	inline static constexpr unsigned int MonsterBehaviour_TypeDefinitionIndex = 24525;
 
 	class MonsterBehaviour : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/Rtcb_BreakActionOption.h"
 #include "unitysdk/System/Object.h"
 
-#define ILFDOJEAIFK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x164B0270)
+#define ILFDOJEAIFK_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x174848C0)
 
-inline static constexpr unsigned int ILFDOJEAIFK_TypeDefinitionIndex = 53951;
+inline static constexpr unsigned int ILFDOJEAIFK_TypeDefinitionIndex = 55115;
 
 	class ILFDOJEAIFK : public ::System::Object
 	{

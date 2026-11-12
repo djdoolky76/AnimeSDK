@@ -5,16 +5,16 @@
 namespace RPG::CustomRP { class VolumetricFogController; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC7CAD0)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC7CA40)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CC7C830)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CC7C9E0)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CC7C980)
-#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CC7C900)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE23D20)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE23C90)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1DE23A80)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1DE23C30)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1DE23BD0)
+#define RPG_CUSTOMRP_VOLUMETRICFOGCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1DE23B50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VolumetricFogController_TypeDefinitionIndex = 37738;
+	inline static constexpr unsigned int VolumetricFogController_TypeDefinitionIndex = 38667;
 
 	class VolumetricFogController : public ::UnityEngine::MonoBehaviour
 	{
@@ -67,7 +67,7 @@ namespace RPG::CustomRP
 		::System::Boolean UseMotionTex; // 0xC8
 		static ::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>** StaticGet__instances()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>**)UnitySDK::FromName("RPG.CustomRP", "VolumetricFogController")->GetStaticField(0x370D0);
+			return (::System::Collections::Generic::HashSet_1<::RPG::CustomRP::VolumetricFogController*>**)UnitySDK::FromName("RPG.CustomRP", "VolumetricFogController")->GetStaticField(0x2F750);
 		}
 
 		::System::Void _ctor()

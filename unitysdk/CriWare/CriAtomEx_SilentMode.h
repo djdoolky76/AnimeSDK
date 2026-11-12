@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_SilentMode_TypeDefinitionIndex = 39973;
+	inline static constexpr unsigned int CriAtomEx_SilentMode_TypeDefinitionIndex = 40948;
 
 	enum class CriAtomEx_SilentMode : ::System::Int32
 	{

@@ -7,21 +7,21 @@ class ODGPPIHLOFF;
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace System { template <typename T> class Action_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15651600)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x15653120)
-#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET UNITYSDK_OFFSET(0x15653500)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16564960)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x165664B0)
+#define ENVIROMENTSYSTEMV2SPACE_ENVIRONMENTSYSTEMV2___C__DISPLAYCLASS56_0__SETACTIVEPROFILEAFTERASYNCRESLOADING_B__2_OFFSET UNITYSDK_OFFSET(0x16566890)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass56_0_TypeDefinitionIndex = 49472;
+	inline static constexpr unsigned int EnvironmentSystemV2___c__DisplayClass56_0_TypeDefinitionIndex = 50548;
 
 	class EnvironmentSystemV2___c__DisplayClass56_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Boolean>* __9__2; // 0x10
-		::ODGPPIHLOFF* h; // 0x18
-		::COGBNIGPJPO* targetProfile; // 0x20
-		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x28
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onFinish; // 0x10
+		::COGBNIGPJPO* targetProfile; // 0x18
+		::System::Action_1<::System::Boolean>* __9__2; // 0x20
+		::ODGPPIHLOFF* h; // 0x28
 		::RPG::GameCore::EnviromentControlPriority priority; // 0x30
 		::System::Void _ctor()
 		{

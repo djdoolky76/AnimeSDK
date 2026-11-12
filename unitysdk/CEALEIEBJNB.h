@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int CEALEIEBJNB_TypeDefinitionIndex = 6321;
+inline static constexpr unsigned int CEALEIEBJNB_TypeDefinitionIndex = 6328;
 
 	class CEALEIEBJNB : public ::System::Object
 	{

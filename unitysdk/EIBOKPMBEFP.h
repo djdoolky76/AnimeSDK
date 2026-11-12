@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PropLoadFastDeliverPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EIBOKPMBEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x154BBF80)
-#define EIBOKPMBEFP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154BC880)
-#define EIBOKPMBEFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154BBF90)
-#define EIBOKPMBEFP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154BC830)
-#define EIBOKPMBEFP_TICK_OFFSET UNITYSDK_OFFSET(0x154BC8E0)
+#define EIBOKPMBEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x163FA6B0)
+#define EIBOKPMBEFP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x163FAFB0)
+#define EIBOKPMBEFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163FA6C0)
+#define EIBOKPMBEFP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x163FAF60)
+#define EIBOKPMBEFP_TICK_OFFSET UNITYSDK_OFFSET(0x163FB010)
 
-inline static constexpr unsigned int EIBOKPMBEFP_TypeDefinitionIndex = 58331;
+inline static constexpr unsigned int EIBOKPMBEFP_TypeDefinitionIndex = 59587;
 
 	class EIBOKPMBEFP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PropLoadFastDeliverPuzzle* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::PropLoadFastDeliverPuzzle* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropLoadFastDeliverPuzzle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropLoadFastDeliverPuzzle*))((::PBYTE)hIl2Cpp + EIBOKPMBEFP_CTOR_OFFSET))(this, a1, a2);

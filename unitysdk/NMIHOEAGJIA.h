@@ -4,9 +4,9 @@
 class CCJFANKEDJD;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NMIHOEAGJIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C972DA0)
+#define NMIHOEAGJIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB34B80)
 
-inline static constexpr unsigned int NMIHOEAGJIA_TypeDefinitionIndex = 42843;
+inline static constexpr unsigned int NMIHOEAGJIA_TypeDefinitionIndex = 43824;
 
 	class NMIHOEAGJIA : public ::System::Object
 	{

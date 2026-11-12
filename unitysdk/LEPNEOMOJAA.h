@@ -3,10 +3,10 @@
 class PHGMBKIHFBC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LEPNEOMOJAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB65DCA0)
-#define LEPNEOMOJAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB65DCD0)
+#define LEPNEOMOJAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF30E0)
+#define LEPNEOMOJAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEF3110)
 
-inline static constexpr unsigned int LEPNEOMOJAA_TypeDefinitionIndex = 55267;
+inline static constexpr unsigned int LEPNEOMOJAA_TypeDefinitionIndex = 56448;
 
 	class LEPNEOMOJAA
 	{

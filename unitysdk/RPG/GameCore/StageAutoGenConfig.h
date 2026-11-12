@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageAutoGenConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEAUTOGENCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB05290)
-#define RPG_GAMECORE_STAGEAUTOGENCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB04FF0)
+#define RPG_GAMECORE_STAGEAUTOGENCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED172E0)
+#define RPG_GAMECORE_STAGEAUTOGENCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED17040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageAutoGenConfig_TypeDefinitionIndex = 19144;
+	inline static constexpr unsigned int StageAutoGenConfig_TypeDefinitionIndex = 19334;
 
 	class StageAutoGenConfig : public ::RPG::GameCore::JsonConfig
 	{

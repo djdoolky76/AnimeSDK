@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_QINGQUEBATTLEENERGYBARNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0xDE04BC0)
+#define RPG_CLIENT_QINGQUEBATTLEENERGYBARNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0xE869F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QingQueBattleEnergyBarNotify_TypeDefinitionIndex = 71829;
+	inline static constexpr unsigned int QingQueBattleEnergyBarNotify_TypeDefinitionIndex = 73850;
 
 	class QingQueBattleEnergyBarNotify : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::QingQueEnergyBarIconType>* IconList; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::QingQueEnergyBarIconType>* IconList; // 0x10
+		::RPG::GameCore::GameEntity* Target; // 0x18
 		::System::Boolean Hu; // 0x20
 		::System::Void _ctor()
 		{

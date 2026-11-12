@@ -4,7 +4,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledExtensions_TypeDefinitionIndex = 5110;
+	inline static constexpr unsigned int PooledExtensions_TypeDefinitionIndex = 5115;
 
 	class PooledExtensions : public ::System::Object
 	{

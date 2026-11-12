@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F12C830)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F12C870)
-#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__ONDESTROYASYNC_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F12C880)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203DD820)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203DD860)
+#define CYSHARP_THREADING_TASKS_TRIGGERS_ASYNCDESTROYTRIGGER___C__ONDESTROYASYNC_B__7_0_OFFSET UNITYSDK_OFFSET(0x203DD870)
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncDestroyTrigger___c_TypeDefinitionIndex = 38497;
+	inline static constexpr unsigned int AsyncDestroyTrigger___c_TypeDefinitionIndex = 39426;
 
 	class AsyncDestroyTrigger___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Triggers", "<>c")->GetStaticField(0x40CF0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Triggers", "<>c")->GetStaticField(0x381F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Triggers", "<>c")->GetStaticField(0x40CF8);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Triggers", "<>c")->GetStaticField(0x381F8);
 		}
 
 		static ::System::Void _cctor()

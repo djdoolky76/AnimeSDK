@@ -10,12 +10,12 @@ namespace MiHoYo::SDK { class ThirdPartyInfoModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_ACCOUNTMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC283A0)
-#define MIHOYO_SDK_ACCOUNTMODEL_GETTOKEN_OFFSET UNITYSDK_OFFSET(0x1BC29140)
+#define MIHOYO_SDK_ACCOUNTMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDB1420)
+#define MIHOYO_SDK_ACCOUNTMODEL_GETTOKEN_OFFSET UNITYSDK_OFFSET(0x1CDB21C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountModel_TypeDefinitionIndex = 7863;
+	inline static constexpr unsigned int AccountModel_TypeDefinitionIndex = 7872;
 
 	class AccountModel : public ::System::Object
 	{

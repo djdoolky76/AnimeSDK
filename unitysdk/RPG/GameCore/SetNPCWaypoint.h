@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetNPCWaypoint; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaypointConfig; }
 
-#define RPG_GAMECORE_SETNPCWAYPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABDA10)
-#define RPG_GAMECORE_SETNPCWAYPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABDA20)
-#define RPG_GAMECORE_SETNPCWAYPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABD9C0)
+#define RPG_GAMECORE_SETNPCWAYPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCFC40)
+#define RPG_GAMECORE_SETNPCWAYPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECCFC50)
+#define RPG_GAMECORE_SETNPCWAYPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECCFBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNPCWaypoint_TypeDefinitionIndex = 20290;
+	inline static constexpr unsigned int SetNPCWaypoint_TypeDefinitionIndex = 20625;
 
 	class SetNPCWaypoint : public ::RPG::GameCore::TaskConfig
 	{

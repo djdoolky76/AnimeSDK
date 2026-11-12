@@ -6,20 +6,20 @@ class OKIBHNGFOLI;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KKOJJCIIKAH_AKJDHPLMFEG_OFFSET UNITYSDK_OFFSET(0xB4D7300)
-#define KKOJJCIIKAH_AOPMFJBFKLG_OFFSET UNITYSDK_OFFSET(0xB4D6B10)
-#define KKOJJCIIKAH_CMLKHFGEPHC_OFFSET UNITYSDK_OFFSET(0xB4D6940)
-#define KKOJJCIIKAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB4D6910)
-#define KKOJJCIIKAH_FLNENANCDOL_OFFSET UNITYSDK_OFFSET(0xB4D73F0)
+#define KKOJJCIIKAH_AKJDHPLMFEG_OFFSET UNITYSDK_OFFSET(0xBD206F0)
+#define KKOJJCIIKAH_AOPMFJBFKLG_OFFSET UNITYSDK_OFFSET(0xBD1FF00)
+#define KKOJJCIIKAH_CMLKHFGEPHC_OFFSET UNITYSDK_OFFSET(0xBD1FD30)
+#define KKOJJCIIKAH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1FD00)
+#define KKOJJCIIKAH_FLNENANCDOL_OFFSET UNITYSDK_OFFSET(0xBD207E0)
 
-inline static constexpr unsigned int KKOJJCIIKAH_TypeDefinitionIndex = 82083;
+inline static constexpr unsigned int KKOJJCIIKAH_TypeDefinitionIndex = 84956;
 
 	class KKOJJCIIKAH : public ::System::Object
 	{
 	public:
-		::COPMGEHDGNP* NGKPKBEGEGG; // 0x10
-		::OKIBHNGFOLI* JDGBDKHIEGG; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* PNECLJKDONF; // 0x20
+		::OKIBHNGFOLI* JDGBDKHIEGG; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* PNECLJKDONF; // 0x18
+		::COPMGEHDGNP* NGKPKBEGEGG; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKOJJCIIKAH_CTOR_OFFSET))(this);

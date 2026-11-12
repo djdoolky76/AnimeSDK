@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FloorSavedValueConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FLOORSAVEDVALUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E6FA0)
-#define RPG_GAMECORE_FLOORSAVEDVALUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E6CB0)
+#define RPG_GAMECORE_FLOORSAVEDVALUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F16B0)
+#define RPG_GAMECORE_FLOORSAVEDVALUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F13C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorSavedValueConfig_TypeDefinitionIndex = 18286;
+	inline static constexpr unsigned int FloorSavedValueConfig_TypeDefinitionIndex = 18448;
 
 	class FloorSavedValueConfig : public ::RPG::GameCore::JsonConfig
 	{

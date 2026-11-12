@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B8790)
+#define MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2743D0)
 
-inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO___c__DisplayClass10_0_TypeDefinitionIndex = 49175;
+inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO___c__DisplayClass10_0_TypeDefinitionIndex = 50251;
 
 	class MLLBMBEIAAB_CNLBPFJAGJO___c__DisplayClass10_0 : public ::System::Object
 	{

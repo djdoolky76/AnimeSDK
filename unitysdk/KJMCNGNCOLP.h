@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KJMCNGNCOLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB45BB30)
+#define KJMCNGNCOLP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF3C50)
 
-inline static constexpr unsigned int KJMCNGNCOLP_TypeDefinitionIndex = 58520;
+inline static constexpr unsigned int KJMCNGNCOLP_TypeDefinitionIndex = 59784;
 
 	class KJMCNGNCOLP : public ::System::Object
 	{

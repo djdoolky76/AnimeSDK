@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BySaveModelWhenDead; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHPDMEELLBK_CTOR_OFFSET UNITYSDK_OFFSET(0xB492C60)
-#define BHPDMEELLBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB492C90)
+#define BHPDMEELLBK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE25E30)
+#define BHPDMEELLBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE25E60)
 
-inline static constexpr unsigned int BHPDMEELLBK_TypeDefinitionIndex = 56388;
+inline static constexpr unsigned int BHPDMEELLBK_TypeDefinitionIndex = 57607;
 
 	class BHPDMEELLBK
 	{

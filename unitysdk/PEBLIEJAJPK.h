@@ -6,19 +6,19 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PEBLIEJAJPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC033200)
-#define PEBLIEJAJPK_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xC033160)
+#define PEBLIEJAJPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC9396A0)
+#define PEBLIEJAJPK_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xC939600)
 
-inline static constexpr unsigned int PEBLIEJAJPK_TypeDefinitionIndex = 77682;
+inline static constexpr unsigned int PEBLIEJAJPK_TypeDefinitionIndex = 80417;
 
 	class PEBLIEJAJPK : public ::HBLDGJCDJPF
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Int32>* KPJHIOKBJEI; // 0x10
 		::System::Nullable_1<::System::Int32> FHJBNFEMDJE; // 0x18
-		::System::Nullable_1<::System::Int32> GMGGJEIOLGK; // 0x20
-		::System::Nullable_1<::System::Int32> HJPIDBNFDNG; // 0x28
-		::System::Nullable_1<::System::Int32> BOFHOLNELKL; // 0x30
+		::System::Nullable_1<::System::Int32> BOFHOLNELKL; // 0x20
+		::System::Nullable_1<::System::Int32> GMGGJEIOLGK; // 0x28
+		::System::Nullable_1<::System::Int32> HJPIDBNFDNG; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEBLIEJAJPK_CTOR_OFFSET))(this);

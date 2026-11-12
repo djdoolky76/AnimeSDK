@@ -6,7 +6,7 @@ namespace RPG::UINavigation { class UINavigationArea; }
 namespace RPG::UINavigation { class UINavigationArea_FirstSelectableDelegate; }
 namespace System { class IDisposable; }
 
-inline static constexpr unsigned int AALILPECKMO_TypeDefinitionIndex = 49825;
+inline static constexpr unsigned int AALILPECKMO_TypeDefinitionIndex = 50873;
 
 	class AALILPECKMO : public ::System::Object
 	{

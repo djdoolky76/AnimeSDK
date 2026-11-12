@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActivityElationHideCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KPNPMCMFEAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CE7B0)
-#define KPNPMCMFEAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5CE7E0)
+#define KPNPMCMFEAK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE23080)
+#define KPNPMCMFEAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE230B0)
 
-inline static constexpr unsigned int KPNPMCMFEAK_TypeDefinitionIndex = 56340;
+inline static constexpr unsigned int KPNPMCMFEAK_TypeDefinitionIndex = 57554;
 
 	class KPNPMCMFEAK
 	{

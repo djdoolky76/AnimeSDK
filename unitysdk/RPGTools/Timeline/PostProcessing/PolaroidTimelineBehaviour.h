@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE927890)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE927130)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF4034F0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xF402D90)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidTimelineBehaviour_TypeDefinitionIndex = 48594;
+	inline static constexpr unsigned int PolaroidTimelineBehaviour_TypeDefinitionIndex = 49635;
 
 	class PolaroidTimelineBehaviour
 	{

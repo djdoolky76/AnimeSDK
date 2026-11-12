@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEditorLoadStageConfig; }
 
-#define RPG_GAMECORE_FIVEDIMEDITORLOADSTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BAC60)
-#define RPG_GAMECORE_FIVEDIMEDITORLOADSTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BAC20)
+#define RPG_GAMECORE_FIVEDIMEDITORLOADSTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C7610)
+#define RPG_GAMECORE_FIVEDIMEDITORLOADSTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8C75D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEditorLoadStageConfig_TypeDefinitionIndex = 18835;
+	inline static constexpr unsigned int FiveDimEditorLoadStageConfig_TypeDefinitionIndex = 18997;
 
 	class FiveDimEditorLoadStageConfig : public ::RPG::GameCore::JsonConfig
 	{

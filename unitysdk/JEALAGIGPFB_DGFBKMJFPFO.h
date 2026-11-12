@@ -3,20 +3,20 @@
 class JEALAGIGPFB_DGFBKMJFPFO_NPDFDJICEMH;
 namespace RPG::Client { class MonoValueEvaluateConfigure_FloatEvaluator; }
 
-#define JEALAGIGPFB_DGFBKMJFPFO_CTOR_OFFSET UNITYSDK_OFFSET(0x16614CB0)
-#define JEALAGIGPFB_DGFBKMJFPFO_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0x16615530)
-#define JEALAGIGPFB_DGFBKMJFPFO_LKIFDCACLOK_OFFSET UNITYSDK_OFFSET(0x16615380)
+#define JEALAGIGPFB_DGFBKMJFPFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB95DAA0)
+#define JEALAGIGPFB_DGFBKMJFPFO_GET_CURRENTVALUE_OFFSET UNITYSDK_OFFSET(0xB95E320)
+#define JEALAGIGPFB_DGFBKMJFPFO_LKIFDCACLOK_OFFSET UNITYSDK_OFFSET(0xB95E170)
 
-inline static constexpr unsigned int JEALAGIGPFB_DGFBKMJFPFO_TypeDefinitionIndex = 57429;
+inline static constexpr unsigned int JEALAGIGPFB_DGFBKMJFPFO_TypeDefinitionIndex = 58657;
 
 	class JEALAGIGPFB_DGFBKMJFPFO
 	{
 	public:
-		::System::Single HBDJCFFDGDD; // 0x38
-		::System::Single MHJBLFKKCIC; // 0x3C
-		::System::Single KFGBCLJCCCI; // 0x40
+		::System::Single MHJBLFKKCIC; // 0x38
+		::System::Single NPINECOCALC; // 0x3C
+		::System::Single HBDJCFFDGDD; // 0x40
 		::System::Single AIKAPJELHNK; // 0x44
-		::System::Single NPINECOCALC; // 0x48
+		::System::Single KFGBCLJCCCI; // 0x48
 		::System::Void _ctor(::JEALAGIGPFB_DGFBKMJFPFO_NPDFDJICEMH* a1, ::RPG::Client::MonoValueEvaluateConfigure_FloatEvaluator* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::JEALAGIGPFB_DGFBKMJFPFO_NPDFDJICEMH*, ::RPG::Client::MonoValueEvaluateConfigure_FloatEvaluator*))((::PBYTE)hIl2Cpp + JEALAGIGPFB_DGFBKMJFPFO_CTOR_OFFSET))(this, a1, a2);

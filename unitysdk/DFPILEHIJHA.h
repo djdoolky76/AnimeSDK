@@ -5,18 +5,18 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Dropdown; }
 
-#define DFPILEHIJHA_CTOR_OFFSET UNITYSDK_OFFSET(0xE83AD50)
-#define DFPILEHIJHA_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xE83ABF0)
-#define DFPILEHIJHA_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xE83AC60)
+#define DFPILEHIJHA_CTOR_OFFSET UNITYSDK_OFFSET(0xF1A3A70)
+#define DFPILEHIJHA_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xF1A3910)
+#define DFPILEHIJHA_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xF1A3980)
 
-inline static constexpr unsigned int DFPILEHIJHA_TypeDefinitionIndex = 72750;
+inline static constexpr unsigned int DFPILEHIJHA_TypeDefinitionIndex = 74829;
 
 	class DFPILEHIJHA : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::UI::Button* FPNIIGOJKGG; // 0x18
-		::UnityEngine::UI::Dropdown* NIAFKHGAIKI; // 0x20
-		::UnityEngine::UI::Button* GNJPAOBJGGA; // 0x28
+		::UnityEngine::UI::Dropdown* NIAFKHGAIKI; // 0x18
+		::UnityEngine::UI::Button* GNJPAOBJGGA; // 0x20
+		::UnityEngine::UI::Button* FPNIIGOJKGG; // 0x28
 		::UnityEngine::UI::Dropdown* FKGDPKLFDHK; // 0x30
 		::System::Void _ctor()
 		{

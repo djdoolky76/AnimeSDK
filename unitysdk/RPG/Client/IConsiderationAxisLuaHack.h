@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IConsiderationAxisLuaHack_TypeDefinitionIndex = 59398;
+	inline static constexpr unsigned int IConsiderationAxisLuaHack_TypeDefinitionIndex = 60675;
 
 	class IConsiderationAxisLuaHack
 	{

@@ -3,19 +3,18 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define GKFHOJFHFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A96450)
-#define GKFHOJFHFAB_GPFICMJHBOA_OFFSET UNITYSDK_OFFSET(0x15A963D0)
+#define GKFHOJFHFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x169D3350)
+#define GKFHOJFHFAB_GPFICMJHBOA_OFFSET UNITYSDK_OFFSET(0x169D32D0)
 
-inline static constexpr unsigned int GKFHOJFHFAB_TypeDefinitionIndex = 56075;
+inline static constexpr unsigned int GKFHOJFHFAB_TypeDefinitionIndex = 57287;
 
 	class GKFHOJFHFAB : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint KOBHALBKDLJ; // 0x10
-		::System::Boolean AHAELEIHCON; // 0x18
-		::System::Boolean LCGOLPNDHLJ; // 0x19
-		::System::Byte _padding0[0x6];
-		::RPG::GameCore::FixPoint NIADOIEAEIM; // 0x20
+		::RPG::GameCore::FixPoint NIADOIEAEIM; // 0x10
+		::RPG::GameCore::FixPoint KOBHALBKDLJ; // 0x18
+		::System::Boolean AHAELEIHCON; // 0x20
+		::System::Boolean LCGOLPNDHLJ; // 0x21
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKFHOJFHFAB_CTOR_OFFSET))(this);

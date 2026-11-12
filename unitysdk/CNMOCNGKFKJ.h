@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvIsometricNotify; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CNMOCNGKFKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA5A1B0)
-#define CNMOCNGKFKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA5A1E0)
+#define CNMOCNGKFKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE5F2AC0)
+#define CNMOCNGKFKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5F2AF0)
 
-inline static constexpr unsigned int CNMOCNGKFKJ_TypeDefinitionIndex = 52387;
+inline static constexpr unsigned int CNMOCNGKFKJ_TypeDefinitionIndex = 53493;
 
 	class CNMOCNGKFKJ
 	{

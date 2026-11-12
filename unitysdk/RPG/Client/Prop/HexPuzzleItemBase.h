@@ -3,12 +3,12 @@
 #include "unitysdk/NBCAOOBFHEA.h"
 #include "unitysdk/RPG/Client/Prop/InteractPuzzleItemBase.h"
 
-#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCF8160)
-#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE_GET_COORD_OFFSET UNITYSDK_OFFSET(0xDCF8110)
+#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xE7559A0)
+#define RPG_CLIENT_PROP_HEXPUZZLEITEMBASE_GET_COORD_OFFSET UNITYSDK_OFFSET(0xE755950)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int HexPuzzleItemBase_TypeDefinitionIndex = 78613;
+	inline static constexpr unsigned int HexPuzzleItemBase_TypeDefinitionIndex = 81348;
 
 	class HexPuzzleItemBase : public ::RPG::Client::Prop::InteractPuzzleItemBase
 	{

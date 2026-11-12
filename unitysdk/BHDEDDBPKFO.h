@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsFirstInsertAbilityInQueue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHDEDDBPKFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB474630)
-#define BHDEDDBPKFO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB474660)
+#define BHDEDDBPKFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB2CB30)
+#define BHDEDDBPKFO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB2CB60)
 
-inline static constexpr unsigned int BHDEDDBPKFO_TypeDefinitionIndex = 54659;
+inline static constexpr unsigned int BHDEDDBPKFO_TypeDefinitionIndex = 55825;
 
 	class BHDEDDBPKFO
 	{

@@ -5,25 +5,25 @@ class CMIGMEGEAEI;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD857820)
-#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD857860)
-#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__AWAKE_B__3_0_OFFSET UNITYSDK_OFFSET(0xD857870)
+#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2A9D80)
+#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2A9DC0)
+#define RPG_CLIENT_MONOPLAYERATTACHMENTCONTROLLER___C__AWAKE_B__3_0_OFFSET UNITYSDK_OFFSET(0xE2A9DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPlayerAttachmentController___c_TypeDefinitionIndex = 60143;
+	inline static constexpr unsigned int MonoPlayerAttachmentController___c_TypeDefinitionIndex = 61427;
 
 	class MonoPlayerAttachmentController___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6BB30);
-		}
-
 		static ::System::Comparison_1<::CMIGMEGEAEI*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::CMIGMEGEAEI*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6BB38);
+			return (::System::Comparison_1<::CMIGMEGEAEI*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65560);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65568);
 		}
 
 		static ::System::Void _cctor()

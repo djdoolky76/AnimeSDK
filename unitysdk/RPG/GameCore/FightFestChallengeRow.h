@@ -7,38 +7,38 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class FightFestChallengeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIGHTFESTCHALLENGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A1930)
-#define RPG_GAMECORE_FIGHTFESTCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6A1140)
+#define RPG_GAMECORE_FIGHTFESTCHALLENGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AE0A0)
+#define RPG_GAMECORE_FIGHTFESTCHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8AD8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FightFestChallengeRow_TypeDefinitionIndex = 13281;
+	inline static constexpr unsigned int FightFestChallengeRow_TypeDefinitionIndex = 13353;
 
 	class FightFestChallengeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* SpecialAvatarList; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockConditionList; // 0x18
-		::System::String* TabIconPath; // 0x20
-		::System::String* FigurePath; // 0x28
-		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x30
-		::System::String* OriginalFigurePath; // 0x38
-		::Il2CppArray<::System::UInt32>* QuestIDList; // 0x40
-		::RPG::Client::TextID StoryDesc; // 0x48
-		::System::UInt32 GroupID; // 0x58
-		::System::UInt32 TutorialID; // 0x5C
-		::System::UInt32 EnvironmentBuffID; // 0x60
-		::System::UInt32 EventID; // 0x64
-		::RPG::Client::TextID OriginalStageName; // 0x68
-		::System::UInt32 ChallengeID; // 0x78
+		::System::String* OriginalFigurePath; // 0x10
+		::Il2CppArray<::System::UInt32>* BattleTargetList; // 0x18
+		::Il2CppArray<::System::UInt32>* SpecialAvatarList; // 0x20
+		::System::String* TabIconPath; // 0x28
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockConditionList; // 0x30
+		::Il2CppArray<::System::UInt32>* QuestIDList; // 0x38
+		::System::String* FigurePath; // 0x40
+		::RPG::Client::TextID UnlockTips; // 0x48
+		::System::UInt32 UnlockSubMissionID; // 0x58
+		::System::UInt32 QuestGroupID; // 0x5C
+		::RPG::Client::TextID TabName; // 0x60
+		::System::UInt32 TutorialID; // 0x70
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ChallengeName; // 0x80
-		::System::UInt32 QuestGroupID; // 0x90
-		::System::UInt32 UnlockSubMussionID; // 0x94
-		::RPG::Client::TextID UnlockTips; // 0x98
-		::RPG::Client::TextID TabName; // 0xA8
-		::System::UInt32 UnlockSubMissionID; // 0xB8
-		::System::UInt32 AvatarInfoID; // 0xBC
+		::RPG::Client::TextID StoryDesc; // 0x78
+		::System::UInt32 EventID; // 0x88
+		::System::UInt32 AvatarInfoID; // 0x8C
+		::RPG::Client::TextID ChallengeName; // 0x90
+		::RPG::Client::TextID OriginalStageName; // 0xA0
+		::System::UInt32 ChallengeID; // 0xB0
+		::System::UInt32 EnvironmentBuffID; // 0xB4
+		::System::UInt32 UnlockSubMussionID; // 0xB8
+		::System::UInt32 GroupID; // 0xBC
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIGHTFESTCHALLENGEROW_CTOR_OFFSET))(this);

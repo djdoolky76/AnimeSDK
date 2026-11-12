@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int CLFPDHFOBAH_DGMIDIEKHJK_TypeDefinitionIndex = 47128;
+inline static constexpr unsigned int CLFPDHFOBAH_DGMIDIEKHJK_TypeDefinitionIndex = 48156;
 
 	struct alignas(4) CLFPDHFOBAH_DGMIDIEKHJK
 	{

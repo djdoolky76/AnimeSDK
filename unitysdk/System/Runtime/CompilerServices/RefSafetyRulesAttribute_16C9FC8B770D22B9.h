@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_REFSAFETYRULESATTRIBUTE_16C9FC8B770D22B9_CTOR_OFFSET UNITYSDK_OFFSET(0x1C876DB0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_REFSAFETYRULESATTRIBUTE_16C9FC8B770D22B9_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F84D0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int RefSafetyRulesAttribute_16C9FC8B770D22B9_TypeDefinitionIndex = 36089;
+	inline static constexpr unsigned int RefSafetyRulesAttribute_16C9FC8B770D22B9_TypeDefinitionIndex = 37017;
 
 	class RefSafetyRulesAttribute_16C9FC8B770D22B9 : public ::System::Attribute
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetAudioEmotionState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FIHPIJAGNCA_CTOR_OFFSET UNITYSDK_OFFSET(0x157A8E90)
-#define FIHPIJAGNCA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157A8EA0)
-#define FIHPIJAGNCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157A8EE0)
-#define FIHPIJAGNCA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157A9420)
-#define FIHPIJAGNCA_TICK_OFFSET UNITYSDK_OFFSET(0x157A9470)
+#define FIHPIJAGNCA_CTOR_OFFSET UNITYSDK_OFFSET(0x166CA910)
+#define FIHPIJAGNCA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x166CA920)
+#define FIHPIJAGNCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166CA960)
+#define FIHPIJAGNCA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x166CAEA0)
+#define FIHPIJAGNCA_TICK_OFFSET UNITYSDK_OFFSET(0x166CAEF0)
 
-inline static constexpr unsigned int FIHPIJAGNCA_TypeDefinitionIndex = 58512;
+inline static constexpr unsigned int FIHPIJAGNCA_TypeDefinitionIndex = 59776;
 
 	class FIHPIJAGNCA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetAudioEmotionState* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetAudioEmotionState* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetAudioEmotionState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetAudioEmotionState*))((::PBYTE)hIl2Cpp + FIHPIJAGNCA_CTOR_OFFSET))(this, a1, a2);

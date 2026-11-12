@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BJJBIJMNDCA_TypeDefinitionIndex = 28475;
+inline static constexpr unsigned int BJJBIJMNDCA_TypeDefinitionIndex = 29065;
 
 	enum class BJJBIJMNDCA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		NFDAILAEGAA = 7160,
-		KGEJMFBEJGB = 7152,
-		FNDOIOMCDBE = 7154,
-		OAMHFHNBNGK = 7153,
-		JHOLICGFNOB = 7159,
+		JHOLICGFNOB = 7160,
+		NFDAILAEGAA = 7157,
+		OAMHFHNBNGK = 7156,
+		KGEJMFBEJGB = 7153,
+		FNDOIOMCDBE = 7158,
 	};

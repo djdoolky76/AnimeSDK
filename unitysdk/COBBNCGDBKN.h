@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int COBBNCGDBKN_TypeDefinitionIndex = 43019;
+inline static constexpr unsigned int COBBNCGDBKN_TypeDefinitionIndex = 44000;
 
 	struct alignas(4) COBBNCGDBKN
 	{

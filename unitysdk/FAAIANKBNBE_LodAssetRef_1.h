@@ -5,7 +5,7 @@
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 
-inline static constexpr unsigned int FAAIANKBNBE_LodAssetRef_1_TypeDefinitionIndex = 69205;
+inline static constexpr unsigned int FAAIANKBNBE_LodAssetRef_1_TypeDefinitionIndex = 71159;
 
 	template <typename T>
 	class FAAIANKBNBE_LodAssetRef_1 : public ::System::Object

@@ -7,12 +7,12 @@ namespace RPG::GameCore::Match3 { class MatchThree1v1AILevelConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIPropPriorityConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIScoreAspectConfig; }
 
-#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84EDC0)
-#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D84E010)
+#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA69CF0)
+#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA68DF0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int MatchThree1v1AIConfig_TypeDefinitionIndex = 24951;
+	inline static constexpr unsigned int MatchThree1v1AIConfig_TypeDefinitionIndex = 25431;
 
 	class MatchThree1v1AIConfig : public ::RPG::GameCore::JsonConfig
 	{

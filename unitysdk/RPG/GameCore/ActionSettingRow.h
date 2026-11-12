@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionSettingRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIONSETTINGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D348670)
-#define RPG_GAMECORE_ACTIONSETTINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D347FC0)
+#define RPG_GAMECORE_ACTIONSETTINGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E556F80)
+#define RPG_GAMECORE_ACTIONSETTINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5568D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionSettingRow_TypeDefinitionIndex = 13811;
+	inline static constexpr unsigned int ActionSettingRow_TypeDefinitionIndex = 13968;
 
 	class ActionSettingRow : public ::System::Object
 	{
 	public:
-		::System::String* ActionName; // 0x10
-		::Il2CppArray<::System::String*>* BlackListKeys; // 0x18
+		::Il2CppArray<::System::String*>* BlackListKeys; // 0x10
+		::System::String* ActionName; // 0x18
 		::Il2CppArray<::System::String*>* SettableInControlTypes; // 0x20
 		::System::UInt32 GroupType; // 0x28
 		::System::UInt32 ShowType; // 0x2C

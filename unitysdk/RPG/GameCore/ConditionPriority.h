@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ConditionPriority; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONDITIONPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D47A0)
-#define RPG_GAMECORE_CONDITIONPRIORITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D4690)
+#define RPG_GAMECORE_CONDITIONPRIORITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E6C40)
+#define RPG_GAMECORE_CONDITIONPRIORITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7E6B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConditionPriority_TypeDefinitionIndex = 22662;
+	inline static constexpr unsigned int ConditionPriority_TypeDefinitionIndex = 23084;
 
 	class ConditionPriority : public ::RPG::GameCore::JsonConfig
 	{

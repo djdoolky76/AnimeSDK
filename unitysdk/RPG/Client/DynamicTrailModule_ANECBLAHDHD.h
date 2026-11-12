@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DynamicTrailModule_ANECBLAHDHD_TypeDefinitionIndex = 70443;
+	inline static constexpr unsigned int DynamicTrailModule_ANECBLAHDHD_TypeDefinitionIndex = 72414;
 
 	struct alignas(4) DynamicTrailModule_ANECBLAHDHD
 	{

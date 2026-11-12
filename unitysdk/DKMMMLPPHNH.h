@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialSetMonopolyPauseState; }
 
-#define DKMMMLPPHNH_CTOR_OFFSET UNITYSDK_OFFSET(0xF88A070)
-#define DKMMMLPPHNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF88A150)
-#define DKMMMLPPHNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF88A080)
-#define DKMMMLPPHNH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF88A100)
-#define DKMMMLPPHNH_TICK_OFFSET UNITYSDK_OFFSET(0xF88A1C0)
+#define DKMMMLPPHNH_CTOR_OFFSET UNITYSDK_OFFSET(0xFFEFB60)
+#define DKMMMLPPHNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFFEFC40)
+#define DKMMMLPPHNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFFEFB70)
+#define DKMMMLPPHNH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFFEFBF0)
+#define DKMMMLPPHNH_TICK_OFFSET UNITYSDK_OFFSET(0xFFEFCB0)
 
-inline static constexpr unsigned int DKMMMLPPHNH_TypeDefinitionIndex = 58829;
+inline static constexpr unsigned int DKMMMLPPHNH_TypeDefinitionIndex = 60097;
 
 	class DKMMMLPPHNH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TutorialSetMonopolyPauseState* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TutorialSetMonopolyPauseState* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TutorialSetMonopolyPauseState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TutorialSetMonopolyPauseState*))((::PBYTE)hIl2Cpp + DKMMMLPPHNH_CTOR_OFFSET))(this, a1, a2);

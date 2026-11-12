@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC65C200)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0___ONFINISHSTAGEMAINMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xC674650)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFB6F30)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS43_0___ONFINISHSTAGEMAINMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xCFCF380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule___c__DisplayClass43_0_TypeDefinitionIndex = 62254;
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass43_0_TypeDefinitionIndex = 63667;
 
 	class AlleyModule___c__DisplayClass43_0 : public ::System::Object
 	{

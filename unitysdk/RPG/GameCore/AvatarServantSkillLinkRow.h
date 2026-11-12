@@ -5,21 +5,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarServantSkillLinkRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSERVANTSKILLLINKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D426E90)
-#define RPG_GAMECORE_AVATARSERVANTSKILLLINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D426CA0)
+#define RPG_GAMECORE_AVATARSERVANTSKILLLINKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E647930)
+#define RPG_GAMECORE_AVATARSERVANTSKILLLINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E647740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarServantSkillLinkRow_TypeDefinitionIndex = 12812;
+	inline static constexpr unsigned int AvatarServantSkillLinkRow_TypeDefinitionIndex = 12884;
 
 	class AvatarServantSkillLinkRow : public ::System::Object
 	{
 	public:
 		::System::String* TarotIconPath; // 0x10
 		::System::String* TarotFigurePath; // 0x18
-		::System::UInt32 LinkToAvatarID; // 0x20
-		::System::UInt32 Order; // 0x24
-		::System::UInt32 SkillID; // 0x28
+		::System::UInt32 Order; // 0x20
+		::System::UInt32 SkillID; // 0x24
+		::System::UInt32 LinkToAvatarID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSERVANTSKILLLINKROW_CTOR_OFFSET))(this);

@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class ChenLingFesGameInstance; }
 
-#define RPG_CLIENT_DEBUGCHENLINGFESRUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEA130)
+#define RPG_CLIENT_DEBUGCHENLINGFESRUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xD55E110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugChenLingFesRuntime_TypeDefinitionIndex = 60314;
+	inline static constexpr unsigned int DebugChenLingFesRuntime_TypeDefinitionIndex = 61598;
 
 	class DebugChenLingFesRuntime : public ::UnityEngine::MonoBehaviour
 	{

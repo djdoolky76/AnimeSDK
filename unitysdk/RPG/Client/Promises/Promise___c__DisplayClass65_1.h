@@ -5,20 +5,20 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE4050)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__1_OFFSET UNITYSDK_OFFSET(0x1CBE4060)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__2_OFFSET UNITYSDK_OFFSET(0x1CBE40D0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD8B060)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__1_OFFSET UNITYSDK_OFFSET(0x1DD8B070)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS65_1__SEQUENCE_B__2_OFFSET UNITYSDK_OFFSET(0x1DD8B0E0)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass65_1_TypeDefinitionIndex = 9925;
+	inline static constexpr unsigned int Promise___c__DisplayClass65_1_TypeDefinitionIndex = 9933;
 
 	template <typename T>
 	class Promise___c__DisplayClass65_1 : public ::System::Object
 	{
 	public:
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* fn; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* fn; // 0x18
 		::System::Int32 itemSequence; // 0x20
 		::System::Void _ctor()
 		{

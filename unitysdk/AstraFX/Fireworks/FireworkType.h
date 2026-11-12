@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Gradient; }
 
-#define ASTRAFX_FIREWORKS_FIREWORKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCB950)
+#define ASTRAFX_FIREWORKS_FIREWORKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x16CD6AB0)
 
 namespace AstraFX::Fireworks
 {
-	inline static constexpr unsigned int FireworkType_TypeDefinitionIndex = 49029;
+	inline static constexpr unsigned int FireworkType_TypeDefinitionIndex = 50099;
 
 	class FireworkType : public ::System::Object
 	{

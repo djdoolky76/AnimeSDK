@@ -4,18 +4,18 @@
 class GLIBGKGGEJL;
 namespace System { class Object; }
 
-#define GLIBGKGGEJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4C0A30)
-#define GLIBGKGGEJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C0A70)
-#define GLIBGKGGEJL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4C0A80)
+#define GLIBGKGGEJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7B3400)
+#define GLIBGKGGEJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7B3440)
+#define GLIBGKGGEJL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F7B3450)
 
-inline static constexpr unsigned int GLIBGKGGEJL___c_TypeDefinitionIndex = 25670;
+inline static constexpr unsigned int GLIBGKGGEJL___c_TypeDefinitionIndex = 26167;
 
 	class GLIBGKGGEJL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F4C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16530);
 		}
 
 		static ::System::Void _cctor()

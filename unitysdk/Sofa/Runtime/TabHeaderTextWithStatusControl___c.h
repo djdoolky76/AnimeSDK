@@ -8,49 +8,49 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE981F40)
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE981F80)
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_0_OFFSET UNITYSDK_OFFSET(0xE981F90)
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_1_OFFSET UNITYSDK_OFFSET(0xE9820A0)
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_2_OFFSET UNITYSDK_OFFSET(0xE9820C0)
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_3_OFFSET UNITYSDK_OFFSET(0xE9820E0)
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_4_OFFSET UNITYSDK_OFFSET(0xE982100)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF497590)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF4975D0)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_0_OFFSET UNITYSDK_OFFSET(0xF4975E0)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_1_OFFSET UNITYSDK_OFFSET(0xF4976F0)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_2_OFFSET UNITYSDK_OFFSET(0xF497710)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_3_OFFSET UNITYSDK_OFFSET(0xF497730)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL___C___BINDING_B__5_4_OFFSET UNITYSDK_OFFSET(0xF497750)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderTextWithStatusControl___c_TypeDefinitionIndex = 49739;
+	inline static constexpr unsigned int TabHeaderTextWithStatusControl___c_TypeDefinitionIndex = 50787;
 
 	class TabHeaderTextWithStatusControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__5_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD580);
+			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12360);
 		}
 
-		static ::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD588);
+			return (::System::Object**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12368);
 		}
 
 		static ::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__5_4()
 		{
-			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD590);
+			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12370);
 		}
 
 		static ::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_2()
 		{
-			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD598);
+			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12378);
 		}
 
-		static ::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::RPG::Client::TextID>*>** StaticGet___9__5_0()
+		static ::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::RPG::Client::TextID>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD5A0);
+			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12380);
 		}
 
 		static ::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_3()
 		{
-			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD5A8);
+			return (::System::Func_2<::HAEELHPFFGH*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12388);
 		}
 
 		static ::System::Void _cctor()

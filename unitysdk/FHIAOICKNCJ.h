@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AIMonsterIDSelector; }
 
-#define FHIAOICKNCJ_APJCEBADLND_OFFSET UNITYSDK_OFFSET(0x15780400)
+#define FHIAOICKNCJ_APJCEBADLND_OFFSET UNITYSDK_OFFSET(0x166A10F0)
 
-inline static constexpr unsigned int FHIAOICKNCJ_TypeDefinitionIndex = 54342;
+inline static constexpr unsigned int FHIAOICKNCJ_TypeDefinitionIndex = 55506;
 
 	class FHIAOICKNCJ : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MDPMJLDHNAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924CE0)
+#define MDPMJLDHNAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE6200)
 
-inline static constexpr unsigned int MDPMJLDHNAD_TypeDefinitionIndex = 41932;
+inline static constexpr unsigned int MDPMJLDHNAD_TypeDefinitionIndex = 42907;
 
 	class MDPMJLDHNAD : public ::System::Object
 	{

@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define DMBHFGEKLDH_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB7630)
-#define DMBHFGEKLDH_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0xFEB7720)
-#define DMBHFGEKLDH_SET_BUFFID_OFFSET UNITYSDK_OFFSET(0xFEB7730)
-#define DMBHFGEKLDH_TRIGGER_OFFSET UNITYSDK_OFFSET(0xFEB7490)
+#define DMBHFGEKLDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1062FD60)
+#define DMBHFGEKLDH_GET_BUFFID_OFFSET UNITYSDK_OFFSET(0x1062FE50)
+#define DMBHFGEKLDH_SET_BUFFID_OFFSET UNITYSDK_OFFSET(0x1062FE60)
+#define DMBHFGEKLDH_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1062FBC0)
 
-inline static constexpr unsigned int DMBHFGEKLDH_TypeDefinitionIndex = 66225;
+inline static constexpr unsigned int DMBHFGEKLDH_TypeDefinitionIndex = 68161;
 
 	class DMBHFGEKLDH : public ::System::Object
 	{
 	public:
-		::System::UInt32 HKAHFHHICEN; // 0x10
-		::System::UInt32 _BuffID_k__BackingField; // 0x14
-		::System::UInt32 IHHNMMBAAGN; // 0x18
-		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x1C
-		::System::UInt32 HAHKHFCGDPI; // 0x20
+		::System::UInt32 _BuffID_k__BackingField; // 0x10
+		::System::UInt32 HAHKHFCGDPI; // 0x14
+		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x18
+		::System::UInt32 HKAHFHHICEN; // 0x1C
+		::System::UInt32 IHHNMMBAAGN; // 0x20
 		// static const ::System::String* NNKPLACOBCD; // 0x0
 		::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 		{

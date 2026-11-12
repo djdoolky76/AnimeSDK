@@ -10,18 +10,18 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Button; }
 
-#define MIHOYO_SDK_PROTOCOLCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BFAEB30)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x1BFAF790)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1BFAF770)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFAF7B0)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1BFAEB00)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1BFAF750)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1BFAE9A0)
-#define MIHOYO_SDK_PROTOCOLCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1BFAF050)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_AWAKE_OFFSET UNITYSDK_OFFSET(0x1D1356C0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKACCEPTBUTTON_OFFSET UNITYSDK_OFFSET(0x1D136320)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CLICKREFUSEBUTTON_OFFSET UNITYSDK_OFFSET(0x1D136300)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D136340)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_HIDE_OFFSET UNITYSDK_OFFSET(0x1D135690)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0x1D1362E0)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_SHOW_OFFSET UNITYSDK_OFFSET(0x1D135530)
+#define MIHOYO_SDK_PROTOCOLCONFIRM_UPDATETEXT_OFFSET UNITYSDK_OFFSET(0x1D135BE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolConfirm_TypeDefinitionIndex = 8025;
+	inline static constexpr unsigned int ProtocolConfirm_TypeDefinitionIndex = 8034;
 
 	class ProtocolConfirm : public ::MiHoYo::SDK::UIElement
 	{
@@ -36,12 +36,12 @@ namespace MiHoYo::SDK
 		::System::String* noticeContent; // 0x90
 		static ::MiHoYo::SDK::ProtocolConfirm** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ProtocolConfirm**)UnitySDK::FromName("MiHoYo.SDK", "ProtocolConfirm")->GetStaticField(0x1B600);
+			return (::MiHoYo::SDK::ProtocolConfirm**)UnitySDK::FromName("MiHoYo.SDK", "ProtocolConfirm")->GetStaticField(0x19E30);
 		}
 
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "ProtocolConfirm")->GetStaticField(0x1B608);
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "ProtocolConfirm")->GetStaticField(0x19E38);
 		}
 
 		// static const ::System::String* PrefabName; // 0x0

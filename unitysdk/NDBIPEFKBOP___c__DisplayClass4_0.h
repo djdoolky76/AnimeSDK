@@ -5,10 +5,10 @@ class AIBOPLOBAFN;
 class DHGOECAECHA;
 namespace RPG::Client { class OnPreloadOperationDelegate; }
 
-#define NDBIPEFKBOP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1FCF0)
-#define NDBIPEFKBOP___C__DISPLAYCLASS4_0__PRELOADASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xBB201F0)
+#define NDBIPEFKBOP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A8C10)
+#define NDBIPEFKBOP___C__DISPLAYCLASS4_0__PRELOADASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xC3A9100)
 
-inline static constexpr unsigned int NDBIPEFKBOP___c__DisplayClass4_0_TypeDefinitionIndex = 59676;
+inline static constexpr unsigned int NDBIPEFKBOP___c__DisplayClass4_0_TypeDefinitionIndex = 60953;
 
 	class NDBIPEFKBOP___c__DisplayClass4_0 : public ::System::Object
 	{

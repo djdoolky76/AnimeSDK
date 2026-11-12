@@ -7,23 +7,23 @@ namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define BGOMMMOBAHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB46CDC0)
-#define BGOMMMOBAHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB46CE00)
-#define BGOMMMOBAHM___C___CREATETRIGGER_B__4_0_OFFSET UNITYSDK_OFFSET(0xB46CE10)
+#define BGOMMMOBAHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB25170)
+#define BGOMMMOBAHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBB251A0)
+#define BGOMMMOBAHM___C___CREATETRIGGER_B__4_0_OFFSET UNITYSDK_OFFSET(0xBB251B0)
 
-inline static constexpr unsigned int BGOMMMOBAHM___c_TypeDefinitionIndex = 77123;
+inline static constexpr unsigned int BGOMMMOBAHM___c_TypeDefinitionIndex = 79457;
 
 	class BGOMMMOBAHM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B0D0);
 		}
 
 		static ::System::Action_3<::BGOMMMOBAHM*, ::HIOEAKHGILF*, ::RPG::GameCore::LittleGameEvent*>** StaticGet___9__4_0()
 		{
-			return (::System::Action_3<::BGOMMMOBAHM*, ::HIOEAKHGILF*, ::RPG::GameCore::LittleGameEvent*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ED38);
+			return (::System::Action_3<::BGOMMMOBAHM*, ::HIOEAKHGILF*, ::RPG::GameCore::LittleGameEvent*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B0D8);
 		}
 
 		static ::System::Void _cctor()

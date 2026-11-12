@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckActionDelayEffectType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KNEMELCEFEB_CTOR_OFFSET UNITYSDK_OFFSET(0xB582260)
-#define KNEMELCEFEB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB582290)
+#define KNEMELCEFEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBDCFE00)
+#define KNEMELCEFEB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDCFE30)
 
-inline static constexpr unsigned int KNEMELCEFEB_TypeDefinitionIndex = 54491;
+inline static constexpr unsigned int KNEMELCEFEB_TypeDefinitionIndex = 55655;
 
 	class KNEMELCEFEB
 	{

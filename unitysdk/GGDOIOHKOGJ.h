@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class RedDotGraphConfig; }
 
-#define GGDOIOHKOGJ_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x15A03190)
-#define GGDOIOHKOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A03230)
+#define GGDOIOHKOGJ_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1693D700)
+#define GGDOIOHKOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1693D7A0)
 
-inline static constexpr unsigned int GGDOIOHKOGJ_TypeDefinitionIndex = 79165;
+inline static constexpr unsigned int GGDOIOHKOGJ_TypeDefinitionIndex = 81941;
 
 	class GGDOIOHKOGJ : public ::System::Object
 	{

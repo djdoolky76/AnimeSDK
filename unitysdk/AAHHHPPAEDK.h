@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetFlipperLightDeviceRangeFollowPlayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AAHHHPPAEDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C69D0)
-#define AAHHHPPAEDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0C6B30)
-#define AAHHHPPAEDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0C69E0)
-#define AAHHHPPAEDK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0C6B70)
-#define AAHHHPPAEDK_TICK_OFFSET UNITYSDK_OFFSET(0xB0C6BC0)
+#define AAHHHPPAEDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7286B0)
+#define AAHHHPPAEDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB728810)
+#define AAHHHPPAEDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7286C0)
+#define AAHHHPPAEDK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB728850)
+#define AAHHHPPAEDK_TICK_OFFSET UNITYSDK_OFFSET(0xB7288A0)
 
-inline static constexpr unsigned int AAHHHPPAEDK_TypeDefinitionIndex = 52774;
+inline static constexpr unsigned int AAHHHPPAEDK_TypeDefinitionIndex = 53918;
 
 	class AAHHHPPAEDK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetFlipperLightDeviceRangeFollowPlayer*))((::PBYTE)hIl2Cpp + AAHHHPPAEDK_CTOR_OFFSET))(this, a1, a2);

@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class ByIsBodyPartClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMDJEIEEMOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB77AC10)
+#define LMDJEIEEMOE_CTOR_OFFSET UNITYSDK_OFFSET(0xC01ACF0)
 
-inline static constexpr unsigned int LMDJEIEEMOE_TypeDefinitionIndex = 54639;
+inline static constexpr unsigned int LMDJEIEEMOE_TypeDefinitionIndex = 55805;
 
 	class LMDJEIEEMOE : public ::LBDBJGIIIAK
 	{

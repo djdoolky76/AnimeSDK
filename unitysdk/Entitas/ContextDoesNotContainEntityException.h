@@ -3,11 +3,11 @@
 #include "unitysdk/Entitas/EntitasException.h"
 namespace System { class String; }
 
-#define ENTITAS_CONTEXTDOESNOTCONTAINENTITYEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x16758A30)
+#define ENTITAS_CONTEXTDOESNOTCONTAINENTITYEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1759CC70)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextDoesNotContainEntityException_TypeDefinitionIndex = 9989;
+	inline static constexpr unsigned int ContextDoesNotContainEntityException_TypeDefinitionIndex = 9997;
 
 	class ContextDoesNotContainEntityException : public ::Entitas::EntitasException
 	{

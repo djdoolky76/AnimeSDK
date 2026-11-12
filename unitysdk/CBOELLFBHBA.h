@@ -8,21 +8,21 @@ namespace RPGTools::Timeline { class ScaleCharacterNodeClip; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CBOELLFBHBA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B03F0)
-#define CBOELLFBHBA_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xC4AFFC0)
-#define CBOELLFBHBA_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xC4AFEF0)
-#define CBOELLFBHBA_IBMBBJDHIJE_OFFSET UNITYSDK_OFFSET(0xC4B0150)
-#define CBOELLFBHBA_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xC4B0220)
-#define CBOELLFBHBA_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xC4AFF10)
-#define CBOELLFBHBA_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xC4AFF00)
+#define CBOELLFBHBA_CTOR_OFFSET UNITYSDK_OFFSET(0xCE193D0)
+#define CBOELLFBHBA_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xCE18FD0)
+#define CBOELLFBHBA_GET_CLIP_OFFSET UNITYSDK_OFFSET(0xCE18F00)
+#define CBOELLFBHBA_IBMBBJDHIJE_OFFSET UNITYSDK_OFFSET(0xCE19130)
+#define CBOELLFBHBA_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xCE19200)
+#define CBOELLFBHBA_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xCE18F20)
+#define CBOELLFBHBA_SET_CLIP_OFFSET UNITYSDK_OFFSET(0xCE18F10)
 
-inline static constexpr unsigned int CBOELLFBHBA_TypeDefinitionIndex = 48268;
+inline static constexpr unsigned int CBOELLFBHBA_TypeDefinitionIndex = 49309;
 
 	class CBOELLFBHBA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* NCLIDDOOBGC; // 0x10
-		::DPCFKFGNBKL* CCHAMIHMEEF; // 0x18
+		::DPCFKFGNBKL* CCHAMIHMEEF; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* NCLIDDOOBGC; // 0x18
 		::RPGTools::Timeline::ScaleCharacterNodeClip* _Clip_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{

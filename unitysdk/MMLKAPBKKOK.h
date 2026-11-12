@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveWalkingEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMLKAPBKKOK_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D7320)
-#define MMLKAPBKKOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9D7350)
+#define MMLKAPBKKOK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2935E0)
+#define MMLKAPBKKOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC293610)
 
-inline static constexpr unsigned int MMLKAPBKKOK_TypeDefinitionIndex = 56383;
+inline static constexpr unsigned int MMLKAPBKKOK_TypeDefinitionIndex = 57599;
 
 	class MMLKAPBKKOK
 	{

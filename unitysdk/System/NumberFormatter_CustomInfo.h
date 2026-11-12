@@ -6,10 +6,10 @@ namespace System { class String; }
 namespace System::Globalization { class NumberFormatInfo; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C28D740)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_FORMAT_OFFSET UNITYSDK_OFFSET(0x1C28C1E0)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_GETACTIVESECTION_OFFSET UNITYSDK_OFFSET(0x1C28B560)
-#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_PARSE_OFFSET UNITYSDK_OFFSET(0x1C28B8E0)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D414440)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_FORMAT_OFFSET UNITYSDK_OFFSET(0x1D412EE0)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_GETACTIVESECTION_OFFSET UNITYSDK_OFFSET(0x1D412260)
+#define SYSTEM_NUMBERFORMATTER_CUSTOMINFO_PARSE_OFFSET UNITYSDK_OFFSET(0x1D4125E0)
 
 namespace System
 {
@@ -19,20 +19,20 @@ namespace System
 	{
 	public:
 		::System::Int32 ExponentDigits; // 0x10
-		::System::Boolean UseExponent; // 0x14
-		::System::Boolean ExponentNegativeSignOnly; // 0x15
-		::System::Boolean UseGroup; // 0x16
+		::System::Int32 DecimalTailSharpDigits; // 0x14
+		::System::Boolean ExponentNegativeSignOnly; // 0x18
+		::System::Boolean UseExponent; // 0x19
+		::System::Boolean UseGroup; // 0x1A
 		::System::Byte _padding0[0x1];
-		::System::Int32 IntegerHeadPos; // 0x18
-		::System::Int32 IntegerDigits; // 0x1C
-		::System::Int32 ExponentTailSharpDigits; // 0x20
-		::System::Int32 DecimalTailSharpDigits; // 0x24
-		::System::Int32 DecimalDigits; // 0x28
-		::System::Int32 Permilles; // 0x2C
-		::System::Int32 IntegerHeadSharpDigits; // 0x30
-		::System::Int32 DecimalPointPos; // 0x34
-		::System::Int32 Percents; // 0x38
-		::System::Int32 DividePlaces; // 0x3C
+		::System::Int32 IntegerHeadPos; // 0x1C
+		::System::Int32 Permilles; // 0x20
+		::System::Int32 Percents; // 0x24
+		::System::Int32 DecimalPointPos; // 0x28
+		::System::Int32 IntegerDigits; // 0x2C
+		::System::Int32 ExponentTailSharpDigits; // 0x30
+		::System::Int32 DividePlaces; // 0x34
+		::System::Int32 DecimalDigits; // 0x38
+		::System::Int32 IntegerHeadSharpDigits; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_NUMBERFORMATTER_CUSTOMINFO_CTOR_OFFSET))(this);

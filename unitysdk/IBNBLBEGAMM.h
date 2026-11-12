@@ -3,10 +3,10 @@
 class GBNMAFLAHED;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IBNBLBEGAMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15E430D0)
-#define IBNBLBEGAMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E43100)
+#define IBNBLBEGAMM_CTOR_OFFSET UNITYSDK_OFFSET(0x16DEDC00)
+#define IBNBLBEGAMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DEDC30)
 
-inline static constexpr unsigned int IBNBLBEGAMM_TypeDefinitionIndex = 53340;
+inline static constexpr unsigned int IBNBLBEGAMM_TypeDefinitionIndex = 54502;
 
 	class IBNBLBEGAMM
 	{

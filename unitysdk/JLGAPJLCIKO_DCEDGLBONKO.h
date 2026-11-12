@@ -4,7 +4,7 @@
 
 #define JLGAPJLCIKO_DCEDGLBONKO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0)
 
-inline static constexpr unsigned int JLGAPJLCIKO_DCEDGLBONKO_TypeDefinitionIndex = 70680;
+inline static constexpr unsigned int JLGAPJLCIKO_DCEDGLBONKO_TypeDefinitionIndex = 72657;
 
 	struct alignas(4) JLGAPJLCIKO_DCEDGLBONKO
 	{

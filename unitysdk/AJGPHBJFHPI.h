@@ -7,11 +7,11 @@ class OFAKEFLLHNP;
 namespace RPG::Client::ChenLingBattle { class SoldierUnit; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AJGPHBJFHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBC3C0)
-#define AJGPHBJFHPI_IIFINBAGBDG_OFFSET UNITYSDK_OFFSET(0x12CBC470)
-#define AJGPHBJFHPI_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x12CBC850)
+#define AJGPHBJFHPI_CTOR_OFFSET UNITYSDK_OFFSET(0x12D9AFD0)
+#define AJGPHBJFHPI_IIFINBAGBDG_OFFSET UNITYSDK_OFFSET(0x12D9B080)
+#define AJGPHBJFHPI_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0x12D9B460)
 
-inline static constexpr unsigned int AJGPHBJFHPI_TypeDefinitionIndex = 76389;
+inline static constexpr unsigned int AJGPHBJFHPI_TypeDefinitionIndex = 78720;
 
 	class AJGPHBJFHPI : public ::System::Object
 	{

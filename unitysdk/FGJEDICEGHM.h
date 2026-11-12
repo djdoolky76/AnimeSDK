@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTurnActionEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGJEDICEGHM_CTOR_OFFSET UNITYSDK_OFFSET(0x15766350)
-#define FGJEDICEGHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15766380)
+#define FGJEDICEGHM_CTOR_OFFSET UNITYSDK_OFFSET(0x16686A80)
+#define FGJEDICEGHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16686AB0)
 
-inline static constexpr unsigned int FGJEDICEGHM_TypeDefinitionIndex = 54698;
+inline static constexpr unsigned int FGJEDICEGHM_TypeDefinitionIndex = 55864;
 
 	class FGJEDICEGHM
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveTimelineEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIKFHPGKDBL_CTOR_OFFSET UNITYSDK_OFFSET(0x15CEFE20)
-#define HIKFHPGKDBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CEFE50)
+#define HIKFHPGKDBL_CTOR_OFFSET UNITYSDK_OFFSET(0x16C3F0A0)
+#define HIKFHPGKDBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C3F0D0)
 
-inline static constexpr unsigned int HIKFHPGKDBL_TypeDefinitionIndex = 53386;
+inline static constexpr unsigned int HIKFHPGKDBL_TypeDefinitionIndex = 54548;
 
 	class HIKFHPGKDBL
 	{

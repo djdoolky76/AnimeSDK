@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMapRotationVolumeInteractEnabled; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FEONJHHIAJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1572D820)
-#define FEONJHHIAJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1572D850)
+#define FEONJHHIAJI_CTOR_OFFSET UNITYSDK_OFFSET(0x16647B30)
+#define FEONJHHIAJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16647B60)
 
-inline static constexpr unsigned int FEONJHHIAJI_TypeDefinitionIndex = 53000;
+inline static constexpr unsigned int FEONJHHIAJI_TypeDefinitionIndex = 54159;
 
 	class FEONJHHIAJI
 	{

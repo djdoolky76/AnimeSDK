@@ -5,17 +5,17 @@
 class FCOEMCEDLNL;
 class MNGOILBPHNG;
 
-#define MNGOILBPHNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D6720)
-#define MNGOILBPHNG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1D6730)
-#define MNGOILBPHNG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D66F0)
+#define MNGOILBPHNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3EA390)
+#define MNGOILBPHNG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3EA3A0)
+#define MNGOILBPHNG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3EA360)
 
-inline static constexpr unsigned int MNGOILBPHNG_TypeDefinitionIndex = 24181;
+inline static constexpr unsigned int MNGOILBPHNG_TypeDefinitionIndex = 24640;
 
 	class MNGOILBPHNG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::AttackType LEOAGAFACAD; // 0x18
-		::RPG::GameCore::AttackType HBEANJNDDMC; // 0x1C
+		::RPG::GameCore::AttackType HBEANJNDDMC; // 0x18
+		::RPG::GameCore::AttackType LEOAGAFACAD; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNGOILBPHNG_CTOR_OFFSET))(this);

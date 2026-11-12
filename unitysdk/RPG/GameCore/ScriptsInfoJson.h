@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ScriptsInfoJson; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCRIPTSINFOJSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8B9D0)
-#define RPG_GAMECORE_SCRIPTSINFOJSON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8B5C0)
+#define RPG_GAMECORE_SCRIPTSINFOJSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9E040)
+#define RPG_GAMECORE_SCRIPTSINFOJSON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9DC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 19063;
+	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 19250;
 
 	class ScriptsInfoJson : public ::RPG::GameCore::JsonConfig
 	{

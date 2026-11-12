@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightForgeFuncType_TypeDefinitionIndex = 13442;
+	inline static constexpr unsigned int GridFightForgeFuncType_TypeDefinitionIndex = 13516;
 
 	enum class GridFightForgeFuncType : ::System::Int32
 	{

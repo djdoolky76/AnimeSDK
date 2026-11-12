@@ -6,31 +6,31 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace TMPro { class TMP_SpriteCharacter; }
 namespace TMPro { class TMP_SpriteGlyph; }
 
-#define TMPRO_TMP_SPRITEASSET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F322E00)
-#define TMPRO_TMP_SPRITEASSET___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F322E40)
-#define TMPRO_TMP_SPRITEASSET___C__SORTCHARACTERTABLE_B__40_0_OFFSET UNITYSDK_OFFSET(0x1F322E70)
-#define TMPRO_TMP_SPRITEASSET___C__SORTGLYPHTABLE_B__39_0_OFFSET UNITYSDK_OFFSET(0x1F322E50)
+#define TMPRO_TMP_SPRITEASSET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x205D3B70)
+#define TMPRO_TMP_SPRITEASSET___C_CTOR_OFFSET UNITYSDK_OFFSET(0x205D3BB0)
+#define TMPRO_TMP_SPRITEASSET___C__SORTCHARACTERTABLE_B__40_0_OFFSET UNITYSDK_OFFSET(0x205D3BE0)
+#define TMPRO_TMP_SPRITEASSET___C__SORTGLYPHTABLE_B__39_0_OFFSET UNITYSDK_OFFSET(0x205D3BC0)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int TMP_SpriteAsset___c_TypeDefinitionIndex = 44636;
+	inline static constexpr unsigned int TMP_SpriteAsset___c_TypeDefinitionIndex = 45711;
 
 	class TMP_SpriteAsset___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>** StaticGet___9__39_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x5A5C0);
+			return (::System::Object**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x6AFF0);
 		}
 
 		static ::System::Func_2<::TMPro::TMP_SpriteCharacter*, ::System::UInt32>** StaticGet___9__40_0()
 		{
-			return (::System::Func_2<::TMPro::TMP_SpriteCharacter*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x5A5C8);
+			return (::System::Func_2<::TMPro::TMP_SpriteCharacter*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x6AFF8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>** StaticGet___9__39_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x5A5D0);
+			return (::System::Func_2<::TMPro::TMP_SpriteGlyph*, ::System::UInt32>**)UnitySDK::FromName("TMPro", "<>c")->GetStaticField(0x6B000);
 		}
 
 		static ::System::Void _cctor()

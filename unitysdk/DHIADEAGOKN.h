@@ -6,21 +6,21 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DHIADEAGOKN_CTOR_OFFSET UNITYSDK_OFFSET(0xEBDC930)
-#define DHIADEAGOKN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xEBDC840)
+#define DHIADEAGOKN_CTOR_OFFSET UNITYSDK_OFFSET(0xF94E4D0)
+#define DHIADEAGOKN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xF94E3E0)
 
-inline static constexpr unsigned int DHIADEAGOKN_TypeDefinitionIndex = 62278;
+inline static constexpr unsigned int DHIADEAGOKN_TypeDefinitionIndex = 63691;
 
 	class DHIADEAGOKN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::AlleyLineDirectionEnum>* BPCADEMEGNP; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* LAIDAIAJMFF; // 0x10
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* EMHKGDCFGPP; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* LAIDAIAJMFF; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::AlleyLineDirectionEnum>* BPCADEMEGNP; // 0x20
 		::System::Collections::Generic::List_1<::System::UInt32>* CDBBEHEBLDI; // 0x28
-		::System::UInt32 ANHEOHPNKKC; // 0x30
-		::System::UInt32 CJHLDCAGKND; // 0x34
-		::System::UInt32 EBNNNMFGHBJ; // 0x38
+		::System::UInt32 EBNNNMFGHBJ; // 0x30
+		::System::UInt32 ANHEOHPNKKC; // 0x34
+		::System::UInt32 CJHLDCAGKND; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHIADEAGOKN_CTOR_OFFSET))(this);

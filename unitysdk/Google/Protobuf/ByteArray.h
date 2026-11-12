@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GOOGLE_PROTOBUF_BYTEARRAY_COPY_OFFSET UNITYSDK_OFFSET(0x1B84D120)
-#define GOOGLE_PROTOBUF_BYTEARRAY_REVERSE_OFFSET UNITYSDK_OFFSET(0x1B84D1B0)
+#define GOOGLE_PROTOBUF_BYTEARRAY_COPY_OFFSET UNITYSDK_OFFSET(0x1C9D6090)
+#define GOOGLE_PROTOBUF_BYTEARRAY_REVERSE_OFFSET UNITYSDK_OFFSET(0x1C9D6120)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 5366;
+	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 5371;
 
 	class ByteArray : public ::System::Object
 	{

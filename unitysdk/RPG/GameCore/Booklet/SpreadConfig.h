@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore::Booklet { class SpreadConfig; }
 namespace RPG::GameCore::Booklet { class SpreadStepConfig; }
 
-#define RPG_GAMECORE_BOOKLET_SPREADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D474AD0)
-#define RPG_GAMECORE_BOOKLET_SPREADCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4759E0)
-#define RPG_GAMECORE_BOOKLET_SPREADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D475880)
+#define RPG_GAMECORE_BOOKLET_SPREADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E684560)
+#define RPG_GAMECORE_BOOKLET_SPREADCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E685470)
+#define RPG_GAMECORE_BOOKLET_SPREADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E685310)
 
 namespace RPG::GameCore::Booklet
 {
-	inline static constexpr unsigned int SpreadConfig_TypeDefinitionIndex = 24962;
+	inline static constexpr unsigned int SpreadConfig_TypeDefinitionIndex = 25442;
 
 	class SpreadConfig : public ::RPG::GameCore::JsonConfig
 	{

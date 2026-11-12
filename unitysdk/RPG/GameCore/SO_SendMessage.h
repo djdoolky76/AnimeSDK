@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SO_SendMessage; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SO_SENDMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA70750)
-#define RPG_GAMECORE_SO_SENDMESSAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA70760)
-#define RPG_GAMECORE_SO_SENDMESSAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA70DA0)
+#define RPG_GAMECORE_SO_SENDMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC82FD0)
+#define RPG_GAMECORE_SO_SENDMESSAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC82FE0)
+#define RPG_GAMECORE_SO_SENDMESSAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC83620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_SendMessage_TypeDefinitionIndex = 20066;
+	inline static constexpr unsigned int SO_SendMessage_TypeDefinitionIndex = 20400;
 
 	class SO_SendMessage : public ::RPG::GameCore::SOTaskConfig
 	{

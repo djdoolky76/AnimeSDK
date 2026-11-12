@@ -3,12 +3,12 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3D1CD0)
-#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1F3D20C0)
+#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x20682BD0)
+#define UNITYENGINE_ASSERTIONS_ASSERTIONEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x20682FC0)
 
 namespace UnityEngine::Assertions
 {
-	inline static constexpr unsigned int AssertionException_TypeDefinitionIndex = 4955;
+	inline static constexpr unsigned int AssertionException_TypeDefinitionIndex = 4960;
 
 	class AssertionException : public ::System::Exception
 	{

@@ -5,17 +5,17 @@
 class BEGLIKEGPOC;
 class FCOEMCEDLNL;
 
-#define BEGLIKEGPOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD00F60)
-#define BEGLIKEGPOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD00DA0)
+#define BEGLIKEGPOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAA220)
+#define BEGLIKEGPOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEAA060)
 
-inline static constexpr unsigned int BEGLIKEGPOC_TypeDefinitionIndex = 12890;
+inline static constexpr unsigned int BEGLIKEGPOC_TypeDefinitionIndex = 12962;
 
 	class BEGLIKEGPOC : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID NMFBJOCJIBN; // 0x10
-		::System::UInt32 LDGGEPJEKND; // 0x20
-		::System::UInt32 NBEKALMIDKH; // 0x24
+		::System::UInt32 LDGGEPJEKND; // 0x10
+		::System::UInt32 NBEKALMIDKH; // 0x14
+		::RPG::Client::TextID NMFBJOCJIBN; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BEGLIKEGPOC_CTOR_OFFSET))(this);

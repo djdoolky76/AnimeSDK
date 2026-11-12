@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OFKKOGBKOFI_TypeDefinitionIndex = 36904;
+inline static constexpr unsigned int OFKKOGBKOFI_TypeDefinitionIndex = 37832;
 
 	class OFKKOGBKOFI
 	{

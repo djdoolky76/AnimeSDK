@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define DACFIOIMGBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4214C0)
-#define DACFIOIMGBK_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x1C4214D0)
+#define DACFIOIMGBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A7CB0)
+#define DACFIOIMGBK_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x1D5A7CC0)
 
-inline static constexpr unsigned int DACFIOIMGBK_TypeDefinitionIndex = 5081;
+inline static constexpr unsigned int DACFIOIMGBK_TypeDefinitionIndex = 5086;
 
 	class DACFIOIMGBK : public ::System::Attribute
 	{

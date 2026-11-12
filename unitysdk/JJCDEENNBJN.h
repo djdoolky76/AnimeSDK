@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimPlayerMoveModifierConfig; }
 
-#define JJCDEENNBJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA1360)
+#define JJCDEENNBJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6F340)
 
-inline static constexpr unsigned int JJCDEENNBJN_TypeDefinitionIndex = 43458;
+inline static constexpr unsigned int JJCDEENNBJN_TypeDefinitionIndex = 44440;
 
 	class JJCDEENNBJN : public ::System::Object
 	{

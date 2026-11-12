@@ -4,12 +4,12 @@
 namespace System::IO { class FileInfo; }
 namespace ZenFulcrum::EmbeddedBrowser { class WebResources; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F671060)
-#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES___C__DISPLAYCLASS7_0__SENDFILE_B__0_OFFSET UNITYSDK_OFFSET(0x1F6723F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x20920830)
+#define ZENFULCRUM_EMBEDDEDBROWSER_WEBRESOURCES___C__DISPLAYCLASS7_0__SENDFILE_B__0_OFFSET UNITYSDK_OFFSET(0x20921BC0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int WebResources___c__DisplayClass7_0_TypeDefinitionIndex = 39574;
+	inline static constexpr unsigned int WebResources___c__DisplayClass7_0_TypeDefinitionIndex = 40503;
 
 	class WebResources___c__DisplayClass7_0 : public ::System::Object
 	{

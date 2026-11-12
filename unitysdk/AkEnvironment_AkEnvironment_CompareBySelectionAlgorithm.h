@@ -3,10 +3,10 @@
 #include "unitysdk/AkEnvironment_AkEnvironment_CompareByPriority.h"
 class AkEnvironment;
 
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F58F7E0)
-#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58F740)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_COMPARE_OFFSET UNITYSDK_OFFSET(0x2083F500)
+#define AKENVIRONMENT_AKENVIRONMENT_COMPAREBYSELECTIONALGORITHM_CTOR_OFFSET UNITYSDK_OFFSET(0x2083F460)
 
-inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm_TypeDefinitionIndex = 44919;
+inline static constexpr unsigned int AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm_TypeDefinitionIndex = 45994;
 
 	class AkEnvironment_AkEnvironment_CompareBySelectionAlgorithm : public ::AkEnvironment_AkEnvironment_CompareByPriority
 	{

@@ -5,16 +5,16 @@ class JMDAIKOHCAE;
 namespace RPG::GameCore { class AIPathwayInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GNOKFPIKEFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1EE90)
-#define GNOKFPIKEFH_PPKPOMGIKEP_OFFSET UNITYSDK_OFFSET(0x15B1EDE0)
+#define GNOKFPIKEFH_CTOR_OFFSET UNITYSDK_OFFSET(0x16AA45E0)
+#define GNOKFPIKEFH_PPKPOMGIKEP_OFFSET UNITYSDK_OFFSET(0x16AA4530)
 
-inline static constexpr unsigned int GNOKFPIKEFH_TypeDefinitionIndex = 57559;
+inline static constexpr unsigned int GNOKFPIKEFH_TypeDefinitionIndex = 58787;
 
 	class GNOKFPIKEFH : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AIPathwayInfo* CIKPBGDIABO; // 0x10
-		::System::Collections::Generic::List_1<::Il2CppArray<::System::UInt32>*>* IOOALIOHDAK; // 0x18
+		::System::Collections::Generic::List_1<::Il2CppArray<::System::UInt32>*>* IOOALIOHDAK; // 0x10
+		::RPG::GameCore::AIPathwayInfo* CIKPBGDIABO; // 0x18
 		::System::Collections::Generic::List_1<::JMDAIKOHCAE*>* AJIKDOPMGMA; // 0x20
 		::System::Int32 KBEFMIKJHLJ; // 0x28
 		::System::Void _ctor()

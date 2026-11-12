@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetAIStop; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGLHDJOKGGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAEE40)
-#define NGLHDJOKGGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBAEE70)
+#define NGLHDJOKGGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC48AE70)
+#define NGLHDJOKGGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC48AEA0)
 
-inline static constexpr unsigned int NGLHDJOKGGL_TypeDefinitionIndex = 52490;
+inline static constexpr unsigned int NGLHDJOKGGL_TypeDefinitionIndex = 53596;
 
 	class NGLHDJOKGGL
 	{

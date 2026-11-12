@@ -5,25 +5,25 @@ namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyRankingInfo; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCAD7F10)
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCAD7F50)
-#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C___SORT_B__4_0_OFFSET UNITYSDK_OFFSET(0xCAD7F60)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD43B520)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD43B560)
+#define RPG_CLIENT_CHENLINGGAMEBOY_CHENLINGGAMEBOYPLAYERRANKINGLISTINFO___C___SORT_B__4_0_OFFSET UNITYSDK_OFFSET(0xD43B570)
 
 namespace RPG::Client::ChenLingGameBoy
 {
-	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex = 74803;
+	inline static constexpr unsigned int ChenLingGameBoyPlayerRankingListInfo___c_TypeDefinitionIndex = 76957;
 
 	class ChenLingGameBoyPlayerRankingListInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>** StaticGet___9__4_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x1EA0);
+			return (::System::Comparison_1<::RPG::Client::ChenLingGameBoy::ChenLingGameBoyRankingInfo*>**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x92E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x1EA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingGameBoy", "<>c")->GetStaticField(0x92E8);
 		}
 
 		static ::System::Void _cctor()

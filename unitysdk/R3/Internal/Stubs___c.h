@@ -4,20 +4,20 @@
 #include "unitysdk/R3/Result.h"
 namespace System { class Object; }
 
-#define R3_INTERNAL_STUBS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4238A0)
-#define R3_INTERNAL_STUBS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4238E0)
-#define R3_INTERNAL_STUBS___C___CCTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C4238F0)
+#define R3_INTERNAL_STUBS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5AA090)
+#define R3_INTERNAL_STUBS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AA0D0)
+#define R3_INTERNAL_STUBS___C___CCTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1D5AA0E0)
 
 namespace R3::Internal
 {
-	inline static constexpr unsigned int Stubs___c_TypeDefinitionIndex = 35976;
+	inline static constexpr unsigned int Stubs___c_TypeDefinitionIndex = 36904;
 
 	class Stubs___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("R3.Internal", "<>c")->GetStaticField(0xA00);
+			return (::System::Object**)UnitySDK::FromName("R3.Internal", "<>c")->GetStaticField(0x9B0);
 		}
 
 		static ::System::Void _cctor()

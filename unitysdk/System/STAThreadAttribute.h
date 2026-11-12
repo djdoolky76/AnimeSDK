@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_STATHREADATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C350410)
+#define SYSTEM_STATHREADATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4D6DD0)
 
 namespace System
 {

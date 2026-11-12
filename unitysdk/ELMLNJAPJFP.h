@@ -3,10 +3,10 @@
 namespace RPG::Client { class ParkourGameAddPlayerSkillPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ELMLNJAPJFP_CTOR_OFFSET UNITYSDK_OFFSET(0x15528E30)
-#define ELMLNJAPJFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15528E60)
+#define ELMLNJAPJFP_CTOR_OFFSET UNITYSDK_OFFSET(0x16472470)
+#define ELMLNJAPJFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164724A0)
 
-inline static constexpr unsigned int ELMLNJAPJFP_TypeDefinitionIndex = 53055;
+inline static constexpr unsigned int ELMLNJAPJFP_TypeDefinitionIndex = 54215;
 
 	class ELMLNJAPJFP
 	{

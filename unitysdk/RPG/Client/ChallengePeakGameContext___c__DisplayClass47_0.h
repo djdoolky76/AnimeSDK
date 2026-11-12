@@ -4,12 +4,12 @@
 namespace RPG::Client { class ChallengePeakGameContext; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_CHALLENGEPEAKGAMECONTEXT___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9A6AD0)
-#define RPG_CLIENT_CHALLENGEPEAKGAMECONTEXT___C__DISPLAYCLASS47_0___RESTARTCHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0xC9A6D70)
+#define RPG_CLIENT_CHALLENGEPEAKGAMECONTEXT___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD30BC30)
+#define RPG_CLIENT_CHALLENGEPEAKGAMECONTEXT___C__DISPLAYCLASS47_0___RESTARTCHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0xD30BED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakGameContext___c__DisplayClass47_0_TypeDefinitionIndex = 63170;
+	inline static constexpr unsigned int ChallengePeakGameContext___c__DisplayClass47_0_TypeDefinitionIndex = 64608;
 
 	class ChallengePeakGameContext___c__DisplayClass47_0 : public ::System::Object
 	{

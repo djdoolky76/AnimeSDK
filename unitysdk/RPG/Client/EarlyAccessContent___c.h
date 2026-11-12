@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EARLYACCESSCONTENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD0A3E0)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD0A410)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__25_0_OFFSET UNITYSDK_OFFSET(0xCD0A420)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0xCD0A480)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6CB990)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD6CB9C0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__GETALLFLOORIDS_B__25_0_OFFSET UNITYSDK_OFFSET(0xD6CB9D0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C___PREPAREFLOORDATA_B__38_0_OFFSET UNITYSDK_OFFSET(0xD6CBA30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessContent___c_TypeDefinitionIndex = 63642;
+	inline static constexpr unsigned int EarlyAccessContent___c_TypeDefinitionIndex = 65084;
 
 	class EarlyAccessContent___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x32890);
+		}
+
 		static ::System::Func_2<::PBNOGIFIKBC*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::PBNOGIFIKBC*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34290);
+			return (::System::Func_2<::PBNOGIFIKBC*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x32898);
 		}
 
 		static ::System::Converter_2<::PBNOGIFIKBC*, ::System::UInt32>** StaticGet___9__25_0()
 		{
-			return (::System::Converter_2<::PBNOGIFIKBC*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34298);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x342A0);
+			return (::System::Converter_2<::PBNOGIFIKBC*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x328A0);
 		}
 
 		static ::System::Void _cctor()

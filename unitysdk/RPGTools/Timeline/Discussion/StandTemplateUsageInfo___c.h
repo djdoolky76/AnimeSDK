@@ -5,25 +5,25 @@ namespace RPGTools::Timeline::Discussion { class StandSlotUsageInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPGTOOLS_TIMELINE_DISCUSSION_STANDTEMPLATEUSAGEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8DC460)
-#define RPGTOOLS_TIMELINE_DISCUSSION_STANDTEMPLATEUSAGEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DC4A0)
-#define RPGTOOLS_TIMELINE_DISCUSSION_STANDTEMPLATEUSAGEINFO___C__CLONE_B__11_0_OFFSET UNITYSDK_OFFSET(0xE8DC4B0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_STANDTEMPLATEUSAGEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF3B5BE0)
+#define RPGTOOLS_TIMELINE_DISCUSSION_STANDTEMPLATEUSAGEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF3B5C20)
+#define RPGTOOLS_TIMELINE_DISCUSSION_STANDTEMPLATEUSAGEINFO___C__CLONE_B__11_0_OFFSET UNITYSDK_OFFSET(0xF3B5C30)
 
 namespace RPGTools::Timeline::Discussion
 {
-	inline static constexpr unsigned int StandTemplateUsageInfo___c_TypeDefinitionIndex = 48780;
+	inline static constexpr unsigned int StandTemplateUsageInfo___c_TypeDefinitionIndex = 49826;
 
 	class StandTemplateUsageInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline.Discussion", "<>c")->GetStaticField(0x6FBA0);
-		}
-
 		static ::System::Func_2<::RPGTools::Timeline::Discussion::StandSlotUsageInfo*, ::RPGTools::Timeline::Discussion::StandSlotUsageInfo*>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::RPGTools::Timeline::Discussion::StandSlotUsageInfo*, ::RPGTools::Timeline::Discussion::StandSlotUsageInfo*>**)UnitySDK::FromName("RPGTools.Timeline.Discussion", "<>c")->GetStaticField(0x6FBA8);
+			return (::System::Func_2<::RPGTools::Timeline::Discussion::StandSlotUsageInfo*, ::RPGTools::Timeline::Discussion::StandSlotUsageInfo*>**)UnitySDK::FromName("RPGTools.Timeline.Discussion", "<>c")->GetStaticField(0x73D30);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline.Discussion", "<>c")->GetStaticField(0x73D38);
 		}
 
 		static ::System::Void _cctor()

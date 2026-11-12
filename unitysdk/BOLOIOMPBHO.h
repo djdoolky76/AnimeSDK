@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BOLOIOMPBHO_CTOR_OFFSET UNITYSDK_OFFSET(0xC196FB0)
-#define BOLOIOMPBHO_FMBHCCGHAKB_OFFSET UNITYSDK_OFFSET(0xC196D70)
-#define BOLOIOMPBHO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC196F20)
+#define BOLOIOMPBHO_CTOR_OFFSET UNITYSDK_OFFSET(0xCB36F50)
+#define BOLOIOMPBHO_FMBHCCGHAKB_OFFSET UNITYSDK_OFFSET(0xCB36CE0)
+#define BOLOIOMPBHO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCB36EC0)
 
-inline static constexpr unsigned int BOLOIOMPBHO_TypeDefinitionIndex = 49261;
+inline static constexpr unsigned int BOLOIOMPBHO_TypeDefinitionIndex = 50337;
 
 	class BOLOIOMPBHO : public ::System::Object
 	{

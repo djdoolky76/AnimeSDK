@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/ChimeraGameModeType.h"
 #include "unitysdk/System/Object.h"
 
-#define ECGNNHLACPN_CTOR_OFFSET UNITYSDK_OFFSET(0x12D0C190)
-#define ECGNNHLACPN_KEAFKKMLOKE_OFFSET UNITYSDK_OFFSET(0x12D0C150)
+#define ECGNNHLACPN_CTOR_OFFSET UNITYSDK_OFFSET(0x13ABD820)
+#define ECGNNHLACPN_KEAFKKMLOKE_OFFSET UNITYSDK_OFFSET(0x13ABD7E0)
 
-inline static constexpr unsigned int ECGNNHLACPN_TypeDefinitionIndex = 63429;
+inline static constexpr unsigned int ECGNNHLACPN_TypeDefinitionIndex = 64867;
 
 	class ECGNNHLACPN : public ::System::Object
 	{

@@ -7,17 +7,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DMECIOAMHON_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBA900)
-#define DMECIOAMHON_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFEBA9A0)
-#define DMECIOAMHON_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xFEBA910)
+#define DMECIOAMHON_CTOR_OFFSET UNITYSDK_OFFSET(0x10633040)
+#define DMECIOAMHON_EVALUATE_OFFSET UNITYSDK_OFFSET(0x106330E0)
+#define DMECIOAMHON_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x10633050)
 
-inline static constexpr unsigned int DMECIOAMHON_TypeDefinitionIndex = 59072;
+inline static constexpr unsigned int DMECIOAMHON_TypeDefinitionIndex = 60347;
 
 	class DMECIOAMHON : public ::System::Object
 	{
 	public:
-		::EILOGENDCCG* JBFFLCHOKKO; // 0x10
-		::NDEKPFNFNDD* LEMBIAHABFA; // 0x18
+		::NDEKPFNFNDD* LEMBIAHABFA; // 0x10
+		::EILOGENDCCG* JBFFLCHOKKO; // 0x18
 		::System::Void _ctor(::EILOGENDCCG* a1, ::NDEKPFNFNDD* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::EILOGENDCCG*, ::NDEKPFNFNDD*))((::PBYTE)hIl2Cpp + DMECIOAMHON_CTOR_OFFSET))(this, a1, a2);

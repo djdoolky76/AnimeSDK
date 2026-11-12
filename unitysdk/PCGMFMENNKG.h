@@ -8,12 +8,12 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PCGMFMENNKG_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1C7EB530)
-#define PCGMFMENNKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EB490)
-#define PCGMFMENNKG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7EB5C0)
-#define PCGMFMENNKG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7EB500)
+#define PCGMFMENNKG_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0x1D96CEC0)
+#define PCGMFMENNKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96CE20)
+#define PCGMFMENNKG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1D96CF50)
+#define PCGMFMENNKG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1D96CE90)
 
-inline static constexpr unsigned int PCGMFMENNKG_TypeDefinitionIndex = 36244;
+inline static constexpr unsigned int PCGMFMENNKG_TypeDefinitionIndex = 37172;
 
 	class PCGMFMENNKG : public ::System::MulticastDelegate
 	{

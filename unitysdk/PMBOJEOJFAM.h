@@ -9,27 +9,27 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace UnityEngine { class Camera; }
 
-#define PMBOJEOJFAM_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xC3154C0)
-#define PMBOJEOJFAM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC3150A0)
-#define PMBOJEOJFAM_CBALMFOKFBH_OFFSET UNITYSDK_OFFSET(0xC3153A0)
-#define PMBOJEOJFAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC315270)
-#define PMBOJEOJFAM_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0xC315570)
-#define PMBOJEOJFAM_HAFHEJANLCC_OFFSET UNITYSDK_OFFSET(0xC3153F0)
-#define PMBOJEOJFAM_MOBDIGFMJCI_OFFSET UNITYSDK_OFFSET(0xC315280)
-#define PMBOJEOJFAM_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0xC315580)
+#define PMBOJEOJFAM_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xCC43E30)
+#define PMBOJEOJFAM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCC43A10)
+#define PMBOJEOJFAM_CBALMFOKFBH_OFFSET UNITYSDK_OFFSET(0xCC43D10)
+#define PMBOJEOJFAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC43BE0)
+#define PMBOJEOJFAM_GET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0xCC43EE0)
+#define PMBOJEOJFAM_HAFHEJANLCC_OFFSET UNITYSDK_OFFSET(0xCC43D60)
+#define PMBOJEOJFAM_MOBDIGFMJCI_OFFSET UNITYSDK_OFFSET(0xCC43BF0)
+#define PMBOJEOJFAM_SET_EFFECTTYPE_OFFSET UNITYSDK_OFFSET(0xCC43EF0)
 
-inline static constexpr unsigned int PMBOJEOJFAM_TypeDefinitionIndex = 71475;
+inline static constexpr unsigned int PMBOJEOJFAM_TypeDefinitionIndex = 73460;
 
 	class PMBOJEOJFAM : public ::System::Object
 	{
 	public:
-		::System::Action* EGMGFMKIOHL; // 0x10
-		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x18
-		::UnityEngine::Vector3 GIPGGGGKAMF; // 0x20
-		::System::Single BPMNMDJIPLE; // 0x2C
-		::UnityEngine::Vector3 LCMLDNAIIMJ; // 0x30
-		::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType _EffectType_k__BackingField; // 0x3C
-		::UnityEngine::Vector3 GJICDLCNOEA; // 0x40
+		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x10
+		::System::Action* EGMGFMKIOHL; // 0x18
+		::System::Single BPMNMDJIPLE; // 0x20
+		::UnityEngine::Vector3 GIPGGGGKAMF; // 0x24
+		::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType _EffectType_k__BackingField; // 0x30
+		::UnityEngine::Vector3 GJICDLCNOEA; // 0x34
+		::UnityEngine::Vector3 LCMLDNAIIMJ; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMBOJEOJFAM_CTOR_OFFSET))(this);

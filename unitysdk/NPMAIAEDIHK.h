@@ -5,19 +5,19 @@ class IAJLELNJPEA;
 class PDEFOKILHLE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPMAIAEDIHK_CTOR_OFFSET UNITYSDK_OFFSET(0xBD0F650)
-#define NPMAIAEDIHK_FOKPGFJKKAJ_OFFSET UNITYSDK_OFFSET(0xBD0F790)
-#define NPMAIAEDIHK_GET__CONDITIONS_OFFSET UNITYSDK_OFFSET(0xBD0F640)
-#define NPMAIAEDIHK_GET__EXPRESSION_OFFSET UNITYSDK_OFFSET(0xBD0F630)
-#define NPMAIAEDIHK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xBD0F660)
+#define NPMAIAEDIHK_CTOR_OFFSET UNITYSDK_OFFSET(0xC5FEFB0)
+#define NPMAIAEDIHK_FOKPGFJKKAJ_OFFSET UNITYSDK_OFFSET(0xC5FF0F0)
+#define NPMAIAEDIHK_GET__CONDITIONS_OFFSET UNITYSDK_OFFSET(0xC5FEFA0)
+#define NPMAIAEDIHK_GET__EXPRESSION_OFFSET UNITYSDK_OFFSET(0xC5FEF90)
+#define NPMAIAEDIHK_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xC5FEFC0)
 
-inline static constexpr unsigned int NPMAIAEDIHK_TypeDefinitionIndex = 63274;
+inline static constexpr unsigned int NPMAIAEDIHK_TypeDefinitionIndex = 64712;
 
 	class NPMAIAEDIHK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::IAJLELNJPEA*>* __Conditions_k__BackingField; // 0x10
-		::PDEFOKILHLE* __Expression_k__BackingField; // 0x18
+		::PDEFOKILHLE* __Expression_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::IAJLELNJPEA*>* __Conditions_k__BackingField; // 0x18
 		::System::Void _ctor(::PDEFOKILHLE* a1, ::System::Collections::Generic::List_1<::IAJLELNJPEA*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::PDEFOKILHLE*, ::System::Collections::Generic::List_1<::IAJLELNJPEA*>*))((::PBYTE)hIl2Cpp + NPMAIAEDIHK_CTOR_OFFSET))(this, a1, a2);

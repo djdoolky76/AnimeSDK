@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MeshBound; }
 
-#define RPG_GAMECORE_MESHBOUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D873BF0)
-#define RPG_GAMECORE_MESHBOUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D873970)
+#define RPG_GAMECORE_MESHBOUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8E260)
+#define RPG_GAMECORE_MESHBOUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA8E0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MeshBound_TypeDefinitionIndex = 19115;
+	inline static constexpr unsigned int MeshBound_TypeDefinitionIndex = 19302;
 
 	class MeshBound : public ::RPG::GameCore::JsonConfig
 	{

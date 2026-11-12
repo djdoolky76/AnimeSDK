@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class EarlyAccessContent; }
 
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCD0B7C0)
-#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS15_0__ISMISSIONINCANUNLOCKCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0xCD0E300)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6CCD80)
+#define RPG_CLIENT_EARLYACCESSMODULE___C__DISPLAYCLASS15_0__ISMISSIONINCANUNLOCKCONTENT_B__0_OFFSET UNITYSDK_OFFSET(0xD6CF890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass15_0_TypeDefinitionIndex = 63648;
+	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass15_0_TypeDefinitionIndex = 65090;
 
 	class EarlyAccessModule___c__DisplayClass15_0 : public ::System::Object
 	{

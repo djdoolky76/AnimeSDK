@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerConfig_TypeDefinitionIndex = 40004;
+	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerConfig_TypeDefinitionIndex = 40979;
 
 	struct alignas(4) CriAtomExAsr_BusAnalyzerConfig
 	{

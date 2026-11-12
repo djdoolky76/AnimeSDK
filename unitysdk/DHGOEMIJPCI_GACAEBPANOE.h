@@ -5,15 +5,15 @@ class DEBEAKKOHLN;
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define DHGOEMIJPCI_GACAEBPANOE_CTOR_OFFSET UNITYSDK_OFFSET(0xEBD91C0)
+#define DHGOEMIJPCI_GACAEBPANOE_CTOR_OFFSET UNITYSDK_OFFSET(0xF94ABF0)
 
-inline static constexpr unsigned int DHGOEMIJPCI_GACAEBPANOE_TypeDefinitionIndex = 73272;
+inline static constexpr unsigned int DHGOEMIJPCI_GACAEBPANOE_TypeDefinitionIndex = 75388;
 
 	class DHGOEMIJPCI_GACAEBPANOE : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* NCHHLMEEMLC; // 0x10
-		::DEBEAKKOHLN* EGOMDGLJIGG; // 0x18
+		::DEBEAKKOHLN* EGOMDGLJIGG; // 0x10
+		::UnityEngine::GameObject* NCHHLMEEMLC; // 0x18
 		::RPG::GameCore::GameEntity* KDIBGMJGPHG; // 0x20
 		::System::Void _ctor()
 		{

@@ -4,9 +4,9 @@
 class HOEAOFLACCM;
 class PMOEBFOHLFO;
 
-#define KPGLFOJHJAD_JBFGDCFKHLM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BC9E0)
+#define KPGLFOJHJAD_JBFGDCFKHLM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE108D0)
 
-inline static constexpr unsigned int KPGLFOJHJAD_JBFGDCFKHLM_TypeDefinitionIndex = 71838;
+inline static constexpr unsigned int KPGLFOJHJAD_JBFGDCFKHLM_TypeDefinitionIndex = 73859;
 
 	class KPGLFOJHJAD_JBFGDCFKHLM : public ::System::Object
 	{

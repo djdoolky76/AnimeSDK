@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByValueEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKEIBGBFPFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB4BB5C0)
-#define KKEIBGBFPFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4BB5F0)
+#define KKEIBGBFPFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD045C0)
+#define KKEIBGBFPFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD045F0)
 
-inline static constexpr unsigned int KKEIBGBFPFO_TypeDefinitionIndex = 55477;
+inline static constexpr unsigned int KKEIBGBFPFO_TypeDefinitionIndex = 56665;
 
 	class KKEIBGBFPFO
 	{

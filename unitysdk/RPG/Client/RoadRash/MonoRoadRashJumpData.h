@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE5B90)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHJUMPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9964A0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashJumpData_TypeDefinitionIndex = 75880;
+	inline static constexpr unsigned int MonoRoadRashJumpData_TypeDefinitionIndex = 78207;
 
 	class MonoRoadRashJumpData : public ::UnityEngine::MonoBehaviour
 	{

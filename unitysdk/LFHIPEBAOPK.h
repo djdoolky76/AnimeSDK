@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LFHIPEBAOPK_TypeDefinitionIndex = 81734;
+inline static constexpr unsigned int LFHIPEBAOPK_TypeDefinitionIndex = 84515;
 
 	class LFHIPEBAOPK
 	{

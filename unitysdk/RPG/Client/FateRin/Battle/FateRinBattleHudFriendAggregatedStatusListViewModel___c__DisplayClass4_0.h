@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudFriendAggregatedStatusListViewModel___c__DisplayClass4_0_TypeDefinitionIndex = 80916;
+	inline static constexpr unsigned int FateRinBattleHudFriendAggregatedStatusListViewModel___c__DisplayClass4_0_TypeDefinitionIndex = 83696;
 
 	struct alignas(8) FateRinBattleHudFriendAggregatedStatusListViewModel___c__DisplayClass4_0
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeOrderRepository_BlindBoxPetTradeAvailability_TypeDefinitionIndex = 74870;
+	inline static constexpr unsigned int BlindBoxTradeOrderRepository_BlindBoxPetTradeAvailability_TypeDefinitionIndex = 77197;
 
 	enum class BlindBoxTradeOrderRepository_BlindBoxPetTradeAvailability : ::System::Int32
 	{

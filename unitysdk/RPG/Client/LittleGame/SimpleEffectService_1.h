@@ -7,7 +7,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleEffectService_1_TypeDefinitionIndex = 76482;
+	inline static constexpr unsigned int SimpleEffectService_1_TypeDefinitionIndex = 78813;
 
 	template <typename T>
 	class SimpleEffectService_1 : public ::System::Object

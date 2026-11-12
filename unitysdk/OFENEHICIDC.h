@@ -9,21 +9,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OFENEHICIDC_COOIIMOPJAC_OFFSET UNITYSDK_OFFSET(0xBE3F130)
-#define OFENEHICIDC_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3F310)
-#define OFENEHICIDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE3F430)
-#define OFENEHICIDC_DJMDKDKBHDM_OFFSET UNITYSDK_OFFSET(0xBE3E9D0)
-#define OFENEHICIDC_FHBANFEMAOC_OFFSET UNITYSDK_OFFSET(0xBE3ECD0)
-#define OFENEHICIDC_LBHIGGIECDK_OFFSET UNITYSDK_OFFSET(0xBE3EFC0)
+#define OFENEHICIDC_COOIIMOPJAC_OFFSET UNITYSDK_OFFSET(0xC6F7B90)
+#define OFENEHICIDC_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F7D70)
+#define OFENEHICIDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC6F7E90)
+#define OFENEHICIDC_DJMDKDKBHDM_OFFSET UNITYSDK_OFFSET(0xC6F7430)
+#define OFENEHICIDC_FHBANFEMAOC_OFFSET UNITYSDK_OFFSET(0xC6F7730)
+#define OFENEHICIDC_LBHIGGIECDK_OFFSET UNITYSDK_OFFSET(0xC6F7A20)
 
-inline static constexpr unsigned int OFENEHICIDC_TypeDefinitionIndex = 60579;
+inline static constexpr unsigned int OFENEHICIDC_TypeDefinitionIndex = 61956;
 
 	class OFENEHICIDC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* IOGKKFKMOBF; // 0x10
-		::RPG::Client::MapDef* MJKJCCNJACA; // 0x18
-		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* NNLFEPDDPNH; // 0x20
+		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelGraph*>*>* NNLFEPDDPNH; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LevelGraph*, ::RPG::GameCore::ShowHintEffect*>* IOGKKFKMOBF; // 0x18
+		::RPG::Client::MapDef* MJKJCCNJACA; // 0x20
 		::System::String* HOLHGLKFGAO; // 0x28
 		::System::Void _ctor(::RPG::Client::MapDef* a1)
 		{

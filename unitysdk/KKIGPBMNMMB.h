@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class CharacterInputData; }
 
-inline static constexpr unsigned int KKIGPBMNMMB_TypeDefinitionIndex = 57092;
+inline static constexpr unsigned int KKIGPBMNMMB_TypeDefinitionIndex = 58321;
 
 	struct alignas(8) KKIGPBMNMMB
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ETestFlag_TypeDefinitionIndex = 37522;
+	inline static constexpr unsigned int ETestFlag_TypeDefinitionIndex = 38450;
 
 	enum class ETestFlag : ::System::Int32
 	{

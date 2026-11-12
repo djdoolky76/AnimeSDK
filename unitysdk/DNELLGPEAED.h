@@ -10,13 +10,13 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Collision; }
 
-#define DNELLGPEAED_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA2F0C0)
-#define DNELLGPEAED_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2F6B0)
-#define DNELLGPEAED_FBNDHBBKGCJ_OFFSET UNITYSDK_OFFSET(0x1CA2F250)
-#define DNELLGPEAED_MLJLMOFIJFL_OFFSET UNITYSDK_OFFSET(0x1CA2F300)
-#define DNELLGPEAED_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA2EFA0)
+#define DNELLGPEAED_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DBF28F0)
+#define DNELLGPEAED_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF2EF0)
+#define DNELLGPEAED_FBNDHBBKGCJ_OFFSET UNITYSDK_OFFSET(0x1DBF2AA0)
+#define DNELLGPEAED_MLJLMOFIJFL_OFFSET UNITYSDK_OFFSET(0x1DBF2B40)
+#define DNELLGPEAED_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DBF27D0)
 
-inline static constexpr unsigned int DNELLGPEAED_TypeDefinitionIndex = 43542;
+inline static constexpr unsigned int DNELLGPEAED_TypeDefinitionIndex = 44524;
 
 	class DNELLGPEAED : public ::NOOHPODHIAA
 	{
@@ -24,22 +24,21 @@ inline static constexpr unsigned int DNELLGPEAED_TypeDefinitionIndex = 43542;
 		::RPG::PoolHashSet_1<::UnityEngine::Collider*>* NILFBBGIHGI; // 0x338
 		::RPG::PoolList_1<::UnityEngine::Collision*>* KNEONECEFKK; // 0x340
 		::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x348
-		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x350
-		::System::Byte _padding0[0x2C];
-		::UnityEngine::Vector3 KEJAHHOADEC; // 0x384
-		::System::Single NMPMMIAKFMO; // 0x390
-		::System::Single MHPMADJGBJB; // 0x394
-		::System::Boolean BNAPGMEKLHB; // 0x398
-		::System::Boolean LHGOBGNNGFC; // 0x399
-		::System::Boolean IHLODLNFJKK; // 0x39A
-		::System::Byte _padding1[0x1];
-		::System::Int32 HMGBOLNBDGA; // 0x39C
-		::System::Single GPGIEFKLNKA; // 0x3A0
-		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x3A4
+		::System::Single IDNCONEOKKD; // 0x350
+		::System::Boolean BNAPGMEKLHB; // 0x354
+		::System::Boolean IHLODLNFJKK; // 0x355
+		::System::Boolean LHGOBGNNGFC; // 0x356
+		::System::Byte _padding0[0x1];
+		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x358
+		::System::Byte _padding1[0x2C];
+		::System::Single MHPMADJGBJB; // 0x38C
+		::System::Int32 HMGBOLNBDGA; // 0x390
+		::System::Single GPGIEFKLNKA; // 0x394
+		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x398
 		::System::Byte _padding2[0x2C];
-		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x3D8
-		::System::Byte _padding3[0x2C];
-		::System::Single IDNCONEOKKD; // 0x40C
+		::UnityEngine::Vector3 KEJAHHOADEC; // 0x3CC
+		::System::Single NMPMMIAKFMO; // 0x3D8
+		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x3DC
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DNELLGPEAED_CTOR_OFFSET))(this);

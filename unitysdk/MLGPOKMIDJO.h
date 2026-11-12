@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int MLGPOKMIDJO_TypeDefinitionIndex = 44116;
+inline static constexpr unsigned int MLGPOKMIDJO_TypeDefinitionIndex = 45191;
 
 	class MLGPOKMIDJO : public ::System::Object
 	{

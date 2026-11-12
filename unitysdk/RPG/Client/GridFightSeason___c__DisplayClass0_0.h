@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GridFightSeasonPortalConfigRow; }
 
-#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD26C000)
-#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD26D7E0)
+#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC66280)
+#define RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xDC67B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightSeason___c__DisplayClass0_0_TypeDefinitionIndex = 65205;
+	inline static constexpr unsigned int GridFightSeason___c__DisplayClass0_0_TypeDefinitionIndex = 66907;
 
 	class GridFightSeason___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 id; // 0x10
+		::System::UInt32 seasonID; // 0x10
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSEASON___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

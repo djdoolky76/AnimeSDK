@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PuzzleType_TypeDefinitionIndex = 78781;
+	inline static constexpr unsigned int PuzzleType_TypeDefinitionIndex = 81516;
 
 	enum class PuzzleType : ::System::Int32
 	{
@@ -20,6 +20,7 @@ namespace RPG::Client::Prop
 		EraFlipperSearchLight = 10,
 		FastDeliver = 11,
 		WormCompass = 12,
-		PuzzleTotalCnt = 13,
+		RollerCoaster = 13,
+		PuzzleTotalCnt = 14,
 	};
 }

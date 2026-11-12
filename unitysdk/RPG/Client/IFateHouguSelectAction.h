@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateHouguSelectAction_TypeDefinitionIndex = 64083;
+	inline static constexpr unsigned int IFateHouguSelectAction_TypeDefinitionIndex = 65528;
 
 	class IFateHouguSelectAction
 	{

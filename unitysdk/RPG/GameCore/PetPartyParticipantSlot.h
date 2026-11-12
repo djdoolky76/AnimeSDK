@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PetPartyParticipantSlot; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PETPARTYPARTICIPANTSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90AC80)
-#define RPG_GAMECORE_PETPARTYPARTICIPANTSLOT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90AB50)
+#define RPG_GAMECORE_PETPARTYPARTICIPANTSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB24010)
+#define RPG_GAMECORE_PETPARTYPARTICIPANTSLOT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB23EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartyParticipantSlot_TypeDefinitionIndex = 17542;
+	inline static constexpr unsigned int PetPartyParticipantSlot_TypeDefinitionIndex = 17710;
 
 	class PetPartyParticipantSlot : public ::RPG::GameCore::JsonConfig
 	{

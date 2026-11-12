@@ -3,10 +3,10 @@
 class CANBAEOKAJD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KGMNCLLJKGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F6220)
-#define KGMNCLLJKGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3F6250)
+#define KGMNCLLJKGB_CTOR_OFFSET UNITYSDK_OFFSET(0xBC891A0)
+#define KGMNCLLJKGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC891D0)
 
-inline static constexpr unsigned int KGMNCLLJKGB_TypeDefinitionIndex = 55733;
+inline static constexpr unsigned int KGMNCLLJKGB_TypeDefinitionIndex = 56935;
 
 	class KGMNCLLJKGB
 	{

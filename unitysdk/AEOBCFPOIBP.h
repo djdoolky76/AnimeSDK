@@ -7,10 +7,10 @@ class AEOBCFPOIBP;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define AEOBCFPOIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB37C0)
-#define AEOBCFPOIBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB3590)
+#define AEOBCFPOIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE5C430)
+#define AEOBCFPOIBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE5C200)
 
-inline static constexpr unsigned int AEOBCFPOIBP_TypeDefinitionIndex = 12008;
+inline static constexpr unsigned int AEOBCFPOIBP_TypeDefinitionIndex = 12065;
 
 	class AEOBCFPOIBP : public ::System::Object
 	{

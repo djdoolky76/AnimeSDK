@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsScepter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMKADIGCJMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2FD00)
-#define OMKADIGCJMG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF2FD30)
+#define OMKADIGCJMG_CTOR_OFFSET UNITYSDK_OFFSET(0xC82D5D0)
+#define OMKADIGCJMG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC82D600)
 
-inline static constexpr unsigned int OMKADIGCJMG_TypeDefinitionIndex = 54889;
+inline static constexpr unsigned int OMKADIGCJMG_TypeDefinitionIndex = 56060;
 
 	class OMKADIGCJMG
 	{

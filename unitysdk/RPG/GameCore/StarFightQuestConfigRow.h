@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StarFightQuestConfigRow; }
 
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1B530)
-#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB1AF50)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2D1D0)
+#define RPG_GAMECORE_STARFIGHTQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED2CBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StarFightQuestConfigRow_TypeDefinitionIndex = 12394;
+	inline static constexpr unsigned int StarFightQuestConfigRow_TypeDefinitionIndex = 12461;
 
 	class StarFightQuestConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BattleTargetID; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 BattleTargetID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STARFIGHTQUESTCONFIGROW_CTOR_OFFSET))(this);

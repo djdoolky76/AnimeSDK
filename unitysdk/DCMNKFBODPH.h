@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsGenderType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DCMNKFBODPH_CTOR_OFFSET UNITYSDK_OFFSET(0xE251F70)
-#define DCMNKFBODPH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE251FA0)
+#define DCMNKFBODPH_CTOR_OFFSET UNITYSDK_OFFSET(0xEE0BEB0)
+#define DCMNKFBODPH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xEE0BEE0)
 
-inline static constexpr unsigned int DCMNKFBODPH_TypeDefinitionIndex = 54660;
+inline static constexpr unsigned int DCMNKFBODPH_TypeDefinitionIndex = 55826;
 
 	class DCMNKFBODPH
 	{

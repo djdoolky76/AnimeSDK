@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TriggerEntityEvent; }
 
-#define RPG_GAMECORE_TRIGGERENTITYEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC52500)
-#define RPG_GAMECORE_TRIGGERENTITYEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC52510)
-#define RPG_GAMECORE_TRIGGERENTITYEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC524D0)
+#define RPG_GAMECORE_TRIGGERENTITYEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE66710)
+#define RPG_GAMECORE_TRIGGERENTITYEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE66720)
+#define RPG_GAMECORE_TRIGGERENTITYEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE666E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEntityEvent_TypeDefinitionIndex = 20721;
+	inline static constexpr unsigned int TriggerEntityEvent_TypeDefinitionIndex = 21058;
 
 	class TriggerEntityEvent : public ::RPG::GameCore::TaskConfig
 	{

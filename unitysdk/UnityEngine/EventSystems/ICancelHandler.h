@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int ICancelHandler_TypeDefinitionIndex = 6927;
+	inline static constexpr unsigned int ICancelHandler_TypeDefinitionIndex = 6938;
 
 	class ICancelHandler
 	{

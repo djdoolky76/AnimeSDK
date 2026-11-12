@@ -6,18 +6,18 @@ namespace HoudiniEngineUnity { class HEU_SyncedEventData; }
 namespace HoudiniEngineUnity { class HEU_TOPNodeData; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK___C__DISPLAYCLASS107_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B954720)
+#define HOUDINIENGINEUNITY_HEU_PDGASSETLINK___C__DISPLAYCLASS107_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CADD550)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGAssetLink___c__DisplayClass107_0_TypeDefinitionIndex = 40535;
+	inline static constexpr unsigned int HEU_PDGAssetLink___c__DisplayClass107_0_TypeDefinitionIndex = 41510;
 
 	class HEU_PDGAssetLink___c__DisplayClass107_0 : public ::System::Object
 	{
 	public:
 		::HoudiniEngineUnity::HEU_PDGAssetLink* __4__this; // 0x10
-		::System::Action_2<::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_SyncedEventData*>* OnSynced; // 0x18
-		::HoudiniEngineUnity::HEU_TOPNodeData* topNode; // 0x20
+		::HoudiniEngineUnity::HEU_TOPNodeData* topNode; // 0x18
+		::System::Action_2<::HoudiniEngineUnity::HEU_TOPNodeData*, ::HoudiniEngineUnity::HEU_SyncedEventData*>* OnSynced; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_PDGASSETLINK___C__DISPLAYCLASS107_0_CTOR_OFFSET))(this);

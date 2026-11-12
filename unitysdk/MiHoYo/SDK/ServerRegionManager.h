@@ -10,63 +10,63 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER_ADDREGIONURLSTOHOSTS_OFFSET UNITYSDK_OFFSET(0x1BFDF8A0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFDFD00)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFDD5C0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_GETREGIONSUPPORTKEY_OFFSET UNITYSDK_OFFSET(0x1BFDDA10)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_GETREGIONURLSET_OFFSET UNITYSDK_OFFSET(0x1BFDF550)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_GETSERVERREGIONCOOKIE_OFFSET UNITYSDK_OFFSET(0x1BFDE6C0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_GET_CURRENTREGION_OFFSET UNITYSDK_OFFSET(0x1BFDD7C0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_GET_DOMAINREGIONENABLE_OFFSET UNITYSDK_OFFSET(0x1BFDD9F0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BFDD500)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_LOADCONFIGURL_OFFSET UNITYSDK_OFFSET(0x1BFDDCF0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_NEEDSETREGIONCOOKIE_OFFSET UNITYSDK_OFFSET(0x1BFDFAD0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_PROCESSREQUESTHEADERS_OFFSET UNITYSDK_OFFSET(0x1BFDEFD0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_PROCESSRESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x1BFDF050)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_PROCESSURL_OFFSET UNITYSDK_OFFSET(0x1BFDEA10)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_SETREGIONBYCOUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x1BFDFB60)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_SET_CURRENTREGION_OFFSET UNITYSDK_OFFSET(0x1BFDD7D0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_UPDATEPASSPORTREGION_OFFSET UNITYSDK_OFFSET(0x1BFDF3A0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_ADDREGIONURLSTOHOSTS_OFFSET UNITYSDK_OFFSET(0x1D166A20)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D166E50)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1646C0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_GETREGIONSUPPORTKEY_OFFSET UNITYSDK_OFFSET(0x1D164B10)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_GETREGIONURLSET_OFFSET UNITYSDK_OFFSET(0x1D1666D0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_GETSERVERREGIONCOOKIE_OFFSET UNITYSDK_OFFSET(0x1D1657F0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_GET_CURRENTREGION_OFFSET UNITYSDK_OFFSET(0x1D1648C0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_GET_DOMAINREGIONENABLE_OFFSET UNITYSDK_OFFSET(0x1D164AF0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1D164600)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_LOADCONFIGURL_OFFSET UNITYSDK_OFFSET(0x1D164E20)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_NEEDSETREGIONCOOKIE_OFFSET UNITYSDK_OFFSET(0x1D166C50)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_PROCESSREQUESTHEADERS_OFFSET UNITYSDK_OFFSET(0x1D166120)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_PROCESSRESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x1D1661A0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_PROCESSURL_OFFSET UNITYSDK_OFFSET(0x1D165B40)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_SETREGIONBYCOUNTRYCODE_OFFSET UNITYSDK_OFFSET(0x1D166CB0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_SET_CURRENTREGION_OFFSET UNITYSDK_OFFSET(0x1D1648D0)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_UPDATEPASSPORTREGION_OFFSET UNITYSDK_OFFSET(0x1D166520)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager_TypeDefinitionIndex = 7963;
+	inline static constexpr unsigned int ServerRegionManager_TypeDefinitionIndex = 7972;
 
 	class ServerRegionManager : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* supportedUrls; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* serverRegionUrls; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* serverRegionUrls; // 0x10
+		::System::String* _currentRegion; // 0x18
 		::MiHoYo::SDK::LazyUtil_1<::System::Boolean>* domainRegionEnable; // 0x20
-		::System::String* _currentRegion; // 0x28
-		static ::System::String** StaticGet_WEB_COOKIE_KEY()
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* supportedUrls; // 0x28
+		static ::System::String** StaticGet_RESPONSE_HEADER_KEY()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0xE9F0);
-		}
-
-		static ::System::String** StaticGet_REQUEST_HEADER_KEY()
-		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0xE9F8);
-		}
-
-		static ::System::String** StaticGet_WEB_COOKIE_ENABLE_KEY()
-		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0xEA00);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0x1E990);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_webDomainWhiteList()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0xEA08);
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0x1E998);
 		}
 
 		static ::MiHoYo::SDK::ServerRegionManager** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::ServerRegionManager**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0xEA10);
+			return (::MiHoYo::SDK::ServerRegionManager**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0x1E9A0);
 		}
 
-		static ::System::String** StaticGet_RESPONSE_HEADER_KEY()
+		static ::System::String** StaticGet_WEB_COOKIE_KEY()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0xEA18);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0x1E9A8);
+		}
+
+		static ::System::String** StaticGet_REQUEST_HEADER_KEY()
+		{
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0x1E9B0);
+		}
+
+		static ::System::String** StaticGet_WEB_COOKIE_ENABLE_KEY()
+		{
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ServerRegionManager")->GetStaticField(0x1E9B8);
 		}
 
 		::System::Void _ctor()

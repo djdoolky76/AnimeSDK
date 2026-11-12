@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueAdventureRoomRow; }
 
-#define RPG_GAMECORE_ROGUEADVENTUREROOMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A43B0)
-#define RPG_GAMECORE_ROGUEADVENTUREROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9A4240)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBED370)
+#define RPG_GAMECORE_ROGUEADVENTUREROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBED200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueAdventureRoomRow_TypeDefinitionIndex = 14711;
+	inline static constexpr unsigned int RogueAdventureRoomRow_TypeDefinitionIndex = 14867;
 
 	class RogueAdventureRoomRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RogueAdventureGameplayType AdventureType; // 0x10
-		::System::UInt32 RoomID; // 0x14
-		::System::UInt32 ParamGroupID; // 0x18
+		::System::UInt32 RoomID; // 0x10
+		::System::UInt32 ParamGroupID; // 0x14
+		::RPG::GameCore::RogueAdventureGameplayType AdventureType; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEADVENTUREROOMROW_CTOR_OFFSET))(this);

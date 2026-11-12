@@ -5,7 +5,7 @@ namespace R3 { template <typename T> class Observable_1; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int AJOBKBIBHJC_TypeDefinitionIndex = 50010;
+inline static constexpr unsigned int AJOBKBIBHJC_TypeDefinitionIndex = 51058;
 
 	class AJOBKBIBHJC : public ::System::Object
 	{

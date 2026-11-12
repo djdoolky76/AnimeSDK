@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHealthViewModel_TypeDefinitionIndex = 80879;
+	inline static constexpr unsigned int IFateRinBattleHealthViewModel_TypeDefinitionIndex = 83659;
 
 	class IFateRinBattleHealthViewModel
 	{

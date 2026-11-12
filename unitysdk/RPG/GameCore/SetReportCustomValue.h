@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetReportCustomValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC01E0)
-#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC01F0)
-#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC01A0)
+#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD2410)
+#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD2420)
+#define RPG_GAMECORE_SETREPORTCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD23D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetReportCustomValue_TypeDefinitionIndex = 23659;
+	inline static constexpr unsigned int SetReportCustomValue_TypeDefinitionIndex = 24112;
 
 	class SetReportCustomValue : public ::RPG::GameCore::TaskConfig
 	{

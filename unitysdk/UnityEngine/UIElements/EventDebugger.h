@@ -4,11 +4,11 @@
 namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class PropagationPaths; }
 
-#define UNITYENGINE_UIELEMENTS_EVENTDEBUGGER_LOGPROPAGATIONPATHS_OFFSET UNITYSDK_OFFSET(0x1F4B1370)
+#define UNITYENGINE_UIELEMENTS_EVENTDEBUGGER_LOGPROPAGATIONPATHS_OFFSET UNITYSDK_OFFSET(0x207611F0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int EventDebugger_TypeDefinitionIndex = 5994;
+	inline static constexpr unsigned int EventDebugger_TypeDefinitionIndex = 6002;
 
 	class EventDebugger : public ::System::Object
 	{

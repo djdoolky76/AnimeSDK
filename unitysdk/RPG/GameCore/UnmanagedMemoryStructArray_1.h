@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnmanagedMemoryStructArray_1_TypeDefinitionIndex = 35184;
+	inline static constexpr unsigned int UnmanagedMemoryStructArray_1_TypeDefinitionIndex = 36112;
 
 	template <typename T>
 	class UnmanagedMemoryStructArray_1

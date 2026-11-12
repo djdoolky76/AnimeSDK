@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define BPMADEEINBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBAB0)
+#define BPMADEEINBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5C7C0)
 
-inline static constexpr unsigned int BPMADEEINBP_TypeDefinitionIndex = 42825;
+inline static constexpr unsigned int BPMADEEINBP_TypeDefinitionIndex = 43805;
 
 	class BPMADEEINBP : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

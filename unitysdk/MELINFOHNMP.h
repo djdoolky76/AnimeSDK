@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MELINFOHNMP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D153B30)
-#define MELINFOHNMP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D154100)
-#define MELINFOHNMP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D153CA0)
-#define MELINFOHNMP_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1D153920)
-#define MELINFOHNMP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D153520)
-#define MELINFOHNMP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1537B0)
-#define MELINFOHNMP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D153D40)
-#define MELINFOHNMP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D153D90)
-#define MELINFOHNMP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D153B70)
-#define MELINFOHNMP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D153750)
-#define MELINFOHNMP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1539A0)
-#define MELINFOHNMP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D153C00)
-#define MELINFOHNMP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1534A0)
+#define MELINFOHNMP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E352930)
+#define MELINFOHNMP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E352F00)
+#define MELINFOHNMP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E352AA0)
+#define MELINFOHNMP_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E352720)
+#define MELINFOHNMP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E352320)
+#define MELINFOHNMP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E3525B0)
+#define MELINFOHNMP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E352B40)
+#define MELINFOHNMP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E352B90)
+#define MELINFOHNMP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E352970)
+#define MELINFOHNMP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E352550)
+#define MELINFOHNMP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E3527A0)
+#define MELINFOHNMP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E352A00)
+#define MELINFOHNMP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E3522A0)
 
-inline static constexpr unsigned int MELINFOHNMP_TypeDefinitionIndex = 12898;
+inline static constexpr unsigned int MELINFOHNMP_TypeDefinitionIndex = 12970;
 
 	class MELINFOHNMP : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x49AC0);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x49AC8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x39860);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JJFDJLHPJCD*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JJFDJLHPJCD*>**)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x49AD0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JJFDJLHPJCD*>**)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x39868);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x39870);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x11440);
+			return (::System::Boolean*)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0xCA40);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0x11441);
+			return (::System::Byte*)UnitySDK::FromName("", "MELINFOHNMP")->GetStaticField(0xCA41);
 		}
 
 		static ::System::Void _cctor()

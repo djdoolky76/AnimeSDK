@@ -5,17 +5,17 @@ namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define EDEPICFGMDM_CTOR_OFFSET UNITYSDK_OFFSET(0x13312DC0)
-#define EDEPICFGMDM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x13312D70)
+#define EDEPICFGMDM_CTOR_OFFSET UNITYSDK_OFFSET(0x140CF910)
+#define EDEPICFGMDM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x140CF8C0)
 
-inline static constexpr unsigned int EDEPICFGMDM_TypeDefinitionIndex = 82303;
+inline static constexpr unsigned int EDEPICFGMDM_TypeDefinitionIndex = 85176;
 
 	class EDEPICFGMDM : public ::System::Object
 	{
 	public:
 		::RPG::Client::IAssetOperation* NDJKPABPJHO; // 0x10
-		::System::String* GKHIHPGCLIK; // 0x18
-		::UnityEngine::Object* POJACDBBJDL; // 0x20
+		::UnityEngine::Object* POJACDBBJDL; // 0x18
+		::System::String* GKHIHPGCLIK; // 0x20
 		::System::Int64 GDBJDAOOCOH; // 0x28
 		::System::Void _ctor()
 		{

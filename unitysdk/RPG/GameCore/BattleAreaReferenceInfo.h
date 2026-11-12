@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleAreaReferenceInfo; }
 
-#define RPG_GAMECORE_BATTLEAREAREFERENCEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D452360)
-#define RPG_GAMECORE_BATTLEAREAREFERENCEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D452220)
+#define RPG_GAMECORE_BATTLEAREAREFERENCEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E661DA0)
+#define RPG_GAMECORE_BATTLEAREAREFERENCEINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E661C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAreaReferenceInfo_TypeDefinitionIndex = 17234;
+	inline static constexpr unsigned int BattleAreaReferenceInfo_TypeDefinitionIndex = 17402;
 
 	class BattleAreaReferenceInfo : public ::RPG::GameCore::JsonConfig
 	{

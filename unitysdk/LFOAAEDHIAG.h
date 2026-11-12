@@ -5,7 +5,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class UIDragSource; }
 namespace System { class Action; }
 
-inline static constexpr unsigned int LFOAAEDHIAG_TypeDefinitionIndex = 49853;
+inline static constexpr unsigned int LFOAAEDHIAG_TypeDefinitionIndex = 50901;
 
 	class LFOAAEDHIAG : public ::System::Object
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GHGDNILKGLI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1EB40)
-#define GHGDNILKGLI_IEKFPFNIEHF_OFFSET UNITYSDK_OFFSET(0x15A1E950)
-#define GHGDNILKGLI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15A1EA50)
+#define GHGDNILKGLI_CTOR_OFFSET UNITYSDK_OFFSET(0x16959270)
+#define GHGDNILKGLI_IEKFPFNIEHF_OFFSET UNITYSDK_OFFSET(0x16959090)
+#define GHGDNILKGLI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16959180)
 
-inline static constexpr unsigned int GHGDNILKGLI_TypeDefinitionIndex = 52431;
+inline static constexpr unsigned int GHGDNILKGLI_TypeDefinitionIndex = 53537;
 
 	class GHGDNILKGLI : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 KONBAMDOGDH; // 0x10
-		::UnityEngine::Vector3 PHMKDHKBLDE; // 0x1C
+		::UnityEngine::Vector3 JFAGECNFHJL; // 0x10
+		::UnityEngine::Vector3 KONBAMDOGDH; // 0x1C
 		::UnityEngine::Vector3 HFOMPEEAPCG; // 0x28
-		::UnityEngine::Vector3 JFAGECNFHJL; // 0x34
+		::UnityEngine::Vector3 PHMKDHKBLDE; // 0x34
 		::UnityEngine::Vector3 HFLAAJNMCOH; // 0x40
 		::System::Void _ctor()
 		{

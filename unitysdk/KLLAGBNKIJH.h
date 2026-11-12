@@ -6,11 +6,11 @@ class IMCNFFHOKLK;
 namespace RPG::Client { class AnniversaryCollectionPanelData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KLLAGBNKIJH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB52DE90)
-#define KLLAGBNKIJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB52E0E0)
-#define KLLAGBNKIJH_JAEDGDEMCFM_OFFSET UNITYSDK_OFFSET(0xB52DEE0)
+#define KLLAGBNKIJH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBD78EA0)
+#define KLLAGBNKIJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD790F0)
+#define KLLAGBNKIJH_JAEDGDEMCFM_OFFSET UNITYSDK_OFFSET(0xBD78EF0)
 
-inline static constexpr unsigned int KLLAGBNKIJH_TypeDefinitionIndex = 62394;
+inline static constexpr unsigned int KLLAGBNKIJH_TypeDefinitionIndex = 63807;
 
 	class KLLAGBNKIJH : public ::System::Object
 	{

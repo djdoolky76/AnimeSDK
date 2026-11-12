@@ -5,7 +5,7 @@ namespace System { class String; }
 namespace System::Xml::Linq { class NamespaceResolver_NamespaceDeclaration; }
 namespace System::Xml::Linq { class XNamespace; }
 
-#define SYSTEM_XML_LINQ_NAMESPACERESOLVER_NAMESPACEDECLARATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE828F0)
+#define SYSTEM_XML_LINQ_NAMESPACERESOLVER_NAMESPACEDECLARATION_CTOR_OFFSET UNITYSDK_OFFSET(0x201320D0)
 
 namespace System::Xml::Linq
 {

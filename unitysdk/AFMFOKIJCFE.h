@@ -5,10 +5,10 @@
 class BJLOENPDAHE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AFMFOKIJCFE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF178E0)
-#define AFMFOKIJCFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCF17840)
+#define AFMFOKIJCFE_CTOR_OFFSET UNITYSDK_OFFSET(0xD5CB630)
+#define AFMFOKIJCFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xD5CB590)
 
-inline static constexpr unsigned int AFMFOKIJCFE_TypeDefinitionIndex = 62101;
+inline static constexpr unsigned int AFMFOKIJCFE_TypeDefinitionIndex = 63514;
 
 	class AFMFOKIJCFE : public ::System::Object
 	{

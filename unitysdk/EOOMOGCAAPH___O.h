@@ -4,14 +4,14 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T> class Comparison_1; }
 
-inline static constexpr unsigned int EOOMOGCAAPH___O_TypeDefinitionIndex = 62801;
+inline static constexpr unsigned int EOOMOGCAAPH___O_TypeDefinitionIndex = 64239;
 
 	class EOOMOGCAAPH___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet__0___CompareByDefaultHighlight()
 		{
-			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x53F50);
+			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x32930);
 		}
 
 	};

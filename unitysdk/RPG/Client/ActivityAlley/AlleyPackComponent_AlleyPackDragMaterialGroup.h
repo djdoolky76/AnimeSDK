@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3C1EE0)
-#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3C1F20)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xCCFC380)
+#define RPG_CLIENT_ACTIVITYALLEY_ALLEYPACKCOMPONENT_ALLEYPACKDRAGMATERIALGROUP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCCFC3C0)
 
 namespace RPG::Client::ActivityAlley
 {
-	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragMaterialGroup_TypeDefinitionIndex = 74089;
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragMaterialGroup_TypeDefinitionIndex = 76237;
 
 	class AlleyPackComponent_AlleyPackDragMaterialGroup : public ::System::Object
 	{

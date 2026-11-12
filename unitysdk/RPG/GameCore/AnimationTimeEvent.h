@@ -6,12 +6,12 @@ namespace RPG::GameCore { class AnimationTimeEvent; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ANIMATIONTIMEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F4630)
-#define RPG_GAMECORE_ANIMATIONTIMEEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3F44E0)
+#define RPG_GAMECORE_ANIMATIONTIMEEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6148B0)
+#define RPG_GAMECORE_ANIMATIONTIMEEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E614760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimationTimeEvent_TypeDefinitionIndex = 22465;
+	inline static constexpr unsigned int AnimationTimeEvent_TypeDefinitionIndex = 22874;
 
 	class AnimationTimeEvent : public ::RPG::GameCore::JsonConfig
 	{

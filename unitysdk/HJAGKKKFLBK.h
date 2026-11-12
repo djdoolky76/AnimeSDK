@@ -6,24 +6,24 @@ class HJAGKKKFLBK;
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHandCardViewModel; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HJAGKKKFLBK_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D01F50)
-#define HJAGKKKFLBK_COMPARE_OFFSET UNITYSDK_OFFSET(0x15D016C0)
-#define HJAGKKKFLBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15D01F40)
-#define HJAGKKKFLBK_EMDGCFHHFGB_OFFSET UNITYSDK_OFFSET(0x15D01D40)
+#define HJAGKKKFLBK_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C51360)
+#define HJAGKKKFLBK_COMPARE_OFFSET UNITYSDK_OFFSET(0x16C50AD0)
+#define HJAGKKKFLBK_CTOR_OFFSET UNITYSDK_OFFSET(0x16C51350)
+#define HJAGKKKFLBK_EMDGCFHHFGB_OFFSET UNITYSDK_OFFSET(0x16C51150)
 
-inline static constexpr unsigned int HJAGKKKFLBK_TypeDefinitionIndex = 80989;
+inline static constexpr unsigned int HJAGKKKFLBK_TypeDefinitionIndex = 83769;
 
 	class HJAGKKKFLBK : public ::System::Object
 	{
 	public:
-		static ::HJAGKKKFLBK** StaticGet_FMJPMFEDIJL()
-		{
-			return (::HJAGKKKFLBK**)UnitySDK::FromName("", "HJAGKKKFLBK")->GetStaticField(0x1CDF0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>** StaticGet_HCIBEFAHKCO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>**)UnitySDK::FromName("", "HJAGKKKFLBK")->GetStaticField(0x1CDF8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FateRinCardCasterSource, ::System::Int32>**)UnitySDK::FromName("", "HJAGKKKFLBK")->GetStaticField(0xF8D0);
+		}
+
+		static ::HJAGKKKFLBK** StaticGet_FMJPMFEDIJL()
+		{
+			return (::HJAGKKKFLBK**)UnitySDK::FromName("", "HJAGKKKFLBK")->GetStaticField(0xF8D8);
 		}
 
 		// static const ::System::Object CJOPNPHOMMM; // 0x0

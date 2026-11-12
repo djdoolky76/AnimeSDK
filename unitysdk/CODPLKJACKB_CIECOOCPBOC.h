@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CODPLKJACKB_CIECOOCPBOC_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB3490)
+#define CODPLKJACKB_CIECOOCPBOC_CTOR_OFFSET UNITYSDK_OFFSET(0xE5FFC70)
 
-inline static constexpr unsigned int CODPLKJACKB_CIECOOCPBOC_TypeDefinitionIndex = 64767;
+inline static constexpr unsigned int CODPLKJACKB_CIECOOCPBOC_TypeDefinitionIndex = 66309;
 
 	class CODPLKJACKB_CIECOOCPBOC : public ::System::Object
 	{

@@ -4,9 +4,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENEARTPREFABEXPORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE95ED00)
+#define SCENEARTPREFABEXPORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF47D550)
 
-inline static constexpr unsigned int SceneArtPrefabExportConfig_TypeDefinitionIndex = 47508;
+inline static constexpr unsigned int SceneArtPrefabExportConfig_TypeDefinitionIndex = 48537;
 
 	class SceneArtPrefabExportConfig : public ::UnityEngine::ScriptableObject
 	{

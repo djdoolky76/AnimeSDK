@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DialogType_TypeDefinitionIndex = 8083;
+	inline static constexpr unsigned int DialogType_TypeDefinitionIndex = 8092;
 
 	enum class DialogType : ::System::Int32
 	{

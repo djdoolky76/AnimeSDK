@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IInteractionProvider_TypeDefinitionIndex = 75328;
+	inline static constexpr unsigned int IInteractionProvider_TypeDefinitionIndex = 77655;
 
 	class IInteractionProvider
 	{

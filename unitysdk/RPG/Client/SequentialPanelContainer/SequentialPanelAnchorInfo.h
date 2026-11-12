@@ -6,21 +6,21 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE0AD9A0)
+#define RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB180D0)
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int SequentialPanelAnchorInfo_TypeDefinitionIndex = 74756;
+	inline static constexpr unsigned int SequentialPanelAnchorInfo_TypeDefinitionIndex = 76910;
 
 	class SequentialPanelAnchorInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::RectTransform* AnchorPoint; // 0x10
-		::UnityEngine::Vector2 Offset; // 0x18
-		::System::Single Spacing; // 0x20
+		::System::Single Spacing; // 0x18
+		::UnityEngine::Vector2 Offset; // 0x1C
 		::RPG::Client::SequentialPanelContainer::AlignmentType AnchorPointAlignment; // 0x24
-		::RPG::Client::SequentialPanelContainer::Direction Direction; // 0x28
-		::RPG::Client::SequentialPanelContainer::AlignmentType Alignment; // 0x2C
+		::RPG::Client::SequentialPanelContainer::AlignmentType Alignment; // 0x28
+		::RPG::Client::SequentialPanelContainer::Direction Direction; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_SEQUENTIALPANELCONTAINER_SEQUENTIALPANELANCHORINFO_CTOR_OFFSET))(this);

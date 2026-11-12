@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AbortTargetSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGCHOICLHFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C91770)
-#define HGCHOICLHFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C917A0)
+#define HGCHOICLHFH_CTOR_OFFSET UNITYSDK_OFFSET(0x16BDB400)
+#define HGCHOICLHFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BDB430)
 
-inline static constexpr unsigned int HGCHOICLHFH_TypeDefinitionIndex = 52264;
+inline static constexpr unsigned int HGCHOICLHFH_TypeDefinitionIndex = 53370;
 
 	class HGCHOICLHFH
 	{

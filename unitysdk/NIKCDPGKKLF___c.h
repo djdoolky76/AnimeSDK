@@ -4,18 +4,18 @@
 class NIKCDPGKKLF;
 namespace System { class Object; }
 
-#define NIKCDPGKKLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB347C0)
-#define NIKCDPGKKLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB34800)
-#define NIKCDPGKKLF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB34810)
+#define NIKCDPGKKLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F01CDE0)
+#define NIKCDPGKKLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F01CE20)
+#define NIKCDPGKKLF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F01CE30)
 
-inline static constexpr unsigned int NIKCDPGKKLF___c_TypeDefinitionIndex = 27720;
+inline static constexpr unsigned int NIKCDPGKKLF___c_TypeDefinitionIndex = 28251;
 
 	class NIKCDPGKKLF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64160);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CEB0);
 		}
 
 		static ::System::Void _cctor()

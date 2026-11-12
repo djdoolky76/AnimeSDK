@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser::Promises
 {
-	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 39583;
+	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 40512;
 
 	class EnumerableExt : public ::System::Object
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int CLFHEIEILIN_TypeDefinitionIndex = 43574;
+inline static constexpr unsigned int CLFHEIEILIN_TypeDefinitionIndex = 44556;
 
 	class CLFHEIEILIN : public ::System::Object
 	{

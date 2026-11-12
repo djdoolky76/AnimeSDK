@@ -11,11 +11,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OMCAHMCAPOH_DHDFPNINDFM_OFFSET UNITYSDK_OFFSET(0xBF20D20)
-#define OMCAHMCAPOH_HMFDIMLPEAN_OFFSET UNITYSDK_OFFSET(0xBF1F730)
-#define OMCAHMCAPOH_OOHHKONPBJM_OFFSET UNITYSDK_OFFSET(0xBF200B0)
+#define OMCAHMCAPOH_DHDFPNINDFM_OFFSET UNITYSDK_OFFSET(0xC81F130)
+#define OMCAHMCAPOH_HMFDIMLPEAN_OFFSET UNITYSDK_OFFSET(0xC81DB40)
+#define OMCAHMCAPOH_OOHHKONPBJM_OFFSET UNITYSDK_OFFSET(0xC81E4C0)
 
-inline static constexpr unsigned int OMCAHMCAPOH_TypeDefinitionIndex = 54194;
+inline static constexpr unsigned int OMCAHMCAPOH_TypeDefinitionIndex = 55358;
 
 	class OMCAHMCAPOH : public ::System::Object
 	{

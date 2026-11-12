@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define CDFFPIFDKEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD520)
+#define CDFFPIFDKEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5E220)
 
-inline static constexpr unsigned int CDFFPIFDKEM_TypeDefinitionIndex = 42804;
+inline static constexpr unsigned int CDFFPIFDKEM_TypeDefinitionIndex = 43784;
 
 	class CDFFPIFDKEM : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

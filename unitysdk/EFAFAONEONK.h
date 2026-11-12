@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCurrentSkillUseParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EFAFAONEONK_CTOR_OFFSET UNITYSDK_OFFSET(0x13A42B80)
-#define EFAFAONEONK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A42BB0)
+#define EFAFAONEONK_CTOR_OFFSET UNITYSDK_OFFSET(0x14803500)
+#define EFAFAONEONK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14803530)
 
-inline static constexpr unsigned int EFAFAONEONK_TypeDefinitionIndex = 54528;
+inline static constexpr unsigned int EFAFAONEONK_TypeDefinitionIndex = 55693;
 
 	class EFAFAONEONK
 	{

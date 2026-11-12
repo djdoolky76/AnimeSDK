@@ -3,10 +3,10 @@
 class MCOOAPOCCPO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABCEODPNCHA_CTOR_OFFSET UNITYSDK_OFFSET(0xB0EDA20)
-#define ABCEODPNCHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0EDA50)
+#define ABCEODPNCHA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7503E0)
+#define ABCEODPNCHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB750410)
 
-inline static constexpr unsigned int ABCEODPNCHA_TypeDefinitionIndex = 58046;
+inline static constexpr unsigned int ABCEODPNCHA_TypeDefinitionIndex = 59285;
 
 	class ABCEODPNCHA
 	{

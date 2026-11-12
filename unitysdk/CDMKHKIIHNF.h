@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define CDMKHKIIHNF_CTOR_OFFSET UNITYSDK_OFFSET(0xC76D750)
+#define CDMKHKIIHNF_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D7C30)
 
-inline static constexpr unsigned int CDMKHKIIHNF_TypeDefinitionIndex = 48168;
+inline static constexpr unsigned int CDMKHKIIHNF_TypeDefinitionIndex = 49199;
 
 	class CDMKHKIIHNF : public ::UnityEngine::Playables::PlayableBehaviour
 	{

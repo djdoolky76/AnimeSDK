@@ -6,13 +6,13 @@
 #include "unitysdk/UnityEngine/Rect.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_RECTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB678A0)
-#define MESSAGEPACK_UNITY_RECTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB67440)
-#define MESSAGEPACK_UNITY_RECTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB673D0)
+#define MESSAGEPACK_UNITY_RECTFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF05B0)
+#define MESSAGEPACK_UNITY_RECTFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF0150)
+#define MESSAGEPACK_UNITY_RECTFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF00E0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int RectFormatter_TypeDefinitionIndex = 10124;
+	inline static constexpr unsigned int RectFormatter_TypeDefinitionIndex = 10132;
 
 	class RectFormatter : public ::System::Object
 	{

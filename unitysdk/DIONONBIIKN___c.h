@@ -4,18 +4,18 @@
 class DIONONBIIKN;
 namespace System { class Object; }
 
-#define DIONONBIIKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1C3810)
-#define DIONONBIIKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C3850)
-#define DIONONBIIKN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1C3860)
+#define DIONONBIIKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F49F350)
+#define DIONONBIIKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49F390)
+#define DIONONBIIKN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F49F3A0)
 
-inline static constexpr unsigned int DIONONBIIKN___c_TypeDefinitionIndex = 27160;
+inline static constexpr unsigned int DIONONBIIKN___c_TypeDefinitionIndex = 27691;
 
 	class DIONONBIIKN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36B60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32DD0);
 		}
 
 		static ::System::Void _cctor()

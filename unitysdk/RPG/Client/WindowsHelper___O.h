@@ -5,14 +5,14 @@ namespace RPG::Client { class WindowsHelper_EnumWindowsCallBack; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WindowsHelper___O_TypeDefinitionIndex = 73245;
+	inline static constexpr unsigned int WindowsHelper___O_TypeDefinitionIndex = 75361;
 
 	class WindowsHelper___O : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::WindowsHelper_EnumWindowsCallBack** StaticGet__0____EnumWindCallback()
 		{
-			return (::RPG::Client::WindowsHelper_EnumWindowsCallBack**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x4C940);
+			return (::RPG::Client::WindowsHelper_EnumWindowsCallBack**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x55560);
 		}
 
 	};

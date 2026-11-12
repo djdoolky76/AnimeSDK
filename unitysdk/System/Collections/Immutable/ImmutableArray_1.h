@@ -3,7 +3,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableArray_1_TypeDefinitionIndex = 6615;
+	inline static constexpr unsigned int ImmutableArray_1_TypeDefinitionIndex = 6626;
 
 	template <typename T>
 	struct alignas(8) ImmutableArray_1

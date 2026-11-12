@@ -7,29 +7,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define KFBPMGMFPLG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB38EF30)
-#define KFBPMGMFPLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB38EF60)
-#define KFBPMGMFPLG___C__BUILDDISPLAYOPTIONS_B__13_2_OFFSET UNITYSDK_OFFSET(0xB38EF70)
-#define KFBPMGMFPLG___C___PICKLEAVEEMPLOYEE_B__26_0_OFFSET UNITYSDK_OFFSET(0xB38EF80)
+#define KFBPMGMFPLG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC1B970)
+#define KFBPMGMFPLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1B9A0)
+#define KFBPMGMFPLG___C__BUILDDISPLAYOPTIONS_B__13_2_OFFSET UNITYSDK_OFFSET(0xBC1B9B0)
+#define KFBPMGMFPLG___C___PICKLEAVEEMPLOYEE_B__26_0_OFFSET UNITYSDK_OFFSET(0xBC1B9C0)
 
-inline static constexpr unsigned int KFBPMGMFPLG___c_TypeDefinitionIndex = 80313;
+inline static constexpr unsigned int KFBPMGMFPLG___c_TypeDefinitionIndex = 83090;
 
 	class KFBPMGMFPLG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45700);
-		}
-
-		static ::System::Predicate_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>** StaticGet___9__26_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45708);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33470);
 		}
 
 		static ::System::Func_2<::RPG::Client::LimaoNewsDutyCheckOptionTalkInfo*, ::System::Boolean>** StaticGet___9__13_2()
 		{
-			return (::System::Func_2<::RPG::Client::LimaoNewsDutyCheckOptionTalkInfo*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45710);
+			return (::System::Func_2<::RPG::Client::LimaoNewsDutyCheckOptionTalkInfo*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33478);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>** StaticGet___9__26_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33480);
 		}
 
 		static ::System::Void _cctor()

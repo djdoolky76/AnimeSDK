@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetHoyoGroupNpcAnimSpeedRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGJJNBBKLBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB699AD0)
-#define LGJJNBBKLBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB699B00)
+#define LGJJNBBKLBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF30D30)
+#define LGJJNBBKLBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF30D60)
 
-inline static constexpr unsigned int LGJJNBBKLBI_TypeDefinitionIndex = 52495;
+inline static constexpr unsigned int LGJJNBBKLBI_TypeDefinitionIndex = 53601;
 
 	class LGJJNBBKLBI
 	{

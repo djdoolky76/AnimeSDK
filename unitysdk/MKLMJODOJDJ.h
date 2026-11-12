@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroUseBullet; }
 
-#define MKLMJODOJDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB99CEC0)
-#define MKLMJODOJDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB99CEF0)
+#define MKLMJODOJDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC257B40)
+#define MKLMJODOJDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC257B70)
 
-inline static constexpr unsigned int MKLMJODOJDJ_TypeDefinitionIndex = 58968;
+inline static constexpr unsigned int MKLMJODOJDJ_TypeDefinitionIndex = 60241;
 
 	class MKLMJODOJDJ
 	{

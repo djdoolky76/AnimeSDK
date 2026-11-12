@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeParameter_1_TypeDefinitionIndex = 35622;
+	inline static constexpr unsigned int VolumeParameter_1_TypeDefinitionIndex = 36550;
 
 	template <typename T>
 	class VolumeParameter_1 : public ::UnityEngine::Rendering::VolumeParameter

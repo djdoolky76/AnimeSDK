@@ -4,18 +4,18 @@
 class BLPLICDMFEL;
 namespace System { class Object; }
 
-#define BLPLICDMFEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E01D440)
-#define BLPLICDMFEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E01D480)
-#define BLPLICDMFEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E01D490)
+#define BLPLICDMFEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2C0ED0)
+#define BLPLICDMFEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C0F10)
+#define BLPLICDMFEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2C0F20)
 
-inline static constexpr unsigned int BLPLICDMFEL___c_TypeDefinitionIndex = 30846;
+inline static constexpr unsigned int BLPLICDMFEL___c_TypeDefinitionIndex = 31759;
 
 	class BLPLICDMFEL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DC80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50760);
 		}
 
 		static ::System::Void _cctor()

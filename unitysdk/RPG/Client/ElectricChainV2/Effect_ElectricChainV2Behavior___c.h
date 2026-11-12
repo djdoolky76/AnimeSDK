@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD81F40)
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD81F80)
-#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR___C___INITIALIZESUBCHAINS_B__13_0_OFFSET UNITYSDK_OFFSET(0xCD81F90)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD748FE0)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD749020)
+#define RPG_CLIENT_ELECTRICCHAINV2_EFFECT_ELECTRICCHAINV2BEHAVIOR___C___INITIALIZESUBCHAINS_B__13_0_OFFSET UNITYSDK_OFFSET(0xD749030)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Effect_ElectricChainV2Behavior___c_TypeDefinitionIndex = 73586;
+	inline static constexpr unsigned int Effect_ElectricChainV2Behavior___c_TypeDefinitionIndex = 75709;
 
 	class Effect_ElectricChainV2Behavior___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("RPG.Client.ElectricChainV2", "<>c")->GetStaticField(0x40360);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("RPG.Client.ElectricChainV2", "<>c")->GetStaticField(0x3B5B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ElectricChainV2", "<>c")->GetStaticField(0x40368);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ElectricChainV2", "<>c")->GetStaticField(0x3B5B8);
 		}
 
 		static ::System::Void _cctor()

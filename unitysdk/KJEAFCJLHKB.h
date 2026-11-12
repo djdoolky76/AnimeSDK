@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideEffectByCharacterType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KJEAFCJLHKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB447300)
-#define KJEAFCJLHKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB447330)
+#define KJEAFCJLHKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBCDE0B0)
+#define KJEAFCJLHKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCDE0E0)
 
-inline static constexpr unsigned int KJEAFCJLHKB_TypeDefinitionIndex = 54933;
+inline static constexpr unsigned int KJEAFCJLHKB_TypeDefinitionIndex = 56105;
 
 	class KJEAFCJLHKB
 	{

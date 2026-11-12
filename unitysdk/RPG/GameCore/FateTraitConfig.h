@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateTextDynamicParamConfig; }
 namespace RPG::GameCore { class FateTraitConfig; }
 
-#define RPG_GAMECORE_FATETRAITCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69F4E0)
-#define RPG_GAMECORE_FATETRAITCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69F430)
+#define RPG_GAMECORE_FATETRAITCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8ABCD0)
+#define RPG_GAMECORE_FATETRAITCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8ABC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateTraitConfig_TypeDefinitionIndex = 16622;
+	inline static constexpr unsigned int FateTraitConfig_TypeDefinitionIndex = 16788;
 
 	class FateTraitConfig : public ::RPG::GameCore::JsonConfig
 	{

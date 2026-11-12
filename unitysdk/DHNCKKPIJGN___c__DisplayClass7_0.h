@@ -4,7 +4,7 @@
 class DHNCKKPIJGN;
 class IFKBGBPINCO;
 
-inline static constexpr unsigned int DHNCKKPIJGN___c__DisplayClass7_0_TypeDefinitionIndex = 44152;
+inline static constexpr unsigned int DHNCKKPIJGN___c__DisplayClass7_0_TypeDefinitionIndex = 45227;
 
 	class DHNCKKPIJGN___c__DisplayClass7_0 : public ::System::Object
 	{

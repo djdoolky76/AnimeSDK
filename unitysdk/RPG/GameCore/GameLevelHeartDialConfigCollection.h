@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GameLevelHeartDialConfigCollection; }
 namespace RPG::GameCore { class GameLevelHeartDialNPCConfig; }
 
-#define RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D716A00)
-#define RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D716940)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E920F20)
+#define RPG_GAMECORE_GAMELEVELHEARTDIALCONFIGCOLLECTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E917C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameLevelHeartDialConfigCollection_TypeDefinitionIndex = 17421;
+	inline static constexpr unsigned int GameLevelHeartDialConfigCollection_TypeDefinitionIndex = 17589;
 
 	class GameLevelHeartDialConfigCollection : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/GameCore/RtDefenceCharacterType.h"
 #include "unitysdk/RPG/GameCore/TeamType.h"
 
-inline static constexpr unsigned int LPBMANAEKFN_TypeDefinitionIndex = 54313;
+inline static constexpr unsigned int LPBMANAEKFN_TypeDefinitionIndex = 55477;
 
 	struct alignas(4) LPBMANAEKFN
 	{

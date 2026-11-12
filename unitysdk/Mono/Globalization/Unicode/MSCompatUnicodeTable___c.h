@@ -5,9 +5,9 @@ namespace Mono::Globalization::Unicode { class Level2Map; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C059AE0)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C059B10)
-#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__BUILDTAILORINGTABLES_B__17_0_OFFSET UNITYSDK_OFFSET(0x1C059B20)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1E0E60)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E0E90)
+#define MONO_GLOBALIZATION_UNICODE_MSCOMPATUNICODETABLE___C__BUILDTAILORINGTABLES_B__17_0_OFFSET UNITYSDK_OFFSET(0x1D1E0EA0)
 
 namespace Mono::Globalization::Unicode
 {
@@ -16,14 +16,14 @@ namespace Mono::Globalization::Unicode
 	class MSCompatUnicodeTable___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Mono.Globalization.Unicode", "<>c")->GetStaticField(0x2970);
-		}
-
 		static ::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>** StaticGet___9__17_0()
 		{
-			return (::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>**)UnitySDK::FromName("Mono.Globalization.Unicode", "<>c")->GetStaticField(0x2978);
+			return (::System::Comparison_1<::Mono::Globalization::Unicode::Level2Map*>**)UnitySDK::FromName("Mono.Globalization.Unicode", "<>c")->GetStaticField(0x9F10);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Mono.Globalization.Unicode", "<>c")->GetStaticField(0x9F18);
 		}
 
 		static ::System::Void _cctor()

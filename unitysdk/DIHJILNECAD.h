@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DIHJILNECAD_TypeDefinitionIndex = 25287;
+inline static constexpr unsigned int DIHJILNECAD_TypeDefinitionIndex = 25765;
 
 	enum class DIHJILNECAD : ::System::Int32
 	{

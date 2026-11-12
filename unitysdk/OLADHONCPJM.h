@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FightFestShowCutIn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLADHONCPJM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFDD60)
-#define OLADHONCPJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFDD90)
+#define OLADHONCPJM_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F9070)
+#define OLADHONCPJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7F90A0)
 
-inline static constexpr unsigned int OLADHONCPJM_TypeDefinitionIndex = 56356;
+inline static constexpr unsigned int OLADHONCPJM_TypeDefinitionIndex = 57570;
 
 	class OLADHONCPJM
 	{

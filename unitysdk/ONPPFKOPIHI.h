@@ -4,11 +4,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define ONPPFKOPIHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF619A0)
-#define ONPPFKOPIHI_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xBF61920)
-#define ONPPFKOPIHI_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xBF618A0)
+#define ONPPFKOPIHI_CTOR_OFFSET UNITYSDK_OFFSET(0xC860820)
+#define ONPPFKOPIHI_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xC8607A0)
+#define ONPPFKOPIHI_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xC860720)
 
-inline static constexpr unsigned int ONPPFKOPIHI_TypeDefinitionIndex = 69823;
+inline static constexpr unsigned int ONPPFKOPIHI_TypeDefinitionIndex = 71782;
 
 	class ONPPFKOPIHI : public ::System::Object
 	{

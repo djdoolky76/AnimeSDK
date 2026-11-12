@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxCheckPermissionParam; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF16120)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF220A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D09CCE0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELCHECKPERMISSIONPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0A8C60)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelCheckPermissionParams_TypeDefinitionIndex = 8608;
+	inline static constexpr unsigned int HoYoChannelCheckPermissionParams_TypeDefinitionIndex = 8617;
 
 	class HoYoChannelCheckPermissionParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

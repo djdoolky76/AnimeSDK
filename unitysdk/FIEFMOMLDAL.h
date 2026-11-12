@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterStealthState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FIEFMOMLDAL_CTOR_OFFSET UNITYSDK_OFFSET(0x157A4C60)
-#define FIEFMOMLDAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157A4C90)
+#define FIEFMOMLDAL_CTOR_OFFSET UNITYSDK_OFFSET(0x166C6470)
+#define FIEFMOMLDAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166C64A0)
 
-inline static constexpr unsigned int FIEFMOMLDAL_TypeDefinitionIndex = 53225;
+inline static constexpr unsigned int FIEFMOMLDAL_TypeDefinitionIndex = 54387;
 
 	class FIEFMOMLDAL
 	{

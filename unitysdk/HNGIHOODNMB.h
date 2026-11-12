@@ -5,10 +5,10 @@
 #include "unitysdk/System/ValueTuple_2.h"
 class HNGIHOODNMB;
 
-#define HNGIHOODNMB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D938B0)
-#define HNGIHOODNMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D938A0)
+#define HNGIHOODNMB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16D34880)
+#define HNGIHOODNMB_CTOR_OFFSET UNITYSDK_OFFSET(0x16D34870)
 
-inline static constexpr unsigned int HNGIHOODNMB_TypeDefinitionIndex = 69330;
+inline static constexpr unsigned int HNGIHOODNMB_TypeDefinitionIndex = 71284;
 
 	class HNGIHOODNMB : public ::System::Object
 	{

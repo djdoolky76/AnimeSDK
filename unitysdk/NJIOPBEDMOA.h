@@ -3,10 +3,10 @@
 class NMANONOFOMC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJIOPBEDMOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC18400)
-#define NJIOPBEDMOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC18430)
+#define NJIOPBEDMOA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4FBE10)
+#define NJIOPBEDMOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4FBE40)
 
-inline static constexpr unsigned int NJIOPBEDMOA_TypeDefinitionIndex = 52815;
+inline static constexpr unsigned int NJIOPBEDMOA_TypeDefinitionIndex = 53959;
 
 	class NJIOPBEDMOA
 	{

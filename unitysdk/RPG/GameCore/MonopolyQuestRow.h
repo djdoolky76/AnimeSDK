@@ -5,20 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyQuestRow; }
 
-#define RPG_GAMECORE_MONOPOLYQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A67E0)
-#define RPG_GAMECORE_MONOPOLYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A6100)
+#define RPG_GAMECORE_MONOPOLYQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC0950)
+#define RPG_GAMECORE_MONOPOLYQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAC0270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyQuestRow_TypeDefinitionIndex = 12067;
+	inline static constexpr unsigned int MonopolyQuestRow_TypeDefinitionIndex = 12124;
 
 	class MonopolyQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 ID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONOPOLYQUESTROW_CTOR_OFFSET))(this);

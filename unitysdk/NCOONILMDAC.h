@@ -10,29 +10,29 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define NCOONILMDAC_CLEAR_OFFSET UNITYSDK_OFFSET(0xBB1CC60)
-#define NCOONILMDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1CF60)
-#define NCOONILMDAC_ENHKOBAOKBJ_OFFSET UNITYSDK_OFFSET(0xBB1CED0)
-#define NCOONILMDAC_GDKBLINFAHI_OFFSET UNITYSDK_OFFSET(0xBB1CF50)
-#define NCOONILMDAC_MLOEBFLNCHP_OFFSET UNITYSDK_OFFSET(0xBB1CCE0)
-#define NCOONILMDAC_OEIIDHFBKHG_OFFSET UNITYSDK_OFFSET(0xBB1CDD0)
-#define NCOONILMDAC_PHAAADAJDAA_OFFSET UNITYSDK_OFFSET(0xBB1CEC0)
+#define NCOONILMDAC_CLEAR_OFFSET UNITYSDK_OFFSET(0xC3A5770)
+#define NCOONILMDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A5A70)
+#define NCOONILMDAC_ENHKOBAOKBJ_OFFSET UNITYSDK_OFFSET(0xC3A59E0)
+#define NCOONILMDAC_GDKBLINFAHI_OFFSET UNITYSDK_OFFSET(0xC3A5A60)
+#define NCOONILMDAC_MLOEBFLNCHP_OFFSET UNITYSDK_OFFSET(0xC3A57F0)
+#define NCOONILMDAC_OEIIDHFBKHG_OFFSET UNITYSDK_OFFSET(0xC3A58E0)
+#define NCOONILMDAC_PHAAADAJDAA_OFFSET UNITYSDK_OFFSET(0xC3A59D0)
 
-inline static constexpr unsigned int NCOONILMDAC_TypeDefinitionIndex = 59739;
+inline static constexpr unsigned int NCOONILMDAC_TypeDefinitionIndex = 61019;
 
 	class NCOONILMDAC : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* OEDEAIGDAOF; // 0x10
 		::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* PHNEEILABKK; // 0x18
-		::System::String* DHMDAEKJENF; // 0x20
-		::System::Collections::Generic::List_1<::System::UInt32>* CFCEACHEPAB; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* CFCEACHEPAB; // 0x20
+		::AkExternalSourceInfoArray* NDKDBKAFMHC; // 0x28
 		::System::Action_1<::System::UInt32>* CDFGEAMONEC; // 0x30
-		::AkExternalSourceInfoArray* NDKDBKAFMHC; // 0x38
-		::System::Single IFEPJHGNCOI; // 0x40
+		::System::String* DHMDAEKJENF; // 0x38
+		::System::Int32 HKNMKHECCAB; // 0x40
 		::AkCallbackType OKPJPLHOOOL; // 0x44
 		::System::UInt32 JGGDKOCIEGH; // 0x48
-		::System::Int32 HKNMKHECCAB; // 0x4C
+		::System::Single IFEPJHGNCOI; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCOONILMDAC_CTOR_OFFSET))(this);

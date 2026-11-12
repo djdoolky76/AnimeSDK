@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EInflatableFighterSide_TypeDefinitionIndex = 68674;
+	inline static constexpr unsigned int EInflatableFighterSide_TypeDefinitionIndex = 70626;
 
 	enum class EInflatableFighterSide : ::System::Int32
 	{

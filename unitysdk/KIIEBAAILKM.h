@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapBornPoint; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KIIEBAAILKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB430640)
-#define KIIEBAAILKM_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB430660)
+#define KIIEBAAILKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCC6A40)
+#define KIIEBAAILKM_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBCC6A60)
 
-inline static constexpr unsigned int KIIEBAAILKM_TypeDefinitionIndex = 53809;
+inline static constexpr unsigned int KIIEBAAILKM_TypeDefinitionIndex = 54973;
 
 	class KIIEBAAILKM
 	{

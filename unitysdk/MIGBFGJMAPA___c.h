@@ -4,18 +4,18 @@
 class MIGBFGJMAPA;
 namespace System { class Object; }
 
-#define MIGBFGJMAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA3B6F0)
-#define MIGBFGJMAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3B730)
-#define MIGBFGJMAPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA3B740)
+#define MIGBFGJMAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD8D210)
+#define MIGBFGJMAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8D250)
+#define MIGBFGJMAPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD8D260)
 
-inline static constexpr unsigned int MIGBFGJMAPA___c_TypeDefinitionIndex = 28222;
+inline static constexpr unsigned int MIGBFGJMAPA___c_TypeDefinitionIndex = 28812;
 
 	class MIGBFGJMAPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52B20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59010);
 		}
 
 		static ::System::Void _cctor()

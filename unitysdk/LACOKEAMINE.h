@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DetachAvatarChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LACOKEAMINE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DAE40)
-#define LACOKEAMINE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5DAE70)
+#define LACOKEAMINE_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6CA50)
+#define LACOKEAMINE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE6CA80)
 
-inline static constexpr unsigned int LACOKEAMINE_TypeDefinitionIndex = 54839;
+inline static constexpr unsigned int LACOKEAMINE_TypeDefinitionIndex = 56009;
 
 	class LACOKEAMINE
 	{

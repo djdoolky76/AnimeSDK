@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMIHMGNLBPN.h"
 
-#define DAIFGDAINAL_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC38D0)
-#define DAIFGDAINAL_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xDFC3750)
+#define DAIFGDAINAL_CTOR_OFFSET UNITYSDK_OFFSET(0xE926F50)
+#define DAIFGDAINAL_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xE926DD0)
 
-inline static constexpr unsigned int DAIFGDAINAL_TypeDefinitionIndex = 66524;
+inline static constexpr unsigned int DAIFGDAINAL_TypeDefinitionIndex = 68460;
 
 	class DAIFGDAINAL : public ::FMIHMGNLBPN
 	{

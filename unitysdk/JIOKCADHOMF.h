@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class UIDragSource; }
 
-#define JIOKCADHOMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FFB30)
-#define JIOKCADHOMF_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0xB1FFB20)
+#define JIOKCADHOMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBA218A0)
+#define JIOKCADHOMF_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0xBA21890)
 
-inline static constexpr unsigned int JIOKCADHOMF_TypeDefinitionIndex = 73063;
+inline static constexpr unsigned int JIOKCADHOMF_TypeDefinitionIndex = 75177;
 
 	class JIOKCADHOMF : public ::System::Object
 	{

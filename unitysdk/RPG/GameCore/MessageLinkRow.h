@@ -7,22 +7,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MessageLinkRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGELINKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87D030)
-#define RPG_GAMECORE_MESSAGELINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D87C8F0)
+#define RPG_GAMECORE_MESSAGELINKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA97650)
+#define RPG_GAMECORE_MESSAGELINKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA96F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageLinkRow_TypeDefinitionIndex = 14471;
+	inline static constexpr unsigned int MessageLinkRow_TypeDefinitionIndex = 14626;
 
 	class MessageLinkRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::RPG::GameCore::MessageLinkType Type; // 0x18
-		::System::Boolean OnceOnly; // 0x1C
-		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID Title; // 0x20
-		::System::UInt32 ID; // 0x30
+		::RPG::Client::TextID Title; // 0x18
+		::RPG::GameCore::MessageLinkType Type; // 0x28
+		::System::UInt32 ID; // 0x2C
+		::System::Boolean OnceOnly; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MESSAGELINKROW_CTOR_OFFSET))(this);

@@ -12,12 +12,12 @@ namespace System::Diagnostics::Tracing { class EventSource; }
 namespace System::Diagnostics::Tracing { class EventSourceCreatedEventArgs; }
 namespace System::Diagnostics::Tracing { class EventWrittenEventArgs; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ADDEVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x1C1DB8D0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1DC690)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_DISPOSEONSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1C1DC2F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_GET_EVENTLISTENERSLOCK_OFFSET UNITYSDK_OFFSET(0x1C1DBFE0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTSOURCECREATED_OFFSET UNITYSDK_OFFSET(0x1C1DB7F0)
-#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTWRITTEN_OFFSET UNITYSDK_OFFSET(0x1C1DB8B0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ADDEVENTSOURCE_OFFSET UNITYSDK_OFFSET(0x1D362600)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3633C0)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_DISPOSEONSHUTDOWN_OFFSET UNITYSDK_OFFSET(0x1D363020)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_GET_EVENTLISTENERSLOCK_OFFSET UNITYSDK_OFFSET(0x1D362D10)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTSOURCECREATED_OFFSET UNITYSDK_OFFSET(0x1D362520)
+#define SYSTEM_DIAGNOSTICS_TRACING_EVENTLISTENER_ONEVENTWRITTEN_OFFSET UNITYSDK_OFFSET(0x1D3625E0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -30,29 +30,29 @@ namespace System::Diagnostics::Tracing
 		::System::EventHandler_1<::System::Diagnostics::Tracing::EventSourceCreatedEventArgs*>* _EventSourceCreated; // 0x18
 		::System::Diagnostics::Tracing::EventListener* m_Next; // 0x20
 		::System::Diagnostics::Tracing::ActivityFilter* m_activityFilter; // 0x28
-		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_s_EventSources()
-		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x12170);
-		}
-
 		static ::System::Diagnostics::Tracing::EventListener** StaticGet_s_Listeners()
 		{
-			return (::System::Diagnostics::Tracing::EventListener**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x12178);
+			return (::System::Diagnostics::Tracing::EventListener**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x11390);
 		}
 
 		static ::System::Object** StaticGet_s_EventSourceCreatedLock()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x12180);
+			return (::System::Object**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x11398);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_s_EventSources()
+		{
+			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x113A0);
 		}
 
 		static ::System::Boolean* StaticGet_s_EventSourceShutdownRegistered()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x3DE0);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x38C0);
 		}
 
 		static ::System::Boolean* StaticGet_s_CreatingListener()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x3DE1);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics.Tracing", "EventListener")->GetStaticField(0x38C1);
 		}
 
 		static ::System::Void _cctor()

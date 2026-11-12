@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlInputModule_Button_TypeDefinitionIndex = 40854;
+	inline static constexpr unsigned int InControlInputModule_Button_TypeDefinitionIndex = 41829;
 
 	enum class InControlInputModule_Button : ::System::Int32
 	{

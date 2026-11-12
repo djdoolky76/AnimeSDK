@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ClosePage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BLNOOFPHDBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7EDE0)
-#define BLNOOFPHDBD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA7EDF0)
-#define BLNOOFPHDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA7EE30)
-#define BLNOOFPHDBD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA7F120)
-#define BLNOOFPHDBD_TICK_OFFSET UNITYSDK_OFFSET(0xBA7F170)
+#define BLNOOFPHDBD_CTOR_OFFSET UNITYSDK_OFFSET(0xC410FF0)
+#define BLNOOFPHDBD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC411000)
+#define BLNOOFPHDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC411040)
+#define BLNOOFPHDBD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC411330)
+#define BLNOOFPHDBD_TICK_OFFSET UNITYSDK_OFFSET(0xC411380)
 
-inline static constexpr unsigned int BLNOOFPHDBD_TypeDefinitionIndex = 56352;
+inline static constexpr unsigned int BLNOOFPHDBD_TypeDefinitionIndex = 57566;
 
 	class BLNOOFPHDBD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ClosePage* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ClosePage* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ClosePage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ClosePage*))((::PBYTE)hIl2Cpp + BLNOOFPHDBD_CTOR_OFFSET))(this, a1, a2);

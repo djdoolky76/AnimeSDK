@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateParentalConsentSentDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE38480)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BE38700)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC0940)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEPARENTALCONSENTSENTDIALOG___C__DISPLAYCLASS44_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CFC0BC0)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateParentalConsentSentDialog___c__DisplayClass44_0_TypeDefinitionIndex = 9045;
+	inline static constexpr unsigned int ConsoleAgeGateParentalConsentSentDialog___c__DisplayClass44_0_TypeDefinitionIndex = 9054;
 
 	class ConsoleAgeGateParentalConsentSentDialog___c__DisplayClass44_0 : public ::System::Object
 	{

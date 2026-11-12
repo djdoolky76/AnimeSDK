@@ -11,24 +11,24 @@ namespace RPG::GameCore { class ChimeraDuelNodeContainer; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OHOLPLFAOLF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBE75CF0)
-#define OHOLPLFAOLF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE75710)
-#define OHOLPLFAOLF_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBE758B0)
-#define OHOLPLFAOLF_GET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xBE756F0)
-#define OHOLPLFAOLF_HMIHOMIAOCB_OFFSET UNITYSDK_OFFSET(0xBE75750)
-#define OHOLPLFAOLF_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0xBE757E0)
-#define OHOLPLFAOLF_SET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xBE75700)
-#define OHOLPLFAOLF_TICK_OFFSET UNITYSDK_OFFSET(0xBE75C80)
+#define OHOLPLFAOLF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xC730BB0)
+#define OHOLPLFAOLF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7305D0)
+#define OHOLPLFAOLF_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC730770)
+#define OHOLPLFAOLF_GET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xC7305B0)
+#define OHOLPLFAOLF_HMIHOMIAOCB_OFFSET UNITYSDK_OFFSET(0xC730610)
+#define OHOLPLFAOLF_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0xC7306A0)
+#define OHOLPLFAOLF_SET_COMMANDS_OFFSET UNITYSDK_OFFSET(0xC7305C0)
+#define OHOLPLFAOLF_TICK_OFFSET UNITYSDK_OFFSET(0xC730B40)
 
-inline static constexpr unsigned int OHOLPLFAOLF_TypeDefinitionIndex = 77647;
+inline static constexpr unsigned int OHOLPLFAOLF_TypeDefinitionIndex = 80382;
 
 	class OHOLPLFAOLF : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* _Commands_k__BackingField; // 0x10
-		::AFNDGNFOAKC* HFOFIODMFGB; // 0x18
-		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* ICMGDNGCFAA; // 0x20
-		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CMOLKFPJDLE; // 0x28
+		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* ICMGDNGCFAA; // 0x10
+		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* CMOLKFPJDLE; // 0x18
+		::AFNDGNFOAKC* HFOFIODMFGB; // 0x20
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* _Commands_k__BackingField; // 0x28
 		// static const ::System::String* IBLNAGJPJHJ; // 0x0
 		::System::Void _ctor(::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* a1, ::KAKADGHNMFK* a2, ::KAKADGHNMFK* a3, ::BFMHFBHIAAL* a4)
 		{

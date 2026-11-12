@@ -6,11 +6,11 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class LittleGameAbilityTargetSelectorMissleTargetConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define FBIOFCIIBIC_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x156A12F0)
-#define FBIOFCIIBIC_CTOR_OFFSET UNITYSDK_OFFSET(0x156A1470)
-#define FBIOFCIIBIC_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0x156A13B0)
+#define FBIOFCIIBIC_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x165B8FB0)
+#define FBIOFCIIBIC_CTOR_OFFSET UNITYSDK_OFFSET(0x165B9130)
+#define FBIOFCIIBIC_HPMHPJIJAPB_OFFSET UNITYSDK_OFFSET(0x165B9070)
 
-inline static constexpr unsigned int FBIOFCIIBIC_TypeDefinitionIndex = 77386;
+inline static constexpr unsigned int FBIOFCIIBIC_TypeDefinitionIndex = 79720;
 
 	class FBIOFCIIBIC : public ::System::Object
 	{

@@ -7,32 +7,32 @@ namespace RPG::GameCore { class BGCurveWithDetectProjectileData; }
 namespace RPG::GameCore { class MonoProjectileBGCurve; }
 namespace UnityEngine { class Collider; }
 
-#define INLDDCDNBLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164F5850)
-#define INLDDCDNBLJ_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0x164F62D0)
-#define INLDDCDNBLJ_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0x164F59E0)
-#define INLDDCDNBLJ_LPOIOGGOBFI_OFFSET UNITYSDK_OFFSET(0x164F5EC0)
-#define INLDDCDNBLJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x164F5970)
-#define INLDDCDNBLJ_NGJMGGPIOIJ_OFFSET UNITYSDK_OFFSET(0x164F6970)
-#define INLDDCDNBLJ_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0x164F6080)
-#define INLDDCDNBLJ_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x164F61E0)
+#define INLDDCDNBLJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB826910)
+#define INLDDCDNBLJ_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0xB827380)
+#define INLDDCDNBLJ_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0xB826AA0)
+#define INLDDCDNBLJ_LPOIOGGOBFI_OFFSET UNITYSDK_OFFSET(0xB826F80)
+#define INLDDCDNBLJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB826A30)
+#define INLDDCDNBLJ_NGJMGGPIOIJ_OFFSET UNITYSDK_OFFSET(0xB827A20)
+#define INLDDCDNBLJ_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0xB827130)
+#define INLDDCDNBLJ_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xB827290)
 
-inline static constexpr unsigned int INLDDCDNBLJ_TypeDefinitionIndex = 54734;
+inline static constexpr unsigned int INLDDCDNBLJ_TypeDefinitionIndex = 55901;
 
 	class INLDDCDNBLJ : public ::GGJEMEHMBNL
 	{
 	public:
 		::RPG::GameCore::BGCurveWithDetectProjectileData* FPGPHIEOMFL; // 0x48
-		::RPG::GameCore::MonoProjectileBGCurve* HBHMBJKBCMN; // 0x50
-		::UnityEngine::Collider* GEDMHBDAPGC; // 0x58
-		::UnityEngine::Vector3 MMMJAGICBDK; // 0x60
-		::UnityEngine::Vector3 CLIOGBBJILH; // 0x6C
-		::System::Single FLBLLMPABOJ; // 0x78
-		::UnityEngine::Vector3 JEKJEFELGLF; // 0x7C
-		::System::Boolean HOAGFGHBLJD; // 0x88
-		::System::Boolean MDMAEPBKKEF; // 0x89
-		::System::Boolean HGHPAOHCIAN; // 0x8A
+		::UnityEngine::Collider* GEDMHBDAPGC; // 0x50
+		::RPG::GameCore::MonoProjectileBGCurve* HBHMBJKBCMN; // 0x58
+		::System::Single NKOAMJFKKLH; // 0x60
+		::System::Single FLBLLMPABOJ; // 0x64
+		::System::Boolean HOAGFGHBLJD; // 0x68
+		::System::Boolean HGHPAOHCIAN; // 0x69
+		::System::Boolean MDMAEPBKKEF; // 0x6A
 		::System::Byte _padding0[0x1];
-		::System::Single NKOAMJFKKLH; // 0x8C
+		::UnityEngine::Vector3 JEKJEFELGLF; // 0x6C
+		::UnityEngine::Vector3 CLIOGBBJILH; // 0x78
+		::UnityEngine::Vector3 MMMJAGICBDK; // 0x84
 		::System::Void _ctor(::NAOKFLDEDBJ* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NAOKFLDEDBJ*))((::PBYTE)hIl2Cpp + INLDDCDNBLJ_CTOR_OFFSET))(this, a1);

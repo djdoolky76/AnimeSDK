@@ -22,14 +22,14 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_PROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D946B70)
-#define RPG_GAMECORE_PROPCONFIG_HMDJDJIDNGB_OFFSET UNITYSDK_OFFSET(0x1D945E00)
-#define RPG_GAMECORE_PROPCONFIG_KLJJFMKJOFE_OFFSET UNITYSDK_OFFSET(0x1D945DE0)
-#define RPG_GAMECORE_PROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9460D0)
+#define RPG_GAMECORE_PROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5F820)
+#define RPG_GAMECORE_PROPCONFIG_HMDJDJIDNGB_OFFSET UNITYSDK_OFFSET(0x1EB5EB40)
+#define RPG_GAMECORE_PROPCONFIG_KLJJFMKJOFE_OFFSET UNITYSDK_OFFSET(0x1EB5EB20)
+#define RPG_GAMECORE_PROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB5EE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 15475;
+	inline static constexpr unsigned int PropConfig_TypeDefinitionIndex = 15633;
 
 	class PropConfig : public ::RPG::GameCore::JsonConfig
 	{

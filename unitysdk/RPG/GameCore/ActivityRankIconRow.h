@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRankIconRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRANKICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37C500)
-#define RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D37BE60)
+#define RPG_GAMECORE_ACTIVITYRANKICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E58B760)
+#define RPG_GAMECORE_ACTIVITYRANKICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E58B0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRankIconRow_TypeDefinitionIndex = 11211;
+	inline static constexpr unsigned int ActivityRankIconRow_TypeDefinitionIndex = 11262;
 
 	class ActivityRankIconRow : public ::System::Object
 	{

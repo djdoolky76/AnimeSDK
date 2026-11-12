@@ -5,34 +5,33 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define JKJAAHPMPIN_CTOR_OFFSET UNITYSDK_OFFSET(0xB21F400)
-#define JKJAAHPMPIN_DMPBDGEBGCH_OFFSET UNITYSDK_OFFSET(0xB21F2D0)
-#define JKJAAHPMPIN_FKJCPLIBJJN_OFFSET UNITYSDK_OFFSET(0xB21EF00)
-#define JKJAAHPMPIN_GET_ID_OFFSET UNITYSDK_OFFSET(0xB21EEE0)
-#define JKJAAHPMPIN_IOBJFEJFLJP_OFFSET UNITYSDK_OFFSET(0xB21EFD0)
-#define JKJAAHPMPIN_JIADLIAHFNI_OFFSET UNITYSDK_OFFSET(0xB21EF70)
-#define JKJAAHPMPIN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB21F250)
-#define JKJAAHPMPIN_SET_ID_OFFSET UNITYSDK_OFFSET(0xB21EEF0)
+#define JKJAAHPMPIN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA47310)
+#define JKJAAHPMPIN_DMPBDGEBGCH_OFFSET UNITYSDK_OFFSET(0xBA471E0)
+#define JKJAAHPMPIN_FKJCPLIBJJN_OFFSET UNITYSDK_OFFSET(0xBA46E30)
+#define JKJAAHPMPIN_GET_ID_OFFSET UNITYSDK_OFFSET(0xBA46E10)
+#define JKJAAHPMPIN_IOBJFEJFLJP_OFFSET UNITYSDK_OFFSET(0xBA46F00)
+#define JKJAAHPMPIN_JIADLIAHFNI_OFFSET UNITYSDK_OFFSET(0xBA46EA0)
+#define JKJAAHPMPIN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBA47170)
+#define JKJAAHPMPIN_SET_ID_OFFSET UNITYSDK_OFFSET(0xBA46E20)
 
-inline static constexpr unsigned int JKJAAHPMPIN_TypeDefinitionIndex = 57012;
+inline static constexpr unsigned int JKJAAHPMPIN_TypeDefinitionIndex = 58238;
 
 	class JKJAAHPMPIN : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* HNAFDCODNGN; // 0x10
-		::System::Single CDKHGBOPKDM; // 0x18
-		::System::Single GEJKDKGKFPK; // 0x1C
-		::System::Single KNCNBOIDKLD; // 0x20
-		::UnityEngine::Vector3 AKEGBNBJKKM; // 0x24
-		::System::Boolean CJKOLDONNCL; // 0x30
-		::System::Boolean BJBBGPNPDNM; // 0x31
-		::System::Boolean DMIBLDMPCMH; // 0x32
-		::System::Boolean JDIALKFNJDP; // 0x33
-		::System::Boolean HKBAKDEIEHK; // 0x34
-		::System::Byte _padding0[0x3];
-		::UnityEngine::Quaternion NGEJDEFDOOP; // 0x38
-		::System::Single MGIAJMOKOCC; // 0x48
-		::System::UInt32 _ID_k__BackingField; // 0x4C
+		::UnityEngine::Quaternion NGEJDEFDOOP; // 0x18
+		::UnityEngine::Vector3 AKEGBNBJKKM; // 0x28
+		::System::UInt32 _ID_k__BackingField; // 0x34
+		::System::Single CDKHGBOPKDM; // 0x38
+		::System::Single GEJKDKGKFPK; // 0x3C
+		::System::Single KNCNBOIDKLD; // 0x40
+		::System::Single MGIAJMOKOCC; // 0x44
+		::System::Boolean CJKOLDONNCL; // 0x48
+		::System::Boolean BJBBGPNPDNM; // 0x49
+		::System::Boolean HKBAKDEIEHK; // 0x4A
+		::System::Boolean DMIBLDMPCMH; // 0x4B
+		::System::Boolean JDIALKFNJDP; // 0x4C
 		// static const ::System::Object OFLDDKENMCE; // 0x0
 		// static const ::System::Object ICMKFFBMCJC; // 0x0
 		::System::Void _ctor()

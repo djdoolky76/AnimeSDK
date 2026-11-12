@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_ROGUEUTILS___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE061A40)
-#define RPG_CLIENT_ROGUEUTILS___C__DISPLAYCLASS32_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xE061CB0)
+#define RPG_CLIENT_ROGUEUTILS___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEACBEF0)
+#define RPG_CLIENT_ROGUEUTILS___C__DISPLAYCLASS32_0__TELEPORTTOENTRANCE_B__0_OFFSET UNITYSDK_OFFSET(0xEACC150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueUtils___c__DisplayClass32_0_TypeDefinitionIndex = 67478;
+	inline static constexpr unsigned int RogueUtils___c__DisplayClass32_0_TypeDefinitionIndex = 69422;
 
 	class RogueUtils___c__DisplayClass32_0 : public ::System::Object
 	{

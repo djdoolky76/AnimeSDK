@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Exporter
 {
-	inline static constexpr unsigned int AlembicExporterAnalytics_AlembicExporterAnalyticsEvent_TypeDefinitionIndex = 45891;
+	inline static constexpr unsigned int AlembicExporterAnalytics_AlembicExporterAnalyticsEvent_TypeDefinitionIndex = 46920;
 
 	struct alignas(4) AlembicExporterAnalytics_AlembicExporterAnalyticsEvent
 	{

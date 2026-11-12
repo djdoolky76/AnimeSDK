@@ -3,8 +3,8 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define INIPARSEREX_CODEPARSEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C6590)
-#define INIPARSEREX_CODEPARSEREXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1F3C6600)
+#define INIPARSEREX_CODEPARSEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x20677430)
+#define INIPARSEREX_CODEPARSEREXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x206774A0)
 
 namespace IniParserEx
 {
@@ -13,8 +13,8 @@ namespace IniParserEx
 	class CodeParserException : public ::System::Exception
 	{
 	public:
-		::System::String* ExceptionInfo; // 0x88
-		::System::String* Tag; // 0x90
+		::System::String* Tag; // 0x88
+		::System::String* ExceptionInfo; // 0x90
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + INIPARSEREX_CODEPARSEREXCEPTION_CTOR_OFFSET))(this, a1, a2);

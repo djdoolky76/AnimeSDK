@@ -4,10 +4,10 @@
 class MMPOBKCOIGH;
 namespace RPG::Client { class AvatarOutfit; }
 
-#define BIHJIOKBACN_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A8780)
-#define BIHJIOKBACN_IAJBHGAOPDG_OFFSET UNITYSDK_OFFSET(0xB4A8730)
+#define BIHJIOKBACN_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3B890)
+#define BIHJIOKBACN_IAJBHGAOPDG_OFFSET UNITYSDK_OFFSET(0xBE3B840)
 
-inline static constexpr unsigned int BIHJIOKBACN_TypeDefinitionIndex = 62678;
+inline static constexpr unsigned int BIHJIOKBACN_TypeDefinitionIndex = 64112;
 
 	class BIHJIOKBACN : public ::System::Object
 	{

@@ -6,38 +6,38 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EOPFDKJOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x155CD4E0)
-#define EOPFDKJOBIO_GDPOEBPJGED_OFFSET UNITYSDK_OFFSET(0x155CD6C0)
-#define EOPFDKJOBIO_GET_DESC_OFFSET UNITYSDK_OFFSET(0x155CD610)
-#define EOPFDKJOBIO_GET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x155CD670)
-#define EOPFDKJOBIO_GET_ID_OFFSET UNITYSDK_OFFSET(0x155CD5E0)
-#define EOPFDKJOBIO_GET_MASTERCARDIDS_OFFSET UNITYSDK_OFFSET(0x155CD690)
-#define EOPFDKJOBIO_GET_MIDDLEDESC_OFFSET UNITYSDK_OFFSET(0x155CD650)
-#define EOPFDKJOBIO_GET_NEUTRALCARDIDS_OFFSET UNITYSDK_OFFSET(0x155CD6B0)
-#define EOPFDKJOBIO_GET_OWNERSNAME_OFFSET UNITYSDK_OFFSET(0x155CD630)
-#define EOPFDKJOBIO_GET_SERVANTCARDIDS_OFFSET UNITYSDK_OFFSET(0x155CD6A0)
-#define EOPFDKJOBIO_GET_SERVANTCARDOWNERTYPE_OFFSET UNITYSDK_OFFSET(0x155CD5F0)
-#define EOPFDKJOBIO_SET_DESC_OFFSET UNITYSDK_OFFSET(0x155CD620)
-#define EOPFDKJOBIO_SET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x155CD680)
-#define EOPFDKJOBIO_SET_MIDDLEDESC_OFFSET UNITYSDK_OFFSET(0x155CD660)
-#define EOPFDKJOBIO_SET_OWNERSNAME_OFFSET UNITYSDK_OFFSET(0x155CD640)
-#define EOPFDKJOBIO_SET_SERVANTCARDOWNERTYPE_OFFSET UNITYSDK_OFFSET(0x155CD600)
+#define EOPFDKJOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x164DFA10)
+#define EOPFDKJOBIO_GDPOEBPJGED_OFFSET UNITYSDK_OFFSET(0x164DFBF0)
+#define EOPFDKJOBIO_GET_DESC_OFFSET UNITYSDK_OFFSET(0x164DFB40)
+#define EOPFDKJOBIO_GET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x164DFBA0)
+#define EOPFDKJOBIO_GET_ID_OFFSET UNITYSDK_OFFSET(0x164DFB10)
+#define EOPFDKJOBIO_GET_MASTERCARDIDS_OFFSET UNITYSDK_OFFSET(0x164DFBC0)
+#define EOPFDKJOBIO_GET_MIDDLEDESC_OFFSET UNITYSDK_OFFSET(0x164DFB80)
+#define EOPFDKJOBIO_GET_NEUTRALCARDIDS_OFFSET UNITYSDK_OFFSET(0x164DFBE0)
+#define EOPFDKJOBIO_GET_OWNERSNAME_OFFSET UNITYSDK_OFFSET(0x164DFB60)
+#define EOPFDKJOBIO_GET_SERVANTCARDIDS_OFFSET UNITYSDK_OFFSET(0x164DFBD0)
+#define EOPFDKJOBIO_GET_SERVANTCARDOWNERTYPE_OFFSET UNITYSDK_OFFSET(0x164DFB20)
+#define EOPFDKJOBIO_SET_DESC_OFFSET UNITYSDK_OFFSET(0x164DFB50)
+#define EOPFDKJOBIO_SET_GUIDEID_OFFSET UNITYSDK_OFFSET(0x164DFBB0)
+#define EOPFDKJOBIO_SET_MIDDLEDESC_OFFSET UNITYSDK_OFFSET(0x164DFB90)
+#define EOPFDKJOBIO_SET_OWNERSNAME_OFFSET UNITYSDK_OFFSET(0x164DFB70)
+#define EOPFDKJOBIO_SET_SERVANTCARDOWNERTYPE_OFFSET UNITYSDK_OFFSET(0x164DFB30)
 
-inline static constexpr unsigned int EOPFDKJOBIO_TypeDefinitionIndex = 81081;
+inline static constexpr unsigned int EOPFDKJOBIO_TypeDefinitionIndex = 83861;
 
 	class EOPFDKJOBIO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _ServantCardIDs_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _MasterCardIDs_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* _NeutralCardIDs_k__BackingField; // 0x20
-		::RPG::Client::TextID _OwnersName_k__BackingField; // 0x28
-		::System::UInt32 _GuideID_k__BackingField; // 0x38
-		::RPG::GameCore::FateRinHouguOwnerType _ServantCardOwnerType_k__BackingField; // 0x3C
-		::System::UInt32 _ID_k__BackingField; // 0x40
+		::System::Collections::Generic::List_1<::System::UInt32>* _NeutralCardIDs_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _ServantCardIDs_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _MasterCardIDs_k__BackingField; // 0x20
+		::System::UInt32 _ID_k__BackingField; // 0x28
+		::System::UInt32 _GuideID_k__BackingField; // 0x2C
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x30
+		::RPG::Client::TextID _OwnersName_k__BackingField; // 0x40
+		::RPG::GameCore::FateRinHouguOwnerType _ServantCardOwnerType_k__BackingField; // 0x50
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _MiddleDesc_k__BackingField; // 0x48
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x58
+		::RPG::Client::TextID _MiddleDesc_k__BackingField; // 0x58
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EOPFDKJOBIO_CTOR_OFFSET))(this, a1);

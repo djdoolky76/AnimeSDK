@@ -8,29 +8,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PCFCBGKNPNL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFFEF00)
-#define PCFCBGKNPNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBFFEF40)
-#define PCFCBGKNPNL___C__CREATEPREVIEWCAR_B__3_0_OFFSET UNITYSDK_OFFSET(0xBFFEF50)
-#define PCFCBGKNPNL___C__CREATEPREVIEWCAR_B__3_1_OFFSET UNITYSDK_OFFSET(0xBFFEF60)
+#define PCFCBGKNPNL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC903380)
+#define PCFCBGKNPNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9033C0)
+#define PCFCBGKNPNL___C__CREATEPREVIEWCAR_B__3_0_OFFSET UNITYSDK_OFFSET(0xC9033D0)
+#define PCFCBGKNPNL___C__CREATEPREVIEWCAR_B__3_1_OFFSET UNITYSDK_OFFSET(0xC9033E0)
 
-inline static constexpr unsigned int PCFCBGKNPNL___c_TypeDefinitionIndex = 81691;
+inline static constexpr unsigned int PCFCBGKNPNL___c_TypeDefinitionIndex = 84472;
 
 	class PCFCBGKNPNL___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>, ::RPG::GameCore::B51RacingPartType>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>, ::RPG::GameCore::B51RacingPartType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64E00);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64E08);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65D20);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64E10);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65D28);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>, ::RPG::GameCore::B51RacingPartType>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::B51RacingPartType, ::System::Collections::Generic::List_1<::KIIGKJKMCHP*>*>, ::RPG::GameCore::B51RacingPartType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65D30);
 		}
 
 		static ::System::Void _cctor()

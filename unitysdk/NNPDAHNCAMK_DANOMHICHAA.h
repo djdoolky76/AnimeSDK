@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define NNPDAHNCAMK_DANOMHICHAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCDEFD0)
+#define NNPDAHNCAMK_DANOMHICHAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC5CAC90)
 
-inline static constexpr unsigned int NNPDAHNCAMK_DANOMHICHAA_TypeDefinitionIndex = 59416;
+inline static constexpr unsigned int NNPDAHNCAMK_DANOMHICHAA_TypeDefinitionIndex = 60693;
 
 	class NNPDAHNCAMK_DANOMHICHAA : public ::System::Object
 	{

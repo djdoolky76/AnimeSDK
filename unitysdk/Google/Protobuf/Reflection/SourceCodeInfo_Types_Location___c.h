@@ -4,20 +4,20 @@
 namespace Google::Protobuf::Reflection { class SourceCodeInfo_Types_Location; }
 namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B89F330)
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B89F370)
-#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1B89F380)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA282E0)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA28320)
+#define GOOGLE_PROTOBUF_REFLECTION_SOURCECODEINFO_TYPES_LOCATION___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1CA28330)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int SourceCodeInfo_Types_Location___c_TypeDefinitionIndex = 5519;
+	inline static constexpr unsigned int SourceCodeInfo_Types_Location___c_TypeDefinitionIndex = 5524;
 
 	class SourceCodeInfo_Types_Location___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x18EC0);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x1FC40);
 		}
 
 		static ::System::Void _cctor()

@@ -8,101 +8,101 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define KFIKLIHGCCO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB3B7200)
-#define KFIKLIHGCCO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB3B7240)
-#define KFIKLIHGCCO___C__BUILDSURFELCLUSTERS_B__69_0_OFFSET UNITYSDK_OFFSET(0xB3B78E0)
-#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_0_OFFSET UNITYSDK_OFFSET(0xB3B7680)
-#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_1_OFFSET UNITYSDK_OFFSET(0xB3B7690)
-#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_2_OFFSET UNITYSDK_OFFSET(0xB3B77B0)
-#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_3_OFFSET UNITYSDK_OFFSET(0xB3B77C0)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATERAYS_B__56_0_OFFSET UNITYSDK_OFFSET(0xB3B7250)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATERAYS_B__56_1_OFFSET UNITYSDK_OFFSET(0xB3B7260)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELSAMPLES_B__57_0_OFFSET UNITYSDK_OFFSET(0xB3B7270)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELSAMPLES_B__57_1_OFFSET UNITYSDK_OFFSET(0xB3B7280)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_0_OFFSET UNITYSDK_OFFSET(0xB3B73A0)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_1_OFFSET UNITYSDK_OFFSET(0xB3B7400)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_2_OFFSET UNITYSDK_OFFSET(0xB3B7550)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_3_OFFSET UNITYSDK_OFFSET(0xB3B7560)
-#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_4_OFFSET UNITYSDK_OFFSET(0xB3B7540)
+#define KFIKLIHGCCO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC43EC0)
+#define KFIKLIHGCCO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC43F00)
+#define KFIKLIHGCCO___C__BUILDSURFELCLUSTERS_B__69_0_OFFSET UNITYSDK_OFFSET(0xBC445A0)
+#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_0_OFFSET UNITYSDK_OFFSET(0xBC44340)
+#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_1_OFFSET UNITYSDK_OFFSET(0xBC44350)
+#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_2_OFFSET UNITYSDK_OFFSET(0xBC44470)
+#define KFIKLIHGCCO___C__GENERATESURFELSFORDIRECTION_B__62_3_OFFSET UNITYSDK_OFFSET(0xBC44480)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATERAYS_B__56_0_OFFSET UNITYSDK_OFFSET(0xBC43F10)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATERAYS_B__56_1_OFFSET UNITYSDK_OFFSET(0xBC43F20)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELSAMPLES_B__57_0_OFFSET UNITYSDK_OFFSET(0xBC43F30)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELSAMPLES_B__57_1_OFFSET UNITYSDK_OFFSET(0xBC43F40)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_0_OFFSET UNITYSDK_OFFSET(0xBC44060)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_1_OFFSET UNITYSDK_OFFSET(0xBC440C0)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_2_OFFSET UNITYSDK_OFFSET(0xBC44210)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_3_OFFSET UNITYSDK_OFFSET(0xBC44220)
+#define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_4_OFFSET UNITYSDK_OFFSET(0xBC44200)
 
-inline static constexpr unsigned int KFIKLIHGCCO___c_TypeDefinitionIndex = 51774;
+inline static constexpr unsigned int KFIKLIHGCCO___c_TypeDefinitionIndex = 52860;
 
 	class KFIKLIHGCCO___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__62_3()
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__62_1()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49100);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__58_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49108);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__62_2()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49110);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Object*, ::System::Object*>*, ::System::Int32>** StaticGet___9__58_1()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Object*, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49118);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__62_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49120);
-		}
-
-		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__69_0()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49128);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49130);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__57_1()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49138);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35FF0);
 		}
 
 		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__58_3()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49140);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__57_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49148);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35FF8);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__56_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49150);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36000);
 		}
 
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__58_2()
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__62_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49158);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36008);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__57_1()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36010);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36018);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__62_2()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36020);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__57_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36028);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Object*, ::System::Object*>*, ::System::Int32>** StaticGet___9__58_1()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Object*, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36030);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__56_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49160);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36038);
+		}
+
+		static ::System::Func_2<::System::Boolean, ::System::Boolean>** StaticGet___9__69_0()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36040);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__58_2()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36048);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__62_3()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36050);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__58_4()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49168);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36058);
 		}
 
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__62_1()
+		static ::System::Func_2<::System::Object*, ::System::Object*>** StaticGet___9__58_0()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49170);
+			return (::System::Func_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36060);
 		}
 
 		static ::System::Void _cctor()

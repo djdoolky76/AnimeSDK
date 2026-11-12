@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int LogMessageType_TypeDefinitionIndex = 40832;
+	inline static constexpr unsigned int LogMessageType_TypeDefinitionIndex = 41807;
 
 	enum class LogMessageType : ::System::Int32
 	{

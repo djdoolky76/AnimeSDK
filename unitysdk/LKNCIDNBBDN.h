@@ -5,9 +5,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LKNCIDNBBDN_CTOR_OFFSET UNITYSDK_OFFSET(0xB75A2D0)
+#define LKNCIDNBBDN_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF9600)
 
-inline static constexpr unsigned int LKNCIDNBBDN_TypeDefinitionIndex = 72128;
+inline static constexpr unsigned int LKNCIDNBBDN_TypeDefinitionIndex = 74166;
 
 	class LKNCIDNBBDN : public ::System::Object
 	{

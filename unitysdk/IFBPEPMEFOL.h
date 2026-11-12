@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IFBPEPMEFOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C699E30)
+#define IFBPEPMEFOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D81B7E0)
 
-inline static constexpr unsigned int IFBPEPMEFOL_TypeDefinitionIndex = 36454;
+inline static constexpr unsigned int IFBPEPMEFOL_TypeDefinitionIndex = 37382;
 
 	class IFBPEPMEFOL : public ::System::Object
 	{

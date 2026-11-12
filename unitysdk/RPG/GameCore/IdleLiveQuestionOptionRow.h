@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveQuestionOptionRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77E550)
-#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77E2A0)
+#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E991C80)
+#define RPG_GAMECORE_IDLELIVEQUESTIONOPTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9919D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestionOptionRow_TypeDefinitionIndex = 11827;
+	inline static constexpr unsigned int IdleLiveQuestionOptionRow_TypeDefinitionIndex = 11884;
 
 	class IdleLiveQuestionOptionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* SpecialChatList; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* SpecialChatList; // 0x18
 		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x20
 		::System::Single GiftDelayTime; // 0x28
 		::RPG::GameCore::IdleLiveQuestionOptionType Type; // 0x2C

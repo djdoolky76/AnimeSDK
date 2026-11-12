@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define JGCJNMMCEHA_AJJMOIHDCAO_OFFSET UNITYSDK_OFFSET(0x10280)
-#define JGCJNMMCEHA_JDLKHAILEOF_OFFSET UNITYSDK_OFFSET(0x102D0)
+#define JGCJNMMCEHA_AJJMOIHDCAO_OFFSET UNITYSDK_OFFSET(0x13E90)
+#define JGCJNMMCEHA_JDLKHAILEOF_OFFSET UNITYSDK_OFFSET(0x13EE0)
 
-inline static constexpr unsigned int JGCJNMMCEHA_TypeDefinitionIndex = 53507;
+inline static constexpr unsigned int JGCJNMMCEHA_TypeDefinitionIndex = 54669;
 
 	struct alignas(4) JGCJNMMCEHA
 	{
@@ -16,9 +16,8 @@ inline static constexpr unsigned int JGCJNMMCEHA_TypeDefinitionIndex = 53507;
 		::System::UInt32 DCAJKDIBHHP; // 0x14
 		::UnityEngine::Vector3 OPMGDNNAEJF; // 0x18
 		::UnityEngine::Vector3 BNNOBAMFNCJ; // 0x24
-		::System::Boolean KNHPJEGFEPJ; // 0x30
-		::System::Boolean LKBKPEELELG; // 0x31
-		::System::Byte _padding0[0x2];
+		::System::Boolean LKBKPEELELG; // 0x30
+		::System::Byte _padding0[0x3];
 		::UnityEngine::Quaternion GMAGENDCBLH; // 0x34
 		::RPG::GameCore::CharacterMotionFlag FPHBEHJJBIA; // 0x44
 		::System::Boolean AJJMOIHDCAO()

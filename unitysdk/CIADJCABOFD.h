@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ILEMEHDHELP.h"
 
-#define CIADJCABOFD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF63C50)
+#define CIADJCABOFD_CTOR_OFFSET UNITYSDK_OFFSET(0xD8CC910)
 
-inline static constexpr unsigned int CIADJCABOFD_TypeDefinitionIndex = 65098;
+inline static constexpr unsigned int CIADJCABOFD_TypeDefinitionIndex = 66772;
 
 	class CIADJCABOFD : public ::ILEMEHDHELP
 	{

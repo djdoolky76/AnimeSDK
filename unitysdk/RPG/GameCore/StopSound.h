@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StopSound; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPSOUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB25E80)
-#define RPG_GAMECORE_STOPSOUND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB25E90)
-#define RPG_GAMECORE_STOPSOUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB25E40)
+#define RPG_GAMECORE_STOPSOUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED376B0)
+#define RPG_GAMECORE_STOPSOUND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED376C0)
+#define RPG_GAMECORE_STOPSOUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED37670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopSound_TypeDefinitionIndex = 20612;
+	inline static constexpr unsigned int StopSound_TypeDefinitionIndex = 20949;
 
 	class StopSound : public ::RPG::GameCore::TaskConfig
 	{

@@ -20,7 +20,7 @@ namespace UnityEngine { class Transform; }
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 46998;
+	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 48026;
 
 	struct alignas(4) Plane
 	{

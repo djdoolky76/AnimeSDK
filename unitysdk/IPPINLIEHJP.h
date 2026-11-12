@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerDeadHandler; }
 
-#define IPPINLIEHJP_CTOR_OFFSET UNITYSDK_OFFSET(0x16527340)
-#define IPPINLIEHJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16527370)
+#define IPPINLIEHJP_CTOR_OFFSET UNITYSDK_OFFSET(0xB85C2E0)
+#define IPPINLIEHJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB85C310)
 
-inline static constexpr unsigned int IPPINLIEHJP_TypeDefinitionIndex = 56466;
+inline static constexpr unsigned int IPPINLIEHJP_TypeDefinitionIndex = 57686;
 
 	class IPPINLIEHJP
 	{

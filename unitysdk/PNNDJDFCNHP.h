@@ -8,12 +8,12 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define PNNDJDFCNHP_CTOR_OFFSET UNITYSDK_OFFSET(0xC34FA70)
-#define PNNDJDFCNHP_GET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0xC34FCC0)
-#define PNNDJDFCNHP_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0xC34FB40)
-#define PNNDJDFCNHP_OCBLLILHAPG_OFFSET UNITYSDK_OFFSET(0xC34FAE0)
+#define PNNDJDFCNHP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC82960)
+#define PNNDJDFCNHP_GET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0xCC82BB0)
+#define PNNDJDFCNHP_GET_SKINIDS_OFFSET UNITYSDK_OFFSET(0xCC82A30)
+#define PNNDJDFCNHP_OCBLLILHAPG_OFFSET UNITYSDK_OFFSET(0xCC829D0)
 
-inline static constexpr unsigned int PNNDJDFCNHP_TypeDefinitionIndex = 81209;
+inline static constexpr unsigned int PNNDJDFCNHP_TypeDefinitionIndex = 83989;
 
 	class PNNDJDFCNHP : public ::System::Object
 	{

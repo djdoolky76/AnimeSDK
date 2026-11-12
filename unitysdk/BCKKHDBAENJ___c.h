@@ -5,29 +5,29 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BCKKHDBAENJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x162E1DF0)
-#define BCKKHDBAENJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x162E1E30)
-#define BCKKHDBAENJ___C__HASVALUE_B__1_0_OFFSET UNITYSDK_OFFSET(0x162E1E40)
-#define BCKKHDBAENJ___C__ISPOSITIVE_B__3_0_OFFSET UNITYSDK_OFFSET(0x162E1E70)
+#define BCKKHDBAENJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x170A7870)
+#define BCKKHDBAENJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x170A78B0)
+#define BCKKHDBAENJ___C__HASVALUE_B__1_0_OFFSET UNITYSDK_OFFSET(0x170A78C0)
+#define BCKKHDBAENJ___C__ISPOSITIVE_B__3_0_OFFSET UNITYSDK_OFFSET(0x170A78F0)
 
-inline static constexpr unsigned int BCKKHDBAENJ___c_TypeDefinitionIndex = 49979;
+inline static constexpr unsigned int BCKKHDBAENJ___c_TypeDefinitionIndex = 51027;
 
 	class BCKKHDBAENJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::TextID, ::System::Boolean>** StaticGet___9__1_0()
+		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::TextID, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D660);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x677B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D668);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x677B8);
 		}
 
-		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__3_0()
+		static ::System::Func_2<::RPG::Client::TextID, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D670);
+			return (::System::Func_2<::RPG::Client::TextID, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x677C0);
 		}
 
 		static ::System::Void _cctor()

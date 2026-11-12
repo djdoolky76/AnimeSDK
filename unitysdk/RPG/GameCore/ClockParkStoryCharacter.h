@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ClockParkStoryAnimState; }
 namespace RPG::GameCore { class ClockParkStoryCharacter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C41A0)
-#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C3FE0)
+#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D3F70)
+#define RPG_GAMECORE_CLOCKPARKSTORYCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7D3DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkStoryCharacter_TypeDefinitionIndex = 16030;
+	inline static constexpr unsigned int ClockParkStoryCharacter_TypeDefinitionIndex = 16188;
 
 	class ClockParkStoryCharacter : public ::RPG::GameCore::JsonConfig
 	{

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LOJDGEMICFP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D121990)
-#define LOJDGEMICFP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D121F60)
-#define LOJDGEMICFP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D121B00)
-#define LOJDGEMICFP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D121400)
-#define LOJDGEMICFP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D121690)
-#define LOJDGEMICFP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D121BA0)
-#define LOJDGEMICFP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D121BF0)
-#define LOJDGEMICFP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1219D0)
-#define LOJDGEMICFP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D121630)
-#define LOJDGEMICFP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D121800)
-#define LOJDGEMICFP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D121A60)
-#define LOJDGEMICFP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D121380)
+#define LOJDGEMICFP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E3209B0)
+#define LOJDGEMICFP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E320F80)
+#define LOJDGEMICFP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E320B20)
+#define LOJDGEMICFP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E320420)
+#define LOJDGEMICFP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E3206B0)
+#define LOJDGEMICFP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E320BC0)
+#define LOJDGEMICFP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E320C10)
+#define LOJDGEMICFP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E3209F0)
+#define LOJDGEMICFP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E320650)
+#define LOJDGEMICFP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E320820)
+#define LOJDGEMICFP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E320A80)
+#define LOJDGEMICFP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E3203A0)
 
-inline static constexpr unsigned int LOJDGEMICFP_TypeDefinitionIndex = 11832;
+inline static constexpr unsigned int LOJDGEMICFP_TypeDefinitionIndex = 11889;
 
 	class LOJDGEMICFP : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x45A60);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x36C50);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveQuestionTeamRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveQuestionTeamRow*>**)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x45A68);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveQuestionTeamRow*>**)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x36C58);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x45A70);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x36C60);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x10AD0);
+			return (::System::Boolean*)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0xBC10);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0x10AD1);
+			return (::System::Byte*)UnitySDK::FromName("", "LOJDGEMICFP")->GetStaticField(0xBC11);
 		}
 
 		static ::System::Void _cctor()

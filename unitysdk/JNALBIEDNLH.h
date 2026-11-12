@@ -5,17 +5,17 @@
 class CIIKBJFOKHL;
 namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 
-#define JNALBIEDNLH_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xB2748F0)
-#define JNALBIEDNLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB274900)
-#define JNALBIEDNLH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB274910)
+#define JNALBIEDNLH_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xBA9FCF0)
+#define JNALBIEDNLH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9FD00)
+#define JNALBIEDNLH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBA9FD10)
 
-inline static constexpr unsigned int JNALBIEDNLH_TypeDefinitionIndex = 77864;
+inline static constexpr unsigned int JNALBIEDNLH_TypeDefinitionIndex = 80599;
 
 	class JNALBIEDNLH : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig* IGHAHBNLIJA; // 0x10
-		::CIIKBJFOKHL* EEFMDEHLLFI; // 0x18
+		::CIIKBJFOKHL* EEFMDEHLLFI; // 0x10
+		::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig* IGHAHBNLIJA; // 0x18
 		::RPG::Client::LittleGame::ChenLing::ChenLingBattleAbilityNodeState DLNIGFGLPLJ; // 0x20
 		::System::Void _ctor(::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig* a1, ::CIIKBJFOKHL* a2)
 		{

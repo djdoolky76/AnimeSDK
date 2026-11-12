@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/AsyncOperation.h"
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C1A20)
-#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1F3C1A10)
+#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST_CTOR_OFFSET UNITYSDK_OFFSET(0x206728C0)
+#define UNITYENGINE_BINARYPREFABINSTANTIATEREQUEST_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x206728B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int BinaryPrefabInstantiateRequest_TypeDefinitionIndex = 5769;
+	inline static constexpr unsigned int BinaryPrefabInstantiateRequest_TypeDefinitionIndex = 5775;
 
 	class BinaryPrefabInstantiateRequest : public ::UnityEngine::AsyncOperation
 	{

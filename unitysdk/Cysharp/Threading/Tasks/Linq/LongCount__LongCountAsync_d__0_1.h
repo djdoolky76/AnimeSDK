@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int LongCount__LongCountAsync_d__0_1_TypeDefinitionIndex = 45416;
+	inline static constexpr unsigned int LongCount__LongCountAsync_d__0_1_TypeDefinitionIndex = 46445;
 
 	template <typename T>
 	struct alignas(8) LongCount__LongCountAsync_d__0_1

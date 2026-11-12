@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PIPELINECAMERAENGINE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB2D160)
-#define RPG_CLIENT_PIPELINECAMERAENGINE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2D190)
-#define RPG_CLIENT_PIPELINECAMERAENGINE___C___ONWORLDSHIFTING_B__56_0_OFFSET UNITYSDK_OFFSET(0xDB2D1A0)
+#define RPG_CLIENT_PIPELINECAMERAENGINE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE584390)
+#define RPG_CLIENT_PIPELINECAMERAENGINE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5843C0)
+#define RPG_CLIENT_PIPELINECAMERAENGINE___C___ONWORLDSHIFTING_B__56_0_OFFSET UNITYSDK_OFFSET(0xE5843D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PipelineCameraEngine___c_TypeDefinitionIndex = 69717;
+	inline static constexpr unsigned int PipelineCameraEngine___c_TypeDefinitionIndex = 71674;
 
 	class PipelineCameraEngine___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__56_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x211E0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x211E8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x304E0);
+		}
+
+		static ::System::Action** StaticGet___9__56_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x304E8);
 		}
 
 		static ::System::Void _cctor()

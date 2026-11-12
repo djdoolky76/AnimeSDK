@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ResidentEffectConfig; }
 namespace RPG::GameCore { class ResidentEffectConfigItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESIDENTEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98C9E0)
-#define RPG_GAMECORE_RESIDENTEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D98C850)
+#define RPG_GAMECORE_RESIDENTEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD5C50)
+#define RPG_GAMECORE_RESIDENTEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBD5AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResidentEffectConfig_TypeDefinitionIndex = 16536;
+	inline static constexpr unsigned int ResidentEffectConfig_TypeDefinitionIndex = 16702;
 
 	class ResidentEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

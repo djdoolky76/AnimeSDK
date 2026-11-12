@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MunicipalQualitySetting; }
 
-#define RPG_GAMECORE_MUNICIPALQUALITYSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C1EB0)
-#define RPG_GAMECORE_MUNICIPALQUALITYSETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C1CB0)
+#define RPG_GAMECORE_MUNICIPALQUALITYSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1EADBBD0)
+#define RPG_GAMECORE_MUNICIPALQUALITYSETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EADB9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalQualitySetting_TypeDefinitionIndex = 16918;
+	inline static constexpr unsigned int MunicipalQualitySetting_TypeDefinitionIndex = 17085;
 
 	class MunicipalQualitySetting : public ::RPG::GameCore::JsonConfig
 	{

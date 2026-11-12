@@ -34,12 +34,12 @@ namespace EzySlice { class IntersectionResult; }
 #define EZYSLICE_TRIANGLE_SETNORMAL_OFFSET UNITYSDK_OFFSET(0x20B0)
 #define EZYSLICE_TRIANGLE_SETTANGENT_OFFSET UNITYSDK_OFFSET(0x2180)
 #define EZYSLICE_TRIANGLE_SETUV_OFFSET UNITYSDK_OFFSET(0x2050)
-#define EZYSLICE_TRIANGLE_SIGNEDSQUARE_OFFSET UNITYSDK_OFFSET(0xAF29450)
+#define EZYSLICE_TRIANGLE_SIGNEDSQUARE_OFFSET UNITYSDK_OFFSET(0xB58A450)
 #define EZYSLICE_TRIANGLE_SPLIT_OFFSET UNITYSDK_OFFSET(0x2460)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 47001;
+	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 48029;
 
 	struct alignas(4) Triangle
 	{

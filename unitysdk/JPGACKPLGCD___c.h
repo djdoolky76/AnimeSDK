@@ -4,18 +4,18 @@
 class JPGACKPLGCD;
 namespace System { class Object; }
 
-#define JPGACKPLGCD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D2F30)
-#define JPGACKPLGCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D2F60)
-#define JPGACKPLGCD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7D2F70)
+#define JPGACKPLGCD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAE7260)
+#define JPGACKPLGCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAE7290)
+#define JPGACKPLGCD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FAE72A0)
 
-inline static constexpr unsigned int JPGACKPLGCD___c_TypeDefinitionIndex = 25361;
+inline static constexpr unsigned int JPGACKPLGCD___c_TypeDefinitionIndex = 25839;
 
 	class JPGACKPLGCD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAEA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x494D0);
 		}
 
 		static ::System::Void _cctor()

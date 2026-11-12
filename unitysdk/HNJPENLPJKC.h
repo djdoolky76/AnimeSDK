@@ -5,16 +5,16 @@ class FCOEMCEDLNL;
 class HNJPENLPJKC;
 namespace System { class String; }
 
-#define HNJPENLPJKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CECCFA0)
-#define HNJPENLPJKC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECCE20)
+#define HNJPENLPJKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0ADBB0)
+#define HNJPENLPJKC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0ADA30)
 
-inline static constexpr unsigned int HNJPENLPJKC_TypeDefinitionIndex = 12822;
+inline static constexpr unsigned int HNJPENLPJKC_TypeDefinitionIndex = 12894;
 
 	class HNJPENLPJKC : public ::System::Object
 	{
 	public:
-		::System::String* OLOIFNNLKJP; // 0x10
-		::System::String* DHMDAEKJENF; // 0x18
+		::System::String* DHMDAEKJENF; // 0x10
+		::System::String* OLOIFNNLKJP; // 0x18
 		::System::UInt32 PHFMCACHFIJ; // 0x20
 		::System::Void _ctor()
 		{

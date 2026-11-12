@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationSkillRow; }
 
-#define RPG_GAMECORE_ELATIONSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6338D0)
-#define RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D633250)
+#define RPG_GAMECORE_ELATIONSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8712A0)
+#define RPG_GAMECORE_ELATIONSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E870C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationSkillRow_TypeDefinitionIndex = 13219;
+	inline static constexpr unsigned int ElationSkillRow_TypeDefinitionIndex = 13293;
 
 	class ElationSkillRow : public ::System::Object
 	{

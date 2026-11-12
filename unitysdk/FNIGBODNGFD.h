@@ -4,16 +4,16 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define FNIGBODNGFD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA714E0)
-#define FNIGBODNGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71530)
+#define FNIGBODNGFD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC34E80)
+#define FNIGBODNGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC34ED0)
 
-inline static constexpr unsigned int FNIGBODNGFD_TypeDefinitionIndex = 42108;
+inline static constexpr unsigned int FNIGBODNGFD_TypeDefinitionIndex = 43083;
 
 	class FNIGBODNGFD : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* HFLDHJHJNCF; // 0x10
-		::System::String* FLCPMEIBBKI; // 0x18
+		::System::String* FLCPMEIBBKI; // 0x10
+		::UnityEngine::Transform* HFLDHJHJNCF; // 0x18
 		::System::Single KIPAGNCANAJ; // 0x20
 		::System::Int32 KLICCNFOKEO; // 0x24
 		::System::Void _ctor()

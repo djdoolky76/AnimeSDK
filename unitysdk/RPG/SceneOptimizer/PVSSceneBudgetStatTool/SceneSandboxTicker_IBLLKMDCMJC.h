@@ -4,7 +4,7 @@ namespace System { class Action; }
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
-	inline static constexpr unsigned int SceneSandboxTicker_IBLLKMDCMJC_TypeDefinitionIndex = 51792;
+	inline static constexpr unsigned int SceneSandboxTicker_IBLLKMDCMJC_TypeDefinitionIndex = 52878;
 
 	struct alignas(8) SceneSandboxTicker_IBLLKMDCMJC
 	{

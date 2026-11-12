@@ -4,18 +4,18 @@
 class PPNADCDDNNP;
 namespace System { class Object; }
 
-#define PPNADCDDNNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFDF7C0)
-#define PPNADCDDNNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFDF800)
-#define PPNADCDDNNP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFDF810)
+#define PPNADCDDNNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F290C10)
+#define PPNADCDDNNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F290C50)
+#define PPNADCDDNNP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F290C60)
 
-inline static constexpr unsigned int PPNADCDDNNP___c_TypeDefinitionIndex = 31218;
+inline static constexpr unsigned int PPNADCDDNNP___c_TypeDefinitionIndex = 32131;
 
 	class PPNADCDDNNP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43840);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49B80);
 		}
 
 		static ::System::Void _cctor()

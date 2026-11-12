@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByDynamicSkillButtonInputSlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLLJMACLEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1583F290)
-#define FLLJMACLEEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1583F2C0)
+#define FLLJMACLEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x167AECF0)
+#define FLLJMACLEEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x167AED20)
 
-inline static constexpr unsigned int FLLJMACLEEL_TypeDefinitionIndex = 54896;
+inline static constexpr unsigned int FLLJMACLEEL_TypeDefinitionIndex = 56067;
 
 	class FLLJMACLEEL
 	{

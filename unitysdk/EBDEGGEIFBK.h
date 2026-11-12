@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAdvCharacterResidentEffectVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBDEGGEIFBK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CECC40)
-#define EBDEGGEIFBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CECC70)
+#define EBDEGGEIFBK_CTOR_OFFSET UNITYSDK_OFFSET(0x13A9DCC0)
+#define EBDEGGEIFBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A9DCF0)
 
-inline static constexpr unsigned int EBDEGGEIFBK_TypeDefinitionIndex = 53218;
+inline static constexpr unsigned int EBDEGGEIFBK_TypeDefinitionIndex = 54380;
 
 	class EBDEGGEIFBK
 	{

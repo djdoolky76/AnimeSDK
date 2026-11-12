@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingMatchUIShowType_TypeDefinitionIndex = 81916;
+	inline static constexpr unsigned int B51RacingMatchUIShowType_TypeDefinitionIndex = 84697;
 
 	enum class B51RacingMatchUIShowType : ::System::Int32
 	{

@@ -7,10 +7,10 @@ class FCOEMCEDLNL;
 class MCMGOPIDDMJ;
 namespace System { class String; }
 
-#define MCMGOPIDDMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D13EC10)
-#define MCMGOPIDDMJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D13E8F0)
+#define MCMGOPIDDMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E33E570)
+#define MCMGOPIDDMJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E33E250)
 
-inline static constexpr unsigned int MCMGOPIDDMJ_TypeDefinitionIndex = 11498;
+inline static constexpr unsigned int MCMGOPIDDMJ_TypeDefinitionIndex = 11549;
 
 	class MCMGOPIDDMJ : public ::System::Object
 	{
@@ -21,8 +21,8 @@ inline static constexpr unsigned int MCMGOPIDDMJ_TypeDefinitionIndex = 11498;
 		::RPG::Client::TextID PMGABBELKNG; // 0x28
 		::System::UInt32 KJKMDFEJIJJ; // 0x38
 		::RPG::GameCore::FateClazzType BKKAOIBLCJG; // 0x3C
-		::System::UInt32 DOBKKDIECDO; // 0x40
-		::System::UInt32 EMFGEFNHOIB; // 0x44
+		::System::UInt32 EMFGEFNHOIB; // 0x40
+		::System::UInt32 DOBKKDIECDO; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MCMGOPIDDMJ_CTOR_OFFSET))(this);

@@ -5,20 +5,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define BKAKCBHPLAB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7AC280)
-#define BKAKCBHPLAB_CPCAFOACNJO_OFFSET UNITYSDK_OFFSET(0xB7ABD00)
-#define BKAKCBHPLAB_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ABBC0)
-#define BKAKCBHPLAB_GLDEHIOBKPB_OFFSET UNITYSDK_OFFSET(0xB7AC1B0)
-#define BKAKCBHPLAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7ABBF0)
+#define BKAKCBHPLAB_CCTOR_OFFSET UNITYSDK_OFFSET(0xC102370)
+#define BKAKCBHPLAB_CPCAFOACNJO_OFFSET UNITYSDK_OFFSET(0xC101DD0)
+#define BKAKCBHPLAB_CTOR_OFFSET UNITYSDK_OFFSET(0xC101C90)
+#define BKAKCBHPLAB_GLDEHIOBKPB_OFFSET UNITYSDK_OFFSET(0xC102280)
+#define BKAKCBHPLAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC101CC0)
 
-inline static constexpr unsigned int BKAKCBHPLAB_TypeDefinitionIndex = 53082;
+inline static constexpr unsigned int BKAKCBHPLAB_TypeDefinitionIndex = 54243;
 
 	class BKAKCBHPLAB
 	{
 	public:
 		static ::System::String** StaticGet_NGCPHLMENKB()
 		{
-			return (::System::String**)UnitySDK::FromName("", "BKAKCBHPLAB")->GetStaticField(0x6F620);
+			return (::System::String**)UnitySDK::FromName("", "BKAKCBHPLAB")->GetStaticField(0x6DB30);
 		}
 
 		// static const ::System::Object FHHOIOAFEIF; // 0x0

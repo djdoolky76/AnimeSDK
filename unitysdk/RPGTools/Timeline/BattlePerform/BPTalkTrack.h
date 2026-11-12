@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE8BADD0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BB2D0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKTRACK_OKMIOBDFONC_OFFSET UNITYSDK_OFFSET(0xE8BAF80)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xF394CF0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF3951F0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPTALKTRACK_OKMIOBDFONC_OFFSET UNITYSDK_OFFSET(0xF394EA0)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPTalkTrack_TypeDefinitionIndex = 48832;
+	inline static constexpr unsigned int BPTalkTrack_TypeDefinitionIndex = 49878;
 
 	class BPTalkTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

@@ -3,13 +3,13 @@
 #include "unitysdk/RPG/CustomRP/CustomVolumeComponent.h"
 namespace UnityEngine::Rendering { class FloatParameter; }
 
-#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC63130)
-#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC62F30)
-#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1CC63010)
+#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE0A620)
+#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1DE0A420)
+#define RPG_CUSTOMRP_RPGTEMPORALANTIALIASING_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1DE0A500)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGTemporalAntialiasing_TypeDefinitionIndex = 37846;
+	inline static constexpr unsigned int RPGTemporalAntialiasing_TypeDefinitionIndex = 38775;
 
 	class RPGTemporalAntialiasing : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -21,7 +21,7 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::FloatParameter* clampScale; // 0x58
 		static ::System::Boolean* StaticGet_IsTAAEnable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RPGTemporalAntialiasing")->GetStaticField(0xACE0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RPGTemporalAntialiasing")->GetStaticField(0x8EE0);
 		}
 
 		::System::Void _ctor()

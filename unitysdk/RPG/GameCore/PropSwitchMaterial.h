@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropSwitchMaterial; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSWITCHMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D959B10)
-#define RPG_GAMECORE_PROPSWITCHMATERIAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D959B80)
-#define RPG_GAMECORE_PROPSWITCHMATERIAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D959A80)
+#define RPG_GAMECORE_PROPSWITCHMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB720B0)
+#define RPG_GAMECORE_PROPSWITCHMATERIAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB72120)
+#define RPG_GAMECORE_PROPSWITCHMATERIAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB72020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSwitchMaterial_TypeDefinitionIndex = 22164;
+	inline static constexpr unsigned int PropSwitchMaterial_TypeDefinitionIndex = 22569;
 
 	class PropSwitchMaterial : public ::RPG::GameCore::TaskConfig
 	{

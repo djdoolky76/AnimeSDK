@@ -3,13 +3,13 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define XLUA_XLUAWRAPPERMACROATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E2E10)
-#define XLUA_XLUAWRAPPERMACROATTRIBUTE_GET_MACRO_OFFSET UNITYSDK_OFFSET(0x1C4E2E20)
-#define XLUA_XLUAWRAPPERMACROATTRIBUTE_SET_MACRO_OFFSET UNITYSDK_OFFSET(0x1C4E2E30)
+#define XLUA_XLUAWRAPPERMACROATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6650D0)
+#define XLUA_XLUAWRAPPERMACROATTRIBUTE_GET_MACRO_OFFSET UNITYSDK_OFFSET(0x1D6650E0)
+#define XLUA_XLUAWRAPPERMACROATTRIBUTE_SET_MACRO_OFFSET UNITYSDK_OFFSET(0x1D6650F0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int XLuaWrapperMacroAttribute_TypeDefinitionIndex = 5615;
+	inline static constexpr unsigned int XLuaWrapperMacroAttribute_TypeDefinitionIndex = 5620;
 
 	class XLuaWrapperMacroAttribute : public ::System::Attribute
 	{

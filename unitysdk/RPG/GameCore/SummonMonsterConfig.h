@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SummonMonsterConfig; }
 
-#define RPG_GAMECORE_SUMMONMONSTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3A2F0)
-#define RPG_GAMECORE_SUMMONMONSTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB3A230)
+#define RPG_GAMECORE_SUMMONMONSTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE9C40)
+#define RPG_GAMECORE_SUMMONMONSTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDE9B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonsterConfig_TypeDefinitionIndex = 16365;
+	inline static constexpr unsigned int SummonMonsterConfig_TypeDefinitionIndex = 16529;
 
 	class SummonMonsterConfig : public ::RPG::GameCore::JsonConfig
 	{

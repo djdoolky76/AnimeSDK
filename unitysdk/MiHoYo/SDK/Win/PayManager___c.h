@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_PAYMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDD4410)
-#define MIHOYO_SDK_WIN_PAYMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDD4450)
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__ONCREATEORDER_B__29_4_OFFSET UNITYSDK_OFFSET(0x1BDD4460)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF5C9C0)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF5CA00)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__ONCREATEORDER_B__29_4_OFFSET UNITYSDK_OFFSET(0x1CF5CA10)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 9472;
+	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 9480;
 
 	class PayManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23220);
-		}
-
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__29_4()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x23228);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2A060);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x2A068);
 		}
 
 		static ::System::Void _cctor()

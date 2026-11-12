@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CKMJPGPLECG_TeleportPhase_TypeDefinitionIndex = 60551;
+inline static constexpr unsigned int CKMJPGPLECG_TeleportPhase_TypeDefinitionIndex = 61840;
 
 	enum class CKMJPGPLECG_TeleportPhase : ::System::Int32
 	{

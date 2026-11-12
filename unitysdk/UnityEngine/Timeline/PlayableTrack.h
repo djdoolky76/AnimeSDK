@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define UNITYENGINE_TIMELINE_PLAYABLETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F38E9A0)
-#define UNITYENGINE_TIMELINE_PLAYABLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1F38E8E0)
+#define UNITYENGINE_TIMELINE_PLAYABLETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x2063F740)
+#define UNITYENGINE_TIMELINE_PLAYABLETRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x2063F680)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int PlayableTrack_TypeDefinitionIndex = 38854;
+	inline static constexpr unsigned int PlayableTrack_TypeDefinitionIndex = 39783;
 
 	class PlayableTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

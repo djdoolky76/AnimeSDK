@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define JIFJCBNMOHA_CTOR_OFFSET UNITYSDK_OFFSET(0xB1EF9C0)
+#define JIFJCBNMOHA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA11900)
 
-inline static constexpr unsigned int JIFJCBNMOHA_TypeDefinitionIndex = 62125;
+inline static constexpr unsigned int JIFJCBNMOHA_TypeDefinitionIndex = 63538;
 
 	class JIFJCBNMOHA : public ::System::Object
 	{

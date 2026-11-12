@@ -4,7 +4,7 @@
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int ListViewA_1_TypeDefinitionIndex = 6085;
+	inline static constexpr unsigned int ListViewA_1_TypeDefinitionIndex = 6093;
 
 	template <typename T>
 	class ListViewA_1 : public ::System::Object

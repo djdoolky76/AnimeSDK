@@ -10,25 +10,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GOHKGHGNKGE_CKHNBOCCJLK_OFFSET UNITYSDK_OFFSET(0x15B311C0)
-#define GOHKGHGNKGE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B31BD0)
-#define GOHKGHGNKGE_HDBKOLAEEOJ_OFFSET UNITYSDK_OFFSET(0x15B31880)
-#define GOHKGHGNKGE_JDGKCCAOLKJ_OFFSET UNITYSDK_OFFSET(0x15B31970)
-#define GOHKGHGNKGE_KLPAIOIAGCM_OFFSET UNITYSDK_OFFSET(0x15B30D20)
-#define GOHKGHGNKGE_MCMJNBKJINP_OFFSET UNITYSDK_OFFSET(0x15B31780)
-#define GOHKGHGNKGE_MOLJGHEOFMA_OFFSET UNITYSDK_OFFSET(0x15B312B0)
-#define GOHKGHGNKGE_NBDJHMBBDGD_OFFSET UNITYSDK_OFFSET(0x15B316D0)
-#define GOHKGHGNKGE_NCBDLJKNGHK_OFFSET UNITYSDK_OFFSET(0x15B31B00)
-#define GOHKGHGNKGE_OOPKEHIFKHM_OFFSET UNITYSDK_OFFSET(0x15B31120)
+#define GOHKGHGNKGE_CKHNBOCCJLK_OFFSET UNITYSDK_OFFSET(0x16AB7490)
+#define GOHKGHGNKGE_CTOR_OFFSET UNITYSDK_OFFSET(0x16AB7ED0)
+#define GOHKGHGNKGE_HDBKOLAEEOJ_OFFSET UNITYSDK_OFFSET(0x16AB7B50)
+#define GOHKGHGNKGE_JDGKCCAOLKJ_OFFSET UNITYSDK_OFFSET(0x16AB7C40)
+#define GOHKGHGNKGE_KLPAIOIAGCM_OFFSET UNITYSDK_OFFSET(0x16AB6FF0)
+#define GOHKGHGNKGE_MCMJNBKJINP_OFFSET UNITYSDK_OFFSET(0x16AB7A50)
+#define GOHKGHGNKGE_MOLJGHEOFMA_OFFSET UNITYSDK_OFFSET(0x16AB7580)
+#define GOHKGHGNKGE_NBDJHMBBDGD_OFFSET UNITYSDK_OFFSET(0x16AB79A0)
+#define GOHKGHGNKGE_NCBDLJKNGHK_OFFSET UNITYSDK_OFFSET(0x16AB7DD0)
+#define GOHKGHGNKGE_OOPKEHIFKHM_OFFSET UNITYSDK_OFFSET(0x16AB73F0)
 
-inline static constexpr unsigned int GOHKGHGNKGE_TypeDefinitionIndex = 56503;
+inline static constexpr unsigned int GOHKGHGNKGE_TypeDefinitionIndex = 57723;
 
 	class GOHKGHGNKGE : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TaskListTemplate*>* DFFCIHEFNGG; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::KFELGAIGHAP*>*>* OEFCCNOANPG; // 0x18
-		::Il2CppArray<::RPG::GameCore::EntityColliderHeightCameraConfig*>* DMFJJCIDECA; // 0x20
+		::Il2CppArray<::RPG::GameCore::EntityColliderHeightCameraConfig*>* DMFJJCIDECA; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::KFELGAIGHAP*>*>* OEFCCNOANPG; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::EntityColliderHeightCameraConfig*, ::System::Collections::Generic::List_1<::KFELGAIGHAP*>*>* JJDFKGPAJOM; // 0x28
 		::System::Void _ctor()
 		{

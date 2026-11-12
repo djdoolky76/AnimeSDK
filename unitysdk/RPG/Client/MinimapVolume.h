@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Sprite; }
 
-#define RPG_CLIENT_MINIMAPVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C66D0)
-#define RPG_CLIENT_MINIMAPVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xD6C64F0)
-#define RPG_CLIENT_MINIMAPVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD6C6410)
+#define RPG_CLIENT_MINIMAPVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0xE156430)
+#define RPG_CLIENT_MINIMAPVOLUME_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE156250)
+#define RPG_CLIENT_MINIMAPVOLUME_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE156170)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapVolume_TypeDefinitionIndex = 68509;
+	inline static constexpr unsigned int MinimapVolume_TypeDefinitionIndex = 70457;
 
 	class MinimapVolume : public ::UnityEngine::MonoBehaviour
 	{

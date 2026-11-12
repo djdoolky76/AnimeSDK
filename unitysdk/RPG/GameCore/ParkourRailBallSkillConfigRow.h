@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ParkourRailBallSkillConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURRAILBALLSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EFE40)
-#define RPG_GAMECORE_PARKOURRAILBALLSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EFAE0)
+#define RPG_GAMECORE_PARKOURRAILBALLSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB09410)
+#define RPG_GAMECORE_PARKOURRAILBALLSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB090B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourRailBallSkillConfigRow_TypeDefinitionIndex = 12101;
+	inline static constexpr unsigned int ParkourRailBallSkillConfigRow_TypeDefinitionIndex = 12158;
 
 	class ParkourRailBallSkillConfigRow : public ::System::Object
 	{
@@ -20,10 +20,10 @@ namespace RPG::GameCore
 		::System::String* MiniIconBGPath; // 0x18
 		::System::String* MiniIconPath; // 0x20
 		::System::UInt32 TutorialID; // 0x28
-		::System::UInt32 VideoID; // 0x2C
-		::RPG::Client::TextID Desc; // 0x30
-		::System::UInt32 ID; // 0x40
 		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Desc; // 0x30
+		::System::UInt32 VideoID; // 0x40
+		::System::UInt32 ID; // 0x44
 		::RPG::Client::TextID Name; // 0x48
 		::System::Void _ctor()
 		{

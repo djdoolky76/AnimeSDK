@@ -6,38 +6,39 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Touch.h"
 
-#define INCONTROL_TOUCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA773B0)
-#define INCONTROL_TOUCH_GET_ISMOUSE_OFFSET UNITYSDK_OFFSET(0x1BA774A0)
-#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_OFFSET UNITYSDK_OFFSET(0x1BA77440)
-#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_OFFSET UNITYSDK_OFFSET(0x1BA77470)
-#define INCONTROL_TOUCH_RESET_OFFSET UNITYSDK_OFFSET(0x1BA773C0)
-#define INCONTROL_TOUCH_SETWITHMOUSEDATA_OFFSET UNITYSDK_OFFSET(0x1BA77620)
-#define INCONTROL_TOUCH_SETWITHTOUCHDATA_OFFSET UNITYSDK_OFFSET(0x1BA774B0)
+#define INCONTROL_TOUCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC00030)
+#define INCONTROL_TOUCH_GET_ISMOUSE_OFFSET UNITYSDK_OFFSET(0x1CC00130)
+#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_OFFSET UNITYSDK_OFFSET(0x1CC000D0)
+#define INCONTROL_TOUCH_GET_NORMALIZEDPRESSURE_OFFSET UNITYSDK_OFFSET(0x1CC00100)
+#define INCONTROL_TOUCH_RESET_OFFSET UNITYSDK_OFFSET(0x1CC00040)
+#define INCONTROL_TOUCH_SETWITHMOUSEDATA_OFFSET UNITYSDK_OFFSET(0x1CC002A0)
+#define INCONTROL_TOUCH_SETWITHTOUCHDATA_OFFSET UNITYSDK_OFFSET(0x1CC00140)
 
 namespace InControl
 {
-	inline static constexpr unsigned int Touch_TypeDefinitionIndex = 40881;
+	inline static constexpr unsigned int Touch_TypeDefinitionIndex = 41856;
 
 	class Touch : public ::System::Object
 	{
 	public:
-		::System::Int32 fingerId; // 0x10
-		::UnityEngine::Vector2 lastPosition; // 0x14
-		::InControl::TouchType type; // 0x1C
-		::System::Single altitudeAngle; // 0x20
-		::System::Single maximumPossiblePressure; // 0x24
-		::UnityEngine::Vector2 deltaPosition; // 0x28
-		::UnityEngine::Vector2 startPosition; // 0x30
-		::System::Single azimuthAngle; // 0x38
-		::System::Single radiusVariance; // 0x3C
-		::System::Int32 tapCount; // 0x40
-		::System::Single radius; // 0x44
-		::UnityEngine::TouchPhase phase; // 0x48
-		::System::Int32 mouseButton; // 0x4C
-		::System::Single pressure; // 0x50
-		::UnityEngine::Vector2 position; // 0x54
-		::System::Single deltaTime; // 0x5C
-		::System::UInt64 updateTick; // 0x60
+		::System::Int32 tapCount; // 0x10
+		::UnityEngine::Vector2 startPosition; // 0x14
+		::System::Single radius; // 0x1C
+		::System::Int32 mouseButton; // 0x20
+		::System::Single altitudeAngle; // 0x24
+		::System::Single radiusVariance; // 0x28
+		::UnityEngine::Vector2 lastPosition; // 0x2C
+		::System::Single pressure; // 0x34
+		::UnityEngine::Vector2 deltaPosition; // 0x38
+		::InControl::TouchType type; // 0x40
+		::System::Int32 fingerId; // 0x44
+		::System::Single deltaTime; // 0x48
+		::System::Byte _padding0[0x4];
+		::System::UInt64 updateTick; // 0x50
+		::UnityEngine::Vector2 position; // 0x58
+		::UnityEngine::TouchPhase phase; // 0x60
+		::System::Single azimuthAngle; // 0x64
+		::System::Single maximumPossiblePressure; // 0x68
 		// static const ::System::Object FingerID_None; // 0x0
 		// static const ::System::Object FingerID_Mouse; // 0x0
 		::System::Void _ctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableLocalPlayerIgnoreTimeRewindCollision; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FFPLOOKKHAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1574E750)
-#define FFPLOOKKHAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1574E780)
+#define FFPLOOKKHAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1666D730)
+#define FFPLOOKKHAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1666D760)
 
-inline static constexpr unsigned int FFPLOOKKHAJ_TypeDefinitionIndex = 53372;
+inline static constexpr unsigned int FFPLOOKKHAJ_TypeDefinitionIndex = 54534;
 
 	class FFPLOOKKHAJ
 	{

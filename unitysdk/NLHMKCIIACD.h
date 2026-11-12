@@ -8,19 +8,19 @@ namespace RPG::GameCore { class IdleLiveSpEquipSkillRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NLHMKCIIACD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC6FD10)
-#define NLHMKCIIACD_CGHBELIKMGJ_OFFSET UNITYSDK_OFFSET(0xBC6FF60)
-#define NLHMKCIIACD_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6FE50)
-#define NLHMKCIIACD_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xBC6FD00)
+#define NLHMKCIIACD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC556E70)
+#define NLHMKCIIACD_CGHBELIKMGJ_OFFSET UNITYSDK_OFFSET(0xC5570C0)
+#define NLHMKCIIACD_CTOR_OFFSET UNITYSDK_OFFSET(0xC556FB0)
+#define NLHMKCIIACD_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xC556E60)
 
-inline static constexpr unsigned int NLHMKCIIACD_TypeDefinitionIndex = 75235;
+inline static constexpr unsigned int NLHMKCIIACD_TypeDefinitionIndex = 77562;
 
 	class NLHMKCIIACD : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* HDPKLNCIMKO; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* BGDDKFHKAKM; // 0x18
-		::System::String* _AbilityName_k__BackingField; // 0x20
+		::System::String* _AbilityName_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* BGDDKFHKAKM; // 0x20
 		::RPG::Client::TextID CCOIIOCJIDI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::IdleLiveSpEquipSkillRow* a1)
 		{

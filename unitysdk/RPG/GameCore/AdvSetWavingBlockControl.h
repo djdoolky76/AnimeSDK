@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvSetWavingBlockControl; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B1860)
-#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B1870)
-#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B1830)
+#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C0F80)
+#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5C0F90)
+#define RPG_GAMECORE_ADVSETWAVINGBLOCKCONTROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C0F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetWavingBlockControl_TypeDefinitionIndex = 22233;
+	inline static constexpr unsigned int AdvSetWavingBlockControl_TypeDefinitionIndex = 22638;
 
 	class AdvSetWavingBlockControl : public ::RPG::GameCore::TaskConfig
 	{

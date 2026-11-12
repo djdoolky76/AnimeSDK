@@ -3,28 +3,42 @@
 #include "unitysdk/RPG/Client/ExpeditionBattleRecommendAvatarState.h"
 #include "unitysdk/System/Object.h"
 class DJFEFCNBJNO;
+class ICONDBACCHJ;
 class ONKDAPOKGAC;
+namespace Proto { class DisplayAvatarDetailInfo; }
+namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class ExpeditionBattleDisplayAvatar; }
+namespace System { class String; }
 
-#define GBNJAFIOLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x15954210)
-#define GBNJAFIOLIP_HAFNCNLJMGN_OFFSET UNITYSDK_OFFSET(0x15954220)
-#define GBNJAFIOLIP_NKIJLGEJIFH_OFFSET UNITYSDK_OFFSET(0x159543F0)
-#define GBNJAFIOLIP_OIAHPHFBFGA_OFFSET UNITYSDK_OFFSET(0x15954500)
+#define GBNJAFIOLIP_ALIDPHJMDNL_OFFSET UNITYSDK_OFFSET(0x16889CF0)
+#define GBNJAFIOLIP_AMJGMAPHOPP_OFFSET UNITYSDK_OFFSET(0x16889E10)
+#define GBNJAFIOLIP_BKKDHJOHICK_OFFSET UNITYSDK_OFFSET(0x16889F80)
+#define GBNJAFIOLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x168898F0)
+#define GBNJAFIOLIP_HAFNCNLJMGN_OFFSET UNITYSDK_OFFSET(0x16889900)
+#define GBNJAFIOLIP_KFJEGIEJPBM_OFFSET UNITYSDK_OFFSET(0x16889AD0)
+#define GBNJAFIOLIP_NKIJLGEJIFH_OFFSET UNITYSDK_OFFSET(0x16889B40)
+#define GBNJAFIOLIP_OIAHPHFBFGA_OFFSET UNITYSDK_OFFSET(0x1688A0C0)
 
-inline static constexpr unsigned int GBNJAFIOLIP_TypeDefinitionIndex = 63941;
+inline static constexpr unsigned int GBNJAFIOLIP_TypeDefinitionIndex = 65383;
 
 	class GBNJAFIOLIP : public ::System::Object
 	{
 	public:
-		::DJFEFCNBJNO* BOMFMBPNFJI; // 0x10
-		::System::Void _ctor(::DJFEFCNBJNO* a1)
+		::ICONDBACCHJ* LIIFJAEMFDP; // 0x10
+		::DJFEFCNBJNO* BOMFMBPNFJI; // 0x18
+		::System::Void _ctor(::DJFEFCNBJNO* a1, ::ICONDBACCHJ* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::DJFEFCNBJNO*))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_CTOR_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::DJFEFCNBJNO*, ::ICONDBACCHJ*))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_CTOR_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::ExpeditionBattleDisplayAvatar* HAFNCNLJMGN(::ONKDAPOKGAC* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::Boolean a4)
 		{
 			return ((::RPG::Client::ExpeditionBattleDisplayAvatar*(*)(::PVOID, ::ONKDAPOKGAC*, ::System::UInt32, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_HAFNCNLJMGN_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		::RPG::AvatarSystem::IAvatar* AMJGMAPHOPP(::Proto::DisplayAvatarDetailInfo* a1, ::System::UInt32 a2, ::System::String* a3)
+		{
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::Proto::DisplayAvatarDetailInfo*, ::System::UInt32, ::System::String*))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_AMJGMAPHOPP_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::ExpeditionBattleRecommendAvatarState NKIJLGEJIFH(::ONKDAPOKGAC* a1, ::System::UInt32 a2, ::System::UInt32 a3)
@@ -35,6 +49,21 @@ inline static constexpr unsigned int GBNJAFIOLIP_TypeDefinitionIndex = 63941;
 		::RPG::Client::ExpeditionBattleDisplayAvatar* OIAHPHFBFGA(::ONKDAPOKGAC* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
 			return ((::RPG::Client::ExpeditionBattleDisplayAvatar*(*)(::PVOID, ::ONKDAPOKGAC*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_OIAHPHFBFGA_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Boolean BKKDHJOHICK(::ONKDAPOKGAC* a1, ::System::UInt32 a2, ::System::Boolean a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::ONKDAPOKGAC*, ::System::UInt32, ::System::Boolean))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_BKKDHJOHICK_OFFSET))(this, a1, a2, a3);
+		}
+
+		::RPG::AvatarSystem::IAvatar* KFJEGIEJPBM(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::RPG::AvatarSystem::IAvatar*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_KFJEGIEJPBM_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::ExpeditionBattleDisplayAvatar* ALIDPHJMDNL(::RPG::AvatarSystem::IAvatar* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::RPG::Client::ExpeditionBattleRecommendAvatarState a5)
+		{
+			return ((::RPG::Client::ExpeditionBattleDisplayAvatar*(*)(::PVOID, ::RPG::AvatarSystem::IAvatar*, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::Client::ExpeditionBattleRecommendAvatarState))((::PBYTE)hIl2Cpp + GBNJAFIOLIP_ALIDPHJMDNL_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
 	};

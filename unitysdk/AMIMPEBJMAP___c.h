@@ -4,18 +4,18 @@
 class AMIMPEBJMAP;
 namespace System { class Object; }
 
-#define AMIMPEBJMAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5243F0)
-#define AMIMPEBJMAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E524430)
-#define AMIMPEBJMAP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E524440)
+#define AMIMPEBJMAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7DF790)
+#define AMIMPEBJMAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7DF7D0)
+#define AMIMPEBJMAP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F7DF7E0)
 
-inline static constexpr unsigned int AMIMPEBJMAP___c_TypeDefinitionIndex = 32154;
+inline static constexpr unsigned int AMIMPEBJMAP___c_TypeDefinitionIndex = 33067;
 
 	class AMIMPEBJMAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CBC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x405C0);
 		}
 
 		static ::System::Void _cctor()

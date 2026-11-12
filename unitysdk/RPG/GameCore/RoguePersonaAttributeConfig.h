@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RoguePersonaAttributeConfig; }
 
-#define RPG_GAMECORE_ROGUEPERSONAATTRIBUTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2B9D0)
-#define RPG_GAMECORE_ROGUEPERSONAATTRIBUTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2B990)
+#define RPG_GAMECORE_ROGUEPERSONAATTRIBUTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3DC10)
+#define RPG_GAMECORE_ROGUEPERSONAATTRIBUTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC3DBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoguePersonaAttributeConfig_TypeDefinitionIndex = 18003;
+	inline static constexpr unsigned int RoguePersonaAttributeConfig_TypeDefinitionIndex = 18172;
 
 	class RoguePersonaAttributeConfig : public ::RPG::GameCore::JsonConfig
 	{

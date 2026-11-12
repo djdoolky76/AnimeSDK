@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS85_1_CTOR_OFFSET UNITYSDK_OFFSET(0xE05B3C0)
-#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS85_1___DELAYEDPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xE05B3D0)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS85_1_CTOR_OFFSET UNITYSDK_OFFSET(0xEAC58C0)
+#define RPG_CLIENT_ROGUETOURNUTILS___C__DISPLAYCLASS85_1___DELAYEDPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xEAC58D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass85_1_TypeDefinitionIndex = 67822;
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass85_1_TypeDefinitionIndex = 69767;
 
 	template <typename T>
 	class RogueTournUtils___c__DisplayClass85_1 : public ::System::Object

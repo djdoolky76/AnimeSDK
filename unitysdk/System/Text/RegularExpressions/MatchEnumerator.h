@@ -5,10 +5,10 @@ namespace System { class Object; }
 namespace System::Text::RegularExpressions { class Match; }
 namespace System::Text::RegularExpressions { class MatchCollection; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B9A80)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F0B9B30)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F0B9AE0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F0B9B80)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x2036A7A0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x2036A850)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x2036A800)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x2036A8A0)
 
 namespace System::Text::RegularExpressions
 {
@@ -19,9 +19,8 @@ namespace System::Text::RegularExpressions
 	public:
 		::System::Text::RegularExpressions::MatchCollection* _matchcoll; // 0x10
 		::System::Text::RegularExpressions::Match* _match; // 0x18
-		::System::Boolean _done; // 0x20
-		::System::Byte _padding0[0x3];
-		::System::Int32 _curindex; // 0x24
+		::System::Int32 _curindex; // 0x20
+		::System::Boolean _done; // 0x24
 		::System::Void _ctor(::System::Text::RegularExpressions::MatchCollection* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Text::RegularExpressions::MatchCollection*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_REGULAREXPRESSIONS_MATCHENUMERATOR_CTOR_OFFSET))(this, a1);

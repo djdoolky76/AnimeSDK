@@ -6,12 +6,12 @@ namespace UnityEngine { class DisallowMultipleComponent; }
 namespace UnityEngine { class ExecuteInEditMode; }
 namespace UnityEngine { class RequireComponent; }
 
-#define UNITYENGINE_ATTRIBUTEHELPERENGINE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3D3C50)
-#define UNITYENGINE_ATTRIBUTEHELPERENGINE_CHECKISEDITORSCRIPT_OFFSET UNITYSDK_OFFSET(0x1F3D3AA0)
-#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETDEFAULTEXECUTIONORDERFOR_OFFSET UNITYSDK_OFFSET(0x1F3D3BE0)
-#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETEXECUTEMODE_OFFSET UNITYSDK_OFFSET(0x1F3D3910)
-#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETPARENTTYPEDISALLOWINGMULTIPLEINCLUSION_OFFSET UNITYSDK_OFFSET(0x1F3D3260)
-#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETREQUIREDCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1F3D3390)
+#define UNITYENGINE_ATTRIBUTEHELPERENGINE_CCTOR_OFFSET UNITYSDK_OFFSET(0x20684B40)
+#define UNITYENGINE_ATTRIBUTEHELPERENGINE_CHECKISEDITORSCRIPT_OFFSET UNITYSDK_OFFSET(0x20684990)
+#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETDEFAULTEXECUTIONORDERFOR_OFFSET UNITYSDK_OFFSET(0x20684AD0)
+#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETEXECUTEMODE_OFFSET UNITYSDK_OFFSET(0x20684800)
+#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETPARENTTYPEDISALLOWINGMULTIPLEINCLUSION_OFFSET UNITYSDK_OFFSET(0x20684150)
+#define UNITYENGINE_ATTRIBUTEHELPERENGINE_GETREQUIREDCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x20684280)
 
 namespace UnityEngine
 {
@@ -22,17 +22,17 @@ namespace UnityEngine
 	public:
 		static ::Il2CppArray<::UnityEngine::DisallowMultipleComponent*>** StaticGet__disallowMultipleComponentArray()
 		{
-			return (::Il2CppArray<::UnityEngine::DisallowMultipleComponent*>**)UnitySDK::FromName("UnityEngine", "AttributeHelperEngine")->GetStaticField(0xEAA0);
+			return (::Il2CppArray<::UnityEngine::DisallowMultipleComponent*>**)UnitySDK::FromName("UnityEngine", "AttributeHelperEngine")->GetStaticField(0xB130);
 		}
 
 		static ::Il2CppArray<::UnityEngine::RequireComponent*>** StaticGet__requireComponentArray()
 		{
-			return (::Il2CppArray<::UnityEngine::RequireComponent*>**)UnitySDK::FromName("UnityEngine", "AttributeHelperEngine")->GetStaticField(0xEAA8);
+			return (::Il2CppArray<::UnityEngine::RequireComponent*>**)UnitySDK::FromName("UnityEngine", "AttributeHelperEngine")->GetStaticField(0xB138);
 		}
 
 		static ::Il2CppArray<::UnityEngine::ExecuteInEditMode*>** StaticGet__executeInEditModeArray()
 		{
-			return (::Il2CppArray<::UnityEngine::ExecuteInEditMode*>**)UnitySDK::FromName("UnityEngine", "AttributeHelperEngine")->GetStaticField(0xEAB0);
+			return (::Il2CppArray<::UnityEngine::ExecuteInEditMode*>**)UnitySDK::FromName("UnityEngine", "AttributeHelperEngine")->GetStaticField(0xB140);
 		}
 
 		static ::System::Void _cctor()

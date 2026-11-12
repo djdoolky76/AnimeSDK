@@ -8,25 +8,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuseumDeskTalkConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C62E0)
-#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C5B50)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE0000)
+#define RPG_GAMECORE_MUSEUMDESKTALKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EADF870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumDeskTalkConfigRow_TypeDefinitionIndex = 14254;
+	inline static constexpr unsigned int MuseumDeskTalkConfigRow_TypeDefinitionIndex = 14411;
 
 	class MuseumDeskTalkConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TalkTypeParameter; // 0x10
+		::System::String* CustomString; // 0x10
 		::Il2CppArray<::RPG::Client::TextID>* TextIDList; // 0x18
-		::System::String* CustomString; // 0x20
-		::RPG::GameCore::MuseumTalkType TalkType; // 0x28
-		::System::UInt32 TalkID; // 0x2C
-		::System::Boolean IsMustTriggered; // 0x30
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::MuseumTalkTriggerType TriggerType; // 0x34
-		::System::UInt32 Priority; // 0x38
+		::System::String* TalkTypeParameter; // 0x20
+		::RPG::GameCore::MuseumTalkTriggerType TriggerType; // 0x28
+		::System::UInt32 Priority; // 0x2C
+		::System::UInt32 TalkID; // 0x30
+		::RPG::GameCore::MuseumTalkType TalkType; // 0x34
+		::System::Boolean IsMustTriggered; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMDESKTALKCONFIGROW_CTOR_OFFSET))(this);

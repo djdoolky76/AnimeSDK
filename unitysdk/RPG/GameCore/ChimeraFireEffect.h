@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChimeraFireEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAFIREEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AD2B0)
-#define RPG_GAMECORE_CHIMERAFIREEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5AD2C0)
-#define RPG_GAMECORE_CHIMERAFIREEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5AD260)
+#define RPG_GAMECORE_CHIMERAFIREEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A9330)
+#define RPG_GAMECORE_CHIMERAFIREEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A9340)
+#define RPG_GAMECORE_CHIMERAFIREEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7BD750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraFireEffect_TypeDefinitionIndex = 15863;
+	inline static constexpr unsigned int ChimeraFireEffect_TypeDefinitionIndex = 16021;
 
 	class ChimeraFireEffect : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

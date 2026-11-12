@@ -6,12 +6,12 @@ namespace System { class Delegate; }
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BDDD0)
-#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x1B9BE440)
+#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB46D00)
+#define IFIX_CORE_GENERICDELEGATEFACTORY__CREATE_C__ANONSTOREY2___M__0_OFFSET UNITYSDK_OFFSET(0x1CB47370)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey2_TypeDefinitionIndex = 7121;
+	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey2_TypeDefinitionIndex = 7132;
 
 	class GenericDelegateFactory__Create_c__AnonStorey2 : public ::System::Object
 	{

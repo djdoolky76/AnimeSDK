@@ -4,22 +4,24 @@
 namespace RPG::Client { class GridFightEquipCraftRecipe; }
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightTraitElationEffect; }
+namespace RPG::Client { class GridFightTraitElationLaughPointEffect; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_CTOR_OFFSET UNITYSDK_OFFSET(0xD1074D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_GET_TARGETROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0xD10EFE0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_CTOR_OFFSET UNITYSDK_OFFSET(0xDABB6F0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_GET_TARGETROLEUNIQUEID_OFFSET UNITYSDK_OFFSET(0xDABB3F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftCombination_TypeDefinitionIndex = 64511;
+	inline static constexpr unsigned int GridFightEquipCraftCombination_TypeDefinitionIndex = 66038;
 
 	class GridFightEquipCraftCombination : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEquipCraftRecipe* RelatedRecipe; // 0x10
-		::RPG::Client::GridFightTraitElationEffect* ToElationTrait; // 0x18
-		::System::Collections::Generic::HashSet_1<::RPG::Client::GridFightEquipItemData*>* RelatedItems; // 0x20
-		::System::Int32 ElationEquipSlotIndex; // 0x28
+		::System::Collections::Generic::HashSet_1<::RPG::Client::GridFightEquipItemData*>* RelatedItems; // 0x10
+		::RPG::Client::GridFightEquipCraftRecipe* RelatedRecipe; // 0x18
+		::RPG::Client::GridFightTraitElationLaughPointEffect* ToElationLaughPointEffect; // 0x20
+		::RPG::Client::GridFightTraitElationEffect* ToElationTrait; // 0x28
+		::System::Int32 ElationEquipSlotIndex; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTCOMBINATION_CTOR_OFFSET))(this);

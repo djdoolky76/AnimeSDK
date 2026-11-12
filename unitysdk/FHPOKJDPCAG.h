@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define FHPOKJDPCAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C61A670)
+#define FHPOKJDPCAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D79BC30)
 
-inline static constexpr unsigned int FHPOKJDPCAG_TypeDefinitionIndex = 37052;
+inline static constexpr unsigned int FHPOKJDPCAG_TypeDefinitionIndex = 37980;
 
 	class FHPOKJDPCAG : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FHPOKJDPCAG")->GetStaticField(0x15100);
-		}
-
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "FHPOKJDPCAG")->GetStaticField(0x15108);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "FHPOKJDPCAG")->GetStaticField(0xD550);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FHPOKJDPCAG")->GetStaticField(0xD558);
 		}
 
 		// static const ::System::Object NMGAJKCCJKO; // 0x0

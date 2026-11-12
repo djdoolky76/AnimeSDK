@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KEHLFNHAMLA.h"
 
-inline static constexpr unsigned int NJBLCLGHIOE_TypeDefinitionIndex = 43550;
+inline static constexpr unsigned int NJBLCLGHIOE_TypeDefinitionIndex = 44532;
 
 	struct alignas(4) NJBLCLGHIOE
 	{

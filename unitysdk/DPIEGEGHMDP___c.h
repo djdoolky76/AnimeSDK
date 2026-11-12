@@ -4,18 +4,18 @@
 class DPIEGEGHMDP;
 namespace System { class Object; }
 
-#define DPIEGEGHMDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2108B0)
-#define DPIEGEGHMDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2108F0)
-#define DPIEGEGHMDP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E210900)
+#define DPIEGEGHMDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4EFBE0)
+#define DPIEGEGHMDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4EFC20)
+#define DPIEGEGHMDP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F4EFC30)
 
-inline static constexpr unsigned int DPIEGEGHMDP___c_TypeDefinitionIndex = 30559;
+inline static constexpr unsigned int DPIEGEGHMDP___c_TypeDefinitionIndex = 31465;
 
 	class DPIEGEGHMDP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45980);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40E70);
 		}
 
 		static ::System::Void _cctor()

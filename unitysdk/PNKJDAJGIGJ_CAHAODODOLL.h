@@ -7,12 +7,12 @@ namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace RPG::GameCore { class ChimeraDuelLeaveNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PNKJDAJGIGJ_CAHAODODOLL_CTOR_OFFSET UNITYSDK_OFFSET(0xC33D980)
-#define PNKJDAJGIGJ_CAHAODODOLL_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC33DBD0)
-#define PNKJDAJGIGJ_CAHAODODOLL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC33DBF0)
-#define PNKJDAJGIGJ_CAHAODODOLL_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC33DBE0)
+#define PNKJDAJGIGJ_CAHAODODOLL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC707F0)
+#define PNKJDAJGIGJ_CAHAODODOLL_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xCC70A40)
+#define PNKJDAJGIGJ_CAHAODODOLL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCC70A60)
+#define PNKJDAJGIGJ_CAHAODODOLL_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xCC70A50)
 
-inline static constexpr unsigned int PNKJDAJGIGJ_CAHAODODOLL_TypeDefinitionIndex = 78248;
+inline static constexpr unsigned int PNKJDAJGIGJ_CAHAODODOLL_TypeDefinitionIndex = 80983;
 
 	class PNKJDAJGIGJ_CAHAODODOLL : public ::System::Object
 	{
@@ -21,9 +21,8 @@ inline static constexpr unsigned int PNKJDAJGIGJ_CAHAODODOLL_TypeDefinitionIndex
 		::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* HGCNLFIMDKL; // 0x18
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* KHOPAIPODLM; // 0x20
 		::RPG::GameCore::ChimeraDuelLeaveNode* JKLBAAHFJDJ; // 0x28
-		::System::Boolean _IsFinished_k__BackingField; // 0x30
-		::System::Byte _padding0[0x3];
-		::System::Single FOMCKBAHCFM; // 0x34
+		::System::Single FOMCKBAHCFM; // 0x30
+		::System::Boolean _IsFinished_k__BackingField; // 0x34
 		::System::Void _ctor(::RPG::GameCore::ChimeraDuelLeaveNode* a1, ::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>* a2, ::DLECIKAMKEG* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraDuelLeaveNode*, ::System::Collections::Generic::List_1<::RPG::Client::Prop::DuelChimeraProxy*>*, ::DLECIKAMKEG*))((::PBYTE)hIl2Cpp + PNKJDAJGIGJ_CAHAODODOLL_CTOR_OFFSET))(this, a1, a2, a3);

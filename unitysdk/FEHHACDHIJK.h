@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpticalIllusionBubble; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FEHHACDHIJK_CTOR_OFFSET UNITYSDK_OFFSET(0x156E8EE0)
-#define FEHHACDHIJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156E8F10)
+#define FEHHACDHIJK_CTOR_OFFSET UNITYSDK_OFFSET(0x16603020)
+#define FEHHACDHIJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16603050)
 
-inline static constexpr unsigned int FEHHACDHIJK_TypeDefinitionIndex = 53039;
+inline static constexpr unsigned int FEHHACDHIJK_TypeDefinitionIndex = 54199;
 
 	class FEHHACDHIJK
 	{

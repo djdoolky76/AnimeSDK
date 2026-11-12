@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeMazeRewardLineRow; }
 
-#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D561710)
-#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5615D0)
+#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E772EB0)
+#define RPG_GAMECORE_CHALLENGEMAZEREWARDLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E772D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeMazeRewardLineRow_TypeDefinitionIndex = 12975;
+	inline static constexpr unsigned int ChallengeMazeRewardLineRow_TypeDefinitionIndex = 13043;
 
 	class ChallengeMazeRewardLineRow : public ::System::Object
 	{

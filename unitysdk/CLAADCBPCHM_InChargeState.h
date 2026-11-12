@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CLAADCBPCHM_InChargeState_TypeDefinitionIndex = 72010;
+inline static constexpr unsigned int CLAADCBPCHM_InChargeState_TypeDefinitionIndex = 74039;
 
 	enum class CLAADCBPCHM_InChargeState : ::System::Int32
 	{

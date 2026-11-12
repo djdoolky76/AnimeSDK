@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelGroupSystemUnlockConditionSet; }
 
-#define RPG_GAMECORE_LEVELGROUPSYSTEMUNLOCKCONDITIONSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B1D00)
-#define RPG_GAMECORE_LEVELGROUPSYSTEMUNLOCKCONDITIONSET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B0DA0)
+#define RPG_GAMECORE_LEVELGROUPSYSTEMUNLOCKCONDITIONSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F4D20)
+#define RPG_GAMECORE_LEVELGROUPSYSTEMUNLOCKCONDITIONSET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9F3E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupSystemUnlockConditionSet_TypeDefinitionIndex = 17211;
+	inline static constexpr unsigned int LevelGroupSystemUnlockConditionSet_TypeDefinitionIndex = 17379;
 
 	class LevelGroupSystemUnlockConditionSet : public ::RPG::GameCore::JsonConfig
 	{

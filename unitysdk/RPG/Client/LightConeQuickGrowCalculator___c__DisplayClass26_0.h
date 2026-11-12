@@ -5,12 +5,12 @@ namespace Proto { class ItemCost; }
 namespace RPG::Client { class LightConeQuickGrowCalculator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD398600)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS26_0___BUILDLEVELUPCOSTSFORREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD39A260)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDCE7F0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS26_0___BUILDLEVELUPCOSTSFORREQ_B__0_OFFSET UNITYSDK_OFFSET(0xDDD0450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass26_0_TypeDefinitionIndex = 65727;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass26_0_TypeDefinitionIndex = 67653;
 
 	class LightConeQuickGrowCalculator___c__DisplayClass26_0 : public ::System::Object
 	{

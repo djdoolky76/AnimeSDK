@@ -1,22 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/JsonConfig.h"
+#include "unitysdk/RPG/GameCore/PreloadItemFlag.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectInstanceConfig; }
 namespace RPG::GameCore { class EffectPreloadLinkConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTINSTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D630150)
-#define RPG_GAMECORE_EFFECTINSTANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D62FEC0)
+#define RPG_GAMECORE_EFFECTINSTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86DBB0)
+#define RPG_GAMECORE_EFFECTINSTANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86D930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectInstanceConfig_TypeDefinitionIndex = 16343;
+	inline static constexpr unsigned int EffectInstanceConfig_TypeDefinitionIndex = 16507;
 
 	class EffectInstanceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::Il2CppArray<::System::String*>* EffectTypes; // 0x10
+		::RPG::GameCore::PreloadItemFlag Flag; // 0x10
+		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::String*>* Tags; // 0x18
 		::Il2CppArray<::System::String*>* EffectInstanceList; // 0x20
 		::Il2CppArray<::System::String*>* ModelInstanceList; // 0x28

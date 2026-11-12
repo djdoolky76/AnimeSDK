@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/ChimeraDuelNpcModelView.h"
 
-#define RPG_CLIENT_PROP_CHIMERADUELNPCHIPPLENMINIMODELVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC6F6F0)
-#define RPG_CLIENT_PROP_CHIMERADUELNPCHIPPLENMINIMODELVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xDC6F6D0)
-#define RPG_CLIENT_PROP_CHIMERADUELNPCHIPPLENMINIMODELVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xDC6F620)
+#define RPG_CLIENT_PROP_CHIMERADUELNPCHIPPLENMINIMODELVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xE70C420)
+#define RPG_CLIENT_PROP_CHIMERADUELNPCHIPPLENMINIMODELVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xE70C400)
+#define RPG_CLIENT_PROP_CHIMERADUELNPCHIPPLENMINIMODELVIEW_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE70C350)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelNpcHipplenMiniModelView_TypeDefinitionIndex = 78335;
+	inline static constexpr unsigned int ChimeraDuelNpcHipplenMiniModelView_TypeDefinitionIndex = 81070;
 
 	class ChimeraDuelNpcHipplenMiniModelView : public ::RPG::Client::Prop::ChimeraDuelNpcModelView
 	{
@@ -16,7 +16,7 @@ namespace RPG::Client::Prop
 		::System::Boolean _IsLeftSide; // 0x48
 		static ::System::Int32* StaticGet_HBDKFNHJLAN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelNpcHipplenMiniModelView")->GetStaticField(0x11C80);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelNpcHipplenMiniModelView")->GetStaticField(0x10460);
 		}
 
 		::System::Void _ctor()

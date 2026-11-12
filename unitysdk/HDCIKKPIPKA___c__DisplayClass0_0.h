@@ -4,9 +4,9 @@
 namespace RPG::Client::BlindBox::Trade { class PublicBlindBoxTradeOrder; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HDCIKKPIPKA___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C307E0)
+#define HDCIKKPIPKA___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16B73E90)
 
-inline static constexpr unsigned int HDCIKKPIPKA___c__DisplayClass0_0_TypeDefinitionIndex = 74865;
+inline static constexpr unsigned int HDCIKKPIPKA___c__DisplayClass0_0_TypeDefinitionIndex = 77192;
 
 	class HDCIKKPIPKA___c__DisplayClass0_0 : public ::System::Object
 	{

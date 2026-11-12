@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int DGEPOBDMLDJ_Writer_1___c_TypeDefinitionIndex = 6546;
+inline static constexpr unsigned int DGEPOBDMLDJ_Writer_1___c_TypeDefinitionIndex = 6553;
 
 	template <typename T>
 	class DGEPOBDMLDJ_Writer_1___c : public ::System::Object

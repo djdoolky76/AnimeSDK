@@ -19,23 +19,24 @@ namespace System::Collections::Generic { template <typename T> class LinkedListN
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BABPNPJGDHP_BHMHHMLKFMF_OFFSET UNITYSDK_OFFSET(0x15BCFB00)
-#define BABPNPJGDHP_CJNPAHEJNMP_OFFSET UNITYSDK_OFFSET(0x15BD03F0)
-#define BABPNPJGDHP_DHONNHOODAM_OFFSET UNITYSDK_OFFSET(0x15BCE9A0)
-#define BABPNPJGDHP_GAHADFLFOPF_OFFSET UNITYSDK_OFFSET(0x15BCEE60)
-#define BABPNPJGDHP_GINHPBKBPIM_OFFSET UNITYSDK_OFFSET(0x15BD1E60)
-#define BABPNPJGDHP_GPLMLHAPPNM_OFFSET UNITYSDK_OFFSET(0x15BD2110)
-#define BABPNPJGDHP_HEEGBDKFHLH_1_OFFSET UNITYSDK_OFFSET(0x15BD2270)
-#define BABPNPJGDHP_HEEGBDKFHLH_OFFSET UNITYSDK_OFFSET(0x15BD2060)
-#define BABPNPJGDHP_HGGCKOHIKGI_OFFSET UNITYSDK_OFFSET(0x15BD18B0)
-#define BABPNPJGDHP_HKCMAOOBLLO_OFFSET UNITYSDK_OFFSET(0x15BCF0F0)
-#define BABPNPJGDHP_HOJKIDIPBMI_OFFSET UNITYSDK_OFFSET(0x15BCFA10)
-#define BABPNPJGDHP_KBOJFONKFKN_OFFSET UNITYSDK_OFFSET(0x15BCEBE0)
-#define BABPNPJGDHP_LLLDKPEKJHP_OFFSET UNITYSDK_OFFSET(0x15BD13B0)
-#define BABPNPJGDHP_OAGJKCIDLFA_OFFSET UNITYSDK_OFFSET(0x15BD1420)
-#define BABPNPJGDHP_PAECLLDBENH_OFFSET UNITYSDK_OFFSET(0x15BCFE60)
+#define BABPNPJGDHP_BEIAEFEAJFI_OFFSET UNITYSDK_OFFSET(0x16CDB920)
+#define BABPNPJGDHP_BHMHHMLKFMF_OFFSET UNITYSDK_OFFSET(0x16CDBC10)
+#define BABPNPJGDHP_CJNPAHEJNMP_OFFSET UNITYSDK_OFFSET(0x16CDC500)
+#define BABPNPJGDHP_DHONNHOODAM_OFFSET UNITYSDK_OFFSET(0x16CDA7B0)
+#define BABPNPJGDHP_GAHADFLFOPF_OFFSET UNITYSDK_OFFSET(0x16CDAC80)
+#define BABPNPJGDHP_GINHPBKBPIM_OFFSET UNITYSDK_OFFSET(0x16CDDF80)
+#define BABPNPJGDHP_GPLMLHAPPNM_OFFSET UNITYSDK_OFFSET(0x16CDE230)
+#define BABPNPJGDHP_HEEGBDKFHLH_1_OFFSET UNITYSDK_OFFSET(0x16CDE390)
+#define BABPNPJGDHP_HEEGBDKFHLH_OFFSET UNITYSDK_OFFSET(0x16CDE180)
+#define BABPNPJGDHP_HGGCKOHIKGI_OFFSET UNITYSDK_OFFSET(0x16CDD9D0)
+#define BABPNPJGDHP_HKCMAOOBLLO_OFFSET UNITYSDK_OFFSET(0x16CDAF10)
+#define BABPNPJGDHP_HOJKIDIPBMI_OFFSET UNITYSDK_OFFSET(0x16CDB830)
+#define BABPNPJGDHP_KBOJFONKFKN_OFFSET UNITYSDK_OFFSET(0x16CDAA00)
+#define BABPNPJGDHP_LLLDKPEKJHP_OFFSET UNITYSDK_OFFSET(0x16CDD4D0)
+#define BABPNPJGDHP_OAGJKCIDLFA_OFFSET UNITYSDK_OFFSET(0x16CDD540)
+#define BABPNPJGDHP_PAECLLDBENH_OFFSET UNITYSDK_OFFSET(0x16CDBF70)
 
-inline static constexpr unsigned int BABPNPJGDHP_TypeDefinitionIndex = 59050;
+inline static constexpr unsigned int BABPNPJGDHP_TypeDefinitionIndex = 60325;
 
 	class BABPNPJGDHP : public ::System::Object
 	{
@@ -66,6 +67,11 @@ inline static constexpr unsigned int BABPNPJGDHP_TypeDefinitionIndex = 59050;
 			return ((::System::Single(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + BABPNPJGDHP_HOJKIDIPBMI_OFFSET))(a1);
 		}
 
+		static ::System::Single BEIAEFEAJFI(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::System::String* a3)
+		{
+			return ((::System::Single(*)(::RPG::GameCore::GameEntity*, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + BABPNPJGDHP_BEIAEFEAJFI_OFFSET))(a1, a2, a3);
+		}
+
 		static ::System::Void BHMHHMLKFMF(::System::Collections::Generic::LinkedList_1<::System::Object*>* a1)
 		{
 			return ((::System::Void(*)(::System::Collections::Generic::LinkedList_1<::System::Object*>*))((::PBYTE)hIl2Cpp + BABPNPJGDHP_BHMHHMLKFMF_OFFSET))(a1);
@@ -76,9 +82,9 @@ inline static constexpr unsigned int BABPNPJGDHP_TypeDefinitionIndex = 59050;
 			return ((::System::Void(*)(::System::Collections::Generic::LinkedList_1<::System::Object*>*, ::System::Single, ::RPG::MVector3, ::RPG::MVector3))((::PBYTE)hIl2Cpp + BABPNPJGDHP_PAECLLDBENH_OFFSET))(a1, a2, a3, a4);
 		}
 
-		static ::System::Void CJNPAHEJNMP(::System::Collections::Generic::LinkedList_1<::System::Object*>* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7)
+		static ::System::Void CJNPAHEJNMP(::System::Collections::Generic::LinkedList_1<::System::Object*>* a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Quaternion a3, ::System::Boolean a4, ::System::Boolean a5, ::System::Boolean a6, ::System::Boolean a7, ::System::Single a8, ::System::String* a9)
 		{
-			return ((::System::Void(*)(::System::Collections::Generic::LinkedList_1<::System::Object*>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + BABPNPJGDHP_CJNPAHEJNMP_OFFSET))(a1, a2, a3, a4, a5, a6, a7);
+			return ((::System::Void(*)(::System::Collections::Generic::LinkedList_1<::System::Object*>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Single, ::System::String*))((::PBYTE)hIl2Cpp + BABPNPJGDHP_CJNPAHEJNMP_OFFSET))(a1, a2, a3, a4, a5, a6, a7, a8, a9);
 		}
 
 		static ::System::Void LLLDKPEKJHP(::RPG::GameCore::GameEntity* a1, ::System::Single a2, ::RPG::MVector3 a3)

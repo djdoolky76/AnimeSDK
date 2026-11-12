@@ -6,12 +6,12 @@ namespace RPG::GameCore { class SingleTimeRewindEntityAnimClipEventConfig; }
 namespace RPG::GameCore { class SingleTimeRewindEntityAnimStateEventConfig; }
 namespace RPG::GameCore { class TimeRewindEntityAnimEventConfigs; }
 
-#define RPG_GAMECORE_TIMEREWINDENTITYANIMEVENTCONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB87DB0)
-#define RPG_GAMECORE_TIMEREWINDENTITYANIMEVENTCONFIGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB87C50)
+#define RPG_GAMECORE_TIMEREWINDENTITYANIMEVENTCONFIGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE37050)
+#define RPG_GAMECORE_TIMEREWINDENTITYANIMEVENTCONFIGS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE36EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindEntityAnimEventConfigs_TypeDefinitionIndex = 16598;
+	inline static constexpr unsigned int TimeRewindEntityAnimEventConfigs_TypeDefinitionIndex = 16764;
 
 	class TimeRewindEntityAnimEventConfigs : public ::RPG::GameCore::JsonConfig
 	{

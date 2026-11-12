@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PSCUSTOMINVITATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA66C20)
+#define RPG_CLIENT_PSCUSTOMINVITATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE4BC2C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PSCustomInvitationData_TypeDefinitionIndex = 65767;
+	inline static constexpr unsigned int PSCustomInvitationData_TypeDefinitionIndex = 67699;
 
 	class PSCustomInvitationData : public ::System::Object
 	{

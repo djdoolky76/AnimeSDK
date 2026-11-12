@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeMonsterAlertConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEMONSTERALERTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D867CA0)
-#define RPG_GAMECORE_MAZEMONSTERALERTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D867970)
+#define RPG_GAMECORE_MAZEMONSTERALERTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA823B0)
+#define RPG_GAMECORE_MAZEMONSTERALERTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA82080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeMonsterAlertConfig_TypeDefinitionIndex = 16399;
+	inline static constexpr unsigned int MazeMonsterAlertConfig_TypeDefinitionIndex = 16563;
 
 	class MazeMonsterAlertConfig : public ::RPG::GameCore::JsonConfig
 	{

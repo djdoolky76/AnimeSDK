@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelNPCInfoOverrideLocation; }
 
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B8000)
-#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7B7BA0)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FA230)
+#define RPG_GAMECORE_LEVELNPCINFOOVERRIDELOCATION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9F9DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNPCInfoOverrideLocation_TypeDefinitionIndex = 17363;
+	inline static constexpr unsigned int LevelNPCInfoOverrideLocation_TypeDefinitionIndex = 17531;
 
 	class LevelNPCInfoOverrideLocation : public ::RPG::GameCore::JsonConfig
 	{

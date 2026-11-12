@@ -3,36 +3,36 @@
 #include "unitysdk/JNJBKCEDKLP.h"
 #include "unitysdk/System/Object.h"
 
-#define EDIMGPNEGOH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB2C0)
+#define EDIMGPNEGOH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D77C980)
 
-inline static constexpr unsigned int EDIMGPNEGOH_TypeDefinitionIndex = 37216;
+inline static constexpr unsigned int EDIMGPNEGOH_TypeDefinitionIndex = 38144;
 
 	class EDIMGPNEGOH : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::JNJBKCEDKLP>** StaticGet_DEPKIKFKLBI()
 		{
-			return (::Il2CppArray<::JNJBKCEDKLP>**)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x181D0);
-		}
-
-		static ::System::Int32* StaticGet_INCCLPMEGBI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x59E0);
-		}
-
-		static ::System::Int32* StaticGet_LPHOKJHCNNG()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x59E4);
-		}
-
-		static ::System::Int32* StaticGet_KOHOELBIIJF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x59E8);
+			return (::Il2CppArray<::JNJBKCEDKLP>**)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x10F90);
 		}
 
 		static ::System::Int32* StaticGet_NHALKPBPGAP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x59EC);
+			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x37F0);
+		}
+
+		static ::System::Int32* StaticGet_LPHOKJHCNNG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x37F4);
+		}
+
+		static ::System::Int32* StaticGet_KOHOELBIIJF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x37F8);
+		}
+
+		static ::System::Int32* StaticGet_INCCLPMEGBI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "EDIMGPNEGOH")->GetStaticField(0x37FC);
 		}
 
 		// static const ::System::Object HPMBIEKDEIM; // 0x0

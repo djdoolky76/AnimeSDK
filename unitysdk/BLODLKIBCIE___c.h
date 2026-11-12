@@ -4,18 +4,18 @@
 class BLODLKIBCIE;
 namespace System { class Object; }
 
-#define BLODLKIBCIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF674B0)
-#define BLODLKIBCIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF674E0)
-#define BLODLKIBCIE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF674F0)
+#define BLODLKIBCIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2BF9C0)
+#define BLODLKIBCIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2BF9F0)
+#define BLODLKIBCIE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F2BFA00)
 
-inline static constexpr unsigned int BLODLKIBCIE___c_TypeDefinitionIndex = 29776;
+inline static constexpr unsigned int BLODLKIBCIE___c_TypeDefinitionIndex = 30674;
 
 	class BLODLKIBCIE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D4F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50440);
 		}
 
 		static ::System::Void _cctor()

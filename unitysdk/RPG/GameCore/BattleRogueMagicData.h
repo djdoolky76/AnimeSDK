@@ -6,12 +6,12 @@ namespace RPG::GameCore { class BattleRogueMagicData_RoundCount; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE5CB460)
-#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0xE5CB1B0)
+#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF04CFB0)
+#define RPG_GAMECORE_BATTLEROGUEMAGICDATA_DEEPCLONE_OFFSET UNITYSDK_OFFSET(0xF04CD00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleRogueMagicData_TypeDefinitionIndex = 56314;
+	inline static constexpr unsigned int BattleRogueMagicData_TypeDefinitionIndex = 57528;
 
 	class BattleRogueMagicData : public ::System::Object
 	{

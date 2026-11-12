@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SetDynamicValueByMazeBuffConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA7290)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAA72A0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA7260)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB92D0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECB92E0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYMAZEBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECB92A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByMazeBuffConfig_TypeDefinitionIndex = 23834;
+	inline static constexpr unsigned int SetDynamicValueByMazeBuffConfig_TypeDefinitionIndex = 24291;
 
 	class SetDynamicValueByMazeBuffConfig : public ::RPG::GameCore::TaskConfig
 	{

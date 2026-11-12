@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class EffectPluginManager; }
 
-#define PHIOCBFHOLF_HIBMFAPHDFD_OFFSET UNITYSDK_OFFSET(0xC24F1C0)
+#define PHIOCBFHOLF_HIBMFAPHDFD_OFFSET UNITYSDK_OFFSET(0xCB745D0)
 
-inline static constexpr unsigned int PHIOCBFHOLF_TypeDefinitionIndex = 70775;
+inline static constexpr unsigned int PHIOCBFHOLF_TypeDefinitionIndex = 72754;
 
 	class PHIOCBFHOLF : public ::System::Object
 	{

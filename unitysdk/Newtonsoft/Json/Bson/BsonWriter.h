@@ -7,23 +7,23 @@ namespace Newtonsoft::Json::Bson { class BsonToken; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x1C3797A0)
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1C379740)
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C3796A0)
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEOBJECTID_OFFSET UNITYSDK_OFFSET(0x1C379B00)
-#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEREGEX_OFFSET UNITYSDK_OFFSET(0x1C379F00)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDTOKEN_OFFSET UNITYSDK_OFFSET(0x1D4FFEF0)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_ADDVALUE_OFFSET UNITYSDK_OFFSET(0x1D4FFE90)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1D4FFDF0)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEOBJECTID_OFFSET UNITYSDK_OFFSET(0x1D500250)
+#define NEWTONSOFT_JSON_BSON_BSONWRITER_WRITEREGEX_OFFSET UNITYSDK_OFFSET(0x1D500650)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonWriter_TypeDefinitionIndex = 9860;
+	inline static constexpr unsigned int BsonWriter_TypeDefinitionIndex = 9868;
 
 	class BsonWriter : public ::Newtonsoft::Json::JsonWriter
 	{
 	public:
-		::Newtonsoft::Json::Bson::BsonBinaryWriter* _writer; // 0x60
-		::System::String* _propertyName; // 0x68
-		::Newtonsoft::Json::Bson::BsonToken* _root; // 0x70
-		::Newtonsoft::Json::Bson::BsonToken* _parent; // 0x78
+		::Newtonsoft::Json::Bson::BsonToken* _parent; // 0x60
+		::Newtonsoft::Json::Bson::BsonToken* _root; // 0x68
+		::Newtonsoft::Json::Bson::BsonBinaryWriter* _writer; // 0x70
+		::System::String* _propertyName; // 0x78
 		::System::Void Flush()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONWRITER_FLUSH_OFFSET))(this);

@@ -4,18 +4,18 @@
 class IFEABBJBIGK;
 namespace RPG::Client::FateRin::View::Battle { class FateRinBattleCardFlowRunner; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFBBAD0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0___TRACK_B__0_OFFSET UNITYSDK_OFFSET(0xCFBBB70)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD93DEB0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0___TRACK_B__0_OFFSET UNITYSDK_OFFSET(0xD93DF50)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinBattleCardFlowRunner___c__DisplayClass25_0_TypeDefinitionIndex = 80667;
+	inline static constexpr unsigned int FateRinBattleCardFlowRunner___c__DisplayClass25_0_TypeDefinitionIndex = 83447;
 
 	class FateRinBattleCardFlowRunner___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::IFEABBJBIGK* command; // 0x10
-		::RPG::Client::FateRin::View::Battle::FateRinBattleCardFlowRunner* __4__this; // 0x18
+		::RPG::Client::FateRin::View::Battle::FateRinBattleCardFlowRunner* __4__this; // 0x10
+		::IFEABBJBIGK* command; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINBATTLECARDFLOWRUNNER___C__DISPLAYCLASS25_0_CTOR_OFFSET))(this);

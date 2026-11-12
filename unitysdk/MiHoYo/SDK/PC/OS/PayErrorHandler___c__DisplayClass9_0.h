@@ -6,18 +6,18 @@ namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::PC::OS { class PayErrorHandler; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF41870)
-#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0__SHOWPAYAGELIMITNEWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BF424C0)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C8490)
+#define MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0__SHOWPAYAGELIMITNEWFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D0C90E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_0_TypeDefinitionIndex = 8718;
+	inline static constexpr unsigned int PayErrorHandler___c__DisplayClass9_0_TypeDefinitionIndex = 8727;
 
 	class PayErrorHandler___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::PayErrorHandler* __4__this; // 0x10
-		::MiHoYo::SDK::AccountModel* account; // 0x18
+		::MiHoYo::SDK::AccountModel* account; // 0x10
+		::MiHoYo::SDK::PC::OS::PayErrorHandler* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_PAYERRORHANDLER___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);

@@ -11,35 +11,35 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveTechTreeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETECHTREEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D781B30)
-#define RPG_GAMECORE_IDLELIVETECHTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D781440)
+#define RPG_GAMECORE_IDLELIVETECHTREEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E995260)
+#define RPG_GAMECORE_IDLELIVETECHTREEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E994B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTechTreeRow_TypeDefinitionIndex = 11729;
+	inline static constexpr unsigned int IdleLiveTechTreeRow_TypeDefinitionIndex = 11786;
 
 	class IdleLiveTechTreeRow : public ::System::Object
 	{
 	public:
-		::System::String* AbilityName; // 0x10
+		::Il2CppArray<::System::UInt32>* PrePointIDList; // 0x10
 		::System::String* IconPath; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x20
-		::Il2CppArray<::System::UInt32>* PrePointIDList; // 0x28
-		::System::UInt32 Param; // 0x30
-		::RPG::GameCore::IdleLiveTechTreeEffectType Type; // 0x34
-		::System::Double PropertyParam; // 0x38
-		::RPG::Client::TextID Name; // 0x40
-		::System::UInt32 ID; // 0x50
-		::System::Boolean IsMainPoint; // 0x54
-		::System::Boolean IsBase; // 0x55
+		::System::String* AbilityName; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x28
+		::RPG::Client::TextID Desc; // 0x30
+		::System::UInt32 Param; // 0x40
+		::RPG::GameCore::IdleLiveAvatarPropertyTargetType PropertyTarget; // 0x44
+		::RPG::GameCore::FixPoint TechAddPower; // 0x48
+		::RPG::GameCore::ILBattleAvatarTag TechPowerTagLimit; // 0x50
+		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x54
+		::RPG::GameCore::FixPoint TechPowerFactor; // 0x58
+		::System::UInt32 ID; // 0x60
+		::System::Boolean IsMainPoint; // 0x64
+		::System::Boolean IsBase; // 0x65
 		::System::Byte _padding0[0x2];
-		::RPG::GameCore::ILBattleAvatarTag TechPowerTagLimit; // 0x58
-		::System::UInt32 Cost; // 0x5C
-		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x60
-		::RPG::GameCore::IdleLiveAvatarPropertyTargetType PropertyTarget; // 0x64
-		::RPG::GameCore::FixPoint TechAddPower; // 0x68
-		::RPG::Client::TextID Desc; // 0x70
-		::RPG::GameCore::FixPoint TechPowerFactor; // 0x80
+		::RPG::Client::TextID Name; // 0x68
+		::System::UInt32 Cost; // 0x78
+		::RPG::GameCore::IdleLiveTechTreeEffectType Type; // 0x7C
+		::System::Double PropertyParam; // 0x80
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVETECHTREEROW_CTOR_OFFSET))(this);

@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 class COOONBGCCCM;
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILESECTIONVIEWMODEL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEE2650)
-#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILESECTIONVIEWMODEL___C__DISPLAYCLASS1_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xCEE31F0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILESECTIONVIEWMODEL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD8AAC40)
+#define RPG_CLIENT_FATERIN_CARD_FATERINBATTLECARDPILESECTIONVIEWMODEL___C__DISPLAYCLASS1_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD8AB7E0)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinBattleCardPileSectionViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 81117;
+	inline static constexpr unsigned int FateRinBattleCardPileSectionViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 83897;
 
 	class FateRinBattleCardPileSectionViewModel___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SyncCharLightAndCameraDir; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGKABMPLNPI_CTOR_OFFSET UNITYSDK_OFFSET(0x15766490)
-#define FGKABMPLNPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157664A0)
-#define FGKABMPLNPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157664E0)
-#define FGKABMPLNPI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15766820)
-#define FGKABMPLNPI_TICK_OFFSET UNITYSDK_OFFSET(0x15766870)
+#define FGKABMPLNPI_CTOR_OFFSET UNITYSDK_OFFSET(0x16686BC0)
+#define FGKABMPLNPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16686BD0)
+#define FGKABMPLNPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16686C10)
+#define FGKABMPLNPI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16687030)
+#define FGKABMPLNPI_TICK_OFFSET UNITYSDK_OFFSET(0x16687080)
 
-inline static constexpr unsigned int FGKABMPLNPI_TypeDefinitionIndex = 58761;
+inline static constexpr unsigned int FGKABMPLNPI_TypeDefinitionIndex = 60029;
 
 	class FGKABMPLNPI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SyncCharLightAndCameraDir* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SyncCharLightAndCameraDir* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SyncCharLightAndCameraDir* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SyncCharLightAndCameraDir*))((::PBYTE)hIl2Cpp + FGKABMPLNPI_CTOR_OFFSET))(this, a1, a2);

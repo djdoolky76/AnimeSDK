@@ -4,18 +4,18 @@
 class EGIJMPCIJOG;
 namespace System { class Object; }
 
-#define EGIJMPCIJOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E294A20)
-#define EGIJMPCIJOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E294A60)
-#define EGIJMPCIJOG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E294A70)
+#define EGIJMPCIJOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5772B0)
+#define EGIJMPCIJOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5772F0)
+#define EGIJMPCIJOG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F577300)
 
-inline static constexpr unsigned int EGIJMPCIJOG___c_TypeDefinitionIndex = 34652;
+inline static constexpr unsigned int EGIJMPCIJOG___c_TypeDefinitionIndex = 35580;
 
 	class EGIJMPCIJOG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46160);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x532E0);
 		}
 
 		static ::System::Void _cctor()

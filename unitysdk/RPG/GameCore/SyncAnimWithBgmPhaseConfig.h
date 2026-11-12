@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SyncAnimWithBgmPhaseConfig; }
 
-#define RPG_GAMECORE_SYNCANIMWITHBGMPHASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB50020)
-#define RPG_GAMECORE_SYNCANIMWITHBGMPHASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB4FEA0)
+#define RPG_GAMECORE_SYNCANIMWITHBGMPHASECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFF620)
+#define RPG_GAMECORE_SYNCANIMWITHBGMPHASECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDFF4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SyncAnimWithBgmPhaseConfig_TypeDefinitionIndex = 22391;
+	inline static constexpr unsigned int SyncAnimWithBgmPhaseConfig_TypeDefinitionIndex = 22800;
 
 	class SyncAnimWithBgmPhaseConfig : public ::RPG::GameCore::JsonConfig
 	{

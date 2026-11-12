@@ -7,20 +7,21 @@ class FCOEMCEDLNL;
 class MFHGBPDJJPE;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define MFHGBPDJJPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D159290)
-#define MFHGBPDJJPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1592A0)
-#define MFHGBPDJJPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D159250)
+#define MFHGBPDJJPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3580D0)
+#define MFHGBPDJJPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3580E0)
+#define MFHGBPDJJPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E358090)
 
-inline static constexpr unsigned int MFHGBPDJJPE_TypeDefinitionIndex = 22620;
+inline static constexpr unsigned int MFHGBPDJJPE_TypeDefinitionIndex = 23035;
 
 	class MFHGBPDJJPE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::ElationTimeAtmosphereShowNumberType CBFGKOPANAK; // 0x20
-		::RPG::GameCore::ElationTimeAtmosphereType GMPGDEINODK; // 0x24
-		::System::Boolean FGFILICHKOH; // 0x28
-		::System::Boolean GNDCCBNILML; // 0x29
+		::System::Boolean FGFILICHKOH; // 0x20
+		::System::Boolean GNDCCBNILML; // 0x21
+		::System::Byte _padding0[0x2];
+		::RPG::GameCore::ElationTimeAtmosphereShowNumberType CBFGKOPANAK; // 0x24
+		::RPG::GameCore::ElationTimeAtmosphereType GMPGDEINODK; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MFHGBPDJJPE_CTOR_OFFSET))(this);

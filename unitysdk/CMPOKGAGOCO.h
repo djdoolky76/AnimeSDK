@@ -3,9 +3,9 @@
 #include "unitysdk/DJJKNHPLHDI.h"
 class FDPALAEIHPB;
 
-#define CMPOKGAGOCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13230)
+#define CMPOKGAGOCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBD6AB0)
 
-inline static constexpr unsigned int CMPOKGAGOCO_TypeDefinitionIndex = 42880;
+inline static constexpr unsigned int CMPOKGAGOCO_TypeDefinitionIndex = 43861;
 
 	class CMPOKGAGOCO : public ::DJJKNHPLHDI
 	{

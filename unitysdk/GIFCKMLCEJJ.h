@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GIFCKMLCEJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A34360)
+#define GIFCKMLCEJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1696EA80)
 
-inline static constexpr unsigned int GIFCKMLCEJJ_TypeDefinitionIndex = 81277;
+inline static constexpr unsigned int GIFCKMLCEJJ_TypeDefinitionIndex = 84057;
 
 	class GIFCKMLCEJJ : public ::System::Object
 	{

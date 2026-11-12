@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KIHPGEJOMHC_MemberFrontPoseRejectReason_TypeDefinitionIndex = 53088;
+inline static constexpr unsigned int KIHPGEJOMHC_MemberFrontPoseRejectReason_TypeDefinitionIndex = 54249;
 
 	enum class KIHPGEJOMHC_MemberFrontPoseRejectReason : ::System::Int32
 	{

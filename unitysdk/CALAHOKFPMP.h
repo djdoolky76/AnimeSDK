@@ -9,24 +9,24 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define CALAHOKFPMP_BHLEBNHICDH_OFFSET UNITYSDK_OFFSET(0xC488180)
-#define CALAHOKFPMP_CTOR_OFFSET UNITYSDK_OFFSET(0xC4882F0)
-#define CALAHOKFPMP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC487DE0)
-#define CALAHOKFPMP_OPLEELEACCC_OFFSET UNITYSDK_OFFSET(0xC487ED0)
-#define CALAHOKFPMP_PDHNKIPOCKB_OFFSET UNITYSDK_OFFSET(0xC488220)
-#define CALAHOKFPMP__ONBIND_OFFSET UNITYSDK_OFFSET(0xC487BF0)
+#define CALAHOKFPMP_BHLEBNHICDH_OFFSET UNITYSDK_OFFSET(0xCDF0820)
+#define CALAHOKFPMP_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF0990)
+#define CALAHOKFPMP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xCDF0450)
+#define CALAHOKFPMP_OPLEELEACCC_OFFSET UNITYSDK_OFFSET(0xCDF0570)
+#define CALAHOKFPMP_PDHNKIPOCKB_OFFSET UNITYSDK_OFFSET(0xCDF08C0)
+#define CALAHOKFPMP__ONBIND_OFFSET UNITYSDK_OFFSET(0xCDF00C0)
 
-inline static constexpr unsigned int CALAHOKFPMP_TypeDefinitionIndex = 72341;
+inline static constexpr unsigned int CALAHOKFPMP_TypeDefinitionIndex = 74420;
 
 	class CALAHOKFPMP : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* LNNNNHOEMEO; // 0x60
-		::UnityEngine::UI::Text* MFPKJEIPPCF; // 0x68
-		::UnityEngine::Transform* OOELJOMOOJF; // 0x70
-		::UnityEngine::UI::Text* BKPHCNFKJKG; // 0x78
+		::UnityEngine::UI::Text* MFPKJEIPPCF; // 0x60
+		::UnityEngine::UI::Text* BKPHCNFKJKG; // 0x68
+		::UnityEngine::Transform* LNNNNHOEMEO; // 0x70
+		::UnityEngine::Transform* AKLMHAHKCJG; // 0x78
 		::UnityEngine::UI::Text* MPMFMIKLPDJ; // 0x80
-		::UnityEngine::Transform* AKLMHAHKCJG; // 0x88
+		::UnityEngine::Transform* OOELJOMOOJF; // 0x88
 		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x90
 		::System::String* DLJDAMGNOIM; // 0x98
 		::RPG::GameCore::NumBarSubType EBBLKKDNGII; // 0xA0

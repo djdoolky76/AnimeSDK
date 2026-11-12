@@ -6,20 +6,20 @@ namespace RPG::Client::FateRin::View::Battle { class FateRinEffectController; }
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC9930)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS10_0__PLAYTRAIL_B__0_OFFSET UNITYSDK_OFFSET(0xCFCAE10)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD94C3B0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS10_0__PLAYTRAIL_B__0_OFFSET UNITYSDK_OFFSET(0xD94D890)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinEffectController___c__DisplayClass10_0_TypeDefinitionIndex = 80690;
+	inline static constexpr unsigned int FateRinEffectController___c__DisplayClass10_0_TypeDefinitionIndex = 83470;
 
 	class FateRinEffectController___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::FateRin::View::Battle::FateRinBezierTrailEffect* trail; // 0x10
 		::RPG::Client::FateRin::View::Battle::FateRinEffectController* __4__this; // 0x18
-		::System::Action* onComplete; // 0x20
-		::System::Object* owner; // 0x28
+		::System::Object* owner; // 0x20
+		::System::Action* onComplete; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINEFFECTCONTROLLER___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);

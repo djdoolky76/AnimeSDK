@@ -1,27 +1,30 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class AOFOEOIJEHF;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CAFKOCAKJOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC47BC90)
-#define CAFKOCAKJOJ_FDAFLPCLCEJ_OFFSET UNITYSDK_OFFSET(0xC47B8E0)
-#define CAFKOCAKJOJ_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xC47B930)
-#define CAFKOCAKJOJ_MBINGCOGKAI_OFFSET UNITYSDK_OFFSET(0xC47BA70)
-#define CAFKOCAKJOJ_PREUPDATEDONE_OFFSET UNITYSDK_OFFSET(0xC47BB00)
-#define CAFKOCAKJOJ_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xC47B9E0)
-#define CAFKOCAKJOJ_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xC47B980)
-#define CAFKOCAKJOJ_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xC47B870)
+#define CAFKOCAKJOJ_BLKDPDJOEJH_OFFSET UNITYSDK_OFFSET(0xCB67490)
+#define CAFKOCAKJOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCB676A0)
+#define CAFKOCAKJOJ_FAMIICCLOBI_OFFSET UNITYSDK_OFFSET(0xCB67660)
+#define CAFKOCAKJOJ_FDAFLPCLCEJ_OFFSET UNITYSDK_OFFSET(0xCB671F0)
+#define CAFKOCAKJOJ_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xCB67240)
+#define CAFKOCAKJOJ_PREUPDATEDONE_OFFSET UNITYSDK_OFFSET(0xCB67420)
+#define CAFKOCAKJOJ_UPDATEADDITEM_OFFSET UNITYSDK_OFFSET(0xCB67300)
+#define CAFKOCAKJOJ_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xCB672A0)
+#define CAFKOCAKJOJ_UPDATEITEMREMOVE_OFFSET UNITYSDK_OFFSET(0xCB67390)
+#define CAFKOCAKJOJ_UPDATESTART_OFFSET UNITYSDK_OFFSET(0xCB67190)
 
-inline static constexpr unsigned int CAFKOCAKJOJ_TypeDefinitionIndex = 64958;
+inline static constexpr unsigned int CAFKOCAKJOJ_TypeDefinitionIndex = 66567;
 
-	class CAFKOCAKJOJ : public ::AMCOEFHHBPO
+	class CAFKOCAKJOJ : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::System::Boolean EDIBEIOPBHN; // 0x10
-		::System::Boolean BFHGBICPEPI; // 0x11
-		::System::Boolean CFLHIOCDLEL; // 0x12
+		::System::Boolean CFLHIOCDLEL; // 0x11
+		::System::Boolean EIGFOKNMPJB; // 0x12
+		::System::Boolean HDNEHEILOKJ; // 0x13
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAFKOCAKJOJ_CTOR_OFFSET))(this);
@@ -47,14 +50,24 @@ inline static constexpr unsigned int CAFKOCAKJOJ_TypeDefinitionIndex = 64958;
 			return ((::System::Void(*)(::PVOID, ::AOFOEOIJEHF*))((::PBYTE)hIl2Cpp + CAFKOCAKJOJ_UPDATEADDITEM_OFFSET))(this, a1);
 		}
 
-		::System::Void MBINGCOGKAI(::AOFOEOIJEHF* a1)
+		::System::Void UpdateItemRemove(::AOFOEOIJEHF* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::AOFOEOIJEHF*))((::PBYTE)hIl2Cpp + CAFKOCAKJOJ_MBINGCOGKAI_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::AOFOEOIJEHF*))((::PBYTE)hIl2Cpp + CAFKOCAKJOJ_UPDATEITEMREMOVE_OFFSET))(this, a1);
 		}
 
 		::System::Void PreUpdateDone()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAFKOCAKJOJ_PREUPDATEDONE_OFFSET))(this);
+		}
+
+		::System::Boolean BLKDPDJOEJH()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CAFKOCAKJOJ_BLKDPDJOEJH_OFFSET))(this);
+		}
+
+		::System::Boolean FAMIICCLOBI()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CAFKOCAKJOJ_FAMIICCLOBI_OFFSET))(this);
 		}
 
 		::System::Void FDAFLPCLCEJ()

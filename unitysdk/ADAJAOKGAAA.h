@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define ADAJAOKGAAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C581620)
+#define ADAJAOKGAAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D702F40)
 
-inline static constexpr unsigned int ADAJAOKGAAA_TypeDefinitionIndex = 37058;
+inline static constexpr unsigned int ADAJAOKGAAA_TypeDefinitionIndex = 37986;
 
 	class ADAJAOKGAAA : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

@@ -10,12 +10,12 @@ namespace RPG::GameCore { class DynamicLoadBlockData; }
 namespace RPG::GameCore { class UnifiedBattleAreaConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC72C70)
-#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC72860)
+#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE85920)
+#define RPG_GAMECORE_UNIFIEDBATTLEAREACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE85590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnifiedBattleAreaConfig_TypeDefinitionIndex = 17423;
+	inline static constexpr unsigned int UnifiedBattleAreaConfig_TypeDefinitionIndex = 17591;
 
 	class UnifiedBattleAreaConfig : public ::RPG::GameCore::JsonConfig
 	{

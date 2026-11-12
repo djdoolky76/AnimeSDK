@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/PlayerHitReason.h"
 #include "unitysdk/System/Object.h"
 
-#define PHFPPINMBLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E96D0)
+#define PHFPPINMBLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBAC4D0)
 
-inline static constexpr unsigned int PHFPPINMBLN_TypeDefinitionIndex = 42358;
+inline static constexpr unsigned int PHFPPINMBLN_TypeDefinitionIndex = 43333;
 
 	class PHFPPINMBLN : public ::System::Object
 	{

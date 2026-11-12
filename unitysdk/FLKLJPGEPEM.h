@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_ByContainEntityTag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLKLJPGEPEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1583D7E0)
-#define FLKLJPGEPEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1583D810)
+#define FLKLJPGEPEM_CTOR_OFFSET UNITYSDK_OFFSET(0x167AD1B0)
+#define FLKLJPGEPEM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x167AD1E0)
 
-inline static constexpr unsigned int FLKLJPGEPEM_TypeDefinitionIndex = 52095;
+inline static constexpr unsigned int FLKLJPGEPEM_TypeDefinitionIndex = 53200;
 
 	class FLKLJPGEPEM
 	{

@@ -7,9 +7,9 @@ namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml::Schema { class XmlBaseConverter; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EED1C80)
-#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x1EED13D0)
-#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EED12B0)
+#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20181440)
+#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CHANGETYPE_OFFSET UNITYSDK_OFFSET(0x20180B90)
+#define SYSTEM_XML_SCHEMA_XMLANYLISTCONVERTER_CTOR_OFFSET UNITYSDK_OFFSET(0x20180A70)
 
 namespace System::Xml::Schema
 {
@@ -18,14 +18,14 @@ namespace System::Xml::Schema
 	class XmlAnyListConverter : public ::System::Xml::Schema::XmlListConverter
 	{
 	public:
-		static ::System::Xml::Schema::XmlValueConverter** StaticGet_ItemList()
-		{
-			return (::System::Xml::Schema::XmlValueConverter**)UnitySDK::FromName("System.Xml.Schema", "XmlAnyListConverter")->GetStaticField(0x24440);
-		}
-
 		static ::System::Xml::Schema::XmlValueConverter** StaticGet_AnyAtomicList()
 		{
-			return (::System::Xml::Schema::XmlValueConverter**)UnitySDK::FromName("System.Xml.Schema", "XmlAnyListConverter")->GetStaticField(0x24448);
+			return (::System::Xml::Schema::XmlValueConverter**)UnitySDK::FromName("System.Xml.Schema", "XmlAnyListConverter")->GetStaticField(0x2ED70);
+		}
+
+		static ::System::Xml::Schema::XmlValueConverter** StaticGet_ItemList()
+		{
+			return (::System::Xml::Schema::XmlValueConverter**)UnitySDK::FromName("System.Xml.Schema", "XmlAnyListConverter")->GetStaticField(0x2ED78);
 		}
 
 		::System::Void _ctor(::System::Xml::Schema::XmlBaseConverter* a1)

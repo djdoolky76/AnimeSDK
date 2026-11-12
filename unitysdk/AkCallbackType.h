@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkCallbackType_TypeDefinitionIndex = 44725;
+inline static constexpr unsigned int AkCallbackType_TypeDefinitionIndex = 45800;
 
 	enum class AkCallbackType : ::System::Int32
 	{

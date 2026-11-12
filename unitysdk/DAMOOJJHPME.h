@@ -4,10 +4,10 @@ class NGFHCJIAOLH;
 class NOLPNHJGAJG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DAMOOJJHPME_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC5D30)
-#define DAMOOJJHPME_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFC5DB0)
+#define DAMOOJJHPME_CTOR_OFFSET UNITYSDK_OFFSET(0xE929780)
+#define DAMOOJJHPME_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE929800)
 
-inline static constexpr unsigned int DAMOOJJHPME_TypeDefinitionIndex = 52652;
+inline static constexpr unsigned int DAMOOJJHPME_TypeDefinitionIndex = 53759;
 
 	class DAMOOJJHPME
 	{

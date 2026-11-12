@@ -3,7 +3,7 @@
 #include "unitysdk/System/Security/Principal/GenericIdentity.h"
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTPLISTENERBASICIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F055E40)
+#define SYSTEM_NET_HTTPLISTENERBASICIDENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x20305970)
 
 namespace System::Net
 {

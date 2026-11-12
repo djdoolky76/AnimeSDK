@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicMainAffixConfigRow; }
 
-#define RPG_GAMECORE_RELICMAINAFFIXCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D97FD20)
-#define RPG_GAMECORE_RELICMAINAFFIXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D97F620)
+#define RPG_GAMECORE_RELICMAINAFFIXCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB98150)
+#define RPG_GAMECORE_RELICMAINAFFIXCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB97A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicMainAffixConfigRow_TypeDefinitionIndex = 14633;
+	inline static constexpr unsigned int RelicMainAffixConfigRow_TypeDefinitionIndex = 14789;
 
 	class RelicMainAffixConfigRow : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::GameCore
 		::System::UInt32 GroupID; // 0x10
 		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint BaseValue; // 0x18
-		::System::UInt32 AffixID; // 0x20
-		::RPG::GameCore::AvatarPropertyType Property; // 0x24
-		::RPG::GameCore::FixPoint LevelAdd; // 0x28
+		::RPG::GameCore::FixPoint LevelAdd; // 0x20
+		::System::UInt32 AffixID; // 0x28
+		::RPG::GameCore::AvatarPropertyType Property; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICMAINAFFIXCONFIGROW_CTOR_OFFSET))(this);

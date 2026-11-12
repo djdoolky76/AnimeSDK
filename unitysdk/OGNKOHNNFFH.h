@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OGNKOHNNFFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C992CA0)
+#define OGNKOHNNFFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB54A10)
 
-inline static constexpr unsigned int OGNKOHNNFFH_TypeDefinitionIndex = 42135;
+inline static constexpr unsigned int OGNKOHNNFFH_TypeDefinitionIndex = 43110;
 
 	class OGNKOHNNFFH : public ::System::Object
 	{

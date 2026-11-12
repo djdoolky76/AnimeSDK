@@ -4,18 +4,18 @@
 class NEBJABOEDND;
 namespace System { class Object; }
 
-#define NEBJABOEDND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAEFCF0)
-#define NEBJABOEDND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAEFD20)
-#define NEBJABOEDND___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAEFD30)
+#define NEBJABOEDND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE31000)
+#define NEBJABOEDND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE31030)
+#define NEBJABOEDND___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE31040)
 
-inline static constexpr unsigned int NEBJABOEDND___c_TypeDefinitionIndex = 27552;
+inline static constexpr unsigned int NEBJABOEDND___c_TypeDefinitionIndex = 28083;
 
 	class NEBJABOEDND___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DAB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68AB0);
 		}
 
 		static ::System::Void _cctor()

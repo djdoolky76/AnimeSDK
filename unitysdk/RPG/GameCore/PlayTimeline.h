@@ -7,13 +7,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayTimeline; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D932390)
-#define RPG_GAMECORE_PLAYTIMELINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9323A0)
-#define RPG_GAMECORE_PLAYTIMELINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D932350)
+#define RPG_GAMECORE_PLAYTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4B500)
+#define RPG_GAMECORE_PLAYTIMELINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB4B510)
+#define RPG_GAMECORE_PLAYTIMELINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB4B4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayTimeline_TypeDefinitionIndex = 20623;
+	inline static constexpr unsigned int PlayTimeline_TypeDefinitionIndex = 20960;
 
 	class PlayTimeline : public ::RPG::GameCore::TaskConfig
 	{

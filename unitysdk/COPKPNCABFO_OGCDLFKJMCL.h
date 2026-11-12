@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define COPKPNCABFO_OGCDLFKJMCL_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCB5E0)
+#define COPKPNCABFO_OGCDLFKJMCL_CTOR_OFFSET UNITYSDK_OFFSET(0xE618060)
 
-inline static constexpr unsigned int COPKPNCABFO_OGCDLFKJMCL_TypeDefinitionIndex = 51759;
+inline static constexpr unsigned int COPKPNCABFO_OGCDLFKJMCL_TypeDefinitionIndex = 52845;
 
 	class COPKPNCABFO_OGCDLFKJMCL : public ::System::Object
 	{

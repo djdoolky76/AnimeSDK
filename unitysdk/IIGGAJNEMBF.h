@@ -3,10 +3,10 @@
 class NLPDKPANIMH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIGGAJNEMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1643B620)
-#define IIGGAJNEMBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1643B650)
+#define IIGGAJNEMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x173F42B0)
+#define IIGGAJNEMBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173F42E0)
 
-inline static constexpr unsigned int IIGGAJNEMBF_TypeDefinitionIndex = 54169;
+inline static constexpr unsigned int IIGGAJNEMBF_TypeDefinitionIndex = 55333;
 
 	class IIGGAJNEMBF
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphFindNpc; }
 namespace RPG::GameCore { class PhotoGraphFindNpcConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D910DB0)
-#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D910CC0)
+#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2A000)
+#define RPG_GAMECORE_PHOTOGRAPHFINDNPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB29F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphFindNpcConfig_TypeDefinitionIndex = 21625;
+	inline static constexpr unsigned int PhotoGraphFindNpcConfig_TypeDefinitionIndex = 22013;
 
 	class PhotoGraphFindNpcConfig : public ::RPG::GameCore::JsonConfig
 	{

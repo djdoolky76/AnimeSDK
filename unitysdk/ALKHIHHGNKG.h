@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class Camera; }
 
-#define ALKHIHHGNKG_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
+#define ALKHIHHGNKG_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
 
-inline static constexpr unsigned int ALKHIHHGNKG_TypeDefinitionIndex = 73054;
+inline static constexpr unsigned int ALKHIHHGNKG_TypeDefinitionIndex = 75168;
 
 	struct alignas(8) ALKHIHHGNKG
 	{

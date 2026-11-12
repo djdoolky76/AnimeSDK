@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define GEBGILEDPPC_CTOR_OFFSET UNITYSDK_OFFSET(0x159C6580)
+#define GEBGILEDPPC_CTOR_OFFSET UNITYSDK_OFFSET(0x168FF500)
 
-inline static constexpr unsigned int GEBGILEDPPC_TypeDefinitionIndex = 74015;
+inline static constexpr unsigned int GEBGILEDPPC_TypeDefinitionIndex = 76151;
 
 	class GEBGILEDPPC
 	{

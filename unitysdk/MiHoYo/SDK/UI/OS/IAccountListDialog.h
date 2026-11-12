@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAccountListDialog_TypeDefinitionIndex = 8467;
+	inline static constexpr unsigned int IAccountListDialog_TypeDefinitionIndex = 8476;
 
 	class IAccountListDialog
 	{

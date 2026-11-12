@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class HPCKCJDCNFM;
 
-#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMECHARACTERMOVEMENTPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA097D0)
+#define RPG_CLIENT_LITTLEGAME_TIMELINECONTROLGAMECHARACTERMOVEMENTPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBCCF00)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameCharacterMovementPath_TypeDefinitionIndex = 42490;
+	inline static constexpr unsigned int TimelineControlGameCharacterMovementPath_TypeDefinitionIndex = 43465;
 
 	class TimelineControlGameCharacterMovementPath : public ::System::Object
 	{

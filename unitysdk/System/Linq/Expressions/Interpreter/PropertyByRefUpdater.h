@@ -9,9 +9,9 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE26420)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x1EE26600)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EE26440)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_CTOR_OFFSET UNITYSDK_OFFSET(0x200D5EA0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UNDEFINETEMPS_OFFSET UNITYSDK_OFFSET(0x200D6080)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_UPDATE_OFFSET UNITYSDK_OFFSET(0x200D5EC0)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -20,9 +20,8 @@ namespace System::Linq::Expressions::Interpreter
 	class PropertyByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:
-		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _object; // 0x18
-		::System::Byte _padding0[0x10];
-		::System::Reflection::PropertyInfo* _property; // 0x30
+		::System::Reflection::PropertyInfo* _property; // 0x18
+		::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> _object; // 0x20
 		::System::Void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> a1, ::System::Reflection::PropertyInfo* a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>, ::System::Reflection::PropertyInfo*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_PROPERTYBYREFUPDATER_CTOR_OFFSET))(this, a1, a2, a3);

@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int APMC_TypeDefinitionIndex = 46492;
+	inline static constexpr unsigned int APMC_TypeDefinitionIndex = 47520;
 
 	class APMC : public ::System::Object
 	{

@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationCharacterUIConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define AFGOLNPFJIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB4F40)
-#define AFGOLNPFJIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCB4F50)
-#define AFGOLNPFJIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB4F10)
+#define AFGOLNPFJIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE5DBB0)
+#define AFGOLNPFJIF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DE5DBC0)
+#define AFGOLNPFJIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE5DB80)
 
-inline static constexpr unsigned int AFGOLNPFJIF_TypeDefinitionIndex = 23171;
+inline static constexpr unsigned int AFGOLNPFJIF_TypeDefinitionIndex = 23602;
 
 	class AFGOLNPFJIF : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::ElationCharacterUIConfig* OLOKHEMMGOH; // 0x20
+		::RPG::GameCore::ElationCharacterUIConfig* OLOKHEMMGOH; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::System::Boolean EKGDOELGLFK; // 0x28
 		::System::Void _ctor()
 		{

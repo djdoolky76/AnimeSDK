@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace UnityEngine { class Texture3D; }
 
-#define RPG_CUSTOMRP_CLOUDTRANSITION_KEYFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1C720)
+#define RPG_CUSTOMRP_CLOUDTRANSITION_KEYFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDC3A30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CloudTransition_KeyFrame_TypeDefinitionIndex = 37730;
+	inline static constexpr unsigned int CloudTransition_KeyFrame_TypeDefinitionIndex = 38659;
 
 	class CloudTransition_KeyFrame : public ::System::Object
 	{

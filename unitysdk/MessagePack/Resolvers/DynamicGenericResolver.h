@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack::Resolvers { class DynamicGenericResolver; }
 
-#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBCE090)
-#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBCE080)
+#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD57000)
+#define MESSAGEPACK_RESOLVERS_DYNAMICGENERICRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD56FF0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int DynamicGenericResolver_TypeDefinitionIndex = 7256;
+	inline static constexpr unsigned int DynamicGenericResolver_TypeDefinitionIndex = 7267;
 
 	class DynamicGenericResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::DynamicGenericResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::DynamicGenericResolver**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicGenericResolver")->GetStaticField(0x26640);
+			return (::MessagePack::Resolvers::DynamicGenericResolver**)UnitySDK::FromName("MessagePack.Resolvers", "DynamicGenericResolver")->GetStaticField(0x4AEE0);
 		}
 
 		::System::Void _ctor()

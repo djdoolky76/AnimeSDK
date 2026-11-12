@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueManagerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMANAGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D9870)
-#define RPG_GAMECORE_ROGUEMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D9170)
+#define RPG_GAMECORE_ROGUEMANAGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC23060)
+#define RPG_GAMECORE_ROGUEMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC22960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueManagerRow_TypeDefinitionIndex = 14713;
+	inline static constexpr unsigned int RogueManagerRow_TypeDefinitionIndex = 14869;
 
 	class RogueManagerRow : public ::System::Object
 	{

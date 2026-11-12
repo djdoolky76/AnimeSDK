@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HFKMPIEIIOI_CCTOR_OFFSET UNITYSDK_OFFSET(0x15C88800)
-#define HFKMPIEIIOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15C887F0)
-#define HFKMPIEIIOI_OKCEBMECNGL_1_OFFSET UNITYSDK_OFFSET(0x15C886E0)
-#define HFKMPIEIIOI_OKCEBMECNGL_OFFSET UNITYSDK_OFFSET(0x15C885A0)
-#define HFKMPIEIIOI_PKKGONHEFGN_OFFSET UNITYSDK_OFFSET(0x15C88590)
+#define HFKMPIEIIOI_CCTOR_OFFSET UNITYSDK_OFFSET(0x16BCFFC0)
+#define HFKMPIEIIOI_CTOR_OFFSET UNITYSDK_OFFSET(0x16BCFFB0)
+#define HFKMPIEIIOI_OKCEBMECNGL_1_OFFSET UNITYSDK_OFFSET(0x16BCFEA0)
+#define HFKMPIEIIOI_OKCEBMECNGL_OFFSET UNITYSDK_OFFSET(0x16BCFD60)
+#define HFKMPIEIIOI_PKKGONHEFGN_OFFSET UNITYSDK_OFFSET(0x16BCFD50)
 
-inline static constexpr unsigned int HFKMPIEIIOI_TypeDefinitionIndex = 61211;
+inline static constexpr unsigned int HFKMPIEIIOI_TypeDefinitionIndex = 62596;
 
 	class HFKMPIEIIOI : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_EOOMOFHGOBI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "HFKMPIEIIOI")->GetStaticField(0x11AD0);
+			return (::System::String**)UnitySDK::FromName("", "HFKMPIEIIOI")->GetStaticField(0x73880);
 		}
 
 		// static const ::System::String* NGGKBANBKEO; // 0x0

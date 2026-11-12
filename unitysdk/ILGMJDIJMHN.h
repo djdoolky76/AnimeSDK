@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/ChenLingFesProperty.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int ILGMJDIJMHN_TypeDefinitionIndex = 43715;
+inline static constexpr unsigned int ILGMJDIJMHN_TypeDefinitionIndex = 44790;
 
 	struct alignas(8) ILGMJDIJMHN
 	{

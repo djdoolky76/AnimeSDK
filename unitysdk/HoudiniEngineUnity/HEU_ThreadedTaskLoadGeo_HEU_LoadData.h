@@ -9,21 +9,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9927B0)
+#define HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB1B6C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadData_TypeDefinitionIndex = 40615;
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadData_TypeDefinitionIndex = 41590;
 
 	class HEU_ThreadedTaskLoadGeo_HEU_LoadData : public ::System::Object
 	{
 	public:
-		::HoudiniEngineUnity::HEU_SessionBase* _session; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* _idBuffersMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* _idBuffersMap; // 0x10
+		::System::Text::StringBuilder* _logStr; // 0x18
 		::System::Collections::Generic::List_1<::System::Object*>* _loadedObjects; // 0x20
-		::System::Text::StringBuilder* _logStr; // 0x28
-		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus _loadStatus; // 0x30
-		::System::Int32 _cookNodeID; // 0x34
+		::HoudiniEngineUnity::HEU_SessionBase* _session; // 0x28
+		::System::Int32 _cookNodeID; // 0x30
+		::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatus _loadStatus; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_THREADEDTASKLOADGEO_HEU_LOADDATA_CTOR_OFFSET))(this);

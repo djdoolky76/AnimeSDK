@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetTriggeredFormationAssetAutoCenter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OHOAOIADIOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE75360)
-#define OHOAOIADIOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE75370)
-#define OHOAOIADIOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE753B0)
-#define OHOAOIADIOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE75580)
-#define OHOAOIADIOD_TICK_OFFSET UNITYSDK_OFFSET(0xBE755D0)
+#define OHOAOIADIOD_CTOR_OFFSET UNITYSDK_OFFSET(0xC730220)
+#define OHOAOIADIOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC730230)
+#define OHOAOIADIOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC730270)
+#define OHOAOIADIOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC730440)
+#define OHOAOIADIOD_TICK_OFFSET UNITYSDK_OFFSET(0xC730490)
 
-inline static constexpr unsigned int OHOAOIADIOD_TypeDefinitionIndex = 55583;
+inline static constexpr unsigned int OHOAOIADIOD_TypeDefinitionIndex = 56779;
 
 	class OHOAOIADIOD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetTriggeredFormationAssetAutoCenter* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetTriggeredFormationAssetAutoCenter* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTriggeredFormationAssetAutoCenter* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetTriggeredFormationAssetAutoCenter*))((::PBYTE)hIl2Cpp + OHOAOIADIOD_CTOR_OFFSET))(this, a1, a2);

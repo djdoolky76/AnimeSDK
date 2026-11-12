@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MGLBNNIPDMC_TypeDefinitionIndex = 51985;
+inline static constexpr unsigned int MGLBNNIPDMC_TypeDefinitionIndex = 53090;
 
 	class MGLBNNIPDMC
 	{

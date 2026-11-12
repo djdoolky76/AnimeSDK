@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class String; }
 
-#define MIDEBCKDIJK_CTOR_OFFSET UNITYSDK_OFFSET(0xB951CB0)
-#define MIDEBCKDIJK_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xB951BF0)
+#define MIDEBCKDIJK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2065E0)
+#define MIDEBCKDIJK_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xC206520)
 
-inline static constexpr unsigned int MIDEBCKDIJK_TypeDefinitionIndex = 48820;
+inline static constexpr unsigned int MIDEBCKDIJK_TypeDefinitionIndex = 49866;
 
 	class MIDEBCKDIJK : public ::UnityEngine::Playables::PlayableBehaviour
 	{

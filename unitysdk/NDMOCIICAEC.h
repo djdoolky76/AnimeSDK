@@ -6,19 +6,19 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NDMOCIICAEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB52960)
-#define NDMOCIICAEC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB52F00)
-#define NDMOCIICAEC_JMMLHADMHJK_OFFSET UNITYSDK_OFFSET(0xBB52F40)
-#define NDMOCIICAEC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xBB53010)
+#define NDMOCIICAEC_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DC070)
+#define NDMOCIICAEC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC3DC610)
+#define NDMOCIICAEC_JMMLHADMHJK_OFFSET UNITYSDK_OFFSET(0xC3DC650)
+#define NDMOCIICAEC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xC3DC720)
 
-inline static constexpr unsigned int NDMOCIICAEC_TypeDefinitionIndex = 63376;
+inline static constexpr unsigned int NDMOCIICAEC_TypeDefinitionIndex = 64814;
 
 	class NDMOCIICAEC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>* ANEGPMAIBPF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelMasterRecommendationData*>* GPNJONIFBNH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>*>* MGCGMKBDPLL; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>*>* MGCGMKBDPLL; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelMasterRecommendationData*>* ANEGPMAIBPF; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ChimeraDuelMasterRecommendationData*>* GPNJONIFBNH; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDMOCIICAEC_CTOR_OFFSET))(this);

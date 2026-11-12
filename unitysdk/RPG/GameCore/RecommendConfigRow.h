@@ -1,32 +1,37 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/RechargeTabType.h"
 #include "unitysdk/System/Object.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RecommendConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECOMMENDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D973710)
-#define RPG_GAMECORE_RECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D972ED0)
+#define RPG_GAMECORE_RECOMMENDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8BAA0)
+#define RPG_GAMECORE_RECOMMENDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB8B150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecommendConfigRow_TypeDefinitionIndex = 14614;
+	inline static constexpr unsigned int RecommendConfigRow_TypeDefinitionIndex = 14770;
 
 	class RecommendConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
-		::Il2CppArray<::System::UInt32>* GoodsID; // 0x18
-		::System::String* NameText; // 0x20
-		::System::UInt32 Type; // 0x28
-		::System::UInt32 OrderAfterSell; // 0x2C
-		::System::UInt32 ItemID; // 0x30
-		::System::UInt32 ShopID; // 0x34
-		::System::UInt32 ActivityModuleID; // 0x38
-		::System::UInt32 Schedule; // 0x3C
+		::System::String* NameText; // 0x10
+		::System::String* ImagePath; // 0x18
+		::Il2CppArray<::System::UInt32>* GoodsID; // 0x20
+		::System::String* TagText; // 0x28
+		::System::UInt32 Order; // 0x30
+		::System::UInt32 RechargeBenefitID; // 0x34
+		::System::UInt32 Schedule; // 0x38
+		::System::Boolean HideAfterSell; // 0x3C
+		::System::Byte _padding0[0x3];
 		::System::UInt32 ID; // 0x40
-		::System::UInt32 Order; // 0x44
-		::System::Boolean HideAfterSell; // 0x48
+		::System::UInt32 ShopID; // 0x44
+		::System::UInt32 OrderAfterSell; // 0x48
+		::RPG::GameCore::RechargeTabType TabType; // 0x4C
+		::System::UInt32 ActivityModuleID; // 0x50
+		::System::UInt32 ItemID; // 0x54
+		::System::UInt32 Type; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECOMMENDCONFIGROW_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableCharacterAttachmentSolverPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJGOPODIIPK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2054C0)
-#define JJGOPODIIPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2054F0)
+#define JJGOPODIIPK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA280A0)
+#define JJGOPODIIPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA280D0)
 
-inline static constexpr unsigned int JJGOPODIIPK_TypeDefinitionIndex = 52743;
+inline static constexpr unsigned int JJGOPODIIPK_TypeDefinitionIndex = 53887;
 
 	class JJGOPODIIPK
 	{

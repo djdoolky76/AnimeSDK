@@ -4,18 +4,18 @@
 class KPJBDOPFPDL;
 namespace System { class Object; }
 
-#define KPJBDOPFPDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8BCBC0)
-#define KPJBDOPFPDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BCC00)
-#define KPJBDOPFPDL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8BCC10)
+#define KPJBDOPFPDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBF95F0)
+#define KPJBDOPFPDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF9630)
+#define KPJBDOPFPDL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FBF9640)
 
-inline static constexpr unsigned int KPJBDOPFPDL___c_TypeDefinitionIndex = 33100;
+inline static constexpr unsigned int KPJBDOPFPDL___c_TypeDefinitionIndex = 34015;
 
 	class KPJBDOPFPDL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CCC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20220);
 		}
 
 		static ::System::Void _cctor()

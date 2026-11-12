@@ -6,15 +6,15 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FHOLDPBFDLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15793830)
+#define FHOLDPBFDLO_CTOR_OFFSET UNITYSDK_OFFSET(0x166B4910)
 
-inline static constexpr unsigned int FHOLDPBFDLO_TypeDefinitionIndex = 69227;
+inline static constexpr unsigned int FHOLDPBFDLO_TypeDefinitionIndex = 71181;
 
 	class FHOLDPBFDLO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* OFIMPDDGIOE; // 0x10
-		::System::String* AKKHHEJMELA; // 0x18
+		::System::String* AKKHHEJMELA; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* OFIMPDDGIOE; // 0x18
 		::RPG::GameCore::PedestrianNode EOJENDKOHOF; // 0x20
 		::System::Void _ctor()
 		{

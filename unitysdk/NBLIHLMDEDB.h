@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NBLIHLMDEDB_MPLPCDODCKA_OFFSET UNITYSDK_OFFSET(0xBADC5B0)
+#define NBLIHLMDEDB_MPLPCDODCKA_OFFSET UNITYSDK_OFFSET(0xC362F80)
 
-inline static constexpr unsigned int NBLIHLMDEDB_TypeDefinitionIndex = 68482;
+inline static constexpr unsigned int NBLIHLMDEDB_TypeDefinitionIndex = 70430;
 
 	class NBLIHLMDEDB : public ::System::Object
 	{

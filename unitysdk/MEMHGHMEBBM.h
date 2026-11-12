@@ -9,22 +9,22 @@ namespace RPG::GameCore { class SwitchMascotBulletTriggerAttack; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MEMHGHMEBBM_CIMPGBOBEJO_OFFSET UNITYSDK_OFFSET(0xB8E1130)
-#define MEMHGHMEBBM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DFFE0)
-#define MEMHGHMEBBM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8E00A0)
-#define MEMHGHMEBBM_FIFIHMNNJPN_OFFSET UNITYSDK_OFFSET(0xB8E0EB0)
-#define MEMHGHMEBBM_GEFAEDPDAID_OFFSET UNITYSDK_OFFSET(0xB8E1500)
-#define MEMHGHMEBBM_MELGLBNFBPC_OFFSET UNITYSDK_OFFSET(0xB8E0F70)
-#define MEMHGHMEBBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8E00F0)
+#define MEMHGHMEBBM_CIMPGBOBEJO_OFFSET UNITYSDK_OFFSET(0xC193250)
+#define MEMHGHMEBBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC192110)
+#define MEMHGHMEBBM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1921D0)
+#define MEMHGHMEBBM_FIFIHMNNJPN_OFFSET UNITYSDK_OFFSET(0xC192FE0)
+#define MEMHGHMEBBM_GEFAEDPDAID_OFFSET UNITYSDK_OFFSET(0xC193620)
+#define MEMHGHMEBBM_MELGLBNFBPC_OFFSET UNITYSDK_OFFSET(0xC1930A0)
+#define MEMHGHMEBBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC192220)
 
-inline static constexpr unsigned int MEMHGHMEBBM_TypeDefinitionIndex = 58746;
+inline static constexpr unsigned int MEMHGHMEBBM_TypeDefinitionIndex = 60014;
 
 	class MEMHGHMEBBM
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OAAMJPPKGJP; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt32>* PGNIPAEJGDC; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OJECEJOPKOF; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OJECEJOPKOF; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OAAMJPPKGJP; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* PGNIPAEJGDC; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchMascotBulletTriggerAttack* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchMascotBulletTriggerAttack*))((::PBYTE)hIl2Cpp + MEMHGHMEBBM_CTOR_OFFSET))(this, a1, a2);

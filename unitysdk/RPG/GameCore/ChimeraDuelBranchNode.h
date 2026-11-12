@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChimeraDuelNode; }
 namespace RPG::GameCore { class ChimeraDuelBranchNode; }
 namespace RPG::GameCore { class ChimeraDuelPredicateBase; }
 
-#define RPG_GAMECORE_CHIMERADUELBRANCHNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59B3C0)
-#define RPG_GAMECORE_CHIMERADUELBRANCHNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59B3D0)
-#define RPG_GAMECORE_CHIMERADUELBRANCHNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59B370)
+#define RPG_GAMECORE_CHIMERADUELBRANCHNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7ABE30)
+#define RPG_GAMECORE_CHIMERADUELBRANCHNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7ABE40)
+#define RPG_GAMECORE_CHIMERADUELBRANCHNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7ABDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelBranchNode_TypeDefinitionIndex = 15979;
+	inline static constexpr unsigned int ChimeraDuelBranchNode_TypeDefinitionIndex = 16137;
 
 	class ChimeraDuelBranchNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

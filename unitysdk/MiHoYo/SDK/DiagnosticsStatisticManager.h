@@ -6,26 +6,26 @@ namespace MiHoYo::SDK { class PerformanceInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE433E0)
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE433D0)
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTART_OFFSET UNITYSDK_OFFSET(0x1BE42B60)
-#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTOP_OFFSET UNITYSDK_OFFSET(0x1BE42EA0)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFCB8F0)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFCB8E0)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTART_OFFSET UNITYSDK_OFFSET(0x1CFCB070)
+#define MIHOYO_SDK_DIAGNOSTICSSTATISTICMANAGER_DIAGNOSTICSSTOP_OFFSET UNITYSDK_OFFSET(0x1CFCB3B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DiagnosticsStatisticManager_TypeDefinitionIndex = 7946;
+	inline static constexpr unsigned int DiagnosticsStatisticManager_TypeDefinitionIndex = 7955;
 
 	class DiagnosticsStatisticManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PerformanceInfo*>** StaticGet_startPerforamceInfoDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PerformanceInfo*>**)UnitySDK::FromName("MiHoYo.SDK", "DiagnosticsStatisticManager")->GetStaticField(0xC5E0);
-		}
-
 		static ::MiHoYo::SDK::DiagnosticsStatisticManager** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::DiagnosticsStatisticManager**)UnitySDK::FromName("MiHoYo.SDK", "DiagnosticsStatisticManager")->GetStaticField(0xC5E8);
+			return (::MiHoYo::SDK::DiagnosticsStatisticManager**)UnitySDK::FromName("MiHoYo.SDK", "DiagnosticsStatisticManager")->GetStaticField(0x252A0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PerformanceInfo*>** StaticGet_startPerforamceInfoDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::MiHoYo::SDK::PerformanceInfo*>**)UnitySDK::FromName("MiHoYo.SDK", "DiagnosticsStatisticManager")->GetStaticField(0x252A8);
 		}
 
 		::System::Void _ctor()

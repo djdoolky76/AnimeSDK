@@ -5,18 +5,18 @@
 #include "unitysdk/System/Object.h"
 class CICNAOMJPGD;
 
-#define EEIMEKECPFN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x13A2F000)
-#define EEIMEKECPFN_CCTOR_OFFSET UNITYSDK_OFFSET(0x13A2F230)
-#define EEIMEKECPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2F220)
+#define EEIMEKECPFN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x147EEDA0)
+#define EEIMEKECPFN_CCTOR_OFFSET UNITYSDK_OFFSET(0x147EF000)
+#define EEIMEKECPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x147EEFF0)
 
-inline static constexpr unsigned int EEIMEKECPFN_TypeDefinitionIndex = 60461;
+inline static constexpr unsigned int EEIMEKECPFN_TypeDefinitionIndex = 61751;
 
 	class EEIMEKECPFN : public ::System::Object
 	{
 	public:
 		static ::CICNAOMJPGD** StaticGet_PGFADOJCHJM()
 		{
-			return (::CICNAOMJPGD**)UnitySDK::FromName("", "EEIMEKECPFN")->GetStaticField(0x70000);
+			return (::CICNAOMJPGD**)UnitySDK::FromName("", "EEIMEKECPFN")->GetStaticField(0x73600);
 		}
 
 		::System::Void _ctor()

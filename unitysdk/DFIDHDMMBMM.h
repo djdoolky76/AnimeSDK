@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int DFIDHDMMBMM_TypeDefinitionIndex = 6219;
+inline static constexpr unsigned int DFIDHDMMBMM_TypeDefinitionIndex = 6226;
 
 	struct alignas(4) DFIDHDMMBMM
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsMazeSkillAffectCurrentWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ANIHJKILONJ_CTOR_OFFSET UNITYSDK_OFFSET(0x155987F0)
-#define ANIHJKILONJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15598820)
+#define ANIHJKILONJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16702420)
+#define ANIHJKILONJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16702450)
 
-inline static constexpr unsigned int ANIHJKILONJ_TypeDefinitionIndex = 54677;
+inline static constexpr unsigned int ANIHJKILONJ_TypeDefinitionIndex = 55843;
 
 	class ANIHJKILONJ
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class GroupPropertyConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GROUPPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74BFC0)
-#define RPG_GAMECORE_GROUPPROPERTYCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D74BFD0)
-#define RPG_GAMECORE_GROUPPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D74BD40)
+#define RPG_GAMECORE_GROUPPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E95FA30)
+#define RPG_GAMECORE_GROUPPROPERTYCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E95FA40)
+#define RPG_GAMECORE_GROUPPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E95F7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupPropertyConfig_TypeDefinitionIndex = 18289;
+	inline static constexpr unsigned int GroupPropertyConfig_TypeDefinitionIndex = 18451;
 
 	class GroupPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{

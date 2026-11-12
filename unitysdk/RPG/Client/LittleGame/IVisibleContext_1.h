@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IVisibleContext_1_TypeDefinitionIndex = 42743;
+	inline static constexpr unsigned int IVisibleContext_1_TypeDefinitionIndex = 43722;
 
 	template <typename T>
 	class IVisibleContext_1

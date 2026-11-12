@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HudType_TypeDefinitionIndex = 13771;
+	inline static constexpr unsigned int HudType_TypeDefinitionIndex = 13928;
 
 	enum class HudType : ::System::Int32
 	{

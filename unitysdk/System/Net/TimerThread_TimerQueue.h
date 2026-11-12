@@ -3,7 +3,7 @@
 #include "unitysdk/System/Net/TimerThread_Queue.h"
 namespace System::Net { class TimerThread_TimerNode; }
 
-#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08D040)
+#define SYSTEM_NET_TIMERTHREAD_TIMERQUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x2033DBD0)
 
 namespace System::Net
 {

@@ -7,55 +7,55 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC55B230)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC55B270)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CREATEMARBLETEACHMATCH_B__6_0_OFFSET UNITYSDK_OFFSET(0xC55B280)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETALLRANKCONFIG_B__20_0_OFFSET UNITYSDK_OFFSET(0xC55B370)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_0_OFFSET UNITYSDK_OFFSET(0xC55B350)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_1_OFFSET UNITYSDK_OFFSET(0xC55B360)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_2_OFFSET UNITYSDK_OFFSET(0xC55B340)
-#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_3_OFFSET UNITYSDK_OFFSET(0xC55B2E0)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE98F00)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE98F40)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__CREATEMARBLETEACHMATCH_B__6_0_OFFSET UNITYSDK_OFFSET(0xCE98F50)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETALLRANKCONFIG_B__20_0_OFFSET UNITYSDK_OFFSET(0xCE99040)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_0_OFFSET UNITYSDK_OFFSET(0xCE99020)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_1_OFFSET UNITYSDK_OFFSET(0xCE99030)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_2_OFFSET UNITYSDK_OFFSET(0xCE99010)
+#define RPG_CLIENT_ACTIVITYMARBLEUTILS___C__GETPVPMARBLESEALIDS_B__15_3_OFFSET UNITYSDK_OFFSET(0xCE98FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityMarbleUtils___c_TypeDefinitionIndex = 65795;
+	inline static constexpr unsigned int ActivityMarbleUtils___c_TypeDefinitionIndex = 67727;
 
 	class ActivityMarbleUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x33890);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__15_2()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x33898);
-		}
-
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__15_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x338A0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x338A8);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__15_3()
-		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x338B0);
-		}
-
-		static ::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>** StaticGet___9__20_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x338B8);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2B980);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x338C0);
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2B988);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2B990);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__15_2()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2B998);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2B9A0);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>** StaticGet___9__20_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::MarblePVPRankConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2B9A8);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__15_3()
+		{
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2B9B0);
 		}
 
 		static ::System::Void _cctor()

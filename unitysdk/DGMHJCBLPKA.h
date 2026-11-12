@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCharacterSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DGMHJCBLPKA_CTOR_OFFSET UNITYSDK_OFFSET(0xE854BE0)
-#define DGMHJCBLPKA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE854C10)
+#define DGMHJCBLPKA_CTOR_OFFSET UNITYSDK_OFFSET(0xF426CE0)
+#define DGMHJCBLPKA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF426D10)
 
-inline static constexpr unsigned int DGMHJCBLPKA_TypeDefinitionIndex = 54523;
+inline static constexpr unsigned int DGMHJCBLPKA_TypeDefinitionIndex = 55688;
 
 	class DGMHJCBLPKA
 	{

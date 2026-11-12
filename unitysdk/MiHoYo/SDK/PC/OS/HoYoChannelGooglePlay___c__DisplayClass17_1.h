@@ -4,11 +4,11 @@
 namespace MiHoYo::SDK::PC::OS { class PurchaseData; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS17_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2F680)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS17_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B6220)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass17_1_TypeDefinitionIndex = 8582;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass17_1_TypeDefinitionIndex = 8591;
 
 	template <typename T>
 	class HoYoChannelGooglePlay___c__DisplayClass17_1 : public ::System::Object

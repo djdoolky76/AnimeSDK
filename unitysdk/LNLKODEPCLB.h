@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KNADGNOONMC;
 
-#define LNLKODEPCLB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB7E8840)
-#define LNLKODEPCLB_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E8900)
+#define LNLKODEPCLB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC047D70)
+#define LNLKODEPCLB_CTOR_OFFSET UNITYSDK_OFFSET(0xC047E30)
 
-inline static constexpr unsigned int LNLKODEPCLB_TypeDefinitionIndex = 63865;
+inline static constexpr unsigned int LNLKODEPCLB_TypeDefinitionIndex = 65307;
 
 	class LNLKODEPCLB : public ::System::Object
 	{

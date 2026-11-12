@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class StateTreeReactionStateConfig; }
 namespace RPG::GameCore { class StateTreeTransitionConfig; }
 
-#define RPG_GAMECORE_STATETREEREACTIONSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1F160)
-#define RPG_GAMECORE_STATETREEREACTIONSTATECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1F170)
-#define RPG_GAMECORE_STATETREEREACTIONSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1F130)
+#define RPG_GAMECORE_STATETREEREACTIONSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED30BA0)
+#define RPG_GAMECORE_STATETREEREACTIONSTATECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED30BB0)
+#define RPG_GAMECORE_STATETREEREACTIONSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED30B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeReactionStateConfig_TypeDefinitionIndex = 15500;
+	inline static constexpr unsigned int StateTreeReactionStateConfig_TypeDefinitionIndex = 15658;
 
 	class StateTreeReactionStateConfig : public ::RPG::GameCore::StateTreeStateBaseConfig
 	{

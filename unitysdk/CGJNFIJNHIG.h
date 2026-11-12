@@ -6,11 +6,11 @@ namespace System { class Type; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CGJNFIJNHIG_AEKOJHIIEKM_OFFSET UNITYSDK_OFFSET(0xCC8A1F0)
-#define CGJNFIJNHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8A3C0)
-#define CGJNFIJNHIG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCC8A330)
+#define CGJNFIJNHIG_AEKOJHIIEKM_OFFSET UNITYSDK_OFFSET(0xD637EC0)
+#define CGJNFIJNHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD638090)
+#define CGJNFIJNHIG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xD638000)
 
-inline static constexpr unsigned int CGJNFIJNHIG_TypeDefinitionIndex = 76064;
+inline static constexpr unsigned int CGJNFIJNHIG_TypeDefinitionIndex = 78391;
 
 	class CGJNFIJNHIG : public ::System::Object
 	{

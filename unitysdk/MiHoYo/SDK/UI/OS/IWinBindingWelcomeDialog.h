@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IWinBindingWelcomeDialog_TypeDefinitionIndex = 8453;
+	inline static constexpr unsigned int IWinBindingWelcomeDialog_TypeDefinitionIndex = 8462;
 
 	class IWinBindingWelcomeDialog
 	{

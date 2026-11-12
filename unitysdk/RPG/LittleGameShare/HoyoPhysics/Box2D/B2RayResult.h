@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2RayResult_TypeDefinitionIndex = 36736;
+	inline static constexpr unsigned int B2RayResult_TypeDefinitionIndex = 37664;
 
 	struct alignas(4) B2RayResult
 	{

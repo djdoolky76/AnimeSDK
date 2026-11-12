@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace XLua { class ObjectCheck; }
 
-#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14DD1640)
-#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0__GENNULLABLECHECKER_B__0_OFFSET UNITYSDK_OFFSET(0x14DD2120)
+#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C91C50)
+#define XLUA_OBJECTCHECKERS___C__DISPLAYCLASS15_0__GENNULLABLECHECKER_B__0_OFFSET UNITYSDK_OFFSET(0x15C92730)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectCheckers___c__DisplayClass15_0_TypeDefinitionIndex = 50235;
+	inline static constexpr unsigned int ObjectCheckers___c__DisplayClass15_0_TypeDefinitionIndex = 51286;
 
 	class ObjectCheckers___c__DisplayClass15_0 : public ::System::Object
 	{

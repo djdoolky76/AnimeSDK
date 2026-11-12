@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define GAMEPLAYWAVERENDERER_WAVEOBJECTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x15B6D360)
+#define GAMEPLAYWAVERENDERER_WAVEOBJECTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x16AF30C0)
 
-inline static constexpr unsigned int GameplayWaveRenderer_WaveObjectEntry_TypeDefinitionIndex = 47314;
+inline static constexpr unsigned int GameplayWaveRenderer_WaveObjectEntry_TypeDefinitionIndex = 48343;
 
 	class GameplayWaveRenderer_WaveObjectEntry : public ::System::Object
 	{

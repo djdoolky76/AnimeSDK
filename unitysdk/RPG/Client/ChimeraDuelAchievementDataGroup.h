@@ -8,38 +8,39 @@ namespace RPG::Client { class ChimeraDuelItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xCB16540)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xCB15C70)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_GET_TABNAME_OFFSET UNITYSDK_OFFSET(0xCB17400)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_SET_TABNAME_OFFSET UNITYSDK_OFFSET(0xCB17410)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__ADDCHIMERAGROUPDATA_OFFSET UNITYSDK_OFFSET(0xCB16AE0)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__ADDGROUPITEM_OFFSET UNITYSDK_OFFSET(0xCB17080)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__INITCHIMERALIST_OFFSET UNITYSDK_OFFSET(0xCB16670)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__INITITEMLIST_OFFSET UNITYSDK_OFFSET(0xCB169D0)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__INIT_OFFSET UNITYSDK_OFFSET(0xCB165F0)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__SORTCHIMERAGROUPDATALIST_OFFSET UNITYSDK_OFFSET(0xCB16E20)
-#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__SORTITEMGROUPDATALIST_OFFSET UNITYSDK_OFFSET(0xCB17250)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_CREATE_OFFSET UNITYSDK_OFFSET(0xD479F80)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xD4796B0)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_GET_TABNAME_OFFSET UNITYSDK_OFFSET(0xD47AE40)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP_SET_TABNAME_OFFSET UNITYSDK_OFFSET(0xD47AE50)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__ADDCHIMERAGROUPDATA_OFFSET UNITYSDK_OFFSET(0xD47A520)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__ADDGROUPITEM_OFFSET UNITYSDK_OFFSET(0xD47AAC0)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__INITCHIMERALIST_OFFSET UNITYSDK_OFFSET(0xD47A0B0)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__INITITEMLIST_OFFSET UNITYSDK_OFFSET(0xD47A410)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__INIT_OFFSET UNITYSDK_OFFSET(0xD47A030)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__SORTCHIMERAGROUPDATALIST_OFFSET UNITYSDK_OFFSET(0xD47A860)
+#define RPG_CLIENT_CHIMERADUELACHIEVEMENTDATAGROUP__SORTITEMGROUPDATALIST_OFFSET UNITYSDK_OFFSET(0xD47AC90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelAchievementDataGroup_TypeDefinitionIndex = 63294;
+	inline static constexpr unsigned int ChimeraDuelAchievementDataGroup_TypeDefinitionIndex = 64732;
 
 	class ChimeraDuelAchievementDataGroup : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelChimeraData*>* ChimeraList; // 0x10
-		::Il2CppArray<::System::UInt32>* _ChimeraGroupIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* _ItemBattleGroupIDDict; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* _SpecialItemGroupIDDict; // 0x28
-		::Il2CppArray<::System::UInt32>* _ChimeraBattleGroupIDList; // 0x30
-		::Il2CppArray<::RPG::Client::TextID>* _TextIDDict; // 0x38
-		::Il2CppArray<::System::UInt32>* _ItemGroupIDDict; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelItemData*>* ItemList; // 0x48
+		::Il2CppArray<::System::UInt32>* _ItemBattleGroupIDDict; // 0x10
+		::Il2CppArray<::System::UInt32>* _ItemGroupIDDict; // 0x18
+		::Il2CppArray<::RPG::Client::TextID>* _TextIDDict; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelChimeraData*>* ChimeraList; // 0x28
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraDuelItemData*>* ItemList; // 0x30
+		::Il2CppArray<::System::UInt32>* _ChimeraBattleGroupIDList; // 0x38
+		::Il2CppArray<::System::UInt32>* _ChimeraGroupIDList; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* _SpecialItemGroupIDDict; // 0x48
 		::Il2CppArray<::System::UInt32>* _SpecialChimeraGroupIDList; // 0x50
 		::RPG::Client::TextID _TabName_k__BackingField; // 0x58
-		::System::UInt32 _MasterID; // 0x68
-		::System::Int32 _TabIndex; // 0x6C
-		::System::Boolean _IsInBattle; // 0x70
+		::System::Boolean _IsInBattle; // 0x68
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _MasterID; // 0x6C
+		::System::Int32 _TabIndex; // 0x70
 		// static const ::System::Object _SpecialMasterID; // 0x0
 		// static const ::System::Object _AllMasterChimeraGroupID; // 0x0
 		::System::Void _ctor()

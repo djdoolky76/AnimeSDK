@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingLightMode_TypeDefinitionIndex = 24434;
+	inline static constexpr unsigned int StreamingLightMode_TypeDefinitionIndex = 24893;
 
 	enum class StreamingLightMode : ::System::Int32
 	{

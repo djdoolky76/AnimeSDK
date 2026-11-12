@@ -6,10 +6,10 @@ class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelPlayEyeAnimationNode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LCCKANIHNJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB612090)
-#define LCCKANIHNJM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB611FF0)
+#define LCCKANIHNJM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA4AF0)
+#define LCCKANIHNJM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBEA4A50)
 
-inline static constexpr unsigned int LCCKANIHNJM_TypeDefinitionIndex = 77692;
+inline static constexpr unsigned int LCCKANIHNJM_TypeDefinitionIndex = 80427;
 
 	class LCCKANIHNJM : public ::HBLDGJCDJPF
 	{

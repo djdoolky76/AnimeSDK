@@ -7,19 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DrinkMakerTagCombinationRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D625BF0)
-#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D625930)
+#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E863BD0)
+#define RPG_GAMECORE_DRINKMAKERTAGCOMBINATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E863910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DrinkMakerTagCombinationRow_TypeDefinitionIndex = 13152;
+	inline static constexpr unsigned int DrinkMakerTagCombinationRow_TypeDefinitionIndex = 13226;
 
 	class DrinkMakerTagCombinationRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ExcludeTags; // 0x10
+		::System::String* HintStr; // 0x10
 		::Il2CppArray<::System::UInt32>* IncludeTags; // 0x18
-		::System::String* HintStr; // 0x20
+		::Il2CppArray<::System::UInt32>* ExcludeTags; // 0x20
 		::RPG::Client::TextID TagRequestDesc; // 0x28
 		::System::UInt32 TagCombinationID; // 0x38
 		::RPG::GameCore::DrinkMakerQuantifyTagType HintIconType; // 0x3C

@@ -7,32 +7,32 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CMDKCCMNANL_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA28F70)
-#define CMDKCCMNANL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA28480)
-#define CMDKCCMNANL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA28490)
-#define CMDKCCMNANL_GMJKMOOJDEJ_OFFSET UNITYSDK_OFFSET(0xDA28E90)
-#define CMDKCCMNANL_KOBJGGBKJCN_OFFSET UNITYSDK_OFFSET(0xDA288A0)
-#define CMDKCCMNANL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA28540)
-#define CMDKCCMNANL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA28DE0)
-#define CMDKCCMNANL_TICK_OFFSET UNITYSDK_OFFSET(0xDA28E30)
+#define CMDKCCMNANL_CCTOR_OFFSET UNITYSDK_OFFSET(0xE367F10)
+#define CMDKCCMNANL_CTOR_OFFSET UNITYSDK_OFFSET(0xE367420)
+#define CMDKCCMNANL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE367430)
+#define CMDKCCMNANL_GMJKMOOJDEJ_OFFSET UNITYSDK_OFFSET(0xE367E30)
+#define CMDKCCMNANL_KOBJGGBKJCN_OFFSET UNITYSDK_OFFSET(0xE367840)
+#define CMDKCCMNANL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE3674E0)
+#define CMDKCCMNANL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE367D80)
+#define CMDKCCMNANL_TICK_OFFSET UNITYSDK_OFFSET(0xE367DD0)
 
-inline static constexpr unsigned int CMDKCCMNANL_TypeDefinitionIndex = 58128;
+inline static constexpr unsigned int CMDKCCMNANL_TypeDefinitionIndex = 59367;
 
 	class CMDKCCMNANL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::FormationMoveAddGroup* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::FormationMoveAddGroup* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::UInt32 MMILCBFLPDJ; // 0x28
 		::System::Boolean BHEIANKOOPN; // 0x2C
 		static ::RPG::GameCore::FormationMoveConfig** StaticGet_NENCNIICGGB()
 		{
-			return (::RPG::GameCore::FormationMoveConfig**)UnitySDK::FromName("", "CMDKCCMNANL")->GetStaticField(0x504D0);
+			return (::RPG::GameCore::FormationMoveConfig**)UnitySDK::FromName("", "CMDKCCMNANL")->GetStaticField(0x34DA0);
 		}
 
 		static ::System::String** StaticGet_IDFGNBHPILO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "CMDKCCMNANL")->GetStaticField(0x504D8);
+			return (::System::String**)UnitySDK::FromName("", "CMDKCCMNANL")->GetStaticField(0x34DA8);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::FormationMoveAddGroup* a2)

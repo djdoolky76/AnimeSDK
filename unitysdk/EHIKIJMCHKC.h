@@ -5,18 +5,18 @@
 class EPGHICGCMAJ;
 class KBDKJPLJKHE;
 
-#define EHIKIJMCHKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50760)
+#define EHIKIJMCHKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC13FD0)
 
-inline static constexpr unsigned int EHIKIJMCHKC_TypeDefinitionIndex = 43724;
+inline static constexpr unsigned int EHIKIJMCHKC_TypeDefinitionIndex = 44799;
 
 	class EHIKIJMCHKC : public ::System::Object
 	{
 	public:
 		::EPGHICGCMAJ* LAEFPCAIHEJ; // 0x10
 		::KBDKJPLJKHE* FKIBGPJNCIJ; // 0x18
-		::System::Single NAJMCEJEHDC; // 0x20
-		::System::Int32 IKCBJEIEJGC; // 0x24
-		::RPG::Client::LittleGame::ChenLing::ChenLingAIState MEPFOEEGBEA; // 0x28
+		::RPG::Client::LittleGame::ChenLing::ChenLingAIState MEPFOEEGBEA; // 0x20
+		::System::Single NAJMCEJEHDC; // 0x24
+		::System::Int32 IKCBJEIEJGC; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHIKIJMCHKC_CTOR_OFFSET))(this);

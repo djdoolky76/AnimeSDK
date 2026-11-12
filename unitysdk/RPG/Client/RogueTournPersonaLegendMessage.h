@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaLegendMessage_TypeDefinitionIndex = 72901;
+	inline static constexpr unsigned int RogueTournPersonaLegendMessage_TypeDefinitionIndex = 75011;
 
 	enum class RogueTournPersonaLegendMessage : ::System::Int32
 	{

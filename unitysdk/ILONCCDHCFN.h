@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 
-inline static constexpr unsigned int ILONCCDHCFN_TypeDefinitionIndex = 52414;
+inline static constexpr unsigned int ILONCCDHCFN_TypeDefinitionIndex = 53520;
 
 	struct alignas(4) ILONCCDHCFN
 	{

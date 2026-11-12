@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindMaterialOverlayConfig; }
 namespace RPG::GameCore { class TimeRewindOverlayMaterials; }
 
-#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB88800)
-#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB886A0)
+#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE37AA0)
+#define RPG_GAMECORE_TIMEREWINDMATERIALOVERLAYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE37940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindMaterialOverlayConfig_TypeDefinitionIndex = 17568;
+	inline static constexpr unsigned int TimeRewindMaterialOverlayConfig_TypeDefinitionIndex = 17736;
 
 	class TimeRewindMaterialOverlayConfig : public ::RPG::GameCore::JsonConfig
 	{

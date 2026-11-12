@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/PreReleaseScheduleState.h"
 #include "unitysdk/System/Object.h"
 
-#define JMADFKOEEJM_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xB258AF0)
+#define JMADFKOEEJM_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xBA83A70)
 
-inline static constexpr unsigned int JMADFKOEEJM_TypeDefinitionIndex = 66708;
+inline static constexpr unsigned int JMADFKOEEJM_TypeDefinitionIndex = 68644;
 
 	class JMADFKOEEJM : public ::System::Object
 	{

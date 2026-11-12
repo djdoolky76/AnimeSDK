@@ -3,11 +3,11 @@
 #include "unitysdk/GJPBCNIIEOB.h"
 namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 
-#define KFLPLDEPENJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C5DF0)
-#define KFLPLDEPENJ_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB3C5C20)
-#define KFLPLDEPENJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xB3C5D40)
+#define KFLPLDEPENJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC55A70)
+#define KFLPLDEPENJ__INITVARONCE_OFFSET UNITYSDK_OFFSET(0xBC558B0)
+#define KFLPLDEPENJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xBC559C0)
 
-inline static constexpr unsigned int KFLPLDEPENJ_TypeDefinitionIndex = 71296;
+inline static constexpr unsigned int KFLPLDEPENJ_TypeDefinitionIndex = 73273;
 
 	class KFLPLDEPENJ : public ::GJPBCNIIEOB
 	{
@@ -19,9 +19,9 @@ inline static constexpr unsigned int KFLPLDEPENJ_TypeDefinitionIndex = 71296;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFLPLDEPENJ_CTOR_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFLPLDEPENJ_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFLPLDEPENJ__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void _OnBind()

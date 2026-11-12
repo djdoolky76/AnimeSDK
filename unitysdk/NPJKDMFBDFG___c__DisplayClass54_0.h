@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class ODGPPIHLOFF;
 
-#define NPJKDMFBDFG___C__DISPLAYCLASS54_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD06980)
-#define NPJKDMFBDFG___C__DISPLAYCLASS54_0__RESETSTACK_B__0_OFFSET UNITYSDK_OFFSET(0xBD0BD00)
+#define NPJKDMFBDFG___C__DISPLAYCLASS54_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5F6520)
+#define NPJKDMFBDFG___C__DISPLAYCLASS54_0__RESETSTACK_B__0_OFFSET UNITYSDK_OFFSET(0xC5FB8D0)
 
-inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass54_0_TypeDefinitionIndex = 49433;
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass54_0_TypeDefinitionIndex = 50509;
 
 	class NPJKDMFBDFG___c__DisplayClass54_0 : public ::System::Object
 	{

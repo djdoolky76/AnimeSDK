@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RestartTrackPhoto; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NMGJANOONNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC82F00)
-#define NMGJANOONNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC82F30)
+#define NMGJANOONNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC56B3B0)
+#define NMGJANOONNJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC56B3E0)
 
-inline static constexpr unsigned int NMGJANOONNJ_TypeDefinitionIndex = 53209;
+inline static constexpr unsigned int NMGJANOONNJ_TypeDefinitionIndex = 54371;
 
 	class NMGJANOONNJ
 	{

@@ -3,10 +3,10 @@
 class FCGFCPOLLKL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HBJHFGNEOKB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0F470)
-#define HBJHFGNEOKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C0F4A0)
+#define HBJHFGNEOKB_CTOR_OFFSET UNITYSDK_OFFSET(0x16B51220)
+#define HBJHFGNEOKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B51250)
 
-inline static constexpr unsigned int HBJHFGNEOKB_TypeDefinitionIndex = 53103;
+inline static constexpr unsigned int HBJHFGNEOKB_TypeDefinitionIndex = 54264;
 
 	class HBJHFGNEOKB
 	{

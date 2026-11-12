@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HOIFDJPBGLB_TypeDefinitionIndex = 33477;
+inline static constexpr unsigned int HOIFDJPBGLB_TypeDefinitionIndex = 34392;
 
 	enum class HOIFDJPBGLB : ::System::Int32
 	{

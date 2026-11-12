@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IButtonListContext_1_TypeDefinitionIndex = 42733;
+	inline static constexpr unsigned int IButtonListContext_1_TypeDefinitionIndex = 43712;
 
 	template <typename T>
 	class IButtonListContext_1

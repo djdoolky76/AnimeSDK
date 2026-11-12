@@ -6,23 +6,23 @@ class LKFPICOFNDF;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KFNPFAHAJLA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB3C6730)
-#define KFNPFAHAJLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C6770)
-#define KFNPFAHAJLA___C__APPLY_B__1_0_OFFSET UNITYSDK_OFFSET(0xB3C6780)
+#define KFNPFAHAJLA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC563B0)
+#define KFNPFAHAJLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC563F0)
+#define KFNPFAHAJLA___C__APPLY_B__1_0_OFFSET UNITYSDK_OFFSET(0xBC56400)
 
-inline static constexpr unsigned int KFNPFAHAJLA___c_TypeDefinitionIndex = 77852;
+inline static constexpr unsigned int KFNPFAHAJLA___c_TypeDefinitionIndex = 80587;
 
 	class KFNPFAHAJLA___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::LKFPICOFNDF*, ::RPG::GameCore::FixPoint>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::LKFPICOFNDF*, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B200);
+			return (::System::Func_2<::LKFPICOFNDF*, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38B90);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B208);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38B98);
 		}
 
 		static ::System::Void _cctor()

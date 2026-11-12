@@ -5,10 +5,10 @@ namespace RPG::GameCore { class AdvByCompareDynamicValue; }
 namespace RPG::GameCore { class ByCompareDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOMEENCLPPN_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBBBD0)
-#define HOMEENCLPPN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DBBD40)
+#define HOMEENCLPPN_CTOR_OFFSET UNITYSDK_OFFSET(0x16D5F350)
+#define HOMEENCLPPN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D5F4C0)
 
-inline static constexpr unsigned int HOMEENCLPPN_TypeDefinitionIndex = 54451;
+inline static constexpr unsigned int HOMEENCLPPN_TypeDefinitionIndex = 55615;
 
 	class HOMEENCLPPN
 	{

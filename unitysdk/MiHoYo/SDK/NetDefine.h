@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_NETDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEA62E0)
+#define MIHOYO_SDK_NETDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02E100)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetDefine_TypeDefinitionIndex = 7583;
+	inline static constexpr unsigned int NetDefine_TypeDefinitionIndex = 7592;
 
 	class NetDefine : public ::System::Object
 	{

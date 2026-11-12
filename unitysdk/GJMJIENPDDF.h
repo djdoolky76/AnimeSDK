@@ -13,74 +13,74 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define GJMJIENPDDF_ANCEOJDJBDK_OFFSET UNITYSDK_OFFSET(0x15A78FE0)
-#define GJMJIENPDDF_BECLAHDLPGL_OFFSET UNITYSDK_OFFSET(0x15A78C20)
-#define GJMJIENPDDF_BHPKINNCGIP_OFFSET UNITYSDK_OFFSET(0x15A764E0)
-#define GJMJIENPDDF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A79250)
-#define GJMJIENPDDF_CPJCNKFEEGP_OFFSET UNITYSDK_OFFSET(0x15A703C0)
-#define GJMJIENPDDF_EEHEGLDGEAO_OFFSET UNITYSDK_OFFSET(0x15A72D00)
-#define GJMJIENPDDF_EMNJNAKDAAO_OFFSET UNITYSDK_OFFSET(0x15A75B40)
-#define GJMJIENPDDF_FFKDAPAGHMJ_OFFSET UNITYSDK_OFFSET(0x15A6FD20)
-#define GJMJIENPDDF_FGGKKPHOPDK_OFFSET UNITYSDK_OFFSET(0x15A6FF20)
-#define GJMJIENPDDF_IADPEPHCNBN_OFFSET UNITYSDK_OFFSET(0x15A73000)
-#define GJMJIENPDDF_IHKDPLHACJN_OFFSET UNITYSDK_OFFSET(0x15A784B0)
-#define GJMJIENPDDF_IMJBAANBJOA_OFFSET UNITYSDK_OFFSET(0x15A762B0)
-#define GJMJIENPDDF_JBNLAMEIACH_OFFSET UNITYSDK_OFFSET(0x15A6FC80)
-#define GJMJIENPDDF_LEHJAKDPMIL_OFFSET UNITYSDK_OFFSET(0x15A73FA0)
-#define GJMJIENPDDF_LHHDACLJONJ_OFFSET UNITYSDK_OFFSET(0x15A70F70)
-#define GJMJIENPDDF_MHIIHCEGNAB_OFFSET UNITYSDK_OFFSET(0x15A76EB0)
-#define GJMJIENPDDF_MPFCIJBANME_OFFSET UNITYSDK_OFFSET(0x15A77370)
-#define GJMJIENPDDF_NGKIHMLBGLE_OFFSET UNITYSDK_OFFSET(0x15A72A60)
-#define GJMJIENPDDF_OAJDOMAOEAN_OFFSET UNITYSDK_OFFSET(0x15A76190)
+#define GJMJIENPDDF_ANCEOJDJBDK_OFFSET UNITYSDK_OFFSET(0x169B5C50)
+#define GJMJIENPDDF_BECLAHDLPGL_OFFSET UNITYSDK_OFFSET(0x169B5890)
+#define GJMJIENPDDF_BHPKINNCGIP_OFFSET UNITYSDK_OFFSET(0x169B3150)
+#define GJMJIENPDDF_CCTOR_OFFSET UNITYSDK_OFFSET(0x169B5EC0)
+#define GJMJIENPDDF_CPJCNKFEEGP_OFFSET UNITYSDK_OFFSET(0x169AD030)
+#define GJMJIENPDDF_EEHEGLDGEAO_OFFSET UNITYSDK_OFFSET(0x169AF970)
+#define GJMJIENPDDF_EMNJNAKDAAO_OFFSET UNITYSDK_OFFSET(0x169B27B0)
+#define GJMJIENPDDF_FFKDAPAGHMJ_OFFSET UNITYSDK_OFFSET(0x169AC990)
+#define GJMJIENPDDF_FGGKKPHOPDK_OFFSET UNITYSDK_OFFSET(0x169ACB90)
+#define GJMJIENPDDF_IADPEPHCNBN_OFFSET UNITYSDK_OFFSET(0x169AFC70)
+#define GJMJIENPDDF_IHKDPLHACJN_OFFSET UNITYSDK_OFFSET(0x169B5120)
+#define GJMJIENPDDF_IMJBAANBJOA_OFFSET UNITYSDK_OFFSET(0x169B2F20)
+#define GJMJIENPDDF_JBNLAMEIACH_OFFSET UNITYSDK_OFFSET(0x169AC8F0)
+#define GJMJIENPDDF_LEHJAKDPMIL_OFFSET UNITYSDK_OFFSET(0x169B0C10)
+#define GJMJIENPDDF_LHHDACLJONJ_OFFSET UNITYSDK_OFFSET(0x169ADBE0)
+#define GJMJIENPDDF_MHIIHCEGNAB_OFFSET UNITYSDK_OFFSET(0x169B3B20)
+#define GJMJIENPDDF_MPFCIJBANME_OFFSET UNITYSDK_OFFSET(0x169B3FE0)
+#define GJMJIENPDDF_NGKIHMLBGLE_OFFSET UNITYSDK_OFFSET(0x169AF6D0)
+#define GJMJIENPDDF_OAJDOMAOEAN_OFFSET UNITYSDK_OFFSET(0x169B2E00)
 
-inline static constexpr unsigned int GJMJIENPDDF_TypeDefinitionIndex = 71109;
+inline static constexpr unsigned int GJMJIENPDDF_TypeDefinitionIndex = 73092;
 
 	class GJMJIENPDDF : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::List_1<::PDHLJJCMEDJ>** StaticGet_GGJOIOGOMFE()
+		{
+			return (::System::Collections::Generic::List_1<::PDHLJJCMEDJ>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x6A620);
+		}
+
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_MJNJGCEAGCA()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x60B30);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x6A628);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Collider*>** StaticGet_GHHDEEIDLNH()
 		{
-			return (::Il2CppArray<::UnityEngine::Collider*>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x60B38);
-		}
-
-		static ::System::Collections::Generic::List_1<::PDHLJJCMEDJ>** StaticGet_GGJOIOGOMFE()
-		{
-			return (::System::Collections::Generic::List_1<::PDHLJJCMEDJ>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x60B40);
-		}
-
-		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_MMMMLJIAAJA()
-		{
-			return (::Il2CppArray<::UnityEngine::RaycastHit>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x60B48);
+			return (::Il2CppArray<::UnityEngine::Collider*>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x6A630);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_ACPGINGIHFD()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x60B50);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x6A638);
 		}
 
-		static ::UnityEngine::RaycastHit* StaticGet_NCFEABKDBOC()
+		static ::Il2CppArray<::UnityEngine::RaycastHit>** StaticGet_MMMMLJIAAJA()
 		{
-			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x14A00);
-		}
-
-		static ::System::Boolean* StaticGet_CKBKEALFBME()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x14A30);
-		}
-
-		static ::UnityEngine::RaycastHit* StaticGet_IKFDMCHHMAL()
-		{
-			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x14A34);
+			return (::Il2CppArray<::UnityEngine::RaycastHit>**)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x6A640);
 		}
 
 		static ::UnityEngine::RaycastHit* StaticGet_JHFLIBJHFEG()
 		{
-			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x14A64);
+			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x15620);
+		}
+
+		static ::UnityEngine::RaycastHit* StaticGet_NCFEABKDBOC()
+		{
+			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x15650);
+		}
+
+		static ::UnityEngine::RaycastHit* StaticGet_IKFDMCHHMAL()
+		{
+			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x15680);
+		}
+
+		static ::System::Boolean* StaticGet_CKBKEALFBME()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GJMJIENPDDF")->GetStaticField(0x156B0);
 		}
 
 		// static const ::System::Object AJGJDBLMIGO; // 0x0

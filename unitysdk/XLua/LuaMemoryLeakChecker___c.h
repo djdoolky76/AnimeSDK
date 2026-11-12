@@ -6,49 +6,49 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define XLUA_LUAMEMORYLEAKCHECKER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x14DC3B20)
-#define XLUA_LUAMEMORYLEAKCHECKER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x14DC3B60)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_0_OFFSET UNITYSDK_OFFSET(0x14DC3BA0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_1_OFFSET UNITYSDK_OFFSET(0x14DC3BB0)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_2_OFFSET UNITYSDK_OFFSET(0x14DC3B70)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_3_OFFSET UNITYSDK_OFFSET(0x14DC3B80)
-#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_4_OFFSET UNITYSDK_OFFSET(0x14DC3B90)
+#define XLUA_LUAMEMORYLEAKCHECKER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15C84160)
+#define XLUA_LUAMEMORYLEAKCHECKER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15C841A0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_0_OFFSET UNITYSDK_OFFSET(0x15C841E0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_1_OFFSET UNITYSDK_OFFSET(0x15C841F0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_2_OFFSET UNITYSDK_OFFSET(0x15C841B0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_3_OFFSET UNITYSDK_OFFSET(0x15C841C0)
+#define XLUA_LUAMEMORYLEAKCHECKER___C__MEMORYLEAKREPORT_B__11_4_OFFSET UNITYSDK_OFFSET(0x15C841D0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaMemoryLeakChecker___c_TypeDefinitionIndex = 50062;
+	inline static constexpr unsigned int LuaMemoryLeakChecker___c_TypeDefinitionIndex = 51110;
 
 	class LuaMemoryLeakChecker___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_2()
+		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481E0);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481E8);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x5D130);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_3()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481F0);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x5D138);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_4()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x481F8);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__11_1()
-		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x48200);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x5D140);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x48208);
+			return (::System::Object**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x5D148);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x5D150);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__11_2()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x5D158);
 		}
 
 		static ::System::Void _cctor()

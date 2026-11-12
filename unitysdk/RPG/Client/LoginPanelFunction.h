@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginPanelFunction_TypeDefinitionIndex = 61155;
+	inline static constexpr unsigned int LoginPanelFunction_TypeDefinitionIndex = 62540;
 
 	enum class LoginPanelFunction : ::System::Int32
 	{

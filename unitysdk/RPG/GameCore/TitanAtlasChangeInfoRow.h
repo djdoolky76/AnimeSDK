@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TitanAtlasChangeInfoRow; }
 
-#define RPG_GAMECORE_TITANATLASCHANGEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8A0D0)
-#define RPG_GAMECORE_TITANATLASCHANGEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB89FC0)
+#define RPG_GAMECORE_TITANATLASCHANGEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE392F0)
+#define RPG_GAMECORE_TITANATLASCHANGEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE391E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasChangeInfoRow_TypeDefinitionIndex = 15300;
+	inline static constexpr unsigned int TitanAtlasChangeInfoRow_TypeDefinitionIndex = 15456;
 
 	class TitanAtlasChangeInfoRow : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int AICarRuntimeState_TypeDefinitionIndex = 42900;
+	inline static constexpr unsigned int AICarRuntimeState_TypeDefinitionIndex = 43881;
 
 	struct alignas(4) AICarRuntimeState
 	{

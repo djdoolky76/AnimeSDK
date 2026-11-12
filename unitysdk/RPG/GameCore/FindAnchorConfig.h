@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FindAnchorConfig; }
 
-#define RPG_GAMECORE_FINDANCHORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A7790)
-#define RPG_GAMECORE_FINDANCHORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A76B0)
+#define RPG_GAMECORE_FINDANCHORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B3F50)
+#define RPG_GAMECORE_FINDANCHORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8B3E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindAnchorConfig_TypeDefinitionIndex = 21629;
+	inline static constexpr unsigned int FindAnchorConfig_TypeDefinitionIndex = 22017;
 
 	class FindAnchorConfig : public ::RPG::GameCore::JsonConfig
 	{

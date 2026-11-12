@@ -11,13 +11,13 @@ namespace RPG::GameCore { class ChenLingBattleResource_OnHit; }
 namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57FCC0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57FCD0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57FC70)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E790A60)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E790A70)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_CREATELASER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E790A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_CreateLaser_TypeDefinitionIndex = 15744;
+	inline static constexpr unsigned int ChenLingBattleAbility_CreateLaser_TypeDefinitionIndex = 15902;
 
 	class ChenLingBattleAbility_CreateLaser : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 class OKEFHOAGJGH;
 namespace System { class String; }
 
-#define OKEFHOAGJGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D28E040)
-#define OKEFHOAGJGH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D28DE60)
+#define OKEFHOAGJGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E495070)
+#define OKEFHOAGJGH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E494E90)
 
-inline static constexpr unsigned int OKEFHOAGJGH_TypeDefinitionIndex = 13899;
+inline static constexpr unsigned int OKEFHOAGJGH_TypeDefinitionIndex = 14056;
 
 	class OKEFHOAGJGH : public ::System::Object
 	{
 	public:
-		::System::String* GJMHAJGIHOM; // 0x10
-		::System::String* HHIIGAIJEDA; // 0x18
-		::System::String* DEJJGGOABPA; // 0x20
+		::System::String* HHIIGAIJEDA; // 0x10
+		::System::String* DEJJGGOABPA; // 0x18
+		::System::String* GJMHAJGIHOM; // 0x20
 		::RPG::GameCore::GenderType KAINAFFMLBK; // 0x28
 		::System::UInt32 CMNOEFFFNPE; // 0x2C
 		::System::Void _ctor()

@@ -5,20 +5,20 @@ class LJFHKAJPFNE;
 namespace RPG::GameCore { class SwitchEffectBattleArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFHJGHEHFMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15F17230)
-#define IFHJGHEHFMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F17240)
-#define IFHJGHEHFMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F172D0)
-#define IFHJGHEHFMD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15F17280)
-#define IFHJGHEHFMD_TICK_OFFSET UNITYSDK_OFFSET(0x15F175C0)
+#define IFHJGHEHFMD_CTOR_OFFSET UNITYSDK_OFFSET(0x16E860A0)
+#define IFHJGHEHFMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E860B0)
+#define IFHJGHEHFMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E86140)
+#define IFHJGHEHFMD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16E860F0)
+#define IFHJGHEHFMD_TICK_OFFSET UNITYSDK_OFFSET(0x16E86430)
 
-inline static constexpr unsigned int IFHJGHEHFMD_TypeDefinitionIndex = 55686;
+inline static constexpr unsigned int IFHJGHEHFMD_TypeDefinitionIndex = 56884;
 
 	class IFHJGHEHFMD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SwitchEffectBattleArea* OFKGLJOAMLD; // 0x20
-		::LJFHKAJPFNE* EGLEJDELNKD; // 0x28
+		::LJFHKAJPFNE* EGLEJDELNKD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::SwitchEffectBattleArea* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchEffectBattleArea* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchEffectBattleArea*))((::PBYTE)hIl2Cpp + IFHJGHEHFMD_CTOR_OFFSET))(this, a1, a2);

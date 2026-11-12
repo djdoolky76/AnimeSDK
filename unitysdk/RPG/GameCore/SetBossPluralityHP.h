@@ -4,21 +4,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetBossPluralityHP; }
+namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETBOSSPLURALITYHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA98D80)
-#define RPG_GAMECORE_SETBOSSPLURALITYHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA98DE0)
-#define RPG_GAMECORE_SETBOSSPLURALITYHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA98CF0)
+#define RPG_GAMECORE_SETBOSSPLURALITYHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAB1B0)
+#define RPG_GAMECORE_SETBOSSPLURALITYHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECAB240)
+#define RPG_GAMECORE_SETBOSSPLURALITYHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECAB100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBossPluralityHP_TypeDefinitionIndex = 22939;
+	inline static constexpr unsigned int SetBossPluralityHP_TypeDefinitionIndex = 23365;
 
 	class SetBossPluralityHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::Boolean Enable; // 0x18
+		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
+		::System::Boolean Enable; // 0x20
 		::System::Byte _padding0[0x7];
-		::RPG::GameCore::DynamicFloat* PluralityValue; // 0x20
+		::RPG::GameCore::DynamicFloat* PluralityValue; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETBOSSPLURALITYHP_CTOR_OFFSET))(this);

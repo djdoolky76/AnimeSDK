@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JOCFDDFPHAB_TypeDefinitionIndex = 73134;
+inline static constexpr unsigned int JOCFDDFPHAB_TypeDefinitionIndex = 75248;
 
 	class JOCFDDFPHAB
 	{

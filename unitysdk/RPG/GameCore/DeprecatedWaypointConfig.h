@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DeprecatedWaypointConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEPRECATEDWAYPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FC5F0)
-#define RPG_GAMECORE_DEPRECATEDWAYPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FC4A0)
+#define RPG_GAMECORE_DEPRECATEDWAYPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80F880)
+#define RPG_GAMECORE_DEPRECATEDWAYPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E80F730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeprecatedWaypointConfig_TypeDefinitionIndex = 17490;
+	inline static constexpr unsigned int DeprecatedWaypointConfig_TypeDefinitionIndex = 17658;
 
 	class DeprecatedWaypointConfig : public ::RPG::GameCore::JsonConfig
 	{

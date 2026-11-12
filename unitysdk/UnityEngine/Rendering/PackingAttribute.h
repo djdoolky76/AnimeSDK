@@ -4,24 +4,23 @@
 #include "unitysdk/UnityEngine/Rendering/FieldPacking.h"
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2C6690)
-#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C6610)
+#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x205774D0)
+#define UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20577450)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int PackingAttribute_TypeDefinitionIndex = 35577;
+	inline static constexpr unsigned int PackingAttribute_TypeDefinitionIndex = 36505;
 
 	class PackingAttribute : public ::System::Attribute
 	{
 	public:
 		::Il2CppArray<::System::String*>* displayNames; // 0x10
 		::Il2CppArray<::System::Single>* range; // 0x18
-		::System::Int32 offsetInSource; // 0x20
+		::UnityEngine::Rendering::FieldPacking packingScheme; // 0x20
 		::System::Int32 sizeInBits; // 0x24
-		::System::Boolean isDirection; // 0x28
-		::System::Boolean sRGBDisplay; // 0x29
-		::System::Byte _padding0[0x2];
-		::UnityEngine::Rendering::FieldPacking packingScheme; // 0x2C
+		::System::Int32 offsetInSource; // 0x28
+		::System::Boolean isDirection; // 0x2C
+		::System::Boolean sRGBDisplay; // 0x2D
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1, ::UnityEngine::Rendering::FieldPacking a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Single a5, ::System::Single a6, ::System::Boolean a7, ::System::Boolean a8)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*, ::UnityEngine::Rendering::FieldPacking, ::System::Int32, ::System::Int32, ::System::Single, ::System::Single, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_PACKINGATTRIBUTE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8);

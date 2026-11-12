@@ -15,7 +15,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRTrackedCamera__ReleaseVideoSt
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRTrackedCamera_TypeDefinitionIndex = 38939;
+	inline static constexpr unsigned int IVRTrackedCamera_TypeDefinitionIndex = 39868;
 
 	struct alignas(8) IVRTrackedCamera
 	{

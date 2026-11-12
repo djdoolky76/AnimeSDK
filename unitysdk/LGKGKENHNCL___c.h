@@ -4,18 +4,18 @@
 class LGKGKENHNCL;
 namespace System { class Object; }
 
-#define LGKGKENHNCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E955250)
-#define LGKGKENHNCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E955280)
-#define LGKGKENHNCL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E955290)
+#define LGKGKENHNCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC758F0)
+#define LGKGKENHNCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC75920)
+#define LGKGKENHNCL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FC75930)
 
-inline static constexpr unsigned int LGKGKENHNCL___c_TypeDefinitionIndex = 30977;
+inline static constexpr unsigned int LGKGKENHNCL___c_TypeDefinitionIndex = 31890;
 
 	class LGKGKENHNCL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F660);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32AA0);
 		}
 
 		static ::System::Void _cctor()

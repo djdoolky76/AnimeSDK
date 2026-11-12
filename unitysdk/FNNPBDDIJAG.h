@@ -11,18 +11,18 @@ namespace RPG::GameCore { class ChimeraDuelBuffConfig; }
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FNNPBDDIJAG_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0x1588FE10)
-#define FNNPBDDIJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15890CC0)
-#define FNNPBDDIJAG_EHGBLDIPCGL_OFFSET UNITYSDK_OFFSET(0x158903E0)
-#define FNNPBDDIJAG_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x1588FE80)
+#define FNNPBDDIJAG_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0x16803600)
+#define FNNPBDDIJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x168044B0)
+#define FNNPBDDIJAG_EHGBLDIPCGL_OFFSET UNITYSDK_OFFSET(0x16803BD0)
+#define FNNPBDDIJAG_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x16803670)
 
-inline static constexpr unsigned int FNNPBDDIJAG_TypeDefinitionIndex = 77447;
+inline static constexpr unsigned int FNNPBDDIJAG_TypeDefinitionIndex = 80182;
 
 	class FNNPBDDIJAG : public ::FJNNEOKOCJD
 	{
 	public:
-		::OMFDCMJIAHG* KOHNGCOONLN; // 0x10
-		::MDHIBNLFCFL* LMJGBLDGMEN; // 0x18
+		::MDHIBNLFCFL* LMJGBLDGMEN; // 0x10
+		::OMFDCMJIAHG* KOHNGCOONLN; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FNNPBDDIJAG_CTOR_OFFSET))(this);

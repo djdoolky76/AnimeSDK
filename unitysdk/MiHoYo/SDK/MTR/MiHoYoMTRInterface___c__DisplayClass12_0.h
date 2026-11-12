@@ -4,18 +4,18 @@
 namespace MiHoYo::SDK::MTR { class MiHoYoMTRInterface_MiHoYoResolverCallback; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFBEA00)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_0__GETHOSTRESOLVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xAFC1070)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB620020)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DISPLAYCLASS12_0__GETHOSTRESOLVEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xB6226A0)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface___c__DisplayClass12_0_TypeDefinitionIndex = 46689;
+	inline static constexpr unsigned int MiHoYoMTRInterface___c__DisplayClass12_0_TypeDefinitionIndex = 47717;
 
 	class MiHoYoMTRInterface___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::MTR::MiHoYoMTRInterface_MiHoYoResolverCallback* callback; // 0x10
-		::System::String* strHost; // 0x18
+		::System::String* strHost; // 0x10
+		::MiHoYo::SDK::MTR::MiHoYoMTRInterface_MiHoYoResolverCallback* callback; // 0x18
 		::System::Int32 nTaskID; // 0x20
 		::System::Void _ctor()
 		{

@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FinishActionConfigRow; }
 
-#define RPG_GAMECORE_FINISHACTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A9180)
-#define RPG_GAMECORE_FINISHACTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6A9020)
+#define RPG_GAMECORE_FINISHACTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B5980)
+#define RPG_GAMECORE_FINISHACTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8B5820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishActionConfigRow_TypeDefinitionIndex = 14168;
+	inline static constexpr unsigned int FinishActionConfigRow_TypeDefinitionIndex = 14325;
 
 	class FinishActionConfigRow : public ::System::Object
 	{
 	public:
-		::System::Boolean NeedVerseParam; // 0x10
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::FinishActionType FinishActionType; // 0x14
+		::RPG::GameCore::FinishActionType FinishActionType; // 0x10
+		::System::Boolean NeedVerseParam; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINISHACTIONCONFIGROW_CTOR_OFFSET))(this);

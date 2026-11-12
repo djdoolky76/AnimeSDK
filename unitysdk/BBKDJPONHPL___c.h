@@ -4,18 +4,18 @@
 class BBKDJPONHPL;
 namespace System { class Object; }
 
-#define BBKDJPONHPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7C8200)
-#define BBKDJPONHPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C8230)
-#define BBKDJPONHPL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7C8240)
+#define BBKDJPONHPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBC4330)
+#define BBKDJPONHPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBC4360)
+#define BBKDJPONHPL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FBC4370)
 
-inline static constexpr unsigned int BBKDJPONHPL___c_TypeDefinitionIndex = 34640;
+inline static constexpr unsigned int BBKDJPONHPL___c_TypeDefinitionIndex = 35568;
 
 	class BBKDJPONHPL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48060);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42A10);
 		}
 
 		static ::System::Void _cctor()

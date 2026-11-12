@@ -3,9 +3,9 @@
 #include "unitysdk/RootMotion/IKJob/IKTransformRef.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define MLMFEFCOOIC_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x1E640)
+#define MLMFEFCOOIC_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x22A60)
 
-inline static constexpr unsigned int MLMFEFCOOIC_TypeDefinitionIndex = 68452;
+inline static constexpr unsigned int MLMFEFCOOIC_TypeDefinitionIndex = 70399;
 
 	struct alignas(4) MLMFEFCOOIC
 	{

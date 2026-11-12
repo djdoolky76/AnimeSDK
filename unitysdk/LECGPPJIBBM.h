@@ -3,7 +3,7 @@
 #include "unitysdk/NBEKNJDCLEI.h"
 #include "unitysdk/RPG/Client/FiveDimEntityLodStateChangeType.h"
 
-inline static constexpr unsigned int LECGPPJIBBM_TypeDefinitionIndex = 60530;
+inline static constexpr unsigned int LECGPPJIBBM_TypeDefinitionIndex = 61819;
 
 	struct alignas(4) LECGPPJIBBM
 	{

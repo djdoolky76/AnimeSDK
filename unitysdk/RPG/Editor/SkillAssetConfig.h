@@ -6,14 +6,14 @@ namespace RPG::Editor { class SkillLineAssetConfig; }
 namespace RPG::Editor { class SkillPointAssetConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_EDITOR_SKILLASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4ADAD0)
-#define RPG_EDITOR_SKILLASSETCONFIG_HPHIBKHKKBL_OFFSET UNITYSDK_OFFSET(0xE4AD9D0)
-#define RPG_EDITOR_SKILLASSETCONFIG_IHEPDJJJOBA_OFFSET UNITYSDK_OFFSET(0xE4AD190)
-#define RPG_EDITOR_SKILLASSETCONFIG_NCLDGKBDNHM_OFFSET UNITYSDK_OFFSET(0xE4AD2A0)
+#define RPG_EDITOR_SKILLASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xEF6C8E0)
+#define RPG_EDITOR_SKILLASSETCONFIG_HPHIBKHKKBL_OFFSET UNITYSDK_OFFSET(0xEF6C7E0)
+#define RPG_EDITOR_SKILLASSETCONFIG_IHEPDJJJOBA_OFFSET UNITYSDK_OFFSET(0xEF6BFA0)
+#define RPG_EDITOR_SKILLASSETCONFIG_NCLDGKBDNHM_OFFSET UNITYSDK_OFFSET(0xEF6C0B0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillAssetConfig_TypeDefinitionIndex = 52035;
+	inline static constexpr unsigned int SkillAssetConfig_TypeDefinitionIndex = 53140;
 
 	class SkillAssetConfig : public ::System::Object
 	{

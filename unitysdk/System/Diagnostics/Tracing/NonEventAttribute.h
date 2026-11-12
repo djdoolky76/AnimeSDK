@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_TRACING_NONEVENTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1FEE70)
+#define SYSTEM_DIAGNOSTICS_TRACING_NONEVENTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D385B20)
 
 namespace System::Diagnostics::Tracing
 {

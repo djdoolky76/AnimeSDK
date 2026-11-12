@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::PixAir { class PixAirEquipItemViewModel; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB34B60)
-#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0__GETEQUIPITEM_B__0_OFFSET UNITYSDK_OFFSET(0xDB34BB0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE58C4A0)
+#define RPG_CLIENT_PIXAIR_PIXAIRBATTLEEQUIPSVIEWMODEL___C__DISPLAYCLASS3_0__GETEQUIPITEM_B__0_OFFSET UNITYSDK_OFFSET(0xE58C4F0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirBattleEquipsViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 79252;
+	inline static constexpr unsigned int PixAirBattleEquipsViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 82029;
 
 	class PixAirBattleEquipsViewModel___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -11,29 +11,29 @@ namespace System { class UriFormatException; }
 namespace System { class UriParser; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SYSTEM_URIPARSER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F0670)
-#define SYSTEM_URIPARSER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F1470)
-#define SYSTEM_URIPARSER_FINDORFETCHASUNKNOWNV1SYNTAX_OFFSET UNITYSDK_OFFSET(0x1F0E99F0)
-#define SYSTEM_URIPARSER_GETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1F0F0480)
-#define SYSTEM_URIPARSER_GETSYNTAX_OFFSET UNITYSDK_OFFSET(0x1F0EF0F0)
-#define SYSTEM_URIPARSER_GET_DEFAULTPORT_OFFSET UNITYSDK_OFFSET(0x1F0F0190)
-#define SYSTEM_URIPARSER_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1F0F1420)
-#define SYSTEM_URIPARSER_GET_ISSIMPLE_OFFSET UNITYSDK_OFFSET(0x1F0DD760)
-#define SYSTEM_URIPARSER_GET_SCHEMENAME_OFFSET UNITYSDK_OFFSET(0x1F0F0180)
-#define SYSTEM_URIPARSER_GET_SHOULDUSELEGACYV2QUIRKS_OFFSET UNITYSDK_OFFSET(0x1F0E95A0)
-#define SYSTEM_URIPARSER_INFACT_OFFSET UNITYSDK_OFFSET(0x1F0DB2B0)
-#define SYSTEM_URIPARSER_INITIALIZEANDVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F0F01B0)
-#define SYSTEM_URIPARSER_INTERNALGETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x1F0E6DB0)
-#define SYSTEM_URIPARSER_INTERNALISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1F0ED730)
-#define SYSTEM_URIPARSER_INTERNALONNEWURI_OFFSET UNITYSDK_OFFSET(0x1F0EC9A0)
-#define SYSTEM_URIPARSER_INTERNALRESOLVE_OFFSET UNITYSDK_OFFSET(0x1F0DE0E0)
-#define SYSTEM_URIPARSER_INTERNALVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F0ECA40)
-#define SYSTEM_URIPARSER_ISALLSET_OFFSET UNITYSDK_OFFSET(0x1F0E4C70)
-#define SYSTEM_URIPARSER_ISFULLMATCH_OFFSET UNITYSDK_OFFSET(0x1F0F1430)
-#define SYSTEM_URIPARSER_ISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x1F0F0650)
-#define SYSTEM_URIPARSER_NOTANY_OFFSET UNITYSDK_OFFSET(0x1F0E4CB0)
-#define SYSTEM_URIPARSER_ONNEWURI_OFFSET UNITYSDK_OFFSET(0x1F0F01A0)
-#define SYSTEM_URIPARSER_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1F0F0210)
+#define SYSTEM_URIPARSER_CCTOR_OFFSET UNITYSDK_OFFSET(0x203A1630)
+#define SYSTEM_URIPARSER_CTOR_OFFSET UNITYSDK_OFFSET(0x203A2430)
+#define SYSTEM_URIPARSER_FINDORFETCHASUNKNOWNV1SYNTAX_OFFSET UNITYSDK_OFFSET(0x2039A9E0)
+#define SYSTEM_URIPARSER_GETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x203A1440)
+#define SYSTEM_URIPARSER_GETSYNTAX_OFFSET UNITYSDK_OFFSET(0x203A00B0)
+#define SYSTEM_URIPARSER_GET_DEFAULTPORT_OFFSET UNITYSDK_OFFSET(0x203A1150)
+#define SYSTEM_URIPARSER_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x203A23E0)
+#define SYSTEM_URIPARSER_GET_ISSIMPLE_OFFSET UNITYSDK_OFFSET(0x2038E750)
+#define SYSTEM_URIPARSER_GET_SCHEMENAME_OFFSET UNITYSDK_OFFSET(0x203A1140)
+#define SYSTEM_URIPARSER_GET_SHOULDUSELEGACYV2QUIRKS_OFFSET UNITYSDK_OFFSET(0x2039A590)
+#define SYSTEM_URIPARSER_INFACT_OFFSET UNITYSDK_OFFSET(0x2038C2A0)
+#define SYSTEM_URIPARSER_INITIALIZEANDVALIDATE_OFFSET UNITYSDK_OFFSET(0x203A1170)
+#define SYSTEM_URIPARSER_INTERNALGETCOMPONENTS_OFFSET UNITYSDK_OFFSET(0x20397DA0)
+#define SYSTEM_URIPARSER_INTERNALISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x2039E720)
+#define SYSTEM_URIPARSER_INTERNALONNEWURI_OFFSET UNITYSDK_OFFSET(0x2039D990)
+#define SYSTEM_URIPARSER_INTERNALRESOLVE_OFFSET UNITYSDK_OFFSET(0x2038F0D0)
+#define SYSTEM_URIPARSER_INTERNALVALIDATE_OFFSET UNITYSDK_OFFSET(0x2039DA30)
+#define SYSTEM_URIPARSER_ISALLSET_OFFSET UNITYSDK_OFFSET(0x20395C60)
+#define SYSTEM_URIPARSER_ISFULLMATCH_OFFSET UNITYSDK_OFFSET(0x203A23F0)
+#define SYSTEM_URIPARSER_ISWELLFORMEDORIGINALSTRING_OFFSET UNITYSDK_OFFSET(0x203A1610)
+#define SYSTEM_URIPARSER_NOTANY_OFFSET UNITYSDK_OFFSET(0x20395CA0)
+#define SYSTEM_URIPARSER_ONNEWURI_OFFSET UNITYSDK_OFFSET(0x203A1160)
+#define SYSTEM_URIPARSER_RESOLVE_OFFSET UNITYSDK_OFFSET(0x203A11D0)
 
 namespace System
 {
@@ -43,114 +43,114 @@ namespace System
 	{
 	public:
 		::System::String* m_Scheme; // 0x10
-		::System::UriSyntaxFlags m_UpdatableFlags; // 0x18
-		::System::Boolean m_UpdatableFlagsUsed; // 0x1C
+		::System::Boolean m_UpdatableFlagsUsed; // 0x18
 		::System::Byte _padding0[0x3];
-		::System::UriSyntaxFlags m_Flags; // 0x20
-		::System::Int32 m_Port; // 0x24
+		::System::UriSyntaxFlags m_UpdatableFlags; // 0x1C
+		::System::Int32 m_Port; // 0x20
+		::System::UriSyntaxFlags m_Flags; // 0x24
+		static ::System::UriParser** StaticGet_HttpUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C440);
+		}
+
 		static ::System::UriParser** StaticGet_UuidUri()
 		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D60);
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C448);
 		}
 
 		static ::System::UriParser** StaticGet_FtpUri()
 		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D68);
-		}
-
-		static ::System::UriParser** StaticGet_MailToUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D70);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>** StaticGet_m_TempTable()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D78);
-		}
-
-		static ::System::UriParser** StaticGet_WssUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D80);
-		}
-
-		static ::System::UriParser** StaticGet_VsMacrosUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D88);
-		}
-
-		static ::System::UriParser** StaticGet_NntpUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D90);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>** StaticGet_m_Table()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32D98);
-		}
-
-		static ::System::UriParser** StaticGet_NetPipeUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DA0);
-		}
-
-		static ::System::UriParser** StaticGet_NewsUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DA8);
-		}
-
-		static ::System::UriParser** StaticGet_GopherUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DB0);
-		}
-
-		static ::System::UriParser** StaticGet_HttpsUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DB8);
-		}
-
-		static ::System::UriParser** StaticGet_WsUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DC0);
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C450);
 		}
 
 		static ::System::UriParser** StaticGet_NetTcpUri()
 		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DC8);
-		}
-
-		static ::System::UriParser** StaticGet_TelnetUri()
-		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DD0);
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C458);
 		}
 
 		static ::System::UriParser** StaticGet_FileUri()
 		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DD8);
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C460);
+		}
+
+		static ::System::UriParser** StaticGet_MailToUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C468);
+		}
+
+		static ::System::UriParser** StaticGet_WsUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C470);
 		}
 
 		static ::System::UriParser** StaticGet_LdapUri()
 		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DE0);
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C478);
 		}
 
-		static ::System::UriParser** StaticGet_HttpUri()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>** StaticGet_m_Table()
 		{
-			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x32DE8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C480);
 		}
 
-		static ::System::UriParser_UriQuirksVersion* StaticGet_s_QuirksVersion()
+		static ::System::UriParser** StaticGet_NntpUri()
 		{
-			return (::System::UriParser_UriQuirksVersion*)UnitySDK::FromName("System", "UriParser")->GetStaticField(0xAB20);
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C488);
+		}
+
+		static ::System::UriParser** StaticGet_NewsUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C490);
+		}
+
+		static ::System::UriParser** StaticGet_HttpsUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C498);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>** StaticGet_m_TempTable()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::UriParser*>**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C4A0);
+		}
+
+		static ::System::UriParser** StaticGet_NetPipeUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C4A8);
+		}
+
+		static ::System::UriParser** StaticGet_GopherUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C4B0);
+		}
+
+		static ::System::UriParser** StaticGet_VsMacrosUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C4B8);
+		}
+
+		static ::System::UriParser** StaticGet_WssUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C4C0);
+		}
+
+		static ::System::UriParser** StaticGet_TelnetUri()
+		{
+			return (::System::UriParser**)UnitySDK::FromName("System", "UriParser")->GetStaticField(0x3C4C8);
 		}
 
 		static ::System::UriSyntaxFlags* StaticGet_FileSyntaxFlags()
 		{
-			return (::System::UriSyntaxFlags*)UnitySDK::FromName("System", "UriParser")->GetStaticField(0xAB24);
+			return (::System::UriSyntaxFlags*)UnitySDK::FromName("System", "UriParser")->GetStaticField(0xD4E0);
+		}
+
+		static ::System::UriParser_UriQuirksVersion* StaticGet_s_QuirksVersion()
+		{
+			return (::System::UriParser_UriQuirksVersion*)UnitySDK::FromName("System", "UriParser")->GetStaticField(0xD4E4);
 		}
 
 		static ::System::UriSyntaxFlags* StaticGet_HttpSyntaxFlags()
 		{
-			return (::System::UriSyntaxFlags*)UnitySDK::FromName("System", "UriParser")->GetStaticField(0xAB28);
+			return (::System::UriSyntaxFlags*)UnitySDK::FromName("System", "UriParser")->GetStaticField(0xD4E8);
 		}
 
 		static ::System::Void _cctor()

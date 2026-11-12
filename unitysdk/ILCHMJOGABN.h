@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TargetMuteModifierEventSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILCHMJOGABN_CTOR_OFFSET UNITYSDK_OFFSET(0x164A7AB0)
-#define ILCHMJOGABN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164A7AE0)
+#define ILCHMJOGABN_CTOR_OFFSET UNITYSDK_OFFSET(0x1747BB50)
+#define ILCHMJOGABN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1747BB80)
 
-inline static constexpr unsigned int ILCHMJOGABN_TypeDefinitionIndex = 55180;
+inline static constexpr unsigned int ILCHMJOGABN_TypeDefinitionIndex = 56361;
 
 	class ILCHMJOGABN
 	{

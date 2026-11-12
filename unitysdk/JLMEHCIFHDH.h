@@ -8,26 +8,26 @@ class NGGLPLKJKMM;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define JLMEHCIFHDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D047460)
-#define JLMEHCIFHDH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D047040)
+#define JLMEHCIFHDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E236460)
+#define JLMEHCIFHDH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E236040)
 
-inline static constexpr unsigned int JLMEHCIFHDH_TypeDefinitionIndex = 18155;
+inline static constexpr unsigned int JLMEHCIFHDH_TypeDefinitionIndex = 18317;
 
 	class JLMEHCIFHDH : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::NGGLPLKJKMM* CIDPKCICEBG; // 0x10
-		::NGGLPLKJKMM* FIENHNJBCBH; // 0x18
-		::System::String* DJGEFBEJKHL; // 0x20
-		::System::String* MBLKGJMPGKC; // 0x28
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* MFHALOHAMNO; // 0x30
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IHGPLICHDLA; // 0x38
-		::NGGLPLKJKMM* DPHAELOEHBM; // 0x40
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KNFAIEMEFAI; // 0x48
-		::NGGLPLKJKMM* PNMCPEEAOMK; // 0x50
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BDDGJOHPLFB; // 0x58
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* FCGKIDGCMEN; // 0x60
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GFDOFDMBDAB; // 0x68
+		::NGGLPLKJKMM* DPHAELOEHBM; // 0x10
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KNFAIEMEFAI; // 0x18
+		::NGGLPLKJKMM* CIDPKCICEBG; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BDDGJOHPLFB; // 0x28
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* FCGKIDGCMEN; // 0x30
+		::System::String* MBLKGJMPGKC; // 0x38
+		::System::String* DJGEFBEJKHL; // 0x40
+		::NGGLPLKJKMM* FIENHNJBCBH; // 0x48
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IHGPLICHDLA; // 0x50
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GFDOFDMBDAB; // 0x58
+		::NGGLPLKJKMM* PNMCPEEAOMK; // 0x60
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* MFHALOHAMNO; // 0x68
 		::RPG::GameCore::FateRinCardCasterSource JHBCCLOFBEN; // 0x70
 		::System::Void _ctor()
 		{

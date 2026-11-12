@@ -4,18 +4,18 @@
 class PAGOFONBHON;
 namespace System { class String; }
 
-#define OFMELBNNBIB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE47830)
-#define OFMELBNNBIB_GET_ID_OFFSET UNITYSDK_OFFSET(0xBE47800)
-#define OFMELBNNBIB_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xBE47810)
-#define OFMELBNNBIB_GET_MATERIALPATH_OFFSET UNITYSDK_OFFSET(0xBE47820)
+#define OFMELBNNBIB_CTOR_OFFSET UNITYSDK_OFFSET(0xC7009D0)
+#define OFMELBNNBIB_GET_ID_OFFSET UNITYSDK_OFFSET(0xC7009A0)
+#define OFMELBNNBIB_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xC7009B0)
+#define OFMELBNNBIB_GET_MATERIALPATH_OFFSET UNITYSDK_OFFSET(0xC7009C0)
 
-inline static constexpr unsigned int OFMELBNNBIB_TypeDefinitionIndex = 80126;
+inline static constexpr unsigned int OFMELBNNBIB_TypeDefinitionIndex = 82903;
 
 	class OFMELBNNBIB : public ::System::Object
 	{
 	public:
-		::System::String* _MaterialPath_k__BackingField; // 0x10
-		::System::String* _ImagePath_k__BackingField; // 0x18
+		::System::String* _ImagePath_k__BackingField; // 0x10
+		::System::String* _MaterialPath_k__BackingField; // 0x18
 		::System::UInt32 _ID_k__BackingField; // 0x20
 		::System::Void _ctor(::PAGOFONBHON* a1)
 		{

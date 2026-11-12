@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_PDGAssetLink_TypeDefinitionIndex = 40569;
+	inline static constexpr unsigned int IHEU_PDGAssetLink_TypeDefinitionIndex = 41544;
 
 	class IHEU_PDGAssetLink
 	{

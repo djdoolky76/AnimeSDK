@@ -4,18 +4,18 @@
 class AABPMMILMLE;
 namespace System { class Object; }
 
-#define AABPMMILMLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDB74B0)
-#define AABPMMILMLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB74F0)
-#define AABPMMILMLE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DDB7500)
+#define AABPMMILMLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFB9DD0)
+#define AABPMMILMLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB9E10)
+#define AABPMMILMLE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EFB9E20)
 
-inline static constexpr unsigned int AABPMMILMLE___c_TypeDefinitionIndex = 34210;
+inline static constexpr unsigned int AABPMMILMLE___c_TypeDefinitionIndex = 35138;
 
 	class AABPMMILMLE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36870);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31480);
 		}
 
 		static ::System::Void _cctor()

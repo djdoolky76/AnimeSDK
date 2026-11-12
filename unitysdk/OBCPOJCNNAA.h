@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OBCPOJCNNAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C979440)
+#define OBCPOJCNNAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3B1D0)
 
-inline static constexpr unsigned int OBCPOJCNNAA_TypeDefinitionIndex = 41942;
+inline static constexpr unsigned int OBCPOJCNNAA_TypeDefinitionIndex = 42917;
 
 	class OBCPOJCNNAA : public ::System::Object
 	{

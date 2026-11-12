@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GLELMMPFLJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15AB0520)
+#define GLELMMPFLJE_CTOR_OFFSET UNITYSDK_OFFSET(0x16A32A80)
 
-inline static constexpr unsigned int GLELMMPFLJE_TypeDefinitionIndex = 78526;
+inline static constexpr unsigned int GLELMMPFLJE_TypeDefinitionIndex = 81261;
 
 	class GLELMMPFLJE : public ::System::Object
 	{

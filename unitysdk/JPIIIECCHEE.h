@@ -3,7 +3,7 @@
 namespace RPG::GameCore { class AdventureDyingParam; }
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int JPIIIECCHEE_TypeDefinitionIndex = 57900;
+inline static constexpr unsigned int JPIIIECCHEE_TypeDefinitionIndex = 59137;
 
 	struct alignas(8) JPIIIECCHEE
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetEntityTalkEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ECOOHPHFFFL_CTOR_OFFSET UNITYSDK_OFFSET(0x12D16600)
-#define ECOOHPHFFFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D16610)
-#define ECOOHPHFFFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D16650)
-#define ECOOHPHFFFL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12D167B0)
-#define ECOOHPHFFFL_TICK_OFFSET UNITYSDK_OFFSET(0x12D16800)
+#define ECOOHPHFFFL_CTOR_OFFSET UNITYSDK_OFFSET(0x13AC91F0)
+#define ECOOHPHFFFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13AC9200)
+#define ECOOHPHFFFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AC9240)
+#define ECOOHPHFFFL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13AC93A0)
+#define ECOOHPHFFFL_TICK_OFFSET UNITYSDK_OFFSET(0x13AC93F0)
 
-inline static constexpr unsigned int ECOOHPHFFFL_TypeDefinitionIndex = 53228;
+inline static constexpr unsigned int ECOOHPHFFFL_TypeDefinitionIndex = 54390;
 
 	class ECOOHPHFFFL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetEntityTalkEnable* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetEntityTalkEnable* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetEntityTalkEnable* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetEntityTalkEnable*))((::PBYTE)hIl2Cpp + ECOOHPHFFFL_CTOR_OFFSET))(this, a1, a2);

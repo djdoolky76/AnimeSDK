@@ -7,47 +7,47 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarPromotionRow; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_AVATARPROMOTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D41D1A0)
-#define RPG_GAMECORE_AVATARPROMOTIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D419E60)
-#define RPG_GAMECORE_AVATARPROMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D41AC20)
-#define RPG_GAMECORE_AVATARPROMOTIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D41D0F0)
-#define RPG_GAMECORE_AVATARPROMOTIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D41D150)
+#define RPG_GAMECORE_AVATARPROMOTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E63D910)
+#define RPG_GAMECORE_AVATARPROMOTIONROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1E63A5C0)
+#define RPG_GAMECORE_AVATARPROMOTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E63B380)
+#define RPG_GAMECORE_AVATARPROMOTIONROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1E63D850)
+#define RPG_GAMECORE_AVATARPROMOTIONROW_RESET_OFFSET UNITYSDK_OFFSET(0x1E63D8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPromotionRow_TypeDefinitionIndex = 12732;
+	inline static constexpr unsigned int AvatarPromotionRow_TypeDefinitionIndex = 12799;
 
 	class AvatarPromotionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* PromotionCostList; // 0x10
-		::RPG::GameCore::FixPoint SpeedAdd; // 0x18
+		::RPG::GameCore::FixPoint HPBase; // 0x18
 		::System::UInt32 AvatarID; // 0x20
-		::System::UInt32 WorldLevelRequire; // 0x24
-		::RPG::GameCore::FixPoint HPAdd; // 0x28
-		::RPG::GameCore::FixPoint RankSpeedAdd; // 0x30
-		::RPG::GameCore::FixPoint RankAttackAdd; // 0x38
-		::RPG::GameCore::FixPoint BaseAggro; // 0x40
-		::RPG::GameCore::FixPoint AttackAdd; // 0x48
-		::System::UInt32 Promotion; // 0x50
-		::System::UInt32 MaxLevel; // 0x54
-		::RPG::GameCore::FixPoint RankHPAdd; // 0x58
-		::RPG::GameCore::FixPoint HPBase; // 0x60
-		::System::UInt32 PlayerLevelRequire; // 0x68
+		::System::UInt32 PlayerLevelRequire; // 0x24
+		::RPG::GameCore::FixPoint AttackAdd; // 0x28
+		::RPG::GameCore::FixPoint DefenceBase; // 0x30
+		::System::UInt32 WorldLevelRequire; // 0x38
+		::System::UInt32 Promotion; // 0x3C
+		::RPG::GameCore::FixPoint SpeedAdd; // 0x40
+		::RPG::GameCore::FixPoint CriticalChance; // 0x48
+		::System::UInt32 MaxLevel; // 0x50
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint RankSpeedBase; // 0x70
-		::RPG::GameCore::FixPoint AttackBase; // 0x78
-		::RPG::GameCore::FixPoint RankCriticalChance; // 0x80
-		::RPG::GameCore::FixPoint RankHPBase; // 0x88
-		::RPG::GameCore::FixPoint RankAttackBase; // 0x90
-		::RPG::GameCore::FixPoint RankDefenceBase; // 0x98
-		::RPG::GameCore::FixPoint CriticalChance; // 0xA0
-		::RPG::GameCore::FixPoint MinimumFatigueRatio; // 0xA8
-		::RPG::GameCore::FixPoint SpeedBase; // 0xB0
-		::RPG::GameCore::FixPoint RankCriticalDamage; // 0xB8
-		::RPG::GameCore::FixPoint DefenceBase; // 0xC0
-		::RPG::GameCore::FixPoint RankDefenceAdd; // 0xC8
-		::RPG::GameCore::FixPoint CriticalDamage; // 0xD0
+		::RPG::GameCore::FixPoint CriticalDamage; // 0x58
+		::RPG::GameCore::FixPoint RankDefenceBase; // 0x60
+		::RPG::GameCore::FixPoint RankSpeedBase; // 0x68
+		::RPG::GameCore::FixPoint RankHPAdd; // 0x70
+		::RPG::GameCore::FixPoint RankSpeedAdd; // 0x78
+		::RPG::GameCore::FixPoint BaseAggro; // 0x80
+		::RPG::GameCore::FixPoint RankCriticalChance; // 0x88
+		::RPG::GameCore::FixPoint SpeedBase; // 0x90
+		::RPG::GameCore::FixPoint RankCriticalDamage; // 0x98
+		::RPG::GameCore::FixPoint MinimumFatigueRatio; // 0xA0
+		::RPG::GameCore::FixPoint HPAdd; // 0xA8
+		::RPG::GameCore::FixPoint RankAttackAdd; // 0xB0
+		::RPG::GameCore::FixPoint RankHPBase; // 0xB8
+		::RPG::GameCore::FixPoint AttackBase; // 0xC0
+		::RPG::GameCore::FixPoint RankAttackBase; // 0xC8
+		::RPG::GameCore::FixPoint RankDefenceAdd; // 0xD0
 		::RPG::GameCore::FixPoint DefenceAdd; // 0xD8
 		::System::Void _ctor()
 		{

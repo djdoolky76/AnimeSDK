@@ -4,10 +4,10 @@
 #include "unitysdk/APCGKBOPGJL.h"
 #include "unitysdk/OIPMNNAHIFP.h"
 
-#define IJJGCAFOMFC_ABCEJOHMKMN_OFFSET UNITYSDK_OFFSET(0x1646A970)
-#define IJJGCAFOMFC_KLPLMBPHIEC_OFFSET UNITYSDK_OFFSET(0x1646A9B0)
+#define IJJGCAFOMFC_ABCEJOHMKMN_OFFSET UNITYSDK_OFFSET(0x1743D490)
+#define IJJGCAFOMFC_KLPLMBPHIEC_OFFSET UNITYSDK_OFFSET(0x1743D4D0)
 
-inline static constexpr unsigned int IJJGCAFOMFC_TypeDefinitionIndex = 62577;
+inline static constexpr unsigned int IJJGCAFOMFC_TypeDefinitionIndex = 63998;
 
 	class IJJGCAFOMFC : public ::System::Object
 	{

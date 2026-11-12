@@ -6,43 +6,43 @@ namespace RPG::Client { class MissionFocusSelector_MissionMatchPredicate; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6D9C90)
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD6D9CD0)
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__GETMOSTRELEVANTSHOWNANDSTARTEDMISSIONIDTOFOCUS_B__2_2_OFFSET UNITYSDK_OFFSET(0xD6D9CE0)
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__GETMOSTRELEVANTSHOWNANDSTARTEDMISSIONIDTOFOCUS_B__2_3_OFFSET UNITYSDK_OFFSET(0xD6D9D00)
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C___GETALLSHOWNANDSTARTEDMAINMISSIONS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD6D9D20)
-#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C___TRYGETMOSTRELEVANTMAINMISSIONID_B__4_1_OFFSET UNITYSDK_OFFSET(0xD6D9D60)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE167750)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE167790)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__GETMOSTRELEVANTSHOWNANDSTARTEDMISSIONIDTOFOCUS_B__2_2_OFFSET UNITYSDK_OFFSET(0xE1677A0)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C__GETMOSTRELEVANTSHOWNANDSTARTEDMISSIONIDTOFOCUS_B__2_3_OFFSET UNITYSDK_OFFSET(0xE1677C0)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C___GETALLSHOWNANDSTARTEDMAINMISSIONS_B__3_0_OFFSET UNITYSDK_OFFSET(0xE1677E0)
+#define RPG_CLIENT_MISSIONFOCUSSELECTOR___C___TRYGETMOSTRELEVANTMAINMISSIONID_B__4_1_OFFSET UNITYSDK_OFFSET(0xE167820)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionFocusSelector___c_TypeDefinitionIndex = 66163;
+	inline static constexpr unsigned int MissionFocusSelector___c_TypeDefinitionIndex = 68099;
 
 	class MissionFocusSelector___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56610);
-		}
-
 		static ::System::Func_2<::RPG::Client::MainMissionData*, ::System::UInt32>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::RPG::Client::MainMissionData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56618);
+			return (::System::Func_2<::RPG::Client::MainMissionData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x684F0);
 		}
 
 		static ::RPG::Client::MissionFocusSelector_MissionMatchPredicate** StaticGet___9__2_2()
 		{
-			return (::RPG::Client::MissionFocusSelector_MissionMatchPredicate**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56620);
-		}
-
-		static ::System::Func_2<::RPG::Client::MainMissionData*, ::System::Boolean>** StaticGet___9__3_0()
-		{
-			return (::System::Func_2<::RPG::Client::MainMissionData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56628);
+			return (::RPG::Client::MissionFocusSelector_MissionMatchPredicate**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x684F8);
 		}
 
 		static ::RPG::Client::MissionFocusSelector_MissionMatchPredicate** StaticGet___9__2_3()
 		{
-			return (::RPG::Client::MissionFocusSelector_MissionMatchPredicate**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56630);
+			return (::RPG::Client::MissionFocusSelector_MissionMatchPredicate**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68500);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68508);
+		}
+
+		static ::System::Func_2<::RPG::Client::MainMissionData*, ::System::Boolean>** StaticGet___9__3_0()
+		{
+			return (::System::Func_2<::RPG::Client::MainMissionData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68510);
 		}
 
 		static ::System::Void _cctor()

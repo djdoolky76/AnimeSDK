@@ -5,10 +5,10 @@ namespace RPG::GameCore { class AIDecisionUnitConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KNLPJGGGCDM_DKHGHEEEOBD_OFFSET UNITYSDK_OFFSET(0xB588A90)
-#define KNLPJGGGCDM_LPHILBLGOFN_OFFSET UNITYSDK_OFFSET(0xB588700)
+#define KNLPJGGGCDM_DKHGHEEEOBD_OFFSET UNITYSDK_OFFSET(0xBDDB140)
+#define KNLPJGGGCDM_LPHILBLGOFN_OFFSET UNITYSDK_OFFSET(0xBDDADB0)
 
-inline static constexpr unsigned int KNLPJGGGCDM_TypeDefinitionIndex = 57760;
+inline static constexpr unsigned int KNLPJGGGCDM_TypeDefinitionIndex = 58995;
 
 	struct alignas(4) KNLPJGGGCDM
 	{

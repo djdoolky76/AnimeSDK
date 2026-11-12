@@ -8,22 +8,22 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_ACQUIRE_OFFSET UNITYSDK_OFFSET(0xDABCC00)
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_CREATE_OFFSET UNITYSDK_OFFSET(0xDABB710)
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_CTOR_OFFSET UNITYSDK_OFFSET(0xDAC2880)
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDABBA70)
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_GET_ISSUPPRESSED_OFFSET UNITYSDK_OFFSET(0xDAC0820)
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET__RELEASE_OFFSET UNITYSDK_OFFSET(0xDAC29B0)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_ACQUIRE_OFFSET UNITYSDK_OFFSET(0xE512A60)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_CREATE_OFFSET UNITYSDK_OFFSET(0xE511570)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_CTOR_OFFSET UNITYSDK_OFFSET(0xE518660)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5118D0)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_GET_ISSUPPRESSED_OFFSET UNITYSDK_OFFSET(0xE516600)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET__RELEASE_OFFSET UNITYSDK_OFFSET(0xE518770)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetShowSuppressorSet_TypeDefinitionIndex = 75706;
+	inline static constexpr unsigned int PetShowSuppressorSet_TypeDefinitionIndex = 78033;
 
 	class PetShowSuppressorSet : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::String*>* _ActiveSuppressors; // 0x10
-		::System::Action_1<::System::Boolean>* _OnChanged; // 0x18
+		::System::Action_1<::System::Boolean>* _OnChanged; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Guid, ::System::String*>* _ActiveSuppressors; // 0x18
 		::System::Boolean _IsDisposed; // 0x20
 		::System::Void _ctor()
 		{

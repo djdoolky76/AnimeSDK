@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/RegionVolume.h"
 
-#define RPG_CLIENT_RUNTIMEREGIONVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0xE0859B0)
+#define RPG_CLIENT_RUNTIMEREGIONVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0xEAEFFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeRegionVolume_TypeDefinitionIndex = 62190;
+	inline static constexpr unsigned int RuntimeRegionVolume_TypeDefinitionIndex = 63603;
 
 	class RuntimeRegionVolume : public ::RPG::Client::RegionVolume
 	{

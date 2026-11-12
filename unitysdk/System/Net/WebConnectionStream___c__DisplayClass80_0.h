@@ -6,9 +6,9 @@ namespace System { class IAsyncResult; }
 namespace System::Net { class SimpleAsyncResult; }
 namespace System::Net { class WebConnectionStream; }
 
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS80_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F09B980)
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS80_0__WRITEREQUESTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F09C4A0)
-#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS80_0__WRITEREQUESTASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x1F09C670)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS80_0_CTOR_OFFSET UNITYSDK_OFFSET(0x2034C480)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS80_0__WRITEREQUESTASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x2034CF40)
+#define SYSTEM_NET_WEBCONNECTIONSTREAM___C__DISPLAYCLASS80_0__WRITEREQUESTASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x2034D110)
 
 namespace System::Net
 {
@@ -17,10 +17,10 @@ namespace System::Net
 	class WebConnectionStream___c__DisplayClass80_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* bytes; // 0x10
-		::System::Net::WebConnectionStream* __4__this; // 0x18
+		::System::Net::WebConnectionStream* __4__this; // 0x10
+		::System::Net::SimpleAsyncResult* result; // 0x18
 		::System::AsyncCallback* __9__1; // 0x20
-		::System::Net::SimpleAsyncResult* result; // 0x28
+		::Il2CppArray<::System::Byte>* bytes; // 0x28
 		::System::Int32 length; // 0x30
 		::System::Void _ctor()
 		{

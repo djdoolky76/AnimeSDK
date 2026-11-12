@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleDisableGhostFire; }
 
-#define DAFJOEJKKEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13E10)
-#define DAFJOEJKKEO_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA13E20)
+#define DAFJOEJKKEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBD76A0)
+#define DAFJOEJKKEO_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DBD76B0)
 
-inline static constexpr unsigned int DAFJOEJKKEO_TypeDefinitionIndex = 43119;
+inline static constexpr unsigned int DAFJOEJKKEO_TypeDefinitionIndex = 44100;
 
 	class DAFJOEJKKEO : public ::BKABEBEPPJK
 	{

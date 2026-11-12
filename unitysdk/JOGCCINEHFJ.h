@@ -12,56 +12,57 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define JOGCCINEHFJ_ACOJNBBKMOE_OFFSET UNITYSDK_OFFSET(0x1E7A1180)
-#define JOGCCINEHFJ_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E7A1710)
-#define JOGCCINEHFJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1A50)
-#define JOGCCINEHFJ_CGFKMJKGOLB_OFFSET UNITYSDK_OFFSET(0x1E7A1160)
-#define JOGCCINEHFJ_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7A1100)
-#define JOGCCINEHFJ_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E7A1060)
-#define JOGCCINEHFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1010)
-#define JOGCCINEHFJ_EMLAPANCIIN_OFFSET UNITYSDK_OFFSET(0x1E7A11A0)
-#define JOGCCINEHFJ_EODGHOPFDCJ_OFFSET UNITYSDK_OFFSET(0x1E7A1190)
-#define JOGCCINEHFJ_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E7A12B0)
-#define JOGCCINEHFJ_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E7A11E0)
-#define JOGCCINEHFJ_FBGGMMOPFLD_OFFSET UNITYSDK_OFFSET(0x1E7A11B0)
-#define JOGCCINEHFJ_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E7A1340)
-#define JOGCCINEHFJ_GKPNLAHPANG_OFFSET UNITYSDK_OFFSET(0x1E7A11D0)
-#define JOGCCINEHFJ_HANDMGBEFAC_OFFSET UNITYSDK_OFFSET(0x1E7A1150)
-#define JOGCCINEHFJ_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E7A0FA0)
-#define JOGCCINEHFJ_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E7A1920)
-#define JOGCCINEHFJ_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E7A18B0)
-#define JOGCCINEHFJ_NEOCEJLIKMO_OFFSET UNITYSDK_OFFSET(0x1E7A11C0)
-#define JOGCCINEHFJ_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1000)
-#define JOGCCINEHFJ_PNDOLKGIOJG_OFFSET UNITYSDK_OFFSET(0x1E7A1170)
-#define JOGCCINEHFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A1440)
-#define JOGCCINEHFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A14A0)
+#define JOGCCINEHFJ_ACOJNBBKMOE_OFFSET UNITYSDK_OFFSET(0x1FAD1420)
+#define JOGCCINEHFJ_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1FAD19F0)
+#define JOGCCINEHFJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAD1D30)
+#define JOGCCINEHFJ_CGFKMJKGOLB_OFFSET UNITYSDK_OFFSET(0x1FAD14A0)
+#define JOGCCINEHFJ_CLONE_OFFSET UNITYSDK_OFFSET(0x1FAD13D0)
+#define JOGCCINEHFJ_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FAD1330)
+#define JOGCCINEHFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAD12E0)
+#define JOGCCINEHFJ_EMLAPANCIIN_OFFSET UNITYSDK_OFFSET(0x1FAD1450)
+#define JOGCCINEHFJ_EODGHOPFDCJ_OFFSET UNITYSDK_OFFSET(0x1FAD1430)
+#define JOGCCINEHFJ_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1FAD1580)
+#define JOGCCINEHFJ_EQUALS_OFFSET UNITYSDK_OFFSET(0x1FAD14B0)
+#define JOGCCINEHFJ_FBGGMMOPFLD_OFFSET UNITYSDK_OFFSET(0x1FAD1460)
+#define JOGCCINEHFJ_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1FAD1610)
+#define JOGCCINEHFJ_GKPNLAHPANG_OFFSET UNITYSDK_OFFSET(0x1FAD1480)
+#define JOGCCINEHFJ_HANDMGBEFAC_OFFSET UNITYSDK_OFFSET(0x1FAD1490)
+#define JOGCCINEHFJ_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1FAD1270)
+#define JOGCCINEHFJ_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1FAD1C00)
+#define JOGCCINEHFJ_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1FAD1B90)
+#define JOGCCINEHFJ_NEOCEJLIKMO_OFFSET UNITYSDK_OFFSET(0x1FAD1470)
+#define JOGCCINEHFJ_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1FAD12D0)
+#define JOGCCINEHFJ_PNDOLKGIOJG_OFFSET UNITYSDK_OFFSET(0x1FAD1440)
+#define JOGCCINEHFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FAD1710)
+#define JOGCCINEHFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1FAD1770)
 
-inline static constexpr unsigned int JOGCCINEHFJ_TypeDefinitionIndex = 28263;
+inline static constexpr unsigned int JOGCCINEHFJ_TypeDefinitionIndex = 28853;
 
 	class JOGCCINEHFJ : public ::System::Object
 	{
 	public:
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* HBAEPLPKCEE; // 0x18
-		::System::UInt32 NPFBAFODCBI; // 0x20
+		::System::Boolean DNOCKOFLBGL; // 0x20
+		::System::Boolean PKAIDPLAHPJ; // 0x21
+		::System::Byte _padding0[0x2];
 		::System::UInt32 CPCECHCLLOP; // 0x24
-		::System::Boolean PKAIDPLAHPJ; // 0x28
-		::System::Boolean DNOCKOFLBGL; // 0x29
+		::System::UInt32 NPFBAFODCBI; // 0x28
 		static ::Google::Protobuf::MessageParser_1<::JOGCCINEHFJ*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::JOGCCINEHFJ*>**)UnitySDK::FromName("", "JOGCCINEHFJ")->GetStaticField(0x20F50);
+			return (::Google::Protobuf::MessageParser_1<::JOGCCINEHFJ*>**)UnitySDK::FromName("", "JOGCCINEHFJ")->GetStaticField(0x174F0);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FGJLNNADMLL()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "JOGCCINEHFJ")->GetStaticField(0x20F58);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "JOGCCINEHFJ")->GetStaticField(0x174F8);
 		}
 
-		// static const ::System::Object FABEMBPPBIC; // 0x0
-		// static const ::System::Object CKEBDAILMIG; // 0x0
 		// static const ::System::Object JJDOFLLPDJE; // 0x0
+		// static const ::System::Object CKEBDAILMIG; // 0x0
 		// static const ::System::Object LEONMDAONEB; // 0x0
 		// static const ::System::Object INAPHALIKEC; // 0x0
+		// static const ::System::Object FABEMBPPBIC; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_CTOR_OFFSET))(this);
@@ -92,21 +93,6 @@ inline static constexpr unsigned int JOGCCINEHFJ_TypeDefinitionIndex = 28263;
 			return ((::JOGCCINEHFJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 HANDMGBEFAC()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_HANDMGBEFAC_OFFSET))(this);
-		}
-
-		::System::Void CGFKMJKGOLB(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_CGFKMJKGOLB_OFFSET))(this, a1);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* PNDOLKGIOJG()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_PNDOLKGIOJG_OFFSET))(this);
-		}
-
 		::System::UInt32 ACOJNBBKMOE()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_ACOJNBBKMOE_OFFSET))(this);
@@ -115,6 +101,11 @@ inline static constexpr unsigned int JOGCCINEHFJ_TypeDefinitionIndex = 28263;
 		::System::Void EODGHOPFDCJ(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_EODGHOPFDCJ_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* PNDOLKGIOJG()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_PNDOLKGIOJG_OFFSET))(this);
 		}
 
 		::System::Boolean EMLAPANCIIN()
@@ -135,6 +126,16 @@ inline static constexpr unsigned int JOGCCINEHFJ_TypeDefinitionIndex = 28263;
 		::System::Void GKPNLAHPANG(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_GKPNLAHPANG_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 HANDMGBEFAC()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_HANDMGBEFAC_OFFSET))(this);
+		}
+
+		::System::Void CGFKMJKGOLB(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JOGCCINEHFJ_CGFKMJKGOLB_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

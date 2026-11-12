@@ -5,23 +5,23 @@ class Car;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CARFLOWMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCE6DA0)
-#define CARFLOWMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE6DE0)
-#define CARFLOWMANAGER___C__GETRANDOMCARPREFAB_B__28_0_OFFSET UNITYSDK_OFFSET(0xDCE6DF0)
+#define CARFLOWMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8FB330)
+#define CARFLOWMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8FB370)
+#define CARFLOWMANAGER___C__GETRANDOMCARPREFAB_B__28_0_OFFSET UNITYSDK_OFFSET(0xE8FB380)
 
-inline static constexpr unsigned int CarFlowManager___c_TypeDefinitionIndex = 47073;
+inline static constexpr unsigned int CarFlowManager___c_TypeDefinitionIndex = 48101;
 
 	class CarFlowManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x586E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42090);
 		}
 
 		static ::System::Func_2<::Car*, ::System::Single>** StaticGet___9__28_0()
 		{
-			return (::System::Func_2<::Car*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x586E8);
+			return (::System::Func_2<::Car*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42098);
 		}
 
 		static ::System::Void _cctor()

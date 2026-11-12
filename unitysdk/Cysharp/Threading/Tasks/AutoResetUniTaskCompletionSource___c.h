@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F114DA0)
-#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F114DE0)
-#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F114DF0)
+#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203C5E00)
+#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203C5E40)
+#define CYSHARP_THREADING_TASKS_AUTORESETUNITASKCOMPLETIONSOURCE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x203C5E50)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AutoResetUniTaskCompletionSource___c_TypeDefinitionIndex = 38396;
+	inline static constexpr unsigned int AutoResetUniTaskCompletionSource___c_TypeDefinitionIndex = 39325;
 
 	class AutoResetUniTaskCompletionSource___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3EAA0);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x36240);
 		}
 
 		static ::System::Void _cctor()

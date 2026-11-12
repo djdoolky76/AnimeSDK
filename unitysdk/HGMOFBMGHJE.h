@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define HGMOFBMGHJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB2610)
+#define HGMOFBMGHJE_CTOR_OFFSET UNITYSDK_OFFSET(0x16BFCBC0)
 
-inline static constexpr unsigned int HGMOFBMGHJE_TypeDefinitionIndex = 61265;
+inline static constexpr unsigned int HGMOFBMGHJE_TypeDefinitionIndex = 62650;
 
 	class HGMOFBMGHJE : public ::System::Exception
 	{

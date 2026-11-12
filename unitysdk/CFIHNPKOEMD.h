@@ -4,10 +4,10 @@
 #include "unitysdk/AKNEHPCANEM.h"
 class LCJIAMCDDFL;
 
-#define CFIHNPKOEMD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCC4EBF0)
-#define CFIHNPKOEMD_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4ED80)
+#define CFIHNPKOEMD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD5FC1F0)
+#define CFIHNPKOEMD_CTOR_OFFSET UNITYSDK_OFFSET(0xD5FC380)
 
-inline static constexpr unsigned int CFIHNPKOEMD_TypeDefinitionIndex = 62629;
+inline static constexpr unsigned int CFIHNPKOEMD_TypeDefinitionIndex = 64056;
 
 	class CFIHNPKOEMD : public ::System::Object
 	{

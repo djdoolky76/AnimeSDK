@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/DebugUI_Container.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_HBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C02B0)
+#define UNITYENGINE_RENDERING_DEBUGUI_HBOX_CTOR_OFFSET UNITYSDK_OFFSET(0x205710C0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_HBox_TypeDefinitionIndex = 35526;
+	inline static constexpr unsigned int DebugUI_HBox_TypeDefinitionIndex = 36454;
 
 	class DebugUI_HBox : public ::UnityEngine::Rendering::DebugUI_Container
 	{

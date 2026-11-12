@@ -8,13 +8,13 @@ namespace RPG::GameCore { class PPFilterStackEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PPFILTERSTACKEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EA080)
-#define RPG_GAMECORE_PPFILTERSTACKEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8EA0B0)
-#define RPG_GAMECORE_PPFILTERSTACKEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8EA020)
+#define RPG_GAMECORE_PPFILTERSTACKEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB02AA0)
+#define RPG_GAMECORE_PPFILTERSTACKEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB02AD0)
+#define RPG_GAMECORE_PPFILTERSTACKEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB02A40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PPFilterStackEffect_TypeDefinitionIndex = 20263;
+	inline static constexpr unsigned int PPFilterStackEffect_TypeDefinitionIndex = 20598;
 
 	class PPFilterStackEffect : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,18 +4,18 @@
 class LIFMGAFOBPC;
 namespace System { class Object; }
 
-#define LIFMGAFOBPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E96D5B0)
-#define LIFMGAFOBPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E96D5F0)
-#define LIFMGAFOBPC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E96D600)
+#define LIFMGAFOBPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC8E670)
+#define LIFMGAFOBPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC8E6B0)
+#define LIFMGAFOBPC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC8E6C0)
 
-inline static constexpr unsigned int LIFMGAFOBPC___c_TypeDefinitionIndex = 30949;
+inline static constexpr unsigned int LIFMGAFOBPC___c_TypeDefinitionIndex = 31862;
 
 	class LIFMGAFOBPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x451A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36660);
 		}
 
 		static ::System::Void _cctor()

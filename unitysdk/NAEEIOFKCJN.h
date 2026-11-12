@@ -7,31 +7,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAEEIOFKCJN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA967D0)
-#define NAEEIOFKCJN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA954F0)
-#define NAEEIOFKCJN_KBNJDPKPIKB_OFFSET UNITYSDK_OFFSET(0xBA96560)
-#define NAEEIOFKCJN_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0xBA95D00)
-#define NAEEIOFKCJN_KGJNPNLKCBF_OFFSET UNITYSDK_OFFSET(0xBA95950)
-#define NAEEIOFKCJN_MIJGMJAHHDO_OFFSET UNITYSDK_OFFSET(0xBA95650)
-#define NAEEIOFKCJN_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0xBA95990)
-#define NAEEIOFKCJN_OJJPFMBLLDJ_OFFSET UNITYSDK_OFFSET(0xBA96690)
+#define NAEEIOFKCJN_CCTOR_OFFSET UNITYSDK_OFFSET(0xC31B510)
+#define NAEEIOFKCJN_CTOR_OFFSET UNITYSDK_OFFSET(0xC31A230)
+#define NAEEIOFKCJN_KBNJDPKPIKB_OFFSET UNITYSDK_OFFSET(0xC31B2A0)
+#define NAEEIOFKCJN_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0xC31AA40)
+#define NAEEIOFKCJN_KGJNPNLKCBF_OFFSET UNITYSDK_OFFSET(0xC31A690)
+#define NAEEIOFKCJN_MIJGMJAHHDO_OFFSET UNITYSDK_OFFSET(0xC31A390)
+#define NAEEIOFKCJN_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0xC31A6D0)
+#define NAEEIOFKCJN_OJJPFMBLLDJ_OFFSET UNITYSDK_OFFSET(0xC31B3D0)
 
-inline static constexpr unsigned int NAEEIOFKCJN_TypeDefinitionIndex = 73996;
+inline static constexpr unsigned int NAEEIOFKCJN_TypeDefinitionIndex = 76132;
 
 	class NAEEIOFKCJN : public ::OOINNCPHPNP
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>* JEMKJCPLAFN; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Single>* PDOCODHPJBF; // 0x30
-		::System::String* LJJECANBODH; // 0x38
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_PCDBJHPOANE()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("", "NAEEIOFKCJN")->GetStaticField(0x19E40);
-		}
-
+		::System::String* LJJECANBODH; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt16, ::System::Single>* PDOCODHPJBF; // 0x38
 		static ::System::Collections::Generic::List_1<::System::UInt16>** StaticGet_EONODDHDKGG()
 		{
-			return (::System::Collections::Generic::List_1<::System::UInt16>**)UnitySDK::FromName("", "NAEEIOFKCJN")->GetStaticField(0x19E48);
+			return (::System::Collections::Generic::List_1<::System::UInt16>**)UnitySDK::FromName("", "NAEEIOFKCJN")->GetStaticField(0x14730);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_PCDBJHPOANE()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("", "NAEEIOFKCJN")->GetStaticField(0x14738);
 		}
 
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournModifyRoomPoolConfig; }
 
-#define RPG_GAMECORE_ROGUETOURNMODIFYROOMPOOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA40610)
-#define RPG_GAMECORE_ROGUETOURNMODIFYROOMPOOLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA405D0)
+#define RPG_GAMECORE_ROGUETOURNMODIFYROOMPOOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC52850)
+#define RPG_GAMECORE_ROGUETOURNMODIFYROOMPOOLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC52810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournModifyRoomPoolConfig_TypeDefinitionIndex = 18011;
+	inline static constexpr unsigned int RogueTournModifyRoomPoolConfig_TypeDefinitionIndex = 18180;
 
 	class RogueTournModifyRoomPoolConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SaveCharacterState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SAVECHARACTERSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA87D70)
-#define RPG_GAMECORE_SAVECHARACTERSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA87DD0)
-#define RPG_GAMECORE_SAVECHARACTERSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA87CF0)
+#define RPG_GAMECORE_SAVECHARACTERSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9A3E0)
+#define RPG_GAMECORE_SAVECHARACTERSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC9A440)
+#define RPG_GAMECORE_SAVECHARACTERSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9A360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SaveCharacterState_TypeDefinitionIndex = 22756;
+	inline static constexpr unsigned int SaveCharacterState_TypeDefinitionIndex = 23178;
 
 	class SaveCharacterState : public ::RPG::GameCore::TaskConfig
 	{

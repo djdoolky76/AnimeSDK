@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class StackExtraStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJDNMELLFJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB94F0)
-#define AJDNMELLFJJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CB9500)
-#define AJDNMELLFJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CB9540)
-#define AJDNMELLFJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CB96C0)
-#define AJDNMELLFJJ_TICK_OFFSET UNITYSDK_OFFSET(0x12CB9710)
+#define AJDNMELLFJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12D980B0)
+#define AJDNMELLFJJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D980C0)
+#define AJDNMELLFJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D98100)
+#define AJDNMELLFJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12D98280)
+#define AJDNMELLFJJ_TICK_OFFSET UNITYSDK_OFFSET(0x12D982D0)
 
-inline static constexpr unsigned int AJDNMELLFJJ_TypeDefinitionIndex = 55645;
+inline static constexpr unsigned int AJDNMELLFJJ_TypeDefinitionIndex = 56843;
 
 	class AJDNMELLFJJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::StackExtraStance* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::StackExtraStance* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackExtraStance* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StackExtraStance*))((::PBYTE)hIl2Cpp + AJDNMELLFJJ_CTOR_OFFSET))(this, a1, a2);

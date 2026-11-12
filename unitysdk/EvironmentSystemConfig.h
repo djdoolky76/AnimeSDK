@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace Code::Rendering::EnvironmentSystemV2 { class EnvV2ParamPreset; }
 
-#define EVIRONMENTSYSTEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15659610)
+#define EVIRONMENTSYSTEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1656C960)
 
-inline static constexpr unsigned int EvironmentSystemConfig_TypeDefinitionIndex = 47309;
+inline static constexpr unsigned int EvironmentSystemConfig_TypeDefinitionIndex = 48338;
 
 	class EvironmentSystemConfig : public ::UnityEngine::ScriptableObject
 	{

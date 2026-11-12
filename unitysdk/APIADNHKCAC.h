@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class EnableInput; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define APIADNHKCAC_CTOR_OFFSET UNITYSDK_OFFSET(0x15BAB540)
-#define APIADNHKCAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BAB550)
-#define APIADNHKCAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BAB590)
-#define APIADNHKCAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15BAB780)
-#define APIADNHKCAC_TICK_OFFSET UNITYSDK_OFFSET(0x15BAB7D0)
+#define APIADNHKCAC_CTOR_OFFSET UNITYSDK_OFFSET(0x16A0BD50)
+#define APIADNHKCAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A0BD60)
+#define APIADNHKCAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A0BDA0)
+#define APIADNHKCAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16A0BF90)
+#define APIADNHKCAC_TICK_OFFSET UNITYSDK_OFFSET(0x16A0BFE0)
 
-inline static constexpr unsigned int APIADNHKCAC_TypeDefinitionIndex = 58107;
+inline static constexpr unsigned int APIADNHKCAC_TypeDefinitionIndex = 59346;
 
 	class APIADNHKCAC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::EnableInput* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::EnableInput* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnableInput* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EnableInput*))((::PBYTE)hIl2Cpp + APIADNHKCAC_CTOR_OFFSET))(this, a1, a2);

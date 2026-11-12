@@ -4,18 +4,18 @@
 namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD75FC0)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SETAGEGATEFAILCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1BD7BBF0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEFECC0)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0__SETAGEGATEFAILCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1CF04940)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass109_0_TypeDefinitionIndex = 9465;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass109_0_TypeDefinitionIndex = 9473;
 
 	class LoginManager___c__DisplayClass109_0 : public ::System::Object
 	{
 	public:
-		::System::Action* customCallback; // 0x10
-		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x10
+		::System::Action* customCallback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS109_0_CTOR_OFFSET))(this);

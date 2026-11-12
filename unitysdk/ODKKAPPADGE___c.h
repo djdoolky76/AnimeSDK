@@ -4,18 +4,18 @@
 class ODKKAPPADGE;
 namespace System { class Object; }
 
-#define ODKKAPPADGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE1FA70)
-#define ODKKAPPADGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE1FAA0)
-#define ODKKAPPADGE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DE1FAB0)
+#define ODKKAPPADGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0BFED0)
+#define ODKKAPPADGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0BFF00)
+#define ODKKAPPADGE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F0BFF10)
 
-inline static constexpr unsigned int ODKKAPPADGE___c_TypeDefinitionIndex = 34555;
+inline static constexpr unsigned int ODKKAPPADGE___c_TypeDefinitionIndex = 35483;
 
 	class ODKKAPPADGE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13C80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE640);
 		}
 
 		static ::System::Void _cctor()

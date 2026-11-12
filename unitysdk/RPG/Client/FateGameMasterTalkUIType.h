@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterTalkUIType_TypeDefinitionIndex = 64102;
+	inline static constexpr unsigned int FateGameMasterTalkUIType_TypeDefinitionIndex = 65547;
 
 	enum class FateGameMasterTalkUIType : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByInSkillRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGFMFHBMIPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB692320)
-#define LGFMFHBMIPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB692350)
+#define LGFMFHBMIPA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF281D0)
+#define LGFMFHBMIPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF28200)
 
-inline static constexpr unsigned int LGFMFHBMIPA_TypeDefinitionIndex = 53924;
+inline static constexpr unsigned int LGFMFHBMIPA_TypeDefinitionIndex = 55088;
 
 	class LGFMFHBMIPA
 	{

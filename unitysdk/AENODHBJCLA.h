@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class SetDynamicValueClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AENODHBJCLA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF03B10)
+#define AENODHBJCLA_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B5350)
 
-inline static constexpr unsigned int AENODHBJCLA_TypeDefinitionIndex = 55485;
+inline static constexpr unsigned int AENODHBJCLA_TypeDefinitionIndex = 56673;
 
 	class AENODHBJCLA : public ::GAIJNANMMHK
 	{

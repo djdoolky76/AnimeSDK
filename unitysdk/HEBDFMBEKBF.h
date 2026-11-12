@@ -7,21 +7,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define HEBDFMBEKBF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C436B0)
-#define HEBDFMBEKBF_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x15C43440)
-#define HEBDFMBEKBF_FIOEFKBHKJF_OFFSET UNITYSDK_OFFSET(0x15C434C0)
-#define HEBDFMBEKBF_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0x15C43300)
+#define HEBDFMBEKBF_CTOR_OFFSET UNITYSDK_OFFSET(0x16B876F0)
+#define HEBDFMBEKBF_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x16B87480)
+#define HEBDFMBEKBF_FIOEFKBHKJF_OFFSET UNITYSDK_OFFSET(0x16B87500)
+#define HEBDFMBEKBF_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0x16B87340)
 
-inline static constexpr unsigned int HEBDFMBEKBF_TypeDefinitionIndex = 47475;
+inline static constexpr unsigned int HEBDFMBEKBF_TypeDefinitionIndex = 48504;
 
 	class HEBDFMBEKBF : public ::RPG::Client::MusicVisualization_SpectrumEffectElementVisualBase
 	{
 	public:
 		::UnityEngine::MaterialPropertyBlock* DNCLJJLAFKA; // 0x20
 		::System::String* HMELFPDPCFC; // 0x28
-		::System::Boolean IDBEBIDMHME; // 0x30
-		::System::Byte _padding0[0x3];
-		::System::Int32 ONMOHCJHJPN; // 0x34
+		::System::Int32 ONMOHCJHJPN; // 0x30
+		::System::Boolean IDBEBIDMHME; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HEBDFMBEKBF_CTOR_OFFSET))(this);

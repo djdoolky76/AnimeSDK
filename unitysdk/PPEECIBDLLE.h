@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAdvEffectForceField; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PPEECIBDLLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC37D1D0)
-#define PPEECIBDLLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC37D200)
+#define PPEECIBDLLE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCB29D0)
+#define PPEECIBDLLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCCB2A00)
 
-inline static constexpr unsigned int PPEECIBDLLE_TypeDefinitionIndex = 55342;
+inline static constexpr unsigned int PPEECIBDLLE_TypeDefinitionIndex = 56525;
 
 	class PPEECIBDLLE
 	{

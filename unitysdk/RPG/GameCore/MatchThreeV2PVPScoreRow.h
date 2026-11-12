@@ -10,12 +10,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeV2PVPScoreRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85D1C0)
-#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D85CCA0)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA77A90)
+#define RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA77570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 11952;
+	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 12009;
 
 	class MatchThreeV2PVPScoreRow : public ::System::Object
 	{
@@ -23,15 +23,15 @@ namespace RPG::GameCore
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* FixedScoreMap; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* ParamMap; // 0x18
 		::Il2CppArray<::RPG::GameCore::MultiPlayerGameMode>* GameModeList; // 0x20
-		::RPG::Client::TextID Title; // 0x28
-		::System::UInt32 ActivityID; // 0x38
-		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x3C
-		::RPG::Client::TextID Title2; // 0x40
-		::RPG::GameCore::MatchThreeScoreType Type; // 0x50
-		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x54
-		::RPG::Client::TextID Desc; // 0x58
-		::System::UInt32 ScoreID; // 0x68
-		::System::Int32 Param; // 0x6C
+		::System::Int32 Param; // 0x28
+		::RPG::GameCore::MatchThreeScoreType Type; // 0x2C
+		::RPG::Client::TextID Desc; // 0x30
+		::RPG::Client::TextID Title; // 0x40
+		::RPG::Client::TextID Title2; // 0x50
+		::RPG::GameCore::MatchThreeRarityType Rarity; // 0x60
+		::System::UInt32 ScoreID; // 0x64
+		::RPG::GameCore::MatchThreeScoreFinishType FinishType; // 0x68
+		::System::UInt32 ActivityID; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2PVPSCOREROW_CTOR_OFFSET))(this);

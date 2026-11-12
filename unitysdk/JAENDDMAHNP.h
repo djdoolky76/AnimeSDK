@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 class JAENDDMAHNP;
 namespace System { class String; }
 
-#define JAENDDMAHNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF33DD0)
-#define JAENDDMAHNP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF33C10)
+#define JAENDDMAHNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E11ABA0)
+#define JAENDDMAHNP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E11A9E0)
 
-inline static constexpr unsigned int JAENDDMAHNP_TypeDefinitionIndex = 14399;
+inline static constexpr unsigned int JAENDDMAHNP_TypeDefinitionIndex = 14556;
 
 	class JAENDDMAHNP : public ::System::Object
 	{
 	public:
 		::System::String* ACJDHMPPCCI; // 0x10
-		::System::UInt32 CMNOEFFFNPE; // 0x18
-		::System::UInt32 PBLDLDIEFNC; // 0x1C
-		::EOCNNALBNJD GMPGDEINODK; // 0x20
+		::System::UInt32 PBLDLDIEFNC; // 0x18
+		::EOCNNALBNJD GMPGDEINODK; // 0x1C
+		::System::UInt32 CMNOEFFFNPE; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAENDDMAHNP_CTOR_OFFSET))(this);

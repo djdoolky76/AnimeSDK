@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelAudienceMemberCurveInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A5D30)
-#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A5B30)
+#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E8F20)
+#define RPG_GAMECORE_LEVELAUDIENCEMEMBERCURVEINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9E8DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudienceMemberCurveInfo_TypeDefinitionIndex = 17325;
+	inline static constexpr unsigned int LevelAudienceMemberCurveInfo_TypeDefinitionIndex = 17493;
 
 	class LevelAudienceMemberCurveInfo : public ::RPG::GameCore::JsonConfig
 	{

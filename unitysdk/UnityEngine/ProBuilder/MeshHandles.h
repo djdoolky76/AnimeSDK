@@ -12,69 +12,69 @@ namespace UnityEngine { class Mesh; }
 namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1F5130)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEBILLBOARDMESH_1_OFFSET UNITYSDK_OFFSET(0x1F1F42F0)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEBILLBOARDMESH_OFFSET UNITYSDK_OFFSET(0x1F1F3840)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEMESH_1_OFFSET UNITYSDK_OFFSET(0x1F1F10F0)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEMESH_OFFSET UNITYSDK_OFFSET(0x1F1F0B00)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEFACEMESHFROMFACES_OFFSET UNITYSDK_OFFSET(0x1F1F0870)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEFACEMESH_OFFSET UNITYSDK_OFFSET(0x1F1F05E0)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEPOINTBILLBOARDMESH_1_OFFSET UNITYSDK_OFFSET(0x1F1F1BA0)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEPOINTBILLBOARDMESH_OFFSET UNITYSDK_OFFSET(0x1F1F2A80)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEPOINTMESH_OFFSET UNITYSDK_OFFSET(0x1F1F18D0)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEVERTEXMESH_1_OFFSET UNITYSDK_OFFSET(0x1F1F1770)
-#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEVERTEXMESH_OFFSET UNITYSDK_OFFSET(0x1F1F1560)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CCTOR_OFFSET UNITYSDK_OFFSET(0x204A6430)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEBILLBOARDMESH_1_OFFSET UNITYSDK_OFFSET(0x204A55F0)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEBILLBOARDMESH_OFFSET UNITYSDK_OFFSET(0x204A4B40)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEMESH_1_OFFSET UNITYSDK_OFFSET(0x204A23F0)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEEDGEMESH_OFFSET UNITYSDK_OFFSET(0x204A1E00)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEFACEMESHFROMFACES_OFFSET UNITYSDK_OFFSET(0x204A1B70)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEFACEMESH_OFFSET UNITYSDK_OFFSET(0x204A18E0)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEPOINTBILLBOARDMESH_1_OFFSET UNITYSDK_OFFSET(0x204A2EA0)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEPOINTBILLBOARDMESH_OFFSET UNITYSDK_OFFSET(0x204A3D80)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEPOINTMESH_OFFSET UNITYSDK_OFFSET(0x204A2BD0)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEVERTEXMESH_1_OFFSET UNITYSDK_OFFSET(0x204A2A70)
+#define UNITYENGINE_PROBUILDER_MESHHANDLES_CREATEVERTEXMESH_OFFSET UNITYSDK_OFFSET(0x204A2860)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int MeshHandles_TypeDefinitionIndex = 44375;
+	inline static constexpr unsigned int MeshHandles_TypeDefinitionIndex = 45450;
 
 	class MeshHandles : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_s_Vector2List()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x53890);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_s_Vector4List()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x53898);
-		}
-
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_s_SharedVertexIndexList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x538A0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x67010);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_s_Vector3List()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x538A8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x67018);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector3>** StaticGet_s_Vector2List()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x67020);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Vector4>** StaticGet_s_Vector4List()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Vector4>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x67028);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_s_IndexList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x538B0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x67030);
 		}
 
 		static ::UnityEngine::Vector2* StaticGet_k_Billboard0()
 		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x12840);
-		}
-
-		static ::UnityEngine::Vector2* StaticGet_k_Billboard1()
-		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x12848);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x14A10);
 		}
 
 		static ::UnityEngine::Vector2* StaticGet_k_Billboard3()
 		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x12850);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x14A18);
 		}
 
 		static ::UnityEngine::Vector2* StaticGet_k_Billboard2()
 		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x12858);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x14A20);
+		}
+
+		static ::UnityEngine::Vector2* StaticGet_k_Billboard1()
+		{
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("UnityEngine.ProBuilder", "MeshHandles")->GetStaticField(0x14A28);
 		}
 
 		static ::System::Void _cctor()

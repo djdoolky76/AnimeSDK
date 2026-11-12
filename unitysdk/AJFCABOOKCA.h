@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AJFCABOOKCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C58B9B0)
+#define AJFCABOOKCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D70D330)
 
-inline static constexpr unsigned int AJFCABOOKCA_TypeDefinitionIndex = 37405;
+inline static constexpr unsigned int AJFCABOOKCA_TypeDefinitionIndex = 38333;
 
 	class AJFCABOOKCA : public ::System::Object
 	{

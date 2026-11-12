@@ -9,67 +9,67 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_TARGETPOSITIONCACHE_CLEARCACHE_OFFSET UNITYSDK_OFFSET(0x166AD420)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CREATEPLAYBACKCURVES_OFFSET UNITYSDK_OFFSET(0x166AD4F0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_CTOR_OFFSET UNITYSDK_OFFSET(0x166AE180)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x166AB1C0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GETTARGETROTATION_OFFSET UNITYSDK_OFFSET(0x166AB5F0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CACHEMODE_OFFSET UNITYSDK_OFFSET(0x166AD2E0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CACHETIMERANGE_OFFSET UNITYSDK_OFFSET(0x166AD790)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CURRENTFRAME_OFFSET UNITYSDK_OFFSET(0x166AD750)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CURRENTPLAYBACKTIMEVALID_OFFSET UNITYSDK_OFFSET(0x166AD690)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x166AD730)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_HASHURRENTTIME_OFFSET UNITYSDK_OFFSET(0x166AD6D0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_ISCAMERACUT_OFFSET UNITYSDK_OFFSET(0x166AD770)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x166AD700)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_ISRECORDING_OFFSET UNITYSDK_OFFSET(0x166AD670)
-#define CINEMACHINE_TARGETPOSITIONCACHE_GET_USECACHE_OFFSET UNITYSDK_OFFSET(0x166AD2C0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_SET_CACHEMODE_OFFSET UNITYSDK_OFFSET(0x166AD2F0)
-#define CINEMACHINE_TARGETPOSITIONCACHE_SET_CURRENTFRAME_OFFSET UNITYSDK_OFFSET(0x166AD760)
-#define CINEMACHINE_TARGETPOSITIONCACHE_SET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x166AD740)
-#define CINEMACHINE_TARGETPOSITIONCACHE_SET_ISCAMERACUT_OFFSET UNITYSDK_OFFSET(0x166AD780)
-#define CINEMACHINE_TARGETPOSITIONCACHE_SET_USECACHE_OFFSET UNITYSDK_OFFSET(0x166AD2D0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CLEARCACHE_OFFSET UNITYSDK_OFFSET(0x174F1AD0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CREATEPLAYBACKCURVES_OFFSET UNITYSDK_OFFSET(0x174F1BA0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_CTOR_OFFSET UNITYSDK_OFFSET(0x174F2830)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GETTARGETPOSITION_OFFSET UNITYSDK_OFFSET(0x174EF870)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GETTARGETROTATION_OFFSET UNITYSDK_OFFSET(0x174EFCA0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CACHEMODE_OFFSET UNITYSDK_OFFSET(0x174F1990)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CACHETIMERANGE_OFFSET UNITYSDK_OFFSET(0x174F1E40)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CURRENTFRAME_OFFSET UNITYSDK_OFFSET(0x174F1E00)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CURRENTPLAYBACKTIMEVALID_OFFSET UNITYSDK_OFFSET(0x174F1D40)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x174F1DE0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_HASHURRENTTIME_OFFSET UNITYSDK_OFFSET(0x174F1D80)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_ISCAMERACUT_OFFSET UNITYSDK_OFFSET(0x174F1E20)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x174F1DB0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_ISRECORDING_OFFSET UNITYSDK_OFFSET(0x174F1D20)
+#define CINEMACHINE_TARGETPOSITIONCACHE_GET_USECACHE_OFFSET UNITYSDK_OFFSET(0x174F1970)
+#define CINEMACHINE_TARGETPOSITIONCACHE_SET_CACHEMODE_OFFSET UNITYSDK_OFFSET(0x174F19A0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_SET_CURRENTFRAME_OFFSET UNITYSDK_OFFSET(0x174F1E10)
+#define CINEMACHINE_TARGETPOSITIONCACHE_SET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x174F1DF0)
+#define CINEMACHINE_TARGETPOSITIONCACHE_SET_ISCAMERACUT_OFFSET UNITYSDK_OFFSET(0x174F1E30)
+#define CINEMACHINE_TARGETPOSITIONCACHE_SET_USECACHE_OFFSET UNITYSDK_OFFSET(0x174F1980)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int TargetPositionCache_TypeDefinitionIndex = 39846;
+	inline static constexpr unsigned int TargetPositionCache_TypeDefinitionIndex = 40775;
 
 	class TargetPositionCache : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Object*>** StaticGet_m_Cache()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Object*>**)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0xB20);
-		}
-
-		static ::System::Int32* StaticGet__CurrentFrame_k__BackingField()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5E0);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Object*>**)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0xAD0);
 		}
 
 		static ::System::Single* StaticGet__CurrentTime_k__BackingField()
 		{
-			return (::System::Single*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5E4);
+			return (::System::Single*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5E0);
 		}
 
-		static ::Cinemachine::TargetPositionCache_TimeRange* StaticGet_m_CacheTimeRange()
+		static ::System::Int32* StaticGet__CurrentFrame_k__BackingField()
 		{
-			return (::Cinemachine::TargetPositionCache_TimeRange*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5E8);
-		}
-
-		static ::Cinemachine::TargetPositionCache_Mode* StaticGet_m_CacheMode()
-		{
-			return (::Cinemachine::TargetPositionCache_Mode*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5F0);
+			return (::System::Int32*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5E4);
 		}
 
 		static ::System::Boolean* StaticGet__IsCameraCut_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5F4);
+			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5E8);
 		}
 
 		static ::System::Boolean* StaticGet__UseCache_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5F5);
+			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5E9);
+		}
+
+		static ::Cinemachine::TargetPositionCache_Mode* StaticGet_m_CacheMode()
+		{
+			return (::Cinemachine::TargetPositionCache_Mode*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5EC);
+		}
+
+		static ::Cinemachine::TargetPositionCache_TimeRange* StaticGet_m_CacheTimeRange()
+		{
+			return (::Cinemachine::TargetPositionCache_TimeRange*)UnitySDK::FromName("Cinemachine", "TargetPositionCache")->GetStaticField(0x5F0);
 		}
 
 		// static const ::System::Object CacheStepSize; // 0x0

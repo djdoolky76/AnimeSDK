@@ -5,10 +5,10 @@ class FKLECLLJCEH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DFKAIHIIKNI_CTOR_OFFSET UNITYSDK_OFFSET(0xE830EB0)
-#define DFKAIHIIKNI_GET_DESC_OFFSET UNITYSDK_OFFSET(0xE830BA0)
+#define DFKAIHIIKNI_CTOR_OFFSET UNITYSDK_OFFSET(0xF191A50)
+#define DFKAIHIIKNI_GET_DESC_OFFSET UNITYSDK_OFFSET(0xF191740)
 
-inline static constexpr unsigned int DFKAIHIIKNI_TypeDefinitionIndex = 79666;
+inline static constexpr unsigned int DFKAIHIIKNI_TypeDefinitionIndex = 82443;
 
 	class DFKAIHIIKNI : public ::System::Object
 	{

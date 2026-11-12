@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AddTimelineMenuItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CNGAKEMAOPM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA4EF40)
-#define CNGAKEMAOPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA4EF50)
-#define CNGAKEMAOPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA4EF90)
-#define CNGAKEMAOPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA4F190)
-#define CNGAKEMAOPM_TICK_OFFSET UNITYSDK_OFFSET(0xDA4F1E0)
+#define CNGAKEMAOPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE5E7690)
+#define CNGAKEMAOPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5E76A0)
+#define CNGAKEMAOPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5E76E0)
+#define CNGAKEMAOPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE5E78E0)
+#define CNGAKEMAOPM_TICK_OFFSET UNITYSDK_OFFSET(0xE5E7930)
 
-inline static constexpr unsigned int CNGAKEMAOPM_TypeDefinitionIndex = 57868;
+inline static constexpr unsigned int CNGAKEMAOPM_TypeDefinitionIndex = 59105;
 
 	class CNGAKEMAOPM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::AddTimelineMenuItem* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::AddTimelineMenuItem* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddTimelineMenuItem* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AddTimelineMenuItem*))((::PBYTE)hIl2Cpp + CNGAKEMAOPM_CTOR_OFFSET))(this, a1, a2);

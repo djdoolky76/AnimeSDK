@@ -4,10 +4,10 @@
 class KCJNGDLDKFG;
 namespace System { class Action; }
 
-#define FKEGHFCBHIM_CTOR_OFFSET UNITYSDK_OFFSET(0x157EEA00)
-#define FKEGHFCBHIM_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x157EEA10)
+#define FKEGHFCBHIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1675B2A0)
+#define FKEGHFCBHIM_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x1675B2B0)
 
-inline static constexpr unsigned int FKEGHFCBHIM_TypeDefinitionIndex = 79709;
+inline static constexpr unsigned int FKEGHFCBHIM_TypeDefinitionIndex = 82486;
 
 	class FKEGHFCBHIM : public ::CKAAHMNPJPA
 	{

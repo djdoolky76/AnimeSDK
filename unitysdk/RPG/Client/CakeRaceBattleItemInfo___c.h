@@ -5,25 +5,25 @@ namespace RPG::Client { class CakeRaceBattleItemDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC907670)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9076A0)
-#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C___INITBATTLEITEMDATAITEMS_B__5_0_OFFSET UNITYSDK_OFFSET(0xC9076B0)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD26BE30)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD26BE60)
+#define RPG_CLIENT_CAKERACEBATTLEITEMINFO___C___INITBATTLEITEMDATAITEMS_B__5_0_OFFSET UNITYSDK_OFFSET(0xD26BE70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceBattleItemInfo___c_TypeDefinitionIndex = 63000;
+	inline static constexpr unsigned int CakeRaceBattleItemInfo___c_TypeDefinitionIndex = 64438;
 
 	class CakeRaceBattleItemInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65190);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::CakeRaceBattleItemDataItem*>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::CakeRaceBattleItemDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65198);
+			return (::System::Comparison_1<::RPG::Client::CakeRaceBattleItemDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5CA50);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5CA58);
 		}
 
 		static ::System::Void _cctor()

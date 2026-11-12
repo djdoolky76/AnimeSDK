@@ -16,71 +16,71 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OCNCABENFIK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D251BC0)
-#define OCNCABENFIK_BHDOMIGFBCJ_OFFSET UNITYSDK_OFFSET(0x1D2512B0)
-#define OCNCABENFIK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D252510)
-#define OCNCABENFIK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D251F80)
-#define OCNCABENFIK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2513A0)
-#define OCNCABENFIK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2515C0)
-#define OCNCABENFIK_HLPLHCPAKNF_OFFSET UNITYSDK_OFFSET(0x1D251200)
-#define OCNCABENFIK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D251FE0)
-#define OCNCABENFIK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D252030)
-#define OCNCABENFIK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D251C00)
-#define OCNCABENFIK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D251550)
-#define OCNCABENFIK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D251810)
-#define OCNCABENFIK_MDDEBCEINEJ_OFFSET UNITYSDK_OFFSET(0x1D251DF0)
-#define OCNCABENFIK_OKONOOJEJMJ_OFFSET UNITYSDK_OFFSET(0x1D2518C0)
-#define OCNCABENFIK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D251D90)
-#define OCNCABENFIK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D251320)
+#define OCNCABENFIK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E458170)
+#define OCNCABENFIK_BHDOMIGFBCJ_OFFSET UNITYSDK_OFFSET(0x1E457860)
+#define OCNCABENFIK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E458AC0)
+#define OCNCABENFIK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E458530)
+#define OCNCABENFIK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E457950)
+#define OCNCABENFIK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E457B70)
+#define OCNCABENFIK_HLPLHCPAKNF_OFFSET UNITYSDK_OFFSET(0x1E4577B0)
+#define OCNCABENFIK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E458590)
+#define OCNCABENFIK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E4585E0)
+#define OCNCABENFIK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E4581B0)
+#define OCNCABENFIK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E457B00)
+#define OCNCABENFIK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E457DC0)
+#define OCNCABENFIK_MDDEBCEINEJ_OFFSET UNITYSDK_OFFSET(0x1E4583A0)
+#define OCNCABENFIK_OKONOOJEJMJ_OFFSET UNITYSDK_OFFSET(0x1E457E70)
+#define OCNCABENFIK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E458340)
+#define OCNCABENFIK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E4578D0)
 
-inline static constexpr unsigned int OCNCABENFIK_TypeDefinitionIndex = 14359;
+inline static constexpr unsigned int OCNCABENFIK_TypeDefinitionIndex = 14516;
 
 	class OCNCABENFIK : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceShiftBlockCfgRow*>** StaticGet_LMHLKOHMNAL()
-		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceShiftBlockCfgRow*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x31FE0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceShiftBlockCfgRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceShiftBlockCfgRow*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x31FE8);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x31FF0);
-		}
-
-		static ::System::String** StaticGet_PCJBKGCDGPO()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x31FF8);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x32000);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_KGADENKPMFA()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x32008);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceShiftBlockCfgRow*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x4E3F0);
 		}
 
 		static ::OFLIAAOJPJC** StaticGet_MLGLBKACPBD()
 		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x32010);
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x4E3F8);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_KGADENKPMFA()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x4E400);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x4E408);
+		}
+
+		static ::System::String** StaticGet_PCJBKGCDGPO()
+		{
+			return (::System::String**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x4E410);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x4E418);
+		}
+
+		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceShiftBlockCfgRow*>** StaticGet_LMHLKOHMNAL()
+		{
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceShiftBlockCfgRow*>**)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0x4E420);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0xA8F0);
+			return (::System::Boolean*)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0xFB00);
 		}
 
 		static ::System::Boolean* StaticGet_GDOFOFOCOLC()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0xA8F1);
+			return (::System::Boolean*)UnitySDK::FromName("", "OCNCABENFIK")->GetStaticField(0xFB01);
 		}
 
 		static ::System::Void _cctor()

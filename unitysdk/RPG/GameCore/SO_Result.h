@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_Result_TypeDefinitionIndex = 15639;
+	inline static constexpr unsigned int SO_Result_TypeDefinitionIndex = 15797;
 
 	enum class SO_Result : ::System::Int32
 	{

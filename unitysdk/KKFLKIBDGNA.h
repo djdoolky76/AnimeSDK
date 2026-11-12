@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KKFLKIBDGNA_TypeDefinitionIndex = 27774;
+inline static constexpr unsigned int KKFLKIBDGNA_TypeDefinitionIndex = 28351;
 
 	enum class KKFLKIBDGNA : ::System::Int32
 	{

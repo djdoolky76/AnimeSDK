@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NMBCLGEHKKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C970010)
+#define NMBCLGEHKKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB31DF0)
 
-inline static constexpr unsigned int NMBCLGEHKKG_TypeDefinitionIndex = 42021;
+inline static constexpr unsigned int NMBCLGEHKKG_TypeDefinitionIndex = 42996;
 
 	class NMBCLGEHKKG : public ::System::Object
 	{

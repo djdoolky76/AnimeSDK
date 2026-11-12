@@ -3,10 +3,10 @@
 class GLFJJMLOPMO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JEPFPCAJEKB_CTOR_OFFSET UNITYSDK_OFFSET(0x16642FE0)
-#define JEPFPCAJEKB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16643010)
+#define JEPFPCAJEKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB98C4D0)
+#define JEPFPCAJEKB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB98C500)
 
-inline static constexpr unsigned int JEPFPCAJEKB_TypeDefinitionIndex = 53884;
+inline static constexpr unsigned int JEPFPCAJEKB_TypeDefinitionIndex = 55048;
 
 	class JEPFPCAJEKB
 	{

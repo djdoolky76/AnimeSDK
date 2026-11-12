@@ -7,7 +7,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SelectIntAwait_2_TypeDefinitionIndex = 45557;
+	inline static constexpr unsigned int SelectIntAwait_2_TypeDefinitionIndex = 46586;
 
 	template <typename T1, typename T2>
 	class SelectIntAwait_2 : public ::System::Object

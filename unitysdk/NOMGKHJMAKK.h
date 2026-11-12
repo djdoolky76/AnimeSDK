@@ -8,24 +8,24 @@ namespace RPG::AvatarSystem::Property { template <typename T> class PropertyCalc
 namespace RPG::AvatarSystem::Property { template <typename T> class PropertyContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NOMGKHJMAKK_AOADKOMNOCK_OFFSET UNITYSDK_OFFSET(0xBCF4350)
-#define NOMGKHJMAKK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF3B50)
-#define NOMGKHJMAKK_EOIFFLADINE_OFFSET UNITYSDK_OFFSET(0xBCF3BB0)
-#define NOMGKHJMAKK_FONHIPLPFEH_OFFSET UNITYSDK_OFFSET(0xBCF3EA0)
-#define NOMGKHJMAKK_HOGIKLJMBFB_OFFSET UNITYSDK_OFFSET(0xBCF3CE0)
-#define NOMGKHJMAKK_JDIKBMADKCE_OFFSET UNITYSDK_OFFSET(0xBCF4230)
-#define NOMGKHJMAKK_KLGMCMHHIDG_OFFSET UNITYSDK_OFFSET(0xBCF4030)
-#define NOMGKHJMAKK_NJEDPMKPCDI_OFFSET UNITYSDK_OFFSET(0xBCF43F0)
-#define NOMGKHJMAKK_OOELCLOOKGG_OFFSET UNITYSDK_OFFSET(0xBCF4150)
+#define NOMGKHJMAKK_AOADKOMNOCK_OFFSET UNITYSDK_OFFSET(0xC5E0B60)
+#define NOMGKHJMAKK_CTOR_OFFSET UNITYSDK_OFFSET(0xC5E0360)
+#define NOMGKHJMAKK_EOIFFLADINE_OFFSET UNITYSDK_OFFSET(0xC5E03C0)
+#define NOMGKHJMAKK_FONHIPLPFEH_OFFSET UNITYSDK_OFFSET(0xC5E06B0)
+#define NOMGKHJMAKK_HOGIKLJMBFB_OFFSET UNITYSDK_OFFSET(0xC5E04F0)
+#define NOMGKHJMAKK_JDIKBMADKCE_OFFSET UNITYSDK_OFFSET(0xC5E0A40)
+#define NOMGKHJMAKK_KLGMCMHHIDG_OFFSET UNITYSDK_OFFSET(0xC5E0840)
+#define NOMGKHJMAKK_NJEDPMKPCDI_OFFSET UNITYSDK_OFFSET(0xC5E0C00)
+#define NOMGKHJMAKK_OOELCLOOKGG_OFFSET UNITYSDK_OFFSET(0xC5E0960)
 
-inline static constexpr unsigned int NOMGKHJMAKK_TypeDefinitionIndex = 75126;
+inline static constexpr unsigned int NOMGKHJMAKK_TypeDefinitionIndex = 77453;
 
 	class NOMGKHJMAKK : public ::System::Object
 	{
 	public:
-		::RPG::AvatarSystem::Property::PropertyContext_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* CGAPAPOLFAI; // 0x10
-		::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* HPKJILJDNNE; // 0x18
-		::RPG::AvatarSystem::Property::PropertyCalculator_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* KFJECNHILFP; // 0x20
+		::RPG::AvatarSystem::Property::PropertyCalculator_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* KFJECNHILFP; // 0x10
+		::RPG::AvatarSystem::Property::PropertyContext_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>* CGAPAPOLFAI; // 0x18
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::Client::ActivityIdleLive::IdleLiveDecimal>*>* HPKJILJDNNE; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOMGKHJMAKK_CTOR_OFFSET))(this);

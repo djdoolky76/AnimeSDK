@@ -7,36 +7,37 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveNodeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVENODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77D700)
-#define RPG_GAMECORE_IDLELIVENODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77D080)
+#define RPG_GAMECORE_IDLELIVENODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E990E30)
+#define RPG_GAMECORE_IDLELIVENODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9907B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveNodeRow_TypeDefinitionIndex = 11695;
+	inline static constexpr unsigned int IdleLiveNodeRow_TypeDefinitionIndex = 11752;
 
 	class IdleLiveNodeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* PossibleEventIDList; // 0x10
-		::System::String* BGMState; // 0x18
-		::Il2CppArray<::System::UInt32>* SubNodeList; // 0x20
-		::RPG::GameCore::FixPoint TimeLimitRankS; // 0x28
+		::Il2CppArray<::System::UInt32>* SubNodeList; // 0x10
+		::Il2CppArray<::System::UInt32>* PossibleEventIDList; // 0x18
+		::System::String* BGMState; // 0x20
+		::RPG::GameCore::IdleLiveNodeType Type; // 0x28
+		::System::UInt32 ChestPerHour; // 0x2C
 		::System::UInt32 ChestLevel; // 0x30
-		::System::UInt32 TicketPerHour; // 0x34
-		::System::UInt32 EmojiPhaseID; // 0x38
-		::System::UInt32 ChestPerHour; // 0x3C
-		::RPG::GameCore::FixPoint TimeLimitRankA; // 0x40
-		::System::UInt32 RewardID; // 0x48
-		::System::UInt32 ChapterIndex; // 0x4C
-		::System::UInt32 CrystalPerHour; // 0x50
-		::RPG::GameCore::IdleLiveNodeType Type; // 0x54
-		::System::UInt32 Index; // 0x58
-		::System::Boolean CanTriggerAmphoreusBuff; // 0x5C
-		::System::Boolean IsAutoNextNode; // 0x5D
-		::System::Byte _padding0[0x2];
-		::System::UInt32 BossID; // 0x60
-		::System::UInt32 ChatPhase; // 0x64
-		::System::UInt32 LiveRoomExpGainOnFinished; // 0x68
+		::System::UInt32 RewardID; // 0x34
+		::System::UInt32 CrystalPerHour; // 0x38
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint TimeLimitRankS; // 0x40
+		::System::UInt32 Index; // 0x48
+		::System::UInt32 ChatPhase; // 0x4C
+		::RPG::GameCore::FixPoint TimeLimitRankA; // 0x50
+		::System::Boolean CanTriggerAmphoreusBuff; // 0x58
+		::System::Boolean IsAutoNextNode; // 0x59
+		::System::Byte _padding1[0x2];
+		::System::UInt32 BossID; // 0x5C
+		::System::UInt32 ChapterIndex; // 0x60
+		::System::UInt32 LiveRoomExpGainOnFinished; // 0x64
+		::System::UInt32 TicketPerHour; // 0x68
+		::System::UInt32 EmojiPhaseID; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVENODEROW_CTOR_OFFSET))(this);

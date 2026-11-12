@@ -10,54 +10,54 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OGCGINNNEIL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D26DF40)
-#define OGCGINNNEIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D26EA60)
-#define OGCGINNNEIL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D26E0B0)
-#define OGCGINNNEIL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D26DA30)
-#define OGCGINNNEIL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D26DCC0)
-#define OGCGINNNEIL_HFBAFEEPOLN_OFFSET UNITYSDK_OFFSET(0x1D26EA20)
-#define OGCGINNNEIL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D26E150)
-#define OGCGINNNEIL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D26E1A0)
-#define OGCGINNNEIL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D26DF80)
-#define OGCGINNNEIL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D26DC60)
-#define OGCGINNNEIL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D26DDF0)
-#define OGCGINNNEIL_OKMJFCIOEMO_OFFSET UNITYSDK_OFFSET(0x1D26E4C0)
-#define OGCGINNNEIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D26E010)
-#define OGCGINNNEIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D26D9B0)
+#define OGCGINNNEIL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E474190)
+#define OGCGINNNEIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E474CB0)
+#define OGCGINNNEIL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E474300)
+#define OGCGINNNEIL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E473C80)
+#define OGCGINNNEIL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E473F10)
+#define OGCGINNNEIL_HFBAFEEPOLN_OFFSET UNITYSDK_OFFSET(0x1E474C70)
+#define OGCGINNNEIL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E4743A0)
+#define OGCGINNNEIL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E4743F0)
+#define OGCGINNNEIL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E4741D0)
+#define OGCGINNNEIL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E473EB0)
+#define OGCGINNNEIL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E474040)
+#define OGCGINNNEIL_OKMJFCIOEMO_OFFSET UNITYSDK_OFFSET(0x1E474710)
+#define OGCGINNNEIL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E474260)
+#define OGCGINNNEIL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E473C00)
 
-inline static constexpr unsigned int OGCGINNNEIL_TypeDefinitionIndex = 12470;
+inline static constexpr unsigned int OGCGINNNEIL_TypeDefinitionIndex = 12537;
 
 	class OGCGINNNEIL : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x34E20);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x34E28);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x4FDB0);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x4FDB8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::HFGKIENKJLG*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::HFGKIENKJLG*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x34E30);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::HFGKIENKJLG*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x4FDC0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HFGKIENKJLG*>** StaticGet_CDHIHELJEKK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HFGKIENKJLG*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x34E38);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HFGKIENKJLG*>**)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0x4FDC8);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0xB1B0);
+			return (::System::Byte*)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0xFE00);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0xB1B1);
+			return (::System::Boolean*)UnitySDK::FromName("", "OGCGINNNEIL")->GetStaticField(0xFE01);
 		}
 
 		static ::System::Void _cctor()

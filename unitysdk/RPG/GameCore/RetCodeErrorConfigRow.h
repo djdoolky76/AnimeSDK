@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RetCodeErrorConfigRow; }
 
-#define RPG_GAMECORE_RETCODEERRORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D998530)
-#define RPG_GAMECORE_RETCODEERRORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D997EF0)
+#define RPG_GAMECORE_RETCODEERRORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE15A0)
+#define RPG_GAMECORE_RETCODEERRORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBE0F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RetCodeErrorConfigRow_TypeDefinitionIndex = 14656;
+	inline static constexpr unsigned int RetCodeErrorConfigRow_TypeDefinitionIndex = 14812;
 
 	class RetCodeErrorConfigRow : public ::System::Object
 	{

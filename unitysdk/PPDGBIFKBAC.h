@@ -9,28 +9,28 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PPDGBIFKBAC_AFKAFAPJLBB_OFFSET UNITYSDK_OFFSET(0xC37BFE0)
-#define PPDGBIFKBAC_CTOR_OFFSET UNITYSDK_OFFSET(0xC37BEB0)
-#define PPDGBIFKBAC_EFPAEJBMNJH_OFFSET UNITYSDK_OFFSET(0xC37C190)
-#define PPDGBIFKBAC_GET_ROUTEID_OFFSET UNITYSDK_OFFSET(0xC37BD60)
-#define PPDGBIFKBAC_HDEJDHKBCPN_OFFSET UNITYSDK_OFFSET(0xC37C4A0)
-#define PPDGBIFKBAC_IJJMIMJMNBN_OFFSET UNITYSDK_OFFSET(0xC37BD70)
-#define PPDGBIFKBAC_KJOFNAJEMEB_OFFSET UNITYSDK_OFFSET(0xC37BDD0)
-#define PPDGBIFKBAC_LJHEKDELELC_OFFSET UNITYSDK_OFFSET(0xC37C5A0)
-#define PPDGBIFKBAC_MEGKDGHHCFM_OFFSET UNITYSDK_OFFSET(0xC37C2A0)
+#define PPDGBIFKBAC_AFKAFAPJLBB_OFFSET UNITYSDK_OFFSET(0xCCB17E0)
+#define PPDGBIFKBAC_CTOR_OFFSET UNITYSDK_OFFSET(0xCCB16B0)
+#define PPDGBIFKBAC_EFPAEJBMNJH_OFFSET UNITYSDK_OFFSET(0xCCB1990)
+#define PPDGBIFKBAC_GET_ROUTEID_OFFSET UNITYSDK_OFFSET(0xCCB1560)
+#define PPDGBIFKBAC_HDEJDHKBCPN_OFFSET UNITYSDK_OFFSET(0xCCB1CA0)
+#define PPDGBIFKBAC_IJJMIMJMNBN_OFFSET UNITYSDK_OFFSET(0xCCB1570)
+#define PPDGBIFKBAC_KJOFNAJEMEB_OFFSET UNITYSDK_OFFSET(0xCCB15D0)
+#define PPDGBIFKBAC_LJHEKDELELC_OFFSET UNITYSDK_OFFSET(0xCCB1DA0)
+#define PPDGBIFKBAC_MEGKDGHHCFM_OFFSET UNITYSDK_OFFSET(0xCCB1AA0)
 
-inline static constexpr unsigned int PPDGBIFKBAC_TypeDefinitionIndex = 63900;
+inline static constexpr unsigned int PPDGBIFKBAC_TypeDefinitionIndex = 65342;
 
 	class PPDGBIFKBAC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* ECPKBEMLAPG; // 0x10
-		::System::Func_2<::RPG::GameCore::ExpeditionBattleFlowStateType, ::CBFJBNFLHJE*>* CBKKDIMPBJL; // 0x18
-		::NAHFJHAGNGE* PMIJOPOIDML; // 0x20
+		::NAHFJHAGNGE* PMIJOPOIDML; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* ECPKBEMLAPG; // 0x18
+		::System::Func_2<::RPG::GameCore::ExpeditionBattleFlowStateType, ::CBFJBNFLHJE*>* CBKKDIMPBJL; // 0x20
 		::System::Collections::Generic::List_1<::CBFJBNFLHJE*>* JHAPINEOBNF; // 0x28
 		::System::Int32 KIBHMBDDHKC; // 0x30
-		::System::UInt32 CJBDCNHICBD; // 0x34
-		::System::UInt32 _RouteID_k__BackingField; // 0x38
+		::System::UInt32 _RouteID_k__BackingField; // 0x34
+		::System::UInt32 CJBDCNHICBD; // 0x38
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::CBFJBNFLHJE*>* a3, ::NAHFJHAGNGE* a4, ::System::Func_2<::RPG::GameCore::ExpeditionBattleFlowStateType, ::CBFJBNFLHJE*>* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::CBFJBNFLHJE*>*, ::NAHFJHAGNGE*, ::System::Func_2<::RPG::GameCore::ExpeditionBattleFlowStateType, ::CBFJBNFLHJE*>*))((::PBYTE)hIl2Cpp + PPDGBIFKBAC_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

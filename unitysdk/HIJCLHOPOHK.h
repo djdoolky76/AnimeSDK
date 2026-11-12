@@ -6,9 +6,9 @@
 namespace RPG::Client::LittleGame { class TimelineControlGameWorldLevelGrid; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HIJCLHOPOHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACC200)
+#define HIJCLHOPOHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC90C30)
 
-inline static constexpr unsigned int HIJCLHOPOHK_TypeDefinitionIndex = 42520;
+inline static constexpr unsigned int HIJCLHOPOHK_TypeDefinitionIndex = 43495;
 
 	class HIJCLHOPOHK : public ::System::Object
 	{

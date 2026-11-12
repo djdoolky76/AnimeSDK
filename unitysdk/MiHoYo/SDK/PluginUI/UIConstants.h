@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PLUGINUI_UICONSTANTS_CTOR_OFFSET UNITYSDK_OFFSET(0xB02DFB0)
+#define MIHOYO_SDK_PLUGINUI_UICONSTANTS_CTOR_OFFSET UNITYSDK_OFFSET(0xB68EF10)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_TypeDefinitionIndex = 46796;
+	inline static constexpr unsigned int UIConstants_TypeDefinitionIndex = 47824;
 
 	class UIConstants : public ::System::Object
 	{

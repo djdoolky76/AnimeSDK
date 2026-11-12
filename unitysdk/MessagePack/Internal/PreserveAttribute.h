@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MESSAGEPACK_INTERNAL_PRESERVEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBABB60)
+#define MESSAGEPACK_INTERNAL_PRESERVEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD349E0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7297;
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7308;
 
 	class PreserveAttribute : public ::System::Attribute
 	{

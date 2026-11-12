@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define AUISTATETAGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BC2390)
+#define AUISTATETAGBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x16A22F70)
 
-inline static constexpr unsigned int AUiStateTagBase_TypeDefinitionIndex = 47577;
+inline static constexpr unsigned int AUiStateTagBase_TypeDefinitionIndex = 48606;
 
 	class AUiStateTagBase : public ::UnityEngine::MonoBehaviour
 	{

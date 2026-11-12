@@ -4,31 +4,31 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF87E60)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF87EA0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C__SHOWLOADINGPLUGINUI_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BF87EB0)
-#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C__SHOWLOADINGTOASTPLUGINUI_B__7_0_OFFSET UNITYSDK_OFFSET(0x1BF87EF0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D10E9F0)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D10EA30)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C__SHOWLOADINGPLUGINUI_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D10EA40)
+#define MIHOYO_SDK_PLUGINUI_PLUGINUICONTROLSERVICE___C__SHOWLOADINGTOASTPLUGINUI_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D10EA80)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIControlService___c_TypeDefinitionIndex = 9146;
+	inline static constexpr unsigned int PluginUIControlService___c_TypeDefinitionIndex = 9155;
 
 	class PluginUIControlService___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__7_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x19620);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x19628);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x18A70);
+		}
+
+		static ::System::Action** StaticGet___9__7_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x18A78);
 		}
 
 		static ::System::Action** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x19630);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x18A80);
 		}
 
 		static ::System::Void _cctor()

@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EvolveBuildTutorialConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68AD00)
-#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D68A610)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E897270)
+#define RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E896B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildTutorialConfigRow_TypeDefinitionIndex = 11434;
+	inline static constexpr unsigned int EvolveBuildTutorialConfigRow_TypeDefinitionIndex = 11485;
 
 	class EvolveBuildTutorialConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* TutorialID; // 0x10
 		::System::UInt32 ID; // 0x18
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x1C
-		::System::UInt32 WeaponLevel; // 0x20
-		::System::UInt32 StageMergedID; // 0x24
+		::System::UInt32 WeaponLevel; // 0x1C
+		::System::UInt32 StageMergedID; // 0x20
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEBUILDTUTORIALCONFIGROW_CTOR_OFFSET))(this);

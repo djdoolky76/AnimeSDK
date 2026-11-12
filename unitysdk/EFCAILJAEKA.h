@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EFCAILJAEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A477F0)
+#define EFCAILJAEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x148081C0)
 
-inline static constexpr unsigned int EFCAILJAEKA_TypeDefinitionIndex = 81281;
+inline static constexpr unsigned int EFCAILJAEKA_TypeDefinitionIndex = 84061;
 
 	class EFCAILJAEKA : public ::System::Object
 	{

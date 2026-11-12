@@ -6,10 +6,10 @@ class GLAKFODMCPH;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collider; }
 
-#define EEGHOHBCPNA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA33990)
-#define EEGHOHBCPNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A10)
+#define EEGHOHBCPNA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DBF71E0)
+#define EEGHOHBCPNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF7260)
 
-inline static constexpr unsigned int EEGHOHBCPNA_TypeDefinitionIndex = 43260;
+inline static constexpr unsigned int EEGHOHBCPNA_TypeDefinitionIndex = 44241;
 
 	class EEGHOHBCPNA : public ::System::Object
 	{

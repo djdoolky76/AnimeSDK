@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMunicipalEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CAPPELIGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC49D540)
-#define CAPPELIGNBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC49D570)
+#define CAPPELIGNBM_CTOR_OFFSET UNITYSDK_OFFSET(0xCE06380)
+#define CAPPELIGNBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE063B0)
 
-inline static constexpr unsigned int CAPPELIGNBM_TypeDefinitionIndex = 58559;
+inline static constexpr unsigned int CAPPELIGNBM_TypeDefinitionIndex = 59824;
 
 	class CAPPELIGNBM
 	{

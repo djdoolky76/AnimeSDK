@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameNavAutoGenExitInfo; }
 
-#define RPG_GAMECORE_LITTLEGAMENAVAUTOGENEXITINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E4FD0)
-#define RPG_GAMECORE_LITTLEGAMENAVAUTOGENEXITINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E4F90)
+#define RPG_GAMECORE_LITTLEGAMENAVAUTOGENEXITINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA258F0)
+#define RPG_GAMECORE_LITTLEGAMENAVAUTOGENEXITINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA258B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameNavAutoGenExitInfo_TypeDefinitionIndex = 17338;
+	inline static constexpr unsigned int LittleGameNavAutoGenExitInfo_TypeDefinitionIndex = 17506;
 
 	class LittleGameNavAutoGenExitInfo : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class BEBNHPCBMPF;
 namespace System { class Object; }
 
-#define BEBNHPCBMPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E922560)
-#define BEBNHPCBMPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E922590)
-#define BEBNHPCBMPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9225A0)
+#define BEBNHPCBMPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD1E600)
+#define BEBNHPCBMPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD1E630)
+#define BEBNHPCBMPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD1E640)
 
-inline static constexpr unsigned int BEBNHPCBMPF___c_TypeDefinitionIndex = 32518;
+inline static constexpr unsigned int BEBNHPCBMPF___c_TypeDefinitionIndex = 33433;
 
 	class BEBNHPCBMPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F910);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F710);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define FHFJBKNCPMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15779DC0)
+#define FHFJBKNCPMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1669AAC0)
 
-inline static constexpr unsigned int FHFJBKNCPMB_TypeDefinitionIndex = 48270;
+inline static constexpr unsigned int FHFJBKNCPMB_TypeDefinitionIndex = 49311;
 
 	class FHFJBKNCPMB : public ::UnityEngine::Playables::PlayableBehaviour
 	{

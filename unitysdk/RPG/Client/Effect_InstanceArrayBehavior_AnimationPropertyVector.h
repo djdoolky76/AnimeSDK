@@ -5,12 +5,12 @@
 namespace RPG::Client::TAUtils { class Vector4AnimationCurve; }
 namespace System { class String; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYVECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xCD3BBF0)
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYVECTOR_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xCD3ACD0)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYVECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD702A80)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYBEHAVIOR_ANIMATIONPROPERTYVECTOR_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xD701B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayBehavior_AnimationPropertyVector_TypeDefinitionIndex = 70617;
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_AnimationPropertyVector_TypeDefinitionIndex = 72594;
 
 	class Effect_InstanceArrayBehavior_AnimationPropertyVector : public ::System::Object
 	{

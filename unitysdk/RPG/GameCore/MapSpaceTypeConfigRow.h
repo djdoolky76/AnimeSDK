@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapSpaceTypeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D832EA0)
-#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8327B0)
+#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4D8E0)
+#define RPG_GAMECORE_MAPSPACETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA4D1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapSpaceTypeConfigRow_TypeDefinitionIndex = 14010;
+	inline static constexpr unsigned int MapSpaceTypeConfigRow_TypeDefinitionIndex = 14167;
 
 	class MapSpaceTypeConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
-		::RPG::GameCore::MapSpaceType MapSpaceType; // 0x18
-		::System::Int32 SortID; // 0x1C
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::GameCore::MapSpaceType MapSpaceType; // 0x28
+		::System::Int32 SortID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPSPACETYPECONFIGROW_CTOR_OFFSET))(this);

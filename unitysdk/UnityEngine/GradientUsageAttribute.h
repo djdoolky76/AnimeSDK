@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_GRADIENTUSAGEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EF990)
+#define UNITYENGINE_GRADIENTUSAGEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x206A0500)
 
 namespace UnityEngine
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS { class XboxActivityInfo; }
 
-#define MIHOYO_SDK_PC_OS_XBOXACTIVITIESEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42820)
+#define MIHOYO_SDK_PC_OS_XBOXACTIVITIESEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C9440)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxActivitiesExtension_TypeDefinitionIndex = 8686;
+	inline static constexpr unsigned int XboxActivitiesExtension_TypeDefinitionIndex = 8695;
 
 	class XboxActivitiesExtension : public ::System::Object
 	{

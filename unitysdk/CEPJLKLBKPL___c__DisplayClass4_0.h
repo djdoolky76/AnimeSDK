@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CEPJLKLBKPL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F8740)
-#define CEPJLKLBKPL___C__DISPLAYCLASS4_0__ISBLINDBOXPETBYID_B__0_OFFSET UNITYSDK_OFFSET(0xC9F8870)
+#define CEPJLKLBKPL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD35DD40)
+#define CEPJLKLBKPL___C__DISPLAYCLASS4_0__ISBLINDBOXPETBYID_B__0_OFFSET UNITYSDK_OFFSET(0xD35DE70)
 
-inline static constexpr unsigned int CEPJLKLBKPL___c__DisplayClass4_0_TypeDefinitionIndex = 75678;
+inline static constexpr unsigned int CEPJLKLBKPL___c__DisplayClass4_0_TypeDefinitionIndex = 78005;
 
 	class CEPJLKLBKPL___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseExpeditionBattleNode; }
 namespace RPG::GameCore { class ExpeditionBattleBranchCase; }
 namespace RPG::GameCore { class ExpeditionBattleSwitchBranchNode; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLESWITCHBRANCHNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D690D90)
-#define RPG_GAMECORE_EXPEDITIONBATTLESWITCHBRANCHNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D690DA0)
-#define RPG_GAMECORE_EXPEDITIONBATTLESWITCHBRANCHNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D690D40)
+#define RPG_GAMECORE_EXPEDITIONBATTLESWITCHBRANCHNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E89D300)
+#define RPG_GAMECORE_EXPEDITIONBATTLESWITCHBRANCHNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E89D310)
+#define RPG_GAMECORE_EXPEDITIONBATTLESWITCHBRANCHNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E89D2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleSwitchBranchNode_TypeDefinitionIndex = 16200;
+	inline static constexpr unsigned int ExpeditionBattleSwitchBranchNode_TypeDefinitionIndex = 16358;
 
 	class ExpeditionBattleSwitchBranchNode : public ::RPG::GameCore::BaseExpeditionBattleNode
 	{

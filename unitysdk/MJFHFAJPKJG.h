@@ -11,12 +11,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MJFHFAJPKJG_CHCGKHLLPJM_OFFSET UNITYSDK_OFFSET(0xB96A700)
-#define MJFHFAJPKJG_CTOR_OFFSET UNITYSDK_OFFSET(0xB969EA0)
-#define MJFHFAJPKJG_ENEKFDOBIDA_OFFSET UNITYSDK_OFFSET(0xB969EB0)
-#define MJFHFAJPKJG_MDFIMDNGPCF_OFFSET UNITYSDK_OFFSET(0xB96A5F0)
+#define MJFHFAJPKJG_CHCGKHLLPJM_OFFSET UNITYSDK_OFFSET(0xC222300)
+#define MJFHFAJPKJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC221AC0)
+#define MJFHFAJPKJG_ENEKFDOBIDA_OFFSET UNITYSDK_OFFSET(0xC221AD0)
+#define MJFHFAJPKJG_MDFIMDNGPCF_OFFSET UNITYSDK_OFFSET(0xC2221F0)
 
-inline static constexpr unsigned int MJFHFAJPKJG_TypeDefinitionIndex = 63871;
+inline static constexpr unsigned int MJFHFAJPKJG_TypeDefinitionIndex = 65313;
 
 	class MJFHFAJPKJG : public ::System::Object
 	{

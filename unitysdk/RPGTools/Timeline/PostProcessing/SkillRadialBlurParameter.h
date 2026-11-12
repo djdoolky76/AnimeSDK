@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SKILLRADIALBLURPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF91A0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SKILLRADIALBLURPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x106150)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SkillRadialBlurParameter_TypeDefinitionIndex = 48611;
+	inline static constexpr unsigned int SkillRadialBlurParameter_TypeDefinitionIndex = 49652;
 
 	struct alignas(4) SkillRadialBlurParameter
 	{

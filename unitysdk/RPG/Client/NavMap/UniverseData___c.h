@@ -5,25 +5,25 @@ namespace RPG::Client::NavMap { class WorldData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD97B7D0)
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD97B810)
-#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__43_0_OFFSET UNITYSDK_OFFSET(0xD97B820)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE40EC50)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE40EC90)
+#define RPG_CLIENT_NAVMAP_UNIVERSEDATA___C__GET_SHOWWORLDS_B__43_0_OFFSET UNITYSDK_OFFSET(0xE40ECA0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int UniverseData___c_TypeDefinitionIndex = 74639;
+	inline static constexpr unsigned int UniverseData___c_TypeDefinitionIndex = 76787;
 
 	class UniverseData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6F290);
-		}
-
 		static ::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>** StaticGet___9__43_0()
 		{
-			return (::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6F298);
+			return (::System::Func_2<::RPG::Client::NavMap::WorldData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xE230);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xE238);
 		}
 
 		static ::System::Void _cctor()

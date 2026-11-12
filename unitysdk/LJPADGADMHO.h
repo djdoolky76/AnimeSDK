@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByCanPlanetFesLevelUp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJPADGADMHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7243C0)
-#define LJPADGADMHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7243F0)
+#define LJPADGADMHO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC12C0)
+#define LJPADGADMHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFC12F0)
 
-inline static constexpr unsigned int LJPADGADMHO_TypeDefinitionIndex = 57965;
+inline static constexpr unsigned int LJPADGADMHO_TypeDefinitionIndex = 59203;
 
 	class LJPADGADMHO
 	{

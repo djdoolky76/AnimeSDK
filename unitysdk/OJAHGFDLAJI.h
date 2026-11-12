@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveVideoSequence; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OJAHGFDLAJI_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA9E00)
-#define OJAHGFDLAJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA9E30)
+#define OJAHGFDLAJI_CTOR_OFFSET UNITYSDK_OFFSET(0xC7A00B0)
+#define OJAHGFDLAJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7A00E0)
 
-inline static constexpr unsigned int OJAHGFDLAJI_TypeDefinitionIndex = 53200;
+inline static constexpr unsigned int OJAHGFDLAJI_TypeDefinitionIndex = 54362;
 
 	class OJAHGFDLAJI
 	{

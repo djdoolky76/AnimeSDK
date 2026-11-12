@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEBATTLECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E0D90)
-#define RPG_GAMECORE_CREATEBATTLECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E0DD0)
-#define RPG_GAMECORE_CREATEBATTLECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E0D30)
+#define RPG_GAMECORE_CREATEBATTLECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F30D0)
+#define RPG_GAMECORE_CREATEBATTLECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F3110)
+#define RPG_GAMECORE_CREATEBATTLECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F3070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateBattleCharacter_TypeDefinitionIndex = 22754;
+	inline static constexpr unsigned int CreateBattleCharacter_TypeDefinitionIndex = 23176;
 
 	class CreateBattleCharacter : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,22 +5,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengePeakBossConfigRow; }
 
-#define RPG_GAMECORE_CHALLENGEPEAKBOSSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5619F0)
-#define RPG_GAMECORE_CHALLENGEPEAKBOSSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D561720)
+#define RPG_GAMECORE_CHALLENGEPEAKBOSSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E773190)
+#define RPG_GAMECORE_CHALLENGEPEAKBOSSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E772EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakBossConfigRow_TypeDefinitionIndex = 12981;
+	inline static constexpr unsigned int ChallengePeakBossConfigRow_TypeDefinitionIndex = 13049;
 
 	class ChallengePeakBossConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* HardTagList; // 0x10
+		::Il2CppArray<::System::UInt32>* HardEventIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* BuffList; // 0x18
-		::Il2CppArray<::System::UInt32>* HardEventIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* HardTagList; // 0x20
 		::System::UInt32 ColorMedalTarget; // 0x28
-		::System::UInt32 HardTarget; // 0x2C
-		::System::UInt32 ID; // 0x30
+		::System::UInt32 ID; // 0x2C
+		::System::UInt32 HardTarget; // 0x30
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID HardTitle; // 0x38
 		::System::Void _ctor()

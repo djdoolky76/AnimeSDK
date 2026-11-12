@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ADCHCEGJPFN_CTOR_OFFSET UNITYSDK_OFFSET(0xB135340)
+#define ADCHCEGJPFN_CTOR_OFFSET UNITYSDK_OFFSET(0xB79C770)
 
-inline static constexpr unsigned int ADCHCEGJPFN_TypeDefinitionIndex = 54283;
+inline static constexpr unsigned int ADCHCEGJPFN_TypeDefinitionIndex = 55447;
 
 	class ADCHCEGJPFN : public ::System::Object
 	{

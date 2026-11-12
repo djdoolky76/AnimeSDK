@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExitBreakState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_EXITBREAKSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68BF20)
-#define RPG_GAMECORE_EXITBREAKSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D68BF30)
-#define RPG_GAMECORE_EXITBREAKSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D68BEF0)
+#define RPG_GAMECORE_EXITBREAKSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E898490)
+#define RPG_GAMECORE_EXITBREAKSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8984A0)
+#define RPG_GAMECORE_EXITBREAKSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E898460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExitBreakState_TypeDefinitionIndex = 23637;
+	inline static constexpr unsigned int ExitBreakState_TypeDefinitionIndex = 24084;
 
 	class ExitBreakState : public ::RPG::GameCore::TaskConfig
 	{

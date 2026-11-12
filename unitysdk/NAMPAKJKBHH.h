@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FFPAFGCOKHK.h"
 
-#define NAMPAKJKBHH_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA7D10)
-#define NAMPAKJKBHH_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xBAA7D20)
-#define NAMPAKJKBHH_GET_REVERSE_OFFSET UNITYSDK_OFFSET(0xBAA7F20)
-#define NAMPAKJKBHH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBAA7DB0)
+#define NAMPAKJKBHH_CTOR_OFFSET UNITYSDK_OFFSET(0xC32CAB0)
+#define NAMPAKJKBHH_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xC32CAC0)
+#define NAMPAKJKBHH_GET_REVERSE_OFFSET UNITYSDK_OFFSET(0xC32CCC0)
+#define NAMPAKJKBHH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC32CB50)
 
-inline static constexpr unsigned int NAMPAKJKBHH_TypeDefinitionIndex = 74199;
+inline static constexpr unsigned int NAMPAKJKBHH_TypeDefinitionIndex = 76347;
 
 	class NAMPAKJKBHH : public ::FFPAFGCOKHK
 	{
 	public:
-		::System::Boolean _Reverse_k__BackingField; // 0x40
-		::System::Byte _padding0[0x3];
+		::System::Single DKOFFPPGEFI; // 0x40
 		::System::Int32 CICBCEIBAAO; // 0x44
-		::System::Single DKOFFPPGEFI; // 0x48
+		::System::Boolean _Reverse_k__BackingField; // 0x48
 		::System::Void _ctor(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + NAMPAKJKBHH_CTOR_OFFSET))(this, a1);

@@ -4,16 +4,16 @@
 class EPPMJHGHPGA;
 class FCOEMCEDLNL;
 
-#define EPPMJHGHPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC1DB0)
-#define EPPMJHGHPGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC1C40)
+#define EPPMJHGHPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF994F0)
+#define EPPMJHGHPGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF99380)
 
-inline static constexpr unsigned int EPPMJHGHPGA_TypeDefinitionIndex = 14339;
+inline static constexpr unsigned int EPPMJHGHPGA_TypeDefinitionIndex = 14496;
 
 	class EPPMJHGHPGA : public ::System::Object
 	{
 	public:
-		::System::UInt32 GACEMBBAGMP; // 0x10
-		::System::UInt32 EGONNGOPKDK; // 0x14
+		::System::UInt32 EGONNGOPKDK; // 0x10
+		::System::UInt32 GACEMBBAGMP; // 0x14
 		::System::UInt32 LLDCHLHNADA; // 0x18
 		::System::Void _ctor()
 		{

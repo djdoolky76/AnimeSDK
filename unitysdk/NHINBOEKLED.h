@@ -6,10 +6,10 @@ class LHJPMDPJPEC;
 namespace RPG::GameCore { class MarbleByAnd; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NHINBOEKLED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C965D10)
-#define NHINBOEKLED_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C965EC0)
+#define NHINBOEKLED_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27B10)
+#define NHINBOEKLED_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1DB27CC0)
 
-inline static constexpr unsigned int NHINBOEKLED_TypeDefinitionIndex = 43136;
+inline static constexpr unsigned int NHINBOEKLED_TypeDefinitionIndex = 44117;
 
 	class NHINBOEKLED : public ::LHJPMDPJPEC
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinPointerInputSource_TypeDefinitionIndex = 80969;
+	inline static constexpr unsigned int IFateRinPointerInputSource_TypeDefinitionIndex = 83749;
 
 	class IFateRinPointerInputSource
 	{

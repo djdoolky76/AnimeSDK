@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetGraphDynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB4C20)
-#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB4C30)
-#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB4BE0)
+#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC6E30)
+#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC6E40)
+#define RPG_GAMECORE_SETGRAPHDYNAMICFLOAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC6DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetGraphDynamicFloat_TypeDefinitionIndex = 20710;
+	inline static constexpr unsigned int SetGraphDynamicFloat_TypeDefinitionIndex = 21047;
 
 	class SetGraphDynamicFloat : public ::RPG::GameCore::TaskConfig
 	{

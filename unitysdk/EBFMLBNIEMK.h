@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/UIController.h"
 class LBAMBIMMJKB;
 
-#define EBFMLBNIEMK_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEF290)
+#define EBFMLBNIEMK_CTOR_OFFSET UNITYSDK_OFFSET(0x13AA0310)
 
-inline static constexpr unsigned int EBFMLBNIEMK_TypeDefinitionIndex = 71358;
+inline static constexpr unsigned int EBFMLBNIEMK_TypeDefinitionIndex = 73335;
 
 	class EBFMLBNIEMK : public ::RPG::Client::UIController
 	{

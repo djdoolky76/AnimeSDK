@@ -5,16 +5,16 @@ class APKJLMDEMLI;
 class ENDEAPMHAOI;
 namespace RPG::GameCore { class CakeRaceEventHandler; }
 
-#define ENDEAPMHAOI___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6066F0)
-#define ENDEAPMHAOI___C__DISPLAYCLASS20_0___REGISTEREVENTHANDLERS_G__HANDLER_0_OFFSET UNITYSDK_OFFSET(0x1C606700)
+#define ENDEAPMHAOI___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D787DD0)
+#define ENDEAPMHAOI___C__DISPLAYCLASS20_0___REGISTEREVENTHANDLERS_G__HANDLER_0_OFFSET UNITYSDK_OFFSET(0x1D787DE0)
 
-inline static constexpr unsigned int ENDEAPMHAOI___c__DisplayClass20_0_TypeDefinitionIndex = 37402;
+inline static constexpr unsigned int ENDEAPMHAOI___c__DisplayClass20_0_TypeDefinitionIndex = 38330;
 
 	class ENDEAPMHAOI___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::ENDEAPMHAOI* __4__this; // 0x10
-		::RPG::GameCore::CakeRaceEventHandler* eventHandler; // 0x18
+		::RPG::GameCore::CakeRaceEventHandler* eventHandler; // 0x10
+		::ENDEAPMHAOI* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENDEAPMHAOI___C__DISPLAYCLASS20_0_CTOR_OFFSET))(this);

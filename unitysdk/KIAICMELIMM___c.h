@@ -4,18 +4,18 @@
 class KIAICMELIMM;
 namespace System { class Object; }
 
-#define KIAICMELIMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E852650)
-#define KIAICMELIMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E852690)
-#define KIAICMELIMM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E8526A0)
+#define KIAICMELIMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB6C780)
+#define KIAICMELIMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB6C7C0)
+#define KIAICMELIMM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB6C7D0)
 
-inline static constexpr unsigned int KIAICMELIMM___c_TypeDefinitionIndex = 25422;
+inline static constexpr unsigned int KIAICMELIMM___c_TypeDefinitionIndex = 25901;
 
 	class KIAICMELIMM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x189D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x124B0);
 		}
 
 		static ::System::Void _cctor()

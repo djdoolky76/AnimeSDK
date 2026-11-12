@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsSwordTrainingSkillCanLearn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKDKKCBABCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ADEA0)
-#define BKDKKCBABCM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7ADEE0)
+#define BKDKKCBABCM_CTOR_OFFSET UNITYSDK_OFFSET(0xC104810)
+#define BKDKKCBABCM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC104850)
 
-inline static constexpr unsigned int BKDKKCBABCM_TypeDefinitionIndex = 54688;
+inline static constexpr unsigned int BKDKKCBABCM_TypeDefinitionIndex = 55854;
 
 	class BKDKKCBABCM
 	{

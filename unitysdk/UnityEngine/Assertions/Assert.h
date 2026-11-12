@@ -4,21 +4,21 @@
 namespace System { class String; }
 namespace UnityEngine { class Object; }
 
-#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_2_OFFSET UNITYSDK_OFFSET(0x1F3D1D40)
-#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_3_OFFSET UNITYSDK_OFFSET(0x1F3D1FF0)
-#define UNITYENGINE_ASSERTIONS_ASSERT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3D20B0)
-#define UNITYENGINE_ASSERTIONS_ASSERT_FAIL_OFFSET UNITYSDK_OFFSET(0x1F3D1B80)
+#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_2_OFFSET UNITYSDK_OFFSET(0x20682C40)
+#define UNITYENGINE_ASSERTIONS_ASSERT_AREEQUAL_3_OFFSET UNITYSDK_OFFSET(0x20682EF0)
+#define UNITYENGINE_ASSERTIONS_ASSERT_CCTOR_OFFSET UNITYSDK_OFFSET(0x20682FB0)
+#define UNITYENGINE_ASSERTIONS_ASSERT_FAIL_OFFSET UNITYSDK_OFFSET(0x20682A80)
 
 namespace UnityEngine::Assertions
 {
-	inline static constexpr unsigned int Assert_TypeDefinitionIndex = 4954;
+	inline static constexpr unsigned int Assert_TypeDefinitionIndex = 4959;
 
 	class Assert : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_raiseExceptions()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.Assertions", "Assert")->GetStaticField(0x3100);
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.Assertions", "Assert")->GetStaticField(0x11F0);
 		}
 
 		static ::System::Void _cctor()

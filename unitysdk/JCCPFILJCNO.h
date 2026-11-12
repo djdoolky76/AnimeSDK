@@ -5,20 +5,20 @@ namespace RPG::Client { class DebateManager; }
 namespace RPG::GameCore { class DebateCostChangce; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JCCPFILJCNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1657B1F0)
-#define JCCPFILJCNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1657B400)
-#define JCCPFILJCNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1657B200)
-#define JCCPFILJCNO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1657B450)
-#define JCCPFILJCNO_TICK_OFFSET UNITYSDK_OFFSET(0x1657B4A0)
+#define JCCPFILJCNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B44D0)
+#define JCCPFILJCNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8B46E0)
+#define JCCPFILJCNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8B44E0)
+#define JCCPFILJCNO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8B4730)
+#define JCCPFILJCNO_TICK_OFFSET UNITYSDK_OFFSET(0xB8B4780)
 
-inline static constexpr unsigned int JCCPFILJCNO_TypeDefinitionIndex = 52725;
+inline static constexpr unsigned int JCCPFILJCNO_TypeDefinitionIndex = 53869;
 
 	class JCCPFILJCNO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::DebateCostChangce* OFKGLJOAMLD; // 0x18
 		::RPG::Client::DebateManager* OGPNBADIHKM; // 0x20
-		::RPG::GameCore::DebateCostChangce* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Single PGMIOKKLHIE; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::DebateCostChangce* a2)
 		{

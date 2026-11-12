@@ -5,11 +5,11 @@ class MNBNFBAMKKI;
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EOHDKCHDCAI_CTOR_OFFSET UNITYSDK_OFFSET(0x155C0780)
-#define EOHDKCHDCAI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155C07F0)
-#define EOHDKCHDCAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C0830)
+#define EOHDKCHDCAI_CTOR_OFFSET UNITYSDK_OFFSET(0x164D28B0)
+#define EOHDKCHDCAI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164D2920)
+#define EOHDKCHDCAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164D2960)
 
-inline static constexpr unsigned int EOHDKCHDCAI_TypeDefinitionIndex = 53893;
+inline static constexpr unsigned int EOHDKCHDCAI_TypeDefinitionIndex = 55057;
 
 	class EOHDKCHDCAI
 	{

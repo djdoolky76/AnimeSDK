@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChimeraDuelEnterShowcaseBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GJPGIBAFBEC_CTOR_OFFSET UNITYSDK_OFFSET(0x15A825E0)
-#define GJPGIBAFBEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A82610)
+#define GJPGIBAFBEC_CTOR_OFFSET UNITYSDK_OFFSET(0x169BF520)
+#define GJPGIBAFBEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169BF550)
 
-inline static constexpr unsigned int GJPGIBAFBEC_TypeDefinitionIndex = 58021;
+inline static constexpr unsigned int GJPGIBAFBEC_TypeDefinitionIndex = 59260;
 
 	class GJPGIBAFBEC
 	{

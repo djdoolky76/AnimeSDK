@@ -5,12 +5,12 @@
 namespace RPG::Client::PetMarble { class PetMarbleMatchController; }
 namespace RPG::Client::Promises { class IPromise; }
 
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMATCHCONTROLLER___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAE02C0)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMATCHCONTROLLER___C__DISPLAYCLASS2_0__SWITCHMODEPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xDAE1850)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMATCHCONTROLLER___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE534A80)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMATCHCONTROLLER___C__DISPLAYCLASS2_0__SWITCHMODEPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xE535EF0)
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleMatchController___c__DisplayClass2_0_TypeDefinitionIndex = 74711;
+	inline static constexpr unsigned int PetMarbleMatchController___c__DisplayClass2_0_TypeDefinitionIndex = 76859;
 
 	class PetMarbleMatchController___c__DisplayClass2_0 : public ::System::Object
 	{

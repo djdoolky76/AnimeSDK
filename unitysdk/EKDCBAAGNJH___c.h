@@ -5,23 +5,23 @@ namespace RPG::GameCore { class BattleGridFightEquipData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EKDCBAAGNJH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15500FD0)
-#define EKDCBAAGNJH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15501010)
-#define EKDCBAAGNJH___C___SETUPEQUIPITEMPANELS_B__9_0_OFFSET UNITYSDK_OFFSET(0x15501020)
+#define EKDCBAAGNJH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16449230)
+#define EKDCBAAGNJH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16449270)
+#define EKDCBAAGNJH___C___SETUPEQUIPITEMPANELS_B__9_0_OFFSET UNITYSDK_OFFSET(0x16449280)
 
-inline static constexpr unsigned int EKDCBAAGNJH___c_TypeDefinitionIndex = 72253;
+inline static constexpr unsigned int EKDCBAAGNJH___c_TypeDefinitionIndex = 74323;
 
 	class EKDCBAAGNJH___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FF20);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::BattleGridFightEquipData*, ::System::Int32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::BattleGridFightEquipData*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FF28);
+			return (::System::Func_2<::RPG::GameCore::BattleGridFightEquipData*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24F70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24F78);
 		}
 
 		static ::System::Void _cctor()

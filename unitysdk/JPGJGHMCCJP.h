@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class FKIAHEEJGKH;
 
-#define JPGJGHMCCJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7099A0)
+#define JPGJGHMCCJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88B470)
 
-inline static constexpr unsigned int JPGJGHMCCJP_TypeDefinitionIndex = 37125;
+inline static constexpr unsigned int JPGJGHMCCJP_TypeDefinitionIndex = 38053;
 
 	class JPGJGHMCCJP : public ::System::Object
 	{

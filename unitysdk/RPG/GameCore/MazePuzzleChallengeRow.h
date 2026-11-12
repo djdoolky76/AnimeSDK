@@ -4,29 +4,29 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazePuzzleChallengeRow; }
 
-#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D869DD0)
-#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8694E0)
+#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA844A0)
+#define RPG_GAMECORE_MAZEPUZZLECHALLENGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA83BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleChallengeRow_TypeDefinitionIndex = 14033;
+	inline static constexpr unsigned int MazePuzzleChallengeRow_TypeDefinitionIndex = 14190;
 
 	class MazePuzzleChallengeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ProgressList; // 0x10
-		::System::UInt32 IsBeginPrepare; // 0x18
-		::System::UInt32 RemainingStep; // 0x1C
-		::System::UInt32 LimitTime; // 0x20
-		::System::Boolean IsShowWaypoint; // 0x24
-		::System::Boolean IsTopPriority; // 0x25
-		::System::Boolean IsShowToast; // 0x26
+		::System::UInt32 TutorialID; // 0x18
+		::System::UInt32 IsResetable; // 0x1C
+		::System::UInt32 RemainingStep; // 0x20
+		::System::Boolean IsShowToast; // 0x24
+		::System::Boolean IsShowWaypoint; // 0x25
+		::System::Boolean IsTopPriority; // 0x26
 		::System::Byte _padding0[0x1];
-		::System::UInt32 SpecialModeID; // 0x28
-		::System::UInt32 NormalModeID; // 0x2C
-		::System::UInt32 TutorialID; // 0x30
-		::System::UInt32 MazePuzzleID; // 0x34
-		::System::UInt32 IsResetable; // 0x38
+		::System::UInt32 MazePuzzleID; // 0x28
+		::System::UInt32 IsBeginPrepare; // 0x2C
+		::System::UInt32 SpecialModeID; // 0x30
+		::System::UInt32 LimitTime; // 0x34
+		::System::UInt32 NormalModeID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLECHALLENGEROW_CTOR_OFFSET))(this);

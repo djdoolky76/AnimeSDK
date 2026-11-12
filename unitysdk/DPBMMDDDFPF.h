@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/MGMHEKMJKBH.h"
 
-inline static constexpr unsigned int DPBMMDDDFPF_TypeDefinitionIndex = 6233;
+inline static constexpr unsigned int DPBMMDDDFPF_TypeDefinitionIndex = 6240;
 
 	struct alignas(4) DPBMMDDDFPF
 	{

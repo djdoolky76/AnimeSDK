@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchPassiveEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AJNCJAAOLJA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC7AC0)
-#define AJNCJAAOLJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CC7B10)
+#define AJNCJAAOLJA_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA6D20)
+#define AJNCJAAOLJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12DA6D70)
 
-inline static constexpr unsigned int AJNCJAAOLJA_TypeDefinitionIndex = 59221;
+inline static constexpr unsigned int AJNCJAAOLJA_TypeDefinitionIndex = 60498;
 
 	class AJNCJAAOLJA
 	{

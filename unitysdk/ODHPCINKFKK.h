@@ -4,16 +4,16 @@
 class GHCBKKDBMMG;
 namespace RPG::GameCore { class FiveDimLightningConfig; }
 
-#define ODHPCINKFKK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C98C570)
-#define ODHPCINKFKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C5F0)
+#define ODHPCINKFKK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB4E300)
+#define ODHPCINKFKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4E360)
 
-inline static constexpr unsigned int ODHPCINKFKK_TypeDefinitionIndex = 43519;
+inline static constexpr unsigned int ODHPCINKFKK_TypeDefinitionIndex = 44501;
 
 	class ODHPCINKFKK : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FiveDimLightningConfig* EABKOHGCHFP; // 0x10
-		::GHCBKKDBMMG* BPAPBAFOMCH; // 0x18
+		::GHCBKKDBMMG* BPAPBAFOMCH; // 0x10
+		::RPG::GameCore::FiveDimLightningConfig* EABKOHGCHFP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ODHPCINKFKK_CTOR_OFFSET))(this);

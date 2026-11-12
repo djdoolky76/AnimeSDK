@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerEnergyBarEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC51FA0)
-#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC51FE0)
-#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC51F40)
+#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE661B0)
+#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE661F0)
+#define RPG_GAMECORE_TRIGGERENERGYBAREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE66150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEnergyBarEffect_TypeDefinitionIndex = 22740;
+	inline static constexpr unsigned int TriggerEnergyBarEffect_TypeDefinitionIndex = 23162;
 
 	class TriggerEnergyBarEffect : public ::RPG::GameCore::TaskConfig
 	{

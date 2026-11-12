@@ -6,23 +6,23 @@ namespace RPG::GameCore { class EntityTimeRewindComponent; }
 namespace RPG::GameCore { class SetLoopRewindSnapSection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDNAFJDPGKO_CDKIDBFHNPL_OFFSET UNITYSDK_OFFSET(0xE4E8DD0)
-#define DDNAFJDPGKO_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E8800)
-#define DDNAFJDPGKO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE4E88F0)
-#define DDNAFJDPGKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4E8A60)
-#define DDNAFJDPGKO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE4E8CA0)
-#define DDNAFJDPGKO_TICK_OFFSET UNITYSDK_OFFSET(0xE4E8D70)
+#define DDNAFJDPGKO_CDKIDBFHNPL_OFFSET UNITYSDK_OFFSET(0xEE2DC50)
+#define DDNAFJDPGKO_CTOR_OFFSET UNITYSDK_OFFSET(0xEE2D680)
+#define DDNAFJDPGKO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEE2D770)
+#define DDNAFJDPGKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE2D8E0)
+#define DDNAFJDPGKO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEE2DB20)
+#define DDNAFJDPGKO_TICK_OFFSET UNITYSDK_OFFSET(0xEE2DBF0)
 
-inline static constexpr unsigned int DDNAFJDPGKO_TypeDefinitionIndex = 53390;
+inline static constexpr unsigned int DDNAFJDPGKO_TypeDefinitionIndex = 54552;
 
 	class DDNAFJDPGKO : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* EBOEKBPIJPI; // 0x18
-		::RPG::GameCore::EntityTimeRewindComponent* GLBECKBELNK; // 0x20
-		::KFELGAIGHAP* GKEPNAPPHOG; // 0x28
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
-		::RPG::GameCore::SetLoopRewindSnapSection* OFKGLJOAMLD; // 0x38
+		::RPG::GameCore::SetLoopRewindSnapSection* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::KFELGAIGHAP* EBOEKBPIJPI; // 0x28
+		::KFELGAIGHAP* GKEPNAPPHOG; // 0x30
+		::RPG::GameCore::EntityTimeRewindComponent* GLBECKBELNK; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetLoopRewindSnapSection* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetLoopRewindSnapSection*))((::PBYTE)hIl2Cpp + DDNAFJDPGKO_CTOR_OFFSET))(this, a1, a2);

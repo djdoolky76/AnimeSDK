@@ -3,16 +3,17 @@
 #include "unitysdk/RPG/GameCore/RestaurantSuperEventType.h"
 #include "unitysdk/System/Object.h"
 
-#define AGJLCABJAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88B4E0)
+#define AGJLCABJAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0CBC0)
 
-inline static constexpr unsigned int AGJLCABJAPA_TypeDefinitionIndex = 42126;
+inline static constexpr unsigned int AGJLCABJAPA_TypeDefinitionIndex = 43101;
 
 	class AGJLCABJAPA : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RestaurantSuperEventType LAOACNPDOLD; // 0x10
-		::System::Int32 GKJBKEDFHIB; // 0x14
-		::System::Boolean KEOKEELBKHI; // 0x18
+		::System::Int32 GKJBKEDFHIB; // 0x10
+		::System::Boolean KEOKEELBKHI; // 0x14
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::RestaurantSuperEventType LAOACNPDOLD; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJLCABJAPA_CTOR_OFFSET))(this);

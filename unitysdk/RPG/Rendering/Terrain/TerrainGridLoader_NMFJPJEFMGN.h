@@ -5,7 +5,7 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Rendering::Terrain
 {
-	inline static constexpr unsigned int TerrainGridLoader_NMFJPJEFMGN_TypeDefinitionIndex = 51802;
+	inline static constexpr unsigned int TerrainGridLoader_NMFJPJEFMGN_TypeDefinitionIndex = 52888;
 
 	struct alignas(8) TerrainGridLoader_NMFJPJEFMGN
 	{

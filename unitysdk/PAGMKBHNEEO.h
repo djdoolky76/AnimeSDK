@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/Match3/MatchThreeGameMode.h"
 #include "unitysdk/System/Object.h"
 
-#define PAGMKBHNEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4C30)
+#define PAGMKBHNEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB66B20)
 
-inline static constexpr unsigned int PAGMKBHNEEO_TypeDefinitionIndex = 42239;
+inline static constexpr unsigned int PAGMKBHNEEO_TypeDefinitionIndex = 43214;
 
 	class PAGMKBHNEEO : public ::System::Object
 	{

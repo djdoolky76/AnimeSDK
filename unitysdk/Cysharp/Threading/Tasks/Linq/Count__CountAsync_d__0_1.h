@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Count__CountAsync_d__0_1_TypeDefinitionIndex = 45324;
+	inline static constexpr unsigned int Count__CountAsync_d__0_1_TypeDefinitionIndex = 46353;
 
 	template <typename T>
 	struct alignas(8) Count__CountAsync_d__0_1

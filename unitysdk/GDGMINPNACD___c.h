@@ -4,18 +4,18 @@
 class GDGMINPNACD;
 namespace System { class Object; }
 
-#define GDGMINPNACD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E44A660)
-#define GDGMINPNACD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44A6A0)
-#define GDGMINPNACD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E44A6B0)
+#define GDGMINPNACD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7383C0)
+#define GDGMINPNACD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F738400)
+#define GDGMINPNACD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F738410)
 
-inline static constexpr unsigned int GDGMINPNACD___c_TypeDefinitionIndex = 33985;
+inline static constexpr unsigned int GDGMINPNACD___c_TypeDefinitionIndex = 34900;
 
 	class GDGMINPNACD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10B30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x572B0);
 		}
 
 		static ::System::Void _cctor()

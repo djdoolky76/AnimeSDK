@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetInCameraScreenScope; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KLEPNGEEKEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB525F10)
-#define KLEPNGEEKEN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB525F40)
+#define KLEPNGEEKEN_CTOR_OFFSET UNITYSDK_OFFSET(0xBD70960)
+#define KLEPNGEEKEN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD70990)
 
-inline static constexpr unsigned int KLEPNGEEKEN_TypeDefinitionIndex = 54718;
+inline static constexpr unsigned int KLEPNGEEKEN_TypeDefinitionIndex = 55885;
 
 	class KLEPNGEEKEN
 	{

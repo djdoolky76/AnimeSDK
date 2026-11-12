@@ -5,17 +5,17 @@
 namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate; }
 namespace EnviromentSystem { class EnviromentProfile; }
 
-#define HGEFPDEGLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C94980)
+#define HGEFPDEGLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x16BDEAD0)
 
-inline static constexpr unsigned int HGEFPDEGLEN_TypeDefinitionIndex = 69781;
+inline static constexpr unsigned int HGEFPDEGLEN_TypeDefinitionIndex = 71740;
 
 	class HGEFPDEGLEN : public ::System::Object
 	{
 	public:
 		::EnviromentSystem::EnviromentProfile* EJHLGMEBPBG; // 0x10
 		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* LDANGAKKLHM; // 0x18
-		::RPG::GameCore::EnviromentControlPriority JGLBEJOIDLK; // 0x20
-		::System::Int32 PHCHCBKAEFH; // 0x24
+		::System::Int32 PHCHCBKAEFH; // 0x20
+		::RPG::GameCore::EnviromentControlPriority JGLBEJOIDLK; // 0x24
 		::System::Void _ctor(::EnviromentSystem::EnviromentProfile* a1, ::RPG::GameCore::EnviromentControlPriority a2, ::System::Int32 a3, ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::EnviromentSystem::EnviromentProfile*, ::RPG::GameCore::EnviromentControlPriority, ::System::Int32, ::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate*))((::PBYTE)hIl2Cpp + HGEFPDEGLEN_CTOR_OFFSET))(this, a1, a2, a3, a4);

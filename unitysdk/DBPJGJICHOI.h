@@ -12,29 +12,29 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define DBPJGJICHOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCD18C0)
-#define DBPJGJICHOI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCD1930)
-#define DBPJGJICHOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCD1820)
+#define DBPJGJICHOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF5870)
+#define DBPJGJICHOI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEF58E0)
+#define DBPJGJICHOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEF57D0)
 
-inline static constexpr unsigned int DBPJGJICHOI_TypeDefinitionIndex = 24164;
+inline static constexpr unsigned int DBPJGJICHOI_TypeDefinitionIndex = 24623;
 
 	class DBPJGJICHOI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* FDFONLOKOHJ; // 0x18
-		::RPG::GameCore::DynamicFloat* MIAFMBHCMOG; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x30
-		::RPG::GameCore::DynamicFloat* ABINBKACLJK; // 0x38
-		::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x40
-		::RPG::GameCore::DynamicFloat* PIBDDOGGDKL; // 0x48
-		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x50
-		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x54
-		::RPG::GameCore::TargetRatioType LMCJKOCHIAI; // 0x58
-		::System::Boolean AGFGDBPMPPB; // 0x5C
-		::System::Boolean AELFMDGFAIK; // 0x5D
+		::RPG::GameCore::TargetEvaluator* NFMKOFNEKLA; // 0x18
+		::RPG::GameCore::DynamicFloat* ABINBKACLJK; // 0x20
+		::System::String* FDFONLOKOHJ; // 0x28
+		::RPG::GameCore::DynamicFloat* PIBDDOGGDKL; // 0x30
+		::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x38
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x40
+		::RPG::GameCore::DynamicFloat* MIAFMBHCMOG; // 0x48
+		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x50
+		::System::Boolean AELFMDGFAIK; // 0x54
+		::System::Boolean AGFGDBPMPPB; // 0x55
 		::System::Byte _padding0[0x2];
-		::RPG::GameCore::AttackType HIFKEKCELFB; // 0x60
+		::RPG::GameCore::AttackType HIFKEKCELFB; // 0x58
+		::RPG::GameCore::TargetRatioType LMCJKOCHIAI; // 0x5C
+		::RPG::GameCore::AttackDamageType PAIECOBACKB; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBPJGJICHOI_CTOR_OFFSET))(this);

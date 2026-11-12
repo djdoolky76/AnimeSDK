@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define OAPFEGCKDNG_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2F350)
-#define OAPFEGCKDNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD2F2D0)
+#define OAPFEGCKDNG_CTOR_OFFSET UNITYSDK_OFFSET(0xC632C70)
+#define OAPFEGCKDNG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC632BF0)
 
-inline static constexpr unsigned int OAPFEGCKDNG_TypeDefinitionIndex = 59624;
+inline static constexpr unsigned int OAPFEGCKDNG_TypeDefinitionIndex = 60901;
 
 	class OAPFEGCKDNG : public ::System::Object
 	{

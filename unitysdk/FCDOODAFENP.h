@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCompareEnhancedID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCDOODAFENP_CTOR_OFFSET UNITYSDK_OFFSET(0x156B6E90)
-#define FCDOODAFENP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156B6EC0)
+#define FCDOODAFENP_CTOR_OFFSET UNITYSDK_OFFSET(0x165CEF10)
+#define FCDOODAFENP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165CEF40)
 
-inline static constexpr unsigned int FCDOODAFENP_TypeDefinitionIndex = 53110;
+inline static constexpr unsigned int FCDOODAFENP_TypeDefinitionIndex = 54272;
 
 	class FCDOODAFENP
 	{

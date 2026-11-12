@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_SKYDOMECONTROLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A1A20)
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_SKYDOMECONTROLDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCCDBC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_SkyDomeControlData_TypeDefinitionIndex = 70872;
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_SkyDomeControlData_TypeDefinitionIndex = 72851;
 
 	class A4SkyDomeEffectControlBehavior_SkyDomeControlData : public ::System::Object
 	{

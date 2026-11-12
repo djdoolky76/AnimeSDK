@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsSkillTypeDisable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMAIEJIPINA_CTOR_OFFSET UNITYSDK_OFFSET(0xB779890)
-#define LMAIEJIPINA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7798C0)
+#define LMAIEJIPINA_CTOR_OFFSET UNITYSDK_OFFSET(0xC019920)
+#define LMAIEJIPINA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC019950)
 
-inline static constexpr unsigned int LMAIEJIPINA_TypeDefinitionIndex = 54683;
+inline static constexpr unsigned int LMAIEJIPINA_TypeDefinitionIndex = 55849;
 
 	class LMAIEJIPINA
 	{

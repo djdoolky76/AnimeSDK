@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByBossTotalHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DONINKKPPHN_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF35E0)
-#define DONINKKPPHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF36C0)
+#define DONINKKPPHN_CTOR_OFFSET UNITYSDK_OFFSET(0x12DED3F0)
+#define DONINKKPPHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DED4D0)
 
-inline static constexpr unsigned int DONINKKPPHN_TypeDefinitionIndex = 55416;
+inline static constexpr unsigned int DONINKKPPHN_TypeDefinitionIndex = 56601;
 
 	class DONINKKPPHN
 	{

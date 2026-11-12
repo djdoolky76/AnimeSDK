@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JILIMBCCPKA_TypeDefinitionIndex = 66677;
+inline static constexpr unsigned int JILIMBCCPKA_TypeDefinitionIndex = 68613;
 
 	struct alignas(4) JILIMBCCPKA
 	{

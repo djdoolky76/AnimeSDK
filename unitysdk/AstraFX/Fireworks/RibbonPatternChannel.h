@@ -3,7 +3,7 @@
 
 namespace AstraFX::Fireworks
 {
-	inline static constexpr unsigned int RibbonPatternChannel_TypeDefinitionIndex = 49030;
+	inline static constexpr unsigned int RibbonPatternChannel_TypeDefinitionIndex = 50100;
 
 	enum class RibbonPatternChannel : ::System::Int32
 	{

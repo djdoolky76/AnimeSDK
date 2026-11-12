@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByInAnimZone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCDMILAHCLC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB06770)
-#define NCDMILAHCLC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB067A0)
+#define NCDMILAHCLC_CTOR_OFFSET UNITYSDK_OFFSET(0xC38DA60)
+#define NCDMILAHCLC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC38DA90)
 
-inline static constexpr unsigned int NCDMILAHCLC_TypeDefinitionIndex = 54461;
+inline static constexpr unsigned int NCDMILAHCLC_TypeDefinitionIndex = 55625;
 
 	class NCDMILAHCLC
 	{

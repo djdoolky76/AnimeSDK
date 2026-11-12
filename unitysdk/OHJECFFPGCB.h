@@ -4,11 +4,11 @@
 namespace RPG::Client { class Stage; }
 namespace System { class String; }
 
-#define OHJECFFPGCB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6D610)
-#define OHJECFFPGCB_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xBE6D620)
-#define OHJECFFPGCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBE6D810)
+#define OHJECFFPGCB_CTOR_OFFSET UNITYSDK_OFFSET(0xC727D20)
+#define OHJECFFPGCB_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xC727D30)
+#define OHJECFFPGCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC727F20)
 
-inline static constexpr unsigned int OHJECFFPGCB_TypeDefinitionIndex = 59274;
+inline static constexpr unsigned int OHJECFFPGCB_TypeDefinitionIndex = 60551;
 
 	class OHJECFFPGCB : public ::System::Object
 	{

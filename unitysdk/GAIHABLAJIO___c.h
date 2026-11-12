@@ -4,18 +4,18 @@
 class GAIHABLAJIO;
 namespace System { class Object; }
 
-#define GAIHABLAJIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E41DB40)
-#define GAIHABLAJIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E41DB80)
-#define GAIHABLAJIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E41DB90)
+#define GAIHABLAJIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F70B760)
+#define GAIHABLAJIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F70B7A0)
+#define GAIHABLAJIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F70B7B0)
 
-inline static constexpr unsigned int GAIHABLAJIO___c_TypeDefinitionIndex = 25506;
+inline static constexpr unsigned int GAIHABLAJIO___c_TypeDefinitionIndex = 25985;
 
 	class GAIHABLAJIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB2D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54760);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleSetNextScoreDelta; }
 
-#define ACBOOOPNFEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877A30)
-#define ACBOOOPNFEC_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C877A40)
+#define ACBOOOPNFEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F9150)
+#define ACBOOOPNFEC_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1D9F9160)
 
-inline static constexpr unsigned int ACBOOOPNFEC_TypeDefinitionIndex = 43125;
+inline static constexpr unsigned int ACBOOOPNFEC_TypeDefinitionIndex = 44106;
 
 	class ACBOOOPNFEC : public ::BKABEBEPPJK
 	{

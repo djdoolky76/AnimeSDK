@@ -4,18 +4,18 @@
 class PIDJBEDGBLE;
 namespace System { class Object; }
 
-#define PIDJBEDGBLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF44A20)
-#define PIDJBEDGBLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF44A60)
-#define PIDJBEDGBLE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF44A70)
+#define PIDJBEDGBLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F215780)
+#define PIDJBEDGBLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2157C0)
+#define PIDJBEDGBLE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2157D0)
 
-inline static constexpr unsigned int PIDJBEDGBLE___c_TypeDefinitionIndex = 26836;
+inline static constexpr unsigned int PIDJBEDGBLE___c_TypeDefinitionIndex = 27367;
 
 	class PIDJBEDGBLE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40EA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37D40);
 		}
 
 		static ::System::Void _cctor()

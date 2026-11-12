@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoginTokenType_TypeDefinitionIndex = 8089;
+	inline static constexpr unsigned int LoginTokenType_TypeDefinitionIndex = 8098;
 
 	enum class LoginTokenType : ::System::Int32
 	{

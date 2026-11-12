@@ -6,10 +6,10 @@ class AIMNKMEFBKE;
 class GGDIMKDOIGA;
 namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 
-#define EMNLNDAFODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C603DD0)
-#define EMNLNDAFODE_PIGGBCBMFGH_OFFSET UNITYSDK_OFFSET(0x1C603DE0)
+#define EMNLNDAFODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7854B0)
+#define EMNLNDAFODE_PIGGBCBMFGH_OFFSET UNITYSDK_OFFSET(0x1D7854C0)
 
-inline static constexpr unsigned int EMNLNDAFODE_TypeDefinitionIndex = 36424;
+inline static constexpr unsigned int EMNLNDAFODE_TypeDefinitionIndex = 37352;
 
 	class EMNLNDAFODE : public ::JNIJALGPGDD
 	{

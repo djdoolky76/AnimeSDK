@@ -9,18 +9,18 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define EHHDMKMGNPH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA50520)
-#define EHHDMKMGNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50690)
+#define EHHDMKMGNPH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC13D90)
+#define EHHDMKMGNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC13F00)
 
-inline static constexpr unsigned int EHHDMKMGNPH_TypeDefinitionIndex = 42019;
+inline static constexpr unsigned int EHHDMKMGNPH_TypeDefinitionIndex = 42994;
 
 	class EHHDMKMGNPH : public ::System::Object
 	{
 	public:
-		::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>* PJOEHACIIJO; // 0x10
-		::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::UInt32>, ::System::Action*>* IFFINOBAHLE; // 0x18
-		::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>* AOPGPJBIHPF; // 0x20
-		::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* LGPFAMLMIGD; // 0x28
+		::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::UInt32>, ::System::Action*>* IFFINOBAHLE; // 0x10
+		::RPG::PoolDictionary_2<::System::ValueTuple_2<::System::String*, ::System::Int32>, ::System::Action*>* PJOEHACIIJO; // 0x18
+		::System::Action_3<::System::String*, ::System::UInt32, ::System::Int32>* LGPFAMLMIGD; // 0x20
+		::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolHashSet_1<::MEEFEIADCOE>*>* AOPGPJBIHPF; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EHHDMKMGNPH_CTOR_OFFSET))(this);

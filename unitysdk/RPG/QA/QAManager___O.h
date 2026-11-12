@@ -9,29 +9,29 @@ namespace UnityEngine { class Application_LogCallback; }
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int QAManager___O_TypeDefinitionIndex = 51817;
+	inline static constexpr unsigned int QAManager___O_TypeDefinitionIndex = 52903;
 
 	class QAManager___O : public ::System::Object
 	{
 	public:
+		static ::RPG::Client::RspHandler** StaticGet__3____OnCmdGmTalkScNotify()
+		{
+			return (::RPG::Client::RspHandler**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x73B90);
+		}
+
 		static ::UnityEngine::Application_LogCallback** StaticGet__1____OnLogMessageReceivedThreaded()
 		{
-			return (::UnityEngine::Application_LogCallback**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5D0);
+			return (::UnityEngine::Application_LogCallback**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x73B98);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet__2____IsSendLastErrorMessageSuccess()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5D8);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x73BA0);
 		}
 
 		static ::System::Action_3<::System::String*, ::System::String*, ::System::String*>** StaticGet__0___SendMessage()
 		{
-			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5E0);
-		}
-
-		static ::RPG::Client::RspHandler** StaticGet__3____OnCmdGmTalkScNotify()
-		{
-			return (::RPG::Client::RspHandler**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x6F5E8);
+			return (::System::Action_3<::System::String*, ::System::String*, ::System::String*>**)UnitySDK::FromName("RPG.QA", "<>O")->GetStaticField(0x73BA8);
 		}
 
 	};

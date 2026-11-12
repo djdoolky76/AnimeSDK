@@ -5,23 +5,23 @@ namespace RPG::Client { class MonoEffectPluginMahJongItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CIIFBLMIPGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF7F2E0)
-#define CIIFBLMIPGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF7F310)
-#define CIIFBLMIPGP___C___CTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0xCF7F320)
+#define CIIFBLMIPGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8EE8F0)
+#define CIIFBLMIPGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD8EE920)
+#define CIIFBLMIPGP___C___CTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0xD8EE930)
 
-inline static constexpr unsigned int CIIFBLMIPGP___c_TypeDefinitionIndex = 69862;
+inline static constexpr unsigned int CIIFBLMIPGP___c_TypeDefinitionIndex = 71821;
 
 	class CIIFBLMIPGP___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::MonoEffectPluginMahJongItem*>** StaticGet___9__42_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MonoEffectPluginMahJongItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30460);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30468);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17700);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::MonoEffectPluginMahJongItem*>** StaticGet___9__42_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::MonoEffectPluginMahJongItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17708);
 		}
 
 		static ::System::Void _cctor()

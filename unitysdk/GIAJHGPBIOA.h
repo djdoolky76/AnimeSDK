@@ -3,10 +3,10 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define GIAJHGPBIOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2E1F0)
-#define GIAJHGPBIOA_NDOIBJEHDEE_OFFSET UNITYSDK_OFFSET(0x15A2E250)
+#define GIAJHGPBIOA_CTOR_OFFSET UNITYSDK_OFFSET(0x16968920)
+#define GIAJHGPBIOA_NDOIBJEHDEE_OFFSET UNITYSDK_OFFSET(0x16968980)
 
-inline static constexpr unsigned int GIAJHGPBIOA_TypeDefinitionIndex = 69416;
+inline static constexpr unsigned int GIAJHGPBIOA_TypeDefinitionIndex = 71370;
 
 	class GIAJHGPBIOA : public ::System::Exception
 	{

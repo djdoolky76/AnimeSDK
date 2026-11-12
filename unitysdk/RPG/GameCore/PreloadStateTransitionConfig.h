@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PreloadStateTransitionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PRELOADSTATETRANSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9405D0)
-#define RPG_GAMECORE_PRELOADSTATETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D940430)
+#define RPG_GAMECORE_PRELOADSTATETRANSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB59750)
+#define RPG_GAMECORE_PRELOADSTATETRANSITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB595B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadStateTransitionConfig_TypeDefinitionIndex = 16353;
+	inline static constexpr unsigned int PreloadStateTransitionConfig_TypeDefinitionIndex = 16517;
 
 	class PreloadStateTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{

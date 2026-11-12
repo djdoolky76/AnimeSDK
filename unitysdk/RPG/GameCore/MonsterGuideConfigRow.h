@@ -5,24 +5,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterGuideConfigRow; }
 
-#define RPG_GAMECORE_MONSTERGUIDECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B5B30)
-#define RPG_GAMECORE_MONSTERGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B5390)
+#define RPG_GAMECORE_MONSTERGUIDECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EACF8D0)
+#define RPG_GAMECORE_MONSTERGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EACF130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterGuideConfigRow_TypeDefinitionIndex = 14197;
+	inline static constexpr unsigned int MonsterGuideConfigRow_TypeDefinitionIndex = 14354;
 
 	class MonsterGuideConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DifficultyGuideList; // 0x10
-		::Il2CppArray<::System::UInt32>* DifficultyList; // 0x18
-		::Il2CppArray<::System::UInt32>* PhaseList; // 0x20
-		::Il2CppArray<::System::UInt32>* TagList; // 0x28
-		::Il2CppArray<::System::UInt32>* TextGuideList; // 0x30
-		::System::UInt32 MonsterID; // 0x38
-		::System::UInt32 Difficulty; // 0x3C
-		::RPG::Client::TextID BriefGuide; // 0x40
+		::Il2CppArray<::System::UInt32>* TextGuideList; // 0x10
+		::Il2CppArray<::System::UInt32>* PhaseList; // 0x18
+		::Il2CppArray<::System::UInt32>* TagList; // 0x20
+		::Il2CppArray<::System::UInt32>* DifficultyList; // 0x28
+		::Il2CppArray<::System::UInt32>* DifficultyGuideList; // 0x30
+		::RPG::Client::TextID BriefGuide; // 0x38
+		::System::UInt32 MonsterID; // 0x48
+		::System::UInt32 Difficulty; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERGUIDECONFIGROW_CTOR_OFFSET))(this);

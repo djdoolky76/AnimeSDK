@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define DPKGEGJBEFD_CTOR_OFFSET UNITYSDK_OFFSET(0x12658270)
+#define DPKGEGJBEFD_CTOR_OFFSET UNITYSDK_OFFSET(0x13447D90)
 
-inline static constexpr unsigned int DPKGEGJBEFD_TypeDefinitionIndex = 57196;
+inline static constexpr unsigned int DPKGEGJBEFD_TypeDefinitionIndex = 58423;
 
 	class DPKGEGJBEFD : public ::System::Object
 	{

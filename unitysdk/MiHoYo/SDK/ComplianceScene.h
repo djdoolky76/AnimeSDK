@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_COMPLIANCESCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC4DEB0)
+#define MIHOYO_SDK_COMPLIANCESCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD6FE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComplianceScene_TypeDefinitionIndex = 7898;
+	inline static constexpr unsigned int ComplianceScene_TypeDefinitionIndex = 7907;
 
 	class ComplianceScene : public ::System::Object
 	{

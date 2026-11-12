@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SOConfigInfo; }
 
-#define RPG_GAMECORE_SOCONFIGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6F4C0)
-#define RPG_GAMECORE_SOCONFIGINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA6F3D0)
+#define RPG_GAMECORE_SOCONFIGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC81D40)
+#define RPG_GAMECORE_SOCONFIGINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC81C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SOConfigInfo_TypeDefinitionIndex = 17233;
+	inline static constexpr unsigned int SOConfigInfo_TypeDefinitionIndex = 17401;
 
 	class SOConfigInfo : public ::RPG::GameCore::JsonConfig
 	{

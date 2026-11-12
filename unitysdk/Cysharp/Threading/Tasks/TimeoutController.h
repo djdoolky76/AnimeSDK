@@ -10,33 +10,34 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Threading { class CancellationTokenSource; }
 
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CANCELCANCELLATIONTOKENSOURCESTATE_OFFSET UNITYSDK_OFFSET(0x1F1260E0)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F126870)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F126190)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F126130)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F126790)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_ISTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1F126750)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_RESET_OFFSET UNITYSDK_OFFSET(0x1F126780)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_TIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x1F126320)
-#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_TIMEOUT_OFFSET UNITYSDK_OFFSET(0x1F1262F0)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CANCELCANCELLATIONTOKENSOURCESTATE_OFFSET UNITYSDK_OFFSET(0x203D71E0)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x203D7960)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x203D7280)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x203D7230)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x203D7880)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_ISTIMEOUT_OFFSET UNITYSDK_OFFSET(0x203D7840)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_RESET_OFFSET UNITYSDK_OFFSET(0x203D7870)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_TIMEOUT_1_OFFSET UNITYSDK_OFFSET(0x203D7410)
+#define CYSHARP_THREADING_TASKS_TIMEOUTCONTROLLER_TIMEOUT_OFFSET UNITYSDK_OFFSET(0x203D73E0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int TimeoutController_TypeDefinitionIndex = 38223;
+	inline static constexpr unsigned int TimeoutController_TypeDefinitionIndex = 39152;
 
 	class TimeoutController : public ::System::Object
 	{
 	public:
-		::System::Threading::CancellationTokenSource* originalLinkCancellationTokenSource; // 0x10
-		::System::Threading::CancellationTokenSource* timeoutSource; // 0x18
-		::Cysharp::Threading::Tasks::PlayerLoopTimer* timer; // 0x20
-		::System::Threading::CancellationTokenSource* linkedSource; // 0x28
-		::Cysharp::Threading::Tasks::PlayerLoopTiming delayTiming; // 0x30
-		::Cysharp::Threading::Tasks::DelayType delayType; // 0x34
-		::System::Boolean isDisposed; // 0x38
+		::System::Threading::CancellationTokenSource* timeoutSource; // 0x10
+		::System::Threading::CancellationTokenSource* originalLinkCancellationTokenSource; // 0x18
+		::System::Threading::CancellationTokenSource* linkedSource; // 0x20
+		::Cysharp::Threading::Tasks::PlayerLoopTimer* timer; // 0x28
+		::System::Boolean isDisposed; // 0x30
+		::System::Byte _padding0[0x3];
+		::Cysharp::Threading::Tasks::PlayerLoopTiming delayTiming; // 0x34
+		::Cysharp::Threading::Tasks::DelayType delayType; // 0x38
 		static ::System::Action_1<::System::Object*>** StaticGet_CancelCancellationTokenSourceStateDelegate()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TimeoutController")->GetStaticField(0x40840);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "TimeoutController")->GetStaticField(0x37BD0);
 		}
 
 		::System::Void _ctor(::Cysharp::Threading::Tasks::DelayType a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2)

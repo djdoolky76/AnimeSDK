@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int APOCENIBKNN_TypeDefinitionIndex = 49999;
+inline static constexpr unsigned int APOCENIBKNN_TypeDefinitionIndex = 51047;
 
 	class APOCENIBKNN : public ::System::Object
 	{

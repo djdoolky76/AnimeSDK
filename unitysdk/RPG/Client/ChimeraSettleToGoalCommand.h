@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ChimeraSettleCommandBase.h"
 
-#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xCB592A0)
-#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xCB5C590)
+#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xD4BD5A0)
+#define RPG_CLIENT_CHIMERASETTLETOGOALCOMMAND__EXECUTEIMPL_OFFSET UNITYSDK_OFFSET(0xD4C08A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraSettleToGoalCommand_TypeDefinitionIndex = 63464;
+	inline static constexpr unsigned int ChimeraSettleToGoalCommand_TypeDefinitionIndex = 64902;
 
 	class ChimeraSettleToGoalCommand : public ::RPG::Client::ChimeraSettleCommandBase
 	{

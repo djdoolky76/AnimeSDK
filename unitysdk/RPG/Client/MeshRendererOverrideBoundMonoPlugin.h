@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD695B40)
-#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD695AF0)
+#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE124630)
+#define RPG_CLIENT_MESHRENDEREROVERRIDEBOUNDMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE1245E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MeshRendererOverrideBoundMonoPlugin_TypeDefinitionIndex = 70678;
+	inline static constexpr unsigned int MeshRendererOverrideBoundMonoPlugin_TypeDefinitionIndex = 72655;
 
 	class MeshRendererOverrideBoundMonoPlugin
 	{

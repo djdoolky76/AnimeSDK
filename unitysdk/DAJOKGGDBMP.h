@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define DAJOKGGDBMP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC5050)
+#define DAJOKGGDBMP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9286E0)
 
-inline static constexpr unsigned int DAJOKGGDBMP_TypeDefinitionIndex = 61144;
+inline static constexpr unsigned int DAJOKGGDBMP_TypeDefinitionIndex = 62529;
 
 	class DAJOKGGDBMP : public ::System::Exception
 	{

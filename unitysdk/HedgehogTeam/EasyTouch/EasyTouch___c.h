@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16748160)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16748190)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__ISSCREENPOSITIONOVERUI_B__261_0_OFFSET UNITYSDK_OFFSET(0x16748200)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__START_B__227_0_OFFSET UNITYSDK_OFFSET(0x167481A0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1758C350)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1758C380)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__ISSCREENPOSITIONOVERUI_B__261_0_OFFSET UNITYSDK_OFFSET(0x1758C3F0)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCH___C__START_B__227_0_OFFSET UNITYSDK_OFFSET(0x1758C390)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouch___c_TypeDefinitionIndex = 40334;
+	inline static constexpr unsigned int EasyTouch___c_TypeDefinitionIndex = 41309;
 
 	class EasyTouch___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::HedgehogTeam::EasyTouch::ECamera*>** StaticGet___9__227_0()
 		{
-			return (::System::Predicate_1<::HedgehogTeam::EasyTouch::ECamera*>**)UnitySDK::FromName("HedgehogTeam.EasyTouch", "<>c")->GetStaticField(0x58F50);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("HedgehogTeam.EasyTouch", "<>c")->GetStaticField(0x58F58);
+			return (::System::Predicate_1<::HedgehogTeam::EasyTouch::ECamera*>**)UnitySDK::FromName("HedgehogTeam.EasyTouch", "<>c")->GetStaticField(0x5B9F0);
 		}
 
 		static ::System::Func_2<::UnityEngine::EventSystems::RaycastResult, ::System::Boolean>** StaticGet___9__261_0()
 		{
-			return (::System::Func_2<::UnityEngine::EventSystems::RaycastResult, ::System::Boolean>**)UnitySDK::FromName("HedgehogTeam.EasyTouch", "<>c")->GetStaticField(0x58F60);
+			return (::System::Func_2<::UnityEngine::EventSystems::RaycastResult, ::System::Boolean>**)UnitySDK::FromName("HedgehogTeam.EasyTouch", "<>c")->GetStaticField(0x5B9F8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("HedgehogTeam.EasyTouch", "<>c")->GetStaticField(0x5BA00);
 		}
 
 		static ::System::Void _cctor()

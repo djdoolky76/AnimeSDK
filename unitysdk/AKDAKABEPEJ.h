@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvModifierOverrideFeatureFlagParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AKDAKABEPEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCC4F0)
-#define AKDAKABEPEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CCC520)
+#define AKDAKABEPEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12DB2F40)
+#define AKDAKABEPEJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DB2F70)
 
-inline static constexpr unsigned int AKDAKABEPEJ_TypeDefinitionIndex = 52399;
+inline static constexpr unsigned int AKDAKABEPEJ_TypeDefinitionIndex = 53505;
 
 	class AKDAKABEPEJ
 	{

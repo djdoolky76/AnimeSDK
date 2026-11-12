@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_UIELEMENTS_POINTEROVEREVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C00D0)
+#define UNITYENGINE_UIELEMENTS_POINTEROVEREVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x2076FF50)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int PointerOverEvent_TypeDefinitionIndex = 5987;
+	inline static constexpr unsigned int PointerOverEvent_TypeDefinitionIndex = 5995;
 
 	class PointerOverEvent
 	{

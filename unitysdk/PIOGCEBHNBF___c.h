@@ -4,18 +4,18 @@
 class PIOGCEBHNBF;
 namespace System { class Object; }
 
-#define PIOGCEBHNBF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF720A0)
-#define PIOGCEBHNBF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF720D0)
-#define PIOGCEBHNBF___C___CCTOR_B__103_0_OFFSET UNITYSDK_OFFSET(0x1DF720E0)
+#define PIOGCEBHNBF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2238F0)
+#define PIOGCEBHNBF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F223920)
+#define PIOGCEBHNBF___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1F223930)
 
-inline static constexpr unsigned int PIOGCEBHNBF___c_TypeDefinitionIndex = 25399;
+inline static constexpr unsigned int PIOGCEBHNBF___c_TypeDefinitionIndex = 25876;
 
 	class PIOGCEBHNBF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45650);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x397F0);
 		}
 
 		static ::System::Void _cctor()
@@ -28,9 +28,9 @@ inline static constexpr unsigned int PIOGCEBHNBF___c_TypeDefinitionIndex = 25399
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIOGCEBHNBF___C_CTOR_OFFSET))(this);
 		}
 
-		::PIOGCEBHNBF* __cctor_b__103_0()
+		::PIOGCEBHNBF* __cctor_b__108_0()
 		{
-			return ((::PIOGCEBHNBF*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIOGCEBHNBF___C___CCTOR_B__103_0_OFFSET))(this);
+			return ((::PIOGCEBHNBF*(*)(::PVOID))((::PBYTE)hIl2Cpp + PIOGCEBHNBF___C___CCTOR_B__108_0_OFFSET))(this);
 		}
 
 	};

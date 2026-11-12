@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class HoyoTagContainer; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BLOCKSETVISIBILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D470B40)
-#define RPG_GAMECORE_BLOCKSETVISIBILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D470B50)
-#define RPG_GAMECORE_BLOCKSETVISIBILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D470B10)
+#define RPG_GAMECORE_BLOCKSETVISIBILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6805D0)
+#define RPG_GAMECORE_BLOCKSETVISIBILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6805E0)
+#define RPG_GAMECORE_BLOCKSETVISIBILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6805A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BlockSetVisibility_TypeDefinitionIndex = 21186;
+	inline static constexpr unsigned int BlockSetVisibility_TypeDefinitionIndex = 21529;
 
 	class BlockSetVisibility : public ::RPG::GameCore::TaskConfig
 	{

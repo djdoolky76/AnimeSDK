@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GroupInitMemberEntityTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHJBAJPFFPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB48CF60)
-#define BHJBAJPFFPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB48CF90)
+#define BHJBAJPFFPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB45D60)
+#define BHJBAJPFFPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB45D90)
 
-inline static constexpr unsigned int BHJBAJPFFPH_TypeDefinitionIndex = 52920;
+inline static constexpr unsigned int BHJBAJPFFPH_TypeDefinitionIndex = 54076;
 
 	class BHJBAJPFFPH
 	{

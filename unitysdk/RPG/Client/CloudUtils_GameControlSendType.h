@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CloudUtils_GameControlSendType_TypeDefinitionIndex = 59864;
+	inline static constexpr unsigned int CloudUtils_GameControlSendType_TypeDefinitionIndex = 61145;
 
 	enum class CloudUtils_GameControlSendType : ::System::Int32
 	{

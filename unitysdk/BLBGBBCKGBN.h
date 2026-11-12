@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 
-#define BLBGBBCKGBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC3E0)
+#define BLBGBBCKGBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3D100)
 
-inline static constexpr unsigned int BLBGBBCKGBN_TypeDefinitionIndex = 43310;
+inline static constexpr unsigned int BLBGBBCKGBN_TypeDefinitionIndex = 44291;
 
 	class BLBGBBCKGBN : public ::System::Object
 	{

@@ -1,13 +1,13 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/RPG/GameCore/AttackType.h"
+#include "unitysdk/RPG/GameCore/AttackTypeMask.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class DEEJKBIMHAA;
 
-#define FJLAKILIMEN_LMIEIPAKDGC_OFFSET UNITYSDK_OFFSET(0x2E77000)
-#define FJLAKILIMEN_PAKIJFOGOJF_OFFSET UNITYSDK_OFFSET(0x2E77010)
+#define FJLAKILIMEN_LMIEIPAKDGC_OFFSET UNITYSDK_OFFSET(0x304CE90)
+#define FJLAKILIMEN_PAKIJFOGOJF_OFFSET UNITYSDK_OFFSET(0x304CEA0)
 
-inline static constexpr unsigned int FJLAKILIMEN_TypeDefinitionIndex = 54418;
+inline static constexpr unsigned int FJLAKILIMEN_TypeDefinitionIndex = 55582;
 
 	struct alignas(4) FJLAKILIMEN
 	{
@@ -29,9 +29,9 @@ inline static constexpr unsigned int FJLAKILIMEN_TypeDefinitionIndex = 54418;
 		::RPG::GameCore::FixPoint IEEKAECICIF; // 0x80
 		::RPG::GameCore::FixPoint ECFJMELFHIO; // 0x88
 		::RPG::GameCore::FixPoint CILOCPLHJLK; // 0x90
-		::System::Void LMIEIPAKDGC(::RPG::GameCore::AttackType a1)
+		::System::Void LMIEIPAKDGC(::RPG::GameCore::AttackTypeMask a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackType))((::PBYTE)hIl2Cpp + FJLAKILIMEN_LMIEIPAKDGC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackTypeMask))((::PBYTE)hIl2Cpp + FJLAKILIMEN_LMIEIPAKDGC_OFFSET))(this, a1);
 		}
 
 		::RPG::GameCore::FixPoint PAKIJFOGOJF(::DEEJKBIMHAA* a1, ::System::Boolean a2, ::System::Boolean a3)

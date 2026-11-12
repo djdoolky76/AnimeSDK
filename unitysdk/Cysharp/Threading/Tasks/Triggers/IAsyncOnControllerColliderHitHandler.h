@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnControllerColliderHitHandler_TypeDefinitionIndex = 38540;
+	inline static constexpr unsigned int IAsyncOnControllerColliderHitHandler_TypeDefinitionIndex = 39469;
 
 	class IAsyncOnControllerColliderHitHandler
 	{

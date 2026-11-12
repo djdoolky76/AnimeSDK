@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int DefaultIfEmpty_1__DefaultIfEmpty_IteratingState_TypeDefinitionIndex = 45335;
+	inline static constexpr unsigned int DefaultIfEmpty_1__DefaultIfEmpty_IteratingState_TypeDefinitionIndex = 46364;
 
 	enum class DefaultIfEmpty_1__DefaultIfEmpty_IteratingState : ::System::Byte
 	{

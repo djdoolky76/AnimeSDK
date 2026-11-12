@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_VECTOR3_COMPUTE_OFFSET UNITYSDK_OFFSET(0x166B1440)
-#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_VECTOR3_CTOR_OFFSET UNITYSDK_OFFSET(0x166B13F0)
+#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_VECTOR3_COMPUTE_OFFSET UNITYSDK_OFFSET(0x174F5AF0)
+#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_VECTOR3_CTOR_OFFSET UNITYSDK_OFFSET(0x174F5AA0)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int GaussianWindow1D_Vector3_TypeDefinitionIndex = 39889;
+	inline static constexpr unsigned int GaussianWindow1D_Vector3_TypeDefinitionIndex = 40818;
 
 	class GaussianWindow1D_Vector3
 	{

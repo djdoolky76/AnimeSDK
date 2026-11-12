@@ -3,9 +3,9 @@
 #include "unitysdk/RPGTools/Timeline/HeightLimitedTarget.h"
 #include "unitysdk/System/Object.h"
 
-#define FJIHIJBNAHG_CTOR_OFFSET UNITYSDK_OFFSET(0x157CF420)
+#define FJIHIJBNAHG_CTOR_OFFSET UNITYSDK_OFFSET(0x167398F0)
 
-inline static constexpr unsigned int FJIHIJBNAHG_TypeDefinitionIndex = 48429;
+inline static constexpr unsigned int FJIHIJBNAHG_TypeDefinitionIndex = 49470;
 
 	class FJIHIJBNAHG : public ::System::Object
 	{

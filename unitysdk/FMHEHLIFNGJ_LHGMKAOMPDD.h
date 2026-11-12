@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FMHEHLIFNGJ_LHGMKAOMPDD_TypeDefinitionIndex = 25771;
+inline static constexpr unsigned int FMHEHLIFNGJ_LHGMKAOMPDD_TypeDefinitionIndex = 26268;
 
 	enum class FMHEHLIFNGJ_LHGMKAOMPDD : ::System::Int32
 	{

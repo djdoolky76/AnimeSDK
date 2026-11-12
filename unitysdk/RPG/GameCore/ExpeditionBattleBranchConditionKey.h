@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleBranchConditionKey_TypeDefinitionIndex = 16195;
+	inline static constexpr unsigned int ExpeditionBattleBranchConditionKey_TypeDefinitionIndex = 16353;
 
 	enum class ExpeditionBattleBranchConditionKey : ::System::Int32
 	{

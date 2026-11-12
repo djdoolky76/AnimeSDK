@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightRole; }
 
-#define LNDMNIHCIBG_CTOR_OFFSET UNITYSDK_OFFSET(0xB7DB000)
-#define LNDMNIHCIBG_EQUALS_OFFSET UNITYSDK_OFFSET(0xB7DAEA0)
-#define LNDMNIHCIBG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB7DAF70)
+#define LNDMNIHCIBG_CTOR_OFFSET UNITYSDK_OFFSET(0xC0380F0)
+#define LNDMNIHCIBG_EQUALS_OFFSET UNITYSDK_OFFSET(0xC037F90)
+#define LNDMNIHCIBG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xC038060)
 
-inline static constexpr unsigned int LNDMNIHCIBG_TypeDefinitionIndex = 65153;
+inline static constexpr unsigned int LNDMNIHCIBG_TypeDefinitionIndex = 66849;
 
 	class LNDMNIHCIBG : public ::System::Object
 	{

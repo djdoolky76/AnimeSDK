@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskExtensions__Unwrap_d__62_1_TypeDefinitionIndex = 38428;
+	inline static constexpr unsigned int UniTaskExtensions__Unwrap_d__62_1_TypeDefinitionIndex = 39357;
 
 	template <typename T>
 	struct alignas(8) UniTaskExtensions__Unwrap_d__62_1

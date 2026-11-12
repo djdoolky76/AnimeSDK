@@ -6,31 +6,31 @@ namespace RPG::Client { class RogueTournPersonaTalentNodeData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE037B40)
-#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE037B70)
-#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xE037B80)
-#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0xE037BC0)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEAA2010)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEAA2040)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xEAA2050)
+#define RPG_CLIENT_ROGUETOURNPERSONATALENTINFO___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0xEAA2090)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaTalentInfo___c_TypeDefinitionIndex = 67762;
+	inline static constexpr unsigned int RogueTournPersonaTalentInfo___c_TypeDefinitionIndex = 69707;
 
 	class RogueTournPersonaTalentInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::RogueTournPersonaTalentNodeData*>** StaticGet___9__1_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournPersonaTalentNodeData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAD0);
+			return (::System::Comparison_1<::RPG::Client::RogueTournPersonaTalentNodeData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x729C0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::RogueTournPersonaTalentGroupData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueTournPersonaTalentGroupData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAD8);
+			return (::System::Comparison_1<::RPG::Client::RogueTournPersonaTalentGroupData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x729C8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x729D0);
 		}
 
 		static ::System::Void _cctor()

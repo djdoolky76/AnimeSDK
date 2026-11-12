@@ -5,25 +5,25 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1F54D0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1F5510)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__GETROBOTIDLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0xE1F5520)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xECA26C0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xECA2700)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSINVITEFRIENDVIEWMODEL___C__GETROBOTIDLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0xECA2710)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex = 79066;
+	inline static constexpr unsigned int TeamTowersInviteFriendViewModel___c_TypeDefinitionIndex = 81842;
 
 	class TeamTowersInviteFriendViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x12E70);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x12E78);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x201B0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x201B8);
 		}
 
 		static ::System::Void _cctor()

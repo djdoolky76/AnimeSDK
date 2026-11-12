@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MainMissionData; }
 
-#define AMCPKPPGPAG_CTOR_OFFSET UNITYSDK_OFFSET(0x155778C0)
-#define AMCPKPPGPAG_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0x155777E0)
+#define AMCPKPPGPAG_CTOR_OFFSET UNITYSDK_OFFSET(0x163E6C70)
+#define AMCPKPPGPAG_HDILBJHMBMF_OFFSET UNITYSDK_OFFSET(0x163E6B90)
 
-inline static constexpr unsigned int AMCPKPPGPAG_TypeDefinitionIndex = 66180;
+inline static constexpr unsigned int AMCPKPPGPAG_TypeDefinitionIndex = 68116;
 
 	class AMCPKPPGPAG : public ::System::Object
 	{

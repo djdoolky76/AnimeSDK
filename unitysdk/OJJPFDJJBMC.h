@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBattlePostureType; }
 
-#define OJJPFDJJBMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBEBDA00)
-#define OJJPFDJJBMC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEBDA10)
-#define OJJPFDJJBMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEBDA50)
-#define OJJPFDJJBMC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEBDB10)
-#define OJJPFDJJBMC_TICK_OFFSET UNITYSDK_OFFSET(0xBEBDB60)
+#define OJJPFDJJBMC_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B5080)
+#define OJJPFDJJBMC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7B5090)
+#define OJJPFDJJBMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7B50D0)
+#define OJJPFDJJBMC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC7B5190)
+#define OJJPFDJJBMC_TICK_OFFSET UNITYSDK_OFFSET(0xC7B51E0)
 
-inline static constexpr unsigned int OJJPFDJJBMC_TypeDefinitionIndex = 53443;
+inline static constexpr unsigned int OJJPFDJJBMC_TypeDefinitionIndex = 54605;
 
 	class OJJPFDJJBMC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerBattlePostureType* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerBattlePostureType* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerBattlePostureType* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerBattlePostureType*))((::PBYTE)hIl2Cpp + OJJPFDJJBMC_CTOR_OFFSET))(this, a1, a2);

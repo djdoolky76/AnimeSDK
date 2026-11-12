@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AdventureAudioManager; }
 
-#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS90_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5D3110)
-#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS90_0___ONOPENCHEST_B__0_OFFSET UNITYSDK_OFFSET(0xC5D5670)
+#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS90_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF2E490)
+#define RPG_CLIENT_ADVENTUREAUDIOMANAGER___C__DISPLAYCLASS90_0___ONOPENCHEST_B__0_OFFSET UNITYSDK_OFFSET(0xCF308D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureAudioManager___c__DisplayClass90_0_TypeDefinitionIndex = 60489;
+	inline static constexpr unsigned int AdventureAudioManager___c__DisplayClass90_0_TypeDefinitionIndex = 61779;
 
 	class AdventureAudioManager___c__DisplayClass90_0 : public ::System::Object
 	{

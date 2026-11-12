@@ -8,11 +8,11 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GEJDPGGKEIO_AACICDDNFHK_OFFSET UNITYSDK_OFFSET(0x159DA880)
-#define GEJDPGGKEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x159DAA40)
-#define GEJDPGGKEIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x159DA250)
+#define GEJDPGGKEIO_AACICDDNFHK_OFFSET UNITYSDK_OFFSET(0x169139C0)
+#define GEJDPGGKEIO_CTOR_OFFSET UNITYSDK_OFFSET(0x16913B80)
+#define GEJDPGGKEIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16913390)
 
-inline static constexpr unsigned int GEJDPGGKEIO_TypeDefinitionIndex = 77342;
+inline static constexpr unsigned int GEJDPGGKEIO_TypeDefinitionIndex = 79676;
 
 	class GEJDPGGKEIO : public ::System::Object
 	{

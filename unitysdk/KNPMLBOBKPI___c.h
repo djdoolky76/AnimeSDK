@@ -4,18 +4,18 @@
 class KNPMLBOBKPI;
 namespace System { class Object; }
 
-#define KNPMLBOBKPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8AA880)
-#define KNPMLBOBKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AA8C0)
-#define KNPMLBOBKPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8AA8D0)
+#define KNPMLBOBKPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBE5DE0)
+#define KNPMLBOBKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBE5E20)
+#define KNPMLBOBKPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FBE5E30)
 
-inline static constexpr unsigned int KNPMLBOBKPI___c_TypeDefinitionIndex = 33261;
+inline static constexpr unsigned int KNPMLBOBKPI___c_TypeDefinitionIndex = 34176;
 
 	class KNPMLBOBKPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B170);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DFF0);
 		}
 
 		static ::System::Void _cctor()

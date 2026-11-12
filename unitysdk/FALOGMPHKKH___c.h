@@ -6,29 +6,29 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FALOGMPHKKH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15684150)
-#define FALOGMPHKKH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15684190)
-#define FALOGMPHKKH___C__GET_ISVALID_B__5_0_OFFSET UNITYSDK_OFFSET(0x156841A0)
-#define FALOGMPHKKH___C__GET_ISVALID_B__5_1_OFFSET UNITYSDK_OFFSET(0x15684260)
+#define FALOGMPHKKH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16598430)
+#define FALOGMPHKKH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16598470)
+#define FALOGMPHKKH___C__GET_ISVALID_B__5_0_OFFSET UNITYSDK_OFFSET(0x16598480)
+#define FALOGMPHKKH___C__GET_ISVALID_B__5_1_OFFSET UNITYSDK_OFFSET(0x16598540)
 
-inline static constexpr unsigned int FALOGMPHKKH___c_TypeDefinitionIndex = 65178;
+inline static constexpr unsigned int FALOGMPHKKH___c_TypeDefinitionIndex = 66875;
 
 	class FALOGMPHKKH___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C990);
-		}
-
 		static ::System::Func_2<::RPG::Client::GridFightProjection*, ::System::Boolean>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightProjection*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C998);
+			return (::System::Func_2<::RPG::Client::GridFightProjection*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41150);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C9A0);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41158);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41160);
 		}
 
 		static ::System::Void _cctor()

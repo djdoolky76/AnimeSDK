@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define LJEFLIPKKHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E1D80)
+#define LJEFLIPKKHL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7CE80)
 
-inline static constexpr unsigned int LJEFLIPKKHL_TypeDefinitionIndex = 48315;
+inline static constexpr unsigned int LJEFLIPKKHL_TypeDefinitionIndex = 49356;
 
 	class LJEFLIPKKHL : public ::UnityEngine::Playables::PlayableBehaviour
 	{

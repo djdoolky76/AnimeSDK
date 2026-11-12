@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ExpeditionBattleBuff; }
 
-#define NEEDINKCEHF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBB5A010)
-#define NEEDINKCEHF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5A1F0)
+#define NEEDINKCEHF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC3E3800)
+#define NEEDINKCEHF_CTOR_OFFSET UNITYSDK_OFFSET(0xC3E39E0)
 
-inline static constexpr unsigned int NEEDINKCEHF_TypeDefinitionIndex = 63862;
+inline static constexpr unsigned int NEEDINKCEHF_TypeDefinitionIndex = 65304;
 
 	class NEEDINKCEHF : public ::System::Object
 	{

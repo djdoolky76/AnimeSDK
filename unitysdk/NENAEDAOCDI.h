@@ -5,49 +5,49 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define NENAEDAOCDI_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB73B40)
-#define NENAEDAOCDI_GDOHCMKJAPK_OFFSET UNITYSDK_OFFSET(0xBB73320)
-#define NENAEDAOCDI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB732A0)
-#define NENAEDAOCDI_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xBB735C0)
+#define NENAEDAOCDI_CCTOR_OFFSET UNITYSDK_OFFSET(0xC44E920)
+#define NENAEDAOCDI_GDOHCMKJAPK_OFFSET UNITYSDK_OFFSET(0xC44E150)
+#define NENAEDAOCDI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC44E0F0)
+#define NENAEDAOCDI_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xC44E3C0)
 
-inline static constexpr unsigned int NENAEDAOCDI_TypeDefinitionIndex = 73007;
+inline static constexpr unsigned int NENAEDAOCDI_TypeDefinitionIndex = 75119;
 
 	class NENAEDAOCDI : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Camera** StaticGet_IEMGKEFBPCG()
-		{
-			return (::UnityEngine::Camera**)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x2FF70);
-		}
-
 		static ::UnityEngine::Transform** StaticGet_DHJPAMNMOGO()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x2FF78);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x2BC20);
 		}
 
 		static ::UnityEngine::Transform** StaticGet_KGIJAGKPGMO()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x2FF80);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x2BC28);
+		}
+
+		static ::UnityEngine::Camera** StaticGet_IEMGKEFBPCG()
+		{
+			return (::UnityEngine::Camera**)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x2BC30);
 		}
 
 		static ::UnityEngine::Vector3* StaticGet_BKHBJLICFPM()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0xA290);
-		}
-
-		static ::System::Boolean* StaticGet_MFMCJABEDLE()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0xA29C);
-		}
-
-		static ::UnityEngine::Vector3* StaticGet_PFMBDNAPPJH()
-		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0xA2A0);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x8FF0);
 		}
 
 		static ::UnityEngine::Vector3* StaticGet_LHLFBFGOGGN()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0xA2AC);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x8FFC);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_PFMBDNAPPJH()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x9008);
+		}
+
+		static ::System::Boolean* StaticGet_MFMCJABEDLE()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "NENAEDAOCDI")->GetStaticField(0x9014);
 		}
 
 		static ::System::Void _cctor()

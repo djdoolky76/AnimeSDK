@@ -4,18 +4,18 @@
 class ACCMEOICEOD;
 namespace System { class Object; }
 
-#define ACCMEOICEOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDD85C0)
-#define ACCMEOICEOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD8600)
-#define ACCMEOICEOD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDD8610)
+#define ACCMEOICEOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFDB750)
+#define ACCMEOICEOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFDB790)
+#define ACCMEOICEOD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EFDB7A0)
 
-inline static constexpr unsigned int ACCMEOICEOD___c_TypeDefinitionIndex = 29234;
+inline static constexpr unsigned int ACCMEOICEOD___c_TypeDefinitionIndex = 29882;
 
 	class ACCMEOICEOD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B060);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35CE0);
 		}
 
 		static ::System::Void _cctor()

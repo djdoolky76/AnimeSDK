@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasActiveUnitOnScepter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IPNFHPBFKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x165256B0)
-#define IPNFHPBFKPO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165256E0)
+#define IPNFHPBFKPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB85A4E0)
+#define IPNFHPBFKPO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB85A510)
 
-inline static constexpr unsigned int IPNFHPBFKPO_TypeDefinitionIndex = 54899;
+inline static constexpr unsigned int IPNFHPBFKPO_TypeDefinitionIndex = 56071;
 
 	class IPNFHPBFKPO
 	{

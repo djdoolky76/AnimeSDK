@@ -8,20 +8,20 @@ namespace RPG::GameCore { class RtBattleCharacterCameraConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JPEAMNOBMFL_CLEAR_OFFSET UNITYSDK_OFFSET(0xB2BAF70)
-#define JPEAMNOBMFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BB440)
-#define JPEAMNOBMFL_HEGNDMHLBGN_OFFSET UNITYSDK_OFFSET(0xB2BAB90)
-#define JPEAMNOBMFL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB2BABA0)
-#define JPEAMNOBMFL_MNFDNAKPDAJ_OFFSET UNITYSDK_OFFSET(0xB2BB070)
+#define JPEAMNOBMFL_CLEAR_OFFSET UNITYSDK_OFFSET(0xBAE6EF0)
+#define JPEAMNOBMFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBAE71A0)
+#define JPEAMNOBMFL_HEGNDMHLBGN_OFFSET UNITYSDK_OFFSET(0xBAE6B10)
+#define JPEAMNOBMFL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBAE6B20)
+#define JPEAMNOBMFL_MNFDNAKPDAJ_OFFSET UNITYSDK_OFFSET(0xBAE6FF0)
 
-inline static constexpr unsigned int JPEAMNOBMFL_TypeDefinitionIndex = 54324;
+inline static constexpr unsigned int JPEAMNOBMFL_TypeDefinitionIndex = 55488;
 
 	class JPEAMNOBMFL : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::RtBattleCharacterCameraConfig*>* EAOOEFNNKIO; // 0x10
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x10
 		::System::Collections::Generic::List_1<::GELIALJDFBL*>* MJHMKDBKKDL; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::Il2CppArray<::RPG::GameCore::RtBattleCharacterCameraConfig*>* EAOOEFNNKIO; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JPEAMNOBMFL_CTOR_OFFSET))(this);

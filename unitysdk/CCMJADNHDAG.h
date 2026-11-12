@@ -14,25 +14,25 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define CCMJADNHDAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC74EB20)
-#define CCMJADNHDAG_EAKBDBNBBOA_OFFSET UNITYSDK_OFFSET(0xC74EE50)
-#define CCMJADNHDAG_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC74F270)
-#define CCMJADNHDAG_KGFJEKJDIGN_OFFSET UNITYSDK_OFFSET(0xC74EBF0)
-#define CCMJADNHDAG_LIPCPKOHGDJ_OFFSET UNITYSDK_OFFSET(0xC74EF50)
-#define CCMJADNHDAG_MCGOFFADONA_OFFSET UNITYSDK_OFFSET(0xC74EFE0)
-#define CCMJADNHDAG_TICK_OFFSET UNITYSDK_OFFSET(0xC74F440)
+#define CCMJADNHDAG_CTOR_OFFSET UNITYSDK_OFFSET(0xD0B7C90)
+#define CCMJADNHDAG_EAKBDBNBBOA_OFFSET UNITYSDK_OFFSET(0xD0B7FC0)
+#define CCMJADNHDAG_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD0B83E0)
+#define CCMJADNHDAG_KGFJEKJDIGN_OFFSET UNITYSDK_OFFSET(0xD0B7D60)
+#define CCMJADNHDAG_LIPCPKOHGDJ_OFFSET UNITYSDK_OFFSET(0xD0B80C0)
+#define CCMJADNHDAG_MCGOFFADONA_OFFSET UNITYSDK_OFFSET(0xD0B8150)
+#define CCMJADNHDAG_TICK_OFFSET UNITYSDK_OFFSET(0xD0B85B0)
 
-inline static constexpr unsigned int CCMJADNHDAG_TypeDefinitionIndex = 77663;
+inline static constexpr unsigned int CCMJADNHDAG_TypeDefinitionIndex = 80398;
 
 	class CCMJADNHDAG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* CBIDHFIBBGG; // 0x10
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x18
-		::System::Collections::Generic::Queue_1<::PEBLIEJAJPK*>* LMKKGJFNMGM; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* ANIMIKECIMK; // 0x28
-		::NBFCOGKMDGA* KGEIJJIFGOI; // 0x30
-		::AFNDGNFOAKC* HFOFIODMFGB; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* ANIMIKECIMK; // 0x10
+		::NBFCOGKMDGA* KGEIJJIFGOI; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* CBIDHFIBBGG; // 0x20
+		::System::Collections::Generic::Queue_1<::PEBLIEJAJPK*>* LMKKGJFNMGM; // 0x28
+		::AFNDGNFOAKC* HFOFIODMFGB; // 0x30
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x38
 		::System::Void _ctor(::NBFCOGKMDGA* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NBFCOGKMDGA*))((::PBYTE)hIl2Cpp + CCMJADNHDAG_CTOR_OFFSET))(this, a1);

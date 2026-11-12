@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class URLConfig_URL; }
 
-#define MIHOYO_SDK_URLCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C015950)
-#define MIHOYO_SDK_URLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C015940)
-#define MIHOYO_SDK_URLCONFIG_GETURL_OFFSET UNITYSDK_OFFSET(0x1C015620)
+#define MIHOYO_SDK_URLCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D19C940)
+#define MIHOYO_SDK_URLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D19C930)
+#define MIHOYO_SDK_URLCONFIG_GETURL_OFFSET UNITYSDK_OFFSET(0x1D19C610)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int URLConfig_TypeDefinitionIndex = 8076;
+	inline static constexpr unsigned int URLConfig_TypeDefinitionIndex = 8085;
 
 	class URLConfig : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::URLConfig_URL** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::URLConfig_URL**)UnitySDK::FromName("MiHoYo.SDK", "URLConfig")->GetStaticField(0x1720);
+			return (::MiHoYo::SDK::URLConfig_URL**)UnitySDK::FromName("MiHoYo.SDK", "URLConfig")->GetStaticField(0x1430);
 		}
 
 		// static const ::System::String* AccountRSAKey; // 0x0

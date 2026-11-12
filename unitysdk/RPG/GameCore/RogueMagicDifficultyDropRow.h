@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicDifficultyDropRow; }
 
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D41B0)
-#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D4040)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1D9A0)
+#define RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC1D830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicDifficultyDropRow_TypeDefinitionIndex = 14852;
+	inline static constexpr unsigned int RogueMagicDifficultyDropRow_TypeDefinitionIndex = 15008;
 
 	class RogueMagicDifficultyDropRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 WorldLevel; // 0x10
-		::System::UInt32 MonsterEliteDropDisplayID; // 0x14
-		::System::UInt32 AreaID; // 0x18
+		::System::UInt32 MonsterEliteDropDisplayID; // 0x10
+		::System::UInt32 AreaID; // 0x14
+		::System::UInt32 WorldLevel; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICDIFFICULTYDROPROW_CTOR_OFFSET))(this);

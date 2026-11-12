@@ -6,12 +6,12 @@ namespace RPG::GameCore { class FiveDimExtraLevelGraphConfig; }
 namespace RPG::GameCore { class LevelGraphValueSource; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMEXTRALEVELGRAPHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BD8C0)
-#define RPG_GAMECORE_FIVEDIMEXTRALEVELGRAPHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BD7E0)
+#define RPG_GAMECORE_FIVEDIMEXTRALEVELGRAPHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8CA120)
+#define RPG_GAMECORE_FIVEDIMEXTRALEVELGRAPHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8CA040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimExtraLevelGraphConfig_TypeDefinitionIndex = 18515;
+	inline static constexpr unsigned int FiveDimExtraLevelGraphConfig_TypeDefinitionIndex = 18675;
 
 	class FiveDimExtraLevelGraphConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class LGFBMEACHPI;
 namespace System { class Object; }
 
-#define LGFBMEACHPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E950E40)
-#define LGFBMEACHPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E950E80)
-#define LGFBMEACHPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E950E90)
+#define LGFBMEACHPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC714D0)
+#define LGFBMEACHPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC71510)
+#define LGFBMEACHPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC71520)
 
-inline static constexpr unsigned int LGFBMEACHPI___c_TypeDefinitionIndex = 27191;
+inline static constexpr unsigned int LGFBMEACHPI___c_TypeDefinitionIndex = 27722;
 
 	class LGFBMEACHPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E880);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x322D0);
 		}
 
 		static ::System::Void _cctor()

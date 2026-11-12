@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F5C50)
-#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC7F5B10)
+#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD1566D0)
+#define RPG_CLIENT_BATCHANIMATIONLODSIZECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD156590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationLodSizeController_TypeDefinitionIndex = 69516;
+	inline static constexpr unsigned int BatchAnimationLodSizeController_TypeDefinitionIndex = 71473;
 
 	class BatchAnimationLodSizeController : public ::UnityEngine::MonoBehaviour
 	{

@@ -9,30 +9,30 @@ namespace RPG::GameCore { class LevelBeforeAddModifier; }
 namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E2030)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6E1FE0)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6E1F90)
-#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xE6E1E20)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0xF1E4120)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF1E40D0)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF1E4080)
+#define RPG_GAMECORE_LEVELBEFOREADDMODIFIER_INIT_OFFSET UNITYSDK_OFFSET(0xF1E3F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 56773;
+	inline static constexpr unsigned int LevelBeforeAddModifier_TypeDefinitionIndex = 57997;
 
 	class LevelBeforeAddModifier : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::String* AbilityName; // 0x18
-		::RPG::GameCore::GameEntity* Receiver; // 0x20
-		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x28
-		::System::String* ModifierName; // 0x30
-		::RPG::GameCore::GameEntity* Caster; // 0x38
+		::RPG::GameCore::TurnBasedModifierConfig* ModifierConfig; // 0x20
+		::RPG::GameCore::GameEntity* Receiver; // 0x28
+		::RPG::GameCore::GameEntity* Caster; // 0x30
+		::System::String* ModifierName; // 0x38
 		::CHMCAGBDPJH ChangeParams; // 0x40
-		::RPG::GameCore::FixPoint BaseChance; // 0x150
-		::System::Int32 LifeTime; // 0x158
-		::System::Boolean DisableFloatingMessage; // 0x15C
-		::System::Boolean IsSuccess; // 0x15D
+		::System::Boolean IsSuccess; // 0x158
+		::System::Boolean DisableFloatingMessage; // 0x159
 		::System::Byte _padding0[0x2];
+		::System::Int32 LifeTime; // 0x15C
 		::RPG::GameCore::FixPoint Chance; // 0x160
+		::RPG::GameCore::FixPoint BaseChance; // 0x168
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELBEFOREADDMODIFIER_CTOR_OFFSET))(this);

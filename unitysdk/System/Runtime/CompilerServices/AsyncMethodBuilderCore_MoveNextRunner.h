@@ -6,9 +6,9 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace System::Threading { class ContextCallback; }
 namespace System::Threading { class ExecutionContext; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C5DE0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C2C6AF0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x1C2C68C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D44CAE0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_INVOKEMOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D44D7F0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE_MOVENEXTRUNNER_RUN_OFFSET UNITYSDK_OFFSET(0x1D44D5C0)
 
 namespace System::Runtime::CompilerServices
 {
@@ -21,7 +21,7 @@ namespace System::Runtime::CompilerServices
 		::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine; // 0x18
 		static ::System::Threading::ContextCallback** StaticGet_s_invokeMoveNext()
 		{
-			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Runtime.CompilerServices", "MoveNextRunner")->GetStaticField(0x15930);
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Runtime.CompilerServices", "MoveNextRunner")->GetStaticField(0x19810);
 		}
 
 		::System::Void _ctor(::System::Threading::ExecutionContext* a1, ::System::Runtime::CompilerServices::IAsyncStateMachine* a2)

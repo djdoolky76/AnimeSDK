@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int IFateRinServiceProvider_TypeDefinitionIndex = 80531;
+	inline static constexpr unsigned int IFateRinServiceProvider_TypeDefinitionIndex = 83311;
 
 	class IFateRinServiceProvider
 	{

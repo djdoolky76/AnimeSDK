@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PropSmellPathComponent; }
 namespace RPG::GameCore { class SmellPathEdge; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9571A0)
-#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9571D0)
-#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D957130)
+#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6FBF0)
+#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB6FC20)
+#define RPG_GAMECORE_PROPSMELLPATHCOMPONENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6FB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSmellPathComponent_TypeDefinitionIndex = 17579;
+	inline static constexpr unsigned int PropSmellPathComponent_TypeDefinitionIndex = 17747;
 
 	class PropSmellPathComponent : public ::RPG::GameCore::PropTagComponent
 	{

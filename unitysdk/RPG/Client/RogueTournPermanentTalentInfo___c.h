@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTalentDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0131C0)
-#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE013200)
-#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__GETALLTALENTDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0xE013210)
+#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA7D600)
+#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA7D640)
+#define RPG_CLIENT_ROGUETOURNPERMANENTTALENTINFO___C__GETALLTALENTDATA_B__9_0_OFFSET UNITYSDK_OFFSET(0xEA7D650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPermanentTalentInfo___c_TypeDefinitionIndex = 67856;
+	inline static constexpr unsigned int RogueTournPermanentTalentInfo___c_TypeDefinitionIndex = 69801;
 
 	class RogueTournPermanentTalentInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RogueTalentDataItem*, ::System::UInt32>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTalentDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D4F0);
+			return (::System::Func_2<::RPG::Client::RogueTalentDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72350);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D4F8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72358);
 		}
 
 		static ::System::Void _cctor()

@@ -5,20 +5,20 @@ namespace RPG::GameCore { class RequestChangeMatchThreeBirdLocation; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define MOCBHBDGKLM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA24CC0)
-#define MOCBHBDGKLM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA24CD0)
-#define MOCBHBDGKLM_KCOJAGFHDNM_OFFSET UNITYSDK_OFFSET(0xBA25000)
-#define MOCBHBDGKLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA24E30)
-#define MOCBHBDGKLM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA24D20)
-#define MOCBHBDGKLM_TICK_OFFSET UNITYSDK_OFFSET(0xBA24DD0)
+#define MOCBHBDGKLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E3580)
+#define MOCBHBDGKLM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2E3590)
+#define MOCBHBDGKLM_KCOJAGFHDNM_OFFSET UNITYSDK_OFFSET(0xC2E38C0)
+#define MOCBHBDGKLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E36F0)
+#define MOCBHBDGKLM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2E35E0)
+#define MOCBHBDGKLM_TICK_OFFSET UNITYSDK_OFFSET(0xC2E3690)
 
-inline static constexpr unsigned int MOCBHBDGKLM_TypeDefinitionIndex = 53012;
+inline static constexpr unsigned int MOCBHBDGKLM_TypeDefinitionIndex = 54171;
 
 	class MOCBHBDGKLM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RequestChangeMatchThreeBirdLocation* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RequestChangeMatchThreeBirdLocation* OFKGLJOAMLD; // 0x20
 		::System::UInt32 NFPAFAKKALP; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RequestChangeMatchThreeBirdLocation* a2)
 		{

@@ -5,10 +5,10 @@
 namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class MonopolyRandomOptionContentData; }
 
-#define FELMMAJHJLG_CTOR_OFFSET UNITYSDK_OFFSET(0x15725460)
-#define FELMMAJHJLG_TRIGGER_OFFSET UNITYSDK_OFFSET(0x15725480)
+#define FELMMAJHJLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1663F5E0)
+#define FELMMAJHJLG_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1663F600)
 
-inline static constexpr unsigned int FELMMAJHJLG_TypeDefinitionIndex = 66288;
+inline static constexpr unsigned int FELMMAJHJLG_TypeDefinitionIndex = 68224;
 
 	class FELMMAJHJLG : public ::RPG::Client::MonopolyContentTrigger
 	{

@@ -4,22 +4,22 @@
 #include "unitysdk/System/Object.h"
 class FDPALAEIHPB;
 
-#define KCMACPFNHCJ_BHOBHFGCKGP_OFFSET UNITYSDK_OFFSET(0x1CBB0F80)
-#define KCMACPFNHCJ_CFBEABFNANP_OFFSET UNITYSDK_OFFSET(0x1CBB1130)
-#define KCMACPFNHCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0F70)
-#define KCMACPFNHCJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1CBB1340)
+#define KCMACPFNHCJ_BHOBHFGCKGP_OFFSET UNITYSDK_OFFSET(0x1DD826A0)
+#define KCMACPFNHCJ_CFBEABFNANP_OFFSET UNITYSDK_OFFSET(0x1DD82860)
+#define KCMACPFNHCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD82690)
+#define KCMACPFNHCJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1DD82A70)
 
-inline static constexpr unsigned int KCMACPFNHCJ_TypeDefinitionIndex = 42181;
+inline static constexpr unsigned int KCMACPFNHCJ_TypeDefinitionIndex = 43156;
 
 	class KCMACPFNHCJ : public ::System::Object
 	{
 	public:
 		::FDPALAEIHPB* FKINCGODJEP; // 0x10
-		::System::Single DLEJOLKKIMJ; // 0x18
+		::System::Single HABJBFDBCNK; // 0x18
 		::System::Boolean NDAODMFBEJN; // 0x1C
 		::System::Byte _padding0[0x3];
 		::RPG::Client::LittleGame::MarbleEmojiReason HBOPBCMODIE; // 0x20
-		::System::Single HABJBFDBCNK; // 0x24
+		::System::Single DLEJOLKKIMJ; // 0x24
 		::System::Int32 ADLMGLDHNOJ; // 0x28
 		::System::Void _ctor(::FDPALAEIHPB* a1)
 		{

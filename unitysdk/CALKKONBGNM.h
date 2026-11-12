@@ -6,17 +6,17 @@ class CALKKONBGNM;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define CALKKONBGNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA00070)
-#define CALKKONBGNM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA00080)
-#define CALKKONBGNM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA00040)
+#define CALKKONBGNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBCB8E0)
+#define CALKKONBGNM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBCB8F0)
+#define CALKKONBGNM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBCB8B0)
 
-inline static constexpr unsigned int CALKKONBGNM_TypeDefinitionIndex = 22448;
+inline static constexpr unsigned int CALKKONBGNM_TypeDefinitionIndex = 22857;
 
 	class CALKKONBGNM : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
-		::System::String* LLOBIMGOPOP; // 0x18
-		::System::String* LNFFCDHBNGG; // 0x20
+		::System::String* LNFFCDHBNGG; // 0x18
+		::System::String* LLOBIMGOPOP; // 0x20
 		::RPG::GameCore::STTaskExecutePhase PPOIJHJIMLL; // 0x28
 		::System::Void _ctor()
 		{

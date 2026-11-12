@@ -12,48 +12,48 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define JIBBEEAIDIC_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E748BD0)
-#define JIBBEEAIDIC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E748EA0)
-#define JIBBEEAIDIC_CILLMCNJNPH_OFFSET UNITYSDK_OFFSET(0x1E748740)
-#define JIBBEEAIDIC_CLONE_OFFSET UNITYSDK_OFFSET(0x1E7486C0)
-#define JIBBEEAIDIC_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E748620)
-#define JIBBEEAIDIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7485D0)
-#define JIBBEEAIDIC_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E748800)
-#define JIBBEEAIDIC_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E748760)
-#define JIBBEEAIDIC_FHKADBNOEKC_OFFSET UNITYSDK_OFFSET(0x1E748730)
-#define JIBBEEAIDIC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E748900)
-#define JIBBEEAIDIC_HPOKAAGFPPH_OFFSET UNITYSDK_OFFSET(0x1E748720)
-#define JIBBEEAIDIC_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E748560)
-#define JIBBEEAIDIC_LJODPEHPKEF_OFFSET UNITYSDK_OFFSET(0x1E748710)
-#define JIBBEEAIDIC_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E748DC0)
-#define JIBBEEAIDIC_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E748D60)
-#define JIBBEEAIDIC_PBALFNKMMOD_OFFSET UNITYSDK_OFFSET(0x1E748750)
-#define JIBBEEAIDIC_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E7485C0)
-#define JIBBEEAIDIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E748A00)
-#define JIBBEEAIDIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E748A60)
+#define JIBBEEAIDIC_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1FA595D0)
+#define JIBBEEAIDIC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA598B0)
+#define JIBBEEAIDIC_CILLMCNJNPH_OFFSET UNITYSDK_OFFSET(0x1FA59120)
+#define JIBBEEAIDIC_CLONE_OFFSET UNITYSDK_OFFSET(0x1FA590C0)
+#define JIBBEEAIDIC_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FA59030)
+#define JIBBEEAIDIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA58FE0)
+#define JIBBEEAIDIC_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1FA59200)
+#define JIBBEEAIDIC_EQUALS_OFFSET UNITYSDK_OFFSET(0x1FA59160)
+#define JIBBEEAIDIC_FHKADBNOEKC_OFFSET UNITYSDK_OFFSET(0x1FA59110)
+#define JIBBEEAIDIC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1FA59300)
+#define JIBBEEAIDIC_HPOKAAGFPPH_OFFSET UNITYSDK_OFFSET(0x1FA59150)
+#define JIBBEEAIDIC_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1FA58F70)
+#define JIBBEEAIDIC_LJODPEHPKEF_OFFSET UNITYSDK_OFFSET(0x1FA59140)
+#define JIBBEEAIDIC_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1FA597D0)
+#define JIBBEEAIDIC_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1FA59770)
+#define JIBBEEAIDIC_PBALFNKMMOD_OFFSET UNITYSDK_OFFSET(0x1FA59130)
+#define JIBBEEAIDIC_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1FA58FD0)
+#define JIBBEEAIDIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FA59400)
+#define JIBBEEAIDIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1FA59460)
 
-inline static constexpr unsigned int JIBBEEAIDIC_TypeDefinitionIndex = 32680;
+inline static constexpr unsigned int JIBBEEAIDIC_TypeDefinitionIndex = 33595;
 
 	class JIBBEEAIDIC : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* NHJKOKEOBCA; // 0x10
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
-		::System::UInt32 BLLKFIIICJJ; // 0x20
-		::System::UInt32 ENCJIEMOPCH; // 0x24
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_GBBDIELKEFO()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "JIBBEEAIDIC")->GetStaticField(0x63D10);
-		}
-
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* NHJKOKEOBCA; // 0x18
+		::System::UInt32 ENCJIEMOPCH; // 0x20
+		::System::UInt32 BLLKFIIICJJ; // 0x24
 		static ::Google::Protobuf::MessageParser_1<::JIBBEEAIDIC*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::JIBBEEAIDIC*>**)UnitySDK::FromName("", "JIBBEEAIDIC")->GetStaticField(0x63D18);
+			return (::Google::Protobuf::MessageParser_1<::JIBBEEAIDIC*>**)UnitySDK::FromName("", "JIBBEEAIDIC")->GetStaticField(0x4A330);
 		}
 
-		// static const ::System::Object LEABPEFKOBB; // 0x0
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_GBBDIELKEFO()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "JIBBEEAIDIC")->GetStaticField(0x4A338);
+		}
+
 		// static const ::System::Object NKOFPBKLDFP; // 0x0
 		// static const ::System::Object EOINHHPHIMJ; // 0x0
+		// static const ::System::Object LEABPEFKOBB; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_CTOR_OFFSET))(this);
@@ -84,16 +84,6 @@ inline static constexpr unsigned int JIBBEEAIDIC_TypeDefinitionIndex = 32680;
 			return ((::JIBBEEAIDIC*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 LJODPEHPKEF()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_LJODPEHPKEF_OFFSET))(this);
-		}
-
-		::System::Void HPOKAAGFPPH(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_HPOKAAGFPPH_OFFSET))(this, a1);
-		}
-
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* FHKADBNOEKC()
 		{
 			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_FHKADBNOEKC_OFFSET))(this);
@@ -107,6 +97,16 @@ inline static constexpr unsigned int JIBBEEAIDIC_TypeDefinitionIndex = 32680;
 		::System::Void PBALFNKMMOD(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_PBALFNKMMOD_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 LJODPEHPKEF()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_LJODPEHPKEF_OFFSET))(this);
+		}
+
+		::System::Void HPOKAAGFPPH(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JIBBEEAIDIC_HPOKAAGFPPH_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

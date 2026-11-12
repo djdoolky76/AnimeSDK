@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CNCFAGLOBHO_TypeDefinitionIndex = 25377;
+inline static constexpr unsigned int CNCFAGLOBHO_TypeDefinitionIndex = 25855;
 
 	enum class CNCFAGLOBHO : ::System::Int32
 	{

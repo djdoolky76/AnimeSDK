@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CFIOKBIAOEC_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F2D0)
+#define CFIOKBIAOEC_CTOR_OFFSET UNITYSDK_OFFSET(0xD5FC8D0)
 
-inline static constexpr unsigned int CFIOKBIAOEC_TypeDefinitionIndex = 59029;
+inline static constexpr unsigned int CFIOKBIAOEC_TypeDefinitionIndex = 60304;
 
 	class CFIOKBIAOEC
 	{

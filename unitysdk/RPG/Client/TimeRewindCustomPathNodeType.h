@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindCustomPathNodeType_TypeDefinitionIndex = 63763;
+	inline static constexpr unsigned int TimeRewindCustomPathNodeType_TypeDefinitionIndex = 65205;
 
 	enum class TimeRewindCustomPathNodeType : ::System::Int32
 	{

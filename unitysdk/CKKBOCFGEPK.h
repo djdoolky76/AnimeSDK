@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetDynamicValueBySkillStanceValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKKBOCFGEPK_CTOR_OFFSET UNITYSDK_OFFSET(0xD75FD40)
-#define CKKBOCFGEPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD75FD70)
+#define CKKBOCFGEPK_CTOR_OFFSET UNITYSDK_OFFSET(0xE099F90)
+#define CKKBOCFGEPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE099FC0)
 
-inline static constexpr unsigned int CKKBOCFGEPK_TypeDefinitionIndex = 55468;
+inline static constexpr unsigned int CKKBOCFGEPK_TypeDefinitionIndex = 56656;
 
 	class CKKBOCFGEPK
 	{

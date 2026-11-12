@@ -4,10 +4,10 @@
 class DHHHCEJHLBO;
 class JIAHLILDDPL;
 
-#define DHHHCEJHLBO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBDB050)
-#define DHHHCEJHLBO___C__DISPLAYCLASS9_0___INITHUDITEM_B__0_OFFSET UNITYSDK_OFFSET(0xEBDC6C0)
+#define DHHHCEJHLBO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF94CC20)
+#define DHHHCEJHLBO___C__DISPLAYCLASS9_0___INITHUDITEM_B__0_OFFSET UNITYSDK_OFFSET(0xF94E260)
 
-inline static constexpr unsigned int DHHHCEJHLBO___c__DisplayClass9_0_TypeDefinitionIndex = 71562;
+inline static constexpr unsigned int DHHHCEJHLBO___c__DisplayClass9_0_TypeDefinitionIndex = 73546;
 
 	class DHHHCEJHLBO___c__DisplayClass9_0 : public ::System::Object
 	{

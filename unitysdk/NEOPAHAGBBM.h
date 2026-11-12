@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByRandomChanceClientOnly; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEOPAHAGBBM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB751B0)
-#define NEOPAHAGBBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB751E0)
+#define NEOPAHAGBBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC44FFA0)
+#define NEOPAHAGBBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC44FFD0)
 
-inline static constexpr unsigned int NEOPAHAGBBM_TypeDefinitionIndex = 54710;
+inline static constexpr unsigned int NEOPAHAGBBM_TypeDefinitionIndex = 55877;
 
 	class NEOPAHAGBBM
 	{

@@ -6,16 +6,16 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MJCABDDEGOE_ECLGEDENJDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB9684D0)
+#define MJCABDDEGOE_ECLGEDENJDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC21E360)
 
-inline static constexpr unsigned int MJCABDDEGOE_ECLGEDENJDJ_TypeDefinitionIndex = 62358;
+inline static constexpr unsigned int MJCABDDEGOE_ECLGEDENJDJ_TypeDefinitionIndex = 63771;
 
 	class MJCABDDEGOE_ECLGEDENJDJ : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* PKIJJKHMPDO; // 0x10
-		::MJCABDDEGOE_MeasureAction ENGGCENAFPM; // 0x18
-		::System::Single JBCFPAEELBL; // 0x1C
+		::System::Single JBCFPAEELBL; // 0x18
+		::MJCABDDEGOE_MeasureAction ENGGCENAFPM; // 0x1C
 		::OMEHCMEGIHO_FailureReason CIEDOFHGENC; // 0x20
 		::System::Void _ctor()
 		{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RemoveAdventureModifier; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D983A40)
-#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D983A50)
-#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D983A10)
+#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9BEB0)
+#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB9BEC0)
+#define RPG_GAMECORE_REMOVEADVENTUREMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9BE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveAdventureModifier_TypeDefinitionIndex = 21760;
+	inline static constexpr unsigned int RemoveAdventureModifier_TypeDefinitionIndex = 22150;
 
 	class RemoveAdventureModifier : public ::RPG::GameCore::TaskConfig
 	{

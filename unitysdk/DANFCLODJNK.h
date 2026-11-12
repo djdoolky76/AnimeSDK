@@ -7,17 +7,17 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define DANFCLODJNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCBB70)
-#define DANFCLODJNK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCCBBB0)
-#define DANFCLODJNK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCCBB10)
+#define DANFCLODJNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEEFBA0)
+#define DANFCLODJNK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEEFBE0)
+#define DANFCLODJNK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEEFB40)
 
-inline static constexpr unsigned int DANFCLODJNK_TypeDefinitionIndex = 23122;
+inline static constexpr unsigned int DANFCLODJNK_TypeDefinitionIndex = 23551;
 
 	class DANFCLODJNK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::JsonEnum*>* DCLGGMAEMAO; // 0x18
-		::System::String* CIDCEJCGOGB; // 0x20
+		::System::String* CIDCEJCGOGB; // 0x18
+		::Il2CppArray<::RPG::GameCore::JsonEnum*>* DCLGGMAEMAO; // 0x20
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::System::Void _ctor()
 		{

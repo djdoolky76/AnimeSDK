@@ -4,9 +4,9 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-#define APNHLNMDIIE_HNBIIAGFOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x15BBF700)
+#define APNHLNMDIIE_HNBIIAGFOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x16A202D0)
 
-inline static constexpr unsigned int APNHLNMDIIE_HNBIIAGFOHF_TypeDefinitionIndex = 52277;
+inline static constexpr unsigned int APNHLNMDIIE_HNBIIAGFOHF_TypeDefinitionIndex = 53383;
 
 	class APNHLNMDIIE_HNBIIAGFOHF : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournKeywordRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNKEYWORDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3D7D0)
-#define RPG_GAMECORE_ROGUETOURNKEYWORDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA3D520)
+#define RPG_GAMECORE_ROGUETOURNKEYWORDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4FA10)
+#define RPG_GAMECORE_ROGUETOURNKEYWORDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC4F760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournKeywordRow_TypeDefinitionIndex = 15011;
+	inline static constexpr unsigned int RogueTournKeywordRow_TypeDefinitionIndex = 15167;
 
 	class RogueTournKeywordRow : public ::System::Object
 	{
@@ -18,11 +18,11 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* RogueFormulaList; // 0x10
 		::Il2CppArray<::System::UInt32>* MazeBuffList; // 0x18
 		::System::String* KeywordIcon; // 0x20
-		::System::UInt32 ExtraEffect; // 0x28
+		::System::UInt32 MazeBuffID; // 0x28
 		::System::UInt32 KeywordBuffType; // 0x2C
-		::System::UInt32 KeywordID; // 0x30
-		::System::UInt32 MazeBuffID; // 0x34
-		::System::UInt32 KeywordExtraEffect; // 0x38
+		::System::UInt32 KeywordExtraEffect; // 0x30
+		::System::UInt32 ExtraEffect; // 0x34
+		::System::UInt32 KeywordID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNKEYWORDROW_CTOR_OFFSET))(this);

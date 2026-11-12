@@ -4,26 +4,26 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F147D80)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F147DC0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F147E30)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F147DD0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203F8D80)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203F8DC0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x203F8E30)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYIGNORETIMESCALEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x203F8DD0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayIgnoreTimeScalePromise___c_TypeDefinitionIndex = 38239;
+	inline static constexpr unsigned int UniTask_DelayIgnoreTimeScalePromise___c_TypeDefinitionIndex = 39168;
 
 	class UniTask_DelayIgnoreTimeScalePromise___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x465F0);
-		}
-
 		static ::System::Action_1<::System::Object*>** StaticGet___9__13_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x465F8);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A0B0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A0B8);
 		}
 
 		static ::System::Void _cctor()

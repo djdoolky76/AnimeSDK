@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB70F00)
-#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB70C30)
-#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB70D30)
-#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB70C40)
+#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF9C10)
+#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF9940)
+#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF9A40)
+#define MESSAGEPACK_FORMATTERS_DATETIMEOFFSETFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF9950)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int DateTimeOffsetFormatter_TypeDefinitionIndex = 7488;
+	inline static constexpr unsigned int DateTimeOffsetFormatter_TypeDefinitionIndex = 7499;
 
 	class DateTimeOffsetFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::DateTimeOffset>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::DateTimeOffset>**)UnitySDK::FromName("MessagePack.Formatters", "DateTimeOffsetFormatter")->GetStaticField(0x24DB0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::DateTimeOffset>**)UnitySDK::FromName("MessagePack.Formatters", "DateTimeOffsetFormatter")->GetStaticField(0x46B50);
 		}
 
 		::System::Void _ctor()

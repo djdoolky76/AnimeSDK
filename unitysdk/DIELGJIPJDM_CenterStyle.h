@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DIELGJIPJDM_CenterStyle_TypeDefinitionIndex = 71786;
+inline static constexpr unsigned int DIELGJIPJDM_CenterStyle_TypeDefinitionIndex = 73805;
 
 	enum class DIELGJIPJDM_CenterStyle : ::System::Int32
 	{

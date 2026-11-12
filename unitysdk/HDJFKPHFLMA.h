@@ -6,25 +6,24 @@ namespace RPG::GameCore { class SetLoopSceneCameraSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define HDJFKPHFLMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C383A0)
-#define HDJFKPHFLMA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C383B0)
-#define HDJFKPHFLMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C383F0)
-#define HDJFKPHFLMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C385A0)
-#define HDJFKPHFLMA_TICK_OFFSET UNITYSDK_OFFSET(0x15C385F0)
+#define HDJFKPHFLMA_CTOR_OFFSET UNITYSDK_OFFSET(0x16B7BE10)
+#define HDJFKPHFLMA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16B7BE20)
+#define HDJFKPHFLMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B7BE60)
+#define HDJFKPHFLMA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16B7C010)
+#define HDJFKPHFLMA_TICK_OFFSET UNITYSDK_OFFSET(0x16B7C060)
 
-inline static constexpr unsigned int HDJFKPHFLMA_TypeDefinitionIndex = 58556;
+inline static constexpr unsigned int HDJFKPHFLMA_TypeDefinitionIndex = 59821;
 
 	class HDJFKPHFLMA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::LoopScene* LCNCFFNCIME; // 0x18
+		::RPG::GameCore::SetLoopSceneCameraSpeed* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x28
-		::RPG::GameCore::SetLoopSceneCameraSpeed* OFKGLJOAMLD; // 0x30
-		::System::Single PGMIOKKLHIE; // 0x38
-		::System::Boolean DLNNFPKMHLO; // 0x3C
-		::System::Byte _padding0[0x3];
-		::System::Single BOBKPMMHHAM; // 0x40
+		::RPG::Client::LoopScene* LCNCFFNCIME; // 0x28
+		::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x30
+		::System::Single BOBKPMMHHAM; // 0x38
+		::System::Single PGMIOKKLHIE; // 0x3C
+		::System::Boolean DLNNFPKMHLO; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetLoopSceneCameraSpeed* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetLoopSceneCameraSpeed*))((::PBYTE)hIl2Cpp + HDJFKPHFLMA_CTOR_OFFSET))(this, a1, a2);

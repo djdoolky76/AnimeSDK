@@ -10,21 +10,21 @@ namespace RPG::Client { class ElfFarmItemHintData; }
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xCD97D20)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_2_OFFSET UNITYSDK_OFFSET(0xCD98200)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCD96D60)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD97CD0)
-#define RPG_CLIENT_ELFFARMITEMHINTDATA_GET_MERGEDRESULT_OFFSET UNITYSDK_OFFSET(0xCD986E0)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_1_OFFSET UNITYSDK_OFFSET(0xD75F230)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_2_OFFSET UNITYSDK_OFFSET(0xD75F710)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD75E270)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD75F1E0)
+#define RPG_CLIENT_ELFFARMITEMHINTDATA_GET_MERGEDRESULT_OFFSET UNITYSDK_OFFSET(0xD75FBF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfFarmItemHintData_TypeDefinitionIndex = 63682;
+	inline static constexpr unsigned int ElfFarmItemHintData_TypeDefinitionIndex = 65124;
 
 	class ElfFarmItemHintData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _MergedResult; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::ElfCellGetItemData*>* CellRewards; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::ElfCellGetItemData*>* CellRewards; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ItemDisplayData*>* _MergedResult; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ELFFARMITEMHINTDATA_CTOR_OFFSET))(this);

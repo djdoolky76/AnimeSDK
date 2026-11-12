@@ -4,7 +4,7 @@
 #include "unitysdk/System/Xml/Schema/XmlSchemaContentType.h"
 namespace System::Xml::Schema { class SymbolsDictionary; }
 
-#define SYSTEM_XML_SCHEMA_DFACONTENTVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBE6E0)
+#define SYSTEM_XML_SCHEMA_DFACONTENTVALIDATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x2016DE50)
 
 namespace System::Xml::Schema
 {

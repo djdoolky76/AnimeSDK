@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NGALEEPIHJP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA0FD0)
+#define NGALEEPIHJP_CTOR_OFFSET UNITYSDK_OFFSET(0xC47BF80)
 
-inline static constexpr unsigned int NGALEEPIHJP_TypeDefinitionIndex = 81013;
+inline static constexpr unsigned int NGALEEPIHJP_TypeDefinitionIndex = 83793;
 
 	class NGALEEPIHJP : public ::System::Object
 	{

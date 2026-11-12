@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKProtocolWithJoypad_ProtocolDialogWithJoypadElements_TypeDefinitionIndex = 46767;
+	inline static constexpr unsigned int HoYoSDKProtocolWithJoypad_ProtocolDialogWithJoypadElements_TypeDefinitionIndex = 47795;
 
 	class HoYoSDKProtocolWithJoypad_ProtocolDialogWithJoypadElements : public ::System::Object
 	{

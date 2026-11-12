@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadStateTransitionType_TypeDefinitionIndex = 16352;
+	inline static constexpr unsigned int PreloadStateTransitionType_TypeDefinitionIndex = 16516;
 
 	enum class PreloadStateTransitionType : ::System::Int32
 	{

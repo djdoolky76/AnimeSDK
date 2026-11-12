@@ -3,11 +3,11 @@
 #include "unitysdk/CarControl.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB72920)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD4D6C80)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarControl_TypeDefinitionIndex = 82223;
+	inline static constexpr unsigned int MonoCityCarControl_TypeDefinitionIndex = 85096;
 
 	class MonoCityCarControl : public ::CarControl
 	{

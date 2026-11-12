@@ -3,12 +3,12 @@
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_FIRENOTIFYBEHAVIOR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE8FAA10)
-#define RPGTOOLS_TIMELINE_FIRENOTIFYBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8FAAB0)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYBEHAVIOR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xF3D61C0)
+#define RPGTOOLS_TIMELINE_FIRENOTIFYBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xF3D6260)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int FireNotifyBehavior_TypeDefinitionIndex = 48401;
+	inline static constexpr unsigned int FireNotifyBehavior_TypeDefinitionIndex = 49442;
 
 	class FireNotifyBehavior : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

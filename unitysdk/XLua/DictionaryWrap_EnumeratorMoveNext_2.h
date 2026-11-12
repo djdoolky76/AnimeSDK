@@ -4,7 +4,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int DictionaryWrap_EnumeratorMoveNext_2_TypeDefinitionIndex = 50221;
+	inline static constexpr unsigned int DictionaryWrap_EnumeratorMoveNext_2_TypeDefinitionIndex = 51272;
 
 	template <typename T1, typename T2>
 	class DictionaryWrap_EnumeratorMoveNext_2 : public ::XLua::OverloadMethodWrap

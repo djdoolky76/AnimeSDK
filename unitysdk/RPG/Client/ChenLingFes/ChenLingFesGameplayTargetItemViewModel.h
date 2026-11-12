@@ -5,29 +5,29 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayStarViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCAAD6D0)
-#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0xCAAD7F0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD410FE0)
+#define RPG_CLIENT_CHENLINGFES_CHENLINGFESGAMEPLAYTARGETITEMVIEWMODEL__INITSTARVMS_OFFSET UNITYSDK_OFFSET(0xD411100)
 
 namespace RPG::Client::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 81390;
+	inline static constexpr unsigned int ChenLingFesGameplayTargetItemViewModel_TypeDefinitionIndex = 84170;
 
 	class ChenLingFesGameplayTargetItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::ChenLingFes::ChenLingFesGameplayStarViewModel*>* StarVMs; // 0x20
 		::System::String* TitleStr; // 0x28
-		::System::Boolean IsEndlessModeForBoss; // 0x30
+		::System::Int32 RequiredStarCount; // 0x30
+		::System::Int32 Star; // 0x34
+		::System::Int32 WeekIndex; // 0x38
+		::System::Boolean IsEndlessMode; // 0x3C
+		::System::Boolean IsEndlessModeForBoss; // 0x3D
+		::System::Boolean IsFinished; // 0x3E
+		::System::Boolean IsShowGlobalTarget; // 0x3F
+		::System::Boolean IsCurWeek; // 0x40
 		::System::Byte _padding0[0x3];
-		::System::Int32 WeekIndex; // 0x34
-		::System::Boolean IsShowGlobalTarget; // 0x38
-		::System::Boolean IsEndlessMode; // 0x39
-		::System::Boolean IsFinished; // 0x3A
-		::System::Boolean IsCurWeek; // 0x3B
-		::System::Int32 DayCount; // 0x3C
-		::System::Int32 RequiredStarCount; // 0x40
-		::System::Int32 Star; // 0x44
-		::System::Int32 TargetScore; // 0x48
+		::System::Int32 TargetScore; // 0x44
+		::System::Int32 DayCount; // 0x48
 		// static const ::System::Object MaxStarDisplayCount; // 0x0
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Int32 a5, ::System::Int32 a6, ::System::Int32 a7, ::System::Int32 a8, ::System::Boolean a9, ::System::Boolean a10, ::System::String* a11)
 		{

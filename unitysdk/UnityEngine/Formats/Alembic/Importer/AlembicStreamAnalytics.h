@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMANALYTICS_SENDANALYTICS_OFFSET UNITYSDK_OFFSET(0x1F176330)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMANALYTICS_SENDANALYTICS_OFFSET UNITYSDK_OFFSET(0x20427770)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStreamAnalytics_TypeDefinitionIndex = 45849;
+	inline static constexpr unsigned int AlembicStreamAnalytics_TypeDefinitionIndex = 46878;
 
 	class AlembicStreamAnalytics : public ::System::Object
 	{

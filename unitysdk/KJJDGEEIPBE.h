@@ -5,17 +5,17 @@ namespace RPG::GameCore { class TargetMapAllTeamMember; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KJJDGEEIPBE_CTOR_OFFSET UNITYSDK_OFFSET(0xB45A010)
-#define KJJDGEEIPBE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB45A030)
+#define KJJDGEEIPBE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF10C0)
+#define KJJDGEEIPBE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBCF10E0)
 
-inline static constexpr unsigned int KJJDGEEIPBE_TypeDefinitionIndex = 59238;
+inline static constexpr unsigned int KJJDGEEIPBE_TypeDefinitionIndex = 60515;
 
 	class KJJDGEEIPBE
 	{
 	public:
 		static ::System::Boolean* StaticGet_NKNKCFCLHGE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KJJDGEEIPBE")->GetStaticField(0x12C50);
+			return (::System::Boolean*)UnitySDK::FromName("", "KJJDGEEIPBE")->GetStaticField(0xED20);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TargetMapAllTeamMember* a1)

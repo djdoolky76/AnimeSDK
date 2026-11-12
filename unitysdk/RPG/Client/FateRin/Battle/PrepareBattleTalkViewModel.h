@@ -6,20 +6,20 @@ namespace RPG::Client::FateRin::Battle { class PrepareBattleTalkEntryViewModel; 
 namespace RPG::Client::FateRin::Battle { class PrepareBattleTalkViewModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEBYHOUGUMAPFIGHT_OFFSET UNITYSDK_OFFSET(0xCEDDE80)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEEMPTY_OFFSET UNITYSDK_OFFSET(0xCEDF2B0)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCEDF240)
-#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_GETENTRIES_OFFSET UNITYSDK_OFFSET(0xCEDF380)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEBYHOUGUMAPFIGHT_OFFSET UNITYSDK_OFFSET(0xD8A64C0)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CREATEEMPTY_OFFSET UNITYSDK_OFFSET(0xD8A7930)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD8A78C0)
+#define RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_GETENTRIES_OFFSET UNITYSDK_OFFSET(0xD8A7A00)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int PrepareBattleTalkViewModel_TypeDefinitionIndex = 80985;
+	inline static constexpr unsigned int PrepareBattleTalkViewModel_TypeDefinitionIndex = 83765;
 
 	class PrepareBattleTalkViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries_List; // 0x20
-		::Il2CppArray<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries; // 0x28
+		::Il2CppArray<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* _Entries_List; // 0x28
 		::System::Void _ctor(::Il2CppArray<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::RPG::Client::FateRin::Battle::PrepareBattleTalkEntryViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_PREPAREBATTLETALKVIEWMODEL_CTOR_OFFSET))(this, a1);

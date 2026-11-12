@@ -6,11 +6,11 @@ namespace RPG::Client { class ComposeItemCost; }
 namespace RPG::Client { class ComposeItemData; }
 namespace RPG::GameCore { class ItemConfig; }
 
-#define GIFOLHLECBI_BHENJJJJEDD_OFFSET UNITYSDK_OFFSET(0x15A36250)
-#define GIFOLHLECBI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A363C0)
-#define GIFOLHLECBI_LAIOBHPLOAL_OFFSET UNITYSDK_OFFSET(0x15A36050)
+#define GIFOLHLECBI_BHENJJJJEDD_OFFSET UNITYSDK_OFFSET(0x169709C0)
+#define GIFOLHLECBI_CTOR_OFFSET UNITYSDK_OFFSET(0x16970B30)
+#define GIFOLHLECBI_LAIOBHPLOAL_OFFSET UNITYSDK_OFFSET(0x169707C0)
 
-inline static constexpr unsigned int GIFOLHLECBI_TypeDefinitionIndex = 65705;
+inline static constexpr unsigned int GIFOLHLECBI_TypeDefinitionIndex = 67631;
 
 	class GIFOLHLECBI : public ::System::Object
 	{

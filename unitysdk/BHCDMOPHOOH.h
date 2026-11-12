@@ -4,9 +4,9 @@
 class LIGHCKCMMAD;
 class NLJMEMAMJLC;
 
-#define BHCDMOPHOOH_CHIKMEOMFBE_OFFSET UNITYSDK_OFFSET(0xB472AB0)
+#define BHCDMOPHOOH_CHIKMEOMFBE_OFFSET UNITYSDK_OFFSET(0xBB2AFB0)
 
-inline static constexpr unsigned int BHCDMOPHOOH_TypeDefinitionIndex = 61135;
+inline static constexpr unsigned int BHCDMOPHOOH_TypeDefinitionIndex = 62520;
 
 	class BHCDMOPHOOH : public ::System::Object
 	{

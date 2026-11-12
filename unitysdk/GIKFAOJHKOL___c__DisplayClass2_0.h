@@ -6,16 +6,16 @@ namespace RPG::Client { class TeamBuildSynopsis; }
 namespace RPG::Client { class TeamModule; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GIKFAOJHKOL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A40F80)
-#define GIKFAOJHKOL___C__DISPLAYCLASS2_0__SYNCTRIALBUILDTOMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x15A41080)
+#define GIKFAOJHKOL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1697BF20)
+#define GIKFAOJHKOL___C__DISPLAYCLASS2_0__SYNCTRIALBUILDTOMAINLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0x1697C020)
 
-inline static constexpr unsigned int GIKFAOJHKOL___c__DisplayClass2_0_TypeDefinitionIndex = 61896;
+inline static constexpr unsigned int GIKFAOJHKOL___c__DisplayClass2_0_TypeDefinitionIndex = 63303;
 
 	class GIKFAOJHKOL___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::TeamModule* teamModule; // 0x10
-		::RPG::Client::PlayerReturnTrialAvatarGroup* usingGroup; // 0x18
+		::RPG::Client::PlayerReturnTrialAvatarGroup* usingGroup; // 0x10
+		::RPG::Client::TeamModule* teamModule; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIKFAOJHKOL___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

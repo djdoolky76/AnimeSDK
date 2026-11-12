@@ -8,12 +8,12 @@ namespace RPG::UINavigation { class UINavigationButton; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_RESBAR_RESBARITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDEBAB10)
-#define RPG_CLIENT_RESBAR_RESBARITEMCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xDEB95D0)
+#define RPG_CLIENT_RESBAR_RESBARITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE96B4E0)
+#define RPG_CLIENT_RESBAR_RESBARITEMCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE969FA0)
 
 namespace RPG::Client::ResBar
 {
-	inline static constexpr unsigned int ResBarItemControl_TypeDefinitionIndex = 79142;
+	inline static constexpr unsigned int ResBarItemControl_TypeDefinitionIndex = 81918;
 
 	class ResBarItemControl
 	{

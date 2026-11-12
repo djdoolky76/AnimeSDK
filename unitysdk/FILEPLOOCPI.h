@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int FILEPLOOCPI_TypeDefinitionIndex = 43352;
+inline static constexpr unsigned int FILEPLOOCPI_TypeDefinitionIndex = 44333;
 
 	struct alignas(8) FILEPLOOCPI
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class PropEnableCollider; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPENABLECOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94A410)
-#define RPG_GAMECORE_PROPENABLECOLLIDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94A440)
-#define RPG_GAMECORE_PROPENABLECOLLIDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94A3C0)
+#define RPG_GAMECORE_PROPENABLECOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB635C0)
+#define RPG_GAMECORE_PROPENABLECOLLIDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB635F0)
+#define RPG_GAMECORE_PROPENABLECOLLIDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB63570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropEnableCollider_TypeDefinitionIndex = 20396;
+	inline static constexpr unsigned int PropEnableCollider_TypeDefinitionIndex = 20731;
 
 	class PropEnableCollider : public ::RPG::GameCore::TaskConfig
 	{

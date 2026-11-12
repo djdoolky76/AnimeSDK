@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MOBANEOGHIB_EatingState_TypeDefinitionIndex = 52153;
+inline static constexpr unsigned int MOBANEOGHIB_EatingState_TypeDefinitionIndex = 53258;
 
 	enum class MOBANEOGHIB_EatingState : ::System::Int32
 	{

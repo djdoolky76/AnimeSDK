@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class UIController; }
 
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0xD87B530)
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_INIT_OFFSET UNITYSDK_OFFSET(0xD87B490)
-#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD87B4E0)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0xE2CDA40)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_INIT_OFFSET UNITYSDK_OFFSET(0xE2CD9A0)
+#define RPG_CLIENT_MONOUICONTROLLERDISPLAY_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE2CD9F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIControllerDisplay_TypeDefinitionIndex = 73051;
+	inline static constexpr unsigned int MonoUIControllerDisplay_TypeDefinitionIndex = 75165;
 
 	class MonoUIControllerDisplay : public ::UnityEngine::MonoBehaviour
 	{

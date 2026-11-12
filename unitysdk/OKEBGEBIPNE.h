@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CJCHKDLALDN;
 
-#define OKEBGEBIPNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D0A90)
+#define OKEBGEBIPNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D952320)
 
-inline static constexpr unsigned int OKEBGEBIPNE_TypeDefinitionIndex = 36276;
+inline static constexpr unsigned int OKEBGEBIPNE_TypeDefinitionIndex = 37204;
 
 	class OKEBGEBIPNE : public ::System::Object
 	{

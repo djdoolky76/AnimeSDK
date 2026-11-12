@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerTeamEditUI; }
 
-#define GEAHBKJKJHA_CTOR_OFFSET UNITYSDK_OFFSET(0x159C6360)
-#define GEAHBKJKJHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159C6390)
+#define GEAHBKJKJHA_CTOR_OFFSET UNITYSDK_OFFSET(0x168FF2E0)
+#define GEAHBKJKJHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168FF310)
 
-inline static constexpr unsigned int GEAHBKJKJHA_TypeDefinitionIndex = 58801;
+inline static constexpr unsigned int GEAHBKJKJHA_TypeDefinitionIndex = 60069;
 
 	class GEAHBKJKJHA
 	{

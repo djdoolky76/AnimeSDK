@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GFMLOABEEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5DB60)
+#define GFMLOABEEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF602E0)
 
-inline static constexpr unsigned int GFMLOABEEIP_TypeDefinitionIndex = 6548;
+inline static constexpr unsigned int GFMLOABEEIP_TypeDefinitionIndex = 6555;
 
 	class GFMLOABEEIP : public ::System::Object
 	{
 	public:
 		static ::System::UInt64* StaticGet_KHDMOIOCMDP()
 		{
-			return (::System::UInt64*)UnitySDK::FromName("", "GFMLOABEEIP")->GetStaticField(0x660);
+			return (::System::UInt64*)UnitySDK::FromName("", "GFMLOABEEIP")->GetStaticField(0x690);
 		}
 
 		::System::Void _ctor()

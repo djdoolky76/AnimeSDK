@@ -5,25 +5,25 @@ namespace RPG::Client { class FateExpRewardLevelDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FATEEXPREWARDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE890A0)
-#define RPG_CLIENT_FATEEXPREWARDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE890D0)
-#define RPG_CLIENT_FATEEXPREWARDINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE890E0)
+#define RPG_CLIENT_FATEEXPREWARDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD851570)
+#define RPG_CLIENT_FATEEXPREWARDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD8515A0)
+#define RPG_CLIENT_FATEEXPREWARDINFO___C__INIT_B__1_0_OFFSET UNITYSDK_OFFSET(0xD8515B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateExpRewardInfo___c_TypeDefinitionIndex = 64015;
+	inline static constexpr unsigned int FateExpRewardInfo___c_TypeDefinitionIndex = 65460;
 
 	class FateExpRewardInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59190);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::FateExpRewardLevelDataItem*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::FateExpRewardLevelDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59198);
+			return (::System::Comparison_1<::RPG::Client::FateExpRewardLevelDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57EF0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57EF8);
 		}
 
 		static ::System::Void _cctor()

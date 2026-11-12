@@ -4,18 +4,18 @@
 class MPGLAPAHADP;
 namespace System { class Object; }
 
-#define MPGLAPAHADP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAB7E00)
-#define MPGLAPAHADP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB7E30)
-#define MPGLAPAHADP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAB7E40)
+#define MPGLAPAHADP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDF2BE0)
+#define MPGLAPAHADP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDF2C10)
+#define MPGLAPAHADP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FDF2C20)
 
-inline static constexpr unsigned int MPGLAPAHADP___c_TypeDefinitionIndex = 27675;
+inline static constexpr unsigned int MPGLAPAHADP___c_TypeDefinitionIndex = 28206;
 
 	class MPGLAPAHADP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66370);
 		}
 
 		static ::System::Void _cctor()

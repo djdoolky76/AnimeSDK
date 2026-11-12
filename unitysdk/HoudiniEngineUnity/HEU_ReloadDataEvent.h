@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B97BD50)
+#define HOUDINIENGINEUNITY_HEU_RELOADDATAEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB04C40)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_ReloadDataEvent_TypeDefinitionIndex = 40361;
+	inline static constexpr unsigned int HEU_ReloadDataEvent_TypeDefinitionIndex = 41336;
 
 	class HEU_ReloadDataEvent
 	{

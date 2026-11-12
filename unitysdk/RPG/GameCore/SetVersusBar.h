@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetVersusBar; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETVERSUSBAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC9910)
-#define RPG_GAMECORE_SETVERSUSBAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC9920)
-#define RPG_GAMECORE_SETVERSUSBAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC98E0)
+#define RPG_GAMECORE_SETVERSUSBAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECDB7A0)
+#define RPG_GAMECORE_SETVERSUSBAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECDB7B0)
+#define RPG_GAMECORE_SETVERSUSBAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECDB770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetVersusBar_TypeDefinitionIndex = 23144;
+	inline static constexpr unsigned int SetVersusBar_TypeDefinitionIndex = 23573;
 
 	class SetVersusBar : public ::RPG::GameCore::TaskConfig
 	{

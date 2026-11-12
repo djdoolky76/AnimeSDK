@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HipplenGameTriggerEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPIKNJIBLFI_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFE980)
-#define NPIKNJIBLFI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCFE9B0)
+#define NPIKNJIBLFI_CTOR_OFFSET UNITYSDK_OFFSET(0xC5EE450)
+#define NPIKNJIBLFI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC5EE480)
 
-inline static constexpr unsigned int NPIKNJIBLFI_TypeDefinitionIndex = 52274;
+inline static constexpr unsigned int NPIKNJIBLFI_TypeDefinitionIndex = 53380;
 
 	class NPIKNJIBLFI
 	{

@@ -3,10 +3,10 @@
 class GJPIDDDMDDK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOJKGEJECMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB8F70)
-#define HOJKGEJECMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DB8FA0)
+#define HOJKGEJECMI_CTOR_OFFSET UNITYSDK_OFFSET(0x16D5BF00)
+#define HOJKGEJECMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D5BF30)
 
-inline static constexpr unsigned int HOJKGEJECMI_TypeDefinitionIndex = 55128;
+inline static constexpr unsigned int HOJKGEJECMI_TypeDefinitionIndex = 56305;
 
 	class HOJKGEJECMI
 	{

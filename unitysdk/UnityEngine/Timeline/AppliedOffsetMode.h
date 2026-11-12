@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int AppliedOffsetMode_TypeDefinitionIndex = 38778;
+	inline static constexpr unsigned int AppliedOffsetMode_TypeDefinitionIndex = 39707;
 
 	enum class AppliedOffsetMode : ::System::Int32
 	{

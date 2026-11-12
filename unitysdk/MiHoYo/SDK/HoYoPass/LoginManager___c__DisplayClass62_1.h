@@ -5,19 +5,19 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS62_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE705D0)
-#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS62_1__STARTTHIRDPARTYOAUTH_B__3_OFFSET UNITYSDK_OFFSET(0x1BE70850)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS62_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFF8EC0)
+#define MIHOYO_SDK_HOYOPASS_LOGINMANAGER___C__DISPLAYCLASS62_1__STARTTHIRDPARTYOAUTH_B__3_OFFSET UNITYSDK_OFFSET(0x1CFF9140)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass62_1_TypeDefinitionIndex = 8332;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass62_1_TypeDefinitionIndex = 8341;
 
 	template <typename T>
 	class LoginManager___c__DisplayClass62_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::System::String* accessToken; // 0x18
+		::System::String* accessToken; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 		::MiHoYo::SDK::HoYoPass::HoYoPassSDK_ErrorCode retcode; // 0x20
 		::System::Void _ctor()
 		{

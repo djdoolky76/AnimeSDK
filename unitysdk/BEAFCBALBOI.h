@@ -6,10 +6,10 @@ namespace RPG::GameCore { class TargetMapDynamicEntityParam; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEAFCBALBOI_CTOR_OFFSET UNITYSDK_OFFSET(0x16308DF0)
-#define BEAFCBALBOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16308ED0)
+#define BEAFCBALBOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7BFC80)
+#define BEAFCBALBOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB7BFD60)
 
-inline static constexpr unsigned int BEAFCBALBOI_TypeDefinitionIndex = 59155;
+inline static constexpr unsigned int BEAFCBALBOI_TypeDefinitionIndex = 60431;
 
 	class BEAFCBALBOI
 	{

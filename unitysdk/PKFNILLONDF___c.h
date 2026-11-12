@@ -4,18 +4,18 @@
 class PKFNILLONDF;
 namespace System { class Object; }
 
-#define PKFNILLONDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF8A7D0)
-#define PKFNILLONDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF8A810)
-#define PKFNILLONDF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF8A820)
+#define PKFNILLONDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F23BF40)
+#define PKFNILLONDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F23BF80)
+#define PKFNILLONDF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F23BF90)
 
-inline static constexpr unsigned int PKFNILLONDF___c_TypeDefinitionIndex = 32851;
+inline static constexpr unsigned int PKFNILLONDF___c_TypeDefinitionIndex = 33766;
 
 	class PKFNILLONDF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x489E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C2A0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class RectTransform; }
 
-#define UIMOVEANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E5E20)
-#define UIMOVEANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE9E5B90)
-#define UIMOVEANIMATION_START_OFFSET UNITYSDK_OFFSET(0xE9E59D0)
+#define UIMOVEANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0xF4FBE50)
+#define UIMOVEANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF4FBBC0)
+#define UIMOVEANIMATION_START_OFFSET UNITYSDK_OFFSET(0xF4FB9E0)
 
-inline static constexpr unsigned int UIMoveAnimation_TypeDefinitionIndex = 47283;
+inline static constexpr unsigned int UIMoveAnimation_TypeDefinitionIndex = 48312;
 
 	class UIMoveAnimation : public ::UnityEngine::MonoBehaviour
 	{

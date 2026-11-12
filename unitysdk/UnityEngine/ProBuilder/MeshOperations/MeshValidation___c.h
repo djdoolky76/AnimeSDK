@@ -7,37 +7,37 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace UnityEngine::ProBuilder { class Face; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F236BE0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F236C20)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F236C30)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_1_OFFSET UNITYSDK_OFFSET(0x1F236C90)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__REMOVEUNUSEDVERTICES_B__7_0_OFFSET UNITYSDK_OFFSET(0x1F236CF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204E7F10)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204E7F50)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_0_OFFSET UNITYSDK_OFFSET(0x204E7F60)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__ENSUREFACESARECOMPOSEDOFCONTIGUOUSTRIANGLES_B__4_1_OFFSET UNITYSDK_OFFSET(0x204E7FC0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHVALIDATION___C__REMOVEUNUSEDVERTICES_B__7_0_OFFSET UNITYSDK_OFFSET(0x204E8020)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshValidation___c_TypeDefinitionIndex = 44509;
+	inline static constexpr unsigned int MeshValidation___c_TypeDefinitionIndex = 45584;
 
 	class MeshValidation___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x549C0);
-		}
-
-		static ::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__4_1()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x549C8);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x679E0);
 		}
 
 		static ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x549D0);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x679E8);
 		}
 
 		static ::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x549D8);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x679F0);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__4_1()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Triangle, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x679F8);
 		}
 
 		static ::System::Void _cctor()

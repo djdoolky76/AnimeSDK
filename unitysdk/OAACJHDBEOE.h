@@ -6,9 +6,9 @@ class HKPOAGEKMAM;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define OAACJHDBEOE_GLELOFCFBCO_OFFSET UNITYSDK_OFFSET(0x1C4C88E0)
+#define OAACJHDBEOE_GLELOFCFBCO_OFFSET UNITYSDK_OFFSET(0x1D64BDB0)
 
-inline static constexpr unsigned int OAACJHDBEOE_TypeDefinitionIndex = 41492;
+inline static constexpr unsigned int OAACJHDBEOE_TypeDefinitionIndex = 42467;
 
 	class OAACJHDBEOE : public ::System::Object
 	{

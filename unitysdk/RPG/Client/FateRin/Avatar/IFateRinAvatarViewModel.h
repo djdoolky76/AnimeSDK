@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Avatar
 {
-	inline static constexpr unsigned int IFateRinAvatarViewModel_TypeDefinitionIndex = 81229;
+	inline static constexpr unsigned int IFateRinAvatarViewModel_TypeDefinitionIndex = 84009;
 
 	class IFateRinAvatarViewModel
 	{

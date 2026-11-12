@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CJCHKDLALDN;
 
-#define MANONNCJAPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C747B70)
+#define MANONNCJAPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C94F0)
 
-inline static constexpr unsigned int MANONNCJAPN_TypeDefinitionIndex = 36203;
+inline static constexpr unsigned int MANONNCJAPN_TypeDefinitionIndex = 37131;
 
 	class MANONNCJAPN : public ::System::Object
 	{

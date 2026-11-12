@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_AttackerCompareDefender; }
 
-#define EAALPKHAKED_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DF2B0)
-#define EAALPKHAKED_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5FAA30)
+#define EAALPKHAKED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D760A30)
+#define EAALPKHAKED_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D77C0F0)
 
-inline static constexpr unsigned int EAALPKHAKED_TypeDefinitionIndex = 36316;
+inline static constexpr unsigned int EAALPKHAKED_TypeDefinitionIndex = 37244;
 
 	class EAALPKHAKED : public ::HHOHBHGLHHF
 	{

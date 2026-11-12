@@ -5,25 +5,25 @@ namespace RPG::Client { class FateTraitBuffItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATETRAITDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFE1E30)
-#define RPG_CLIENT_FATETRAITDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFE1E70)
-#define RPG_CLIENT_FATETRAITDATA___C__ISANYBUFFACTIVE_B__6_0_OFFSET UNITYSDK_OFFSET(0xCFE1E80)
+#define RPG_CLIENT_FATETRAITDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD963490)
+#define RPG_CLIENT_FATETRAITDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD9634D0)
+#define RPG_CLIENT_FATETRAITDATA___C__ISANYBUFFACTIVE_B__6_0_OFFSET UNITYSDK_OFFSET(0xD9634E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateTraitData___c_TypeDefinitionIndex = 64008;
+	inline static constexpr unsigned int FateTraitData___c_TypeDefinitionIndex = 65453;
 
 	class FateTraitData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::FateTraitBuffItem*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateTraitBuffItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5A380);
+			return (::System::Func_2<::RPG::Client::FateTraitBuffItem*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x662D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5A388);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x662D8);
 		}
 
 		static ::System::Void _cctor()

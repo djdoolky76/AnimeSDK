@@ -5,12 +5,12 @@
 namespace HoudiniEngineUnity { class HEU_DetailPrototype; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E16B0)
-#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B8E1780)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6A680)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CA6A750)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_DetailPrototype_TypeDefinitionIndex = 40774;
+	inline static constexpr unsigned int HEU_DetailPrototype_TypeDefinitionIndex = 41749;
 
 	class HEU_DetailPrototype : public ::System::Object
 	{
@@ -19,13 +19,13 @@ namespace HoudiniEngineUnity
 		::System::String* _prototypeTexture; // 0x18
 		::System::Single _noiseSpread; // 0x20
 		::System::Single _minWidth; // 0x24
-		::System::Single _minHeight; // 0x28
-		::System::Single _bendFactor; // 0x2C
-		::System::Single _maxWidth; // 0x30
-		::System::Int32 _renderMode; // 0x34
-		::System::Single _maxHeight; // 0x38
-		::UnityEngine::Color _dryColor; // 0x3C
-		::UnityEngine::Color _healthyColor; // 0x4C
+		::UnityEngine::Color _dryColor; // 0x28
+		::System::Single _bendFactor; // 0x38
+		::System::Single _maxWidth; // 0x3C
+		::System::Single _maxHeight; // 0x40
+		::UnityEngine::Color _healthyColor; // 0x44
+		::System::Single _minHeight; // 0x54
+		::System::Int32 _renderMode; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DETAILPROTOTYPE_CTOR_OFFSET))(this);

@@ -5,27 +5,27 @@ class KJMHIDMOBMB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BOBCDAJAKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE7A20)
-#define BOBCDAJAKGC_GET_BATTLEPOWER_OFFSET UNITYSDK_OFFSET(0xBDE79B0)
-#define BOBCDAJAKGC_GET_CAPTAINNUM_OFFSET UNITYSDK_OFFSET(0xBDE79C0)
-#define BOBCDAJAKGC_GET_CHAPTERINDEX_OFFSET UNITYSDK_OFFSET(0xBDE79D0)
-#define BOBCDAJAKGC_GET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE79E0)
-#define BOBCDAJAKGC_GET_METCHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0xBDE7A00)
-#define BOBCDAJAKGC_GET_TOPPARTICIPATEDAVATARS_OFFSET UNITYSDK_OFFSET(0xBDE7A10)
-#define BOBCDAJAKGC_SET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE79F0)
+#define BOBCDAJAKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC768810)
+#define BOBCDAJAKGC_GET_BATTLEPOWER_OFFSET UNITYSDK_OFFSET(0xC7687A0)
+#define BOBCDAJAKGC_GET_CAPTAINNUM_OFFSET UNITYSDK_OFFSET(0xC7687B0)
+#define BOBCDAJAKGC_GET_CHAPTERINDEX_OFFSET UNITYSDK_OFFSET(0xC7687C0)
+#define BOBCDAJAKGC_GET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0xC7687D0)
+#define BOBCDAJAKGC_GET_METCHARACTERCOUNT_OFFSET UNITYSDK_OFFSET(0xC7687F0)
+#define BOBCDAJAKGC_GET_TOPPARTICIPATEDAVATARS_OFFSET UNITYSDK_OFFSET(0xC768800)
+#define BOBCDAJAKGC_SET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0xC7687E0)
 
-inline static constexpr unsigned int BOBCDAJAKGC_TypeDefinitionIndex = 75138;
+inline static constexpr unsigned int BOBCDAJAKGC_TypeDefinitionIndex = 77465;
 
 	class BOBCDAJAKGC : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::String*>* _TopParticipatedAvatars_k__BackingField; // 0x10
-		::System::Boolean _IsFinalActFinished_k__BackingField; // 0x18
+		::System::UInt64 _BattlePower_k__BackingField; // 0x18
+		::System::Boolean _IsFinalActFinished_k__BackingField; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::UInt32 _ChapterIndex_k__BackingField; // 0x1C
-		::System::UInt64 _BattlePower_k__BackingField; // 0x20
-		::System::UInt32 _CaptainNum_k__BackingField; // 0x28
-		::System::UInt32 _MetCharacterCount_k__BackingField; // 0x2C
+		::System::UInt32 _ChapterIndex_k__BackingField; // 0x24
+		::System::UInt32 _MetCharacterCount_k__BackingField; // 0x28
+		::System::UInt32 _CaptainNum_k__BackingField; // 0x2C
 		::System::Void _ctor(::KJMHIDMOBMB* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::KJMHIDMOBMB*))((::PBYTE)hIl2Cpp + BOBCDAJAKGC_CTOR_OFFSET))(this, a1);

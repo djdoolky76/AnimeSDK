@@ -4,13 +4,13 @@
 class MADBGHENHAF;
 namespace RPG::GameCore { class LevelMinimapVolume; }
 
-#define RPG_CLIENT_MINIMAPINSPECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C6400)
-#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0xD6C63E0)
-#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0xD6C63F0)
+#define RPG_CLIENT_MINIMAPINSPECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE156160)
+#define RPG_CLIENT_MINIMAPINSPECTOR_GET_HANDLE_OFFSET UNITYSDK_OFFSET(0xE156140)
+#define RPG_CLIENT_MINIMAPINSPECTOR_SET_HANDLE_OFFSET UNITYSDK_OFFSET(0xE156150)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 68508;
+	inline static constexpr unsigned int MinimapInspector_TypeDefinitionIndex = 70456;
 
 	class MinimapInspector : public ::UnityEngine::MonoBehaviour
 	{

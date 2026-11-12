@@ -32,167 +32,167 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelDelegate_StatisticsDelegate; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelDelegate_UnregisterCallbackDelegate; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelDelegate_UserProfileDelegate; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF222D0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_GET_REGISTERINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BF1BCB0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_GET_REGISTERSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BF168C0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SET_REGISTERINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1BF22280)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SET_REGISTERSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1BF22230)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A8E90)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_GET_REGISTERINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D0A2870)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_GET_REGISTERSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1D09D480)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SET_REGISTERINVITERECEIVEDCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D0A8E40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELDELEGATE_SET_REGISTERSOCIALUPDATECALLBACK_OFFSET UNITYSDK_OFFSET(0x1D0A8DF0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelDelegate_TypeDefinitionIndex = 8541;
+	inline static constexpr unsigned int HoYoChannelDelegate_TypeDefinitionIndex = 8550;
 
 	class HoYoChannelDelegate : public ::System::Object
 	{
 	public:
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LeaderboardDelegate** StaticGet_Leaderboard()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LeaderboardDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE970);
+		}
+
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ConsumeDelegate** StaticGet_Consume()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ConsumeDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138A0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowErrorDialogDelegate** StaticGet_ShowErrorDialog()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowErrorDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138A8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowProfileCardDelegate** StaticGet_ShowProfileCard()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowProfileCardDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138B0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate** StaticGet_Checkout()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138B8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPrivilegeDelegate** StaticGet_CheckPrivilege()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138C0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate** StaticGet_Login()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138C8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_FriendListDelegate** StaticGet_FriendList()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138D0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterSocialUpdateCallbackDelegate** StaticGet__registerSocialUpdateCallback()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterSocialUpdateCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138D8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ResolvePrivilegeDelegate** StaticGet_ResolvePrivilege()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ResolvePrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138E0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_StatisticsDelegate** StaticGet_Statistics()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_StatisticsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138E8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterAuthStatusChangedCallbackDelegate** StaticGet_RegisterAuthStatusChangedCallback()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterAuthStatusChangedCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138F0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UserProfileDelegate** StaticGet_UserProfile()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UserProfileDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x138F8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPermissionDelegate** StaticGet_CheckPermission()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPermissionDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13900);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate** StaticGet_AuthToken()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13908);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate** StaticGet_RegisterGameOverlayCallback()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13910);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ProductsDelegate** StaticGet_Products()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ProductsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13918);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate** StaticGet_Query()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13920);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ConsumeDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE978);
 		}
 
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterInviteReceivedCallbackDelegate** StaticGet__registerInviteReceivedCallback()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterInviteReceivedCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13928);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterInviteReceivedCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE980);
 		}
 
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ActivityDelegate** StaticGet_Activity()
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate** StaticGet_RegisterGameOverlayCallback()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ActivityDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13930);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE988);
 		}
 
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LeaderboardDelegate** StaticGet_Leaderboard()
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate** StaticGet_Query()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LeaderboardDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13938);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate** StaticGet_UnregisterCallback()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13940);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AchievementsDelegate** StaticGet_Achievements()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AchievementsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13948);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckEntitlementsDelegate** StaticGet_CheckEntitlements()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckEntitlementsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13950);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RecentPlayersDelegate** StaticGet_RecentPlayers()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RecentPlayersDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13958);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate** StaticGet_RegisterMicroTxnCallback()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13960);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowMessageDialogDelegate** StaticGet_ShowMessageDialog()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowMessageDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13968);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE990);
 		}
 
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InviteDelegate** StaticGet_Invite()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InviteDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13970);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InviteDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE998);
 		}
 
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_BlockListDelegate** StaticGet_BlockList()
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UserProfileDelegate** StaticGet_UserProfile()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_BlockListDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13978);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UserProfileDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9A0);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_StatisticsDelegate** StaticGet_Statistics()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_StatisticsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9A8);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_FriendListDelegate** StaticGet_FriendList()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9B0);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ResolvePrivilegeDelegate** StaticGet_ResolvePrivilege()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ResolvePrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9B8);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate** StaticGet_AuthToken()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9C0);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterAuthStatusChangedCallbackDelegate** StaticGet_RegisterAuthStatusChangedCallback()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterAuthStatusChangedCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9C8);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate** StaticGet_Checkout()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9D0);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowMessageDialogDelegate** StaticGet_ShowMessageDialog()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowMessageDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9D8);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPrivilegeDelegate** StaticGet_CheckPrivilege()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9E0);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowProfileCardDelegate** StaticGet_ShowProfileCard()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowProfileCardDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9E8);
 		}
 
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InitDelegate** StaticGet_Init()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13980);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9F0);
 		}
 
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowTextEntryDelegate** StaticGet_ShowTextEntry()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowTextEntryDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0x13988);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowTextEntryDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xE9F8);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate** StaticGet_Login()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA00);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterSocialUpdateCallbackDelegate** StaticGet__registerSocialUpdateCallback()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterSocialUpdateCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA08);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ProductsDelegate** StaticGet_Products()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ProductsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA10);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckEntitlementsDelegate** StaticGet_CheckEntitlements()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckEntitlementsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA18);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ActivityDelegate** StaticGet_Activity()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ActivityDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA20);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPermissionDelegate** StaticGet_CheckPermission()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckPermissionDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA28);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate** StaticGet_RegisterMicroTxnCallback()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA30);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate** StaticGet_UnregisterCallback()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA38);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowErrorDialogDelegate** StaticGet_ShowErrorDialog()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ShowErrorDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA40);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RecentPlayersDelegate** StaticGet_RecentPlayers()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RecentPlayersDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA48);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AchievementsDelegate** StaticGet_Achievements()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AchievementsDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA50);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_BlockListDelegate** StaticGet_BlockList()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_BlockListDelegate**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "HoYoChannelDelegate")->GetStaticField(0xEA58);
 		}
 
 		::System::Void _ctor()

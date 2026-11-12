@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define APHANBEOHDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A9630)
+#define APHANBEOHDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2A2F0)
 
-inline static constexpr unsigned int APHANBEOHDA_TypeDefinitionIndex = 42345;
+inline static constexpr unsigned int APHANBEOHDA_TypeDefinitionIndex = 43320;
 
 	class APHANBEOHDA : public ::System::Object
 	{

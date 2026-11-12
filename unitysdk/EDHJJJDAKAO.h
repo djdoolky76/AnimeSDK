@@ -3,10 +3,10 @@
 class GDEDFJOIPFA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDHJJJDAKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x13315BC0)
-#define EDHJJJDAKAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13315BF0)
+#define EDHJJJDAKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x140D2810)
+#define EDHJJJDAKAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140D2840)
 
-inline static constexpr unsigned int EDHJJJDAKAO_TypeDefinitionIndex = 52849;
+inline static constexpr unsigned int EDHJJJDAKAO_TypeDefinitionIndex = 54004;
 
 	class EDHJJJDAKAO
 	{

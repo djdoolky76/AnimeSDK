@@ -12,41 +12,41 @@ namespace UnityEngine { class RPGDensityMapGrassBlockData; }
 namespace UnityEngine { class RPGPointCloudGrassBlock; }
 namespace UnityEngine { class RPGPointCloudGrassBlockData; }
 
-#define DBMBGHNGDCG_BLIFBCCOCBG_OFFSET UNITYSDK_OFFSET(0xE2303E0)
-#define DBMBGHNGDCG_CLEAR_OFFSET UNITYSDK_OFFSET(0xE2309F0)
-#define DBMBGHNGDCG_CNHNHPCLBGE_OFFSET UNITYSDK_OFFSET(0xE230870)
-#define DBMBGHNGDCG_CTOR_OFFSET UNITYSDK_OFFSET(0xE230050)
-#define DBMBGHNGDCG_DJJCENLOFNL_OFFSET UNITYSDK_OFFSET(0xE230A60)
-#define DBMBGHNGDCG_EMPOHEAAGEM_OFFSET UNITYSDK_OFFSET(0xE230430)
-#define DBMBGHNGDCG_FADMCAOKNEP_OFFSET UNITYSDK_OFFSET(0xE230B70)
-#define DBMBGHNGDCG_IGDIEBODAAH_OFFSET UNITYSDK_OFFSET(0xE230C90)
-#define DBMBGHNGDCG_KPJGDHLENIP_1_OFFSET UNITYSDK_OFFSET(0xE230350)
-#define DBMBGHNGDCG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE2302C0)
-#define DBMBGHNGDCG_LNPEPBEIABL_OFFSET UNITYSDK_OFFSET(0xE230560)
-#define DBMBGHNGDCG_OAAKNEJFBPJ_OFFSET UNITYSDK_OFFSET(0xE230040)
+#define DBMBGHNGDCG_BLIFBCCOCBG_OFFSET UNITYSDK_OFFSET(0xEB8F340)
+#define DBMBGHNGDCG_CLEAR_OFFSET UNITYSDK_OFFSET(0xEB8F950)
+#define DBMBGHNGDCG_CNHNHPCLBGE_OFFSET UNITYSDK_OFFSET(0xEB8F7D0)
+#define DBMBGHNGDCG_CTOR_OFFSET UNITYSDK_OFFSET(0xEB8EF90)
+#define DBMBGHNGDCG_DJJCENLOFNL_OFFSET UNITYSDK_OFFSET(0xEB8F9C0)
+#define DBMBGHNGDCG_EMPOHEAAGEM_OFFSET UNITYSDK_OFFSET(0xEB8F390)
+#define DBMBGHNGDCG_FADMCAOKNEP_OFFSET UNITYSDK_OFFSET(0xEB8FAD0)
+#define DBMBGHNGDCG_IGDIEBODAAH_OFFSET UNITYSDK_OFFSET(0xEB8FBF0)
+#define DBMBGHNGDCG_KPJGDHLENIP_1_OFFSET UNITYSDK_OFFSET(0xEB8F2A0)
+#define DBMBGHNGDCG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xEB8F200)
+#define DBMBGHNGDCG_LNPEPBEIABL_OFFSET UNITYSDK_OFFSET(0xEB8F4C0)
+#define DBMBGHNGDCG_OAAKNEJFBPJ_OFFSET UNITYSDK_OFFSET(0xEB8EF80)
 
-inline static constexpr unsigned int DBMBGHNGDCG_TypeDefinitionIndex = 73924;
+inline static constexpr unsigned int DBMBGHNGDCG_TypeDefinitionIndex = 76060;
 
 	class DBMBGHNGDCG : public ::System::Object
 	{
 	public:
-		::LJFHKAJPFNE* NFPCBMCGFDD; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* IGCOEIBEFDN; // 0x18
-		::UnityEngine::RPGPointCloudGrassBlock* NHOEBAPIGKM; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FDEBDPJFENF; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt32>* OECIKJPPOOO; // 0x30
+		::System::Collections::Generic::List_1<::System::String*>* FPHJGLPPBOP; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* OECIKJPPOOO; // 0x18
+		::System::Collections::Generic::List_1<::System::Single>* JEPMBKBLIFC; // 0x20
+		::UnityEngine::RPGPointCloudGrassBlockData* JBAMGBLGEBJ; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FDEBDPJFENF; // 0x30
 		::System::Collections::Generic::List_1<::System::Byte>* NCOHMMFINEA; // 0x38
-		::System::Collections::Generic::List_1<::System::UInt32>* PHIDMHJOJHE; // 0x40
-		::UnityEngine::RPGPointCloudGrassBlockData* JBAMGBLGEBJ; // 0x48
-		::System::Collections::Generic::List_1<::System::String*>* GELDIDBCHCC; // 0x50
-		::UnityEngine::RPGDensityMapGrassBlockData* CLHOBDAOMIJ; // 0x58
-		::UnityEngine::RPGDensityMapGrassBlock* IEHCJNFHECG; // 0x60
-		::System::Collections::Generic::List_1<::System::Single>* JEPMBKBLIFC; // 0x68
-		::RPG::GameCore::StageLodMapConfig* PBNONFEOHLD; // 0x70
-		::System::Collections::Generic::List_1<::System::UInt64>* GKPMBHHPEGF; // 0x78
+		::UnityEngine::RPGPointCloudGrassBlock* NHOEBAPIGKM; // 0x40
+		::System::Collections::Generic::List_1<::System::String*>* GELDIDBCHCC; // 0x48
+		::LJFHKAJPFNE* NFPCBMCGFDD; // 0x50
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* IGCOEIBEFDN; // 0x58
+		::UnityEngine::RPGDensityMapGrassBlockData* CLHOBDAOMIJ; // 0x60
+		::UnityEngine::RPGDensityMapGrassBlock* IEHCJNFHECG; // 0x68
+		::System::Collections::Generic::List_1<::System::UInt64>* GKPMBHHPEGF; // 0x70
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FPKJNLHKFKK; // 0x78
 		::RPG::GameCore::LodConfig* JBBMEJIJPBP; // 0x80
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* FPKJNLHKFKK; // 0x88
-		::System::Collections::Generic::List_1<::System::String*>* FPHJGLPPBOP; // 0x90
+		::RPG::GameCore::StageLodMapConfig* PBNONFEOHLD; // 0x88
+		::System::Collections::Generic::List_1<::System::UInt32>* PHIDMHJOJHE; // 0x90
 		::System::Byte FCFLPEKEFBD; // 0x98
 		::System::Void _ctor()
 		{

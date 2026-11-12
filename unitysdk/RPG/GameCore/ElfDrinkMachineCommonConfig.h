@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfDrinkMachineCommonConfig; }
 
-#define RPG_GAMECORE_ELFDRINKMACHINECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D635430)
-#define RPG_GAMECORE_ELFDRINKMACHINECOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D635310)
+#define RPG_GAMECORE_ELFDRINKMACHINECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E872E00)
+#define RPG_GAMECORE_ELFDRINKMACHINECOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E872CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfDrinkMachineCommonConfig_TypeDefinitionIndex = 18473;
+	inline static constexpr unsigned int ElfDrinkMachineCommonConfig_TypeDefinitionIndex = 18633;
 
 	class ElfDrinkMachineCommonConfig : public ::RPG::GameCore::JsonConfig
 	{

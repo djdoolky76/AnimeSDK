@@ -5,23 +5,23 @@ class HBFPEEPJOPK;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CFEFOGNGCMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA114D0)
-#define CFEFOGNGCMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA11510)
-#define CFEFOGNGCMH___C___STARTFINISHEDENDMATCHPROMISE_B__66_0_OFFSET UNITYSDK_OFFSET(0xCA11520)
+#define CFEFOGNGCMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD37BA60)
+#define CFEFOGNGCMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD37BAA0)
+#define CFEFOGNGCMH___C___STARTFINISHEDENDMATCHPROMISE_B__66_0_OFFSET UNITYSDK_OFFSET(0xD37BAB0)
 
-inline static constexpr unsigned int CFEFOGNGCMH___c_TypeDefinitionIndex = 81866;
+inline static constexpr unsigned int CFEFOGNGCMH___c_TypeDefinitionIndex = 84647;
 
 	class CFEFOGNGCMH___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F690);
-		}
-
 		static ::System::Action_1<::HBFPEEPJOPK*>** StaticGet___9__66_0()
 		{
-			return (::System::Action_1<::HBFPEEPJOPK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F698);
+			return (::System::Action_1<::HBFPEEPJOPK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCB80);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCB88);
 		}
 
 		static ::System::Void _cctor()

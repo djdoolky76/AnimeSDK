@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChimePuzzleLockChime; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MIFEMNGNMAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB952CA0)
-#define MIFEMNGNMAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB952CD0)
+#define MIFEMNGNMAE_CTOR_OFFSET UNITYSDK_OFFSET(0xC2075D0)
+#define MIFEMNGNMAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC207600)
 
-inline static constexpr unsigned int MIFEMNGNMAE_TypeDefinitionIndex = 58020;
+inline static constexpr unsigned int MIFEMNGNMAE_TypeDefinitionIndex = 59259;
 
 	class MIFEMNGNMAE
 	{

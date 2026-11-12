@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_ONDEMANDRENDERING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F424530)
-#define UNITYENGINE_RENDERING_ONDEMANDRENDERING_GETRENDERFRAMEINTERVAL_OFFSET UNITYSDK_OFFSET(0x1F4244E0)
-#define UNITYENGINE_RENDERING_ONDEMANDRENDERING_GET_RENDERFRAMEINTERVAL_OFFSET UNITYSDK_OFFSET(0x1F4244B0)
+#define UNITYENGINE_RENDERING_ONDEMANDRENDERING_CCTOR_OFFSET UNITYSDK_OFFSET(0x206D5100)
+#define UNITYENGINE_RENDERING_ONDEMANDRENDERING_GETRENDERFRAMEINTERVAL_OFFSET UNITYSDK_OFFSET(0x206D50B0)
+#define UNITYENGINE_RENDERING_ONDEMANDRENDERING_GET_RENDERFRAMEINTERVAL_OFFSET UNITYSDK_OFFSET(0x206D5080)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int OnDemandRendering_TypeDefinitionIndex = 4731;
+	inline static constexpr unsigned int OnDemandRendering_TypeDefinitionIndex = 4735;
 
 	class OnDemandRendering : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_m_RenderFrameInterval()
 		{
-			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "OnDemandRendering")->GetStaticField(0x4F00);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.Rendering", "OnDemandRendering")->GetStaticField(0x38A0);
 		}
 
 		static ::System::Void _cctor()

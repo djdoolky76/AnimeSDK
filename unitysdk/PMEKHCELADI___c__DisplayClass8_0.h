@@ -5,16 +5,16 @@ class PMEKHCELADI;
 namespace RPG::Client { class ActivityBenefitV2Round; }
 namespace RPG::Client { class ScheduleData; }
 
-#define PMEKHCELADI___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC318E30)
-#define PMEKHCELADI___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xC3193C0)
+#define PMEKHCELADI___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC47C60)
+#define PMEKHCELADI___C__DISPLAYCLASS8_0___ONSCHEDULECONFIGREFRESHFINISH_B__0_OFFSET UNITYSDK_OFFSET(0xCC481F0)
 
-inline static constexpr unsigned int PMEKHCELADI___c__DisplayClass8_0_TypeDefinitionIndex = 61406;
+inline static constexpr unsigned int PMEKHCELADI___c__DisplayClass8_0_TypeDefinitionIndex = 62791;
 
 	class PMEKHCELADI___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::PMEKHCELADI* __4__this; // 0x10
-		::RPG::Client::ActivityBenefitV2Round* round; // 0x18
+		::RPG::Client::ActivityBenefitV2Round* round; // 0x10
+		::PMEKHCELADI* __4__this; // 0x18
 		::System::UInt32 activityModuleID; // 0x20
 		::System::Void _ctor()
 		{

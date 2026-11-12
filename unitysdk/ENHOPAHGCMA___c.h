@@ -4,18 +4,18 @@
 class ENHOPAHGCMA;
 namespace System { class Object; }
 
-#define ENHOPAHGCMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2EFB80)
-#define ENHOPAHGCMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2EFBB0)
-#define ENHOPAHGCMA___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E2EFBC0)
+#define ENHOPAHGCMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5D4910)
+#define ENHOPAHGCMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D4940)
+#define ENHOPAHGCMA___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F5D4950)
 
-inline static constexpr unsigned int ENHOPAHGCMA___c_TypeDefinitionIndex = 34330;
+inline static constexpr unsigned int ENHOPAHGCMA___c_TypeDefinitionIndex = 35258;
 
 	class ENHOPAHGCMA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x546E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x503F0);
 		}
 
 		static ::System::Void _cctor()

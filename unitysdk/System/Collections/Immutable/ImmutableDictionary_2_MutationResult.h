@@ -5,7 +5,7 @@ namespace System::Collections::Immutable { template <typename T> class SortedInt
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableDictionary_2_MutationResult_TypeDefinitionIndex = 6628;
+	inline static constexpr unsigned int ImmutableDictionary_2_MutationResult_TypeDefinitionIndex = 6639;
 
 	template <typename T1, typename T2>
 	struct alignas(8) ImmutableDictionary_2_MutationResult

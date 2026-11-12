@@ -5,25 +5,25 @@ namespace RPG::Client { class MarbleBattleSealData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD571B90)
-#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD571BD0)
-#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER___C__GETPROPERALLYENTITYID_B__0_0_OFFSET UNITYSDK_OFFSET(0xD571BE0)
+#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFC3460)
+#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC34A0)
+#define RPG_CLIENT_MARBLEBATTLEINPUTHANDLER___C__GETPROPERALLYENTITYID_B__0_0_OFFSET UNITYSDK_OFFSET(0xDFC34B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleInputHandler___c_TypeDefinitionIndex = 65804;
+	inline static constexpr unsigned int MarbleBattleInputHandler___c_TypeDefinitionIndex = 67736;
 
 	class MarbleBattleInputHandler___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D660);
+			return (::System::Func_2<::RPG::Client::MarbleBattleSealData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59D50);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4D668);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59D58);
 		}
 
 		static ::System::Void _cctor()

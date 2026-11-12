@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ABAEBLGAEDI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C428C80)
-#define ABAEBLGAEDI_FGDKCJPMBEG_OFFSET UNITYSDK_OFFSET(0x1C428650)
-#define ABAEBLGAEDI_JCOHKDCAOLF_OFFSET UNITYSDK_OFFSET(0x1C428BA0)
-#define ABAEBLGAEDI_PDHDOHAIJKD_OFFSET UNITYSDK_OFFSET(0x1C428540)
+#define ABAEBLGAEDI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5AF470)
+#define ABAEBLGAEDI_FGDKCJPMBEG_OFFSET UNITYSDK_OFFSET(0x1D5AEE40)
+#define ABAEBLGAEDI_JCOHKDCAOLF_OFFSET UNITYSDK_OFFSET(0x1D5AF390)
+#define ABAEBLGAEDI_PDHDOHAIJKD_OFFSET UNITYSDK_OFFSET(0x1D5AED30)
 
-inline static constexpr unsigned int ABAEBLGAEDI_TypeDefinitionIndex = 41516;
+inline static constexpr unsigned int ABAEBLGAEDI_TypeDefinitionIndex = 42491;
 
 	class ABAEBLGAEDI : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::UInt32>** StaticGet_OEAPCKKBJHG()
 		{
-			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("", "ABAEBLGAEDI")->GetStaticField(0x10760);
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("", "ABAEBLGAEDI")->GetStaticField(0x6D4F0);
 		}
 
 		// static const ::System::Object MPEKOHMJBPB; // 0x0

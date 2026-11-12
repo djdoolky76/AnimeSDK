@@ -6,22 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherDivideTrainerLevelRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DCEC0)
-#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DCC40)
+#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5FCB70)
+#define RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5FC8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideTrainerLevelRow_TypeDefinitionIndex = 10912;
+	inline static constexpr unsigned int AetherDivideTrainerLevelRow_TypeDefinitionIndex = 10928;
 
 	class AetherDivideTrainerLevelRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x18
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 RareMonsterNumID; // 0x30
-		::System::UInt32 QuestID; // 0x34
-		::System::UInt32 ID; // 0x38
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 RareMonsterNumID; // 0x24
+		::System::UInt32 QuestID; // 0x28
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Name; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDETRAINERLEVELROW_CTOR_OFFSET))(this);

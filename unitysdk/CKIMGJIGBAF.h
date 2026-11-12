@@ -7,21 +7,20 @@ class JCDNAGMDELF;
 namespace RPG::GameCore { class TextJoinConfigRow; }
 namespace System { class String; }
 
-#define CKIMGJIGBAF_AGIBOFIBMNA_OFFSET UNITYSDK_OFFSET(0xD75E7F0)
-#define CKIMGJIGBAF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD75E6E0)
-#define CKIMGJIGBAF_CTOR_OFFSET UNITYSDK_OFFSET(0xD75E7E0)
-#define CKIMGJIGBAF_DKMDPLNCGLE_OFFSET UNITYSDK_OFFSET(0xD75E8B0)
-#define CKIMGJIGBAF_GKEIFKABCNN_OFFSET UNITYSDK_OFFSET(0xD75E8F0)
+#define CKIMGJIGBAF_AGIBOFIBMNA_OFFSET UNITYSDK_OFFSET(0xE098A40)
+#define CKIMGJIGBAF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE098930)
+#define CKIMGJIGBAF_CTOR_OFFSET UNITYSDK_OFFSET(0xE098A30)
+#define CKIMGJIGBAF_DKMDPLNCGLE_OFFSET UNITYSDK_OFFSET(0xE098B00)
+#define CKIMGJIGBAF_GKEIFKABCNN_OFFSET UNITYSDK_OFFSET(0xE098B40)
 
-inline static constexpr unsigned int CKIMGJIGBAF_TypeDefinitionIndex = 74385;
+inline static constexpr unsigned int CKIMGJIGBAF_TypeDefinitionIndex = 76533;
 
 	class CKIMGJIGBAF : public ::System::Object
 	{
 	public:
 		::System::String* GIFMMMMNIAL; // 0x10
-		::System::Boolean NIDCNJMNBIB; // 0x18
-		::System::Byte _padding0[0x7];
-		::RPG::Client::TextID OBBLBEDEKLO; // 0x20
+		::RPG::Client::TextID OBBLBEDEKLO; // 0x18
+		::System::Boolean NIDCNJMNBIB; // 0x28
 		::System::Void _ctor(::RPG::Client::TextID a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + CKIMGJIGBAF_CTOR_OFFSET))(this, a1);

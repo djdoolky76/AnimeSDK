@@ -4,18 +4,18 @@
 class MMEDLCAENAL;
 namespace System { class Object; }
 
-#define MMEDLCAENAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA8C3D0)
-#define MMEDLCAENAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8C410)
-#define MMEDLCAENAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA8C420)
+#define MMEDLCAENAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDC26D0)
+#define MMEDLCAENAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDC2710)
+#define MMEDLCAENAL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FDC2720)
 
-inline static constexpr unsigned int MMEDLCAENAL___c_TypeDefinitionIndex = 29375;
+inline static constexpr unsigned int MMEDLCAENAL___c_TypeDefinitionIndex = 30087;
 
 	class MMEDLCAENAL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58BA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E420);
 		}
 
 		static ::System::Void _cctor()

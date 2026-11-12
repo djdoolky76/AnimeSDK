@@ -4,12 +4,12 @@
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI { class Button; }
 
-#define RPG_CLIENT_BUTTONEXTENSIONS___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CBCC0)
-#define RPG_CLIENT_BUTTONEXTENSIONS___C__DISPLAYCLASS1_0__BINDCLICK_B__0_OFFSET UNITYSDK_OFFSET(0xC8CBCD0)
+#define RPG_CLIENT_BUTTONEXTENSIONS___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD230F80)
+#define RPG_CLIENT_BUTTONEXTENSIONS___C__DISPLAYCLASS1_0__BINDCLICK_B__0_OFFSET UNITYSDK_OFFSET(0xD230F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ButtonExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 72770;
+	inline static constexpr unsigned int ButtonExtensions___c__DisplayClass1_0_TypeDefinitionIndex = 74849;
 
 	class ButtonExtensions___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8ED950)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ED990)
-#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__GET__GETBLENDNAMES_B__5_0_OFFSET UNITYSDK_OFFSET(0xE8ED9A0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF3C7950)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF3C7990)
+#define RPGTOOLS_TIMELINE_EMOTION_EMODISCUSSIONBLENDSHAPEBEHAVIOUR___C__GET__GETBLENDNAMES_B__5_0_OFFSET UNITYSDK_OFFSET(0xF3C79A0)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex = 48756;
+	inline static constexpr unsigned int EmoDiscussionBlendShapeBehaviour___c_TypeDefinitionIndex = 49802;
 
 	class EmoDiscussionBlendShapeBehaviour___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x6FC60);
+			return (::System::Object**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x73D50);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x6FC68);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("RPGTools.Timeline.Emotion", "<>c")->GetStaticField(0x73D58);
 		}
 
 		static ::System::Void _cctor()

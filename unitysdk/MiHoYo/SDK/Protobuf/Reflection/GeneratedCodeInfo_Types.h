@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int GeneratedCodeInfo_Types_TypeDefinitionIndex = 35816;
+	inline static constexpr unsigned int GeneratedCodeInfo_Types_TypeDefinitionIndex = 36744;
 
 	class GeneratedCodeInfo_Types : public ::System::Object
 	{

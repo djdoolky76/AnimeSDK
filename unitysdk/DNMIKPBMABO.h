@@ -6,19 +6,19 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SetActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNMIKPBMABO_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FD8E00)
-#define DNMIKPBMABO_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD8EF0)
-#define DNMIKPBMABO_GEJNOLBPEBO_OFFSET UNITYSDK_OFFSET(0x11FD9310)
-#define DNMIKPBMABO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD8F20)
+#define DNMIKPBMABO_CCTOR_OFFSET UNITYSDK_OFFSET(0x12DD22A0)
+#define DNMIKPBMABO_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD2390)
+#define DNMIKPBMABO_GEJNOLBPEBO_OFFSET UNITYSDK_OFFSET(0x12DD27B0)
+#define DNMIKPBMABO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DD23C0)
 
-inline static constexpr unsigned int DNMIKPBMABO_TypeDefinitionIndex = 55336;
+inline static constexpr unsigned int DNMIKPBMABO_TypeDefinitionIndex = 56518;
 
 	class DNMIKPBMABO
 	{
 	public:
 		static ::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>** StaticGet_ONFNEAPDKDG()
 		{
-			return (::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "DNMIKPBMABO")->GetStaticField(0x6F880);
+			return (::RPG::FuncBinder_4<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "DNMIKPBMABO")->GetStaticField(0x6DA30);
 		}
 
 		static ::System::Void _cctor()

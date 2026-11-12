@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GBAEPOLFFMG_TypeDefinitionIndex = 31329;
+inline static constexpr unsigned int GBAEPOLFFMG_TypeDefinitionIndex = 32242;
 
 	enum class GBAEPOLFFMG : ::System::Int32
 	{

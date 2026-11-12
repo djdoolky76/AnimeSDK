@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class KPHFNLMNPFC;
 
-#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB48270)
-#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__GETEVALUATIONGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCB48CF0)
+#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD4ABF20)
+#define RPG_CLIENT_CHIMERAEVALUATIONMANAGER___C__DISPLAYCLASS10_0__GETEVALUATIONGROUPDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD4AC9A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraEvaluationManager___c__DisplayClass10_0_TypeDefinitionIndex = 63491;
+	inline static constexpr unsigned int ChimeraEvaluationManager___c__DisplayClass10_0_TypeDefinitionIndex = 64929;
 
 	class ChimeraEvaluationManager___c__DisplayClass10_0 : public ::System::Object
 	{

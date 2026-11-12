@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CakeRaceCellType.h"
 
-#define CKPLIMLCMIL_CTOR_OFFSET UNITYSDK_OFFSET(0x3C29D70)
-#define CKPLIMLCMIL_KPPBAJJNIII_OFFSET UNITYSDK_OFFSET(0x3C29D80)
+#define CKPLIMLCMIL_CTOR_OFFSET UNITYSDK_OFFSET(0x3E78D60)
+#define CKPLIMLCMIL_KPPBAJJNIII_OFFSET UNITYSDK_OFFSET(0x3E78D70)
 
-inline static constexpr unsigned int CKPLIMLCMIL_TypeDefinitionIndex = 37221;
+inline static constexpr unsigned int CKPLIMLCMIL_TypeDefinitionIndex = 38149;
 
 	struct alignas(4) CKPLIMLCMIL
 	{

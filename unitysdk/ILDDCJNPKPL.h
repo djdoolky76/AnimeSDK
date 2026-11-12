@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class JEDPJHPMPJB;
 
-#define ILDDCJNPKPL_CTOR_OFFSET UNITYSDK_OFFSET(0x164A94A0)
-#define ILDDCJNPKPL_GET_RULE_OFFSET UNITYSDK_OFFSET(0x164A94B0)
+#define ILDDCJNPKPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1747D550)
+#define ILDDCJNPKPL_GET_RULE_OFFSET UNITYSDK_OFFSET(0x1747D560)
 
-inline static constexpr unsigned int ILDDCJNPKPL_TypeDefinitionIndex = 80714;
+inline static constexpr unsigned int ILDDCJNPKPL_TypeDefinitionIndex = 83494;
 
 	class ILDDCJNPKPL : public ::System::Object
 	{

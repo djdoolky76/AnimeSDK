@@ -7,30 +7,30 @@
 namespace RPG::GameCore { class EntityMoveTrack; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define GDELHFNPNKD_AGBKADDLFFF_OFFSET UNITYSDK_OFFSET(0x1599AFD0)
-#define GDELHFNPNKD_CONHCMOGADH_OFFSET UNITYSDK_OFFSET(0x1599B640)
-#define GDELHFNPNKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1599B650)
-#define GDELHFNPNKD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1599B520)
-#define GDELHFNPNKD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1599AE50)
+#define GDELHFNPNKD_AGBKADDLFFF_OFFSET UNITYSDK_OFFSET(0x168D1D80)
+#define GDELHFNPNKD_CONHCMOGADH_OFFSET UNITYSDK_OFFSET(0x168D23F0)
+#define GDELHFNPNKD_CTOR_OFFSET UNITYSDK_OFFSET(0x168D2400)
+#define GDELHFNPNKD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x168D22D0)
+#define GDELHFNPNKD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x168D1C00)
 
-inline static constexpr unsigned int GDELHFNPNKD_TypeDefinitionIndex = 58589;
+inline static constexpr unsigned int GDELHFNPNKD_TypeDefinitionIndex = 59854;
 
 	class GDELHFNPNKD : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* JOIPPIKNILC; // 0x10
-		::Il2CppArray<::RPG::GameCore::EntityMoveTrack*>* MJHIMCFFIHD; // 0x18
-		::System::Single FHGDBJGOLOM; // 0x20
-		::UnityEngine::Vector3 CJFHPEDCMKB; // 0x24
-		::UnityEngine::Quaternion AHANGHKAIBO; // 0x30
-		::UnityEngine::Vector3 DAPNFDEFLBD; // 0x40
-		::System::Boolean LFJHKGPGMKN; // 0x4C
+		::Il2CppArray<::RPG::GameCore::EntityMoveTrack*>* MJHIMCFFIHD; // 0x10
+		::RPG::GameCore::GameEntity* JOIPPIKNILC; // 0x18
+		::System::Int32 JGNAANKNEGD; // 0x20
+		::UnityEngine::Vector3 PDJBFBPEHFE; // 0x24
+		::System::Single FHGDBJGOLOM; // 0x30
+		::UnityEngine::Quaternion AHANGHKAIBO; // 0x34
+		::System::Single GHCBLGBCPIA; // 0x44
+		::System::Boolean LFJHKGPGMKN; // 0x48
 		::System::Byte _padding0[0x3];
-		::System::Single HPCHCEFOKJB; // 0x50
-		::System::Single GHCBLGBCPIA; // 0x54
-		::UnityEngine::Vector3 PDJBFBPEHFE; // 0x58
-		::System::Single NEHHIFNALHJ; // 0x64
-		::System::Int32 JGNAANKNEGD; // 0x68
+		::System::Single HPCHCEFOKJB; // 0x4C
+		::UnityEngine::Vector3 DAPNFDEFLBD; // 0x50
+		::UnityEngine::Vector3 CJFHPEDCMKB; // 0x5C
+		::System::Single NEHHIFNALHJ; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDELHFNPNKD_CTOR_OFFSET))(this);

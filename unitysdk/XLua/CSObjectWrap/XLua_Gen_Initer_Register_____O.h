@@ -7,54 +7,54 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua::CSObjectWrap
 {
-	inline static constexpr unsigned int XLua_Gen_Initer_Register_____O_TypeDefinitionIndex = 51703;
+	inline static constexpr unsigned int XLua_Gen_Initer_Register_____O_TypeDefinitionIndex = 52788;
 
 	class XLua_Gen_Initer_Register_____O : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__5_____Create()
-		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E550);
-		}
-
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__2_____Create()
-		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E558);
-		}
-
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__4_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E560);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BC0);
 		}
 
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__3_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E568);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BC8);
 		}
 
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__6_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E570);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BD0);
 		}
 
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__1_____Create()
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__5_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E578);
-		}
-
-		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__8_____Create()
-		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E580);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BD8);
 		}
 
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__7_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E588);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BE0);
+		}
+
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__2_____Create()
+		{
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BE8);
+		}
+
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__1_____Create()
+		{
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BF0);
 		}
 
 		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__0_____Create()
 		{
-			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x2E590);
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53BF8);
+		}
+
+		static ::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>** StaticGet__8_____Create()
+		{
+			return (::System::Func_3<::System::Int32, ::XLua::LuaEnv*, ::XLua::LuaBase*>**)UnitySDK::FromName("XLua.CSObjectWrap", "<>O")->GetStaticField(0x53C00);
 		}
 
 	};

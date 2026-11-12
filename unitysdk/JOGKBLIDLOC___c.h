@@ -4,18 +4,18 @@
 class JOGKBLIDLOC;
 namespace System { class Object; }
 
-#define JOGKBLIDLOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A27C0)
-#define JOGKBLIDLOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A2800)
-#define JOGKBLIDLOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7A2810)
+#define JOGKBLIDLOC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAD2AA0)
+#define JOGKBLIDLOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAD2AE0)
+#define JOGKBLIDLOC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FAD2AF0)
 
-inline static constexpr unsigned int JOGKBLIDLOC___c_TypeDefinitionIndex = 34120;
+inline static constexpr unsigned int JOGKBLIDLOC___c_TypeDefinitionIndex = 35035;
 
 	class JOGKBLIDLOC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CFF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C30);
 		}
 
 		static ::System::Void _cctor()

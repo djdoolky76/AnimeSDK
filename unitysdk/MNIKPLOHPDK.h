@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define MNIKPLOHPDK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0CBA0)
-#define MNIKPLOHPDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA0CC00)
-#define MNIKPLOHPDK_LHOFDLKIFBF_OFFSET UNITYSDK_OFFSET(0xBA0CC50)
+#define MNIKPLOHPDK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2CA260)
+#define MNIKPLOHPDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2CA2C0)
+#define MNIKPLOHPDK_LHOFDLKIFBF_OFFSET UNITYSDK_OFFSET(0xC2CA310)
 
-inline static constexpr unsigned int MNIKPLOHPDK_TypeDefinitionIndex = 75914;
+inline static constexpr unsigned int MNIKPLOHPDK_TypeDefinitionIndex = 78241;
 
 	class MNIKPLOHPDK : public ::System::Object
 	{

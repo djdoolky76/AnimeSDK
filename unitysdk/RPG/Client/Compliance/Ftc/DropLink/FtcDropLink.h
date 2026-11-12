@@ -9,23 +9,23 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_CTOR_1_OFFSET UNITYSDK_OFFSET(0xCBAE4C0)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAE360)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0xCBAE4F0)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_GET_ITEM__OFFSET UNITYSDK_OFFSET(0xCBAE4D0)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_GET_RESBARPAGEKEY_OFFSET UNITYSDK_OFFSET(0xCBAE4E0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_CTOR_1_OFFSET UNITYSDK_OFFSET(0xD522300)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_CTOR_OFFSET UNITYSDK_OFFSET(0xD5221A0)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_GET_ENTRIES_OFFSET UNITYSDK_OFFSET(0xD522330)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_GET_ITEM__OFFSET UNITYSDK_OFFSET(0xD522310)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_GET_RESBARPAGEKEY_OFFSET UNITYSDK_OFFSET(0xD522320)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int FtcDropLink_TypeDefinitionIndex = 74814;
+	inline static constexpr unsigned int FtcDropLink_TypeDefinitionIndex = 76984;
 
 	class FtcDropLink : public ::System::Object
 	{
 	public:
-		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::Compliance::Ftc::DropLink::FtcDropLinkEntry*>* _EntriesReadOnly; // 0x10
-		::RPG::Client::ItemData* _Item__k__BackingField; // 0x18
+		::RPG::Client::ItemData* _Item__k__BackingField; // 0x10
+		::Il2CppArray<::RPG::Client::Compliance::Ftc::DropLink::FtcDropLinkEntry*>* _Entries; // 0x18
 		::System::String* _ResBarPageKey_k__BackingField; // 0x20
-		::Il2CppArray<::RPG::Client::Compliance::Ftc::DropLink::FtcDropLinkEntry*>* _Entries; // 0x28
+		::System::Collections::ObjectModel::ReadOnlyCollection_1<::RPG::Client::Compliance::Ftc::DropLink::FtcDropLinkEntry*>* _EntriesReadOnly; // 0x28
 		::System::Void _ctor(::RPG::Client::ItemData* a1, ::System::String* a2, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Compliance::Ftc::DropLink::FtcDropLinkEntry*>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ItemData*, ::System::String*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Compliance::Ftc::DropLink::FtcDropLinkEntry*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINK_CTOR_OFFSET))(this, a1, a2, a3);

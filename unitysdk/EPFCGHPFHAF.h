@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EPFCGHPFHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61E90)
+#define EPFCGHPFHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC25740)
 
-inline static constexpr unsigned int EPFCGHPFHAF_TypeDefinitionIndex = 42361;
+inline static constexpr unsigned int EPFCGHPFHAF_TypeDefinitionIndex = 43336;
 
 	class EPFCGHPFHAF : public ::System::Object
 	{

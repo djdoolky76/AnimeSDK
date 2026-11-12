@@ -5,20 +5,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitUITabOpen; }
 namespace UnityEngine { class Transform; }
 
-#define PKMKLFONNGB_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E6F50)
-#define PKMKLFONNGB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2E6F60)
-#define PKMKLFONNGB_ONIFMMMONIE_OFFSET UNITYSDK_OFFSET(0xC2E71E0)
-#define PKMKLFONNGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E6FA0)
-#define PKMKLFONNGB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2E6FF0)
-#define PKMKLFONNGB_TICK_OFFSET UNITYSDK_OFFSET(0xC2E7040)
+#define PKMKLFONNGB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC15D80)
+#define PKMKLFONNGB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC15D90)
+#define PKMKLFONNGB_ONIFMMMONIE_OFFSET UNITYSDK_OFFSET(0xCC15FE0)
+#define PKMKLFONNGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC15DD0)
+#define PKMKLFONNGB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC15E20)
+#define PKMKLFONNGB_TICK_OFFSET UNITYSDK_OFFSET(0xCC15E70)
 
-inline static constexpr unsigned int PKMKLFONNGB_TypeDefinitionIndex = 58946;
+inline static constexpr unsigned int PKMKLFONNGB_TypeDefinitionIndex = 60219;
 
 	class PKMKLFONNGB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaitUITabOpen* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaitUITabOpen* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitUITabOpen* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitUITabOpen*))((::PBYTE)hIl2Cpp + PKMKLFONNGB_CTOR_OFFSET))(this, a1, a2);

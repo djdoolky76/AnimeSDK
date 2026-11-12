@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphLongRangeModeConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHLONGRANGEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9116B0)
-#define RPG_GAMECORE_PHOTOGRAPHLONGRANGEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D911530)
+#define RPG_GAMECORE_PHOTOGRAPHLONGRANGEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2A900)
+#define RPG_GAMECORE_PHOTOGRAPHLONGRANGEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2A780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphLongRangeModeConfig_TypeDefinitionIndex = 21657;
+	inline static constexpr unsigned int PhotoGraphLongRangeModeConfig_TypeDefinitionIndex = 22045;
 
 	class PhotoGraphLongRangeModeConfig : public ::RPG::GameCore::JsonConfig
 	{

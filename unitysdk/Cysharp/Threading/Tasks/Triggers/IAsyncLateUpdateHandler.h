@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncLateUpdateHandler_TypeDefinitionIndex = 38506;
+	inline static constexpr unsigned int IAsyncLateUpdateHandler_TypeDefinitionIndex = 39435;
 
 	class IAsyncLateUpdateHandler
 	{

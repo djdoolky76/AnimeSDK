@@ -7,7 +7,7 @@ namespace RPG::Client { class LongPressEvent; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-inline static constexpr unsigned int JHGEIEHKPNG_ENIPFMAKIBA_TypeDefinitionIndex = 49876;
+inline static constexpr unsigned int JHGEIEHKPNG_ENIPFMAKIBA_TypeDefinitionIndex = 50924;
 
 	class JHGEIEHKPNG_ENIPFMAKIBA : public ::System::Object
 	{

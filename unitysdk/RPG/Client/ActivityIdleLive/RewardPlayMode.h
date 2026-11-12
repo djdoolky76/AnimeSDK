@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int RewardPlayMode_TypeDefinitionIndex = 75311;
+	inline static constexpr unsigned int RewardPlayMode_TypeDefinitionIndex = 77638;
 
 	enum class RewardPlayMode : ::System::Int32
 	{

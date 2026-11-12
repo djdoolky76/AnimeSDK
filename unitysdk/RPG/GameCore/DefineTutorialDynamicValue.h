@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DefineTutorialDynamicValue; }
 namespace RPG::GameCore { class TutorialDynamicParamBase; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEFINETUTORIALDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FB1F0)
-#define RPG_GAMECORE_DEFINETUTORIALDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5FB200)
-#define RPG_GAMECORE_DEFINETUTORIALDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FB1C0)
+#define RPG_GAMECORE_DEFINETUTORIALDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80D140)
+#define RPG_GAMECORE_DEFINETUTORIALDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E80D150)
+#define RPG_GAMECORE_DEFINETUTORIALDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E80D110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DefineTutorialDynamicValue_TypeDefinitionIndex = 24382;
+	inline static constexpr unsigned int DefineTutorialDynamicValue_TypeDefinitionIndex = 24841;
 
 	class DefineTutorialDynamicValue : public ::RPG::GameCore::TaskConfig
 	{

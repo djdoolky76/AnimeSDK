@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleAddScore; }
 
-#define JPCNIMPNNPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7D30)
-#define JPCNIMPNNPO_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CBA7D40)
+#define JPCNIMPNNPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD79440)
+#define JPCNIMPNNPO_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DD79450)
 
-inline static constexpr unsigned int JPCNIMPNNPO_TypeDefinitionIndex = 43128;
+inline static constexpr unsigned int JPCNIMPNNPO_TypeDefinitionIndex = 44109;
 
 	class JPCNIMPNNPO : public ::BKABEBEPPJK
 	{

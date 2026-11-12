@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeployPuzzleFinished; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGCCNGGLHBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB68EAE0)
-#define LGCCNGGLHBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB68EB10)
+#define LGCCNGGLHBC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF249D0)
+#define LGCCNGGLHBC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF24A00)
 
-inline static constexpr unsigned int LGCCNGGLHBC_TypeDefinitionIndex = 58071;
+inline static constexpr unsigned int LGCCNGGLHBC_TypeDefinitionIndex = 59310;
 
 	class LGCCNGGLHBC
 	{

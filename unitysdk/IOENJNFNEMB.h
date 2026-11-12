@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IOENJNFNEMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A400)
+#define IOENJNFNEMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD509F0)
 
-inline static constexpr unsigned int IOENJNFNEMB_TypeDefinitionIndex = 43801;
+inline static constexpr unsigned int IOENJNFNEMB_TypeDefinitionIndex = 44876;
 
 	class IOENJNFNEMB : public ::System::Object
 	{

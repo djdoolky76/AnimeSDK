@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/RtBehaviorFlag.h"
 
-inline static constexpr unsigned int JGNFBMGBDGM_TypeDefinitionIndex = 53966;
+inline static constexpr unsigned int JGNFBMGBDGM_TypeDefinitionIndex = 55130;
 
 	struct alignas(8) JGNFBMGBDGM
 	{

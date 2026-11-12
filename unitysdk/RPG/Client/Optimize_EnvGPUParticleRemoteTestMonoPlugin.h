@@ -6,12 +6,12 @@ namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA19850)
-#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_REFRESH_OFFSET UNITYSDK_OFFSET(0xDA197A0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE4B02B0)
+#define RPG_CLIENT_OPTIMIZE_ENVGPUPARTICLEREMOTETESTMONOPLUGIN_REFRESH_OFFSET UNITYSDK_OFFSET(0xE4B0200)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestMonoPlugin_TypeDefinitionIndex = 70834;
+	inline static constexpr unsigned int Optimize_EnvGPUParticleRemoteTestMonoPlugin_TypeDefinitionIndex = 72813;
 
 	class Optimize_EnvGPUParticleRemoteTestMonoPlugin
 	{

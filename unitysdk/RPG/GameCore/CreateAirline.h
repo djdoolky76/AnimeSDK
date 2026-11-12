@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CreateAirline; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEAIRLINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E04E0)
-#define RPG_GAMECORE_CREATEAIRLINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E04F0)
-#define RPG_GAMECORE_CREATEAIRLINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E04B0)
+#define RPG_GAMECORE_CREATEAIRLINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F2920)
+#define RPG_GAMECORE_CREATEAIRLINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F2930)
+#define RPG_GAMECORE_CREATEAIRLINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F28F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateAirline_TypeDefinitionIndex = 21876;
+	inline static constexpr unsigned int CreateAirline_TypeDefinitionIndex = 22267;
 
 	class CreateAirline : public ::RPG::GameCore::TaskConfig
 	{

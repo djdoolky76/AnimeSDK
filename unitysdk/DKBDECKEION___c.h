@@ -4,18 +4,18 @@
 class DKBDECKEION;
 namespace System { class Object; }
 
-#define DKBDECKEION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1D4530)
-#define DKBDECKEION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D4570)
-#define DKBDECKEION___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1D4580)
+#define DKBDECKEION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4B0080)
+#define DKBDECKEION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B00C0)
+#define DKBDECKEION___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F4B00D0)
 
-inline static constexpr unsigned int DKBDECKEION___c_TypeDefinitionIndex = 34048;
+inline static constexpr unsigned int DKBDECKEION___c_TypeDefinitionIndex = 34963;
 
 	class DKBDECKEION___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A6F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35AC0);
 		}
 
 		static ::System::Void _cctor()

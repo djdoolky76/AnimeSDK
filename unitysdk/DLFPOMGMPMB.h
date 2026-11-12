@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchFateRinCardSkillMainTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DLFPOMGMPMB_CTOR_OFFSET UNITYSDK_OFFSET(0xF89F180)
-#define DLFPOMGMPMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF89F1D0)
+#define DLFPOMGMPMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1060EAA0)
+#define DLFPOMGMPMB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1060EAF0)
 
-inline static constexpr unsigned int DLFPOMGMPMB_TypeDefinitionIndex = 59132;
+inline static constexpr unsigned int DLFPOMGMPMB_TypeDefinitionIndex = 60408;
 
 	class DLFPOMGMPMB
 	{

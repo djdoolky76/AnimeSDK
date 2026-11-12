@@ -5,25 +5,25 @@ class HPOLEHHMMIC;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB11DF0)
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB11E30)
-#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__STARTTRACKPHOTO_B__14_0_OFFSET UNITYSDK_OFFSET(0xDB11E40)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE569740)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE569780)
+#define RPG_CLIENT_PHOTOGRAPHSYSTEM___C__STARTTRACKPHOTO_B__14_0_OFFSET UNITYSDK_OFFSET(0xE569790)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphSystem___c_TypeDefinitionIndex = 60918;
+	inline static constexpr unsigned int PhotoGraphSystem___c_TypeDefinitionIndex = 62294;
 
 	class PhotoGraphSystem___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1D180);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2E0F0);
 		}
 
 		static ::System::Comparison_1<::HPOLEHHMMIC*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::HPOLEHHMMIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1D188);
+			return (::System::Comparison_1<::HPOLEHHMMIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2E0F8);
 		}
 
 		static ::System::Void _cctor()

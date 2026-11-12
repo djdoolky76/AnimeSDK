@@ -4,11 +4,11 @@
 namespace RPG::Client { class ConfirmDialogContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLECONFIRMDIALOGHELPER_SHOWBATTLEERRORDIALOG_OFFSET UNITYSDK_OFFSET(0xCE46180)
+#define RPG_CLIENT_EXPEDITIONBATTLECONFIRMDIALOGHELPER_SHOWBATTLEERRORDIALOG_OFFSET UNITYSDK_OFFSET(0xD80EA60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleConfirmDialogHelper_TypeDefinitionIndex = 63858;
+	inline static constexpr unsigned int ExpeditionBattleConfirmDialogHelper_TypeDefinitionIndex = 65300;
 
 	class ExpeditionBattleConfirmDialogHelper : public ::System::Object
 	{

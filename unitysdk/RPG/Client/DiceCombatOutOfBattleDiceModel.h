@@ -6,13 +6,13 @@ namespace RPG::Client { class DiceCombatOutOfBattleDiceModel; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCCC6130)
-#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC64D0)
-#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xCCC6520)
+#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xD687590)
+#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD687930)
+#define RPG_CLIENT_DICECOMBATOUTOFBATTLEDICEMODEL_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xD687980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatOutOfBattleDiceModel_TypeDefinitionIndex = 63563;
+	inline static constexpr unsigned int DiceCombatOutOfBattleDiceModel_TypeDefinitionIndex = 65005;
 
 	class DiceCombatOutOfBattleDiceModel : public ::System::Object
 	{

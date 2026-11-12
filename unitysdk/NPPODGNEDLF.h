@@ -9,34 +9,34 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NPPODGNEDLF_AALOEHPBOEP_OFFSET UNITYSDK_OFFSET(0xBD15470)
-#define NPPODGNEDLF_BAOGHGIGEMJ_OFFSET UNITYSDK_OFFSET(0xBD15680)
-#define NPPODGNEDLF_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBD14900)
-#define NPPODGNEDLF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBD14630)
-#define NPPODGNEDLF_MNOGBMKAKDH_OFFSET UNITYSDK_OFFSET(0xBD14A20)
-#define NPPODGNEDLF_MODHPOBBPDL_OFFSET UNITYSDK_OFFSET(0xBD15A80)
-#define NPPODGNEDLF_NAAMABDEJNF_OFFSET UNITYSDK_OFFSET(0xBD156C0)
-#define NPPODGNEDLF_NIKEFBPAJJC_OFFSET UNITYSDK_OFFSET(0xBD153E0)
-#define NPPODGNEDLF_ODMICAFBAKI_OFFSET UNITYSDK_OFFSET(0xBD15510)
+#define NPPODGNEDLF_AALOEHPBOEP_OFFSET UNITYSDK_OFFSET(0xC613C60)
+#define NPPODGNEDLF_BAOGHGIGEMJ_OFFSET UNITYSDK_OFFSET(0xC613E70)
+#define NPPODGNEDLF_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC6130E0)
+#define NPPODGNEDLF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC612E10)
+#define NPPODGNEDLF_MNOGBMKAKDH_OFFSET UNITYSDK_OFFSET(0xC613200)
+#define NPPODGNEDLF_MODHPOBBPDL_OFFSET UNITYSDK_OFFSET(0xC614270)
+#define NPPODGNEDLF_NAAMABDEJNF_OFFSET UNITYSDK_OFFSET(0xC613EB0)
+#define NPPODGNEDLF_NIKEFBPAJJC_OFFSET UNITYSDK_OFFSET(0xC613BD0)
+#define NPPODGNEDLF_ODMICAFBAKI_OFFSET UNITYSDK_OFFSET(0xC613D00)
 
-inline static constexpr unsigned int NPPODGNEDLF_TypeDefinitionIndex = 61170;
+inline static constexpr unsigned int NPPODGNEDLF_TypeDefinitionIndex = 62555;
 
 	class NPPODGNEDLF : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_GIMNCPBENKG()
+		static ::RPG::Client::AdventurePhaseInitParams** StaticGet_PDDPAJMFNHM()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "NPPODGNEDLF")->GetStaticField(0x5A8C0);
+			return (::RPG::Client::AdventurePhaseInitParams**)UnitySDK::FromName("", "NPPODGNEDLF")->GetStaticField(0x5CB20);
 		}
 
 		static ::RPG::Client::FlagSwitch_1<::System::String*>** StaticGet_PGHCHKMLBBK()
 		{
-			return (::RPG::Client::FlagSwitch_1<::System::String*>**)UnitySDK::FromName("", "NPPODGNEDLF")->GetStaticField(0x5A8C8);
+			return (::RPG::Client::FlagSwitch_1<::System::String*>**)UnitySDK::FromName("", "NPPODGNEDLF")->GetStaticField(0x5CB28);
 		}
 
-		static ::RPG::Client::AdventurePhaseInitParams** StaticGet_PDDPAJMFNHM()
+		static ::System::Action** StaticGet_GIMNCPBENKG()
 		{
-			return (::RPG::Client::AdventurePhaseInitParams**)UnitySDK::FromName("", "NPPODGNEDLF")->GetStaticField(0x5A8D0);
+			return (::System::Action**)UnitySDK::FromName("", "NPPODGNEDLF")->GetStaticField(0x5CB30);
 		}
 
 		static ::System::Void KPJGDHLENIP()

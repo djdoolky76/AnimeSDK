@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtSkillAbort; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RTSKILLABORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA634D0)
-#define RPG_GAMECORE_RTSKILLABORT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA63510)
-#define RPG_GAMECORE_RTSKILLABORT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA63470)
+#define RPG_GAMECORE_RTSKILLABORT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC75DD0)
+#define RPG_GAMECORE_RTSKILLABORT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC75E10)
+#define RPG_GAMECORE_RTSKILLABORT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC75D70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSkillAbort_TypeDefinitionIndex = 24217;
+	inline static constexpr unsigned int RtSkillAbort_TypeDefinitionIndex = 24676;
 
 	class RtSkillAbort : public ::RPG::GameCore::TaskConfig
 	{

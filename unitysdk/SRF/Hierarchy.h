@@ -5,27 +5,27 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define SRF_HIERARCHY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED71B90)
-#define SRF_HIERARCHY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED71B80)
-#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1ED717B0)
-#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x1ED717E0)
-#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x1ED71AF0)
+#define SRF_HIERARCHY_CCTOR_OFFSET UNITYSDK_OFFSET(0x200215C0)
+#define SRF_HIERARCHY_CTOR_OFFSET UNITYSDK_OFFSET(0x200215B0)
+#define SRF_HIERARCHY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x200211E0)
+#define SRF_HIERARCHY_GET_OFFSET UNITYSDK_OFFSET(0x20021210)
+#define SRF_HIERARCHY_RUNTIMEINITIALIZE_OFFSET UNITYSDK_OFFSET(0x20021520)
 
 namespace SRF
 {
-	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 35374;
+	inline static constexpr unsigned int Hierarchy_TypeDefinitionIndex = 36302;
 
 	class Hierarchy : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>** StaticGet_Cache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)UnitySDK::FromName("SRF", "Hierarchy")->GetStaticField(0x47600);
-		}
-
 		static ::Il2CppArray<::System::Char>** StaticGet_Seperator()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("SRF", "Hierarchy")->GetStaticField(0x47608);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("SRF", "Hierarchy")->GetStaticField(0x57890);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>** StaticGet_Cache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Transform*>**)UnitySDK::FromName("SRF", "Hierarchy")->GetStaticField(0x57898);
 		}
 
 		::System::Void _ctor()

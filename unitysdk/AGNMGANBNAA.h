@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AGNMGANBNAA_TypeDefinitionIndex = 41673;
+inline static constexpr unsigned int AGNMGANBNAA_TypeDefinitionIndex = 42648;
 
 	class AGNMGANBNAA
 	{

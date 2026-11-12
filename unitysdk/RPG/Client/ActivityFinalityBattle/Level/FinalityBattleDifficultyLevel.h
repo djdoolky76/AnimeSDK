@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
-	inline static constexpr unsigned int FinalityBattleDifficultyLevel_TypeDefinitionIndex = 41910;
+	inline static constexpr unsigned int FinalityBattleDifficultyLevel_TypeDefinitionIndex = 42885;
 
 	enum class FinalityBattleDifficultyLevel : ::System::Int32
 	{

@@ -6,17 +6,17 @@ namespace RPG::Client { class GridFightRoleStarConfig; }
 namespace System { class Object; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define OOCDFIHJMOG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF6FBF0)
-#define OOCDFIHJMOG_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xBF6FE50)
-#define OOCDFIHJMOG_NGEJHKGHOEK_OFFSET UNITYSDK_OFFSET(0xBF6FCD0)
+#define OOCDFIHJMOG_CTOR_OFFSET UNITYSDK_OFFSET(0xC86E770)
+#define OOCDFIHJMOG_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xC86E9D0)
+#define OOCDFIHJMOG_NGEJHKGHOEK_OFFSET UNITYSDK_OFFSET(0xC86E850)
 
-inline static constexpr unsigned int OOCDFIHJMOG_TypeDefinitionIndex = 65135;
+inline static constexpr unsigned int OOCDFIHJMOG_TypeDefinitionIndex = 66819;
 
 	class OOCDFIHJMOG : public ::KKPPDDOFADO
 	{
 	public:
-		::RPG::Client::GridFightRoleStarConfig* GFBHILKDOEB; // 0x20
-		::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x28
+		::RPG::Client::GridFightRole* IAHCEGHHCKB; // 0x20
+		::RPG::Client::GridFightRoleStarConfig* GFBHILKDOEB; // 0x28
 		::System::Void _ctor(::RPG::Client::GridFightRole* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + OOCDFIHJMOG_CTOR_OFFSET))(this, a1);

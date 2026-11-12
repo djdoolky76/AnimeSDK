@@ -10,19 +10,19 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CEIKOELFPOA_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xC9E1CB0)
-#define CEIKOELFPOA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC9E1A70)
-#define CEIKOELFPOA_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E1B20)
-#define CEIKOELFPOA_FHFMMFPGNOF_OFFSET UNITYSDK_OFFSET(0xC9E1B60)
-#define CEIKOELFPOA_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xC9E1F30)
+#define CEIKOELFPOA_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xD3465E0)
+#define CEIKOELFPOA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD3463A0)
+#define CEIKOELFPOA_CTOR_OFFSET UNITYSDK_OFFSET(0xD346450)
+#define CEIKOELFPOA_FHFMMFPGNOF_OFFSET UNITYSDK_OFFSET(0xD346490)
+#define CEIKOELFPOA_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xD346860)
 
-inline static constexpr unsigned int CEIKOELFPOA_TypeDefinitionIndex = 74600;
+inline static constexpr unsigned int CEIKOELFPOA_TypeDefinitionIndex = 76748;
 
 	class CEIKOELFPOA : public ::System::Object
 	{
 	public:
-		::RPG::Client::NavMap::IMapDataSource* PBDGDLLLHMA; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* ILDKEOAMPAO; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::NavMap::NavNodeConditionParamType, ::System::Object*>* ILDKEOAMPAO; // 0x10
+		::RPG::Client::NavMap::IMapDataSource* PBDGDLLLHMA; // 0x18
 		::System::Collections::Generic::List_1<::NHLGPCOOCMA*>* GGGKAACPPJF; // 0x20
 		::System::Void _ctor()
 		{

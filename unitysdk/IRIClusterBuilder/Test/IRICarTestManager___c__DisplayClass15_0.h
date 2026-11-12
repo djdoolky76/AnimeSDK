@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace IRIClusterBuilder::Test { class IRICarTestManager; }
 
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1652E430)
-#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0__RELOADVOLUMETEMPLATES_B__0_OFFSET UNITYSDK_OFFSET(0x165322C0)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB862E30)
+#define IRICLUSTERBUILDER_TEST_IRICARTESTMANAGER___C__DISPLAYCLASS15_0__RELOADVOLUMETEMPLATES_B__0_OFFSET UNITYSDK_OFFSET(0xB866C20)
 
 namespace IRIClusterBuilder::Test
 {
-	inline static constexpr unsigned int IRICarTestManager___c__DisplayClass15_0_TypeDefinitionIndex = 47764;
+	inline static constexpr unsigned int IRICarTestManager___c__DisplayClass15_0_TypeDefinitionIndex = 48794;
 
 	class IRICarTestManager___c__DisplayClass15_0 : public ::System::Object
 	{

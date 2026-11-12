@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AJKDPMLNAPL_BKOGFMNILFG_OFFSET UNITYSDK_OFFSET(0x12CC1AE0)
-#define AJKDPMLNAPL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC1CE0)
+#define AJKDPMLNAPL_BKOGFMNILFG_OFFSET UNITYSDK_OFFSET(0x12DA0810)
+#define AJKDPMLNAPL_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA0A10)
 
-inline static constexpr unsigned int AJKDPMLNAPL_TypeDefinitionIndex = 56320;
+inline static constexpr unsigned int AJKDPMLNAPL_TypeDefinitionIndex = 57534;
 
 	class AJKDPMLNAPL : public ::System::Object
 	{

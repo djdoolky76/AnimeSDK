@@ -4,11 +4,11 @@
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXTIMELINEHELPER_SETCOMPENSATIONROOTS_OFFSET UNITYSDK_OFFSET(0xC88F3D0)
+#define RPG_CLIENT_BLINDBOX_POOL_UI_BLINDBOXTIMELINEHELPER_SETCOMPENSATIONROOTS_OFFSET UNITYSDK_OFFSET(0xD1F4920)
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
-	inline static constexpr unsigned int BlindBoxTimelineHelper_TypeDefinitionIndex = 74966;
+	inline static constexpr unsigned int BlindBoxTimelineHelper_TypeDefinitionIndex = 77293;
 
 	class BlindBoxTimelineHelper : public ::System::Object
 	{

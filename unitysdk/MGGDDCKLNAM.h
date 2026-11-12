@@ -3,7 +3,7 @@
 class BJHMBGLPOLB;
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int MGGDDCKLNAM_TypeDefinitionIndex = 55990;
+inline static constexpr unsigned int MGGDDCKLNAM_TypeDefinitionIndex = 57193;
 
 	struct alignas(8) MGGDDCKLNAM
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define BFKMICADGPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB173220)
+#define BFKMICADGPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBAFAD90)
 
-inline static constexpr unsigned int BFKMICADGPH_TypeDefinitionIndex = 48210;
+inline static constexpr unsigned int BFKMICADGPH_TypeDefinitionIndex = 49248;
 
 	class BFKMICADGPH : public ::UnityEngine::Playables::PlayableBehaviour
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LightSlotMember_TypeDefinitionIndex = 47545;
+inline static constexpr unsigned int LightSlotMember_TypeDefinitionIndex = 48574;
 
 	enum class LightSlotMember : ::System::Int32
 	{

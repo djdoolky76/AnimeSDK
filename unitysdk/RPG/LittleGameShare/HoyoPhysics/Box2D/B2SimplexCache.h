@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SimplexCache_TypeDefinitionIndex = 36773;
+	inline static constexpr unsigned int B2SimplexCache_TypeDefinitionIndex = 37701;
 
 	struct alignas(8) B2SimplexCache
 	{

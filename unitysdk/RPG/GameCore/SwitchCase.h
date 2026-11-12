@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PredicateTaskListWithFail; }
 namespace RPG::GameCore { class SwitchCase; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SWITCHCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3FD40)
-#define RPG_GAMECORE_SWITCHCASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB3FD50)
-#define RPG_GAMECORE_SWITCHCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB3FD00)
+#define RPG_GAMECORE_SWITCHCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDEF360)
+#define RPG_GAMECORE_SWITCHCASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EDEF370)
+#define RPG_GAMECORE_SWITCHCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDEF320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 23767;
+	inline static constexpr unsigned int SwitchCase_TypeDefinitionIndex = 24223;
 
 	class SwitchCase : public ::RPG::GameCore::TaskConfig
 	{

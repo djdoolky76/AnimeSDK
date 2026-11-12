@@ -8,7 +8,7 @@
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_Leg_TipPoint_TypeDefinitionIndex = 46001;
+	inline static constexpr unsigned int GroundingThread_Leg_TipPoint_TypeDefinitionIndex = 47030;
 
 	struct alignas(4) GroundingThread_Leg_TipPoint
 	{

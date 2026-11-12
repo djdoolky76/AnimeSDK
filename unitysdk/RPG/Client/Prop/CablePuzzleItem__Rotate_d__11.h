@@ -6,16 +6,16 @@ namespace RPG::Client::Prop { class CablePuzzleBoard; }
 namespace RPG::Client::Prop { class CablePuzzleItem; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_CTOR_OFFSET UNITYSDK_OFFSET(0xDC41F00)
-#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDC42EF0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC434C0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC43520)
-#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDC434D0)
-#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC42EE0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_CTOR_OFFSET UNITYSDK_OFFSET(0xE6DED60)
+#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE6DFD50)
+#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE6E02D0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE6E0330)
+#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE6E02E0)
+#define RPG_CLIENT_PROP_CABLEPUZZLEITEM__ROTATE_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6DFD40)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CablePuzzleItem__Rotate_d__11_TypeDefinitionIndex = 78609;
+	inline static constexpr unsigned int CablePuzzleItem__Rotate_d__11_TypeDefinitionIndex = 81344;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class CablePuzzleItem__Rotate_d__11 : public ::System::Object
@@ -25,9 +25,9 @@ namespace RPG::Client::Prop
 		::RPG::Client::Prop::CablePuzzleItem* __4__this; // 0x18
 		::System::Object* __2__current; // 0x20
 		::System::Single _currentDeltaAngle_5__5; // 0x28
-		::System::Int32 __1__state; // 0x2C
-		::UnityEngine::Quaternion _targetRotation_5__2; // 0x30
-		::UnityEngine::Quaternion _currentRotation_5__3; // 0x40
+		::UnityEngine::Quaternion _targetRotation_5__2; // 0x2C
+		::UnityEngine::Quaternion _currentRotation_5__3; // 0x3C
+		::System::Int32 __1__state; // 0x4C
 		::System::Single _deltaAngle_5__4; // 0x50
 		::System::Void _ctor(::System::Int32 a1)
 		{

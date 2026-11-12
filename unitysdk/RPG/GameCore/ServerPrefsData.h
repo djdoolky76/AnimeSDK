@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ServerPrefsData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SERVERPREFSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA91E70)
-#define RPG_GAMECORE_SERVERPREFSDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA91D70)
+#define RPG_GAMECORE_SERVERPREFSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA4370)
+#define RPG_GAMECORE_SERVERPREFSDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA4270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ServerPrefsData_TypeDefinitionIndex = 24416;
+	inline static constexpr unsigned int ServerPrefsData_TypeDefinitionIndex = 24875;
 
 	class ServerPrefsData : public ::RPG::GameCore::JsonConfig
 	{

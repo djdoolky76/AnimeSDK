@@ -5,7 +5,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineFreeLook_Orbit_TypeDefinitionIndex = 39739;
+	inline static constexpr unsigned int CinemachineFreeLook_Orbit_TypeDefinitionIndex = 40668;
 
 	struct alignas(4) CinemachineFreeLook_Orbit
 	{

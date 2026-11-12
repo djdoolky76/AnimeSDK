@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapSkillActualAttacker; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CBLAMLNFIAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC4AF430)
-#define CBLAMLNFIAJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC4AF450)
+#define CBLAMLNFIAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCE18430)
+#define CBLAMLNFIAJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xCE18450)
 
-inline static constexpr unsigned int CBLAMLNFIAJ_TypeDefinitionIndex = 59243;
+inline static constexpr unsigned int CBLAMLNFIAJ_TypeDefinitionIndex = 60520;
 
 	class CBLAMLNFIAJ
 	{

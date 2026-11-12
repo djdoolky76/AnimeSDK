@@ -3,9 +3,9 @@
 #include "unitysdk/HMDKMIJLJFH.h"
 class FDGPOGKILAJ;
 
-#define BOGAMPIOBED_CTOR_OFFSET UNITYSDK_OFFSET(0xC18FA10)
+#define BOGAMPIOBED_CTOR_OFFSET UNITYSDK_OFFSET(0xC76FA80)
 
-inline static constexpr unsigned int BOGAMPIOBED_TypeDefinitionIndex = 77629;
+inline static constexpr unsigned int BOGAMPIOBED_TypeDefinitionIndex = 80364;
 
 	class BOGAMPIOBED : public ::HMDKMIJLJFH
 	{

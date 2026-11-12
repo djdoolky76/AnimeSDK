@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CREATESERVANT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E5AC0)
-#define RPG_GAMECORE_CREATESERVANT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E5AD0)
-#define RPG_GAMECORE_CREATESERVANT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E5A90)
+#define RPG_GAMECORE_CREATESERVANT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F7B90)
+#define RPG_GAMECORE_CREATESERVANT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F7BA0)
+#define RPG_GAMECORE_CREATESERVANT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F7B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateServant_TypeDefinitionIndex = 22981;
+	inline static constexpr unsigned int CreateServant_TypeDefinitionIndex = 23409;
 
 	class CreateServant : public ::RPG::GameCore::TaskConfig
 	{

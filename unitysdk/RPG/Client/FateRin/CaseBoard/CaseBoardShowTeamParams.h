@@ -5,11 +5,11 @@
 namespace RPG::Client::FateRin::CaseBoard { class TeamViewModel; }
 namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSHOWTEAMPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xCF989A0)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSHOWTEAMPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xD918570)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardShowTeamParams_TypeDefinitionIndex = 80806;
+	inline static constexpr unsigned int CaseBoardShowTeamParams_TypeDefinitionIndex = 83586;
 
 	class CaseBoardShowTeamParams : public ::System::Object
 	{

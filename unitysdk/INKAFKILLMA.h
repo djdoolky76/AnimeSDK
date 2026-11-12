@@ -5,10 +5,10 @@ class CIIKBJFOKHL;
 class JNALBIEDNLH;
 namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 
-#define INKAFKILLMA_CTOR_OFFSET UNITYSDK_OFFSET(0x164F51D0)
-#define INKAFKILLMA_HGAKLHFPKKF_OFFSET UNITYSDK_OFFSET(0x164F49C0)
+#define INKAFKILLMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB826290)
+#define INKAFKILLMA_HGAKLHFPKKF_OFFSET UNITYSDK_OFFSET(0xB825A80)
 
-inline static constexpr unsigned int INKAFKILLMA_TypeDefinitionIndex = 77862;
+inline static constexpr unsigned int INKAFKILLMA_TypeDefinitionIndex = 80597;
 
 	class INKAFKILLMA : public ::System::Object
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVETRACKCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D34B310)
-#define RPG_GAMECORE_ACTIVETRACKCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D34B340)
-#define RPG_GAMECORE_ACTIVETRACKCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D34B2B0)
+#define RPG_GAMECORE_ACTIVETRACKCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E559BD0)
+#define RPG_GAMECORE_ACTIVETRACKCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E559C00)
+#define RPG_GAMECORE_ACTIVETRACKCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E559B70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActiveTrackCamera_TypeDefinitionIndex = 20834;
+	inline static constexpr unsigned int ActiveTrackCamera_TypeDefinitionIndex = 21171;
 
 	class ActiveTrackCamera : public ::RPG::GameCore::TaskConfig
 	{

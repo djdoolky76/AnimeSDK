@@ -6,17 +6,17 @@
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define LJLHLALFIAD___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB71F470)
-#define LJLHLALFIAD___C__DISPLAYCLASS4_0__CREATESETOFFSETNODEWORLDPOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB720B40)
+#define LJLHLALFIAD___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBC190)
+#define LJLHLALFIAD___C__DISPLAYCLASS4_0__CREATESETOFFSETNODEWORLDPOSECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xBFBD860)
 
-inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass4_0_TypeDefinitionIndex = 80844;
+inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass4_0_TypeDefinitionIndex = 83624;
 
 	class LJLHLALFIAD___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::View::Card::FateRinCardPosControlView*>* posCtrls; // 0x10
-		::UnityEngine::Vector3 worldPos; // 0x18
-		::UnityEngine::Quaternion worldRot; // 0x24
+		::UnityEngine::Quaternion worldRot; // 0x18
+		::UnityEngine::Vector3 worldPos; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJLHLALFIAD___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

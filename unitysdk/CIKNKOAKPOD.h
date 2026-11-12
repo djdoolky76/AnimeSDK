@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int CIKNKOAKPOD_TypeDefinitionIndex = 6229;
+inline static constexpr unsigned int CIKNKOAKPOD_TypeDefinitionIndex = 6236;
 
 	struct alignas(4) CIKNKOAKPOD
 	{

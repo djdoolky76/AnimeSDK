@@ -6,45 +6,45 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantBehaviorConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTBEHAVIORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98FB40)
-#define RPG_GAMECORE_RESTAURANTBEHAVIORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D98EAA0)
+#define RPG_GAMECORE_RESTAURANTBEHAVIORCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD8BB0)
+#define RPG_GAMECORE_RESTAURANTBEHAVIORCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBD7B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantBehaviorConfigRow_TypeDefinitionIndex = 11351;
+	inline static constexpr unsigned int RestaurantBehaviorConfigRow_TypeDefinitionIndex = 11402;
 
 	class RestaurantBehaviorConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* BehaviorJSON; // 0x10
-		::RPG::Client::TextID TimeOverPerform; // 0x18
-		::RPG::Client::TextID CleanTip; // 0x28
-		::RPG::Client::TextID WaiterPutDownFoodBloodShot; // 0x38
-		::RPG::Client::TextID SelectYes; // 0x48
-		::RPG::Client::TextID ProcessEscapeBill; // 0x58
-		::RPG::Client::TextID ProcessHelp; // 0x68
-		::RPG::Client::TextID LeavePerfect; // 0x78
-		::RPG::Client::TextID WaiterPutDownFoodNormal; // 0x88
-		::RPG::Client::TextID PutDownFoodNormal; // 0x98
-		::RPG::Client::TextID ProcessComplaint; // 0xA8
-		::RPG::Client::TextID Sleep; // 0xB8
-		::RPG::Client::TextID EatingPerfect; // 0xC8
-		::RPG::Client::TextID AngryLeave; // 0xD8
-		::RPG::Client::TextID ProcessThank; // 0xE8
-		::RPG::Client::TextID CallStop; // 0xF8
-		::RPG::Client::TextID CleanObstacle; // 0x108
-		::RPG::Client::TextID LeaveBloodShot; // 0x118
-		::RPG::Client::TextID EatingNormal; // 0x128
-		::RPG::Client::TextID Thank; // 0x138
-		::RPG::Client::TextID Complaint; // 0x148
-		::RPG::Client::TextID Help; // 0x158
-		::RPG::Client::TextID PutDownFoodBloodShot; // 0x168
-		::System::UInt32 BehaviorID; // 0x178
+		::RPG::Client::TextID EatingNormal; // 0x18
+		::RPG::Client::TextID ProcessHelp; // 0x28
+		::RPG::Client::TextID ProcessComplaint; // 0x38
+		::RPG::Client::TextID PutDownFoodBloodShot; // 0x48
+		::RPG::Client::TextID EatingPerfect; // 0x58
+		::RPG::Client::TextID Thank; // 0x68
+		::RPG::Client::TextID CallStop; // 0x78
+		::RPG::Client::TextID WaiterPutDownFoodBloodShot; // 0x88
+		::RPG::Client::TextID Sleep; // 0x98
+		::System::UInt32 BehaviorID; // 0xA8
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID CleanTable; // 0x180
-		::RPG::Client::TextID SelectNo; // 0x190
-		::RPG::Client::TextID KeepInLinePerform; // 0x1A0
-		::RPG::Client::TextID Drink; // 0x1B0
+		::RPG::Client::TextID Complaint; // 0xB0
+		::RPG::Client::TextID Help; // 0xC0
+		::RPG::Client::TextID WaiterPutDownFoodNormal; // 0xD0
+		::RPG::Client::TextID ProcessEscapeBill; // 0xE0
+		::RPG::Client::TextID ProcessThank; // 0xF0
+		::RPG::Client::TextID LeavePerfect; // 0x100
+		::RPG::Client::TextID CleanTip; // 0x110
+		::RPG::Client::TextID TimeOverPerform; // 0x120
+		::RPG::Client::TextID Drink; // 0x130
+		::RPG::Client::TextID CleanTable; // 0x140
+		::RPG::Client::TextID CleanObstacle; // 0x150
+		::RPG::Client::TextID LeaveBloodShot; // 0x160
+		::RPG::Client::TextID SelectNo; // 0x170
+		::RPG::Client::TextID PutDownFoodNormal; // 0x180
+		::RPG::Client::TextID KeepInLinePerform; // 0x190
+		::RPG::Client::TextID SelectYes; // 0x1A0
+		::RPG::Client::TextID AngryLeave; // 0x1B0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTBEHAVIORCONFIGROW_CTOR_OFFSET))(this);

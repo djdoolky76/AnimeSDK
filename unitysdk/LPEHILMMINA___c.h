@@ -4,18 +4,18 @@
 class LPEHILMMINA;
 namespace System { class Object; }
 
-#define LPEHILMMINA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9CA9B0)
-#define LPEHILMMINA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9CA9F0)
-#define LPEHILMMINA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E9CAA00)
+#define LPEHILMMINA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCF0240)
+#define LPEHILMMINA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCF0280)
+#define LPEHILMMINA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FCF0290)
 
-inline static constexpr unsigned int LPEHILMMINA___c_TypeDefinitionIndex = 25113;
+inline static constexpr unsigned int LPEHILMMINA___c_TypeDefinitionIndex = 25591;
 
 	class LPEHILMMINA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x411E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47DE0);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KAKPKLCGAPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB02F0)
+#define KAKPKLCGAPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD81A00)
 
-inline static constexpr unsigned int KAKPKLCGAPK_TypeDefinitionIndex = 42339;
+inline static constexpr unsigned int KAKPKLCGAPK_TypeDefinitionIndex = 43314;
 
 	class KAKPKLCGAPK : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBattleItemProgressInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLFIDLEDHMI_CTOR_OFFSET UNITYSDK_OFFSET(0xF89EAA0)
-#define DLFIDLEDHMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF89EAD0)
+#define DLFIDLEDHMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1060E3C0)
+#define DLFIDLEDHMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1060E3F0)
 
-inline static constexpr unsigned int DLFIDLEDHMI_TypeDefinitionIndex = 55353;
+inline static constexpr unsigned int DLFIDLEDHMI_TypeDefinitionIndex = 56536;
 
 	class DLFIDLEDHMI
 	{

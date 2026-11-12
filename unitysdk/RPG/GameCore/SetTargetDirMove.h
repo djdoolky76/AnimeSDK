@@ -8,13 +8,13 @@ namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class SetTargetDirMove; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETDIRMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC5660)
-#define RPG_GAMECORE_SETTARGETDIRMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC5700)
-#define RPG_GAMECORE_SETTARGETDIRMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC55A0)
+#define RPG_GAMECORE_SETTARGETDIRMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD7660)
+#define RPG_GAMECORE_SETTARGETDIRMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD7700)
+#define RPG_GAMECORE_SETTARGETDIRMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD75A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetDirMove_TypeDefinitionIndex = 20172;
+	inline static constexpr unsigned int SetTargetDirMove_TypeDefinitionIndex = 20506;
 
 	class SetTargetDirMove : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
 
-inline static constexpr unsigned int NBLCBLIPBNB_TypeDefinitionIndex = 10844;
+inline static constexpr unsigned int NBLCBLIPBNB_TypeDefinitionIndex = 10860;
 
 	struct alignas(4) NBLCBLIPBNB
 	{

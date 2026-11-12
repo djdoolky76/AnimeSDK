@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 
-#define KGICAFNNGMB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB3ED7B0)
+#define KGICAFNNGMB_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC80660)
 
-inline static constexpr unsigned int KGICAFNNGMB_TypeDefinitionIndex = 57566;
+inline static constexpr unsigned int KGICAFNNGMB_TypeDefinitionIndex = 58794;
 
 	class KGICAFNNGMB : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_FCFEJCBJOFL()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KGICAFNNGMB")->GetStaticField(0x51A70);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KGICAFNNGMB")->GetStaticField(0x3C9D0);
 		}
 
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_KACNBNBIAIA()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KGICAFNNGMB")->GetStaticField(0x51A80);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KGICAFNNGMB")->GetStaticField(0x3C9E0);
 		}
 
 		static ::System::Void _cctor()

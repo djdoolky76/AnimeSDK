@@ -7,11 +7,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_SHELLFURRENDERERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE0BB450)
+#define RPG_CLIENT_SHELLFURRENDERERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xEB25BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShellFurRendererMonoPlugin_TypeDefinitionIndex = 70946;
+	inline static constexpr unsigned int ShellFurRendererMonoPlugin_TypeDefinitionIndex = 72925;
 
 	class ShellFurRendererMonoPlugin
 	{

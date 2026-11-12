@@ -4,18 +4,18 @@
 namespace System { class Version; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IDDNILEJNID_CTOR_OFFSET UNITYSDK_OFFSET(0x15EB5EF0)
-#define IDDNILEJNID_GODCHGIMIAJ_OFFSET UNITYSDK_OFFSET(0x15EB5AE0)
-#define IDDNILEJNID_JIAFJMICIGF_OFFSET UNITYSDK_OFFSET(0x15EB5E30)
-#define IDDNILEJNID_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EB5940)
+#define IDDNILEJNID_CTOR_OFFSET UNITYSDK_OFFSET(0x16E22680)
+#define IDDNILEJNID_GODCHGIMIAJ_OFFSET UNITYSDK_OFFSET(0x16E22270)
+#define IDDNILEJNID_JIAFJMICIGF_OFFSET UNITYSDK_OFFSET(0x16E225C0)
+#define IDDNILEJNID_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16E220D0)
 
-inline static constexpr unsigned int IDDNILEJNID_TypeDefinitionIndex = 82249;
+inline static constexpr unsigned int IDDNILEJNID_TypeDefinitionIndex = 85122;
 
 	class IDDNILEJNID : public ::JICKEGCLBMC
 	{
 	public:
-		::Il2CppArray<::System::Int32>* FIIKLMKCFNB; // 0x28
-		::Il2CppArray<::System::Int32>* KJMDDAHEODL; // 0x30
+		::Il2CppArray<::System::Int32>* KJMDDAHEODL; // 0x28
+		::Il2CppArray<::System::Int32>* FIIKLMKCFNB; // 0x30
 		::Il2CppArray<::System::Boolean>* OLMHNPNMACN; // 0x38
 		::System::Void _ctor()
 		{

@@ -9,28 +9,28 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5E510)
+#define CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__20_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3EAD890)
 #define CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__20_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Max__MaxAsync_d__20_TypeDefinitionIndex = 45427;
+	inline static constexpr unsigned int Max__MaxAsync_d__20_TypeDefinitionIndex = 46456;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20>
 	struct alignas(8) Max__MaxAsync_d__20
 	{
-		::System::Object* __7__wrap3; // 0x10
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Decimal>* source; // 0x18
-		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x28
-		::System::Object* __u__1; // 0x38
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Decimal>* source; // 0x10
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Decimal>* _e_5__3; // 0x18
+		::System::Object* __7__wrap3; // 0x20
+		::System::Object* __u__1; // 0x28
 		::System::Byte _padding0[0x8];
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Decimal> __t__builder; // 0x48
+		::System::Threading::CancellationToken cancellationToken; // 0x38
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Decimal> __t__builder; // 0x40
 		::System::Byte _padding1[0x18];
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Decimal>* _e_5__3; // 0x68
-		::System::Int32 __1__state; // 0x70
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x60
+		::System::Int32 __7__wrap4; // 0x70
 		::System::Decimal _value_5__2; // 0x74
-		::System::Int32 __7__wrap4; // 0x84
+		::System::Int32 __1__state; // 0x84
 		::System::Void MoveNext()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_LINQ_MAX__MAXASYNC_D__20_MOVENEXT_OFFSET))(this);

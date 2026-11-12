@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::UI::Internal::OS { class AccountListConfirm; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0036F0)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C003730)
-#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM___C__SHOW_B__28_0_OFFSET UNITYSDK_OFFSET(0x1C003740)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D18A6D0)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D18A710)
+#define MIHOYO_SDK_UI_INTERNAL_OS_ACCOUNTLISTCONFIRM___C__SHOW_B__28_0_OFFSET UNITYSDK_OFFSET(0x1D18A720)
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
-	inline static constexpr unsigned int AccountListConfirm___c_TypeDefinitionIndex = 8437;
+	inline static constexpr unsigned int AccountListConfirm___c_TypeDefinitionIndex = 8446;
 
 	class AccountListConfirm___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm*>** StaticGet___9__28_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm*>**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x183E0);
+			return (::System::Action_1<::MiHoYo::SDK::UI::Internal::OS::AccountListConfirm*>**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x20660);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x183E8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.UI.Internal.OS", "<>c")->GetStaticField(0x20668);
 		}
 
 		static ::System::Void _cctor()

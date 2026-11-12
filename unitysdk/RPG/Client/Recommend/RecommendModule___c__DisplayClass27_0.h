@@ -5,12 +5,12 @@ namespace RPG::Client { class RelicRecommendData; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 namespace RPG::Client::Recommend { class RecommendModule; }
 
-#define RPG_CLIENT_RECOMMEND_RECOMMENDMODULE___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE5EAA0)
-#define RPG_CLIENT_RECOMMEND_RECOMMENDMODULE___C__DISPLAYCLASS27_0__REQUESTRELICRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xDE60CC0)
+#define RPG_CLIENT_RECOMMEND_RECOMMENDMODULE___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C7FF0)
+#define RPG_CLIENT_RECOMMEND_RECOMMENDMODULE___C__DISPLAYCLASS27_0__REQUESTRELICRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xE8CA210)
 
 namespace RPG::Client::Recommend
 {
-	inline static constexpr unsigned int RecommendModule___c__DisplayClass27_0_TypeDefinitionIndex = 74462;
+	inline static constexpr unsigned int RecommendModule___c__DisplayClass27_0_TypeDefinitionIndex = 76610;
 
 	class RecommendModule___c__DisplayClass27_0 : public ::System::Object
 	{

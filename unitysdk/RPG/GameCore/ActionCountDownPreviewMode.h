@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionCountDownPreviewMode_TypeDefinitionIndex = 24775;
+	inline static constexpr unsigned int ActionCountDownPreviewMode_TypeDefinitionIndex = 25255;
 
 	enum class ActionCountDownPreviewMode : ::System::Int32
 	{

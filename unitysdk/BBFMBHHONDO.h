@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffectList; }
 
-#define BBFMBHHONDO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E86FF0)
-#define BBFMBHHONDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E87000)
-#define BBFMBHHONDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E87040)
-#define BBFMBHHONDO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E87760)
-#define BBFMBHHONDO_TICK_OFFSET UNITYSDK_OFFSET(0x15E877B0)
+#define BBFMBHHONDO_CTOR_OFFSET UNITYSDK_OFFSET(0x16D0B920)
+#define BBFMBHHONDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16D0B930)
+#define BBFMBHHONDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D0B970)
+#define BBFMBHHONDO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16D0C090)
+#define BBFMBHHONDO_TICK_OFFSET UNITYSDK_OFFSET(0x16D0C0E0)
 
-inline static constexpr unsigned int BBFMBHHONDO_TypeDefinitionIndex = 55730;
+inline static constexpr unsigned int BBFMBHHONDO_TypeDefinitionIndex = 56932;
 
 	class BBFMBHHONDO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TriggerEffectList* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TriggerEffectList* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Boolean LEIGKHEMCGE; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerEffectList* a2)
 		{

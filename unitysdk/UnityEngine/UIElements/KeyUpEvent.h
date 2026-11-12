@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_UIELEMENTS_KEYUPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4B8BE0)
+#define UNITYENGINE_UIELEMENTS_KEYUPEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x20768A60)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int KeyUpEvent_TypeDefinitionIndex = 5953;
+	inline static constexpr unsigned int KeyUpEvent_TypeDefinitionIndex = 5961;
 
 	class KeyUpEvent
 	{

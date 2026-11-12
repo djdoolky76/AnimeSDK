@@ -6,27 +6,27 @@ namespace RPG::Client { class Effect_Transform; }
 namespace RPG::GameCore { class TimelineOverrideEffectTransformOffsetParams; }
 namespace RPG::GameCore { class TimelineOverrideEffectTransformRotateParams; }
 
-#define IFAOLPBNLFG_BEKFLCJHBGH_OFFSET UNITYSDK_OFFSET(0x15F08D50)
-#define IFAOLPBNLFG_CTOR_OFFSET UNITYSDK_OFFSET(0x15F09050)
-#define IFAOLPBNLFG_DDAEKCFDBNP_OFFSET UNITYSDK_OFFSET(0x15F08F60)
-#define IFAOLPBNLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F08A80)
-#define IFAOLPBNLFG_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x15F08BE0)
-#define IFAOLPBNLFG_HNDNIFKJEIB_OFFSET UNITYSDK_OFFSET(0x15F08AE0)
-#define IFAOLPBNLFG_PGAKEIEKLPG_OFFSET UNITYSDK_OFFSET(0x15F08EC0)
+#define IFAOLPBNLFG_BEKFLCJHBGH_OFFSET UNITYSDK_OFFSET(0x16E77950)
+#define IFAOLPBNLFG_CTOR_OFFSET UNITYSDK_OFFSET(0x16E77C50)
+#define IFAOLPBNLFG_DDAEKCFDBNP_OFFSET UNITYSDK_OFFSET(0x16E77B60)
+#define IFAOLPBNLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E77680)
+#define IFAOLPBNLFG_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x16E777E0)
+#define IFAOLPBNLFG_HNDNIFKJEIB_OFFSET UNITYSDK_OFFSET(0x16E776E0)
+#define IFAOLPBNLFG_PGAKEIEKLPG_OFFSET UNITYSDK_OFFSET(0x16E77AC0)
 
-inline static constexpr unsigned int IFAOLPBNLFG_TypeDefinitionIndex = 57360;
+inline static constexpr unsigned int IFAOLPBNLFG_TypeDefinitionIndex = 58588;
 
 	class IFAOLPBNLFG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::RPG::Client::Effect_Transform* OIMCMKFHMDK; // 0x18
-		::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* EPNANOBCAHL; // 0x20
-		::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* GPHAAJKBEFA; // 0x28
-		::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* BDCOKLBALBP; // 0x30
-		::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* NDJHBLBHAPM; // 0x38
-		::System::Boolean JHEHFCGCDDG; // 0x40
-		::System::Boolean FGCNCDGJOAL; // 0x41
-		::System::Nullable_1<::System::Boolean> CMADHKDPFMM; // 0x42
+		::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* GPHAAJKBEFA; // 0x18
+		::RPG::GameCore::TimelineOverrideEffectTransformRotateParams* BDCOKLBALBP; // 0x20
+		::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* NDJHBLBHAPM; // 0x28
+		::RPG::GameCore::TimelineOverrideEffectTransformOffsetParams* EPNANOBCAHL; // 0x30
+		::RPG::Client::Effect_Transform* OIMCMKFHMDK; // 0x38
+		::System::Nullable_1<::System::Boolean> CMADHKDPFMM; // 0x40
+		::System::Boolean FGCNCDGJOAL; // 0x42
+		::System::Boolean JHEHFCGCDDG; // 0x43
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFAOLPBNLFG_CTOR_OFFSET))(this);

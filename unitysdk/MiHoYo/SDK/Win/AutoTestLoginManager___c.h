@@ -5,25 +5,25 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCDF4F0)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCDF530)
-#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__LOGOUT_B__11_0_OFFSET UNITYSDK_OFFSET(0x1BCDF540)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE683F0)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE68430)
+#define MIHOYO_SDK_WIN_AUTOTESTLOGINMANAGER___C__LOGOUT_B__11_0_OFFSET UNITYSDK_OFFSET(0x1CE68440)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AutoTestLoginManager___c_TypeDefinitionIndex = 9274;
+	inline static constexpr unsigned int AutoTestLoginManager___c_TypeDefinitionIndex = 9282;
 
 	class AutoTestLoginManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__11_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x188C0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x188C8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x26210);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__11_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x26218);
 		}
 
 		static ::System::Void _cctor()

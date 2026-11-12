@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Rendering/ShaderKeywordSet__m_Bits_e__FixedBuffer.h"
 #include "unitysdk/UnityEngine/Rendering/ShaderKeyword.h"
 
-#define UNITYENGINE_RENDERING_SHADERKEYWORDSET_COMPUTESLICEANDMASK_OFFSET UNITYSDK_OFFSET(0x3C79BB0)
-#define UNITYENGINE_RENDERING_SHADERKEYWORDSET_ENABLE_OFFSET UNITYSDK_OFFSET(0x3C79BD0)
+#define UNITYENGINE_RENDERING_SHADERKEYWORDSET_COMPUTESLICEANDMASK_OFFSET UNITYSDK_OFFSET(0x3EC8E50)
+#define UNITYENGINE_RENDERING_SHADERKEYWORDSET_ENABLE_OFFSET UNITYSDK_OFFSET(0x3EC8E70)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ShaderKeywordSet_TypeDefinitionIndex = 4897;
+	inline static constexpr unsigned int ShaderKeywordSet_TypeDefinitionIndex = 4902;
 
 	struct alignas(4) ShaderKeywordSet
 	{

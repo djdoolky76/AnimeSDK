@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LocationExtraConfig; }
 namespace RPG::GameCore { class ModifyDefaultTeamFormation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D896810)
-#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8968A0)
-#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D896750)
+#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB0BB0)
+#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB0C40)
+#define RPG_GAMECORE_MODIFYDEFAULTTEAMFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB0AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyDefaultTeamFormation_TypeDefinitionIndex = 22489;
+	inline static constexpr unsigned int ModifyDefaultTeamFormation_TypeDefinitionIndex = 22898;
 
 	class ModifyDefaultTeamFormation : public ::RPG::GameCore::TaskConfig
 	{

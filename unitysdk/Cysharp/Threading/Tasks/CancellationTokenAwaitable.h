@@ -8,7 +8,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int CancellationTokenAwaitable_TypeDefinitionIndex = 38136;
+	inline static constexpr unsigned int CancellationTokenAwaitable_TypeDefinitionIndex = 39065;
 
 	struct alignas(4) CancellationTokenAwaitable
 	{

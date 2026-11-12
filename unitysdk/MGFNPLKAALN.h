@@ -5,10 +5,10 @@ class FJFNJCPHFDM;
 class GAGKMDGBGFL;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define MGFNPLKAALN_CTOR_OFFSET UNITYSDK_OFFSET(0xB91ACA0)
-#define MGFNPLKAALN_FDLJEEGKKLI_OFFSET UNITYSDK_OFFSET(0xB91ACB0)
+#define MGFNPLKAALN_CTOR_OFFSET UNITYSDK_OFFSET(0xC1CE4C0)
+#define MGFNPLKAALN_FDLJEEGKKLI_OFFSET UNITYSDK_OFFSET(0xC1CE4D0)
 
-inline static constexpr unsigned int MGFNPLKAALN_TypeDefinitionIndex = 80224;
+inline static constexpr unsigned int MGFNPLKAALN_TypeDefinitionIndex = 83001;
 
 	class MGFNPLKAALN : public ::System::Object
 	{

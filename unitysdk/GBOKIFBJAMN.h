@@ -10,22 +10,22 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GBOKIFBJAMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15954A40)
-#define GBOKIFBJAMN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15954FE0)
-#define GBOKIFBJAMN_KGFJEKJDIGN_OFFSET UNITYSDK_OFFSET(0x15954AA0)
-#define GBOKIFBJAMN_MCGOFFADONA_OFFSET UNITYSDK_OFFSET(0x15954D00)
-#define GBOKIFBJAMN_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0x15954F10)
-#define GBOKIFBJAMN_TICK_OFFSET UNITYSDK_OFFSET(0x159551B0)
+#define GBOKIFBJAMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1688A780)
+#define GBOKIFBJAMN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1688B060)
+#define GBOKIFBJAMN_KGFJEKJDIGN_OFFSET UNITYSDK_OFFSET(0x1688A7E0)
+#define GBOKIFBJAMN_MCGOFFADONA_OFFSET UNITYSDK_OFFSET(0x1688AA40)
+#define GBOKIFBJAMN_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0x1688AC50)
+#define GBOKIFBJAMN_TICK_OFFSET UNITYSDK_OFFSET(0x1688B230)
 
-inline static constexpr unsigned int GBOKIFBJAMN_TypeDefinitionIndex = 77650;
+inline static constexpr unsigned int GBOKIFBJAMN_TypeDefinitionIndex = 80385;
 
 	class GBOKIFBJAMN : public ::System::Object
 	{
 	public:
-		::AFNDGNFOAKC* HFOFIODMFGB; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* OJKHNGNDDBI; // 0x18
-		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* HJLDCNBEMAO; // 0x20
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x28
+		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* HJLDCNBEMAO; // 0x10
+		::AFNDGNFOAKC* HFOFIODMFGB; // 0x18
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* OJKHNGNDDBI; // 0x28
 		// static const ::System::String* NHLLEBHIHDE; // 0x0
 		::System::Void _ctor(::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* a1)
 		{

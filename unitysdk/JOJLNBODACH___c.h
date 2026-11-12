@@ -4,23 +4,23 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define JOJLNBODACH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2A3EE0)
-#define JOJLNBODACH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A3F20)
-#define JOJLNBODACH___C__RESETLIGHTV1_B__13_0_OFFSET UNITYSDK_OFFSET(0xB2A3F30)
+#define JOJLNBODACH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBACFD50)
+#define JOJLNBODACH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBACFD90)
+#define JOJLNBODACH___C__RESETLIGHTV1_B__13_0_OFFSET UNITYSDK_OFFSET(0xBACFDA0)
 
-inline static constexpr unsigned int JOJLNBODACH___c_TypeDefinitionIndex = 49342;
+inline static constexpr unsigned int JOJLNBODACH___c_TypeDefinitionIndex = 50418;
 
 	class JOJLNBODACH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24740);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B510);
 		}
 
 		static ::System::Action** StaticGet___9__13_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24748);
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B518);
 		}
 
 		static ::System::Void _cctor()

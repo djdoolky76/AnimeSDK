@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SPINE_UNITY_ANIMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF7CD0)
+#define SPINE_UNITY_ANIMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFA7A30)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int AnimationData_TypeDefinitionIndex = 45033;
+	inline static constexpr unsigned int AnimationData_TypeDefinitionIndex = 46108;
 
 	class AnimationData : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingGameState.h"
 #include "unitysdk/System/Object.h"
 
-#define NANIBDOCKDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934D70)
+#define NANIBDOCKDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF6260)
 
-inline static constexpr unsigned int NANIBDOCKDK_TypeDefinitionIndex = 43745;
+inline static constexpr unsigned int NANIBDOCKDK_TypeDefinitionIndex = 44820;
 
 	class NANIBDOCKDK : public ::System::Object
 	{

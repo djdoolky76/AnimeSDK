@@ -7,12 +7,12 @@ namespace RPG::GameCore { class OptionalLoadBlocksConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OPTIONALLOADBLOCKSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E5850)
-#define RPG_GAMECORE_OPTIONALLOADBLOCKSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E5750)
+#define RPG_GAMECORE_OPTIONALLOADBLOCKSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAFE2F0)
+#define RPG_GAMECORE_OPTIONALLOADBLOCKSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAFE1F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OptionalLoadBlocksConfig_TypeDefinitionIndex = 19162;
+	inline static constexpr unsigned int OptionalLoadBlocksConfig_TypeDefinitionIndex = 19352;
 
 	class OptionalLoadBlocksConfig : public ::RPG::GameCore::JsonConfig
 	{

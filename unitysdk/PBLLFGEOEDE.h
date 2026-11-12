@@ -9,11 +9,11 @@ namespace RPG::Client::OpenWorld { class StreamingItemData; }
 namespace RPG::GameCore { class BlockNodeConfig; }
 namespace System { class String; }
 
-#define PBLLFGEOEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF28D0)
-#define PBLLFGEOEDE_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0xBFF2A70)
-#define PBLLFGEOEDE_GETASSETPATH_OFFSET UNITYSDK_OFFSET(0xBFF2910)
+#define PBLLFGEOEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F7140)
+#define PBLLFGEOEDE_GETAPPLYSTREAMINGLAYER_OFFSET UNITYSDK_OFFSET(0xC8F72E0)
+#define PBLLFGEOEDE_GETASSETPATH_OFFSET UNITYSDK_OFFSET(0xC8F7180)
 
-inline static constexpr unsigned int PBLLFGEOEDE_TypeDefinitionIndex = 73802;
+inline static constexpr unsigned int PBLLFGEOEDE_TypeDefinitionIndex = 75928;
 
 	class PBLLFGEOEDE : public ::GDKHHPPIFBC
 	{

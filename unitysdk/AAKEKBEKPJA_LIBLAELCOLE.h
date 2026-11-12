@@ -4,21 +4,21 @@
 #include "unitysdk/System/Object.h"
 class HCAJDCFFEAE;
 
-#define AAKEKBEKPJA_LIBLAELCOLE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CD090)
+#define AAKEKBEKPJA_LIBLAELCOLE_CTOR_OFFSET UNITYSDK_OFFSET(0xB72EAF0)
 
-inline static constexpr unsigned int AAKEKBEKPJA_LIBLAELCOLE_TypeDefinitionIndex = 81853;
+inline static constexpr unsigned int AAKEKBEKPJA_LIBLAELCOLE_TypeDefinitionIndex = 84634;
 
 	class AAKEKBEKPJA_LIBLAELCOLE : public ::System::Object
 	{
 	public:
 		::HCAJDCFFEAE* FFCBOJAACMD; // 0x10
-		::System::UInt32 GNAMNBDIEKG; // 0x18
-		::System::UInt32 GAFENHHEBPG; // 0x1C
-		::HPICFNLLMCO KDHPKOFLNFM; // 0x20
-		::System::UInt32 GBJLLAJJEOL; // 0x24
-		::System::UInt32 IPMHDPKNJLI; // 0x28
-		::System::Boolean OLMKCOHEIBI; // 0x2C
+		::System::Boolean OLMKCOHEIBI; // 0x18
 		::System::Byte _padding0[0x3];
+		::HPICFNLLMCO KDHPKOFLNFM; // 0x1C
+		::System::UInt32 GAFENHHEBPG; // 0x20
+		::System::UInt32 IPMHDPKNJLI; // 0x24
+		::System::UInt32 GBJLLAJJEOL; // 0x28
+		::System::UInt32 GNAMNBDIEKG; // 0x2C
 		::System::UInt32 JKIHICLOPKM; // 0x30
 		::System::Void _ctor()
 		{

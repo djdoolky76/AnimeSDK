@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RandomSelectFloorValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCNDDFJJOPK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C29600)
-#define HCNDDFJJOPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C29630)
+#define HCNDDFJJOPK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B6C930)
+#define HCNDDFJJOPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B6C960)
 
-inline static constexpr unsigned int HCNDDFJJOPK_TypeDefinitionIndex = 53193;
+inline static constexpr unsigned int HCNDDFJJOPK_TypeDefinitionIndex = 54355;
 
 	class HCNDDFJJOPK
 	{

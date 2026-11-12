@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xDC5E160)
+#define RPG_CLIENT_PROP_CHIMERADUELENTRANCECHIMERASLOT_CTOR_OFFSET UNITYSDK_OFFSET(0xE6FB530)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelEntranceChimeraSlot_TypeDefinitionIndex = 78319;
+	inline static constexpr unsigned int ChimeraDuelEntranceChimeraSlot_TypeDefinitionIndex = 81054;
 
 	class ChimeraDuelEntranceChimeraSlot : public ::UnityEngine::MonoBehaviour
 	{

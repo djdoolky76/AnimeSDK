@@ -6,12 +6,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_UICUSTOMCASTWITHHOLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE3966C0)
-#define RPG_CLIENT_UICUSTOMCASTWITHHOLE_UNITYENGINE_ICANVASRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xE396470)
+#define RPG_CLIENT_UICUSTOMCASTWITHHOLE_CTOR_OFFSET UNITYSDK_OFFSET(0xEE02B60)
+#define RPG_CLIENT_UICUSTOMCASTWITHHOLE_UNITYENGINE_ICANVASRAYCASTFILTER_ISRAYCASTLOCATIONVALID_OFFSET UNITYSDK_OFFSET(0xEE02910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UICustomCastWithHole_TypeDefinitionIndex = 69083;
+	inline static constexpr unsigned int UICustomCastWithHole_TypeDefinitionIndex = 71036;
 
 	class UICustomCastWithHole : public ::UnityEngine::MonoBehaviour
 	{

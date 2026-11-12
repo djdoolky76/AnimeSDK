@@ -5,63 +5,63 @@ namespace InControl { class PlayerTwoAxisAction; }
 namespace InControl { class TwoAxisInputControl; }
 namespace System { class String; }
 
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBE2990)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0xDBE1AE0)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_CAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xDBE2770)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_ISCAMERAACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xDBE2980)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_INIT_OFFSET UNITYSDK_OFFSET(0xDBE1B20)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_RESETCAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xDBE26C0)
-#define RPG_CLIENT_PLAYERADVENTUREACTIONS_SETCAMERAROTATIONACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xDBE2320)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE67E910)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0xE67DA50)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_CAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xE67E6F0)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_GET_ISCAMERAACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xE67E900)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_INIT_OFFSET UNITYSDK_OFFSET(0xE67DA90)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_RESETCAMERAROTATIONACTION_OFFSET UNITYSDK_OFFSET(0xE67E640)
+#define RPG_CLIENT_PLAYERADVENTUREACTIONS_SETCAMERAROTATIONACTIONOVERRIDE_OFFSET UNITYSDK_OFFSET(0xE67E2A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerAdventureActions_TypeDefinitionIndex = 61331;
+	inline static constexpr unsigned int PlayerAdventureActions_TypeDefinitionIndex = 62716;
 
 	class PlayerAdventureActions : public ::IIJLENHLAIJ
 	{
 	public:
-		::InControl::PlayerTwoAxisAction* _CameraRotationActionOverride; // 0x98
-		::InControl::TwoAxisInputControl* _CameraRotationActionOverridePsPlatform; // 0xA0
-		::InControl::PlayerTwoAxisAction* _CameraRotationAction; // 0xA8
+		::InControl::TwoAxisInputControl* _CameraRotationActionOverridePsPlatform; // 0x98
+		::InControl::PlayerTwoAxisAction* _CameraRotationAction; // 0xA0
+		::InControl::PlayerTwoAxisAction* _CameraRotationActionOverride; // 0xA8
 		::System::Boolean _IsCameraRotationActionOverride; // 0xB0
+		static ::System::String** StaticGet_LeftStickLeft()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x45380);
+		}
+
 		static ::System::String** StaticGet_RightStickUp()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x374E0);
-		}
-
-		static ::System::String** StaticGet_LeftStickDown()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x374E8);
-		}
-
-		static ::System::String** StaticGet_RightStickLeft()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x374F0);
-		}
-
-		static ::System::String** StaticGet_RightStickDown()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x374F8);
-		}
-
-		static ::System::String** StaticGet_LeftStickUp()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x37500);
-		}
-
-		static ::System::String** StaticGet_RightStickRight()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x37508);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x45388);
 		}
 
 		static ::System::String** StaticGet_LeftStickRight()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x37510);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x45390);
 		}
 
-		static ::System::String** StaticGet_LeftStickLeft()
+		static ::System::String** StaticGet_RightStickDown()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x37518);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x45398);
+		}
+
+		static ::System::String** StaticGet_LeftStickDown()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x453A0);
+		}
+
+		static ::System::String** StaticGet_RightStickLeft()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x453A8);
+		}
+
+		static ::System::String** StaticGet_LeftStickUp()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x453B0);
+		}
+
+		static ::System::String** StaticGet_RightStickRight()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PlayerAdventureActions")->GetStaticField(0x453B8);
 		}
 
 		::System::Void _ctor()

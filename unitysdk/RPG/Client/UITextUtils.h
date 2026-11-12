@@ -16,81 +16,81 @@ namespace System::Text::RegularExpressions { class Regex; }
 namespace UnityEngine { class TextGenerator; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_UITEXTUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE403300)
-#define RPG_CLIENT_UITEXTUTILS_CONVERTCHINESECH_OFFSET UNITYSDK_OFFSET(0xE4012C0)
-#define RPG_CLIENT_UITEXTUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xE4032F0)
-#define RPG_CLIENT_UITEXTUTILS_DOSEARCHSTRING_OFFSET UNITYSDK_OFFSET(0xE401200)
-#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXTWITHATMOSTTWOFULLNAMEUNITS_OFFSET UNITYSDK_OFFSET(0xE401770)
-#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0xE401300)
-#define RPG_CLIENT_UITEXTUTILS_GETROMANNUMBERTEXTID_OFFSET UNITYSDK_OFFSET(0xE401820)
-#define RPG_CLIENT_UITEXTUTILS_WRAP_OFFSET UNITYSDK_OFFSET(0xE400AF0)
-#define RPG_CLIENT_UITEXTUTILS__GENERATESTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0xE401F80)
-#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHCOMPLETEBODY_OFFSET UNITYSDK_OFFSET(0xE402BB0)
-#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHLEGALHEAD_OFFSET UNITYSDK_OFFSET(0xE402C60)
-#define RPG_CLIENT_UITEXTUTILS__GETWRAPPEDTEXTCONTENT_OFFSET UNITYSDK_OFFSET(0xE402560)
-#define RPG_CLIENT_UITEXTUTILS__INITTEXTADJUSTEDCONFIG_OFFSET UNITYSDK_OFFSET(0xE400CE0)
-#define RPG_CLIENT_UITEXTUTILS__ISHEADOFBODY_OFFSET UNITYSDK_OFFSET(0xE403200)
-#define RPG_CLIENT_UITEXTUTILS__POPULATENEWLINES_OFFSET UNITYSDK_OFFSET(0xE402F10)
-#define RPG_CLIENT_UITEXTUTILS__RESETTEXTCOLOR_OFFSET UNITYSDK_OFFSET(0xE401D50)
-#define RPG_CLIENT_UITEXTUTILS__SETSTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0xE4030E0)
-#define RPG_CLIENT_UITEXTUTILS__SETTEXTINVISIBLE_OFFSET UNITYSDK_OFFSET(0xE401000)
-#define RPG_CLIENT_UITEXTUTILS__SETTEXTWRAPPED_OFFSET UNITYSDK_OFFSET(0xE4018D0)
+#define RPG_CLIENT_UITEXTUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xEEBE800)
+#define RPG_CLIENT_UITEXTUTILS_CONVERTCHINESECH_OFFSET UNITYSDK_OFFSET(0xEEBC7C0)
+#define RPG_CLIENT_UITEXTUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xEEBE7F0)
+#define RPG_CLIENT_UITEXTUTILS_DOSEARCHSTRING_OFFSET UNITYSDK_OFFSET(0xEEBC700)
+#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXTWITHATMOSTTWOFULLNAMEUNITS_OFFSET UNITYSDK_OFFSET(0xEEBCC70)
+#define RPG_CLIENT_UITEXTUTILS_GETREMAINTIMETEXT_OFFSET UNITYSDK_OFFSET(0xEEBC800)
+#define RPG_CLIENT_UITEXTUTILS_GETROMANNUMBERTEXTID_OFFSET UNITYSDK_OFFSET(0xEEBCD20)
+#define RPG_CLIENT_UITEXTUTILS_WRAP_OFFSET UNITYSDK_OFFSET(0xEEBBFF0)
+#define RPG_CLIENT_UITEXTUTILS__GENERATESTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0xEEBD480)
+#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHCOMPLETEBODY_OFFSET UNITYSDK_OFFSET(0xEEBE0B0)
+#define RPG_CLIENT_UITEXTUTILS__GETNEWLINEINDEXWITHLEGALHEAD_OFFSET UNITYSDK_OFFSET(0xEEBE160)
+#define RPG_CLIENT_UITEXTUTILS__GETWRAPPEDTEXTCONTENT_OFFSET UNITYSDK_OFFSET(0xEEBDA60)
+#define RPG_CLIENT_UITEXTUTILS__INITTEXTADJUSTEDCONFIG_OFFSET UNITYSDK_OFFSET(0xEEBC1E0)
+#define RPG_CLIENT_UITEXTUTILS__ISHEADOFBODY_OFFSET UNITYSDK_OFFSET(0xEEBE700)
+#define RPG_CLIENT_UITEXTUTILS__POPULATENEWLINES_OFFSET UNITYSDK_OFFSET(0xEEBE410)
+#define RPG_CLIENT_UITEXTUTILS__RESETTEXTCOLOR_OFFSET UNITYSDK_OFFSET(0xEEBD250)
+#define RPG_CLIENT_UITEXTUTILS__SETSTRINGINDEXTOBODYHEADINDEXMAP_OFFSET UNITYSDK_OFFSET(0xEEBE5E0)
+#define RPG_CLIENT_UITEXTUTILS__SETTEXTINVISIBLE_OFFSET UNITYSDK_OFFSET(0xEEBC500)
+#define RPG_CLIENT_UITEXTUTILS__SETTEXTWRAPPED_OFFSET UNITYSDK_OFFSET(0xEEBCDD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UITextUtils_TypeDefinitionIndex = 73183;
+	inline static constexpr unsigned int UITextUtils_TypeDefinitionIndex = 75297;
 
 	class UITextUtils : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::Color>** StaticGet__OriginalColors()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Color>**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x41390);
-		}
-
-		static ::UnityEngine::TextGenerator** StaticGet__TextGenerator()
-		{
-			return (::UnityEngine::TextGenerator**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x41398);
-		}
-
 		static ::UnityEngine::TextGenerationSettings* StaticGet__TextSetting()
 		{
-			return (::UnityEngine::TextGenerationSettings*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x413A0);
-		}
-
-		static ::System::Text::StringBuilder** StaticGet__TextStringBuilder()
-		{
-			return (::System::Text::StringBuilder**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x41408);
-		}
-
-		static ::System::Collections::BitArray** StaticGet__StringIndexToBodyHeadIndex()
-		{
-			return (::System::Collections::BitArray**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x41410);
-		}
-
-		static ::Il2CppArray<::System::Text::RegularExpressions::Regex*>** StaticGet__Regexs()
-		{
-			return (::Il2CppArray<::System::Text::RegularExpressions::Regex*>**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x41418);
+			return (::UnityEngine::TextGenerationSettings*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x4BDE0);
 		}
 
 		static ::System::String** StaticGet__AvoidAtStartLineCharacters()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x41420);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x4BE48);
 		}
 
-		static ::UnityEngine::Color* StaticGet__INVISIBLE_COLOR()
+		static ::Il2CppArray<::System::Text::RegularExpressions::Regex*>** StaticGet__Regexs()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0xFE80);
+			return (::Il2CppArray<::System::Text::RegularExpressions::Regex*>**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x4BE50);
+		}
+
+		static ::UnityEngine::TextGenerator** StaticGet__TextGenerator()
+		{
+			return (::UnityEngine::TextGenerator**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x4BE58);
+		}
+
+		static ::System::Collections::BitArray** StaticGet__StringIndexToBodyHeadIndex()
+		{
+			return (::System::Collections::BitArray**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x4BE60);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Color>** StaticGet__OriginalColors()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Color>**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x4BE68);
+		}
+
+		static ::System::Text::StringBuilder** StaticGet__TextStringBuilder()
+		{
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0x4BE70);
 		}
 
 		static ::System::Int32* StaticGet__Offset()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0xFE90);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0xF670);
 		}
 
 		static ::System::Int32* StaticGet__BitmapLenth()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0xFE94);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0xF674);
+		}
+
+		static ::UnityEngine::Color* StaticGet__INVISIBLE_COLOR()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "UITextUtils")->GetStaticField(0xF678);
 		}
 
 		// static const ::System::Object _NEWLINE_CHARACTER; // 0x0

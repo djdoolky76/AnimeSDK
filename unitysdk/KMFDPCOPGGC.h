@@ -5,10 +5,10 @@
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMFDPCOPGGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB552920)
-#define KMFDPCOPGGC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB552930)
+#define KMFDPCOPGGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD9E510)
+#define KMFDPCOPGGC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD9E520)
 
-inline static constexpr unsigned int KMFDPCOPGGC_TypeDefinitionIndex = 61940;
+inline static constexpr unsigned int KMFDPCOPGGC_TypeDefinitionIndex = 63352;
 
 	class KMFDPCOPGGC : public ::System::Object
 	{

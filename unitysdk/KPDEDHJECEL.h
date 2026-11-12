@@ -4,11 +4,11 @@
 class BBBEMIEOGAG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KPDEDHJECEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B3830)
-#define KPDEDHJECEL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB5B3A50)
-#define KPDEDHJECEL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xB5B3A90)
+#define KPDEDHJECEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE07770)
+#define KPDEDHJECEL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBE07990)
+#define KPDEDHJECEL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xBE079D0)
 
-inline static constexpr unsigned int KPDEDHJECEL_TypeDefinitionIndex = 63356;
+inline static constexpr unsigned int KPDEDHJECEL_TypeDefinitionIndex = 64794;
 
 	class KPDEDHJECEL : public ::System::Object
 	{

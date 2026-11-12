@@ -10,30 +10,30 @@ namespace System { class Object; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Coroutine; }
 
-#define GJOEINJFJMO_BFEBJGOFFHH_OFFSET UNITYSDK_OFFSET(0x15A7AAC0)
-#define GJOEINJFJMO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A7AEF0)
-#define GJOEINJFJMO_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x15A7A680)
-#define GJOEINJFJMO_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x15A7A700)
-#define GJOEINJFJMO_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x15A7A7C0)
-#define GJOEINJFJMO_IJGLDFFKGHI_OFFSET UNITYSDK_OFFSET(0x15A7AE90)
-#define GJOEINJFJMO_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x15A7A9F0)
-#define GJOEINJFJMO_OFPDAFCJKEC_OFFSET UNITYSDK_OFFSET(0x15A7AD30)
-#define GJOEINJFJMO_PKKLNCNMNIH_OFFSET UNITYSDK_OFFSET(0x15A7ABD0)
-#define GJOEINJFJMO__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A7A550)
-#define GJOEINJFJMO__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15A7AA60)
+#define GJOEINJFJMO_BFEBJGOFFHH_OFFSET UNITYSDK_OFFSET(0x169B7A50)
+#define GJOEINJFJMO_CTOR_OFFSET UNITYSDK_OFFSET(0x169B7E80)
+#define GJOEINJFJMO_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x169B7690)
+#define GJOEINJFJMO_IJGLDFFKGHI_OFFSET UNITYSDK_OFFSET(0x169B7E20)
+#define GJOEINJFJMO_KANMCJHEFJJ_OFFSET UNITYSDK_OFFSET(0x169B7980)
+#define GJOEINJFJMO_OFPDAFCJKEC_OFFSET UNITYSDK_OFFSET(0x169B7CC0)
+#define GJOEINJFJMO_PKKLNCNMNIH_OFFSET UNITYSDK_OFFSET(0x169B7B60)
+#define GJOEINJFJMO__ONBIND_OFFSET UNITYSDK_OFFSET(0x169B72B0)
+#define GJOEINJFJMO__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x169B79F0)
+#define GJOEINJFJMO__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x169B7610)
+#define GJOEINJFJMO__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x169B7750)
 
-inline static constexpr unsigned int GJOEINJFJMO_TypeDefinitionIndex = 72362;
+inline static constexpr unsigned int GJOEINJFJMO_TypeDefinitionIndex = 74441;
 
 	class GJOEINJFJMO : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::MonoInControlButton* FDBAPJJPMMG; // 0x60
-		::RPG::GameCore::AvatarDemoConfigRow* IBPBJBOKKMF; // 0x68
+		::RPG::GameCore::AvatarDemoConfigRow* IBPBJBOKKMF; // 0x60
+		::RPG::Client::AnimatorButton* CHBLDOPEEBE; // 0x68
 		::RPG::Client::MonoInControlButton* HPODAOJOJMN; // 0x70
 		::RPG::Client::LocalizedText* DMCFNALLLMO; // 0x78
 		::UnityEngine::Coroutine* FCDGNGBHHJD; // 0x80
-		::RPG::Client::AnimatorButton* HPMCPFLHFPO; // 0x88
-		::RPG::Client::AnimatorButton* CHBLDOPEEBE; // 0x90
+		::RPG::Client::MonoInControlButton* FDBAPJJPMMG; // 0x88
+		::RPG::Client::AnimatorButton* HPMCPFLHFPO; // 0x90
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0x98
 		::System::Boolean KMIJLOANOJD; // 0xA0
 		::System::Void _ctor()
@@ -46,9 +46,9 @@ inline static constexpr unsigned int GJOEINJFJMO_TypeDefinitionIndex = 72362;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJOEINJFJMO__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + GJOEINJFJMO_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + GJOEINJFJMO__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void ECOHEIAHIAO()
@@ -56,9 +56,9 @@ inline static constexpr unsigned int GJOEINJFJMO_TypeDefinitionIndex = 72362;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJOEINJFJMO_ECOHEIAHIAO_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJOEINJFJMO_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJOEINJFJMO__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void _OnDispose()

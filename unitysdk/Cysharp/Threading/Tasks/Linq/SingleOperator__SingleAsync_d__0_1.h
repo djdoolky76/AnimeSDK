@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SingleOperator__SingleAsync_d__0_1_TypeDefinitionIndex = 45575;
+	inline static constexpr unsigned int SingleOperator__SingleAsync_d__0_1_TypeDefinitionIndex = 46604;
 
 	template <typename T>
 	struct alignas(8) SingleOperator__SingleAsync_d__0_1

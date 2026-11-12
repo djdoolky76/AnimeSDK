@@ -10,31 +10,31 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define GOJNGCCBOGI_BMLMCGPJFKP_OFFSET UNITYSDK_OFFSET(0x15B38A90)
-#define GOJNGCCBOGI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B38B20)
-#define GOJNGCCBOGI_GET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x15B38770)
-#define GOJNGCCBOGI_KLBGGOCANPP_OFFSET UNITYSDK_OFFSET(0x15B38910)
-#define GOJNGCCBOGI_OADMODNIPPM_OFFSET UNITYSDK_OFFSET(0x15B38790)
-#define GOJNGCCBOGI_OFAKOAMLFEC_OFFSET UNITYSDK_OFFSET(0x15B38AD0)
-#define GOJNGCCBOGI_SET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x15B38780)
+#define GOJNGCCBOGI_BMLMCGPJFKP_OFFSET UNITYSDK_OFFSET(0x16ABEDD0)
+#define GOJNGCCBOGI_CTOR_OFFSET UNITYSDK_OFFSET(0x16ABEE60)
+#define GOJNGCCBOGI_GET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x16ABEAB0)
+#define GOJNGCCBOGI_KLBGGOCANPP_OFFSET UNITYSDK_OFFSET(0x16ABEC50)
+#define GOJNGCCBOGI_OADMODNIPPM_OFFSET UNITYSDK_OFFSET(0x16ABEAD0)
+#define GOJNGCCBOGI_OFAKOAMLFEC_OFFSET UNITYSDK_OFFSET(0x16ABEE10)
+#define GOJNGCCBOGI_SET_MERGEDCOUNT_OFFSET UNITYSDK_OFFSET(0x16ABEAC0)
 
-inline static constexpr unsigned int GOJNGCCBOGI_TypeDefinitionIndex = 71543;
+inline static constexpr unsigned int GOJNGCCBOGI_TypeDefinitionIndex = 73527;
 
 	class GOJNGCCBOGI : public ::System::Object
 	{
 	public:
 		::System::String* GHGOKMODGJK; // 0x10
 		::FOPJIACKHCC* NJGPHAIEOBP; // 0x18
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x20
-		::Il2CppArray<::System::Object*>* MOJOOLJFAIG; // 0x28
-		::System::Single HKGPLKJOCDH; // 0x30
-		::RPG::GameCore::EnumStatusType EGBFNFCEPHD; // 0x34
-		::System::UInt32 _MergedCount_k__BackingField; // 0x38
-		::System::Single GHOOBAHOGAM; // 0x3C
-		::RPG::Client::TextID ANAJAIHNJLK; // 0x40
-		::System::Boolean BAGHDLLONAC; // 0x50
-		::System::Boolean EAMEABKBBEJ; // 0x51
+		::Il2CppArray<::System::Object*>* MOJOOLJFAIG; // 0x20
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x28
+		::System::Single GHOOBAHOGAM; // 0x30
+		::System::Single HKGPLKJOCDH; // 0x34
+		::RPG::GameCore::EnumStatusType EGBFNFCEPHD; // 0x38
+		::System::Boolean BAGHDLLONAC; // 0x3C
+		::System::Boolean EAMEABKBBEJ; // 0x3D
 		::System::Byte _padding0[0x2];
+		::RPG::Client::TextID ANAJAIHNJLK; // 0x40
+		::System::UInt32 _MergedCount_k__BackingField; // 0x50
 		::RPG::GameCore::FloatMessageType GBJBHFGLNDP; // 0x54
 		::System::Void _ctor()
 		{

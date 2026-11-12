@@ -6,9 +6,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define IFPOBJGHJME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0CCD0)
+#define IFPOBJGHJME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCD1740)
 
-inline static constexpr unsigned int IFPOBJGHJME_TypeDefinitionIndex = 42080;
+inline static constexpr unsigned int IFPOBJGHJME_TypeDefinitionIndex = 43055;
 
 	class IFPOBJGHJME : public ::System::Object
 	{

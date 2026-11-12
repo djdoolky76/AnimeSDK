@@ -3,9 +3,9 @@
 #include "unitysdk/System/ConsoleKeyInfo.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NULLCONSOLEDRIVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C280ED0)
-#define SYSTEM_NULLCONSOLEDRIVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C280EC0)
-#define SYSTEM_NULLCONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1C280E50)
+#define SYSTEM_NULLCONSOLEDRIVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D407BA0)
+#define SYSTEM_NULLCONSOLEDRIVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D407B90)
+#define SYSTEM_NULLCONSOLEDRIVER_READKEY_OFFSET UNITYSDK_OFFSET(0x1D407B20)
 
 namespace System
 {
@@ -16,7 +16,7 @@ namespace System
 	public:
 		static ::System::ConsoleKeyInfo* StaticGet_EmptyConsoleKeyInfo()
 		{
-			return (::System::ConsoleKeyInfo*)UnitySDK::FromName("System", "NullConsoleDriver")->GetStaticField(0x55D0);
+			return (::System::ConsoleKeyInfo*)UnitySDK::FromName("System", "NullConsoleDriver")->GetStaticField(0x5580);
 		}
 
 		::System::Void _ctor()

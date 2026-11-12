@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetNpcExists; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JNJBFLONKFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2861A0)
-#define JNJBFLONKFB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2861D0)
+#define JNJBFLONKFB_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB0410)
+#define JNJBFLONKFB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBAB0440)
 
-inline static constexpr unsigned int JNJBFLONKFB_TypeDefinitionIndex = 54726;
+inline static constexpr unsigned int JNJBFLONKFB_TypeDefinitionIndex = 55893;
 
 	class JNJBFLONKFB
 	{

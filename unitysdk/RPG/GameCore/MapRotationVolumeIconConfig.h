@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationVolumeIconConfig; }
 
-#define RPG_GAMECORE_MAPROTATIONVOLUMEICONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8309C0)
-#define RPG_GAMECORE_MAPROTATIONVOLUMEICONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D830860)
+#define RPG_GAMECORE_MAPROTATIONVOLUMEICONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4B400)
+#define RPG_GAMECORE_MAPROTATIONVOLUMEICONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA4B2A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationVolumeIconConfig_TypeDefinitionIndex = 17035;
+	inline static constexpr unsigned int MapRotationVolumeIconConfig_TypeDefinitionIndex = 17202;
 
 	class MapRotationVolumeIconConfig : public ::RPG::GameCore::JsonConfig
 	{

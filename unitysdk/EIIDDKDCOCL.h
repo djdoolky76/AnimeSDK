@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EIIDDKDCOCL_CTOR_OFFSET UNITYSDK_OFFSET(0x154CBD80)
+#define EIIDDKDCOCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1640C660)
 
-inline static constexpr unsigned int EIIDDKDCOCL_TypeDefinitionIndex = 75394;
+inline static constexpr unsigned int EIIDDKDCOCL_TypeDefinitionIndex = 77721;
 
 	class EIIDDKDCOCL : public ::System::Object
 	{

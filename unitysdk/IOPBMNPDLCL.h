@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetSummonUnitAutoHide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IOPBMNPDLCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1651BE30)
-#define IOPBMNPDLCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1651BE60)
+#define IOPBMNPDLCL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8504B0)
+#define IOPBMNPDLCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8504E0)
 
-inline static constexpr unsigned int IOPBMNPDLCL_TypeDefinitionIndex = 58580;
+inline static constexpr unsigned int IOPBMNPDLCL_TypeDefinitionIndex = 59845;
 
 	class IOPBMNPDLCL
 	{

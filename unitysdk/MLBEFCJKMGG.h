@@ -3,9 +3,9 @@
 #include "unitysdk/OEEKHELGHKF.h"
 #include "unitysdk/System/Object.h"
 
-#define MLBEFCJKMGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C990)
+#define MLBEFCJKMGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEDE80)
 
-inline static constexpr unsigned int MLBEFCJKMGG_TypeDefinitionIndex = 42025;
+inline static constexpr unsigned int MLBEFCJKMGG_TypeDefinitionIndex = 43000;
 
 	class MLBEFCJKMGG : public ::System::Object
 	{

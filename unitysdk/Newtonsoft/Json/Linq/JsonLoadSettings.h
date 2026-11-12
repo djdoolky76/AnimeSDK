@@ -4,19 +4,19 @@
 #include "unitysdk/Newtonsoft/Json/Linq/LineInfoHandling.h"
 #include "unitysdk/System/Object.h"
 
-#define NEWTONSOFT_JSON_LINQ_JSONLOADSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D0790)
-#define NEWTONSOFT_JSON_LINQ_JSONLOADSETTINGS_GET_COMMENTHANDLING_OFFSET UNITYSDK_OFFSET(0x1C3D0770)
-#define NEWTONSOFT_JSON_LINQ_JSONLOADSETTINGS_GET_LINEINFOHANDLING_OFFSET UNITYSDK_OFFSET(0x1C3D0780)
+#define NEWTONSOFT_JSON_LINQ_JSONLOADSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5570A0)
+#define NEWTONSOFT_JSON_LINQ_JSONLOADSETTINGS_GET_COMMENTHANDLING_OFFSET UNITYSDK_OFFSET(0x1D557080)
+#define NEWTONSOFT_JSON_LINQ_JSONLOADSETTINGS_GET_LINEINFOHANDLING_OFFSET UNITYSDK_OFFSET(0x1D557090)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JsonLoadSettings_TypeDefinitionIndex = 9754;
+	inline static constexpr unsigned int JsonLoadSettings_TypeDefinitionIndex = 9762;
 
 	class JsonLoadSettings : public ::System::Object
 	{
 	public:
-		::Newtonsoft::Json::Linq::CommentHandling _commentHandling; // 0x10
-		::Newtonsoft::Json::Linq::LineInfoHandling _lineInfoHandling; // 0x14
+		::Newtonsoft::Json::Linq::LineInfoHandling _lineInfoHandling; // 0x10
+		::Newtonsoft::Json::Linq::CommentHandling _commentHandling; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_LINQ_JSONLOADSETTINGS_CTOR_OFFSET))(this);

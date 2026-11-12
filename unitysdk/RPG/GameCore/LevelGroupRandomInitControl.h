@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelGroupRandomInitControl; }
 
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B1A00)
-#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7B17D0)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F4A20)
+#define RPG_GAMECORE_LEVELGROUPRANDOMINITCONTROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9F4810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupRandomInitControl_TypeDefinitionIndex = 17329;
+	inline static constexpr unsigned int LevelGroupRandomInitControl_TypeDefinitionIndex = 17497;
 
 	class LevelGroupRandomInitControl : public ::RPG::GameCore::JsonConfig
 	{

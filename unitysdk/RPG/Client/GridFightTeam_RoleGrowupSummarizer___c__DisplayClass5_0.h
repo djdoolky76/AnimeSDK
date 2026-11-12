@@ -5,12 +5,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD29D050)
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0__UPDATEBEFORE_B__0_OFFSET UNITYSDK_OFFSET(0xD29DFA0)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCADF00)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER___C__DISPLAYCLASS5_0__UPDATEBEFORE_B__0_OFFSET UNITYSDK_OFFSET(0xDCAEE40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer___c__DisplayClass5_0_TypeDefinitionIndex = 65163;
+	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer___c__DisplayClass5_0_TypeDefinitionIndex = 66859;
 
 	class GridFightTeam_RoleGrowupSummarizer___c__DisplayClass5_0 : public ::System::Object
 	{

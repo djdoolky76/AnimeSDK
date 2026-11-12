@@ -8,12 +8,12 @@ class GOOGNAIABBN;
 namespace RPG::GameCore { class PixAirMissleConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRMISSLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91CBE0)
-#define RPG_GAMECORE_PIXAIRMISSLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91C7F0)
+#define RPG_GAMECORE_PIXAIRMISSLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB35CF0)
+#define RPG_GAMECORE_PIXAIRMISSLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB35A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirMissleConfig_TypeDefinitionIndex = 21397;
+	inline static constexpr unsigned int PixAirMissleConfig_TypeDefinitionIndex = 21740;
 
 	class PixAirMissleConfig : public ::RPG::GameCore::JsonConfig
 	{

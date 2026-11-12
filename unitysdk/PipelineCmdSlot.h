@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PipelineCmdSlot_TypeDefinitionIndex = 37477;
+inline static constexpr unsigned int PipelineCmdSlot_TypeDefinitionIndex = 38405;
 
 	enum class PipelineCmdSlot : ::System::Int32
 	{

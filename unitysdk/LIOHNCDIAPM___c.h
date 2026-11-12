@@ -4,18 +4,18 @@
 class LIOHNCDIAPM;
 namespace System { class Object; }
 
-#define LIOHNCDIAPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E973770)
-#define LIOHNCDIAPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9737B0)
-#define LIOHNCDIAPM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9737C0)
+#define LIOHNCDIAPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC947C0)
+#define LIOHNCDIAPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC94800)
+#define LIOHNCDIAPM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC94810)
 
-inline static constexpr unsigned int LIOHNCDIAPM___c_TypeDefinitionIndex = 33385;
+inline static constexpr unsigned int LIOHNCDIAPM___c_TypeDefinitionIndex = 34300;
 
 	class LIOHNCDIAPM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46090);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37570);
 		}
 
 		static ::System::Void _cctor()

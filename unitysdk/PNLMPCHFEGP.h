@@ -5,24 +5,24 @@
 class BOJKDLCIJCN;
 namespace System { class String; }
 
-#define PNLMPCHFEGP_CTOR_OFFSET UNITYSDK_OFFSET(0xC34D780)
-#define PNLMPCHFEGP_DKDLBLLMPNE_OFFSET UNITYSDK_OFFSET(0xC34D860)
-#define PNLMPCHFEGP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC34D810)
-#define PNLMPCHFEGP_GHLBAAJGKJG_OFFSET UNITYSDK_OFFSET(0xC34D7B0)
-#define PNLMPCHFEGP_MNLDMBGAJIF_OFFSET UNITYSDK_OFFSET(0xC34D820)
+#define PNLMPCHFEGP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC80670)
+#define PNLMPCHFEGP_DKDLBLLMPNE_OFFSET UNITYSDK_OFFSET(0xCC80750)
+#define PNLMPCHFEGP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCC80700)
+#define PNLMPCHFEGP_GHLBAAJGKJG_OFFSET UNITYSDK_OFFSET(0xCC806A0)
+#define PNLMPCHFEGP_MNLDMBGAJIF_OFFSET UNITYSDK_OFFSET(0xCC80710)
 
-inline static constexpr unsigned int PNLMPCHFEGP_TypeDefinitionIndex = 62127;
+inline static constexpr unsigned int PNLMPCHFEGP_TypeDefinitionIndex = 63540;
 
 	class PNLMPCHFEGP : public ::System::Object
 	{
 	public:
-		::System::String* _Name_k__BackingField; // 0x10
-		::BOJKDLCIJCN* PBJAENMIKEJ; // 0x18
-		::RPG::GameCore::GroupPropertySide EGHDMDEJICM; // 0x20
-		::System::Int16 NDOGICGCDIP; // 0x24
-		::System::Int16 AIKAPJELHNK; // 0x26
-		::System::Int16 BFLNNOEKIGE; // 0x28
+		::BOJKDLCIJCN* PBJAENMIKEJ; // 0x10
+		::System::String* _Name_k__BackingField; // 0x18
+		::System::Int16 NDOGICGCDIP; // 0x20
 		::System::Byte _padding0[0x2];
+		::RPG::GameCore::GroupPropertySide EGHDMDEJICM; // 0x24
+		::System::Int16 BFLNNOEKIGE; // 0x28
+		::System::Int16 AIKAPJELHNK; // 0x2A
 		::System::UInt32 LLDCHLHNADA; // 0x2C
 		::System::Void _ctor(::System::UInt32 a1, ::System::String* a2, ::System::Int16 a3, ::System::Int16 a4, ::System::Int16 a5, ::RPG::GameCore::GroupPropertySide a6)
 		{

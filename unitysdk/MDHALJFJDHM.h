@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class GJBCDOPBIFG;
 
-#define MDHALJFJDHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924CC0)
+#define MDHALJFJDHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE61E0)
 
-inline static constexpr unsigned int MDHALJFJDHM_TypeDefinitionIndex = 43411;
+inline static constexpr unsigned int MDHALJFJDHM_TypeDefinitionIndex = 44392;
 
 	class MDHALJFJDHM : public ::System::Object
 	{

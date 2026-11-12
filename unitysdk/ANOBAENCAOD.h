@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ANOBAENCAOD_TypeDefinitionIndex = 24705;
+inline static constexpr unsigned int ANOBAENCAOD_TypeDefinitionIndex = 25180;
 
 	enum class ANOBAENCAOD : ::System::Int32
 	{

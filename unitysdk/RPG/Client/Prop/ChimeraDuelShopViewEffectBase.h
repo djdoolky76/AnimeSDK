@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWEFFECTBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC731D0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWEFFECTBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xE70FDB0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopViewEffectBase_TypeDefinitionIndex = 78363;
+	inline static constexpr unsigned int ChimeraDuelShopViewEffectBase_TypeDefinitionIndex = 81098;
 
 	class ChimeraDuelShopViewEffectBase : public ::System::Object
 	{

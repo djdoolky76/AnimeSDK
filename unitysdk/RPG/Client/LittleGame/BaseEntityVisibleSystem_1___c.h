@@ -9,7 +9,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseEntityVisibleSystem_1___c_TypeDefinitionIndex = 42088;
+	inline static constexpr unsigned int BaseEntityVisibleSystem_1___c_TypeDefinitionIndex = 43063;
 
 	template <typename T>
 	class BaseEntityVisibleSystem_1___c : public ::System::Object

@@ -4,7 +4,7 @@
 class LJJLPCBDFAJ;
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int FEFCMIHAJLN_TypeDefinitionIndex = 69917;
+inline static constexpr unsigned int FEFCMIHAJLN_TypeDefinitionIndex = 71876;
 
 	struct alignas(8) FEFCMIHAJLN
 	{

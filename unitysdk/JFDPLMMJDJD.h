@@ -6,22 +6,21 @@ class FCOEMCEDLNL;
 class JFDPLMMJDJD;
 namespace System { class String; }
 
-#define JFDPLMMJDJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D023360)
-#define JFDPLMMJDJD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D023060)
+#define JFDPLMMJDJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E210650)
+#define JFDPLMMJDJD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E210350)
 
-inline static constexpr unsigned int JFDPLMMJDJD_TypeDefinitionIndex = 12018;
+inline static constexpr unsigned int JFDPLMMJDJD_TypeDefinitionIndex = 12075;
 
 	class JFDPLMMJDJD : public ::System::Object
 	{
 	public:
 		::System::String* OOLEAPLDIEA; // 0x10
-		::System::UInt32 BNLCCCCMABF; // 0x18
-		::System::Boolean BEDKAABCNDD; // 0x1C
+		::System::Boolean BEDKAABCNDD; // 0x18
 		::System::Byte _padding0[0x3];
+		::System::UInt32 PHFMCACHFIJ; // 0x1C
 		::RPG::Client::TextID JMBJBDDMNLO; // 0x20
-		::System::UInt32 PHFMCACHFIJ; // 0x30
-		::System::Byte _padding1[0x4];
-		::RPG::Client::TextID OENAMINOLLF; // 0x38
+		::RPG::Client::TextID OENAMINOLLF; // 0x30
+		::System::UInt32 BNLCCCCMABF; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFDPLMMJDJD_CTOR_OFFSET))(this);

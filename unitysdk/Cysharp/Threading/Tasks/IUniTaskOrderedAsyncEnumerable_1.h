@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IUniTaskOrderedAsyncEnumerable_1_TypeDefinitionIndex = 38164;
+	inline static constexpr unsigned int IUniTaskOrderedAsyncEnumerable_1_TypeDefinitionIndex = 39093;
 
 	template <typename T>
 	class IUniTaskOrderedAsyncEnumerable_1

@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/Client/Pet/PetInstanceIdentifier.h"
 namespace Proto { class Item; }
 
-#define LKEHADCKJBP_GKPPCEAGAOK_OFFSET UNITYSDK_OFFSET(0xB72ED30)
+#define LKEHADCKJBP_GKPPCEAGAOK_OFFSET UNITYSDK_OFFSET(0xBFCBC20)
 
-inline static constexpr unsigned int LKEHADCKJBP_TypeDefinitionIndex = 75665;
+inline static constexpr unsigned int LKEHADCKJBP_TypeDefinitionIndex = 77992;
 
 	class LKEHADCKJBP : public ::System::Object
 	{

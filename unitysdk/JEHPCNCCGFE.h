@@ -6,11 +6,11 @@ namespace RPG::GameCore { class FloorCustomValueConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define JEHPCNCCGFE_CTOR_OFFSET UNITYSDK_OFFSET(0x16627E80)
-#define JEHPCNCCGFE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16627F00)
-#define JEHPCNCCGFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x16628500)
+#define JEHPCNCCGFE_CTOR_OFFSET UNITYSDK_OFFSET(0xB96D250)
+#define JEHPCNCCGFE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB96D2D0)
+#define JEHPCNCCGFE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB96D8D0)
 
-inline static constexpr unsigned int JEHPCNCCGFE_TypeDefinitionIndex = 62091;
+inline static constexpr unsigned int JEHPCNCCGFE_TypeDefinitionIndex = 63504;
 
 	class JEHPCNCCGFE : public ::System::Object
 	{

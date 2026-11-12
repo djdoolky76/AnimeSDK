@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsEnableNegativeHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define INOKOAAAHEA_CTOR_OFFSET UNITYSDK_OFFSET(0x164F87B0)
-#define INOKOAAAHEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164F87E0)
+#define INOKOAAAHEA_CTOR_OFFSET UNITYSDK_OFFSET(0xB829C30)
+#define INOKOAAAHEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB829C60)
 
-inline static constexpr unsigned int INOKOAAAHEA_TypeDefinitionIndex = 55018;
+inline static constexpr unsigned int INOKOAAAHEA_TypeDefinitionIndex = 56192;
 
 	class INOKOAAAHEA
 	{

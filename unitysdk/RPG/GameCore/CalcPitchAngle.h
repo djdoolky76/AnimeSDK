@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CalcPitchAngle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CALCPITCHANGLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5547B0)
-#define RPG_GAMECORE_CALCPITCHANGLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5547C0)
-#define RPG_GAMECORE_CALCPITCHANGLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D554780)
+#define RPG_GAMECORE_CALCPITCHANGLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7667B0)
+#define RPG_GAMECORE_CALCPITCHANGLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7667C0)
+#define RPG_GAMECORE_CALCPITCHANGLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E766780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalcPitchAngle_TypeDefinitionIndex = 20244;
+	inline static constexpr unsigned int CalcPitchAngle_TypeDefinitionIndex = 20579;
 
 	class CalcPitchAngle : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareHeartDialTracingNPC; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KPMNMDPGCPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C23A0)
-#define KPMNMDPGCPH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB5C23D0)
+#define KPMNMDPGCPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE16C50)
+#define KPMNMDPGCPH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE16C80)
 
-inline static constexpr unsigned int KPMNMDPGCPH_TypeDefinitionIndex = 52571;
+inline static constexpr unsigned int KPMNMDPGCPH_TypeDefinitionIndex = 53677;
 
 	class KPMNMDPGCPH
 	{

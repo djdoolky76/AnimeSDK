@@ -4,10 +4,10 @@
 #include "unitysdk/FDRIStateOperation.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define FDRIMATSTATEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x156E4490)
-#define FDRIMATSTATEOPERATION_IJCPIKBPLOP_OFFSET UNITYSDK_OFFSET(0x156E4410)
+#define FDRIMATSTATEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x165FE3D0)
+#define FDRIMATSTATEOPERATION_IJCPIKBPLOP_OFFSET UNITYSDK_OFFSET(0x165FE360)
 
-inline static constexpr unsigned int FDRIMatStateOperation_TypeDefinitionIndex = 47113;
+inline static constexpr unsigned int FDRIMatStateOperation_TypeDefinitionIndex = 48141;
 
 	class FDRIMatStateOperation : public ::FDRIStateOperation
 	{

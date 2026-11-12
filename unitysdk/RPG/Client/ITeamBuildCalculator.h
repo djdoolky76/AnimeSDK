@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITeamBuildCalculator_TypeDefinitionIndex = 68081;
+	inline static constexpr unsigned int ITeamBuildCalculator_TypeDefinitionIndex = 70027;
 
 	class ITeamBuildCalculator
 	{

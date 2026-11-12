@@ -4,18 +4,18 @@
 class GBPAJNPKPOB;
 namespace System { class Object; }
 
-#define GBPAJNPKPOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E434C70)
-#define GBPAJNPKPOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E434CB0)
-#define GBPAJNPKPOB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E434CC0)
+#define GBPAJNPKPOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F722B40)
+#define GBPAJNPKPOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F722B80)
+#define GBPAJNPKPOB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F722B90)
 
-inline static constexpr unsigned int GBPAJNPKPOB___c_TypeDefinitionIndex = 31862;
+inline static constexpr unsigned int GBPAJNPKPOB___c_TypeDefinitionIndex = 32775;
 
 	class GBPAJNPKPOB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE6A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55BC0);
 		}
 
 		static ::System::Void _cctor()

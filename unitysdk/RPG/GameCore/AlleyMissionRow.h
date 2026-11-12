@@ -4,22 +4,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyMissionRow; }
 
-#define RPG_GAMECORE_ALLEYMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E8A90)
-#define RPG_GAMECORE_ALLEYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E8400)
+#define RPG_GAMECORE_ALLEYMISSIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E608E30)
+#define RPG_GAMECORE_ALLEYMISSIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6087A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMissionRow_TypeDefinitionIndex = 12608;
+	inline static constexpr unsigned int AlleyMissionRow_TypeDefinitionIndex = 12675;
 
 	class AlleyMissionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EventEffect; // 0x10
-		::System::Boolean IsMissionTrack; // 0x18
-		::System::Boolean IsUrgent; // 0x19
+		::System::Boolean IsUrgent; // 0x18
+		::System::Boolean IsMissionTrack; // 0x19
 		::System::Byte _padding0[0x2];
-		::System::UInt32 MissionID; // 0x1C
-		::System::UInt32 NextMission; // 0x20
+		::System::UInt32 NextMission; // 0x1C
+		::System::UInt32 MissionID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYMISSIONROW_CTOR_OFFSET))(this);

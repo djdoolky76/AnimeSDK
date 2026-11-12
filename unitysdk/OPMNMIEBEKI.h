@@ -9,19 +9,19 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define OPMNMIEBEKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3F40)
-#define OPMNMIEBEKI_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0xBFB43D0)
-#define OPMNMIEBEKI_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xBFB3FC0)
-#define OPMNMIEBEKI__SELECTENTITYIDS_B__4_2_OFFSET UNITYSDK_OFFSET(0xBFB4450)
+#define OPMNMIEBEKI_CTOR_OFFSET UNITYSDK_OFFSET(0xC8B5560)
+#define OPMNMIEBEKI_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0xC8B59F0)
+#define OPMNMIEBEKI_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xC8B55E0)
+#define OPMNMIEBEKI__SELECTENTITYIDS_B__4_2_OFFSET UNITYSDK_OFFSET(0xC8B5A70)
 
-inline static constexpr unsigned int OPMNMIEBEKI_TypeDefinitionIndex = 77644;
+inline static constexpr unsigned int OPMNMIEBEKI_TypeDefinitionIndex = 80379;
 
 	class OPMNMIEBEKI : public ::OCFMCBFNLND
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* PIJFBMKEOIE; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* IBKPFCOIKOI; // 0x38
-		::System::Collections::Generic::Queue_1<::PEBLIEJAJPK*>* JIOFGGJAALC; // 0x40
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* IBKPFCOIKOI; // 0x30
+		::System::Collections::Generic::Queue_1<::PEBLIEJAJPK*>* JIOFGGJAALC; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* PIJFBMKEOIE; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPMNMIEBEKI_CTOR_OFFSET))(this);

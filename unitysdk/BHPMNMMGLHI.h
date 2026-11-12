@@ -7,11 +7,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BHPMNMMGLHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB493F40)
-#define BHPMNMMGLHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB493DF0)
-#define BHPMNMMGLHI_OFBAIDIPKBI_OFFSET UNITYSDK_OFFSET(0xB493CE0)
+#define BHPMNMMGLHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBE27110)
+#define BHPMNMMGLHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE26FC0)
+#define BHPMNMMGLHI_OFBAIDIPKBI_OFFSET UNITYSDK_OFFSET(0xBE26EB0)
 
-inline static constexpr unsigned int BHPMNMMGLHI_TypeDefinitionIndex = 49678;
+inline static constexpr unsigned int BHPMNMMGLHI_TypeDefinitionIndex = 50754;
 
 	class BHPMNMMGLHI : public ::System::Object
 	{

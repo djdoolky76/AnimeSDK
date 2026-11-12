@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Text::RegularExpressions { class Regex; }
 
-inline static constexpr unsigned int DOLFKMFBIPC_TypeDefinitionIndex = 68361;
+inline static constexpr unsigned int DOLFKMFBIPC_TypeDefinitionIndex = 70307;
 
 	struct alignas(8) DOLFKMFBIPC
 	{

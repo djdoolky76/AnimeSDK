@@ -4,18 +4,18 @@
 class HIEKLHPINHL;
 namespace System { class Object; }
 
-#define HIEKLHPINHL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5932A0)
-#define HIEKLHPINHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5932D0)
-#define HIEKLHPINHL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5932E0)
+#define HIEKLHPINHL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F88DF90)
+#define HIEKLHPINHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F88DFC0)
+#define HIEKLHPINHL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F88DFD0)
 
-inline static constexpr unsigned int HIEKLHPINHL___c_TypeDefinitionIndex = 33949;
+inline static constexpr unsigned int HIEKLHPINHL___c_TypeDefinitionIndex = 34864;
 
 	class HIEKLHPINHL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C4B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30FC0);
 		}
 
 		static ::System::Void _cctor()

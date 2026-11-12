@@ -5,17 +5,17 @@ class KAKADGHNMFK;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define FDGPOGKILAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156D76B0)
-#define FDGPOGKILAJ_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x156D77F0)
-#define FDGPOGKILAJ_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x156D7730)
+#define FDGPOGKILAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x165F1250)
+#define FDGPOGKILAJ_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x165F1390)
+#define FDGPOGKILAJ_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x165F12D0)
 
-inline static constexpr unsigned int FDGPOGKILAJ_TypeDefinitionIndex = 77627;
+inline static constexpr unsigned int FDGPOGKILAJ_TypeDefinitionIndex = 80362;
 
 	class FDGPOGKILAJ : public ::OCFMCBFNLND
 	{
 	public:
-		::System::Int32 HPGPKEPIBBP; // 0x30
-		::System::Int32 CPHFHKFOCNP; // 0x34
+		::System::Int32 CPHFHKFOCNP; // 0x30
+		::System::Int32 HPGPKEPIBBP; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FDGPOGKILAJ_CTOR_OFFSET))(this);

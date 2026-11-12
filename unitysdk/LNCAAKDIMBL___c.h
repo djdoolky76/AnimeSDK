@@ -4,18 +4,18 @@
 class LNCAAKDIMBL;
 namespace System { class Object; }
 
-#define LNCAAKDIMBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9B1850)
-#define LNCAAKDIMBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9B1890)
-#define LNCAAKDIMBL___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E9B18A0)
+#define LNCAAKDIMBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCD5AD0)
+#define LNCAAKDIMBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCD5B10)
+#define LNCAAKDIMBL___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1FCD5B20)
 
-inline static constexpr unsigned int LNCAAKDIMBL___c_TypeDefinitionIndex = 28081;
+inline static constexpr unsigned int LNCAAKDIMBL___c_TypeDefinitionIndex = 28671;
 
 	class LNCAAKDIMBL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FD70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42650);
 		}
 
 		static ::System::Void _cctor()

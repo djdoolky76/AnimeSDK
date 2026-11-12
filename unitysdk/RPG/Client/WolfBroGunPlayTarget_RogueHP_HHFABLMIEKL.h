@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_HHFABLMIEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_HHFABLMIEKL_CTOR_OFFSET UNITYSDK_OFFSET(0x12B00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_HHFABLMIEKL_TypeDefinitionIndex = 68734;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_HHFABLMIEKL_TypeDefinitionIndex = 70686;
 
 	struct alignas(4) WolfBroGunPlayTarget_RogueHP_HHFABLMIEKL
 	{

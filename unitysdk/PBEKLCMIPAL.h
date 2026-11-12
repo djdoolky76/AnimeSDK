@@ -10,72 +10,72 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::Text { class StringBuilder; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define PBEKLCMIPAL_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFEB870)
-#define PBEKLCMIPAL_CDLLNIDGONB_OFFSET UNITYSDK_OFFSET(0xBFEAF50)
-#define PBEKLCMIPAL_DKHAAPAIFOG_OFFSET UNITYSDK_OFFSET(0xBFEB380)
-#define PBEKLCMIPAL_ELEPDOMDAGA_1_OFFSET UNITYSDK_OFFSET(0xBFEAAC0)
-#define PBEKLCMIPAL_ELEPDOMDAGA_2_OFFSET UNITYSDK_OFFSET(0xBFEAD40)
-#define PBEKLCMIPAL_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xBFEA6E0)
-#define PBEKLCMIPAL_KJHFONLPFDG_OFFSET UNITYSDK_OFFSET(0xBFEA950)
-#define PBEKLCMIPAL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBFEAE90)
-#define PBEKLCMIPAL_NBJBJFMJIDF_1_OFFSET UNITYSDK_OFFSET(0xBFEAB70)
-#define PBEKLCMIPAL_NBJBJFMJIDF_OFFSET UNITYSDK_OFFSET(0xBFEA790)
-#define PBEKLCMIPAL_OAFHHCFIJBC_1_OFFSET UNITYSDK_OFFSET(0xBFEB400)
-#define PBEKLCMIPAL_OAFHHCFIJBC_OFFSET UNITYSDK_OFFSET(0xBFEB0E0)
+#define PBEKLCMIPAL_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8EF450)
+#define PBEKLCMIPAL_CDLLNIDGONB_OFFSET UNITYSDK_OFFSET(0xC8EEB00)
+#define PBEKLCMIPAL_DKHAAPAIFOG_OFFSET UNITYSDK_OFFSET(0xC8EEF60)
+#define PBEKLCMIPAL_ELEPDOMDAGA_1_OFFSET UNITYSDK_OFFSET(0xC8EE670)
+#define PBEKLCMIPAL_ELEPDOMDAGA_2_OFFSET UNITYSDK_OFFSET(0xC8EE8F0)
+#define PBEKLCMIPAL_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xC8EE290)
+#define PBEKLCMIPAL_KJHFONLPFDG_OFFSET UNITYSDK_OFFSET(0xC8EE500)
+#define PBEKLCMIPAL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC8EEA40)
+#define PBEKLCMIPAL_NBJBJFMJIDF_1_OFFSET UNITYSDK_OFFSET(0xC8EE720)
+#define PBEKLCMIPAL_NBJBJFMJIDF_OFFSET UNITYSDK_OFFSET(0xC8EE340)
+#define PBEKLCMIPAL_OAFHHCFIJBC_1_OFFSET UNITYSDK_OFFSET(0xC8EEFE0)
+#define PBEKLCMIPAL_OAFHHCFIJBC_OFFSET UNITYSDK_OFFSET(0xC8EECC0)
 
-inline static constexpr unsigned int PBEKLCMIPAL_TypeDefinitionIndex = 51709;
+inline static constexpr unsigned int PBEKLCMIPAL_TypeDefinitionIndex = 52794;
 
 	class PBEKLCMIPAL : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_DDGKONKNNIM()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623C0);
+		}
+
 		static ::System::Collections::Generic::Queue_1<::System::String*>** StaticGet_LHKEFIECHNO()
 		{
-			return (::System::Collections::Generic::Queue_1<::System::String*>**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64440);
+			return (::System::Collections::Generic::Queue_1<::System::String*>**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623C8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_IKOCAOENCFG()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64448);
-		}
-
-		static ::System::Uri** StaticGet_BFIKAFECNLC()
-		{
-			return (::System::Uri**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64450);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_DDGKONKNNIM()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64458);
-		}
-
-		static ::System::String** StaticGet_OCHOHJFMMIM()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64460);
-		}
-
-		static ::System::String** StaticGet_EAPFHMKBKNE()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64468);
-		}
-
-		static ::System::Text::StringBuilder** StaticGet_BKLIGLDOEGF()
-		{
-			return (::System::Text::StringBuilder**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64470);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623D0);
 		}
 
 		static ::UnityEngine::Networking::UnityWebRequest** StaticGet_PCLIEKPBNIB()
 		{
-			return (::UnityEngine::Networking::UnityWebRequest**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64478);
+			return (::UnityEngine::Networking::UnityWebRequest**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623D8);
+		}
+
+		static ::System::Text::StringBuilder** StaticGet_BKLIGLDOEGF()
+		{
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623E0);
 		}
 
 		static ::OLGBOBMGFIA** StaticGet_ONOJFGCGJOB()
 		{
-			return (::OLGBOBMGFIA**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x64480);
+			return (::OLGBOBMGFIA**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623E8);
+		}
+
+		static ::System::String** StaticGet_EAPFHMKBKNE()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623F0);
+		}
+
+		static ::System::Uri** StaticGet_BFIKAFECNLC()
+		{
+			return (::System::Uri**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x623F8);
+		}
+
+		static ::System::String** StaticGet_OCHOHJFMMIM()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x62400);
 		}
 
 		static ::System::Boolean* StaticGet_NJGPOCALKFE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x14BE0);
+			return (::System::Boolean*)UnitySDK::FromName("", "PBEKLCMIPAL")->GetStaticField(0x14570);
 		}
 
 		static ::System::Void _cctor()

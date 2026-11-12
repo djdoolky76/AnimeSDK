@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvRemoveEffectList; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AC8E0)
-#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3AC8F0)
-#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AC8B0)
+#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BBE10)
+#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5BBE20)
+#define RPG_GAMECORE_ADVREMOVEEFFECTLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5BBDE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvRemoveEffectList_TypeDefinitionIndex = 22318;
+	inline static constexpr unsigned int AdvRemoveEffectList_TypeDefinitionIndex = 22723;
 
 	class AdvRemoveEffectList : public ::RPG::GameCore::TaskConfig
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BindPropsCablelines; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_BINDPROPSCABLELINES_CTOR_OFFSET UNITYSDK_OFFSET(0x1D46D180)
-#define RPG_GAMECORE_BINDPROPSCABLELINES_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D46D1E0)
-#define RPG_GAMECORE_BINDPROPSCABLELINES_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D46D100)
+#define RPG_GAMECORE_BINDPROPSCABLELINES_CTOR_OFFSET UNITYSDK_OFFSET(0x1E67CDA0)
+#define RPG_GAMECORE_BINDPROPSCABLELINES_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E67CE00)
+#define RPG_GAMECORE_BINDPROPSCABLELINES_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E67CD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BindPropsCablelines_TypeDefinitionIndex = 21269;
+	inline static constexpr unsigned int BindPropsCablelines_TypeDefinitionIndex = 21612;
 
 	class BindPropsCablelines : public ::RPG::GameCore::TaskConfig
 	{

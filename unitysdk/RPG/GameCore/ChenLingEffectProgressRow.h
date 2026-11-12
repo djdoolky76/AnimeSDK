@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingEffectProgressRow; }
 
-#define RPG_GAMECORE_CHENLINGEFFECTPROGRESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58BA30)
-#define RPG_GAMECORE_CHENLINGEFFECTPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58B850)
+#define RPG_GAMECORE_CHENLINGEFFECTPROGRESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E79BE70)
+#define RPG_GAMECORE_CHENLINGEFFECTPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E79BC90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingEffectProgressRow_TypeDefinitionIndex = 11037;
+	inline static constexpr unsigned int ChenLingEffectProgressRow_TypeDefinitionIndex = 11053;
 
 	class ChenLingEffectProgressRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* ActionIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* ActionIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
 		::System::UInt32 Progress; // 0x20
 		::System::UInt32 ID; // 0x24
 		::System::Void _ctor()

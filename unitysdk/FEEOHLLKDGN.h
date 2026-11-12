@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define FEEOHLLKDGN_CTOR_OFFSET UNITYSDK_OFFSET(0x156E8880)
-#define FEEOHLLKDGN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x156E8890)
+#define FEEOHLLKDGN_CTOR_OFFSET UNITYSDK_OFFSET(0x16602780)
+#define FEEOHLLKDGN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x16602790)
 
-inline static constexpr unsigned int FEEOHLLKDGN_TypeDefinitionIndex = 56639;
+inline static constexpr unsigned int FEEOHLLKDGN_TypeDefinitionIndex = 57861;
 
 	class FEEOHLLKDGN : public ::HMFOPIJNNDI
 	{

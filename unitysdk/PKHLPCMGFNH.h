@@ -3,10 +3,10 @@
 class CKPAKDEDMDA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKHLPCMGFNH_CTOR_OFFSET UNITYSDK_OFFSET(0xC2BB0D0)
-#define PKHLPCMGFNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2BB100)
+#define PKHLPCMGFNH_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE5E50)
+#define PKHLPCMGFNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBE5E80)
 
-inline static constexpr unsigned int PKHLPCMGFNH_TypeDefinitionIndex = 52943;
+inline static constexpr unsigned int PKHLPCMGFNH_TypeDefinitionIndex = 54102;
 
 	class PKHLPCMGFNH
 	{

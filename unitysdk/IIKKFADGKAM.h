@@ -5,21 +5,21 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class ConditionLoopExecuteTaskListWithInterval; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIKKFADGKAM_CMEFBBBDBDL_OFFSET UNITYSDK_OFFSET(0x16441300)
-#define IIKKFADGKAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16441130)
-#define IIKKFADGKAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16441590)
-#define IIKKFADGKAM_INFHHPFKMMG_OFFSET UNITYSDK_OFFSET(0x164415E0)
-#define IIKKFADGKAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16441200)
+#define IIKKFADGKAM_CMEFBBBDBDL_OFFSET UNITYSDK_OFFSET(0x173FCB60)
+#define IIKKFADGKAM_CTOR_OFFSET UNITYSDK_OFFSET(0x173FC990)
+#define IIKKFADGKAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173FCDA0)
+#define IIKKFADGKAM_INFHHPFKMMG_OFFSET UNITYSDK_OFFSET(0x173FCDF0)
+#define IIKKFADGKAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173FCA60)
 
-inline static constexpr unsigned int IIKKFADGKAM_TypeDefinitionIndex = 54974;
+inline static constexpr unsigned int IIKKFADGKAM_TypeDefinitionIndex = 56148;
 
 	class IIKKFADGKAM : public ::JODABDCOPOP
 	{
 	public:
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x30
-		::RPG::GameCore::ConditionLoopExecuteTaskListWithInterval* OFKGLJOAMLD; // 0x38
-		::System::Int32 DLANCNECDDA; // 0x40
-		::System::Int32 CALNAPHILLA; // 0x44
+		::RPG::GameCore::ConditionLoopExecuteTaskListWithInterval* OFKGLJOAMLD; // 0x30
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x38
+		::System::Int32 CALNAPHILLA; // 0x40
+		::System::Int32 DLANCNECDDA; // 0x44
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ConditionLoopExecuteTaskListWithInterval* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ConditionLoopExecuteTaskListWithInterval*))((::PBYTE)hIl2Cpp + IIKKFADGKAM_CTOR_OFFSET))(this, a1, a2);

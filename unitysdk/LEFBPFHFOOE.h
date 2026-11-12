@@ -7,17 +7,17 @@ class ODENMFMNMDF;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LEFBPFHFOOE_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xB64F2D0)
-#define LEFBPFHFOOE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB64F550)
+#define LEFBPFHFOOE_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xBEE5C80)
+#define LEFBPFHFOOE_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEE5F00)
 
-inline static constexpr unsigned int LEFBPFHFOOE_TypeDefinitionIndex = 82155;
+inline static constexpr unsigned int LEFBPFHFOOE_TypeDefinitionIndex = 85028;
 
 	class LEFBPFHFOOE : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::ODENMFMNMDF*>** StaticGet_EBEKFJIIIFJ()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::ODENMFMNMDF*>**)UnitySDK::FromName("", "LEFBPFHFOOE")->GetStaticField(0x588F0);
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::ODENMFMNMDF*>**)UnitySDK::FromName("", "LEFBPFHFOOE")->GetStaticField(0x58A10);
 		}
 
 		static ::System::Void _cctor()

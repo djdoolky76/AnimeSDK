@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleEntityPromotionWhiteBoxData; }
 
-#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D456BB0)
-#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D455F60)
+#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6665F0)
+#define RPG_GAMECORE_BATTLEENTITYPROMOTIONWHITEBOXDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6659A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleEntityPromotionWhiteBoxData_TypeDefinitionIndex = 22752;
+	inline static constexpr unsigned int BattleEntityPromotionWhiteBoxData_TypeDefinitionIndex = 23174;
 
 	class BattleEntityPromotionWhiteBoxData : public ::RPG::GameCore::JsonConfig
 	{

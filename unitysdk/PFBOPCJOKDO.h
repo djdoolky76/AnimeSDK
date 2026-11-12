@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class SomatoCommonCameraConfig; }
 
-#define PFBOPCJOKDO_CTOR_OFFSET UNITYSDK_OFFSET(0xC207600)
+#define PFBOPCJOKDO_CTOR_OFFSET UNITYSDK_OFFSET(0xCAE9AA0)
 
-inline static constexpr unsigned int PFBOPCJOKDO_TypeDefinitionIndex = 56490;
+inline static constexpr unsigned int PFBOPCJOKDO_TypeDefinitionIndex = 57710;
 
 	class PFBOPCJOKDO : public ::System::Object
 	{

@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ILBattleAvatarTagConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D775B80)
-#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D775980)
+#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9892C0)
+#define RPG_GAMECORE_ILBATTLEAVATARTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9890C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarTagConfigRow_TypeDefinitionIndex = 13786;
+	inline static constexpr unsigned int ILBattleAvatarTagConfigRow_TypeDefinitionIndex = 13943;
 
 	class ILBattleAvatarTagConfigRow : public ::System::Object
 	{

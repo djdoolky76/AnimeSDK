@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BlendDefinitionInfo; }
 
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE8704B0)
-#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___C__DISPLAYCLASS7_0__SETBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xE870E80)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF33A170)
+#define RPG_GAMECORE_UI3DVIRTUALCAMERACOMPONENT___C__DISPLAYCLASS7_0__SETBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xF33AB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UI3DVirtualCameraComponent___c__DisplayClass7_0_TypeDefinitionIndex = 57555;
+	inline static constexpr unsigned int UI3DVirtualCameraComponent___c__DisplayClass7_0_TypeDefinitionIndex = 58783;
 
 	class UI3DVirtualCameraComponent___c__DisplayClass7_0 : public ::System::Object
 	{

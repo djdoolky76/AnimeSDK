@@ -4,11 +4,11 @@ namespace RPG::GameCore { class AdvDistrictEnableTrigger; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GADBICACCGG_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0x15936AC0)
-#define GADBICACCGG_CTOR_OFFSET UNITYSDK_OFFSET(0x15936A90)
-#define GADBICACCGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15937170)
+#define GADBICACCGG_CMMJFAELBKE_OFFSET UNITYSDK_OFFSET(0x1686A580)
+#define GADBICACCGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1686A550)
+#define GADBICACCGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1686AC30)
 
-inline static constexpr unsigned int GADBICACCGG_TypeDefinitionIndex = 52349;
+inline static constexpr unsigned int GADBICACCGG_TypeDefinitionIndex = 53455;
 
 	class GADBICACCGG
 	{

@@ -4,9 +4,9 @@
 class LKFPICOFNDF;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KBKINBPDEIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E70)
+#define KBKINBPDEIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD82590)
 
-inline static constexpr unsigned int KBKINBPDEIC_TypeDefinitionIndex = 43734;
+inline static constexpr unsigned int KBKINBPDEIC_TypeDefinitionIndex = 44809;
 
 	class KBKINBPDEIC : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BJJIBNNEOGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB9C0)
-#define BJJIBNNEOGL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C8BBC60)
-#define BJJIBNNEOGL_FILTER_OFFSET UNITYSDK_OFFSET(0x1C8BBB60)
-#define BJJIBNNEOGL_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C8BBA40)
+#define BJJIBNNEOGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3C6E0)
+#define BJJIBNNEOGL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DA3C980)
+#define BJJIBNNEOGL_FILTER_OFFSET UNITYSDK_OFFSET(0x1DA3C880)
+#define BJJIBNNEOGL_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1DA3C760)
 
-inline static constexpr unsigned int BJJIBNNEOGL_TypeDefinitionIndex = 42864;
+inline static constexpr unsigned int BJJIBNNEOGL_TypeDefinitionIndex = 43845;
 
 	class BJJIBNNEOGL
 	{

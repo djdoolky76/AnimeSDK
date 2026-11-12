@@ -7,16 +7,16 @@ namespace RPG::GameCore::Match3 { class PieceConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DJDFAOHODOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2AAE0)
+#define DJDFAOHODOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBEE310)
 
-inline static constexpr unsigned int DJDFAOHODOI_TypeDefinitionIndex = 42231;
+inline static constexpr unsigned int DJDFAOHODOI_TypeDefinitionIndex = 43206;
 
 	class DJDFAOHODOI : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::GameCore::Match3::BombCreateConfig*>* ONPIFMABMAI; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::Match3::PieceConfig*>* LECMLKMFCPL; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::Match3::PieceConfig*>* MHBPGEBBFJE; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::Match3::PieceConfig*>* MHBPGEBBFJE; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::Match3::PieceConfig*>* LECMLKMFCPL; // 0x20
 		::RPG::GameCore::Match3::Match3Config* LFPIDNKDMOA; // 0x28
 		::System::Void _ctor()
 		{

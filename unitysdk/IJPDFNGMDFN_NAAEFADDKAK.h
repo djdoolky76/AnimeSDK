@@ -5,26 +5,26 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x164770C0)
-#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1647B890)
-#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1647B900)
-#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_4_OFFSET UNITYSDK_OFFSET(0x16480D50)
-#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x16480CE0)
+#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x17449A60)
+#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1744E220)
+#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1744E290)
+#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_4_OFFSET UNITYSDK_OFFSET(0x174536B0)
+#define IJPDFNGMDFN_NAAEFADDKAK_CTOR_OFFSET UNITYSDK_OFFSET(0x17453640)
 
-inline static constexpr unsigned int IJPDFNGMDFN_NAAEFADDKAK_TypeDefinitionIndex = 58494;
+inline static constexpr unsigned int IJPDFNGMDFN_NAAEFADDKAK_TypeDefinitionIndex = 59750;
 
 	class IJPDFNGMDFN_NAAEFADDKAK : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* AJIKDOPMGMA; // 0x10
 		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
-		::System::Single IDKONBFPBLH; // 0x20
-		::UnityEngine::Vector3 HFOMPEEAPCG; // 0x24
-		::System::Int32 BHMKFNONGKJ; // 0x30
-		::System::Boolean BEIHEDFDKNM; // 0x34
-		::System::Boolean NPMDJDEEEAN; // 0x35
+		::System::Boolean NPMDJDEEEAN; // 0x20
+		::System::Boolean BEIHEDFDKNM; // 0x21
 		::System::Byte _padding0[0x2];
-		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x38
+		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x24
+		::System::Single IDKONBFPBLH; // 0x30
+		::System::Int32 BHMKFNONGKJ; // 0x34
+		::UnityEngine::Vector3 HFOMPEEAPCG; // 0x38
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::UnityEngine::Vector3 a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + IJPDFNGMDFN_NAAEFADDKAK_CTOR_OFFSET))(this, a1, a2, a3);

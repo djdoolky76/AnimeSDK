@@ -4,18 +4,18 @@
 class MCHAMBDHPEN;
 namespace System { class Object; }
 
-#define MCHAMBDHPEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9F7490)
-#define MCHAMBDHPEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F74D0)
-#define MCHAMBDHPEN___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1E9F74E0)
+#define MCHAMBDHPEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD40C70)
+#define MCHAMBDHPEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD40CB0)
+#define MCHAMBDHPEN___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1FD40CC0)
 
-inline static constexpr unsigned int MCHAMBDHPEN___c_TypeDefinitionIndex = 25131;
+inline static constexpr unsigned int MCHAMBDHPEN___c_TypeDefinitionIndex = 25609;
 
 	class MCHAMBDHPEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x478C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E540);
 		}
 
 		static ::System::Void _cctor()

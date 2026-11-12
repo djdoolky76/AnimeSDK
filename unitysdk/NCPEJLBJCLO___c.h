@@ -4,18 +4,18 @@
 class NCPEJLBJCLO;
 namespace System { class Object; }
 
-#define NCPEJLBJCLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAE2B20)
-#define NCPEJLBJCLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE2B60)
-#define NCPEJLBJCLO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAE2B70)
+#define NCPEJLBJCLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE22180)
+#define NCPEJLBJCLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE221C0)
+#define NCPEJLBJCLO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FE221D0)
 
-inline static constexpr unsigned int NCPEJLBJCLO___c_TypeDefinitionIndex = 34195;
+inline static constexpr unsigned int NCPEJLBJCLO___c_TypeDefinitionIndex = 35123;
 
 	class NCPEJLBJCLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D3F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68560);
 		}
 
 		static ::System::Void _cctor()

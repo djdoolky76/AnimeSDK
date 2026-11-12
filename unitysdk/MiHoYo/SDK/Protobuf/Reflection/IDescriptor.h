@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int IDescriptor_TypeDefinitionIndex = 35835;
+	inline static constexpr unsigned int IDescriptor_TypeDefinitionIndex = 36763;
 
 	class IDescriptor
 	{

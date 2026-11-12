@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define IGHIPNLAAPC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB755A0)
+#define IGHIPNLAAPC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3BB80)
 
-inline static constexpr unsigned int IGHIPNLAAPC_TypeDefinitionIndex = 42793;
+inline static constexpr unsigned int IGHIPNLAAPC_TypeDefinitionIndex = 43773;
 
 	class IGHIPNLAAPC : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IGHIPNLAAPC")->GetStaticField(0x2FF20);
-		}
-
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IGHIPNLAAPC")->GetStaticField(0x2FF28);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IGHIPNLAAPC")->GetStaticField(0x25070);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IGHIPNLAAPC")->GetStaticField(0x25078);
 		}
 
 		// static const ::System::Object ALLMFEFOHGC; // 0x0

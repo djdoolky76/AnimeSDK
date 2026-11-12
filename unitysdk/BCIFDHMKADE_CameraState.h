@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BCIFDHMKADE_CameraState_TypeDefinitionIndex = 78638;
+inline static constexpr unsigned int BCIFDHMKADE_CameraState_TypeDefinitionIndex = 81373;
 
 	enum class BCIFDHMKADE_CameraState : ::System::Int32
 	{

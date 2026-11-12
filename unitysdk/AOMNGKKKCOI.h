@@ -5,17 +5,17 @@ class AOMNGKKKCOI;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define AOMNGKKKCOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEA860)
-#define AOMNGKKKCOI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCEA870)
-#define AOMNGKKKCOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEA820)
+#define AOMNGKKKCOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE94350)
+#define AOMNGKKKCOI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DE94360)
+#define AOMNGKKKCOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE94310)
 
-inline static constexpr unsigned int AOMNGKKKCOI_TypeDefinitionIndex = 23160;
+inline static constexpr unsigned int AOMNGKKKCOI_TypeDefinitionIndex = 23590;
 
 	class AOMNGKKKCOI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* HOCMHABKLGJ; // 0x18
-		::RPG::GameCore::DynamicFloat* KMDEBAKFJML; // 0x20
+		::RPG::GameCore::DynamicFloat* KMDEBAKFJML; // 0x18
+		::RPG::GameCore::DynamicFloat* HOCMHABKLGJ; // 0x20
 		::System::Boolean GNDCCBNILML; // 0x28
 		::System::Void _ctor()
 		{

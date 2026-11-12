@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SingleMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SINGLEMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEBA30)
-#define RPG_GAMECORE_SINGLEMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEB8A0)
+#define RPG_GAMECORE_SINGLEMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFD880)
+#define RPG_GAMECORE_SINGLEMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECFD6F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SingleMonsterInfo_TypeDefinitionIndex = 23399;
+	inline static constexpr unsigned int SingleMonsterInfo_TypeDefinitionIndex = 23845;
 
 	class SingleMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{

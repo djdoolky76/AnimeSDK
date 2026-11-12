@@ -5,10 +5,10 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define BIMOMBLBMHN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8BAF70)
-#define BIMOMBLBMHN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB000)
+#define BIMOMBLBMHN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DA3BC90)
+#define BIMOMBLBMHN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3BD20)
 
-inline static constexpr unsigned int BIMOMBLBMHN_TypeDefinitionIndex = 42968;
+inline static constexpr unsigned int BIMOMBLBMHN_TypeDefinitionIndex = 43949;
 
 	class BIMOMBLBMHN : public ::System::Object
 	{

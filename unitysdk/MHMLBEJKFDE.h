@@ -10,22 +10,22 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define MHMLBEJKFDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB9478A0)
-#define MHMLBEJKFDE_DEFEFLKBPOK_OFFSET UNITYSDK_OFFSET(0xB947220)
-#define MHMLBEJKFDE_EJKLMMPEDBE_OFFSET UNITYSDK_OFFSET(0xB947120)
-#define MHMLBEJKFDE_GBCBKAOOKMK_OFFSET UNITYSDK_OFFSET(0xB947520)
-#define MHMLBEJKFDE_HKAHLNPMLHL_OFFSET UNITYSDK_OFFSET(0xB946FF0)
-#define MHMLBEJKFDE_MCFLBFCDADF_OFFSET UNITYSDK_OFFSET(0xB946F90)
-#define MHMLBEJKFDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB946DD0)
+#define MHMLBEJKFDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC1FC200)
+#define MHMLBEJKFDE_DEFEFLKBPOK_OFFSET UNITYSDK_OFFSET(0xC1FBB80)
+#define MHMLBEJKFDE_EJKLMMPEDBE_OFFSET UNITYSDK_OFFSET(0xC1FBA80)
+#define MHMLBEJKFDE_GBCBKAOOKMK_OFFSET UNITYSDK_OFFSET(0xC1FBE80)
+#define MHMLBEJKFDE_HKAHLNPMLHL_OFFSET UNITYSDK_OFFSET(0xC1FB950)
+#define MHMLBEJKFDE_MCFLBFCDADF_OFFSET UNITYSDK_OFFSET(0xC1FB8F0)
+#define MHMLBEJKFDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC1FB730)
 
-inline static constexpr unsigned int MHMLBEJKFDE_TypeDefinitionIndex = 69421;
+inline static constexpr unsigned int MHMLBEJKFDE_TypeDefinitionIndex = 71375;
 
 	class MHMLBEJKFDE : public ::System::Object
 	{
 	public:
-		::ECMDJLGJFHH* CEFLLELKFOP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* GDEICGCKOAM; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::EmotionData*>* AELAGDGDBNO; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* GDEICGCKOAM; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::EmotionData*>* AELAGDGDBNO; // 0x18
+		::ECMDJLGJFHH* CEFLLELKFOP; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MHMLBEJKFDE_CTOR_OFFSET))(this);

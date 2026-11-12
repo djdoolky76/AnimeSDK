@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE810E0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x201308C0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int AsyncMethodBuilderAttribute_TypeDefinitionIndex = 6680;
+	inline static constexpr unsigned int AsyncMethodBuilderAttribute_TypeDefinitionIndex = 6691;
 
 	class AsyncMethodBuilderAttribute : public ::System::Attribute
 	{

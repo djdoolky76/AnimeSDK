@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2IslandSim; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ISLANDSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1C83D040)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ISLANDSIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C83D060)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ISLANDSIM_COPYFROM_OFFSET UNITYSDK_OFFSET(0x1D9BE950)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2ISLANDSIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BE970)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2IslandSim_TypeDefinitionIndex = 36691;
+	inline static constexpr unsigned int B2IslandSim_TypeDefinitionIndex = 37619;
 
 	class B2IslandSim : public ::System::Object
 	{

@@ -5,7 +5,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Reverse_1_TypeDefinitionIndex = 45548;
+	inline static constexpr unsigned int Reverse_1_TypeDefinitionIndex = 46577;
 
 	template <typename T>
 	class Reverse_1 : public ::System::Object

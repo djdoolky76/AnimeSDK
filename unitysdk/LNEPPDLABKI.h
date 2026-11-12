@@ -4,10 +4,10 @@
 class NBHCDAEKHGJ;
 namespace RPG::GameCore { class GameEntity; }
 
-#define LNEPPDLABKI_FAFGAKLPDJA_OFFSET UNITYSDK_OFFSET(0x1B150)
-#define LNEPPDLABKI_GBGALBKMCBN_OFFSET UNITYSDK_OFFSET(0x1B100)
+#define LNEPPDLABKI_FAFGAKLPDJA_OFFSET UNITYSDK_OFFSET(0x1EF00)
+#define LNEPPDLABKI_GBGALBKMCBN_OFFSET UNITYSDK_OFFSET(0x1EEB0)
 
-inline static constexpr unsigned int LNEPPDLABKI_TypeDefinitionIndex = 57699;
+inline static constexpr unsigned int LNEPPDLABKI_TypeDefinitionIndex = 58932;
 
 	struct alignas(8) LNEPPDLABKI
 	{

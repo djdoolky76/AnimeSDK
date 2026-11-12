@@ -7,20 +7,20 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define ONGEOBDOJPK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF51BE0)
-#define ONGEOBDOJPK_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBF51A90)
-#define ONGEOBDOJPK_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBF51B00)
+#define ONGEOBDOJPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC84FD10)
+#define ONGEOBDOJPK_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xC84FBC0)
+#define ONGEOBDOJPK_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xC84FC30)
 
-inline static constexpr unsigned int ONGEOBDOJPK_TypeDefinitionIndex = 71414;
+inline static constexpr unsigned int ONGEOBDOJPK_TypeDefinitionIndex = 73396;
 
 	class ONGEOBDOJPK : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::Transform* AOAKLBFLHDP; // 0x18
-		::UnityEngine::UI::Text* JBGAMFPGDLI; // 0x20
+		::UnityEngine::Transform* BIEGCFNPGAF; // 0x18
+		::UnityEngine::Transform* AOAKLBFLHDP; // 0x20
 		::UnityEngine::Animation* NEPCECJCCDA; // 0x28
-		::RPG::Client::PrefabLoadMeta* DLIACBDHHLH; // 0x30
-		::UnityEngine::Transform* BIEGCFNPGAF; // 0x38
+		::UnityEngine::UI::Text* JBGAMFPGDLI; // 0x30
+		::RPG::Client::PrefabLoadMeta* DLIACBDHHLH; // 0x38
 		::UnityEngine::Transform* OJLKGKMFDLG; // 0x40
 		::System::Void _ctor()
 		{

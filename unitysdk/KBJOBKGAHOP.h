@@ -25,71 +25,84 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define KBJOBKGAHOP_AMCCBDHEBNJ_OFFSET UNITYSDK_OFFSET(0xB3069F0)
-#define KBJOBKGAHOP_BMDADJIHJLM_OFFSET UNITYSDK_OFFSET(0xB306BD0)
-#define KBJOBKGAHOP_CGMKIDHCAJM_OFFSET UNITYSDK_OFFSET(0xB307510)
-#define KBJOBKGAHOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB307D90)
-#define KBJOBKGAHOP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB302F30)
-#define KBJOBKGAHOP_FBEPJCBLAJO_OFFSET UNITYSDK_OFFSET(0xB3062C0)
-#define KBJOBKGAHOP_GEBDHAIMOEN_OFFSET UNITYSDK_OFFSET(0xB306660)
-#define KBJOBKGAHOP_GPIDPKOBNIJ_OFFSET UNITYSDK_OFFSET(0xB307C80)
-#define KBJOBKGAHOP_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xB3059D0)
-#define KBJOBKGAHOP_HMMDBKHEIBN_OFFSET UNITYSDK_OFFSET(0xB302FA0)
-#define KBJOBKGAHOP_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xB302EC0)
-#define KBJOBKGAHOP_IAGDJCDGPJM_OFFSET UNITYSDK_OFFSET(0xB307A90)
-#define KBJOBKGAHOP_IHHNOMGOJFD_OFFSET UNITYSDK_OFFSET(0xB307D20)
-#define KBJOBKGAHOP_JLAGCFPGDND_OFFSET UNITYSDK_OFFSET(0xB306A70)
-#define KBJOBKGAHOP_JMNKOGDNBIB_OFFSET UNITYSDK_OFFSET(0xB303590)
-#define KBJOBKGAHOP_KLIOBGEPFEH_OFFSET UNITYSDK_OFFSET(0xB303310)
-#define KBJOBKGAHOP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB302D20)
-#define KBJOBKGAHOP_LFJBLKLHEAL_OFFSET UNITYSDK_OFFSET(0xB307D30)
-#define KBJOBKGAHOP_LMPAJHCFGKB_OFFSET UNITYSDK_OFFSET(0xB3067F0)
-#define KBJOBKGAHOP_LNBLJAMDPMB_OFFSET UNITYSDK_OFFSET(0xB306470)
-#define KBJOBKGAHOP_MPKOCKJAGEN_OFFSET UNITYSDK_OFFSET(0xB305FE0)
-#define KBJOBKGAHOP_OHNKBMFOBBC_OFFSET UNITYSDK_OFFSET(0xB307450)
-#define KBJOBKGAHOP_OMEIFLGHOBI_OFFSET UNITYSDK_OFFSET(0xB306FF0)
-#define KBJOBKGAHOP_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xB3032C0)
+#define KBJOBKGAHOP_AMCCBDHEBNJ_OFFSET UNITYSDK_OFFSET(0xBB900A0)
+#define KBJOBKGAHOP_BMDADJIHJLM_OFFSET UNITYSDK_OFFSET(0xBB90280)
+#define KBJOBKGAHOP_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB918A0)
+#define KBJOBKGAHOP_CGMKIDHCAJM_OFFSET UNITYSDK_OFFSET(0xBB90F90)
+#define KBJOBKGAHOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB91890)
+#define KBJOBKGAHOP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB8C020)
+#define KBJOBKGAHOP_FBEPJCBLAJO_OFFSET UNITYSDK_OFFSET(0xBB8F970)
+#define KBJOBKGAHOP_GEBDHAIMOEN_OFFSET UNITYSDK_OFFSET(0xBB8FD10)
+#define KBJOBKGAHOP_GPIDPKOBNIJ_OFFSET UNITYSDK_OFFSET(0xBB91780)
+#define KBJOBKGAHOP_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xBB8F080)
+#define KBJOBKGAHOP_HMMDBKHEIBN_OFFSET UNITYSDK_OFFSET(0xBB8C090)
+#define KBJOBKGAHOP_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xBB8BFB0)
+#define KBJOBKGAHOP_IAGDJCDGPJM_OFFSET UNITYSDK_OFFSET(0xBB91510)
+#define KBJOBKGAHOP_IHHNOMGOJFD_OFFSET UNITYSDK_OFFSET(0xBB91820)
+#define KBJOBKGAHOP_JLAGCFPGDND_OFFSET UNITYSDK_OFFSET(0xBB90120)
+#define KBJOBKGAHOP_JMNKOGDNBIB_OFFSET UNITYSDK_OFFSET(0xBB8C7B0)
+#define KBJOBKGAHOP_KLIOBGEPFEH_OFFSET UNITYSDK_OFFSET(0xBB8C530)
+#define KBJOBKGAHOP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBB8BE10)
+#define KBJOBKGAHOP_LFJBLKLHEAL_OFFSET UNITYSDK_OFFSET(0xBB91830)
+#define KBJOBKGAHOP_LMPAJHCFGKB_OFFSET UNITYSDK_OFFSET(0xBB8FEA0)
+#define KBJOBKGAHOP_LNBLJAMDPMB_OFFSET UNITYSDK_OFFSET(0xBB8FB20)
+#define KBJOBKGAHOP_MPKOCKJAGEN_OFFSET UNITYSDK_OFFSET(0xBB8F690)
+#define KBJOBKGAHOP_OHNKBMFOBBC_OFFSET UNITYSDK_OFFSET(0xBB90E90)
+#define KBJOBKGAHOP_OMEIFLGHOBI_OFFSET UNITYSDK_OFFSET(0xBB907C0)
+#define KBJOBKGAHOP_ONGHFIEJMFB_OFFSET UNITYSDK_OFFSET(0xBB90CE0)
+#define KBJOBKGAHOP_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xBB8C4E0)
 
-inline static constexpr unsigned int KBJOBKGAHOP_TypeDefinitionIndex = 70047;
+inline static constexpr unsigned int KBJOBKGAHOP_TypeDefinitionIndex = 72012;
 
 	class KBJOBKGAHOP : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::DEBEAKKOHLN* OIDAGBPPNBJ; // 0x18
-		::UnityEngine::GameObject* JIAPNIHGPJA; // 0x20
-		::RPG::GameCore::GameEntity* NDDEIKDADAH; // 0x28
-		::RPG::GameCore::CharacterOutfitComponent_CharacterOutfitInstance* FEIFBICKDIJ; // 0x30
-		::RPG::Client::AttachPointMapping* KFDNFOFPLII; // 0x38
-		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GPFNBKEBJII; // 0x40
-		::RPG::Client::FollowPointMapping* AMIAMLBIEEN; // 0x48
-		::UnityEngine::Animator* APPGGMLEPLN; // 0x50
-		::UnityEngine::Transform* HKJLEHMGONC; // 0x58
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* GHKPEACJIAD; // 0x60
-		::Il2CppArray<::RPG::Client::MonoEffectPluginCharaMaterialBlock*>* HFCELNDHIIH; // 0x68
-		::AIBOPLOBAFN* IGABAMILIDM; // 0x70
-		::System::Single ODBGLBMLOJD; // 0x78
+		::Il2CppArray<::RPG::Client::MonoEffectPluginCharaMaterialBlock*>* HFCELNDHIIH; // 0x18
+		::AIBOPLOBAFN* IGABAMILIDM; // 0x20
+		::UnityEngine::Transform* HKJLEHMGONC; // 0x28
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* GPFNBKEBJII; // 0x38
+		::DEBEAKKOHLN* OIDAGBPPNBJ; // 0x40
+		::RPG::GameCore::GameEntity* NDDEIKDADAH; // 0x48
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* GHKPEACJIAD; // 0x50
+		::RPG::Client::AttachPointMapping* KFDNFOFPLII; // 0x58
+		::RPG::GameCore::CharacterOutfitComponent_CharacterOutfitInstance* FEIFBICKDIJ; // 0x60
+		::RPG::Client::FollowPointMapping* AMIAMLBIEEN; // 0x68
+		::UnityEngine::GameObject* JIAPNIHGPJA; // 0x70
+		::System::Boolean DIMECBLLOGB; // 0x78
+		::System::Boolean HHIBIFHGOBL; // 0x79
+		::System::Byte _padding0[0x2];
 		::System::Single HFEBKEBJLME; // 0x7C
 		::System::Int32 KNHPPBIMEGF; // 0x80
-		::System::Boolean HHIBIFHGOBL; // 0x84
-		::System::Boolean DIMECBLLOGB; // 0x85
-		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_POFDHALAIMC()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "KBJOBKGAHOP")->GetStaticField(0x33560);
-		}
-
+		::System::Single ODBGLBMLOJD; // 0x84
 		static ::System::Collections::Generic::List_1<::AttachPointSet*>** StaticGet_BGOBEFIFMJJ()
 		{
-			return (::System::Collections::Generic::List_1<::AttachPointSet*>**)UnitySDK::FromName("", "KBJOBKGAHOP")->GetStaticField(0x33568);
+			return (::System::Collections::Generic::List_1<::AttachPointSet*>**)UnitySDK::FromName("", "KBJOBKGAHOP")->GetStaticField(0x28430);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>** StaticGet_LFOKLJNOFBP()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>**)UnitySDK::FromName("", "KBJOBKGAHOP")->GetStaticField(0x33570);
+			return (::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>**)UnitySDK::FromName("", "KBJOBKGAHOP")->GetStaticField(0x28438);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_KCFAMGPMLBH()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "KBJOBKGAHOP")->GetStaticField(0x28440);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_POFDHALAIMC()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "KBJOBKGAHOP")->GetStaticField(0x28448);
 		}
 
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KBJOBKGAHOP_CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KBJOBKGAHOP_CCTOR_OFFSET))();
 		}
 
 		::System::Void KPJGDHLENIP(::UnityEngine::MonoBehaviour* a1)
@@ -147,9 +160,14 @@ inline static constexpr unsigned int KBJOBKGAHOP_TypeDefinitionIndex = 70047;
 			return ((::System::Collections::Generic::List_1<::UnityEngine::Material*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBJOBKGAHOP_BMDADJIHJLM_OFFSET))(this);
 		}
 
-		::RPG::PoolDictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>* OMEIFLGHOBI()
+		static ::System::Void ONGHFIEJMFB(::UnityEngine::Material* a1, ::UnityEngine::Material* a2)
 		{
-			return ((::RPG::PoolDictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + KBJOBKGAHOP_OMEIFLGHOBI_OFFSET))(this);
+			return ((::System::Void(*)(::UnityEngine::Material*, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + KBJOBKGAHOP_ONGHFIEJMFB_OFFSET))(a1, a2);
+		}
+
+		::RPG::PoolDictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>* OMEIFLGHOBI(::System::Object* a1)
+		{
+			return ((::RPG::PoolDictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Material*>*>*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + KBJOBKGAHOP_OMEIFLGHOBI_OFFSET))(this, a1);
 		}
 
 		::Il2CppArray<::System::Int32>* GEBDHAIMOEN(::RPG::Client::CharacterArtModelConfig* a1, ::UnityEngine::Renderer* a2)

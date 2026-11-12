@@ -7,13 +7,13 @@ namespace RPG::Client { class RoadRashGameModifier_MatchLevelAI; }
 namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIConfig; }
 namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIGlobalParams; }
 
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3304F0)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D330500)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3304C0)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53FA60)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E53FA70)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E53FA30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAI_TypeDefinitionIndex = 10318;
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAI_TypeDefinitionIndex = 10328;
 
 	class RoadRashGameModifier_MatchLevelAI : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{

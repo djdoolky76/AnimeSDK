@@ -9,11 +9,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_ERAFLIPPERCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCE13FF0)
+#define RPG_CLIENT_ERAFLIPPERCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD7DCC00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EraFlipperCommonConfig_TypeDefinitionIndex = 60504;
+	inline static constexpr unsigned int EraFlipperCommonConfig_TypeDefinitionIndex = 61794;
 
 	class EraFlipperCommonConfig : public ::UnityEngine::ScriptableObject
 	{

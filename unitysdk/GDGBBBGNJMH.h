@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HHGNCBKMHLC.h"
 
-#define GDGBBBGNJMH_CTOR_OFFSET UNITYSDK_OFFSET(0x1599BF20)
-#define GDGBBBGNJMH_JGLAJNNIHPG_OFFSET UNITYSDK_OFFSET(0x1599BBF0)
+#define GDGBBBGNJMH_CTOR_OFFSET UNITYSDK_OFFSET(0x168D2CD0)
+#define GDGBBBGNJMH_JGLAJNNIHPG_OFFSET UNITYSDK_OFFSET(0x168D29A0)
 
-inline static constexpr unsigned int GDGBBBGNJMH_TypeDefinitionIndex = 62443;
+inline static constexpr unsigned int GDGBBBGNJMH_TypeDefinitionIndex = 63856;
 
 	class GDGBBBGNJMH : public ::HHGNCBKMHLC
 	{

@@ -5,31 +5,31 @@ namespace RPG::Client::TrainParty { class TrainPartyMeetingPassengerCardInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2EF8E0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2EF920)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__ONCONFIRM_B__8_0_OFFSET UNITYSDK_OFFSET(0xE2EF950)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__REROLL_B__7_0_OFFSET UNITYSDK_OFFSET(0xE2EF930)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xED5BBA0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xED5BBE0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__ONCONFIRM_B__8_0_OFFSET UNITYSDK_OFFSET(0xED5BC10)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGDATA___C__REROLL_B__7_0_OFFSET UNITYSDK_OFFSET(0xED5BBF0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingData___c_TypeDefinitionIndex = 74333;
+	inline static constexpr unsigned int TrainPartyMeetingData___c_TypeDefinitionIndex = 76481;
 
 	class TrainPartyMeetingData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x22BE0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x22BE8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x31390);
 		}
 
 		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x22BF0);
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x31398);
+		}
+
+		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyMeetingPassengerCardInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x313A0);
 		}
 
 		static ::System::Void _cctor()

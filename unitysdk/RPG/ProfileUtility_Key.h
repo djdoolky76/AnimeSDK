@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPG_PROFILEUTILITY_KEY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBBB2C0)
-#define RPG_PROFILEUTILITY_KEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C4FA00)
-#define RPG_PROFILEUTILITY_KEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C25800)
-#define RPG_PROFILEUTILITY_KEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C4FA30)
+#define RPG_PROFILEUTILITY_KEY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE6E990)
+#define RPG_PROFILEUTILITY_KEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3E9EE60)
+#define RPG_PROFILEUTILITY_KEY_EQUALS_OFFSET UNITYSDK_OFFSET(0x3E74780)
+#define RPG_PROFILEUTILITY_KEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3E9EE90)
 #define RPG_PROFILEUTILITY_KEY_GET_DETAIL_OFFSET UNITYSDK_OFFSET(0x1D40)
 #define RPG_PROFILEUTILITY_KEY_GET_SAMPLENAME_OFFSET UNITYSDK_OFFSET(0x1D30)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ProfileUtility_Key_TypeDefinitionIndex = 35150;
+	inline static constexpr unsigned int ProfileUtility_Key_TypeDefinitionIndex = 36078;
 
 	struct alignas(8) ProfileUtility_Key
 	{
@@ -19,7 +19,7 @@ namespace RPG
 		::System::String* m_Detail; // 0x18
 		static ::RPG::ProfileUtility_Key* StaticGet_Null()
 		{
-			return (::RPG::ProfileUtility_Key*)UnitySDK::FromName("RPG", "Key")->GetStaticField(0x860);
+			return (::RPG::ProfileUtility_Key*)UnitySDK::FromName("RPG", "Key")->GetStaticField(0x810);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)

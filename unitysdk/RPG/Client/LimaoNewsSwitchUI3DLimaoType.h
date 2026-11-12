@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LimaoNewsSwitchUI3DLimaoType_TypeDefinitionIndex = 10325;
+	inline static constexpr unsigned int LimaoNewsSwitchUI3DLimaoType_TypeDefinitionIndex = 10335;
 
 	enum class LimaoNewsSwitchUI3DLimaoType : ::System::Int32
 	{

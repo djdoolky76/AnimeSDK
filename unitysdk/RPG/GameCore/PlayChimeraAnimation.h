@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace RPG::GameCore { class PlayChimeraAnimation; }
 
-#define RPG_GAMECORE_PLAYCHIMERAANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92CBF0)
-#define RPG_GAMECORE_PLAYCHIMERAANIMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D92CC00)
-#define RPG_GAMECORE_PLAYCHIMERAANIMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92CBA0)
+#define RPG_GAMECORE_PLAYCHIMERAANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB45D60)
+#define RPG_GAMECORE_PLAYCHIMERAANIMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB45D70)
+#define RPG_GAMECORE_PLAYCHIMERAANIMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB45D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayChimeraAnimation_TypeDefinitionIndex = 15862;
+	inline static constexpr unsigned int PlayChimeraAnimation_TypeDefinitionIndex = 16020;
 
 	class PlayChimeraAnimation : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

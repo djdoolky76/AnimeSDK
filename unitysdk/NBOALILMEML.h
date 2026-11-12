@@ -4,18 +4,19 @@
 class FCOEMCEDLNL;
 class NBOALILMEML;
 
-#define NBOALILMEML_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F1B40)
-#define NBOALILMEML_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1F1B50)
-#define NBOALILMEML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F1B10)
+#define NBOALILMEML_CTOR_OFFSET UNITYSDK_OFFSET(0x1E405810)
+#define NBOALILMEML_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E405820)
+#define NBOALILMEML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4057E0)
 
-inline static constexpr unsigned int NBOALILMEML_TypeDefinitionIndex = 20239;
+inline static constexpr unsigned int NBOALILMEML_TypeDefinitionIndex = 20574;
 
 	class NBOALILMEML : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::Single CKBMJFBJOFH; // 0x18
-		::System::Boolean EKGDOELGLFK; // 0x1C
-		::System::Boolean DLPKOCANCMM; // 0x1D
+		::System::Boolean EKGDOELGLFK; // 0x18
+		::System::Boolean DLPKOCANCMM; // 0x19
+		::System::Byte _padding0[0x2];
+		::System::Single CKBMJFBJOFH; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBOALILMEML_CTOR_OFFSET))(this);

@@ -5,11 +5,11 @@ namespace UnityEngine::UI { class LayoutElement; }
 namespace UnityEngine::UI { class ScrollRect; }
 namespace UnityEngine::UI { class Scrollbar; }
 
-#define MHYSDKUICLAMPSCROLLAREA_CTOR_OFFSET UNITYSDK_OFFSET(0xAF4F540)
-#define MHYSDKUICLAMPSCROLLAREA_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xAF4F1A0)
-#define MHYSDKUICLAMPSCROLLAREA_RESET_OFFSET UNITYSDK_OFFSET(0xAF4F130)
+#define MHYSDKUICLAMPSCROLLAREA_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B06A0)
+#define MHYSDKUICLAMPSCROLLAREA_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB5B0300)
+#define MHYSDKUICLAMPSCROLLAREA_RESET_OFFSET UNITYSDK_OFFSET(0xB5B0290)
 
-inline static constexpr unsigned int MHYSDKUIClampScrollArea_TypeDefinitionIndex = 45921;
+inline static constexpr unsigned int MHYSDKUIClampScrollArea_TypeDefinitionIndex = 46950;
 
 	class MHYSDKUIClampScrollArea : public ::UnityEngine::MonoBehaviour
 	{

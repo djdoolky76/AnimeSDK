@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class GJEAIHHLECO;
 
-#define KIJPPFKFFDA_CTOR_OFFSET UNITYSDK_OFFSET(0xB432720)
-#define KIJPPFKFFDA_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xB432690)
+#define KIJPPFKFFDA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCC8B20)
+#define KIJPPFKFFDA_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xBCC8A90)
 
-inline static constexpr unsigned int KIJPPFKFFDA_TypeDefinitionIndex = 81913;
+inline static constexpr unsigned int KIJPPFKFFDA_TypeDefinitionIndex = 84694;
 
 	class KIJPPFKFFDA : public ::System::Object
 	{

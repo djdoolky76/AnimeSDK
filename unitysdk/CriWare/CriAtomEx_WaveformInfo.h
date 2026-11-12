@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CRIWARE_CRIATOMEX_WAVEFORMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E88F30)
+#define CRIWARE_CRIATOMEX_WAVEFORMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x305B560)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_WaveformInfo_TypeDefinitionIndex = 39975;
+	inline static constexpr unsigned int CriAtomEx_WaveformInfo_TypeDefinitionIndex = 40950;
 
 	struct alignas(8) CriAtomEx_WaveformInfo
 	{

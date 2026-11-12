@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class AKHEOAIPAPA;
 
-#define HGLIFHHGLAD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB0CF0)
-#define HGLIFHHGLAD___C__DISPLAYCLASS8_0___CHECKDIRTYREFRESHMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x15CB0EC0)
+#define HGLIFHHGLAD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16BFB280)
+#define HGLIFHHGLAD___C__DISPLAYCLASS8_0___CHECKDIRTYREFRESHMODIFIER_B__0_OFFSET UNITYSDK_OFFSET(0x16BFB450)
 
-inline static constexpr unsigned int HGLIFHHGLAD___c__DisplayClass8_0_TypeDefinitionIndex = 76388;
+inline static constexpr unsigned int HGLIFHHGLAD___c__DisplayClass8_0_TypeDefinitionIndex = 78719;
 
 	class HGLIFHHGLAD___c__DisplayClass8_0 : public ::System::Object
 	{

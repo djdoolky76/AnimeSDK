@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackStatusResistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CBOPPNNBMJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B6000)
-#define CBOPPNNBMJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4B6030)
+#define CBOPPNNBMJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCE1EE10)
+#define CBOPPNNBMJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE1EE40)
 
-inline static constexpr unsigned int CBOPPNNBMJJ_TypeDefinitionIndex = 55654;
+inline static constexpr unsigned int CBOPPNNBMJJ_TypeDefinitionIndex = 56852;
 
 	class CBOPPNNBMJJ
 	{

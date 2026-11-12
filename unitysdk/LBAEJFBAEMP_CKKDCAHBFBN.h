@@ -3,7 +3,7 @@
 class HIOAMIPNLIN;
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int LBAEJFBAEMP_CKKDCAHBFBN_TypeDefinitionIndex = 55299;
+inline static constexpr unsigned int LBAEJFBAEMP_CKKDCAHBFBN_TypeDefinitionIndex = 56481;
 
 	struct alignas(8) LBAEJFBAEMP_CKKDCAHBFBN
 	{

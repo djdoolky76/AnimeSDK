@@ -10,13 +10,13 @@ namespace RPG::GameCore { class SummonMonsterData; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class VCameraConfig; }
 
-#define RPG_GAMECORE_SUMMONMONSTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB39C70)
-#define RPG_GAMECORE_SUMMONMONSTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB39CD0)
-#define RPG_GAMECORE_SUMMONMONSTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB39BE0)
+#define RPG_GAMECORE_SUMMONMONSTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE95C0)
+#define RPG_GAMECORE_SUMMONMONSTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EDE9620)
+#define RPG_GAMECORE_SUMMONMONSTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDE9530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 22654;
+	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 23076;
 
 	class SummonMonster : public ::RPG::GameCore::TaskConfig
 	{

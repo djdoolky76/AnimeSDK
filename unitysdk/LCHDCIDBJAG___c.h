@@ -9,41 +9,41 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LCHDCIDBJAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C738510)
-#define LCHDCIDBJAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C738550)
-#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_0_OFFSET UNITYSDK_OFFSET(0x1C7385B0)
-#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_1_OFFSET UNITYSDK_OFFSET(0x1C738590)
-#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_2_OFFSET UNITYSDK_OFFSET(0x1C7385A0)
-#define LCHDCIDBJAG___C___APPLYTACTICSCARDMODIFIER_B__73_0_OFFSET UNITYSDK_OFFSET(0x1C738560)
+#define LCHDCIDBJAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8B9EA0)
+#define LCHDCIDBJAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B9EE0)
+#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_0_OFFSET UNITYSDK_OFFSET(0x1D8B9F40)
+#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_1_OFFSET UNITYSDK_OFFSET(0x1D8B9F20)
+#define LCHDCIDBJAG___C__USETACTICSCARD_B__74_2_OFFSET UNITYSDK_OFFSET(0x1D8B9F30)
+#define LCHDCIDBJAG___C___APPLYTACTICSCARDMODIFIER_B__73_0_OFFSET UNITYSDK_OFFSET(0x1D8B9EF0)
 
-inline static constexpr unsigned int LCHDCIDBJAG___c_TypeDefinitionIndex = 36480;
+inline static constexpr unsigned int LCHDCIDBJAG___c_TypeDefinitionIndex = 37408;
 
 	class LCHDCIDBJAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E40);
-		}
-
-		static ::System::Func_2<::System::Int32, ::RPG::GameCore::FixPoint>** StaticGet___9__73_0()
-		{
-			return (::System::Func_2<::System::Int32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E48);
-		}
-
-		static ::System::Func_2<::GHLNPFDIJLF*, ::System::String*>** StaticGet___9__74_0()
-		{
-			return (::System::Func_2<::GHLNPFDIJLF*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBEA0);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__74_2()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E58);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBEA8);
 		}
 
 		static ::System::Func_2<::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>, ::System::Int32>** StaticGet___9__74_1()
 		{
-			return (::System::Func_2<::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13E60);
+			return (::System::Func_2<::System::ValueTuple_3<::System::Int32, ::System::UInt32, ::IJFIHJJPHNA*>, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBEB0);
+		}
+
+		static ::System::Func_2<::GHLNPFDIJLF*, ::System::String*>** StaticGet___9__74_0()
+		{
+			return (::System::Func_2<::GHLNPFDIJLF*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBEB8);
+		}
+
+		static ::System::Func_2<::System::Int32, ::RPG::GameCore::FixPoint>** StaticGet___9__73_0()
+		{
+			return (::System::Func_2<::System::Int32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBEC0);
 		}
 
 		static ::System::Void _cctor()

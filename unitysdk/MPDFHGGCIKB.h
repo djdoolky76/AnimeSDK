@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchBossHeadEffType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPDFHGGCIKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3A340)
-#define MPDFHGGCIKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA3A370)
+#define MPDFHGGCIKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F8DB0)
+#define MPDFHGGCIKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2F8DE0)
 
-inline static constexpr unsigned int MPDFHGGCIKB_TypeDefinitionIndex = 55674;
+inline static constexpr unsigned int MPDFHGGCIKB_TypeDefinitionIndex = 56872;
 
 	class MPDFHGGCIKB
 	{

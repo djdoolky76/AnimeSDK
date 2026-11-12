@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CameraBattleTransitionBeHitConfig; }
 
-#define RPG_GAMECORE_CAMERABATTLETRANSITIONBEHITCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D555550)
-#define RPG_GAMECORE_CAMERABATTLETRANSITIONBEHITCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D555330)
+#define RPG_GAMECORE_CAMERABATTLETRANSITIONBEHITCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E767350)
+#define RPG_GAMECORE_CAMERABATTLETRANSITIONBEHITCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E767130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraBattleTransitionBeHitConfig_TypeDefinitionIndex = 20426;
+	inline static constexpr unsigned int CameraBattleTransitionBeHitConfig_TypeDefinitionIndex = 20761;
 
 	class CameraBattleTransitionBeHitConfig : public ::RPG::GameCore::JsonConfig
 	{

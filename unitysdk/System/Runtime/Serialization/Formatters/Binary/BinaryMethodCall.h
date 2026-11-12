@@ -7,9 +7,9 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWriter; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODCALL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C315720)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODCALL_DUMP_OFFSET UNITYSDK_OFFSET(0x1C315710)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODCALL_WRITE_OFFSET UNITYSDK_OFFSET(0x1C314A20)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODCALL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D49C280)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODCALL_DUMP_OFFSET UNITYSDK_OFFSET(0x1D49C270)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_BINARYMETHODCALL_WRITE_OFFSET UNITYSDK_OFFSET(0x1D49B580)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -18,10 +18,10 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	class BinaryMethodCall : public ::System::Object
 	{
 	public:
-		::System::String* methodName; // 0x10
+		::System::String* typeName; // 0x10
 		::System::Object* callContext; // 0x18
-		::System::String* typeName; // 0x20
-		::Il2CppArray<::System::Type*>* argTypes; // 0x28
+		::Il2CppArray<::System::Type*>* argTypes; // 0x20
+		::System::String* methodName; // 0x28
 		::Il2CppArray<::System::Object*>* args; // 0x30
 		::System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum; // 0x38
 		::System::Boolean bArgsPrimitive; // 0x3C

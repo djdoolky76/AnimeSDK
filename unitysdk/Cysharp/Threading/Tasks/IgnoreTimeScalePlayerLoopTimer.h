@@ -8,19 +8,19 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_IGNORETIMESCALEPLAYERLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F119540)
-#define CYSHARP_THREADING_TASKS_IGNORETIMESCALEPLAYERLOOPTIMER_MOVENEXTCORE_OFFSET UNITYSDK_OFFSET(0x1F119710)
-#define CYSHARP_THREADING_TASKS_IGNORETIMESCALEPLAYERLOOPTIMER_RESETCORE_OFFSET UNITYSDK_OFFSET(0x1F119590)
+#define CYSHARP_THREADING_TASKS_IGNORETIMESCALEPLAYERLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x203CA5E0)
+#define CYSHARP_THREADING_TASKS_IGNORETIMESCALEPLAYERLOOPTIMER_MOVENEXTCORE_OFFSET UNITYSDK_OFFSET(0x203CA7C0)
+#define CYSHARP_THREADING_TASKS_IGNORETIMESCALEPLAYERLOOPTIMER_RESETCORE_OFFSET UNITYSDK_OFFSET(0x203CA640)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IgnoreTimeScalePlayerLoopTimer_TypeDefinitionIndex = 38213;
+	inline static constexpr unsigned int IgnoreTimeScalePlayerLoopTimer_TypeDefinitionIndex = 39142;
 
 	class IgnoreTimeScalePlayerLoopTimer : public ::Cysharp::Threading::Tasks::PlayerLoopTimer
 	{
 	public:
-		::System::Single elapsed; // 0x30
-		::System::Single interval; // 0x34
+		::System::Single interval; // 0x30
+		::System::Single elapsed; // 0x34
 		::System::Int32 initialFrame; // 0x38
 		::System::Void _ctor(::System::TimeSpan a1, ::System::Boolean a2, ::Cysharp::Threading::Tasks::PlayerLoopTiming a3, ::System::Threading::CancellationToken a4, ::System::Action_1<::System::Object*>* a5, ::System::Object* a6)
 		{

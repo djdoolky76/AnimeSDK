@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Gradient; }
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSFOGPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF7F20)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVSYSFOGPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x104E60)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnvSysFogParam_TypeDefinitionIndex = 48637;
+	inline static constexpr unsigned int EnvSysFogParam_TypeDefinitionIndex = 49678;
 
 	struct alignas(8) EnvSysFogParam
 	{

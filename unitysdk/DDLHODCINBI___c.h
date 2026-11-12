@@ -4,18 +4,18 @@
 class DDLHODCINBI;
 namespace System { class Object; }
 
-#define DDLHODCINBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E188190)
-#define DDLHODCINBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1881D0)
-#define DDLHODCINBI___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1E1881E0)
+#define DDLHODCINBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F461D00)
+#define DDLHODCINBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F461D40)
+#define DDLHODCINBI___C___CCTOR_B__108_0_OFFSET UNITYSDK_OFFSET(0x1F461D50)
 
-inline static constexpr unsigned int DDLHODCINBI___c_TypeDefinitionIndex = 28312;
+inline static constexpr unsigned int DDLHODCINBI___c_TypeDefinitionIndex = 28902;
 
 	class DDLHODCINBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2EEE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28230);
 		}
 
 		static ::System::Void _cctor()

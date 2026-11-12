@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IEFHBOPDAPL_TypeDefinitionIndex = 27265;
+inline static constexpr unsigned int IEFHBOPDAPL_TypeDefinitionIndex = 27796;
 
 	enum class IEFHBOPDAPL : ::System::Int32
 	{

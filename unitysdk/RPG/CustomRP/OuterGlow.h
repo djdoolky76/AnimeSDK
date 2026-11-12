@@ -4,29 +4,29 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CUSTOMRP_OUTERGLOW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC3A370)
-#define RPG_CUSTOMRP_OUTERGLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3A360)
+#define RPG_CUSTOMRP_OUTERGLOW_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE1740)
+#define RPG_CUSTOMRP_OUTERGLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE1730)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int OuterGlow_TypeDefinitionIndex = 37781;
+	inline static constexpr unsigned int OuterGlow_TypeDefinitionIndex = 38710;
 
 	class OuterGlow : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet_OuterGlowColor()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.CustomRP", "OuterGlow")->GetStaticField(0x9310);
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.CustomRP", "OuterGlow")->GetStaticField(0x78E0);
 		}
 
 		static ::System::Boolean* StaticGet_Enable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "OuterGlow")->GetStaticField(0x9320);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "OuterGlow")->GetStaticField(0x78F0);
 		}
 
 		static ::UnityEngine::Vector4* StaticGet_OuterGlowParams()
 		{
-			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.CustomRP", "OuterGlow")->GetStaticField(0x9324);
+			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.CustomRP", "OuterGlow")->GetStaticField(0x78F4);
 		}
 
 		::System::Void _ctor()

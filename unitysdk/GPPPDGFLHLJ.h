@@ -8,11 +8,11 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define GPPPDGFLHLJ_AFILAANOIAB_OFFSET UNITYSDK_OFFSET(0x15B69410)
-#define GPPPDGFLHLJ_KEPMOCBBOKP_OFFSET UNITYSDK_OFFSET(0x15B69DB0)
-#define GPPPDGFLHLJ_KGHBLDBMMAD_OFFSET UNITYSDK_OFFSET(0x15B692A0)
+#define GPPPDGFLHLJ_AFILAANOIAB_OFFSET UNITYSDK_OFFSET(0x16AEF170)
+#define GPPPDGFLHLJ_KEPMOCBBOKP_OFFSET UNITYSDK_OFFSET(0x16AEFB10)
+#define GPPPDGFLHLJ_KGHBLDBMMAD_OFFSET UNITYSDK_OFFSET(0x16AEF000)
 
-inline static constexpr unsigned int GPPPDGFLHLJ_TypeDefinitionIndex = 60054;
+inline static constexpr unsigned int GPPPDGFLHLJ_TypeDefinitionIndex = 61338;
 
 	class GPPPDGFLHLJ : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FloorSavedValueOverride; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E7100)
-#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E6FB0)
+#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F1810)
+#define RPG_GAMECORE_FLOORSAVEDVALUEOVERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F16C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorSavedValueOverride_TypeDefinitionIndex = 20301;
+	inline static constexpr unsigned int FloorSavedValueOverride_TypeDefinitionIndex = 20636;
 
 	class FloorSavedValueOverride : public ::RPG::GameCore::JsonConfig
 	{

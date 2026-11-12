@@ -3,9 +3,9 @@
 namespace System { class String; }
 
 #define HJPKGKGOAFP_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define HJPKGKGOAFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E7EAD0)
+#define HJPKGKGOAFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3054940)
 
-inline static constexpr unsigned int HJPKGKGOAFP_TypeDefinitionIndex = 67722;
+inline static constexpr unsigned int HJPKGKGOAFP_TypeDefinitionIndex = 69667;
 
 	struct alignas(4) HJPKGKGOAFP
 	{

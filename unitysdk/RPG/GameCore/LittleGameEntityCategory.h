@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameEntityCategory; }
 
-#define RPG_GAMECORE_LITTLEGAMEENTITYCATEGORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E1440)
-#define RPG_GAMECORE_LITTLEGAMEENTITYCATEGORY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E1400)
+#define RPG_GAMECORE_LITTLEGAMEENTITYCATEGORY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA21C70)
+#define RPG_GAMECORE_LITTLEGAMEENTITYCATEGORY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA21C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameEntityCategory_TypeDefinitionIndex = 18918;
+	inline static constexpr unsigned int LittleGameEntityCategory_TypeDefinitionIndex = 19080;
 
 	class LittleGameEntityCategory : public ::RPG::GameCore::JsonConfig
 	{

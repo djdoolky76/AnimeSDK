@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchActionDelayExceed; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PKEFKJIDIPM_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B37D0)
-#define PKEFKJIDIPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2B3820)
+#define PKEFKJIDIPM_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDE4F0)
+#define PKEFKJIDIPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCBDE540)
 
-inline static constexpr unsigned int PKEFKJIDIPM_TypeDefinitionIndex = 59146;
+inline static constexpr unsigned int PKEFKJIDIPM_TypeDefinitionIndex = 60422;
 
 	class PKEFKJIDIPM
 	{

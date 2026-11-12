@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialRemoveHideNodes; }
 
-#define CEJLIEFLBGO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E2190)
-#define CEJLIEFLBGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9E21C0)
+#define CEJLIEFLBGO_CTOR_OFFSET UNITYSDK_OFFSET(0xD346AD0)
+#define CEJLIEFLBGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD346B00)
 
-inline static constexpr unsigned int CEJLIEFLBGO_TypeDefinitionIndex = 58827;
+inline static constexpr unsigned int CEJLIEFLBGO_TypeDefinitionIndex = 60095;
 
 	class CEJLIEFLBGO
 	{

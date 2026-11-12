@@ -4,18 +4,18 @@
 class ONJIANLPDBE;
 namespace System { class Object; }
 
-#define ONJIANLPDBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEC7950)
-#define ONJIANLPDBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC7990)
-#define ONJIANLPDBE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEC79A0)
+#define ONJIANLPDBE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F18F6E0)
+#define ONJIANLPDBE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F18F720)
+#define ONJIANLPDBE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F18F730)
 
-inline static constexpr unsigned int ONJIANLPDBE___c_TypeDefinitionIndex = 30719;
+inline static constexpr unsigned int ONJIANLPDBE___c_TypeDefinitionIndex = 31625;
 
 	class ONJIANLPDBE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C820);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x261A0);
 		}
 
 		static ::System::Void _cctor()

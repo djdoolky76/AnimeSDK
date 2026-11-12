@@ -7,9 +7,9 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FEMAHFBGJJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6C930)
+#define FEMAHFBGJJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC30290)
 
-inline static constexpr unsigned int FEMAHFBGJJP_TypeDefinitionIndex = 43240;
+inline static constexpr unsigned int FEMAHFBGJJP_TypeDefinitionIndex = 44221;
 
 	class FEMAHFBGJJP : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockTargetShield; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABFOCHGMGAC_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F31A0)
-#define ABFOCHGMGAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0F31D0)
+#define ABFOCHGMGAC_CTOR_OFFSET UNITYSDK_OFFSET(0xB755DA0)
+#define ABFOCHGMGAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB755DD0)
 
-inline static constexpr unsigned int ABFOCHGMGAC_TypeDefinitionIndex = 55154;
+inline static constexpr unsigned int ABFOCHGMGAC_TypeDefinitionIndex = 56335;
 
 	class ABFOCHGMGAC
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IKLIHOEDGBE_MEMOBMCNAFG_TypeDefinitionIndex = 60709;
+inline static constexpr unsigned int IKLIHOEDGBE_MEMOBMCNAFG_TypeDefinitionIndex = 62086;
 
 	struct alignas(4) IKLIHOEDGBE_MEMOBMCNAFG
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int BGONLLCBKCB_TypeDefinitionIndex = 43463;
+inline static constexpr unsigned int BGONLLCBKCB_TypeDefinitionIndex = 44445;
 
 	struct alignas(8) BGONLLCBKCB
 	{

@@ -5,25 +5,25 @@ class AOLGEKPKJOF;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETICKMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC50D520)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETICKMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC50D560)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETICKMANAGER___C__UPDATE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC50D570)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETICKMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE4AF10)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETICKMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE4AF50)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETICKMANAGER___C__UPDATE_B__3_0_OFFSET UNITYSDK_OFFSET(0xCE4AF60)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTickManager___c_TypeDefinitionIndex = 75448;
+	inline static constexpr unsigned int IdleLiveTickManager___c_TypeDefinitionIndex = 77775;
 
 	class IdleLiveTickManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::AOLGEKPKJOF*>** StaticGet___9__3_0()
 		{
-			return (::System::Predicate_1<::AOLGEKPKJOF*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x2DE70);
+			return (::System::Predicate_1<::AOLGEKPKJOF*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x265F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x2DE78);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x265F8);
 		}
 
 		static ::System::Void _cctor()

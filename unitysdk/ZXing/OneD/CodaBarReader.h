@@ -2,39 +2,39 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/OneD/OneDReader.h"
 
-#define ZXING_ONED_CODABARREADER_ARRAYCONTAINS_OFFSET UNITYSDK_OFFSET(0x1F6B7700)
-#define ZXING_ONED_CODABARREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6B7740)
+#define ZXING_ONED_CODABARREADER_ARRAYCONTAINS_OFFSET UNITYSDK_OFFSET(0x20966E40)
+#define ZXING_ONED_CODABARREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20966E80)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int CodaBarReader_TypeDefinitionIndex = 6978;
+	inline static constexpr unsigned int CodaBarReader_TypeDefinitionIndex = 6989;
 
 	class CodaBarReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
 		static ::Il2CppArray<::System::Char>** StaticGet_STARTEND_ENCODING()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x22590);
-		}
-
-		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x22598);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x42E00);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x225A0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x42E08);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x42E10);
 		}
 
 		static ::System::Int32* StaticGet_MAX_ACCEPTABLE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x7AA0);
+			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0xE240);
 		}
 
 		static ::System::Int32* StaticGet_PADDING()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0x7AA4);
+			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "CodaBarReader")->GetStaticField(0xE244);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 class AOBICCEGAMM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IHFKCJPBNMO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1641D820)
-#define IHFKCJPBNMO___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x1641E060)
+#define IHFKCJPBNMO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x173D18B0)
+#define IHFKCJPBNMO___C__DISPLAYCLASS0_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x173D20F0)
 
-inline static constexpr unsigned int IHFKCJPBNMO___c__DisplayClass0_0_TypeDefinitionIndex = 67160;
+inline static constexpr unsigned int IHFKCJPBNMO___c__DisplayClass0_0_TypeDefinitionIndex = 69104;
 
 	class IHFKCJPBNMO___c__DisplayClass0_0 : public ::System::Object
 	{

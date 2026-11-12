@@ -9,13 +9,13 @@ namespace RPG::Client { class RoadRashGameAbility_FireProjectile; }
 namespace RPG::Client { class RoadRashGameModifier_FireProjectileEmitter; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32B9D0)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D32B9E0)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D32B9A0)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53AF40)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E53AF50)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_FIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E53AF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_FireProjectile_TypeDefinitionIndex = 10288;
+	inline static constexpr unsigned int RoadRashGameAbility_FireProjectile_TypeDefinitionIndex = 10298;
 
 	class RoadRashGameAbility_FireProjectile : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{

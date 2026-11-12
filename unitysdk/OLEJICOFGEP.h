@@ -4,10 +4,10 @@
 class NDPFOOJIAIJ;
 namespace System { class String; }
 
-#define OLEJICOFGEP_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xBF02B10)
-#define OLEJICOFGEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF03200)
+#define OLEJICOFGEP_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xC7FDF80)
+#define OLEJICOFGEP_CTOR_OFFSET UNITYSDK_OFFSET(0xC7FE6F0)
 
-inline static constexpr unsigned int OLEJICOFGEP_TypeDefinitionIndex = 64979;
+inline static constexpr unsigned int OLEJICOFGEP_TypeDefinitionIndex = 66576;
 
 	class OLEJICOFGEP : public ::System::Object
 	{

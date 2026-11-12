@@ -5,9 +5,9 @@
 class KGMBGMIGHOE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MMKLPBKJMCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92DC00)
+#define MMKLPBKJMCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEF100)
 
-inline static constexpr unsigned int MMKLPBKJMCI_TypeDefinitionIndex = 42552;
+inline static constexpr unsigned int MMKLPBKJMCI_TypeDefinitionIndex = 43527;
 
 	class MMKLPBKJMCI : public ::System::Object
 	{

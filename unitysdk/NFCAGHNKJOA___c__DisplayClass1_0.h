@@ -5,10 +5,10 @@ class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionBase; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NFCAGHNKJOA___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C793390)
-#define NFCAGHNKJOA___C__DISPLAYCLASS1_0__ENTERIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1C793610)
+#define NFCAGHNKJOA___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D914BF0)
+#define NFCAGHNKJOA___C__DISPLAYCLASS1_0__ENTERIMPL_B__0_OFFSET UNITYSDK_OFFSET(0x1D914E70)
 
-inline static constexpr unsigned int NFCAGHNKJOA___c__DisplayClass1_0_TypeDefinitionIndex = 37350;
+inline static constexpr unsigned int NFCAGHNKJOA___c__DisplayClass1_0_TypeDefinitionIndex = 38278;
 
 	class NFCAGHNKJOA___c__DisplayClass1_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Tutorial
 {
-	inline static constexpr unsigned int IFateRinBattleTutorialViewModel_TypeDefinitionIndex = 80720;
+	inline static constexpr unsigned int IFateRinBattleTutorialViewModel_TypeDefinitionIndex = 83500;
 
 	class IFateRinBattleTutorialViewModel
 	{

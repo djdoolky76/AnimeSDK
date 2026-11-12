@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/GameCore/BossHPStanceChangeType.h"
 #include "unitysdk/System/Object.h"
 
-#define PMGOFCCJEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xC31C910)
+#define PMGOFCCJEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4B720)
 
-inline static constexpr unsigned int PMGOFCCJEDE_TypeDefinitionIndex = 55359;
+inline static constexpr unsigned int PMGOFCCJEDE_TypeDefinitionIndex = 56542;
 
 	class PMGOFCCJEDE : public ::System::Object
 	{
 	public:
-		::System::Single OJDKICBEIIP; // 0x10
-		::RPG::GameCore::BossHPStanceChangeType EBFOHGMMHKL; // 0x14
+		::RPG::GameCore::BossHPStanceChangeType EBFOHGMMHKL; // 0x10
+		::System::Single OJDKICBEIIP; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMGOFCCJEDE_CTOR_OFFSET))(this);

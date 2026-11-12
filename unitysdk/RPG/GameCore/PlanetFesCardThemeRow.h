@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesCardThemeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D925540)
-#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D925340)
+#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB3E640)
+#define RPG_GAMECORE_PLANETFESCARDTHEMEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB3E440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesCardThemeRow_TypeDefinitionIndex = 12209;
+	inline static constexpr unsigned int PlanetFesCardThemeRow_TypeDefinitionIndex = 12266;
 
 	class PlanetFesCardThemeRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* CardIDList; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* CardIDList; // 0x18
 		::RPG::Client::TextID Name; // 0x20
 		::System::UInt32 ThemeID; // 0x30
 		::System::Void _ctor()

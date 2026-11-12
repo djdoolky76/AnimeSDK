@@ -7,12 +7,12 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define CURVEMESHGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBA210)
-#define CURVEMESHGENERATOR_HJMCKFEIOPN_OFFSET UNITYSDK_OFFSET(0xDFB8FA0)
-#define CURVEMESHGENERATOR_START_OFFSET UNITYSDK_OFFSET(0xDFB8D50)
-#define CURVEMESHGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xDFB8DA0)
+#define CURVEMESHGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE91D110)
+#define CURVEMESHGENERATOR_HJMCKFEIOPN_OFFSET UNITYSDK_OFFSET(0xE91BEA0)
+#define CURVEMESHGENERATOR_START_OFFSET UNITYSDK_OFFSET(0xE91BC50)
+#define CURVEMESHGENERATOR_UPDATE_OFFSET UNITYSDK_OFFSET(0xE91BCA0)
 
-inline static constexpr unsigned int CurveMeshGenerator_TypeDefinitionIndex = 47267;
+inline static constexpr unsigned int CurveMeshGenerator_TypeDefinitionIndex = 48295;
 
 	class CurveMeshGenerator : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAliveSourceEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CMCONOPPGAF_CTOR_OFFSET UNITYSDK_OFFSET(0xDA27BB0)
-#define CMCONOPPGAF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA27BD0)
+#define CMCONOPPGAF_CTOR_OFFSET UNITYSDK_OFFSET(0xE366B40)
+#define CMCONOPPGAF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xE366B60)
 
-inline static constexpr unsigned int CMCONOPPGAF_TypeDefinitionIndex = 59151;
+inline static constexpr unsigned int CMCONOPPGAF_TypeDefinitionIndex = 60427;
 
 	class CMCONOPPGAF
 	{

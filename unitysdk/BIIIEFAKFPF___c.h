@@ -6,23 +6,23 @@ class GDLKLEPOLOK;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BIIIEFAKFPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4ACEE0)
-#define BIIIEFAKFPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB4ACF20)
-#define BIIIEFAKFPF___C___CTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0xB4ACF30)
+#define BIIIEFAKFPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE3FF30)
+#define BIIIEFAKFPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3FF70)
+#define BIIIEFAKFPF___C___CTOR_B__39_0_OFFSET UNITYSDK_OFFSET(0xBE3FF80)
 
-inline static constexpr unsigned int BIIIEFAKFPF___c_TypeDefinitionIndex = 80109;
+inline static constexpr unsigned int BIIIEFAKFPF___c_TypeDefinitionIndex = 82886;
 
 	class BIIIEFAKFPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F1E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D0A0);
 		}
 
 		static ::System::Func_2<::GDLKLEPOLOK*, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::GDLKLEPOLOK*, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F1E8);
+			return (::System::Func_2<::GDLKLEPOLOK*, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D0A8);
 		}
 
 		static ::System::Void _cctor()

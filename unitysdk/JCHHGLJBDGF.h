@@ -4,10 +4,10 @@ class HCKGHEOLECJ;
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define JCHHGLJBDGF_CTOR_OFFSET UNITYSDK_OFFSET(0x16592DB0)
-#define JCHHGLJBDGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16592DE0)
+#define JCHHGLJBDGF_CTOR_OFFSET UNITYSDK_OFFSET(0xB8D71A0)
+#define JCHHGLJBDGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8D71D0)
 
-inline static constexpr unsigned int JCHHGLJBDGF_TypeDefinitionIndex = 54842;
+inline static constexpr unsigned int JCHHGLJBDGF_TypeDefinitionIndex = 56012;
 
 	class JCHHGLJBDGF
 	{

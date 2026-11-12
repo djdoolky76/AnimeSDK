@@ -4,10 +4,10 @@
 class JEBPFBNCALB;
 namespace System { class Action; }
 
-#define JEBPFBNCALB___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C563D80)
-#define JEBPFBNCALB___C__DISPLAYCLASS7_0__SUBSCRIBE_B__0_OFFSET UNITYSDK_OFFSET(0x1C563D90)
+#define JEBPFBNCALB___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E5720)
+#define JEBPFBNCALB___C__DISPLAYCLASS7_0__SUBSCRIBE_B__0_OFFSET UNITYSDK_OFFSET(0x1D6E5730)
 
-inline static constexpr unsigned int JEBPFBNCALB___c__DisplayClass7_0_TypeDefinitionIndex = 41841;
+inline static constexpr unsigned int JEBPFBNCALB___c__DisplayClass7_0_TypeDefinitionIndex = 42816;
 
 	class JEBPFBNCALB___c__DisplayClass7_0 : public ::System::Object
 	{

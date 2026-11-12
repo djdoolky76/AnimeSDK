@@ -5,18 +5,18 @@
 class CBJCBIIMPNM;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DGLGIFJEGMP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8514F0)
-#define DGLGIFJEGMP_HGHEOGLMHBC_OFFSET UNITYSDK_OFFSET(0xE851930)
-#define DGLGIFJEGMP_HJIDBNJHKFA_OFFSET UNITYSDK_OFFSET(0xE8517B0)
+#define DGLGIFJEGMP_CCTOR_OFFSET UNITYSDK_OFFSET(0xF4235F0)
+#define DGLGIFJEGMP_HGHEOGLMHBC_OFFSET UNITYSDK_OFFSET(0xF423A30)
+#define DGLGIFJEGMP_HJIDBNJHKFA_OFFSET UNITYSDK_OFFSET(0xF4238B0)
 
-inline static constexpr unsigned int DGLGIFJEGMP_TypeDefinitionIndex = 49551;
+inline static constexpr unsigned int DGLGIFJEGMP_TypeDefinitionIndex = 50627;
 
 	class DGLGIFJEGMP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::EnviromentSystemV2Space::PropertyType, ::CBJCBIIMPNM*>** StaticGet_PNHBBMBGALN()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystemV2Space::PropertyType, ::CBJCBIIMPNM*>**)UnitySDK::FromName("", "DGLGIFJEGMP")->GetStaticField(0x662A0);
+			return (::System::Collections::Generic::Dictionary_2<::EnviromentSystemV2Space::PropertyType, ::CBJCBIIMPNM*>**)UnitySDK::FromName("", "DGLGIFJEGMP")->GetStaticField(0x5CBE0);
 		}
 
 		static ::System::Void _cctor()

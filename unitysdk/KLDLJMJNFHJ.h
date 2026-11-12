@@ -6,12 +6,12 @@ namespace System { class IAsyncResult; }
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define KLDLJMJNFHJ_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xB4EE6A0)
-#define KLDLJMJNFHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB4EE620)
-#define KLDLJMJNFHJ_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB4EE6D0)
-#define KLDLJMJNFHJ_INVOKE_OFFSET UNITYSDK_OFFSET(0xB4EE690)
+#define KLDLJMJNFHJ_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xBD38570)
+#define KLDLJMJNFHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBD384F0)
+#define KLDLJMJNFHJ_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBD385A0)
+#define KLDLJMJNFHJ_INVOKE_OFFSET UNITYSDK_OFFSET(0xBD38560)
 
-inline static constexpr unsigned int KLDLJMJNFHJ_TypeDefinitionIndex = 69520;
+inline static constexpr unsigned int KLDLJMJNFHJ_TypeDefinitionIndex = 71477;
 
 	class KLDLJMJNFHJ : public ::System::MulticastDelegate
 	{

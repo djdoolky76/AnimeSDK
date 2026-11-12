@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAE810)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xCBAE940)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD522650)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKENTRY___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD522780)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int FtcDropLinkEntry___c__DisplayClass0_0_TypeDefinitionIndex = 74818;
+	inline static constexpr unsigned int FtcDropLinkEntry___c__DisplayClass0_0_TypeDefinitionIndex = 76988;
 
 	class FtcDropLinkEntry___c__DisplayClass0_0 : public ::System::Object
 	{

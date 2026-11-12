@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetMarbleTalkTriggerType_TypeDefinitionIndex = 14442;
+	inline static constexpr unsigned int PetMarbleTalkTriggerType_TypeDefinitionIndex = 14597;
 
 	enum class PetMarbleTalkTriggerType : ::System::Int32
 	{

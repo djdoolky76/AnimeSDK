@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetConfineFeatureParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOMLHFMOLAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC197030)
-#define BOMLHFMOLAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC197060)
+#define BOMLHFMOLAG_CTOR_OFFSET UNITYSDK_OFFSET(0xCB36FD0)
+#define BOMLHFMOLAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB37000)
 
-inline static constexpr unsigned int BOMLHFMOLAG_TypeDefinitionIndex = 52493;
+inline static constexpr unsigned int BOMLHFMOLAG_TypeDefinitionIndex = 53599;
 
 	class BOMLHFMOLAG
 	{

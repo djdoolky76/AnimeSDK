@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvStopTickValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJFGIKFOAMA_CTOR_OFFSET UNITYSDK_OFFSET(0xF234620)
-#define DJFGIKFOAMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF234650)
+#define DJFGIKFOAMA_CTOR_OFFSET UNITYSDK_OFFSET(0xFFB5B20)
+#define DJFGIKFOAMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFFB5B50)
 
-inline static constexpr unsigned int DJFGIKFOAMA_TypeDefinitionIndex = 57893;
+inline static constexpr unsigned int DJFGIKFOAMA_TypeDefinitionIndex = 59130;
 
 	class DJFGIKFOAMA
 	{

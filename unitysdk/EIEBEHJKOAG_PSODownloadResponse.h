@@ -4,9 +4,9 @@
 #include "unitysdk/EIEBEHJKOAG_PSODownloadResponse_Status.h"
 #include "unitysdk/System/Object.h"
 
-#define EIEBEHJKOAG_PSODOWNLOADRESPONSE_CTOR_OFFSET UNITYSDK_OFFSET(0x154C1390)
+#define EIEBEHJKOAG_PSODOWNLOADRESPONSE_CTOR_OFFSET UNITYSDK_OFFSET(0x163FFD00)
 
-inline static constexpr unsigned int EIEBEHJKOAG_PSODownloadResponse_TypeDefinitionIndex = 47408;
+inline static constexpr unsigned int EIEBEHJKOAG_PSODownloadResponse_TypeDefinitionIndex = 48437;
 
 	class EIEBEHJKOAG_PSODownloadResponse : public ::System::Object
 	{

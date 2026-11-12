@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define BIOEFLBLFID_CTOR_OFFSET UNITYSDK_OFFSET(0xB795620)
-#define BIOEFLBLFID_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB795560)
+#define BIOEFLBLFID_CTOR_OFFSET UNITYSDK_OFFSET(0xBE586F0)
+#define BIOEFLBLFID_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBE58630)
 
-inline static constexpr unsigned int BIOEFLBLFID_TypeDefinitionIndex = 66806;
+inline static constexpr unsigned int BIOEFLBLFID_TypeDefinitionIndex = 68742;
 
 	class BIOEFLBLFID : public ::System::Object
 	{

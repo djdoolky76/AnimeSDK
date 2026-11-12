@@ -7,19 +7,19 @@ namespace RPG::GameCore { class TAMonoTickLodTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MHEIAGODKGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB934070)
-#define MHEIAGODKGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB933FC0)
-#define MHEIAGODKGK_FICJHFIFIFA_OFFSET UNITYSDK_OFFSET(0xB933F00)
-#define MHEIAGODKGK_LDBMFCMJBMO_OFFSET UNITYSDK_OFFSET(0xB933D30)
-#define MHEIAGODKGK_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xB933B20)
+#define MHEIAGODKGK_CTOR_OFFSET UNITYSDK_OFFSET(0xC1E81B0)
+#define MHEIAGODKGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1E8100)
+#define MHEIAGODKGK_FICJHFIFIFA_OFFSET UNITYSDK_OFFSET(0xC1E8040)
+#define MHEIAGODKGK_LDBMFCMJBMO_OFFSET UNITYSDK_OFFSET(0xC1E7E70)
+#define MHEIAGODKGK_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xC1E7C60)
 
-inline static constexpr unsigned int MHEIAGODKGK_TypeDefinitionIndex = 73982;
+inline static constexpr unsigned int MHEIAGODKGK_TypeDefinitionIndex = 76118;
 
 	class MHEIAGODKGK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TAMonoTickLodTemplate*>* OHJMJNBIAJL; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::PIDNKDBOJHD*>* PEBDCPDBOJJ; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::PIDNKDBOJHD*>* PEBDCPDBOJJ; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TAMonoTickLodTemplate*>* OHJMJNBIAJL; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MHEIAGODKGK_CTOR_OFFSET))(this);

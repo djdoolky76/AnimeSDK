@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePhoneMessageItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODAPDPAFMEA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD77D40)
-#define ODAPDPAFMEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD77D70)
+#define ODAPDPAFMEA_CTOR_OFFSET UNITYSDK_OFFSET(0xC67DF60)
+#define ODAPDPAFMEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC67DF90)
 
-inline static constexpr unsigned int ODAPDPAFMEA_TypeDefinitionIndex = 52584;
+inline static constexpr unsigned int ODAPDPAFMEA_TypeDefinitionIndex = 53690;
 
 	class ODAPDPAFMEA
 	{

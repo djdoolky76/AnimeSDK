@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetEntityVisible; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYVISIBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB1A90)
-#define RPG_GAMECORE_SETENTITYVISIBLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB1AA0)
-#define RPG_GAMECORE_SETENTITYVISIBLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB1A50)
+#define RPG_GAMECORE_SETENTITYVISIBLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC3DA0)
+#define RPG_GAMECORE_SETENTITYVISIBLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC3DB0)
+#define RPG_GAMECORE_SETENTITYVISIBLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC3D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityVisible_TypeDefinitionIndex = 20601;
+	inline static constexpr unsigned int SetEntityVisible_TypeDefinitionIndex = 20937;
 
 	class SetEntityVisible : public ::RPG::GameCore::TaskConfig
 	{

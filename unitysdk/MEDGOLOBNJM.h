@@ -10,23 +10,22 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierHint; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define MEDGOLOBNJM_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xB8BCC40)
-#define MEDGOLOBNJM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB8BCAB0)
-#define MEDGOLOBNJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BCAA0)
+#define MEDGOLOBNJM_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xC16E640)
+#define MEDGOLOBNJM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC16E4B0)
+#define MEDGOLOBNJM_CTOR_OFFSET UNITYSDK_OFFSET(0xC16E4A0)
 
-inline static constexpr unsigned int MEDGOLOBNJM_TypeDefinitionIndex = 71327;
+inline static constexpr unsigned int MEDGOLOBNJM_TypeDefinitionIndex = 73304;
 
 	class MEDGOLOBNJM : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x10
-		::Il2CppArray<::RPG::GameCore::DynamicFloat*>* PFGICILMFPD; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* HLJCDHMCPAI; // 0x20
-		::RPG::GameCore::ModifierHintType INAHCAEDLEA; // 0x28
-		::System::Int32 NALMBOOCCIN; // 0x2C
-		::System::Int32 CKOIMOLALEH; // 0x30
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID NMAHGFAPENI; // 0x38
+		::Il2CppArray<::RPG::GameCore::DynamicFloat*>* PFGICILMFPD; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* HLJCDHMCPAI; // 0x18
+		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x20
+		::RPG::Client::TextID NMAHGFAPENI; // 0x28
+		::RPG::GameCore::ModifierHintType INAHCAEDLEA; // 0x38
+		::System::Int32 NALMBOOCCIN; // 0x3C
+		::System::Int32 CKOIMOLALEH; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MEDGOLOBNJM_CTOR_OFFSET))(this);

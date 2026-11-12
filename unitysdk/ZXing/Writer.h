@@ -3,7 +3,7 @@
 
 namespace ZXing
 {
-	inline static constexpr unsigned int Writer_TypeDefinitionIndex = 6963;
+	inline static constexpr unsigned int Writer_TypeDefinitionIndex = 6974;
 
 	class Writer
 	{

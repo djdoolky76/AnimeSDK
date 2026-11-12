@@ -6,7 +6,7 @@ namespace RPG::Client { class LocalizedText; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int NEFGMEOHGLN___c__3_1_TypeDefinitionIndex = 49948;
+inline static constexpr unsigned int NEFGMEOHGLN___c__3_1_TypeDefinitionIndex = 50996;
 
 	template <typename T>
 	class NEFGMEOHGLN___c__3_1 : public ::System::Object

@@ -4,23 +4,23 @@
 namespace RPG::Client { class RPGAnimationEvent_AnimationEventCallBack; }
 namespace System { class Object; }
 
-#define GKDGKLIGBEJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A93410)
-#define GKDGKLIGBEJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A93440)
-#define GKDGKLIGBEJ___C___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x15A93450)
+#define GKDGKLIGBEJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x169D02E0)
+#define GKDGKLIGBEJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x169D0310)
+#define GKDGKLIGBEJ___C___ONBIND_B__1_0_OFFSET UNITYSDK_OFFSET(0x169D0320)
 
-inline static constexpr unsigned int GKDGKLIGBEJ___c_TypeDefinitionIndex = 72047;
+inline static constexpr unsigned int GKDGKLIGBEJ___c_TypeDefinitionIndex = 74078;
 
 	class GKDGKLIGBEJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::RPG::Client::RPGAnimationEvent_AnimationEventCallBack** StaticGet___9__1_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x642F0);
+			return (::RPG::Client::RPGAnimationEvent_AnimationEventCallBack**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ADD0);
 		}
 
-		static ::RPG::Client::RPGAnimationEvent_AnimationEventCallBack** StaticGet___9__0_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::RPG::Client::RPGAnimationEvent_AnimationEventCallBack**)UnitySDK::FromName("", "<>c")->GetStaticField(0x642F8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6ADD8);
 		}
 
 		static ::System::Void _cctor()
@@ -33,9 +33,9 @@ inline static constexpr unsigned int GKDGKLIGBEJ___c_TypeDefinitionIndex = 72047
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKDGKLIGBEJ___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Void __OnBind_b__0_0()
+		::System::Void __OnBind_b__1_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKDGKLIGBEJ___C___ONBIND_B__0_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKDGKLIGBEJ___C___ONBIND_B__1_0_OFFSET))(this);
 		}
 
 	};

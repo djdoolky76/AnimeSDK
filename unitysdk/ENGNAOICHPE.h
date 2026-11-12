@@ -6,11 +6,11 @@ namespace RPG::Client { class GridFightGameSession; }
 namespace RPG::Client { class GridFightTraitBuffEffect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENGNAOICHPE_CTOR_OFFSET UNITYSDK_OFFSET(0x155AD050)
-#define ENGNAOICHPE_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x155ACFB0)
-#define ENGNAOICHPE_GNECBOAAIFJ_OFFSET UNITYSDK_OFFSET(0x155AD120)
+#define ENGNAOICHPE_CTOR_OFFSET UNITYSDK_OFFSET(0x164BDB50)
+#define ENGNAOICHPE_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x164BDAB0)
+#define ENGNAOICHPE_GNECBOAAIFJ_OFFSET UNITYSDK_OFFSET(0x164BDC20)
 
-inline static constexpr unsigned int ENGNAOICHPE_TypeDefinitionIndex = 65433;
+inline static constexpr unsigned int ENGNAOICHPE_TypeDefinitionIndex = 67326;
 
 	class ENGNAOICHPE : public ::System::Object
 	{
@@ -18,7 +18,7 @@ inline static constexpr unsigned int ENGNAOICHPE_TypeDefinitionIndex = 65433;
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightTraitBuffEffect*>* APPIAANONPF; // 0x10
 		static ::ENGNAOICHPE** StaticGet_FLMODBLFAGD()
 		{
-			return (::ENGNAOICHPE**)UnitySDK::FromName("", "ENGNAOICHPE")->GetStaticField(0x517A0);
+			return (::ENGNAOICHPE**)UnitySDK::FromName("", "ENGNAOICHPE")->GetStaticField(0x2D140);
 		}
 
 		::System::Void _ctor()

@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SequenceEqual__SequenceEqualAsync_d__0_1_TypeDefinitionIndex = 45573;
+	inline static constexpr unsigned int SequenceEqual__SequenceEqualAsync_d__0_1_TypeDefinitionIndex = 46602;
 
 	template <typename T>
 	struct alignas(8) SequenceEqual__SequenceEqualAsync_d__0_1

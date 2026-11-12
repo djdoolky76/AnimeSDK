@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 
-#define CGPILOEOBOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8D7F0)
-#define CGPILOEOBOJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC8D400)
-#define CGPILOEOBOJ_NINEHEEGBEG_OFFSET UNITYSDK_OFFSET(0xCC8D440)
+#define CGPILOEOBOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD63B4B0)
+#define CGPILOEOBOJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD63B0C0)
+#define CGPILOEOBOJ_NINEHEEGBEG_OFFSET UNITYSDK_OFFSET(0xD63B100)
 
-inline static constexpr unsigned int CGPILOEOBOJ_TypeDefinitionIndex = 54033;
+inline static constexpr unsigned int CGPILOEOBOJ_TypeDefinitionIndex = 55197;
 
 	class CGPILOEOBOJ : public ::RPG::GameCore::GameComponentBase
 	{

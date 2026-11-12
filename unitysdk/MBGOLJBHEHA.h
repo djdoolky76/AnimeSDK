@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MBGOLJBHEHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D134290)
+#define MBGOLJBHEHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E333DE0)
 
-inline static constexpr unsigned int MBGOLJBHEHA_TypeDefinitionIndex = 10873;
+inline static constexpr unsigned int MBGOLJBHEHA_TypeDefinitionIndex = 10889;
 
 	class MBGOLJBHEHA : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_IAPPKGMKLCA()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MBGOLJBHEHA")->GetStaticField(0x15CA0);
+			return (::System::Boolean*)UnitySDK::FromName("", "MBGOLJBHEHA")->GetStaticField(0x16500);
 		}
 
 		::System::Void _ctor()

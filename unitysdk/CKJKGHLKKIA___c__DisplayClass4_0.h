@@ -5,17 +5,18 @@
 class AkCallbackInfo;
 class CKJKGHLKKIA;
 
-#define CKJKGHLKKIA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD75F8A0)
-#define CKJKGHLKKIA___C__DISPLAYCLASS4_0__POSTVOICE_B__0_OFFSET UNITYSDK_OFFSET(0xD75FBC0)
+#define CKJKGHLKKIA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE099AF0)
+#define CKJKGHLKKIA___C__DISPLAYCLASS4_0__POSTVOICE_B__0_OFFSET UNITYSDK_OFFSET(0xE099E10)
 
-inline static constexpr unsigned int CKJKGHLKKIA___c__DisplayClass4_0_TypeDefinitionIndex = 48848;
+inline static constexpr unsigned int CKJKGHLKKIA___c__DisplayClass4_0_TypeDefinitionIndex = 49894;
 
 	class CKJKGHLKKIA___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
 		::CKJKGHLKKIA* __4__this; // 0x10
-		::System::Double endTime; // 0x18
-		::System::UInt32 voiceID; // 0x20
+		::System::UInt32 voiceID; // 0x18
+		::System::Byte _padding0[0x4];
+		::System::Double endTime; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKJKGHLKKIA___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

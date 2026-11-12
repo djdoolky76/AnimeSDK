@@ -6,25 +6,25 @@ namespace RPG::Client::PetDiy { class PetSlotInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PETDIY_PETDIYAREAINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAC8AB0)
-#define RPG_CLIENT_PETDIY_PETDIYAREAINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAC8AF0)
-#define RPG_CLIENT_PETDIY_PETDIYAREAINFO___C__GETPLACEDPETDIYDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xDAC8B00)
+#define RPG_CLIENT_PETDIY_PETDIYAREAINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE51F590)
+#define RPG_CLIENT_PETDIY_PETDIYAREAINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE51F5D0)
+#define RPG_CLIENT_PETDIY_PETDIYAREAINFO___C__GETPLACEDPETDIYDATALIST_B__7_0_OFFSET UNITYSDK_OFFSET(0xE51F5E0)
 
 namespace RPG::Client::PetDiy
 {
-	inline static constexpr unsigned int PetDiyAreaInfo___c_TypeDefinitionIndex = 74481;
+	inline static constexpr unsigned int PetDiyAreaInfo___c_TypeDefinitionIndex = 76629;
 
 	class PetDiyAreaInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x16530);
-		}
-
 		static ::System::Func_2<::RPG::Client::PetDiy::PetSlotInfo*, ::RPG::Client::PetDiy::PetDiyData*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::PetDiy::PetSlotInfo*, ::RPG::Client::PetDiy::PetDiyData*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x16538);
+			return (::System::Func_2<::RPG::Client::PetDiy::PetSlotInfo*, ::RPG::Client::PetDiy::PetDiyData*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x28450);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x28458);
 		}
 
 		static ::System::Void _cctor()

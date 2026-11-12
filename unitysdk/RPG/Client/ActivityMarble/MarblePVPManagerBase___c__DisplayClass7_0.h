@@ -9,20 +9,20 @@ namespace RPG::Client::ActivityMarble { class MarblePVPManagerBase; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5471F0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0__ENTERPVPLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xC54C4F0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0__ENTERPVPLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xC54C5F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE84F40)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0__ENTERPVPLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xCE8A200)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLEPVPMANAGERBASE___C__DISPLAYCLASS7_0__ENTERPVPLOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xCE8A2F0)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVPManagerBase___c__DisplayClass7_0_TypeDefinitionIndex = 76014;
+	inline static constexpr unsigned int MarblePVPManagerBase___c__DisplayClass7_0_TypeDefinitionIndex = 78341;
 
 	class MarblePVPManagerBase___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__1; // 0x10
+		::PJMGBLIFDFP* roomExtInfo; // 0x10
 		::RPG::Client::ActivityMarble::MarblePVPManagerBase* __4__this; // 0x18
-		::PJMGBLIFDFP* roomExtInfo; // 0x20
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__1; // 0x20
 		::RPG::Client::ActivityMarble::MarblePVPMode mode; // 0x28
 		::System::Boolean openUI; // 0x2C
 		::System::Void _ctor()

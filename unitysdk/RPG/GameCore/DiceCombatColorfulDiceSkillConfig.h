@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatColorfulDiceSkillConfig; }
 namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 
-#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D607160)
-#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D607010)
+#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E845130)
+#define RPG_GAMECORE_DICECOMBATCOLORFULDICESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E844FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatColorfulDiceSkillConfig_TypeDefinitionIndex = 16127;
+	inline static constexpr unsigned int DiceCombatColorfulDiceSkillConfig_TypeDefinitionIndex = 16285;
 
 	class DiceCombatColorfulDiceSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

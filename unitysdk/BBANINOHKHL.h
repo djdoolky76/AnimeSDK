@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define BBANINOHKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x15E80EF0)
+#define BBANINOHKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D05210)
 
-inline static constexpr unsigned int BBANINOHKHL_TypeDefinitionIndex = 66670;
+inline static constexpr unsigned int BBANINOHKHL_TypeDefinitionIndex = 68606;
 
 	class BBANINOHKHL : public ::System::Object
 	{

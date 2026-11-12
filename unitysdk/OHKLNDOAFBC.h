@@ -7,19 +7,19 @@ class OHKLNDOAFBC;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define OHKLNDOAFBC_CTOR_OFFSET UNITYSDK_OFFSET(0xBE71E70)
-#define OHKLNDOAFBC_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBE71E20)
-#define OHKLNDOAFBC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBE71DD0)
-#define OHKLNDOAFBC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE71D60)
+#define OHKLNDOAFBC_CTOR_OFFSET UNITYSDK_OFFSET(0xC72C5B0)
+#define OHKLNDOAFBC_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC72C560)
+#define OHKLNDOAFBC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC72C510)
+#define OHKLNDOAFBC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC72C4A0)
 
-inline static constexpr unsigned int OHKLNDOAFBC_TypeDefinitionIndex = 56600;
+inline static constexpr unsigned int OHKLNDOAFBC_TypeDefinitionIndex = 57822;
 
 	class OHKLNDOAFBC : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x18
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HHKJOLGOOBN; // 0x18
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x20
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HHKJOLGOOBN; // 0x28
+		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OHKLNDOAFBC_CTOR_OFFSET))(this);

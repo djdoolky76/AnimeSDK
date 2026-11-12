@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvNpcHitListener; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADVNPCHITLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A7BB0)
-#define RPG_GAMECORE_ADVNPCHITLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A7BE0)
-#define RPG_GAMECORE_ADVNPCHITLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A7B60)
+#define RPG_GAMECORE_ADVNPCHITLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B72E0)
+#define RPG_GAMECORE_ADVNPCHITLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B7310)
+#define RPG_GAMECORE_ADVNPCHITLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B7290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcHitListener_TypeDefinitionIndex = 22022;
+	inline static constexpr unsigned int AdvNpcHitListener_TypeDefinitionIndex = 22427;
 
 	class AdvNpcHitListener : public ::RPG::GameCore::TaskConfig
 	{

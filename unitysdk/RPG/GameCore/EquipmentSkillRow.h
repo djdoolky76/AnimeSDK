@@ -8,23 +8,23 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class EquipmentSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EQUIPMENTSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D680D40)
-#define RPG_GAMECORE_EQUIPMENTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D680570)
+#define RPG_GAMECORE_EQUIPMENTSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D070)
+#define RPG_GAMECORE_EQUIPMENTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E88C8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentSkillRow_TypeDefinitionIndex = 13240;
+	inline static constexpr unsigned int EquipmentSkillRow_TypeDefinitionIndex = 13314;
 
 	class EquipmentSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::System::String* AbilityName; // 0x10
 		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AbilityProperty; // 0x18
-		::System::String* AbilityName; // 0x20
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x20
 		::System::UInt32 Level; // 0x28
 		::System::UInt32 SkillID; // 0x2C
-		::RPG::Client::TextID SkillDesc; // 0x30
-		::RPG::Client::TextID SkillName; // 0x40
+		::RPG::Client::TextID SkillName; // 0x30
+		::RPG::Client::TextID SkillDesc; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTSKILLROW_CTOR_OFFSET))(this);

@@ -4,9 +4,9 @@
 namespace RPG::Client::PixAir { class PixAirEquipItemChangeInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EEBDFMJEMBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1334E660)
+#define EEBDFMJEMBM_CTOR_OFFSET UNITYSDK_OFFSET(0x147E88A0)
 
-inline static constexpr unsigned int EEBDFMJEMBM_TypeDefinitionIndex = 79271;
+inline static constexpr unsigned int EEBDFMJEMBM_TypeDefinitionIndex = 82048;
 
 	class EEBDFMJEMBM : public ::System::Object
 	{

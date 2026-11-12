@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
-#define BFAMDKOOIDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B88B0)
+#define BFAMDKOOIDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA395D0)
 
-inline static constexpr unsigned int BFAMDKOOIDM_TypeDefinitionIndex = 43787;
+inline static constexpr unsigned int BFAMDKOOIDM_TypeDefinitionIndex = 44862;
 
 	class BFAMDKOOIDM : public ::System::Object
 	{

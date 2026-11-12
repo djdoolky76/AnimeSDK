@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define AHEKFHONIHG_EANLBKFHHAP_OFFSET UNITYSDK_OFFSET(0xEB7E0B0)
+#define AHEKFHONIHG_EANLBKFHHAP_OFFSET UNITYSDK_OFFSET(0xF13D5A0)
 
-inline static constexpr unsigned int AHEKFHONIHG_TypeDefinitionIndex = 76871;
+inline static constexpr unsigned int AHEKFHONIHG_TypeDefinitionIndex = 79205;
 
 	class AHEKFHONIHG : public ::System::Object
 	{

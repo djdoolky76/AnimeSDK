@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifyProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D898660)
-#define RPG_GAMECORE_MODIFYPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D898670)
-#define RPG_GAMECORE_MODIFYPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D898620)
+#define RPG_GAMECORE_MODIFYPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB2A40)
+#define RPG_GAMECORE_MODIFYPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB2A50)
+#define RPG_GAMECORE_MODIFYPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB2A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyProperty_TypeDefinitionIndex = 23563;
+	inline static constexpr unsigned int ModifyProperty_TypeDefinitionIndex = 24009;
 
 	class ModifyProperty : public ::RPG::GameCore::TaskConfig
 	{

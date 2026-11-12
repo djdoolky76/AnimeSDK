@@ -7,22 +7,22 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_CTOR_OFFSET UNITYSDK_OFFSET(0xDC09A50)
-#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xDC0A1D0)
-#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xDC0A180)
-#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xDC09EA0)
-#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_RELEASE_OFFSET UNITYSDK_OFFSET(0xDC0A060)
-#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xDC0A270)
+#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_CTOR_OFFSET UNITYSDK_OFFSET(0xE6A5AF0)
+#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE6A6270)
+#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xE6A6220)
+#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0xE6A5F40)
+#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_RELEASE_OFFSET UNITYSDK_OFFSET(0xE6A6100)
+#define RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE6A6310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefabLoadMeta_WeakAssetReferenceList_TypeDefinitionIndex = 72856;
+	inline static constexpr unsigned int PrefabLoadMeta_WeakAssetReferenceList_TypeDefinitionIndex = 74966;
 
 	class PrefabLoadMeta_WeakAssetReferenceList : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _GameObjects; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::WeakAssetReference>* _MultiPrefabReferences; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::WeakAssetReference>* _MultiPrefabReferences; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* _GameObjects; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::WeakAssetReference>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::WeakAssetReference>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PREFABLOADMETA_WEAKASSETREFERENCELIST_CTOR_OFFSET))(this, a1);

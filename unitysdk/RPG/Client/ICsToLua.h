@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ICsToLua_TypeDefinitionIndex = 59395;
+	inline static constexpr unsigned int ICsToLua_TypeDefinitionIndex = 60672;
 
 	class ICsToLua
 	{

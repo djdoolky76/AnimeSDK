@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueHandBookEventTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEHANDBOOKEVENTTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9CDF00)
-#define RPG_GAMECORE_ROGUEHANDBOOKEVENTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9CDD20)
+#define RPG_GAMECORE_ROGUEHANDBOOKEVENTTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC17710)
+#define RPG_GAMECORE_ROGUEHANDBOOKEVENTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC17530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHandBookEventTypeRow_TypeDefinitionIndex = 14833;
+	inline static constexpr unsigned int RogueHandBookEventTypeRow_TypeDefinitionIndex = 14989;
 
 	class RogueHandBookEventTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* TypeIcon; // 0x10
-		::System::UInt32 RogueHandBookEventType; // 0x18
-		::System::UInt32 ActivityModuleID; // 0x1C
-		::RPG::Client::TextID RogueEventTypeTitle; // 0x20
+		::RPG::Client::TextID RogueEventTypeTitle; // 0x18
+		::System::UInt32 RogueHandBookEventType; // 0x28
+		::System::UInt32 ActivityModuleID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEHANDBOOKEVENTTYPEROW_CTOR_OFFSET))(this);

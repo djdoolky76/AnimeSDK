@@ -5,7 +5,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace R3
 {
-	inline static constexpr unsigned int WhereSelect_2__WhereSelect_TypeDefinitionIndex = 35948;
+	inline static constexpr unsigned int WhereSelect_2__WhereSelect_TypeDefinitionIndex = 36876;
 
 	template <typename T1, typename T2>
 	class WhereSelect_2__WhereSelect

@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::UI { class Toggle; }
 
-inline static constexpr unsigned int CHGFBCPNMMC___c__0_1_TypeDefinitionIndex = 49954;
+inline static constexpr unsigned int CHGFBCPNMMC___c__0_1_TypeDefinitionIndex = 51002;
 
 	template <typename T>
 	class CHGFBCPNMMC___c__0_1 : public ::System::Object

@@ -4,18 +4,18 @@
 class ADODOFNNPEO;
 namespace System { class Object; }
 
-#define ADODOFNNPEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE5EC0)
-#define ADODOFNNPEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE5EF0)
-#define ADODOFNNPEO___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1DDE5F00)
+#define ADODOFNNPEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFE9AE0)
+#define ADODOFNNPEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE9B10)
+#define ADODOFNNPEO___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1EFE9B20)
 
-inline static constexpr unsigned int ADODOFNNPEO___c_TypeDefinitionIndex = 32013;
+inline static constexpr unsigned int ADODOFNNPEO___c_TypeDefinitionIndex = 32926;
 
 	class ADODOFNNPEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BD80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37F20);
 		}
 
 		static ::System::Void _cctor()

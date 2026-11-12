@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/TeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define ONBINEIJCEG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4A2A0)
+#define ONBINEIJCEG_CTOR_OFFSET UNITYSDK_OFFSET(0xC847D00)
 
-inline static constexpr unsigned int ONBINEIJCEG_TypeDefinitionIndex = 54316;
+inline static constexpr unsigned int ONBINEIJCEG_TypeDefinitionIndex = 55480;
 
 	class ONBINEIJCEG : public ::System::Object
 	{

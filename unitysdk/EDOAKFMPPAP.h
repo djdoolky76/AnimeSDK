@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtCharacterFlagVisual; }
 namespace RPG::GameCore { class RtCharacterVisual; }
 
-#define EDOAKFMPPAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD70F70)
-#define EDOAKFMPPAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD70F80)
-#define EDOAKFMPPAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD70F40)
+#define EDOAKFMPPAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF425C0)
+#define EDOAKFMPPAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF425D0)
+#define EDOAKFMPPAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF42590)
 
-inline static constexpr unsigned int EDOAKFMPPAP_TypeDefinitionIndex = 24090;
+inline static constexpr unsigned int EDOAKFMPPAP_TypeDefinitionIndex = 24549;
 
 	class EDOAKFMPPAP : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::RtCharacterVisual* FAHLGFCIDMN; // 0x18
-		::Il2CppArray<::RPG::GameCore::RtCharacterFlagVisual*>* CKEEENLAOGF; // 0x20
+		::Il2CppArray<::RPG::GameCore::RtCharacterFlagVisual*>* CKEEENLAOGF; // 0x18
+		::RPG::GameCore::RtCharacterVisual* FAHLGFCIDMN; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDOAKFMPPAP_CTOR_OFFSET))(this);

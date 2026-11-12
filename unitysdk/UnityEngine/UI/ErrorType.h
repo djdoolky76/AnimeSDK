@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ErrorType_TypeDefinitionIndex = 6761;
+	inline static constexpr unsigned int ErrorType_TypeDefinitionIndex = 6772;
 
 	enum class ErrorType : ::System::Int32
 	{

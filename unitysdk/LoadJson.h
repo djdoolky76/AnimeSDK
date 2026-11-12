@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define LOADJSON_CTOR_OFFSET UNITYSDK_OFFSET(0xB838390)
+#define LOADJSON_CTOR_OFFSET UNITYSDK_OFFSET(0xC099940)
 
-inline static constexpr unsigned int LoadJson_TypeDefinitionIndex = 47592;
+inline static constexpr unsigned int LoadJson_TypeDefinitionIndex = 48621;
 
 	class LoadJson : public ::UnityEngine::MonoBehaviour
 	{

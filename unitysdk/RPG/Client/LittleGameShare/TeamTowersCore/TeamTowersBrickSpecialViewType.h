@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int TeamTowersBrickSpecialViewType_TypeDefinitionIndex = 37079;
+	inline static constexpr unsigned int TeamTowersBrickSpecialViewType_TypeDefinitionIndex = 38007;
 
 	enum class TeamTowersBrickSpecialViewType : ::System::Byte
 	{

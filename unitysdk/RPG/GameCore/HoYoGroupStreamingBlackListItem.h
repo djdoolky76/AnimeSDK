@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HoYoGroupStreamingBlackListItem; }
 
-#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLISTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D770EF0)
-#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLISTITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D770DD0)
+#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLISTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E984590)
+#define RPG_GAMECORE_HOYOGROUPSTREAMINGBLACKLISTITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E984470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoYoGroupStreamingBlackListItem_TypeDefinitionIndex = 17351;
+	inline static constexpr unsigned int HoYoGroupStreamingBlackListItem_TypeDefinitionIndex = 17519;
 
 	class HoYoGroupStreamingBlackListItem : public ::RPG::GameCore::JsonConfig
 	{

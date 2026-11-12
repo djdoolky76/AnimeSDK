@@ -13,39 +13,39 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class AvatarMask; }
 
-#define OODAGDPHPJD_ACDGPABGIFE_OFFSET UNITYSDK_OFFSET(0xBF71140)
-#define OODAGDPHPJD_APEMGFKKGLH_OFFSET UNITYSDK_OFFSET(0xBF71C10)
-#define OODAGDPHPJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBF70650)
-#define OODAGDPHPJD_IHEMOMLOIAO_OFFSET UNITYSDK_OFFSET(0xBF71410)
-#define OODAGDPHPJD_IOJMFPEDAIP_OFFSET UNITYSDK_OFFSET(0xBF71500)
-#define OODAGDPHPJD_KCDBAJEGGKB_OFFSET UNITYSDK_OFFSET(0xBF71AF0)
-#define OODAGDPHPJD_KDCPINKDNFK_OFFSET UNITYSDK_OFFSET(0xBF71730)
-#define OODAGDPHPJD_OFCFJCBHKNB_OFFSET UNITYSDK_OFFSET(0xBF719D0)
+#define OODAGDPHPJD_ACDGPABGIFE_OFFSET UNITYSDK_OFFSET(0xC870970)
+#define OODAGDPHPJD_APEMGFKKGLH_OFFSET UNITYSDK_OFFSET(0xC871440)
+#define OODAGDPHPJD_CTOR_OFFSET UNITYSDK_OFFSET(0xC86FE80)
+#define OODAGDPHPJD_IHEMOMLOIAO_OFFSET UNITYSDK_OFFSET(0xC870C40)
+#define OODAGDPHPJD_IOJMFPEDAIP_OFFSET UNITYSDK_OFFSET(0xC870D30)
+#define OODAGDPHPJD_KCDBAJEGGKB_OFFSET UNITYSDK_OFFSET(0xC871310)
+#define OODAGDPHPJD_KDCPINKDNFK_OFFSET UNITYSDK_OFFSET(0xC870F60)
+#define OODAGDPHPJD_OFCFJCBHKNB_OFFSET UNITYSDK_OFFSET(0xC871200)
 
-inline static constexpr unsigned int OODAGDPHPJD_TypeDefinitionIndex = 73565;
+inline static constexpr unsigned int OODAGDPHPJD_TypeDefinitionIndex = 75688;
 
 	class OODAGDPHPJD : public ::System::Object
 	{
 	public:
-		::CMIJJCMEOHI* OMEBFEIFHDP; // 0x10
-		::RPG::Client::MonoEmoPlayableGraph* IKJNGHGBJMF; // 0x18
-		::CMIJJCMEOHI* NOJMBAFCOIM; // 0x20
+		::CMIJJCMEOHI* NOJMBAFCOIM; // 0x10
+		::CMIJJCMEOHI* GCOKHMNKEDL; // 0x18
+		::RPG::Client::MonoEmoPlayableGraph* IKJNGHGBJMF; // 0x20
 		::CMIJJCMEOHI* KPOANKMDBBG; // 0x28
-		::CMIJJCMEOHI* GCOKHMNKEDL; // 0x30
-		::System::Boolean GPCEEDBJLIN; // 0x38
-		::System::Boolean LCAIFIDLAGE; // 0x39
+		::CMIJJCMEOHI* OMEBFEIFHDP; // 0x30
+		::RPG::Client::Emotion::EmoPartType OLANIKKEMHG; // 0x38
+		::System::Boolean GPCEEDBJLIN; // 0x3C
+		::System::Boolean LCAIFIDLAGE; // 0x3D
 		::System::Byte _padding0[0x2];
-		::RPG::Client::Emotion::EmoPartType OLANIKKEMHG; // 0x3C
-		::UnityEngine::Animations::AnimationMixerPlayable DFFBFLPEKMC; // 0x40
-		::UnityEngine::Animations::AnimationLayerMixerPlayable MDDFEPCEPKE; // 0x50
-		::UnityEngine::Animations::AnimationClipPlayable GMAHPJNGHOK; // 0x60
-		::UnityEngine::Animations::AnimationMixerPlayable PGBAENDHGDA; // 0x70
-		::UnityEngine::Animations::AnimationClipPlayable BODFBDCLJCN; // 0x80
-		::UnityEngine::Animations::AnimationMixerPlayable GIJGMGGJEHJ; // 0x90
-		::UnityEngine::Animations::AnimationMixerPlayable OBNLCGIIDLI; // 0xA0
+		::UnityEngine::Animations::AnimationMixerPlayable OBNLCGIIDLI; // 0x40
+		::UnityEngine::Animations::AnimationClipPlayable BODFBDCLJCN; // 0x50
+		::UnityEngine::Animations::AnimationMixerPlayable GIJGMGGJEHJ; // 0x60
+		::UnityEngine::Animations::AnimationClipPlayable GMAHPJNGHOK; // 0x70
+		::UnityEngine::Animations::AnimationMixerPlayable DFFBFLPEKMC; // 0x80
+		::UnityEngine::Animations::AnimationLayerMixerPlayable MDDFEPCEPKE; // 0x90
+		::UnityEngine::Animations::AnimationMixerPlayable PGBAENDHGDA; // 0xA0
 		static ::System::Int32* StaticGet_NBDNJGMLKIG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OODAGDPHPJD")->GetStaticField(0x141F0);
+			return (::System::Int32*)UnitySDK::FromName("", "OODAGDPHPJD")->GetStaticField(0x10F90);
 		}
 
 		::System::Void _ctor(::UnityEngine::Playables::PlayableGraph a1, ::RPG::Client::Emotion::EmoPartType a2, ::RPG::Client::MonoEmoPlayableGraph* a3, ::UnityEngine::AvatarMask* a4, ::UnityEngine::AnimationClip* a5)

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageDynamicLightBoxBehavior_FormationmapType_TypeDefinitionIndex = 70956;
+	inline static constexpr unsigned int StageDynamicLightBoxBehavior_FormationmapType_TypeDefinitionIndex = 72935;
 
 	enum class StageDynamicLightBoxBehavior_FormationmapType : ::System::Int32
 	{

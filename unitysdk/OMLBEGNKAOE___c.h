@@ -4,18 +4,18 @@
 class OMLBEGNKAOE;
 namespace System { class Object; }
 
-#define OMLBEGNKAOE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEB9BF0)
-#define OMLBEGNKAOE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB9C30)
-#define OMLBEGNKAOE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEB9C40)
+#define OMLBEGNKAOE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F181A50)
+#define OMLBEGNKAOE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F181A90)
+#define OMLBEGNKAOE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F181AA0)
 
-inline static constexpr unsigned int OMLBEGNKAOE___c_TypeDefinitionIndex = 30038;
+inline static constexpr unsigned int OMLBEGNKAOE___c_TypeDefinitionIndex = 30936;
 
 	class OMLBEGNKAOE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B5F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24F20);
 		}
 
 		static ::System::Void _cctor()

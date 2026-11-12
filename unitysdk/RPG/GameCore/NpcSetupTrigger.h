@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NPCSETUPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DDB50)
-#define RPG_GAMECORE_NPCSETUPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8DDB80)
-#define RPG_GAMECORE_NPCSETUPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DDB00)
+#define RPG_GAMECORE_NPCSETUPTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF67F0)
+#define RPG_GAMECORE_NPCSETUPTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAF6820)
+#define RPG_GAMECORE_NPCSETUPTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAF67A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NpcSetupTrigger_TypeDefinitionIndex = 21973;
+	inline static constexpr unsigned int NpcSetupTrigger_TypeDefinitionIndex = 22364;
 
 	class NpcSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{

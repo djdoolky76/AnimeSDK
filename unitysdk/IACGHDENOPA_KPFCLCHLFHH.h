@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class IACGHDENOPA;
 
-inline static constexpr unsigned int IACGHDENOPA_KPFCLCHLFHH_TypeDefinitionIndex = 6331;
+inline static constexpr unsigned int IACGHDENOPA_KPFCLCHLFHH_TypeDefinitionIndex = 6338;
 
 	class IACGHDENOPA_KPFCLCHLFHH : public ::System::Object
 	{

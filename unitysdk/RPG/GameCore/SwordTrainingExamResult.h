@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingExamResult; }
 
-#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4A260)
-#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4A140)
+#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF9860)
+#define RPG_GAMECORE_SWORDTRAININGEXAMRESULT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EDF9740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingExamResult_TypeDefinitionIndex = 12423;
+	inline static constexpr unsigned int SwordTrainingExamResult_TypeDefinitionIndex = 12490;
 
 	class SwordTrainingExamResult : public ::System::Object
 	{

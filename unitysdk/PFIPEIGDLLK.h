@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PFIPEIGDLLK_TypeDefinitionIndex = 25282;
+inline static constexpr unsigned int PFIPEIGDLLK_TypeDefinitionIndex = 25760;
 
 	enum class PFIPEIGDLLK : ::System::Int32
 	{

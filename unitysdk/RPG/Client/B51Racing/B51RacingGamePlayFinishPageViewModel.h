@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYFINISHPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC796B30)
+#define RPG_CLIENT_B51RACING_B51RACINGGAMEPLAYFINISHPAGEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A6830)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingGamePlayFinishPageViewModel_TypeDefinitionIndex = 82037;
+	inline static constexpr unsigned int B51RacingGamePlayFinishPageViewModel_TypeDefinitionIndex = 84818;
 
 	class B51RacingGamePlayFinishPageViewModel : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class BackgroundWorker_BackgroundTask; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_BACKGROUNDWORKER_CTOR_OFFSET UNITYSDK_OFFSET(0xAF5D900)
-#define MIHOYO_SDK_BACKGROUNDWORKER_STARTBACKGROUNDTASK_OFFSET UNITYSDK_OFFSET(0xAF5D7D0)
+#define MIHOYO_SDK_BACKGROUNDWORKER_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BE8A0)
+#define MIHOYO_SDK_BACKGROUNDWORKER_STARTBACKGROUNDTASK_OFFSET UNITYSDK_OFFSET(0xB5BE770)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BackgroundWorker_TypeDefinitionIndex = 46289;
+	inline static constexpr unsigned int BackgroundWorker_TypeDefinitionIndex = 47317;
 
 	class BackgroundWorker : public ::System::Object
 	{

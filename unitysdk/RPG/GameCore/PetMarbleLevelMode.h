@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetMarbleLevelMode_TypeDefinitionIndex = 14423;
+	inline static constexpr unsigned int PetMarbleLevelMode_TypeDefinitionIndex = 14580;
 
 	enum class PetMarbleLevelMode : ::System::Int32
 	{

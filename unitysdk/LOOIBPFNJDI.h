@@ -3,10 +3,10 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define LOOIBPFNJDI_CLEAR_OFFSET UNITYSDK_OFFSET(0xB811730)
-#define LOOIBPFNJDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB811780)
+#define LOOIBPFNJDI_CLEAR_OFFSET UNITYSDK_OFFSET(0xC072940)
+#define LOOIBPFNJDI_CTOR_OFFSET UNITYSDK_OFFSET(0xC072990)
 
-inline static constexpr unsigned int LOOIBPFNJDI_TypeDefinitionIndex = 48427;
+inline static constexpr unsigned int LOOIBPFNJDI_TypeDefinitionIndex = 49468;
 
 	class LOOIBPFNJDI : public ::System::Object
 	{

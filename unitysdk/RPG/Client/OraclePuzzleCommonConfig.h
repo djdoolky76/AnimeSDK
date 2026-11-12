@@ -4,12 +4,12 @@
 namespace RPG::Client::Prop { class PolygonMesh; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDA199B0)
-#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_GETPOLYGONMESH_OFFSET UNITYSDK_OFFSET(0xDA19920)
+#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4B04A0)
+#define RPG_CLIENT_ORACLEPUZZLECOMMONCONFIG_GETPOLYGONMESH_OFFSET UNITYSDK_OFFSET(0xE4B0410)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OraclePuzzleCommonConfig_TypeDefinitionIndex = 60056;
+	inline static constexpr unsigned int OraclePuzzleCommonConfig_TypeDefinitionIndex = 61340;
 
 	class OraclePuzzleCommonConfig : public ::UnityEngine::ScriptableObject
 	{

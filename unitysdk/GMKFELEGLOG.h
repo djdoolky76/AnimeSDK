@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnDefineDynamicString; }
 
-#define GMKFELEGLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD4CC0)
-#define GMKFELEGLOG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15AD4CD0)
-#define GMKFELEGLOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AD4D10)
-#define GMKFELEGLOG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AD4F20)
-#define GMKFELEGLOG_TICK_OFFSET UNITYSDK_OFFSET(0x15AD4F70)
+#define GMKFELEGLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x16A57520)
+#define GMKFELEGLOG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A57530)
+#define GMKFELEGLOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A57570)
+#define GMKFELEGLOG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16A57780)
+#define GMKFELEGLOG_TICK_OFFSET UNITYSDK_OFFSET(0x16A577D0)
 
-inline static constexpr unsigned int GMKFELEGLOG_TypeDefinitionIndex = 55783;
+inline static constexpr unsigned int GMKFELEGLOG_TypeDefinitionIndex = 56986;
 
 	class GMKFELEGLOG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::UnDefineDynamicString* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::UnDefineDynamicString* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UnDefineDynamicString* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::UnDefineDynamicString*))((::PBYTE)hIl2Cpp + GMKFELEGLOG_CTOR_OFFSET))(this, a1, a2);

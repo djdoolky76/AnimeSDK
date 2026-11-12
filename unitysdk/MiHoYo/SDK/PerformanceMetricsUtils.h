@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF82290)
-#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF82280)
-#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_GETMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0x1BF81E00)
-#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_GETTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x1BF81990)
+#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D108E20)
+#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D108E10)
+#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_GETMEMORYSIZE_OFFSET UNITYSDK_OFFSET(0x1D108990)
+#define MIHOYO_SDK_PERFORMANCEMETRICSUTILS_GETTHREADCOUNT_OFFSET UNITYSDK_OFFSET(0x1D108520)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PerformanceMetricsUtils_TypeDefinitionIndex = 7987;
+	inline static constexpr unsigned int PerformanceMetricsUtils_TypeDefinitionIndex = 7996;
 
 	class PerformanceMetricsUtils : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_processId()
 		{
-			return (::System::Int32*)UnitySDK::FromName("MiHoYo.SDK", "PerformanceMetricsUtils")->GetStaticField(0x5C90);
+			return (::System::Int32*)UnitySDK::FromName("MiHoYo.SDK", "PerformanceMetricsUtils")->GetStaticField(0x5190);
 		}
 
 		::System::Void _ctor()

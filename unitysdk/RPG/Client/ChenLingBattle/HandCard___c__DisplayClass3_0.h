@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChenLingGridOffset; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA56F80)
-#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__ISINEFFECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0xCA57500)
+#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3BB700)
+#define RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0__ISINEFFECTGRID_B__0_OFFSET UNITYSDK_OFFSET(0xD3BBC00)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int HandCard___c__DisplayClass3_0_TypeDefinitionIndex = 76366;
+	inline static constexpr unsigned int HandCard___c__DisplayClass3_0_TypeDefinitionIndex = 78697;
 
 	class HandCard___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Int32 offsetY; // 0x10
-		::System::Int32 offsetX; // 0x14
+		::System::Int32 offsetX; // 0x10
+		::System::Int32 offsetY; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHENLINGBATTLE_HANDCARD___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

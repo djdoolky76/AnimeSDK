@@ -6,9 +6,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define AIRSHIPENGINEBEHAVIORMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BC48C0)
+#define AIRSHIPENGINEBEHAVIORMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x16A25430)
 
-inline static constexpr unsigned int AirshipEngineBehaviorMode_TypeDefinitionIndex = 47084;
+inline static constexpr unsigned int AirshipEngineBehaviorMode_TypeDefinitionIndex = 48112;
 
 	class AirshipEngineBehaviorMode : public ::System::Object
 	{

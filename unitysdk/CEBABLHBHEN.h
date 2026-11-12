@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CEBABLHBHEN_OACBGCFADMP_OFFSET UNITYSDK_OFFSET(0xC77B4D0)
+#define CEBABLHBHEN_OACBGCFADMP_OFFSET UNITYSDK_OFFSET(0xD0E5A60)
 
-inline static constexpr unsigned int CEBABLHBHEN_TypeDefinitionIndex = 73411;
+inline static constexpr unsigned int CEBABLHBHEN_TypeDefinitionIndex = 75534;
 
 	class CEBABLHBHEN : public ::System::Object
 	{

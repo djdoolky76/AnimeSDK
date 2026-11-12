@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_FNKPGGMPEGD_CTOR_OFFSET UNITYSDK_OFFSET(0xCCCFBB0)
+#define RPG_CLIENT_DISABLEUIPOSTPROCESSBEHAVIOUR_FNKPGGMPEGD_CTOR_OFFSET UNITYSDK_OFFSET(0xD6911F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DisableUIPostProcessBehaviour_FNKPGGMPEGD_TypeDefinitionIndex = 72762;
+	inline static constexpr unsigned int DisableUIPostProcessBehaviour_FNKPGGMPEGD_TypeDefinitionIndex = 74841;
 
 	class DisableUIPostProcessBehaviour_FNKPGGMPEGD : public ::System::Object
 	{

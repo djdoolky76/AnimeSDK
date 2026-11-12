@@ -5,14 +5,14 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_GetCookieFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int CookieManager___O_TypeDefinitionIndex = 39491;
+	inline static constexpr unsigned int CookieManager___O_TypeDefinitionIndex = 40420;
 
 	class CookieManager___O : public ::System::Object
 	{
 	public:
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_GetCookieFunc** StaticGet__0___CB_GetCookieFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_GetCookieFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x52200);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_GetCookieFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x48040);
 		}
 
 	};

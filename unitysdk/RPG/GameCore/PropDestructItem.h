@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropDestructItem; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_PROPDESTRUCTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D949970)
-#define RPG_GAMECORE_PROPDESTRUCTITEM_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D949980)
-#define RPG_GAMECORE_PROPDESTRUCTITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D949760)
+#define RPG_GAMECORE_PROPDESTRUCTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB62950)
+#define RPG_GAMECORE_PROPDESTRUCTITEM_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EB62960)
+#define RPG_GAMECORE_PROPDESTRUCTITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB62740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDestructItem_TypeDefinitionIndex = 21204;
+	inline static constexpr unsigned int PropDestructItem_TypeDefinitionIndex = 21547;
 
 	class PropDestructItem : public ::RPG::GameCore::JsonConfig
 	{

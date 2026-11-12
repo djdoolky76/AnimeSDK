@@ -4,20 +4,20 @@
 namespace RPG::Client { class ShowMatchThreeV2LevelPreparePage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FKBDJCPGIOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157E5F40)
-#define FKBDJCPGIOJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157E5F50)
-#define FKBDJCPGIOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157E5F90)
-#define FKBDJCPGIOJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157E6180)
-#define FKBDJCPGIOJ_TICK_OFFSET UNITYSDK_OFFSET(0x157E61D0)
-#define FKBDJCPGIOJ__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x157E6230)
+#define FKBDJCPGIOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16751B50)
+#define FKBDJCPGIOJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16751B60)
+#define FKBDJCPGIOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16751BA0)
+#define FKBDJCPGIOJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16751D90)
+#define FKBDJCPGIOJ_TICK_OFFSET UNITYSDK_OFFSET(0x16751DE0)
+#define FKBDJCPGIOJ__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x16751E40)
 
-inline static constexpr unsigned int FKBDJCPGIOJ_TypeDefinitionIndex = 58670;
+inline static constexpr unsigned int FKBDJCPGIOJ_TypeDefinitionIndex = 59937;
 
 	class FKBDJCPGIOJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::ShowMatchThreeV2LevelPreparePage* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::Client::ShowMatchThreeV2LevelPreparePage* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::ShowMatchThreeV2LevelPreparePage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::Client::ShowMatchThreeV2LevelPreparePage*))((::PBYTE)hIl2Cpp + FKBDJCPGIOJ_CTOR_OFFSET))(this, a1, a2);

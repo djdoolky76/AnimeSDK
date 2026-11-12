@@ -5,21 +5,21 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropDestruct; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLGJKHFPGBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB76C700)
-#define LLGJKHFPGBF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB76C710)
-#define LLGJKHFPGBF_EIBEOLLICII_OFFSET UNITYSDK_OFFSET(0xB76C960)
-#define LLGJKHFPGBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB76C760)
-#define LLGJKHFPGBF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB76C8B0)
-#define LLGJKHFPGBF_TICK_OFFSET UNITYSDK_OFFSET(0xB76C900)
+#define LLGJKHFPGBF_CTOR_OFFSET UNITYSDK_OFFSET(0xC00BE70)
+#define LLGJKHFPGBF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC00BE80)
+#define LLGJKHFPGBF_EIBEOLLICII_OFFSET UNITYSDK_OFFSET(0xC00C0D0)
+#define LLGJKHFPGBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC00BED0)
+#define LLGJKHFPGBF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC00C020)
+#define LLGJKHFPGBF_TICK_OFFSET UNITYSDK_OFFSET(0xC00C070)
 
-inline static constexpr unsigned int LLGJKHFPGBF_TypeDefinitionIndex = 53174;
+inline static constexpr unsigned int LLGJKHFPGBF_TypeDefinitionIndex = 54336;
 
 	class LLGJKHFPGBF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::PropDestruct* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::PropComponent* NKILIBDMOMC; // 0x28
+		::RPG::GameCore::PropComponent* NKILIBDMOMC; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::PropDestruct* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropDestruct* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropDestruct*))((::PBYTE)hIl2Cpp + LLGJKHFPGBF_CTOR_OFFSET))(this, a1, a2);

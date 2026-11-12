@@ -6,21 +6,21 @@ class NNCKBIHOFIP;
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::UI { class Slider; }
 
-#define ENPCHFJGOMK_COPGACEDIEI_OFFSET UNITYSDK_OFFSET(0x155B6D90)
-#define ENPCHFJGOMK_CTOR_OFFSET UNITYSDK_OFFSET(0x155B6E00)
-#define ENPCHFJGOMK_EGLHCCFNAGK_OFFSET UNITYSDK_OFFSET(0x155B6CD0)
-#define ENPCHFJGOMK_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x155B68D0)
-#define ENPCHFJGOMK_HPKAAIMCAPC_OFFSET UNITYSDK_OFFSET(0x155B6C80)
-#define ENPCHFJGOMK__ONBIND_OFFSET UNITYSDK_OFFSET(0x155B67B0)
+#define ENPCHFJGOMK_COPGACEDIEI_OFFSET UNITYSDK_OFFSET(0x164C7940)
+#define ENPCHFJGOMK_CTOR_OFFSET UNITYSDK_OFFSET(0x164C79B0)
+#define ENPCHFJGOMK_EGLHCCFNAGK_OFFSET UNITYSDK_OFFSET(0x164C7880)
+#define ENPCHFJGOMK_HPKAAIMCAPC_OFFSET UNITYSDK_OFFSET(0x164C7830)
+#define ENPCHFJGOMK__ONBIND_OFFSET UNITYSDK_OFFSET(0x164C72F0)
+#define ENPCHFJGOMK__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x164C7480)
 
-inline static constexpr unsigned int ENPCHFJGOMK_TypeDefinitionIndex = 72288;
+inline static constexpr unsigned int ENPCHFJGOMK_TypeDefinitionIndex = 74365;
 
 	class ENPCHFJGOMK : public ::FMPCODLIOLG
 	{
 	public:
 		::UnityEngine::UI::Slider* HBMGJNFEFLN; // 0x60
-		::NNCKBIHOFIP* PFKCKIOAOFO; // 0x68
-		::System::Action_1<::ENPCHFJGOMK*>* HJLKNPIFNGI; // 0x70
+		::System::Action_1<::ENPCHFJGOMK*>* HJLKNPIFNGI; // 0x68
+		::NNCKBIHOFIP* PFKCKIOAOFO; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENPCHFJGOMK_CTOR_OFFSET))(this);
@@ -31,9 +31,9 @@ inline static constexpr unsigned int ENPCHFJGOMK_TypeDefinitionIndex = 72288;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENPCHFJGOMK__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENPCHFJGOMK_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENPCHFJGOMK__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void HPKAAIMCAPC(::System::Action_1<::ENPCHFJGOMK*>* a1)

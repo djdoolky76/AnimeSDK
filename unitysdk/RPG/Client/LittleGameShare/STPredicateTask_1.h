@@ -5,7 +5,7 @@ class PAPOPANPGIJ;
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int STPredicateTask_1_TypeDefinitionIndex = 36970;
+	inline static constexpr unsigned int STPredicateTask_1_TypeDefinitionIndex = 37898;
 
 	template <typename T>
 	class STPredicateTask_1 : public ::DJPBAKPBELL

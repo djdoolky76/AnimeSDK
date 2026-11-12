@@ -7,19 +7,19 @@ class PMOJJIAKPPG;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 
-#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKENTRYVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA04E0)
-#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKENTRYVIEWMODEL_GET_TALKERICONPATH_OFFSET UNITYSDK_OFFSET(0xCFA0530)
-#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKENTRYVIEWMODEL_GET_TEXT_OFFSET UNITYSDK_OFFSET(0xCFA05B0)
+#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKENTRYVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD921DA0)
+#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKENTRYVIEWMODEL_GET_TALKERICONPATH_OFFSET UNITYSDK_OFFSET(0xD921DF0)
+#define RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKENTRYVIEWMODEL_GET_TEXT_OFFSET UNITYSDK_OFFSET(0xD921E70)
 
 namespace RPG::Client::FateRin::Day
 {
-	inline static constexpr unsigned int SwitchDayTalkEntryViewModel_TypeDefinitionIndex = 81071;
+	inline static constexpr unsigned int SwitchDayTalkEntryViewModel_TypeDefinitionIndex = 83851;
 
 	class SwitchDayTalkEntryViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:
-		::RPG::AvatarSystem::IAvatar* _TalkerAvatarModel; // 0x20
-		::PMOJJIAKPPG* _Model; // 0x28
+		::PMOJJIAKPPG* _Model; // 0x20
+		::RPG::AvatarSystem::IAvatar* _TalkerAvatarModel; // 0x28
 		::System::Void _ctor(::PMOJJIAKPPG* a1, ::FEIPLKMMIOI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::PMOJJIAKPPG*, ::FEIPLKMMIOI*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_DAY_SWITCHDAYTALKENTRYVIEWMODEL_CTOR_OFFSET))(this, a1, a2);

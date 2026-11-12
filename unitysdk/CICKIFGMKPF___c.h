@@ -4,18 +4,18 @@
 class CICKIFGMKPF;
 namespace System { class Object; }
 
-#define CICKIFGMKPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0CF080)
-#define CICKIFGMKPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0CF0C0)
-#define CICKIFGMKPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0CF0D0)
+#define CICKIFGMKPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F39F520)
+#define CICKIFGMKPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F39F560)
+#define CICKIFGMKPF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F39F570)
 
-inline static constexpr unsigned int CICKIFGMKPF___c_TypeDefinitionIndex = 32977;
+inline static constexpr unsigned int CICKIFGMKPF___c_TypeDefinitionIndex = 33892;
 
 	class CICKIFGMKPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17170);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10B70);
 		}
 
 		static ::System::Void _cctor()

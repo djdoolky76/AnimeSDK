@@ -4,12 +4,12 @@
 namespace RPG::Client { class ElfRestaurantProgressData; }
 namespace RPG::Client { class UserPrefs; }
 
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDA5A80)
-#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS6_0__CHECKMENUCONFIGHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xCDA6750)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD76D740)
+#define RPG_CLIENT_ELFHINTTOASTMANAGER___C__DISPLAYCLASS6_0__CHECKMENUCONFIGHINTS_B__0_OFFSET UNITYSDK_OFFSET(0xD76E4B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass6_0_TypeDefinitionIndex = 63703;
+	inline static constexpr unsigned int ElfHintToastManager___c__DisplayClass6_0_TypeDefinitionIndex = 65145;
 
 	class ElfHintToastManager___c__DisplayClass6_0 : public ::System::Object
 	{

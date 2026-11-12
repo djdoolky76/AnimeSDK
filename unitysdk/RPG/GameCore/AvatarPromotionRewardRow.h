@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarPromotionRewardRow; }
 
-#define RPG_GAMECORE_AVATARPROMOTIONREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D41D0E0)
-#define RPG_GAMECORE_AVATARPROMOTIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D41CB80)
+#define RPG_GAMECORE_AVATARPROMOTIONREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E63D840)
+#define RPG_GAMECORE_AVATARPROMOTIONREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E63D2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarPromotionRewardRow_TypeDefinitionIndex = 12736;
+	inline static constexpr unsigned int AvatarPromotionRewardRow_TypeDefinitionIndex = 12803;
 
 	class AvatarPromotionRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PromotionRewardId; // 0x10
-		::System::UInt32 Promotion; // 0x14
+		::System::UInt32 Promotion; // 0x10
+		::System::UInt32 PromotionRewardId; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARPROMOTIONREWARDROW_CTOR_OFFSET))(this);

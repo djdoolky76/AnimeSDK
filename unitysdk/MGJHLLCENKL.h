@@ -9,20 +9,20 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MGJHLLCENKL_AONMHJHDCCC_OFFSET UNITYSDK_OFFSET(0x1C74BB70)
-#define MGJHLLCENKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74B210)
-#define MGJHLLCENKL_DALKGJPIBDO_OFFSET UNITYSDK_OFFSET(0x1C74B8C0)
-#define MGJHLLCENKL_DCMJACCNOGP_OFFSET UNITYSDK_OFFSET(0x1C74BA40)
-#define MGJHLLCENKL_EOHINMCGKAO_OFFSET UNITYSDK_OFFSET(0x1C74BF40)
-#define MGJHLLCENKL_LHFJJJCONCB_OFFSET UNITYSDK_OFFSET(0x1C74B2B0)
+#define MGJHLLCENKL_AONMHJHDCCC_OFFSET UNITYSDK_OFFSET(0x1D8CD4D0)
+#define MGJHLLCENKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CCB70)
+#define MGJHLLCENKL_DALKGJPIBDO_OFFSET UNITYSDK_OFFSET(0x1D8CD220)
+#define MGJHLLCENKL_DCMJACCNOGP_OFFSET UNITYSDK_OFFSET(0x1D8CD3A0)
+#define MGJHLLCENKL_EOHINMCGKAO_OFFSET UNITYSDK_OFFSET(0x1D8CD8A0)
+#define MGJHLLCENKL_LHFJJJCONCB_OFFSET UNITYSDK_OFFSET(0x1D8CCC10)
 
-inline static constexpr unsigned int MGJHLLCENKL_TypeDefinitionIndex = 36490;
+inline static constexpr unsigned int MGJHLLCENKL_TypeDefinitionIndex = 37418;
 
 	class MGJHLLCENKL : public ::System::Object
 	{
 	public:
-		::PLAJONHLDJN* FLMODBLFAGD; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* IHBMAPBBILJ; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* IHBMAPBBILJ; // 0x10
+		::PLAJONHLDJN* FLMODBLFAGD; // 0x18
 		::System::Void _ctor(::PLAJONHLDJN* a1, ::AIMNKMEFBKE* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::PLAJONHLDJN*, ::AIMNKMEFBKE*))((::PBYTE)hIl2Cpp + MGJHLLCENKL_CTOR_OFFSET))(this, a1, a2);

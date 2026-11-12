@@ -7,23 +7,23 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitAndProcessBattleResult; }
 namespace System::Collections { class IEnumerator; }
 
-#define KLCEMHGDCCC_CTOR_OFFSET UNITYSDK_OFFSET(0xB4E0FF0)
-#define KLCEMHGDCCC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4E1010)
-#define KLCEMHGDCCC_IMKEDDPCEHJ_OFFSET UNITYSDK_OFFSET(0xB4E1910)
-#define KLCEMHGDCCC_JELJKMHDNKL_OFFSET UNITYSDK_OFFSET(0xB4E16F0)
-#define KLCEMHGDCCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4E10F0)
-#define KLCEMHGDCCC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB4E1350)
-#define KLCEMHGDCCC_TICK_OFFSET UNITYSDK_OFFSET(0xB4E1450)
+#define KLCEMHGDCCC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2A410)
+#define KLCEMHGDCCC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD2A430)
+#define KLCEMHGDCCC_IMKEDDPCEHJ_OFFSET UNITYSDK_OFFSET(0xBD2AD20)
+#define KLCEMHGDCCC_JELJKMHDNKL_OFFSET UNITYSDK_OFFSET(0xBD2AB00)
+#define KLCEMHGDCCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD2A510)
+#define KLCEMHGDCCC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBD2A770)
+#define KLCEMHGDCCC_TICK_OFFSET UNITYSDK_OFFSET(0xBD2A860)
 
-inline static constexpr unsigned int KLCEMHGDCCC_TypeDefinitionIndex = 58849;
+inline static constexpr unsigned int KLCEMHGDCCC_TypeDefinitionIndex = 60121;
 
 	class KLCEMHGDCCC : public ::GELIALJDFBL
 	{
 	public:
-		::System::Collections::IEnumerator* DCIOGOGNJFJ; // 0x18
-		::System::Collections::IEnumerator* JHBNJLNCGEJ; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::RPG::GameCore::WaitAndProcessBattleResult* OFKGLJOAMLD; // 0x30
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::WaitAndProcessBattleResult* OFKGLJOAMLD; // 0x20
+		::System::Collections::IEnumerator* DCIOGOGNJFJ; // 0x28
+		::System::Collections::IEnumerator* JHBNJLNCGEJ; // 0x30
 		::System::Boolean PINCHACJCNO; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitAndProcessBattleResult* a2)
 		{

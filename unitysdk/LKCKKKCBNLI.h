@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RoundCountCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKCKKKCBNLI_CTOR_OFFSET UNITYSDK_OFFSET(0xB72D9E0)
-#define LKCKKKCBNLI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB72D9F0)
-#define LKCKKKCBNLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB72DA30)
-#define LKCKKKCBNLI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB72DA80)
-#define LKCKKKCBNLI_TICK_OFFSET UNITYSDK_OFFSET(0xB72DAD0)
+#define LKCKKKCBNLI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFCA8D0)
+#define LKCKKKCBNLI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFCA8E0)
+#define LKCKKKCBNLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFCA920)
+#define LKCKKKCBNLI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFCA970)
+#define LKCKKKCBNLI_TICK_OFFSET UNITYSDK_OFFSET(0xBFCA9C0)
 
-inline static constexpr unsigned int LKCKKKCBNLI_TypeDefinitionIndex = 58502;
+inline static constexpr unsigned int LKCKKKCBNLI_TypeDefinitionIndex = 59766;
 
 	class LKCKKKCBNLI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RoundCountCheck* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RoundCountCheck* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RoundCountCheck* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RoundCountCheck*))((::PBYTE)hIl2Cpp + LKCKKKCBNLI_CTOR_OFFSET))(this, a1, a2);

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-#define LPCLKDJLGKC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB819160)
-#define LPCLKDJLGKC___C__DISPLAYCLASS3_0__FOREACHPETID_B__0_OFFSET UNITYSDK_OFFSET(0xB819350)
+#define LPCLKDJLGKC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC07A700)
+#define LPCLKDJLGKC___C__DISPLAYCLASS3_0__FOREACHPETID_B__0_OFFSET UNITYSDK_OFFSET(0xC07A8F0)
 
-inline static constexpr unsigned int LPCLKDJLGKC___c__DisplayClass3_0_TypeDefinitionIndex = 75670;
+inline static constexpr unsigned int LPCLKDJLGKC___c__DisplayClass3_0_TypeDefinitionIndex = 77997;
 
 	class LPCLKDJLGKC___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -5,18 +5,18 @@ namespace RPG::GameCore { class GridFightDivisionConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GBLMFEAAHOK_CTOR_OFFSET UNITYSDK_OFFSET(0x15952880)
-#define GBLMFEAAHOK_HHJFEDECJHE_OFFSET UNITYSDK_OFFSET(0x15952510)
-#define GBLMFEAAHOK_MEFBDHPONOI_OFFSET UNITYSDK_OFFSET(0x15952480)
+#define GBLMFEAAHOK_CTOR_OFFSET UNITYSDK_OFFSET(0x16887F60)
+#define GBLMFEAAHOK_HHJFEDECJHE_OFFSET UNITYSDK_OFFSET(0x16887BF0)
+#define GBLMFEAAHOK_MEFBDHPONOI_OFFSET UNITYSDK_OFFSET(0x16887B60)
 
-inline static constexpr unsigned int GBLMFEAAHOK_TypeDefinitionIndex = 64570;
+inline static constexpr unsigned int GBLMFEAAHOK_TypeDefinitionIndex = 66100;
 
 	class GBLMFEAAHOK : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::GridFightDivisionConfigRow*>*>** StaticGet_FNHDMKOCAIF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::GridFightDivisionConfigRow*>*>**)UnitySDK::FromName("", "GBLMFEAAHOK")->GetStaticField(0x5F720);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::GameCore::GridFightDivisionConfigRow*>*>**)UnitySDK::FromName("", "GBLMFEAAHOK")->GetStaticField(0x5B530);
 		}
 
 		::System::Void _ctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/CFJDNIMHGOG.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define FLKPJDPBNBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1583D8B0)
+#define FLKPJDPBNBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x167AD280)
 
-inline static constexpr unsigned int FLKPJDPBNBJ_TypeDefinitionIndex = 55596;
+inline static constexpr unsigned int FLKPJDPBNBJ_TypeDefinitionIndex = 56792;
 
 	class FLKPJDPBNBJ : public ::CFJDNIMHGOG
 	{

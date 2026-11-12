@@ -4,7 +4,7 @@
 
 namespace System::Buffers
 {
-	inline static constexpr unsigned int ReadOnlySequence_1_TypeDefinitionIndex = 4998;
+	inline static constexpr unsigned int ReadOnlySequence_1_TypeDefinitionIndex = 5003;
 
 	template <typename T>
 	struct alignas(4) ReadOnlySequence_1

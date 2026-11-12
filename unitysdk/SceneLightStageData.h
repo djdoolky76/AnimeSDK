@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SCENELIGHTSTAGEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE95EE20)
+#define SCENELIGHTSTAGEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF47D670)
 
-inline static constexpr unsigned int SceneLightStageData_TypeDefinitionIndex = 47390;
+inline static constexpr unsigned int SceneLightStageData_TypeDefinitionIndex = 48419;
 
 	class SceneLightStageData : public ::UnityEngine::ScriptableObject
 	{

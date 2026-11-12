@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicSubAffixBaseValueRow; }
 
-#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D982520)
-#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D982390)
+#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9A990)
+#define RPG_GAMECORE_RELICSUBAFFIXBASEVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB9A800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSubAffixBaseValueRow_TypeDefinitionIndex = 10881;
+	inline static constexpr unsigned int RelicSubAffixBaseValueRow_TypeDefinitionIndex = 10897;
 
 	class RelicSubAffixBaseValueRow : public ::System::Object
 	{

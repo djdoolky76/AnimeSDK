@@ -4,9 +4,9 @@
 class AFEPOFEOCDI;
 class OMPCEECHGJK;
 
-#define JCDLGNPBKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1657D9B0)
+#define JCDLGNPBKEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB8C1590)
 
-inline static constexpr unsigned int JCDLGNPBKEN_TypeDefinitionIndex = 76653;
+inline static constexpr unsigned int JCDLGNPBKEN_TypeDefinitionIndex = 78984;
 
 	class JCDLGNPBKEN : public ::DJJKNHPLHDI
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define FEDDCDEFDCE_CLEAR_OFFSET UNITYSDK_OFFSET(0x156E7710)
-#define FEDDCDEFDCE_CTOR_OFFSET UNITYSDK_OFFSET(0x156E7760)
+#define FEDDCDEFDCE_CLEAR_OFFSET UNITYSDK_OFFSET(0x16601610)
+#define FEDDCDEFDCE_CTOR_OFFSET UNITYSDK_OFFSET(0x16601660)
 
-inline static constexpr unsigned int FEDDCDEFDCE_TypeDefinitionIndex = 54260;
+inline static constexpr unsigned int FEDDCDEFDCE_TypeDefinitionIndex = 55424;
 
 	class FEDDCDEFDCE : public ::System::Object
 	{

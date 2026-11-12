@@ -5,20 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCChessBoardEventRow; }
 
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9BF7A0)
-#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9BF0D0)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC08F00)
+#define RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC08830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCChessBoardEventRow_TypeDefinitionIndex = 14772;
+	inline static constexpr unsigned int RogueDLCChessBoardEventRow_TypeDefinitionIndex = 14928;
 
 	class RogueDLCChessBoardEventRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ChessBoardEventID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ChessBoardEventName; // 0x18
-		::RPG::Client::TextID ChessBoardEventDesc; // 0x28
+		::RPG::Client::TextID ChessBoardEventName; // 0x10
+		::RPG::Client::TextID ChessBoardEventDesc; // 0x20
+		::System::UInt32 ChessBoardEventID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCCHESSBOARDEVENTROW_CTOR_OFFSET))(this);

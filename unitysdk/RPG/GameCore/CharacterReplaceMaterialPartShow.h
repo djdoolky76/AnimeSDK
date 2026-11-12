@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterReplaceMaterialPartShow; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALPARTSHOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D578440)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALPARTSHOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5782A0)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALPARTSHOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E789230)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALPARTSHOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E789090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialPartShow_TypeDefinitionIndex = 17438;
+	inline static constexpr unsigned int CharacterReplaceMaterialPartShow_TypeDefinitionIndex = 17606;
 
 	class CharacterReplaceMaterialPartShow : public ::RPG::GameCore::JsonConfig
 	{

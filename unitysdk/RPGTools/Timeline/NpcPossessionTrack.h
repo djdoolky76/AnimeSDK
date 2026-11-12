@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE911860)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE9119E0)
-#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xE911970)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xF3ED2B0)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF3ED430)
+#define RPGTOOLS_TIMELINE_NPCPOSSESSIONTRACK_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0xF3ED3C0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int NpcPossessionTrack_TypeDefinitionIndex = 48213;
+	inline static constexpr unsigned int NpcPossessionTrack_TypeDefinitionIndex = 49251;
 
 	class NpcPossessionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

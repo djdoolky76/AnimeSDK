@@ -4,9 +4,9 @@
 class DJLLENLBFAD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ALFCGCNDMIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C593FE0)
+#define ALFCGCNDMIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D715800)
 
-inline static constexpr unsigned int ALFCGCNDMIA_TypeDefinitionIndex = 37164;
+inline static constexpr unsigned int ALFCGCNDMIA_TypeDefinitionIndex = 38092;
 
 	class ALFCGCNDMIA : public ::DKFLMHICIJG
 	{

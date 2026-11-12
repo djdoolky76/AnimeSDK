@@ -7,21 +7,21 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 namespace System { class Uri; }
 
-#define MESSAGEPACK_FORMATTERS_URIFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB811E0)
-#define MESSAGEPACK_FORMATTERS_URIFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB81080)
-#define MESSAGEPACK_FORMATTERS_URIFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB81190)
-#define MESSAGEPACK_FORMATTERS_URIFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB81090)
+#define MESSAGEPACK_FORMATTERS_URIFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD09EF0)
+#define MESSAGEPACK_FORMATTERS_URIFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD09D90)
+#define MESSAGEPACK_FORMATTERS_URIFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD09EA0)
+#define MESSAGEPACK_FORMATTERS_URIFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD09DA0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int UriFormatter_TypeDefinitionIndex = 7490;
+	inline static constexpr unsigned int UriFormatter_TypeDefinitionIndex = 7501;
 
 	class UriFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Uri*>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Uri*>**)UnitySDK::FromName("MessagePack.Formatters", "UriFormatter")->GetStaticField(0x25640);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Uri*>**)UnitySDK::FromName("MessagePack.Formatters", "UriFormatter")->GetStaticField(0x47D70);
 		}
 
 		::System::Void _ctor()

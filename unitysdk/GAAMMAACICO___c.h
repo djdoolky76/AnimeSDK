@@ -4,18 +4,18 @@
 class GAAMMAACICO;
 namespace System { class Object; }
 
-#define GAAMMAACICO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E412AA0)
-#define GAAMMAACICO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E412AE0)
-#define GAAMMAACICO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E412AF0)
+#define GAAMMAACICO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F700670)
+#define GAAMMAACICO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7006B0)
+#define GAAMMAACICO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F7006C0)
 
-inline static constexpr unsigned int GAAMMAACICO___c_TypeDefinitionIndex = 26267;
+inline static constexpr unsigned int GAAMMAACICO___c_TypeDefinitionIndex = 26794;
 
 	class GAAMMAACICO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6BD20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53050);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StimulusItemConfig; }
 
-#define RPG_GAMECORE_STIMULUSITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB243C0)
-#define RPG_GAMECORE_STIMULUSITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB24310)
+#define RPG_GAMECORE_STIMULUSITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED35C70)
+#define RPG_GAMECORE_STIMULUSITEMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED35BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StimulusItemConfig_TypeDefinitionIndex = 15637;
+	inline static constexpr unsigned int StimulusItemConfig_TypeDefinitionIndex = 15795;
 
 	class StimulusItemConfig : public ::RPG::GameCore::JsonConfig
 	{

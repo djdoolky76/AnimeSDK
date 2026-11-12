@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TextJoinConditionalItemRow; }
 
-#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB819F0)
-#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB81830)
+#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE310C0)
+#define RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE30F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextJoinConditionalItemRow_TypeDefinitionIndex = 15285;
+	inline static constexpr unsigned int TextJoinConditionalItemRow_TypeDefinitionIndex = 15441;
 
 	class TextJoinConditionalItemRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID TextJoinText; // 0x10
-		::System::UInt32 TextJoinItemID; // 0x20
-		::System::UInt32 UnlockID; // 0x24
+		::System::UInt32 TextJoinItemID; // 0x10
+		::System::UInt32 UnlockID; // 0x14
+		::RPG::Client::TextID TextJoinText; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTJOINCONDITIONALITEMROW_CTOR_OFFSET))(this);

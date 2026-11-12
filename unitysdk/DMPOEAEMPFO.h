@@ -4,19 +4,19 @@
 class DMPOEAEMPFO;
 class FCOEMCEDLNL;
 
-#define DMPOEAEMPFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD49320)
-#define DMPOEAEMPFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD49330)
-#define DMPOEAEMPFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD492E0)
+#define DMPOEAEMPFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF180B0)
+#define DMPOEAEMPFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF180C0)
+#define DMPOEAEMPFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF18070)
 
-inline static constexpr unsigned int DMPOEAEMPFO_TypeDefinitionIndex = 10229;
+inline static constexpr unsigned int DMPOEAEMPFO_TypeDefinitionIndex = 10238;
 
 	class DMPOEAEMPFO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::UInt32 LEAPPNPBINI; // 0x18
-		::System::Boolean DMKJAJLNEBK; // 0x1C
+		::System::Boolean DMKJAJLNEBK; // 0x18
 		::System::Byte _padding0[0x3];
-		::System::UInt32 DGLJLJEHNNB; // 0x20
+		::System::UInt32 DGLJLJEHNNB; // 0x1C
+		::System::UInt32 LEAPPNPBINI; // 0x20
 		::System::UInt32 IHALCLABNOJ; // 0x24
 		::System::Void _ctor()
 		{

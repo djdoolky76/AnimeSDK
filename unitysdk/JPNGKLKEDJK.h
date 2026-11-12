@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideMonsterRankScore; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPNGKLKEDJK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CCE20)
-#define JPNGKLKEDJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2CCE50)
+#define JPNGKLKEDJK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB50520)
+#define JPNGKLKEDJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB50550)
 
-inline static constexpr unsigned int JPNGKLKEDJK_TypeDefinitionIndex = 55241;
+inline static constexpr unsigned int JPNGKLKEDJK_TypeDefinitionIndex = 56422;
 
 	class JPNGKLKEDJK
 	{

@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define LHPKENDELPD_AKPIFPBGDPG_OFFSET UNITYSDK_OFFSET(0xB6C1D20)
-#define LHPKENDELPD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6C1E20)
-#define LHPKENDELPD_PELJACANAFH_OFFSET UNITYSDK_OFFSET(0xB6C1CE0)
+#define LHPKENDELPD_AKPIFPBGDPG_OFFSET UNITYSDK_OFFSET(0xBF59C00)
+#define LHPKENDELPD_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF59D00)
+#define LHPKENDELPD_PELJACANAFH_OFFSET UNITYSDK_OFFSET(0xBF59BC0)
 
-inline static constexpr unsigned int LHPKENDELPD_TypeDefinitionIndex = 74924;
+inline static constexpr unsigned int LHPKENDELPD_TypeDefinitionIndex = 77251;
 
 	class LHPKENDELPD : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TextID* StaticGet_BFEKILADGJA()
-		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "LHPKENDELPD")->GetStaticField(0x144B0);
-		}
-
 		static ::RPG::Client::TextID* StaticGet_GBHONFAPABN()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "LHPKENDELPD")->GetStaticField(0x144C0);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "LHPKENDELPD")->GetStaticField(0x14280);
+		}
+
+		static ::RPG::Client::TextID* StaticGet_BFEKILADGJA()
+		{
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "LHPKENDELPD")->GetStaticField(0x14290);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCheckGameMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JMFKIPNGAFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2628A0)
-#define JMFKIPNGAFF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2628D0)
+#define JMFKIPNGAFF_CTOR_OFFSET UNITYSDK_OFFSET(0xBA8D9A0)
+#define JMFKIPNGAFF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA8D9D0)
 
-inline static constexpr unsigned int JMFKIPNGAFF_TypeDefinitionIndex = 54450;
+inline static constexpr unsigned int JMFKIPNGAFF_TypeDefinitionIndex = 55614;
 
 	class JMFKIPNGAFF
 	{

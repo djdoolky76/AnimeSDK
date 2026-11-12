@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryCharacterApperMode_TypeDefinitionIndex = 57355;
+	inline static constexpr unsigned int StoryCharacterApperMode_TypeDefinitionIndex = 58583;
 
 	enum class StoryCharacterApperMode : ::System::Int32
 	{

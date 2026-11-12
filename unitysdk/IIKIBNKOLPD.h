@@ -3,10 +3,10 @@
 class OGCPMCECAPG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIKIBNKOLPD_CTOR_OFFSET UNITYSDK_OFFSET(0x16440C50)
-#define IIKIBNKOLPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16440C80)
+#define IIKIBNKOLPD_CTOR_OFFSET UNITYSDK_OFFSET(0x173FC4B0)
+#define IIKIBNKOLPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x173FC4E0)
 
-inline static constexpr unsigned int IIKIBNKOLPD_TypeDefinitionIndex = 54954;
+inline static constexpr unsigned int IIKIBNKOLPD_TypeDefinitionIndex = 56128;
 
 	class IIKIBNKOLPD
 	{

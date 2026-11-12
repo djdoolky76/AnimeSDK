@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageInvasionBuffRow; }
 
-#define RPG_GAMECORE_STAGEINVASIONBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0F240)
-#define RPG_GAMECORE_STAGEINVASIONBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0E8E0)
+#define RPG_GAMECORE_STAGEINVASIONBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED21460)
+#define RPG_GAMECORE_STAGEINVASIONBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED20B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionBuffRow_TypeDefinitionIndex = 15155;
+	inline static constexpr unsigned int StageInvasionBuffRow_TypeDefinitionIndex = 15311;
 
 	class StageInvasionBuffRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID InvasionDesc; // 0x10
-		::System::UInt32 MazeBuffID; // 0x20
-		::System::UInt32 InvasionID; // 0x24
+		::System::UInt32 InvasionID; // 0x10
+		::System::UInt32 MazeBuffID; // 0x14
+		::RPG::Client::TextID InvasionDesc; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINVASIONBUFFROW_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class LDJDPENEGNH;
 namespace System { class Object; }
 
-#define LDJDPENEGNH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F9EA0)
-#define LDJDPENEGNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F9EE0)
-#define LDJDPENEGNH___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1E8F9EF0)
+#define LDJDPENEGNH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC38520)
+#define LDJDPENEGNH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC38560)
+#define LDJDPENEGNH___C___CCTOR_B__63_0_OFFSET UNITYSDK_OFFSET(0x1FC38570)
 
-inline static constexpr unsigned int LDJDPENEGNH___c_TypeDefinitionIndex = 25338;
+inline static constexpr unsigned int LDJDPENEGNH___c_TypeDefinitionIndex = 25816;
 
 	class LDJDPENEGNH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34BA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ACD0);
 		}
 
 		static ::System::Void _cctor()

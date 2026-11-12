@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class KAKADGHNMFK;
 
-#define HAJDFCHFBGN___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B79D10)
-#define HAJDFCHFBGN___C__DISPLAYCLASS34_0__SELECTTEAMFIELD_B__0_OFFSET UNITYSDK_OFFSET(0x15B7A880)
+#define HAJDFCHFBGN___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16B00870)
+#define HAJDFCHFBGN___C__DISPLAYCLASS34_0__SELECTTEAMFIELD_B__0_OFFSET UNITYSDK_OFFSET(0x16B013E0)
 
-inline static constexpr unsigned int HAJDFCHFBGN___c__DisplayClass34_0_TypeDefinitionIndex = 77430;
+inline static constexpr unsigned int HAJDFCHFBGN___c__DisplayClass34_0_TypeDefinitionIndex = 80165;
 
 	class HAJDFCHFBGN___c__DisplayClass34_0 : public ::System::Object
 	{

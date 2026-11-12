@@ -7,35 +7,35 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PIMCPBPFGMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC270100)
-#define PIMCPBPFGMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC270140)
-#define PIMCPBPFGMB___C__GET_ISSESSIONSETTLED_B__20_0_OFFSET UNITYSDK_OFFSET(0xC270150)
-#define PIMCPBPFGMB___C___CTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0xC2701A0)
-#define PIMCPBPFGMB___C___CTOR_B__53_2_OFFSET UNITYSDK_OFFSET(0xC270200)
+#define PIMCPBPFGMB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB98240)
+#define PIMCPBPFGMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB98280)
+#define PIMCPBPFGMB___C__GET_ISSESSIONSETTLED_B__20_0_OFFSET UNITYSDK_OFFSET(0xCB98290)
+#define PIMCPBPFGMB___C___CTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0xCB982E0)
+#define PIMCPBPFGMB___C___CTOR_B__53_2_OFFSET UNITYSDK_OFFSET(0xCB98340)
 
-inline static constexpr unsigned int PIMCPBPFGMB___c_TypeDefinitionIndex = 81613;
+inline static constexpr unsigned int PIMCPBPFGMB___c_TypeDefinitionIndex = 84394;
 
 	class PIMCPBPFGMB___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::AHCEFHABPDI*>** StaticGet___9__53_0()
-		{
-			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::AHCEFHABPDI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F830);
-		}
-
 		static ::System::Func_2<::DCKGNOHECDC*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::DCKGNOHECDC*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F838);
-		}
-
-		static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>** StaticGet___9__53_2()
-		{
-			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F840);
+			return (::System::Func_2<::DCKGNOHECDC*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D90);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F848);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D98);
+		}
+
+		static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::AHCEFHABPDI*>** StaticGet___9__53_0()
+		{
+			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::AHCEFHABPDI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71DA0);
+		}
+
+		static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>** StaticGet___9__53_2()
+		{
+			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71DA8);
 		}
 
 		static ::System::Void _cctor()

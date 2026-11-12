@@ -4,18 +4,18 @@
 namespace MiHoYo::SDK { class LanguageManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE904A0)
-#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__ONGETVERSION_B__0_OFFSET UNITYSDK_OFFSET(0x1BE908A0)
+#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D018740)
+#define MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0__ONGETVERSION_B__0_OFFSET UNITYSDK_OFFSET(0x1D018B40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LanguageManager___c__DisplayClass18_0_TypeDefinitionIndex = 8073;
+	inline static constexpr unsigned int LanguageManager___c__DisplayClass18_0_TypeDefinitionIndex = 8082;
 
 	class LanguageManager___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::String* strRequestLangCode; // 0x10
-		::MiHoYo::SDK::LanguageManager* __4__this; // 0x18
+		::MiHoYo::SDK::LanguageManager* __4__this; // 0x10
+		::System::String* strRequestLangCode; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_LANGUAGEMANAGER___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);

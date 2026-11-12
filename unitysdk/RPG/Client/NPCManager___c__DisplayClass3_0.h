@@ -6,18 +6,18 @@ namespace RPG::Client { class NPCManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9288F0)
-#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0___CREATESTILLNPC_B__0_OFFSET UNITYSDK_OFFSET(0xD92F3B0)
+#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3BC530)
+#define RPG_CLIENT_NPCMANAGER___C__DISPLAYCLASS3_0___CREATESTILLNPC_B__0_OFFSET UNITYSDK_OFFSET(0xE3C2FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCManager___c__DisplayClass3_0_TypeDefinitionIndex = 60663;
+	inline static constexpr unsigned int NPCManager___c__DisplayClass3_0_TypeDefinitionIndex = 62040;
 
 	class NPCManager___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapNpcDef* npcDef; // 0x10
-		::RPG::Client::NPCManager* __4__this; // 0x18
+		::RPG::Client::NPCManager* __4__this; // 0x10
+		::RPG::Client::MapNpcDef* npcDef; // 0x18
 		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x20
 		::System::Void _ctor()
 		{

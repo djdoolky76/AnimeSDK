@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ComplexSkillAIConfigEx; }
 namespace RPG::GameCore { class ComplexSkillAIFactorGroupWeightEx; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAICONFIGEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CD300)
-#define RPG_GAMECORE_COMPLEXSKILLAICONFIGEX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CD160)
+#define RPG_GAMECORE_COMPLEXSKILLAICONFIGEX_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DF880)
+#define RPG_GAMECORE_COMPLEXSKILLAICONFIGEX_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7DF6E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAIConfigEx_TypeDefinitionIndex = 17672;
+	inline static constexpr unsigned int ComplexSkillAIConfigEx_TypeDefinitionIndex = 17841;
 
 	class ComplexSkillAIConfigEx : public ::RPG::GameCore::JsonConfig
 	{

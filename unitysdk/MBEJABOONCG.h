@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchMazeBuffTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MBEJABOONCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB85A010)
-#define MBEJABOONCG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB85A080)
+#define MBEJABOONCG_CTOR_OFFSET UNITYSDK_OFFSET(0xC0BF320)
+#define MBEJABOONCG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC0BF390)
 
-inline static constexpr unsigned int MBEJABOONCG_TypeDefinitionIndex = 59234;
+inline static constexpr unsigned int MBEJABOONCG_TypeDefinitionIndex = 60511;
 
 	class MBEJABOONCG
 	{

@@ -4,9 +4,9 @@
 class DPEGLPPPAJJ;
 class LEFAKCMDGNB;
 
-#define LPNGKICCHIC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB824FD0)
+#define LPNGKICCHIC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xC086660)
 
-inline static constexpr unsigned int LPNGKICCHIC_TypeDefinitionIndex = 67158;
+inline static constexpr unsigned int LPNGKICCHIC_TypeDefinitionIndex = 69102;
 
 	class LPNGKICCHIC : public ::System::Object
 	{

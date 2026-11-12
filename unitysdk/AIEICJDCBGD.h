@@ -5,21 +5,21 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class PropWaterWheelStopRotate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AIEICJDCBGD_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA1E50)
-#define AIEICJDCBGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBA23B0)
-#define AIEICJDCBGD_MEJPCDCODCM_OFFSET UNITYSDK_OFFSET(0xEBA2410)
-#define AIEICJDCBGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBA1E60)
-#define AIEICJDCBGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBA2360)
-#define AIEICJDCBGD_TICK_OFFSET UNITYSDK_OFFSET(0xEBA2460)
+#define AIEICJDCBGD_CTOR_OFFSET UNITYSDK_OFFSET(0xF161270)
+#define AIEICJDCBGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF1617D0)
+#define AIEICJDCBGD_MEJPCDCODCM_OFFSET UNITYSDK_OFFSET(0xF161830)
+#define AIEICJDCBGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF161280)
+#define AIEICJDCBGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF161780)
+#define AIEICJDCBGD_TICK_OFFSET UNITYSDK_OFFSET(0xF161880)
 
-inline static constexpr unsigned int AIEICJDCBGD_TypeDefinitionIndex = 58366;
+inline static constexpr unsigned int AIEICJDCBGD_TypeDefinitionIndex = 59622;
 
 	class AIEICJDCBGD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PropWaterWheelStopRotate* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::KFELGAIGHAP* CIFOILLJFNF; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::PropWaterWheelStopRotate* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropWaterWheelStopRotate* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropWaterWheelStopRotate*))((::PBYTE)hIl2Cpp + AIEICJDCBGD_CTOR_OFFSET))(this, a1, a2);

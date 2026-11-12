@@ -4,12 +4,12 @@
 class DCNIDBKPPCK;
 namespace RPG::Client::BlindBox::Trade { class BlindBoxTradeOrderRepository; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC89D650)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS12_0__REFRESHMYORDERS_B__0_OFFSET UNITYSDK_OFFSET(0xC8A2F10)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD202B00)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEORDERREPOSITORY___C__DISPLAYCLASS12_0__REFRESHMYORDERS_B__0_OFFSET UNITYSDK_OFFSET(0xD208360)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeOrderRepository___c__DisplayClass12_0_TypeDefinitionIndex = 74872;
+	inline static constexpr unsigned int BlindBoxTradeOrderRepository___c__DisplayClass12_0_TypeDefinitionIndex = 77199;
 
 	class BlindBoxTradeOrderRepository___c__DisplayClass12_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMatchThreePropData_TypeDefinitionIndex = 66014;
+	inline static constexpr unsigned int IMatchThreePropData_TypeDefinitionIndex = 67946;
 
 	class IMatchThreePropData
 	{

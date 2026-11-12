@@ -71,383 +71,383 @@ namespace MiHoYo::SDK { class ConsoleDelegate_UpdateMatchStatusDelegate; }
 namespace MiHoYo::SDK { class ConsoleDelegate_UpdateRecentPlayersDelegate; }
 namespace MiHoYo::SDK { class ConsoleDelegate_UpdateStatisticsDelegate; }
 
-#define MIHOYO_SDK_CONSOLEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3CCF0)
+#define MIHOYO_SDK_CONSOLEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC5180)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleDelegate_TypeDefinitionIndex = 7613;
+	inline static constexpr unsigned int ConsoleDelegate_TypeDefinitionIndex = 7622;
 
 	class ConsoleDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkLocusDelegate** StaticGet_PlayGoGetChunkLocus()
+		static ::MiHoYo::SDK::ConsoleDelegate_TryGetKidTokenDelegate** StaticGet_TryGetKidToken()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkLocusDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2070);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_OpenURLWithCookiesDelegate** StaticGet_OpenURLWithCookies()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_OpenURLWithCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2078);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetUserProfileDelegate** StaticGet_GetUserProfile()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetUserProfileDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2080);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_AchievementInitDelegate** StaticGet_AchievementInit()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_AchievementInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2088);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetCheckPermissionDelegate** StaticGet_GetCheckPermission()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetCheckPermissionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2090);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_UnregisterReceiveInviteDelegate** StaticGet_UnregisterReceiveInvite()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_UnregisterReceiveInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2098);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkProgressSizeDelegate** StaticGet_PlayGoGetChunkProgressSize()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkProgressSizeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20A0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_LeaveMatchDelegate** StaticGet_LeaveMatch()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_LeaveMatchDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20A8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_OpenCommerceCheckoutDialogDelegate** StaticGet_OpenCommerceCheckoutDialog()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_OpenCommerceCheckoutDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20B0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_JoinMatchDelegate** StaticGet_JoinMatch()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_JoinMatchDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20B8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_SessionDestoryDelegate** StaticGet_SessionDestory()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_SessionDestoryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20C0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_CreateSessionDelegate** StaticGet_CreateSession()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_CreateSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20C8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkTotalSizeDelegate** StaticGet_PlayGoGetChunkTotalSize()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkTotalSizeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20D0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_ShowFriendInvitationDelegate** StaticGet_ShowFriendInvitation()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ShowFriendInvitationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20D8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_JoinSessionDelegate** StaticGet_JoinSession()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_JoinSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20E0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_GetFriendList()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20E8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetAchievementsDelegate** StaticGet_GetAchievements()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetAchievementsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20F0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetAccountCountryDelegate** StaticGet_GetAccountCountry()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetAccountCountryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x20F8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_RegisterFriendListUpdateCallback()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2100);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_SendSessionInviteDelegate** StaticGet_SendSessionInvite()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_SendSessionInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2108);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_TryGetCXTokenDelegate** StaticGet_TryGetCXToken()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_TryGetCXTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2110);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate** StaticGet_ShowMessageDialog()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2118);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetPsStoreProductsDelegate** StaticGet_GetPsStoreProducts()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetPsStoreProductsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2120);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_AchievementDestoryDelegate** StaticGet_AchievementDestory()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_AchievementDestoryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2128);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_OpenURLDelegate** StaticGet_OpenURL()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_OpenURLDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2130);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetPlayerSessionInfoDelegate** StaticGet_GetPlayerSessionInfo()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetPlayerSessionInfoDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2138);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_RegisterReceiveInviteDelegate** StaticGet_RegisterReceiveInvite()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_RegisterReceiveInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2140);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate** StaticGet_ShowErrorDialog()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2148);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_SetSessionDelegate** StaticGet_SetSession()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_SetSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2150);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetCurrentSessionIdDelegate** StaticGet_GetCurrentSessionId()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetCurrentSessionIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2158);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_UpdateMatchDetailDelegate** StaticGet_UpdateMatchDetail()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_UpdateMatchDetailDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2160);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_UpdateMatchStatusDelegate** StaticGet_UpdateMatchStatus()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_UpdateMatchStatusDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2168);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoSetLanguageMaskDelegate** StaticGet_PlayGoSetLanguageMask()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoSetLanguageMaskDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2170);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_SessionInitDelegate** StaticGet_SessionInit()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_SessionInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2178);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_UpdateAchievementDelegate** StaticGet_UpdateAchievement()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_UpdateAchievementDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2180);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_ReportMatchResultsDelegate** StaticGet_ReportMatchResults()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ReportMatchResultsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2188);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_ShowTextEntryDelegate** StaticGet_ShowTextEntry()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ShowTextEntryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2190);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_IsFreeCommunicationAvailableDelegate** StaticGet_IsFreeCommunicationAvailable()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_IsFreeCommunicationAvailableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2198);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_GetBlockList()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21A0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_RegisterBlockListUpdateCallback()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21A8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_HasJoinSessionDelegate** StaticGet_HasJoinSession()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_HasJoinSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21B0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetAccountTokenDelegate** StaticGet_GetAccountToken()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetAccountTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21B8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_CXUserSignInDelegate** StaticGet_CXUserSignIn()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_CXUserSignInDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21C0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkInfoDelegate** StaticGet_PlayGoGetChunkInfo()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkInfoDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21C8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate** StaticGet_UnregisterBlockListUpdateCallback()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21D0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_CreateMatchDelegate** StaticGet_CreateMatch()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_CreateMatchDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21D8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_TryBeginFreeCommunicationDelegate** StaticGet_TryBeginFreeCommunication()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_TryBeginFreeCommunicationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21E0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_UpdateRecentPlayersDelegate** StaticGet_UpdateRecentPlayers()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_UpdateRecentPlayersDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21E8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetLeaderboardsDelegate** StaticGet_GetLeaderboards()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetLeaderboardsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21F0);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_CheckPrivilegeDelegate** StaticGet_CheckPrivilege()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_CheckPrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x21F8);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate** StaticGet_CXOpenCommerceCheckoutDialog()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2200);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_ShowProfileCardDelegate** StaticGet_ShowProfileCard()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ShowProfileCardDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2208);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_TryGetAuthCodeDelegate** StaticGet_TryGetAuthCode()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_TryGetAuthCodeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2210);
+			return (::MiHoYo::SDK::ConsoleDelegate_TryGetKidTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB30);
 		}
 
 		static ::MiHoYo::SDK::ConsoleDelegate_LeaveSessionDelegate** StaticGet_LeaveSession()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_LeaveSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2218);
+			return (::MiHoYo::SDK::ConsoleDelegate_LeaveSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB38);
 		}
 
-		static ::MiHoYo::SDK::ConsoleDelegate_GetOnlineIdDelegate** StaticGet_GetOnlineId()
+		static ::MiHoYo::SDK::ConsoleDelegate_AchievementInitDelegate** StaticGet_AchievementInit()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetOnlineIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2220);
+			return (::MiHoYo::SDK::ConsoleDelegate_AchievementInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB40);
 		}
 
-		static ::MiHoYo::SDK::ConsoleDelegate_GetMatchDetailDelegate** StaticGet_GetMatchDetail()
+		static ::MiHoYo::SDK::ConsoleDelegate_AchievementDestoryDelegate** StaticGet_AchievementDestory()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetMatchDetailDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2228);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_UpdateStatisticsDelegate** StaticGet_UpdateStatistics()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_UpdateStatisticsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2230);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_RegisterFriendInvitationNotifyDelegate** StaticGet_RegisterFriendInvitationNotify()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_RegisterFriendInvitationNotifyDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2238);
+			return (::MiHoYo::SDK::ConsoleDelegate_AchievementDestoryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB48);
 		}
 
 		static ::MiHoYo::SDK::ConsoleDelegate_GetSandboxIdDelegate** StaticGet_GetSandboxId()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetSandboxIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2240);
+			return (::MiHoYo::SDK::ConsoleDelegate_GetSandboxIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB50);
 		}
 
-		static ::MiHoYo::SDK::ConsoleDelegate_GetStatisticsDelegate** StaticGet_GetStatistics()
+		static ::MiHoYo::SDK::ConsoleDelegate_UpdateMatchStatusDelegate** StaticGet_UpdateMatchStatus()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetStatisticsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2248);
+			return (::MiHoYo::SDK::ConsoleDelegate_UpdateMatchStatusDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB58);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetCurrentSessionIdDelegate** StaticGet_GetCurrentSessionId()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetCurrentSessionIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB60);
 		}
 
 		static ::MiHoYo::SDK::ConsoleDelegate_GetSessionLeaderAccountIdDelegate** StaticGet_GetSessionLeaderAccountId()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetSessionLeaderAccountIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2250);
+			return (::MiHoYo::SDK::ConsoleDelegate_GetSessionLeaderAccountIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB68);
 		}
 
-		static ::MiHoYo::SDK::ConsoleDelegate_GetAccountIdDelegate** StaticGet_GetAccountId()
+		static ::MiHoYo::SDK::ConsoleDelegate_GetPsStoreProductsDelegate** StaticGet_GetPsStoreProducts()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetAccountIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2258);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetActivitiesDelegate** StaticGet_GetActivities()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetActivitiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2260);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_DialogOpenPlayGoDialogDelegate** StaticGet_DialogOpenPlayGoDialog()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_DialogOpenPlayGoDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2268);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_GetUserCollectionsIdDelegate** StaticGet_GetUserCollectionsId()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_GetUserCollectionsIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2270);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_CheckPsStoreIsEmptyDelegate** StaticGet_CheckPsStoreIsEmpty()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_CheckPsStoreIsEmptyDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2278);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_EndFreeCommunicationDelegate** StaticGet_EndFreeCommunication()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_EndFreeCommunicationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2280);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoInitializeDelegate** StaticGet_PlayGoInitialize()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoInitializeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2288);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_TryGetKidTokenDelegate** StaticGet_TryGetKidToken()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_TryGetKidTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2290);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate** StaticGet_UnregisterFriendListUpdateCallback()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x2298);
-		}
-
-		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoFinalizeDelegate** StaticGet_PlayGoFinalize()
-		{
-			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoFinalizeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x22A0);
+			return (::MiHoYo::SDK::ConsoleDelegate_GetPsStoreProductsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB70);
 		}
 
 		static ::MiHoYo::SDK::ConsoleDelegate_ResolvePrivilegeDelegate** StaticGet_ResolvePrivilege()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ResolvePrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x22A8);
+			return (::MiHoYo::SDK::ConsoleDelegate_ResolvePrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB78);
 		}
 
-		static ::MiHoYo::SDK::ConsoleDelegate_SendFriendInvitationDelegate** StaticGet_SendFriendInvitation()
+		static ::MiHoYo::SDK::ConsoleDelegate_CXUserSignInDelegate** StaticGet_CXUserSignIn()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_SendFriendInvitationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x22B0);
+			return (::MiHoYo::SDK::ConsoleDelegate_CXUserSignInDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB80);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoInitializeDelegate** StaticGet_PlayGoInitialize()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoInitializeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB88);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_UpdateRecentPlayersDelegate** StaticGet_UpdateRecentPlayers()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_UpdateRecentPlayersDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB90);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_CheckPrivilegeDelegate** StaticGet_CheckPrivilege()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_CheckPrivilegeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DB98);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_EndFreeCommunicationDelegate** StaticGet_EndFreeCommunication()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_EndFreeCommunicationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBA0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_SetSessionDelegate** StaticGet_SetSession()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_SetSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBA8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate** StaticGet_UnregisterFriendListUpdateCallback()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBB0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetMatchDetailDelegate** StaticGet_GetMatchDetail()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetMatchDetailDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBB8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetUserProfileDelegate** StaticGet_GetUserProfile()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetUserProfileDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBC0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetUserCollectionsIdDelegate** StaticGet_GetUserCollectionsId()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetUserCollectionsIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBC8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkProgressSizeDelegate** StaticGet_PlayGoGetChunkProgressSize()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkProgressSizeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBD0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_OpenCommerceCheckoutDialogDelegate** StaticGet_OpenCommerceCheckoutDialog()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_OpenCommerceCheckoutDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBD8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_SessionDestoryDelegate** StaticGet_SessionDestory()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_SessionDestoryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBE0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_RegisterReceiveInviteDelegate** StaticGet_RegisterReceiveInvite()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_RegisterReceiveInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBE8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_CheckPsStoreIsEmptyDelegate** StaticGet_CheckPsStoreIsEmpty()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_CheckPsStoreIsEmptyDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBF0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_IsFreeCommunicationAvailableDelegate** StaticGet_IsFreeCommunicationAvailable()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_IsFreeCommunicationAvailableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DBF8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_JoinSessionDelegate** StaticGet_JoinSession()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_JoinSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC00);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate** StaticGet_UnregisterBlockListUpdateCallback()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_FriendUpdateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC08);
 		}
 
 		static ::MiHoYo::SDK::ConsoleDelegate_ShowSessionInviteDelegate** StaticGet_ShowSessionInvite()
 		{
-			return (::MiHoYo::SDK::ConsoleDelegate_ShowSessionInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x22B8);
+			return (::MiHoYo::SDK::ConsoleDelegate_ShowSessionInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC10);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetAccountTokenDelegate** StaticGet_GetAccountToken()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetAccountTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC18);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_OpenURLWithCookiesDelegate** StaticGet_OpenURLWithCookies()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_OpenURLWithCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC20);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_TryGetAuthCodeDelegate** StaticGet_TryGetAuthCode()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_TryGetAuthCodeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC28);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_UpdateMatchDetailDelegate** StaticGet_UpdateMatchDetail()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_UpdateMatchDetailDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC30);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_TryGetCXTokenDelegate** StaticGet_TryGetCXToken()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_TryGetCXTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC38);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate** StaticGet_ShowMessageDialog()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC40);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_DialogOpenPlayGoDialogDelegate** StaticGet_DialogOpenPlayGoDialog()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_DialogOpenPlayGoDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC48);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_TryBeginFreeCommunicationDelegate** StaticGet_TryBeginFreeCommunication()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_TryBeginFreeCommunicationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC50);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoFinalizeDelegate** StaticGet_PlayGoFinalize()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoFinalizeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC58);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_HasJoinSessionDelegate** StaticGet_HasJoinSession()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_HasJoinSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC60);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_RegisterBlockListUpdateCallback()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC68);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetStatisticsDelegate** StaticGet_GetStatistics()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetStatisticsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC70);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_RegisterFriendInvitationNotifyDelegate** StaticGet_RegisterFriendInvitationNotify()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_RegisterFriendInvitationNotifyDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC78);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_UpdateStatisticsDelegate** StaticGet_UpdateStatistics()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_UpdateStatisticsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC80);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkInfoDelegate** StaticGet_PlayGoGetChunkInfo()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkInfoDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC88);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_UnregisterReceiveInviteDelegate** StaticGet_UnregisterReceiveInvite()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_UnregisterReceiveInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC90);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetAchievementsDelegate** StaticGet_GetAchievements()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetAchievementsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DC98);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_JoinMatchDelegate** StaticGet_JoinMatch()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_JoinMatchDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCA0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_GetBlockList()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCA8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_ShowTextEntryDelegate** StaticGet_ShowTextEntry()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_ShowTextEntryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCB0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_CreateSessionDelegate** StaticGet_CreateSession()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_CreateSessionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCB8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_CreateMatchDelegate** StaticGet_CreateMatch()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_CreateMatchDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCC0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_ShowFriendInvitationDelegate** StaticGet_ShowFriendInvitation()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_ShowFriendInvitationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCC8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetAccountCountryDelegate** StaticGet_GetAccountCountry()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetAccountCountryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCD0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_SessionInitDelegate** StaticGet_SessionInit()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_SessionInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCD8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkTotalSizeDelegate** StaticGet_PlayGoGetChunkTotalSize()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkTotalSizeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCE0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetLeaderboardsDelegate** StaticGet_GetLeaderboards()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetLeaderboardsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCE8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_ShowProfileCardDelegate** StaticGet_ShowProfileCard()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_ShowProfileCardDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCF0);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetPlayerSessionInfoDelegate** StaticGet_GetPlayerSessionInfo()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetPlayerSessionInfoDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DCF8);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoSetLanguageMaskDelegate** StaticGet_PlayGoSetLanguageMask()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoSetLanguageMaskDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD00);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetActivitiesDelegate** StaticGet_GetActivities()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetActivitiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD08);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_GetFriendList()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD10);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate** StaticGet_ShowErrorDialog()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_ShowMessageDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD18);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate** StaticGet_RegisterFriendListUpdateCallback()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_FriendListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD20);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetCheckPermissionDelegate** StaticGet_GetCheckPermission()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetCheckPermissionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD28);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_SendSessionInviteDelegate** StaticGet_SendSessionInvite()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_SendSessionInviteDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD30);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetAccountIdDelegate** StaticGet_GetAccountId()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetAccountIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD38);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_UpdateAchievementDelegate** StaticGet_UpdateAchievement()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_UpdateAchievementDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD40);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_OpenURLDelegate** StaticGet_OpenURL()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_OpenURLDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD48);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_ReportMatchResultsDelegate** StaticGet_ReportMatchResults()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_ReportMatchResultsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD50);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate** StaticGet_CXOpenCommerceCheckoutDialog()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_CXOpenCommerceCheckoutDialogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD58);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_GetOnlineIdDelegate** StaticGet_GetOnlineId()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_GetOnlineIdDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD60);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_LeaveMatchDelegate** StaticGet_LeaveMatch()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_LeaveMatchDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD68);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkLocusDelegate** StaticGet_PlayGoGetChunkLocus()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_PlayGoGetChunkLocusDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD70);
+		}
+
+		static ::MiHoYo::SDK::ConsoleDelegate_SendFriendInvitationDelegate** StaticGet_SendFriendInvitation()
+		{
+			return (::MiHoYo::SDK::ConsoleDelegate_SendFriendInvitationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "ConsoleDelegate")->GetStaticField(0x1DD78);
 		}
 
 		::System::Void _ctor()

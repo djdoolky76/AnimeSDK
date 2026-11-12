@@ -12,36 +12,36 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class ScrollRect; }
 
-#define DOKFJHDHJJJ_AIIOODOIMHP_OFFSET UNITYSDK_OFFSET(0x11FEE5A0)
-#define DOKFJHDHJJJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FEEAF0)
-#define DOKFJHDHJJJ_CMCAJHCEPLB_OFFSET UNITYSDK_OFFSET(0x11FEDC60)
-#define DOKFJHDHJJJ_CPNCFEKBOPA_OFFSET UNITYSDK_OFFSET(0x11FEDE00)
-#define DOKFJHDHJJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x11FED480)
-#define DOKFJHDHJJJ_DFIBIJFAFFF_OFFSET UNITYSDK_OFFSET(0x11FED6B0)
-#define DOKFJHDHJJJ_FMAOHOLNGPC_OFFSET UNITYSDK_OFFSET(0x11FEE2B0)
-#define DOKFJHDHJJJ_IMIKJMCGGML_OFFSET UNITYSDK_OFFSET(0x11FED6F0)
-#define DOKFJHDHJJJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x11FED740)
-#define DOKFJHDHJJJ_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x11FED7B0)
-#define DOKFJHDHJJJ_MDCDKNPHBIB_OFFSET UNITYSDK_OFFSET(0x11FEE630)
+#define DOKFJHDHJJJ_AIIOODOIMHP_OFFSET UNITYSDK_OFFSET(0x12DE7C80)
+#define DOKFJHDHJJJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x12DE81D0)
+#define DOKFJHDHJJJ_CMCAJHCEPLB_OFFSET UNITYSDK_OFFSET(0x12DE7340)
+#define DOKFJHDHJJJ_CPNCFEKBOPA_OFFSET UNITYSDK_OFFSET(0x12DE74E0)
+#define DOKFJHDHJJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12DE6B50)
+#define DOKFJHDHJJJ_DFIBIJFAFFF_OFFSET UNITYSDK_OFFSET(0x12DE6D90)
+#define DOKFJHDHJJJ_FMAOHOLNGPC_OFFSET UNITYSDK_OFFSET(0x12DE7990)
+#define DOKFJHDHJJJ_IMIKJMCGGML_OFFSET UNITYSDK_OFFSET(0x12DE6DD0)
+#define DOKFJHDHJJJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x12DE6E20)
+#define DOKFJHDHJJJ_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x12DE6E90)
+#define DOKFJHDHJJJ_MDCDKNPHBIB_OFFSET UNITYSDK_OFFSET(0x12DE7D10)
 
-inline static constexpr unsigned int DOKFJHDHJJJ_TypeDefinitionIndex = 72561;
+inline static constexpr unsigned int DOKFJHDHJJJ_TypeDefinitionIndex = 74640;
 
 	class DOKFJHDHJJJ : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* MJCCOGIFANB; // 0x10
-		::UnityEngine::UI::ScrollRect* DNGOBOCIMNC; // 0x18
+		::UnityEngine::UI::ScrollRect* DNGOBOCIMNC; // 0x10
+		::UnityEngine::Transform* NHJIMBADBEN; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Stack_1<::UnityEngine::GameObject*>*>* BEHHICMOFIE; // 0x20
-		::System::Action_1<::UnityEngine::GameObject*>* MCKAFONACMF; // 0x28
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Int32>* HBMIEFPCNLK; // 0x28
 		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* OGCDJMKECHP; // 0x30
-		::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* NELHFBDKJFJ; // 0x38
-		::UnityEngine::Transform* NHJIMBADBEN; // 0x40
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::System::Int32>* HBMIEFPCNLK; // 0x48
-		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::GameObject*>* FEKNFHANPFB; // 0x50
+		::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::GameObject*>* FEKNFHANPFB; // 0x38
+		::System::Action_1<::UnityEngine::GameObject*>* MCKAFONACMF; // 0x40
+		::System::Func_2<::System::Int32, ::UnityEngine::GameObject*>* NELHFBDKJFJ; // 0x48
+		::UnityEngine::Transform* MJCCOGIFANB; // 0x50
 		::System::Int32 GHPNCNFMMEH; // 0x58
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_CDHJKBKDBEC()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "DOKFJHDHJJJ")->GetStaticField(0x6F970);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "DOKFJHDHJJJ")->GetStaticField(0x6E080);
 		}
 
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::GameObject*>* a2)

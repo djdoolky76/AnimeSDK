@@ -5,19 +5,19 @@
 namespace MiHoYo::SDK::Win { class RealNameManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDDE490)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS12_0__REFUSEREALNAMECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1BDE3010)
-#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS12_0__REFUSEREALNAMECOMMAND_B__1_OFFSET UNITYSDK_OFFSET(0x1BDE3080)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF66A90)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS12_0__REFUSEREALNAMECOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0x1CF6B610)
+#define MIHOYO_SDK_WIN_REALNAMEMANAGER___C__DISPLAYCLASS12_0__REFUSEREALNAMECOMMAND_B__1_OFFSET UNITYSDK_OFFSET(0x1CF6B680)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int RealNameManager___c__DisplayClass12_0_TypeDefinitionIndex = 9349;
+	inline static constexpr unsigned int RealNameManager___c__DisplayClass12_0_TypeDefinitionIndex = 9357;
 
 	class RealNameManager___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:
-		::System::Action* cancel; // 0x10
-		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x18
+		::MiHoYo::SDK::Win::RealNameManager* __4__this; // 0x10
+		::System::Action* cancel; // 0x18
 		::System::Boolean bIsSecondRealName; // 0x20
 		::System::Void _ctor()
 		{

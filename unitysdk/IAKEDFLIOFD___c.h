@@ -4,18 +4,18 @@
 class IAKEDFLIOFD;
 namespace System { class Object; }
 
-#define IAKEDFLIOFD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E607270)
-#define IAKEDFLIOFD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6072B0)
-#define IAKEDFLIOFD___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E6072C0)
+#define IAKEDFLIOFD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F904360)
+#define IAKEDFLIOFD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9043A0)
+#define IAKEDFLIOFD___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F9043B0)
 
-inline static constexpr unsigned int IAKEDFLIOFD___c_TypeDefinitionIndex = 29477;
+inline static constexpr unsigned int IAKEDFLIOFD___c_TypeDefinitionIndex = 30203;
 
 	class IAKEDFLIOFD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F850);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46060);
 		}
 
 		static ::System::Void _cctor()

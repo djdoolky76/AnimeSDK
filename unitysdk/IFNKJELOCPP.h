@@ -4,11 +4,11 @@ namespace RPG::GameCore { class ByCheckTargetHPCanBeDamage; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFNKJELOCPP_CTOR_OFFSET UNITYSDK_OFFSET(0x15F26FB0)
-#define IFNKJELOCPP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15F26FE0)
-#define IFNKJELOCPP_FDBKADBMLDH_OFFSET UNITYSDK_OFFSET(0x15F271D0)
+#define IFNKJELOCPP_CTOR_OFFSET UNITYSDK_OFFSET(0x16E96410)
+#define IFNKJELOCPP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16E96440)
+#define IFNKJELOCPP_FDBKADBMLDH_OFFSET UNITYSDK_OFFSET(0x16E96630)
 
-inline static constexpr unsigned int IFNKJELOCPP_TypeDefinitionIndex = 54509;
+inline static constexpr unsigned int IFNKJELOCPP_TypeDefinitionIndex = 55674;
 
 	class IFNKJELOCPP
 	{

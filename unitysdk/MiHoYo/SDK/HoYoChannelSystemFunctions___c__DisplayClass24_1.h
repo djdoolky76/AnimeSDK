@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelShowProfileCardResult; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_1_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA13F0)
-#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_1__CLEANUPTIMEDOUTCALLBACKS_B__1_OFFSET UNITYSDK_OFFSET(0xAFA1AF0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB6029D0)
+#define MIHOYO_SDK_HOYOCHANNELSYSTEMFUNCTIONS___C__DISPLAYCLASS24_1__CLEANUPTIMEDOUTCALLBACKS_B__1_OFFSET UNITYSDK_OFFSET(0xB6030D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass24_1_TypeDefinitionIndex = 46564;
+	inline static constexpr unsigned int HoYoChannelSystemFunctions___c__DisplayClass24_1_TypeDefinitionIndex = 47592;
 
 	template <typename T>
 	class HoYoChannelSystemFunctions___c__DisplayClass24_1 : public ::System::Object

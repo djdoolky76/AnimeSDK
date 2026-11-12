@@ -5,23 +5,23 @@ namespace RPG::Client { class PlanetFesMiniGameBetUp; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define GHNPMFCIIGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A2C9F0)
-#define GHNPMFCIIGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A2CA20)
-#define GHNPMFCIIGA___C__CREATEBETUPS_B__1_0_OFFSET UNITYSDK_OFFSET(0x15A2CA30)
+#define GHNPMFCIIGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16967110)
+#define GHNPMFCIIGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16967140)
+#define GHNPMFCIIGA___C__CREATEBETUPS_B__1_0_OFFSET UNITYSDK_OFFSET(0x16967150)
 
-inline static constexpr unsigned int GHNPMFCIIGA___c_TypeDefinitionIndex = 66612;
+inline static constexpr unsigned int GHNPMFCIIGA___c_TypeDefinitionIndex = 68548;
 
 	class GHNPMFCIIGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CAB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69060);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::PlanetFesMiniGameBetUp*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesMiniGameBetUp*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CAB8);
+			return (::System::Comparison_1<::RPG::Client::PlanetFesMiniGameBetUp*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69068);
 		}
 
 		static ::System::Void _cctor()

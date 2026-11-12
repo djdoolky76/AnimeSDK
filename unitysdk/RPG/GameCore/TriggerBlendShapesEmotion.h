@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerBlendShapesEmotion; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERBLENDSHAPESEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC446C0)
-#define RPG_GAMECORE_TRIGGERBLENDSHAPESEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC446D0)
-#define RPG_GAMECORE_TRIGGERBLENDSHAPESEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC44680)
+#define RPG_GAMECORE_TRIGGERBLENDSHAPESEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE57900)
+#define RPG_GAMECORE_TRIGGERBLENDSHAPESEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE57910)
+#define RPG_GAMECORE_TRIGGERBLENDSHAPESEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE578C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerBlendShapesEmotion_TypeDefinitionIndex = 21890;
+	inline static constexpr unsigned int TriggerBlendShapesEmotion_TypeDefinitionIndex = 22281;
 
 	class TriggerBlendShapesEmotion : public ::RPG::GameCore::TaskConfig
 	{

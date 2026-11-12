@@ -3,12 +3,12 @@
 namespace System { class Object; }
 namespace System::Threading { class SendOrPostCallback; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x3C5F270)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x3EAE5F0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskSynchronizationContext_Callback_TypeDefinitionIndex = 38447;
+	inline static constexpr unsigned int UniTaskSynchronizationContext_Callback_TypeDefinitionIndex = 39376;
 
 	struct alignas(8) UniTaskSynchronizationContext_Callback
 	{

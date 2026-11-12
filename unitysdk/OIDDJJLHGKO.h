@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class HoyoTag; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define OIDDJJLHGKO_CLEAR_OFFSET UNITYSDK_OFFSET(0xBE76B40)
-#define OIDDJJLHGKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE76BD0)
+#define OIDDJJLHGKO_CLEAR_OFFSET UNITYSDK_OFFSET(0xC731A90)
+#define OIDDJJLHGKO_CTOR_OFFSET UNITYSDK_OFFSET(0xC731B20)
 
-inline static constexpr unsigned int OIDDJJLHGKO_TypeDefinitionIndex = 73817;
+inline static constexpr unsigned int OIDDJJLHGKO_TypeDefinitionIndex = 75943;
 
 	class OIDDJJLHGKO : public ::System::Object
 	{

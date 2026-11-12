@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE91DAF0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE91D680)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF3F9A00)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLOOMTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xF3F9590)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BloomTimelineBehaviour_TypeDefinitionIndex = 48550;
+	inline static constexpr unsigned int BloomTimelineBehaviour_TypeDefinitionIndex = 49591;
 
 	class BloomTimelineBehaviour
 	{

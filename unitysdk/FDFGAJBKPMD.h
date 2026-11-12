@@ -3,40 +3,40 @@
 #include "unitysdk/HFCIKOMDEIM.h"
 #include "unitysdk/BCMNLOPKLDO.h"
 
-#define FDFGAJBKPMD_APHKGPOCPBG_OFFSET UNITYSDK_OFFSET(0x156D5880)
-#define FDFGAJBKPMD_BKJAIHLBGAC_OFFSET UNITYSDK_OFFSET(0x156D58F0)
-#define FDFGAJBKPMD_CCTOR_OFFSET UNITYSDK_OFFSET(0x156D6010)
-#define FDFGAJBKPMD_COEONDABKIH_OFFSET UNITYSDK_OFFSET(0x156D5410)
-#define FDFGAJBKPMD_CTOR_OFFSET UNITYSDK_OFFSET(0x156D53E0)
-#define FDFGAJBKPMD_DDNEBCGEFKC_OFFSET UNITYSDK_OFFSET(0x156D57D0)
-#define FDFGAJBKPMD_FOCIPHMHHEB_OFFSET UNITYSDK_OFFSET(0x156D5420)
-#define FDFGAJBKPMD_GAJOGNKBPJC_OFFSET UNITYSDK_OFFSET(0x156D5560)
-#define FDFGAJBKPMD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x156D5430)
+#define FDFGAJBKPMD_APHKGPOCPBG_OFFSET UNITYSDK_OFFSET(0x165EF2B0)
+#define FDFGAJBKPMD_BKJAIHLBGAC_OFFSET UNITYSDK_OFFSET(0x165EF320)
+#define FDFGAJBKPMD_CCTOR_OFFSET UNITYSDK_OFFSET(0x165EFA40)
+#define FDFGAJBKPMD_COEONDABKIH_OFFSET UNITYSDK_OFFSET(0x165EEE40)
+#define FDFGAJBKPMD_CTOR_OFFSET UNITYSDK_OFFSET(0x165EEE10)
+#define FDFGAJBKPMD_DDNEBCGEFKC_OFFSET UNITYSDK_OFFSET(0x165EF200)
+#define FDFGAJBKPMD_FOCIPHMHHEB_OFFSET UNITYSDK_OFFSET(0x165EEE50)
+#define FDFGAJBKPMD_GAJOGNKBPJC_OFFSET UNITYSDK_OFFSET(0x165EEF90)
+#define FDFGAJBKPMD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x165EEE60)
 
-inline static constexpr unsigned int FDFGAJBKPMD_TypeDefinitionIndex = 59316;
+inline static constexpr unsigned int FDFGAJBKPMD_TypeDefinitionIndex = 60593;
 
 	class FDFGAJBKPMD : public ::HFCIKOMDEIM
 	{
 	public:
 		::System::Boolean IFMHOHEHFBL; // 0x38
-		static ::System::Boolean* StaticGet_IFPNNBIHMDF()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0x14820);
-		}
-
 		static ::System::Single* StaticGet_JOEDMKOGLBL()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0x14824);
+			return (::System::Single*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0xF780);
 		}
 
 		static ::System::Int32* StaticGet_MNOMBDMBECB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0x14828);
+			return (::System::Int32*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0xF784);
 		}
 
 		static ::System::Int32* StaticGet_GCFGMNILOMM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0x1482C);
+			return (::System::Int32*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0xF788);
+		}
+
+		static ::System::Boolean* StaticGet_IFPNNBIHMDF()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "FDFGAJBKPMD")->GetStaticField(0xF78C);
 		}
 
 		::System::Void _ctor()

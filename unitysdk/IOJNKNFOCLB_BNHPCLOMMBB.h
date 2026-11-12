@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IOJNKNFOCLB_BNHPCLOMMBB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC8D520)
-#define IOJNKNFOCLB_BNHPCLOMMBB_FPLHKFLJOFB_OFFSET UNITYSDK_OFFSET(0x1CC871E0)
-#define IOJNKNFOCLB_BNHPCLOMMBB_JBIGDGNAFJL_OFFSET UNITYSDK_OFFSET(0x1CC8D4A0)
-#define IOJNKNFOCLB_BNHPCLOMMBB_PFFIPKOGJLJ_OFFSET UNITYSDK_OFFSET(0x1CC8D470)
+#define IOJNKNFOCLB_BNHPCLOMMBB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE346B0)
+#define IOJNKNFOCLB_BNHPCLOMMBB_FPLHKFLJOFB_OFFSET UNITYSDK_OFFSET(0x1DE2E370)
+#define IOJNKNFOCLB_BNHPCLOMMBB_JBIGDGNAFJL_OFFSET UNITYSDK_OFFSET(0x1DE34630)
+#define IOJNKNFOCLB_BNHPCLOMMBB_PFFIPKOGJLJ_OFFSET UNITYSDK_OFFSET(0x1DE34600)
 
-inline static constexpr unsigned int IOJNKNFOCLB_BNHPCLOMMBB_TypeDefinitionIndex = 43850;
+inline static constexpr unsigned int IOJNKNFOCLB_BNHPCLOMMBB_TypeDefinitionIndex = 44925;
 
 	class IOJNKNFOCLB_BNHPCLOMMBB : public ::System::Object
 	{
 	public:
 		static ::System::IntPtr* StaticGet_HODGALFKEGA()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("", "BNHPCLOMMBB")->GetStaticField(0x690);
+			return (::System::IntPtr*)UnitySDK::FromName("", "BNHPCLOMMBB")->GetStaticField(0x6C0);
 		}
 
 		static ::System::Int32* StaticGet_IHOMLDBACHD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "BNHPCLOMMBB")->GetStaticField(0x698);
+			return (::System::Int32*)UnitySDK::FromName("", "BNHPCLOMMBB")->GetStaticField(0x6C8);
 		}
 
 		// static const ::System::Object JOIKKEPFPBH; // 0x0

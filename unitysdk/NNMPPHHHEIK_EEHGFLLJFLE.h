@@ -5,16 +5,16 @@
 class NNMPPHHHEIK_EEHGFLLJFLE;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NNMPPHHHEIK_EEHGFLLJFLE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD54C0)
-#define NNMPPHHHEIK_EEHGFLLJFLE_MPNEPIGKJOG_OFFSET UNITYSDK_OFFSET(0xBCD5030)
+#define NNMPPHHHEIK_EEHGFLLJFLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C1490)
+#define NNMPPHHHEIK_EEHGFLLJFLE_MPNEPIGKJOG_OFFSET UNITYSDK_OFFSET(0xC5C1000)
 
-inline static constexpr unsigned int NNMPPHHHEIK_EEHGFLLJFLE_TypeDefinitionIndex = 59037;
+inline static constexpr unsigned int NNMPPHHHEIK_EEHGFLLJFLE_TypeDefinitionIndex = 60312;
 
 	class NNMPPHHHEIK_EEHGFLLJFLE : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* MJMEEOIEMMM; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::BuildInAnimParam>* EGCJFEAMOCM; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::BuildInAnimParam>* EGCJFEAMOCM; // 0x10
+		::Il2CppArray<::System::Int32>* MJMEEOIEMMM; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNMPPHHHEIK_EEHGFLLJFLE_CTOR_OFFSET))(this);

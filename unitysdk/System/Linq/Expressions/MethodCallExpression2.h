@@ -7,10 +7,10 @@ namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class MethodCallExpression; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2E540)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x1EE2E5B0)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x1EE2E640)
-#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EE2E650)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_CTOR_OFFSET UNITYSDK_OFFSET(0x200DDF90)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_GETARGUMENT_OFFSET UNITYSDK_OFFSET(0x200DE000)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_GET_ARGUMENTCOUNT_OFFSET UNITYSDK_OFFSET(0x200DE090)
+#define SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_REWRITE_OFFSET UNITYSDK_OFFSET(0x200DE0A0)
 
 namespace System::Linq::Expressions
 {
@@ -19,8 +19,8 @@ namespace System::Linq::Expressions
 	class MethodCallExpression2 : public ::System::Linq::Expressions::MethodCallExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg1; // 0x18
-		::System::Object* _arg0; // 0x20
+		::System::Object* _arg0; // 0x18
+		::System::Linq::Expressions::Expression* _arg1; // 0x20
 		::System::Void _ctor(::System::Reflection::MethodInfo* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_METHODCALLEXPRESSION2_CTOR_OFFSET))(this, a1, a2, a3);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvLogisticsRobotReachEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JGNKADPEKPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A5000)
-#define JGNKADPEKPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1A5030)
+#define JGNKADPEKPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C08B0)
+#define JGNKADPEKPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9C08E0)
 
-inline static constexpr unsigned int JGNKADPEKPI_TypeDefinitionIndex = 52394;
+inline static constexpr unsigned int JGNKADPEKPI_TypeDefinitionIndex = 53500;
 
 	class JGNKADPEKPI
 	{

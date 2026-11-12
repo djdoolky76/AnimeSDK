@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntityList; }
 
-#define KIDLBJAKOOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB41C510)
+#define KIDLBJAKOOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCB2990)
 
-inline static constexpr unsigned int KIDLBJAKOOP_TypeDefinitionIndex = 54423;
+inline static constexpr unsigned int KIDLBJAKOOP_TypeDefinitionIndex = 55587;
 
 	class KIDLBJAKOOP : public ::System::Object
 	{

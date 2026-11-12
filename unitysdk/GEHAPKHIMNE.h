@@ -9,20 +9,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GEHAPKHIMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x159D6990)
-#define GEHAPKHIMNE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x159D6940)
-#define GEHAPKHIMNE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x159D68F0)
-#define GEHAPKHIMNE_KPJGDHLENIP_1_OFFSET UNITYSDK_OFFSET(0x159D67F0)
-#define GEHAPKHIMNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x159D6710)
+#define GEHAPKHIMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1690EEA0)
+#define GEHAPKHIMNE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1690EE50)
+#define GEHAPKHIMNE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1690EE00)
+#define GEHAPKHIMNE_KPJGDHLENIP_1_OFFSET UNITYSDK_OFFSET(0x1690ED00)
+#define GEHAPKHIMNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1690EC20)
 
-inline static constexpr unsigned int GEHAPKHIMNE_TypeDefinitionIndex = 56599;
+inline static constexpr unsigned int GEHAPKHIMNE_TypeDefinitionIndex = 57821;
 
 	class GEHAPKHIMNE : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
-		::System::Collections::Generic::List_1<::System::Object*>* MAOOGNLNKIB; // 0x20
-		::RPG::GameCore::BaseModifierInstance* CEAGEFBHKDH; // 0x28
+		::RPG::GameCore::BaseModifierInstance* CEAGEFBHKDH; // 0x18
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* MAOOGNLNKIB; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GEHAPKHIMNE_CTOR_OFFSET))(this);

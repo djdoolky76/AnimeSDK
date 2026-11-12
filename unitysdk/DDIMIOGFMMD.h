@@ -4,10 +4,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class GridFightRole; }
 
-#define DDIMIOGFMMD_CTOR_OFFSET UNITYSDK_OFFSET(0xE4DF050)
-#define DDIMIOGFMMD_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0xE4DF000)
+#define DDIMIOGFMMD_CTOR_OFFSET UNITYSDK_OFFSET(0xEE25EE0)
+#define DDIMIOGFMMD_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0xEE25E90)
 
-inline static constexpr unsigned int DDIMIOGFMMD_TypeDefinitionIndex = 65189;
+inline static constexpr unsigned int DDIMIOGFMMD_TypeDefinitionIndex = 66886;
 
 	class DDIMIOGFMMD : public ::DLKIJPKFOFO
 	{

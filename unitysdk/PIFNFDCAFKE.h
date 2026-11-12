@@ -5,18 +5,18 @@ class BJAKGOHEGBP;
 class LBJLBMOOJGM;
 class PIFNFDCAFKE;
 
-#define PIFNFDCAFKE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC90A90)
-#define PIFNFDCAFKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC90A80)
-#define PIFNFDCAFKE_ENMEPNCHEMN_OFFSET UNITYSDK_OFFSET(0x1EC84660)
+#define PIFNFDCAFKE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF41390)
+#define PIFNFDCAFKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF41380)
+#define PIFNFDCAFKE_ENMEPNCHEMN_OFFSET UNITYSDK_OFFSET(0x1FF34F50)
 
-inline static constexpr unsigned int PIFNFDCAFKE_TypeDefinitionIndex = 44305;
+inline static constexpr unsigned int PIFNFDCAFKE_TypeDefinitionIndex = 45380;
 
 	class PIFNFDCAFKE : public ::System::Object
 	{
 	public:
 		static ::PIFNFDCAFKE** StaticGet_FMJPMFEDIJL()
 		{
-			return (::PIFNFDCAFKE**)UnitySDK::FromName("", "PIFNFDCAFKE")->GetStaticField(0x4C840);
+			return (::PIFNFDCAFKE**)UnitySDK::FromName("", "PIFNFDCAFKE")->GetStaticField(0x62680);
 		}
 
 		::System::Void _ctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class MEIGMBOLDOF;
 
-#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER_CTOR_OFFSET UNITYSDK_OFFSET(0xE966720)
-#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER_GET_SLIGHT_OFFSET UNITYSDK_OFFSET(0xE966710)
+#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER_CTOR_OFFSET UNITYSDK_OFFSET(0xF484F00)
+#define SCENENLIGHTMANAGER_SCENEMANAGERWACHER_GET_SLIGHT_OFFSET UNITYSDK_OFFSET(0xF484EF0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int SceneManagerWacher_TypeDefinitionIndex = 49185;
+	inline static constexpr unsigned int SceneManagerWacher_TypeDefinitionIndex = 50261;
 
 	class SceneManagerWacher : public ::UnityEngine::MonoBehaviour
 	{

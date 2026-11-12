@@ -6,26 +6,26 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B8ADD20)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8ADD60)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__27_0_OFFSET UNITYSDK_OFFSET(0x1B8ADD70)
-#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1B8ADE70)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA36CE0)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA36D20)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C__TOJSON_B__27_0_OFFSET UNITYSDK_OFFSET(0x1CA36D30)
+#define GOOGLE_PROTOBUF_WELLKNOWNTYPES_FIELDMASK___C___CCTOR_B__45_0_OFFSET UNITYSDK_OFFSET(0x1CA36E30)
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 5425;
+	inline static constexpr unsigned int FieldMask___c_TypeDefinitionIndex = 5430;
 
 	class FieldMask___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x1A640);
-		}
-
 		static ::System::Func_2<::System::String*, ::System::Boolean>** StaticGet___9__27_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x1A648);
+			return (::System::Func_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x246A0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.WellKnownTypes", "<>c")->GetStaticField(0x246A8);
 		}
 
 		static ::System::Void _cctor()

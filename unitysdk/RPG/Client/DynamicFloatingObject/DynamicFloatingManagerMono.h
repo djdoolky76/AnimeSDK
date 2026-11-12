@@ -3,11 +3,11 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_DYNAMICFLOATINGMANAGERMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xCCFC240)
+#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_DYNAMICFLOATINGMANAGERMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xD6BD840)
 
 namespace RPG::Client::DynamicFloatingObject
 {
-	inline static constexpr unsigned int DynamicFloatingManagerMono_TypeDefinitionIndex = 73571;
+	inline static constexpr unsigned int DynamicFloatingManagerMono_TypeDefinitionIndex = 75694;
 
 	class DynamicFloatingManagerMono
 	{

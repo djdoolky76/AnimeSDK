@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int NNKDKMBKFHC_GIINPDFKFIL_TypeDefinitionIndex = 53511;
+inline static constexpr unsigned int NNKDKMBKFHC_GIINPDFKFIL_TypeDefinitionIndex = 54673;
 
 	struct alignas(4) NNKDKMBKFHC_GIINPDFKFIL
 	{

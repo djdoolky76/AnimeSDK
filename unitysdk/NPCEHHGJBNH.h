@@ -5,10 +5,10 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 namespace RPG::Client { class CharacterShaderPropertyTransition; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define NPCEHHGJBNH_FHMDABGDGMM_OFFSET UNITYSDK_OFFSET(0xBCF9DE0)
-#define NPCEHHGJBNH_NMGGBILIIMP_OFFSET UNITYSDK_OFFSET(0xBCF9EA0)
+#define NPCEHHGJBNH_FHMDABGDGMM_OFFSET UNITYSDK_OFFSET(0xC5E8FD0)
+#define NPCEHHGJBNH_NMGGBILIIMP_OFFSET UNITYSDK_OFFSET(0xC5E9080)
 
-inline static constexpr unsigned int NPCEHHGJBNH_TypeDefinitionIndex = 68854;
+inline static constexpr unsigned int NPCEHHGJBNH_TypeDefinitionIndex = 70807;
 
 	class NPCEHHGJBNH : public ::System::Object
 	{

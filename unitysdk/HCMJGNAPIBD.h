@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class IKCOHFPIHIA;
 
-#define HCMJGNAPIBD_AOLKJHKOOMG_OFFSET UNITYSDK_OFFSET(0x15C283E0)
-#define HCMJGNAPIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C283D0)
+#define HCMJGNAPIBD_AOLKJHKOOMG_OFFSET UNITYSDK_OFFSET(0x16B6B720)
+#define HCMJGNAPIBD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B6B710)
 
-inline static constexpr unsigned int HCMJGNAPIBD_TypeDefinitionIndex = 64033;
+inline static constexpr unsigned int HCMJGNAPIBD_TypeDefinitionIndex = 65478;
 
 	class HCMJGNAPIBD : public ::System::Object
 	{

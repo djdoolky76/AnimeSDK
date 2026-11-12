@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AddGridFightDropData; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADDGRIDFIGHTDROPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3880E0)
-#define RPG_GAMECORE_ADDGRIDFIGHTDROPDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3880F0)
-#define RPG_GAMECORE_ADDGRIDFIGHTDROPDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3880B0)
+#define RPG_GAMECORE_ADDGRIDFIGHTDROPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E597DE0)
+#define RPG_GAMECORE_ADDGRIDFIGHTDROPDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E597DF0)
+#define RPG_GAMECORE_ADDGRIDFIGHTDROPDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E597DB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddGridFightDropData_TypeDefinitionIndex = 22536;
+	inline static constexpr unsigned int AddGridFightDropData_TypeDefinitionIndex = 22947;
 
 	class AddGridFightDropData : public ::RPG::GameCore::TaskConfig
 	{

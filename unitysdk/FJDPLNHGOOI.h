@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CreateBattleTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJDPLNHGOOI_CTOR_OFFSET UNITYSDK_OFFSET(0x157C30B0)
-#define FJDPLNHGOOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157C30E0)
+#define FJDPLNHGOOI_CTOR_OFFSET UNITYSDK_OFFSET(0x166E5640)
+#define FJDPLNHGOOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166E5670)
 
-inline static constexpr unsigned int FJDPLNHGOOI_TypeDefinitionIndex = 58044;
+inline static constexpr unsigned int FJDPLNHGOOI_TypeDefinitionIndex = 59283;
 
 	class FJDPLNHGOOI
 	{

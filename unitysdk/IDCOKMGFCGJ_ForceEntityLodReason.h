@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IDCOKMGFCGJ_ForceEntityLodReason_TypeDefinitionIndex = 57253;
+inline static constexpr unsigned int IDCOKMGFCGJ_ForceEntityLodReason_TypeDefinitionIndex = 58480;
 
 	enum class IDCOKMGFCGJ_ForceEntityLodReason : ::System::Int32
 	{
@@ -9,5 +9,8 @@ inline static constexpr unsigned int IDCOKMGFCGJ_ForceEntityLodReason_TypeDefini
 		Performance = 1,
 		FiveDim = 2,
 		Manager = 3,
-		Count = 4,
+		LittleGameSandboxHiddenArt = 4,
+		LittleGameSandboxHighestLod = 5,
+		RollerCoaster = 6,
+		Count = 7,
 	};

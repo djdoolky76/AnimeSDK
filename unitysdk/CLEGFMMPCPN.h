@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByIsWeakTypeActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLEGFMMPCPN_CTOR_OFFSET UNITYSDK_OFFSET(0xD77B850)
-#define CLEGFMMPCPN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD77B880)
+#define CLEGFMMPCPN_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B7060)
+#define CLEGFMMPCPN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE0B7090)
 
-inline static constexpr unsigned int CLEGFMMPCPN_TypeDefinitionIndex = 54470;
+inline static constexpr unsigned int CLEGFMMPCPN_TypeDefinitionIndex = 55634;
 
 	class CLEGFMMPCPN
 	{

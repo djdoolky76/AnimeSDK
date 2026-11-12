@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearEntityFollowAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NAGDGKGMIKA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA99A10)
-#define NAGDGKGMIKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA99A40)
+#define NAGDGKGMIKA_CTOR_OFFSET UNITYSDK_OFFSET(0xC31E750)
+#define NAGDGKGMIKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC31E780)
 
-inline static constexpr unsigned int NAGDGKGMIKA_TypeDefinitionIndex = 54964;
+inline static constexpr unsigned int NAGDGKGMIKA_TypeDefinitionIndex = 56138;
 
 	class NAGDGKGMIKA
 	{

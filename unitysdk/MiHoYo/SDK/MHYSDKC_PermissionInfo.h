@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PermissionInfo_TypeDefinitionIndex = 46174;
+	inline static constexpr unsigned int MHYSDKC_PermissionInfo_TypeDefinitionIndex = 47203;
 
 	class MHYSDKC_PermissionInfo : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class EnableNegativeHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EOBLNKGKGNA_CTOR_OFFSET UNITYSDK_OFFSET(0x155B9030)
-#define EOBLNKGKGNA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155B9040)
-#define EOBLNKGKGNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155B9080)
-#define EOBLNKGKGNA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155B91A0)
-#define EOBLNKGKGNA_TICK_OFFSET UNITYSDK_OFFSET(0x155B91F0)
+#define EOBLNKGKGNA_CTOR_OFFSET UNITYSDK_OFFSET(0x164CA4D0)
+#define EOBLNKGKGNA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164CA4E0)
+#define EOBLNKGKGNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164CA520)
+#define EOBLNKGKGNA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164CA640)
+#define EOBLNKGKGNA_TICK_OFFSET UNITYSDK_OFFSET(0x164CA690)
 
-inline static constexpr unsigned int EOBLNKGKGNA_TypeDefinitionIndex = 55017;
+inline static constexpr unsigned int EOBLNKGKGNA_TypeDefinitionIndex = 56191;
 
 	class EOBLNKGKGNA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::EnableNegativeHP* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::EnableNegativeHP* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnableNegativeHP* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EnableNegativeHP*))((::PBYTE)hIl2Cpp + EOBLNKGKGNA_CTOR_OFFSET))(this, a1, a2);

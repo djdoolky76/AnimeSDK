@@ -5,25 +5,25 @@ namespace RPG::Client { class ParkourRank; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_PARKOURSETTLEMENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA87A10)
-#define RPG_CLIENT_PARKOURSETTLEMENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA87A50)
-#define RPG_CLIENT_PARKOURSETTLEMENT___C__SORTRANKS_B__37_0_OFFSET UNITYSDK_OFFSET(0xDA87A60)
+#define RPG_CLIENT_PARKOURSETTLEMENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4DD310)
+#define RPG_CLIENT_PARKOURSETTLEMENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE4DD350)
+#define RPG_CLIENT_PARKOURSETTLEMENT___C__SORTRANKS_B__37_0_OFFSET UNITYSDK_OFFSET(0xE4DD360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourSettlement___c_TypeDefinitionIndex = 61862;
+	inline static constexpr unsigned int ParkourSettlement___c_TypeDefinitionIndex = 63268;
 
 	class ParkourSettlement___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x114E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24540);
 		}
 
 		static ::System::Predicate_1<::RPG::Client::ParkourRank*>** StaticGet___9__37_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ParkourRank*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x114E8);
+			return (::System::Predicate_1<::RPG::Client::ParkourRank*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24548);
 		}
 
 		static ::System::Void _cctor()

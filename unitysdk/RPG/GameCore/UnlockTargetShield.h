@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class UnlockTargetShield; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNLOCKTARGETSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC78730)
-#define RPG_GAMECORE_UNLOCKTARGETSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC78740)
-#define RPG_GAMECORE_UNLOCKTARGETSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC78700)
+#define RPG_GAMECORE_UNLOCKTARGETSHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8B350)
+#define RPG_GAMECORE_UNLOCKTARGETSHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE8B360)
+#define RPG_GAMECORE_UNLOCKTARGETSHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE8B320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnlockTargetShield_TypeDefinitionIndex = 23622;
+	inline static constexpr unsigned int UnlockTargetShield_TypeDefinitionIndex = 24069;
 
 	class UnlockTargetShield : public ::RPG::GameCore::TaskConfig
 	{

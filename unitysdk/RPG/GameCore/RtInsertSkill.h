@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTINSERTSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5DE70)
-#define RPG_GAMECORE_RTINSERTSKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA5DEB0)
-#define RPG_GAMECORE_RTINSERTSKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5DE10)
+#define RPG_GAMECORE_RTINSERTSKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC70460)
+#define RPG_GAMECORE_RTINSERTSKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC704A0)
+#define RPG_GAMECORE_RTINSERTSKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC70400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtInsertSkill_TypeDefinitionIndex = 24218;
+	inline static constexpr unsigned int RtInsertSkill_TypeDefinitionIndex = 24677;
 
 	class RtInsertSkill : public ::RPG::GameCore::TaskConfig
 	{

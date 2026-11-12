@@ -7,25 +7,25 @@ namespace RPG::GameCore { class CharacterReplaceMaterialRenderList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FDFBEIDIPJF_CCTOR_OFFSET UNITYSDK_OFFSET(0x156D5360)
-#define FDFBEIDIPJF_EPKJNIPJJDL_OFFSET UNITYSDK_OFFSET(0x156D5160)
-#define FDFBEIDIPJF_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x156D4E70)
-#define FDFBEIDIPJF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x156D4D70)
-#define FDFBEIDIPJF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0x156D4DB0)
+#define FDFBEIDIPJF_CCTOR_OFFSET UNITYSDK_OFFSET(0x165EED90)
+#define FDFBEIDIPJF_EPKJNIPJJDL_OFFSET UNITYSDK_OFFSET(0x165EEB90)
+#define FDFBEIDIPJF_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x165EE8A0)
+#define FDFBEIDIPJF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x165EE7A0)
+#define FDFBEIDIPJF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0x165EE7E0)
 
-inline static constexpr unsigned int FDFBEIDIPJF_TypeDefinitionIndex = 73297;
+inline static constexpr unsigned int FDFBEIDIPJF_TypeDefinitionIndex = 75413;
 
 	class FDFBEIDIPJF : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::CharacterReplaceMaterialConfig** StaticGet_APBJIFNJEEA()
-		{
-			return (::RPG::GameCore::CharacterReplaceMaterialConfig**)UnitySDK::FromName("", "FDFBEIDIPJF")->GetStaticField(0x602A0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterReplaceMaterialConfig*>** StaticGet_JOJNHBFJNNH()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterReplaceMaterialConfig*>**)UnitySDK::FromName("", "FDFBEIDIPJF")->GetStaticField(0x602A8);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::CharacterReplaceMaterialConfig*>**)UnitySDK::FromName("", "FDFBEIDIPJF")->GetStaticField(0x4C4E0);
+		}
+
+		static ::RPG::GameCore::CharacterReplaceMaterialConfig** StaticGet_APBJIFNJEEA()
+		{
+			return (::RPG::GameCore::CharacterReplaceMaterialConfig**)UnitySDK::FromName("", "FDFBEIDIPJF")->GetStaticField(0x4C4E8);
 		}
 
 		static ::System::Void _cctor()

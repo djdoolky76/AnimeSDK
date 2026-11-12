@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/MiHoYo/SDK/SecurityTunnel_PacketResponseCallback.h"
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB043510)
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0__SAFEDEQUEUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xB049D00)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A4310)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS56_0__SAFEDEQUEUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xB6AAAB0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass56_0_TypeDefinitionIndex = 46423;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass56_0_TypeDefinitionIndex = 47451;
 
 	class SecurityTunnel___c__DisplayClass56_0 : public ::System::Object
 	{

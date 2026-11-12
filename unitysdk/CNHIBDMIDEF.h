@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define CNHIBDMIDEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB5400)
-#define CNHIBDMIDEF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCB5440)
-#define CNHIBDMIDEF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB53A0)
+#define CNHIBDMIDEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EED85C0)
+#define CNHIBDMIDEF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EED8600)
+#define CNHIBDMIDEF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EED8560)
 
-inline static constexpr unsigned int CNHIBDMIDEF_TypeDefinitionIndex = 23682;
+inline static constexpr unsigned int CNHIBDMIDEF_TypeDefinitionIndex = 24136;
 
 	class CNHIBDMIDEF : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::System::String*>* LICBONAHFPN; // 0x18
-		::Il2CppArray<::System::String*>* JNAGOECIKPA; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::Il2CppArray<::System::String*>* JNAGOECIKPA; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::Il2CppArray<::System::String*>* LICBONAHFPN; // 0x28
 		::System::Boolean IOBJFEJFLJP; // 0x30
 		::System::Void _ctor()
 		{

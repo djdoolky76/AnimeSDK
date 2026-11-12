@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PIIGEAIAHHH_CTOR_OFFSET UNITYSDK_OFFSET(0xC268FF0)
-#define PIIGEAIAHHH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC269020)
+#define PIIGEAIAHHH_CTOR_OFFSET UNITYSDK_OFFSET(0xCB91210)
+#define PIIGEAIAHHH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCB91240)
 
-inline static constexpr unsigned int PIIGEAIAHHH_TypeDefinitionIndex = 54453;
+inline static constexpr unsigned int PIIGEAIAHHH_TypeDefinitionIndex = 55617;
 
 	class PIIGEAIAHHH
 	{

@@ -10,53 +10,53 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define EJLIOMPMHHI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x154EA160)
-#define EJLIOMPMHHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154EA190)
-#define EJLIOMPMHHI___C__ADDBLOCKHPATCH_B__13_2_OFFSET UNITYSDK_OFFSET(0x154EA2F0)
-#define EJLIOMPMHHI___C__ADDBLOCKHPATCH_B__13_3_OFFSET UNITYSDK_OFFSET(0x154EA390)
-#define EJLIOMPMHHI___C__ADDCLEAR_B__11_0_OFFSET UNITYSDK_OFFSET(0x154EA280)
-#define EJLIOMPMHHI___C__ADDPREVERIFY_B__10_2_OFFSET UNITYSDK_OFFSET(0x154EA210)
-#define EJLIOMPMHHI___C__ADDUNPACK_B__14_2_OFFSET UNITYSDK_OFFSET(0x154EA3F0)
-#define EJLIOMPMHHI___C__ADDVERIFY_B__9_2_OFFSET UNITYSDK_OFFSET(0x154EA1A0)
+#define EJLIOMPMHHI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16431C10)
+#define EJLIOMPMHHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16431C40)
+#define EJLIOMPMHHI___C__ADDBLOCKHPATCH_B__13_2_OFFSET UNITYSDK_OFFSET(0x16431DA0)
+#define EJLIOMPMHHI___C__ADDBLOCKHPATCH_B__13_3_OFFSET UNITYSDK_OFFSET(0x16431E40)
+#define EJLIOMPMHHI___C__ADDCLEAR_B__11_0_OFFSET UNITYSDK_OFFSET(0x16431D30)
+#define EJLIOMPMHHI___C__ADDPREVERIFY_B__10_2_OFFSET UNITYSDK_OFFSET(0x16431CC0)
+#define EJLIOMPMHHI___C__ADDUNPACK_B__14_2_OFFSET UNITYSDK_OFFSET(0x16431EA0)
+#define EJLIOMPMHHI___C__ADDVERIFY_B__9_2_OFFSET UNITYSDK_OFFSET(0x16431C50)
 
-inline static constexpr unsigned int EJLIOMPMHHI___c_TypeDefinitionIndex = 59562;
+inline static constexpr unsigned int EJLIOMPMHHI___c_TypeDefinitionIndex = 60839;
 
 	class EJLIOMPMHHI___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__9_2()
 		{
-			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE50);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE58);
-		}
-
-		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__14_2()
-		{
-			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE60);
-		}
-
-		static ::System::Action_2<::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*>** StaticGet___9__11_0()
-		{
-			return (::System::Action_2<::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE68);
-		}
-
-		static ::System::Action_1<::HGCEOEHGPPE*>** StaticGet___9__13_3()
-		{
-			return (::System::Action_1<::HGCEOEHGPPE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE70);
-		}
-
-		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__13_2()
-		{
-			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE78);
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DE00);
 		}
 
 		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__10_2()
 		{
-			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE80);
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DE08);
+		}
+
+		static ::System::Action_2<::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*>** StaticGet___9__11_0()
+		{
+			return (::System::Action_2<::KGPCBBIOGLB*, ::System::Tuple_2<::System::String*, ::System::Boolean>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DE10);
+		}
+
+		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__13_2()
+		{
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DE18);
+		}
+
+		static ::System::Action_1<::HIAMBDKHMIJ*>** StaticGet___9__14_2()
+		{
+			return (::System::Action_1<::HIAMBDKHMIJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DE20);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DE28);
+		}
+
+		static ::System::Action_1<::HGCEOEHGPPE*>** StaticGet___9__13_3()
+		{
+			return (::System::Action_1<::HGCEOEHGPPE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DE30);
 		}
 
 		static ::System::Void _cctor()

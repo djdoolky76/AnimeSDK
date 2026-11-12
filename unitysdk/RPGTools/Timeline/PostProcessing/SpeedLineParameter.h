@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 namespace UnityEngine { class Texture2D; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF91F0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1061A0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineParameter_TypeDefinitionIndex = 48615;
+	inline static constexpr unsigned int SpeedLineParameter_TypeDefinitionIndex = 49656;
 
 	struct alignas(8) SpeedLineParameter
 	{

@@ -4,18 +4,18 @@
 class NIEBAAFIPDA;
 namespace System { class Object; }
 
-#define NIEBAAFIPDA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB2A2C0)
-#define NIEBAAFIPDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2A2F0)
-#define NIEBAAFIPDA___C___CCTOR_B__118_0_OFFSET UNITYSDK_OFFSET(0x1EB2A300)
+#define NIEBAAFIPDA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F011210)
+#define NIEBAAFIPDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F011240)
+#define NIEBAAFIPDA___C___CCTOR_B__118_0_OFFSET UNITYSDK_OFFSET(0x1F011250)
 
-inline static constexpr unsigned int NIEBAAFIPDA___c_TypeDefinitionIndex = 34511;
+inline static constexpr unsigned int NIEBAAFIPDA___c_TypeDefinitionIndex = 35439;
 
 	class NIEBAAFIPDA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60FB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CB40);
 		}
 
 		static ::System::Void _cctor()

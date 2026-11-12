@@ -14,26 +14,26 @@ class NBNLIDCJLHK;
 class OFLJCMOBHIH;
 namespace System { template <typename T> class Action_1; }
 
-#define JIAFOPELMJJ___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E8120)
-#define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__0_OFFSET UNITYSDK_OFFSET(0xB1E8130)
-#define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__1_OFFSET UNITYSDK_OFFSET(0xB1E9510)
-#define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__2_OFFSET UNITYSDK_OFFSET(0xB1E9530)
+#define JIAFOPELMJJ___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9EF490)
+#define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__0_OFFSET UNITYSDK_OFFSET(0xBA0A010)
+#define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__1_OFFSET UNITYSDK_OFFSET(0xBA0B3F0)
+#define JIAFOPELMJJ___C__DISPLAYCLASS6_0__STARTFORMIDPACKPS_B__2_OFFSET UNITYSDK_OFFSET(0xBA0B410)
 
-inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass6_0_TypeDefinitionIndex = 59523;
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass6_0_TypeDefinitionIndex = 60800;
 
 	class JIAFOPELMJJ___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::NBNLIDCJLHK* luaData; // 0x10
-		::OFLJCMOBHIH* startData; // 0x18
-		::BMNJKMDDACL* rawData; // 0x20
-		::EJLIOMPMHHI* queue; // 0x28
+		::DJLGNEMNIKI* designData; // 0x10
+		::EADIJOHAPHK* blockData; // 0x18
+		::EJLIOMPMHHI* queue; // 0x20
+		::JIAFOPELMJJ* __4__this; // 0x28
 		::AODPGPILMKK* archiveData; // 0x30
-		::EMGAGCLHCNL* nativeData; // 0x38
-		::DJLGNEMNIKI* designData; // 0x40
-		::JIAFOPELMJJ* __4__this; // 0x48
-		::System::Action_1<::HGCEOEHGPPE*>* __9__1; // 0x50
-		::EADIJOHAPHK* blockData; // 0x58
+		::OFLJCMOBHIH* startData; // 0x38
+		::System::Action_1<::HGCEOEHGPPE*>* __9__1; // 0x40
+		::BMNJKMDDACL* rawData; // 0x48
+		::NBNLIDCJLHK* luaData; // 0x50
+		::EMGAGCLHCNL* nativeData; // 0x58
 		::RPG::Client::TextID progressDescText; // 0x60
 		::System::Void _ctor()
 		{

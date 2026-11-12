@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OOCCBMLAELL;
 
-#define HIHFJCIJENK_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE5600)
+#define HIHFJCIJENK_CTOR_OFFSET UNITYSDK_OFFSET(0x16C32EB0)
 
-inline static constexpr unsigned int HIHFJCIJENK_TypeDefinitionIndex = 80585;
+inline static constexpr unsigned int HIHFJCIJENK_TypeDefinitionIndex = 83365;
 
 	class HIHFJCIJENK : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_VFXTEARCLIP_FACETEARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE95A430)
+#define RPGTOOLS_TIMELINE_VFXTEARCLIP_FACETEARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF478BF0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int VFXTearClip_FaceTearConfig_TypeDefinitionIndex = 48078;
+	inline static constexpr unsigned int VFXTearClip_FaceTearConfig_TypeDefinitionIndex = 49109;
 
 	class VFXTearClip_FaceTearConfig : public ::System::Object
 	{

@@ -6,9 +6,9 @@ class EILOGENDCCG;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LBAMHOLCOJE_BIHKBFPBHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB5EBCC0)
+#define LBAMHOLCOJE_BIHKBFPBHEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE7D580)
 
-inline static constexpr unsigned int LBAMHOLCOJE_BIHKBFPBHEJ_TypeDefinitionIndex = 56530;
+inline static constexpr unsigned int LBAMHOLCOJE_BIHKBFPBHEJ_TypeDefinitionIndex = 57750;
 
 	class LBAMHOLCOJE_BIHKBFPBHEJ : public ::System::Object
 	{

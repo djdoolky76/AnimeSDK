@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KOPCPKCPPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71D9A0)
+#define KOPCPKCPPIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89F320)
 
-inline static constexpr unsigned int KOPCPKCPPIF_TypeDefinitionIndex = 37255;
+inline static constexpr unsigned int KOPCPKCPPIF_TypeDefinitionIndex = 38183;
 
 	class KOPCPKCPPIF : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RecordEntityFormationIndex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGIKKOCKPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x14519EC0)
-#define EGIKKOCKPDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14519EF0)
+#define EGIKKOCKPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x152F0550)
+#define EGIKKOCKPDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152F0580)
 
-inline static constexpr unsigned int EGIKKOCKPDO_TypeDefinitionIndex = 55284;
+inline static constexpr unsigned int EGIKKOCKPDO_TypeDefinitionIndex = 56465;
 
 	class EGIKKOCKPDO
 	{

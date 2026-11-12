@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/GridFightGameModifier.h"
 class NJKFOJJDGGG;
 
-#define HHNFDGDCKBO_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD4760)
-#define HHNFDGDCKBO_UPDATE_OFFSET UNITYSDK_OFFSET(0x15CD4770)
+#define HHNFDGDCKBO_CTOR_OFFSET UNITYSDK_OFFSET(0x16C220D0)
+#define HHNFDGDCKBO_UPDATE_OFFSET UNITYSDK_OFFSET(0x16C220E0)
 
-inline static constexpr unsigned int HHNFDGDCKBO_TypeDefinitionIndex = 64998;
+inline static constexpr unsigned int HHNFDGDCKBO_TypeDefinitionIndex = 66595;
 
 	class HHNFDGDCKBO : public ::RPG::Client::GridFightGameModifier
 	{

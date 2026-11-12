@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class OMNJCDDMLHI;
 
-#define ALCCPLJJOOE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155624F0)
-#define ALCCPLJJOOE___C__DISPLAYCLASS1_0__TICK_B__0_OFFSET UNITYSDK_OFFSET(0x15562560)
+#define ALCCPLJJOOE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x163CFA80)
+#define ALCCPLJJOOE___C__DISPLAYCLASS1_0__TICK_B__0_OFFSET UNITYSDK_OFFSET(0x163CFAF0)
 
-inline static constexpr unsigned int ALCCPLJJOOE___c__DisplayClass1_0_TypeDefinitionIndex = 77943;
+inline static constexpr unsigned int ALCCPLJJOOE___c__DisplayClass1_0_TypeDefinitionIndex = 80678;
 
 	class ALCCPLJJOOE___c__DisplayClass1_0 : public ::System::Object
 	{

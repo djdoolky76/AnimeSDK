@@ -5,16 +5,16 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Diagnostics { class TraceListenerCollection; }
 
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_ASSERT_OFFSET UNITYSDK_OFFSET(0x1F008C60)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F012970)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_FAIL_OFFSET UNITYSDK_OFFSET(0x1F011980)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x1F011080)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1F011920)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTSIZE_OFFSET UNITYSDK_OFFSET(0x1F011970)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_LISTENERS_OFFSET UNITYSDK_OFFSET(0x1F010DF0)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_USEGLOBALLOCK_OFFSET UNITYSDK_OFFSET(0x1F011910)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_INITIALIZESETTINGS_OFFSET UNITYSDK_OFFSET(0x1F0116C0)
-#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1F008C90)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_ASSERT_OFFSET UNITYSDK_OFFSET(0x202B8570)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x202C21C0)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_FAIL_OFFSET UNITYSDK_OFFSET(0x202C11D0)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_AUTOFLUSH_OFFSET UNITYSDK_OFFSET(0x202C08C0)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTLEVEL_OFFSET UNITYSDK_OFFSET(0x202C1170)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_INDENTSIZE_OFFSET UNITYSDK_OFFSET(0x202C11C0)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_LISTENERS_OFFSET UNITYSDK_OFFSET(0x202C0630)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_GET_USEGLOBALLOCK_OFFSET UNITYSDK_OFFSET(0x202C1160)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_INITIALIZESETTINGS_OFFSET UNITYSDK_OFFSET(0x202C0F10)
+#define SYSTEM_DIAGNOSTICS_TRACEINTERNAL_WRITELINE_OFFSET UNITYSDK_OFFSET(0x202B85A0)
 
 namespace System::Diagnostics
 {
@@ -23,34 +23,34 @@ namespace System::Diagnostics
 	class TraceInternal : public ::System::Object
 	{
 	public:
+		static ::System::String** StaticGet_appName()
+		{
+			return (::System::String**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x2CC30);
+		}
+
 		static ::System::Object** StaticGet_critSec()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x3C9D0);
+			return (::System::Object**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x2CC38);
 		}
 
 		static ::System::Diagnostics::TraceListenerCollection** StaticGet_listeners()
 		{
-			return (::System::Diagnostics::TraceListenerCollection**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x3C9D8);
-		}
-
-		static ::System::String** StaticGet_appName()
-		{
-			return (::System::String**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x3C9E0);
-		}
-
-		static ::System::Int32* StaticGet_indentSize()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0xCFC0);
+			return (::System::Diagnostics::TraceListenerCollection**)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x2CC40);
 		}
 
 		static ::System::Boolean* StaticGet_useGlobalLock()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0xCFC4);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x9420);
 		}
 
 		static ::System::Boolean* StaticGet_autoFlush()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0xCFC5);
+			return (::System::Boolean*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x9421);
+		}
+
+		static ::System::Int32* StaticGet_indentSize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics", "TraceInternal")->GetStaticField(0x9424);
 		}
 
 		static ::System::Int32* StaticGet_indentLevel()

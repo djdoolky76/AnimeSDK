@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_GRIDFIGHTASSISTANTMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD0CCB60)
+#define RPG_CLIENT_GRIDFIGHTASSISTANTMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA60250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAssistantMessage_TypeDefinitionIndex = 64367;
+	inline static constexpr unsigned int GridFightAssistantMessage_TypeDefinitionIndex = 65814;
 
 	class GridFightAssistantMessage : public ::System::Object
 	{

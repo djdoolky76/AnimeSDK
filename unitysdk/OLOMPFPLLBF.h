@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/ChenLingDamageType.h"
 #include "unitysdk/System/Object.h"
 
-#define OLOMPFPLLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBF0)
+#define OLOMPFPLLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5FAE0)
 
-inline static constexpr unsigned int OLOMPFPLLBF_TypeDefinitionIndex = 43775;
+inline static constexpr unsigned int OLOMPFPLLBF_TypeDefinitionIndex = 44850;
 
 	class OLOMPFPLLBF : public ::System::Object
 	{

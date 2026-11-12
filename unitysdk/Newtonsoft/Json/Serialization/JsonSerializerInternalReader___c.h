@@ -7,43 +7,43 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3F7B00)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3F7B30)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_0_OFFSET UNITYSDK_OFFSET(0x1C3F7B40)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_2_OFFSET UNITYSDK_OFFSET(0x1C3F7B60)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_0_OFFSET UNITYSDK_OFFSET(0x1C3F7B80)
-#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_1_OFFSET UNITYSDK_OFFSET(0x1C3F7B90)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D57E2E0)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57E310)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_0_OFFSET UNITYSDK_OFFSET(0x1D57E320)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__CREATEOBJECTUSINGCREATORWITHPARAMETERS_B__36_2_OFFSET UNITYSDK_OFFSET(0x1D57E340)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_0_OFFSET UNITYSDK_OFFSET(0x1D57E360)
+#define NEWTONSOFT_JSON_SERIALIZATION_JSONSERIALIZERINTERNALREADER___C__POPULATEOBJECT_B__41_1_OFFSET UNITYSDK_OFFSET(0x1D57E370)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int JsonSerializerInternalReader___c_TypeDefinitionIndex = 9739;
+	inline static constexpr unsigned int JsonSerializerInternalReader___c_TypeDefinitionIndex = 9747;
 
 	class JsonSerializerInternalReader___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2F5E0);
+		}
+
 		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Object*>** StaticGet___9__41_1()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Object*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x30850);
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::Object*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2F5E8);
 		}
 
 		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x30858);
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2F5F0);
 		}
 
 		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>** StaticGet___9__36_2()
 		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x30860);
+			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::System::String*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2F5F8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x30868);
-		}
-
-		static ::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::Newtonsoft::Json::Serialization::JsonProperty*, ::Newtonsoft::Json::Serialization::JsonProperty*>**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x30870);
+			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Serialization", "<>c")->GetStaticField(0x2F600);
 		}
 
 		static ::System::Void _cctor()

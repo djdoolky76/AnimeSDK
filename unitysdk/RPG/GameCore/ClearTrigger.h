@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClearTrigger; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLEARTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B75A0)
-#define RPG_GAMECORE_CLEARTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B75B0)
-#define RPG_GAMECORE_CLEARTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B7570)
+#define RPG_GAMECORE_CLEARTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C7580)
+#define RPG_GAMECORE_CLEARTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7C7590)
+#define RPG_GAMECORE_CLEARTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7C7550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearTrigger_TypeDefinitionIndex = 20024;
+	inline static constexpr unsigned int ClearTrigger_TypeDefinitionIndex = 20358;
 
 	class ClearTrigger : public ::RPG::GameCore::TaskConfig
 	{

@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExpeditionBattleRouteConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLEROUTECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6907B0)
-#define RPG_GAMECORE_EXPEDITIONBATTLEROUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6904C0)
+#define RPG_GAMECORE_EXPEDITIONBATTLEROUTECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E89CD20)
+#define RPG_GAMECORE_EXPEDITIONBATTLEROUTECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E89CA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleRouteConfigRow_TypeDefinitionIndex = 11444;
+	inline static constexpr unsigned int ExpeditionBattleRouteConfigRow_TypeDefinitionIndex = 11495;
 
 	class ExpeditionBattleRouteConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* LevelIDList; // 0x10
-		::System::String* MonsterFigurePath; // 0x18
+		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* LevelIDList; // 0x18
 		::Il2CppArray<::RPG::GameCore::AttackDamageType>* MonsterWeakPoint; // 0x20
-		::Il2CppArray<::System::UInt32>* SpecialAvatarIDList; // 0x28
+		::System::String* MonsterFigurePath; // 0x28
 		::System::UInt32 MazeBuffID; // 0x30
-		::System::UInt32 ID; // 0x34
-		::System::UInt32 MainMonster; // 0x38
-		::System::UInt32 BuffID; // 0x3C
+		::System::UInt32 BuffID; // 0x34
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 MainMonster; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONBATTLEROUTECONFIGROW_CTOR_OFFSET))(this);

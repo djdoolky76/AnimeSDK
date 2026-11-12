@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Jobs/TransformAccessArray.h"
 
-#define DEBOGDBACGL_DJEDDIDLHNO_OFFSET UNITYSDK_OFFSET(0xE4FF510)
+#define DEBOGDBACGL_DJEDDIDLHNO_OFFSET UNITYSDK_OFFSET(0xEE46390)
 
-inline static constexpr unsigned int DEBOGDBACGL_TypeDefinitionIndex = 73740;
+inline static constexpr unsigned int DEBOGDBACGL_TypeDefinitionIndex = 75863;
 
 	class DEBOGDBACGL : public ::System::Object
 	{

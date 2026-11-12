@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ST_Side_OverrideVision; }
 namespace RPG::GameCore { class VisionBaseConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_SIDE_OVERRIDEVISION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA85B80)
-#define RPG_GAMECORE_ST_SIDE_OVERRIDEVISION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA85B90)
-#define RPG_GAMECORE_ST_SIDE_OVERRIDEVISION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA85B50)
+#define RPG_GAMECORE_ST_SIDE_OVERRIDEVISION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC98380)
+#define RPG_GAMECORE_ST_SIDE_OVERRIDEVISION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC98390)
+#define RPG_GAMECORE_ST_SIDE_OVERRIDEVISION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC98350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Side_OverrideVision_TypeDefinitionIndex = 20106;
+	inline static constexpr unsigned int ST_Side_OverrideVision_TypeDefinitionIndex = 20440;
 
 	class ST_Side_OverrideVision : public ::RPG::GameCore::STTaskConfig
 	{

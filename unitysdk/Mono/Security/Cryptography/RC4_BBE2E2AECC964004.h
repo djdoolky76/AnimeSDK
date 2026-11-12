@@ -4,11 +4,11 @@
 namespace Mono::Security::Cryptography { class RC4_BBE2E2AECC964004; }
 namespace System::Security::Cryptography { class KeySizes; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C032150)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CREATE_OFFSET UNITYSDK_OFFSET(0x1C02CAA0)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CTOR_OFFSET UNITYSDK_OFFSET(0x1C02D250)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_GET_IV_OFFSET UNITYSDK_OFFSET(0x1C032140)
-#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_SET_IV_OFFSET UNITYSDK_OFFSET(0x1C02D860)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1B9600)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CREATE_OFFSET UNITYSDK_OFFSET(0x1D1B3F00)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B46B0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_GET_IV_OFFSET UNITYSDK_OFFSET(0x1D1B95F0)
+#define MONO_SECURITY_CRYPTOGRAPHY_RC4_BBE2E2AECC964004_SET_IV_OFFSET UNITYSDK_OFFSET(0x1D1B4CC0)
 
 namespace Mono::Security::Cryptography
 {
@@ -19,12 +19,12 @@ namespace Mono::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x34740);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x26D00);
 		}
 
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x34748);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("Mono.Security.Cryptography", "RC4")->GetStaticField(0x26D08);
 		}
 
 		::System::Void _ctor()

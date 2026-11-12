@@ -4,18 +4,18 @@
 class EAFBIMIHOOL;
 namespace System { class Object; }
 
-#define EAFBIMIHOOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E225760)
-#define EAFBIMIHOOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E225790)
-#define EAFBIMIHOOL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E2257A0)
+#define EAFBIMIHOOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F505A30)
+#define EAFBIMIHOOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F505A60)
+#define EAFBIMIHOOL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F505A70)
 
-inline static constexpr unsigned int EAFBIMIHOOL___c_TypeDefinitionIndex = 30508;
+inline static constexpr unsigned int EAFBIMIHOOL___c_TypeDefinitionIndex = 31414;
 
 	class EAFBIMIHOOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x487A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x451F0);
 		}
 
 		static ::System::Void _cctor()

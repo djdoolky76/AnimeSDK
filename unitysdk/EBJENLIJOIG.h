@@ -4,11 +4,11 @@
 namespace RPG::Client { class SwordTrainingGameInstance; }
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define EBJENLIJOIG_CFINKMFANFE_OFFSET UNITYSDK_OFFSET(0x12CFF8C0)
-#define EBJENLIJOIG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFF820)
-#define EBJENLIJOIG_FMPJJHKCNGG_OFFSET UNITYSDK_OFFSET(0x12CFF870)
+#define EBJENLIJOIG_CFINKMFANFE_OFFSET UNITYSDK_OFFSET(0x13AB0A20)
+#define EBJENLIJOIG_CTOR_OFFSET UNITYSDK_OFFSET(0x13AB0980)
+#define EBJENLIJOIG_FMPJJHKCNGG_OFFSET UNITYSDK_OFFSET(0x13AB09D0)
 
-inline static constexpr unsigned int EBJENLIJOIG_TypeDefinitionIndex = 75030;
+inline static constexpr unsigned int EBJENLIJOIG_TypeDefinitionIndex = 77357;
 
 	class EBJENLIJOIG : public ::System::Object
 	{

@@ -7,21 +7,21 @@ class GNFKIEAGDHL;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OHKGNIAAAAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE71CA0)
-#define OHKGNIAAAAM_GET_FUNRECORDS_OFFSET UNITYSDK_OFFSET(0xBE71150)
-#define OHKGNIAAAAM_GET_LEVELTURN_OFFSET UNITYSDK_OFFSET(0xBE71120)
-#define OHKGNIAAAAM_GET_ROUTEENDMAP_OFFSET UNITYSDK_OFFSET(0xBE71140)
-#define OHKGNIAAAAM_KIGGBMBABJD_OFFSET UNITYSDK_OFFSET(0xBE71160)
-#define OHKGNIAAAAM_PLGEBDDNCKC_OFFSET UNITYSDK_OFFSET(0xBE71210)
-#define OHKGNIAAAAM_SET_LEVELTURN_OFFSET UNITYSDK_OFFSET(0xBE71130)
+#define OHKGNIAAAAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC72C3E0)
+#define OHKGNIAAAAM_GET_FUNRECORDS_OFFSET UNITYSDK_OFFSET(0xC72B890)
+#define OHKGNIAAAAM_GET_LEVELTURN_OFFSET UNITYSDK_OFFSET(0xC72B860)
+#define OHKGNIAAAAM_GET_ROUTEENDMAP_OFFSET UNITYSDK_OFFSET(0xC72B880)
+#define OHKGNIAAAAM_KIGGBMBABJD_OFFSET UNITYSDK_OFFSET(0xC72B8A0)
+#define OHKGNIAAAAM_PLGEBDDNCKC_OFFSET UNITYSDK_OFFSET(0xC72B950)
+#define OHKGNIAAAAM_SET_LEVELTURN_OFFSET UNITYSDK_OFFSET(0xC72B870)
 
-inline static constexpr unsigned int OHKGNIAAAAM_TypeDefinitionIndex = 63881;
+inline static constexpr unsigned int OHKGNIAAAAM_TypeDefinitionIndex = 65323;
 
 	class OHKGNIAAAAM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::FAPMPKICHBB*>* _FunRecords_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::GNFKIEAGDHL*>* _RouteEndMap_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::GNFKIEAGDHL*>* _RouteEndMap_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::FAPMPKICHBB*>* _FunRecords_k__BackingField; // 0x18
 		::System::UInt32 _LevelTurn_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{

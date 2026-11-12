@@ -4,8 +4,8 @@
 namespace System { class Action; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C5EA0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0__OUTPUTASYNCCAUSALITYEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1C2C67C0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D44CBA0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0__OUTPUTASYNCCAUSALITYEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D44D4C0)
 
 namespace System::Runtime::CompilerServices
 {
@@ -14,8 +14,8 @@ namespace System::Runtime::CompilerServices
 	class AsyncMethodBuilderCore___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Threading::Tasks::Task* innerTask; // 0x10
-		::System::Action* continuation; // 0x18
+		::System::Action* continuation; // 0x10
+		::System::Threading::Tasks::Task* innerTask; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCMETHODBUILDERCORE___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

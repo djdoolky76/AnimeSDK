@@ -11,20 +11,20 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class ValueEvaluatorConfig; }
 namespace System { class String; }
 
-#define LINCNNLGGMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FD280)
-#define LINCNNLGGMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0FD2C0)
-#define LINCNNLGGMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0FD210)
+#define LINCNNLGGMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F8630)
+#define LINCNNLGGMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E2F8670)
+#define LINCNNLGGMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E2F85C0)
 
-inline static constexpr unsigned int LINCNNLGGMB_TypeDefinitionIndex = 24221;
+inline static constexpr unsigned int LINCNNLGGMB_TypeDefinitionIndex = 24680;
 
 	class LINCNNLGGMB : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x18
 		::RPG::GameCore::ValueEvaluatorConfig* MNDFOPKBHKP; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-		::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x30
-		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x38
+		::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x28
+		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x30
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x38
 		::RPG::GameCore::RtSkillPropertyType ACHILGIPGKL; // 0x40
 		::RPG::GameCore::PropertyModifyFunction KFAPHPGFEMK; // 0x44
 		::System::Void _ctor()

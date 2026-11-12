@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CEEFNAMLEFO_BDPLDNEANOF.h"
 
-inline static constexpr unsigned int CEEFNAMLEFO_GenericValue_1_TypeDefinitionIndex = 52904;
+inline static constexpr unsigned int CEEFNAMLEFO_GenericValue_1_TypeDefinitionIndex = 54060;
 
 	template <typename T>
 	class CEEFNAMLEFO_GenericValue_1 : public ::CEEFNAMLEFO_BDPLDNEANOF

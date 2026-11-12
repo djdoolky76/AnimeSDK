@@ -7,11 +7,11 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewMode
 namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_CARDANIMATIONEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0xCEAF0C0)
+#define RPG_CLIENT_FATERIN_BATTLE_CARDANIMATIONEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0xD877860)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int CardAnimationEventArgs_TypeDefinitionIndex = 80883;
+	inline static constexpr unsigned int CardAnimationEventArgs_TypeDefinitionIndex = 83663;
 
 	class CardAnimationEventArgs : public ::System::Object
 	{

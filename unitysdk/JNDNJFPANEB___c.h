@@ -4,18 +4,18 @@
 class JNDNJFPANEB;
 namespace System { class Object; }
 
-#define JNDNJFPANEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E794EE0)
-#define JNDNJFPANEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E794F20)
-#define JNDNJFPANEB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E794F30)
+#define JNDNJFPANEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAC3D30)
+#define JNDNJFPANEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAC3D70)
+#define JNDNJFPANEB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FAC3D80)
 
-inline static constexpr unsigned int JNDNJFPANEB___c_TypeDefinitionIndex = 32783;
+inline static constexpr unsigned int JNDNJFPANEB___c_TypeDefinitionIndex = 33698;
 
 	class JNDNJFPANEB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C6C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56A10);
 		}
 
 		static ::System::Void _cctor()

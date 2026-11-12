@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 
-#define RPG_GAMECORE_PROPERTYADSORPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95C8B0)
-#define RPG_GAMECORE_PROPERTYADSORPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95C740)
+#define RPG_GAMECORE_PROPERTYADSORPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB74C80)
+#define RPG_GAMECORE_PROPERTYADSORPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB74B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropertyAdsorptionConfig_TypeDefinitionIndex = 17120;
+	inline static constexpr unsigned int PropertyAdsorptionConfig_TypeDefinitionIndex = 17287;
 
 	class PropertyAdsorptionConfig : public ::RPG::GameCore::JsonConfig
 	{

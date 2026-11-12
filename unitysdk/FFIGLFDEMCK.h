@@ -8,21 +8,21 @@ namespace RPG::GameCore { class ChimeraSetAnimatorParam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define FFIGLFDEMCK_CTOR_OFFSET UNITYSDK_OFFSET(0x157413E0)
-#define FFIGLFDEMCK_DJOCMIMGDJM_OFFSET UNITYSDK_OFFSET(0x15741A30)
-#define FFIGLFDEMCK_GGLEGADMNAH_OFFSET UNITYSDK_OFFSET(0x15741720)
-#define FFIGLFDEMCK_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x15741430)
-#define FFIGLFDEMCK_MLIKMCHDMEN_OFFSET UNITYSDK_OFFSET(0x15741BF0)
-#define FFIGLFDEMCK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15741470)
+#define FFIGLFDEMCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1665F850)
+#define FFIGLFDEMCK_DJOCMIMGDJM_OFFSET UNITYSDK_OFFSET(0x1665FEA0)
+#define FFIGLFDEMCK_GGLEGADMNAH_OFFSET UNITYSDK_OFFSET(0x1665FB90)
+#define FFIGLFDEMCK_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x1665F8A0)
+#define FFIGLFDEMCK_MLIKMCHDMEN_OFFSET UNITYSDK_OFFSET(0x16660060)
+#define FFIGLFDEMCK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1665F8E0)
 
-inline static constexpr unsigned int FFIGLFDEMCK_TypeDefinitionIndex = 78416;
+inline static constexpr unsigned int FFIGLFDEMCK_TypeDefinitionIndex = 81151;
 
 	class FFIGLFDEMCK : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
-		::RPG::GameCore::ChimeraSetAnimatorParam* IGHAHBNLIJA; // 0x18
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x20
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
+		::RPG::GameCore::ChimeraSetAnimatorParam* IGHAHBNLIJA; // 0x20
 		::System::UInt32 AJLJMGEEKOJ; // 0x28
 		::System::UInt32 NCBAPGKFFJA; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::ChimeraSetAnimatorParam* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)

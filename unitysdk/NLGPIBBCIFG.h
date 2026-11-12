@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class CAHLPKGIABH;
 
-#define NLGPIBBCIFG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C79CC00)
-#define NLGPIBBCIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79CC50)
+#define NLGPIBBCIFG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D91E4A0)
+#define NLGPIBBCIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91E4F0)
 
-inline static constexpr unsigned int NLGPIBBCIFG_TypeDefinitionIndex = 36835;
+inline static constexpr unsigned int NLGPIBBCIFG_TypeDefinitionIndex = 37763;
 
 	class NLGPIBBCIFG : public ::System::Object
 	{

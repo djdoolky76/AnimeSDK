@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityGuessTheSilhouetteData; }
 
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC406820)
-#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS2_0__GETACTIVITYGUESSTHESILHOUETTEDATABYMAINMISSIONID_B__0_OFFSET UNITYSDK_OFFSET(0xC406830)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCD3BF00)
+#define RPG_CLIENT_ACTIVITYGUESSTHESILHOUETTEMODULE___C__DISPLAYCLASS2_0__GETACTIVITYGUESSTHESILHOUETTEDATABYMAINMISSIONID_B__0_OFFSET UNITYSDK_OFFSET(0xCD40B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass2_0_TypeDefinitionIndex = 61522;
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass2_0_TypeDefinitionIndex = 62907;
 
 	class ActivityGuessTheSilhouetteModule___c__DisplayClass2_0 : public ::System::Object
 	{

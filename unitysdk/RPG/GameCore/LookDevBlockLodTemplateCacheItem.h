@@ -6,12 +6,12 @@ namespace RPG::GameCore { class LookDevBlockLodTemplateCacheItem; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F4600)
-#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F4510)
+#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA37280)
+#define RPG_GAMECORE_LOOKDEVBLOCKLODTEMPLATECACHEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA37190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LookDevBlockLodTemplateCacheItem_TypeDefinitionIndex = 19208;
+	inline static constexpr unsigned int LookDevBlockLodTemplateCacheItem_TypeDefinitionIndex = 19398;
 
 	class LookDevBlockLodTemplateCacheItem : public ::RPG::GameCore::JsonConfig
 	{

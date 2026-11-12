@@ -8,22 +8,22 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155E64F0)
-#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x155E6830)
+#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164F9330)
+#define ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0___ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x164F9590)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroAssetProperty___c__DisplayClass10_0_TypeDefinitionIndex = 49617;
+	inline static constexpr unsigned int EnviroAssetProperty___c__DisplayClass10_0_TypeDefinitionIndex = 50693;
 
 	class EnviroAssetProperty___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::UnityEngine::Object*, ::System::Object*>* __9__0; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* temp; // 0x10
 		::EnviromentSystem::EnviroAssetProperty* __4__this; // 0x18
-		::System::Collections::Generic::List_1<::System::Object*>* temp; // 0x20
-		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x28
-		::System::Int32 asyncCount; // 0x30
-		::System::Int32 asyncLoadTotalCount; // 0x34
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x20
+		::System::Action_2<::UnityEngine::Object*, ::System::Object*>* __9__0; // 0x28
+		::System::Int32 asyncLoadTotalCount; // 0x30
+		::System::Int32 asyncCount; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENVIROMENTSYSTEM_ENVIROASSETPROPERTY___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);

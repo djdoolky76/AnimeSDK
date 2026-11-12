@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CLFKEKKKGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xD77CA50)
-#define CLFKEKKKGPA_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xD77CA80)
+#define CLFKEKKKGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B8260)
+#define CLFKEKKKGPA_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xE0B8290)
 
-inline static constexpr unsigned int CLFKEKKKGPA_TypeDefinitionIndex = 62448;
+inline static constexpr unsigned int CLFKEKKKGPA_TypeDefinitionIndex = 63861;
 
 	class CLFKEKKKGPA : public ::System::Object
 	{

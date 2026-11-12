@@ -5,25 +5,25 @@ namespace RPG::Client { class ScheduleData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ACTIVITYELATIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3EB6C0)
-#define RPG_CLIENT_ACTIVITYELATIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3EB6F0)
-#define RPG_CLIENT_ACTIVITYELATIONMODULE___C___INITREQ_B__33_0_OFFSET UNITYSDK_OFFSET(0xC3EB700)
+#define RPG_CLIENT_ACTIVITYELATIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD259D0)
+#define RPG_CLIENT_ACTIVITYELATIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD25A00)
+#define RPG_CLIENT_ACTIVITYELATIONMODULE___C___INITREQ_B__33_0_OFFSET UNITYSDK_OFFSET(0xCD25A10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityElationModule___c_TypeDefinitionIndex = 61509;
+	inline static constexpr unsigned int ActivityElationModule___c_TypeDefinitionIndex = 62894;
 
 	class ActivityElationModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__33_0()
 		{
-			return (::System::Action_1<::RPG::Client::ScheduleData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14C50);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13220);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14C58);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13228);
 		}
 
 		static ::System::Void _cctor()

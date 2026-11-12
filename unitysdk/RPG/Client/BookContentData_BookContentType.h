@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookContentData_BookContentType_TypeDefinitionIndex = 66375;
+	inline static constexpr unsigned int BookContentData_BookContentType_TypeDefinitionIndex = 68311;
 
 	enum class BookContentData_BookContentType : ::System::Int32
 	{

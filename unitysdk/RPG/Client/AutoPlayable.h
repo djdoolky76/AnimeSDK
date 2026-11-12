@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPG_CLIENT_AUTOPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6C6300)
-#define RPG_CLIENT_AUTOPLAYABLE_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xC6C6220)
-#define RPG_CLIENT_AUTOPLAYABLE_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xC6C6290)
+#define RPG_CLIENT_AUTOPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xD022380)
+#define RPG_CLIENT_AUTOPLAYABLE_ONLIGHTWEIGHTACTIVATE_OFFSET UNITYSDK_OFFSET(0xD0222A0)
+#define RPG_CLIENT_AUTOPLAYABLE_ONLIGHTWEIGHTDEACTIVATE_OFFSET UNITYSDK_OFFSET(0xD022310)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoPlayable_TypeDefinitionIndex = 72504;
+	inline static constexpr unsigned int AutoPlayable_TypeDefinitionIndex = 74583;
 
 	class AutoPlayable : public ::UnityEngine::MonoBehaviour
 	{

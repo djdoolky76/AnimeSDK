@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Download_TypeDefinitionIndex = 46169;
+	inline static constexpr unsigned int MHYSDKC_Download_TypeDefinitionIndex = 47198;
 
 	class MHYSDKC_Download : public ::System::Object
 	{

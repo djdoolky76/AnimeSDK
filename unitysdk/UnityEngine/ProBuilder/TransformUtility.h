@@ -5,22 +5,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F28E610)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_INVERSETRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x1F28E350)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_REPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x1F28DD10)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_TRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x1F28DED0)
-#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_UNPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x1F28DB50)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x2053F400)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_INVERSETRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x2053F140)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_REPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x2053EB00)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_TRANSFORMVERTEX_OFFSET UNITYSDK_OFFSET(0x2053ECC0)
+#define UNITYENGINE_PROBUILDER_TRANSFORMUTILITY_UNPARENTCHILDREN_OFFSET UNITYSDK_OFFSET(0x2053E940)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int TransformUtility_TypeDefinitionIndex = 44442;
+	inline static constexpr unsigned int TransformUtility_TypeDefinitionIndex = 45517;
 
 	class TransformUtility : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*>** StaticGet_s_ChildStack()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "TransformUtility")->GetStaticField(0x57360);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Transform*>*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "TransformUtility")->GetStaticField(0x69B00);
 		}
 
 		static ::System::Void _cctor()

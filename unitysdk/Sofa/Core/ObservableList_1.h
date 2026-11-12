@@ -3,7 +3,7 @@
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int ObservableList_1_TypeDefinitionIndex = 44106;
+	inline static constexpr unsigned int ObservableList_1_TypeDefinitionIndex = 45181;
 
 	template <typename T>
 	class ObservableList_1

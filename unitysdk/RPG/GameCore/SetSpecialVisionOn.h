@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetSpecialVisionOn; }
 namespace RPG::GameCore { class SmellPropConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETSPECIALVISIONON_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC25C0)
-#define RPG_GAMECORE_SETSPECIALVISIONON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC25F0)
-#define RPG_GAMECORE_SETSPECIALVISIONON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC2570)
+#define RPG_GAMECORE_SETSPECIALVISIONON_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD46B0)
+#define RPG_GAMECORE_SETSPECIALVISIONON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD46E0)
+#define RPG_GAMECORE_SETSPECIALVISIONON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD4660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSpecialVisionOn_TypeDefinitionIndex = 20513;
+	inline static constexpr unsigned int SetSpecialVisionOn_TypeDefinitionIndex = 20849;
 
 	class SetSpecialVisionOn : public ::RPG::GameCore::TaskConfig
 	{

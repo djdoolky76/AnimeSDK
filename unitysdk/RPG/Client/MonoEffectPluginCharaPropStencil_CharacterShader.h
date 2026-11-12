@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaPropStencil_CharacterShader_TypeDefinitionIndex = 69982;
+	inline static constexpr unsigned int MonoEffectPluginCharaPropStencil_CharacterShader_TypeDefinitionIndex = 71942;
 
 	enum class MonoEffectPluginCharaPropStencil_CharacterShader : ::System::Int32
 	{

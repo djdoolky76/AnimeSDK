@@ -4,18 +4,18 @@
 class KHJMLKBLAMP;
 namespace System { class Object; }
 
-#define KHJMLKBLAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E845590)
-#define KHJMLKBLAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8455D0)
-#define KHJMLKBLAMP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E8455E0)
+#define KHJMLKBLAMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB5EE70)
+#define KHJMLKBLAMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB5EEB0)
+#define KHJMLKBLAMP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FB5EEC0)
 
-inline static constexpr unsigned int KHJMLKBLAMP___c_TypeDefinitionIndex = 33849;
+inline static constexpr unsigned int KHJMLKBLAMP___c_TypeDefinitionIndex = 34764;
 
 	class KHJMLKBLAMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x175B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10AC0);
 		}
 
 		static ::System::Void _cctor()

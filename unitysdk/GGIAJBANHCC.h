@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GGIAJBANHCC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE415C0)
-#define GGIAJBANHCC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE41B40)
-#define GGIAJBANHCC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE41730)
-#define GGIAJBANHCC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1CE413D0)
-#define GGIAJBANHCC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE41010)
-#define GGIAJBANHCC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE412A0)
-#define GGIAJBANHCC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE417D0)
-#define GGIAJBANHCC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE41820)
-#define GGIAJBANHCC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE41600)
-#define GGIAJBANHCC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE41240)
-#define GGIAJBANHCC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE41430)
-#define GGIAJBANHCC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE41690)
-#define GGIAJBANHCC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE40F90)
+#define GGIAJBANHCC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E01CA60)
+#define GGIAJBANHCC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E01CFE0)
+#define GGIAJBANHCC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E01CBD0)
+#define GGIAJBANHCC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E01C8B0)
+#define GGIAJBANHCC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E01C4F0)
+#define GGIAJBANHCC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E01C780)
+#define GGIAJBANHCC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E01CC70)
+#define GGIAJBANHCC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E01CCC0)
+#define GGIAJBANHCC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E01CAA0)
+#define GGIAJBANHCC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E01C720)
+#define GGIAJBANHCC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E01C910)
+#define GGIAJBANHCC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E01CB30)
+#define GGIAJBANHCC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E01C470)
 
-inline static constexpr unsigned int GGIAJBANHCC_TypeDefinitionIndex = 11282;
+inline static constexpr unsigned int GGIAJBANHCC_TypeDefinitionIndex = 11333;
 
 	class GGIAJBANHCC : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0x17470);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0x17478);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0xF600);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0xF608);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::GDPGBLHPJNO*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::GDPGBLHPJNO*>**)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0x17480);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::GDPGBLHPJNO*>**)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0xF610);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0x5770);
+			return (::System::Boolean*)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0x3230);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0x5771);
+			return (::System::Byte*)UnitySDK::FromName("", "GGIAJBANHCC")->GetStaticField(0x3231);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class NEGJACBFGHB;
 namespace System { class Object; }
 
-#define NEGJACBFGHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAF4890)
-#define NEGJACBFGHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF48D0)
-#define NEGJACBFGHB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAF48E0)
+#define NEGJACBFGHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE36750)
+#define NEGJACBFGHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE36790)
+#define NEGJACBFGHB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FE367A0)
 
-inline static constexpr unsigned int NEGJACBFGHB___c_TypeDefinitionIndex = 34926;
+inline static constexpr unsigned int NEGJACBFGHB___c_TypeDefinitionIndex = 35854;
 
 	class NEGJACBFGHB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DCB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68FC0);
 		}
 
 		static ::System::Void _cctor()

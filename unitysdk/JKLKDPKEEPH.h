@@ -7,20 +7,20 @@
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class PVEGameStatistics; }
 
-#define JKLKDPKEEPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB220290)
-#define JKLKDPKEEPH_GENSTATISTICS_OFFSET UNITYSDK_OFFSET(0xB21FCD0)
-#define JKLKDPKEEPH_GET_ACTIVITYSUBMODETYPE_OFFSET UNITYSDK_OFFSET(0xB21FCC0)
-#define JKLKDPKEEPH_HBIFBEDEAIA_OFFSET UNITYSDK_OFFSET(0xB220200)
-#define JKLKDPKEEPH_KNJKPFCPKAH_OFFSET UNITYSDK_OFFSET(0xB21FFC0)
+#define JKLKDPKEEPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA48780)
+#define JKLKDPKEEPH_GENSTATISTICS_OFFSET UNITYSDK_OFFSET(0xBA481B0)
+#define JKLKDPKEEPH_GET_ACTIVITYSUBMODETYPE_OFFSET UNITYSDK_OFFSET(0xBA481A0)
+#define JKLKDPKEEPH_HBIFBEDEAIA_OFFSET UNITYSDK_OFFSET(0xBA486F0)
+#define JKLKDPKEEPH_MANUALLYSTATISTIC_OFFSET UNITYSDK_OFFSET(0xBA484B0)
 
-inline static constexpr unsigned int JKLKDPKEEPH_TypeDefinitionIndex = 56012;
+inline static constexpr unsigned int JKLKDPKEEPH_TypeDefinitionIndex = 57215;
 
 	class JKLKDPKEEPH : public ::LHHEGNEBMLN
 	{
 	public:
-		::RPG::GameCore::FixPoint AAKMJDFLJPE; // 0x38
-		::RPG::GameCore::FixPoint GMDJCPPJABE; // 0x40
 		::RPG::GameCore::FixPoint LAPLACLGGHB; // 0x48
+		::RPG::GameCore::FixPoint GMDJCPPJABE; // 0x50
+		::RPG::GameCore::FixPoint AAKMJDFLJPE; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JKLKDPKEEPH_CTOR_OFFSET))(this);
@@ -36,9 +36,9 @@ inline static constexpr unsigned int JKLKDPKEEPH_TypeDefinitionIndex = 56012;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PVEGameStatistics*))((::PBYTE)hIl2Cpp + JKLKDPKEEPH_GENSTATISTICS_OFFSET))(this, a1);
 		}
 
-		::System::Void KNJKPFCPKAH(::RPG::GameCore::JsonEnum* a1, ::RPG::GameCore::PropertyModifyFunction a2, ::RPG::GameCore::FixPoint a3)
+		::System::Void ManuallyStatistic(::RPG::GameCore::JsonEnum* a1, ::RPG::GameCore::PropertyModifyFunction a2, ::RPG::GameCore::FixPoint a3)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::JsonEnum*, ::RPG::GameCore::PropertyModifyFunction, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JKLKDPKEEPH_KNJKPFCPKAH_OFFSET))(this, a1, a2, a3);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::JsonEnum*, ::RPG::GameCore::PropertyModifyFunction, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JKLKDPKEEPH_MANUALLYSTATISTIC_OFFSET))(this, a1, a2, a3);
 		}
 
 		::System::Void HBIFBEDEAIA(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::PropertyModifyFunction a2, ::RPG::GameCore::FixPoint a3)

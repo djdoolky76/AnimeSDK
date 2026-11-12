@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DamagePerformFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIPAIGMJNOE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D00FA0)
-#define HIPAIGMJNOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D00FD0)
+#define HIPAIGMJNOE_CTOR_OFFSET UNITYSDK_OFFSET(0x16C503C0)
+#define HIPAIGMJNOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C503F0)
 
-inline static constexpr unsigned int HIPAIGMJNOE_TypeDefinitionIndex = 54986;
+inline static constexpr unsigned int HIPAIGMJNOE_TypeDefinitionIndex = 56160;
 
 	class HIPAIGMJNOE
 	{

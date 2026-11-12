@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITY_COLLECTIONS_WRITEONLYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CC210)
+#define UNITY_COLLECTIONS_WRITEONLYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x2067D0B0)
 
 namespace Unity::Collections
 {

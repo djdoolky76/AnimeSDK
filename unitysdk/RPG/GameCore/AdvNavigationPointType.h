@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNavigationPointType_TypeDefinitionIndex = 57116;
+	inline static constexpr unsigned int AdvNavigationPointType_TypeDefinitionIndex = 58345;
 
 	enum class AdvNavigationPointType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaveMonsterTiming_TypeDefinitionIndex = 10420;
+	inline static constexpr unsigned int WaveMonsterTiming_TypeDefinitionIndex = 10431;
 
 	enum class WaveMonsterTiming : ::System::Int32
 	{

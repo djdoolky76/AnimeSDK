@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int IBlindBoxSet_TypeDefinitionIndex = 74952;
+	inline static constexpr unsigned int IBlindBoxSet_TypeDefinitionIndex = 77279;
 
 	class IBlindBoxSet
 	{

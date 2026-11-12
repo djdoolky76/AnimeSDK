@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionResConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MISSIONRESCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D887D40)
-#define RPG_GAMECORE_MISSIONRESCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D887BC0)
+#define RPG_GAMECORE_MISSIONRESCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA20F0)
+#define RPG_GAMECORE_MISSIONRESCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA1F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionResConfig_TypeDefinitionIndex = 19026;
+	inline static constexpr unsigned int MissionResConfig_TypeDefinitionIndex = 19213;
 
 	class MissionResConfig : public ::RPG::GameCore::JsonConfig
 	{

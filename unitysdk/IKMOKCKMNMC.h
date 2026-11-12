@@ -5,18 +5,18 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define IKMOKCKMNMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1649BA50)
+#define IKMOKCKMNMC_CTOR_OFFSET UNITYSDK_OFFSET(0x1746F410)
 
-inline static constexpr unsigned int IKMOKCKMNMC_TypeDefinitionIndex = 73192;
+inline static constexpr unsigned int IKMOKCKMNMC_TypeDefinitionIndex = 75307;
 
 	class IKMOKCKMNMC : public ::System::Object
 	{
 	public:
-		::UnityEngine::Object* CNADDNANHBL; // 0x10
-		::UnityEngine::GameObject* CBPPPOEMCLF; // 0x18
+		::UnityEngine::GameObject* CBPPPOEMCLF; // 0x10
+		::UnityEngine::Object* CNADDNANHBL; // 0x18
 		::System::String* HMDFOHBBIOH; // 0x20
-		::System::Boolean LJLAPMEGMEA; // 0x28
-		::System::Boolean JLPDFMCJAIG; // 0x29
+		::System::Boolean JLPDFMCJAIG; // 0x28
+		::System::Boolean LJLAPMEGMEA; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKMOKCKMNMC_CTOR_OFFSET))(this);

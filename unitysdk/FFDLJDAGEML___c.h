@@ -4,18 +4,18 @@
 class FFDLJDAGEML;
 namespace System { class Object; }
 
-#define FFDLJDAGEML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E36BE80)
-#define FFDLJDAGEML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E36BEC0)
-#define FFDLJDAGEML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E36BED0)
+#define FFDLJDAGEML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F653330)
+#define FFDLJDAGEML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F653370)
+#define FFDLJDAGEML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F653380)
 
-inline static constexpr unsigned int FFDLJDAGEML___c_TypeDefinitionIndex = 27726;
+inline static constexpr unsigned int FFDLJDAGEML___c_TypeDefinitionIndex = 28257;
 
 	class FFDLJDAGEML___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D950);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BB70);
 		}
 
 		static ::System::Void _cctor()

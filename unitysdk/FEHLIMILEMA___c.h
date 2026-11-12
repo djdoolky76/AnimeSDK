@@ -5,23 +5,23 @@ namespace RPG::GameCore { class MapPropConditionConfigRow; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define FEHLIMILEMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x156F1FB0)
-#define FEHLIMILEMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156F1FE0)
-#define FEHLIMILEMA___C__GETSORTEDMAPPROPCONDITION_B__43_0_OFFSET UNITYSDK_OFFSET(0x156F1FF0)
+#define FEHLIMILEMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1660C150)
+#define FEHLIMILEMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1660C180)
+#define FEHLIMILEMA___C__GETSORTEDMAPPROPCONDITION_B__43_0_OFFSET UNITYSDK_OFFSET(0x1660C190)
 
-inline static constexpr unsigned int FEHLIMILEMA___c_TypeDefinitionIndex = 62096;
+inline static constexpr unsigned int FEHLIMILEMA___c_TypeDefinitionIndex = 63509;
 
 	class FEHLIMILEMA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61010);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50710);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::MapPropConditionConfigRow*>** StaticGet___9__43_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::MapPropConditionConfigRow*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61018);
+			return (::System::Comparison_1<::RPG::GameCore::MapPropConditionConfigRow*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50718);
 		}
 
 		static ::System::Void _cctor()

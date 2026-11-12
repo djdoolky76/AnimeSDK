@@ -5,10 +5,10 @@ class KNICOFFGGOO;
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define KNICOFFGGOO_CTOR_OFFSET UNITYSDK_OFFSET(0xB586390)
-#define KNICOFFGGOO_GOKHCCIKBHD_OFFSET UNITYSDK_OFFSET(0xB586300)
+#define KNICOFFGGOO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDD4AB0)
+#define KNICOFFGGOO_GOKHCCIKBHD_OFFSET UNITYSDK_OFFSET(0xBDD4A20)
 
-inline static constexpr unsigned int KNICOFFGGOO_TypeDefinitionIndex = 64779;
+inline static constexpr unsigned int KNICOFFGGOO_TypeDefinitionIndex = 66323;
 
 	class KNICOFFGGOO : public ::System::Object
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BBINLEGFIIC_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CCF4700)
+#define BBINLEGFIIC_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1DE9DAA0)
 
-inline static constexpr unsigned int BBINLEGFIIC_TypeDefinitionIndex = 10678;
+inline static constexpr unsigned int BBINLEGFIIC_TypeDefinitionIndex = 10694;
 
 	class BBINLEGFIIC : public ::System::Object
 	{

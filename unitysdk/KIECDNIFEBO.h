@@ -4,9 +4,9 @@
 class MDNCCFLNJFG;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KIECDNIFEBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C901030)
+#define KIECDNIFEBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAD240)
 
-inline static constexpr unsigned int KIECDNIFEBO_TypeDefinitionIndex = 42833;
+inline static constexpr unsigned int KIECDNIFEBO_TypeDefinitionIndex = 43814;
 
 	class KIECDNIFEBO : public ::System::Object
 	{

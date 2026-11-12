@@ -4,13 +4,13 @@
 namespace HoudiniEngineUnity { class Test_Terrain; }
 namespace UnityEngine { class Terrain; }
 
-#define HOUDINIENGINEUNITY_TEST_TERRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B5150)
-#define HOUDINIENGINEUNITY_TEST_TERRAIN_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B5180)
-#define HOUDINIENGINEUNITY_TEST_TERRAIN_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9B5160)
+#define HOUDINIENGINEUNITY_TEST_TERRAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3E080)
+#define HOUDINIENGINEUNITY_TEST_TERRAIN_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CB3E0B0)
+#define HOUDINIENGINEUNITY_TEST_TERRAIN_ISNULL_OFFSET UNITYSDK_OFFSET(0x1CB3E090)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Terrain_TypeDefinitionIndex = 40763;
+	inline static constexpr unsigned int Test_Terrain_TypeDefinitionIndex = 41738;
 
 	class Test_Terrain : public ::System::Object
 	{

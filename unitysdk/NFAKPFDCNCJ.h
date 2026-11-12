@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define NFAKPFDCNCJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB76E20)
-#define NFAKPFDCNCJ_HGKALNHGNKL_OFFSET UNITYSDK_OFFSET(0x20530)
+#define NFAKPFDCNCJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xC451C50)
+#define NFAKPFDCNCJ_HGKALNHGNKL_OFFSET UNITYSDK_OFFSET(0x25580)
 
-inline static constexpr unsigned int NFAKPFDCNCJ_TypeDefinitionIndex = 73211;
+inline static constexpr unsigned int NFAKPFDCNCJ_TypeDefinitionIndex = 75326;
 
 	struct alignas(4) NFAKPFDCNCJ
 	{
@@ -13,7 +13,7 @@ inline static constexpr unsigned int NFAKPFDCNCJ_TypeDefinitionIndex = 73211;
 		::System::UInt64 MFGNBMNJPGP; // 0x20
 		static ::NFAKPFDCNCJ* StaticGet_NKHLMJGGKEM()
 		{
-			return (::NFAKPFDCNCJ*)UnitySDK::FromName("", "NFAKPFDCNCJ")->GetStaticField(0xA330);
+			return (::NFAKPFDCNCJ*)UnitySDK::FromName("", "NFAKPFDCNCJ")->GetStaticField(0x9130);
 		}
 
 		static ::System::Void _cctor()

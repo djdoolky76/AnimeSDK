@@ -4,12 +4,12 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Exception; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE31C0)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CONTINUEWITH_B__0_OFFSET UNITYSDK_OFFSET(0x1CBE4620)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD8A200)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS74_0__CONTINUEWITH_B__0_OFFSET UNITYSDK_OFFSET(0x1DD8B630)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass74_0_TypeDefinitionIndex = 9931;
+	inline static constexpr unsigned int Promise___c__DisplayClass74_0_TypeDefinitionIndex = 9939;
 
 	class Promise___c__DisplayClass74_0 : public ::System::Object
 	{

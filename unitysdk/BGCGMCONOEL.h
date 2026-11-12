@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define BGCGMCONOEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BA090)
+#define BGCGMCONOEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3ADB0)
 
-inline static constexpr unsigned int BGCGMCONOEL_TypeDefinitionIndex = 42805;
+inline static constexpr unsigned int BGCGMCONOEL_TypeDefinitionIndex = 43785;
 
 	class BGCGMCONOEL : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

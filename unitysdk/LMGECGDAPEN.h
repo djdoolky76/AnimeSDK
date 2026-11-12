@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LMGECGDAPEN_TypeDefinitionIndex = 28675;
+inline static constexpr unsigned int LMGECGDAPEN_TypeDefinitionIndex = 29265;
 
 	enum class LMGECGDAPEN : ::System::Int32
 	{

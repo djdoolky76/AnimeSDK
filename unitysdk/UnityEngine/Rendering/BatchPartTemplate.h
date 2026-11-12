@@ -5,7 +5,7 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchPartTemplate_TypeDefinitionIndex = 4785;
+	inline static constexpr unsigned int BatchPartTemplate_TypeDefinitionIndex = 4789;
 
 	struct alignas(8) BatchPartTemplate
 	{

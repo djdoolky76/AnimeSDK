@@ -7,30 +7,30 @@ namespace RPG::Client::OpenWorld { class PVSRuntimeReplayResultData; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define FCCHGILFKPE_EDLFNIBCCAI_OFFSET UNITYSDK_OFFSET(0x156B10B0)
-#define FCCHGILFKPE_FHLALJENMHB_OFFSET UNITYSDK_OFFSET(0x156B09F0)
-#define FCCHGILFKPE_GET_ACTIVECASE_OFFSET UNITYSDK_OFFSET(0x156B0950)
-#define FCCHGILFKPE_GET_ACTIVERESULT_OFFSET UNITYSDK_OFFSET(0x156B0970)
-#define FCCHGILFKPE_JKEONEEPIHH_OFFSET UNITYSDK_OFFSET(0x156B0990)
-#define FCCHGILFKPE_PBNODIGLHFB_OFFSET UNITYSDK_OFFSET(0x156B0D10)
-#define FCCHGILFKPE_PEKHJMGAMKM_OFFSET UNITYSDK_OFFSET(0x156B0DE0)
-#define FCCHGILFKPE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x156B0CC0)
-#define FCCHGILFKPE_SET_ACTIVECASE_OFFSET UNITYSDK_OFFSET(0x156B0960)
-#define FCCHGILFKPE_SET_ACTIVERESULT_OFFSET UNITYSDK_OFFSET(0x156B0980)
+#define FCCHGILFKPE_EDLFNIBCCAI_OFFSET UNITYSDK_OFFSET(0x165C8F00)
+#define FCCHGILFKPE_FHLALJENMHB_OFFSET UNITYSDK_OFFSET(0x165C8840)
+#define FCCHGILFKPE_GET_ACTIVECASE_OFFSET UNITYSDK_OFFSET(0x165C87A0)
+#define FCCHGILFKPE_GET_ACTIVERESULT_OFFSET UNITYSDK_OFFSET(0x165C87C0)
+#define FCCHGILFKPE_JKEONEEPIHH_OFFSET UNITYSDK_OFFSET(0x165C87E0)
+#define FCCHGILFKPE_PBNODIGLHFB_OFFSET UNITYSDK_OFFSET(0x165C8B60)
+#define FCCHGILFKPE_PEKHJMGAMKM_OFFSET UNITYSDK_OFFSET(0x165C8C30)
+#define FCCHGILFKPE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x165C8B10)
+#define FCCHGILFKPE_SET_ACTIVECASE_OFFSET UNITYSDK_OFFSET(0x165C87B0)
+#define FCCHGILFKPE_SET_ACTIVERESULT_OFFSET UNITYSDK_OFFSET(0x165C87D0)
 
-inline static constexpr unsigned int FCCHGILFKPE_TypeDefinitionIndex = 73770;
+inline static constexpr unsigned int FCCHGILFKPE_TypeDefinitionIndex = 75894;
 
 	class FCCHGILFKPE : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::OpenWorld::PVSRuntimeReplayResultData** StaticGet__ActiveResult_k__BackingField()
-		{
-			return (::RPG::Client::OpenWorld::PVSRuntimeReplayResultData**)UnitySDK::FromName("", "FCCHGILFKPE")->GetStaticField(0x5EAB0);
-		}
-
 		static ::RPG::Client::OpenWorld::PVSRuntimeReplayCaseData** StaticGet__ActiveCase_k__BackingField()
 		{
-			return (::RPG::Client::OpenWorld::PVSRuntimeReplayCaseData**)UnitySDK::FromName("", "FCCHGILFKPE")->GetStaticField(0x5EAB8);
+			return (::RPG::Client::OpenWorld::PVSRuntimeReplayCaseData**)UnitySDK::FromName("", "FCCHGILFKPE")->GetStaticField(0x48980);
+		}
+
+		static ::RPG::Client::OpenWorld::PVSRuntimeReplayResultData** StaticGet__ActiveResult_k__BackingField()
+		{
+			return (::RPG::Client::OpenWorld::PVSRuntimeReplayResultData**)UnitySDK::FromName("", "FCCHGILFKPE")->GetStaticField(0x48988);
 		}
 
 		static ::RPG::Client::OpenWorld::PVSRuntimeReplayCaseData* get_ActiveCase()

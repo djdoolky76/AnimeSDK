@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Rendering/BANodeHash.h"
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define UNITYENGINE_RENDERING_BASAMPLEMASKNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x1F41ACA0)
+#define UNITYENGINE_RENDERING_BASAMPLEMASKNODEPARAMATERS_PLAY_OFFSET UNITYSDK_OFFSET(0x206CB860)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BASampleMaskNodeParamaters_TypeDefinitionIndex = 4797;
+	inline static constexpr unsigned int BASampleMaskNodeParamaters_TypeDefinitionIndex = 4801;
 
 	struct alignas(4) BASampleMaskNodeParamaters
 	{

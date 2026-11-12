@@ -4,10 +4,10 @@
 class EOPEINOKFCI;
 namespace RPG::GameCore { class MiddleSinglePackMissionConfig; }
 
-#define EDHBLGMGBNC___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13315B60)
-#define EDHBLGMGBNC___C__DISPLAYCLASS2_0___GENERATEMIDDLEMISSIONPACKLIST_B__0_OFFSET UNITYSDK_OFFSET(0x13315B90)
+#define EDHBLGMGBNC___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x140D27B0)
+#define EDHBLGMGBNC___C__DISPLAYCLASS2_0___GENERATEMIDDLEMISSIONPACKLIST_B__0_OFFSET UNITYSDK_OFFSET(0x140D27E0)
 
-inline static constexpr unsigned int EDHBLGMGBNC___c__DisplayClass2_0_TypeDefinitionIndex = 66089;
+inline static constexpr unsigned int EDHBLGMGBNC___c__DisplayClass2_0_TypeDefinitionIndex = 68022;
 
 	class EDHBLGMGBNC___c__DisplayClass2_0 : public ::System::Object
 	{

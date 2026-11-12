@@ -3,7 +3,7 @@
 
 namespace ZXing::Datamatrix::Encoder
 {
-	inline static constexpr unsigned int Encoder_TypeDefinitionIndex = 6966;
+	inline static constexpr unsigned int Encoder_TypeDefinitionIndex = 6977;
 
 	class Encoder
 	{

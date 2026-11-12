@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentTurnState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PGFMMCHGAHA_CTOR_OFFSET UNITYSDK_OFFSET(0xC21FA10)
-#define PGFMMCHGAHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC21FA40)
+#define PGFMMCHGAHA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB026C0)
+#define PGFMMCHGAHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCB026F0)
 
-inline static constexpr unsigned int PGFMMCHGAHA_TypeDefinitionIndex = 54894;
+inline static constexpr unsigned int PGFMMCHGAHA_TypeDefinitionIndex = 56065;
 
 	class PGFMMCHGAHA
 	{

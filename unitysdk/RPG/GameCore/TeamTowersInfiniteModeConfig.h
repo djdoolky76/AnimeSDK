@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamTowersInfiniteModeBossConfig; }
 namespace RPG::GameCore { class TeamTowersInfiniteModeConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSINFINITEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7D5A0)
-#define RPG_GAMECORE_TEAMTOWERSINFINITEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB7D4B0)
+#define RPG_GAMECORE_TEAMTOWERSINFINITEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2CB50)
+#define RPG_GAMECORE_TEAMTOWERSINFINITEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE2CA60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersInfiniteModeConfig_TypeDefinitionIndex = 18952;
+	inline static constexpr unsigned int TeamTowersInfiniteModeConfig_TypeDefinitionIndex = 19139;
 
 	class TeamTowersInfiniteModeConfig : public ::RPG::GameCore::JsonConfig
 	{

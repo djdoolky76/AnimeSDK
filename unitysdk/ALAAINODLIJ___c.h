@@ -4,18 +4,18 @@
 class ALAAINODLIJ;
 namespace System { class Object; }
 
-#define ALAAINODLIJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3D18F0)
-#define ALAAINODLIJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D1930)
-#define ALAAINODLIJ___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E3D1940)
+#define ALAAINODLIJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F68EDA0)
+#define ALAAINODLIJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F68EDE0)
+#define ALAAINODLIJ___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F68EDF0)
 
-inline static constexpr unsigned int ALAAINODLIJ___c_TypeDefinitionIndex = 33500;
+inline static constexpr unsigned int ALAAINODLIJ___c_TypeDefinitionIndex = 34415;
 
 	class ALAAINODLIJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x374C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DCE0);
 		}
 
 		static ::System::Void _cctor()

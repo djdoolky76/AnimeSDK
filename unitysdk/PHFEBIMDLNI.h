@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IJFIHJJPHNA;
 
-#define PHFEBIMDLNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CD3D0)
+#define PHFEBIMDLNI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94EC90)
 
-inline static constexpr unsigned int PHFEBIMDLNI_TypeDefinitionIndex = 36542;
+inline static constexpr unsigned int PHFEBIMDLNI_TypeDefinitionIndex = 37470;
 
 	class PHFEBIMDLNI : public ::System::Object
 	{

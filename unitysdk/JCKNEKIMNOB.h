@@ -25,63 +25,63 @@ namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define JCKNEKIMNOB_AJAMJDIIFDO_OFFSET UNITYSDK_OFFSET(0x1659A660)
-#define JCKNEKIMNOB_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0x165978D0)
-#define JCKNEKIMNOB_CABMDGEGMBJ_OFFSET UNITYSDK_OFFSET(0x165A0FC0)
-#define JCKNEKIMNOB_CADCBMJBEOJ_OFFSET UNITYSDK_OFFSET(0x165A45D0)
-#define JCKNEKIMNOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x165A49B0)
-#define JCKNEKIMNOB_CDLGNGACDBO_OFFSET UNITYSDK_OFFSET(0x1659BA30)
-#define JCKNEKIMNOB_CTOR_OFFSET UNITYSDK_OFFSET(0x165975E0)
-#define JCKNEKIMNOB_DFDEJFPHGFM_OFFSET UNITYSDK_OFFSET(0x1659A7A0)
-#define JCKNEKIMNOB_DHPKGGBCJKP_OFFSET UNITYSDK_OFFSET(0x165A4230)
-#define JCKNEKIMNOB_DICAELPKMGJ_OFFSET UNITYSDK_OFFSET(0x1659E940)
-#define JCKNEKIMNOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16598700)
-#define JCKNEKIMNOB_HCIADEBEGCF_OFFSET UNITYSDK_OFFSET(0x1659A590)
-#define JCKNEKIMNOB_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16597940)
-#define JCKNEKIMNOB_JCFFHKHIENK_OFFSET UNITYSDK_OFFSET(0x16597F90)
-#define JCKNEKIMNOB_JNPCKNGKPEH_OFFSET UNITYSDK_OFFSET(0x165A05C0)
-#define JCKNEKIMNOB_KFHNINFLDIL_OFFSET UNITYSDK_OFFSET(0x1659F010)
-#define JCKNEKIMNOB_KLPFNEIKPLF_OFFSET UNITYSDK_OFFSET(0x165A0760)
-#define JCKNEKIMNOB_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x1659E8F0)
-#define JCKNEKIMNOB_LLJJGLGNCCO_OFFSET UNITYSDK_OFFSET(0x165A4410)
-#define JCKNEKIMNOB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x165982E0)
-#define JCKNEKIMNOB___ADD2DBRICKTUTORIALTRIGGER_B__17_0_OFFSET UNITYSDK_OFFSET(0x165A4A00)
+#define JCKNEKIMNOB_AJAMJDIIFDO_OFFSET UNITYSDK_OFFSET(0xB8DEAA0)
+#define JCKNEKIMNOB_BBLMMNLCMGM_OFFSET UNITYSDK_OFFSET(0xB8DBCD0)
+#define JCKNEKIMNOB_CABMDGEGMBJ_OFFSET UNITYSDK_OFFSET(0xB8E4AB0)
+#define JCKNEKIMNOB_CADCBMJBEOJ_OFFSET UNITYSDK_OFFSET(0xB8E80B0)
+#define JCKNEKIMNOB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8E8490)
+#define JCKNEKIMNOB_CDLGNGACDBO_OFFSET UNITYSDK_OFFSET(0xB8DFE70)
+#define JCKNEKIMNOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DB9E0)
+#define JCKNEKIMNOB_DFDEJFPHGFM_OFFSET UNITYSDK_OFFSET(0xB8DEBE0)
+#define JCKNEKIMNOB_DHPKGGBCJKP_OFFSET UNITYSDK_OFFSET(0xB8E7D10)
+#define JCKNEKIMNOB_DICAELPKMGJ_OFFSET UNITYSDK_OFFSET(0xB8E2440)
+#define JCKNEKIMNOB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB8DCB00)
+#define JCKNEKIMNOB_HCIADEBEGCF_OFFSET UNITYSDK_OFFSET(0xB8DE9D0)
+#define JCKNEKIMNOB_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB8DBD40)
+#define JCKNEKIMNOB_JCFFHKHIENK_OFFSET UNITYSDK_OFFSET(0xB8DC390)
+#define JCKNEKIMNOB_JNPCKNGKPEH_OFFSET UNITYSDK_OFFSET(0xB8E40C0)
+#define JCKNEKIMNOB_KFHNINFLDIL_OFFSET UNITYSDK_OFFSET(0xB8E2B10)
+#define JCKNEKIMNOB_KLPFNEIKPLF_OFFSET UNITYSDK_OFFSET(0xB8E4260)
+#define JCKNEKIMNOB_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0xB8E23F0)
+#define JCKNEKIMNOB_LLJJGLGNCCO_OFFSET UNITYSDK_OFFSET(0xB8E7EF0)
+#define JCKNEKIMNOB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB8DC6E0)
+#define JCKNEKIMNOB___ADD2DBRICKTUTORIALTRIGGER_B__17_0_OFFSET UNITYSDK_OFFSET(0xB8E84E0)
 
-inline static constexpr unsigned int JCKNEKIMNOB_TypeDefinitionIndex = 76818;
+inline static constexpr unsigned int JCKNEKIMNOB_TypeDefinitionIndex = 79152;
 
 	class JCKNEKIMNOB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::System::Tuple_2<::UnityEngine::GameObject*, ::BansheeGz::BGSpline::Curve::BGCurve*>*>* BEFGJHIKIAG; // 0x10
-		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::DNFFEFPKDPC*>* PKLCDNJJJLA; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>*>* JJLEMINNGHC; // 0x20
+		::MNCOPNHONHO* PDENFEFCAGN; // 0x10
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData* FDFBDBKGIHH; // 0x18
+		::System::Collections::Generic::List_1<::FiveDimRenderingPanelRuntime*>* GFFIPGCAPEC; // 0x20
 		::BABNOKHOBCF* FKINCGODJEP; // 0x28
-		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::System::Object*>* LPIBEECADGC; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::Coroutine*>* GLHGACAJCIK; // 0x38
-		::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*>* DAALMBLDCIF; // 0x40
-		::UnityEngine::Transform* HIKCADADBAF; // 0x48
-		::UnityEngine::Coroutine* GMFBKOINJPG; // 0x50
+		::System::Collections::Generic::List_1<::UnityEngine::Coroutine*>* GLHGACAJCIK; // 0x30
+		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::DNFFEFPKDPC*>* PKLCDNJJJLA; // 0x38
+		::UnityEngine::Coroutine* GMFBKOINJPG; // 0x40
+		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* OAJHMKGDIEF; // 0x48
+		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::System::Tuple_2<::UnityEngine::GameObject*, ::BansheeGz::BGSpline::Curve::BGCurve*>*>* BEFGJHIKIAG; // 0x50
 		::UnityEngine::Transform* JMLFOIGADAD; // 0x58
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGlobalData* FDFBDBKGIHH; // 0x60
-		::System::Collections::Generic::List_1<::FiveDimRenderingPanelRuntime*>* GFFIPGCAPEC; // 0x68
-		::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelRuntimeInspector* OAJHMKGDIEF; // 0x70
-		::MNCOPNHONHO* PDENFEFCAGN; // 0x78
-		::System::Boolean LKAJJDACDFF; // 0x80
+		::UnityEngine::Transform* HIKCADADBAF; // 0x60
+		::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelStructGameView*>* DAALMBLDCIF; // 0x68
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameView*>*>* JJLEMINNGHC; // 0x70
+		::System::Collections::Generic::Dictionary_2<::INMMPMDELKE*, ::System::Object*>* LPIBEECADGC; // 0x78
+		::System::Boolean CKJBKBBGILB; // 0x80
 		::System::Boolean CMGLIFGEFAE; // 0x81
-		::System::Boolean CKJBKBBGILB; // 0x82
+		::System::Boolean LKAJJDACDFF; // 0x82
 		static ::System::Int32* StaticGet_CPHHCCMOFEK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JCKNEKIMNOB")->GetStaticField(0x15720);
-		}
-
-		static ::System::Boolean* StaticGet_MICOJCNHKIF()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JCKNEKIMNOB")->GetStaticField(0x15724);
+			return (::System::Int32*)UnitySDK::FromName("", "JCKNEKIMNOB")->GetStaticField(0x14740);
 		}
 
 		static ::System::Int32* StaticGet_DHBKEBKGIEE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JCKNEKIMNOB")->GetStaticField(0x15728);
+			return (::System::Int32*)UnitySDK::FromName("", "JCKNEKIMNOB")->GetStaticField(0x14744);
+		}
+
+		static ::System::Boolean* StaticGet_MICOJCNHKIF()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "JCKNEKIMNOB")->GetStaticField(0x14748);
 		}
 
 		// static const ::System::String* FOFMJLPIHNA; // 0x0

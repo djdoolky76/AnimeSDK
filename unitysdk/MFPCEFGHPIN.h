@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-inline static constexpr unsigned int MFPCEFGHPIN_TypeDefinitionIndex = 42225;
+inline static constexpr unsigned int MFPCEFGHPIN_TypeDefinitionIndex = 43200;
 
 	struct alignas(8) MFPCEFGHPIN
 	{

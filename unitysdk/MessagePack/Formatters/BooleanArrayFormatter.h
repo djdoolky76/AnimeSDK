@@ -6,21 +6,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class BooleanArrayFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB6F250)
-#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB6E9F0)
-#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB6ED30)
-#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB6EA00)
+#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF7F60)
+#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF7700)
+#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF7A40)
+#define MESSAGEPACK_FORMATTERS_BOOLEANARRAYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF7710)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int BooleanArrayFormatter_TypeDefinitionIndex = 7470;
+	inline static constexpr unsigned int BooleanArrayFormatter_TypeDefinitionIndex = 7481;
 
 	class BooleanArrayFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::BooleanArrayFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::BooleanArrayFormatter**)UnitySDK::FromName("MessagePack.Formatters", "BooleanArrayFormatter")->GetStaticField(0x249C0);
+			return (::MessagePack::Formatters::BooleanArrayFormatter**)UnitySDK::FromName("MessagePack.Formatters", "BooleanArrayFormatter")->GetStaticField(0x46730);
 		}
 
 		::System::Void _ctor()

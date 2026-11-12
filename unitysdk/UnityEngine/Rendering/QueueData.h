@@ -4,13 +4,13 @@
 namespace System { class Object; }
 namespace UnityEngine::Rendering { class QueueData; }
 
-#define UNITYENGINE_RENDERING_QUEUEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C6A00)
-#define UNITYENGINE_RENDERING_QUEUEDATA_FREE_OFFSET UNITYSDK_OFFSET(0x1F2C6A10)
-#define UNITYENGINE_RENDERING_QUEUEDATA_GET_OFFSET UNITYSDK_OFFSET(0x1F2C69F0)
+#define UNITYENGINE_RENDERING_QUEUEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x20577840)
+#define UNITYENGINE_RENDERING_QUEUEDATA_FREE_OFFSET UNITYSDK_OFFSET(0x20577850)
+#define UNITYENGINE_RENDERING_QUEUEDATA_GET_OFFSET UNITYSDK_OFFSET(0x20577830)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int QueueData_TypeDefinitionIndex = 35502;
+	inline static constexpr unsigned int QueueData_TypeDefinitionIndex = 36430;
 
 	class QueueData : public ::System::Object
 	{
@@ -19,7 +19,7 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::QueueData* next; // 0x18
 		static ::UnityEngine::Rendering::QueueData** StaticGet_free()
 		{
-			return (::UnityEngine::Rendering::QueueData**)UnitySDK::FromName("UnityEngine.Rendering", "QueueData")->GetStaticField(0x49090);
+			return (::UnityEngine::Rendering::QueueData**)UnitySDK::FromName("UnityEngine.Rendering", "QueueData")->GetStaticField(0x5AC60);
 		}
 
 		::System::Void _ctor()

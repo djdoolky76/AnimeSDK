@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Ui/Samples/GridFightSettleTabViewModel.h"
 
-#define RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLEDETAILTABVM_CTOR_OFFSET UNITYSDK_OFFSET(0xE410910)
+#define RPG_CLIENT_UI_SAMPLES_GRIDFIGHTSETTLEDETAILTABVM_CTOR_OFFSET UNITYSDK_OFFSET(0xEECBE20)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int GridFightSettleDetailTabVM_TypeDefinitionIndex = 73456;
+	inline static constexpr unsigned int GridFightSettleDetailTabVM_TypeDefinitionIndex = 75579;
 
 	class GridFightSettleDetailTabVM : public ::RPG::Client::Ui::Samples::GridFightSettleTabViewModel
 	{

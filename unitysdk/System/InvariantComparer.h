@@ -5,9 +5,9 @@ namespace System { class InvariantComparer; }
 namespace System { class Object; }
 namespace System::Globalization { class CompareInfo; }
 
-#define SYSTEM_INVARIANTCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F01CD60)
-#define SYSTEM_INVARIANTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F01CC40)
-#define SYSTEM_INVARIANTCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F01CBA0)
+#define SYSTEM_INVARIANTCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x202CC580)
+#define SYSTEM_INVARIANTCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x202CC460)
+#define SYSTEM_INVARIANTCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x202CC3C0)
 
 namespace System
 {
@@ -19,7 +19,7 @@ namespace System
 		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
 		static ::System::InvariantComparer** StaticGet_Default()
 		{
-			return (::System::InvariantComparer**)UnitySDK::FromName("System", "InvariantComparer")->GetStaticField(0x3AF30);
+			return (::System::InvariantComparer**)UnitySDK::FromName("System", "InvariantComparer")->GetStaticField(0x2A9A0);
 		}
 
 		::System::Void _ctor()

@@ -4,18 +4,18 @@
 class NGCDALNAHIG;
 namespace System { class Object; }
 
-#define NGCDALNAHIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB0BE10)
-#define NGCDALNAHIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0BE40)
-#define NGCDALNAHIG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB0BE50)
+#define NGCDALNAHIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE4E2F0)
+#define NGCDALNAHIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE4E320)
+#define NGCDALNAHIG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FE4E330)
 
-inline static constexpr unsigned int NGCDALNAHIG___c_TypeDefinitionIndex = 27012;
+inline static constexpr unsigned int NGCDALNAHIG___c_TypeDefinitionIndex = 27543;
 
 	class NGCDALNAHIG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F0F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A080);
 		}
 
 		static ::System::Void _cctor()

@@ -5,19 +5,19 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceNodeVariantListC
 namespace System { template <typename T> class Func_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_HFPNHKBKHDM_CTOR_OFFSET UNITYSDK_OFFSET(0xC94D580)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_HFPNHKBKHDM_GET_BINDITEM_OFFSET UNITYSDK_OFFSET(0xC94D710)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_HFPNHKBKHDM_GET_CREATEITEM_OFFSET UNITYSDK_OFFSET(0xC94D700)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_HFPNHKBKHDM_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B3100)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_HFPNHKBKHDM_GET_BINDITEM_OFFSET UNITYSDK_OFFSET(0xD2B3290)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCENODEVARIANTLISTCONTROL_HFPNHKBKHDM_GET_CREATEITEM_OFFSET UNITYSDK_OFFSET(0xD2B3280)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_HFPNHKBKHDM_TypeDefinitionIndex = 81529;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_HFPNHKBKHDM_TypeDefinitionIndex = 84310;
 
 	class ChallengeTierceNodeVariantListControl_HFPNHKBKHDM : public ::System::Object
 	{
 	public:
-		::System::Func_1<::UnityEngine::GameObject*>* _CreateItem_k__BackingField; // 0x10
-		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_HFPNHKBKHDM_GFNIIPJFIFE* _BindItem_k__BackingField; // 0x18
+		::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_HFPNHKBKHDM_GFNIIPJFIFE* _BindItem_k__BackingField; // 0x10
+		::System::Func_1<::UnityEngine::GameObject*>* _CreateItem_k__BackingField; // 0x18
 		::System::Int32 LINLNNHIBAK; // 0x20
 		::System::Void _ctor(::System::Int32 a1, ::System::Func_1<::UnityEngine::GameObject*>* a2, ::RPG::Client::Challenge::Tierce::ChallengeTierceNodeVariantListControl_HFPNHKBKHDM_GFNIIPJFIFE* a3)
 		{

@@ -17,93 +17,93 @@ namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB83CB0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1DB83370)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1DB830E0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1DB83720)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1DB82E50)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1DB82F50)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1DB83070)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1DB82050)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_ISREVERSEMAPEMPTY_OFFSET UNITYSDK_OFFSET(0x1DB82F40)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB82FD0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1DB82220)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1DB82ED0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1DB825D0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB82090)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB82BE0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1DB82C30)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1DB82B70)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1DB82B10)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADFULLDATAIMPL_OFFSET UNITYSDK_OFFSET(0x1DB835A0)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADSTARTUPDATAIMPL_OFFSET UNITYSDK_OFFSET(0x1DB83420)
-#define RPG_GAMECORE_TEXTMAPEXCELTABLE__UNLOADPREVTEXTMAP_OFFSET UNITYSDK_OFFSET(0x1DB83780)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE33380)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EE32A40)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EE327B0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETLANGUAGE_OFFSET UNITYSDK_OFFSET(0x1EE32DF0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GETLRUINFO_OFFSET UNITYSDK_OFFSET(0x1EE32520)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1EE32620)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1EE32740)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1EE31720)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_ISREVERSEMAPEMPTY_OFFSET UNITYSDK_OFFSET(0x1EE32610)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EE326A0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_LOADTOROW_OFFSET UNITYSDK_OFFSET(0x1EE318F0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_SETLRUOPERATION_OFFSET UNITYSDK_OFFSET(0x1EE325A0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_TRYLOADROW_OFFSET UNITYSDK_OFFSET(0x1EE31CA0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1EE31760)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE322B0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1EE32300)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1EE32240)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EE321E0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADFULLDATAIMPL_OFFSET UNITYSDK_OFFSET(0x1EE32C70)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE__LOADSTARTUPDATAIMPL_OFFSET UNITYSDK_OFFSET(0x1EE32AF0)
+#define RPG_GAMECORE_TEXTMAPEXCELTABLE__UNLOADPREVTEXTMAP_OFFSET UNITYSDK_OFFSET(0x1EE32E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextmapExcelTable_TypeDefinitionIndex = 15293;
+	inline static constexpr unsigned int TextmapExcelTable_TypeDefinitionIndex = 15449;
 
 	class TextmapExcelTable : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		static ::System::Action_1<::System::String*>** StaticGet_UnloadTextmapData()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AC0);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25F90);
 		}
 
 		static ::System::Func_1<::System::String*>** StaticGet_GetCurrentLanguage()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AC8);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25F98);
 		}
 
-		static ::POGMNKLPKGM** StaticGet_headers()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::POGMNKLPKGM**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AD0);
-		}
-
-		static ::System::Action_1<::System::String*>** StaticGet_UnloadTextmapData()
-		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AD8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25FA0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::TextmapRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::TextmapRow*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AE0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::TextmapRow*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25FA8);
 		}
 
 		static ::System::String** StaticGet_fullPath()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AE8);
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25FB0);
 		}
 
 		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::TextmapRow*>** StaticGet_LRUCache()
 		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::TextmapRow*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AF0);
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::TextmapRow*>**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25FB8);
 		}
 
-		static ::System::String** StaticGet_srcFileName()
+		static ::POGMNKLPKGM** StaticGet_headers()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15AF8);
+			return (::POGMNKLPKGM**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25FC0);
 		}
 
 		static ::System::String** StaticGet_prevSrcFileName()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x15B00);
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25FC8);
 		}
 
-		static ::System::Boolean* StaticGet_isDataLoaded()
+		static ::System::String** StaticGet_srcFileName()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x5280);
-		}
-
-		static ::System::Boolean* StaticGet_IsLoadReverseMap()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x5281);
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x25FD0);
 		}
 
 		static ::System::Boolean* StaticGet_IsInStartup()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x5282);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x7A10);
+		}
+
+		static ::System::Boolean* StaticGet_IsLoadReverseMap()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x7A11);
+		}
+
+		static ::System::Boolean* StaticGet_isDataLoaded()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "TextmapExcelTable")->GetStaticField(0x7A12);
 		}
 
 		static ::System::Void _cctor()

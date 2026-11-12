@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define NEHCCAFEBNL_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x3C3D300)
-#define NEHCCAFEBNL_DJJBNDDBKIH_OFFSET UNITYSDK_OFFSET(0x3C3D350)
+#define NEHCCAFEBNL_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x3E8C6C0)
+#define NEHCCAFEBNL_DJJBNDDBKIH_OFFSET UNITYSDK_OFFSET(0x3E8C710)
 
-inline static constexpr unsigned int NEHCCAFEBNL_TypeDefinitionIndex = 10818;
+inline static constexpr unsigned int NEHCCAFEBNL_TypeDefinitionIndex = 10834;
 
 	struct alignas(4) NEHCCAFEBNL
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActiveCommonSkillPool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BMFJGGIGCPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDAC690)
-#define BMFJGGIGCPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDAC6C0)
+#define BMFJGGIGCPO_CTOR_OFFSET UNITYSDK_OFFSET(0xC43B020)
+#define BMFJGGIGCPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC43B050)
 
-inline static constexpr unsigned int BMFJGGIGCPO_TypeDefinitionIndex = 54804;
+inline static constexpr unsigned int BMFJGGIGCPO_TypeDefinitionIndex = 55973;
 
 	class BMFJGGIGCPO
 	{

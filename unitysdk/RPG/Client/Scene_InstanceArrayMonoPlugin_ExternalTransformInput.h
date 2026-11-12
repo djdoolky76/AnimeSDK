@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_ExternalTransformInput_TypeDefinitionIndex = 70858;
+	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_ExternalTransformInput_TypeDefinitionIndex = 72837;
 
 	struct alignas(8) Scene_InstanceArrayMonoPlugin_ExternalTransformInput
 	{

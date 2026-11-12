@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarAimController_OOJAJGPKLCM_TypeDefinitionIndex = 68368;
+	inline static constexpr unsigned int AvatarAimController_OOJAJGPKLCM_TypeDefinitionIndex = 70314;
 
 	struct alignas(4) AvatarAimController_OOJAJGPKLCM
 	{

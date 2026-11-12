@@ -4,12 +4,12 @@
 namespace RPG::Client { class ChimeraDuelGameSessionChimera; }
 namespace RPG::Client::Prop { class ChimeraDuelShopViewJumpTextEffect; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0xDC73BE0)
-#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC73B60)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_BUILD_OFFSET UNITYSDK_OFFSET(0xE7107C0)
+#define RPG_CLIENT_PROP_CHIMERADUELSHOPVIEWJUMPTEXTEFFECT_UPGRADEBUILDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE710740)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder_TypeDefinitionIndex = 78366;
+	inline static constexpr unsigned int ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder_TypeDefinitionIndex = 81101;
 
 	class ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder : public ::System::Object
 	{

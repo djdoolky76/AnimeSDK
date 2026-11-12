@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetHeadButtonEff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NKILHNKDCNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBC38710)
-#define NKILHNKDCNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC38740)
+#define NKILHNKDCNI_CTOR_OFFSET UNITYSDK_OFFSET(0xC51CBE0)
+#define NKILHNKDCNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC51CC10)
 
-inline static constexpr unsigned int NKILHNKDCNI_TypeDefinitionIndex = 55513;
+inline static constexpr unsigned int NKILHNKDCNI_TypeDefinitionIndex = 56705;
 
 	class NKILHNKDCNI
 	{

@@ -3,23 +3,22 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define PHOJHPMLBCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC258610)
-#define PHOJHPMLBCJ_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC2585F0)
-#define PHOJHPMLBCJ_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC2585B0)
-#define PHOJHPMLBCJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC2585D0)
-#define PHOJHPMLBCJ_SET_DESC_OFFSET UNITYSDK_OFFSET(0xC258600)
-#define PHOJHPMLBCJ_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC2585C0)
-#define PHOJHPMLBCJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0xC2585E0)
+#define PHOJHPMLBCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCB7D9C0)
+#define PHOJHPMLBCJ_GET_DESC_OFFSET UNITYSDK_OFFSET(0xCB7D9A0)
+#define PHOJHPMLBCJ_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xCB7D960)
+#define PHOJHPMLBCJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xCB7D980)
+#define PHOJHPMLBCJ_SET_DESC_OFFSET UNITYSDK_OFFSET(0xCB7D9B0)
+#define PHOJHPMLBCJ_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xCB7D970)
+#define PHOJHPMLBCJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0xCB7D990)
 
-inline static constexpr unsigned int PHOJHPMLBCJ_TypeDefinitionIndex = 80749;
+inline static constexpr unsigned int PHOJHPMLBCJ_TypeDefinitionIndex = 83529;
 
 	class PHOJHPMLBCJ : public ::System::Object
 	{
 	public:
-		::System::UInt32 _Level_k__BackingField; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x18
-		::RPG::Client::TextID _Name_k__BackingField; // 0x28
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x10
+		::RPG::Client::TextID _Name_k__BackingField; // 0x20
+		::System::UInt32 _Level_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PHOJHPMLBCJ_CTOR_OFFSET))(this);

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AddMenuItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HAIIEOAOHPK_CTOR_OFFSET UNITYSDK_OFFSET(0x15B788E0)
-#define HAIIEOAOHPK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B788F0)
-#define HAIIEOAOHPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B78930)
-#define HAIIEOAOHPK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B78D00)
-#define HAIIEOAOHPK_TICK_OFFSET UNITYSDK_OFFSET(0x15B78D50)
+#define HAIIEOAOHPK_CTOR_OFFSET UNITYSDK_OFFSET(0x16AFF420)
+#define HAIIEOAOHPK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16AFF430)
+#define HAIIEOAOHPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AFF470)
+#define HAIIEOAOHPK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16AFF840)
+#define HAIIEOAOHPK_TICK_OFFSET UNITYSDK_OFFSET(0x16AFF890)
 
-inline static constexpr unsigned int HAIIEOAOHPK_TypeDefinitionIndex = 57864;
+inline static constexpr unsigned int HAIIEOAOHPK_TypeDefinitionIndex = 59101;
 
 	class HAIIEOAOHPK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::AddMenuItem* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::AddMenuItem* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddMenuItem* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AddMenuItem*))((::PBYTE)hIl2Cpp + HAIIEOAOHPK_CTOR_OFFSET))(this, a1, a2);

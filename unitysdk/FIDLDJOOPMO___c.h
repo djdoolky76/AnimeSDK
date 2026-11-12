@@ -4,18 +4,18 @@
 class FIDLDJOOPMO;
 namespace System { class Object; }
 
-#define FIDLDJOOPMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E396F80)
-#define FIDLDJOOPMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E396FB0)
-#define FIDLDJOOPMO___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E396FC0)
+#define FIDLDJOOPMO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F69C720)
+#define FIDLDJOOPMO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F69C750)
+#define FIDLDJOOPMO___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F69C760)
 
-inline static constexpr unsigned int FIDLDJOOPMO___c_TypeDefinitionIndex = 25442;
+inline static constexpr unsigned int FIDLDJOOPMO___c_TypeDefinitionIndex = 25921;
 
 	class FIDLDJOOPMO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FFA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x444E0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,18 +6,18 @@ class KFNMAKPOCCJ;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define KFNMAKPOCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D08D060)
-#define KFNMAKPOCCJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D08D070)
-#define KFNMAKPOCCJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D08D020)
+#define KFNMAKPOCCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27D6A0)
+#define KFNMAKPOCCJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E27D6B0)
+#define KFNMAKPOCCJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E27D660)
 
-inline static constexpr unsigned int KFNMAKPOCCJ_TypeDefinitionIndex = 23166;
+inline static constexpr unsigned int KFNMAKPOCCJ_TypeDefinitionIndex = 23596;
 
 	class KFNMAKPOCCJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* NMCLEENBEAL; // 0x18
-		::RPG::GameCore::DynamicFloat* GBOEIMOIMJG; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::DynamicFloat* GBOEIMOIMJG; // 0x28
 		::RPG::GameCore::DynamicFloat* BIFBJDKMKDL; // 0x30
 		::System::Boolean GFDBIGKJAGK; // 0x38
 		::System::Void _ctor()

@@ -7,13 +7,13 @@
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_SPRITE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x1F282790)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPRITE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F282A90)
-#define UNITYENGINE_PROBUILDER_SHAPES_SPRITE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x1F2827A0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPRITE_COPYSHAPE_OFFSET UNITYSDK_OFFSET(0x205336A0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPRITE_CTOR_OFFSET UNITYSDK_OFFSET(0x205339A0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SPRITE_REBUILDMESH_OFFSET UNITYSDK_OFFSET(0x205336B0)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Sprite_TypeDefinitionIndex = 44470;
+	inline static constexpr unsigned int Sprite_TypeDefinitionIndex = 45545;
 
 	class Sprite : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{

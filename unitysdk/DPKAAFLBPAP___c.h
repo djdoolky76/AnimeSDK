@@ -4,18 +4,18 @@
 class DPKAAFLBPAP;
 namespace System { class Object; }
 
-#define DPKAAFLBPAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E212550)
-#define DPKAAFLBPAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E212580)
-#define DPKAAFLBPAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E212590)
+#define DPKAAFLBPAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4F1880)
+#define DPKAAFLBPAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F18B0)
+#define DPKAAFLBPAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F4F18C0)
 
-inline static constexpr unsigned int DPKAAFLBPAP___c_TypeDefinitionIndex = 26694;
+inline static constexpr unsigned int DPKAAFLBPAP___c_TypeDefinitionIndex = 27225;
 
 	class DPKAAFLBPAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45F50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41200);
 		}
 
 		static ::System::Void _cctor()

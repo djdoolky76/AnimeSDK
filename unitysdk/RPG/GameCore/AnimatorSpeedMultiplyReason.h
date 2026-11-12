@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorSpeedMultiplyReason_TypeDefinitionIndex = 57009;
+	inline static constexpr unsigned int AnimatorSpeedMultiplyReason_TypeDefinitionIndex = 58235;
 
 	enum class AnimatorSpeedMultiplyReason : ::System::Int32
 	{

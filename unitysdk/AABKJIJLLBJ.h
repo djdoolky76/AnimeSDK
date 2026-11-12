@@ -4,9 +4,9 @@
 class DABGOCJPFBI;
 class OCOAGBCDNBC;
 
-#define AABKJIJLLBJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DD9A1B0)
+#define AABKJIJLLBJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1EF9CA50)
 
-inline static constexpr unsigned int AABKJIJLLBJ_TypeDefinitionIndex = 43933;
+inline static constexpr unsigned int AABKJIJLLBJ_TypeDefinitionIndex = 45008;
 
 	class AABKJIJLLBJ : public ::System::Object
 	{

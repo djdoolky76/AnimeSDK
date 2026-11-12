@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPOPIBFIJAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB836340)
-#define LPOPIBFIJAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB836370)
+#define LPOPIBFIJAE_CTOR_OFFSET UNITYSDK_OFFSET(0xC0978F0)
+#define LPOPIBFIJAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC097920)
 
-inline static constexpr unsigned int LPOPIBFIJAE_TypeDefinitionIndex = 54968;
+inline static constexpr unsigned int LPOPIBFIJAE_TypeDefinitionIndex = 56142;
 
 	class LPOPIBFIJAE
 	{

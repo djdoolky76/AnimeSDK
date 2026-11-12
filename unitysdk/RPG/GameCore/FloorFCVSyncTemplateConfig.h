@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FloorFCVSyncTemplateConfig; }
 
-#define RPG_GAMECORE_FLOORFCVSYNCTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E6BB0)
-#define RPG_GAMECORE_FLOORFCVSYNCTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E6B70)
+#define RPG_GAMECORE_FLOORFCVSYNCTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F12C0)
+#define RPG_GAMECORE_FLOORFCVSYNCTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F1280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloorFCVSyncTemplateConfig_TypeDefinitionIndex = 17402;
+	inline static constexpr unsigned int FloorFCVSyncTemplateConfig_TypeDefinitionIndex = 17570;
 
 	class FloorFCVSyncTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

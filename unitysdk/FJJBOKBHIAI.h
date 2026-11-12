@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtBattleRecordCameraRootPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJJBOKBHIAI_CTOR_OFFSET UNITYSDK_OFFSET(0x157D1BA0)
-#define FJJBOKBHIAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157D1BD0)
+#define FJJBOKBHIAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1673C030)
+#define FJJBOKBHIAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1673C060)
 
-inline static constexpr unsigned int FJJBOKBHIAI_TypeDefinitionIndex = 54154;
+inline static constexpr unsigned int FJJBOKBHIAI_TypeDefinitionIndex = 55318;
 
 	class FJJBOKBHIAI
 	{

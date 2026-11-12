@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Rendering/StencilOp.h"
 #include "unitysdk/UnityEngine/Rendering/StencilState.h"
 
-#define SERIALIZEDSTENCILSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0xF9B40)
-#define SERIALIZEDSTENCILSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xF9BE0)
+#define SERIALIZEDSTENCILSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0x106FF0)
+#define SERIALIZEDSTENCILSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0x107090)
 
-inline static constexpr unsigned int SerializedStencilState_TypeDefinitionIndex = 47418;
+inline static constexpr unsigned int SerializedStencilState_TypeDefinitionIndex = 48447;
 
 	struct alignas(4) SerializedStencilState
 	{

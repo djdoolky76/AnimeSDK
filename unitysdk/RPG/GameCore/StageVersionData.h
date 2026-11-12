@@ -5,18 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageVersionData; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_STAGEVERSIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB151F0)
-#define RPG_GAMECORE_STAGEVERSIONDATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB08060)
-#define RPG_GAMECORE_STAGEVERSIONDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB063B0)
+#define RPG_GAMECORE_STAGEVERSIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED272C0)
+#define RPG_GAMECORE_STAGEVERSIONDATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1ED1A140)
+#define RPG_GAMECORE_STAGEVERSIONDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED18400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageVersionData_TypeDefinitionIndex = 19136;
+	inline static constexpr unsigned int StageVersionData_TypeDefinitionIndex = 19324;
 
 	class StageVersionData : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::System::Byte LightVersion; // 0x10
+		::System::Boolean KeepDistantViewShadow; // 0x11
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEVERSIONDATA_CTOR_OFFSET))(this);

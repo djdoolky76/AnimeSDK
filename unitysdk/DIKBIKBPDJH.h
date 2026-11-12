@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTargetAbleToAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DIKBIKBPDJH_CTOR_OFFSET UNITYSDK_OFFSET(0xF20E740)
-#define DIKBIKBPDJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF20E770)
+#define DIKBIKBPDJH_CTOR_OFFSET UNITYSDK_OFFSET(0xF9742E0)
+#define DIKBIKBPDJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF974310)
 
-inline static constexpr unsigned int DIKBIKBPDJH_TypeDefinitionIndex = 54689;
+inline static constexpr unsigned int DIKBIKBPDJH_TypeDefinitionIndex = 55855;
 
 	class DIKBIKBPDJH
 	{

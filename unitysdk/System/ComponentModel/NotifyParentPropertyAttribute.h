@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System::ComponentModel { class NotifyParentPropertyAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFEE9E0)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFEE890)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFEE8B0)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFEE910)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GET_NOTIFYPARENT_OFFSET UNITYSDK_OFFSET(0x1EFEE8A0)
-#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EFEE920)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x2029E200)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x2029E0B0)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x2029E0D0)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2029E130)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_GET_NOTIFYPARENT_OFFSET UNITYSDK_OFFSET(0x2029E0C0)
+#define SYSTEM_COMPONENTMODEL_NOTIFYPARENTPROPERTYATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x2029E140)
 
 namespace System::ComponentModel
 {
@@ -21,17 +21,17 @@ namespace System::ComponentModel
 		::System::Boolean notifyParent; // 0x10
 		static ::System::ComponentModel::NotifyParentPropertyAttribute** StaticGet_No()
 		{
-			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x3B410);
+			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x2AC70);
 		}
 
 		static ::System::ComponentModel::NotifyParentPropertyAttribute** StaticGet_Yes()
 		{
-			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x3B418);
+			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x2AC78);
 		}
 
 		static ::System::ComponentModel::NotifyParentPropertyAttribute** StaticGet_Default()
 		{
-			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x3B420);
+			return (::System::ComponentModel::NotifyParentPropertyAttribute**)UnitySDK::FromName("System.ComponentModel", "NotifyParentPropertyAttribute")->GetStaticField(0x2AC80);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

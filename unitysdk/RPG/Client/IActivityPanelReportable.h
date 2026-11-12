@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IActivityPanelReportable_TypeDefinitionIndex = 61712;
+	inline static constexpr unsigned int IActivityPanelReportable_TypeDefinitionIndex = 63118;
 
 	class IActivityPanelReportable
 	{

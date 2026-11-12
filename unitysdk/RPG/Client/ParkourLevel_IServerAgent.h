@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourLevel_IServerAgent_TypeDefinitionIndex = 61854;
+	inline static constexpr unsigned int ParkourLevel_IServerAgent_TypeDefinitionIndex = 63260;
 
 	class ParkourLevel_IServerAgent
 	{

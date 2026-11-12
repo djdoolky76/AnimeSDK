@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Transform; }
 
-#define JDNEAIDOOAN_DGHBNJPKMBI_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
+#define JDNEAIDOOAN_DGHBNJPKMBI_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
 
-inline static constexpr unsigned int JDNEAIDOOAN_DGHBNJPKMBI_TypeDefinitionIndex = 48945;
+inline static constexpr unsigned int JDNEAIDOOAN_DGHBNJPKMBI_TypeDefinitionIndex = 50004;
 
 	struct alignas(8) JDNEAIDOOAN_DGHBNJPKMBI
 	{

@@ -6,29 +6,29 @@ class IOAFKPDEIEA;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define IJLOPPLGLKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1646EDE0)
-#define IJLOPPLGLKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1646EE20)
-#define IJLOPPLGLKN___C__SENDPIXAIRGETDATACSREQ_B__5_0_OFFSET UNITYSDK_OFFSET(0x1646EE30)
-#define IJLOPPLGLKN___C__SENDPIXAIRQUITSTAGECSREQ_B__9_0_OFFSET UNITYSDK_OFFSET(0x1646EE40)
+#define IJLOPPLGLKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17441840)
+#define IJLOPPLGLKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x17441880)
+#define IJLOPPLGLKN___C__SENDPIXAIRGETDATACSREQ_B__5_0_OFFSET UNITYSDK_OFFSET(0x17441890)
+#define IJLOPPLGLKN___C__SENDPIXAIRQUITSTAGECSREQ_B__9_0_OFFSET UNITYSDK_OFFSET(0x174418A0)
 
-inline static constexpr unsigned int IJLOPPLGLKN___c_TypeDefinitionIndex = 79223;
+inline static constexpr unsigned int IJLOPPLGLKN___c_TypeDefinitionIndex = 82000;
 
 	class IJLOPPLGLKN___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::BFHPBLANIKG*>** StaticGet___9__9_0()
 		{
-			return (::System::Action_1<::BFHPBLANIKG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610C0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610C8);
+			return (::System::Action_1<::BFHPBLANIKG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x698F0);
 		}
 
 		static ::System::Action_1<::IOAFKPDEIEA*>** StaticGet___9__5_0()
 		{
-			return (::System::Action_1<::IOAFKPDEIEA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610D0);
+			return (::System::Action_1<::IOAFKPDEIEA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x698F8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69900);
 		}
 
 		static ::System::Void _cctor()

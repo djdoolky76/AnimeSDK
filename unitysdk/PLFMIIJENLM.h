@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHaveDyingEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PLFMIIJENLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC305400)
-#define PLFMIIJENLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC305430)
+#define PLFMIIJENLM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC342A0)
+#define PLFMIIJENLM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC342D0)
 
-inline static constexpr unsigned int PLFMIIJENLM_TypeDefinitionIndex = 54901;
+inline static constexpr unsigned int PLFMIIJENLM_TypeDefinitionIndex = 56073;
 
 	class PLFMIIJENLM
 	{

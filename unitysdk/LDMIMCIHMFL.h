@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/LittleGameEntityType.h"
 #include "unitysdk/RPG/GameCore/LittleGameSmartObjectType.h"
 
-inline static constexpr unsigned int LDMIMCIHMFL_TypeDefinitionIndex = 76531;
+inline static constexpr unsigned int LDMIMCIHMFL_TypeDefinitionIndex = 78862;
 
 	struct alignas(4) LDMIMCIHMFL
 	{

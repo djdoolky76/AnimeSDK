@@ -5,10 +5,10 @@ class FODPNNIJCJI;
 class KAHNILHBHEN;
 namespace RPG::GameCore { class LevelGraphComponent; }
 
-#define KAHNILHBHEN___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D6D90)
-#define KAHNILHBHEN___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xB2D7CB0)
+#define KAHNILHBHEN___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5AE40)
+#define KAHNILHBHEN___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBB5BD70)
 
-inline static constexpr unsigned int KAHNILHBHEN___c__DisplayClass2_0_TypeDefinitionIndex = 58673;
+inline static constexpr unsigned int KAHNILHBHEN___c__DisplayClass2_0_TypeDefinitionIndex = 59940;
 
 	class KAHNILHBHEN___c__DisplayClass2_0 : public ::System::Object
 	{

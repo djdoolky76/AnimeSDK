@@ -6,32 +6,32 @@
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define DIOOCGBADPF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC06120)
-#define DIOOCGBADPF_DIAOALDNCIM_1_OFFSET UNITYSDK_OFFSET(0x1EC05E40)
-#define DIOOCGBADPF_DIAOALDNCIM_OFFSET UNITYSDK_OFFSET(0x1EC05DD0)
-#define DIOOCGBADPF_FHJLLHCLPNP_OFFSET UNITYSDK_OFFSET(0x1EC06040)
-#define DIOOCGBADPF_JCEBBPKPNLK_OFFSET UNITYSDK_OFFSET(0x1EC05F50)
-#define DIOOCGBADPF_KNEHEDGMFKB_OFFSET UNITYSDK_OFFSET(0x1EC05C70)
-#define DIOOCGBADPF_NDHICLCLKBH_OFFSET UNITYSDK_OFFSET(0x1EC060B0)
+#define DIOOCGBADPF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEB6C60)
+#define DIOOCGBADPF_DIAOALDNCIM_1_OFFSET UNITYSDK_OFFSET(0x1FEB6980)
+#define DIOOCGBADPF_DIAOALDNCIM_OFFSET UNITYSDK_OFFSET(0x1FEB6910)
+#define DIOOCGBADPF_FHJLLHCLPNP_OFFSET UNITYSDK_OFFSET(0x1FEB6B80)
+#define DIOOCGBADPF_JCEBBPKPNLK_OFFSET UNITYSDK_OFFSET(0x1FEB6A90)
+#define DIOOCGBADPF_KNEHEDGMFKB_OFFSET UNITYSDK_OFFSET(0x1FEB67B0)
+#define DIOOCGBADPF_NDHICLCLKBH_OFFSET UNITYSDK_OFFSET(0x1FEB6BF0)
 
-inline static constexpr unsigned int DIOOCGBADPF_TypeDefinitionIndex = 35270;
+inline static constexpr unsigned int DIOOCGBADPF_TypeDefinitionIndex = 36198;
 
 	class DIOOCGBADPF : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_EOOAOBGPFKC()
-		{
-			return (::System::String**)UnitySDK::FromName("", "DIOOCGBADPF")->GetStaticField(0x1850);
-		}
-
 		static ::System::String** StaticGet_LCEHLLJPDBM()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DIOOCGBADPF")->GetStaticField(0x1858);
+			return (::System::String**)UnitySDK::FromName("", "DIOOCGBADPF")->GetStaticField(0x9620);
+		}
+
+		static ::System::String** StaticGet_EOOAOBGPFKC()
+		{
+			return (::System::String**)UnitySDK::FromName("", "DIOOCGBADPF")->GetStaticField(0x9628);
 		}
 
 		static ::RPG::Client::FileVisitorPosMode* StaticGet_JMCNIANAFBO()
 		{
-			return (::RPG::Client::FileVisitorPosMode*)UnitySDK::FromName("", "DIOOCGBADPF")->GetStaticField(0x8B0);
+			return (::RPG::Client::FileVisitorPosMode*)UnitySDK::FromName("", "DIOOCGBADPF")->GetStaticField(0x930);
 		}
 
 		static ::System::Void _cctor()

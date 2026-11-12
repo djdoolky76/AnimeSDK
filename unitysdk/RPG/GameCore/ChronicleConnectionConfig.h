@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChronicleConnectionConfig; }
 
-#define RPG_GAMECORE_CHRONICLECONNECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B23E0)
-#define RPG_GAMECORE_CHRONICLECONNECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B2230)
+#define RPG_GAMECORE_CHRONICLECONNECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C23F0)
+#define RPG_GAMECORE_CHRONICLECONNECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7C2240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChronicleConnectionConfig_TypeDefinitionIndex = 18975;
+	inline static constexpr unsigned int ChronicleConnectionConfig_TypeDefinitionIndex = 19162;
 
 	class ChronicleConnectionConfig : public ::RPG::GameCore::JsonConfig
 	{

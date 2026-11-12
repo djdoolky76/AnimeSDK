@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarAtlasRow; }
 
-#define RPG_GAMECORE_AVATARATLASROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40C0F0)
-#define RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D40B8D0)
+#define RPG_GAMECORE_AVATARATLASROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62C380)
+#define RPG_GAMECORE_AVATARATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E62BB60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarAtlasRow_TypeDefinitionIndex = 12701;
+	inline static constexpr unsigned int AvatarAtlasRow_TypeDefinitionIndex = 12768;
 
 	class AvatarAtlasRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 CampID; // 0x10
-		::System::Boolean DefaultUnlock; // 0x14
+		::RPG::Client::TextID CV_EN; // 0x10
+		::RPG::Client::TextID CV_KR; // 0x20
+		::System::UInt32 CampID; // 0x30
+		::System::Boolean DefaultUnlock; // 0x34
 		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID CV_EN; // 0x18
-		::System::UInt32 AvatarID; // 0x28
+		::System::UInt32 AvatarID; // 0x38
 		::System::Byte _padding1[0x4];
-		::RPG::Client::TextID CV_KR; // 0x30
 		::RPG::Client::TextID CV_CN; // 0x40
 		::RPG::Client::TextID CV_JP; // 0x50
 		::System::Void _ctor()

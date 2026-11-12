@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightBinaryNodeRuleConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D727630)
-#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7274C0)
+#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E931340)
+#define RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9311D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBinaryNodeRuleConfigRow_TypeDefinitionIndex = 13619;
+	inline static constexpr unsigned int GridFightBinaryNodeRuleConfigRow_TypeDefinitionIndex = 13739;
 
 	class GridFightBinaryNodeRuleConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PerformLevel; // 0x10
-		::System::UInt32 Quality; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 PerformLevel; // 0x14
+		::System::UInt32 Quality; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBINARYNODERULECONFIGROW_CTOR_OFFSET))(this);

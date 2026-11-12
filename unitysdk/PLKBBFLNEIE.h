@@ -5,9 +5,9 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PLKBBFLNEIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC308A60)
+#define PLKBBFLNEIE_CTOR_OFFSET UNITYSDK_OFFSET(0xCC37B20)
 
-inline static constexpr unsigned int PLKBBFLNEIE_TypeDefinitionIndex = 54233;
+inline static constexpr unsigned int PLKBBFLNEIE_TypeDefinitionIndex = 55397;
 
 	class PLKBBFLNEIE : public ::System::Object
 	{

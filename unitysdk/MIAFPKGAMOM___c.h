@@ -4,18 +4,18 @@
 class MIAFPKGAMOM;
 namespace System { class Object; }
 
-#define MIAFPKGAMOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA39EF0)
-#define MIAFPKGAMOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA39F30)
-#define MIAFPKGAMOM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA39F40)
+#define MIAFPKGAMOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD8BA00)
+#define MIAFPKGAMOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8BA40)
+#define MIAFPKGAMOM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD8BA50)
 
-inline static constexpr unsigned int MIAFPKGAMOM___c_TypeDefinitionIndex = 27452;
+inline static constexpr unsigned int MIAFPKGAMOM___c_TypeDefinitionIndex = 27983;
 
 	class MIAFPKGAMOM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x528A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58E30);
 		}
 
 		static ::System::Void _cctor()

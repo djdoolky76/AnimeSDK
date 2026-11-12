@@ -4,11 +4,11 @@
 class MDJOFODHIMD;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BHPDOLFOBCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB492DA0)
-#define BHPDOLFOBCJ_GET_STEPS_OFFSET UNITYSDK_OFFSET(0xB492D80)
-#define BHPDOLFOBCJ_SET_STEPS_OFFSET UNITYSDK_OFFSET(0xB492D90)
+#define BHPDOLFOBCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE25F70)
+#define BHPDOLFOBCJ_GET_STEPS_OFFSET UNITYSDK_OFFSET(0xBE25F50)
+#define BHPDOLFOBCJ_SET_STEPS_OFFSET UNITYSDK_OFFSET(0xBE25F60)
 
-inline static constexpr unsigned int BHPDOLFOBCJ_TypeDefinitionIndex = 72402;
+inline static constexpr unsigned int BHPDOLFOBCJ_TypeDefinitionIndex = 74481;
 
 	class BHPDOLFOBCJ : public ::System::Object
 	{

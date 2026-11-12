@@ -5,17 +5,17 @@
 class FDHFGKLGEBC;
 class IFBOFKLBBKO;
 
-#define FBLEGIOPMKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C611980)
+#define FBLEGIOPMKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D793030)
 
-inline static constexpr unsigned int FBLEGIOPMKG_TypeDefinitionIndex = 37244;
+inline static constexpr unsigned int FBLEGIOPMKG_TypeDefinitionIndex = 38172;
 
 	class FBLEGIOPMKG : public ::System::Object
 	{
 	public:
 		::FDHFGKLGEBC* KOFBDAHFDDN; // 0x10
 		::IFBOFKLBBKO* BIHPEGKJNHA; // 0x18
-		::RPG::GameCore::CakeRaceAIState MEPFOEEGBEA; // 0x20
-		::System::UInt32 BDDAMONNJDM; // 0x24
+		::System::UInt32 BDDAMONNJDM; // 0x20
+		::RPG::GameCore::CakeRaceAIState MEPFOEEGBEA; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBLEGIOPMKG_CTOR_OFFSET))(this);

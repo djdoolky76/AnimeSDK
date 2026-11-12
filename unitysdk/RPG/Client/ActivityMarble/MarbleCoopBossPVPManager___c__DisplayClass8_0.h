@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityMarble { class MarbleCoopBossPVPManager; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC53AFA0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER___C__DISPLAYCLASS8_0___TRYCREATECLIENTINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0xC53D970)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE78D70)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLECOOPBOSSPVPMANAGER___C__DISPLAYCLASS8_0___TRYCREATECLIENTINSTANCE_B__0_OFFSET UNITYSDK_OFFSET(0xCE7B730)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarbleCoopBossPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 76000;
+	inline static constexpr unsigned int MarbleCoopBossPVPManager___c__DisplayClass8_0_TypeDefinitionIndex = 78327;
 
 	class MarbleCoopBossPVPManager___c__DisplayClass8_0 : public ::System::Object
 	{

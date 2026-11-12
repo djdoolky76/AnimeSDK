@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define AIGKCGGIFIO_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA3950)
+#define AIGKCGGIFIO_CTOR_OFFSET UNITYSDK_OFFSET(0xF162F50)
 
-inline static constexpr unsigned int AIGKCGGIFIO_TypeDefinitionIndex = 48056;
+inline static constexpr unsigned int AIGKCGGIFIO_TypeDefinitionIndex = 49087;
 
 	class AIGKCGGIFIO : public ::UnityEngine::Playables::PlayableBehaviour
 	{

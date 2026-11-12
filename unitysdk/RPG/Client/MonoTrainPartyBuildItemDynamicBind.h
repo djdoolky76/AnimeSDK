@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_MONOTRAINPARTYBUILDITEMDYNAMICBIND_CTOR_OFFSET UNITYSDK_OFFSET(0xD86F820)
+#define RPG_CLIENT_MONOTRAINPARTYBUILDITEMDYNAMICBIND_CTOR_OFFSET UNITYSDK_OFFSET(0xE2C1DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_TypeDefinitionIndex = 68882;
+	inline static constexpr unsigned int MonoTrainPartyBuildItemDynamicBind_TypeDefinitionIndex = 70835;
 
 	class MonoTrainPartyBuildItemDynamicBind : public ::UnityEngine::MonoBehaviour
 	{

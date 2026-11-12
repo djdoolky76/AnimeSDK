@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int CarSlotType_TypeDefinitionIndex = 81765;
+	inline static constexpr unsigned int CarSlotType_TypeDefinitionIndex = 84546;
 
 	enum class CarSlotType : ::System::Int32
 	{

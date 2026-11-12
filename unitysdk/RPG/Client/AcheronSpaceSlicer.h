@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshFilter; }
 
-#define RPG_CLIENT_ACHERONSPACESLICER_CAJFGOIOKGF_OFFSET UNITYSDK_OFFSET(0xC3A7ED0)
-#define RPG_CLIENT_ACHERONSPACESLICER_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A86E0)
-#define RPG_CLIENT_ACHERONSPACESLICER_FOOPKKPADGM_OFFSET UNITYSDK_OFFSET(0xC3A8370)
+#define RPG_CLIENT_ACHERONSPACESLICER_CAJFGOIOKGF_OFFSET UNITYSDK_OFFSET(0xCCE2200)
+#define RPG_CLIENT_ACHERONSPACESLICER_CTOR_OFFSET UNITYSDK_OFFSET(0xCCE2A20)
+#define RPG_CLIENT_ACHERONSPACESLICER_FOOPKKPADGM_OFFSET UNITYSDK_OFFSET(0xCCE26B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AcheronSpaceSlicer_TypeDefinitionIndex = 70352;
+	inline static constexpr unsigned int AcheronSpaceSlicer_TypeDefinitionIndex = 72318;
 
 	class AcheronSpaceSlicer : public ::UnityEngine::MonoBehaviour
 	{

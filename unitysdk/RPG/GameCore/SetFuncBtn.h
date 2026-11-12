@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetFuncBtn; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETFUNCBTN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB46D0)
-#define RPG_GAMECORE_SETFUNCBTN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB46E0)
-#define RPG_GAMECORE_SETFUNCBTN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB46A0)
+#define RPG_GAMECORE_SETFUNCBTN_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC68E0)
+#define RPG_GAMECORE_SETFUNCBTN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC68F0)
+#define RPG_GAMECORE_SETFUNCBTN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC68B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFuncBtn_TypeDefinitionIndex = 21620;
+	inline static constexpr unsigned int SetFuncBtn_TypeDefinitionIndex = 22008;
 
 	class SetFuncBtn : public ::RPG::GameCore::TaskConfig
 	{

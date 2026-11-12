@@ -8,20 +8,20 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KHJOBJJNMNH_BAJAGKKPFLD_OFFSET UNITYSDK_OFFSET(0xB40B540)
-#define KHJOBJJNMNH_BPGOJKLMKLD_OFFSET UNITYSDK_OFFSET(0xB40B610)
-#define KHJOBJJNMNH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB40B6B0)
-#define KHJOBJJNMNH_DBALBHLKFBM_OFFSET UNITYSDK_OFFSET(0xB40B2D0)
-#define KHJOBJJNMNH_LNKHMLAEOBJ_OFFSET UNITYSDK_OFFSET(0xB40B430)
+#define KHJOBJJNMNH_BAJAGKKPFLD_OFFSET UNITYSDK_OFFSET(0xBCA0530)
+#define KHJOBJJNMNH_BPGOJKLMKLD_OFFSET UNITYSDK_OFFSET(0xBCA0600)
+#define KHJOBJJNMNH_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCA06A0)
+#define KHJOBJJNMNH_DBALBHLKFBM_OFFSET UNITYSDK_OFFSET(0xBCA02C0)
+#define KHJOBJJNMNH_LNKHMLAEOBJ_OFFSET UNITYSDK_OFFSET(0xBCA0420)
 
-inline static constexpr unsigned int KHJOBJJNMNH_TypeDefinitionIndex = 54328;
+inline static constexpr unsigned int KHJOBJJNMNH_TypeDefinitionIndex = 55492;
 
 	class KHJOBJJNMNH : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_IJGFMIOCIOK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "KHJOBJJNMNH")->GetStaticField(0x54040);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "KHJOBJJNMNH")->GetStaticField(0x3D0E0);
 		}
 
 		static ::System::Void _cctor()

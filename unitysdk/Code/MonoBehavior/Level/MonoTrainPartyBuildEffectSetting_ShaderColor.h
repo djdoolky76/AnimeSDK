@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Material; }
 
-#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING_SHADERCOLOR_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xF0DD0)
+#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING_SHADERCOLOR_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xFC4D0)
 
 namespace Code::MonoBehavior::Level
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_ShaderColor_TypeDefinitionIndex = 50054;
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_ShaderColor_TypeDefinitionIndex = 51102;
 
 	struct alignas(8) MonoTrainPartyBuildEffectSetting_ShaderColor
 	{

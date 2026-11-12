@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int DFIFIHGHDFG_DownloadMetadata_TypeDefinitionIndex = 47412;
+inline static constexpr unsigned int DFIFIHGHDFG_DownloadMetadata_TypeDefinitionIndex = 48441;
 
 	struct alignas(8) DFIFIHGHDFG_DownloadMetadata
 	{

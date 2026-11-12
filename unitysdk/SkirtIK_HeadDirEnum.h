@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int SkirtIK_HeadDirEnum_TypeDefinitionIndex = 47253;
+inline static constexpr unsigned int SkirtIK_HeadDirEnum_TypeDefinitionIndex = 48281;
 
 	enum class SkirtIK_HeadDirEnum : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Diagnostics { class StackTrace; }
 
-inline static constexpr unsigned int BIAJAFADELL_TypeDefinitionIndex = 49287;
+inline static constexpr unsigned int BIAJAFADELL_TypeDefinitionIndex = 50363;
 
 	class BIAJAFADELL : public ::System::Object
 	{

@@ -8,24 +8,24 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define CJIANKCKLKA_CLEAR_OFFSET UNITYSDK_OFFSET(0xD212CA0)
-#define CJIANKCKLKA_CTOR_OFFSET UNITYSDK_OFFSET(0xD212EB0)
-#define CJIANKCKLKA_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xD2127D0)
-#define CJIANKCKLKA_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0xD212C20)
-#define CJIANKCKLKA_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xD2127E0)
-#define CJIANKCKLKA_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xD212C60)
+#define CJIANKCKLKA_CLEAR_OFFSET UNITYSDK_OFFSET(0xDB88850)
+#define CJIANKCKLKA_CTOR_OFFSET UNITYSDK_OFFSET(0xDB88A60)
+#define CJIANKCKLKA_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xDB88380)
+#define CJIANKCKLKA_ONCANCELSPAWN_OFFSET UNITYSDK_OFFSET(0xDB887D0)
+#define CJIANKCKLKA_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xDB88390)
+#define CJIANKCKLKA_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xDB88810)
 
-inline static constexpr unsigned int CJIANKCKLKA_TypeDefinitionIndex = 68662;
+inline static constexpr unsigned int CJIANKCKLKA_TypeDefinitionIndex = 70614;
 
 	class CJIANKCKLKA : public ::System::Object
 	{
 	public:
-		::RPG::Client::ElfFarmCellData* KJHODFDPOCG; // 0x10
-		::UnityEngine::Transform* HFLDHJHJNCF; // 0x18
+		::UnityEngine::GameObject* FAEGPGKBBLI; // 0x10
+		::UnityEngine::GameObject* BHOMJHDIOMH; // 0x18
 		::System::String* BFDAADMGNFD; // 0x20
-		::UnityEngine::GameObject* FAEGPGKBBLI; // 0x28
-		::System::String* PILMABHICEE; // 0x30
-		::UnityEngine::GameObject* BHOMJHDIOMH; // 0x38
+		::UnityEngine::Transform* HFLDHJHJNCF; // 0x28
+		::RPG::Client::ElfFarmCellData* KJHODFDPOCG; // 0x30
+		::System::String* PILMABHICEE; // 0x38
 		::UnityEngine::Quaternion FLNOBMJMDNG; // 0x40
 		::System::Void _ctor()
 		{

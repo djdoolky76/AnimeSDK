@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicBool; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICBOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6274F0)
-#define RPG_GAMECORE_DYNAMICBOOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D627330)
+#define RPG_GAMECORE_DYNAMICBOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E865360)
+#define RPG_GAMECORE_DYNAMICBOOL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8651A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicBool_TypeDefinitionIndex = 16480;
+	inline static constexpr unsigned int DynamicBool_TypeDefinitionIndex = 16644;
 
 	class DynamicBool : public ::RPG::GameCore::JsonConfig
 	{

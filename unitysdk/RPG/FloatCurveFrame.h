@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_FLOATCURVEFRAME_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3C4DB20)
+#define RPG_FLOATCURVEFRAME_COMPARETO_OFFSET UNITYSDK_OFFSET(0x3E9CF80)
 #define RPG_FLOATCURVEFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0xBA30)
 #define RPG_FLOATCURVEFRAME_GETTIME_OFFSET UNITYSDK_OFFSET(0x1D00)
 #define RPG_FLOATCURVEFRAME_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1D10)
 
 namespace RPG
 {
-	inline static constexpr unsigned int FloatCurveFrame_TypeDefinitionIndex = 6338;
+	inline static constexpr unsigned int FloatCurveFrame_TypeDefinitionIndex = 6345;
 
 	struct alignas(4) FloatCurveFrame
 	{

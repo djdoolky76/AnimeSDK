@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvTeamMembers; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EANBEPBCNKP_CTOR_OFFSET UNITYSDK_OFFSET(0x126837F0)
-#define EANBEPBCNKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12683840)
+#define EANBEPBCNKP_CTOR_OFFSET UNITYSDK_OFFSET(0x13475480)
+#define EANBEPBCNKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x134754D0)
 
-inline static constexpr unsigned int EANBEPBCNKP_TypeDefinitionIndex = 59082;
+inline static constexpr unsigned int EANBEPBCNKP_TypeDefinitionIndex = 60357;
 
 	class EANBEPBCNKP
 	{

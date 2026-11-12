@@ -3,7 +3,7 @@
 #include "unitysdk/IPAGLJGIIJB.h"
 #include "unitysdk/JNIKNNFPBEJ.h"
 
-inline static constexpr unsigned int COCKPNPKGNP_TypeDefinitionIndex = 47688;
+inline static constexpr unsigned int COCKPNPKGNP_TypeDefinitionIndex = 48718;
 
 	struct alignas(4) COCKPNPKGNP
 	{

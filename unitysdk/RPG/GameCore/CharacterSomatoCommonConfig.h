@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterSomatoCommonConfig; }
 namespace RPG::GameCore { class SomatoCommonCameraConfig; }
 
-#define RPG_GAMECORE_CHARACTERSOMATOCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D579460)
-#define RPG_GAMECORE_CHARACTERSOMATOCOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5793A0)
+#define RPG_GAMECORE_CHARACTERSOMATOCOMMONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78A250)
+#define RPG_GAMECORE_CHARACTERSOMATOCOMMONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E78A190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSomatoCommonConfig_TypeDefinitionIndex = 16556;
+	inline static constexpr unsigned int CharacterSomatoCommonConfig_TypeDefinitionIndex = 16722;
 
 	class CharacterSomatoCommonConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/RtSkillConditionMask.h"
 #include "unitysdk/System/Object.h"
 
-#define BCMNMFBNPIH_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x162E4110)
+#define BCMNMFBNPIH_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x170A9D90)
 
-inline static constexpr unsigned int BCMNMFBNPIH_TypeDefinitionIndex = 54054;
+inline static constexpr unsigned int BCMNMFBNPIH_TypeDefinitionIndex = 55218;
 
 	class BCMNMFBNPIH : public ::System::Object
 	{

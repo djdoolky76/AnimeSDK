@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class OpenTimeRewindSnapPage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E26E0)
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E26F0)
-#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E26B0)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAFB180)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAFB190)
+#define RPG_GAMECORE_OPENTIMEREWINDSNAPPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAFB150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenTimeRewindSnapPage_TypeDefinitionIndex = 20650;
+	inline static constexpr unsigned int OpenTimeRewindSnapPage_TypeDefinitionIndex = 20987;
 
 	class OpenTimeRewindSnapPage : public ::RPG::GameCore::TaskConfig
 	{

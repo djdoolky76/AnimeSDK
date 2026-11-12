@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define KGKHBCCDPIC_AABNJGJKPJN_OFFSET UNITYSDK_OFFSET(0xB3F5AE0)
+#define KGKHBCCDPIC_AABNJGJKPJN_OFFSET UNITYSDK_OFFSET(0xBC88A60)
 
-inline static constexpr unsigned int KGKHBCCDPIC_TypeDefinitionIndex = 60046;
+inline static constexpr unsigned int KGKHBCCDPIC_TypeDefinitionIndex = 61330;
 
 	class KGKHBCCDPIC : public ::System::Object
 	{

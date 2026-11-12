@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITaskLuaHack_TypeDefinitionIndex = 59396;
+	inline static constexpr unsigned int ITaskLuaHack_TypeDefinitionIndex = 60673;
 
 	class ITaskLuaHack
 	{

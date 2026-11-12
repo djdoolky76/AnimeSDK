@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define LPPIHKNHFGF_CTOR_OFFSET UNITYSDK_OFFSET(0xB836600)
+#define LPPIHKNHFGF_CTOR_OFFSET UNITYSDK_OFFSET(0xC097BB0)
 
-inline static constexpr unsigned int LPPIHKNHFGF_TypeDefinitionIndex = 47142;
+inline static constexpr unsigned int LPPIHKNHFGF_TypeDefinitionIndex = 48170;
 
 	class LPPIHKNHFGF : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* NOFKODKFNLM; // 0x10
 		::Il2CppArray<::System::Boolean>* AHINDEOHNML; // 0x18
-		::System::Single CLENBJBNOFB; // 0x20
-		::System::Int32 ELLCPPLOAHG; // 0x24
-		::System::Single IFEPJHGNCOI; // 0x28
-		::UnityEngine::Vector3 FEFNGEJLLMC; // 0x2C
+		::UnityEngine::Vector3 FEFNGEJLLMC; // 0x20
+		::System::Single CLENBJBNOFB; // 0x2C
+		::System::Int32 ELLCPPLOAHG; // 0x30
+		::System::Single IFEPJHGNCOI; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LPPIHKNHFGF_CTOR_OFFSET))(this);

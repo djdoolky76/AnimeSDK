@@ -10,12 +10,12 @@ namespace RPG::Client::CityCarFlow { class MonoCityCarIRI; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CREATEMANAGER_OFFSET UNITYSDK_OFFSET(0xCB72830)
-#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0xCB728C0)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CREATEMANAGER_OFFSET UNITYSDK_OFFSET(0xD4D6BD0)
+#define RPG_CLIENT_CITYCARFLOW_MONOCITYCARCONFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0xD4D6C40)
 
 namespace RPG::Client::CityCarFlow
 {
-	inline static constexpr unsigned int MonoCityCarConfigure_TypeDefinitionIndex = 82221;
+	inline static constexpr unsigned int MonoCityCarConfigure_TypeDefinitionIndex = 85094;
 
 	class MonoCityCarConfigure : public ::UnityEngine::MonoBehaviour
 	{

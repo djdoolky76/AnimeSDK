@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionCondition; }
 
-#define RPG_GAMECORE_MISSIONCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D884890)
-#define RPG_GAMECORE_MISSIONCONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D884790)
+#define RPG_GAMECORE_MISSIONCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9EC40)
+#define RPG_GAMECORE_MISSIONCONDITION_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA9EB40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCondition_TypeDefinitionIndex = 14135;
+	inline static constexpr unsigned int MissionCondition_TypeDefinitionIndex = 14292;
 
 	class MissionCondition : public ::System::Object
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PropStateExecute; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROPSTATEEXECUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D958DA0)
-#define RPG_GAMECORE_PROPSTATEEXECUTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D958DD0)
-#define RPG_GAMECORE_PROPSTATEEXECUTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D958D50)
+#define RPG_GAMECORE_PROPSTATEEXECUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB71340)
+#define RPG_GAMECORE_PROPSTATEEXECUTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB71370)
+#define RPG_GAMECORE_PROPSTATEEXECUTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB712F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateExecute_TypeDefinitionIndex = 20434;
+	inline static constexpr unsigned int PropStateExecute_TypeDefinitionIndex = 20769;
 
 	class PropStateExecute : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define DGOIODLDCEP_CTOR_OFFSET UNITYSDK_OFFSET(0xE85B950)
-#define DGOIODLDCEP_TRIGGER_OFFSET UNITYSDK_OFFSET(0xE85B960)
+#define DGOIODLDCEP_CTOR_OFFSET UNITYSDK_OFFSET(0xF42DF20)
+#define DGOIODLDCEP_TRIGGER_OFFSET UNITYSDK_OFFSET(0xF42DF30)
 
-inline static constexpr unsigned int DGOIODLDCEP_TypeDefinitionIndex = 66247;
+inline static constexpr unsigned int DGOIODLDCEP_TypeDefinitionIndex = 68183;
 
 	class DGOIODLDCEP : public ::System::Object
 	{

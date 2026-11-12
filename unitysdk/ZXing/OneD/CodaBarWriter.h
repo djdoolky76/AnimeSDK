@@ -3,35 +3,35 @@
 #include "unitysdk/ZXing/OneD/OneDimensionalCodeWriter.h"
 namespace System { class String; }
 
-#define ZXING_ONED_CODABARWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6B8460)
-#define ZXING_ONED_CODABARWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B75D0)
-#define ZXING_ONED_CODABARWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6B7900)
+#define ZXING_ONED_CODABARWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20967B80)
+#define ZXING_ONED_CODABARWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x20966D10)
+#define ZXING_ONED_CODABARWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x20967040)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int CodaBarWriter_TypeDefinitionIndex = 6977;
+	inline static constexpr unsigned int CodaBarWriter_TypeDefinitionIndex = 6988;
 
 	class CodaBarWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_CHARS_WHICH_ARE_TEN_LENGTH_EACH_AFTER_DECODED()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0x225F0);
-		}
-
 		static ::Il2CppArray<::System::Char>** StaticGet_START_END_CHARS()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0x225F8);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0x42EC0);
 		}
 
 		static ::Il2CppArray<::System::Char>** StaticGet_ALT_START_END_CHARS()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0x22600);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0x42EC8);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_CHARS_WHICH_ARE_TEN_LENGTH_EACH_AFTER_DECODED()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0x42ED0);
 		}
 
 		static ::System::Char* StaticGet_DEFAULT_GUARD()
 		{
-			return (::System::Char*)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0x7AC0);
+			return (::System::Char*)UnitySDK::FromName("ZXing.OneD", "CodaBarWriter")->GetStaticField(0xE250);
 		}
 
 		::System::Void _ctor()

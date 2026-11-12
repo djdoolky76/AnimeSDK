@@ -4,12 +4,12 @@
 namespace RPG::Client { class ExpeditionBattleFlyControl; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE49D40)
-#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL___C__DISPLAYCLASS4_0__PLAY_B__0_OFFSET UNITYSDK_OFFSET(0xCE49D60)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD811DA0)
+#define RPG_CLIENT_EXPEDITIONBATTLEFLYCONTROL___C__DISPLAYCLASS4_0__PLAY_B__0_OFFSET UNITYSDK_OFFSET(0xD811DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleFlyControl___c__DisplayClass4_0_TypeDefinitionIndex = 63961;
+	inline static constexpr unsigned int ExpeditionBattleFlyControl___c__DisplayClass4_0_TypeDefinitionIndex = 65403;
 
 	class ExpeditionBattleFlyControl___c__DisplayClass4_0 : public ::System::Object
 	{

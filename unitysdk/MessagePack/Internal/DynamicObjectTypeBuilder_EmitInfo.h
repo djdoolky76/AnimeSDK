@@ -3,38 +3,38 @@
 #include "unitysdk/System/Object.h"
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBA5BC0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_EMITINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD2EA40)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo_TypeDefinitionIndex = 7316;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_EmitInfo_TypeDefinitionIndex = 7327;
 
 	class DynamicObjectTypeBuilder_EmitInfo : public ::System::Object
 	{
 	public:
 		static ::System::Reflection::MethodInfo** StaticGet_ActivatorCreateInstance()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x25E90);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_TypeGetProperty()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x25E98);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_GetCustomAttributeMessagePackFormatterAttribute()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x25EA0);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_TypeGetField()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x25EA8);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x49180);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_GetTypeFromHandle()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x25EB0);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x49188);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_TypeGetField()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x49190);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_GetCustomAttributeMessagePackFormatterAttribute()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x49198);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_TypeGetProperty()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "EmitInfo")->GetStaticField(0x491A0);
 		}
 
 		static ::System::Void _cctor()

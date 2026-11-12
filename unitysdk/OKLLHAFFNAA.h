@@ -3,9 +3,9 @@
 #include "unitysdk/KCJOKGFPCDN.h"
 #include "unitysdk/System/Object.h"
 
-#define OKLLHAFFNAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DAD0)
+#define OKLLHAFFNAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5F9C0)
 
-inline static constexpr unsigned int OKLLHAFFNAA_TypeDefinitionIndex = 42778;
+inline static constexpr unsigned int OKLLHAFFNAA_TypeDefinitionIndex = 43757;
 
 	class OKLLHAFFNAA : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 class DFFLGKHHLLH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PEOIIAOBKML_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F7000)
-#define PEOIIAOBKML_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC1F7030)
+#define PEOIIAOBKML_CTOR_OFFSET UNITYSDK_OFFSET(0xCAD8970)
+#define PEOIIAOBKML_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCAD89A0)
 
-inline static constexpr unsigned int PEOIIAOBKML_TypeDefinitionIndex = 54161;
+inline static constexpr unsigned int PEOIIAOBKML_TypeDefinitionIndex = 55325;
 
 	class PEOIIAOBKML
 	{

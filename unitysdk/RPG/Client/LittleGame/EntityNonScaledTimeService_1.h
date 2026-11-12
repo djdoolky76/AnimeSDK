@@ -5,7 +5,7 @@ class KFJGDFIDKOI;
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int EntityNonScaledTimeService_1_TypeDefinitionIndex = 76485;
+	inline static constexpr unsigned int EntityNonScaledTimeService_1_TypeDefinitionIndex = 78816;
 
 	template <typename T>
 	class EntityNonScaledTimeService_1 : public ::System::Object

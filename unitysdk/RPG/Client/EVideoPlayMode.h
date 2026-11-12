@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EVideoPlayMode_TypeDefinitionIndex = 73214;
+	inline static constexpr unsigned int EVideoPlayMode_TypeDefinitionIndex = 75329;
 
 	enum class EVideoPlayMode : ::System::Int32
 	{

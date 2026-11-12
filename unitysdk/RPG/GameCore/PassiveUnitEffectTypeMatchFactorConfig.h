@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PassiveUnitEffectTypeMatchFactorConfig; }
 
-#define RPG_GAMECORE_PASSIVEUNITEFFECTTYPEMATCHFACTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F0B40)
-#define RPG_GAMECORE_PASSIVEUNITEFFECTTYPEMATCHFACTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F0A00)
+#define RPG_GAMECORE_PASSIVEUNITEFFECTTYPEMATCHFACTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0A110)
+#define RPG_GAMECORE_PASSIVEUNITEFFECTTYPEMATCHFACTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB09FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PassiveUnitEffectTypeMatchFactorConfig_TypeDefinitionIndex = 17924;
+	inline static constexpr unsigned int PassiveUnitEffectTypeMatchFactorConfig_TypeDefinitionIndex = 18093;
 
 	class PassiveUnitEffectTypeMatchFactorConfig : public ::RPG::GameCore::JsonConfig
 	{

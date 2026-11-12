@@ -6,21 +6,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class SByteFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB7FA40)
-#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7F980)
-#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB7F9A0)
-#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB7F990)
+#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD08750)
+#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD08690)
+#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD086B0)
+#define MESSAGEPACK_FORMATTERS_SBYTEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD086A0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int SByteFormatter_TypeDefinitionIndex = 7473;
+	inline static constexpr unsigned int SByteFormatter_TypeDefinitionIndex = 7484;
 
 	class SByteFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::SByteFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::SByteFormatter**)UnitySDK::FromName("MessagePack.Formatters", "SByteFormatter")->GetStaticField(0x254B0);
+			return (::MessagePack::Formatters::SByteFormatter**)UnitySDK::FromName("MessagePack.Formatters", "SByteFormatter")->GetStaticField(0x47AB0);
 		}
 
 		::System::Void _ctor()

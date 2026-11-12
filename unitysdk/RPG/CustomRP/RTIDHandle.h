@@ -3,16 +3,16 @@
 #include "unitysdk/UnityEngine/Rendering/RenderTargetIdentifier.h"
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_RTIDHANDLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC6BA60)
-#define RPG_CUSTOMRP_RTIDHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C356E0)
-#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C357C0)
-#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C35780)
-#define RPG_CUSTOMRP_RTIDHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE620)
-#define RPG_CUSTOMRP_RTIDHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0x3C356E0)
+#define RPG_CUSTOMRP_RTIDHANDLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE12EC0)
+#define RPG_CUSTOMRP_RTIDHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x3E84680)
+#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3E84760)
+#define RPG_CUSTOMRP_RTIDHANDLE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3E84720)
+#define RPG_CUSTOMRP_RTIDHANDLE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE600)
+#define RPG_CUSTOMRP_RTIDHANDLE_INIT_OFFSET UNITYSDK_OFFSET(0x3E84680)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RTIDHandle_TypeDefinitionIndex = 37577;
+	inline static constexpr unsigned int RTIDHandle_TypeDefinitionIndex = 38505;
 
 	struct alignas(4) RTIDHandle
 	{
@@ -22,7 +22,7 @@ namespace RPG::CustomRP
 		::System::Boolean IsCreate; // 0x40
 		static ::RPG::CustomRP::RTIDHandle* StaticGet_CameraTarget()
 		{
-			return (::RPG::CustomRP::RTIDHandle*)UnitySDK::FromName("RPG.CustomRP", "RTIDHandle")->GetStaticField(0xA8B0);
+			return (::RPG::CustomRP::RTIDHandle*)UnitySDK::FromName("RPG.CustomRP", "RTIDHandle")->GetStaticField(0x8AD0);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::Int32 a2)

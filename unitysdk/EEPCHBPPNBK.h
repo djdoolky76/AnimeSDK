@@ -4,15 +4,15 @@
 #include "unitysdk/ANOBAENCAOD.h"
 #include "unitysdk/System/Object.h"
 
-#define EEPCHBPPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0x13A41A60)
+#define EEPCHBPPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0x148023F0)
 
-inline static constexpr unsigned int EEPCHBPPNBK_TypeDefinitionIndex = 55693;
+inline static constexpr unsigned int EEPCHBPPNBK_TypeDefinitionIndex = 56895;
 
 	class EEPCHBPPNBK : public ::System::Object
 	{
 	public:
-		::System::Int32 GMDBHJKEAEI; // 0x10
-		::ANFHJIOJJMG MEPFOEEGBEA; // 0x14
+		::ANFHJIOJJMG MEPFOEEGBEA; // 0x10
+		::System::Int32 GMDBHJKEAEI; // 0x14
 		::ANOBAENCAOD GMPGDEINODK; // 0x18
 		::System::Void _ctor()
 		{

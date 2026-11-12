@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RollShopRewardRow; }
 
-#define RPG_GAMECORE_ROLLSHOPREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA46D60)
-#define RPG_GAMECORE_ROLLSHOPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA46C70)
+#define RPG_GAMECORE_ROLLSHOPREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC58F50)
+#define RPG_GAMECORE_ROLLSHOPREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC58E60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RollShopRewardRow_TypeDefinitionIndex = 15080;
+	inline static constexpr unsigned int RollShopRewardRow_TypeDefinitionIndex = 15236;
 
 	class RollShopRewardRow : public ::System::Object
 	{

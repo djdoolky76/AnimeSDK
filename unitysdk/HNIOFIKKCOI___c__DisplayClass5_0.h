@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
-#define HNIOFIKKCOI___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6716A0)
-#define HNIOFIKKCOI___C__DISPLAYCLASS5_0___FILTERCATVALUEMAPBYEXTREM_B__0_OFFSET UNITYSDK_OFFSET(0x1C674310)
+#define HNIOFIKKCOI___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F3160)
+#define HNIOFIKKCOI___C__DISPLAYCLASS5_0___FILTERCATVALUEMAPBYEXTREM_B__0_OFFSET UNITYSDK_OFFSET(0x1D7F5D50)
 
-inline static constexpr unsigned int HNIOFIKKCOI___c__DisplayClass5_0_TypeDefinitionIndex = 37340;
+inline static constexpr unsigned int HNIOFIKKCOI___c__DisplayClass5_0_TypeDefinitionIndex = 38268;
 
 	class HNIOFIKKCOI___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define IANEBBBBAHL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C68E100)
+#define IANEBBBBAHL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D80FB10)
 
-inline static constexpr unsigned int IANEBBBBAHL_TypeDefinitionIndex = 37054;
+inline static constexpr unsigned int IANEBBBBAHL_TypeDefinitionIndex = 37982;
 
 	class IANEBBBBAHL : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
-		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IANEBBBBAHL")->GetStaticField(0xABF0);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IANEBBBBAHL")->GetStaticField(0xABF8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IANEBBBBAHL")->GetStaticField(0xEB50);
+		}
+
+		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
+		{
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IANEBBBBAHL")->GetStaticField(0xEB58);
 		}
 
 		// static const ::System::Object KFAJCPCHJBF; // 0x0

@@ -4,7 +4,7 @@
 class CEEGMMCFCBG;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int CMDNDDNDAMF_TypeDefinitionIndex = 49855;
+inline static constexpr unsigned int CMDNDDNDAMF_TypeDefinitionIndex = 50903;
 
 	class CMDNDDNDAMF : public ::System::Object
 	{

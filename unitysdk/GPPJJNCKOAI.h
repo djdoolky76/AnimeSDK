@@ -3,9 +3,9 @@
 #include "unitysdk/IJOJHIFMDCN.h"
 #include "unitysdk/System/Object.h"
 
-#define GPPJJNCKOAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB5700)
+#define GPPJJNCKOAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC790E0)
 
-inline static constexpr unsigned int GPPJJNCKOAI_TypeDefinitionIndex = 42214;
+inline static constexpr unsigned int GPPJJNCKOAI_TypeDefinitionIndex = 43189;
 
 	class GPPJJNCKOAI : public ::System::Object
 	{

@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_RENDERING_SDFATLASDATA_COAMHPGKHMK_OFFSET UNITYSDK_OFFSET(0xE8822B0)
-#define RPG_RENDERING_SDFATLASDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE882D50)
-#define RPG_RENDERING_SDFATLASDATA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xE881E20)
+#define RPG_RENDERING_SDFATLASDATA_COAMHPGKHMK_OFFSET UNITYSDK_OFFSET(0xF34F6B0)
+#define RPG_RENDERING_SDFATLASDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF350150)
+#define RPG_RENDERING_SDFATLASDATA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xF34F220)
 
 namespace RPG::Rendering
 {
-	inline static constexpr unsigned int SDFAtlasData_TypeDefinitionIndex = 51795;
+	inline static constexpr unsigned int SDFAtlasData_TypeDefinitionIndex = 52881;
 
 	class SDFAtlasData : public ::UnityEngine::ScriptableObject
 	{

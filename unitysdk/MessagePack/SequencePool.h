@@ -8,15 +8,15 @@ namespace System { class Object; }
 namespace System::Buffers { template <typename T> class ArrayPool_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define MESSAGEPACK_SEQUENCEPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBD5D20)
-#define MESSAGEPACK_SEQUENCEPOOL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1BBD5860)
-#define MESSAGEPACK_SEQUENCEPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD57C0)
-#define MESSAGEPACK_SEQUENCEPOOL_RENT_OFFSET UNITYSDK_OFFSET(0x1BBD58D0)
-#define MESSAGEPACK_SEQUENCEPOOL_RETURN_OFFSET UNITYSDK_OFFSET(0x1BBD5BE0)
+#define MESSAGEPACK_SEQUENCEPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD5EC90)
+#define MESSAGEPACK_SEQUENCEPOOL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CD5E7D0)
+#define MESSAGEPACK_SEQUENCEPOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD5E730)
+#define MESSAGEPACK_SEQUENCEPOOL_RENT_OFFSET UNITYSDK_OFFSET(0x1CD5E840)
+#define MESSAGEPACK_SEQUENCEPOOL_RETURN_OFFSET UNITYSDK_OFFSET(0x1CD5EB50)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SequencePool_TypeDefinitionIndex = 7241;
+	inline static constexpr unsigned int SequencePool_TypeDefinitionIndex = 7252;
 
 	class SequencePool : public ::System::Object
 	{
@@ -26,7 +26,7 @@ namespace MessagePack
 		::System::Int32 maxSize; // 0x20
 		static ::MessagePack::SequencePool** StaticGet_Shared()
 		{
-			return (::MessagePack::SequencePool**)UnitySDK::FromName("MessagePack", "SequencePool")->GetStaticField(0x2CA20);
+			return (::MessagePack::SequencePool**)UnitySDK::FromName("MessagePack", "SequencePool")->GetStaticField(0x4EF90);
 		}
 
 		::System::Void _ctor()

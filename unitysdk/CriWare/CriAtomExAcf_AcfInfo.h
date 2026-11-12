@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomExAcf_CharacterEncoding.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_ACFINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8B0B0)
+#define CRIWARE_CRIATOMEXACF_ACFINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x305D6E0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfInfo_TypeDefinitionIndex = 40036;
+	inline static constexpr unsigned int CriAtomExAcf_AcfInfo_TypeDefinitionIndex = 41011;
 
 	struct alignas(8) CriAtomExAcf_AcfInfo
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMIHMGNLBPN.h"
 
-#define CPCLGIIPKGM_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCFFA0)
-#define CPCLGIIPKGM_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xDCCFDF0)
+#define CPCLGIIPKGM_CTOR_OFFSET UNITYSDK_OFFSET(0xE61C850)
+#define CPCLGIIPKGM_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xE61C6B0)
 
-inline static constexpr unsigned int CPCLGIIPKGM_TypeDefinitionIndex = 66512;
+inline static constexpr unsigned int CPCLGIIPKGM_TypeDefinitionIndex = 68448;
 
 	class CPCLGIIPKGM : public ::FMIHMGNLBPN
 	{

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightHandBookRewardRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D731B80)
-#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D731A30)
+#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E93DDF0)
+#define RPG_GAMECORE_GRIDFIGHTHANDBOOKREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E93DCA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightHandBookRewardRow_TypeDefinitionIndex = 13575;
+	inline static constexpr unsigned int GridFightHandBookRewardRow_TypeDefinitionIndex = 13684;
 
 	class GridFightHandBookRewardRow : public ::System::Object
 	{

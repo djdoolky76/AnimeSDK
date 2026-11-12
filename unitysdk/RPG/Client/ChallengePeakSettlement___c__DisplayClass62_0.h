@@ -4,12 +4,12 @@
 namespace Proto { class Item; }
 namespace RPG::Client { class ItemDisplayData; }
 
-#define RPG_CLIENT_CHALLENGEPEAKSETTLEMENT___C__DISPLAYCLASS62_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9B53F0)
-#define RPG_CLIENT_CHALLENGEPEAKSETTLEMENT___C__DISPLAYCLASS62_0___GENERATEREWARDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xC9B5400)
+#define RPG_CLIENT_CHALLENGEPEAKSETTLEMENT___C__DISPLAYCLASS62_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD31A6B0)
+#define RPG_CLIENT_CHALLENGEPEAKSETTLEMENT___C__DISPLAYCLASS62_0___GENERATEREWARDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xD31A6C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakSettlement___c__DisplayClass62_0_TypeDefinitionIndex = 63190;
+	inline static constexpr unsigned int ChallengePeakSettlement___c__DisplayClass62_0_TypeDefinitionIndex = 64628;
 
 	class ChallengePeakSettlement___c__DisplayClass62_0 : public ::System::Object
 	{

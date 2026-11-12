@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_LOGINMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD4A8180)
-#define RPG_CLIENT_LOGINMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD4A81C0)
-#define RPG_CLIENT_LOGINMODULE___C___ONCMDREGIONSTOPSCNOTIFY_B__15_0_OFFSET UNITYSDK_OFFSET(0xD4A81D0)
+#define RPG_CLIENT_LOGINMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF16540)
+#define RPG_CLIENT_LOGINMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF16580)
+#define RPG_CLIENT_LOGINMODULE___C___ONCMDREGIONSTOPSCNOTIFY_B__15_0_OFFSET UNITYSDK_OFFSET(0xDF16590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginModule___c_TypeDefinitionIndex = 65785;
+	inline static constexpr unsigned int LoginModule___c_TypeDefinitionIndex = 67717;
 
 	class LoginModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A540);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47D00);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A548);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x47D08);
 		}
 
 		static ::System::Void _cctor()

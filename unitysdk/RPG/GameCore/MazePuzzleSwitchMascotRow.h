@@ -7,26 +7,26 @@ class KOJOJDPPIEO;
 namespace RPG::GameCore { class MazePuzzleSwitchMascotRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLESWITCHMASCOTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86F430)
-#define RPG_GAMECORE_MAZEPUZZLESWITCHMASCOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D86F050)
+#define RPG_GAMECORE_MAZEPUZZLESWITCHMASCOTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA89A50)
+#define RPG_GAMECORE_MAZEPUZZLESWITCHMASCOTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA89670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleSwitchMascotRow_TypeDefinitionIndex = 14094;
+	inline static constexpr unsigned int MazePuzzleSwitchMascotRow_TypeDefinitionIndex = 14251;
 
 	class MazePuzzleSwitchMascotRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::KOJOJDPPIEO*>* Section1LoadEntityList; // 0x10
-		::Il2CppArray<::GIAKECJMGIF*>* CoinPropID; // 0x18
-		::Il2CppArray<::System::UInt32>* ControllerBlackHoleID; // 0x20
-		::Il2CppArray<::KOJOJDPPIEO*>* Section3LoadEntityList; // 0x28
-		::Il2CppArray<::System::UInt32>* EntryBlackHoleID; // 0x30
-		::Il2CppArray<::KOJOJDPPIEO*>* Section2LoadEntityList; // 0x38
-		::System::String* ColliderPath; // 0x40
-		::Il2CppArray<::System::UInt32>* ChestID; // 0x48
-		::System::UInt32 SwitchID; // 0x50
-		::System::UInt32 FloorID; // 0x54
+		::Il2CppArray<::System::UInt32>* EntryBlackHoleID; // 0x10
+		::Il2CppArray<::KOJOJDPPIEO*>* Section3LoadEntityList; // 0x18
+		::Il2CppArray<::KOJOJDPPIEO*>* Section2LoadEntityList; // 0x20
+		::Il2CppArray<::System::UInt32>* ChestID; // 0x28
+		::Il2CppArray<::KOJOJDPPIEO*>* Section1LoadEntityList; // 0x30
+		::System::String* ColliderPath; // 0x38
+		::Il2CppArray<::GIAKECJMGIF*>* CoinPropID; // 0x40
+		::Il2CppArray<::System::UInt32>* ControllerBlackHoleID; // 0x48
+		::System::UInt32 FloorID; // 0x50
+		::System::UInt32 SwitchID; // 0x54
 		::System::UInt32 PlaneID; // 0x58
 		::System::Void _ctor()
 		{

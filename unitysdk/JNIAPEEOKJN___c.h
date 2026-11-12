@@ -4,18 +4,18 @@
 class JNIAPEEOKJN;
 namespace System { class Object; }
 
-#define JNIAPEEOKJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E798240)
-#define JNIAPEEOKJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E798280)
-#define JNIAPEEOKJN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E798290)
+#define JNIAPEEOKJN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAC70A0)
+#define JNIAPEEOKJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAC70E0)
+#define JNIAPEEOKJN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FAC70F0)
 
-inline static constexpr unsigned int JNIAPEEOKJN___c_TypeDefinitionIndex = 31474;
+inline static constexpr unsigned int JNIAPEEOKJN___c_TypeDefinitionIndex = 32387;
 
 	class JNIAPEEOKJN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C8C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56FE0);
 		}
 
 		static ::System::Void _cctor()

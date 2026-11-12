@@ -4,18 +4,18 @@
 class EHPLFHLNMIF;
 namespace System { class Object; }
 
-#define EHPLFHLNMIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A3B10)
-#define EHPLFHLNMIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A3B40)
-#define EHPLFHLNMIF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2A3B50)
+#define EHPLFHLNMIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F586C20)
+#define EHPLFHLNMIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F586C50)
+#define EHPLFHLNMIF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F586C60)
 
-inline static constexpr unsigned int EHPLFHLNMIF___c_TypeDefinitionIndex = 28132;
+inline static constexpr unsigned int EHPLFHLNMIF___c_TypeDefinitionIndex = 28722;
 
 	class EHPLFHLNMIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48B70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42200);
 		}
 
 		static ::System::Void _cctor()

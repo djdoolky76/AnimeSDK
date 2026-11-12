@@ -6,22 +6,22 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class CharacterInputData; }
 
-#define FEIBCGELFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156F2B80)
-#define FEIBCGELFAJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x156F2B10)
+#define FEIBCGELFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1660CD20)
+#define FEIBCGELFAJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1660CCB0)
 
-inline static constexpr unsigned int FEIBCGELFAJ_TypeDefinitionIndex = 57100;
+inline static constexpr unsigned int FEIBCGELFAJ_TypeDefinitionIndex = 58329;
 
 	class FEIBCGELFAJ : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::CharacterInputData* IEALNDAHMBG; // 0x10
-		::UnityEngine::RaycastHit NAFAJIMJFEL; // 0x18
-		::UnityEngine::Vector3 OAKCBDDKNKL; // 0x48
-		::System::Boolean LCEIFCIKKAN; // 0x54
-		::System::Boolean KNIDMFAAIFN; // 0x55
-		::System::Boolean OPOKHGOBMDI; // 0x56
+		::UnityEngine::Quaternion HGLBGLANIIO; // 0x18
+		::UnityEngine::Vector3 OAKCBDDKNKL; // 0x28
+		::UnityEngine::RaycastHit NAFAJIMJFEL; // 0x34
+		::System::Boolean LCEIFCIKKAN; // 0x64
+		::System::Boolean OPOKHGOBMDI; // 0x65
+		::System::Boolean KNIDMFAAIFN; // 0x66
 		::System::Byte _padding0[0x1];
-		::UnityEngine::Quaternion HGLBGLANIIO; // 0x58
 		::UnityEngine::Vector3 GABNHNIMFIB; // 0x68
 		::System::Void _ctor()
 		{

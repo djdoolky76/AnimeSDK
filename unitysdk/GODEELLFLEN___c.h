@@ -4,18 +4,18 @@
 class GODEELLFLEN;
 namespace System { class Object; }
 
-#define GODEELLFLEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4EDDE0)
-#define GODEELLFLEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4EDE20)
-#define GODEELLFLEN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4EDE30)
+#define GODEELLFLEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F800710)
+#define GODEELLFLEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F800750)
+#define GODEELLFLEN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F800760)
 
-inline static constexpr unsigned int GODEELLFLEN___c_TypeDefinitionIndex = 28753;
+inline static constexpr unsigned int GODEELLFLEN___c_TypeDefinitionIndex = 29343;
 
 	class GODEELLFLEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B090);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C730);
 		}
 
 		static ::System::Void _cctor()

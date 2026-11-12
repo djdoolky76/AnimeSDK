@@ -4,15 +4,15 @@
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define LJDINJEOLCC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E18E0)
+#define LJDINJEOLCC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7C9E0)
 
-inline static constexpr unsigned int LJDINJEOLCC_TypeDefinitionIndex = 64782;
+inline static constexpr unsigned int LJDINJEOLCC_TypeDefinitionIndex = 66326;
 
 	class LJDINJEOLCC : public ::System::Object
 	{
 	public:
-		::System::String* ShareCode; // 0x10
-		::PMDPEENJIHC* Base; // 0x18
+		::PMDPEENJIHC* Base; // 0x10
+		::System::String* ShareCode; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJDINJEOLCC_CTOR_OFFSET))(this);

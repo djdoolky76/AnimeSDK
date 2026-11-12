@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DADCLCMLNNF_PlayState_TypeDefinitionIndex = 71349;
+inline static constexpr unsigned int DADCLCMLNNF_PlayState_TypeDefinitionIndex = 73326;
 
 	enum class DADCLCMLNNF_PlayState : ::System::Int32
 	{

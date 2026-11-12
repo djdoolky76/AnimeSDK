@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetRemoveUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ACFAOPKCPBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB11C9E0)
-#define ACFAOPKCPBD_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB11CA00)
+#define ACFAOPKCPBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB782C70)
+#define ACFAOPKCPBD_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB782C90)
 
-inline static constexpr unsigned int ACFAOPKCPBD_TypeDefinitionIndex = 59143;
+inline static constexpr unsigned int ACFAOPKCPBD_TypeDefinitionIndex = 60419;
 
 	class ACFAOPKCPBD
 	{

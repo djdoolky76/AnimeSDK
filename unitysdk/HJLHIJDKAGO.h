@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WhiteBoxFuncCommand; }
 
-#define HJLHIJDKAGO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D2E640)
-#define HJLHIJDKAGO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D2E650)
-#define HJLHIJDKAGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D2E690)
-#define HJLHIJDKAGO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D2E820)
-#define HJLHIJDKAGO_TICK_OFFSET UNITYSDK_OFFSET(0x15D2E870)
+#define HJLHIJDKAGO_CTOR_OFFSET UNITYSDK_OFFSET(0x16C7E5A0)
+#define HJLHIJDKAGO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C7E5B0)
+#define HJLHIJDKAGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C7E5F0)
+#define HJLHIJDKAGO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16C7E780)
+#define HJLHIJDKAGO_TICK_OFFSET UNITYSDK_OFFSET(0x16C7E7D0)
 
-inline static constexpr unsigned int HJLHIJDKAGO_TypeDefinitionIndex = 55815;
+inline static constexpr unsigned int HJLHIJDKAGO_TypeDefinitionIndex = 57018;
 
 	class HJLHIJDKAGO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WhiteBoxFuncCommand* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::WhiteBoxFuncCommand* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WhiteBoxFuncCommand* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WhiteBoxFuncCommand*))((::PBYTE)hIl2Cpp + HJLHIJDKAGO_CTOR_OFFSET))(this, a1, a2);

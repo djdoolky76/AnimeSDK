@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameCustomLoadConditionType_TypeDefinitionIndex = 18865;
+	inline static constexpr unsigned int LittleGameCustomLoadConditionType_TypeDefinitionIndex = 19027;
 
 	enum class LittleGameCustomLoadConditionType : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define NGIOCFNJNKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA9E70)
-#define NGIOCFNJNKB_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xBBA9E50)
-#define NGIOCFNJNKB_GET_TIMEOUTMS_OFFSET UNITYSDK_OFFSET(0xBBA9E60)
+#define NGIOCFNJNKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC4855F0)
+#define NGIOCFNJNKB_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xC4855D0)
+#define NGIOCFNJNKB_GET_TIMEOUTMS_OFFSET UNITYSDK_OFFSET(0xC4855E0)
 
-inline static constexpr unsigned int NGIOCFNJNKB_TypeDefinitionIndex = 69404;
+inline static constexpr unsigned int NGIOCFNJNKB_TypeDefinitionIndex = 71358;
 
 	class NGIOCFNJNKB : public ::System::Exception
 	{

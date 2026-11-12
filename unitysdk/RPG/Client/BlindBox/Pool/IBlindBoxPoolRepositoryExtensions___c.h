@@ -5,31 +5,31 @@ namespace RPG::Client::BlindBox::Pool { class IBlindBoxPool; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC88DBA0)
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC88DBE0)
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C__GETALLOPEN_B__0_0_OFFSET UNITYSDK_OFFSET(0xC88DBF0)
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C__GETFIRSTOPEN_B__1_0_OFFSET UNITYSDK_OFFSET(0xC88DC10)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1F3100)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1F3140)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C__GETALLOPEN_B__0_0_OFFSET UNITYSDK_OFFSET(0xD1F3150)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS___C__GETFIRSTOPEN_B__1_0_OFFSET UNITYSDK_OFFSET(0xD1F3170)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int IBlindBoxPoolRepositoryExtensions___c_TypeDefinitionIndex = 74951;
+	inline static constexpr unsigned int IBlindBoxPoolRepositoryExtensions___c_TypeDefinitionIndex = 77278;
 
 	class IBlindBoxPoolRepositoryExtensions___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::BlindBox::Pool::IBlindBoxPool*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::BlindBox::Pool::IBlindBoxPool*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x5E100);
+			return (::System::Func_2<::RPG::Client::BlindBox::Pool::IBlindBoxPool*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x5BE10);
 		}
 
 		static ::System::Func_2<::RPG::Client::BlindBox::Pool::IBlindBoxPool*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::BlindBox::Pool::IBlindBoxPool*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x5E108);
+			return (::System::Func_2<::RPG::Client::BlindBox::Pool::IBlindBoxPool*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x5BE18);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x5E110);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Pool", "<>c")->GetStaticField(0x5BE20);
 		}
 
 		static ::System::Void _cctor()

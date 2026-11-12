@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AttackEffect_Cutout; }
 
-#define JFOPOHEEOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4ED0)
-#define JFOPOHEEOKP_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F4EE0)
+#define JFOPOHEEOKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D876930)
+#define JFOPOHEEOKP_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D876940)
 
-inline static constexpr unsigned int JFOPOHEEOKP_TypeDefinitionIndex = 36310;
+inline static constexpr unsigned int JFOPOHEEOKP_TypeDefinitionIndex = 37238;
 
 	class JFOPOHEEOKP : public ::AJBKGPOEBFG
 	{

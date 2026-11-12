@@ -4,18 +4,18 @@
 class AMEEHIIPMFP;
 namespace System { class Object; }
 
-#define AMEEHIIPMFP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E51C970)
-#define AMEEHIIPMFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E51C9A0)
-#define AMEEHIIPMFP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E51C9B0)
+#define AMEEHIIPMFP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7D7330)
+#define AMEEHIIPMFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7D7360)
+#define AMEEHIIPMFP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1F7D7370)
 
-inline static constexpr unsigned int AMEEHIIPMFP___c_TypeDefinitionIndex = 29638;
+inline static constexpr unsigned int AMEEHIIPMFP___c_TypeDefinitionIndex = 30448;
 
 	class AMEEHIIPMFP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B880);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F410);
 		}
 
 		static ::System::Void _cctor()

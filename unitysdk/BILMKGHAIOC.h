@@ -7,9 +7,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define BILMKGHAIOC_CFOOBPHMJJC_OFFSET UNITYSDK_OFFSET(0x3C2F300)
+#define BILMKGHAIOC_CFOOBPHMJJC_OFFSET UNITYSDK_OFFSET(0x3E7E2E0)
 
-inline static constexpr unsigned int BILMKGHAIOC_TypeDefinitionIndex = 43259;
+inline static constexpr unsigned int BILMKGHAIOC_TypeDefinitionIndex = 44240;
 
 	struct alignas(4) BILMKGHAIOC
 	{

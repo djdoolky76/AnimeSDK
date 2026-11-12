@@ -3,7 +3,7 @@
 #include "unitysdk/System/IO/FileAttributes.h"
 #include "unitysdk/System/Runtime/InteropServices/ComTypes/FILETIME.h"
 
-inline static constexpr unsigned int DNKAAIFEKNP_DEPOGPDKGGN_TypeDefinitionIndex = 59981;
+inline static constexpr unsigned int DNKAAIFEKNP_DEPOGPDKGGN_TypeDefinitionIndex = 61265;
 
 	struct alignas(4) DNKAAIFEKNP_DEPOGPDKGGN
 	{

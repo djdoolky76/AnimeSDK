@@ -10,33 +10,33 @@
 namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEF0E30)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C57CC0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_2_OFFSET UNITYSDK_OFFSET(0x3C57F80)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_3_OFFSET UNITYSDK_OFFSET(0x3C57F90)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_4_OFFSET UNITYSDK_OFFSET(0x3C57FC0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_OFFSET UNITYSDK_OFFSET(0x3C57CB0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_DAY_OFFSET UNITYSDK_OFFSET(0x3C1BE80)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_FRACTION_OFFSET UNITYSDK_OFFSET(0x3C57FF0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_HOUR_OFFSET UNITYSDK_OFFSET(0x3C1BFD0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_INTERNALKIND_OFFSET UNITYSDK_OFFSET(0x3C18FE0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_INTERNALTYPECODE_OFFSET UNITYSDK_OFFSET(0x3C57FE0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0x3C1C0A0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_MONTH_OFFSET UNITYSDK_OFFSET(0x3C1C0E0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_SECOND_OFFSET UNITYSDK_OFFSET(0x3C1C210)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_YEAR_OFFSET UNITYSDK_OFFSET(0x3C1C290)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_ZONEHOUR_OFFSET UNITYSDK_OFFSET(0x22B40)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_ZONEMINUTE_OFFSET UNITYSDK_OFFSET(0x211E0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_INITIATEXSDDATETIME_OFFSET UNITYSDK_OFFSET(0x3C57E20)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_INTTOCHARARRAY_OFFSET UNITYSDK_OFFSET(0x3C58300)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x1EED83B0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1EED71F0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PRINTDATE_OFFSET UNITYSDK_OFFSET(0x3C582D0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PRINTTIME_OFFSET UNITYSDK_OFFSET(0x3C582E0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_PRINTZONE_OFFSET UNITYSDK_OFFSET(0x3C582F0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_SHORTTOCHARARRAY_OFFSET UNITYSDK_OFFSET(0x3C58390)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C582C0)
-#define SYSTEM_XML_SCHEMA_XSDDATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EEEF7A0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_CCTOR_OFFSET UNITYSDK_OFFSET(0x201A05E0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3EA7140)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_2_OFFSET UNITYSDK_OFFSET(0x3EA7400)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_3_OFFSET UNITYSDK_OFFSET(0x3EA7410)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_4_OFFSET UNITYSDK_OFFSET(0x3EA7440)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_CTOR_OFFSET UNITYSDK_OFFSET(0x3EA7130)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_DAY_OFFSET UNITYSDK_OFFSET(0x3E6ADE0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_FRACTION_OFFSET UNITYSDK_OFFSET(0x3EA7460)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_HOUR_OFFSET UNITYSDK_OFFSET(0x3E6AF30)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_INTERNALKIND_OFFSET UNITYSDK_OFFSET(0x304ACC0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_INTERNALTYPECODE_OFFSET UNITYSDK_OFFSET(0x304ACD0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_MINUTE_OFFSET UNITYSDK_OFFSET(0x3E6B000)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_MONTH_OFFSET UNITYSDK_OFFSET(0x3E6B040)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_SECOND_OFFSET UNITYSDK_OFFSET(0x3E6B170)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_YEAR_OFFSET UNITYSDK_OFFSET(0x3E6B1F0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_ZONEHOUR_OFFSET UNITYSDK_OFFSET(0x28060)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_GET_ZONEMINUTE_OFFSET UNITYSDK_OFFSET(0x264F0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_INITIATEXSDDATETIME_OFFSET UNITYSDK_OFFSET(0x3EA72A0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_INTTOCHARARRAY_OFFSET UNITYSDK_OFFSET(0x3EA7770)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_OP_IMPLICIT_1_OFFSET UNITYSDK_OFFSET(0x20187B70)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x201869B0)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PRINTDATE_OFFSET UNITYSDK_OFFSET(0x3EA7740)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PRINTTIME_OFFSET UNITYSDK_OFFSET(0x3EA7750)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_PRINTZONE_OFFSET UNITYSDK_OFFSET(0x3EA7760)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_SHORTTOCHARARRAY_OFFSET UNITYSDK_OFFSET(0x3EA7800)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3EA7730)
+#define SYSTEM_XML_SCHEMA_XSDDATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x2019EF50)
 
 namespace System::Xml::Schema
 {
@@ -48,117 +48,117 @@ namespace System::Xml::Schema
 		::System::UInt32 extra; // 0x18
 		static ::Il2CppArray<::System::Xml::Schema::XmlTypeCode>** StaticGet_typeCodes()
 		{
-			return (::Il2CppArray<::System::Xml::Schema::XmlTypeCode>**)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x25790);
-		}
-
-		static ::System::Int32* StaticGet_Lz___dd()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81E0);
-		}
-
-		static ::System::Int32* StaticGet_Lz_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81E4);
-		}
-
-		static ::System::Int32* StaticGet_Lz_zz_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81E8);
-		}
-
-		static ::System::Int32* StaticGet_Lz__mm__()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81EC);
-		}
-
-		static ::System::Int32* StaticGet_Lz___()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81F0);
-		}
-
-		static ::System::Int32* StaticGet_Lz__mm()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81F4);
-		}
-
-		static ::System::Int32* StaticGet_LzHH_mm()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81F8);
-		}
-
-		static ::System::Int32* StaticGet_Lz__()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x81FC);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy_MM_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8200);
-		}
-
-		static ::System::Int32* StaticGet_LzHH_mm_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8204);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy_MM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8208);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy_MM_ddT()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x820C);
-		}
-
-		static ::System::Int32* StaticGet_Lz_zz_zz()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8210);
-		}
-
-		static ::System::Int32* StaticGet_LzHH_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8214);
-		}
-
-		static ::System::Int32* StaticGet_Lz_zz()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8218);
+			return (::Il2CppArray<::System::Xml::Schema::XmlTypeCode>**)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x2FE40);
 		}
 
 		static ::System::Int32* StaticGet_LzHH_mm_ss()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x821C);
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA160);
 		}
 
-		static ::System::Int32* StaticGet_LzHH()
+		static ::System::Int32* StaticGet_Lz__mm()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8220);
-		}
-
-		static ::System::Int32* StaticGet_Lz__mm_dd()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8224);
-		}
-
-		static ::System::Int32* StaticGet_Lz__mm_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8228);
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA164);
 		}
 
 		static ::System::Int32* StaticGet_Lzyyyy_()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x822C);
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA168);
+		}
+
+		static ::System::Int32* StaticGet_Lz_zz_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA16C);
 		}
 
 		static ::System::Int32* StaticGet_Lzyyyy_MM_dd()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8230);
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA170);
+		}
+
+		static ::System::Int32* StaticGet_Lz___()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA174);
 		}
 
 		static ::System::Int32* StaticGet_Lzyyyy()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0x8234);
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA178);
+		}
+
+		static ::System::Int32* StaticGet_LzHH_mm()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA17C);
+		}
+
+		static ::System::Int32* StaticGet_Lz___dd()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA180);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy_MM_ddT()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA184);
+		}
+
+		static ::System::Int32* StaticGet_Lz__()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA188);
+		}
+
+		static ::System::Int32* StaticGet_Lz_zz()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA18C);
+		}
+
+		static ::System::Int32* StaticGet_LzHH_mm_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA190);
+		}
+
+		static ::System::Int32* StaticGet_Lz__mm__()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA194);
+		}
+
+		static ::System::Int32* StaticGet_Lz_zz_zz()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA198);
+		}
+
+		static ::System::Int32* StaticGet_LzHH_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA19C);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy_MM_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA1A0);
+		}
+
+		static ::System::Int32* StaticGet_Lz__mm_dd()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA1A4);
+		}
+
+		static ::System::Int32* StaticGet_Lz__mm_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA1A8);
+		}
+
+		static ::System::Int32* StaticGet_Lz_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA1AC);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy_MM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA1B0);
+		}
+
+		static ::System::Int32* StaticGet_LzHH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Xml.Schema", "XsdDateTime")->GetStaticField(0xA1B4);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::Xml::Schema::XsdDateTimeFlags a2)

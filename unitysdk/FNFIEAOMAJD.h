@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetUpTrainVisitorDialogue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNFIEAOMAJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1586E6D0)
-#define FNFIEAOMAJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1586E700)
+#define FNFIEAOMAJD_CTOR_OFFSET UNITYSDK_OFFSET(0x167E0E50)
+#define FNFIEAOMAJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x167E0E80)
 
-inline static constexpr unsigned int FNFIEAOMAJD_TypeDefinitionIndex = 53260;
+inline static constexpr unsigned int FNFIEAOMAJD_TypeDefinitionIndex = 54422;
 
 	class FNFIEAOMAJD
 	{

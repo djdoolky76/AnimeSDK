@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DailyMissionCountRow; }
 
-#define RPG_GAMECORE_DAILYMISSIONCOUNTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EE630)
-#define RPG_GAMECORE_DAILYMISSIONCOUNTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5EE4C0)
+#define RPG_GAMECORE_DAILYMISSIONCOUNTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E800630)
+#define RPG_GAMECORE_DAILYMISSIONCOUNTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8004C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DailyMissionCountRow_TypeDefinitionIndex = 13121;
+	inline static constexpr unsigned int DailyMissionCountRow_TypeDefinitionIndex = 13189;
 
 	class DailyMissionCountRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 DailyCount; // 0x10
-		::System::UInt32 DailyMissionType; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 DailyCount; // 0x14
+		::System::UInt32 DailyMissionType; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DAILYMISSIONCOUNTROW_CTOR_OFFSET))(this);

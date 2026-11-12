@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitFiveDimTeleportFinish; }
 
-#define IGGNJFGHFPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1640D400)
-#define IGGNJFGHFPK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1640DA70)
-#define IGGNJFGHFPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1640DAC0)
-#define IGGNJFGHFPK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1640DC40)
-#define IGGNJFGHFPK_PNNKENJOEMH_OFFSET UNITYSDK_OFFSET(0x1640DB10)
-#define IGGNJFGHFPK_TICK_OFFSET UNITYSDK_OFFSET(0x1640DC90)
+#define IGGNJFGHFPK_CTOR_OFFSET UNITYSDK_OFFSET(0x173BDA90)
+#define IGGNJFGHFPK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173BDAA0)
+#define IGGNJFGHFPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173BDAF0)
+#define IGGNJFGHFPK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x173BDC70)
+#define IGGNJFGHFPK_PNNKENJOEMH_OFFSET UNITYSDK_OFFSET(0x173BDB40)
+#define IGGNJFGHFPK_TICK_OFFSET UNITYSDK_OFFSET(0x173BDCC0)
 
-inline static constexpr unsigned int IGGNJFGHFPK_TypeDefinitionIndex = 52898;
+inline static constexpr unsigned int IGGNJFGHFPK_TypeDefinitionIndex = 54054;
 
 	class IGGNJFGHFPK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaitFiveDimTeleportFinish* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaitFiveDimTeleportFinish* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitFiveDimTeleportFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitFiveDimTeleportFinish*))((::PBYTE)hIl2Cpp + IGGNJFGHFPK_CTOR_OFFSET))(this, a1, a2);

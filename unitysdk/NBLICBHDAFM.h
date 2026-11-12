@@ -7,18 +7,18 @@ class FCOEMCEDLNL;
 class NBLICBHDAFM;
 namespace System { class String; }
 
-#define NBLICBHDAFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F0900)
-#define NBLICBHDAFM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1F0910)
-#define NBLICBHDAFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F08D0)
+#define NBLICBHDAFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4045A0)
+#define NBLICBHDAFM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4045B0)
+#define NBLICBHDAFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E404570)
 
-inline static constexpr unsigned int NBLICBHDAFM_TypeDefinitionIndex = 19910;
+inline static constexpr unsigned int NBLICBHDAFM_TypeDefinitionIndex = 20239;
 
 	class NBLICBHDAFM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* FHLJGDGMMHK; // 0x18
-		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x20
-		::HGGPGICGHCL MMNJODIJPOE; // 0x24
+		::HGGPGICGHCL MMNJODIJPOE; // 0x20
+		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBLICBHDAFM_CTOR_OFFSET))(this);

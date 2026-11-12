@@ -6,7 +6,7 @@ class NNIKOAIKFMO;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 
-inline static constexpr unsigned int LLBHAOEAMCI_TypeDefinitionIndex = 36856;
+inline static constexpr unsigned int LLBHAOEAMCI_TypeDefinitionIndex = 37784;
 
 	struct alignas(8) LLBHAOEAMCI
 	{

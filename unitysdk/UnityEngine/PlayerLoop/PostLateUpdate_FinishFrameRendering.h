@@ -3,7 +3,7 @@
 
 namespace UnityEngine::PlayerLoop
 {
-	inline static constexpr unsigned int PostLateUpdate_FinishFrameRendering_TypeDefinitionIndex = 4650;
+	inline static constexpr unsigned int PostLateUpdate_FinishFrameRendering_TypeDefinitionIndex = 4653;
 
 	struct alignas(4) PostLateUpdate_FinishFrameRendering
 	{

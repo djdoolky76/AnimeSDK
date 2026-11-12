@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREEPOPUPDIALOGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA08C00)
+#define RPG_CLIENT_LITTLEGAME_MATCH3_MATCHTHREEPOPUPDIALOGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBCC330)
 
 namespace RPG::Client::LittleGame::Match3
 {
-	inline static constexpr unsigned int MatchThreePopupDialogInfo_TypeDefinitionIndex = 43014;
+	inline static constexpr unsigned int MatchThreePopupDialogInfo_TypeDefinitionIndex = 43995;
 
 	class MatchThreePopupDialogInfo : public ::System::Object
 	{

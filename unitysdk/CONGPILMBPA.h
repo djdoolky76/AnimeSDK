@@ -5,18 +5,19 @@ class CONGPILMBPA;
 class FCOEMCEDLNL;
 class ICCKHJDEIJB;
 
-#define CONGPILMBPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCBB170)
-#define CONGPILMBPA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCBB180)
-#define CONGPILMBPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCBB010)
+#define CONGPILMBPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDE280)
+#define CONGPILMBPA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEDE290)
+#define CONGPILMBPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEDE120)
 
-inline static constexpr unsigned int CONGPILMBPA_TypeDefinitionIndex = 21062;
+inline static constexpr unsigned int CONGPILMBPA_TypeDefinitionIndex = 21400;
 
 	class CONGPILMBPA : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::Il2CppArray<::ICCKHJDEIJB*>* JFBLHELPACE; // 0x10
-		::System::Single DEHNNOGKBJO; // 0x18
-		::System::Boolean MHFNDIBPLKK; // 0x1C
+		::System::Boolean MHFNDIBPLKK; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Single DEHNNOGKBJO; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CONGPILMBPA_CTOR_OFFSET))(this);

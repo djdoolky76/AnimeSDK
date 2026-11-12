@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_AddCurrentTurnMaxRollCount; }
 
-#define OGDIFFJDKKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CE080)
-#define OGDIFFJDKKB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7CE090)
+#define OGDIFFJDKKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94F940)
+#define OGDIFFJDKKB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D94F950)
 
-inline static constexpr unsigned int OGDIFFJDKKB_TypeDefinitionIndex = 36319;
+inline static constexpr unsigned int OGDIFFJDKKB_TypeDefinitionIndex = 37247;
 
 	class OGDIFFJDKKB : public ::AJBKGPOEBFG
 	{

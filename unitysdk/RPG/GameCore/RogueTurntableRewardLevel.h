@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTurntableRewardLevel_TypeDefinitionIndex = 10592;
+	inline static constexpr unsigned int RogueTurntableRewardLevel_TypeDefinitionIndex = 10608;
 
 	enum class RogueTurntableRewardLevel : ::System::Int32
 	{

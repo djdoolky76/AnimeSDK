@@ -8,20 +8,20 @@ class FCOEMCEDLNL;
 class FELFHPGLFGC;
 namespace System { class String; }
 
-#define FELFHPGLFGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE2720)
-#define FELFHPGLFGC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE23E0)
+#define FELFHPGLFGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBB6A0)
+#define FELFHPGLFGC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DFBB360)
 
-inline static constexpr unsigned int FELFHPGLFGC_TypeDefinitionIndex = 14966;
+inline static constexpr unsigned int FELFHPGLFGC_TypeDefinitionIndex = 15122;
 
 	class FELFHPGLFGC : public ::System::Object
 	{
 	public:
-		::System::String* ICIDICKIDCB; // 0x10
-		::System::String* LJFOMBOOEIC; // 0x18
+		::System::String* LJFOMBOOEIC; // 0x10
+		::System::String* ICIDICKIDCB; // 0x18
 		::System::String* JLFLCFGCHHC; // 0x20
-		::RPG::Client::TextID OPLOPGILKKH; // 0x28
-		::RPG::GameCore::RogueTournMarkType HLALFNEDFED; // 0x38
-		::RPG::GameCore::RogueTournRoomType LHLKJIDFLIN; // 0x3C
+		::RPG::GameCore::RogueTournRoomType LHLKJIDFLIN; // 0x28
+		::RPG::GameCore::RogueTournMarkType HLALFNEDFED; // 0x2C
+		::RPG::Client::TextID OPLOPGILKKH; // 0x30
 		::RPG::Client::TextID AEEEKGOKJIH; // 0x40
 		::System::Void _ctor()
 		{

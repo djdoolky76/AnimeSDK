@@ -4,11 +4,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define BGNKODNJAMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB1908E0)
-#define BGNKODNJAMM_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xB190850)
-#define BGNKODNJAMM_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xB1907C0)
+#define BGNKODNJAMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1B1C0)
+#define BGNKODNJAMM_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0xBB1B130)
+#define BGNKODNJAMM_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0xBB1B0A0)
 
-inline static constexpr unsigned int BGNKODNJAMM_TypeDefinitionIndex = 69822;
+inline static constexpr unsigned int BGNKODNJAMM_TypeDefinitionIndex = 71781;
 
 	class BGNKODNJAMM : public ::System::Object
 	{

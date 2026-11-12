@@ -4,21 +4,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StroyLineTrialAvatarDataRow; }
 
-#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2E3B0)
-#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB2E1A0)
+#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDDBF0)
+#define RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EDDD9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StroyLineTrialAvatarDataRow_TypeDefinitionIndex = 15200;
+	inline static constexpr unsigned int StroyLineTrialAvatarDataRow_TypeDefinitionIndex = 15356;
 
 	class StroyLineTrialAvatarDataRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x10
-		::Il2CppArray<::System::UInt32>* InitTrialAvatarList; // 0x18
-		::System::UInt32 StoryLineID; // 0x20
-		::System::UInt32 CaptainAvatarID; // 0x24
-		::System::Boolean SkipJoinLineup; // 0x28
+		::Il2CppArray<::System::UInt32>* InitTrialAvatarList; // 0x10
+		::Il2CppArray<::System::UInt32>* TrialAvatarList; // 0x18
+		::System::UInt32 CaptainAvatarID; // 0x20
+		::System::Boolean SkipJoinLineup; // 0x24
+		::System::Byte _padding0[0x3];
+		::System::UInt32 StoryLineID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STROYLINETRIALAVATARDATAROW_CTOR_OFFSET))(this);

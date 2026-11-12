@@ -6,13 +6,13 @@ namespace RPG::GameCore { class HipplenGameWaitEvent; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76C570)
-#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D76C580)
-#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76C540)
+#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97FE40)
+#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E97FE50)
+#define RPG_GAMECORE_HIPPLENGAMEWAITEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97FE10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameWaitEvent_TypeDefinitionIndex = 21320;
+	inline static constexpr unsigned int HipplenGameWaitEvent_TypeDefinitionIndex = 21663;
 
 	class HipplenGameWaitEvent : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,18 +4,18 @@
 class NIALCDGNNLC;
 namespace System { class Object; }
 
-#define NIALCDGNNLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB253E0)
-#define NIALCDGNNLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB25420)
-#define NIALCDGNNLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB25430)
+#define NIALCDGNNLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE677B0)
+#define NIALCDGNNLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE677F0)
+#define NIALCDGNNLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE67800)
 
-inline static constexpr unsigned int NIALCDGNNLC___c_TypeDefinitionIndex = 30840;
+inline static constexpr unsigned int NIALCDGNNLC___c_TypeDefinitionIndex = 31753;
 
 	class NIALCDGNNLC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60A70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B350);
 		}
 
 		static ::System::Void _cctor()

@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define PFMAHFAJHLC_MEBEAAGEOKK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2179A0)
+#define PFMAHFAJHLC_MEBEAAGEOKK_CTOR_OFFSET UNITYSDK_OFFSET(0xCAFA4B0)
 
-inline static constexpr unsigned int PFMAHFAJHLC_MEBEAAGEOKK_TypeDefinitionIndex = 47605;
+inline static constexpr unsigned int PFMAHFAJHLC_MEBEAAGEOKK_TypeDefinitionIndex = 48634;
 
 	class PFMAHFAJHLC_MEBEAAGEOKK : public ::System::Object
 	{

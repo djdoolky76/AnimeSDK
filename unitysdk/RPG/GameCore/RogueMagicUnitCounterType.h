@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicUnitCounterType_TypeDefinitionIndex = 10615;
+	inline static constexpr unsigned int RogueMagicUnitCounterType_TypeDefinitionIndex = 10631;
 
 	enum class RogueMagicUnitCounterType : ::System::Int32
 	{

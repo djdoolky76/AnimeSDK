@@ -4,18 +4,18 @@
 class OMJPICCHOEG;
 namespace System { class Object; }
 
-#define OMJPICCHOEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEB8A80)
-#define OMJPICCHOEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB8AC0)
-#define OMJPICCHOEG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEB8AD0)
+#define OMJPICCHOEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1808E0)
+#define OMJPICCHOEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F180920)
+#define OMJPICCHOEG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F180930)
 
-inline static constexpr unsigned int OMJPICCHOEG___c_TypeDefinitionIndex = 30177;
+inline static constexpr unsigned int OMJPICCHOEG___c_TypeDefinitionIndex = 31075;
 
 	class OMJPICCHOEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B500);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24D90);
 		}
 
 		static ::System::Void _cctor()

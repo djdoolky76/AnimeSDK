@@ -4,9 +4,9 @@
 class CBOAHKAAECG;
 class KGMBGMIGHOE;
 
-#define AGGMKOCONKK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCF2FD10)
+#define AGGMKOCONKK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD5E6B00)
 
-inline static constexpr unsigned int AGGMKOCONKK_TypeDefinitionIndex = 75795;
+inline static constexpr unsigned int AGGMKOCONKK_TypeDefinitionIndex = 78122;
 
 	class AGGMKOCONKK : public ::System::Object
 	{

@@ -5,17 +5,17 @@ namespace RPG::Client { class LimaoNewsDutyCheckOptionTalkInfo; }
 namespace RPG::Client::LimaoNews { class LimaoNewsEmployeeCheckData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KFBPMGMFPLG___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB38B550)
-#define KFBPMGMFPLG___C__DISPLAYCLASS13_0__BUILDDISPLAYOPTIONS_B__1_OFFSET UNITYSDK_OFFSET(0xB38EFB0)
-#define KFBPMGMFPLG___C__DISPLAYCLASS13_0__BUILDDISPLAYOPTIONS_G__ISELIGIBLE_0_OFFSET UNITYSDK_OFFSET(0xB38BA30)
+#define KFBPMGMFPLG___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC17F90)
+#define KFBPMGMFPLG___C__DISPLAYCLASS13_0__BUILDDISPLAYOPTIONS_B__1_OFFSET UNITYSDK_OFFSET(0xBC1B9F0)
+#define KFBPMGMFPLG___C__DISPLAYCLASS13_0__BUILDDISPLAYOPTIONS_G__ISELIGIBLE_0_OFFSET UNITYSDK_OFFSET(0xBC18470)
 
-inline static constexpr unsigned int KFBPMGMFPLG___c__DisplayClass13_0_TypeDefinitionIndex = 80314;
+inline static constexpr unsigned int KFBPMGMFPLG___c__DisplayClass13_0_TypeDefinitionIndex = 83091;
 
 	class KFBPMGMFPLG___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData* data; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* selectedToday; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* selectedToday; // 0x10
+		::RPG::Client::LimaoNews::LimaoNewsEmployeeCheckData* data; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KFBPMGMFPLG___C__DISPLAYCLASS13_0_CTOR_OFFSET))(this);

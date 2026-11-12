@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HGIHIELHLGF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15CA05E0)
-#define HGIHIELHLGF_EONFJDPMNOH_OFFSET UNITYSDK_OFFSET(0x2E7E8A0)
-#define HGIHIELHLGF_JNDOGMFFOIM_OFFSET UNITYSDK_OFFSET(0x2E7E830)
-#define HGIHIELHLGF_MKJFHFEMJGC_OFFSET UNITYSDK_OFFSET(0x2E7E870)
+#define HGIHIELHLGF_CCTOR_OFFSET UNITYSDK_OFFSET(0x16BEA860)
+#define HGIHIELHLGF_EONFJDPMNOH_OFFSET UNITYSDK_OFFSET(0x3054710)
+#define HGIHIELHLGF_JNDOGMFFOIM_OFFSET UNITYSDK_OFFSET(0x30546A0)
+#define HGIHIELHLGF_MKJFHFEMJGC_OFFSET UNITYSDK_OFFSET(0x30546E0)
 
-inline static constexpr unsigned int HGIHIELHLGF_TypeDefinitionIndex = 73966;
+inline static constexpr unsigned int HGIHIELHLGF_TypeDefinitionIndex = 76102;
 
 	struct alignas(4) HGIHIELHLGF
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int HGIHIELHLGF_TypeDefinitionIndex = 73966;
 		::System::Boolean IJFJJEJBGAB; // 0x6D
 		static ::HGIHIELHLGF* StaticGet_EKEMOCGAEEO()
 		{
-			return (::HGIHIELHLGF*)UnitySDK::FromName("", "HGIHIELHLGF")->GetStaticField(0x4E80);
+			return (::HGIHIELHLGF*)UnitySDK::FromName("", "HGIHIELHLGF")->GetStaticField(0x68C0);
 		}
 
 		static ::System::Void _cctor()

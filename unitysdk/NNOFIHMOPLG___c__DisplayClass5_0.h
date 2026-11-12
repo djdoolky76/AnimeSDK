@@ -4,10 +4,10 @@
 class KNOCJADNCOA;
 class NNOFIHMOPLG;
 
-#define NNOFIHMOPLG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD8780)
-#define NNOFIHMOPLG___C__DISPLAYCLASS5_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xBCDA270)
+#define NNOFIHMOPLG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C49E0)
+#define NNOFIHMOPLG___C__DISPLAYCLASS5_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xC5C64F0)
 
-inline static constexpr unsigned int NNOFIHMOPLG___c__DisplayClass5_0_TypeDefinitionIndex = 71987;
+inline static constexpr unsigned int NNOFIHMOPLG___c__DisplayClass5_0_TypeDefinitionIndex = 74016;
 
 	class NNOFIHMOPLG___c__DisplayClass5_0 : public ::System::Object
 	{

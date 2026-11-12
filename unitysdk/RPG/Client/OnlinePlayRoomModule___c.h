@@ -12,79 +12,79 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9F3D70)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD9F3DB0)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__69_0_OFFSET UNITYSDK_OFFSET(0xD9F3F90)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__69_1_OFFSET UNITYSDK_OFFSET(0xD9F40F0)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALISTBYFLOOR_B__39_0_OFFSET UNITYSDK_OFFSET(0xD9F3ED0)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALIST_B__38_0_OFFSET UNITYSDK_OFFSET(0xD9F3E90)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETRECENTVISITORLIST_B__68_0_OFFSET UNITYSDK_OFFSET(0xD9F3F50)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GET__FIRSTPENDINGVISITINFO_B__128_0_OFFSET UNITYSDK_OFFSET(0xD9F4190)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRANSFERTOARRANGEPAGE_B__61_3_OFFSET UNITYSDK_OFFSET(0xD9F3F10)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRYQUERYONLINEROOMSTATUS_B__35_0_OFFSET UNITYSDK_OFFSET(0xD9F3E00)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C___GETONLINEPLAYERINFOLISTINROOM_B__81_0_OFFSET UNITYSDK_OFFSET(0xD9F4180)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C___ONSOCIALPLAYGAMEPLAYOPERATIONSCNOTIFY_B__9_0_OFFSET UNITYSDK_OFFSET(0xD9F3DC0)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE48A4F0)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE48A530)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__70_0_OFFSET UNITYSDK_OFFSET(0xE48A710)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__70_1_OFFSET UNITYSDK_OFFSET(0xE48A870)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALISTBYFLOOR_B__40_0_OFFSET UNITYSDK_OFFSET(0xE48A650)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALIST_B__39_0_OFFSET UNITYSDK_OFFSET(0xE48A610)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETRECENTVISITORLIST_B__69_0_OFFSET UNITYSDK_OFFSET(0xE48A6D0)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GET__FIRSTPENDINGVISITINFO_B__129_0_OFFSET UNITYSDK_OFFSET(0xE48A910)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRANSFERTOARRANGEPAGE_B__62_3_OFFSET UNITYSDK_OFFSET(0xE48A690)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRYQUERYONLINEROOMSTATUS_B__36_0_OFFSET UNITYSDK_OFFSET(0xE48A580)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C___GETONLINEPLAYERINFOLISTINROOM_B__82_0_OFFSET UNITYSDK_OFFSET(0xE48A900)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C___ONSOCIALPLAYGAMEPLAYOPERATIONSCNOTIFY_B__9_0_OFFSET UNITYSDK_OFFSET(0xE48A540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlinePlayRoomModule___c_TypeDefinitionIndex = 66402;
+	inline static constexpr unsigned int OnlinePlayRoomModule___c_TypeDefinitionIndex = 68338;
 
 	class OnlinePlayRoomModule___c : public ::System::Object
 	{
 	public:
+		static ::System::Comparison_1<::JBJNJPAOCDA*>** StaticGet___9__39_0()
+		{
+			return (::System::Comparison_1<::JBJNJPAOCDA*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17AF0);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::OnlinePlayRoomRecentVisitorInfo*>** StaticGet___9__69_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::OnlinePlayRoomRecentVisitorInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17AF8);
+		}
+
+		static ::System::Comparison_1<::JBJNJPAOCDA*>** StaticGet___9__40_0()
+		{
+			return (::System::Comparison_1<::JBJNJPAOCDA*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B00);
+		}
+
+		static ::System::Func_2<::JBJNJPAOCDA*, ::System::Boolean>** StaticGet___9__82_0()
+		{
+			return (::System::Func_2<::JBJNJPAOCDA*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B08);
+		}
+
+		static ::System::Func_2<::KHBEIDOCBCN*, ::RPG::Client::SocialPlay::SocialPlayMapUIBridge*>** StaticGet___9__70_1()
+		{
+			return (::System::Func_2<::KHBEIDOCBCN*, ::RPG::Client::SocialPlay::SocialPlayMapUIBridge*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B10);
+		}
+
 		static ::System::Action** StaticGet___9__9_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE00);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B18);
+		}
+
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__129_0()
+		{
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B20);
+		}
+
+		static ::System::Action** StaticGet___9__62_3()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B28);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__36_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B30);
+		}
+
+		static ::System::Comparison_1<::KHBEIDOCBCN*>** StaticGet___9__70_0()
+		{
+			return (::System::Comparison_1<::KHBEIDOCBCN*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B38);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE08);
-		}
-
-		static ::System::Action** StaticGet___9__61_3()
-		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE10);
-		}
-
-		static ::System::Func_2<::KHBEIDOCBCN*, ::RPG::Client::SocialPlay::SocialPlayMapUIBridge*>** StaticGet___9__69_1()
-		{
-			return (::System::Func_2<::KHBEIDOCBCN*, ::RPG::Client::SocialPlay::SocialPlayMapUIBridge*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE18);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::OnlinePlayRoomRecentVisitorInfo*>** StaticGet___9__68_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::OnlinePlayRoomRecentVisitorInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE20);
-		}
-
-		static ::System::Comparison_1<::JBJNJPAOCDA*>** StaticGet___9__39_0()
-		{
-			return (::System::Comparison_1<::JBJNJPAOCDA*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE28);
-		}
-
-		static ::System::Comparison_1<::KHBEIDOCBCN*>** StaticGet___9__69_0()
-		{
-			return (::System::Comparison_1<::KHBEIDOCBCN*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE30);
-		}
-
-		static ::System::Comparison_1<::JBJNJPAOCDA*>** StaticGet___9__38_0()
-		{
-			return (::System::Comparison_1<::JBJNJPAOCDA*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE38);
-		}
-
-		static ::System::Func_2<::JBJNJPAOCDA*, ::System::Boolean>** StaticGet___9__81_0()
-		{
-			return (::System::Func_2<::JBJNJPAOCDA*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE40);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__35_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE48);
-		}
-
-		static ::System::Comparison_1<::System::Object*>** StaticGet___9__128_0()
-		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAE50);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17B40);
 		}
 
 		static ::System::Void _cctor()
@@ -102,49 +102,49 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C___ONSOCIALPLAYGAMEPLAYOPERATIONSCNOTIFY_B__9_0_OFFSET))(this);
 		}
 
-		::System::Void _TryqueryOnlineRoomStatus_b__35_0(::System::Boolean a1)
+		::System::Void _TryqueryOnlineRoomStatus_b__36_0(::System::Boolean a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRYQUERYONLINEROOMSTATUS_B__35_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRYQUERYONLINEROOMSTATUS_B__36_0_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _GetOnlineRoomPlayerBriefDisplayDataList_b__38_0(::JBJNJPAOCDA* a1, ::JBJNJPAOCDA* a2)
+		::System::Int32 _GetOnlineRoomPlayerBriefDisplayDataList_b__39_0(::JBJNJPAOCDA* a1, ::JBJNJPAOCDA* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::JBJNJPAOCDA*, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALIST_B__38_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::JBJNJPAOCDA*, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALIST_B__39_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _GetOnlineRoomPlayerBriefDisplayDataListByFloor_b__39_0(::JBJNJPAOCDA* a1, ::JBJNJPAOCDA* a2)
+		::System::Int32 _GetOnlineRoomPlayerBriefDisplayDataListByFloor_b__40_0(::JBJNJPAOCDA* a1, ::JBJNJPAOCDA* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::JBJNJPAOCDA*, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALISTBYFLOOR_B__39_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::JBJNJPAOCDA*, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETONLINEROOMPLAYERBRIEFDISPLAYDATALISTBYFLOOR_B__40_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _TransferToArrangePage_b__61_3()
+		::System::Void _TransferToArrangePage_b__62_3()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRANSFERTOARRANGEPAGE_B__61_3_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__TRANSFERTOARRANGEPAGE_B__62_3_OFFSET))(this);
 		}
 
-		::System::Int32 _GetRecentVisitorList_b__68_0(::RPG::Client::OnlinePlayRoomRecentVisitorInfo* a1, ::RPG::Client::OnlinePlayRoomRecentVisitorInfo* a2)
+		::System::Int32 _GetRecentVisitorList_b__69_0(::RPG::Client::OnlinePlayRoomRecentVisitorInfo* a1, ::RPG::Client::OnlinePlayRoomRecentVisitorInfo* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::OnlinePlayRoomRecentVisitorInfo*, ::RPG::Client::OnlinePlayRoomRecentVisitorInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETRECENTVISITORLIST_B__68_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::OnlinePlayRoomRecentVisitorInfo*, ::RPG::Client::OnlinePlayRoomRecentVisitorInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETRECENTVISITORLIST_B__69_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _GetMapUIBridgeList_b__69_0(::KHBEIDOCBCN* a1, ::KHBEIDOCBCN* a2)
+		::System::Int32 _GetMapUIBridgeList_b__70_0(::KHBEIDOCBCN* a1, ::KHBEIDOCBCN* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::KHBEIDOCBCN*, ::KHBEIDOCBCN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__69_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::KHBEIDOCBCN*, ::KHBEIDOCBCN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__70_0_OFFSET))(this, a1, a2);
 		}
 
-		::RPG::Client::SocialPlay::SocialPlayMapUIBridge* _GetMapUIBridgeList_b__69_1(::KHBEIDOCBCN* a1)
+		::RPG::Client::SocialPlay::SocialPlayMapUIBridge* _GetMapUIBridgeList_b__70_1(::KHBEIDOCBCN* a1)
 		{
-			return ((::RPG::Client::SocialPlay::SocialPlayMapUIBridge*(*)(::PVOID, ::KHBEIDOCBCN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__69_1_OFFSET))(this, a1);
+			return ((::RPG::Client::SocialPlay::SocialPlayMapUIBridge*(*)(::PVOID, ::KHBEIDOCBCN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GETMAPUIBRIDGELIST_B__70_1_OFFSET))(this, a1);
 		}
 
-		::System::Boolean __GetOnlinePlayerInfoListInRoom_b__81_0(::JBJNJPAOCDA* a1)
+		::System::Boolean __GetOnlinePlayerInfoListInRoom_b__82_0(::JBJNJPAOCDA* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C___GETONLINEPLAYERINFOLISTINROOM_B__81_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::JBJNJPAOCDA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C___GETONLINEPLAYERINFOLISTINROOM_B__82_0_OFFSET))(this, a1);
 		}
 
-		::System::Int32 _get__FirstPendingVisitInfo_b__128_0(::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo* a1, ::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo* a2)
+		::System::Int32 _get__FirstPendingVisitInfo_b__129_0(::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo* a1, ::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo*, ::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GET__FIRSTPENDINGVISITINFO_B__128_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo*, ::RPG::Client::OnlinePlayRoomModule_PendingVisitUIDInfo*))((::PBYTE)hIl2Cpp + RPG_CLIENT_ONLINEPLAYROOMMODULE___C__GET__FIRSTPENDINGVISITINFO_B__129_0_OFFSET))(this, a1, a2);
 		}
 
 	};

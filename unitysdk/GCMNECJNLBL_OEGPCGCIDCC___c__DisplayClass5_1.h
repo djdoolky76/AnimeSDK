@@ -4,17 +4,17 @@
 class GCMNECJNLBL_EDOKBCEFKNO;
 namespace System { class Object; }
 
-#define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS5_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1598EB40)
-#define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS5_1__RUNASYNCLINKCANCEL1_B__3_OFFSET UNITYSDK_OFFSET(0x1598ECF0)
+#define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS5_1_CTOR_OFFSET UNITYSDK_OFFSET(0x168C5250)
+#define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS5_1__RUNASYNCLINKCANCEL1_B__3_OFFSET UNITYSDK_OFFSET(0x168C5400)
 
-inline static constexpr unsigned int GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass5_1_TypeDefinitionIndex = 49234;
+inline static constexpr unsigned int GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass5_1_TypeDefinitionIndex = 50310;
 
 	template <typename T>
 	class GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass5_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::GCMNECJNLBL_EDOKBCEFKNO* d; // 0x18
+		::GCMNECJNLBL_EDOKBCEFKNO* d; // 0x10
+		::System::Object* CS___8__locals1; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS5_1_CTOR_OFFSET))(this);

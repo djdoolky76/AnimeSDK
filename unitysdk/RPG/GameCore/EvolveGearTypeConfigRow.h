@@ -7,24 +7,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EvolveGearTypeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68BEE0)
-#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D68B700)
+#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E898450)
+#define RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E897C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveGearTypeConfigRow_TypeDefinitionIndex = 11413;
+	inline static constexpr unsigned int EvolveGearTypeConfigRow_TypeDefinitionIndex = 11464;
 
 	class EvolveGearTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* TypeImg; // 0x10
-		::System::String* TypeImgColor; // 0x18
-		::System::String* FontColor; // 0x20
-		::System::String* MixDetailPropsInfoBg; // 0x28
-		::System::String* Name; // 0x30
-		::System::String* WeaponToastEffectBg; // 0x38
-		::RPG::GameCore::EvolveGearType ID; // 0x40
-		::RPG::GameCore::EvolveBuildSeason Season; // 0x44
+		::System::String* MixDetailPropsInfoBg; // 0x10
+		::System::String* FontColor; // 0x18
+		::System::String* Name; // 0x20
+		::System::String* WeaponToastEffectBg; // 0x28
+		::System::String* TypeImg; // 0x30
+		::System::String* TypeImgColor; // 0x38
+		::RPG::GameCore::EvolveBuildSeason Season; // 0x40
+		::RPG::GameCore::EvolveGearType ID; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVOLVEGEARTYPECONFIGROW_CTOR_OFFSET))(this);

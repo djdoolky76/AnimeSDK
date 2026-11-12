@@ -3,7 +3,7 @@
 #include "unitysdk/System/SystemException.h"
 namespace System { class String; }
 
-#define MONO_XML_SMALLXMLPARSEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C098350)
+#define MONO_XML_SMALLXMLPARSEREXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D21F760)
 
 namespace Mono::Xml
 {

@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xDD99AE0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLEFRAGMENTMONO_CTOR_OFFSET UNITYSDK_OFFSET(0xE7FCCC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleFragmentMono_TypeDefinitionIndex = 78804;
+	inline static constexpr unsigned int RotatePillarPuzzleFragmentMono_TypeDefinitionIndex = 81575;
 
 	class RotatePillarPuzzleFragmentMono : public ::UnityEngine::MonoBehaviour
 	{

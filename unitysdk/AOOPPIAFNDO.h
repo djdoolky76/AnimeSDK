@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PropFastDeliverStartAim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AOOPPIAFNDO_CTOR_OFFSET UNITYSDK_OFFSET(0x158C71E0)
-#define AOOPPIAFNDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158C7340)
-#define AOOPPIAFNDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158C71F0)
-#define AOOPPIAFNDO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158C72F0)
-#define AOOPPIAFNDO_TICK_OFFSET UNITYSDK_OFFSET(0x158C73A0)
+#define AOOPPIAFNDO_CTOR_OFFSET UNITYSDK_OFFSET(0x169EED40)
+#define AOOPPIAFNDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x169EEEA0)
+#define AOOPPIAFNDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169EED50)
+#define AOOPPIAFNDO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x169EEE50)
+#define AOOPPIAFNDO_TICK_OFFSET UNITYSDK_OFFSET(0x169EEF00)
 
-inline static constexpr unsigned int AOOPPIAFNDO_TypeDefinitionIndex = 58326;
+inline static constexpr unsigned int AOOPPIAFNDO_TypeDefinitionIndex = 59582;
 
 	class AOOPPIAFNDO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::PropFastDeliverStartAim* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::PropFastDeliverStartAim* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropFastDeliverStartAim* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropFastDeliverStartAim*))((::PBYTE)hIl2Cpp + AOOPPIAFNDO_CTOR_OFFSET))(this, a1, a2);

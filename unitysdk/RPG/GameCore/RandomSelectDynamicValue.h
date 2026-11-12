@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class RandomSelectDynamicValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RANDOMSELECTDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96BDB0)
-#define RPG_GAMECORE_RANDOMSELECTDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D96BDC0)
-#define RPG_GAMECORE_RANDOMSELECTDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D96BD80)
+#define RPG_GAMECORE_RANDOMSELECTDYNAMICVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB84150)
+#define RPG_GAMECORE_RANDOMSELECTDYNAMICVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB84160)
+#define RPG_GAMECORE_RANDOMSELECTDYNAMICVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB84120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelectDynamicValue_TypeDefinitionIndex = 22902;
+	inline static constexpr unsigned int RandomSelectDynamicValue_TypeDefinitionIndex = 23328;
 
 	class RandomSelectDynamicValue : public ::RPG::GameCore::TaskConfig
 	{

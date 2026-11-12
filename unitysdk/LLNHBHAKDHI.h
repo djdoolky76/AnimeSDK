@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByCompareMatchThreeV2BirdLocation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLNHBHAKDHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB774FA0)
-#define LLNHBHAKDHI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB774FD0)
+#define LLNHBHAKDHI_CTOR_OFFSET UNITYSDK_OFFSET(0xC015040)
+#define LLNHBHAKDHI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC015070)
 
-inline static constexpr unsigned int LLNHBHAKDHI_TypeDefinitionIndex = 53014;
+inline static constexpr unsigned int LLNHBHAKDHI_TypeDefinitionIndex = 54173;
 
 	class LLNHBHAKDHI
 	{

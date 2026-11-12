@@ -10,23 +10,23 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security::Cryptography { class DSA; }
 namespace System::Security::Cryptography { class RSA; }
 
-#define MONO_SECURITY_X509_X509CERTIFICATE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C096150)
-#define MONO_SECURITY_X509_X509CERTIFICATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0889E0)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GETISSUERNAME_OFFSET UNITYSDK_OFFSET(0x1C096090)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C0960B0)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GETSUBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1C0960A0)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GETUNSIGNEDBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1C095B20)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_DSA_OFFSET UNITYSDK_OFFSET(0x1C08A1C0)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_ISSUERNAME_OFFSET UNITYSDK_OFFSET(0x1C095B80)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_KEYALGORITHMPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1C095B90)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_RAWDATA_OFFSET UNITYSDK_OFFSET(0x1C095EA0)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_RSA_OFFSET UNITYSDK_OFFSET(0x1C095C70)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_SERIALNUMBER_OFFSET UNITYSDK_OFFSET(0x1C095F80)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_SUBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1C096060)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_VALIDFROM_OFFSET UNITYSDK_OFFSET(0x1C096070)
-#define MONO_SECURITY_X509_X509CERTIFICATE_GET_VALIDUNTIL_OFFSET UNITYSDK_OFFSET(0x1C096080)
-#define MONO_SECURITY_X509_X509CERTIFICATE_PARSE_OFFSET UNITYSDK_OFFSET(0x1C094C00)
-#define MONO_SECURITY_X509_X509CERTIFICATE_PEM_OFFSET UNITYSDK_OFFSET(0x1C0958D0)
+#define MONO_SECURITY_X509_X509CERTIFICATE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D21D530)
+#define MONO_SECURITY_X509_X509CERTIFICATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D20FDD0)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GETISSUERNAME_OFFSET UNITYSDK_OFFSET(0x1D21D470)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D21D490)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GETSUBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1D21D480)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GETUNSIGNEDBIGINTEGER_OFFSET UNITYSDK_OFFSET(0x1D21CEF0)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_DSA_OFFSET UNITYSDK_OFFSET(0x1D211580)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_ISSUERNAME_OFFSET UNITYSDK_OFFSET(0x1D21CF50)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_KEYALGORITHMPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1D21CF60)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_RAWDATA_OFFSET UNITYSDK_OFFSET(0x1D21D280)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_RSA_OFFSET UNITYSDK_OFFSET(0x1D21D040)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_SERIALNUMBER_OFFSET UNITYSDK_OFFSET(0x1D21D360)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_SUBJECTNAME_OFFSET UNITYSDK_OFFSET(0x1D21D440)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_VALIDFROM_OFFSET UNITYSDK_OFFSET(0x1D21D450)
+#define MONO_SECURITY_X509_X509CERTIFICATE_GET_VALIDUNTIL_OFFSET UNITYSDK_OFFSET(0x1D21D460)
+#define MONO_SECURITY_X509_X509CERTIFICATE_PARSE_OFFSET UNITYSDK_OFFSET(0x1D21BFD0)
+#define MONO_SECURITY_X509_X509CERTIFICATE_PEM_OFFSET UNITYSDK_OFFSET(0x1D21CCA0)
 
 namespace Mono::Security::X509
 {
@@ -35,30 +35,31 @@ namespace Mono::Security::X509
 	class X509Certificate : public ::System::Object
 	{
 	public:
-		::System::Security::Cryptography::RSA* _rsa; // 0x10
-		::Il2CppArray<::System::Byte>* issuerUniqueID; // 0x18
-		::Mono::Security::X509::X509ExtensionCollection* extensions; // 0x20
-		::System::String* m_signaturealgo; // 0x28
-		::Mono::Security::ASN1* decoder; // 0x30
-		::Il2CppArray<::System::Byte>* m_keyalgoparams; // 0x38
-		::Il2CppArray<::System::Byte>* subjectUniqueID; // 0x40
-		::System::String* m_issuername; // 0x48
-		::Mono::Security::ASN1* subject; // 0x50
-		::Il2CppArray<::System::Byte>* serialnumber; // 0x58
-		::Il2CppArray<::System::Byte>* m_encodedcert; // 0x60
-		::System::Security::Cryptography::DSA* _dsa; // 0x68
-		::Il2CppArray<::System::Byte>* m_signaturealgoparams; // 0x70
-		::Il2CppArray<::System::Byte>* m_publickey; // 0x78
-		::System::String* m_keyalgo; // 0x80
-		::Mono::Security::ASN1* issuer; // 0x88
-		::System::String* m_subject; // 0x90
-		::Il2CppArray<::System::Byte>* signature; // 0x98
-		::System::DateTime m_from; // 0xA0
-		::System::DateTime m_until; // 0xA8
-		::System::Int32 version; // 0xB0
+		::Il2CppArray<::System::Byte>* subjectUniqueID; // 0x10
+		::Il2CppArray<::System::Byte>* signature; // 0x18
+		::Il2CppArray<::System::Byte>* m_keyalgoparams; // 0x20
+		::Mono::Security::ASN1* subject; // 0x28
+		::Il2CppArray<::System::Byte>* serialnumber; // 0x30
+		::Mono::Security::X509::X509ExtensionCollection* extensions; // 0x38
+		::Il2CppArray<::System::Byte>* issuerUniqueID; // 0x40
+		::System::Security::Cryptography::RSA* _rsa; // 0x48
+		::System::String* m_issuername; // 0x50
+		::Il2CppArray<::System::Byte>* m_encodedcert; // 0x58
+		::Mono::Security::ASN1* decoder; // 0x60
+		::Il2CppArray<::System::Byte>* m_signaturealgoparams; // 0x68
+		::System::String* m_signaturealgo; // 0x70
+		::System::String* m_subject; // 0x78
+		::Mono::Security::ASN1* issuer; // 0x80
+		::System::Security::Cryptography::DSA* _dsa; // 0x88
+		::System::String* m_keyalgo; // 0x90
+		::Il2CppArray<::System::Byte>* m_publickey; // 0x98
+		::System::Int32 version; // 0xA0
+		::System::Byte _padding0[0x4];
+		::System::DateTime m_from; // 0xA8
+		::System::DateTime m_until; // 0xB0
 		static ::System::String** StaticGet_encoding_error()
 		{
-			return (::System::String**)UnitySDK::FromName("Mono.Security.X509", "X509Certificate")->GetStaticField(0xD190);
+			return (::System::String**)UnitySDK::FromName("Mono.Security.X509", "X509Certificate")->GetStaticField(0xC730);
 		}
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1)

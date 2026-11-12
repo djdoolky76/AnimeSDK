@@ -6,17 +6,17 @@ class FHNFCAKPADM;
 class OJIALLHOIBH;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define OJIALLHOIBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D289F70)
-#define OJIALLHOIBH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D289FB0)
-#define OJIALLHOIBH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D289F10)
+#define OJIALLHOIBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E490D90)
+#define OJIALLHOIBH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E490DD0)
+#define OJIALLHOIBH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E490D30)
 
-inline static constexpr unsigned int OJIALLHOIBH_TypeDefinitionIndex = 23206;
+inline static constexpr unsigned int OJIALLHOIBH_TypeDefinitionIndex = 23638;
 
 	class OJIALLHOIBH : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::FHNFCAKPADM*>* CHDAMDEOOBG; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::Il2CppArray<::FHNFCAKPADM*>* CHDAMDEOOBG; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJIALLHOIBH_CTOR_OFFSET))(this);

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client { class MonoHandCatchableItem; }
 
-inline static constexpr unsigned int NKHLIJFELNO_TypeDefinitionIndex = 68776;
+inline static constexpr unsigned int NKHLIJFELNO_TypeDefinitionIndex = 70728;
 
 	struct alignas(8) NKHLIJFELNO
 	{

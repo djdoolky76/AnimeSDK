@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_MaterialData_Source_TypeDefinitionIndex = 40579;
+	inline static constexpr unsigned int HEU_MaterialData_Source_TypeDefinitionIndex = 41554;
 
 	enum class HEU_MaterialData_Source : ::System::Int32
 	{

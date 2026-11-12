@@ -4,9 +4,9 @@
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Rigidbody; }
 
-#define NLJPKPAIILH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96FFF0)
+#define NLJPKPAIILH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB31DD0)
 
-inline static constexpr unsigned int NLJPKPAIILH_TypeDefinitionIndex = 42901;
+inline static constexpr unsigned int NLJPKPAIILH_TypeDefinitionIndex = 43882;
 
 	class NLJPKPAIILH : public ::System::Object
 	{

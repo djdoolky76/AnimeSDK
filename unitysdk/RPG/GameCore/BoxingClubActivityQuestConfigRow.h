@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BoxingClubActivityQuestConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D479CB0)
-#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D479B10)
+#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E689810)
+#define RPG_GAMECORE_BOXINGCLUBACTIVITYQUESTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E689670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubActivityQuestConfigRow_TypeDefinitionIndex = 12922;
+	inline static constexpr unsigned int BoxingClubActivityQuestConfigRow_TypeDefinitionIndex = 12994;
 
 	class BoxingClubActivityQuestConfigRow : public ::System::Object
 	{

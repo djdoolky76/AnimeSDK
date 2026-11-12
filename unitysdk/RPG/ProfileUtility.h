@@ -12,146 +12,146 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_PROFILEUTILITY_ADDCOUNTER_OFFSET UNITYSDK_OFFSET(0x1EBB78E0)
-#define RPG_PROFILEUTILITY_APPENDGOPLISTITEM_OFFSET UNITYSDK_OFFSET(0x1EBB8C10)
-#define RPG_PROFILEUTILITY_APPENDLOADERLISTITEM_OFFSET UNITYSDK_OFFSET(0x1EBB8CC0)
-#define RPG_PROFILEUTILITY_BEGINADVLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBB8040)
-#define RPG_PROFILEUTILITY_BEGINBGPLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBB8D90)
-#define RPG_PROFILEUTILITY_BEGINDETAILSAMPLE_1_OFFSET UNITYSDK_OFFSET(0x1EBBA560)
-#define RPG_PROFILEUTILITY_BEGINDETAILSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBBA550)
-#define RPG_PROFILEUTILITY_BEGINLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBB9710)
-#define RPG_PROFILEUTILITY_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBBA530)
-#define RPG_PROFILEUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBBAD30)
-#define RPG_PROFILEUTILITY_CLEARALLLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1EBB9F80)
-#define RPG_PROFILEUTILITY_CLEARCOMPLETEDLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1EBBA1C0)
-#define RPG_PROFILEUTILITY_CLEARPROGRESSLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1EBBA320)
-#define RPG_PROFILEUTILITY_EMITFRAMEMETASTRING_OFFSET UNITYSDK_OFFSET(0x1EBBA580)
-#define RPG_PROFILEUTILITY_ENDADVLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBB8050)
-#define RPG_PROFILEUTILITY_ENDBGPLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBB8DA0)
-#define RPG_PROFILEUTILITY_ENDDETAILSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBBA570)
-#define RPG_PROFILEUTILITY_ENDLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBB9BF0)
-#define RPG_PROFILEUTILITY_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EBBA540)
-#define RPG_PROFILEUTILITY_EXPORTALLLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1EBBA4F0)
-#define RPG_PROFILEUTILITY_GETCOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x1EBB9700)
-#define RPG_PROFILEUTILITY_GETOUTPUTDIR_OFFSET UNITYSDK_OFFSET(0x1EBB8180)
-#define RPG_PROFILEUTILITY_GETPROFILENAME_OFFSET UNITYSDK_OFFSET(0x1EBBA760)
-#define RPG_PROFILEUTILITY_GETTYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1EBBAB50)
-#define RPG_PROFILEUTILITY_INCCOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x1EBB96F0)
-#define RPG_PROFILEUTILITY_LOGADVLOADINGPROFILE_OFFSET UNITYSDK_OFFSET(0x1EBB8590)
-#define RPG_PROFILEUTILITY_LOGBGPLOADINGPROFILE_OFFSET UNITYSDK_OFFSET(0x1EBB9260)
-#define RPG_PROFILEUTILITY_LOGCOMMONLOADINGPROFILE_OFFSET UNITYSDK_OFFSET(0x1EBB88D0)
-#define RPG_PROFILEUTILITY_MARKENDADVENTURELOADING_OFFSET UNITYSDK_OFFSET(0x1EBB81C0)
-#define RPG_PROFILEUTILITY_MARKENDBATTLELOADING_OFFSET UNITYSDK_OFFSET(0x1EBB8E30)
-#define RPG_PROFILEUTILITY_MARKSTARTADVENTURELOADING_OFFSET UNITYSDK_OFFSET(0x1EBB8060)
-#define RPG_PROFILEUTILITY_MARKSTARTBATTLELOADING_OFFSET UNITYSDK_OFFSET(0x1EBB8DB0)
-#define RPG_PROFILEUTILITY_RESETALLCOUNTERS_OFFSET UNITYSDK_OFFSET(0x1EBB95B0)
-#define RPG_PROFILEUTILITY_SETCOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x1EBB95A0)
-#define RPG_PROFILEUTILITY__BGPSTATISTICSDATA_OFFSET UNITYSDK_OFFSET(0x1EBB8E20)
-#define RPG_PROFILEUTILITY__STATISTICSDATA_OFFSET UNITYSDK_OFFSET(0x1EBB81B0)
+#define RPG_PROFILEUTILITY_ADDCOUNTER_OFFSET UNITYSDK_OFFSET(0x1FE6AF40)
+#define RPG_PROFILEUTILITY_APPENDGOPLISTITEM_OFFSET UNITYSDK_OFFSET(0x1FE6C2B0)
+#define RPG_PROFILEUTILITY_APPENDLOADERLISTITEM_OFFSET UNITYSDK_OFFSET(0x1FE6C360)
+#define RPG_PROFILEUTILITY_BEGINADVLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6B6A0)
+#define RPG_PROFILEUTILITY_BEGINBGPLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6C430)
+#define RPG_PROFILEUTILITY_BEGINDETAILSAMPLE_1_OFFSET UNITYSDK_OFFSET(0x1FE6DC30)
+#define RPG_PROFILEUTILITY_BEGINDETAILSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6DC20)
+#define RPG_PROFILEUTILITY_BEGINLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6CDE0)
+#define RPG_PROFILEUTILITY_BEGINSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6DC00)
+#define RPG_PROFILEUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE6E400)
+#define RPG_PROFILEUTILITY_CLEARALLLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1FE6D650)
+#define RPG_PROFILEUTILITY_CLEARCOMPLETEDLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1FE6D890)
+#define RPG_PROFILEUTILITY_CLEARPROGRESSLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1FE6D9F0)
+#define RPG_PROFILEUTILITY_EMITFRAMEMETASTRING_OFFSET UNITYSDK_OFFSET(0x1FE6DC50)
+#define RPG_PROFILEUTILITY_ENDADVLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6B6B0)
+#define RPG_PROFILEUTILITY_ENDBGPLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6C440)
+#define RPG_PROFILEUTILITY_ENDDETAILSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6DC40)
+#define RPG_PROFILEUTILITY_ENDLOADINGSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6D2C0)
+#define RPG_PROFILEUTILITY_ENDSAMPLE_OFFSET UNITYSDK_OFFSET(0x1FE6DC10)
+#define RPG_PROFILEUTILITY_EXPORTALLLOADINGDATA_OFFSET UNITYSDK_OFFSET(0x1FE6DBC0)
+#define RPG_PROFILEUTILITY_GETCOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x1FE6CDD0)
+#define RPG_PROFILEUTILITY_GETOUTPUTDIR_OFFSET UNITYSDK_OFFSET(0x1FE6B7E0)
+#define RPG_PROFILEUTILITY_GETPROFILENAME_OFFSET UNITYSDK_OFFSET(0x1FE6DE30)
+#define RPG_PROFILEUTILITY_GETTYPEFULLNAME_OFFSET UNITYSDK_OFFSET(0x1FE6E220)
+#define RPG_PROFILEUTILITY_INCCOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x1FE6CDC0)
+#define RPG_PROFILEUTILITY_LOGADVLOADINGPROFILE_OFFSET UNITYSDK_OFFSET(0x1FE6BC30)
+#define RPG_PROFILEUTILITY_LOGBGPLOADINGPROFILE_OFFSET UNITYSDK_OFFSET(0x1FE6C930)
+#define RPG_PROFILEUTILITY_LOGCOMMONLOADINGPROFILE_OFFSET UNITYSDK_OFFSET(0x1FE6BF70)
+#define RPG_PROFILEUTILITY_MARKENDADVENTURELOADING_OFFSET UNITYSDK_OFFSET(0x1FE6B820)
+#define RPG_PROFILEUTILITY_MARKENDBATTLELOADING_OFFSET UNITYSDK_OFFSET(0x1FE6C4D0)
+#define RPG_PROFILEUTILITY_MARKSTARTADVENTURELOADING_OFFSET UNITYSDK_OFFSET(0x1FE6B6C0)
+#define RPG_PROFILEUTILITY_MARKSTARTBATTLELOADING_OFFSET UNITYSDK_OFFSET(0x1FE6C450)
+#define RPG_PROFILEUTILITY_RESETALLCOUNTERS_OFFSET UNITYSDK_OFFSET(0x1FE6CC80)
+#define RPG_PROFILEUTILITY_SETCOUNTERVALUE_OFFSET UNITYSDK_OFFSET(0x1FE6CC70)
+#define RPG_PROFILEUTILITY__BGPSTATISTICSDATA_OFFSET UNITYSDK_OFFSET(0x1FE6C4C0)
+#define RPG_PROFILEUTILITY__STATISTICSDATA_OFFSET UNITYSDK_OFFSET(0x1FE6B810)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ProfileUtility_TypeDefinitionIndex = 35149;
+	inline static constexpr unsigned int ProfileUtility_TypeDefinitionIndex = 36077;
 
 	class ProfileUtility : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_s_TypeFullNames()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x810);
-		}
-
-		static ::System::Collections::Generic::List_1<::RPG::ProfileCounter*>** StaticGet_s_AllCounters()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::ProfileCounter*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x818);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__Logs()
-		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x820);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_s_LoadingData()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x828);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>** StaticGet_s_StringToBytesCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x830);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__GOPList()
-		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x838);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>** StaticGet_s_CachedProfileStrings()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x840);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__LoaderList()
-		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x848);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7C0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_s_ProgressData()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x850);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7C8);
 		}
 
-		static ::System::Guid* StaticGet_ProfilerGuid()
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__GOPList()
 		{
-			return (::System::Guid*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4E0);
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7D0);
 		}
 
-		static ::System::Int32* StaticGet_DefaultTag()
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__Logs()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4F0);
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7D8);
 		}
 
-		static ::System::Int32* StaticGet__CommonLoadingStartFrame()
+		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet__LoaderList()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4F4);
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7E0);
 		}
 
-		static ::System::Single* StaticGet__BgpLoadingStartTime()
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>** StaticGet_s_CachedProfileStrings()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4F8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7E8);
 		}
 
-		static ::System::Single* StaticGet__CommonLoadingStartTime()
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>** StaticGet_s_StringToBytesCache()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4FC);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7F0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_s_TypeFullNames()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x7F8);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::ProfileCounter*>** StaticGet_s_AllCounters()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::ProfileCounter*>**)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x800);
 		}
 
 		static ::System::Int32* StaticGet__BgpLoadingStartFrame()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x500);
+			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4E0);
 		}
 
 		static ::System::Int32* StaticGet__AdvLoadingStartFrame()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x504);
+			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4E4);
+		}
+
+		static ::System::Int32* StaticGet_DefaultTag()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4E8);
+		}
+
+		static ::System::Single* StaticGet__CommonLoadingStartTime()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4EC);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_EditorOnlyMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4F0);
+		}
+
+		static ::System::Int32* StaticGet__CommonLoadingStartFrame()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4F8);
+		}
+
+		static ::System::Single* StaticGet__BgpLoadingStartTime()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x4FC);
 		}
 
 		static ::System::Int32* StaticGet_s_SerialId()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x508);
+			return (::System::Int32*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x500);
 		}
 
 		static ::System::Single* StaticGet__AdvLoadingStartTime()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x50C);
+			return (::System::Single*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x504);
+		}
+
+		static ::System::Guid* StaticGet_ProfilerGuid()
+		{
+			return (::System::Guid*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x508);
 		}
 
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_ProfilerOnlyMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x510);
-		}
-
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_EditorOnlyMarker()
 		{
 			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("RPG", "ProfileUtility")->GetStaticField(0x518);
 		}

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroInterruptAllProjectiles; }
 
-#define GOFINDHNMLP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2E2A0)
-#define GOFINDHNMLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B2E2D0)
+#define GOFINDHNMLP_CTOR_OFFSET UNITYSDK_OFFSET(0x16AB45A0)
+#define GOFINDHNMLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AB45D0)
 
-inline static constexpr unsigned int GOFINDHNMLP_TypeDefinitionIndex = 58958;
+inline static constexpr unsigned int GOFINDHNMLP_TypeDefinitionIndex = 60231;
 
 	class GOFINDHNMLP
 	{

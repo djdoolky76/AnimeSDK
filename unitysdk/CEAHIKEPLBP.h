@@ -4,24 +4,24 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define CEAHIKEPLBP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DD5E0)
-#define CEAHIKEPLBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD660)
+#define CEAHIKEPLBP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DA5E2E0)
+#define CEAHIKEPLBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5E360)
 
-inline static constexpr unsigned int CEAHIKEPLBP_TypeDefinitionIndex = 43546;
+inline static constexpr unsigned int CEAHIKEPLBP_TypeDefinitionIndex = 44528;
 
 	class CEAHIKEPLBP : public ::NNDJBGAGHLD
 	{
 	public:
 		::RPG::GameCore::LittleGameEvent* BHDGCIJPCFN; // 0x10
-		::System::Boolean ICEIIAHGPFJ; // 0x18
+		::UnityEngine::Vector3 AJHKIJLGLOH; // 0x18
+		::System::Single GCJMFBKLGHI; // 0x24
+		::System::Single DPKMOFJOHKB; // 0x28
+		::UnityEngine::Vector3 HOHFMIBLDJJ; // 0x2C
+		::System::Single MLKDPKEGIML; // 0x38
+		::System::Single IDKONBFPBLH; // 0x3C
+		::System::Boolean ICEIIAHGPFJ; // 0x40
 		::System::Byte _padding0[0x3];
-		::System::Single DPKMOFJOHKB; // 0x1C
-		::System::Single MLKDPKEGIML; // 0x20
-		::UnityEngine::Vector3 HOHFMIBLDJJ; // 0x24
-		::System::Single GCJMFBKLGHI; // 0x30
-		::System::UInt32 CEIFACBCNKE; // 0x34
-		::System::Single IDKONBFPBLH; // 0x38
-		::UnityEngine::Vector3 AJHKIJLGLOH; // 0x3C
+		::System::UInt32 CEIFACBCNKE; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEAHIKEPLBP_CTOR_OFFSET))(this);

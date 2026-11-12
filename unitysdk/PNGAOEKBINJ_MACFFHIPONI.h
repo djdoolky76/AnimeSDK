@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PNGAOEKBINJ_MACFFHIPONI_TypeDefinitionIndex = 37118;
+inline static constexpr unsigned int PNGAOEKBINJ_MACFFHIPONI_TypeDefinitionIndex = 38046;
 
 	class PNGAOEKBINJ_MACFFHIPONI
 	{

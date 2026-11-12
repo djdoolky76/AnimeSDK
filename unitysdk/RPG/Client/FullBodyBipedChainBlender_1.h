@@ -6,7 +6,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullBodyBipedChainBlender_1_TypeDefinitionIndex = 68596;
+	inline static constexpr unsigned int FullBodyBipedChainBlender_1_TypeDefinitionIndex = 70544;
 
 	template <typename T>
 	class FullBodyBipedChainBlender_1 : public ::System::Object

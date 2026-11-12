@@ -6,12 +6,12 @@ namespace RPG::GameCore { class SubLevelGraphDynamicFloatOverride; }
 namespace RPG::GameCore { class SubLevelGraphDynamicOverrideSet; }
 namespace RPG::GameCore { class SubLevelGraphDynamicStringOverride; }
 
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICOVERRIDESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2F420)
-#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICOVERRIDESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1E460)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICOVERRIDESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDEDF0)
+#define RPG_GAMECORE_SUBLEVELGRAPHDYNAMICOVERRIDESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDDEC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubLevelGraphDynamicOverrideSet_TypeDefinitionIndex = 20718;
+	inline static constexpr unsigned int SubLevelGraphDynamicOverrideSet_TypeDefinitionIndex = 21055;
 
 	class SubLevelGraphDynamicOverrideSet : public ::RPG::GameCore::JsonConfig
 	{

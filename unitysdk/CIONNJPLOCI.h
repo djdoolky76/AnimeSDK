@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CIONNJPLOCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29B20)
+#define CIONNJPLOCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF2C290)
 
-inline static constexpr unsigned int CIONNJPLOCI_TypeDefinitionIndex = 6310;
+inline static constexpr unsigned int CIONNJPLOCI_TypeDefinitionIndex = 6317;
 
 	class CIONNJPLOCI : public ::System::Object
 	{

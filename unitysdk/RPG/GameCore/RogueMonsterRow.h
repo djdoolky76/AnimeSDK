@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMonsterRow; }
 
-#define RPG_GAMECORE_ROGUEMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1CB40)
-#define RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA1B720)
+#define RPG_GAMECORE_ROGUEMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2EC40)
+#define RPG_GAMECORE_ROGUEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC2D820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMonsterRow_TypeDefinitionIndex = 14685;
+	inline static constexpr unsigned int RogueMonsterRow_TypeDefinitionIndex = 14841;
 
 	class RogueMonsterRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::RogueMonsterDropType MonsterDropType; // 0x10
-		::System::UInt32 EventID; // 0x14
+		::System::UInt32 RogueMonsterID; // 0x14
 		::System::UInt32 NpcMonsterID; // 0x18
-		::System::UInt32 RogueMonsterID; // 0x1C
+		::System::UInt32 EventID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMONSTERROW_CTOR_OFFSET))(this);

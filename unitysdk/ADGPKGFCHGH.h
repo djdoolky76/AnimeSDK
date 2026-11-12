@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/IBAKJOHPFLE.h"
 
-inline static constexpr unsigned int ADGPKGFCHGH_TypeDefinitionIndex = 6232;
+inline static constexpr unsigned int ADGPKGFCHGH_TypeDefinitionIndex = 6239;
 
 	struct alignas(4) ADGPKGFCHGH
 	{

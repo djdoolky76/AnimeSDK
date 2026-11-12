@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OGDNGNMHBIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98D030)
+#define OGDNGNMHBIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4EDA0)
 
-inline static constexpr unsigned int OGDNGNMHBIN_TypeDefinitionIndex = 42124;
+inline static constexpr unsigned int OGDNGNMHBIN_TypeDefinitionIndex = 43099;
 
 	class OGDNGNMHBIN : public ::System::Object
 	{

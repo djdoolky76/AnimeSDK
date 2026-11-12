@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScreenTransferActionState_TypeDefinitionIndex = 53559;
+	inline static constexpr unsigned int ScreenTransferActionState_TypeDefinitionIndex = 54722;
 
 	enum class ScreenTransferActionState : ::System::Int32
 	{

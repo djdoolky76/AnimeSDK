@@ -6,22 +6,22 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xDAFAC50)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAFB5F0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDAFB560)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0xDAFB450)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xDAFB4E0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xDAFAD70)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_INITWITHFILTERCONFIG_OFFSET UNITYSDK_OFFSET(0xDAFB1E0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xDAFACE0)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_RESETFILTER_OFFSET UNITYSDK_OFFSET(0xDAFAE20)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERALPHA_OFFSET UNITYSDK_OFFSET(0xDAFB120)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERLUT_OFFSET UNITYSDK_OFFSET(0xDAFB060)
-#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xDAFADD0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_AWAKE_OFFSET UNITYSDK_OFFSET(0xE5518D0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE552270)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE5521E0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GETTEXTURE_OFFSET UNITYSDK_OFFSET(0xE5520D0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE552160)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_GET_MATERIALFORRENDERING_OFFSET UNITYSDK_OFFSET(0xE5519F0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_INITWITHFILTERCONFIG_OFFSET UNITYSDK_OFFSET(0xE551E60)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE551960)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_RESETFILTER_OFFSET UNITYSDK_OFFSET(0xE551AA0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERALPHA_OFFSET UNITYSDK_OFFSET(0xE551DA0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETFILTERLUT_OFFSET UNITYSDK_OFFSET(0xE551CE0)
+#define RPG_CLIENT_PHOTOGRAPHFILTERIMAGE_SETTEXTURE_OFFSET UNITYSDK_OFFSET(0xE551A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphFilterImage_TypeDefinitionIndex = 69448;
+	inline static constexpr unsigned int PhotoGraphFilterImage_TypeDefinitionIndex = 71402;
 
 	class PhotoGraphFilterImage : public ::UnityEngine::UI::RawImage
 	{
@@ -29,64 +29,64 @@ namespace RPG::Client
 		::System::Boolean IsChangedAfterSave; // 0x108
 		::System::Byte _padding0[0x7];
 		::UnityEngine::Material* _MaterialInstance; // 0x110
-		static ::System::Int32* StaticGet__ShaderID_Brightness()
+		static ::System::Int32* StaticGet__ShaderID_Hue()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x6680);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_HueColorize()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x6684);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_FilterIntensity()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x6688);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_LUTEnable()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x668C);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_Saturation()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x6690);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95C0);
 		}
 
 		static ::System::Int32* StaticGet__ShaderID_LightnessColorize()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x6694);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_Contrast()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x6698);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_SaturationColorize()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x669C);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_Hue()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x66A0);
-		}
-
-		static ::System::Int32* StaticGet__ShaderID_ColorizeEnable()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x66A4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95C4);
 		}
 
 		static ::System::Int32* StaticGet__ShaderID_LUT()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x66A8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95C8);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_Saturation()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95CC);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_FilterIntensity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95D0);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_Contrast()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95D4);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_Brightness()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95D8);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_ColorizeEnable()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95DC);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_HueColorize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95E0);
 		}
 
 		static ::System::Int32* StaticGet__ShaderID_Lightness()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x66AC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95E4);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_SaturationColorize()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95E8);
+		}
+
+		static ::System::Int32* StaticGet__ShaderID_LUTEnable()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "PhotoGraphFilterImage")->GetStaticField(0x95EC);
 		}
 
 		::System::Void _ctor()

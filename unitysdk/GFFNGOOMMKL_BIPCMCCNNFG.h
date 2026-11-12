@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MHCOBFJNNJB.h"
 
-inline static constexpr unsigned int GFFNGOOMMKL_BIPCMCCNNFG_TypeDefinitionIndex = 76592;
+inline static constexpr unsigned int GFFNGOOMMKL_BIPCMCCNNFG_TypeDefinitionIndex = 78923;
 
 	struct alignas(4) GFFNGOOMMKL_BIPCMCCNNFG
 	{

@@ -7,7 +7,7 @@
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadTriggers_TypeDefinitionIndex = 40785;
+	inline static constexpr unsigned int GamePadTriggers_TypeDefinitionIndex = 41760;
 
 	struct alignas(4) GamePadTriggers
 	{

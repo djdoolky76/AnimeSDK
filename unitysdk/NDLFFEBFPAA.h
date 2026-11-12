@@ -17,23 +17,23 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftProductUI3DViewMode
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NDLFFEBFPAA_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xBB4DB20)
-#define NDLFFEBFPAA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBB4C460)
-#define NDLFFEBFPAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4BDD0)
-#define NDLFFEBFPAA_KAGFKKKENNB_OFFSET UNITYSDK_OFFSET(0xBB4C5B0)
+#define NDLFFEBFPAA_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xC3D7210)
+#define NDLFFEBFPAA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC3D5B50)
+#define NDLFFEBFPAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC3D54C0)
+#define NDLFFEBFPAA_KAGFKKKENNB_OFFSET UNITYSDK_OFFSET(0xC3D5CA0)
 
-inline static constexpr unsigned int NDLFFEBFPAA_TypeDefinitionIndex = 79756;
+inline static constexpr unsigned int NDLFFEBFPAA_TypeDefinitionIndex = 82533;
 
 	class NDLFFEBFPAA : public ::System::Object
 	{
 	public:
-		::GHLLLMOJHBN* HPKAMOIPAKN; // 0x10
-		::MPHJECLHDKJ* IDJNMDGBKKI; // 0x18
+		::OBJANKHLNGO* GJALMBBNNOF; // 0x10
+		::GHLLLMOJHBN* HPKAMOIPAKN; // 0x18
 		::PGKCICIKLMB* MHMMAHBDOHD; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Collections::Generic::List_1<::RPG::Client::MechCraft::MechCraftPartType>*>* BCFJCDDJJLE; // 0x28
+		::NDCLBAKBEIP* AFKPGPDBMKH; // 0x28
 		::FNHHCDAKILF* JIFFPCDGGID; // 0x30
-		::NDCLBAKBEIP* AFKPGPDBMKH; // 0x38
-		::OBJANKHLNGO* GJALMBBNNOF; // 0x40
+		::MPHJECLHDKJ* IDJNMDGBKKI; // 0x38
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Collections::Generic::List_1<::RPG::Client::MechCraft::MechCraftPartType>*>* BCFJCDDJJLE; // 0x40
 		// static const ::System::Object FJAMFAGLBNL; // 0x0
 		// static const ::System::Object DDMIIEDCDNJ; // 0x0
 		::System::Void _ctor(::GHLLLMOJHBN* a1, ::NDCLBAKBEIP* a2, ::PGKCICIKLMB* a3, ::OBJANKHLNGO* a4, ::MPHJECLHDKJ* a5, ::FNHHCDAKILF* a6)

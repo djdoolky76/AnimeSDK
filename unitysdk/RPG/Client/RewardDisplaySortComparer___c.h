@@ -5,25 +5,25 @@ class KJKBPJMOEJD;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEC40A0)
-#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEC40D0)
-#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__LOADCOMPARECONFIG_B__1_0_OFFSET UNITYSDK_OFFSET(0xDEC40E0)
+#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9749F0)
+#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE974A20)
+#define RPG_CLIENT_REWARDDISPLAYSORTCOMPARER___C__LOADCOMPARECONFIG_B__1_0_OFFSET UNITYSDK_OFFSET(0xE974A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RewardDisplaySortComparer___c_TypeDefinitionIndex = 65740;
+	inline static constexpr unsigned int RewardDisplaySortComparer___c_TypeDefinitionIndex = 67666;
 
 	class RewardDisplaySortComparer___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C0B0);
-		}
-
 		static ::System::Comparison_1<::KJKBPJMOEJD*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::KJKBPJMOEJD*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C0B8);
+			return (::System::Comparison_1<::KJKBPJMOEJD*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AE00);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AE08);
 		}
 
 		static ::System::Void _cctor()

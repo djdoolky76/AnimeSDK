@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HBIFONBGLOP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE861C0)
-#define HBIFONBGLOP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE86790)
-#define HBIFONBGLOP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE86330)
-#define HBIFONBGLOP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE85C10)
-#define HBIFONBGLOP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE85EA0)
-#define HBIFONBGLOP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE863D0)
-#define HBIFONBGLOP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE86420)
-#define HBIFONBGLOP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE86200)
-#define HBIFONBGLOP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE85E40)
-#define HBIFONBGLOP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE86010)
-#define HBIFONBGLOP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE86290)
-#define HBIFONBGLOP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE85B90)
+#define HBIFONBGLOP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E062EB0)
+#define HBIFONBGLOP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E063480)
+#define HBIFONBGLOP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E063020)
+#define HBIFONBGLOP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E062900)
+#define HBIFONBGLOP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E062B90)
+#define HBIFONBGLOP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E0630C0)
+#define HBIFONBGLOP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E063110)
+#define HBIFONBGLOP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E062EF0)
+#define HBIFONBGLOP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E062B30)
+#define HBIFONBGLOP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E062D00)
+#define HBIFONBGLOP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E062F80)
+#define HBIFONBGLOP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E062880)
 
-inline static constexpr unsigned int HBIFONBGLOP_TypeDefinitionIndex = 13102;
+inline static constexpr unsigned int HBIFONBGLOP_TypeDefinitionIndex = 13170;
 
 	class HBIFONBGLOP : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CutSceneConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CutSceneConfigRow*>**)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x1B7C0);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x1B7C8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x13140);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CutSceneConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CutSceneConfigRow*>**)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x13148);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x1B7D0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x13150);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x6310);
+			return (::System::Byte*)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x3D90);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x6311);
+			return (::System::Boolean*)UnitySDK::FromName("", "HBIFONBGLOP")->GetStaticField(0x3D91);
 		}
 
 		static ::System::Void _cctor()

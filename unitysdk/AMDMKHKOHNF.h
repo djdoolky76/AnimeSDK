@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AMDMKHKOHNF_TypeDefinitionIndex = 28728;
+inline static constexpr unsigned int AMDMKHKOHNF_TypeDefinitionIndex = 29318;
 
 	enum class AMDMKHKOHNF : ::System::Int32
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_TELEMETRYBOXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE2030)
+#define MIHOYO_SDK_TELEMETRYBOXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1690A0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TelemetryBoxConfig_TypeDefinitionIndex = 7917;
+	inline static constexpr unsigned int TelemetryBoxConfig_TypeDefinitionIndex = 7926;
 
 	class TelemetryBoxConfig : public ::System::Object
 	{

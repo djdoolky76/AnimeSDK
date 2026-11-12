@@ -6,21 +6,21 @@ namespace RPG::GameCore { class CharacterReplaceMaterialRenderList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IONFMLHCJFJ_AFOBEGOJDFA_OFFSET UNITYSDK_OFFSET(0x16513670)
-#define IONFMLHCJFJ_BHMGHNIBDKE_OFFSET UNITYSDK_OFFSET(0x16513D70)
-#define IONFMLHCJFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x165131D0)
-#define IONFMLHCJFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16514190)
-#define IONFMLHCJFJ_NMPJEJADONK_OFFSET UNITYSDK_OFFSET(0x165139F0)
-#define IONFMLHCJFJ_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x16513280)
+#define IONFMLHCJFJ_AFOBEGOJDFA_OFFSET UNITYSDK_OFFSET(0xB847E30)
+#define IONFMLHCJFJ_BHMGHNIBDKE_OFFSET UNITYSDK_OFFSET(0xB848530)
+#define IONFMLHCJFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB847990)
+#define IONFMLHCJFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB848950)
+#define IONFMLHCJFJ_NMPJEJADONK_OFFSET UNITYSDK_OFFSET(0xB8481B0)
+#define IONFMLHCJFJ_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB847A40)
 
-inline static constexpr unsigned int IONFMLHCJFJ_TypeDefinitionIndex = 69139;
+inline static constexpr unsigned int IONFMLHCJFJ_TypeDefinitionIndex = 71092;
 
 	class IONFMLHCJFJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* OIKPPAFNOEJ; // 0x10
-		::RPG::GameCore::CharacterReplaceMaterialRenderList* NHBNDJGDKDA; // 0x18
-		::MOEMPPDFFLE* EDLCJHNBKDN; // 0x20
+		::MOEMPPDFFLE* EDLCJHNBKDN; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt32>* OIKPPAFNOEJ; // 0x18
+		::RPG::GameCore::CharacterReplaceMaterialRenderList* NHBNDJGDKDA; // 0x20
 		::System::Void _ctor(::MOEMPPDFFLE* a1, ::RPG::GameCore::CharacterReplaceMaterialRenderList* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::MOEMPPDFFLE*, ::RPG::GameCore::CharacterReplaceMaterialRenderList*))((::PBYTE)hIl2Cpp + IONFMLHCJFJ_CTOR_OFFSET))(this, a1, a2);

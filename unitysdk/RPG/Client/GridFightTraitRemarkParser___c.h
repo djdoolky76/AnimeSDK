@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightTraitRemarkLineEffectBase; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2C2C60)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2C2CA0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C___GETSHOWINGLINEPARSERS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD2C2CB0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCEBBE0)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCEBC20)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKPARSER___C___GETSHOWINGLINEPARSERS_B__3_0_OFFSET UNITYSDK_OFFSET(0xDCEBC30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkParser___c_TypeDefinitionIndex = 65479;
+	inline static constexpr unsigned int GridFightTraitRemarkParser___c_TypeDefinitionIndex = 67386;
 
 	class GridFightTraitRemarkParser___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB240);
-		}
-
 		static ::System::Func_2<::RPG::Client::GridFightTraitRemarkLineEffectBase*, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitRemarkLineEffectBase*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB248);
+			return (::System::Func_2<::RPG::Client::GridFightTraitRemarkLineEffectBase*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15540);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15548);
 		}
 
 		static ::System::Void _cctor()

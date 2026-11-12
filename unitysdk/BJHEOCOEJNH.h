@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ChangeHeartDialModelByScript; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJHEOCOEJNH_CTOR_OFFSET UNITYSDK_OFFSET(0xB79A240)
-#define BJHEOCOEJNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB79A250)
-#define BJHEOCOEJNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB79A2A0)
-#define BJHEOCOEJNH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB79A3E0)
-#define BJHEOCOEJNH_TICK_OFFSET UNITYSDK_OFFSET(0xB79A430)
+#define BJHEOCOEJNH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE5DC00)
+#define BJHEOCOEJNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE5DC10)
+#define BJHEOCOEJNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE5DC60)
+#define BJHEOCOEJNH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE5DDA0)
+#define BJHEOCOEJNH_TICK_OFFSET UNITYSDK_OFFSET(0xBE5DDF0)
 
-inline static constexpr unsigned int BJHEOCOEJNH_TypeDefinitionIndex = 52639;
+inline static constexpr unsigned int BJHEOCOEJNH_TypeDefinitionIndex = 53746;
 
 	class BJHEOCOEJNH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ChangeHeartDialModelByScript* HLLLPAHOFFF; // 0x18
-		::RPG::GameCore::TaskContext* OBKLPOKMIEA; // 0x20
+		::RPG::GameCore::TaskContext* OBKLPOKMIEA; // 0x18
+		::RPG::GameCore::ChangeHeartDialModelByScript* HLLLPAHOFFF; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ChangeHeartDialModelByScript* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ChangeHeartDialModelByScript*))((::PBYTE)hIl2Cpp + BJHEOCOEJNH_CTOR_OFFSET))(this, a1, a2);

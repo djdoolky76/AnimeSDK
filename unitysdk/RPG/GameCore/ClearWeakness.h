@@ -7,13 +7,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClearWeakness; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLEARWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B7880)
-#define RPG_GAMECORE_CLEARWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B7890)
-#define RPG_GAMECORE_CLEARWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B7850)
+#define RPG_GAMECORE_CLEARWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C7860)
+#define RPG_GAMECORE_CLEARWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7C7870)
+#define RPG_GAMECORE_CLEARWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7C7830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearWeakness_TypeDefinitionIndex = 23075;
+	inline static constexpr unsigned int ClearWeakness_TypeDefinitionIndex = 23504;
 
 	class ClearWeakness : public ::RPG::GameCore::TaskConfig
 	{

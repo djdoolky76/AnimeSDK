@@ -5,16 +5,16 @@ class OMGONAELHIE;
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class String; }
 
-#define OMGONAELHIE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF29F20)
-#define OMGONAELHIE___C__DISPLAYCLASS10_0___DICEAPPEAR_B__1_OFFSET UNITYSDK_OFFSET(0xBF2B3D0)
+#define OMGONAELHIE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC827840)
+#define OMGONAELHIE___C__DISPLAYCLASS10_0___DICEAPPEAR_B__1_OFFSET UNITYSDK_OFFSET(0xC828CE0)
 
-inline static constexpr unsigned int OMGONAELHIE___c__DisplayClass10_0_TypeDefinitionIndex = 58455;
+inline static constexpr unsigned int OMGONAELHIE___c__DisplayClass10_0_TypeDefinitionIndex = 59711;
 
 	class OMGONAELHIE___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::OMGONAELHIE* __4__this; // 0x10
-		::System::String* texturePath; // 0x18
+		::System::String* texturePath; // 0x10
+		::OMGONAELHIE* __4__this; // 0x18
 		::System::UInt32 slotID; // 0x20
 		::System::Void _ctor()
 		{

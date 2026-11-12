@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 class JPKFKDGPDLJ;
 
-#define DODPFANHNDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FDD0)
+#define DODPFANHNDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF3610)
 
-inline static constexpr unsigned int DODPFANHNDG_TypeDefinitionIndex = 41945;
+inline static constexpr unsigned int DODPFANHNDG_TypeDefinitionIndex = 42920;
 
 	class DODPFANHNDG : public ::System::Object
 	{
 	public:
 		::JPKFKDGPDLJ* HOGDPCJANEK; // 0x10
-		::System::UInt32 HCDNAPNIAJH; // 0x18
-		::RPG::Client::LittleGame::ChimeraDuelSettleReason JEHOMBANNLM; // 0x1C
+		::RPG::Client::LittleGame::ChimeraDuelSettleReason JEHOMBANNLM; // 0x18
+		::System::UInt32 HCDNAPNIAJH; // 0x1C
 		::System::UInt32 FJPBONGDHLF; // 0x20
 		::System::Void _ctor()
 		{

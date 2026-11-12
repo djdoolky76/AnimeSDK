@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TurnBasedModifierDependencyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERDEPENDENCYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC63C80)
-#define RPG_GAMECORE_TURNBASEDMODIFIERDEPENDENCYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC62380)
+#define RPG_GAMECORE_TURNBASEDMODIFIERDEPENDENCYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE76880)
+#define RPG_GAMECORE_TURNBASEDMODIFIERDEPENDENCYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE74F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierDependencyConfig_TypeDefinitionIndex = 18233;
+	inline static constexpr unsigned int TurnBasedModifierDependencyConfig_TypeDefinitionIndex = 18395;
 
 	class TurnBasedModifierDependencyConfig : public ::RPG::GameCore::JsonConfig
 	{

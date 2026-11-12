@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StarFightSeason_TypeDefinitionIndex = 12391;
+	inline static constexpr unsigned int StarFightSeason_TypeDefinitionIndex = 12458;
 
 	enum class StarFightSeason : ::System::Int32
 	{

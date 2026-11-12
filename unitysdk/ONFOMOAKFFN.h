@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 class FNCJNHDMCBH;
 
-#define ONFOMOAKFFN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF518B0)
-#define ONFOMOAKFFN_GET_DIYMECHATRONID_OFFSET UNITYSDK_OFFSET(0xBF51880)
-#define ONFOMOAKFFN_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xBF518A0)
-#define ONFOMOAKFFN_GET_PAINTCOLORID_OFFSET UNITYSDK_OFFSET(0xBF51890)
+#define ONFOMOAKFFN_CTOR_OFFSET UNITYSDK_OFFSET(0xC84F9E0)
+#define ONFOMOAKFFN_GET_DIYMECHATRONID_OFFSET UNITYSDK_OFFSET(0xC84F9B0)
+#define ONFOMOAKFFN_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xC84F9D0)
+#define ONFOMOAKFFN_GET_PAINTCOLORID_OFFSET UNITYSDK_OFFSET(0xC84F9C0)
 
-inline static constexpr unsigned int ONFOMOAKFFN_TypeDefinitionIndex = 80119;
+inline static constexpr unsigned int ONFOMOAKFFN_TypeDefinitionIndex = 82896;
 
 	class ONFOMOAKFFN : public ::System::Object
 	{
 	public:
-		::System::UInt32 _DiyMechatronID_k__BackingField; // 0x10
-		::System::UInt32 _PaintColorID_k__BackingField; // 0x14
+		::System::UInt32 _PaintColorID_k__BackingField; // 0x10
+		::System::UInt32 _DiyMechatronID_k__BackingField; // 0x14
 		::System::UInt32 _InstanceID_k__BackingField; // 0x18
 		::System::Void _ctor(::FNCJNHDMCBH* a1)
 		{

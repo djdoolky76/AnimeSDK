@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceIDPair; }
 
-#define RPG_GAMECORE_PERFORMANCEIDPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8FC2F0)
-#define RPG_GAMECORE_PERFORMANCEIDPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8FC1F0)
+#define RPG_GAMECORE_PERFORMANCEIDPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB15830)
+#define RPG_GAMECORE_PERFORMANCEIDPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB15730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceIDPair_TypeDefinitionIndex = 19039;
+	inline static constexpr unsigned int PerformanceIDPair_TypeDefinitionIndex = 19226;
 
 	class PerformanceIDPair : public ::RPG::GameCore::JsonConfig
 	{

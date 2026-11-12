@@ -6,14 +6,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlManager___O_TypeDefinitionIndex = 40816;
+	inline static constexpr unsigned int InControlManager___O_TypeDefinitionIndex = 41791;
 
 	class InControlManager___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::InControl::LogMessage>** StaticGet__0___LogMessage()
 		{
-			return (::System::Action_1<::InControl::LogMessage>**)UnitySDK::FromName("InControl", "<>O")->GetStaticField(0x57DB0);
+			return (::System::Action_1<::InControl::LogMessage>**)UnitySDK::FromName("InControl", "<>O")->GetStaticField(0x69220);
 		}
 
 	};

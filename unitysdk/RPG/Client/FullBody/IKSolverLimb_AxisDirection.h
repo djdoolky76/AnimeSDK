@@ -6,7 +6,7 @@
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int IKSolverLimb_AxisDirection_TypeDefinitionIndex = 74267;
+	inline static constexpr unsigned int IKSolverLimb_AxisDirection_TypeDefinitionIndex = 76415;
 
 	struct alignas(4) IKSolverLimb_AxisDirection
 	{

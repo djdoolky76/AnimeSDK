@@ -6,19 +6,19 @@ class JGGMLADDHHG;
 namespace RPG::Client::Pet { class IPetInstance; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define JGGMLADDHHG_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0xB1999F0)
-#define JGGMLADDHHG_CCTOR_OFFSET UNITYSDK_OFFSET(0xB199A40)
-#define JGGMLADDHHG_CTOR_OFFSET UNITYSDK_OFFSET(0xB1999A0)
-#define JGGMLADDHHG_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xB1999B0)
+#define JGGMLADDHHG_AGHCACKCDAM_OFFSET UNITYSDK_OFFSET(0xB9B3D60)
+#define JGGMLADDHHG_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9B3DB0)
+#define JGGMLADDHHG_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B3D10)
+#define JGGMLADDHHG_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xB9B3D20)
 
-inline static constexpr unsigned int JGGMLADDHHG_TypeDefinitionIndex = 75710;
+inline static constexpr unsigned int JGGMLADDHHG_TypeDefinitionIndex = 78037;
 
 	class JGGMLADDHHG : public ::System::Object
 	{
 	public:
 		static ::JGGMLADDHHG** StaticGet_FMJPMFEDIJL()
 		{
-			return (::JGGMLADDHHG**)UnitySDK::FromName("", "JGGMLADDHHG")->GetStaticField(0xFC90);
+			return (::JGGMLADDHHG**)UnitySDK::FromName("", "JGGMLADDHHG")->GetStaticField(0x40630);
 		}
 
 		::System::Void _ctor()

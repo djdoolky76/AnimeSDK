@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBattleTargetMultiTargetSwitch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDCKPCPPCKO_CTOR_OFFSET UNITYSDK_OFFSET(0x13310100)
-#define EDCKPCPPCKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13310130)
+#define EDCKPCPPCKO_CTOR_OFFSET UNITYSDK_OFFSET(0x140CC6A0)
+#define EDCKPCPPCKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140CC6D0)
 
-inline static constexpr unsigned int EDCKPCPPCKO_TypeDefinitionIndex = 58526;
+inline static constexpr unsigned int EDCKPCPPCKO_TypeDefinitionIndex = 59790;
 
 	class EDCKPCPPCKO
 	{

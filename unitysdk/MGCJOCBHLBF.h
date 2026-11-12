@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 class MGCJOCBHLBF;
 namespace System { class String; }
 
-#define MGCJOCBHLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D165760)
-#define MGCJOCBHLBF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D165490)
+#define MGCJOCBHLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E364870)
+#define MGCJOCBHLBF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3645A0)
 
-inline static constexpr unsigned int MGCJOCBHLBF_TypeDefinitionIndex = 11580;
+inline static constexpr unsigned int MGCJOCBHLBF_TypeDefinitionIndex = 11631;
 
 	class MGCJOCBHLBF : public ::System::Object
 	{
 	public:
 		::System::String* HLBMOIKELLN; // 0x10
-		::System::String* AMOILJKCNOI; // 0x18
+		::System::String* MNMGEPNEJDO; // 0x18
 		::System::String* PPMFCIIEGJF; // 0x20
-		::System::String* JKIMMLOIJKJ; // 0x28
-		::System::String* JFOOFHLOJAO; // 0x30
-		::System::String* MNMGEPNEJDO; // 0x38
-		::System::UInt32 GMCBNNKJAGJ; // 0x40
-		::RPG::GameCore::FateRinCaseBoardAvatarType HOPKBCJIOCD; // 0x44
+		::System::String* JFOOFHLOJAO; // 0x28
+		::System::String* JKIMMLOIJKJ; // 0x30
+		::System::String* AMOILJKCNOI; // 0x38
+		::RPG::GameCore::FateRinCaseBoardAvatarType HOPKBCJIOCD; // 0x40
+		::System::UInt32 GMCBNNKJAGJ; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MGCJOCBHLBF_CTOR_OFFSET))(this);

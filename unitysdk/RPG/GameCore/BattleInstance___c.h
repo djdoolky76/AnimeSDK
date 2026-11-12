@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_BATTLEINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5C63D0)
-#define RPG_GAMECORE_BATTLEINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C6400)
-#define RPG_GAMECORE_BATTLEINSTANCE___C__GENERATETURNSNAPSHOT_B__8_0_OFFSET UNITYSDK_OFFSET(0xE5C6410)
+#define RPG_GAMECORE_BATTLEINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF047800)
+#define RPG_GAMECORE_BATTLEINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF047830)
+#define RPG_GAMECORE_BATTLEINSTANCE___C__GENERATETURNSNAPSHOT_B__8_0_OFFSET UNITYSDK_OFFSET(0xF047840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleInstance___c_TypeDefinitionIndex = 56039;
+	inline static constexpr unsigned int BattleInstance___c_TypeDefinitionIndex = 57251;
 
 	class BattleInstance___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::PKFBNIHNLGG>** StaticGet___9__8_0()
-		{
-			return (::System::Comparison_1<::PKFBNIHNLGG>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x57220);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x57228);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x674E0);
+		}
+
+		static ::System::Comparison_1<::PKFBNIHNLGG>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::PKFBNIHNLGG>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x674E8);
 		}
 
 		static ::System::Void _cctor()

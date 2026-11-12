@@ -10,23 +10,23 @@ namespace RPG::Client { class PlanetFesGachaResultAvatarFragmentsData; }
 namespace RPG::Client { class PlanetFesGachaResultItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESGACHARESULTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDB97A50)
-#define RPG_CLIENT_PLANETFESGACHARESULTDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xDB96BB0)
-#define RPG_CLIENT_PLANETFESGACHARESULTDATA__SYNCAVATARITEMLIST_OFFSET UNITYSDK_OFFSET(0xDB96EF0)
-#define RPG_CLIENT_PLANETFESGACHARESULTDATA__SYNCITEMLIST_OFFSET UNITYSDK_OFFSET(0xDB972E0)
-#define RPG_CLIENT_PLANETFESGACHARESULTDATA__SYNCNEWAVATARLIST_OFFSET UNITYSDK_OFFSET(0xDB96E40)
+#define RPG_CLIENT_PLANETFESGACHARESULTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE631E00)
+#define RPG_CLIENT_PLANETFESGACHARESULTDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xE631030)
+#define RPG_CLIENT_PLANETFESGACHARESULTDATA__SYNCAVATARITEMLIST_OFFSET UNITYSDK_OFFSET(0xE631350)
+#define RPG_CLIENT_PLANETFESGACHARESULTDATA__SYNCITEMLIST_OFFSET UNITYSDK_OFFSET(0xE6316A0)
+#define RPG_CLIENT_PLANETFESGACHARESULTDATA__SYNCNEWAVATARLIST_OFFSET UNITYSDK_OFFSET(0xE6312A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesGachaResultData_TypeDefinitionIndex = 66597;
+	inline static constexpr unsigned int PlanetFesGachaResultData_TypeDefinitionIndex = 68533;
 
 	class PlanetFesGachaResultData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesGachaResultAvatarFragmentsData*>* AvatarFragmentsList; // 0x10
-		::System::Numerics::BigInteger Coin; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarData*>* NewAvatarList; // 0x28
-		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesGachaResultItemData*>* ItemList; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesGachaResultItemData*>* ItemList; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesGachaResultAvatarFragmentsData*>* AvatarFragmentsList; // 0x18
+		::System::Numerics::BigInteger Coin; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::PlanetFesAvatarData*>* NewAvatarList; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLANETFESGACHARESULTDATA_CTOR_OFFSET))(this);

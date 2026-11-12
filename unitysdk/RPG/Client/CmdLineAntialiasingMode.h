@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CmdLineAntialiasingMode_TypeDefinitionIndex = 35208;
+	inline static constexpr unsigned int CmdLineAntialiasingMode_TypeDefinitionIndex = 36136;
 
 	enum class CmdLineAntialiasingMode : ::System::Int32
 	{

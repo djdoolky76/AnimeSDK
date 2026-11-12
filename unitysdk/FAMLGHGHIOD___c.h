@@ -4,18 +4,18 @@
 class FAMLGHGHIOD;
 namespace System { class Object; }
 
-#define FAMLGHGHIOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E32A1F0)
-#define FAMLGHGHIOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E32A230)
-#define FAMLGHGHIOD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E32A240)
+#define FAMLGHGHIOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F60FAD0)
+#define FAMLGHGHIOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60FB10)
+#define FAMLGHGHIOD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F60FB20)
 
-inline static constexpr unsigned int FAMLGHGHIOD___c_TypeDefinitionIndex = 27735;
+inline static constexpr unsigned int FAMLGHGHIOD___c_TypeDefinitionIndex = 28266;
 
 	class FAMLGHGHIOD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55A50);
 		}
 
 		static ::System::Void _cctor()

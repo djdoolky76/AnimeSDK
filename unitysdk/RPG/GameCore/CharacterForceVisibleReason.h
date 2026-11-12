@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterForceVisibleReason_TypeDefinitionIndex = 57225;
+	inline static constexpr unsigned int CharacterForceVisibleReason_TypeDefinitionIndex = 58452;
 
 	enum class CharacterForceVisibleReason : ::System::Byte
 	{

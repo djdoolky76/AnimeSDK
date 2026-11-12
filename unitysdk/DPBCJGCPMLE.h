@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DPBCJGCPMLE_TypeDefinitionIndex = 27263;
+inline static constexpr unsigned int DPBCJGCPMLE_TypeDefinitionIndex = 27794;
 
 	enum class DPBCJGCPMLE : ::System::Int32
 	{

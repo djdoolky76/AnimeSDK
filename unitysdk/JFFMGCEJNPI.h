@@ -5,18 +5,18 @@ class CAFGGCCJPNI;
 class OHKGNIAAAAM;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define JFFMGCEJNPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1664C2D0)
-#define JFFMGCEJNPI_GET_LEVELENDDATA_OFFSET UNITYSDK_OFFSET(0x1664C2B0)
-#define JFFMGCEJNPI_GET_LEVELINDEX_OFFSET UNITYSDK_OFFSET(0x1664C2A0)
-#define JFFMGCEJNPI_GET_ROUTECONTEXTS_OFFSET UNITYSDK_OFFSET(0x1664C2C0)
+#define JFFMGCEJNPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB995880)
+#define JFFMGCEJNPI_GET_LEVELENDDATA_OFFSET UNITYSDK_OFFSET(0xB995860)
+#define JFFMGCEJNPI_GET_LEVELINDEX_OFFSET UNITYSDK_OFFSET(0xB995850)
+#define JFFMGCEJNPI_GET_ROUTECONTEXTS_OFFSET UNITYSDK_OFFSET(0xB995870)
 
-inline static constexpr unsigned int JFFMGCEJNPI_TypeDefinitionIndex = 63876;
+inline static constexpr unsigned int JFFMGCEJNPI_TypeDefinitionIndex = 65318;
 
 	class JFFMGCEJNPI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::CAFGGCCJPNI*>* _RouteContexts_k__BackingField; // 0x10
-		::OHKGNIAAAAM* _LevelEndData_k__BackingField; // 0x18
+		::OHKGNIAAAAM* _LevelEndData_k__BackingField; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::CAFGGCCJPNI*>* _RouteContexts_k__BackingField; // 0x18
 		::System::UInt32 _LevelIndex_k__BackingField; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::OHKGNIAAAAM* a2, ::System::Collections::Generic::IReadOnlyList_1<::CAFGGCCJPNI*>* a3)
 		{

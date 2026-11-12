@@ -5,23 +5,23 @@ class KHPOKIKCOFO;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define KPJPPOMHPDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C90C330)
-#define KPJPPOMHPDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90C370)
-#define KPJPPOMHPDP___C__CLEANUP_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C90C380)
+#define KPJPPOMHPDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAB8580)
+#define KPJPPOMHPDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB85C0)
+#define KPJPPOMHPDP___C__CLEANUP_B__3_0_OFFSET UNITYSDK_OFFSET(0x1DAB85D0)
 
-inline static constexpr unsigned int KPJPPOMHPDP___c_TypeDefinitionIndex = 42090;
+inline static constexpr unsigned int KPJPPOMHPDP___c_TypeDefinitionIndex = 43065;
 
 	class KPJPPOMHPDP___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::KHPOKIKCOFO*>** StaticGet___9__3_0()
 		{
-			return (::System::Action_1<::KHPOKIKCOFO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53980);
+			return (::System::Action_1<::KHPOKIKCOFO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DF90);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53988);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DF98);
 		}
 
 		static ::System::Void _cctor()

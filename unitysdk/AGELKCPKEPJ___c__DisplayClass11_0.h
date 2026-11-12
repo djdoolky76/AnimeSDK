@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AvatarOutfitSlot; }
 
-#define AGELKCPKEPJ___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF283D0)
-#define AGELKCPKEPJ___C__DISPLAYCLASS11_0__GETSLOT_B__0_OFFSET UNITYSDK_OFFSET(0xCF294A0)
+#define AGELKCPKEPJ___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5DEA90)
+#define AGELKCPKEPJ___C__DISPLAYCLASS11_0__GETSLOT_B__0_OFFSET UNITYSDK_OFFSET(0xD5E0030)
 
-inline static constexpr unsigned int AGELKCPKEPJ___c__DisplayClass11_0_TypeDefinitionIndex = 62508;
+inline static constexpr unsigned int AGELKCPKEPJ___c__DisplayClass11_0_TypeDefinitionIndex = 63921;
 
 	class AGELKCPKEPJ___c__DisplayClass11_0 : public ::System::Object
 	{

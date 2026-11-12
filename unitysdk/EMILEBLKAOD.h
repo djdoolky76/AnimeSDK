@@ -6,24 +6,25 @@ namespace RPG::GameCore { class SetLoopMoveObjectSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define EMILEBLKAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1553BD30)
-#define EMILEBLKAOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1553BD40)
-#define EMILEBLKAOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1553BD80)
-#define EMILEBLKAOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1553BFD0)
-#define EMILEBLKAOD_TICK_OFFSET UNITYSDK_OFFSET(0x1553C020)
+#define EMILEBLKAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x164884E0)
+#define EMILEBLKAOD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164884F0)
+#define EMILEBLKAOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16488530)
+#define EMILEBLKAOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16488780)
+#define EMILEBLKAOD_TICK_OFFSET UNITYSDK_OFFSET(0x164887D0)
 
-inline static constexpr unsigned int EMILEBLKAOD_TypeDefinitionIndex = 58555;
+inline static constexpr unsigned int EMILEBLKAOD_TypeDefinitionIndex = 59820;
 
 	class EMILEBLKAOD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetLoopMoveObjectSpeed* OFKGLJOAMLD; // 0x18
-		::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x20
-		::RPG::Client::LoopSceneMoveObject* HGDAENIAFKC; // 0x28
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
-		::System::Single BOBKPMMHHAM; // 0x38
-		::System::Single PGMIOKKLHIE; // 0x3C
-		::System::Boolean DLNNFPKMHLO; // 0x40
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::Client::LoopSceneMoveObject* HGDAENIAFKC; // 0x20
+		::RPG::GameCore::SetLoopMoveObjectSpeed* OFKGLJOAMLD; // 0x28
+		::UnityEngine::AnimationCurve* BKHPEABMAOE; // 0x30
+		::System::Boolean DLNNFPKMHLO; // 0x38
+		::System::Byte _padding0[0x3];
+		::System::Single BOBKPMMHHAM; // 0x3C
+		::System::Single PGMIOKKLHIE; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetLoopMoveObjectSpeed* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetLoopMoveObjectSpeed*))((::PBYTE)hIl2Cpp + EMILEBLKAOD_CTOR_OFFSET))(this, a1, a2);

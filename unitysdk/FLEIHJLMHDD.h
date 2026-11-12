@@ -5,20 +5,20 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class CallBack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLEIHJLMHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1582E260)
-#define FLEIHJLMHDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1582E2F0)
-#define FLEIHJLMHDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1582E400)
-#define FLEIHJLMHDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1582E450)
-#define FLEIHJLMHDD_TICK_OFFSET UNITYSDK_OFFSET(0x1582E4E0)
+#define FLEIHJLMHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1679D6B0)
+#define FLEIHJLMHDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1679D740)
+#define FLEIHJLMHDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1679D850)
+#define FLEIHJLMHDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1679D8A0)
+#define FLEIHJLMHDD_TICK_OFFSET UNITYSDK_OFFSET(0x1679D930)
 
-inline static constexpr unsigned int FLEIHJLMHDD_TypeDefinitionIndex = 52630;
+inline static constexpr unsigned int FLEIHJLMHDD_TypeDefinitionIndex = 53737;
 
 	class FLEIHJLMHDD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CallBack* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::KFELGAIGHAP* KOHOGMCJHBH; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::CallBack* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CallBack* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CallBack*))((::PBYTE)hIl2Cpp + FLEIHJLMHDD_CTOR_OFFSET))(this, a1, a2);

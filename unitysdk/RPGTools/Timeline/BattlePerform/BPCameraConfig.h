@@ -4,11 +4,11 @@
 namespace RPGTools::Timeline::BattlePerform { class BPCameraBlendConfig; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B5E60)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF38FCC0)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCameraConfig_TypeDefinitionIndex = 48791;
+	inline static constexpr unsigned int BPCameraConfig_TypeDefinitionIndex = 49837;
 
 	class BPCameraConfig : public ::System::Object
 	{

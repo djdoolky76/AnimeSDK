@@ -10,20 +10,20 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define KIEGLMIFDHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C901190)
-#define KIEGLMIFDHD_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x1C9010D0)
-#define KIEGLMIFDHD_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1C901040)
+#define KIEGLMIFDHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAD3A0)
+#define KIEGLMIFDHD_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x1DAAD2E0)
+#define KIEGLMIFDHD_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1DAAD250)
 
-inline static constexpr unsigned int KIEGLMIFDHD_TypeDefinitionIndex = 43185;
+inline static constexpr unsigned int KIEGLMIFDHD_TypeDefinitionIndex = 44166;
 
 	class KIEGLMIFDHD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* PHNLEFPHEJJ; // 0x10
-		::UnityEngine::GameObject* DPOACALMDHL; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayerType, ::CDENJKCGLIB*>* PAHBOBOBKGH; // 0x20
-		::FOPMCFANCBP* PBADFMGJPAM; // 0x28
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*>* OPFONBJKILL; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelLayerType, ::CDENJKCGLIB*>* PAHBOBOBKGH; // 0x10
+		::FOPMCFANCBP* PBADFMGJPAM; // 0x18
+		::System::Collections::Generic::Dictionary_2<::DNFFEFPKDPC*, ::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord>* PHNLEFPHEJJ; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGame::FourRotateVoxel::FourRotateVoxelGameViewCoord, ::System::Collections::Generic::List_1<::DNFFEFPKDPC*>*>* OPFONBJKILL; // 0x28
+		::UnityEngine::GameObject* DPOACALMDHL; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KIEGLMIFDHD_CTOR_OFFSET))(this);

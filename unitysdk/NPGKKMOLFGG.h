@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CharacterEnableEmptyModel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPGKKMOLFGG_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFD420)
-#define NPGKKMOLFGG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCFD430)
-#define NPGKKMOLFGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCFD470)
-#define NPGKKMOLFGG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCFD790)
-#define NPGKKMOLFGG_TICK_OFFSET UNITYSDK_OFFSET(0xBCFD7E0)
+#define NPGKKMOLFGG_CTOR_OFFSET UNITYSDK_OFFSET(0xC5ECB50)
+#define NPGKKMOLFGG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC5ECB60)
+#define NPGKKMOLFGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC5ECBA0)
+#define NPGKKMOLFGG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC5ECEE0)
+#define NPGKKMOLFGG_TICK_OFFSET UNITYSDK_OFFSET(0xC5ECF30)
 
-inline static constexpr unsigned int NPGKKMOLFGG_TypeDefinitionIndex = 54937;
+inline static constexpr unsigned int NPGKKMOLFGG_TypeDefinitionIndex = 56109;
 
 	class NPGKKMOLFGG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CharacterEnableEmptyModel* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CharacterEnableEmptyModel* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterEnableEmptyModel* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterEnableEmptyModel*))((::PBYTE)hIl2Cpp + NPGKKMOLFGG_CTOR_OFFSET))(this, a1, a2);

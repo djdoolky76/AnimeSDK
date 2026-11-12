@@ -3,38 +3,38 @@
 #include "unitysdk/System/Object.h"
 class ANLGLFPLOBC;
 
-#define ANLGLFPLOBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1589B950)
-#define ANLGLFPLOBC_FKPDPBFFLBO_OFFSET UNITYSDK_OFFSET(0x1589B9F0)
-#define ANLGLFPLOBC_GDCPKFEPPOE_OFFSET UNITYSDK_OFFSET(0x1589B8C0)
-#define ANLGLFPLOBC_MIDAGNDGAJC_OFFSET UNITYSDK_OFFSET(0x1589B960)
+#define ANLGLFPLOBC_CTOR_OFFSET UNITYSDK_OFFSET(0x16710E20)
+#define ANLGLFPLOBC_FKPDPBFFLBO_OFFSET UNITYSDK_OFFSET(0x16710EC0)
+#define ANLGLFPLOBC_GDCPKFEPPOE_OFFSET UNITYSDK_OFFSET(0x16710D90)
+#define ANLGLFPLOBC_MIDAGNDGAJC_OFFSET UNITYSDK_OFFSET(0x16710E30)
 
-inline static constexpr unsigned int ANLGLFPLOBC_TypeDefinitionIndex = 57254;
+inline static constexpr unsigned int ANLGLFPLOBC_TypeDefinitionIndex = 58481;
 
 	class ANLGLFPLOBC : public ::System::Object
 	{
 	public:
-		::System::Boolean GEOPPFCKACN; // 0x10
-		::System::Boolean FNFMMNGIGLJ; // 0x11
-		::System::Boolean NCPEFHFMBMB; // 0x12
-		::System::Boolean IJPHJEDPHGN; // 0x13
-		::System::Boolean LCCNIHLPDBF; // 0x14
+		::System::Boolean IJPHJEDPHGN; // 0x10
+		::System::Boolean NKJCGHNCFFO; // 0x11
+		::System::Boolean HEIHBJEEGPB; // 0x12
+		::System::Boolean GEOPPFCKACN; // 0x13
+		::System::Boolean HGJICDMMJAB; // 0x14
 		::System::Boolean GEIEKOJPANB; // 0x15
-		::System::Boolean HEIHBJEEGPB; // 0x16
-		::System::Boolean NKJCGHNCFFO; // 0x17
-		::System::Boolean HGJICDMMJAB; // 0x18
-		static ::ANLGLFPLOBC** StaticGet_LJFPJFOOLPK()
-		{
-			return (::ANLGLFPLOBC**)UnitySDK::FromName("", "ANLGLFPLOBC")->GetStaticField(0x60870);
-		}
-
+		::System::Boolean FNFMMNGIGLJ; // 0x16
+		::System::Boolean LCCNIHLPDBF; // 0x17
+		::System::Boolean NCPEFHFMBMB; // 0x18
 		static ::ANLGLFPLOBC** StaticGet_OBNODJFJFEM()
 		{
-			return (::ANLGLFPLOBC**)UnitySDK::FromName("", "ANLGLFPLOBC")->GetStaticField(0x60878);
+			return (::ANLGLFPLOBC**)UnitySDK::FromName("", "ANLGLFPLOBC")->GetStaticField(0x59BD0);
+		}
+
+		static ::ANLGLFPLOBC** StaticGet_LJFPJFOOLPK()
+		{
+			return (::ANLGLFPLOBC**)UnitySDK::FromName("", "ANLGLFPLOBC")->GetStaticField(0x59BD8);
 		}
 
 		static ::ANLGLFPLOBC** StaticGet_MNGIMAMHGNC()
 		{
-			return (::ANLGLFPLOBC**)UnitySDK::FromName("", "ANLGLFPLOBC")->GetStaticField(0x60880);
+			return (::ANLGLFPLOBC**)UnitySDK::FromName("", "ANLGLFPLOBC")->GetStaticField(0x59BE0);
 		}
 
 		::System::Void _ctor()

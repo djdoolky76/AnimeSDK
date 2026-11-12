@@ -6,13 +6,13 @@ namespace RPG::GameCore { class LegacyConflictStateBinder; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LEGACYCONFLICTSTATEBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A35E0)
-#define RPG_GAMECORE_LEGACYCONFLICTSTATEBINDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7A35F0)
-#define RPG_GAMECORE_LEGACYCONFLICTSTATEBINDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A35B0)
+#define RPG_GAMECORE_LEGACYCONFLICTSTATEBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E6B60)
+#define RPG_GAMECORE_LEGACYCONFLICTSTATEBINDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9E6B70)
+#define RPG_GAMECORE_LEGACYCONFLICTSTATEBINDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9E6B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LegacyConflictStateBinder_TypeDefinitionIndex = 21039;
+	inline static constexpr unsigned int LegacyConflictStateBinder_TypeDefinitionIndex = 21377;
 
 	class LegacyConflictStateBinder : public ::RPG::GameCore::TaskConfig
 	{

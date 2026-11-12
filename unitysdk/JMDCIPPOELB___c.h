@@ -7,29 +7,29 @@ namespace RPG::Client::FateRin::CaseBoard { class TeamViewModel; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JMDCIPPOELB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB262800)
-#define JMDCIPPOELB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB262840)
-#define JMDCIPPOELB___C__GETALLACTIVECOLLECTABLEUNSEENCARDS_B__7_0_OFFSET UNITYSDK_OFFSET(0xB262850)
-#define JMDCIPPOELB___C___GETCASEBOARDMAINPAGEUPDATESIGNATURE_B__26_0_OFFSET UNITYSDK_OFFSET(0xB262870)
+#define JMDCIPPOELB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA8D900)
+#define JMDCIPPOELB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA8D940)
+#define JMDCIPPOELB___C__GETALLACTIVECOLLECTABLEUNSEENCARDS_B__7_0_OFFSET UNITYSDK_OFFSET(0xBA8D950)
+#define JMDCIPPOELB___C___GETCASEBOARDMAINPAGEUPDATESIGNATURE_B__26_0_OFFSET UNITYSDK_OFFSET(0xBA8D970)
 
-inline static constexpr unsigned int JMDCIPPOELB___c_TypeDefinitionIndex = 80736;
+inline static constexpr unsigned int JMDCIPPOELB___c_TypeDefinitionIndex = 83516;
 
 	class JMDCIPPOELB___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::EOPFDKJOBIO*, ::RPG::GameCore::FateRinHouguOwnerType>** StaticGet___9__7_0()
+		static ::System::Func_2<::RPG::Client::FateRin::CaseBoard::TeamViewModel*, ::System::UInt32>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::EOPFDKJOBIO*, ::RPG::GameCore::FateRinHouguOwnerType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E220);
+			return (::System::Func_2<::RPG::Client::FateRin::CaseBoard::TeamViewModel*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17120);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E228);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17128);
 		}
 
-		static ::System::Func_2<::RPG::Client::FateRin::CaseBoard::TeamViewModel*, ::System::UInt32>** StaticGet___9__26_0()
+		static ::System::Func_2<::EOPFDKJOBIO*, ::RPG::GameCore::FateRinHouguOwnerType>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::RPG::Client::FateRin::CaseBoard::TeamViewModel*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E230);
+			return (::System::Func_2<::EOPFDKJOBIO*, ::RPG::GameCore::FateRinHouguOwnerType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17130);
 		}
 
 		static ::System::Void _cctor()

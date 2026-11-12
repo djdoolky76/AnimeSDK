@@ -4,474 +4,474 @@
 class EasingFunction_Function;
 class EasingFunction_FunctionValue;
 
-inline static constexpr unsigned int EasingFunction___O_TypeDefinitionIndex = 45933;
+inline static constexpr unsigned int EasingFunction___O_TypeDefinitionIndex = 46962;
 
 	class EasingFunction___O : public ::System::Object
 	{
 	public:
-		static ::EasingFunction_Function** StaticGet__8___EaseInOutQuart()
+		static ::EasingFunction_FunctionValue** StaticGet__54___Spring()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x196D0);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__51___EaseOutCirc()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x196D8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__11___EaseInOutQuint()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x196E0);
-		}
-
-		static ::EasingFunction_Function** StaticGet__77___EaseOutExpoD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x196E8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__62___EaseOutQuadD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x196F0);
-		}
-
-		static ::EasingFunction_Function** StaticGet__23___EaseInBounce()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x196F8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__78___EaseInOutExpoD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19700);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__46___EaseInOutSine()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19708);
-		}
-
-		static ::EasingFunction_Function** StaticGet__14___EaseInOutSine()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19710);
-		}
-
-		static ::EasingFunction_Function** StaticGet__31___EaseInOutElastic()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19718);
-		}
-
-		static ::EasingFunction_Function** StaticGet__84___EaseInBounceD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19720);
-		}
-
-		static ::EasingFunction_Function** StaticGet__85___EaseOutBounceD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19728);
-		}
-
-		static ::EasingFunction_Function** StaticGet__86___EaseInOutBounceD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19730);
-		}
-
-		static ::EasingFunction_Function** StaticGet__81___EaseInOutCircD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19738);
-		}
-
-		static ::EasingFunction_Function** StaticGet__16___EaseOutExpo()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19740);
-		}
-
-		static ::EasingFunction_Function** StaticGet__75___EaseInOutSineD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19748);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__57___EaseInOutBounce()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19750);
-		}
-
-		static ::EasingFunction_Function** StaticGet__72___EaseInOutQuintD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19758);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__34___EaseInOutQuad()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19760);
-		}
-
-		static ::EasingFunction_Function** StaticGet__22___Spring()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19768);
-		}
-
-		static ::EasingFunction_Function** StaticGet__2___EaseInOutQuad()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19770);
-		}
-
-		static ::EasingFunction_Function** StaticGet__69___EaseInOutQuartD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19778);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__44___EaseInSine()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19780);
-		}
-
-		static ::EasingFunction_Function** StaticGet__0___EaseInQuad()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19788);
-		}
-
-		static ::EasingFunction_Function** StaticGet__17___EaseInOutExpo()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19790);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__50___EaseInCirc()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19798);
-		}
-
-		static ::EasingFunction_Function** StaticGet__18___EaseInCirc()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197A0);
-		}
-
-		static ::EasingFunction_Function** StaticGet__29___EaseInElastic()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197A8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__1___EaseOutQuad()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197B0);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__43___EaseInOutQuint()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197B8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__20___EaseInOutCirc()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197C0);
-		}
-
-		static ::EasingFunction_Function** StaticGet__91___EaseOutElasticD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197C8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__4___EaseOutCubic()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197D0);
-		}
-
-		static ::EasingFunction_Function** StaticGet__67___EaseInQuartD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197D8);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__38___EaseInQuart()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197E0);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__45___EaseOutSine()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197E8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__9___EaseInQuint()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197F0);
-		}
-
-		static ::EasingFunction_Function** StaticGet__28___EaseInOutBack()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x197F8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__71___EaseOutQuintD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19800);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__48___EaseOutExpo()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19808);
-		}
-
-		static ::EasingFunction_Function** StaticGet__64___EaseInCubicD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19810);
-		}
-
-		static ::EasingFunction_Function** StaticGet__30___EaseOutElastic()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19818);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__60___EaseInOutBack()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19820);
-		}
-
-		static ::EasingFunction_Function** StaticGet__90___EaseInElasticD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19828);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__53___Linear()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19830);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__59___EaseOutBack()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19838);
-		}
-
-		static ::EasingFunction_Function** StaticGet__6___EaseInQuart()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19840);
-		}
-
-		static ::EasingFunction_Function** StaticGet__12___EaseInSine()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19848);
-		}
-
-		static ::EasingFunction_Function** StaticGet__65___EaseOutCubicD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19850);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__42___EaseOutQuint()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19858);
-		}
-
-		static ::EasingFunction_Function** StaticGet__82___LinearD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19860);
-		}
-
-		static ::EasingFunction_Function** StaticGet__70___EaseInQuintD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19868);
-		}
-
-		static ::EasingFunction_Function** StaticGet__80___EaseOutCircD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19870);
-		}
-
-		static ::EasingFunction_Function** StaticGet__15___EaseInExpo()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19878);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__37___EaseInOutCubic()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19880);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__49___EaseInOutExpo()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19888);
-		}
-
-		static ::EasingFunction_Function** StaticGet__76___EaseInExpoD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19890);
-		}
-
-		static ::EasingFunction_Function** StaticGet__3___EaseInCubic()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19898);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__56___EaseOutBounce()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198A0);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__32___EaseInQuad()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198A8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__89___EaseInOutBackD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198B0);
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x142D0);
 		}
 
 		static ::EasingFunction_Function** StaticGet__21___Linear()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198B8);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x142D8);
 		}
 
-		static ::EasingFunction_Function** StaticGet__13___EaseOutSine()
+		static ::EasingFunction_FunctionValue** StaticGet__34___EaseInOutQuad()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198C0);
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x142E0);
 		}
 
-		static ::EasingFunction_Function** StaticGet__24___EaseOutBounce()
+		static ::EasingFunction_Function** StaticGet__81___EaseInOutCircD()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198C8);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__35___EaseInCubic()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198D0);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__55___EaseInBounce()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198D8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__66___EaseInOutCubicD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198E0);
-		}
-
-		static ::EasingFunction_Function** StaticGet__27___EaseOutBack()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198E8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__79___EaseInCircD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198F0);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__52___EaseInOutCirc()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x198F8);
-		}
-
-		static ::EasingFunction_Function** StaticGet__92___EaseInOutElasticD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19900);
-		}
-
-		static ::EasingFunction_Function** StaticGet__68___EaseOutQuartD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19908);
-		}
-
-		static ::EasingFunction_Function** StaticGet__61___EaseInQuadD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19910);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__58___EaseInBack()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19918);
-		}
-
-		static ::EasingFunction_Function** StaticGet__19___EaseOutCirc()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19920);
-		}
-
-		static ::EasingFunction_Function** StaticGet__87___EaseInBackD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19928);
-		}
-
-		static ::EasingFunction_Function** StaticGet__5___EaseInOutCubic()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19930);
-		}
-
-		static ::EasingFunction_FunctionValue** StaticGet__33___EaseOutQuad()
-		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19938);
-		}
-
-		static ::EasingFunction_Function** StaticGet__74___EaseOutSineD()
-		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19940);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x142E8);
 		}
 
 		static ::EasingFunction_Function** StaticGet__63___EaseInOutQuadD()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19948);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x142F0);
 		}
 
-		static ::EasingFunction_Function** StaticGet__88___EaseOutBackD()
+		static ::EasingFunction_Function** StaticGet__9___EaseInQuint()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19950);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x142F8);
 		}
 
-		static ::EasingFunction_FunctionValue** StaticGet__36___EaseOutCubic()
+		static ::EasingFunction_Function** StaticGet__70___EaseInQuintD()
 		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19958);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14300);
 		}
 
-		static ::EasingFunction_Function** StaticGet__7___EaseOutQuart()
+		static ::EasingFunction_Function** StaticGet__61___EaseInQuadD()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19960);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14308);
 		}
 
-		static ::EasingFunction_FunctionValue** StaticGet__54___Spring()
+		static ::EasingFunction_FunctionValue** StaticGet__49___EaseInOutExpo()
 		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19968);
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14310);
 		}
 
-		static ::EasingFunction_FunctionValue** StaticGet__41___EaseInQuint()
+		static ::EasingFunction_Function** StaticGet__67___EaseInQuartD()
 		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19970);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14318);
 		}
 
-		static ::EasingFunction_Function** StaticGet__73___EaseInSineD()
+		static ::EasingFunction_Function** StaticGet__22___Spring()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19978);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14320);
 		}
 
-		static ::EasingFunction_Function** StaticGet__10___EaseOutQuint()
+		static ::EasingFunction_FunctionValue** StaticGet__52___EaseInOutCirc()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19980);
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14328);
+		}
+
+		static ::EasingFunction_Function** StaticGet__82___LinearD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14330);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__55___EaseInBounce()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14338);
+		}
+
+		static ::EasingFunction_Function** StaticGet__1___EaseOutQuad()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14340);
+		}
+
+		static ::EasingFunction_Function** StaticGet__86___EaseInOutBounceD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14348);
+		}
+
+		static ::EasingFunction_Function** StaticGet__69___EaseInOutQuartD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14350);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__60___EaseInOutBack()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14358);
 		}
 
 		static ::EasingFunction_Function** StaticGet__26___EaseInBack()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19988);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14360);
 		}
 
-		static ::EasingFunction_FunctionValue** StaticGet__40___EaseInOutQuart()
+		static ::EasingFunction_Function** StaticGet__62___EaseOutQuadD()
 		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19990);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14368);
 		}
 
-		static ::EasingFunction_FunctionValue** StaticGet__39___EaseOutQuart()
+		static ::EasingFunction_Function** StaticGet__75___EaseInOutSineD()
 		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x19998);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14370);
 		}
 
-		static ::EasingFunction_FunctionValue** StaticGet__47___EaseInExpo()
+		static ::EasingFunction_Function** StaticGet__85___EaseOutBounceD()
 		{
-			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x199A0);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14378);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__36___EaseOutCubic()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14380);
+		}
+
+		static ::EasingFunction_Function** StaticGet__15___EaseInExpo()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14388);
+		}
+
+		static ::EasingFunction_Function** StaticGet__14___EaseInOutSine()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14390);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__57___EaseInOutBounce()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14398);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__38___EaseInQuart()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143A0);
+		}
+
+		static ::EasingFunction_Function** StaticGet__68___EaseOutQuartD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143A8);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__45___EaseOutSine()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143B0);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__48___EaseOutExpo()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143B8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__3___EaseInCubic()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143C0);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__56___EaseOutBounce()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143C8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__7___EaseOutQuart()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143D0);
+		}
+
+		static ::EasingFunction_Function** StaticGet__78___EaseInOutExpoD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143D8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__74___EaseOutSineD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143E0);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__51___EaseOutCirc()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143E8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__23___EaseInBounce()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143F0);
+		}
+
+		static ::EasingFunction_Function** StaticGet__77___EaseOutExpoD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x143F8);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__32___EaseInQuad()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14400);
+		}
+
+		static ::EasingFunction_Function** StaticGet__89___EaseInOutBackD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14408);
+		}
+
+		static ::EasingFunction_Function** StaticGet__91___EaseOutElasticD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14410);
+		}
+
+		static ::EasingFunction_Function** StaticGet__80___EaseOutCircD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14418);
+		}
+
+		static ::EasingFunction_Function** StaticGet__17___EaseInOutExpo()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14420);
 		}
 
 		static ::EasingFunction_Function** StaticGet__25___EaseInOutBounce()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x199A8);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14428);
+		}
+
+		static ::EasingFunction_Function** StaticGet__29___EaseInElastic()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14430);
+		}
+
+		static ::EasingFunction_Function** StaticGet__92___EaseInOutElasticD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14438);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__53___Linear()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14440);
+		}
+
+		static ::EasingFunction_Function** StaticGet__79___EaseInCircD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14448);
+		}
+
+		static ::EasingFunction_Function** StaticGet__24___EaseOutBounce()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14450);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__50___EaseInCirc()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14458);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__33___EaseOutQuad()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14460);
+		}
+
+		static ::EasingFunction_Function** StaticGet__10___EaseOutQuint()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14468);
+		}
+
+		static ::EasingFunction_Function** StaticGet__19___EaseOutCirc()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14470);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__35___EaseInCubic()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14478);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__41___EaseInQuint()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14480);
+		}
+
+		static ::EasingFunction_Function** StaticGet__16___EaseOutExpo()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14488);
 		}
 
 		static ::EasingFunction_Function** StaticGet__83___SpringD()
 		{
-			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x199B0);
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14490);
+		}
+
+		static ::EasingFunction_Function** StaticGet__28___EaseInOutBack()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14498);
+		}
+
+		static ::EasingFunction_Function** StaticGet__72___EaseInOutQuintD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144A0);
+		}
+
+		static ::EasingFunction_Function** StaticGet__5___EaseInOutCubic()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144A8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__87___EaseInBackD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144B0);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__39___EaseOutQuart()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144B8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__88___EaseOutBackD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144C0);
+		}
+
+		static ::EasingFunction_Function** StaticGet__0___EaseInQuad()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144C8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__4___EaseOutCubic()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144D0);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__47___EaseInExpo()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144D8);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__59___EaseOutBack()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144E0);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__46___EaseInOutSine()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144E8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__18___EaseInCirc()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144F0);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__58___EaseInBack()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x144F8);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__44___EaseInSine()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14500);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__37___EaseInOutCubic()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14508);
+		}
+
+		static ::EasingFunction_Function** StaticGet__20___EaseInOutCirc()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14510);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__43___EaseInOutQuint()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14518);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__40___EaseInOutQuart()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14520);
+		}
+
+		static ::EasingFunction_Function** StaticGet__65___EaseOutCubicD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14528);
+		}
+
+		static ::EasingFunction_Function** StaticGet__76___EaseInExpoD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14530);
+		}
+
+		static ::EasingFunction_Function** StaticGet__84___EaseInBounceD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14538);
+		}
+
+		static ::EasingFunction_Function** StaticGet__30___EaseOutElastic()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14540);
+		}
+
+		static ::EasingFunction_Function** StaticGet__8___EaseInOutQuart()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14548);
+		}
+
+		static ::EasingFunction_Function** StaticGet__13___EaseOutSine()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14550);
+		}
+
+		static ::EasingFunction_Function** StaticGet__11___EaseInOutQuint()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14558);
+		}
+
+		static ::EasingFunction_Function** StaticGet__6___EaseInQuart()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14560);
+		}
+
+		static ::EasingFunction_FunctionValue** StaticGet__42___EaseOutQuint()
+		{
+			return (::EasingFunction_FunctionValue**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14568);
+		}
+
+		static ::EasingFunction_Function** StaticGet__2___EaseInOutQuad()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14570);
+		}
+
+		static ::EasingFunction_Function** StaticGet__64___EaseInCubicD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14578);
+		}
+
+		static ::EasingFunction_Function** StaticGet__66___EaseInOutCubicD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14580);
+		}
+
+		static ::EasingFunction_Function** StaticGet__73___EaseInSineD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14588);
+		}
+
+		static ::EasingFunction_Function** StaticGet__71___EaseOutQuintD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14590);
+		}
+
+		static ::EasingFunction_Function** StaticGet__27___EaseOutBack()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x14598);
+		}
+
+		static ::EasingFunction_Function** StaticGet__12___EaseInSine()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x145A0);
+		}
+
+		static ::EasingFunction_Function** StaticGet__31___EaseInOutElastic()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x145A8);
+		}
+
+		static ::EasingFunction_Function** StaticGet__90___EaseInElasticD()
+		{
+			return (::EasingFunction_Function**)UnitySDK::FromName("", "<>O")->GetStaticField(0x145B0);
 		}
 
 	};

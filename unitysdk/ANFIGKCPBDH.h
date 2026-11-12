@@ -6,18 +6,17 @@ class ANFIGKCPBDH;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define ANFIGKCPBDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE39C0)
-#define ANFIGKCPBDH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE3820)
+#define ANFIGKCPBDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8D4B0)
+#define ANFIGKCPBDH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE8D310)
 
-inline static constexpr unsigned int ANFIGKCPBDH_TypeDefinitionIndex = 15065;
+inline static constexpr unsigned int ANFIGKCPBDH_TypeDefinitionIndex = 15221;
 
 	class ANFIGKCPBDH : public ::System::Object
 	{
 	public:
 		::System::String* OLOIFNNLKJP; // 0x10
-		::System::UInt32 PHFMCACHFIJ; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID MJOOFPBABEA; // 0x20
+		::RPG::Client::TextID MJOOFPBABEA; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ANFIGKCPBDH_CTOR_OFFSET))(this);

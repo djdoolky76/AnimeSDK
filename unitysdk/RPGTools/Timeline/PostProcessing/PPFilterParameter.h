@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xE926090)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF8EE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_JIHKKHMEKLO_OFFSET UNITYSDK_OFFSET(0xF401CF0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_PPFILTERPARAMETER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x105E90)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PPFilterParameter_TypeDefinitionIndex = 48588;
+	inline static constexpr unsigned int PPFilterParameter_TypeDefinitionIndex = 49629;
 
 	struct alignas(8) PPFilterParameter
 	{

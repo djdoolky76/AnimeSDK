@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextMotionTyperType_TypeDefinitionIndex = 24826;
+	inline static constexpr unsigned int TextMotionTyperType_TypeDefinitionIndex = 25306;
 
 	enum class TextMotionTyperType : ::System::Int32
 	{

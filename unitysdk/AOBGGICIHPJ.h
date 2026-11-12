@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 
-#define AOBGGICIHPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x158A6500)
-#define AOBGGICIHPJ_KJHBJNJEHHN_OFFSET UNITYSDK_OFFSET(0x158A6410)
+#define AOBGGICIHPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1671D880)
+#define AOBGGICIHPJ_KJHBJNJEHHN_OFFSET UNITYSDK_OFFSET(0x1671D790)
 
-inline static constexpr unsigned int AOBGGICIHPJ_TypeDefinitionIndex = 78282;
+inline static constexpr unsigned int AOBGGICIHPJ_TypeDefinitionIndex = 81017;
 
 	class AOBGGICIHPJ : public ::System::Object
 	{

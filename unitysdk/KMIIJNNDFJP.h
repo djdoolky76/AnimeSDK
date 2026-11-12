@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 #include "unitysdk/UnityEngine/Jobs/TransformAccess.h"
 
-#define KMIIJNNDFJP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x165D0)
+#define KMIIJNNDFJP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1A580)
 
-inline static constexpr unsigned int KMIIJNNDFJP_TypeDefinitionIndex = 73726;
+inline static constexpr unsigned int KMIIJNNDFJP_TypeDefinitionIndex = 75849;
 
 	struct alignas(8) KMIIJNNDFJP
 	{

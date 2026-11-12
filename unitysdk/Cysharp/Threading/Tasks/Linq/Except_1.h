@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Except_1_TypeDefinitionIndex = 45358;
+	inline static constexpr unsigned int Except_1_TypeDefinitionIndex = 46387;
 
 	template <typename T>
 	class Except_1 : public ::System::Object

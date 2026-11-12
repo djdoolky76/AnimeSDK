@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KBNONEGEOMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB323CF0)
+#define KBNONEGEOMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBBADDC0)
 
-inline static constexpr unsigned int KBNONEGEOMC_TypeDefinitionIndex = 51810;
+inline static constexpr unsigned int KBNONEGEOMC_TypeDefinitionIndex = 52896;
 
 	class KBNONEGEOMC : public ::System::Object
 	{

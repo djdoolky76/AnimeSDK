@@ -9,20 +9,20 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define IKBAMHGDEJC_CTOR_OFFSET UNITYSDK_OFFSET(0x16482360)
-#define IKBAMHGDEJC_INIJCJJLPKM_OFFSET UNITYSDK_OFFSET(0x16481FA0)
-#define IKBAMHGDEJC_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x16482280)
-#define IKBAMHGDEJC_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x16481D40)
-#define IKBAMHGDEJC_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x16481DD0)
+#define IKBAMHGDEJC_CTOR_OFFSET UNITYSDK_OFFSET(0x17454D30)
+#define IKBAMHGDEJC_INIJCJJLPKM_OFFSET UNITYSDK_OFFSET(0x17454970)
+#define IKBAMHGDEJC_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x17454C50)
+#define IKBAMHGDEJC_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x17454700)
+#define IKBAMHGDEJC_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x17454790)
 
-inline static constexpr unsigned int IKBAMHGDEJC_TypeDefinitionIndex = 72065;
+inline static constexpr unsigned int IKBAMHGDEJC_TypeDefinitionIndex = 74096;
 
 	class IKBAMHGDEJC : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::String*>* APCNOCJOOOL; // 0x18
-		::RPG::GameCore::LevelUIComponent* CFKHNPGEAJA; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::String*>* APCNOCJOOOL; // 0x10
+		::RPG::GameCore::LevelUIComponent* CFKHNPGEAJA; // 0x18
+		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IKBAMHGDEJC_CTOR_OFFSET))(this);

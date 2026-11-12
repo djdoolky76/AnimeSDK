@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine::UI { class Text; }
 
-#define SHOWFRAMERATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBEB560)
+#define SHOWFRAMERATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE9C140)
 
-inline static constexpr unsigned int ShowFrameRate_TypeDefinitionIndex = 43985;
+inline static constexpr unsigned int ShowFrameRate_TypeDefinitionIndex = 45060;
 
 	class ShowFrameRate : public ::UnityEngine::MonoBehaviour
 	{

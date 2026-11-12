@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_UI_MASKABLEGRAPHIC_CULLSTATECHANGEDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F52B390)
+#define UNITYENGINE_UI_MASKABLEGRAPHIC_CULLSTATECHANGEDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x207DAFA0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int MaskableGraphic_CullStateChangedEvent_TypeDefinitionIndex = 6795;
+	inline static constexpr unsigned int MaskableGraphic_CullStateChangedEvent_TypeDefinitionIndex = 6806;
 
 	class MaskableGraphic_CullStateChangedEvent
 	{

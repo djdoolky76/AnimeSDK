@@ -4,10 +4,10 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class ST_ByOnHit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODPIOCLJMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF2510)
-#define ODPIOCLJMIA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDF25D0)
+#define ODPIOCLJMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A7E80)
+#define ODPIOCLJMIA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC6A7F40)
 
-inline static constexpr unsigned int ODPIOCLJMIA_TypeDefinitionIndex = 52201;
+inline static constexpr unsigned int ODPIOCLJMIA_TypeDefinitionIndex = 53306;
 
 	class ODPIOCLJMIA
 	{

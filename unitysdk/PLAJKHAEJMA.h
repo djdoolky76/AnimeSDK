@@ -5,7 +5,7 @@
 class FADPLGJOJCF;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int PLAJKHAEJMA_TypeDefinitionIndex = 43847;
+inline static constexpr unsigned int PLAJKHAEJMA_TypeDefinitionIndex = 44922;
 
 	class PLAJKHAEJMA : public ::System::Object
 	{

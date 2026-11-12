@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByGameEntityNotCreated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GHAELIMHEOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15A13D40)
-#define GHAELIMHEOD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A13D70)
+#define GHAELIMHEOD_CTOR_OFFSET UNITYSDK_OFFSET(0x1694E340)
+#define GHAELIMHEOD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1694E370)
 
-inline static constexpr unsigned int GHAELIMHEOD_TypeDefinitionIndex = 52597;
+inline static constexpr unsigned int GHAELIMHEOD_TypeDefinitionIndex = 53704;
 
 	class GHAELIMHEOD
 	{

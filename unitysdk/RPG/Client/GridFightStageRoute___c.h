@@ -1,62 +1,92 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+class BCCIJHPLJOJ;
 namespace RPG::Client { class GridFightStageNode; }
-namespace RPG::GameCore { class GridFightStageRouteConfigRow; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2894E0)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD289520)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_1_OFFSET UNITYSDK_OFFSET(0xD289530)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_2_OFFSET UNITYSDK_OFFSET(0xD289550)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_3_OFFSET UNITYSDK_OFFSET(0xD289570)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_4_OFFSET UNITYSDK_OFFSET(0xD289590)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_5_OFFSET UNITYSDK_OFFSET(0xD2896B0)
-#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_6_OFFSET UNITYSDK_OFFSET(0xD2897E0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC98C30)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC98C70)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__GETENUMERATOR_B__7_0_OFFSET UNITYSDK_OFFSET(0xDC99150)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_0_OFFSET UNITYSDK_OFFSET(0xDC98FD0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_1_OFFSET UNITYSDK_OFFSET(0xDC98FF0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_2_OFFSET UNITYSDK_OFFSET(0xDC99010)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_3_OFFSET UNITYSDK_OFFSET(0xDC99030)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_0_OFFSET UNITYSDK_OFFSET(0xDC98C80)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_1_OFFSET UNITYSDK_OFFSET(0xDC98CA0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_2_OFFSET UNITYSDK_OFFSET(0xDC98CC0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_3_OFFSET UNITYSDK_OFFSET(0xDC98CE0)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_4_OFFSET UNITYSDK_OFFSET(0xDC98E00)
+#define RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_5_OFFSET UNITYSDK_OFFSET(0xDC98F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightStageRoute___c_TypeDefinitionIndex = 65249;
+	inline static constexpr unsigned int GridFightStageRoute___c_TypeDefinitionIndex = 66999;
 
 	class GridFightStageRoute___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::System::UInt32>** StaticGet___9__4_2()
+		static ::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>** StaticGet___9__5_2()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA00);
+			return (::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF050);
 		}
 
-		static ::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::System::UInt32>** StaticGet___9__4_3()
+		static ::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA08);
+			return (::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF058);
 		}
 
-		static ::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::System::UInt32>** StaticGet___9__4_1()
+		static ::System::Func_2<::BCCIJHPLJOJ*, ::RPG::Client::GridFightStageNode*>** StaticGet___9__4_5()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA10);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>*, ::System::UInt32>** StaticGet___9__4_4()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA18);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>*, ::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>*>** StaticGet___9__4_5()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>*, ::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA20);
+			return (::System::Func_2<::BCCIJHPLJOJ*, ::RPG::Client::GridFightStageNode*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF060);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA28);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF068);
 		}
 
-		static ::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::RPG::Client::GridFightStageNode*>** StaticGet___9__4_6()
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*, ::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>*>** StaticGet___9__4_4()
 		{
-			return (::System::Func_2<::RPG::GameCore::GridFightStageRouteConfigRow*, ::RPG::Client::GridFightStageNode*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6EA30);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*, ::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF070);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*, ::System::UInt32>** StaticGet___9__4_3()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF078);
+		}
+
+		static ::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF080);
+		}
+
+		static ::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>** StaticGet___9__5_1()
+		{
+			return (::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF088);
+		}
+
+		static ::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>** StaticGet___9__4_1()
+		{
+			return (::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF090);
+		}
+
+		static ::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>** StaticGet___9__4_2()
+		{
+			return (::System::Func_2<::BCCIJHPLJOJ*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF098);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*, ::System::UInt32>** StaticGet___9__5_3()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF0A0);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::UInt32>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF0A8);
 		}
 
 		static ::System::Void _cctor()
@@ -69,34 +99,59 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C_CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 _SyncRouteID_b__4_1(::RPG::GameCore::GridFightStageRouteConfigRow* a1)
+		::System::UInt32 _SyncRouteNodes_b__4_0(::BCCIJHPLJOJ* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::GridFightStageRouteConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_1_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::BCCIJHPLJOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_0_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _SyncRouteID_b__4_2(::RPG::GameCore::GridFightStageRouteConfigRow* a1)
+		::System::UInt32 _SyncRouteNodes_b__4_1(::BCCIJHPLJOJ* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::GridFightStageRouteConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_2_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::BCCIJHPLJOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_1_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _SyncRouteID_b__4_3(::RPG::GameCore::GridFightStageRouteConfigRow* a1)
+		::System::UInt32 _SyncRouteNodes_b__4_2(::BCCIJHPLJOJ* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::GameCore::GridFightStageRouteConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_3_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::BCCIJHPLJOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_2_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 _SyncRouteID_b__4_4(::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>* a1)
+		::System::UInt32 _SyncRouteNodes_b__4_3(::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_4_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_3_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>* _SyncRouteID_b__4_5(::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>* a1)
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>* _SyncRouteNodes_b__4_4(::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>* a1)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>*(*)(::PVOID, ::System::Linq::IGrouping_2<::System::UInt32, ::RPG::GameCore::GridFightStageRouteConfigRow*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_5_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::List_1<::RPG::Client::GridFightStageNode*>*(*)(::PVOID, ::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_4_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightStageNode* _SyncRouteID_b__4_6(::RPG::GameCore::GridFightStageRouteConfigRow* a1)
+		::RPG::Client::GridFightStageNode* _SyncRouteNodes_b__4_5(::BCCIJHPLJOJ* a1)
 		{
-			return ((::RPG::Client::GridFightStageNode*(*)(::PVOID, ::RPG::GameCore::GridFightStageRouteConfigRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTEID_B__4_6_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightStageNode*(*)(::PVOID, ::BCCIJHPLJOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCROUTENODES_B__4_5_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 _SyncAllRouteNodes_b__5_0(::BCCIJHPLJOJ* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::BCCIJHPLJOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_0_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 _SyncAllRouteNodes_b__5_1(::BCCIJHPLJOJ* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::BCCIJHPLJOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_1_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 _SyncAllRouteNodes_b__5_2(::BCCIJHPLJOJ* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::BCCIJHPLJOJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_2_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 _SyncAllRouteNodes_b__5_3(::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::Linq::IGrouping_2<::System::UInt32, ::BCCIJHPLJOJ*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__SYNCALLROUTENODES_B__5_3_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 _GetEnumerator_b__7_0(::System::UInt32 a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSTAGEROUTE___C__GETENUMERATOR_B__7_0_OFFSET))(this, a1);
 		}
 
 	};

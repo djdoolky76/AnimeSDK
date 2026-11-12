@@ -3,7 +3,7 @@
 
 namespace RPGTools::LDWhiteBox
 {
-	inline static constexpr unsigned int TangentMode_TypeDefinitionIndex = 48953;
+	inline static constexpr unsigned int TangentMode_TypeDefinitionIndex = 50012;
 
 	enum class TangentMode : ::System::Int32
 	{

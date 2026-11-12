@@ -6,12 +6,12 @@
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KPCPIMINKPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C90B810)
-#define KPCPIMINKPL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C90B7A0)
-#define KPCPIMINKPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90B740)
-#define KPCPIMINKPL_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x1C90B870)
+#define KPCPIMINKPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAB7A50)
+#define KPCPIMINKPL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DAB79E0)
+#define KPCPIMINKPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB7980)
+#define KPCPIMINKPL_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x1DAB7AB0)
 
-inline static constexpr unsigned int KPCPIMINKPL_TypeDefinitionIndex = 43006;
+inline static constexpr unsigned int KPCPIMINKPL_TypeDefinitionIndex = 43987;
 
 	class KPCPIMINKPL : public ::System::Object
 	{

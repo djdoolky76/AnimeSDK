@@ -5,31 +5,31 @@ namespace RPG::GameCore { class CycleScoreRewardRow; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CYCLESCORE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBE55F0)
-#define RPG_CLIENT_CYCLESCORE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE5620)
-#define RPG_CLIENT_CYCLESCORE___C__GETCANTAKEREWARDSCORERANKS_B__2_1_OFFSET UNITYSDK_OFFSET(0xCBE5630)
-#define RPG_CLIENT_CYCLESCORE___C___GETMAXSCORE_B__9_0_OFFSET UNITYSDK_OFFSET(0xCBE5650)
+#define RPG_CLIENT_CYCLESCORE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5595D0)
+#define RPG_CLIENT_CYCLESCORE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD559600)
+#define RPG_CLIENT_CYCLESCORE___C__GETCANTAKEREWARDSCORERANKS_B__2_1_OFFSET UNITYSDK_OFFSET(0xD559610)
+#define RPG_CLIENT_CYCLESCORE___C___GETMAXSCORE_B__9_0_OFFSET UNITYSDK_OFFSET(0xD559630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CycleScore___c_TypeDefinitionIndex = 63543;
+	inline static constexpr unsigned int CycleScore___c_TypeDefinitionIndex = 64985;
 
 	class CycleScore___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FA40);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FA48);
+			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1F530);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::CycleScoreRewardRow*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1F538);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1FA50);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1F540);
 		}
 
 		static ::System::Void _cctor()

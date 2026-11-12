@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EFreeStyleControlMode_TypeDefinitionIndex = 57272;
+	inline static constexpr unsigned int EFreeStyleControlMode_TypeDefinitionIndex = 58499;
 
 	enum class EFreeStyleControlMode : ::System::Int32
 	{

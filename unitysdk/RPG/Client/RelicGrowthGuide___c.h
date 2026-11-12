@@ -5,25 +5,25 @@ class NHPAANINLPK;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_RELICGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE737C0)
-#define RPG_CLIENT_RELICGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE73800)
-#define RPG_CLIENT_RELICGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xDE73810)
+#define RPG_CLIENT_RELICGROWTHGUIDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8DCEF0)
+#define RPG_CLIENT_RELICGROWTHGUIDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8DCF30)
+#define RPG_CLIENT_RELICGROWTHGUIDE___C__GET_ISGROWABLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xE8DCF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicGrowthGuide___c_TypeDefinitionIndex = 65556;
+	inline static constexpr unsigned int RelicGrowthGuide___c_TypeDefinitionIndex = 67472;
 
 	class RelicGrowthGuide___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::NHPAANINLPK*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x585F0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x585F8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x698C0);
+		}
+
+		static ::System::Predicate_1<::NHPAANINLPK*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::NHPAANINLPK*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x698C8);
 		}
 
 		static ::System::Void _cctor()

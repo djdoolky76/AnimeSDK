@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMonsterRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LIPCBFANEMP_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DBE40)
-#define LIPCBFANEMP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB6DBE70)
+#define LIPCBFANEMP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF76FB0)
+#define LIPCBFANEMP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF76FE0)
 
-inline static constexpr unsigned int LIPCBFANEMP_TypeDefinitionIndex = 54550;
+inline static constexpr unsigned int LIPCBFANEMP_TypeDefinitionIndex = 55715;
 
 	class LIPCBFANEMP
 	{

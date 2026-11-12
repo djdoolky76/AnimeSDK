@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IResidentActivityPanelData_TypeDefinitionIndex = 61771;
+	inline static constexpr unsigned int IResidentActivityPanelData_TypeDefinitionIndex = 63177;
 
 	class IResidentActivityPanelData
 	{

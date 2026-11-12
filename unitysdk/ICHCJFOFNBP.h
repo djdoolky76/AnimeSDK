@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchOnPartialFlipDevice; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ICHCJFOFNBP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E4E2B0)
-#define ICHCJFOFNBP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E4E2E0)
+#define ICHCJFOFNBP_CTOR_OFFSET UNITYSDK_OFFSET(0x16DF9600)
+#define ICHCJFOFNBP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DF9630)
 
-inline static constexpr unsigned int ICHCJFOFNBP_TypeDefinitionIndex = 52776;
+inline static constexpr unsigned int ICHCJFOFNBP_TypeDefinitionIndex = 53920;
 
 	class ICHCJFOFNBP
 	{

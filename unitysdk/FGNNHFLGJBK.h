@@ -4,21 +4,21 @@
 class BCNMLILBENC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FGNNHFLGJBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1576D390)
-#define FGNNHFLGJBK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1576D310)
+#define FGNNHFLGJBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1668E010)
+#define FGNNHFLGJBK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1668DF90)
 
-inline static constexpr unsigned int FGNNHFLGJBK_TypeDefinitionIndex = 56951;
+inline static constexpr unsigned int FGNNHFLGJBK_TypeDefinitionIndex = 58177;
 
 	class FGNNHFLGJBK : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::BCNMLILBENC*>* JONGMMPJEIA; // 0x10
-		::System::Single CDJLMJDEPJA; // 0x18
-		::System::Single PIMDCJGDHMG; // 0x1C
-		::System::Boolean KPHIFEFPPDD; // 0x20
+		::System::Boolean KPHIFEFPPDD; // 0x18
 		::System::Byte _padding0[0x3];
-		::System::Single CNHMBFIHLPC; // 0x24
-		::System::Int32 NOIIIOKMIIN; // 0x28
+		::System::Single CNHMBFIHLPC; // 0x1C
+		::System::Int32 NOIIIOKMIIN; // 0x20
+		::System::Single PIMDCJGDHMG; // 0x24
+		::System::Single CDJLMJDEPJA; // 0x28
 		::System::Single GJGKKECHEHH; // 0x2C
 		::System::Void _ctor()
 		{

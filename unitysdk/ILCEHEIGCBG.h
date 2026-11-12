@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define ILCEHEIGCBG_CTOR_OFFSET UNITYSDK_OFFSET(0x164A7A90)
-#define ILCEHEIGCBG_GET_AVATARS_OFFSET UNITYSDK_OFFSET(0x164A7A80)
-#define ILCEHEIGCBG_GET_ROUTEID_OFFSET UNITYSDK_OFFSET(0x164A7A70)
+#define ILCEHEIGCBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1747BB30)
+#define ILCEHEIGCBG_GET_AVATARS_OFFSET UNITYSDK_OFFSET(0x1747BB20)
+#define ILCEHEIGCBG_GET_ROUTEID_OFFSET UNITYSDK_OFFSET(0x1747BB10)
 
-inline static constexpr unsigned int ILCEHEIGCBG_TypeDefinitionIndex = 63850;
+inline static constexpr unsigned int ILCEHEIGCBG_TypeDefinitionIndex = 65292;
 
 	class ILCEHEIGCBG : public ::System::Object
 	{

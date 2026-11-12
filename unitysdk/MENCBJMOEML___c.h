@@ -4,18 +4,18 @@
 class MENCBJMOEML;
 namespace System { class Object; }
 
-#define MENCBJMOEML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA11B40)
-#define MENCBJMOEML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA11B80)
-#define MENCBJMOEML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA11B90)
+#define MENCBJMOEML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD5C190)
+#define MENCBJMOEML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD5C1D0)
+#define MENCBJMOEML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD5C1E0)
 
-inline static constexpr unsigned int MENCBJMOEML___c_TypeDefinitionIndex = 26662;
+inline static constexpr unsigned int MENCBJMOEML___c_TypeDefinitionIndex = 27193;
 
 	class MENCBJMOEML___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B420);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52370);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_BOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3C010)
+#define MIHOYO_SDK_BOOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC5110)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Bool_TypeDefinitionIndex = 7568;
+	inline static constexpr unsigned int Bool_TypeDefinitionIndex = 7577;
 
 	class Bool : public ::System::Object
 	{

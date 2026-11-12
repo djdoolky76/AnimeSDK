@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RelicItemData; }
 
-#define IOMECEHLPMF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x165122F0)
-#define IOMECEHLPMF___C__DISPLAYCLASS3_0__GETRELICRESULTINFOS_B__0_OFFSET UNITYSDK_OFFSET(0x165129F0)
+#define IOMECEHLPMF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB846AB0)
+#define IOMECEHLPMF___C__DISPLAYCLASS3_0__GETRELICRESULTINFOS_B__0_OFFSET UNITYSDK_OFFSET(0xB8471B0)
 
-inline static constexpr unsigned int IOMECEHLPMF___c__DisplayClass3_0_TypeDefinitionIndex = 74436;
+inline static constexpr unsigned int IOMECEHLPMF___c__DisplayClass3_0_TypeDefinitionIndex = 76584;
 
 	class IOMECEHLPMF___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -7,29 +7,29 @@ class PHCMIJEDENP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MLINDDMKFFA_FFKFLPMDHFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9B0330)
-#define MLINDDMKFFA_FFKFLPMDHFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B0370)
-#define MLINDDMKFFA_FFKFLPMDHFJ___C___CREATEPARTNERS_B__12_0_OFFSET UNITYSDK_OFFSET(0xB9B0390)
-#define MLINDDMKFFA_FFKFLPMDHFJ___C___CREATEREQUIREMENTINFOS_B__11_1_OFFSET UNITYSDK_OFFSET(0xB9B0380)
+#define MLINDDMKFFA_FFKFLPMDHFJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC26BD20)
+#define MLINDDMKFFA_FFKFLPMDHFJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC26BD60)
+#define MLINDDMKFFA_FFKFLPMDHFJ___C___CREATEPARTNERS_B__12_0_OFFSET UNITYSDK_OFFSET(0xC26BD80)
+#define MLINDDMKFFA_FFKFLPMDHFJ___C___CREATEREQUIREMENTINFOS_B__11_1_OFFSET UNITYSDK_OFFSET(0xC26BD70)
 
-inline static constexpr unsigned int MLINDDMKFFA_FFKFLPMDHFJ___c_TypeDefinitionIndex = 79640;
+inline static constexpr unsigned int MLINDDMKFFA_FFKFLPMDHFJ___c_TypeDefinitionIndex = 82417;
 
 	class MLINDDMKFFA_FFKFLPMDHFJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAD40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73AB0);
 		}
 
 		static ::System::Func_2<::FKLECLLJCEH*, ::System::Boolean>** StaticGet___9__11_1()
 		{
-			return (::System::Func_2<::FKLECLLJCEH*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAD48);
+			return (::System::Func_2<::FKLECLLJCEH*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73AB8);
 		}
 
 		static ::System::Func_2<::PHCMIJEDENP*, ::KNHCNPDALBB*>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::PHCMIJEDENP*, ::KNHCNPDALBB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAD50);
+			return (::System::Func_2<::PHCMIJEDENP*, ::KNHCNPDALBB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73AC0);
 		}
 
 		static ::System::Void _cctor()

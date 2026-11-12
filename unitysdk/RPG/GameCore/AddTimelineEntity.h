@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AddTimelineEntity; }
 namespace RPG::GameCore { class TimelineEntityConfig; }
 
-#define RPG_GAMECORE_ADDTIMELINEENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38C8B0)
-#define RPG_GAMECORE_ADDTIMELINEENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38C8C0)
-#define RPG_GAMECORE_ADDTIMELINEENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38C880)
+#define RPG_GAMECORE_ADDTIMELINEENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59C580)
+#define RPG_GAMECORE_ADDTIMELINEENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E59C590)
+#define RPG_GAMECORE_ADDTIMELINEENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E59C550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddTimelineEntity_TypeDefinitionIndex = 20632;
+	inline static constexpr unsigned int AddTimelineEntity_TypeDefinitionIndex = 20969;
 
 	class AddTimelineEntity : public ::RPG::GameCore::TaskConfig
 	{

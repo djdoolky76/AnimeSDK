@@ -3,10 +3,10 @@
 class IJCGPOILPIF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OFJPKLOBGML_CTOR_OFFSET UNITYSDK_OFFSET(0xBE43230)
-#define OFJPKLOBGML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE43260)
+#define OFJPKLOBGML_CTOR_OFFSET UNITYSDK_OFFSET(0xC6FCB30)
+#define OFJPKLOBGML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC6FCB60)
 
-inline static constexpr unsigned int OFJPKLOBGML_TypeDefinitionIndex = 52829;
+inline static constexpr unsigned int OFJPKLOBGML_TypeDefinitionIndex = 53982;
 
 	class OFJPKLOBGML
 	{

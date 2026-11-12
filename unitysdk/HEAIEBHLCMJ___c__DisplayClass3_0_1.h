@@ -5,7 +5,7 @@
 class HEAIEBHLCMJ;
 namespace System { class String; }
 
-inline static constexpr unsigned int HEAIEBHLCMJ___c__DisplayClass3_0_1_TypeDefinitionIndex = 59918;
+inline static constexpr unsigned int HEAIEBHLCMJ___c__DisplayClass3_0_1_TypeDefinitionIndex = 61202;
 
 	template <typename T>
 	class HEAIEBHLCMJ___c__DisplayClass3_0_1 : public ::System::Object

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SwitchMascotConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SWITCHMASCOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB440D0)
-#define RPG_GAMECORE_SWITCHMASCOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB436D0)
+#define RPG_GAMECORE_SWITCHMASCOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF36C0)
+#define RPG_GAMECORE_SWITCHMASCOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDF2CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchMascotConfig_TypeDefinitionIndex = 17009;
+	inline static constexpr unsigned int SwitchMascotConfig_TypeDefinitionIndex = 17176;
 
 	class SwitchMascotConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,7 +4,7 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmBoard_CAMGMFHKNNI_TypeDefinitionIndex = 60159;
+	inline static constexpr unsigned int MusicRhythmBoard_CAMGMFHKNNI_TypeDefinitionIndex = 61443;
 
 	struct alignas(8) MusicRhythmBoard_CAMGMFHKNNI
 	{

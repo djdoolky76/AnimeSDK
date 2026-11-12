@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Space.h"
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_OVERRIDELIGHTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA5DC00)
+#define RPG_CLIENT_OVERRIDELIGHTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE4B2AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OverrideLightMonoPlugin_TypeDefinitionIndex = 70296;
+	inline static constexpr unsigned int OverrideLightMonoPlugin_TypeDefinitionIndex = 72262;
 
 	class OverrideLightMonoPlugin
 	{

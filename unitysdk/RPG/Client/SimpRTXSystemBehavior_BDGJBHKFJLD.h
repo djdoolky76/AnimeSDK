@@ -4,11 +4,11 @@
 namespace RPG::CustomRP { class SWRTPass; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_SIMPRTXSYSTEMBEHAVIOR_BDGJBHKFJLD_EQUALS_OFFSET UNITYSDK_OFFSET(0xF1D80)
+#define RPG_CLIENT_SIMPRTXSYSTEMBEHAVIOR_BDGJBHKFJLD_EQUALS_OFFSET UNITYSDK_OFFSET(0xFDF70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXSystemBehavior_BDGJBHKFJLD_TypeDefinitionIndex = 70950;
+	inline static constexpr unsigned int SimpRTXSystemBehavior_BDGJBHKFJLD_TypeDefinitionIndex = 72929;
 
 	struct alignas(8) SimpRTXSystemBehavior_BDGJBHKFJLD
 	{

@@ -6,23 +6,23 @@ namespace RPG::Client { class MonoEffect; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define NLNAALOKGJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC76030)
-#define NLNAALOKGJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC76060)
-#define NLNAALOKGJD___C___CREATEPHONE_B__3_0_OFFSET UNITYSDK_OFFSET(0xBC76070)
+#define NLNAALOKGJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC55DD70)
+#define NLNAALOKGJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC55DDA0)
+#define NLNAALOKGJD___C___CREATEPHONE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC55DDB0)
 
-inline static constexpr unsigned int NLNAALOKGJD___c_TypeDefinitionIndex = 58054;
+inline static constexpr unsigned int NLNAALOKGJD___c_TypeDefinitionIndex = 59293;
 
 	class NLNAALOKGJD___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CE90);
-		}
-
 		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__3_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CE98);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AB80);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AB88);
 		}
 
 		static ::System::Void _cctor()

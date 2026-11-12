@@ -5,7 +5,7 @@ class PEDNMPONAAO;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-inline static constexpr unsigned int PPMELJBNKPF___c__DisplayClass3_0_TypeDefinitionIndex = 62624;
+inline static constexpr unsigned int PPMELJBNKPF___c__DisplayClass3_0_TypeDefinitionIndex = 64052;
 
 	struct alignas(8) PPMELJBNKPF___c__DisplayClass3_0
 	{

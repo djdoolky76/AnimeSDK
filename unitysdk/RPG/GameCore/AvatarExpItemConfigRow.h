@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarExpItemConfigRow; }
 
-#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4161C0)
-#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D415C20)
+#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E636460)
+#define RPG_GAMECORE_AVATAREXPITEMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E635EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarExpItemConfigRow_TypeDefinitionIndex = 12752;
+	inline static constexpr unsigned int AvatarExpItemConfigRow_TypeDefinitionIndex = 12819;
 
 	class AvatarExpItemConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Exp; // 0x10
-		::System::UInt32 ItemID; // 0x14
+		::System::UInt32 ItemID; // 0x10
+		::System::UInt32 Exp; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATAREXPITEMCONFIGROW_CTOR_OFFSET))(this);

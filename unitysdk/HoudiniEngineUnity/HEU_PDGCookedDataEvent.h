@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HOUDINIENGINEUNITY_HEU_PDGCOOKEDDATAEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9551D0)
+#define HOUDINIENGINEUNITY_HEU_PDGCOOKEDDATAEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CADE000)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PDGCookedDataEvent_TypeDefinitionIndex = 40530;
+	inline static constexpr unsigned int HEU_PDGCookedDataEvent_TypeDefinitionIndex = 41505;
 
 	class HEU_PDGCookedDataEvent
 	{

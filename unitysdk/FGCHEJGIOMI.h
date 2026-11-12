@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearDialogCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGCHEJGIOMI_CTOR_OFFSET UNITYSDK_OFFSET(0x157524D0)
-#define FGCHEJGIOMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15752500)
+#define FGCHEJGIOMI_CTOR_OFFSET UNITYSDK_OFFSET(0x16671A50)
+#define FGCHEJGIOMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16671A80)
 
-inline static constexpr unsigned int FGCHEJGIOMI_TypeDefinitionIndex = 58026;
+inline static constexpr unsigned int FGCHEJGIOMI_TypeDefinitionIndex = 59265;
 
 	class FGCHEJGIOMI
 	{

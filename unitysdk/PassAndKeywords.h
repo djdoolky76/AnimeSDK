@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define PASSANDKEYWORDS_CTOR_OFFSET UNITYSDK_OFFSET(0xC39AFC0)
+#define PASSANDKEYWORDS_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD1160)
 
-inline static constexpr unsigned int PassAndKeywords_TypeDefinitionIndex = 47429;
+inline static constexpr unsigned int PassAndKeywords_TypeDefinitionIndex = 48458;
 
 	class PassAndKeywords : public ::System::Object
 	{

@@ -6,53 +6,53 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define GEDGFBFMEPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x159CD4C0)
-#define GEDGFBFMEPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159CD500)
-#define GEDGFBFMEPI___C___FILLTEAMS_B__5_0_OFFSET UNITYSDK_OFFSET(0x159CD510)
-#define GEDGFBFMEPI___C___FILLTEAMS_B__5_1_OFFSET UNITYSDK_OFFSET(0x159CD530)
-#define GEDGFBFMEPI___C___FILLTEAMS_B__5_2_OFFSET UNITYSDK_OFFSET(0x159CD650)
-#define GEDGFBFMEPI___C___FILLTEAMS_B__5_3_OFFSET UNITYSDK_OFFSET(0x159CD770)
-#define GEDGFBFMEPI___C___FILLTEAMS_B__5_4_OFFSET UNITYSDK_OFFSET(0x159CD790)
-#define GEDGFBFMEPI___C___FILLTEAMS_B__5_5_OFFSET UNITYSDK_OFFSET(0x159CD8B0)
+#define GEDGFBFMEPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16906380)
+#define GEDGFBFMEPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x169063C0)
+#define GEDGFBFMEPI___C___FILLTEAMS_B__5_0_OFFSET UNITYSDK_OFFSET(0x169063D0)
+#define GEDGFBFMEPI___C___FILLTEAMS_B__5_1_OFFSET UNITYSDK_OFFSET(0x169063F0)
+#define GEDGFBFMEPI___C___FILLTEAMS_B__5_2_OFFSET UNITYSDK_OFFSET(0x16906510)
+#define GEDGFBFMEPI___C___FILLTEAMS_B__5_3_OFFSET UNITYSDK_OFFSET(0x16906630)
+#define GEDGFBFMEPI___C___FILLTEAMS_B__5_4_OFFSET UNITYSDK_OFFSET(0x16906650)
+#define GEDGFBFMEPI___C___FILLTEAMS_B__5_5_OFFSET UNITYSDK_OFFSET(0x16906770)
 
-inline static constexpr unsigned int GEDGFBFMEPI___c_TypeDefinitionIndex = 67565;
+inline static constexpr unsigned int GEDGFBFMEPI___c_TypeDefinitionIndex = 69509;
 
 	class GEDGFBFMEPI___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>** StaticGet___9__5_2()
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>** StaticGet___9__5_5()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57D60);
-		}
-
-		static ::System::Func_2<::FDPFMFINJCO*, ::System::Int32>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::FDPFMFINJCO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57D68);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>** StaticGet___9__5_4()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57D70);
-		}
-
-		static ::System::Func_2<::FDPFMFINJCO*, ::System::Int32>** StaticGet___9__5_3()
-		{
-			return (::System::Func_2<::FDPFMFINJCO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57D78);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x665C0);
 		}
 
 		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57D80);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x665C8);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>** StaticGet___9__5_4()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x665D0);
+		}
+
+		static ::System::Func_2<::FDPFMFINJCO*, ::System::Int32>** StaticGet___9__5_3()
+		{
+			return (::System::Func_2<::FDPFMFINJCO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x665D8);
+		}
+
+		static ::System::Func_2<::FDPFMFINJCO*, ::System::Int32>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::FDPFMFINJCO*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x665E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57D88);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x665E8);
 		}
 
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>** StaticGet___9__5_5()
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>** StaticGet___9__5_2()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57D90);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::FDPFMFINJCO*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x665F0);
 		}
 
 		static ::System::Void _cctor()

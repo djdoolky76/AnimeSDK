@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace RPG::Client::Subway
 {
-	inline static constexpr unsigned int AirshipSubwayEmitter_SubPrefab_TypeDefinitionIndex = 82210;
+	inline static constexpr unsigned int AirshipSubwayEmitter_SubPrefab_TypeDefinitionIndex = 85083;
 
 	struct alignas(8) AirshipSubwayEmitter_SubPrefab
 	{

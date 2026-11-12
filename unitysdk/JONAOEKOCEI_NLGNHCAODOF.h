@@ -6,31 +6,31 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define JONAOEKOCEI_NLGNHCAODOF_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2ACDA0)
-#define JONAOEKOCEI_NLGNHCAODOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2AB590)
-#define JONAOEKOCEI_NLGNHCAODOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2ACB90)
-#define JONAOEKOCEI_NLGNHCAODOF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB2ACC40)
+#define JONAOEKOCEI_NLGNHCAODOF_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAD8C70)
+#define JONAOEKOCEI_NLGNHCAODOF_CTOR_OFFSET UNITYSDK_OFFSET(0xBAD7460)
+#define JONAOEKOCEI_NLGNHCAODOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAD8A60)
+#define JONAOEKOCEI_NLGNHCAODOF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBAD8B10)
 
-inline static constexpr unsigned int JONAOEKOCEI_NLGNHCAODOF_TypeDefinitionIndex = 60185;
+inline static constexpr unsigned int JONAOEKOCEI_NLGNHCAODOF_TypeDefinitionIndex = 61469;
 
 	class JONAOEKOCEI_NLGNHCAODOF : public ::JONAOEKOCEI_IPDHLMJJDND
 	{
 	public:
-		::System::String* IJMGEMMNNPI; // 0x38
-		::UnityEngine::GameObject* PGKENBMKDKA; // 0x40
-		::System::Single GHABAAOGBNO; // 0x48
-		::System::Single PGMIOKKLHIE; // 0x4C
-		::System::Single HBDJCFFDGDD; // 0x50
-		::System::Single GLOIDCBECOG; // 0x54
-		::UnityEngine::Vector3 PDJBFBPEHFE; // 0x58
+		::UnityEngine::GameObject* PGKENBMKDKA; // 0x38
+		::System::String* IJMGEMMNNPI; // 0x40
+		::System::Single HBDJCFFDGDD; // 0x48
+		::UnityEngine::Vector3 PDJBFBPEHFE; // 0x4C
+		::System::Single GHABAAOGBNO; // 0x58
+		::System::Single GLOIDCBECOG; // 0x5C
+		::System::Single PGMIOKKLHIE; // 0x60
 		static ::System::String** StaticGet_LOJFHLOCBPG()
 		{
-			return (::System::String**)UnitySDK::FromName("", "NLGNHCAODOF")->GetStaticField(0x25A00);
+			return (::System::String**)UnitySDK::FromName("", "NLGNHCAODOF")->GetStaticField(0x1C5A0);
 		}
 
 		static ::System::Single* StaticGet_BEIBJFCCNMN()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "NLGNHCAODOF")->GetStaticField(0x82B0);
+			return (::System::Single*)UnitySDK::FromName("", "NLGNHCAODOF")->GetStaticField(0x5CA0);
 		}
 
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::System::Int32 a2, ::UnityEngine::Transform* a3, ::UnityEngine::Vector3 a4, ::UnityEngine::Vector3 a5, ::System::Single a6, ::System::String* a7, ::System::Boolean a8)

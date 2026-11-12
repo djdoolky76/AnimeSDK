@@ -4,10 +4,10 @@
 #include "unitysdk/BCGLFKMDELO.h"
 class NCINHOOPPNG;
 
-#define CIPGAPCNPGK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCF90EA0)
-#define CIPGAPCNPGK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF91050)
+#define CIPGAPCNPGK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xDB682A0)
+#define CIPGAPCNPGK_CTOR_OFFSET UNITYSDK_OFFSET(0xDB68440)
 
-inline static constexpr unsigned int CIPGAPCNPGK_TypeDefinitionIndex = 62611;
+inline static constexpr unsigned int CIPGAPCNPGK_TypeDefinitionIndex = 64034;
 
 	class CIPGAPCNPGK : public ::System::Object
 	{

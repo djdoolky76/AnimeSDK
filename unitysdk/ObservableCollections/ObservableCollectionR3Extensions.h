@@ -4,7 +4,7 @@
 
 namespace ObservableCollections
 {
-	inline static constexpr unsigned int ObservableCollectionR3Extensions_TypeDefinitionIndex = 41364;
+	inline static constexpr unsigned int ObservableCollectionR3Extensions_TypeDefinitionIndex = 42339;
 
 	class ObservableCollectionR3Extensions : public ::System::Object
 	{

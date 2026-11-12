@@ -5,29 +5,29 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define NCJELKLNHMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB12CA0)
-#define NCJELKLNHMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBB12CE0)
-#define NCJELKLNHMF___C__CLEARMESSAGESBEFORE_B__14_0_OFFSET UNITYSDK_OFFSET(0xBB12CF0)
-#define NCJELKLNHMF___C__REMOVEMESSAGE_B__15_0_OFFSET UNITYSDK_OFFSET(0xBB12D00)
+#define NCJELKLNHMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC399D70)
+#define NCJELKLNHMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC399DB0)
+#define NCJELKLNHMF___C__CLEARMESSAGESBEFORE_B__14_0_OFFSET UNITYSDK_OFFSET(0xC399DC0)
+#define NCJELKLNHMF___C__REMOVEMESSAGE_B__15_0_OFFSET UNITYSDK_OFFSET(0xC399DD0)
 
-inline static constexpr unsigned int NCJELKLNHMF___c_TypeDefinitionIndex = 76489;
+inline static constexpr unsigned int NCJELKLNHMF___c_TypeDefinitionIndex = 78820;
 
 	class NCJELKLNHMF___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>** StaticGet___9__15_0()
+		{
+			return (::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E730);
+		}
+
 		static ::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25AB0);
+			return (::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E738);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25AB8);
-		}
-
-		static ::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>** StaticGet___9__15_0()
-		{
-			return (::System::Func_3<::NEMHKFFNDJO, ::System::UInt64, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25AC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E740);
 		}
 
 		static ::System::Void _cctor()

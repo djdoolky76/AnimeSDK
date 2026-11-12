@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByGridFightTraitSelectedCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCPIHAJMCBO_CTOR_OFFSET UNITYSDK_OFFSET(0xC00ACE0)
-#define PCPIHAJMCBO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC00AD10)
+#define PCPIHAJMCBO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9107A0)
+#define PCPIHAJMCBO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC9107D0)
 
-inline static constexpr unsigned int PCPIHAJMCBO_TypeDefinitionIndex = 54609;
+inline static constexpr unsigned int PCPIHAJMCBO_TypeDefinitionIndex = 55775;
 
 	class PCPIHAJMCBO
 	{

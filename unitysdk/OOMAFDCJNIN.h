@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RemoveBehaviorFlagForModifier; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define OOMAFDCJNIN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8CD50)
-#define OOMAFDCJNIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF8CD80)
+#define OOMAFDCJNIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC88D6F0)
+#define OOMAFDCJNIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC88D720)
 
-inline static constexpr unsigned int OOMAFDCJNIN_TypeDefinitionIndex = 55178;
+inline static constexpr unsigned int OOMAFDCJNIN_TypeDefinitionIndex = 56359;
 
 	class OOMAFDCJNIN
 	{

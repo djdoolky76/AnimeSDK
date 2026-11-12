@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AudioRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUDIORTPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D409120)
-#define RPG_GAMECORE_AUDIORTPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D408FF0)
+#define RPG_GAMECORE_AUDIORTPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6293B0)
+#define RPG_GAMECORE_AUDIORTPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E629280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioRTPCConfig_TypeDefinitionIndex = 16385;
+	inline static constexpr unsigned int AudioRTPCConfig_TypeDefinitionIndex = 16549;
 
 	class AudioRTPCConfig : public ::RPG::GameCore::JsonConfig
 	{

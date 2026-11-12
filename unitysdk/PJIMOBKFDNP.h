@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PJIMOBKFDNP_TypeDefinitionIndex = 32209;
+inline static constexpr unsigned int PJIMOBKFDNP_TypeDefinitionIndex = 33122;
 
 	enum class PJIMOBKFDNP : ::System::Int32
 	{

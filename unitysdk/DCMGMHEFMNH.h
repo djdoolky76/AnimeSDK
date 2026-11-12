@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DCMGMHEFMNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC84F00)
+#define DCMGMHEFMNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2C090)
 
-inline static constexpr unsigned int DCMGMHEFMNH_TypeDefinitionIndex = 43840;
+inline static constexpr unsigned int DCMGMHEFMNH_TypeDefinitionIndex = 44915;
 
 	class DCMGMHEFMNH : public ::System::Object
 	{

@@ -6,9 +6,9 @@ class EANKAFJCEEH;
 namespace RPG::GameCore { class BattleInstance; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define KANKEPCJION_JNLBIIDFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E4C10)
+#define KANKEPCJION_JNLBIIDFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB69F20)
 
-inline static constexpr unsigned int KANKEPCJION_JNLBIIDFHMK_TypeDefinitionIndex = 71896;
+inline static constexpr unsigned int KANKEPCJION_JNLBIIDFHMK_TypeDefinitionIndex = 73917;
 
 	class KANKEPCJION_JNLBIIDFHMK : public ::System::Object
 	{

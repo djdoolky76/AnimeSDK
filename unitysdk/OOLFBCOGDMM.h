@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define OOLFBCOGDMM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x25C30)
+#define OOLFBCOGDMM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2BB70)
 
-inline static constexpr unsigned int OOLFBCOGDMM_TypeDefinitionIndex = 71089;
+inline static constexpr unsigned int OOLFBCOGDMM_TypeDefinitionIndex = 73072;
 
 	struct alignas(4) OOLFBCOGDMM
 	{

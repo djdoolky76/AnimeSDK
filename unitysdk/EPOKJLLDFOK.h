@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define EPOKJLLDFOK_CTOR_OFFSET UNITYSDK_OFFSET(0x155D9250)
+#define EPOKJLLDFOK_CTOR_OFFSET UNITYSDK_OFFSET(0x164EBF50)
 
-inline static constexpr unsigned int EPOKJLLDFOK_TypeDefinitionIndex = 73659;
+inline static constexpr unsigned int EPOKJLLDFOK_TypeDefinitionIndex = 75782;
 
 	class EPOKJLLDFOK : public ::System::Attribute
 	{

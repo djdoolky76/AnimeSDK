@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define DELIAOGHDJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E89C0)
+#define DELIAOGHDJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76A110)
 
-inline static constexpr unsigned int DELIAOGHDJG_TypeDefinitionIndex = 37057;
+inline static constexpr unsigned int DELIAOGHDJG_TypeDefinitionIndex = 37985;
 
 	class DELIAOGHDJG : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

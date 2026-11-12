@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_MAPONLINEPLAYROOMICONPOSITIONCONTROLLER_ROOMTYPEPOSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD55A0E0)
-#define RPG_CLIENT_MAPONLINEPLAYROOMICONPOSITIONCONTROLLER_ROOMTYPEPOSITIONCONFIG_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xD559FC0)
+#define RPG_CLIENT_MAPONLINEPLAYROOMICONPOSITIONCONTROLLER_ROOMTYPEPOSITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDFAA880)
+#define RPG_CLIENT_MAPONLINEPLAYROOMICONPOSITIONCONTROLLER_ROOMTYPEPOSITIONCONFIG_GETPOSITION_OFFSET UNITYSDK_OFFSET(0xDFAA760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapOnlinePlayRoomIconPositionController_RoomTypePositionConfig_TypeDefinitionIndex = 72811;
+	inline static constexpr unsigned int MapOnlinePlayRoomIconPositionController_RoomTypePositionConfig_TypeDefinitionIndex = 74890;
 
 	class MapOnlinePlayRoomIconPositionController_RoomTypePositionConfig : public ::System::Object
 	{

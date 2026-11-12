@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FindClosestAttachPoint; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A88D0)
-#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6A88E0)
-#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A88A0)
+#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B50D0)
+#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8B50E0)
+#define RPG_GAMECORE_FINDCLOSESTATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8B50A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindClosestAttachPoint_TypeDefinitionIndex = 22457;
+	inline static constexpr unsigned int FindClosestAttachPoint_TypeDefinitionIndex = 22866;
 
 	class FindClosestAttachPoint : public ::RPG::GameCore::TaskConfig
 	{

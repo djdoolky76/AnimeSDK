@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/TurnState.h"
 #include "unitysdk/System/Object.h"
 
-#define EPEGJBOCNCN_CTOR_OFFSET UNITYSDK_OFFSET(0x155A0ED0)
+#define EPEGJBOCNCN_CTOR_OFFSET UNITYSDK_OFFSET(0x164E4B00)
 
-inline static constexpr unsigned int EPEGJBOCNCN_TypeDefinitionIndex = 80581;
+inline static constexpr unsigned int EPEGJBOCNCN_TypeDefinitionIndex = 83361;
 
 	class EPEGJBOCNCN : public ::System::Object
 	{

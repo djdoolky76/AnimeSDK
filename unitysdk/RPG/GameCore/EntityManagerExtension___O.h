@@ -6,14 +6,14 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___O_TypeDefinitionIndex = 57772;
+	inline static constexpr unsigned int EntityManagerExtension___O_TypeDefinitionIndex = 59007;
 
 	class EntityManagerExtension___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet__0___IsServantsOf()
 		{
-			return (::System::Func_3<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5D1D0);
+			return (::System::Func_3<::RPG::GameCore::GameEntity*, ::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x6C9A0);
 		}
 
 	};

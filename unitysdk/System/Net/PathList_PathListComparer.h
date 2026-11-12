@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System::Net { class PathList_PathListComparer; }
 
-#define SYSTEM_NET_PATHLIST_PATHLISTCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F072960)
-#define SYSTEM_NET_PATHLIST_PATHLISTCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F072950)
-#define SYSTEM_NET_PATHLIST_PATHLISTCOMPARER_SYSTEM_COLLECTIONS_ICOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1F072790)
+#define SYSTEM_NET_PATHLIST_PATHLISTCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x203223B0)
+#define SYSTEM_NET_PATHLIST_PATHLISTCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x203223A0)
+#define SYSTEM_NET_PATHLIST_PATHLISTCOMPARER_SYSTEM_COLLECTIONS_ICOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x203221E0)
 
 namespace System::Net
 {
@@ -17,7 +17,7 @@ namespace System::Net
 	public:
 		static ::System::Net::PathList_PathListComparer** StaticGet_StaticInstance()
 		{
-			return (::System::Net::PathList_PathListComparer**)UnitySDK::FromName("System.Net", "PathListComparer")->GetStaticField(0x26AD0);
+			return (::System::Net::PathList_PathListComparer**)UnitySDK::FromName("System.Net", "PathListComparer")->GetStaticField(0x33140);
 		}
 
 		::System::Void _ctor()

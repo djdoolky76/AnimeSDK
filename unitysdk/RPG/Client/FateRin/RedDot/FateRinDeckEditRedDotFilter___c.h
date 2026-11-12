@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFAE4A0)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFAE4E0)
-#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__GETSUBKEYS_B__1_0_OFFSET UNITYSDK_OFFSET(0xCFAE4F0)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD92FD50)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD92FD90)
+#define RPG_CLIENT_FATERIN_REDDOT_FATERINDECKEDITREDDOTFILTER___C__GETSUBKEYS_B__1_0_OFFSET UNITYSDK_OFFSET(0xD92FDA0)
 
 namespace RPG::Client::FateRin::RedDot
 {
-	inline static constexpr unsigned int FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex = 80739;
+	inline static constexpr unsigned int FateRinDeckEditRedDotFilter___c_TypeDefinitionIndex = 83519;
 
 	class FateRinDeckEditRedDotFilter___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::FateRinHouguOwnerType, ::System::UInt32>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::FateRinHouguOwnerType, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.FateRin.RedDot", "<>c")->GetStaticField(0x57C60);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.RedDot", "<>c")->GetStaticField(0x57C68);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.FateRin.RedDot", "<>c")->GetStaticField(0x62000);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::FateRinHouguOwnerType, ::System::UInt32>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::FateRinHouguOwnerType, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.FateRin.RedDot", "<>c")->GetStaticField(0x62008);
 		}
 
 		static ::System::Void _cctor()

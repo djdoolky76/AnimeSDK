@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE929B90)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE929AC0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF4057F0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_RESETPOSTPROCESSTIMELINEBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xF405720)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int ResetPostProcessTimelineBehaviour_TypeDefinitionIndex = 48608;
+	inline static constexpr unsigned int ResetPostProcessTimelineBehaviour_TypeDefinitionIndex = 49649;
 
 	class ResetPostProcessTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

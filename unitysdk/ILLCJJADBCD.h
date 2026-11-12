@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByGridFightHasTrait; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILLCJJADBCD_CTOR_OFFSET UNITYSDK_OFFSET(0x164C4640)
-#define ILLCJJADBCD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164C4670)
+#define ILLCJJADBCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1749D4F0)
+#define ILLCJJADBCD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1749D520)
 
-inline static constexpr unsigned int ILLCJJADBCD_TypeDefinitionIndex = 54607;
+inline static constexpr unsigned int ILLCJJADBCD_TypeDefinitionIndex = 55772;
 
 	class ILLCJJADBCD
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define RPG_CLIENT_BLENDCURVERANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC8859E0)
+#define RPG_CLIENT_BLENDCURVERANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD1EB100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BlendCurveRange_TypeDefinitionIndex = 69720;
+	inline static constexpr unsigned int BlendCurveRange_TypeDefinitionIndex = 71677;
 
 	class BlendCurveRange : public ::System::Object
 	{

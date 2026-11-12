@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGamePropertyEntityVarBindingMap; }
 
-#define RPG_GAMECORE_LITTLEGAMEPROPERTYENTITYVARBINDINGMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E58C0)
-#define RPG_GAMECORE_LITTLEGAMEPROPERTYENTITYVARBINDINGMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E5880)
+#define RPG_GAMECORE_LITTLEGAMEPROPERTYENTITYVARBINDINGMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA261E0)
+#define RPG_GAMECORE_LITTLEGAMEPROPERTYENTITYVARBINDINGMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA261A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGamePropertyEntityVarBindingMap_TypeDefinitionIndex = 18925;
+	inline static constexpr unsigned int LittleGamePropertyEntityVarBindingMap_TypeDefinitionIndex = 19087;
 
 	class LittleGamePropertyEntityVarBindingMap : public ::RPG::GameCore::JsonConfig
 	{

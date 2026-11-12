@@ -4,21 +4,20 @@
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JJKPCPDIOCC_ANIKAJGNCJF_OFFSET UNITYSDK_OFFSET(0x1C6FFF30)
-#define JJKPCPDIOCC_BMEGLEGIDFA_OFFSET UNITYSDK_OFFSET(0x1C6FFF80)
-#define JJKPCPDIOCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FFF90)
-#define JJKPCPDIOCC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C6FFE70)
+#define JJKPCPDIOCC_ANIKAJGNCJF_OFFSET UNITYSDK_OFFSET(0x1D8819E0)
+#define JJKPCPDIOCC_BMEGLEGIDFA_OFFSET UNITYSDK_OFFSET(0x1D881A30)
+#define JJKPCPDIOCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D881A40)
+#define JJKPCPDIOCC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1D881920)
 
-inline static constexpr unsigned int JJKPCPDIOCC_TypeDefinitionIndex = 37321;
+inline static constexpr unsigned int JJKPCPDIOCC_TypeDefinitionIndex = 38249;
 
 	class JJKPCPDIOCC : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* ENEIPCFDOOG; // 0x10
 		::System::Collections::Generic::HashSet_1<::System::Int32>* OMOHFCCGLFJ; // 0x18
-		::System::Boolean PLMEKBJKEOC; // 0x20
-		::System::Byte _padding0[0x7];
-		::System::UInt64 HHOJFEJJMLK; // 0x28
+		::System::UInt64 HHOJFEJJMLK; // 0x20
+		::System::Boolean PLMEKBJKEOC; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JJKPCPDIOCC_CTOR_OFFSET))(this);

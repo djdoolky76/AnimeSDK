@@ -9,29 +9,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define AFKPMOEIBJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C880DB0)
-#define AFKPMOEIBJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C880DF0)
-#define AFKPMOEIBJL___C___BUILDSHUFFLELIBRARY_B__21_0_OFFSET UNITYSDK_OFFSET(0x1C880ED0)
-#define AFKPMOEIBJL___C___CREATEBOMBS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C880E00)
+#define AFKPMOEIBJL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA024A0)
+#define AFKPMOEIBJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA024E0)
+#define AFKPMOEIBJL___C___BUILDSHUFFLELIBRARY_B__21_0_OFFSET UNITYSDK_OFFSET(0x1DA025C0)
+#define AFKPMOEIBJL___C___CREATEBOMBS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1DA024F0)
 
-inline static constexpr unsigned int AFKPMOEIBJL___c_TypeDefinitionIndex = 42303;
+inline static constexpr unsigned int AFKPMOEIBJL___c_TypeDefinitionIndex = 43278;
 
 	class AFKPMOEIBJL___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::EFHNDMENDHI*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A710);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A718);
+			return (::System::Comparison_1<::EFHNDMENDHI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x124C0);
 		}
 
 		static ::System::Func_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag>, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A720);
+			return (::System::Func_2<::System::ValueTuple_3<::System::UInt32, ::RPG::GameCore::Match3::BombType, ::RPG::GameCore::Match3::PieceTag>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x124C8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x124D0);
 		}
 
 		static ::System::Void _cctor()

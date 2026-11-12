@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define PIOGONCBKIF___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC275200)
-#define PIOGONCBKIF___C__DISPLAYCLASS5_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xC2752B0)
+#define PIOGONCBKIF___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9D350)
+#define PIOGONCBKIF___C__DISPLAYCLASS5_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xCB9D400)
 
-inline static constexpr unsigned int PIOGONCBKIF___c__DisplayClass5_0_TypeDefinitionIndex = 71332;
+inline static constexpr unsigned int PIOGONCBKIF___c__DisplayClass5_0_TypeDefinitionIndex = 73309;
 
 	class PIOGONCBKIF___c__DisplayClass5_0 : public ::System::Object
 	{

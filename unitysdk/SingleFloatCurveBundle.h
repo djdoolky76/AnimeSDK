@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define SINGLEFLOATCURVEBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDCE20)
+#define SINGLEFLOATCURVEBUNDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE8E8D0)
 
-inline static constexpr unsigned int SingleFloatCurveBundle_TypeDefinitionIndex = 43982;
+inline static constexpr unsigned int SingleFloatCurveBundle_TypeDefinitionIndex = 45057;
 
 	class SingleFloatCurveBundle : public ::System::Object
 	{

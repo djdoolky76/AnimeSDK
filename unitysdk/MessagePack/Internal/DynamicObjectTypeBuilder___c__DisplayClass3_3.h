@@ -6,19 +6,19 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Reflection::Emit { class ILGenerator; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_3_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB99900)
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_3__BUILDTYPE_B__3_OFFSET UNITYSDK_OFFSET(0x1BBA55E0)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_3_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD22770)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_3__BUILDTYPE_B__3_OFFSET UNITYSDK_OFFSET(0x1CD2E460)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_3_TypeDefinitionIndex = 7328;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_3_TypeDefinitionIndex = 7339;
 
 	template <typename T1, typename T2, typename T3>
 	class DynamicObjectTypeBuilder___c__DisplayClass3_3 : public ::System::Object
 	{
 	public:
-		::System::Reflection::Emit::ILGenerator* il; // 0x10
-		::System::Object* CS___8__locals3; // 0x18
+		::System::Object* CS___8__locals3; // 0x10
+		::System::Reflection::Emit::ILGenerator* il; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER___C__DISPLAYCLASS3_3_CTOR_OFFSET))(this);

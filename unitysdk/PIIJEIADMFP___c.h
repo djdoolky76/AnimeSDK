@@ -4,18 +4,18 @@
 class PIIJEIADMFP;
 namespace System { class Object; }
 
-#define PIIJEIADMFP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF69530)
-#define PIIJEIADMFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF69570)
-#define PIIJEIADMFP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF69580)
+#define PIIJEIADMFP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F21AB60)
+#define PIIJEIADMFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F21ABA0)
+#define PIIJEIADMFP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F21ABB0)
 
-inline static constexpr unsigned int PIIJEIADMFP___c_TypeDefinitionIndex = 27158;
+inline static constexpr unsigned int PIIJEIADMFP___c_TypeDefinitionIndex = 27689;
 
 	class PIIJEIADMFP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44060);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38820);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DFIJIBKBEJL_TypeDefinitionIndex = 29119;
+inline static constexpr unsigned int DFIJIBKBEJL_TypeDefinitionIndex = 29714;
 
 	enum class DFIJIBKBEJL : ::System::Int32
 	{
@@ -13,6 +13,7 @@ inline static constexpr unsigned int DFIJIBKBEJL_TypeDefinitionIndex = 29119;
 		BLGECPEENGO = 5,
 		BPBGGMIFEDO = 6,
 		GIOKPCBNABN = 7,
+		AHNGEPIENDG = 8,
 		LGCCNHOBMAP = 101,
 		HBGPPEHGINP = 102,
 		CJDPIHFECNJ = 103,

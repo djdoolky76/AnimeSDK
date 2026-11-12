@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleAddBullet; }
 
-#define CKGJLFPKCFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12830)
-#define CKGJLFPKCFD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA12840)
+#define CKGJLFPKCFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBD60A0)
+#define CKGJLFPKCFD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DBD60B0)
 
-inline static constexpr unsigned int CKGJLFPKCFD_TypeDefinitionIndex = 43111;
+inline static constexpr unsigned int CKGJLFPKCFD_TypeDefinitionIndex = 44092;
 
 	class CKGJLFPKCFD : public ::BKABEBEPPJK
 	{

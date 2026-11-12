@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AutoUseUltraSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BICNPGEKNJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB495CF0)
-#define BICNPGEKNJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB495D20)
+#define BICNPGEKNJI_CTOR_OFFSET UNITYSDK_OFFSET(0xBE28EC0)
+#define BICNPGEKNJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE28EF0)
 
-inline static constexpr unsigned int BICNPGEKNJI_TypeDefinitionIndex = 54872;
+inline static constexpr unsigned int BICNPGEKNJI_TypeDefinitionIndex = 56042;
 
 	class BICNPGEKNJI
 	{

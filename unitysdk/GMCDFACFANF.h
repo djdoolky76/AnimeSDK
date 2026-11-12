@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class IKIGGAKDIGO;
 
-#define GMCDFACFANF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAB1C70)
-#define GMCDFACFANF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1CD0)
+#define GMCDFACFANF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC75630)
+#define GMCDFACFANF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC75690)
 
-inline static constexpr unsigned int GMCDFACFANF_TypeDefinitionIndex = 43268;
+inline static constexpr unsigned int GMCDFACFANF_TypeDefinitionIndex = 44249;
 
 	class GMCDFACFANF : public ::System::Object
 	{

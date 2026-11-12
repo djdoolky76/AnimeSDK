@@ -6,16 +6,16 @@ class KNFCEJEJINK;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NCPHGMEMAPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1DDA0)
-#define NCPHGMEMAPP_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBB1DD00)
+#define NCPHGMEMAPP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A6C90)
+#define NCPHGMEMAPP_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xC3A6810)
 
-inline static constexpr unsigned int NCPHGMEMAPP_TypeDefinitionIndex = 77697;
+inline static constexpr unsigned int NCPHGMEMAPP_TypeDefinitionIndex = 80432;
 
 	class NCPHGMEMAPP : public ::HBLDGJCDJPF
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* PIJFBMKEOIE; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* IBKPFCOIKOI; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* IBKPFCOIKOI; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* PIJFBMKEOIE; // 0x18
 		::System::Boolean IDLAAPIGNMG; // 0x20
 		::System::Void _ctor()
 		{

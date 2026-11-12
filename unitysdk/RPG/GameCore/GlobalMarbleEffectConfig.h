@@ -7,12 +7,12 @@ namespace RPG::GameCore { class MarbleEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMARBLEEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71EE30)
-#define RPG_GAMECORE_GLOBALMARBLEEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71ED30)
+#define RPG_GAMECORE_GLOBALMARBLEEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E928DB0)
+#define RPG_GAMECORE_GLOBALMARBLEEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E90EE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalMarbleEffectConfig_TypeDefinitionIndex = 16910;
+	inline static constexpr unsigned int GlobalMarbleEffectConfig_TypeDefinitionIndex = 17077;
 
 	class GlobalMarbleEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

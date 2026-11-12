@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMonsterTemplateID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JCJLKGMGFDB_CTOR_OFFSET UNITYSDK_OFFSET(0x16596A20)
-#define JCJLKGMGFDB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16596A50)
+#define JCJLKGMGFDB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DAE20)
+#define JCJLKGMGFDB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8DAE50)
 
-inline static constexpr unsigned int JCJLKGMGFDB_TypeDefinitionIndex = 54547;
+inline static constexpr unsigned int JCJLKGMGFDB_TypeDefinitionIndex = 55712;
 
 	class JCJLKGMGFDB
 	{

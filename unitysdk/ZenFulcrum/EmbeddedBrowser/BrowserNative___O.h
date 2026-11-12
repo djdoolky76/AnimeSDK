@@ -6,19 +6,19 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_NewRequestFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative___O_TypeDefinitionIndex = 39461;
+	inline static constexpr unsigned int BrowserNative___O_TypeDefinitionIndex = 40390;
 
 	class BrowserNative___O : public ::System::Object
 	{
 	public:
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc** StaticGet__0___LogCallback()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x50EF0);
-		}
-
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewRequestFunc** StaticGet__1___NewRequestCallback()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewRequestFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x50EF8);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewRequestFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x46840);
+		}
+
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc** StaticGet__0___LogCallback()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_MessageFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x46848);
 		}
 
 	};

@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class PetMarbleSetFaceEmotion; }
 
-#define KNGOJKKLOPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909980)
-#define KNGOJKKLOPK_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C909990)
+#define KNGOJKKLOPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB5BB0)
+#define KNGOJKKLOPK_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DAB5BC0)
 
-inline static constexpr unsigned int KNGOJKKLOPK_TypeDefinitionIndex = 43103;
+inline static constexpr unsigned int KNGOJKKLOPK_TypeDefinitionIndex = 44084;
 
 	class KNGOJKKLOPK : public ::BKABEBEPPJK
 	{

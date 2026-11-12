@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleOnField; }
 
-#define OGCBMGHDEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CDC0)
-#define OGCBMGHDEFP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C98CDD0)
+#define OGCBMGHDEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4EB30)
+#define OGCBMGHDEFP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DB4EB40)
 
-inline static constexpr unsigned int OGCBMGHDEFP_TypeDefinitionIndex = 43114;
+inline static constexpr unsigned int OGCBMGHDEFP_TypeDefinitionIndex = 44095;
 
 	class OGCBMGHDEFP : public ::BKABEBEPPJK
 	{

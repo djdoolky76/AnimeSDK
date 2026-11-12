@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowChallegeStoryWavePanel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ICPEOLNAIDB_CTOR_OFFSET UNITYSDK_OFFSET(0x15E62E00)
-#define ICPEOLNAIDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E62E30)
+#define ICPEOLNAIDB_CTOR_OFFSET UNITYSDK_OFFSET(0x16E10570)
+#define ICPEOLNAIDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E105A0)
 
-inline static constexpr unsigned int ICPEOLNAIDB_TypeDefinitionIndex = 58624;
+inline static constexpr unsigned int ICPEOLNAIDB_TypeDefinitionIndex = 59889;
 
 	class ICPEOLNAIDB
 	{

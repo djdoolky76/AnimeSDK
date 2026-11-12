@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsAllowUseSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBMNOIKPIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x156A8280)
-#define FBMNOIKPIDE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156A82B0)
+#define FBMNOIKPIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x165BFF60)
+#define FBMNOIKPIDE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165BFF90)
 
-inline static constexpr unsigned int FBMNOIKPIDE_TypeDefinitionIndex = 54905;
+inline static constexpr unsigned int FBMNOIKPIDE_TypeDefinitionIndex = 56077;
 
 	class FBMNOIKPIDE
 	{

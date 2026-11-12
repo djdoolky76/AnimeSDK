@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HipplenGameSwitchCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JEGNPJCIPGC_CTOR_OFFSET UNITYSDK_OFFSET(0x166226D0)
-#define JEGNPJCIPGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16622700)
+#define JEGNPJCIPGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB967BE0)
+#define JEGNPJCIPGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB967C10)
 
-inline static constexpr unsigned int JEGNPJCIPGC_TypeDefinitionIndex = 52273;
+inline static constexpr unsigned int JEGNPJCIPGC_TypeDefinitionIndex = 53379;
 
 	class JEGNPJCIPGC
 	{

@@ -7,47 +7,47 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class WingedEdge; }
 
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2632C0)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_DIJKSTRA_OFFSET UNITYSDK_OFFSET(0x1F2624F0)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETMINIMALPATH_OFFSET UNITYSDK_OFFSET(0x1F2623A0)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETPATH_OFFSET UNITYSDK_OFFSET(0x1F262100)
-#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x1F262E00)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_CCTOR_OFFSET UNITYSDK_OFFSET(0x205143F0)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_DIJKSTRA_OFFSET UNITYSDK_OFFSET(0x20513620)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETMINIMALPATH_OFFSET UNITYSDK_OFFSET(0x205134D0)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETPATH_OFFSET UNITYSDK_OFFSET(0x20513230)
+#define UNITYENGINE_PROBUILDER_SELECTPATHFACES_GETWEIGHT_OFFSET UNITYSDK_OFFSET(0x20513F30)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SelectPathFaces_TypeDefinitionIndex = 44416;
+	inline static constexpr unsigned int SelectPathFaces_TypeDefinitionIndex = 45491;
 
 	class SelectPathFaces : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>** StaticGet_s_cachedWings()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x55BB0);
-		}
-
-		static ::UnityEngine::ProBuilder::ProBuilderMesh** StaticGet_s_cachedMesh()
-		{
-			return (::UnityEngine::ProBuilder::ProBuilderMesh**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x55BB8);
-		}
-
-		static ::Il2CppArray<::System::Int32>** StaticGet_s_cachedPredecessors()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x55BC0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68F60);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>** StaticGet_s_cachedFacesIndex()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x55BC8);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68F68);
+		}
+
+		static ::UnityEngine::ProBuilder::ProBuilderMesh** StaticGet_s_cachedMesh()
+		{
+			return (::UnityEngine::ProBuilder::ProBuilderMesh**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68F70);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_s_cachedPredecessors()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x68F78);
 		}
 
 		static ::System::Int32* StaticGet_s_cachedStart()
 		{
-			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x12F60);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x15080);
 		}
 
 		static ::System::Int32* StaticGet_s_cachedFacesCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x12F64);
+			return (::System::Int32*)UnitySDK::FromName("UnityEngine.ProBuilder", "SelectPathFaces")->GetStaticField(0x15084);
 		}
 
 		static ::System::Void _cctor()

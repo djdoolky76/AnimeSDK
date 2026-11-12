@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RenderTextureSubElement_TypeDefinitionIndex = 4728;
+	inline static constexpr unsigned int RenderTextureSubElement_TypeDefinitionIndex = 4732;
 
 	enum class RenderTextureSubElement : ::System::Int32
 	{

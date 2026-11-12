@@ -3,7 +3,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ISystemInformationService_TypeDefinitionIndex = 38071;
+	inline static constexpr unsigned int ISystemInformationService_TypeDefinitionIndex = 39000;
 
 	class ISystemInformationService
 	{

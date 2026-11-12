@@ -11,10 +11,10 @@ namespace System::Threading { class AutoResetEvent; }
 namespace System::Threading { class ManualResetEvent; }
 namespace System::Threading { class WaitHandle; }
 
-#define SYSTEM_NET_TIMERTHREAD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F08CAF0)
-#define SYSTEM_NET_TIMERTHREAD_CREATEQUEUE_OFFSET UNITYSDK_OFFSET(0x1F08CDF0)
-#define SYSTEM_NET_TIMERTHREAD_ONDOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x1F08D140)
-#define SYSTEM_NET_TIMERTHREAD_STOPTIMERTHREAD_OFFSET UNITYSDK_OFFSET(0x1F08D0C0)
+#define SYSTEM_NET_TIMERTHREAD_CCTOR_OFFSET UNITYSDK_OFFSET(0x2033D680)
+#define SYSTEM_NET_TIMERTHREAD_CREATEQUEUE_OFFSET UNITYSDK_OFFSET(0x2033D980)
+#define SYSTEM_NET_TIMERTHREAD_ONDOMAINUNLOAD_OFFSET UNITYSDK_OFFSET(0x2033DCD0)
+#define SYSTEM_NET_TIMERTHREAD_STOPTIMERTHREAD_OFFSET UNITYSDK_OFFSET(0x2033DC50)
 
 namespace System::Net
 {
@@ -23,39 +23,39 @@ namespace System::Net
 	class TimerThread : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Threading::WaitHandle*>** StaticGet_s_ThreadEvents()
+		static ::System::Collections::Hashtable** StaticGet_s_QueuesCache()
 		{
-			return (::Il2CppArray<::System::Threading::WaitHandle*>**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x2D040);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x35DE0);
 		}
 
 		static ::System::Collections::Generic::LinkedList_1<::System::WeakReference*>** StaticGet_s_NewQueues()
 		{
-			return (::System::Collections::Generic::LinkedList_1<::System::WeakReference*>**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x2D048);
+			return (::System::Collections::Generic::LinkedList_1<::System::WeakReference*>**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x35DE8);
 		}
 
-		static ::System::Threading::ManualResetEvent** StaticGet_s_ThreadShutdownEvent()
+		static ::Il2CppArray<::System::Threading::WaitHandle*>** StaticGet_s_ThreadEvents()
 		{
-			return (::System::Threading::ManualResetEvent**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x2D050);
+			return (::Il2CppArray<::System::Threading::WaitHandle*>**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x35DF0);
 		}
 
 		static ::System::Collections::Generic::LinkedList_1<::System::WeakReference*>** StaticGet_s_Queues()
 		{
-			return (::System::Collections::Generic::LinkedList_1<::System::WeakReference*>**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x2D058);
+			return (::System::Collections::Generic::LinkedList_1<::System::WeakReference*>**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x35DF8);
+		}
+
+		static ::System::Threading::ManualResetEvent** StaticGet_s_ThreadShutdownEvent()
+		{
+			return (::System::Threading::ManualResetEvent**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x35E00);
 		}
 
 		static ::System::Threading::AutoResetEvent** StaticGet_s_ThreadReadyEvent()
 		{
-			return (::System::Threading::AutoResetEvent**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x2D060);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet_s_QueuesCache()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x2D068);
+			return (::System::Threading::AutoResetEvent**)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x35E08);
 		}
 
 		static ::System::Int32* StaticGet_s_ThreadState()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0x92E0);
+			return (::System::Int32*)UnitySDK::FromName("System.Net", "TimerThread")->GetStaticField(0xB7D0);
 		}
 
 		static ::System::Void _cctor()

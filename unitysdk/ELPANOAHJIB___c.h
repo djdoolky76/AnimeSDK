@@ -4,18 +4,18 @@
 class ELPANOAHJIB;
 namespace System { class Object; }
 
-#define ELPANOAHJIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2DAF80)
-#define ELPANOAHJIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2DAFC0)
-#define ELPANOAHJIB___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E2DAFD0)
+#define ELPANOAHJIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5BF260)
+#define ELPANOAHJIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BF2A0)
+#define ELPANOAHJIB___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F5BF2B0)
 
-inline static constexpr unsigned int ELPANOAHJIB___c_TypeDefinitionIndex = 31989;
+inline static constexpr unsigned int ELPANOAHJIB___c_TypeDefinitionIndex = 32902;
 
 	class ELPANOAHJIB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51F00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BD10);
 		}
 
 		static ::System::Void _cctor()

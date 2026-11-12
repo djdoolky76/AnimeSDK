@@ -6,9 +6,9 @@ class HKJDDODAIAE;
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define DCGIDEKLGAJ_DDFBFNLFODJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE2467D0)
+#define DCGIDEKLGAJ_DDFBFNLFODJ_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA7A40)
 
-inline static constexpr unsigned int DCGIDEKLGAJ_DDFBFNLFODJ_TypeDefinitionIndex = 71681;
+inline static constexpr unsigned int DCGIDEKLGAJ_DDFBFNLFODJ_TypeDefinitionIndex = 73672;
 
 	class DCGIDEKLGAJ_DDFBFNLFODJ : public ::System::Object
 	{

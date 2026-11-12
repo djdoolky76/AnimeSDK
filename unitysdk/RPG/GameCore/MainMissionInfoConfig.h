@@ -11,13 +11,13 @@ namespace RPG::GameCore { class SubMissionRelationConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FA280)
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D7FA290)
-#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F9D60)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3CDA0)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EA3CDB0)
+#define RPG_GAMECORE_MAINMISSIONINFOCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA3C880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionInfoConfig_TypeDefinitionIndex = 19021;
+	inline static constexpr unsigned int MainMissionInfoConfig_TypeDefinitionIndex = 19208;
 
 	class MainMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIEAIALEFLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92BD30)
+#define MIEAIALEFLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAED100)
 
-inline static constexpr unsigned int MIEAIALEFLA_TypeDefinitionIndex = 42967;
+inline static constexpr unsigned int MIEAIALEFLA_TypeDefinitionIndex = 43948;
 
 	class MIEAIALEFLA : public ::System::Object
 	{

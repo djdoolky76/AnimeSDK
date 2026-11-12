@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInAnimZone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HKEBPFHIBBB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D40660)
-#define HKEBPFHIBBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D40690)
+#define HKEBPFHIBBB_CTOR_OFFSET UNITYSDK_OFFSET(0x16C928A0)
+#define HKEBPFHIBBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C928D0)
 
-inline static constexpr unsigned int HKEBPFHIBBB_TypeDefinitionIndex = 53147;
+inline static constexpr unsigned int HKEBPFHIBBB_TypeDefinitionIndex = 54309;
 
 	class HKEBPFHIBBB
 	{

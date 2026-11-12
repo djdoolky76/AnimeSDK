@@ -2,21 +2,21 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JEDPJHPMPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1661DFE0)
-#define JEDPJHPMPJB_ELBIHBADDGL_OFFSET UNITYSDK_OFFSET(0x1661E020)
-#define JEDPJHPMPJB_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0x1661DFF0)
-#define JEDPJHPMPJB_GET_ENEMYINDEX_OFFSET UNITYSDK_OFFSET(0x1661E000)
-#define JEDPJHPMPJB_GET_WAITSELECTCARD_OFFSET UNITYSDK_OFFSET(0x1661E010)
+#define JEDPJHPMPJB_CTOR_OFFSET UNITYSDK_OFFSET(0xB963580)
+#define JEDPJHPMPJB_ELBIHBADDGL_OFFSET UNITYSDK_OFFSET(0xB9635C0)
+#define JEDPJHPMPJB_GET_CARDINDEX_OFFSET UNITYSDK_OFFSET(0xB963590)
+#define JEDPJHPMPJB_GET_ENEMYINDEX_OFFSET UNITYSDK_OFFSET(0xB9635A0)
+#define JEDPJHPMPJB_GET_WAITSELECTCARD_OFFSET UNITYSDK_OFFSET(0xB9635B0)
 
-inline static constexpr unsigned int JEDPJHPMPJB_TypeDefinitionIndex = 80718;
+inline static constexpr unsigned int JEDPJHPMPJB_TypeDefinitionIndex = 83498;
 
 	class JEDPJHPMPJB : public ::System::Object
 	{
 	public:
-		::System::Int32 _CardIndex_k__BackingField; // 0x10
+		::System::Int32 _EnemyIndex_k__BackingField; // 0x10
 		::System::Boolean _WaitSelectCard_k__BackingField; // 0x14
 		::System::Byte _padding0[0x3];
-		::System::Int32 _EnemyIndex_k__BackingField; // 0x18
+		::System::Int32 _CardIndex_k__BackingField; // 0x18
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Boolean a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + JEDPJHPMPJB_CTOR_OFFSET))(this, a1, a2, a3);

@@ -5,18 +5,18 @@
 class CEPBMKIIJIK;
 namespace RPG::Client::PetMarble::Level { class PetMarbleLevelModeRepository; }
 
-#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODEREPOSITORY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAD0D00)
-#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODEREPOSITORY___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xDAD0F90)
+#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODEREPOSITORY___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE5268F0)
+#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODEREPOSITORY___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xE526B80)
 
 namespace RPG::Client::PetMarble::Level
 {
-	inline static constexpr unsigned int PetMarbleLevelModeRepository___c__DisplayClass0_0_TypeDefinitionIndex = 74746;
+	inline static constexpr unsigned int PetMarbleLevelModeRepository___c__DisplayClass0_0_TypeDefinitionIndex = 76894;
 
 	class PetMarbleLevelModeRepository___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::CEPBMKIIJIK* factory; // 0x10
-		::RPG::Client::PetMarble::Level::PetMarbleLevelModeRepository* __4__this; // 0x18
+		::RPG::Client::PetMarble::Level::PetMarbleLevelModeRepository* __4__this; // 0x10
+		::CEPBMKIIJIK* factory; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODEREPOSITORY___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

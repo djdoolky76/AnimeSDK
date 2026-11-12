@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropSetupSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHMJOEJJNCI_CTOR_OFFSET UNITYSDK_OFFSET(0xC256160)
-#define PHMJOEJJNCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC256190)
+#define PHMJOEJJNCI_CTOR_OFFSET UNITYSDK_OFFSET(0xCB7B580)
+#define PHMJOEJJNCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB7B5B0)
 
-inline static constexpr unsigned int PHMJOEJJNCI_TypeDefinitionIndex = 58353;
+inline static constexpr unsigned int PHMJOEJJNCI_TypeDefinitionIndex = 59609;
 
 	class PHMJOEJJNCI
 	{

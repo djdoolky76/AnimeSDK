@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionMapPropType; }
 
-#define RPG_GAMECORE_MISSIONMAPPROPTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D887BB0)
-#define RPG_GAMECORE_MISSIONMAPPROPTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D887A90)
+#define RPG_GAMECORE_MISSIONMAPPROPTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA1F60)
+#define RPG_GAMECORE_MISSIONMAPPROPTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA1E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionMapPropType_TypeDefinitionIndex = 19010;
+	inline static constexpr unsigned int MissionMapPropType_TypeDefinitionIndex = 19197;
 
 	class MissionMapPropType : public ::RPG::GameCore::JsonConfig
 	{

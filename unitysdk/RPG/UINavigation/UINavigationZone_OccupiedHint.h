@@ -3,7 +3,7 @@
 
 namespace RPG::UINavigation
 {
-	inline static constexpr unsigned int UINavigationZone_OccupiedHint_TypeDefinitionIndex = 51748;
+	inline static constexpr unsigned int UINavigationZone_OccupiedHint_TypeDefinitionIndex = 52834;
 
 	enum class UINavigationZone_OccupiedHint : ::System::Int32
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_TIMELINE_VFX_PAGETEARFADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE952E60)
+#define RPGTOOLS_TIMELINE_VFX_PAGETEARFADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF4714B0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int PageTearFadeConfig_TypeDefinitionIndex = 48681;
+	inline static constexpr unsigned int PageTearFadeConfig_TypeDefinitionIndex = 49727;
 
 	class PageTearFadeConfig : public ::System::Object
 	{

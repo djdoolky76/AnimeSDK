@@ -4,18 +4,18 @@
 class PACPOIAFPFF;
 namespace System { class Object; }
 
-#define PACPOIAFPFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEEB5F0)
-#define PACPOIAFPFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEB630)
-#define PACPOIAFPFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEEB640)
+#define PACPOIAFPFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1B44A0)
+#define PACPOIAFPFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1B44E0)
+#define PACPOIAFPFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F1B44F0)
 
-inline static constexpr unsigned int PACPOIAFPFF___c_TypeDefinitionIndex = 29763;
+inline static constexpr unsigned int PACPOIAFPFF___c_TypeDefinitionIndex = 30661;
 
 	class PACPOIAFPFF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31410);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29820);
 		}
 
 		static ::System::Void _cctor()

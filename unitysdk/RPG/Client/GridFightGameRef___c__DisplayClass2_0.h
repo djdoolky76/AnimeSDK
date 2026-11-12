@@ -10,21 +10,21 @@ namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15B210)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD165480)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD165500)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD165530)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2BE20)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__0_OFFSET UNITYSDK_OFFSET(0xDB2BE30)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__1_OFFSET UNITYSDK_OFFSET(0xDB2BEB0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS2_0__SENDGRIDFIGHTGAMEREFLIKEREQ_B__2_OFFSET UNITYSDK_OFFSET(0xDB2BEE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass2_0_TypeDefinitionIndex = 64708;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass2_0_TypeDefinitionIndex = 66251;
 
 	class GridFightGameRef___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
 		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x10
-		::System::Action_1<::System::Boolean>* callback; // 0x18
-		::GHHJNCOAIJF* req; // 0x20
+		::GHHJNCOAIJF* req; // 0x18
+		::System::Action_1<::System::Boolean>* callback; // 0x20
 		::System::String* id; // 0x28
 		::RPG::Client::GridFightGameRef* __4__this; // 0x30
 		::System::Boolean isLike; // 0x38

@@ -4,10 +4,10 @@
 class OLBAIJKEIBM;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionPropertyData; }
 
-#define OLBAIJKEIBM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBEFFC00)
-#define OLBAIJKEIBM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFFCA0)
+#define OLBAIJKEIBM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC7FAF10)
+#define OLBAIJKEIBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC7FAFB0)
 
-inline static constexpr unsigned int OLBAIJKEIBM_TypeDefinitionIndex = 75113;
+inline static constexpr unsigned int OLBAIJKEIBM_TypeDefinitionIndex = 77440;
 
 	class OLBAIJKEIBM : public ::System::Object
 	{

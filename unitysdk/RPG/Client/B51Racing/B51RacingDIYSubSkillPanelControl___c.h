@@ -5,25 +5,25 @@ class PJELEGLGHCN;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC791830)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC791870)
-#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C___GETSELECTEDITEMINDEX_B__25_0_OFFSET UNITYSDK_OFFSET(0xC791880)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0A23D0)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A2410)
+#define RPG_CLIENT_B51RACING_B51RACINGDIYSUBSKILLPANELCONTROL___C___GETSELECTEDITEMINDEX_B__25_0_OFFSET UNITYSDK_OFFSET(0xD0A2420)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex = 81785;
+	inline static constexpr unsigned int B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex = 84566;
 
 	class B51RacingDIYSubSkillPanelControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::PJELEGLGHCN*>** StaticGet___9__25_0()
 		{
-			return (::System::Predicate_1<::PJELEGLGHCN*>**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x53AE0);
+			return (::System::Predicate_1<::PJELEGLGHCN*>**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x5B630);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x53AE8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.B51Racing", "<>c")->GetStaticField(0x5B638);
 		}
 
 		static ::System::Void _cctor()

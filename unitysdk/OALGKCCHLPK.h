@@ -5,9 +5,9 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define OALGKCCHLPK_BLIHKKBFCHC_OFFSET UNITYSDK_OFFSET(0x1D24C860)
+#define OALGKCCHLPK_BLIHKKBFCHC_OFFSET UNITYSDK_OFFSET(0x1E452CD0)
 
-inline static constexpr unsigned int OALGKCCHLPK_TypeDefinitionIndex = 10827;
+inline static constexpr unsigned int OALGKCCHLPK_TypeDefinitionIndex = 10843;
 
 	class OALGKCCHLPK : public ::System::Object
 	{

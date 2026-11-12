@@ -8,22 +8,22 @@ namespace RPG::GameCore { class SetDynamicValueByModifierValue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define OGCBKJKOLFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE52D30)
-#define OGCBKJKOLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE52E00)
-#define OGCBKJKOLFG_IOONKCMPADG_OFFSET UNITYSDK_OFFSET(0xBE53190)
-#define OGCBKJKOLFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE52E40)
-#define OGCBKJKOLFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE53460)
-#define OGCBKJKOLFG_TICK_OFFSET UNITYSDK_OFFSET(0xBE534B0)
+#define OGCBKJKOLFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC70CD40)
+#define OGCBKJKOLFG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC70CE10)
+#define OGCBKJKOLFG_IOONKCMPADG_OFFSET UNITYSDK_OFFSET(0xC70D150)
+#define OGCBKJKOLFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC70CE50)
+#define OGCBKJKOLFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC70D420)
+#define OGCBKJKOLFG_TICK_OFFSET UNITYSDK_OFFSET(0xC70D470)
 
-inline static constexpr unsigned int OGCBKJKOLFG_TypeDefinitionIndex = 55454;
+inline static constexpr unsigned int OGCBKJKOLFG_TypeDefinitionIndex = 56642;
 
 	class OGCBKJKOLFG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetDynamicValueByModifierValue* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> NMJKNKGGBOD; // 0x28
-		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x2C
+		::RPG::GameCore::SetDynamicValueByModifierValue* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
+		::RPG::GameCore::ArrayPoolWrapper_1<::RPG::GameCore::TurnBasedModifierInstance*> NMJKNKGGBOD; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByModifierValue* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDynamicValueByModifierValue*))((::PBYTE)hIl2Cpp + OGCBKJKOLFG_CTOR_OFFSET))(this, a1, a2);

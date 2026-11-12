@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class EAHCLJPMCIG;
 
-#define IDKMPJCBMFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED9890)
+#define IDKMPJCBMFH_CTOR_OFFSET UNITYSDK_OFFSET(0x16E440D0)
 
-inline static constexpr unsigned int IDKMPJCBMFH_TypeDefinitionIndex = 80555;
+inline static constexpr unsigned int IDKMPJCBMFH_TypeDefinitionIndex = 83335;
 
 	class IDKMPJCBMFH : public ::System::Object
 	{

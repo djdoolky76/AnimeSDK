@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetPhainonActionCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGPOBEJGHIE_CTOR_OFFSET UNITYSDK_OFFSET(0xEB78400)
-#define AGPOBEJGHIE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB78410)
-#define AGPOBEJGHIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB78450)
-#define AGPOBEJGHIE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB78640)
-#define AGPOBEJGHIE_TICK_OFFSET UNITYSDK_OFFSET(0xEB78690)
+#define AGPOBEJGHIE_CTOR_OFFSET UNITYSDK_OFFSET(0xF137560)
+#define AGPOBEJGHIE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF137570)
+#define AGPOBEJGHIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1375B0)
+#define AGPOBEJGHIE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF1377A0)
+#define AGPOBEJGHIE_TICK_OFFSET UNITYSDK_OFFSET(0xF1377F0)
 
-inline static constexpr unsigned int AGPOBEJGHIE_TypeDefinitionIndex = 56417;
+inline static constexpr unsigned int AGPOBEJGHIE_TypeDefinitionIndex = 57635;
 
 	class AGPOBEJGHIE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetPhainonActionCount* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetPhainonActionCount* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetPhainonActionCount* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetPhainonActionCount*))((::PBYTE)hIl2Cpp + AGPOBEJGHIE_CTOR_OFFSET))(this, a1, a2);

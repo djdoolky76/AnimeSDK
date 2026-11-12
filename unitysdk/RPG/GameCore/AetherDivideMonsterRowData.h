@@ -8,20 +8,20 @@ namespace RPG::GameCore { class AetherDivideMonsterRow; }
 namespace RPG::GameCore { class MonsterRow; }
 namespace RPG::GameCore { class StageRow; }
 
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE59EFE0)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_GET_ISAETHERDIVIDE_OFFSET UNITYSDK_OFFSET(0xE59F040)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_GET_MONSTERTYPE_OFFSET UNITYSDK_OFFSET(0xE59F050)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0xE59F0B0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF01DA00)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_GET_ISAETHERDIVIDE_OFFSET UNITYSDK_OFFSET(0xF01DA60)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_GET_MONSTERTYPE_OFFSET UNITYSDK_OFFSET(0xF01DA70)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_GET_SPNEED_OFFSET UNITYSDK_OFFSET(0xF01DAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideMonsterRowData_TypeDefinitionIndex = 56936;
+	inline static constexpr unsigned int AetherDivideMonsterRowData_TypeDefinitionIndex = 58162;
 
 	class AetherDivideMonsterRowData : public ::RPG::GameCore::MonsterRowData
 	{
 	public:
-		::RPG::GameCore::AetherDivideMonsterRow* _AetherDivideExpandRow; // 0x128
-		::System::Boolean _ExpandValid; // 0x130
+		::RPG::GameCore::AetherDivideMonsterRow* _AetherDivideExpandRow; // 0x130
+		::System::Boolean _ExpandValid; // 0x138
 		::System::Void _ctor(::RPG::GameCore::MonsterRow* a1, ::JCAIDCKHNEH* a2, ::RPG::GameCore::StageRow* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::MonsterRow*, ::JCAIDCKHNEH*, ::RPG::GameCore::StageRow*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEMONSTERROWDATA_CTOR_OFFSET))(this, a1, a2, a3);

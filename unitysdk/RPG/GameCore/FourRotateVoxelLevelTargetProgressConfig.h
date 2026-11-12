@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FourRotateVoxelLevelTargetProgressConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELTARGETPROGRESSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F0300)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELTARGETPROGRESSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F0130)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELTARGETPROGRESSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FA5E0)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELTARGETPROGRESSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FA410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelTargetProgressConfig_TypeDefinitionIndex = 16748;
+	inline static constexpr unsigned int FourRotateVoxelLevelTargetProgressConfig_TypeDefinitionIndex = 16914;
 
 	class FourRotateVoxelLevelTargetProgressConfig : public ::RPG::GameCore::JsonConfig
 	{

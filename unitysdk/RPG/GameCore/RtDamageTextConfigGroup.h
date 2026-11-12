@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtDamageTextConfigGroup; }
 
-#define RPG_GAMECORE_RTDAMAGETEXTCONFIGGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5A580)
-#define RPG_GAMECORE_RTDAMAGETEXTCONFIGGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5A470)
+#define RPG_GAMECORE_RTDAMAGETEXTCONFIGGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6C070)
+#define RPG_GAMECORE_RTDAMAGETEXTCONFIGGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC6BF60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDamageTextConfigGroup_TypeDefinitionIndex = 18045;
+	inline static constexpr unsigned int RtDamageTextConfigGroup_TypeDefinitionIndex = 18211;
 
 	class RtDamageTextConfigGroup : public ::RPG::GameCore::JsonConfig
 	{

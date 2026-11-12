@@ -16,34 +16,35 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JAKJKCPJEPF_BIGBGJKJPEL_OFFSET UNITYSDK_OFFSET(0x1655AC30)
-#define JAKJKCPJEPF_CDJDFFMJKPH_OFFSET UNITYSDK_OFFSET(0x16557C50)
-#define JAKJKCPJEPF_CNJCOCIHCFP_OFFSET UNITYSDK_OFFSET(0x16557ED0)
-#define JAKJKCPJEPF_COPNJACOCFE_OFFSET UNITYSDK_OFFSET(0x1655B0B0)
-#define JAKJKCPJEPF_CTOR_OFFSET UNITYSDK_OFFSET(0x16557760)
-#define JAKJKCPJEPF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16557660)
-#define JAKJKCPJEPF_FELGFFPDNOK_OFFSET UNITYSDK_OFFSET(0x16557F90)
-#define JAKJKCPJEPF_HEEHLDCBAFJ_OFFSET UNITYSDK_OFFSET(0x1655B5A0)
-#define JAKJKCPJEPF_IHJEAIBJACF_OFFSET UNITYSDK_OFFSET(0x1655A420)
-#define JAKJKCPJEPF_LBBFKGABJJF_OFFSET UNITYSDK_OFFSET(0x16558070)
-#define JAKJKCPJEPF_LDFPKDNMGMG_OFFSET UNITYSDK_OFFSET(0x1655B2F0)
-#define JAKJKCPJEPF_LLIGNEKHPHG_OFFSET UNITYSDK_OFFSET(0x1655ADD0)
-#define JAKJKCPJEPF_LMAGODAMDLE_OFFSET UNITYSDK_OFFSET(0x16557DE0)
-#define JAKJKCPJEPF_MGAGPIGDLBK_OFFSET UNITYSDK_OFFSET(0x1655AFC0)
-#define JAKJKCPJEPF_OBGBJJJDANK_OFFSET UNITYSDK_OFFSET(0x1655A6E0)
+#define JAKJKCPJEPF_BIGBGJKJPEL_OFFSET UNITYSDK_OFFSET(0xB893430)
+#define JAKJKCPJEPF_CDJDFFMJKPH_OFFSET UNITYSDK_OFFSET(0xB8903C0)
+#define JAKJKCPJEPF_CNJCOCIHCFP_OFFSET UNITYSDK_OFFSET(0xB890640)
+#define JAKJKCPJEPF_COPNJACOCFE_OFFSET UNITYSDK_OFFSET(0xB8938B0)
+#define JAKJKCPJEPF_CTOR_OFFSET UNITYSDK_OFFSET(0xB88FB40)
+#define JAKJKCPJEPF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB88FA40)
+#define JAKJKCPJEPF_FELGFFPDNOK_OFFSET UNITYSDK_OFFSET(0xB890700)
+#define JAKJKCPJEPF_HEEHLDCBAFJ_OFFSET UNITYSDK_OFFSET(0xB893DC0)
+#define JAKJKCPJEPF_IHJEAIBJACF_OFFSET UNITYSDK_OFFSET(0xB892C20)
+#define JAKJKCPJEPF_LBBFKGABJJF_OFFSET UNITYSDK_OFFSET(0xB8907E0)
+#define JAKJKCPJEPF_LDFPKDNMGMG_OFFSET UNITYSDK_OFFSET(0xB893AF0)
+#define JAKJKCPJEPF_LLIGNEKHPHG_OFFSET UNITYSDK_OFFSET(0xB8935D0)
+#define JAKJKCPJEPF_LMAGODAMDLE_OFFSET UNITYSDK_OFFSET(0xB890550)
+#define JAKJKCPJEPF_MGAGPIGDLBK_OFFSET UNITYSDK_OFFSET(0xB8937C0)
+#define JAKJKCPJEPF_OBGBJJJDANK_OFFSET UNITYSDK_OFFSET(0xB892EE0)
+#define JAKJKCPJEPF_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0xB88FFE0)
 
-inline static constexpr unsigned int JAKJKCPJEPF_TypeDefinitionIndex = 59301;
+inline static constexpr unsigned int JAKJKCPJEPF_TypeDefinitionIndex = 60578;
 
 	class JAKJKCPJEPF : public ::System::Object
 	{
 	public:
-		::System::String* PJPBKBAGFPO; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::GameEntityList*>* AMOAAOEENHD; // 0x18
-		::System::Collections::Generic::List_1<::RPG::GameCore::FormationAssetConfig*>* FMBCNIIIBLO; // 0x20
-		::System::Collections::Generic::List_1<::ALCOGHNNPMF>* FDOAAJKKJLN; // 0x28
-		::RPG::GameCore::GameWorld* BJPKBELGNCM; // 0x30
-		::System::Collections::Generic::List_1<::System::String*>* MLIKICDJOJP; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FormationData*>* MHFEOGIGAEK; // 0x40
+		::System::Collections::Generic::List_1<::ALCOGHNNPMF>* FDOAAJKKJLN; // 0x10
+		::System::String* PJPBKBAGFPO; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::FormationData*>* MHFEOGIGAEK; // 0x20
+		::System::Collections::Generic::List_1<::System::String*>* MLIKICDJOJP; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::FormationAssetConfig*>* FMBCNIIIBLO; // 0x30
+		::RPG::GameCore::GameWorld* BJPKBELGNCM; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::GameEntityList*>* AMOAAOEENHD; // 0x40
 		::System::Void _ctor(::RPG::GameCore::GameWorld* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameWorld*))((::PBYTE)hIl2Cpp + JAKJKCPJEPF_CTOR_OFFSET))(this, a1);
@@ -52,6 +53,11 @@ inline static constexpr unsigned int JAKJKCPJEPF_TypeDefinitionIndex = 59301;
 		::System::Void Dispose()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAKJKCPJEPF_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void ODPAPLIIDDD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAKJKCPJEPF_ODPAPLIIDDD_OFFSET))(this);
 		}
 
 		::RPG::GameCore::GameEntityList* CDJDFFMJKPH(::System::String* a1)

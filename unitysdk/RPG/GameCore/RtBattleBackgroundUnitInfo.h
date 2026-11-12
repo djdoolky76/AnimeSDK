@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtBattleBackgroundUnitInfo; }
 
-#define RPG_GAMECORE_RTBATTLEBACKGROUNDUNITINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4B740)
-#define RPG_GAMECORE_RTBATTLEBACKGROUNDUNITINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4B4D0)
+#define RPG_GAMECORE_RTBATTLEBACKGROUNDUNITINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5E560)
+#define RPG_GAMECORE_RTBATTLEBACKGROUNDUNITINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC5E2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleBackgroundUnitInfo_TypeDefinitionIndex = 18054;
+	inline static constexpr unsigned int RtBattleBackgroundUnitInfo_TypeDefinitionIndex = 18220;
 
 	class RtBattleBackgroundUnitInfo : public ::RPG::GameCore::JsonConfig
 	{

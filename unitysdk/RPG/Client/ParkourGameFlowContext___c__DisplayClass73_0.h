@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ParkourGameCharacterInfo; }
 
-#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA820E0)
-#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0__GETCHARACTERINFOBYID_B__0_OFFSET UNITYSDK_OFFSET(0xDA83B90)
+#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4D7860)
+#define RPG_CLIENT_PARKOURGAMEFLOWCONTEXT___C__DISPLAYCLASS73_0__GETCHARACTERINFOBYID_B__0_OFFSET UNITYSDK_OFFSET(0xE4D93E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourGameFlowContext___c__DisplayClass73_0_TypeDefinitionIndex = 61843;
+	inline static constexpr unsigned int ParkourGameFlowContext___c__DisplayClass73_0_TypeDefinitionIndex = 63249;
 
 	class ParkourGameFlowContext___c__DisplayClass73_0 : public ::System::Object
 	{

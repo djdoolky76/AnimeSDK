@@ -5,9 +5,9 @@ class DHAFGMHPMHG;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DHAFGMHPMHG___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB4F10)
+#define DHAFGMHPMHG___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF4316A0)
 
-inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass2_0_TypeDefinitionIndex = 59582;
+inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass2_0_TypeDefinitionIndex = 60859;
 
 	class DHAFGMHPMHG___c__DisplayClass2_0 : public ::System::Object
 	{

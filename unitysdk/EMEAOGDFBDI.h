@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EMEAOGDFBDI_TypeDefinitionIndex = 30353;
+inline static constexpr unsigned int EMEAOGDFBDI_TypeDefinitionIndex = 31259;
 
 	enum class EMEAOGDFBDI : ::System::Int32
 	{

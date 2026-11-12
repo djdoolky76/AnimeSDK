@@ -6,19 +6,19 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9F7F00)
-#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CONVERTEVENTURL_B__0_OFFSET UNITYSDK_OFFSET(0xD9FBDF0)
+#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE48E7E0)
+#define RPG_CLIENT_OPEUTIL___C__DISPLAYCLASS32_0__CONVERTEVENTURL_B__0_OFFSET UNITYSDK_OFFSET(0xE492760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OpeUtil___c__DisplayClass32_0_TypeDefinitionIndex = 59310;
+	inline static constexpr unsigned int OpeUtil___c__DisplayClass32_0_TypeDefinitionIndex = 60587;
 
 	class OpeUtil___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
-		::System::String* sourceUrl; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict; // 0x18
-		::RPG::Client::ParseUrlCallBack* callBack; // 0x20
+		::RPG::Client::ParseUrlCallBack* callBack; // 0x10
+		::System::String* sourceUrl; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* paramDict; // 0x20
 		::System::String* baseUrl; // 0x28
 		::System::String* fragment; // 0x30
 		::System::Boolean isExternalBrowser; // 0x38

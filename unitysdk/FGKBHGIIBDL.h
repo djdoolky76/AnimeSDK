@@ -4,9 +4,9 @@
 class DOMHKLANPAI;
 namespace System { class String; }
 
-#define FGKBHGIIBDL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x157668D0)
+#define FGKBHGIIBDL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x166870E0)
 
-inline static constexpr unsigned int FGKBHGIIBDL_TypeDefinitionIndex = 76516;
+inline static constexpr unsigned int FGKBHGIIBDL_TypeDefinitionIndex = 78847;
 
 	class FGKBHGIIBDL : public ::System::Object
 	{

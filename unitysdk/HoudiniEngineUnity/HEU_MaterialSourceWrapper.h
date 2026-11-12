@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_MaterialSourceWrapper_TypeDefinitionIndex = 40565;
+	inline static constexpr unsigned int HEU_MaterialSourceWrapper_TypeDefinitionIndex = 41540;
 
 	enum class HEU_MaterialSourceWrapper : ::System::Int32
 	{

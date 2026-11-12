@@ -7,11 +7,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CNLGCLIDEDL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA58DC0)
-#define CNLGCLIDEDL_DNNPCEPCFFM_OFFSET UNITYSDK_OFFSET(0xDA59120)
-#define CNLGCLIDEDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA58E10)
+#define CNLGCLIDEDL_CTOR_OFFSET UNITYSDK_OFFSET(0xE5F16D0)
+#define CNLGCLIDEDL_DNNPCEPCFFM_OFFSET UNITYSDK_OFFSET(0xE5F1A30)
+#define CNLGCLIDEDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE5F1720)
 
-inline static constexpr unsigned int CNLGCLIDEDL_TypeDefinitionIndex = 59186;
+inline static constexpr unsigned int CNLGCLIDEDL_TypeDefinitionIndex = 60463;
 
 	class CNLGCLIDEDL
 	{

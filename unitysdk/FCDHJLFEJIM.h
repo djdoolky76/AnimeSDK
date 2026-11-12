@@ -3,10 +3,10 @@
 #include "unitysdk/JLDBEPNADNN.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define FCDHJLFEJIM_CTOR_OFFSET UNITYSDK_OFFSET(0x156B4480)
-#define FCDHJLFEJIM_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x156B4470)
+#define FCDHJLFEJIM_CTOR_OFFSET UNITYSDK_OFFSET(0x165CC4C0)
+#define FCDHJLFEJIM_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x165CC4B0)
 
-inline static constexpr unsigned int FCDHJLFEJIM_TypeDefinitionIndex = 77007;
+inline static constexpr unsigned int FCDHJLFEJIM_TypeDefinitionIndex = 79341;
 
 	class FCDHJLFEJIM : public ::JLDBEPNADNN
 	{

@@ -3,6 +3,7 @@
 #include "unitysdk/BHPMNMMGLHI.h"
 #include "unitysdk/DNFDBKCPBNM.h"
 #include "unitysdk/BCGLFKMDELO.h"
+#include "unitysdk/DGMNKINFKFH.h"
 #include "unitysdk/OIPMNNAHIFP.h"
 class DCIOBGNNLOL;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
@@ -12,31 +13,32 @@ namespace RPG::Client::Promises { class IPromise; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMOKCHFNKAH_ADCDDAAFNBM_OFFSET UNITYSDK_OFFSET(0xB56A390)
-#define KMOKCHFNKAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB56A160)
-#define KMOKCHFNKAH_DKDDLAMBJLC_OFFSET UNITYSDK_OFFSET(0xB56B470)
-#define KMOKCHFNKAH_DNJJDEGGMPD_OFFSET UNITYSDK_OFFSET(0xB56AAD0)
-#define KMOKCHFNKAH_ENAKMMDLAHL_OFFSET UNITYSDK_OFFSET(0xB56AA40)
-#define KMOKCHFNKAH_EPGMKACANAJ_OFFSET UNITYSDK_OFFSET(0xB56B770)
-#define KMOKCHFNKAH_FJKMMLLGKLC_OFFSET UNITYSDK_OFFSET(0xB56AEA0)
-#define KMOKCHFNKAH_GDDENHKFOCE_OFFSET UNITYSDK_OFFSET(0xB56B680)
-#define KMOKCHFNKAH_IBPPFHGNAAK_OFFSET UNITYSDK_OFFSET(0xB56B6E0)
-#define KMOKCHFNKAH_IKMGKHNGJHB_OFFSET UNITYSDK_OFFSET(0xB56A750)
-#define KMOKCHFNKAH_JFKHBKCJDAL_OFFSET UNITYSDK_OFFSET(0xB56BAE0)
-#define KMOKCHFNKAH_LHPDDEFACFN_OFFSET UNITYSDK_OFFSET(0xB56AB30)
-#define KMOKCHFNKAH_NBLJOGIMMIF_OFFSET UNITYSDK_OFFSET(0xB56B5F0)
-#define KMOKCHFNKAH_START_OFFSET UNITYSDK_OFFSET(0xB56A300)
-#define KMOKCHFNKAH_STOP_OFFSET UNITYSDK_OFFSET(0xB56A340)
+#define KMOKCHFNKAH_ADCDDAAFNBM_OFFSET UNITYSDK_OFFSET(0xBDB5E50)
+#define KMOKCHFNKAH_AEPPKLNHJCG_OFFSET UNITYSDK_OFFSET(0xBDB7940)
+#define KMOKCHFNKAH_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB5C20)
+#define KMOKCHFNKAH_DKDDLAMBJLC_OFFSET UNITYSDK_OFFSET(0xBDB6F30)
+#define KMOKCHFNKAH_DNJJDEGGMPD_OFFSET UNITYSDK_OFFSET(0xBDB6590)
+#define KMOKCHFNKAH_ENAKMMDLAHL_OFFSET UNITYSDK_OFFSET(0xBDB6500)
+#define KMOKCHFNKAH_EPGMKACANAJ_OFFSET UNITYSDK_OFFSET(0xBDB7230)
+#define KMOKCHFNKAH_FJKMMLLGKLC_OFFSET UNITYSDK_OFFSET(0xBDB6960)
+#define KMOKCHFNKAH_GDDENHKFOCE_OFFSET UNITYSDK_OFFSET(0xBDB7140)
+#define KMOKCHFNKAH_IBPPFHGNAAK_OFFSET UNITYSDK_OFFSET(0xBDB71A0)
+#define KMOKCHFNKAH_IKMGKHNGJHB_OFFSET UNITYSDK_OFFSET(0xBDB6210)
+#define KMOKCHFNKAH_JFKHBKCJDAL_OFFSET UNITYSDK_OFFSET(0xBDB75A0)
+#define KMOKCHFNKAH_LHPDDEFACFN_OFFSET UNITYSDK_OFFSET(0xBDB65F0)
+#define KMOKCHFNKAH_NBLJOGIMMIF_OFFSET UNITYSDK_OFFSET(0xBDB70B0)
+#define KMOKCHFNKAH_START_OFFSET UNITYSDK_OFFSET(0xBDB5DC0)
+#define KMOKCHFNKAH_STOP_OFFSET UNITYSDK_OFFSET(0xBDB5E00)
 
-inline static constexpr unsigned int KMOKCHFNKAH_TypeDefinitionIndex = 62764;
+inline static constexpr unsigned int KMOKCHFNKAH_TypeDefinitionIndex = 64202;
 
 	class KMOKCHFNKAH : public ::BHPMNMMGLHI
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::DNFDBKCPBNM, ::RPG::Client::AvatarGrowUpBeforeData*>* MNHIHDLLLFL; // 0x20
+		::System::Collections::Generic::Dictionary_2<::DNFDBKCPBNM, ::RPG::Client::AvatarGrowUpBeforeData*>* DCAOBIADLHG; // 0x20
 		::DCIOBGNNLOL* ENGKMENDCIM; // 0x28
-		::System::Collections::Generic::Dictionary_2<::DNFDBKCPBNM, ::RPG::Client::AvatarGrowUpBeforeData*>* DCAOBIADLHG; // 0x30
-		::System::Collections::Generic::Dictionary_2<::DNFDBKCPBNM, ::RPG::Client::AvatarGrowUpBeforeData*>* JINCOBOAGBN; // 0x38
+		::System::Collections::Generic::Dictionary_2<::DNFDBKCPBNM, ::RPG::Client::AvatarGrowUpBeforeData*>* JINCOBOAGBN; // 0x30
+		::System::Collections::Generic::Dictionary_2<::DNFDBKCPBNM, ::RPG::Client::AvatarGrowUpBeforeData*>* MNHIHDLLLFL; // 0x38
 		::System::Void _ctor(::DCIOBGNNLOL* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::DCIOBGNNLOL*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH_CTOR_OFFSET))(this, a1);
@@ -100,6 +102,11 @@ inline static constexpr unsigned int KMOKCHFNKAH_TypeDefinitionIndex = 62764;
 		::RPG::Client::Promises::IPromise* JFKHBKCJDAL(::OIPMNNAHIFP a1, ::System::UInt32 a2, ::System::Collections::Generic::List_1<::Proto::ItemCost*>* a3)
 		{
 			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::OIPMNNAHIFP, ::System::UInt32, ::System::Collections::Generic::List_1<::Proto::ItemCost*>*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH_JFKHBKCJDAL_OFFSET))(this, a1, a2, a3);
+		}
+
+		::RPG::Client::Promises::IPromise* AEPPKLNHJCG(::OIPMNNAHIFP a1, ::DGMNKINFKFH a2)
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::OIPMNNAHIFP, ::DGMNKINFKFH))((::PBYTE)hIl2Cpp + KMOKCHFNKAH_AEPPKLNHJCG_OFFSET))(this, a1, a2);
 		}
 
 		::RPG::Client::AvatarGrowUpBeforeData* IKMGKHNGJHB(::DNFDBKCPBNM a1, ::System::Collections::Generic::Dictionary_2<::DNFDBKCPBNM, ::RPG::Client::AvatarGrowUpBeforeData*>* a2)

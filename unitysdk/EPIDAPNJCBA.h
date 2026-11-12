@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class StatusRow; }
 namespace System { class String; }
 
-#define EPIDAPNJCBA_CTOR_OFFSET UNITYSDK_OFFSET(0x155D51A0)
-#define EPIDAPNJCBA_MMOJAMHCANK_OFFSET UNITYSDK_OFFSET(0x155D5130)
+#define EPIDAPNJCBA_CTOR_OFFSET UNITYSDK_OFFSET(0x164E7EA0)
+#define EPIDAPNJCBA_MMOJAMHCANK_OFFSET UNITYSDK_OFFSET(0x164E7E30)
 
-inline static constexpr unsigned int EPIDAPNJCBA_TypeDefinitionIndex = 81054;
+inline static constexpr unsigned int EPIDAPNJCBA_TypeDefinitionIndex = 83834;
 
 	class EPIDAPNJCBA : public ::System::Object
 	{

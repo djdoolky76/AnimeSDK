@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelfSkillPerformState_TypeDefinitionIndex = 57687;
+	inline static constexpr unsigned int SelfSkillPerformState_TypeDefinitionIndex = 58919;
 
 	enum class SelfSkillPerformState : ::System::Int32
 	{

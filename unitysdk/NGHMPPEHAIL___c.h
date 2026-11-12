@@ -4,18 +4,18 @@
 class NGHMPPEHAIL;
 namespace System { class Object; }
 
-#define NGHMPPEHAIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB11790)
-#define NGHMPPEHAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB117D0)
-#define NGHMPPEHAIL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB117E0)
+#define NGHMPPEHAIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE53D20)
+#define NGHMPPEHAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE53D60)
+#define NGHMPPEHAIL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FE53D70)
 
-inline static constexpr unsigned int NGHMPPEHAIL___c_TypeDefinitionIndex = 26407;
+inline static constexpr unsigned int NGHMPPEHAIL___c_TypeDefinitionIndex = 26934;
 
 	class NGHMPPEHAIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F6E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A4C0);
 		}
 
 		static ::System::Void _cctor()

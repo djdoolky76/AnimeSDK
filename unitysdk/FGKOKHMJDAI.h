@@ -3,10 +3,10 @@
 class GCCMOKELOPB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGKOKHMJDAI_CTOR_OFFSET UNITYSDK_OFFSET(0x15767440)
-#define FGKOKHMJDAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15767470)
+#define FGKOKHMJDAI_CTOR_OFFSET UNITYSDK_OFFSET(0x16687C50)
+#define FGKOKHMJDAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16687C80)
 
-inline static constexpr unsigned int FGKOKHMJDAI_TypeDefinitionIndex = 53902;
+inline static constexpr unsigned int FGKOKHMJDAI_TypeDefinitionIndex = 55066;
 
 	class FGKOKHMJDAI
 	{

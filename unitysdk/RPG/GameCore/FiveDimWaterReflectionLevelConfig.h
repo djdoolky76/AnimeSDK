@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimWaterReflectionLevelConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E2E00)
-#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E2C00)
+#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8ED560)
+#define RPG_GAMECORE_FIVEDIMWATERREFLECTIONLEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8ED360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimWaterReflectionLevelConfig_TypeDefinitionIndex = 18530;
+	inline static constexpr unsigned int FiveDimWaterReflectionLevelConfig_TypeDefinitionIndex = 18690;
 
 	class FiveDimWaterReflectionLevelConfig : public ::RPG::GameCore::JsonConfig
 	{

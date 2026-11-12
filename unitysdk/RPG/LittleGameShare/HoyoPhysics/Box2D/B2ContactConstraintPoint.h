@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactConstraintPoint_TypeDefinitionIndex = 36620;
+	inline static constexpr unsigned int B2ContactConstraintPoint_TypeDefinitionIndex = 37548;
 
 	struct alignas(4) B2ContactConstraintPoint
 	{

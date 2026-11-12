@@ -3,10 +3,10 @@
 #include "unitysdk/BEIEKELFLHF.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define JPJFDDGKDPF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C4D50)
-#define JPJFDDGKDPF_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xB2C4D40)
+#define JPJFDDGKDPF_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF0A50)
+#define JPJFDDGKDPF_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xBAF0A40)
 
-inline static constexpr unsigned int JPJFDDGKDPF_TypeDefinitionIndex = 76970;
+inline static constexpr unsigned int JPJFDDGKDPF_TypeDefinitionIndex = 79304;
 
 	class JPJFDDGKDPF : public ::BEIEKELFLHF
 	{

@@ -6,23 +6,23 @@ namespace RPG::Client { class MonoLoopedRotaion; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define BBGGEMHCPHD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E894C0)
-#define BBGGEMHCPHD_DOOGHKLOJIO_OFFSET UNITYSDK_OFFSET(0x15E88850)
-#define BBGGEMHCPHD_HBOHKIPCHHE_OFFSET UNITYSDK_OFFSET(0x15E88800)
-#define BBGGEMHCPHD_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15E887B0)
-#define BBGGEMHCPHD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15E88470)
+#define BBGGEMHCPHD_CTOR_OFFSET UNITYSDK_OFFSET(0x16D0E3A0)
+#define BBGGEMHCPHD_DOOGHKLOJIO_OFFSET UNITYSDK_OFFSET(0x16D0D730)
+#define BBGGEMHCPHD_HBOHKIPCHHE_OFFSET UNITYSDK_OFFSET(0x16D0D6E0)
+#define BBGGEMHCPHD_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x16D0D690)
+#define BBGGEMHCPHD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16D0D350)
 
-inline static constexpr unsigned int BBGGEMHCPHD_TypeDefinitionIndex = 70374;
+inline static constexpr unsigned int BBGGEMHCPHD_TypeDefinitionIndex = 72341;
 
 	class BBGGEMHCPHD : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::UnityEngine::GameObject* JPCMHJPCJLP; // 0x18
-		::RPG::Client::MonoLoopedRotaion* HMHMGLCEALK; // 0x20
-		::System::Single LAFPNEPFKLG; // 0x28
-		::System::Single JKFCIKKAJCC; // 0x2C
-		::System::Single PGMIOKKLHIE; // 0x30
-		::UnityEngine::Vector3 HPCHCEFOKJB; // 0x34
+		::RPG::Client::MonoLoopedRotaion* HMHMGLCEALK; // 0x18
+		::UnityEngine::GameObject* JPCMHJPCJLP; // 0x20
+		::System::Single JKFCIKKAJCC; // 0x28
+		::System::Single LAFPNEPFKLG; // 0x2C
+		::UnityEngine::Vector3 HPCHCEFOKJB; // 0x30
+		::System::Single PGMIOKKLHIE; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BBGGEMHCPHD_CTOR_OFFSET))(this);

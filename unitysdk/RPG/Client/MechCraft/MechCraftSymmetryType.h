@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft
 {
-	inline static constexpr unsigned int MechCraftSymmetryType_TypeDefinitionIndex = 41663;
+	inline static constexpr unsigned int MechCraftSymmetryType_TypeDefinitionIndex = 42638;
 
 	enum class MechCraftSymmetryType : ::System::Int32
 	{

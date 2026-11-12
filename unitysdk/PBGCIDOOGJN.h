@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitUIControllerClose; }
 
-#define PBGCIDOOGJN_CTOR_OFFSET UNITYSDK_OFFSET(0xBFECB70)
-#define PBGCIDOOGJN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFECDA0)
-#define PBGCIDOOGJN_OAJNPDGHOAD_OFFSET UNITYSDK_OFFSET(0xBFECBE0)
-#define PBGCIDOOGJN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFECB80)
-#define PBGCIDOOGJN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFECCE0)
-#define PBGCIDOOGJN_TICK_OFFSET UNITYSDK_OFFSET(0xBFECD30)
+#define PBGCIDOOGJN_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F0770)
+#define PBGCIDOOGJN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC8F09A0)
+#define PBGCIDOOGJN_OAJNPDGHOAD_OFFSET UNITYSDK_OFFSET(0xC8F07E0)
+#define PBGCIDOOGJN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8F0780)
+#define PBGCIDOOGJN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC8F08E0)
+#define PBGCIDOOGJN_TICK_OFFSET UNITYSDK_OFFSET(0xC8F0930)
 
-inline static constexpr unsigned int PBGCIDOOGJN_TypeDefinitionIndex = 58941;
+inline static constexpr unsigned int PBGCIDOOGJN_TypeDefinitionIndex = 60214;
 
 	class PBGCIDOOGJN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WaitUIControllerClose* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::WaitUIControllerClose* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitUIControllerClose* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitUIControllerClose*))((::PBYTE)hIl2Cpp + PBGCIDOOGJN_CTOR_OFFSET))(this, a1, a2);

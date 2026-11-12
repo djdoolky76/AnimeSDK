@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetInwardBubbleInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NOIPOEHMNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF2510)
-#define NOIPOEHMNPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF2540)
+#define NOIPOEHMNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xC5DECE0)
+#define NOIPOEHMNPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC5DED10)
 
-inline static constexpr unsigned int NOIPOEHMNPM_TypeDefinitionIndex = 58549;
+inline static constexpr unsigned int NOIPOEHMNPM_TypeDefinitionIndex = 59814;
 
 	class NOIPOEHMNPM
 	{

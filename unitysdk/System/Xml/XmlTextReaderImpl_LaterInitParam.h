@@ -16,16 +16,15 @@ namespace System::Xml
 	class XmlTextReaderImpl_LaterInitParam : public ::System::Object
 	{
 	public:
-		::System::Xml::XmlResolver* inputUriResolver; // 0x10
-		::System::IO::TextReader* inputTextReader; // 0x18
-		::System::Xml::XmlParserContext* inputContext; // 0x20
-		::System::String* inputUriStr; // 0x28
-		::System::IO::Stream* inputStream; // 0x30
-		::System::Uri* inputbaseUri; // 0x38
-		::Il2CppArray<::System::Byte>* inputBytes; // 0x40
+		::Il2CppArray<::System::Byte>* inputBytes; // 0x10
+		::System::IO::Stream* inputStream; // 0x18
+		::System::Uri* inputbaseUri; // 0x20
+		::System::Xml::XmlParserContext* inputContext; // 0x28
+		::System::Xml::XmlResolver* inputUriResolver; // 0x30
+		::System::String* inputUriStr; // 0x38
+		::System::IO::TextReader* inputTextReader; // 0x40
 		::System::Xml::XmlTextReaderImpl_InitInputType initType; // 0x48
-		::System::Boolean useAsync; // 0x4C
-		::System::Byte _padding0[0x3];
-		::System::Int32 inputByteCount; // 0x50
+		::System::Int32 inputByteCount; // 0x4C
+		::System::Boolean useAsync; // 0x50
 	};
 }

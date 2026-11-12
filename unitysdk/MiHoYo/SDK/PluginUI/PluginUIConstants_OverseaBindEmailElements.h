@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_OverseaBindEmailElements_TypeDefinitionIndex = 9241;
+	inline static constexpr unsigned int PluginUIConstants_OverseaBindEmailElements_TypeDefinitionIndex = 9250;
 
 	class PluginUIConstants_OverseaBindEmailElements : public ::System::Object
 	{

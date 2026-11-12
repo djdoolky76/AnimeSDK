@@ -4,16 +4,16 @@
 class HAILIPBNAJL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAILIPBNAJL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C651C20)
-#define HAILIPBNAJL___C__DISPLAYCLASS8_0___AICHECKNEEDUSELIMITEDDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1C65B120)
+#define HAILIPBNAJL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D37A0)
+#define HAILIPBNAJL___C__DISPLAYCLASS8_0___AICHECKNEEDUSELIMITEDDICE_B__0_OFFSET UNITYSDK_OFFSET(0x1D7DCD50)
 
-inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass8_0_TypeDefinitionIndex = 36418;
+inline static constexpr unsigned int HAILIPBNAJL___c__DisplayClass8_0_TypeDefinitionIndex = 37346;
 
 	class HAILIPBNAJL___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::HAILIPBNAJL* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* diceResults; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* diceResults; // 0x10
+		::HAILIPBNAJL* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAILIPBNAJL___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

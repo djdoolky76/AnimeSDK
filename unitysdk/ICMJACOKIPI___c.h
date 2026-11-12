@@ -4,18 +4,18 @@
 class ICMJACOKIPI;
 namespace System { class Object; }
 
-#define ICMJACOKIPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6262B0)
-#define ICMJACOKIPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6262F0)
-#define ICMJACOKIPI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E626300)
+#define ICMJACOKIPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F941A80)
+#define ICMJACOKIPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F941AC0)
+#define ICMJACOKIPI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F941AD0)
 
-inline static constexpr unsigned int ICMJACOKIPI___c_TypeDefinitionIndex = 26983;
+inline static constexpr unsigned int ICMJACOKIPI___c_TypeDefinitionIndex = 27514;
 
 	class ICMJACOKIPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45160);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BED0);
 		}
 
 		static ::System::Void _cctor()

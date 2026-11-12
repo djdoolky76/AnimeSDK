@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class OptionTalkInfo; }
 
-#define BLKBIDEPAMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA78B60)
-#define BLKBIDEPAMM_LEICGLBOIDL_OFFSET UNITYSDK_OFFSET(0xBA78B00)
+#define BLKBIDEPAMM_CTOR_OFFSET UNITYSDK_OFFSET(0xC40ADB0)
+#define BLKBIDEPAMM_LEICGLBOIDL_OFFSET UNITYSDK_OFFSET(0xC40AD50)
 
-inline static constexpr unsigned int BLKBIDEPAMM_TypeDefinitionIndex = 68028;
+inline static constexpr unsigned int BLKBIDEPAMM_TypeDefinitionIndex = 69974;
 
 	class BLKBIDEPAMM : public ::System::Object
 	{

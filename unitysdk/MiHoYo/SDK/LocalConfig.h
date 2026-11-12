@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class ABTestInfo; }
-namespace MiHoYo::SDK { class AbTestConfig_0610364D5D6941F8; }
+namespace MiHoYo::SDK { class AbTestConfig_7911CDDE5D92E7D1; }
 namespace MiHoYo::SDK { class AccountPlatConfig; }
 namespace MiHoYo::SDK { class BilibiliConfigModel; }
 namespace MiHoYo::SDK { class ConfigManager_WebViewABTestModel; }
@@ -13,11 +13,11 @@ namespace MiHoYo::SDK { class SteamParametersModel; }
 namespace MiHoYo::SDK { class WatermarkInfo; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_LOCALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE95B80)
+#define MIHOYO_SDK_LOCALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01DE20)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7905;
+	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7914;
 
 	class LocalConfig : public ::System::Object
 	{
@@ -50,8 +50,8 @@ namespace MiHoYo::SDK
 		::MiHoYo::SDK::ConfigUrlModel* url; // 0xA0
 		::MiHoYo::SDK::BilibiliConfigModel* bilibili_sdk; // 0xA8
 		::MiHoYo::SDK::WatermarkInfo* watermark; // 0xB0
-		::MiHoYo::SDK::AbTestConfig_0610364D5D6941F8* abtestOS; // 0xB8
-		::MiHoYo::SDK::AbTestConfig_0610364D5D6941F8* compliance_abtest; // 0xC0
+		::MiHoYo::SDK::AbTestConfig_7911CDDE5D92E7D1* abtestOS; // 0xB8
+		::MiHoYo::SDK::AbTestConfig_7911CDDE5D92E7D1* compliance_abtest; // 0xC0
 		::MiHoYo::SDK::ABTestInfo* abtestCN; // 0xC8
 		::MiHoYo::SDK::ConfigManager_WebViewABTestModel* webview; // 0xD0
 		::MiHoYo::SDK::AccountPlatConfig* account_platform; // 0xD8

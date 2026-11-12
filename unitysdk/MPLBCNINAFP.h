@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CHLIAIJFBJF.h"
 
-#define MPLBCNINAFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA40F20)
-#define MPLBCNINAFP_NEPBDELGKOD_OFFSET UNITYSDK_OFFSET(0xBA40EC0)
+#define MPLBCNINAFP_CTOR_OFFSET UNITYSDK_OFFSET(0xC300270)
+#define MPLBCNINAFP_NEPBDELGKOD_OFFSET UNITYSDK_OFFSET(0xC300210)
 
-inline static constexpr unsigned int MPLBCNINAFP_TypeDefinitionIndex = 73830;
+inline static constexpr unsigned int MPLBCNINAFP_TypeDefinitionIndex = 75956;
 
 	class MPLBCNINAFP : public ::CHLIAIJFBJF
 	{

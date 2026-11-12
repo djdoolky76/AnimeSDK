@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define LUMIHEU_HOUDININODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAF4F120)
+#define LUMIHEU_HOUDININODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B0280)
 
 namespace LumiHEU
 {
-	inline static constexpr unsigned int HoudiniNodeInfo_TypeDefinitionIndex = 46915;
+	inline static constexpr unsigned int HoudiniNodeInfo_TypeDefinitionIndex = 47943;
 
 	class HoudiniNodeInfo : public ::UnityEngine::MonoBehaviour
 	{

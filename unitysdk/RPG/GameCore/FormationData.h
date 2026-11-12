@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FormationData; }
 namespace RPG::GameCore { class LocationData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FORMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EA980)
-#define RPG_GAMECORE_FORMATIONDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EA610)
+#define RPG_GAMECORE_FORMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F4F10)
+#define RPG_GAMECORE_FORMATIONDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F4B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 17133;
+	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 17300;
 
 	class FormationData : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,9 +24,12 @@ namespace RPG::GameCore
 		::System::Boolean IgnoreCharacterRootOffset; // 0x1A
 		::System::Byte _padding0[0x1];
 		::RPG::MVector3 RootOffset; // 0x1C
-		::RPG::GameCore::FormationDataServantMode ServantMode; // 0x28
+		::System::Single YOffsetRatioByHeight; // 0x28
 		::System::Byte _padding1[0x4];
-		::Il2CppArray<::RPG::GameCore::LocationData*>* LocationList; // 0x30
+		::System::String* YOffsetRefAttachPoint; // 0x30
+		::RPG::GameCore::FormationDataServantMode ServantMode; // 0x38
+		::System::Byte _padding2[0x4];
+		::Il2CppArray<::RPG::GameCore::LocationData*>* LocationList; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FORMATIONDATA_CTOR_OFFSET))(this);

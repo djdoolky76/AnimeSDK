@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RuanMadeCakeFeatureMap; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RUANMADECAKEFEATUREMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6D280)
-#define RPG_GAMECORE_RUANMADECAKEFEATUREMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA6D1A0)
+#define RPG_GAMECORE_RUANMADECAKEFEATUREMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7FB00)
+#define RPG_GAMECORE_RUANMADECAKEFEATUREMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC7FA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RuanMadeCakeFeatureMap_TypeDefinitionIndex = 17468;
+	inline static constexpr unsigned int RuanMadeCakeFeatureMap_TypeDefinitionIndex = 17636;
 
 	class RuanMadeCakeFeatureMap : public ::RPG::GameCore::JsonConfig
 	{

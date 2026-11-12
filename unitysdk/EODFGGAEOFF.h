@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class JBPDHHAHKJP;
 
-#define EODFGGAEOFF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA61B90)
-#define EODFGGAEOFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61BF0)
+#define EODFGGAEOFF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC25410)
+#define EODFGGAEOFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC25470)
 
-inline static constexpr unsigned int EODFGGAEOFF_TypeDefinitionIndex = 43338;
+inline static constexpr unsigned int EODFGGAEOFF_TypeDefinitionIndex = 44319;
 
 	class EODFGGAEOFF : public ::System::Object
 	{

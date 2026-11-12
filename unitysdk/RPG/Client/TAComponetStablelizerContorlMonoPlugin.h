@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE18B170)
-#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE18B120)
+#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xEC385F0)
+#define RPG_CLIENT_TACOMPONETSTABLELIZERCONTORLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xEC385A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAComponetStablelizerContorlMonoPlugin_TypeDefinitionIndex = 70765;
+	inline static constexpr unsigned int TAComponetStablelizerContorlMonoPlugin_TypeDefinitionIndex = 72744;
 
 	class TAComponetStablelizerContorlMonoPlugin
 	{

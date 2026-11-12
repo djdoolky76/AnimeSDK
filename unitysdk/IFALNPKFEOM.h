@@ -8,27 +8,27 @@ namespace RPG::Client { class MatchThreeGameOpponent; }
 namespace RPG::GameCore::Match3 { class FightConfig; }
 namespace RPG::GameCore::Match3 { class Match3Config; }
 
-#define IFALNPKFEOM_LJFFILMDLLL_OFFSET UNITYSDK_OFFSET(0x15F08640)
-#define IFALNPKFEOM_OKHJCHBPDKI_OFFSET UNITYSDK_OFFSET(0x15F08700)
+#define IFALNPKFEOM_LJFFILMDLLL_OFFSET UNITYSDK_OFFSET(0x16E77240)
+#define IFALNPKFEOM_OKHJCHBPDKI_OFFSET UNITYSDK_OFFSET(0x16E77300)
 
-inline static constexpr unsigned int IFALNPKFEOM_TypeDefinitionIndex = 76561;
+inline static constexpr unsigned int IFALNPKFEOM_TypeDefinitionIndex = 78892;
 
 	class IFALNPKFEOM : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::Match3::FightConfig** StaticGet_CEPDAKAHPEJ()
-		{
-			return (::RPG::GameCore::Match3::FightConfig**)UnitySDK::FromName("", "IFALNPKFEOM")->GetStaticField(0x1D8D0);
-		}
-
 		static ::RPG::GameCore::Match3::Match3Config** StaticGet_ENNPOOOINPG()
 		{
-			return (::RPG::GameCore::Match3::Match3Config**)UnitySDK::FromName("", "IFALNPKFEOM")->GetStaticField(0x1D8D8);
+			return (::RPG::GameCore::Match3::Match3Config**)UnitySDK::FromName("", "IFALNPKFEOM")->GetStaticField(0x10770);
+		}
+
+		static ::RPG::GameCore::Match3::FightConfig** StaticGet_CEPDAKAHPEJ()
+		{
+			return (::RPG::GameCore::Match3::FightConfig**)UnitySDK::FromName("", "IFALNPKFEOM")->GetStaticField(0x10778);
 		}
 
 		static ::System::Boolean* StaticGet_ALJBHFLECLB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IFALNPKFEOM")->GetStaticField(0x6BB0);
+			return (::System::Boolean*)UnitySDK::FromName("", "IFALNPKFEOM")->GetStaticField(0x3540);
 		}
 
 		// static const ::System::String* JBGNAPEPFIC; // 0x0

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PerformanceReplay_SetFloorSavedValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJCPFIOMFEP_CTOR_OFFSET UNITYSDK_OFFSET(0x157C2630)
-#define FJCPFIOMFEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157C2660)
+#define FJCPFIOMFEP_CTOR_OFFSET UNITYSDK_OFFSET(0x166E4BC0)
+#define FJCPFIOMFEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166E4BF0)
 
-inline static constexpr unsigned int FJCPFIOMFEP_TypeDefinitionIndex = 58251;
+inline static constexpr unsigned int FJCPFIOMFEP_TypeDefinitionIndex = 59507;
 
 	class FJCPFIOMFEP
 	{

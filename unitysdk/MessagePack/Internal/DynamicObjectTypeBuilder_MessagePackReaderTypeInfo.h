@@ -4,43 +4,43 @@
 namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class TypeInfo; }
 
-#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBA6D30)
+#define MESSAGEPACK_INTERNAL_DYNAMICOBJECTTYPEBUILDER_MESSAGEPACKREADERTYPEINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD2FBB0)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex = 7314;
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex = 7325;
 
 	class DynamicObjectTypeBuilder_MessagePackReaderTypeInfo : public ::System::Object
 	{
 	public:
-		static ::System::Reflection::MethodInfo** StaticGet_ReadArrayHeader()
+		static ::System::Reflection::MethodInfo** StaticGet_TryReadNil()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26040);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_Skip()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26048);
-		}
-
-		static ::System::Reflection::MethodInfo** StaticGet_ReadBytes()
-		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26050);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x49760);
 		}
 
 		static ::System::Reflection::TypeInfo** StaticGet_TypeInfo()
 		{
-			return (::System::Reflection::TypeInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26058);
+			return (::System::Reflection::TypeInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x49768);
 		}
 
-		static ::System::Reflection::MethodInfo** StaticGet_TryReadNil()
+		static ::System::Reflection::MethodInfo** StaticGet_ReadArrayHeader()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26060);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x49770);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_ReadMapHeader()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x26068);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x49778);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_Skip()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x49780);
+		}
+
+		static ::System::Reflection::MethodInfo** StaticGet_ReadBytes()
+		{
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack.Internal", "MessagePackReaderTypeInfo")->GetStaticField(0x49788);
 		}
 
 		static ::System::Void _cctor()

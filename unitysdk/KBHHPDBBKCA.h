@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnlockTargetShield; }
 
-#define KBHHPDBBKCA_CTOR_OFFSET UNITYSDK_OFFSET(0xB3011C0)
-#define KBHHPDBBKCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3011F0)
+#define KBHHPDBBKCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB8A2B0)
+#define KBHHPDBBKCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB8A2E0)
 
-inline static constexpr unsigned int KBHHPDBBKCA_TypeDefinitionIndex = 55155;
+inline static constexpr unsigned int KBHHPDBBKCA_TypeDefinitionIndex = 56336;
 
 	class KBHHPDBBKCA
 	{

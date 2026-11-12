@@ -5,18 +5,18 @@ class JGLPONENAKN;
 class JPMCBFLFDIL;
 class PEEAINPOGLK;
 
-#define GENGKBKLHDM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC92D40)
-#define GENGKBKLHDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC92D30)
-#define GENGKBKLHDM_FHDGKNMLEJJ_OFFSET UNITYSDK_OFFSET(0x1CC904E0)
+#define GENGKBKLHDM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE39ED0)
+#define GENGKBKLHDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE39EC0)
+#define GENGKBKLHDM_FHDGKNMLEJJ_OFFSET UNITYSDK_OFFSET(0x1DE37670)
 
-inline static constexpr unsigned int GENGKBKLHDM_TypeDefinitionIndex = 43878;
+inline static constexpr unsigned int GENGKBKLHDM_TypeDefinitionIndex = 44953;
 
 	class GENGKBKLHDM : public ::System::Object
 	{
 	public:
 		static ::PEEAINPOGLK** StaticGet_FMJPMFEDIJL()
 		{
-			return (::PEEAINPOGLK**)UnitySDK::FromName("", "GENGKBKLHDM")->GetStaticField(0xF70);
+			return (::PEEAINPOGLK**)UnitySDK::FromName("", "GENGKBKLHDM")->GetStaticField(0x1070);
 		}
 
 		::System::Void _ctor()

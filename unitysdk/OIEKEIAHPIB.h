@@ -8,12 +8,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OIEKEIAHPIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C994A90)
-#define OIEKEIAHPIB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C994D20)
-#define OIEKEIAHPIB_FILTER_OFFSET UNITYSDK_OFFSET(0x1C994C30)
-#define OIEKEIAHPIB_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C994B10)
+#define OIEKEIAHPIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB56950)
+#define OIEKEIAHPIB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DB56BE0)
+#define OIEKEIAHPIB_FILTER_OFFSET UNITYSDK_OFFSET(0x1DB56AF0)
+#define OIEKEIAHPIB_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1DB569D0)
 
-inline static constexpr unsigned int OIEKEIAHPIB_TypeDefinitionIndex = 42167;
+inline static constexpr unsigned int OIEKEIAHPIB_TypeDefinitionIndex = 43142;
 
 	class OIEKEIAHPIB
 	{

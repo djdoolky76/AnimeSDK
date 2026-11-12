@@ -5,21 +5,21 @@ class FCOEMCEDLNL;
 class JONPGIKCGBM;
 namespace System { class String; }
 
-#define JONPGIKCGBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D058670)
-#define JONPGIKCGBM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D058680)
-#define JONPGIKCGBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D058640)
+#define JONPGIKCGBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2477D0)
+#define JONPGIKCGBM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E2477E0)
+#define JONPGIKCGBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E2477A0)
 
-inline static constexpr unsigned int JONPGIKCGBM_TypeDefinitionIndex = 22442;
+inline static constexpr unsigned int JONPGIKCGBM_TypeDefinitionIndex = 22851;
 
 	class JONPGIKCGBM : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
-		::System::String* KEFNJGCFHGH; // 0x18
-		::System::String* PFDLMJILKBK; // 0x20
-		::System::Boolean CLJEBKODGHK; // 0x28
-		::System::Boolean AHEEAFKFALM; // 0x29
+		::System::String* PFDLMJILKBK; // 0x18
+		::System::String* KEFNJGCFHGH; // 0x20
+		::System::Single HIDPIGLKPFB; // 0x28
+		::System::Boolean AHEEAFKFALM; // 0x2C
+		::System::Boolean CLJEBKODGHK; // 0x2D
 		::System::Byte _padding0[0x2];
-		::System::Single HIDPIGLKPFB; // 0x2C
 		::System::Single MHKKCHLPABL; // 0x30
 		::System::Void _ctor()
 		{

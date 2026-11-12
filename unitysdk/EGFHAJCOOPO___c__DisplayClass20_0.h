@@ -7,17 +7,17 @@ namespace RPG::Client { class UIController; }
 namespace RPG::Client::B51Racing { class B51RacingCarDevelopActionSelectViewModel; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define EGFHAJCOOPO___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14514CB0)
-#define EGFHAJCOOPO___C__DISPLAYCLASS20_0__SHOWDEVELOPACTIONSELECTPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14516170)
+#define EGFHAJCOOPO___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x152EB3E0)
+#define EGFHAJCOOPO___C__DISPLAYCLASS20_0__SHOWDEVELOPACTIONSELECTPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x152EC8A0)
 
-inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass20_0_TypeDefinitionIndex = 81748;
+inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass20_0_TypeDefinitionIndex = 84529;
 
 	class EGFHAJCOOPO___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::Promises::Promise_1<::RPG::Client::UIController*>* promise; // 0x10
-		::GNOCLCNNAPD* sceneService; // 0x18
-		::BDPODLBIFOH* transient; // 0x20
+		::BDPODLBIFOH* transient; // 0x18
+		::GNOCLCNNAPD* sceneService; // 0x20
 		::RPG::Client::B51Racing::B51RacingCarDevelopActionSelectViewModel* viewModel; // 0x28
 		::System::Void _ctor()
 		{

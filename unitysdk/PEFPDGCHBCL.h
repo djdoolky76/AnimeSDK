@@ -8,22 +8,21 @@ class PEFPDGCHBCL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace SimpleJSON { class JSONNode; }
 
-#define PEFPDGCHBCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D3D40)
-#define PEFPDGCHBCL_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D2D4060)
-#define PEFPDGCHBCL_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D2D4020)
-#define PEFPDGCHBCL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D3D50)
-#define PEFPDGCHBCL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D3D00)
+#define PEFPDGCHBCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DFF40)
+#define PEFPDGCHBCL_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1E4E0260)
+#define PEFPDGCHBCL_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E4E0220)
+#define PEFPDGCHBCL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4DFF50)
+#define PEFPDGCHBCL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4DFF00)
 
-inline static constexpr unsigned int PEFPDGCHBCL_TypeDefinitionIndex = 10206;
+inline static constexpr unsigned int PEFPDGCHBCL_TypeDefinitionIndex = 10215;
 
 	class PEFPDGCHBCL : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* GJEAIKIINML; // 0x20
 		::RPG::GameCore::CompareType EHCHAPPGJDJ; // 0x28
-		::System::Boolean OHBLKLKGIOH; // 0x2C
-		::System::Byte _padding0[0x3];
-		::RPG::Client::CatGodInteractCountType PGNPPEOFCDL; // 0x30
+		::RPG::Client::CatGodInteractCountType PGNPPEOFCDL; // 0x2C
+		::System::Boolean OHBLKLKGIOH; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEFPDGCHBCL_CTOR_OFFSET))(this);

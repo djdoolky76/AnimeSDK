@@ -7,41 +7,41 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define AFPAAGFDMMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF20620)
-#define AFPAAGFDMMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF20650)
-#define AFPAAGFDMMK___C___CREATEHINTTRIGGER_B__8_0_OFFSET UNITYSDK_OFFSET(0xCF206A0)
-#define AFPAAGFDMMK___C___CREATEHINTTRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0xCF206C0)
-#define AFPAAGFDMMK___C___CREATEINTERACTTRIGGER_B__7_0_OFFSET UNITYSDK_OFFSET(0xCF20660)
-#define AFPAAGFDMMK___C___CREATEINTERACTTRIGGER_B__7_1_OFFSET UNITYSDK_OFFSET(0xCF20680)
+#define AFPAAGFDMMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5D4670)
+#define AFPAAGFDMMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5D46A0)
+#define AFPAAGFDMMK___C___CREATEHINTTRIGGER_B__8_0_OFFSET UNITYSDK_OFFSET(0xD5D46F0)
+#define AFPAAGFDMMK___C___CREATEHINTTRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0xD5D4710)
+#define AFPAAGFDMMK___C___CREATEINTERACTTRIGGER_B__7_0_OFFSET UNITYSDK_OFFSET(0xD5D46B0)
+#define AFPAAGFDMMK___C___CREATEINTERACTTRIGGER_B__7_1_OFFSET UNITYSDK_OFFSET(0xD5D46D0)
 
-inline static constexpr unsigned int AFPAAGFDMMK___c_TypeDefinitionIndex = 77136;
+inline static constexpr unsigned int AFPAAGFDMMK___c_TypeDefinitionIndex = 79470;
 
 	class AFPAAGFDMMK___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AB0);
-		}
-
 		static ::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AB8);
+			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49510);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49518);
 		}
 
 		static ::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__8_1()
 		{
-			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AC0);
-		}
-
-		static ::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__7_1()
-		{
-			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AC8);
+			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49520);
 		}
 
 		static ::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__8_0()
 		{
-			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AD0);
+			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49528);
+		}
+
+		static ::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__7_1()
+		{
+			return (::System::Action_3<::AFPAAGFDMMK*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49530);
 		}
 
 		static ::System::Void _cctor()

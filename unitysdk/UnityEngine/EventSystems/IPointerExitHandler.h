@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IPointerExitHandler_TypeDefinitionIndex = 6912;
+	inline static constexpr unsigned int IPointerExitHandler_TypeDefinitionIndex = 6923;
 
 	class IPointerExitHandler
 	{

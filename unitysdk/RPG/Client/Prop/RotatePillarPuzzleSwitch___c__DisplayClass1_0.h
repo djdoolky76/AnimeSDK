@@ -4,18 +4,18 @@
 namespace RPG::Client::Prop { class RotatePillarPuzzleSwitch; }
 namespace RPG::Client::Prop { class RotateSelectParamData; }
 
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD9AD90)
-#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0xDD9BEA0)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE7FDF70)
+#define RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0xE7FF080)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int RotatePillarPuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 78816;
+	inline static constexpr unsigned int RotatePillarPuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 81587;
 
 	class RotatePillarPuzzleSwitch___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::RotatePillarPuzzleSwitch* __4__this; // 0x10
-		::RPG::Client::Prop::RotateSelectParamData* p; // 0x18
+		::RPG::Client::Prop::RotateSelectParamData* p; // 0x10
+		::RPG::Client::Prop::RotatePillarPuzzleSwitch* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_ROTATEPILLARPUZZLESWITCH___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

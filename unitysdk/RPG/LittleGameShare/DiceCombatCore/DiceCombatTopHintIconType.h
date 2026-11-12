@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::DiceCombatCore
 {
-	inline static constexpr unsigned int DiceCombatTopHintIconType_TypeDefinitionIndex = 36496;
+	inline static constexpr unsigned int DiceCombatTopHintIconType_TypeDefinitionIndex = 37424;
 
 	enum class DiceCombatTopHintIconType : ::System::Int32
 	{

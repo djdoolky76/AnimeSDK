@@ -8,13 +8,13 @@ namespace RPG::GameCore { class MoveToTargetPosition; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MOVETOTARGETPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BDE40)
-#define RPG_GAMECORE_MOVETOTARGETPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8BDED0)
-#define RPG_GAMECORE_MOVETOTARGETPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8BDD90)
+#define RPG_GAMECORE_MOVETOTARGETPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD7B60)
+#define RPG_GAMECORE_MOVETOTARGETPOSITION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAD7BF0)
+#define RPG_GAMECORE_MOVETOTARGETPOSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAD7AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MoveToTargetPosition_TypeDefinitionIndex = 22461;
+	inline static constexpr unsigned int MoveToTargetPosition_TypeDefinitionIndex = 22870;
 
 	class MoveToTargetPosition : public ::RPG::GameCore::TaskConfig
 	{

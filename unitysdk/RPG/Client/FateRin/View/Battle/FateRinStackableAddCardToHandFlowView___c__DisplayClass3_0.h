@@ -7,21 +7,21 @@ namespace RPG::Client::Promises { class IPendingPromise; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFCCC60)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS3_0__PLAYSTACKABLEADDCARDTOHANDFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xCFCDFC0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS3_0__PLAYSTACKABLEADDCARDTOHANDFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xCFCE200)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD94ECC0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS3_0__PLAYSTACKABLEADDCARDTOHANDFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xD94FF70)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS3_0__PLAYSTACKABLEADDCARDTOHANDFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xD9501B0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinStackableAddCardToHandFlowView___c__DisplayClass3_0_TypeDefinitionIndex = 80702;
+	inline static constexpr unsigned int FateRinStackableAddCardToHandFlowView___c__DisplayClass3_0_TypeDefinitionIndex = 83482;
 
 	class FateRinStackableAddCardToHandFlowView___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::IPendingPromise* pending; // 0x10
-		::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* targetPosCtrl; // 0x18
-		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* cardAreaVm; // 0x20
-		::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* temporaryCardRoots; // 0x28
+		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* cardAreaVm; // 0x10
+		::RPG::Client::Promises::IPendingPromise* pending; // 0x18
+		::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* temporaryCardRoots; // 0x20
+		::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* targetPosCtrl; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINSTACKABLEADDCARDTOHANDFLOWVIEW___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

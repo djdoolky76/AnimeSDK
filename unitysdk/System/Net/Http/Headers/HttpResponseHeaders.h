@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Net/Http/Headers/HttpHeaders.h"
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPRESPONSEHEADERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE55310)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPRESPONSEHEADERS_CTOR_OFFSET UNITYSDK_OFFSET(0x20104CF0)
 
 namespace System::Net::Http::Headers
 {

@@ -5,25 +5,25 @@ class CJEEJFDPPNG;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE7A61A0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE7A61D0)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__PREPARE_B__8_0_OFFSET UNITYSDK_OFFSET(0xE7A61E0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF2A9130)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF2A9160)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT_MULTIROWTARGETSELECTOR___C__PREPARE_B__8_0_OFFSET UNITYSDK_OFFSET(0xF2A9170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex = 57704;
+	inline static constexpr unsigned int TeamFormationComponent_MultiRowTargetSelector___c_TypeDefinitionIndex = 58937;
 
 	class TeamFormationComponent_MultiRowTargetSelector___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::CJEEJFDPPNG*>** StaticGet___9__8_0()
-		{
-			return (::System::Comparison_1<::CJEEJFDPPNG*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E100);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E108);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x734A0);
+		}
+
+		static ::System::Comparison_1<::CJEEJFDPPNG*>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::CJEEJFDPPNG*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x734A8);
 		}
 
 		static ::System::Void _cctor()

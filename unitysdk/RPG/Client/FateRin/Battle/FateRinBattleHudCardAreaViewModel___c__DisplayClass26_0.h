@@ -6,19 +6,19 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudCardAreaViewModel
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewModel; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEBE6A0)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS26_0___RAISECARDCYCLEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xCEC4280)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD886FB0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS26_0___RAISECARDCYCLEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xD88CC60)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel___c__DisplayClass26_0_TypeDefinitionIndex = 80892;
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel___c__DisplayClass26_0_TypeDefinitionIndex = 83672;
 
 	class FateRinBattleHudCardAreaViewModel___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::FateRin::Battle::FateRinBattleHudCardAreaViewModel* __4__this; // 0x10
-		::RPG::Client::FateRin::Battle::FateRinBattleHudCardAreaViewModel_CardAnimationEntry* entry; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>* affectedHandCardVMs; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>* affectedHandCardVMs; // 0x18
+		::RPG::Client::FateRin::Battle::FateRinBattleHudCardAreaViewModel_CardAnimationEntry* entry; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS26_0_CTOR_OFFSET))(this);

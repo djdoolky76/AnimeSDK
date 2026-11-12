@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PKILELCBFKH_CounterType_TypeDefinitionIndex = 71615;
+inline static constexpr unsigned int PKILELCBFKH_CounterType_TypeDefinitionIndex = 73603;
 
 	enum class PKILELCBFKH_CounterType : ::System::Int32
 	{

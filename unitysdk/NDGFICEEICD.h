@@ -2,32 +2,32 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class ABPLALCHNFA;
-class AMCOEFHHBPO;
 class BDEHEINMEJB;
 class NDGFICEEICD;
+namespace RPG::Client { class GridFightUpdateSummarizer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NDGFICEEICD_AEIMKAIFCNC_OFFSET UNITYSDK_OFFSET(0xBB24F70)
-#define NDGFICEEICD_BNPBAFODOFI_OFFSET UNITYSDK_OFFSET(0xBB27D20)
-#define NDGFICEEICD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB247A0)
-#define NDGFICEEICD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB280C0)
-#define NDGFICEEICD_IMGGNJDBLCM_OFFSET UNITYSDK_OFFSET(0xBB24DD0)
-#define NDGFICEEICD_JPLGGJHFBDO_OFFSET UNITYSDK_OFFSET(0xBB27B50)
-#define NDGFICEEICD_LIFGLFMOJED_OFFSET UNITYSDK_OFFSET(0xBB24EE0)
-#define NDGFICEEICD_LJFAEBMFIKI_OFFSET UNITYSDK_OFFSET(0xBB27EF0)
-#define NDGFICEEICD_MBJBKAOLIFD_OFFSET UNITYSDK_OFFSET(0xBB251F0)
-#define NDGFICEEICD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBB25470)
+#define NDGFICEEICD_AEIMKAIFCNC_OFFSET UNITYSDK_OFFSET(0xC3AE420)
+#define NDGFICEEICD_BNPBAFODOFI_OFFSET UNITYSDK_OFFSET(0xC3B1640)
+#define NDGFICEEICD_CTOR_OFFSET UNITYSDK_OFFSET(0xC3AD820)
+#define NDGFICEEICD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC3B19E0)
+#define NDGFICEEICD_IMGGNJDBLCM_OFFSET UNITYSDK_OFFSET(0xC3AE280)
+#define NDGFICEEICD_JPLGGJHFBDO_OFFSET UNITYSDK_OFFSET(0xC3B1470)
+#define NDGFICEEICD_LIFGLFMOJED_OFFSET UNITYSDK_OFFSET(0xC3AE390)
+#define NDGFICEEICD_LJFAEBMFIKI_OFFSET UNITYSDK_OFFSET(0xC3B1810)
+#define NDGFICEEICD_MBJBKAOLIFD_OFFSET UNITYSDK_OFFSET(0xC3AE6A0)
+#define NDGFICEEICD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC3AE920)
 
-inline static constexpr unsigned int NDGFICEEICD_TypeDefinitionIndex = 64883;
+inline static constexpr unsigned int NDGFICEEICD_TypeDefinitionIndex = 66438;
 
 	class NDGFICEEICD : public ::System::Object
 	{
 	public:
 		::BDEHEINMEJB* BKIFMPHBIAK; // 0x10
-		::System::Collections::Generic::List_1<::AMCOEFHHBPO*>* GACHBPBBDFL; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::GridFightUpdateSummarizer*>* GACHBPBBDFL; // 0x18
 		static ::NDGFICEEICD** StaticGet_FMJPMFEDIJL()
 		{
-			return (::NDGFICEEICD**)UnitySDK::FromName("", "NDGFICEEICD")->GetStaticField(0xAB70);
+			return (::NDGFICEEICD**)UnitySDK::FromName("", "NDGFICEEICD")->GetStaticField(0x11C90);
 		}
 
 		::System::Void _ctor()
@@ -35,14 +35,14 @@ inline static constexpr unsigned int NDGFICEEICD_TypeDefinitionIndex = 64883;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDGFICEEICD_CTOR_OFFSET))(this);
 		}
 
-		::System::Void IMGGNJDBLCM(::AMCOEFHHBPO* a1)
+		::System::Void IMGGNJDBLCM(::RPG::Client::GridFightUpdateSummarizer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::AMCOEFHHBPO*))((::PBYTE)hIl2Cpp + NDGFICEEICD_IMGGNJDBLCM_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightUpdateSummarizer*))((::PBYTE)hIl2Cpp + NDGFICEEICD_IMGGNJDBLCM_OFFSET))(this, a1);
 		}
 
-		::System::Void LIFGLFMOJED(::AMCOEFHHBPO* a1)
+		::System::Void LIFGLFMOJED(::RPG::Client::GridFightUpdateSummarizer* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::AMCOEFHHBPO*))((::PBYTE)hIl2Cpp + NDGFICEEICD_LIFGLFMOJED_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightUpdateSummarizer*))((::PBYTE)hIl2Cpp + NDGFICEEICD_LIFGLFMOJED_OFFSET))(this, a1);
 		}
 
 		::System::Void AEIMKAIFCNC(::ABPLALCHNFA* a1)

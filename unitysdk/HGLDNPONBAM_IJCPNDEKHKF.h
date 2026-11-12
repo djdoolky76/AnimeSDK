@@ -6,17 +6,17 @@
 namespace RPG::GameCore { class BattleRogueMagicData_MagicUnit; }
 namespace System { class String; }
 
-#define HGLDNPONBAM_IJCPNDEKHKF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CAC100)
-#define HGLDNPONBAM_IJCPNDEKHKF_JINDACEGJGF_OFFSET UNITYSDK_OFFSET(0x15CAD0E0)
-#define HGLDNPONBAM_IJCPNDEKHKF_KMNNGHKFCEC_OFFSET UNITYSDK_OFFSET(0x15CAC6B0)
+#define HGLDNPONBAM_IJCPNDEKHKF_CTOR_OFFSET UNITYSDK_OFFSET(0x16BF66A0)
+#define HGLDNPONBAM_IJCPNDEKHKF_JINDACEGJGF_OFFSET UNITYSDK_OFFSET(0x16BF7680)
+#define HGLDNPONBAM_IJCPNDEKHKF_KMNNGHKFCEC_OFFSET UNITYSDK_OFFSET(0x16BF6C50)
 
-inline static constexpr unsigned int HGLDNPONBAM_IJCPNDEKHKF_TypeDefinitionIndex = 57661;
+inline static constexpr unsigned int HGLDNPONBAM_IJCPNDEKHKF_TypeDefinitionIndex = 58891;
 
 	class HGLDNPONBAM_IJCPNDEKHKF : public ::System::Object
 	{
 	public:
-		::System::String* KBKOGLCAEKG; // 0x10
-		::RPG::GameCore::BattleRogueMagicData_MagicUnit* EABKOHGCHFP; // 0x18
+		::RPG::GameCore::BattleRogueMagicData_MagicUnit* EABKOHGCHFP; // 0x10
+		::System::String* KBKOGLCAEKG; // 0x18
 		::RPG::GameCore::RogueMagicMountType ILLOBAKBDPB; // 0x20
 		::RPG::GameCore::TaskState AKLILOFAMNG; // 0x24
 		::System::Void _ctor()

@@ -4,7 +4,7 @@
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int StaticEnumResolverGetFormatterHelper_TypeDefinitionIndex = 7345;
+	inline static constexpr unsigned int StaticEnumResolverGetFormatterHelper_TypeDefinitionIndex = 7356;
 
 	class StaticEnumResolverGetFormatterHelper : public ::System::Object
 	{

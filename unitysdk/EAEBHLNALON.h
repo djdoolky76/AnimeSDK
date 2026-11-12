@@ -7,9 +7,9 @@
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 
-#define EAEBHLNALON_FGKLJKEKAKE_OFFSET UNITYSDK_OFFSET(0x12673C70)
+#define EAEBHLNALON_FGKLJKEKAKE_OFFSET UNITYSDK_OFFSET(0x13463F90)
 
-inline static constexpr unsigned int EAEBHLNALON_TypeDefinitionIndex = 76874;
+inline static constexpr unsigned int EAEBHLNALON_TypeDefinitionIndex = 79208;
 
 	class EAEBHLNALON : public ::System::Object
 	{

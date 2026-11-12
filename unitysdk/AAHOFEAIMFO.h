@@ -5,17 +5,17 @@ namespace RPG::Client { class NewsTickerItem; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define AAHOFEAIMFO_CREATE_OFFSET UNITYSDK_OFFSET(0xB0C71F0)
-#define AAHOFEAIMFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C71E0)
-#define AAHOFEAIMFO_ONRECYCLEDITEMREUSED_OFFSET UNITYSDK_OFFSET(0xB0C73B0)
+#define AAHOFEAIMFO_CREATE_OFFSET UNITYSDK_OFFSET(0xB728ED0)
+#define AAHOFEAIMFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB728EC0)
+#define AAHOFEAIMFO_ONRECYCLEDITEMREUSED_OFFSET UNITYSDK_OFFSET(0xB729060)
 
-inline static constexpr unsigned int AAHOFEAIMFO_TypeDefinitionIndex = 68996;
+inline static constexpr unsigned int AAHOFEAIMFO_TypeDefinitionIndex = 70949;
 
 	class AAHOFEAIMFO : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* PGKENBMKDKA; // 0x10
-		::UnityEngine::Transform* GDHDOCGMACL; // 0x18
+		::UnityEngine::Transform* GDHDOCGMACL; // 0x10
+		::UnityEngine::GameObject* PGKENBMKDKA; // 0x18
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::UnityEngine::Transform* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + AAHOFEAIMFO_CTOR_OFFSET))(this, a1, a2);

@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_ANDROIDTVUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA8BFD0)
-#define INCONTROL_UNITYDEVICEPROFILES_ANDROIDTVUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA8AD20)
+#define INCONTROL_UNITYDEVICEPROFILES_ANDROIDTVUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC14C20)
+#define INCONTROL_UNITYDEVICEPROFILES_ANDROIDTVUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1CC13970)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int AndroidTVUnityProfile_TypeDefinitionIndex = 40938;
+	inline static constexpr unsigned int AndroidTVUnityProfile_TypeDefinitionIndex = 41913;
 
 	class AndroidTVUnityProfile : public ::InControl::InputDeviceProfile
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/EvolveGearType.h"
 #include "unitysdk/System/Object.h"
 
-#define ALBDKAIFIOI_FNKNLPMABLH_OFFSET UNITYSDK_OFFSET(0x1555D1F0)
+#define ALBDKAIFIOI_FNKNLPMABLH_OFFSET UNITYSDK_OFFSET(0x163CA170)
 
-inline static constexpr unsigned int ALBDKAIFIOI_TypeDefinitionIndex = 56084;
+inline static constexpr unsigned int ALBDKAIFIOI_TypeDefinitionIndex = 57296;
 
 	class ALBDKAIFIOI : public ::System::Object
 	{

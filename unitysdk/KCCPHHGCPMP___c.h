@@ -4,18 +4,18 @@
 class KCCPHHGCPMP;
 namespace System { class Object; }
 
-#define KCCPHHGCPMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7F2EC0)
-#define KCCPHHGCPMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F2F00)
-#define KCCPHHGCPMP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7F2F10)
+#define KCCPHHGCPMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB081D0)
+#define KCCPHHGCPMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB08210)
+#define KCCPHHGCPMP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FB08220)
 
-inline static constexpr unsigned int KCCPHHGCPMP___c_TypeDefinitionIndex = 29532;
+inline static constexpr unsigned int KCCPHHGCPMP___c_TypeDefinitionIndex = 30290;
 
 	class KCCPHHGCPMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF6D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EC30);
 		}
 
 		static ::System::Void _cctor()

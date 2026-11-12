@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GHODJENKHNE.h"
 
-#define EDJODCPPMHN_CTOR_OFFSET UNITYSDK_OFFSET(0x13325570)
+#define EDJODCPPMHN_CTOR_OFFSET UNITYSDK_OFFSET(0x140E23F0)
 
-inline static constexpr unsigned int EDJODCPPMHN_TypeDefinitionIndex = 73128;
+inline static constexpr unsigned int EDJODCPPMHN_TypeDefinitionIndex = 75242;
 
 	class EDJODCPPMHN : public ::GHODJENKHNE
 	{

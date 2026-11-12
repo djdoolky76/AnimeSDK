@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_NAMEDCOLLIDEROFFSETFORUSESKILLPERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xD930770)
+#define RPG_CLIENT_NAMEDCOLLIDEROFFSETFORUSESKILLPERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0xE3C4390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NamedColliderOffsetForUseSkillPerform_TypeDefinitionIndex = 69588;
+	inline static constexpr unsigned int NamedColliderOffsetForUseSkillPerform_TypeDefinitionIndex = 71545;
 
 	class NamedColliderOffsetForUseSkillPerform : public ::System::Object
 	{

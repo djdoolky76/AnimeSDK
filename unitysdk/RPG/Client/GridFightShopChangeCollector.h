@@ -2,22 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Specialized { class NotifyCollectionChangedEventArgs; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD27E890)
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD27E840)
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xD27E7E0)
-#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xD27E7A0)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDC7B850)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ISGOODCHANGED_OFFSET UNITYSDK_OFFSET(0xDC7B5C0)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONCOLLECTIONCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xDC7B800)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ONPROPERTYCHANGEDEVENTHANDLER_OFFSET UNITYSDK_OFFSET(0xDC7B620)
+#define RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_RESET_OFFSET UNITYSDK_OFFSET(0xDC7B520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightShopChangeCollector_TypeDefinitionIndex = 64566;
+	inline static constexpr unsigned int GridFightShopChangeCollector_TypeDefinitionIndex = 66096;
 
 	class GridFightShopChangeCollector : public ::System::Object
 	{
 	public:
-		::System::Boolean IsDirty; // 0x10
+		::System::Collections::Generic::HashSet_1<::System::Int32>* _ChangedGoodIndices; // 0x10
+		::System::Boolean IsDirty; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_CTOR_OFFSET))(this);
@@ -26,6 +29,11 @@ namespace RPG::Client
 		::System::Void Reset()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_RESET_OFFSET))(this);
+		}
+
+		::System::Boolean IsGoodChanged(::System::Int32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTSHOPCHANGECOLLECTOR_ISGOODCHANGED_OFFSET))(this, a1);
 		}
 
 		::System::Void OnPropertyChangedEventHandler(::System::Object* a1, ::System::ComponentModel::PropertyChangedEventArgs* a2)

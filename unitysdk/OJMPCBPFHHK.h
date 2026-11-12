@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OJMPCBPFHHK_CTOR_OFFSET UNITYSDK_OFFSET(0xBECBF40)
-#define OJMPCBPFHHK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBECBE90)
+#define OJMPCBPFHHK_CTOR_OFFSET UNITYSDK_OFFSET(0xC7C3530)
+#define OJMPCBPFHHK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7C3490)
 
-inline static constexpr unsigned int OJMPCBPFHHK_TypeDefinitionIndex = 57337;
+inline static constexpr unsigned int OJMPCBPFHHK_TypeDefinitionIndex = 58565;
 
 	class OJMPCBPFHHK : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* EHANABPPLEC; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* LMENPEICODO; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* AIBBMKLENFD; // 0x20
+		::RPG::GameCore::GameEntity* OINNHCJMJOI; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* LMENPEICODO; // 0x20
 		::RPG::GameCore::GameEntity* BNIJLOABKBB; // 0x28
-		::RPG::GameCore::GameEntity* OINNHCJMJOI; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* AIBBMKLENFD; // 0x30
 		::UnityEngine::Vector3 JDCEFMHKOGC; // 0x38
 		::System::Boolean CKHGBLNGPBN; // 0x44
 		::System::Void _ctor()

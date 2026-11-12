@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Camera; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_ECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x16738C70)
+#define HEDGEHOGTEAM_EASYTOUCH_ECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1757CF10)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int ECamera_TypeDefinitionIndex = 40285;
+	inline static constexpr unsigned int ECamera_TypeDefinitionIndex = 41260;
 
 	class ECamera : public ::System::Object
 	{

@@ -5,9 +5,9 @@
 namespace System::Reflection { class Missing; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_REFLECTION_MISSING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2A6490)
-#define SYSTEM_REFLECTION_MISSING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2A6410)
-#define SYSTEM_REFLECTION_MISSING_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C2A6420)
+#define SYSTEM_REFLECTION_MISSING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D42D170)
+#define SYSTEM_REFLECTION_MISSING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D42D0F0)
+#define SYSTEM_REFLECTION_MISSING_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D42D100)
 
 namespace System::Reflection
 {
@@ -18,7 +18,7 @@ namespace System::Reflection
 	public:
 		static ::System::Reflection::Missing** StaticGet_Value()
 		{
-			return (::System::Reflection::Missing**)UnitySDK::FromName("System.Reflection", "Missing")->GetStaticField(0x14680);
+			return (::System::Reflection::Missing**)UnitySDK::FromName("System.Reflection", "Missing")->GetStaticField(0x1D6F0);
 		}
 
 		::System::Void _ctor()

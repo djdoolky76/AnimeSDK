@@ -8,10 +8,10 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define MCONDNIAFFN_BOCGLLIDPDD_OFFSET UNITYSDK_OFFSET(0xB88AC70)
-#define MCONDNIAFFN_CTOR_OFFSET UNITYSDK_OFFSET(0xB88A900)
+#define MCONDNIAFFN_BOCGLLIDPDD_OFFSET UNITYSDK_OFFSET(0xC137850)
+#define MCONDNIAFFN_CTOR_OFFSET UNITYSDK_OFFSET(0xC1374E0)
 
-inline static constexpr unsigned int MCONDNIAFFN_TypeDefinitionIndex = 81111;
+inline static constexpr unsigned int MCONDNIAFFN_TypeDefinitionIndex = 83891;
 
 	class MCONDNIAFFN : public ::System::Object
 	{

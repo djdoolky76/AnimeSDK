@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByDrinkMakerCheersStoryDrinkHasMade; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLACOEDCBPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFDBD0)
-#define OLACOEDCBPO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEFDC00)
+#define OLACOEDCBPO_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F8EE0)
+#define OLACOEDCBPO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC7F8F10)
 
-inline static constexpr unsigned int OLACOEDCBPO_TypeDefinitionIndex = 57979;
+inline static constexpr unsigned int OLACOEDCBPO_TypeDefinitionIndex = 59217;
 
 	class OLACOEDCBPO
 	{

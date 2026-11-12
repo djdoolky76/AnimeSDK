@@ -4,18 +4,18 @@
 class KPDMLEELICE;
 namespace System { class Object; }
 
-#define KPDMLEELICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8BB720)
-#define KPDMLEELICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BB750)
-#define KPDMLEELICE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8BB760)
+#define KPDMLEELICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBF8130)
+#define KPDMLEELICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF8160)
+#define KPDMLEELICE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FBF8170)
 
-inline static constexpr unsigned int KPDMLEELICE___c_TypeDefinitionIndex = 33285;
+inline static constexpr unsigned int KPDMLEELICE___c_TypeDefinitionIndex = 34200;
 
 	class KPDMLEELICE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2CB30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x200E0);
 		}
 
 		static ::System::Void _cctor()

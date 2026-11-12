@@ -7,19 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveNodeTypeDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77D8E0)
-#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77D710)
+#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E991010)
+#define RPG_GAMECORE_IDLELIVENODETYPEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E990E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveNodeTypeDataRow_TypeDefinitionIndex = 11701;
+	inline static constexpr unsigned int IdleLiveNodeTypeDataRow_TypeDefinitionIndex = 11758;
 
 	class IdleLiveNodeTypeDataRow : public ::System::Object
 	{
 	public:
 		::System::String* NodeIcon; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::RPG::GameCore::IdleLiveNodeType Type; // 0x28
+		::RPG::GameCore::IdleLiveNodeType Type; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Name; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVENODETYPEDATAROW_CTOR_OFFSET))(this);

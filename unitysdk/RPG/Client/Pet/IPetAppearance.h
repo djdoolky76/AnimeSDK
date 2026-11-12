@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int IPetAppearance_TypeDefinitionIndex = 75645;
+	inline static constexpr unsigned int IPetAppearance_TypeDefinitionIndex = 77972;
 
 	class IPetAppearance
 	{

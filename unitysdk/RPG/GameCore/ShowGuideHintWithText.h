@@ -13,13 +13,13 @@ namespace RPG::GameCore { class TutorialGuideShowConfig; }
 namespace RPG::GameCore { class TutorialGuideUIContextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADE940)
-#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DADE960)
-#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DADE900)
+#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF0850)
+#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECF0870)
+#define RPG_GAMECORE_SHOWGUIDEHINTWITHTEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECF0810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideHintWithText_TypeDefinitionIndex = 24328;
+	inline static constexpr unsigned int ShowGuideHintWithText_TypeDefinitionIndex = 24787;
 
 	class ShowGuideHintWithText : public ::RPG::GameCore::TaskConfig
 	{

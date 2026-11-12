@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_CHARACTERHEADPULLBACKIK_CTOR_OFFSET UNITYSDK_OFFSET(0xC9CFE50)
-#define RPG_CLIENT_CHARACTERHEADPULLBACKIK_PROCESSIK_OFFSET UNITYSDK_OFFSET(0xC9CF7F0)
+#define RPG_CLIENT_CHARACTERHEADPULLBACKIK_CTOR_OFFSET UNITYSDK_OFFSET(0xD3353D0)
+#define RPG_CLIENT_CHARACTERHEADPULLBACKIK_PROCESSIK_OFFSET UNITYSDK_OFFSET(0xD334D70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterHeadPullBackIK_TypeDefinitionIndex = 68382;
+	inline static constexpr unsigned int CharacterHeadPullBackIK_TypeDefinitionIndex = 70329;
 
 	class CharacterHeadPullBackIK : public ::RPG::Client::FABRIK
 	{

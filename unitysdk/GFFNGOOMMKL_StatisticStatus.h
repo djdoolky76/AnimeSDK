@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GFFNGOOMMKL_StatisticStatus_TypeDefinitionIndex = 76594;
+inline static constexpr unsigned int GFFNGOOMMKL_StatisticStatus_TypeDefinitionIndex = 78925;
 
 	enum class GFFNGOOMMKL_StatisticStatus : ::System::Int32
 	{

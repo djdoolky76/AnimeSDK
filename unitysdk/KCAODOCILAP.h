@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuelTurnBasedStageType.h"
 #include "unitysdk/System/Object.h"
 
-#define KCAODOCILAP_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1CBB0E80)
-#define KCAODOCILAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E90)
+#define KCAODOCILAP_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1DD825A0)
+#define KCAODOCILAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD825B0)
 
-inline static constexpr unsigned int KCAODOCILAP_TypeDefinitionIndex = 41969;
+inline static constexpr unsigned int KCAODOCILAP_TypeDefinitionIndex = 42944;
 
 	class KCAODOCILAP : public ::System::Object
 	{

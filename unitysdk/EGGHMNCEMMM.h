@@ -5,17 +5,17 @@ class MDDPDPLMNFN;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace UnityEngine::UI { class Text; }
 
-#define EGGHMNCEMMM_CTOR_OFFSET UNITYSDK_OFFSET(0x145185E0)
-#define EGGHMNCEMMM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x14518540)
-#define EGGHMNCEMMM__ONBIND_OFFSET UNITYSDK_OFFSET(0x145184A0)
+#define EGGHMNCEMMM_CTOR_OFFSET UNITYSDK_OFFSET(0x152EEE20)
+#define EGGHMNCEMMM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x152EED80)
+#define EGGHMNCEMMM__ONBIND_OFFSET UNITYSDK_OFFSET(0x152EEC80)
 
-inline static constexpr unsigned int EGGHMNCEMMM_TypeDefinitionIndex = 72318;
+inline static constexpr unsigned int EGGHMNCEMMM_TypeDefinitionIndex = 74395;
 
 	class EGGHMNCEMMM : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Text* IAANMCFCPIH; // 0x60
-		::MDDPDPLMNFN* DOIGHMPHHIF; // 0x68
+		::MDDPDPLMNFN* DOIGHMPHHIF; // 0x60
+		::UnityEngine::UI::Text* IAANMCFCPIH; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EGGHMNCEMMM_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class KHOOCKLJEDE;
 namespace System { class Object; }
 
-#define KHOOCKLJEDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E84F590)
-#define KHOOCKLJEDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84F5D0)
-#define KHOOCKLJEDE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E84F5E0)
+#define KHOOCKLJEDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB68F00)
+#define KHOOCKLJEDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB68F40)
+#define KHOOCKLJEDE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FB68F50)
 
-inline static constexpr unsigned int KHOOCKLJEDE___c_TypeDefinitionIndex = 26339;
+inline static constexpr unsigned int KHOOCKLJEDE___c_TypeDefinitionIndex = 26866;
 
 	class KHOOCKLJEDE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17EB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11F90);
 		}
 
 		static ::System::Void _cctor()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class APOCENIBKNN;
 
-inline static constexpr unsigned int APOCENIBKNN_CCFPDDFNGML_TypeDefinitionIndex = 50000;
+inline static constexpr unsigned int APOCENIBKNN_CCFPDDFNGML_TypeDefinitionIndex = 51048;
 
 	struct alignas(8) APOCENIBKNN_CCFPDDFNGML
 	{

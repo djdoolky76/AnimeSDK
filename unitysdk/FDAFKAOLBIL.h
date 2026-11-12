@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AHEFENOJHLH;
 
-#define FDAFKAOLBIL_CTOR_OFFSET UNITYSDK_OFFSET(0x156D0F60)
-#define FDAFKAOLBIL_LOPHDMAFCEF_OFFSET UNITYSDK_OFFSET(0x156D0D30)
+#define FDAFKAOLBIL_CTOR_OFFSET UNITYSDK_OFFSET(0x165EA6D0)
+#define FDAFKAOLBIL_LOPHDMAFCEF_OFFSET UNITYSDK_OFFSET(0x165EA4A0)
 
-inline static constexpr unsigned int FDAFKAOLBIL_TypeDefinitionIndex = 62681;
+inline static constexpr unsigned int FDAFKAOLBIL_TypeDefinitionIndex = 64115;
 
 	class FDAFKAOLBIL : public ::System::Object
 	{

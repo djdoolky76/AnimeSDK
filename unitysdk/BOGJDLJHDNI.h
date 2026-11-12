@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define BOGJDLJHDNI_CTOR_OFFSET UNITYSDK_OFFSET(0xC18FBE0)
-#define BOGJDLJHDNI_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xC18FA20)
+#define BOGJDLJHDNI_CTOR_OFFSET UNITYSDK_OFFSET(0xC76FC30)
+#define BOGJDLJHDNI_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xC76FA90)
 
-inline static constexpr unsigned int BOGJDLJHDNI_TypeDefinitionIndex = 73343;
+inline static constexpr unsigned int BOGJDLJHDNI_TypeDefinitionIndex = 75460;
 
 	class BOGJDLJHDNI : public ::JMDAIKOHCAE
 	{

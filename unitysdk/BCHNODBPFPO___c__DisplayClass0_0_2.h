@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int BCHNODBPFPO___c__DisplayClass0_0_2_TypeDefinitionIndex = 49747;
+inline static constexpr unsigned int BCHNODBPFPO___c__DisplayClass0_0_2_TypeDefinitionIndex = 50795;
 
 	template <typename T1, typename T2>
 	class BCHNODBPFPO___c__DisplayClass0_0_2 : public ::System::Object

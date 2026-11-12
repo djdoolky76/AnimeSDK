@@ -5,21 +5,21 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define DHBOGGBEMFF_PBCMKBIEJOP_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB9160)
-#define DHBOGGBEMFF_PBCMKBIEJOP_EQUALS_OFFSET UNITYSDK_OFFSET(0xEBC7800)
-#define DHBOGGBEMFF_PBCMKBIEJOP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xEBC78F0)
-#define DHBOGGBEMFF_PBCMKBIEJOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEBC7A30)
+#define DHBOGGBEMFF_PBCMKBIEJOP_CTOR_OFFSET UNITYSDK_OFFSET(0xF4378F0)
+#define DHBOGGBEMFF_PBCMKBIEJOP_EQUALS_OFFSET UNITYSDK_OFFSET(0xF445EF0)
+#define DHBOGGBEMFF_PBCMKBIEJOP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF445FE0)
+#define DHBOGGBEMFF_PBCMKBIEJOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF446120)
 
-inline static constexpr unsigned int DHBOGGBEMFF_PBCMKBIEJOP_TypeDefinitionIndex = 49125;
+inline static constexpr unsigned int DHBOGGBEMFF_PBCMKBIEJOP_TypeDefinitionIndex = 50201;
 
 	class DHBOGGBEMFF_PBCMKBIEJOP : public ::System::Object
 	{
 	public:
 		::System::String* ACDAFHAFPHI; // 0x10
 		::System::String* ELFIBPKLELI; // 0x18
-		::System::Int32 JHBAAEHHPDE; // 0x20
-		::RPG::CustomRP::CustomLightQualityFilter JFDEKLAJGNH; // 0x24
-		::System::Int32 KBKCIKHHFDL; // 0x28
+		::RPG::CustomRP::CustomLightQualityFilter JFDEKLAJGNH; // 0x20
+		::System::Int32 KBKCIKHHFDL; // 0x24
+		::System::Int32 JHBAAEHHPDE; // 0x28
 		::System::Void _ctor(::System::Int32 a1, ::System::String* a2, ::System::String* a3, ::RPG::CustomRP::CustomLightQualityFilter a4, ::System::Int32 a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::String*, ::RPG::CustomRP::CustomLightQualityFilter, ::System::Int32))((::PBYTE)hIl2Cpp + DHBOGGBEMFF_PBCMKBIEJOP_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

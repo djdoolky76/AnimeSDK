@@ -4,9 +4,9 @@
 #include "unitysdk/NHHMEPILLHL.h"
 namespace RPG::Client { class RogueKeywordInfo; }
 
-#define PLDEEFFDJFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC2ED490)
+#define PLDEEFFDJFD_CTOR_OFFSET UNITYSDK_OFFSET(0xCC1C230)
 
-inline static constexpr unsigned int PLDEEFFDJFD_TypeDefinitionIndex = 67088;
+inline static constexpr unsigned int PLDEEFFDJFD_TypeDefinitionIndex = 69032;
 
 	class PLDEEFFDJFD : public ::EBIMENNAEIE
 	{

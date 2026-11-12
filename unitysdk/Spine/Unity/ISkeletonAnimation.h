@@ -3,7 +3,7 @@
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int ISkeletonAnimation_TypeDefinitionIndex = 45072;
+	inline static constexpr unsigned int ISkeletonAnimation_TypeDefinitionIndex = 46147;
 
 	class ISkeletonAnimation
 	{

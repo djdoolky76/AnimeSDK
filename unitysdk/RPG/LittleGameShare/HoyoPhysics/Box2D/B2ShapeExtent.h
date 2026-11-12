@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ShapeExtent_TypeDefinitionIndex = 36765;
+	inline static constexpr unsigned int B2ShapeExtent_TypeDefinitionIndex = 37693;
 
 	struct alignas(4) B2ShapeExtent
 	{

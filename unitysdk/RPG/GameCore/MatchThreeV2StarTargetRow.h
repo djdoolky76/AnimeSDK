@@ -6,21 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeV2StarTargetRow; }
 
-#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85D980)
-#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D85D750)
+#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA78250)
+#define RPG_GAMECORE_MATCHTHREEV2STARTARGETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA78020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2StarTargetRow_TypeDefinitionIndex = 11948;
+	inline static constexpr unsigned int MatchThreeV2StarTargetRow_TypeDefinitionIndex = 12005;
 
 	class MatchThreeV2StarTargetRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* FinishParamList; // 0x10
-		::System::UInt32 StarTargetID; // 0x18
-		::RPG::GameCore::MatchThreeV2StarTargetFinishType FinishType; // 0x1C
-		::RPG::Client::TextID Desc; // 0x20
-		::System::UInt32 Reward; // 0x30
+		::RPG::Client::TextID Desc; // 0x18
+		::RPG::GameCore::MatchThreeV2StarTargetFinishType FinishType; // 0x28
+		::System::UInt32 Reward; // 0x2C
+		::System::UInt32 StarTargetID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MATCHTHREEV2STARTARGETROW_CTOR_OFFSET))(this);

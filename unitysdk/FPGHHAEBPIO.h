@@ -13,74 +13,74 @@ namespace UnityEngine { class Coroutine; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 
-#define FPGHHAEBPIO_BFJJOJKKLGG_OFFSET UNITYSDK_OFFSET(0x15919060)
-#define FPGHHAEBPIO_CCTOR_OFFSET UNITYSDK_OFFSET(0x159192B0)
-#define FPGHHAEBPIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15918480)
-#define FPGHHAEBPIO_EGKNKHEANAN_OFFSET UNITYSDK_OFFSET(0x15918A00)
-#define FPGHHAEBPIO_EMNJPFLFCEH_OFFSET UNITYSDK_OFFSET(0x159185C0)
-#define FPGHHAEBPIO_ENNAMLJFOLO_OFFSET UNITYSDK_OFFSET(0x15919110)
-#define FPGHHAEBPIO_HOJKDDMIMOK_OFFSET UNITYSDK_OFFSET(0x159191A0)
-#define FPGHHAEBPIO_IGDIEBODAAH_OFFSET UNITYSDK_OFFSET(0x15918960)
-#define FPGHHAEBPIO_IOJDCKFILDB_OFFSET UNITYSDK_OFFSET(0x15918CC0)
-#define FPGHHAEBPIO_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0x15918E40)
-#define FPGHHAEBPIO_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0x15918910)
-#define FPGHHAEBPIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15918490)
-#define FPGHHAEBPIO_OGDLIONGCMP_OFFSET UNITYSDK_OFFSET(0x15918BB0)
-#define FPGHHAEBPIO_PNGKPEOKOKM_OFFSET UNITYSDK_OFFSET(0x15918B30)
+#define FPGHHAEBPIO_BFJJOJKKLGG_OFFSET UNITYSDK_OFFSET(0x1684A780)
+#define FPGHHAEBPIO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1684AA10)
+#define FPGHHAEBPIO_CTOR_OFFSET UNITYSDK_OFFSET(0x16849BB0)
+#define FPGHHAEBPIO_EGKNKHEANAN_OFFSET UNITYSDK_OFFSET(0x1684A130)
+#define FPGHHAEBPIO_EMNJPFLFCEH_OFFSET UNITYSDK_OFFSET(0x16849CF0)
+#define FPGHHAEBPIO_ENNAMLJFOLO_OFFSET UNITYSDK_OFFSET(0x1684A830)
+#define FPGHHAEBPIO_HOJKDDMIMOK_OFFSET UNITYSDK_OFFSET(0x1684A900)
+#define FPGHHAEBPIO_IGDIEBODAAH_OFFSET UNITYSDK_OFFSET(0x1684A090)
+#define FPGHHAEBPIO_IOJDCKFILDB_OFFSET UNITYSDK_OFFSET(0x1684A3E0)
+#define FPGHHAEBPIO_KGJAMKFPOAB_OFFSET UNITYSDK_OFFSET(0x1684A560)
+#define FPGHHAEBPIO_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0x1684A040)
+#define FPGHHAEBPIO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16849BC0)
+#define FPGHHAEBPIO_OGDLIONGCMP_OFFSET UNITYSDK_OFFSET(0x1684A2E0)
+#define FPGHHAEBPIO_PNGKPEOKOKM_OFFSET UNITYSDK_OFFSET(0x1684A260)
 
-inline static constexpr unsigned int FPGHHAEBPIO_TypeDefinitionIndex = 73785;
+inline static constexpr unsigned int FPGHHAEBPIO_TypeDefinitionIndex = 75911;
 
 	class FPGHHAEBPIO : public ::HPKACEPPPCA
 	{
 	public:
-		::DIFMKJMFKOK* IHGJDKBPBHC; // 0x80
+		::RPG::GameCore::CharacterModelComponent* EHFENKGDGJD; // 0x80
 		::RPG::GameCore::NPCComponent* OJAIBDDGDME; // 0x88
-		::UnityEngine::Coroutine* JGGEBBFNILI; // 0x90
-		::RPG::GameCore::CharacterModelComponent* EHFENKGDGJD; // 0x98
+		::DIFMKJMFKOK* IHGJDKBPBHC; // 0x90
+		::UnityEngine::Coroutine* JGGEBBFNILI; // 0x98
 		::System::Int32 HKOPHLPDGBA; // 0xA0
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_JHLONDOPLHJ()
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_FGIMIFBCICH()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CC70);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554B0);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_CIMKHFGKHPA()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CC78);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_LDPIEDCFCDN()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CC80);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_JNMHLKMAJEO()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CC88);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_NPMIAKEAPPP()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CC90);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_NOONLPEIKBC()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CC98);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554B8);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_AHADPHDLBJK()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CCA0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554C0);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_JNMHLKMAJEO()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554C8);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_NOONLPEIKBC()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554D0);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_NPMIAKEAPPP()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554D8);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_LDPIEDCFCDN()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554E0);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_IEOLEAGHOHE()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CCA8);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554E8);
 		}
 
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_FGIMIFBCICH()
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_JHLONDOPLHJ()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x5CCB0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "FPGHHAEBPIO")->GetStaticField(0x554F0);
 		}
 
 		::System::Void _ctor()

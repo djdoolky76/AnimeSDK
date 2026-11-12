@@ -5,24 +5,24 @@
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath_SectionInfo; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x1C5144B0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C51A440)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5144A0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1C51A4B0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CALCPOSITIONBYCLOSESTPOINT_OFFSET UNITYSDK_OFFSET(0x1D696910)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D69C890)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D696900)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVECALCULATORCLOSESTPOINT_MAXDISTANCE_OFFSET UNITYSDK_OFFSET(0x1D69C900)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 36005;
+	inline static constexpr unsigned int BGCurveCalculatorClosestPoint_TypeDefinitionIndex = 36933;
 
 	class BGCurveCalculatorClosestPoint : public ::System::Object
 	{
 	public:
-		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x10
+		::Il2CppArray<::System::Single>* minSectionDistances; // 0x10
 		::Il2CppArray<::System::Boolean>* excludedSections; // 0x18
-		::Il2CppArray<::System::Single>* minSectionDistances; // 0x20
+		::BansheeGz::BGSpline::Curve::BGCurveBaseMath* math; // 0x20
 		static ::Il2CppArray<::System::Int32>** StaticGet_TransitionsForPartitions()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "BGCurveCalculatorClosestPoint")->GetStaticField(0x546F0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "BGCurveCalculatorClosestPoint")->GetStaticField(0x66060);
 		}
 
 		static ::System::Void _cctor()

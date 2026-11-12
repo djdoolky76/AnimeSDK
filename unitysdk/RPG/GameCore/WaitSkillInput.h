@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitSkillInput; }
 
-#define RPG_GAMECORE_WAITSKILLINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA1C40)
-#define RPG_GAMECORE_WAITSKILLINPUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA1C50)
-#define RPG_GAMECORE_WAITSKILLINPUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA1C10)
+#define RPG_GAMECORE_WAITSKILLINPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB46E0)
+#define RPG_GAMECORE_WAITSKILLINPUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB46F0)
+#define RPG_GAMECORE_WAITSKILLINPUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB46B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitSkillInput_TypeDefinitionIndex = 20198;
+	inline static constexpr unsigned int WaitSkillInput_TypeDefinitionIndex = 20532;
 
 	class WaitSkillInput : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_NETWORKMANAGER_HPGJJGKINNK_CTOR_OFFSET UNITYSDK_OFFSET(0xED020)
+#define RPG_CLIENT_NETWORKMANAGER_HPGJJGKINNK_CTOR_OFFSET UNITYSDK_OFFSET(0xF92A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager_HPGJJGKINNK_TypeDefinitionIndex = 69369;
+	inline static constexpr unsigned int NetworkManager_HPGJJGKINNK_TypeDefinitionIndex = 71323;
 
 	struct alignas(4) NetworkManager_HPGJJGKINNK
 	{

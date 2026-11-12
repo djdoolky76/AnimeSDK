@@ -5,9 +5,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define SKIRTIK_HAIRBONEDATACLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE972CF0)
+#define SKIRTIK_HAIRBONEDATACLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xF4909E0)
 
-inline static constexpr unsigned int SkirtIK_HairBoneDataClass_TypeDefinitionIndex = 47256;
+inline static constexpr unsigned int SkirtIK_HairBoneDataClass_TypeDefinitionIndex = 48284;
 
 	class SkirtIK_HairBoneDataClass : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 class BOJOBHMEEIH;
 class LCDEEKNHPBG;
 
-#define KOINLDBGPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
+#define KOINLDBGPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
 
-inline static constexpr unsigned int KOINLDBGPJB_TypeDefinitionIndex = 79153;
+inline static constexpr unsigned int KOINLDBGPJB_TypeDefinitionIndex = 81929;
 
 	struct alignas(8) KOINLDBGPJB
 	{

@@ -4,18 +4,18 @@
 class PIGBCIDLGCA;
 namespace System { class Object; }
 
-#define PIGBCIDLGCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF45AF0)
-#define PIGBCIDLGCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF45B30)
-#define PIGBCIDLGCA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF45B40)
+#define PIGBCIDLGCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F216850)
+#define PIGBCIDLGCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F216890)
+#define PIGBCIDLGCA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F2168A0)
 
-inline static constexpr unsigned int PIGBCIDLGCA___c_TypeDefinitionIndex = 25981;
+inline static constexpr unsigned int PIGBCIDLGCA___c_TypeDefinitionIndex = 26478;
 
 	class PIGBCIDLGCA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40FA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37E80);
 		}
 
 		static ::System::Void _cctor()

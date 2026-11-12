@@ -4,8 +4,8 @@
 namespace System { class Type; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEBBE20)
-#define SYSTEM_XML_SCHEMA_DATATYPE_UNION_HASATOMICMEMBERS_OFFSET UNITYSDK_OFFSET(0x1EEB2510)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNION_CCTOR_OFFSET UNITYSDK_OFFSET(0x2016B590)
+#define SYSTEM_XML_SCHEMA_DATATYPE_UNION_HASATOMICMEMBERS_OFFSET UNITYSDK_OFFSET(0x20161C80)
 
 namespace System::Xml::Schema
 {
@@ -17,12 +17,12 @@ namespace System::Xml::Schema
 		::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>* types; // 0x38
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_union")->GetStaticField(0x22A10);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_union")->GetStaticField(0x2D1F0);
 		}
 
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_union")->GetStaticField(0x22A18);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_union")->GetStaticField(0x2D1F8);
 		}
 
 		static ::System::Void _cctor()

@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByIsInsertAction___O_TypeDefinitionIndex = 22565;
+	inline static constexpr unsigned int ByIsInsertAction___O_TypeDefinitionIndex = 22980;
 
 	class ByIsInsertAction___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0xF840);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x56B60);
 		}
 
 	};

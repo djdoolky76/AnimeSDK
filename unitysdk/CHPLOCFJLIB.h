@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class StopEffectFollowPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CHPLOCFJLIB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF638D0)
-#define CHPLOCFJLIB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF638E0)
-#define CHPLOCFJLIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF63920)
-#define CHPLOCFJLIB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF63BA0)
-#define CHPLOCFJLIB_TICK_OFFSET UNITYSDK_OFFSET(0xCF63BF0)
+#define CHPLOCFJLIB_CTOR_OFFSET UNITYSDK_OFFSET(0xD8CC5A0)
+#define CHPLOCFJLIB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD8CC5B0)
+#define CHPLOCFJLIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD8CC5F0)
+#define CHPLOCFJLIB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD8CC860)
+#define CHPLOCFJLIB_TICK_OFFSET UNITYSDK_OFFSET(0xD8CC8B0)
 
-inline static constexpr unsigned int CHPLOCFJLIB_TypeDefinitionIndex = 55666;
+inline static constexpr unsigned int CHPLOCFJLIB_TypeDefinitionIndex = 56864;
 
 	class CHPLOCFJLIB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::StopEffectFollowPoint* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::StopEffectFollowPoint* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopEffectFollowPoint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopEffectFollowPoint*))((::PBYTE)hIl2Cpp + CHPLOCFJLIB_CTOR_OFFSET))(this, a1, a2);

@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournDivisionEffectRow; }
 
-#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA385C0)
-#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA383E0)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4A840)
+#define RPG_GAMECORE_ROGUETOURNDIVISIONEFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC4A660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournDivisionEffectRow_TypeDefinitionIndex = 14950;
+	inline static constexpr unsigned int RogueTournDivisionEffectRow_TypeDefinitionIndex = 15106;
 
 	class RogueTournDivisionEffectRow : public ::System::Object
 	{

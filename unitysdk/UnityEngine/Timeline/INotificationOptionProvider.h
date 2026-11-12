@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int INotificationOptionProvider_TypeDefinitionIndex = 38827;
+	inline static constexpr unsigned int INotificationOptionProvider_TypeDefinitionIndex = 39756;
 
 	class INotificationOptionProvider
 	{

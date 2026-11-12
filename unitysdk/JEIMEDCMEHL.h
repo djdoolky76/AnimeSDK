@@ -4,10 +4,10 @@
 class EOKKHLOIBIM;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define JEIMEDCMEHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1662CE10)
-#define JEIMEDCMEHL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x1662CBC0)
+#define JEIMEDCMEHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9727E0)
+#define JEIMEDCMEHL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB972590)
 
-inline static constexpr unsigned int JEIMEDCMEHL_TypeDefinitionIndex = 76278;
+inline static constexpr unsigned int JEIMEDCMEHL_TypeDefinitionIndex = 78609;
 
 	class JEIMEDCMEHL : public ::MLKDDLHNNHH
 	{

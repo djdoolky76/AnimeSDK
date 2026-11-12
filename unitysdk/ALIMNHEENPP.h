@@ -3,6 +3,7 @@
 #include "unitysdk/System/Object.h"
 class ALIMNHEENPP;
 class BCCONKJHDJL;
+class BDNAPDDNGFL;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
@@ -13,48 +14,56 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ALIMNHEENPP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E50E380)
-#define ALIMNHEENPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E50E820)
-#define ALIMNHEENPP_CLONE_OFFSET UNITYSDK_OFFSET(0x1E50DE30)
-#define ALIMNHEENPP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E50DD70)
-#define ALIMNHEENPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E50DD20)
-#define ALIMNHEENPP_ECLJEIOLMND_OFFSET UNITYSDK_OFFSET(0x1E50DE60)
-#define ALIMNHEENPP_EGLHILJHOIK_OFFSET UNITYSDK_OFFSET(0x1E50DE80)
-#define ALIMNHEENPP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E50E010)
-#define ALIMNHEENPP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E50DEB0)
-#define ALIMNHEENPP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E50E140)
-#define ALIMNHEENPP_IJBGHKABIFJ_OFFSET UNITYSDK_OFFSET(0x1E50DE90)
-#define ALIMNHEENPP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E50DCE0)
-#define ALIMNHEENPP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E50E5C0)
-#define ALIMNHEENPP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E50E510)
-#define ALIMNHEENPP_NJDANNIEFBP_OFFSET UNITYSDK_OFFSET(0x1E50DEA0)
-#define ALIMNHEENPP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E50DD10)
-#define ALIMNHEENPP_PDJIOGFEPLI_OFFSET UNITYSDK_OFFSET(0x1E50DE70)
-#define ALIMNHEENPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50E1B0)
-#define ALIMNHEENPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50E210)
+#define ALIMNHEENPP_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F7C8CE0)
+#define ALIMNHEENPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7C9120)
+#define ALIMNHEENPP_CLONE_OFFSET UNITYSDK_OFFSET(0x1F7C8810)
+#define ALIMNHEENPP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F7C8700)
+#define ALIMNHEENPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7C8690)
+#define ALIMNHEENPP_ECLJEIOLMND_OFFSET UNITYSDK_OFFSET(0x1F7C8840)
+#define ALIMNHEENPP_EGLHILJHOIK_OFFSET UNITYSDK_OFFSET(0x1F7C8860)
+#define ALIMNHEENPP_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F7C88D0)
+#define ALIMNHEENPP_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F7C88A0)
+#define ALIMNHEENPP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F7C8A30)
+#define ALIMNHEENPP_IJBGHKABIFJ_OFFSET UNITYSDK_OFFSET(0x1F7C8870)
+#define ALIMNHEENPP_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F7C8650)
+#define ALIMNHEENPP_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F7C8FD0)
+#define ALIMNHEENPP_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F7C8EC0)
+#define ALIMNHEENPP_NCBHFPNDIAE_OFFSET UNITYSDK_OFFSET(0x1F7C8890)
+#define ALIMNHEENPP_NJDANNIEFBP_OFFSET UNITYSDK_OFFSET(0x1F7C8880)
+#define ALIMNHEENPP_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F7C8680)
+#define ALIMNHEENPP_PDJIOGFEPLI_OFFSET UNITYSDK_OFFSET(0x1F7C8850)
+#define ALIMNHEENPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F7C8AC0)
+#define ALIMNHEENPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F7C8B20)
 
-inline static constexpr unsigned int ALIMNHEENPP_TypeDefinitionIndex = 25402;
+inline static constexpr unsigned int ALIMNHEENPP_TypeDefinitionIndex = 25881;
 
 	class ALIMNHEENPP : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::BCCONKJHDJL*>* ICDEKMHKOPI; // 0x10
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
-		::System::UInt32 LPPKENBDKMI; // 0x20
-		::System::UInt32 NNLJKKAEICI; // 0x24
-		static ::Google::Protobuf::FieldCodec_1<::BCCONKJHDJL*>** StaticGet_DADAKEPPNJP()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::BCCONKJHDJL*>**)UnitySDK::FromName("", "ALIMNHEENPP")->GetStaticField(0x39000);
-		}
-
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::BDNAPDDNGFL*>* HGKBCIJHLGH; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::BCCONKJHDJL*>* ICDEKMHKOPI; // 0x20
+		::System::UInt32 LPPKENBDKMI; // 0x28
+		::System::UInt32 NNLJKKAEICI; // 0x2C
 		static ::Google::Protobuf::MessageParser_1<::ALIMNHEENPP*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::ALIMNHEENPP*>**)UnitySDK::FromName("", "ALIMNHEENPP")->GetStaticField(0x39008);
+			return (::Google::Protobuf::MessageParser_1<::ALIMNHEENPP*>**)UnitySDK::FromName("", "ALIMNHEENPP")->GetStaticField(0x3E120);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::BCCONKJHDJL*>** StaticGet_DADAKEPPNJP()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::BCCONKJHDJL*>**)UnitySDK::FromName("", "ALIMNHEENPP")->GetStaticField(0x3E128);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::BDNAPDDNGFL*>** StaticGet_NDOPJHIMJBA()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::BDNAPDDNGFL*>**)UnitySDK::FromName("", "ALIMNHEENPP")->GetStaticField(0x3E130);
 		}
 
 		// static const ::System::Object BFMLFALLFGN; // 0x0
 		// static const ::System::Object ALMJNAAHNGD; // 0x0
 		// static const ::System::Object JNJOCAPOIIE; // 0x0
+		// static const ::System::Object NJONOJNLABP; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ALIMNHEENPP_CTOR_OFFSET))(this);
@@ -108,6 +117,11 @@ inline static constexpr unsigned int ALIMNHEENPP_TypeDefinitionIndex = 25402;
 		::System::Void NJDANNIEFBP(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ALIMNHEENPP_NJDANNIEFBP_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::BDNAPDDNGFL*>* NCBHFPNDIAE()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::BDNAPDDNGFL*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ALIMNHEENPP_NCBHFPNDIAE_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

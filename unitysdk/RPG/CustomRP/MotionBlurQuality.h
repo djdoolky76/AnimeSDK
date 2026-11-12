@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MotionBlurQuality_TypeDefinitionIndex = 37829;
+	inline static constexpr unsigned int MotionBlurQuality_TypeDefinitionIndex = 38758;
 
 	enum class MotionBlurQuality : ::System::Int32
 	{

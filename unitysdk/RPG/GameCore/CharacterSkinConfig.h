@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterSkinConfig; }
 namespace RPG::GameCore { class CharacterSkinResMapItem; }
 
-#define RPG_GAMECORE_CHARACTERSKINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D579270)
-#define RPG_GAMECORE_CHARACTERSKINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5791B0)
+#define RPG_GAMECORE_CHARACTERSKINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78A060)
+#define RPG_GAMECORE_CHARACTERSKINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E789FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterSkinConfig_TypeDefinitionIndex = 16541;
+	inline static constexpr unsigned int CharacterSkinConfig_TypeDefinitionIndex = 16707;
 
 	class CharacterSkinConfig : public ::RPG::GameCore::JsonConfig
 	{

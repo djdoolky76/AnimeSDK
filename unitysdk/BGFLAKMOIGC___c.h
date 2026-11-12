@@ -4,18 +4,18 @@
 class BGFLAKMOIGC;
 namespace System { class Object; }
 
-#define BGFLAKMOIGC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA76410)
-#define BGFLAKMOIGC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA76450)
-#define BGFLAKMOIGC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA76460)
+#define BGFLAKMOIGC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF5D90)
+#define BGFLAKMOIGC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF5DD0)
+#define BGFLAKMOIGC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EFF5DE0)
 
-inline static constexpr unsigned int BGFLAKMOIGC___c_TypeDefinitionIndex = 33917;
+inline static constexpr unsigned int BGFLAKMOIGC___c_TypeDefinitionIndex = 34832;
 
 	class BGFLAKMOIGC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42C80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45360);
 		}
 
 		static ::System::Void _cctor()

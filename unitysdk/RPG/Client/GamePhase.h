@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/BasePhase.h"
 class KGLLENLBNFD;
 
-#define RPG_CLIENT_GAMEPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A46F0)
-#define RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0xD0A46B0)
+#define RPG_CLIENT_GAMEPHASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDA2D460)
+#define RPG_CLIENT_GAMEPHASE_GET_GAMECONTEXT_OFFSET UNITYSDK_OFFSET(0xDA2D420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 61122;
+	inline static constexpr unsigned int GamePhase_TypeDefinitionIndex = 62507;
 
 	class GamePhase : public ::RPG::Client::BasePhase
 	{

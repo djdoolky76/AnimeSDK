@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareGroupProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGBJGFNECOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA1D00)
-#define NGBJGFNECOI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA1D30)
+#define NGBJGFNECOI_CTOR_OFFSET UNITYSDK_OFFSET(0xC47D630)
+#define NGBJGFNECOI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC47D660)
 
-inline static constexpr unsigned int NGBJGFNECOI_TypeDefinitionIndex = 52567;
+inline static constexpr unsigned int NGBJGFNECOI_TypeDefinitionIndex = 53673;
 
 	class NGBJGFNECOI
 	{

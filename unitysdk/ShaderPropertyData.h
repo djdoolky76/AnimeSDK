@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Rendering/ShaderPropertyType.h"
 namespace System { class String; }
 
-#define SHADERPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE969800)
+#define SHADERPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF487FE0)
 
-inline static constexpr unsigned int ShaderPropertyData_TypeDefinitionIndex = 47549;
+inline static constexpr unsigned int ShaderPropertyData_TypeDefinitionIndex = 48578;
 
 	class ShaderPropertyData : public ::System::Object
 	{

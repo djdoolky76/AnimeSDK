@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetReportCustomValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBBAACFOEMC_CTOR_OFFSET UNITYSDK_OFFSET(0x156942E0)
-#define FBBAACFOEMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15694310)
+#define FBBAACFOEMC_CTOR_OFFSET UNITYSDK_OFFSET(0x165A8650)
+#define FBBAACFOEMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165A8680)
 
-inline static constexpr unsigned int FBBAACFOEMC_TypeDefinitionIndex = 55559;
+inline static constexpr unsigned int FBBAACFOEMC_TypeDefinitionIndex = 56753;
 
 	class FBBAACFOEMC
 	{

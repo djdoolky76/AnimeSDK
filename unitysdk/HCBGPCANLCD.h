@@ -6,23 +6,23 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class ConditionLoopExecuteTaskList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCBGPCANLCD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C169E0)
-#define HCBGPCANLCD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C16AF0)
-#define HCBGPCANLCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C16BD0)
-#define HCBGPCANLCD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C16E30)
-#define HCBGPCANLCD_TICK_OFFSET UNITYSDK_OFFSET(0x15C16E80)
+#define HCBGPCANLCD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B58A20)
+#define HCBGPCANLCD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16B58B30)
+#define HCBGPCANLCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B58C10)
+#define HCBGPCANLCD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16B58E10)
+#define HCBGPCANLCD_TICK_OFFSET UNITYSDK_OFFSET(0x16B58E60)
 
-inline static constexpr unsigned int HCBGPCANLCD_TypeDefinitionIndex = 54973;
+inline static constexpr unsigned int HCBGPCANLCD_TypeDefinitionIndex = 56147;
 
 	class HCBGPCANLCD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ConditionLoopExecuteTaskList* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::KFELGAIGHAP* NDOFCGDDHHD; // 0x28
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x30
-		::System::Int32 DLANCNECDDA; // 0x38
-		::System::Int32 CALNAPHILLA; // 0x3C
+		::KFELGAIGHAP* NDOFCGDDHHD; // 0x18
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x20
+		::RPG::GameCore::ConditionLoopExecuteTaskList* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::System::Int32 CALNAPHILLA; // 0x38
+		::System::Int32 DLANCNECDDA; // 0x3C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ConditionLoopExecuteTaskList* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ConditionLoopExecuteTaskList*))((::PBYTE)hIl2Cpp + HCBGPCANLCD_CTOR_OFFSET))(this, a1, a2);

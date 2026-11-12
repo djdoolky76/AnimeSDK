@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define BOGLEMMMDAC_KKMHKFIDOPE_CTOR_OFFSET UNITYSDK_OFFSET(0xC191210)
+#define BOGLEMMMDAC_KKMHKFIDOPE_CTOR_OFFSET UNITYSDK_OFFSET(0xC771260)
 
-inline static constexpr unsigned int BOGLEMMMDAC_KKMHKFIDOPE_TypeDefinitionIndex = 69888;
+inline static constexpr unsigned int BOGLEMMMDAC_KKMHKFIDOPE_TypeDefinitionIndex = 71847;
 
 	class BOGLEMMMDAC_KKMHKFIDOPE : public ::System::Object
 	{

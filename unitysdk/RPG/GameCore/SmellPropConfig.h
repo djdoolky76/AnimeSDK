@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SmellPropConfig; }
 
-#define RPG_GAMECORE_SMELLPROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF10B0)
-#define RPG_GAMECORE_SMELLPROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF0F00)
+#define RPG_GAMECORE_SMELLPROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED030B0)
+#define RPG_GAMECORE_SMELLPROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED02F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SmellPropConfig_TypeDefinitionIndex = 20512;
+	inline static constexpr unsigned int SmellPropConfig_TypeDefinitionIndex = 20848;
 
 	class SmellPropConfig : public ::RPG::GameCore::JsonConfig
 	{

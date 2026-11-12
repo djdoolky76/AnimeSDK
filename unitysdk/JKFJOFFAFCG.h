@@ -5,10 +5,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class EDKEDOENAKO;
 
-#define JKFJOFFAFCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB21C080)
-#define JKFJOFFAFCG_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xB21BE20)
+#define JKFJOFFAFCG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA43DB0)
+#define JKFJOFFAFCG_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xBA43B50)
 
-inline static constexpr unsigned int JKFJOFFAFCG_TypeDefinitionIndex = 63883;
+inline static constexpr unsigned int JKFJOFFAFCG_TypeDefinitionIndex = 65325;
 
 	class JKFJOFFAFCG : public ::System::Object
 	{

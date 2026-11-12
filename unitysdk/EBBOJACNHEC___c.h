@@ -4,18 +4,18 @@
 class EBBOJACNHEC;
 namespace System { class Object; }
 
-#define EBBOJACNHEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E232930)
-#define EBBOJACNHEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E232970)
-#define EBBOJACNHEC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E232980)
+#define EBBOJACNHEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F513470)
+#define EBBOJACNHEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5134B0)
+#define EBBOJACNHEC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F5134C0)
 
-inline static constexpr unsigned int EBBOJACNHEC___c_TypeDefinitionIndex = 33919;
+inline static constexpr unsigned int EBBOJACNHEC___c_TypeDefinitionIndex = 34834;
 
 	class EBBOJACNHEC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A0F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x484B0);
 		}
 
 		static ::System::Void _cctor()

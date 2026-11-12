@@ -6,10 +6,10 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define JEKAHBPEMCH___C__DISPLAYCLASS47_1_CTOR_OFFSET UNITYSDK_OFFSET(0x16636F30)
-#define JEKAHBPEMCH___C__DISPLAYCLASS47_1___FIREPLAYEREFFECTWITHGLOBALEFFECTNAME_B__0_OFFSET UNITYSDK_OFFSET(0x166380E0)
+#define JEKAHBPEMCH___C__DISPLAYCLASS47_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB97E070)
+#define JEKAHBPEMCH___C__DISPLAYCLASS47_1__FIREEFFECTLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB980A90)
 
-inline static constexpr unsigned int JEKAHBPEMCH___c__DisplayClass47_1_TypeDefinitionIndex = 76713;
+inline static constexpr unsigned int JEKAHBPEMCH___c__DisplayClass47_1_TypeDefinitionIndex = 79042;
 
 	template <typename T>
 	class JEKAHBPEMCH___c__DisplayClass47_1 : public ::System::Object
@@ -22,9 +22,9 @@ inline static constexpr unsigned int JEKAHBPEMCH___c__DisplayClass47_1_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEKAHBPEMCH___C__DISPLAYCLASS47_1_CTOR_OFFSET))(this);
 		}
 
-		::System::Void __FirePlayerEffectWithGlobalEffectName_b__0(::Entitas::IEntity* a1, ::UnityEngine::GameObject* a2)
+		::System::Void _FireEffectList_b__0(::Entitas::IEntity* a1, ::UnityEngine::GameObject* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + JEKAHBPEMCH___C__DISPLAYCLASS47_1___FIREPLAYEREFFECTWITHGLOBALEFFECTNAME_B__0_OFFSET))(this, a1, a2);
+			return ((::System::Void(*)(::PVOID, ::Entitas::IEntity*, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + JEKAHBPEMCH___C__DISPLAYCLASS47_1__FIREEFFECTLIST_B__0_OFFSET))(this, a1, a2);
 		}
 
 	};

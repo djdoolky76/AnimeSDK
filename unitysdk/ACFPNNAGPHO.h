@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FormationMovePause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ACFPNNAGPHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB11DAD0)
-#define ACFPNNAGPHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB11DB00)
+#define ACFPNNAGPHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB783D60)
+#define ACFPNNAGPHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB783D90)
 
-inline static constexpr unsigned int ACFPNNAGPHO_TypeDefinitionIndex = 58131;
+inline static constexpr unsigned int ACFPNNAGPHO_TypeDefinitionIndex = 59370;
 
 	class ACFPNNAGPHO
 	{

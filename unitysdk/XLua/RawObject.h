@@ -3,7 +3,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int RawObject_TypeDefinitionIndex = 50254;
+	inline static constexpr unsigned int RawObject_TypeDefinitionIndex = 51305;
 
 	class RawObject
 	{

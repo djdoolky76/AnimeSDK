@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FDNCLPGAKOA.h"
 
-#define KGFPGIIHMPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB3DDF90)
+#define KGFPGIIHMPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6EAF0)
 
-inline static constexpr unsigned int KGFPGIIHMPL_TypeDefinitionIndex = 54319;
+inline static constexpr unsigned int KGFPGIIHMPL_TypeDefinitionIndex = 55483;
 
 	class KGFPGIIHMPL : public ::FDNCLPGAKOA
 	{

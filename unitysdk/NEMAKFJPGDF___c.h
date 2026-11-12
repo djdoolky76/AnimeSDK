@@ -4,18 +4,18 @@
 class NEMAKFJPGDF;
 namespace System { class Object; }
 
-#define NEMAKFJPGDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAF9FF0)
-#define NEMAKFJPGDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAFA030)
-#define NEMAKFJPGDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EAFA040)
+#define NEMAKFJPGDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE3BFB0)
+#define NEMAKFJPGDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE3BFF0)
+#define NEMAKFJPGDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FE3C000)
 
-inline static constexpr unsigned int NEMAKFJPGDF___c_TypeDefinitionIndex = 29542;
+inline static constexpr unsigned int NEMAKFJPGDF___c_TypeDefinitionIndex = 30304;
 
 	class NEMAKFJPGDF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E2B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69370);
 		}
 
 		static ::System::Void _cctor()

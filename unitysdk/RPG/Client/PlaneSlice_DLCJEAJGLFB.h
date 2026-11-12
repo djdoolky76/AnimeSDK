@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_DLCJEAJGLFB_TypeDefinitionIndex = 70700;
+	inline static constexpr unsigned int PlaneSlice_DLCJEAJGLFB_TypeDefinitionIndex = 72677;
 
 	struct alignas(8) PlaneSlice_DLCJEAJGLFB
 	{

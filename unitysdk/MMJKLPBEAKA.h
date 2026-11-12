@@ -3,10 +3,10 @@
 class LLPEOHPKGOM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMJKLPBEAKA_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D38F0)
-#define MMJKLPBEAKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9D3920)
+#define MMJKLPBEAKA_CTOR_OFFSET UNITYSDK_OFFSET(0xC28F940)
+#define MMJKLPBEAKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC28F970)
 
-inline static constexpr unsigned int MMJKLPBEAKA_TypeDefinitionIndex = 58535;
+inline static constexpr unsigned int MMJKLPBEAKA_TypeDefinitionIndex = 59800;
 
 	class MMJKLPBEAKA
 	{

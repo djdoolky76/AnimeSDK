@@ -7,10 +7,10 @@ class IJFIHJJPHNA;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Union; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KIEPGODFCPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F820)
-#define KIEPGODFCPG_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1C70F830)
+#define KIEPGODFCPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8911D0)
+#define KIEPGODFCPG_MIDKKNAGOFA_OFFSET UNITYSDK_OFFSET(0x1D8911E0)
 
-inline static constexpr unsigned int KIEPGODFCPG_TypeDefinitionIndex = 36386;
+inline static constexpr unsigned int KIEPGODFCPG_TypeDefinitionIndex = 37314;
 
 	class KIEPGODFCPG : public ::IFNMPBPNBIF
 	{

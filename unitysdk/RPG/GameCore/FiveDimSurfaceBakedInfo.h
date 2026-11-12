@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimSurfaceBakedInfo; }
 namespace RPG::GameCore { class FiveDimSurfacePoint; }
 
-#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DFA50)
-#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6DF5E0)
+#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E9F80)
+#define RPG_GAMECORE_FIVEDIMSURFACEBAKEDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E9BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSurfaceBakedInfo_TypeDefinitionIndex = 16723;
+	inline static constexpr unsigned int FiveDimSurfaceBakedInfo_TypeDefinitionIndex = 16889;
 
 	class FiveDimSurfaceBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

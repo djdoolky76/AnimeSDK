@@ -29,523 +29,523 @@ namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine::Rendering { class IRPData; }
 
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDACTOR_OFFSET UNITYSDK_OFFSET(0x1CC6E230)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1CC6E640)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x1CC6E410)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ATTACHRENDERS_OFFSET UNITYSDK_OFFSET(0x1CC6E4F0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC6D4D0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CHECKSPRBATCHOPT_OFFSET UNITYSDK_OFFSET(0x1CC6D4B0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CLEANUPSHADOWCACHE_OFFSET UNITYSDK_OFFSET(0x1CC6E920)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_DECDITHER_OFFSET UNITYSDK_OFFSET(0x1CC6E820)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ENDUIPP_OFFSET UNITYSDK_OFFSET(0x1CC6EC40)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_FORCEUPDATESCENESHADOW_OFFSET UNITYSDK_OFFSET(0x1CC6E930)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GETCAMERAVERISON_OFFSET UNITYSDK_OFFSET(0x1CC6E890)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1CC6EC90)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_USEMPB_OFFSET UNITYSDK_OFFSET(0x1CC6ED80)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_USESRPBATCH_OFFSET UNITYSDK_OFFSET(0x1CC6E120)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_VALIDLOCALREFLECTION_OFFSET UNITYSDK_OFFSET(0x1CC6EDF0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_HIDEACTOR_OFFSET UNITYSDK_OFFSET(0x1CC6E3C0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCDITHER_OFFSET UNITYSDK_OFFSET(0x1CC6E7F0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCREASECAMERAVERSION_OFFSET UNITYSDK_OFFSET(0x1CC6E8C0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ISFORCECSMPERFRAME_OFFSET UNITYSDK_OFFSET(0x1CC6ED20)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x1CC6E130)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONENTERSCENE_OFFSET UNITYSDK_OFFSET(0x1CC6DC30)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1CC6DD00)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONQUIT_OFFSET UNITYSDK_OFFSET(0x1CC6E200)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_QUERYACTOR_OFFSET UNITYSDK_OFFSET(0x1CC6E630)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTORRENDER_OFFSET UNITYSDK_OFFSET(0x1CC6E460)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTOR_OFFSET UNITYSDK_OFFSET(0x1CC6E430)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1CC6EF40)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1CC6E5D0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEACTOR_OFFSET UNITYSDK_OFFSET(0x1CC6E350)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1CC6E740)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x1CC6E420)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1CC6E300)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETCACHEPOSITION_OFFSET UNITYSDK_OFFSET(0x1CC6E580)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETENABLEINDOORCHARACTERSHADOW_OFFSET UNITYSDK_OFFSET(0x1CC6EA00)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETOBJLOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1CC6E610)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETSHADOWPROBEBLEND_OFFSET UNITYSDK_OFFSET(0x1CC6E8F0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETUSEMPB_OFFSET UNITYSDK_OFFSET(0x1CC6EDC0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1CC6ECC0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_STARTUIPP_OFFSET UNITYSDK_OFFSET(0x1CC6EA30)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UNREGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1CC6F180)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UPDATEALLCRPDATA_OFFSET UNITYSDK_OFFSET(0x1CC6F1F0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__CLEARCRPDATA_OFFSET UNITYSDK_OFFSET(0x1CC6DFF0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__INIT_OFFSET UNITYSDK_OFFSET(0x1CC6D4A0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1CC6D4C0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x1CC6F4E0)
-#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x1CC6F510)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDACTOR_OFFSET UNITYSDK_OFFSET(0x1DE15630)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1DE15A40)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ADDFLAG_OFFSET UNITYSDK_OFFSET(0x1DE15810)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ATTACHRENDERS_OFFSET UNITYSDK_OFFSET(0x1DE158F0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE148D0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CHECKSPRBATCHOPT_OFFSET UNITYSDK_OFFSET(0x1DE148B0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_CLEANUPSHADOWCACHE_OFFSET UNITYSDK_OFFSET(0x1DE15D20)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_DECDITHER_OFFSET UNITYSDK_OFFSET(0x1DE15C20)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ENDUIPP_OFFSET UNITYSDK_OFFSET(0x1DE16040)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_FORCEUPDATESCENESHADOW_OFFSET UNITYSDK_OFFSET(0x1DE15D30)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GETCAMERAVERISON_OFFSET UNITYSDK_OFFSET(0x1DE15C90)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1DE16090)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_USEMPB_OFFSET UNITYSDK_OFFSET(0x1DE16180)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_USESRPBATCH_OFFSET UNITYSDK_OFFSET(0x1DE15520)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_GET_VALIDLOCALREFLECTION_OFFSET UNITYSDK_OFFSET(0x1DE161F0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_HIDEACTOR_OFFSET UNITYSDK_OFFSET(0x1DE157C0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCDITHER_OFFSET UNITYSDK_OFFSET(0x1DE15BF0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_INCREASECAMERAVERSION_OFFSET UNITYSDK_OFFSET(0x1DE15CC0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ISFORCECSMPERFRAME_OFFSET UNITYSDK_OFFSET(0x1DE16120)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONCHANGEENV_OFFSET UNITYSDK_OFFSET(0x1DE15530)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONENTERSCENE_OFFSET UNITYSDK_OFFSET(0x1DE15030)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1DE15100)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_ONQUIT_OFFSET UNITYSDK_OFFSET(0x1DE15600)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_QUERYACTOR_OFFSET UNITYSDK_OFFSET(0x1DE15A30)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTORRENDER_OFFSET UNITYSDK_OFFSET(0x1DE15860)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REFRESHACTOR_OFFSET UNITYSDK_OFFSET(0x1DE15830)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1DE16340)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DE159D0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEACTOR_OFFSET UNITYSDK_OFFSET(0x1DE15750)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEAMBIENTVOLUMNE_OFFSET UNITYSDK_OFFSET(0x1DE15B40)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_REMOVEFLAG_OFFSET UNITYSDK_OFFSET(0x1DE15820)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETABOVEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DE15700)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETCACHEPOSITION_OFFSET UNITYSDK_OFFSET(0x1DE15980)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETENABLEINDOORCHARACTERSHADOW_OFFSET UNITYSDK_OFFSET(0x1DE15E00)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETOBJLOCALLIGHT_OFFSET UNITYSDK_OFFSET(0x1DE15A10)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETSHADOWPROBEBLEND_OFFSET UNITYSDK_OFFSET(0x1DE15CF0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SETUSEMPB_OFFSET UNITYSDK_OFFSET(0x1DE161C0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_SET_SHADOWCENTERGO_OFFSET UNITYSDK_OFFSET(0x1DE160C0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_STARTUIPP_OFFSET UNITYSDK_OFFSET(0x1DE15E30)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UNREGISTERCRPDATA_OFFSET UNITYSDK_OFFSET(0x1DE16580)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS_UPDATEALLCRPDATA_OFFSET UNITYSDK_OFFSET(0x1DE165F0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__CLEARCRPDATA_OFFSET UNITYSDK_OFFSET(0x1DE153F0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__INIT_OFFSET UNITYSDK_OFFSET(0x1DE148A0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONLEAVESCENE_OFFSET UNITYSDK_OFFSET(0x1DE148C0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENELOADED_OFFSET UNITYSDK_OFFSET(0x1DE168E0)
+#define RPG_CUSTOMRP_RENDERINGGLOBALVARS__ONSCENEUNLOADED_OFFSET UNITYSDK_OFFSET(0x1DE16910)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RenderingGlobalVars_TypeDefinitionIndex = 37643;
+	inline static constexpr unsigned int RenderingGlobalVars_TypeDefinitionIndex = 38571;
 
 	class RenderingGlobalVars : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::RenderTexture** StaticGet__UIPPRT()
-		{
-			return (::UnityEngine::RenderTexture**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2C70);
-		}
-
-		static ::RPG::CustomRP::IEngineEnvSystem** StaticGet_engienEnvSystem()
-		{
-			return (::RPG::CustomRP::IEngineEnvSystem**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2C78);
-		}
-
-		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffects()
-		{
-			return (::RPG::CustomRP::AvatarEffectInfo**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2C80);
-		}
-
-		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffectsHalfRes()
-		{
-			return (::RPG::CustomRP::AvatarEffectInfo**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2C88);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>** StaticGet__CRPDataCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2C90);
-		}
-
-		static ::UnityEngine::PassTagID* StaticGet_ForwardEmission()
-		{
-			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2C98);
-		}
-
-		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent2()
-		{
-			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CA8);
-		}
-
-		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent()
-		{
-			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CB8);
-		}
-
-		static ::PlaneReflectionProxy** StaticGet_PlaneReflectionProxy()
-		{
-			return (::PlaneReflectionProxy**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CC8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>** StaticGet__CRPDisableDataCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CD0);
-		}
-
-		static ::RPG::CustomRP::BlackboardMgr** StaticGet_blackboardMgr()
-		{
-			return (::RPG::CustomRP::BlackboardMgr**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CD8);
-		}
-
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>** StaticGet_localReflection()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CE0);
-		}
-
-		static ::UnityEngine::PassTagID* StaticGet_CustomForwardOpaque()
-		{
-			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CE8);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::IPlaneReflection*>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFA0);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Matrix4x4>** StaticGet_capsules()
 		{
-			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2CF8);
+			return (::Il2CppArray<::UnityEngine::Matrix4x4>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFA8);
 		}
 
-		static ::UnityEngine::PassTagID* StaticGet_LightingGBufferEyeHair()
+		static ::UnityEngine::PassTagID* StaticGet_CustomForwardOpaque()
 		{
-			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2D00);
+			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFB0);
 		}
 
-		static ::UnityEngine::GameObject** StaticGet__shadowCenterGo()
+		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffectsHalfRes()
 		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2D10);
+			return (::RPG::CustomRP::AvatarEffectInfo**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFC0);
+		}
+
+		static ::RPG::CustomRP::BlackboardMgr** StaticGet_blackboardMgr()
+		{
+			return (::RPG::CustomRP::BlackboardMgr**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFC8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>** StaticGet__CRPDisableDataCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFD0);
+		}
+
+		static ::RPG::CustomRP::AvatarEffectInfo** StaticGet_AvatarEffects()
+		{
+			return (::RPG::CustomRP::AvatarEffectInfo**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFD8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>** StaticGet__CRPDataCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Behaviour*, ::UnityEngine::Rendering::IRPData*>**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFE0);
+		}
+
+		static ::UnityEngine::PassTagID* StaticGet_ForwardEmission()
+		{
+			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFE8);
 		}
 
 		static ::UnityEngine::PassTagID* StaticGet__Scene_Lux_Emission_()
 		{
-			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2D18);
+			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xCFF8);
 		}
 
-		static ::RPG::CustomRP::EPlaneReflectionMode* StaticGet_PlaneReflectionMode()
+		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent()
 		{
-			return (::RPG::CustomRP::EPlaneReflectionMode*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2270);
+			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xD008);
 		}
 
-		static ::System::UInt32* StaticGet_ShadowReceiverRenderingLayerMask()
+		static ::UnityEngine::PassTagID* StaticGet_LightingGBufferEyeHair()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2274);
+			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xD018);
 		}
 
-		static ::System::Boolean* StaticGet_EnableViewportMask()
+		static ::UnityEngine::GameObject** StaticGet__shadowCenterGo()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2278);
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xD028);
 		}
 
-		static ::System::Boolean* StaticGet_DebugNewResolutionConfig()
+		static ::UnityEngine::RenderTexture** StaticGet__UIPPRT()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2279);
+			return (::UnityEngine::RenderTexture**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xD030);
 		}
 
-		static ::System::Boolean* StaticGet_DebugForceCSMPerFrame()
+		static ::PlaneReflectionProxy** StaticGet_PlaneReflectionProxy()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x227A);
+			return (::PlaneReflectionProxy**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xD038);
 		}
 
-		static ::System::Boolean* StaticGet_DeferProbe()
+		static ::RPG::CustomRP::IEngineEnvSystem** StaticGet_engienEnvSystem()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x227B);
+			return (::RPG::CustomRP::IEngineEnvSystem**)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xD040);
 		}
 
-		static ::System::Boolean* StaticGet_LockShadowCenterGo()
+		static ::UnityEngine::PassTagID* StaticGet_CustomRPTransparent2()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x227C);
-		}
-
-		static ::System::Boolean* StaticGet_IsUnLimitShadowCount()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x227D);
-		}
-
-		static ::System::Boolean* StaticGet_ForceNoCSMBlend()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x227E);
-		}
-
-		static ::System::Boolean* StaticGet_EnableShadowProbeBlend()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x227F);
-		}
-
-		static ::System::UInt32* StaticGet_ExclusiveShadowCasterRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2280);
-		}
-
-		static ::System::UInt32* StaticGet_ShadowCasterRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2284);
-		}
-
-		static ::System::UInt32* StaticGet_LocalShadowCasterRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2288);
-		}
-
-		static ::System::UInt32* StaticGet_DynamicShadowRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x228C);
-		}
-
-		static ::System::Int32* StaticGet_StencilCharacterStart()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2290);
-		}
-
-		static ::System::UInt32* StaticGet_PreDepthAlphaTestLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2294);
-		}
-
-		static ::System::Boolean* StaticGet_DrawTransparentObjects()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2298);
-		}
-
-		static ::System::Boolean* StaticGet_AlwaysUpdateReflection()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2299);
-		}
-
-		static ::System::Boolean* StaticGet_EnableSSR()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x229A);
-		}
-
-		static ::System::Boolean* StaticGet__UseMPB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x229B);
-		}
-
-		static ::System::Boolean* StaticGet_RTSupported_R10G10B10A2()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x229C);
-		}
-
-		static ::System::Boolean* StaticGet_RenderAddLight()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x229D);
-		}
-
-		static ::System::Boolean* StaticGet_DrawOpaqueObjects()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x229E);
-		}
-
-		static ::System::Boolean* StaticGet_OnePassShadowOnlyResolve()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x229F);
-		}
-
-		static ::System::Int32* StaticGet_StoryCharacterCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22A0);
-		}
-
-		static ::System::Int32* StaticGet_DisableUpdate()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22A4);
-		}
-
-		static ::System::UInt32* StaticGet_ReflectorRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22A8);
-		}
-
-		static ::RPG::CustomRP::BlurParam* StaticGet_PlaneBlurParam()
-		{
-			return (::RPG::CustomRP::BlurParam*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22AC);
+			return (::UnityEngine::PassTagID*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0xD048);
 		}
 
 		static ::System::Int32* StaticGet_StencilMonsterStart()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22B4);
-		}
-
-		static ::System::Int32* StaticGet_AdvCharaStencilFace()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22B8);
-		}
-
-		static ::System::Int32* StaticGet__LastLightLevel()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22BC);
-		}
-
-		static ::System::Boolean* StaticGet_DrawRefectorPass()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22C0);
-		}
-
-		static ::System::Boolean* StaticGet_FlushEnvCmdNoMainCamera()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22C1);
-		}
-
-		static ::System::Boolean* StaticGet_EnableSkipDraw()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22C2);
-		}
-
-		static ::System::Boolean* StaticGet_needForceUpdateEnv()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22C3);
-		}
-
-		static ::System::Int32* StaticGet_CharacterDitherCounter()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22C4);
-		}
-
-		static ::System::UInt32* StaticGet_DefaultRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22C8);
-		}
-
-		static ::System::Boolean* StaticGet_EnableDetachable()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22CC);
-		}
-
-		static ::System::Boolean* StaticGet_ForwardUpdateShadow()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22CD);
-		}
-
-		static ::System::Boolean* StaticGet_DisableMainCamera()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22CE);
-		}
-
-		static ::System::Boolean* StaticGet_DisableLowQualityEyeHairStencil()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22CF);
-		}
-
-		static ::UnityEngine::Vector4* StaticGet_capsuleColor()
-		{
-			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22D0);
-		}
-
-		static ::System::UInt32* StaticGet_ReflectorCasterRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22E0);
-		}
-
-		static ::System::UInt32* StaticGet_AdditionalReflectionCasterRLM()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22E4);
-		}
-
-		static ::System::Boolean* StaticGet_DisablePOSMOpt()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22E8);
-		}
-
-		static ::System::Boolean* StaticGet_EnableSkillRadial()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22E9);
-		}
-
-		static ::System::Boolean* StaticGet_RTSupported_ARGBHalf()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22EA);
-		}
-
-		static ::System::Boolean* StaticGet_IsStoryMode()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22EB);
-		}
-
-		static ::RPG::CustomRP::EProbeResOverride* StaticGet_ProbeResOverride()
-		{
-			return (::RPG::CustomRP::EProbeResOverride*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22EC);
-		}
-
-		static ::System::Single* StaticGet_PlanarReflectionRTScale()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22F0);
-		}
-
-		static ::System::UInt32* StaticGet_AvatarEffectPropExRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22F4);
-		}
-
-		static ::System::Single* StaticGet_ignoreMainLightLimit()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22F8);
-		}
-
-		static ::System::Boolean* StaticGet_DisableLocalLightLerp()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22FC);
-		}
-
-		static ::System::Boolean* StaticGet_DebugDisableVSM()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22FD);
-		}
-
-		static ::System::Boolean* StaticGet_capsuleAOUseHizMip()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22FE);
-		}
-
-		static ::System::Boolean* StaticGet_EnableIndoorCharacterShadow()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x22FF);
-		}
-
-		static ::System::Int32* StaticGet_capsuleCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2300);
-		}
-
-		static ::System::UInt32* StaticGet_SSRReflactorRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2304);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1920);
 		}
 
 		static ::System::Single* StaticGet_PerObjectShadowHighQulityRange()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2308);
-		}
-
-		static ::System::Boolean* StaticGet_RTSupported_R10G11B11UF()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x230C);
-		}
-
-		static ::System::Boolean* StaticGet_MaskCSMBlend()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x230D);
-		}
-
-		static ::System::Boolean* StaticGet_RTSupported_ARGBFloat()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x230E);
-		}
-
-		static ::System::Boolean* StaticGet_Enable_Update_Bounds()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x230F);
-		}
-
-		static ::System::UInt32* StaticGet_TransparentPreDapthLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2310);
-		}
-
-		static ::System::UInt32* StaticGet_MotionVectorsRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2314);
-		}
-
-		static ::System::Int32* StaticGet_DisableLocalMainLight()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2318);
-		}
-
-		static ::System::Int32* StaticGet_Bounds_Upd_Frequecy()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x231C);
-		}
-
-		static ::System::UInt32* StaticGet_DisableCullingRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2320);
-		}
-
-		static ::System::Int32* StaticGet_CameraChangedVersion()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2324);
-		}
-
-		static ::System::Int32* StaticGet_CharacterDefaultStencil()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2328);
-		}
-
-		static ::System::UInt32* StaticGet_AddtionalDepthRenderingLayerMask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x232C);
-		}
-
-		static ::System::Boolean* StaticGet_CSMBlend()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2330);
-		}
-
-		static ::System::Boolean* StaticGet_DrawOutline()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2331);
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1924);
 		}
 
 		static ::System::Boolean* StaticGet_EnablePostProcessing()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2332);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1928);
+		}
+
+		static ::System::Boolean* StaticGet_IsStoryMode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1929);
+		}
+
+		static ::System::Boolean* StaticGet_RTSupported_R10G10B10A2()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x192A);
+		}
+
+		static ::System::Boolean* StaticGet_DrawTransparentObjects()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x192B);
+		}
+
+		static ::UnityEngine::Vector4* StaticGet_capsuleColor()
+		{
+			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x192C);
+		}
+
+		static ::System::Boolean* StaticGet_DisableLowQualityEyeHairStencil()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x193C);
+		}
+
+		static ::System::Boolean* StaticGet_MaskCSMBlend()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x193D);
+		}
+
+		static ::System::Boolean* StaticGet_EnableSSR()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x193E);
+		}
+
+		static ::System::Boolean* StaticGet_EnableSkipDraw()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x193F);
+		}
+
+		static ::System::UInt32* StaticGet_LocalShadowCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1940);
+		}
+
+		static ::RPG::CustomRP::BlurParam* StaticGet_PlaneBlurParam()
+		{
+			return (::RPG::CustomRP::BlurParam*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1944);
+		}
+
+		static ::System::UInt32* StaticGet_DynamicShadowRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x194C);
+		}
+
+		static ::System::UInt32* StaticGet_DisableCullingRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1950);
+		}
+
+		static ::System::UInt32* StaticGet_PreDepthAlphaTestLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1954);
+		}
+
+		static ::System::UInt32* StaticGet_ReflectorCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1958);
+		}
+
+		static ::System::Single* StaticGet_ignoreMainLightLimit()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x195C);
+		}
+
+		static ::System::Boolean* StaticGet_OnePassShadowOnlyResolve()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1960);
+		}
+
+		static ::System::Boolean* StaticGet_needForceUpdateEnv()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1961);
+		}
+
+		static ::System::Boolean* StaticGet__UseMPB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1962);
+		}
+
+		static ::System::Boolean* StaticGet_DisableLocalLightLerp()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1963);
+		}
+
+		static ::System::UInt32* StaticGet_DefaultRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1964);
+		}
+
+		static ::System::Int32* StaticGet_DisableUpdate()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1968);
+		}
+
+		static ::RPG::CustomRP::EProbeResOverride* StaticGet_ProbeResOverride()
+		{
+			return (::RPG::CustomRP::EProbeResOverride*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x196C);
+		}
+
+		static ::System::Int32* StaticGet_DisableLocalMainLight()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1970);
+		}
+
+		static ::System::UInt32* StaticGet_SSRReflactorRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1974);
+		}
+
+		static ::RPG::CustomRP::EPlaneReflectionMode* StaticGet_PlaneReflectionMode()
+		{
+			return (::RPG::CustomRP::EPlaneReflectionMode*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1978);
+		}
+
+		static ::System::Int32* StaticGet_StencilCharacterStart()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x197C);
+		}
+
+		static ::System::Boolean* StaticGet_DrawOpaqueObjects()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1980);
+		}
+
+		static ::System::Boolean* StaticGet_EnableIndoorCharacterShadow()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1981);
+		}
+
+		static ::System::Boolean* StaticGet_RTSupported_ARGBFloat()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1982);
+		}
+
+		static ::System::Boolean* StaticGet_DeferProbe()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1983);
+		}
+
+		static ::System::UInt32* StaticGet_AdditionalReflectionCasterRLM()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1984);
+		}
+
+		static ::System::Single* StaticGet_PlanarReflectionRTScale()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1988);
+		}
+
+		static ::System::Boolean* StaticGet_ForwardUpdateShadow()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x198C);
+		}
+
+		static ::System::Boolean* StaticGet_RTSupported_R10G11B11UF()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x198D);
+		}
+
+		static ::System::Boolean* StaticGet_DebugDisableVSM()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x198E);
+		}
+
+		static ::System::Boolean* StaticGet_RenderAddLight()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x198F);
+		}
+
+		static ::System::Int32* StaticGet_CharacterDitherCounter()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1990);
+		}
+
+		static ::System::Boolean* StaticGet_IsUnLimitShadowCount()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1994);
+		}
+
+		static ::System::Boolean* StaticGet_EnableSkillRadial()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1995);
+		}
+
+		static ::System::Boolean* StaticGet_AlwaysUpdateReflection()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1996);
+		}
+
+		static ::System::Boolean* StaticGet_Enable_Update_Bounds()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1997);
+		}
+
+		static ::System::Boolean* StaticGet_FlushEnvCmdNoMainCamera()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1998);
+		}
+
+		static ::System::Boolean* StaticGet_EnableDetachable()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x1999);
 		}
 
 		static ::System::Boolean* StaticGet_WaterMarkEnable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2333);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x199A);
+		}
+
+		static ::System::Boolean* StaticGet_DisablePOSMOpt()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x199B);
+		}
+
+		static ::System::Int32* StaticGet_CharacterDefaultStencil()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x199C);
 		}
 
 		static ::UnityEngine::Color* StaticGet_IndoorSceneLightColor()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x2334);
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19A0);
+		}
+
+		static ::System::UInt32* StaticGet_AvatarEffectPropExRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19B0);
+		}
+
+		static ::System::UInt32* StaticGet_ShadowCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19B4);
+		}
+
+		static ::System::UInt32* StaticGet_TransparentPreDapthLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19B8);
+		}
+
+		static ::System::Boolean* StaticGet_DebugNewResolutionConfig()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19BC);
+		}
+
+		static ::System::Boolean* StaticGet_ForceNoCSMBlend()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19BD);
+		}
+
+		static ::System::Boolean* StaticGet_LockShadowCenterGo()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19BE);
+		}
+
+		static ::System::Boolean* StaticGet_DebugForceCSMPerFrame()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19BF);
+		}
+
+		static ::System::Int32* StaticGet_CameraChangedVersion()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19C0);
+		}
+
+		static ::System::UInt32* StaticGet_ReflectorRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19C4);
+		}
+
+		static ::System::Int32* StaticGet_StoryCharacterCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19C8);
+		}
+
+		static ::System::Int32* StaticGet__LastLightLevel()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19CC);
+		}
+
+		static ::System::Int32* StaticGet_capsuleCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19D0);
+		}
+
+		static ::System::UInt32* StaticGet_AddtionalDepthRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19D4);
+		}
+
+		static ::System::Int32* StaticGet_Bounds_Upd_Frequecy()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19D8);
+		}
+
+		static ::System::Boolean* StaticGet_DrawRefectorPass()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19DC);
+		}
+
+		static ::System::Boolean* StaticGet_EnableShadowProbeBlend()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19DD);
+		}
+
+		static ::System::Boolean* StaticGet_DisableMainCamera()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19DE);
+		}
+
+		static ::System::Boolean* StaticGet_capsuleAOUseHizMip()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19DF);
+		}
+
+		static ::System::UInt32* StaticGet_ShadowReceiverRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19E0);
+		}
+
+		static ::System::Int32* StaticGet_AdvCharaStencilFace()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19E4);
+		}
+
+		static ::System::Boolean* StaticGet_RTSupported_ARGBHalf()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19E8);
+		}
+
+		static ::System::Boolean* StaticGet_CSMBlend()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19E9);
+		}
+
+		static ::System::Boolean* StaticGet_EnableViewportMask()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19EA);
+		}
+
+		static ::System::Boolean* StaticGet_DrawOutline()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19EB);
+		}
+
+		static ::System::UInt32* StaticGet_ExclusiveShadowCasterRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19EC);
+		}
+
+		static ::System::UInt32* StaticGet_MotionVectorsRenderingLayerMask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.CustomRP", "RenderingGlobalVars")->GetStaticField(0x19F0);
 		}
 
 		// static const ::System::Object PROBE_OFFSET_Y; // 0x0

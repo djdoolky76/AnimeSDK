@@ -7,21 +7,21 @@ namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define LMEADFNHJBO_AMJIAGFHNHJ_OFFSET UNITYSDK_OFFSET(0xB77B230)
-#define LMEADFNHJBO_BMFPANBLCJK_OFFSET UNITYSDK_OFFSET(0xB77B100)
-#define LMEADFNHJBO_COKPFADHFEF_OFFSET UNITYSDK_OFFSET(0xB77AD70)
-#define LMEADFNHJBO_CTOR_OFFSET UNITYSDK_OFFSET(0xB77AC40)
-#define LMEADFNHJBO_DHKFOJHAGHE_OFFSET UNITYSDK_OFFSET(0xB77B1A0)
-#define LMEADFNHJBO_OBOJOPHLKKE_OFFSET UNITYSDK_OFFSET(0xB77AC50)
+#define LMEADFNHJBO_AMJIAGFHNHJ_OFFSET UNITYSDK_OFFSET(0xC01B310)
+#define LMEADFNHJBO_BMFPANBLCJK_OFFSET UNITYSDK_OFFSET(0xC01B1E0)
+#define LMEADFNHJBO_COKPFADHFEF_OFFSET UNITYSDK_OFFSET(0xC01AE50)
+#define LMEADFNHJBO_CTOR_OFFSET UNITYSDK_OFFSET(0xC01AD20)
+#define LMEADFNHJBO_DHKFOJHAGHE_OFFSET UNITYSDK_OFFSET(0xC01B280)
+#define LMEADFNHJBO_OBOJOPHLKKE_OFFSET UNITYSDK_OFFSET(0xC01AD30)
 
-inline static constexpr unsigned int LMEADFNHJBO_TypeDefinitionIndex = 70758;
+inline static constexpr unsigned int LMEADFNHJBO_TypeDefinitionIndex = 72737;
 
 	class LMEADFNHJBO : public ::System::Object
 	{
 	public:
-		::System::Action* MPKAFEJFNKN; // 0x10
-		::UnityEngine::Coroutine* NAEJCNNMAKA; // 0x18
-		::RPG::Client::SlotMachineController* CEODOONOFBM; // 0x20
+		::RPG::Client::SlotMachineController* CEODOONOFBM; // 0x10
+		::System::Action* MPKAFEJFNKN; // 0x18
+		::UnityEngine::Coroutine* NAEJCNNMAKA; // 0x20
 		::System::Single PGMIOKKLHIE; // 0x28
 		::System::Void _ctor(::RPG::Client::SlotMachineController* a1)
 		{

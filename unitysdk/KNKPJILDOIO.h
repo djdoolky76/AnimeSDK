@@ -4,11 +4,11 @@ class EPCNGNEEMBI;
 namespace RPG::Client { class FightFestChallengeLevelData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KNKPJILDOIO_DILIEFIBNHG_OFFSET UNITYSDK_OFFSET(0xB587C60)
-#define KNKPJILDOIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16930)
-#define KNKPJILDOIO_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x16940)
+#define KNKPJILDOIO_DILIEFIBNHG_OFFSET UNITYSDK_OFFSET(0xBDDA310)
+#define KNKPJILDOIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1A8E0)
+#define KNKPJILDOIO_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x1A8F0)
 
-inline static constexpr unsigned int KNKPJILDOIO_TypeDefinitionIndex = 64193;
+inline static constexpr unsigned int KNKPJILDOIO_TypeDefinitionIndex = 65638;
 
 	struct alignas(8) KNKPJILDOIO
 	{

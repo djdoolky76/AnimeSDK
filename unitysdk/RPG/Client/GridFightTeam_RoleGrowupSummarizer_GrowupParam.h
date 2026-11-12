@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_GROWUPPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD29C880)
+#define RPG_CLIENT_GRIDFIGHTTEAM_ROLEGROWUPSUMMARIZER_GROWUPPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xDCAD730)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer_GrowupParam_TypeDefinitionIndex = 65161;
+	inline static constexpr unsigned int GridFightTeam_RoleGrowupSummarizer_GrowupParam_TypeDefinitionIndex = 66857;
 
 	class GridFightTeam_RoleGrowupSummarizer_GrowupParam : public ::System::Object
 	{

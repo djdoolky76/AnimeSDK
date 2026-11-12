@@ -4,10 +4,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitPlanData; }
 
-#define HFIKHAIPIAB_JPMMMCPLPAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7C540)
-#define HFIKHAIPIAB_JPMMMCPLPAD_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x15C7C550)
+#define HFIKHAIPIAB_JPMMMCPLPAD_CTOR_OFFSET UNITYSDK_OFFSET(0x16BC3B00)
+#define HFIKHAIPIAB_JPMMMCPLPAD_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x16BC3B10)
 
-inline static constexpr unsigned int HFIKHAIPIAB_JPMMMCPLPAD_TypeDefinitionIndex = 65541;
+inline static constexpr unsigned int HFIKHAIPIAB_JPMMMCPLPAD_TypeDefinitionIndex = 67457;
 
 	class HFIKHAIPIAB_JPMMMCPLPAD : public ::System::Object
 	{

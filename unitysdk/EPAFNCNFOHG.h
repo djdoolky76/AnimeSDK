@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define EPAFNCNFOHG_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C47910)
+#define EPAFNCNFOHG_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3E96D70)
 
-inline static constexpr unsigned int EPAFNCNFOHG_TypeDefinitionIndex = 6277;
+inline static constexpr unsigned int EPAFNCNFOHG_TypeDefinitionIndex = 6284;
 
 	struct alignas(4) EPAFNCNFOHG
 	{

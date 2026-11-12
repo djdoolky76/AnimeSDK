@@ -6,11 +6,11 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define DAFKCJCPINC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC8410)
-#define DAFKCJCPINC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCC8420)
-#define DAFKCJCPINC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCC83E0)
+#define DAFKCJCPINC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEEC440)
+#define DAFKCJCPINC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEEC450)
+#define DAFKCJCPINC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEEC410)
 
-inline static constexpr unsigned int DAFKCJCPINC_TypeDefinitionIndex = 21477;
+inline static constexpr unsigned int DAFKCJCPINC_TypeDefinitionIndex = 21822;
 
 	class DAFKCJCPINC : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class OONGDLIDJJJ;
 
-#define BEMKNPIFMBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB157CD0)
-#define BEMKNPIFMBI_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB157CE0)
+#define BEMKNPIFMBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E13F0)
+#define BEMKNPIFMBI_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB7E1400)
 
-inline static constexpr unsigned int BEMKNPIFMBI_TypeDefinitionIndex = 54364;
+inline static constexpr unsigned int BEMKNPIFMBI_TypeDefinitionIndex = 55528;
 
 	class BEMKNPIFMBI : public ::System::Object
 	{

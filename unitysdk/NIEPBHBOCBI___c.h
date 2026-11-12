@@ -4,18 +4,18 @@
 class NIEPBHBOCBI;
 namespace System { class Object; }
 
-#define NIEPBHBOCBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB2C030)
-#define NIEPBHBOCBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2C070)
-#define NIEPBHBOCBI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB2C080)
+#define NIEPBHBOCBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F013C20)
+#define NIEPBHBOCBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F013C60)
+#define NIEPBHBOCBI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F013C70)
 
-inline static constexpr unsigned int NIEPBHBOCBI___c_TypeDefinitionIndex = 28224;
+inline static constexpr unsigned int NIEPBHBOCBI___c_TypeDefinitionIndex = 28814;
 
 	class NIEPBHBOCBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61130);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CBB0);
 		}
 
 		static ::System::Void _cctor()

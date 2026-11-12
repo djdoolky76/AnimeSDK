@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDestroyPropConfigRow; }
 
-#define RPG_GAMECORE_ROGUEDESTROYPROPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C7930)
-#define RPG_GAMECORE_ROGUEDESTROYPROPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9C72B0)
+#define RPG_GAMECORE_ROGUEDESTROYPROPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC11140)
+#define RPG_GAMECORE_ROGUEDESTROYPROPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC10AC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDestroyPropConfigRow_TypeDefinitionIndex = 14666;
+	inline static constexpr unsigned int RogueDestroyPropConfigRow_TypeDefinitionIndex = 14822;
 
 	class RogueDestroyPropConfigRow : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsContainModifier; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLCFBGDMCMH_CTOR_OFFSET UNITYSDK_OFFSET(0x15AACD60)
-#define GLCFBGDMCMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AACD90)
+#define GLCFBGDMCMH_CTOR_OFFSET UNITYSDK_OFFSET(0x16A2F2D0)
+#define GLCFBGDMCMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A2F300)
 
-inline static constexpr unsigned int GLCFBGDMCMH_TypeDefinitionIndex = 54642;
+inline static constexpr unsigned int GLCFBGDMCMH_TypeDefinitionIndex = 55808;
 
 	class GLCFBGDMCMH
 	{

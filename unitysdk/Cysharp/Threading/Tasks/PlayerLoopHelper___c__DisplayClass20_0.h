@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/LowLevel/PlayerLoopSystem.h"
 namespace System { class Type; }
 
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1213C0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__DISPLAYCLASS20_0__REMOVERUNNER_B__0_OFFSET UNITYSDK_OFFSET(0x1F1233E0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x203D24C0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPHELPER___C__DISPLAYCLASS20_0__REMOVERUNNER_B__0_OFFSET UNITYSDK_OFFSET(0x203D44E0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int PlayerLoopHelper___c__DisplayClass20_0_TypeDefinitionIndex = 38210;
+	inline static constexpr unsigned int PlayerLoopHelper___c__DisplayClass20_0_TypeDefinitionIndex = 39139;
 
 	class PlayerLoopHelper___c__DisplayClass20_0 : public ::System::Object
 	{

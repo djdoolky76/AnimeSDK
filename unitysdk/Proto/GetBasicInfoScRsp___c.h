@@ -4,20 +4,20 @@
 namespace Proto { class GetBasicInfoScRsp; }
 namespace System { class Object; }
 
-#define PROTO_GETBASICINFOSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF5B60)
-#define PROTO_GETBASICINFOSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF5B90)
-#define PROTO_GETBASICINFOSCRSP___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1DFF5BA0)
+#define PROTO_GETBASICINFOSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A71D0)
+#define PROTO_GETBASICINFOSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A7200)
+#define PROTO_GETBASICINFOSCRSP___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1F2A7210)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GetBasicInfoScRsp___c_TypeDefinitionIndex = 32039;
+	inline static constexpr unsigned int GetBasicInfoScRsp___c_TypeDefinitionIndex = 32952;
 
 	class GetBasicInfoScRsp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43B80);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4D570);
 		}
 
 		static ::System::Void _cctor()

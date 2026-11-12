@@ -7,47 +7,47 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define GOJJEKGGPMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B35E40)
-#define GOJJEKGGPMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B35E80)
-#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_0_OFFSET UNITYSDK_OFFSET(0x15B35E90)
-#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_1_OFFSET UNITYSDK_OFFSET(0x15B35EB0)
-#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_2_OFFSET UNITYSDK_OFFSET(0x15B36150)
-#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_3_OFFSET UNITYSDK_OFFSET(0x15B36170)
-#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_4_OFFSET UNITYSDK_OFFSET(0x15B36130)
+#define GOJJEKGGPMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16ABC140)
+#define GOJJEKGGPMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16ABC180)
+#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_0_OFFSET UNITYSDK_OFFSET(0x16ABC190)
+#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_1_OFFSET UNITYSDK_OFFSET(0x16ABC1B0)
+#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_2_OFFSET UNITYSDK_OFFSET(0x16ABC450)
+#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_3_OFFSET UNITYSDK_OFFSET(0x16ABC470)
+#define GOJJEKGGPMK___C__GENERATEHONORLIST_B__0_4_OFFSET UNITYSDK_OFFSET(0x16ABC430)
 
-inline static constexpr unsigned int GOJJEKGGPMK___c_TypeDefinitionIndex = 66761;
+inline static constexpr unsigned int GOJJEKGGPMK___c_TypeDefinitionIndex = 68697;
 
 	class GOJJEKGGPMK___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::BGFNFLBFBPC*, ::System::UInt32>** StaticGet___9__0_2()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::BGFNFLBFBPC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CFC0);
-		}
-
-		static ::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>** StaticGet___9__0_3()
-		{
-			return (::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CFC8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70DD0);
 		}
 
 		static ::System::Func_2<::BGFNFLBFBPC*, ::System::Int64>** StaticGet___9__0_4()
 		{
-			return (::System::Func_2<::BGFNFLBFBPC*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CFD0);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BGFNFLBFBPC*>*, ::BGFNFLBFBPC*>** StaticGet___9__0_1()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BGFNFLBFBPC*>*, ::BGFNFLBFBPC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CFD8);
+			return (::System::Func_2<::BGFNFLBFBPC*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70DD8);
 		}
 
 		static ::System::Func_2<::BGFNFLBFBPC*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::BGFNFLBFBPC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CFE0);
+			return (::System::Func_2<::BGFNFLBFBPC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70DE0);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::BGFNFLBFBPC*, ::System::UInt32>** StaticGet___9__0_2()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CFE8);
+			return (::System::Func_2<::BGFNFLBFBPC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70DE8);
+		}
+
+		static ::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>** StaticGet___9__0_3()
+		{
+			return (::System::Func_2<::RPG::Client::PunkLordHonor*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70DF0);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BGFNFLBFBPC*>*, ::BGFNFLBFBPC*>** StaticGet___9__0_1()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::UInt32, ::BGFNFLBFBPC*>*, ::BGFNFLBFBPC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70DF8);
 		}
 
 		static ::System::Void _cctor()

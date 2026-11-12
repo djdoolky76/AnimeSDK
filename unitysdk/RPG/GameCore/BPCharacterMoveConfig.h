@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BPCharacterMoveConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BPCHARACTERMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D437300)
-#define RPG_GAMECORE_BPCHARACTERMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D437200)
+#define RPG_GAMECORE_BPCHARACTERMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E657D20)
+#define RPG_GAMECORE_BPCHARACTERMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E657C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BPCharacterMoveConfig_TypeDefinitionIndex = 18146;
+	inline static constexpr unsigned int BPCharacterMoveConfig_TypeDefinitionIndex = 18308;
 
 	class BPCharacterMoveConfig : public ::RPG::GameCore::JsonConfig
 	{

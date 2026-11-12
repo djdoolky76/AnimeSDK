@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define HCKKJKBKCBD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C20CC0)
+#define HCKKJKBKCBD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B63AB0)
 
-inline static constexpr unsigned int HCKKJKBKCBD_TypeDefinitionIndex = 74027;
+inline static constexpr unsigned int HCKKJKBKCBD_TypeDefinitionIndex = 76163;
 
 	class HCKKJKBKCBD
 	{

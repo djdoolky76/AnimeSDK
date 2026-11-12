@@ -9,32 +9,32 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfCustomerTakeOrder; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LECBFBCJDMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB64BC10)
-#define LECBFBCJDMJ_DFFPNMJMFLI_OFFSET UNITYSDK_OFFSET(0xB64C840)
-#define LECBFBCJDMJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB64D620)
-#define LECBFBCJDMJ_DNBIINCMAGB_OFFSET UNITYSDK_OFFSET(0xB64D670)
-#define LECBFBCJDMJ_FEFENPCGDML_OFFSET UNITYSDK_OFFSET(0xB64BFB0)
-#define LECBFBCJDMJ_KPBODLMCDMI_OFFSET UNITYSDK_OFFSET(0xB64CA90)
-#define LECBFBCJDMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64BC40)
-#define LECBFBCJDMJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB64C210)
-#define LECBFBCJDMJ_TICK_OFFSET UNITYSDK_OFFSET(0xB64C260)
+#define LECBFBCJDMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE2160)
+#define LECBFBCJDMJ_DFFPNMJMFLI_OFFSET UNITYSDK_OFFSET(0xBEE2DA0)
+#define LECBFBCJDMJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEE3B90)
+#define LECBFBCJDMJ_DNBIINCMAGB_OFFSET UNITYSDK_OFFSET(0xBEE3BE0)
+#define LECBFBCJDMJ_FEFENPCGDML_OFFSET UNITYSDK_OFFSET(0xBEE2500)
+#define LECBFBCJDMJ_KPBODLMCDMI_OFFSET UNITYSDK_OFFSET(0xBEE3000)
+#define LECBFBCJDMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEE2190)
+#define LECBFBCJDMJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEE2760)
+#define LECBFBCJDMJ_TICK_OFFSET UNITYSDK_OFFSET(0xBEE27B0)
 
-inline static constexpr unsigned int LECBFBCJDMJ_TypeDefinitionIndex = 52157;
+inline static constexpr unsigned int LECBFBCJDMJ_TypeDefinitionIndex = 53262;
 
 	class LECBFBCJDMJ
 	{
 	public:
 		::RPG::Client::LittleGame::ElfRestaurantGameEntity* LGHCBKOIBDF; // 0x28
-		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x30
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
 		::IMEFEGGEMIJ* GNPMFNMGOLC; // 0x38
 		::IFPOBJGHJME* NKIPHHIJMIA; // 0x40
-		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x48
-		::RPG::GameCore::LittleGameSmartObjectSlotGroup KIKDJFGDGAO; // 0x50
-		::System::Single PGMIOKKLHIE; // 0x54
-		::System::Boolean BNDLCAADPPO; // 0x58
-		::System::Boolean HJBDGPIFELM; // 0x59
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x48
+		::System::Single PGMIOKKLHIE; // 0x50
+		::System::Boolean BNDLCAADPPO; // 0x54
+		::System::Boolean HJBDGPIFELM; // 0x55
 		::System::Byte _padding0[0x2];
-		::System::Int32 LFAKKMKFHGJ; // 0x5C
+		::System::Int32 LFAKKMKFHGJ; // 0x58
+		::RPG::GameCore::LittleGameSmartObjectSlotGroup KIKDJFGDGAO; // 0x5C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerTakeOrder* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_ElfCustomerTakeOrder*))((::PBYTE)hIl2Cpp + LECBFBCJDMJ_CTOR_OFFSET))(this, a1, a2);

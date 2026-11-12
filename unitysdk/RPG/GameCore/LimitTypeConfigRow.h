@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LimitTypeConfigRow; }
 
-#define RPG_GAMECORE_LIMITTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D23B0)
-#define RPG_GAMECORE_LIMITTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7D19B0)
+#define RPG_GAMECORE_LIMITTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA13D70)
+#define RPG_GAMECORE_LIMITTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA13370)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LimitTypeConfigRow_TypeDefinitionIndex = 15099;
+	inline static constexpr unsigned int LimitTypeConfigRow_TypeDefinitionIndex = 15255;
 
 	class LimitTypeConfigRow : public ::System::Object
 	{

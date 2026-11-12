@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IPPKHOFKMHM_TypeDefinitionIndex = 34365;
+inline static constexpr unsigned int IPPKHOFKMHM_TypeDefinitionIndex = 35293;
 
 	enum class IPPKHOFKMHM : ::System::Int32
 	{

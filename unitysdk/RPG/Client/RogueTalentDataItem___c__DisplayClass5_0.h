@@ -4,12 +4,12 @@
 class GKFGIMIBBHF;
 namespace RPG::Client { class RogueTalentUnlockData; }
 
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF736A0)
-#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0xDF73FE0)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEA23910)
+#define RPG_CLIENT_ROGUETALENTDATAITEM___C__DISPLAYCLASS5_0__UPDATESRVDATA_B__0_OFFSET UNITYSDK_OFFSET(0xEA24250)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 67473;
+	inline static constexpr unsigned int RogueTalentDataItem___c__DisplayClass5_0_TypeDefinitionIndex = 69417;
 
 	class RogueTalentDataItem___c__DisplayClass5_0 : public ::System::Object
 	{

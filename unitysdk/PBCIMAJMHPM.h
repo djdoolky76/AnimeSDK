@@ -10,44 +10,44 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define PBCIMAJMHPM_BKKMOAEFCKG_1_OFFSET UNITYSDK_OFFSET(0xBFE1BA0)
-#define PBCIMAJMHPM_BKKMOAEFCKG_OFFSET UNITYSDK_OFFSET(0xBFE1AA0)
-#define PBCIMAJMHPM_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFE2520)
-#define PBCIMAJMHPM_CJBBIPGADFA_OFFSET UNITYSDK_OFFSET(0xBFE1FE0)
-#define PBCIMAJMHPM_ECAMENNGJPG_OFFSET UNITYSDK_OFFSET(0xBFE22B0)
-#define PBCIMAJMHPM_EDMOBENDDJK_OFFSET UNITYSDK_OFFSET(0xBFE1F30)
-#define PBCIMAJMHPM_GET_REPLAYFILEPATH_OFFSET UNITYSDK_OFFSET(0xBFE1DB0)
-#define PBCIMAJMHPM_GET_SCREENDEBUGLOGOWNERID_OFFSET UNITYSDK_OFFSET(0xBFE1E70)
-#define PBCIMAJMHPM_IAKHCMHDHGE_OFFSET UNITYSDK_OFFSET(0xBFE1C80)
-#define PBCIMAJMHPM_LNDHDLHHGOM_OFFSET UNITYSDK_OFFSET(0xBFE2140)
-#define PBCIMAJMHPM_NBKJMGEOKNK_OFFSET UNITYSDK_OFFSET(0xBFE2440)
-#define PBCIMAJMHPM_NJPBAMCKACJ_OFFSET UNITYSDK_OFFSET(0xBFE1D30)
-#define PBCIMAJMHPM_SET_REPLAYFILEPATH_OFFSET UNITYSDK_OFFSET(0xBFE1E10)
-#define PBCIMAJMHPM_SET_SCREENDEBUGLOGOWNERID_OFFSET UNITYSDK_OFFSET(0xBFE1ED0)
+#define PBCIMAJMHPM_BKKMOAEFCKG_1_OFFSET UNITYSDK_OFFSET(0xC8E4AF0)
+#define PBCIMAJMHPM_BKKMOAEFCKG_OFFSET UNITYSDK_OFFSET(0xC8E49F0)
+#define PBCIMAJMHPM_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8E5470)
+#define PBCIMAJMHPM_CJBBIPGADFA_OFFSET UNITYSDK_OFFSET(0xC8E4F30)
+#define PBCIMAJMHPM_ECAMENNGJPG_OFFSET UNITYSDK_OFFSET(0xC8E5200)
+#define PBCIMAJMHPM_EDMOBENDDJK_OFFSET UNITYSDK_OFFSET(0xC8E4E80)
+#define PBCIMAJMHPM_GET_REPLAYFILEPATH_OFFSET UNITYSDK_OFFSET(0xC8E4D00)
+#define PBCIMAJMHPM_GET_SCREENDEBUGLOGOWNERID_OFFSET UNITYSDK_OFFSET(0xC8E4DC0)
+#define PBCIMAJMHPM_IAKHCMHDHGE_OFFSET UNITYSDK_OFFSET(0xC8E4BD0)
+#define PBCIMAJMHPM_LNDHDLHHGOM_OFFSET UNITYSDK_OFFSET(0xC8E5090)
+#define PBCIMAJMHPM_NBKJMGEOKNK_OFFSET UNITYSDK_OFFSET(0xC8E5390)
+#define PBCIMAJMHPM_NJPBAMCKACJ_OFFSET UNITYSDK_OFFSET(0xC8E4C80)
+#define PBCIMAJMHPM_SET_REPLAYFILEPATH_OFFSET UNITYSDK_OFFSET(0xC8E4D60)
+#define PBCIMAJMHPM_SET_SCREENDEBUGLOGOWNERID_OFFSET UNITYSDK_OFFSET(0xC8E4E20)
 
-inline static constexpr unsigned int PBCIMAJMHPM_TypeDefinitionIndex = 76431;
+inline static constexpr unsigned int PBCIMAJMHPM_TypeDefinitionIndex = 78762;
 
 	class PBCIMAJMHPM : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_LPJPDBDJEAP()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x5FD30);
-		}
-
 		static ::System::String** StaticGet__ReplayFilePath_k__BackingField()
 		{
-			return (::System::String**)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x5FD38);
+			return (::System::String**)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x5BC00);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_FFNIDFJHMPG()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x5FD40);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x5BC08);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_LPJPDBDJEAP()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x5BC10);
 		}
 
 		static ::System::Int32* StaticGet__ScreenDebugLogOwnerID_k__BackingField()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x14760);
+			return (::System::Int32*)UnitySDK::FromName("", "PBCIMAJMHPM")->GetStaticField(0x13930);
 		}
 
 		static ::System::Void _cctor()

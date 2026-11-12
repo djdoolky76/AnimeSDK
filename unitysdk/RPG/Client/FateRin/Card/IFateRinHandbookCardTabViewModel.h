@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int IFateRinHandbookCardTabViewModel_TypeDefinitionIndex = 81182;
+	inline static constexpr unsigned int IFateRinHandbookCardTabViewModel_TypeDefinitionIndex = 83962;
 
 	class IFateRinHandbookCardTabViewModel
 	{

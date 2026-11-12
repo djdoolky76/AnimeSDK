@@ -7,16 +7,16 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define JLJCPILKAEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB24C470)
+#define JLJCPILKAEG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA77310)
 
-inline static constexpr unsigned int JLJCPILKAEG_TypeDefinitionIndex = 78305;
+inline static constexpr unsigned int JLJCPILKAEG_TypeDefinitionIndex = 81040;
 
 	class JLJCPILKAEG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType, ::UnityEngine::GameObject*>* AIPOOKIFBOA; // 0x10
-		::COBPCKBMOCM* BOFGHEHAMKC; // 0x18
-		::UnityEngine::Transform* FDJKPEDGKDG; // 0x20
+		::UnityEngine::Transform* FDJKPEDGKDG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType, ::UnityEngine::GameObject*>* AIPOOKIFBOA; // 0x18
+		::COBPCKBMOCM* BOFGHEHAMKC; // 0x20
 		::UnityEngine::GameObject* PNLCBAAIPCH; // 0x28
 		::System::Void _ctor()
 		{

@@ -7,20 +7,20 @@ namespace RPG::Client { class MonoEffectManager; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffectOnlyForLoading; }
 
-#define GDKHGKOKHIN_CTOR_OFFSET UNITYSDK_OFFSET(0x159A1980)
-#define GDKHGKOKHIN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159A1990)
-#define GDKHGKOKHIN_LBMACDLKEDF_OFFSET UNITYSDK_OFFSET(0x159A1D40)
-#define GDKHGKOKHIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159A19D0)
-#define GDKHGKOKHIN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159A1C90)
-#define GDKHGKOKHIN_TICK_OFFSET UNITYSDK_OFFSET(0x159A1CE0)
+#define GDKHGKOKHIN_CTOR_OFFSET UNITYSDK_OFFSET(0x168D9770)
+#define GDKHGKOKHIN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168D9790)
+#define GDKHGKOKHIN_LBMACDLKEDF_OFFSET UNITYSDK_OFFSET(0x168D9B40)
+#define GDKHGKOKHIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168D97D0)
+#define GDKHGKOKHIN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x168D9A90)
+#define GDKHGKOKHIN_TICK_OFFSET UNITYSDK_OFFSET(0x168D9AE0)
 
-inline static constexpr unsigned int GDKHGKOKHIN_TypeDefinitionIndex = 55731;
+inline static constexpr unsigned int GDKHGKOKHIN_TypeDefinitionIndex = 56933;
 
 	class GDKHGKOKHIN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerEffectOnlyForLoading* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerEffectOnlyForLoading* OFKGLJOAMLD; // 0x20
 		::RPG::Client::MonoEffectManager* KMLMEHCDDMA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerEffectOnlyForLoading* a2)
 		{

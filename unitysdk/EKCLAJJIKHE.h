@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMunicipalStreamCenter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKCLAJJIKHE_CTOR_OFFSET UNITYSDK_OFFSET(0x154FEE60)
-#define EKCLAJJIKHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154FEE90)
+#define EKCLAJJIKHE_CTOR_OFFSET UNITYSDK_OFFSET(0x16447100)
+#define EKCLAJJIKHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16447130)
 
-inline static constexpr unsigned int EKCLAJJIKHE_TypeDefinitionIndex = 58560;
+inline static constexpr unsigned int EKCLAJJIKHE_TypeDefinitionIndex = 59825;
 
 	class EKCLAJJIKHE
 	{

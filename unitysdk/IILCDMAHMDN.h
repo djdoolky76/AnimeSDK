@@ -13,30 +13,30 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define IILCDMAHMDN_BAHCDLCBGHK_OFFSET UNITYSDK_OFFSET(0x1E68A770)
-#define IILCDMAHMDN_BGIGDDINPAB_OFFSET UNITYSDK_OFFSET(0x1E68A750)
-#define IILCDMAHMDN_BGMFOMPLJPH_OFFSET UNITYSDK_OFFSET(0x1E68A760)
-#define IILCDMAHMDN_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E68ACD0)
-#define IILCDMAHMDN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E68B0B0)
-#define IILCDMAHMDN_CLONE_OFFSET UNITYSDK_OFFSET(0x1E68A6E0)
-#define IILCDMAHMDN_CNKPDNMEFKD_OFFSET UNITYSDK_OFFSET(0x1E68A730)
-#define IILCDMAHMDN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E68A5E0)
-#define IILCDMAHMDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68A550)
-#define IILCDMAHMDN_ENBBBBDLCDF_OFFSET UNITYSDK_OFFSET(0x1E68A740)
-#define IILCDMAHMDN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E68A7C0)
-#define IILCDMAHMDN_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E68A790)
-#define IILCDMAHMDN_FOIHDAHHBKJ_OFFSET UNITYSDK_OFFSET(0x1E68A720)
-#define IILCDMAHMDN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E68A860)
-#define IILCDMAHMDN_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E68A510)
-#define IILCDMAHMDN_KDKFDHIMJCN_OFFSET UNITYSDK_OFFSET(0x1E68A780)
-#define IILCDMAHMDN_LJDNBHDBCDB_OFFSET UNITYSDK_OFFSET(0x1E68A710)
-#define IILCDMAHMDN_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E68AF50)
-#define IILCDMAHMDN_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E68AED0)
-#define IILCDMAHMDN_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E68A540)
-#define IILCDMAHMDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E68AA30)
-#define IILCDMAHMDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E68AA90)
+#define IILCDMAHMDN_BAHCDLCBGHK_OFFSET UNITYSDK_OFFSET(0x1F9900E0)
+#define IILCDMAHMDN_BGIGDDINPAB_OFFSET UNITYSDK_OFFSET(0x1F9900A0)
+#define IILCDMAHMDN_BGMFOMPLJPH_OFFSET UNITYSDK_OFFSET(0x1F990080)
+#define IILCDMAHMDN_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F990640)
+#define IILCDMAHMDN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F990A30)
+#define IILCDMAHMDN_CLONE_OFFSET UNITYSDK_OFFSET(0x1F990050)
+#define IILCDMAHMDN_CNKPDNMEFKD_OFFSET UNITYSDK_OFFSET(0x1F9900C0)
+#define IILCDMAHMDN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F98FF50)
+#define IILCDMAHMDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F98FEC0)
+#define IILCDMAHMDN_ENBBBBDLCDF_OFFSET UNITYSDK_OFFSET(0x1F990090)
+#define IILCDMAHMDN_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F990130)
+#define IILCDMAHMDN_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F990100)
+#define IILCDMAHMDN_FOIHDAHHBKJ_OFFSET UNITYSDK_OFFSET(0x1F9900B0)
+#define IILCDMAHMDN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F9901D0)
+#define IILCDMAHMDN_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F98FE80)
+#define IILCDMAHMDN_KDKFDHIMJCN_OFFSET UNITYSDK_OFFSET(0x1F9900F0)
+#define IILCDMAHMDN_LJDNBHDBCDB_OFFSET UNITYSDK_OFFSET(0x1F9900D0)
+#define IILCDMAHMDN_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F9908C0)
+#define IILCDMAHMDN_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F990840)
+#define IILCDMAHMDN_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F98FEB0)
+#define IILCDMAHMDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F9903A0)
+#define IILCDMAHMDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F990400)
 
-inline static constexpr unsigned int IILCDMAHMDN_TypeDefinitionIndex = 29039;
+inline static constexpr unsigned int IILCDMAHMDN_TypeDefinitionIndex = 29629;
 
 	class IILCDMAHMDN : public ::System::Object
 	{
@@ -44,29 +44,28 @@ inline static constexpr unsigned int IILCDMAHMDN_TypeDefinitionIndex = 29039;
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* ODPPCMHOGMF; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* FAIEBOPKJBF; // 0x18
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x20
-		::PIDAHABFLBL NDBFEFBFHIB; // 0x28
-		::System::Boolean BDPHPGFFFDM; // 0x2C
-		::System::Byte _padding0[0x3];
-		::System::UInt32 KHNEMPCDLJC; // 0x30
-		static ::Google::Protobuf::MessageParser_1<::IILCDMAHMDN*>** StaticGet_CHLCMCKIGKG()
+		::System::UInt32 KHNEMPCDLJC; // 0x28
+		::PIDAHABFLBL NDBFEFBFHIB; // 0x2C
+		::System::Boolean BDPHPGFFFDM; // 0x30
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FEGHGPFMAOE()
 		{
-			return (::Google::Protobuf::MessageParser_1<::IILCDMAHMDN*>**)UnitySDK::FromName("", "IILCDMAHMDN")->GetStaticField(0x50990);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "IILCDMAHMDN")->GetStaticField(0x4E8F0);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_PMIHJGIJIEN()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "IILCDMAHMDN")->GetStaticField(0x50998);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "IILCDMAHMDN")->GetStaticField(0x4E8F8);
 		}
 
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FEGHGPFMAOE()
+		static ::Google::Protobuf::MessageParser_1<::IILCDMAHMDN*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "IILCDMAHMDN")->GetStaticField(0x509A0);
+			return (::Google::Protobuf::MessageParser_1<::IILCDMAHMDN*>**)UnitySDK::FromName("", "IILCDMAHMDN")->GetStaticField(0x4E900);
 		}
 
-		// static const ::System::Object AKAKIICFCPK; // 0x0
-		// static const ::System::Object AGBPCDPMDOB; // 0x0
-		// static const ::System::Object JPPAPEMIJHD; // 0x0
 		// static const ::System::Object GMAJMEJMFBL; // 0x0
+		// static const ::System::Object JPPAPEMIJHD; // 0x0
+		// static const ::System::Object AGBPCDPMDOB; // 0x0
+		// static const ::System::Object AKAKIICFCPK; // 0x0
 		// static const ::System::Object OIFMPNNBOBO; // 0x0
 		::System::Void _ctor()
 		{
@@ -98,19 +97,9 @@ inline static constexpr unsigned int IILCDMAHMDN_TypeDefinitionIndex = 29039;
 			return ((::IILCDMAHMDN*(*)(::PVOID))((::PBYTE)hIl2Cpp + IILCDMAHMDN_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* LJDNBHDBCDB()
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* BGMFOMPLJPH()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IILCDMAHMDN_LJDNBHDBCDB_OFFSET))(this);
-		}
-
-		::System::Boolean FOIHDAHHBKJ()
-		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IILCDMAHMDN_FOIHDAHHBKJ_OFFSET))(this);
-		}
-
-		::System::Void CNKPDNMEFKD(::System::Boolean a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IILCDMAHMDN_CNKPDNMEFKD_OFFSET))(this, a1);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IILCDMAHMDN_BGMFOMPLJPH_OFFSET))(this);
 		}
 
 		::PIDAHABFLBL ENBBBBDLCDF()
@@ -123,9 +112,19 @@ inline static constexpr unsigned int IILCDMAHMDN_TypeDefinitionIndex = 29039;
 			return ((::System::Void(*)(::PVOID, ::PIDAHABFLBL))((::PBYTE)hIl2Cpp + IILCDMAHMDN_BGIGDDINPAB_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* BGMFOMPLJPH()
+		::System::Boolean FOIHDAHHBKJ()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IILCDMAHMDN_BGMFOMPLJPH_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + IILCDMAHMDN_FOIHDAHHBKJ_OFFSET))(this);
+		}
+
+		::System::Void CNKPDNMEFKD(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + IILCDMAHMDN_CNKPDNMEFKD_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* LJDNBHDBCDB()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + IILCDMAHMDN_LJDNBHDBCDB_OFFSET))(this);
 		}
 
 		::System::UInt32 BAHCDLCBGHK()

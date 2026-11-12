@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IDKNPDPLAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB075C0)
+#define IDKNPDPLAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCC060)
 
-inline static constexpr unsigned int IDKNPDPLAFJ_TypeDefinitionIndex = 42265;
+inline static constexpr unsigned int IDKNPDPLAFJ_TypeDefinitionIndex = 43240;
 
 	class IDKNPDPLAFJ : public ::System::Object
 	{

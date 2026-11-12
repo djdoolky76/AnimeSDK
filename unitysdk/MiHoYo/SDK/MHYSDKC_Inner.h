@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Inner_TypeDefinitionIndex = 46248;
+	inline static constexpr unsigned int MHYSDKC_Inner_TypeDefinitionIndex = 47277;
 
 	class MHYSDKC_Inner : public ::System::Object
 	{

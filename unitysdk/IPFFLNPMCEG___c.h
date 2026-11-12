@@ -4,18 +4,18 @@
 class IPFFLNPMCEG;
 namespace System { class Object; }
 
-#define IPFFLNPMCEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6DE6D0)
-#define IPFFLNPMCEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DE710)
-#define IPFFLNPMCEG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6DE720)
+#define IPFFLNPMCEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9E72D0)
+#define IPFFLNPMCEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E7310)
+#define IPFFLNPMCEG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9E7320)
 
-inline static constexpr unsigned int IPFFLNPMCEG___c_TypeDefinitionIndex = 29471;
+inline static constexpr unsigned int IPFFLNPMCEG___c_TypeDefinitionIndex = 30193;
 
 	class IPFFLNPMCEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AB00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58EF0);
 		}
 
 		static ::System::Void _cctor()
@@ -28,9 +28,9 @@ inline static constexpr unsigned int IPFFLNPMCEG___c_TypeDefinitionIndex = 29471
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IPFFLNPMCEG___C_CTOR_OFFSET))(this);
 		}
 
-		::IPFFLNPMCEG* __cctor_b__23_0()
+		::IPFFLNPMCEG* __cctor_b__28_0()
 		{
-			return ((::IPFFLNPMCEG*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPFFLNPMCEG___C___CCTOR_B__23_0_OFFSET))(this);
+			return ((::IPFFLNPMCEG*(*)(::PVOID))((::PBYTE)hIl2Cpp + IPFFLNPMCEG___C___CCTOR_B__28_0_OFFSET))(this);
 		}
 
 	};

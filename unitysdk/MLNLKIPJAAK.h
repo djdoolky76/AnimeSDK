@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class DLBNHDEFEHF;
 
-#define MLNLKIPJAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92D780)
+#define MLNLKIPJAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEEC70)
 
-inline static constexpr unsigned int MLNLKIPJAAK_TypeDefinitionIndex = 42545;
+inline static constexpr unsigned int MLNLKIPJAAK_TypeDefinitionIndex = 43520;
 
 	class MLNLKIPJAAK : public ::System::Object
 	{

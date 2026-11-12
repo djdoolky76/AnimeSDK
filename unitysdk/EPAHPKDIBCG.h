@@ -3,10 +3,10 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define EPAHPKDIBCG_CTOR_OFFSET UNITYSDK_OFFSET(0x155CE000)
-#define EPAHPKDIBCG_GET_REASON_OFFSET UNITYSDK_OFFSET(0x155CDFF0)
+#define EPAHPKDIBCG_CTOR_OFFSET UNITYSDK_OFFSET(0x164E05E0)
+#define EPAHPKDIBCG_GET_REASON_OFFSET UNITYSDK_OFFSET(0x164E05D0)
 
-inline static constexpr unsigned int EPAHPKDIBCG_TypeDefinitionIndex = 69405;
+inline static constexpr unsigned int EPAHPKDIBCG_TypeDefinitionIndex = 71359;
 
 	class EPAHPKDIBCG : public ::System::Exception
 	{

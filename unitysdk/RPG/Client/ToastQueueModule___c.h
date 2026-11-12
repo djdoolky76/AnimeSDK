@@ -5,25 +5,25 @@ class DJBLCIHABKP;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_TOASTQUEUEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2B2690)
-#define RPG_CLIENT_TOASTQUEUEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2B26C0)
-#define RPG_CLIENT_TOASTQUEUEMODULE___C___DOACTIONS_B__8_0_OFFSET UNITYSDK_OFFSET(0xE2B26D0)
+#define RPG_CLIENT_TOASTQUEUEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xED1CCB0)
+#define RPG_CLIENT_TOASTQUEUEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xED1CCE0)
+#define RPG_CLIENT_TOASTQUEUEMODULE___C___DOACTIONS_B__8_0_OFFSET UNITYSDK_OFFSET(0xED1CCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ToastQueueModule___c_TypeDefinitionIndex = 68151;
+	inline static constexpr unsigned int ToastQueueModule___c_TypeDefinitionIndex = 70097;
 
 	class ToastQueueModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::DJBLCIHABKP*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::DJBLCIHABKP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1D6A0);
+			return (::System::Comparison_1<::DJBLCIHABKP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x293D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1D6A8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x293D8);
 		}
 
 		static ::System::Void _cctor()

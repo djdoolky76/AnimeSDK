@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JDFPIPINHPH_BlockType_TypeDefinitionIndex = 72796;
+inline static constexpr unsigned int JDFPIPINHPH_BlockType_TypeDefinitionIndex = 74875;
 
 	enum class JDFPIPINHPH_BlockType : ::System::Int32
 	{

@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int ArrayUtil_TypeDefinitionIndex = 38655;
+	inline static constexpr unsigned int ArrayUtil_TypeDefinitionIndex = 39584;
 
 	class ArrayUtil : public ::System::Object
 	{

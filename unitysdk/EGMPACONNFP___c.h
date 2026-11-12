@@ -4,18 +4,18 @@
 class EGMPACONNFP;
 namespace System { class Object; }
 
-#define EGMPACONNFP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E29A150)
-#define EGMPACONNFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E29A180)
-#define EGMPACONNFP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E29A190)
+#define EGMPACONNFP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F57CA50)
+#define EGMPACONNFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57CA80)
+#define EGMPACONNFP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F57CA90)
 
-inline static constexpr unsigned int EGMPACONNFP___c_TypeDefinitionIndex = 33137;
+inline static constexpr unsigned int EGMPACONNFP___c_TypeDefinitionIndex = 34052;
 
 	class EGMPACONNFP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47A30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40650);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByEntitiesExist; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMFBHDOCHJA_CTOR_OFFSET UNITYSDK_OFFSET(0xB77CE30)
-#define LMFBHDOCHJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB77CE60)
+#define LMFBHDOCHJA_CTOR_OFFSET UNITYSDK_OFFSET(0xC01CF20)
+#define LMFBHDOCHJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC01CF50)
 
-inline static constexpr unsigned int LMFBHDOCHJA_TypeDefinitionIndex = 53111;
+inline static constexpr unsigned int LMFBHDOCHJA_TypeDefinitionIndex = 54273;
 
 	class LMFBHDOCHJA
 	{

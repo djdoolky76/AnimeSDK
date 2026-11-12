@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ConvincePanelActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPGMHILAEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3DDC0)
-#define MPGMHILAEHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA3DDF0)
+#define MPGMHILAEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xC2FCB70)
+#define MPGMHILAEHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2FCBA0)
 
-inline static constexpr unsigned int MPGMHILAEHM_TypeDefinitionIndex = 52710;
+inline static constexpr unsigned int MPGMHILAEHM_TypeDefinitionIndex = 53854;
 
 	class MPGMHILAEHM
 	{

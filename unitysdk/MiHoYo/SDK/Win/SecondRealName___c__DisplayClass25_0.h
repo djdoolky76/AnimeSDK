@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Win { class SecondRealName; }
 
-#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDEF800)
-#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BDEFFD0)
+#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF77D50)
+#define MIHOYO_SDK_WIN_SECONDREALNAME___C__DISPLAYCLASS25_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CF78520)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SecondRealName___c__DisplayClass25_0_TypeDefinitionIndex = 9551;
+	inline static constexpr unsigned int SecondRealName___c__DisplayClass25_0_TypeDefinitionIndex = 9559;
 
 	class SecondRealName___c__DisplayClass25_0 : public ::System::Object
 	{

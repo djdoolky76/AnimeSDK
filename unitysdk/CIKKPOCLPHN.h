@@ -5,13 +5,13 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define CIKKPOCLPHN_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8D970)
-#define CIKKPOCLPHN_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xCF8D740)
-#define CIKKPOCLPHN_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xCF8D780)
-#define CIKKPOCLPHN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCF8D410)
-#define CIKKPOCLPHN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xCF8D420)
+#define CIKKPOCLPHN_CTOR_OFFSET UNITYSDK_OFFSET(0xD8FCF50)
+#define CIKKPOCLPHN_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xD8FCD20)
+#define CIKKPOCLPHN_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xD8FCD60)
+#define CIKKPOCLPHN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD8FC9F0)
+#define CIKKPOCLPHN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xD8FCA00)
 
-inline static constexpr unsigned int CIKKPOCLPHN_TypeDefinitionIndex = 56112;
+inline static constexpr unsigned int CIKKPOCLPHN_TypeDefinitionIndex = 57324;
 
 	class CIKKPOCLPHN : public ::DBGDNLLDPFI
 	{
@@ -19,8 +19,8 @@ inline static constexpr unsigned int CIKKPOCLPHN_TypeDefinitionIndex = 56112;
 		::System::String* MCLLALGABAB; // 0x10
 		::RPG::GameCore::FixPoint KHBBNDBJAFK; // 0x18
 		::RPG::GameCore::FixPoint DHPDILNLIPC; // 0x20
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x28
-		::System::Int32 ACHILGIPGKL; // 0x2C
+		::System::Int32 ACHILGIPGKL; // 0x28
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIKKPOCLPHN_CTOR_OFFSET))(this);

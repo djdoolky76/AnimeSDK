@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GOOGLE_PROTOBUF_EXTENSION_GET_FIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x1B853990)
+#define GOOGLE_PROTOBUF_EXTENSION_GET_FIELDNUMBER_OFFSET UNITYSDK_OFFSET(0x1C9DC900)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int Extension_TypeDefinitionIndex = 5371;
+	inline static constexpr unsigned int Extension_TypeDefinitionIndex = 5376;
 
 	class Extension : public ::System::Object
 	{

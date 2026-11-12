@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_CTOR_OFFSET UNITYSDK_OFFSET(0xD0B6B70)
+#define RPG_CLIENT_GETROGUETOURNBUILDREFHISTORYHTTPRSP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA3FA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GetRogueTournBuildRefHistoryHttpRsp_TypeDefinitionIndex = 67792;
+	inline static constexpr unsigned int GetRogueTournBuildRefHistoryHttpRsp_TypeDefinitionIndex = 69737;
 
 	class GetRogueTournBuildRefHistoryHttpRsp : public ::System::Object
 	{

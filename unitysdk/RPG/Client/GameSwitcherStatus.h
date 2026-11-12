@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameSwitcherStatus_TypeDefinitionIndex = 72747;
+	inline static constexpr unsigned int GameSwitcherStatus_TypeDefinitionIndex = 74826;
 
 	enum class GameSwitcherStatus : ::System::Int32
 	{

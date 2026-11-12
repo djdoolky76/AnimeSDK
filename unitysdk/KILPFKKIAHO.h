@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class GridFightEquipConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KILPFKKIAHO_CIPOKJEDLFM_OFFSET UNITYSDK_OFFSET(0xB4356F0)
-#define KILPFKKIAHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB435A70)
-#define KILPFKKIAHO_GBCHMFCICNP_OFFSET UNITYSDK_OFFSET(0xB4357B0)
-#define KILPFKKIAHO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB4356A0)
+#define KILPFKKIAHO_CIPOKJEDLFM_OFFSET UNITYSDK_OFFSET(0xBCCBBD0)
+#define KILPFKKIAHO_CTOR_OFFSET UNITYSDK_OFFSET(0xBCCBF50)
+#define KILPFKKIAHO_GBCHMFCICNP_OFFSET UNITYSDK_OFFSET(0xBCCBC90)
+#define KILPFKKIAHO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBCCBB80)
 
-inline static constexpr unsigned int KILPFKKIAHO_TypeDefinitionIndex = 64572;
+inline static constexpr unsigned int KILPFKKIAHO_TypeDefinitionIndex = 66102;
 
 	class KILPFKKIAHO : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GridFightEquipConfigRow*>** StaticGet_DADPNEEFNHB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GridFightEquipConfigRow*>**)UnitySDK::FromName("", "KILPFKKIAHO")->GetStaticField(0x576D0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GridFightEquipConfigRow*>**)UnitySDK::FromName("", "KILPFKKIAHO")->GetStaticField(0x42C20);
 		}
 
 		::System::Void _ctor()

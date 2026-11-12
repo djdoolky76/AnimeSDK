@@ -17,7 +17,7 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::NVIDIA
 {
-	inline static constexpr unsigned int DLSSTextureTable_TypeDefinitionIndex = 5025;
+	inline static constexpr unsigned int DLSSTextureTable_TypeDefinitionIndex = 5030;
 
 	struct alignas(8) DLSSTextureTable
 	{

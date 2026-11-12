@@ -7,7 +7,7 @@ namespace System::Timers { class Timer; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_PacketResponseCallback_TypeDefinitionIndex = 46386;
+	inline static constexpr unsigned int SecurityTunnel_PacketResponseCallback_TypeDefinitionIndex = 47414;
 
 	struct alignas(8) SecurityTunnel_PacketResponseCallback
 	{

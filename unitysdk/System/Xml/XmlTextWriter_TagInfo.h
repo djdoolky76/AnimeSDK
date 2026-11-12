@@ -4,7 +4,7 @@
 #include "unitysdk/System/Xml/XmlTextWriter_NamespaceState.h"
 namespace System { class String; }
 
-#define SYSTEM_XML_XMLTEXTWRITER_TAGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x3C597C0)
+#define SYSTEM_XML_XMLTEXTWRITER_TAGINFO_INIT_OFFSET UNITYSDK_OFFSET(0x3EA8B50)
 
 namespace System::Xml
 {

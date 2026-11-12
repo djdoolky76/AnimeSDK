@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC719330)
+#define RPG_CLIENT_B51RACING_B51RACINGCARTARGETPARTICONVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD07A170)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarTargetPartIconViewModel_TypeDefinitionIndex = 82021;
+	inline static constexpr unsigned int B51RacingCarTargetPartIconViewModel_TypeDefinitionIndex = 84802;
 
 	class B51RacingCarTargetPartIconViewModel : public ::System::Object
 	{

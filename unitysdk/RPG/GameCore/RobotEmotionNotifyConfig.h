@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RobotEmotionNotifyConfig; }
 
-#define RPG_GAMECORE_ROBOTEMOTIONNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99D020)
-#define RPG_GAMECORE_ROBOTEMOTIONNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D99CF40)
+#define RPG_GAMECORE_ROBOTEMOTIONNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE60A0)
+#define RPG_GAMECORE_ROBOTEMOTIONNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBE5FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RobotEmotionNotifyConfig_TypeDefinitionIndex = 16960;
+	inline static constexpr unsigned int RobotEmotionNotifyConfig_TypeDefinitionIndex = 17127;
 
 	class RobotEmotionNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

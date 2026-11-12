@@ -24,7 +24,7 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_AuthInfo_TypeDefinitionIndex = 46372;
+	inline static constexpr unsigned int SecurityTunnel_AuthInfo_TypeDefinitionIndex = 47400;
 
 	struct alignas(8) SecurityTunnel_AuthInfo
 	{

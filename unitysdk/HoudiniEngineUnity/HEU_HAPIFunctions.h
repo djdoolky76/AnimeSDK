@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HAPIFunctions_TypeDefinitionIndex = 40489;
+	inline static constexpr unsigned int HEU_HAPIFunctions_TypeDefinitionIndex = 41464;
 
 	class HEU_HAPIFunctions : public ::System::Object
 	{

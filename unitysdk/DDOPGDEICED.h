@@ -7,18 +7,18 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define DDOPGDEICED_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F0FB0)
-#define DDOPGDEICED_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xE4F0E20)
-#define DDOPGDEICED__ONBIND_OFFSET UNITYSDK_OFFSET(0xE4F0EF0)
+#define DDOPGDEICED_CTOR_OFFSET UNITYSDK_OFFSET(0xEE37E30)
+#define DDOPGDEICED_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xEE37B70)
+#define DDOPGDEICED__ONBIND_OFFSET UNITYSDK_OFFSET(0xEE37C40)
 
-inline static constexpr unsigned int DDOPGDEICED_TypeDefinitionIndex = 71747;
+inline static constexpr unsigned int DDOPGDEICED_TypeDefinitionIndex = 73738;
 
 	class DDOPGDEICED : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Animation* KCOAILOHDND; // 0x60
-		::UnityEngine::UI::Text* GEAHKAMKAOJ; // 0x68
-		::UnityEngine::UI::Image* OBGCEDPOAEF; // 0x70
+		::UnityEngine::UI::Image* OBGCEDPOAEF; // 0x60
+		::UnityEngine::Animation* KCOAILOHDND; // 0x68
+		::UnityEngine::UI::Text* GEAHKAMKAOJ; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDOPGDEICED_CTOR_OFFSET))(this);

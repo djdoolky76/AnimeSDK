@@ -7,37 +7,37 @@ class JEGNOIJMBCA;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3C8840)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3C8880)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C__REFRESHLIMAONEWSOFFICESURVEYWITHFILTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xD3C8890)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C__SENDLIMAONEWSFINISHCLIENTREPLYCSREQ_B__6_0_OFFSET UNITYSDK_OFFSET(0xD3C88A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C__SENDLIMAONEWSTRACKSURVEYCSREQ_B__8_0_OFFSET UNITYSDK_OFFSET(0xD3C88E0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE00D50)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE00D90)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C__REFRESHLIMAONEWSOFFICESURVEYWITHFILTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xDE00DA0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C__SENDLIMAONEWSFINISHCLIENTREPLYCSREQ_B__6_0_OFFSET UNITYSDK_OFFSET(0xDE00DB0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSNETWORKSERVICE___C__SENDLIMAONEWSTRACKSURVEYCSREQ_B__8_0_OFFSET UNITYSDK_OFFSET(0xDE00DF0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsNetworkService___c_TypeDefinitionIndex = 80326;
+	inline static constexpr unsigned int LimaoNewsNetworkService___c_TypeDefinitionIndex = 83103;
 
 	class LimaoNewsNetworkService___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::EPMONPAABKJ*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_1<::EPMONPAABKJ*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x21400);
-		}
-
-		static ::System::Action_1<::JEGNOIJMBCA*>** StaticGet___9__2_0()
-		{
-			return (::System::Action_1<::JEGNOIJMBCA*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x21408);
+			return (::System::Action_1<::EPMONPAABKJ*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x2CBA0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x21410);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x2CBA8);
 		}
 
 		static ::System::Action_1<::GHBBMIJFIAD*>** StaticGet___9__8_0()
 		{
-			return (::System::Action_1<::GHBBMIJFIAD*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x21418);
+			return (::System::Action_1<::GHBBMIJFIAD*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x2CBB0);
+		}
+
+		static ::System::Action_1<::JEGNOIJMBCA*>** StaticGet___9__2_0()
+		{
+			return (::System::Action_1<::JEGNOIJMBCA*>**)UnitySDK::FromName("RPG.Client.LimaoNews", "<>c")->GetStaticField(0x2CBB8);
 		}
 
 		static ::System::Void _cctor()

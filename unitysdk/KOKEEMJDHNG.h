@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KOKEEMJDHNG_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xB5A09E0)
-#define KOKEEMJDHNG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5A1020)
-#define KOKEEMJDHNG_HJHFDEPFEED_OFFSET UNITYSDK_OFFSET(0xB5A0A70)
-#define KOKEEMJDHNG_PAOCHKMFNPI_OFFSET UNITYSDK_OFFSET(0xB5A04C0)
+#define KOKEEMJDHNG_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xBDF3C50)
+#define KOKEEMJDHNG_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF4290)
+#define KOKEEMJDHNG_HJHFDEPFEED_OFFSET UNITYSDK_OFFSET(0xBDF3CE0)
+#define KOKEEMJDHNG_PAOCHKMFNPI_OFFSET UNITYSDK_OFFSET(0xBDF3730)
 
-inline static constexpr unsigned int KOKEEMJDHNG_TypeDefinitionIndex = 79176;
+inline static constexpr unsigned int KOKEEMJDHNG_TypeDefinitionIndex = 81953;
 
 	class KOKEEMJDHNG : public ::System::Object
 	{

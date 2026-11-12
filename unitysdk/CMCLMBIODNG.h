@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CMCLMBIODNG_TypeDefinitionIndex = 28668;
+inline static constexpr unsigned int CMCLMBIODNG_TypeDefinitionIndex = 29258;
 
 	enum class CMCLMBIODNG : ::System::Int32
 	{

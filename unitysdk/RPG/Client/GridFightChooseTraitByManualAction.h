@@ -1,0 +1,133 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightProtoPendingAction.h"
+class CHCHAJIANIM;
+namespace RPG::Client { class GridFightTraitConfig; }
+namespace RPG::Client { class LuaUIController; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDA90CB0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GETACTIONID_OFFSET UNITYSDK_OFFSET(0xDA90EE0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xDA91560)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_CANDIDATETRAITIDS_OFFSET UNITYSDK_OFFSET(0xDA91600)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_ROLEID_OFFSET UNITYSDK_OFFSET(0xDA915C0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xDA915E0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0xDA915A0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_TRAITID_OFFSET UNITYSDK_OFFSET(0xDA91580)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SELECTTRAIT_OFFSET UNITYSDK_OFFSET(0xDA90FC0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_ACTIONID_OFFSET UNITYSDK_OFFSET(0xDA91570)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_ROLEID_OFFSET UNITYSDK_OFFSET(0xDA915D0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_TRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xDA915F0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_TRAITEFFECTID_OFFSET UNITYSDK_OFFSET(0xDA915B0)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_TRAITID_OFFSET UNITYSDK_OFFSET(0xDA91590)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_UPDATE_OFFSET UNITYSDK_OFFSET(0xDA90F20)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION__ONFINISH_OFFSET UNITYSDK_OFFSET(0xDA91500)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION__ONSTART_OFFSET UNITYSDK_OFFSET(0xDA91130)
+#define RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION__SYNCFROMPROTO_OFFSET UNITYSDK_OFFSET(0xDA90D20)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightChooseTraitByManualAction_TypeDefinitionIndex = 67130;
+
+	class GridFightChooseTraitByManualAction : public ::RPG::Client::GridFightProtoPendingAction
+	{
+	public:
+		::RPG::Client::LuaUIController* _HandleUI; // 0x20
+		::RPG::Client::GridFightTraitConfig* _TraitConfig_k__BackingField; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* _CandidateTraitIDs_k__BackingField; // 0x30
+		::System::UInt32 _TraitID_k__BackingField; // 0x38
+		::System::UInt32 _ActionID_k__BackingField; // 0x3C
+		::System::UInt32 _RoleID_k__BackingField; // 0x40
+		::System::UInt32 _TraitEffectID_k__BackingField; // 0x44
+		::System::Void _ctor(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GETACTIONID_OFFSET))(this);
+		}
+
+		::System::Void Update(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_UPDATE_OFFSET))(this, a1);
+		}
+
+		::System::Void _SyncFromProto(::CHCHAJIANIM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CHCHAJIANIM*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION__SYNCFROMPROTO_OFFSET))(this, a1);
+		}
+
+		::System::Void SelectTrait(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SELECTTRAIT_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnStart()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION__ONSTART_OFFSET))(this);
+		}
+
+		::System::Void _OnFinish()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION__ONFINISH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_ActionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_ACTIONID_OFFSET))(this);
+		}
+
+		::System::Void set_ActionID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_ACTIONID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_TraitID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_TRAITID_OFFSET))(this);
+		}
+
+		::System::Void set_TraitID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_TRAITID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_TraitEffectID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_TRAITEFFECTID_OFFSET))(this);
+		}
+
+		::System::Void set_TraitEffectID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_TRAITEFFECTID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_RoleID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_ROLEID_OFFSET))(this);
+		}
+
+		::System::Void set_RoleID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_ROLEID_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::GridFightTraitConfig* get_TraitConfig()
+		{
+			return ((::RPG::Client::GridFightTraitConfig*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_TRAITCONFIG_OFFSET))(this);
+		}
+
+		::System::Void set_TraitConfig(::RPG::Client::GridFightTraitConfig* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_SET_TRAITCONFIG_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_CandidateTraitIDs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTCHOOSETRAITBYMANUALACTION_GET_CANDIDATETRAITIDS_OFFSET))(this);
+		}
+
+	};
+}

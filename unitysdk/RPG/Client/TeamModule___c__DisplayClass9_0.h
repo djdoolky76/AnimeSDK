@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class TeamData; }
 
-#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1DEFF0)
-#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS9_0__GETSTORYLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0xE1EC340)
+#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEC8C230)
+#define RPG_CLIENT_TEAMMODULE___C__DISPLAYCLASS9_0__GETSTORYLINETEAM_B__0_OFFSET UNITYSDK_OFFSET(0xEC99430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamModule___c__DisplayClass9_0_TypeDefinitionIndex = 68134;
+	inline static constexpr unsigned int TeamModule___c__DisplayClass9_0_TypeDefinitionIndex = 70080;
 
 	class TeamModule___c__DisplayClass9_0 : public ::System::Object
 	{

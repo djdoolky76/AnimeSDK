@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IBillBoardContext_1_TypeDefinitionIndex = 42701;
+	inline static constexpr unsigned int IBillBoardContext_1_TypeDefinitionIndex = 43680;
 
 	template <typename T>
 	class IBillBoardContext_1

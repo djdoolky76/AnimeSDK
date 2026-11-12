@@ -5,12 +5,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelAchievementsResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF174E0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS28_0__GETACHIEVEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BF1F8F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D09E0A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNEL___C__DISPLAYCLASS28_0__GETACHIEVEMENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D0A64B0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannel___c__DisplayClass28_0_TypeDefinitionIndex = 8506;
+	inline static constexpr unsigned int HoYoChannel___c__DisplayClass28_0_TypeDefinitionIndex = 8515;
 
 	class HoYoChannel___c__DisplayClass28_0 : public ::System::Object
 	{

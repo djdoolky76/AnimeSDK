@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveBpFeature; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHOCNMHKMKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDAA20)
-#define NHOCNMHKMKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBDAA50)
+#define NHOCNMHKMKI_CTOR_OFFSET UNITYSDK_OFFSET(0xC4BB740)
+#define NHOCNMHKMKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4BB770)
 
-inline static constexpr unsigned int NHOCNMHKMKI_TypeDefinitionIndex = 55301;
+inline static constexpr unsigned int NHOCNMHKMKI_TypeDefinitionIndex = 56483;
 
 	class NHOCNMHKMKI
 	{

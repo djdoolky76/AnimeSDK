@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerMiniEmoEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERMINIEMOEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC55240)
-#define RPG_GAMECORE_TRIGGERMINIEMOEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC55280)
-#define RPG_GAMECORE_TRIGGERMINIEMOEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC551E0)
+#define RPG_GAMECORE_TRIGGERMINIEMOEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE69240)
+#define RPG_GAMECORE_TRIGGERMINIEMOEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE69280)
+#define RPG_GAMECORE_TRIGGERMINIEMOEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE691E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerMiniEmoEffect_TypeDefinitionIndex = 21863;
+	inline static constexpr unsigned int TriggerMiniEmoEffect_TypeDefinitionIndex = 22254;
 
 	class TriggerMiniEmoEffect : public ::RPG::GameCore::TaskConfig
 	{

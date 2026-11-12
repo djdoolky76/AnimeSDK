@@ -7,19 +7,19 @@ class KJLOHDFBBOA;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define KJLOHDFBBOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0991C0)
-#define KJLOHDFBBOA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D099230)
-#define KJLOHDFBBOA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D099130)
+#define KJLOHDFBBOA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E28C2E0)
+#define KJLOHDFBBOA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E28C350)
+#define KJLOHDFBBOA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E28C250)
 
-inline static constexpr unsigned int KJLOHDFBBOA_TypeDefinitionIndex = 19893;
+inline static constexpr unsigned int KJLOHDFBBOA_TypeDefinitionIndex = 20222;
 
 	class KJLOHDFBBOA : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DNCFBGANPCD; // 0x18
-		::RPG::GameCore::DynamicFloat* HOCMHABKLGJ; // 0x20
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* PAHHNMLMNLN; // 0x28
-		::Il2CppArray<::System::UInt32>* PFLABPLALNK; // 0x30
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* PAHHNMLMNLN; // 0x20
+		::Il2CppArray<::System::UInt32>* PFLABPLALNK; // 0x28
+		::RPG::GameCore::DynamicFloat* HOCMHABKLGJ; // 0x30
 		::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x38
 		::System::Boolean NLFHNLKIOJJ; // 0x3A
 		::System::Boolean NANPIEIOFLM; // 0x3B

@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System::ComponentModel { class BrowsableAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFE3580)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE3430)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFE3450)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFE34B0)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GET_BROWSABLE_OFFSET UNITYSDK_OFFSET(0x1EFE3440)
-#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x1EFE34C0)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x20292E80)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20292D30)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x20292D50)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20292DB0)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_GET_BROWSABLE_OFFSET UNITYSDK_OFFSET(0x20292D40)
+#define SYSTEM_COMPONENTMODEL_BROWSABLEATTRIBUTE_ISDEFAULTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x20292DC0)
 
 namespace System::ComponentModel
 {
@@ -21,17 +21,17 @@ namespace System::ComponentModel
 		::System::Boolean browsable; // 0x10
 		static ::System::ComponentModel::BrowsableAttribute** StaticGet_Default()
 		{
-			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x39150);
+			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x28AE0);
 		}
 
 		static ::System::ComponentModel::BrowsableAttribute** StaticGet_No()
 		{
-			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x39158);
+			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x28AE8);
 		}
 
 		static ::System::ComponentModel::BrowsableAttribute** StaticGet_Yes()
 		{
-			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x39160);
+			return (::System::ComponentModel::BrowsableAttribute**)UnitySDK::FromName("System.ComponentModel", "BrowsableAttribute")->GetStaticField(0x28AF0);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

@@ -4,10 +4,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BJOILEBHAFJ_GJCFNGNKFMG_OFFSET UNITYSDK_OFFSET(0xB7AA560)
-#define BJOILEBHAFJ_KFCEIGKPKBP_OFFSET UNITYSDK_OFFSET(0xB7AA930)
+#define BJOILEBHAFJ_GJCFNGNKFMG_OFFSET UNITYSDK_OFFSET(0xC0FA770)
+#define BJOILEBHAFJ_KFCEIGKPKBP_OFFSET UNITYSDK_OFFSET(0xC0FAB40)
 
-inline static constexpr unsigned int BJOILEBHAFJ_TypeDefinitionIndex = 59683;
+inline static constexpr unsigned int BJOILEBHAFJ_TypeDefinitionIndex = 60960;
 
 	class BJOILEBHAFJ : public ::System::Object
 	{

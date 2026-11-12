@@ -4,18 +4,18 @@
 class BGGIHLHFPGA;
 namespace System { class Object; }
 
-#define BGGIHLHFPGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA78960)
-#define BGGIHLHFPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA789A0)
-#define BGGIHLHFPGA___C___CCTOR_B__56_0_OFFSET UNITYSDK_OFFSET(0x1EA789B0)
+#define BGGIHLHFPGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF8310)
+#define BGGIHLHFPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF8350)
+#define BGGIHLHFPGA___C___CCTOR_B__56_0_OFFSET UNITYSDK_OFFSET(0x1EFF8360)
 
-inline static constexpr unsigned int BGGIHLHFPGA___c_TypeDefinitionIndex = 32472;
+inline static constexpr unsigned int BGGIHLHFPGA___c_TypeDefinitionIndex = 33387;
 
 	class BGGIHLHFPGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42E60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45B80);
 		}
 
 		static ::System::Void _cctor()

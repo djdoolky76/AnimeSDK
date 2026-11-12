@@ -5,10 +5,10 @@
 class IHPDAAPJNBB;
 namespace RPG::Client { class RechargeShopModule; }
 
-#define BOEEDNCHKMI_CTOR_OFFSET UNITYSDK_OFFSET(0xC18EF70)
-#define BOEEDNCHKMI_DGOIGEGMDBG_OFFSET UNITYSDK_OFFSET(0xC18EFC0)
+#define BOEEDNCHKMI_CTOR_OFFSET UNITYSDK_OFFSET(0xC76EFE0)
+#define BOEEDNCHKMI_DGOIGEGMDBG_OFFSET UNITYSDK_OFFSET(0xC76F030)
 
-inline static constexpr unsigned int BOEEDNCHKMI_TypeDefinitionIndex = 66790;
+inline static constexpr unsigned int BOEEDNCHKMI_TypeDefinitionIndex = 68726;
 
 	class BOEEDNCHKMI : public ::System::Object
 	{

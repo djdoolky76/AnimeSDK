@@ -5,24 +5,24 @@ namespace RPG::Client { class RogueTournMiracleData; }
 namespace RPG::Client { template <typename T1, typename T2> class RogueInstanceCacheManager_2; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFFA2F0)
-#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xDFFA250)
-#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFFA0C0)
-#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0xDFFA150)
-#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_ISBROKEN_OFFSET UNITYSDK_OFFSET(0xDFFA2B0)
-#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_ISMIRACLEEXISTS_OFFSET UNITYSDK_OFFSET(0xDFFA0D0)
-#define RPG_CLIENT_ROGUETOURNMIRACLEDATA__CREATEDATA_OFFSET UNITYSDK_OFFSET(0xDFFA1E0)
+#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA64750)
+#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_CLONE_OFFSET UNITYSDK_OFFSET(0xEA646B0)
+#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xEA64520)
+#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_GETDATA_OFFSET UNITYSDK_OFFSET(0xEA645B0)
+#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_ISBROKEN_OFFSET UNITYSDK_OFFSET(0xEA64710)
+#define RPG_CLIENT_ROGUETOURNMIRACLEDATA_ISMIRACLEEXISTS_OFFSET UNITYSDK_OFFSET(0xEA64530)
+#define RPG_CLIENT_ROGUETOURNMIRACLEDATA__CREATEDATA_OFFSET UNITYSDK_OFFSET(0xEA64640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournMiracleData_TypeDefinitionIndex = 67680;
+	inline static constexpr unsigned int RogueTournMiracleData_TypeDefinitionIndex = 69625;
 
 	class RogueTournMiracleData : public ::RPG::Client::RogueTournMiracleDataBase
 	{
 	public:
 		static ::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournMiracleData*>** StaticGet__CacheManager()
 		{
-			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournMiracleData*>**)UnitySDK::FromName("RPG.Client", "RogueTournMiracleData")->GetStaticField(0x6D260);
+			return (::RPG::Client::RogueInstanceCacheManager_2<::System::UInt32, ::RPG::Client::RogueTournMiracleData*>**)UnitySDK::FromName("RPG.Client", "RogueTournMiracleData")->GetStaticField(0x71F70);
 		}
 
 		::System::Void _ctor()

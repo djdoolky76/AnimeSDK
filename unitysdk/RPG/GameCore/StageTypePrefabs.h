@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageTypePrefabs; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGETYPEPREFABS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB151E0)
-#define RPG_GAMECORE_STAGETYPEPREFABS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB150F0)
+#define RPG_GAMECORE_STAGETYPEPREFABS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED272B0)
+#define RPG_GAMECORE_STAGETYPEPREFABS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED271C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageTypePrefabs_TypeDefinitionIndex = 16358;
+	inline static constexpr unsigned int StageTypePrefabs_TypeDefinitionIndex = 16522;
 
 	class StageTypePrefabs : public ::RPG::GameCore::JsonConfig
 	{

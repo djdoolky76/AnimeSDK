@@ -6,13 +6,13 @@ namespace RPG::GameCore { class LoadCharacterState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOADCHARACTERSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E9EA0)
-#define RPG_GAMECORE_LOADCHARACTERSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7E9EF0)
-#define RPG_GAMECORE_LOADCHARACTERSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E9E30)
+#define RPG_GAMECORE_LOADCHARACTERSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2CD80)
+#define RPG_GAMECORE_LOADCHARACTERSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA2CDD0)
+#define RPG_GAMECORE_LOADCHARACTERSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA2CD10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadCharacterState_TypeDefinitionIndex = 22757;
+	inline static constexpr unsigned int LoadCharacterState_TypeDefinitionIndex = 23179;
 
 	class LoadCharacterState : public ::RPG::GameCore::TaskConfig
 	{

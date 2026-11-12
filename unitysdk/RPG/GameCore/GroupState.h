@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GroupState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GROUPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74CA30)
-#define RPG_GAMECORE_GROUPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D74C8F0)
+#define RPG_GAMECORE_GROUPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9604A0)
+#define RPG_GAMECORE_GROUPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E960360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupState_TypeDefinitionIndex = 17332;
+	inline static constexpr unsigned int GroupState_TypeDefinitionIndex = 17500;
 
 	class GroupState : public ::RPG::GameCore::JsonConfig
 	{

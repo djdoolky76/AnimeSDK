@@ -4,18 +4,18 @@
 class CGNGOLJKBMP;
 namespace System { class Object; }
 
-#define CGNGOLJKBMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0B6CA0)
-#define CGNGOLJKBMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0B6CD0)
-#define CGNGOLJKBMP___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x1E0B6CE0)
+#define CGNGOLJKBMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F381D30)
+#define CGNGOLJKBMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F381D60)
+#define CGNGOLJKBMP___C___CCTOR_B__73_0_OFFSET UNITYSDK_OFFSET(0x1F381D70)
 
-inline static constexpr unsigned int CGNGOLJKBMP___c_TypeDefinitionIndex = 33641;
+inline static constexpr unsigned int CGNGOLJKBMP___c_TypeDefinitionIndex = 34556;
 
 	class CGNGOLJKBMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14F60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD9F0);
 		}
 
 		static ::System::Void _cctor()

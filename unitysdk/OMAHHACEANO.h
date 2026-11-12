@@ -6,9 +6,9 @@
 class LJAPBLLGAJN;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OMAHHACEANO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF17730)
+#define OMAHHACEANO_CTOR_OFFSET UNITYSDK_OFFSET(0xC815800)
 
-inline static constexpr unsigned int OMAHHACEANO_TypeDefinitionIndex = 57623;
+inline static constexpr unsigned int OMAHHACEANO_TypeDefinitionIndex = 58852;
 
 	class OMAHHACEANO : public ::System::Object
 	{

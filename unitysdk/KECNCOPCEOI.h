@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class SetAttachmentVisibilityForUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KECNCOPCEOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB3710E0)
+#define KECNCOPCEOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFB950)
 
-inline static constexpr unsigned int KECNCOPCEOI_TypeDefinitionIndex = 55887;
+inline static constexpr unsigned int KECNCOPCEOI_TypeDefinitionIndex = 57090;
 
 	class KECNCOPCEOI : public ::NGGKJBIIFLO
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GroupPropertyOverrideItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74C8E0)
-#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D74C750)
+#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E960350)
+#define RPG_GAMECORE_GROUPPROPERTYOVERRIDEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9601C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupPropertyOverrideItem_TypeDefinitionIndex = 19042;
+	inline static constexpr unsigned int GroupPropertyOverrideItem_TypeDefinitionIndex = 19229;
 
 	class GroupPropertyOverrideItem : public ::RPG::GameCore::JsonConfig
 	{

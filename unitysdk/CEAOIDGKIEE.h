@@ -5,10 +5,10 @@
 class GNLBCCHFILK;
 namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 
-#define CEAOIDGKIEE_CTOR_OFFSET UNITYSDK_OFFSET(0xC77B060)
-#define CEAOIDGKIEE_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xC77B070)
+#define CEAOIDGKIEE_CTOR_OFFSET UNITYSDK_OFFSET(0xD0E5610)
+#define CEAOIDGKIEE_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xD0E5620)
 
-inline static constexpr unsigned int CEAOIDGKIEE_TypeDefinitionIndex = 67106;
+inline static constexpr unsigned int CEAOIDGKIEE_TypeDefinitionIndex = 69050;
 
 	class CEAOIDGKIEE : public ::OBDGDODGFAM
 	{

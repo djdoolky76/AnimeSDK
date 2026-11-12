@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BFDNDMMMOJN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D670860)
-#define BFDNDMMMOJN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D670E30)
-#define BFDNDMMMOJN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D6709D0)
-#define BFDNDMMMOJN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D6702D0)
-#define BFDNDMMMOJN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D670560)
-#define BFDNDMMMOJN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D670A70)
-#define BFDNDMMMOJN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D670AC0)
-#define BFDNDMMMOJN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D6708A0)
-#define BFDNDMMMOJN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D670500)
-#define BFDNDMMMOJN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D6706D0)
-#define BFDNDMMMOJN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D670930)
-#define BFDNDMMMOJN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D670250)
+#define BFDNDMMMOJN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E9AC0F0)
+#define BFDNDMMMOJN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9AC6C0)
+#define BFDNDMMMOJN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E9AC260)
+#define BFDNDMMMOJN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E9ABB60)
+#define BFDNDMMMOJN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E9ABDF0)
+#define BFDNDMMMOJN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E9AC300)
+#define BFDNDMMMOJN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E9AC350)
+#define BFDNDMMMOJN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E9AC130)
+#define BFDNDMMMOJN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E9ABD90)
+#define BFDNDMMMOJN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E9ABF60)
+#define BFDNDMMMOJN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E9AC1C0)
+#define BFDNDMMMOJN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E9ABAE0)
 
-inline static constexpr unsigned int BFDNDMMMOJN_TypeDefinitionIndex = 13472;
+inline static constexpr unsigned int BFDNDMMMOJN_TypeDefinitionIndex = 13548;
 
 	class BFDNDMMMOJN : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightExpertRestrictConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0x33C40);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightExpertRestrictConfigRow*>**)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0x43AC0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0x33C48);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0x43AC8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightExpertRestrictConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightExpertRestrictConfigRow*>**)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0x33C50);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0x43AD0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0xADF0);
+			return (::System::Boolean*)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0xE4D0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0xADF1);
+			return (::System::Byte*)UnitySDK::FromName("", "BFDNDMMMOJN")->GetStaticField(0xE4D1);
 		}
 
 		static ::System::Void _cctor()

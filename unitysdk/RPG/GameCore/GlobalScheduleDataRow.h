@@ -5,20 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GlobalScheduleDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71F920)
-#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71F740)
+#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E929350)
+#define RPG_GAMECORE_GLOBALSCHEDULEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E929170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalScheduleDataRow_TypeDefinitionIndex = 15088;
+	inline static constexpr unsigned int GlobalScheduleDataRow_TypeDefinitionIndex = 15244;
 
 	class GlobalScheduleDataRow : public ::System::Object
 	{
 	public:
-		::System::String* EndTime; // 0x10
-		::System::String* GlobalEndTime; // 0x18
-		::System::String* GlobalBeginTime; // 0x20
-		::System::String* BeginTime; // 0x28
+		::System::String* BeginTime; // 0x10
+		::System::String* GlobalBeginTime; // 0x18
+		::System::String* EndTime; // 0x20
+		::System::String* GlobalEndTime; // 0x28
 		::System::UInt32 ID; // 0x30
 		::System::Void _ctor()
 		{

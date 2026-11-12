@@ -4,12 +4,12 @@
 namespace RPG::Client { class AdventurePhase; }
 namespace RPG::Client { class TeamManager; }
 
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1D2F00)
-#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS17_0__CREATETEAMMEMBERENTITYS_B__0_OFFSET UNITYSDK_OFFSET(0xE1DD480)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEC80400)
+#define RPG_CLIENT_TEAMMANAGER___C__DISPLAYCLASS17_0__CREATETEAMMEMBERENTITYS_B__0_OFFSET UNITYSDK_OFFSET(0xEC8A6A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager___c__DisplayClass17_0_TypeDefinitionIndex = 60784;
+	inline static constexpr unsigned int TeamManager___c__DisplayClass17_0_TypeDefinitionIndex = 62163;
 
 	class TeamManager___c__DisplayClass17_0 : public ::System::Object
 	{

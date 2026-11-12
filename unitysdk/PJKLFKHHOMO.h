@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGameShare/CakeRaceCore/SparkleStatus.h"
 
-inline static constexpr unsigned int PJKLFKHHOMO_TypeDefinitionIndex = 37300;
+inline static constexpr unsigned int PJKLFKHHOMO_TypeDefinitionIndex = 38228;
 
 	struct alignas(4) PJKLFKHHOMO
 	{

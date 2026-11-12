@@ -5,21 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ToastManagerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TOASTMANAGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8B780)
-#define RPG_GAMECORE_TOASTMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB8ADB0)
+#define RPG_GAMECORE_TOASTMANAGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3A950)
+#define RPG_GAMECORE_TOASTMANAGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE39F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastManagerRow_TypeDefinitionIndex = 15305;
+	inline static constexpr unsigned int ToastManagerRow_TypeDefinitionIndex = 15461;
 
 	class ToastManagerRow : public ::System::Object
 	{
 	public:
 		::System::String* FuncName; // 0x10
-		::System::Boolean IsinBattle; // 0x18
-		::System::Byte _padding0[0x3];
+		::System::UInt32 Duration; // 0x18
 		::System::UInt32 Priority; // 0x1C
-		::System::UInt32 Duration; // 0x20
+		::System::Boolean IsinBattle; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TOASTMANAGERROW_CTOR_OFFSET))(this);

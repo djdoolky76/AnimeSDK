@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define CAKHIMADICA_CTOR_OFFSET UNITYSDK_OFFSET(0xC487A80)
+#define CAKHIMADICA_CTOR_OFFSET UNITYSDK_OFFSET(0xCDEFF50)
 
-inline static constexpr unsigned int CAKHIMADICA_TypeDefinitionIndex = 74029;
+inline static constexpr unsigned int CAKHIMADICA_TypeDefinitionIndex = 76165;
 
 	class CAKHIMADICA
 	{

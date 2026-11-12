@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddRegardAsSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LBNKIJHDBHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB60D5E0)
-#define LBNKIJHDBHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB60D610)
+#define LBNKIJHDBHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBE9FE50)
+#define LBNKIJHDBHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE9FE80)
 
-inline static constexpr unsigned int LBNKIJHDBHI_TypeDefinitionIndex = 54819;
+inline static constexpr unsigned int LBNKIJHDBHI_TypeDefinitionIndex = 55988;
 
 	class LBNKIJHDBHI
 	{

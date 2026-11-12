@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Ability
 {
-	inline static constexpr unsigned int ILittleGameAbilityValueGetter_1_TypeDefinitionIndex = 77394;
+	inline static constexpr unsigned int ILittleGameAbilityValueGetter_1_TypeDefinitionIndex = 79728;
 
 	template <typename T>
 	class ILittleGameAbilityValueGetter_1

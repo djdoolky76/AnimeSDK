@@ -4,10 +4,10 @@
 class LCOKLOGEKEL;
 namespace RPG::Client { class IRogueTournGameSettleResultComposition; }
 
-#define OJOLPPLGIPM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBECFD90)
-#define OJOLPPLGIPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBECFE70)
+#define OJOLPPLGIPM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC7C74A0)
+#define OJOLPPLGIPM_CTOR_OFFSET UNITYSDK_OFFSET(0xC7C7580)
 
-inline static constexpr unsigned int OJOLPPLGIPM_TypeDefinitionIndex = 67850;
+inline static constexpr unsigned int OJOLPPLGIPM_TypeDefinitionIndex = 69795;
 
 	class OJOLPPLGIPM : public ::System::Object
 	{

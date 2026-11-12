@@ -4,7 +4,7 @@
 
 namespace TMPro
 {
-	inline static constexpr unsigned int CodePoint_TypeDefinitionIndex = 44626;
+	inline static constexpr unsigned int CodePoint_TypeDefinitionIndex = 45701;
 
 	class CodePoint : public ::System::Object
 	{

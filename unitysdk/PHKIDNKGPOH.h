@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 class PHKIDNKGPOH;
 namespace System { class String; }
 
-#define PHKIDNKGPOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2EA360)
-#define PHKIDNKGPOH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2EA380)
-#define PHKIDNKGPOH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2EA310)
+#define PHKIDNKGPOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F69E0)
+#define PHKIDNKGPOH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4F6A00)
+#define PHKIDNKGPOH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4F6990)
 
-inline static constexpr unsigned int PHKIDNKGPOH_TypeDefinitionIndex = 22386;
+inline static constexpr unsigned int PHKIDNKGPOH_TypeDefinitionIndex = 22795;
 
 	class PHKIDNKGPOH : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* OJGCIEKNGPM; // 0x18
-		::System::Boolean BMOBAIDLBCC; // 0x20
-		::System::Boolean EKGDOELGLFK; // 0x21
+		::System::Boolean EKGDOELGLFK; // 0x20
+		::System::Boolean BMOBAIDLBCC; // 0x21
 		::System::Byte _padding0[0x2];
 		::RPG::MVector3 NEMDKBKDFDN; // 0x24
 		::System::Void _ctor()

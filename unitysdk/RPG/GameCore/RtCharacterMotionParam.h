@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtCharacterMotionParam; }
 
-#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA58BB0)
-#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4C6B0)
+#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6AA30)
+#define RPG_GAMECORE_RTCHARACTERMOTIONPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC5F340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterMotionParam_TypeDefinitionIndex = 17651;
+	inline static constexpr unsigned int RtCharacterMotionParam_TypeDefinitionIndex = 17820;
 
 	class RtCharacterMotionParam : public ::RPG::GameCore::JsonConfig
 	{

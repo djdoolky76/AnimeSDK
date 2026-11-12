@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareQuestProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JMCJPBCHONI_CTOR_OFFSET UNITYSDK_OFFSET(0xB25E5E0)
-#define JMCJPBCHONI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB25E610)
+#define JMCJPBCHONI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA89700)
+#define JMCJPBCHONI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA89730)
 
-inline static constexpr unsigned int JMCJPBCHONI_TypeDefinitionIndex = 53136;
+inline static constexpr unsigned int JMCJPBCHONI_TypeDefinitionIndex = 54298;
 
 	class JMCJPBCHONI
 	{

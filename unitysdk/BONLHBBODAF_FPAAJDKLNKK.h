@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RtSkillPropertyType.h"
 class CENEFPOMFKG;
 
-inline static constexpr unsigned int BONLHBBODAF_FPAAJDKLNKK_TypeDefinitionIndex = 53766;
+inline static constexpr unsigned int BONLHBBODAF_FPAAJDKLNKK_TypeDefinitionIndex = 54930;
 
 	struct alignas(8) BONLHBBODAF_FPAAJDKLNKK
 	{

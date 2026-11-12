@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DecideAvatarOrderRow; }
 
-#define RPG_GAMECORE_DECIDEAVATARORDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FA420)
-#define RPG_GAMECORE_DECIDEAVATARORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F9E10)
+#define RPG_GAMECORE_DECIDEAVATARORDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80C370)
+#define RPG_GAMECORE_DECIDEAVATARORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E80BD60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecideAvatarOrderRow_TypeDefinitionIndex = 13363;
+	inline static constexpr unsigned int DecideAvatarOrderRow_TypeDefinitionIndex = 13435;
 
 	class DecideAvatarOrderRow : public ::System::Object
 	{

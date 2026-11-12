@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CCMNBFLCECI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD390)
+#define CCMNBFLCECI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5E0B0)
 
-inline static constexpr unsigned int CCMNBFLCECI_TypeDefinitionIndex = 42941;
+inline static constexpr unsigned int CCMNBFLCECI_TypeDefinitionIndex = 43922;
 
 	class CCMNBFLCECI : public ::System::Object
 	{

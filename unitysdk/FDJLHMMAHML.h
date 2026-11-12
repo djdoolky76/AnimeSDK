@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableBillboard; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FDJLHMMAHML_CTOR_OFFSET UNITYSDK_OFFSET(0x156DDB60)
-#define FDJLHMMAHML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156DDB90)
+#define FDJLHMMAHML_CTOR_OFFSET UNITYSDK_OFFSET(0x165F7740)
+#define FDJLHMMAHML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165F7770)
 
-inline static constexpr unsigned int FDJLHMMAHML_TypeDefinitionIndex = 58103;
+inline static constexpr unsigned int FDJLHMMAHML_TypeDefinitionIndex = 59342;
 
 	class FDJLHMMAHML
 	{

@@ -5,21 +5,21 @@ namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class ShowEvolveBuildTreasureInBattleForTrial; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLCGHBMFMBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1582B800)
-#define FLCGHBMFMBG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1582B810)
-#define FLCGHBMFMBG_JNIKOAEAEHB_OFFSET UNITYSDK_OFFSET(0x1582C320)
-#define FLCGHBMFMBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1582B8B0)
-#define FLCGHBMFMBG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1582C370)
-#define FLCGHBMFMBG_TICK_OFFSET UNITYSDK_OFFSET(0x1582B850)
+#define FLCGHBMFMBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1679AC20)
+#define FLCGHBMFMBG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1679AC30)
+#define FLCGHBMFMBG_JNIKOAEAEHB_OFFSET UNITYSDK_OFFSET(0x1679B730)
+#define FLCGHBMFMBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1679ACD0)
+#define FLCGHBMFMBG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1679B780)
+#define FLCGHBMFMBG_TICK_OFFSET UNITYSDK_OFFSET(0x1679AC70)
 
-inline static constexpr unsigned int FLCGHBMFMBG_TypeDefinitionIndex = 58646;
+inline static constexpr unsigned int FLCGHBMFMBG_TypeDefinitionIndex = 59913;
 
 	class FLCGHBMFMBG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::UIController* OGOFNHAGOPO; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial* OFKGLJOAMLD; // 0x20
+		::RPG::Client::UIController* OGOFNHAGOPO; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowEvolveBuildTreasureInBattleForTrial*))((::PBYTE)hIl2Cpp + FLCGHBMFMBG_CTOR_OFFSET))(this, a1, a2);

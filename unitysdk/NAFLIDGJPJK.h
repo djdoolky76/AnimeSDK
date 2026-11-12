@@ -6,24 +6,25 @@ class NAOKFLDEDBJ;
 namespace RPG::GameCore { class BouncyProjectileData; }
 namespace UnityEngine { class Collider; }
 
-#define NAFLIDGJPJK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA98070)
-#define NAFLIDGJPJK_FIOGIHDLLEN_OFFSET UNITYSDK_OFFSET(0xBA98D80)
-#define NAFLIDGJPJK_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0xBA98430)
-#define NAFLIDGJPJK_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0xBA98210)
-#define NAFLIDGJPJK_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBA98190)
-#define NAFLIDGJPJK_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xBA98C80)
+#define NAFLIDGJPJK_CTOR_OFFSET UNITYSDK_OFFSET(0xC31CDB0)
+#define NAFLIDGJPJK_FIOGIHDLLEN_OFFSET UNITYSDK_OFFSET(0xC31DAC0)
+#define NAFLIDGJPJK_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0xC31D170)
+#define NAFLIDGJPJK_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0xC31CF50)
+#define NAFLIDGJPJK_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xC31CED0)
+#define NAFLIDGJPJK_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xC31D9C0)
 
-inline static constexpr unsigned int NAFLIDGJPJK_TypeDefinitionIndex = 54737;
+inline static constexpr unsigned int NAFLIDGJPJK_TypeDefinitionIndex = 55904;
 
 	class NAFLIDGJPJK : public ::GGJEMEHMBNL
 	{
 	public:
-		::RPG::GameCore::BouncyProjectileData* ANEIIAADMKM; // 0x48
-		::UnityEngine::Collider* PAKKIDHJAPI; // 0x50
-		::System::Single DHMCBCACBEL; // 0x58
-		::UnityEngine::Vector3 JHOGJELLFPF; // 0x5C
-		::System::Single FLBLLMPABOJ; // 0x68
-		::System::Boolean GCFHHOLDLAB; // 0x6C
+		::UnityEngine::Collider* PAKKIDHJAPI; // 0x48
+		::RPG::GameCore::BouncyProjectileData* ANEIIAADMKM; // 0x50
+		::UnityEngine::Vector3 JHOGJELLFPF; // 0x58
+		::System::Boolean GCFHHOLDLAB; // 0x64
+		::System::Byte _padding0[0x3];
+		::System::Single DHMCBCACBEL; // 0x68
+		::System::Single FLBLLMPABOJ; // 0x6C
 		::System::Void _ctor(::NAOKFLDEDBJ* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NAOKFLDEDBJ*))((::PBYTE)hIl2Cpp + NAFLIDGJPJK_CTOR_OFFSET))(this, a1);

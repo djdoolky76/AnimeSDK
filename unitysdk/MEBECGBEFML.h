@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DisableLoopTowerShake; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MEBECGBEFML_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B8810)
-#define MEBECGBEFML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8B8840)
+#define MEBECGBEFML_CTOR_OFFSET UNITYSDK_OFFSET(0xC16A210)
+#define MEBECGBEFML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC16A240)
 
-inline static constexpr unsigned int MEBECGBEFML_TypeDefinitionIndex = 55003;
+inline static constexpr unsigned int MEBECGBEFML_TypeDefinitionIndex = 56177;
 
 	class MEBECGBEFML
 	{

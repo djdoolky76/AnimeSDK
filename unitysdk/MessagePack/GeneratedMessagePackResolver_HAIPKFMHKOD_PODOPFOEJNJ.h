@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_HAIPKFMHKOD_PODOPFOEJNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C764F40)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_HAIPKFMHKOD_PODOPFOEJNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E68A0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GeneratedMessagePackResolver_HAIPKFMHKOD_PODOPFOEJNJ_TypeDefinitionIndex = 36121;
+	inline static constexpr unsigned int GeneratedMessagePackResolver_HAIPKFMHKOD_PODOPFOEJNJ_TypeDefinitionIndex = 37049;
 
 	class GeneratedMessagePackResolver_HAIPKFMHKOD_PODOPFOEJNJ : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ICustomTimelineClipGUI_TypeDefinitionIndex = 38868;
+	inline static constexpr unsigned int ICustomTimelineClipGUI_TypeDefinitionIndex = 39797;
 
 	class ICustomTimelineClipGUI
 	{

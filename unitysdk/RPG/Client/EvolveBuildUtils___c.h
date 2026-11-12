@@ -9,49 +9,49 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE43610)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE43650)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET UNITYSDK_OFFSET(0xCE43B00)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDGEAREQUIPINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE43660)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATASC_B__8_0_OFFSET UNITYSDK_OFFSET(0xCE438B0)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xCE43690)
-#define RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET UNITYSDK_OFFSET(0xCE43AD0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD80C0D0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD80C110)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__COUNTUNLOCKEDSLOTNUM_B__18_0_OFFSET UNITYSDK_OFFSET(0xD80C5C0)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDGEAREQUIPINFO_B__1_0_OFFSET UNITYSDK_OFFSET(0xD80C120)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATASC_B__8_0_OFFSET UNITYSDK_OFFSET(0xD80C370)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__GETSORTEDMIXDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xD80C150)
+#define RPG_CLIENT_EVOLVEBUILDUTILS___C__SLOTINFOS2GEAREQUIPINFOS_B__17_0_OFFSET UNITYSDK_OFFSET(0xD80C590)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EvolveBuildUtils___c_TypeDefinitionIndex = 63814;
+	inline static constexpr unsigned int EvolveBuildUtils___c_TypeDefinitionIndex = 65256;
 
 	class EvolveBuildUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>** StaticGet___9__18_0()
+		static ::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55DF0);
-		}
-
-		static ::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>** StaticGet___9__17_0()
-		{
-			return (::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55DF8);
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x51B60);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E00);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>** StaticGet___9__8_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E08);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>** StaticGet___9__7_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::EvolveBuildMixData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E10);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x51B68);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55E18);
+			return (::System::Func_2<::RPG::GameCore::EvolveBuildGearEquipInfo*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x51B70);
+		}
+
+		static ::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x51B78);
+		}
+
+		static ::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>** StaticGet___9__17_0()
+		{
+			return (::System::Func_2<::GFNAPELNFIC*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x51B80);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::EvolveBuildScMixData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x51B88);
 		}
 
 		static ::System::Void _cctor()

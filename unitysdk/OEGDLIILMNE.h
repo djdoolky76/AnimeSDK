@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define OEGDLIILMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C620)
+#define OEGDLIILMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4E390)
 
-inline static constexpr unsigned int OEGDLIILMNE_TypeDefinitionIndex = 42259;
+inline static constexpr unsigned int OEGDLIILMNE_TypeDefinitionIndex = 43234;
 
 	class OEGDLIILMNE : public ::System::Object
 	{

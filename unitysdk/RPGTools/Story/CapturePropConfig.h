@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_STORY_CAPTUREPROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8CB0)
+#define RPGTOOLS_STORY_CAPTUREPROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF382B30)
 
 namespace RPGTools::Story
 {
-	inline static constexpr unsigned int CapturePropConfig_TypeDefinitionIndex = 48967;
+	inline static constexpr unsigned int CapturePropConfig_TypeDefinitionIndex = 50028;
 
 	class CapturePropConfig : public ::System::Object
 	{

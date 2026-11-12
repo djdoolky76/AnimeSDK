@@ -4,19 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetShenJunActionBar; }
 
-#define RPG_GAMECORE_SETSHENJUNACTIONBAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC0CF0)
-#define RPG_GAMECORE_SETSHENJUNACTIONBAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC0D00)
-#define RPG_GAMECORE_SETSHENJUNACTIONBAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC0CC0)
+#define RPG_GAMECORE_SETSHENJUNACTIONBAR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD2F20)
+#define RPG_GAMECORE_SETSHENJUNACTIONBAR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD2F30)
+#define RPG_GAMECORE_SETSHENJUNACTIONBAR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD2EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetShenJunActionBar_TypeDefinitionIndex = 22932;
+	inline static constexpr unsigned int SetShenJunActionBar_TypeDefinitionIndex = 23358;
 
 	class SetShenJunActionBar : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::UInt32 Level1LayerCount; // 0x18
 		::System::UInt32 Level2LayerCount; // 0x1C
+		::System::UInt32 Level3LayerCount; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETSHENJUNACTIONBAR_CTOR_OFFSET))(this);

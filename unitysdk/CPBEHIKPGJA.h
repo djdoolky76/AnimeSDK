@@ -5,10 +5,10 @@
 class BJAKGOHEGBP;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CPBEHIKPGJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC67090)
-#define CPBEHIKPGJA_DOCLGGFJGNB_OFFSET UNITYSDK_OFFSET(0x1EC670A0)
+#define CPBEHIKPGJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF17A90)
+#define CPBEHIKPGJA_DOCLGGFJGNB_OFFSET UNITYSDK_OFFSET(0x1FF17AA0)
 
-inline static constexpr unsigned int CPBEHIKPGJA_TypeDefinitionIndex = 44284;
+inline static constexpr unsigned int CPBEHIKPGJA_TypeDefinitionIndex = 45359;
 
 	class CPBEHIKPGJA : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 class IEICGPPGDAO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LNNHACINCGG_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E9880)
-#define LNNHACINCGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7E98B0)
+#define LNNHACINCGG_CTOR_OFFSET UNITYSDK_OFFSET(0xC048D70)
+#define LNNHACINCGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC048DA0)
 
-inline static constexpr unsigned int LNNHACINCGG_TypeDefinitionIndex = 56394;
+inline static constexpr unsigned int LNNHACINCGG_TypeDefinitionIndex = 57613;
 
 	class LNNHACINCGG
 	{

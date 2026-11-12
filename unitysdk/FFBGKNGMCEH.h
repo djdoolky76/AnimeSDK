@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsDamageCritical; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FFBGKNGMCEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1572F7E0)
-#define FFBGKNGMCEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1572F810)
+#define FFBGKNGMCEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1664B140)
+#define FFBGKNGMCEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1664B170)
 
-inline static constexpr unsigned int FFBGKNGMCEH_TypeDefinitionIndex = 54647;
+inline static constexpr unsigned int FFBGKNGMCEH_TypeDefinitionIndex = 55813;
 
 	class FFBGKNGMCEH
 	{

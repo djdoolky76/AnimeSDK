@@ -10,110 +10,110 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace ZXing { class Writer; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_MULTIFORMATWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6B62E0)
-#define ZXING_MULTIFORMATWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B7200)
-#define ZXING_MULTIFORMATWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6B6DC0)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__1_OFFSET UNITYSDK_OFFSET(0x1F6B7210)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__2_OFFSET UNITYSDK_OFFSET(0x1F6B7260)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__3_OFFSET UNITYSDK_OFFSET(0x1F6B72B0)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__4_OFFSET UNITYSDK_OFFSET(0x1F6B7300)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__5_OFFSET UNITYSDK_OFFSET(0x1F6B73B0)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__6_OFFSET UNITYSDK_OFFSET(0x1F6B7400)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__7_OFFSET UNITYSDK_OFFSET(0x1F6B7450)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__8_OFFSET UNITYSDK_OFFSET(0x1F6B74A0)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__9_OFFSET UNITYSDK_OFFSET(0x1F6B74F0)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__A_OFFSET UNITYSDK_OFFSET(0x1F6B7540)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__B_OFFSET UNITYSDK_OFFSET(0x1F6B7590)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__C_OFFSET UNITYSDK_OFFSET(0x1F6B75E0)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__D_OFFSET UNITYSDK_OFFSET(0x1F6B7630)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__E_OFFSET UNITYSDK_OFFSET(0x1F6B7680)
-#define ZXING_MULTIFORMATWRITER___CCTOR_B__F_OFFSET UNITYSDK_OFFSET(0x1F6B76C0)
+#define ZXING_MULTIFORMATWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20965A20)
+#define ZXING_MULTIFORMATWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x20966940)
+#define ZXING_MULTIFORMATWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x20966500)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__1_OFFSET UNITYSDK_OFFSET(0x20966950)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__2_OFFSET UNITYSDK_OFFSET(0x209669A0)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__3_OFFSET UNITYSDK_OFFSET(0x209669F0)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__4_OFFSET UNITYSDK_OFFSET(0x20966A40)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__5_OFFSET UNITYSDK_OFFSET(0x20966AF0)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__6_OFFSET UNITYSDK_OFFSET(0x20966B40)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__7_OFFSET UNITYSDK_OFFSET(0x20966B90)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__8_OFFSET UNITYSDK_OFFSET(0x20966BE0)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__9_OFFSET UNITYSDK_OFFSET(0x20966C30)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__A_OFFSET UNITYSDK_OFFSET(0x20966C80)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__B_OFFSET UNITYSDK_OFFSET(0x20966CD0)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__C_OFFSET UNITYSDK_OFFSET(0x20966D20)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__D_OFFSET UNITYSDK_OFFSET(0x20966D70)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__E_OFFSET UNITYSDK_OFFSET(0x20966DC0)
+#define ZXING_MULTIFORMATWRITER___CCTOR_B__F_OFFSET UNITYSDK_OFFSET(0x20966E00)
 
 namespace ZXing
 {
-	inline static constexpr unsigned int MultiFormatWriter_TypeDefinitionIndex = 6964;
+	inline static constexpr unsigned int MultiFormatWriter_TypeDefinitionIndex = 6975;
 
 	class MultiFormatWriter : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1a()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224A0);
-		}
-
 		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate18()
 		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224A8);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate12()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224B0);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1c()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224B8);
-		}
-
-		static ::System::Collections::Generic::IDictionary_2<::ZXing::BarcodeFormat, ::System::Func_1<::ZXing::Writer*>*>** StaticGet_formatMap()
-		{
-			return (::System::Collections::Generic::IDictionary_2<::ZXing::BarcodeFormat, ::System::Func_1<::ZXing::Writer*>*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224C0);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate19()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224C8);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1e()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224D0);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate13()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224D8);
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D10);
 		}
 
 		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1b()
 		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224E0);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate11()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224E8);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate14()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224F0);
-		}
-
-		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate15()
-		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x224F8);
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D18);
 		}
 
 		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate17()
 		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x22500);
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D20);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate15()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D28);
 		}
 
 		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate10()
 		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x22508);
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D30);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate14()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D38);
 		}
 
 		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate16()
 		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x22510);
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D40);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate19()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D48);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1e()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D50);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1c()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D58);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate13()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D60);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate11()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D68);
+		}
+
+		static ::System::Collections::Generic::IDictionary_2<::ZXing::BarcodeFormat, ::System::Func_1<::ZXing::Writer*>*>** StaticGet_formatMap()
+		{
+			return (::System::Collections::Generic::IDictionary_2<::ZXing::BarcodeFormat, ::System::Func_1<::ZXing::Writer*>*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D70);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1a()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D78);
+		}
+
+		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate12()
+		{
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D80);
 		}
 
 		static ::System::Func_1<::ZXing::Writer*>** StaticGet_CS___9__CachedAnonymousMethodDelegate1d()
 		{
-			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x22518);
+			return (::System::Func_1<::ZXing::Writer*>**)UnitySDK::FromName("ZXing", "MultiFormatWriter")->GetStaticField(0x42D88);
 		}
 
 		static ::System::Void _cctor()

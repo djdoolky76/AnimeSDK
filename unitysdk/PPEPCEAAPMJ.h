@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PPEPCEAAPMJ_TypeDefinitionIndex = 30915;
+inline static constexpr unsigned int PPEPCEAAPMJ_TypeDefinitionIndex = 31828;
 
 	enum class PPEPCEAAPMJ : ::System::Int32
 	{

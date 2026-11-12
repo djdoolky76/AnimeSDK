@@ -5,49 +5,49 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAE6B40)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAE6B80)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSGAME_B__25_0_OFFSET UNITYSDK_OFFSET(0xDAE6B90)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSGAME_B__25_1_OFFSET UNITYSDK_OFFSET(0xDAE6BA0)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSPVEGAME_B__26_0_OFFSET UNITYSDK_OFFSET(0xDAE6BD0)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSPVEGAME_B__26_1_OFFSET UNITYSDK_OFFSET(0xDAE6BB0)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSPVEGAME_B__26_2_OFFSET UNITYSDK_OFFSET(0xDAE6BC0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE53B770)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE53B7B0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSGAME_B__25_0_OFFSET UNITYSDK_OFFSET(0xE53B7C0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSGAME_B__25_1_OFFSET UNITYSDK_OFFSET(0xE53B7D0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSPVEGAME_B__26_0_OFFSET UNITYSDK_OFFSET(0xE53B800)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSPVEGAME_B__26_1_OFFSET UNITYSDK_OFFSET(0xE53B7E0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEMODULE___C__STARTMARBLECOOPBOSSPVEGAME_B__26_2_OFFSET UNITYSDK_OFFSET(0xE53B7F0)
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleModule___c_TypeDefinitionIndex = 74720;
+	inline static constexpr unsigned int PetMarbleModule___c_TypeDefinitionIndex = 76868;
 
 	class PetMarbleModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::DCHICFMEANN, ::System::Boolean>** StaticGet___9__26_1()
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::DCHICFMEANN, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1AF40);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1AF48);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B370);
 		}
 
 		static ::System::Func_2<::DCHICFMEANN, ::System::Boolean>** StaticGet___9__26_2()
 		{
-			return (::System::Func_2<::DCHICFMEANN, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1AF50);
+			return (::System::Func_2<::DCHICFMEANN, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B378);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__25_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1AF58);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B380);
 		}
 
-		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__25_0()
+		static ::System::Func_2<::DCHICFMEANN, ::System::Boolean>** StaticGet___9__26_1()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1AF60);
+			return (::System::Func_2<::DCHICFMEANN, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B388);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1AF68);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B390);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__25_1()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B398);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class DFGLKHAAGJB;
 
-#define IJPPMIGCJLF_CTOR_OFFSET UNITYSDK_OFFSET(0x16481680)
+#define IJPPMIGCJLF_CTOR_OFFSET UNITYSDK_OFFSET(0x17453FE0)
 
-inline static constexpr unsigned int IJPPMIGCJLF_TypeDefinitionIndex = 79018;
+inline static constexpr unsigned int IJPPMIGCJLF_TypeDefinitionIndex = 81794;
 
 	class IJPPMIGCJLF : public ::System::Object
 	{

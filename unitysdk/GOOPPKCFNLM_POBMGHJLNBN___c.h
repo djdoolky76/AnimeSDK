@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOPPKCFNLM_POBMGHJLNBN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C64C250)
-#define GOOPPKCFNLM_POBMGHJLNBN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64C290)
-#define GOOPPKCFNLM_POBMGHJLNBN___C__DEBUGSTRING_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C64C2A0)
+#define GOOPPKCFNLM_POBMGHJLNBN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7CDDD0)
+#define GOOPPKCFNLM_POBMGHJLNBN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CDE10)
+#define GOOPPKCFNLM_POBMGHJLNBN___C__DEBUGSTRING_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D7CDE20)
 
-inline static constexpr unsigned int GOOPPKCFNLM_POBMGHJLNBN___c_TypeDefinitionIndex = 37333;
+inline static constexpr unsigned int GOOPPKCFNLM_POBMGHJLNBN___c_TypeDefinitionIndex = 38261;
 
 	class GOOPPKCFNLM_POBMGHJLNBN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CF00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A980);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::String*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CF08);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A988);
 		}
 
 		static ::System::Void _cctor()

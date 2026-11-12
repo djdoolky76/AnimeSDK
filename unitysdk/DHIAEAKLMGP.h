@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FBEOIDJHJMG.h"
+class BBPBANMMLMF;
+class EAGPPDDBBIM;
+class HLJNBBHKKMI;
+class LPHINGPIEAJ;
+class NEFGBOPDKEH;
+
+#define DHIAEAKLMGP_BEACDEEOHOO_OFFSET UNITYSDK_OFFSET(0xF94E6B0)
+#define DHIAEAKLMGP_CTOR_OFFSET UNITYSDK_OFFSET(0xF94E5C0)
+#define DHIAEAKLMGP_GHJDJJOKEPE_OFFSET UNITYSDK_OFFSET(0xF94E740)
+
+inline static constexpr unsigned int DHIAEAKLMGP_TypeDefinitionIndex = 80068;
+
+	class DHIAEAKLMGP : public ::FBEOIDJHJMG
+	{
+	public:
+		::HLJNBBHKKMI* PDENFEFCAGN; // 0x50
+		::System::Void _ctor(::HLJNBBHKKMI* a1, ::LPHINGPIEAJ* a2, ::BBPBANMMLMF* a3)
+		{
+			return ((::System::Void(*)(::PVOID, ::HLJNBBHKKMI*, ::LPHINGPIEAJ*, ::BBPBANMMLMF*))((::PBYTE)hIl2Cpp + DHIAEAKLMGP_CTOR_OFFSET))(this, a1, a2, a3);
+		}
+
+		::NEFGBOPDKEH* BEACDEEOHOO(::EAGPPDDBBIM* a1)
+		{
+			return ((::NEFGBOPDKEH*(*)(::PVOID, ::EAGPPDDBBIM*))((::PBYTE)hIl2Cpp + DHIAEAKLMGP_BEACDEEOHOO_OFFSET))(this, a1);
+		}
+
+		::LPHINGPIEAJ* GHJDJJOKEPE(::EAGPPDDBBIM* a1)
+		{
+			return ((::LPHINGPIEAJ*(*)(::PVOID, ::EAGPPDDBBIM*))((::PBYTE)hIl2Cpp + DHIAEAKLMGP_GHJDJJOKEPE_OFFSET))(this, a1);
+		}
+
+	};

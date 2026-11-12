@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CloseAllTopPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CPKPPECKOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD9910)
-#define CPKPPECKOKD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDCD9920)
-#define CPKPPECKOKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCD9960)
-#define CPKPPECKOKD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDCD9BC0)
-#define CPKPPECKOKD_TICK_OFFSET UNITYSDK_OFFSET(0xDCD9C10)
+#define CPKPPECKOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ED8D0)
+#define CPKPPECKOKD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE8ED8E0)
+#define CPKPPECKOKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE8ED920)
+#define CPKPPECKOKD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE8EDB80)
+#define CPKPPECKOKD_TICK_OFFSET UNITYSDK_OFFSET(0xE8EDBD0)
 
-inline static constexpr unsigned int CPKPPECKOKD_TypeDefinitionIndex = 56351;
+inline static constexpr unsigned int CPKPPECKOKD_TypeDefinitionIndex = 57565;
 
 	class CPKPPECKOKD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CloseAllTopPage* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CloseAllTopPage* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CloseAllTopPage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CloseAllTopPage*))((::PBYTE)hIl2Cpp + CPKPPECKOKD_CTOR_OFFSET))(this, a1, a2);

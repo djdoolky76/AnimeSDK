@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_EDITORPCMOUTPUTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x166CD910)
+#define CRIWARE_CRIATOMCONFIG_EDITORPCMOUTPUTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x17511960)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_EditorPcmOutputConfig_TypeDefinitionIndex = 40157;
+	inline static constexpr unsigned int CriAtomConfig_EditorPcmOutputConfig_TypeDefinitionIndex = 41132;
 
 	class CriAtomConfig_EditorPcmOutputConfig : public ::System::Object
 	{

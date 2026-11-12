@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define FKKCAGOGHKL_KLFNFKEKEPD_CCTOR_OFFSET UNITYSDK_OFFSET(0x15804810)
+#define FKKCAGOGHKL_KLFNFKEKEPD_CCTOR_OFFSET UNITYSDK_OFFSET(0x16771030)
 
-inline static constexpr unsigned int FKKCAGOGHKL_KLFNFKEKEPD_TypeDefinitionIndex = 59326;
+inline static constexpr unsigned int FKKCAGOGHKL_KLFNFKEKEPD_TypeDefinitionIndex = 60603;
 
 	class FKKCAGOGHKL_KLFNFKEKEPD : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_BAFLCCKGNLI()
-		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "KLFNFKEKEPD")->GetStaticField(0x51010);
-		}
-
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_NOKEDKHHMNK()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KLFNFKEKEPD")->GetStaticField(0x51020);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "KLFNFKEKEPD")->GetStaticField(0x66B40);
+		}
+
+		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_BAFLCCKGNLI()
+		{
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "KLFNFKEKEPD")->GetStaticField(0x66B50);
 		}
 
 		static ::System::Void _cctor()

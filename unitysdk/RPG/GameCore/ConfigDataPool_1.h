@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConfigDataPool_1_TypeDefinitionIndex = 10736;
+	inline static constexpr unsigned int ConfigDataPool_1_TypeDefinitionIndex = 10752;
 
 	template <typename T>
 	class ConfigDataPool_1 : public ::LELCKJPOPAO

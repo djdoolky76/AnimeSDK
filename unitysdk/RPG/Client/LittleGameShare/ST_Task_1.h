@@ -5,7 +5,7 @@ class PAPOPANPGIJ;
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 36971;
+	inline static constexpr unsigned int ST_Task_1_TypeDefinitionIndex = 37899;
 
 	template <typename T>
 	class ST_Task_1 : public ::DJPBAKPBELL

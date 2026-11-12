@@ -9,12 +9,12 @@ namespace RPG::GameCore { class JsonOfflineCullingCellSerializeData; }
 namespace RPG::GameCore { class JsonOfflineCullingCellSubData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MFCCHLKCMPE_NHBLDMIHFDM_1_OFFSET UNITYSDK_OFFSET(0xB8ED450)
-#define MFCCHLKCMPE_NHBLDMIHFDM_2_OFFSET UNITYSDK_OFFSET(0xB8ED880)
-#define MFCCHLKCMPE_NHBLDMIHFDM_OFFSET UNITYSDK_OFFSET(0xB8ECE30)
-#define MFCCHLKCMPE_OIOKFHDLKNB_OFFSET UNITYSDK_OFFSET(0xB8EDA80)
+#define MFCCHLKCMPE_NHBLDMIHFDM_1_OFFSET UNITYSDK_OFFSET(0xC19F270)
+#define MFCCHLKCMPE_NHBLDMIHFDM_2_OFFSET UNITYSDK_OFFSET(0xC19F6A0)
+#define MFCCHLKCMPE_NHBLDMIHFDM_OFFSET UNITYSDK_OFFSET(0xC19EC50)
+#define MFCCHLKCMPE_OIOKFHDLKNB_OFFSET UNITYSDK_OFFSET(0xC19F8A0)
 
-inline static constexpr unsigned int MFCCHLKCMPE_TypeDefinitionIndex = 73759;
+inline static constexpr unsigned int MFCCHLKCMPE_TypeDefinitionIndex = 75883;
 
 	class MFCCHLKCMPE : public ::System::Object
 	{

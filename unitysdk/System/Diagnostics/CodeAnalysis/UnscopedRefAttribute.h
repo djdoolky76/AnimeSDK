@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_UNSCOPEDREFATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F691020)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_UNSCOPEDREFATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x209407F0)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int UnscopedRefAttribute_TypeDefinitionIndex = 6078;
+	inline static constexpr unsigned int UnscopedRefAttribute_TypeDefinitionIndex = 6086;
 
 	class UnscopedRefAttribute : public ::System::Attribute
 	{

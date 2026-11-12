@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PHOKAOMINMC_CTOR_OFFSET UNITYSDK_OFFSET(0xC259630)
+#define PHOKAOMINMC_CTOR_OFFSET UNITYSDK_OFFSET(0xCB7E9B0)
 
-inline static constexpr unsigned int PHOKAOMINMC_TypeDefinitionIndex = 59968;
+inline static constexpr unsigned int PHOKAOMINMC_TypeDefinitionIndex = 61252;
 
 	class PHOKAOMINMC : public ::System::Object
 	{

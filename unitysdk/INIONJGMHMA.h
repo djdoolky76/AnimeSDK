@@ -6,10 +6,10 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define INIONJGMHMA_CTOR_OFFSET UNITYSDK_OFFSET(0x164EF9F0)
-#define INIONJGMHMA_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x164EFA70)
+#define INIONJGMHMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8209C0)
+#define INIONJGMHMA_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xB820A40)
 
-inline static constexpr unsigned int INIONJGMHMA_TypeDefinitionIndex = 73146;
+inline static constexpr unsigned int INIONJGMHMA_TypeDefinitionIndex = 75260;
 
 	class INIONJGMHMA : public ::GMBPBAHKLDB
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class AttachSkillTypeDisable; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACHSKILLTYPEDISABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4025A0)
-#define RPG_GAMECORE_ATTACHSKILLTYPEDISABLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D4025B0)
-#define RPG_GAMECORE_ATTACHSKILLTYPEDISABLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D402570)
+#define RPG_GAMECORE_ATTACHSKILLTYPEDISABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E622810)
+#define RPG_GAMECORE_ATTACHSKILLTYPEDISABLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E622820)
+#define RPG_GAMECORE_ATTACHSKILLTYPEDISABLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6227E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachSkillTypeDisable_TypeDefinitionIndex = 23607;
+	inline static constexpr unsigned int AttachSkillTypeDisable_TypeDefinitionIndex = 24054;
 
 	class AttachSkillTypeDisable : public ::RPG::GameCore::TaskConfig
 	{

@@ -6,12 +6,12 @@ namespace RPG::Client::FateRin::Card { class IFateRinReplaceCardViewModel; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFA3C10)
-#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_0__SHOWCARDREWARDREPLACEDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xCFA5CD0)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD925340)
+#define RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_0__SHOWCARDREWARDREPLACEDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xD927400)
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int FateRinHost___c__DisplayClass17_0_TypeDefinitionIndex = 80525;
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass17_0_TypeDefinitionIndex = 83305;
 
 	class FateRinHost___c__DisplayClass17_0 : public ::System::Object
 	{
@@ -19,8 +19,8 @@ namespace RPG::Client::FateRin
 		::System::Collections::Generic::Queue_1<::System::UInt32>* cardIDs; // 0x10
 		::System::Action* showBossTransition; // 0x18
 		::System::Action* onAllFinished; // 0x20
-		::System::Boolean hasNextCard; // 0x28
-		::System::Boolean showBossTransitionInTheEnd; // 0x29
+		::System::Boolean showBossTransitionInTheEnd; // 0x28
+		::System::Boolean hasNextCard; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_FATERINHOST___C__DISPLAYCLASS17_0_CTOR_OFFSET))(this);

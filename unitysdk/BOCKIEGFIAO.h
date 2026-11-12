@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BOCKIEGFIAO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D9EDD90)
-#define BOCKIEGFIAO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9EE310)
-#define BOCKIEGFIAO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D9EDF00)
-#define BOCKIEGFIAO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D9ED880)
-#define BOCKIEGFIAO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D9EDB10)
-#define BOCKIEGFIAO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D9EDFA0)
-#define BOCKIEGFIAO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D9EDFF0)
-#define BOCKIEGFIAO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D9EDDD0)
-#define BOCKIEGFIAO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D9EDAB0)
-#define BOCKIEGFIAO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D9EDC40)
-#define BOCKIEGFIAO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9EDE60)
-#define BOCKIEGFIAO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9ED800)
+#define BOCKIEGFIAO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EBB86C0)
+#define BOCKIEGFIAO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBB8C40)
+#define BOCKIEGFIAO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EBB8830)
+#define BOCKIEGFIAO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EBB81B0)
+#define BOCKIEGFIAO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EBB8440)
+#define BOCKIEGFIAO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EBB88D0)
+#define BOCKIEGFIAO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EBB8920)
+#define BOCKIEGFIAO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EBB8700)
+#define BOCKIEGFIAO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EBB83E0)
+#define BOCKIEGFIAO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EBB8570)
+#define BOCKIEGFIAO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EBB8790)
+#define BOCKIEGFIAO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EBB8130)
 
-inline static constexpr unsigned int BOCKIEGFIAO_TypeDefinitionIndex = 14268;
+inline static constexpr unsigned int BOCKIEGFIAO_TypeDefinitionIndex = 14425;
 
 	class BOCKIEGFIAO : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmSongRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0x38E30);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmSongRow*>**)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0x4B030);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0x38E38);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0x4B038);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmSongRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MusicRhythmSongRow*>**)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0x38E40);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0xC220);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0x4B040);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0xC221);
+			return (::System::Boolean*)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0xF420);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "BOCKIEGFIAO")->GetStaticField(0xF421);
 		}
 
 		static ::System::Void _cctor()

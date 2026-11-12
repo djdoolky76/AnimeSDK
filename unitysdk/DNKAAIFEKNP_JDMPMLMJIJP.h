@@ -3,7 +3,7 @@
 #include "unitysdk/System/Runtime/InteropServices/ComTypes/FILETIME.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int DNKAAIFEKNP_JDMPMLMJIJP_TypeDefinitionIndex = 59982;
+inline static constexpr unsigned int DNKAAIFEKNP_JDMPMLMJIJP_TypeDefinitionIndex = 61266;
 
 	struct alignas(8) DNKAAIFEKNP_JDMPMLMJIJP
 	{

@@ -4,18 +4,18 @@
 class JDLIPNFGEID;
 namespace System { class Object; }
 
-#define JDLIPNFGEID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E70DCB0)
-#define JDLIPNFGEID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E70DCF0)
-#define JDLIPNFGEID___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E70DD00)
+#define JDLIPNFGEID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA1C3D0)
+#define JDLIPNFGEID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA1C410)
+#define JDLIPNFGEID___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FA1C420)
 
-inline static constexpr unsigned int JDLIPNFGEID___c_TypeDefinitionIndex = 34993;
+inline static constexpr unsigned int JDLIPNFGEID___c_TypeDefinitionIndex = 35921;
 
 	class JDLIPNFGEID___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DF60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E870);
 		}
 
 		static ::System::Void _cctor()

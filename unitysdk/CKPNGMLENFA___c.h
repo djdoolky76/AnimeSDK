@@ -4,18 +4,18 @@
 class CKPNGMLENFA;
 namespace System { class Object; }
 
-#define CKPNGMLENFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0F14A0)
-#define CKPNGMLENFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F14E0)
-#define CKPNGMLENFA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0F14F0)
+#define CKPNGMLENFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3C4550)
+#define CKPNGMLENFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3C4590)
+#define CKPNGMLENFA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F3C45A0)
 
-inline static constexpr unsigned int CKPNGMLENFA___c_TypeDefinitionIndex = 34817;
+inline static constexpr unsigned int CKPNGMLENFA___c_TypeDefinitionIndex = 35745;
 
 	class CKPNGMLENFA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BE70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15570);
 		}
 
 		static ::System::Void _cctor()

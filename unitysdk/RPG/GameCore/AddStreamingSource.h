@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AddStreamingSource; }
 namespace RPG::GameCore { class StoryAdditionStreamingCenter; }
 
-#define RPG_GAMECORE_ADDSTREAMINGSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38BD60)
-#define RPG_GAMECORE_ADDSTREAMINGSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38BD70)
-#define RPG_GAMECORE_ADDSTREAMINGSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38BD30)
+#define RPG_GAMECORE_ADDSTREAMINGSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59BA30)
+#define RPG_GAMECORE_ADDSTREAMINGSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E59BA40)
+#define RPG_GAMECORE_ADDSTREAMINGSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E59BA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddStreamingSource_TypeDefinitionIndex = 21241;
+	inline static constexpr unsigned int AddStreamingSource_TypeDefinitionIndex = 21584;
 
 	class AddStreamingSource : public ::RPG::GameCore::TaskConfig
 	{

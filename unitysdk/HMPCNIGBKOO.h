@@ -7,11 +7,11 @@ class DMGLFMNEJGL;
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define HMPCNIGBKOO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8A2C0)
-#define HMPCNIGBKOO_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0x15D89F70)
-#define HMPCNIGBKOO_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x15D89F20)
+#define HMPCNIGBKOO_CTOR_OFFSET UNITYSDK_OFFSET(0x16D2A420)
+#define HMPCNIGBKOO_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0x16D2A0D0)
+#define HMPCNIGBKOO_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x16D2A080)
 
-inline static constexpr unsigned int HMPCNIGBKOO_TypeDefinitionIndex = 73366;
+inline static constexpr unsigned int HMPCNIGBKOO_TypeDefinitionIndex = 75483;
 
 	class HMPCNIGBKOO : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerPermanentEmotion; }
 
-#define CPJLEHLGGEE_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD7730)
-#define CPJLEHLGGEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCD7760)
+#define CPJLEHLGGEE_CTOR_OFFSET UNITYSDK_OFFSET(0xE623FE0)
+#define CPJLEHLGGEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE624010)
 
-inline static constexpr unsigned int CPJLEHLGGEE_TypeDefinitionIndex = 55905;
+inline static constexpr unsigned int CPJLEHLGGEE_TypeDefinitionIndex = 57108;
 
 	class CPJLEHLGGEE
 	{

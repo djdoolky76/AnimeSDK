@@ -4,18 +4,18 @@
 class PDMEKAGOCND;
 namespace System { class Object; }
 
-#define PDMEKAGOCND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF12990)
-#define PDMEKAGOCND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF129D0)
-#define PDMEKAGOCND___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF129E0)
+#define PDMEKAGOCND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1DE330)
+#define PDMEKAGOCND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1DE370)
+#define PDMEKAGOCND___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F1DE380)
 
-inline static constexpr unsigned int PDMEKAGOCND___c_TypeDefinitionIndex = 29959;
+inline static constexpr unsigned int PDMEKAGOCND___c_TypeDefinitionIndex = 30857;
 
 	class PDMEKAGOCND___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37E80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F4D0);
 		}
 
 		static ::System::Void _cctor()

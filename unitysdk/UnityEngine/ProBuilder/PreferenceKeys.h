@@ -3,28 +3,28 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_PROBUILDER_PREFERENCEKEYS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24EB60)
+#define UNITYENGINE_PROBUILDER_PREFERENCEKEYS_CCTOR_OFFSET UNITYSDK_OFFSET(0x204FFF90)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int PreferenceKeys_TypeDefinitionIndex = 44386;
+	inline static constexpr unsigned int PreferenceKeys_TypeDefinitionIndex = 45461;
 
 	class PreferenceKeys : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Color* StaticGet_proBuilderBlue()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x12D40);
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x14EA0);
 		}
 
 		static ::UnityEngine::Color* StaticGet_proBuilderLightGray()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x12D50);
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x14EB0);
 		}
 
 		static ::UnityEngine::Color* StaticGet_proBuilderDarkGray()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x12D60);
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.ProBuilder", "PreferenceKeys")->GetStaticField(0x14EC0);
 		}
 
 		// static const ::System::String* pluginTitle; // 0x0

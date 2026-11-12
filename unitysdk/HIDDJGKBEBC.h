@@ -4,17 +4,17 @@
 namespace R3 { template <typename T> class Observable_1; }
 namespace System { class String; }
 
-#define HIDDJGKBEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE0DB0)
-#define HIDDJGKBEBC_GET_DESC_OFFSET UNITYSDK_OFFSET(0x15CE0DA0)
-#define HIDDJGKBEBC_GET_ICON_OFFSET UNITYSDK_OFFSET(0x15CE0D90)
+#define HIDDJGKBEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x16C2E6A0)
+#define HIDDJGKBEBC_GET_DESC_OFFSET UNITYSDK_OFFSET(0x16C2E690)
+#define HIDDJGKBEBC_GET_ICON_OFFSET UNITYSDK_OFFSET(0x16C2E680)
 
-inline static constexpr unsigned int HIDDJGKBEBC_TypeDefinitionIndex = 79592;
+inline static constexpr unsigned int HIDDJGKBEBC_TypeDefinitionIndex = 82369;
 
 	class HIDDJGKBEBC : public ::System::Object
 	{
 	public:
-		::R3::Observable_1<::System::String*>* _Icon_k__BackingField; // 0x10
-		::R3::Observable_1<::System::String*>* _Desc_k__BackingField; // 0x18
+		::R3::Observable_1<::System::String*>* _Desc_k__BackingField; // 0x10
+		::R3::Observable_1<::System::String*>* _Icon_k__BackingField; // 0x18
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HIDDJGKBEBC_CTOR_OFFSET))(this, a1, a2);

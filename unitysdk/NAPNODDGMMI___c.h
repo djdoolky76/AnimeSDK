@@ -4,18 +4,18 @@
 class NAPNODDGMMI;
 namespace System { class Object; }
 
-#define NAPNODDGMMI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EACB610)
-#define NAPNODDGMMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EACB640)
-#define NAPNODDGMMI___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EACB650)
+#define NAPNODDGMMI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE07BD0)
+#define NAPNODDGMMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE07C00)
+#define NAPNODDGMMI___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FE07C10)
 
-inline static constexpr unsigned int NAPNODDGMMI___c_TypeDefinitionIndex = 27338;
+inline static constexpr unsigned int NAPNODDGMMI___c_TypeDefinitionIndex = 27869;
 
 	class NAPNODDGMMI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CC30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67520);
 		}
 
 		static ::System::Void _cctor()

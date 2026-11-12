@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_MINATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4062A0)
+#define UNITYENGINE_MINATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x206B6E40)
 
 namespace UnityEngine
 {

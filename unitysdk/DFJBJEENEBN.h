@@ -4,17 +4,17 @@
 class DFJBJEENEBN;
 class FCOEMCEDLNL;
 
-#define DFJBJEENEBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD1A9C0)
-#define DFJBJEENEBN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD1A810)
+#define DFJBJEENEBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE6E10)
+#define DFJBJEENEBN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEE6C60)
 
-inline static constexpr unsigned int DFJBJEENEBN_TypeDefinitionIndex = 12892;
+inline static constexpr unsigned int DFJBJEENEBN_TypeDefinitionIndex = 12964;
 
 	class DFJBJEENEBN : public ::System::Object
 	{
 	public:
 		::System::UInt32 LDGGEPJEKND; // 0x10
-		::System::UInt32 CMNOEFFFNPE; // 0x14
-		::System::UInt32 IODLAAIECIG; // 0x18
+		::System::UInt32 IODLAAIECIG; // 0x14
+		::System::UInt32 CMNOEFFFNPE; // 0x18
 		::System::UInt32 FCOKEIGNAIN; // 0x1C
 		::System::Void _ctor()
 		{

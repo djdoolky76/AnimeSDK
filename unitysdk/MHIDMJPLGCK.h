@@ -6,7 +6,7 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-inline static constexpr unsigned int MHIDMJPLGCK_TypeDefinitionIndex = 56432;
+inline static constexpr unsigned int MHIDMJPLGCK_TypeDefinitionIndex = 57650;
 
 	struct alignas(8) MHIDMJPLGCK
 	{

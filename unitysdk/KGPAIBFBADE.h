@@ -4,10 +4,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class GridFightRole; }
 
-#define KGPAIBFBADE_CTOR_OFFSET UNITYSDK_OFFSET(0xB3F92F0)
-#define KGPAIBFBADE_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0xB3F92A0)
+#define KGPAIBFBADE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC8CA20)
+#define KGPAIBFBADE_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0xBC8C9D0)
 
-inline static constexpr unsigned int KGPAIBFBADE_TypeDefinitionIndex = 65192;
+inline static constexpr unsigned int KGPAIBFBADE_TypeDefinitionIndex = 66889;
 
 	class KGPAIBFBADE : public ::System::Object
 	{

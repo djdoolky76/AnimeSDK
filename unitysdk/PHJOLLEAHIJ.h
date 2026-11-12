@@ -6,12 +6,12 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGroupData; }
 namespace RPG::Client::ActivityAlley { class AlleyPackShipData; }
 namespace RPG::Client::ActivityAlley { class ClientAlleyPlacingShip; }
 
-#define PHJOLLEAHIJ_BFPGOJLHFNL_OFFSET UNITYSDK_OFFSET(0xC252F60)
-#define PHJOLLEAHIJ_CEOGIAPOHKP_OFFSET UNITYSDK_OFFSET(0xC2514B0)
-#define PHJOLLEAHIJ_DPCNJNKHHHM_OFFSET UNITYSDK_OFFSET(0xC252E40)
-#define PHJOLLEAHIJ_HLBKLCMEFFP_OFFSET UNITYSDK_OFFSET(0xC2523F0)
+#define PHJOLLEAHIJ_BFPGOJLHFNL_OFFSET UNITYSDK_OFFSET(0xCB78390)
+#define PHJOLLEAHIJ_CEOGIAPOHKP_OFFSET UNITYSDK_OFFSET(0xCB768E0)
+#define PHJOLLEAHIJ_DPCNJNKHHHM_OFFSET UNITYSDK_OFFSET(0xCB78270)
+#define PHJOLLEAHIJ_HLBKLCMEFFP_OFFSET UNITYSDK_OFFSET(0xCB77820)
 
-inline static constexpr unsigned int PHJOLLEAHIJ_TypeDefinitionIndex = 74111;
+inline static constexpr unsigned int PHJOLLEAHIJ_TypeDefinitionIndex = 76259;
 
 	class PHJOLLEAHIJ : public ::System::Object
 	{

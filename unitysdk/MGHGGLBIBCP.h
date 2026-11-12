@@ -6,22 +6,22 @@ namespace System { class Type; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MGHGGLBIBCP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC936E0)
-#define MGHGGLBIBCP_LBJEEAEJBCM_1_OFFSET UNITYSDK_OFFSET(0x1CC90640)
+#define MGHGGLBIBCP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE3A870)
+#define MGHGGLBIBCP_LBJEEAEJBCM_1_OFFSET UNITYSDK_OFFSET(0x1DE377D0)
 
-inline static constexpr unsigned int MGHGGLBIBCP_TypeDefinitionIndex = 43891;
+inline static constexpr unsigned int MGHGGLBIBCP_TypeDefinitionIndex = 44966;
 
 	class MGHGGLBIBCP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::JEMEIPMCICA*>** StaticGet_JGJFFFJCBEF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::JEMEIPMCICA*>**)UnitySDK::FromName("", "MGHGGLBIBCP")->GetStaticField(0xF90);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::JEMEIPMCICA*>**)UnitySDK::FromName("", "MGHGGLBIBCP")->GetStaticField(0x1090);
 		}
 
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::JEMEIPMCICA*>** StaticGet_HNENBOGHDLL()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::JEMEIPMCICA*>**)UnitySDK::FromName("", "MGHGGLBIBCP")->GetStaticField(0xF98);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::JEMEIPMCICA*>**)UnitySDK::FromName("", "MGHGGLBIBCP")->GetStaticField(0x1098);
 		}
 
 		static ::System::Void _cctor()

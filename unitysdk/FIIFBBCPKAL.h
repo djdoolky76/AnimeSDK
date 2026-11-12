@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FIIFBBCPKAL_CTOR_OFFSET UNITYSDK_OFFSET(0x157A97E0)
+#define FIIFBBCPKAL_CTOR_OFFSET UNITYSDK_OFFSET(0x166CB260)
 
-inline static constexpr unsigned int FIIFBBCPKAL_TypeDefinitionIndex = 57948;
+inline static constexpr unsigned int FIIFBBCPKAL_TypeDefinitionIndex = 59185;
 
 	class FIIFBBCPKAL : public ::System::Object
 	{

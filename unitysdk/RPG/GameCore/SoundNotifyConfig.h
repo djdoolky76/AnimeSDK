@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SoundNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SOUNDNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF1DE0)
-#define RPG_GAMECORE_SOUNDNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF1D10)
+#define RPG_GAMECORE_SOUNDNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03DE0)
+#define RPG_GAMECORE_SOUNDNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED03D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SoundNotifyConfig_TypeDefinitionIndex = 16956;
+	inline static constexpr unsigned int SoundNotifyConfig_TypeDefinitionIndex = 17123;
 
 	class SoundNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,20 +5,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitMonopolyResume; }
 namespace System { class Object; }
 
-#define NJPLMEKJLDN_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2B8C0)
-#define NJPLMEKJLDN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC2BAB0)
-#define NJPLMEKJLDN_FJAACDOELNC_OFFSET UNITYSDK_OFFSET(0xBC2BB90)
-#define NJPLMEKJLDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC2B8D0)
-#define NJPLMEKJLDN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC2BA30)
-#define NJPLMEKJLDN_TICK_OFFSET UNITYSDK_OFFSET(0xBC2BB30)
+#define NJPLMEKJLDN_CTOR_OFFSET UNITYSDK_OFFSET(0xC50F1C0)
+#define NJPLMEKJLDN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC50F3B0)
+#define NJPLMEKJLDN_FJAACDOELNC_OFFSET UNITYSDK_OFFSET(0xC50F490)
+#define NJPLMEKJLDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC50F1D0)
+#define NJPLMEKJLDN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC50F330)
+#define NJPLMEKJLDN_TICK_OFFSET UNITYSDK_OFFSET(0xC50F430)
 
-inline static constexpr unsigned int NJPLMEKJLDN_TypeDefinitionIndex = 58904;
+inline static constexpr unsigned int NJPLMEKJLDN_TypeDefinitionIndex = 60177;
 
 	class NJPLMEKJLDN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaitMonopolyResume* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaitMonopolyResume* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitMonopolyResume* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitMonopolyResume*))((::PBYTE)hIl2Cpp + NJPLMEKJLDN_CTOR_OFFSET))(this, a1, a2);

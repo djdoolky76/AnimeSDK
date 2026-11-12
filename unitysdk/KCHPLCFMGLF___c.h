@@ -4,18 +4,18 @@
 class KCHPLCFMGLF;
 namespace System { class Object; }
 
-#define KCHPLCFMGLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7F70C0)
-#define KCHPLCFMGLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F70F0)
-#define KCHPLCFMGLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7F7100)
+#define KCHPLCFMGLF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB0C400)
+#define KCHPLCFMGLF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB0C430)
+#define KCHPLCFMGLF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB0C440)
 
-inline static constexpr unsigned int KCHPLCFMGLF___c_TypeDefinitionIndex = 27314;
+inline static constexpr unsigned int KCHPLCFMGLF___c_TypeDefinitionIndex = 27845;
 
 	class KCHPLCFMGLF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFD10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FBB0);
 		}
 
 		static ::System::Void _cctor()

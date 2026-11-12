@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournPersonaGameStyleGiftData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE035910)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE035940)
-#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET UNITYSDK_OFFSET(0xE035950)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA9FE10)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA9FE40)
+#define RPG_CLIENT_ROGUETOURNPERSONASTYLEINFO___C__GETGIFTSFORMENU_B__8_0_OFFSET UNITYSDK_OFFSET(0xEA9FE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaStyleInfo___c_TypeDefinitionIndex = 67759;
+	inline static constexpr unsigned int RogueTournPersonaStyleInfo___c_TypeDefinitionIndex = 69704;
 
 	class RogueTournPersonaStyleInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DA40);
+			return (::System::Func_2<::RPG::Client::RogueTournPersonaGameStyleGiftData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72990);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DA48);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72998);
 		}
 
 		static ::System::Void _cctor()

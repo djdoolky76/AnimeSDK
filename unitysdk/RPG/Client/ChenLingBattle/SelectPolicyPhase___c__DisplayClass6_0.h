@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASE___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA60050)
-#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASE___C__DISPLAYCLASS6_0__SELECTPOLICY_B__2_OFFSET UNITYSDK_OFFSET(0xCA600E0)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASE___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3C3B60)
+#define RPG_CLIENT_CHENLINGBATTLE_SELECTPOLICYPHASE___C__DISPLAYCLASS6_0__SELECTPOLICY_B__2_OFFSET UNITYSDK_OFFSET(0xD3C3BF0)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SelectPolicyPhase___c__DisplayClass6_0_TypeDefinitionIndex = 76319;
+	inline static constexpr unsigned int SelectPolicyPhase___c__DisplayClass6_0_TypeDefinitionIndex = 78650;
 
 	class SelectPolicyPhase___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomExOutputAnalyzer.h"
 namespace System { class Object; }
 
-#define CRIWARE_CRIATOMEXPLAYEROUTPUTANALYZER_CTOR_OFFSET UNITYSDK_OFFSET(0x166FEA30)
+#define CRIWARE_CRIATOMEXPLAYEROUTPUTANALYZER_CTOR_OFFSET UNITYSDK_OFFSET(0x175429A0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_TypeDefinitionIndex = 40061;
+	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_TypeDefinitionIndex = 41036;
 
 	class CriAtomExPlayerOutputAnalyzer : public ::CriWare::CriAtomExOutputAnalyzer
 	{

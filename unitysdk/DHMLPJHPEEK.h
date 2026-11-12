@@ -13,49 +13,49 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define DHMLPJHPEEK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD22F30)
-#define DHMLPJHPEEK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD234B0)
-#define DHMLPJHPEEK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD230A0)
-#define DHMLPJHPEEK_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1CD22B00)
-#define DHMLPJHPEEK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD22700)
-#define DHMLPJHPEEK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD22990)
-#define DHMLPJHPEEK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD23140)
-#define DHMLPJHPEEK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD23190)
-#define DHMLPJHPEEK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD22F70)
-#define DHMLPJHPEEK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD22930)
-#define DHMLPJHPEEK_LGMMBCEOGDO_OFFSET UNITYSDK_OFFSET(0x1CD22CD0)
-#define DHMLPJHPEEK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD22B80)
-#define DHMLPJHPEEK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD23000)
-#define DHMLPJHPEEK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD22680)
+#define DHMLPJHPEEK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DEEFE50)
+#define DHMLPJHPEEK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF03D0)
+#define DHMLPJHPEEK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DEEFFC0)
+#define DHMLPJHPEEK_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1DEEFA20)
+#define DHMLPJHPEEK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DEEF620)
+#define DHMLPJHPEEK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DEEF8B0)
+#define DHMLPJHPEEK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DEF0060)
+#define DHMLPJHPEEK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DEF00B0)
+#define DHMLPJHPEEK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DEEFE90)
+#define DHMLPJHPEEK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DEEF850)
+#define DHMLPJHPEEK_LGMMBCEOGDO_OFFSET UNITYSDK_OFFSET(0x1DEEFBF0)
+#define DHMLPJHPEEK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DEEFAA0)
+#define DHMLPJHPEEK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DEEFF20)
+#define DHMLPJHPEEK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DEEF5A0)
 
-inline static constexpr unsigned int DHMLPJHPEEK_TypeDefinitionIndex = 14392;
+inline static constexpr unsigned int DHMLPJHPEEK_TypeDefinitionIndex = 14549;
 
 	class DHMLPJHPEEK : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::IMFPIFAMEHE*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::IMFPIFAMEHE*>**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x3BF10);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x4CA20);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x3BF18);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x4CA28);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::IMFPIFAMEHE*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::IMFPIFAMEHE*>**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x4CA30);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x3BF20);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x11A90);
+			return (::System::Boolean*)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0xD3A0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0x11A91);
+			return (::System::Byte*)UnitySDK::FromName("", "DHMLPJHPEEK")->GetStaticField(0xD3A1);
 		}
 
 		static ::System::Void _cctor()

@@ -5,41 +5,41 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define GKKLKLCOOHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A9FF60)
-#define GKKLKLCOOHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A9FFA0)
-#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_0_OFFSET UNITYSDK_OFFSET(0x15A9FFB0)
-#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_2_OFFSET UNITYSDK_OFFSET(0x15AA00F0)
-#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_3_OFFSET UNITYSDK_OFFSET(0x15AA0150)
-#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_4_OFFSET UNITYSDK_OFFSET(0x15AA0220)
+#define GKKLKLCOOHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x169DCC80)
+#define GKKLKLCOOHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x169DCCC0)
+#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_0_OFFSET UNITYSDK_OFFSET(0x169DCCD0)
+#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_2_OFFSET UNITYSDK_OFFSET(0x169DCE10)
+#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_3_OFFSET UNITYSDK_OFFSET(0x169DCE70)
+#define GKKLKLCOOHA___C__BUILDBATTLELOADINGGRAPH_B__7_4_OFFSET UNITYSDK_OFFSET(0x169DCF40)
 
-inline static constexpr unsigned int GKKLKLCOOHA___c_TypeDefinitionIndex = 73265;
+inline static constexpr unsigned int GKKLKLCOOHA___c_TypeDefinitionIndex = 75381;
 
 	class GKKLKLCOOHA___c : public ::System::Object
 	{
 	public:
+		static ::System::Action** StaticGet___9__7_3()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B200);
+		}
+
 		static ::System::Action** StaticGet___9__7_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x644C0);
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B208);
 		}
 
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__7_2()
 		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x644C8);
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B210);
 		}
 
 		static ::System::Action** StaticGet___9__7_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x644D0);
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B218);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x644D8);
-		}
-
-		static ::System::Action** StaticGet___9__7_3()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x644E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6B220);
 		}
 
 		static ::System::Void _cctor()

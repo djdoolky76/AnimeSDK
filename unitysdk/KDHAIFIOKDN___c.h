@@ -4,18 +4,18 @@
 class KDHAIFIOKDN;
 namespace System { class Object; }
 
-#define KDHAIFIOKDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E801160)
-#define KDHAIFIOKDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8011A0)
-#define KDHAIFIOKDN___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E8011B0)
+#define KDHAIFIOKDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB17870)
+#define KDHAIFIOKDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB178B0)
+#define KDHAIFIOKDN___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1FB178C0)
 
-inline static constexpr unsigned int KDHAIFIOKDN___c_TypeDefinitionIndex = 33486;
+inline static constexpr unsigned int KDHAIFIOKDN___c_TypeDefinitionIndex = 34401;
 
 	class KDHAIFIOKDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11080);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51190);
 		}
 
 		static ::System::Void _cctor()

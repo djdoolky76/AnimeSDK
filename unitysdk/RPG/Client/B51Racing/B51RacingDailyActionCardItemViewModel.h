@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconListViewModel; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7924C0)
+#define RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A29D0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDailyActionCardItemViewModel_TypeDefinitionIndex = 82023;
+	inline static constexpr unsigned int B51RacingDailyActionCardItemViewModel_TypeDefinitionIndex = 84804;
 
 	class B51RacingDailyActionCardItemViewModel : public ::System::Object
 	{
@@ -16,8 +16,8 @@ namespace RPG::Client::B51Racing
 		::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel* ValueIconList; // 0x10
 		::RPG::Client::TextID ActionName; // 0x18
 		::System::UInt32 ActionID; // 0x28
-		::System::Boolean IsRecommended; // 0x2C
-		::System::Boolean IsSelected; // 0x2D
+		::System::Boolean IsSelected; // 0x2C
+		::System::Boolean IsRecommended; // 0x2D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGDAILYACTIONCARDITEMVIEWMODEL_CTOR_OFFSET))(this);

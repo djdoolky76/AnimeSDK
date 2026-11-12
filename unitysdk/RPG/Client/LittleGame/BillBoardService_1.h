@@ -6,7 +6,7 @@ namespace RPG::Client::LittleGame { template <typename T> class Services_1; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BillBoardService_1_TypeDefinitionIndex = 76477;
+	inline static constexpr unsigned int BillBoardService_1_TypeDefinitionIndex = 78808;
 
 	template <typename T>
 	class BillBoardService_1 : public ::System::Object

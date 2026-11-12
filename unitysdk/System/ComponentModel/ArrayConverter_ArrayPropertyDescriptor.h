@@ -3,7 +3,7 @@
 #include "unitysdk/System/ComponentModel/TypeConverter_SimplePropertyDescriptor.h"
 namespace System { class Type; }
 
-#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE0A60)
+#define SYSTEM_COMPONENTMODEL_ARRAYCONVERTER_ARRAYPROPERTYDESCRIPTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x20290360)
 
 namespace System::ComponentModel
 {

@@ -5,14 +5,14 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UserPrefs___O_TypeDefinitionIndex = 59368;
+	inline static constexpr unsigned int UserPrefs___O_TypeDefinitionIndex = 60645;
 
 	class UserPrefs___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::System::Boolean>** StaticGet__0____GetResidentActivityIsShowFinishedDefaultValue()
 		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x47220);
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x512F0);
 		}
 
 	};

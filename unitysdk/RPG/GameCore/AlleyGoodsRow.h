@@ -5,21 +5,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyGoodsRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYGOODSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E47F0)
-#define RPG_GAMECORE_ALLEYGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E4120)
+#define RPG_GAMECORE_ALLEYGOODSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E604B90)
+#define RPG_GAMECORE_ALLEYGOODSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6044C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyGoodsRow_TypeDefinitionIndex = 12618;
+	inline static constexpr unsigned int AlleyGoodsRow_TypeDefinitionIndex = 12685;
 
 	class AlleyGoodsRow : public ::System::Object
 	{
 	public:
 		::System::String* GoodsConfig; // 0x10
-		::System::String* RotateAudioEvent; // 0x18
-		::System::String* GoodsPicLocked; // 0x20
-		::System::String* GoodsPic; // 0x28
-		::System::String* SettleAudioEvent; // 0x30
+		::System::String* GoodsPic; // 0x18
+		::System::String* SettleAudioEvent; // 0x20
+		::System::String* GoodsPicLocked; // 0x28
+		::System::String* RotateAudioEvent; // 0x30
 		::System::UInt32 GoodsProfit; // 0x38
 		::System::UInt32 GoodsID; // 0x3C
 		::System::Void _ctor()

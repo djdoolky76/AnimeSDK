@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitSelectWheelItem; }
 
-#define OKLAAMDOEBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBEEA130)
-#define OKLAAMDOEBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEEA2F0)
-#define OKLAAMDOEBL_LFAIEAEDBJJ_OFFSET UNITYSDK_OFFSET(0xBEEA4A0)
-#define OKLAAMDOEBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEEA140)
-#define OKLAAMDOEBL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEEA3F0)
-#define OKLAAMDOEBL_TICK_OFFSET UNITYSDK_OFFSET(0xBEEA440)
+#define OKLAAMDOEBL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7E5390)
+#define OKLAAMDOEBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7E5550)
+#define OKLAAMDOEBL_LFAIEAEDBJJ_OFFSET UNITYSDK_OFFSET(0xC7E5700)
+#define OKLAAMDOEBL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7E53A0)
+#define OKLAAMDOEBL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC7E5650)
+#define OKLAAMDOEBL_TICK_OFFSET UNITYSDK_OFFSET(0xC7E56A0)
 
-inline static constexpr unsigned int OKLAAMDOEBL_TypeDefinitionIndex = 53492;
+inline static constexpr unsigned int OKLAAMDOEBL_TypeDefinitionIndex = 54654;
 
 	class OKLAAMDOEBL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WaitSelectWheelItem* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::WaitSelectWheelItem* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitSelectWheelItem* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitSelectWheelItem*))((::PBYTE)hIl2Cpp + OKLAAMDOEBL_CTOR_OFFSET))(this, a1, a2);

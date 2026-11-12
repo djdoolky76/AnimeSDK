@@ -5,11 +5,11 @@
 namespace MiHoYo::SDK { class SDKReportModel_UploadContent; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SDKREPORTMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFD7CB0)
+#define MIHOYO_SDK_SDKREPORTMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D15ECA0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SDKReportModel_TypeDefinitionIndex = 7934;
+	inline static constexpr unsigned int SDKReportModel_TypeDefinitionIndex = 7943;
 
 	class SDKReportModel : public ::System::Object
 	{

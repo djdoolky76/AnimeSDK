@@ -5,20 +5,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitChimeraWorkRoundFinish; }
 namespace System { class Object; }
 
-#define DKDCMHNFCHD_CTOR_OFFSET UNITYSDK_OFFSET(0xF257660)
-#define DKDCMHNFCHD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF874CF0)
-#define DKDCMHNFCHD_NGHLLPKBNOA_OFFSET UNITYSDK_OFFSET(0xF874F10)
-#define DKDCMHNFCHD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF874D70)
-#define DKDCMHNFCHD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF874E30)
-#define DKDCMHNFCHD_TICK_OFFSET UNITYSDK_OFFSET(0xF874EB0)
+#define DKDCMHNFCHD_CTOR_OFFSET UNITYSDK_OFFSET(0xFFDA980)
+#define DKDCMHNFCHD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFFDA990)
+#define DKDCMHNFCHD_NGHLLPKBNOA_OFFSET UNITYSDK_OFFSET(0xFFDABB0)
+#define DKDCMHNFCHD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFFDAA10)
+#define DKDCMHNFCHD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xFFDAAD0)
+#define DKDCMHNFCHD_TICK_OFFSET UNITYSDK_OFFSET(0xFFDAB50)
 
-inline static constexpr unsigned int DKDCMHNFCHD_TypeDefinitionIndex = 58877;
+inline static constexpr unsigned int DKDCMHNFCHD_TypeDefinitionIndex = 60149;
 
 	class DKDCMHNFCHD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WaitChimeraWorkRoundFinish* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::WaitChimeraWorkRoundFinish* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitChimeraWorkRoundFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitChimeraWorkRoundFinish*))((::PBYTE)hIl2Cpp + DKDCMHNFCHD_CTOR_OFFSET))(this, a1, a2);

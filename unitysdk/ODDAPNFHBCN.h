@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeCharacterUIDisplay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODDAPNFHBCN_CTOR_OFFSET UNITYSDK_OFFSET(0xBD903F0)
-#define ODDAPNFHBCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD90420)
+#define ODDAPNFHBCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC696970)
+#define ODDAPNFHBCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC6969A0)
 
-inline static constexpr unsigned int ODDAPNFHBCN_TypeDefinitionIndex = 54918;
+inline static constexpr unsigned int ODDAPNFHBCN_TypeDefinitionIndex = 56090;
 
 	class ODDAPNFHBCN
 	{

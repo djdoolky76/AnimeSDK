@@ -8,26 +8,26 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE2080)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1CBE3740)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1CBE3990)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x1CBE3930)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x1CBE3950)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__4_OFFSET UNITYSDK_OFFSET(0x1CBE3970)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD890C0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__0_OFFSET UNITYSDK_OFFSET(0x1DD8A750)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__1_OFFSET UNITYSDK_OFFSET(0x1DD8A9A0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__2_OFFSET UNITYSDK_OFFSET(0x1DD8A940)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__3_OFFSET UNITYSDK_OFFSET(0x1DD8A960)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0__THEN_B__4_OFFSET UNITYSDK_OFFSET(0x1DD8A980)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass55_0_TypeDefinitionIndex = 9917;
+	inline static constexpr unsigned int Promise___c__DisplayClass55_0_TypeDefinitionIndex = 9925;
 
 	class Promise___c__DisplayClass55_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__3; // 0x10
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* onResolved; // 0x18
-		::System::Action_1<::System::Exception*>* __9__4; // 0x20
-		::RPG::Client::Promises::Promise* resultPromise; // 0x28
+		::System::Action_1<::System::Exception*>* __9__4; // 0x10
+		::RPG::Client::Promises::Promise* resultPromise; // 0x18
+		::System::Action_1<::System::Single>* __9__2; // 0x20
+		::System::Action* __9__3; // 0x28
 		::System::Action_1<::System::Exception*>* onRejected; // 0x30
-		::System::Action_1<::System::Single>* __9__2; // 0x38
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* onResolved; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS55_0_CTOR_OFFSET))(this);

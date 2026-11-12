@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LMLONCKKIJL;
 
-#define JOLDHDEFMOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7D10)
+#define JOLDHDEFMOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD79420)
 
-inline static constexpr unsigned int JOLDHDEFMOE_TypeDefinitionIndex = 43799;
+inline static constexpr unsigned int JOLDHDEFMOE_TypeDefinitionIndex = 44874;
 
 	class JOLDHDEFMOE : public ::System::Object
 	{

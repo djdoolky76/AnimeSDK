@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IWayPointTarget_TypeDefinitionIndex = 69072;
+	inline static constexpr unsigned int IWayPointTarget_TypeDefinitionIndex = 71025;
 
 	class IWayPointTarget
 	{

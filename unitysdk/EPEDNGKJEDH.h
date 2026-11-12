@@ -5,18 +5,18 @@ namespace RPG::GameCore { class CSVRow; }
 namespace System { class String; }
 namespace System::IO { class TextWriter; }
 
-#define EPEDNGKJEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBDFB0)
-#define EPEDNGKJEDH_KONFKKIOFLH_OFFSET UNITYSDK_OFFSET(0x1CDBE2C0)
-#define EPEDNGKJEDH_MCAGHMBABGB_OFFSET UNITYSDK_OFFSET(0x1CDBE030)
-#define EPEDNGKJEDH_MEGNNLKMBAJ_OFFSET UNITYSDK_OFFSET(0x1CDBE2B0)
+#define EPEDNGKJEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF95720)
+#define EPEDNGKJEDH_KONFKKIOFLH_OFFSET UNITYSDK_OFFSET(0x1DF95A30)
+#define EPEDNGKJEDH_MCAGHMBABGB_OFFSET UNITYSDK_OFFSET(0x1DF957A0)
+#define EPEDNGKJEDH_MEGNNLKMBAJ_OFFSET UNITYSDK_OFFSET(0x1DF95A20)
 
-inline static constexpr unsigned int EPEDNGKJEDH_TypeDefinitionIndex = 10823;
+inline static constexpr unsigned int EPEDNGKJEDH_TypeDefinitionIndex = 10839;
 
 	class EPEDNGKJEDH : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* LADKLBIOMNC; // 0x10
-		::System::IO::TextWriter* IADACDFOAJC; // 0x18
+		::System::IO::TextWriter* IADACDFOAJC; // 0x10
+		::Il2CppArray<::System::String*>* LADKLBIOMNC; // 0x18
 		::RPG::GameCore::CSVRow* NAENFAMAPBD; // 0x20
 		::System::Void _ctor(::System::IO::TextWriter* a1, ::Il2CppArray<::System::String*>* a2)
 		{

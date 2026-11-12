@@ -9,12 +9,12 @@ namespace RPG::GameCore { class SingleAnimBehaviourEvent; }
 namespace RPG::GameCore { class SingleAnimEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERANIMEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D568EF0)
-#define RPG_GAMECORE_CHARACTERANIMEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D568CC0)
+#define RPG_GAMECORE_CHARACTERANIMEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E77A4B0)
+#define RPG_GAMECORE_CHARACTERANIMEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E77A280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterAnimEventConfig_TypeDefinitionIndex = 16298;
+	inline static constexpr unsigned int CharacterAnimEventConfig_TypeDefinitionIndex = 16461;
 
 	class CharacterAnimEventConfig : public ::RPG::GameCore::JsonConfig
 	{

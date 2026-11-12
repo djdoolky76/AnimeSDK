@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define CFABNEAPFPG_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F9A70)
-#define CFABNEAPFPG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC9F99F0)
-#define CFABNEAPFPG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC9F9A30)
+#define CFABNEAPFPG_CTOR_OFFSET UNITYSDK_OFFSET(0xD35F1A0)
+#define CFABNEAPFPG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xD35F120)
+#define CFABNEAPFPG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xD35F160)
 
-inline static constexpr unsigned int CFABNEAPFPG_TypeDefinitionIndex = 71036;
+inline static constexpr unsigned int CFABNEAPFPG_TypeDefinitionIndex = 73015;
 
 	class CFABNEAPFPG : public ::RPG::Client::TABehaviorBase
 	{

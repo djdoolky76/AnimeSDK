@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GMGHBGLNMFF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD12B0)
+#define GMGHBGLNMFF_CTOR_OFFSET UNITYSDK_OFFSET(0x16A53A40)
 
-inline static constexpr unsigned int GMGHBGLNMFF_TypeDefinitionIndex = 77577;
+inline static constexpr unsigned int GMGHBGLNMFF_TypeDefinitionIndex = 80312;
 
 	class GMGHBGLNMFF : public ::System::Object
 	{

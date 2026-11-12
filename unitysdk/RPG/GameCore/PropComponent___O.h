@@ -7,14 +7,14 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropComponent___O_TypeDefinitionIndex = 57369;
+	inline static constexpr unsigned int PropComponent___O_TypeDefinitionIndex = 58597;
 
 	class PropComponent___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::Proto::Item*, ::RPG::Client::ItemDisplayData*>** StaticGet__0___CreateDisplayItemData()
 		{
-			return (::System::Func_2<::Proto::Item*, ::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x6C320);
+			return (::System::Func_2<::Proto::Item*, ::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x72270);
 		}
 
 	};

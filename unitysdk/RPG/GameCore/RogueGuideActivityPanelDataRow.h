@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueGuideActivityPanelDataRow; }
 
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9CD920)
-#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9CD370)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC17130)
+#define RPG_GAMECORE_ROGUEGUIDEACTIVITYPANELDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC16B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueGuideActivityPanelDataRow_TypeDefinitionIndex = 14722;
+	inline static constexpr unsigned int RogueGuideActivityPanelDataRow_TypeDefinitionIndex = 14878;
 
 	class RogueGuideActivityPanelDataRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ActivityID; // 0x10
-		::System::UInt32 AvatarID; // 0x14
+		::System::UInt32 AvatarID; // 0x10
+		::System::UInt32 ActivityID; // 0x14
 		::System::UInt32 RogueAreaID; // 0x18
 		::System::Void _ctor()
 		{

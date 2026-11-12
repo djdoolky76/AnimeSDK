@@ -6,20 +6,20 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class UIValueChangeAnimation; }
 namespace UnityEngine::UI { class Image; }
 
-#define IDDFICCDOMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15EB5910)
-#define IDDFICCDOMI_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x15EB54B0)
-#define IDDFICCDOMI_MDOFPEBJCKA_OFFSET UNITYSDK_OFFSET(0x15EB5820)
-#define IDDFICCDOMI_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15EB55A0)
-#define IDDFICCDOMI__ONBIND_OFFSET UNITYSDK_OFFSET(0x15EB53F0)
+#define IDDFICCDOMI_CTOR_OFFSET UNITYSDK_OFFSET(0x16E220A0)
+#define IDDFICCDOMI_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x16E21C40)
+#define IDDFICCDOMI_MDOFPEBJCKA_OFFSET UNITYSDK_OFFSET(0x16E21FB0)
+#define IDDFICCDOMI_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x16E21D30)
+#define IDDFICCDOMI__ONBIND_OFFSET UNITYSDK_OFFSET(0x16E21A50)
 
-inline static constexpr unsigned int IDDFICCDOMI_TypeDefinitionIndex = 71599;
+inline static constexpr unsigned int IDDFICCDOMI_TypeDefinitionIndex = 73587;
 
 	class IDDFICCDOMI : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::LocalizedText* EEOBJAOPJIM; // 0x60
-		::UnityEngine::UI::Image* JLHDCKNHDJH; // 0x68
-		::RPG::Client::UIValueChangeAnimation* CGJKPIEFBKB; // 0x70
+		::RPG::Client::UIValueChangeAnimation* CGJKPIEFBKB; // 0x60
+		::RPG::Client::LocalizedText* EEOBJAOPJIM; // 0x68
+		::UnityEngine::UI::Image* JLHDCKNHDJH; // 0x70
 		::System::Boolean IDBEBIDMHME; // 0x78
 		::System::Void _ctor()
 		{

@@ -4,18 +4,18 @@
 class JFKGEOBIHHD;
 namespace System { class Object; }
 
-#define JFKGEOBIHHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E72FD50)
-#define JFKGEOBIHHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E72FD90)
-#define JFKGEOBIHHD___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E72FDA0)
+#define JFKGEOBIHHD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA3E620)
+#define JFKGEOBIHHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA3E660)
+#define JFKGEOBIHHD___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1FA3E670)
 
-inline static constexpr unsigned int JFKGEOBIHHD___c_TypeDefinitionIndex = 27354;
+inline static constexpr unsigned int JFKGEOBIHHD___c_TypeDefinitionIndex = 27885;
 
 	class JFKGEOBIHHD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FFD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65E70);
 		}
 
 		static ::System::Void _cctor()

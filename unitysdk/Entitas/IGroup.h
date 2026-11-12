@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IGroup_TypeDefinitionIndex = 10034;
+	inline static constexpr unsigned int IGroup_TypeDefinitionIndex = 10042;
 
 	class IGroup
 	{

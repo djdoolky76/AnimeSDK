@@ -5,7 +5,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int TouchFilter_FilterParam_TypeDefinitionIndex = 6873;
+	inline static constexpr unsigned int TouchFilter_FilterParam_TypeDefinitionIndex = 6884;
 
 	struct alignas(4) TouchFilter_FilterParam
 	{

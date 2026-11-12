@@ -5,10 +5,10 @@ class KFBLAAJJHKF;
 class MHLFFIDFHLA;
 namespace System { class String; }
 
-#define DABJIAKHING_CLMIFGMPLBN_OFFSET UNITYSDK_OFFSET(0xDFBB310)
-#define DABJIAKHING_NLCBLNNGOCH_OFFSET UNITYSDK_OFFSET(0xDFBAFC0)
+#define DABJIAKHING_CLMIFGMPLBN_OFFSET UNITYSDK_OFFSET(0xE91E220)
+#define DABJIAKHING_NLCBLNNGOCH_OFFSET UNITYSDK_OFFSET(0xE91DED0)
 
-inline static constexpr unsigned int DABJIAKHING_TypeDefinitionIndex = 54068;
+inline static constexpr unsigned int DABJIAKHING_TypeDefinitionIndex = 55232;
 
 	class DABJIAKHING : public ::System::Object
 	{

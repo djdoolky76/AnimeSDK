@@ -4,39 +4,39 @@
 class BCFMDCAMPDN;
 namespace System { template <typename T> class Predicate_1; }
 
-inline static constexpr unsigned int FAPLILPEPEI___O_TypeDefinitionIndex = 62206;
+inline static constexpr unsigned int FAPLILPEPEI___O_TypeDefinitionIndex = 63619;
 
 	class FAPLILPEPEI___O : public ::System::Object
 	{
 	public:
-		static ::BCFMDCAMPDN** StaticGet__4___CheckFinishSubMission()
+		static ::System::Predicate_1<::System::UInt32>** StaticGet__2____CheckIsMainMissionCancel()
 		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5CBB0);
-		}
-
-		static ::BCFMDCAMPDN** StaticGet__0___CheckIsMainMissionTaken()
-		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5CBB8);
-		}
-
-		static ::System::Predicate_1<::System::UInt32>** StaticGet__5____CheckIsSubMissionCancel()
-		{
-			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5CBC0);
+			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x42160);
 		}
 
 		static ::BCFMDCAMPDN** StaticGet__1___CheckFinishMainMission()
 		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5CBC8);
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x42168);
 		}
 
-		static ::System::Predicate_1<::System::UInt32>** StaticGet__2____CheckIsMainMissionCancel()
+		static ::System::Predicate_1<::System::UInt32>** StaticGet__5____CheckIsSubMissionCancel()
 		{
-			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5CBD0);
+			return (::System::Predicate_1<::System::UInt32>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x42170);
+		}
+
+		static ::BCFMDCAMPDN** StaticGet__4___CheckFinishSubMission()
+		{
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x42178);
 		}
 
 		static ::BCFMDCAMPDN** StaticGet__3___CheckIsSubMissionTaken()
 		{
-			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5CBD8);
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x42180);
+		}
+
+		static ::BCFMDCAMPDN** StaticGet__0___CheckIsMainMissionTaken()
+		{
+			return (::BCFMDCAMPDN**)UnitySDK::FromName("", "<>O")->GetStaticField(0x42188);
 		}
 
 	};

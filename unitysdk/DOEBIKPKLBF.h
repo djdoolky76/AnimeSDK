@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHaveUniqueNameEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DOEBIKPKLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE14D0)
-#define DOEBIKPKLBF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FE1500)
+#define DOEBIKPKLBF_CTOR_OFFSET UNITYSDK_OFFSET(0x12DDAB40)
+#define DOEBIKPKLBF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12DDAB70)
 
-inline static constexpr unsigned int DOEBIKPKLBF_TypeDefinitionIndex = 52598;
+inline static constexpr unsigned int DOEBIKPKLBF_TypeDefinitionIndex = 53705;
 
 	class DOEBIKPKLBF
 	{

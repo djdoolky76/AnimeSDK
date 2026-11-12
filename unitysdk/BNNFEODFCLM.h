@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightGameFormation; }
 
-#define BNNFEODFCLM_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE2770)
-#define BNNFEODFCLM_LBIHOLKGMIB_OFFSET UNITYSDK_OFFSET(0xBDDEED0)
-#define BNNFEODFCLM_NJKHGPCDAMI_OFFSET UNITYSDK_OFFSET(0xBDE1610)
+#define BNNFEODFCLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC762920)
+#define BNNFEODFCLM_LBIHOLKGMIB_OFFSET UNITYSDK_OFFSET(0xC75F080)
+#define BNNFEODFCLM_NJKHGPCDAMI_OFFSET UNITYSDK_OFFSET(0xC7617C0)
 
-inline static constexpr unsigned int BNNFEODFCLM_TypeDefinitionIndex = 64624;
+inline static constexpr unsigned int BNNFEODFCLM_TypeDefinitionIndex = 66153;
 
 	class BNNFEODFCLM : public ::System::Object
 	{

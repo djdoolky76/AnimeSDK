@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInCharacterIDGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBLIMGFAJKH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E90F30)
-#define BBLIMGFAJKH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E90F60)
+#define BBLIMGFAJKH_CTOR_OFFSET UNITYSDK_OFFSET(0x17089520)
+#define BBLIMGFAJKH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x17089550)
 
-inline static constexpr unsigned int BBLIMGFAJKH_TypeDefinitionIndex = 54664;
+inline static constexpr unsigned int BBLIMGFAJKH_TypeDefinitionIndex = 55830;
 
 	class BBLIMGFAJKH
 	{

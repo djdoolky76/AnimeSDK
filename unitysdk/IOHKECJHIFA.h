@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IOHKECJHIFA_CTOR_OFFSET UNITYSDK_OFFSET(0x16502C90)
-#define IOHKECJHIFA_GET_LOADINGTRANSITION_OFFSET UNITYSDK_OFFSET(0x16502C80)
+#define IOHKECJHIFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8375E0)
+#define IOHKECJHIFA_GET_LOADINGTRANSITION_OFFSET UNITYSDK_OFFSET(0xB8375D0)
 
-inline static constexpr unsigned int IOHKECJHIFA_TypeDefinitionIndex = 76060;
+inline static constexpr unsigned int IOHKECJHIFA_TypeDefinitionIndex = 78387;
 
 	class IOHKECJHIFA : public ::System::Object
 	{

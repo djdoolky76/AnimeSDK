@@ -12,127 +12,127 @@ namespace System::Reflection { class MethodInfo; }
 namespace System::Reflection { class ParameterInfo; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define XLUA_UTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x153D3AE0)
-#define XLUA_UTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x153D3B10)
-#define XLUA_UTILS___C__GENITEMGETTER_B__5_0_OFFSET UNITYSDK_OFFSET(0x153D3B20)
-#define XLUA_UTILS___C__GENITEMSETTER_B__6_0_OFFSET UNITYSDK_OFFSET(0x153D3D00)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_0_OFFSET UNITYSDK_OFFSET(0x153D43E0)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_10_OFFSET UNITYSDK_OFFSET(0x153D3EE0)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_11_OFFSET UNITYSDK_OFFSET(0x153D3FA0)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_1_OFFSET UNITYSDK_OFFSET(0x153D4480)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_2_OFFSET UNITYSDK_OFFSET(0x153D4490)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_3_OFFSET UNITYSDK_OFFSET(0x153D4060)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_4_OFFSET UNITYSDK_OFFSET(0x153D40F0)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_5_OFFSET UNITYSDK_OFFSET(0x153D4150)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_6_OFFSET UNITYSDK_OFFSET(0x153D4250)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_7_OFFSET UNITYSDK_OFFSET(0x153D4290)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_8_OFFSET UNITYSDK_OFFSET(0x153D42B0)
-#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_9_OFFSET UNITYSDK_OFFSET(0x153D43D0)
-#define XLUA_UTILS___C__ISINBLACKLIST_B__51_0_OFFSET UNITYSDK_OFFSET(0x153D45D0)
-#define XLUA_UTILS___C__MAKEREFLECTIONWRAP_B__12_0_OFFSET UNITYSDK_OFFSET(0x153D44A0)
-#define XLUA_UTILS___C__MAKEREFLECTIONWRAP_B__12_1_OFFSET UNITYSDK_OFFSET(0x153D4530)
-#define XLUA_UTILS___C__MAKEREFLECTIONWRAP_B__12_2_OFFSET UNITYSDK_OFFSET(0x153D45C0)
+#define XLUA_UTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1630A410)
+#define XLUA_UTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1630A440)
+#define XLUA_UTILS___C__GENITEMGETTER_B__5_0_OFFSET UNITYSDK_OFFSET(0x1630A450)
+#define XLUA_UTILS___C__GENITEMSETTER_B__6_0_OFFSET UNITYSDK_OFFSET(0x1630A630)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_0_OFFSET UNITYSDK_OFFSET(0x1630AD10)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_10_OFFSET UNITYSDK_OFFSET(0x1630A810)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_11_OFFSET UNITYSDK_OFFSET(0x1630A8D0)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_1_OFFSET UNITYSDK_OFFSET(0x1630ADB0)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_2_OFFSET UNITYSDK_OFFSET(0x1630ADC0)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_3_OFFSET UNITYSDK_OFFSET(0x1630A990)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_4_OFFSET UNITYSDK_OFFSET(0x1630AA20)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_5_OFFSET UNITYSDK_OFFSET(0x1630AA80)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_6_OFFSET UNITYSDK_OFFSET(0x1630AB80)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_7_OFFSET UNITYSDK_OFFSET(0x1630ABC0)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_8_OFFSET UNITYSDK_OFFSET(0x1630ABE0)
+#define XLUA_UTILS___C__GETEXTENSIONMETHODSOF_B__8_9_OFFSET UNITYSDK_OFFSET(0x1630AD00)
+#define XLUA_UTILS___C__ISINBLACKLIST_B__51_0_OFFSET UNITYSDK_OFFSET(0x1630AF00)
+#define XLUA_UTILS___C__MAKEREFLECTIONWRAP_B__12_0_OFFSET UNITYSDK_OFFSET(0x1630ADD0)
+#define XLUA_UTILS___C__MAKEREFLECTIONWRAP_B__12_1_OFFSET UNITYSDK_OFFSET(0x1630AE60)
+#define XLUA_UTILS___C__MAKEREFLECTIONWRAP_B__12_2_OFFSET UNITYSDK_OFFSET(0x1630AEF0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int Utils___c_TypeDefinitionIndex = 50267;
+	inline static constexpr unsigned int Utils___c_TypeDefinitionIndex = 51318;
 
 	class Utils___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__8_5()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EAF0);
-		}
-
-		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__8_10()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EAF8);
-		}
-
-		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__8_11()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB00);
-		}
-
-		static ::System::Func_3<::System::Type*, ::System::Reflection::MethodInfo*, ::System::Object*>** StaticGet___9__8_4()
-		{
-			return (::System::Func_3<::System::Type*, ::System::Reflection::MethodInfo*, ::System::Object*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB08);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Type*>** StaticGet___9__8_6()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Type*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB10);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet___9__8_2()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB18);
-		}
-
-		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Boolean>** StaticGet___9__51_0()
-		{
-			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB20);
-		}
-
-		static ::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB28);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB30);
-		}
-
 		static ::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet___9__8_3()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB38);
-		}
-
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>** StaticGet___9__12_1()
-		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB40);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Type*, ::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet___9__8_9()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Type*, ::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB48);
-		}
-
-		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>** StaticGet___9__12_0()
-		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB50);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Reflection::MethodInfo*>** StaticGet___9__8_7()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB58);
-		}
-
-		static ::System::Func_2<::System::Reflection::PropertyInfo*, ::System::Boolean>** StaticGet___9__6_0()
-		{
-			return (::System::Func_2<::System::Reflection::PropertyInfo*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB60);
-		}
-
-		static ::System::Func_3<::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*>** StaticGet___9__12_2()
-		{
-			return (::System::Func_3<::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB68);
+			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D00);
 		}
 
 		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Type*, ::System::Reflection::MethodInfo*>*, ::System::Type*>** StaticGet___9__8_8()
 		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Type*, ::System::Reflection::MethodInfo*>*, ::System::Type*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB70);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Type*, ::System::Reflection::MethodInfo*>*, ::System::Type*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D08);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__8_10()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D10);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__8_5()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D18);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Type*, ::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet___9__8_9()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Type*, ::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D20);
+		}
+
+		static ::System::Func_3<::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*>** StaticGet___9__12_2()
+		{
+			return (::System::Func_3<::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D28);
+		}
+
+		static ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Boolean>** StaticGet___9__51_0()
+		{
+			return (::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D30);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__8_11()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D38);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*, ::System::Boolean>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB78);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D40);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Type*>** StaticGet___9__8_6()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Type*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D48);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Reflection::MethodInfo*>** StaticGet___9__8_7()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Reflection::MethodInfo*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D50);
 		}
 
 		static ::System::Func_2<::System::Reflection::PropertyInfo*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Reflection::PropertyInfo*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x6EB80);
+			return (::System::Func_2<::System::Reflection::PropertyInfo*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D58);
+		}
+
+		static ::System::Func_3<::System::Type*, ::System::Reflection::MethodInfo*, ::System::Object*>** StaticGet___9__8_4()
+		{
+			return (::System::Func_3<::System::Type*, ::System::Reflection::MethodInfo*, ::System::Object*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D60);
+		}
+
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>** StaticGet___9__12_0()
+		{
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D68);
+		}
+
+		static ::System::Func_2<::System::Reflection::PropertyInfo*, ::System::Boolean>** StaticGet___9__6_0()
+		{
+			return (::System::Func_2<::System::Reflection::PropertyInfo*, ::System::Boolean>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D70);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D78);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>** StaticGet___9__8_2()
+		{
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*, ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MethodInfo*>*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D80);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D88);
+		}
+
+		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>** StaticGet___9__12_1()
+		{
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::String*>**)UnitySDK::FromName("XLua", "<>c")->GetStaticField(0x69D90);
 		}
 
 		static ::System::Void _cctor()

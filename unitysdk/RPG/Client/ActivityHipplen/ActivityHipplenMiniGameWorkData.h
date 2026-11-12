@@ -7,22 +7,22 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC422870)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_GET_GRADEEFFECTSDICT_OFFSET UNITYSDK_OFFSET(0xC422F60)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_GET_GRADEEFFECTVIEWDATADICT_OFFSET UNITYSDK_OFFSET(0xC422F80)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_SET_GRADEEFFECTSDICT_OFFSET UNITYSDK_OFFSET(0xC422F70)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_SET_GRADEEFFECTVIEWDATADICT_OFFSET UNITYSDK_OFFSET(0xC422F90)
-#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xC422880)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD5CF70)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_GET_GRADEEFFECTSDICT_OFFSET UNITYSDK_OFFSET(0xCD5D660)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_GET_GRADEEFFECTVIEWDATADICT_OFFSET UNITYSDK_OFFSET(0xCD5D680)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_SET_GRADEEFFECTSDICT_OFFSET UNITYSDK_OFFSET(0xCD5D670)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_SET_GRADEEFFECTVIEWDATADICT_OFFSET UNITYSDK_OFFSET(0xCD5D690)
+#define RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA__INITWORKEFFECTS_OFFSET UNITYSDK_OFFSET(0xCD5CF80)
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenMiniGameWorkData_TypeDefinitionIndex = 75612;
+	inline static constexpr unsigned int ActivityHipplenMiniGameWorkData_TypeDefinitionIndex = 77939;
 
 	class ActivityHipplenMiniGameWorkData : public ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::HipplenGameGradeType, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*>* _GradeEffectViewDataDict_k__BackingField; // 0x30
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::HipplenGameGradeType, ::System::Collections::Generic::List_1<::KJBFNECBPPK*>*>* _GradeEffectsDict_k__BackingField; // 0x38
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::HipplenGameGradeType, ::System::Collections::Generic::List_1<::KJBFNECBPPK*>*>* _GradeEffectsDict_k__BackingField; // 0x30
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::HipplenGameGradeType, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectResultData*>* _GradeEffectViewDataDict_k__BackingField; // 0x38
 		::System::Void _ctor(::System::UInt32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYHIPPLEN_ACTIVITYHIPPLENMINIGAMEWORKDATA_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

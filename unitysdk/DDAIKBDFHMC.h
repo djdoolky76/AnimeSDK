@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetColliderLayerState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDAIKBDFHMC_CTOR_OFFSET UNITYSDK_OFFSET(0xE256B50)
-#define DDAIKBDFHMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE256B80)
+#define DDAIKBDFHMC_CTOR_OFFSET UNITYSDK_OFFSET(0xEE11AB0)
+#define DDAIKBDFHMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE11AE0)
 
-inline static constexpr unsigned int DDAIKBDFHMC_TypeDefinitionIndex = 52492;
+inline static constexpr unsigned int DDAIKBDFHMC_TypeDefinitionIndex = 53598;
 
 	class DDAIKBDFHMC
 	{

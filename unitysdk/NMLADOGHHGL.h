@@ -10,30 +10,30 @@ namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NMLADOGHHGL_BJHBKFHPFLN_OFFSET UNITYSDK_OFFSET(0xBC8ADF0)
-#define NMLADOGHHGL_CLEAR_OFFSET UNITYSDK_OFFSET(0xBC8A6F0)
-#define NMLADOGHHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC8A5C0)
-#define NMLADOGHHGL_EPOLDGPEFPO_OFFSET UNITYSDK_OFFSET(0xBC8AE50)
-#define NMLADOGHHGL_GET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xBC8A5A0)
-#define NMLADOGHHGL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBC8AD00)
-#define NMLADOGHHGL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC8A900)
-#define NMLADOGHHGL_ODMPOFLDMNI_OFFSET UNITYSDK_OFFSET(0xBC8AB50)
-#define NMLADOGHHGL_OFGFCCPIOAJ_OFFSET UNITYSDK_OFFSET(0xBC8AF90)
-#define NMLADOGHHGL_SET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xBC8A5B0)
+#define NMLADOGHHGL_BJHBKFHPFLN_OFFSET UNITYSDK_OFFSET(0xC573590)
+#define NMLADOGHHGL_CLEAR_OFFSET UNITYSDK_OFFSET(0xC572EB0)
+#define NMLADOGHHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC572D80)
+#define NMLADOGHHGL_EPOLDGPEFPO_OFFSET UNITYSDK_OFFSET(0xC5735F0)
+#define NMLADOGHHGL_GET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xC572D60)
+#define NMLADOGHHGL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC5734A0)
+#define NMLADOGHHGL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC5730B0)
+#define NMLADOGHHGL_ODMPOFLDMNI_OFFSET UNITYSDK_OFFSET(0xC5732F0)
+#define NMLADOGHHGL_OFGFCCPIOAJ_OFFSET UNITYSDK_OFFSET(0xC5736A0)
+#define NMLADOGHHGL_SET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xC572D70)
 
-inline static constexpr unsigned int NMLADOGHHGL_TypeDefinitionIndex = 57811;
+inline static constexpr unsigned int NMLADOGHHGL_TypeDefinitionIndex = 59046;
 
 	class NMLADOGHHGL : public ::System::Object
 	{
 	public:
-		::System::Action_1<::RPG::GameCore::GameEntity*>* MJBFIAAOMEM; // 0x10
-		::RPG::GameCore::GameWorld* JEOADHBDKMO; // 0x18
-		::System::Action_1<::RPG::GameCore::GameEntity*>* ECNKLKGHOEE; // 0x20
-		::System::String* JMAMNFPCOJH; // 0x28
-		::System::Predicate_1<::RPG::GameCore::GameWorld*>* _ValidChecker_k__BackingField; // 0x30
-		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* OFPPCHFNLGH; // 0x38
-		::System::Single NDDPHDAIEJI; // 0x40
-		::System::Int32 GMDBHJKEAEI; // 0x44
+		::RPG::GameCore::GameWorld* JEOADHBDKMO; // 0x10
+		::System::Action_1<::RPG::GameCore::GameEntity*>* ECNKLKGHOEE; // 0x18
+		::System::String* JMAMNFPCOJH; // 0x20
+		::System::Collections::Generic::HashSet_1<::RPG::GameCore::GameEntity*>* OFPPCHFNLGH; // 0x28
+		::System::Action_1<::RPG::GameCore::GameEntity*>* MJBFIAAOMEM; // 0x30
+		::System::Predicate_1<::RPG::GameCore::GameWorld*>* _ValidChecker_k__BackingField; // 0x38
+		::System::Int32 GMDBHJKEAEI; // 0x40
+		::System::Single NDDPHDAIEJI; // 0x44
 		::RPG::GameCore::EntityTypeMask HFFEAICCHAC; // 0x48
 		::System::Void _ctor()
 		{

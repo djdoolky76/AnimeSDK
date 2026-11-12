@@ -3,9 +3,9 @@
 #include "unitysdk/FFNOMKOBGGL_RtUnitHpBarStyle.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FFNOMKOBGGL_PGNFANBONOB_COMPARETO_OFFSET UNITYSDK_OFFSET(0x2E75F30)
+#define FFNOMKOBGGL_PGNFANBONOB_COMPARETO_OFFSET UNITYSDK_OFFSET(0x304B760)
 
-inline static constexpr unsigned int FFNOMKOBGGL_PGNFANBONOB_TypeDefinitionIndex = 73278;
+inline static constexpr unsigned int FFNOMKOBGGL_PGNFANBONOB_TypeDefinitionIndex = 75394;
 
 	struct alignas(4) FFNOMKOBGGL_PGNFANBONOB
 	{

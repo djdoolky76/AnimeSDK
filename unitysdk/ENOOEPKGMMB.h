@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENOOEPKGMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x155B60D0)
+#define ENOOEPKGMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x164C6C10)
 
-inline static constexpr unsigned int ENOOEPKGMMB_TypeDefinitionIndex = 49776;
+inline static constexpr unsigned int ENOOEPKGMMB_TypeDefinitionIndex = 50824;
 
 	class ENOOEPKGMMB : public ::System::Attribute
 	{

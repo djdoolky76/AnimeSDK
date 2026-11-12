@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class FuncUnlockHint; }
 
-#define AIPOJEMLGBJ_DCHBCPLPHEJ_OFFSET UNITYSDK_OFFSET(0x12CAF150)
+#define AIPOJEMLGBJ_DCHBCPLPHEJ_OFFSET UNITYSDK_OFFSET(0x12D8D700)
 
-inline static constexpr unsigned int AIPOJEMLGBJ_TypeDefinitionIndex = 68017;
+inline static constexpr unsigned int AIPOJEMLGBJ_TypeDefinitionIndex = 69963;
 
 	class AIPOJEMLGBJ : public ::System::Object
 	{

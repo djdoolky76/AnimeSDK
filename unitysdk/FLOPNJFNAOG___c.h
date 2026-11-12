@@ -4,18 +4,18 @@
 class FLOPNJFNAOG;
 namespace System { class Object; }
 
-#define FLOPNJFNAOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3DD5A0)
-#define FLOPNJFNAOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DD5E0)
-#define FLOPNJFNAOG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3DD5F0)
+#define FLOPNJFNAOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C8700)
+#define FLOPNJFNAOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6C8740)
+#define FLOPNJFNAOG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F6C8750)
 
-inline static constexpr unsigned int FLOPNJFNAOG___c_TypeDefinitionIndex = 27633;
+inline static constexpr unsigned int FLOPNJFNAOG___c_TypeDefinitionIndex = 28164;
 
 	class FLOPNJFNAOG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x648C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B6E0);
 		}
 
 		static ::System::Void _cctor()

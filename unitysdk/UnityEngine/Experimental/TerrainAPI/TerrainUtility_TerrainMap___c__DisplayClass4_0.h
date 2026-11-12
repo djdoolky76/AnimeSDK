@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Terrain; }
 
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49FE40)
-#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CREATEFROMPLACEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x1F4A1430)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x2074FCA0)
+#define UNITYENGINE_EXPERIMENTAL_TERRAINAPI_TERRAINUTILITY_TERRAINMAP___C__DISPLAYCLASS4_0__CREATEFROMPLACEMENT_B__0_OFFSET UNITYSDK_OFFSET(0x20751290)
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
-	inline static constexpr unsigned int TerrainUtility_TerrainMap___c__DisplayClass4_0_TypeDefinitionIndex = 5345;
+	inline static constexpr unsigned int TerrainUtility_TerrainMap___c__DisplayClass4_0_TypeDefinitionIndex = 5350;
 
 	class TerrainUtility_TerrainMap___c__DisplayClass4_0 : public ::System::Object
 	{

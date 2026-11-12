@@ -8,13 +8,13 @@ namespace RPG::Client { class RoadRashGameAbility_Slam; }
 namespace RPG::Client { class RoadRashGameAbility_SlamParams; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32CC20)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D32CC30)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D32CBF0)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53C190)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E53C1A0)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E53C160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_Slam_TypeDefinitionIndex = 10294;
+	inline static constexpr unsigned int RoadRashGameAbility_Slam_TypeDefinitionIndex = 10304;
 
 	class RoadRashGameAbility_Slam : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{

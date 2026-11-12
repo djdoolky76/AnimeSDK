@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PetPartySingleCombinationStartPattern; }
 
-#define RPG_GAMECORE_PETPARTYSINGLECOMBINATIONSTARTPATTERN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90AF30)
-#define RPG_GAMECORE_PETPARTYSINGLECOMBINATIONSTARTPATTERN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D90ADB0)
+#define RPG_GAMECORE_PETPARTYSINGLECOMBINATIONSTARTPATTERN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB242C0)
+#define RPG_GAMECORE_PETPARTYSINGLECOMBINATIONSTARTPATTERN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB24140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartySingleCombinationStartPattern_TypeDefinitionIndex = 17547;
+	inline static constexpr unsigned int PetPartySingleCombinationStartPattern_TypeDefinitionIndex = 17715;
 
 	class PetPartySingleCombinationStartPattern : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE91BA40)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE91BBF0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xF3F7950)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_BLINKSPEEDLINETIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF3F7B00)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int BlinkSpeedLineTimelineTrack_TypeDefinitionIndex = 48540;
+	inline static constexpr unsigned int BlinkSpeedLineTimelineTrack_TypeDefinitionIndex = 49581;
 
 	class BlinkSpeedLineTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

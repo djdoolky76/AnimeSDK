@@ -7,12 +7,12 @@ namespace RPG::Client { class BattleToMazeShotConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC8646D0)
-#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xC864680)
+#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C99A0)
+#define RPG_CLIENT_BATTLETRANSITIONMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xD1C9950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleTransitionModuleConfig_TypeDefinitionIndex = 69668;
+	inline static constexpr unsigned int BattleTransitionModuleConfig_TypeDefinitionIndex = 71625;
 
 	class BattleTransitionModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

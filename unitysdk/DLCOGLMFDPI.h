@@ -7,11 +7,11 @@ class MIHNHJJBFJP;
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define DLCOGLMFDPI_CTOR_OFFSET UNITYSDK_OFFSET(0xF8983A0)
-#define DLCOGLMFDPI_KMANKMJOBGM_OFFSET UNITYSDK_OFFSET(0xF8975F0)
-#define DLCOGLMFDPI_LFOFJCNJDEF_OFFSET UNITYSDK_OFFSET(0xF897D00)
+#define DLCOGLMFDPI_CTOR_OFFSET UNITYSDK_OFFSET(0x10607800)
+#define DLCOGLMFDPI_KMANKMJOBGM_OFFSET UNITYSDK_OFFSET(0x10606A50)
+#define DLCOGLMFDPI_LFOFJCNJDEF_OFFSET UNITYSDK_OFFSET(0x10607160)
 
-inline static constexpr unsigned int DLCOGLMFDPI_TypeDefinitionIndex = 63875;
+inline static constexpr unsigned int DLCOGLMFDPI_TypeDefinitionIndex = 65317;
 
 	class DLCOGLMFDPI : public ::System::Object
 	{

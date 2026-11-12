@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvStartIsometric; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVSTARTISOMETRIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B2D40)
-#define RPG_GAMECORE_ADVSTARTISOMETRIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B2D50)
-#define RPG_GAMECORE_ADVSTARTISOMETRIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B2D10)
+#define RPG_GAMECORE_ADVSTARTISOMETRIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C2460)
+#define RPG_GAMECORE_ADVSTARTISOMETRIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5C2470)
+#define RPG_GAMECORE_ADVSTARTISOMETRIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C2430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvStartIsometric_TypeDefinitionIndex = 22206;
+	inline static constexpr unsigned int AdvStartIsometric_TypeDefinitionIndex = 22611;
 
 	class AdvStartIsometric : public ::RPG::GameCore::TaskConfig
 	{

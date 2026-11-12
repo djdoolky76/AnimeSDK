@@ -4,10 +4,10 @@
 class JBDOALOEMAB;
 namespace RPG::GameCore { class ChimeraDuelTalkNode; }
 
-#define HEFJABFBIKH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4E830)
-#define HEFJABFBIKH_FOJGLOJGJBA_OFFSET UNITYSDK_OFFSET(0x15C4E840)
+#define HEFJABFBIKH_CTOR_OFFSET UNITYSDK_OFFSET(0x16B92940)
+#define HEFJABFBIKH_FOJGLOJGJBA_OFFSET UNITYSDK_OFFSET(0x16B92950)
 
-inline static constexpr unsigned int HEFJABFBIKH_TypeDefinitionIndex = 77639;
+inline static constexpr unsigned int HEFJABFBIKH_TypeDefinitionIndex = 80374;
 
 	class HEFJABFBIKH : public ::HMDKMIJLJFH
 	{

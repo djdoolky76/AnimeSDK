@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PHLFCAAANAE_CTOR_OFFSET UNITYSDK_OFFSET(0xC255370)
-#define PHLFCAAANAE_PAEOPFFDNJM_OFFSET UNITYSDK_OFFSET(0xC255520)
-#define PHLFCAAANAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC2553F0)
-#define PHLFCAAANAE_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC255480)
+#define PHLFCAAANAE_CTOR_OFFSET UNITYSDK_OFFSET(0xCB7A7A0)
+#define PHLFCAAANAE_PAEOPFFDNJM_OFFSET UNITYSDK_OFFSET(0xCB7A950)
+#define PHLFCAAANAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCB7A820)
+#define PHLFCAAANAE_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xCB7A8B0)
 
-inline static constexpr unsigned int PHLFCAAANAE_TypeDefinitionIndex = 66998;
+inline static constexpr unsigned int PHLFCAAANAE_TypeDefinitionIndex = 68942;
 
 	class PHLFCAAANAE : public ::System::Object
 	{

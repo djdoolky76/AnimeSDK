@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetComponentAssetAnimParameterConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCOMPONENTASSETANIMPARAMETERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9D030)
-#define RPG_GAMECORE_SETCOMPONENTASSETANIMPARAMETERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9CED0)
+#define RPG_GAMECORE_SETCOMPONENTASSETANIMPARAMETERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAF2D0)
+#define RPG_GAMECORE_SETCOMPONENTASSETANIMPARAMETERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECAF170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetComponentAssetAnimParameterConfig_TypeDefinitionIndex = 22811;
+	inline static constexpr unsigned int SetComponentAssetAnimParameterConfig_TypeDefinitionIndex = 23234;
 
 	class SetComponentAssetAnimParameterConfig : public ::RPG::GameCore::JsonConfig
 	{

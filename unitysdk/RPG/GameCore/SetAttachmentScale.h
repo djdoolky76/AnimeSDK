@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AttachmentVisibilityNode; }
 namespace RPG::GameCore { class SetAttachmentScale; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETATTACHMENTSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA94780)
-#define RPG_GAMECORE_SETATTACHMENTSCALE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA947A0)
-#define RPG_GAMECORE_SETATTACHMENTSCALE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA94600)
+#define RPG_GAMECORE_SETATTACHMENTSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA6D00)
+#define RPG_GAMECORE_SETATTACHMENTSCALE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECA6D20)
+#define RPG_GAMECORE_SETATTACHMENTSCALE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA6B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAttachmentScale_TypeDefinitionIndex = 22377;
+	inline static constexpr unsigned int SetAttachmentScale_TypeDefinitionIndex = 22786;
 
 	class SetAttachmentScale : public ::RPG::GameCore::TaskConfig
 	{

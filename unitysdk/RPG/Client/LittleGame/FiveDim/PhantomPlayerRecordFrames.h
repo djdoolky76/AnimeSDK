@@ -7,12 +7,12 @@ namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerFrameQuaternionD
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames_RPG_Client_LittleGame_Move_MoveState_AutoGen; }
 namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames_System_Boolean_AutoGen; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA06EC0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_NOFLBFPJFKN_OFFSET UNITYSDK_OFFSET(0x1CA06AE0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBCA5F0)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_PHANTOMPLAYERRECORDFRAMES_NOFLBFPJFKN_OFFSET UNITYSDK_OFFSET(0x1DBCA210)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PhantomPlayerRecordFrames_TypeDefinitionIndex = 43586;
+	inline static constexpr unsigned int PhantomPlayerRecordFrames_TypeDefinitionIndex = 44568;
 
 	class PhantomPlayerRecordFrames : public ::System::Object
 	{

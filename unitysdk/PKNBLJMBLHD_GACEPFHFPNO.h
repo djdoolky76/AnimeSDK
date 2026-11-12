@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class MBGDHLKCOAB;
 
-inline static constexpr unsigned int PKNBLJMBLHD_GACEPFHFPNO_TypeDefinitionIndex = 54095;
+inline static constexpr unsigned int PKNBLJMBLHD_GACEPFHFPNO_TypeDefinitionIndex = 55259;
 
 	struct alignas(8) PKNBLJMBLHD_GACEPFHFPNO
 	{

@@ -4,21 +4,21 @@
 namespace RPG::GameCore { class LevelAudioTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E18F0)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6E1900)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6E1940)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6E1A50)
-#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE6E1AA0)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xF1E39E0)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF1E39F0)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1E3A30)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF1E3B40)
+#define RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_TICK_OFFSET UNITYSDK_OFFSET(0xF1E3B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioTriggerTask_TypeDefinitionIndex = 58182;
+	inline static constexpr unsigned int LevelAudioTriggerTask_TypeDefinitionIndex = 59436;
 
 	class LevelAudioTriggerTask : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::LevelAudioTrigger* _ConfigRef; // 0x18
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::RPG::GameCore::LevelAudioTrigger* _ConfigRef; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelAudioTrigger* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioTrigger*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOTRIGGERTASK_CTOR_OFFSET))(this, a1, a2);

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleAbilityTag_TypeDefinitionIndex = 15827;
+	inline static constexpr unsigned int ChimeraBattleAbilityTag_TypeDefinitionIndex = 15985;
 
 	enum class ChimeraBattleAbilityTag : ::System::Int32
 	{

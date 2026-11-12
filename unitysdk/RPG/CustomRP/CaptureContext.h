@@ -12,7 +12,7 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureContext_TypeDefinitionIndex = 37617;
+	inline static constexpr unsigned int CaptureContext_TypeDefinitionIndex = 38545;
 
 	struct alignas(8) CaptureContext
 	{

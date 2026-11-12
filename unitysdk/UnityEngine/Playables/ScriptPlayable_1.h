@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int ScriptPlayable_1_TypeDefinitionIndex = 4926;
+	inline static constexpr unsigned int ScriptPlayable_1_TypeDefinitionIndex = 4931;
 
 	template <typename T>
 	struct alignas(4) ScriptPlayable_1

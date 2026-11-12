@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class GJMLHNALEJL;
 namespace RPG::GameCore { class DynamicString; }
 
-#define GJMLHNALEJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE57920)
-#define GJMLHNALEJL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE57930)
-#define GJMLHNALEJL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE578F0)
+#define GJMLHNALEJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0330D0)
+#define GJMLHNALEJL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E0330E0)
+#define GJMLHNALEJL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0330A0)
 
-inline static constexpr unsigned int GJMLHNALEJL_TypeDefinitionIndex = 20992;
+inline static constexpr unsigned int GJMLHNALEJL_TypeDefinitionIndex = 21330;
 
 	class GJMLHNALEJL : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* LKHIJJKHCNE; // 0x18
-		::RPG::GameCore::DynamicString* DDPFGAENEAD; // 0x20
+		::RPG::GameCore::DynamicString* DDPFGAENEAD; // 0x18
+		::RPG::GameCore::DynamicString* LKHIJJKHCNE; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GJMLHNALEJL_CTOR_OFFSET))(this);

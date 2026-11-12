@@ -6,29 +6,29 @@ namespace RPG::Client { class TeamManager; }
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_CTOR_OFFSET UNITYSDK_OFFSET(0xE1D3270)
-#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE1DDD90)
-#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE1DDF80)
-#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE1DDFE0)
-#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE1DDF90)
-#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE1DDD80)
+#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_CTOR_OFFSET UNITYSDK_OFFSET(0xEC80790)
+#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xEC8AFB0)
+#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_WORK_IASYNCWORKSTEPRESULT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xEC8B1B0)
+#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xEC8B210)
+#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xEC8B1C0)
+#define RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEC8AFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamManager___CreateMemberEntity_d__21_TypeDefinitionIndex = 60788;
+	inline static constexpr unsigned int TeamManager___CreateMemberEntity_d__21_TypeDefinitionIndex = 62167;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21>
 	class TeamManager___CreateMemberEntity_d__21 : public ::System::Object
 	{
 	public:
-		::NNDAJDLAHNC* __2__current; // 0x10
-		::RPG::Client::TeamManager* __4__this; // 0x18
-		::System::Object* __8__1; // 0x20
-		::System::Action* onAsyncLoadFinish; // 0x28
+		::System::Action* onAsyncLoadFinish; // 0x10
+		::NNDAJDLAHNC* __2__current; // 0x18
+		::RPG::Client::TeamManager* __4__this; // 0x20
+		::System::Object* __8__1; // 0x28
 		::System::Boolean bAsyncLoad; // 0x30
 		::System::Byte _padding0[0x3];
-		::System::Int32 __1__state; // 0x34
-		::System::Int32 memberDataIdx; // 0x38
+		::System::Int32 memberDataIdx; // 0x34
+		::System::Int32 __1__state; // 0x38
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_TEAMMANAGER___CREATEMEMBERENTITY_D__21_CTOR_OFFSET))(this, a1);

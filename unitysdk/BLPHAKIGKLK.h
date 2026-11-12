@@ -4,19 +4,19 @@
 #include "unitysdk/System/Nullable_1.h"
 namespace UnityEngine { class Animator; }
 
-#define BLPHAKIGKLK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA838A0)
-#define BLPHAKIGKLK_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xBA837F0)
-#define BLPHAKIGKLK__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA83790)
+#define BLPHAKIGKLK_CTOR_OFFSET UNITYSDK_OFFSET(0xC415B10)
+#define BLPHAKIGKLK_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xC415A60)
+#define BLPHAKIGKLK__ONBIND_OFFSET UNITYSDK_OFFSET(0xC4159B0)
 
-inline static constexpr unsigned int BLPHAKIGKLK_TypeDefinitionIndex = 71604;
+inline static constexpr unsigned int BLPHAKIGKLK_TypeDefinitionIndex = 73592;
 
 	class BLPHAKIGKLK : public ::FMPCODLIOLG
 	{
 	public:
 		::UnityEngine::Animator* CFNGLMDMENE; // 0x60
-		::System::Int32 LGCHPLAJBKL; // 0x68
-		::System::Int32 LANBHBALFOA; // 0x6C
-		::System::Nullable_1<::System::Boolean> OGAGNOPLEIH; // 0x70
+		::System::Nullable_1<::System::Boolean> OGAGNOPLEIH; // 0x68
+		::System::Int32 LGCHPLAJBKL; // 0x6C
+		::System::Int32 LANBHBALFOA; // 0x70
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLPHAKIGKLK_CTOR_OFFSET))(this);

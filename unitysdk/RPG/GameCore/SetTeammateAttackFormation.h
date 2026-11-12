@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetTeammateAttackFormation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TeammateAttackFormationConfig; }
 
-#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC7480)
-#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC74C0)
-#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC7410)
+#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD9310)
+#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD9350)
+#define RPG_GAMECORE_SETTEAMMATEATTACKFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD92A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTeammateAttackFormation_TypeDefinitionIndex = 22490;
+	inline static constexpr unsigned int SetTeammateAttackFormation_TypeDefinitionIndex = 22899;
 
 	class SetTeammateAttackFormation : public ::RPG::GameCore::TaskConfig
 	{

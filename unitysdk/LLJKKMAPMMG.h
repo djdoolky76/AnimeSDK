@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitTimeRelayFlameLoaded; }
 
-#define LLJKKMAPMMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB773CD0)
-#define LLJKKMAPMMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB773D80)
-#define LLJKKMAPMMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB773CE0)
-#define LLJKKMAPMMG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB773D30)
-#define LLJKKMAPMMG_TICK_OFFSET UNITYSDK_OFFSET(0xB773DC0)
+#define LLJKKMAPMMG_CTOR_OFFSET UNITYSDK_OFFSET(0xC013E80)
+#define LLJKKMAPMMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC013F30)
+#define LLJKKMAPMMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC013E90)
+#define LLJKKMAPMMG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC013EE0)
+#define LLJKKMAPMMG_TICK_OFFSET UNITYSDK_OFFSET(0xC013F70)
 
-inline static constexpr unsigned int LLJKKMAPMMG_TypeDefinitionIndex = 53497;
+inline static constexpr unsigned int LLJKKMAPMMG_TypeDefinitionIndex = 54659;
 
 	class LLJKKMAPMMG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::WaitTimeRelayFlameLoaded* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::WaitTimeRelayFlameLoaded* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitTimeRelayFlameLoaded* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitTimeRelayFlameLoaded*))((::PBYTE)hIl2Cpp + LLJKKMAPMMG_CTOR_OFFSET))(this, a1, a2);

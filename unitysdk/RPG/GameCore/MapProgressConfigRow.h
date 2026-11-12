@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapProgressConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPPROGRESSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82D970)
-#define RPG_GAMECORE_MAPPROGRESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82D2E0)
+#define RPG_GAMECORE_MAPPROGRESSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA48390)
+#define RPG_GAMECORE_MAPPROGRESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA47D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapProgressConfigRow_TypeDefinitionIndex = 14000;
+	inline static constexpr unsigned int MapProgressConfigRow_TypeDefinitionIndex = 14157;
 
 	class MapProgressConfigRow : public ::System::Object
 	{

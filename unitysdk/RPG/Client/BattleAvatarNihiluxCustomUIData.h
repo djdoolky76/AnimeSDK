@@ -1,0 +1,133 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ElationEchoPointUIType.h"
+#include "unitysdk/RPG/GameCore/NihiluxElationUIType.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class IAvatarSkinData; }
+namespace RPG::GameCore { class GameEntity; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_ADDHANDLERS_OFFSET UNITYSDK_OFFSET(0xD1740D0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD175460)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD173EA0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GETELATIONECHOPOINTUITYPE_OFFSET UNITYSDK_OFFSET(0xD174400)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GETISNIHILUXELATIONTIMESPEEDUP_OFFSET UNITYSDK_OFFSET(0xD174740)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GETNIHILUXDIRTYHPRATIO_OFFSET UNITYSDK_OFFSET(0xD1744A0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GET_ELATIONUITYPE_OFFSET UNITYSDK_OFFSET(0xD175410)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_MAPRESPATH_OFFSET UNITYSDK_OFFSET(0xD1745A0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_SETISNIHILUXELATIONTIMESPEEDUP_OFFSET UNITYSDK_OFFSET(0xD1747F0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_SETTRAILNIHILUXELATIONTIMESPEEDUP_OFFSET UNITYSDK_OFFSET(0xD1746F0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__GETHPSHAREDMAINTARGET_OFFSET UNITYSDK_OFFSET(0xD1750C0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONCREATEPLAYERTEAMFINISH_OFFSET UNITYSDK_OFFSET(0xD174E10)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONFORCESETNIHILUXELATIONUITYPE_OFFSET UNITYSDK_OFFSET(0xD1752F0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONSETNIHILUXDIRTYHPRATIO_OFFSET UNITYSDK_OFFSET(0xD175240)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONSWITCHELATIONECHOPOINTUITYPE_OFFSET UNITYSDK_OFFSET(0xD174FD0)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONSWITCHNIHILUXELATIONUITYPE_OFFSET UNITYSDK_OFFSET(0xD174D00)
+#define RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__REMOVEHANDLERS_OFFSET UNITYSDK_OFFSET(0xD174B40)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int BattleAvatarNihiluxCustomUIData_TypeDefinitionIndex = 73442;
+
+	class BattleAvatarNihiluxCustomUIData : public ::System::Object
+	{
+	public:
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Single>* _NihiluxDirtyHPRatioMap; // 0x10
+		::RPG::Client::IAvatarSkinData* _NihiluxSkinData; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::ElationEchoPointUIType>* _ElationEchoPointUITypeMap; // 0x20
+		::System::Boolean _AddedNotifyHandler; // 0x28
+		::System::Boolean _IsForceNihiluxElationUIType; // 0x29
+		::System::Nullable_1<::System::Boolean> _IsTrailNihiluxElationTimeSpeedUp; // 0x2A
+		::System::Boolean _PauseUpdateElationUIType; // 0x2C
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::NihiluxElationUIType _ElationUIType; // 0x30
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_CTOR_OFFSET))(this);
+		}
+
+		::System::Void Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Void AddHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_ADDHANDLERS_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ElationEchoPointUIType GetElationEchoPointUIType(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::RPG::GameCore::ElationEchoPointUIType(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GETELATIONECHOPOINTUITYPE_OFFSET))(this, a1);
+		}
+
+		::System::Single GetNihiluxDirtyHPRatio(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Single(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GETNIHILUXDIRTYHPRATIO_OFFSET))(this, a1);
+		}
+
+		::System::String* MapResPath(::System::String* a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_MAPRESPATH_OFFSET))(this, a1);
+		}
+
+		::System::Void SetTrailNihiluxElationTimeSpeedUp(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_SETTRAILNIHILUXELATIONTIMESPEEDUP_OFFSET))(this, a1);
+		}
+
+		::System::Boolean GetIsNihiluxElationTimeSpeedUp()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GETISNIHILUXELATIONTIMESPEEDUP_OFFSET))(this);
+		}
+
+		::System::Void SetIsNihiluxElationTimeSpeedUp(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_SETISNIHILUXELATIONTIMESPEEDUP_OFFSET))(this, a1);
+		}
+
+		::System::Void _RemoveHandlers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__REMOVEHANDLERS_OFFSET))(this);
+		}
+
+		::System::Void _OnSwitchNihiluxElationUIType(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONSWITCHNIHILUXELATIONUITYPE_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnCreatePlayerTeamFinish(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONCREATEPLAYERTEAMFINISH_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnSwitchElationEchoPointUIType(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONSWITCHELATIONECHOPOINTUITYPE_OFFSET))(this, a1);
+		}
+
+		static ::RPG::GameCore::GameEntity* _GetHpSharedMainTarget(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::RPG::GameCore::GameEntity*(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__GETHPSHAREDMAINTARGET_OFFSET))(a1);
+		}
+
+		::System::Void _OnSetNihiluxDirtyHPRatio(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONSETNIHILUXDIRTYHPRATIO_OFFSET))(this, a1);
+		}
+
+		::System::Void _OnForceSetNihiluxElationUIType(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA__ONFORCESETNIHILUXELATIONUITYPE_OFFSET))(this, a1);
+		}
+
+		::RPG::GameCore::NihiluxElationUIType get_ElationUIType()
+		{
+			return ((::RPG::GameCore::NihiluxElationUIType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEAVATARNIHILUXCUSTOMUIDATA_GET_ELATIONUITYPE_OFFSET))(this);
+		}
+
+	};
+}

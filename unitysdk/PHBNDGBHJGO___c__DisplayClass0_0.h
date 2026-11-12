@@ -4,11 +4,11 @@
 namespace System { class Action; }
 namespace System::Diagnostics { class Stopwatch; }
 
-#define PHBNDGBHJGO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC237530)
-#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__0_OFFSET UNITYSDK_OFFSET(0xC237550)
-#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__1_OFFSET UNITYSDK_OFFSET(0xC2375E0)
+#define PHBNDGBHJGO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB210A0)
+#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__0_OFFSET UNITYSDK_OFFSET(0xCB210C0)
+#define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__1_OFFSET UNITYSDK_OFFSET(0xCB21150)
 
-inline static constexpr unsigned int PHBNDGBHJGO___c__DisplayClass0_0_TypeDefinitionIndex = 61107;
+inline static constexpr unsigned int PHBNDGBHJGO___c__DisplayClass0_0_TypeDefinitionIndex = 62492;
 
 	class PHBNDGBHJGO___c__DisplayClass0_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareLastKillSkill; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KIFAHHALIJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB41D400)
-#define KIFAHHALIJE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB41D430)
+#define KIFAHHALIJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCB3860)
+#define KIFAHHALIJE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCB3890)
 
-inline static constexpr unsigned int KIFAHHALIJE_TypeDefinitionIndex = 54539;
+inline static constexpr unsigned int KIFAHHALIJE_TypeDefinitionIndex = 55704;
 
 	class KIFAHHALIJE
 	{

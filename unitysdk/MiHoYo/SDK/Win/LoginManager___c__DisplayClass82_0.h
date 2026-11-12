@@ -5,18 +5,18 @@ namespace MiHoYo::SDK { class NetworkResponseModelEx; }
 namespace MiHoYo::SDK::Win { class LoginManager; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS82_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD70170)
-#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS82_0__REQUESTLOGINBYGOOGLE_B__1_OFFSET UNITYSDK_OFFSET(0x1BD85720)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS82_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF8E60)
+#define MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS82_0__REQUESTLOGINBYGOOGLE_B__1_OFFSET UNITYSDK_OFFSET(0x1CF0E470)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass82_0_TypeDefinitionIndex = 9457;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass82_0_TypeDefinitionIndex = 9465;
 
 	class LoginManager___c__DisplayClass82_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x10
-		::System::String* idToken; // 0x18
+		::System::String* idToken; // 0x10
+		::MiHoYo::SDK::Win::LoginManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINMANAGER___C__DISPLAYCLASS82_0_CTOR_OFFSET))(this);

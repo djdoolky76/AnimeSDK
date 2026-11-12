@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyConditionExtendParam; }
 
-#define RPG_GAMECORE_ALLEYCONDITIONEXTENDPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E05C0)
-#define RPG_GAMECORE_ALLEYCONDITIONEXTENDPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3E04C0)
+#define RPG_GAMECORE_ALLEYCONDITIONEXTENDPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E600960)
+#define RPG_GAMECORE_ALLEYCONDITIONEXTENDPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E600860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyConditionExtendParam_TypeDefinitionIndex = 15677;
+	inline static constexpr unsigned int AlleyConditionExtendParam_TypeDefinitionIndex = 15835;
 
 	class AlleyConditionExtendParam : public ::RPG::GameCore::JsonConfig
 	{

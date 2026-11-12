@@ -6,18 +6,18 @@
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define NKDJJJCBAFF_CTOR_OFFSET UNITYSDK_OFFSET(0xBC32AD0)
+#define NKDJJJCBAFF_CTOR_OFFSET UNITYSDK_OFFSET(0xC516720)
 
-inline static constexpr unsigned int NKDJJJCBAFF_TypeDefinitionIndex = 69665;
+inline static constexpr unsigned int NKDJJJCBAFF_TypeDefinitionIndex = 71622;
 
 	class NKDJJJCBAFF : public ::System::Object
 	{
 	public:
-		::UnityEngine::RectTransform* NBJICLPDGFD; // 0x10
-		::UnityEngine::Transform* NGOPIKCKJMA; // 0x18
-		::System::Single OLKEBGEMAOD; // 0x20
-		::UnityEngine::Vector2 DPIJEOOFHIN; // 0x24
-		::UnityEngine::Vector3 BNGJDBHHMFO; // 0x2C
+		::UnityEngine::Transform* NGOPIKCKJMA; // 0x10
+		::UnityEngine::RectTransform* NBJICLPDGFD; // 0x18
+		::UnityEngine::Vector3 BNGJDBHHMFO; // 0x20
+		::System::Single OLKEBGEMAOD; // 0x2C
+		::UnityEngine::Vector2 DPIJEOOFHIN; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKDJJJCBAFF_CTOR_OFFSET))(this);

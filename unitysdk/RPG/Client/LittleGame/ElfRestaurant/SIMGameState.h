@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int SIMGameState_TypeDefinitionIndex = 43641;
+	inline static constexpr unsigned int SIMGameState_TypeDefinitionIndex = 44624;
 
 	enum class SIMGameState : ::System::Int32
 	{

@@ -5,11 +5,11 @@ class DLNGPHPNPAN;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DEKGIMBNJPG_CTOR_OFFSET UNITYSDK_OFFSET(0xE514360)
-#define DEKGIMBNJPG_LOCK_OFFSET UNITYSDK_OFFSET(0xE514370)
-#define DEKGIMBNJPG_UNLOCK_OFFSET UNITYSDK_OFFSET(0xE514480)
+#define DEKGIMBNJPG_CTOR_OFFSET UNITYSDK_OFFSET(0xF175DF0)
+#define DEKGIMBNJPG_LOCK_OFFSET UNITYSDK_OFFSET(0xF175E00)
+#define DEKGIMBNJPG_UNLOCK_OFFSET UNITYSDK_OFFSET(0xF175F10)
 
-inline static constexpr unsigned int DEKGIMBNJPG_TypeDefinitionIndex = 74782;
+inline static constexpr unsigned int DEKGIMBNJPG_TypeDefinitionIndex = 76936;
 
 	class DEKGIMBNJPG : public ::RPG::Client::GamePlayLockTargetFunc
 	{

@@ -7,20 +7,20 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PFLOHFIKPPD_CTOR_OFFSET UNITYSDK_OFFSET(0xC217730)
-#define PFLOHFIKPPD_EPGCJEFJCBA_OFFSET UNITYSDK_OFFSET(0xC217470)
-#define PFLOHFIKPPD_HKBMFGJCBKD_OFFSET UNITYSDK_OFFSET(0xC2176A0)
-#define PFLOHFIKPPD_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC217300)
-#define PFLOHFIKPPD_NIDJAOOIODC_OFFSET UNITYSDK_OFFSET(0xC216E00)
-#define PFLOHFIKPPD_PECFLDGGMFF_OFFSET UNITYSDK_OFFSET(0xC2171A0)
+#define PFLOHFIKPPD_CTOR_OFFSET UNITYSDK_OFFSET(0xCAFA240)
+#define PFLOHFIKPPD_EPGCJEFJCBA_OFFSET UNITYSDK_OFFSET(0xCAF9F80)
+#define PFLOHFIKPPD_HKBMFGJCBKD_OFFSET UNITYSDK_OFFSET(0xCAFA1B0)
+#define PFLOHFIKPPD_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xCAF9E10)
+#define PFLOHFIKPPD_NIDJAOOIODC_OFFSET UNITYSDK_OFFSET(0xCAF9910)
+#define PFLOHFIKPPD_PECFLDGGMFF_OFFSET UNITYSDK_OFFSET(0xCAF9CB0)
 
-inline static constexpr unsigned int PFLOHFIKPPD_TypeDefinitionIndex = 56859;
+inline static constexpr unsigned int PFLOHFIKPPD_TypeDefinitionIndex = 58083;
 
 	class PFLOHFIKPPD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::OGGNBCHLCKH, ::System::Collections::Generic::List_1<::System::UInt32>*>* IGMHOHHNNLE; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OGGNBCHLCKH>* DHHOMCHEIFF; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::OGGNBCHLCKH>* DHHOMCHEIFF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::OGGNBCHLCKH, ::System::Collections::Generic::List_1<::System::UInt32>*>* IGMHOHHNNLE; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PFLOHFIKPPD_CTOR_OFFSET))(this);

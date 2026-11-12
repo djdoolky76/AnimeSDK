@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GLOLEGFJDEL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE67400)
-#define GLOLEGFJDEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE67980)
-#define GLOLEGFJDEL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE67570)
-#define GLOLEGFJDEL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE66EB0)
-#define GLOLEGFJDEL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE67140)
-#define GLOLEGFJDEL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE67610)
-#define GLOLEGFJDEL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE67660)
-#define GLOLEGFJDEL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE67440)
-#define GLOLEGFJDEL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE670E0)
-#define GLOLEGFJDEL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE67270)
-#define GLOLEGFJDEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE674D0)
-#define GLOLEGFJDEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE66E30)
+#define GLOLEGFJDEL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E041BB0)
+#define GLOLEGFJDEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E042130)
+#define GLOLEGFJDEL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E041D20)
+#define GLOLEGFJDEL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E041660)
+#define GLOLEGFJDEL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E0418F0)
+#define GLOLEGFJDEL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E041DC0)
+#define GLOLEGFJDEL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E041E10)
+#define GLOLEGFJDEL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E041BF0)
+#define GLOLEGFJDEL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E041890)
+#define GLOLEGFJDEL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E041A20)
+#define GLOLEGFJDEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E041C80)
+#define GLOLEGFJDEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E0415E0)
 
-inline static constexpr unsigned int GLOLEGFJDEL_TypeDefinitionIndex = 10896;
+inline static constexpr unsigned int GLOLEGFJDEL_TypeDefinitionIndex = 10912;
 
 	class GLOLEGFJDEL : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityActiveConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityActiveConfigRow*>**)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x19B40);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityActiveConfigRow*>**)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x116B0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x19B48);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x116B8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x19B50);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x5D60);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x116C0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x5D61);
+			return (::System::Boolean*)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x3980);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "GLOLEGFJDEL")->GetStaticField(0x3981);
 		}
 
 		static ::System::Void _cctor()

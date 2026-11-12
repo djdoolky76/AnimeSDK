@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EraFlipperBattleAreaOverrideConfig; }
 
-#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6810F0)
-#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D680F80)
+#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D420)
+#define RPG_GAMECORE_ERAFLIPPERBATTLEAREAOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E88D2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraFlipperBattleAreaOverrideConfig_TypeDefinitionIndex = 16617;
+	inline static constexpr unsigned int EraFlipperBattleAreaOverrideConfig_TypeDefinitionIndex = 16783;
 
 	class EraFlipperBattleAreaOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

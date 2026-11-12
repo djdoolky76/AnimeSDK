@@ -4,31 +4,31 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PUNKLORDINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDFF6D0)
-#define RPG_CLIENT_PUNKLORDINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDDFF710)
-#define RPG_CLIENT_PUNKLORDINSTANCE___C__KILLEDBYOTHERS_B__6_0_OFFSET UNITYSDK_OFFSET(0xDDFF790)
-#define RPG_CLIENT_PUNKLORDINSTANCE___C__TIMEOUT_B__5_0_OFFSET UNITYSDK_OFFSET(0xDDFF720)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE864850)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE864890)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C__KILLEDBYOTHERS_B__6_0_OFFSET UNITYSDK_OFFSET(0xE864B30)
+#define RPG_CLIENT_PUNKLORDINSTANCE___C__TIMEOUT_B__5_0_OFFSET UNITYSDK_OFFSET(0xE8648A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PunkLordInstance___c_TypeDefinitionIndex = 66752;
+	inline static constexpr unsigned int PunkLordInstance___c_TypeDefinitionIndex = 68688;
 
 	class PunkLordInstance___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CA0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66EF0);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66EF8);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x60CB0);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66F00);
 		}
 
 		static ::System::Void _cctor()

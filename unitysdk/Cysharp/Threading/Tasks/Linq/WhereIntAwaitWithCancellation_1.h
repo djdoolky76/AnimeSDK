@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int WhereIntAwaitWithCancellation_1_TypeDefinitionIndex = 45737;
+	inline static constexpr unsigned int WhereIntAwaitWithCancellation_1_TypeDefinitionIndex = 46766;
 
 	template <typename T>
 	class WhereIntAwaitWithCancellation_1 : public ::System::Object

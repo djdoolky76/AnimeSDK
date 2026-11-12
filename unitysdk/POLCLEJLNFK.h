@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByNpcMazeSkillCooldown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define POLCLEJLNFK_CTOR_OFFSET UNITYSDK_OFFSET(0xC370720)
-#define POLCLEJLNFK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC370750)
+#define POLCLEJLNFK_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA5C50)
+#define POLCLEJLNFK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCCA5C80)
 
-inline static constexpr unsigned int POLCLEJLNFK_TypeDefinitionIndex = 53125;
+inline static constexpr unsigned int POLCLEJLNFK_TypeDefinitionIndex = 54287;
 
 	class POLCLEJLNFK
 	{

@@ -4,18 +4,18 @@
 class NIFPICHIDLJ;
 namespace System { class Object; }
 
-#define NIFPICHIDLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB2F1C0)
-#define NIFPICHIDLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2F200)
-#define NIFPICHIDLJ___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EB2F210)
+#define NIFPICHIDLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F016DB0)
+#define NIFPICHIDLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F016DF0)
+#define NIFPICHIDLJ___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F016E00)
 
-inline static constexpr unsigned int NIFPICHIDLJ___c_TypeDefinitionIndex = 25583;
+inline static constexpr unsigned int NIFPICHIDLJ___c_TypeDefinitionIndex = 26078;
 
 	class NIFPICHIDLJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63D00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CCA0);
 		}
 
 		static ::System::Void _cctor()

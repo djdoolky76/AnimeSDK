@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NHMPGNHBBLC_TypeDefinitionIndex = 33622;
+inline static constexpr unsigned int NHMPGNHBBLC_TypeDefinitionIndex = 34537;
 
 	enum class NHMPGNHBBLC : ::System::Int32
 	{

@@ -19,12 +19,12 @@ namespace MiHoYo::SDK { class WebViewRenderMethodBoxConfig; }
 namespace MiHoYo::SDK { class WebViewReportBoxConfig; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x1BC3F560)
-#define MIHOYO_SDK_BOXMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3C040)
+#define MIHOYO_SDK_BOXMODEL_CHECKDIVISORENABLE_OFFSET UNITYSDK_OFFSET(0x1CDC8660)
+#define MIHOYO_SDK_BOXMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC5140)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 7929;
+	inline static constexpr unsigned int BoxModel_TypeDefinitionIndex = 7938;
 
 	class BoxModel : public ::System::Object
 	{

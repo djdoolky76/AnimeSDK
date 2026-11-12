@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HipplenBuilderTestModule_DJIICLIILAM_TestStatus_TypeDefinitionIndex = 47215;
+inline static constexpr unsigned int HipplenBuilderTestModule_DJIICLIILAM_TestStatus_TypeDefinitionIndex = 48243;
 
 	enum class HipplenBuilderTestModule_DJIICLIILAM_TestStatus : ::System::Int32
 	{

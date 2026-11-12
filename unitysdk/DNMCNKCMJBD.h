@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define DNMCNKCMJBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4CE60)
-#define DNMCNKCMJBD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD4CE70)
-#define DNMCNKCMJBD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD4CE30)
+#define DNMCNKCMJBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF1BBF0)
+#define DNMCNKCMJBD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF1BC00)
+#define DNMCNKCMJBD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF1BBC0)
 
-inline static constexpr unsigned int DNMCNKCMJBD_TypeDefinitionIndex = 23722;
+inline static constexpr unsigned int DNMCNKCMJBD_TypeDefinitionIndex = 24178;
 
 	class DNMCNKCMJBD : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* KFEANGGPLGP; // 0x18
 		::System::String* NHMCBAJHOLP; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-		::System::String* DPJIJDKJFJL; // 0x30
-		::System::String* FHLJGDGMMHK; // 0x38
+		::System::String* DPJIJDKJFJL; // 0x28
+		::System::String* FHLJGDGMMHK; // 0x30
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x38
 		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x40
 		::System::Void _ctor()
 		{

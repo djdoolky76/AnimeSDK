@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DeployPuzzleFadeout; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEPLOYPUZZLEFADEOUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FBFA0)
-#define RPG_GAMECORE_DEPLOYPUZZLEFADEOUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5FBFE0)
-#define RPG_GAMECORE_DEPLOYPUZZLEFADEOUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FBF40)
+#define RPG_GAMECORE_DEPLOYPUZZLEFADEOUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80F230)
+#define RPG_GAMECORE_DEPLOYPUZZLEFADEOUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E80F270)
+#define RPG_GAMECORE_DEPLOYPUZZLEFADEOUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E80F1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeployPuzzleFadeout_TypeDefinitionIndex = 21982;
+	inline static constexpr unsigned int DeployPuzzleFadeout_TypeDefinitionIndex = 22373;
 
 	class DeployPuzzleFadeout : public ::RPG::GameCore::TaskConfig
 	{

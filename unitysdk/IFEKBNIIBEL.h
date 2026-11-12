@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int IFEKBNIIBEL_TypeDefinitionIndex = 43482;
+inline static constexpr unsigned int IFEKBNIIBEL_TypeDefinitionIndex = 44464;
 
 	struct alignas(4) IFEKBNIIBEL
 	{

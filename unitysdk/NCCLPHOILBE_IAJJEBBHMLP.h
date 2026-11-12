@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/JDMNPLMAKGE.h"
 
-#define NCCLPHOILBE_IAJJEBBHMLP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAFD9D0)
-#define NCCLPHOILBE_IAJJEBBHMLP_EICNFKBNCKJ_OFFSET UNITYSDK_OFFSET(0xBAFFD10)
-#define NCCLPHOILBE_IAJJEBBHMLP_MBNOBHBIFMP_OFFSET UNITYSDK_OFFSET(0xBAFD400)
+#define NCCLPHOILBE_IAJJEBBHMLP_CTOR_OFFSET UNITYSDK_OFFSET(0xC384BD0)
+#define NCCLPHOILBE_IAJJEBBHMLP_EICNFKBNCKJ_OFFSET UNITYSDK_OFFSET(0xC386E80)
+#define NCCLPHOILBE_IAJJEBBHMLP_MBNOBHBIFMP_OFFSET UNITYSDK_OFFSET(0xC384600)
 
-inline static constexpr unsigned int NCCLPHOILBE_IAJJEBBHMLP_TypeDefinitionIndex = 71594;
+inline static constexpr unsigned int NCCLPHOILBE_IAJJEBBHMLP_TypeDefinitionIndex = 73582;
 
 	class NCCLPHOILBE_IAJJEBBHMLP : public ::System::Object
 	{
 	public:
-		::System::Single AICEGEHFLKM; // 0x10
-		::UnityEngine::Vector2 AFOOCLEPIIK; // 0x14
-		::UnityEngine::Vector2 MEDPKIEKODB; // 0x1C
-		::System::Single OMJGOCKEIBK; // 0x24
+		::UnityEngine::Vector2 MEDPKIEKODB; // 0x10
+		::System::Single OMJGOCKEIBK; // 0x18
+		::UnityEngine::Vector2 AFOOCLEPIIK; // 0x1C
+		::System::Single AICEGEHFLKM; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCCLPHOILBE_IAJJEBBHMLP_CTOR_OFFSET))(this);

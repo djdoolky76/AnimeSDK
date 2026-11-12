@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Mono::Net { class CFDictionary; }
 
-#define MONO_NET_CFPROXYSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFC1190)
-#define MONO_NET_CFPROXYSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBE270)
-#define MONO_NET_CFPROXYSETTINGS_GET_DICTIONARY_OFFSET UNITYSDK_OFFSET(0x1EFC1770)
+#define MONO_NET_CFPROXYSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x202708A0)
+#define MONO_NET_CFPROXYSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x2026D980)
+#define MONO_NET_CFPROXYSETTINGS_GET_DICTIONARY_OFFSET UNITYSDK_OFFSET(0x20270E80)
 
 namespace Mono::Net
 {
@@ -15,34 +15,34 @@ namespace Mono::Net
 	{
 	public:
 		::Mono::Net::CFDictionary* settings; // 0x10
-		static ::System::IntPtr* StaticGet_kCFNetworkProxiesProxyAutoConfigURLString()
+		static ::System::IntPtr* StaticGet_kCFNetworkProxiesHTTPProxy()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0xB9C0);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFNetworkProxiesHTTPEnable()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0xB9C8);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0x8270);
 		}
 
 		static ::System::IntPtr* StaticGet_kCFNetworkProxiesHTTPPort()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0xB9D0);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0x8278);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFNetworkProxiesHTTPEnable()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0x8280);
+		}
+
+		static ::System::IntPtr* StaticGet_kCFNetworkProxiesProxyAutoConfigURLString()
+		{
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0x8288);
 		}
 
 		static ::System::IntPtr* StaticGet_kCFNetworkProxiesProxyAutoConfigJavaScript()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0xB9D8);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0x8290);
 		}
 
 		static ::System::IntPtr* StaticGet_kCFNetworkProxiesProxyAutoConfigEnable()
 		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0xB9E0);
-		}
-
-		static ::System::IntPtr* StaticGet_kCFNetworkProxiesHTTPProxy()
-		{
-			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0xB9E8);
+			return (::System::IntPtr*)UnitySDK::FromName("Mono.Net", "CFProxySettings")->GetStaticField(0x8298);
 		}
 
 		static ::System::Void _cctor()

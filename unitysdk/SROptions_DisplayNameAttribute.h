@@ -3,9 +3,9 @@
 #include "unitysdk/System/ComponentModel/DisplayNameAttribute.h"
 namespace System { class String; }
 
-#define SROPTIONS_DISPLAYNAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF020)
+#define SROPTIONS_DISPLAYNAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xB71FD30)
 
-inline static constexpr unsigned int SROptions_DisplayNameAttribute_TypeDefinitionIndex = 45923;
+inline static constexpr unsigned int SROptions_DisplayNameAttribute_TypeDefinitionIndex = 46952;
 
 	class SROptions_DisplayNameAttribute : public ::System::ComponentModel::DisplayNameAttribute
 	{

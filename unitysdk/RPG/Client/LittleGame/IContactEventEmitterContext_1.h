@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IContactEventEmitterContext_1_TypeDefinitionIndex = 42749;
+	inline static constexpr unsigned int IContactEventEmitterContext_1_TypeDefinitionIndex = 43728;
 
 	template <typename T>
 	class IContactEventEmitterContext_1

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetHeadLookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABMHJIBELFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB109D40)
-#define ABMHJIBELFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB109D70)
+#define ABMHJIBELFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB76C650)
+#define ABMHJIBELFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB76C680)
 
-inline static constexpr unsigned int ABMHJIBELFF_TypeDefinitionIndex = 55884;
+inline static constexpr unsigned int ABMHJIBELFF_TypeDefinitionIndex = 57087;
 
 	class ABMHJIBELFF
 	{

@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-inline static constexpr unsigned int GIKPKILHACJ_TypeDefinitionIndex = 50012;
+inline static constexpr unsigned int GIKPKILHACJ_TypeDefinitionIndex = 51060;
 
 	class GIKPKILHACJ : public ::System::Object
 	{

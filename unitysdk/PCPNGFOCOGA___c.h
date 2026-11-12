@@ -4,18 +4,18 @@
 class PCPNGFOCOGA;
 namespace System { class Object; }
 
-#define PCPNGFOCOGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF0C6A0)
-#define PCPNGFOCOGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF0C6E0)
-#define PCPNGFOCOGA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF0C6F0)
+#define PCPNGFOCOGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1D6F10)
+#define PCPNGFOCOGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1D6F50)
+#define PCPNGFOCOGA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F1D6F60)
 
-inline static constexpr unsigned int PCPNGFOCOGA___c_TypeDefinitionIndex = 28988;
+inline static constexpr unsigned int PCPNGFOCOGA___c_TypeDefinitionIndex = 29578;
 
 	class PCPNGFOCOGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36850);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E090);
 		}
 
 		static ::System::Void _cctor()

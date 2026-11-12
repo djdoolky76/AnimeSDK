@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaStyleBattleModifier_TypeDefinitionIndex = 67687;
+	inline static constexpr unsigned int IRogueTournPersonaStyleBattleModifier_TypeDefinitionIndex = 69632;
 
 	class IRogueTournPersonaStyleBattleModifier
 	{

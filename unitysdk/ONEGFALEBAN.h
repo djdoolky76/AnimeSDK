@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define ONEGFALEBAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF50810)
-#define ONEGFALEBAN_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0xBF506B0)
+#define ONEGFALEBAN_CTOR_OFFSET UNITYSDK_OFFSET(0xC84E750)
+#define ONEGFALEBAN_INITINTERNAL_OFFSET UNITYSDK_OFFSET(0xC84E5F0)
 
-inline static constexpr unsigned int ONEGFALEBAN_TypeDefinitionIndex = 69740;
+inline static constexpr unsigned int ONEGFALEBAN_TypeDefinitionIndex = 71697;
 
 	class ONEGFALEBAN
 	{

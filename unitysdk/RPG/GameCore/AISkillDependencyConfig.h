@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AISkillDependencyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33B000)
-#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D33AEB0)
+#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E54A570)
+#define RPG_GAMECORE_AISKILLDEPENDENCYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E54A420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AISkillDependencyConfig_TypeDefinitionIndex = 15613;
+	inline static constexpr unsigned int AISkillDependencyConfig_TypeDefinitionIndex = 15771;
 
 	class AISkillDependencyConfig : public ::RPG::GameCore::JsonConfig
 	{

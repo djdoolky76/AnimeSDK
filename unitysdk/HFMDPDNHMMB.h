@@ -3,9 +3,9 @@
 #include "unitysdk/Entitas/Systems.h"
 class JNHEPGLMAFE;
 
-#define HFMDPDNHMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C664D90)
+#define HFMDPDNHMMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E69F0)
 
-inline static constexpr unsigned int HFMDPDNHMMB_TypeDefinitionIndex = 37194;
+inline static constexpr unsigned int HFMDPDNHMMB_TypeDefinitionIndex = 38122;
 
 	class HFMDPDNHMMB : public ::Entitas::Systems
 	{

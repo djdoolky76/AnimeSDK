@@ -8,15 +8,15 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_CCTOR_OFFSET UNITYSDK_OFFSET(0xE191D80)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_DOFNAHOEIAO_OFFSET UNITYSDK_OFFSET(0xF2450)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_HNJCLJMEAJJ_OFFSET UNITYSDK_OFFSET(0xF2440)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_JHNCMJJMGKK_1_OFFSET UNITYSDK_OFFSET(0xF2430)
-#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_JHNCMJJMGKK_OFFSET UNITYSDK_OFFSET(0xF2370)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_CCTOR_OFFSET UNITYSDK_OFFSET(0xEC3F200)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_DOFNAHOEIAO_OFFSET UNITYSDK_OFFSET(0xFE7F0)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_HNJCLJMEAJJ_OFFSET UNITYSDK_OFFSET(0xFE7E0)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_JHNCMJJMGKK_1_OFFSET UNITYSDK_OFFSET(0xFE7D0)
+#define RPG_CLIENT_TAUTILS_OVERRIDELIGHTMODULE_JHNCMJJMGKK_OFFSET UNITYSDK_OFFSET(0xFE710)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int OverrideLightModule_TypeDefinitionIndex = 73609;
+	inline static constexpr unsigned int OverrideLightModule_TypeDefinitionIndex = 75732;
 
 	struct alignas(8) OverrideLightModule
 	{
@@ -65,182 +65,182 @@ namespace RPG::Client::TAUtils
 		::UnityEngine::Color _OverrideLightColor; // 0x14C
 		static ::RPG::Client::TAUtils::OverrideLightModule* StaticGet_Default()
 		{
-			return (::RPG::Client::TAUtils::OverrideLightModule*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x3240);
-		}
-
-		static ::System::Int32* StaticGet__CharacterLocalMainLightColor2ShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x23F0);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelShadowColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x23F4);
-		}
-
-		static ::System::Int32* StaticGet__CharacterWorldSpaceOffsetShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x23F8);
-		}
-
-		static ::System::Int32* StaticGet__ESRimLightOffsetShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x23FC);
-		}
-
-		static ::System::Int32* StaticGet__ESRimLightColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2400);
-		}
-
-		static ::System::Int32* StaticGet__ESRimLightIntensityShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2404);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelMidShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2408);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelHighLightShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x240C);
-		}
-
-		static ::System::Int32* StaticGet__ESRimShadowIntensityShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2410);
-		}
-
-		static ::System::Int32* StaticGet__CharacterLocalMainLightColor1ShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2414);
-		}
-
-		static ::System::Int32* StaticGet__ESHeightLerpTopShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2418);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelAdjustOnShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x241C);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelShadowShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2420);
-		}
-
-		static ::System::Int32* StaticGet__CharacterLocalMainLightPositionShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2424);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelSkinLightColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2428);
-		}
-
-		static ::System::Int32* StaticGet__ESAddColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x242C);
-		}
-
-		static ::System::Int32* StaticGet__SceneLightPositionShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2430);
-		}
-
-		static ::System::Int32* StaticGet__ESHeightLerpMiddleColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2434);
-		}
-
-		static ::System::Int32* StaticGet__ESHeightLerpTopColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2438);
-		}
-
-		static ::System::Int32* StaticGet__MainLightColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x243C);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelEyeShadowIntensityShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2440);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelSkinShadowColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2444);
-		}
-
-		static ::System::Int32* StaticGet__MainLightPositionShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2448);
-		}
-
-		static ::System::Int32* StaticGet__ESCharacterShadowFactorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x244C);
-		}
-
-		static ::System::Int32* StaticGet__ESLevelHighLightColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2450);
-		}
-
-		static ::System::Int32* StaticGet__CustomMainLightDirShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2454);
-		}
-
-		static ::System::Int32* StaticGet__ESRimShadowColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2458);
-		}
-
-		static ::System::Int32* StaticGet__ESRimLightAddModeShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x245C);
-		}
-
-		static ::System::Int32* StaticGet__ESHeightLerpBottomColorShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2460);
-		}
-
-		static ::System::Int32* StaticGet__ESHeightLerpBottomShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2464);
+			return (::RPG::Client::TAUtils::OverrideLightModule*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x13B60);
 		}
 
 		static ::System::Int32* StaticGet__ESRimLightWidthShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2468);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4270);
+		}
+
+		static ::System::Int32* StaticGet__ESAddColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4274);
+		}
+
+		static ::System::Int32* StaticGet__ESHeightLerpTopShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4278);
 		}
 
 		static ::System::Int32* StaticGet__CharacterLocalMainLightColorShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x246C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x427C);
 		}
 
-		static ::System::Int32* StaticGet__ESEffCustomLightPositionShaderProperty()
+		static ::System::Int32* StaticGet__ESLevelShadowColorShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2470);
-		}
-
-		static ::System::Int32* StaticGet__ESEffCustomLightDirShaderProperty()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2474);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4280);
 		}
 
 		static ::System::Int32* StaticGet__SceneLightColorShaderProperty()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x2478);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4284);
+		}
+
+		static ::System::Int32* StaticGet__SceneLightPositionShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4288);
+		}
+
+		static ::System::Int32* StaticGet__ESRimLightColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x428C);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelSkinShadowColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4290);
+		}
+
+		static ::System::Int32* StaticGet__ESRimLightAddModeShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4294);
+		}
+
+		static ::System::Int32* StaticGet__ESHeightLerpMiddleColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x4298);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelHighLightShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x429C);
+		}
+
+		static ::System::Int32* StaticGet__ESRimShadowColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42A0);
+		}
+
+		static ::System::Int32* StaticGet__ESRimShadowIntensityShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42A4);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelMidShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42A8);
+		}
+
+		static ::System::Int32* StaticGet__ESRimLightIntensityShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42AC);
+		}
+
+		static ::System::Int32* StaticGet__ESEffCustomLightDirShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42B0);
+		}
+
+		static ::System::Int32* StaticGet__ESHeightLerpBottomColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42B4);
+		}
+
+		static ::System::Int32* StaticGet__CharacterWorldSpaceOffsetShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42B8);
+		}
+
+		static ::System::Int32* StaticGet__ESCharacterShadowFactorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42BC);
+		}
+
+		static ::System::Int32* StaticGet__CharacterLocalMainLightColor1ShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42C0);
+		}
+
+		static ::System::Int32* StaticGet__MainLightPositionShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42C4);
+		}
+
+		static ::System::Int32* StaticGet__ESHeightLerpTopColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42C8);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelAdjustOnShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42CC);
+		}
+
+		static ::System::Int32* StaticGet__MainLightColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42D0);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelHighLightColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42D4);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelShadowShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42D8);
+		}
+
+		static ::System::Int32* StaticGet__CharacterLocalMainLightColor2ShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42DC);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelSkinLightColorShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42E0);
+		}
+
+		static ::System::Int32* StaticGet__ESRimLightOffsetShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42E4);
+		}
+
+		static ::System::Int32* StaticGet__CustomMainLightDirShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42E8);
+		}
+
+		static ::System::Int32* StaticGet__CharacterLocalMainLightPositionShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42EC);
+		}
+
+		static ::System::Int32* StaticGet__ESEffCustomLightPositionShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42F0);
+		}
+
+		static ::System::Int32* StaticGet__ESLevelEyeShadowIntensityShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42F4);
+		}
+
+		static ::System::Int32* StaticGet__ESHeightLerpBottomShaderProperty()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.TAUtils", "OverrideLightModule")->GetStaticField(0x42F8);
 		}
 
 		static ::System::Void _cctor()

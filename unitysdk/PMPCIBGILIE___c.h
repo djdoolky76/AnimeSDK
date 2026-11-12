@@ -4,18 +4,18 @@
 class PMPCIBGILIE;
 namespace System { class Object; }
 
-#define PMPCIBGILIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFB0870)
-#define PMPCIBGILIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB08B0)
-#define PMPCIBGILIE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DFB08C0)
+#define PMPCIBGILIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F261E70)
+#define PMPCIBGILIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F261EB0)
+#define PMPCIBGILIE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F261EC0)
 
-inline static constexpr unsigned int PMPCIBGILIE___c_TypeDefinitionIndex = 25650;
+inline static constexpr unsigned int PMPCIBGILIE___c_TypeDefinitionIndex = 26147;
 
 	class PMPCIBGILIE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E2E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40DA0);
 		}
 
 		static ::System::Void _cctor()

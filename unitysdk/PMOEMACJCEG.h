@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareStoryLineID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PMOEMACJCEG_CTOR_OFFSET UNITYSDK_OFFSET(0xC328F40)
-#define PMOEMACJCEG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC328F70)
+#define PMOEMACJCEG_CTOR_OFFSET UNITYSDK_OFFSET(0xCC58380)
+#define PMOEMACJCEG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC583B0)
 
-inline static constexpr unsigned int PMOEMACJCEG_TypeDefinitionIndex = 54891;
+inline static constexpr unsigned int PMOEMACJCEG_TypeDefinitionIndex = 56062;
 
 	class PMOEMACJCEG
 	{

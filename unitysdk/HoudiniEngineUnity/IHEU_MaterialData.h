@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int IHEU_MaterialData_TypeDefinitionIndex = 40566;
+	inline static constexpr unsigned int IHEU_MaterialData_TypeDefinitionIndex = 41541;
 
 	class IHEU_MaterialData
 	{

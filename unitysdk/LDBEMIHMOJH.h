@@ -3,10 +3,10 @@
 class HKOACDGAJNO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDBEMIHMOJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB61C060)
-#define LDBEMIHMOJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB61C090)
+#define LDBEMIHMOJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB0830)
+#define LDBEMIHMOJH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBEB0860)
 
-inline static constexpr unsigned int LDBEMIHMOJH_TypeDefinitionIndex = 55398;
+inline static constexpr unsigned int LDBEMIHMOJH_TypeDefinitionIndex = 56583;
 
 	class LDBEMIHMOJH
 	{

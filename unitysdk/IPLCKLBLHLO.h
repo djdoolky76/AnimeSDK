@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GridFightManager; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define IPLCKLBLHLO_CTOR_OFFSET UNITYSDK_OFFSET(0x16524E40)
-#define IPLCKLBLHLO_HFOKMLIJFDK_OFFSET UNITYSDK_OFFSET(0x16524E50)
-#define IPLCKLBLHLO_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x16524FD0)
+#define IPLCKLBLHLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB859C70)
+#define IPLCKLBLHLO_HFOKMLIJFDK_OFFSET UNITYSDK_OFFSET(0xB859C80)
+#define IPLCKLBLHLO_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xB859E00)
 
-inline static constexpr unsigned int IPLCKLBLHLO_TypeDefinitionIndex = 65301;
+inline static constexpr unsigned int IPLCKLBLHLO_TypeDefinitionIndex = 67068;
 
 	class IPLCKLBLHLO : public ::System::Object
 	{

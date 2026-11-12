@@ -4,18 +4,18 @@
 class JFOEKIFGPCP;
 namespace System { class Object; }
 
-#define JFOEKIFGPCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E732A80)
-#define JFOEKIFGPCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E732AC0)
-#define JFOEKIFGPCP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E732AD0)
+#define JFOEKIFGPCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA41350)
+#define JFOEKIFGPCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA41390)
+#define JFOEKIFGPCP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FA413A0)
 
-inline static constexpr unsigned int JFOEKIFGPCP___c_TypeDefinitionIndex = 30171;
+inline static constexpr unsigned int JFOEKIFGPCP___c_TypeDefinitionIndex = 31069;
 
 	class JFOEKIFGPCP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60340);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66020);
 		}
 
 		static ::System::Void _cctor()

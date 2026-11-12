@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define SYSTEM_MONOASYNCCALL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27CC20)
+#define SYSTEM_MONOASYNCCALL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4038F0)
 
 namespace System
 {

@@ -5,16 +5,16 @@
 class CKAPDOPHKJB;
 class FCOEMCEDLNL;
 
-#define CKAPDOPHKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC1D200)
-#define CKAPDOPHKJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1D100)
+#define CKAPDOPHKJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC40C0)
+#define CKAPDOPHKJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEC3FC0)
 
-inline static constexpr unsigned int CKAPDOPHKJB_TypeDefinitionIndex = 13980;
+inline static constexpr unsigned int CKAPDOPHKJB_TypeDefinitionIndex = 14137;
 
 	class CKAPDOPHKJB : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LoadingDescConditionType GMPGDEINODK; // 0x10
-		::System::UInt32 NNACKOBKFGE; // 0x14
+		::System::UInt32 NNACKOBKFGE; // 0x10
+		::RPG::GameCore::LoadingDescConditionType GMPGDEINODK; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKAPDOPHKJB_CTOR_OFFSET))(this);

@@ -5,19 +5,19 @@ namespace RPG::Client::GameStateService { class AndroidGameStateServiceManager; 
 namespace SimpleJSON { class JSONClass; }
 namespace System::Threading::Tasks { class Task; }
 
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER___C__DISPLAYCLASS85_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD0B6760)
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER___C__DISPLAYCLASS85_0__SENDGAMESTATEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD0B6770)
-#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER___C__DISPLAYCLASS85_0__SENDGAMESTATEINFO_B__1_OFFSET UNITYSDK_OFFSET(0xD0B67D0)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER___C__DISPLAYCLASS85_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA3F600)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER___C__DISPLAYCLASS85_0__SENDGAMESTATEINFO_B__0_OFFSET UNITYSDK_OFFSET(0xDA3F610)
+#define RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER___C__DISPLAYCLASS85_0__SENDGAMESTATEINFO_B__1_OFFSET UNITYSDK_OFFSET(0xDA3F670)
 
 namespace RPG::Client::GameStateService
 {
-	inline static constexpr unsigned int AndroidGameStateServiceManager___c__DisplayClass85_0_TypeDefinitionIndex = 75630;
+	inline static constexpr unsigned int AndroidGameStateServiceManager___c__DisplayClass85_0_TypeDefinitionIndex = 77957;
 
 	class AndroidGameStateServiceManager___c__DisplayClass85_0 : public ::System::Object
 	{
 	public:
-		::SimpleJSON::JSONClass* jsonClass; // 0x10
-		::RPG::Client::GameStateService::AndroidGameStateServiceManager* __4__this; // 0x18
+		::RPG::Client::GameStateService::AndroidGameStateServiceManager* __4__this; // 0x10
+		::SimpleJSON::JSONClass* jsonClass; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GAMESTATESERVICE_ANDROIDGAMESTATESERVICEMANAGER___C__DISPLAYCLASS85_0_CTOR_OFFSET))(this);

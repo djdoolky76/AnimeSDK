@@ -4,18 +4,18 @@
 class BPENENIMEFE;
 namespace System { class Object; }
 
-#define BPENENIMEFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E042D40)
-#define BPENENIMEFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E042D80)
-#define BPENENIMEFE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E042D90)
+#define BPENENIMEFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3046F0)
+#define BPENENIMEFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F304730)
+#define BPENENIMEFE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F304740)
 
-inline static constexpr unsigned int BPENENIMEFE___c_TypeDefinitionIndex = 29497;
+inline static constexpr unsigned int BPENENIMEFE___c_TypeDefinitionIndex = 30241;
 
 	class BPENENIMEFE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x550A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54E20);
 		}
 
 		static ::System::Void _cctor()

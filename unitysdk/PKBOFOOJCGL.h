@@ -11,25 +11,25 @@ namespace RPG::GameCore { class HipplenIncidentConfig; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PKBOFOOJCGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B0A00)
-#define PKBOFOOJCGL_EJACOFEBELP_OFFSET UNITYSDK_OFFSET(0xC2B09B0)
-#define PKBOFOOJCGL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xC2B0CF0)
-#define PKBOFOOJCGL_HKNMMIABJIN_OFFSET UNITYSDK_OFFSET(0xC2B0D90)
-#define PKBOFOOJCGL_JJBFKJEGJPN_OFFSET UNITYSDK_OFFSET(0xC2B0C00)
-#define PKBOFOOJCGL_KFAELPMFCNE_OFFSET UNITYSDK_OFFSET(0xC2B1030)
-#define PKBOFOOJCGL_LOMALBDODND_OFFSET UNITYSDK_OFFSET(0xC2B0C60)
-#define PKBOFOOJCGL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC2B0A10)
+#define PKBOFOOJCGL_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDB660)
+#define PKBOFOOJCGL_EJACOFEBELP_OFFSET UNITYSDK_OFFSET(0xCBDB610)
+#define PKBOFOOJCGL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xCBDB950)
+#define PKBOFOOJCGL_HKNMMIABJIN_OFFSET UNITYSDK_OFFSET(0xCBDB9F0)
+#define PKBOFOOJCGL_JJBFKJEGJPN_OFFSET UNITYSDK_OFFSET(0xCBDB860)
+#define PKBOFOOJCGL_KFAELPMFCNE_OFFSET UNITYSDK_OFFSET(0xCBDBC90)
+#define PKBOFOOJCGL_LOMALBDODND_OFFSET UNITYSDK_OFFSET(0xCBDB8C0)
+#define PKBOFOOJCGL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xCBDB670)
 
-inline static constexpr unsigned int PKBOFOOJCGL_TypeDefinitionIndex = 75545;
+inline static constexpr unsigned int PKBOFOOJCGL_TypeDefinitionIndex = 77872;
 
 	class PKBOFOOJCGL : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ActivityHipplenIncidentRow* POBMBPIIJND; // 0x10
-		::System::Action* JCGCCGDNFFI; // 0x18
-		::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* EOFFAMLLEJK; // 0x20
-		::JCHBFEIOIHA* EOMLMNOEKDJ; // 0x28
-		::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* KJEDGKFEPLM; // 0x30
+		::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* EOFFAMLLEJK; // 0x10
+		::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* KJEDGKFEPLM; // 0x18
+		::JCHBFEIOIHA* EOMLMNOEKDJ; // 0x20
+		::RPG::GameCore::ActivityHipplenIncidentRow* POBMBPIIJND; // 0x28
+		::System::Action* JCGCCGDNFFI; // 0x30
 		::System::Void _ctor(::RPG::Client::ActivityHipplen::ActivityHipplenWorkData* a1, ::RPG::GameCore::ActivityHipplenIncidentRow* a2, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityHipplen::ActivityHipplenWorkData*, ::RPG::GameCore::ActivityHipplenIncidentRow*, ::RPG::Client::ActivityHipplen::ActivityHipplenEffectCalculator*))((::PBYTE)hIl2Cpp + PKBOFOOJCGL_CTOR_OFFSET))(this, a1, a2, a3);

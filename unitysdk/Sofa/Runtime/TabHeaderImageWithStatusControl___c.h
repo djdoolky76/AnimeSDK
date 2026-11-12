@@ -7,49 +7,49 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE980E30)
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE980E70)
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_0_OFFSET UNITYSDK_OFFSET(0xE980E80)
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_1_OFFSET UNITYSDK_OFFSET(0xE980EA0)
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_2_OFFSET UNITYSDK_OFFSET(0xE980EC0)
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_3_OFFSET UNITYSDK_OFFSET(0xE980EE0)
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_4_OFFSET UNITYSDK_OFFSET(0xE980F00)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF496480)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF4964C0)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_0_OFFSET UNITYSDK_OFFSET(0xF4964D0)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_1_OFFSET UNITYSDK_OFFSET(0xF4964F0)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_2_OFFSET UNITYSDK_OFFSET(0xF496510)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_3_OFFSET UNITYSDK_OFFSET(0xF496530)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL___C___BINDING_B__5_4_OFFSET UNITYSDK_OFFSET(0xF496550)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderImageWithStatusControl___c_TypeDefinitionIndex = 49735;
+	inline static constexpr unsigned int TabHeaderImageWithStatusControl___c_TypeDefinitionIndex = 50783;
 
 	class TabHeaderImageWithStatusControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD4F0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD4F8);
-		}
-
-		static ::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_3()
-		{
-			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD500);
-		}
-
-		static ::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_2()
-		{
-			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD508);
+			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12250);
 		}
 
 		static ::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__5_4()
 		{
-			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD510);
+			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12258);
 		}
 
 		static ::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0xD518);
+			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12260);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12268);
+		}
+
+		static ::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_2()
+		{
+			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12270);
+		}
+
+		static ::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__5_3()
+		{
+			return (::System::Func_2<::JCCLCIJBBJD*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("Sofa.Runtime", "<>c")->GetStaticField(0x12278);
 		}
 
 		static ::System::Void _cctor()

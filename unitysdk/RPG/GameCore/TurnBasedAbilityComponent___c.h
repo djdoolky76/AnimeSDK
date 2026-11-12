@@ -5,31 +5,31 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE7E4010)
-#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE7E4050)
-#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__ADDMODIFIEREXTRAMAXLAYER_B__164_0_OFFSET UNITYSDK_OFFSET(0xE7E4060)
-#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__REMOVEMODIFIEREXTRAMAXLAYER_B__165_0_OFFSET UNITYSDK_OFFSET(0xE7E41B0)
+#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF2E9800)
+#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF2E9840)
+#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__ADDMODIFIEREXTRAMAXLAYER_B__170_0_OFFSET UNITYSDK_OFFSET(0xF2E9850)
+#define RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__REMOVEMODIFIEREXTRAMAXLAYER_B__171_0_OFFSET UNITYSDK_OFFSET(0xF2E9860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedAbilityComponent___c_TypeDefinitionIndex = 54851;
+	inline static constexpr unsigned int TurnBasedAbilityComponent___c_TypeDefinitionIndex = 56021;
 
 	class TurnBasedAbilityComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__165_0()
+		static ::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__171_0()
 		{
-			return (::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E8A0);
+			return (::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x73660);
 		}
 
-		static ::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__164_0()
+		static ::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__170_0()
 		{
-			return (::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E8A8);
+			return (::System::Action_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x73668);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E8B0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x73670);
 		}
 
 		static ::System::Void _cctor()
@@ -42,14 +42,14 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _AddModifierExtraMaxLayer_b__164_0(::RPG::GameCore::TurnBasedModifierInstance* a1)
+		::System::Void _AddModifierExtraMaxLayer_b__170_0(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__ADDMODIFIEREXTRAMAXLAYER_B__164_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__ADDMODIFIEREXTRAMAXLAYER_B__170_0_OFFSET))(this, a1);
 		}
 
-		::System::Void _RemoveModifierExtraMaxLayer_b__165_0(::RPG::GameCore::TurnBasedModifierInstance* a1)
+		::System::Void _RemoveModifierExtraMaxLayer_b__171_0(::RPG::GameCore::TurnBasedModifierInstance* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__REMOVEMODIFIEREXTRAMAXLAYER_B__165_0_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedModifierInstance*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDABILITYCOMPONENT___C__REMOVEMODIFIEREXTRAMAXLAYER_B__171_0_OFFSET))(this, a1);
 		}
 
 	};

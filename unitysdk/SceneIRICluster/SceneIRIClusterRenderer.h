@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace IRIClusterBuilder { class IRI2VolumeTemplate; }
 
-#define SCENEIRICLUSTER_SCENEIRICLUSTERRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xE95ED70)
+#define SCENEIRICLUSTER_SCENEIRICLUSTERRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xF47D5C0)
 
 namespace SceneIRICluster
 {
-	inline static constexpr unsigned int SceneIRIClusterRenderer_TypeDefinitionIndex = 47727;
+	inline static constexpr unsigned int SceneIRIClusterRenderer_TypeDefinitionIndex = 48757;
 
 	class SceneIRIClusterRenderer : public ::UnityEngine::MonoBehaviour
 	{

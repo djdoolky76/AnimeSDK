@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetDynamicValueByCopyingBatchItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETDYNAMICVALUEBYCOPYINGBATCHITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAA35C0)
-#define RPG_GAMECORE_SETDYNAMICVALUEBYCOPYINGBATCHITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAA3490)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYCOPYINGBATCHITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB55D0)
+#define RPG_GAMECORE_SETDYNAMICVALUEBYCOPYINGBATCHITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECB54A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetDynamicValueByCopyingBatchItem_TypeDefinitionIndex = 23826;
+	inline static constexpr unsigned int SetDynamicValueByCopyingBatchItem_TypeDefinitionIndex = 24283;
 
 	class SetDynamicValueByCopyingBatchItem : public ::RPG::GameCore::JsonConfig
 	{

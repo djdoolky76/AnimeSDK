@@ -4,7 +4,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int BAAttachPoint_TypeDefinitionIndex = 37591;
+	inline static constexpr unsigned int BAAttachPoint_TypeDefinitionIndex = 38519;
 
 	struct alignas(8) BAAttachPoint
 	{

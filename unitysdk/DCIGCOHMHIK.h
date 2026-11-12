@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DCIGCOHMHIK_CTOR_OFFSET UNITYSDK_OFFSET(0xE2480C0)
-#define DCIGCOHMHIK_GET_HANDLED_OFFSET UNITYSDK_OFFSET(0xE2480A0)
-#define DCIGCOHMHIK_SET_HANDLED_OFFSET UNITYSDK_OFFSET(0xE2480B0)
+#define DCIGCOHMHIK_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA9320)
+#define DCIGCOHMHIK_GET_HANDLED_OFFSET UNITYSDK_OFFSET(0xEBA9300)
+#define DCIGCOHMHIK_SET_HANDLED_OFFSET UNITYSDK_OFFSET(0xEBA9310)
 
-inline static constexpr unsigned int DCIGCOHMHIK_TypeDefinitionIndex = 49696;
+inline static constexpr unsigned int DCIGCOHMHIK_TypeDefinitionIndex = 50772;
 
 	class DCIGCOHMHIK : public ::System::Object
 	{

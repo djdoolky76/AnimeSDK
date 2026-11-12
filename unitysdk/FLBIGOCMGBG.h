@@ -4,7 +4,7 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-inline static constexpr unsigned int FLBIGOCMGBG_TypeDefinitionIndex = 60148;
+inline static constexpr unsigned int FLBIGOCMGBG_TypeDefinitionIndex = 61432;
 
 	struct alignas(8) FLBIGOCMGBG
 	{

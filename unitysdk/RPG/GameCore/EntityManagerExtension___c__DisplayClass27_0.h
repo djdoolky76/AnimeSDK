@@ -7,22 +7,22 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE646640)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0__CLIENTCREATESTORYSTILLNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xE663A40)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0__CLIENTCREATESTORYSTILLNPCENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xE663A80)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF0E88A0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0__CLIENTCREATESTORYSTILLNPCENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xF0E88B0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0__CLIENTCREATESTORYSTILLNPCENTITY_B__1_OFFSET UNITYSDK_OFFSET(0xF0E88F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass27_0_TypeDefinitionIndex = 57776;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass27_0_TypeDefinitionIndex = 59011;
 
 	class EntityManagerExtension___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* pEntity; // 0x10
-		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x18
-		::JLOIJNFDOID* stillModelCmpt; // 0x20
-		::RPG::GameCore::EntityManager* pManager; // 0x28
-		::System::String* strCharacterName; // 0x30
+		::System::String* strCharacterName; // 0x18
+		::System::Action_1<::RPG::GameCore::GameEntity*>* onLoadFinish; // 0x20
+		::JLOIJNFDOID* stillModelCmpt; // 0x28
+		::RPG::GameCore::EntityManager* pManager; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);

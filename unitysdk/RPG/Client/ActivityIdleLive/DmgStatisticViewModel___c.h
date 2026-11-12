@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDmgStatisticsUiData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC456400)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC456440)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0xC456450)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD94670)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD946B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_DMGSTATISTICVIEWMODEL___C___REFRESHDMGSTATISTICS_B__7_0_OFFSET UNITYSDK_OFFSET(0xCD946C0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 75418;
+	inline static constexpr unsigned int DmgStatisticViewModel___c_TypeDefinitionIndex = 77745;
 
 	class DmgStatisticViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1FFE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x198E0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1FFE8);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::IdleLiveDmgStatisticsUiData*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x198E8);
 		}
 
 		static ::System::Void _cctor()

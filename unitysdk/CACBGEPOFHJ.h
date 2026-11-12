@@ -3,34 +3,34 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CACBGEPOFHJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xC1BDAE0)
-#define CACBGEPOFHJ_DAGNMHGKNIJ_OFFSET UNITYSDK_OFFSET(0xC1BD6C0)
-#define CACBGEPOFHJ_HEOLNDKJGEH_OFFSET UNITYSDK_OFFSET(0xC1BD8C0)
-#define CACBGEPOFHJ_KDEFJFLPODP_OFFSET UNITYSDK_OFFSET(0xC1BDA60)
+#define CACBGEPOFHJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB5EF70)
+#define CACBGEPOFHJ_DAGNMHGKNIJ_OFFSET UNITYSDK_OFFSET(0xCB5EB50)
+#define CACBGEPOFHJ_HEOLNDKJGEH_OFFSET UNITYSDK_OFFSET(0xCB5ED50)
+#define CACBGEPOFHJ_KDEFJFLPODP_OFFSET UNITYSDK_OFFSET(0xCB5EEF0)
 
-inline static constexpr unsigned int CACBGEPOFHJ_TypeDefinitionIndex = 61356;
+inline static constexpr unsigned int CACBGEPOFHJ_TypeDefinitionIndex = 62741;
 
 	class CACBGEPOFHJ : public ::System::Object
 	{
 	public:
+		static ::System::String** StaticGet_ACLDOADLKGE()
+		{
+			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0x73360);
+		}
+
 		static ::System::String** StaticGet_EDMGDJLAOLP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0xD4D0);
+			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0x73368);
 		}
 
 		static ::System::String** StaticGet_HKODCLIDLAI()
 		{
-			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0xD4D8);
+			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0x73370);
 		}
 
 		static ::System::String** StaticGet_NJBINOCOCED()
 		{
-			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0xD4E0);
-		}
-
-		static ::System::String** StaticGet_ACLDOADLKGE()
-		{
-			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0xD4E8);
+			return (::System::String**)UnitySDK::FromName("", "CACBGEPOFHJ")->GetStaticField(0x73378);
 		}
 
 		static ::System::Void _cctor()

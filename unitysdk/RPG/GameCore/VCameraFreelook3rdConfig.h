@@ -8,12 +8,12 @@ namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 namespace RPG::GameCore { class VCameraFreelook3rdExtraParams; }
 namespace RPG::GameCore { class VCameraVector3ChangeParam; }
 
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC7E980)
-#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC7BEC0)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE90FF0)
+#define RPG_GAMECORE_VCAMERAFREELOOK3RDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE8E8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraFreelook3rdConfig_TypeDefinitionIndex = 16411;
+	inline static constexpr unsigned int VCameraFreelook3rdConfig_TypeDefinitionIndex = 16575;
 
 	class VCameraFreelook3rdConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,13 +8,13 @@ namespace RPGTools::Timeline { class RemoveEffectBehaviour; }
 namespace RPGTools::Timeline { class RemoveEffectData; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE9322F0)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE932580)
-#define RPGTOOLS_TIMELINE_REMOVEEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE932570)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xF40DD30)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xF40DFC0)
+#define RPGTOOLS_TIMELINE_REMOVEEFFECTCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xF40DFB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int RemoveEffectClip_TypeDefinitionIndex = 48327;
+	inline static constexpr unsigned int RemoveEffectClip_TypeDefinitionIndex = 49368;
 
 	class RemoveEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{

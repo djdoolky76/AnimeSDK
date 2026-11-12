@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JMLHEFHGGLK_CTOR_OFFSET UNITYSDK_OFFSET(0xB270480)
-#define JMLHEFHGGLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2704B0)
+#define JMLHEFHGGLK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9B2D0)
+#define JMLHEFHGGLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA9B300)
 
-inline static constexpr unsigned int JMLHEFHGGLK_TypeDefinitionIndex = 58332;
+inline static constexpr unsigned int JMLHEFHGGLK_TypeDefinitionIndex = 59588;
 
 	class JMLHEFHGGLK
 	{

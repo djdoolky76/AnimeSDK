@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParaType_TypeDefinitionIndex = 15441;
+	inline static constexpr unsigned int ParaType_TypeDefinitionIndex = 15598;
 
 	enum class ParaType : ::System::Int32
 	{

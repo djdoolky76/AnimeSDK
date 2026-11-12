@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_HashResistantCache_1_TypeDefinitionIndex = 7201;
+	inline static constexpr unsigned int MessagePackSecurity_HashResistantCache_1_TypeDefinitionIndex = 7212;
 
 	template <typename T>
 	class MessagePackSecurity_HashResistantCache_1 : public ::System::Object

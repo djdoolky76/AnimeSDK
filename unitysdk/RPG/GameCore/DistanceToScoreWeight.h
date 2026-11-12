@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DistanceToScoreWeight; }
 
-#define RPG_GAMECORE_DISTANCETOSCOREWEIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D618080)
-#define RPG_GAMECORE_DISTANCETOSCOREWEIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D617F70)
+#define RPG_GAMECORE_DISTANCETOSCOREWEIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8560E0)
+#define RPG_GAMECORE_DISTANCETOSCOREWEIGHT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E855FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DistanceToScoreWeight_TypeDefinitionIndex = 15635;
+	inline static constexpr unsigned int DistanceToScoreWeight_TypeDefinitionIndex = 15793;
 
 	class DistanceToScoreWeight : public ::RPG::GameCore::JsonConfig
 	{

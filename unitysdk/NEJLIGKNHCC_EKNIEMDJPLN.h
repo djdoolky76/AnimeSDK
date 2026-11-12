@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define NEJLIGKNHCC_EKNIEMDJPLN_CTOR_OFFSET UNITYSDK_OFFSET(0x20300)
+#define NEJLIGKNHCC_EKNIEMDJPLN_CTOR_OFFSET UNITYSDK_OFFSET(0x24FD0)
 
-inline static constexpr unsigned int NEJLIGKNHCC_EKNIEMDJPLN_TypeDefinitionIndex = 69294;
+inline static constexpr unsigned int NEJLIGKNHCC_EKNIEMDJPLN_TypeDefinitionIndex = 71248;
 
 	struct alignas(4) NEJLIGKNHCC_EKNIEMDJPLN
 	{

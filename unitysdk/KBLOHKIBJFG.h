@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetUseTemporaryLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KBLOHKIBJFG_CTOR_OFFSET UNITYSDK_OFFSET(0xB31EA10)
-#define KBLOHKIBJFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB31EA40)
+#define KBLOHKIBJFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA8B00)
+#define KBLOHKIBJFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBA8B30)
 
-inline static constexpr unsigned int KBLOHKIBJFG_TypeDefinitionIndex = 55586;
+inline static constexpr unsigned int KBLOHKIBJFG_TypeDefinitionIndex = 56782;
 
 	class KBLOHKIBJFG
 	{

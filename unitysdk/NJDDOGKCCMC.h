@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class CharacterOutfitPartConfig; }
 namespace System { class String; }
 
-#define NJDDOGKCCMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0AFA0)
-#define NJDDOGKCCMC_KJPFJGHMMBJ_OFFSET UNITYSDK_OFFSET(0xBC0AEA0)
+#define NJDDOGKCCMC_CTOR_OFFSET UNITYSDK_OFFSET(0xC4EE3F0)
+#define NJDDOGKCCMC_KJPFJGHMMBJ_OFFSET UNITYSDK_OFFSET(0xC4EE2F0)
 
-inline static constexpr unsigned int NJDDOGKCCMC_TypeDefinitionIndex = 80175;
+inline static constexpr unsigned int NJDDOGKCCMC_TypeDefinitionIndex = 82952;
 
 	class NJDDOGKCCMC : public ::System::Object
 	{

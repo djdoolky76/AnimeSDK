@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RPGCINEMACHINEZOOM_GGKDJILKLIK_CTOR_OFFSET UNITYSDK_OFFSET(0xDE1C610)
+#define RPG_CLIENT_RPGCINEMACHINEZOOM_GGKDJILKLIK_CTOR_OFFSET UNITYSDK_OFFSET(0xE881B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGCinemachineZoom_GGKDJILKLIK_TypeDefinitionIndex = 69710;
+	inline static constexpr unsigned int RPGCinemachineZoom_GGKDJILKLIK_TypeDefinitionIndex = 71667;
 
 	class RPGCinemachineZoom_GGKDJILKLIK : public ::System::Object
 	{

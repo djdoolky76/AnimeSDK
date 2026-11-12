@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AddGlobalDynamicOffsetIgnoreEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCCGFODPIFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF7A90)
-#define NCCGFODPIFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAF7AA0)
-#define NCCGFODPIFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAF7AE0)
-#define NCCGFODPIFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAF7D70)
-#define NCCGFODPIFH_TICK_OFFSET UNITYSDK_OFFSET(0xBAF7DC0)
+#define NCCGFODPIFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC37EBA0)
+#define NCCGFODPIFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC37EBB0)
+#define NCCGFODPIFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC37EBF0)
+#define NCCGFODPIFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC37EE80)
+#define NCCGFODPIFH_TICK_OFFSET UNITYSDK_OFFSET(0xC37EED0)
 
-inline static constexpr unsigned int NCCGFODPIFH_TypeDefinitionIndex = 57860;
+inline static constexpr unsigned int NCCGFODPIFH_TypeDefinitionIndex = 59097;
 
 	class NCCGFODPIFH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::AddGlobalDynamicOffsetIgnoreEntity* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::AddGlobalDynamicOffsetIgnoreEntity* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddGlobalDynamicOffsetIgnoreEntity* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AddGlobalDynamicOffsetIgnoreEntity*))((::PBYTE)hIl2Cpp + NCCGFODPIFH_CTOR_OFFSET))(this, a1, a2);

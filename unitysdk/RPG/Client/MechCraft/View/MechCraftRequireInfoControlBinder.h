@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client { class LocalizedText; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREINFOCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD65BE30)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREINFOCONTROLBINDER_GET_TEXTDESC_OFFSET UNITYSDK_OFFSET(0xD65BD70)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREINFOCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE0EA920)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREQUIREINFOCONTROLBINDER_GET_TEXTDESC_OFFSET UNITYSDK_OFFSET(0xE0EA860)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftRequireInfoControlBinder_TypeDefinitionIndex = 79999;
+	inline static constexpr unsigned int MechCraftRequireInfoControlBinder_TypeDefinitionIndex = 82776;
 
 	class MechCraftRequireInfoControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

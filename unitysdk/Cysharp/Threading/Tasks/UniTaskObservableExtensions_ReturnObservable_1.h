@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskObservableExtensions_ReturnObservable_1_TypeDefinitionIndex = 38441;
+	inline static constexpr unsigned int UniTaskObservableExtensions_ReturnObservable_1_TypeDefinitionIndex = 39370;
 
 	template <typename T>
 	class UniTaskObservableExtensions_ReturnObservable_1 : public ::System::Object

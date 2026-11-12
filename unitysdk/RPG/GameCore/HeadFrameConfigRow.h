@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeadFrameConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HEADFRAMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D755A50)
-#define RPG_GAMECORE_HEADFRAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D755950)
+#define RPG_GAMECORE_HEADFRAMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9693B0)
+#define RPG_GAMECORE_HEADFRAMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9692B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeadFrameConfigRow_TypeDefinitionIndex = 12988;
+	inline static constexpr unsigned int HeadFrameConfigRow_TypeDefinitionIndex = 13056;
 
 	class HeadFrameConfigRow : public ::System::Object
 	{

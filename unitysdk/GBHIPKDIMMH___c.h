@@ -4,18 +4,18 @@
 class GBHIPKDIMMH;
 namespace System { class Object; }
 
-#define GBHIPKDIMMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E42C460)
-#define GBHIPKDIMMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E42C4A0)
-#define GBHIPKDIMMH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E42C4B0)
+#define GBHIPKDIMMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F71A100)
+#define GBHIPKDIMMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F71A140)
+#define GBHIPKDIMMH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F71A150)
 
-inline static constexpr unsigned int GBHIPKDIMMH___c_TypeDefinitionIndex = 34695;
+inline static constexpr unsigned int GBHIPKDIMMH___c_TypeDefinitionIndex = 35623;
 
 	class GBHIPKDIMMH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD0F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55660);
 		}
 
 		static ::System::Void _cctor()

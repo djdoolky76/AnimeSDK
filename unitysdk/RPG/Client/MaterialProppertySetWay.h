@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MaterialProppertySetWay_TypeDefinitionIndex = 69811;
+	inline static constexpr unsigned int MaterialProppertySetWay_TypeDefinitionIndex = 71770;
 
 	enum class MaterialProppertySetWay : ::System::Int32
 	{

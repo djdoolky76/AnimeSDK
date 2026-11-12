@@ -8,43 +8,43 @@ namespace UnityEngine::ProBuilder { class Face; }
 namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F204D20)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F204D60)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__CREATESHAPEFROMPOLYGON_B__8_0_OFFSET UNITYSDK_OFFSET(0x1F204D70)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__FACEWITHVERTICESANDHOLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1F204D90)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__FACEWITHVERTICESANDHOLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x1F204DC0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__INSERTVERTEXINFACE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F204DF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204B6040)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204B6080)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__CREATESHAPEFROMPOLYGON_B__8_0_OFFSET UNITYSDK_OFFSET(0x204B6090)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__FACEWITHVERTICESANDHOLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x204B60B0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__FACEWITHVERTICESANDHOLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x204B60E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_APPENDELEMENTS___C__INSERTVERTEXINFACE_B__18_0_OFFSET UNITYSDK_OFFSET(0x204B6110)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int AppendElements___c_TypeDefinitionIndex = 44475;
+	inline static constexpr unsigned int AppendElements___c_TypeDefinitionIndex = 45550;
 
 	class AppendElements___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>** StaticGet___9__10_1()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x53C10);
-		}
-
-		static ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x53C18);
-		}
-
-		static ::System::Func_2<::Il2CppArray<::UnityEngine::Vector3>*, ::System::Int32>** StaticGet___9__8_0()
-		{
-			return (::System::Func_2<::Il2CppArray<::UnityEngine::Vector3>*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x53C20);
-		}
-
 		static ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x53C28);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x670E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x53C30);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x670E8);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>** StaticGet___9__10_1()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x670F0);
+		}
+
+		static ::System::Func_2<::Il2CppArray<::UnityEngine::Vector3>*, ::System::Int32>** StaticGet___9__8_0()
+		{
+			return (::System::Func_2<::Il2CppArray<::UnityEngine::Vector3>*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x670F8);
+		}
+
+		static ::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::UnityEngine::ProBuilder::Face*>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x67100);
 		}
 
 		static ::System::Void _cctor()

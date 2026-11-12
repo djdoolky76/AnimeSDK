@@ -4,18 +4,18 @@
 class APKENKIDMGC;
 namespace System { class Object; }
 
-#define APKENKIDMGC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E678FA0)
-#define APKENKIDMGC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E678FD0)
-#define APKENKIDMGC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E678FE0)
+#define APKENKIDMGC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA651E0)
+#define APKENKIDMGC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA65210)
+#define APKENKIDMGC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FA65220)
 
-inline static constexpr unsigned int APKENKIDMGC___c_TypeDefinitionIndex = 33925;
+inline static constexpr unsigned int APKENKIDMGC___c_TypeDefinitionIndex = 34840;
 
 	class APKENKIDMGC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42610);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E170);
 		}
 
 		static ::System::Void _cctor()

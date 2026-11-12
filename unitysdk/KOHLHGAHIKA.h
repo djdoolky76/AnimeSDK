@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AlleyTransportFocusCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KOHLHGAHIKA_CTOR_OFFSET UNITYSDK_OFFSET(0xB596EE0)
-#define KOHLHGAHIKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB596EF0)
-#define KOHLHGAHIKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB596F30)
-#define KOHLHGAHIKA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB596FB0)
-#define KOHLHGAHIKA_TICK_OFFSET UNITYSDK_OFFSET(0xB597000)
+#define KOHLHGAHIKA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE9930)
+#define KOHLHGAHIKA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDE9940)
+#define KOHLHGAHIKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDE9980)
+#define KOHLHGAHIKA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDE9A00)
+#define KOHLHGAHIKA_TICK_OFFSET UNITYSDK_OFFSET(0xBDE9A50)
 
-inline static constexpr unsigned int KOHLHGAHIKA_TypeDefinitionIndex = 57933;
+inline static constexpr unsigned int KOHLHGAHIKA_TypeDefinitionIndex = 59170;
 
 	class KOHLHGAHIKA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::AlleyTransportFocusCamera* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::AlleyTransportFocusCamera* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Single BOBKAKEJPEI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AlleyTransportFocusCamera* a2)
 		{

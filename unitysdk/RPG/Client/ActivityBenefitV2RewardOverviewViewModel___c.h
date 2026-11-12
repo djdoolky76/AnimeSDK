@@ -5,25 +5,25 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3DBCE0)
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DBD20)
-#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C___CTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0xC3DBD30)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD15FD0)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD16010)
+#define RPG_CLIENT_ACTIVITYBENEFITV2REWARDOVERVIEWVIEWMODEL___C___CTOR_B__26_0_OFFSET UNITYSDK_OFFSET(0xCD16020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex = 61415;
+	inline static constexpr unsigned int ActivityBenefitV2RewardOverviewViewModel___c_TypeDefinitionIndex = 62800;
 
 	class ActivityBenefitV2RewardOverviewViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13EE0);
+			return (::System::Func_2<::RPG::Client::ItemDisplayData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12630);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13EE8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12638);
 		}
 
 		static ::System::Void _cctor()

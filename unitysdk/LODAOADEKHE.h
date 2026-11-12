@@ -4,11 +4,11 @@
 namespace RPG::Client { class ConfirmDialogContext; }
 namespace System { class String; }
 
-#define LODAOADEKHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F4F60)
-#define LODAOADEKHE_GNNMGJMFNAE_OFFSET UNITYSDK_OFFSET(0xB7F4A70)
-#define LODAOADEKHE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7F4920)
+#define LODAOADEKHE_CTOR_OFFSET UNITYSDK_OFFSET(0xC054480)
+#define LODAOADEKHE_GNNMGJMFNAE_OFFSET UNITYSDK_OFFSET(0xC053F90)
+#define LODAOADEKHE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC053E40)
 
-inline static constexpr unsigned int LODAOADEKHE_TypeDefinitionIndex = 61109;
+inline static constexpr unsigned int LODAOADEKHE_TypeDefinitionIndex = 62494;
 
 	class LODAOADEKHE : public ::System::Object
 	{

@@ -5,11 +5,11 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 
-#define RPG_CLIENT_UILAYERCONTROLLER_LAYERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE3A8140)
+#define RPG_CLIENT_UILAYERCONTROLLER_LAYERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xEE62A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UILayerController_LayerInfo_TypeDefinitionIndex = 73072;
+	inline static constexpr unsigned int UILayerController_LayerInfo_TypeDefinitionIndex = 75186;
 
 	class UILayerController_LayerInfo : public ::System::Object
 	{

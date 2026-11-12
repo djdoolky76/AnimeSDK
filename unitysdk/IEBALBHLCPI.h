@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IEBALBHLCPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB075E0)
+#define IEBALBHLCPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCC080)
 
-inline static constexpr unsigned int IEBALBHLCPI_TypeDefinitionIndex = 43363;
+inline static constexpr unsigned int IEBALBHLCPI_TypeDefinitionIndex = 44344;
 
 	class IEBALBHLCPI : public ::System::Object
 	{

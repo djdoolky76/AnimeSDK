@@ -6,10 +6,10 @@ class IHHFABFLIKK;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define IHHFABFLIKK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1641F280)
-#define IHHFABFLIKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1641F270)
+#define IHHFABFLIKK_CCTOR_OFFSET UNITYSDK_OFFSET(0x173D5F90)
+#define IHHFABFLIKK_CTOR_OFFSET UNITYSDK_OFFSET(0x173D5F80)
 
-inline static constexpr unsigned int IHHFABFLIKK_TypeDefinitionIndex = 56238;
+inline static constexpr unsigned int IHHFABFLIKK_TypeDefinitionIndex = 57450;
 
 	class IHHFABFLIKK : public ::NMNGHKMHDOK
 	{
@@ -21,7 +21,7 @@ inline static constexpr unsigned int IHHFABFLIKK_TypeDefinitionIndex = 56238;
 		::RPG::GameCore::FixPoint CMAAEMCBIMH; // 0x30
 		static ::IHHFABFLIKK** StaticGet_HGLIFJGHADE()
 		{
-			return (::IHHFABFLIKK**)UnitySDK::FromName("", "IHHFABFLIKK")->GetStaticField(0x3B850);
+			return (::IHHFABFLIKK**)UnitySDK::FromName("", "IHHFABFLIKK")->GetStaticField(0x1C450);
 		}
 
 		::System::Void _ctor()

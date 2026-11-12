@@ -4,11 +4,11 @@
 namespace RPG::Client { class ActivityTagData; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_ACTIVITYTAGDATAEXT_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0xC5BD1A0)
+#define RPG_CLIENT_ACTIVITYTAGDATAEXT_CONTAINSTAG_OFFSET UNITYSDK_OFFSET(0xCF125E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTagDataExt_TypeDefinitionIndex = 61707;
+	inline static constexpr unsigned int ActivityTagDataExt_TypeDefinitionIndex = 63113;
 
 	class ActivityTagDataExt : public ::System::Object
 	{

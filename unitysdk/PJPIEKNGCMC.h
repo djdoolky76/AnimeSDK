@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define PJPIEKNGCMC_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xDE5F0)
-#define PJPIEKNGCMC_EQUALS_OFFSET UNITYSDK_OFFSET(0xDE570)
-#define PJPIEKNGCMC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDE600)
+#define PJPIEKNGCMC_EQUALS_1_OFFSET UNITYSDK_OFFSET(0xE9A30)
+#define PJPIEKNGCMC_EQUALS_OFFSET UNITYSDK_OFFSET(0xE99B0)
+#define PJPIEKNGCMC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE9A40)
 
-inline static constexpr unsigned int PJPIEKNGCMC_TypeDefinitionIndex = 73816;
+inline static constexpr unsigned int PJPIEKNGCMC_TypeDefinitionIndex = 75942;
 
 	struct alignas(4) PJPIEKNGCMC
 	{

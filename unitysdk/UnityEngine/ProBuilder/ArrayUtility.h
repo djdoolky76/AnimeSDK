@@ -4,7 +4,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int ArrayUtility_TypeDefinitionIndex = 44328;
+	inline static constexpr unsigned int ArrayUtility_TypeDefinitionIndex = 45403;
 
 	class ArrayUtility : public ::System::Object
 	{

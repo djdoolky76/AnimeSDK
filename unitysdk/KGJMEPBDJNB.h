@@ -3,10 +3,10 @@
 class ELLFLJKDCAE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KGJMEPBDJNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB3EE470)
-#define KGJMEPBDJNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3EE4A0)
+#define KGJMEPBDJNB_CTOR_OFFSET UNITYSDK_OFFSET(0xBC814F0)
+#define KGJMEPBDJNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC81520)
 
-inline static constexpr unsigned int KGJMEPBDJNB_TypeDefinitionIndex = 55662;
+inline static constexpr unsigned int KGJMEPBDJNB_TypeDefinitionIndex = 56860;
 
 	class KGJMEPBDJNB
 	{

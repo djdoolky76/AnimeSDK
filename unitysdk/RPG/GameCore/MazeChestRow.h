@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeChestRow; }
 
-#define RPG_GAMECORE_MAZECHESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8644B0)
-#define RPG_GAMECORE_MAZECHESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D864320)
+#define RPG_GAMECORE_MAZECHESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7ED00)
+#define RPG_GAMECORE_MAZECHESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA7EB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeChestRow_TypeDefinitionIndex = 14384;
+	inline static constexpr unsigned int MazeChestRow_TypeDefinitionIndex = 14541;
 
 	class MazeChestRow : public ::System::Object
 	{

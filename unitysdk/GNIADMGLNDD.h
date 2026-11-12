@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define GNIADMGLNDD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B111D0)
-#define GNIADMGLNDD_MGPLPPLEMPK_OFFSET UNITYSDK_OFFSET(0x15B10F60)
+#define GNIADMGLNDD_CTOR_OFFSET UNITYSDK_OFFSET(0x16A941F0)
+#define GNIADMGLNDD_MGPLPPLEMPK_OFFSET UNITYSDK_OFFSET(0x16A93F80)
 
-inline static constexpr unsigned int GNIADMGLNDD_TypeDefinitionIndex = 57318;
+inline static constexpr unsigned int GNIADMGLNDD_TypeDefinitionIndex = 58546;
 
 	class GNIADMGLNDD : public ::FHKIKPOPLPJ
 	{

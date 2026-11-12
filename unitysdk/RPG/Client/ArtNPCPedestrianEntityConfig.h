@@ -6,13 +6,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC699AD0)
-#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_GKGBNLAOFLE_OFFSET UNITYSDK_OFFSET(0xC699460)
-#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_PAABEMLAHOL_OFFSET UNITYSDK_OFFSET(0xC699010)
+#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCFF44F0)
+#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_GKGBNLAOFLE_OFFSET UNITYSDK_OFFSET(0xCFF3EF0)
+#define RPG_CLIENT_ARTNPCPEDESTRIANENTITYCONFIG_PAABEMLAHOL_OFFSET UNITYSDK_OFFSET(0xCFF3B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ArtNPCPedestrianEntityConfig_TypeDefinitionIndex = 69234;
+	inline static constexpr unsigned int ArtNPCPedestrianEntityConfig_TypeDefinitionIndex = 71188;
 
 	class ArtNPCPedestrianEntityConfig : public ::UnityEngine::ScriptableObject
 	{

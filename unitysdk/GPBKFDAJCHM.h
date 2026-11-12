@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffectOnAnchor; }
 
-#define GPBKFDAJCHM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3D760)
-#define GPBKFDAJCHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B3D790)
+#define GPBKFDAJCHM_CTOR_OFFSET UNITYSDK_OFFSET(0x16AC3EF0)
+#define GPBKFDAJCHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AC3F20)
 
-inline static constexpr unsigned int GPBKFDAJCHM_TypeDefinitionIndex = 58782;
+inline static constexpr unsigned int GPBKFDAJCHM_TypeDefinitionIndex = 60050;
 
 	class GPBKFDAJCHM
 	{

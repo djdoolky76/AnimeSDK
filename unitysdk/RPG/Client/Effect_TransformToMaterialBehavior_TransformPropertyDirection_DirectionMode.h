@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyDirection_DirectionMode_TypeDefinitionIndex = 70581;
+	inline static constexpr unsigned int Effect_TransformToMaterialBehavior_TransformPropertyDirection_DirectionMode_TypeDefinitionIndex = 72558;
 
 	enum class Effect_TransformToMaterialBehavior_TransformPropertyDirection_DirectionMode : ::System::Int32
 	{

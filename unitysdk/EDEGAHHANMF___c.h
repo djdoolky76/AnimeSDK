@@ -4,18 +4,18 @@
 class EDEGAHHANMF;
 namespace System { class Object; }
 
-#define EDEGAHHANMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E25E830)
-#define EDEGAHHANMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E25E870)
-#define EDEGAHHANMF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E25E880)
+#define EDEGAHHANMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F55BA30)
+#define EDEGAHHANMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F55BA70)
+#define EDEGAHHANMF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F55BA80)
 
-inline static constexpr unsigned int EDEGAHHANMF___c_TypeDefinitionIndex = 28888;
+inline static constexpr unsigned int EDEGAHHANMF___c_TypeDefinitionIndex = 29478;
 
 	class EDEGAHHANMF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40580);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FCC0);
 		}
 
 		static ::System::Void _cctor()

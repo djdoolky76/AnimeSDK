@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPFLOATPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C52C0)
+#define UNITYENGINE_RENDERING_NOINTERPFLOATPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x20576100)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpFloatParameter_TypeDefinitionIndex = 35634;
+	inline static constexpr unsigned int NoInterpFloatParameter_TypeDefinitionIndex = 36562;
 
 	class NoInterpFloatParameter
 	{

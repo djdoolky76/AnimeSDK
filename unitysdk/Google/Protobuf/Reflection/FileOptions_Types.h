@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FileOptions_Types_TypeDefinitionIndex = 5489;
+	inline static constexpr unsigned int FileOptions_Types_TypeDefinitionIndex = 5494;
 
 	class FileOptions_Types : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F19A6D0)
-#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x1F19A460)
+#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x2044BB10)
+#define UNITYENGINE_PROBUILDER_ENTITYBEHAVIOUR_SETMATERIAL_OFFSET UNITYSDK_OFFSET(0x2044B8A0)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 44357;
+	inline static constexpr unsigned int EntityBehaviour_TypeDefinitionIndex = 45432;
 
 	class EntityBehaviour : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,17 +4,17 @@
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_GAMECORE_UI3DMAP3DCAMERASTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE86CFA0)
+#define RPG_GAMECORE_UI3DMAP3DCAMERASTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF336800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UI3DMap3DCameraStateConfig_TypeDefinitionIndex = 57544;
+	inline static constexpr unsigned int UI3DMap3DCameraStateConfig_TypeDefinitionIndex = 58772;
 
 	class UI3DMap3DCameraStateConfig : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* Target; // 0x10
-		::UnityEngine::Camera* SourceCamera; // 0x18
+		::UnityEngine::Camera* SourceCamera; // 0x10
+		::UnityEngine::Transform* Target; // 0x18
 		::System::Single InitDistance; // 0x20
 		::System::Single ZoomSpeed; // 0x24
 		::System::Void _ctor()

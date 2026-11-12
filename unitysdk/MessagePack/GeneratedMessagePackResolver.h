@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack { class IFormatterResolver; }
 
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C758C30)
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C758BD0)
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x1C758BE0)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8DA590)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DA530)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_REGISTERTOGLOBALRESOLVER_OFFSET UNITYSDK_OFFSET(0x1D8DA540)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GeneratedMessagePackResolver_TypeDefinitionIndex = 36093;
+	inline static constexpr unsigned int GeneratedMessagePackResolver_TypeDefinitionIndex = 37021;
 
 	class GeneratedMessagePackResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::IFormatterResolver** StaticGet_FMJPMFEDIJL()
 		{
-			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("MessagePack", "GeneratedMessagePackResolver")->GetStaticField(0x16400);
+			return (::MessagePack::IFormatterResolver**)UnitySDK::FromName("MessagePack", "GeneratedMessagePackResolver")->GetStaticField(0xEDE0);
 		}
 
 		::System::Void _ctor()

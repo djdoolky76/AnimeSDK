@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 35498;
+	inline static constexpr unsigned int DictionaryPool_2___c_TypeDefinitionIndex = 36426;
 
 	template <typename T1, typename T2>
 	class DictionaryPool_2___c : public ::System::Object

@@ -5,31 +5,31 @@ class GADFFIFFNHM;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB6C9F0)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6CA20)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__SYNCNEWLYUNLOCKEDCHIMERAS_B__39_0_OFFSET UNITYSDK_OFFSET(0xCB6CA50)
-#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__SYNCUNLOCKEDCHIMERAS_B__38_0_OFFSET UNITYSDK_OFFSET(0xCB6CA30)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD4D0580)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD4D05B0)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__SYNCNEWLYUNLOCKEDCHIMERAS_B__39_0_OFFSET UNITYSDK_OFFSET(0xD4D05E0)
+#define RPG_CLIENT_CHIMERAWORKROUNDINFO___C__SYNCUNLOCKEDCHIMERAS_B__38_0_OFFSET UNITYSDK_OFFSET(0xD4D05C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundInfo___c_TypeDefinitionIndex = 63507;
+	inline static constexpr unsigned int ChimeraWorkRoundInfo___c_TypeDefinitionIndex = 64945;
 
 	class ChimeraWorkRoundInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x163E0);
-		}
-
 		static ::System::Func_2<::GADFFIFFNHM*, ::System::UInt32>** StaticGet___9__39_0()
 		{
-			return (::System::Func_2<::GADFFIFFNHM*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x163E8);
+			return (::System::Func_2<::GADFFIFFNHM*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15550);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15558);
 		}
 
 		static ::System::Func_2<::GADFFIFFNHM*, ::System::UInt32>** StaticGet___9__38_0()
 		{
-			return (::System::Func_2<::GADFFIFFNHM*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x163F0);
+			return (::System::Func_2<::GADFFIFFNHM*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15560);
 		}
 
 		static ::System::Void _cctor()

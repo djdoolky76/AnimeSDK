@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace RPG::Client { class SimpRTXProxy; }
 
-#define RPG_CLIENT_SIMPRTXPROXYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF1D20)
+#define RPG_CLIENT_SIMPRTXPROXYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xFDF10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpRTXProxyData_TypeDefinitionIndex = 70188;
+	inline static constexpr unsigned int SimpRTXProxyData_TypeDefinitionIndex = 72154;
 
 	struct alignas(4) SimpRTXProxyData
 	{

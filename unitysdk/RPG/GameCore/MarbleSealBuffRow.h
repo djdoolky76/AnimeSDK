@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleSealBuffRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MARBLESEALBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D846E20)
-#define RPG_GAMECORE_MARBLESEALBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D846830)
+#define RPG_GAMECORE_MARBLESEALBUFFROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA61810)
+#define RPG_GAMECORE_MARBLESEALBUFFROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA61220)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealBuffRow_TypeDefinitionIndex = 11849;
+	inline static constexpr unsigned int MarbleSealBuffRow_TypeDefinitionIndex = 11906;
 
 	class MarbleSealBuffRow : public ::System::Object
 	{

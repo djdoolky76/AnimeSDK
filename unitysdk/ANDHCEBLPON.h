@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FECDLDCCHPN.h"
 
-#define ANDHCEBLPON_CTOR_OFFSET UNITYSDK_OFFSET(0x15592B90)
+#define ANDHCEBLPON_CTOR_OFFSET UNITYSDK_OFFSET(0x166FB3E0)
 
-inline static constexpr unsigned int ANDHCEBLPON_TypeDefinitionIndex = 73998;
+inline static constexpr unsigned int ANDHCEBLPON_TypeDefinitionIndex = 76134;
 
 	class ANDHCEBLPON : public ::FECDLDCCHPN
 	{

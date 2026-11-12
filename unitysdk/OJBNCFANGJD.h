@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define OJBNCFANGJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBEAB3A0)
+#define OJBNCFANGJD_CTOR_OFFSET UNITYSDK_OFFSET(0xC7A16E0)
 
-inline static constexpr unsigned int OJBNCFANGJD_TypeDefinitionIndex = 61162;
+inline static constexpr unsigned int OJBNCFANGJD_TypeDefinitionIndex = 62547;
 
 	class OJBNCFANGJD : public ::System::Exception
 	{

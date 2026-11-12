@@ -3,10 +3,10 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define IALALIPNFPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15E18460)
-#define IALALIPNFPM_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x15E184D0)
+#define IALALIPNFPM_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC1C20)
+#define IALALIPNFPM_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x16DC1C90)
 
-inline static constexpr unsigned int IALALIPNFPM_TypeDefinitionIndex = 50045;
+inline static constexpr unsigned int IALALIPNFPM_TypeDefinitionIndex = 51093;
 
 	class IALALIPNFPM : public ::System::Exception
 	{

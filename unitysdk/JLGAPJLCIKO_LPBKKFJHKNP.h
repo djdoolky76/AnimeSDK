@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define JLGAPJLCIKO_LPBKKFJHKNP_CTOR_OFFSET UNITYSDK_OFFSET(0x11840)
+#define JLGAPJLCIKO_LPBKKFJHKNP_CTOR_OFFSET UNITYSDK_OFFSET(0x15400)
 
-inline static constexpr unsigned int JLGAPJLCIKO_LPBKKFJHKNP_TypeDefinitionIndex = 70681;
+inline static constexpr unsigned int JLGAPJLCIKO_LPBKKFJHKNP_TypeDefinitionIndex = 72658;
 
 	struct alignas(4) JLGAPJLCIKO_LPBKKFJHKNP
 	{

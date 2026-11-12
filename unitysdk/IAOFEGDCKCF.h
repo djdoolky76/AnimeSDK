@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IAOFEGDCKCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD62020)
+#define IAOFEGDCKCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF647A0)
 
-inline static constexpr unsigned int IAOFEGDCKCF_TypeDefinitionIndex = 6561;
+inline static constexpr unsigned int IAOFEGDCKCF_TypeDefinitionIndex = 6568;
 
 	class IAOFEGDCKCF : public ::System::Object
 	{

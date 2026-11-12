@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF5BED0)
-#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xAF5C420)
-#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__1_OFFSET UNITYSDK_OFFSET(0xAF5D210)
+#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BCE70)
+#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xB5BD3C0)
+#define MIHOYO_SDK_BABELFISHCLIENT___C__DISPLAYCLASS7_0__GETCONFIG_B__1_OFFSET UNITYSDK_OFFSET(0xB5BE1B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BabelfishClient___c__DisplayClass7_0_TypeDefinitionIndex = 46575;
+	inline static constexpr unsigned int BabelfishClient___c__DisplayClass7_0_TypeDefinitionIndex = 47603;
 
 	class BabelfishClient___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsCharacterWeaknessActivated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJPGIEJCPOF_CTOR_OFFSET UNITYSDK_OFFSET(0xC29E690)
-#define PJPGIEJCPOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC29E6C0)
+#define PJPGIEJCPOF_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC9150)
+#define PJPGIEJCPOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCBC9180)
 
-inline static constexpr unsigned int PJPGIEJCPOF_TypeDefinitionIndex = 54640;
+inline static constexpr unsigned int PJPGIEJCPOF_TypeDefinitionIndex = 55806;
 
 	class PJPGIEJCPOF
 	{

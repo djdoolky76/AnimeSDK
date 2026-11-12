@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DecoupleParentTransform; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DECOUPLEPARENTTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FA460)
-#define RPG_GAMECORE_DECOUPLEPARENTTRANSFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5FA470)
-#define RPG_GAMECORE_DECOUPLEPARENTTRANSFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FA430)
+#define RPG_GAMECORE_DECOUPLEPARENTTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80C3B0)
+#define RPG_GAMECORE_DECOUPLEPARENTTRANSFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E80C3C0)
+#define RPG_GAMECORE_DECOUPLEPARENTTRANSFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E80C380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecoupleParentTransform_TypeDefinitionIndex = 22848;
+	inline static constexpr unsigned int DecoupleParentTransform_TypeDefinitionIndex = 23273;
 
 	class DecoupleParentTransform : public ::RPG::GameCore::TaskConfig
 	{

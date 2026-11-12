@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_AUDIOBLOCKUPDATELANGRECORDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xC6B2BF0)
+#define RPG_CLIENT_AUDIOBLOCKUPDATELANGRECORDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD00E5B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioBlockUpdateLangRecordItem_TypeDefinitionIndex = 61212;
+	inline static constexpr unsigned int AudioBlockUpdateLangRecordItem_TypeDefinitionIndex = 62597;
 
 	class AudioBlockUpdateLangRecordItem : public ::System::Object
 	{

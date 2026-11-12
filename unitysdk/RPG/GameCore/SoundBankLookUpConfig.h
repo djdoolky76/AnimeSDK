@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EventLookUpConfig; }
 namespace RPG::GameCore { class SoundBankLookUpConfig; }
 
-#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF1D00)
-#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF1C10)
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03D00)
+#define RPG_GAMECORE_SOUNDBANKLOOKUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED03C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 16389;
+	inline static constexpr unsigned int SoundBankLookUpConfig_TypeDefinitionIndex = 16553;
 
 	class SoundBankLookUpConfig : public ::RPG::GameCore::JsonConfig
 	{

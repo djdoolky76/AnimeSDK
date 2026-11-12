@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int RenderGraphObjectPool_SharedObjectPool_1_TypeDefinitionIndex = 35458;
+	inline static constexpr unsigned int RenderGraphObjectPool_SharedObjectPool_1_TypeDefinitionIndex = 36386;
 
 	template <typename T>
 	class RenderGraphObjectPool_SharedObjectPool_1 : public ::System::Object

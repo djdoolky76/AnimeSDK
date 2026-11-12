@@ -4,18 +4,18 @@
 class BFGNNODONFI;
 namespace System { class Object; }
 
-#define BFGNNODONFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA6D0E0)
-#define BFGNNODONFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6D120)
-#define BFGNNODONFI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EA6D130)
+#define BFGNNODONFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD2DC70)
+#define BFGNNODONFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD2DCB0)
+#define BFGNNODONFI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FD2DCC0)
 
-inline static constexpr unsigned int BFGNNODONFI___c_TypeDefinitionIndex = 27200;
+inline static constexpr unsigned int BFGNNODONFI___c_TypeDefinitionIndex = 27731;
 
 	class BFGNNODONFI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42280);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42580);
 		}
 
 		static ::System::Void _cctor()

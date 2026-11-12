@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MNKPPNJIFLL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA11670)
+#define MNKPPNJIFLL_CTOR_OFFSET UNITYSDK_OFFSET(0xC2CFC90)
 
-inline static constexpr unsigned int MNKPPNJIFLL_TypeDefinitionIndex = 67789;
+inline static constexpr unsigned int MNKPPNJIFLL_TypeDefinitionIndex = 69734;
 
 	class MNKPPNJIFLL : public ::System::Object
 	{

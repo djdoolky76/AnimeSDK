@@ -6,18 +6,18 @@ class KADCLBEPFPL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define KADCLBEPFPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D05D590)
-#define KADCLBEPFPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D05D5A0)
-#define KADCLBEPFPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D05D560)
+#define KADCLBEPFPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E24C6F0)
+#define KADCLBEPFPL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E24C700)
+#define KADCLBEPFPL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E24C6C0)
 
-inline static constexpr unsigned int KADCLBEPFPL_TypeDefinitionIndex = 22650;
+inline static constexpr unsigned int KADCLBEPFPL_TypeDefinitionIndex = 23072;
 
 	class KADCLBEPFPL : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* BPMLAGEHDPE; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
 		::Il2CppArray<::System::String*>* GCLBNEHOIDD; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::TargetEvaluator* BPMLAGEHDPE; // 0x28
 		::System::Boolean DIOGHDMOLBA; // 0x30
 		::System::Void _ctor()
 		{

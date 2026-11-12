@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PHDPAKFFLOK_TestPlanesResults_TypeDefinitionIndex = 69696;
+inline static constexpr unsigned int PHDPAKFFLOK_TestPlanesResults_TypeDefinitionIndex = 71653;
 
 	enum class PHDPAKFFLOK_TestPlanesResults : ::System::Int32
 	{

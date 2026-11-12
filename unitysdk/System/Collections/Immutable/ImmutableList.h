@@ -4,7 +4,7 @@
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableList_TypeDefinitionIndex = 6638;
+	inline static constexpr unsigned int ImmutableList_TypeDefinitionIndex = 6649;
 
 	class ImmutableList : public ::System::Object
 	{

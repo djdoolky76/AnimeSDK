@@ -6,23 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartySkillConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC35300)
-#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC35000)
+#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE485A0)
+#define RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE482A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartySkillConfigRow_TypeDefinitionIndex = 15321;
+	inline static constexpr unsigned int TrainPartySkillConfigRow_TypeDefinitionIndex = 15477;
 
 	class TrainPartySkillConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* SkillFigurePath; // 0x10
-		::System::String* SkillIconPath; // 0x18
-		::RPG::Client::TextID SkillDescription; // 0x20
-		::RPG::Client::TextID SkillName; // 0x30
-		::System::Boolean IsRare; // 0x40
+		::System::String* SkillIconPath; // 0x10
+		::System::String* SkillFigurePath; // 0x18
+		::System::Boolean IsRare; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::UInt32 SKillID; // 0x44
+		::System::UInt32 SKillID; // 0x24
+		::RPG::Client::TextID SkillDescription; // 0x28
+		::RPG::Client::TextID SkillName; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSKILLCONFIGROW_CTOR_OFFSET))(this);

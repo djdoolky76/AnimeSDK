@@ -4,17 +4,17 @@
 #include "unitysdk/RPG/MVector2.h"
 class IFFJIHFGOBO;
 
-#define NOIOOBFKDEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C961F30)
-#define NOIOOBFKDEA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C9761F0)
+#define NOIOOBFKDEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB37FC0)
+#define NOIOOBFKDEA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1DB37FE0)
 
-inline static constexpr unsigned int NOIOOBFKDEA_TypeDefinitionIndex = 43062;
+inline static constexpr unsigned int NOIOOBFKDEA_TypeDefinitionIndex = 44043;
 
 	class NOIOOBFKDEA : public ::IKNAEDLKKKE
 	{
 	public:
 		::IFFJIHFGOBO* PIAAAIKAGFA; // 0x20
-		::System::UInt32 AGDOLIPGNND; // 0x28
-		::System::UInt32 AHINLNKPBNC; // 0x2C
+		::System::UInt32 AHINLNKPBNC; // 0x28
+		::System::UInt32 AGDOLIPGNND; // 0x2C
 		::RPG::MVector2 EMEKEFJEHOB; // 0x30
 		::System::Void _ctor(::IFFJIHFGOBO* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::MVector2 a4)
 		{

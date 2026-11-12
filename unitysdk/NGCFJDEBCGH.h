@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/Client/LittleGame/RoadRash/ProjectileParams.h"
 #include "unitysdk/System/Object.h"
 
-#define NGCFJDEBCGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C95A360)
+#define NGCFJDEBCGH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1C140)
 
-inline static constexpr unsigned int NGCFJDEBCGH_TypeDefinitionIndex = 42933;
+inline static constexpr unsigned int NGCFJDEBCGH_TypeDefinitionIndex = 43914;
 
 	class NGCFJDEBCGH : public ::System::Object
 	{
 	public:
 		::RPG::Client::LittleGame::RoadRash::ProjectileParams EJHODPJIFIN; // 0x10
-		::System::Boolean HCOFMFKFMDK; // 0xA0
-		::System::Boolean KMGIHDHMBJB; // 0xA1
+		::System::Int32 OIHCEBCPPMJ; // 0xA0
+		::System::Boolean HCOFMFKFMDK; // 0xA4
+		::System::Boolean KMGIHDHMBJB; // 0xA5
 		::System::Byte _padding0[0x2];
-		::System::Int32 OIHCEBCPPMJ; // 0xA4
 		::System::Int32 IEBGNBBLFMD; // 0xA8
 		::System::Void _ctor()
 		{

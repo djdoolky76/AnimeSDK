@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetDefaultDamageDisplayData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FIKGONCBPBG_CTOR_OFFSET UNITYSDK_OFFSET(0x157AB810)
-#define FIKGONCBPBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157AB840)
+#define FIKGONCBPBG_CTOR_OFFSET UNITYSDK_OFFSET(0x166CD2A0)
+#define FIKGONCBPBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166CD2D0)
 
-inline static constexpr unsigned int FIKGONCBPBG_TypeDefinitionIndex = 55580;
+inline static constexpr unsigned int FIKGONCBPBG_TypeDefinitionIndex = 56775;
 
 	class FIKGONCBPBG
 	{

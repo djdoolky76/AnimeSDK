@@ -4,18 +4,18 @@
 class KIAKKNFLEPN;
 namespace System { class Object; }
 
-#define KIAKKNFLEPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E853080)
-#define KIAKKNFLEPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8530C0)
-#define KIAKKNFLEPN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8530D0)
+#define KIAKKNFLEPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB6D200)
+#define KIAKKNFLEPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB6D240)
+#define KIAKKNFLEPN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB6D250)
 
-inline static constexpr unsigned int KIAKKNFLEPN___c_TypeDefinitionIndex = 28575;
+inline static constexpr unsigned int KIAKKNFLEPN___c_TypeDefinitionIndex = 29165;
 
 	class KIAKKNFLEPN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18A30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x125C0);
 		}
 
 		static ::System::Void _cctor()

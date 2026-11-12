@@ -7,16 +7,16 @@ class CHGHIALKMFM;
 class PIIOAKOEACN;
 class PJPPGJEDCOG;
 
-#define BILJOFMFHAJ___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C543DE0)
-#define BILJOFMFHAJ___C__DISPLAYCLASS14_0___CREATECHIPMOLDS_B__0_OFFSET UNITYSDK_OFFSET(0x1C545130)
+#define BILJOFMFHAJ___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C5790)
+#define BILJOFMFHAJ___C__DISPLAYCLASS14_0___CREATECHIPMOLDS_B__0_OFFSET UNITYSDK_OFFSET(0x1D6C6AF0)
 
-inline static constexpr unsigned int BILJOFMFHAJ___c__DisplayClass14_0_TypeDefinitionIndex = 41818;
+inline static constexpr unsigned int BILJOFMFHAJ___c__DisplayClass14_0_TypeDefinitionIndex = 42793;
 
 	class BILJOFMFHAJ___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::PJPPGJEDCOG* requirement; // 0x10
-		::BILJOFMFHAJ* __4__this; // 0x18
+		::BILJOFMFHAJ* __4__this; // 0x10
+		::PJPPGJEDCOG* requirement; // 0x18
 		::UnityEngine::Vector2Int boardSize; // 0x20
 		::System::Void _ctor()
 		{

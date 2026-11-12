@@ -7,22 +7,22 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CLFJDCPHEHA_CTOR_OFFSET UNITYSDK_OFFSET(0xD77C940)
-#define CLFJDCPHEHA_FAFJMNNJCNM_OFFSET UNITYSDK_OFFSET(0xD77C580)
-#define CLFJDCPHEHA_FKBJFOJGHHF_OFFSET UNITYSDK_OFFSET(0xD77C8E0)
-#define CLFJDCPHEHA_IGAMEPKGCFM_OFFSET UNITYSDK_OFFSET(0xD77C800)
-#define CLFJDCPHEHA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xD77C410)
-#define CLFJDCPHEHA__ONBIND_OFFSET UNITYSDK_OFFSET(0xD77C110)
+#define CLFJDCPHEHA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B8150)
+#define CLFJDCPHEHA_FAFJMNNJCNM_OFFSET UNITYSDK_OFFSET(0xE0B7D90)
+#define CLFJDCPHEHA_FKBJFOJGHHF_OFFSET UNITYSDK_OFFSET(0xE0B80F0)
+#define CLFJDCPHEHA_IGAMEPKGCFM_OFFSET UNITYSDK_OFFSET(0xE0B8010)
+#define CLFJDCPHEHA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xE0B7C20)
+#define CLFJDCPHEHA__ONBIND_OFFSET UNITYSDK_OFFSET(0xE0B7920)
 
-inline static constexpr unsigned int CLFJDCPHEHA_TypeDefinitionIndex = 72337;
+inline static constexpr unsigned int CLFJDCPHEHA_TypeDefinitionIndex = 74416;
 
 	class CLFJDCPHEHA : public ::FMPCODLIOLG
 	{
 	public:
-		::System::String* DLJDAMGNOIM; // 0x60
-		::System::String* LNDMFBFLHGK; // 0x68
-		::Il2CppArray<::UnityEngine::Transform*>* PPBKHNLDGEP; // 0x70
-		::System::Collections::Generic::List_1<::LBGDOLIKLJH*>* MLJDAEMEBFJ; // 0x78
+		::System::String* LNDMFBFLHGK; // 0x60
+		::System::String* DLJDAMGNOIM; // 0x68
+		::System::Collections::Generic::List_1<::LBGDOLIKLJH*>* MLJDAEMEBFJ; // 0x70
+		::Il2CppArray<::UnityEngine::Transform*>* PPBKHNLDGEP; // 0x78
 		::Il2CppArray<::System::String*>* NENDKIOBLMO; // 0x80
 		::System::Void _ctor()
 		{

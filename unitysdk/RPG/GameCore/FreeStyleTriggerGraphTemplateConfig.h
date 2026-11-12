@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FreeStyleTriggerGraphTemplateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FREESTYLETRIGGERGRAPHTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F5390)
-#define RPG_GAMECORE_FREESTYLETRIGGERGRAPHTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F52B0)
+#define RPG_GAMECORE_FREESTYLETRIGGERGRAPHTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FF5E0)
+#define RPG_GAMECORE_FREESTYLETRIGGERGRAPHTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FF500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleTriggerGraphTemplateConfig_TypeDefinitionIndex = 16944;
+	inline static constexpr unsigned int FreeStyleTriggerGraphTemplateConfig_TypeDefinitionIndex = 17111;
 
 	class FreeStyleTriggerGraphTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

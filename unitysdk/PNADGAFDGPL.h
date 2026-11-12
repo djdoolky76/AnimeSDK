@@ -5,18 +5,18 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class DNBDPIOLLHH;
 
-#define PNADGAFDGPL_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC330E00)
-#define PNADGAFDGPL_CTOR_2_OFFSET UNITYSDK_OFFSET(0xC330E10)
-#define PNADGAFDGPL_CTOR_OFFSET UNITYSDK_OFFSET(0xC330DF0)
+#define PNADGAFDGPL_CTOR_1_OFFSET UNITYSDK_OFFSET(0xCC60950)
+#define PNADGAFDGPL_CTOR_2_OFFSET UNITYSDK_OFFSET(0xCC60960)
+#define PNADGAFDGPL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC60940)
 
-inline static constexpr unsigned int PNADGAFDGPL_TypeDefinitionIndex = 71212;
+inline static constexpr unsigned int PNADGAFDGPL_TypeDefinitionIndex = 73194;
 
 	class PNADGAFDGPL : public ::System::Object
 	{
 	public:
 		::DNBDPIOLLHH* DEKMFELPCBO; // 0x10
-		::RPG::Client::ActionBarEventAction ENGGCENAFPM; // 0x18
-		::UnityEngine::Vector2 PECPBEOHOJC; // 0x1C
+		::UnityEngine::Vector2 PECPBEOHOJC; // 0x18
+		::RPG::Client::ActionBarEventAction ENGGCENAFPM; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNADGAFDGPL_CTOR_OFFSET))(this);

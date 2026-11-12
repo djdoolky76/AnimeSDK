@@ -5,9 +5,9 @@ class BICNOEEBFNC;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LGAGHNJOKHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90D670)
+#define LGAGHNJOKHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB9AE0)
 
-inline static constexpr unsigned int LGAGHNJOKHI_TypeDefinitionIndex = 43190;
+inline static constexpr unsigned int LGAGHNJOKHI_TypeDefinitionIndex = 44171;
 
 	class LGAGHNJOKHI : public ::System::Object
 	{

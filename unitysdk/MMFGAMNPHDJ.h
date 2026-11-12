@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MMFGAMNPHDJ_TypeDefinitionIndex = 65731;
+inline static constexpr unsigned int MMFGAMNPHDJ_TypeDefinitionIndex = 67657;
 
 	struct alignas(4) MMFGAMNPHDJ
 	{

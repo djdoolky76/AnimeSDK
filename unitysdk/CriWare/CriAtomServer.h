@@ -4,23 +4,23 @@
 namespace CriWare { class CriAtomServer; }
 namespace System { template <typename T> class Action_1; }
 
-#define CRIWARE_CRIATOMSERVER_AWAKE_OFFSET UNITYSDK_OFFSET(0x16708E20)
-#define CRIWARE_CRIATOMSERVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x16709380)
-#define CRIWARE_CRIATOMSERVER_CONSUMEPCMOUTPUT_OFFSET UNITYSDK_OFFSET(0x167091F0)
-#define CRIWARE_CRIATOMSERVER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x16706460)
-#define CRIWARE_CRIATOMSERVER_CRIINTERNALLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x16709200)
-#define CRIWARE_CRIATOMSERVER_CRIINTERNALUPDATE_OFFSET UNITYSDK_OFFSET(0x16708FC0)
-#define CRIWARE_CRIATOMSERVER_CTOR_OFFSET UNITYSDK_OFFSET(0x16709350)
-#define CRIWARE_CRIATOMSERVER_DESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0x167065D0)
-#define CRIWARE_CRIATOMSERVER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16708D10)
-#define CRIWARE_CRIATOMSERVER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x16709210)
-#define CRIWARE_CRIATOMSERVER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x16708F00)
-#define CRIWARE_CRIATOMSERVER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16708EB0)
-#define CRIWARE_CRIATOMSERVER_PROCESSAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x167092B0)
+#define CRIWARE_CRIATOMSERVER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1754CD90)
+#define CRIWARE_CRIATOMSERVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1754D2F0)
+#define CRIWARE_CRIATOMSERVER_CONSUMEPCMOUTPUT_OFFSET UNITYSDK_OFFSET(0x1754D160)
+#define CRIWARE_CRIATOMSERVER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1754A3C0)
+#define CRIWARE_CRIATOMSERVER_CRIINTERNALLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1754D170)
+#define CRIWARE_CRIATOMSERVER_CRIINTERNALUPDATE_OFFSET UNITYSDK_OFFSET(0x1754CF30)
+#define CRIWARE_CRIATOMSERVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1754D2C0)
+#define CRIWARE_CRIATOMSERVER_DESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0x1754A530)
+#define CRIWARE_CRIATOMSERVER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1754CC80)
+#define CRIWARE_CRIATOMSERVER_ONAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x1754D180)
+#define CRIWARE_CRIATOMSERVER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1754CE70)
+#define CRIWARE_CRIATOMSERVER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1754CE20)
+#define CRIWARE_CRIATOMSERVER_PROCESSAPPLICATIONPAUSE_OFFSET UNITYSDK_OFFSET(0x1754D220)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomServer_TypeDefinitionIndex = 39940;
+	inline static constexpr unsigned int CriAtomServer_TypeDefinitionIndex = 40915;
 
 	class CriAtomServer : public ::CriWare::CriMonoBehaviour
 	{
@@ -29,22 +29,22 @@ namespace CriWare
 		::System::Action_1<::System::Boolean>* onApplicationPausePostProcess; // 0x30
 		static ::CriWare::CriAtomServer** StaticGet__instance()
 		{
-			return (::CriWare::CriAtomServer**)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x56F30);
-		}
-
-		static ::System::Boolean* StaticGet_EnableBackgroundPlayback_ANDROID()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x13380);
+			return (::CriWare::CriAtomServer**)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x59610);
 		}
 
 		static ::System::Boolean* StaticGet_EnableAutoConsumePcmOutput()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x13381);
+			return (::System::Boolean*)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x11010);
 		}
 
 		static ::System::Boolean* StaticGet_KeepPlayingSoundOnPause()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x13382);
+			return (::System::Boolean*)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x11011);
+		}
+
+		static ::System::Boolean* StaticGet_EnableBackgroundPlayback_ANDROID()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("CriWare", "CriAtomServer")->GetStaticField(0x11012);
 		}
 
 		::System::Void _ctor()

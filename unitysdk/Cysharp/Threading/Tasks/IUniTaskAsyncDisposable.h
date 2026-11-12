@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IUniTaskAsyncDisposable_TypeDefinitionIndex = 38163;
+	inline static constexpr unsigned int IUniTaskAsyncDisposable_TypeDefinitionIndex = 39092;
 
 	class IUniTaskAsyncDisposable
 	{

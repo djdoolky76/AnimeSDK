@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFDFEE0)
-#define MIHOYO_SDK_SERVERREGIONMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFDFF10)
-#define MIHOYO_SDK_SERVERREGIONMANAGER___C___CTOR_B__31_0_OFFSET UNITYSDK_OFFSET(0x1BFDFF20)
+#define MIHOYO_SDK_SERVERREGIONMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D167030)
+#define MIHOYO_SDK_SERVERREGIONMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D167060)
+#define MIHOYO_SDK_SERVERREGIONMANAGER___C___CTOR_B__31_0_OFFSET UNITYSDK_OFFSET(0x1D167070)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager___c_TypeDefinitionIndex = 7967;
+	inline static constexpr unsigned int ServerRegionManager___c_TypeDefinitionIndex = 7976;
 
 	class ServerRegionManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__31_0()
-		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1FCA0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1FCA8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1ECC0);
+		}
+
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__31_0()
+		{
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1ECC8);
 		}
 
 		static ::System::Void _cctor()

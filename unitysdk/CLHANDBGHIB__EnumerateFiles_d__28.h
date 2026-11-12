@@ -8,28 +8,28 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::IO { class FileInfo; }
 
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_CTOR_OFFSET UNITYSDK_OFFSET(0xD7842E0)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xD789E00)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_IO_FILEINFO__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xD78A470)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_IO_FILEINFO__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD78A400)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xD78A4D0)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xD78A460)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xD78A410)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD789CC0)
-#define CLHANDBGHIB__ENUMERATEFILES_D__28___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xD789D00)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_CTOR_OFFSET UNITYSDK_OFFSET(0xE351970)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE351AD0)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_IO_FILEINFO__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE352140)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_IO_FILEINFO__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE3520D0)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xE3521A0)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE352130)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE3520E0)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE351990)
+#define CLHANDBGHIB__ENUMERATEFILES_D__28___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xE3519D0)
 
-inline static constexpr unsigned int CLHANDBGHIB__EnumerateFiles_d__28_TypeDefinitionIndex = 59637;
+inline static constexpr unsigned int CLHANDBGHIB__EnumerateFiles_d__28_TypeDefinitionIndex = 60914;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28>
 	class CLHANDBGHIB__EnumerateFiles_d__28 : public ::System::Object
 	{
 	public:
-		::System::String* rootPath; // 0x10
-		::System::IO::FileInfo* __2__current; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::String*>* excludeList; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::String*>* __3__excludeList; // 0x28
-		::System::String* __3__rootPath; // 0x30
-		::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap1; // 0x38
+		::System::Collections::Generic::HashSet_1<::System::String*>* excludeList; // 0x10
+		::System::Collections::Generic::IEnumerator_1<::System::IO::FileInfo*>* __7__wrap1; // 0x18
+		::System::IO::FileInfo* __2__current; // 0x20
+		::System::String* __3__rootPath; // 0x28
+		::System::String* rootPath; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::String*>* __3__excludeList; // 0x38
 		::System::Int32 __1__state; // 0x40
 		::System::Int32 __l__initialThreadId; // 0x44
 		::System::Void _ctor(::System::Int32 a1)

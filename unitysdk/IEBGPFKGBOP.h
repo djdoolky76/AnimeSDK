@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetLocalPlayerDitherAlpha; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IEBGPFKGBOP_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE7A90)
-#define IEBGPFKGBOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EE7AC0)
+#define IEBGPFKGBOP_CTOR_OFFSET UNITYSDK_OFFSET(0x16E52A30)
+#define IEBGPFKGBOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E52A60)
 
-inline static constexpr unsigned int IEBGPFKGBOP_TypeDefinitionIndex = 58552;
+inline static constexpr unsigned int IEBGPFKGBOP_TypeDefinitionIndex = 59817;
 
 	class IEBGPFKGBOP
 	{

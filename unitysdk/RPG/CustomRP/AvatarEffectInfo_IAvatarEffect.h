@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectInfo_IAvatarEffect_TypeDefinitionIndex = 37585;
+	inline static constexpr unsigned int AvatarEffectInfo_IAvatarEffect_TypeDefinitionIndex = 38513;
 
 	class AvatarEffectInfo_IAvatarEffect
 	{

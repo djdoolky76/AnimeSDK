@@ -12,13 +12,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA7E200)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA7E260)
-#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA7E170)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC90A80)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC90AE0)
+#define RPG_GAMECORE_ST_MAIN_FOLLOWTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC909F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 20122;
+	inline static constexpr unsigned int ST_Main_FollowTarget_TypeDefinitionIndex = 20456;
 
 	class ST_Main_FollowTarget : public ::RPG::GameCore::STTaskConfig
 	{

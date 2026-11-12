@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTeamLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JKPCEPFCNFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB22E4B0)
-#define JKPCEPFCNFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB22E4E0)
+#define JKPCEPFCNFB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA566E0)
+#define JKPCEPFCNFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA56710)
 
-inline static constexpr unsigned int JKPCEPFCNFB_TypeDefinitionIndex = 55582;
+inline static constexpr unsigned int JKPCEPFCNFB_TypeDefinitionIndex = 56777;
 
 	class JKPCEPFCNFB
 	{

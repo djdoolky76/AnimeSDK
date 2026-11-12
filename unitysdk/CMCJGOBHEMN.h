@@ -5,12 +5,12 @@ class KFNCAIHIHCM;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CMCJGOBHEMN_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xDA27260)
-#define CMCJGOBHEMN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA27340)
-#define CMCJGOBHEMN_NHMEGICGKHG_OFFSET UNITYSDK_OFFSET(0xDA271A0)
-#define CMCJGOBHEMN_NHMHMBBMKID_OFFSET UNITYSDK_OFFSET(0xDA27140)
+#define CMCJGOBHEMN_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xE3661F0)
+#define CMCJGOBHEMN_CTOR_OFFSET UNITYSDK_OFFSET(0xE3662D0)
+#define CMCJGOBHEMN_NHMEGICGKHG_OFFSET UNITYSDK_OFFSET(0xE366130)
+#define CMCJGOBHEMN_NHMHMBBMKID_OFFSET UNITYSDK_OFFSET(0xE3660D0)
 
-inline static constexpr unsigned int CMCJGOBHEMN_TypeDefinitionIndex = 65516;
+inline static constexpr unsigned int CMCJGOBHEMN_TypeDefinitionIndex = 67432;
 
 	class CMCJGOBHEMN : public ::System::Object
 	{

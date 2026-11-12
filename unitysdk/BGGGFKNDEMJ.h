@@ -11,31 +11,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IReadOnlyDictionary_2; }
 
-#define BGGGFKNDEMJ_ABGJBFJCJPL_OFFSET UNITYSDK_OFFSET(0x1C5AAF10)
-#define BGGGFKNDEMJ_ACDDHAFNNMF_OFFSET UNITYSDK_OFFSET(0x1C5BEE00)
-#define BGGGFKNDEMJ_AGJBOFHGPDC_OFFSET UNITYSDK_OFFSET(0x1C5BECC0)
-#define BGGGFKNDEMJ_BABIACIBEHA_OFFSET UNITYSDK_OFFSET(0x1C5BED80)
-#define BGGGFKNDEMJ_BNLFIDPDBNC_OFFSET UNITYSDK_OFFSET(0x1C5AE080)
-#define BGGGFKNDEMJ_CNDCBBJNFGJ_OFFSET UNITYSDK_OFFSET(0x1C5AE160)
-#define BGGGFKNDEMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BE320)
-#define BGGGFKNDEMJ_DEBBAOLDJLM_OFFSET UNITYSDK_OFFSET(0x1C5BEA20)
-#define BGGGFKNDEMJ_FNCGIJOMOMO_OFFSET UNITYSDK_OFFSET(0x1C5BE5F0)
-#define BGGGFKNDEMJ_GAJENDFMONO_OFFSET UNITYSDK_OFFSET(0x1C5BE810)
-#define BGGGFKNDEMJ_GET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0x1C5BF1F0)
-#define BGGGFKNDEMJ_HJIAPEGGBNP_OFFSET UNITYSDK_OFFSET(0x1C5BEB20)
-#define BGGGFKNDEMJ_LHPAEHNOBCE_OFFSET UNITYSDK_OFFSET(0x1C5BEBF0)
-#define BGGGFKNDEMJ_SET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0x1C5BF200)
+#define BGGGFKNDEMJ_ABGJBFJCJPL_OFFSET UNITYSDK_OFFSET(0x1D72C790)
+#define BGGGFKNDEMJ_ACDDHAFNNMF_OFFSET UNITYSDK_OFFSET(0x1D740690)
+#define BGGGFKNDEMJ_AGJBOFHGPDC_OFFSET UNITYSDK_OFFSET(0x1D740550)
+#define BGGGFKNDEMJ_BABIACIBEHA_OFFSET UNITYSDK_OFFSET(0x1D740610)
+#define BGGGFKNDEMJ_BNLFIDPDBNC_OFFSET UNITYSDK_OFFSET(0x1D72F900)
+#define BGGGFKNDEMJ_CNDCBBJNFGJ_OFFSET UNITYSDK_OFFSET(0x1D72F9E0)
+#define BGGGFKNDEMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73FBD0)
+#define BGGGFKNDEMJ_DEBBAOLDJLM_OFFSET UNITYSDK_OFFSET(0x1D7402B0)
+#define BGGGFKNDEMJ_FNCGIJOMOMO_OFFSET UNITYSDK_OFFSET(0x1D73FEA0)
+#define BGGGFKNDEMJ_GAJENDFMONO_OFFSET UNITYSDK_OFFSET(0x1D7400C0)
+#define BGGGFKNDEMJ_GET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0x1D740A80)
+#define BGGGFKNDEMJ_HJIAPEGGBNP_OFFSET UNITYSDK_OFFSET(0x1D7403B0)
+#define BGGGFKNDEMJ_LHPAEHNOBCE_OFFSET UNITYSDK_OFFSET(0x1D740480)
+#define BGGGFKNDEMJ_SET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0x1D740A90)
 
-inline static constexpr unsigned int BGGGFKNDEMJ_TypeDefinitionIndex = 37126;
+inline static constexpr unsigned int BGGGFKNDEMJ_TypeDefinitionIndex = 38054;
 
 	class BGGGFKNDEMJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>, ::System::Int32>* FGFFMLILPLP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* MCMPOKENOJC; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* COIAEELHCOJ; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* COIAEELHCOJ; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Object*>* EIKFHBIHLON; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::Int32, ::System::Int32>, ::System::Int32>* FGFFMLILPLP; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Int32>* DPHIHLJEBKF; // 0x28
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LittleGameShare::TeamTowersCore::TeamTowersStatType, ::System::Object*>* EIKFHBIHLON; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::Int32>* MCMPOKENOJC; // 0x30
 		::System::UInt32 _PlayerUID_k__BackingField; // 0x38
 		::System::Void _ctor(::System::UInt32 a1)
 		{

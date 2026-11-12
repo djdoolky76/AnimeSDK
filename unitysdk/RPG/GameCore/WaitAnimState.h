@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class WaitAnimState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC93830)
-#define RPG_GAMECORE_WAITANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC93890)
-#define RPG_GAMECORE_WAITANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC937B0)
+#define RPG_GAMECORE_WAITANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA5F20)
+#define RPG_GAMECORE_WAITANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEA5F80)
+#define RPG_GAMECORE_WAITANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEA5EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitAnimState_TypeDefinitionIndex = 22875;
+	inline static constexpr unsigned int WaitAnimState_TypeDefinitionIndex = 23301;
 
 	class WaitAnimState : public ::RPG::GameCore::TaskConfig
 	{

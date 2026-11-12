@@ -4,17 +4,17 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define KNDKLOHADOG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D0BA3F0)
-#define KNDKLOHADOG_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D0BA400)
-#define KNDKLOHADOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0BA3E0)
+#define KNDKLOHADOG_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E2AE3E0)
+#define KNDKLOHADOG_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1E2AE3F0)
+#define KNDKLOHADOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2AE3D0)
 
-inline static constexpr unsigned int KNDKLOHADOG_TypeDefinitionIndex = 24996;
+inline static constexpr unsigned int KNDKLOHADOG_TypeDefinitionIndex = 25476;
 
 	class KNDKLOHADOG : public ::System::Attribute
 	{
 	public:
-		::System::Object* MNDFOPKBHKP; // 0x10
-		::System::String* EKIJFPIPCKF; // 0x18
+		::System::String* EKIJFPIPCKF; // 0x10
+		::System::Object* MNDFOPKBHKP; // 0x18
 		::System::Boolean FBPIMILLGHI; // 0x20
 		::System::Void _ctor()
 		{

@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TutorialGuideDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALGUIDEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC68F20)
-#define RPG_GAMECORE_TUTORIALGUIDEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC68400)
+#define RPG_GAMECORE_TUTORIALGUIDEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7BBB0)
+#define RPG_GAMECORE_TUTORIALGUIDEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE7B090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialGuideDataRow_TypeDefinitionIndex = 15385;
+	inline static constexpr unsigned int TutorialGuideDataRow_TypeDefinitionIndex = 15541;
 
 	class TutorialGuideDataRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::RPG::GameCore::TutorialPlatformType PlatformType; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::Client::TextID DescText; // 0x20
+		::RPG::Client::TextID DescText; // 0x18
+		::RPG::GameCore::TutorialPlatformType PlatformType; // 0x28
+		::System::UInt32 ID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TUTORIALGUIDEDATAROW_CTOR_OFFSET))(this);

@@ -4,22 +4,23 @@
 namespace RPG::Client { class UIManager; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB5F1D0)
-#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0___HANDLESTAGESETTLE_B__0_OFFSET UNITYSDK_OFFSET(0xDB613F0)
-#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0___HANDLESTAGESETTLE_B__1_OFFSET UNITYSDK_OFFSET(0xDB61580)
-#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0___HANDLESTAGESETTLE_B__2_OFFSET UNITYSDK_OFFSET(0xDB61570)
+#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE5B5980)
+#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0___HANDLESTAGESETTLE_B__0_OFFSET UNITYSDK_OFFSET(0xE5B7B90)
+#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0___HANDLESTAGESETTLE_B__1_OFFSET UNITYSDK_OFFSET(0xE5B7D20)
+#define RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0___HANDLESTAGESETTLE_B__2_OFFSET UNITYSDK_OFFSET(0xE5B7D10)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirModule___c__DisplayClass24_0_TypeDefinitionIndex = 79365;
+	inline static constexpr unsigned int PixAirModule___c__DisplayClass24_0_TypeDefinitionIndex = 82142;
 
 	class PixAirModule___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
 		::System::Action* __9__2; // 0x10
 		::RPG::Client::UIManager* uiManager; // 0x18
-		::System::Single transferStartTime; // 0x20
-		::System::Boolean streamingFinished; // 0x24
+		::System::Boolean streamingFinished; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Single transferStartTime; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET))(this);

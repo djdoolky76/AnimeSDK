@@ -3,22 +3,22 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define OIHNAJFFFKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE94CE0)
-#define OIHNAJFFFKB_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBE94CC0)
-#define OIHNAJFFFKB_GET_ID_OFFSET UNITYSDK_OFFSET(0xBE94C80)
-#define OIHNAJFFFKB_GET_PERCENTAGEVALUE_OFFSET UNITYSDK_OFFSET(0xBE94CA0)
-#define OIHNAJFFFKB_SET_DESC_OFFSET UNITYSDK_OFFSET(0xBE94CD0)
-#define OIHNAJFFFKB_SET_ID_OFFSET UNITYSDK_OFFSET(0xBE94C90)
-#define OIHNAJFFFKB_SET_PERCENTAGEVALUE_OFFSET UNITYSDK_OFFSET(0xBE94CB0)
+#define OIHNAJFFFKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC78AF90)
+#define OIHNAJFFFKB_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC78AF70)
+#define OIHNAJFFFKB_GET_ID_OFFSET UNITYSDK_OFFSET(0xC78AF30)
+#define OIHNAJFFFKB_GET_PERCENTAGEVALUE_OFFSET UNITYSDK_OFFSET(0xC78AF50)
+#define OIHNAJFFFKB_SET_DESC_OFFSET UNITYSDK_OFFSET(0xC78AF80)
+#define OIHNAJFFFKB_SET_ID_OFFSET UNITYSDK_OFFSET(0xC78AF40)
+#define OIHNAJFFFKB_SET_PERCENTAGEVALUE_OFFSET UNITYSDK_OFFSET(0xC78AF60)
 
-inline static constexpr unsigned int OIHNAJFFFKB_TypeDefinitionIndex = 68273;
+inline static constexpr unsigned int OIHNAJFFFKB_TypeDefinitionIndex = 70219;
 
 	class OIHNAJFFFKB : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x10
-		::System::UInt32 _ID_k__BackingField; // 0x20
-		::System::Single _PercentageValue_k__BackingField; // 0x24
+		::System::UInt32 _ID_k__BackingField; // 0x10
+		::System::Single _PercentageValue_k__BackingField; // 0x14
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OIHNAJFFFKB_CTOR_OFFSET))(this);

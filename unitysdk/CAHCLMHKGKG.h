@@ -6,11 +6,11 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class FiveDimSetBillboardInfo; }
 
-#define CAHCLMHKGKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FF010)
-#define CAHCLMHKGKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9FF020)
-#define CAHCLMHKGKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9FEFE0)
+#define CAHCLMHKGKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC9AA0)
+#define CAHCLMHKGKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBC9AB0)
+#define CAHCLMHKGKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBC9A70)
 
-inline static constexpr unsigned int CAHCLMHKGKG_TypeDefinitionIndex = 21478;
+inline static constexpr unsigned int CAHCLMHKGKG_TypeDefinitionIndex = 21823;
 
 	class CAHCLMHKGKG : public ::RPG::GameCore::TaskConfig
 	{

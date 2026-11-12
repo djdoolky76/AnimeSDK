@@ -3,9 +3,9 @@
 #include "unitysdk/LDIMIJBHBPB.h"
 #include "unitysdk/System/Object.h"
 
-#define EPPDPBEBKBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA62FF0)
+#define EPPDPBEBKBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC268A0)
 
-inline static constexpr unsigned int EPPDPBEBKBO_TypeDefinitionIndex = 42292;
+inline static constexpr unsigned int EPPDPBEBKBO_TypeDefinitionIndex = 43267;
 
 	class EPPDPBEBKBO : public ::System::Object
 	{

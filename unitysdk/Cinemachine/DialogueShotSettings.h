@@ -3,17 +3,17 @@
 #include "unitysdk/Cinemachine/EditorViewportComposition.h"
 #include "unitysdk/Cinemachine/ViewportComposition.h"
 
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF9EF00)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE901E50)
 #define CINEMACHINE_DIALOGUESHOTSETTINGS_GET_EDITORCOMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x94F0)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_KMFNLBBPOKK_OFFSET UNITYSDK_OFFSET(0xF0AD0)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xF0A50)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xF0A30)
-#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xF0A40)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_KMFNLBBPOKK_OFFSET UNITYSDK_OFFSET(0xFC1D0)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xFC150)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0xFC130)
+#define CINEMACHINE_DIALOGUESHOTSETTINGS_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0xFC140)
 #define CINEMACHINE_DIALOGUESHOTSETTINGS_SET_EDITORCOMPOSITIONS_OFFSET UNITYSDK_OFFSET(0x9500)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int DialogueShotSettings_TypeDefinitionIndex = 49634;
+	inline static constexpr unsigned int DialogueShotSettings_TypeDefinitionIndex = 50710;
 
 	struct alignas(8) DialogueShotSettings
 	{
@@ -24,7 +24,7 @@ namespace Cinemachine
 		::Il2CppArray<::Cinemachine::EditorViewportComposition>* _EditorCompositions_k__BackingField; // 0x28
 		static ::Cinemachine::DialogueShotSettings* StaticGet_Default()
 		{
-			return (::Cinemachine::DialogueShotSettings*)UnitySDK::FromName("Cinemachine", "DialogueShotSettings")->GetStaticField(0x58940);
+			return (::Cinemachine::DialogueShotSettings*)UnitySDK::FromName("Cinemachine", "DialogueShotSettings")->GetStaticField(0x42D90);
 		}
 
 		static ::System::Void _cctor()

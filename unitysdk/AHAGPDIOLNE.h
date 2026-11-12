@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleByHitLeft; }
 
-#define AHAGPDIOLNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88D6C0)
-#define AHAGPDIOLNE_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C88D6E0)
+#define AHAGPDIOLNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA0EDB0)
+#define AHAGPDIOLNE_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1DA0EDD0)
 
-inline static constexpr unsigned int AHAGPDIOLNE_TypeDefinitionIndex = 43150;
+inline static constexpr unsigned int AHAGPDIOLNE_TypeDefinitionIndex = 44131;
 
 	class AHAGPDIOLNE : public ::LHJPMDPJPEC
 	{

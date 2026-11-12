@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_KHIAAPEMPMN_TypeDefinitionIndex = 81527;
+	inline static constexpr unsigned int ChallengeTierceNodeVariantListControl_KHIAAPEMPMN_TypeDefinitionIndex = 84308;
 
 	class ChallengeTierceNodeVariantListControl_KHIAAPEMPMN
 	{

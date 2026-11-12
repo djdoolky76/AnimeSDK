@@ -5,31 +5,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2DF7B0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2DF7E0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1F2DF7F0)
-#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x1F2DF920)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20590620)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20590650)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_0_OFFSET UNITYSDK_OFFSET(0x20590660)
+#define UNITYENGINE_RENDERING_VOLUMECOMPONENT___C__ONENABLE_B__10_1_OFFSET UNITYSDK_OFFSET(0x20590790)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumeComponent___c_TypeDefinitionIndex = 35618;
+	inline static constexpr unsigned int VolumeComponent___c_TypeDefinitionIndex = 36546;
 
 	class VolumeComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x4B740);
-		}
-
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Int32>** StaticGet___9__10_1()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x4B748);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Int32>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5BDC0);
 		}
 
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x4B750);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5BDC8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x5BDD0);
 		}
 
 		static ::System::Void _cctor()

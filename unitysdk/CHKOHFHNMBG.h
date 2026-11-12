@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int CHKOHFHNMBG_TypeDefinitionIndex = 49839;
+inline static constexpr unsigned int CHKOHFHNMBG_TypeDefinitionIndex = 50887;
 
 	class CHKOHFHNMBG : public ::System::Object
 	{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CloneWeakness; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CLONEWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C7570)
-#define RPG_GAMECORE_CLONEWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5C7580)
-#define RPG_GAMECORE_CLONEWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5C7530)
+#define RPG_GAMECORE_CLONEWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D7300)
+#define RPG_GAMECORE_CLONEWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7D7310)
+#define RPG_GAMECORE_CLONEWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7D72C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CloneWeakness_TypeDefinitionIndex = 23077;
+	inline static constexpr unsigned int CloneWeakness_TypeDefinitionIndex = 23506;
 
 	class CloneWeakness : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IFLICGOLBIG_DiceCombatDicePlayerOutlineType_TypeDefinitionIndex = 60316;
+inline static constexpr unsigned int IFLICGOLBIG_DiceCombatDicePlayerOutlineType_TypeDefinitionIndex = 61601;
 
 	enum class IFLICGOLBIG_DiceCombatDicePlayerOutlineType : ::System::Int32
 	{

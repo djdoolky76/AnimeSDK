@@ -4,12 +4,12 @@
 class CJEEJFDPPNG;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS169_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE7A4020)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS169_0___REARRANGEPUPPETCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0xE7A5680)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS169_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF2A76A0)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__DISPLAYCLASS169_0___REARRANGEPUPPETCHARACTERS_B__0_OFFSET UNITYSDK_OFFSET(0xF2A76B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent___c__DisplayClass169_0_TypeDefinitionIndex = 57711;
+	inline static constexpr unsigned int TeamFormationComponent___c__DisplayClass169_0_TypeDefinitionIndex = 58944;
 
 	class TeamFormationComponent___c__DisplayClass169_0 : public ::System::Object
 	{

@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_COROUTINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC40B60)
-#define RPG_CLIENT_COROUTINEBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1EC409C0)
-#define RPG_CLIENT_COROUTINEBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EC40700)
+#define RPG_CLIENT_COROUTINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEF1620)
+#define RPG_CLIENT_COROUTINEBEHAVIOUR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1FEF1480)
+#define RPG_CLIENT_COROUTINEBEHAVIOUR_UPDATE_OFFSET UNITYSDK_OFFSET(0x1FEF11C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CoroutineBehaviour_TypeDefinitionIndex = 35222;
+	inline static constexpr unsigned int CoroutineBehaviour_TypeDefinitionIndex = 36150;
 
 	class CoroutineBehaviour : public ::UnityEngine::MonoBehaviour
 	{

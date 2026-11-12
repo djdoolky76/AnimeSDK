@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleEnemyHudHideType_TypeDefinitionIndex = 80861;
+	inline static constexpr unsigned int FateRinBattleEnemyHudHideType_TypeDefinitionIndex = 83641;
 
 	enum class FateRinBattleEnemyHudHideType : ::System::Int32
 	{

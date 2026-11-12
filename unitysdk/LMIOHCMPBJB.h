@@ -4,17 +4,17 @@
 class IFBFJDCECML;
 class PBGNKMMDBGD;
 
-#define LMIOHCMPBJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C740C00)
-#define LMIOHCMPBJB_LGFFNMEJEDL_OFFSET UNITYSDK_OFFSET(0x1C70F220)
+#define LMIOHCMPBJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C2570)
+#define LMIOHCMPBJB_LGFFNMEJEDL_OFFSET UNITYSDK_OFFSET(0x1D890BD0)
 
-inline static constexpr unsigned int LMIOHCMPBJB_TypeDefinitionIndex = 37420;
+inline static constexpr unsigned int LMIOHCMPBJB_TypeDefinitionIndex = 38348;
 
 	class LMIOHCMPBJB : public ::System::Object
 	{
 	public:
 		::PBGNKMMDBGD* PDENFEFCAGN; // 0x10
-		::System::Int32 GAGPDMNFPLC; // 0x18
-		::System::Int32 DKBABENHHKN; // 0x1C
+		::System::Int32 DKBABENHHKN; // 0x18
+		::System::Int32 GAGPDMNFPLC; // 0x1C
 		::System::Void _ctor(::System::Int32 a1, ::PBGNKMMDBGD* a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::PBGNKMMDBGD*, ::System::Int32))((::PBYTE)hIl2Cpp + LMIOHCMPBJB_CTOR_OFFSET))(this, a1, a2, a3);

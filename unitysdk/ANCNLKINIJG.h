@@ -4,11 +4,11 @@ namespace RPG::Client { class RogueTournCollectionInfo; }
 namespace RPG::GameCore { class ByIsRogueTournCollectionDisplayingCollection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ANCNLKINIJG_CTOR_OFFSET UNITYSDK_OFFSET(0x15592670)
-#define ANCNLKINIJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155926A0)
-#define ANCNLKINIJG_OMJDPKMFKOA_OFFSET UNITYSDK_OFFSET(0x15592AC0)
+#define ANCNLKINIJG_CTOR_OFFSET UNITYSDK_OFFSET(0x166FAEC0)
+#define ANCNLKINIJG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x166FAEF0)
+#define ANCNLKINIJG_OMJDPKMFKOA_OFFSET UNITYSDK_OFFSET(0x166FB310)
 
-inline static constexpr unsigned int ANCNLKINIJG_TypeDefinitionIndex = 57984;
+inline static constexpr unsigned int ANCNLKINIJG_TypeDefinitionIndex = 59223;
 
 	class ANCNLKINIJG
 	{

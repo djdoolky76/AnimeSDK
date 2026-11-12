@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__DISPLAYCLASS104_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEF0CF0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__DISPLAYCLASS104_0__ADDBUTTONCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1BEF0E70)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__DISPLAYCLASS104_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0777F0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDEMAILBINDINGDIALOG___C__DISPLAYCLASS104_0__ADDBUTTONCLICK_B__0_OFFSET UNITYSDK_OFFSET(0x1D077970)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldEmailBindingDialog___c__DisplayClass104_0_TypeDefinitionIndex = 8812;
+	inline static constexpr unsigned int HandheldEmailBindingDialog___c__DisplayClass104_0_TypeDefinitionIndex = 8821;
 
 	class HandheldEmailBindingDialog___c__DisplayClass104_0 : public ::System::Object
 	{

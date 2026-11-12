@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ListView; }
 
-inline static constexpr unsigned int EIGPFLCGKAH___c__DisplayClass4_0_TypeDefinitionIndex = 49797;
+inline static constexpr unsigned int EIGPFLCGKAH___c__DisplayClass4_0_TypeDefinitionIndex = 50845;
 
 	class EIGPFLCGKAH___c__DisplayClass4_0 : public ::System::Object
 	{

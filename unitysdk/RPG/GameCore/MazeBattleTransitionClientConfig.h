@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeBattleTransitionClientConfig; }
 
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCLIENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85F970)
-#define RPG_GAMECORE_MAZEBATTLETRANSITIONCLIENTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D85F700)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCLIENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7A1C0)
+#define RPG_GAMECORE_MAZEBATTLETRANSITIONCLIENTCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA79F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBattleTransitionClientConfig_TypeDefinitionIndex = 17621;
+	inline static constexpr unsigned int MazeBattleTransitionClientConfig_TypeDefinitionIndex = 17790;
 
 	class MazeBattleTransitionClientConfig : public ::RPG::GameCore::JsonConfig
 	{

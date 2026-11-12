@@ -4,12 +4,12 @@
 #include "unitysdk/System/Runtime/CompilerServices/TaskAwaiter.h"
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C34570)
-#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B60)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3E83510)
+#define RPG_CUSTOMRP_DLSSPASS__WARMUP_D__4_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0xF5000)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 37564;
+	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 38492;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	struct alignas(4) DLSSPass__Warmup_d__4

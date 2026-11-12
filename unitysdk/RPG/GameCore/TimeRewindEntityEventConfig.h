@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindEntityEventConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB88190)
-#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB87F70)
+#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE37430)
+#define RPG_GAMECORE_TIMEREWINDENTITYEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE37210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindEntityEventConfig_TypeDefinitionIndex = 16602;
+	inline static constexpr unsigned int TimeRewindEntityEventConfig_TypeDefinitionIndex = 16768;
 
 	class TimeRewindEntityEventConfig : public ::RPG::GameCore::JsonConfig
 	{

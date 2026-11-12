@@ -7,27 +7,27 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CHHGDAFEKKD_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xCF4ABB0)
-#define CHHGDAFEKKD_AHBJHKPHOKC_OFFSET UNITYSDK_OFFSET(0xCF4ACE0)
-#define CHHGDAFEKKD_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF4AE10)
-#define CHHGDAFEKKD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF4AE00)
-#define CHHGDAFEKKD_DBCJCOGGODF_OFFSET UNITYSDK_OFFSET(0xCF4A740)
-#define CHHGDAFEKKD_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0xCF4A1E0)
-#define CHHGDAFEKKD_KADJIDHNIEM_OFFSET UNITYSDK_OFFSET(0xCF4A550)
+#define CHHGDAFEKKD_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xD8B2DE0)
+#define CHHGDAFEKKD_AHBJHKPHOKC_OFFSET UNITYSDK_OFFSET(0xD8B2F10)
+#define CHHGDAFEKKD_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8B3040)
+#define CHHGDAFEKKD_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B3030)
+#define CHHGDAFEKKD_DBCJCOGGODF_OFFSET UNITYSDK_OFFSET(0xD8B2970)
+#define CHHGDAFEKKD_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0xD8B2410)
+#define CHHGDAFEKKD_KADJIDHNIEM_OFFSET UNITYSDK_OFFSET(0xD8B2780)
 
-inline static constexpr unsigned int CHHGDAFEKKD_TypeDefinitionIndex = 48643;
+inline static constexpr unsigned int CHHGDAFEKKD_TypeDefinitionIndex = 49685;
 
 	class CHHGDAFEKKD : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_DEIAMJBMIJC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x2D5A0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x14F70);
 		}
 
 		static ::System::Int32* StaticGet_BJFDNCIIEJH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x93C0);
+			return (::System::Int32*)UnitySDK::FromName("", "CHHGDAFEKKD")->GetStaticField(0x4640);
 		}
 
 		::System::Void _ctor()

@@ -7,21 +7,21 @@ namespace RPG::GameCore { class LevelPedestrianInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKCBJBGMPNC_ACDGPABGIFE_OFFSET UNITYSDK_OFFSET(0x12CCA670)
-#define AKCBJBGMPNC_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCA460)
-#define AKCBJBGMPNC_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x12CCA7C0)
-#define AKCBJBGMPNC_FFEOOBGDLCN_OFFSET UNITYSDK_OFFSET(0x12CCAAC0)
-#define AKCBJBGMPNC_KDJANOAPAFO_OFFSET UNITYSDK_OFFSET(0x12CCA9D0)
-#define AKCBJBGMPNC_OODNNFMLDCH_OFFSET UNITYSDK_OFFSET(0x12CCA890)
+#define AKCBJBGMPNC_ACDGPABGIFE_OFFSET UNITYSDK_OFFSET(0x12DB0DB0)
+#define AKCBJBGMPNC_CTOR_OFFSET UNITYSDK_OFFSET(0x12DB0BA0)
+#define AKCBJBGMPNC_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x12DB0F00)
+#define AKCBJBGMPNC_FFEOOBGDLCN_OFFSET UNITYSDK_OFFSET(0x12DB11F0)
+#define AKCBJBGMPNC_KDJANOAPAFO_OFFSET UNITYSDK_OFFSET(0x12DB1100)
+#define AKCBJBGMPNC_OODNNFMLDCH_OFFSET UNITYSDK_OFFSET(0x12DB0FD0)
 
-inline static constexpr unsigned int AKCBJBGMPNC_TypeDefinitionIndex = 69223;
+inline static constexpr unsigned int AKCBJBGMPNC_TypeDefinitionIndex = 71177;
 
 	class AKCBJBGMPNC : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::LevelPedestrianInfo*>* HMFAHECCONK; // 0x10
-		::System::Collections::Generic::List_1<::KBGKAMMKDCE*>* EGMMEMMOBCE; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::KBGKAMMKDCE*>* OCJJJIFPIBE; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::KBGKAMMKDCE*>* OCJJJIFPIBE; // 0x10
+		::Il2CppArray<::RPG::GameCore::LevelPedestrianInfo*>* HMFAHECCONK; // 0x18
+		::System::Collections::Generic::List_1<::KBGKAMMKDCE*>* EGMMEMMOBCE; // 0x20
 		::System::Int32 CAJFLBCFGLD; // 0x28
 		::System::UInt32 MJPPOIHKCCB; // 0x2C
 		::System::Void _ctor(::System::UInt32 a1, ::Il2CppArray<::RPG::GameCore::LevelPedestrianInfo*>* a2)

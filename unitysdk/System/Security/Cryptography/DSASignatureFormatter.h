@@ -3,7 +3,7 @@
 #include "unitysdk/System/Security/Cryptography/AsymmetricSignatureFormatter.h"
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C358F90)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DF740)
 
 namespace System::Security::Cryptography
 {

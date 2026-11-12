@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerReturnAssistConfigRow; }
 
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D937670)
-#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9374C0)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB50760)
+#define RPG_GAMECORE_PLAYERRETURNASSISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB505B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 14542;
+	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 14697;
 
 	class PlayerReturnAssistConfigRow : public ::System::Object
 	{

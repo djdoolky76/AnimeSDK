@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeliobusPostTypeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7636B0)
-#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D762FE0)
+#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9770B0)
+#define RPG_GAMECORE_HELIOBUSPOSTTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9769E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusPostTypeConfigRow_TypeDefinitionIndex = 13755;
+	inline static constexpr unsigned int HeliobusPostTypeConfigRow_TypeDefinitionIndex = 13912;
 
 	class HeliobusPostTypeConfigRow : public ::System::Object
 	{

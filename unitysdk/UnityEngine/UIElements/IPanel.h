@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IPanel_TypeDefinitionIndex = 5888;
+	inline static constexpr unsigned int IPanel_TypeDefinitionIndex = 5896;
 
 	class IPanel
 	{

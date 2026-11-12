@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetWaypointSafeZone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADAGAKBMIML_CTOR_OFFSET UNITYSDK_OFFSET(0xB1339D0)
-#define ADAGAKBMIML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB133A00)
+#define ADAGAKBMIML_CTOR_OFFSET UNITYSDK_OFFSET(0xB79A830)
+#define ADAGAKBMIML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB79A860)
 
-inline static constexpr unsigned int ADAGAKBMIML_TypeDefinitionIndex = 58592;
+inline static constexpr unsigned int ADAGAKBMIML_TypeDefinitionIndex = 59857;
 
 	class ADAGAKBMIML
 	{

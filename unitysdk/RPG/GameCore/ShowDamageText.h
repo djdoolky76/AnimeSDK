@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShowDamageText; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWDAMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADA330)
-#define RPG_GAMECORE_SHOWDAMAGETEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DADA340)
-#define RPG_GAMECORE_SHOWDAMAGETEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DADA300)
+#define RPG_GAMECORE_SHOWDAMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEC150)
+#define RPG_GAMECORE_SHOWDAMAGETEXT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECEC160)
+#define RPG_GAMECORE_SHOWDAMAGETEXT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECEC120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowDamageText_TypeDefinitionIndex = 23560;
+	inline static constexpr unsigned int ShowDamageText_TypeDefinitionIndex = 24006;
 
 	class ShowDamageText : public ::RPG::GameCore::TaskConfig
 	{

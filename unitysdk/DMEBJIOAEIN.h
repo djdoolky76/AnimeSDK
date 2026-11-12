@@ -4,10 +4,10 @@
 class NMBCOGABNMC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMEBJIOAEIN_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBA2E0)
-#define DMEBJIOAEIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEBA3C0)
+#define DMEBJIOAEIN_CTOR_OFFSET UNITYSDK_OFFSET(0x10632A20)
+#define DMEBJIOAEIN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10632B00)
 
-inline static constexpr unsigned int DMEBJIOAEIN_TypeDefinitionIndex = 55722;
+inline static constexpr unsigned int DMEBJIOAEIN_TypeDefinitionIndex = 56924;
 
 	class DMEBJIOAEIN
 	{

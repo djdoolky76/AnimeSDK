@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FEBIKJPCACK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDDFE90)
-#define FEBIKJPCACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDE0410)
-#define FEBIKJPCACK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CDE0000)
-#define FEBIKJPCACK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CDDF940)
-#define FEBIKJPCACK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CDDFBD0)
-#define FEBIKJPCACK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CDE00A0)
-#define FEBIKJPCACK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CDE00F0)
-#define FEBIKJPCACK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CDDFED0)
-#define FEBIKJPCACK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CDDFB70)
-#define FEBIKJPCACK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CDDFD00)
-#define FEBIKJPCACK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDDFF60)
-#define FEBIKJPCACK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDDF8C0)
+#define FEBIKJPCACK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DFB8060)
+#define FEBIKJPCACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFB85E0)
+#define FEBIKJPCACK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DFB81D0)
+#define FEBIKJPCACK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DFB7B10)
+#define FEBIKJPCACK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DFB7DA0)
+#define FEBIKJPCACK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DFB8270)
+#define FEBIKJPCACK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DFB82C0)
+#define FEBIKJPCACK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DFB80A0)
+#define FEBIKJPCACK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DFB7D40)
+#define FEBIKJPCACK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DFB7ED0)
+#define FEBIKJPCACK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DFB8130)
+#define FEBIKJPCACK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DFB7A90)
 
-inline static constexpr unsigned int FEBIKJPCACK_TypeDefinitionIndex = 12336;
+inline static constexpr unsigned int FEBIKJPCACK_TypeDefinitionIndex = 12403;
 
 	class FEBIKJPCACK : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRelicBoxQuestConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRelicBoxQuestConfigRow*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x41C90);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x10BA0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x41C98);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x10BA8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRelicBoxQuestConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityRelicBoxQuestConfigRow*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x10BB0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x3890);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x41CA0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0x3891);
+			return (::System::Byte*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0xE000);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "FEBIKJPCACK")->GetStaticField(0xE001);
 		}
 
 		static ::System::Void _cctor()

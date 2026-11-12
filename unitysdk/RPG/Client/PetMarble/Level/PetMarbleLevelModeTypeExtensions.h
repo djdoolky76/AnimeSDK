@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/GameCore/PetMarbleLevelMode.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODETYPEEXTENSIONS_TOCLIENT_OFFSET UNITYSDK_OFFSET(0xDAD1020)
-#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODETYPEEXTENSIONS_TOGAMECORE_OFFSET UNITYSDK_OFFSET(0xDAD1070)
+#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODETYPEEXTENSIONS_TOCLIENT_OFFSET UNITYSDK_OFFSET(0xE526C10)
+#define RPG_CLIENT_PETMARBLE_LEVEL_PETMARBLELEVELMODETYPEEXTENSIONS_TOGAMECORE_OFFSET UNITYSDK_OFFSET(0xE526C60)
 
 namespace RPG::Client::PetMarble::Level
 {
-	inline static constexpr unsigned int PetMarbleLevelModeTypeExtensions_TypeDefinitionIndex = 74748;
+	inline static constexpr unsigned int PetMarbleLevelModeTypeExtensions_TypeDefinitionIndex = 76896;
 
 	class PetMarbleLevelModeTypeExtensions : public ::System::Object
 	{

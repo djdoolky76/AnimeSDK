@@ -5,21 +5,21 @@ namespace MiHoYo::SDK { class MiHoYoSDKBrowser; }
 namespace MiHoYo::SDK { class MiHoYoSDKBrowserManager; }
 namespace UnityEngine { class Transform; }
 
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CREATEBROWSER_OFFSET UNITYSDK_OFFSET(0xAFC9910)
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC9900)
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_DESTORY_OFFSET UNITYSDK_OFFSET(0xAFC9A20)
-#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0xAFC9890)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CREATEBROWSER_OFFSET UNITYSDK_OFFSET(0xB62AC00)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xB62ABF0)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_DESTORY_OFFSET UNITYSDK_OFFSET(0xB62AD10)
+#define MIHOYO_SDK_MIHOYOSDKBROWSERMANAGER_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB62AB80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKBrowserManager_TypeDefinitionIndex = 46462;
+	inline static constexpr unsigned int MiHoYoSDKBrowserManager_TypeDefinitionIndex = 47490;
 
 	class MiHoYoSDKBrowserManager : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::MiHoYoSDKBrowserManager** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKBrowserManager**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKBrowserManager")->GetStaticField(0x25A30);
+			return (::MiHoYo::SDK::MiHoYoSDKBrowserManager**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKBrowserManager")->GetStaticField(0x203F0);
 		}
 
 		// static const ::System::String* BrowserPath; // 0x0

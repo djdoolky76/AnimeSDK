@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CEFLOOJMCOO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9D5710)
-#define CEFLOOJMCOO_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0xC9D5350)
+#define CEFLOOJMCOO_CTOR_OFFSET UNITYSDK_OFFSET(0xD0F14A0)
+#define CEFLOOJMCOO_PAKFEFGCHFM_OFFSET UNITYSDK_OFFSET(0xD0F10E0)
 
-inline static constexpr unsigned int CEFLOOJMCOO_TypeDefinitionIndex = 56083;
+inline static constexpr unsigned int CEFLOOJMCOO_TypeDefinitionIndex = 57295;
 
 	class CEFLOOJMCOO : public ::System::Object
 	{
@@ -14,11 +14,11 @@ inline static constexpr unsigned int CEFLOOJMCOO_TypeDefinitionIndex = 56083;
 		::System::Collections::Generic::List_1<::System::UInt32>* HPAEMDIADDL; // 0x10
 		::System::UInt32 FICENPFBEBB; // 0x18
 		::System::UInt32 OGBEHKGJFAF; // 0x1C
-		::System::UInt32 GEPHKCPLAJF; // 0x20
-		::System::UInt32 JKHKAADJAEN; // 0x24
+		::System::UInt32 JKHKAADJAEN; // 0x20
+		::System::UInt32 GEPHKCPLAJF; // 0x24
 		static ::Il2CppArray<::System::Byte>** StaticGet_DMMAEFCLCHK()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "CEFLOOJMCOO")->GetStaticField(0x19E10);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("", "CEFLOOJMCOO")->GetStaticField(0x73C90);
 		}
 
 		// static const ::System::Object DIAMHJPOGOH; // 0x0

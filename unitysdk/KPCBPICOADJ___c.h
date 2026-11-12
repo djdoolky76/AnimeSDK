@@ -4,18 +4,18 @@
 class KPCBPICOADJ;
 namespace System { class Object; }
 
-#define KPCBPICOADJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8B7B10)
-#define KPCBPICOADJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B7B40)
-#define KPCBPICOADJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8B7B50)
+#define KPCBPICOADJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBF4540)
+#define KPCBPICOADJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF4570)
+#define KPCBPICOADJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FBF4580)
 
-inline static constexpr unsigned int KPCBPICOADJ___c_TypeDefinitionIndex = 30910;
+inline static constexpr unsigned int KPCBPICOADJ___c_TypeDefinitionIndex = 31823;
 
 	class KPCBPICOADJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C490);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FBA0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,19 +6,19 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ST_Side_LookAtTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JIIMNBFGGKC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FB630)
-#define JIIMNBFGGKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1FB780)
-#define JIIMNBFGGKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1FB8A0)
-#define JIIMNBFGGKC_TICK_OFFSET UNITYSDK_OFFSET(0xB1FB7D0)
+#define JIIMNBFGGKC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA1D580)
+#define JIIMNBFGGKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA1D6D0)
+#define JIIMNBFGGKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA1D7F0)
+#define JIIMNBFGGKC_TICK_OFFSET UNITYSDK_OFFSET(0xBA1D720)
 
-inline static constexpr unsigned int JIIMNBFGGKC_TypeDefinitionIndex = 52238;
+inline static constexpr unsigned int JIIMNBFGGKC_TypeDefinitionIndex = 53344;
 
 	class JIIMNBFGGKC
 	{
 	public:
-		::EFHJJIGLPDL* AKEHBGMFJIF; // 0x28
+		::RPG::GameCore::GameEntity* PIJPEKHJHHI; // 0x28
 		::PKBOEALAKCM* LNCOFKLGDJG; // 0x30
-		::RPG::GameCore::GameEntity* PIJPEKHJHHI; // 0x38
+		::EFHJJIGLPDL* AKEHBGMFJIF; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_LookAtTarget* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Side_LookAtTarget*))((::PBYTE)hIl2Cpp + JIIMNBFGGKC_CTOR_OFFSET))(this, a1, a2);

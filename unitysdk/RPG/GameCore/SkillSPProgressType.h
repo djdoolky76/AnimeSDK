@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillSPProgressType_TypeDefinitionIndex = 18175;
+	inline static constexpr unsigned int SkillSPProgressType_TypeDefinitionIndex = 18337;
 
 	enum class SkillSPProgressType : ::System::Int32
 	{
@@ -22,5 +22,6 @@ namespace RPG::GameCore
 		Cyrene = 12,
 		HimekoNova = 13,
 		AsatPramadBomb = 14,
+		Nihilux = 15,
 	};
 }

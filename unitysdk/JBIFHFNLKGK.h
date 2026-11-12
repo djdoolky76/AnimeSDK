@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialLockPlayerAction; }
 
-#define JBIFHFNLKGK_CTOR_OFFSET UNITYSDK_OFFSET(0x16570C90)
-#define JBIFHFNLKGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16570CC0)
+#define JBIFHFNLKGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A9C80)
+#define JBIFHFNLKGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8A9CB0)
 
-inline static constexpr unsigned int JBIFHFNLKGK_TypeDefinitionIndex = 58825;
+inline static constexpr unsigned int JBIFHFNLKGK_TypeDefinitionIndex = 60093;
 
 	class JBIFHFNLKGK
 	{

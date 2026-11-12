@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SyncDitherWithTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBOEKBEKDED_CTOR_OFFSET UNITYSDK_OFFSET(0x15E9AB10)
-#define BBOEKBEKDED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E9AB40)
+#define BBOEKBEKDED_CTOR_OFFSET UNITYSDK_OFFSET(0x17092F00)
+#define BBOEKBEKDED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17092F30)
 
-inline static constexpr unsigned int BBOEKBEKDED_TypeDefinitionIndex = 58762;
+inline static constexpr unsigned int BBOEKBEKDED_TypeDefinitionIndex = 60030;
 
 	class BBOEKBEKDED
 	{

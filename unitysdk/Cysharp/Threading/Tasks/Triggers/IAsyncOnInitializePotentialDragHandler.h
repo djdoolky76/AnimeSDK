@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnInitializePotentialDragHandler_TypeDefinitionIndex = 38630;
+	inline static constexpr unsigned int IAsyncOnInitializePotentialDragHandler_TypeDefinitionIndex = 39559;
 
 	class IAsyncOnInitializePotentialDragHandler
 	{

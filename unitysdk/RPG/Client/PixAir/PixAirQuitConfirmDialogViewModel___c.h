@@ -5,43 +5,43 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB68720)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB68760)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_1_OFFSET UNITYSDK_OFFSET(0xDB689A0)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_2_OFFSET UNITYSDK_OFFSET(0xDB68BD0)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_3_OFFSET UNITYSDK_OFFSET(0xDB68E00)
-#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_4_OFFSET UNITYSDK_OFFSET(0xDB68770)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5BF520)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5BF560)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_1_OFFSET UNITYSDK_OFFSET(0xE5BF7A0)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_2_OFFSET UNITYSDK_OFFSET(0xE5BF9D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_3_OFFSET UNITYSDK_OFFSET(0xE5BFC00)
+#define RPG_CLIENT_PIXAIR_PIXAIRQUITCONFIRMDIALOGVIEWMODEL___C__CREATE_B__28_4_OFFSET UNITYSDK_OFFSET(0xE5BF570)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex = 79385;
+	inline static constexpr unsigned int PixAirQuitConfirmDialogViewModel___c_TypeDefinitionIndex = 82162;
 
 	class PixAirQuitConfirmDialogViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__28_1()
-		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x2C4F0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x2C4F8);
-		}
-
-		static ::System::Func_1<::System::Boolean>** StaticGet___9__28_3()
-		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x2C500);
-		}
-
 		static ::System::Func_1<::System::Boolean>** StaticGet___9__28_2()
 		{
-			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x2C508);
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x39330);
+		}
+
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__28_1()
+		{
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x39338);
 		}
 
 		static ::System::Action** StaticGet___9__28_4()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x2C510);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x39340);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x39348);
+		}
+
+		static ::System::Func_1<::System::Boolean>** StaticGet___9__28_3()
+		{
+			return (::System::Func_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x39350);
 		}
 
 		static ::System::Void _cctor()

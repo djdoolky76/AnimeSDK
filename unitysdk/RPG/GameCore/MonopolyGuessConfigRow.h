@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonopolyGuessConfigRow; }
 
-#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8A16C0)
-#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8A1580)
+#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EABBA10)
+#define RPG_GAMECORE_MONOPOLYGUESSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EABB8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyGuessConfigRow_TypeDefinitionIndex = 12079;
+	inline static constexpr unsigned int MonopolyGuessConfigRow_TypeDefinitionIndex = 12136;
 
 	class MonopolyGuessConfigRow : public ::System::Object
 	{

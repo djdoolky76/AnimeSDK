@@ -4,6 +4,7 @@
 #include "unitysdk/UnityEngine/Rendering/AOSetting.h"
 #include "unitysdk/UnityEngine/Rendering/AdaptiveTessellationSettings.h"
 #include "unitysdk/UnityEngine/Rendering/AmbientVolumneData.h"
+#include "unitysdk/UnityEngine/Rendering/AstraFXSettings.h"
 #include "unitysdk/UnityEngine/Rendering/ClusterLightingSettings.h"
 #include "unitysdk/UnityEngine/Rendering/DLSSData.h"
 #include "unitysdk/UnityEngine/Rendering/DepthCopyFlag.h"
@@ -25,7 +26,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4866;
+	inline static constexpr unsigned int CRPipelineAsset_TypeDefinitionIndex = 4871;
 
 	struct alignas(4) CRPipelineAsset
 	{
@@ -171,7 +172,8 @@ namespace UnityEngine::Rendering
 		::UnityEngine::Rendering::ClusterLightingSettings clusterSettings; // 0x5B0
 		::UnityEngine::Rendering::VoxelIrradianceCacheSettings voxelIrradianceCacheSettings; // 0x5D0
 		::UnityEngine::Rendering::AdaptiveTessellationSettings adaptiveTessellationSettings; // 0x5E0
-		::System::Byte _padding2[0x4];
+		::UnityEngine::Rendering::AstraFXSettings astraFXSettings; // 0x5EC
+		::System::Byte _padding2[0x2];
 		::UnityEngine::Rendering::DLSSData dlssData; // 0x5F0
 		::UnityEngine::Rendering::DepthCopyFlag forwardDepthCopyFlag; // 0x620
 		::System::Int32 minInstanceCountAsyncFill; // 0x624

@@ -4,18 +4,18 @@
 class NJABIIKAJEK;
 namespace System { class Object; }
 
-#define NJABIIKAJEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB3A3B0)
-#define NJABIIKAJEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB3A3F0)
-#define NJABIIKAJEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB3A400)
+#define NJABIIKAJEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0229E0)
+#define NJABIIKAJEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F022A20)
+#define NJABIIKAJEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F022A30)
 
-inline static constexpr unsigned int NJABIIKAJEK___c_TypeDefinitionIndex = 30013;
+inline static constexpr unsigned int NJABIIKAJEK___c_TypeDefinitionIndex = 30911;
 
 	class NJABIIKAJEK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64A90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D0B0);
 		}
 
 		static ::System::Void _cctor()

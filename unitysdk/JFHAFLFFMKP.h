@@ -3,24 +3,24 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define JFHAFLFFMKP_AMOHJEFHMPA_OFFSET UNITYSDK_OFFSET(0x1EC31160)
-#define JFHAFLFFMKP_FHFOJIKGJKO_OFFSET UNITYSDK_OFFSET(0x1EC31100)
-#define JFHAFLFFMKP_GKKBJJJFBHP_OFFSET UNITYSDK_OFFSET(0x1EC31060)
-#define JFHAFLFFMKP_HNHPLIKFGFB_OFFSET UNITYSDK_OFFSET(0x1EC310B0)
+#define JFHAFLFFMKP_AMOHJEFHMPA_OFFSET UNITYSDK_OFFSET(0x1FEE1BE0)
+#define JFHAFLFFMKP_FHFOJIKGJKO_OFFSET UNITYSDK_OFFSET(0x1FEE1B80)
+#define JFHAFLFFMKP_GKKBJJJFBHP_OFFSET UNITYSDK_OFFSET(0x1FEE1AE0)
+#define JFHAFLFFMKP_HNHPLIKFGFB_OFFSET UNITYSDK_OFFSET(0x1FEE1B30)
 
-inline static constexpr unsigned int JFHAFLFFMKP_TypeDefinitionIndex = 35311;
+inline static constexpr unsigned int JFHAFLFFMKP_TypeDefinitionIndex = 36239;
 
 	class JFHAFLFFMKP : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_CFKKJMNCPLP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "JFHAFLFFMKP")->GetStaticField(0x11F80);
-		}
-
 		static ::System::Int32* StaticGet_FNDEDLLABNP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JFHAFLFFMKP")->GetStaticField(0x11F84);
+			return (::System::Int32*)UnitySDK::FromName("", "JFHAFLFFMKP")->GetStaticField(0x10800);
+		}
+
+		static ::System::Int32* StaticGet_CFKKJMNCPLP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "JFHAFLFFMKP")->GetStaticField(0x10804);
 		}
 
 		static ::System::Int32 GKKBJJJFBHP(::System::String* a1)

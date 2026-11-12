@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEDATA_PATHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D09E0)
+#define RPGTOOLS_TIMELINE_CHARACTERSTORYMOVEDATA_PATHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xF3AA1F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStoryMoveData_PathPoint_TypeDefinitionIndex = 48004;
+	inline static constexpr unsigned int CharacterStoryMoveData_PathPoint_TypeDefinitionIndex = 49035;
 
 	class CharacterStoryMoveData_PathPoint : public ::System::Object
 	{

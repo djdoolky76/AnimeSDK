@@ -5,33 +5,33 @@ namespace System { class String; }
 namespace System::Security::Cryptography { class ICryptoTransform; }
 namespace System::Security::Cryptography { class RijndaelManaged; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCDECRYPT_OFFSET UNITYSDK_OFFSET(0xB03C160)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCENCRYPT_OFFSET UNITYSDK_OFFSET(0xB03B4B0)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB03CEE0)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSADECRYPT_OFFSET UNITYSDK_OFFSET(0xB03C4E0)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSAENCRYPT_OFFSET UNITYSDK_OFFSET(0xB03B820)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEDECODEIV_OFFSET UNITYSDK_OFFSET(0xB04A550)
-#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEENCODEIV_OFFSET UNITYSDK_OFFSET(0xB04A4E0)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCDECRYPT_OFFSET UNITYSDK_OFFSET(0xB69CFA0)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_AESCBCENCRYPT_OFFSET UNITYSDK_OFFSET(0xB69C390)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB69DD20)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSADECRYPT_OFFSET UNITYSDK_OFFSET(0xB69D320)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_RSAENCRYPT_OFFSET UNITYSDK_OFFSET(0xB69C700)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEDECODEIV_OFFSET UNITYSDK_OFFSET(0xB6AB320)
+#define MIHOYO_SDK_SECURITYTUNNEL_CRYPTOUTIL_UPDATEENCODEIV_OFFSET UNITYSDK_OFFSET(0xB6AB2B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_CryptoUtil_TypeDefinitionIndex = 46400;
+	inline static constexpr unsigned int SecurityTunnel_CryptoUtil_TypeDefinitionIndex = 47428;
 
 	class SecurityTunnel_CryptoUtil : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Byte>* encodeIV; // 0x10
-		::System::Security::Cryptography::RijndaelManaged* rm; // 0x18
-		::Il2CppArray<::System::Byte>* decodeIV; // 0x20
-		::Il2CppArray<::System::Byte>* key; // 0x28
-		static ::System::Security::Cryptography::ICryptoTransform** StaticGet_decryptor()
-		{
-			return (::System::Security::Cryptography::ICryptoTransform**)UnitySDK::FromName("MiHoYo.SDK", "CryptoUtil")->GetStaticField(0x33780);
-		}
-
+		::Il2CppArray<::System::Byte>* decodeIV; // 0x10
+		::Il2CppArray<::System::Byte>* key; // 0x18
+		::Il2CppArray<::System::Byte>* encodeIV; // 0x20
+		::System::Security::Cryptography::RijndaelManaged* rm; // 0x28
 		static ::System::Security::Cryptography::ICryptoTransform** StaticGet_encryptor()
 		{
-			return (::System::Security::Cryptography::ICryptoTransform**)UnitySDK::FromName("MiHoYo.SDK", "CryptoUtil")->GetStaticField(0x33788);
+			return (::System::Security::Cryptography::ICryptoTransform**)UnitySDK::FromName("MiHoYo.SDK", "CryptoUtil")->GetStaticField(0x2B230);
+		}
+
+		static ::System::Security::Cryptography::ICryptoTransform** StaticGet_decryptor()
+		{
+			return (::System::Security::Cryptography::ICryptoTransform**)UnitySDK::FromName("MiHoYo.SDK", "CryptoUtil")->GetStaticField(0x2B238);
 		}
 
 		::System::Void _ctor(::Il2CppArray<::System::Byte>* a1, ::Il2CppArray<::System::Byte>* a2)

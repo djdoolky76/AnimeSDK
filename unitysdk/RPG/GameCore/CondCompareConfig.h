@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CondCompareConfig; }
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define RPG_GAMECORE_CONDCOMPARECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D3340)
-#define RPG_GAMECORE_CONDCOMPARECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5D3350)
-#define RPG_GAMECORE_CONDCOMPARECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5D32F0)
+#define RPG_GAMECORE_CONDCOMPARECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E57E0)
+#define RPG_GAMECORE_CONDCOMPARECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7E57F0)
+#define RPG_GAMECORE_CONDCOMPARECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7E5790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CondCompareConfig_TypeDefinitionIndex = 17076;
+	inline static constexpr unsigned int CondCompareConfig_TypeDefinitionIndex = 17243;
 
 	class CondCompareConfig : public ::RPG::GameCore::MiConditionConfigBase
 	{

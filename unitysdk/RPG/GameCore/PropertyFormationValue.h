@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropertyFormationValue; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPERTYFORMATIONVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95CA00)
-#define RPG_GAMECORE_PROPERTYFORMATIONVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95C8C0)
+#define RPG_GAMECORE_PROPERTYFORMATIONVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB74DA0)
+#define RPG_GAMECORE_PROPERTYFORMATIONVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB74C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropertyFormationValue_TypeDefinitionIndex = 15525;
+	inline static constexpr unsigned int PropertyFormationValue_TypeDefinitionIndex = 15683;
 
 	class PropertyFormationValue : public ::RPG::GameCore::JsonConfig
 	{

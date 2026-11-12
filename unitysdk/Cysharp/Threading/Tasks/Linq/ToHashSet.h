@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToHashSet_TypeDefinitionIndex = 45682;
+	inline static constexpr unsigned int ToHashSet_TypeDefinitionIndex = 46711;
 
 	class ToHashSet : public ::System::Object
 	{

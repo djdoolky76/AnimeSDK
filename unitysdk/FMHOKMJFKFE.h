@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int FMHOKMJFKFE_TypeDefinitionIndex = 6204;
+inline static constexpr unsigned int FMHOKMJFKFE_TypeDefinitionIndex = 6211;
 
 	struct alignas(4) FMHOKMJFKFE
 	{

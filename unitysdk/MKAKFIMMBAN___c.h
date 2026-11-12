@@ -4,18 +4,18 @@
 class MKAKFIMMBAN;
 namespace System { class Object; }
 
-#define MKAKFIMMBAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA50100)
-#define MKAKFIMMBAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA50140)
-#define MKAKFIMMBAN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA50150)
+#define MKAKFIMMBAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDA2870)
+#define MKAKFIMMBAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDA28B0)
+#define MKAKFIMMBAN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FDA28C0)
 
-inline static constexpr unsigned int MKAKFIMMBAN___c_TypeDefinitionIndex = 31427;
+inline static constexpr unsigned int MKAKFIMMBAN___c_TypeDefinitionIndex = 32340;
 
 	class MKAKFIMMBAN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ABA0);
 		}
 
 		static ::System::Void _cctor()

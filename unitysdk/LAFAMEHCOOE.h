@@ -5,20 +5,21 @@
 class DHOKPKHPKCH;
 class LAFAMEHCOOE;
 
-#define LAFAMEHCOOE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB5DD940)
-#define LAFAMEHCOOE_CLEAR_OFFSET UNITYSDK_OFFSET(0xB5DD9B0)
-#define LAFAMEHCOOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DDB80)
-#define LAFAMEHCOOE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB5DDA00)
+#define LAFAMEHCOOE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE6F560)
+#define LAFAMEHCOOE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBE6F5D0)
+#define LAFAMEHCOOE_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6F7B0)
+#define LAFAMEHCOOE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBE6F630)
 
-inline static constexpr unsigned int LAFAMEHCOOE_TypeDefinitionIndex = 65876;
+inline static constexpr unsigned int LAFAMEHCOOE_TypeDefinitionIndex = 67808;
 
 	class LAFAMEHCOOE : public ::MLKDDLHNNHH
 	{
 	public:
 		::DHOKPKHPKCH* MJKBBDNJFDN; // 0x20
 		::System::UInt32 IGDOFKLAILH; // 0x28
-		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x2C
-		::System::Boolean DKKJNPPHDPM; // 0x30
+		::System::Boolean DKKJNPPHDPM; // 0x2C
+		::System::Byte _padding0[0x3];
+		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LAFAMEHCOOE_CTOR_OFFSET))(this);

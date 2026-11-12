@@ -4,11 +4,11 @@
 #include "unitysdk/IGKFNIEJGLM.h"
 namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 
-#define HICHCCPAIBB_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE0D60)
-#define HICHCCPAIBB_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x15CE0C50)
-#define HICHCCPAIBB__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CE0CB0)
+#define HICHCCPAIBB_CTOR_OFFSET UNITYSDK_OFFSET(0x16C2E650)
+#define HICHCCPAIBB__ONBIND_OFFSET UNITYSDK_OFFSET(0x16C2E5A0)
+#define HICHCCPAIBB__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x16C2E540)
 
-inline static constexpr unsigned int HICHCCPAIBB_TypeDefinitionIndex = 71293;
+inline static constexpr unsigned int HICHCCPAIBB_TypeDefinitionIndex = 73270;
 
 	class HICHCCPAIBB : public ::FMPCODLIOLG
 	{
@@ -19,9 +19,9 @@ inline static constexpr unsigned int HICHCCPAIBB_TypeDefinitionIndex = 71293;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HICHCCPAIBB_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + HICHCCPAIBB_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + HICHCCPAIBB__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void _OnBind()

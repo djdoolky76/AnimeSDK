@@ -4,18 +4,18 @@
 class DEIKCHNBAGL;
 namespace System { class Object; }
 
-#define DEIKCHNBAGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E195470)
-#define DEIKCHNBAGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1954B0)
-#define DEIKCHNBAGL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1954C0)
+#define DEIKCHNBAGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F46EF30)
+#define DEIKCHNBAGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F46EF70)
+#define DEIKCHNBAGL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F46EF80)
 
-inline static constexpr unsigned int DEIKCHNBAGL___c_TypeDefinitionIndex = 26331;
+inline static constexpr unsigned int DEIKCHNBAGL___c_TypeDefinitionIndex = 26858;
 
 	class DEIKCHNBAGL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31000);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B2A0);
 		}
 
 		static ::System::Void _cctor()

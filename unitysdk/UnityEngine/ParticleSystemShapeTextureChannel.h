@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemShapeTextureChannel_TypeDefinitionIndex = 5259;
+	inline static constexpr unsigned int ParticleSystemShapeTextureChannel_TypeDefinitionIndex = 5264;
 
 	enum class ParticleSystemShapeTextureChannel : ::System::Int32
 	{

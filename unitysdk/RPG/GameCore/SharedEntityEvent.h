@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SharedEntityEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHAREDENTITYEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD0640)
-#define RPG_GAMECORE_SHAREDENTITYEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD0460)
+#define RPG_GAMECORE_SHAREDENTITYEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE2450)
+#define RPG_GAMECORE_SHAREDENTITYEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE2270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SharedEntityEvent_TypeDefinitionIndex = 18311;
+	inline static constexpr unsigned int SharedEntityEvent_TypeDefinitionIndex = 18473;
 
 	class SharedEntityEvent : public ::RPG::GameCore::JsonConfig
 	{

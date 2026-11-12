@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_XMLNAMETABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF7AF30)
+#define SYSTEM_XML_XMLNAMETABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x2022A750)
 
 namespace System::Xml
 {

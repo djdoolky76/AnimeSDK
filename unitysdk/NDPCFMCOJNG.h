@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentContainAbilityTag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NDPCFMCOJNG_CTOR_OFFSET UNITYSDK_OFFSET(0xBB55D50)
-#define NDPCFMCOJNG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB55D80)
+#define NDPCFMCOJNG_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DF450)
+#define NDPCFMCOJNG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC3DF480)
 
-inline static constexpr unsigned int NDPCFMCOJNG_TypeDefinitionIndex = 54596;
+inline static constexpr unsigned int NDPCFMCOJNG_TypeDefinitionIndex = 55761;
 
 	class NDPCFMCOJNG
 	{

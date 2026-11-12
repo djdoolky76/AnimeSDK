@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtGridMoveToTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FFOEMMBPAOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1574D370)
-#define FFOEMMBPAOO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1574D3A0)
+#define FFOEMMBPAOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1666C350)
+#define FFOEMMBPAOO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1666C380)
 
-inline static constexpr unsigned int FFOEMMBPAOO_TypeDefinitionIndex = 54176;
+inline static constexpr unsigned int FFOEMMBPAOO_TypeDefinitionIndex = 55340;
 
 	class FFOEMMBPAOO
 	{

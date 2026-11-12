@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MessageContactRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGECONTACTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D874B60)
-#define RPG_GAMECORE_MESSAGECONTACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D874430)
+#define RPG_GAMECORE_MESSAGECONTACTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8F1D0)
+#define RPG_GAMECORE_MESSAGECONTACTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA8EAA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageContactRow_TypeDefinitionIndex = 14457;
+	inline static constexpr unsigned int MessageContactRow_TypeDefinitionIndex = 14612;
 
 	class MessageContactRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 ContactsCamp; // 0x18
-		::System::UInt32 ContactsType; // 0x1C
-		::RPG::Client::TextID Name; // 0x20
-		::RPG::Client::TextID SignatureText; // 0x30
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID SignatureText; // 0x28
+		::System::UInt32 ContactsType; // 0x38
+		::System::UInt32 ContactsCamp; // 0x3C
 		::System::UInt32 ID; // 0x40
 		::System::Void _ctor()
 		{

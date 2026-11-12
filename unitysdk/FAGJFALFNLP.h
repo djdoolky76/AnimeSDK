@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FAGJFALFNLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1567ADC0)
-#define FAGJFALFNLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1567AC60)
+#define FAGJFALFNLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1658E7B0)
+#define FAGJFALFNLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1658E650)
 
-inline static constexpr unsigned int FAGJFALFNLP_TypeDefinitionIndex = 68598;
+inline static constexpr unsigned int FAGJFALFNLP_TypeDefinitionIndex = 70546;
 
 	class FAGJFALFNLP
 	{

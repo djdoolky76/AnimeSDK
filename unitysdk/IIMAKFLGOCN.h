@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int IIMAKFLGOCN_TypeDefinitionIndex = 6201;
+inline static constexpr unsigned int IIMAKFLGOCN_TypeDefinitionIndex = 6208;
 
 	struct alignas(4) IIMAKFLGOCN
 	{

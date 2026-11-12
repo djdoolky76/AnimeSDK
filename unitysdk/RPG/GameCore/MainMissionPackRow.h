@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MainMissionPackRow; }
 
-#define RPG_GAMECORE_MAINMISSIONPACKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FB3A0)
-#define RPG_GAMECORE_MAINMISSIONPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FB290)
+#define RPG_GAMECORE_MAINMISSIONPACKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3DEC0)
+#define RPG_GAMECORE_MAINMISSIONPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA3DDB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionPackRow_TypeDefinitionIndex = 14147;
+	inline static constexpr unsigned int MainMissionPackRow_TypeDefinitionIndex = 14304;
 
 	class MainMissionPackRow : public ::System::Object
 	{

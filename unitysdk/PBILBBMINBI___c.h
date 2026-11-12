@@ -4,18 +4,18 @@
 class PBILBBMINBI;
 namespace System { class Object; }
 
-#define PBILBBMINBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF7BD0)
-#define PBILBBMINBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF7C10)
-#define PBILBBMINBI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEF7C20)
+#define PBILBBMINBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1C16A0)
+#define PBILBBMINBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1C16E0)
+#define PBILBBMINBI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F1C16F0)
 
-inline static constexpr unsigned int PBILBBMINBI___c_TypeDefinitionIndex = 27372;
+inline static constexpr unsigned int PBILBBMINBI___c_TypeDefinitionIndex = 27903;
 
 	class PBILBBMINBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AC90);
 		}
 
 		static ::System::Void _cctor()

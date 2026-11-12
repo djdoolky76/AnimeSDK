@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvTrackNpcPlayerHide; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IOKJALBCEJM_CTOR_OFFSET UNITYSDK_OFFSET(0x16507E30)
-#define IOKJALBCEJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16507E60)
+#define IOKJALBCEJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB83C740)
+#define IOKJALBCEJM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB83C770)
 
-inline static constexpr unsigned int IOKJALBCEJM_TypeDefinitionIndex = 52513;
+inline static constexpr unsigned int IOKJALBCEJM_TypeDefinitionIndex = 53619;
 
 	class IOKJALBCEJM
 	{

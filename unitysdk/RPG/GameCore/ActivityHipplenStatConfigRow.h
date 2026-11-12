@@ -7,19 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenStatConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D369050)
-#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D368DB0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E577980)
+#define RPG_GAMECORE_ACTIVITYHIPPLENSTATCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5776E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenStatConfigRow_TypeDefinitionIndex = 11663;
+	inline static constexpr unsigned int ActivityHipplenStatConfigRow_TypeDefinitionIndex = 11714;
 
 	class ActivityHipplenStatConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* SmallIconPath; // 0x10
-		::System::String* OutlineIconPath; // 0x18
-		::System::String* IconPath; // 0x20
+		::System::String* IconPath; // 0x10
+		::System::String* SmallIconPath; // 0x18
+		::System::String* OutlineIconPath; // 0x20
 		::System::String* BgColor; // 0x28
 		::RPG::GameCore::HipplenStatType StatType; // 0x30
 		::System::Byte _padding0[0x4];

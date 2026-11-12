@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_PC_OS_EPICPRODUCTEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF108F0)
+#define MIHOYO_SDK_PC_OS_EPICPRODUCTEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D097480)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int EpicProductExtension_TypeDefinitionIndex = 8529;
+	inline static constexpr unsigned int EpicProductExtension_TypeDefinitionIndex = 8538;
 
 	class EpicProductExtension : public ::System::Object
 	{

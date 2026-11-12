@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FormationMoveAddGroup; }
 namespace RPG::GameCore { class FormationMoveMemberInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FORMATIONMOVEADDGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EA9D0)
-#define RPG_GAMECORE_FORMATIONMOVEADDGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6EA9E0)
-#define RPG_GAMECORE_FORMATIONMOVEADDGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EA9A0)
+#define RPG_GAMECORE_FORMATIONMOVEADDGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F4F60)
+#define RPG_GAMECORE_FORMATIONMOVEADDGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8F4F70)
+#define RPG_GAMECORE_FORMATIONMOVEADDGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F4F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationMoveAddGroup_TypeDefinitionIndex = 21256;
+	inline static constexpr unsigned int FormationMoveAddGroup_TypeDefinitionIndex = 21599;
 
 	class FormationMoveAddGroup : public ::RPG::GameCore::TaskConfig
 	{

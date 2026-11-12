@@ -5,19 +5,19 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class SwordTrainingCheckStoryLineFinished; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DODPCHAHAAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE1050)
-#define DODPCHAHAAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FE1060)
-#define DODPCHAHAAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FE1140)
-#define DODPCHAHAAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FE1370)
-#define DODPCHAHAAJ_TICK_OFFSET UNITYSDK_OFFSET(0x11FE13C0)
+#define DODPCHAHAAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12DDA700)
+#define DODPCHAHAAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DDA710)
+#define DODPCHAHAAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DDA7F0)
+#define DODPCHAHAAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12DDAA20)
+#define DODPCHAHAAJ_TICK_OFFSET UNITYSDK_OFFSET(0x12DDAA70)
 
-inline static constexpr unsigned int DODPCHAHAAJ_TypeDefinitionIndex = 58755;
+inline static constexpr unsigned int DODPCHAHAAJ_TypeDefinitionIndex = 60023;
 
 	class DODPCHAHAAJ : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* DLJHJKLMADI; // 0x18
-		::RPG::GameCore::SwordTrainingCheckStoryLineFinished* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SwordTrainingCheckStoryLineFinished* OFKGLJOAMLD; // 0x18
+		::KFELGAIGHAP* DLJHJKLMADI; // 0x20
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwordTrainingCheckStoryLineFinished* a2)
 		{

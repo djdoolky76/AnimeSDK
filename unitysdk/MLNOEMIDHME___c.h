@@ -4,18 +4,18 @@
 class MLNOEMIDHME;
 namespace System { class Object; }
 
-#define MLNOEMIDHME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA89980)
-#define MLNOEMIDHME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA899C0)
-#define MLNOEMIDHME___C___CCTOR_B__99_0_OFFSET UNITYSDK_OFFSET(0x1EA899D0)
+#define MLNOEMIDHME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDBFC40)
+#define MLNOEMIDHME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDBFC80)
+#define MLNOEMIDHME___C___CCTOR_B__99_0_OFFSET UNITYSDK_OFFSET(0x1FDBFC90)
 
-inline static constexpr unsigned int MLNOEMIDHME___c_TypeDefinitionIndex = 34202;
+inline static constexpr unsigned int MLNOEMIDHME___c_TypeDefinitionIndex = 35130;
 
 	class MLNOEMIDHME___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58650);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E150);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetCharacterPartsVisibility; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9B0A0)
-#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9B0B0)
-#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9B060)
+#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAD340)
+#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECAD350)
+#define RPG_GAMECORE_SETCHARACTERPARTSVISIBILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECAD300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterPartsVisibility_TypeDefinitionIndex = 22407;
+	inline static constexpr unsigned int SetCharacterPartsVisibility_TypeDefinitionIndex = 22816;
 
 	class SetCharacterPartsVisibility : public ::RPG::GameCore::TaskConfig
 	{

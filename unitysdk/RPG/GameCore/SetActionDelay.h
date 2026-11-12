@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetActionDelay; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETACTIONDELAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA92630)
-#define RPG_GAMECORE_SETACTIONDELAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA926C0)
-#define RPG_GAMECORE_SETACTIONDELAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA92580)
+#define RPG_GAMECORE_SETACTIONDELAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA4BB0)
+#define RPG_GAMECORE_SETACTIONDELAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECA4C40)
+#define RPG_GAMECORE_SETACTIONDELAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA4B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetActionDelay_TypeDefinitionIndex = 22702;
+	inline static constexpr unsigned int SetActionDelay_TypeDefinitionIndex = 23124;
 
 	class SetActionDelay : public ::RPG::GameCore::TaskConfig
 	{

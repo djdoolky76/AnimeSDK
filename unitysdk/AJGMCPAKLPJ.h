@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckCustomValueBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJGMCPAKLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBC280)
-#define AJGMCPAKLPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CBC2B0)
+#define AJGMCPAKLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12D9AE90)
+#define AJGMCPAKLPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12D9AEC0)
 
-inline static constexpr unsigned int AJGMCPAKLPJ_TypeDefinitionIndex = 54496;
+inline static constexpr unsigned int AJGMCPAKLPJ_TypeDefinitionIndex = 55660;
 
 	class AJGMCPAKLPJ
 	{

@@ -3,21 +3,21 @@
 #include "unitysdk/HoudiniEngineUnity/HEU_HoudiniRampInterpolationTypeWrapper.h"
 #include "unitysdk/System/Object.h"
 
-#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B97BCD0)
-#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_GET_INTERPOLATION_OFFSET UNITYSDK_OFFSET(0x1B97BCB0)
-#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1B97BC90)
-#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_SET_INTERPOLATION_OFFSET UNITYSDK_OFFSET(0x1B97BCC0)
-#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1B97BCA0)
+#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB04BC0)
+#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_GET_INTERPOLATION_OFFSET UNITYSDK_OFFSET(0x1CB04BA0)
+#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_GET_POSITION_OFFSET UNITYSDK_OFFSET(0x1CB04B80)
+#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_SET_INTERPOLATION_OFFSET UNITYSDK_OFFSET(0x1CB04BB0)
+#define HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_SET_POSITION_OFFSET UNITYSDK_OFFSET(0x1CB04B90)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_RampPointWrapper_TypeDefinitionIndex = 40571;
+	inline static constexpr unsigned int HEU_RampPointWrapper_TypeDefinitionIndex = 41546;
 
 	class HEU_RampPointWrapper : public ::System::Object
 	{
 	public:
-		::HoudiniEngineUnity::HEU_HoudiniRampInterpolationTypeWrapper _Interpolation_k__BackingField; // 0x10
-		::System::Single _Position_k__BackingField; // 0x14
+		::System::Single _Position_k__BackingField; // 0x10
+		::HoudiniEngineUnity::HEU_HoudiniRampInterpolationTypeWrapper _Interpolation_k__BackingField; // 0x14
 		::System::Void _ctor(::System::Single a1, ::HoudiniEngineUnity::HEU_HoudiniRampInterpolationTypeWrapper a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::HoudiniEngineUnity::HEU_HoudiniRampInterpolationTypeWrapper))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_RAMPPOINTWRAPPER_CTOR_OFFSET))(this, a1, a2);

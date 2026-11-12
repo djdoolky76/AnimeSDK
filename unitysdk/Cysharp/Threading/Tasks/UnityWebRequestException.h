@@ -5,30 +5,30 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F159840)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1F163770)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_ISHTTPERROR_OFFSET UNITYSDK_OFFSET(0x1F163760)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_ISNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x1F163750)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x1F1637B0)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_RESPONSECODE_OFFSET UNITYSDK_OFFSET(0x1F163790)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_RESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x1F1637A0)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1F163780)
-#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_UNITYWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x1F163740)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x2040ABC0)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x20414DB0)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_ISHTTPERROR_OFFSET UNITYSDK_OFFSET(0x20414DA0)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_ISNETWORKERROR_OFFSET UNITYSDK_OFFSET(0x20414D90)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x20414DF0)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_RESPONSECODE_OFFSET UNITYSDK_OFFSET(0x20414DD0)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_RESPONSEHEADERS_OFFSET UNITYSDK_OFFSET(0x20414DE0)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x20414DC0)
+#define CYSHARP_THREADING_TASKS_UNITYWEBREQUESTEXCEPTION_GET_UNITYWEBREQUEST_OFFSET UNITYSDK_OFFSET(0x20414D80)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityWebRequestException_TypeDefinitionIndex = 38492;
+	inline static constexpr unsigned int UnityWebRequestException_TypeDefinitionIndex = 39421;
 
 	class UnityWebRequestException : public ::System::Exception
 	{
 	public:
-		::System::String* _Error_k__BackingField; // 0x88
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ResponseHeaders_k__BackingField; // 0x90
-		::System::String* _Text_k__BackingField; // 0x98
-		::UnityEngine::Networking::UnityWebRequest* _UnityWebRequest_k__BackingField; // 0xA0
-		::System::String* msg; // 0xA8
-		::System::Boolean _IsNetworkError_k__BackingField; // 0xB0
-		::System::Boolean _IsHttpError_k__BackingField; // 0xB1
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _ResponseHeaders_k__BackingField; // 0x88
+		::UnityEngine::Networking::UnityWebRequest* _UnityWebRequest_k__BackingField; // 0x90
+		::System::String* msg; // 0x98
+		::System::String* _Error_k__BackingField; // 0xA0
+		::System::String* _Text_k__BackingField; // 0xA8
+		::System::Boolean _IsHttpError_k__BackingField; // 0xB0
+		::System::Boolean _IsNetworkError_k__BackingField; // 0xB1
 		::System::Byte _padding0[0x6];
 		::System::Int64 _ResponseCode_k__BackingField; // 0xB8
 		::System::Void _ctor(::UnityEngine::Networking::UnityWebRequest* a1)

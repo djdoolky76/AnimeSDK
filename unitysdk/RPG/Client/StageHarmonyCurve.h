@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_STAGEHARMONYCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0xE10B5A0)
+#define RPG_CLIENT_STAGEHARMONYCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB8450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyCurve_TypeDefinitionIndex = 70982;
+	inline static constexpr unsigned int StageHarmonyCurve_TypeDefinitionIndex = 72961;
 
 	class StageHarmonyCurve : public ::System::Object
 	{

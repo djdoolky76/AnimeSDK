@@ -5,10 +5,10 @@
 class ODOLBBHAKKB;
 namespace System { class String; }
 
-#define JPOCJBFHNMJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB2CEEB0)
-#define JPOCJBFHNMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CEF40)
+#define JPOCJBFHNMJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBB52620)
+#define JPOCJBFHNMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB526B0)
 
-inline static constexpr unsigned int JPOCJBFHNMJ_TypeDefinitionIndex = 62731;
+inline static constexpr unsigned int JPOCJBFHNMJ_TypeDefinitionIndex = 64165;
 
 	class JPOCJBFHNMJ : public ::System::Object
 	{

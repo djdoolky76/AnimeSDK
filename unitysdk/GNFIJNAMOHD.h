@@ -8,69 +8,68 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture2D; }
 
-#define GNFIJNAMOHD_AMAFGMNJINK_OFFSET UNITYSDK_OFFSET(0x15B01560)
-#define GNFIJNAMOHD_BCLJLEOMHNL_OFFSET UNITYSDK_OFFSET(0x15B01BA0)
-#define GNFIJNAMOHD_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B02100)
-#define GNFIJNAMOHD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B012C0)
-#define GNFIJNAMOHD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B01740)
-#define GNFIJNAMOHD_GGIBFEDMMIN_OFFSET UNITYSDK_OFFSET(0x15B01980)
-#define GNFIJNAMOHD_GMLAFCKCLAD_OFFSET UNITYSDK_OFFSET(0x15B01C90)
-#define GNFIJNAMOHD_HAHJDFFNOCK_OFFSET UNITYSDK_OFFSET(0x15B01B80)
-#define GNFIJNAMOHD_IHIDKEOCOOB_OFFSET UNITYSDK_OFFSET(0x15B01E70)
-#define GNFIJNAMOHD_JBEHEMPJHPK_OFFSET UNITYSDK_OFFSET(0x15B02070)
-#define GNFIJNAMOHD_JBFOIJAOOAL_OFFSET UNITYSDK_OFFSET(0x15B01B70)
-#define GNFIJNAMOHD_KEFJFBPBGOI_OFFSET UNITYSDK_OFFSET(0x15B01BB0)
-#define GNFIJNAMOHD_MBGGEKKOKCL_OFFSET UNITYSDK_OFFSET(0x15B01B90)
-#define GNFIJNAMOHD_OKHEEBIJIAO_OFFSET UNITYSDK_OFFSET(0x15B01420)
+#define GNFIJNAMOHD_AMAFGMNJINK_OFFSET UNITYSDK_OFFSET(0x16A843A0)
+#define GNFIJNAMOHD_BCLJLEOMHNL_OFFSET UNITYSDK_OFFSET(0x16A84A60)
+#define GNFIJNAMOHD_CCTOR_OFFSET UNITYSDK_OFFSET(0x16A85030)
+#define GNFIJNAMOHD_CTOR_OFFSET UNITYSDK_OFFSET(0x16A84100)
+#define GNFIJNAMOHD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A84550)
+#define GNFIJNAMOHD_GGIBFEDMMIN_OFFSET UNITYSDK_OFFSET(0x16A84840)
+#define GNFIJNAMOHD_GMLAFCKCLAD_OFFSET UNITYSDK_OFFSET(0x16A84B50)
+#define GNFIJNAMOHD_HAHJDFFNOCK_OFFSET UNITYSDK_OFFSET(0x16A84A40)
+#define GNFIJNAMOHD_IHIDKEOCOOB_OFFSET UNITYSDK_OFFSET(0x16A84D30)
+#define GNFIJNAMOHD_JBEHEMPJHPK_OFFSET UNITYSDK_OFFSET(0x16A84FA0)
+#define GNFIJNAMOHD_JBFOIJAOOAL_OFFSET UNITYSDK_OFFSET(0x16A84A30)
+#define GNFIJNAMOHD_KEFJFBPBGOI_OFFSET UNITYSDK_OFFSET(0x16A84A70)
+#define GNFIJNAMOHD_MBGGEKKOKCL_OFFSET UNITYSDK_OFFSET(0x16A84A50)
+#define GNFIJNAMOHD_OKHEEBIJIAO_OFFSET UNITYSDK_OFFSET(0x16A84260)
 
-inline static constexpr unsigned int GNFIJNAMOHD_TypeDefinitionIndex = 49542;
+inline static constexpr unsigned int GNFIJNAMOHD_TypeDefinitionIndex = 50618;
 
 	class GNFIJNAMOHD : public ::System::Object
 	{
 	public:
-		::UnityEngine::Texture2D* LLJFHHEPLMN; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* IMJGMHKGPAO; // 0x18
-		::System::Collections::Generic::List_1<::NLBIEMILEDE*>* AACGHIOOEIG; // 0x20
-		::System::Collections::Generic::List_1<::System::Object*>* INOMPFPICDN; // 0x28
-		::System::Int32 ILKEFKBLLDH; // 0x30
-		::System::Int32 AEHDMPLHCPH; // 0x34
-		::System::Boolean CIDINDMHIFH; // 0x38
-		::System::Byte _padding0[0x3];
-		::System::Single JAIKLBFJBMH; // 0x3C
-		::System::Int32 PPAIJHOMHEN; // 0x40
+		::System::Collections::Generic::List_1<::System::Int32>* IMJGMHKGPAO; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* INOMPFPICDN; // 0x18
+		::UnityEngine::Texture2D* LLJFHHEPLMN; // 0x20
+		::System::Collections::Generic::List_1<::NLBIEMILEDE*>* AACGHIOOEIG; // 0x28
+		::System::Single JAIKLBFJBMH; // 0x30
+		::System::Int32 ILKEFKBLLDH; // 0x34
+		::System::Int32 AEHDMPLHCPH; // 0x38
+		::System::Int32 PPAIJHOMHEN; // 0x3C
+		::System::Boolean CIDINDMHIFH; // 0x40
 		static ::Il2CppArray<::UnityEngine::Color32>** StaticGet_MLCPDAHLIJJ()
 		{
-			return (::Il2CppArray<::UnityEngine::Color32>**)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xBAD0);
-		}
-
-		static ::System::Int32* StaticGet_EOLHDLLHEGO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x28B0);
+			return (::Il2CppArray<::UnityEngine::Color32>**)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x345B0);
 		}
 
 		static ::System::Int32* StaticGet_DDHOFCOEBGO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x28B4);
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xB160);
 		}
 
-		static ::System::Int32* StaticGet_OFGLFIJPPNH()
+		static ::System::Int32* StaticGet_EOLHDLLHEGO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x28B8);
-		}
-
-		static ::System::Int32* StaticGet_GLHLKHCOOBF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x28BC);
-		}
-
-		static ::System::Int32* StaticGet_IPECFEHFCLB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x28C0);
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xB164);
 		}
 
 		static ::System::Int32* StaticGet_BAGFJOFEJEK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0x28C4);
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xB168);
+		}
+
+		static ::System::Int32* StaticGet_OFGLFIJPPNH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xB16C);
+		}
+
+		static ::System::Int32* StaticGet_GLHLKHCOOBF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xB170);
+		}
+
+		static ::System::Int32* StaticGet_IPECFEHFCLB()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GNFIJNAMOHD")->GetStaticField(0xB174);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)

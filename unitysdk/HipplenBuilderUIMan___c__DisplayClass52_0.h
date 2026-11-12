@@ -4,16 +4,16 @@
 class HipplenBuilderActivityAsset_Activity;
 class HipplenBuilderUIMan;
 
-#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF5200)
-#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0__CREATEACTIVITYITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15DF5B40)
+#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16D96340)
+#define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0__CREATEACTIVITYITEM_B__0_OFFSET UNITYSDK_OFFSET(0x16D9A200)
 
-inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass52_0_TypeDefinitionIndex = 47219;
+inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass52_0_TypeDefinitionIndex = 48247;
 
 	class HipplenBuilderUIMan___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:
-		::HipplenBuilderActivityAsset_Activity* data; // 0x10
-		::HipplenBuilderUIMan* __4__this; // 0x18
+		::HipplenBuilderUIMan* __4__this; // 0x10
+		::HipplenBuilderActivityAsset_Activity* data; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0_CTOR_OFFSET))(this);

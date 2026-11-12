@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByWaitUltraCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBGBEHPEICK_CTOR_OFFSET UNITYSDK_OFFSET(0x1656DCB0)
-#define JBGBEHPEICK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1656DD90)
+#define JBGBEHPEICK_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A6B60)
+#define JBGBEHPEICK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8A6C40)
 
-inline static constexpr unsigned int JBGBEHPEICK_TypeDefinitionIndex = 54904;
+inline static constexpr unsigned int JBGBEHPEICK_TypeDefinitionIndex = 56076;
 
 	class JBGBEHPEICK
 	{

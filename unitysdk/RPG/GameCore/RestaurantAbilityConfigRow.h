@@ -8,24 +8,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RestaurantAbilityConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98EA90)
-#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D98E740)
+#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD7B00)
+#define RPG_GAMECORE_RESTAURANTABILITYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBD77B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantAbilityConfigRow_TypeDefinitionIndex = 11342;
+	inline static constexpr unsigned int RestaurantAbilityConfigRow_TypeDefinitionIndex = 11393;
 
 	class RestaurantAbilityConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* DynamicValues; // 0x10
 		::Il2CppArray<::System::String*>* BuffList; // 0x18
-		::RPG::GameCore::ElfTargetType TargetType; // 0x20
-		::System::UInt32 AbilityID; // 0x24
-		::RPG::GameCore::RestaurantEmployeeAbility Type; // 0x28
+		::RPG::GameCore::RestaurantEmployeeAbility Type; // 0x20
+		::RPG::GameCore::ElfTargetType TargetType; // 0x24
+		::RPG::Client::TextID Detail; // 0x28
+		::System::UInt32 AbilityID; // 0x38
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x30
-		::RPG::Client::TextID Detail; // 0x40
+		::RPG::Client::TextID Name; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTABILITYCONFIGROW_CTOR_OFFSET))(this);

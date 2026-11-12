@@ -3,10 +3,10 @@
 class BENHFIGIMGL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EPLBBONHNGB_CTOR_OFFSET UNITYSDK_OFFSET(0x155D7480)
-#define EPLBBONHNGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155D74B0)
+#define EPLBBONHNGB_CTOR_OFFSET UNITYSDK_OFFSET(0x164EA180)
+#define EPLBBONHNGB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164EA1B0)
 
-inline static constexpr unsigned int EPLBBONHNGB_TypeDefinitionIndex = 52783;
+inline static constexpr unsigned int EPLBBONHNGB_TypeDefinitionIndex = 53927;
 
 	class EPLBBONHNGB
 	{

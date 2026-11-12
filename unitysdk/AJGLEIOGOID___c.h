@@ -4,18 +4,18 @@
 class AJGLEIOGOID;
 namespace System { class Object; }
 
-#define AJGLEIOGOID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3C2310)
-#define AJGLEIOGOID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C2340)
-#define AJGLEIOGOID___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E3C2350)
+#define AJGLEIOGOID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F67E160)
+#define AJGLEIOGOID___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F67E190)
+#define AJGLEIOGOID___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F67E1A0)
 
-inline static constexpr unsigned int AJGLEIOGOID___c_TypeDefinitionIndex = 34589;
+inline static constexpr unsigned int AJGLEIOGOID___c_TypeDefinitionIndex = 35517;
 
 	class AJGLEIOGOID___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35010);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D9F0);
 		}
 
 		static ::System::Void _cctor()

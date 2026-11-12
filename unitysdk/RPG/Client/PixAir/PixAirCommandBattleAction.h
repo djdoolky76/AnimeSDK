@@ -8,25 +8,25 @@ namespace RPG::Client::LittleGame::PixAir { class PixAirPlaneStatistics; }
 namespace RPG::Client::PixAir { class PixAirGameBattleRoundData; }
 namespace RPG::GameCore { class PixAirEquipmentPresetConfig; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEENEMYPLANESNAPSHOTS_OFFSET UNITYSDK_OFFSET(0xDB36C50)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEPLAYERPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDB369B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDB36980)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_GET_BATTLEROUNDINFO_OFFSET UNITYSDK_OFFSET(0xDB369A0)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_RESOLVEBATTLE_OFFSET UNITYSDK_OFFSET(0xDB36D90)
-#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION__CREATEPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDB36A70)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEENEMYPLANESNAPSHOTS_OFFSET UNITYSDK_OFFSET(0xE58E9F0)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CREATEPLAYERPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xE58E750)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE58E720)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_GET_BATTLEROUNDINFO_OFFSET UNITYSDK_OFFSET(0xE58E740)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION_RESOLVEBATTLE_OFFSET UNITYSDK_OFFSET(0xE58EB30)
+#define RPG_CLIENT_PIXAIR_PIXAIRCOMMANDBATTLEACTION__CREATEPLANESNAPSHOT_OFFSET UNITYSDK_OFFSET(0xE58E810)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirCommandBattleAction_TypeDefinitionIndex = 79284;
+	inline static constexpr unsigned int PixAirCommandBattleAction_TypeDefinitionIndex = 82061;
 
 	class PixAirCommandBattleAction : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _EnemySlots; // 0x10
+		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _PlayerSlots; // 0x10
 		::RPG::Client::PixAir::PixAirGameBattleRoundData* _BattleRoundInfo_k__BackingField; // 0x18
-		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _PlayerSlots; // 0x20
-		::RPG::GameCore::FixPoint _PlayerHP; // 0x28
-		::RPG::GameCore::FixPoint _EnemyHP; // 0x30
+		::Il2CppArray<::RPG::GameCore::PixAirEquipmentPresetConfig*>* _EnemySlots; // 0x20
+		::RPG::GameCore::FixPoint _EnemyHP; // 0x28
+		::RPG::GameCore::FixPoint _PlayerHP; // 0x30
 		// static const ::System::Object SlotCount; // 0x0
 		// static const ::System::Object PlayerPlaneID; // 0x0
 		// static const ::System::Object EnemyPlaneID; // 0x0

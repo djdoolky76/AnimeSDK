@@ -12,66 +12,67 @@ namespace XLua { class ObjectCheck; }
 namespace XLua { class ObjectCheckers; }
 namespace XLua { class ObjectTranslator; }
 
-#define XLUA_OVERLOADMETHODWRAP_CALL_OFFSET UNITYSDK_OFFSET(0x152C54A0)
-#define XLUA_OVERLOADMETHODWRAP_CCTOR_OFFSET UNITYSDK_OFFSET(0x152C5E90)
-#define XLUA_OVERLOADMETHODWRAP_CHECK_OFFSET UNITYSDK_OFFSET(0x152C52E0)
-#define XLUA_OVERLOADMETHODWRAP_CTOR_OFFSET UNITYSDK_OFFSET(0x152C3460)
-#define XLUA_OVERLOADMETHODWRAP_GET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0x152C3440)
-#define XLUA_OVERLOADMETHODWRAP_INIT_OFFSET UNITYSDK_OFFSET(0x152C3490)
-#define XLUA_OVERLOADMETHODWRAP_SET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0x152C3450)
+#define XLUA_OVERLOADMETHODWRAP_CALL_OFFSET UNITYSDK_OFFSET(0x161A4FD0)
+#define XLUA_OVERLOADMETHODWRAP_CCTOR_OFFSET UNITYSDK_OFFSET(0x161A59C0)
+#define XLUA_OVERLOADMETHODWRAP_CHECK_OFFSET UNITYSDK_OFFSET(0x161A4E10)
+#define XLUA_OVERLOADMETHODWRAP_CTOR_OFFSET UNITYSDK_OFFSET(0x161A2F90)
+#define XLUA_OVERLOADMETHODWRAP_GET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0x161A2F70)
+#define XLUA_OVERLOADMETHODWRAP_INIT_OFFSET UNITYSDK_OFFSET(0x161A2FC0)
+#define XLUA_OVERLOADMETHODWRAP_SET_HASDEFALUTVALUE_OFFSET UNITYSDK_OFFSET(0x161A2F80)
 
 namespace XLua
 {
-	inline static constexpr unsigned int OverloadMethodWrap_TypeDefinitionIndex = 50214;
+	inline static constexpr unsigned int OverloadMethodWrap_TypeDefinitionIndex = 51265;
 
 	class OverloadMethodWrap : public ::System::Object
 	{
 	public:
-		::System::Reflection::PropertyInfo* returnValueProperty; // 0x10
-		::System::Type* targetType; // 0x18
-		::Il2CppArray<::System::Int32>* refPos; // 0x20
-		::Il2CppArray<::System::Object*>* args; // 0x28
-		::Il2CppArray<::System::Int32>* outPosArray; // 0x30
-		::Il2CppArray<::System::Object*>* defaultValueArray; // 0x38
-		::Il2CppArray<::System::Int32>* inPosArray; // 0x40
-		::Il2CppArray<::System::Boolean>* isOptionalArray; // 0x48
+		::Il2CppArray<::System::Int32>* refPos; // 0x10
+		::System::Reflection::MethodBase* method; // 0x18
+		::System::Type* paramsType; // 0x20
+		::XLua::ObjectTranslator* translator; // 0x28
+		::Il2CppArray<::System::Int32>* inPosArray; // 0x30
+		::Il2CppArray<::System::Object*>* args; // 0x38
+		::Il2CppArray<::XLua::ObjectCheck*>* checkArray; // 0x40
+		::System::Reflection::PropertyInfo* returnValueProperty; // 0x48
 		::Il2CppArray<::XLua::ObjectCast*>* castArray; // 0x50
-		::XLua::ObjectTranslator* translator; // 0x58
-		::System::Type* paramsType; // 0x60
-		::System::Reflection::MethodBase* method; // 0x68
-		::Il2CppArray<::XLua::ObjectCheck*>* checkArray; // 0x70
-		::System::Int32 luaStackPosStart; // 0x78
-		::System::Boolean targetNeeded; // 0x7C
-		::System::Boolean _HasDefalutValue_k__BackingField; // 0x7D
-		::System::Boolean isVoid; // 0x7E
+		::Il2CppArray<::System::Boolean>* isOptionalArray; // 0x58
+		::System::Type* targetType; // 0x60
+		::Il2CppArray<::System::Int32>* outPosArray; // 0x68
+		::Il2CppArray<::System::Object*>* defaultValueArray; // 0x70
+		::System::Boolean targetNeeded; // 0x78
+		::System::Boolean isVoid; // 0x79
+		::System::Boolean _HasDefalutValue_k__BackingField; // 0x7A
+		::System::Byte _padding0[0x1];
+		::System::Int32 luaStackPosStart; // 0x7C
 		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_outPosList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x663C0);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_inPosList()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x663C8);
-		}
-
-		static ::System::Collections::Generic::List_1<::XLua::ObjectCast*>** StaticGet_paramsCasts()
-		{
-			return (::System::Collections::Generic::List_1<::XLua::ObjectCast*>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x663D0);
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x621B0);
 		}
 
 		static ::System::Collections::Generic::List_1<::XLua::ObjectCheck*>** StaticGet_paramsChecks()
 		{
-			return (::System::Collections::Generic::List_1<::XLua::ObjectCheck*>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x663D8);
+			return (::System::Collections::Generic::List_1<::XLua::ObjectCheck*>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x621B8);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Int32>** StaticGet_inPosList()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int32>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x621C0);
+		}
+
+		static ::System::Collections::Generic::List_1<::XLua::ObjectCast*>** StaticGet_paramsCasts()
+		{
+			return (::System::Collections::Generic::List_1<::XLua::ObjectCast*>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x621C8);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Boolean>** StaticGet_isOptionalList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Boolean>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x663E0);
+			return (::System::Collections::Generic::List_1<::System::Boolean>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x621D0);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_defaultValueList()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x663E8);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("XLua", "OverloadMethodWrap")->GetStaticField(0x621D8);
 		}
 
 		::System::Void _ctor(::XLua::ObjectTranslator* a1, ::System::Type* a2, ::System::Reflection::MethodBase* a3, ::System::Reflection::PropertyInfo* a4)

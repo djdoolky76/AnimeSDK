@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FullBody
 {
-	inline static constexpr unsigned int FullBodyBipedChain_TypeDefinitionIndex = 74263;
+	inline static constexpr unsigned int FullBodyBipedChain_TypeDefinitionIndex = 76411;
 
 	enum class FullBodyBipedChain : ::System::Int32
 	{

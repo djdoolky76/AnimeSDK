@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleMapState_TypeDefinitionIndex = 63844;
+	inline static constexpr unsigned int ExpeditionBattleMapState_TypeDefinitionIndex = 65286;
 
 	enum class ExpeditionBattleMapState : ::System::Int32
 	{

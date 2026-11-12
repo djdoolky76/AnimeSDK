@@ -7,30 +7,30 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityExpeditionRow; }
 
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D35CFB0)
-#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D35BC90)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E56B860)
+#define RPG_GAMECORE_ACTIVITYEXPEDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E56A540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityExpeditionRow_TypeDefinitionIndex = 11459;
+	inline static constexpr unsigned int ActivityExpeditionRow_TypeDefinitionIndex = 11510;
 
 	class ActivityExpeditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::AvatarBaseType>* BonusBaseTypeList; // 0x10
-		::System::UInt32 RewardID; // 0x18
+		::System::UInt32 AvatarNumMin; // 0x18
 		::System::UInt32 Grade3ExtraRewardID; // 0x1C
-		::RPG::Client::TextID Name; // 0x20
-		::System::UInt32 ExpeditionID; // 0x30
-		::System::UInt32 Grade1ExtraRewardID; // 0x34
-		::RPG::GameCore::ActivityExpeditionRank ExpeditionRank; // 0x38
-		::System::UInt32 Duration; // 0x3C
-		::RPG::Client::TextID AssignDesc; // 0x40
-		::RPG::Client::TextID AssignerName; // 0x50
-		::System::UInt32 Grade2ExtraRewardID; // 0x60
-		::System::UInt32 ExpeditionTag; // 0x64
-		::System::UInt32 AvatarNumMin; // 0x68
-		::System::UInt32 AvatarNumMax; // 0x6C
+		::RPG::Client::TextID AssignerName; // 0x20
+		::RPG::Client::TextID AssignDesc; // 0x30
+		::System::UInt32 AvatarNumMax; // 0x40
+		::RPG::GameCore::ActivityExpeditionRank ExpeditionRank; // 0x44
+		::System::UInt32 ExpeditionTag; // 0x48
+		::System::UInt32 Grade1ExtraRewardID; // 0x4C
+		::System::UInt32 Duration; // 0x50
+		::System::UInt32 ExpeditionID; // 0x54
+		::RPG::Client::TextID Name; // 0x58
+		::System::UInt32 Grade2ExtraRewardID; // 0x68
+		::System::UInt32 RewardID; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYEXPEDITIONROW_CTOR_OFFSET))(this);

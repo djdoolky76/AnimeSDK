@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VersusBarPropertyType_TypeDefinitionIndex = 24698;
+	inline static constexpr unsigned int VersusBarPropertyType_TypeDefinitionIndex = 25173;
 
 	enum class VersusBarPropertyType : ::System::Int32
 	{

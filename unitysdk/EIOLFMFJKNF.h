@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableSpecificModifierSpecialMark; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EIOLFMFJKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x154D5220)
-#define EIOLFMFJKNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154D5250)
+#define EIOLFMFJKNF_CTOR_OFFSET UNITYSDK_OFFSET(0x16415BB0)
+#define EIOLFMFJKNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16415BE0)
 
-inline static constexpr unsigned int EIOLFMFJKNF_TypeDefinitionIndex = 47599;
+inline static constexpr unsigned int EIOLFMFJKNF_TypeDefinitionIndex = 48628;
 
 	class EIOLFMFJKNF
 	{

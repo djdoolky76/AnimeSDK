@@ -9,13 +9,13 @@ namespace RPG::GameCore { class LevelCrowdMemberInfo; }
 namespace RPG::GameCore { class MunicipalChatCrowdInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELCROWDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A7530)
-#define RPG_GAMECORE_LEVELCROWDINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7A7540)
-#define RPG_GAMECORE_LEVELCROWDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A74F0)
+#define RPG_GAMECORE_LEVELCROWDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EA5A0)
+#define RPG_GAMECORE_LEVELCROWDINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9EA5B0)
+#define RPG_GAMECORE_LEVELCROWDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9EA560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelCrowdInfo_TypeDefinitionIndex = 17281;
+	inline static constexpr unsigned int LevelCrowdInfo_TypeDefinitionIndex = 17449;
 
 	class LevelCrowdInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

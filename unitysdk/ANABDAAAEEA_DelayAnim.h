@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ANABDAAAEEA_DelayAnim_TypeDefinitionIndex = 71253;
+inline static constexpr unsigned int ANABDAAAEEA_DelayAnim_TypeDefinitionIndex = 73230;
 
 	enum class ANABDAAAEEA_DelayAnim : ::System::Int32
 	{

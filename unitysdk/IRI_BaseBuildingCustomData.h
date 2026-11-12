@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define IRI_BASEBUILDINGCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16532B60)
+#define IRI_BASEBUILDINGCUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8674C0)
 
-inline static constexpr unsigned int IRI_BaseBuildingCustomData_TypeDefinitionIndex = 47162;
+inline static constexpr unsigned int IRI_BaseBuildingCustomData_TypeDefinitionIndex = 48190;
 
 	class IRI_BaseBuildingCustomData : public ::UnityEngine::MonoBehaviour
 	{

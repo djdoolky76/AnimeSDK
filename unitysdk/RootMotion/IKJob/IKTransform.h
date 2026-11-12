@@ -13,7 +13,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::IKJob
 {
-	inline static constexpr unsigned int IKTransform_TypeDefinitionIndex = 45983;
+	inline static constexpr unsigned int IKTransform_TypeDefinitionIndex = 47012;
 
 	struct alignas(4) IKTransform
 	{

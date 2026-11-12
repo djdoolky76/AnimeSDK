@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DIAGHDPAKLA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD24B40)
-#define DIAGHDPAKLA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD25100)
-#define DIAGHDPAKLA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD24CB0)
-#define DIAGHDPAKLA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD245B0)
-#define DIAGHDPAKLA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD24840)
-#define DIAGHDPAKLA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD24D50)
-#define DIAGHDPAKLA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD24DA0)
-#define DIAGHDPAKLA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD24B80)
-#define DIAGHDPAKLA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD247E0)
-#define DIAGHDPAKLA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD24970)
-#define DIAGHDPAKLA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD24C10)
-#define DIAGHDPAKLA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD24530)
+#define DIAGHDPAKLA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DEF1AA0)
+#define DIAGHDPAKLA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF2060)
+#define DIAGHDPAKLA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DEF1C10)
+#define DIAGHDPAKLA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DEF1510)
+#define DIAGHDPAKLA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DEF17A0)
+#define DIAGHDPAKLA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DEF1CB0)
+#define DIAGHDPAKLA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DEF1D00)
+#define DIAGHDPAKLA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DEF1AE0)
+#define DIAGHDPAKLA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DEF1740)
+#define DIAGHDPAKLA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DEF18D0)
+#define DIAGHDPAKLA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DEF1B70)
+#define DIAGHDPAKLA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DEF1490)
 
-inline static constexpr unsigned int DIAGHDPAKLA_TypeDefinitionIndex = 13096;
+inline static constexpr unsigned int DIAGHDPAKLA_TypeDefinitionIndex = 13164;
 
 	class DIAGHDPAKLA : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::OverrideFloorConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x4CB60);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::OverrideFloorConfigRow*>**)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x3BFE0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x4CB68);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x3BFE8);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::OverrideFloorConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::OverrideFloorConfigRow*>**)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x4CB70);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x3BFF0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x11AC0);
+			return (::System::Boolean*)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0xD3E0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0x11AC1);
+			return (::System::Byte*)UnitySDK::FromName("", "DIAGHDPAKLA")->GetStaticField(0xD3E1);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class BAHMABONKBP;
 namespace System { class Object; }
 
-#define BAHMABONKBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7B7A10)
-#define BAHMABONKBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B7A50)
-#define BAHMABONKBP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E7B7A60)
+#define BAHMABONKBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA72C50)
+#define BAHMABONKBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA72C90)
+#define BAHMABONKBP___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1FA72CA0)
 
-inline static constexpr unsigned int BAHMABONKBP___c_TypeDefinitionIndex = 34953;
+inline static constexpr unsigned int BAHMABONKBP___c_TypeDefinitionIndex = 35881;
 
 	class BAHMABONKBP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45910);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EBA0);
 		}
 
 		static ::System::Void _cctor()

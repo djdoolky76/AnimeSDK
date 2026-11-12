@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMissionChroniclePathUnlockConditionData_TypeDefinitionIndex = 66110;
+	inline static constexpr unsigned int IMissionChroniclePathUnlockConditionData_TypeDefinitionIndex = 68043;
 
 	class IMissionChroniclePathUnlockConditionData
 	{

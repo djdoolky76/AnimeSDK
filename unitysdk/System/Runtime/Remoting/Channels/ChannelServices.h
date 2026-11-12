@@ -14,19 +14,19 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 namespace System::Runtime::Remoting::Messaging { class ReturnMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2D4680)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKINCOMINGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2D3B70)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKRETURNMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2D3F20)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_1_OFFSET UNITYSDK_OFFSET(0x1C2D1530)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_OFFSET UNITYSDK_OFFSET(0x1C2D0460)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C2D37A0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GETCURRENTCHANNELINFO_OFFSET UNITYSDK_OFFSET(0x1C2CF810)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GET_CROSSCONTEXTCHANNEL_OFFSET UNITYSDK_OFFSET(0x1C2D0400)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_ISLOCALCALL_OFFSET UNITYSDK_OFFSET(0x1C2D45A0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNELCONFIG_OFFSET UNITYSDK_OFFSET(0x1C2D21C0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_1_OFFSET UNITYSDK_OFFSET(0x1C2D1910)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_OFFSET UNITYSDK_OFFSET(0x1C2D1720)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_SYNCDISPATCHMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C2D3AA0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D45B2B0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKINCOMINGMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D45A7A0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CHECKRETURNMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D45AB50)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_1_OFFSET UNITYSDK_OFFSET(0x1D4580A0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATECLIENTCHANNELSINKCHAIN_OFFSET UNITYSDK_OFFSET(0x1D456FD0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_CREATEPROVIDER_OFFSET UNITYSDK_OFFSET(0x1D45A360)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GETCURRENTCHANNELINFO_OFFSET UNITYSDK_OFFSET(0x1D4563F0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_GET_CROSSCONTEXTCHANNEL_OFFSET UNITYSDK_OFFSET(0x1D456F70)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_ISLOCALCALL_OFFSET UNITYSDK_OFFSET(0x1D45B1D0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNELCONFIG_OFFSET UNITYSDK_OFFSET(0x1D458D30)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_1_OFFSET UNITYSDK_OFFSET(0x1D458480)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_REGISTERCHANNEL_OFFSET UNITYSDK_OFFSET(0x1D458290)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CHANNELSERVICES_SYNCDISPATCHMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D45A6D0)
 
 namespace System::Runtime::Remoting::Channels
 {
@@ -35,29 +35,29 @@ namespace System::Runtime::Remoting::Channels
 	class ChannelServices : public ::System::Object
 	{
 	public:
-		static ::System::Runtime::Remoting::Contexts::CrossContextChannel** StaticGet__crossContextSink()
+		static ::System::Collections::ArrayList** StaticGet_registeredChannels()
 		{
-			return (::System::Runtime::Remoting::Contexts::CrossContextChannel**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x15C60);
-		}
-
-		static ::System::Collections::IList** StaticGet_oldStartModeTypes()
-		{
-			return (::System::Collections::IList**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x15C68);
+			return (::System::Collections::ArrayList**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x19B90);
 		}
 
 		static ::System::String** StaticGet_CrossContextUrl()
 		{
-			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x15C70);
+			return (::System::String**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x19B98);
 		}
 
-		static ::System::Collections::ArrayList** StaticGet_registeredChannels()
+		static ::System::Collections::IList** StaticGet_oldStartModeTypes()
 		{
-			return (::System::Collections::ArrayList**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x15C78);
+			return (::System::Collections::IList**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x19BA0);
 		}
 
 		static ::System::Collections::ArrayList** StaticGet_delayedClientChannels()
 		{
-			return (::System::Collections::ArrayList**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x15C80);
+			return (::System::Collections::ArrayList**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x19BA8);
+		}
+
+		static ::System::Runtime::Remoting::Contexts::CrossContextChannel** StaticGet__crossContextSink()
+		{
+			return (::System::Runtime::Remoting::Contexts::CrossContextChannel**)UnitySDK::FromName("System.Runtime.Remoting.Channels", "ChannelServices")->GetStaticField(0x19BB0);
 		}
 
 		static ::System::Void _cctor()

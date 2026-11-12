@@ -8,11 +8,11 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 namespace RPG::GameCore { class ChenLingBattleEffectTier; }
 namespace System { class String; }
 
-#define OCHEDHHIJNB_FAPKFFKNCOD_OFFSET UNITYSDK_OFFSET(0xBD63240)
-#define OCHEDHHIJNB_FIFLBLPMGOO_OFFSET UNITYSDK_OFFSET(0xBD634F0)
-#define OCHEDHHIJNB_IHOLEGDCFNO_OFFSET UNITYSDK_OFFSET(0xBD632D0)
+#define OCHEDHHIJNB_FAPKFFKNCOD_OFFSET UNITYSDK_OFFSET(0xC667C20)
+#define OCHEDHHIJNB_FIFLBLPMGOO_OFFSET UNITYSDK_OFFSET(0xC667ED0)
+#define OCHEDHHIJNB_IHOLEGDCFNO_OFFSET UNITYSDK_OFFSET(0xC667CB0)
 
-inline static constexpr unsigned int OCHEDHHIJNB_TypeDefinitionIndex = 77835;
+inline static constexpr unsigned int OCHEDHHIJNB_TypeDefinitionIndex = 80570;
 
 	class OCHEDHHIJNB : public ::System::Object
 	{

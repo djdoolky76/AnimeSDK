@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class HFALLFOEHKN;
 
-#define LLPEHDFMLNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB775A00)
+#define LLPEHDFMLNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC015AA0)
 
-inline static constexpr unsigned int LLPEHDFMLNJ_TypeDefinitionIndex = 57626;
+inline static constexpr unsigned int LLPEHDFMLNJ_TypeDefinitionIndex = 58855;
 
 	class LLPEHDFMLNJ : public ::BIMHOGHOCKP
 	{

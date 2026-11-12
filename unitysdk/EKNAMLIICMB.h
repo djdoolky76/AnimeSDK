@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EKNAMLIICMB_TypeDefinitionIndex = 56003;
+inline static constexpr unsigned int EKNAMLIICMB_TypeDefinitionIndex = 57206;
 
 	class EKNAMLIICMB
 	{

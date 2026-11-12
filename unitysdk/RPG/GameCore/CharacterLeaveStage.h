@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CharacterLeaveStage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERLEAVESTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D572370)
-#define RPG_GAMECORE_CHARACTERLEAVESTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D572380)
-#define RPG_GAMECORE_CHARACTERLEAVESTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D572330)
+#define RPG_GAMECORE_CHARACTERLEAVESTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E783380)
+#define RPG_GAMECORE_CHARACTERLEAVESTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E783390)
+#define RPG_GAMECORE_CHARACTERLEAVESTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E783340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterLeaveStage_TypeDefinitionIndex = 22747;
+	inline static constexpr unsigned int CharacterLeaveStage_TypeDefinitionIndex = 23169;
 
 	class CharacterLeaveStage : public ::RPG::GameCore::TaskConfig
 	{

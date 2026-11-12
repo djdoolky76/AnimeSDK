@@ -2,17 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CEPJLKLBKPL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F8660)
-#define CEPJLKLBKPL___C__DISPLAYCLASS3_0__ISNORMALPETBYID_B__0_OFFSET UNITYSDK_OFFSET(0xC9F8850)
+#define CEPJLKLBKPL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD35DC60)
+#define CEPJLKLBKPL___C__DISPLAYCLASS3_0__ISNORMALPETBYID_B__0_OFFSET UNITYSDK_OFFSET(0xD35DE50)
 
-inline static constexpr unsigned int CEPJLKLBKPL___c__DisplayClass3_0_TypeDefinitionIndex = 75677;
+inline static constexpr unsigned int CEPJLKLBKPL___c__DisplayClass3_0_TypeDefinitionIndex = 78004;
 
 	class CEPJLKLBKPL___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:
-		::System::Boolean found; // 0x10
-		::System::Byte _padding0[0x3];
-		::System::UInt32 petId; // 0x14
+		::System::UInt32 petId; // 0x10
+		::System::Boolean found; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CEPJLKLBKPL___C__DISPLAYCLASS3_0_CTOR_OFFSET))(this);

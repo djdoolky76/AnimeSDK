@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define GFJABFBIFKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x159FA7A0)
+#define GFJABFBIFKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x16934C30)
 
-inline static constexpr unsigned int GFJABFBIFKL_TypeDefinitionIndex = 80965;
+inline static constexpr unsigned int GFJABFBIFKL_TypeDefinitionIndex = 83745;
 
 	struct alignas(4) GFJABFBIFKL
 	{
@@ -14,7 +14,7 @@ inline static constexpr unsigned int GFJABFBIFKL_TypeDefinitionIndex = 80965;
 		::System::Single MHEHGCOIPIA; // 0x1C
 		static ::GFJABFBIFKL* StaticGet_GPKBJPNFGKI()
 		{
-			return (::GFJABFBIFKL*)UnitySDK::FromName("", "GFJABFBIFKL")->GetStaticField(0x137A0);
+			return (::GFJABFBIFKL*)UnitySDK::FromName("", "GFJABFBIFKL")->GetStaticField(0x14620);
 		}
 
 		static ::System::Void _cctor()

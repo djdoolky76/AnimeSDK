@@ -8,31 +8,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 namespace ZXing::Common { class BitMatrix; }
 
-#define ZXING_ONED_MSIWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C4A40)
-#define ZXING_ONED_MSIWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6B7620)
-#define ZXING_ONED_MSIWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x1F6C42F0)
-#define ZXING_ONED_MSIWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x1F6C4240)
+#define ZXING_ONED_MSIWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20974170)
+#define ZXING_ONED_MSIWRITER_CTOR_OFFSET UNITYSDK_OFFSET(0x20966D60)
+#define ZXING_ONED_MSIWRITER_ENCODE_1_OFFSET UNITYSDK_OFFSET(0x20973A20)
+#define ZXING_ONED_MSIWRITER_ENCODE_OFFSET UNITYSDK_OFFSET(0x20973970)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIWriter_TypeDefinitionIndex = 7012;
+	inline static constexpr unsigned int MSIWriter_TypeDefinitionIndex = 7023;
 
 	class MSIWriter : public ::ZXing::OneD::OneDimensionalCodeWriter
 	{
 	public:
-		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
-		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x22D90);
-		}
-
 		static ::Il2CppArray<::System::Int32>** StaticGet_startWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x22D98);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x43490);
+		}
+
+		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_numberWidths()
+		{
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x43498);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_endWidths()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x22DA0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIWriter")->GetStaticField(0x434A0);
 		}
 
 		::System::Void _ctor()

@@ -6,25 +6,25 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE7A5620)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE7A5660)
-#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__REFRESHFORMATIONINCAMERASPACE_B__186_0_OFFSET UNITYSDK_OFFSET(0xE7A5670)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF2A7640)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF2A7680)
+#define RPG_GAMECORE_TEAMFORMATIONCOMPONENT___C__REFRESHFORMATIONINCAMERASPACE_B__186_0_OFFSET UNITYSDK_OFFSET(0xF2A7690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationComponent___c_TypeDefinitionIndex = 57710;
+	inline static constexpr unsigned int TeamFormationComponent___c_TypeDefinitionIndex = 58943;
 
 	class TeamFormationComponent___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E0E0);
-		}
-
 		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Single>>** StaticGet___9__186_0()
 		{
-			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Single>>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6E0E8);
+			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::GameEntity*, ::System::Single>>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x73490);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x73498);
 		}
 
 		static ::System::Void _cctor()

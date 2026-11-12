@@ -4,36 +4,36 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
 
-#define RPG_CUSTOMRP_SHADOWUTILSEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC78B70)
-#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_FORCESHADOWPOINTSAMPLING_OFFSET UNITYSDK_OFFSET(0x1CC789E0)
-#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_SHADOWFORMAT_OFFSET UNITYSDK_OFFSET(0x1CC789B0)
-#define RPG_CUSTOMRP_SHADOWUTILSEXT_INIT_OFFSET UNITYSDK_OFFSET(0x1CC78A20)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE1FDA0)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_FORCESHADOWPOINTSAMPLING_OFFSET UNITYSDK_OFFSET(0x1DE1FC10)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT_GET_SHADOWFORMAT_OFFSET UNITYSDK_OFFSET(0x1DE1FBE0)
+#define RPG_CUSTOMRP_SHADOWUTILSEXT_INIT_OFFSET UNITYSDK_OFFSET(0x1DE1FC50)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShadowUtilsExt_TypeDefinitionIndex = 37903;
+	inline static constexpr unsigned int ShadowUtilsExt_TypeDefinitionIndex = 38832;
 
 	class ShadowUtilsExt : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Matrix4x4* StaticGet__textureScaleAndBias()
+		static ::UnityEngine::RenderTextureFormat* StaticGet__ShadowmapFormat()
 		{
-			return (::UnityEngine::Matrix4x4*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0xB840);
+			return (::UnityEngine::RenderTextureFormat*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0x9D40);
 		}
 
-		static ::System::Boolean* StaticGet__ForceShadowPointSampling()
+		static ::UnityEngine::Matrix4x4* StaticGet__textureScaleAndBias()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0xB880);
+			return (::UnityEngine::Matrix4x4*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0x9D44);
 		}
 
 		static ::System::Boolean* StaticGet_usesReversedZBuffer()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0xB881);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0x9D84);
 		}
 
-		static ::UnityEngine::RenderTextureFormat* StaticGet__ShadowmapFormat()
+		static ::System::Boolean* StaticGet__ForceShadowPointSampling()
 		{
-			return (::UnityEngine::RenderTextureFormat*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0xB884);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "ShadowUtilsExt")->GetStaticField(0x9D85);
 		}
 
 		static ::System::Void _cctor()

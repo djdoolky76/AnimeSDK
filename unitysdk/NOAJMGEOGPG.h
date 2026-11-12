@@ -5,10 +5,10 @@ class JCMJBMIKIFO;
 class KKGMHJNMOID;
 namespace System { class String; }
 
-#define NOAJMGEOGPG_CTOR_OFFSET UNITYSDK_OFFSET(0xBCDFCD0)
-#define NOAJMGEOGPG_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBCDFB80)
+#define NOAJMGEOGPG_CTOR_OFFSET UNITYSDK_OFFSET(0xC5CBC00)
+#define NOAJMGEOGPG_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xC5CBAB0)
 
-inline static constexpr unsigned int NOAJMGEOGPG_TypeDefinitionIndex = 79699;
+inline static constexpr unsigned int NOAJMGEOGPG_TypeDefinitionIndex = 82476;
 
 	class NOAJMGEOGPG : public ::System::Object
 	{

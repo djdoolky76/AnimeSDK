@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetTimelineEntityState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTIMELINEENTITYSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC8310)
-#define RPG_GAMECORE_SETTIMELINEENTITYSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC8320)
-#define RPG_GAMECORE_SETTIMELINEENTITYSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC82D0)
+#define RPG_GAMECORE_SETTIMELINEENTITYSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECDA1A0)
+#define RPG_GAMECORE_SETTIMELINEENTITYSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECDA1B0)
+#define RPG_GAMECORE_SETTIMELINEENTITYSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECDA160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTimelineEntityState_TypeDefinitionIndex = 20637;
+	inline static constexpr unsigned int SetTimelineEntityState_TypeDefinitionIndex = 20974;
 
 	class SetTimelineEntityState : public ::RPG::GameCore::TaskConfig
 	{

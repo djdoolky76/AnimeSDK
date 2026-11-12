@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::AI { class RVOAgent; }
 
-#define HNDIJDAJBNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAED110)
+#define HNDIJDAJBNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1B50)
 
-inline static constexpr unsigned int HNDIJDAJBNH_TypeDefinitionIndex = 42077;
+inline static constexpr unsigned int HNDIJDAJBNH_TypeDefinitionIndex = 43052;
 
 	class HNDIJDAJBNH : public ::System::Object
 	{

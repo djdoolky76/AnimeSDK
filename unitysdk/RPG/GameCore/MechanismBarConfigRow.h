@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MechanismBarConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MECHANISMBARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D871C00)
-#define RPG_GAMECORE_MECHANISMBARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8719A0)
+#define RPG_GAMECORE_MECHANISMBARCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8C370)
+#define RPG_GAMECORE_MECHANISMBARCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA8C110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MechanismBarConfigRow_TypeDefinitionIndex = 14121;
+	inline static constexpr unsigned int MechanismBarConfigRow_TypeDefinitionIndex = 14278;
 
 	class MechanismBarConfigRow : public ::System::Object
 	{

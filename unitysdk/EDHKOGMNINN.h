@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 class NNDFHGMECMG;
 namespace System { class String; }
 
-#define EDHKOGMNINN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD70CB0)
-#define EDHKOGMNINN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD70CF0)
-#define EDHKOGMNINN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD70C40)
+#define EDHKOGMNINN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF42300)
+#define EDHKOGMNINN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF42340)
+#define EDHKOGMNINN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF42290)
 
-inline static constexpr unsigned int EDHKOGMNINN_TypeDefinitionIndex = 20128;
+inline static constexpr unsigned int EDHKOGMNINN_TypeDefinitionIndex = 20462;
 
 	class EDHKOGMNINN : public ::RPG::GameCore::STTaskConfig
 	{
 	public:
 		::System::String* INMECGOAEEO; // 0x18
 		::Il2CppArray<::NNDFHGMECMG*>* HEBOJJJAHEE; // 0x20
-		::System::Single NJIGKOHDINP; // 0x28
-		::System::Single MBPCNEOIKIC; // 0x2C
+		::System::Single MBPCNEOIKIC; // 0x28
+		::System::Single NJIGKOHDINP; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDHKOGMNINN_CTOR_OFFSET))(this);

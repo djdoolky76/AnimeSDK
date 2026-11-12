@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define MGODMMLBALG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB92A430)
-#define MGODMMLBALG___C__DISPLAYCLASS9_0__HASRETURNTRIALAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xB92A520)
+#define MGODMMLBALG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1DDC90)
+#define MGODMMLBALG___C__DISPLAYCLASS9_0__HASRETURNTRIALAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xC1DDD80)
 
-inline static constexpr unsigned int MGODMMLBALG___c__DisplayClass9_0_TypeDefinitionIndex = 61890;
+inline static constexpr unsigned int MGODMMLBALG___c__DisplayClass9_0_TypeDefinitionIndex = 63297;
 
 	class MGODMMLBALG___c__DisplayClass9_0 : public ::System::Object
 	{

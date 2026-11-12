@@ -3,10 +3,10 @@
 class BDPMKFANNDM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODELIAEMAOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBD917C0)
-#define ODELIAEMAOD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD918A0)
+#define ODELIAEMAOD_CTOR_OFFSET UNITYSDK_OFFSET(0xC697D70)
+#define ODELIAEMAOD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC697E50)
 
-inline static constexpr unsigned int ODELIAEMAOD_TypeDefinitionIndex = 54153;
+inline static constexpr unsigned int ODELIAEMAOD_TypeDefinitionIndex = 55317;
 
 	class ODELIAEMAOD
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MIKGMGBHLEN_MOGLLCOGPGD_TypeDefinitionIndex = 25897;
+inline static constexpr unsigned int MIKGMGBHLEN_MOGLLCOGPGD_TypeDefinitionIndex = 26394;
 
 	enum class MIKGMGBHLEN_MOGLLCOGPGD : ::System::Int32
 	{

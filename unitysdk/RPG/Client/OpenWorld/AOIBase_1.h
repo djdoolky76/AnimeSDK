@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int AOIBase_1_TypeDefinitionIndex = 73887;
+	inline static constexpr unsigned int AOIBase_1_TypeDefinitionIndex = 76015;
 
 	template <typename T>
 	class AOIBase_1

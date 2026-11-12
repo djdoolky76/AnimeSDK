@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define OKDDAPEKFJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBED3790)
-#define OKDDAPEKFJH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xBED37F0)
+#define OKDDAPEKFJH_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CB310)
+#define OKDDAPEKFJH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xC7CB370)
 
-inline static constexpr unsigned int OKDDAPEKFJH_TypeDefinitionIndex = 49417;
+inline static constexpr unsigned int OKDDAPEKFJH_TypeDefinitionIndex = 50493;
 
 	class OKDDAPEKFJH
 	{

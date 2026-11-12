@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeCharacterTeleportConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAZECHARACTERTELEPORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D864310)
-#define RPG_GAMECORE_MAZECHARACTERTELEPORTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D864120)
+#define RPG_GAMECORE_MAZECHARACTERTELEPORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7EB60)
+#define RPG_GAMECORE_MAZECHARACTERTELEPORTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA7E970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeCharacterTeleportConfig_TypeDefinitionIndex = 17633;
+	inline static constexpr unsigned int MazeCharacterTeleportConfig_TypeDefinitionIndex = 17802;
 
 	class MazeCharacterTeleportConfig : public ::RPG::GameCore::JsonConfig
 	{

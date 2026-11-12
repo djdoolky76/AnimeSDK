@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GBAKLOAFCLP_TypeDefinitionIndex = 32633;
+inline static constexpr unsigned int GBAKLOAFCLP_TypeDefinitionIndex = 33548;
 
 	enum class GBAKLOAFCLP : ::System::Int32
 	{

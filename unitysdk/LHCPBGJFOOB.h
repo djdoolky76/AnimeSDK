@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSkillLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHCPBGJFOOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A9900)
-#define LHCPBGJFOOB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB6A9930)
+#define LHCPBGJFOOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF405C0)
+#define LHCPBGJFOOB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF405F0)
 
-inline static constexpr unsigned int LHCPBGJFOOB_TypeDefinitionIndex = 54566;
+inline static constexpr unsigned int LHCPBGJFOOB_TypeDefinitionIndex = 55731;
 
 	class LHCPBGJFOOB
 	{

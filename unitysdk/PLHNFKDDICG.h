@@ -6,20 +6,20 @@ namespace RPG::GameCore { class AdventureCameraLookAt; }
 namespace RPG::GameCore { class AdventureCameraLookAtSimple; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PLHNFKDDICG_CTOR_OFFSET UNITYSDK_OFFSET(0xC306890)
-#define PLHNFKDDICG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC306AF0)
-#define PLHNFKDDICG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC306BE0)
-#define PLHNFKDDICG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC3070D0)
-#define PLHNFKDDICG_TICK_OFFSET UNITYSDK_OFFSET(0xC306B40)
+#define PLHNFKDDICG_CTOR_OFFSET UNITYSDK_OFFSET(0xCC35750)
+#define PLHNFKDDICG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC359B0)
+#define PLHNFKDDICG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC35A80)
+#define PLHNFKDDICG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC35F40)
+#define PLHNFKDDICG_TICK_OFFSET UNITYSDK_OFFSET(0xCC35A10)
 
-inline static constexpr unsigned int PLHNFKDDICG_TypeDefinitionIndex = 54830;
+inline static constexpr unsigned int PLHNFKDDICG_TypeDefinitionIndex = 56000;
 
 	class PLHNFKDDICG : public ::GELIALJDFBL
 	{
 	public:
-		::JPIOEBIPJPC* GJBPIKOJDLM; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
-		::RPG::GameCore::AdventureCameraLookAt* ADKMHJGCAOH; // 0x28
+		::RPG::GameCore::AdventureCameraLookAt* ADKMHJGCAOH; // 0x18
+		::JPIOEBIPJPC* GJBPIKOJDLM; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureCameraLookAtSimple* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdventureCameraLookAtSimple*))((::PBYTE)hIl2Cpp + PLHNFKDDICG_CTOR_OFFSET))(this, a1, a2);

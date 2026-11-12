@@ -6,11 +6,11 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GELBKFKOLGG_CTOR_OFFSET UNITYSDK_OFFSET(0x159E0740)
-#define GELBKFKOLGG_KBMHMHFNPNF_OFFSET UNITYSDK_OFFSET(0x159E0840)
-#define GELBKFKOLGG_PGLILDGJEFA_OFFSET UNITYSDK_OFFSET(0x159E07C0)
+#define GELBKFKOLGG_CTOR_OFFSET UNITYSDK_OFFSET(0x169197D0)
+#define GELBKFKOLGG_KBMHMHFNPNF_OFFSET UNITYSDK_OFFSET(0x169198D0)
+#define GELBKFKOLGG_PGLILDGJEFA_OFFSET UNITYSDK_OFFSET(0x16919850)
 
-inline static constexpr unsigned int GELBKFKOLGG_TypeDefinitionIndex = 78986;
+inline static constexpr unsigned int GELBKFKOLGG_TypeDefinitionIndex = 81762;
 
 	class GELBKFKOLGG : public ::GNELPKKAEBC
 	{

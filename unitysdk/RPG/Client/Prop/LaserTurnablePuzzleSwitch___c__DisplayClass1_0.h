@@ -4,18 +4,18 @@
 namespace RPG::Client::Prop { class LaserTurnablePuzzleSwitch; }
 namespace RPG::Client::Prop { class LaserTurnableSelectParamData; }
 
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD1E350)
-#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0xDD1F250)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE77BBC0)
+#define RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0__INITSWITCH_B__1_OFFSET UNITYSDK_OFFSET(0xE77CAC0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int LaserTurnablePuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 78676;
+	inline static constexpr unsigned int LaserTurnablePuzzleSwitch___c__DisplayClass1_0_TypeDefinitionIndex = 81411;
 
 	class LaserTurnablePuzzleSwitch___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::LaserTurnablePuzzleSwitch* __4__this; // 0x10
-		::RPG::Client::Prop::LaserTurnableSelectParamData* p; // 0x18
+		::RPG::Client::Prop::LaserTurnableSelectParamData* p; // 0x10
+		::RPG::Client::Prop::LaserTurnablePuzzleSwitch* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_LASERTURNABLEPUZZLESWITCH___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

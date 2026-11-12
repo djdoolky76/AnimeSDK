@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetControlSkillMapping; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCONTROLSKILLMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9D790)
-#define RPG_GAMECORE_SETCONTROLSKILLMAPPING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9D7A0)
-#define RPG_GAMECORE_SETCONTROLSKILLMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9D760)
+#define RPG_GAMECORE_SETCONTROLSKILLMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECAFA30)
+#define RPG_GAMECORE_SETCONTROLSKILLMAPPING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECAFA40)
+#define RPG_GAMECORE_SETCONTROLSKILLMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECAFA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetControlSkillMapping_TypeDefinitionIndex = 22711;
+	inline static constexpr unsigned int SetControlSkillMapping_TypeDefinitionIndex = 23133;
 
 	class SetControlSkillMapping : public ::RPG::GameCore::TaskConfig
 	{

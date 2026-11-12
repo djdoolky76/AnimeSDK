@@ -4,20 +4,20 @@
 class LBJLBMOOJGM;
 namespace System { class Object; }
 
-#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_FINALITYBATTLEHOST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3F8370)
-#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_FINALITYBATTLEHOST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3F83A0)
-#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_FINALITYBATTLEHOST___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC3F83B0)
+#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_FINALITYBATTLEHOST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD32670)
+#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_FINALITYBATTLEHOST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD326A0)
+#define RPG_CLIENT_ACTIVITYFINALITYBATTLE_FINALITYBATTLEHOST___C___CCTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xCD326B0)
 
 namespace RPG::Client::ActivityFinalityBattle
 {
-	inline static constexpr unsigned int FinalityBattleHost___c_TypeDefinitionIndex = 82061;
+	inline static constexpr unsigned int FinalityBattleHost___c_TypeDefinitionIndex = 84934;
 
 	class FinalityBattleHost___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityFinalityBattle", "<>c")->GetStaticField(0x15D60);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityFinalityBattle", "<>c")->GetStaticField(0x13B50);
 		}
 
 		static ::System::Void _cctor()

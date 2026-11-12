@@ -4,18 +4,18 @@
 class HODNCFNOPDA;
 namespace System { class Object; }
 
-#define HODNCFNOPDA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5E7220)
-#define HODNCFNOPDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E7250)
-#define HODNCFNOPDA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5E7260)
+#define HODNCFNOPDA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8E3A50)
+#define HODNCFNOPDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8E3A80)
+#define HODNCFNOPDA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F8E3A90)
 
-inline static constexpr unsigned int HODNCFNOPDA___c_TypeDefinitionIndex = 27854;
+inline static constexpr unsigned int HODNCFNOPDA___c_TypeDefinitionIndex = 28431;
 
 	class HODNCFNOPDA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FE00);
 		}
 
 		static ::System::Void _cctor()

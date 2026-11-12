@@ -5,12 +5,12 @@ namespace RPG::Client { class IAdventureSettingConflictShowInfo; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PALDMOMCCNK_APCNFHOHMPP_OFFSET UNITYSDK_OFFSET(0xBFD1BD0)
-#define PALDMOMCCNK_CTOR_OFFSET UNITYSDK_OFFSET(0xBFD1D30)
-#define PALDMOMCCNK_HIEIGBIMEMN_OFFSET UNITYSDK_OFFSET(0xBFD1B80)
-#define PALDMOMCCNK_OLNIGDNNKLM_OFFSET UNITYSDK_OFFSET(0xBFD1C60)
+#define PALDMOMCCNK_APCNFHOHMPP_OFFSET UNITYSDK_OFFSET(0xC8D4A70)
+#define PALDMOMCCNK_CTOR_OFFSET UNITYSDK_OFFSET(0xC8D4BB0)
+#define PALDMOMCCNK_HIEIGBIMEMN_OFFSET UNITYSDK_OFFSET(0xC8D4A20)
+#define PALDMOMCCNK_OLNIGDNNKLM_OFFSET UNITYSDK_OFFSET(0xC8D4AE0)
 
-inline static constexpr unsigned int PALDMOMCCNK_TypeDefinitionIndex = 64213;
+inline static constexpr unsigned int PALDMOMCCNK_TypeDefinitionIndex = 65658;
 
 	class PALDMOMCCNK : public ::System::Object
 	{

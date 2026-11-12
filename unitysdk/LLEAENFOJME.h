@@ -3,10 +3,10 @@
 class JEBDGFNFEND;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLEAENFOJME_CTOR_OFFSET UNITYSDK_OFFSET(0xB764770)
-#define LLEAENFOJME_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7647A0)
+#define LLEAENFOJME_CTOR_OFFSET UNITYSDK_OFFSET(0xC003EE0)
+#define LLEAENFOJME_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC003F10)
 
-inline static constexpr unsigned int LLEAENFOJME_TypeDefinitionIndex = 53842;
+inline static constexpr unsigned int LLEAENFOJME_TypeDefinitionIndex = 55006;
 
 	class LLEAENFOJME
 	{

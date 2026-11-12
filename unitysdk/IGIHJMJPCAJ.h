@@ -7,18 +7,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Component; }
 
-#define IGIHJMJPCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1640FBA0)
-#define IGIHJMJPCAJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1640F8D0)
-#define IGIHJMJPCAJ_IHOIDNEEMKC_OFFSET UNITYSDK_OFFSET(0x1640F770)
-#define IGIHJMJPCAJ_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x1640F630)
+#define IGIHJMJPCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x173BFC70)
+#define IGIHJMJPCAJ_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x173BF9A0)
+#define IGIHJMJPCAJ_IHOIDNEEMKC_OFFSET UNITYSDK_OFFSET(0x173BF840)
+#define IGIHJMJPCAJ_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x173BF700)
 
-inline static constexpr unsigned int IGIHJMJPCAJ_TypeDefinitionIndex = 65958;
+inline static constexpr unsigned int IGIHJMJPCAJ_TypeDefinitionIndex = 67890;
 
 	class IGIHJMJPCAJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::ACKABEKCMOH*>* EDOMPLHAILA; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::ACKABEKCMOH*>* KEKLDOLJKBF; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::ACKABEKCMOH*>* KEKLDOLJKBF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::ACKABEKCMOH*>* EDOMPLHAILA; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IGIHJMJPCAJ_CTOR_OFFSET))(this);

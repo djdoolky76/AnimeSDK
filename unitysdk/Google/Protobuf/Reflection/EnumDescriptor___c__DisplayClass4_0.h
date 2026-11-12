@@ -6,18 +6,18 @@ namespace Google::Protobuf::Reflection { class EnumValueDescriptor; }
 namespace Google::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B86E6E0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1B86E9A0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F76E0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1C9F79A0)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 5533;
+	inline static constexpr unsigned int EnumDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 5538;
 
 	class EnumDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Reflection::EnumDescriptor* __4__this; // 0x10
-		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x18
+		::Google::Protobuf::Reflection::FileDescriptor* file; // 0x10
+		::Google::Protobuf::Reflection::EnumDescriptor* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOOGLE_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

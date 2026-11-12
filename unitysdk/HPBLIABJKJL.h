@@ -6,21 +6,21 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitForWithTaskList; }
 
-#define HPBLIABJKJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC1150)
-#define HPBLIABJKJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DC1280)
-#define HPBLIABJKJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DC13E0)
-#define HPBLIABJKJL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15DC15A0)
-#define HPBLIABJKJL_TICK_OFFSET UNITYSDK_OFFSET(0x15DC15F0)
+#define HPBLIABJKJL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D65350)
+#define HPBLIABJKJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16D65480)
+#define HPBLIABJKJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D655E0)
+#define HPBLIABJKJL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16D65750)
+#define HPBLIABJKJL_TICK_OFFSET UNITYSDK_OFFSET(0x16D657A0)
 
-inline static constexpr unsigned int HPBLIABJKJL_TypeDefinitionIndex = 58895;
+inline static constexpr unsigned int HPBLIABJKJL_TypeDefinitionIndex = 60167;
 
 	class HPBLIABJKJL : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* NDOFCGDDHHD; // 0x18
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::RPG::GameCore::WaitForWithTaskList* OFKGLJOAMLD; // 0x30
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x18
+		::KFELGAIGHAP* NDOFCGDDHHD; // 0x20
+		::RPG::GameCore::WaitForWithTaskList* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitForWithTaskList* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitForWithTaskList*))((::PBYTE)hIl2Cpp + HPBLIABJKJL_CTOR_OFFSET))(this, a1, a2);

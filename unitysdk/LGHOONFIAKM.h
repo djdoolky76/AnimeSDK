@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RewindTimeRewindTargetInRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGHOONFIAKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB697F60)
-#define LGHOONFIAKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB697F90)
+#define LGHOONFIAKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2F0A0)
+#define LGHOONFIAKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF2F0D0)
 
-inline static constexpr unsigned int LGHOONFIAKM_TypeDefinitionIndex = 53387;
+inline static constexpr unsigned int LGHOONFIAKM_TypeDefinitionIndex = 54549;
 
 	class LGHOONFIAKM
 	{

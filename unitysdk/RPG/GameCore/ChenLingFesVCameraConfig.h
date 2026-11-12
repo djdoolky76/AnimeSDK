@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingFesVCameraConfig; }
 
-#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D590FA0)
-#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D58DFC0)
+#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A1170)
+#define RPG_GAMECORE_CHENLINGFESVCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E79DD40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesVCameraConfig_TypeDefinitionIndex = 18428;
+	inline static constexpr unsigned int ChenLingFesVCameraConfig_TypeDefinitionIndex = 18588;
 
 	class ChenLingFesVCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

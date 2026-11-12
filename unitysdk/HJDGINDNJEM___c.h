@@ -4,29 +4,29 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HJDGINDNJEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D0CF40)
-#define HJDGINDNJEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15D0CF70)
-#define HJDGINDNJEM___C__FROMHTTP_B__2_0_OFFSET UNITYSDK_OFFSET(0x15D0CF90)
-#define HJDGINDNJEM___C__FROMSERVERARCHIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0x15D0CF80)
+#define HJDGINDNJEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C5D190)
+#define HJDGINDNJEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16C5D1C0)
+#define HJDGINDNJEM___C__FROMHTTP_B__2_0_OFFSET UNITYSDK_OFFSET(0x16C5D1E0)
+#define HJDGINDNJEM___C__FROMSERVERARCHIVE_B__1_0_OFFSET UNITYSDK_OFFSET(0x16C5D1D0)
 
-inline static constexpr unsigned int HJDGINDNJEM___c_TypeDefinitionIndex = 67523;
+inline static constexpr unsigned int HJDGINDNJEM___c_TypeDefinitionIndex = 69467;
 
 	class HJDGINDNJEM___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D660);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D668);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFD0);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFD8);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D670);
+			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFFE0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,9 +5,9 @@ class FCFKPLDONLO;
 namespace RPG::GameCore { class HoyoTag; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KJNNFEKEANF_CTOR_OFFSET UNITYSDK_OFFSET(0xB45E250)
+#define KJNNFEKEANF_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF62C0)
 
-inline static constexpr unsigned int KJNNFEKEANF_TypeDefinitionIndex = 73844;
+inline static constexpr unsigned int KJNNFEKEANF_TypeDefinitionIndex = 75970;
 
 	class KJNNFEKEANF : public ::System::Object
 	{

@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define OJMGONHMBLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEC7840)
-#define OJMGONHMBLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEC7870)
-#define OJMGONHMBLC___C__INITIAL_B__63_0_OFFSET UNITYSDK_OFFSET(0xBEC7880)
+#define OJMGONHMBLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7BEE70)
+#define OJMGONHMBLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7BEEA0)
+#define OJMGONHMBLC___C__INITIAL_B__63_0_OFFSET UNITYSDK_OFFSET(0xC7BEEB0)
 
-inline static constexpr unsigned int OJMGONHMBLC___c_TypeDefinitionIndex = 74001;
+inline static constexpr unsigned int OJMGONHMBLC___c_TypeDefinitionIndex = 76137;
 
 	class OJMGONHMBLC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x548F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56220);
 		}
 
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__63_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x548F8);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56228);
 		}
 
 		static ::System::Void _cctor()

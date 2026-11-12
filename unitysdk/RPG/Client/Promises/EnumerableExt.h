@@ -4,7 +4,7 @@
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 9870;
+	inline static constexpr unsigned int EnumerableExt_TypeDefinitionIndex = 9878;
 
 	class EnumerableExt : public ::System::Object
 	{

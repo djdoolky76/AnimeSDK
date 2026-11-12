@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ShowAttackTime; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWATTACKTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD6BF0)
-#define RPG_GAMECORE_SHOWATTACKTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD6C00)
-#define RPG_GAMECORE_SHOWATTACKTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD6BC0)
+#define RPG_GAMECORE_SHOWATTACKTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE8A00)
+#define RPG_GAMECORE_SHOWATTACKTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECE8A10)
+#define RPG_GAMECORE_SHOWATTACKTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE89D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowAttackTime_TypeDefinitionIndex = 22930;
+	inline static constexpr unsigned int ShowAttackTime_TypeDefinitionIndex = 23356;
 
 	class ShowAttackTime : public ::RPG::GameCore::TaskConfig
 	{

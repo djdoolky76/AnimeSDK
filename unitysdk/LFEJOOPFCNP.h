@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RandomSelectPropState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LFEJOOPFCNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB668BE0)
-#define LFEJOOPFCNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB668C10)
+#define LFEJOOPFCNP_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFE4F0)
+#define LFEJOOPFCNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFE520)
 
-inline static constexpr unsigned int LFEJOOPFCNP_TypeDefinitionIndex = 53195;
+inline static constexpr unsigned int LFEJOOPFCNP_TypeDefinitionIndex = 54357;
 
 	class LFEJOOPFCNP
 	{

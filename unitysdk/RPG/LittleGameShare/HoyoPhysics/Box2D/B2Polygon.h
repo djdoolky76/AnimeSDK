@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Polygon_TypeDefinitionIndex = 36727;
+	inline static constexpr unsigned int B2Polygon_TypeDefinitionIndex = 37655;
 
 	struct alignas(8) B2Polygon
 	{

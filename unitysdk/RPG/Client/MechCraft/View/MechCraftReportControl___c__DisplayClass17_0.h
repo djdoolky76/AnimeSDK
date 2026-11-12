@@ -8,19 +8,19 @@ namespace RPG::Client::MechCraft::View { class MechCraftReportControl; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREPORTCONTROL___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD65ADB0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREPORTCONTROL___C__DISPLAYCLASS17_0___REFRESHCMDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xD65B0D0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREPORTCONTROL___C__DISPLAYCLASS17_0___REFRESHCMDLIST_G__ONITEMCHANGE_1_OFFSET UNITYSDK_OFFSET(0xD65B0E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREPORTCONTROL___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0E9910)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREPORTCONTROL___C__DISPLAYCLASS17_0___REFRESHCMDLIST_B__0_OFFSET UNITYSDK_OFFSET(0xE0E9C30)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREPORTCONTROL___C__DISPLAYCLASS17_0___REFRESHCMDLIST_G__ONITEMCHANGE_1_OFFSET UNITYSDK_OFFSET(0xE0E9C40)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftReportControl___c__DisplayClass17_0_TypeDefinitionIndex = 80026;
+	inline static constexpr unsigned int MechCraftReportControl___c__DisplayClass17_0_TypeDefinitionIndex = 82803;
 
 	class MechCraftReportControl___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* cmts; // 0x10
-		::RPG::Client::MechCraft::View::MechCraftReportControl* __4__this; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftReportControl* __4__this; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* cmts; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTREPORTCONTROL___C__DISPLAYCLASS17_0_CTOR_OFFSET))(this);

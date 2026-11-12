@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int EDebugPlatform_TypeDefinitionIndex = 37525;
+	inline static constexpr unsigned int EDebugPlatform_TypeDefinitionIndex = 38453;
 
 	enum class EDebugPlatform : ::System::Int32
 	{

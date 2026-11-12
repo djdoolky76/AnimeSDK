@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityQuestTabGroupUIRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D374C80)
-#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D374B00)
+#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E583EB0)
+#define RPG_GAMECORE_ACTIVITYQUESTTABGROUPUIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E583D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestTabGroupUIRow_TypeDefinitionIndex = 12309;
+	inline static constexpr unsigned int ActivityQuestTabGroupUIRow_TypeDefinitionIndex = 12366;
 
 	class ActivityQuestTabGroupUIRow : public ::System::Object
 	{

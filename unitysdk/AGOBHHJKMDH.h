@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByScoringID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGOBHHJKMDH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF46050)
-#define AGOBHHJKMDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF46130)
+#define AGOBHHJKMDH_CTOR_OFFSET UNITYSDK_OFFSET(0xF134DC0)
+#define AGOBHHJKMDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF134EA0)
 
-inline static constexpr unsigned int AGOBHHJKMDH_TypeDefinitionIndex = 55464;
+inline static constexpr unsigned int AGOBHHJKMDH_TypeDefinitionIndex = 56652;
 
 	class AGOBHHJKMDH
 	{

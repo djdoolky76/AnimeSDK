@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BICALEAAKEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB4950D0)
+#define BICALEAAKEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE282A0)
 
-inline static constexpr unsigned int BICALEAAKEL_TypeDefinitionIndex = 67791;
+inline static constexpr unsigned int BICALEAAKEL_TypeDefinitionIndex = 69736;
 
 	class BICALEAAKEL : public ::System::Object
 	{

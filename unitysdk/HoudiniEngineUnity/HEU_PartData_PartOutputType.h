@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PartData_PartOutputType_TypeDefinitionIndex = 40417;
+	inline static constexpr unsigned int HEU_PartData_PartOutputType_TypeDefinitionIndex = 41392;
 
 	enum class HEU_PartData_PartOutputType : ::System::Int32
 	{

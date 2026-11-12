@@ -5,10 +5,10 @@
 class PKOHBLEGMAO;
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define EJEHMADBFKN_CTOR_OFFSET UNITYSDK_OFFSET(0x154D8490)
-#define EJEHMADBFKN_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x154D84A0)
+#define EJEHMADBFKN_CTOR_OFFSET UNITYSDK_OFFSET(0x16418DD0)
+#define EJEHMADBFKN_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x16418DE0)
 
-inline static constexpr unsigned int EJEHMADBFKN_TypeDefinitionIndex = 67077;
+inline static constexpr unsigned int EJEHMADBFKN_TypeDefinitionIndex = 69021;
 
 	class EJEHMADBFKN : public ::KJNJKIMNDMH
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GIOEJLBCJIE;
 
-#define OIOBCPKMFAK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA3150)
-#define OIOBCPKMFAK___C__DISPLAYCLASS4_0__UNLIKECHIMERA_B__0_OFFSET UNITYSDK_OFFSET(0xBEA3520)
+#define OIOBCPKMFAK___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7994D0)
+#define OIOBCPKMFAK___C__DISPLAYCLASS4_0__UNLIKECHIMERA_B__0_OFFSET UNITYSDK_OFFSET(0xC7998A0)
 
-inline static constexpr unsigned int OIOBCPKMFAK___c__DisplayClass4_0_TypeDefinitionIndex = 78450;
+inline static constexpr unsigned int OIOBCPKMFAK___c__DisplayClass4_0_TypeDefinitionIndex = 81185;
 
 	class OIOBCPKMFAK___c__DisplayClass4_0 : public ::System::Object
 	{

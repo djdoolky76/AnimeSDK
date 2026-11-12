@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Keyframe.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROOTMOTIONBAKER_AGFLDJADDND_CTOR_OFFSET UNITYSDK_OFFSET(0xE06D880)
+#define RPG_CLIENT_ROOTMOTIONBAKER_AGFLDJADDND_CTOR_OFFSET UNITYSDK_OFFSET(0xEAD7CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RootMotionBaker_AGFLDJADDND_TypeDefinitionIndex = 68818;
+	inline static constexpr unsigned int RootMotionBaker_AGFLDJADDND_TypeDefinitionIndex = 70770;
 
 	class RootMotionBaker_AGFLDJADDND : public ::System::Object
 	{

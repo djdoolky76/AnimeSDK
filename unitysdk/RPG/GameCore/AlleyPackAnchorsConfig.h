@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyPackAnchorsConfig; }
 
-#define RPG_GAMECORE_ALLEYPACKANCHORSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E9C20)
-#define RPG_GAMECORE_ALLEYPACKANCHORSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3E99E0)
+#define RPG_GAMECORE_ALLEYPACKANCHORSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E609F80)
+#define RPG_GAMECORE_ALLEYPACKANCHORSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E609DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyPackAnchorsConfig_TypeDefinitionIndex = 15684;
+	inline static constexpr unsigned int AlleyPackAnchorsConfig_TypeDefinitionIndex = 15842;
 
 	class AlleyPackAnchorsConfig : public ::RPG::GameCore::JsonConfig
 	{

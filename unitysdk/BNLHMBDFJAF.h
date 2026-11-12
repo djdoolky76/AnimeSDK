@@ -3,9 +3,9 @@
 #include "unitysdk/DJJKNHPLHDI.h"
 class FDPALAEIHPB;
 
-#define BNLHMBDFJAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BD6A0)
+#define BNLHMBDFJAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3E3C0)
 
-inline static constexpr unsigned int BNLHMBDFJAF_TypeDefinitionIndex = 42879;
+inline static constexpr unsigned int BNLHMBDFJAF_TypeDefinitionIndex = 43860;
 
 	class BNLHMBDFJAF : public ::DJJKNHPLHDI
 	{

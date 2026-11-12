@@ -8,26 +8,26 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelEpic; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF27F20)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__0_OFFSET UNITYSDK_OFFSET(0x1BF28EF0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__1_OFFSET UNITYSDK_OFFSET(0x1BF299A0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__2_OFFSET UNITYSDK_OFFSET(0x1BF29A50)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__3_OFFSET UNITYSDK_OFFSET(0x1BF29B00)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__4_OFFSET UNITYSDK_OFFSET(0x1BF298F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AEAB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__0_OFFSET UNITYSDK_OFFSET(0x1D0AFA80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__1_OFFSET UNITYSDK_OFFSET(0x1D0B0540)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__2_OFFSET UNITYSDK_OFFSET(0x1D0B05F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__3_OFFSET UNITYSDK_OFFSET(0x1D0B06A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0__EXECUTECHECKOUT_B__4_OFFSET UNITYSDK_OFFSET(0x1D0B0490)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelEpic___c__DisplayClass19_0_TypeDefinitionIndex = 8523;
+	inline static constexpr unsigned int HoYoChannelEpic___c__DisplayClass19_0_TypeDefinitionIndex = 8532;
 
 	class HoYoChannelEpic___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::System::Action* __9__1; // 0x18
-		::System::Action* __9__3; // 0x20
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__4; // 0x28
-		::MiHoYo::SDK::PC::OS::HoYoChannelEpic* __4__this; // 0x30
-		::MiHoYo::SDK::PC::OS::EpicPayInfo* payInfo; // 0x38
+		::MiHoYo::SDK::PC::OS::HoYoChannelEpic* __4__this; // 0x10
+		::MiHoYo::SDK::PC::OS::EpicPayInfo* payInfo; // 0x18
+		::System::Action* __9__1; // 0x20
+		::System::Action* __9__2; // 0x28
+		::System::Action* __9__3; // 0x30
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* __9__4; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS19_0_CTOR_OFFSET))(this);

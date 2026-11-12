@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IBOLNDGHCBB_State_TypeDefinitionIndex = 60992;
+inline static constexpr unsigned int IBOLNDGHCBB_State_TypeDefinitionIndex = 62368;
 
 	enum class IBOLNDGHCBB_State : ::System::Int32
 	{

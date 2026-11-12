@@ -10,40 +10,39 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define EBCNJEFOMCG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEC380)
-#define EBCNJEFOMCG_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x12CEB340)
-#define EBCNJEFOMCG_FACCLOOBKPP_OFFSET UNITYSDK_OFFSET(0x12CEB700)
-#define EBCNJEFOMCG_JINBNAIKBKK_OFFSET UNITYSDK_OFFSET(0x12CEB660)
-#define EBCNJEFOMCG_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x12CEB3D0)
-#define EBCNJEFOMCG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x12CEB5B0)
-#define EBCNJEFOMCG_ODKDBHMADCD_OFFSET UNITYSDK_OFFSET(0x12CEC040)
-#define EBCNJEFOMCG__ONBIND_OFFSET UNITYSDK_OFFSET(0x12CEB070)
+#define EBCNJEFOMCG_CTOR_OFFSET UNITYSDK_OFFSET(0x13A9D400)
+#define EBCNJEFOMCG_FACCLOOBKPP_OFFSET UNITYSDK_OFFSET(0x13A9C810)
+#define EBCNJEFOMCG_JINBNAIKBKK_OFFSET UNITYSDK_OFFSET(0x13A9C770)
+#define EBCNJEFOMCG_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x13A9C6C0)
+#define EBCNJEFOMCG_ODKDBHMADCD_OFFSET UNITYSDK_OFFSET(0x13A9D150)
+#define EBCNJEFOMCG__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x13A9C4E0)
+#define EBCNJEFOMCG__ONBIND_OFFSET UNITYSDK_OFFSET(0x13A9BED0)
+#define EBCNJEFOMCG__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x13A9C450)
 
-inline static constexpr unsigned int EBCNJEFOMCG_TypeDefinitionIndex = 71281;
+inline static constexpr unsigned int EBCNJEFOMCG_TypeDefinitionIndex = 73258;
 
 	class EBCNJEFOMCG : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* NNOFBCONNJB; // 0x60
+		::UnityEngine::Transform* EMIPBGCMPIA; // 0x60
 		::UnityEngine::Animation* GDEKNJJAIDF; // 0x68
-		::UnityEngine::Transform* KLGICMFOPMB; // 0x70
-		::UnityEngine::Transform* NJFPFGJBLMK; // 0x78
-		::UnityEngine::UI::Text* OEDDILBGNBF; // 0x80
-		::UnityEngine::Transform* LCOCMEGDCJP; // 0x88
-		::UnityEngine::Transform* FFGCALGHHEI; // 0x90
-		::UnityEngine::Animation* JEPJPCFCNED; // 0x98
-		::UnityEngine::UI::Text* PCLBOPLDNDI; // 0xA0
-		::UnityEngine::Transform* ACINICIHNBP; // 0xA8
-		::UnityEngine::UI::Image* ACGAIFJHJOO; // 0xB0
-		::MADHNHEMBOJ* PKIGHMIMJLF; // 0xB8
-		::UnityEngine::Transform* ADEHCLGMPJN; // 0xC0
-		::UnityEngine::Transform* EMIPBGCMPIA; // 0xC8
-		::UnityEngine::Transform* OCJAAFKJCNL; // 0xD0
+		::UnityEngine::Transform* FFGCALGHHEI; // 0x70
+		::UnityEngine::Transform* ADEHCLGMPJN; // 0x78
+		::UnityEngine::Transform* KLGICMFOPMB; // 0x80
+		::UnityEngine::Transform* NJFPFGJBLMK; // 0x88
+		::UnityEngine::UI::Text* PCLBOPLDNDI; // 0x90
+		::UnityEngine::Transform* LCOCMEGDCJP; // 0x98
+		::UnityEngine::UI::Image* NNOFBCONNJB; // 0xA0
+		::UnityEngine::Animation* JEPJPCFCNED; // 0xA8
+		::UnityEngine::UI::Text* OEDDILBGNBF; // 0xB0
+		::UnityEngine::Transform* ACINICIHNBP; // 0xB8
+		::UnityEngine::UI::Image* ACGAIFJHJOO; // 0xC0
+		::UnityEngine::Transform* OCJAAFKJCNL; // 0xC8
+		::MADHNHEMBOJ* PKIGHMIMJLF; // 0xD0
 		::System::Single DPLDFNFHAJL; // 0xD8
-		::UnityEngine::Color DAOFNJALEOL; // 0xDC
-		::System::Boolean JIEJLKLFJOL; // 0xEC
-		::System::Byte _padding0[0x3];
-		::UnityEngine::Color ABMKBPJEJDC; // 0xF0
+		::UnityEngine::Color ABMKBPJEJDC; // 0xDC
+		::UnityEngine::Color DAOFNJALEOL; // 0xEC
+		::System::Boolean JIEJLKLFJOL; // 0xFC
 		// static const ::System::String* NFENFKACJNL; // 0x0
 		::System::Void _ctor()
 		{
@@ -55,14 +54,14 @@ inline static constexpr unsigned int EBCNJEFOMCG_TypeDefinitionIndex = 71281;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBCNJEFOMCG__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBCNJEFOMCG_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBCNJEFOMCG__SETUPVIEW_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBCNJEFOMCG_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBCNJEFOMCG__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void NKPPGDENJAE(::GEDMHFPPBHN* a1)

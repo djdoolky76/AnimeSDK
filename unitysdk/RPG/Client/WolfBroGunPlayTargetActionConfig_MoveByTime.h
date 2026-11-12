@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class JNKPPLPLFOM;
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE475DF0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE475D70)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xEF34C90)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_MOVEBYTIME_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xEF34C10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_MoveByTime_TypeDefinitionIndex = 68709;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_MoveByTime_TypeDefinitionIndex = 70661;
 
 	class WolfBroGunPlayTargetActionConfig_MoveByTime : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

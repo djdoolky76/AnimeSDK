@@ -6,12 +6,12 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::UINavigation { class UINavigationButton; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE40E1E0)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE40DB10)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xEEC96E0)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xEEC9010)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int FriendChatContactControl_TypeDefinitionIndex = 73433;
+	inline static constexpr unsigned int FriendChatContactControl_TypeDefinitionIndex = 75556;
 
 	class FriendChatContactControl
 	{

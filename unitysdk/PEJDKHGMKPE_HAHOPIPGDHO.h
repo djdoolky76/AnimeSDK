@@ -4,7 +4,7 @@
 class BOJOBHMEEIH;
 namespace System { class Object; }
 
-inline static constexpr unsigned int PEJDKHGMKPE_HAHOPIPGDHO_TypeDefinitionIndex = 50019;
+inline static constexpr unsigned int PEJDKHGMKPE_HAHOPIPGDHO_TypeDefinitionIndex = 51067;
 
 	class PEJDKHGMKPE_HAHOPIPGDHO : public ::System::Object
 	{

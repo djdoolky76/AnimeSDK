@@ -4,9 +4,9 @@
 class BCOEGNBGJFC;
 class EIAKOPHIHOA;
 
-#define CDKAPNMIEPJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC76B250)
+#define CDKAPNMIEPJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD0D4280)
 
-inline static constexpr unsigned int CDKAPNMIEPJ_TypeDefinitionIndex = 67359;
+inline static constexpr unsigned int CDKAPNMIEPJ_TypeDefinitionIndex = 69303;
 
 	class CDKAPNMIEPJ : public ::System::Object
 	{

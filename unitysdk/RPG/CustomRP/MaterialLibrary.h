@@ -5,26 +5,26 @@ namespace RPG::CustomRP { class CustomPostProcessData; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Shader; }
 
-#define RPG_CUSTOMRP_MATERIALLIBRARY_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1CC37200)
-#define RPG_CUSTOMRP_MATERIALLIBRARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC36FD0)
-#define RPG_CUSTOMRP_MATERIALLIBRARY_LOAD_OFFSET UNITYSDK_OFFSET(0x1CC370E0)
+#define RPG_CUSTOMRP_MATERIALLIBRARY_CLEANUP_OFFSET UNITYSDK_OFFSET(0x1DDDE670)
+#define RPG_CUSTOMRP_MATERIALLIBRARY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDE440)
+#define RPG_CUSTOMRP_MATERIALLIBRARY_LOAD_OFFSET UNITYSDK_OFFSET(0x1DDDE550)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MaterialLibrary_TypeDefinitionIndex = 37773;
+	inline static constexpr unsigned int MaterialLibrary_TypeDefinitionIndex = 38702;
 
 	class MaterialLibrary : public ::System::Object
 	{
 	public:
-		::UnityEngine::Material* fxaa; // 0x10
-		::UnityEngine::Material* PPLensGlitch2; // 0x18
-		::UnityEngine::Material* motionBlur; // 0x20
-		::UnityEngine::Material* lensFlare; // 0x28
-		::UnityEngine::Material* uber; // 0x30
-		::UnityEngine::Material* PPPatern; // 0x38
-		::UnityEngine::Material* PPLensGlitch; // 0x40
-		::UnityEngine::Material* smaa; // 0x48
-		::UnityEngine::Material* lut2DBaker; // 0x50
+		::UnityEngine::Material* PPPatern; // 0x10
+		::UnityEngine::Material* PPLensGlitch; // 0x18
+		::UnityEngine::Material* smaa; // 0x20
+		::UnityEngine::Material* PPLensGlitch2; // 0x28
+		::UnityEngine::Material* motionBlur; // 0x30
+		::UnityEngine::Material* lensFlare; // 0x38
+		::UnityEngine::Material* uber; // 0x40
+		::UnityEngine::Material* lut2DBaker; // 0x48
+		::UnityEngine::Material* fxaa; // 0x50
 		::System::Void _ctor(::RPG::CustomRP::CustomPostProcessData* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::CustomPostProcessData*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_MATERIALLIBRARY_CTOR_OFFSET))(this, a1);

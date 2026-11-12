@@ -4,10 +4,10 @@
 class ILOOAAOHIIG;
 class MCKHEFFODHO;
 
-#define MCKHEFFODHO___C__DISPLAYCLASS149_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB885A60)
-#define MCKHEFFODHO___C__DISPLAYCLASS149_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0xB886660)
+#define MCKHEFFODHO___C__DISPLAYCLASS149_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1326B0)
+#define MCKHEFFODHO___C__DISPLAYCLASS149_0__INIT_B__0_OFFSET UNITYSDK_OFFSET(0xC1326C0)
 
-inline static constexpr unsigned int MCKHEFFODHO___c__DisplayClass149_0_TypeDefinitionIndex = 79503;
+inline static constexpr unsigned int MCKHEFFODHO___c__DisplayClass149_0_TypeDefinitionIndex = 82280;
 
 	class MCKHEFFODHO___c__DisplayClass149_0 : public ::System::Object
 	{

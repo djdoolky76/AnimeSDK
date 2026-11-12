@@ -4,16 +4,16 @@
 class LOIPKPKDGGD;
 class NAIMBODMJNH;
 
-#define PIPJHDOKNEE_CTOR_OFFSET UNITYSDK_OFFSET(0xC276160)
-#define PIPJHDOKNEE__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2760E0)
+#define PIPJHDOKNEE_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9E2B0)
+#define PIPJHDOKNEE__ONBIND_OFFSET UNITYSDK_OFFSET(0xCB9E230)
 
-inline static constexpr unsigned int PIPJHDOKNEE_TypeDefinitionIndex = 71855;
+inline static constexpr unsigned int PIPJHDOKNEE_TypeDefinitionIndex = 73876;
 
 	class PIPJHDOKNEE : public ::FMPCODLIOLG
 	{
 	public:
-		::NAIMBODMJNH* OFFIAEFGBOB; // 0x60
-		::LOIPKPKDGGD* HNPONLDLJIL; // 0x68
+		::LOIPKPKDGGD* HNPONLDLJIL; // 0x60
+		::NAIMBODMJNH* OFFIAEFGBOB; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIPJHDOKNEE_CTOR_OFFSET))(this);

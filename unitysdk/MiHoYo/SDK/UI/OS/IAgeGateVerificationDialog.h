@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IAgeGateVerificationDialog_TypeDefinitionIndex = 8462;
+	inline static constexpr unsigned int IAgeGateVerificationDialog_TypeDefinitionIndex = 8471;
 
 	class IAgeGateVerificationDialog
 	{

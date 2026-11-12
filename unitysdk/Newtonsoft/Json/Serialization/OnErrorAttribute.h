@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NEWTONSOFT_JSON_SERIALIZATION_ONERRORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C402720)
+#define NEWTONSOFT_JSON_SERIALIZATION_ONERRORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D588F20)
 
 namespace Newtonsoft::Json::Serialization
 {
-	inline static constexpr unsigned int OnErrorAttribute_TypeDefinitionIndex = 9748;
+	inline static constexpr unsigned int OnErrorAttribute_TypeDefinitionIndex = 9756;
 
 	class OnErrorAttribute : public ::System::Attribute
 	{

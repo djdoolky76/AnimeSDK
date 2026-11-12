@@ -8,20 +8,21 @@ class FCOEMCEDLNL;
 class LABIBNCBFCD;
 namespace System { class String; }
 
-#define LABIBNCBFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CF9C0)
-#define LABIBNCBFCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0CF730)
+#define LABIBNCBFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2C39F0)
+#define LABIBNCBFCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E2C3760)
 
-inline static constexpr unsigned int LABIBNCBFCD_TypeDefinitionIndex = 11496;
+inline static constexpr unsigned int LABIBNCBFCD_TypeDefinitionIndex = 11547;
 
 	class LABIBNCBFCD : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* FFCBLPDHCFO; // 0x10
-		::System::String* CIMMEBGNABD; // 0x18
-		::System::UInt32 PKGJBPODCOG; // 0x20
-		::RPG::GameCore::FateEmergentBroadcastOverrideState BCNBKEAJDNG; // 0x24
+		::System::String* CIMMEBGNABD; // 0x10
+		::Il2CppArray<::System::String*>* FFCBLPDHCFO; // 0x18
+		::RPG::GameCore::FateEmergentBroadcastConditionType LOAGIPDPLFM; // 0x20
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID JGAICIJPHNO; // 0x28
-		::RPG::GameCore::FateEmergentBroadcastConditionType LOAGIPDPLFM; // 0x38
+		::System::UInt32 PKGJBPODCOG; // 0x38
+		::RPG::GameCore::FateEmergentBroadcastOverrideState BCNBKEAJDNG; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LABIBNCBFCD_CTOR_OFFSET))(this);

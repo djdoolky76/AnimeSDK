@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SessionSyncData_Status_TypeDefinitionIndex = 40591;
+	inline static constexpr unsigned int HEU_SessionSyncData_Status_TypeDefinitionIndex = 41566;
 
 	enum class HEU_SessionSyncData_Status : ::System::Int32
 	{

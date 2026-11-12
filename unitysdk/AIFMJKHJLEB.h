@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CaptureMainCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AIFMJKHJLEB_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA3370)
-#define AIFMJKHJLEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBA33A0)
+#define AIFMJKHJLEB_CTOR_OFFSET UNITYSDK_OFFSET(0xF162970)
+#define AIFMJKHJLEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1629A0)
 
-inline static constexpr unsigned int AIFMJKHJLEB_TypeDefinitionIndex = 57996;
+inline static constexpr unsigned int AIFMJKHJLEB_TypeDefinitionIndex = 59235;
 
 	class AIFMJKHJLEB
 	{

@@ -4,9 +4,9 @@
 class PMPMKGFGICF;
 namespace RPG::GameCore { class GameEntity; }
 
-#define ODADIANBOGD_INGCMBBPEMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD77CB0)
+#define ODADIANBOGD_INGCMBBPEMM_CTOR_OFFSET UNITYSDK_OFFSET(0xC67DED0)
 
-inline static constexpr unsigned int ODADIANBOGD_INGCMBBPEMM_TypeDefinitionIndex = 71451;
+inline static constexpr unsigned int ODADIANBOGD_INGCMBBPEMM_TypeDefinitionIndex = 73433;
 
 	class ODADIANBOGD_INGCMBBPEMM : public ::System::Object
 	{

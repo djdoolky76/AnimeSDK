@@ -4,16 +4,16 @@
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KKAEANLGHIB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB461750)
+#define KKAEANLGHIB_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCF98C0)
 
-inline static constexpr unsigned int KKAEANLGHIB_TypeDefinitionIndex = 75622;
+inline static constexpr unsigned int KKAEANLGHIB_TypeDefinitionIndex = 77949;
 
 	class KKAEANLGHIB : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_MALMHPMEHBC()
 		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)UnitySDK::FromName("", "KKAEANLGHIB")->GetStaticField(0x59080);
+			return (::System::Collections::Generic::List_1<::System::Type*>**)UnitySDK::FromName("", "KKAEANLGHIB")->GetStaticField(0x49DC0);
 		}
 
 		static ::System::Void _cctor()

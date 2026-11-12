@@ -4,10 +4,10 @@
 class BOEEDNCHKMI;
 namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase; }
 
-#define PBMPKABBHOO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFF5970)
-#define PBMPKABBHOO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5920)
+#define PBMPKABBHOO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC8FA1F0)
+#define PBMPKABBHOO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8FA1A0)
 
-inline static constexpr unsigned int PBMPKABBHOO_TypeDefinitionIndex = 74830;
+inline static constexpr unsigned int PBMPKABBHOO_TypeDefinitionIndex = 77000;
 
 	class PBMPKABBHOO : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/EOOIJAGNMHI.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define CJIONBHFLPP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE9A90)
-#define CJIONBHFLPP_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE9A80)
+#define CJIONBHFLPP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF5670)
+#define CJIONBHFLPP_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF5660)
 
-inline static constexpr unsigned int CJIONBHFLPP_TypeDefinitionIndex = 71095;
+inline static constexpr unsigned int CJIONBHFLPP_TypeDefinitionIndex = 73078;
 
 	struct alignas(8) CJIONBHFLPP
 	{

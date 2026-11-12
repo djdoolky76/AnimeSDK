@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PreloadBattleEventByID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABBLMKEOIGN_CTOR_OFFSET UNITYSDK_OFFSET(0xB0EB8E0)
-#define ABBLMKEOIGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0EB910)
+#define ABBLMKEOIGN_CTOR_OFFSET UNITYSDK_OFFSET(0xB74E2C0)
+#define ABBLMKEOIGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB74E2F0)
 
-inline static constexpr unsigned int ABBLMKEOIGN_TypeDefinitionIndex = 58296;
+inline static constexpr unsigned int ABBLMKEOIGN_TypeDefinitionIndex = 59552;
 
 	class ABBLMKEOIGN
 	{

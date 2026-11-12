@@ -4,18 +4,18 @@
 class LPDPAJGFBMM;
 namespace System { class Object; }
 
-#define LPDPAJGFBMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C9F60)
-#define LPDPAJGFBMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C9F90)
-#define LPDPAJGFBMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9C9FA0)
+#define LPDPAJGFBMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCEF800)
+#define LPDPAJGFBMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCEF830)
+#define LPDPAJGFBMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FCEF840)
 
-inline static constexpr unsigned int LPDPAJGFBMM___c_TypeDefinitionIndex = 33291;
+inline static constexpr unsigned int LPDPAJGFBMM___c_TypeDefinitionIndex = 34206;
 
 	class LPDPAJGFBMM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x410A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47870);
 		}
 
 		static ::System::Void _cctor()

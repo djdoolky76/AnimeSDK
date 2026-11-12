@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLimitType_TypeDefinitionIndex = 10482;
+	inline static constexpr unsigned int TeamLimitType_TypeDefinitionIndex = 10493;
 
 	enum class TeamLimitType : ::System::Int32
 	{

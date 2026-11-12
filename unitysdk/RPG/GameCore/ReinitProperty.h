@@ -7,20 +7,21 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ReinitProperty; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REINITPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D977540)
-#define RPG_GAMECORE_REINITPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D977550)
-#define RPG_GAMECORE_REINITPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D977510)
+#define RPG_GAMECORE_REINITPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8F8D0)
+#define RPG_GAMECORE_REINITPROPERTY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB8F8E0)
+#define RPG_GAMECORE_REINITPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB8F8A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReinitProperty_TypeDefinitionIndex = 23562;
+	inline static constexpr unsigned int ReinitProperty_TypeDefinitionIndex = 24008;
 
 	class ReinitProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x18
-		::RPG::GameCore::AbilityProperty Property; // 0x20
-		::System::Byte _padding0[0x4];
+		::System::Boolean IncludeLimbo; // 0x20
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::AbilityProperty Property; // 0x24
 		::RPG::GameCore::DynamicFloat* InitValue; // 0x28
 		::RPG::GameCore::DynamicFloat* MinValue; // 0x30
 		::RPG::GameCore::DynamicFloat* MaxValue; // 0x38

@@ -5,10 +5,10 @@ class FOPJIACKHCC;
 class MBLFLAMBGDH;
 namespace RPG::GameCore { class GameEntity; }
 
-#define MBLFLAMBGDH___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB860DE0)
-#define MBLFLAMBGDH___C__DISPLAYCLASS3_0__SETFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0xB862770)
+#define MBLFLAMBGDH___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC0C6A70)
+#define MBLFLAMBGDH___C__DISPLAYCLASS3_0__SETFOLLOW_B__0_OFFSET UNITYSDK_OFFSET(0xC0C81C0)
 
-inline static constexpr unsigned int MBLFLAMBGDH___c__DisplayClass3_0_TypeDefinitionIndex = 71536;
+inline static constexpr unsigned int MBLFLAMBGDH___c__DisplayClass3_0_TypeDefinitionIndex = 73522;
 
 	class MBLFLAMBGDH___c__DisplayClass3_0 : public ::System::Object
 	{

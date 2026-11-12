@@ -4,18 +4,18 @@
 class OMLMOJIGLEE;
 namespace System { class Object; }
 
-#define OMLMOJIGLEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEBBC50)
-#define OMLMOJIGLEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBBC90)
-#define OMLMOJIGLEE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DEBBCA0)
+#define OMLMOJIGLEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F183970)
+#define OMLMOJIGLEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1839B0)
+#define OMLMOJIGLEE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F1839C0)
 
-inline static constexpr unsigned int OMLMOJIGLEE___c_TypeDefinitionIndex = 32965;
+inline static constexpr unsigned int OMLMOJIGLEE___c_TypeDefinitionIndex = 33880;
 
 	class OMLMOJIGLEE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B7A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25120);
 		}
 
 		static ::System::Void _cctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesAchievementRow; }
 
-#define RPG_GAMECORE_PLANETFESACHIEVEMENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9202F0)
-#define RPG_GAMECORE_PLANETFESACHIEVEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9201E0)
+#define RPG_GAMECORE_PLANETFESACHIEVEMENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB393F0)
+#define RPG_GAMECORE_PLANETFESACHIEVEMENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB392E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesAchievementRow_TypeDefinitionIndex = 12223;
+	inline static constexpr unsigned int PlanetFesAchievementRow_TypeDefinitionIndex = 12280;
 
 	class PlanetFesAchievementRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_ASSEMBLYTITLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C298B20)
+#define SYSTEM_REFLECTION_ASSEMBLYTITLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D41F800)
 
 namespace System::Reflection
 {

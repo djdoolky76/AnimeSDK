@@ -5,19 +5,19 @@ class EJHONGHJCNB;
 class FCOEMCEDLNL;
 class FHJKNCMMMON;
 
-#define EJHONGHJCNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD90D20)
-#define EJHONGHJCNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD90B30)
+#define EJHONGHJCNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF63940)
+#define EJHONGHJCNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF63750)
 
-inline static constexpr unsigned int EJHONGHJCNB_TypeDefinitionIndex = 11984;
+inline static constexpr unsigned int EJHONGHJCNB_TypeDefinitionIndex = 12041;
 
 	class EJHONGHJCNB : public ::System::Object
 	{
 	public:
 		::FHJKNCMMMON* BBFOLEOPPPL; // 0x10
-		::System::Int32 KBDAHAAAIBO; // 0x18
-		::System::UInt32 PFDHNIJBGKO; // 0x1C
-		::System::UInt32 LNKOLCOBLMO; // 0x20
-		::System::UInt32 PHFMCACHFIJ; // 0x24
+		::System::UInt32 PHFMCACHFIJ; // 0x18
+		::System::UInt32 LNKOLCOBLMO; // 0x1C
+		::System::Int32 KBDAHAAAIBO; // 0x20
+		::System::UInt32 PFDHNIJBGKO; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJHONGHJCNB_CTOR_OFFSET))(this);

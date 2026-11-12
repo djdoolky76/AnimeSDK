@@ -11,7 +11,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToHashSet__ToHashSetAsync_d__0_1_TypeDefinitionIndex = 45683;
+	inline static constexpr unsigned int ToHashSet__ToHashSetAsync_d__0_1_TypeDefinitionIndex = 46712;
 
 	template <typename T>
 	struct alignas(8) ToHashSet__ToHashSetAsync_d__0_1

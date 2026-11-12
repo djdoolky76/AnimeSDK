@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define OOCFHHENHIH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF70000)
-#define OOCFHHENHIH_POINTERPOSITION_OFFSET UNITYSDK_OFFSET(0xBF6FF70)
+#define OOCFHHENHIH_CTOR_OFFSET UNITYSDK_OFFSET(0xC86EB80)
+#define OOCFHHENHIH_POINTERPOSITION_OFFSET UNITYSDK_OFFSET(0xC86EAF0)
 
-inline static constexpr unsigned int OOCFHHENHIH_TypeDefinitionIndex = 72955;
+inline static constexpr unsigned int OOCFHHENHIH_TypeDefinitionIndex = 75067;
 
 	class OOCFHHENHIH : public ::System::Object
 	{

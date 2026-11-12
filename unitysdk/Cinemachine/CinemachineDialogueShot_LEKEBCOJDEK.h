@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineDialogueShot_LEKEBCOJDEK_TypeDefinitionIndex = 49640;
+	inline static constexpr unsigned int CinemachineDialogueShot_LEKEBCOJDEK_TypeDefinitionIndex = 50716;
 
 	struct alignas(4) CinemachineDialogueShot_LEKEBCOJDEK
 	{

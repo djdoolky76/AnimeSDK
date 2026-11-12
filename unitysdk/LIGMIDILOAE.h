@@ -7,17 +7,17 @@ class LIGMIDILOAE;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define LIGMIDILOAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F8550)
-#define LIGMIDILOAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0F8590)
-#define LIGMIDILOAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0F84F0)
+#define LIGMIDILOAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F2A30)
+#define LIGMIDILOAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E2F2A70)
+#define LIGMIDILOAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E2F29D0)
 
-inline static constexpr unsigned int LIGMIDILOAE_TypeDefinitionIndex = 22879;
+inline static constexpr unsigned int LIGMIDILOAE_TypeDefinitionIndex = 23305;
 
 	class LIGMIDILOAE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* LOHDABKNJCO; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::DynamicFloat* LOHDABKNJCO; // 0x20
 		::RPG::GameCore::SkillType JBCBONFABOM; // 0x28
 		::System::Void _ctor()
 		{

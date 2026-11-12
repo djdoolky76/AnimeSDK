@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamBlockModifierConstKeys; }
 
-#define RPG_GAMECORE_TEAMBLOCKMODIFIERCONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB796E0)
-#define RPG_GAMECORE_TEAMBLOCKMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB79560)
+#define RPG_GAMECORE_TEAMBLOCKMODIFIERCONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE28E90)
+#define RPG_GAMECORE_TEAMBLOCKMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE28D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamBlockModifierConstKeys_TypeDefinitionIndex = 17104;
+	inline static constexpr unsigned int TeamBlockModifierConstKeys_TypeDefinitionIndex = 17271;
 
 	class TeamBlockModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimPropSpawnerConfig; }
 
-#define ACNCBDAMADO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C877EA0)
-#define ACNCBDAMADO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877F00)
+#define ACNCBDAMADO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D9F95C0)
+#define ACNCBDAMADO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F9620)
 
-inline static constexpr unsigned int ACNCBDAMADO_TypeDefinitionIndex = 43489;
+inline static constexpr unsigned int ACNCBDAMADO_TypeDefinitionIndex = 44471;
 
 	class ACNCBDAMADO : public ::System::Object
 	{

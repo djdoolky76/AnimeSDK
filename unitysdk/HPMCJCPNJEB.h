@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class HPMCJCPNJEB;
 
-#define HPMCJCPNJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CED7730)
-#define HPMCJCPNJEB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CED7600)
+#define HPMCJCPNJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C9460)
+#define HPMCJCPNJEB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0C9330)
 
-inline static constexpr unsigned int HPMCJCPNJEB_TypeDefinitionIndex = 11262;
+inline static constexpr unsigned int HPMCJCPNJEB_TypeDefinitionIndex = 11313;
 
 	class HPMCJCPNJEB : public ::System::Object
 	{
 	public:
-		::System::Single JOACOBOICAF; // 0x10
-		::System::Single JLLFPNIFOMB; // 0x14
+		::System::Single JLLFPNIFOMB; // 0x10
+		::System::Single JOACOBOICAF; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HPMCJCPNJEB_CTOR_OFFSET))(this);

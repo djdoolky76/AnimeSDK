@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MBBNJLBLEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924B20)
+#define MBBNJLBLEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE6040)
 
-inline static constexpr unsigned int MBBNJLBLEOL_TypeDefinitionIndex = 43273;
+inline static constexpr unsigned int MBBNJLBLEOL_TypeDefinitionIndex = 44254;
 
 	class MBBNJLBLEOL : public ::System::Object
 	{

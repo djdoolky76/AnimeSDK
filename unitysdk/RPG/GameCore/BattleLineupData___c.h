@@ -5,25 +5,25 @@ namespace RPG::GameCore { class MazeBuffData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_BATTLELINEUPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5C83C0)
-#define RPG_GAMECORE_BATTLELINEUPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C83F0)
-#define RPG_GAMECORE_BATTLELINEUPDATA___C__GETALLAVATARGLOBALMAZEBUFFDATALIST_B__11_0_OFFSET UNITYSDK_OFFSET(0xE5C8400)
+#define RPG_GAMECORE_BATTLELINEUPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF049F90)
+#define RPG_GAMECORE_BATTLELINEUPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF049FC0)
+#define RPG_GAMECORE_BATTLELINEUPDATA___C__GETALLAVATARGLOBALMAZEBUFFDATALIST_B__11_0_OFFSET UNITYSDK_OFFSET(0xF049FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupData___c_TypeDefinitionIndex = 56333;
+	inline static constexpr unsigned int BattleLineupData___c_TypeDefinitionIndex = 57547;
 
 	class BattleLineupData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x57690);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::MazeBuffData*, ::System::Boolean>** StaticGet___9__11_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::MazeBuffData*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x57698);
+			return (::System::Func_2<::RPG::GameCore::MazeBuffData*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x67590);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x67598);
 		}
 
 		static ::System::Void _cctor()

@@ -6,18 +6,18 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T> class Func_1; }
 
-#define NJMFABHNAIG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1D960)
-#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__0_OFFSET UNITYSDK_OFFSET(0xBC1E890)
-#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__3_OFFSET UNITYSDK_OFFSET(0xBC1E920)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC501300)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__0_OFFSET UNITYSDK_OFFSET(0xC502200)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__3_OFFSET UNITYSDK_OFFSET(0xC502290)
 
-inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_0_TypeDefinitionIndex = 75153;
+inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_0_TypeDefinitionIndex = 77480;
 
 	class NJMFABHNAIG___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:
-		::NJMFABHNAIG* __4__this; // 0x10
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* onRspReceived; // 0x10
 		::RPG::Client::ActivityIdleLive::IdleLiveNode* node; // 0x18
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* onRspReceived; // 0x20
+		::NJMFABHNAIG* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG___C__DISPLAYCLASS22_0_CTOR_OFFSET))(this);

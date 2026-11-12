@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindOverrideHitProtectTime; }
 
-#define NCEFHDPDGOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0A400)
-#define NCEFHDPDGOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB0A430)
+#define NCEFHDPDGOP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3908B0)
+#define NCEFHDPDGOP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3908E0)
 
-inline static constexpr unsigned int NCEFHDPDGOP_TypeDefinitionIndex = 53402;
+inline static constexpr unsigned int NCEFHDPDGOP_TypeDefinitionIndex = 54564;
 
 	class NCEFHDPDGOP
 	{

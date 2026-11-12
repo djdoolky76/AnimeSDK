@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2C6DB0)
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1C2C6C80)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D44DAB0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ASYNCTASKCACHE_CREATEINT32TASKS_OFFSET UNITYSDK_OFFSET(0x1D44D980)
 
 namespace System::Runtime::CompilerServices
 {
@@ -15,17 +15,17 @@ namespace System::Runtime::CompilerServices
 	public:
 		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_FalseTask()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x15950);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x19830);
 		}
 
 		static ::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>** StaticGet_Int32Tasks()
 		{
-			return (::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x15958);
+			return (::Il2CppArray<::System::Threading::Tasks::Task_1<::System::Int32>*>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x19838);
 		}
 
 		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_TrueTask()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x15960);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Runtime.CompilerServices", "AsyncTaskCache")->GetStaticField(0x19840);
 		}
 
 		static ::System::Void _cctor()

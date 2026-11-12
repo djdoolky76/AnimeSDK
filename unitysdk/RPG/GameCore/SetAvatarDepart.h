@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetAvatarDepart; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETAVATARDEPART_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA959A0)
-#define RPG_GAMECORE_SETAVATARDEPART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA959E0)
-#define RPG_GAMECORE_SETAVATARDEPART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA95940)
+#define RPG_GAMECORE_SETAVATARDEPART_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA7E40)
+#define RPG_GAMECORE_SETAVATARDEPART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECA7E80)
+#define RPG_GAMECORE_SETAVATARDEPART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA7DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAvatarDepart_TypeDefinitionIndex = 22744;
+	inline static constexpr unsigned int SetAvatarDepart_TypeDefinitionIndex = 23166;
 
 	class SetAvatarDepart : public ::RPG::GameCore::TaskConfig
 	{

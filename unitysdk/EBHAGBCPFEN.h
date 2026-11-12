@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetCurrentTurnActionEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBHAGBCPFEN_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF0780)
-#define EBHAGBCPFEN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CF0790)
-#define EBHAGBCPFEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CF07D0)
-#define EBHAGBCPFEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CF08A0)
-#define EBHAGBCPFEN_TICK_OFFSET UNITYSDK_OFFSET(0x12CF08F0)
+#define EBHAGBCPFEN_CTOR_OFFSET UNITYSDK_OFFSET(0x13AA17F0)
+#define EBHAGBCPFEN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13AA1800)
+#define EBHAGBCPFEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AA1840)
+#define EBHAGBCPFEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13AA1910)
+#define EBHAGBCPFEN_TICK_OFFSET UNITYSDK_OFFSET(0x13AA1960)
 
-inline static constexpr unsigned int EBHAGBCPFEN_TypeDefinitionIndex = 55384;
+inline static constexpr unsigned int EBHAGBCPFEN_TypeDefinitionIndex = 56567;
 
 	class EBHAGBCPFEN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetCurrentTurnActionEntity* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetCurrentTurnActionEntity* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCurrentTurnActionEntity* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetCurrentTurnActionEntity*))((::PBYTE)hIl2Cpp + EBHAGBCPFEN_CTOR_OFFSET))(this, a1, a2);

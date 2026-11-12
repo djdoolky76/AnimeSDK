@@ -4,7 +4,7 @@
 namespace UnityEngine { class CullingGroup; }
 namespace UnityEngine { class CullingGroup_StateChanged; }
 
-#define UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x1F3DD8C0)
+#define UNITYENGINE_CULLINGGROUP_SENDEVENTS_OFFSET UNITYSDK_OFFSET(0x2068E760)
 
 namespace UnityEngine
 {

@@ -6,19 +6,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirNodeTypeConfigRow; }
 
-#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91CEC0)
-#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91CD40)
+#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB35FD0)
+#define RPG_GAMECORE_PIXAIRNODETYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB35E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirNodeTypeConfigRow_TypeDefinitionIndex = 12133;
+	inline static constexpr unsigned int PixAirNodeTypeConfigRow_TypeDefinitionIndex = 12190;
 
 	class PixAirNodeTypeConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PixAirNodeType NodeType; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID NodeName; // 0x18
+		::RPG::Client::TextID NodeName; // 0x10
+		::RPG::GameCore::PixAirNodeType NodeType; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PIXAIRNODETYPECONFIGROW_CTOR_OFFSET))(this);

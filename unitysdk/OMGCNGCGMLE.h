@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetAdventureCharacterCollider; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMGCNGCGMLE_CTOR_OFFSET UNITYSDK_OFFSET(0xBF272E0)
-#define OMGCNGCGMLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF27310)
+#define OMGCNGCGMLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC824C00)
+#define OMGCNGCGMLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC824C30)
 
-inline static constexpr unsigned int OMGCNGCGMLE_TypeDefinitionIndex = 55883;
+inline static constexpr unsigned int OMGCNGCGMLE_TypeDefinitionIndex = 57086;
 
 	class OMGCNGCGMLE
 	{

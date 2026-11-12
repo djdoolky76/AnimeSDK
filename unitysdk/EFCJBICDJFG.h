@@ -3,18 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define EFCJBICDJFG_AOLBPOLCJGJ_OFFSET UNITYSDK_OFFSET(0x13A48300)
-#define EFCJBICDJFG_CTOR_OFFSET UNITYSDK_OFFSET(0x13A483C0)
-#define EFCJBICDJFG_PJLGNEPKOGE_OFFSET UNITYSDK_OFFSET(0x13A48370)
+#define EFCJBICDJFG_AOLBPOLCJGJ_OFFSET UNITYSDK_OFFSET(0x14808CC0)
+#define EFCJBICDJFG_CTOR_OFFSET UNITYSDK_OFFSET(0x14808D80)
+#define EFCJBICDJFG_PJLGNEPKOGE_OFFSET UNITYSDK_OFFSET(0x14808D30)
 
-inline static constexpr unsigned int EFCJBICDJFG_TypeDefinitionIndex = 54279;
+inline static constexpr unsigned int EFCJBICDJFG_TypeDefinitionIndex = 55443;
 
 	class EFCJBICDJFG : public ::System::Object
 	{
 	public:
-		::System::UInt32 IHALFHPNNGL; // 0x10
-		::System::Byte _padding0[0x4];
-		::System::Double CHHDAKCOACO; // 0x18
+		::System::Double CHHDAKCOACO; // 0x10
+		::System::UInt32 IHALFHPNNGL; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFCJBICDJFG_CTOR_OFFSET))(this);

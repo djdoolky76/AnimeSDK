@@ -4,13 +4,13 @@
 namespace RPG::Client { class ElfRestaurantDrinkRecipeData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCDB3830)
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCDB3C80)
-#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_ISCOOKITEMENOUGH_OFFSET UNITYSDK_OFFSET(0xCDB3C90)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD77C260)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD77C680)
+#define RPG_CLIENT_ELFRESTAURANTDRINKRECIPEDATA_ISCOOKITEMENOUGH_OFFSET UNITYSDK_OFFSET(0xD77C690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantDrinkRecipeData_TypeDefinitionIndex = 63738;
+	inline static constexpr unsigned int ElfRestaurantDrinkRecipeData_TypeDefinitionIndex = 65180;
 
 	class ElfRestaurantDrinkRecipeData : public ::System::Object
 	{

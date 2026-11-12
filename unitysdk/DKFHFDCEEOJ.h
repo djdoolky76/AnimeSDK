@@ -5,21 +5,21 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class String; }
 
-#define DKFHFDCEEOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF87B060)
-#define DKFHFDCEEOJ_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xF87AF50)
+#define DKFHFDCEEOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xFFE0C80)
+#define DKFHFDCEEOJ_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xFFE0B70)
 
-inline static constexpr unsigned int DKFHFDCEEOJ_TypeDefinitionIndex = 48256;
+inline static constexpr unsigned int DKFHFDCEEOJ_TypeDefinitionIndex = 49297;
 
 	class DKFHFDCEEOJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::System::String* BJCBMNHOAGO; // 0x10
-		::System::String* PODFJDMHFMK; // 0x18
+		::System::String* PODFJDMHFMK; // 0x10
+		::System::String* BJCBMNHOAGO; // 0x18
 		::System::Boolean BMANOLMNHBK; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::Single CCAOGMEFNLB; // 0x24
-		::System::Single JIHLNPHKEEP; // 0x28
-		::System::Int32 BIKLAFLEIOC; // 0x2C
+		::System::Int32 BIKLAFLEIOC; // 0x24
+		::System::Single CCAOGMEFNLB; // 0x28
+		::System::Single JIHLNPHKEEP; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DKFHFDCEEOJ_CTOR_OFFSET))(this);

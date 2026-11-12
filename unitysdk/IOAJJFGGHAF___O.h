@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int IOAJJFGGHAF___O_TypeDefinitionIndex = 49465;
+inline static constexpr unsigned int IOAJJFGGHAF___O_TypeDefinitionIndex = 50541;
 
 	class IOAJJFGGHAF___O : public ::System::Object
 	{

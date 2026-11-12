@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Mesh; }
 
-#define EAOHDDLHHAP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x12CE4340)
-#define EAOHDDLHHAP_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x12CE4560)
+#define EAOHDDLHHAP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x13A95060)
+#define EAOHDDLHHAP_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0x13A95280)
 
-inline static constexpr unsigned int EAOHDDLHHAP_TypeDefinitionIndex = 48995;
+inline static constexpr unsigned int EAOHDDLHHAP_TypeDefinitionIndex = 50064;
 
 	class EAOHDDLHHAP : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Mesh** StaticGet_JOLBNAJKDEJ()
 		{
-			return (::UnityEngine::Mesh**)UnitySDK::FromName("", "EAOHDDLHHAP")->GetStaticField(0x6FE40);
+			return (::UnityEngine::Mesh**)UnitySDK::FromName("", "EAOHDDLHHAP")->GetStaticField(0x72480);
 		}
 
 		static ::System::Boolean* StaticGet_DLIMEMCMFHJ()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "EAOHDDLHHAP")->GetStaticField(0x15BF0);
+			return (::System::Boolean*)UnitySDK::FromName("", "EAOHDDLHHAP")->GetStaticField(0x15F00);
 		}
 
 		static ::UnityEngine::Mesh* ACMKLFOMPFC()

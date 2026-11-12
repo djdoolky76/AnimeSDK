@@ -10,7 +10,7 @@ namespace UnityEngine::UI { class Text; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__6_1_TypeDefinitionIndex = 38490;
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__6_1_TypeDefinitionIndex = 39419;
 
 	template <typename T>
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__6_1

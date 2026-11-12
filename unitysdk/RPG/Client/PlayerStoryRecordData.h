@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/PlayerChallengeRecordData.h"
 class BPLFICOBKKK;
 
-#define RPG_CLIENT_PLAYERSTORYRECORDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDBEC010)
-#define RPG_CLIENT_PLAYERSTORYRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xDBFE3D0)
+#define RPG_CLIENT_PLAYERSTORYRECORDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE69A1E0)
+#define RPG_CLIENT_PLAYERSTORYRECORDDATA_SYNC_OFFSET UNITYSDK_OFFSET(0xE69A210)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerStoryRecordData_TypeDefinitionIndex = 64274;
+	inline static constexpr unsigned int PlayerStoryRecordData_TypeDefinitionIndex = 65719;
 
 	class PlayerStoryRecordData : public ::RPG::Client::PlayerChallengeRecordData
 	{

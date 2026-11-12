@@ -4,18 +4,18 @@
 class JDMGDNEIALG;
 namespace System { class Object; }
 
-#define JDMGDNEIALG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E70E6B0)
-#define JDMGDNEIALG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E70E6F0)
-#define JDMGDNEIALG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E70E700)
+#define JDMGDNEIALG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA1CDE0)
+#define JDMGDNEIALG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA1CE20)
+#define JDMGDNEIALG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FA1CE30)
 
-inline static constexpr unsigned int JDMGDNEIALG___c_TypeDefinitionIndex = 31200;
+inline static constexpr unsigned int JDMGDNEIALG___c_TypeDefinitionIndex = 32113;
 
 	class JDMGDNEIALG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DFD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E960);
 		}
 
 		static ::System::Void _cctor()

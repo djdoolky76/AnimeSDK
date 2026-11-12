@@ -6,7 +6,7 @@ namespace ZLinq::Linq { template <typename T1, typename T2> class Grouping_2; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int GroupBy_3_TypeDefinitionIndex = 6120;
+	inline static constexpr unsigned int GroupBy_3_TypeDefinitionIndex = 6127;
 
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) GroupBy_3

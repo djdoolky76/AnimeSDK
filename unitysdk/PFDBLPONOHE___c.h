@@ -5,20 +5,20 @@
 class PFDBLPONOHE;
 namespace System { class Object; }
 
-#define PFDBLPONOHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF23E10)
-#define PFDBLPONOHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF23E50)
-#define PFDBLPONOHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF23E60)
-#define PFDBLPONOHE___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1DF23EB0)
-#define PFDBLPONOHE___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1DF23EC0)
+#define PFDBLPONOHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1F0AA0)
+#define PFDBLPONOHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F0AE0)
+#define PFDBLPONOHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F1F0AF0)
+#define PFDBLPONOHE___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1F1F0B40)
+#define PFDBLPONOHE___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1F1F0B50)
 
-inline static constexpr unsigned int PFDBLPONOHE___c_TypeDefinitionIndex = 25223;
+inline static constexpr unsigned int PFDBLPONOHE___c_TypeDefinitionIndex = 25701;
 
 	class PFDBLPONOHE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B270);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31EA0);
 		}
 
 		static ::System::Void _cctor()

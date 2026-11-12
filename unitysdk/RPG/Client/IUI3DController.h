@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IUI3DController_TypeDefinitionIndex = 72967;
+	inline static constexpr unsigned int IUI3DController_TypeDefinitionIndex = 75079;
 
 	class IUI3DController
 	{

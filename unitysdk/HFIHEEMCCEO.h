@@ -3,10 +3,10 @@
 #include "unitysdk/System/ComponentModel/PropertyChangedEventArgs.h"
 namespace System { class String; }
 
-#define HFIHEEMCCEO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7ADA0)
-#define HFIHEEMCCEO_GET_ROLEUID_OFFSET UNITYSDK_OFFSET(0x15C7ADE0)
+#define HFIHEEMCCEO_CTOR_OFFSET UNITYSDK_OFFSET(0x16BC2380)
+#define HFIHEEMCCEO_GET_ROLEUID_OFFSET UNITYSDK_OFFSET(0x16BC23C0)
 
-inline static constexpr unsigned int HFIHEEMCCEO_TypeDefinitionIndex = 64564;
+inline static constexpr unsigned int HFIHEEMCCEO_TypeDefinitionIndex = 66094;
 
 	class HFIHEEMCCEO : public ::System::ComponentModel::PropertyChangedEventArgs
 	{

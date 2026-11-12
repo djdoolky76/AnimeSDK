@@ -4,19 +4,19 @@
 #include "unitysdk/RPG/GameCore/ActivityFarmMultipleDropType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MULTIPLEDROPUSEDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8ECB30)
+#define RPG_CLIENT_MULTIPLEDROPUSEDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE33F810)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultipleDropUsedData_TypeDefinitionIndex = 66317;
+	inline static constexpr unsigned int MultipleDropUsedData_TypeDefinitionIndex = 68253;
 
 	class MultipleDropUsedData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ActivityFarmMultipleDropType Type; // 0x10
-		::System::UInt32 UsedTimes; // 0x14
-		::System::UInt32 Multiplier; // 0x18
-		::RPG::Client::MultipleDropTimesData TimesData; // 0x1C
+		::System::UInt32 UsedTimes; // 0x10
+		::RPG::Client::MultipleDropTimesData TimesData; // 0x14
+		::System::UInt32 Multiplier; // 0x1C
+		::RPG::GameCore::ActivityFarmMultipleDropType Type; // 0x20
 		::System::UInt32 MultipleActivityID; // 0x24
 		::System::Void _ctor()
 		{

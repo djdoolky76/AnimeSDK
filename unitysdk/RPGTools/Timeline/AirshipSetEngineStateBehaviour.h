@@ -4,12 +4,12 @@
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
 class CommonShipEngineController;
 
-#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE8AB160)
-#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8AB1C0)
+#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xF385070)
+#define RPGTOOLS_TIMELINE_AIRSHIPSETENGINESTATEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF3850D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AirshipSetEngineStateBehaviour_TypeDefinitionIndex = 47836;
+	inline static constexpr unsigned int AirshipSetEngineStateBehaviour_TypeDefinitionIndex = 48867;
 
 	class AirshipSetEngineStateBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

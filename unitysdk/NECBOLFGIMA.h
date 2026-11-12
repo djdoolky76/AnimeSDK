@@ -5,7 +5,7 @@ class IMPNPPMLNPH;
 
 #define NECBOLFGIMA_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
 
-inline static constexpr unsigned int NECBOLFGIMA_TypeDefinitionIndex = 57269;
+inline static constexpr unsigned int NECBOLFGIMA_TypeDefinitionIndex = 58496;
 
 	struct alignas(8) NECBOLFGIMA
 	{

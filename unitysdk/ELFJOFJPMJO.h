@@ -3,16 +3,17 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define ELFJOFJPMJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1551FA80)
+#define ELFJOFJPMJO_CTOR_OFFSET UNITYSDK_OFFSET(0x16467EE0)
 
-inline static constexpr unsigned int ELFJOFJPMJO_TypeDefinitionIndex = 55996;
+inline static constexpr unsigned int ELFJOFJPMJO_TypeDefinitionIndex = 57199;
 
 	class ELFJOFJPMJO : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint LCOMEKBJLDJ; // 0x10
+		::System::UInt32 PEEGJNPMKJK; // 0x10
+		::System::Byte _padding0[0x4];
 		::System::Double ECKFNLIMMIM; // 0x18
-		::System::UInt32 PEEGJNPMKJK; // 0x20
+		::RPG::GameCore::FixPoint LCOMEKBJLDJ; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ELFJOFJPMJO_CTOR_OFFSET))(this);

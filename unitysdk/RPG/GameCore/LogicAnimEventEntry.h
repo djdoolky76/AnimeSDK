@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LogicAnimEventEntry; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOGICANIMEVENTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F3D00)
-#define RPG_GAMECORE_LOGICANIMEVENTENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F3BB0)
+#define RPG_GAMECORE_LOGICANIMEVENTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36980)
+#define RPG_GAMECORE_LOGICANIMEVENTENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA36830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogicAnimEventEntry_TypeDefinitionIndex = 16295;
+	inline static constexpr unsigned int LogicAnimEventEntry_TypeDefinitionIndex = 16458;
 
 	class LogicAnimEventEntry : public ::RPG::GameCore::JsonConfig
 	{

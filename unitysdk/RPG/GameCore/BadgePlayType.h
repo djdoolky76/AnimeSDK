@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BadgePlayType_TypeDefinitionIndex = 12826;
+	inline static constexpr unsigned int BadgePlayType_TypeDefinitionIndex = 12898;
 
 	enum class BadgePlayType : ::System::Int32
 	{

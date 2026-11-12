@@ -4,10 +4,10 @@
 class LFJJMNNJEEK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOGMLLOPJBM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2C3C0)
-#define MOGMLLOPJBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA2C4A0)
+#define MOGMLLOPJBM_CTOR_OFFSET UNITYSDK_OFFSET(0xC2EAD70)
+#define MOGMLLOPJBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2EAE50)
 
-inline static constexpr unsigned int MOGMLLOPJBM_TypeDefinitionIndex = 55054;
+inline static constexpr unsigned int MOGMLLOPJBM_TypeDefinitionIndex = 56230;
 
 	class MOGMLLOPJBM
 	{

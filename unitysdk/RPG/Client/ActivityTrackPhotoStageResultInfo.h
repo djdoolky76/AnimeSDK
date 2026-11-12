@@ -12,15 +12,15 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CREATERESULT_OFFSET UNITYSDK_OFFSET(0xC5C5AB0)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C7A80)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTOTALTRACKINFO_OFFSET UNITYSDK_OFFSET(0xC5C7B80)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTRACKRESULT_OFFSET UNITYSDK_OFFSET(0xC5C7C70)
-#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__TRYGETCONFIG_OFFSET UNITYSDK_OFFSET(0xC5C88C0)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CREATERESULT_OFFSET UNITYSDK_OFFSET(0xCF1AF10)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF1CEE0)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTOTALTRACKINFO_OFFSET UNITYSDK_OFFSET(0xCF1CFE0)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__SYNCTRACKRESULT_OFFSET UNITYSDK_OFFSET(0xCF1D0D0)
+#define RPG_CLIENT_ACTIVITYTRACKPHOTOSTAGERESULTINFO__TRYGETCONFIG_OFFSET UNITYSDK_OFFSET(0xCF1DD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTrackPhotoStageResultInfo_TypeDefinitionIndex = 62006;
+	inline static constexpr unsigned int ActivityTrackPhotoStageResultInfo_TypeDefinitionIndex = 63418;
 
 	class ActivityTrackPhotoStageResultInfo : public ::System::Object
 	{
@@ -29,11 +29,11 @@ namespace RPG::Client
 		::RPG::Client::ActivityTrackPhotoStageData* StageDataRef; // 0x18
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeCount; // 0x20
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::TrackPhotoCanType, ::System::UInt32>* TrackTypeScore; // 0x28
-		::System::UInt32 ExtraShotScore; // 0x30
-		::System::UInt32 StageID; // 0x34
+		::System::UInt32 ExtraShotCount; // 0x30
+		::System::UInt32 ExtraShotScore; // 0x34
 		::System::UInt32 TotalScore; // 0x38
 		::System::UInt32 Score; // 0x3C
-		::System::UInt32 ExtraShotCount; // 0x40
+		::System::UInt32 StageID; // 0x40
 		::System::UInt32 ExtraShotTotalCount; // 0x44
 		::System::Boolean IsNewHighest; // 0x48
 		::System::Void _ctor()

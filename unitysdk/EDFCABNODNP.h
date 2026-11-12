@@ -3,10 +3,10 @@
 class IGDMEOFGJAH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDFCABNODNP_CTOR_OFFSET UNITYSDK_OFFSET(0x13313DF0)
-#define EDFCABNODNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13313E20)
+#define EDFCABNODNP_CTOR_OFFSET UNITYSDK_OFFSET(0x140D0940)
+#define EDFCABNODNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140D0970)
 
-inline static constexpr unsigned int EDFCABNODNP_TypeDefinitionIndex = 57941;
+inline static constexpr unsigned int EDFCABNODNP_TypeDefinitionIndex = 59178;
 
 	class EDFCABNODNP
 	{

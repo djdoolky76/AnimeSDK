@@ -5,25 +5,25 @@ namespace RPG::GameCore { class NavMapSubTabRow; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD96D560)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD96D590)
-#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C___INITTABCONTAINSUBTABS_B__60_0_OFFSET UNITYSDK_OFFSET(0xD96D5A0)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE401410)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE401440)
+#define RPG_CLIENT_NAVMAP_NAVMAPMODULE___C___INITTABCONTAINSUBTABS_B__60_0_OFFSET UNITYSDK_OFFSET(0xE401450)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavMapModule___c_TypeDefinitionIndex = 74622;
+	inline static constexpr unsigned int NavMapModule___c_TypeDefinitionIndex = 76770;
 
 	class NavMapModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::NavMapSubTabRow*>** StaticGet___9__60_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::NavMapSubTabRow*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6F270);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6F278);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xC5C0);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::NavMapSubTabRow*>** StaticGet___9__60_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::NavMapSubTabRow*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xC5C8);
 		}
 
 		static ::System::Void _cctor()

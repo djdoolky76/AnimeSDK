@@ -3,10 +3,10 @@
 class EDFBEHBEDED;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HNEFJBBLEHA_CTOR_OFFSET UNITYSDK_OFFSET(0x15D91A10)
-#define HNEFJBBLEHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D91A40)
+#define HNEFJBBLEHA_CTOR_OFFSET UNITYSDK_OFFSET(0x16D32100)
+#define HNEFJBBLEHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D32130)
 
-inline static constexpr unsigned int HNEFJBBLEHA_TypeDefinitionIndex = 52967;
+inline static constexpr unsigned int HNEFJBBLEHA_TypeDefinitionIndex = 54126;
 
 	class HNEFJBBLEHA
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ParticleSystemGameObjectFilter_TypeDefinitionIndex = 5285;
+	inline static constexpr unsigned int ParticleSystemGameObjectFilter_TypeDefinitionIndex = 5290;
 
 	enum class ParticleSystemGameObjectFilter : ::System::Int32
 	{

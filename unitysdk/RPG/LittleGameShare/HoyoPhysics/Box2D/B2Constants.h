@@ -2,26 +2,26 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C80AC30)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_AABB_MARGIN_OFFSET UNITYSDK_OFFSET(0x1C8041C0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_HUGE_OFFSET UNITYSDK_OFFSET(0x1C800BC0)
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_LINEAR_SLOP_OFFSET UNITYSDK_OFFSET(0x1C80ABD0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D98C590)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_AABB_MARGIN_OFFSET UNITYSDK_OFFSET(0x1D985AF0)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_HUGE_OFFSET UNITYSDK_OFFSET(0x1D982540)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CONSTANTS_GET_B2_LINEAR_SLOP_OFFSET UNITYSDK_OFFSET(0x1D98C530)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Constants_TypeDefinitionIndex = 36614;
+	inline static constexpr unsigned int B2Constants_TypeDefinitionIndex = 37542;
 
 	class B2Constants : public ::System::Object
 	{
 	public:
 		static ::System::Single* StaticGet_B2_SPECULATIVE_DISTANCE()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "B2Constants")->GetStaticField(0x6D20);
+			return (::System::Single*)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "B2Constants")->GetStaticField(0x4FA0);
 		}
 
 		static ::System::Single* StaticGet_B2_MAX_ROTATION()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "B2Constants")->GetStaticField(0x6D24);
+			return (::System::Single*)UnitySDK::FromName("RPG.LittleGameShare.HoyoPhysics.Box2D", "B2Constants")->GetStaticField(0x4FA4);
 		}
 
 		// static const ::System::Object B2_MAX_WORKERS; // 0x0

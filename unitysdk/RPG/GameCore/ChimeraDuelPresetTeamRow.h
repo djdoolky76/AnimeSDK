@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelPresetTeamRow; }
 
-#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A7630)
-#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5A74B0)
+#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B8030)
+#define RPG_GAMECORE_CHIMERADUELPRESETTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7B7EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelPresetTeamRow_TypeDefinitionIndex = 11137;
+	inline static constexpr unsigned int ChimeraDuelPresetTeamRow_TypeDefinitionIndex = 11153;
 
 	class ChimeraDuelPresetTeamRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PresetIDList; // 0x10
-		::System::UInt32 MasterID; // 0x18
-		::System::UInt32 TeamID; // 0x1C
+		::System::UInt32 TeamID; // 0x18
+		::System::UInt32 MasterID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELPRESETTEAMROW_CTOR_OFFSET))(this);

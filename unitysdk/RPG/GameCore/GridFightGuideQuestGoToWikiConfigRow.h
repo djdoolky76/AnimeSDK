@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightGuideQuestGoToWikiConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D731A20)
-#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D731900)
+#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E93DC90)
+#define RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E93DB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightGuideQuestGoToWikiConfigRow_TypeDefinitionIndex = 13592;
+	inline static constexpr unsigned int GridFightGuideQuestGoToWikiConfigRow_TypeDefinitionIndex = 13703;
 
 	class GridFightGuideQuestGoToWikiConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 QuestID; // 0x10
-		::System::UInt32 TutorialGuideGroupID; // 0x14
+		::System::UInt32 TutorialGuideGroupID; // 0x10
+		::System::UInt32 QuestID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTGUIDEQUESTGOTOWIKICONFIGROW_CTOR_OFFSET))(this);

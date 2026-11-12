@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_RENDERERDIGITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD802B20)
+#define RPG_CLIENT_MONOEFFECTPLUGINNUMBER_RENDERERDIGITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE254AC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginNumber_RendererDigitData_TypeDefinitionIndex = 70084;
+	inline static constexpr unsigned int MonoEffectPluginNumber_RendererDigitData_TypeDefinitionIndex = 72049;
 
 	class MonoEffectPluginNumber_RendererDigitData : public ::System::Object
 	{

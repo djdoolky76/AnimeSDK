@@ -8,26 +8,26 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define GCFPDEHADKC_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x1596A910)
-#define GCFPDEHADKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1596A9B0)
-#define GCFPDEHADKC_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x1596A610)
-#define GCFPDEHADKC_JAGJJDEKLIO_OFFSET UNITYSDK_OFFSET(0x1596A740)
-#define GCFPDEHADKC_JMGAPFKJIFG_OFFSET UNITYSDK_OFFSET(0x1596A880)
+#define GCFPDEHADKC_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x168A0600)
+#define GCFPDEHADKC_CTOR_OFFSET UNITYSDK_OFFSET(0x168A06A0)
+#define GCFPDEHADKC_DGCGLNOLDIB_OFFSET UNITYSDK_OFFSET(0x168A0300)
+#define GCFPDEHADKC_JAGJJDEKLIO_OFFSET UNITYSDK_OFFSET(0x168A0430)
+#define GCFPDEHADKC_JMGAPFKJIFG_OFFSET UNITYSDK_OFFSET(0x168A0570)
 
-inline static constexpr unsigned int GCFPDEHADKC_TypeDefinitionIndex = 73739;
+inline static constexpr unsigned int GCFPDEHADKC_TypeDefinitionIndex = 75862;
 
 	class GCFPDEHADKC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::OEIPELDMAAE*>* OGBJANBPJJN; // 0x10
+		::UnityEngine::Mesh* APBJFDCLGOC; // 0x10
 		::UnityEngine::Material* DFJEIPBBFMN; // 0x18
 		::UnityEngine::Material* EJGNBFKFHGG; // 0x20
-		::UnityEngine::Mesh* APBJFDCLGOC; // 0x28
-		::RPG::Client::CrowdAnimator::CrowdPrototype* JHAHABGNPEM; // 0x30
+		::RPG::Client::CrowdAnimator::CrowdPrototype* JHAHABGNPEM; // 0x28
+		::System::Collections::Generic::List_1<::OEIPELDMAAE*>* OGBJANBPJJN; // 0x30
 		::UnityEngine::Texture2D* PKKLHJOCJAB; // 0x38
-		::System::Int32 ILKENAAKKLH; // 0x40
-		::System::Int32 GAGJLNOBMFK; // 0x44
-		::System::Int32 BJIOBCHFCAA; // 0x48
+		::System::Int32 GAGJLNOBMFK; // 0x40
+		::System::Int32 BJIOBCHFCAA; // 0x44
+		::System::Int32 ILKENAAKKLH; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCFPDEHADKC_CTOR_OFFSET))(this);

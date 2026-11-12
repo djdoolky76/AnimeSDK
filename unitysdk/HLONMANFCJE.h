@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OOCCBMLAELL;
 
-#define HLONMANFCJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D75BD0)
+#define HLONMANFCJE_CTOR_OFFSET UNITYSDK_OFFSET(0x16CD18B0)
 
-inline static constexpr unsigned int HLONMANFCJE_TypeDefinitionIndex = 80593;
+inline static constexpr unsigned int HLONMANFCJE_TypeDefinitionIndex = 83373;
 
 	class HLONMANFCJE : public ::System::Object
 	{

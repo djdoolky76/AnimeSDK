@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_UI3DCONTROLLERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE356F70)
+#define RPG_CLIENT_UI3DCONTROLLERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xEDC0F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DControllerConfig_TypeDefinitionIndex = 73002;
+	inline static constexpr unsigned int UI3DControllerConfig_TypeDefinitionIndex = 75114;
 
 	class UI3DControllerConfig : public ::System::Object
 	{
@@ -16,13 +16,13 @@ namespace RPG::Client
 		::System::String* SourceCameraRelativePath; // 0x18
 		::System::String* PrefabPath; // 0x20
 		::System::Boolean JoinUILoad; // 0x28
-		::System::Boolean UseBelowTransfer; // 0x29
-		::System::Boolean UseScreenTransfer; // 0x2A
-		::System::Boolean IsAsyncLoad; // 0x2B
-		::System::Boolean UseMainScene; // 0x2C
-		::System::Boolean UseGlobalCamera; // 0x2D
-		::System::Boolean UnloadScene; // 0x2E
-		::System::Boolean UseCameraAudioListener; // 0x2F
+		::System::Boolean IsAsyncLoad; // 0x29
+		::System::Boolean UseMainScene; // 0x2A
+		::System::Boolean UseCameraAudioListener; // 0x2B
+		::System::Boolean UnloadScene; // 0x2C
+		::System::Boolean UseScreenTransfer; // 0x2D
+		::System::Boolean UseBelowTransfer; // 0x2E
+		::System::Boolean UseGlobalCamera; // 0x2F
 		// static const ::System::String* DEFAULT_ENVIRONMENT_PROFILE_PATH; // 0x0
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetRatioType_TypeDefinitionIndex = 24643;
+	inline static constexpr unsigned int TargetRatioType_TypeDefinitionIndex = 25115;
 
 	enum class TargetRatioType : ::System::Int32
 	{

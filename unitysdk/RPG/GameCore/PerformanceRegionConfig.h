@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PerformanceRegionConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PERFORMANCEREGIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D900C80)
-#define RPG_GAMECORE_PERFORMANCEREGIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D900B30)
+#define RPG_GAMECORE_PERFORMANCEREGIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB1A0B0)
+#define RPG_GAMECORE_PERFORMANCEREGIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB19F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceRegionConfig_TypeDefinitionIndex = 19220;
+	inline static constexpr unsigned int PerformanceRegionConfig_TypeDefinitionIndex = 19410;
 
 	class PerformanceRegionConfig : public ::RPG::GameCore::JsonConfig
 	{

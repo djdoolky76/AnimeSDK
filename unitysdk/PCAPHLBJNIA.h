@@ -11,23 +11,23 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define PCAPHLBJNIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2C99B0)
-#define PCAPHLBJNIA_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D2C9D40)
-#define PCAPHLBJNIA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D2C9CD0)
-#define PCAPHLBJNIA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2C99F0)
-#define PCAPHLBJNIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2C9940)
+#define PCAPHLBJNIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4D4B00)
+#define PCAPHLBJNIA_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1E4D4E90)
+#define PCAPHLBJNIA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E4D4E20)
+#define PCAPHLBJNIA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4D4B40)
+#define PCAPHLBJNIA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4D4A90)
 
-inline static constexpr unsigned int PCAPHLBJNIA_TypeDefinitionIndex = 24198;
+inline static constexpr unsigned int PCAPHLBJNIA_TypeDefinitionIndex = 24657;
 
 	class PCAPHLBJNIA : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x20
-		::RPG::GameCore::DynamicFloat* DPICNGBHFAC; // 0x28
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
-		::RPG::GameCore::LogicOperation HJNBDHMFKID; // 0x38
-		::RPG::GameCore::RtModifierPropertyType FODBMMCKAEN; // 0x3C
-		::RPG::GameCore::CompareType EHCHAPPGJDJ; // 0x40
+		::RPG::GameCore::DynamicFloat* DPICNGBHFAC; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x30
+		::RPG::GameCore::RtModifierPropertyType FODBMMCKAEN; // 0x38
+		::RPG::GameCore::CompareType EHCHAPPGJDJ; // 0x3C
+		::RPG::GameCore::LogicOperation HJNBDHMFKID; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCAPHLBJNIA_CTOR_OFFSET))(this);

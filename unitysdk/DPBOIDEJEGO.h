@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetControlSkillMapping; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPBOIDEJEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF9260)
-#define DPBOIDEJEGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF9290)
+#define DPBOIDEJEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x12DF4600)
+#define DPBOIDEJEGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DF4630)
 
-inline static constexpr unsigned int DPBOIDEJEGO_TypeDefinitionIndex = 55381;
+inline static constexpr unsigned int DPBOIDEJEGO_TypeDefinitionIndex = 56564;
 
 	class DPBOIDEJEGO
 	{

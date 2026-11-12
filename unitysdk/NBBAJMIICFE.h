@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NBBAJMIICFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934D90)
+#define NBBAJMIICFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF6280)
 
-inline static constexpr unsigned int NBBAJMIICFE_TypeDefinitionIndex = 43272;
+inline static constexpr unsigned int NBBAJMIICFE_TypeDefinitionIndex = 44253;
 
 	class NBBAJMIICFE : public ::System::Object
 	{

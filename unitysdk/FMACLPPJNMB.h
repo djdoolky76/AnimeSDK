@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 class FMACLPPJNMB;
 namespace System { class String; }
 
-#define FMACLPPJNMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE08860)
-#define FMACLPPJNMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE08870)
-#define FMACLPPJNMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE08830)
+#define FMACLPPJNMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE1E90)
+#define FMACLPPJNMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DFE1EA0)
+#define FMACLPPJNMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DFE1E60)
 
-inline static constexpr unsigned int FMACLPPJNMB_TypeDefinitionIndex = 21502;
+inline static constexpr unsigned int FMACLPPJNMB_TypeDefinitionIndex = 21855;
 
 	class FMACLPPJNMB : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* LJGJAPMGLNB; // 0x18
-		::System::String* LONAPEPCKGI; // 0x20
-		::System::UInt32 NJNFNFCJHFJ; // 0x28
-		::RPG::GameCore::ChenLingFesItemFilterType LPDKEDCAODC; // 0x2C
-		::System::UInt32 CMNOEFFFNPE; // 0x30
+		::System::String* LONAPEPCKGI; // 0x18
+		::System::String* LJGJAPMGLNB; // 0x20
+		::RPG::GameCore::ChenLingFesItemFilterType LPDKEDCAODC; // 0x28
+		::System::UInt32 CMNOEFFFNPE; // 0x2C
+		::System::UInt32 NJNFNFCJHFJ; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FMACLPPJNMB_CTOR_OFFSET))(this);

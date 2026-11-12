@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int EPJLDNFONEE___O_TypeDefinitionIndex = 23097;
+inline static constexpr unsigned int EPJLDNFONEE___O_TypeDefinitionIndex = 23526;
 
 	class EPJLDNFONEE___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>O")->GetStaticField(0xE9D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>O")->GetStaticField(0x3BE30);
 		}
 
 	};

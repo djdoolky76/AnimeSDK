@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NIPLMMKMIBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC070C0)
+#define NIPLMMKMIBL_CTOR_OFFSET UNITYSDK_OFFSET(0xC4EA2A0)
 
-inline static constexpr unsigned int NIPLMMKMIBL_TypeDefinitionIndex = 77549;
+inline static constexpr unsigned int NIPLMMKMIBL_TypeDefinitionIndex = 80284;
 
 	class NIPLMMKMIBL : public ::System::Object
 	{

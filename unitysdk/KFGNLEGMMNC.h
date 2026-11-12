@@ -11,19 +11,19 @@ namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System { class String; }
 
-#define KFGNLEGMMNC_AGJIOFDJBNP_OFFSET UNITYSDK_OFFSET(0xB39FDB0)
-#define KFGNLEGMMNC_IAKACEJOBKM_OFFSET UNITYSDK_OFFSET(0xB3A01A0)
-#define KFGNLEGMMNC_IDLNIPDPKEI_OFFSET UNITYSDK_OFFSET(0xB3A0050)
-#define KFGNLEGMMNC_KPFKKLMJBOA_OFFSET UNITYSDK_OFFSET(0xB39FF00)
+#define KFGNLEGMMNC_AGJIOFDJBNP_OFFSET UNITYSDK_OFFSET(0xBC2C350)
+#define KFGNLEGMMNC_IAKACEJOBKM_OFFSET UNITYSDK_OFFSET(0xBC2C740)
+#define KFGNLEGMMNC_IDLNIPDPKEI_OFFSET UNITYSDK_OFFSET(0xBC2C5F0)
+#define KFGNLEGMMNC_KPFKKLMJBOA_OFFSET UNITYSDK_OFFSET(0xBC2C4A0)
 
-inline static constexpr unsigned int KFGNLEGMMNC_TypeDefinitionIndex = 69733;
+inline static constexpr unsigned int KFGNLEGMMNC_TypeDefinitionIndex = 71690;
 
 	class KFGNLEGMMNC : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_NDFMCFDAHFM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KFGNLEGMMNC")->GetStaticField(0x111A0);
+			return (::System::Int32*)UnitySDK::FromName("", "KFGNLEGMMNC")->GetStaticField(0xB5B0);
 		}
 
 		static ::MEJAGBFOBCA* AGJIOFDJBNP(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::PipelineCameraGlobalConfig* a2, ::RPG::Client::CameraModuleConfigCollection* a3, ::RPG::Client::CameraDataAndFlags* a4, ::System::String* a5, ::System::String* a6, ::System::Int32 a7)

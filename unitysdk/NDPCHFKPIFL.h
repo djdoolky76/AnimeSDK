@@ -9,18 +9,18 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define NDPCHFKPIFL_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xBB55F10)
-#define NDPCHFKPIFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB56470)
-#define NDPCHFKPIFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB563D0)
-#define NDPCHFKPIFL_EJCEKMOMLPA_OFFSET UNITYSDK_OFFSET(0xBB56230)
+#define NDPCHFKPIFL_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xC3DF600)
+#define NDPCHFKPIFL_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DFB60)
+#define NDPCHFKPIFL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3DFAC0)
+#define NDPCHFKPIFL_EJCEKMOMLPA_OFFSET UNITYSDK_OFFSET(0xC3DF920)
 
-inline static constexpr unsigned int NDPCHFKPIFL_TypeDefinitionIndex = 77369;
+inline static constexpr unsigned int NDPCHFKPIFL_TypeDefinitionIndex = 79703;
 
 	class NDPCHFKPIFL : public ::System::Object
 	{
 	public:
-		::OOJHKJMGPAN* CEFLLELKFOP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::OIMEGOHPNFI*>* AHCAEBBFPMD; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::OIMEGOHPNFI*>* AHCAEBBFPMD; // 0x10
+		::OOJHKJMGPAN* CEFLLELKFOP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDPCHFKPIFL_CTOR_OFFSET))(this);

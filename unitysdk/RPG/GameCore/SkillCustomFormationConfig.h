@@ -6,12 +6,12 @@ namespace RPG::GameCore { class SkillCustomFormationConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLCUSTOMFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEEDF0)
-#define RPG_GAMECORE_SKILLCUSTOMFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEE9D0)
+#define RPG_GAMECORE_SKILLCUSTOMFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED00C40)
+#define RPG_GAMECORE_SKILLCUSTOMFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED00820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillCustomFormationConfig_TypeDefinitionIndex = 18186;
+	inline static constexpr unsigned int SkillCustomFormationConfig_TypeDefinitionIndex = 18348;
 
 	class SkillCustomFormationConfig : public ::RPG::GameCore::JsonConfig
 	{

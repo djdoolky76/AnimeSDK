@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OELKAFALAFH_EWindowType_TypeDefinitionIndex = 68686;
+inline static constexpr unsigned int OELKAFALAFH_EWindowType_TypeDefinitionIndex = 70638;
 
 	enum class OELKAFALAFH_EWindowType : ::System::Int32
 	{

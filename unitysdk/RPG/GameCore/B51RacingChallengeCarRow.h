@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class B51RacingChallengeCarRow; }
 
-#define RPG_GAMECORE_B51RACINGCHALLENGECARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D433310)
-#define RPG_GAMECORE_B51RACINGCHALLENGECARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4331D0)
+#define RPG_GAMECORE_B51RACINGCHALLENGECARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E654000)
+#define RPG_GAMECORE_B51RACINGCHALLENGECARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E653EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingChallengeCarRow_TypeDefinitionIndex = 10976;
+	inline static constexpr unsigned int B51RacingChallengeCarRow_TypeDefinitionIndex = 10992;
 
 	class B51RacingChallengeCarRow : public ::System::Object
 	{

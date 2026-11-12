@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ExpeditionBattleRoute; }
 
-#define FFPAHFKMNOC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1574D890)
-#define FFPAHFKMNOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1574D9D0)
+#define FFPAHFKMNOC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1666C870)
+#define FFPAHFKMNOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1666C9B0)
 
-inline static constexpr unsigned int FFPAHFKMNOC_TypeDefinitionIndex = 63868;
+inline static constexpr unsigned int FFPAHFKMNOC_TypeDefinitionIndex = 65310;
 
 	class FFPAHFKMNOC : public ::System::Object
 	{

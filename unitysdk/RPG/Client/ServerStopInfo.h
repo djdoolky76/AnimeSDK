@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_SERVERSTOPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B1FB0)
+#define RPG_CLIENT_SERVERSTOPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB1C770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ServerStopInfo_TypeDefinitionIndex = 69413;
+	inline static constexpr unsigned int ServerStopInfo_TypeDefinitionIndex = 71367;
 
 	class ServerStopInfo : public ::System::Object
 	{

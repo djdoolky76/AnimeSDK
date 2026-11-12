@@ -4,10 +4,10 @@
 class EMHHFLMIMKI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define CMEBOMFCENJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA29170)
-#define CMEBOMFCENJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA29250)
+#define CMEBOMFCENJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE368110)
+#define CMEBOMFCENJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE3681F0)
 
-inline static constexpr unsigned int CMEBOMFCENJ_TypeDefinitionIndex = 54170;
+inline static constexpr unsigned int CMEBOMFCENJ_TypeDefinitionIndex = 55334;
 
 	class CMEBOMFCENJ
 	{

@@ -6,19 +6,19 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections { class IEnumerator; }
 namespace UnityEngine { class Coroutine; }
 
-#define BPIEHCCAMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A61A0)
-#define BPIEHCCAMIA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1A6610)
-#define BPIEHCCAMIA_JKAILKNKMHO_OFFSET UNITYSDK_OFFSET(0xC1A61B0)
-#define BPIEHCCAMIA_LDLGJOOEOFM_OFFSET UNITYSDK_OFFSET(0xC1A6530)
-#define BPIEHCCAMIA_MMAAGGPCFGL_OFFSET UNITYSDK_OFFSET(0xC1A6590)
+#define BPIEHCCAMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB46FC0)
+#define BPIEHCCAMIA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB47430)
+#define BPIEHCCAMIA_JKAILKNKMHO_OFFSET UNITYSDK_OFFSET(0xCB46FD0)
+#define BPIEHCCAMIA_LDLGJOOEOFM_OFFSET UNITYSDK_OFFSET(0xCB47350)
+#define BPIEHCCAMIA_MMAAGGPCFGL_OFFSET UNITYSDK_OFFSET(0xCB473B0)
 
-inline static constexpr unsigned int BPIEHCCAMIA_TypeDefinitionIndex = 60882;
+inline static constexpr unsigned int BPIEHCCAMIA_TypeDefinitionIndex = 62261;
 
 	class BPIEHCCAMIA : public ::System::Object
 	{
 	public:
-		::UnityEngine::Coroutine* CGAEACAKGMP; // 0x10
-		::EOABGMGNKGA* CGJNMCLDIGO; // 0x18
+		::EOABGMGNKGA* CGJNMCLDIGO; // 0x10
+		::UnityEngine::Coroutine* CGAEACAKGMP; // 0x18
 		::System::Void _ctor(::EOABGMGNKGA* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::EOABGMGNKGA*))((::PBYTE)hIl2Cpp + BPIEHCCAMIA_CTOR_OFFSET))(this, a1);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowBattleConditionUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IGDEFNBBJJI_CTOR_OFFSET UNITYSDK_OFFSET(0x164013F0)
-#define IGDEFNBBJJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16401420)
+#define IGDEFNBBJJI_CTOR_OFFSET UNITYSDK_OFFSET(0x173B1950)
+#define IGDEFNBBJJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173B1980)
 
-inline static constexpr unsigned int IGDEFNBBJJI_TypeDefinitionIndex = 58608;
+inline static constexpr unsigned int IGDEFNBBJJI_TypeDefinitionIndex = 59873;
 
 	class IGDEFNBBJJI
 	{

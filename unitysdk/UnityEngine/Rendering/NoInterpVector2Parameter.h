@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPVECTOR2PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C5F90)
+#define UNITYENGINE_RENDERING_NOINTERPVECTOR2PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x20576DD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpVector2Parameter_TypeDefinitionIndex = 35646;
+	inline static constexpr unsigned int NoInterpVector2Parameter_TypeDefinitionIndex = 36574;
 
 	class NoInterpVector2Parameter
 	{

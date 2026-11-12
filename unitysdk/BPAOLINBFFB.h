@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ResetTeamEntityFaceDir; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPAOLINBFFB_CTOR_OFFSET UNITYSDK_OFFSET(0xC19B690)
-#define BPAOLINBFFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC19B6A0)
-#define BPAOLINBFFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC19B6E0)
-#define BPAOLINBFFB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC19BA30)
-#define BPAOLINBFFB_TICK_OFFSET UNITYSDK_OFFSET(0xC19BA80)
+#define BPAOLINBFFB_CTOR_OFFSET UNITYSDK_OFFSET(0xCB3BAE0)
+#define BPAOLINBFFB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB3BAF0)
+#define BPAOLINBFFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB3BB30)
+#define BPAOLINBFFB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCB3BE80)
+#define BPAOLINBFFB_TICK_OFFSET UNITYSDK_OFFSET(0xCB3BED0)
 
-inline static constexpr unsigned int BPAOLINBFFB_TypeDefinitionIndex = 56384;
+inline static constexpr unsigned int BPAOLINBFFB_TypeDefinitionIndex = 57603;
 
 	class BPAOLINBFFB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ResetTeamEntityFaceDir* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ResetTeamEntityFaceDir* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ResetTeamEntityFaceDir* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ResetTeamEntityFaceDir*))((::PBYTE)hIl2Cpp + BPAOLINBFFB_CTOR_OFFSET))(this, a1, a2);

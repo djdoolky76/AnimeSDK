@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FAFFMDBPCGJ_ShadowJobRunResult_TypeDefinitionIndex = 76735;
+inline static constexpr unsigned int FAFFMDBPCGJ_ShadowJobRunResult_TypeDefinitionIndex = 79068;
 
 	enum class FAFFMDBPCGJ_ShadowJobRunResult : ::System::Int32
 	{

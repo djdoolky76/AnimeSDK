@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TalkFigure; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB54E80)
-#define RPG_GAMECORE_TALKFIGURE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB54E90)
-#define RPG_GAMECORE_TALKFIGURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB54E40)
+#define RPG_GAMECORE_TALKFIGURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE040B0)
+#define RPG_GAMECORE_TALKFIGURE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE040C0)
+#define RPG_GAMECORE_TALKFIGURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE04070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkFigure_TypeDefinitionIndex = 21927;
+	inline static constexpr unsigned int TalkFigure_TypeDefinitionIndex = 22318;
 
 	class TalkFigure : public ::RPG::GameCore::TaskConfig
 	{

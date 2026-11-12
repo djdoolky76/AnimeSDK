@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class StackBoostPointCallbackDecorate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCIFOAPMFNK_CTOR_OFFSET UNITYSDK_OFFSET(0xB3387B0)
-#define KCIFOAPMFNK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3387C0)
-#define KCIFOAPMFNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB338800)
-#define KCIFOAPMFNK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB338EE0)
-#define KCIFOAPMFNK_TICK_OFFSET UNITYSDK_OFFSET(0xB338F30)
+#define KCIFOAPMFNK_CTOR_OFFSET UNITYSDK_OFFSET(0xBBC31C0)
+#define KCIFOAPMFNK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBC31D0)
+#define KCIFOAPMFNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBC3210)
+#define KCIFOAPMFNK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBC38E0)
+#define KCIFOAPMFNK_TICK_OFFSET UNITYSDK_OFFSET(0xBBC3930)
 
-inline static constexpr unsigned int KCIFOAPMFNK_TypeDefinitionIndex = 55637;
+inline static constexpr unsigned int KCIFOAPMFNK_TypeDefinitionIndex = 56835;
 
 	class KCIFOAPMFNK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::StackBoostPointCallbackDecorate* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::StackBoostPointCallbackDecorate* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackBoostPointCallbackDecorate* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StackBoostPointCallbackDecorate*))((::PBYTE)hIl2Cpp + KCIFOAPMFNK_CTOR_OFFSET))(this, a1, a2);

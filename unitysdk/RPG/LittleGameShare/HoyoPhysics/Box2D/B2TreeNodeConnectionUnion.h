@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2TreeNodeConnectionUnion_TypeDefinitionIndex = 36797;
+	inline static constexpr unsigned int B2TreeNodeConnectionUnion_TypeDefinitionIndex = 37725;
 
 	struct alignas(4) B2TreeNodeConnectionUnion
 	{

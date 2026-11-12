@@ -7,9 +7,9 @@ class MEIJGMHFPLB;
 class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 
-#define AGDJOILJKAK_GGJGNNDGOPJ_OFFSET UNITYSDK_OFFSET(0xCF26810)
+#define AGDJOILJKAK_GGJGNNDGOPJ_OFFSET UNITYSDK_OFFSET(0xD5DCF10)
 
-inline static constexpr unsigned int AGDJOILJKAK_TypeDefinitionIndex = 77043;
+inline static constexpr unsigned int AGDJOILJKAK_TypeDefinitionIndex = 79377;
 
 	class AGDJOILJKAK : public ::System::Object
 	{

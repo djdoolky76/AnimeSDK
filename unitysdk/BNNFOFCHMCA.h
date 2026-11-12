@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IIAJFCNCMEB;
 
-#define BNNFOFCHMCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE2870)
+#define BNNFOFCHMCA_CTOR_OFFSET UNITYSDK_OFFSET(0xC762A20)
 
-inline static constexpr unsigned int BNNFOFCHMCA_TypeDefinitionIndex = 80548;
+inline static constexpr unsigned int BNNFOFCHMCA_TypeDefinitionIndex = 83328;
 
 	class BNNFOFCHMCA : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KMHDMLHCHOO_LightMethod_TypeDefinitionIndex = 47353;
+inline static constexpr unsigned int KMHDMLHCHOO_LightMethod_TypeDefinitionIndex = 48382;
 
 	enum class KMHDMLHCHOO_LightMethod : ::System::Int32
 	{

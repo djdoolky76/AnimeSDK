@@ -5,16 +5,16 @@ namespace RPG::Client { class MonsterData; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MKEGPKOGFIE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB991310)
-#define MKEGPKOGFIE___C__DISPLAYCLASS0_0__QUERY_B__0_OFFSET UNITYSDK_OFFSET(0xB991650)
+#define MKEGPKOGFIE___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC24B5B0)
+#define MKEGPKOGFIE___C__DISPLAYCLASS0_0__QUERY_B__0_OFFSET UNITYSDK_OFFSET(0xC24B8F0)
 
-inline static constexpr unsigned int MKEGPKOGFIE___c__DisplayClass0_0_TypeDefinitionIndex = 81503;
+inline static constexpr unsigned int MKEGPKOGFIE___c__DisplayClass0_0_TypeDefinitionIndex = 84284;
 
 	class MKEGPKOGFIE___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::System::Predicate_1<::RPG::Client::MonsterData*>* __9__0; // 0x10
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* shouldHideMonsters; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* shouldHideMonsters; // 0x10
+		::System::Predicate_1<::RPG::Client::MonsterData*>* __9__0; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MKEGPKOGFIE___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

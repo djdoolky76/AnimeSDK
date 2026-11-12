@@ -5,23 +5,23 @@ class CIPCDNCKCGE;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define PINPFDNJBBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC274530)
-#define PINPFDNJBBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC274560)
-#define PINPFDNJBBB___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC274570)
+#define PINPFDNJBBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB9C600)
+#define PINPFDNJBBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9C630)
+#define PINPFDNJBBB___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xCB9C640)
 
-inline static constexpr unsigned int PINPFDNJBBB___c_TypeDefinitionIndex = 80760;
+inline static constexpr unsigned int PINPFDNJBBB___c_TypeDefinitionIndex = 83540;
 
 	class PINPFDNJBBB___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::CIPCDNCKCGE*>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::CIPCDNCKCGE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F860);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F868);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71ED0);
+		}
+
+		static ::System::Comparison_1<::CIPCDNCKCGE*>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::CIPCDNCKCGE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71ED8);
 		}
 
 		static ::System::Void _cctor()

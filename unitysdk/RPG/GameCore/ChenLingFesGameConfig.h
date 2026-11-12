@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ChenLingFesVCameraConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58DC60)
-#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D58DC70)
-#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D58DC30)
+#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E79D9E0)
+#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E79D9F0)
+#define RPG_GAMECORE_CHENLINGFESGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E79D9B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesGameConfig_TypeDefinitionIndex = 18427;
+	inline static constexpr unsigned int ChenLingFesGameConfig_TypeDefinitionIndex = 18587;
 
 	class ChenLingFesGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

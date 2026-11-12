@@ -7,12 +7,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueNousDifficultyLevelRow; }
 
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA22460)
-#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA21D00)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC345A0)
+#define RPG_GAMECORE_ROGUENOUSDIFFICULTYLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC33E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueNousDifficultyLevelRow_TypeDefinitionIndex = 14930;
+	inline static constexpr unsigned int RogueNousDifficultyLevelRow_TypeDefinitionIndex = 15086;
 
 	class RogueNousDifficultyLevelRow : public ::System::Object
 	{

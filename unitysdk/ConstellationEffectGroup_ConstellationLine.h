@@ -4,9 +4,9 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Gradient; }
 
-#define CONSTELLATIONEFFECTGROUP_CONSTELLATIONLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFB3BB0)
+#define CONSTELLATIONEFFECTGROUP_CONSTELLATIONLINE_CTOR_OFFSET UNITYSDK_OFFSET(0xE916AB0)
 
-inline static constexpr unsigned int ConstellationEffectGroup_ConstellationLine_TypeDefinitionIndex = 47329;
+inline static constexpr unsigned int ConstellationEffectGroup_ConstellationLine_TypeDefinitionIndex = 48358;
 
 	class ConstellationEffectGroup_ConstellationLine : public ::System::Object
 	{

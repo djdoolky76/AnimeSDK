@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IEAMIIFFDKL.h"
 
-#define NONOFPLPIFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D243B60)
+#define NONOFPLPIFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E449520)
 
-inline static constexpr unsigned int NONOFPLPIFB_TypeDefinitionIndex = 25011;
+inline static constexpr unsigned int NONOFPLPIFB_TypeDefinitionIndex = 25489;
 
 	class NONOFPLPIFB : public ::IEAMIIFFDKL
 	{

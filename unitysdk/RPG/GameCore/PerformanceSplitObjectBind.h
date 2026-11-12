@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceSplitObjectAnimMap; }
 namespace RPG::GameCore { class PerformanceSplitObjectBind; }
 
-#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D906D00)
-#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D906BB0)
+#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB20110)
+#define RPG_GAMECORE_PERFORMANCESPLITOBJECTBIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB1FFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSplitObjectBind_TypeDefinitionIndex = 17576;
+	inline static constexpr unsigned int PerformanceSplitObjectBind_TypeDefinitionIndex = 17744;
 
 	class PerformanceSplitObjectBind : public ::RPG::GameCore::JsonConfig
 	{

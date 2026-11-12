@@ -10,61 +10,68 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define ILEJNCNIMDE_ADD_CHANGED_OFFSET UNITYSDK_OFFSET(0x164ADCA0)
-#define ILEJNCNIMDE_BKJGMFOKKKN_1_OFFSET UNITYSDK_OFFSET(0x164AE7A0)
-#define ILEJNCNIMDE_BKJGMFOKKKN_2_OFFSET UNITYSDK_OFFSET(0x164AE960)
-#define ILEJNCNIMDE_BKJGMFOKKKN_3_OFFSET UNITYSDK_OFFSET(0x164AEB20)
-#define ILEJNCNIMDE_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0x164AE410)
-#define ILEJNCNIMDE_CCTOR_OFFSET UNITYSDK_OFFSET(0x164AF650)
-#define ILEJNCNIMDE_CGMCOJBGGAI_OFFSET UNITYSDK_OFFSET(0x164AE2D0)
-#define ILEJNCNIMDE_CODCPIAPGOE_OFFSET UNITYSDK_OFFSET(0x164ADF20)
-#define ILEJNCNIMDE_DBOCNHDMILL_OFFSET UNITYSDK_OFFSET(0x164AEEE0)
-#define ILEJNCNIMDE_GEGBLIHFCBH_OFFSET UNITYSDK_OFFSET(0x164ADEC0)
-#define ILEJNCNIMDE_GGGDECCEBGP_OFFSET UNITYSDK_OFFSET(0x164AE230)
-#define ILEJNCNIMDE_GNCJAGHKEPO_1_OFFSET UNITYSDK_OFFSET(0x164AE8A0)
-#define ILEJNCNIMDE_GNCJAGHKEPO_2_OFFSET UNITYSDK_OFFSET(0x164AEA60)
-#define ILEJNCNIMDE_GNCJAGHKEPO_3_OFFSET UNITYSDK_OFFSET(0x164AEC20)
-#define ILEJNCNIMDE_GNCJAGHKEPO_OFFSET UNITYSDK_OFFSET(0x164AE510)
-#define ILEJNCNIMDE_GNNPFBBMFLA_OFFSET UNITYSDK_OFFSET(0x164ADFE0)
-#define ILEJNCNIMDE_HEOBFABJCPB_OFFSET UNITYSDK_OFFSET(0x164AF4B0)
-#define ILEJNCNIMDE_HLFCKAJEBHD_OFFSET UNITYSDK_OFFSET(0x164ADF80)
-#define ILEJNCNIMDE_LAEEDGPGDBF_OFFSET UNITYSDK_OFFSET(0x164AE370)
-#define ILEJNCNIMDE_LBODBMDDLGH_OFFSET UNITYSDK_OFFSET(0x164ADE60)
-#define ILEJNCNIMDE_LINGIKJCILM_OFFSET UNITYSDK_OFFSET(0x164AE5D0)
-#define ILEJNCNIMDE_MBEFMDCFIGJ_OFFSET UNITYSDK_OFFSET(0x164AF080)
-#define ILEJNCNIMDE_MKCAPIEIOOE_OFFSET UNITYSDK_OFFSET(0x164AE190)
-#define ILEJNCNIMDE_OCJJCEOMHNE_OFFSET UNITYSDK_OFFSET(0x164AF2D0)
-#define ILEJNCNIMDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x164AECD0)
-#define ILEJNCNIMDE_REMOVE_CHANGED_OFFSET UNITYSDK_OFFSET(0x164ADD80)
+#define ILEJNCNIMDE_ADD_CHANGED_OFFSET UNITYSDK_OFFSET(0x17481D30)
+#define ILEJNCNIMDE_ADD_STRUCTURECHANGED_OFFSET UNITYSDK_OFFSET(0x17481EF0)
+#define ILEJNCNIMDE_BKJGMFOKKKN_1_OFFSET UNITYSDK_OFFSET(0x17482AF0)
+#define ILEJNCNIMDE_BKJGMFOKKKN_2_OFFSET UNITYSDK_OFFSET(0x17482DB0)
+#define ILEJNCNIMDE_BKJGMFOKKKN_3_OFFSET UNITYSDK_OFFSET(0x17483070)
+#define ILEJNCNIMDE_BKJGMFOKKKN_OFFSET UNITYSDK_OFFSET(0x17482660)
+#define ILEJNCNIMDE_CCTOR_OFFSET UNITYSDK_OFFSET(0x17483CA0)
+#define ILEJNCNIMDE_CGMCOJBGGAI_OFFSET UNITYSDK_OFFSET(0x17482520)
+#define ILEJNCNIMDE_CODCPIAPGOE_OFFSET UNITYSDK_OFFSET(0x17482170)
+#define ILEJNCNIMDE_DBOCNHDMILL_OFFSET UNITYSDK_OFFSET(0x17483530)
+#define ILEJNCNIMDE_GEGBLIHFCBH_OFFSET UNITYSDK_OFFSET(0x17482110)
+#define ILEJNCNIMDE_GGGDECCEBGP_OFFSET UNITYSDK_OFFSET(0x17482480)
+#define ILEJNCNIMDE_GNCJAGHKEPO_1_OFFSET UNITYSDK_OFFSET(0x17482C60)
+#define ILEJNCNIMDE_GNCJAGHKEPO_2_OFFSET UNITYSDK_OFFSET(0x17482F20)
+#define ILEJNCNIMDE_GNCJAGHKEPO_3_OFFSET UNITYSDK_OFFSET(0x174831E0)
+#define ILEJNCNIMDE_GNCJAGHKEPO_OFFSET UNITYSDK_OFFSET(0x174827D0)
+#define ILEJNCNIMDE_GNNPFBBMFLA_OFFSET UNITYSDK_OFFSET(0x17482230)
+#define ILEJNCNIMDE_HEOBFABJCPB_OFFSET UNITYSDK_OFFSET(0x17483B00)
+#define ILEJNCNIMDE_HLFCKAJEBHD_OFFSET UNITYSDK_OFFSET(0x174821D0)
+#define ILEJNCNIMDE_LAEEDGPGDBF_OFFSET UNITYSDK_OFFSET(0x174825C0)
+#define ILEJNCNIMDE_LBODBMDDLGH_OFFSET UNITYSDK_OFFSET(0x174820B0)
+#define ILEJNCNIMDE_LINGIKJCILM_OFFSET UNITYSDK_OFFSET(0x17482920)
+#define ILEJNCNIMDE_MBEFMDCFIGJ_OFFSET UNITYSDK_OFFSET(0x174836D0)
+#define ILEJNCNIMDE_MKCAPIEIOOE_OFFSET UNITYSDK_OFFSET(0x174823E0)
+#define ILEJNCNIMDE_OCJJCEOMHNE_OFFSET UNITYSDK_OFFSET(0x17483920)
+#define ILEJNCNIMDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x17483310)
+#define ILEJNCNIMDE_REMOVE_CHANGED_OFFSET UNITYSDK_OFFSET(0x17481E10)
+#define ILEJNCNIMDE_REMOVE_STRUCTURECHANGED_OFFSET UNITYSDK_OFFSET(0x17481FD0)
 
-inline static constexpr unsigned int ILEJNCNIMDE_TypeDefinitionIndex = 48963;
+inline static constexpr unsigned int ILEJNCNIMDE_TypeDefinitionIndex = 50024;
 
 	class ILEJNCNIMDE : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRouteNode*>** StaticGet_CPFIGFNIGBD()
+		static ::System::Action** StaticGet_StructureChanged()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRouteNode*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x65BC0);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRegion*>** StaticGet_EGGKMANCCCF()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRegion*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x65BC8);
-		}
-
-		static ::System::Action** StaticGet_Changed()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x65BD0);
+			return (::System::Action**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x68A20);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>** StaticGet_HPELNGDMFON()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x65BD8);
+			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxPath*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x68A28);
+		}
+
+		static ::System::Action** StaticGet_Changed()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x68A30);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRouteNode*>** StaticGet_CPFIGFNIGBD()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRouteNode*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x68A38);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxConnector*>** StaticGet_JCDLPKIGCKN()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxConnector*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x65BE0);
+			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxConnector*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x68A40);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRegion*>** StaticGet_EGGKMANCCCF()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPGTools::LDWhiteBox::WhiteBoxRegion*>**)UnitySDK::FromName("", "ILEJNCNIMDE")->GetStaticField(0x68A48);
 		}
 
 		static ::System::Void _cctor()
@@ -80,6 +87,16 @@ inline static constexpr unsigned int ILEJNCNIMDE_TypeDefinitionIndex = 48963;
 		static ::System::Void remove_Changed(::System::Action* a1)
 		{
 			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + ILEJNCNIMDE_REMOVE_CHANGED_OFFSET))(a1);
+		}
+
+		static ::System::Void add_StructureChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + ILEJNCNIMDE_ADD_STRUCTURECHANGED_OFFSET))(a1);
+		}
+
+		static ::System::Void remove_StructureChanged(::System::Action* a1)
+		{
+			return ((::System::Void(*)(::System::Action*))((::PBYTE)hIl2Cpp + ILEJNCNIMDE_REMOVE_STRUCTURECHANGED_OFFSET))(a1);
 		}
 
 		static ::System::Collections::Generic::IEnumerable_1<::RPGTools::LDWhiteBox::WhiteBoxRegion*>* LBODBMDDLGH()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MHDGPIKDOBB_DJDICILNBEF_OFFSET UNITYSDK_OFFSET(0x1DD72240)
+#define MHDGPIKDOBB_DJDICILNBEF_OFFSET UNITYSDK_OFFSET(0x1EF749C0)
 
-inline static constexpr unsigned int MHDGPIKDOBB_TypeDefinitionIndex = 6411;
+inline static constexpr unsigned int MHDGPIKDOBB_TypeDefinitionIndex = 6418;
 
 	class MHDGPIKDOBB : public ::System::Object
 	{

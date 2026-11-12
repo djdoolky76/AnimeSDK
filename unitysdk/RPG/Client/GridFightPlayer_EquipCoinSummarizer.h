@@ -1,26 +1,26 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 namespace RPG::Client { class GridFightGameModifier; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xD1DC7D0)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xD1DC220)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xD1DC270)
-#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0xD1DC680)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC2FC60)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0xDC2F6B0)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xDC2F700)
+#define RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_UPDATECOIN_OFFSET UNITYSDK_OFFSET(0xDC2FB10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPlayer_EquipCoinSummarizer_TypeDefinitionIndex = 65072;
+	inline static constexpr unsigned int GridFightPlayer_EquipCoinSummarizer_TypeDefinitionIndex = 66739;
 
-	class GridFightPlayer_EquipCoinSummarizer : public ::AMCOEFHHBPO
+	class GridFightPlayer_EquipCoinSummarizer : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::RPG::Client::GridFightGameModifier* _CurModifier; // 0x10
 		::System::UInt32 _EquipID; // 0x18
-		::System::Int32 _LastCoin; // 0x1C
-		::System::UInt32 _EquipUID; // 0x20
+		::System::UInt32 _EquipUID; // 0x1C
+		::System::Int32 _LastCoin; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPLAYER_EQUIPCOINSUMMARIZER_CTOR_OFFSET))(this);

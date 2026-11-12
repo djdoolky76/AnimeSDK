@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AttachNishastagaItemToScene; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MDIDHINKNJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AA5F0)
-#define MDIDHINKNJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8AA620)
+#define MDIDHINKNJL_CTOR_OFFSET UNITYSDK_OFFSET(0xC15A330)
+#define MDIDHINKNJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC15A360)
 
-inline static constexpr unsigned int MDIDHINKNJL_TypeDefinitionIndex = 57936;
+inline static constexpr unsigned int MDIDHINKNJL_TypeDefinitionIndex = 59173;
 
 	class MDIDHINKNJL
 	{

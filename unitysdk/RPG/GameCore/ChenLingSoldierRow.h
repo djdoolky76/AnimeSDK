@@ -7,31 +7,32 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingSoldierRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGSOLDIERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5946D0)
-#define RPG_GAMECORE_CHENLINGSOLDIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D594150)
+#define RPG_GAMECORE_CHENLINGSOLDIERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A49F0)
+#define RPG_GAMECORE_CHENLINGSOLDIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7A4470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSoldierRow_TypeDefinitionIndex = 11053;
+	inline static constexpr unsigned int ChenLingSoldierRow_TypeDefinitionIndex = 11069;
 
 	class ChenLingSoldierRow : public ::System::Object
 	{
 	public:
 		::System::String* SmallIconOutlinePath; // 0x10
-		::System::String* ModelPath; // 0x18
-		::Il2CppArray<::System::UInt32>* AtkSkillIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* PromotionConditionList; // 0x30
-		::System::String* SmallIconPath; // 0x38
-		::RPG::Client::TextID SkillDesc; // 0x40
-		::System::UInt32 ID; // 0x50
-		::System::UInt32 InitialMaxLevel; // 0x54
-		::RPG::Client::TextID PromotionSkillDesc; // 0x58
-		::RPG::GameCore::ChenLingBattleInitPosition Position; // 0x68
-		::System::UInt32 PromotionEffectID; // 0x6C
-		::System::Boolean IsOnlyForEnemy; // 0x70
-		::System::Byte _padding0[0x7];
-		::RPG::Client::TextID Name; // 0x78
+		::System::String* SmallIconPath; // 0x18
+		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* PromotionConditionList; // 0x28
+		::Il2CppArray<::System::UInt32>* AtkSkillIDList; // 0x30
+		::System::String* ModelPath; // 0x38
+		::System::Boolean IsOnlyForEnemy; // 0x40
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::ChenLingBattleInitPosition Position; // 0x44
+		::System::UInt32 InitialMaxLevel; // 0x48
+		::System::UInt32 ID; // 0x4C
+		::System::UInt32 PromotionEffectID; // 0x50
+		::System::Byte _padding1[0x4];
+		::RPG::Client::TextID Name; // 0x58
+		::RPG::Client::TextID PromotionSkillDesc; // 0x68
+		::RPG::Client::TextID SkillDesc; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGSOLDIERROW_CTOR_OFFSET))(this);

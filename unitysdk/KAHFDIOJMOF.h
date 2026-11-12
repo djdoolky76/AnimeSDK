@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class StopBattlePostureType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KAHFDIOJMOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D6590)
-#define KAHFDIOJMOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2D65A0)
-#define KAHFDIOJMOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2D65E0)
-#define KAHFDIOJMOF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2D6640)
-#define KAHFDIOJMOF_TICK_OFFSET UNITYSDK_OFFSET(0xB2D6690)
+#define KAHFDIOJMOF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5A640)
+#define KAHFDIOJMOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB5A650)
+#define KAHFDIOJMOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB5A690)
+#define KAHFDIOJMOF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB5A6F0)
+#define KAHFDIOJMOF_TICK_OFFSET UNITYSDK_OFFSET(0xBB5A740)
 
-inline static constexpr unsigned int KAHFDIOJMOF_TypeDefinitionIndex = 53294;
+inline static constexpr unsigned int KAHFDIOJMOF_TypeDefinitionIndex = 54456;
 
 	class KAHFDIOJMOF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::StopBattlePostureType* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::StopBattlePostureType* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopBattlePostureType* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopBattlePostureType*))((::PBYTE)hIl2Cpp + KAHFDIOJMOF_CTOR_OFFSET))(this, a1, a2);

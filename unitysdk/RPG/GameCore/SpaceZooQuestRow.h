@@ -6,20 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpaceZooQuestRow; }
 
-#define RPG_GAMECORE_SPACEZOOQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF7E60)
-#define RPG_GAMECORE_SPACEZOOQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAF77B0)
+#define RPG_GAMECORE_SPACEZOOQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED09E60)
+#define RPG_GAMECORE_SPACEZOOQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED097B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooQuestRow_TypeDefinitionIndex = 12381;
+	inline static constexpr unsigned int SpaceZooQuestRow_TypeDefinitionIndex = 12448;
 
 	class SpaceZooQuestRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::RPG::GameCore::SpaceZooQuestType Type; // 0x18
-		::System::UInt32 ID; // 0x1C
-		::RPG::Client::TextID QuestTabName; // 0x20
+		::RPG::Client::TextID QuestTabName; // 0x18
+		::System::UInt32 ID; // 0x28
+		::RPG::GameCore::SpaceZooQuestType Type; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPACEZOOQUESTROW_CTOR_OFFSET))(this);

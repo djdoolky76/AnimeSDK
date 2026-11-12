@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimelineAsset_Versions_TypeDefinitionIndex = 38790;
+	inline static constexpr unsigned int TimelineAsset_Versions_TypeDefinitionIndex = 39719;
 
 	enum class TimelineAsset_Versions : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class ELCNIAHOIMG;
 namespace System { class Object; }
 
-#define ELCNIAHOIMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2CB800)
-#define ELCNIAHOIMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2CB830)
-#define ELCNIAHOIMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2CB840)
+#define ELCNIAHOIMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5AF930)
+#define ELCNIAHOIMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5AF960)
+#define ELCNIAHOIMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F5AF970)
 
-inline static constexpr unsigned int ELCNIAHOIMG___c_TypeDefinitionIndex = 32125;
+inline static constexpr unsigned int ELCNIAHOIMG___c_TypeDefinitionIndex = 33038;
 
 	class ELCNIAHOIMG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FC30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49290);
 		}
 
 		static ::System::Void _cctor()

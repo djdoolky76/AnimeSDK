@@ -6,19 +6,19 @@ namespace RPG::Client { class ItemCostCalculateResult; }
 namespace RPG::Client { class ItemCostCalculator; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BHADOKGFLHO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB46E4D0)
-#define BHADOKGFLHO_DFLBMLAMMIN_OFFSET UNITYSDK_OFFSET(0xB46E390)
-#define BHADOKGFLHO_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xB46E0A0)
-#define BHADOKGFLHO_LFPEICPKKMF_OFFSET UNITYSDK_OFFSET(0xB46E170)
+#define BHADOKGFLHO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB26870)
+#define BHADOKGFLHO_DFLBMLAMMIN_OFFSET UNITYSDK_OFFSET(0xBB26730)
+#define BHADOKGFLHO_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xBB26440)
+#define BHADOKGFLHO_LFPEICPKKMF_OFFSET UNITYSDK_OFFSET(0xBB26510)
 
-inline static constexpr unsigned int BHADOKGFLHO_TypeDefinitionIndex = 65732;
+inline static constexpr unsigned int BHADOKGFLHO_TypeDefinitionIndex = 67658;
 
 	class BHADOKGFLHO : public ::System::Object
 	{
 	public:
 		static ::System::UInt32* StaticGet_GDDICPCFJON()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "BHADOKGFLHO")->GetStaticField(0x156F0);
+			return (::System::UInt32*)UnitySDK::FromName("", "BHADOKGFLHO")->GetStaticField(0x15800);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class DLGCDMBGIEB;
 namespace System { class Object; }
 
-#define DLGCDMBGIEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1E72E0)
-#define DLGCDMBGIEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E7320)
-#define DLGCDMBGIEB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1E7330)
+#define DLGCDMBGIEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C37B0)
+#define DLGCDMBGIEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C37F0)
+#define DLGCDMBGIEB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F4C3800)
 
-inline static constexpr unsigned int DLGCDMBGIEB___c_TypeDefinitionIndex = 27105;
+inline static constexpr unsigned int DLGCDMBGIEB___c_TypeDefinitionIndex = 27636;
 
 	class DLGCDMBGIEB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DA60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39A10);
 		}
 
 		static ::System::Void _cctor()

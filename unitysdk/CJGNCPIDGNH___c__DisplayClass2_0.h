@@ -11,20 +11,20 @@ namespace RPG::Client { class BaseLobby; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CJGNCPIDGNH___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD20BCB0)
-#define CJGNCPIDGNH___C__DISPLAYCLASS2_0__CREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD211420)
-#define CJGNCPIDGNH___C__DISPLAYCLASS2_0__CREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xD211560)
+#define CJGNCPIDGNH___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB818B0)
+#define CJGNCPIDGNH___C__DISPLAYCLASS2_0__CREATELOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xDB87010)
+#define CJGNCPIDGNH___C__DISPLAYCLASS2_0__CREATELOBBY_B__1_OFFSET UNITYSDK_OFFSET(0xDB87130)
 
-inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass2_0_TypeDefinitionIndex = 80271;
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass2_0_TypeDefinitionIndex = 83048;
 
 	class CJGNCPIDGNH___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::CJGNCPIDGNH* __4__this; // 0x10
-		::FMHEHLIFNGJ* extInfo; // 0x18
-		::System::Func_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*>* __9__1; // 0x20
-		::MBJOEPEGLII* session; // 0x28
-		::PJMGBLIFDFP* roomExtInfo; // 0x30
+		::System::Func_1<::RPG::Client::Promises::IPromise_1<::RPG::Client::BaseLobby*>*>* __9__1; // 0x10
+		::MBJOEPEGLII* session; // 0x18
+		::FMHEHLIFNGJ* extInfo; // 0x20
+		::PJMGBLIFDFP* roomExtInfo; // 0x28
+		::CJGNCPIDGNH* __4__this; // 0x30
 		::System::UInt32 createParam; // 0x38
 		::System::Void _ctor()
 		{

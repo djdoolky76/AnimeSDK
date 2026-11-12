@@ -6,31 +6,31 @@ namespace SRDebugger::Services { class ConsoleEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED40220)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED3FD30)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED3FD20)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_MESSAGEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1ED3FE40)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1ED3FF00)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x1ED3FE30)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_MATCHES_OFFSET UNITYSDK_OFFSET(0x1ED40190)
-#define SRDEBUGGER_SERVICES_CONSOLEENTRY_SET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x1ED3FDE0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FFEFDD0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FFEF8B0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFEF8A0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_MESSAGEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1FFEF9C0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1FFEFA80)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x1FFEF9B0)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_MATCHES_OFFSET UNITYSDK_OFFSET(0x1FFEFD40)
+#define SRDEBUGGER_SERVICES_CONSOLEENTRY_SET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x1FFEF960)
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int ConsoleEntry_TypeDefinitionIndex = 38056;
+	inline static constexpr unsigned int ConsoleEntry_TypeDefinitionIndex = 38985;
 
 	class ConsoleEntry : public ::System::Object
 	{
 	public:
-		::System::String* _stackTracePreview; // 0x10
-		::System::String* _messagePreview; // 0x18
-		::System::String* _stackTrace; // 0x20
-		::System::String* Message; // 0x28
-		::UnityEngine::LogType LogType; // 0x30
-		::System::Int32 Count; // 0x34
+		::System::String* _messagePreview; // 0x10
+		::System::String* _stackTracePreview; // 0x18
+		::System::String* Message; // 0x20
+		::System::String* _stackTrace; // 0x28
+		::System::Int32 Count; // 0x30
+		::UnityEngine::LogType LogType; // 0x34
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet__stackTracePreviewMap()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("SRDebugger.Services", "ConsoleEntry")->GetStaticField(0x3A290);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("SRDebugger.Services", "ConsoleEntry")->GetStaticField(0x31CC0);
 		}
 
 		// static const ::System::Object MessagePreviewLength; // 0x0

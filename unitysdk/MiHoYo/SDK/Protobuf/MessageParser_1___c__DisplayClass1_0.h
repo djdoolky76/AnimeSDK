@@ -5,7 +5,7 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int MessageParser_1___c__DisplayClass1_0_TypeDefinitionIndex = 35732;
+	inline static constexpr unsigned int MessageParser_1___c__DisplayClass1_0_TypeDefinitionIndex = 36660;
 
 	template <typename T>
 	class MessageParser_1___c__DisplayClass1_0 : public ::System::Object

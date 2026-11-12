@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HGMMFJHJECA.h"
 
-#define ILAAFNEOBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x164A1700)
-#define ILAAFNEOBMO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x164A1580)
+#define ILAAFNEOBMO_CTOR_OFFSET UNITYSDK_OFFSET(0x174757A0)
+#define ILAAFNEOBMO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x17475620)
 
-inline static constexpr unsigned int ILAAFNEOBMO_TypeDefinitionIndex = 64150;
+inline static constexpr unsigned int ILAAFNEOBMO_TypeDefinitionIndex = 65595;
 
 	class ILAAFNEOBMO : public ::HGMMFJHJECA
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JAACNICGMHN;
 
-#define PBMDPCHNAAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF4BC0)
+#define PBMDPCHNAAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F9440)
 
-inline static constexpr unsigned int PBMDPCHNAAA_TypeDefinitionIndex = 80553;
+inline static constexpr unsigned int PBMDPCHNAAA_TypeDefinitionIndex = 83333;
 
 	class PBMDPCHNAAA : public ::System::Object
 	{

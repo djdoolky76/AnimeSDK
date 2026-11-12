@@ -7,20 +7,20 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JBDOALOEMAB_CTOR_OFFSET UNITYSDK_OFFSET(0x16568BD0)
-#define JBDOALOEMAB_GGHFLIPKBNH_OFFSET UNITYSDK_OFFSET(0x16568E10)
-#define JBDOALOEMAB_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x16568C70)
-#define JBDOALOEMAB_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x16568CB0)
-#define JBDOALOEMAB_OCABBBNJKLD_OFFSET UNITYSDK_OFFSET(0x16569580)
+#define JBDOALOEMAB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A13E0)
+#define JBDOALOEMAB_GGHFLIPKBNH_OFFSET UNITYSDK_OFFSET(0xB8A1620)
+#define JBDOALOEMAB_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0xB8A1480)
+#define JBDOALOEMAB_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0xB8A14C0)
+#define JBDOALOEMAB_OCABBBNJKLD_OFFSET UNITYSDK_OFFSET(0xB8A1D90)
 
-inline static constexpr unsigned int JBDOALOEMAB_TypeDefinitionIndex = 77636;
+inline static constexpr unsigned int JBDOALOEMAB_TypeDefinitionIndex = 80371;
 
 	class JBDOALOEMAB : public ::OCFMCBFNLND
 	{
 	public:
-		::KAKADGHNMFK* PFHKDKKPBMF; // 0x30
+		::System::Collections::Generic::List_1<::KAKADGHNMFK*>* FAGBDHNDLBO; // 0x30
 		::System::Collections::Generic::List_1<::KAKADGHNMFK*>* MLDNIJNNEAB; // 0x38
-		::System::Collections::Generic::List_1<::KAKADGHNMFK*>* FAGBDHNDLBO; // 0x40
+		::KAKADGHNMFK* PFHKDKKPBMF; // 0x40
 		::System::Void _ctor(::KAKADGHNMFK* a1, ::System::Collections::Generic::List_1<::KAKADGHNMFK*>* a2, ::System::Collections::Generic::List_1<::KAKADGHNMFK*>* a3, ::HAJDFCHFBGN* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::KAKADGHNMFK*, ::System::Collections::Generic::List_1<::KAKADGHNMFK*>*, ::System::Collections::Generic::List_1<::KAKADGHNMFK*>*, ::HAJDFCHFBGN*))((::PBYTE)hIl2Cpp + JBDOALOEMAB_CTOR_OFFSET))(this, a1, a2, a3, a4);

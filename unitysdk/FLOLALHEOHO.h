@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareLittleGameLevelVarShort; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLOLALHEOHO_CTOR_OFFSET UNITYSDK_OFFSET(0x158433B0)
-#define FLOLALHEOHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158433E0)
+#define FLOLALHEOHO_CTOR_OFFSET UNITYSDK_OFFSET(0x167B3050)
+#define FLOLALHEOHO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x167B3080)
 
-inline static constexpr unsigned int FLOLALHEOHO_TypeDefinitionIndex = 52969;
+inline static constexpr unsigned int FLOLALHEOHO_TypeDefinitionIndex = 54128;
 
 	class FLOLALHEOHO
 	{

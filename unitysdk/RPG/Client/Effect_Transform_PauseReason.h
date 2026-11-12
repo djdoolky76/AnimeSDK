@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_Transform_PauseReason_TypeDefinitionIndex = 70568;
+	inline static constexpr unsigned int Effect_Transform_PauseReason_TypeDefinitionIndex = 72543;
 
 	enum class Effect_Transform_PauseReason : ::System::Int32
 	{

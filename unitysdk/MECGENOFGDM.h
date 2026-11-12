@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MECGENOFGDM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D14E830)
-#define MECGENOFGDM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D14EE30)
-#define MECGENOFGDM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D14E9A0)
-#define MECGENOFGDM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D14E260)
-#define MECGENOFGDM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D14E4F0)
-#define MECGENOFGDM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D14EA40)
-#define MECGENOFGDM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D14EA90)
-#define MECGENOFGDM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D14E870)
-#define MECGENOFGDM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D14E490)
-#define MECGENOFGDM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D14E660)
-#define MECGENOFGDM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D14E900)
-#define MECGENOFGDM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D14E1E0)
+#define MECGENOFGDM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E34D650)
+#define MECGENOFGDM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E34DC50)
+#define MECGENOFGDM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E34D7C0)
+#define MECGENOFGDM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E34D080)
+#define MECGENOFGDM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E34D310)
+#define MECGENOFGDM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E34D860)
+#define MECGENOFGDM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E34D8B0)
+#define MECGENOFGDM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E34D690)
+#define MECGENOFGDM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E34D2B0)
+#define MECGENOFGDM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E34D480)
+#define MECGENOFGDM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E34D720)
+#define MECGENOFGDM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E34D000)
 
-inline static constexpr unsigned int MECGENOFGDM_TypeDefinitionIndex = 13708;
+inline static constexpr unsigned int MECGENOFGDM_TypeDefinitionIndex = 13835;
 
 	class MECGENOFGDM : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitBEOverrideConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitBEOverrideConfigRow*>**)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x39500);
+		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x496B0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x39508);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x496B8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitBEOverrideConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightTraitBEOverrideConfigRow*>**)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x496C0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x113B0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x39510);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0x113B1);
+			return (::System::Boolean*)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0xC8B0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "MECGENOFGDM")->GetStaticField(0xC8B1);
 		}
 
 		static ::System::Void _cctor()

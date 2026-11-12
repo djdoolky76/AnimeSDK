@@ -3,7 +3,7 @@
 #include "unitysdk/System/Runtime/CompilerServices/StateMachineAttribute.h"
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ITERATORSTATEMACHINEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C7740)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ITERATORSTATEMACHINEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D44E3C0)
 
 namespace System::Runtime::CompilerServices
 {

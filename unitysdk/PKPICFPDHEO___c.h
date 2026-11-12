@@ -4,18 +4,18 @@
 class PKPICFPDHEO;
 namespace System { class Object; }
 
-#define PKPICFPDHEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF9A4C0)
-#define PKPICFPDHEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9A4F0)
-#define PKPICFPDHEO___C___CCTOR_B__93_0_OFFSET UNITYSDK_OFFSET(0x1DF9A500)
+#define PKPICFPDHEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24BC40)
+#define PKPICFPDHEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24BC70)
+#define PKPICFPDHEO___C___CCTOR_B__93_0_OFFSET UNITYSDK_OFFSET(0x1F24BC80)
 
-inline static constexpr unsigned int PKPICFPDHEO___c_TypeDefinitionIndex = 30359;
+inline static constexpr unsigned int PKPICFPDHEO___c_TypeDefinitionIndex = 31265;
 
 	class PKPICFPDHEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B1A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CFB0);
 		}
 
 		static ::System::Void _cctor()

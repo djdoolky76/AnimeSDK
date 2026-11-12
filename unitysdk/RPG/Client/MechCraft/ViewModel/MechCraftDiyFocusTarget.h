@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiyFocusTarget_TypeDefinitionIndex = 79617;
+	inline static constexpr unsigned int MechCraftDiyFocusTarget_TypeDefinitionIndex = 82394;
 
 	enum class MechCraftDiyFocusTarget : ::System::Int32
 	{

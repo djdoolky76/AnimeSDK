@@ -4,18 +4,18 @@
 class CBBPDLPAIPL;
 namespace System { class Object; }
 
-#define CBBPDLPAIPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E062D50)
-#define CBBPDLPAIPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E062D90)
-#define CBBPDLPAIPL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E062DA0)
+#define CBBPDLPAIPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F326740)
+#define CBBPDLPAIPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F326780)
+#define CBBPDLPAIPL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F326790)
 
-inline static constexpr unsigned int CBBPDLPAIPL___c_TypeDefinitionIndex = 26213;
+inline static constexpr unsigned int CBBPDLPAIPL___c_TypeDefinitionIndex = 26740;
 
 	class CBBPDLPAIPL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB500);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59110);
 		}
 
 		static ::System::Void _cctor()

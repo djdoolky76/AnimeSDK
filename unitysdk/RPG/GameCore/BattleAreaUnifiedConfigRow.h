@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleAreaUnifiedConfigRow; }
 
-#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D452790)
-#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4526D0)
+#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6621D0)
+#define RPG_GAMECORE_BATTLEAREAUNIFIEDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E662110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleAreaUnifiedConfigRow_TypeDefinitionIndex = 12834;
+	inline static constexpr unsigned int BattleAreaUnifiedConfigRow_TypeDefinitionIndex = 12906;
 
 	class BattleAreaUnifiedConfigRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PointsSourceMode_TypeDefinitionIndex = 70619;
+	inline static constexpr unsigned int PointsSourceMode_TypeDefinitionIndex = 72596;
 
 	enum class PointsSourceMode : ::System::Int32
 	{

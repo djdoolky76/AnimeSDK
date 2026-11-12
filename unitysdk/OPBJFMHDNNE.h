@@ -8,20 +8,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OPBJFMHDNNE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBF9FFA0)
-#define OPBJFMHDNNE_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA0090)
-#define OPBJFMHDNNE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBFA0040)
-#define OPBJFMHDNNE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBF9FFF0)
-#define OPBJFMHDNNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBF9FF20)
+#define OPBJFMHDNNE_CLEAR_OFFSET UNITYSDK_OFFSET(0xC8A1070)
+#define OPBJFMHDNNE_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A1160)
+#define OPBJFMHDNNE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xC8A1110)
+#define OPBJFMHDNNE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC8A10C0)
+#define OPBJFMHDNNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC8A0FF0)
 
-inline static constexpr unsigned int OPBJFMHDNNE_TypeDefinitionIndex = 54086;
+inline static constexpr unsigned int OPBJFMHDNNE_TypeDefinitionIndex = 55250;
 
 	class OPBJFMHDNNE : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* MMILCIBMANG; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* JNBNPOCLPPH; // 0x20
-		::RPG::GameCore::GameEntity* JMBICLAHCNG; // 0x28
+		::RPG::GameCore::GameEntity* JMBICLAHCNG; // 0x18
+		::RPG::GameCore::GameEntity* MMILCIBMANG; // 0x20
+		::System::Collections::Generic::List_1<::System::String*>* JNBNPOCLPPH; // 0x28
 		::RPG::GameCore::FixPoint GELAMLPPBKE; // 0x30
 		::System::Void _ctor()
 		{

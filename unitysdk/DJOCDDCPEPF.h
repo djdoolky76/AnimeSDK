@@ -1,35 +1,44 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ElationEchoPointUIType.h"
+#include "unitysdk/RPG/GameCore/NihiluxElationUIType.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class DJOCDDCPEPF;
+namespace RPG::Client { class BattleAvatarNihiluxCustomUIData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System { class Action; }
 namespace System { class Object; }
+namespace System { class String; }
 
-#define DJOCDDCPEPF_AIJLDADIBNM_OFFSET UNITYSDK_OFFSET(0xF24DF80)
-#define DJOCDDCPEPF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF24DD30)
-#define DJOCDDCPEPF_CACBOKCKKDN_OFFSET UNITYSDK_OFFSET(0xF24E030)
-#define DJOCDDCPEPF_CAJFDDIBPMI_OFFSET UNITYSDK_OFFSET(0xF24DDC0)
-#define DJOCDDCPEPF_CENMBJDMIEE_OFFSET UNITYSDK_OFFSET(0xF24E130)
-#define DJOCDDCPEPF_CTOR_OFFSET UNITYSDK_OFFSET(0xF24DDB0)
-#define DJOCDDCPEPF_DCNGNLJADJM_OFFSET UNITYSDK_OFFSET(0xF24E250)
-#define DJOCDDCPEPF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF24DF30)
-#define DJOCDDCPEPF_FEHGIPOELBL_OFFSET UNITYSDK_OFFSET(0xF24E290)
-#define DJOCDDCPEPF_HJOHDFKLIDK_OFFSET UNITYSDK_OFFSET(0xF24E0D0)
-#define DJOCDDCPEPF_IEOGLIENPMN_OFFSET UNITYSDK_OFFSET(0xF24DE70)
+#define DJOCDDCPEPF_AIDNOFPCHLH_OFFSET UNITYSDK_OFFSET(0xFFCFB40)
+#define DJOCDDCPEPF_AIJLDADIBNM_OFFSET UNITYSDK_OFFSET(0xFFCF870)
+#define DJOCDDCPEPF_BLDNIBLKADJ_OFFSET UNITYSDK_OFFSET(0xFFCF6B0)
+#define DJOCDDCPEPF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xFFCF440)
+#define DJOCDDCPEPF_CACBOKCKKDN_OFFSET UNITYSDK_OFFSET(0xFFCF9D0)
+#define DJOCDDCPEPF_CAJFDDIBPMI_OFFSET UNITYSDK_OFFSET(0xFFCF530)
+#define DJOCDDCPEPF_CENMBJDMIEE_OFFSET UNITYSDK_OFFSET(0xFFCFC90)
+#define DJOCDDCPEPF_CTOR_OFFSET UNITYSDK_OFFSET(0xFFCF520)
+#define DJOCDDCPEPF_DCNGNLJADJM_OFFSET UNITYSDK_OFFSET(0xFFCFED0)
+#define DJOCDDCPEPF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFFCF820)
+#define DJOCDDCPEPF_FEHGIPOELBL_OFFSET UNITYSDK_OFFSET(0xFFCFF40)
+#define DJOCDDCPEPF_HJOHDFKLIDK_OFFSET UNITYSDK_OFFSET(0xFFCF970)
+#define DJOCDDCPEPF_IEOGLIENPMN_OFFSET UNITYSDK_OFFSET(0xFFCF5A0)
+#define DJOCDDCPEPF_JECNJOJLGBP_OFFSET UNITYSDK_OFFSET(0xFFCFDB0)
+#define DJOCDDCPEPF_JFEBBCLMCFD_OFFSET UNITYSDK_OFFSET(0xFFCFC20)
+#define DJOCDDCPEPF_NPAFFCJINKB_OFFSET UNITYSDK_OFFSET(0xFFCFBA0)
 
-inline static constexpr unsigned int DJOCDDCPEPF_TypeDefinitionIndex = 72135;
+inline static constexpr unsigned int DJOCDDCPEPF_TypeDefinitionIndex = 74173;
 
 	class DJOCDDCPEPF : public ::System::Object
 	{
 	public:
-		::System::Action* OBGBLOGOLOC; // 0x10
+		::RPG::Client::BattleAvatarNihiluxCustomUIData* EHNOGCBHACN; // 0x10
 		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x18
-		::RPG::GameCore::TurnBasedAbilityComponent* PCDEEAAIFPK; // 0x20
-		::System::Int32 ICBFKKPLHKO; // 0x28
-		::System::Boolean FBMOGNBFNJD; // 0x2C
+		::System::Action* OBGBLOGOLOC; // 0x20
+		::RPG::GameCore::TurnBasedAbilityComponent* PCDEEAAIFPK; // 0x28
+		::System::Boolean FBMOGNBFNJD; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_CTOR_OFFSET))(this);
@@ -55,6 +64,21 @@ inline static constexpr unsigned int DJOCDDCPEPF_TypeDefinitionIndex = 72135;
 			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_HJOHDFKLIDK_OFFSET))(this);
 		}
 
+		::RPG::GameCore::ElationEchoPointUIType AIDNOFPCHLH()
+		{
+			return ((::RPG::GameCore::ElationEchoPointUIType(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_AIDNOFPCHLH_OFFSET))(this);
+		}
+
+		::RPG::GameCore::NihiluxElationUIType NPAFFCJINKB()
+		{
+			return ((::RPG::GameCore::NihiluxElationUIType(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_NPAFFCJINKB_OFFSET))(this);
+		}
+
+		::System::String* JFEBBCLMCFD(::System::String* a1)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_JFEBBCLMCFD_OFFSET))(this, a1);
+		}
+
 		::System::Void IEOGLIENPMN()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_IEOGLIENPMN_OFFSET))(this);
@@ -65,9 +89,19 @@ inline static constexpr unsigned int DJOCDDCPEPF_TypeDefinitionIndex = 72135;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_AIJLDADIBNM_OFFSET))(this);
 		}
 
+		::System::Void BLDNIBLKADJ()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_BLDNIBLKADJ_OFFSET))(this);
+		}
+
 		::System::Void CENMBJDMIEE(::System::Object* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_CENMBJDMIEE_OFFSET))(this, a1);
+		}
+
+		::System::Void JECNJOJLGBP(::System::Object* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + DJOCDDCPEPF_JECNJOJLGBP_OFFSET))(this, a1);
 		}
 
 		::System::Int32 CACBOKCKKDN(::RPG::GameCore::FixPoint a1)

@@ -5,30 +5,30 @@ namespace System { class String; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Texture3D; }
 
-#define KPGLPOPHMBC_CKMHELNHGMF_OFFSET UNITYSDK_OFFSET(0xB5BD1C0)
-#define KPGLPOPHMBC_KDDHHHCPACP_OFFSET UNITYSDK_OFFSET(0xB5BD480)
-#define KPGLPOPHMBC_LPDILFOEMKE_OFFSET UNITYSDK_OFFSET(0xB5BD150)
-#define KPGLPOPHMBC_NLADOOHBMHD_OFFSET UNITYSDK_OFFSET(0xB5BD220)
-#define KPGLPOPHMBC_PNAODHAHKKE_OFFSET UNITYSDK_OFFSET(0xB5BD300)
+#define KPGLPOPHMBC_CKMHELNHGMF_OFFSET UNITYSDK_OFFSET(0xBE11100)
+#define KPGLPOPHMBC_KDDHHHCPACP_OFFSET UNITYSDK_OFFSET(0xBE113C0)
+#define KPGLPOPHMBC_LPDILFOEMKE_OFFSET UNITYSDK_OFFSET(0xBE11090)
+#define KPGLPOPHMBC_NLADOOHBMHD_OFFSET UNITYSDK_OFFSET(0xBE11160)
+#define KPGLPOPHMBC_PNAODHAHKKE_OFFSET UNITYSDK_OFFSET(0xBE11240)
 
-inline static constexpr unsigned int KPGLPOPHMBC_TypeDefinitionIndex = 49007;
+inline static constexpr unsigned int KPGLPOPHMBC_TypeDefinitionIndex = 50076;
 
 	class KPGLPOPHMBC : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Texture3D** StaticGet_PBNHCEPGCAM()
 		{
-			return (::UnityEngine::Texture3D**)UnitySDK::FromName("", "KPGLPOPHMBC")->GetStaticField(0x65B40);
-		}
-
-		static ::System::Boolean* StaticGet_AABOIJCDIGC()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KPGLPOPHMBC")->GetStaticField(0x14D90);
+			return (::UnityEngine::Texture3D**)UnitySDK::FromName("", "KPGLPOPHMBC")->GetStaticField(0x5F320);
 		}
 
 		static ::System::Boolean* StaticGet_KOBHDGPCPHB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "KPGLPOPHMBC")->GetStaticField(0x14D91);
+			return (::System::Boolean*)UnitySDK::FromName("", "KPGLPOPHMBC")->GetStaticField(0x141C0);
+		}
+
+		static ::System::Boolean* StaticGet_AABOIJCDIGC()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "KPGLPOPHMBC")->GetStaticField(0x141C1);
 		}
 
 		// static const ::System::Object INFMLBGMGKH; // 0x0

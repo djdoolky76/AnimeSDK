@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DefaultMatType_TypeDefinitionIndex = 37543;
+	inline static constexpr unsigned int DefaultMatType_TypeDefinitionIndex = 38471;
 
 	enum class DefaultMatType : ::System::Int32
 	{

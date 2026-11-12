@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BatchAnimationInstPropManager_FNIJIFGBGCM_TypeDefinitionIndex = 47290;
+inline static constexpr unsigned int BatchAnimationInstPropManager_FNIJIFGBGCM_TypeDefinitionIndex = 48319;
 
 	struct alignas(4) BatchAnimationInstPropManager_FNIJIFGBGCM
 	{

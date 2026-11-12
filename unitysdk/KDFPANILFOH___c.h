@@ -4,18 +4,18 @@
 class KDFPANILFOH;
 namespace System { class Object; }
 
-#define KDFPANILFOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7FEA90)
-#define KDFPANILFOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FEAD0)
-#define KDFPANILFOH___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E7FEAE0)
+#define KDFPANILFOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB148D0)
+#define KDFPANILFOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB14910)
+#define KDFPANILFOH___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FB14920)
 
-inline static constexpr unsigned int KDFPANILFOH___c_TypeDefinitionIndex = 35096;
+inline static constexpr unsigned int KDFPANILFOH___c_TypeDefinitionIndex = 36024;
 
 	class KDFPANILFOH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10940);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50D00);
 		}
 
 		static ::System::Void _cctor()

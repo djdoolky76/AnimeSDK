@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropSetSceneTVMenu; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MAHPPKKICCF_CTOR_OFFSET UNITYSDK_OFFSET(0xB84E940)
-#define MAHPPKKICCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB84E970)
+#define MAHPPKKICCF_CTOR_OFFSET UNITYSDK_OFFSET(0xC0AFF50)
+#define MAHPPKKICCF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0AFF80)
 
-inline static constexpr unsigned int MAHPPKKICCF_TypeDefinitionIndex = 58348;
+inline static constexpr unsigned int MAHPPKKICCF_TypeDefinitionIndex = 59604;
 
 	class MAHPPKKICCF
 	{

@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SimpleAnimationClipBind_TypeDefinitionIndex = 5729;
+	inline static constexpr unsigned int SimpleAnimationClipBind_TypeDefinitionIndex = 5735;
 
 	class SimpleAnimationClipBind : public ::System::Object
 	{

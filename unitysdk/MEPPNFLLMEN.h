@@ -4,20 +4,20 @@
 class JMDAIKOHCAE;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MEPPNFLLMEN_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB8E83D0)
-#define MEPPNFLLMEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB8E83C0)
-#define MEPPNFLLMEN_GET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xB8E83A0)
-#define MEPPNFLLMEN_GET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xB8E8380)
-#define MEPPNFLLMEN_SET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xB8E83B0)
-#define MEPPNFLLMEN_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xB8E8390)
+#define MEPPNFLLMEN_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC19A240)
+#define MEPPNFLLMEN_CTOR_OFFSET UNITYSDK_OFFSET(0xC19A230)
+#define MEPPNFLLMEN_GET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xC19A210)
+#define MEPPNFLLMEN_GET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xC19A1F0)
+#define MEPPNFLLMEN_SET_GRAPHDESC_OFFSET UNITYSDK_OFFSET(0xC19A220)
+#define MEPPNFLLMEN_SET_WAYPOINTS_OFFSET UNITYSDK_OFFSET(0xC19A200)
 
-inline static constexpr unsigned int MEPPNFLLMEN_TypeDefinitionIndex = 58969;
+inline static constexpr unsigned int MEPPNFLLMEN_TypeDefinitionIndex = 60242;
 
 	class MEPPNFLLMEN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::Il2CppArray<::System::UInt32>*>* _GraphDesc_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::JMDAIKOHCAE*>* _Waypoints_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::JMDAIKOHCAE*>* _Waypoints_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::Il2CppArray<::System::UInt32>*>* _GraphDesc_k__BackingField; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::List_1<::JMDAIKOHCAE*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::JMDAIKOHCAE*>*))((::PBYTE)hIl2Cpp + MEPPNFLLMEN_CTOR_OFFSET))(this, a1);

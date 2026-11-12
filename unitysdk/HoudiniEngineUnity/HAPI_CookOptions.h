@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_CookOptions_TypeDefinitionIndex = 40497;
+	inline static constexpr unsigned int HAPI_CookOptions_TypeDefinitionIndex = 41472;
 
 	struct alignas(4) HAPI_CookOptions
 	{

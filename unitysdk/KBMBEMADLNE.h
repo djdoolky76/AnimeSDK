@@ -4,10 +4,10 @@
 class JFMOKAKOEEJ;
 namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 
-#define KBMBEMADLNE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB31EC00)
-#define KBMBEMADLNE_CTOR_OFFSET UNITYSDK_OFFSET(0xB31ECC0)
+#define KBMBEMADLNE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBA8CF0)
+#define KBMBEMADLNE_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA8DA0)
 
-inline static constexpr unsigned int KBMBEMADLNE_TypeDefinitionIndex = 65742;
+inline static constexpr unsigned int KBMBEMADLNE_TypeDefinitionIndex = 67668;
 
 	class KBMBEMADLNE : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BGGDOPNKDLK_JJAJGKMMODN_TypeDefinitionIndex = 37260;
+inline static constexpr unsigned int BGGDOPNKDLK_JJAJGKMMODN_TypeDefinitionIndex = 38188;
 
 	struct alignas(4) BGGDOPNKDLK_JJAJGKMMODN
 	{

@@ -11,7 +11,7 @@ namespace System::Net
 	public:
 		static ::System::Boolean* StaticGet_On()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Net", "Logging")->GetStaticField(0x8120);
+			return (::System::Boolean*)UnitySDK::FromName("System.Net", "Logging")->GetStaticField(0x9F40);
 		}
 
 	};

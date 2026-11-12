@@ -9,11 +9,11 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OLMIPHFMIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF113E0)
-#define OLMIPHFMIAL_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0xBF11470)
-#define OLMIPHFMIAL_KMJNGGGPJPF_OFFSET UNITYSDK_OFFSET(0xBF10DC0)
+#define OLMIPHFMIAL_CTOR_OFFSET UNITYSDK_OFFSET(0xC80E3D0)
+#define OLMIPHFMIAL_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0xC80E460)
+#define OLMIPHFMIAL_KMJNGGGPJPF_OFFSET UNITYSDK_OFFSET(0xC80DDB0)
 
-inline static constexpr unsigned int OLMIPHFMIAL_TypeDefinitionIndex = 56090;
+inline static constexpr unsigned int OLMIPHFMIAL_TypeDefinitionIndex = 57302;
 
 	class OLMIPHFMIAL : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightGridMember; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B7E10)
-#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__GETSUBTRAITCONFIGBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xD2B8890)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD92C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__SELECTMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0xDCD9FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitCoreRoleChooseEffect___c__DisplayClass15_0_TypeDefinitionIndex = 65396;
+	inline static constexpr unsigned int GridFightTraitCoreRoleChooseEffect___c__DisplayClass15_0_TypeDefinitionIndex = 67237;
 
 	class GridFightTraitCoreRoleChooseEffect___c__DisplayClass15_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _GetSubTraitConfigByUID_b__0(::RPG::Client::GridFightGridMember* a1)
+		::System::Boolean _SelectMember_b__0(::RPG::Client::GridFightGridMember* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__GETSUBTRAITCONFIGBYUID_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightGridMember*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCOREROLECHOOSEEFFECT___C__DISPLAYCLASS15_0__SELECTMEMBER_B__0_OFFSET))(this, a1);
 		}
 
 	};

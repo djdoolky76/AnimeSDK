@@ -4,18 +4,18 @@
 class FHCCHMLGAEF;
 namespace System { class Object; }
 
-#define FHCCHMLGAEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3881B0)
-#define FHCCHMLGAEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3881F0)
-#define FHCCHMLGAEF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E388200)
+#define FHCCHMLGAEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F670970)
+#define FHCCHMLGAEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6709B0)
+#define FHCCHMLGAEF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F6709C0)
 
-inline static constexpr unsigned int FHCCHMLGAEF___c_TypeDefinitionIndex = 31943;
+inline static constexpr unsigned int FHCCHMLGAEF___c_TypeDefinitionIndex = 32856;
 
 	class FHCCHMLGAEF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F2B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E770);
 		}
 
 		static ::System::Void _cctor()

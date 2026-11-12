@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/SwordTraining/SwordTrainingGameStateType.h"
 namespace RPG::Client { class SwordTrainingGameInstance; }
 
-#define JPJJCNMLAKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C4E90)
-#define JPJJCNMLAKB_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0xB2C4E40)
-#define JPJJCNMLAKB_JKOKFFCBJLJ_OFFSET UNITYSDK_OFFSET(0xB2C4DF0)
+#define JPJJCNMLAKB_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF0B90)
+#define JPJJCNMLAKB_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0xBAF0B40)
+#define JPJJCNMLAKB_JKOKFFCBJLJ_OFFSET UNITYSDK_OFFSET(0xBAF0AF0)
 
-inline static constexpr unsigned int JPJJCNMLAKB_TypeDefinitionIndex = 75046;
+inline static constexpr unsigned int JPJJCNMLAKB_TypeDefinitionIndex = 77373;
 
 	class JPJJCNMLAKB : public ::NBEKHGCNJFD
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int FDOEFAEOPNC_TypeDefinitionIndex = 43298;
+inline static constexpr unsigned int FDOEFAEOPNC_TypeDefinitionIndex = 44279;
 
 	struct alignas(8) FDOEFAEOPNC
 	{

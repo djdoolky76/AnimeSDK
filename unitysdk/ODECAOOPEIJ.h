@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int ODECAOOPEIJ_TypeDefinitionIndex = 44272;
+inline static constexpr unsigned int ODECAOOPEIJ_TypeDefinitionIndex = 45347;
 
 	class ODECAOOPEIJ : public ::System::Object
 	{

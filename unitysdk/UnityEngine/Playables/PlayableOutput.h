@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableOutputHandle.h"
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F40CA00)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_CTOR_OFFSET UNITYSDK_OFFSET(0x2EDDF70)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C71280)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0x2E878A0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x1F40B750)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_CCTOR_OFFSET UNITYSDK_OFFSET(0x206BD5C0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_CTOR_OFFSET UNITYSDK_OFFSET(0xEAC00)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_EQUALS_OFFSET UNITYSDK_OFFSET(0x3EC0500)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_GETHANDLE_OFFSET UNITYSDK_OFFSET(0xEABF0)
+#define UNITYENGINE_PLAYABLES_PLAYABLEOUTPUT_GET_NULL_OFFSET UNITYSDK_OFFSET(0x206BC310)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableOutput_TypeDefinitionIndex = 4923;
+	inline static constexpr unsigned int PlayableOutput_TypeDefinitionIndex = 4928;
 
 	struct alignas(4) PlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10
 		static ::UnityEngine::Playables::PlayableOutput* StaticGet_m_NullPlayableOutput()
 		{
-			return (::UnityEngine::Playables::PlayableOutput*)UnitySDK::FromName("UnityEngine.Playables", "PlayableOutput")->GetStaticField(0x4140);
+			return (::UnityEngine::Playables::PlayableOutput*)UnitySDK::FromName("UnityEngine.Playables", "PlayableOutput")->GetStaticField(0x30A0);
 		}
 
 		/*

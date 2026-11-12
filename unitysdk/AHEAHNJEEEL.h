@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByRankActivated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHEAHNJEEEL_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7CCD0)
-#define AHEAHNJEEEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xEB7CD00)
+#define AHEAHNJEEEL_CTOR_OFFSET UNITYSDK_OFFSET(0xF13C030)
+#define AHEAHNJEEEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF13C060)
 
-inline static constexpr unsigned int AHEAHNJEEEL_TypeDefinitionIndex = 54711;
+inline static constexpr unsigned int AHEAHNJEEEL_TypeDefinitionIndex = 55878;
 
 	class AHEAHNJEEEL
 	{

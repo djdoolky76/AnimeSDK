@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::Win { class OverseaAccountList; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BDA9140)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDA9180)
-#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__SHOW_B__41_0_OFFSET UNITYSDK_OFFSET(0x1BDA9190)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF31EB0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF31EF0)
+#define MIHOYO_SDK_WIN_OVERSEAACCOUNTLIST___C__SHOW_B__41_0_OFFSET UNITYSDK_OFFSET(0x1CF31F00)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int OverseaAccountList___c_TypeDefinitionIndex = 9306;
+	inline static constexpr unsigned int OverseaAccountList___c_TypeDefinitionIndex = 9314;
 
 	class OverseaAccountList___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountList*>** StaticGet___9__41_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountList*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x25AD0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x25AD8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x29DF0);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountList*>** StaticGet___9__41_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::Win::OverseaAccountList*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x29DF8);
 		}
 
 		static ::System::Void _cctor()

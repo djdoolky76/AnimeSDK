@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPedestrianV2RoadPointInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C9790)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADPOINTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C9450)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA08B30)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2ROADPOINTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA08980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2RoadPointInfo_TypeDefinitionIndex = 17289;
+	inline static constexpr unsigned int LevelPedestrianV2RoadPointInfo_TypeDefinitionIndex = 17457;
 
 	class LevelPedestrianV2RoadPointInfo : public ::RPG::GameCore::JsonConfig
 	{

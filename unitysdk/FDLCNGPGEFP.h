@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FDLCNGPGEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x156DE130)
+#define FDLCNGPGEFP_CTOR_OFFSET UNITYSDK_OFFSET(0x165F7C80)
 
-inline static constexpr unsigned int FDLCNGPGEFP_TypeDefinitionIndex = 78052;
+inline static constexpr unsigned int FDLCNGPGEFP_TypeDefinitionIndex = 80787;
 
 	class FDLCNGPGEFP : public ::System::Object
 	{

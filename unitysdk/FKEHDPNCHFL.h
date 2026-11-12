@@ -6,9 +6,9 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define FKEHDPNCHFL_KCLEKOLGEGJ_OFFSET UNITYSDK_OFFSET(0x157EEF60)
+#define FKEHDPNCHFL_KCLEKOLGEGJ_OFFSET UNITYSDK_OFFSET(0x1675B800)
 
-inline static constexpr unsigned int FKEHDPNCHFL_TypeDefinitionIndex = 59953;
+inline static constexpr unsigned int FKEHDPNCHFL_TypeDefinitionIndex = 61237;
 
 	class FKEHDPNCHFL : public ::System::Object
 	{

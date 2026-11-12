@@ -4,10 +4,10 @@
 namespace RPG::Client { class CameraNamedDynamicOffset; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define EKKGJHMHIIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1550CD50)
-#define EKKGJHMHIIB_GLLOCAIDDLJ_OFFSET UNITYSDK_OFFSET(0x1550CC20)
+#define EKKGJHMHIIB_CTOR_OFFSET UNITYSDK_OFFSET(0x164553C0)
+#define EKKGJHMHIIB_GLLOCAIDDLJ_OFFSET UNITYSDK_OFFSET(0x16455290)
 
-inline static constexpr unsigned int EKKGJHMHIIB_TypeDefinitionIndex = 69570;
+inline static constexpr unsigned int EKKGJHMHIIB_TypeDefinitionIndex = 71527;
 
 	class EKKGJHMHIIB : public ::System::Object
 	{

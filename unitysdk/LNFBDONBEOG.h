@@ -4,10 +4,10 @@
 class AEHGOOCDHCE;
 namespace RPG::GameCore { class LittleGameEntityVarConfig; }
 
-#define LNFBDONBEOG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C91C0B0)
-#define LNFBDONBEOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91C110)
+#define LNFBDONBEOG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAC8550)
+#define LNFBDONBEOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC85B0)
 
-inline static constexpr unsigned int LNFBDONBEOG_TypeDefinitionIndex = 43340;
+inline static constexpr unsigned int LNFBDONBEOG_TypeDefinitionIndex = 44321;
 
 	class LNFBDONBEOG : public ::System::Object
 	{

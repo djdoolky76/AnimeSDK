@@ -7,13 +7,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StackWeakness; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB04D70)
-#define RPG_GAMECORE_STACKWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB04D80)
-#define RPG_GAMECORE_STACKWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB04D40)
+#define RPG_GAMECORE_STACKWEAKNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED16DC0)
+#define RPG_GAMECORE_STACKWEAKNESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED16DD0)
+#define RPG_GAMECORE_STACKWEAKNESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED16D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackWeakness_TypeDefinitionIndex = 23074;
+	inline static constexpr unsigned int StackWeakness_TypeDefinitionIndex = 23503;
 
 	class StackWeakness : public ::RPG::GameCore::TaskConfig
 	{

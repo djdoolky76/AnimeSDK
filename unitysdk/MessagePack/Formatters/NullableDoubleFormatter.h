@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class NullableDoubleFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB7B7B0)
-#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB7B5D0)
-#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB7B670)
-#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB7B5E0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD044C0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD042E0)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD04380)
+#define MESSAGEPACK_FORMATTERS_NULLABLEDOUBLEFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD042F0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int NullableDoubleFormatter_TypeDefinitionIndex = 7466;
+	inline static constexpr unsigned int NullableDoubleFormatter_TypeDefinitionIndex = 7477;
 
 	class NullableDoubleFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::NullableDoubleFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::NullableDoubleFormatter**)UnitySDK::FromName("MessagePack.Formatters", "NullableDoubleFormatter")->GetStaticField(0x252B0);
+			return (::MessagePack::Formatters::NullableDoubleFormatter**)UnitySDK::FromName("MessagePack.Formatters", "NullableDoubleFormatter")->GetStaticField(0x475E0);
 		}
 
 		::System::Void _ctor()

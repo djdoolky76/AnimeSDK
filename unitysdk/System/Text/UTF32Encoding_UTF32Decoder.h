@@ -3,9 +3,9 @@
 #include "unitysdk/System/Text/DecoderNLS.h"
 namespace System::Text { class UTF32Encoding; }
 
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C132480)
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1C132D70)
-#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1C132CD0)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2B97A0)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_GET_HASSTATE_OFFSET UNITYSDK_OFFSET(0x1D2BA090)
+#define SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_RESET_OFFSET UNITYSDK_OFFSET(0x1D2B9FF0)
 
 namespace System::Text
 {
@@ -14,8 +14,8 @@ namespace System::Text
 	class UTF32Encoding_UTF32Decoder : public ::System::Text::DecoderNLS
 	{
 	public:
-		::System::Int32 iChar; // 0x30
-		::System::Int32 readByteCount; // 0x34
+		::System::Int32 readByteCount; // 0x30
+		::System::Int32 iChar; // 0x34
 		::System::Void _ctor(::System::Text::UTF32Encoding* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Text::UTF32Encoding*))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_UTF32ENCODING_UTF32DECODER_CTOR_OFFSET))(this, a1);

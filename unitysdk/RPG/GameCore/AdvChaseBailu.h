@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVCHASEBAILU_CTOR_OFFSET UNITYSDK_OFFSET(0x1D399C70)
-#define RPG_GAMECORE_ADVCHASEBAILU_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D399C90)
-#define RPG_GAMECORE_ADVCHASEBAILU_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D399C20)
+#define RPG_GAMECORE_ADVCHASEBAILU_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A97B0)
+#define RPG_GAMECORE_ADVCHASEBAILU_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5A97D0)
+#define RPG_GAMECORE_ADVCHASEBAILU_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5A9760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvChaseBailu_TypeDefinitionIndex = 22228;
+	inline static constexpr unsigned int AdvChaseBailu_TypeDefinitionIndex = 22633;
 
 	class AdvChaseBailu : public ::RPG::GameCore::TaskConfig
 	{

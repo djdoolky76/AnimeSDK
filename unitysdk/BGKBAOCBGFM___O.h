@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 class BGKBAOCBGFM_JGKFDNKDLFD;
 
-inline static constexpr unsigned int BGKBAOCBGFM___O_TypeDefinitionIndex = 73163;
+inline static constexpr unsigned int BGKBAOCBGFM___O_TypeDefinitionIndex = 75277;
 
 	class BGKBAOCBGFM___O : public ::System::Object
 	{
 	public:
 		static ::BGKBAOCBGFM_JGKFDNKDLFD** StaticGet__0____ShowItemExceedLimit()
 		{
-			return (::BGKBAOCBGFM_JGKFDNKDLFD**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E9D0);
+			return (::BGKBAOCBGFM_JGKFDNKDLFD**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6AAC0);
 		}
 
 	};

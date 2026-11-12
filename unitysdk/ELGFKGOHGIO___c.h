@@ -4,18 +4,18 @@
 class ELGFKGOHGIO;
 namespace System { class Object; }
 
-#define ELGFKGOHGIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2D0690)
-#define ELGFKGOHGIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D06C0)
-#define ELGFKGOHGIO___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1E2D06D0)
+#define ELGFKGOHGIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5B4B30)
+#define ELGFKGOHGIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5B4B60)
+#define ELGFKGOHGIO___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1F5B4B70)
 
-inline static constexpr unsigned int ELGFKGOHGIO___c_TypeDefinitionIndex = 25391;
+inline static constexpr unsigned int ELGFKGOHGIO___c_TypeDefinitionIndex = 25868;
 
 	class ELGFKGOHGIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x504C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49E00);
 		}
 
 		static ::System::Void _cctor()

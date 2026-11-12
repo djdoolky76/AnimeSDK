@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_AICARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE6390)
+#define RPG_CLIENT_ROADRASH_ROADRASHGAMESETTINGSCONFIGURE_AICARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE996CE0)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_AICarConfig_TypeDefinitionIndex = 75901;
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_AICarConfig_TypeDefinitionIndex = 78228;
 
 	class RoadRashGameSettingsConfigure_AICarConfig : public ::System::Object
 	{

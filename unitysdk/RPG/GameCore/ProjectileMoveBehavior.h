@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileMoveBehavior_TypeDefinitionIndex = 15651;
+	inline static constexpr unsigned int ProjectileMoveBehavior_TypeDefinitionIndex = 15809;
 
 	enum class ProjectileMoveBehavior : ::System::Int32
 	{

@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB6E730)
-#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB6E5C0)
-#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB6E690)
-#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB6E5D0)
+#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF7440)
+#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF72D0)
+#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF73A0)
+#define MESSAGEPACK_FORMATTERS_BIGINTEGERFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF72E0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int BigIntegerFormatter_TypeDefinitionIndex = 7495;
+	inline static constexpr unsigned int BigIntegerFormatter_TypeDefinitionIndex = 7506;
 
 	class BigIntegerFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::BigInteger>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::BigInteger>**)UnitySDK::FromName("MessagePack.Formatters", "BigIntegerFormatter")->GetStaticField(0x248F0);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::Numerics::BigInteger>**)UnitySDK::FromName("MessagePack.Formatters", "BigIntegerFormatter")->GetStaticField(0x46600);
 		}
 
 		::System::Void _ctor()

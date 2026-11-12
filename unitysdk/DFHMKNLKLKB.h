@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DFHMKNLKLKB_TypeDefinitionIndex = 57730;
+inline static constexpr unsigned int DFHMKNLKLKB_TypeDefinitionIndex = 58963;
 
 	struct alignas(4) DFHMKNLKLKB
 	{

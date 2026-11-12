@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LMPIJJGMNPD_LightParam_TypeDefinitionIndex = 47367;
+inline static constexpr unsigned int LMPIJJGMNPD_LightParam_TypeDefinitionIndex = 48396;
 
 	enum class LMPIJJGMNPD_LightParam : ::System::Int32
 	{

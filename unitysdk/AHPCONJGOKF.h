@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RefreshBattleAvatarPanel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHPCONJGOKF_CTOR_OFFSET UNITYSDK_OFFSET(0xEB8A420)
-#define AHPCONJGOKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB8A450)
+#define AHPCONJGOKF_CTOR_OFFSET UNITYSDK_OFFSET(0xF14A070)
+#define AHPCONJGOKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF14A0A0)
 
-inline static constexpr unsigned int AHPCONJGOKF_TypeDefinitionIndex = 58373;
+inline static constexpr unsigned int AHPCONJGOKF_TypeDefinitionIndex = 59629;
 
 	class AHPCONJGOKF
 	{

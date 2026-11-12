@@ -3,7 +3,7 @@
 #include "unitysdk/System/Security/Cryptography/SignatureDescription.h"
 namespace System { class String; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREDESCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D5C10)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAPKCS1SIGNATUREDESCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D25CE20)
 
 namespace System::Security::Cryptography
 {

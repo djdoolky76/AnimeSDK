@@ -5,16 +5,16 @@ class INMMPMDELKE;
 class NKMEEIAEDDP;
 namespace System { template <typename T> class Action_1; }
 
-#define NKMEEIAEDDP___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC3D130)
-#define NKMEEIAEDDP___C__DISPLAYCLASS0_0__ATTACHBUTTONTOENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xBC3E760)
+#define NKMEEIAEDDP___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC521800)
+#define NKMEEIAEDDP___C__DISPLAYCLASS0_0__ATTACHBUTTONTOENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xC522E30)
 
-inline static constexpr unsigned int NKMEEIAEDDP___c__DisplayClass0_0_TypeDefinitionIndex = 76743;
+inline static constexpr unsigned int NKMEEIAEDDP___c__DisplayClass0_0_TypeDefinitionIndex = 79076;
 
 	class NKMEEIAEDDP___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::INMMPMDELKE* entity; // 0x10
-		::System::Action_1<::INMMPMDELKE*>* onPush; // 0x18
+		::System::Action_1<::INMMPMDELKE*>* onPush; // 0x10
+		::INMMPMDELKE* entity; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKMEEIAEDDP___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

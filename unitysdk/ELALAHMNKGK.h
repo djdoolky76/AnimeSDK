@@ -6,27 +6,27 @@ namespace RPG::Client { class CameraModuleConfigCollection; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-#define ELALAHMNKGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1551ACB0)
-#define ELALAHMNKGK_GET_CAMERADATA_OFFSET UNITYSDK_OFFSET(0x1551ADE0)
-#define ELALAHMNKGK_GET_GLOBALCONFIGREF_OFFSET UNITYSDK_OFFSET(0x1551ADA0)
-#define ELALAHMNKGK_GET_MODULECONFIGREF_OFFSET UNITYSDK_OFFSET(0x1551ADC0)
-#define ELALAHMNKGK_GET_OWNERCAMERAENGINEREF_OFFSET UNITYSDK_OFFSET(0x1551AD80)
-#define ELALAHMNKGK_ONSPAWN_OFFSET UNITYSDK_OFFSET(0x1551AD00)
-#define ELALAHMNKGK_ONUNSPAWN_OFFSET UNITYSDK_OFFSET(0x1551AD40)
-#define ELALAHMNKGK_SET_CAMERADATA_OFFSET UNITYSDK_OFFSET(0x1551ADF0)
-#define ELALAHMNKGK_SET_GLOBALCONFIGREF_OFFSET UNITYSDK_OFFSET(0x1551ADB0)
-#define ELALAHMNKGK_SET_MODULECONFIGREF_OFFSET UNITYSDK_OFFSET(0x1551ADD0)
-#define ELALAHMNKGK_SET_OWNERCAMERAENGINEREF_OFFSET UNITYSDK_OFFSET(0x1551AD90)
+#define ELALAHMNKGK_CTOR_OFFSET UNITYSDK_OFFSET(0x16463110)
+#define ELALAHMNKGK_GET_CAMERADATA_OFFSET UNITYSDK_OFFSET(0x16463240)
+#define ELALAHMNKGK_GET_GLOBALCONFIGREF_OFFSET UNITYSDK_OFFSET(0x16463200)
+#define ELALAHMNKGK_GET_MODULECONFIGREF_OFFSET UNITYSDK_OFFSET(0x16463220)
+#define ELALAHMNKGK_GET_OWNERCAMERAENGINEREF_OFFSET UNITYSDK_OFFSET(0x164631E0)
+#define ELALAHMNKGK_ONSPAWN_OFFSET UNITYSDK_OFFSET(0x16463160)
+#define ELALAHMNKGK_ONUNSPAWN_OFFSET UNITYSDK_OFFSET(0x164631A0)
+#define ELALAHMNKGK_SET_CAMERADATA_OFFSET UNITYSDK_OFFSET(0x16463250)
+#define ELALAHMNKGK_SET_GLOBALCONFIGREF_OFFSET UNITYSDK_OFFSET(0x16463210)
+#define ELALAHMNKGK_SET_MODULECONFIGREF_OFFSET UNITYSDK_OFFSET(0x16463230)
+#define ELALAHMNKGK_SET_OWNERCAMERAENGINEREF_OFFSET UNITYSDK_OFFSET(0x164631F0)
 
-inline static constexpr unsigned int ELALAHMNKGK_TypeDefinitionIndex = 69737;
+inline static constexpr unsigned int ELALAHMNKGK_TypeDefinitionIndex = 71694;
 
 	class ELALAHMNKGK : public ::RPGCamera::BaseCameraState
 	{
 	public:
-		::RPG::Client::PipelineCameraGlobalConfig* _GlobalConfigRef_k__BackingField; // 0xA8
-		::RPG::Client::CameraModuleConfigCollection* _ModuleConfigRef_k__BackingField; // 0xB0
-		::RPG::Client::PipelineCameraEngine* _OwnerCameraEngineRef_k__BackingField; // 0xB8
-		::RPG::Client::CameraDataAndFlags* _CameraData_k__BackingField; // 0xC0
+		::RPG::Client::CameraModuleConfigCollection* _ModuleConfigRef_k__BackingField; // 0xA8
+		::RPG::Client::PipelineCameraEngine* _OwnerCameraEngineRef_k__BackingField; // 0xB0
+		::RPG::Client::CameraDataAndFlags* _CameraData_k__BackingField; // 0xB8
+		::RPG::Client::PipelineCameraGlobalConfig* _GlobalConfigRef_k__BackingField; // 0xC0
 		::System::Void _ctor(::RPG::Client::PipelineCameraEngine* a1, ::RPG::Client::PipelineCameraGlobalConfig* a2, ::RPG::Client::CameraModuleConfigCollection* a3, ::RPG::Client::CameraDataAndFlags* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::PipelineCameraEngine*, ::RPG::Client::PipelineCameraGlobalConfig*, ::RPG::Client::CameraModuleConfigCollection*, ::RPG::Client::CameraDataAndFlags*))((::PBYTE)hIl2Cpp + ELALAHMNKGK_CTOR_OFFSET))(this, a1, a2, a3, a4);

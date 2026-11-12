@@ -5,20 +5,20 @@ namespace RPG::GameCore { class CharacterReenterStage; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKGMNHIHIDC_CDNOABAIEHJ_OFFSET UNITYSDK_OFFSET(0xB74A7E0)
-#define LKGMNHIHIDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB749EA0)
-#define LKGMNHIHIDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB749EB0)
-#define LKGMNHIHIDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB749EF0)
-#define LKGMNHIHIDC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB74A850)
-#define LKGMNHIHIDC_TICK_OFFSET UNITYSDK_OFFSET(0xB74A8A0)
+#define LKGMNHIHIDC_CDNOABAIEHJ_OFFSET UNITYSDK_OFFSET(0xBFE7CE0)
+#define LKGMNHIHIDC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE73A0)
+#define LKGMNHIHIDC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFE73B0)
+#define LKGMNHIHIDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFE73F0)
+#define LKGMNHIHIDC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFE7D50)
+#define LKGMNHIHIDC_TICK_OFFSET UNITYSDK_OFFSET(0xBFE7DA0)
 
-inline static constexpr unsigned int LKGMNHIHIDC_TypeDefinitionIndex = 54945;
+inline static constexpr unsigned int LKGMNHIHIDC_TypeDefinitionIndex = 56118;
 
 	class LKGMNHIHIDC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CharacterReenterStage* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CharacterReenterStage* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterReenterStage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterReenterStage*))((::PBYTE)hIl2Cpp + LKGMNHIHIDC_CTOR_OFFSET))(this, a1, a2);

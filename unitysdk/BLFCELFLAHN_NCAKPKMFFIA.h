@@ -5,18 +5,18 @@ class GJDPEGIFLGB;
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define BLFCELFLAHN_NCAKPKMFFIA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA6BC60)
-#define BLFCELFLAHN_NCAKPKMFFIA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBA6CF10)
-#define BLFCELFLAHN_NCAKPKMFFIA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBA6D070)
+#define BLFCELFLAHN_NCAKPKMFFIA_CTOR_OFFSET UNITYSDK_OFFSET(0xC3FDB70)
+#define BLFCELFLAHN_NCAKPKMFFIA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC3FEE20)
+#define BLFCELFLAHN_NCAKPKMFFIA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC3FEF80)
 
-inline static constexpr unsigned int BLFCELFLAHN_NCAKPKMFFIA_TypeDefinitionIndex = 52292;
+inline static constexpr unsigned int BLFCELFLAHN_NCAKPKMFFIA_TypeDefinitionIndex = 53398;
 
 	class BLFCELFLAHN_NCAKPKMFFIA : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* JDJMNGAFHLI; // 0x10
-		::UnityEngine::Transform* LLKDMBLKFPM; // 0x18
-		::System::String* JLMMOLCLMHK; // 0x20
+		::System::String* JLMMOLCLMHK; // 0x10
+		::UnityEngine::Transform* JDJMNGAFHLI; // 0x18
+		::UnityEngine::Transform* LLKDMBLKFPM; // 0x20
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + BLFCELFLAHN_NCAKPKMFFIA_CTOR_OFFSET))(this, a1);

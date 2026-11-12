@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AEPEINGEKCD_TypeDefinitionIndex = 78423;
+inline static constexpr unsigned int AEPEINGEKCD_TypeDefinitionIndex = 81158;
 
 	class AEPEINGEKCD
 	{

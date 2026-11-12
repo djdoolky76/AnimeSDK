@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyDamageDisplayData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NKFIEDBMMED_CTOR_OFFSET UNITYSDK_OFFSET(0xBC333B0)
-#define NKFIEDBMMED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC333E0)
+#define NKFIEDBMMED_CTOR_OFFSET UNITYSDK_OFFSET(0xC516FF0)
+#define NKFIEDBMMED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC517020)
 
-inline static constexpr unsigned int NKFIEDBMMED_TypeDefinitionIndex = 55193;
+inline static constexpr unsigned int NKFIEDBMMED_TypeDefinitionIndex = 56374;
 
 	class NKFIEDBMMED
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFearCharacterCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GBECGIKDOEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1594B9F0)
-#define GBECGIKDOEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1594BA20)
+#define GBECGIKDOEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1687FDC0)
+#define GBECGIKDOEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1687FDF0)
 
-inline static constexpr unsigned int GBECGIKDOEA_TypeDefinitionIndex = 54534;
+inline static constexpr unsigned int GBECGIKDOEA_TypeDefinitionIndex = 55699;
 
 	class GBECGIKDOEA
 	{

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TurnInsertAssistantAbility; }
 
-#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC65880)
-#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC658C0)
-#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC65820)
+#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE78480)
+#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE784C0)
+#define RPG_GAMECORE_TURNINSERTASSISTANTABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE78420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnInsertAssistantAbility_TypeDefinitionIndex = 23575;
+	inline static constexpr unsigned int TurnInsertAssistantAbility_TypeDefinitionIndex = 24022;
 
 	class TurnInsertAssistantAbility : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcSplitterPolyline_SplitModeEnum_TypeDefinitionIndex = 36048;
+	inline static constexpr unsigned int BGCcSplitterPolyline_SplitModeEnum_TypeDefinitionIndex = 36976;
 
 	enum class BGCcSplitterPolyline_SplitModeEnum : ::System::Int32
 	{

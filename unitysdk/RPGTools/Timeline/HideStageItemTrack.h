@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_HIDESTAGEITEMTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE902560)
+#define RPGTOOLS_TIMELINE_HIDESTAGEITEMTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF3DDDA0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HideStageItemTrack_TypeDefinitionIndex = 48148;
+	inline static constexpr unsigned int HideStageItemTrack_TypeDefinitionIndex = 49179;
 
 	class HideStageItemTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

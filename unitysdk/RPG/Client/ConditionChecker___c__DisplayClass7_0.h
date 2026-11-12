@@ -4,12 +4,12 @@
 namespace RPG::Client { class ConditionChecker; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBB9620)
-#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0__DOASYNCCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xCBBAA40)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD52D5F0)
+#define RPG_CLIENT_CONDITIONCHECKER___C__DISPLAYCLASS7_0__DOASYNCCHECK_B__0_OFFSET UNITYSDK_OFFSET(0xD52EA10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConditionChecker___c__DisplayClass7_0_TypeDefinitionIndex = 59900;
+	inline static constexpr unsigned int ConditionChecker___c__DisplayClass7_0_TypeDefinitionIndex = 61184;
 
 	class ConditionChecker___c__DisplayClass7_0 : public ::System::Object
 	{

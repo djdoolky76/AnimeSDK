@@ -6,23 +6,23 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 
-#define KLBOFEDGNLL_CIIKPCCHFHG_OFFSET UNITYSDK_OFFSET(0xB4DFE30)
-#define KLBOFEDGNLL_CMIEGOCBPPP_OFFSET UNITYSDK_OFFSET(0xB4DFEB0)
-#define KLBOFEDGNLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB4E0210)
-#define KLBOFEDGNLL_GOCFELBGHNJ_OFFSET UNITYSDK_OFFSET(0xB4DFCD0)
-#define KLBOFEDGNLL_JFFBNHNMDNN_OFFSET UNITYSDK_OFFSET(0xB4E00F0)
-#define KLBOFEDGNLL_JMAJENEDLHA_OFFSET UNITYSDK_OFFSET(0xB4E0180)
-#define KLBOFEDGNLL_PFABIGLJNKM_OFFSET UNITYSDK_OFFSET(0xB4DFF90)
+#define KLBOFEDGNLL_CIIKPCCHFHG_OFFSET UNITYSDK_OFFSET(0xBD29250)
+#define KLBOFEDGNLL_CMIEGOCBPPP_OFFSET UNITYSDK_OFFSET(0xBD292D0)
+#define KLBOFEDGNLL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD29630)
+#define KLBOFEDGNLL_GOCFELBGHNJ_OFFSET UNITYSDK_OFFSET(0xBD290F0)
+#define KLBOFEDGNLL_JFFBNHNMDNN_OFFSET UNITYSDK_OFFSET(0xBD29510)
+#define KLBOFEDGNLL_JMAJENEDLHA_OFFSET UNITYSDK_OFFSET(0xBD295A0)
+#define KLBOFEDGNLL_PFABIGLJNKM_OFFSET UNITYSDK_OFFSET(0xBD293B0)
 
-inline static constexpr unsigned int KLBOFEDGNLL_TypeDefinitionIndex = 62466;
+inline static constexpr unsigned int KLBOFEDGNLL_TypeDefinitionIndex = 63879;
 
 	class KLBOFEDGNLL : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>* GFAIMKAKJBD; // 0x10
-		::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* CGIMEMDLCIB; // 0x18
-		::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* AFJMAJOCMHO; // 0x20
-		::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* FFBFKGHBJAH; // 0x28
+		::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* FFBFKGHBJAH; // 0x18
+		::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* CGIMEMDLCIB; // 0x20
+		::System::Collections::Generic::SortedList_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* AFJMAJOCMHO; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KLBOFEDGNLL_CTOR_OFFSET))(this);

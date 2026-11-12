@@ -4,17 +4,17 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GHFNPKEGLGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1B260)
+#define GHFNPKEGLGN_CTOR_OFFSET UNITYSDK_OFFSET(0x169559A0)
 
-inline static constexpr unsigned int GHFNPKEGLGN_TypeDefinitionIndex = 61094;
+inline static constexpr unsigned int GHFNPKEGLGN_TypeDefinitionIndex = 62479;
 
 	class GHFNPKEGLGN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* IMCNFPNKKFA; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* CEIJOGLNGND; // 0x18
-		::System::String* FLPLCECLOLO; // 0x20
-		::System::String* EAIPOEHAPHM; // 0x28
+		::System::String* EAIPOEHAPHM; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* IMCNFPNKKFA; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* CEIJOGLNGND; // 0x20
+		::System::String* FLPLCECLOLO; // 0x28
 		::System::String* HMCFOJPMFIK; // 0x30
 		::System::Void _ctor()
 		{

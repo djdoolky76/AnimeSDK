@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightCombinationBonusConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D727DC0)
-#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D727C20)
+#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9334D0)
+#define RPG_GAMECORE_GRIDFIGHTCOMBINATIONBONUSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E933330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightCombinationBonusConfigRow_TypeDefinitionIndex = 13418;
+	inline static constexpr unsigned int GridFightCombinationBonusConfigRow_TypeDefinitionIndex = 13490;
 
 	class GridFightCombinationBonusConfigRow : public ::System::Object
 	{

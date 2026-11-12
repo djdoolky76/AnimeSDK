@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JAACNICGMHN;
 
-#define MAOJDNMGCLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB856B10)
+#define MAOJDNMGCLO_CTOR_OFFSET UNITYSDK_OFFSET(0xC0B8120)
 
-inline static constexpr unsigned int MAOJDNMGCLO_TypeDefinitionIndex = 80554;
+inline static constexpr unsigned int MAOJDNMGCLO_TypeDefinitionIndex = 83334;
 
 	class MAOJDNMGCLO : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetComfortZoneWidthOverride; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PEMCOFKFFCK_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F3520)
-#define PEMCOFKFFCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1F3550)
+#define PEMCOFKFFCK_CTOR_OFFSET UNITYSDK_OFFSET(0xCAD3C20)
+#define PEMCOFKFFCK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAD3C50)
 
-inline static constexpr unsigned int PEMCOFKFFCK_TypeDefinitionIndex = 55376;
+inline static constexpr unsigned int PEMCOFKFFCK_TypeDefinitionIndex = 56559;
 
 	class PEMCOFKFFCK
 	{

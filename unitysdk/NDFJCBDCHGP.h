@@ -5,16 +5,16 @@ class FCOEMCEDLNL;
 class NDFJCBDCHGP;
 namespace System { class String; }
 
-#define NDFJCBDCHGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F7CB0)
-#define NDFJCBDCHGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F7B30)
+#define NDFJCBDCHGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E40C690)
+#define NDFJCBDCHGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E40C510)
 
-inline static constexpr unsigned int NDFJCBDCHGP_TypeDefinitionIndex = 11647;
+inline static constexpr unsigned int NDFJCBDCHGP_TypeDefinitionIndex = 11698;
 
 	class NDFJCBDCHGP : public ::System::Object
 	{
 	public:
-		::System::String* BDACPPLKLGL; // 0x10
-		::System::String* FBKAMIHGLFK; // 0x18
+		::System::String* FBKAMIHGLFK; // 0x10
+		::System::String* BDACPPLKLGL; // 0x18
 		::System::UInt32 PHFMCACHFIJ; // 0x20
 		::System::Void _ctor()
 		{

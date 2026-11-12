@@ -6,12 +6,12 @@ class KHPENGJFKBB;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamInfoProviderViewModel; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMINFOPROVIDERVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC965190)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMINFOPROVIDERVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC971D50)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMINFOPROVIDERVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD2C9F50)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMINFOPROVIDERVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD2D74F0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamInfoProviderViewModel_Factory_TypeDefinitionIndex = 81585;
+	inline static constexpr unsigned int ChallengeTierceTeamInfoProviderViewModel_Factory_TypeDefinitionIndex = 84366;
 
 	class ChallengeTierceTeamInfoProviderViewModel_Factory : public ::System::Object
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IIJLENHLAIJ.h"
 
-#define FLELKICOANA_CTOR_OFFSET UNITYSDK_OFFSET(0x1582F720)
-#define FLELKICOANA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1582F760)
+#define FLELKICOANA_CTOR_OFFSET UNITYSDK_OFFSET(0x1679EB60)
+#define FLELKICOANA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1679EBA0)
 
-inline static constexpr unsigned int FLELKICOANA_TypeDefinitionIndex = 61338;
+inline static constexpr unsigned int FLELKICOANA_TypeDefinitionIndex = 62723;
 
 	class FLELKICOANA : public ::IIJLENHLAIJ
 	{

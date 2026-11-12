@@ -7,23 +7,23 @@ namespace RPG::GameCore { template <typename T1, typename T2, typename T3> class
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PIIDNAIAHAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC2668E0)
-#define PIIDNAIAHAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC266910)
-#define PIIDNAIAHAK___C__TICK_B__4_0_OFFSET UNITYSDK_OFFSET(0xC266920)
+#define PIIDNAIAHAK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB8EAF0)
+#define PIIDNAIAHAK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB8EB20)
+#define PIIDNAIAHAK___C__TICK_B__4_0_OFFSET UNITYSDK_OFFSET(0xCB8EB30)
 
-inline static constexpr unsigned int PIIDNAIAHAK___c_TypeDefinitionIndex = 55755;
+inline static constexpr unsigned int PIIDNAIAHAK___c_TypeDefinitionIndex = 56958;
 
 	class PIIDNAIAHAK___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F740);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::Triple_3<::System::Boolean, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::GameEntityList*>*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::Triple_3<::System::Boolean, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::GameEntityList*>*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F748);
+			return (::System::Func_2<::RPG::GameCore::Triple_3<::System::Boolean, ::RPG::GameCore::TurnBasedAbilityComponent*, ::RPG::GameCore::GameEntityList*>*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71B40);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71B48);
 		}
 
 		static ::System::Void _cctor()

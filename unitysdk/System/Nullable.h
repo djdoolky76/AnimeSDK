@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define SYSTEM_NULLABLE_GETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x1C281040)
+#define SYSTEM_NULLABLE_GETUNDERLYINGTYPE_OFFSET UNITYSDK_OFFSET(0x1D407D40)
 
 namespace System
 {

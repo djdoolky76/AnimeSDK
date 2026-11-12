@@ -10,23 +10,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class WeakReference_1; }
 
-#define NEKANHCFAJJ_CKBCLDKJJDC_OFFSET UNITYSDK_OFFSET(0xBB6A8F0)
-#define NEKANHCFAJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6A2E0)
-#define NEKANHCFAJJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB6A400)
-#define NEKANHCFAJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB6A690)
-#define NEKANHCFAJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB6A570)
-#define NEKANHCFAJJ_TICK_OFFSET UNITYSDK_OFFSET(0xBB6A810)
+#define NEKANHCFAJJ_CKBCLDKJJDC_OFFSET UNITYSDK_OFFSET(0xC3F47A0)
+#define NEKANHCFAJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC3F41D0)
+#define NEKANHCFAJJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3F42F0)
+#define NEKANHCFAJJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3F4580)
+#define NEKANHCFAJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC3F4460)
+#define NEKANHCFAJJ_TICK_OFFSET UNITYSDK_OFFSET(0xC3F4700)
 
-inline static constexpr unsigned int NEKANHCFAJJ_TypeDefinitionIndex = 58916;
+inline static constexpr unsigned int NEKANHCFAJJ_TypeDefinitionIndex = 60189;
 
 	class NEKANHCFAJJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x20
-		::System::WeakReference_1<::EBLHIMCKJIJ*>* HPIHLICKLAD; // 0x28
-		::RPG::GameCore::WaitPropCurveMovePaused* OFKGLJOAMLD; // 0x30
-		::System::String* IJMGEMMNNPI; // 0x38
+		::System::WeakReference_1<::EBLHIMCKJIJ*>* HPIHLICKLAD; // 0x18
+		::RPG::GameCore::WaitPropCurveMovePaused* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x28
+		::System::String* IJMGEMMNNPI; // 0x30
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
 		::KFELGAIGHAP* HFOFIODMFGB; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitPropCurveMovePaused* a2)
 		{

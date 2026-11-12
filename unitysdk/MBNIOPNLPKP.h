@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialClose; }
 
-#define MBNIOPNLPKP_CTOR_OFFSET UNITYSDK_OFFSET(0xB86ED60)
-#define MBNIOPNLPKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB86ED90)
+#define MBNIOPNLPKP_CTOR_OFFSET UNITYSDK_OFFSET(0xC0D4670)
+#define MBNIOPNLPKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0D46A0)
 
-inline static constexpr unsigned int MBNIOPNLPKP_TypeDefinitionIndex = 58821;
+inline static constexpr unsigned int MBNIOPNLPKP_TypeDefinitionIndex = 60089;
 
 	class MBNIOPNLPKP
 	{

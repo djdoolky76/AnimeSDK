@@ -4,12 +4,12 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::SocialPlay { class SocialPlayMapInfo; }
 
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9E8BA0)
-#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS7_0__TRANSFERTOSOCIALPLAYMAPPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xD9F5190)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE48B9D0)
+#define RPG_CLIENT_ONLINEPLAYROOMMODULE___C__DISPLAYCLASS7_0__TRANSFERTOSOCIALPLAYMAPPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xE48B9E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass7_0_TypeDefinitionIndex = 66407;
+	inline static constexpr unsigned int OnlinePlayRoomModule___c__DisplayClass7_0_TypeDefinitionIndex = 68343;
 
 	class OnlinePlayRoomModule___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 class KJBFKGBKJME;
 namespace RPG::Client { class HeliobusSkillData; }
 
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD31E3D0)
-#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0___ONCMDHELIOBUSUNLOCKSKILLSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xD31E6A0)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD529C0)
+#define RPG_CLIENT_HELIOBUSMODULE___C__DISPLAYCLASS93_0___ONCMDHELIOBUSUNLOCKSKILLSCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xDD52C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeliobusModule___c__DisplayClass93_0_TypeDefinitionIndex = 65667;
+	inline static constexpr unsigned int HeliobusModule___c__DisplayClass93_0_TypeDefinitionIndex = 67589;
 
 	class HeliobusModule___c__DisplayClass93_0 : public ::System::Object
 	{

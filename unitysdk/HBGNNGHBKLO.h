@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LevelChallengeTurnAcc; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HBGNNGHBKLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C03600)
-#define HBGNNGHBKLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C03630)
+#define HBGNNGHBKLO_CTOR_OFFSET UNITYSDK_OFFSET(0x16B44E30)
+#define HBGNNGHBKLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B44E60)
 
-inline static constexpr unsigned int HBGNNGHBKLO_TypeDefinitionIndex = 55137;
+inline static constexpr unsigned int HBGNNGHBKLO_TypeDefinitionIndex = 56318;
 
 	class HBGNNGHBKLO
 	{

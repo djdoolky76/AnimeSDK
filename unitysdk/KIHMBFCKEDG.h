@@ -6,15 +6,17 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KIHMBFCKEDG_ECHAJKOILNG_OFFSET UNITYSDK_OFFSET(0xB41FA10)
-#define KIHMBFCKEDG_JJNFOPNOPBF_1_OFFSET UNITYSDK_OFFSET(0xB41FF60)
-#define KIHMBFCKEDG_JJNFOPNOPBF_2_OFFSET UNITYSDK_OFFSET(0xB41FFB0)
-#define KIHMBFCKEDG_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB41FF10)
-#define KIHMBFCKEDG_JPIJCCHOIBC_OFFSET UNITYSDK_OFFSET(0xB41F680)
-#define KIHMBFCKEDG_MGBCKEGBDDM_OFFSET UNITYSDK_OFFSET(0xB41F800)
-#define KIHMBFCKEDG_PMDIDGONPKB_OFFSET UNITYSDK_OFFSET(0xB41F620)
+#define KIHMBFCKEDG_ECHAJKOILNG_OFFSET UNITYSDK_OFFSET(0xBCB5CF0)
+#define KIHMBFCKEDG_JJNFOPNOPBF_1_OFFSET UNITYSDK_OFFSET(0xBCB6380)
+#define KIHMBFCKEDG_JJNFOPNOPBF_2_OFFSET UNITYSDK_OFFSET(0xBCB63D0)
+#define KIHMBFCKEDG_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xBCB6330)
+#define KIHMBFCKEDG_JPIJCCHOIBC_OFFSET UNITYSDK_OFFSET(0xBCB2810)
+#define KIHMBFCKEDG_KPDNCJACLLL_1_OFFSET UNITYSDK_OFFSET(0xBCB6250)
+#define KIHMBFCKEDG_KPDNCJACLLL_OFFSET UNITYSDK_OFFSET(0xBCB61F0)
+#define KIHMBFCKEDG_MGBCKEGBDDM_OFFSET UNITYSDK_OFFSET(0xBCB5AE0)
+#define KIHMBFCKEDG_PMDIDGONPKB_OFFSET UNITYSDK_OFFSET(0xBCB5A80)
 
-inline static constexpr unsigned int KIHMBFCKEDG_TypeDefinitionIndex = 59039;
+inline static constexpr unsigned int KIHMBFCKEDG_TypeDefinitionIndex = 60314;
 
 	class KIHMBFCKEDG : public ::System::Object
 	{
@@ -37,6 +39,16 @@ inline static constexpr unsigned int KIHMBFCKEDG_TypeDefinitionIndex = 59039;
 		static ::System::Void ECHAJKOILNG(::RPG::GameCore::AvatarBaseTypeMask a1, ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarBaseType>* a2)
 		{
 			return ((::System::Void(*)(::RPG::GameCore::AvatarBaseTypeMask, ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarBaseType>*))((::PBYTE)hIl2Cpp + KIHMBFCKEDG_ECHAJKOILNG_OFFSET))(a1, a2);
+		}
+
+		static ::System::UInt32 KPDNCJACLLL(::RPG::GameCore::AvatarBaseType a1)
+		{
+			return ((::System::UInt32(*)(::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + KIHMBFCKEDG_KPDNCJACLLL_OFFSET))(a1);
+		}
+
+		static ::System::UInt32 KPDNCJACLLL_1(::Il2CppArray<::RPG::GameCore::AvatarBaseType>* a1)
+		{
+			return ((::System::UInt32(*)(::Il2CppArray<::RPG::GameCore::AvatarBaseType>*))((::PBYTE)hIl2Cpp + KIHMBFCKEDG_KPDNCJACLLL_1_OFFSET))(a1);
 		}
 
 		static ::System::Boolean JJNFOPNOPBF(::RPG::GameCore::AvatarBaseTypeMask a1, ::RPG::GameCore::AvatarBaseType a2)

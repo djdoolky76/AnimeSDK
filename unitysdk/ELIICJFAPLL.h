@@ -9,24 +9,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ELIICJFAPLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15523080)
-#define ELIICJFAPLL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15522090)
-#define ELIICJFAPLL_GHDDHOGIHOM_OFFSET UNITYSDK_OFFSET(0x15522900)
-#define ELIICJFAPLL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x155220F0)
-#define ELIICJFAPLL_JLANKNHFKCN_1_OFFSET UNITYSDK_OFFSET(0x15522B60)
-#define ELIICJFAPLL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15522240)
+#define ELIICJFAPLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1646B4C0)
+#define ELIICJFAPLL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1646A4E0)
+#define ELIICJFAPLL_GHDDHOGIHOM_OFFSET UNITYSDK_OFFSET(0x1646AD40)
+#define ELIICJFAPLL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x1646A530)
+#define ELIICJFAPLL_JLANKNHFKCN_1_OFFSET UNITYSDK_OFFSET(0x1646AFA0)
+#define ELIICJFAPLL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1646A680)
 
-inline static constexpr unsigned int ELIICJFAPLL_TypeDefinitionIndex = 57264;
+inline static constexpr unsigned int ELIICJFAPLL_TypeDefinitionIndex = 58491;
 
 	class ELIICJFAPLL : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* EPLPGIANPBB; // 0x18
-		::System::Collections::Generic::List_1<::FKMBGNOKAFF*>* IPLCCFBICHO; // 0x20
-		::PAADPKGPFMJ* EOBLJJBOBIN; // 0x28
-		::System::Int32 PABLGDMPJGG; // 0x30
-		::System::Int32 JJKHELILFJD; // 0x34
+		::System::Collections::Generic::List_1<::FKMBGNOKAFF*>* IPLCCFBICHO; // 0x10
+		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x18
+		::PAADPKGPFMJ* EOBLJJBOBIN; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::FreeStyleAnimGroupEventConfig*>*>* EPLPGIANPBB; // 0x28
+		::System::Int32 JJKHELILFJD; // 0x30
+		::System::Int32 PABLGDMPJGG; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ELIICJFAPLL_CTOR_OFFSET))(this);

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterPhaseUIConfig; }
 
-#define RPG_GAMECORE_CHARACTERPHASEUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D576C50)
-#define RPG_GAMECORE_CHARACTERPHASEUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D576930)
+#define RPG_GAMECORE_CHARACTERPHASEUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E787A40)
+#define RPG_GAMECORE_CHARACTERPHASEUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E787830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterPhaseUIConfig_TypeDefinitionIndex = 16505;
+	inline static constexpr unsigned int CharacterPhaseUIConfig_TypeDefinitionIndex = 16669;
 
 	class CharacterPhaseUIConfig : public ::RPG::GameCore::JsonConfig
 	{

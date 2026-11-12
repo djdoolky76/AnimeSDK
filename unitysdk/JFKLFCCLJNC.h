@@ -3,10 +3,10 @@
 class GHMHPIANEIG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFKLFCCLJNC_CTOR_OFFSET UNITYSDK_OFFSET(0x16650480)
-#define JFKLFCCLJNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x166504B0)
+#define JFKLFCCLJNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB999A00)
+#define JFKLFCCLJNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB999A30)
 
-inline static constexpr unsigned int JFKLFCCLJNC_TypeDefinitionIndex = 54895;
+inline static constexpr unsigned int JFKLFCCLJNC_TypeDefinitionIndex = 56066;
 
 	class JFKLFCCLJNC
 	{

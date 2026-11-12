@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChatBubbleRow; }
 
-#define RPG_GAMECORE_CHATBUBBLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57AAD0)
-#define RPG_GAMECORE_CHATBUBBLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D57A960)
+#define RPG_GAMECORE_CHATBUBBLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78B870)
+#define RPG_GAMECORE_CHATBUBBLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E78B700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChatBubbleRow_TypeDefinitionIndex = 13002;
+	inline static constexpr unsigned int ChatBubbleRow_TypeDefinitionIndex = 13070;
 
 	class ChatBubbleRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PersonalizeShowType ShowType; // 0x10
-		::System::UInt32 ID; // 0x14
-		::System::UInt32 ShowParam; // 0x18
+		::System::UInt32 ShowParam; // 0x10
+		::RPG::GameCore::PersonalizeShowType ShowType; // 0x14
+		::System::UInt32 ID; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHATBUBBLEROW_CTOR_OFFSET))(this);

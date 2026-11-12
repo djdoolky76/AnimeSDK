@@ -4,18 +4,18 @@
 class CMOPLAHDEPN;
 namespace System { class Object; }
 
-#define CMOPLAHDEPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E105AB0)
-#define CMOPLAHDEPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E105AE0)
-#define CMOPLAHDEPN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E105AF0)
+#define CMOPLAHDEPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3FDC70)
+#define CMOPLAHDEPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FDCA0)
+#define CMOPLAHDEPN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F3FDCB0)
 
-inline static constexpr unsigned int CMOPLAHDEPN___c_TypeDefinitionIndex = 26975;
+inline static constexpr unsigned int CMOPLAHDEPN___c_TypeDefinitionIndex = 27506;
 
 	class CMOPLAHDEPN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E9E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A070);
 		}
 
 		static ::System::Void _cctor()

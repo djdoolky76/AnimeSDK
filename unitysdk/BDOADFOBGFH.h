@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class JCKCHPFFEHM;
 
-#define BDOADFOBGFH_AEBCGOOEMLG_OFFSET UNITYSDK_OFFSET(0x16305210)
-#define BDOADFOBGFH_EJHEGGLDPKI_OFFSET UNITYSDK_OFFSET(0x16305DE0)
+#define BDOADFOBGFH_AEBCGOOEMLG_OFFSET UNITYSDK_OFFSET(0xB7BA470)
+#define BDOADFOBGFH_EJHEGGLDPKI_OFFSET UNITYSDK_OFFSET(0xB7BB040)
 
-inline static constexpr unsigned int BDOADFOBGFH_TypeDefinitionIndex = 47392;
+inline static constexpr unsigned int BDOADFOBGFH_TypeDefinitionIndex = 48421;
 
 	class BDOADFOBGFH : public ::System::Object
 	{

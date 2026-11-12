@@ -4,16 +4,16 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define DBLMKONGKGL_CTOR_OFFSET UNITYSDK_OFFSET(0xE230030)
+#define DBLMKONGKGL_CTOR_OFFSET UNITYSDK_OFFSET(0xEB8EF70)
 
-inline static constexpr unsigned int DBLMKONGKGL_TypeDefinitionIndex = 69643;
+inline static constexpr unsigned int DBLMKONGKGL_TypeDefinitionIndex = 71600;
 
 	class DBLMKONGKGL : public ::System::Object
 	{
 	public:
 		::RPG::Client::CameraBlendCurve* NLIFDJHPHLP; // 0x10
-		::UnityEngine::Vector3 OKEIJHOGFFC; // 0x18
-		::UnityEngine::Vector3 KMNMAFDBCEK; // 0x24
+		::UnityEngine::Vector3 KMNMAFDBCEK; // 0x18
+		::UnityEngine::Vector3 OKEIJHOGFFC; // 0x24
 		::System::Single FLFLMEHJFPI; // 0x30
 		::System::Void _ctor()
 		{

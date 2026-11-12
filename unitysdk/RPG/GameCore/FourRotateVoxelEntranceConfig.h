@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class FourRotateVoxelEntranceConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EDC90)
-#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6EDCA0)
-#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EDC50)
+#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F8050)
+#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8F8060)
+#define RPG_GAMECORE_FOURROTATEVOXELENTRANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F8010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelEntranceConfig_TypeDefinitionIndex = 16754;
+	inline static constexpr unsigned int FourRotateVoxelEntranceConfig_TypeDefinitionIndex = 16920;
 
 	class FourRotateVoxelEntranceConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

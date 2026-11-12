@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_MiYouSheLoginElemenetStatus_TypeDefinitionIndex = 9193;
+	inline static constexpr unsigned int PluginUIConstants_MiYouSheLoginElemenetStatus_TypeDefinitionIndex = 9202;
 
 	class PluginUIConstants_MiYouSheLoginElemenetStatus : public ::System::Object
 	{

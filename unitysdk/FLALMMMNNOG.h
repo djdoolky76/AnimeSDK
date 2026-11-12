@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/UltraDistanceGlobalDynamicOffsetMode.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define FLALMMMNNOG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E77770)
+#define FLALMMMNNOG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x304D760)
 
-inline static constexpr unsigned int FLALMMMNNOG_TypeDefinitionIndex = 69573;
+inline static constexpr unsigned int FLALMMMNNOG_TypeDefinitionIndex = 71530;
 
 	struct alignas(4) FLALMMMNNOG
 	{

@@ -4,18 +4,18 @@
 class CLIOFILACMC;
 namespace System { class Object; }
 
-#define CLIOFILACMC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0FA390)
-#define CLIOFILACMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0FA3D0)
-#define CLIOFILACMC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0FA3E0)
+#define CLIOFILACMC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3F1110)
+#define CLIOFILACMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F1150)
+#define CLIOFILACMC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F3F1160)
 
-inline static constexpr unsigned int CLIOFILACMC___c_TypeDefinitionIndex = 30874;
+inline static constexpr unsigned int CLIOFILACMC___c_TypeDefinitionIndex = 31787;
 
 	class CLIOFILACMC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D4C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18390);
 		}
 
 		static ::System::Void _cctor()

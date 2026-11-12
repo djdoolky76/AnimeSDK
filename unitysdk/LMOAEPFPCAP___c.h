@@ -4,18 +4,18 @@
 class LMOAEPFPCAP;
 namespace System { class Object; }
 
-#define LMOAEPFPCAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9AD280)
-#define LMOAEPFPCAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9AD2C0)
-#define LMOAEPFPCAP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9AD2D0)
+#define LMOAEPFPCAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCD14E0)
+#define LMOAEPFPCAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCD1520)
+#define LMOAEPFPCAP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FCD1530)
 
-inline static constexpr unsigned int LMOAEPFPCAP___c_TypeDefinitionIndex = 27660;
+inline static constexpr unsigned int LMOAEPFPCAP___c_TypeDefinitionIndex = 28191;
 
 	class LMOAEPFPCAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DF10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41C30);
 		}
 
 		static ::System::Void _cctor()

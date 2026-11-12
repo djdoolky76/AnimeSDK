@@ -7,22 +7,22 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define FMKKFAJDKMG_AFADJMFGCGN_OFFSET UNITYSDK_OFFSET(0x15860EA0)
-#define FMKKFAJDKMG_CTOR_OFFSET UNITYSDK_OFFSET(0x15860EE0)
-#define FMKKFAJDKMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15861290)
-#define FMKKFAJDKMG_EGBHEPJHELB_OFFSET UNITYSDK_OFFSET(0x15861190)
-#define FMKKFAJDKMG_GET_REDDOTTYPE_OFFSET UNITYSDK_OFFSET(0x15860E90)
-#define FMKKFAJDKMG_NOHIKPFNDLL_OFFSET UNITYSDK_OFFSET(0x158610A0)
+#define FMKKFAJDKMG_AFADJMFGCGN_OFFSET UNITYSDK_OFFSET(0x167D15B0)
+#define FMKKFAJDKMG_CTOR_OFFSET UNITYSDK_OFFSET(0x167D15F0)
+#define FMKKFAJDKMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x167D19A0)
+#define FMKKFAJDKMG_EGBHEPJHELB_OFFSET UNITYSDK_OFFSET(0x167D18A0)
+#define FMKKFAJDKMG_GET_REDDOTTYPE_OFFSET UNITYSDK_OFFSET(0x167D15A0)
+#define FMKKFAJDKMG_NOHIKPFNDLL_OFFSET UNITYSDK_OFFSET(0x167D17B0)
 
-inline static constexpr unsigned int FMKKFAJDKMG_TypeDefinitionIndex = 79191;
+inline static constexpr unsigned int FMKKFAJDKMG_TypeDefinitionIndex = 81968;
 
 	class FMKKFAJDKMG : public ::System::Object
 	{
 	public:
-		::JLODHPMMJFM* MHBFNKIFLNN; // 0x10
+		::System::Action* KLCCHKCJDHC; // 0x10
 		::System::String* NOIGFGJJDLB; // 0x18
-		::R3::ReactiveProperty_1<::RPG::GameCore::RedDotType>* _RedDotType_k__BackingField; // 0x20
-		::System::Action* KLCCHKCJDHC; // 0x28
+		::JLODHPMMJFM* MHBFNKIFLNN; // 0x20
+		::R3::ReactiveProperty_1<::RPG::GameCore::RedDotType>* _RedDotType_k__BackingField; // 0x28
 		::System::Void _ctor(::JLODHPMMJFM* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::JLODHPMMJFM*, ::System::String*))((::PBYTE)hIl2Cpp + FMKKFAJDKMG_CTOR_OFFSET))(this, a1, a2);

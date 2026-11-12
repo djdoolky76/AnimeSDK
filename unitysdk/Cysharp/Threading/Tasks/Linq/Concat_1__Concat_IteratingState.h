@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Concat_1__Concat_IteratingState_TypeDefinitionIndex = 45319;
+	inline static constexpr unsigned int Concat_1__Concat_IteratingState_TypeDefinitionIndex = 46348;
 
 	enum class Concat_1__Concat_IteratingState : ::System::Int32
 	{

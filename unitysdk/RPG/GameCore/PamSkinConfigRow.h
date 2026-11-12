@@ -5,20 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PamSkinConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PAMSKINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EC970)
-#define RPG_GAMECORE_PAMSKINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EC790)
+#define RPG_GAMECORE_PAMSKINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB05390)
+#define RPG_GAMECORE_PAMSKINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB051B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamSkinConfigRow_TypeDefinitionIndex = 14319;
+	inline static constexpr unsigned int PamSkinConfigRow_TypeDefinitionIndex = 14476;
 
 	class PamSkinConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ManikinPrefab; // 0x10
-		::System::String* JsonPath; // 0x18
-		::System::String* ConfigEntityPath; // 0x20
-		::System::String* SkinIcon; // 0x28
+		::System::String* ConfigEntityPath; // 0x10
+		::System::String* SkinIcon; // 0x18
+		::System::String* JsonPath; // 0x20
+		::System::String* ManikinPrefab; // 0x28
 		::System::UInt32 SkinID; // 0x30
 		::System::Void _ctor()
 		{

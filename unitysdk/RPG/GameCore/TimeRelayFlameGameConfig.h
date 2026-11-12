@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TimeRelayFlameGameConfig; }
 namespace RPG::GameCore { class VCameraShakeV2; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB857C0)
-#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB857D0)
-#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB85790)
+#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE34EA0)
+#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE34EB0)
+#define RPG_GAMECORE_TIMERELAYFLAMEGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE34E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRelayFlameGameConfig_TypeDefinitionIndex = 17012;
+	inline static constexpr unsigned int TimeRelayFlameGameConfig_TypeDefinitionIndex = 17179;
 
 	class TimeRelayFlameGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

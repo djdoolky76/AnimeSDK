@@ -8,13 +8,13 @@ namespace RPG::GameCore { class RotateRubikCube; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROTATERUBIKCUBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA47C40)
-#define RPG_GAMECORE_ROTATERUBIKCUBE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA47C50)
-#define RPG_GAMECORE_ROTATERUBIKCUBE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA47C00)
+#define RPG_GAMECORE_ROTATERUBIKCUBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5AA60)
+#define RPG_GAMECORE_ROTATERUBIKCUBE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC5AA70)
+#define RPG_GAMECORE_ROTATERUBIKCUBE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC5AA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotateRubikCube_TypeDefinitionIndex = 22143;
+	inline static constexpr unsigned int RotateRubikCube_TypeDefinitionIndex = 22548;
 
 	class RotateRubikCube : public ::RPG::GameCore::TaskConfig
 	{

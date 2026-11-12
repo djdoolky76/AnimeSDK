@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD_IBMIJELKFCI_CTOR_OFFSET UNITYSDK_OFFSET(0xDD4BEC0)
+#define RPG_CLIENT_PROP_OPTICALILLUSIONPUZZLEBOARD_IBMIJELKFCI_CTOR_OFFSET UNITYSDK_OFFSET(0xE7AA440)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_IBMIJELKFCI_TypeDefinitionIndex = 78704;
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard_IBMIJELKFCI_TypeDefinitionIndex = 81439;
 
 	class OpticalIllusionPuzzleBoard_IBMIJELKFCI : public ::System::Object
 	{

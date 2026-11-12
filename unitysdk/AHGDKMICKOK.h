@@ -3,10 +3,10 @@
 class ALFJPDLGBJH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHGDKMICKOK_CTOR_OFFSET UNITYSDK_OFFSET(0xEB80850)
-#define AHGDKMICKOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB80880)
+#define AHGDKMICKOK_CTOR_OFFSET UNITYSDK_OFFSET(0xF13FD40)
+#define AHGDKMICKOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF13FD70)
 
-inline static constexpr unsigned int AHGDKMICKOK_TypeDefinitionIndex = 55894;
+inline static constexpr unsigned int AHGDKMICKOK_TypeDefinitionIndex = 57097;
 
 	class AHGDKMICKOK
 	{

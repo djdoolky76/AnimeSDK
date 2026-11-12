@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GlobalTaskListTemplateConfig; }
 namespace RPG::GameCore { class TaskListTemplate; }
 
-#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71FD00)
-#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71FC10)
+#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E929730)
+#define RPG_GAMECORE_GLOBALTASKLISTTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E929640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalTaskListTemplateConfig_TypeDefinitionIndex = 18240;
+	inline static constexpr unsigned int GlobalTaskListTemplateConfig_TypeDefinitionIndex = 18402;
 
 	class GlobalTaskListTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

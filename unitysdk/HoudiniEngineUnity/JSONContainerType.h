@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSONContainerType_TypeDefinitionIndex = 40687;
+	inline static constexpr unsigned int JSONContainerType_TypeDefinitionIndex = 41662;
 
 	enum class JSONContainerType : ::System::Int32
 	{

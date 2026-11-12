@@ -4,18 +4,18 @@
 class EEBFDPANGCP;
 namespace System { class Object; }
 
-#define EEBFDPANGCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E266010)
-#define EEBFDPANGCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E266050)
-#define EEBFDPANGCP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E266060)
+#define EEBFDPANGCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F563900)
+#define EEBFDPANGCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F563940)
+#define EEBFDPANGCP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F563950)
 
-inline static constexpr unsigned int EEBFDPANGCP___c_TypeDefinitionIndex = 26772;
+inline static constexpr unsigned int EEBFDPANGCP___c_TypeDefinitionIndex = 27303;
 
 	class EEBFDPANGCP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41920);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51200);
 		}
 
 		static ::System::Void _cctor()

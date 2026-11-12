@@ -13,49 +13,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PJLGMDNFAEO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D2F5180)
-#define PJLGMDNFAEO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2F5830)
-#define PJLGMDNFAEO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D2F52F0)
-#define PJLGMDNFAEO_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1D2F4F60)
-#define PJLGMDNFAEO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2F4BA0)
-#define PJLGMDNFAEO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2F4E30)
-#define PJLGMDNFAEO_HCBKFFGHOCB_OFFSET UNITYSDK_OFFSET(0x1D2F5740)
-#define PJLGMDNFAEO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D2F5390)
-#define PJLGMDNFAEO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D2F53E0)
-#define PJLGMDNFAEO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D2F51C0)
-#define PJLGMDNFAEO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2F4DD0)
-#define PJLGMDNFAEO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2F4FE0)
-#define PJLGMDNFAEO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2F5250)
-#define PJLGMDNFAEO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2F4B20)
+#define PJLGMDNFAEO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E501D40)
+#define PJLGMDNFAEO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5023F0)
+#define PJLGMDNFAEO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E501EB0)
+#define PJLGMDNFAEO_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E501B20)
+#define PJLGMDNFAEO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E501760)
+#define PJLGMDNFAEO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E5019F0)
+#define PJLGMDNFAEO_HCBKFFGHOCB_OFFSET UNITYSDK_OFFSET(0x1E502300)
+#define PJLGMDNFAEO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E501F50)
+#define PJLGMDNFAEO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E501FA0)
+#define PJLGMDNFAEO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E501D80)
+#define PJLGMDNFAEO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E501990)
+#define PJLGMDNFAEO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E501BA0)
+#define PJLGMDNFAEO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E501E10)
+#define PJLGMDNFAEO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E5016E0)
 
-inline static constexpr unsigned int PJLGMDNFAEO_TypeDefinitionIndex = 14881;
+inline static constexpr unsigned int PJLGMDNFAEO_TypeDefinitionIndex = 15037;
 
 	class PJLGMDNFAEO : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicScepterRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicScepterRow*>**)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x446E0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x395A0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x446E8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x395A8);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicScepterRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x446F0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x104E0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueMagicScepterRow*>**)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x395B0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0x104E1);
+			return (::System::Boolean*)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0xC8F0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "PJLGMDNFAEO")->GetStaticField(0xC8F1);
 		}
 
 		static ::System::Void _cctor()

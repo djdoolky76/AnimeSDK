@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AMOFCMFMCOL_TypeDefinitionIndex = 73540;
+inline static constexpr unsigned int AMOFCMFMCOL_TypeDefinitionIndex = 75663;
 
 	class AMOFCMFMCOL
 	{

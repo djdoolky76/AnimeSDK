@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MainMissionSortedItem; }
 namespace RPG::GameCore { class SubMissionSortedItem; }
 
-#define RPG_GAMECORE_MAINMISSIONSORTEDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FC850)
-#define RPG_GAMECORE_MAINMISSIONSORTEDITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7FC790)
+#define RPG_GAMECORE_MAINMISSIONSORTEDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3F370)
+#define RPG_GAMECORE_MAINMISSIONSORTEDITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA3F2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionSortedItem_TypeDefinitionIndex = 19031;
+	inline static constexpr unsigned int MainMissionSortedItem_TypeDefinitionIndex = 19218;
 
 	class MainMissionSortedItem : public ::RPG::GameCore::JsonConfig
 	{

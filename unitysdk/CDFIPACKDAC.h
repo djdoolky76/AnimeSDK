@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define CDFIPACKDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xC766AD0)
-#define CDFIPACKDAC_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xC766A30)
+#define CDFIPACKDAC_CTOR_OFFSET UNITYSDK_OFFSET(0xD0CFB30)
+#define CDFIPACKDAC_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xD0CFA90)
 
-inline static constexpr unsigned int CDFIPACKDAC_TypeDefinitionIndex = 55121;
+inline static constexpr unsigned int CDFIPACKDAC_TypeDefinitionIndex = 56298;
 
 	class CDFIPACKDAC
 	{

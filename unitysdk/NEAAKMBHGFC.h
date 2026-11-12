@@ -5,12 +5,12 @@ namespace RPG::Client { class MonsterData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NEAAKMBHGFC_ALGFGDICNIA_OFFSET UNITYSDK_OFFSET(0xBB566C0)
-#define NEAAKMBHGFC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB56790)
-#define NEAAKMBHGFC_PHCFJEMFJGC_OFFSET UNITYSDK_OFFSET(0xBB56520)
-#define NEAAKMBHGFC_PKCALGKEPBG_OFFSET UNITYSDK_OFFSET(0xBB565B0)
+#define NEAAKMBHGFC_ALGFGDICNIA_OFFSET UNITYSDK_OFFSET(0xC3DFE40)
+#define NEAAKMBHGFC_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DFF10)
+#define NEAAKMBHGFC_PHCFJEMFJGC_OFFSET UNITYSDK_OFFSET(0xC3DFCA0)
+#define NEAAKMBHGFC_PKCALGKEPBG_OFFSET UNITYSDK_OFFSET(0xC3DFD30)
 
-inline static constexpr unsigned int NEAAKMBHGFC_TypeDefinitionIndex = 63936;
+inline static constexpr unsigned int NEAAKMBHGFC_TypeDefinitionIndex = 65378;
 
 	class NEAAKMBHGFC : public ::System::Object
 	{

@@ -7,19 +7,19 @@ class EKOEJPIEIML;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define EKOEJPIEIML_CTOR_OFFSET UNITYSDK_OFFSET(0x15514760)
-#define EKOEJPIEIML_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15514710)
-#define EKOEJPIEIML_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x155146C0)
-#define EKOEJPIEIML_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15514650)
+#define EKOEJPIEIML_CTOR_OFFSET UNITYSDK_OFFSET(0x1645CCE0)
+#define EKOEJPIEIML_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x1645CC90)
+#define EKOEJPIEIML_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x1645CC40)
+#define EKOEJPIEIML_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1645CBD0)
 
-inline static constexpr unsigned int EKOEJPIEIML_TypeDefinitionIndex = 56601;
+inline static constexpr unsigned int EKOEJPIEIML_TypeDefinitionIndex = 57823;
 
 	class EKOEJPIEIML : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* LHPMNNODEAB; // 0x20
-		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x28
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* LHPMNNODEAB; // 0x18
+		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x20
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKOEJPIEIML_CTOR_OFFSET))(this);

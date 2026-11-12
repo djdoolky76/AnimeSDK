@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInEraFlipperSpotArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MIOPABKHLLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB960BF0)
-#define MIOPABKHLLL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB960C20)
+#define MIOPABKHLLL_CTOR_OFFSET UNITYSDK_OFFSET(0xC216C30)
+#define MIOPABKHLLL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC216C60)
 
-inline static constexpr unsigned int MIOPABKHLLL_TypeDefinitionIndex = 52757;
+inline static constexpr unsigned int MIOPABKHLLL_TypeDefinitionIndex = 53901;
 
 	class MIOPABKHLLL
 	{

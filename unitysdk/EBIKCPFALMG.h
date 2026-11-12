@@ -5,19 +5,19 @@ class JPMCBFLFDIL;
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class String; }
 
-#define EBIKCPFALMG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC8F6B0)
-#define EBIKCPFALMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8F6A0)
-#define EBIKCPFALMG_DCCACKNOBKM_OFFSET UNITYSDK_OFFSET(0x1CC8F660)
-#define EBIKCPFALMG_FMMGNFDCMCN_OFFSET UNITYSDK_OFFSET(0x1CC8F5F0)
+#define EBIKCPFALMG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE36840)
+#define EBIKCPFALMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE36830)
+#define EBIKCPFALMG_DCCACKNOBKM_OFFSET UNITYSDK_OFFSET(0x1DE367F0)
+#define EBIKCPFALMG_FMMGNFDCMCN_OFFSET UNITYSDK_OFFSET(0x1DE36780)
 
-inline static constexpr unsigned int EBIKCPFALMG_TypeDefinitionIndex = 43877;
+inline static constexpr unsigned int EBIKCPFALMG_TypeDefinitionIndex = 44952;
 
 	class EBIKCPFALMG : public ::System::Object
 	{
 	public:
 		static ::JPMCBFLFDIL** StaticGet_FMJPMFEDIJL()
 		{
-			return (::JPMCBFLFDIL**)UnitySDK::FromName("", "EBIKCPFALMG")->GetStaticField(0xF50);
+			return (::JPMCBFLFDIL**)UnitySDK::FromName("", "EBIKCPFALMG")->GetStaticField(0x1050);
 		}
 
 		::System::Void _ctor()

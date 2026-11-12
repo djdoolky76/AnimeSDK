@@ -4,15 +4,15 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GJANKOEDMLL_DFDOJBIOICK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A58FB0)
+#define GJANKOEDMLL_DFDOJBIOICK_CTOR_OFFSET UNITYSDK_OFFSET(0x169944F0)
 
-inline static constexpr unsigned int GJANKOEDMLL_DFDOJBIOICK_TypeDefinitionIndex = 73260;
+inline static constexpr unsigned int GJANKOEDMLL_DFDOJBIOICK_TypeDefinitionIndex = 75376;
 
 	class GJANKOEDMLL_DFDOJBIOICK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* HBLIMNKIPLN; // 0x10
-		::System::Collections::Generic::List_1<::System::String*>* PEANIENEKOB; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* PEANIENEKOB; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* HBLIMNKIPLN; // 0x18
 		::System::UInt32 JIDLKIHJLFL; // 0x20
 		::System::Void _ctor()
 		{

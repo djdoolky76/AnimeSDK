@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_FULLBODYIKBODYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD08AF50)
+#define RPG_CLIENT_FULLBODYIKBODYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDA13470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullBodyIKBodyConfig_TypeDefinitionIndex = 68602;
+	inline static constexpr unsigned int FullBodyIKBodyConfig_TypeDefinitionIndex = 70550;
 
 	class FullBodyIKBodyConfig : public ::System::Object
 	{

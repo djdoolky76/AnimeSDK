@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LimaoNews { class LimaoNewsEntityTrackService; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3A77A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xD3A7D40)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDDD2B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS11_0___REMOVEBILLBOARDINFO_B__0_OFFSET UNITYSDK_OFFSET(0xDDDD850)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass11_0_TypeDefinitionIndex = 80319;
+	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass11_0_TypeDefinitionIndex = 83096;
 
 	class LimaoNewsEntityTrackService___c__DisplayClass11_0 : public ::System::Object
 	{

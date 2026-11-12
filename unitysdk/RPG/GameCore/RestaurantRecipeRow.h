@@ -7,25 +7,24 @@ namespace RPG::GameCore { class RestaurantRecipeRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RESTAURANTRECIPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D994E30)
-#define RPG_GAMECORE_RESTAURANTRECIPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D994650)
+#define RPG_GAMECORE_RESTAURANTRECIPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDDEA0)
+#define RPG_GAMECORE_RESTAURANTRECIPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBDD6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantRecipeRow_TypeDefinitionIndex = 11332;
+	inline static constexpr unsigned int RestaurantRecipeRow_TypeDefinitionIndex = 11383;
 
 	class RestaurantRecipeRow : public ::System::Object
 	{
 	public:
-		::System::String* Model; // 0x10
-		::Il2CppArray<::System::UInt32>* TAGList; // 0x18
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x20
-		::System::String* IMGPath; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Materials; // 0x30
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
+		::System::String* IMGPath; // 0x18
+		::Il2CppArray<::System::UInt32>* TAGList; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* Materials; // 0x28
+		::System::String* Model; // 0x30
 		::RPG::Client::TextID Name; // 0x38
-		::System::UInt32 RecipeID; // 0x48
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Detail; // 0x50
+		::RPG::Client::TextID Detail; // 0x48
+		::System::UInt32 RecipeID; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RESTAURANTRECIPEROW_CTOR_OFFSET))(this);

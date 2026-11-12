@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChimeraPostSoundEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAPOSTSOUNDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AE4D0)
-#define RPG_GAMECORE_CHIMERAPOSTSOUNDEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5AE4E0)
-#define RPG_GAMECORE_CHIMERAPOSTSOUNDEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5AE480)
+#define RPG_GAMECORE_CHIMERAPOSTSOUNDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A94F0)
+#define RPG_GAMECORE_CHIMERAPOSTSOUNDEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A9500)
+#define RPG_GAMECORE_CHIMERAPOSTSOUNDEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7BE490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraPostSoundEvent_TypeDefinitionIndex = 15864;
+	inline static constexpr unsigned int ChimeraPostSoundEvent_TypeDefinitionIndex = 16022;
 
 	class ChimeraPostSoundEvent : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

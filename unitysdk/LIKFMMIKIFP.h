@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideSelectDarkTeamEntityCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LIKFMMIKIFP_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D5C50)
-#define LIKFMMIKIFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6D5C80)
+#define LIKFMMIKIFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF70020)
+#define LIKFMMIKIFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF70050)
 
-inline static constexpr unsigned int LIKFMMIKIFP_TypeDefinitionIndex = 55242;
+inline static constexpr unsigned int LIKFMMIKIFP_TypeDefinitionIndex = 56423;
 
 	class LIKFMMIKIFP
 	{

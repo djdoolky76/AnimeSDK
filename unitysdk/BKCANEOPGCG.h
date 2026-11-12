@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchPropSceneObjClickHintAttachPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKCANEOPGCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ACCA0)
-#define BKCANEOPGCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7ACCD0)
+#define BKCANEOPGCG_CTOR_OFFSET UNITYSDK_OFFSET(0xC102D90)
+#define BKCANEOPGCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC102DC0)
 
-inline static constexpr unsigned int BKCANEOPGCG_TypeDefinitionIndex = 53324;
+inline static constexpr unsigned int BKCANEOPGCG_TypeDefinitionIndex = 54486;
 
 	class BKCANEOPGCG
 	{

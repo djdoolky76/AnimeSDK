@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD376560)
+#define RPG_CLIENT_IRREGULARFAKEWINDOWCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDDAA7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IrregularFakeWindowControllerMonoPlugin_TypeDefinitionIndex = 70862;
+	inline static constexpr unsigned int IrregularFakeWindowControllerMonoPlugin_TypeDefinitionIndex = 72841;
 
 	class IrregularFakeWindowControllerMonoPlugin
 	{

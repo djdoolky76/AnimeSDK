@@ -9,11 +9,11 @@ class LEHAHJKOHKP;
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KFKHOCMNAGH_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0xB3BAF60)
-#define KFKHOCMNAGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB3BB490)
-#define KFKHOCMNAGH_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xB3BAFC0)
+#define KFKHOCMNAGH_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0xBC47C20)
+#define KFKHOCMNAGH_CTOR_OFFSET UNITYSDK_OFFSET(0xBC48150)
+#define KFKHOCMNAGH_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xBC47C80)
 
-inline static constexpr unsigned int KFKHOCMNAGH_TypeDefinitionIndex = 77466;
+inline static constexpr unsigned int KFKHOCMNAGH_TypeDefinitionIndex = 80201;
 
 	class KFKHOCMNAGH : public ::LDCOFDFFPBD
 	{

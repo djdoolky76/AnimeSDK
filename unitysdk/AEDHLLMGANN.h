@@ -16,71 +16,71 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AEDHLLMGANN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CCAFD80)
-#define AEDHLLMGANN_BHDOMIGFBCJ_OFFSET UNITYSDK_OFFSET(0x1CCAF450)
-#define AEDHLLMGANN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCB06D0)
-#define AEDHLLMGANN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CCB0140)
-#define AEDHLLMGANN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CCAF540)
-#define AEDHLLMGANN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CCAF760)
-#define AEDHLLMGANN_HLPLHCPAKNF_OFFSET UNITYSDK_OFFSET(0x1CCAF3A0)
-#define AEDHLLMGANN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CCB01A0)
-#define AEDHLLMGANN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CCB01F0)
-#define AEDHLLMGANN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CCAFDC0)
-#define AEDHLLMGANN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CCAF6F0)
-#define AEDHLLMGANN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CCAF9B0)
-#define AEDHLLMGANN_MDDEBCEINEJ_OFFSET UNITYSDK_OFFSET(0x1CCAFFB0)
-#define AEDHLLMGANN_OKONOOJEJMJ_OFFSET UNITYSDK_OFFSET(0x1CCAFA60)
-#define AEDHLLMGANN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCAFF50)
-#define AEDHLLMGANN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCAF4C0)
+#define AEDHLLMGANN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DE589B0)
+#define AEDHLLMGANN_BHDOMIGFBCJ_OFFSET UNITYSDK_OFFSET(0x1DE58080)
+#define AEDHLLMGANN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE59300)
+#define AEDHLLMGANN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DE58D70)
+#define AEDHLLMGANN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DE58170)
+#define AEDHLLMGANN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DE58390)
+#define AEDHLLMGANN_HLPLHCPAKNF_OFFSET UNITYSDK_OFFSET(0x1DE57FD0)
+#define AEDHLLMGANN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DE58DD0)
+#define AEDHLLMGANN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DE58E20)
+#define AEDHLLMGANN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DE589F0)
+#define AEDHLLMGANN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DE58320)
+#define AEDHLLMGANN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DE585E0)
+#define AEDHLLMGANN_MDDEBCEINEJ_OFFSET UNITYSDK_OFFSET(0x1DE58BE0)
+#define AEDHLLMGANN_OKONOOJEJMJ_OFFSET UNITYSDK_OFFSET(0x1DE58690)
+#define AEDHLLMGANN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DE58B80)
+#define AEDHLLMGANN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DE580F0)
 
-inline static constexpr unsigned int AEDHLLMGANN_TypeDefinitionIndex = 14356;
+inline static constexpr unsigned int AEDHLLMGANN_TypeDefinitionIndex = 14513;
 
 	class AEDHLLMGANN : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F10);
-		}
-
-		static ::System::String** StaticGet_PCJBKGCDGPO()
-		{
-			return (::System::String**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F18);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x2BE60);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_KGADENKPMFA()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F20);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F28);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F30);
-		}
-
-		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>** StaticGet_LMHLKOHMNAL()
-		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F38);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x2BE68);
 		}
 
 		static ::OFLIAAOJPJC** StaticGet_MLGLBKACPBD()
 		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x36F40);
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x2BE70);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::String** StaticGet_PCJBKGCDGPO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0xBA70);
+			return (::System::String**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x2BE78);
+		}
+
+		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>** StaticGet_LMHLKOHMNAL()
+		{
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x2BE80);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x2BE88);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::PerformanceBackupLockRow*>**)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x2BE90);
 		}
 
 		static ::System::Boolean* StaticGet_GDOFOFOCOLC()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0xBA71);
+			return (::System::Boolean*)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x90C0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "AEDHLLMGANN")->GetStaticField(0x90C1);
 		}
 
 		static ::System::Void _cctor()

@@ -6,10 +6,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define KAOAIGPIJJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7AEA0)
-#define KAOAIGPIJJB_KHJNHDOJDDP_1_OFFSET UNITYSDK_OFFSET(0x1EC7AFB0)
+#define KAOAIGPIJJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF2B840)
+#define KAOAIGPIJJB_KHJNHDOJDDP_1_OFFSET UNITYSDK_OFFSET(0x1FF2B950)
 
-inline static constexpr unsigned int KAOAIGPIJJB_TypeDefinitionIndex = 44298;
+inline static constexpr unsigned int KAOAIGPIJJB_TypeDefinitionIndex = 45373;
 
 	class KAOAIGPIJJB : public ::System::Object
 	{

@@ -5,20 +5,20 @@ namespace RPG::GameCore { class SwitchHandResetTransform; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define PBPCIBIDMAJ_AEFNKDCHOFN_OFFSET UNITYSDK_OFFSET(0xBFF7E20)
-#define PBPCIBIDMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF76B0)
-#define PBPCIBIDMAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFF76C0)
-#define PBPCIBIDMAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF7830)
-#define PBPCIBIDMAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBFF7710)
-#define PBPCIBIDMAJ_TICK_OFFSET UNITYSDK_OFFSET(0xBFF77D0)
+#define PBPCIBIDMAJ_AEFNKDCHOFN_OFFSET UNITYSDK_OFFSET(0xC8FC6A0)
+#define PBPCIBIDMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC8FBF30)
+#define PBPCIBIDMAJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC8FBF40)
+#define PBPCIBIDMAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8FC0B0)
+#define PBPCIBIDMAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC8FBF90)
+#define PBPCIBIDMAJ_TICK_OFFSET UNITYSDK_OFFSET(0xC8FC050)
 
-inline static constexpr unsigned int PBPCIBIDMAJ_TypeDefinitionIndex = 53318;
+inline static constexpr unsigned int PBPCIBIDMAJ_TypeDefinitionIndex = 54480;
 
 	class PBPCIBIDMAJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::SwitchHandResetTransform* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::SwitchHandResetTransform* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchHandResetTransform* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchHandResetTransform*))((::PBYTE)hIl2Cpp + PBPCIBIDMAJ_CTOR_OFFSET))(this, a1, a2);

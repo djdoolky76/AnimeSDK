@@ -4,18 +4,18 @@
 class NKKADHADOLO;
 namespace System { class Object; }
 
-#define NKKADHADOLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB5AD60)
-#define NKKADHADOLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5ADA0)
-#define NKKADHADOLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB5ADB0)
+#define NKKADHADOLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F04A220)
+#define NKKADHADOLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F04A260)
+#define NKKADHADOLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F04A270)
 
-inline static constexpr unsigned int NKKADHADOLO___c_TypeDefinitionIndex = 25577;
+inline static constexpr unsigned int NKKADHADOLO___c_TypeDefinitionIndex = 26072;
 
 	class NKKADHADOLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66240);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DC10);
 		}
 
 		static ::System::Void _cctor()

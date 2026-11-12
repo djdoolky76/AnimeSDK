@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define PVSSTAGEGRDHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC39C660)
+#define PVSSTAGEGRDHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD2800)
 
-inline static constexpr unsigned int PvsStageGrdHandle_TypeDefinitionIndex = 47401;
+inline static constexpr unsigned int PvsStageGrdHandle_TypeDefinitionIndex = 48430;
 
 	class PvsStageGrdHandle : public ::UnityEngine::MonoBehaviour
 	{

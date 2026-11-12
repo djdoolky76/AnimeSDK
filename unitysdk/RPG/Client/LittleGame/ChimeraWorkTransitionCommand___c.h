@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD425B40)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD425B80)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C___TRIGGERSTARTPERFORMANCE_B__1_0_OFFSET UNITYSDK_OFFSET(0xD425B90)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE78EE0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE78F20)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAWORKTRANSITIONCOMMAND___C___TRIGGERSTARTPERFORMANCE_B__1_0_OFFSET UNITYSDK_OFFSET(0xDE78F30)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraWorkTransitionCommand___c_TypeDefinitionIndex = 76640;
+	inline static constexpr unsigned int ChimeraWorkTransitionCommand___c_TypeDefinitionIndex = 78971;
 
 	class ChimeraWorkTransitionCommand___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__1_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x2ECA0);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x38430);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x2ECA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x38438);
 		}
 
 		static ::System::Void _cctor()

@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/SpecialBPDisplayStyle.h"
 #include "unitysdk/System/Object.h"
 
-#define LJABAMCMDLI_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DF030)
-#define LJABAMCMDLI_HCEMCBLDIFD_OFFSET UNITYSDK_OFFSET(0xB6DEF80)
-#define LJABAMCMDLI_MGKOOCKFANI_OFFSET UNITYSDK_OFFSET(0xB6DEFE0)
-#define LJABAMCMDLI_NBNFDFKDBCI_OFFSET UNITYSDK_OFFSET(0xB6DEF20)
+#define LJABAMCMDLI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7A1D0)
+#define LJABAMCMDLI_HCEMCBLDIFD_OFFSET UNITYSDK_OFFSET(0xBF7A120)
+#define LJABAMCMDLI_MGKOOCKFANI_OFFSET UNITYSDK_OFFSET(0xBF7A180)
+#define LJABAMCMDLI_NBNFDFKDBCI_OFFSET UNITYSDK_OFFSET(0xBF7A0C0)
 
-inline static constexpr unsigned int LJABAMCMDLI_TypeDefinitionIndex = 71496;
+inline static constexpr unsigned int LJABAMCMDLI_TypeDefinitionIndex = 73481;
 
 	class LJABAMCMDLI : public ::System::Object
 	{
 	public:
-		::System::Boolean NCNEFLDKEHJ; // 0x10
-		::System::Boolean GBAKKEJICJO; // 0x11
+		::System::Boolean GBAKKEJICJO; // 0x10
+		::System::Boolean NCNEFLDKEHJ; // 0x11
 		::System::Boolean CAGCHKJHMPD; // 0x12
 		::System::Byte _padding0[0x1];
 		::System::Int32 IFLBAAABKAI; // 0x14

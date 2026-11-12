@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/PropertyModifyFunction.h"
 
-#define HPHDBDFFDDJ_DHLFOMCKGGO_OFFSET UNITYSDK_OFFSET(0x2E7F410)
+#define HPHDBDFFDDJ_DHLFOMCKGGO_OFFSET UNITYSDK_OFFSET(0x3055500)
 
-inline static constexpr unsigned int HPHDBDFFDDJ_TypeDefinitionIndex = 55963;
+inline static constexpr unsigned int HPHDBDFFDDJ_TypeDefinitionIndex = 57166;
 
 	struct alignas(4) HPHDBDFFDDJ
 	{

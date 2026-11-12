@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_REPLAYUPLOADCONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDEB95C0)
+#define RPG_CLIENT_REPLAYUPLOADCONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE969F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ReplayUploadContent_TypeDefinitionIndex = 60977;
+	inline static constexpr unsigned int ReplayUploadContent_TypeDefinitionIndex = 62353;
 
 	class ReplayUploadContent : public ::System::Object
 	{

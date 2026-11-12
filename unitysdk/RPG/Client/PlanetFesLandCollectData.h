@@ -3,11 +3,11 @@
 #include "unitysdk/System/Numerics/BigInteger.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PLANETFESLANDCOLLECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDB98310)
+#define RPG_CLIENT_PLANETFESLANDCOLLECTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE632710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesLandCollectData_TypeDefinitionIndex = 66601;
+	inline static constexpr unsigned int PlanetFesLandCollectData_TypeDefinitionIndex = 68537;
 
 	class PlanetFesLandCollectData : public ::System::Object
 	{

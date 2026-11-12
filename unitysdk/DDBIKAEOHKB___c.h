@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define DDBIKAEOHKB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE25B500)
-#define DDBIKAEOHKB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE25B540)
-#define DDBIKAEOHKB___C___BUILDHANDLERINSTANCES_B__10_0_OFFSET UNITYSDK_OFFSET(0xE25B550)
-#define DDBIKAEOHKB___C___CCTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xE25B6C0)
-#define DDBIKAEOHKB___C___CCTOR_B__17_1_OFFSET UNITYSDK_OFFSET(0xE25B810)
-#define DDBIKAEOHKB___C___CCTOR_B__17_2_OFFSET UNITYSDK_OFFSET(0xE25B960)
-#define DDBIKAEOHKB___C___CCTOR_B__17_3_OFFSET UNITYSDK_OFFSET(0xE25BA10)
-#define DDBIKAEOHKB___C___CCTOR_B__17_4_OFFSET UNITYSDK_OFFSET(0xE25BAD0)
-#define DDBIKAEOHKB___C___CCTOR_B__17_5_OFFSET UNITYSDK_OFFSET(0xE25BB80)
-#define DDBIKAEOHKB___C___CCTOR_B__17_6_OFFSET UNITYSDK_OFFSET(0xE25BC40)
-#define DDBIKAEOHKB___C___CCTOR_B__17_7_OFFSET UNITYSDK_OFFSET(0xE25BD00)
+#define DDBIKAEOHKB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEE166F0)
+#define DDBIKAEOHKB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEE16730)
+#define DDBIKAEOHKB___C___BUILDHANDLERINSTANCES_B__10_0_OFFSET UNITYSDK_OFFSET(0xEE16740)
+#define DDBIKAEOHKB___C___CCTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xEE168B0)
+#define DDBIKAEOHKB___C___CCTOR_B__17_1_OFFSET UNITYSDK_OFFSET(0xEE16A00)
+#define DDBIKAEOHKB___C___CCTOR_B__17_2_OFFSET UNITYSDK_OFFSET(0xEE16B50)
+#define DDBIKAEOHKB___C___CCTOR_B__17_3_OFFSET UNITYSDK_OFFSET(0xEE16C00)
+#define DDBIKAEOHKB___C___CCTOR_B__17_4_OFFSET UNITYSDK_OFFSET(0xEE16CC0)
+#define DDBIKAEOHKB___C___CCTOR_B__17_5_OFFSET UNITYSDK_OFFSET(0xEE16D70)
+#define DDBIKAEOHKB___C___CCTOR_B__17_6_OFFSET UNITYSDK_OFFSET(0xEE16E30)
+#define DDBIKAEOHKB___C___CCTOR_B__17_7_OFFSET UNITYSDK_OFFSET(0xEE16EF0)
 
-inline static constexpr unsigned int DDBIKAEOHKB___c_TypeDefinitionIndex = 55989;
+inline static constexpr unsigned int DDBIKAEOHKB___c_TypeDefinitionIndex = 57192;
 
 	class DDBIKAEOHKB___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FB90);
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54410);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FB98);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54418);
 		}
 
 		static ::System::Void _cctor()

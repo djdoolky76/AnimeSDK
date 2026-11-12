@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDE16B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE16F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__MAKEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x1EDE1700)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20091100)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20091140)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_DELEGATEHELPERS___C__MAKEDELEGATE_B__1_0_OFFSET UNITYSDK_OFFSET(0x20091150)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -16,14 +16,14 @@ namespace System::Linq::Expressions::Interpreter
 	class DelegateHelpers___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x39D80);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x39D88);
+			return (::System::Object**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x40780);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Boolean>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Boolean>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "<>c")->GetStaticField(0x40788);
 		}
 
 		static ::System::Void _cctor()

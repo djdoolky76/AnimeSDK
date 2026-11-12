@@ -6,18 +6,18 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IComparer_1; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE2D42E0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR_GETCOMPARER_OFFSET UNITYSDK_OFFSET(0xE2D4070)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xED3F210)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR_GETCOMPARER_OFFSET UNITYSDK_OFFSET(0xED3EFA0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector_TypeDefinitionIndex = 74291;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector_TypeDefinitionIndex = 76439;
 
 	class TrainPartyBuildDisplayWallContext_SlotComparerSelector : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IComparer_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* _DefaultComparer; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Func_2<::System::Int32, ::System::Boolean>*, ::System::Collections::Generic::IComparer_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>*>* _ComparerMap; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Func_2<::System::Int32, ::System::Boolean>*, ::System::Collections::Generic::IComparer_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>*>* _ComparerMap; // 0x10
+		::System::Collections::Generic::IComparer_1<::RPG::Client::TrainParty::TrainPartyBuildDIYItem*>* _DefaultComparer; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_SLOTCOMPARERSELECTOR_CTOR_OFFSET))(this);

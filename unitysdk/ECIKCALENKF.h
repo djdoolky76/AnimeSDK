@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define ECIKCALENKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA332D0)
+#define ECIKCALENKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF6B00)
 
-inline static constexpr unsigned int ECIKCALENKF_TypeDefinitionIndex = 42823;
+inline static constexpr unsigned int ECIKCALENKF_TypeDefinitionIndex = 43803;
 
 	class ECIKCALENKF : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

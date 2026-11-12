@@ -7,7 +7,7 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvWaitingTaskBase_1_TypeDefinitionIndex = 52522;
+	inline static constexpr unsigned int AdvWaitingTaskBase_1_TypeDefinitionIndex = 53628;
 
 	template <typename T>
 	class AdvWaitingTaskBase_1 : public ::GELIALJDFBL

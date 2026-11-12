@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetEmojiInfo_TypeDefinitionIndex = 74691;
+	inline static constexpr unsigned int PetEmojiInfo_TypeDefinitionIndex = 76839;
 
 	struct alignas(8) PetEmojiInfo
 	{

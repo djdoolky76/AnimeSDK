@@ -4,7 +4,7 @@
 class CRPLightQualityGroupPlugin;
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int PFPOGACEHEP_TypeDefinitionIndex = 49047;
+inline static constexpr unsigned int PFPOGACEHEP_TypeDefinitionIndex = 50123;
 
 	class PFPOGACEHEP : public ::NPICKHAEHCL
 	{

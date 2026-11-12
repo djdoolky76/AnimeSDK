@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarHeightRTPCConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D417BC0)
-#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D408D00)
+#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6382D0)
+#define RPG_GAMECORE_AVATARHEIGHTRTPCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E638130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarHeightRTPCConfig_TypeDefinitionIndex = 16402;
+	inline static constexpr unsigned int AvatarHeightRTPCConfig_TypeDefinitionIndex = 16566;
 
 	class AvatarHeightRTPCConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,30 +9,30 @@ namespace Cysharp::Threading::Tasks { class PlayerLoopTimer; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CREATE_OFFSET UNITYSDK_OFFSET(0x1F123400)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F117180)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CYSHARP_THREADING_TASKS_IPLAYERLOOPITEM_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F1238A0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F123890)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_RESTART_1_OFFSET UNITYSDK_OFFSET(0x1F123750)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_RESTART_OFFSET UNITYSDK_OFFSET(0x1F123640)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_STARTNEW_OFFSET UNITYSDK_OFFSET(0x1F115ED0)
-#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_STOP_OFFSET UNITYSDK_OFFSET(0x1F123880)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CREATE_OFFSET UNITYSDK_OFFSET(0x203D4500)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CTOR_OFFSET UNITYSDK_OFFSET(0x203C81C0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CYSHARP_THREADING_TASKS_IPLAYERLOOPITEM_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x203D49A0)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_DISPOSE_OFFSET UNITYSDK_OFFSET(0x203D4990)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_RESTART_1_OFFSET UNITYSDK_OFFSET(0x203D4850)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_RESTART_OFFSET UNITYSDK_OFFSET(0x203D4740)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_STARTNEW_OFFSET UNITYSDK_OFFSET(0x203C6F10)
+#define CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_STOP_OFFSET UNITYSDK_OFFSET(0x203D4980)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int PlayerLoopTimer_TypeDefinitionIndex = 38211;
+	inline static constexpr unsigned int PlayerLoopTimer_TypeDefinitionIndex = 39140;
 
 	class PlayerLoopTimer : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Object*>* timerCallback; // 0x10
-		::System::Object* state; // 0x18
+		::System::Object* state; // 0x10
+		::System::Action_1<::System::Object*>* timerCallback; // 0x18
 		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::System::Boolean isRunning; // 0x28
-		::System::Boolean periodic; // 0x29
-		::System::Boolean tryStop; // 0x2A
-		::System::Boolean isDisposed; // 0x2B
-		::Cysharp::Threading::Tasks::PlayerLoopTiming playerLoopTiming; // 0x2C
+		::Cysharp::Threading::Tasks::PlayerLoopTiming playerLoopTiming; // 0x28
+		::System::Boolean isRunning; // 0x2C
+		::System::Boolean tryStop; // 0x2D
+		::System::Boolean periodic; // 0x2E
+		::System::Boolean isDisposed; // 0x2F
 		::System::Void _ctor(::System::Boolean a1, ::Cysharp::Threading::Tasks::PlayerLoopTiming a2, ::System::Threading::CancellationToken a3, ::System::Action_1<::System::Object*>* a4, ::System::Object* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::Cysharp::Threading::Tasks::PlayerLoopTiming, ::System::Threading::CancellationToken, ::System::Action_1<::System::Object*>*, ::System::Object*))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_PLAYERLOOPTIMER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

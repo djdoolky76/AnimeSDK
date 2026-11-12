@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class AOJHHINKJHL;
 
-#define JHOCHAJNPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB95390)
+#define JHOCHAJNPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD64280)
 
-inline static constexpr unsigned int JHOCHAJNPDA_TypeDefinitionIndex = 43171;
+inline static constexpr unsigned int JHOCHAJNPDA_TypeDefinitionIndex = 44152;
 
 	class JHOCHAJNPDA : public ::System::Object
 	{

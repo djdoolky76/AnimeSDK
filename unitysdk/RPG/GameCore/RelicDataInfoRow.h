@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicDataInfoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICDATAINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D97BD00)
-#define RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D97B540)
+#define RPG_GAMECORE_RELICDATAINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB940F0)
+#define RPG_GAMECORE_RELICDATAINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB93930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicDataInfoRow_TypeDefinitionIndex = 14648;
+	inline static constexpr unsigned int RelicDataInfoRow_TypeDefinitionIndex = 14804;
 
 	class RelicDataInfoRow : public ::System::Object
 	{
 	public:
-		::System::String* BGStoryTitle; // 0x10
-		::System::String* BGStoryContent; // 0x18
-		::System::String* RelicName; // 0x20
-		::System::String* IconPath; // 0x28
+		::System::String* RelicName; // 0x10
+		::System::String* BGStoryTitle; // 0x18
+		::System::String* BGStoryContent; // 0x20
+		::System::String* ItemBGDesc; // 0x28
 		::System::String* ItemFigureIconPath; // 0x30
-		::System::String* ItemBGDesc; // 0x38
-		::System::UInt32 SetID; // 0x40
-		::RPG::GameCore::RelicType Type; // 0x44
+		::System::String* IconPath; // 0x38
+		::RPG::GameCore::RelicType Type; // 0x40
+		::System::UInt32 SetID; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RELICDATAINFOROW_CTOR_OFFSET))(this);

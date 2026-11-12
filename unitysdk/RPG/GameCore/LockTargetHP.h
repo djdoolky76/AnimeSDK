@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LockTargetHP; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOCKTARGETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F1F90)
-#define RPG_GAMECORE_LOCKTARGETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7F1FA0)
-#define RPG_GAMECORE_LOCKTARGETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F1F50)
+#define RPG_GAMECORE_LOCKTARGETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA34C10)
+#define RPG_GAMECORE_LOCKTARGETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA34C20)
+#define RPG_GAMECORE_LOCKTARGETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA34BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockTargetHP_TypeDefinitionIndex = 23618;
+	inline static constexpr unsigned int LockTargetHP_TypeDefinitionIndex = 24065;
 
 	class LockTargetHP : public ::RPG::GameCore::TaskConfig
 	{

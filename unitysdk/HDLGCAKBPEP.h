@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HDLGCAKBPEP_TypeDefinitionIndex = 43013;
+inline static constexpr unsigned int HDLGCAKBPEP_TypeDefinitionIndex = 43994;
 
 	struct alignas(4) HDLGCAKBPEP
 	{

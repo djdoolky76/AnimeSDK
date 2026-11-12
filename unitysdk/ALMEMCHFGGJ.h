@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentRogueShopHasStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ALMEMCHFGGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1556F9C0)
-#define ALMEMCHFGGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1556F9F0)
+#define ALMEMCHFGGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x163DFA10)
+#define ALMEMCHFGGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163DFA40)
 
-inline static constexpr unsigned int ALMEMCHFGGJ_TypeDefinitionIndex = 53141;
+inline static constexpr unsigned int ALMEMCHFGGJ_TypeDefinitionIndex = 54303;
 
 	class ALMEMCHFGGJ
 	{

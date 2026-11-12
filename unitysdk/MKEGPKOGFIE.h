@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MKEGPKOGFIE_CCJJFNGDHLM_OFFSET UNITYSDK_OFFSET(0xB991440)
-#define MKEGPKOGFIE_CTOR_OFFSET UNITYSDK_OFFSET(0xB991640)
-#define MKEGPKOGFIE_FIEAJMFDBEG_OFFSET UNITYSDK_OFFSET(0xB991320)
-#define MKEGPKOGFIE_KBDONBEMMMJ_OFFSET UNITYSDK_OFFSET(0xB991590)
-#define MKEGPKOGFIE_LLGAFJEJLEA_OFFSET UNITYSDK_OFFSET(0xB990800)
+#define MKEGPKOGFIE_CCJJFNGDHLM_OFFSET UNITYSDK_OFFSET(0xC24B6E0)
+#define MKEGPKOGFIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC24B8E0)
+#define MKEGPKOGFIE_FIEAJMFDBEG_OFFSET UNITYSDK_OFFSET(0xC24B5C0)
+#define MKEGPKOGFIE_KBDONBEMMMJ_OFFSET UNITYSDK_OFFSET(0xC24B830)
+#define MKEGPKOGFIE_LLGAFJEJLEA_OFFSET UNITYSDK_OFFSET(0xC24AAC0)
 
-inline static constexpr unsigned int MKEGPKOGFIE_TypeDefinitionIndex = 81502;
+inline static constexpr unsigned int MKEGPKOGFIE_TypeDefinitionIndex = 84283;
 
 	class MKEGPKOGFIE : public ::System::Object
 	{

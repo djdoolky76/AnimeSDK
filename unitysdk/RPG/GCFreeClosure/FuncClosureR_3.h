@@ -4,7 +4,7 @@
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int FuncClosureR_3_TypeDefinitionIndex = 6468;
+	inline static constexpr unsigned int FuncClosureR_3_TypeDefinitionIndex = 6475;
 
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) FuncClosureR_3

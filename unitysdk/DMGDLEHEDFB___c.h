@@ -4,18 +4,18 @@
 class DMGDLEHEDFB;
 namespace System { class Object; }
 
-#define DMGDLEHEDFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1ED640)
-#define DMGDLEHEDFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1ED670)
-#define DMGDLEHEDFB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1ED680)
+#define DMGDLEHEDFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C9B50)
+#define DMGDLEHEDFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C9B80)
+#define DMGDLEHEDFB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F4C9B90)
 
-inline static constexpr unsigned int DMGDLEHEDFB___c_TypeDefinitionIndex = 26098;
+inline static constexpr unsigned int DMGDLEHEDFB___c_TypeDefinitionIndex = 26625;
 
 	class DMGDLEHEDFB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EFE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A480);
 		}
 
 		static ::System::Void _cctor()

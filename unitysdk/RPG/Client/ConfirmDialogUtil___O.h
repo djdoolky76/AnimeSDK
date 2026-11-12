@@ -6,19 +6,19 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConfirmDialogUtil___O_TypeDefinitionIndex = 72715;
+	inline static constexpr unsigned int ConfirmDialogUtil___O_TypeDefinitionIndex = 74794;
 
 	class ConfirmDialogUtil___O : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::NotifyHandler** StaticGet__1___OnFocusChange()
-		{
-			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x1C1F0);
-		}
-
 		static ::System::Action** StaticGet__0___OnDialogExit()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x1C1F8);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x1D290);
+		}
+
+		static ::RPG::Client::NotifyHandler** StaticGet__1___OnFocusChange()
+		{
+			return (::RPG::Client::NotifyHandler**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x1D298);
 		}
 
 	};

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_BYTESTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE937F0)
-#define SYSTEM_XML_BYTESTACK_POP_OFFSET UNITYSDK_OFFSET(0x1EE938B0)
-#define SYSTEM_XML_BYTESTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x1EE93830)
+#define SYSTEM_XML_BYTESTACK_CTOR_OFFSET UNITYSDK_OFFSET(0x20142F30)
+#define SYSTEM_XML_BYTESTACK_POP_OFFSET UNITYSDK_OFFSET(0x20142FF0)
+#define SYSTEM_XML_BYTESTACK_PUSH_OFFSET UNITYSDK_OFFSET(0x20142F70)
 
 namespace System::Xml
 {
@@ -14,9 +14,9 @@ namespace System::Xml
 	{
 	public:
 		::Il2CppArray<::System::Byte>* stack; // 0x10
-		::System::Int32 growthRate; // 0x18
-		::System::Int32 top; // 0x1C
-		::System::Int32 size; // 0x20
+		::System::Int32 size; // 0x18
+		::System::Int32 growthRate; // 0x1C
+		::System::Int32 top; // 0x20
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_XML_BYTESTACK_CTOR_OFFSET))(this, a1);

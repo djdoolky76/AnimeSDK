@@ -6,12 +6,12 @@ namespace RPG::GameCore { class AttachmentVisibilityNode; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ATTACHMENTVISIBILITYNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D402B20)
-#define RPG_GAMECORE_ATTACHMENTVISIBILITYNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4028E0)
+#define RPG_GAMECORE_ATTACHMENTVISIBILITYNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E622D90)
+#define RPG_GAMECORE_ATTACHMENTVISIBILITYNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E622B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachmentVisibilityNode_TypeDefinitionIndex = 22374;
+	inline static constexpr unsigned int AttachmentVisibilityNode_TypeDefinitionIndex = 22783;
 
 	class AttachmentVisibilityNode : public ::RPG::GameCore::JsonConfig
 	{

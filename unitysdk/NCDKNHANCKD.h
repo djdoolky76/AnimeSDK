@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopPermanentEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCDKNHANCKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB065E0)
-#define NCDKNHANCKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB06610)
+#define NCDKNHANCKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC38D8E0)
+#define NCDKNHANCKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC38D910)
 
-inline static constexpr unsigned int NCDKNHANCKD_TypeDefinitionIndex = 55902;
+inline static constexpr unsigned int NCDKNHANCKD_TypeDefinitionIndex = 57105;
 
 	class NCDKNHANCKD
 	{

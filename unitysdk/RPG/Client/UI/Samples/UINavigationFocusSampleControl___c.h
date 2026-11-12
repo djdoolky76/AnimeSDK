@@ -7,49 +7,49 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE412B20)
-#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE412B60)
-#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_0_OFFSET UNITYSDK_OFFSET(0xE412B70)
-#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_1_OFFSET UNITYSDK_OFFSET(0xE412B90)
-#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_3_OFFSET UNITYSDK_OFFSET(0xE412D80)
-#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_4_OFFSET UNITYSDK_OFFSET(0xE412D40)
-#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_5_OFFSET UNITYSDK_OFFSET(0xE412D60)
+#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEECE020)
+#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEECE060)
+#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_0_OFFSET UNITYSDK_OFFSET(0xEECE070)
+#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_1_OFFSET UNITYSDK_OFFSET(0xEECE090)
+#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_3_OFFSET UNITYSDK_OFFSET(0xEECE270)
+#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_4_OFFSET UNITYSDK_OFFSET(0xEECE230)
+#define RPG_CLIENT_UI_SAMPLES_UINAVIGATIONFOCUSSAMPLECONTROL___C___BINDING_B__5_5_OFFSET UNITYSDK_OFFSET(0xEECE250)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int UINavigationFocusSampleControl___c_TypeDefinitionIndex = 73472;
+	inline static constexpr unsigned int UINavigationFocusSampleControl___c_TypeDefinitionIndex = 75595;
 
 	class UINavigationFocusSampleControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Boolean, ::System::Single>** StaticGet___9__5_5()
 		{
-			return (::System::Func_2<::System::Boolean, ::System::Single>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42860);
-		}
-
-		static ::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>** StaticGet___9__5_3()
-		{
-			return (::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42868);
-		}
-
-		static ::System::Func_2<::System::Boolean, ::System::Single>** StaticGet___9__5_4()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::Single>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42870);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42878);
-		}
-
-		static ::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42880);
+			return (::System::Func_2<::System::Boolean, ::System::Single>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D810);
 		}
 
 		static ::System::Func_2<::CAALFIDBNMJ*, ::R3::Observable_1<::System::Single>*>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::CAALFIDBNMJ*, ::R3::Observable_1<::System::Single>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42888);
+			return (::System::Func_2<::CAALFIDBNMJ*, ::R3::Observable_1<::System::Single>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D818);
+		}
+
+		static ::System::Func_2<::System::Boolean, ::System::Single>** StaticGet___9__5_4()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::Single>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D820);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D828);
+		}
+
+		static ::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>** StaticGet___9__5_3()
+		{
+			return (::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D830);
+		}
+
+		static ::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::CAALFIDBNMJ*, ::R3::ReactiveProperty_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D838);
 		}
 
 		static ::System::Void _cctor()

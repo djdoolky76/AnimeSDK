@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComicDialogEmitterBehavior_JDDEMANIKMH_TypeDefinitionIndex = 70878;
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_JDDEMANIKMH_TypeDefinitionIndex = 72857;
 
 	struct alignas(4) ComicDialogEmitterBehavior_JDDEMANIKMH
 	{

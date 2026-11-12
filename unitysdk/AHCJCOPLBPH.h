@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PauseTimeRewindTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHCJCOPLBPH_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7A860)
-#define AHCJCOPLBPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB7A890)
+#define AHCJCOPLBPH_CTOR_OFFSET UNITYSDK_OFFSET(0xF139960)
+#define AHCJCOPLBPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF139990)
 
-inline static constexpr unsigned int AHCJCOPLBPH_TypeDefinitionIndex = 53382;
+inline static constexpr unsigned int AHCJCOPLBPH_TypeDefinitionIndex = 54544;
 
 	class AHCJCOPLBPH
 	{

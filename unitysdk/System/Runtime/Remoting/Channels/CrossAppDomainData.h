@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2D4970)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_DOMAINID_OFFSET UNITYSDK_OFFSET(0x1C2D4EB0)
-#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_PROCESSID_OFFSET UNITYSDK_OFFSET(0x1C2D4EC0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D45B5A0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_DOMAINID_OFFSET UNITYSDK_OFFSET(0x1D45BAE0)
+#define SYSTEM_RUNTIME_REMOTING_CHANNELS_CROSSAPPDOMAINDATA_GET_PROCESSID_OFFSET UNITYSDK_OFFSET(0x1D45BAF0)
 
 namespace System::Runtime::Remoting::Channels
 {
@@ -15,8 +15,8 @@ namespace System::Runtime::Remoting::Channels
 	class CrossAppDomainData : public ::System::Object
 	{
 	public:
-		::System::Object* _ContextID; // 0x10
-		::System::String* _processGuid; // 0x18
+		::System::String* _processGuid; // 0x10
+		::System::Object* _ContextID; // 0x18
 		::System::Int32 _DomainID; // 0x20
 		::System::Void _ctor(::System::Int32 a1)
 		{

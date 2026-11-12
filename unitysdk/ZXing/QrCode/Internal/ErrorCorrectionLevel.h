@@ -4,15 +4,15 @@
 namespace System { class String; }
 namespace ZXing::QrCode::Internal { class ErrorCorrectionLevel; }
 
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6D6DE0)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6D6DA0)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_GET_BITS_OFFSET UNITYSDK_OFFSET(0x1F6D6DB0)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_ORDINAL_OFFSET UNITYSDK_OFFSET(0x1F6D6DC0)
-#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F6D6DD0)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x20986390)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_CTOR_OFFSET UNITYSDK_OFFSET(0x20986350)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_GET_BITS_OFFSET UNITYSDK_OFFSET(0x20986360)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_ORDINAL_OFFSET UNITYSDK_OFFSET(0x20986370)
+#define ZXING_QRCODE_INTERNAL_ERRORCORRECTIONLEVEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20986380)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int ErrorCorrectionLevel_TypeDefinitionIndex = 7027;
+	inline static constexpr unsigned int ErrorCorrectionLevel_TypeDefinitionIndex = 7038;
 
 	class ErrorCorrectionLevel : public ::System::Object
 	{
@@ -20,29 +20,29 @@ namespace ZXing::QrCode::Internal
 		::System::String* name; // 0x10
 		::System::Int32 ordinal_Renamed_Field; // 0x18
 		::System::Int32 bits; // 0x1C
+		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_H()
+		{
+			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x2A070);
+		}
+
 		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_Q()
 		{
-			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x23630);
+			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x2A078);
 		}
 
 		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_M()
 		{
-			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x23638);
-		}
-
-		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_H()
-		{
-			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x23640);
-		}
-
-		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_L()
-		{
-			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x23648);
+			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x2A080);
 		}
 
 		static ::Il2CppArray<::ZXing::QrCode::Internal::ErrorCorrectionLevel*>** StaticGet_FOR_BITS()
 		{
-			return (::Il2CppArray<::ZXing::QrCode::Internal::ErrorCorrectionLevel*>**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x23650);
+			return (::Il2CppArray<::ZXing::QrCode::Internal::ErrorCorrectionLevel*>**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x2A088);
+		}
+
+		static ::ZXing::QrCode::Internal::ErrorCorrectionLevel** StaticGet_L()
+		{
+			return (::ZXing::QrCode::Internal::ErrorCorrectionLevel**)UnitySDK::FromName("ZXing.QrCode.Internal", "ErrorCorrectionLevel")->GetStaticField(0x2A090);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3)

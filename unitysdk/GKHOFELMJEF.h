@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HEOLKMLMPML.h"
+#include "unitysdk/RPG/Client/GridFightRichTextNodeCompiler.h"
 class DNGMCNPJHBJ;
 class FMKEJLGKEMH;
 class GKHOFELMJEF;
 namespace System { class String; }
 
-#define GKHOFELMJEF_ACMPHJJOOHE_OFFSET UNITYSDK_OFFSET(0x15A97F40)
-#define GKHOFELMJEF_CGAIDHIMPEN_OFFSET UNITYSDK_OFFSET(0x15A98210)
-#define GKHOFELMJEF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A97E50)
-#define GKHOFELMJEF_KHPHGIMGEDI_OFFSET UNITYSDK_OFFSET(0x15A97DE0)
-#define GKHOFELMJEF_NDKJPHKDGDP_OFFSET UNITYSDK_OFFSET(0x15A97E60)
-#define GKHOFELMJEF_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x15A97ED0)
+#define GKHOFELMJEF_CGAIDHIMPEN_OFFSET UNITYSDK_OFFSET(0x169D5100)
+#define GKHOFELMJEF_COMPILE_OFFSET UNITYSDK_OFFSET(0x169D4E30)
+#define GKHOFELMJEF_CTOR_OFFSET UNITYSDK_OFFSET(0x169D4D40)
+#define GKHOFELMJEF_GET_TAG_OFFSET UNITYSDK_OFFSET(0x169D4DC0)
+#define GKHOFELMJEF_KHPHGIMGEDI_OFFSET UNITYSDK_OFFSET(0x169D4CD0)
+#define GKHOFELMJEF_NDKJPHKDGDP_OFFSET UNITYSDK_OFFSET(0x169D4D50)
 
-inline static constexpr unsigned int GKHOFELMJEF_TypeDefinitionIndex = 47190;
+inline static constexpr unsigned int GKHOFELMJEF_TypeDefinitionIndex = 48218;
 
-	class GKHOFELMJEF : public ::HEOLKMLMPML
+	class GKHOFELMJEF : public ::RPG::Client::GridFightRichTextNodeCompiler
 	{
 	public:
 		::System::Boolean ONFKPBBCNLA; // 0x10
@@ -34,14 +34,14 @@ inline static constexpr unsigned int GKHOFELMJEF_TypeDefinitionIndex = 47190;
 			return ((::GKHOFELMJEF*(*)())((::PBYTE)hIl2Cpp + GKHOFELMJEF_NDKJPHKDGDP_OFFSET))();
 		}
 
-		::System::String* NDMBDGKAJEK()
+		::System::String* get_Tag()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GKHOFELMJEF_NDMBDGKAJEK_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + GKHOFELMJEF_GET_TAG_OFFSET))(this);
 		}
 
-		::System::String* ACMPHJJOOHE(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
+		::System::String* Compile(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + GKHOFELMJEF_ACMPHJJOOHE_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + GKHOFELMJEF_COMPILE_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* CGAIDHIMPEN()

@@ -4,11 +4,11 @@
 namespace RPG::Client { class IRogueTournDifficultyWithDivision; }
 namespace RPG::Client { class RogueTournDivisionData; }
 
-#define RPG_CLIENT_ROGUETOURNDIVISIONDATAEXT_CORRESPONDINGDIFFICULTY_OFFSET UNITYSDK_OFFSET(0xDFE4F30)
+#define RPG_CLIENT_ROGUETOURNDIVISIONDATAEXT_CORRESPONDINGDIFFICULTY_OFFSET UNITYSDK_OFFSET(0xEA4F280)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournDivisionDataExt_TypeDefinitionIndex = 67596;
+	inline static constexpr unsigned int RogueTournDivisionDataExt_TypeDefinitionIndex = 69540;
 
 	class RogueTournDivisionDataExt : public ::System::Object
 	{

@@ -4,24 +4,23 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UITriggerMonopolyModifier; }
 
-#define PFKCHJHJAJC_CTOR_OFFSET UNITYSDK_OFFSET(0xC214110)
-#define PFKCHJHJAJC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC214940)
-#define PFKCHJHJAJC_KEPACFBINJJ_OFFSET UNITYSDK_OFFSET(0xC214260)
-#define PFKCHJHJAJC_LJJHEAJCLLM_OFFSET UNITYSDK_OFFSET(0xC214340)
-#define PFKCHJHJAJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC214120)
-#define PFKCHJHJAJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2148B0)
-#define PFKCHJHJAJC_TICK_OFFSET UNITYSDK_OFFSET(0xC2147D0)
+#define PFKCHJHJAJC_CTOR_OFFSET UNITYSDK_OFFSET(0xCAF6AB0)
+#define PFKCHJHJAJC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCAF7300)
+#define PFKCHJHJAJC_KEPACFBINJJ_OFFSET UNITYSDK_OFFSET(0xCAF6C10)
+#define PFKCHJHJAJC_LJJHEAJCLLM_OFFSET UNITYSDK_OFFSET(0xCAF6D00)
+#define PFKCHJHJAJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAF6AC0)
+#define PFKCHJHJAJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCAF7270)
+#define PFKCHJHJAJC_TICK_OFFSET UNITYSDK_OFFSET(0xCAF7190)
 
-inline static constexpr unsigned int PFKCHJHJAJC_TypeDefinitionIndex = 58839;
+inline static constexpr unsigned int PFKCHJHJAJC_TypeDefinitionIndex = 60107;
 
 	class PFKCHJHJAJC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::UITriggerMonopolyModifier* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::System::Boolean BNDIHDEOELB; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::Single LLNIGIGFCEA; // 0x2C
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::UITriggerMonopolyModifier* OFKGLJOAMLD; // 0x20
+		::System::Single LLNIGIGFCEA; // 0x28
+		::System::Boolean BNDIHDEOELB; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UITriggerMonopolyModifier* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::UITriggerMonopolyModifier*))((::PBYTE)hIl2Cpp + PFKCHJHJAJC_CTOR_OFFSET))(this, a1, a2);

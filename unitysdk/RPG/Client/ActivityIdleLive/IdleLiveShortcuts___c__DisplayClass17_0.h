@@ -4,12 +4,12 @@
 class FHFCJKKKNLP;
 namespace RPG::Client { class BaseGameFlow; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4F1010)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xC4F1020)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE7EE0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVESHORTCUTS___C__DISPLAYCLASS17_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xCDE8090)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass17_0_TypeDefinitionIndex = 75319;
+	inline static constexpr unsigned int IdleLiveShortcuts___c__DisplayClass17_0_TypeDefinitionIndex = 77646;
 
 	class IdleLiveShortcuts___c__DisplayClass17_0 : public ::System::Object
 	{

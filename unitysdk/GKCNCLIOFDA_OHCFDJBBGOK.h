@@ -5,17 +5,17 @@
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class Object; }
 
-#define GKCNCLIOFDA_OHCFDJBBGOK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8E850)
-#define GKCNCLIOFDA_OHCFDJBBGOK_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x15A91750)
-#define GKCNCLIOFDA_OHCFDJBBGOK_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x15A91770)
+#define GKCNCLIOFDA_OHCFDJBBGOK_CTOR_OFFSET UNITYSDK_OFFSET(0x169CB6B0)
+#define GKCNCLIOFDA_OHCFDJBBGOK_GET_MEMBER_OFFSET UNITYSDK_OFFSET(0x169CE4F0)
+#define GKCNCLIOFDA_OHCFDJBBGOK_GET_OPTIONS_OFFSET UNITYSDK_OFFSET(0x169CE510)
 
-inline static constexpr unsigned int GKCNCLIOFDA_OHCFDJBBGOK_TypeDefinitionIndex = 53525;
+inline static constexpr unsigned int GKCNCLIOFDA_OHCFDJBBGOK_TypeDefinitionIndex = 54688;
 
 	class GKCNCLIOFDA_OHCFDJBBGOK : public ::System::Object
 	{
 	public:
-		::RPG::PoolList_1<::System::Object*>* _Options_k__BackingField; // 0x10
-		::OOIFBABMIGP _Member_k__BackingField; // 0x18
+		::OOIFBABMIGP _Member_k__BackingField; // 0x10
+		::RPG::PoolList_1<::System::Object*>* _Options_k__BackingField; // 0x28
 		::System::Void _ctor(::OOIFBABMIGP a1, ::RPG::PoolList_1<::System::Object*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::OOIFBABMIGP, ::RPG::PoolList_1<::System::Object*>*))((::PBYTE)hIl2Cpp + GKCNCLIOFDA_OHCFDJBBGOK_CTOR_OFFSET))(this, a1, a2);

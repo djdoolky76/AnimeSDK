@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopAim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BDCIBMNGCOD_CTOR_OFFSET UNITYSDK_OFFSET(0x162ECAF0)
-#define BDCIBMNGCOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162ECB20)
+#define BDCIBMNGCOD_CTOR_OFFSET UNITYSDK_OFFSET(0x170B3BF0)
+#define BDCIBMNGCOD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x170B3C20)
 
-inline static constexpr unsigned int BDCIBMNGCOD_TypeDefinitionIndex = 55899;
+inline static constexpr unsigned int BDCIBMNGCOD_TypeDefinitionIndex = 57102;
 
 	class BDCIBMNGCOD
 	{

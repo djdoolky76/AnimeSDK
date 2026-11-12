@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/SkillType.h"
 
-inline static constexpr unsigned int AOLOCGDIAIO_FJHCCGEHPPD_TypeDefinitionIndex = 55627;
+inline static constexpr unsigned int AOLOCGDIAIO_FJHCCGEHPPD_TypeDefinitionIndex = 56825;
 
 	struct alignas(4) AOLOCGDIAIO_FJHCCGEHPPD
 	{

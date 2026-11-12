@@ -11,43 +11,43 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_TAROTBOOKMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1BDE50)
-#define RPG_CLIENT_TAROTBOOKMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1BDE80)
-#define RPG_CLIENT_TAROTBOOKMODULE___C__CHECKCANTAKEREADREWARD_B__92_0_OFFSET UNITYSDK_OFFSET(0xE1BDF70)
-#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_HASNEWSTORY_B__26_0_OFFSET UNITYSDK_OFFSET(0xE1BDE90)
-#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_UNLOCKEDCHARACTERCOUNT_B__56_0_OFFSET UNITYSDK_OFFSET(0xE1BDF10)
-#define RPG_CLIENT_TAROTBOOKMODULE___C___INITINTERACTIONS_B__168_0_OFFSET UNITYSDK_OFFSET(0xE1BE030)
+#define RPG_CLIENT_TAROTBOOKMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEC6B320)
+#define RPG_CLIENT_TAROTBOOKMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEC6B350)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__CHECKCANTAKEREADREWARD_B__92_0_OFFSET UNITYSDK_OFFSET(0xEC6B440)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_HASNEWSTORY_B__26_0_OFFSET UNITYSDK_OFFSET(0xEC6B360)
+#define RPG_CLIENT_TAROTBOOKMODULE___C__GET_UNLOCKEDCHARACTERCOUNT_B__56_0_OFFSET UNITYSDK_OFFSET(0xEC6B3E0)
+#define RPG_CLIENT_TAROTBOOKMODULE___C___INITINTERACTIONS_B__168_0_OFFSET UNITYSDK_OFFSET(0xEC6B500)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookModule___c_TypeDefinitionIndex = 68068;
+	inline static constexpr unsigned int TarotBookModule___c_TypeDefinitionIndex = 70014;
 
 	class TarotBookModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::Client::TarotBookReadReward*>** StaticGet___9__92_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::TarotBookReadReward*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE410);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>, ::System::Boolean>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE418);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE420);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::TarotBookInteraction*>** StaticGet___9__168_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::TarotBookInteraction*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE428);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::TarotBookStory*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1A200);
 		}
 
 		static ::System::Func_2<::RPG::Client::TarotBookCharacter*, ::System::Boolean>** StaticGet___9__56_0()
 		{
-			return (::System::Func_2<::RPG::Client::TarotBookCharacter*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE430);
+			return (::System::Func_2<::RPG::Client::TarotBookCharacter*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1A208);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1A210);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::TarotBookInteraction*>** StaticGet___9__168_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::TarotBookInteraction*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1A218);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::TarotBookReadReward*>** StaticGet___9__92_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::TarotBookReadReward*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1A220);
 		}
 
 		static ::System::Void _cctor()

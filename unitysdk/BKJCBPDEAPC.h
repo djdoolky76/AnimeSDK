@@ -4,17 +4,17 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraBattleShowNPCTalkBubble; }
 
-#define BKJCBPDEAPC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA59500)
-#define BKJCBPDEAPC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBA59680)
-#define BKJCBPDEAPC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBA59540)
+#define BKJCBPDEAPC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1219A0)
+#define BKJCBPDEAPC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xC121B20)
+#define BKJCBPDEAPC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC1219E0)
 
-inline static constexpr unsigned int BKJCBPDEAPC_TypeDefinitionIndex = 78409;
+inline static constexpr unsigned int BKJCBPDEAPC_TypeDefinitionIndex = 81144;
 
 	class BKJCBPDEAPC : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* IGHAHBNLIJA; // 0x10
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+		::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* IGHAHBNLIJA; // 0x18
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattleShowNPCTalkBubble* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleShowNPCTalkBubble*))((::PBYTE)hIl2Cpp + BKJCBPDEAPC_CTOR_OFFSET))(this, a1);

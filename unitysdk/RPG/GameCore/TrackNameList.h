@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrackNameList; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRACKNAMELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC29B00)
-#define RPG_GAMECORE_TRACKNAMELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC29A40)
+#define RPG_GAMECORE_TRACKNAMELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3D860)
+#define RPG_GAMECORE_TRACKNAMELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE3D7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrackNameList_TypeDefinitionIndex = 17095;
+	inline static constexpr unsigned int TrackNameList_TypeDefinitionIndex = 17262;
 
 	class TrackNameList : public ::RPG::GameCore::JsonConfig
 	{

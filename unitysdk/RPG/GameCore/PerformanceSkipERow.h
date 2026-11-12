@@ -6,24 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceSkipERow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D904310)
-#define RPG_GAMECORE_PERFORMANCESKIPEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D903F50)
-#define RPG_GAMECORE_PERFORMANCESKIPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D904120)
-#define RPG_GAMECORE_PERFORMANCESKIPEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D903ED0)
-#define RPG_GAMECORE_PERFORMANCESKIPEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D903F30)
+#define RPG_GAMECORE_PERFORMANCESKIPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB1D740)
+#define RPG_GAMECORE_PERFORMANCESKIPEROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1EB1D360)
+#define RPG_GAMECORE_PERFORMANCESKIPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB1D530)
+#define RPG_GAMECORE_PERFORMANCESKIPEROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EB1D2E0)
+#define RPG_GAMECORE_PERFORMANCESKIPEROW_RESET_OFFSET UNITYSDK_OFFSET(0x1EB1D340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipERow_TypeDefinitionIndex = 14377;
+	inline static constexpr unsigned int PerformanceSkipERow_TypeDefinitionIndex = 14534;
 
 	class PerformanceSkipERow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::String*>* ActorList; // 0x10
-		::System::Boolean Skippable; // 0x18
-		::System::Boolean ContainImportBranch; // 0x19
-		::System::Byte _padding0[0x2];
-		::System::UInt32 PerformanceID; // 0x1C
+		::System::UInt32 PerformanceID; // 0x18
+		::System::Boolean Skippable; // 0x1C
+		::System::Boolean ContainImportBranch; // 0x1D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PERFORMANCESKIPEROW_CTOR_OFFSET))(this);

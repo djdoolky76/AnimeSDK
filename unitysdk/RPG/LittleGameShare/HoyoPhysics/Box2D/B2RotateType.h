@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2RotateType_TypeDefinitionIndex = 36743;
+	inline static constexpr unsigned int B2RotateType_TypeDefinitionIndex = 37671;
 
 	enum class B2RotateType : ::System::Int32
 	{

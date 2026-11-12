@@ -6,29 +6,29 @@ class BNNGDLLACML;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ELIONMBBJGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15524DD0)
-#define ELIONMBBJGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15524E10)
-#define ELIONMBBJGD___C__GETFIGHTSORDERED_B__4_0_OFFSET UNITYSDK_OFFSET(0x15524E20)
-#define ELIONMBBJGD___C__GETFIGHTSORDERED_B__4_1_OFFSET UNITYSDK_OFFSET(0x15524E30)
+#define ELIONMBBJGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1646D150)
+#define ELIONMBBJGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1646D190)
+#define ELIONMBBJGD___C__GETFIGHTSORDERED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1646D1A0)
+#define ELIONMBBJGD___C__GETFIGHTSORDERED_B__4_1_OFFSET UNITYSDK_OFFSET(0x1646D1B0)
 
-inline static constexpr unsigned int ELIONMBBJGD___c_TypeDefinitionIndex = 81023;
+inline static constexpr unsigned int ELIONMBBJGD___c_TypeDefinitionIndex = 83803;
 
 	class ELIONMBBJGD___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48E50);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>, ::BNNGDLLACML*>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>, ::BNNGDLLACML*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48E58);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>, ::BNNGDLLACML*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27210);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27218);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>, ::System::UInt32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48E60);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BNNGDLLACML*>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27220);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MazeChallengeSystem; }
 
-#define RPG_CLIENT_MAZECHALLENGESYSTEM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E31B0)
-#define RPG_CLIENT_MAZECHALLENGESYSTEM___C__DISPLAYCLASS3_0__CREATEMAZECHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0xD5E5410)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE035CE0)
+#define RPG_CLIENT_MAZECHALLENGESYSTEM___C__DISPLAYCLASS3_0__CREATEMAZECHALLENGE_B__0_OFFSET UNITYSDK_OFFSET(0xE0382F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MazeChallengeSystem___c__DisplayClass3_0_TypeDefinitionIndex = 60908;
+	inline static constexpr unsigned int MazeChallengeSystem___c__DisplayClass3_0_TypeDefinitionIndex = 62284;
 
 	class MazeChallengeSystem___c__DisplayClass3_0 : public ::System::Object
 	{

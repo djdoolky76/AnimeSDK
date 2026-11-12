@@ -5,11 +5,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class CRPSSGIQualitySettings; }
 
-#define RPG_CLIENT_CRPLIGHTSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CDB90)
+#define RPG_CLIENT_CRPLIGHTSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xD232E60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPLightSettings_TypeDefinitionIndex = 67928;
+	inline static constexpr unsigned int CRPLightSettings_TypeDefinitionIndex = 69874;
 
 	class CRPLightSettings : public ::System::Object
 	{

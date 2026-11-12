@@ -5,14 +5,14 @@ namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
 namespace RPG
 {
-	inline static constexpr unsigned int UnityTimeTool___O_TypeDefinitionIndex = 35178;
+	inline static constexpr unsigned int UnityTimeTool___O_TypeDefinitionIndex = 36106;
 
 	class UnityTimeTool___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction** StaticGet__0___CheckTime()
 		{
-			return (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction**)UnitySDK::FromName("RPG", "<>O")->GetStaticField(0x46B00);
+			return (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction**)UnitySDK::FromName("RPG", "<>O")->GetStaticField(0x570F0);
 		}
 
 	};

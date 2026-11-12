@@ -4,18 +4,18 @@
 class HIEMNHKDOJE;
 namespace System { class Object; }
 
-#define HIEMNHKDOJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E593E60)
-#define HIEMNHKDOJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E593EA0)
-#define HIEMNHKDOJE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E593EB0)
+#define HIEMNHKDOJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F88EB50)
+#define HIEMNHKDOJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F88EB90)
+#define HIEMNHKDOJE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F88EBA0)
 
-inline static constexpr unsigned int HIEMNHKDOJE___c_TypeDefinitionIndex = 31381;
+inline static constexpr unsigned int HIEMNHKDOJE___c_TypeDefinitionIndex = 32294;
 
 	class HIEMNHKDOJE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CAD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x310F0);
 		}
 
 		static ::System::Void _cctor()

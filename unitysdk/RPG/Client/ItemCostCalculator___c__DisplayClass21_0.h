@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD385080)
-#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0___GETTARGETNEEDCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xD385FD0)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDB9360)
+#define RPG_CLIENT_ITEMCOSTCALCULATOR___C__DISPLAYCLASS21_0___GETTARGETNEEDCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xDDBA2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 65699;
+	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 67625;
 
 	class ItemCostCalculator___c__DisplayClass21_0 : public ::System::Object
 	{

@@ -4,11 +4,11 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class PropSetupTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFPACJHAJFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8DB60)
-#define HFPACJHAJFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C8DB90)
-#define HFPACJHAJFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C8DC20)
+#define HFPACJHAJFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16BD5870)
+#define HFPACJHAJFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16BD58A0)
+#define HFPACJHAJFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BD5930)
 
-inline static constexpr unsigned int HFPACJHAJFJ_TypeDefinitionIndex = 58354;
+inline static constexpr unsigned int HFPACJHAJFJ_TypeDefinitionIndex = 59610;
 
 	class HFPACJHAJFJ
 	{

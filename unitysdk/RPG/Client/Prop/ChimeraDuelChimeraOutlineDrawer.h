@@ -8,28 +8,28 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC5CA70)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC5C9B0)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_DBFIEIPFDPH_OFFSET UNITYSDK_OFFSET(0xDC59230)
-#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_LJINMLEMHIP_OFFSET UNITYSDK_OFFSET(0xDC58AF0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE6F9B20)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F9A60)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_DBFIEIPFDPH_OFFSET UNITYSDK_OFFSET(0xE6F60B0)
+#define RPG_CLIENT_PROP_CHIMERADUELCHIMERAOUTLINEDRAWER_LJINMLEMHIP_OFFSET UNITYSDK_OFFSET(0xE6F5970)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex = 78329;
+	inline static constexpr unsigned int ChimeraDuelChimeraOutlineDrawer_TypeDefinitionIndex = 81064;
 
 	class ChimeraDuelChimeraOutlineDrawer : public ::UnityEngine::MonoBehaviour
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Material*, ::System::Object*>* NLINFMLODMN; // 0x18
 		::RPG::Client::Prop::ChimeraDuelChimeraOutlineDrawer_OutlineConfig* _HighlightOutlineConfig; // 0x20
-		static ::System::Int32* StaticGet_HBEFIMAAJHD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0x11800);
-		}
-
 		static ::System::Int32* StaticGet_AHDCEJGBNNO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0x11804);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0x101D0);
+		}
+
+		static ::System::Int32* StaticGet_HBEFIMAAJHD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraDuelChimeraOutlineDrawer")->GetStaticField(0x101D4);
 		}
 
 		::System::Void _ctor()

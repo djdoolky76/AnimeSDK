@@ -5,10 +5,10 @@ namespace System { class String; }
 namespace UnityEngine::GCFreeClosure { class ClosureDebug; }
 namespace UnityEngine::GCFreeClosure { class IDebug; }
 
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x1F3EBD70)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3EBED0)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EBEC0)
-#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1F3EBD40)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_ASSERT_OFFSET UNITYSDK_OFFSET(0x2069C8E0)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_CCTOR_OFFSET UNITYSDK_OFFSET(0x2069CA40)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_CTOR_OFFSET UNITYSDK_OFFSET(0x2069CA30)
+#define UNITYENGINE_GCFREECLOSURE_CLOSUREDEBUG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x2069C8B0)
 
 namespace UnityEngine::GCFreeClosure
 {
@@ -20,7 +20,7 @@ namespace UnityEngine::GCFreeClosure
 		::UnityEngine::GCFreeClosure::IDebug* _debug; // 0x10
 		static ::UnityEngine::GCFreeClosure::ClosureDebug** StaticGet__Default_k__BackingField()
 		{
-			return (::UnityEngine::GCFreeClosure::ClosureDebug**)UnitySDK::FromName("UnityEngine.GCFreeClosure", "ClosureDebug")->GetStaticField(0x10CE0);
+			return (::UnityEngine::GCFreeClosure::ClosureDebug**)UnitySDK::FromName("UnityEngine.GCFreeClosure", "ClosureDebug")->GetStaticField(0xC9C0);
 		}
 
 		::System::Void _ctor()

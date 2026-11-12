@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ShowSkillCutIn; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWSKILLCUTIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE4A70)
-#define RPG_GAMECORE_SHOWSKILLCUTIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE4A80)
-#define RPG_GAMECORE_SHOWSKILLCUTIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE4A40)
+#define RPG_GAMECORE_SHOWSKILLCUTIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF6940)
+#define RPG_GAMECORE_SHOWSKILLCUTIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECF6950)
+#define RPG_GAMECORE_SHOWSKILLCUTIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECF6910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowSkillCutIn_TypeDefinitionIndex = 22951;
+	inline static constexpr unsigned int ShowSkillCutIn_TypeDefinitionIndex = 23379;
 
 	class ShowSkillCutIn : public ::RPG::GameCore::TaskConfig
 	{

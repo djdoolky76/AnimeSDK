@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NAOCMAOJECF_TypeDefinitionIndex = 29822;
+inline static constexpr unsigned int NAOCMAOJECF_TypeDefinitionIndex = 30720;
 
 	enum class NAOCMAOJECF : ::System::Int32
 	{

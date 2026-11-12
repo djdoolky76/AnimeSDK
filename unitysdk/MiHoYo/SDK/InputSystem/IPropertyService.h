@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::InputSystem
 {
-	inline static constexpr unsigned int IPropertyService_TypeDefinitionIndex = 10110;
+	inline static constexpr unsigned int IPropertyService_TypeDefinitionIndex = 10118;
 
 	class IPropertyService
 	{

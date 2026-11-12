@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimDestructiblePropConfig; }
 
-#define NHJHGJEIFOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9660A0)
+#define NHJHGJEIFOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27EA0)
 
-inline static constexpr unsigned int NHJHGJEIFOE_TypeDefinitionIndex = 43453;
+inline static constexpr unsigned int NHJHGJEIFOE_TypeDefinitionIndex = 44435;
 
 	class NHJHGJEIFOE : public ::System::Object
 	{

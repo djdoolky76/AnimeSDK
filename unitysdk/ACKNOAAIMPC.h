@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ACKNOAAIMPC_TypeDefinitionIndex = 27694;
+inline static constexpr unsigned int ACKNOAAIMPC_TypeDefinitionIndex = 28225;
 
 	enum class ACKNOAAIMPC : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class MEJFIDEOLBN;
 namespace System { class Object; }
 
-#define MEJFIDEOLBN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA0DDD0)
-#define MEJFIDEOLBN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0DE00)
-#define MEJFIDEOLBN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA0DE10)
+#define MEJFIDEOLBN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD58500)
+#define MEJFIDEOLBN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD58530)
+#define MEJFIDEOLBN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD58540)
 
-inline static constexpr unsigned int MEJFIDEOLBN___c_TypeDefinitionIndex = 34538;
+inline static constexpr unsigned int MEJFIDEOLBN___c_TypeDefinitionIndex = 35466;
 
 	class MEJFIDEOLBN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AE50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51AB0);
 		}
 
 		static ::System::Void _cctor()

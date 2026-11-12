@@ -4,17 +4,17 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CAEPBGAOBOP_CTOR_OFFSET UNITYSDK_OFFSET(0xC47B800)
-#define CAEPBGAOBOP_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xC47B460)
+#define CAEPBGAOBOP_CTOR_OFFSET UNITYSDK_OFFSET(0xCB67120)
+#define CAEPBGAOBOP_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xCB66D70)
 
-inline static constexpr unsigned int CAEPBGAOBOP_TypeDefinitionIndex = 67910;
+inline static constexpr unsigned int CAEPBGAOBOP_TypeDefinitionIndex = 69855;
 
 	class CAEPBGAOBOP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_FPNHGIOHNPA()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)UnitySDK::FromName("", "CAEPBGAOBOP")->GetStaticField(0xFA00);
+			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)UnitySDK::FromName("", "CAEPBGAOBOP")->GetStaticField(0x733D0);
 		}
 
 		::System::Void _ctor()

@@ -5,11 +5,11 @@
 #include "unitysdk/Cysharp/Threading/Tasks/SwitchToMainThreadAwaitable_Awaiter.h"
 
 #define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
-#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x3C5E890)
+#define CYSHARP_THREADING_TASKS_SWITCHTOMAINTHREADAWAITABLE_GETAWAITER_OFFSET UNITYSDK_OFFSET(0x3EADC10)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SwitchToMainThreadAwaitable_TypeDefinitionIndex = 38363;
+	inline static constexpr unsigned int SwitchToMainThreadAwaitable_TypeDefinitionIndex = 39292;
 
 	struct alignas(4) SwitchToMainThreadAwaitable
 	{

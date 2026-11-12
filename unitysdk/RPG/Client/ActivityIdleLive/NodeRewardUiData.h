@@ -4,19 +4,18 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEREWARDUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC510040)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_NODEREWARDUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCE4DA40)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int NodeRewardUiData_TypeDefinitionIndex = 75430;
+	inline static constexpr unsigned int NodeRewardUiData_TypeDefinitionIndex = 77757;
 
 	class NodeRewardUiData : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 Num; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID RewardHintText; // 0x20
+		::RPG::Client::TextID RewardHintText; // 0x18
+		::System::UInt32 Num; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_NODEREWARDUIDATA_CTOR_OFFSET))(this);

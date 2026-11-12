@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class QuestProgressChangeListener; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_QUESTPROGRESSCHANGELISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D960EA0)
-#define RPG_GAMECORE_QUESTPROGRESSCHANGELISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D960EB0)
-#define RPG_GAMECORE_QUESTPROGRESSCHANGELISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D960E70)
+#define RPG_GAMECORE_QUESTPROGRESSCHANGELISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB79240)
+#define RPG_GAMECORE_QUESTPROGRESSCHANGELISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB79250)
+#define RPG_GAMECORE_QUESTPROGRESSCHANGELISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB79210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QuestProgressChangeListener_TypeDefinitionIndex = 21213;
+	inline static constexpr unsigned int QuestProgressChangeListener_TypeDefinitionIndex = 21556;
 
 	class QuestProgressChangeListener : public ::RPG::GameCore::TaskConfig
 	{

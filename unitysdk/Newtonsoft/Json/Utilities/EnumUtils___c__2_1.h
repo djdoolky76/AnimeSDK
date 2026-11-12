@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int EnumUtils___c__2_1_TypeDefinitionIndex = 9670;
+	inline static constexpr unsigned int EnumUtils___c__2_1_TypeDefinitionIndex = 9678;
 
 	template <typename T>
 	class EnumUtils___c__2_1 : public ::System::Object

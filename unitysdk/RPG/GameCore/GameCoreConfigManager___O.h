@@ -6,19 +6,19 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConfigManager___O_TypeDefinitionIndex = 56507;
+	inline static constexpr unsigned int GameCoreConfigManager___O_TypeDefinitionIndex = 57727;
 
 	class GameCoreConfigManager___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__1____OnConfigsLoadFinished()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5F6D0);
+			return (::System::Action**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x6D070);
 		}
 
 		static ::System::Action_1<::System::Single>** StaticGet__0____OnConfigLoadingProgressChanged()
 		{
-			return (::System::Action_1<::System::Single>**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x5F6D8);
+			return (::System::Action_1<::System::Single>**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x6D078);
 		}
 
 	};

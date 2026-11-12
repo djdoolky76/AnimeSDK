@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetMonsterPhase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGGFAILKOAH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C9A110)
-#define HGGFAILKOAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C9A140)
+#define HGGFAILKOAH_CTOR_OFFSET UNITYSDK_OFFSET(0x16BE4230)
+#define HGGFAILKOAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BE4260)
 
-inline static constexpr unsigned int HGGFAILKOAH_TypeDefinitionIndex = 55550;
+inline static constexpr unsigned int HGGFAILKOAH_TypeDefinitionIndex = 56742;
 
 	class HGGFAILKOAH
 	{

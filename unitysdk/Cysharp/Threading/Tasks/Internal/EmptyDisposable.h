@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace Cysharp::Threading::Tasks::Internal { class EmptyDisposable; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_EMPTYDISPOSABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11D220)
-#define CYSHARP_THREADING_TASKS_INTERNAL_EMPTYDISPOSABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F11D200)
-#define CYSHARP_THREADING_TASKS_INTERNAL_EMPTYDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F11D210)
+#define CYSHARP_THREADING_TASKS_INTERNAL_EMPTYDISPOSABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x203CE2D0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_EMPTYDISPOSABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x203CE2B0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_EMPTYDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x203CE2C0)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int EmptyDisposable_TypeDefinitionIndex = 38693;
+	inline static constexpr unsigned int EmptyDisposable_TypeDefinitionIndex = 39622;
 
 	class EmptyDisposable : public ::System::Object
 	{
 	public:
 		static ::Cysharp::Threading::Tasks::Internal::EmptyDisposable** StaticGet_Instance()
 		{
-			return (::Cysharp::Threading::Tasks::Internal::EmptyDisposable**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "EmptyDisposable")->GetStaticField(0x3F620);
+			return (::Cysharp::Threading::Tasks::Internal::EmptyDisposable**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "EmptyDisposable")->GetStaticField(0x36E00);
 		}
 
 		::System::Void _ctor()

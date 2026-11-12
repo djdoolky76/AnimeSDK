@@ -5,16 +5,16 @@ class ABMFJGJPDNI;
 namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG::Client::Pet { class IPet; }
 
-#define ABMFJGJPDNI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1099D0)
-#define ABMFJGJPDNI___C__DISPLAYCLASS4_0___REFRESHPETPRELOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB109D10)
+#define ABMFJGJPDNI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB76C2E0)
+#define ABMFJGJPDNI___C__DISPLAYCLASS4_0___REFRESHPETPRELOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB76C620)
 
-inline static constexpr unsigned int ABMFJGJPDNI___c__DisplayClass4_0_TypeDefinitionIndex = 59719;
+inline static constexpr unsigned int ABMFJGJPDNI___c__DisplayClass4_0_TypeDefinitionIndex = 60998;
 
 	class ABMFJGJPDNI___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::ABMFJGJPDNI* __4__this; // 0x10
-		::RPG::PoolHashSet_1<::System::UInt32>* toAdd; // 0x18
+		::RPG::PoolHashSet_1<::System::UInt32>* toAdd; // 0x10
+		::ABMFJGJPDNI* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABMFJGJPDNI___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

@@ -5,22 +5,22 @@ class GHHJNCOAIJF;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IHGIENOHBMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1641E5D0)
-#define IHGIENOHBMJ_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1641E610)
-#define IHGIENOHBMJ_GET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x1641E5F0)
-#define IHGIENOHBMJ_GET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x1641E630)
-#define IHGIENOHBMJ_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x1641E5E0)
-#define IHGIENOHBMJ_SET_HEADERS_OFFSET UNITYSDK_OFFSET(0x1641E620)
-#define IHGIENOHBMJ_SET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x1641E600)
-#define IHGIENOHBMJ_SET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x1641E640)
+#define IHGIENOHBMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x173D2660)
+#define IHGIENOHBMJ_GET_HEADERS_OFFSET UNITYSDK_OFFSET(0x173D26A0)
+#define IHGIENOHBMJ_GET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x173D2680)
+#define IHGIENOHBMJ_GET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x173D26C0)
+#define IHGIENOHBMJ_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x173D2670)
+#define IHGIENOHBMJ_SET_HEADERS_OFFSET UNITYSDK_OFFSET(0x173D26B0)
+#define IHGIENOHBMJ_SET_HTTPSTATUS_OFFSET UNITYSDK_OFFSET(0x173D2690)
+#define IHGIENOHBMJ_SET_RAWBODY_OFFSET UNITYSDK_OFFSET(0x173D26D0)
 
-inline static constexpr unsigned int IHGIENOHBMJ_TypeDefinitionIndex = 69357;
+inline static constexpr unsigned int IHGIENOHBMJ_TypeDefinitionIndex = 71311;
 
 	class IHGIENOHBMJ : public ::System::Object
 	{
 	public:
-		::GHHJNCOAIJF* _Request_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _Headers_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* _Headers_k__BackingField; // 0x10
+		::GHHJNCOAIJF* _Request_k__BackingField; // 0x18
 		::Il2CppArray<::System::Byte>* _RawBody_k__BackingField; // 0x20
 		::System::Int64 _HttpStatus_k__BackingField; // 0x28
 		::System::Void _ctor(::GHHJNCOAIJF* a1)

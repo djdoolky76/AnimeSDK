@@ -7,18 +7,19 @@ namespace RPGTools::Timeline { class CharacterFullBodyClip; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define FKANLHLBPLJ_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x157E51A0)
-#define FKANLHLBPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157E5C70)
-#define FKANLHLBPLJ_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0x157E58A0)
-#define FKANLHLBPLJ_PMEJBHFCCJO_OFFSET UNITYSDK_OFFSET(0x157E5A50)
+#define FKANLHLBPLJ_AGEDNFOKALF_OFFSET UNITYSDK_OFFSET(0x16751410)
+#define FKANLHLBPLJ_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0x16750CB0)
+#define FKANLHLBPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16751880)
+#define FKANLHLBPLJ_OBCKIOEGOGL_OFFSET UNITYSDK_OFFSET(0x167514B0)
+#define FKANLHLBPLJ_PMEJBHFCCJO_OFFSET UNITYSDK_OFFSET(0x16751660)
 
-inline static constexpr unsigned int FKANLHLBPLJ_TypeDefinitionIndex = 47959;
+inline static constexpr unsigned int FKANLHLBPLJ_TypeDefinitionIndex = 48990;
 
 	class FKANLHLBPLJ : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:
-		::Il2CppArray<::RPGTools::Timeline::CharacterFullBodyChainData*>* MMAEKLBBLOD; // 0x20
-		::BMDLLJPCEDN* EABKOHGCHFP; // 0x28
+		::BMDLLJPCEDN* EABKOHGCHFP; // 0x20
+		::Il2CppArray<::RPGTools::Timeline::CharacterFullBodyChainData*>* MMAEKLBBLOD; // 0x28
 		::RPGTools::Timeline::CharacterFullBodyClip* PJCDEGEDNFA; // 0x30
 		::System::Void _ctor()
 		{
@@ -33,6 +34,11 @@ inline static constexpr unsigned int FKANLHLBPLJ_TypeDefinitionIndex = 47959;
 		::UnityEngine::Transform* PMEJBHFCCJO(::UnityEngine::GameObject* a1, ::RPGTools::Timeline::CharacterFullBodyChainData* a2)
 		{
 			return ((::UnityEngine::Transform*(*)(::PVOID, ::UnityEngine::GameObject*, ::RPGTools::Timeline::CharacterFullBodyChainData*))((::PBYTE)hIl2Cpp + FKANLHLBPLJ_PMEJBHFCCJO_OFFSET))(this, a1, a2);
+		}
+
+		::UnityEngine::GameObject* AGEDNFOKALF(::UnityEngine::GameObject* a1, ::RPGTools::Timeline::CharacterFullBodyChainData* a2)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*, ::RPGTools::Timeline::CharacterFullBodyChainData*))((::PBYTE)hIl2Cpp + FKANLHLBPLJ_AGEDNFOKALF_OFFSET))(this, a1, a2);
 		}
 
 		::UnityEngine::Transform* OBCKIOEGOGL(::UnityEngine::GameObject* a1, ::RPGTools::Timeline::CharacterFullBodyChainData* a2)

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EditorLevelGraphDesc; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EDITORLEVELGRAPHDESC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D62E430)
-#define RPG_GAMECORE_EDITORLEVELGRAPHDESC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D62E300)
+#define RPG_GAMECORE_EDITORLEVELGRAPHDESC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86C140)
+#define RPG_GAMECORE_EDITORLEVELGRAPHDESC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86C010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EditorLevelGraphDesc_TypeDefinitionIndex = 17561;
+	inline static constexpr unsigned int EditorLevelGraphDesc_TypeDefinitionIndex = 17729;
 
 	class EditorLevelGraphDesc : public ::RPG::GameCore::JsonConfig
 	{

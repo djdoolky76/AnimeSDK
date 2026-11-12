@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasAssistAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHPMNOGAFDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1642E460)
-#define IHPMNOGAFDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1642E490)
+#define IHPMNOGAFDL_CTOR_OFFSET UNITYSDK_OFFSET(0x173E5FD0)
+#define IHPMNOGAFDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x173E6000)
 
-inline static constexpr unsigned int IHPMNOGAFDL_TypeDefinitionIndex = 54610;
+inline static constexpr unsigned int IHPMNOGAFDL_TypeDefinitionIndex = 55776;
 
 	class IHPMNOGAFDL
 	{

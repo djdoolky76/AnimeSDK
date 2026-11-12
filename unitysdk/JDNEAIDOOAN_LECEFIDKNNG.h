@@ -7,17 +7,17 @@ class GHMBKJFBPII;
 class KJLLEKDIBHE;
 namespace System { class String; }
 
-#define JDNEAIDOOAN_LECEFIDKNNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1660B570)
+#define JDNEAIDOOAN_LECEFIDKNNG_CTOR_OFFSET UNITYSDK_OFFSET(0xB953C40)
 
-inline static constexpr unsigned int JDNEAIDOOAN_LECEFIDKNNG_TypeDefinitionIndex = 48946;
+inline static constexpr unsigned int JDNEAIDOOAN_LECEFIDKNNG_TypeDefinitionIndex = 50005;
 
 	class JDNEAIDOOAN_LECEFIDKNNG : public ::System::Object
 	{
 	public:
-		::GHMBKJFBPII* BAPIOIOIDIP; // 0x10
-		::CBAJOJJBMMA* JHNNPEOCOHK; // 0x18
-		::KJLLEKDIBHE* MBAHIICKFCB; // 0x20
-		::System::String* MBCACNKDMFG; // 0x28
+		::CBAJOJJBMMA* JHNNPEOCOHK; // 0x10
+		::System::String* MBCACNKDMFG; // 0x18
+		::GHMBKJFBPII* BAPIOIOIDIP; // 0x20
+		::KJLLEKDIBHE* MBAHIICKFCB; // 0x28
 		::System::Boolean BIPAOOKIONG; // 0x30
 		::System::Boolean MHPNBPODMPD; // 0x31
 		::System::Byte _padding0[0x2];

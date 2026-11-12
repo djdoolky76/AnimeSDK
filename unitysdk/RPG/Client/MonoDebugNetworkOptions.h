@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONODEBUGNETWORKOPTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0xD74AA70)
+#define RPG_CLIENT_MONODEBUGNETWORKOPTIONS_CTOR_OFFSET UNITYSDK_OFFSET(0xE1DDCC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDebugNetworkOptions_TypeDefinitionIndex = 72760;
+	inline static constexpr unsigned int MonoDebugNetworkOptions_TypeDefinitionIndex = 74839;
 
 	class MonoDebugNetworkOptions : public ::UnityEngine::MonoBehaviour
 	{

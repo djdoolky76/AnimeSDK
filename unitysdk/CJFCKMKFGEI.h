@@ -2,22 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class BCAJNMLLIED;
+class DOLMCHMNEIL;
 class IMIOIKDAJOK;
 class JINIOBBNJPF;
 class JNGJOABNBIM;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CJFCKMKFGEI_ALJIOCDBMKO_1_OFFSET UNITYSDK_OFFSET(0xD202CA0)
-#define CJFCKMKFGEI_ALJIOCDBMKO_2_OFFSET UNITYSDK_OFFSET(0xD202D50)
-#define CJFCKMKFGEI_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xD202B80)
-#define CJFCKMKFGEI_CHECKCANTAKE_OFFSET UNITYSDK_OFFSET(0xD202E00)
-#define CJFCKMKFGEI_CHECKHASTAKEN_OFFSET UNITYSDK_OFFSET(0xD202ED0)
-#define CJFCKMKFGEI_CTOR_OFFSET UNITYSDK_OFFSET(0xD203070)
-#define CJFCKMKFGEI_FPPEBKCCBIO_OFFSET UNITYSDK_OFFSET(0xD2028F0)
-#define CJFCKMKFGEI_GETCURRENTQUANTITY_OFFSET UNITYSDK_OFFSET(0xD202FB0)
-#define CJFCKMKFGEI_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xD2029B0)
+#define CJFCKMKFGEI_ALJIOCDBMKO_1_OFFSET UNITYSDK_OFFSET(0xDB783B0)
+#define CJFCKMKFGEI_ALJIOCDBMKO_2_OFFSET UNITYSDK_OFFSET(0xDB78460)
+#define CJFCKMKFGEI_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xDB78290)
+#define CJFCKMKFGEI_CHECKCANTAKE_OFFSET UNITYSDK_OFFSET(0xDB78510)
+#define CJFCKMKFGEI_CHECKHASTAKEN_OFFSET UNITYSDK_OFFSET(0xDB785E0)
+#define CJFCKMKFGEI_CTOR_OFFSET UNITYSDK_OFFSET(0xDB78C60)
+#define CJFCKMKFGEI_FPPEBKCCBIO_OFFSET UNITYSDK_OFFSET(0xDB78040)
+#define CJFCKMKFGEI_GETCHOSENOPTIONALREWARDID_OFFSET UNITYSDK_OFFSET(0xDB78780)
+#define CJFCKMKFGEI_GETCURRENTQUANTITY_OFFSET UNITYSDK_OFFSET(0xDB786C0)
+#define CJFCKMKFGEI_TAKEREWARD_OFFSET UNITYSDK_OFFSET(0xDB78100)
 
-inline static constexpr unsigned int CJFCKMKFGEI_TypeDefinitionIndex = 63539;
+inline static constexpr unsigned int CJFCKMKFGEI_TypeDefinitionIndex = 64981;
 
 	class CJFCKMKFGEI : public ::System::Object
 	{
@@ -33,9 +36,9 @@ inline static constexpr unsigned int CJFCKMKFGEI_TypeDefinitionIndex = 63539;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJFCKMKFGEI_FPPEBKCCBIO_OFFSET))(this);
 		}
 
-		::System::Void TakeReward(::System::UInt32 a1)
+		::System::Void TakeReward(::System::UInt32 a1, ::System::Collections::Generic::List_1<::DOLMCHMNEIL*>* a2)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CJFCKMKFGEI_TAKEREWARD_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Collections::Generic::List_1<::DOLMCHMNEIL*>*))((::PBYTE)hIl2Cpp + CJFCKMKFGEI_TAKEREWARD_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void ALJIOCDBMKO(::JNGJOABNBIM* a1)
@@ -66,6 +69,11 @@ inline static constexpr unsigned int CJFCKMKFGEI_TypeDefinitionIndex = 63539;
 		::System::UInt32 GetCurrentQuantity(::System::UInt32 a1)
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + CJFCKMKFGEI_GETCURRENTQUANTITY_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 GetChosenOptionalRewardID(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + CJFCKMKFGEI_GETCHOSENOPTIONALREWARDID_OFFSET))(this, a1, a2);
 		}
 
 	};

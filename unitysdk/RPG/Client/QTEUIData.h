@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_QTEUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDE04BB0)
+#define RPG_CLIENT_QTEUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE869F20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int QTEUIData_TypeDefinitionIndex = 71173;
+	inline static constexpr unsigned int QTEUIData_TypeDefinitionIndex = 73156;
 
 	class QTEUIData : public ::System::Object
 	{

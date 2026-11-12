@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HoYoGroupStreamingTemplateItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HOYOGROUPSTREAMINGTEMPLATEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D771170)
-#define RPG_GAMECORE_HOYOGROUPSTREAMINGTEMPLATEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D771000)
+#define RPG_GAMECORE_HOYOGROUPSTREAMINGTEMPLATEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E984810)
+#define RPG_GAMECORE_HOYOGROUPSTREAMINGTEMPLATEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9846A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoYoGroupStreamingTemplateItem_TypeDefinitionIndex = 17353;
+	inline static constexpr unsigned int HoYoGroupStreamingTemplateItem_TypeDefinitionIndex = 17521;
 
 	class HoYoGroupStreamingTemplateItem : public ::RPG::GameCore::JsonConfig
 	{

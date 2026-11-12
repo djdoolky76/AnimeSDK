@@ -11,13 +11,13 @@ namespace RPG::GameCore { class CaptureNPCToCharacter; }
 namespace RPG::GameCore { class ScrTrfActPerformanceGroup; }
 namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8A940)
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCEGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8A950)
-#define RPG_GAMECORE_SCRTRFACTPERFORMANCEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8A910)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9CFB0)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCEGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC9CFC0)
+#define RPG_GAMECORE_SCRTRFACTPERFORMANCEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9CF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScrTrfActPerformanceGroup_TypeDefinitionIndex = 20860;
+	inline static constexpr unsigned int ScrTrfActPerformanceGroup_TypeDefinitionIndex = 21197;
 
 	class ScrTrfActPerformanceGroup : public ::RPG::GameCore::ScreenTransferBaseAction
 	{

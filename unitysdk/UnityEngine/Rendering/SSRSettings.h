@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int SSRSettings_TypeDefinitionIndex = 4847;
+	inline static constexpr unsigned int SSRSettings_TypeDefinitionIndex = 4851;
 
 	struct alignas(4) SSRSettings
 	{

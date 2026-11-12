@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IUI3DViewContext_1_TypeDefinitionIndex = 42734;
+	inline static constexpr unsigned int IUI3DViewContext_1_TypeDefinitionIndex = 43713;
 
 	template <typename T>
 	class IUI3DViewContext_1

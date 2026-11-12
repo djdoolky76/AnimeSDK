@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowMainPageHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IMAKLFONKFI_CTOR_OFFSET UNITYSDK_OFFSET(0x164CE0F0)
-#define IMAKLFONKFI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164CE100)
-#define IMAKLFONKFI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164CE140)
-#define IMAKLFONKFI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164CE1A0)
-#define IMAKLFONKFI_TICK_OFFSET UNITYSDK_OFFSET(0x164CE1F0)
+#define IMAKLFONKFI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FD0E0)
+#define IMAKLFONKFI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7FD0F0)
+#define IMAKLFONKFI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7FD130)
+#define IMAKLFONKFI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7FD190)
+#define IMAKLFONKFI_TICK_OFFSET UNITYSDK_OFFSET(0xB7FD1E0)
 
-inline static constexpr unsigned int IMAKLFONKFI_TypeDefinitionIndex = 58669;
+inline static constexpr unsigned int IMAKLFONKFI_TypeDefinitionIndex = 59936;
 
 	class IMAKLFONKFI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowMainPageHint* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowMainPageHint* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowMainPageHint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowMainPageHint*))((::PBYTE)hIl2Cpp + IMAKLFONKFI_CTOR_OFFSET))(this, a1, a2);

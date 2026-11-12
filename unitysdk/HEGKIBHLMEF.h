@@ -8,23 +8,23 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HEGKIBHLMEF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x15C50780)
-#define HEGKIBHLMEF_HJAHNPCADNC_OFFSET UNITYSDK_OFFSET(0x15C50C50)
-#define HEGKIBHLMEF_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x15C50BA0)
+#define HEGKIBHLMEF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0x16B949F0)
+#define HEGKIBHLMEF_HJAHNPCADNC_OFFSET UNITYSDK_OFFSET(0x16B94EC0)
+#define HEGKIBHLMEF_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x16B94E10)
 
-inline static constexpr unsigned int HEGKIBHLMEF_TypeDefinitionIndex = 56491;
+inline static constexpr unsigned int HEGKIBHLMEF_TypeDefinitionIndex = 57711;
 
 	class HEGKIBHLMEF : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::PFBOPCJOKDO*>*>** StaticGet_OKOOADMMAFO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::PFBOPCJOKDO*>*>**)UnitySDK::FromName("", "HEGKIBHLMEF")->GetStaticField(0xD780);
-		}
-
 		static ::RPG::GameCore::CharacterSomatoCommonConfig** StaticGet_KCDHNPFJLME()
 		{
-			return (::RPG::GameCore::CharacterSomatoCommonConfig**)UnitySDK::FromName("", "HEGKIBHLMEF")->GetStaticField(0xD788);
+			return (::RPG::GameCore::CharacterSomatoCommonConfig**)UnitySDK::FromName("", "HEGKIBHLMEF")->GetStaticField(0x735F0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::PFBOPCJOKDO*>*>** StaticGet_OKOOADMMAFO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CharacterSomatoType, ::System::Collections::Generic::Dictionary_2<::System::String*, ::PFBOPCJOKDO*>*>**)UnitySDK::FromName("", "HEGKIBHLMEF")->GetStaticField(0x735F8);
 		}
 
 		static ::System::Void HCFINLKPIHL()

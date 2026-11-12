@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GachaGroupDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GACHAGROUPDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FC8A0)
-#define RPG_GAMECORE_GACHAGROUPDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FBAD0)
+#define RPG_GAMECORE_GACHAGROUPDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E906AD0)
+#define RPG_GAMECORE_GACHAGROUPDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E905D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaGroupDataRow_TypeDefinitionIndex = 13361;
+	inline static constexpr unsigned int GachaGroupDataRow_TypeDefinitionIndex = 13433;
 
 	class GachaGroupDataRow : public ::System::Object
 	{
 	public:
-		::System::String* PoolLabelIconSelected; // 0x10
-		::Il2CppArray<::System::UInt32>* GachaIDList; // 0x18
-		::System::String* PoolLabelIcon; // 0x20
+		::Il2CppArray<::System::UInt32>* GachaIDList; // 0x10
+		::System::String* PoolLabelIcon; // 0x18
+		::System::String* PoolLabelIconSelected; // 0x20
 		::RPG::GameCore::GachaGroupType GroupType; // 0x28
 		::System::UInt32 GroupID; // 0x2C
 		::System::Void _ctor()

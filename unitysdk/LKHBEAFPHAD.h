@@ -4,18 +4,18 @@
 class HCJNGFGGGCD;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LKHBEAFPHAD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB74AE90)
-#define LKHBEAFPHAD_FDOAOENCODE_OFFSET UNITYSDK_OFFSET(0xB74A9D0)
-#define LKHBEAFPHAD_HMFPIFOEPCM_OFFSET UNITYSDK_OFFSET(0xB74AB70)
+#define LKHBEAFPHAD_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFE8390)
+#define LKHBEAFPHAD_FDOAOENCODE_OFFSET UNITYSDK_OFFSET(0xBFE7ED0)
+#define LKHBEAFPHAD_HMFPIFOEPCM_OFFSET UNITYSDK_OFFSET(0xBFE8070)
 
-inline static constexpr unsigned int LKHBEAFPHAD_TypeDefinitionIndex = 67378;
+inline static constexpr unsigned int LKHBEAFPHAD_TypeDefinitionIndex = 69322;
 
 	class LKHBEAFPHAD : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::HCJNGFGGGCD*>** StaticGet_LCIGELCDPGG()
 		{
-			return (::System::Collections::Generic::List_1<::HCJNGFGGGCD*>**)UnitySDK::FromName("", "LKHBEAFPHAD")->GetStaticField(0x65120);
+			return (::System::Collections::Generic::List_1<::HCJNGFGGGCD*>**)UnitySDK::FromName("", "LKHBEAFPHAD")->GetStaticField(0x684E0);
 		}
 
 		static ::System::Void _cctor()

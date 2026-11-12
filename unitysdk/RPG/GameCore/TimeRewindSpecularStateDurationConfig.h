@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TimeRewindSpecularStateDurationConfig; }
 
-#define RPG_GAMECORE_TIMEREWINDSPECULARSTATEDURATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB89860)
-#define RPG_GAMECORE_TIMEREWINDSPECULARSTATEDURATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB89750)
+#define RPG_GAMECORE_TIMEREWINDSPECULARSTATEDURATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE38A80)
+#define RPG_GAMECORE_TIMEREWINDSPECULARSTATEDURATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE38970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimeRewindSpecularStateDurationConfig_TypeDefinitionIndex = 16597;
+	inline static constexpr unsigned int TimeRewindSpecularStateDurationConfig_TypeDefinitionIndex = 16763;
 
 	class TimeRewindSpecularStateDurationConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterOutfitPendant; }
 namespace RPG::GameCore { class CharacterOutfitPendantConfig; }
 
-#define RPG_GAMECORE_CHARACTEROUTFITPENDANTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D574A80)
-#define RPG_GAMECORE_CHARACTEROUTFITPENDANTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5749C0)
+#define RPG_GAMECORE_CHARACTEROUTFITPENDANTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E785980)
+#define RPG_GAMECORE_CHARACTEROUTFITPENDANTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7858C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitPendantConfig_TypeDefinitionIndex = 17485;
+	inline static constexpr unsigned int CharacterOutfitPendantConfig_TypeDefinitionIndex = 17653;
 
 	class CharacterOutfitPendantConfig : public ::RPG::GameCore::JsonConfig
 	{

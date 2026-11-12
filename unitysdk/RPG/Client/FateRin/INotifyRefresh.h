@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int INotifyRefresh_TypeDefinitionIndex = 80628;
+	inline static constexpr unsigned int INotifyRefresh_TypeDefinitionIndex = 83408;
 
 	class INotifyRefresh
 	{

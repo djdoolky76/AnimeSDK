@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MPPAKKFLCMM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1E3B10)
-#define MPPAKKFLCMM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1E40E0)
-#define MPPAKKFLCMM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1E3C80)
-#define MPPAKKFLCMM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1E3580)
-#define MPPAKKFLCMM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1E3810)
-#define MPPAKKFLCMM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1E3D20)
-#define MPPAKKFLCMM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1E3D70)
-#define MPPAKKFLCMM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1E3B50)
-#define MPPAKKFLCMM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1E37B0)
-#define MPPAKKFLCMM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1E3980)
-#define MPPAKKFLCMM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1E3BE0)
-#define MPPAKKFLCMM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1E3500)
+#define MPPAKKFLCMM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E3F77D0)
+#define MPPAKKFLCMM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3F7DA0)
+#define MPPAKKFLCMM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E3F7940)
+#define MPPAKKFLCMM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E3F7240)
+#define MPPAKKFLCMM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E3F74D0)
+#define MPPAKKFLCMM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E3F79E0)
+#define MPPAKKFLCMM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E3F7A30)
+#define MPPAKKFLCMM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E3F7810)
+#define MPPAKKFLCMM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E3F7470)
+#define MPPAKKFLCMM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E3F7640)
+#define MPPAKKFLCMM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E3F78A0)
+#define MPPAKKFLCMM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E3F71C0)
 
-inline static constexpr unsigned int MPPAKKFLCMM_TypeDefinitionIndex = 12592;
+inline static constexpr unsigned int MPPAKKFLCMM_TypeDefinitionIndex = 12659;
 
 	class MPPAKKFLCMM : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AdvertisingBoardConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x2BFD0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AdvertisingBoardConfigRow*>**)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x45300);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x2BFD8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x45308);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AdvertisingBoardConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AdvertisingBoardConfigRow*>**)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x2BFE0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x89D0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x45310);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0x89D1);
+			return (::System::Boolean*)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0xE990);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "MPPAKKFLCMM")->GetStaticField(0xE991);
 		}
 
 		static ::System::Void _cctor()

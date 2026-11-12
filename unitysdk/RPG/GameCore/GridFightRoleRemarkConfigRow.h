@@ -1,22 +1,25 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/RPG/GameCore/GridFightRoleRemarkParamSource.h"
 #include "unitysdk/System/Object.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightRoleRemarkConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73E980)
-#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D73E800)
+#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94F880)
+#define RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E94F660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleRemarkConfigRow_TypeDefinitionIndex = 13544;
+	inline static constexpr unsigned int GridFightRoleRemarkConfigRow_TypeDefinitionIndex = 13639;
 
 	class GridFightRoleRemarkConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID RoleRemark; // 0x10
-		::System::UInt32 RoleID; // 0x20
+		::Il2CppArray<::System::UInt32>* ParamList; // 0x10
+		::RPG::Client::TextID RoleRemark; // 0x18
+		::System::UInt32 RoleID; // 0x28
+		::RPG::GameCore::GridFightRoleRemarkParamSource SkillType; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTROLEREMARKCONFIGROW_CTOR_OFFSET))(this);

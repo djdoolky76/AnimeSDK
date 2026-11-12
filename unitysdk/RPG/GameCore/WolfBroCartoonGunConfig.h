@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class WolfBroCartoonGunConfig; }
 
-#define RPG_GAMECORE_WOLFBROCARTOONGUNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA7B80)
-#define RPG_GAMECORE_WOLFBROCARTOONGUNCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA7930)
+#define RPG_GAMECORE_WOLFBROCARTOONGUNCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBA4A0)
+#define RPG_GAMECORE_WOLFBROCARTOONGUNCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEBA250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroCartoonGunConfig_TypeDefinitionIndex = 17020;
+	inline static constexpr unsigned int WolfBroCartoonGunConfig_TypeDefinitionIndex = 17187;
 
 	class WolfBroCartoonGunConfig : public ::RPG::GameCore::JsonConfig
 	{

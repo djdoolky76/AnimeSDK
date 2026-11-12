@@ -7,9 +7,9 @@ class ICCLDNDNHPD;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FDDLMBHMELH_IBJDLEKCGPO_OFFSET UNITYSDK_OFFSET(0x156D4BA0)
+#define FDDLMBHMELH_IBJDLEKCGPO_OFFSET UNITYSDK_OFFSET(0x165EE5D0)
 
-inline static constexpr unsigned int FDDLMBHMELH_TypeDefinitionIndex = 78228;
+inline static constexpr unsigned int FDDLMBHMELH_TypeDefinitionIndex = 80963;
 
 	class FDDLMBHMELH : public ::System::Object
 	{

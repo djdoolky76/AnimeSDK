@@ -6,31 +6,34 @@
 class AHHPBAJCGNL;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class GameEntity; }
+namespace RPG::GameCore { class TurnBasedGameMode; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AGFIJHNPHOJ_AGAPPJBHCFK_OFFSET UNITYSDK_OFFSET(0xCF2A0C0)
-#define AGFIJHNPHOJ_BLGHPDKACIH_OFFSET UNITYSDK_OFFSET(0xCF2ACA0)
-#define AGFIJHNPHOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCF2AEE0)
-#define AGFIJHNPHOJ_GPOIABJLEPF_OFFSET UNITYSDK_OFFSET(0xCF2A960)
-#define AGFIJHNPHOJ_HBLHDCNEOEA_OFFSET UNITYSDK_OFFSET(0xCF2A880)
-#define AGFIJHNPHOJ_HFDJPGCPJLB_OFFSET UNITYSDK_OFFSET(0xCF2A670)
-#define AGFIJHNPHOJ_HGNHEJEBIJH_OFFSET UNITYSDK_OFFSET(0xCF2AB60)
-#define AGFIJHNPHOJ_KACGKGILGDN_OFFSET UNITYSDK_OFFSET(0xCF2A560)
-#define AGFIJHNPHOJ_LHDIMNAHKAA_OFFSET UNITYSDK_OFFSET(0xCF2A360)
-#define AGFIJHNPHOJ_MDKOJHDADPB_OFFSET UNITYSDK_OFFSET(0xCF2AD50)
-#define AGFIJHNPHOJ_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xCF2A720)
+#define AGFIJHNPHOJ_AGAPPJBHCFK_OFFSET UNITYSDK_OFFSET(0xD5E0CD0)
+#define AGFIJHNPHOJ_BLGHPDKACIH_OFFSET UNITYSDK_OFFSET(0xD5E1B40)
+#define AGFIJHNPHOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E0C20)
+#define AGFIJHNPHOJ_GPOIABJLEPF_OFFSET UNITYSDK_OFFSET(0xD5E1800)
+#define AGFIJHNPHOJ_HBLHDCNEOEA_OFFSET UNITYSDK_OFFSET(0xD5E1720)
+#define AGFIJHNPHOJ_HFDJPGCPJLB_OFFSET UNITYSDK_OFFSET(0xD5E1510)
+#define AGFIJHNPHOJ_HGNHEJEBIJH_OFFSET UNITYSDK_OFFSET(0xD5E1A00)
+#define AGFIJHNPHOJ_KACGKGILGDN_OFFSET UNITYSDK_OFFSET(0xD5E1400)
+#define AGFIJHNPHOJ_LHDIMNAHKAA_OFFSET UNITYSDK_OFFSET(0xD5E11F0)
+#define AGFIJHNPHOJ_MDKOJHDADPB_OFFSET UNITYSDK_OFFSET(0xD5E1BF0)
+#define AGFIJHNPHOJ_MMCJFENMOCL_OFFSET UNITYSDK_OFFSET(0xD5E0F80)
+#define AGFIJHNPHOJ_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xD5E15C0)
 
-inline static constexpr unsigned int AGFIJHNPHOJ_TypeDefinitionIndex = 55026;
+inline static constexpr unsigned int AGFIJHNPHOJ_TypeDefinitionIndex = 56202;
 
 	class AGFIJHNPHOJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::AHHPBAJCGNL*>* HPGMBOKOGAA; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::PoolList_1<::AHHPBAJCGNL*>*>* IFIOACKDCIF; // 0x18
-		::System::Void _ctor()
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::PoolList_1<::AHHPBAJCGNL*>*>* IFIOACKDCIF; // 0x10
+		::RPG::GameCore::TurnBasedGameMode* BHJDJDPLCLP; // 0x18
+		::System::Collections::Generic::List_1<::AHHPBAJCGNL*>* HPGMBOKOGAA; // 0x20
+		::System::Void _ctor(::RPG::GameCore::TurnBasedGameMode* a1)
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGFIJHNPHOJ_CTOR_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TurnBasedGameMode*))((::PBYTE)hIl2Cpp + AGFIJHNPHOJ_CTOR_OFFSET))(this, a1);
 		}
 
 		::System::Boolean AGAPPJBHCFK(::RPG::GameCore::EntityRelationMemberType a1, ::RPG::GameCore::GameEntity* a2, ::AHHPBAJCGNL* a3)
@@ -51,6 +54,11 @@ inline static constexpr unsigned int AGFIJHNPHOJ_TypeDefinitionIndex = 55026;
 		::System::Void HFDJPGCPJLB(::AHHPBAJCGNL* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::AHHPBAJCGNL*))((::PBYTE)hIl2Cpp + AGFIJHNPHOJ_HFDJPGCPJLB_OFFSET))(this, a1);
+		}
+
+		::System::Void MMCJFENMOCL(::AHHPBAJCGNL* a1, ::RPG::GameCore::GameEntity* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::AHHPBAJCGNL*, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + AGFIJHNPHOJ_MMCJFENMOCL_OFFSET))(this, a1, a2);
 		}
 
 		::AHHPBAJCGNL* NBBMINIOAIP(::RPG::GameCore::EntityRelationType a1)

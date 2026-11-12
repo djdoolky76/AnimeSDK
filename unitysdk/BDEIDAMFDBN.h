@@ -10,11 +10,11 @@ namespace RPG::Client::Prop { class RubikCubePuzzleCube; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 
-#define BDEIDAMFDBN_CTOR_OFFSET UNITYSDK_OFFSET(0x162F3FC0)
-#define BDEIDAMFDBN_PPEGOIODAKI_1_OFFSET UNITYSDK_OFFSET(0x162F3E90)
-#define BDEIDAMFDBN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x162F3D10)
+#define BDEIDAMFDBN_CTOR_OFFSET UNITYSDK_OFFSET(0x170BB500)
+#define BDEIDAMFDBN_PPEGOIODAKI_1_OFFSET UNITYSDK_OFFSET(0x170BB3D0)
+#define BDEIDAMFDBN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x170BB250)
 
-inline static constexpr unsigned int BDEIDAMFDBN_TypeDefinitionIndex = 78832;
+inline static constexpr unsigned int BDEIDAMFDBN_TypeDefinitionIndex = 81603;
 
 	class BDEIDAMFDBN : public ::System::Object
 	{

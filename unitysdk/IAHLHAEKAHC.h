@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IAHLHAEKAHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB061F0)
+#define IAHLHAEKAHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCAC60)
 
-inline static constexpr unsigned int IAHLHAEKAHC_TypeDefinitionIndex = 42539;
+inline static constexpr unsigned int IAHLHAEKAHC_TypeDefinitionIndex = 43514;
 
 	class IAHLHAEKAHC : public ::System::Object
 	{

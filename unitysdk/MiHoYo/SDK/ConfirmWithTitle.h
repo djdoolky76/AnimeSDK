@@ -8,17 +8,17 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_CONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1BC60270)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC60FF0)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1BC60EE0)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1BC60F20)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1BC60F80)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1BC60CB0)
-#define MIHOYO_SDK_CONFIRMWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1BC60A50)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_AWAKE_OFFSET UNITYSDK_OFFSET(0x1CDE9960)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDEA6E0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_HIDE_OFFSET UNITYSDK_OFFSET(0x1CDEA5D0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCANCEL_OFFSET UNITYSDK_OFFSET(0x1CDEA610)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_ONTAPCONFIRM_OFFSET UNITYSDK_OFFSET(0x1CDEA670)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_SHOW_OFFSET UNITYSDK_OFFSET(0x1CDEA3A0)
+#define MIHOYO_SDK_CONFIRMWITHTITLE_START_OFFSET UNITYSDK_OFFSET(0x1CDEA140)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithTitle_TypeDefinitionIndex = 8002;
+	inline static constexpr unsigned int ConfirmWithTitle_TypeDefinitionIndex = 8011;
 
 	class ConfirmWithTitle : public ::MiHoYo::SDK::UIElement
 	{
@@ -37,14 +37,14 @@ namespace MiHoYo::SDK
 		::UnityEngine::UI::Button* confirmButton; // 0xA8
 		::UnityEngine::UI::Text* cancelText; // 0xB0
 		::UnityEngine::UI::Text* confirmText; // 0xB8
-		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
-		{
-			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "ConfirmWithTitle")->GetStaticField(0x322A0);
-		}
-
 		static ::MiHoYo::SDK::ConfirmWithTitle** StaticGet_Instance()
 		{
-			return (::MiHoYo::SDK::ConfirmWithTitle**)UnitySDK::FromName("MiHoYo.SDK", "ConfirmWithTitle")->GetStaticField(0x322A8);
+			return (::MiHoYo::SDK::ConfirmWithTitle**)UnitySDK::FromName("MiHoYo.SDK", "ConfirmWithTitle")->GetStaticField(0x55200);
+		}
+
+		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
+		{
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "ConfirmWithTitle")->GetStaticField(0x55208);
 		}
 
 		// static const ::System::String* PrefabName; // 0x0

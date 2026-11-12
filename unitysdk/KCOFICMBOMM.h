@@ -6,20 +6,20 @@ namespace RPG::GameCore { class EntityInEraFlipperSpotAreaListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define KCOFICMBOMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB3441B0)
-#define KCOFICMBOMM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB344590)
-#define KCOFICMBOMM_DLDEDBLJNAK_OFFSET UNITYSDK_OFFSET(0xB3446C0)
-#define KCOFICMBOMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB344240)
-#define KCOFICMBOMM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3443F0)
-#define KCOFICMBOMM_TICK_OFFSET UNITYSDK_OFFSET(0xB344930)
+#define KCOFICMBOMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBBCE980)
+#define KCOFICMBOMM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBCED60)
+#define KCOFICMBOMM_DLDEDBLJNAK_OFFSET UNITYSDK_OFFSET(0xBBCEE90)
+#define KCOFICMBOMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBCEA10)
+#define KCOFICMBOMM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBCEBC0)
+#define KCOFICMBOMM_TICK_OFFSET UNITYSDK_OFFSET(0xBBCF100)
 
-inline static constexpr unsigned int KCOFICMBOMM_TypeDefinitionIndex = 52762;
+inline static constexpr unsigned int KCOFICMBOMM_TypeDefinitionIndex = 53906;
 
 	class KCOFICMBOMM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::EntityInEraFlipperSpotAreaListener* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::EntityInEraFlipperSpotAreaListener* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::KFELGAIGHAP* OFGBCFDDPBE; // 0x28
 		::System::Boolean HPPIMDBIDKA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EntityInEraFlipperSpotAreaListener* a2)

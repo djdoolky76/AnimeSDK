@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FJPMJPEKLJL_TypeDefinitionIndex = 25717;
+inline static constexpr unsigned int FJPMJPEKLJL_TypeDefinitionIndex = 26214;
 
 	enum class FJPMJPEKLJL : ::System::Int32
 	{

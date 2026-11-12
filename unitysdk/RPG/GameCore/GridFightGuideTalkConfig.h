@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_GAMECORE_GRIDFIGHTGUIDETALKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE6C9760)
+#define RPG_GAMECORE_GRIDFIGHTGUIDETALKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF1CA4A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightGuideTalkConfig_TypeDefinitionIndex = 53588;
+	inline static constexpr unsigned int GridFightGuideTalkConfig_TypeDefinitionIndex = 54752;
 
 	class GridFightGuideTalkConfig : public ::System::Object
 	{

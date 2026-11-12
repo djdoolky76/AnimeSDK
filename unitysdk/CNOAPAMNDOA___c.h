@@ -4,18 +4,18 @@
 class CNOAPAMNDOA;
 namespace System { class Object; }
 
-#define CNOAPAMNDOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E12F6B0)
-#define CNOAPAMNDOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E12F6F0)
-#define CNOAPAMNDOA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E12F700)
+#define CNOAPAMNDOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F406FA0)
+#define CNOAPAMNDOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F406FE0)
+#define CNOAPAMNDOA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F406FF0)
 
-inline static constexpr unsigned int CNOAPAMNDOA___c_TypeDefinitionIndex = 29465;
+inline static constexpr unsigned int CNOAPAMNDOA___c_TypeDefinitionIndex = 30187;
 
 	class CNOAPAMNDOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20AE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B500);
 		}
 
 		static ::System::Void _cctor()

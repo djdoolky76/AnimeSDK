@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MHashLinkedListNode_2_TypeDefinitionIndex = 35244;
+	inline static constexpr unsigned int MHashLinkedListNode_2_TypeDefinitionIndex = 36172;
 
 	template <typename T1, typename T2>
 	class MHashLinkedListNode_2

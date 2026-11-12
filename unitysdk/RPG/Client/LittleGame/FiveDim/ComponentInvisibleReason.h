@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int ComponentInvisibleReason_TypeDefinitionIndex = 43293;
+	inline static constexpr unsigned int ComponentInvisibleReason_TypeDefinitionIndex = 44274;
 
 	enum class ComponentInvisibleReason : ::System::UInt32
 	{

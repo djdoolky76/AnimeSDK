@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine::Rendering { class TextureCurve; }
 
-#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2CAE80)
-#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F2CAFD0)
+#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x2057BC80)
+#define UNITYENGINE_RENDERING_TEXTURECURVEPARAMETER_RELEASE_OFFSET UNITYSDK_OFFSET(0x2057BDD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 35611;
+	inline static constexpr unsigned int TextureCurveParameter_TypeDefinitionIndex = 36539;
 
 	class TextureCurveParameter
 	{

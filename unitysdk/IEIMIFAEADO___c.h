@@ -4,18 +4,18 @@
 class IEIMIFAEADO;
 namespace System { class Object; }
 
-#define IEIMIFAEADO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E63B3E0)
-#define IEIMIFAEADO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E63B420)
-#define IEIMIFAEADO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E63B430)
+#define IEIMIFAEADO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F959710)
+#define IEIMIFAEADO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F959750)
+#define IEIMIFAEADO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F959760)
 
-inline static constexpr unsigned int IEIMIFAEADO___c_TypeDefinitionIndex = 29000;
+inline static constexpr unsigned int IEIMIFAEADO___c_TypeDefinitionIndex = 29590;
 
 	class IEIMIFAEADO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48AB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46AE0);
 		}
 
 		static ::System::Void _cctor()

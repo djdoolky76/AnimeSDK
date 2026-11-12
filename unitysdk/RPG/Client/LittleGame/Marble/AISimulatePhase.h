@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::Marble
 {
-	inline static constexpr unsigned int AISimulatePhase_TypeDefinitionIndex = 43056;
+	inline static constexpr unsigned int AISimulatePhase_TypeDefinitionIndex = 44037;
 
 	enum class AISimulatePhase : ::System::Int32
 	{

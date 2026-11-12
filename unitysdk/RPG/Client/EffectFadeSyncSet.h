@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_EFFECTFADESYNCSET_CTOR_OFFSET UNITYSDK_OFFSET(0xCD14900)
+#define RPG_CLIENT_EFFECTFADESYNCSET_CTOR_OFFSET UNITYSDK_OFFSET(0xD6D5E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EffectFadeSyncSet_TypeDefinitionIndex = 69874;
+	inline static constexpr unsigned int EffectFadeSyncSet_TypeDefinitionIndex = 71833;
 
 	class EffectFadeSyncSet : public ::System::Object
 	{

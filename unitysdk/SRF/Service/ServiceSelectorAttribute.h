@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/Scripting/PreserveAttribute.h"
 namespace System { class Type; }
 
-#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED79FE0)
-#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_GET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1ED79FF0)
-#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_SET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x1ED7A000)
+#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x200299F0)
+#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_GET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x20029A00)
+#define SRF_SERVICE_SERVICESELECTORATTRIBUTE_SET_SERVICETYPE_OFFSET UNITYSDK_OFFSET(0x20029A10)
 
 namespace SRF::Service
 {
-	inline static constexpr unsigned int ServiceSelectorAttribute_TypeDefinitionIndex = 35408;
+	inline static constexpr unsigned int ServiceSelectorAttribute_TypeDefinitionIndex = 36336;
 
 	class ServiceSelectorAttribute : public ::UnityEngine::Scripting::PreserveAttribute
 	{

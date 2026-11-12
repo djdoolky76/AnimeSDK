@@ -4,11 +4,11 @@
 namespace RPG::Client { class IAssetOperation; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_UICONTEXTASSETLOADER_ASYNCASSETCACHE_CTOR_OFFSET UNITYSDK_OFFSET(0xE388F10)
+#define RPG_CLIENT_UICONTEXTASSETLOADER_ASYNCASSETCACHE_CTOR_OFFSET UNITYSDK_OFFSET(0xEDF5360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIContextAssetLoader_AsyncAssetCache_TypeDefinitionIndex = 73031;
+	inline static constexpr unsigned int UIContextAssetLoader_AsyncAssetCache_TypeDefinitionIndex = 75145;
 
 	class UIContextAssetLoader_AsyncAssetCache : public ::System::Object
 	{

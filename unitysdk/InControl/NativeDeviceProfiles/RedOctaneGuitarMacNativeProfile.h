@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/NativeDeviceProfiles/Xbox360DriverMacNativeProfile.h"
 
-#define INCONTROL_NATIVEDEVICEPROFILES_REDOCTANEGUITARMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BA3D860)
-#define INCONTROL_NATIVEDEVICEPROFILES_REDOCTANEGUITARMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BA3D7E0)
+#define INCONTROL_NATIVEDEVICEPROFILES_REDOCTANEGUITARMACNATIVEPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBC6600)
+#define INCONTROL_NATIVEDEVICEPROFILES_REDOCTANEGUITARMACNATIVEPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1CBC6580)
 
 namespace InControl::NativeDeviceProfiles
 {
-	inline static constexpr unsigned int RedOctaneGuitarMacNativeProfile_TypeDefinitionIndex = 41228;
+	inline static constexpr unsigned int RedOctaneGuitarMacNativeProfile_TypeDefinitionIndex = 42203;
 
 	class RedOctaneGuitarMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{

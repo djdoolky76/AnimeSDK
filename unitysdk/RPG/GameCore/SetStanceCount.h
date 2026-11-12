@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetStanceCount; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETSTANCECOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC2C70)
-#define RPG_GAMECORE_SETSTANCECOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC2C80)
-#define RPG_GAMECORE_SETSTANCECOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC2C30)
+#define RPG_GAMECORE_SETSTANCECOUNT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD4D60)
+#define RPG_GAMECORE_SETSTANCECOUNT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD4D70)
+#define RPG_GAMECORE_SETSTANCECOUNT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD4D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetStanceCount_TypeDefinitionIndex = 22685;
+	inline static constexpr unsigned int SetStanceCount_TypeDefinitionIndex = 23107;
 
 	class SetStanceCount : public ::RPG::GameCore::TaskConfig
 	{

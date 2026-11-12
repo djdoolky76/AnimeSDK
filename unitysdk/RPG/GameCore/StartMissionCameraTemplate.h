@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class StartMissionCameraTemplate; }
 
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1D2D0)
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1D3B0)
-#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1D1D0)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2EEA0)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED2EF80)
+#define RPG_GAMECORE_STARTMISSIONCAMERATEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED2EDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartMissionCameraTemplate_TypeDefinitionIndex = 23809;
+	inline static constexpr unsigned int StartMissionCameraTemplate_TypeDefinitionIndex = 24265;
 
 	class StartMissionCameraTemplate : public ::RPG::GameCore::TaskConfig
 	{

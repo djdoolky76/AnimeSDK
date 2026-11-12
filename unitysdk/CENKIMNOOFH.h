@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define CENKIMNOOFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC9EC480)
+#define CENKIMNOOFH_CTOR_OFFSET UNITYSDK_OFFSET(0xD350D70)
 
-inline static constexpr unsigned int CENKIMNOOFH_TypeDefinitionIndex = 67782;
+inline static constexpr unsigned int CENKIMNOOFH_TypeDefinitionIndex = 69727;
 
 	class CENKIMNOOFH : public ::System::Object
 	{

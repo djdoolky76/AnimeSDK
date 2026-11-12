@@ -45,118 +45,118 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_ADDDYNAMICBLOCKLIGHT_OFFSET UNITYSDK_OFFSET(0xCDFA9B0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_ADJUSTTEMPTEXTURESIZE_OFFSET UNITYSDK_OFFSET(0xCDFA030)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_APPLYPATCHTOACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFCF70)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CANCELASYNCINIT_OFFSET UNITYSDK_OFFSET(0xCDFC110)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CANCELTRANSITION_OFFSET UNITYSDK_OFFSET(0xCDFD010)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xCDFEA60)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEARENVIROPATCH_OFFSET UNITYSDK_OFFSET(0xCDFC1C0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEARLOCALVOLUMEOVERRIDEPOSITION_OFFSET UNITYSDK_OFFSET(0xCDFD480)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEARPERLEVEL_OFFSET UNITYSDK_OFFSET(0xCDFC2E0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEAR_OFFSET UNITYSDK_OFFSET(0xCDFC260)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CREATEENVIRONMENTSYSTEM_OFFSET UNITYSDK_OFFSET(0xCDFB1D0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0xCDFE9C0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_DISABLEENVGPUPARTICLE_OFFSET UNITYSDK_OFFSET(0xCDFC400)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_DISABLEENVPARTICLE_OFFSET UNITYSDK_OFFSET(0xCDFC440)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_EXTRACTFILENAME_OFFSET UNITYSDK_OFFSET(0xCDFA420)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_FINISHALLTRANSITIONS_OFFSET UNITYSDK_OFFSET(0xCDFD170)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_FINISHTRANSITION_OFFSET UNITYSDK_OFFSET(0xCDFC6C0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_FORCEINITPPEFFECTMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFC920)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_FORCEUPDATESHADOWCACHE_OFFSET UNITYSDK_OFFSET(0xCDFC0C0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETACTIVESCENELIGHTVOLUME_OFFSET UNITYSDK_OFFSET(0xCDFA810)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETCAPSULEAOMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFC880)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETCURRENTACTIVEPROFILENAME_OFFSET UNITYSDK_OFFSET(0xCDFA220)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETDATA_OFFSET UNITYSDK_OFFSET(0xCDFD2B0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETENVTRANSITMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFC840)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETFRAMECAPTUREMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFC680)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETGBUFFERLIGHTINGMATNAME_OFFSET UNITYSDK_OFFSET(0xCDFD580)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETINSTANCEBOTH_OFFSET UNITYSDK_OFFSET(0xCDFA580)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETISCURSWITCHWORK_OFFSET UNITYSDK_OFFSET(0xCDFC710)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETISVALID_OFFSET UNITYSDK_OFFSET(0xCDFCA20)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETLIGHTQUALITYVERSION_OFFSET UNITYSDK_OFFSET(0xCDFD200)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETLOCALVOLUMEMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFC150)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETMATERIALEFFECTMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFCA60)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETPPEFFECTMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFC210)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETPROFILEASSETS_OFFSET UNITYSDK_OFFSET(0xCDFD510)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETTODPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFD4D0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GET_ACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFD1F0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xCDFA160)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_HASPRIORITY_OFFSET UNITYSDK_OFFSET(0xCDFD120)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITENVIRONMENTSYSTEMASYNC_OFFSET UNITYSDK_OFFSET(0xCDFC7B0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITENVIRONMENTSYSTEM_OFFSET UNITYSDK_OFFSET(0xCDFC360)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITPERLEVEL_OFFSET UNITYSDK_OFFSET(0xCDFC2A0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFD1B0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITSHADERKEYWORDPROPERTYSETTING_OFFSET UNITYSDK_OFFSET(0xCDFAEF0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0xCDFC8D0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_ISNOTFULLENVSYS_OFFSET UNITYSDK_OFFSET(0xCDFBD60)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_ISPATCHUSEENVSYSTEMV2_OFFSET UNITYSDK_OFFSET(0xCDFADC0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_LATETICK_OFFSET UNITYSDK_OFFSET(0xCDFC620)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADBASECONFIG_OFFSET UNITYSDK_OFFSET(0xCDFAF50)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADGLOBALRESOURCEONINITGAME_OFFSET UNITYSDK_OFFSET(0xCDFBDC0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADPROFILESYNCSIMPLE_OFFSET UNITYSDK_OFFSET(0xCDFB6D0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADPROFILESYNC_OFFSET UNITYSDK_OFFSET(0xCDFBAC0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOGFILTER_OFFSET UNITYSDK_OFFSET(0xCDF9EE0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_NOTIFYENVCHANGE_OFFSET UNITYSDK_OFFSET(0xCDFA510)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_ONSTAGETRANSLATE_OFFSET UNITYSDK_OFFSET(0xCDFB970)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RECORDMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0xCDFB9B0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEGLOBALRESOURCEONUNINITGAME_OFFSET UNITYSDK_OFFSET(0xCDFBFD0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEPRIORITYWITHDURATION_OFFSET UNITYSDK_OFFSET(0xCDFCDB0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEPRIORITY_OFFSET UNITYSDK_OFFSET(0xCDFCFB0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFB5A0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_REMOVEDYNAMICBLOCKLIGHT_OFFSET UNITYSDK_OFFSET(0xCDFAB70)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RENDER_OFFSET UNITYSDK_OFFSET(0xCDFD350)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFCB40)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETLEVELMAINLIGHTROATATEOFFET_OFFSET UNITYSDK_OFFSET(0xCDFCAB0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETMAINLIGHTROATATEOFFET_OFFSET UNITYSDK_OFFSET(0xCDFC9E0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETMAINLIGHT_OFFSET UNITYSDK_OFFSET(0xCDFC800)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0xCDFBA80)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESTOREMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0xCDFB9F0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILEASYNCWITHDURATION_OFFSET UNITYSDK_OFFSET(0xCDFCCF0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILEASYNC_OFFSET UNITYSDK_OFFSET(0xCDFCB80)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILEWITHDURATION_OFFSET UNITYSDK_OFFSET(0xCDFCC30)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFCBE0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETBOOLPATCH_OFFSET UNITYSDK_OFFSET(0xCDFCF10)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLECHARALIGHT_OFFSET UNITYSDK_OFFSET(0xCDFC520)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLELIGHTPRELOAD_OFFSET UNITYSDK_OFFSET(0xCDFB170)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLESCENELIGHT_OFFSET UNITYSDK_OFFSET(0xCDFC570)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLESHADOWLIGHT_OFFSET UNITYSDK_OFFSET(0xCDFC4D0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLESKYBOX_OFFSET UNITYSDK_OFFSET(0xCDFC3B0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLEUPDATE_OFFSET UNITYSDK_OFFSET(0xCDFC480)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLE_OFFSET UNITYSDK_OFFSET(0xCDFBA30)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENVLOCALVOLUMEOVERRIDEPOSITION_OFFSET UNITYSDK_OFFSET(0xCDFD3A0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETFLOATPATCH_OFFSET UNITYSDK_OFFSET(0xCDFCE50)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETMAINLIGHTSWITCH_OFFSET UNITYSDK_OFFSET(0xCDFC760)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETMONSTERLIGHTBYCAMERADIR_OFFSET UNITYSDK_OFFSET(0xCDFCAF0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETSTAGEVERSION_OFFSET UNITYSDK_OFFSET(0xCDFD250)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETTRANSITIONRATE_OFFSET UNITYSDK_OFFSET(0xCDFD060)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETTRANSITIONTARGETPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFD0C0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETVECTORPATCH_OFFSET UNITYSDK_OFFSET(0xCDFCEB0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xCDFA190)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_SET_OFFSET UNITYSDK_OFFSET(0xCDFD300)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_TICK_OFFSET UNITYSDK_OFFSET(0xCDFC5C0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_TRYGETSENVLOCALVOLUMEOVERRIDEPOSITION_OFFSET UNITYSDK_OFFSET(0xCDFD410)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_TRYONLYONCEINITPROFILE_OFFSET UNITYSDK_OFFSET(0xCDFC080)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_UNINIT_OFFSET UNITYSDK_OFFSET(0xCDFC320)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_UPDATELIGHTMANAGER_OFFSET UNITYSDK_OFFSET(0xCDFAD30)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM_VERSION_OFFSET UNITYSDK_OFFSET(0xCDFA7A0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__APPLYPIPELINEASSETSETTINGSCOMMON_OFFSET UNITYSDK_OFFSET(0xCDFB7F0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__APPLYPIPELINEQUALITYSETTINGSCOMMON_OFFSET UNITYSDK_OFFSET(0xCDFB870)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__APPLYPIPELINESHADOWSETTINGSCOMMON_OFFSET UNITYSDK_OFFSET(0xCDFB830)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__CAPTUREORIGINDEFERLIGHTINGMATANDSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0xCDFE190)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__CLEANUPGBUFFERLIGHTINGMATERIAL_OFFSET UNITYSDK_OFFSET(0xCDFE450)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__GETMATERIALDEBUGINFO_OFFSET UNITYSDK_OFFSET(0xCDFD960)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__LOGGBUFFERLIGHTINGMATDEBUG_OFFSET UNITYSDK_OFFSET(0xCDFDC40)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__RELEASEGBUFFERLIGHTINGMATERIALONENVIRONMENTUNINIT_OFFSET UNITYSDK_OFFSET(0xCDFE960)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__RESTOREDEFERLIGHTINGMATERIALONDISPOSE_OFFSET UNITYSDK_OFFSET(0xCDFE3F0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__SETGLOBALREFLECTIONPROBECOMMON_OFFSET UNITYSDK_OFFSET(0xCDFB8B0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__UPDATEENVIROCLIPSBYCOMPONENTCOMMON_OFFSET UNITYSDK_OFFSET(0xCDFB8F0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__UPDATEENVIROLIGHTCOMMON_OFFSET UNITYSDK_OFFSET(0xCDFB930)
-#define RPG_CLIENT_ENVIRONMENTSYSTEM__UPDATEGBUFFERLIGHTINGMATBYKEYWORD_OFFSET UNITYSDK_OFFSET(0xCDFDC90)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_ADDDYNAMICBLOCKLIGHT_OFFSET UNITYSDK_OFFSET(0xD7C28A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_ADJUSTTEMPTEXTURESIZE_OFFSET UNITYSDK_OFFSET(0xD7C1F20)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_APPLYPATCHTOACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C4E60)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CANCELASYNCINIT_OFFSET UNITYSDK_OFFSET(0xD7C4000)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CANCELTRANSITION_OFFSET UNITYSDK_OFFSET(0xD7C4F00)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7C6950)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEARENVIROPATCH_OFFSET UNITYSDK_OFFSET(0xD7C40B0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEARLOCALVOLUMEOVERRIDEPOSITION_OFFSET UNITYSDK_OFFSET(0xD7C5370)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEARPERLEVEL_OFFSET UNITYSDK_OFFSET(0xD7C41D0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CLEAR_OFFSET UNITYSDK_OFFSET(0xD7C4150)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CREATEENVIRONMENTSYSTEM_OFFSET UNITYSDK_OFFSET(0xD7C30C0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD7C68B0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_DISABLEENVGPUPARTICLE_OFFSET UNITYSDK_OFFSET(0xD7C42F0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_DISABLEENVPARTICLE_OFFSET UNITYSDK_OFFSET(0xD7C4330)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_EXTRACTFILENAME_OFFSET UNITYSDK_OFFSET(0xD7C2310)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_FINISHALLTRANSITIONS_OFFSET UNITYSDK_OFFSET(0xD7C5060)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_FINISHTRANSITION_OFFSET UNITYSDK_OFFSET(0xD7C45B0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_FORCEINITPPEFFECTMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C4810)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_FORCEUPDATESHADOWCACHE_OFFSET UNITYSDK_OFFSET(0xD7C3FB0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETACTIVESCENELIGHTVOLUME_OFFSET UNITYSDK_OFFSET(0xD7C2700)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETCAPSULEAOMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C4770)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETCURRENTACTIVEPROFILENAME_OFFSET UNITYSDK_OFFSET(0xD7C2110)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETDATA_OFFSET UNITYSDK_OFFSET(0xD7C51A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETENVTRANSITMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C4730)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETFRAMECAPTUREMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C4570)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETGBUFFERLIGHTINGMATNAME_OFFSET UNITYSDK_OFFSET(0xD7C5470)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETINSTANCEBOTH_OFFSET UNITYSDK_OFFSET(0xD7C2470)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETISCURSWITCHWORK_OFFSET UNITYSDK_OFFSET(0xD7C4600)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETISVALID_OFFSET UNITYSDK_OFFSET(0xD7C4910)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETLIGHTQUALITYVERSION_OFFSET UNITYSDK_OFFSET(0xD7C50F0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETLOCALVOLUMEMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C4040)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETMATERIALEFFECTMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C4950)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETPPEFFECTMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C4100)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETPROFILEASSETS_OFFSET UNITYSDK_OFFSET(0xD7C5400)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GETTODPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C53C0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GET_ACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C50E0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xD7C2050)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_HASPRIORITY_OFFSET UNITYSDK_OFFSET(0xD7C5010)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITENVIRONMENTSYSTEMASYNC_OFFSET UNITYSDK_OFFSET(0xD7C46A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITENVIRONMENTSYSTEM_OFFSET UNITYSDK_OFFSET(0xD7C4250)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITPERLEVEL_OFFSET UNITYSDK_OFFSET(0xD7C4190)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C50A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_INITSHADERKEYWORDPROPERTYSETTING_OFFSET UNITYSDK_OFFSET(0xD7C2DE0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_INIT_OFFSET UNITYSDK_OFFSET(0xD7C47C0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_ISNOTFULLENVSYS_OFFSET UNITYSDK_OFFSET(0xD7C3C50)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_ISPATCHUSEENVSYSTEMV2_OFFSET UNITYSDK_OFFSET(0xD7C2CB0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_LATETICK_OFFSET UNITYSDK_OFFSET(0xD7C4510)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADBASECONFIG_OFFSET UNITYSDK_OFFSET(0xD7C2E40)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADGLOBALRESOURCEONINITGAME_OFFSET UNITYSDK_OFFSET(0xD7C3CB0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADPROFILESYNCSIMPLE_OFFSET UNITYSDK_OFFSET(0xD7C35C0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOADPROFILESYNC_OFFSET UNITYSDK_OFFSET(0xD7C39B0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_LOGFILTER_OFFSET UNITYSDK_OFFSET(0xD7C1DD0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_NOTIFYENVCHANGE_OFFSET UNITYSDK_OFFSET(0xD7C2400)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_ONSTAGETRANSLATE_OFFSET UNITYSDK_OFFSET(0xD7C3860)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RECORDMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0xD7C38A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEGLOBALRESOURCEONUNINITGAME_OFFSET UNITYSDK_OFFSET(0xD7C3EC0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEPRIORITYWITHDURATION_OFFSET UNITYSDK_OFFSET(0xD7C4CA0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEPRIORITY_OFFSET UNITYSDK_OFFSET(0xD7C4EA0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RELEASEPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C3490)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_REMOVEDYNAMICBLOCKLIGHT_OFFSET UNITYSDK_OFFSET(0xD7C2A60)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RENDER_OFFSET UNITYSDK_OFFSET(0xD7C5240)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C4A30)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETLEVELMAINLIGHTROATATEOFFET_OFFSET UNITYSDK_OFFSET(0xD7C49A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETMAINLIGHTROATATEOFFET_OFFSET UNITYSDK_OFFSET(0xD7C48D0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETMAINLIGHT_OFFSET UNITYSDK_OFFSET(0xD7C46F0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESETPOSTPROCESS_OFFSET UNITYSDK_OFFSET(0xD7C3970)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_RESTOREMAINLIGHTDIR_OFFSET UNITYSDK_OFFSET(0xD7C38E0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILEASYNCWITHDURATION_OFFSET UNITYSDK_OFFSET(0xD7C4BE0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILEASYNC_OFFSET UNITYSDK_OFFSET(0xD7C4A70)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILEWITHDURATION_OFFSET UNITYSDK_OFFSET(0xD7C4B20)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETACTIVEPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C4AD0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETBOOLPATCH_OFFSET UNITYSDK_OFFSET(0xD7C4E00)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLECHARALIGHT_OFFSET UNITYSDK_OFFSET(0xD7C4410)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLELIGHTPRELOAD_OFFSET UNITYSDK_OFFSET(0xD7C3060)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLESCENELIGHT_OFFSET UNITYSDK_OFFSET(0xD7C4460)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLESHADOWLIGHT_OFFSET UNITYSDK_OFFSET(0xD7C43C0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLESKYBOX_OFFSET UNITYSDK_OFFSET(0xD7C42A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLEUPDATE_OFFSET UNITYSDK_OFFSET(0xD7C4370)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENABLE_OFFSET UNITYSDK_OFFSET(0xD7C3920)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETENVLOCALVOLUMEOVERRIDEPOSITION_OFFSET UNITYSDK_OFFSET(0xD7C5290)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETFLOATPATCH_OFFSET UNITYSDK_OFFSET(0xD7C4D40)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETMAINLIGHTSWITCH_OFFSET UNITYSDK_OFFSET(0xD7C4650)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETMONSTERLIGHTBYCAMERADIR_OFFSET UNITYSDK_OFFSET(0xD7C49E0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETSTAGEVERSION_OFFSET UNITYSDK_OFFSET(0xD7C5140)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETTRANSITIONRATE_OFFSET UNITYSDK_OFFSET(0xD7C4F50)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETTRANSITIONTARGETPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C4FB0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SETVECTORPATCH_OFFSET UNITYSDK_OFFSET(0xD7C4DA0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xD7C2080)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_SET_OFFSET UNITYSDK_OFFSET(0xD7C51F0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_TICK_OFFSET UNITYSDK_OFFSET(0xD7C44B0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_TRYGETSENVLOCALVOLUMEOVERRIDEPOSITION_OFFSET UNITYSDK_OFFSET(0xD7C5300)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_TRYONLYONCEINITPROFILE_OFFSET UNITYSDK_OFFSET(0xD7C3F70)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_UNINIT_OFFSET UNITYSDK_OFFSET(0xD7C4210)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_UPDATELIGHTMANAGER_OFFSET UNITYSDK_OFFSET(0xD7C2C20)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM_VERSION_OFFSET UNITYSDK_OFFSET(0xD7C2690)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__APPLYPIPELINEASSETSETTINGSCOMMON_OFFSET UNITYSDK_OFFSET(0xD7C36E0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__APPLYPIPELINEQUALITYSETTINGSCOMMON_OFFSET UNITYSDK_OFFSET(0xD7C3760)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__APPLYPIPELINESHADOWSETTINGSCOMMON_OFFSET UNITYSDK_OFFSET(0xD7C3720)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__CAPTUREORIGINDEFERLIGHTINGMATANDSUBSCRIBE_OFFSET UNITYSDK_OFFSET(0xD7C6080)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__CLEANUPGBUFFERLIGHTINGMATERIAL_OFFSET UNITYSDK_OFFSET(0xD7C6340)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__GETMATERIALDEBUGINFO_OFFSET UNITYSDK_OFFSET(0xD7C5850)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__LOGGBUFFERLIGHTINGMATDEBUG_OFFSET UNITYSDK_OFFSET(0xD7C5B30)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__RELEASEGBUFFERLIGHTINGMATERIALONENVIRONMENTUNINIT_OFFSET UNITYSDK_OFFSET(0xD7C6850)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__RESTOREDEFERLIGHTINGMATERIALONDISPOSE_OFFSET UNITYSDK_OFFSET(0xD7C62E0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__SETGLOBALREFLECTIONPROBECOMMON_OFFSET UNITYSDK_OFFSET(0xD7C37A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__UPDATEENVIROCLIPSBYCOMPONENTCOMMON_OFFSET UNITYSDK_OFFSET(0xD7C37E0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__UPDATEENVIROLIGHTCOMMON_OFFSET UNITYSDK_OFFSET(0xD7C3820)
+#define RPG_CLIENT_ENVIRONMENTSYSTEM__UPDATEGBUFFERLIGHTINGMATBYKEYWORD_OFFSET UNITYSDK_OFFSET(0xD7C5B80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentSystem_TypeDefinitionIndex = 69782;
+	inline static constexpr unsigned int EnvironmentSystem_TypeDefinitionIndex = 71741;
 
 	class EnvironmentSystem : public ::UnityEngine::MonoBehaviour
 	{
@@ -243,244 +243,244 @@ namespace RPG::Client
 		::System::String* cur_GbufferLighingMatPath; // 0x230
 		::System::String* cur_GbufferLighingMatName; // 0x238
 		::System::String* cur_ReplacedGbufferLightingMatPath; // 0x240
-		static ::UnityEngine::Transform** StaticGet_s_PointLightsRoot()
+		static ::System::String** StaticGet_lastLog()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCD90);
-		}
-
-		static ::UnityEngine::Mesh** StaticGet_GpuParticleMesh()
-		{
-			return (::UnityEngine::Mesh**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCD98);
-		}
-
-		static ::UnityEngine::ComputeShader** StaticGet_GpuParticleCS()
-		{
-			return (::UnityEngine::ComputeShader**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDA0);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_GpuParticleRoot()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDA8);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_EnviromentSystemRoot()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDB0);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_ParticleRoot()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDB8);
-		}
-
-		static ::RPG::Client::EnvironmentSystem** StaticGet_instance()
-		{
-			return (::RPG::Client::EnvironmentSystem**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDC0);
-		}
-
-		static ::UnityEngine::Material** StaticGet__OriginPiplineMat()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDC8);
-		}
-
-		static ::UnityEngine::Mesh** StaticGet_QuadMesh()
-		{
-			return (::UnityEngine::Mesh**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDD0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA920);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_keyword_Fog()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDD8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA928);
 		}
 
-		static ::Il2CppArray<::System::Object*>** StaticGet_keywordGroups()
+		static ::RPG::Client::EnvironmentSystem** StaticGet_instance()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDE0);
-		}
-
-		static ::UnityEngine::Material** StaticGet__ReplacedGbufferLightingMat()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDE8);
+			return (::RPG::Client::EnvironmentSystem**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA930);
 		}
 
 		static ::System::String** StaticGet__ReplacedGbufferLightingMatName()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDF0);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_RefProbesSceneRoot()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCDF8);
-		}
-
-		static ::System::Text::StringBuilder** StaticGet_localGBufferLightingMatNameSB()
-		{
-			return (::System::Text::StringBuilder**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE00);
-		}
-
-		static ::System::String** StaticGet_GbufferLighingMatPath()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE08);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_UpdateEnvironmentSystemMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE10);
-		}
-
-		static ::UnityEngine::Camera** StaticGet_s_Camera()
-		{
-			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE18);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_LateUpdateEnvironmentSystemMarker()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE20);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_s_Special_GpuParticleStencilClear()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE28);
-		}
-
-		static ::RPG::CustomRP::CustomAdditionalCameraData** StaticGet_s_CameraData()
-		{
-			return (::RPG::CustomRP::CustomAdditionalCameraData**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE30);
-		}
-
-		static ::System::String** StaticGet_lastLog()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE38);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA938);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_keyword_AdjRefHSV()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE40);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA940);
+		}
+
+		static ::UnityEngine::Mesh** StaticGet_GpuParticleMesh()
+		{
+			return (::UnityEngine::Mesh**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA948);
+		}
+
+		static ::UnityEngine::Camera** StaticGet_s_Camera()
+		{
+			return (::UnityEngine::Camera**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA950);
+		}
+
+		static ::UnityEngine::Material** StaticGet__ReplacedGbufferLightingMat()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA958);
+		}
+
+		static ::UnityEngine::Mesh** StaticGet_QuadMesh()
+		{
+			return (::UnityEngine::Mesh**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA960);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_keywordGroups()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA968);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_s_ParticleRoot()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA970);
+		}
+
+		static ::RPG::CustomRP::CustomAdditionalCameraData** StaticGet_s_CameraData()
+		{
+			return (::RPG::CustomRP::CustomAdditionalCameraData**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA978);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_s_RefProbesSceneRoot()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA980);
+		}
+
+		static ::System::Text::StringBuilder** StaticGet_localGBufferLightingMatNameSB()
+		{
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA988);
+		}
+
+		static ::System::String** StaticGet_GbufferLighingMatPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA990);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_s_EnviromentSystemRoot()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA998);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_UpdateEnvironmentSystemMarker()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9A0);
 		}
 
 		static ::UnityEngine::Material** StaticGet__OldReplacedGbufferLightingMat()
 		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xCE48);
+			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9A8);
 		}
 
-		static ::System::Int32* StaticGet_ESPlayerPosID()
+		static ::UnityEngine::Transform** StaticGet_s_Special_GpuParticleStencilClear()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C50);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9B0);
 		}
 
-		static ::System::Int32* StaticGet_ESWispTexID()
+		static ::UnityEngine::Transform** StaticGet_s_GpuParticleRoot()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C54);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9B8);
 		}
 
-		static ::System::Boolean* StaticGet__IsLoadingInitFinish()
+		static ::UnityEngine::Transform** StaticGet_s_PointLightsRoot()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C58);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9C0);
 		}
 
-		static ::System::Boolean* StaticGet_configLoaded()
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_LateUpdateEnvironmentSystemMarker()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C59);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9C8);
 		}
 
-		static ::System::Int32* StaticGet__GBufferLightingMatLifecycleVersion()
+		static ::UnityEngine::Material** StaticGet__OriginPiplineMat()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C5C);
+			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9D0);
 		}
 
-		static ::System::Int32* StaticGet_ESMultiWindowCharacterLightDirID()
+		static ::UnityEngine::ComputeShader** StaticGet_GpuParticleCS()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C60);
-		}
-
-		static ::System::Int32* StaticGet_ESGradientAtlasID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C64);
-		}
-
-		static ::System::Int32* StaticGet_EnvShaderQualityLowID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C68);
-		}
-
-		static ::System::Boolean* StaticGet_s_UnloadLight()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C6C);
-		}
-
-		static ::System::Boolean* StaticGet_s_GlobalSwitchEnableOPT()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C6D);
-		}
-
-		static ::System::Boolean* StaticGet__OldReplacedGbufferLightingMatOwnedByCache()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C6E);
+			return (::UnityEngine::ComputeShader**)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0xA9D8);
 		}
 
 		static ::System::Int32* StaticGet_IndootShaderID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C70);
-		}
-
-		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet__MATERIAL_LUT_DEBUG()
-		{
-			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C74);
-		}
-
-		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_CRP_FOG_V2()
-		{
-			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C78);
-		}
-
-		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_ADJUST_REFLECTION_HSV()
-		{
-			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C7C);
-		}
-
-		static ::System::Int32* StaticGet_ESRandom01ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C80);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1150);
 		}
 
 		static ::System::Int32* StaticGet_ESGradientColorID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C84);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1154);
 		}
 
-		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet__ENABLE_AO_REFLECTION()
+		static ::System::Int32* StaticGet_EnvShaderQualityLowID()
 		{
-			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C88);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1158);
 		}
 
-		static ::System::Boolean* StaticGet_UseSDRReflectionCube()
+		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_ADJUST_REFLECTION_HSV()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C8C);
-		}
-
-		static ::System::Boolean* StaticGet__IsLoadingGbufferLightingMat()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C8D);
+			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x115C);
 		}
 
 		static ::System::Nullable_1<::System::Boolean>* StaticGet__IsPatchUseEnvSystemV2()
 		{
-			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C8E);
+			return (::System::Nullable_1<::System::Boolean>*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1160);
 		}
 
-		static ::System::Boolean* StaticGet__ReplacedGbufferLightingMatOwnedByCache()
+		static ::System::Boolean* StaticGet_UseSDRReflectionCube()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C90);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1162);
 		}
 
-		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_CRP_FOG_ATMO()
+		static ::System::Boolean* StaticGet_s_GlobalSwitchEnableOPT()
 		{
-			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C94);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1163);
+		}
+
+		static ::System::Boolean* StaticGet__OldReplacedGbufferLightingMatOwnedByCache()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1164);
+		}
+
+		static ::System::Int32* StaticGet_ESRandom01ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1168);
 		}
 
 		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet__ES_SIMP_RTX()
 		{
-			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x2C98);
+			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x116C);
+		}
+
+		static ::System::Int32* StaticGet_ESPlayerPosID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1170);
+		}
+
+		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_CRP_FOG_V2()
+		{
+			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1174);
+		}
+
+		static ::System::Boolean* StaticGet_s_UnloadLight()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1178);
+		}
+
+		static ::System::Boolean* StaticGet_configLoaded()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1179);
+		}
+
+		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet__MATERIAL_LUT_DEBUG()
+		{
+			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x117C);
+		}
+
+		static ::System::Int32* StaticGet__GBufferLightingMatLifecycleVersion()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1180);
+		}
+
+		static ::System::Int32* StaticGet_ESGradientAtlasID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1184);
+		}
+
+		static ::System::Int32* StaticGet_ESWispTexID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1188);
+		}
+
+		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet__ENABLE_AO_REFLECTION()
+		{
+			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x118C);
+		}
+
+		static ::System::Boolean* StaticGet__IsLoadingInitFinish()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1190);
+		}
+
+		static ::System::Boolean* StaticGet__IsLoadingGbufferLightingMat()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1191);
+		}
+
+		static ::System::Boolean* StaticGet__ReplacedGbufferLightingMatOwnedByCache()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1192);
+		}
+
+		static ::UnityEngine::Rendering::ShaderKeyword* StaticGet_CRP_FOG_ATMO()
+		{
+			return (::UnityEngine::Rendering::ShaderKeyword*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1194);
+		}
+
+		static ::System::Int32* StaticGet_ESMultiWindowCharacterLightDirID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "EnvironmentSystem")->GetStaticField(0x1198);
 		}
 
 		// static const ::System::String* ENV_SYS_PREFAB_PATH; // 0x0

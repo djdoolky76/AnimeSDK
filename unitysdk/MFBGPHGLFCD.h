@@ -8,39 +8,38 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MFBGPHGLFCD_COABEEHENAE_OFFSET UNITYSDK_OFFSET(0xB8EAD50)
-#define MFBGPHGLFCD_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB8EAC80)
-#define MFBGPHGLFCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB8EAC50)
-#define MFBGPHGLFCD_DNLKHAFDECB_OFFSET UNITYSDK_OFFSET(0xB8EB540)
-#define MFBGPHGLFCD_GET_ALLPICKEDORDERS_OFFSET UNITYSDK_OFFSET(0xB8EACC0)
-#define MFBGPHGLFCD_GET_FILTER_OFFSET UNITYSDK_OFFSET(0xB8EAC90)
-#define MFBGPHGLFCD_GET_IGNORERETURNEDORDERIDS_OFFSET UNITYSDK_OFFSET(0xB8EACE0)
-#define MFBGPHGLFCD_GET_MAXTOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xB8EACD0)
-#define MFBGPHGLFCD_GET_PICKEDIDS_OFFSET UNITYSDK_OFFSET(0xB8EACA0)
-#define MFBGPHGLFCD_GET_RETURNEDORDERIDS_OFFSET UNITYSDK_OFFSET(0xB8EACB0)
-#define MFBGPHGLFCD_HMHGBBHJJIJ_OFFSET UNITYSDK_OFFSET(0xB8EB290)
-#define MFBGPHGLFCD_JELJDPMMKKH_1_OFFSET UNITYSDK_OFFSET(0xB8EAF60)
-#define MFBGPHGLFCD_JELJDPMMKKH_OFFSET UNITYSDK_OFFSET(0xB8EAF00)
-#define MFBGPHGLFCD_LHMCNGLPNGM_OFFSET UNITYSDK_OFFSET(0xB8EACF0)
-#define MFBGPHGLFCD_LPJBOJIGCHJ_OFFSET UNITYSDK_OFFSET(0xB8EB420)
-#define MFBGPHGLFCD_NKEHBDEBFGD_OFFSET UNITYSDK_OFFSET(0xB8EAE60)
-#define MFBGPHGLFCD_NLCGMCMNAHG_OFFSET UNITYSDK_OFFSET(0xB8EB5F0)
-#define MFBGPHGLFCD_NPDAEEHGMCA_OFFSET UNITYSDK_OFFSET(0xB8EB190)
-#define MFBGPHGLFCD_POBFOKMBDBO_OFFSET UNITYSDK_OFFSET(0xB8EBBB0)
-#define MFBGPHGLFCD_POFLKANFHBO_OFFSET UNITYSDK_OFFSET(0xB8EC240)
+#define MFBGPHGLFCD_COABEEHENAE_OFFSET UNITYSDK_OFFSET(0xC19CB70)
+#define MFBGPHGLFCD_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC19CAA0)
+#define MFBGPHGLFCD_CTOR_OFFSET UNITYSDK_OFFSET(0xC19CA70)
+#define MFBGPHGLFCD_DNLKHAFDECB_OFFSET UNITYSDK_OFFSET(0xC19D360)
+#define MFBGPHGLFCD_GET_ALLPICKEDORDERS_OFFSET UNITYSDK_OFFSET(0xC19CAE0)
+#define MFBGPHGLFCD_GET_FILTER_OFFSET UNITYSDK_OFFSET(0xC19CAB0)
+#define MFBGPHGLFCD_GET_IGNORERETURNEDORDERIDS_OFFSET UNITYSDK_OFFSET(0xC19CB00)
+#define MFBGPHGLFCD_GET_MAXTOTALCOUNT_OFFSET UNITYSDK_OFFSET(0xC19CAF0)
+#define MFBGPHGLFCD_GET_PICKEDIDS_OFFSET UNITYSDK_OFFSET(0xC19CAC0)
+#define MFBGPHGLFCD_GET_RETURNEDORDERIDS_OFFSET UNITYSDK_OFFSET(0xC19CAD0)
+#define MFBGPHGLFCD_HMHGBBHJJIJ_OFFSET UNITYSDK_OFFSET(0xC19D0B0)
+#define MFBGPHGLFCD_JELJDPMMKKH_1_OFFSET UNITYSDK_OFFSET(0xC19CD80)
+#define MFBGPHGLFCD_JELJDPMMKKH_OFFSET UNITYSDK_OFFSET(0xC19CD20)
+#define MFBGPHGLFCD_LHMCNGLPNGM_OFFSET UNITYSDK_OFFSET(0xC19CB10)
+#define MFBGPHGLFCD_LPJBOJIGCHJ_OFFSET UNITYSDK_OFFSET(0xC19D240)
+#define MFBGPHGLFCD_NKEHBDEBFGD_OFFSET UNITYSDK_OFFSET(0xC19CC80)
+#define MFBGPHGLFCD_NLCGMCMNAHG_OFFSET UNITYSDK_OFFSET(0xC19D410)
+#define MFBGPHGLFCD_NPDAEEHGMCA_OFFSET UNITYSDK_OFFSET(0xC19CFB0)
+#define MFBGPHGLFCD_POBFOKMBDBO_OFFSET UNITYSDK_OFFSET(0xC19D9D0)
+#define MFBGPHGLFCD_POFLKANFHBO_OFFSET UNITYSDK_OFFSET(0xC19E060)
 
-inline static constexpr unsigned int MFBGPHGLFCD_TypeDefinitionIndex = 74862;
+inline static constexpr unsigned int MFBGPHGLFCD_TypeDefinitionIndex = 77189;
 
 	class MFBGPHGLFCD : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::UInt64>* _PickedIds_k__BackingField; // 0x10
 		::RPG::Client::BlindBox::Trade::BlindBoxOrderFilter* _Filter_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::BlindBox::Trade::PublicBlindBoxTradeOrder*>* _AllPickedOrders_k__BackingField; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::UInt64>* _ReturnedOrderIds_k__BackingField; // 0x28
-		::System::Boolean _IgnoreReturnedOrderIds_k__BackingField; // 0x30
-		::System::Byte _padding0[0x3];
-		::System::Int32 _MaxTotalCount_k__BackingField; // 0x34
+		::System::Collections::Generic::HashSet_1<::System::UInt64>* _ReturnedOrderIds_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::BlindBox::Trade::PublicBlindBoxTradeOrder*>* _AllPickedOrders_k__BackingField; // 0x28
+		::System::Int32 _MaxTotalCount_k__BackingField; // 0x30
+		::System::Boolean _IgnoreReturnedOrderIds_k__BackingField; // 0x34
 		::System::Void _ctor(::RPG::Client::BlindBox::Trade::BlindBoxOrderFilter* a1, ::System::Collections::Generic::HashSet_1<::System::UInt64>* a2, ::System::Collections::Generic::HashSet_1<::System::UInt64>* a3, ::System::Collections::Generic::List_1<::RPG::Client::BlindBox::Trade::PublicBlindBoxTradeOrder*>* a4, ::System::Int32 a5, ::System::Boolean a6)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BlindBox::Trade::BlindBoxOrderFilter*, ::System::Collections::Generic::HashSet_1<::System::UInt64>*, ::System::Collections::Generic::HashSet_1<::System::UInt64>*, ::System::Collections::Generic::List_1<::RPG::Client::BlindBox::Trade::PublicBlindBoxTradeOrder*>*, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + MFBGPHGLFCD_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);

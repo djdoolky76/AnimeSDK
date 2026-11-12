@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PunkLordHonorType_TypeDefinitionIndex = 66749;
+	inline static constexpr unsigned int PunkLordHonorType_TypeDefinitionIndex = 68685;
 
 	enum class PunkLordHonorType : ::System::Int32
 	{

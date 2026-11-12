@@ -5,41 +5,41 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define JAHCGOLIOMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1654BC10)
-#define JAHCGOLIOMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1654BC50)
-#define JAHCGOLIOMF___C___APPLYCYRENESKILLPARAMSMODIFICATIONSFORAVATARSKILL_B__57_0_OFFSET UNITYSDK_OFFSET(0x1654BC60)
-#define JAHCGOLIOMF___C___APPLYCYRENESKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__58_0_OFFSET UNITYSDK_OFFSET(0x1654BCA0)
-#define JAHCGOLIOMF___C___APPLYCYRENESKILLPARAMSMODIFICATIONSFORSERVANTSKILL_B__59_0_OFFSET UNITYSDK_OFFSET(0x1654BCF0)
-#define JAHCGOLIOMF___C___APPLYRANKSKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__60_0_OFFSET UNITYSDK_OFFSET(0x1654BD30)
+#define JAHCGOLIOMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB883F30)
+#define JAHCGOLIOMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB883F70)
+#define JAHCGOLIOMF___C___APPLYRANKSKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__71_0_OFFSET UNITYSDK_OFFSET(0xB884050)
+#define JAHCGOLIOMF___C___APPLYSPECIALSKILLPARAMSMODIFICATIONSFORAVATARSKILL_B__68_0_OFFSET UNITYSDK_OFFSET(0xB883F80)
+#define JAHCGOLIOMF___C___APPLYSPECIALSKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__69_0_OFFSET UNITYSDK_OFFSET(0xB883FC0)
+#define JAHCGOLIOMF___C___APPLYSPECIALSKILLPARAMSMODIFICATIONSFORSERVANTSKILL_B__70_0_OFFSET UNITYSDK_OFFSET(0xB884010)
 
-inline static constexpr unsigned int JAHCGOLIOMF___c_TypeDefinitionIndex = 59061;
+inline static constexpr unsigned int JAHCGOLIOMF___c_TypeDefinitionIndex = 60336;
 
 	class JAHCGOLIOMF___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__57_0()
+		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__71_0()
 		{
-			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DFE0);
+			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CA80);
 		}
 
-		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__58_0()
+		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__68_0()
 		{
-			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DFE8);
+			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CA88);
 		}
 
-		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__60_0()
+		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__69_0()
 		{
-			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DFF0);
+			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CA90);
+		}
+
+		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__70_0()
+		{
+			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CA98);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DFF8);
-		}
-
-		static ::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>** StaticGet___9__59_0()
-		{
-			return (::System::Func_3<::System::UInt32, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E000);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CAA0);
 		}
 
 		static ::System::Void _cctor()
@@ -52,24 +52,24 @@ inline static constexpr unsigned int JAHCGOLIOMF___c_TypeDefinitionIndex = 59061
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C_CTOR_OFFSET))(this);
 		}
 
-		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplyCyreneSkillParamsModificationsForAvatarSkill_b__57_0(::System::UInt32 a1, ::System::UInt32 a2)
+		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplySpecialSkillParamsModificationsForAvatarSkill_b__68_0(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYCYRENESKILLPARAMSMODIFICATIONSFORAVATARSKILL_B__57_0_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYSPECIALSKILLPARAMSMODIFICATIONSFORAVATARSKILL_B__68_0_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplyCyreneSkillParamsModificationsForBattleEventSkill_b__58_0(::System::UInt32 a1, ::System::UInt32 a2)
+		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplySpecialSkillParamsModificationsForBattleEventSkill_b__69_0(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYCYRENESKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__58_0_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYSPECIALSKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__69_0_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplyCyreneSkillParamsModificationsForServantSkill_b__59_0(::System::UInt32 a1, ::System::UInt32 a2)
+		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplySpecialSkillParamsModificationsForServantSkill_b__70_0(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYCYRENESKILLPARAMSMODIFICATIONSFORSERVANTSKILL_B__59_0_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYSPECIALSKILLPARAMSMODIFICATIONSFORSERVANTSKILL_B__70_0_OFFSET))(this, a1, a2);
 		}
 
-		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplyRankSkillParamsModificationsForBattleEventSkill_b__60_0(::System::UInt32 a1, ::System::UInt32 a2)
+		::Il2CppArray<::RPG::GameCore::FixPoint>* __ApplyRankSkillParamsModificationsForBattleEventSkill_b__71_0(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYRANKSKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__60_0_OFFSET))(this, a1, a2);
+			return ((::Il2CppArray<::RPG::GameCore::FixPoint>*(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF___C___APPLYRANKSKILLPARAMSMODIFICATIONSFORBATTLEEVENTSKILL_B__71_0_OFFSET))(this, a1, a2);
 		}
 
 	};

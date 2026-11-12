@@ -5,11 +5,11 @@
 namespace RPG::Client { class IRogueTournPersonaStyle; }
 namespace System { class Object; }
 
-#define DJKFHMLKHFC_CTOR_OFFSET UNITYSDK_OFFSET(0xF239840)
-#define DJKFHMLKHFC_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xF239850)
-#define DJKFHMLKHFC_PJGLJFOHJCH_OFFSET UNITYSDK_OFFSET(0xF2398E0)
+#define DJKFHMLKHFC_CTOR_OFFSET UNITYSDK_OFFSET(0xFFBADC0)
+#define DJKFHMLKHFC_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xFFBADD0)
+#define DJKFHMLKHFC_PJGLJFOHJCH_OFFSET UNITYSDK_OFFSET(0xFFBAE60)
 
-inline static constexpr unsigned int DJKFHMLKHFC_TypeDefinitionIndex = 67257;
+inline static constexpr unsigned int DJKFHMLKHFC_TypeDefinitionIndex = 69201;
 
 	class DJKFHMLKHFC : public ::System::Object
 	{

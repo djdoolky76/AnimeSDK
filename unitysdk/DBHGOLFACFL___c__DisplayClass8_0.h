@@ -4,10 +4,10 @@
 class DBHGOLFACFL;
 class FKKIAHNJCBC;
 
-#define DBHGOLFACFL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE18D0)
-#define DBHGOLFACFL___C__DISPLAYCLASS8_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xDFE19F0)
+#define DBHGOLFACFL___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEB83A20)
+#define DBHGOLFACFL___C__DISPLAYCLASS8_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xEB83B40)
 
-inline static constexpr unsigned int DBHGOLFACFL___c__DisplayClass8_0_TypeDefinitionIndex = 79438;
+inline static constexpr unsigned int DBHGOLFACFL___c__DisplayClass8_0_TypeDefinitionIndex = 82215;
 
 	class DBHGOLFACFL___c__DisplayClass8_0 : public ::System::Object
 	{

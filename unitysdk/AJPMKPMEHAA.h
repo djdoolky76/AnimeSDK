@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AJPMKPMEHAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8900E0)
+#define AJPMKPMEHAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA117F0)
 
-inline static constexpr unsigned int AJPMKPMEHAA_TypeDefinitionIndex = 41955;
+inline static constexpr unsigned int AJPMKPMEHAA_TypeDefinitionIndex = 42930;
 
 	class AJPMKPMEHAA : public ::System::Object
 	{

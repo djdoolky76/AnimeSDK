@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeBattleEventOwner; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DFBGNKFFMPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE8233A0)
-#define DFBGNKFFMPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE8233D0)
+#define DFBGNKFFMPM_CTOR_OFFSET UNITYSDK_OFFSET(0xF1838E0)
+#define DFBGNKFFMPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF183910)
 
-inline static constexpr unsigned int DFBGNKFFMPM_TypeDefinitionIndex = 57998;
+inline static constexpr unsigned int DFBGNKFFMPM_TypeDefinitionIndex = 59237;
 
 	class DFBGNKFFMPM
 	{

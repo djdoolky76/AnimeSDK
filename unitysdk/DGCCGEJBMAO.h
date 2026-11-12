@@ -8,21 +8,21 @@ class PCOMPBCHHKC;
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DGCCGEJBMAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E8EB0)
-#define DGCCGEJBMAO_EIDJHELAEIF_OFFSET UNITYSDK_OFFSET(0x1C5E93F0)
-#define DGCCGEJBMAO_FAONPKIHDJF_OFFSET UNITYSDK_OFFSET(0x1C5E8F70)
-#define DGCCGEJBMAO_MBAMPMNANII_OFFSET UNITYSDK_OFFSET(0x1C5E9140)
+#define DGCCGEJBMAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76A600)
+#define DGCCGEJBMAO_EIDJHELAEIF_OFFSET UNITYSDK_OFFSET(0x1D76AB40)
+#define DGCCGEJBMAO_FAONPKIHDJF_OFFSET UNITYSDK_OFFSET(0x1D76A6C0)
+#define DGCCGEJBMAO_MBAMPMNANII_OFFSET UNITYSDK_OFFSET(0x1D76A890)
 
-inline static constexpr unsigned int DGCCGEJBMAO_TypeDefinitionIndex = 36902;
+inline static constexpr unsigned int DGCCGEJBMAO_TypeDefinitionIndex = 37830;
 
 	class DGCCGEJBMAO : public ::System::Object
 	{
 	public:
 		::System::Action_1<::PCOMPBCHHKC*>* MHGNKLFKMHA; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* AHGGAFJBEPH; // 0x18
-		::System::Collections::Generic::List_1<::PCOMPBCHHKC*>* HJDCJIJJFCH; // 0x20
-		::System::Action_1<::PCOMPBCHHKC*>* IFGNNFBOGIA; // 0x28
-		::HNNHKPKCMJD* FLMODBLFAGD; // 0x30
+		::System::Collections::Generic::List_1<::PCOMPBCHHKC*>* HJDCJIJJFCH; // 0x18
+		::System::Action_1<::PCOMPBCHHKC*>* IFGNNFBOGIA; // 0x20
+		::HNNHKPKCMJD* FLMODBLFAGD; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* AHGGAFJBEPH; // 0x30
 		::DGCCGEJBMAO_ReceiveMode NMLENCDBHAA; // 0x38
 		::System::Void _ctor(::HNNHKPKCMJD* a1, ::System::Action_1<::PCOMPBCHHKC*>* a2, ::System::Action_1<::PCOMPBCHHKC*>* a3)
 		{

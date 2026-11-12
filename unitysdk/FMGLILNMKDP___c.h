@@ -5,23 +5,23 @@ class FMGLILNMKDP_AnimatedItem;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define FMGLILNMKDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15855FF0)
-#define FMGLILNMKDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15856020)
-#define FMGLILNMKDP___C___SORT_B__7_0_OFFSET UNITYSDK_OFFSET(0x15856030)
+#define FMGLILNMKDP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x167C6490)
+#define FMGLILNMKDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x167C64C0)
+#define FMGLILNMKDP___C___SORT_B__7_0_OFFSET UNITYSDK_OFFSET(0x167C64D0)
 
-inline static constexpr unsigned int FMGLILNMKDP___c_TypeDefinitionIndex = 70336;
+inline static constexpr unsigned int FMGLILNMKDP___c_TypeDefinitionIndex = 72302;
 
 	class FMGLILNMKDP___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x568D0);
-		}
-
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x568D8);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x690C0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x690C8);
 		}
 
 		static ::System::Void _cctor()

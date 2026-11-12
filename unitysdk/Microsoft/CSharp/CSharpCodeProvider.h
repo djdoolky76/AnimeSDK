@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Microsoft/CSharp/CodeDomProvider.h"
 
-#define MICROSOFT_CSHARP_CSHARPCODEPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE91CE0)
+#define MICROSOFT_CSHARP_CSHARPCODEPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x201414C0)
 
 namespace Microsoft::CSharp
 {

@@ -5,10 +5,10 @@ class EBBOJACNHEC;
 class ODNBCBEINNC;
 namespace RPG::Client { class RogueTournClassicRoomTypeData; }
 
-#define AKJILFAGADN_BNGLDMFFPDF_OFFSET UNITYSDK_OFFSET(0x12CD4A60)
-#define AKJILFAGADN_JHLGANONJBP_OFFSET UNITYSDK_OFFSET(0x12CD4AB0)
+#define AKJILFAGADN_BNGLDMFFPDF_OFFSET UNITYSDK_OFFSET(0x12DBAE70)
+#define AKJILFAGADN_JHLGANONJBP_OFFSET UNITYSDK_OFFSET(0x12DBAEC0)
 
-inline static constexpr unsigned int AKJILFAGADN_TypeDefinitionIndex = 67645;
+inline static constexpr unsigned int AKJILFAGADN_TypeDefinitionIndex = 69589;
 
 	class AKJILFAGADN : public ::System::Object
 	{

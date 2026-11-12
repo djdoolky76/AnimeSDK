@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-#define JNJKCEIJENA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB288C50)
-#define JNJKCEIJENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB288C80)
-#define JNJKCEIJENA___C___LISTENLEVELVAR_B__15_0_OFFSET UNITYSDK_OFFSET(0xB288C90)
+#define JNJKCEIJENA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAB2E90)
+#define JNJKCEIJENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB2EC0)
+#define JNJKCEIJENA___C___LISTENLEVELVAR_B__15_0_OFFSET UNITYSDK_OFFSET(0xBAB2ED0)
 
-inline static constexpr unsigned int JNJKCEIJENA___c_TypeDefinitionIndex = 77141;
+inline static constexpr unsigned int JNJKCEIJENA___c_TypeDefinitionIndex = 79475;
 
 	class JNJKCEIJENA___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::JNJKCEIJENA*, ::System::Int32, ::System::String*>** StaticGet___9__15_0()
-		{
-			return (::System::Action_3<::JNJKCEIJENA*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22CC0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22CC8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17C20);
+		}
+
+		static ::System::Action_3<::JNJKCEIJENA*, ::System::Int32, ::System::String*>** StaticGet___9__15_0()
+		{
+			return (::System::Action_3<::JNJKCEIJENA*, ::System::Int32, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17C28);
 		}
 
 		static ::System::Void _cctor()

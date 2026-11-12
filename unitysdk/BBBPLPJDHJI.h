@@ -4,18 +4,18 @@
 namespace RPG::GameCore { class CollectHeartDialCameraIndex; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBBPLPJDHJI_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E82A40)
-#define BBBPLPJDHJI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E82760)
-#define BBBPLPJDHJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E82790)
+#define BBBPLPJDHJI_CCTOR_OFFSET UNITYSDK_OFFSET(0x16D073B0)
+#define BBBPLPJDHJI_CTOR_OFFSET UNITYSDK_OFFSET(0x16D070D0)
+#define BBBPLPJDHJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D07100)
 
-inline static constexpr unsigned int BBBPLPJDHJI_TypeDefinitionIndex = 52699;
+inline static constexpr unsigned int BBBPLPJDHJI_TypeDefinitionIndex = 53806;
 
 	class BBBPLPJDHJI
 	{
 	public:
 		static ::RPG::GameCore::StringHash* StaticGet_DCDBCKCIDCI()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "BBBPLPJDHJI")->GetStaticField(0x15060);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "BBBPLPJDHJI")->GetStaticField(0x14840);
 		}
 
 		// static const ::System::String* FPICBLBBAAN; // 0x0

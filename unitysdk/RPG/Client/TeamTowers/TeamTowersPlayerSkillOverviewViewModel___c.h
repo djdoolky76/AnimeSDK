@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1FD8D0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1FD910)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C__GET_PLAYERSKILLGROUPS_B__7_0_OFFSET UNITYSDK_OFFSET(0xE1FD950)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_0_OFFSET UNITYSDK_OFFSET(0xE1FD920)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_1_OFFSET UNITYSDK_OFFSET(0xE1FD930)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xECAA9D0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xECAAA10)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C__GET_PLAYERSKILLGROUPS_B__7_0_OFFSET UNITYSDK_OFFSET(0xECAAA50)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_0_OFFSET UNITYSDK_OFFSET(0xECAAA20)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSPLAYERSKILLOVERVIEWVIEWMODEL___C___INITPLAYERSKILLS_B__4_1_OFFSET UNITYSDK_OFFSET(0xECAAA30)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersPlayerSkillOverviewViewModel___c_TypeDefinitionIndex = 79085;
+	inline static constexpr unsigned int TeamTowersPlayerSkillOverviewViewModel___c_TypeDefinitionIndex = 81861;
 
 	class TeamTowersPlayerSkillOverviewViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x13730);
-		}
-
-		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x13738);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x24800);
 		}
 
 		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x13740);
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::TeamTowers::TeamTowersPlayerSkillViewModel*>*>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x24808);
+		}
+
+		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x24810);
 		}
 
 		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x13748);
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersPlayerSkillGroupViewModel*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x24818);
 		}
 
 		static ::System::Void _cctor()

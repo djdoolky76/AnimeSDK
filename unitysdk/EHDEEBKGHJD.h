@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByRollShopResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EHDEEBKGHJD_CTOR_OFFSET UNITYSDK_OFFSET(0x154A3F20)
-#define EHDEEBKGHJD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x154A3F50)
+#define EHDEEBKGHJD_CTOR_OFFSET UNITYSDK_OFFSET(0x163A2B80)
+#define EHDEEBKGHJD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163A2BB0)
 
-inline static constexpr unsigned int EHDEEBKGHJD_TypeDefinitionIndex = 53121;
+inline static constexpr unsigned int EHDEEBKGHJD_TypeDefinitionIndex = 54283;
 
 	class EHDEEBKGHJD
 	{

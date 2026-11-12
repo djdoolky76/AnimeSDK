@@ -6,19 +6,19 @@ namespace RPG::GameCore { class AnimatorClipZoneDescConfig; }
 namespace RPG::GameCore { class AnimatorClipZoneNewConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LLIAIIOKNFI_CTOR_OFFSET UNITYSDK_OFFSET(0xB76EEB0)
-#define LLIAIIOKNFI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB76F5B0)
-#define LLIAIIOKNFI_GBKDEGGOKJI_OFFSET UNITYSDK_OFFSET(0xB76F650)
-#define LLIAIIOKNFI_LCGEFPGFDHM_OFFSET UNITYSDK_OFFSET(0xB76F360)
-#define LLIAIIOKNFI_LEEFMLEPGLB_OFFSET UNITYSDK_OFFSET(0xB76EED0)
+#define LLIAIIOKNFI_CTOR_OFFSET UNITYSDK_OFFSET(0xC00E620)
+#define LLIAIIOKNFI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC00ED20)
+#define LLIAIIOKNFI_GBKDEGGOKJI_OFFSET UNITYSDK_OFFSET(0xC00EDC0)
+#define LLIAIIOKNFI_LCGEFPGFDHM_OFFSET UNITYSDK_OFFSET(0xC00EAD0)
+#define LLIAIIOKNFI_LEEFMLEPGLB_OFFSET UNITYSDK_OFFSET(0xC00E640)
 
-inline static constexpr unsigned int LLIAIIOKNFI_TypeDefinitionIndex = 55914;
+inline static constexpr unsigned int LLIAIIOKNFI_TypeDefinitionIndex = 57117;
 
 	class LLIAIIOKNFI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AnimatorClipZoneNewConfig* FJBNJOOFBHB; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::AnimatorClipZoneDescConfig*>* PFNNLAGAMLE; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::GameCore::AnimatorClipZoneDescConfig*>* PFNNLAGAMLE; // 0x10
+		::RPG::GameCore::AnimatorClipZoneNewConfig* FJBNJOOFBHB; // 0x18
 		::System::Void _ctor(::RPG::GameCore::AnimatorClipZoneNewConfig* a1, ::RPG::GameCore::AnimatorClipZoneNewConfig* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AnimatorClipZoneNewConfig*, ::RPG::GameCore::AnimatorClipZoneNewConfig*))((::PBYTE)hIl2Cpp + LLIAIIOKNFI_CTOR_OFFSET))(this, a1, a2);

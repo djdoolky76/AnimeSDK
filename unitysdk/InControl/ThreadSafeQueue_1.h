@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int ThreadSafeQueue_1_TypeDefinitionIndex = 40916;
+	inline static constexpr unsigned int ThreadSafeQueue_1_TypeDefinitionIndex = 41891;
 
 	template <typename T>
 	class ThreadSafeQueue_1 : public ::System::Object

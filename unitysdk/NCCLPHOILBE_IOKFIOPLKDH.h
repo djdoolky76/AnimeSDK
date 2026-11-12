@@ -11,10 +11,10 @@
 #include "unitysdk/BGABPOKKOGD.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NCCLPHOILBE_IOKFIOPLKDH_BHBHABIGGDI_OFFSET UNITYSDK_OFFSET(0x1F290)
-#define NCCLPHOILBE_IOKFIOPLKDH_IBAMHNHGNCB_OFFSET UNITYSDK_OFFSET(0x1F2F0)
+#define NCCLPHOILBE_IOKFIOPLKDH_BHBHABIGGDI_OFFSET UNITYSDK_OFFSET(0x23DE0)
+#define NCCLPHOILBE_IOKFIOPLKDH_IBAMHNHGNCB_OFFSET UNITYSDK_OFFSET(0x23E40)
 
-inline static constexpr unsigned int NCCLPHOILBE_IOKFIOPLKDH_TypeDefinitionIndex = 71593;
+inline static constexpr unsigned int NCCLPHOILBE_IOKFIOPLKDH_TypeDefinitionIndex = 73581;
 
 	struct alignas(8) NCCLPHOILBE_IOKFIOPLKDH
 	{
@@ -27,10 +27,10 @@ inline static constexpr unsigned int NCCLPHOILBE_IOKFIOPLKDH_TypeDefinitionIndex
 		::RPG::Client::UIFloatingTextType JMNJKGNBNJN; // 0x30
 		::System::Byte _padding1[0x4];
 		::CHMCAGBDPJH MCAFCOEAPAB; // 0x38
-		::UnityEngine::Vector3 CLABKMPLKGB; // 0x148
+		::UnityEngine::Vector3 CLABKMPLKGB; // 0x150
 		::System::Byte _padding2[0x4];
-		::RPG::Client::TextID BFLJGKBPMGE; // 0x158
-		::RPG::GameCore::DamateTextFontStyle JFMKCFHNFDF; // 0x168
+		::RPG::Client::TextID BFLJGKBPMGE; // 0x160
+		::RPG::GameCore::DamateTextFontStyle JFMKCFHNFDF; // 0x170
 		::RPG::GameCore::TeamType BHBHABIGGDI()
 		{
 			return ((::RPG::GameCore::TeamType(*)(::PVOID))((::PBYTE)hIl2Cpp + NCCLPHOILBE_IOKFIOPLKDH_BHBHABIGGDI_OFFSET))(this);

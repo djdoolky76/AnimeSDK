@@ -4,18 +4,18 @@
 class LBPEMINKHEN;
 namespace System { class Object; }
 
-#define LBPEMINKHEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8E0C00)
-#define LBPEMINKHEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E0C40)
-#define LBPEMINKHEN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8E0C50)
+#define LBPEMINKHEN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC1E7E0)
+#define LBPEMINKHEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC1E820)
+#define LBPEMINKHEN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC1E830)
 
-inline static constexpr unsigned int LBPEMINKHEN___c_TypeDefinitionIndex = 28168;
+inline static constexpr unsigned int LBPEMINKHEN___c_TypeDefinitionIndex = 28758;
 
 	class LBPEMINKHEN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30E50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27E60);
 		}
 
 		static ::System::Void _cctor()

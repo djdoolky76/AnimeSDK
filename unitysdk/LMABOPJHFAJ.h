@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsAllLightTeamDied; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMABOPJHFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB779800)
-#define LMABOPJHFAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB779830)
+#define LMABOPJHFAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC019890)
+#define LMABOPJHFAJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC0198C0)
 
-inline static constexpr unsigned int LMABOPJHFAJ_TypeDefinitionIndex = 54633;
+inline static constexpr unsigned int LMABOPJHFAJ_TypeDefinitionIndex = 55799;
 
 	class LMABOPJHFAJ
 	{

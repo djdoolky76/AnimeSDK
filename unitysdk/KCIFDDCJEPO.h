@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvEndIsometric; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCIFDDCJEPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB3385E0)
-#define KCIFDDCJEPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB338610)
+#define KCIFDDCJEPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBC2FF0)
+#define KCIFDDCJEPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBC3020)
 
-inline static constexpr unsigned int KCIFDDCJEPO_TypeDefinitionIndex = 52357;
+inline static constexpr unsigned int KCIFDDCJEPO_TypeDefinitionIndex = 53463;
 
 	class KCIFDDCJEPO
 	{

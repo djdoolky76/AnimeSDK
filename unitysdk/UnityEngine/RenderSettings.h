@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Object.h"
 namespace UnityEngine { class Light; }
 
-#define UNITYENGINE_RENDERSETTINGS_GET_SUN_OFFSET UNITYSDK_OFFSET(0x1F416BC0)
+#define UNITYENGINE_RENDERSETTINGS_GET_SUN_OFFSET UNITYSDK_OFFSET(0x206C7780)
 
 namespace UnityEngine
 {

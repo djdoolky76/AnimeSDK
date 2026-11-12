@@ -7,13 +7,13 @@
 namespace RPGTools::Timeline { class HidePropBehaviour; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_HIDEPROPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE900C00)
-#define RPGTOOLS_TIMELINE_HIDEPROPCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE900DB0)
-#define RPGTOOLS_TIMELINE_HIDEPROPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE900DA0)
+#define RPGTOOLS_TIMELINE_HIDEPROPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xF3DC430)
+#define RPGTOOLS_TIMELINE_HIDEPROPCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xF3DC5E0)
+#define RPGTOOLS_TIMELINE_HIDEPROPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xF3DC5D0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int HidePropClip_TypeDefinitionIndex = 48138;
+	inline static constexpr unsigned int HidePropClip_TypeDefinitionIndex = 49169;
 
 	class HidePropClip : public ::UnityEngine::Playables::PlayableAsset
 	{

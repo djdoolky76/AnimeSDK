@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchLockTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IDJHLMEOFFF_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED6E20)
-#define IDJHLMEOFFF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15ED6E40)
+#define IDJHLMEOFFF_CTOR_OFFSET UNITYSDK_OFFSET(0x16E41660)
+#define IDJHLMEOFFF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16E41680)
 
-inline static constexpr unsigned int IDJHLMEOFFF_TypeDefinitionIndex = 59156;
+inline static constexpr unsigned int IDJHLMEOFFF_TypeDefinitionIndex = 60432;
 
 	class IDJHLMEOFFF
 	{

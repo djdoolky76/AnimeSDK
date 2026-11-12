@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/BitFlag_1.h"
 class KLEFGGIHGMI;
 
-inline static constexpr unsigned int ILPJNILHLGC_TypeDefinitionIndex = 73918;
+inline static constexpr unsigned int ILPJNILHLGC_TypeDefinitionIndex = 76046;
 
 	struct alignas(8) ILPJNILHLGC
 	{

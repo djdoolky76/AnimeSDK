@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 
-#define HACBPONPEJB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B71FF0)
+#define HACBPONPEJB_CTOR_OFFSET UNITYSDK_OFFSET(0x16AF8770)
 
-inline static constexpr unsigned int HACBPONPEJB_TypeDefinitionIndex = 74108;
+inline static constexpr unsigned int HACBPONPEJB_TypeDefinitionIndex = 76256;
 
 	class HACBPONPEJB : public ::System::Object
 	{

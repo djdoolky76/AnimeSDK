@@ -3,10 +3,10 @@
 class PHKIDNKGPOH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define FJIMLAHGACA_CTOR_OFFSET UNITYSDK_OFFSET(0x157D0DE0)
-#define FJIMLAHGACA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157D0E10)
+#define FJIMLAHGACA_CTOR_OFFSET UNITYSDK_OFFSET(0x1673B270)
+#define FJIMLAHGACA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1673B2A0)
 
-inline static constexpr unsigned int FJIMLAHGACA_TypeDefinitionIndex = 52973;
+inline static constexpr unsigned int FJIMLAHGACA_TypeDefinitionIndex = 54132;
 
 	class FJIMLAHGACA
 	{

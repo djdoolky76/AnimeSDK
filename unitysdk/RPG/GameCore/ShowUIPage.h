@@ -8,13 +8,13 @@ namespace RPG::GameCore { class UIImageNode; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWUIPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE7B70)
-#define RPG_GAMECORE_SHOWUIPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE7B80)
-#define RPG_GAMECORE_SHOWUIPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE7B40)
+#define RPG_GAMECORE_SHOWUIPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF9A40)
+#define RPG_GAMECORE_SHOWUIPAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECF9A50)
+#define RPG_GAMECORE_SHOWUIPAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECF9A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowUIPage_TypeDefinitionIndex = 23840;
+	inline static constexpr unsigned int ShowUIPage_TypeDefinitionIndex = 24297;
 
 	class ShowUIPage : public ::RPG::GameCore::TaskConfig
 	{

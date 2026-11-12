@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfGlobalSkillType_TypeDefinitionIndex = 18484;
+	inline static constexpr unsigned int ElfGlobalSkillType_TypeDefinitionIndex = 18644;
 
 	enum class ElfGlobalSkillType : ::System::Int32
 	{

@@ -6,8 +6,8 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE57660)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE575B0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME_CCTOR_OFFSET UNITYSDK_OFFSET(0x20106FF0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x20106F40)
 
 namespace System::Net::Http::Headers
 {
@@ -18,7 +18,7 @@ namespace System::Net::Http::Headers
 	public:
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet_ToString()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "DateTime")->GetStaticField(0x2470);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "DateTime")->GetStaticField(0x48510);
 		}
 
 		static ::System::Void _cctor()

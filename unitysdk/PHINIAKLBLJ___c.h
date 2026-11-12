@@ -4,18 +4,18 @@
 class PHINIAKLBLJ;
 namespace System { class Object; }
 
-#define PHINIAKLBLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF3DC90)
-#define PHINIAKLBLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3DCD0)
-#define PHINIAKLBLJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF3DCE0)
+#define PHINIAKLBLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F20E9B0)
+#define PHINIAKLBLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F20E9F0)
+#define PHINIAKLBLJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F20EA00)
 
-inline static constexpr unsigned int PHINIAKLBLJ___c_TypeDefinitionIndex = 26140;
+inline static constexpr unsigned int PHINIAKLBLJ___c_TypeDefinitionIndex = 26667;
 
 	class PHINIAKLBLJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40110);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36860);
 		}
 
 		static ::System::Void _cctor()

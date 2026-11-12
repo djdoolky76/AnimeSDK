@@ -3,7 +3,7 @@
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryLightCharacterGroup_StoryLightCharacterGroupType_TypeDefinitionIndex = 48344;
+	inline static constexpr unsigned int StoryLightCharacterGroup_StoryLightCharacterGroupType_TypeDefinitionIndex = 49385;
 
 	enum class StoryLightCharacterGroup_StoryLightCharacterGroupType : ::System::Int32
 	{

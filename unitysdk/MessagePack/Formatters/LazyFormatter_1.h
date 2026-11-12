@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int LazyFormatter_1_TypeDefinitionIndex = 7503;
+	inline static constexpr unsigned int LazyFormatter_1_TypeDefinitionIndex = 7514;
 
 	template <typename T>
 	class LazyFormatter_1 : public ::System::Object

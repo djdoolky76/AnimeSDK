@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityFindTrotterConstValueRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONSTVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D366510)
-#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D365F90)
+#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONSTVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E574E40)
+#define RPG_GAMECORE_ACTIVITYFINDTROTTERCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5748C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFindTrotterConstValueRow_TypeDefinitionIndex = 11613;
+	inline static constexpr unsigned int ActivityFindTrotterConstValueRow_TypeDefinitionIndex = 11664;
 
 	class ActivityFindTrotterConstValueRow : public ::System::Object
 	{

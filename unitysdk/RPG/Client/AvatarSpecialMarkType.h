@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarSpecialMarkType_TypeDefinitionIndex = 60094;
+	inline static constexpr unsigned int AvatarSpecialMarkType_TypeDefinitionIndex = 61378;
 
 	enum class AvatarSpecialMarkType : ::System::Int32
 	{

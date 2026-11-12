@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleModifyValue; }
 
-#define AECAPAPLEIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C878BA0)
-#define AECAPAPLEIH_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C878BB0)
+#define AECAPAPLEIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FA2C0)
+#define AECAPAPLEIH_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1D9FA2D0)
 
-inline static constexpr unsigned int AECAPAPLEIH_TypeDefinitionIndex = 43093;
+inline static constexpr unsigned int AECAPAPLEIH_TypeDefinitionIndex = 44074;
 
 	class AECAPAPLEIH : public ::BKABEBEPPJK
 	{

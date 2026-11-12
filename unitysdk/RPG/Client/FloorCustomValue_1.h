@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorCustomValue_1_TypeDefinitionIndex = 62084;
+	inline static constexpr unsigned int FloorCustomValue_1_TypeDefinitionIndex = 63497;
 
 	template <typename T>
 	class FloorCustomValue_1 : public ::EFKJNDCNILF

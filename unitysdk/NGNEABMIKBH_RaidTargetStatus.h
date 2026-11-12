@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NGNEABMIKBH_RaidTargetStatus_TypeDefinitionIndex = 71833;
+inline static constexpr unsigned int NGNEABMIKBH_RaidTargetStatus_TypeDefinitionIndex = 73854;
 
 	enum class NGNEABMIKBH_RaidTargetStatus : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerBreak; }
 
-#define JOJDODIDCFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0EF0)
-#define JOJDODIDCFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2A0F20)
+#define JOJDODIDCFB_CTOR_OFFSET UNITYSDK_OFFSET(0xBACCD80)
+#define JOJDODIDCFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBACCDB0)
 
-inline static constexpr unsigned int JOJDODIDCFB_TypeDefinitionIndex = 55723;
+inline static constexpr unsigned int JOJDODIDCFB_TypeDefinitionIndex = 56925;
 
 	class JOJDODIDCFB
 	{

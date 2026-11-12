@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchByEnumTaskBase_2_TypeDefinitionIndex = 53303;
+	inline static constexpr unsigned int SwitchByEnumTaskBase_2_TypeDefinitionIndex = 54465;
 
 	template <typename T1, typename T2>
 	class SwitchByEnumTaskBase_2 : public ::GELIALJDFBL

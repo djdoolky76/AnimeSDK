@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/LittleGame/CakeRace/EffectConfig.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD403120)
-#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0___GETEFFECTCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xD403350)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE56390)
+#define RPG_CLIENT_LITTLEGAME_CAKERACE_CAKERACECATMONOVIEW___C__DISPLAYCLASS18_0___GETEFFECTCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xDE565C0)
 
 namespace RPG::Client::LittleGame::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatMonoView___c__DisplayClass18_0_TypeDefinitionIndex = 78148;
+	inline static constexpr unsigned int CakeRaceCatMonoView___c__DisplayClass18_0_TypeDefinitionIndex = 80883;
 
 	class CakeRaceCatMonoView___c__DisplayClass18_0 : public ::System::Object
 	{

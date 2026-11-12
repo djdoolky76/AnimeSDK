@@ -3,10 +3,10 @@
 class PCAPHLBJNIA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JIFMKEBONHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB1EF9D0)
-#define JIFMKEBONHB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1EFA00)
+#define JIFMKEBONHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA11910)
+#define JIFMKEBONHB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA11940)
 
-inline static constexpr unsigned int JIFMKEBONHB_TypeDefinitionIndex = 53890;
+inline static constexpr unsigned int JIFMKEBONHB_TypeDefinitionIndex = 55054;
 
 	class JIFMKEBONHB
 	{

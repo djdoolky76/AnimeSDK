@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleByAnd; }
 namespace RPG::GameCore { class MarblePredicateConfig; }
 
-#define RPG_GAMECORE_MARBLEBYAND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D837DF0)
-#define RPG_GAMECORE_MARBLEBYAND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D837E00)
-#define RPG_GAMECORE_MARBLEBYAND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D837DA0)
+#define RPG_GAMECORE_MARBLEBYAND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA52820)
+#define RPG_GAMECORE_MARBLEBYAND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA52830)
+#define RPG_GAMECORE_MARBLEBYAND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA527D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleByAnd_TypeDefinitionIndex = 16873;
+	inline static constexpr unsigned int MarbleByAnd_TypeDefinitionIndex = 17040;
 
 	class MarbleByAnd : public ::RPG::GameCore::MarblePredicateConfig
 	{

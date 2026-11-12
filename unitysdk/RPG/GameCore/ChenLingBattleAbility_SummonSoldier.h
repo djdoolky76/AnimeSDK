@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAbility_SummonSoldier; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SUMMONSOLDIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D581BB0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SUMMONSOLDIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D581BC0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SUMMONSOLDIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D581B60)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SUMMONSOLDIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7929B0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SUMMONSOLDIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7929C0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SUMMONSOLDIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E792960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_SummonSoldier_TypeDefinitionIndex = 15741;
+	inline static constexpr unsigned int ChenLingBattleAbility_SummonSoldier_TypeDefinitionIndex = 15899;
 
 	class ChenLingBattleAbility_SummonSoldier : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

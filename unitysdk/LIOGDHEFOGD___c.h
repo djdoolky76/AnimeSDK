@@ -4,18 +4,18 @@
 class LIOGDHEFOGD;
 namespace System { class Object; }
 
-#define LIOGDHEFOGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E972CA0)
-#define LIOGDHEFOGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E972CE0)
-#define LIOGDHEFOGD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E972CF0)
+#define LIOGDHEFOGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC93D00)
+#define LIOGDHEFOGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC93D40)
+#define LIOGDHEFOGD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FC93D50)
 
-inline static constexpr unsigned int LIOGDHEFOGD___c_TypeDefinitionIndex = 30810;
+inline static constexpr unsigned int LIOGDHEFOGD___c_TypeDefinitionIndex = 31723;
 
 	class LIOGDHEFOGD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45EC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37340);
 		}
 
 		static ::System::Void _cctor()

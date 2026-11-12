@@ -13,57 +13,56 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ACAKOLCGDLL_BKECMDJGDHF_OFFSET UNITYSDK_OFFSET(0x1DDD6FC0)
-#define ACAKOLCGDLL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DDD7420)
-#define ACAKOLCGDLL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDD7820)
-#define ACAKOLCGDLL_CLONE_OFFSET UNITYSDK_OFFSET(0x1DDD6F00)
-#define ACAKOLCGDLL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DDD6E30)
-#define ACAKOLCGDLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD6DE0)
-#define ACAKOLCGDLL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DDD7040)
-#define ACAKOLCGDLL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DDD6FE0)
-#define ACAKOLCGDLL_FBNEFFFHOPA_OFFSET UNITYSDK_OFFSET(0x1DDD6F90)
-#define ACAKOLCGDLL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DDD70F0)
-#define ACAKOLCGDLL_HEFMKDAHAHD_OFFSET UNITYSDK_OFFSET(0x1DDD6FA0)
-#define ACAKOLCGDLL_IAOGILGLDEB_OFFSET UNITYSDK_OFFSET(0x1DDD6FD0)
-#define ACAKOLCGDLL_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1DDD6D70)
-#define ACAKOLCGDLL_JMAEJNHBLAJ_OFFSET UNITYSDK_OFFSET(0x1DDD6F80)
-#define ACAKOLCGDLL_LNKFJLDGCHO_OFFSET UNITYSDK_OFFSET(0x1DDD6F50)
-#define ACAKOLCGDLL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DDD7700)
-#define ACAKOLCGDLL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DDD7630)
-#define ACAKOLCGDLL_NADOLAOFDAA_OFFSET UNITYSDK_OFFSET(0x1DDD6F70)
-#define ACAKOLCGDLL_OAGKMDAMDLB_OFFSET UNITYSDK_OFFSET(0x1DDD6FB0)
-#define ACAKOLCGDLL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DDD6DD0)
-#define ACAKOLCGDLL_PGKPFKFIMNK_OFFSET UNITYSDK_OFFSET(0x1DDD6F60)
-#define ACAKOLCGDLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD7170)
-#define ACAKOLCGDLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD71D0)
+#define ACAKOLCGDLL_BKECMDJGDHF_OFFSET UNITYSDK_OFFSET(0x1EFDA0F0)
+#define ACAKOLCGDLL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1EFDA5B0)
+#define ACAKOLCGDLL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFDA9B0)
+#define ACAKOLCGDLL_CLONE_OFFSET UNITYSDK_OFFSET(0x1EFDA0A0)
+#define ACAKOLCGDLL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFD9FD0)
+#define ACAKOLCGDLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD9F80)
+#define ACAKOLCGDLL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EFDA1E0)
+#define ACAKOLCGDLL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFDA180)
+#define ACAKOLCGDLL_FBNEFFFHOPA_OFFSET UNITYSDK_OFFSET(0x1EFDA110)
+#define ACAKOLCGDLL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFDA290)
+#define ACAKOLCGDLL_HEFMKDAHAHD_OFFSET UNITYSDK_OFFSET(0x1EFDA120)
+#define ACAKOLCGDLL_IAOGILGLDEB_OFFSET UNITYSDK_OFFSET(0x1EFDA100)
+#define ACAKOLCGDLL_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1EFD9F10)
+#define ACAKOLCGDLL_JMAEJNHBLAJ_OFFSET UNITYSDK_OFFSET(0x1EFDA170)
+#define ACAKOLCGDLL_LNKFJLDGCHO_OFFSET UNITYSDK_OFFSET(0x1EFDA140)
+#define ACAKOLCGDLL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1EFDA890)
+#define ACAKOLCGDLL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1EFDA7C0)
+#define ACAKOLCGDLL_NADOLAOFDAA_OFFSET UNITYSDK_OFFSET(0x1EFDA160)
+#define ACAKOLCGDLL_OAGKMDAMDLB_OFFSET UNITYSDK_OFFSET(0x1EFDA130)
+#define ACAKOLCGDLL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EFD9F70)
+#define ACAKOLCGDLL_PGKPFKFIMNK_OFFSET UNITYSDK_OFFSET(0x1EFDA150)
+#define ACAKOLCGDLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EFDA310)
+#define ACAKOLCGDLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EFDA370)
 
-inline static constexpr unsigned int ACAKOLCGDLL_TypeDefinitionIndex = 27989;
+inline static constexpr unsigned int ACAKOLCGDLL_TypeDefinitionIndex = 28579;
 
 	class ACAKOLCGDLL : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::NOHPJFOGFLM*>* OPNAJLBCALC; // 0x18
-		::System::Boolean GEMHHIDBJDJ; // 0x20
-		::System::Byte _padding0[0x3];
+		::Google::Protobuf::Collections::RepeatedField_1<::NOHPJFOGFLM*>* OPNAJLBCALC; // 0x10
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
+		::System::UInt32 FKDHHNFCNHI; // 0x20
 		::System::UInt32 OFFJLBFJBPK; // 0x24
-		::System::UInt32 FKDHHNFCNHI; // 0x28
-		::System::UInt32 IFLDENAANAP; // 0x2C
-		static ::Google::Protobuf::MessageParser_1<::ACAKOLCGDLL*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::ACAKOLCGDLL*>**)UnitySDK::FromName("", "ACAKOLCGDLL")->GetStaticField(0x2B030);
-		}
-
+		::System::UInt32 IFLDENAANAP; // 0x28
+		::System::Boolean GEMHHIDBJDJ; // 0x2C
 		static ::Google::Protobuf::FieldCodec_1<::NOHPJFOGFLM*>** StaticGet_MNMLMFAHKPC()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::NOHPJFOGFLM*>**)UnitySDK::FromName("", "ACAKOLCGDLL")->GetStaticField(0x2B038);
+			return (::Google::Protobuf::FieldCodec_1<::NOHPJFOGFLM*>**)UnitySDK::FromName("", "ACAKOLCGDLL")->GetStaticField(0x35940);
 		}
 
-		// static const ::System::Object NIBKLJNEKOB; // 0x0
-		// static const ::System::Object NAJIJGFCNAC; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::ACAKOLCGDLL*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::ACAKOLCGDLL*>**)UnitySDK::FromName("", "ACAKOLCGDLL")->GetStaticField(0x35948);
+		}
+
+		// static const ::System::Object FGJLDDLEKJA; // 0x0
 		// static const ::System::Object IMMGAKOBBJI; // 0x0
 		// static const ::System::Object NDGPBAFKIPI; // 0x0
-		// static const ::System::Object FGJLDDLEKJA; // 0x0
+		// static const ::System::Object NIBKLJNEKOB; // 0x0
+		// static const ::System::Object NAJIJGFCNAC; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_CTOR_OFFSET))(this);
@@ -94,6 +93,31 @@ inline static constexpr unsigned int ACAKOLCGDLL_TypeDefinitionIndex = 27989;
 			return ((::ACAKOLCGDLL*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_CLONE_OFFSET))(this);
 		}
 
+		::System::UInt32 BKECMDJGDHF()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_BKECMDJGDHF_OFFSET))(this);
+		}
+
+		::System::Void IAOGILGLDEB(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_IAOGILGLDEB_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::NOHPJFOGFLM*>* FBNEFFFHOPA()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::NOHPJFOGFLM*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_FBNEFFFHOPA_OFFSET))(this);
+		}
+
+		::System::UInt32 HEFMKDAHAHD()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_HEFMKDAHAHD_OFFSET))(this);
+		}
+
+		::System::Void OAGKMDAMDLB(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_OAGKMDAMDLB_OFFSET))(this, a1);
+		}
+
 		::System::UInt32 LNKFJLDGCHO()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_LNKFJLDGCHO_OFFSET))(this);
@@ -112,31 +136,6 @@ inline static constexpr unsigned int ACAKOLCGDLL_TypeDefinitionIndex = 27989;
 		::System::Void JMAEJNHBLAJ(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_JMAEJNHBLAJ_OFFSET))(this, a1);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::NOHPJFOGFLM*>* FBNEFFFHOPA()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::NOHPJFOGFLM*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_FBNEFFFHOPA_OFFSET))(this);
-		}
-
-		::System::UInt32 HEFMKDAHAHD()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_HEFMKDAHAHD_OFFSET))(this);
-		}
-
-		::System::Void OAGKMDAMDLB(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_OAGKMDAMDLB_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 BKECMDJGDHF()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_BKECMDJGDHF_OFFSET))(this);
-		}
-
-		::System::Void IAOGILGLDEB(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ACAKOLCGDLL_IAOGILGLDEB_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

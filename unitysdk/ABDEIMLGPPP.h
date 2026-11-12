@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HGMMFJHJECA.h"
 
-#define ABDEIMLGPPP_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F02E0)
-#define ABDEIMLGPPP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB0F01A0)
+#define ABDEIMLGPPP_CTOR_OFFSET UNITYSDK_OFFSET(0xB752EE0)
+#define ABDEIMLGPPP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB752DA0)
 
-inline static constexpr unsigned int ABDEIMLGPPP_TypeDefinitionIndex = 64139;
+inline static constexpr unsigned int ABDEIMLGPPP_TypeDefinitionIndex = 65584;
 
 	class ABDEIMLGPPP : public ::HGMMFJHJECA
 	{

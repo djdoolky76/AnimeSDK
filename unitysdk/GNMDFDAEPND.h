@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetListIntersects; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNMDFDAEPND_CTOR_OFFSET UNITYSDK_OFFSET(0x15B198A0)
-#define GNMDFDAEPND_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B198D0)
+#define GNMDFDAEPND_CTOR_OFFSET UNITYSDK_OFFSET(0x16A9F020)
+#define GNMDFDAEPND_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A9F050)
 
-inline static constexpr unsigned int GNMDFDAEPND_TypeDefinitionIndex = 54725;
+inline static constexpr unsigned int GNMDFDAEPND_TypeDefinitionIndex = 55892;
 
 	class GNMDFDAEPND
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int ALCOGHNNPMF_TypeDefinitionIndex = 59054;
+inline static constexpr unsigned int ALCOGHNNPMF_TypeDefinitionIndex = 60329;
 
 	struct alignas(8) ALCOGHNNPMF
 	{

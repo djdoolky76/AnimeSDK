@@ -8,17 +8,17 @@ class PLMODIOCPAF;
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CJDOMOMGACM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D57D0)
-#define CJDOMOMGACM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C5D58B0)
-#define CJDOMOMGACM_JKLJCAAPKMO_OFFSET UNITYSDK_OFFSET(0x1C5D5E10)
+#define CJDOMOMGACM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D757010)
+#define CJDOMOMGACM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D7570F0)
+#define CJDOMOMGACM_JKLJCAAPKMO_OFFSET UNITYSDK_OFFSET(0x1D757650)
 
-inline static constexpr unsigned int CJDOMOMGACM_TypeDefinitionIndex = 37146;
+inline static constexpr unsigned int CJDOMOMGACM_TypeDefinitionIndex = 38074;
 
 	class CJDOMOMGACM : public ::System::Object
 	{
 	public:
-		::Entitas::IGroup_1<::HNLKNLJBHDD*>* PGJOLIFOBJE; // 0x10
-		::PLMODIOCPAF* PDENFEFCAGN; // 0x18
+		::PLMODIOCPAF* PDENFEFCAGN; // 0x10
+		::Entitas::IGroup_1<::HNLKNLJBHDD*>* PGJOLIFOBJE; // 0x18
 		::System::Collections::Generic::List_1<::CAHLPKGIABH*>* IDLGPCJKGEP; // 0x20
 		::System::Void _ctor(::PLMODIOCPAF* a1)
 		{

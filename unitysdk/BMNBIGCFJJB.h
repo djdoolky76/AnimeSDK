@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SummonUnitChildEffectConfig; }
 namespace System { class String; }
 
-#define BMNBIGCFJJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E36E0)
-#define BMNBIGCFJJB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E36F0)
-#define BMNBIGCFJJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E3590)
+#define BMNBIGCFJJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBAD110)
+#define BMNBIGCFJJB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBAD120)
+#define BMNBIGCFJJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBACFC0)
 
-inline static constexpr unsigned int BMNBIGCFJJB_TypeDefinitionIndex = 21060;
+inline static constexpr unsigned int BMNBIGCFJJB_TypeDefinitionIndex = 21398;
 
 	class BMNBIGCFJJB : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::RPG::GameCore::SummonUnitChildEffectConfig* OAEIPEJAOOL; // 0x10
+		::RPG::GameCore::SummonUnitChildEffectConfig* HEPHPHMILOB; // 0x10
 		::System::String* LKNGDBPBGAN; // 0x18
-		::RPG::GameCore::SummonUnitChildEffectConfig* HEPHPHMILOB; // 0x20
+		::RPG::GameCore::SummonUnitChildEffectConfig* OAEIPEJAOOL; // 0x20
 		::System::Single PBIILFIGNBK; // 0x28
 		::System::Void _ctor()
 		{

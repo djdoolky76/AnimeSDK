@@ -4,18 +4,18 @@
 class PKPHOOGGPOL;
 namespace System { class Object; }
 
-#define PKPHOOGGPOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF98610)
-#define PKPHOOGGPOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF98650)
-#define PKPHOOGGPOL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF98660)
+#define PKPHOOGGPOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F249E30)
+#define PKPHOOGGPOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F249E70)
+#define PKPHOOGGPOL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F249E80)
 
-inline static constexpr unsigned int PKPHOOGGPOL___c_TypeDefinitionIndex = 31689;
+inline static constexpr unsigned int PKPHOOGGPOL___c_TypeDefinitionIndex = 32602;
 
 	class PKPHOOGGPOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AC60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CF20);
 		}
 
 		static ::System::Void _cctor()

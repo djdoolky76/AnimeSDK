@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareNpcMonsterRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJGCNELACML_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBBE50)
-#define AJGCNELACML_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CBBE80)
+#define AJGCNELACML_CTOR_OFFSET UNITYSDK_OFFSET(0x12D9AA60)
+#define AJGCNELACML_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12D9AA90)
 
-inline static constexpr unsigned int AJGCNELACML_TypeDefinitionIndex = 54553;
+inline static constexpr unsigned int AJGCNELACML_TypeDefinitionIndex = 55718;
 
 	class AJGCNELACML
 	{

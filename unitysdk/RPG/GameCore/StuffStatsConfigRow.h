@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StuffStatsConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2F2D0)
-#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB2EC30)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDDEB10)
+#define RPG_GAMECORE_STUFFSTATSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EDDE470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 14233;
+	inline static constexpr unsigned int StuffStatsConfigRow_TypeDefinitionIndex = 14390;
 
 	class StuffStatsConfigRow : public ::System::Object
 	{

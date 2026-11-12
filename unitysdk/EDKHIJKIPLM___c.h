@@ -6,29 +6,29 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EDKHIJKIPLM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x133264B0)
-#define EDKHIJKIPLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x133264F0)
-#define EDKHIJKIPLM___C___GETTEAMSPEEDSUM_B__4_0_OFFSET UNITYSDK_OFFSET(0x13326500)
-#define EDKHIJKIPLM___C___GETTEAMSPEEDSUM_B__4_1_OFFSET UNITYSDK_OFFSET(0x13326560)
+#define EDKHIJKIPLM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x140E3330)
+#define EDKHIJKIPLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x140E3370)
+#define EDKHIJKIPLM___C___GETTEAMSPEEDSUM_B__4_0_OFFSET UNITYSDK_OFFSET(0x140E3380)
+#define EDKHIJKIPLM___C___GETTEAMSPEEDSUM_B__4_1_OFFSET UNITYSDK_OFFSET(0x140E33E0)
 
-inline static constexpr unsigned int EDKHIJKIPLM___c_TypeDefinitionIndex = 65382;
+inline static constexpr unsigned int EDKHIJKIPLM___c_TypeDefinitionIndex = 67175;
 
 	class EDKHIJKIPLM___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>** StaticGet___9__4_1()
-		{
-			return (::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FF60);
-		}
-
 		static ::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FF68);
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73300);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>** StaticGet___9__4_1()
+		{
+			return (::System::Func_2<::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73308);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FF70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73310);
 		}
 
 		static ::System::Void _cctor()

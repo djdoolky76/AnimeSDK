@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ModifierDetachEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DEINBEJGMAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE50E1D0)
-#define DEINBEJGMAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE50E1E0)
-#define DEINBEJGMAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE50E220)
-#define DEINBEJGMAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE50E450)
-#define DEINBEJGMAM_TICK_OFFSET UNITYSDK_OFFSET(0xE50E4A0)
+#define DEINBEJGMAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF16FCB0)
+#define DEINBEJGMAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF16FCC0)
+#define DEINBEJGMAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF16FD00)
+#define DEINBEJGMAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF16FF30)
+#define DEINBEJGMAM_TICK_OFFSET UNITYSDK_OFFSET(0xF16FF80)
 
-inline static constexpr unsigned int DEINBEJGMAM_TypeDefinitionIndex = 55179;
+inline static constexpr unsigned int DEINBEJGMAM_TypeDefinitionIndex = 56360;
 
 	class DEINBEJGMAM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ModifierDetachEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ModifierDetachEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifierDetachEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifierDetachEffect*))((::PBYTE)hIl2Cpp + DEINBEJGMAM_CTOR_OFFSET))(this, a1, a2);

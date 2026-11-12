@@ -4,18 +4,18 @@
 class BEJOPEHPABO;
 namespace System { class Object; }
 
-#define BEJOPEHPABO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA634C0)
-#define BEJOPEHPABO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA63500)
-#define BEJOPEHPABO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA63510)
+#define BEJOPEHPABO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD24110)
+#define BEJOPEHPABO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD24150)
+#define BEJOPEHPABO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FD24160)
 
-inline static constexpr unsigned int BEJOPEHPABO___c_TypeDefinitionIndex = 31793;
+inline static constexpr unsigned int BEJOPEHPABO___c_TypeDefinitionIndex = 32706;
 
 	class BEJOPEHPABO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40CC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40750);
 		}
 
 		static ::System::Void _cctor()

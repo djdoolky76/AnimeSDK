@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class ComputeBuffer; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F171310)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F171350)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__ONDESTROY_B__39_0_OFFSET UNITYSDK_OFFSET(0x1F171360)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20422770)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204227B0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICPOINTSRENDERER___C__ONDESTROY_B__39_0_OFFSET UNITYSDK_OFFSET(0x204227C0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicPointsRenderer___c_TypeDefinitionIndex = 45885;
+	inline static constexpr unsigned int AlembicPointsRenderer___c_TypeDefinitionIndex = 46914;
 
 	class AlembicPointsRenderer___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::UnityEngine::ComputeBuffer*>** StaticGet___9__39_0()
 		{
-			return (::System::Action_1<::UnityEngine::ComputeBuffer*>**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Importer", "<>c")->GetStaticField(0x15AB0);
+			return (::System::Action_1<::UnityEngine::ComputeBuffer*>**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Importer", "<>c")->GetStaticField(0x11B70);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Importer", "<>c")->GetStaticField(0x15AB8);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Formats.Alembic.Importer", "<>c")->GetStaticField(0x11B78);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class GGILOAPIPBF;
 namespace System { class Object; }
 
-#define GGILOAPIPBF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E47E810)
-#define GGILOAPIPBF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E47E850)
-#define GGILOAPIPBF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E47E860)
+#define GGILOAPIPBF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F76DE80)
+#define GGILOAPIPBF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F76DEC0)
+#define GGILOAPIPBF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F76DED0)
 
-inline static constexpr unsigned int GGILOAPIPBF___c_TypeDefinitionIndex = 31363;
+inline static constexpr unsigned int GGILOAPIPBF___c_TypeDefinitionIndex = 32276;
 
 	class GGILOAPIPBF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16330);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE6B0);
 		}
 
 		static ::System::Void _cctor()

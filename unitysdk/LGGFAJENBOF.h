@@ -5,17 +5,17 @@ class MMBKDDEKHGM;
 namespace System { class Version; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGGFAJENBOF_BALGOAEMBDM_OFFSET UNITYSDK_OFFSET(0xB6955F0)
-#define LGGFAJENBOF_CABKEIBGPLJ_OFFSET UNITYSDK_OFFSET(0xB695950)
-#define LGGFAJENBOF_CTOR_OFFSET UNITYSDK_OFFSET(0xB695A30)
+#define LGGFAJENBOF_BALGOAEMBDM_OFFSET UNITYSDK_OFFSET(0xBF2B630)
+#define LGGFAJENBOF_CABKEIBGPLJ_OFFSET UNITYSDK_OFFSET(0xBF2B990)
+#define LGGFAJENBOF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2BA70)
 
-inline static constexpr unsigned int LGGFAJENBOF_TypeDefinitionIndex = 82244;
+inline static constexpr unsigned int LGGFAJENBOF_TypeDefinitionIndex = 85117;
 
 	class LGGFAJENBOF : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::MMBKDDEKHGM*>* JCGGNJHEJKD; // 0x10
-		::System::Version* CNCPHIIDFNF; // 0x18
+		::System::Version* CNCPHIIDFNF; // 0x10
+		::System::Collections::Generic::List_1<::MMBKDDEKHGM*>* JCGGNJHEJKD; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LGGFAJENBOF_CTOR_OFFSET))(this);

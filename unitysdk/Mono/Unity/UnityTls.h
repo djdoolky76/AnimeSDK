@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace Mono::Unity { class UnityTls_unitytls_interface_struct; }
 
-#define MONO_UNITY_UNITYTLS_GETUNITYTLSINTERFACE_OFFSET UNITYSDK_OFFSET(0x1EFCE820)
-#define MONO_UNITY_UNITYTLS_GET_ISSUPPORTED_OFFSET UNITYSDK_OFFSET(0x1EFCCAC0)
-#define MONO_UNITY_UNITYTLS_GET_NATIVEINTERFACE_OFFSET UNITYSDK_OFFSET(0x1EFCDDC0)
+#define MONO_UNITY_UNITYTLS_GETUNITYTLSINTERFACE_OFFSET UNITYSDK_OFFSET(0x2027E140)
+#define MONO_UNITY_UNITYTLS_GET_ISSUPPORTED_OFFSET UNITYSDK_OFFSET(0x2027C350)
+#define MONO_UNITY_UNITYTLS_GET_NATIVEINTERFACE_OFFSET UNITYSDK_OFFSET(0x2027D6E0)
 
 namespace Mono::Unity
 {
@@ -16,7 +16,7 @@ namespace Mono::Unity
 	public:
 		static ::Mono::Unity::UnityTls_unitytls_interface_struct** StaticGet_marshalledInterface()
 		{
-			return (::Mono::Unity::UnityTls_unitytls_interface_struct**)UnitySDK::FromName("Mono.Unity", "UnityTls")->GetStaticField(0x378E0);
+			return (::Mono::Unity::UnityTls_unitytls_interface_struct**)UnitySDK::FromName("Mono.Unity", "UnityTls")->GetStaticField(0x28260);
 		}
 
 		static ::System::IntPtr GetUnityTlsInterface()

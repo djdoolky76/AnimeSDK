@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int COpenVRContext_TypeDefinitionIndex = 39326;
+	inline static constexpr unsigned int COpenVRContext_TypeDefinitionIndex = 40255;
 
 	struct alignas(4) COpenVRContext
 	{

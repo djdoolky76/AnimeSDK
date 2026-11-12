@@ -4,10 +4,10 @@
 namespace RPG::Client::Compliance::Ftc::DropLink { class FtcDropLink; }
 namespace RPG::Client::Compliance::Ftc::DropLink { class GachaFtcDropLinkFactory; }
 
-#define NIIIDGPJADK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBEC5D0)
-#define NIIIDGPJADK_CTOR_OFFSET UNITYSDK_OFFSET(0xBBEC580)
+#define NIIIDGPJADK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC4CF2F0)
+#define NIIIDGPJADK_CTOR_OFFSET UNITYSDK_OFFSET(0xC4CF2A0)
 
-inline static constexpr unsigned int NIIIDGPJADK_TypeDefinitionIndex = 74819;
+inline static constexpr unsigned int NIIIDGPJADK_TypeDefinitionIndex = 76989;
 
 	class NIIIDGPJADK : public ::System::Object
 	{

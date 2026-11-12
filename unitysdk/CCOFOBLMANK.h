@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropStartFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CCOFOBLMANK_CTOR_OFFSET UNITYSDK_OFFSET(0xC751DE0)
-#define CCOFOBLMANK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC751E10)
+#define CCOFOBLMANK_CTOR_OFFSET UNITYSDK_OFFSET(0xD0BAF70)
+#define CCOFOBLMANK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD0BAFA0)
 
-inline static constexpr unsigned int CCOFOBLMANK_TypeDefinitionIndex = 58357;
+inline static constexpr unsigned int CCOFOBLMANK_TypeDefinitionIndex = 59613;
 
 	class CCOFOBLMANK
 	{

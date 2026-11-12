@@ -6,24 +6,21 @@
 #include "unitysdk/IGKFNIEJGLM.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Nullable_1.h"
-namespace RPG::GameCore { class AvatarDataComponent; }
 namespace RPG::GameCore { class BattleGridFightAvatarData; }
 namespace RPG::GameCore { class GameEntity; }
-namespace RPG::GameCore { class GridFightManager; }
 namespace System { class Action; }
 
-#define IJLMAKFOEBK_BDECCJONFCF_OFFSET UNITYSDK_OFFSET(0x1646C660)
-#define IJLMAKFOEBK_CFBIBGCIGNB_OFFSET UNITYSDK_OFFSET(0x1646C830)
-#define IJLMAKFOEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1646C970)
-#define IJLMAKFOEBK_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x1646C2C0)
-#define IJLMAKFOEBK_EGAHABLLEDG_OFFSET UNITYSDK_OFFSET(0x1646C360)
-#define IJLMAKFOEBK_EGGFKAADJDK_OFFSET UNITYSDK_OFFSET(0x1646C770)
-#define IJLMAKFOEBK_KBIFNPKHPMK_OFFSET UNITYSDK_OFFSET(0x1646C520)
-#define IJLMAKFOEBK_MFGMFILAAIC_OFFSET UNITYSDK_OFFSET(0x1646C890)
-#define IJLMAKFOEBK_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x1646C4A0)
-#define IJLMAKFOEBK_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1646C610)
+#define IJLMAKFOEBK_BDECCJONFCF_OFFSET UNITYSDK_OFFSET(0x1743F200)
+#define IJLMAKFOEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1743F3D0)
+#define IJLMAKFOEBK_EGAHABLLEDG_OFFSET UNITYSDK_OFFSET(0x1743EE80)
+#define IJLMAKFOEBK_EGGFKAADJDK_OFFSET UNITYSDK_OFFSET(0x1743F380)
+#define IJLMAKFOEBK_KBIFNPKHPMK_OFFSET UNITYSDK_OFFSET(0x1743F040)
+#define IJLMAKFOEBK_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x1743EFC0)
+#define IJLMAKFOEBK_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1743F130)
+#define IJLMAKFOEBK__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1743F180)
+#define IJLMAKFOEBK__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0x1743EDE0)
 
-inline static constexpr unsigned int IJLMAKFOEBK_TypeDefinitionIndex = 72255;
+inline static constexpr unsigned int IJLMAKFOEBK_TypeDefinitionIndex = 74325;
 
 	class IJLMAKFOEBK : public ::FMPCODLIOLG
 	{
@@ -36,9 +33,9 @@ inline static constexpr unsigned int IJLMAKFOEBK_TypeDefinitionIndex = 72255;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJLMAKFOEBK_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + IJLMAKFOEBK_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + IJLMAKFOEBK__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void OnAcquire(::RPG::GameCore::GameEntity* a1)
@@ -49,6 +46,11 @@ inline static constexpr unsigned int IJLMAKFOEBK_TypeDefinitionIndex = 72255;
 		::System::Void OnReturn()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJLMAKFOEBK_ONRETURN_OFFSET))(this);
+		}
+
+		::System::Void _OnDispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJLMAKFOEBK__ONDISPOSE_OFFSET))(this);
 		}
 
 		::System::Void EGAHABLLEDG()
@@ -66,19 +68,9 @@ inline static constexpr unsigned int IJLMAKFOEBK_TypeDefinitionIndex = 72255;
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AbilityProperty, ::System::Nullable_1<::RPG::GameCore::FixPoint>, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::CHMCAGBDPJH))((::PBYTE)hIl2Cpp + IJLMAKFOEBK_BDECCJONFCF_OFFSET))(this, a1, a2, a3, a4, a5);
 		}
 
-		::RPG::GameCore::AvatarDataComponent* CFBIBGCIGNB()
-		{
-			return ((::RPG::GameCore::AvatarDataComponent*(*)(::PVOID))((::PBYTE)hIl2Cpp + IJLMAKFOEBK_CFBIBGCIGNB_OFFSET))(this);
-		}
-
 		::RPG::GameCore::BattleGridFightAvatarData* EGGFKAADJDK()
 		{
 			return ((::RPG::GameCore::BattleGridFightAvatarData*(*)(::PVOID))((::PBYTE)hIl2Cpp + IJLMAKFOEBK_EGGFKAADJDK_OFFSET))(this);
-		}
-
-		::RPG::GameCore::GridFightManager* MFGMFILAAIC()
-		{
-			return ((::RPG::GameCore::GridFightManager*(*)(::PVOID))((::PBYTE)hIl2Cpp + IJLMAKFOEBK_MFGMFILAAIC_OFFSET))(this);
 		}
 
 	};

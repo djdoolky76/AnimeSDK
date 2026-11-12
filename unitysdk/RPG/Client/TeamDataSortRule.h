@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamDataSortRule_TypeDefinitionIndex = 68123;
+	inline static constexpr unsigned int TeamDataSortRule_TypeDefinitionIndex = 70069;
 
 	enum class TeamDataSortRule : ::System::Int32
 	{

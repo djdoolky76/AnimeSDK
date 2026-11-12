@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class LoadLittleGameArea; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_LOADLITTLEGAMEAREA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7EA2C0)
-#define RPG_GAMECORE_LOADLITTLEGAMEAREA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7EA2F0)
-#define RPG_GAMECORE_LOADLITTLEGAMEAREA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7EA270)
+#define RPG_GAMECORE_LOADLITTLEGAMEAREA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2D1A0)
+#define RPG_GAMECORE_LOADLITTLEGAMEAREA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA2D1D0)
+#define RPG_GAMECORE_LOADLITTLEGAMEAREA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA2D150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadLittleGameArea_TypeDefinitionIndex = 20995;
+	inline static constexpr unsigned int LoadLittleGameArea_TypeDefinitionIndex = 21333;
 
 	class LoadLittleGameArea : public ::RPG::GameCore::TaskConfig
 	{

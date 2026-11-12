@@ -3,7 +3,7 @@
 class HKENHAIMOCH;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-inline static constexpr unsigned int DLKOJNFHEGG_TypeDefinitionIndex = 64225;
+inline static constexpr unsigned int DLKOJNFHEGG_TypeDefinitionIndex = 65670;
 
 	struct alignas(8) DLKOJNFHEGG
 	{

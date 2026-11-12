@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int IFBPIIECCAH_TypeDefinitionIndex = 56028;
+inline static constexpr unsigned int IFBPIIECCAH_TypeDefinitionIndex = 57240;
 
 	struct alignas(4) IFBPIIECCAH
 	{

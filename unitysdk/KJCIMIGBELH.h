@@ -6,18 +6,18 @@ class KJCIMIGBELH;
 namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 namespace System { class String; }
 
-#define KJCIMIGBELH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D096C60)
-#define KJCIMIGBELH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D096C70)
-#define KJCIMIGBELH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D096C30)
+#define KJCIMIGBELH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E289B30)
+#define KJCIMIGBELH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E289B40)
+#define KJCIMIGBELH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E289B00)
 
-inline static constexpr unsigned int KJCIMIGBELH_TypeDefinitionIndex = 21499;
+inline static constexpr unsigned int KJCIMIGBELH_TypeDefinitionIndex = 21852;
 
 	class KJCIMIGBELH : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x18
+		::System::String* HHMLELABBFN; // 0x18
 		::System::String* KFEHPOFIOOA; // 0x20
-		::System::String* HHMLELABBFN; // 0x28
+		::RPG::GameCore::ChenLingFesTargetConfig* GMJKHCGCNKA; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJCIMIGBELH_CTOR_OFFSET))(this);

@@ -4,11 +4,11 @@ namespace System { class String; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class GPUParticlesAsset; }
 
-#define RPG_CLIENT_INFINITESYMBOLGPUPARTICLEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD34F3F0)
+#define RPG_CLIENT_INFINITESYMBOLGPUPARTICLEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDD83F30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InfiniteSymbolGPUParticleMonoPlugin_TypeDefinitionIndex = 70312;
+	inline static constexpr unsigned int InfiniteSymbolGPUParticleMonoPlugin_TypeDefinitionIndex = 72278;
 
 	class InfiniteSymbolGPUParticleMonoPlugin
 	{

@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define DKGMHFOKNOJ_DGCBAFHIIPO_OFFSET UNITYSDK_OFFSET(0xF87B730)
-#define DKGMHFOKNOJ_FMEDGNOKIEC_OFFSET UNITYSDK_OFFSET(0xF87B860)
+#define DKGMHFOKNOJ_DGCBAFHIIPO_OFFSET UNITYSDK_OFFSET(0xFFE1350)
+#define DKGMHFOKNOJ_FMEDGNOKIEC_OFFSET UNITYSDK_OFFSET(0xFFE1480)
 
-inline static constexpr unsigned int DKGMHFOKNOJ_TypeDefinitionIndex = 59263;
+inline static constexpr unsigned int DKGMHFOKNOJ_TypeDefinitionIndex = 60540;
 
 	class DKGMHFOKNOJ : public ::System::Object
 	{

@@ -8,31 +8,31 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0903A0)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0903E0)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xD0903F0)
-#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_1_OFFSET UNITYSDK_OFFSET(0xD090410)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA18910)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA18950)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xDA18960)
+#define RPG_CLIENT_GPUTRANSFORMLOOPANIM___C__GET_RENDERBUDGETDATA_B__23_1_OFFSET UNITYSDK_OFFSET(0xDA18980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GPUTransformLoopAnim___c_TypeDefinitionIndex = 70323;
+	inline static constexpr unsigned int GPUTransformLoopAnim___c_TypeDefinitionIndex = 72289;
 
 	class GPUTransformLoopAnim___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__23_1()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5FD50);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5FD58);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A030);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>** StaticGet___9__23_1()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Material*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A038);
 		}
 
 		static ::System::Func_2<::System::Object*, ::UnityEngine::Mesh*>** StaticGet___9__23_0()
 		{
-			return (::System::Func_2<::System::Object*, ::UnityEngine::Mesh*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5FD60);
+			return (::System::Func_2<::System::Object*, ::UnityEngine::Mesh*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A040);
 		}
 
 		static ::System::Void _cctor()

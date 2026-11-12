@@ -11,20 +11,20 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define IDNEFFCGFFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE6AB0)
-#define IDNEFFCGFFL_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1CEE6D40)
-#define IDNEFFCGFFL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEE6AC0)
-#define IDNEFFCGFFL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEE6A60)
+#define IDNEFFCGFFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D94F0)
+#define IDNEFFCGFFL_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E0D9780)
+#define IDNEFFCGFFL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E0D9500)
+#define IDNEFFCGFFL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0D94C0)
 
-inline static constexpr unsigned int IDNEFFCGFFL_TypeDefinitionIndex = 22680;
+inline static constexpr unsigned int IDNEFFCGFFL_TypeDefinitionIndex = 23102;
 
 	class IDNEFFCGFFL : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* KIPAGNCANAJ; // 0x18
-		::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x20
-		::System::String* FHLJGDGMMHK; // 0x28
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
+		::System::String* FHLJGDGMMHK; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::DynamicString* IFNAGLOMHBK; // 0x30
 		::RPG::GameCore::DynamicValueContextScope AMEKHLANFKP; // 0x38
 		::RPG::GameCore::ModifierValueType ACBKMOPHPLE; // 0x3C
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicExpTypeRow; }
 
-#define RPG_GAMECORE_RELICEXPTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D97DAD0)
-#define RPG_GAMECORE_RELICEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D97D470)
+#define RPG_GAMECORE_RELICEXPTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB95EC0)
+#define RPG_GAMECORE_RELICEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB95860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicExpTypeRow_TypeDefinitionIndex = 14642;
+	inline static constexpr unsigned int RelicExpTypeRow_TypeDefinitionIndex = 14798;
 
 	class RelicExpTypeRow : public ::System::Object
 	{

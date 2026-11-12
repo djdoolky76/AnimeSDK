@@ -8,31 +8,31 @@ namespace MessagePack { class MessagePackSerializer_CompiledMethods_MessagePackR
 namespace MessagePack { class MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize; }
 namespace System { class Object; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBC9260)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC92A0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_4_OFFSET UNITYSDK_OFFSET(0x1BBC92B0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_5_OFFSET UNITYSDK_OFFSET(0x1BBC9300)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD52130)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD52170)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_4_OFFSET UNITYSDK_OFFSET(0x1CD52180)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C___CTOR_B__14_5_OFFSET UNITYSDK_OFFSET(0x1CD521D0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex = 7219;
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c_TypeDefinitionIndex = 7230;
 
 	class MessagePackSerializer_CompiledMethods___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize** StaticGet___9__14_5()
 		{
-			return (::System::Object**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x2C850);
+			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x4EB20);
 		}
 
 		static ::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize** StaticGet___9__14_4()
 		{
-			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x2C858);
+			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackWriterSerialize**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x4EB28);
 		}
 
-		static ::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize** StaticGet___9__14_5()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::MessagePack::MessagePackSerializer_CompiledMethods_MessagePackReaderDeserialize**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x2C860);
+			return (::System::Object**)UnitySDK::FromName("MessagePack", "<>c")->GetStaticField(0x4EB30);
 		}
 
 		static ::System::Void _cctor()

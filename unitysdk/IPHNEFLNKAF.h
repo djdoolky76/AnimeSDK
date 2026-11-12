@@ -5,20 +5,20 @@ namespace RPG::Client { class RequestChangeMatchThreeV2BirdLocation; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define IPHNEFLNKAF_CEGMLNPMGGL_OFFSET UNITYSDK_OFFSET(0x16520940)
-#define IPHNEFLNKAF_CTOR_OFFSET UNITYSDK_OFFSET(0x16520600)
-#define IPHNEFLNKAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16520610)
-#define IPHNEFLNKAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16520770)
-#define IPHNEFLNKAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16520660)
-#define IPHNEFLNKAF_TICK_OFFSET UNITYSDK_OFFSET(0x16520710)
+#define IPHNEFLNKAF_CEGMLNPMGGL_OFFSET UNITYSDK_OFFSET(0xB855780)
+#define IPHNEFLNKAF_CTOR_OFFSET UNITYSDK_OFFSET(0xB855440)
+#define IPHNEFLNKAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB855450)
+#define IPHNEFLNKAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8555B0)
+#define IPHNEFLNKAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8554A0)
+#define IPHNEFLNKAF_TICK_OFFSET UNITYSDK_OFFSET(0xB855550)
 
-inline static constexpr unsigned int IPHNEFLNKAF_TypeDefinitionIndex = 53015;
+inline static constexpr unsigned int IPHNEFLNKAF_TypeDefinitionIndex = 54174;
 
 	class IPHNEFLNKAF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::RequestChangeMatchThreeV2BirdLocation* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::Client::RequestChangeMatchThreeV2BirdLocation* OFKGLJOAMLD; // 0x20
 		::System::UInt32 NFPAFAKKALP; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::RequestChangeMatchThreeV2BirdLocation* a2)
 		{

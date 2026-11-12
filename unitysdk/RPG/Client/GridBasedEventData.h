@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define RPG_CLIENT_GRIDBASEDEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C7FE0)
+#define RPG_CLIENT_GRIDBASEDEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA50860)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridBasedEventData_TypeDefinitionIndex = 72534;
+	inline static constexpr unsigned int GridBasedEventData_TypeDefinitionIndex = 74613;
 
 	class GridBasedEventData : public ::System::Object
 	{

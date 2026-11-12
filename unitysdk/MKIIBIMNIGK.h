@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MKIIBIMNIGK_TypeDefinitionIndex = 34698;
+inline static constexpr unsigned int MKIIBIMNIGK_TypeDefinitionIndex = 35626;
 
 	enum class MKIIBIMNIGK : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IDitherChangeContext_1_TypeDefinitionIndex = 42744;
+	inline static constexpr unsigned int IDitherChangeContext_1_TypeDefinitionIndex = 43723;
 
 	template <typename T>
 	class IDitherChangeContext_1

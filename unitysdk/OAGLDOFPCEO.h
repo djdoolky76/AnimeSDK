@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsAutoBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OAGLDOFPCEO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD21080)
-#define OAGLDOFPCEO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD210B0)
+#define OAGLDOFPCEO_CTOR_OFFSET UNITYSDK_OFFSET(0xC61FB00)
+#define OAGLDOFPCEO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC61FB30)
 
-inline static constexpr unsigned int OAGLDOFPCEO_TypeDefinitionIndex = 54634;
+inline static constexpr unsigned int OAGLDOFPCEO_TypeDefinitionIndex = 55800;
 
 	class OAGLDOFPCEO
 	{

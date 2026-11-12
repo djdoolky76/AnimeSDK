@@ -5,13 +5,13 @@ namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CUSTOMRP_MESHRENDERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC379D0)
-#define RPG_CUSTOMRP_MESHRENDERDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1CC37960)
-#define RPG_CUSTOMRP_MESHRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1CC379C0)
+#define RPG_CUSTOMRP_MESHRENDERDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDEE40)
+#define RPG_CUSTOMRP_MESHRENDERDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0x1DDDEDD0)
+#define RPG_CUSTOMRP_MESHRENDERDATA_RESET_OFFSET UNITYSDK_OFFSET(0x1DDDEE30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MeshRenderData_TypeDefinitionIndex = 37904;
+	inline static constexpr unsigned int MeshRenderData_TypeDefinitionIndex = 38833;
 
 	class MeshRenderData : public ::System::Object
 	{

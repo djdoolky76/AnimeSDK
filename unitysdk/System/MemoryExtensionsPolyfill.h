@@ -4,7 +4,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int MemoryExtensionsPolyfill_TypeDefinitionIndex = 6072;
+	inline static constexpr unsigned int MemoryExtensionsPolyfill_TypeDefinitionIndex = 6080;
 
 	class MemoryExtensionsPolyfill : public ::System::Object
 	{

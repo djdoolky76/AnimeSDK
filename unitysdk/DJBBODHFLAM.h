@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define DJBBODHFLAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF22BFC0)
-#define DJBBODHFLAM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF22BF70)
-#define DJBBODHFLAM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF22BF20)
+#define DJBBODHFLAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF9921C0)
+#define DJBBODHFLAM_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF992170)
+#define DJBBODHFLAM_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF992120)
 
-inline static constexpr unsigned int DJBBODHFLAM_TypeDefinitionIndex = 56673;
+inline static constexpr unsigned int DJBBODHFLAM_TypeDefinitionIndex = 57897;
 
 	class DJBBODHFLAM : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* BDHFPPIGIAH; // 0x10
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
+		::RPG::GameCore::GameEntity* BDHFPPIGIAH; // 0x18
 		::System::Boolean ONPMKJHNPOM; // 0x20
 		::System::Void _ctor()
 		{

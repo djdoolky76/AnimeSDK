@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FPNCFGCJNJL_ProcessorType_TypeDefinitionIndex = 49084;
+inline static constexpr unsigned int FPNCFGCJNJL_ProcessorType_TypeDefinitionIndex = 50160;
 
 	enum class FPNCFGCJNJL_ProcessorType : ::System::Int32
 	{

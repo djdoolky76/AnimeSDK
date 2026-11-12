@@ -5,11 +5,11 @@
 namespace RPG::Client { class ExpeditionBattleTeam; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CIICMHFLBNF_CTOR_OFFSET UNITYSDK_OFFSET(0xCF79F40)
-#define CIICMHFLBNF_GET_TEAMS_OFFSET UNITYSDK_OFFSET(0xCF79D00)
-#define CIICMHFLBNF_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xCF79D10)
+#define CIICMHFLBNF_CTOR_OFFSET UNITYSDK_OFFSET(0xD8E9550)
+#define CIICMHFLBNF_GET_TEAMS_OFFSET UNITYSDK_OFFSET(0xD8E9310)
+#define CIICMHFLBNF_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xD8E9320)
 
-inline static constexpr unsigned int CIICMHFLBNF_TypeDefinitionIndex = 63930;
+inline static constexpr unsigned int CIICMHFLBNF_TypeDefinitionIndex = 65372;
 
 	class CIICMHFLBNF : public ::System::Object
 	{

@@ -5,21 +5,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BoxingClubPerformanceConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D47D970)
-#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D47D6F0)
+#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68D4D0)
+#define RPG_GAMECORE_BOXINGCLUBPERFORMANCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E68D250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BoxingClubPerformanceConfigRow_TypeDefinitionIndex = 12924;
+	inline static constexpr unsigned int BoxingClubPerformanceConfigRow_TypeDefinitionIndex = 12996;
 
 	class BoxingClubPerformanceConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* PlayerRank; // 0x10
-		::System::String* Name; // 0x18
-		::System::String* BubbleTalkEnemy; // 0x20
+		::System::String* BubbleTalkPlayer; // 0x10
+		::System::String* PlayerRank; // 0x18
+		::System::String* Name; // 0x20
 		::System::String* EnemyRank; // 0x28
-		::System::String* BubbleTalkPlayer; // 0x30
+		::System::String* BubbleTalkEnemy; // 0x30
 		::System::UInt32 MonsterTemplateID; // 0x38
 		::System::UInt32 ID; // 0x3C
 		::System::Void _ctor()

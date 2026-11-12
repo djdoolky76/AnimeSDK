@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NAGAOPOFKDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA99A00)
+#define NAGAOPOFKDI_CTOR_OFFSET UNITYSDK_OFFSET(0xC31E740)
 
-inline static constexpr unsigned int NAGAOPOFKDI_TypeDefinitionIndex = 55853;
+inline static constexpr unsigned int NAGAOPOFKDI_TypeDefinitionIndex = 57056;
 
 	class NAGAOPOFKDI : public ::System::Object
 	{

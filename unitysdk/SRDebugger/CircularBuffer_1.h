@@ -4,7 +4,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 37952;
+	inline static constexpr unsigned int CircularBuffer_1_TypeDefinitionIndex = 38881;
 
 	template <typename T>
 	class CircularBuffer_1 : public ::System::Object

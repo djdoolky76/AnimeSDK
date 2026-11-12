@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropSetHP; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9541D0)
-#define RPG_GAMECORE_PROPSETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D954200)
-#define RPG_GAMECORE_PROPSETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D954170)
+#define RPG_GAMECORE_PROPSETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6CC30)
+#define RPG_GAMECORE_PROPSETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB6CC60)
+#define RPG_GAMECORE_PROPSETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6CBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetHP_TypeDefinitionIndex = 22069;
+	inline static constexpr unsigned int PropSetHP_TypeDefinitionIndex = 22474;
 
 	class PropSetHP : public ::RPG::GameCore::TaskConfig
 	{

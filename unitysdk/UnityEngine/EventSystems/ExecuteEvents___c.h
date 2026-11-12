@@ -5,20 +5,20 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::EventSystems { class IEventSystemHandler; }
 
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4D4780)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D47B0)
-#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS___C___CCTOR_B__87_0_OFFSET UNITYSDK_OFFSET(0x1F4D47C0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20784590)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x207845C0)
+#define UNITYENGINE_EVENTSYSTEMS_EXECUTEEVENTS___C___CCTOR_B__87_0_OFFSET UNITYSDK_OFFSET(0x207845D0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int ExecuteEvents___c_TypeDefinitionIndex = 6937;
+	inline static constexpr unsigned int ExecuteEvents___c_TypeDefinitionIndex = 6948;
 
 	class ExecuteEvents___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "<>c")->GetStaticField(0x310D0);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.EventSystems", "<>c")->GetStaticField(0x37930);
 		}
 
 		static ::System::Void _cctor()

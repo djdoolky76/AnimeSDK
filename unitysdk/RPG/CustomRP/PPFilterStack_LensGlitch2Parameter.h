@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF4E00)
-#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF4DC0)
+#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x101B70)
+#define RPG_CUSTOMRP_PPFILTERSTACK_LENSGLITCH2PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x101B30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PPFilterStack_LensGlitch2Parameter_TypeDefinitionIndex = 51861;
+	inline static constexpr unsigned int PPFilterStack_LensGlitch2Parameter_TypeDefinitionIndex = 52947;
 
 	struct alignas(4) PPFilterStack_LensGlitch2Parameter
 	{

@@ -5,17 +5,17 @@
 class AOPAEHANNBO;
 class FCOEMCEDLNL;
 
-#define AOPAEHANNBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEC110)
-#define AOPAEHANNBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEBF40)
+#define AOPAEHANNBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE95C00)
+#define AOPAEHANNBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE95A30)
 
-inline static constexpr unsigned int AOPAEHANNBO_TypeDefinitionIndex = 14424;
+inline static constexpr unsigned int AOPAEHANNBO_TypeDefinitionIndex = 14581;
 
 	class AOPAEHANNBO : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* JFKCEOGCOOO; // 0x10
-		::RPG::GameCore::PetMarbleLevelMode HKEACDBJCOD; // 0x18
-		::System::UInt32 OCFMCLAGNFM; // 0x1C
+		::System::UInt32 OCFMCLAGNFM; // 0x18
+		::RPG::GameCore::PetMarbleLevelMode HKEACDBJCOD; // 0x1C
 		::System::UInt32 PHFMCACHFIJ; // 0x20
 		::System::Void _ctor()
 		{

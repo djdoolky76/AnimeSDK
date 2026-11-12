@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define GNGCGAMDCLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B07840)
-#define GNGCGAMDCLO_OJJPFGPNNIL_OFFSET UNITYSDK_OFFSET(0x15B07660)
+#define GNGCGAMDCLO_CTOR_OFFSET UNITYSDK_OFFSET(0x16A8A750)
+#define GNGCGAMDCLO_OJJPFGPNNIL_OFFSET UNITYSDK_OFFSET(0x16A8A5B0)
 
-inline static constexpr unsigned int GNGCGAMDCLO_TypeDefinitionIndex = 79159;
+inline static constexpr unsigned int GNGCGAMDCLO_TypeDefinitionIndex = 81935;
 
 	class GNGCGAMDCLO : public ::System::Object
 	{

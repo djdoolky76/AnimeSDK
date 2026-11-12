@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int BLEEAOLJPNA_TypeDefinitionIndex = 49020;
+inline static constexpr unsigned int BLEEAOLJPNA_TypeDefinitionIndex = 50089;
 
 	struct alignas(8) BLEEAOLJPNA
 	{

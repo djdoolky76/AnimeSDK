@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ALIACDLNBJB_TypeDefinitionIndex = 80719;
+inline static constexpr unsigned int ALIACDLNBJB_TypeDefinitionIndex = 83499;
 
 	class ALIACDLNBJB
 	{

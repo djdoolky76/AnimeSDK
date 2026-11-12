@@ -3,10 +3,10 @@
 class DBFILGIOEMP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HEHBGHMGIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x15C51E00)
-#define HEHBGHMGIFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C51E30)
+#define HEHBGHMGIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x16B96830)
+#define HEHBGHMGIFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B96860)
 
-inline static constexpr unsigned int HEHBGHMGIFG_TypeDefinitionIndex = 55337;
+inline static constexpr unsigned int HEHBGHMGIFG_TypeDefinitionIndex = 56519;
 
 	class HEHBGHMGIFG
 	{

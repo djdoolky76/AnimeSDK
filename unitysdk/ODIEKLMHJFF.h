@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class IRogueTournGame; }
 
-#define ODIEKLMHJFF_DHNBJGGFODA_OFFSET UNITYSDK_OFFSET(0xBD93C70)
+#define ODIEKLMHJFF_DHNBJGGFODA_OFFSET UNITYSDK_OFFSET(0xC69A230)
 
-inline static constexpr unsigned int ODIEKLMHJFF_TypeDefinitionIndex = 67642;
+inline static constexpr unsigned int ODIEKLMHJFF_TypeDefinitionIndex = 69586;
 
 	class ODIEKLMHJFF : public ::System::Object
 	{

@@ -7,63 +7,65 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OLDDHFANEDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D298E20)
-#define OLDDHFANEDA_CFCMMIJPBOM_OFFSET UNITYSDK_OFFSET(0x1D298DA0)
-#define OLDDHFANEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D298AB0)
-#define OLDDHFANEDA_FHBALBGGLKD_OFFSET UNITYSDK_OFFSET(0x1D298DD0)
-#define OLDDHFANEDA_KONLJMKIEMO_OFFSET UNITYSDK_OFFSET(0x1D298D40)
-#define OLDDHFANEDA_LJFPHMJEBJP_OFFSET UNITYSDK_OFFSET(0x1D298CB0)
+#define OLDDHFANEDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4A0510)
+#define OLDDHFANEDA_CFCMMIJPBOM_OFFSET UNITYSDK_OFFSET(0x1E4A0490)
+#define OLDDHFANEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4A01A0)
+#define OLDDHFANEDA_FHBALBGGLKD_OFFSET UNITYSDK_OFFSET(0x1E4A04C0)
+#define OLDDHFANEDA_KONLJMKIEMO_OFFSET UNITYSDK_OFFSET(0x1E4A0430)
+#define OLDDHFANEDA_LJFPHMJEBJP_OFFSET UNITYSDK_OFFSET(0x1E4A03A0)
 
-inline static constexpr unsigned int OLDDHFANEDA_TypeDefinitionIndex = 15469;
+inline static constexpr unsigned int OLDDHFANEDA_TypeDefinitionIndex = 15627;
 
 	class OLDDHFANEDA : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>*>* BGJLMINEPBC; // 0x10
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* LIMCNDFPKNK; // 0x18
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* NCHNOKEBGLP; // 0x20
-		::Il2CppArray<::System::UInt32>* IIGJBFLIBJP; // 0x28
-		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>*>* FLJFLIKCJIG; // 0x30
-		::Il2CppArray<::System::UInt32>* BBHOAALCBDG; // 0x38
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* OPPIOEIGDKA; // 0x40
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* DMNCPNLEBAG; // 0x48
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* PDNGPJMJICE; // 0x50
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* IFCDECDJIHC; // 0x58
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* OMFIKAAAKAK; // 0x60
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* ADEIIKLFECP; // 0x68
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>* PONOIIEFMBP; // 0x70
-		::Il2CppArray<::RPG::GameCore::DynamicValue*>* EICPGFFNFAD; // 0x78
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* OPPIOEIGDKA; // 0x10
+		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>*>* BGJLMINEPBC; // 0x18
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* DMNCPNLEBAG; // 0x20
+		::Il2CppArray<::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>*>* FLJFLIKCJIG; // 0x28
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* LIMCNDFPKNK; // 0x30
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::RPG::GameCore::AbilityProperty, ::RPG::GameCore::FixPoint>>* PONOIIEFMBP; // 0x38
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* NCHNOKEBGLP; // 0x40
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* ADEIIKLFECP; // 0x48
+		::Il2CppArray<::System::UInt32>* IIGJBFLIBJP; // 0x50
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* EICPGFFNFAD; // 0x58
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* PDNGPJMJICE; // 0x60
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* IFCDECDJIHC; // 0x68
+		::Il2CppArray<::RPG::GameCore::DynamicValue*>* OMFIKAAAKAK; // 0x70
+		::Il2CppArray<::System::UInt32>* BBHOAALCBDG; // 0x78
 		::System::Int32 JMMCMDCHOJF; // 0x80
-		::System::UInt32 NEDPIEDCHGI; // 0x84
-		::RPG::GameCore::FixPoint LFIDBICKBIN; // 0x88
-		::System::Int32 PGFKIJLAHEL; // 0x90
-		::System::UInt32 ODHIGHPLHHP; // 0x94
-		::RPG::GameCore::FixPoint BGDCOIKDDNA; // 0x98
-		::System::Int32 OOMLIIAJAGK; // 0xA0
-		::System::Int32 KMFCPGOKIBK; // 0xA4
-		::RPG::GameCore::FixPoint LHDNAAMOMLM; // 0xA8
-		::System::UInt32 KPHIINCEEFJ; // 0xB0
-		::System::UInt32 PDOAFKEDJLA; // 0xB4
-		::System::UInt32 CAFGPNMNIFN; // 0xB8
-		::System::UInt32 ONDNJBHBMLN; // 0xBC
-		::System::UInt32 NPDBGDFHOMG; // 0xC0
-		::System::Int32 INPDBMEMOJK; // 0xC4
-		::System::UInt32 GGJIPMCNGKA; // 0xC8
-		::System::UInt32 KLCDJKLAPNB; // 0xCC
-		::System::Int32 IFMLIGGGMON; // 0xD0
-		::System::UInt32 IEDPAHBEPKI; // 0xD4
-		::RPG::GameCore::FixPoint MOJMLLNMBFB; // 0xD8
-		::System::Int32 GGAGILKADDF; // 0xE0
-		::System::Int32 LOEDFEEMKKN; // 0xE4
-		::RPG::GameCore::FixPoint LGPACFFHEBM; // 0xE8
+		::System::Int32 GGAGILKADDF; // 0x84
+		::System::UInt32 CAFGPNMNIFN; // 0x88
+		::System::UInt32 ODHIGHPLHHP; // 0x8C
+		::System::Int32 OOMLIIAJAGK; // 0x90
+		::System::Int32 INPDBMEMOJK; // 0x94
+		::System::UInt32 PDOAFKEDJLA; // 0x98
+		::System::UInt32 KPHIINCEEFJ; // 0x9C
+		::System::Int32 LOEDFEEMKKN; // 0xA0
+		::System::UInt32 GGJIPMCNGKA; // 0xA4
+		::RPG::GameCore::FixPoint BHHKDJKANEG; // 0xA8
+		::RPG::GameCore::FixPoint LFIDBICKBIN; // 0xB0
+		::RPG::GameCore::FixPoint MIKFAMFDILE; // 0xB8
+		::RPG::GameCore::FixPoint BGDCOIKDDNA; // 0xC0
+		::System::Int32 IFMLIGGGMON; // 0xC8
+		::System::UInt32 IEDPAHBEPKI; // 0xCC
+		::RPG::GameCore::FixPoint LGPACFFHEBM; // 0xD0
+		::RPG::GameCore::FixPoint LHDNAAMOMLM; // 0xD8
+		::System::UInt32 ONDNJBHBMLN; // 0xE0
+		::System::UInt32 NPDBGDFHOMG; // 0xE4
+		::RPG::GameCore::FixPoint MOJMLLNMBFB; // 0xE8
+		::System::Int32 KMFCPGOKIBK; // 0xF0
+		::System::UInt32 NEDPIEDCHGI; // 0xF4
+		::System::UInt32 KLCDJKLAPNB; // 0xF8
+		::System::Int32 PGFKIJLAHEL; // 0xFC
 		static ::System::UInt32* StaticGet_IOAOFIHBOGO()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "OLDDHFANEDA")->GetStaticField(0xC320);
+			return (::System::UInt32*)UnitySDK::FromName("", "OLDDHFANEDA")->GetStaticField(0x91B0);
 		}
 
 		static ::System::Int32* StaticGet_EMBMMHKPMIJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OLDDHFANEDA")->GetStaticField(0xC324);
+			return (::System::Int32*)UnitySDK::FromName("", "OLDDHFANEDA")->GetStaticField(0x91B4);
 		}
 
 		// static const ::System::Object MCOPOPIKHHM; // 0x0

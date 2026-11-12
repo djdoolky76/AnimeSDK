@@ -5,49 +5,49 @@
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class Transform; }
 
-#define KHGEHIJJFDA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB409210)
-#define KHGEHIJJFDA_CHJAHLDFBKH_OFFSET UNITYSDK_OFFSET(0xB409040)
-#define KHGEHIJJFDA_CTOR_OFFSET UNITYSDK_OFFSET(0xB4091E0)
-#define KHGEHIJJFDA_GAAMEEKFMAO_OFFSET UNITYSDK_OFFSET(0xB409100)
-#define KHGEHIJJFDA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB408CD0)
-#define KHGEHIJJFDA_PPJJJGMPBNM_OFFSET UNITYSDK_OFFSET(0xB408F30)
-#define KHGEHIJJFDA__ONBIND_OFFSET UNITYSDK_OFFSET(0xB409180)
+#define KHGEHIJJFDA_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC9C420)
+#define KHGEHIJJFDA_CHJAHLDFBKH_OFFSET UNITYSDK_OFFSET(0xBC9C200)
+#define KHGEHIJJFDA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9C3F0)
+#define KHGEHIJJFDA_GAAMEEKFMAO_OFFSET UNITYSDK_OFFSET(0xBC9C2C0)
+#define KHGEHIJJFDA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBC9BE90)
+#define KHGEHIJJFDA_PPJJJGMPBNM_OFFSET UNITYSDK_OFFSET(0xBC9C0F0)
+#define KHGEHIJJFDA__ONBIND_OFFSET UNITYSDK_OFFSET(0xBC9C340)
 
-inline static constexpr unsigned int KHGEHIJJFDA_TypeDefinitionIndex = 71918;
+inline static constexpr unsigned int KHGEHIJJFDA_TypeDefinitionIndex = 73939;
 
 	class KHGEHIJJFDA : public ::FMPCODLIOLG
 	{
 	public:
 		::UnityEngine::Animator* APPGGMLEPLN; // 0x60
 		::RPG::Client::CyreneSPPointState DLNIGFGLPLJ; // 0x68
-		static ::System::Int32* StaticGet_KGJMKFNLNJH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0x129E0);
-		}
-
 		static ::System::Int32* StaticGet_NNEDNCCBFGJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0x129E4);
+			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0xD7C0);
 		}
 
-		static ::System::Int32* StaticGet_MDFDDIKBIDN()
+		static ::System::Int32* StaticGet_KGJMKFNLNJH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0x129E8);
+			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0xD7C4);
 		}
 
 		static ::System::Int32* StaticGet_DNOPAFEDOEI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0x129EC);
+			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0xD7C8);
 		}
 
 		static ::System::Int32* StaticGet_BLKKJGAPANB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0x129F0);
+			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0xD7CC);
 		}
 
 		static ::System::Int32* StaticGet_DBPKOEBFFPN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0x129F4);
+			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0xD7D0);
+		}
+
+		static ::System::Int32* StaticGet_MDFDDIKBIDN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "KHGEHIJJFDA")->GetStaticField(0xD7D4);
 		}
 
 		::System::Void _ctor()

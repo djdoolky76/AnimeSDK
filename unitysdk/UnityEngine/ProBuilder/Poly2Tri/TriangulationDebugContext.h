@@ -5,7 +5,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationContext; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
-	inline static constexpr unsigned int TriangulationDebugContext_TypeDefinitionIndex = 38753;
+	inline static constexpr unsigned int TriangulationDebugContext_TypeDefinitionIndex = 39682;
 
 	class TriangulationDebugContext : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemUseDataRow; }
 
-#define RPG_GAMECORE_ITEMUSEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79FC40)
-#define RPG_GAMECORE_ITEMUSEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D79F590)
+#define RPG_GAMECORE_ITEMUSEDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E3160)
+#define RPG_GAMECORE_ITEMUSEDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9E2AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemUseDataRow_TypeDefinitionIndex = 13871;
+	inline static constexpr unsigned int ItemUseDataRow_TypeDefinitionIndex = 14028;
 
 	class ItemUseDataRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* UseParam; // 0x10
-		::System::UInt32 UseDataID; // 0x18
-		::System::UInt32 UseMultipleMax; // 0x1C
+		::System::UInt32 UseMultipleMax; // 0x18
+		::System::UInt32 UseDataID; // 0x1C
 		::System::Boolean IsAutoUse; // 0x20
 		::System::Void _ctor()
 		{

@@ -4,12 +4,12 @@
 namespace RPG::Client { class EquipmentItemData; }
 namespace RPG::Client { class LightConeQuickGrowCalculator; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD399FA0)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS50_0___CALCULATETOTALLIGHTCONECOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xD39A570)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS50_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDD0190)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS50_0___CALCULATETOTALLIGHTCONECOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xDDD0760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass50_0_TypeDefinitionIndex = 65730;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass50_0_TypeDefinitionIndex = 67656;
 
 	class LightConeQuickGrowCalculator___c__DisplayClass50_0 : public ::System::Object
 	{

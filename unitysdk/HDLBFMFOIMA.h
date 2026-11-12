@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define HDLBFMFOIMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C3C410)
-#define HDLBFMFOIMA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15C3C400)
+#define HDLBFMFOIMA_CTOR_OFFSET UNITYSDK_OFFSET(0x16B80090)
+#define HDLBFMFOIMA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x16B80080)
 
-inline static constexpr unsigned int HDLBFMFOIMA_TypeDefinitionIndex = 49657;
+inline static constexpr unsigned int HDLBFMFOIMA_TypeDefinitionIndex = 50733;
 
 	class HDLBFMFOIMA : public ::System::Attribute
 	{

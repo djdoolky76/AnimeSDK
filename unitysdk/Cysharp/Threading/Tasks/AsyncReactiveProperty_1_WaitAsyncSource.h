@@ -12,7 +12,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int AsyncReactiveProperty_1_WaitAsyncSource_TypeDefinitionIndex = 38121;
+	inline static constexpr unsigned int AsyncReactiveProperty_1_WaitAsyncSource_TypeDefinitionIndex = 39050;
 
 	template <typename T>
 	class AsyncReactiveProperty_1_WaitAsyncSource : public ::System::Object

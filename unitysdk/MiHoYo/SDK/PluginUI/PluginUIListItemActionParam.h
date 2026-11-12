@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIListItemActionParam_TypeDefinitionIndex = 9167;
+	inline static constexpr unsigned int PluginUIListItemActionParam_TypeDefinitionIndex = 9176;
 
 	class PluginUIListItemActionParam : public ::System::Object
 	{

@@ -3,29 +3,29 @@
 #include "unitysdk/UnityEngine/AnyType.h"
 namespace System { class String; }
 
-#define RPG_GAMECORE_COMMONINDEXKEY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5CC2B0)
-#define RPG_GAMECORE_COMMONINDEXKEY_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x3C3EB40)
-#define RPG_GAMECORE_COMMONINDEXKEY_CREATECOMMONINDEXKEY_OFFSET UNITYSDK_OFFSET(0x1D5CC210)
+#define RPG_GAMECORE_COMMONINDEXKEY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7DE840)
+#define RPG_GAMECORE_COMMONINDEXKEY_COMBINEHASH_OFFSET UNITYSDK_OFFSET(0x3E8DFA0)
+#define RPG_GAMECORE_COMMONINDEXKEY_CREATECOMMONINDEXKEY_OFFSET UNITYSDK_OFFSET(0x1E7DE7A0)
 #define RPG_GAMECORE_COMMONINDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xAF50)
-#define RPG_GAMECORE_COMMONINDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE620)
-#define RPG_GAMECORE_COMMONINDEXKEY_INIT_OFFSET UNITYSDK_OFFSET(0x3C3EB00)
-#define RPG_GAMECORE_COMMONINDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C22040)
+#define RPG_GAMECORE_COMMONINDEXKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE600)
+#define RPG_GAMECORE_COMMONINDEXKEY_INIT_OFFSET UNITYSDK_OFFSET(0x3E8DF60)
+#define RPG_GAMECORE_COMMONINDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3E70FA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CommonIndexKey_TypeDefinitionIndex = 10826;
+	inline static constexpr unsigned int CommonIndexKey_TypeDefinitionIndex = 10842;
 
 	struct alignas(4) CommonIndexKey
 	{
 		::System::Int32 hashCode; // 0x10
 		static ::Il2CppArray<::System::UInt32>** StaticGet_HashCodeIndex()
 		{
-			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "CommonIndexKey")->GetStaticField(0x1B7E0);
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "CommonIndexKey")->GetStaticField(0xCBD0);
 		}
 
 		static ::System::Boolean* StaticGet_IsInit()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "CommonIndexKey")->GetStaticField(0x6320);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "CommonIndexKey")->GetStaticField(0x17E0);
 		}
 
 		static ::System::Void _cctor()

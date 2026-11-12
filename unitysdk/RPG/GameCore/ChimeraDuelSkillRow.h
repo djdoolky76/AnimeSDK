@@ -7,28 +7,29 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AA890)
-#define RPG_GAMECORE_CHIMERADUELSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5AA3D0)
+#define RPG_GAMECORE_CHIMERADUELSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BAEF0)
+#define RPG_GAMECORE_CHIMERADUELSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7BAA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelSkillRow_TypeDefinitionIndex = 11145;
+	inline static constexpr unsigned int ChimeraDuelSkillRow_TypeDefinitionIndex = 11161;
 
 	class ChimeraDuelSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* TriggerEventList; // 0x10
+		::Il2CppArray<::System::String*>* AdditionalTriggerConditionList; // 0x10
 		::Il2CppArray<::System::Single>* ParamList; // 0x18
 		::System::String* AbilityJsonPath; // 0x20
-		::Il2CppArray<::System::String*>* AdditionalTriggerConditionList; // 0x28
+		::Il2CppArray<::System::UInt32>* TriggerEventList; // 0x28
 		::RPG::Client::TextID Description; // 0x30
 		::RPG::Client::TextID PlainDescription; // 0x40
 		::RPG::GameCore::ChimeraDuelSkillEffectScope Type; // 0x50
 		::System::UInt32 SkillID; // 0x54
-		::System::UInt32 SkillCD; // 0x58
-		::System::UInt32 Priority; // 0x5C
-		::System::Boolean HasDisplay; // 0x60
-		::System::Boolean IsImmediate; // 0x61
+		::System::UInt32 Priority; // 0x58
+		::System::Boolean IsImmediate; // 0x5C
+		::System::Boolean HasDisplay; // 0x5D
+		::System::Byte _padding0[0x2];
+		::System::UInt32 SkillCD; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELSKILLROW_CTOR_OFFSET))(this);

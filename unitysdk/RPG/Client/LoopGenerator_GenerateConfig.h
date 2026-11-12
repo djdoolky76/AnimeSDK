@@ -3,13 +3,13 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_DJPEJOPFANL_OFFSET UNITYSDK_OFFSET(0xEA9A0)
-#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_GFJEPOCNAPC_OFFSET UNITYSDK_OFFSET(0xEA990)
-#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xEA9B0)
+#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_DJPEJOPFANL_OFFSET UNITYSDK_OFFSET(0xF69E0)
+#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_GFJEPOCNAPC_OFFSET UNITYSDK_OFFSET(0xF69D0)
+#define RPG_CLIENT_LOOPGENERATOR_GENERATECONFIG_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xF69F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerator_GenerateConfig_TypeDefinitionIndex = 72976;
+	inline static constexpr unsigned int LoopGenerator_GenerateConfig_TypeDefinitionIndex = 75088;
 
 	struct alignas(8) LoopGenerator_GenerateConfig
 	{

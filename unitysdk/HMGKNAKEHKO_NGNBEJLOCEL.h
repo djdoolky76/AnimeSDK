@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int HMGKNAKEHKO_NGNBEJLOCEL_TypeDefinitionIndex = 53937;
+inline static constexpr unsigned int HMGKNAKEHKO_NGNBEJLOCEL_TypeDefinitionIndex = 55101;
 
 	struct alignas(4) HMGKNAKEHKO_NGNBEJLOCEL
 	{

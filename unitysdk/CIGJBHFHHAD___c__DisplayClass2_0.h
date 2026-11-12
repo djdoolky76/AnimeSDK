@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 class CIGJBHFHHAD;
 
-#define CIGJBHFHHAD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF717A0)
-#define CIGJBHFHHAD___C__DISPLAYCLASS2_0___ONGROUPLOADED_B__0_OFFSET UNITYSDK_OFFSET(0xCF71D00)
+#define CIGJBHFHHAD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD8DF460)
+#define CIGJBHFHHAD___C__DISPLAYCLASS2_0___ONGROUPLOADED_B__0_OFFSET UNITYSDK_OFFSET(0xD8DF9D0)
 
-inline static constexpr unsigned int CIGJBHFHHAD___c__DisplayClass2_0_TypeDefinitionIndex = 57309;
+inline static constexpr unsigned int CIGJBHFHHAD___c__DisplayClass2_0_TypeDefinitionIndex = 58537;
 
 	class CIGJBHFHHAD___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
 		::CIGJBHFHHAD* __4__this; // 0x10
-		::System::Int32 regionAIndex; // 0x18
-		::System::Int32 regionBIndex; // 0x1C
+		::System::Int32 regionBIndex; // 0x18
+		::System::Int32 regionAIndex; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIGJBHFHHAD___C__DISPLAYCLASS2_0_CTOR_OFFSET))(this);

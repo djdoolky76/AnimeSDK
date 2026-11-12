@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StrongChallengeBattleType_TypeDefinitionIndex = 12396;
+	inline static constexpr unsigned int StrongChallengeBattleType_TypeDefinitionIndex = 12463;
 
 	enum class StrongChallengeBattleType : ::System::Int32
 	{

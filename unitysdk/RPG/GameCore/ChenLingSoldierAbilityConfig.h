@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingAbilityConfig; }
 namespace RPG::GameCore { class ChenLingSoldierAbilityConfig; }
 
-#define RPG_GAMECORE_CHENLINGSOLDIERABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D593EB0)
-#define RPG_GAMECORE_CHENLINGSOLDIERABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D593DD0)
+#define RPG_GAMECORE_CHENLINGSOLDIERABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A41D0)
+#define RPG_GAMECORE_CHENLINGSOLDIERABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7A40F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingSoldierAbilityConfig_TypeDefinitionIndex = 15703;
+	inline static constexpr unsigned int ChenLingSoldierAbilityConfig_TypeDefinitionIndex = 15861;
 
 	class ChenLingSoldierAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{

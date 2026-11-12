@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityModuleFightConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36B840)
-#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D36B750)
+#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57A9C0)
+#define RPG_GAMECORE_ACTIVITYMODULEFIGHTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E57A8D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityModuleFightConfigRow_TypeDefinitionIndex = 11596;
+	inline static constexpr unsigned int ActivityModuleFightConfigRow_TypeDefinitionIndex = 11647;
 
 	class ActivityModuleFightConfigRow : public ::System::Object
 	{

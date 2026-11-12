@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AAMBFEDPLIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8775F0)
+#define AAMBFEDPLIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F8D10)
 
-inline static constexpr unsigned int AAMBFEDPLIK_TypeDefinitionIndex = 42354;
+inline static constexpr unsigned int AAMBFEDPLIK_TypeDefinitionIndex = 43329;
 
 	class AAMBFEDPLIK : public ::System::Object
 	{

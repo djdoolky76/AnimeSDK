@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int QuadTreeNode_1_TypeDefinitionIndex = 73892;
+	inline static constexpr unsigned int QuadTreeNode_1_TypeDefinitionIndex = 76020;
 
 	template <typename T>
 	class QuadTreeNode_1 : public ::System::Object

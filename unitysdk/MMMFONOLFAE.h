@@ -9,28 +9,28 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define MMMFONOLFAE_ANEDHKJABMN_OFFSET UNITYSDK_OFFSET(0xB9D8CF0)
-#define MMMFONOLFAE_BAJLGLADHKD_OFFSET UNITYSDK_OFFSET(0xB9D9190)
-#define MMMFONOLFAE_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0xB9D9210)
-#define MMMFONOLFAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D9D60)
-#define MMMFONOLFAE_DNCAILFJGHN_OFFSET UNITYSDK_OFFSET(0xB9D99C0)
-#define MMMFONOLFAE_HDNPLMPOEOA_OFFSET UNITYSDK_OFFSET(0xB9D96C0)
-#define MMMFONOLFAE_MOFKDLANDGM_OFFSET UNITYSDK_OFFSET(0xB9D9780)
-#define MMMFONOLFAE_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0xB9D8CE0)
-#define MMMFONOLFAE_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xB9D8D60)
+#define MMMFONOLFAE_ANEDHKJABMN_OFFSET UNITYSDK_OFFSET(0xC295410)
+#define MMMFONOLFAE_BAJLGLADHKD_OFFSET UNITYSDK_OFFSET(0xC2958B0)
+#define MMMFONOLFAE_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0xC295930)
+#define MMMFONOLFAE_CTOR_OFFSET UNITYSDK_OFFSET(0xC296480)
+#define MMMFONOLFAE_DNCAILFJGHN_OFFSET UNITYSDK_OFFSET(0xC2960E0)
+#define MMMFONOLFAE_HDNPLMPOEOA_OFFSET UNITYSDK_OFFSET(0xC295DE0)
+#define MMMFONOLFAE_MOFKDLANDGM_OFFSET UNITYSDK_OFFSET(0xC295EA0)
+#define MMMFONOLFAE_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0xC295400)
+#define MMMFONOLFAE_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xC295480)
 
-inline static constexpr unsigned int MMMFONOLFAE_TypeDefinitionIndex = 68444;
+inline static constexpr unsigned int MMMFONOLFAE_TypeDefinitionIndex = 70391;
 
 	class MMMFONOLFAE : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* BBNNHIGNKNL; // 0x10
-		::UnityEngine::Transform* PAJFNAGPJKL; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* PIOADIJCHJC; // 0x20
-		::System::Collections::Generic::List_1<::System::Object*>* JKGCHADBJMD; // 0x28
-		::UnityEngine::Vector3 IIGNDIILFMI; // 0x30
-		::MMMFONOLFAE_EEffectorSpace DFHAONBGOAN; // 0x3C
-		::System::Single CLKJEOCKGKE; // 0x40
+		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* PIOADIJCHJC; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* JKGCHADBJMD; // 0x18
+		::UnityEngine::Transform* BBNNHIGNKNL; // 0x20
+		::UnityEngine::Transform* PAJFNAGPJKL; // 0x28
+		::System::Single CLKJEOCKGKE; // 0x30
+		::MMMFONOLFAE_EEffectorSpace DFHAONBGOAN; // 0x34
+		::UnityEngine::Vector3 IIGNDIILFMI; // 0x38
 		::System::Byte _padding0[0x4];
 		::System::Double AFHBAFMFFDA; // 0x48
 		::System::Void _ctor()

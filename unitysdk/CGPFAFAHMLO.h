@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFSVwithGP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGPFAFAHMLO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8CFB0)
-#define CGPFAFAHMLO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC8CFE0)
+#define CGPFAFAHMLO_CTOR_OFFSET UNITYSDK_OFFSET(0xD63AC70)
+#define CGPFAFAHMLO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD63ACA0)
 
-inline static constexpr unsigned int CGPFAFAHMLO_TypeDefinitionIndex = 52556;
+inline static constexpr unsigned int CGPFAFAHMLO_TypeDefinitionIndex = 53662;
 
 	class CGPFAFAHMLO
 	{

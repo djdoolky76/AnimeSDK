@@ -5,15 +5,15 @@
 namespace Google::Protobuf { class ByteString; }
 namespace System { class String; }
 
-#define NOPBGGCGFMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF7FC0)
+#define NOPBGGCGFMM_CTOR_OFFSET UNITYSDK_OFFSET(0xC5E6E30)
 
-inline static constexpr unsigned int NOPBGGCGFMM_TypeDefinitionIndex = 68008;
+inline static constexpr unsigned int NOPBGGCGFMM_TypeDefinitionIndex = 69954;
 
 	class NOPBGGCGFMM : public ::System::Object
 	{
 	public:
-		::System::String* EMJGHMCNNFO; // 0x10
-		::Google::Protobuf::ByteString* IBFOFBDLKEG; // 0x18
+		::Google::Protobuf::ByteString* IBFOFBDLKEG; // 0x10
+		::System::String* EMJGHMCNNFO; // 0x18
 		::RPG::GameCore::ESwitchHandGestureType GFHIDBOOCMG; // 0x20
 		::System::Void _ctor()
 		{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define BHOMIGDKHEB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D40)
+#define BHOMIGDKHEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1B130)
 
-inline static constexpr unsigned int BHOMIGDKHEB_TypeDefinitionIndex = 57584;
+inline static constexpr unsigned int BHOMIGDKHEB_TypeDefinitionIndex = 58812;
 
 	struct alignas(4) BHOMIGDKHEB
 	{

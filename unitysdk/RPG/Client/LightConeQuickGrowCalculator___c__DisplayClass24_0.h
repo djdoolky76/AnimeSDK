@@ -4,19 +4,19 @@
 class NAIEKONLHAL;
 namespace RPG::Client { class LightConeQuickGrowCalculator; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD398430)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS24_0___RESOLVEFARMDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD39A1E0)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS24_0___RESOLVEFARMDEMAND_B__1_OFFSET UNITYSDK_OFFSET(0xD39A240)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDCE620)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS24_0___RESOLVEFARMDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0xDDD03D0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C__DISPLAYCLASS24_0___RESOLVEFARMDEMAND_B__1_OFFSET UNITYSDK_OFFSET(0xDDD0430)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass24_0_TypeDefinitionIndex = 65726;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c__DisplayClass24_0_TypeDefinitionIndex = 67652;
 
 	class LightConeQuickGrowCalculator___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LightConeQuickGrowCalculator* __4__this; // 0x10
-		::NAIEKONLHAL* nonPileCosts; // 0x18
+		::NAIEKONLHAL* nonPileCosts; // 0x10
+		::RPG::Client::LightConeQuickGrowCalculator* __4__this; // 0x18
 		::NAIEKONLHAL* promotionCosts; // 0x20
 		::System::Void _ctor()
 		{

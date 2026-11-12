@@ -6,22 +6,22 @@ namespace RPG::Client { class ParkourGameTalkEventInfo; }
 namespace RPG::Client::ParkourGame { class MonoParkourTalkEvent; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OFOMBDEHAML_BIECELLIJOO_OFFSET UNITYSDK_OFFSET(0xBE4D270)
-#define OFOMBDEHAML_CHMNPFPGOHI_OFFSET UNITYSDK_OFFSET(0xBE4D6A0)
-#define OFOMBDEHAML_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4D820)
-#define OFOMBDEHAML_FMOJEOBDGLE_OFFSET UNITYSDK_OFFSET(0xBE4D5E0)
-#define OFOMBDEHAML_JPEOHDAJCAM_OFFSET UNITYSDK_OFFSET(0xBE4D120)
-#define OFOMBDEHAML_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBE4D730)
-#define OFOMBDEHAML_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE4D0D0)
+#define OFOMBDEHAML_BIECELLIJOO_OFFSET UNITYSDK_OFFSET(0xC707250)
+#define OFOMBDEHAML_CHMNPFPGOHI_OFFSET UNITYSDK_OFFSET(0xC707680)
+#define OFOMBDEHAML_CTOR_OFFSET UNITYSDK_OFFSET(0xC707800)
+#define OFOMBDEHAML_FMOJEOBDGLE_OFFSET UNITYSDK_OFFSET(0xC7075C0)
+#define OFOMBDEHAML_JPEOHDAJCAM_OFFSET UNITYSDK_OFFSET(0xC707100)
+#define OFOMBDEHAML_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC707710)
+#define OFOMBDEHAML_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC7070B0)
 
-inline static constexpr unsigned int OFOMBDEHAML_TypeDefinitionIndex = 61851;
+inline static constexpr unsigned int OFOMBDEHAML_TypeDefinitionIndex = 63257;
 
 	class OFOMBDEHAML : public ::System::Object
 	{
 	public:
-		::RPG::Client::BaseGameFlow* BEGDKHKENMF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*>* PGNFCGAOBOH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGameTalkEventInfo*>* MIMGEEGJBOK; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGame::MonoParkourTalkEvent*>* PGNFCGAOBOH; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ParkourGameTalkEventInfo*>* MIMGEEGJBOK; // 0x18
+		::RPG::Client::BaseGameFlow* BEGDKHKENMF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFOMBDEHAML_CTOR_OFFSET))(this);

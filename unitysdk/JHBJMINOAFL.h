@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByEntityOriginalEraConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHBJMINOAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A8980)
-#define JHBJMINOAFL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1A89B0)
+#define JHBJMINOAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C8310)
+#define JHBJMINOAFL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9C8340)
 
-inline static constexpr unsigned int JHBJMINOAFL_TypeDefinitionIndex = 52755;
+inline static constexpr unsigned int JHBJMINOAFL_TypeDefinitionIndex = 53899;
 
 	class JHBJMINOAFL
 	{

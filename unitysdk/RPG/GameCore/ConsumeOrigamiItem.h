@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SimpleTalkInfo; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DB580)
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5DB590)
-#define RPG_GAMECORE_CONSUMEORIGAMIITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5DB550)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7ED9F0)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7EDA00)
+#define RPG_GAMECORE_CONSUMEORIGAMIITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7ED9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConsumeOrigamiItem_TypeDefinitionIndex = 21866;
+	inline static constexpr unsigned int ConsumeOrigamiItem_TypeDefinitionIndex = 22257;
 
 	class ConsumeOrigamiItem : public ::RPG::GameCore::TaskConfig
 	{

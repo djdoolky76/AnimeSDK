@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2CastOutput_TypeDefinitionIndex = 36605;
+	inline static constexpr unsigned int B2CastOutput_TypeDefinitionIndex = 37533;
 
 	struct alignas(4) B2CastOutput
 	{

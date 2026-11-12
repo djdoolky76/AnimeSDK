@@ -4,18 +4,18 @@
 class LHDIOCPFGHJ;
 namespace System { class Object; }
 
-#define LHDIOCPFGHJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E95E2A0)
-#define LHDIOCPFGHJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E95E2E0)
-#define LHDIOCPFGHJ___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E95E2F0)
+#define LHDIOCPFGHJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC7E9A0)
+#define LHDIOCPFGHJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC7E9E0)
+#define LHDIOCPFGHJ___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FC7E9F0)
 
-inline static constexpr unsigned int LHDIOCPFGHJ___c_TypeDefinitionIndex = 29567;
+inline static constexpr unsigned int LHDIOCPFGHJ___c_TypeDefinitionIndex = 30347;
 
 	class LHDIOCPFGHJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40C70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34270);
 		}
 
 		static ::System::Void _cctor()

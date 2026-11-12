@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define FKNMAKMLFNB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA71030)
+#define FKNMAKMLFNB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC349C0)
 
-inline static constexpr unsigned int FKNMAKMLFNB_TypeDefinitionIndex = 42801;
+inline static constexpr unsigned int FKNMAKMLFNB_TypeDefinitionIndex = 43781;
 
 	class FKNMAKMLFNB : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FKNMAKMLFNB")->GetStaticField(0x31910);
-		}
-
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "FKNMAKMLFNB")->GetStaticField(0x31918);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "FKNMAKMLFNB")->GetStaticField(0x25E40);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FKNMAKMLFNB")->GetStaticField(0x25E48);
 		}
 
 		// static const ::System::Object JKECHJIELDD; // 0x0

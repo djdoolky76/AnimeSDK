@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/FiveDimScreenTransferType.h"
 #include "unitysdk/RPG/GameCore/FiveDimCustomScreenTransferStyle.h"
 
-inline static constexpr unsigned int OFKJLOLGCAL_TypeDefinitionIndex = 60546;
+inline static constexpr unsigned int OFKJLOLGCAL_TypeDefinitionIndex = 61835;
 
 	struct alignas(4) OFKJLOLGCAL
 	{

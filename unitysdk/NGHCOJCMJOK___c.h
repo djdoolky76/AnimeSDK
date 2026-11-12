@@ -4,18 +4,18 @@
 class NGHCOJCMJOK;
 namespace System { class Object; }
 
-#define NGHCOJCMJOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB0FEA0)
-#define NGHCOJCMJOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0FEE0)
-#define NGHCOJCMJOK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB0FEF0)
+#define NGHCOJCMJOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE52390)
+#define NGHCOJCMJOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE523D0)
+#define NGHCOJCMJOK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FE523E0)
 
-inline static constexpr unsigned int NGHCOJCMJOK___c_TypeDefinitionIndex = 31845;
+inline static constexpr unsigned int NGHCOJCMJOK___c_TypeDefinitionIndex = 32758;
 
 	class NGHCOJCMJOK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F590);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A380);
 		}
 
 		static ::System::Void _cctor()

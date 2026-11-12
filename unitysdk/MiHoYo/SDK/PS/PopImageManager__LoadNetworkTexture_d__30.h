@@ -9,31 +9,31 @@ namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF77B40)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BF77E30)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BF78480)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BF784E0)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BF78490)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BF77E20)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FE690)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D0FE980)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D0FEFF0)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D0FF050)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D0FF000)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADNETWORKTEXTURE_D__30_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D0FE970)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PopImageManager__LoadNetworkTexture_d__30_TypeDefinitionIndex = 8923;
+	inline static constexpr unsigned int PopImageManager__LoadNetworkTexture_d__30_TypeDefinitionIndex = 8932;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30>
 	class PopImageManager__LoadNetworkTexture_d__30 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PS::PopImageManager* __4__this; // 0x10
+		::System::String* _imageMD5_5__3; // 0x10
 		::Il2CppArray<::System::Byte>* _hash_5__5; // 0x18
-		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x20
-		::System::Object* __2__current; // 0x28
-		::System::String* url; // 0x30
-		::UnityEngine::Texture2D* _image_5__2; // 0x38
-		::System::String* _downloadMD5_5__6; // 0x40
-		::System::String* _imageMD5_5__3; // 0x48
+		::System::String* _downloadMD5_5__6; // 0x20
+		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x28
+		::UnityEngine::Networking::UnityWebRequest* _localRequest_5__1; // 0x30
+		::System::String* url; // 0x38
+		::UnityEngine::Texture2D* _image_5__2; // 0x40
+		::MiHoYo::SDK::PS::PopImageManager* __4__this; // 0x48
 		::System::Security::Cryptography::MD5* _md5_5__4; // 0x50
-		::UnityEngine::Networking::UnityWebRequest* _localRequest_5__1; // 0x58
+		::System::Object* __2__current; // 0x58
 		::System::Int32 __1__state; // 0x60
 		::System::Void _ctor(::System::Int32 a1)
 		{

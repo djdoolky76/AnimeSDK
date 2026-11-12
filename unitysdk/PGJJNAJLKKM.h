@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ModifierBehaviorVisual; }
 
-#define PGJJNAJLKKM_HNPOGLCAHPK_OFFSET UNITYSDK_OFFSET(0xC2237E0)
+#define PGJJNAJLKKM_HNPOGLCAHPK_OFFSET UNITYSDK_OFFSET(0xCB06370)
 
-inline static constexpr unsigned int PGJJNAJLKKM_TypeDefinitionIndex = 54428;
+inline static constexpr unsigned int PGJJNAJLKKM_TypeDefinitionIndex = 55592;
 
 	class PGJJNAJLKKM : public ::System::Object
 	{

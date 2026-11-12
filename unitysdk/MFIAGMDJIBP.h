@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define MFIAGMDJIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74AF50)
+#define MFIAGMDJIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CC8B0)
 
-inline static constexpr unsigned int MFIAGMDJIBP_TypeDefinitionIndex = 36854;
+inline static constexpr unsigned int MFIAGMDJIBP_TypeDefinitionIndex = 37782;
 
 	class MFIAGMDJIBP : public ::System::Attribute
 	{

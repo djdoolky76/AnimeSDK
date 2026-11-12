@@ -6,14 +6,14 @@ namespace RPG::Client { class GridFightRoleProperty; }
 namespace RPG::Client { class GridFightTraitEffectElationProperty; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xD104DB0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xD104BF0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GETPROPERTY_OFFSET UNITYSDK_OFFSET(0xD104CB0)
-#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GET_PROPERTYCOUNT_OFFSET UNITYSDK_OFFSET(0xD104C00)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAC3610)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_CTOR_OFFSET UNITYSDK_OFFSET(0xDAC3450)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GETPROPERTY_OFFSET UNITYSDK_OFFSET(0xDAC3510)
+#define RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GET_OVERVIEWPROPERTYCOUNT_OFFSET UNITYSDK_OFFSET(0xDAC3460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightElationTraitEffectPropertyOverview_TypeDefinitionIndex = 65373;
+	inline static constexpr unsigned int GridFightElationTraitEffectPropertyOverview_TypeDefinitionIndex = 67166;
 
 	class GridFightElationTraitEffectPropertyOverview : public ::System::Object
 	{
@@ -21,7 +21,7 @@ namespace RPG::Client
 		::RPG::Client::GridFightTraitEffectElationProperty* _Provider; // 0x10
 		static ::System::Collections::Generic::List_1<::RPG::GameCore::AvatarPropertyType>** StaticGet__PropertyTypes()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("RPG.Client", "GridFightElationTraitEffectPropertyOverview")->GetStaticField(0x65AA0);
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("RPG.Client", "GridFightElationTraitEffectPropertyOverview")->GetStaticField(0x6D7B0);
 		}
 
 		::System::Void _ctor(::RPG::Client::GridFightTraitEffectElationProperty* a1)
@@ -34,9 +34,9 @@ namespace RPG::Client
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_CCTOR_OFFSET))();
 		}
 
-		::System::Int32 get_PropertyCount()
+		::System::Int32 get_OverviewPropertyCount()
 		{
-			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GET_PROPERTYCOUNT_OFFSET))(this);
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTELATIONTRAITEFFECTPROPERTYOVERVIEW_GET_OVERVIEWPROPERTYCOUNT_OFFSET))(this);
 		}
 
 		::RPG::Client::GridFightRoleProperty* GetProperty(::System::Int32 a1)

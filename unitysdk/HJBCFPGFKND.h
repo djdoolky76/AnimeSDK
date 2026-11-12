@@ -3,52 +3,52 @@
 #include "unitysdk/RPG/GameCore/TurnState.h"
 #include "unitysdk/System/Object.h"
 
-#define HJBCFPGFKND_GET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x15D02880)
-#define HJBCFPGFKND_GET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15D02820)
-#define HJBCFPGFKND_GET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15D02800)
-#define HJBCFPGFKND_GET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x15D02860)
-#define HJBCFPGFKND_GET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x15D02840)
-#define HJBCFPGFKND_LFMHPLEKINH_OFFSET UNITYSDK_OFFSET(0x15D028A0)
-#define HJBCFPGFKND_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15D027B0)
-#define HJBCFPGFKND_SET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x15D02890)
-#define HJBCFPGFKND_SET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15D02830)
-#define HJBCFPGFKND_SET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x15D02810)
-#define HJBCFPGFKND_SET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x15D02870)
-#define HJBCFPGFKND_SET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x15D02850)
+#define HJBCFPGFKND_GET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x16C51C90)
+#define HJBCFPGFKND_GET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x16C51C30)
+#define HJBCFPGFKND_GET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x16C51C10)
+#define HJBCFPGFKND_GET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x16C51C70)
+#define HJBCFPGFKND_GET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x16C51C50)
+#define HJBCFPGFKND_LFMHPLEKINH_OFFSET UNITYSDK_OFFSET(0x16C51CB0)
+#define HJBCFPGFKND_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x16C51BC0)
+#define HJBCFPGFKND_SET_CURRENTTURNSTATE_OFFSET UNITYSDK_OFFSET(0x16C51CA0)
+#define HJBCFPGFKND_SET_LASTINSERTACTIONTURNCOUNT_OFFSET UNITYSDK_OFFSET(0x16C51C40)
+#define HJBCFPGFKND_SET_LASTONEMORETURNCOUNT_OFFSET UNITYSDK_OFFSET(0x16C51C20)
+#define HJBCFPGFKND_SET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x16C51C80)
+#define HJBCFPGFKND_SET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x16C51C60)
 
-inline static constexpr unsigned int HJBCFPGFKND_TypeDefinitionIndex = 56198;
+inline static constexpr unsigned int HJBCFPGFKND_TypeDefinitionIndex = 57410;
 
 	class HJBCFPGFKND : public ::System::Object
 	{
 	public:
-		static ::System::UInt32* StaticGet__OperationCounter_k__BackingField()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6910);
-		}
-
 		static ::RPG::GameCore::TurnState* StaticGet__CurrentTurnState_k__BackingField()
 		{
-			return (::RPG::GameCore::TurnState*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6914);
+			return (::RPG::GameCore::TurnState*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x32B0);
 		}
 
 		static ::System::UInt32* StaticGet__LastInsertActionTurnCount_k__BackingField()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6918);
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x32B4);
 		}
 
-		static ::System::UInt32* StaticGet__LastOneMoreTurnCount_k__BackingField()
+		static ::System::UInt32* StaticGet__OperationCounter_k__BackingField()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x691C);
-		}
-
-		static ::System::Int32* StaticGet__RandomCounter_k__BackingField()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6920);
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x32B8);
 		}
 
 		static ::System::UInt32* StaticGet_ONPPBOKMMKL()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x6924);
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x32BC);
+		}
+
+		static ::System::UInt32* StaticGet__LastOneMoreTurnCount_k__BackingField()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x32C0);
+		}
+
+		static ::System::Int32* StaticGet__RandomCounter_k__BackingField()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "HJBCFPGFKND")->GetStaticField(0x32C4);
 		}
 
 		static ::System::Void PJPFIHFAHGO()

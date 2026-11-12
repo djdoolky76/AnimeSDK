@@ -5,23 +5,23 @@ class PADDMLCPFPI;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CIFAECNJBLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4542B0)
-#define CIFAECNJBLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4542F0)
-#define CIFAECNJBLC___C__SORTBUNDLEBYOFFSET_B__18_0_OFFSET UNITYSDK_OFFSET(0x1C454300)
+#define CIFAECNJBLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5D8400)
+#define CIFAECNJBLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D8440)
+#define CIFAECNJBLC___C__SORTBUNDLEBYOFFSET_B__18_0_OFFSET UNITYSDK_OFFSET(0x1D5D8450)
 
-inline static constexpr unsigned int CIFAECNJBLC___c_TypeDefinitionIndex = 41490;
+inline static constexpr unsigned int CIFAECNJBLC___c_TypeDefinitionIndex = 42465;
 
 	class CIFAECNJBLC___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::PADDMLCPFPI*>** StaticGet___9__18_0()
-		{
-			return (::System::Comparison_1<::PADDMLCPFPI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11B50);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11B58);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DBE0);
+		}
+
+		static ::System::Comparison_1<::PADDMLCPFPI*>** StaticGet___9__18_0()
+		{
+			return (::System::Comparison_1<::PADDMLCPFPI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DBE8);
 		}
 
 		static ::System::Void _cctor()

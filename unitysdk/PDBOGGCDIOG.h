@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IEAMIIFFDKL.h"
 
-#define PDBOGGCDIOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CCA20)
+#define PDBOGGCDIOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4D7D30)
 
-inline static constexpr unsigned int PDBOGGCDIOG_TypeDefinitionIndex = 25013;
+inline static constexpr unsigned int PDBOGGCDIOG_TypeDefinitionIndex = 25491;
 
 	class PDBOGGCDIOG : public ::IEAMIIFFDKL
 	{

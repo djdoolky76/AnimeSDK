@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define OLFCGKCAPMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF03850)
+#define OLFCGKCAPMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7FED30)
 
-inline static constexpr unsigned int OLFCGKCAPMF_TypeDefinitionIndex = 61268;
+inline static constexpr unsigned int OLFCGKCAPMF_TypeDefinitionIndex = 62653;
 
 	class OLFCGKCAPMF : public ::System::Exception
 	{

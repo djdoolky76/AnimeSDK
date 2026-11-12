@@ -4,18 +4,18 @@
 class GFNAPELNFIC;
 namespace System { class Object; }
 
-#define GFNAPELNFIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4742C0)
-#define GFNAPELNFIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E474300)
-#define GFNAPELNFIC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E474310)
+#define GFNAPELNFIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F762200)
+#define GFNAPELNFIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F762240)
+#define GFNAPELNFIC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F762250)
 
-inline static constexpr unsigned int GFNAPELNFIC___c_TypeDefinitionIndex = 25486;
+inline static constexpr unsigned int GFNAPELNFIC___c_TypeDefinitionIndex = 25965;
 
 	class GFNAPELNFIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15360);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD2E0);
 		}
 
 		static ::System::Void _cctor()

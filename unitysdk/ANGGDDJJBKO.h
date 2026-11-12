@@ -4,9 +4,9 @@
 class FHBHJAHCJHN;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ANGGDDJJBKO_CTOR_OFFSET UNITYSDK_OFFSET(0x155969E0)
+#define ANGGDDJJBKO_CTOR_OFFSET UNITYSDK_OFFSET(0x166FF9E0)
 
-inline static constexpr unsigned int ANGGDDJJBKO_TypeDefinitionIndex = 54210;
+inline static constexpr unsigned int ANGGDDJJBKO_TypeDefinitionIndex = 55374;
 
 	class ANGGDDJJBKO : public ::System::Object
 	{

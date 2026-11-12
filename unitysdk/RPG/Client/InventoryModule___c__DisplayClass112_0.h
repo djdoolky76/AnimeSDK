@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ItemComefromRow; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS112_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3684C0)
-#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS112_0__GETITEMCOMEFROM_B__0_OFFSET UNITYSDK_OFFSET(0xD3729C0)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS112_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD9C710)
+#define RPG_CLIENT_INVENTORYMODULE___C__DISPLAYCLASS112_0__GETITEMCOMEFROM_B__0_OFFSET UNITYSDK_OFFSET(0xDDA6C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c__DisplayClass112_0_TypeDefinitionIndex = 65687;
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass112_0_TypeDefinitionIndex = 67613;
 
 	class InventoryModule___c__DisplayClass112_0 : public ::System::Object
 	{

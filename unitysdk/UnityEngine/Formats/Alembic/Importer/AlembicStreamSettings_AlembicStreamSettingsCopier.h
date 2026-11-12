@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStreamSettings; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMSETTINGS_ALEMBICSTREAMSETTINGSCOPIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F178A90)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAMSETTINGS_ALEMBICSTREAMSETTINGSCOPIER_CTOR_OFFSET UNITYSDK_OFFSET(0x20429ED0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStreamSettings_AlembicStreamSettingsCopier_TypeDefinitionIndex = 45861;
+	inline static constexpr unsigned int AlembicStreamSettings_AlembicStreamSettingsCopier_TypeDefinitionIndex = 46890;
 
 	class AlembicStreamSettings_AlembicStreamSettingsCopier : public ::UnityEngine::ScriptableObject
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPropPuzzleLoadingFinish; }
 
-#define AHEJECGCHGD_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7DEE0)
-#define AHEJECGCHGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB7DFC0)
-#define AHEJECGCHGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB7E010)
-#define AHEJECGCHGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB7E060)
-#define AHEJECGCHGD_TICK_OFFSET UNITYSDK_OFFSET(0xEB7DEF0)
+#define AHEJECGCHGD_CTOR_OFFSET UNITYSDK_OFFSET(0xF13D3E0)
+#define AHEJECGCHGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF13D4B0)
+#define AHEJECGCHGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF13D500)
+#define AHEJECGCHGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF13D550)
+#define AHEJECGCHGD_TICK_OFFSET UNITYSDK_OFFSET(0xF13D3F0)
 
-inline static constexpr unsigned int AHEJECGCHGD_TypeDefinitionIndex = 58917;
+inline static constexpr unsigned int AHEJECGCHGD_TypeDefinitionIndex = 60190;
 
 	class AHEJECGCHGD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaitPropPuzzleLoadingFinish* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaitPropPuzzleLoadingFinish* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitPropPuzzleLoadingFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitPropPuzzleLoadingFinish*))((::PBYTE)hIl2Cpp + AHEJECGCHGD_CTOR_OFFSET))(this, a1, a2);

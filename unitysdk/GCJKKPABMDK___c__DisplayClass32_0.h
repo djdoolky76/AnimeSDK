@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define GCJKKPABMDK___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15981270)
-#define GCJKKPABMDK___C__DISPLAYCLASS32_0__EXITREADY_B__0_OFFSET UNITYSDK_OFFSET(0x15981360)
+#define GCJKKPABMDK___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0x168B7920)
+#define GCJKKPABMDK___C__DISPLAYCLASS32_0__EXITREADY_B__0_OFFSET UNITYSDK_OFFSET(0x168B7A10)
 
-inline static constexpr unsigned int GCJKKPABMDK___c__DisplayClass32_0_TypeDefinitionIndex = 81957;
+inline static constexpr unsigned int GCJKKPABMDK___c__DisplayClass32_0_TypeDefinitionIndex = 84738;
 
 	class GCJKKPABMDK___c__DisplayClass32_0 : public ::System::Object
 	{

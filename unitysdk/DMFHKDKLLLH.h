@@ -4,7 +4,7 @@
 class CBJILMHOMGP;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int DMFHKDKLLLH_TypeDefinitionIndex = 49819;
+inline static constexpr unsigned int DMFHKDKLLLH_TypeDefinitionIndex = 50867;
 
 	class DMFHKDKLLLH : public ::System::Object
 	{

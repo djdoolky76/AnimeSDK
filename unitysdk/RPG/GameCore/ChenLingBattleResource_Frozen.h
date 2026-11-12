@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleResource_Frozen; }
 
-#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5878C0)
-#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5878D0)
-#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D587870)
+#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E797D50)
+#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E797D60)
+#define RPG_GAMECORE_CHENLINGBATTLERESOURCE_FROZEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E797D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleResource_Frozen_TypeDefinitionIndex = 15781;
+	inline static constexpr unsigned int ChenLingBattleResource_Frozen_TypeDefinitionIndex = 15939;
 
 	class ChenLingBattleResource_Frozen : public ::RPG::GameCore::BaseChenLingBattleResource
 	{

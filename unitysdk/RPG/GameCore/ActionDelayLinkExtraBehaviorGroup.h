@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActionDelayLinkExtraBehaviorGroup; }
 
-#define RPG_GAMECORE_ACTIONDELAYLINKEXTRABEHAVIORGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3441A0)
-#define RPG_GAMECORE_ACTIONDELAYLINKEXTRABEHAVIORGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3440C0)
+#define RPG_GAMECORE_ACTIONDELAYLINKEXTRABEHAVIORGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E552AB0)
+#define RPG_GAMECORE_ACTIONDELAYLINKEXTRABEHAVIORGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5529D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActionDelayLinkExtraBehaviorGroup_TypeDefinitionIndex = 23269;
+	inline static constexpr unsigned int ActionDelayLinkExtraBehaviorGroup_TypeDefinitionIndex = 23709;
 
 	class ActionDelayLinkExtraBehaviorGroup : public ::RPG::GameCore::JsonConfig
 	{

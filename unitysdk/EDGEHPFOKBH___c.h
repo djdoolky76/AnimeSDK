@@ -4,18 +4,18 @@
 class EDGEHPFOKBH;
 namespace System { class Object; }
 
-#define EDGEHPFOKBH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E25F180)
-#define EDGEHPFOKBH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E25F1C0)
-#define EDGEHPFOKBH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E25F1D0)
+#define EDGEHPFOKBH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F55C380)
+#define EDGEHPFOKBH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F55C3C0)
+#define EDGEHPFOKBH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F55C3D0)
 
-inline static constexpr unsigned int EDGEHPFOKBH___c_TypeDefinitionIndex = 31194;
+inline static constexpr unsigned int EDGEHPFOKBH___c_TypeDefinitionIndex = 32107;
 
 	class EDGEHPFOKBH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40630);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FD60);
 		}
 
 		static ::System::Void _cctor()

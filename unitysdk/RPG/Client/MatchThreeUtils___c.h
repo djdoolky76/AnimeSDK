@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5B2B90)
-#define RPG_CLIENT_MATCHTHREEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B2BD0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET UNITYSDK_OFFSET(0xD5B2BE0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0xD5B2CA0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0xD5B2C90)
+#define RPG_CLIENT_MATCHTHREEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0040F0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE004130)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__CREATEANDOPENLOBBY_B__2_3_OFFSET UNITYSDK_OFFSET(0xE004140)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__SHOWCONFIRMGIVEUPDIALOG_B__15_0_OFFSET UNITYSDK_OFFSET(0xE004200)
+#define RPG_CLIENT_MATCHTHREEUTILS___C___BEGINJOINLOBBY_B__4_0_OFFSET UNITYSDK_OFFSET(0xE0041F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 65980;
+	inline static constexpr unsigned int MatchThreeUtils___c_TypeDefinitionIndex = 67912;
 
 	class MatchThreeUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54ED0);
-		}
-
-		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_1<::RPG::Client::BaseLobby*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54ED8);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54EE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C3D0);
 		}
 
 		static ::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>** StaticGet___9__2_3()
 		{
-			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54EE8);
+			return (::System::Func_2<::RPG::Client::BaseLobby*, ::RPG::Client::LuaUIController*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C3D8);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__15_0()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C3E0);
+		}
+
+		static ::System::Action_1<::RPG::Client::BaseLobby*>** StaticGet___9__4_0()
+		{
+			return (::System::Action_1<::RPG::Client::BaseLobby*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C3E8);
 		}
 
 		static ::System::Void _cctor()

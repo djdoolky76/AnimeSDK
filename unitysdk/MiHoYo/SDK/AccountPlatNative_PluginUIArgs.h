@@ -5,11 +5,11 @@ namespace MiHoYo::SDK::PluginUI { class MiHoYoSDKBridgeUIElement; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE_PLUGINUIARGS_CTOR_OFFSET UNITYSDK_OFFSET(0xAF55F30)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE_PLUGINUIARGS_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B6ED0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative_PluginUIArgs_TypeDefinitionIndex = 46087;
+	inline static constexpr unsigned int AccountPlatNative_PluginUIArgs_TypeDefinitionIndex = 47116;
 
 	class AccountPlatNative_PluginUIArgs : public ::System::Object
 	{

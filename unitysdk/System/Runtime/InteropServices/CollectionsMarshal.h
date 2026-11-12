@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_COLLECTIONSMARSHAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F691320)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_COLLECTIONSMARSHAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x20940AF0)
 
 namespace System::Runtime::InteropServices
 {
-	inline static constexpr unsigned int CollectionsMarshal_TypeDefinitionIndex = 6082;
+	inline static constexpr unsigned int CollectionsMarshal_TypeDefinitionIndex = 6090;
 
 	class CollectionsMarshal : public ::System::Object
 	{

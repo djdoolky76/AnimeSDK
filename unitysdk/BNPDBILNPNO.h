@@ -4,29 +4,29 @@
 namespace RPG::Client { class AudienceAssetConfig; }
 namespace RPG::Client::CrowdAnimator { class CrowdAssetsPathConfig; }
 
-#define BNPDBILNPNO_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xBDE6D70)
-#define BNPDBILNPNO_IPNLEKNNLHM_OFFSET UNITYSDK_OFFSET(0xBDE6D50)
-#define BNPDBILNPNO_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0xBDE6E20)
-#define BNPDBILNPNO_PIAFAICPMLN_OFFSET UNITYSDK_OFFSET(0xBDE6D60)
+#define BNPDBILNPNO_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0xC767B70)
+#define BNPDBILNPNO_IPNLEKNNLHM_OFFSET UNITYSDK_OFFSET(0xC767B50)
+#define BNPDBILNPNO_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0xC767C20)
+#define BNPDBILNPNO_PIAFAICPMLN_OFFSET UNITYSDK_OFFSET(0xC767B60)
 
-inline static constexpr unsigned int BNPDBILNPNO_TypeDefinitionIndex = 69128;
+inline static constexpr unsigned int BNPDBILNPNO_TypeDefinitionIndex = 71081;
 
 	class BNPDBILNPNO : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::AudienceAssetConfig** StaticGet_DMPEKPLLCPL()
 		{
-			return (::RPG::Client::AudienceAssetConfig**)UnitySDK::FromName("", "BNPDBILNPNO")->GetStaticField(0x5B050);
+			return (::RPG::Client::AudienceAssetConfig**)UnitySDK::FromName("", "BNPDBILNPNO")->GetStaticField(0x54100);
 		}
 
 		static ::RPG::Client::CrowdAnimator::CrowdAssetsPathConfig** StaticGet_NCDCMMAELHE()
 		{
-			return (::RPG::Client::CrowdAnimator::CrowdAssetsPathConfig**)UnitySDK::FromName("", "BNPDBILNPNO")->GetStaticField(0x5B058);
+			return (::RPG::Client::CrowdAnimator::CrowdAssetsPathConfig**)UnitySDK::FromName("", "BNPDBILNPNO")->GetStaticField(0x54108);
 		}
 
 		static ::System::Boolean* StaticGet_AICGMPKPDMP()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BNPDBILNPNO")->GetStaticField(0x13DB0);
+			return (::System::Boolean*)UnitySDK::FromName("", "BNPDBILNPNO")->GetStaticField(0x10470);
 		}
 
 		static ::RPG::Client::AudienceAssetConfig* IPNLEKNNLHM()

@@ -8,21 +8,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournGambleGroupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNGAMBLEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3B9F0)
-#define RPG_GAMECORE_ROGUETOURNGAMBLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA3B790)
+#define RPG_GAMECORE_ROGUETOURNGAMBLEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4DC30)
+#define RPG_GAMECORE_ROGUETOURNGAMBLEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC4D9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournGambleGroupRow_TypeDefinitionIndex = 15041;
+	inline static constexpr unsigned int RogueTournGambleGroupRow_TypeDefinitionIndex = 15197;
 
 	class RogueTournGambleGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* GambleGroupIcon; // 0x10
-		::RPG::Client::TextID GroupName; // 0x18
-		::RPG::GameCore::RogueGambleMachineType GambleGroupType; // 0x28
-		::System::UInt32 GambleGroupID; // 0x2C
-		::RPG::GameCore::RogueGambleGroupLevelType GambleGroupLevel; // 0x30
+		::RPG::GameCore::RogueGambleMachineType GambleGroupType; // 0x18
+		::RPG::GameCore::RogueGambleGroupLevelType GambleGroupLevel; // 0x1C
+		::System::UInt32 GambleGroupID; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID GroupName; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNGAMBLEGROUPROW_CTOR_OFFSET))(this);

@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 class FIJHLNNBMGL;
 
-#define FIJHLNNBMGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF6EB0)
-#define FIJHLNNBMGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF6C90)
+#define FIJHLNNBMGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCFD50)
+#define FIJHLNNBMGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DFCFB30)
 
-inline static constexpr unsigned int FIJHLNNBMGL_TypeDefinitionIndex = 13905;
+inline static constexpr unsigned int FIJHLNNBMGL_TypeDefinitionIndex = 14062;
 
 	class FIJHLNNBMGL : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EDFKEENLOFF; // 0x10
 		::System::UInt32 BGOLMOKHCGD; // 0x18
-		::System::Boolean FPDNFOLDFOB; // 0x1C
+		::System::UInt32 JAKLCIIEDON; // 0x1C
+		::System::Boolean FPDNFOLDFOB; // 0x20
 		::System::Byte _padding0[0x3];
-		::System::UInt32 JAKLCIIEDON; // 0x20
 		::System::UInt32 CPCMBMBFBAI; // 0x24
 		::System::Void _ctor()
 		{

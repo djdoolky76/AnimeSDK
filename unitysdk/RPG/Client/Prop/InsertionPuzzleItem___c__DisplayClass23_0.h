@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class DPLLFKALLIN;
 
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEITEM___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD03E20)
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEITEM___C__DISPLAYCLASS23_0__SETSCALEWITHANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xDD03EB0)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEITEM___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE75FCB0)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEITEM___C__DISPLAYCLASS23_0__SETSCALEWITHANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xE760040)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int InsertionPuzzleItem___c__DisplayClass23_0_TypeDefinitionIndex = 78635;
+	inline static constexpr unsigned int InsertionPuzzleItem___c__DisplayClass23_0_TypeDefinitionIndex = 81370;
 
 	class InsertionPuzzleItem___c__DisplayClass23_0 : public ::System::Object
 	{

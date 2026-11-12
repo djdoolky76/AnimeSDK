@@ -4,12 +4,12 @@
 class JGDOHOFOFOF;
 namespace System { class Object; }
 
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS23_2_CTOR_OFFSET UNITYSDK_OFFSET(0xDABDAE0)
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS23_2___ONGETPETDATASCRSP_B__3_OFFSET UNITYSDK_OFFSET(0xDAC0C30)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS23_2_CTOR_OFFSET UNITYSDK_OFFSET(0xE5138C0)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS23_2___ONGETPETDATASCRSP_B__3_OFFSET UNITYSDK_OFFSET(0xE516A10)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetModule___c__DisplayClass23_2_TypeDefinitionIndex = 75695;
+	inline static constexpr unsigned int PetModule___c__DisplayClass23_2_TypeDefinitionIndex = 78022;
 
 	template <typename T1, typename T2>
 	class PetModule___c__DisplayClass23_2 : public ::System::Object

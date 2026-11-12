@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class SetDynamicValueByHPRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PPGADCPGELH_CTOR_OFFSET UNITYSDK_OFFSET(0xC381B50)
+#define PPGADCPGELH_CTOR_OFFSET UNITYSDK_OFFSET(0xCCB7340)
 
-inline static constexpr unsigned int PPGADCPGELH_TypeDefinitionIndex = 55445;
+inline static constexpr unsigned int PPGADCPGELH_TypeDefinitionIndex = 56633;
 
 	class PPGADCPGELH : public ::AMGELDFGKEL
 	{

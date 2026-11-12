@@ -4,18 +4,18 @@
 class GEIELBEBJCK;
 namespace System { class Object; }
 
-#define GEIELBEBJCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E45A2F0)
-#define GEIELBEBJCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E45A330)
-#define GEIELBEBJCK___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E45A340)
+#define GEIELBEBJCK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F748120)
+#define GEIELBEBJCK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F748160)
+#define GEIELBEBJCK___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F748170)
 
-inline static constexpr unsigned int GEIELBEBJCK___c_TypeDefinitionIndex = 31969;
+inline static constexpr unsigned int GEIELBEBJCK___c_TypeDefinitionIndex = 32882;
 
 	class GEIELBEBJCK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x126E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58F50);
 		}
 
 		static ::System::Void _cctor()

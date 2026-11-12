@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraBattleExtraConditionEvaluator; }
 
-#define RPG_GAMECORE_CHIMERABATTLEEXTRACONDITIONEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D599990)
-#define RPG_GAMECORE_CHIMERABATTLEEXTRACONDITIONEVALUATOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D596200)
+#define RPG_GAMECORE_CHIMERABATTLEEXTRACONDITIONEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AA150)
+#define RPG_GAMECORE_CHIMERABATTLEEXTRACONDITIONEVALUATOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7A6520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleExtraConditionEvaluator_TypeDefinitionIndex = 15837;
+	inline static constexpr unsigned int ChimeraBattleExtraConditionEvaluator_TypeDefinitionIndex = 15995;
 
 	class ChimeraBattleExtraConditionEvaluator : public ::RPG::GameCore::JsonConfig
 	{

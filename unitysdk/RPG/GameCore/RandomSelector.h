@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RandomSelector; }
 namespace RPG::GameCore { class RandomSelectorCase; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RANDOMSELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96CA70)
-#define RPG_GAMECORE_RANDOMSELECTOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D96CA80)
-#define RPG_GAMECORE_RANDOMSELECTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D96CA40)
+#define RPG_GAMECORE_RANDOMSELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB84E10)
+#define RPG_GAMECORE_RANDOMSELECTOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB84E20)
+#define RPG_GAMECORE_RANDOMSELECTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB84DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomSelector_TypeDefinitionIndex = 23777;
+	inline static constexpr unsigned int RandomSelector_TypeDefinitionIndex = 24233;
 
 	class RandomSelector : public ::RPG::GameCore::TaskConfig
 	{

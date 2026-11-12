@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LoopMoveObject; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOOPMOVEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F6210)
-#define RPG_GAMECORE_LOOPMOVEOBJECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F5E00)
+#define RPG_GAMECORE_LOOPMOVEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA38D10)
+#define RPG_GAMECORE_LOOPMOVEOBJECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA38A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopMoveObject_TypeDefinitionIndex = 20429;
+	inline static constexpr unsigned int LoopMoveObject_TypeDefinitionIndex = 20764;
 
 	class LoopMoveObject : public ::RPG::GameCore::JsonConfig
 	{

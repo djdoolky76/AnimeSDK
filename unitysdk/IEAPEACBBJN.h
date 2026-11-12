@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CancelActionDelayLink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IEAPEACBBJN_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE7910)
-#define IEAPEACBBJN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EE7940)
+#define IEAPEACBBJN_CTOR_OFFSET UNITYSDK_OFFSET(0x16E528B0)
+#define IEAPEACBBJN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E528E0)
 
-inline static constexpr unsigned int IEAPEACBBJN_TypeDefinitionIndex = 54911;
+inline static constexpr unsigned int IEAPEACBBJN_TypeDefinitionIndex = 56083;
 
 	class IEAPEACBBJN
 	{

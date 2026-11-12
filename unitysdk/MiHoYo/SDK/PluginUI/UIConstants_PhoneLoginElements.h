@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_PhoneLoginElements_TypeDefinitionIndex = 46808;
+	inline static constexpr unsigned int UIConstants_PhoneLoginElements_TypeDefinitionIndex = 47836;
 
 	class UIConstants_PhoneLoginElements : public ::System::Object
 	{

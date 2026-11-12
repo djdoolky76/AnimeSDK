@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AssistWayPointLittleGameCondition; }
 namespace RPG::GameCore { class AssistWayPointPack; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3FE8C0)
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D3FE8D0)
-#define RPG_GAMECORE_ASSISTWAYPOINTPACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3FE6B0)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E61EB30)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E61EB40)
+#define RPG_GAMECORE_ASSISTWAYPOINTPACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E61E920)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AssistWayPointPack_TypeDefinitionIndex = 19007;
+	inline static constexpr unsigned int AssistWayPointPack_TypeDefinitionIndex = 19194;
 
 	class AssistWayPointPack : public ::RPG::GameCore::JsonConfig
 	{

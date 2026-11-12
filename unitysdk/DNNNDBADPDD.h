@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_IsBoss; }
 
-#define DNNNDBADPDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E0010)
-#define DNNNDBADPDD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C5F9900)
+#define DNNNDBADPDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D761790)
+#define DNNNDBADPDD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D77AFF0)
 
-inline static constexpr unsigned int DNNNDBADPDD_TypeDefinitionIndex = 36349;
+inline static constexpr unsigned int DNNNDBADPDD_TypeDefinitionIndex = 37277;
 
 	class DNNNDBADPDD : public ::HHOHBHGLHHF
 	{

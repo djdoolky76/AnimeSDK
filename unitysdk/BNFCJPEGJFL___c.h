@@ -4,18 +4,18 @@
 class BNFCJPEGJFL;
 namespace System { class Object; }
 
-#define BNFCJPEGJFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E032110)
-#define BNFCJPEGJFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E032150)
-#define BNFCJPEGJFL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E032160)
+#define BNFCJPEGJFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2F3310)
+#define BNFCJPEGJFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2F3350)
+#define BNFCJPEGJFL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F2F3360)
 
-inline static constexpr unsigned int BNFCJPEGJFL___c_TypeDefinitionIndex = 28156;
+inline static constexpr unsigned int BNFCJPEGJFL___c_TypeDefinitionIndex = 28746;
 
 	class BNFCJPEGJFL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x523A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53A20);
 		}
 
 		static ::System::Void _cctor()

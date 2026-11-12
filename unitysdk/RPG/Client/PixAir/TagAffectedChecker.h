@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/PixAirEquipTag.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PIXAIR_TAGAFFECTEDCHECKER_CHECK_OFFSET UNITYSDK_OFFSET(0xDB6E3D0)
-#define RPG_CLIENT_PIXAIR_TAGAFFECTEDCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0xDB6E3A0)
+#define RPG_CLIENT_PIXAIR_TAGAFFECTEDCHECKER_CHECK_OFFSET UNITYSDK_OFFSET(0xE5C5470)
+#define RPG_CLIENT_PIXAIR_TAGAFFECTEDCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C5440)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int TagAffectedChecker_TypeDefinitionIndex = 79310;
+	inline static constexpr unsigned int TagAffectedChecker_TypeDefinitionIndex = 82087;
 
 	class TagAffectedChecker : public ::System::Object
 	{

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_CRPCAPTUREDESC_SETCAPTURE_OFFSET UNITYSDK_OFFSET(0x1F41BE50)
-#define UNITYENGINE_RENDERING_CRPCAPTUREDESC_UPDATECAPTURE_OFFSET UNITYSDK_OFFSET(0x1F41BE60)
+#define UNITYENGINE_RENDERING_CRPCAPTUREDESC_SETCAPTURE_OFFSET UNITYSDK_OFFSET(0x206CCA20)
+#define UNITYENGINE_RENDERING_CRPCAPTUREDESC_UPDATECAPTURE_OFFSET UNITYSDK_OFFSET(0x206CCA30)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPCaptureDesc_TypeDefinitionIndex = 4832;
+	inline static constexpr unsigned int CRPCaptureDesc_TypeDefinitionIndex = 4836;
 
 	struct alignas(4) CRPCaptureDesc
 	{

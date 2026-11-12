@@ -8,7 +8,7 @@ namespace RPG::Client::LittleGame { template <typename T> class IQueryEntityServ
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseEntityVisibleService_1_TypeDefinitionIndex = 42092;
+	inline static constexpr unsigned int BaseEntityVisibleService_1_TypeDefinitionIndex = 43067;
 
 	template <typename T>
 	class BaseEntityVisibleService_1 : public ::System::Object

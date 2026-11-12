@@ -11,16 +11,16 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security::Claims { class ClaimsIdentity; }
 namespace System::Security::Claims { class ClaimsPrincipal; }
 
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C356BA0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C3553D0)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C355370)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x1C356460)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C355470)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_GET_CLAIMSPRINCIPALSELECTOR_OFFSET UNITYSDK_OFFSET(0x1C355310)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1C356420)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONSERIALIZINGMETHOD_OFFSET UNITYSDK_OFFSET(0x1C355630)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SELECTPRIMARYIDENTITY_OFFSET UNITYSDK_OFFSET(0x1C354E10)
-#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x1C355670)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4DD300)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D4DBC10)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DBBB0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x1D4DCCA0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D4DBCB0)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_GET_CLAIMSPRINCIPALSELECTOR_OFFSET UNITYSDK_OFFSET(0x1D4DBB50)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONDESERIALIZEDMETHOD_OFFSET UNITYSDK_OFFSET(0x1D4DCC60)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_ONSERIALIZINGMETHOD_OFFSET UNITYSDK_OFFSET(0x1D4DBE70)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SELECTPRIMARYIDENTITY_OFFSET UNITYSDK_OFFSET(0x1D4DB650)
+#define SYSTEM_SECURITY_CLAIMS_CLAIMSPRINCIPAL_SERIALIZEIDENTITIES_OFFSET UNITYSDK_OFFSET(0x1D4DBEB0)
 
 namespace System::Security::Claims
 {
@@ -33,14 +33,14 @@ namespace System::Security::Claims
 		::Il2CppArray<::System::Byte>* m_userSerializationData; // 0x18
 		::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* m_identities; // 0x20
 		::System::String* m_version; // 0x28
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>** StaticGet_s_identitySelector()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>**)UnitySDK::FromName("System.Security.Claims", "ClaimsPrincipal")->GetStaticField(0x1D6C0);
-		}
-
 		static ::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>** StaticGet_s_principalSelector()
 		{
-			return (::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>**)UnitySDK::FromName("System.Security.Claims", "ClaimsPrincipal")->GetStaticField(0x1D6C8);
+			return (::System::Func_1<::System::Security::Claims::ClaimsPrincipal*>**)UnitySDK::FromName("System.Security.Claims", "ClaimsPrincipal")->GetStaticField(0x1FE30);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>** StaticGet_s_identitySelector()
+		{
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>**)UnitySDK::FromName("System.Security.Claims", "ClaimsPrincipal")->GetStaticField(0x1FE38);
 		}
 
 		::System::Void _ctor()

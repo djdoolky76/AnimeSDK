@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfDialogTipConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELFDIALOGTIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D635300)
-#define RPG_GAMECORE_ELFDIALOGTIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6350B0)
+#define RPG_GAMECORE_ELFDIALOGTIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E872CD0)
+#define RPG_GAMECORE_ELFDIALOGTIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E872A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfDialogTipConfig_TypeDefinitionIndex = 18468;
+	inline static constexpr unsigned int ElfDialogTipConfig_TypeDefinitionIndex = 18628;
 
 	class ElfDialogTipConfig : public ::RPG::GameCore::JsonConfig
 	{

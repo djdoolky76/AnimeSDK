@@ -5,11 +5,11 @@ namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KANMAPCNBJB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E4C20)
-#define KANMAPCNBJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2E4C50)
-#define KANMAPCNBJB_HECCKKKHKBN_OFFSET UNITYSDK_OFFSET(0xB2E5020)
+#define KANMAPCNBJB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB69F30)
+#define KANMAPCNBJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB69F60)
+#define KANMAPCNBJB_HECCKKKHKBN_OFFSET UNITYSDK_OFFSET(0xBB6A320)
 
-inline static constexpr unsigned int KANMAPCNBJB_TypeDefinitionIndex = 54565;
+inline static constexpr unsigned int KANMAPCNBJB_TypeDefinitionIndex = 55730;
 
 	class KANMAPCNBJB
 	{

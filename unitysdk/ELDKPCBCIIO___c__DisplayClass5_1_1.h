@@ -4,7 +4,7 @@
 namespace RPG::Client::FateRin { template <typename T> class PresentResult_1; }
 namespace System { class Object; }
 
-inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass5_1_1_TypeDefinitionIndex = 80620;
+inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass5_1_1_TypeDefinitionIndex = 83400;
 
 	template <typename T>
 	class ELDKPCBCIIO___c__DisplayClass5_1_1 : public ::System::Object

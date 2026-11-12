@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_UIELEMENTS_DRAGPERFORMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4AF5C0)
+#define UNITYENGINE_UIELEMENTS_DRAGPERFORMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x2075F440)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int DragPerformEvent_TypeDefinitionIndex = 5927;
+	inline static constexpr unsigned int DragPerformEvent_TypeDefinitionIndex = 5935;
 
 	class DragPerformEvent
 	{

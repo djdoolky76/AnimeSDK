@@ -10,39 +10,39 @@ namespace RootMotion::FinalIK { class GroundPhysicsHelper_RaycastDelegate; }
 namespace RootMotion::FinalIK { class GroundPhysicsHelper_SphereCastDelegate; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_CAPSULECAST_OFFSET UNITYSDK_OFFSET(0xB098FE0)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB099B70)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSCAPSULECAST_OFFSET UNITYSDK_OFFSET(0xB0993D0)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSRAYCAST_OFFSET UNITYSDK_OFFSET(0xB098580)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSSPHERECAST_OFFSET UNITYSDK_OFFSET(0xB098CB0)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_RAYCAST_OFFSET UNITYSDK_OFFSET(0xB098340)
-#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_SPHERECAST_OFFSET UNITYSDK_OFFSET(0xB098970)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_CAPSULECAST_OFFSET UNITYSDK_OFFSET(0xB6F9D70)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6FA900)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSCAPSULECAST_OFFSET UNITYSDK_OFFSET(0xB6FA160)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSRAYCAST_OFFSET UNITYSDK_OFFSET(0xB6F9310)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_PHYSICSSPHERECAST_OFFSET UNITYSDK_OFFSET(0xB6F9A40)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_RAYCAST_OFFSET UNITYSDK_OFFSET(0xB6F90D0)
+#define ROOTMOTION_FINALIK_GROUNDPHYSICSHELPER_SPHERECAST_OFFSET UNITYSDK_OFFSET(0xB6F9700)
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundPhysicsHelper_TypeDefinitionIndex = 45987;
+	inline static constexpr unsigned int GroundPhysicsHelper_TypeDefinitionIndex = 47016;
 
 	class GroundPhysicsHelper : public ::System::Object
 	{
 	public:
-		static ::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate** StaticGet_OverrideCapsuleCastDelegate()
-		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x3BF10);
-		}
-
 		static ::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate** StaticGet_OverrideSphereCastDelegate()
 		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x3BF18);
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_SphereCastDelegate**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x32EE0);
 		}
 
-		static ::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::UnityEngine::RaycastHit>*>** StaticGet_HitCaches()
+		static ::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate** StaticGet_OverrideCapsuleCastDelegate()
 		{
-			return (::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::UnityEngine::RaycastHit>*>**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x3BF20);
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_CapsuleCastDelegate**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x32EE8);
 		}
 
 		static ::RootMotion::FinalIK::GroundPhysicsHelper_RaycastDelegate** StaticGet_OverrideRaycastDelegate()
 		{
-			return (::RootMotion::FinalIK::GroundPhysicsHelper_RaycastDelegate**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x3BF28);
+			return (::RootMotion::FinalIK::GroundPhysicsHelper_RaycastDelegate**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x32EF0);
+		}
+
+		static ::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::UnityEngine::RaycastHit>*>** StaticGet_HitCaches()
+		{
+			return (::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::UnityEngine::RaycastHit>*>**)UnitySDK::FromName("RootMotion.FinalIK", "GroundPhysicsHelper")->GetStaticField(0x32EF8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerMarbleAfterStreamingAction; }
 
-#define EOJCNFGBHPF_CTOR_OFFSET UNITYSDK_OFFSET(0x155C42C0)
-#define EOJCNFGBHPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155C42F0)
+#define EOJCNFGBHPF_CTOR_OFFSET UNITYSDK_OFFSET(0x164D6340)
+#define EOJCNFGBHPF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164D6370)
 
-inline static constexpr unsigned int EOJCNFGBHPF_TypeDefinitionIndex = 52310;
+inline static constexpr unsigned int EOJCNFGBHPF_TypeDefinitionIndex = 53416;
 
 	class EOJCNFGBHPF
 	{

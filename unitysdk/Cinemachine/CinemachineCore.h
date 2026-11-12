@@ -18,79 +18,79 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_CINEMACHINECORE_ADDACTIVEBRAIN_OFFSET UNITYSDK_OFFSET(0x1666B9A0)
-#define CINEMACHINE_CINEMACHINECORE_ADDACTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x1667DEB0)
-#define CINEMACHINE_CINEMACHINECORE_CAMERADESTROYED_OFFSET UNITYSDK_OFFSET(0x1667DFA0)
-#define CINEMACHINE_CINEMACHINECORE_CAMERADISABLED_OFFSET UNITYSDK_OFFSET(0x1667E3C0)
-#define CINEMACHINE_CINEMACHINECORE_CAMERAENABLED_OFFSET UNITYSDK_OFFSET(0x1667E060)
-#define CINEMACHINE_CINEMACHINECORE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1667F180)
-#define CINEMACHINE_CINEMACHINECORE_CTOR_OFFSET UNITYSDK_OFFSET(0x1667DDC0)
-#define CINEMACHINE_CINEMACHINECORE_DELAYMIXINGVCAMUPDATEORDER_OFFSET UNITYSDK_OFFSET(0x1667E490)
-#define CINEMACHINE_CINEMACHINECORE_FINDPOTENTIALTARGETBRAIN_OFFSET UNITYSDK_OFFSET(0x1667EF60)
-#define CINEMACHINE_CINEMACHINECORE_GENERATECAMERAACTIVATIONEVENT_OFFSET UNITYSDK_OFFSET(0x16669DD0)
-#define CINEMACHINE_CINEMACHINECORE_GENERATECAMERACUTEVENT_OFFSET UNITYSDK_OFFSET(0x16669EA0)
-#define CINEMACHINE_CINEMACHINECORE_GETACTIVEBRAIN_OFFSET UNITYSDK_OFFSET(0x1667DE60)
-#define CINEMACHINE_CINEMACHINECORE_GETUPDATETARGET_OFFSET UNITYSDK_OFFSET(0x1667ECC0)
-#define CINEMACHINE_CINEMACHINECORE_GETVCAMUPDATESTATUS_OFFSET UNITYSDK_OFFSET(0x1667EED0)
-#define CINEMACHINE_CINEMACHINECORE_GETVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x1666F7A0)
-#define CINEMACHINE_CINEMACHINECORE_GET_BRAINCOUNT_OFFSET UNITYSDK_OFFSET(0x1667DE40)
-#define CINEMACHINE_CINEMACHINECORE_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x1665F480)
-#define CINEMACHINE_CINEMACHINECORE_GET_CURRENTUPDATEFILTER_OFFSET UNITYSDK_OFFSET(0x1667EEB0)
-#define CINEMACHINE_CINEMACHINECORE_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x1666B240)
-#define CINEMACHINE_CINEMACHINECORE_GET_FIXEDFRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1667E7B0)
-#define CINEMACHINE_CINEMACHINECORE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x16669CB0)
-#define CINEMACHINE_CINEMACHINECORE_GET_VIRTUALCAMERACOUNT_OFFSET UNITYSDK_OFFSET(0x1666F780)
-#define CINEMACHINE_CINEMACHINECORE_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x1667EE10)
-#define CINEMACHINE_CINEMACHINECORE_ISLIVE_OFFSET UNITYSDK_OFFSET(0x1666B190)
-#define CINEMACHINE_CINEMACHINECORE_REMOVEACTIVEBRAIN_OFFSET UNITYSDK_OFFSET(0x1666BD30)
-#define CINEMACHINE_CINEMACHINECORE_REMOVEACTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x1667DF70)
-#define CINEMACHINE_CINEMACHINECORE_REMOVEUPDATESTATUSCACHE_OFFSET UNITYSDK_OFFSET(0x1666E2A0)
-#define CINEMACHINE_CINEMACHINECORE_SET_CURRENTUPDATEFILTER_OFFSET UNITYSDK_OFFSET(0x1667EEC0)
-#define CINEMACHINE_CINEMACHINECORE_SET_FIXEDFRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x1667E7E0)
-#define CINEMACHINE_CINEMACHINECORE_UPDATEALLACTIVEVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x1666E340)
-#define CINEMACHINE_CINEMACHINECORE_UPDATEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x1667E810)
+#define CINEMACHINE_CINEMACHINECORE_ADDACTIVEBRAIN_OFFSET UNITYSDK_OFFSET(0x174AFF90)
+#define CINEMACHINE_CINEMACHINECORE_ADDACTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x174C24B0)
+#define CINEMACHINE_CINEMACHINECORE_CAMERADESTROYED_OFFSET UNITYSDK_OFFSET(0x174C25A0)
+#define CINEMACHINE_CINEMACHINECORE_CAMERADISABLED_OFFSET UNITYSDK_OFFSET(0x174C29C0)
+#define CINEMACHINE_CINEMACHINECORE_CAMERAENABLED_OFFSET UNITYSDK_OFFSET(0x174C2660)
+#define CINEMACHINE_CINEMACHINECORE_CCTOR_OFFSET UNITYSDK_OFFSET(0x174C3770)
+#define CINEMACHINE_CINEMACHINECORE_CTOR_OFFSET UNITYSDK_OFFSET(0x174C23C0)
+#define CINEMACHINE_CINEMACHINECORE_DELAYMIXINGVCAMUPDATEORDER_OFFSET UNITYSDK_OFFSET(0x174C2A90)
+#define CINEMACHINE_CINEMACHINECORE_FINDPOTENTIALTARGETBRAIN_OFFSET UNITYSDK_OFFSET(0x174C3550)
+#define CINEMACHINE_CINEMACHINECORE_GENERATECAMERAACTIVATIONEVENT_OFFSET UNITYSDK_OFFSET(0x174AE3C0)
+#define CINEMACHINE_CINEMACHINECORE_GENERATECAMERACUTEVENT_OFFSET UNITYSDK_OFFSET(0x174AE490)
+#define CINEMACHINE_CINEMACHINECORE_GETACTIVEBRAIN_OFFSET UNITYSDK_OFFSET(0x174C2460)
+#define CINEMACHINE_CINEMACHINECORE_GETUPDATETARGET_OFFSET UNITYSDK_OFFSET(0x174C32B0)
+#define CINEMACHINE_CINEMACHINECORE_GETVCAMUPDATESTATUS_OFFSET UNITYSDK_OFFSET(0x174C34C0)
+#define CINEMACHINE_CINEMACHINECORE_GETVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x174B3DA0)
+#define CINEMACHINE_CINEMACHINECORE_GET_BRAINCOUNT_OFFSET UNITYSDK_OFFSET(0x174C2440)
+#define CINEMACHINE_CINEMACHINECORE_GET_CURRENTTIME_OFFSET UNITYSDK_OFFSET(0x174A3A60)
+#define CINEMACHINE_CINEMACHINECORE_GET_CURRENTUPDATEFILTER_OFFSET UNITYSDK_OFFSET(0x174C34A0)
+#define CINEMACHINE_CINEMACHINECORE_GET_DELTATIME_OFFSET UNITYSDK_OFFSET(0x174AF830)
+#define CINEMACHINE_CINEMACHINECORE_GET_FIXEDFRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x174C2DB0)
+#define CINEMACHINE_CINEMACHINECORE_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x174AE2A0)
+#define CINEMACHINE_CINEMACHINECORE_GET_VIRTUALCAMERACOUNT_OFFSET UNITYSDK_OFFSET(0x174B3D80)
+#define CINEMACHINE_CINEMACHINECORE_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x174C3400)
+#define CINEMACHINE_CINEMACHINECORE_ISLIVE_OFFSET UNITYSDK_OFFSET(0x174AF780)
+#define CINEMACHINE_CINEMACHINECORE_REMOVEACTIVEBRAIN_OFFSET UNITYSDK_OFFSET(0x174B0320)
+#define CINEMACHINE_CINEMACHINECORE_REMOVEACTIVECAMERA_OFFSET UNITYSDK_OFFSET(0x174C2570)
+#define CINEMACHINE_CINEMACHINECORE_REMOVEUPDATESTATUSCACHE_OFFSET UNITYSDK_OFFSET(0x174B28A0)
+#define CINEMACHINE_CINEMACHINECORE_SET_CURRENTUPDATEFILTER_OFFSET UNITYSDK_OFFSET(0x174C34B0)
+#define CINEMACHINE_CINEMACHINECORE_SET_FIXEDFRAMECOUNT_OFFSET UNITYSDK_OFFSET(0x174C2DE0)
+#define CINEMACHINE_CINEMACHINECORE_UPDATEALLACTIVEVIRTUALCAMERAS_OFFSET UNITYSDK_OFFSET(0x174B2940)
+#define CINEMACHINE_CINEMACHINECORE_UPDATEVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0x174C2E10)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineCore_TypeDefinitionIndex = 39810;
+	inline static constexpr unsigned int CinemachineCore_TypeDefinitionIndex = 40739;
 
 	class CinemachineCore : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::Cinemachine::CinemachineBrain*>* mActiveBrains; // 0x10
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Cinemachine::CinemachineVirtualCameraBase*>*>* mAllCameras; // 0x18
-		::System::Collections::Generic::List_1<::Cinemachine::CinemachineVirtualCameraBase*>* mActiveCameras; // 0x20
-		::System::Collections::Generic::Dictionary_2<::Cinemachine::CinemachineVirtualCameraBase*, ::System::Object*>* mUpdateStatus; // 0x28
+		::System::Collections::Generic::Dictionary_2<::Cinemachine::CinemachineVirtualCameraBase*, ::System::Object*>* mUpdateStatus; // 0x18
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::Cinemachine::CinemachineVirtualCameraBase*>*>* mAllCameras; // 0x20
+		::System::Collections::Generic::List_1<::Cinemachine::CinemachineVirtualCameraBase*>* mActiveCameras; // 0x28
 		::Cinemachine::CinemachineVirtualCameraBase* mRoundRobinVcamLastFrame; // 0x30
 		::Cinemachine::CinemachineCore_UpdateFilter _CurrentUpdateFilter_k__BackingField; // 0x38
-		static ::Cinemachine::CinemachineCore_GetBlendOverrideDelegate** StaticGet_GetBlendOverride()
-		{
-			return (::Cinemachine::CinemachineCore_GetBlendOverrideDelegate**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAF0);
-		}
-
-		static ::Cinemachine::CinemachineBrain_BrainEvent** StaticGet_CameraUpdatedEvent()
-		{
-			return (::Cinemachine::CinemachineBrain_BrainEvent**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAF8);
-		}
-
 		static ::Cinemachine::CinemachineCore_AxisInputDelegate** StaticGet_GetInputAxis()
 		{
-			return (::Cinemachine::CinemachineCore_AxisInputDelegate**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xB00);
-		}
-
-		static ::System::String** StaticGet_kVersionString()
-		{
-			return (::System::String**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xB08);
+			return (::Cinemachine::CinemachineCore_AxisInputDelegate**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAA0);
 		}
 
 		static ::Cinemachine::CinemachineBrain_BrainEvent** StaticGet_CameraCutEvent()
 		{
-			return (::Cinemachine::CinemachineBrain_BrainEvent**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xB10);
+			return (::Cinemachine::CinemachineBrain_BrainEvent**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAA8);
+		}
+
+		static ::System::String** StaticGet_kVersionString()
+		{
+			return (::System::String**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAB0);
 		}
 
 		static ::Cinemachine::CinemachineCore** StaticGet_sInstance()
 		{
-			return (::Cinemachine::CinemachineCore**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xB18);
+			return (::Cinemachine::CinemachineCore**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAB8);
+		}
+
+		static ::Cinemachine::CinemachineCore_GetBlendOverrideDelegate** StaticGet_GetBlendOverride()
+		{
+			return (::Cinemachine::CinemachineCore_GetBlendOverrideDelegate**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAC0);
+		}
+
+		static ::Cinemachine::CinemachineBrain_BrainEvent** StaticGet_CameraUpdatedEvent()
+		{
+			return (::Cinemachine::CinemachineBrain_BrainEvent**)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0xAC8);
 		}
 
 		static ::System::Int32* StaticGet__FixedFrameCount_k__BackingField()
@@ -98,9 +98,14 @@ namespace Cinemachine
 			return (::System::Int32*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x590);
 		}
 
-		static ::System::Int32* StaticGet_kStreamingVersion()
+		static ::System::Boolean* StaticGet_DontSkipWhenCameraCullingMaskAll()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x594);
+			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x594);
+		}
+
+		static ::System::Boolean* StaticGet_sShowHiddenObjects()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x595);
 		}
 
 		static ::System::Single* StaticGet_CurrentTimeOverride()
@@ -108,24 +113,19 @@ namespace Cinemachine
 			return (::System::Single*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x598);
 		}
 
-		static ::System::Single* StaticGet_UniformDeltaTimeOverride()
+		static ::System::Single* StaticGet_mLastUpdateTime()
 		{
 			return (::System::Single*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x59C);
 		}
 
-		static ::System::Boolean* StaticGet_DontSkipWhenCameraCullingMaskAll()
+		static ::System::Single* StaticGet_UniformDeltaTimeOverride()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x5A0);
+			return (::System::Single*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x5A0);
 		}
 
-		static ::System::Boolean* StaticGet_sShowHiddenObjects()
+		static ::System::Int32* StaticGet_kStreamingVersion()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x5A1);
-		}
-
-		static ::System::Single* StaticGet_mLastUpdateTime()
-		{
-			return (::System::Single*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x5A4);
+			return (::System::Int32*)UnitySDK::FromName("Cinemachine", "CinemachineCore")->GetStaticField(0x5A4);
 		}
 
 		::System::Void _ctor()

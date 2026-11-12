@@ -3,11 +3,11 @@
 #include "unitysdk/SRF/SRMonoBehaviourEx.h"
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_INFOBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED59F80)
+#define SRDEBUGGER_UI_CONTROLS_INFOBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x20009AA0)
 
 namespace SRDebugger::UI::Controls
 {
-	inline static constexpr unsigned int InfoBlock_TypeDefinitionIndex = 38025;
+	inline static constexpr unsigned int InfoBlock_TypeDefinitionIndex = 38954;
 
 	class InfoBlock : public ::SRF::SRMonoBehaviourEx
 	{

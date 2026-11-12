@@ -5,12 +5,12 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NNPDAHNCAMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCDF1D0)
-#define NNPDAHNCAMK_EFIAJANIJLD_OFFSET UNITYSDK_OFFSET(0xBCDEFE0)
-#define NNPDAHNCAMK_HPBCOLDFMNI_OFFSET UNITYSDK_OFFSET(0xBCDEEC0)
-#define NNPDAHNCAMK_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xBCDF080)
+#define NNPDAHNCAMK_CTOR_OFFSET UNITYSDK_OFFSET(0xC5CAE90)
+#define NNPDAHNCAMK_EFIAJANIJLD_OFFSET UNITYSDK_OFFSET(0xC5CACA0)
+#define NNPDAHNCAMK_HPBCOLDFMNI_OFFSET UNITYSDK_OFFSET(0xC5CAB80)
+#define NNPDAHNCAMK_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xC5CAD40)
 
-inline static constexpr unsigned int NNPDAHNCAMK_TypeDefinitionIndex = 59415;
+inline static constexpr unsigned int NNPDAHNCAMK_TypeDefinitionIndex = 60692;
 
 	class NNPDAHNCAMK : public ::System::Object
 	{

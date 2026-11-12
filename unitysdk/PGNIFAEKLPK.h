@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
-#define PGNIFAEKLPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC22B570)
+#define PGNIFAEKLPK_CTOR_OFFSET UNITYSDK_OFFSET(0xCB15110)
 
-inline static constexpr unsigned int PGNIFAEKLPK_TypeDefinitionIndex = 74005;
+inline static constexpr unsigned int PGNIFAEKLPK_TypeDefinitionIndex = 76141;
 
 	class PGNIFAEKLPK
 	{

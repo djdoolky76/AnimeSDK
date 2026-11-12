@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HPSharedGroupPropertyType_TypeDefinitionIndex = 24761;
+	inline static constexpr unsigned int HPSharedGroupPropertyType_TypeDefinitionIndex = 25238;
 
 	enum class HPSharedGroupPropertyType : ::System::Int32
 	{

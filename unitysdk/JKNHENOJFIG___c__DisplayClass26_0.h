@@ -4,10 +4,10 @@
 class JKNHENOJFIG;
 class NGOFKJDNLPB;
 
-#define JKNHENOJFIG___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB227F00)
-#define JKNHENOJFIG___C__DISPLAYCLASS26_0__SETDRIVER_B__0_OFFSET UNITYSDK_OFFSET(0xB229340)
+#define JKNHENOJFIG___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA50370)
+#define JKNHENOJFIG___C__DISPLAYCLASS26_0__SETDRIVER_B__0_OFFSET UNITYSDK_OFFSET(0xBA51780)
 
-inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass26_0_TypeDefinitionIndex = 81711;
+inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass26_0_TypeDefinitionIndex = 84492;
 
 	class JKNHENOJFIG___c__DisplayClass26_0 : public ::System::Object
 	{

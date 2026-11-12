@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleValueGetter; }
 namespace RPG::GameCore { class ChenLingBattleAbility_SelfBoom; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SELFBOOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5810B0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SELFBOOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5810C0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SELFBOOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D581060)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SELFBOOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E791F30)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SELFBOOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E791F40)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_SELFBOOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E791EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_SelfBoom_TypeDefinitionIndex = 15751;
+	inline static constexpr unsigned int ChenLingBattleAbility_SelfBoom_TypeDefinitionIndex = 15909;
 
 	class ChenLingBattleAbility_SelfBoom : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

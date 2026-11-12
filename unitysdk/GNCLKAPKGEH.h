@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/LockHPStrength.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int GNCLKAPKGEH_TypeDefinitionIndex = 57744;
+inline static constexpr unsigned int GNCLKAPKGEH_TypeDefinitionIndex = 58978;
 
 	struct alignas(8) GNCLKAPKGEH
 	{

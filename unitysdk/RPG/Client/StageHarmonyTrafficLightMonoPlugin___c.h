@@ -8,31 +8,31 @@ namespace RPG::Client { class StageHarmonyTrafficLightMonoPlugin_IntersectionPha
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE11C320)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE11C360)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__2_0_OFFSET UNITYSDK_OFFSET(0xE11C370)
-#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__2_1_OFFSET UNITYSDK_OFFSET(0xE11C3B0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC91B0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC91F0)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__2_0_OFFSET UNITYSDK_OFFSET(0xEBC9200)
+#define RPG_CLIENT_STAGEHARMONYTRAFFICLIGHTMONOPLUGIN___C__DUMP_B__2_1_OFFSET UNITYSDK_OFFSET(0xEBC9240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex = 71003;
+	inline static constexpr unsigned int StageHarmonyTrafficLightMonoPlugin___c_TypeDefinitionIndex = 72982;
 
 	class StageHarmonyTrafficLightMonoPlugin___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB620);
+		}
+
 		static ::System::Func_2<::System::Object*, ::JOALFNGBHAG>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Object*, ::JOALFNGBHAG>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F4B0);
+			return (::System::Func_2<::System::Object*, ::JOALFNGBHAG>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB628);
 		}
 
 		static ::System::Func_2<::System::Object*, ::GEHMCJDBGFP>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::System::Object*, ::GEHMCJDBGFP>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F4B8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F4C0);
+			return (::System::Func_2<::System::Object*, ::GEHMCJDBGFP>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xB630);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine::Experimental::Audio { class AudioSampleProvider_SampleFramesHandler; }
 
-#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_INVOKESAMPLEFRAMESAVAILABLE_OFFSET UNITYSDK_OFFSET(0x1F3C33E0)
-#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_INVOKESAMPLEFRAMESOVERFLOW_OFFSET UNITYSDK_OFFSET(0x1F3C3410)
+#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_INVOKESAMPLEFRAMESAVAILABLE_OFFSET UNITYSDK_OFFSET(0x20674280)
+#define UNITYENGINE_EXPERIMENTAL_AUDIO_AUDIOSAMPLEPROVIDER_INVOKESAMPLEFRAMESOVERFLOW_OFFSET UNITYSDK_OFFSET(0x206742B0)
 
 namespace UnityEngine::Experimental::Audio
 {
-	inline static constexpr unsigned int AudioSampleProvider_TypeDefinitionIndex = 5155;
+	inline static constexpr unsigned int AudioSampleProvider_TypeDefinitionIndex = 5160;
 
 	class AudioSampleProvider : public ::System::Object
 	{

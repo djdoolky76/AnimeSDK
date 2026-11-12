@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A1A80)
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xC3A1A30)
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCCDBCD0)
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCCDBC80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int A4SkyDomeEffectControlMonoPlugin_TypeDefinitionIndex = 70875;
+	inline static constexpr unsigned int A4SkyDomeEffectControlMonoPlugin_TypeDefinitionIndex = 72854;
 
 	class A4SkyDomeEffectControlMonoPlugin
 	{

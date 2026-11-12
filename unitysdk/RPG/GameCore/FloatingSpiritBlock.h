@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FloatingSpiritBlock; }
 
-#define RPG_GAMECORE_FLOATINGSPIRITBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E4CF0)
-#define RPG_GAMECORE_FLOATINGSPIRITBLOCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E4BF0)
+#define RPG_GAMECORE_FLOATINGSPIRITBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EF400)
+#define RPG_GAMECORE_FLOATINGSPIRITBLOCK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8EF300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatingSpiritBlock_TypeDefinitionIndex = 18581;
+	inline static constexpr unsigned int FloatingSpiritBlock_TypeDefinitionIndex = 18741;
 
 	class FloatingSpiritBlock : public ::RPG::GameCore::JsonConfig
 	{

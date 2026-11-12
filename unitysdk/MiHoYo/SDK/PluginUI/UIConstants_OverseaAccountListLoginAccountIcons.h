@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_OverseaAccountListLoginAccountIcons_TypeDefinitionIndex = 46871;
+	inline static constexpr unsigned int UIConstants_OverseaAccountListLoginAccountIcons_TypeDefinitionIndex = 47899;
 
 	class UIConstants_OverseaAccountListLoginAccountIcons : public ::System::Object
 	{

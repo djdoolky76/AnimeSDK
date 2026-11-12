@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class FCHFCKDICNA;
 
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA761E0)
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xCA77690)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3D9B40)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD3DAFF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass4_0_TypeDefinitionIndex = 61436;
+	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass4_0_TypeDefinitionIndex = 62821;
 
 	class ChenLingBattleTeamSnapshot___c__DisplayClass4_0 : public ::System::Object
 	{

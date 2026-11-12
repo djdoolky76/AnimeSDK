@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ToggleSpecialSkillMark; }
 namespace RPG::GameCore { class UITextNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8C630)
-#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB8C640)
-#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB8C600)
+#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3B860)
+#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE3B870)
+#define RPG_GAMECORE_TOGGLESPECIALSKILLMARK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE3B830)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToggleSpecialSkillMark_TypeDefinitionIndex = 23683;
+	inline static constexpr unsigned int ToggleSpecialSkillMark_TypeDefinitionIndex = 24137;
 
 	class ToggleSpecialSkillMark : public ::RPG::GameCore::TaskConfig
 	{

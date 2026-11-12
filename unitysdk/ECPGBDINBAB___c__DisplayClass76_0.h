@@ -4,17 +4,17 @@
 class ECPGBDINBAB;
 namespace RPG::Client { class CakeRaceEffectDataItem; }
 
-#define ECPGBDINBAB___C__DISPLAYCLASS76_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1330BB80)
-#define ECPGBDINBAB___C__DISPLAYCLASS76_0___SETUPFIGHTEFFECTSHOWTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x1330D330)
-#define ECPGBDINBAB___C__DISPLAYCLASS76_0___SETUPFIGHTEFFECTSHOWTARGET_B__1_OFFSET UNITYSDK_OFFSET(0x1330D3A0)
+#define ECPGBDINBAB___C__DISPLAYCLASS76_0_CTOR_OFFSET UNITYSDK_OFFSET(0x140C7CA0)
+#define ECPGBDINBAB___C__DISPLAYCLASS76_0___SETUPFIGHTEFFECTSHOWTARGET_B__0_OFFSET UNITYSDK_OFFSET(0x140C9460)
+#define ECPGBDINBAB___C__DISPLAYCLASS76_0___SETUPFIGHTEFFECTSHOWTARGET_B__1_OFFSET UNITYSDK_OFFSET(0x140C94D0)
 
-inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass76_0_TypeDefinitionIndex = 78018;
+inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass76_0_TypeDefinitionIndex = 80753;
 
 	class ECPGBDINBAB___c__DisplayClass76_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::CakeRaceEffectDataItem* effectDataItem; // 0x10
-		::ECPGBDINBAB* __4__this; // 0x18
+		::ECPGBDINBAB* __4__this; // 0x10
+		::RPG::Client::CakeRaceEffectDataItem* effectDataItem; // 0x18
 		::System::Int32 effectIndex; // 0x20
 		::System::Void _ctor()
 		{

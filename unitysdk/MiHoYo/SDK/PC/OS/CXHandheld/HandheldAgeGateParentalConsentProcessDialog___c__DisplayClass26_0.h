@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldAgeGateParentalConsentProcessDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEE1A10)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEE1C70)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0685B0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDAGEGATEPARENTALCONSENTPROCESSDIALOG___C__DISPLAYCLASS26_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D068810)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldAgeGateParentalConsentProcessDialog___c__DisplayClass26_0_TypeDefinitionIndex = 8791;
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentProcessDialog___c__DisplayClass26_0_TypeDefinitionIndex = 8800;
 
 	class HandheldAgeGateParentalConsentProcessDialog___c__DisplayClass26_0 : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishWayCheckType_TypeDefinitionIndex = 10580;
+	inline static constexpr unsigned int FinishWayCheckType_TypeDefinitionIndex = 10596;
 
 	enum class FinishWayCheckType : ::System::Int32
 	{

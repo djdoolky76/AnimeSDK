@@ -4,7 +4,7 @@ namespace ZLinq::Linq { template <typename T> class EnumerableIterator_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int EnumerableIterator_1_TypeDefinitionIndex = 6103;
+	inline static constexpr unsigned int EnumerableIterator_1_TypeDefinitionIndex = 6111;
 
 	template <typename T>
 	class EnumerableIterator_1

@@ -6,22 +6,22 @@
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define KDMNPCLAFII_CONHCMOGADH_OFFSET UNITYSDK_OFFSET(0xB3678F0)
-#define KDMNPCLAFII_CTOR_OFFSET UNITYSDK_OFFSET(0xB367900)
-#define KDMNPCLAFII_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB367560)
-#define KDMNPCLAFII_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB367420)
+#define KDMNPCLAFII_CONHCMOGADH_OFFSET UNITYSDK_OFFSET(0xBBF1FA0)
+#define KDMNPCLAFII_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF1FB0)
+#define KDMNPCLAFII_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBBF1C10)
+#define KDMNPCLAFII_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBBF1AD0)
 
-inline static constexpr unsigned int KDMNPCLAFII_TypeDefinitionIndex = 58584;
+inline static constexpr unsigned int KDMNPCLAFII_TypeDefinitionIndex = 59849;
 
 	class KDMNPCLAFII : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::EntityPosAdaptionConfig* PFPMMIEEOMI; // 0x10
 		::RPG::GameCore::GameEntity* JOIPPIKNILC; // 0x18
-		::System::Boolean LFJHKGPGMKN; // 0x20
+		::System::Single NMCJLENIEFC; // 0x20
+		::System::Boolean LFJHKGPGMKN; // 0x24
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector3 OANHAILGOIG; // 0x24
-		::System::Single NMCJLENIEFC; // 0x30
+		::UnityEngine::Vector3 OANHAILGOIG; // 0x28
 		// static const ::System::Object ACJCPLPFJKI; // 0x0
 		::System::Void _ctor()
 		{

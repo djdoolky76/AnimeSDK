@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 class IMCMDHDALIB;
 namespace System { class String; }
 
-#define IMCMDHDALIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF22300)
-#define IMCMDHDALIB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF21FD0)
+#define IMCMDHDALIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E107970)
+#define IMCMDHDALIB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E107640)
 
-inline static constexpr unsigned int IMCMDHDALIB_TypeDefinitionIndex = 13963;
+inline static constexpr unsigned int IMCMDHDALIB_TypeDefinitionIndex = 14120;
 
 	class IMCMDHDALIB : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* KPNIGDPANOC; // 0x10
-		::System::String* ONDPOGOJIID; // 0x18
-		::Il2CppArray<::System::UInt32>* KOAGHJCOOGA; // 0x20
-		::System::UInt32 LHCNEHAHKHM; // 0x28
-		::System::UInt32 GDEOCHKAEMO; // 0x2C
-		::RPG::Client::TextID LLLJACLJAEP; // 0x30
+		::Il2CppArray<::System::UInt32>* KOAGHJCOOGA; // 0x10
+		::Il2CppArray<::System::UInt32>* KPNIGDPANOC; // 0x18
+		::System::String* ONDPOGOJIID; // 0x20
+		::RPG::Client::TextID LLLJACLJAEP; // 0x28
+		::System::UInt32 GDEOCHKAEMO; // 0x38
+		::System::UInt32 LHCNEHAHKHM; // 0x3C
 		::System::UInt32 AEONKNDCDKN; // 0x40
 		::System::UInt32 GGKPLJJMBBA; // 0x44
 		::System::Void _ctor()

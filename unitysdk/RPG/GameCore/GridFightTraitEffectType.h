@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTraitEffectType_TypeDefinitionIndex = 13658;
+	inline static constexpr unsigned int GridFightTraitEffectType_TypeDefinitionIndex = 13784;
 
 	enum class GridFightTraitEffectType : ::System::Int32
 	{
@@ -23,5 +23,24 @@ namespace RPG::GameCore
 		HolyGrailPray = 13,
 		PartnerRoleChoose = 14,
 		ChooseTraitByModule = 15,
+		TempEquipFromTemplate = 16,
+		TraitMemberLink = 17,
+		PhanionUnique = 18,
+		BandRoleChoose = 19,
+		Astropolis = 20,
+		UpgradeBasicEquipBeforeBattle = 21,
+		ComboSlot = 22,
+		Trailblaze = 23,
+		MoonGame = 24,
+		MoonGameSpotLight = 25,
+		ElationLaughPoint = 26,
+		Chimera = 27,
+		DanHengTwoInOne = 28,
+		JadeShop = 29,
+		ChooseTraitByManual = 30,
+		ClaraEnhance = 31,
+		AdditionalTraitRoleChoose = 32,
+		AhaUnique = 33,
+		GainOtherRoleTrait = 34,
 	};
 }

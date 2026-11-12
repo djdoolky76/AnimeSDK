@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSkillPerformState_TypeDefinitionIndex = 57688;
+	inline static constexpr unsigned int TargetSkillPerformState_TypeDefinitionIndex = 58920;
 
 	enum class TargetSkillPerformState : ::System::Int32
 	{

@@ -6,20 +6,20 @@ class JFMLJIFNMDJ;
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define JFMLJIFNMDJ___EXECUTE_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C52AE0)
+#define JFMLJIFNMDJ___EXECUTE_D__2_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3EA1F50)
 #define JFMLJIFNMDJ___EXECUTE_D__2_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
-inline static constexpr unsigned int JFMLJIFNMDJ___Execute_d__2_TypeDefinitionIndex = 44225;
+inline static constexpr unsigned int JFMLJIFNMDJ___Execute_d__2_TypeDefinitionIndex = 45300;
 
 	template <typename T1, typename T2>
 	struct alignas(8) JFMLJIFNMDJ___Execute_d__2
 	{
-		::JFMLJIFNMDJ* __4__this; // 0x10
-		::System::Object* __7__wrap1; // 0x18
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x20
+		::System::Object* __7__wrap1; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__1; // 0x18
+		::JFMLJIFNMDJ* __4__this; // 0x28
 		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder __t__builder; // 0x30
-		::System::Int32 __7__wrap2; // 0x40
-		::System::Int32 __1__state; // 0x44
+		::System::Int32 __1__state; // 0x40
+		::System::Int32 __7__wrap2; // 0x44
 		::System::Void MoveNext()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFMLJIFNMDJ___EXECUTE_D__2_MOVENEXT_OFFSET))(this);

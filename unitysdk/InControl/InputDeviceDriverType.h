@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDeviceDriverType_TypeDefinitionIndex = 40839;
+	inline static constexpr unsigned int InputDeviceDriverType_TypeDefinitionIndex = 41814;
 
 	enum class InputDeviceDriverType : ::System::UInt16
 	{

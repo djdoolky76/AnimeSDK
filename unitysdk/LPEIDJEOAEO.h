@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LPEIDJEOAEO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D129C60)
-#define LPEIDJEOAEO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D12A260)
-#define LPEIDJEOAEO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D129DD0)
-#define LPEIDJEOAEO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D129690)
-#define LPEIDJEOAEO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D129920)
-#define LPEIDJEOAEO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D129E70)
-#define LPEIDJEOAEO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D129EC0)
-#define LPEIDJEOAEO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D129CA0)
-#define LPEIDJEOAEO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1298C0)
-#define LPEIDJEOAEO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D129A90)
-#define LPEIDJEOAEO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D129D30)
-#define LPEIDJEOAEO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D129610)
+#define LPEIDJEOAEO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E328C80)
+#define LPEIDJEOAEO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E329280)
+#define LPEIDJEOAEO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E328DF0)
+#define LPEIDJEOAEO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E3286B0)
+#define LPEIDJEOAEO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E328940)
+#define LPEIDJEOAEO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E328E90)
+#define LPEIDJEOAEO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E328EE0)
+#define LPEIDJEOAEO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E328CC0)
+#define LPEIDJEOAEO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E3288E0)
+#define LPEIDJEOAEO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E328AB0)
+#define LPEIDJEOAEO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E328D50)
+#define LPEIDJEOAEO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E328630)
 
-inline static constexpr unsigned int LPEIDJEOAEO_TypeDefinitionIndex = 13642;
+inline static constexpr unsigned int LPEIDJEOAEO_TypeDefinitionIndex = 13767;
 
 	class LPEIDJEOAEO : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEnemyDifficultyLvConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEnemyDifficultyLvConfigRow*>**)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x46690);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x371F0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x46698);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x371F8);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEnemyDifficultyLvConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x466A0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x10CA0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEnemyDifficultyLvConfigRow*>**)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x37200);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0x10CA1);
+			return (::System::Byte*)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0xBD90);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "LPEIDJEOAEO")->GetStaticField(0xBD91);
 		}
 
 		static ::System::Void _cctor()

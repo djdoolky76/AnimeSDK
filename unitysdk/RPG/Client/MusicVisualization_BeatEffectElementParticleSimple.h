@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class ParticleSystemRenderer; }
 
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTPARTICLESIMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xD924D50)
-#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTPARTICLESIMPLE_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0xD924D00)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTPARTICLESIMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE3B8960)
+#define RPG_CLIENT_MUSICVISUALIZATION_BEATEFFECTELEMENTPARTICLESIMPLE_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0xE3B8910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicVisualization_BeatEffectElementParticleSimple_TypeDefinitionIndex = 70817;
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementParticleSimple_TypeDefinitionIndex = 72796;
 
 	class MusicVisualization_BeatEffectElementParticleSimple : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
 	{

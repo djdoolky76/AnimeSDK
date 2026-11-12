@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchSnapshotEntityList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DAPEBCLCKOB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC7BE0)
-#define DAPEBCLCKOB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFC7C30)
+#define DAPEBCLCKOB_CTOR_OFFSET UNITYSDK_OFFSET(0xE92C430)
+#define DAPEBCLCKOB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE92C480)
 
-inline static constexpr unsigned int DAPEBCLCKOB_TypeDefinitionIndex = 59128;
+inline static constexpr unsigned int DAPEBCLCKOB_TypeDefinitionIndex = 60404;
 
 	class DAPEBCLCKOB
 	{

@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleAbsorbTeammates; }
 
-#define JOHIFMHFMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7820)
-#define JOHIFMHFMPL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CBA7830)
+#define JOHIFMHFMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD78F30)
+#define JOHIFMHFMPL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DD78F40)
 
-inline static constexpr unsigned int JOHIFMHFMPL_TypeDefinitionIndex = 43113;
+inline static constexpr unsigned int JOHIFMHFMPL_TypeDefinitionIndex = 44094;
 
 	class JOHIFMHFMPL : public ::BKABEBEPPJK
 	{

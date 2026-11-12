@@ -7,24 +7,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_APPLYVALUE_OFFSET UNITYSDK_OFFSET(0x1CC7A640)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC7AB30)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CC79950)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1CC7A2B0)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1CC798D0)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_REBUILDFROMROOT_OFFSET UNITYSDK_OFFSET(0x1CC799F0)
-#define RPG_CUSTOMRP_UNIFORMREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0x1CC7A150)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_APPLYVALUE_OFFSET UNITYSDK_OFFSET(0x1DE21870)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE21D60)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DE20B80)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_GETINITIALVALUE_OFFSET UNITYSDK_OFFSET(0x1DE214E0)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_GET_COUNT_OFFSET UNITYSDK_OFFSET(0x1DE20B00)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_REBUILDFROMROOT_OFFSET UNITYSDK_OFFSET(0x1DE20C20)
+#define RPG_CUSTOMRP_UNIFORMREGISTRY_TRYGETENTRY_OFFSET UNITYSDK_OFFSET(0x1DE21380)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UniformRegistry_TypeDefinitionIndex = 37758;
+	inline static constexpr unsigned int UniformRegistry_TypeDefinitionIndex = 38687;
 
 	class UniformRegistry : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::CustomRP::UniformEntry>** StaticGet__entries()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::CustomRP::UniformEntry>**)UnitySDK::FromName("RPG.CustomRP", "UniformRegistry")->GetStaticField(0x36CD0);
+			return (::System::Collections::Generic::List_1<::RPG::CustomRP::UniformEntry>**)UnitySDK::FromName("RPG.CustomRP", "UniformRegistry")->GetStaticField(0x2F180);
 		}
 
 		// static const ::System::Object k_FieldFlags; // 0x0

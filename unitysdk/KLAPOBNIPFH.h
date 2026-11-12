@@ -6,20 +6,20 @@ namespace RPG::Client { class RogueSiteData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KLAPOBNIPFH_BKFOGIJHFIH_OFFSET UNITYSDK_OFFSET(0xB4DD030)
-#define KLAPOBNIPFH_CTOR_OFFSET UNITYSDK_OFFSET(0xB4DD760)
-#define KLAPOBNIPFH_NEMHFAMJPEH_OFFSET UNITYSDK_OFFSET(0xB4DD6A0)
-#define KLAPOBNIPFH_OPIEMPGICII_OFFSET UNITYSDK_OFFSET(0xB4DCB60)
-#define KLAPOBNIPFH_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xB4DC340)
-#define KLAPOBNIPFH_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0xB4DD2E0)
+#define KLAPOBNIPFH_BKFOGIJHFIH_OFFSET UNITYSDK_OFFSET(0xBD263B0)
+#define KLAPOBNIPFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD26AE0)
+#define KLAPOBNIPFH_NEMHFAMJPEH_OFFSET UNITYSDK_OFFSET(0xBD26A20)
+#define KLAPOBNIPFH_OPIEMPGICII_OFFSET UNITYSDK_OFFSET(0xBD25EC0)
+#define KLAPOBNIPFH_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xBD256A0)
+#define KLAPOBNIPFH_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0xBD26660)
 
-inline static constexpr unsigned int KLAPOBNIPFH_TypeDefinitionIndex = 64235;
+inline static constexpr unsigned int KLAPOBNIPFH_TypeDefinitionIndex = 65680;
 
 	class KLAPOBNIPFH : public ::RPG::Client::FloorConnectivityData
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::RogueSiteData*>* DPNAHECJMBC; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* EKACEGACALB; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::System::UInt32>*>* EKACEGACALB; // 0x40
+		::System::Collections::Generic::List_1<::RPG::Client::RogueSiteData*>* DPNAHECJMBC; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KLAPOBNIPFH_CTOR_OFFSET))(this);

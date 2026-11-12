@@ -7,20 +7,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournRoomRow; }
 
-#define RPG_GAMECORE_ROGUETOURNROOMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA41370)
-#define RPG_GAMECORE_ROGUETOURNROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA411A0)
+#define RPG_GAMECORE_ROGUETOURNROOMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC535B0)
+#define RPG_GAMECORE_ROGUETOURNROOMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC533E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournRoomRow_TypeDefinitionIndex = 14962;
+	inline static constexpr unsigned int RogueTournRoomRow_TypeDefinitionIndex = 15118;
 
 	class RogueTournRoomRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 RogueRoomID; // 0x10
 		::RPG::GameCore::RogueTournMode TournMode; // 0x14
-		::RPG::GameCore::RogueTournRoomType RogueRoomType; // 0x18
-		::RPG::GameCore::RogueTournVariantType VariantType; // 0x1C
+		::RPG::GameCore::RogueTournVariantType VariantType; // 0x18
+		::RPG::GameCore::RogueTournRoomType RogueRoomType; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUETOURNROOMROW_CTOR_OFFSET))(this);

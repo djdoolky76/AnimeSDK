@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableBattleOnAttacked; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMLAHMHNNAC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF31080)
-#define OMLAHMHNNAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF310B0)
+#define OMLAHMHNNAC_CTOR_OFFSET UNITYSDK_OFFSET(0xC82E960)
+#define OMLAHMHNNAC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC82E990)
 
-inline static constexpr unsigned int OMLAHMHNNAC_TypeDefinitionIndex = 58102;
+inline static constexpr unsigned int OMLAHMHNNAC_TypeDefinitionIndex = 59341;
 
 	class OMLAHMHNNAC
 	{

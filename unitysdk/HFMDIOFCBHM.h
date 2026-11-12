@@ -6,10 +6,10 @@ class FCOEMCEDLNL;
 class HFMDIOFCBHM;
 namespace System { class String; }
 
-#define HFMDIOFCBHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA2700)
-#define HFMDIOFCBHM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEA2550)
+#define HFMDIOFCBHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E07F820)
+#define HFMDIOFCBHM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E07F670)
 
-inline static constexpr unsigned int HFMDIOFCBHM_TypeDefinitionIndex = 13075;
+inline static constexpr unsigned int HFMDIOFCBHM_TypeDefinitionIndex = 13143;
 
 	class HFMDIOFCBHM : public ::System::Object
 	{

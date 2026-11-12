@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define KBLKHFKCCBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB31E770)
-#define KBLKHFKCCBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB31E7A0)
-#define KBLKHFKCCBC___C___QUERYGROUND_B__6_0_OFFSET UNITYSDK_OFFSET(0xB31E7B0)
+#define KBLKHFKCCBC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBA8850)
+#define KBLKHFKCCBC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA8890)
+#define KBLKHFKCCBC___C___QUERYGROUND_B__6_0_OFFSET UNITYSDK_OFFSET(0xBBA88A0)
 
-inline static constexpr unsigned int KBLKHFKCCBC___c_TypeDefinitionIndex = 77023;
+inline static constexpr unsigned int KBLKHFKCCBC___c_TypeDefinitionIndex = 79357;
 
 	class KBLKHFKCCBC___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33F40);
-		}
-
 		static ::System::Comparison_1<::UnityEngine::RaycastHit>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::RaycastHit>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33F48);
+			return (::System::Comparison_1<::UnityEngine::RaycastHit>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28C00);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28C08);
 		}
 
 		static ::System::Void _cctor()

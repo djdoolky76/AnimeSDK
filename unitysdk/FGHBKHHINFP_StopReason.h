@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FGHBKHHINFP_StopReason_TypeDefinitionIndex = 69164;
+inline static constexpr unsigned int FGHBKHHINFP_StopReason_TypeDefinitionIndex = 71117;
 
 	enum class FGHBKHHINFP_StopReason : ::System::Int32
 	{

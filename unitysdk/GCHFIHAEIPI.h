@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RogueMagicShowScepterActiveEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GCHFIHAEIPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1596B4B0)
-#define GCHFIHAEIPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1596B4E0)
+#define GCHFIHAEIPI_CTOR_OFFSET UNITYSDK_OFFSET(0x168A2090)
+#define GCHFIHAEIPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168A20C0)
 
-inline static constexpr unsigned int GCHFIHAEIPI_TypeDefinitionIndex = 58470;
+inline static constexpr unsigned int GCHFIHAEIPI_TypeDefinitionIndex = 59726;
 
 	class GCHFIHAEIPI
 	{

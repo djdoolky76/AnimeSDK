@@ -6,11 +6,11 @@
 namespace UnityEngine { class Font; }
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_FONTASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD04C0E0)
+#define RPG_CLIENT_FONTASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D3940)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FontAssetConfig_TypeDefinitionIndex = 60040;
+	inline static constexpr unsigned int FontAssetConfig_TypeDefinitionIndex = 61324;
 
 	class FontAssetConfig : public ::UnityEngine::ScriptableObject
 	{

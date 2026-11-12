@@ -4,18 +4,18 @@
 class JNDBILOGFAF;
 namespace System { class Object; }
 
-#define JNDBILOGFAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7942F0)
-#define JNDBILOGFAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E794330)
-#define JNDBILOGFAF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E794340)
+#define JNDBILOGFAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAC3140)
+#define JNDBILOGFAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAC3180)
+#define JNDBILOGFAF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FAC3190)
 
-inline static constexpr unsigned int JNDBILOGFAF___c_TypeDefinitionIndex = 30707;
+inline static constexpr unsigned int JNDBILOGFAF___c_TypeDefinitionIndex = 31613;
 
 	class JNDBILOGFAF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C5D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x569B0);
 		}
 
 		static ::System::Void _cctor()

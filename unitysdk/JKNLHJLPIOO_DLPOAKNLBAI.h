@@ -4,7 +4,7 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-inline static constexpr unsigned int JKNLHJLPIOO_DLPOAKNLBAI_TypeDefinitionIndex = 55819;
+inline static constexpr unsigned int JKNLHJLPIOO_DLPOAKNLBAI_TypeDefinitionIndex = 57022;
 
 	struct alignas(8) JKNLHJLPIOO_DLPOAKNLBAI
 	{

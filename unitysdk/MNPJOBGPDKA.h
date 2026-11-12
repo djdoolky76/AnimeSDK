@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MNPJOBGPDKA_TypeDefinitionIndex = 31545;
+inline static constexpr unsigned int MNPJOBGPDKA_TypeDefinitionIndex = 32458;
 
 	enum class MNPJOBGPDKA : ::System::Int32
 	{

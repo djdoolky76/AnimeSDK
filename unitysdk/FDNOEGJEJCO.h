@@ -3,7 +3,7 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvCallbackCurveType.h"
 class PNEMLMAGOMM;
 
-inline static constexpr unsigned int FDNOEGJEJCO_TypeDefinitionIndex = 49506;
+inline static constexpr unsigned int FDNOEGJEJCO_TypeDefinitionIndex = 50582;
 
 	class FDNOEGJEJCO
 	{

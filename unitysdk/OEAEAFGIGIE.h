@@ -3,10 +3,10 @@
 #include "unitysdk/BHPMNMMGLHI.h"
 namespace System { class Action; }
 
-#define OEAEAFGIGIE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF27C0)
-#define OEAEAFGIGIE_HPHMJMIANDK_OFFSET UNITYSDK_OFFSET(0xBDF2660)
+#define OEAEAFGIGIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A8130)
+#define OEAEAFGIGIE_HPHMJMIANDK_OFFSET UNITYSDK_OFFSET(0xC6A7FD0)
 
-inline static constexpr unsigned int OEAEAFGIGIE_TypeDefinitionIndex = 79367;
+inline static constexpr unsigned int OEAEAFGIGIE_TypeDefinitionIndex = 82144;
 
 	class OEAEAFGIGIE : public ::BHPMNMMGLHI
 	{

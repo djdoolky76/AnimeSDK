@@ -6,10 +6,10 @@
 class GHCECAKHKJP;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyContext_1; }
 
-#define FDKNMCCFKEI_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0x156DE0A0)
-#define FDKNMCCFKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x156DDFE0)
+#define FDKNMCCFKEI_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0x165F7BF0)
+#define FDKNMCCFKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x165F7B30)
 
-inline static constexpr unsigned int FDKNMCCFKEI_TypeDefinitionIndex = 75129;
+inline static constexpr unsigned int FDKNMCCFKEI_TypeDefinitionIndex = 77456;
 
 	class FDKNMCCFKEI : public ::System::Object
 	{

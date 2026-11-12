@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int CommandRobotPuzzleDirection_TypeDefinitionIndex = 78516;
+	inline static constexpr unsigned int CommandRobotPuzzleDirection_TypeDefinitionIndex = 81251;
 
 	enum class CommandRobotPuzzleDirection : ::System::Int32
 	{

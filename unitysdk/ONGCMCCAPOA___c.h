@@ -4,18 +4,18 @@
 class ONGCMCCAPOA;
 namespace System { class Object; }
 
-#define ONGCMCCAPOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEC5070)
-#define ONGCMCCAPOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC50B0)
-#define ONGCMCCAPOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEC50C0)
+#define ONGCMCCAPOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F18CE00)
+#define ONGCMCCAPOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F18CE40)
+#define ONGCMCCAPOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F18CE50)
 
-inline static constexpr unsigned int ONGCMCCAPOA___c_TypeDefinitionIndex = 34518;
+inline static constexpr unsigned int ONGCMCCAPOA___c_TypeDefinitionIndex = 35446;
 
 	class ONGCMCCAPOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C360);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25E50);
 		}
 
 		static ::System::Void _cctor()

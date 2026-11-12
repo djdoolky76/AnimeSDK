@@ -4,12 +4,12 @@
 class NLNKIGMDODK;
 namespace RPG::Client { class AnnounceData; }
 
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA14EB0)
-#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0___ONSERVERANNOUNCENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xDA16140)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4AB930)
+#define RPG_CLIENT_OPERATIONMODULE___C__DISPLAYCLASS42_0___ONSERVERANNOUNCENOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xE4ACBA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OperationModule___c__DisplayClass42_0_TypeDefinitionIndex = 66421;
+	inline static constexpr unsigned int OperationModule___c__DisplayClass42_0_TypeDefinitionIndex = 68357;
 
 	class OperationModule___c__DisplayClass42_0 : public ::System::Object
 	{

@@ -4,17 +4,17 @@
 class CKHENKIDNKP;
 class FCOEMCEDLNL;
 
-#define CKHENKIDNKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBAE380)
-#define CKHENKIDNKP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1EE70)
+#define CKHENKIDNKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC5EA0)
+#define CKHENKIDNKP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEC5D30)
 
-inline static constexpr unsigned int CKHENKIDNKP_TypeDefinitionIndex = 11561;
+inline static constexpr unsigned int CKHENKIDNKP_TypeDefinitionIndex = 11612;
 
 	class CKHENKIDNKP : public ::System::Object
 	{
 	public:
-		::System::UInt32 HNEIIAGADGO; // 0x10
+		::System::UInt32 DOBKKDIECDO; // 0x10
 		::System::UInt32 PHFMCACHFIJ; // 0x14
-		::System::UInt32 DOBKKDIECDO; // 0x18
+		::System::UInt32 HNEIIAGADGO; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CKHENKIDNKP_CTOR_OFFSET))(this);

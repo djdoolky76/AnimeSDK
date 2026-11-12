@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define PHGFAJLHKIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC24B9B0)
+#define PHGFAJLHKIE_CTOR_OFFSET UNITYSDK_OFFSET(0xCB70A80)
 
-inline static constexpr unsigned int PHGFAJLHKIE_TypeDefinitionIndex = 80550;
+inline static constexpr unsigned int PHGFAJLHKIE_TypeDefinitionIndex = 83330;
 
 	class PHGFAJLHKIE : public ::System::Object
 	{

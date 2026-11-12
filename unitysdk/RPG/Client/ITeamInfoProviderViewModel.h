@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITeamInfoProviderViewModel_TypeDefinitionIndex = 60108;
+	inline static constexpr unsigned int ITeamInfoProviderViewModel_TypeDefinitionIndex = 61392;
 
 	class ITeamInfoProviderViewModel
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class DCCEKONOPCK;
 
-#define GACPDMEPPAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15936A80)
+#define GACPDMEPPAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1686A540)
 
-inline static constexpr unsigned int GACPDMEPPAB_TypeDefinitionIndex = 80573;
+inline static constexpr unsigned int GACPDMEPPAB_TypeDefinitionIndex = 83353;
 
 	class GACPDMEPPAB : public ::System::Object
 	{

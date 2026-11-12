@@ -6,18 +6,18 @@ class COEGDGANGEE;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define COEGDGANGEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB78C0)
-#define COEGDGANGEE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB76B0)
+#define COEGDGANGEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEDACE0)
+#define COEGDGANGEE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEDAAD0)
 
-inline static constexpr unsigned int COEGDGANGEE_TypeDefinitionIndex = 15386;
+inline static constexpr unsigned int COEGDGANGEE_TypeDefinitionIndex = 15542;
 
 	class COEGDGANGEE : public ::System::Object
 	{
 	public:
 		::System::String* BGDEAHEAOFF; // 0x10
-		::RPG::Client::TextID OENAMINOLLF; // 0x18
-		::System::UInt32 ABCDGEFDNPC; // 0x28
-		::System::UInt32 LLDCHLHNADA; // 0x2C
+		::System::UInt32 ABCDGEFDNPC; // 0x18
+		::System::UInt32 LLDCHLHNADA; // 0x1C
+		::RPG::Client::TextID OENAMINOLLF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + COEGDGANGEE_CTOR_OFFSET))(this);

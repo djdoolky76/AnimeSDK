@@ -4,10 +4,10 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FAJPNPNLBKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15682940)
-#define FAJPNPNLBKP__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x15682950)
+#define FAJPNPNLBKP_CTOR_OFFSET UNITYSDK_OFFSET(0x16596C20)
+#define FAJPNPNLBKP__COMPAREIMPL_OFFSET UNITYSDK_OFFSET(0x16596C30)
 
-inline static constexpr unsigned int FAJPNPNLBKP_TypeDefinitionIndex = 62815;
+inline static constexpr unsigned int FAJPNPNLBKP_TypeDefinitionIndex = 64253;
 
 	class FAJPNPNLBKP : public ::RPG::Client::AvatarComparerBase
 	{

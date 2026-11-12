@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class HoyoTagContainer; }
 
-#define EMIEDJNFPBA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA61540)
-#define EMIEDJNFPBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61590)
+#define EMIEDJNFPBA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC24DC0)
+#define EMIEDJNFPBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC24E10)
 
-inline static constexpr unsigned int EMIEDJNFPBA_TypeDefinitionIndex = 43664;
+inline static constexpr unsigned int EMIEDJNFPBA_TypeDefinitionIndex = 44647;
 
 	class EMIEDJNFPBA : public ::System::Object
 	{

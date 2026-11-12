@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersLevelGameMode_TypeDefinitionIndex = 18948;
+	inline static constexpr unsigned int TeamTowersLevelGameMode_TypeDefinitionIndex = 19135;
 
 	enum class TeamTowersLevelGameMode : ::System::Byte
 	{

@@ -4,18 +4,18 @@
 class GFFDMPOCAIP;
 namespace System { class Object; }
 
-#define GFFDMPOCAIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4680C0)
-#define GFFDMPOCAIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E468100)
-#define GFFDMPOCAIP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E468110)
+#define GFFDMPOCAIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F755F40)
+#define GFFDMPOCAIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F755F80)
+#define GFFDMPOCAIP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F755F90)
 
-inline static constexpr unsigned int GFFDMPOCAIP___c_TypeDefinitionIndex = 25117;
+inline static constexpr unsigned int GFFDMPOCAIP___c_TypeDefinitionIndex = 25595;
 
 	class GFFDMPOCAIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13990);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB0F0);
 		}
 
 		static ::System::Void _cctor()

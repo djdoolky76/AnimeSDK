@@ -3,10 +3,10 @@
 class GGADPFPIOGE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PLBBCCKDBEA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2EC6A0)
-#define PLBBCCKDBEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2EC6D0)
+#define PLBBCCKDBEA_CTOR_OFFSET UNITYSDK_OFFSET(0xCC1B430)
+#define PLBBCCKDBEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC1B460)
 
-inline static constexpr unsigned int PLBBCCKDBEA_TypeDefinitionIndex = 55566;
+inline static constexpr unsigned int PLBBCCKDBEA_TypeDefinitionIndex = 56760;
 
 	class PLBBCCKDBEA
 	{

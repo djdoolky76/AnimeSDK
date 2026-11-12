@@ -4,14 +4,14 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NAEEAOEHNAM_CLEAR_OFFSET UNITYSDK_OFFSET(0xBA95470)
-#define NAEEAOEHNAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA954E0)
-#define NAEEAOEHNAM_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xBA95450)
-#define NAEEAOEHNAM_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xBA95430)
-#define NAEEAOEHNAM_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xBA95460)
-#define NAEEAOEHNAM_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xBA95440)
+#define NAEEAOEHNAM_CLEAR_OFFSET UNITYSDK_OFFSET(0xC31A1B0)
+#define NAEEAOEHNAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC31A220)
+#define NAEEAOEHNAM_GET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xC31A190)
+#define NAEEAOEHNAM_GET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xC31A170)
+#define NAEEAOEHNAM_SET_ISPROPAGATEATTACK_OFFSET UNITYSDK_OFFSET(0xC31A1A0)
+#define NAEEAOEHNAM_SET_LOCKDAMAGEZERO_OFFSET UNITYSDK_OFFSET(0xC31A180)
 
-inline static constexpr unsigned int NAEEAOEHNAM_TypeDefinitionIndex = 53857;
+inline static constexpr unsigned int NAEEAOEHNAM_TypeDefinitionIndex = 55021;
 
 	class NAEEAOEHNAM : public ::System::Object
 	{
@@ -19,14 +19,13 @@ inline static constexpr unsigned int NAEEAOEHNAM_TypeDefinitionIndex = 53857;
 		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
 		::RPG::GameCore::GameEntity* GNOCBLOMLAC; // 0x18
 		::RPG::GameCore::GameEntity* OBGGPEHLPBG; // 0x20
-		::System::Boolean GNIKNANDLNH; // 0x28
-		::System::Boolean _LockDamageZero_k__BackingField; // 0x29
-		::System::Boolean KFHFGGIGAKK; // 0x2A
-		::System::Boolean _IsPropagateAttack_k__BackingField; // 0x2B
-		::System::Boolean BPKFCCGIEPH; // 0x2C
-		::System::Boolean LBAFIMAMNPL; // 0x2D
-		::System::Byte _padding0[0x2];
-		::RPG::GameCore::FixPoint HDKGKHCCEGI; // 0x30
+		::RPG::GameCore::FixPoint HDKGKHCCEGI; // 0x28
+		::System::Boolean BPKFCCGIEPH; // 0x30
+		::System::Boolean LBAFIMAMNPL; // 0x31
+		::System::Boolean _LockDamageZero_k__BackingField; // 0x32
+		::System::Boolean _IsPropagateAttack_k__BackingField; // 0x33
+		::System::Boolean KFHFGGIGAKK; // 0x34
+		::System::Boolean GNIKNANDLNH; // 0x35
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NAEEAOEHNAM_CTOR_OFFSET))(this);

@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 class MELDOFLDELP;
 namespace System { class String; }
 
-#define MELDOFLDELP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D153490)
-#define MELDOFLDELP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D153210)
+#define MELDOFLDELP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E352290)
+#define MELDOFLDELP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E352010)
 
-inline static constexpr unsigned int MELDOFLDELP_TypeDefinitionIndex = 12000;
+inline static constexpr unsigned int MELDOFLDELP_TypeDefinitionIndex = 12057;
 
 	class MELDOFLDELP : public ::System::Object
 	{
 	public:
-		::System::String* ABJGONAEFCB; // 0x10
-		::Il2CppArray<::System::UInt32>* FODGHIDJAPP; // 0x18
-		::System::UInt32 PHFMCACHFIJ; // 0x20
-		::System::UInt32 LJGHBEFPOPP; // 0x24
+		::Il2CppArray<::System::UInt32>* FODGHIDJAPP; // 0x10
+		::System::String* ABJGONAEFCB; // 0x18
+		::System::UInt32 LJGHBEFPOPP; // 0x20
+		::System::UInt32 KDKPDJNMMCM; // 0x24
 		::RPG::Client::TextID NMAHGFAPENI; // 0x28
-		::System::UInt32 KDKPDJNMMCM; // 0x38
+		::System::UInt32 PHFMCACHFIJ; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MELDOFLDELP_CTOR_OFFSET))(this);

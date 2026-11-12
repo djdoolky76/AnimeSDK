@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class BlinkToPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JKGJNHPLGHK_CTOR_OFFSET UNITYSDK_OFFSET(0xB21C4B0)
-#define JKGJNHPLGHK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB21C4C0)
-#define JKGJNHPLGHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB21C510)
-#define JKGJNHPLGHK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB21C6F0)
-#define JKGJNHPLGHK_TICK_OFFSET UNITYSDK_OFFSET(0xB21C740)
+#define JKGJNHPLGHK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA441E0)
+#define JKGJNHPLGHK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA441F0)
+#define JKGJNHPLGHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA44240)
+#define JKGJNHPLGHK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA44420)
+#define JKGJNHPLGHK_TICK_OFFSET UNITYSDK_OFFSET(0xBA44470)
 
-inline static constexpr unsigned int JKGJNHPLGHK_TypeDefinitionIndex = 54879;
+inline static constexpr unsigned int JKGJNHPLGHK_TypeDefinitionIndex = 56049;
 
 	class JKGJNHPLGHK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::BlinkToPosition* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::BlinkToPosition* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::BlinkToPosition* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::BlinkToPosition*))((::PBYTE)hIl2Cpp + JKGJNHPLGHK_CTOR_OFFSET))(this, a1, a2);

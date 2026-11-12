@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int SelectMany_3_TypeDefinitionIndex = 6139;
+	inline static constexpr unsigned int SelectMany_3_TypeDefinitionIndex = 6146;
 
 	template <typename T1, typename T2, typename T3>
 	struct alignas(8) SelectMany_3

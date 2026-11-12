@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC70DD60)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC70DDA0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___BUILDEXPPLAN_B__34_0_OFFSET UNITYSDK_OFFSET(0xC70DDF0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___ENSUREAVATAREXPROWS_B__18_0_OFFSET UNITYSDK_OFFSET(0xC70DDB0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD06E770)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD06E7B0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___BUILDEXPPLAN_B__34_0_OFFSET UNITYSDK_OFFSET(0xD06E800)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C___ENSUREAVATAREXPROWS_B__18_0_OFFSET UNITYSDK_OFFSET(0xD06E7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQuickGrowCalculator___c_TypeDefinitionIndex = 62471;
+	inline static constexpr unsigned int AvatarQuickGrowCalculator___c_TypeDefinitionIndex = 63884;
 
 	class AvatarQuickGrowCalculator___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__34_0()
+		static ::System::Comparison_1<::RPG::GameCore::AvatarExpItemConfigRow*>** StaticGet___9__18_0()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C370);
+			return (::System::Comparison_1<::RPG::GameCore::AvatarExpItemConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58940);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C378);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58948);
 		}
 
-		static ::System::Comparison_1<::RPG::GameCore::AvatarExpItemConfigRow*>** StaticGet___9__18_0()
+		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__34_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::AvatarExpItemConfigRow*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C380);
+			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58950);
 		}
 
 		static ::System::Void _cctor()

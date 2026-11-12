@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RA_ByCompareVariableFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FCLKBONPBBK_CTOR_OFFSET UNITYSDK_OFFSET(0x156CE1E0)
-#define FCLKBONPBBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156CE210)
+#define FCLKBONPBBK_CTOR_OFFSET UNITYSDK_OFFSET(0x165E79E0)
+#define FCLKBONPBBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165E7A10)
 
-inline static constexpr unsigned int FCLKBONPBBK_TypeDefinitionIndex = 52094;
+inline static constexpr unsigned int FCLKBONPBBK_TypeDefinitionIndex = 53199;
 
 	class FCLKBONPBBK
 	{

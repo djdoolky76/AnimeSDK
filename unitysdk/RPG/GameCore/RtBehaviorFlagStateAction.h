@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtBehaviorFlagStateAction; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA50980)
-#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA50800)
+#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC63600)
+#define RPG_GAMECORE_RTBEHAVIORFLAGSTATEACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC63480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBehaviorFlagStateAction_TypeDefinitionIndex = 17643;
+	inline static constexpr unsigned int RtBehaviorFlagStateAction_TypeDefinitionIndex = 17812;
 
 	class RtBehaviorFlagStateAction : public ::RPG::GameCore::JsonConfig
 	{

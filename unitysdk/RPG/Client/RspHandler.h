@@ -5,14 +5,14 @@ namespace System { class AsyncCallback; }
 namespace System { class IAsyncResult; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_RSPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xE06E840)
-#define RPG_CLIENT_RSPHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE06E7C0)
-#define RPG_CLIENT_RSPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xE06E8B0)
-#define RPG_CLIENT_RSPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xE06E830)
+#define RPG_CLIENT_RSPHANDLER_BEGININVOKE_OFFSET UNITYSDK_OFFSET(0xEAD8CA0)
+#define RPG_CLIENT_RSPHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0xEAD8C20)
+#define RPG_CLIENT_RSPHANDLER_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xEAD8D10)
+#define RPG_CLIENT_RSPHANDLER_INVOKE_OFFSET UNITYSDK_OFFSET(0xEAD8C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RspHandler_TypeDefinitionIndex = 59285;
+	inline static constexpr unsigned int RspHandler_TypeDefinitionIndex = 60562;
 
 	class RspHandler : public ::System::MulticastDelegate
 	{

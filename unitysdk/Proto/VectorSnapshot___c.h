@@ -4,20 +4,20 @@
 namespace Proto { class VectorSnapshot; }
 namespace System { class Object; }
 
-#define PROTO_VECTORSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E01C750)
-#define PROTO_VECTORSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E01C790)
-#define PROTO_VECTORSNAPSHOT___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E01C7A0)
+#define PROTO_VECTORSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2ECDA0)
+#define PROTO_VECTORSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2ECDE0)
+#define PROTO_VECTORSNAPSHOT___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F2ECDF0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int VectorSnapshot___c_TypeDefinitionIndex = 25814;
+	inline static constexpr unsigned int VectorSnapshot___c_TypeDefinitionIndex = 26311;
 
 	class VectorSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x47760);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x53530);
 		}
 
 		static ::System::Void _cctor()

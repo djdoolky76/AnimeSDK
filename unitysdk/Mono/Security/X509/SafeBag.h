@@ -4,9 +4,9 @@
 namespace Mono::Security { class ASN1; }
 namespace System { class String; }
 
-#define MONO_SECURITY_X509_SAFEBAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C08A860)
-#define MONO_SECURITY_X509_SAFEBAG_GET_ASN1_OFFSET UNITYSDK_OFFSET(0x1C092D50)
-#define MONO_SECURITY_X509_SAFEBAG_GET_BAGOID_OFFSET UNITYSDK_OFFSET(0x1C092D40)
+#define MONO_SECURITY_X509_SAFEBAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D211C30)
+#define MONO_SECURITY_X509_SAFEBAG_GET_ASN1_OFFSET UNITYSDK_OFFSET(0x1D21A120)
+#define MONO_SECURITY_X509_SAFEBAG_GET_BAGOID_OFFSET UNITYSDK_OFFSET(0x1D21A110)
 
 namespace Mono::Security::X509
 {
@@ -15,8 +15,8 @@ namespace Mono::Security::X509
 	class SafeBag : public ::System::Object
 	{
 	public:
-		::Mono::Security::ASN1* _asn1; // 0x10
-		::System::String* _bagOID; // 0x18
+		::System::String* _bagOID; // 0x10
+		::Mono::Security::ASN1* _asn1; // 0x18
 		::System::Void _ctor(::System::String* a1, ::Mono::Security::ASN1* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::Mono::Security::ASN1*))((::PBYTE)hIl2Cpp + MONO_SECURITY_X509_SAFEBAG_CTOR_OFFSET))(this, a1, a2);

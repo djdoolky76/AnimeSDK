@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOIGPAEEAHD_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB8F60)
+#define HOIGPAEEAHD_CTOR_OFFSET UNITYSDK_OFFSET(0x16D5BEF0)
 
-inline static constexpr unsigned int HOIGPAEEAHD_TypeDefinitionIndex = 56310;
+inline static constexpr unsigned int HOIGPAEEAHD_TypeDefinitionIndex = 57524;
 
 	class HOIGPAEEAHD : public ::System::Object
 	{

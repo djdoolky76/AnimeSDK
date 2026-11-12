@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft
 {
-	inline static constexpr unsigned int MechCraftConditionType_TypeDefinitionIndex = 41650;
+	inline static constexpr unsigned int MechCraftConditionType_TypeDefinitionIndex = 42625;
 
 	enum class MechCraftConditionType : ::System::Int32
 	{

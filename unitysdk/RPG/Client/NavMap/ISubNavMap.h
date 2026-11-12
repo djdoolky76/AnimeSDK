@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ISubNavMap_TypeDefinitionIndex = 74630;
+	inline static constexpr unsigned int ISubNavMap_TypeDefinitionIndex = 76778;
 
 	class ISubNavMap
 	{

@@ -6,20 +6,20 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Object; }
 
-#define IOLJJKJGGFK_CTOR_OFFSET UNITYSDK_OFFSET(0x16512150)
-#define IOLJJKJGGFK_FOEBLLFDCIH_OFFSET UNITYSDK_OFFSET(0x16512080)
+#define IOLJJKJGGFK_CTOR_OFFSET UNITYSDK_OFFSET(0xB846910)
+#define IOLJJKJGGFK_FOEBLLFDCIH_OFFSET UNITYSDK_OFFSET(0xB846840)
 
-inline static constexpr unsigned int IOLJJKJGGFK_TypeDefinitionIndex = 60951;
+inline static constexpr unsigned int IOLJJKJGGFK_TypeDefinitionIndex = 62327;
 
 	class IOLJJKJGGFK : public ::System::Object
 	{
 	public:
 		::System::Object* LOMLIPOLBKM; // 0x10
-		::UnityEngine::Quaternion MCPHEDGBAOF; // 0x18
-		::UnityEngine::Quaternion JDLKKPIFNDD; // 0x28
-		::UnityEngine::Vector3 DGHHMAPHHOK; // 0x38
-		::UnityEngine::Vector3 JMKBGFNBOAO; // 0x44
-		::RPG::Client::WorldShiftingReason KDHPKOFLNFM; // 0x50
+		::RPG::Client::WorldShiftingReason KDHPKOFLNFM; // 0x18
+		::UnityEngine::Vector3 DGHHMAPHHOK; // 0x1C
+		::UnityEngine::Quaternion MCPHEDGBAOF; // 0x28
+		::UnityEngine::Quaternion JDLKKPIFNDD; // 0x38
+		::UnityEngine::Vector3 JMKBGFNBOAO; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IOLJJKJGGFK_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class LDCHLAKNODJ;
 namespace System { class Object; }
 
-#define LDCHLAKNODJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F49E0)
-#define LDCHLAKNODJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F4A20)
-#define LDCHLAKNODJ___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E8F4A30)
+#define LDCHLAKNODJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC330B0)
+#define LDCHLAKNODJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC330F0)
+#define LDCHLAKNODJ___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FC33100)
 
-inline static constexpr unsigned int LDCHLAKNODJ___c_TypeDefinitionIndex = 30050;
+inline static constexpr unsigned int LDCHLAKNODJ___c_TypeDefinitionIndex = 30948;
 
 	class LDCHLAKNODJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33B40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29460);
 		}
 
 		static ::System::Void _cctor()

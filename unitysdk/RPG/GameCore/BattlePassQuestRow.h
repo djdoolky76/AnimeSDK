@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattlePassQuestRow; }
 
-#define RPG_GAMECORE_BATTLEPASSQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4632C0)
-#define RPG_GAMECORE_BATTLEPASSQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4631A0)
+#define RPG_GAMECORE_BATTLEPASSQUESTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E673180)
+#define RPG_GAMECORE_BATTLEPASSQUESTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E673060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassQuestRow_TypeDefinitionIndex = 12871;
+	inline static constexpr unsigned int BattlePassQuestRow_TypeDefinitionIndex = 12943;
 
 	class BattlePassQuestRow : public ::System::Object
 	{

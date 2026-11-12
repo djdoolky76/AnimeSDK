@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int KeyAction_TypeDefinitionIndex = 39569;
+	inline static constexpr unsigned int KeyAction_TypeDefinitionIndex = 40498;
 
 	enum class KeyAction : ::System::Int32
 	{

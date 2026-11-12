@@ -8,11 +8,11 @@ class KAKADGHNMFK;
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LJPDKBPFNEM_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0xB7245C0)
-#define LJPDKBPFNEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB724990)
-#define LJPDKBPFNEM_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xB724620)
+#define LJPDKBPFNEM_CIJOLMCDLCI_OFFSET UNITYSDK_OFFSET(0xBFC14C0)
+#define LJPDKBPFNEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC1890)
+#define LJPDKBPFNEM_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xBFC1520)
 
-inline static constexpr unsigned int LJPDKBPFNEM_TypeDefinitionIndex = 77495;
+inline static constexpr unsigned int LJPDKBPFNEM_TypeDefinitionIndex = 80230;
 
 	class LJPDKBPFNEM : public ::FJNNEOKOCJD
 	{

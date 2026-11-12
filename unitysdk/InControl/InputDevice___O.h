@@ -5,14 +5,14 @@ namespace InControl { class DeadZoneFunc; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputDevice___O_TypeDefinitionIndex = 40837;
+	inline static constexpr unsigned int InputDevice___O_TypeDefinitionIndex = 41812;
 
 	class InputDevice___O : public ::System::Object
 	{
 	public:
 		static ::InControl::DeadZoneFunc** StaticGet__0___Separate()
 		{
-			return (::InControl::DeadZoneFunc**)UnitySDK::FromName("InControl", "<>O")->GetStaticField(0x58280);
+			return (::InControl::DeadZoneFunc**)UnitySDK::FromName("InControl", "<>O")->GetStaticField(0x69270);
 		}
 
 	};

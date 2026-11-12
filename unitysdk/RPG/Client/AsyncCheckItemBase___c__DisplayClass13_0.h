@@ -4,12 +4,12 @@
 namespace RPG::Client { class AsyncCheckItemBase; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A7010)
-#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xC6A7290)
+#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD002E80)
+#define RPG_CLIENT_ASYNCCHECKITEMBASE___C__DISPLAYCLASS13_0__DOCHECKWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0xD003100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AsyncCheckItemBase___c__DisplayClass13_0_TypeDefinitionIndex = 59868;
+	inline static constexpr unsigned int AsyncCheckItemBase___c__DisplayClass13_0_TypeDefinitionIndex = 61149;
 
 	class AsyncCheckItemBase___c__DisplayClass13_0 : public ::System::Object
 	{

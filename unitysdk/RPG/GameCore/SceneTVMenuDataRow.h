@@ -5,24 +5,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SceneTVMenuDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCENETVMENUDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA89540)
-#define RPG_GAMECORE_SCENETVMENUDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA89240)
+#define RPG_GAMECORE_SCENETVMENUDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9BBB0)
+#define RPG_GAMECORE_SCENETVMENUDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC9B8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SceneTVMenuDataRow_TypeDefinitionIndex = 14562;
+	inline static constexpr unsigned int SceneTVMenuDataRow_TypeDefinitionIndex = 14717;
 
 	class SceneTVMenuDataRow : public ::System::Object
 	{
 	public:
-		::System::String* SoundEvent; // 0x10
-		::System::String* IfAnAsset; // 0x18
+		::System::String* IfAnAsset; // 0x10
+		::System::String* SoundEvent; // 0x18
 		::System::String* Asset; // 0x20
-		::System::UInt32 ID; // 0x28
-		::System::Int32 Order; // 0x2C
-		::System::Int32 ProgramGroupID; // 0x30
-		::System::Int32 PlayType; // 0x34
-		::System::Single Duration; // 0x38
+		::System::Int32 ProgramGroupID; // 0x28
+		::System::Single Duration; // 0x2C
+		::System::Int32 PlayType; // 0x30
+		::System::UInt32 ID; // 0x34
+		::System::Int32 Order; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SCENETVMENUDATAROW_CTOR_OFFSET))(this);

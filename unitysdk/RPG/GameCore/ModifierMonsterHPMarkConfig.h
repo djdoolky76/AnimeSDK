@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierMonsterHPMarkConfig; }
 
-#define RPG_GAMECORE_MODIFIERMONSTERHPMARKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88E700)
-#define RPG_GAMECORE_MODIFIERMONSTERHPMARKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88E5C0)
+#define RPG_GAMECORE_MODIFIERMONSTERHPMARKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA8AA0)
+#define RPG_GAMECORE_MODIFIERMONSTERHPMARKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA8930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierMonsterHPMarkConfig_TypeDefinitionIndex = 18248;
+	inline static constexpr unsigned int ModifierMonsterHPMarkConfig_TypeDefinitionIndex = 18410;
 
 	class ModifierMonsterHPMarkConfig : public ::RPG::GameCore::JsonConfig
 	{

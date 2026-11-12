@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetEntityActionState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENTITYACTIONSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAFF70)
-#define RPG_GAMECORE_SETENTITYACTIONSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAAFF80)
-#define RPG_GAMECORE_SETENTITYACTIONSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAAFF30)
+#define RPG_GAMECORE_SETENTITYACTIONSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC22B0)
+#define RPG_GAMECORE_SETENTITYACTIONSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC22C0)
+#define RPG_GAMECORE_SETENTITYACTIONSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC2270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEntityActionState_TypeDefinitionIndex = 22653;
+	inline static constexpr unsigned int SetEntityActionState_TypeDefinitionIndex = 23075;
 
 	class SetEntityActionState : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,11 +5,11 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleCheckWorkFinish; }
 
-#define GLPNAINGJHN_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC23B0)
-#define GLPNAINGJHN_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x15AC24C0)
-#define GLPNAINGJHN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15AC2410)
+#define GLPNAINGJHN_CTOR_OFFSET UNITYSDK_OFFSET(0x16A44AA0)
+#define GLPNAINGJHN_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x16A44BB0)
+#define GLPNAINGJHN_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x16A44B00)
 
-inline static constexpr unsigned int GLPNAINGJHN_TypeDefinitionIndex = 78399;
+inline static constexpr unsigned int GLPNAINGJHN_TypeDefinitionIndex = 81134;
 
 	class GLPNAINGJHN : public ::System::Object
 	{

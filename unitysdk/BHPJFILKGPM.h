@@ -4,10 +4,10 @@
 class LJGNPJOPBAE;
 namespace System { class String; }
 
-#define BHPJFILKGPM_FDIIGGIMENM_OFFSET UNITYSDK_OFFSET(0xB493C70)
-#define BHPJFILKGPM_HOJIJCAPDAJ_OFFSET UNITYSDK_OFFSET(0xB493BD0)
+#define BHPJFILKGPM_FDIIGGIMENM_OFFSET UNITYSDK_OFFSET(0xBE26E40)
+#define BHPJFILKGPM_HOJIJCAPDAJ_OFFSET UNITYSDK_OFFSET(0xBE26DA0)
 
-inline static constexpr unsigned int BHPJFILKGPM_TypeDefinitionIndex = 60905;
+inline static constexpr unsigned int BHPJFILKGPM_TypeDefinitionIndex = 62281;
 
 	class BHPJFILKGPM : public ::System::Object
 	{

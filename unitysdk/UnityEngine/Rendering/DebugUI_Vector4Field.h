@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR4FIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C0980)
+#define UNITYENGINE_RENDERING_DEBUGUI_VECTOR4FIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x20571790)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugUI_Vector4Field_TypeDefinitionIndex = 35542;
+	inline static constexpr unsigned int DebugUI_Vector4Field_TypeDefinitionIndex = 36470;
 
 	class DebugUI_Vector4Field
 	{

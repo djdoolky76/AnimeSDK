@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JGDJDADAFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94710)
+#define JGDJDADAFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5AB30)
 
-inline static constexpr unsigned int JGDJDADAFEB_TypeDefinitionIndex = 43276;
+inline static constexpr unsigned int JGDJDADAFEB_TypeDefinitionIndex = 44257;
 
 	class JGDJDADAFEB : public ::System::Object
 	{

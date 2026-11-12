@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFEEDA0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS18_0__GETGLOBALUSERAGENT_B__0_OFFSET UNITYSDK_OFFSET(0xAFEFD80)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB650070)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS18_0__GETGLOBALUSERAGENT_B__0_OFFSET UNITYSDK_OFFSET(0xB651050)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewCloud___c__DisplayClass18_0_TypeDefinitionIndex = 46589;
+	inline static constexpr unsigned int MiHoYoSDKWebViewCloud___c__DisplayClass18_0_TypeDefinitionIndex = 47617;
 
 	class MiHoYoSDKWebViewCloud___c__DisplayClass18_0 : public ::System::Object
 	{

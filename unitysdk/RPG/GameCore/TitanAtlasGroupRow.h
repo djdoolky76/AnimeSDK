@@ -6,20 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TitanAtlasGroupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TITANATLASGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8A320)
-#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB8A0E0)
+#define RPG_GAMECORE_TITANATLASGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE39540)
+#define RPG_GAMECORE_TITANATLASGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE39300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 15297;
+	inline static constexpr unsigned int TitanAtlasGroupRow_TypeDefinitionIndex = 15453;
 
 	class TitanAtlasGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* TitleBGColor; // 0x10
-		::RPG::Client::TextID TitanGroupName; // 0x18
-		::RPG::Client::TextID TitanGroupDesc; // 0x28
-		::System::UInt32 TitanGroupID; // 0x38
+		::RPG::Client::TextID TitanGroupDesc; // 0x18
+		::System::UInt32 TitanGroupID; // 0x28
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID TitanGroupName; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TITANATLASGROUPROW_CTOR_OFFSET))(this);

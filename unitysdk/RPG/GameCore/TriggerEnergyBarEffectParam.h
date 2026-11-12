@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TriggerEnergyBarEffect; }
 
-#define RPG_GAMECORE_TRIGGERENERGYBAREFFECTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE7B5020)
+#define RPG_GAMECORE_TRIGGERENERGYBAREFFECTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF2B83B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerEnergyBarEffectParam_TypeDefinitionIndex = 55735;
+	inline static constexpr unsigned int TriggerEnergyBarEffectParam_TypeDefinitionIndex = 56937;
 
 	class TriggerEnergyBarEffectParam : public ::System::Object
 	{

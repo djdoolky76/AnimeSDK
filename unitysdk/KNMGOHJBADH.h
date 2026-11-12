@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KNMGOHJBADH_CTOR_OFFSET UNITYSDK_OFFSET(0xB588DB0)
+#define KNMGOHJBADH_CTOR_OFFSET UNITYSDK_OFFSET(0xBDDB460)
 
-inline static constexpr unsigned int KNMGOHJBADH_TypeDefinitionIndex = 63502;
+inline static constexpr unsigned int KNMGOHJBADH_TypeDefinitionIndex = 64940;
 
 	class KNMGOHJBADH : public ::System::Object
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class LittleGameFetchProxyByID; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FOPNKAFHBAC_CTOR_OFFSET UNITYSDK_OFFSET(0x15909BD0)
-#define FOPNKAFHBAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15909C40)
+#define FOPNKAFHBAC_CTOR_OFFSET UNITYSDK_OFFSET(0x16838B00)
+#define FOPNKAFHBAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16838B70)
 
-inline static constexpr unsigned int FOPNKAFHBAC_TypeDefinitionIndex = 59108;
+inline static constexpr unsigned int FOPNKAFHBAC_TypeDefinitionIndex = 60384;
 
 	class FOPNKAFHBAC
 	{

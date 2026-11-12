@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define DPJMOAGICOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA30730)
+#define DPJMOAGICOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBF3F80)
 
-inline static constexpr unsigned int DPJMOAGICOB_TypeDefinitionIndex = 42011;
+inline static constexpr unsigned int DPJMOAGICOB_TypeDefinitionIndex = 42986;
 
 	struct alignas(8) DPJMOAGICOB
 	{
@@ -18,7 +18,7 @@ inline static constexpr unsigned int DPJMOAGICOB_TypeDefinitionIndex = 42011;
 		::System::Single OAMBIELLBJE; // 0x30
 		static ::DPJMOAGICOB* StaticGet_HGLIFJGHADE()
 		{
-			return (::DPJMOAGICOB*)UnitySDK::FromName("", "DPJMOAGICOB")->GetStaticField(0xAB40);
+			return (::DPJMOAGICOB*)UnitySDK::FromName("", "DPJMOAGICOB")->GetStaticField(0x1B030);
 		}
 
 		static ::System::Void _cctor()

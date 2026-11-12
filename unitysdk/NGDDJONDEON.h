@@ -4,7 +4,7 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int NGDDJONDEON_TypeDefinitionIndex = 49824;
+inline static constexpr unsigned int NGDDJONDEON_TypeDefinitionIndex = 50872;
 
 	class NGDDJONDEON : public ::System::Object
 	{

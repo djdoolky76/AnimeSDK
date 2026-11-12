@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GMMEANMBFIK_FadeState_TypeDefinitionIndex = 60798;
+inline static constexpr unsigned int GMMEANMBFIK_FadeState_TypeDefinitionIndex = 62177;
 
 	enum class GMMEANMBFIK_FadeState : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SkipBillboardModelVisibleCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KCONOJKDNLA_CTOR_OFFSET UNITYSDK_OFFSET(0xB344E90)
-#define KCONOJKDNLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB344EC0)
+#define KCONOJKDNLA_CTOR_OFFSET UNITYSDK_OFFSET(0xBBCF480)
+#define KCONOJKDNLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBCF4B0)
 
-inline static constexpr unsigned int KCONOJKDNLA_TypeDefinitionIndex = 58712;
+inline static constexpr unsigned int KCONOJKDNLA_TypeDefinitionIndex = 59980;
 
 	class KCONOJKDNLA
 	{

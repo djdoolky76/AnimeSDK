@@ -14,20 +14,20 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFD3170)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD3050)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xAFD1E80)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAFCFEA0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xAFD2CB0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xAFD0DD0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0xAFD2A40)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xAFCFEC0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xAFCFEB0)
-#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xAFCFF20)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0xB634460)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xB634340)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GETOUTPUTTEXT_OFFSET UNITYSDK_OFFSET(0xB633170)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_GET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xB631190)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOINTERCLICK_OFFSET UNITYSDK_OFFSET(0xB633FA0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xB6320C0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_REPLACERICHTEXT_OFFSET UNITYSDK_OFFSET(0xB633D30)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SETVERTICESDIRTY_OFFSET UNITYSDK_OFFSET(0xB6311B0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_SET_ONHREFCLICK_OFFSET UNITYSDK_OFFSET(0xB6311A0)
+#define MIHOYO_SDK_MIHOYOSDKLINKIMAGETEXT_UPDATEQUADIMAGE_OFFSET UNITYSDK_OFFSET(0xB631210)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 46456;
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 47484;
 
 	class MiHoYoSDKLinkImageText : public ::MiHoYo::SDK::HoYoUI::HoYoText
 	{
@@ -41,22 +41,22 @@ namespace MiHoYo::SDK
 		::UnityEngine::UIVertex vert; // 0x220
 		static ::System::Func_2<::System::String*, ::UnityEngine::Sprite*>** StaticGet_funLoadSprite()
 		{
-			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x25F20);
+			return (::System::Func_2<::System::String*, ::UnityEngine::Sprite*>**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x24700);
 		}
 
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_HrefRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x25F28);
-		}
-
-		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
-		{
-			return (::System::Text::StringBuilder**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x25F30);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x24708);
 		}
 
 		static ::System::Text::RegularExpressions::Regex** StaticGet_s_ImageRegex()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x25F38);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x24710);
+		}
+
+		static ::System::Text::StringBuilder** StaticGet_s_TextBuilder()
+		{
+			return (::System::Text::StringBuilder**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKLinkImageText")->GetStaticField(0x24718);
 		}
 
 		::System::Void _ctor()

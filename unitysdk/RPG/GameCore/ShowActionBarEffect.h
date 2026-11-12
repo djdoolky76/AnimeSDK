@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ActionBarEffectConfig; }
 namespace RPG::GameCore { class ShowActionBarEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SHOWACTIONBAREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD5EF0)
-#define RPG_GAMECORE_SHOWACTIONBAREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD5F40)
-#define RPG_GAMECORE_SHOWACTIONBAREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD5E80)
+#define RPG_GAMECORE_SHOWACTIONBAREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE7D00)
+#define RPG_GAMECORE_SHOWACTIONBAREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECE7D50)
+#define RPG_GAMECORE_SHOWACTIONBAREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE7C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowActionBarEffect_TypeDefinitionIndex = 22948;
+	inline static constexpr unsigned int ShowActionBarEffect_TypeDefinitionIndex = 23376;
 
 	class ShowActionBarEffect : public ::RPG::GameCore::TaskConfig
 	{

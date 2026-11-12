@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitUntilValueChangedUnityObjectPromise_2___c_TypeDefinitionIndex = 38263;
+	inline static constexpr unsigned int UniTask_WaitUntilValueChangedUnityObjectPromise_2___c_TypeDefinitionIndex = 39192;
 
 	template <typename T1, typename T2>
 	class UniTask_WaitUntilValueChangedUnityObjectPromise_2___c : public ::System::Object

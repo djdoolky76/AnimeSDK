@@ -5,18 +5,18 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleShowBubbleTalk; }
 
-#define LABJELNIKEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D61D0)
-#define LABJELNIKEE_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB5D6760)
-#define LABJELNIKEE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB5D6230)
+#define LABJELNIKEE_CTOR_OFFSET UNITYSDK_OFFSET(0xBE67500)
+#define LABJELNIKEE_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBE67A90)
+#define LABJELNIKEE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBE67560)
 
-inline static constexpr unsigned int LABJELNIKEE_TypeDefinitionIndex = 78404;
+inline static constexpr unsigned int LABJELNIKEE_TypeDefinitionIndex = 81139;
 
 	class LABJELNIKEE : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ChimeraBattleShowBubbleTalk* IGHAHBNLIJA; // 0x10
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x20
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x20
 		::System::UInt32 LEKGODGIMCH; // 0x28
 		::System::UInt32 AJLJMGEEKOJ; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattleShowBubbleTalk* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)

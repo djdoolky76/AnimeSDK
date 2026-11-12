@@ -4,10 +4,10 @@ class MEIGMBOLDOF;
 namespace UnityEngine::Events { template <typename T1, typename T2> class UnityAction_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define NPAGGDLHIND_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF99B0)
-#define NPAGGDLHIND_DMIAKCFEDKH_OFFSET UNITYSDK_OFFSET(0xBCF99E0)
+#define NPAGGDLHIND_CTOR_OFFSET UNITYSDK_OFFSET(0xC5E89C0)
+#define NPAGGDLHIND_DMIAKCFEDKH_OFFSET UNITYSDK_OFFSET(0xC5E89F0)
 
-inline static constexpr unsigned int NPAGGDLHIND_TypeDefinitionIndex = 49169;
+inline static constexpr unsigned int NPAGGDLHIND_TypeDefinitionIndex = 50245;
 
 	class NPAGGDLHIND
 	{

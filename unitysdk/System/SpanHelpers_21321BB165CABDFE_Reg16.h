@@ -3,7 +3,7 @@
 
 namespace System
 {
-	inline static constexpr unsigned int SpanHelpers_21321BB165CABDFE_Reg16_TypeDefinitionIndex = 4983;
+	inline static constexpr unsigned int SpanHelpers_21321BB165CABDFE_Reg16_TypeDefinitionIndex = 4988;
 
 	struct alignas(4) SpanHelpers_21321BB165CABDFE_Reg16
 	{

@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityPanelSingleRewardRow; }
 
-#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36F310)
-#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D36F170)
+#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57E540)
+#define RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E57E3A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityPanelSingleRewardRow_TypeDefinitionIndex = 11223;
+	inline static constexpr unsigned int ActivityPanelSingleRewardRow_TypeDefinitionIndex = 11274;
 
 	class ActivityPanelSingleRewardRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
 		::System::UInt32 ActivityID; // 0x18
-		::System::UInt32 AvatarID; // 0x1C
-		::System::UInt32 GotoID; // 0x20
+		::System::UInt32 GotoID; // 0x1C
+		::System::UInt32 AvatarID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYPANELSINGLEREWARDROW_CTOR_OFFSET))(this);

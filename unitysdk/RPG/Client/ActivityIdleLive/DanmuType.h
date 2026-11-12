@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int DanmuType_TypeDefinitionIndex = 75339;
+	inline static constexpr unsigned int DanmuType_TypeDefinitionIndex = 77666;
 
 	enum class DanmuType : ::System::Int32
 	{

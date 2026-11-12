@@ -4,19 +4,19 @@
 #include "unitysdk/RPG/Client/RuntimeGroupManager_GroupRefreshReason.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_RUNTIMEGROUPMANAGER_GROUPREFRESHEXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE06ED00)
+#define RPG_CLIENT_RUNTIMEGROUPMANAGER_GROUPREFRESHEXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xEAD9160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_GroupRefreshExtraInfo_TypeDefinitionIndex = 62058;
+	inline static constexpr unsigned int RuntimeGroupManager_GroupRefreshExtraInfo_TypeDefinitionIndex = 63471;
 
 	class RuntimeGroupManager_GroupRefreshExtraInfo : public ::System::Object
 	{
 	public:
-		::System::Boolean IsAsync; // 0x10
+		::RPG::Client::RuntimeGroupManager_CustomPredicatorType PredicatorType; // 0x10
+		::System::Boolean IsAsync; // 0x14
 		::System::Byte _padding0[0x3];
-		::RPG::Client::RuntimeGroupManager_GroupRefreshReason Reason; // 0x14
-		::RPG::Client::RuntimeGroupManager_CustomPredicatorType PredicatorType; // 0x18
+		::RPG::Client::RuntimeGroupManager_GroupRefreshReason Reason; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RUNTIMEGROUPMANAGER_GROUPREFRESHEXTRAINFO_CTOR_OFFSET))(this);

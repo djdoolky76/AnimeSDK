@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddActivityMazeBuffBinding; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KJPNPPABNBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB4606B0)
-#define KJPNPPABNBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4606E0)
+#define KJPNPPABNBN_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF87F0)
+#define KJPNPPABNBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCF8820)
 
-inline static constexpr unsigned int KJPNPPABNBN_TypeDefinitionIndex = 54807;
+inline static constexpr unsigned int KJPNPPABNBN_TypeDefinitionIndex = 55976;
 
 	class KJPNPPABNBN
 	{

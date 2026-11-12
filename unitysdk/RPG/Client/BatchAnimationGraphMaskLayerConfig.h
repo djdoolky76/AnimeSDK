@@ -5,11 +5,11 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Rendering { class BatchAnimationClip; }
 
-#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F5AE0)
+#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD156560)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_TypeDefinitionIndex = 60012;
+	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_TypeDefinitionIndex = 61296;
 
 	class BatchAnimationGraphMaskLayerConfig : public ::UnityEngine::ScriptableObject
 	{

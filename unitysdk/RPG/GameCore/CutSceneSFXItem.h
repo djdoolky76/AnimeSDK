@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CutSceneSFXItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUTSCENESFXITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5EB290)
-#define RPG_GAMECORE_CUTSCENESFXITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5EB0B0)
+#define RPG_GAMECORE_CUTSCENESFXITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FD2B0)
+#define RPG_GAMECORE_CUTSCENESFXITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7FD0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CutSceneSFXItem_TypeDefinitionIndex = 17018;
+	inline static constexpr unsigned int CutSceneSFXItem_TypeDefinitionIndex = 17185;
 
 	class CutSceneSFXItem : public ::RPG::GameCore::JsonConfig
 	{

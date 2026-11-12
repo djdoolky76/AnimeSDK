@@ -4,9 +4,9 @@
 class KBLELMJDBEA;
 class MFKLCJHKNBK;
 
-#define OOEKGCFMFBP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF797B0)
+#define OOEKGCFMFBP_CTOR_OFFSET UNITYSDK_OFFSET(0xC879000)
 
-inline static constexpr unsigned int OOEKGCFMFBP_TypeDefinitionIndex = 75752;
+inline static constexpr unsigned int OOEKGCFMFBP_TypeDefinitionIndex = 78079;
 
 	class OOEKGCFMFBP : public ::DJJKNHPLHDI
 	{

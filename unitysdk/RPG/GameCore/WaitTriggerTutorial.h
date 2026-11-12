@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitTriggerTutorial; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITTRIGGERTUTORIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA3C40)
-#define RPG_GAMECORE_WAITTRIGGERTUTORIAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA3C50)
-#define RPG_GAMECORE_WAITTRIGGERTUTORIAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA3C10)
+#define RPG_GAMECORE_WAITTRIGGERTUTORIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB65F0)
+#define RPG_GAMECORE_WAITTRIGGERTUTORIAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB6600)
+#define RPG_GAMECORE_WAITTRIGGERTUTORIAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB65C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTriggerTutorial_TypeDefinitionIndex = 24374;
+	inline static constexpr unsigned int WaitTriggerTutorial_TypeDefinitionIndex = 24833;
 
 	class WaitTriggerTutorial : public ::RPG::GameCore::TaskConfig
 	{

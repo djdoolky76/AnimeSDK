@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int DGEPOBDMLDJ_Reader_1___c_TypeDefinitionIndex = 6543;
+inline static constexpr unsigned int DGEPOBDMLDJ_Reader_1___c_TypeDefinitionIndex = 6550;
 
 	template <typename T>
 	class DGEPOBDMLDJ_Reader_1___c : public ::System::Object

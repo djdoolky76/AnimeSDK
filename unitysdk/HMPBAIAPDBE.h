@@ -10,27 +10,27 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine { class Object; }
 
-#define HMPBAIAPDBE_CLEAR_OFFSET UNITYSDK_OFFSET(0x15D89D40)
-#define HMPBAIAPDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D89E90)
-#define HMPBAIAPDBE_LAIBMGMEMHL_OFFSET UNITYSDK_OFFSET(0x15D89DA0)
-#define HMPBAIAPDBE_NNJNDKBKGKG_OFFSET UNITYSDK_OFFSET(0x15D89C30)
-#define HMPBAIAPDBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15D89C40)
+#define HMPBAIAPDBE_CLEAR_OFFSET UNITYSDK_OFFSET(0x16D29EA0)
+#define HMPBAIAPDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x16D29FF0)
+#define HMPBAIAPDBE_LAIBMGMEMHL_OFFSET UNITYSDK_OFFSET(0x16D29F00)
+#define HMPBAIAPDBE_NNJNDKBKGKG_OFFSET UNITYSDK_OFFSET(0x16D29D90)
+#define HMPBAIAPDBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16D29DA0)
 
-inline static constexpr unsigned int HMPBAIAPDBE_TypeDefinitionIndex = 59695;
+inline static constexpr unsigned int HMPBAIAPDBE_TypeDefinitionIndex = 60972;
 
 	class HMPBAIAPDBE : public ::System::Object
 	{
 	public:
-		::RPG::Client::IAssetOperation* PNFLPKJHFMF; // 0x10
-		::System::String* CDMFNHJGGKF; // 0x18
-		::System::Type* EPGPJMHNBON; // 0x20
-		::Collections::Pooled::PooledList_1<::PFACHJFCILN*>* BDNPHHNGNOC; // 0x28
-		::UnityEngine::Object* CEFDDDAIMMD; // 0x30
+		::Collections::Pooled::PooledList_1<::PFACHJFCILN*>* BDNPHHNGNOC; // 0x10
+		::RPG::Client::IAssetOperation* PNFLPKJHFMF; // 0x18
+		::UnityEngine::Object* CEFDDDAIMMD; // 0x20
+		::System::Type* EPGPJMHNBON; // 0x28
+		::System::String* CDMFNHJGGKF; // 0x30
 		::System::Boolean IJPFEBAMFPM; // 0x38
 		::System::Byte _padding0[0x3];
-		::HMPBAIAPDBE_AssetPreloadState HGIEBOMEGPD; // 0x3C
-		::System::Int32 DFHNBODEFNP; // 0x40
-		::RPG::Client::GameObjectPoolUsage GMCBFACPNJJ; // 0x44
+		::RPG::Client::GameObjectPoolUsage GMCBFACPNJJ; // 0x3C
+		::HMPBAIAPDBE_AssetPreloadState HGIEBOMEGPD; // 0x40
+		::System::Int32 DFHNBODEFNP; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMPBAIAPDBE_CTOR_OFFSET))(this);

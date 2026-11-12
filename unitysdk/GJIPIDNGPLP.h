@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GJIPIDNGPLP_TypeDefinitionIndex = 67300;
+inline static constexpr unsigned int GJIPIDNGPLP_TypeDefinitionIndex = 69244;
 
 	class GJIPIDNGPLP
 	{

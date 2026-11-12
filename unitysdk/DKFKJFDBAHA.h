@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DKFKJFDBAHA_CCTOR_OFFSET UNITYSDK_OFFSET(0xF87B070)
+#define DKFKJFDBAHA_CCTOR_OFFSET UNITYSDK_OFFSET(0xFFE0C90)
 
-inline static constexpr unsigned int DKFKJFDBAHA_TypeDefinitionIndex = 49253;
+inline static constexpr unsigned int DKFKJFDBAHA_TypeDefinitionIndex = 50329;
 
 	class DKFKJFDBAHA : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_PIOBBKEOOID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DKFKJFDBAHA")->GetStaticField(0x13BA0);
+			return (::System::Int32*)UnitySDK::FromName("", "DKFKJFDBAHA")->GetStaticField(0x13FB0);
 		}
 
 		static ::System::Void _cctor()

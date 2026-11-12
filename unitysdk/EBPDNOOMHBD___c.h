@@ -4,18 +4,18 @@
 class EBPDNOOMHBD;
 namespace System { class Object; }
 
-#define EBPDNOOMHBD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E24B4E0)
-#define EBPDNOOMHBD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E24B510)
-#define EBPDNOOMHBD___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1E24B520)
+#define EBPDNOOMHBD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F548660)
+#define EBPDNOOMHBD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F548690)
+#define EBPDNOOMHBD___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1F5486A0)
 
-inline static constexpr unsigned int EBPDNOOMHBD___c_TypeDefinitionIndex = 25436;
+inline static constexpr unsigned int EBPDNOOMHBD___c_TypeDefinitionIndex = 25915;
 
 	class EBPDNOOMHBD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D0D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D4E0);
 		}
 
 		static ::System::Void _cctor()

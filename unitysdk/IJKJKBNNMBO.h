@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 class IJKJKBNNMBO;
 
-#define IJKJKBNNMBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF18D90)
-#define IJKJKBNNMBO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF18DA0)
-#define IJKJKBNNMBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF18D60)
+#define IJKJKBNNMBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0FD6D0)
+#define IJKJKBNNMBO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E0FD6E0)
+#define IJKJKBNNMBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0FD6A0)
 
-inline static constexpr unsigned int IJKJKBNNMBO_TypeDefinitionIndex = 21487;
+inline static constexpr unsigned int IJKJKBNNMBO_TypeDefinitionIndex = 21832;
 
 	class IJKJKBNNMBO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::Boolean IOBCIMIPEOM; // 0x18
-		::System::Byte _padding0[0x7];
-		::RPG::Client::TextID EONCGACNBFG; // 0x20
-		::RPG::Client::TextID ONLODCLDLIO; // 0x30
+		::RPG::Client::TextID ONLODCLDLIO; // 0x18
+		::RPG::Client::TextID EONCGACNBFG; // 0x28
+		::System::Boolean IOBCIMIPEOM; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IJKJKBNNMBO_CTOR_OFFSET))(this);

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CNDMEOIOFML_CTOR_OFFSET UNITYSDK_OFFSET(0xDA4A970)
+#define CNDMEOIOFML_CTOR_OFFSET UNITYSDK_OFFSET(0xE5E2B70)
 
-inline static constexpr unsigned int CNDMEOIOFML_TypeDefinitionIndex = 80570;
+inline static constexpr unsigned int CNDMEOIOFML_TypeDefinitionIndex = 83350;
 
 	class CNDMEOIOFML : public ::System::Object
 	{

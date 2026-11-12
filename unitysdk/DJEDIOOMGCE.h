@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class AttackData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJEDIOOMGCE_CTOR_OFFSET UNITYSDK_OFFSET(0xF22EFC0)
-#define DJEDIOOMGCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF22F030)
+#define DJEDIOOMGCE_CTOR_OFFSET UNITYSDK_OFFSET(0xFFB00F0)
+#define DJEDIOOMGCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFFB0160)
 
-inline static constexpr unsigned int DJEDIOOMGCE_TypeDefinitionIndex = 56493;
+inline static constexpr unsigned int DJEDIOOMGCE_TypeDefinitionIndex = 57713;
 
 	class DJEDIOOMGCE : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::AttackData* FHEPHLNLKJL; // 0x10
-		::RPG::GameCore::AttackDamageType ECBKGBGGLEO; // 0x18
-		::RPG::GameCore::AttackDamageType MFLCOOMNPLA; // 0x1C
+		::RPG::GameCore::AttackDamageType MFLCOOMNPLA; // 0x18
+		::RPG::GameCore::AttackDamageType ECBKGBGGLEO; // 0x1C
 		::System::Void _ctor(::RPG::GameCore::AttackData* a1, ::RPG::GameCore::TaskContext* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AttackData*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + DJEDIOOMGCE_CTOR_OFFSET))(this, a1, a2);

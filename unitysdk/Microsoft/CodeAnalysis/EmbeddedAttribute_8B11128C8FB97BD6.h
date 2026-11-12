@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MICROSOFT_CODEANALYSIS_EMBEDDEDATTRIBUTE_8B11128C8FB97BD6_CTOR_OFFSET UNITYSDK_OFFSET(0x1EABD340)
+#define MICROSOFT_CODEANALYSIS_EMBEDDEDATTRIBUTE_8B11128C8FB97BD6_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDF83C0)
 
 namespace Microsoft::CodeAnalysis
 {
-	inline static constexpr unsigned int EmbeddedAttribute_8B11128C8FB97BD6_TypeDefinitionIndex = 25047;
+	inline static constexpr unsigned int EmbeddedAttribute_8B11128C8FB97BD6_TypeDefinitionIndex = 25525;
 
 	class EmbeddedAttribute_8B11128C8FB97BD6 : public ::System::Attribute
 	{

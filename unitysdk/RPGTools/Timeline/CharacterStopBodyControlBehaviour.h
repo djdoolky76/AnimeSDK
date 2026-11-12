@@ -3,12 +3,12 @@
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
 namespace RPGTools::Timeline { class CharacterStopBodyControlData; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE8CCC90)
-#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CCE30)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xF3A6550)
+#define RPGTOOLS_TIMELINE_CHARACTERSTOPBODYCONTROLBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF3A66F0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterStopBodyControlBehaviour_TypeDefinitionIndex = 47942;
+	inline static constexpr unsigned int CharacterStopBodyControlBehaviour_TypeDefinitionIndex = 48973;
 
 	class CharacterStopBodyControlBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

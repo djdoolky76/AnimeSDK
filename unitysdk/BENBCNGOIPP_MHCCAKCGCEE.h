@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define BENBCNGOIPP_MHCCAKCGCEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB159280)
+#define BENBCNGOIPP_MHCCAKCGCEE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E29A0)
 
-inline static constexpr unsigned int BENBCNGOIPP_MHCCAKCGCEE_TypeDefinitionIndex = 54303;
+inline static constexpr unsigned int BENBCNGOIPP_MHCCAKCGCEE_TypeDefinitionIndex = 55467;
 
 	class BENBCNGOIPP_MHCCAKCGCEE : public ::System::Object
 	{

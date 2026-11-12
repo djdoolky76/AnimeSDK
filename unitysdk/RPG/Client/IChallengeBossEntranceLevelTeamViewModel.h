@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChallengeBossEntranceLevelTeamViewModel_TypeDefinitionIndex = 63084;
+	inline static constexpr unsigned int IChallengeBossEntranceLevelTeamViewModel_TypeDefinitionIndex = 64522;
 
 	class IChallengeBossEntranceLevelTeamViewModel
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DestroyBattleCharacter; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DESTROYBATTLECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5FC7B0)
-#define RPG_GAMECORE_DESTROYBATTLECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5FC7F0)
-#define RPG_GAMECORE_DESTROYBATTLECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5FC750)
+#define RPG_GAMECORE_DESTROYBATTLECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80FA40)
+#define RPG_GAMECORE_DESTROYBATTLECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E80FA80)
+#define RPG_GAMECORE_DESTROYBATTLECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E80F9E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DestroyBattleCharacter_TypeDefinitionIndex = 22755;
+	inline static constexpr unsigned int DestroyBattleCharacter_TypeDefinitionIndex = 23177;
 
 	class DestroyBattleCharacter : public ::RPG::GameCore::TaskConfig
 	{

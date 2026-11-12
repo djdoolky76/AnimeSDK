@@ -7,15 +7,15 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
 namespace System::IO::MemoryMappedFiles { class MemoryMappedFile; }
 
-#define OBKMGFPLJGB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1EC3AFC0)
-#define OBKMGFPLJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3AF80)
-#define OBKMGFPLJGB_DGFEHNABKCA_OFFSET UNITYSDK_OFFSET(0x1EC3BAA0)
-#define OBKMGFPLJGB_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1EC3AEF0)
-#define OBKMGFPLJGB_IIGOBJCNOAC_OFFSET UNITYSDK_OFFSET(0x1EC3B4F0)
-#define OBKMGFPLJGB_LDCGNGDPGAM_OFFSET UNITYSDK_OFFSET(0x1EC3B370)
-#define OBKMGFPLJGB_NLMGPLDLEMN_OFFSET UNITYSDK_OFFSET(0x1EC3BB30)
+#define OBKMGFPLJGB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1FEEBA80)
+#define OBKMGFPLJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEEBA40)
+#define OBKMGFPLJGB_DGFEHNABKCA_OFFSET UNITYSDK_OFFSET(0x1FEEC560)
+#define OBKMGFPLJGB_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1FEEB9B0)
+#define OBKMGFPLJGB_IIGOBJCNOAC_OFFSET UNITYSDK_OFFSET(0x1FEEBFB0)
+#define OBKMGFPLJGB_LDCGNGDPGAM_OFFSET UNITYSDK_OFFSET(0x1FEEBE30)
+#define OBKMGFPLJGB_NLMGPLDLEMN_OFFSET UNITYSDK_OFFSET(0x1FEEC5F0)
 
-inline static constexpr unsigned int OBKMGFPLJGB_TypeDefinitionIndex = 35181;
+inline static constexpr unsigned int OBKMGFPLJGB_TypeDefinitionIndex = 36109;
 
 	class OBKMGFPLJGB : public ::System::Object
 	{
@@ -23,7 +23,7 @@ inline static constexpr unsigned int OBKMGFPLJGB_TypeDefinitionIndex = 35181;
 		::System::Collections::Generic::SortedList_2<::System::String*, ::System::ValueTuple_2<::System::IO::MemoryMappedFiles::MemoryMappedFile*, ::System::Int32>>* LKEAPHDFKGJ; // 0x10
 		static ::OBKMGFPLJGB** StaticGet_EMLNOINPICJ()
 		{
-			return (::OBKMGFPLJGB**)UnitySDK::FromName("", "OBKMGFPLJGB")->GetStaticField(0x44360);
+			return (::OBKMGFPLJGB**)UnitySDK::FromName("", "OBKMGFPLJGB")->GetStaticField(0x56610);
 		}
 
 		::System::Void _ctor()

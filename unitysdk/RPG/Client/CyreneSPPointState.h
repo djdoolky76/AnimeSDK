@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CyreneSPPointState_TypeDefinitionIndex = 71919;
+	inline static constexpr unsigned int CyreneSPPointState_TypeDefinitionIndex = 73940;
 
 	enum class CyreneSPPointState : ::System::Int32
 	{

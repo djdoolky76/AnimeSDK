@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsCharacterChangeSource; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLELGFNAHNF_CTOR_OFFSET UNITYSDK_OFFSET(0x15AB0440)
-#define GLELGFNAHNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AB0470)
+#define GLELGFNAHNF_CTOR_OFFSET UNITYSDK_OFFSET(0x16A329A0)
+#define GLELGFNAHNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A329D0)
 
-inline static constexpr unsigned int GLELGFNAHNF_TypeDefinitionIndex = 54840;
+inline static constexpr unsigned int GLELGFNAHNF_TypeDefinitionIndex = 56010;
 
 	class GLELGFNAHNF
 	{

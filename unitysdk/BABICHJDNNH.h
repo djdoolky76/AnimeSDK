@@ -14,38 +14,38 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 
-#define BABICHJDNNH_CAGIAMEFOLL_OFFSET UNITYSDK_OFFSET(0x15BCE0C0)
-#define BABICHJDNNH_CBDJKPPNMDC_OFFSET UNITYSDK_OFFSET(0x15BCE1A0)
-#define BABICHJDNNH_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCE310)
-#define BABICHJDNNH_DEJLKILBEBA_OFFSET UNITYSDK_OFFSET(0x15BCE230)
-#define BABICHJDNNH_DHEJLCKFKDK_OFFSET UNITYSDK_OFFSET(0x15BCE280)
-#define BABICHJDNNH_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x15BCDC60)
-#define BABICHJDNNH_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x15BCDE10)
-#define BABICHJDNNH_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x15BCCCD0)
-#define BABICHJDNNH_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x15BCCCF0)
-#define BABICHJDNNH_IDCAMKKDGIO_OFFSET UNITYSDK_OFFSET(0x15BCE110)
-#define BABICHJDNNH_IGGPLGJBKKN_OFFSET UNITYSDK_OFFSET(0x15BCE020)
-#define BABICHJDNNH_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x15BCCD30)
-#define BABICHJDNNH_PACBDGILPHI_OFFSET UNITYSDK_OFFSET(0x15BCDE60)
-#define BABICHJDNNH_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x15BCCCE0)
-#define BABICHJDNNH__ONBIND_OFFSET UNITYSDK_OFFSET(0x15BCCAD0)
-#define BABICHJDNNH___INITVARONCE_G___COMPAREDISPLAYDATA_15_0_OFFSET UNITYSDK_OFFSET(0x15BCE340)
+#define BABICHJDNNH_CAGIAMEFOLL_OFFSET UNITYSDK_OFFSET(0x16CD9E90)
+#define BABICHJDNNH_CBDJKPPNMDC_OFFSET UNITYSDK_OFFSET(0x16CD9FC0)
+#define BABICHJDNNH_CTOR_OFFSET UNITYSDK_OFFSET(0x16CDA130)
+#define BABICHJDNNH_DEJLKILBEBA_OFFSET UNITYSDK_OFFSET(0x16CDA050)
+#define BABICHJDNNH_DHEJLCKFKDK_OFFSET UNITYSDK_OFFSET(0x16CDA0A0)
+#define BABICHJDNNH_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0x16CD9A20)
+#define BABICHJDNNH_GET_INDEX_OFFSET UNITYSDK_OFFSET(0x16CD8A90)
+#define BABICHJDNNH_GET_TRANS_OFFSET UNITYSDK_OFFSET(0x16CD8AB0)
+#define BABICHJDNNH_IDCAMKKDGIO_OFFSET UNITYSDK_OFFSET(0x16CD9F30)
+#define BABICHJDNNH_IGGPLGJBKKN_OFFSET UNITYSDK_OFFSET(0x16CD9E20)
+#define BABICHJDNNH_PACBDGILPHI_OFFSET UNITYSDK_OFFSET(0x16CD9C60)
+#define BABICHJDNNH_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x16CD8AA0)
+#define BABICHJDNNH__INITVARONCE_OFFSET UNITYSDK_OFFSET(0x16CD8AF0)
+#define BABICHJDNNH__ONBIND_OFFSET UNITYSDK_OFFSET(0x16CD87D0)
+#define BABICHJDNNH__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x16CD9BD0)
+#define BABICHJDNNH___INITVARONCE_G___COMPAREDISPLAYDATA_15_0_OFFSET UNITYSDK_OFFSET(0x16CDA160)
 
-inline static constexpr unsigned int BABICHJDNNH_TypeDefinitionIndex = 72325;
+inline static constexpr unsigned int BABICHJDNNH_TypeDefinitionIndex = 74402;
 
 	class BABICHJDNNH : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* AEDAGAGGKFL; // 0x60
-		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0x68
-		::UnityEngine::Animation* PMOJILOJEPE; // 0x70
-		::UnityEngine::Transform* JGJJEGGBKKB; // 0x78
-		::UnityEngine::UI::Button* NIDPJAFEHNM; // 0x80
-		::UnityEngine::Transform* EFCOIBEANAJ; // 0x88
-		::RPG::Client::NodeListViewPanel_1<::EDGNLGIJLOJ*>* ACBHEJCJGDA; // 0x90
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTitanType, ::System::Collections::Generic::List_1<::System::UInt32>*>* BBGOINLDJPN; // 0x60
+		::System::Collections::Generic::List_1<::System::Object*>* EBMKFBAAHHI; // 0x68
+		::UnityEngine::Transform* EFCOIBEANAJ; // 0x70
+		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0x78
+		::RPG::Client::NodeListViewPanel_1<::EDGNLGIJLOJ*>* ACBHEJCJGDA; // 0x80
+		::System::Collections::Generic::List_1<::System::Object*>* AEDAGAGGKFL; // 0x88
+		::UnityEngine::UI::Button* NIDPJAFEHNM; // 0x90
 		::UnityEngine::Transform* DEAFAEDMLDD; // 0x98
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueTitanType, ::System::Collections::Generic::List_1<::System::UInt32>*>* BBGOINLDJPN; // 0xA0
-		::System::Collections::Generic::List_1<::System::Object*>* EBMKFBAAHHI; // 0xA8
+		::UnityEngine::Transform* JGJJEGGBKKB; // 0xA0
+		::UnityEngine::Animation* PMOJILOJEPE; // 0xA8
 		::System::Int32 _Index_k__BackingField; // 0xB0
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::Object PEJOGHOICIF; // 0x0
@@ -74,9 +74,9 @@ inline static constexpr unsigned int BABICHJDNNH_TypeDefinitionIndex = 72325;
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + BABICHJDNNH_GET_TRANS_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABICHJDNNH_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABICHJDNNH__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void ECOHEIAHIAO()
@@ -84,9 +84,9 @@ inline static constexpr unsigned int BABICHJDNNH_TypeDefinitionIndex = 72325;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABICHJDNNH_ECOHEIAHIAO_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABICHJDNNH_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BABICHJDNNH__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void CAGIAMEFOLL(::InControl::InputDeviceClass a1)

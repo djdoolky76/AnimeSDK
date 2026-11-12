@@ -10,11 +10,11 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_LOADBUFFERVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1B945060)
+#define HOUDINIENGINEUNITY_HEU_LOADBUFFERVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACDF10)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_LoadBufferVolume_TypeDefinitionIndex = 40609;
+	inline static constexpr unsigned int HEU_LoadBufferVolume_TypeDefinitionIndex = 41584;
 
 	class HEU_LoadBufferVolume : public ::HoudiniEngineUnity::HEU_LoadBufferBase
 	{
@@ -22,20 +22,20 @@ namespace HoudiniEngineUnity
 		::System::Object* _detailMaps; // 0x28
 		::System::String* _terrainDataPath; // 0x30
 		::System::String* _terrainDataExportPath; // 0x38
-		::System::String* _specifiedTerrainMaterialName; // 0x40
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* _detailPrototypes; // 0x48
-		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* _splatLayers; // 0x50
-		::System::Object* _heightMap; // 0x58
-		::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees; // 0x60
-		::System::Object* _splatMaps; // 0x68
-		::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties; // 0x70
-		::System::Int32 _heightMapHeight; // 0x78
-		::System::Single _heightRange; // 0x7C
-		::System::Single _terrainSizeY; // 0x80
-		::System::Single _terrainSizeX; // 0x84
-		::UnityEngine::Vector3 _position; // 0x88
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* _detailPrototypes; // 0x40
+		::System::Object* _splatMaps; // 0x48
+		::System::String* _specifiedTerrainMaterialName; // 0x50
+		::HoudiniEngineUnity::HEU_DetailProperties* _detailProperties; // 0x58
+		::System::Object* _heightMap; // 0x60
+		::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*>* _splatLayers; // 0x68
+		::HoudiniEngineUnity::HEU_VolumeScatterTrees* _scatterTrees; // 0x70
+		::UnityEngine::Vector3 _position; // 0x78
+		::System::Int32 _heightMapHeight; // 0x84
+		::System::Single _terrainSizeX; // 0x88
+		::System::Int32 _heightMapWidth; // 0x8C
+		::System::Single _heightRange; // 0x90
 		::System::Int32 _tileIndex; // 0x94
-		::System::Int32 _heightMapWidth; // 0x98
+		::System::Single _terrainSizeY; // 0x98
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_LOADBUFFERVOLUME_CTOR_OFFSET))(this);

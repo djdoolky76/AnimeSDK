@@ -6,10 +6,10 @@ namespace RPG::Client { class GridFightConsumableInfo_GridFightConsumableItemUse
 namespace RPG::Client { class GridFightConsumableItemData; }
 namespace System { class String; }
 
-#define BDJKFAGEKIP_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x162FCDB0)
-#define BDJKFAGEKIP_CTOR_OFFSET UNITYSDK_OFFSET(0x162FD0E0)
+#define BDJKFAGEKIP_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x170C4310)
+#define BDJKFAGEKIP_CTOR_OFFSET UNITYSDK_OFFSET(0x170C4650)
 
-inline static constexpr unsigned int BDJKFAGEKIP_TypeDefinitionIndex = 64916;
+inline static constexpr unsigned int BDJKFAGEKIP_TypeDefinitionIndex = 66486;
 
 	class BDJKFAGEKIP : public ::System::Object
 	{

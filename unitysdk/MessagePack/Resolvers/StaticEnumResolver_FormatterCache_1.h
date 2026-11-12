@@ -5,7 +5,7 @@ namespace MessagePack::Formatters { template <typename T> class IMessagePackForm
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int StaticEnumResolver_FormatterCache_1_TypeDefinitionIndex = 7278;
+	inline static constexpr unsigned int StaticEnumResolver_FormatterCache_1_TypeDefinitionIndex = 7289;
 
 	template <typename T>
 	class StaticEnumResolver_FormatterCache_1 : public ::System::Object

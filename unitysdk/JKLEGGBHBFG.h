@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTutorialFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JKLEGGBHBFG_CTOR_OFFSET UNITYSDK_OFFSET(0xB21F930)
-#define JKLEGGBHBFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB21F960)
+#define JKLEGGBHBFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA47E10)
+#define JKLEGGBHBFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA47E40)
 
-inline static constexpr unsigned int JKLEGGBHBFG_TypeDefinitionIndex = 57988;
+inline static constexpr unsigned int JKLEGGBHBFG_TypeDefinitionIndex = 59227;
 
 	class JKLEGGBHBFG
 	{

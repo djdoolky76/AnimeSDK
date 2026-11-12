@@ -3,10 +3,10 @@
 class NOENANIGIIK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAEGNNOEFLG_CTOR_OFFSET UNITYSDK_OFFSET(0x159399A0)
-#define GAEGNNOEFLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159399D0)
+#define GAEGNNOEFLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1686D850)
+#define GAEGNNOEFLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1686D880)
 
-inline static constexpr unsigned int GAEGNNOEFLG_TypeDefinitionIndex = 52472;
+inline static constexpr unsigned int GAEGNNOEFLG_TypeDefinitionIndex = 53578;
 
 	class GAEGNNOEFLG
 	{

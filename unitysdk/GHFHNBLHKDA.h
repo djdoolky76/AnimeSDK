@@ -5,12 +5,12 @@ namespace RPG::Client { class IMissionChroniclePathUnlockConditionData; }
 namespace RPG::Client { class MissionChronicleBasePathData; }
 namespace System::Collections::Generic { template <typename T> class ICollection_1; }
 
-#define GHFHNBLHKDA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A19C00)
-#define GHFHNBLHKDA_GOLIFFPPCEG_OFFSET UNITYSDK_OFFSET(0x15A1AD00)
-#define GHFHNBLHKDA_ILAPNHCEMJF_OFFSET UNITYSDK_OFFSET(0x15A1A0C0)
-#define GHFHNBLHKDA_LMNPPAMFNEJ_OFFSET UNITYSDK_OFFSET(0x15A19C10)
+#define GHFHNBLHKDA_CTOR_OFFSET UNITYSDK_OFFSET(0x16954340)
+#define GHFHNBLHKDA_GOLIFFPPCEG_OFFSET UNITYSDK_OFFSET(0x16955440)
+#define GHFHNBLHKDA_ILAPNHCEMJF_OFFSET UNITYSDK_OFFSET(0x16954800)
+#define GHFHNBLHKDA_LMNPPAMFNEJ_OFFSET UNITYSDK_OFFSET(0x16954350)
 
-inline static constexpr unsigned int GHFHNBLHKDA_TypeDefinitionIndex = 66111;
+inline static constexpr unsigned int GHFHNBLHKDA_TypeDefinitionIndex = 68044;
 
 	class GHFHNBLHKDA : public ::System::Object
 	{

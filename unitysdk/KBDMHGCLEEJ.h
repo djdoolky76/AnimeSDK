@@ -7,20 +7,20 @@ class LJEBKOIENMG;
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KBDMHGCLEEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2F1B70)
-#define KBDMHGCLEEJ_FLFOEBFLDNG_OFFSET UNITYSDK_OFFSET(0xB2F26B0)
-#define KBDMHGCLEEJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB2F2620)
-#define KBDMHGCLEEJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB2F1BE0)
-#define KBDMHGCLEEJ_PFFICPCIMCM_OFFSET UNITYSDK_OFFSET(0xB2F1C40)
+#define KBDMHGCLEEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB7AD80)
+#define KBDMHGCLEEJ_FLFOEBFLDNG_OFFSET UNITYSDK_OFFSET(0xBB7B8C0)
+#define KBDMHGCLEEJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBB7B830)
+#define KBDMHGCLEEJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBB7ADF0)
+#define KBDMHGCLEEJ_PFFICPCIMCM_OFFSET UNITYSDK_OFFSET(0xBB7AE50)
 
-inline static constexpr unsigned int KBDMHGCLEEJ_TypeDefinitionIndex = 78268;
+inline static constexpr unsigned int KBDMHGCLEEJ_TypeDefinitionIndex = 81003;
 
 	class KBDMHGCLEEJ : public ::KNFCEJEJINK
 	{
 	public:
 		::DLECIKAMKEG* EEFMDEHLLFI; // 0x18
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::Prop::DuelChimeraProxy*, ::System::UInt32>>* GBINLLKJFPJ; // 0x20
-		::LJEBKOIENMG* MKKLHFCCCNF; // 0x28
+		::LJEBKOIENMG* MKKLHFCCCNF; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::Prop::DuelChimeraProxy*, ::System::UInt32>>* GBINLLKJFPJ; // 0x28
 		::System::Single LLNIGIGFCEA; // 0x30
 		::System::Void _ctor(::LJEBKOIENMG* a1, ::DLECIKAMKEG* a2)
 		{

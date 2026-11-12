@@ -6,29 +6,29 @@ class JMMACJPIGDN;
 namespace RPG::GameCore { class MazePuzzleSwitchHandRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAZEPUZZLESWITCHHANDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D86F040)
-#define RPG_GAMECORE_MAZEPUZZLESWITCHHANDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D86EBE0)
+#define RPG_GAMECORE_MAZEPUZZLESWITCHHANDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA89660)
+#define RPG_GAMECORE_MAZEPUZZLESWITCHHANDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA89200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazePuzzleSwitchHandRow_TypeDefinitionIndex = 14090;
+	inline static constexpr unsigned int MazePuzzleSwitchHandRow_TypeDefinitionIndex = 14247;
 
 	class MazePuzzleSwitchHandRow : public ::System::Object
 	{
 	public:
 		::System::String* ColliderPath; // 0x10
-		::Il2CppArray<::System::UInt32>* ChestID; // 0x18
-		::Il2CppArray<::System::UInt32>* GroupIDList; // 0x20
-		::Il2CppArray<::JMMACJPIGDN*>* ControllerListID; // 0x28
+		::Il2CppArray<::System::UInt32>* GroupIDList; // 0x18
+		::Il2CppArray<::JMMACJPIGDN*>* ControllerListID; // 0x20
+		::Il2CppArray<::System::UInt32>* ChestID; // 0x28
 		::Il2CppArray<::JMMACJPIGDN*>* CoinPropID; // 0x30
 		::Il2CppArray<::System::UInt32>* SwitchHandID; // 0x38
-		::System::UInt32 FloorID; // 0x40
-		::System::UInt32 SwitchID; // 0x44
-		::System::Boolean IsRaid; // 0x48
-		::System::Boolean BanJoyStick; // 0x49
-		::System::Boolean BanRocketPunch; // 0x4A
+		::System::Boolean IsRaid; // 0x40
+		::System::Boolean BanJoyStick; // 0x41
+		::System::Boolean BanRocketPunch; // 0x42
 		::System::Byte _padding0[0x1];
-		::System::UInt32 PlaneID; // 0x4C
+		::System::UInt32 PlaneID; // 0x44
+		::System::UInt32 FloorID; // 0x48
+		::System::UInt32 SwitchID; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEPUZZLESWITCHHANDROW_CTOR_OFFSET))(this);

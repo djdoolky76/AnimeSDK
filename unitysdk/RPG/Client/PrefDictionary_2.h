@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PrefDictionary_2_TypeDefinitionIndex = 35321;
+	inline static constexpr unsigned int PrefDictionary_2_TypeDefinitionIndex = 36249;
 
 	template <typename T1, typename T2>
 	class PrefDictionary_2

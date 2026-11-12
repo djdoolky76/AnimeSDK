@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightRoleWithEquipConfig; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7401D0)
-#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D740190)
+#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E951850)
+#define RPG_GAMECORE_GRIDFIGHTROLEWITHEQUIPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E951810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleWithEquipConfig_TypeDefinitionIndex = 10553;
+	inline static constexpr unsigned int GridFightRoleWithEquipConfig_TypeDefinitionIndex = 10564;
 
 	class GridFightRoleWithEquipConfig : public ::RPG::GameCore::JsonConfig
 	{

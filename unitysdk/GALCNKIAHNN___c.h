@@ -4,18 +4,18 @@
 class GALCNKIAHNN;
 namespace System { class Object; }
 
-#define GALCNKIAHNN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E421910)
-#define GALCNKIAHNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E421950)
-#define GALCNKIAHNN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E421960)
+#define GALCNKIAHNN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F70F540)
+#define GALCNKIAHNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F70F580)
+#define GALCNKIAHNN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F70F590)
 
-inline static constexpr unsigned int GALCNKIAHNN___c_TypeDefinitionIndex = 31041;
+inline static constexpr unsigned int GALCNKIAHNN___c_TypeDefinitionIndex = 31954;
 
 	class GALCNKIAHNN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xBF40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54C80);
 		}
 
 		static ::System::Void _cctor()

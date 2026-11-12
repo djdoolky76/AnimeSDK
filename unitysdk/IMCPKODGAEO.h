@@ -7,43 +7,43 @@ namespace System::Collections { class Hashtable; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define IMCPKODGAEO_CCTOR_OFFSET UNITYSDK_OFFSET(0x164D1F10)
-#define IMCPKODGAEO_FHJHGEHOBFG_OFFSET UNITYSDK_OFFSET(0x164D1640)
-#define IMCPKODGAEO_HEAEPCJDABF_OFFSET UNITYSDK_OFFSET(0x164D14B0)
+#define IMCPKODGAEO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8014E0)
+#define IMCPKODGAEO_FHJHGEHOBFG_OFFSET UNITYSDK_OFFSET(0xB800C10)
+#define IMCPKODGAEO_HEAEPCJDABF_OFFSET UNITYSDK_OFFSET(0xB800A80)
 
-inline static constexpr unsigned int IMCPKODGAEO_TypeDefinitionIndex = 48998;
+inline static constexpr unsigned int IMCPKODGAEO_TypeDefinitionIndex = 50067;
 
 	class IMCPKODGAEO : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Hashtable** StaticGet_FBGDGOIHNGC()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x143E0);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x17AC0);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_DHLANOMILKH()
 		{
-			return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x143E8);
+			return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x17AC8);
 		}
 
 		static ::Il2CppArray<::System::Boolean>** StaticGet_EMFNLMMBGFI()
 		{
-			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x143F0);
-		}
-
-		static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_AJDNIEDBIBP()
-		{
-			return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x143F8);
+			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x17AD0);
 		}
 
 		static ::UnityEngine::MaterialPropertyBlock** StaticGet_IKLBJPKGKGP()
 		{
-			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x14400);
+			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x17AD8);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Rendering::BlendMode>** StaticGet_AJDNIEDBIBP()
+		{
+			return (::Il2CppArray<::UnityEngine::Rendering::BlendMode>**)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x17AE0);
 		}
 
 		static ::System::Int32* StaticGet_HJJGGMLHFFF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x4CE0);
+			return (::System::Int32*)UnitySDK::FromName("", "IMCPKODGAEO")->GetStaticField(0x4F30);
 		}
 
 		static ::System::Void _cctor()

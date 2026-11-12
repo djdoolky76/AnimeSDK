@@ -8,29 +8,29 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 
-#define GDNOBIGDAGD_CCTOR_OFFSET UNITYSDK_OFFSET(0x159B97E0)
-#define GDNOBIGDAGD_CTOR_OFFSET UNITYSDK_OFFSET(0x159B7F20)
-#define GDNOBIGDAGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159B8DC0)
-#define GDNOBIGDAGD_LHKFEMCGCNP_OFFSET UNITYSDK_OFFSET(0x159B8E40)
-#define GDNOBIGDAGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159B7FB0)
-#define GDNOBIGDAGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159B8470)
-#define GDNOBIGDAGD_PEMELLLEHLE_OFFSET UNITYSDK_OFFSET(0x159B9400)
-#define GDNOBIGDAGD_TICK_OFFSET UNITYSDK_OFFSET(0x159B8D60)
+#define GDNOBIGDAGD_CCTOR_OFFSET UNITYSDK_OFFSET(0x168F2600)
+#define GDNOBIGDAGD_CTOR_OFFSET UNITYSDK_OFFSET(0x168F0D30)
+#define GDNOBIGDAGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168F1BD0)
+#define GDNOBIGDAGD_LHKFEMCGCNP_OFFSET UNITYSDK_OFFSET(0x168F1C50)
+#define GDNOBIGDAGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168F0DC0)
+#define GDNOBIGDAGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x168F1280)
+#define GDNOBIGDAGD_PEMELLLEHLE_OFFSET UNITYSDK_OFFSET(0x168F2220)
+#define GDNOBIGDAGD_TICK_OFFSET UNITYSDK_OFFSET(0x168F1B70)
 
-inline static constexpr unsigned int GDNOBIGDAGD_TypeDefinitionIndex = 52496;
+inline static constexpr unsigned int GDNOBIGDAGD_TypeDefinitionIndex = 53602;
 
 	class GDNOBIGDAGD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::GameEntityList* IMBFLHNCLNP; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* LNBCCNBBCIA; // 0x28
-		::RPG::GameCore::AdvSetIgnoreCollision* OFKGLJOAMLD; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* DFBKGOCEDOG; // 0x38
-		::RPG::GameCore::GameEntityList* IGDHGLCHEDO; // 0x40
+		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* LNBCCNBBCIA; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Collider*>* DFBKGOCEDOG; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::GameEntityList* IGDHGLCHEDO; // 0x30
+		::RPG::GameCore::AdvSetIgnoreCollision* OFKGLJOAMLD; // 0x38
+		::RPG::GameCore::GameEntityList* IMBFLHNCLNP; // 0x40
 		static ::System::Collections::Generic::List_1<::UnityEngine::Collider*>** StaticGet_LBLMADFNJOC()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)UnitySDK::FromName("", "GDNOBIGDAGD")->GetStaticField(0x56FB0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Collider*>**)UnitySDK::FromName("", "GDNOBIGDAGD")->GetStaticField(0x65D50);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvSetIgnoreCollision* a2)

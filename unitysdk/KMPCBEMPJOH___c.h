@@ -6,29 +6,29 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KMPCBEMPJOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB575AF0)
-#define KMPCBEMPJOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB575B30)
-#define KMPCBEMPJOH___C__GET_STATUSTEXT_B__10_0_OFFSET UNITYSDK_OFFSET(0xB575B40)
-#define KMPCBEMPJOH___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xB575B80)
+#define KMPCBEMPJOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBDC1AB0)
+#define KMPCBEMPJOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC1AF0)
+#define KMPCBEMPJOH___C__GET_STATUSTEXT_B__10_0_OFFSET UNITYSDK_OFFSET(0xBDC1B00)
+#define KMPCBEMPJOH___C___CTOR_B__17_0_OFFSET UNITYSDK_OFFSET(0xBDC1B40)
 
-inline static constexpr unsigned int KMPCBEMPJOH___c_TypeDefinitionIndex = 73476;
+inline static constexpr unsigned int KMPCBEMPJOH___c_TypeDefinitionIndex = 75599;
 
 	class KMPCBEMPJOH___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Boolean, ::System::String*>** StaticGet___9__10_0()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60FC0);
-		}
-
 		static ::System::Func_2<::NABFBNBJNKK*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::NABFBNBJNKK*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60FC8);
+			return (::System::Func_2<::NABFBNBJNKK*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A310);
+		}
+
+		static ::System::Func_2<::System::Boolean, ::System::String*>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A318);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60FD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A320);
 		}
 
 		static ::System::Void _cctor()

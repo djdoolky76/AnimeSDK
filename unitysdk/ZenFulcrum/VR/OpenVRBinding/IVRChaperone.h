@@ -11,7 +11,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRChaperone__SetSceneColor; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int IVRChaperone_TypeDefinitionIndex = 38984;
+	inline static constexpr unsigned int IVRChaperone_TypeDefinitionIndex = 39913;
 
 	struct alignas(8) IVRChaperone
 	{

@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Contains_TypeDefinitionIndex = 45321;
+	inline static constexpr unsigned int Contains_TypeDefinitionIndex = 46350;
 
 	class Contains : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class CAGELADNAOL;
 namespace System { class Object; }
 
-#define CAGELADNAOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E059D60)
-#define CAGELADNAOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E059D90)
-#define CAGELADNAOL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E059DA0)
+#define CAGELADNAOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F31C5F0)
+#define CAGELADNAOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F31C620)
+#define CAGELADNAOL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F31C630)
 
-inline static constexpr unsigned int CAGELADNAOL___c_TypeDefinitionIndex = 32381;
+inline static constexpr unsigned int CAGELADNAOL___c_TypeDefinitionIndex = 33294;
 
 	class CAGELADNAOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x566A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58160);
 		}
 
 		static ::System::Void _cctor()

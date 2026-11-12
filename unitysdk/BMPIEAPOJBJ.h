@@ -6,10 +6,10 @@ class BMPIEAPOJBJ;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define BMPIEAPOJBJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDC4780)
-#define BMPIEAPOJBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC48B0)
+#define BMPIEAPOJBJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC742650)
+#define BMPIEAPOJBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC742780)
 
-inline static constexpr unsigned int BMPIEAPOJBJ_TypeDefinitionIndex = 61055;
+inline static constexpr unsigned int BMPIEAPOJBJ_TypeDefinitionIndex = 62440;
 
 	class BMPIEAPOJBJ : public ::BNDBPCIHPGL
 	{

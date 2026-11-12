@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LogSamplerParamDefine; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LOGSAMPLERPARAMDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F3890)
-#define RPG_GAMECORE_LOGSAMPLERPARAMDEFINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F3710)
+#define RPG_GAMECORE_LOGSAMPLERPARAMDEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36510)
+#define RPG_GAMECORE_LOGSAMPLERPARAMDEFINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA36390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogSamplerParamDefine_TypeDefinitionIndex = 18163;
+	inline static constexpr unsigned int LogSamplerParamDefine_TypeDefinitionIndex = 18325;
 
 	class LogSamplerParamDefine : public ::RPG::GameCore::JsonConfig
 	{

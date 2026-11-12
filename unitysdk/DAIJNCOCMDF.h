@@ -4,9 +4,9 @@
 class HBEFMKBPJMB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DAIJNCOCMDF_CHCAOCLNDDK_OFFSET UNITYSDK_OFFSET(0xDFC3E10)
+#define DAIJNCOCMDF_CHCAOCLNDDK_OFFSET UNITYSDK_OFFSET(0xE9274B0)
 
-inline static constexpr unsigned int DAIJNCOCMDF_TypeDefinitionIndex = 64745;
+inline static constexpr unsigned int DAIJNCOCMDF_TypeDefinitionIndex = 66287;
 
 	class DAIJNCOCMDF : public ::System::Object
 	{

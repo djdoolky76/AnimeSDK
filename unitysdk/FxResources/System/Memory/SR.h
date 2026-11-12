@@ -4,7 +4,7 @@
 
 namespace FxResources::System::Memory
 {
-	inline static constexpr unsigned int SR_TypeDefinitionIndex = 4966;
+	inline static constexpr unsigned int SR_TypeDefinitionIndex = 4971;
 
 	class SR : public ::System::Object
 	{

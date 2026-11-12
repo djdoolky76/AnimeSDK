@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GMFMPPKAEHE_TypeDefinitionIndex = 32369;
+inline static constexpr unsigned int GMFMPPKAEHE_TypeDefinitionIndex = 33282;
 
 	enum class GMFMPPKAEHE : ::System::Int32
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ILPPBGLJABD.h"
 
-#define DNMEJAKPMCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD8D60)
-#define DNMEJAKPMCJ_OPMHNOIKBGA_OFFSET UNITYSDK_OFFSET(0x11FD8D00)
+#define DNMEJAKPMCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD2200)
+#define DNMEJAKPMCJ_OPMHNOIKBGA_OFFSET UNITYSDK_OFFSET(0x12DD21A0)
 
-inline static constexpr unsigned int DNMEJAKPMCJ_TypeDefinitionIndex = 62306;
+inline static constexpr unsigned int DNMEJAKPMCJ_TypeDefinitionIndex = 63719;
 
 	class DNMEJAKPMCJ : public ::ILPPBGLJABD
 	{

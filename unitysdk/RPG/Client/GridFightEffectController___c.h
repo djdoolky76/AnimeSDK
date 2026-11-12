@@ -5,37 +5,37 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1021E0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD102220)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__16_0_OFFSET UNITYSDK_OFFSET(0xD102230)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__16_1_OFFSET UNITYSDK_OFFSET(0xD102240)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__16_2_OFFSET UNITYSDK_OFFSET(0xD102250)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAB6730)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAB6770)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__34_0_OFFSET UNITYSDK_OFFSET(0xDAB6780)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__34_1_OFFSET UNITYSDK_OFFSET(0xDAB6790)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__34_2_OFFSET UNITYSDK_OFFSET(0xDAB67A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c_TypeDefinitionIndex = 64475;
+	inline static constexpr unsigned int GridFightEffectController___c_TypeDefinitionIndex = 65966;
 
 	class GridFightEffectController___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_2()
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__34_1()
 		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65700);
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CF20);
 		}
 
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_1()
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__34_0()
 		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65708);
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CF28);
+		}
+
+		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__34_2()
+		{
+			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CF30);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65710);
-		}
-
-		static ::System::Func_2<::UnityEngine::Vector3, ::System::Single>** StaticGet___9__16_0()
-		{
-			return (::System::Func_2<::UnityEngine::Vector3, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65718);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CF38);
 		}
 
 		static ::System::Void _cctor()
@@ -48,19 +48,19 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Single _PlayFlyEffect_b__16_0(::UnityEngine::Vector3 a1)
+		::System::Single _PlayFlyEffect_b__34_0(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__16_0_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__34_0_OFFSET))(this, a1);
 		}
 
-		::System::Single _PlayFlyEffect_b__16_1(::UnityEngine::Vector3 a1)
+		::System::Single _PlayFlyEffect_b__34_1(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__16_1_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__34_1_OFFSET))(this, a1);
 		}
 
-		::System::Single _PlayFlyEffect_b__16_2(::UnityEngine::Vector3 a1)
+		::System::Single _PlayFlyEffect_b__34_2(::UnityEngine::Vector3 a1)
 		{
-			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__16_2_OFFSET))(this, a1);
+			return ((::System::Single(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__PLAYFLYEFFECT_B__34_2_OFFSET))(this, a1);
 		}
 
 	};

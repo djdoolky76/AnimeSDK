@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define CANDJPJDHMO_AHMLJICLLJI_CTOR_OFFSET UNITYSDK_OFFSET(0xC493130)
+#define CANDJPJDHMO_AHMLJICLLJI_CTOR_OFFSET UNITYSDK_OFFSET(0xCDFB550)
 
-inline static constexpr unsigned int CANDJPJDHMO_AHMLJICLLJI_TypeDefinitionIndex = 77119;
+inline static constexpr unsigned int CANDJPJDHMO_AHMLJICLLJI_TypeDefinitionIndex = 79453;
 
 	class CANDJPJDHMO_AHMLJICLLJI
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/EnviromentSystem/WindTriggerType.h"
 #include "unitysdk/RPG/Client/EnvWindTriggerMonoPlugin_WindApplyType.h"
 
-#define RPG_CLIENT_ENVWINDTRIGGERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF9E40)
+#define RPG_CLIENT_ENVWINDTRIGGERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD7C1D30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_TypeDefinitionIndex = 71069;
+	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_TypeDefinitionIndex = 73050;
 
 	class EnvWindTriggerMonoPlugin
 	{

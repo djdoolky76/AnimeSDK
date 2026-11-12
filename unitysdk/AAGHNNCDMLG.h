@@ -5,11 +5,11 @@ namespace RPG::GameCore { class ByDistance; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AAGHNNCDMLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C6360)
-#define AAGHNNCDMLG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB0C6390)
-#define AAGHNNCDMLG_JIKECJFMBMM_OFFSET UNITYSDK_OFFSET(0xB0C6890)
+#define AAGHNNCDMLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB728040)
+#define AAGHNNCDMLG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB728070)
+#define AAGHNNCDMLG_JIKECJFMBMM_OFFSET UNITYSDK_OFFSET(0xB728570)
 
-inline static constexpr unsigned int AAGHNNCDMLG_TypeDefinitionIndex = 54603;
+inline static constexpr unsigned int AAGHNNCDMLG_TypeDefinitionIndex = 55768;
 
 	class AAGHNNCDMLG
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/UITransitionAnimType.h"
 
-#define MNHBKGOGEIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E0)
+#define MNHBKGOGEIA_CTOR_OFFSET UNITYSDK_OFFSET(0x22D10)
 
-inline static constexpr unsigned int MNHBKGOGEIA_TypeDefinitionIndex = 73133;
+inline static constexpr unsigned int MNHBKGOGEIA_TypeDefinitionIndex = 75247;
 
 	struct alignas(4) MNHBKGOGEIA
 	{

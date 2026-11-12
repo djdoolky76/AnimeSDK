@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define BMJNELLLAAE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBD830)
-#define BMJNELLLAAE_GET_ADDFEVER_OFFSET UNITYSDK_OFFSET(0xBDBD850)
-#define BMJNELLLAAE_GET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBDBD8A0)
-#define BMJNELLLAAE_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xBDBD870)
-#define BMJNELLLAAE_SET_ADDFEVER_OFFSET UNITYSDK_OFFSET(0xBDBD860)
-#define BMJNELLLAAE_SET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBDBD8B0)
-#define BMJNELLLAAE_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xBDBD890)
+#define BMJNELLLAAE_CTOR_OFFSET UNITYSDK_OFFSET(0xC73C350)
+#define BMJNELLLAAE_GET_ADDFEVER_OFFSET UNITYSDK_OFFSET(0xC73C370)
+#define BMJNELLLAAE_GET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC73C3C0)
+#define BMJNELLLAAE_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xC73C390)
+#define BMJNELLLAAE_SET_ADDFEVER_OFFSET UNITYSDK_OFFSET(0xC73C380)
+#define BMJNELLLAAE_SET_SOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC73C3D0)
+#define BMJNELLLAAE_SET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xC73C3B0)
 
-inline static constexpr unsigned int BMJNELLLAAE_TypeDefinitionIndex = 81269;
+inline static constexpr unsigned int BMJNELLLAAE_TypeDefinitionIndex = 84049;
 
 	class BMJNELLLAAE : public ::System::Object
 	{
 	public:
-		::System::Int32 _SourceRuntimeID_k__BackingField; // 0x10
-		::System::UInt32 _AddFever_k__BackingField; // 0x14
-		::UnityEngine::Vector3 _WorldPosition_k__BackingField; // 0x18
+		::UnityEngine::Vector3 _WorldPosition_k__BackingField; // 0x10
+		::System::UInt32 _AddFever_k__BackingField; // 0x1C
+		::System::Int32 _SourceRuntimeID_k__BackingField; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::UnityEngine::Vector3 a2, ::System::Int32 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector3, ::System::Int32))((::PBYTE)hIl2Cpp + BMJNELLLAAE_CTOR_OFFSET))(this, a1, a2, a3);

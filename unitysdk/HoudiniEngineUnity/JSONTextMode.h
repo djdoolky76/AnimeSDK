@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int JSONTextMode_TypeDefinitionIndex = 40667;
+	inline static constexpr unsigned int JSONTextMode_TypeDefinitionIndex = 41642;
 
 	enum class JSONTextMode : ::System::Int32
 	{

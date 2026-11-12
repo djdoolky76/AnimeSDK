@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C118780)
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C1179F0)
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1C117D40)
-#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1186E0)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D29FD80)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D29EFF0)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1D29F340)
+#define SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D29FCE0)
 
 namespace System::Text
 {
@@ -18,10 +18,10 @@ namespace System::Text
 	{
 	public:
 		::System::Char charUnknownLow; // 0x90
-		::System::Char charUnknownHigh; // 0x92
-		::System::Char charUnknown; // 0x94
 		::System::Byte _padding0[0x2];
-		::System::Int32 index; // 0x98
+		::System::Int32 index; // 0x94
+		::System::Char charUnknownHigh; // 0x98
+		::System::Char charUnknown; // 0x9A
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_TEXT_ENCODERFALLBACKEXCEPTION_CTOR_OFFSET))(this);

@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveGiftActionRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77C240)
-#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77C060)
+#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98F970)
+#define RPG_GAMECORE_IDLELIVEGIFTACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98F790)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGiftActionRow_TypeDefinitionIndex = 11804;
+	inline static constexpr unsigned int IdleLiveGiftActionRow_TypeDefinitionIndex = 11861;
 
 	class IdleLiveGiftActionRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParam; // 0x10
-		::System::String* AbilityName; // 0x18
-		::System::UInt32 ID; // 0x20
-		::RPG::GameCore::IdleLiveGiftEffectType EffectType; // 0x24
+		::System::String* AbilityName; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParam; // 0x18
+		::RPG::GameCore::IdleLiveGiftEffectType EffectType; // 0x20
+		::System::UInt32 ID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEGIFTACTIONROW_CTOR_OFFSET))(this);

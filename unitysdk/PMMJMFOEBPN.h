@@ -9,29 +9,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define PMMJMFOEBPN_AEDGJNNBGEN_OFFSET UNITYSDK_OFFSET(0xC327980)
-#define PMMJMFOEBPN_CTOR_OFFSET UNITYSDK_OFFSET(0xC327C80)
-#define PMMJMFOEBPN_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xC3276E0)
-#define PMMJMFOEBPN_JINBNAIKBKK_OFFSET UNITYSDK_OFFSET(0xC327BE0)
-#define PMMJMFOEBPN_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xC3277A0)
-#define PMMJMFOEBPN_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC327B50)
-#define PMMJMFOEBPN__ONBIND_OFFSET UNITYSDK_OFFSET(0xC327410)
-#define PMMJMFOEBPN__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC327930)
+#define PMMJMFOEBPN_AEDGJNNBGEN_OFFSET UNITYSDK_OFFSET(0xCC56CD0)
+#define PMMJMFOEBPN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC56FC0)
+#define PMMJMFOEBPN_JINBNAIKBKK_OFFSET UNITYSDK_OFFSET(0xCC56F10)
+#define PMMJMFOEBPN_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xCC56E90)
+#define PMMJMFOEBPN__INITVARONCE_OFFSET UNITYSDK_OFFSET(0xCC56AF0)
+#define PMMJMFOEBPN__ONBIND_OFFSET UNITYSDK_OFFSET(0xCC566F0)
+#define PMMJMFOEBPN__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xCC56C80)
+#define PMMJMFOEBPN__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xCC56A30)
 
-inline static constexpr unsigned int PMMJMFOEBPN_TypeDefinitionIndex = 71297;
+inline static constexpr unsigned int PMMJMFOEBPN_TypeDefinitionIndex = 73274;
 
 	class PMMJMFOEBPN : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* MDBBPBBMCEG; // 0x60
-		::UnityEngine::Animation* MBONPFHGDFB; // 0x68
-		::UnityEngine::Transform* DFKPFBCFOJJ; // 0x70
-		::UnityEngine::Transform* KMHLHECIMOF; // 0x78
-		::UnityEngine::Transform* HLADPKLGPEI; // 0x80
-		::MADHNHEMBOJ* PKIGHMIMJLF; // 0x88
+		::UnityEngine::Transform* AMJPKCBOLEK; // 0x60
+		::UnityEngine::Transform* MDBBPBBMCEG; // 0x68
+		::EBCNJEFOMCG* FGPADGFFLIC; // 0x70
+		::MADHNHEMBOJ* PKIGHMIMJLF; // 0x78
+		::UnityEngine::Animation* MBONPFHGDFB; // 0x80
+		::UnityEngine::Transform* KMHLHECIMOF; // 0x88
 		::UnityEngine::Transform* PGLBOIHNJPJ; // 0x90
-		::EBCNJEFOMCG* FGPADGFFLIC; // 0x98
-		::UnityEngine::Transform* AMJPKCBOLEK; // 0xA0
+		::UnityEngine::Transform* HLADPKLGPEI; // 0x98
+		::UnityEngine::Transform* DFKPFBCFOJJ; // 0xA0
 		::GJPBCNIIEOB_Mode BHJDJDPLCLP; // 0xA8
 		::System::Boolean JIEJLKLFJOL; // 0xAC
 		::System::Byte _padding0[0x3];
@@ -47,14 +47,14 @@ inline static constexpr unsigned int PMMJMFOEBPN_TypeDefinitionIndex = 71297;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMMJMFOEBPN__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMMJMFOEBPN_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMMJMFOEBPN__SETUPVIEW_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMMJMFOEBPN_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PMMJMFOEBPN__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void _OnDispose()

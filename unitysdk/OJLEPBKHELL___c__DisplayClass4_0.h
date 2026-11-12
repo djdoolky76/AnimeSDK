@@ -6,17 +6,17 @@ class OJLEPBKHELL;
 namespace RPG::Client { class BaseGameFlow; }
 namespace System { class Exception; }
 
-#define OJLEPBKHELL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEBE4C0)
-#define OJLEPBKHELL___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xBEBE510)
-#define OJLEPBKHELL___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xBEBE600)
+#define OJLEPBKHELL___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B5B40)
+#define OJLEPBKHELL___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0xC7B5B90)
+#define OJLEPBKHELL___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0xC7B5C80)
 
-inline static constexpr unsigned int OJLEPBKHELL___c__DisplayClass4_0_TypeDefinitionIndex = 75286;
+inline static constexpr unsigned int OJLEPBKHELL___c__DisplayClass4_0_TypeDefinitionIndex = 77613;
 
 	class OJLEPBKHELL___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::OJLEPBKHELL* __4__this; // 0x10
-		::FHFCJKKKNLP* gameFlowPrepareService; // 0x18
+		::FHFCJKKKNLP* gameFlowPrepareService; // 0x10
+		::OJLEPBKHELL* __4__this; // 0x18
 		::System::Boolean needShowStageProgressPage; // 0x20
 		::System::Void _ctor()
 		{

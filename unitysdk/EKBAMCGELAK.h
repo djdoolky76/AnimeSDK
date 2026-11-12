@@ -9,20 +9,20 @@ namespace RPG::GameCore { class ProjectileData; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define EKBAMCGELAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD947B0)
-#define EKBAMCGELAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD947C0)
-#define EKBAMCGELAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD94770)
+#define EKBAMCGELAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF675C0)
+#define EKBAMCGELAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF675D0)
+#define EKBAMCGELAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF67580)
 
-inline static constexpr unsigned int EKBAMCGELAK_TypeDefinitionIndex = 24137;
+inline static constexpr unsigned int EKBAMCGELAK_TypeDefinitionIndex = 24596;
 
 	class EKBAMCGELAK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* FHMKCLNLGOP; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::RPG::GameCore::ProjectileData* PJCICCBNBEI; // 0x28
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BKNDLCGHANK; // 0x30
-		::RPG::GameCore::NewProjectileConfig* FJFCBBOCICK; // 0x38
+		::RPG::GameCore::NewProjectileConfig* FJFCBBOCICK; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BKNDLCGHANK; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::ProjectileData* PJCICCBNBEI; // 0x30
+		::RPG::GameCore::TargetEvaluator* FHMKCLNLGOP; // 0x38
 		::System::Boolean FKJPBMMCHFL; // 0x40
 		::System::Byte _padding0[0x3];
 		::System::Int32 HCDEOKNIGKG; // 0x44

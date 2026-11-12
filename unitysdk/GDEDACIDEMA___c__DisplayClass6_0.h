@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define GDEDACIDEMA___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1599A150)
-#define GDEDACIDEMA___C__DISPLAYCLASS6_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1599A710)
+#define GDEDACIDEMA___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x168D0F00)
+#define GDEDACIDEMA___C__DISPLAYCLASS6_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x168D14C0)
 
-inline static constexpr unsigned int GDEDACIDEMA___c__DisplayClass6_0_TypeDefinitionIndex = 58101;
+inline static constexpr unsigned int GDEDACIDEMA___c__DisplayClass6_0_TypeDefinitionIndex = 59340;
 
 	class GDEDACIDEMA___c__DisplayClass6_0 : public ::System::Object
 	{

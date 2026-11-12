@@ -7,12 +7,12 @@ namespace RPG::Client { class LookAtIK; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define BONECONSTRAINT_CPOICLJHJDK_OFFSET UNITYSDK_OFFSET(0xC1B7150)
-#define BONECONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B71C0)
-#define BONECONSTRAINT_HJFFHBPCBNC_OFFSET UNITYSDK_OFFSET(0xC1B62B0)
-#define BONECONSTRAINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC1B6240)
+#define BONECONSTRAINT_CPOICLJHJDK_OFFSET UNITYSDK_OFFSET(0xCB58590)
+#define BONECONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0xCB58600)
+#define BONECONSTRAINT_HJFFHBPCBNC_OFFSET UNITYSDK_OFFSET(0xCB576F0)
+#define BONECONSTRAINT_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCB57680)
 
-inline static constexpr unsigned int BoneConstraint_TypeDefinitionIndex = 47441;
+inline static constexpr unsigned int BoneConstraint_TypeDefinitionIndex = 48470;
 
 	class BoneConstraint : public ::UnityEngine::MonoBehaviour
 	{

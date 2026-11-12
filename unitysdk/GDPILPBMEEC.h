@@ -21,47 +21,47 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GDPILPBMEEC_AKBNCLMKGMJ_OFFSET UNITYSDK_OFFSET(0x159C3540)
-#define GDPILPBMEEC_CFIJOEAJEMP_OFFSET UNITYSDK_OFFSET(0x159C3150)
-#define GDPILPBMEEC_CKBAHJHPLIG_OFFSET UNITYSDK_OFFSET(0x159C1120)
-#define GDPILPBMEEC_CPKBCDHBKFL_OFFSET UNITYSDK_OFFSET(0x159C2810)
-#define GDPILPBMEEC_CTOR_OFFSET UNITYSDK_OFFSET(0x159C3CC0)
-#define GDPILPBMEEC_DGCGKPBMPMJ_OFFSET UNITYSDK_OFFSET(0x159C1A60)
-#define GDPILPBMEEC_EAHLNBKHBFG_OFFSET UNITYSDK_OFFSET(0x159C3790)
-#define GDPILPBMEEC_GHBKPFFDEOC_OFFSET UNITYSDK_OFFSET(0x159C3350)
-#define GDPILPBMEEC_GNGEEDECFEN_OFFSET UNITYSDK_OFFSET(0x159C1F20)
-#define GDPILPBMEEC_HBECOCLIENB_OFFSET UNITYSDK_OFFSET(0x159C1640)
-#define GDPILPBMEEC_IGDACHHDKKH_OFFSET UNITYSDK_OFFSET(0x159C39D0)
-#define GDPILPBMEEC_IGDGJAAPBLJ_OFFSET UNITYSDK_OFFSET(0x159C2A20)
-#define GDPILPBMEEC_JDBHCENPLPJ_OFFSET UNITYSDK_OFFSET(0x159C1400)
-#define GDPILPBMEEC_LCPEJNKPLFH_OFFSET UNITYSDK_OFFSET(0x159C1C30)
-#define GDPILPBMEEC_OABCLLKHAFK_OFFSET UNITYSDK_OFFSET(0x159C1880)
-#define GDPILPBMEEC_OBBFPCOEAOG_OFFSET UNITYSDK_OFFSET(0x159C2F50)
-#define GDPILPBMEEC_OFFCNODLKGO_OFFSET UNITYSDK_OFFSET(0x159C2390)
-#define GDPILPBMEEC_OKHFKJHNMDB_OFFSET UNITYSDK_OFFSET(0x159C2D30)
+#define GDPILPBMEEC_AKBNCLMKGMJ_OFFSET UNITYSDK_OFFSET(0x168FC4E0)
+#define GDPILPBMEEC_CFIJOEAJEMP_OFFSET UNITYSDK_OFFSET(0x168FC0E0)
+#define GDPILPBMEEC_CKBAHJHPLIG_OFFSET UNITYSDK_OFFSET(0x168FA030)
+#define GDPILPBMEEC_CPKBCDHBKFL_OFFSET UNITYSDK_OFFSET(0x168FB7A0)
+#define GDPILPBMEEC_CTOR_OFFSET UNITYSDK_OFFSET(0x168FCC50)
+#define GDPILPBMEEC_DGCGKPBMPMJ_OFFSET UNITYSDK_OFFSET(0x168FA9C0)
+#define GDPILPBMEEC_EAHLNBKHBFG_OFFSET UNITYSDK_OFFSET(0x168FC720)
+#define GDPILPBMEEC_GHBKPFFDEOC_OFFSET UNITYSDK_OFFSET(0x168FC2E0)
+#define GDPILPBMEEC_GNGEEDECFEN_OFFSET UNITYSDK_OFFSET(0x168FAE90)
+#define GDPILPBMEEC_HBECOCLIENB_OFFSET UNITYSDK_OFFSET(0x168FA560)
+#define GDPILPBMEEC_IGDACHHDKKH_OFFSET UNITYSDK_OFFSET(0x168FC960)
+#define GDPILPBMEEC_IGDGJAAPBLJ_OFFSET UNITYSDK_OFFSET(0x168FB9B0)
+#define GDPILPBMEEC_JDBHCENPLPJ_OFFSET UNITYSDK_OFFSET(0x168FA330)
+#define GDPILPBMEEC_LCPEJNKPLFH_OFFSET UNITYSDK_OFFSET(0x168FABB0)
+#define GDPILPBMEEC_OABCLLKHAFK_OFFSET UNITYSDK_OFFSET(0x168FA7A0)
+#define GDPILPBMEEC_OBBFPCOEAOG_OFFSET UNITYSDK_OFFSET(0x168FBEE0)
+#define GDPILPBMEEC_OFFCNODLKGO_OFFSET UNITYSDK_OFFSET(0x168FB320)
+#define GDPILPBMEEC_OKHFKJHNMDB_OFFSET UNITYSDK_OFFSET(0x168FBCC0)
 
-inline static constexpr unsigned int GDPILPBMEEC_TypeDefinitionIndex = 81736;
+inline static constexpr unsigned int GDPILPBMEEC_TypeDefinitionIndex = 84517;
 
 	class GDPILPBMEEC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::DNBDHGNLIPK*>* BOLAFEMLDLJ; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AEANOGAFBGK*>* NFCGEFEPMCM; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::MINFEAKALGE*>* IKAABEOAICM; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KIIGKJKMCHP*>* MMILHAANAPM; // 0x28
-		::System::Collections::Generic::List_1<::DLJPDKIMHAC*>* DDOCAEAOGFF; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::IAKMFLMFALK*>* DOAABGLKAKD; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::CKBIKDBNKEO*>* GPLLPOHIGIC; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DNIDONCOAEE*>* GEEHPGPNGDF; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MKHPAECGJBE*>* IOKOACOMPEL; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::HKHEDJKACGK*>*>* FGLNNOAGAEA; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::CKNMJMCFPME*>* JHFAECBNGLE; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BIMCEEABCEI*>* KBKBMLAHHIK; // 0x68
-		::System::Collections::Generic::List_1<::CKNMJMCFPME*>* AOENOGCFDKB; // 0x70
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::DNBDHGNLIPK*>* OAPAOFBDNCG; // 0x78
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::FINMGDLKNMH*>* HIOPHALPLJD; // 0x80
+		::System::Collections::Generic::List_1<::CKNMJMCFPME*>* AOENOGCFDKB; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::IAKMFLMFALK*>* DOAABGLKAKD; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::CKNMJMCFPME*>* JHFAECBNGLE; // 0x20
+		::System::Collections::Generic::List_1<::DNBDHGNLIPK*>* BOLAFEMLDLJ; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::DNBDHGNLIPK*>* OAPAOFBDNCG; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::FINMGDLKNMH*>* HIOPHALPLJD; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::DNIDONCOAEE*>* GEEHPGPNGDF; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::BIMCEEABCEI*>* KBKBMLAHHIK; // 0x48
+		::System::Collections::Generic::List_1<::DNIDONCOAEE*>* OJAJEDEKBAA; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::MINFEAKALGE*>* IKAABEOAICM; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::HKHEDJKACGK*>*>* FGLNNOAGAEA; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::CKBIKDBNKEO*>* GPLLPOHIGIC; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::AEANOGAFBGK*>* NFCGEFEPMCM; // 0x70
+		::System::Collections::Generic::List_1<::DLJPDKIMHAC*>* DDOCAEAOGFF; // 0x78
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KIIGKJKMCHP*>* MMILHAANAPM; // 0x80
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KFHKMDOPMFC*>* LIKPBLAHEBH; // 0x88
-		::System::Collections::Generic::List_1<::DNIDONCOAEE*>* OJAJEDEKBAA; // 0x90
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MKHPAECGJBE*>* IOKOACOMPEL; // 0x90
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDPILPBMEEC_CTOR_OFFSET))(this);

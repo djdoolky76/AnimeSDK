@@ -6,12 +6,12 @@ namespace RPG::GameCore { class IRIFBXLodSizeConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_IRIFBXLODSIZECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7775D0)
-#define RPG_GAMECORE_IRIFBXLODSIZECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7774F0)
+#define RPG_GAMECORE_IRIFBXLODSIZECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98AD00)
+#define RPG_GAMECORE_IRIFBXLODSIZECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E98AC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IRIFBXLodSizeConfig_TypeDefinitionIndex = 19203;
+	inline static constexpr unsigned int IRIFBXLodSizeConfig_TypeDefinitionIndex = 19393;
 
 	class IRIFBXLodSizeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,21 +3,21 @@
 #include "unitysdk/ALNFHFDBDCH.h"
 class JBGMDJBCHFO;
 
-#define KFEAGOPABNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD6A8C0)
-#define KFEAGOPABNP_GDNFNCJPDKD_OFFSET UNITYSDK_OFFSET(0x1DD6A880)
-#define KFEAGOPABNP_ILJANLIPIKB_OFFSET UNITYSDK_OFFSET(0x1DD6A890)
-#define KFEAGOPABNP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DD6A980)
+#define KFEAGOPABNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF6D010)
+#define KFEAGOPABNP_GDNFNCJPDKD_OFFSET UNITYSDK_OFFSET(0x1EF6CFD0)
+#define KFEAGOPABNP_ILJANLIPIKB_OFFSET UNITYSDK_OFFSET(0x1EF6CFE0)
+#define KFEAGOPABNP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1EF6D0D0)
 
-inline static constexpr unsigned int KFEAGOPABNP_TypeDefinitionIndex = 6276;
+inline static constexpr unsigned int KFEAGOPABNP_TypeDefinitionIndex = 6283;
 
 	class KFEAGOPABNP : public ::ALNFHFDBDCH
 	{
 	public:
 		::Il2CppArray<::System::Single>* GDIGODBMPJJ; // 0x28
-		::Il2CppArray<::System::Single>* BNEOJNKNHDG; // 0x30
-		::Il2CppArray<::System::Single>* AFBJJJBHANK; // 0x38
-		::Il2CppArray<::System::Single>* BPGHHIJLLEI; // 0x40
-		::Il2CppArray<::System::Single>* OHJIHLKPGEB; // 0x48
+		::Il2CppArray<::System::Single>* OHJIHLKPGEB; // 0x30
+		::Il2CppArray<::System::Single>* BPGHHIJLLEI; // 0x38
+		::Il2CppArray<::System::Single>* AFBJJJBHANK; // 0x40
+		::Il2CppArray<::System::Single>* BNEOJNKNHDG; // 0x48
 		::System::Single NDEAPGAEOPK; // 0x50
 		::System::Single BNMJMAIKOAA; // 0x54
 		::System::Void _ctor(::System::Int32 a1, ::System::Single a2, ::JBGMDJBCHFO* a3)

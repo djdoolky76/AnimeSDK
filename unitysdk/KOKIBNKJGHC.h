@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class VCameraNoiseCloseForBattleDataView; }
 
-#define KOKIBNKJGHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB5A1060)
-#define KOKIBNKJGHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5A1090)
+#define KOKIBNKJGHC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF4950)
+#define KOKIBNKJGHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDF4980)
 
-inline static constexpr unsigned int KOKIBNKJGHC_TypeDefinitionIndex = 55800;
+inline static constexpr unsigned int KOKIBNKJGHC_TypeDefinitionIndex = 57003;
 
 	class KOKIBNKJGHC
 	{

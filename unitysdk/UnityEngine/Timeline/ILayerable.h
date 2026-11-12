@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ILayerable_TypeDefinitionIndex = 38840;
+	inline static constexpr unsigned int ILayerable_TypeDefinitionIndex = 39769;
 
 	class ILayerable
 	{

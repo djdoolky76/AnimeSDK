@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class MDNBBCOBGPH;
 
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C6620)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0___FILLWITHALTERNATIVEAVATARS_B__0_OFFSET UNITYSDK_OFFSET(0xE1CA020)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEC73B10)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__DISPLAYCLASS21_0___FILLWITHALTERNATIVEAVATARS_B__0_OFFSET UNITYSDK_OFFSET(0xEC77520)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 68089;
+	inline static constexpr unsigned int TeamBuildCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 70035;
 
 	class TeamBuildCalculator___c__DisplayClass21_0 : public ::System::Object
 	{

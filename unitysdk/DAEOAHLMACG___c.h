@@ -4,18 +4,18 @@
 class DAEOAHLMACG;
 namespace System { class Object; }
 
-#define DAEOAHLMACG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E14F3F0)
-#define DAEOAHLMACG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E14F430)
-#define DAEOAHLMACG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E14F440)
+#define DAEOAHLMACG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F428550)
+#define DAEOAHLMACG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F428590)
+#define DAEOAHLMACG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F4285A0)
 
-inline static constexpr unsigned int DAEOAHLMACG___c_TypeDefinitionIndex = 32711;
+inline static constexpr unsigned int DAEOAHLMACG___c_TypeDefinitionIndex = 33626;
 
 	class DAEOAHLMACG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x244F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F390);
 		}
 
 		static ::System::Void _cctor()

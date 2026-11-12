@@ -6,20 +6,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMNNNBIDOMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB569840)
-#define KMNNNBIDOMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB56A020)
-#define KMNNNBIDOMD_GLHDJGCLCMG_OFFSET UNITYSDK_OFFSET(0xB56A060)
-#define KMNNNBIDOMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5698A0)
-#define KMNNNBIDOMD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB569850)
-#define KMNNNBIDOMD_TICK_OFFSET UNITYSDK_OFFSET(0xB569FC0)
+#define KMNNNBIDOMD_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB5300)
+#define KMNNNBIDOMD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDB5AE0)
+#define KMNNNBIDOMD_GLHDJGCLCMG_OFFSET UNITYSDK_OFFSET(0xBDB5B20)
+#define KMNNNBIDOMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDB5360)
+#define KMNNNBIDOMD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDB5310)
+#define KMNNNBIDOMD_TICK_OFFSET UNITYSDK_OFFSET(0xBDB5A80)
 
-inline static constexpr unsigned int KMNNNBIDOMD_TypeDefinitionIndex = 57931;
+inline static constexpr unsigned int KMNNNBIDOMD_TypeDefinitionIndex = 59168;
 
 	class KMNNNBIDOMD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::AetherDivideTriggerAttackSimplified* EJJEEJENLDA; // 0x20
+		::RPG::GameCore::AetherDivideTriggerAttackSimplified* EJJEEJENLDA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AetherDivideTriggerAttackSimplified* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AetherDivideTriggerAttackSimplified*))((::PBYTE)hIl2Cpp + KMNNNBIDOMD_CTOR_OFFSET))(this, a1, a2);

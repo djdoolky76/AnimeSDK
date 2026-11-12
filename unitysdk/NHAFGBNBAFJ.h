@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class SetDynamicEntityParam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHAFGBNBAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBBB5150)
-#define NHAFGBNBAFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBB5220)
-#define NHAFGBNBAFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBB5260)
-#define NHAFGBNBAFJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBB56E0)
-#define NHAFGBNBAFJ_TICK_OFFSET UNITYSDK_OFFSET(0xBBB5730)
+#define NHAFGBNBAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC4914E0)
+#define NHAFGBNBAFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4915B0)
+#define NHAFGBNBAFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4915F0)
+#define NHAFGBNBAFJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC491A70)
+#define NHAFGBNBAFJ_TICK_OFFSET UNITYSDK_OFFSET(0xC491AC0)
 
-inline static constexpr unsigned int NHAFGBNBAFJ_TypeDefinitionIndex = 55400;
+inline static constexpr unsigned int NHAFGBNBAFJ_TypeDefinitionIndex = 56585;
 
 	class NHAFGBNBAFJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetDynamicEntityParam* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetDynamicEntityParam* OFKGLJOAMLD; // 0x20
 		::RPG::GameCore::StringHash IMCFADGAEIN; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicEntityParam* a2)
 		{

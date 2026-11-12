@@ -13,381 +13,381 @@ namespace UnityEngine { class Object; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Transform; }
 
-#define OHJGOCACKAO_AOJJNFDCOKP_OFFSET UNITYSDK_OFFSET(0xBE6D920)
-#define OHJGOCACKAO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE6E7D0)
-#define OHJGOCACKAO_CNHMBFIHLPC_OFFSET UNITYSDK_OFFSET(0xBE6DFF0)
-#define OHJGOCACKAO_EEGENOLIJOD_OFFSET UNITYSDK_OFFSET(0xBE6DBC0)
-#define OHJGOCACKAO_FCKJGDGGHGA_OFFSET UNITYSDK_OFFSET(0xBE6DAA0)
-#define OHJGOCACKAO_FHJFAACBEPM_OFFSET UNITYSDK_OFFSET(0xBE6D8C0)
-#define OHJGOCACKAO_GCKLEKFDLOJ_OFFSET UNITYSDK_OFFSET(0xBE6DE50)
-#define OHJGOCACKAO_GPIDPKOBNIJ_OFFSET UNITYSDK_OFFSET(0xBE6D9A0)
-#define OHJGOCACKAO_OGLMLFEGFPK_OFFSET UNITYSDK_OFFSET(0xBE6DC60)
-#define OHJGOCACKAO_OIEMIEIFGNM_OFFSET UNITYSDK_OFFSET(0xBE6DD00)
-#define OHJGOCACKAO_PLMAPOFPJLM_OFFSET UNITYSDK_OFFSET(0xBE6E040)
+#define OHJGOCACKAO_AOJJNFDCOKP_OFFSET UNITYSDK_OFFSET(0xC728030)
+#define OHJGOCACKAO_CCTOR_OFFSET UNITYSDK_OFFSET(0xC728EE0)
+#define OHJGOCACKAO_CNHMBFIHLPC_OFFSET UNITYSDK_OFFSET(0xC728700)
+#define OHJGOCACKAO_EEGENOLIJOD_OFFSET UNITYSDK_OFFSET(0xC7282D0)
+#define OHJGOCACKAO_FCKJGDGGHGA_OFFSET UNITYSDK_OFFSET(0xC7281B0)
+#define OHJGOCACKAO_FHJFAACBEPM_OFFSET UNITYSDK_OFFSET(0xC727FD0)
+#define OHJGOCACKAO_GCKLEKFDLOJ_OFFSET UNITYSDK_OFFSET(0xC728560)
+#define OHJGOCACKAO_GPIDPKOBNIJ_OFFSET UNITYSDK_OFFSET(0xC7280B0)
+#define OHJGOCACKAO_OGLMLFEGFPK_OFFSET UNITYSDK_OFFSET(0xC728370)
+#define OHJGOCACKAO_OIEMIEIFGNM_OFFSET UNITYSDK_OFFSET(0xC728410)
+#define OHJGOCACKAO_PLMAPOFPJLM_OFFSET UNITYSDK_OFFSET(0xC728750)
 
-inline static constexpr unsigned int OHJGOCACKAO_TypeDefinitionIndex = 48982;
+inline static constexpr unsigned int OHJGOCACKAO_TypeDefinitionIndex = 50051;
 
 	class OHJGOCACKAO : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_LFPAEBAIJLP()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583A0);
-		}
-
-		static ::System::String** StaticGet_GBKJPPEBGFN()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583A8);
-		}
-
-		static ::System::String** StaticGet_IHNPHHGPPIL()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583B0);
-		}
-
-		static ::System::String** StaticGet_HKENJMKIKIK()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583B8);
-		}
-
-		static ::System::String** StaticGet_GDBOHIMCDAN()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583C0);
-		}
-
-		static ::System::String** StaticGet_JGMIBLIHOPG()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583C8);
-		}
-
-		static ::System::String** StaticGet_FIOIOHLMDIA()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583D0);
-		}
-
-		static ::System::String** StaticGet_OBJEILJKCGE()
-		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583D8);
-		}
-
 		static ::System::String** StaticGet_DJIKCOJBDCN()
 		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583E0);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x45290);
 		}
 
 		static ::System::String** StaticGet_OMPMOOGLOMH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583E8);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x45298);
+		}
+
+		static ::System::String** StaticGet_HKENJMKIKIK()
+		{
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452A0);
 		}
 
 		static ::System::String** StaticGet_PFBNDAGKAIJ()
 		{
-			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x583F0);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452A8);
 		}
 
-		static ::System::Int32* StaticGet_FFMHGKODLMP()
+		static ::System::String** StaticGet_FIOIOHLMDIA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13640);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452B0);
 		}
 
-		static ::System::Int32* StaticGet_OPKBLDKDEAK()
+		static ::System::String** StaticGet_JGMIBLIHOPG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13644);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452B8);
 		}
 
-		static ::System::Int32* StaticGet_HGEGAANNPDE()
+		static ::System::String** StaticGet_IHNPHHGPPIL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13648);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452C0);
 		}
 
-		static ::System::Int32* StaticGet_FJMIFBPIGJC()
+		static ::System::String** StaticGet_LFPAEBAIJLP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1364C);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452C8);
 		}
 
-		static ::System::Int32* StaticGet_MJLGKOKBPOM()
+		static ::System::String** StaticGet_OBJEILJKCGE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13650);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452D0);
 		}
 
-		static ::System::Int32* StaticGet_CJIFBCLGCBO()
+		static ::System::String** StaticGet_GBKJPPEBGFN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13654);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452D8);
 		}
 
-		static ::System::Int32* StaticGet_NFNINDHKCIF()
+		static ::System::String** StaticGet_GDBOHIMCDAN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13658);
-		}
-
-		static ::System::Int32* StaticGet_LGLPKFCDAFD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1365C);
-		}
-
-		static ::System::Int32* StaticGet_AMBHGNIPJON()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13660);
-		}
-
-		static ::System::Int32* StaticGet_FBNNMHADPMP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13664);
-		}
-
-		static ::System::Int32* StaticGet_JPJLAPPMGBN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13668);
-		}
-
-		static ::System::Int32* StaticGet_ILEKABJAMJA()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1366C);
-		}
-
-		static ::System::Int32* StaticGet_DOPCNELNICG()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13670);
-		}
-
-		static ::System::Int32* StaticGet_KMLIIMNLEOP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13674);
-		}
-
-		static ::System::Int32* StaticGet_FLKOBKFBDBI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13678);
-		}
-
-		static ::System::Int32* StaticGet_POMDCDOKKKN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1367C);
-		}
-
-		static ::System::Int32* StaticGet_KGBBLOMGFLN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13680);
-		}
-
-		static ::System::Int32* StaticGet_JEDPDFBABHE()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13684);
-		}
-
-		static ::System::Int32* StaticGet_IFIGFNKNIBF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13688);
-		}
-
-		static ::System::Int32* StaticGet_PPGFAJNCMHH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1368C);
-		}
-
-		static ::System::Int32* StaticGet_CPPJOKNFLHO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13690);
-		}
-
-		static ::System::Int32* StaticGet_IJINEBCIGLD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13694);
-		}
-
-		static ::System::Int32* StaticGet_MDPEJNJHPID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13698);
-		}
-
-		static ::System::Int32* StaticGet_NBBELODKECN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1369C);
-		}
-
-		static ::System::Int32* StaticGet_LLDFNIGCGLH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136A0);
-		}
-
-		static ::System::Int32* StaticGet_GDEOGNPAFMH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136A4);
-		}
-
-		static ::System::Int32* StaticGet_FKDDOCDCFAJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136A8);
-		}
-
-		static ::System::Int32* StaticGet_JFFCCFGHONH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136AC);
-		}
-
-		static ::System::Int32* StaticGet_NIGEHPBJFOC()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136B0);
-		}
-
-		static ::System::Int32* StaticGet_FFINJAJJALO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136B4);
-		}
-
-		static ::System::Int32* StaticGet_JGCEGMNPJGP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136B8);
-		}
-
-		static ::System::Int32* StaticGet_MINKEACCPGM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136BC);
-		}
-
-		static ::System::Int32* StaticGet_AOEPBIKLPHO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136C0);
-		}
-
-		static ::System::Int32* StaticGet_BNPEDDKKGDN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136C4);
-		}
-
-		static ::System::Int32* StaticGet_BDCLECLEDIL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136C8);
-		}
-
-		static ::System::Int32* StaticGet_FIEGBLHDPMI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136CC);
-		}
-
-		static ::System::Int32* StaticGet_BPEPCLLKCED()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136D0);
-		}
-
-		static ::System::Int32* StaticGet_NAHNNHDIEFD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136D4);
-		}
-
-		static ::System::Int32* StaticGet_CKHFLBKENJJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136D8);
-		}
-
-		static ::System::Int32* StaticGet_OKFGFFKBHFJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136DC);
-		}
-
-		static ::System::Int32* StaticGet_FMJPNGLEAHN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136E0);
-		}
-
-		static ::System::Int32* StaticGet_KNOBPIKOHAP()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136E4);
-		}
-
-		static ::System::Int32* StaticGet_HBICAIEEPMJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136E8);
-		}
-
-		static ::System::Int32* StaticGet_AJNJPBMHBDO()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136EC);
-		}
-
-		static ::System::Int32* StaticGet_DAGEOJINDFF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136F0);
-		}
-
-		static ::System::Int32* StaticGet_ABDFNPCKAHJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136F4);
-		}
-
-		static ::System::Int32* StaticGet_EEKDIHHDAPG()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136F8);
-		}
-
-		static ::System::Int32* StaticGet_HKIAKNEFGFE()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x136FC);
-		}
-
-		static ::System::Int32* StaticGet_ENMDGKCKEGC()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13700);
-		}
-
-		static ::System::Int32* StaticGet_KFMCNNPHLIF()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13704);
+			return (::System::String**)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x452E0);
 		}
 
 		static ::System::Int32* StaticGet_HGJLCGDPEOH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13708);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE890);
 		}
 
-		static ::System::Int32* StaticGet_NDMCIAEAJJN()
+		static ::System::Int32* StaticGet_NAHNNHDIEFD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1370C);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE894);
 		}
 
-		static ::System::Int32* StaticGet_KELCNGDOHPL()
+		static ::System::Int32* StaticGet_MJLGKOKBPOM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13710);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE898);
 		}
 
-		static ::System::Int32* StaticGet_FMNGBOCJAJH()
+		static ::System::Int32* StaticGet_CJIFBCLGCBO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13714);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE89C);
+		}
+
+		static ::System::Int32* StaticGet_JEDPDFBABHE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8A0);
+		}
+
+		static ::System::Int32* StaticGet_KMLIIMNLEOP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8A4);
+		}
+
+		static ::System::Int32* StaticGet_DOPCNELNICG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8A8);
+		}
+
+		static ::System::Int32* StaticGet_AMBHGNIPJON()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8AC);
+		}
+
+		static ::System::Int32* StaticGet_KNOBPIKOHAP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8B0);
+		}
+
+		static ::System::Int32* StaticGet_AJNJPBMHBDO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8B4);
 		}
 
 		static ::System::Int32* StaticGet_DJLNKADJNKB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13718);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8B8);
 		}
 
-		static ::System::Int32* StaticGet_GOJMBCALEGF()
+		static ::System::Int32* StaticGet_NBBELODKECN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1371C);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8BC);
 		}
 
-		static ::System::Int32* StaticGet_FELIKDCGIAK()
+		static ::System::Int32* StaticGet_KELCNGDOHPL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13720);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8C0);
 		}
 
-		static ::System::Int32* StaticGet_ODIBBADMHML()
+		static ::System::Int32* StaticGet_JGCEGMNPJGP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13724);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8C4);
 		}
 
 		static ::System::Int32* StaticGet_LMBBMEPFMPN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13728);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8C8);
+		}
+
+		static ::System::Int32* StaticGet_BNPEDDKKGDN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8CC);
+		}
+
+		static ::System::Int32* StaticGet_FJMIFBPIGJC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8D0);
+		}
+
+		static ::System::Int32* StaticGet_HBICAIEEPMJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8D4);
+		}
+
+		static ::System::Int32* StaticGet_POMDCDOKKKN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8D8);
+		}
+
+		static ::System::Int32* StaticGet_PPGFAJNCMHH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8DC);
+		}
+
+		static ::System::Int32* StaticGet_ILEKABJAMJA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8E0);
+		}
+
+		static ::System::Int32* StaticGet_JFFCCFGHONH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8E4);
+		}
+
+		static ::System::Int32* StaticGet_MINKEACCPGM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8E8);
+		}
+
+		static ::System::Int32* StaticGet_NDMCIAEAJJN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8EC);
+		}
+
+		static ::System::Int32* StaticGet_HKIAKNEFGFE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8F0);
+		}
+
+		static ::System::Int32* StaticGet_KFMCNNPHLIF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8F4);
+		}
+
+		static ::System::Int32* StaticGet_FELIKDCGIAK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8F8);
+		}
+
+		static ::System::Int32* StaticGet_FKDDOCDCFAJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE8FC);
+		}
+
+		static ::System::Int32* StaticGet_LLDFNIGCGLH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE900);
+		}
+
+		static ::System::Int32* StaticGet_FFMHGKODLMP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE904);
+		}
+
+		static ::System::Int32* StaticGet_BPEPCLLKCED()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE908);
+		}
+
+		static ::System::Int32* StaticGet_ABDFNPCKAHJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE90C);
+		}
+
+		static ::System::Int32* StaticGet_FMJPNGLEAHN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE910);
+		}
+
+		static ::System::Int32* StaticGet_AOEPBIKLPHO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE914);
+		}
+
+		static ::System::Int32* StaticGet_OPKBLDKDEAK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE918);
+		}
+
+		static ::System::Int32* StaticGet_GOJMBCALEGF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE91C);
 		}
 
 		static ::System::Int32* StaticGet_ODPKLCBGAIG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x1372C);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE920);
+		}
+
+		static ::System::Int32* StaticGet_FFINJAJJALO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE924);
+		}
+
+		static ::System::Int32* StaticGet_ENMDGKCKEGC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE928);
+		}
+
+		static ::System::Int32* StaticGet_FBNNMHADPMP()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE92C);
+		}
+
+		static ::System::Int32* StaticGet_NFNINDHKCIF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE930);
+		}
+
+		static ::System::Int32* StaticGet_IJINEBCIGLD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE934);
+		}
+
+		static ::System::Int32* StaticGet_EEKDIHHDAPG()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE938);
+		}
+
+		static ::System::Int32* StaticGet_IFIGFNKNIBF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE93C);
+		}
+
+		static ::System::Int32* StaticGet_FMNGBOCJAJH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE940);
+		}
+
+		static ::System::Int32* StaticGet_OKFGFFKBHFJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE944);
+		}
+
+		static ::System::Int32* StaticGet_MDPEJNJHPID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE948);
+		}
+
+		static ::System::Int32* StaticGet_CKHFLBKENJJ()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE94C);
+		}
+
+		static ::System::Int32* StaticGet_BDCLECLEDIL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE950);
+		}
+
+		static ::System::Int32* StaticGet_NIGEHPBJFOC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE954);
+		}
+
+		static ::System::Int32* StaticGet_HGEGAANNPDE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE958);
+		}
+
+		static ::System::Int32* StaticGet_FLKOBKFBDBI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE95C);
+		}
+
+		static ::System::Int32* StaticGet_FIEGBLHDPMI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE960);
+		}
+
+		static ::System::Int32* StaticGet_ODIBBADMHML()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE964);
+		}
+
+		static ::System::Int32* StaticGet_JPJLAPPMGBN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE968);
+		}
+
+		static ::System::Int32* StaticGet_KGBBLOMGFLN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE96C);
+		}
+
+		static ::System::Int32* StaticGet_GDEOGNPAFMH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE970);
+		}
+
+		static ::System::Int32* StaticGet_CPPJOKNFLHO()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE974);
+		}
+
+		static ::System::Int32* StaticGet_LGLPKFCDAFD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE978);
 		}
 
 		static ::System::Int32* StaticGet_AALMDOINOJO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0x13730);
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE97C);
+		}
+
+		static ::System::Int32* StaticGet_DAGEOJINDFF()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "OHJGOCACKAO")->GetStaticField(0xE980);
 		}
 
 		static ::System::Void _cctor()

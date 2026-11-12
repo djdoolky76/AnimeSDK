@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ArrayFormatter_1_TypeDefinitionIndex = 7372;
+	inline static constexpr unsigned int ArrayFormatter_1_TypeDefinitionIndex = 7383;
 
 	template <typename T>
 	class ArrayFormatter_1 : public ::System::Object

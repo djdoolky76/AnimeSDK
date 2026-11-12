@@ -5,9 +5,9 @@
 class ENEIHJJPNPI;
 namespace RPG::GameCore { class ComplexSkillAISourcePropertyFormation; }
 
-#define FCFBCKIFEEL_CAJCCHOMCLC_OFFSET UNITYSDK_OFFSET(0x156B8180)
+#define FCFBCKIFEEL_CAJCCHOMCLC_OFFSET UNITYSDK_OFFSET(0x165D17A0)
 
-inline static constexpr unsigned int FCFBCKIFEEL_TypeDefinitionIndex = 54362;
+inline static constexpr unsigned int FCFBCKIFEEL_TypeDefinitionIndex = 55526;
 
 	class FCFBCKIFEEL : public ::System::Object
 	{

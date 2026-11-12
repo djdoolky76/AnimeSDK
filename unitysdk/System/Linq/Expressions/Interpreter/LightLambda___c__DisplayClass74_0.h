@@ -6,8 +6,8 @@ namespace System { class Type; }
 namespace System::Linq::Expressions::Interpreter { class LightLambda; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE15DF0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0__MAKERUNDELEGATECTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1EE17120)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0_CTOR_OFFSET UNITYSDK_OFFSET(0x200C5870)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0__MAKERUNDELEGATECTOR_B__0_OFFSET UNITYSDK_OFFSET(0x200C6BA0)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -16,8 +16,8 @@ namespace System::Linq::Expressions::Interpreter
 	class LightLambda___c__DisplayClass74_0 : public ::System::Object
 	{
 	public:
-		::System::Type* delegateType; // 0x10
-		::System::Reflection::MethodInfo* targetMethod; // 0x18
+		::System::Reflection::MethodInfo* targetMethod; // 0x10
+		::System::Type* delegateType; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_LIGHTLAMBDA___C__DISPLAYCLASS74_0_CTOR_OFFSET))(this);

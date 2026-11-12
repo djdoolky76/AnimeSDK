@@ -5,14 +5,14 @@ namespace UnityEngine::LowLevel { class PlayerLoopSystem_UpdateFunction; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int PlayerLoopHelper___O_TypeDefinitionIndex = 38208;
+	inline static constexpr unsigned int PlayerLoopHelper___O_TypeDefinitionIndex = 39137;
 
 	class PlayerLoopHelper___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction** StaticGet__0___Run()
 		{
-			return (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>O")->GetStaticField(0x40060);
+			return (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>O")->GetStaticField(0x37450);
 		}
 
 	};

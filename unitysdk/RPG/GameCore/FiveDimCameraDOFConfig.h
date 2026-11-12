@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimCameraDOFConfig; }
 
-#define RPG_GAMECORE_FIVEDIMCAMERADOFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B3C70)
-#define RPG_GAMECORE_FIVEDIMCAMERADOFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B2D30)
+#define RPG_GAMECORE_FIVEDIMCAMERADOFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C0970)
+#define RPG_GAMECORE_FIVEDIMCAMERADOFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8BF950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraDOFConfig_TypeDefinitionIndex = 18619;
+	inline static constexpr unsigned int FiveDimCameraDOFConfig_TypeDefinitionIndex = 18779;
 
 	class FiveDimCameraDOFConfig : public ::RPG::GameCore::JsonConfig
 	{

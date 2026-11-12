@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define BJICAHJPKEC_FENOMPCEFII_OFFSET UNITYSDK_OFFSET(0x1AB90)
+#define BJICAHJPKEC_FENOMPCEFII_OFFSET UNITYSDK_OFFSET(0x20240)
 
-inline static constexpr unsigned int BJICAHJPKEC_TypeDefinitionIndex = 57680;
+inline static constexpr unsigned int BJICAHJPKEC_TypeDefinitionIndex = 58912;
 
 	struct alignas(8) BJICAHJPKEC
 	{

@@ -6,12 +6,14 @@
 class DGDCNMMBMKA;
 class KLKMCNOECAL;
 namespace RPG::Client { class MonoEffect; }
+namespace RPG::Client { class MonoEffectPluginAudio; }
 namespace RPG::Client { class MonoEffectPluginFollow; }
 namespace RPGTools { class MonoTimelineEffect; }
 namespace RPGTools::Timeline { class MonoEffectFollowTimelinePlugin; }
 namespace RPGTools::Timeline::VFX { class VFXTimelineClip; }
 namespace System { class Object; }
 namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
@@ -19,44 +21,46 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define ABMJAINALNL_AMMIBAEMJPI_OFFSET UNITYSDK_OFFSET(0xB10BE60)
-#define ABMJAINALNL_CONECKKGNJM_OFFSET UNITYSDK_OFFSET(0xB10B580)
-#define ABMJAINALNL_CTOR_OFFSET UNITYSDK_OFFSET(0xB10CC20)
-#define ABMJAINALNL_DKOJIGMNLFJ_OFFSET UNITYSDK_OFFSET(0xB10A540)
-#define ABMJAINALNL_FEPJOHJOFFN_OFFSET UNITYSDK_OFFSET(0xB10C1B0)
-#define ABMJAINALNL_GJFGPGOODEO_OFFSET UNITYSDK_OFFSET(0xB10C790)
-#define ABMJAINALNL_HLNLBFKMBDC_OFFSET UNITYSDK_OFFSET(0xB10B7C0)
-#define ABMJAINALNL_JJLHLLGNPJJ_OFFSET UNITYSDK_OFFSET(0xB10C6C0)
-#define ABMJAINALNL_JKGFAGBNLAC_OFFSET UNITYSDK_OFFSET(0xB10B890)
-#define ABMJAINALNL_KONJEANMPEC_OFFSET UNITYSDK_OFFSET(0xB10BFF0)
-#define ABMJAINALNL_MAOBABABLAH_OFFSET UNITYSDK_OFFSET(0xB10CBD0)
-#define ABMJAINALNL_MGAJCJPEKGL_OFFSET UNITYSDK_OFFSET(0xB10C4A0)
-#define ABMJAINALNL_MKCIKFOPFJB_OFFSET UNITYSDK_OFFSET(0xB10A770)
-#define ABMJAINALNL_MLBPFLNIDHJ_OFFSET UNITYSDK_OFFSET(0xB10C2E0)
-#define ABMJAINALNL_NOELJCEPAPE_OFFSET UNITYSDK_OFFSET(0xB10A430)
-#define ABMJAINALNL_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB10B2D0)
-#define ABMJAINALNL_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB10A120)
-#define ABMJAINALNL_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xB109FC0)
-#define ABMJAINALNL_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB10A070)
-#define ABMJAINALNL_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB10B3A0)
+#define ABMJAINALNL_AMMIBAEMJPI_OFFSET UNITYSDK_OFFSET(0xB76F270)
+#define ABMJAINALNL_CONECKKGNJM_OFFSET UNITYSDK_OFFSET(0xB76D3C0)
+#define ABMJAINALNL_CTOR_OFFSET UNITYSDK_OFFSET(0xB770930)
+#define ABMJAINALNL_DKFMHMODLHC_OFFSET UNITYSDK_OFFSET(0xB76F400)
+#define ABMJAINALNL_DKOJIGMNLFJ_OFFSET UNITYSDK_OFFSET(0xB76CEA0)
+#define ABMJAINALNL_FEPJOHJOFFN_OFFSET UNITYSDK_OFFSET(0xB76FC50)
+#define ABMJAINALNL_GJFGPGOODEO_OFFSET UNITYSDK_OFFSET(0xB76F810)
+#define ABMJAINALNL_HLNLBFKMBDC_OFFSET UNITYSDK_OFFSET(0xB76E9B0)
+#define ABMJAINALNL_JJLHLLGNPJJ_OFFSET UNITYSDK_OFFSET(0xB76F740)
+#define ABMJAINALNL_JKGFAGBNLAC_OFFSET UNITYSDK_OFFSET(0xB76ECA0)
+#define ABMJAINALNL_KONJEANMPEC_OFFSET UNITYSDK_OFFSET(0xB76F580)
+#define ABMJAINALNL_MAOBABABLAH_OFFSET UNITYSDK_OFFSET(0xB7708E0)
+#define ABMJAINALNL_MGAJCJPEKGL_OFFSET UNITYSDK_OFFSET(0xB76EA80)
+#define ABMJAINALNL_MKCIKFOPFJB_OFFSET UNITYSDK_OFFSET(0xB76FD80)
+#define ABMJAINALNL_MLBPFLNIDHJ_OFFSET UNITYSDK_OFFSET(0xB76D600)
+#define ABMJAINALNL_NOELJCEPAPE_OFFSET UNITYSDK_OFFSET(0xB76CD40)
+#define ABMJAINALNL_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xB76D0F0)
+#define ABMJAINALNL_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB76CA30)
+#define ABMJAINALNL_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xB76C8D0)
+#define ABMJAINALNL_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB76C980)
+#define ABMJAINALNL_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB76D1E0)
 
-inline static constexpr unsigned int ABMJAINALNL_TypeDefinitionIndex = 48686;
+inline static constexpr unsigned int ABMJAINALNL_TypeDefinitionIndex = 49732;
 
 	class ABMJAINALNL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::UnityEngine::Object* NCPNKDBIINJ; // 0x10
-		::UnityEngine::Transform* CHGLKBIEMFK; // 0x18
-		::UnityEngine::Timeline::TrackAsset* CIBMFKKGFGN; // 0x20
-		::DGDCNMMBMKA* PGNKDKLMBJJ; // 0x28
-		::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x30
-		::RPG::Client::MonoEffect* AHLFACIHKKK; // 0x38
-		::UnityEngine::GameObject* HCLHNCAMGHL; // 0x40
-		::RPGTools::MonoTimelineEffect* LJOGFMELNBH; // 0x48
-		::RPGTools::Timeline::MonoEffectFollowTimelinePlugin* EJCBMGAJDIG; // 0x50
-		::RPGTools::Timeline::VFX::VFXTimelineClip* OBKONNDLKDL; // 0x58
-		::System::Single ECCLDCEPAKI; // 0x60
-		::System::Boolean NGKEFBPLJBE; // 0x64
+		::RPGTools::Timeline::MonoEffectFollowTimelinePlugin* EJCBMGAJDIG; // 0x10
+		::RPG::Client::MonoEffect* AHLFACIHKKK; // 0x18
+		::UnityEngine::GameObject* HCLHNCAMGHL; // 0x20
+		::RPGTools::MonoTimelineEffect* LJOGFMELNBH; // 0x28
+		::UnityEngine::Object* NCPNKDBIINJ; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::MonoEffectPluginAudio*>* AFFCDKPGNCM; // 0x38
+		::UnityEngine::Transform* CHGLKBIEMFK; // 0x40
+		::UnityEngine::Timeline::TrackAsset* CIBMFKKGFGN; // 0x48
+		::RPGTools::Timeline::VFX::VFXTimelineClip* OBKONNDLKDL; // 0x50
+		::DGDCNMMBMKA* PGNKDKLMBJJ; // 0x58
+		::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x60
+		::System::Single ECCLDCEPAKI; // 0x68
+		::System::Boolean NGKEFBPLJBE; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABMJAINALNL_CTOR_OFFSET))(this);
@@ -125,6 +129,11 @@ inline static constexpr unsigned int ABMJAINALNL_TypeDefinitionIndex = 48686;
 		::System::Void AMMIBAEMJPI(::UnityEngine::GameObject* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ABMJAINALNL_AMMIBAEMJPI_OFFSET))(this, a1);
+		}
+
+		::System::Void DKFMHMODLHC(::UnityEngine::GameObject* a1, ::System::Boolean a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + ABMJAINALNL_DKFMHMODLHC_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void KONJEANMPEC(::UnityEngine::GameObject* a1)

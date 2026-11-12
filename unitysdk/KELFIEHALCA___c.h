@@ -5,23 +5,23 @@ namespace RPG::Client { class ChallengeGroupData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KELFIEHALCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB37D3D0)
-#define KELFIEHALCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB37D410)
-#define KELFIEHALCA___C___GETDEFAULTCHALLENGEGROUP_B__7_0_OFFSET UNITYSDK_OFFSET(0xB37D420)
+#define KELFIEHALCA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC081C0)
+#define KELFIEHALCA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC08200)
+#define KELFIEHALCA___C___GETDEFAULTCHALLENGEGROUP_B__7_0_OFFSET UNITYSDK_OFFSET(0xBC08210)
 
-inline static constexpr unsigned int KELFIEHALCA___c_TypeDefinitionIndex = 53272;
+inline static constexpr unsigned int KELFIEHALCA___c_TypeDefinitionIndex = 54434;
 
 	class KELFIEHALCA___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F110);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F118);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x300B0);
+		}
+
+		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x300B8);
 		}
 
 		static ::System::Void _cctor()

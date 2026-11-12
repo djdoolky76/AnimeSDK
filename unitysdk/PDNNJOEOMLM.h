@@ -4,17 +4,17 @@
 namespace RPG::GameCore { class ChenLingFesBuff; }
 namespace System { class String; }
 
-#define PDNNJOEOMLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC0218E0)
+#define PDNNJOEOMLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC927B20)
 
-inline static constexpr unsigned int PDNNJOEOMLM_TypeDefinitionIndex = 77711;
+inline static constexpr unsigned int PDNNJOEOMLM_TypeDefinitionIndex = 80446;
 
 	class PDNNJOEOMLM : public ::System::Object
 	{
 	public:
-		::System::String* EOMFOMKCMAK; // 0x10
-		::System::String* OENAMINOLLF; // 0x18
-		::Il2CppArray<::System::Single>* NPHFIJAFHLB; // 0x20
-		::RPG::GameCore::ChenLingFesBuff* HABJHGPFGEB; // 0x28
+		::Il2CppArray<::System::Single>* NPHFIJAFHLB; // 0x10
+		::RPG::GameCore::ChenLingFesBuff* HABJHGPFGEB; // 0x18
+		::System::String* EOMFOMKCMAK; // 0x20
+		::System::String* OENAMINOLLF; // 0x28
 		::System::Int32 DBPLPPBABDP; // 0x30
 		::System::Single GAFENHHEBPG; // 0x34
 		::System::Void _ctor(::RPG::GameCore::ChenLingFesBuff* a1, ::Il2CppArray<::System::Single>* a2)

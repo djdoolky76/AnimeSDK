@@ -4,9 +4,9 @@
 class FKLPHAFMLGA;
 class MFLJIEBFMOF;
 
-#define EOKPCCAIANI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x155C4970)
+#define EOKPCCAIANI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x164D6B70)
 
-inline static constexpr unsigned int EOKPCCAIANI_TypeDefinitionIndex = 68937;
+inline static constexpr unsigned int EOKPCCAIANI_TypeDefinitionIndex = 70890;
 
 	class EOKPCCAIANI : public ::System::Object
 	{

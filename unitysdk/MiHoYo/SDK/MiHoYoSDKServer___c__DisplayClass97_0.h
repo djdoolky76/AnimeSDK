@@ -5,18 +5,18 @@
 namespace MiHoYo::SDK { class MiHoYoSDKServer; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS97_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFDD7E0)
-#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS97_0__ONGETLOGERRORWITHCODE_B__0_OFFSET UNITYSDK_OFFSET(0xAFDD7F0)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS97_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB63EA80)
+#define MIHOYO_SDK_MIHOYOSDKSERVER___C__DISPLAYCLASS97_0__ONGETLOGERRORWITHCODE_B__0_OFFSET UNITYSDK_OFFSET(0xB63EA90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass97_0_TypeDefinitionIndex = 46327;
+	inline static constexpr unsigned int MiHoYoSDKServer___c__DisplayClass97_0_TypeDefinitionIndex = 47355;
 
 	class MiHoYoSDKServer___c__DisplayClass97_0 : public ::System::Object
 	{
 	public:
-		::System::String* message; // 0x10
-		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x18
+		::MiHoYo::SDK::MiHoYoSDKServer* __4__this; // 0x10
+		::System::String* message; // 0x18
 		::MiHoYo::SDK::SecurityTunnel_ErrorCode code; // 0x20
 		::System::Void _ctor()
 		{

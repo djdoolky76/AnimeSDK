@@ -9,27 +9,27 @@ namespace RPG::GameCore { class AdvSetupTrainCollectionSystem; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OBFOPOMJDKN_CTOR_OFFSET UNITYSDK_OFFSET(0xBD3D650)
-#define OBFOPOMJDKN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD3D6E0)
-#define OBFOPOMJDKN_FJGBCGPLLDF_OFFSET UNITYSDK_OFFSET(0xBD3DA90)
-#define OBFOPOMJDKN_ICEHMGOIMJA_OFFSET UNITYSDK_OFFSET(0xBD3E220)
-#define OBFOPOMJDKN_KNKEOEJJAPH_OFFSET UNITYSDK_OFFSET(0xBD3DF80)
-#define OBFOPOMJDKN_NIDABEMHCDI_OFFSET UNITYSDK_OFFSET(0xBD3E5F0)
-#define OBFOPOMJDKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD3DCF0)
-#define OBFOPOMJDKN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBD3D730)
-#define OBFOPOMJDKN_TICK_OFFSET UNITYSDK_OFFSET(0xBD3DD40)
+#define OBFOPOMJDKN_CTOR_OFFSET UNITYSDK_OFFSET(0xC6418A0)
+#define OBFOPOMJDKN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC641930)
+#define OBFOPOMJDKN_FJGBCGPLLDF_OFFSET UNITYSDK_OFFSET(0xC641CE0)
+#define OBFOPOMJDKN_ICEHMGOIMJA_OFFSET UNITYSDK_OFFSET(0xC6423C0)
+#define OBFOPOMJDKN_KNKEOEJJAPH_OFFSET UNITYSDK_OFFSET(0xC642120)
+#define OBFOPOMJDKN_NIDABEMHCDI_OFFSET UNITYSDK_OFFSET(0xC642790)
+#define OBFOPOMJDKN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC641F40)
+#define OBFOPOMJDKN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC641980)
+#define OBFOPOMJDKN_TICK_OFFSET UNITYSDK_OFFSET(0xC641F90)
 
-inline static constexpr unsigned int OBFOPOMJDKN_TypeDefinitionIndex = 52508;
+inline static constexpr unsigned int OBFOPOMJDKN_TypeDefinitionIndex = 53614;
 
 	class OBFOPOMJDKN : public ::GELIALJDFBL
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* FNIKPKBOCJF; // 0x18
+		::GELIALJDFBL* FCFAFKDNHCJ; // 0x18
 		::GELIALJDFBL* KJNAMCMFCPF; // 0x20
-		::RPG::GameCore::AdvSetupTrainCollectionSystem* IGHAHBNLIJA; // 0x28
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
 		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* KNOHBIGNCEL; // 0x30
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x38
-		::GELIALJDFBL* FCFAFKDNHCJ; // 0x40
+		::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::GameCore::ELevelPerformanceType>>* FNIKPKBOCJF; // 0x38
+		::RPG::GameCore::AdvSetupTrainCollectionSystem* IGHAHBNLIJA; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvSetupTrainCollectionSystem* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvSetupTrainCollectionSystem*))((::PBYTE)hIl2Cpp + OBFOPOMJDKN_CTOR_OFFSET))(this, a1, a2);

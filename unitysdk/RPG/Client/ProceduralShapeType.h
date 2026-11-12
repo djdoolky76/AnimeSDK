@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProceduralShapeType_TypeDefinitionIndex = 72708;
+	inline static constexpr unsigned int ProceduralShapeType_TypeDefinitionIndex = 74787;
 
 	enum class ProceduralShapeType : ::System::Int32
 	{

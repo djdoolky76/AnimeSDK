@@ -8,45 +8,45 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define KJAADOJLNMD_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB43AD80)
-#define KJAADOJLNMD_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xB43AE70)
-#define KJAADOJLNMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB43AF40)
-#define KJAADOJLNMD_DMNNDMDMNMJ_OFFSET UNITYSDK_OFFSET(0xB43ACC0)
-#define KJAADOJLNMD_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB43A0A0)
-#define KJAADOJLNMD_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xB439ED0)
-#define KJAADOJLNMD_GET_TRANS_OFFSET UNITYSDK_OFFSET(0xB439EF0)
-#define KJAADOJLNMD_IHLCEDNPMKP_OFFSET UNITYSDK_OFFSET(0xB43A310)
-#define KJAADOJLNMD_JHCKBFBFEJP_OFFSET UNITYSDK_OFFSET(0xB43AC70)
-#define KJAADOJLNMD_JKLBMKDDIPK_OFFSET UNITYSDK_OFFSET(0xB43A8F0)
-#define KJAADOJLNMD_KBLLHBPNBFF_OFFSET UNITYSDK_OFFSET(0xB43A210)
-#define KJAADOJLNMD_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB439F30)
-#define KJAADOJLNMD_OLAHBNCOJII_OFFSET UNITYSDK_OFFSET(0xB43A1A0)
-#define KJAADOJLNMD_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xB439EE0)
-#define KJAADOJLNMD__ONBIND_OFFSET UNITYSDK_OFFSET(0xB439A90)
+#define KJAADOJLNMD_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xBCD1850)
+#define KJAADOJLNMD_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xBCD1940)
+#define KJAADOJLNMD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD1A10)
+#define KJAADOJLNMD_DMNNDMDMNMJ_OFFSET UNITYSDK_OFFSET(0xBCD1790)
+#define KJAADOJLNMD_GET_INDEX_OFFSET UNITYSDK_OFFSET(0xBCD09A0)
+#define KJAADOJLNMD_GET_TRANS_OFFSET UNITYSDK_OFFSET(0xBCD09C0)
+#define KJAADOJLNMD_IHLCEDNPMKP_OFFSET UNITYSDK_OFFSET(0xBCD0DE0)
+#define KJAADOJLNMD_JHCKBFBFEJP_OFFSET UNITYSDK_OFFSET(0xBCD1740)
+#define KJAADOJLNMD_JKLBMKDDIPK_OFFSET UNITYSDK_OFFSET(0xBCD13C0)
+#define KJAADOJLNMD_KBLLHBPNBFF_OFFSET UNITYSDK_OFFSET(0xBCD0CE0)
+#define KJAADOJLNMD_OLAHBNCOJII_OFFSET UNITYSDK_OFFSET(0xBCD0C70)
+#define KJAADOJLNMD_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xBCD09B0)
+#define KJAADOJLNMD__INITVARONCE_OFFSET UNITYSDK_OFFSET(0xBCD0A00)
+#define KJAADOJLNMD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBCD01C0)
+#define KJAADOJLNMD__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBCD0B70)
 
-inline static constexpr unsigned int KJAADOJLNMD_TypeDefinitionIndex = 72101;
+inline static constexpr unsigned int KJAADOJLNMD_TypeDefinitionIndex = 74136;
 
 	class KJAADOJLNMD : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::HPBar* MGNLDKHHICM; // 0x60
-		::UnityEngine::UI::Text* GNPDGONNHMO; // 0x68
-		::UnityEngine::UI::Image* CPBBHPIGNIE; // 0x70
-		::UnityEngine::Transform* JBDEEKEMEOI; // 0x78
-		::UnityEngine::UI::Text* IGKMHDHJEON; // 0x80
-		::UnityEngine::Transform* DKGDENMBJJJ; // 0x88
-		::UnityEngine::UI::Text* LFDEFIEEDJN; // 0x90
-		::UnityEngine::UI::Text* BEEBIEFKKCO; // 0x98
-		::UnityEngine::Transform* CMLBLNOJOJJ; // 0xA0
-		::UnityEngine::Transform* FOIEDEAGHAD; // 0xA8
-		::UnityEngine::UI::Text* FENPCMDKDHB; // 0xB0
-		::UnityEngine::UI::Text* IBFMKJIDCOE; // 0xB8
-		::UnityEngine::Transform* JLIHBJFLOIF; // 0xC0
-		::UnityEngine::UI::Image* PKCFLHOBPKD; // 0xC8
-		::UnityEngine::Transform* MPBIFMLFHEG; // 0xD0
-		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0xD8
-		::UnityEngine::Transform* MLIHPCANBLO; // 0xE0
-		::UnityEngine::UI::Text* LCGAGLNKJDJ; // 0xE8
+		::UnityEngine::Transform* CMLBLNOJOJJ; // 0x60
+		::UnityEngine::UI::Image* CPBBHPIGNIE; // 0x68
+		::UnityEngine::UI::Text* LFDEFIEEDJN; // 0x70
+		::UnityEngine::Transform* MPBIFMLFHEG; // 0x78
+		::UnityEngine::UI::Text* BEEBIEFKKCO; // 0x80
+		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0x88
+		::UnityEngine::Transform* JLIHBJFLOIF; // 0x90
+		::UnityEngine::Transform* JBDEEKEMEOI; // 0x98
+		::UnityEngine::UI::Text* GNPDGONNHMO; // 0xA0
+		::UnityEngine::UI::Text* FENPCMDKDHB; // 0xA8
+		::UnityEngine::UI::Text* IGKMHDHJEON; // 0xB0
+		::RPG::Client::HPBar* MGNLDKHHICM; // 0xB8
+		::UnityEngine::Transform* DKGDENMBJJJ; // 0xC0
+		::UnityEngine::UI::Text* IBFMKJIDCOE; // 0xC8
+		::UnityEngine::UI::Text* LCGAGLNKJDJ; // 0xD0
+		::UnityEngine::Transform* MLIHPCANBLO; // 0xD8
+		::UnityEngine::Transform* FOIEDEAGHAD; // 0xE0
+		::UnityEngine::UI::Image* PKCFLHOBPKD; // 0xE8
 		::System::Int32 _Index_k__BackingField; // 0xF0
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		::System::Void _ctor()
@@ -74,14 +74,14 @@ inline static constexpr unsigned int KJAADOJLNMD_TypeDefinitionIndex = 72101;
 			return ((::UnityEngine::Transform*(*)(::PVOID))((::PBYTE)hIl2Cpp + KJAADOJLNMD_GET_TRANS_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJAADOJLNMD_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJAADOJLNMD__INITVARONCE_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJAADOJLNMD_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJAADOJLNMD__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void JHCKBFBFEJP()

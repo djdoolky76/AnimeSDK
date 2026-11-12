@@ -8,7 +8,7 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int DPHCPLJMDKL__LoadAsync_d__86_1_TypeDefinitionIndex = 60032;
+inline static constexpr unsigned int DPHCPLJMDKL__LoadAsync_d__86_1_TypeDefinitionIndex = 61316;
 
 	template <typename T>
 	struct alignas(8) DPHCPLJMDKL__LoadAsync_d__86_1

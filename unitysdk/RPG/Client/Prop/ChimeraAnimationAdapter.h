@@ -4,15 +4,15 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC47740)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xDC47730)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LAMNNMIAFIM_OFFSET UNITYSDK_OFFSET(0xDC47670)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LPCNFDDCKEB_OFFSET UNITYSDK_OFFSET(0xDC475D0)
-#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0xDC47560)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE6E4520)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E4510)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LAMNNMIAFIM_OFFSET UNITYSDK_OFFSET(0xE6E4450)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_LPCNFDDCKEB_OFFSET UNITYSDK_OFFSET(0xE6E43B0)
+#define RPG_CLIENT_PROP_CHIMERAANIMATIONADAPTER_PLAY_OFFSET UNITYSDK_OFFSET(0xE6E4340)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 78393;
+	inline static constexpr unsigned int ChimeraAnimationAdapter_TypeDefinitionIndex = 81128;
 
 	class ChimeraAnimationAdapter : public ::UnityEngine::MonoBehaviour
 	{
@@ -20,12 +20,12 @@ namespace RPG::Client::Prop
 		::UnityEngine::Animator* ChimeraAnimator; // 0x18
 		static ::System::Int32* StaticGet_MEKAIIEIDHC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0x11420);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0x10010);
 		}
 
 		static ::System::Int32* StaticGet_KMKPGPIDKJF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0x11424);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ChimeraAnimationAdapter")->GetStaticField(0x10014);
 		}
 
 		::System::Void _ctor()

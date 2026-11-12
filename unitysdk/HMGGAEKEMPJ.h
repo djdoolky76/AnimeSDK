@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define HMGGAEKEMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAED090)
+#define HMGGAEKEMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1AD0)
 
-inline static constexpr unsigned int HMGGAEKEMPJ_TypeDefinitionIndex = 42811;
+inline static constexpr unsigned int HMGGAEKEMPJ_TypeDefinitionIndex = 43791;
 
 	class HMGGAEKEMPJ : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

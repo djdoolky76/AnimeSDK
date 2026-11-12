@@ -6,16 +6,16 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define IKJGCFPGCIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1648FCD0)
-#define IKJGCFPGCIC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x16490170)
+#define IKJGCFPGCIC_CTOR_OFFSET UNITYSDK_OFFSET(0x174624A0)
+#define IKJGCFPGCIC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x17462940)
 
-inline static constexpr unsigned int IKJGCFPGCIC_TypeDefinitionIndex = 82294;
+inline static constexpr unsigned int IKJGCFPGCIC_TypeDefinitionIndex = 85167;
 
 	class IKJGCFPGCIC : public ::KAANKGHDHCB
 	{
 	public:
-		::System::String* GKHIHPGCLIK; // 0x20
-		::System::Type* EPGPJMHNBON; // 0x28
+		::System::Type* EPGPJMHNBON; // 0x20
+		::System::String* GKHIHPGCLIK; // 0x28
 		::System::Int64 GDBJDAOOCOH; // 0x30
 		::RPG::Client::CachedAssetLogicType HEOJLHCIINP; // 0x38
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)

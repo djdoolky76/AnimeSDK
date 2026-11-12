@@ -4,17 +4,18 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define EJGNKNAGOON_CTOR_OFFSET UNITYSDK_OFFSET(0x154DB8F0)
+#define EJGNKNAGOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1641C1C0)
 
-inline static constexpr unsigned int EJGNKNAGOON_TypeDefinitionIndex = 57724;
+inline static constexpr unsigned int EJGNKNAGOON_TypeDefinitionIndex = 58957;
 
 	class EJGNKNAGOON : public ::System::Object
 	{
 	public:
 		::RPG::MVector3 IGOFLKEBFLA; // 0x10
-		::System::Single KLPCBAHLDBA; // 0x1C
-		::RPG::MVector3 KJHBKJPKBOP; // 0x20
-		::System::Nullable_1<::RPG::MVector3> CJENCLECEHB; // 0x2C
+		::System::Nullable_1<::RPG::MVector3> CJENCLECEHB; // 0x1C
+		::System::Byte _padding0[0x8];
+		::System::Single KLPCBAHLDBA; // 0x2C
+		::RPG::MVector3 KJHBKJPKBOP; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EJGNKNAGOON_CTOR_OFFSET))(this);

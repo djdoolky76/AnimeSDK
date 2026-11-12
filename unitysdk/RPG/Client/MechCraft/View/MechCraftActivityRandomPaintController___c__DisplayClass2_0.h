@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/ArtPrefabPreview_MeshPartLodInfo.h"
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTACTIVITYRANDOMPAINTCONTROLLER___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E7CA0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTACTIVITYRANDOMPAINTCONTROLLER___C__DISPLAYCLASS2_0__START_B__0_OFFSET UNITYSDK_OFFSET(0xD5E7E10)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTACTIVITYRANDOMPAINTCONTROLLER___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE03AB80)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTACTIVITYRANDOMPAINTCONTROLLER___C__DISPLAYCLASS2_0__START_B__0_OFFSET UNITYSDK_OFFSET(0xE03ACF0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftActivityRandomPaintController___c__DisplayClass2_0_TypeDefinitionIndex = 79969;
+	inline static constexpr unsigned int MechCraftActivityRandomPaintController___c__DisplayClass2_0_TypeDefinitionIndex = 82746;
 
 	class MechCraftActivityRandomPaintController___c__DisplayClass2_0 : public ::System::Object
 	{

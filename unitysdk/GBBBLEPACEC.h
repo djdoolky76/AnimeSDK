@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPartialFlipDeviceState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GBBBLEPACEC_CTOR_OFFSET UNITYSDK_OFFSET(0x15947470)
-#define GBBBLEPACEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159474A0)
+#define GBBBLEPACEC_CTOR_OFFSET UNITYSDK_OFFSET(0x1687B720)
+#define GBBBLEPACEC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1687B750)
 
-inline static constexpr unsigned int GBBBLEPACEC_TypeDefinitionIndex = 52758;
+inline static constexpr unsigned int GBBBLEPACEC_TypeDefinitionIndex = 53902;
 
 	class GBBBLEPACEC
 	{

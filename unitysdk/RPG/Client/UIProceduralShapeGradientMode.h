@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProceduralShapeGradientMode_TypeDefinitionIndex = 72699;
+	inline static constexpr unsigned int UIProceduralShapeGradientMode_TypeDefinitionIndex = 74778;
 
 	enum class UIProceduralShapeGradientMode : ::System::Int32
 	{

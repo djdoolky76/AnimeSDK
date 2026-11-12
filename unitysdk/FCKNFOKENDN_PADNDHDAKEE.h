@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FCKNFOKENDN_PADNDHDAKEE_TypeDefinitionIndex = 25254;
+inline static constexpr unsigned int FCKNFOKENDN_PADNDHDAKEE_TypeDefinitionIndex = 25732;
 
 	enum class FCKNFOKENDN_PADNDHDAKEE : ::System::Int32
 	{

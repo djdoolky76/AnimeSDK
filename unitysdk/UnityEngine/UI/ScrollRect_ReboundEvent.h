@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_UI_SCROLLRECT_REBOUNDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F547CE0)
+#define UNITYENGINE_UI_SCROLLRECT_REBOUNDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x207F7B90)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int ScrollRect_ReboundEvent_TypeDefinitionIndex = 6831;
+	inline static constexpr unsigned int ScrollRect_ReboundEvent_TypeDefinitionIndex = 6842;
 
 	class ScrollRect_ReboundEvent
 	{

@@ -5,22 +5,22 @@
 #include "unitysdk/System/Object.h"
 class FKHKLMEBJKH;
 
-#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCBF0F00)
-#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHCONFIG_GETTEAMMEMBERCONFIG_OFFSET UNITYSDK_OFFSET(0xCBF0E70)
+#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD569820)
+#define RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHCONFIG_GETTEAMMEMBERCONFIG_OFFSET UNITYSDK_OFFSET(0xD569790)
 
 namespace RPG::Client::Dev
 {
-	inline static constexpr unsigned int VirtualServerLaunchConfig_TypeDefinitionIndex = 82121;
+	inline static constexpr unsigned int VirtualServerLaunchConfig_TypeDefinitionIndex = 84994;
 
 	class VirtualServerLaunchConfig : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::FKHKLMEBJKH*>* Lineup; // 0x10
-		::Il2CppArray<::HNOHHOEPFHC>* MultiPathAvatarTypes; // 0x18
-		::System::UInt32 PlaneID; // 0x20
-		::System::UInt32 FloorID; // 0x24
-		::System::UInt32 DimensionID; // 0x28
-		::RPG::GameCore::GenderType GenderType; // 0x2C
+		::Il2CppArray<::HNOHHOEPFHC>* MultiPathAvatarTypes; // 0x10
+		::Il2CppArray<::FKHKLMEBJKH*>* Lineup; // 0x18
+		::System::UInt32 DimensionID; // 0x20
+		::RPG::GameCore::GenderType GenderType; // 0x24
+		::System::UInt32 PlaneID; // 0x28
+		::System::UInt32 FloorID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEV_VIRTUALSERVERLAUNCHCONFIG_CTOR_OFFSET))(this);

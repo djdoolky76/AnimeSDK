@@ -4,7 +4,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SessionPDG_TypeDefinitionIndex = 40589;
+	inline static constexpr unsigned int HEU_SessionPDG_TypeDefinitionIndex = 41564;
 
 	class HEU_SessionPDG : public ::System::Object
 	{

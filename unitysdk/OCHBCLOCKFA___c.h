@@ -5,23 +5,23 @@ namespace RPG::Client { class GridFightGridMember; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define OCHBCLOCKFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD63180)
-#define OCHBCLOCKFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD631C0)
-#define OCHBCLOCKFA___C___ISROLEAFFECTEDBYTRAIT_B__4_0_OFFSET UNITYSDK_OFFSET(0xBD631D0)
+#define OCHBCLOCKFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC667B60)
+#define OCHBCLOCKFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC667BA0)
+#define OCHBCLOCKFA___C___ISROLEAFFECTEDBYTRAIT_B__4_0_OFFSET UNITYSDK_OFFSET(0xC667BB0)
 
-inline static constexpr unsigned int OCHBCLOCKFA___c_TypeDefinitionIndex = 65139;
+inline static constexpr unsigned int OCHBCLOCKFA___c_TypeDefinitionIndex = 66823;
 
 	class OCHBCLOCKFA___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E950);
+			return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65840);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E958);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65848);
 		}
 
 		static ::System::Void _cctor()

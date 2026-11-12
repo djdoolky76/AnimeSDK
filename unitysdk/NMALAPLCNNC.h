@@ -3,10 +3,10 @@
 #include "unitysdk/JHKBNJLNBCL.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define NMALAPLCNNC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC7C0C0)
-#define NMALAPLCNNC_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xBC7C0B0)
+#define NMALAPLCNNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC563B70)
+#define NMALAPLCNNC_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xC563B60)
 
-inline static constexpr unsigned int NMALAPLCNNC_TypeDefinitionIndex = 76986;
+inline static constexpr unsigned int NMALAPLCNNC_TypeDefinitionIndex = 79320;
 
 	class NMALAPLCNNC : public ::JHKBNJLNBCL
 	{

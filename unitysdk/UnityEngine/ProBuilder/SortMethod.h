@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int SortMethod_TypeDefinitionIndex = 44396;
+	inline static constexpr unsigned int SortMethod_TypeDefinitionIndex = 45471;
 
 	enum class SortMethod : ::System::Int32
 	{

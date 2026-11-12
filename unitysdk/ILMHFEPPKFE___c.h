@@ -4,18 +4,18 @@
 class ILMHFEPPKFE;
 namespace System { class Object; }
 
-#define ILMHFEPPKFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B2E90)
-#define ILMHFEPPKFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B2EC0)
-#define ILMHFEPPKFE___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E6B2ED0)
+#define ILMHFEPPKFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9BA900)
+#define ILMHFEPPKFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BA930)
+#define ILMHFEPPKFE___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F9BA940)
 
-inline static constexpr unsigned int ILMHFEPPKFE___c_TypeDefinitionIndex = 26423;
+inline static constexpr unsigned int ILMHFEPPKFE___c_TypeDefinitionIndex = 26954;
 
 	class ILMHFEPPKFE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56A50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54360);
 		}
 
 		static ::System::Void _cctor()

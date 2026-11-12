@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class FiveDimPlayerEffectConfig; }
 
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D23C0)
-#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D1B00)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DCDE0)
+#define RPG_GAMECORE_FIVEDIMPLAYEREFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DC520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPlayerEffectConfig_TypeDefinitionIndex = 16664;
+	inline static constexpr unsigned int FiveDimPlayerEffectConfig_TypeDefinitionIndex = 16830;
 
 	class FiveDimPlayerEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

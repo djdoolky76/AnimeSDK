@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class HFCPGANBGMI;
 
-#define AFCOJABCFKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C879430)
-#define AFCOJABCFKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C879600)
+#define AFCOJABCFKO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D9FAB50)
+#define AFCOJABCFKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FAD20)
 
-inline static constexpr unsigned int AFCOJABCFKO_TypeDefinitionIndex = 43444;
+inline static constexpr unsigned int AFCOJABCFKO_TypeDefinitionIndex = 44426;
 
 	class AFCOJABCFKO : public ::System::Object
 	{

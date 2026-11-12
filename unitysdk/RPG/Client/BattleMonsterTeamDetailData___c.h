@@ -5,25 +5,25 @@ namespace RPG::Client { class BattleMonsterTeamDetailSkillData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC846100)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC846140)
-#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__GETALLPHASESKILLS_B__3_0_OFFSET UNITYSDK_OFFSET(0xC846150)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1AAEF0)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1AAF30)
+#define RPG_CLIENT_BATTLEMONSTERTEAMDETAILDATA___C__GETALLPHASESKILLS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD1AAF40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleMonsterTeamDetailData___c_TypeDefinitionIndex = 72035;
+	inline static constexpr unsigned int BattleMonsterTeamDetailData___c_TypeDefinitionIndex = 74066;
 
 	class BattleMonsterTeamDetailData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B4F0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E3E0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::BattleMonsterTeamDetailSkillData*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::BattleMonsterTeamDetailSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B4F8);
+			return (::System::Comparison_1<::RPG::Client::BattleMonsterTeamDetailSkillData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5E3E8);
 		}
 
 		static ::System::Void _cctor()

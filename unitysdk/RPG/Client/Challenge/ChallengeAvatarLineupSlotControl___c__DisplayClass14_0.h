@@ -4,18 +4,18 @@
 class DPOAHFJILKN;
 namespace RPG::Client::Challenge { class ChallengeAvatarLineupSlotControl; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC93DF20)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0___BINDLACKEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xC93DFE0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A38D0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0___BINDLACKEQUIP_B__0_OFFSET UNITYSDK_OFFSET(0xD2A3990)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass14_0_TypeDefinitionIndex = 81414;
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass14_0_TypeDefinitionIndex = 84194;
 
 	class ChallengeAvatarLineupSlotControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::ChallengeAvatarLineupSlotControl* __4__this; // 0x10
-		::DPOAHFJILKN* vm; // 0x18
+		::DPOAHFJILKN* vm; // 0x10
+		::RPG::Client::Challenge::ChallengeAvatarLineupSlotControl* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET))(this);

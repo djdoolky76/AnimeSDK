@@ -5,25 +5,25 @@ class MHFNFINKJKP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5C2F70)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C2FB0)
-#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__18_0_OFFSET UNITYSDK_OFFSET(0xE5C2FC0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF0442C0)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF044300)
+#define RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__19_0_OFFSET UNITYSDK_OFFSET(0xF044310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleGridFightTeamTraitData___c_TypeDefinitionIndex = 56286;
+	inline static constexpr unsigned int BattleGridFightTeamTraitData___c_TypeDefinitionIndex = 57500;
 
 	class BattleGridFightTeamTraitData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::MHFNFINKJKP*, ::System::Boolean>** StaticGet___9__19_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x56FA0);
+			return (::System::Func_2<::MHFNFINKJKP*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x67360);
 		}
 
-		static ::System::Func_2<::MHFNFINKJKP*, ::System::Boolean>** StaticGet___9__18_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::MHFNFINKJKP*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x56FA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x67368);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::GameCore
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get_MemberCountExceptDummy_b__18_0(::MHFNFINKJKP* a1)
+		::System::Boolean _get_MemberCountExceptDummy_b__19_0(::MHFNFINKJKP* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::MHFNFINKJKP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__18_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::MHFNFINKJKP*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEGRIDFIGHTTEAMTRAITDATA___C__GET_MEMBERCOUNTEXCEPTDUMMY_B__19_0_OFFSET))(this, a1);
 		}
 
 	};

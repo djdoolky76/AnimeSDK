@@ -3,7 +3,7 @@
 
 namespace RPGCamera
 {
-	inline static constexpr unsigned int ICameraStateRunner_TypeDefinitionIndex = 45952;
+	inline static constexpr unsigned int ICameraStateRunner_TypeDefinitionIndex = 46981;
 
 	class ICameraStateRunner
 	{

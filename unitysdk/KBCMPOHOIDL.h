@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 
-#define KBCMPOHOIDL_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x1CC93290)
-#define KBCMPOHOIDL_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC93280)
-#define KBCMPOHOIDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC932A0)
+#define KBCMPOHOIDL_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x1DE3A420)
+#define KBCMPOHOIDL_CONVERT_OFFSET UNITYSDK_OFFSET(0x1DE3A410)
+#define KBCMPOHOIDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE3A430)
 
-inline static constexpr unsigned int KBCMPOHOIDL_TypeDefinitionIndex = 43909;
+inline static constexpr unsigned int KBCMPOHOIDL_TypeDefinitionIndex = 44984;
 
 	class KBCMPOHOIDL : public ::System::Object
 	{

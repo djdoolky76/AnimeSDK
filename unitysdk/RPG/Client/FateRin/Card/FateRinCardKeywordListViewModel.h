@@ -7,13 +7,13 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::ObjectModel { template <typename T> class ReadOnlyCollection_1; }
 
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCEE4DA0)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL_GET_HASKEYWORDS_OFFSET UNITYSDK_OFFSET(0xCEE8110)
-#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0xCEE80D0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD9026A0)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL_GET_HASKEYWORDS_OFFSET UNITYSDK_OFFSET(0xD902B30)
+#define RPG_CLIENT_FATERIN_CARD_FATERINCARDKEYWORDLISTVIEWMODEL_GET_KEYWORDS_OFFSET UNITYSDK_OFFSET(0xD902AF0)
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int FateRinCardKeywordListViewModel_TypeDefinitionIndex = 81140;
+	inline static constexpr unsigned int FateRinCardKeywordListViewModel_TypeDefinitionIndex = 83920;
 
 	class FateRinCardKeywordListViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{

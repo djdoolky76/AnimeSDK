@@ -4,12 +4,12 @@
 class HGCIPBFBNKO;
 namespace RPG::Client::ChenLingBattle { class Effect; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA4C450)
-#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0__SYNCEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCA50920)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3B1100)
+#define RPG_CLIENT_CHENLINGBATTLE_CHENLINGBATTLEGAMESESSION___C__DISPLAYCLASS64_0__SYNCEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD3B5570)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass64_0_TypeDefinitionIndex = 76337;
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass64_0_TypeDefinitionIndex = 78668;
 
 	class ChenLingBattleGameSession___c__DisplayClass64_0 : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_EPICENTITLEMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0FD50)
+#define MIHOYO_SDK_PC_OS_EPICENTITLEMENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0968E0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int EpicEntitlementData_TypeDefinitionIndex = 8533;
+	inline static constexpr unsigned int EpicEntitlementData_TypeDefinitionIndex = 8542;
 
 	class EpicEntitlementData : public ::System::Object
 	{

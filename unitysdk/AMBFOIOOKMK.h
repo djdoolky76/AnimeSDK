@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AMBFOIOOKMK_CTOR_OFFSET UNITYSDK_OFFSET(0x15575CF0)
+#define AMBFOIOOKMK_CTOR_OFFSET UNITYSDK_OFFSET(0x163E5D20)
 
-inline static constexpr unsigned int AMBFOIOOKMK_TypeDefinitionIndex = 64785;
+inline static constexpr unsigned int AMBFOIOOKMK_TypeDefinitionIndex = 66329;
 
 	class AMBFOIOOKMK : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 class NJKFOJJDGGG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define FGHOCLEKGFK_ALCIHKHPMLJ_OFFSET UNITYSDK_OFFSET(0x15762DF0)
-#define FGHOCLEKGFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15762D40)
-#define FGHOCLEKGFK_PGJHDJALJOJ_OFFSET UNITYSDK_OFFSET(0x15762D50)
+#define FGHOCLEKGFK_ALCIHKHPMLJ_OFFSET UNITYSDK_OFFSET(0x16683500)
+#define FGHOCLEKGFK_CTOR_OFFSET UNITYSDK_OFFSET(0x16683450)
+#define FGHOCLEKGFK_PGJHDJALJOJ_OFFSET UNITYSDK_OFFSET(0x16683460)
 
-inline static constexpr unsigned int FGHOCLEKGFK_TypeDefinitionIndex = 65007;
+inline static constexpr unsigned int FGHOCLEKGFK_TypeDefinitionIndex = 66603;
 
 	class FGHOCLEKGFK : public ::RPG::Client::GridFightGameModifier
 	{

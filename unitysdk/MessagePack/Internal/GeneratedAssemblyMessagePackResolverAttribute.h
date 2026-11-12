@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA75E0)
-#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE_GET_RESOLVERTYPE_OFFSET UNITYSDK_OFFSET(0x1BBA75F0)
+#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD30460)
+#define MESSAGEPACK_INTERNAL_GENERATEDASSEMBLYMESSAGEPACKRESOLVERATTRIBUTE_GET_RESOLVERTYPE_OFFSET UNITYSDK_OFFSET(0x1CD30470)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int GeneratedAssemblyMessagePackResolverAttribute_TypeDefinitionIndex = 7293;
+	inline static constexpr unsigned int GeneratedAssemblyMessagePackResolverAttribute_TypeDefinitionIndex = 7304;
 
 	class GeneratedAssemblyMessagePackResolverAttribute : public ::System::Attribute
 	{

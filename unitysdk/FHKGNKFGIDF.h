@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FHKGNKFGIDF_CTOR_OFFSET UNITYSDK_OFFSET(0x15781300)
-#define FHKGNKFGIDF_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15781310)
+#define FHKGNKFGIDF_CTOR_OFFSET UNITYSDK_OFFSET(0x166A1FE0)
+#define FHKGNKFGIDF_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x166A1FF0)
 
-inline static constexpr unsigned int FHKGNKFGIDF_TypeDefinitionIndex = 79208;
+inline static constexpr unsigned int FHKGNKFGIDF_TypeDefinitionIndex = 81985;
 
 	class FHKGNKFGIDF : public ::System::Object
 	{

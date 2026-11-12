@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class HideLevelStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CONHAMNABPL_CTOR_OFFSET UNITYSDK_OFFSET(0xDCC0620)
-#define CONHAMNABPL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDCC0630)
-#define CONHAMNABPL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCC0670)
-#define CONHAMNABPL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDCC0920)
-#define CONHAMNABPL_TICK_OFFSET UNITYSDK_OFFSET(0xDCC0970)
+#define CONHAMNABPL_CTOR_OFFSET UNITYSDK_OFFSET(0xE60CCE0)
+#define CONHAMNABPL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE60CCF0)
+#define CONHAMNABPL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE60CD30)
+#define CONHAMNABPL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE60CFE0)
+#define CONHAMNABPL_TICK_OFFSET UNITYSDK_OFFSET(0xE60D030)
 
-inline static constexpr unsigned int CONHAMNABPL_TypeDefinitionIndex = 58151;
+inline static constexpr unsigned int CONHAMNABPL_TypeDefinitionIndex = 59404;
 
 	class CONHAMNABPL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::HideLevelStage* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::HideLevelStage* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::HideLevelStage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::HideLevelStage*))((::PBYTE)hIl2Cpp + CONHAMNABPL_CTOR_OFFSET))(this, a1, a2);

@@ -4,10 +4,10 @@
 namespace RPG::Client { class ActivityRaidAlleyOrderData; }
 namespace RPG::Client { class ActivityRaidAlleySpecialOrderData; }
 
-#define PPLMGPGLPMB_JOLJKLAFHEP_OFFSET UNITYSDK_OFFSET(0xC38D6A0)
-#define PPLMGPGLPMB_OHFNGKOCCIO_OFFSET UNITYSDK_OFFSET(0xC38D720)
+#define PPLMGPGLPMB_JOLJKLAFHEP_OFFSET UNITYSDK_OFFSET(0xCCC3210)
+#define PPLMGPGLPMB_OHFNGKOCCIO_OFFSET UNITYSDK_OFFSET(0xCCC3290)
 
-inline static constexpr unsigned int PPLMGPGLPMB_TypeDefinitionIndex = 62242;
+inline static constexpr unsigned int PPLMGPGLPMB_TypeDefinitionIndex = 63655;
 
 	class PPLMGPGLPMB : public ::System::Object
 	{

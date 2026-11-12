@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define FIFPADNLPLB_CTOR_OFFSET UNITYSDK_OFFSET(0x157A5A00)
+#define FIFPADNLPLB_CTOR_OFFSET UNITYSDK_OFFSET(0x166C7210)
 
-inline static constexpr unsigned int FIFPADNLPLB_TypeDefinitionIndex = 47606;
+inline static constexpr unsigned int FIFPADNLPLB_TypeDefinitionIndex = 48635;
 
 	class FIFPADNLPLB : public ::System::Object
 	{

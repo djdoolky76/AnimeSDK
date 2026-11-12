@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class IKHitReaction; }
 
-#define RPG_CLIENT_MONOHITREACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD8351F0)
-#define RPG_CLIENT_MONOHITREACTION_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xD8351A0)
-#define RPG_CLIENT_MONOHITREACTION_START_OFFSET UNITYSDK_OFFSET(0xD835140)
+#define RPG_CLIENT_MONOHITREACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE287C60)
+#define RPG_CLIENT_MONOHITREACTION_ONDRAWGIZMOSSELECTED_OFFSET UNITYSDK_OFFSET(0xE287C10)
+#define RPG_CLIENT_MONOHITREACTION_START_OFFSET UNITYSDK_OFFSET(0xE287BB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoHitReaction_TypeDefinitionIndex = 68606;
+	inline static constexpr unsigned int MonoHitReaction_TypeDefinitionIndex = 70554;
 
 	class MonoHitReaction : public ::UnityEngine::MonoBehaviour
 	{

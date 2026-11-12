@@ -4,18 +4,18 @@
 class GADFFIFFNHM;
 namespace System { class Object; }
 
-#define GADFFIFFNHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E416E50)
-#define GADFFIFFNHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E416E80)
-#define GADFFIFFNHM___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E416E90)
+#define GADFFIFFNHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F704AA0)
+#define GADFFIFFNHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F704AD0)
+#define GADFFIFFNHM___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F704AE0)
 
-inline static constexpr unsigned int GADFFIFFNHM___c_TypeDefinitionIndex = 27503;
+inline static constexpr unsigned int GADFFIFFNHM___c_TypeDefinitionIndex = 28034;
 
 	class GADFFIFFNHM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1DB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53810);
 		}
 
 		static ::System::Void _cctor()

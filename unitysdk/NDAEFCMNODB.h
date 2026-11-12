@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NDAEFCMNODB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C786470)
+#define NDAEFCMNODB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D907DB0)
 
-inline static constexpr unsigned int NDAEFCMNODB_TypeDefinitionIndex = 36879;
+inline static constexpr unsigned int NDAEFCMNODB_TypeDefinitionIndex = 37807;
 
 	class NDAEFCMNODB : public ::System::Attribute
 	{

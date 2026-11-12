@@ -4,18 +4,18 @@
 class GOCOPEELCCH;
 namespace System { class Object; }
 
-#define GOCOPEELCCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4ECE30)
-#define GOCOPEELCCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4ECE70)
-#define GOCOPEELCCH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4ECE80)
+#define GOCOPEELCCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7FF760)
+#define GOCOPEELCCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7FF7A0)
+#define GOCOPEELCCH___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F7FF7B0)
 
-inline static constexpr unsigned int GOCOPEELCCH___c_TypeDefinitionIndex = 25668;
+inline static constexpr unsigned int GOCOPEELCCH___c_TypeDefinitionIndex = 26165;
 
 	class GOCOPEELCCH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24D90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C4D0);
 		}
 
 		static ::System::Void _cctor()

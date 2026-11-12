@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DronesSwitchDynamicCollider; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D627070)
-#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D627080)
-#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D627040)
+#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E865050)
+#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E865060)
+#define RPG_GAMECORE_DRONESSWITCHDYNAMICCOLLIDER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E865020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DronesSwitchDynamicCollider_TypeDefinitionIndex = 20373;
+	inline static constexpr unsigned int DronesSwitchDynamicCollider_TypeDefinitionIndex = 20708;
 
 	class DronesSwitchDynamicCollider : public ::RPG::GameCore::TaskConfig
 	{

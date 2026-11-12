@@ -6,31 +6,31 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IAKMFLMFALK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E18010)
-#define IAKMFLMFALK_GET_BASESTATMAP_OFFSET UNITYSDK_OFFSET(0x15E17FB0)
-#define IAKMFLMFALK_GET_CARID_OFFSET UNITYSDK_OFFSET(0x15E17F50)
-#define IAKMFLMFALK_GET_CARNUMBER_OFFSET UNITYSDK_OFFSET(0x15E17F70)
-#define IAKMFLMFALK_GET_INITHEXCOLOR_OFFSET UNITYSDK_OFFSET(0x15E17FF0)
-#define IAKMFLMFALK_GET_PARTIDLIST_OFFSET UNITYSDK_OFFSET(0x15E17F90)
-#define IAKMFLMFALK_GET_SKILLIDLIST_OFFSET UNITYSDK_OFFSET(0x15E17FD0)
-#define IAKMFLMFALK_SET_BASESTATMAP_OFFSET UNITYSDK_OFFSET(0x15E17FC0)
-#define IAKMFLMFALK_SET_CARID_OFFSET UNITYSDK_OFFSET(0x15E17F60)
-#define IAKMFLMFALK_SET_CARNUMBER_OFFSET UNITYSDK_OFFSET(0x15E17F80)
-#define IAKMFLMFALK_SET_INITHEXCOLOR_OFFSET UNITYSDK_OFFSET(0x15E18000)
-#define IAKMFLMFALK_SET_PARTIDLIST_OFFSET UNITYSDK_OFFSET(0x15E17FA0)
-#define IAKMFLMFALK_SET_SKILLIDLIST_OFFSET UNITYSDK_OFFSET(0x15E17FE0)
+#define IAKMFLMFALK_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC17D0)
+#define IAKMFLMFALK_GET_BASESTATMAP_OFFSET UNITYSDK_OFFSET(0x16DC1770)
+#define IAKMFLMFALK_GET_CARID_OFFSET UNITYSDK_OFFSET(0x16DC1710)
+#define IAKMFLMFALK_GET_CARNUMBER_OFFSET UNITYSDK_OFFSET(0x16DC1730)
+#define IAKMFLMFALK_GET_INITHEXCOLOR_OFFSET UNITYSDK_OFFSET(0x16DC17B0)
+#define IAKMFLMFALK_GET_PARTIDLIST_OFFSET UNITYSDK_OFFSET(0x16DC1750)
+#define IAKMFLMFALK_GET_SKILLIDLIST_OFFSET UNITYSDK_OFFSET(0x16DC1790)
+#define IAKMFLMFALK_SET_BASESTATMAP_OFFSET UNITYSDK_OFFSET(0x16DC1780)
+#define IAKMFLMFALK_SET_CARID_OFFSET UNITYSDK_OFFSET(0x16DC1720)
+#define IAKMFLMFALK_SET_CARNUMBER_OFFSET UNITYSDK_OFFSET(0x16DC1740)
+#define IAKMFLMFALK_SET_INITHEXCOLOR_OFFSET UNITYSDK_OFFSET(0x16DC17C0)
+#define IAKMFLMFALK_SET_PARTIDLIST_OFFSET UNITYSDK_OFFSET(0x16DC1760)
+#define IAKMFLMFALK_SET_SKILLIDLIST_OFFSET UNITYSDK_OFFSET(0x16DC17A0)
 
-inline static constexpr unsigned int IAKMFLMFALK_TypeDefinitionIndex = 81689;
+inline static constexpr unsigned int IAKMFLMFALK_TypeDefinitionIndex = 84470;
 
 	class IAKMFLMFALK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _SkillIDList_k__BackingField; // 0x10
-		::System::String* _InitHexColor_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::System::UInt32>* _PartIDList_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* _BaseStatMap_k__BackingField; // 0x28
-		::System::UInt32 _CarID_k__BackingField; // 0x30
-		::System::UInt32 _CarNumber_k__BackingField; // 0x34
+		::System::Collections::Generic::List_1<::System::UInt32>* _PartIDList_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* _BaseStatMap_k__BackingField; // 0x18
+		::System::String* _InitHexColor_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* _SkillIDList_k__BackingField; // 0x28
+		::System::UInt32 _CarNumber_k__BackingField; // 0x30
+		::System::UInt32 _CarID_k__BackingField; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IAKMFLMFALK_CTOR_OFFSET))(this);

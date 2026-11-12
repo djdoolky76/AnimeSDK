@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventType.h"
 
-#define UNITYENGINE_EVENTINTERESTS_GET_WANTSMOUSEENTERLEAVEWINDOW_OFFSET UNITYSDK_OFFSET(0xE7640)
+#define UNITYENGINE_EVENTINTERESTS_GET_WANTSMOUSEENTERLEAVEWINDOW_OFFSET UNITYSDK_OFFSET(0x26210)
 #define UNITYENGINE_EVENTINTERESTS_GET_WANTSMOUSEMOVE_OFFSET UNITYSDK_OFFSET(0xC200)
-#define UNITYENGINE_EVENTINTERESTS_WANTSEVENT_OFFSET UNITYSDK_OFFSET(0x3C7DD60)
+#define UNITYENGINE_EVENTINTERESTS_WANTSEVENT_OFFSET UNITYSDK_OFFSET(0x3ECD000)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int EventInterests_TypeDefinitionIndex = 5164;
+	inline static constexpr unsigned int EventInterests_TypeDefinitionIndex = 5169;
 
 	struct alignas(4) EventInterests
 	{

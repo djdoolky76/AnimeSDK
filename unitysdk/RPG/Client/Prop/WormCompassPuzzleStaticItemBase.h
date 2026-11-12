@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/WormCompassPuzzleItemBase.h"
 
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLESTATICITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xDDE2420)
-#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLESTATICITEMBASE_REFRESHOBJECTSTATUS_OFFSET UNITYSDK_OFFSET(0xDDE20D0)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLESTATICITEMBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xE847620)
+#define RPG_CLIENT_PROP_WORMCOMPASSPUZZLESTATICITEMBASE_REFRESHOBJECTSTATUS_OFFSET UNITYSDK_OFFSET(0xE8472D0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WormCompassPuzzleStaticItemBase_TypeDefinitionIndex = 78932;
+	inline static constexpr unsigned int WormCompassPuzzleStaticItemBase_TypeDefinitionIndex = 81708;
 
 	class WormCompassPuzzleStaticItemBase : public ::RPG::Client::Prop::WormCompassPuzzleItemBase
 	{

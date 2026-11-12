@@ -6,10 +6,10 @@
 class HGGJJOGGCFG;
 class LAJCPEFEOPN;
 
-#define HGGJJOGGCFG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C9C950)
-#define HGGJJOGGCFG___C__DISPLAYCLASS9_0___SPAWNMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x15C9EC30)
+#define HGGJJOGGCFG___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16BE6B70)
+#define HGGJJOGGCFG___C__DISPLAYCLASS9_0___SPAWNMEMBER_B__0_OFFSET UNITYSDK_OFFSET(0x16BE8EB0)
 
-inline static constexpr unsigned int HGGJJOGGCFG___c__DisplayClass9_0_TypeDefinitionIndex = 69339;
+inline static constexpr unsigned int HGGJJOGGCFG___c__DisplayClass9_0_TypeDefinitionIndex = 71293;
 
 	class HGGJJOGGCFG___c__DisplayClass9_0 : public ::System::Object
 	{

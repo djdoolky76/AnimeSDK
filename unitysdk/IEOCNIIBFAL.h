@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartControlTimeRewindEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IEOCNIIBFAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15F06CD0)
-#define IEOCNIIBFAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F06D00)
+#define IEOCNIIBFAL_CTOR_OFFSET UNITYSDK_OFFSET(0x16E758D0)
+#define IEOCNIIBFAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E75900)
 
-inline static constexpr unsigned int IEOCNIIBFAL_TypeDefinitionIndex = 53397;
+inline static constexpr unsigned int IEOCNIIBFAL_TypeDefinitionIndex = 54559;
 
 	class IEOCNIIBFAL
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitMusicRhythmNotify; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITMUSICRHYTHMNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9C640)
-#define RPG_GAMECORE_WAITMUSICRHYTHMNOTIFY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9C650)
-#define RPG_GAMECORE_WAITMUSICRHYTHMNOTIFY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9C610)
+#define RPG_GAMECORE_WAITMUSICRHYTHMNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAF070)
+#define RPG_GAMECORE_WAITMUSICRHYTHMNOTIFY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEAF080)
+#define RPG_GAMECORE_WAITMUSICRHYTHMNOTIFY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEAF040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitMusicRhythmNotify_TypeDefinitionIndex = 22064;
+	inline static constexpr unsigned int WaitMusicRhythmNotify_TypeDefinitionIndex = 22469;
 
 	class WaitMusicRhythmNotify : public ::RPG::GameCore::TaskConfig
 	{

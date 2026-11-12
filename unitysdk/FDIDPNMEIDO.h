@@ -5,18 +5,18 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroUseBulletHitTarget; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FDIDPNMEIDO_AABHECHJMAN_OFFSET UNITYSDK_OFFSET(0x156DA2D0)
-#define FDIDPNMEIDO_CTOR_OFFSET UNITYSDK_OFFSET(0x156D9680)
-#define FDIDPNMEIDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156D96F0)
-#define FDIDPNMEIDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156D9740)
+#define FDIDPNMEIDO_AABHECHJMAN_OFFSET UNITYSDK_OFFSET(0x165F3F50)
+#define FDIDPNMEIDO_CTOR_OFFSET UNITYSDK_OFFSET(0x165F3300)
+#define FDIDPNMEIDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x165F3370)
+#define FDIDPNMEIDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165F33C0)
 
-inline static constexpr unsigned int FDIDPNMEIDO_TypeDefinitionIndex = 58967;
+inline static constexpr unsigned int FDIDPNMEIDO_TypeDefinitionIndex = 60240;
 
 	class FDIDPNMEIDO
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OAAMJPPKGJP; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* KCNGIEMEGLH; // 0x30
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* KCNGIEMEGLH; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* OAAMJPPKGJP; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WolfBroUseBulletHitTarget* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WolfBroUseBulletHitTarget*))((::PBYTE)hIl2Cpp + FDIDPNMEIDO_CTOR_OFFSET))(this, a1, a2);

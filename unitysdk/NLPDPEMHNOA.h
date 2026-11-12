@@ -6,29 +6,29 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDanmuContentData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveImageContentData; }
 namespace RPG::GameCore { class IdleLiveImgDanmuRow; }
 
-#define NLPDPEMHNOA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC78B90)
-#define NLPDPEMHNOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC78CE0)
-#define NLPDPEMHNOA_GAFJELFLGAE_OFFSET UNITYSDK_OFFSET(0xBC78E10)
-#define NLPDPEMHNOA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xBC78B50)
-#define NLPDPEMHNOA_GET_ISENDED_OFFSET UNITYSDK_OFFSET(0xBC78B70)
-#define NLPDPEMHNOA_ICLMPLKMNOO_OFFSET UNITYSDK_OFFSET(0xBC78D30)
-#define NLPDPEMHNOA_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xBC78B60)
-#define NLPDPEMHNOA_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0xBC78B80)
+#define NLPDPEMHNOA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC560660)
+#define NLPDPEMHNOA_CTOR_OFFSET UNITYSDK_OFFSET(0xC5607B0)
+#define NLPDPEMHNOA_GAFJELFLGAE_OFFSET UNITYSDK_OFFSET(0xC5608F0)
+#define NLPDPEMHNOA_GET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xC560620)
+#define NLPDPEMHNOA_GET_ISENDED_OFFSET UNITYSDK_OFFSET(0xC560640)
+#define NLPDPEMHNOA_ICLMPLKMNOO_OFFSET UNITYSDK_OFFSET(0xC560810)
+#define NLPDPEMHNOA_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0xC560630)
+#define NLPDPEMHNOA_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0xC560650)
 
-inline static constexpr unsigned int NLPDPEMHNOA_TypeDefinitionIndex = 75349;
+inline static constexpr unsigned int NLPDPEMHNOA_TypeDefinitionIndex = 77676;
 
 	class NLPDPEMHNOA : public ::System::Object
 	{
 	public:
 		::RPG::Client::ActivityIdleLive::IdleLiveImageContentData* NJDEBDGGGJL; // 0x10
-		::System::Boolean _IsEnded_k__BackingField; // 0x18
+		::System::Single FLBLLMPABOJ; // 0x18
+		::System::Boolean _IsEnded_k__BackingField; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::Single _Interval_k__BackingField; // 0x1C
-		::System::Single FLBLLMPABOJ; // 0x20
-		::System::UInt32 PHCCMACKMNO; // 0x24
-		::System::Single EAMEIJKODBG; // 0x28
+		::System::UInt32 AINKFBPJMOB; // 0x20
+		::System::Single EAMEIJKODBG; // 0x24
+		::System::UInt32 PHCCMACKMNO; // 0x28
 		::System::UInt32 IBEIJHJAELJ; // 0x2C
-		::System::UInt32 AINKFBPJMOB; // 0x30
+		::System::Single _Interval_k__BackingField; // 0x30
 		::System::Void _ctor(::RPG::GameCore::IdleLiveImgDanmuRow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveImgDanmuRow*))((::PBYTE)hIl2Cpp + NLPDPEMHNOA_CTOR_OFFSET))(this, a1);

@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 class NDONMNFEIOE;
 namespace System { class String; }
 
-#define NDONMNFEIOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1FBE10)
-#define NDONMNFEIOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1FBAB0)
+#define NDONMNFEIOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E410830)
+#define NDONMNFEIOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4104D0)
 
-inline static constexpr unsigned int NDONMNFEIOE_TypeDefinitionIndex = 15113;
+inline static constexpr unsigned int NDONMNFEIOE_TypeDefinitionIndex = 15269;
 
 	class NDONMNFEIOE : public ::System::Object
 	{
 	public:
 		::System::String* NNLJDEBAKHO; // 0x10
-		::System::UInt32 FFLDMJCEMDC; // 0x18
-		::System::UInt32 BEGLIKIIKHP; // 0x1C
-		::System::UInt32 ODIHDPCDALI; // 0x20
-		::System::UInt32 GENDKCAKJIN; // 0x24
-		::System::UInt32 LFKCKNCOMMD; // 0x28
-		::System::UInt32 JJKLIJNFIBB; // 0x2C
-		::System::UInt32 EHFGLKJOING; // 0x30
-		::System::UInt32 FIMNPJLNLEE; // 0x34
-		::RPG::Client::TextID OENAMINOLLF; // 0x38
+		::System::UInt32 GENDKCAKJIN; // 0x18
+		::System::UInt32 FIMNPJLNLEE; // 0x1C
+		::System::UInt32 JJKLIJNFIBB; // 0x20
+		::System::UInt32 BEGLIKIIKHP; // 0x24
+		::System::UInt32 FFLDMJCEMDC; // 0x28
+		::System::UInt32 EHFGLKJOING; // 0x2C
+		::RPG::Client::TextID OENAMINOLLF; // 0x30
+		::System::UInt32 ODIHDPCDALI; // 0x40
+		::System::UInt32 LFKCKNCOMMD; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NDONMNFEIOE_CTOR_OFFSET))(this);

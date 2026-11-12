@@ -9,16 +9,16 @@ namespace UnityEngine { class Sprite; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_UIQUAD_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3F4AD0)
-#define RPG_CLIENT_UIQUAD_CTOR_OFFSET UNITYSDK_OFFSET(0xE3F4870)
-#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xE3F3710)
-#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xE3F4440)
-#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xE3F37E0)
-#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xE3F46F0)
+#define RPG_CLIENT_UIQUAD_CCTOR_OFFSET UNITYSDK_OFFSET(0xEEAF6C0)
+#define RPG_CLIENT_UIQUAD_CTOR_OFFSET UNITYSDK_OFFSET(0xEEAF480)
+#define RPG_CLIENT_UIQUAD_FORCEMESHUPDATE_OFFSET UNITYSDK_OFFSET(0xEEAE320)
+#define RPG_CLIENT_UIQUAD_GET_MAINTEXTURE_OFFSET UNITYSDK_OFFSET(0xEEAF050)
+#define RPG_CLIENT_UIQUAD_ONPOPULATEMESH_OFFSET UNITYSDK_OFFSET(0xEEAE3F0)
+#define RPG_CLIENT_UIQUAD_SETPROGRESS_OFFSET UNITYSDK_OFFSET(0xEEAF300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 72709;
+	inline static constexpr unsigned int UIQuad_TypeDefinitionIndex = 74788;
 
 	class UIQuad : public ::UnityEngine::UI::MaskableGraphic
 	{
@@ -30,14 +30,14 @@ namespace RPG::Client
 		::RPG::Client::UIQuad_VertexAttribute anchorAttribute; // 0x104
 		::System::Byte _padding0[0x4];
 		::Il2CppArray<::System::Object*>* vertexArray; // 0x128
-		static ::UnityEngine::Vector3* StaticGet_UINormal()
-		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "UIQuad")->GetStaticField(0xB200);
-		}
-
 		static ::UnityEngine::Vector4* StaticGet_UITangent()
 		{
-			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.Client", "UIQuad")->GetStaticField(0xB20C);
+			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.Client", "UIQuad")->GetStaticField(0xD840);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_UINormal()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client", "UIQuad")->GetStaticField(0xD850);
 		}
 
 		::System::Void _ctor()

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DKPNNFMBDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EA90)
-#define DKPNNFMBDEB_LADNBLPENHJ_OFFSET UNITYSDK_OFFSET(0x1CA2EA40)
+#define DKPNNFMBDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF22C0)
+#define DKPNNFMBDEB_LADNBLPENHJ_OFFSET UNITYSDK_OFFSET(0x1DBF2270)
 
-inline static constexpr unsigned int DKPNNFMBDEB_TypeDefinitionIndex = 42097;
+inline static constexpr unsigned int DKPNNFMBDEB_TypeDefinitionIndex = 43072;
 
 	class DKPNNFMBDEB : public ::System::Object
 	{
@@ -13,9 +13,9 @@ inline static constexpr unsigned int DKPNNFMBDEB_TypeDefinitionIndex = 42097;
 		::System::Boolean LLOIGOPMMHI; // 0x10
 		::System::Boolean GCIIENDDJLA; // 0x11
 		::System::Byte _padding0[0x2];
-		::System::Single CENECBNFGLD; // 0x14
-		::System::Int32 MEPFOEEGBEA; // 0x18
-		::System::Single CNJCEMNOIEB; // 0x1C
+		::System::Int32 MEPFOEEGBEA; // 0x14
+		::System::Single CNJCEMNOIEB; // 0x18
+		::System::Single CENECBNFGLD; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DKPNNFMBDEB_CTOR_OFFSET))(this);

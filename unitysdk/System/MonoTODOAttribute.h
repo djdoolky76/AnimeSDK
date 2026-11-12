@@ -3,7 +3,7 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_MONOTODOATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27FC80)
+#define SYSTEM_MONOTODOATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D406950)
 
 namespace System
 {

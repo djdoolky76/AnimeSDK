@@ -4,18 +4,18 @@
 class LAKBGIFBOFA;
 namespace System { class Object; }
 
-#define LAKBGIFBOFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8CF770)
-#define LAKBGIFBOFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8CF7B0)
-#define LAKBGIFBOFA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8CF7C0)
+#define LAKBGIFBOFA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC0CD10)
+#define LAKBGIFBOFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC0CD50)
+#define LAKBGIFBOFA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC0CD60)
 
-inline static constexpr unsigned int LAKBGIFBOFA___c_TypeDefinitionIndex = 34424;
+inline static constexpr unsigned int LAKBGIFBOFA___c_TypeDefinitionIndex = 35352;
 
 	class LAKBGIFBOFA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F270);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26130);
 		}
 
 		static ::System::Void _cctor()

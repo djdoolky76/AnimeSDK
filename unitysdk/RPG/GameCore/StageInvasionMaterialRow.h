@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageInvasionMaterialRow; }
 
-#define RPG_GAMECORE_STAGEINVASIONMATERIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0F510)
-#define RPG_GAMECORE_STAGEINVASIONMATERIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0F3C0)
+#define RPG_GAMECORE_STAGEINVASIONMATERIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED21730)
+#define RPG_GAMECORE_STAGEINVASIONMATERIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED215E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionMaterialRow_TypeDefinitionIndex = 15157;
+	inline static constexpr unsigned int StageInvasionMaterialRow_TypeDefinitionIndex = 15313;
 
 	class StageInvasionMaterialRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FarmTypeConfig>* FarmTypeList; // 0x10
-		::System::UInt32 InvasionID; // 0x18
-		::System::UInt32 MaterialType; // 0x1C
+		::System::UInt32 MaterialType; // 0x18
+		::System::UInt32 InvasionID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINVASIONMATERIALROW_CTOR_OFFSET))(this);

@@ -6,10 +6,10 @@ class GGLKJLLMHBN;
 class GHCECAKHKJP;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
-#define PDFBCKCLDGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC010D90)
-#define PDFBCKCLDGL_GETMODIFIER_OFFSET UNITYSDK_OFFSET(0xC010DA0)
+#define PDFBCKCLDGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC917430)
+#define PDFBCKCLDGL_GETMODIFIER_OFFSET UNITYSDK_OFFSET(0xC917440)
 
-inline static constexpr unsigned int PDFBCKCLDGL_TypeDefinitionIndex = 62716;
+inline static constexpr unsigned int PDFBCKCLDGL_TypeDefinitionIndex = 64150;
 
 	class PDFBCKCLDGL : public ::System::Object
 	{

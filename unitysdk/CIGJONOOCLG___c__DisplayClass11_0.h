@@ -4,16 +4,16 @@
 class CIGJONOOCLG;
 class GAHPNAEGACM;
 
-#define CIGJONOOCLG___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF72580)
-#define CIGJONOOCLG___C__DISPLAYCLASS11_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xCF72920)
+#define CIGJONOOCLG___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD8E02B0)
+#define CIGJONOOCLG___C__DISPLAYCLASS11_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xD8E06A0)
 
-inline static constexpr unsigned int CIGJONOOCLG___c__DisplayClass11_0_TypeDefinitionIndex = 71290;
+inline static constexpr unsigned int CIGJONOOCLG___c__DisplayClass11_0_TypeDefinitionIndex = 73267;
 
 	class CIGJONOOCLG___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::GAHPNAEGACM* detail; // 0x10
-		::CIGJONOOCLG* __4__this; // 0x18
+		::CIGJONOOCLG* __4__this; // 0x10
+		::GAHPNAEGACM* detail; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIGJONOOCLG___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

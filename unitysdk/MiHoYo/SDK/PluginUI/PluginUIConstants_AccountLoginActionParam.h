@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_AccountLoginActionParam_TypeDefinitionIndex = 9195;
+	inline static constexpr unsigned int PluginUIConstants_AccountLoginActionParam_TypeDefinitionIndex = 9204;
 
 	class PluginUIConstants_AccountLoginActionParam : public ::System::Object
 	{

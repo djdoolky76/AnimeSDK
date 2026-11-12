@@ -4,17 +4,18 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class InitGridFightStatisticsBinding; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PLEJGOEALDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F0410)
-#define PLEJGOEALDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2F0730)
-#define PLEJGOEALDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2F0510)
+#define PLEJGOEALDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCC1F140)
+#define PLEJGOEALDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC1F530)
+#define PLEJGOEALDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC1F2B0)
 
-inline static constexpr unsigned int PLEJGOEALDJ_TypeDefinitionIndex = 55129;
+inline static constexpr unsigned int PLEJGOEALDJ_TypeDefinitionIndex = 56307;
 
 	class PLEJGOEALDJ
 	{
 	public:
-		::KFELGAIGHAP* KDMEBFOHHBM; // 0x28
-		::KFELGAIGHAP* JCLEENONPGI; // 0x30
+		::KFELGAIGHAP* JCLEENONPGI; // 0x28
+		::KFELGAIGHAP* KDMEBFOHHBM; // 0x30
+		::KFELGAIGHAP* BEFADEOKIME; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::InitGridFightStatisticsBinding* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::InitGridFightStatisticsBinding*))((::PBYTE)hIl2Cpp + PLEJGOEALDJ_CTOR_OFFSET))(this, a1, a2);

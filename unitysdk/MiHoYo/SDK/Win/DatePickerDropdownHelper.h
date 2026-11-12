@@ -5,15 +5,15 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD34810)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD34800)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1BD345B0)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_REMOVETITLE_OFFSET UNITYSDK_OFFSET(0x1BD34710)
-#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_START_OFFSET UNITYSDK_OFFSET(0x1BD34270)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEBD820)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEBD810)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_ONSELECT_OFFSET UNITYSDK_OFFSET(0x1CEBD5C0)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_REMOVETITLE_OFFSET UNITYSDK_OFFSET(0x1CEBD720)
+#define MIHOYO_SDK_WIN_DATEPICKERDROPDOWNHELPER_START_OFFSET UNITYSDK_OFFSET(0x1CEBD280)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int DatePickerDropdownHelper_TypeDefinitionIndex = 9290;
+	inline static constexpr unsigned int DatePickerDropdownHelper_TypeDefinitionIndex = 9298;
 
 	class DatePickerDropdownHelper : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,7 +24,7 @@ namespace MiHoYo::SDK::Win
 		::UnityEngine::UI::Text* placeholder; // 0x28
 		static ::System::Boolean* StaticGet_wasNeverSelected()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK.Win", "DatePickerDropdownHelper")->GetStaticField(0x6FB0);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK.Win", "DatePickerDropdownHelper")->GetStaticField(0x85F0);
 		}
 
 		::System::Void _ctor()

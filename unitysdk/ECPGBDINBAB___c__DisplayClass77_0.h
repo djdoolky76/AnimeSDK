@@ -4,19 +4,18 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class ECPGBDINBAB;
 
-#define ECPGBDINBAB___C__DISPLAYCLASS77_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1330BF90)
-#define ECPGBDINBAB___C__DISPLAYCLASS77_0___HANDLESYNCDYNAMICBORNCATMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x1330D3F0)
+#define ECPGBDINBAB___C__DISPLAYCLASS77_0_CTOR_OFFSET UNITYSDK_OFFSET(0x140C80B0)
+#define ECPGBDINBAB___C__DISPLAYCLASS77_0___HANDLESYNCDYNAMICBORNCATMESSAGE_B__0_OFFSET UNITYSDK_OFFSET(0x140C9520)
 
-inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass77_0_TypeDefinitionIndex = 78019;
+inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass77_0_TypeDefinitionIndex = 80754;
 
 	class ECPGBDINBAB___c__DisplayClass77_0 : public ::System::Object
 	{
 	public:
 		::ECPGBDINBAB* __4__this; // 0x10
-		::System::Single moveTimeSec; // 0x18
-		::System::Boolean originStop; // 0x1C
-		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector3 originalLookAtPosition; // 0x20
+		::UnityEngine::Vector3 originalLookAtPosition; // 0x18
+		::System::Single moveTimeSec; // 0x24
+		::System::Boolean originStop; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ECPGBDINBAB___C__DISPLAYCLASS77_0_CTOR_OFFSET))(this);

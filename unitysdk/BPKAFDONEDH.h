@@ -5,15 +5,15 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimAvatarConfig; }
 
-#define BPKAFDONEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBAA0)
+#define BPKAFDONEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5C7B0)
 
-inline static constexpr unsigned int BPKAFDONEDH_TypeDefinitionIndex = 43375;
+inline static constexpr unsigned int BPKAFDONEDH_TypeDefinitionIndex = 44356;
 
 	class BPKAFDONEDH : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FiveDimAvatarConfig* JIHEDFDCCAD; // 0x10
-		::NCFFJACLJMC IAOEFADOKKA; // 0x18
+		::NCFFJACLJMC IAOEFADOKKA; // 0x10
+		::RPG::GameCore::FiveDimAvatarConfig* JIHEDFDCCAD; // 0x58
 		::BIMDKNHEBFF IPPKEEBMOEA; // 0x60
 		::System::Void _ctor()
 		{

@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/SequentialPanelContainer/EdgeDirection.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define MABIMELMEFF_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0xB83E1C0)
-#define MABIMELMEFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB83E220)
+#define MABIMELMEFF_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0xC09F710)
+#define MABIMELMEFF_CTOR_OFFSET UNITYSDK_OFFSET(0xC09F770)
 
-inline static constexpr unsigned int MABIMELMEFF_TypeDefinitionIndex = 74765;
+inline static constexpr unsigned int MABIMELMEFF_TypeDefinitionIndex = 76919;
 
 	class MABIMELMEFF : public ::HKHAKEGOLDK
 	{

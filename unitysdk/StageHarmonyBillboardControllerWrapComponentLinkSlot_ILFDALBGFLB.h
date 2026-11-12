@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BillboardController; }
 
-#define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_ILFDALBGFLB_CTOR_OFFSET UNITYSDK_OFFSET(0xE98D420)
+#define STAGEHARMONYBILLBOARDCONTROLLERWRAPCOMPONENTLINKSLOT_ILFDALBGFLB_CTOR_OFFSET UNITYSDK_OFFSET(0xF4A2A20)
 
-inline static constexpr unsigned int StageHarmonyBillboardControllerWrapComponentLinkSlot_ILFDALBGFLB_TypeDefinitionIndex = 47360;
+inline static constexpr unsigned int StageHarmonyBillboardControllerWrapComponentLinkSlot_ILFDALBGFLB_TypeDefinitionIndex = 48389;
 
 	class StageHarmonyBillboardControllerWrapComponentLinkSlot_ILFDALBGFLB : public ::System::Object
 	{

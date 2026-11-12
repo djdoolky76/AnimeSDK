@@ -7,32 +7,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingFesItemRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGFESITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58ED00)
-#define RPG_GAMECORE_CHENLINGFESITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58E780)
+#define RPG_GAMECORE_CHENLINGFESITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E79ED30)
+#define RPG_GAMECORE_CHENLINGFESITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E79E7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesItemRow_TypeDefinitionIndex = 11100;
+	inline static constexpr unsigned int ChenLingFesItemRow_TypeDefinitionIndex = 11116;
 
 	class ChenLingFesItemRow : public ::System::Object
 	{
 	public:
 		::System::String* BaseProbability; // 0x10
-		::Il2CppArray<::System::UInt32>* EffectItemTypeList; // 0x18
-		::Il2CppArray<::System::UInt32>* TagList; // 0x20
-		::System::String* IconPath; // 0x28
-		::System::String* BaseLoopInterval; // 0x30
-		::System::String* LogicJsonPath; // 0x38
-		::System::String* ViewJsonPath; // 0x40
-		::System::String* BaseCoinNum; // 0x48
-		::Il2CppArray<::System::Int32>* ParamList; // 0x50
-		::System::String* BaseMaxEffectTriggerNum; // 0x58
-		::RPG::GameCore::ChenLingFesItemRare Rare; // 0x60
-		::System::Byte _padding0[0x4];
+		::System::String* ViewJsonPath; // 0x18
+		::System::String* BaseCoinNum; // 0x20
+		::System::String* BaseLoopInterval; // 0x28
+		::System::String* BaseMaxEffectTriggerNum; // 0x30
+		::System::String* IconPath; // 0x38
+		::System::String* LogicJsonPath; // 0x40
+		::Il2CppArray<::System::Int32>* ParamList; // 0x48
+		::Il2CppArray<::System::UInt32>* TagList; // 0x50
+		::Il2CppArray<::System::UInt32>* EffectItemTypeList; // 0x58
+		::System::UInt32 ID; // 0x60
+		::System::UInt32 MaxPutDownNum; // 0x64
 		::RPG::Client::TextID ItemDesc; // 0x68
 		::RPG::Client::TextID ItemName; // 0x78
-		::System::UInt32 MaxPutDownNum; // 0x88
-		::System::UInt32 ID; // 0x8C
+		::RPG::GameCore::ChenLingFesItemRare Rare; // 0x88
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGFESITEMROW_CTOR_OFFSET))(this);

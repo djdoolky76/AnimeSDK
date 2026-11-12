@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveGachaAvatarStarRow; }
 
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77BAE0)
-#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77B960)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98F210)
+#define RPG_GAMECORE_IDLELIVEGACHAAVATARSTARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98F090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGachaAvatarStarRow_TypeDefinitionIndex = 11770;
+	inline static constexpr unsigned int IdleLiveGachaAvatarStarRow_TypeDefinitionIndex = 11827;
 
 	class IdleLiveGachaAvatarStarRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AvatarStar; // 0x10
-		::System::UInt32 AvatarPiece; // 0x14
+		::System::UInt32 AvatarPiece; // 0x10
+		::System::UInt32 AvatarStar; // 0x14
 		::RPG::GameCore::FixPoint StarAddPower; // 0x18
 		::System::Void _ctor()
 		{

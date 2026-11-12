@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearRecordEntityFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKKNIOCFOLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB4D2760)
-#define KKKNIOCFOLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4D2790)
+#define KKKNIOCFOLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1BA80)
+#define KKKNIOCFOLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD1BAB0)
 
-inline static constexpr unsigned int KKKNIOCFOLO_TypeDefinitionIndex = 55285;
+inline static constexpr unsigned int KKKNIOCFOLO_TypeDefinitionIndex = 56466;
 
 	class KKKNIOCFOLO
 	{

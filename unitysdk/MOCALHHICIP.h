@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOCALHHICIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA24CB0)
+#define MOCALHHICIP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E3570)
 
-inline static constexpr unsigned int MOCALHHICIP_TypeDefinitionIndex = 73291;
+inline static constexpr unsigned int MOCALHHICIP_TypeDefinitionIndex = 75407;
 
 	class MOCALHHICIP : public ::System::Object
 	{

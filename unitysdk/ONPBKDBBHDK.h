@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Threading { class CancellationTokenSource; }
 
-inline static constexpr unsigned int ONPBKDBBHDK_TypeDefinitionIndex = 44214;
+inline static constexpr unsigned int ONPBKDBBHDK_TypeDefinitionIndex = 45289;
 
 	class ONPBKDBBHDK
 	{

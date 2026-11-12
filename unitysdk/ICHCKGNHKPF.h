@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define ICHCKGNHKPF_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
-#define ICHCKGNHKPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E7FAF0)
+#define ICHCKGNHKPF_CTOR_OFFSET UNITYSDK_OFFSET(0x12B00)
+#define ICHCKGNHKPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3055BE0)
 
-inline static constexpr unsigned int ICHCKGNHKPF_TypeDefinitionIndex = 67196;
+inline static constexpr unsigned int ICHCKGNHKPF_TypeDefinitionIndex = 69140;
 
 	struct alignas(4) ICHCKGNHKPF
 	{

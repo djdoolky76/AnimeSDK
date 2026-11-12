@@ -6,20 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicLayerEffectRow; }
 
-#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D4B00)
-#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D4890)
+#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1E2F0)
+#define RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC1E080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicLayerEffectRow_TypeDefinitionIndex = 14858;
+	inline static constexpr unsigned int RogueMagicLayerEffectRow_TypeDefinitionIndex = 15014;
 
 	class RogueMagicLayerEffectRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* DescParamList; // 0x10
-		::RPG::Client::TextID LayerEffectName; // 0x18
-		::RPG::Client::TextID LayerEffectDesc; // 0x28
-		::System::UInt32 LayerEffectID; // 0x38
+		::RPG::Client::TextID LayerEffectDesc; // 0x18
+		::System::UInt32 LayerEffectID; // 0x28
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID LayerEffectName; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICLAYEREFFECTROW_CTOR_OFFSET))(this);

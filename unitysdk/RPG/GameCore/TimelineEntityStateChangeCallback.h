@@ -6,12 +6,12 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TimelineEntityStateChangeCallback; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB89B20)
-#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB899C0)
+#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE38D40)
+#define RPG_GAMECORE_TIMELINEENTITYSTATECHANGECALLBACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE38BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TimelineEntityStateChangeCallback_TypeDefinitionIndex = 20634;
+	inline static constexpr unsigned int TimelineEntityStateChangeCallback_TypeDefinitionIndex = 20971;
 
 	class TimelineEntityStateChangeCallback : public ::RPG::GameCore::JsonConfig
 	{

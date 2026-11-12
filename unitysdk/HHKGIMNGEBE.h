@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByBattleHasCertainResult; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHKGIMNGEBE_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD02A0)
-#define HHKGIMNGEBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CD02D0)
+#define HHKGIMNGEBE_CTOR_OFFSET UNITYSDK_OFFSET(0x16C1DCF0)
+#define HHKGIMNGEBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C1DD20)
 
-inline static constexpr unsigned int HHKGIMNGEBE_TypeDefinitionIndex = 54701;
+inline static constexpr unsigned int HHKGIMNGEBE_TypeDefinitionIndex = 55867;
 
 	class HHKGIMNGEBE
 	{

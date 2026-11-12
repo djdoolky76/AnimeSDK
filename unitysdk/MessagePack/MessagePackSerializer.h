@@ -13,46 +13,46 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBC5330)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GETUINT32WRITESIZE_OFFSET UNITYSDK_OFFSET(0x1BBC4F50)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BBC2B10)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_ISMESSAGEPACKFIXEDSIZEPRIMITIVETYPEHELPER_OFFSET UNITYSDK_OFFSET(0x1BBC5150)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET UNITYSDK_OFFSET(0x1BBC2C10)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1BBC2BD0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET UNITYSDK_OFFSET(0x1BBC3FA0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET UNITYSDK_OFFSET(0x1BBC3100)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET UNITYSDK_OFFSET(0x1BBC5000)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD4E200)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GETUINT32WRITESIZE_OFFSET UNITYSDK_OFFSET(0x1CD4DE20)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_GET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1CD4B990)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_ISMESSAGEPACKFIXEDSIZEPRIMITIVETYPEHELPER_OFFSET UNITYSDK_OFFSET(0x1CD4E020)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_LZ4OPERATION_OFFSET UNITYSDK_OFFSET(0x1CD4BA90)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_SET_DEFAULTOPTIONS_OFFSET UNITYSDK_OFFSET(0x1CD4BA50)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TOLZ4BINARYCORE_OFFSET UNITYSDK_OFFSET(0x1CD4CE70)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_TRYDECOMPRESS_OFFSET UNITYSDK_OFFSET(0x1CD4BF80)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_WRITEBIN32HEADER_OFFSET UNITYSDK_OFFSET(0x1CD4DED0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_TypeDefinitionIndex = 7213;
+	inline static constexpr unsigned int MessagePackSerializer_TypeDefinitionIndex = 7224;
 
 	class MessagePackSerializer : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Type*, ::System::Object*>** StaticGet_CreateCompiledMethods()
-		{
-			return (::System::Func_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x154E0);
-		}
-
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_defaultOptions()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x154E8);
-		}
-
-		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>** StaticGet_Serializes()
-		{
-			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x154F0);
+			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0xDB30);
 		}
 
 		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecDecode()
 		{
-			return (::MessagePack::MessagePackSerializer_LZ4Transform**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x154F8);
+			return (::MessagePack::MessagePackSerializer_LZ4Transform**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0xDB38);
 		}
 
 		static ::MessagePack::MessagePackSerializer_LZ4Transform** StaticGet_LZ4CodecEncode()
 		{
-			return (::MessagePack::MessagePackSerializer_LZ4Transform**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0x15500);
+			return (::MessagePack::MessagePackSerializer_LZ4Transform**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0xDB40);
+		}
+
+		static ::System::Func_2<::System::Type*, ::System::Object*>** StaticGet_CreateCompiledMethods()
+		{
+			return (::System::Func_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0xDB48);
+		}
+
+		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>** StaticGet_Serializes()
+		{
+			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Object*>**)UnitySDK::FromName("MessagePack", "MessagePackSerializer")->GetStaticField(0xDB50);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_scratchArray()

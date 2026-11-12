@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD474D20)
-#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD474D50)
-#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C___SETLISTENGUESTCOLLIDERENABLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xD474D60)
+#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEE2CA0)
+#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEE2CD0)
+#define RPG_CLIENT_LITTLEGAME_MONOTRIGGER___C___SETLISTENGUESTCOLLIDERENABLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xDEE2CE0)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MonoTrigger___c_TypeDefinitionIndex = 76513;
+	inline static constexpr unsigned int MonoTrigger___c_TypeDefinitionIndex = 78844;
 
 	class MonoTrigger___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x356E0);
-		}
-
 		static ::System::Action_3<::RPG::Client::LittleGame::MonoTrigger*, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__13_0()
 		{
-			return (::System::Action_3<::RPG::Client::LittleGame::MonoTrigger*, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x356E8);
+			return (::System::Action_3<::RPG::Client::LittleGame::MonoTrigger*, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x415F0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame", "<>c")->GetStaticField(0x415F8);
 		}
 
 		static ::System::Void _cctor()

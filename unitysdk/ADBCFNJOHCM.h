@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define ADBCFNJOHCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB134920)
-#define ADBCFNJOHCM_MDIBFNDMBGE_OFFSET UNITYSDK_OFFSET(0xB1347E0)
-#define ADBCFNJOHCM__ONBIND_OFFSET UNITYSDK_OFFSET(0xB134740)
+#define ADBCFNJOHCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB79BD50)
+#define ADBCFNJOHCM_MDIBFNDMBGE_OFFSET UNITYSDK_OFFSET(0xB79BC10)
+#define ADBCFNJOHCM__ONBIND_OFFSET UNITYSDK_OFFSET(0xB79BAA0)
 
-inline static constexpr unsigned int ADBCFNJOHCM_TypeDefinitionIndex = 71427;
+inline static constexpr unsigned int ADBCFNJOHCM_TypeDefinitionIndex = 73409;
 
 	class ADBCFNJOHCM : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* BNCKJHCAOEA; // 0x60
+		::System::String* GJNLHFPAKAD; // 0x60
 		::UnityEngine::UI::Image* OBKJKJMPJLC; // 0x68
-		::System::String* GJNLHFPAKAD; // 0x70
+		::UnityEngine::UI::Image* BNCKJHCAOEA; // 0x70
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		::System::Void _ctor()
 		{

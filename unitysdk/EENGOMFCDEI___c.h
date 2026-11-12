@@ -5,41 +5,41 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EENGOMFCDEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5FC0C0)
-#define EENGOMFCDEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FC100)
-#define EENGOMFCDEI___C__CONVERTANDSETCATS_B__29_0_OFFSET UNITYSDK_OFFSET(0x1C5FC150)
-#define EENGOMFCDEI___C__CONVERTANDSETEFFECTS_B__30_0_OFFSET UNITYSDK_OFFSET(0x1C5FC190)
-#define EENGOMFCDEI___C__CONVERTANDSETSECTIONREGIONS_B__28_0_OFFSET UNITYSDK_OFFSET(0x1C5FC110)
-#define EENGOMFCDEI___C__CONVERTANDSETSPARKLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1C5FC1D0)
+#define EENGOMFCDEI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D77D790)
+#define EENGOMFCDEI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77D7D0)
+#define EENGOMFCDEI___C__CONVERTANDSETCATS_B__29_0_OFFSET UNITYSDK_OFFSET(0x1D77D820)
+#define EENGOMFCDEI___C__CONVERTANDSETEFFECTS_B__30_0_OFFSET UNITYSDK_OFFSET(0x1D77D860)
+#define EENGOMFCDEI___C__CONVERTANDSETSECTIONREGIONS_B__28_0_OFFSET UNITYSDK_OFFSET(0x1D77D7E0)
+#define EENGOMFCDEI___C__CONVERTANDSETSPARKLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1D77D8A0)
 
-inline static constexpr unsigned int EENGOMFCDEI___c_TypeDefinitionIndex = 37451;
+inline static constexpr unsigned int EENGOMFCDEI___c_TypeDefinitionIndex = 38379;
 
 	class EENGOMFCDEI___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::System::UInt32>** StaticGet___9__30_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59C40);
-		}
-
-		static ::System::Func_2<::System::String*, ::System::UInt32>** StaticGet___9__28_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59C48);
-		}
-
-		static ::System::Func_2<::System::String*, ::System::UInt32>** StaticGet___9__29_0()
-		{
-			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59C50);
-		}
-
 		static ::System::Func_2<::System::String*, ::System::UInt32>** StaticGet___9__31_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59C58);
+			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x695C0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59C60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x695C8);
+		}
+
+		static ::System::Func_2<::System::String*, ::System::UInt32>** StaticGet___9__28_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x695D0);
+		}
+
+		static ::System::Func_2<::System::String*, ::System::UInt32>** StaticGet___9__30_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x695D8);
+		}
+
+		static ::System::Func_2<::System::String*, ::System::UInt32>** StaticGet___9__29_0()
+		{
+			return (::System::Func_2<::System::String*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x695E0);
 		}
 
 		static ::System::Void _cctor()

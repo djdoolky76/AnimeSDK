@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/IO/IOException.h"
 
-#define MIHOYO_SDK_PROTOBUF_CODEDOUTPUTSTREAM_OUTOFSPACEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBE36F0)
+#define MIHOYO_SDK_PROTOBUF_CODEDOUTPUTSTREAM_OUTOFSPACEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD6C5B0)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int CodedOutputStream_OutOfSpaceException_TypeDefinitionIndex = 35713;
+	inline static constexpr unsigned int CodedOutputStream_OutOfSpaceException_TypeDefinitionIndex = 36641;
 
 	class CodedOutputStream_OutOfSpaceException : public ::System::IO::IOException
 	{

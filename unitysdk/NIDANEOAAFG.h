@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTurnOwnerHasActionInTurn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NIDANEOAAFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDFC80)
-#define NIDANEOAAFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBDFCB0)
+#define NIDANEOAAFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC4C2540)
+#define NIDANEOAAFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4C2570)
 
-inline static constexpr unsigned int NIDANEOAAFG_TypeDefinitionIndex = 54729;
+inline static constexpr unsigned int NIDANEOAAFG_TypeDefinitionIndex = 55896;
 
 	class NIDANEOAAFG
 	{

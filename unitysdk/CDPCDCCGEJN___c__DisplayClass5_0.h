@@ -4,16 +4,16 @@
 class CDPCDCCGEJN;
 class CDPCDCCGEJN_CFLILJECMKA;
 
-#define CDPCDCCGEJN___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7776F0)
-#define CDPCDCCGEJN___C__DISPLAYCLASS5_0___ONITEMSTARTBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xC778830)
+#define CDPCDCCGEJN___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD0E1CC0)
+#define CDPCDCCGEJN___C__DISPLAYCLASS5_0___ONITEMSTARTBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xD0E2E00)
 
-inline static constexpr unsigned int CDPCDCCGEJN___c__DisplayClass5_0_TypeDefinitionIndex = 59577;
+inline static constexpr unsigned int CDPCDCCGEJN___c__DisplayClass5_0_TypeDefinitionIndex = 60854;
 
 	class CDPCDCCGEJN___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::CDPCDCCGEJN* __4__this; // 0x10
-		::CDPCDCCGEJN_CFLILJECMKA* item; // 0x18
+		::CDPCDCCGEJN_CFLILJECMKA* item; // 0x10
+		::CDPCDCCGEJN* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CDPCDCCGEJN___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

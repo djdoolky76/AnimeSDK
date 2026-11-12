@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetGraphDynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MAOBPFGIEMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB856470)
-#define MAOBPFGIEMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8564A0)
+#define MAOBPFGIEMM_CTOR_OFFSET UNITYSDK_OFFSET(0xC0B7A80)
+#define MAOBPFGIEMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0B7AB0)
 
-inline static constexpr unsigned int MAOBPFGIEMM_TypeDefinitionIndex = 53239;
+inline static constexpr unsigned int MAOBPFGIEMM_TypeDefinitionIndex = 54401;
 
 	class MAOBPFGIEMM
 	{

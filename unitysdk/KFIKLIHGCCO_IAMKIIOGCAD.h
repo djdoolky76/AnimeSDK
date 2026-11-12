@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int KFIKLIHGCCO_IAMKIIOGCAD_TypeDefinitionIndex = 51770;
+inline static constexpr unsigned int KFIKLIHGCCO_IAMKIIOGCAD_TypeDefinitionIndex = 52856;
 
 	struct alignas(4) KFIKLIHGCCO_IAMKIIOGCAD
 	{

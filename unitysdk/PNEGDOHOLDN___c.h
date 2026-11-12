@@ -4,18 +4,18 @@
 class PNEGDOHOLDN;
 namespace System { class Object; }
 
-#define PNEGDOHOLDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFB6A80)
-#define PNEGDOHOLDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB6AB0)
-#define PNEGDOHOLDN___C___CCTOR_B__50_0_OFFSET UNITYSDK_OFFSET(0x1DFB6AC0)
+#define PNEGDOHOLDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F267F90)
+#define PNEGDOHOLDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F267FC0)
+#define PNEGDOHOLDN___C___CCTOR_B__50_0_OFFSET UNITYSDK_OFFSET(0x1F267FD0)
 
-inline static constexpr unsigned int PNEGDOHOLDN___c_TypeDefinitionIndex = 31294;
+inline static constexpr unsigned int PNEGDOHOLDN___c_TypeDefinitionIndex = 32207;
 
 	class PNEGDOHOLDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50500);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42460);
 		}
 
 		static ::System::Void _cctor()

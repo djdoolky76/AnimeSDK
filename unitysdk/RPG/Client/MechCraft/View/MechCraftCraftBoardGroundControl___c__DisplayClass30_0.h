@@ -5,7 +5,7 @@ class BIKFPBGFCHP;
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass30_0_TypeDefinitionIndex = 79848;
+	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass30_0_TypeDefinitionIndex = 82625;
 
 	struct alignas(8) MechCraftCraftBoardGroundControl___c__DisplayClass30_0
 	{

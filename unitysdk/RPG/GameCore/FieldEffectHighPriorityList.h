@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FieldEffectHighPriorityList; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A0E60)
-#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A0DA0)
+#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AD5D0)
+#define RPG_GAMECORE_FIELDEFFECTHIGHPRIORITYLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8AD510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FieldEffectHighPriorityList_TypeDefinitionIndex = 16491;
+	inline static constexpr unsigned int FieldEffectHighPriorityList_TypeDefinitionIndex = 16655;
 
 	class FieldEffectHighPriorityList : public ::RPG::GameCore::JsonConfig
 	{

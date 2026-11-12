@@ -4,18 +4,18 @@
 class DPIFGEONFPI;
 namespace System { class Object; }
 
-#define DPIFGEONFPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E211420)
-#define DPIFGEONFPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E211460)
-#define DPIFGEONFPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E211470)
+#define DPIFGEONFPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4F0750)
+#define DPIFGEONFPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4F0790)
+#define DPIFGEONFPI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4F07A0)
 
-inline static constexpr unsigned int DPIFGEONFPI___c_TypeDefinitionIndex = 25227;
+inline static constexpr unsigned int DPIFGEONFPI___c_TypeDefinitionIndex = 25705;
 
 	class DPIFGEONFPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45BD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40FE0);
 		}
 
 		static ::System::Void _cctor()

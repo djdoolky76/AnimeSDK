@@ -5,9 +5,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKGBKFNLMGI_OOCDPIEGGEA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCE6E0)
+#define AKGBKFNLMGI_OOCDPIEGGEA_CTOR_OFFSET UNITYSDK_OFFSET(0x12DB5120)
 
-inline static constexpr unsigned int AKGBKFNLMGI_OOCDPIEGGEA_TypeDefinitionIndex = 77483;
+inline static constexpr unsigned int AKGBKFNLMGI_OOCDPIEGGEA_TypeDefinitionIndex = 80218;
 
 	class AKGBKFNLMGI_OOCDPIEGGEA : public ::DFDIEEHGJED
 	{

@@ -5,9 +5,9 @@ class EEKIILDAMOL;
 class EIDNNMMCGKK;
 class OEGDBPLMIAE;
 
-#define HAFCMNPMFGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64CEE0)
+#define HAFCMNPMFGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CEA60)
 
-inline static constexpr unsigned int HAFCMNPMFGO_TypeDefinitionIndex = 36267;
+inline static constexpr unsigned int HAFCMNPMFGO_TypeDefinitionIndex = 37195;
 
 	class HAFCMNPMFGO : public ::System::Object
 	{

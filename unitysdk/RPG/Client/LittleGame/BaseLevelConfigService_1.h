@@ -7,7 +7,7 @@ namespace RPG::Client::LittleGame { template <typename T> class IMissionService_
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseLevelConfigService_1_TypeDefinitionIndex = 42035;
+	inline static constexpr unsigned int BaseLevelConfigService_1_TypeDefinitionIndex = 43010;
 
 	template <typename T>
 	class BaseLevelConfigService_1 : public ::System::Object

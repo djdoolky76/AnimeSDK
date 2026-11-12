@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetModifierValue; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETMODIFIERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABABA0)
-#define RPG_GAMECORE_SETMODIFIERVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABAC30)
-#define RPG_GAMECORE_SETMODIFIERVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABAAF0)
+#define RPG_GAMECORE_SETMODIFIERVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCCDD0)
+#define RPG_GAMECORE_SETMODIFIERVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECCCE60)
+#define RPG_GAMECORE_SETMODIFIERVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECCCD20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetModifierValue_TypeDefinitionIndex = 22669;
+	inline static constexpr unsigned int SetModifierValue_TypeDefinitionIndex = 23091;
 
 	class SetModifierValue : public ::RPG::GameCore::TaskConfig
 	{

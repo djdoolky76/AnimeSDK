@@ -5,25 +5,25 @@ namespace RPG::Client::PetDiy { class PetDiyAreaInfo; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PETDIY_PARKPETDIYCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAC5110)
-#define RPG_CLIENT_PETDIY_PARKPETDIYCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAC5140)
-#define RPG_CLIENT_PETDIY_PARKPETDIYCONTROLLER___C___INITAREAS_B__14_0_OFFSET UNITYSDK_OFFSET(0xDAC5150)
+#define RPG_CLIENT_PETDIY_PARKPETDIYCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE51AF30)
+#define RPG_CLIENT_PETDIY_PARKPETDIYCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE51AF60)
+#define RPG_CLIENT_PETDIY_PARKPETDIYCONTROLLER___C___INITAREAS_B__14_0_OFFSET UNITYSDK_OFFSET(0xE51AF70)
 
 namespace RPG::Client::PetDiy
 {
-	inline static constexpr unsigned int ParkPetDiyController___c_TypeDefinitionIndex = 74478;
+	inline static constexpr unsigned int ParkPetDiyController___c_TypeDefinitionIndex = 76626;
 
 	class ParkPetDiyController___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x162A0);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::PetDiy::PetDiyAreaInfo*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PetDiy::PetDiyAreaInfo*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x162A8);
+			return (::System::Comparison_1<::RPG::Client::PetDiy::PetDiyAreaInfo*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x28000);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x28008);
 		}
 
 		static ::System::Void _cctor()

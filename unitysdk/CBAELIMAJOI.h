@@ -15,71 +15,71 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CBAELIMAJOI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DA00410)
-#define CBAELIMAJOI_BHDOMIGFBCJ_OFFSET UNITYSDK_OFFSET(0x1DA01150)
-#define CBAELIMAJOI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA01590)
-#define CBAELIMAJOI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DA00B70)
-#define CBAELIMAJOI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DA00450)
-#define CBAELIMAJOI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DA012B0)
-#define CBAELIMAJOI_HLPLHCPAKNF_OFFSET UNITYSDK_OFFSET(0x1DA010A0)
-#define CBAELIMAJOI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DA00BD0)
-#define CBAELIMAJOI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DA00C20)
-#define CBAELIMAJOI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DA00600)
-#define CBAELIMAJOI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DA01240)
-#define CBAELIMAJOI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DA01500)
-#define CBAELIMAJOI_MDDEBCEINEJ_OFFSET UNITYSDK_OFFSET(0x1DA007F0)
-#define CBAELIMAJOI_OKONOOJEJMJ_OFFSET UNITYSDK_OFFSET(0x1DA008F0)
-#define CBAELIMAJOI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DA00790)
-#define CBAELIMAJOI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DA011C0)
+#define CBAELIMAJOI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EBCBC80)
+#define CBAELIMAJOI_BHDOMIGFBCJ_OFFSET UNITYSDK_OFFSET(0x1EBCC9C0)
+#define CBAELIMAJOI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBCCE00)
+#define CBAELIMAJOI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EBCC3E0)
+#define CBAELIMAJOI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EBCBCC0)
+#define CBAELIMAJOI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EBCCB20)
+#define CBAELIMAJOI_HLPLHCPAKNF_OFFSET UNITYSDK_OFFSET(0x1EBCC910)
+#define CBAELIMAJOI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EBCC440)
+#define CBAELIMAJOI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EBCC490)
+#define CBAELIMAJOI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EBCBE70)
+#define CBAELIMAJOI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EBCCAB0)
+#define CBAELIMAJOI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EBCCD70)
+#define CBAELIMAJOI_MDDEBCEINEJ_OFFSET UNITYSDK_OFFSET(0x1EBCC060)
+#define CBAELIMAJOI_OKONOOJEJMJ_OFFSET UNITYSDK_OFFSET(0x1EBCC160)
+#define CBAELIMAJOI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EBCC000)
+#define CBAELIMAJOI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EBCCA30)
 
-inline static constexpr unsigned int CBAELIMAJOI_TypeDefinitionIndex = 15126;
+inline static constexpr unsigned int CBAELIMAJOI_TypeDefinitionIndex = 15282;
 
 	class CBAELIMAJOI : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::SpecialAvatarRelicSubValueRow*>** StaticGet_LMHLKOHMNAL()
-		{
-			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::SpecialAvatarRelicSubValueRow*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x3AEF0);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_KGADENKPMFA()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x3AEF8);
-		}
-
-		static ::OFLIAAOJPJC** StaticGet_MLGLBKACPBD()
-		{
-			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x3AF00);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x3AF08);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x3AF10);
-		}
-
-		static ::System::String** StaticGet_PCJBKGCDGPO()
-		{
-			return (::System::String**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x3AF18);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x4C440);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SpecialAvatarRelicSubValueRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SpecialAvatarRelicSubValueRow*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x3AF20);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::RPG::GameCore::SpecialAvatarRelicSubValueRow*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x4C448);
 		}
 
-		static ::System::Boolean* StaticGet_GDOFOFOCOLC()
+		static ::System::String** StaticGet_PCJBKGCDGPO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0xC8C0);
+			return (::System::String**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x4C450);
+		}
+
+		static ::OFLIAAOJPJC** StaticGet_MLGLBKACPBD()
+		{
+			return (::OFLIAAOJPJC**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x4C458);
+		}
+
+		static ::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::SpecialAvatarRelicSubValueRow*>** StaticGet_LMHLKOHMNAL()
+		{
+			return (::RPG::GameCore::TableLRUCache_2<::System::Object*, ::RPG::GameCore::SpecialAvatarRelicSubValueRow*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x4C460);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x4C468);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_KGADENKPMFA()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0x4C470);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0xC8C1);
+			return (::System::Boolean*)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0xF750);
+		}
+
+		static ::System::Boolean* StaticGet_GDOFOFOCOLC()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "CBAELIMAJOI")->GetStaticField(0xF751);
 		}
 
 		static ::System::Void _cctor()

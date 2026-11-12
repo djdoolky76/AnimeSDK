@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleExtraPropertyAddition_TypeDefinitionIndex = 24766;
+	inline static constexpr unsigned int BattleExtraPropertyAddition_TypeDefinitionIndex = 25244;
 
 	enum class BattleExtraPropertyAddition : ::System::Int32
 	{
@@ -12,5 +12,6 @@ namespace RPG::GameCore
 		EquipExtraRank = 2,
 		AvatarExtraRank = 3,
 		AvatarExtraSkillTreeLevel = 4,
+		AvatarExtraSkillLevel = 5,
 	};
 }

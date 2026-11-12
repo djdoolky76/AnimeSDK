@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD118930)
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD118970)
-#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__GET_IDLEEQUIPCOUNT_B__26_0_OFFSET UNITYSDK_OFFSET(0xD118980)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDADDCD0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDADDD10)
+#define RPG_CLIENT_GRIDFIGHTEQUIPINFO___C__GET_IDLEEQUIPCOUNT_B__26_0_OFFSET UNITYSDK_OFFSET(0xDADDD20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipInfo___c_TypeDefinitionIndex = 64962;
+	inline static constexpr unsigned int GridFightEquipInfo___c_TypeDefinitionIndex = 66549;
 
 	class GridFightEquipInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66630);
-		}
-
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66638);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DCE0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DCE8);
 		}
 
 		static ::System::Void _cctor()

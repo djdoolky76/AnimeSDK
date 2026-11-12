@@ -3,7 +3,7 @@
 
 namespace RPG::Client::UI3DGame
 {
-	inline static constexpr unsigned int MonopolyTrashBin_TrashBinState_TypeDefinitionIndex = 75816;
+	inline static constexpr unsigned int MonopolyTrashBin_TrashBinState_TypeDefinitionIndex = 78143;
 
 	enum class MonopolyTrashBin_TrashBinState : ::System::Int32
 	{

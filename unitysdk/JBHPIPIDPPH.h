@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BattleChangeAvatar_LeaveStage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBHPIPIDPPH_CTOR_OFFSET UNITYSDK_OFFSET(0x16570890)
-#define JBHPIPIDPPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165708C0)
+#define JBHPIPIDPPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A9870)
+#define JBHPIPIDPPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8A98A0)
 
-inline static constexpr unsigned int JBHPIPIDPPH_TypeDefinitionIndex = 54877;
+inline static constexpr unsigned int JBHPIPIDPPH_TypeDefinitionIndex = 56047;
 
 	class JBHPIPIDPPH
 	{

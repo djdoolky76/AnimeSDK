@@ -5,18 +5,18 @@ namespace RPG::GameCore { class RuanMadeCakeFeatureConfig; }
 namespace RPG::GameCore { class RuanMadeCakeFeatureMap; }
 namespace System { class String; }
 
-#define BPELBPKAMCI_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xC1A3E50)
-#define BPELBPKAMCI_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xC1A3D60)
-#define BPELBPKAMCI_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xC1A3E00)
+#define BPELBPKAMCI_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xCB449A0)
+#define BPELBPKAMCI_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xCB448B0)
+#define BPELBPKAMCI_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xCB44950)
 
-inline static constexpr unsigned int BPELBPKAMCI_TypeDefinitionIndex = 73305;
+inline static constexpr unsigned int BPELBPKAMCI_TypeDefinitionIndex = 75421;
 
 	class BPELBPKAMCI : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::RuanMadeCakeFeatureMap** StaticGet_JLCDNGKHHPJ()
 		{
-			return (::RPG::GameCore::RuanMadeCakeFeatureMap**)UnitySDK::FromName("", "BPELBPKAMCI")->GetStaticField(0xB280);
+			return (::RPG::GameCore::RuanMadeCakeFeatureMap**)UnitySDK::FromName("", "BPELBPKAMCI")->GetStaticField(0x730F0);
 		}
 
 		static ::System::Void HCFINLKPIHL()

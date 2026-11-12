@@ -6,11 +6,11 @@ class DGEPFHILKPM;
 class EGBIFFCBKEH;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NENKIHNDBKD_BJPKMLOAPKI_OFFSET UNITYSDK_OFFSET(0xBB73C30)
-#define NENKIHNDBKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB73B60)
-#define NENKIHNDBKD_FBCHIEODBOG_OFFSET UNITYSDK_OFFSET(0xBB73B70)
+#define NENKIHNDBKD_BJPKMLOAPKI_OFFSET UNITYSDK_OFFSET(0xC44EA10)
+#define NENKIHNDBKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC44E940)
+#define NENKIHNDBKD_FBCHIEODBOG_OFFSET UNITYSDK_OFFSET(0xC44E950)
 
-inline static constexpr unsigned int NENKIHNDBKD_TypeDefinitionIndex = 80161;
+inline static constexpr unsigned int NENKIHNDBKD_TypeDefinitionIndex = 82938;
 
 	class NENKIHNDBKD : public ::System::Object
 	{

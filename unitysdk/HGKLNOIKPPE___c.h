@@ -4,18 +4,18 @@
 class HGKLNOIKPPE;
 namespace System { class Object; }
 
-#define HGKLNOIKPPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E57CF10)
-#define HGKLNOIKPPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57CF40)
-#define HGKLNOIKPPE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E57CF50)
+#define HGKLNOIKPPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F877B70)
+#define HGKLNOIKPPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F877BA0)
+#define HGKLNOIKPPE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F877BB0)
 
-inline static constexpr unsigned int HGKLNOIKPPE___c_TypeDefinitionIndex = 30093;
+inline static constexpr unsigned int HGKLNOIKPPE___c_TypeDefinitionIndex = 30991;
 
 	class HGKLNOIKPPE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37930);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E1F0);
 		}
 
 		static ::System::Void _cctor()

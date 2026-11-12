@@ -5,25 +5,25 @@ namespace RPG::Client { class ChimeraBattlePuzzleArea; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC533B0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC533F0)
-#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__INIT_B__0_0_OFFSET UNITYSDK_OFFSET(0xDC53400)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE6F0220)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F0260)
+#define RPG_CLIENT_PROP_CHIMERABATTLEPUZZLESTREET___C__INIT_B__0_0_OFFSET UNITYSDK_OFFSET(0xE6F0270)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex = 78430;
+	inline static constexpr unsigned int ChimeraBattlePuzzleStreet___c_TypeDefinitionIndex = 81165;
 
 	class ChimeraBattlePuzzleStreet___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4AA80);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x51D40);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ChimeraBattlePuzzleArea*>** StaticGet___9__0_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChimeraBattlePuzzleArea*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4AA88);
+			return (::System::Comparison_1<::RPG::Client::ChimeraBattlePuzzleArea*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x51D48);
 		}
 
 		static ::System::Void _cctor()

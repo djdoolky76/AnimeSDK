@@ -4,18 +4,18 @@
 class JJAGFPLDCAF;
 namespace System { class Object; }
 
-#define JJAGFPLDCAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7582D0)
-#define JJAGFPLDCAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E758310)
-#define JJAGFPLDCAF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E758320)
+#define JJAGFPLDCAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA858E0)
+#define JJAGFPLDCAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA85920)
+#define JJAGFPLDCAF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FA85930)
 
-inline static constexpr unsigned int JJAGFPLDCAF___c_TypeDefinitionIndex = 31265;
+inline static constexpr unsigned int JJAGFPLDCAF___c_TypeDefinitionIndex = 32178;
 
 	class JJAGFPLDCAF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64EB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D6D0);
 		}
 
 		static ::System::Void _cctor()

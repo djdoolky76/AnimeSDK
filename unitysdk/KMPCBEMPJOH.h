@@ -7,24 +7,24 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMPCBEMPJOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB575560)
-#define KMPCBEMPJOH_GET_FOCUSENTERCOUNT_OFFSET UNITYSDK_OFFSET(0xB575370)
-#define KMPCBEMPJOH_GET_INITIALFOCUSITEM_OFFSET UNITYSDK_OFFSET(0xB575550)
-#define KMPCBEMPJOH_GET_ISFOCUSED_OFFSET UNITYSDK_OFFSET(0xB575350)
-#define KMPCBEMPJOH_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB575360)
-#define KMPCBEMPJOH_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xB575540)
-#define KMPCBEMPJOH_JKHIHPBHEEP_OFFSET UNITYSDK_OFFSET(0xB575380)
+#define KMPCBEMPJOH_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC1520)
+#define KMPCBEMPJOH_GET_FOCUSENTERCOUNT_OFFSET UNITYSDK_OFFSET(0xBDC1330)
+#define KMPCBEMPJOH_GET_INITIALFOCUSITEM_OFFSET UNITYSDK_OFFSET(0xBDC1510)
+#define KMPCBEMPJOH_GET_ISFOCUSED_OFFSET UNITYSDK_OFFSET(0xBDC1310)
+#define KMPCBEMPJOH_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xBDC1320)
+#define KMPCBEMPJOH_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xBDC1500)
+#define KMPCBEMPJOH_JKHIHPBHEEP_OFFSET UNITYSDK_OFFSET(0xBDC1340)
 
-inline static constexpr unsigned int KMPCBEMPJOH_TypeDefinitionIndex = 73475;
+inline static constexpr unsigned int KMPCBEMPJOH_TypeDefinitionIndex = 75598;
 
 	class KMPCBEMPJOH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::NABFBNBJNKK*>* _Items_k__BackingField; // 0x10
-		::R3::ReactiveProperty_1<::System::Boolean>* _IsFocused_k__BackingField; // 0x18
-		::R3::ReactiveProperty_1<::System::Boolean>* _IsSelected_k__BackingField; // 0x20
-		::R3::ReactiveProperty_1<::NABFBNBJNKK*>* _InitialFocusItem_k__BackingField; // 0x28
-		::R3::ReactiveProperty_1<::System::Int32>* _FocusEnterCount_k__BackingField; // 0x30
+		::R3::ReactiveProperty_1<::NABFBNBJNKK*>* _InitialFocusItem_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::NABFBNBJNKK*>* _Items_k__BackingField; // 0x18
+		::R3::ReactiveProperty_1<::System::Int32>* _FocusEnterCount_k__BackingField; // 0x20
+		::R3::ReactiveProperty_1<::System::Boolean>* _IsFocused_k__BackingField; // 0x28
+		::R3::ReactiveProperty_1<::System::Boolean>* _IsSelected_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KMPCBEMPJOH_CTOR_OFFSET))(this);

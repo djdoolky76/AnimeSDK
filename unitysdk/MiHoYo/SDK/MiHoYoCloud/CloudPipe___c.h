@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B4B0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE9B4F0)
-#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CONNECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1BE9B500)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D023650)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D023690)
+#define MIHOYO_SDK_MIHOYOCLOUD_CLOUDPIPE___C__CONNECT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1D0236A0)
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
-	inline static constexpr unsigned int CloudPipe___c_TypeDefinitionIndex = 9138;
+	inline static constexpr unsigned int CloudPipe___c_TypeDefinitionIndex = 9147;
 
 	class CloudPipe___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x10B00);
-		}
-
 		static ::System::Action_1<::Il2CppArray<::System::Byte>*>** StaticGet___9__9_0()
 		{
-			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x10B08);
+			return (::System::Action_1<::Il2CppArray<::System::Byte>*>**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x98C0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.MiHoYoCloud", "<>c")->GetStaticField(0x98C8);
 		}
 
 		static ::System::Void _cctor()

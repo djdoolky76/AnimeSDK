@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class PBNOGIFIKBC;
 
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCD08A00)
-#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS27_0__CONTAINSDIMENSION_B__0_OFFSET UNITYSDK_OFFSET(0xCD0A540)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C9FC0)
+#define RPG_CLIENT_EARLYACCESSCONTENT___C__DISPLAYCLASS27_0__CONTAINSDIMENSION_B__0_OFFSET UNITYSDK_OFFSET(0xD6CBAF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EarlyAccessContent___c__DisplayClass27_0_TypeDefinitionIndex = 63644;
+	inline static constexpr unsigned int EarlyAccessContent___c__DisplayClass27_0_TypeDefinitionIndex = 65086;
 
 	class EarlyAccessContent___c__DisplayClass27_0 : public ::System::Object
 	{

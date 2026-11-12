@@ -6,17 +6,17 @@ class HKLAOIMONBG;
 namespace RPG::Client { class BaseGameFlow; }
 namespace System { class Exception; }
 
-#define HKLAOIMONBG___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4B300)
-#define HKLAOIMONBG___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x15D4B3F0)
-#define HKLAOIMONBG___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x15D4B4F0)
+#define HKLAOIMONBG___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16CA1B70)
+#define HKLAOIMONBG___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__0_OFFSET UNITYSDK_OFFSET(0x16CA1C60)
+#define HKLAOIMONBG___C__DISPLAYCLASS4_0___DOENTERGAMEFLOW_B__1_OFFSET UNITYSDK_OFFSET(0x16CA1D60)
 
-inline static constexpr unsigned int HKLAOIMONBG___c__DisplayClass4_0_TypeDefinitionIndex = 58172;
+inline static constexpr unsigned int HKLAOIMONBG___c__DisplayClass4_0_TypeDefinitionIndex = 59425;
 
 	class HKLAOIMONBG___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::FHFCJKKKNLP* gameFlowPrepareService; // 0x10
-		::HKLAOIMONBG* __4__this; // 0x18
+		::HKLAOIMONBG* __4__this; // 0x10
+		::FHFCJKKKNLP* gameFlowPrepareService; // 0x18
 		::System::Boolean needShowStageProgressPage; // 0x20
 		::System::Void _ctor()
 		{

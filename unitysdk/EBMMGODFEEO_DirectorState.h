@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EBMMGODFEEO_DirectorState_TypeDefinitionIndex = 48493;
+inline static constexpr unsigned int EBMMGODFEEO_DirectorState_TypeDefinitionIndex = 49534;
 
 	enum class EBMMGODFEEO_DirectorState : ::System::Int32
 	{

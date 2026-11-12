@@ -8,13 +8,13 @@ namespace RPG::GameCore { class PlayFullScreenTransfer; }
 namespace RPG::GameCore { class ScreenTransferBaseAction; }
 namespace RPG::GameCore { class ScreenTransferTextInfo; }
 
-#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92D410)
-#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D92D430)
-#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92D3C0)
+#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB46580)
+#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB465A0)
+#define RPG_GAMECORE_PLAYFULLSCREENTRANSFER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB46530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayFullScreenTransfer_TypeDefinitionIndex = 20862;
+	inline static constexpr unsigned int PlayFullScreenTransfer_TypeDefinitionIndex = 21199;
 
 	class PlayFullScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{

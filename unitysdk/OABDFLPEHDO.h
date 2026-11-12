@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 class NDPFOOJIAIJ;
 
-#define OABDFLPEHDO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD18E90)
-#define OABDFLPEHDO_KLICCELODLB_OFFSET UNITYSDK_OFFSET(0xBD18910)
-#define OABDFLPEHDO_LKAFOOENJID_OFFSET UNITYSDK_OFFSET(0xBD18970)
+#define OABDFLPEHDO_CTOR_OFFSET UNITYSDK_OFFSET(0xC617650)
+#define OABDFLPEHDO_KLICCELODLB_OFFSET UNITYSDK_OFFSET(0xC6170B0)
+#define OABDFLPEHDO_LKAFOOENJID_OFFSET UNITYSDK_OFFSET(0xC617110)
 
-inline static constexpr unsigned int OABDFLPEHDO_TypeDefinitionIndex = 64746;
+inline static constexpr unsigned int OABDFLPEHDO_TypeDefinitionIndex = 66288;
 
 	class OABDFLPEHDO : public ::System::Object
 	{
 	public:
-		::System::UInt32 BDAAMNHJOIC; // 0x10
-		::System::UInt32 BPEOPJPCCHD; // 0x14
-		::System::UInt32 MJFIKMCKMAD; // 0x18
+		::System::UInt32 MJFIKMCKMAD; // 0x10
+		::System::UInt32 BDAAMNHJOIC; // 0x14
+		::System::UInt32 BPEOPJPCCHD; // 0x18
 		::System::UInt32 BPOJBDLBKMC; // 0x1C
 		::System::Void _ctor()
 		{

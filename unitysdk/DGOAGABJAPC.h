@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class TeamDataComponent; }
 
-inline static constexpr unsigned int DGOAGABJAPC_TypeDefinitionIndex = 55831;
+inline static constexpr unsigned int DGOAGABJAPC_TypeDefinitionIndex = 57034;
 
 	struct alignas(8) DGOAGABJAPC
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SCENELIGHTSTAGEDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xE95EE60)
+#define SCENELIGHTSTAGEDATAITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xF47D6B0)
 
-inline static constexpr unsigned int SceneLightStageDataItem_TypeDefinitionIndex = 47389;
+inline static constexpr unsigned int SceneLightStageDataItem_TypeDefinitionIndex = 48418;
 
 	class SceneLightStageDataItem : public ::System::Object
 	{

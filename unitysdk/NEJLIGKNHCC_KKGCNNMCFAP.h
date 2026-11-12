@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/Client/EPedestrianV2MotionState.h"
 namespace RPG::GameCore { class LevelPedestrianV2MemberInfo; }
 
-inline static constexpr unsigned int NEJLIGKNHCC_KKGCNNMCFAP_TypeDefinitionIndex = 69296;
+inline static constexpr unsigned int NEJLIGKNHCC_KKGCNNMCFAP_TypeDefinitionIndex = 71250;
 
 	struct alignas(8) NEJLIGKNHCC_KKGCNNMCFAP
 	{

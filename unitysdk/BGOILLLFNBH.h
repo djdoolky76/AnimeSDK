@@ -9,30 +9,30 @@ namespace RPG::Client { class TimeSpaceCrisscrossLightsBehavior_LLOPNELAIGC; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BGOILLLFNBH_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xB469E20)
-#define BGOILLLFNBH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB46BEC0)
-#define BGOILLLFNBH_CMOOFJOLBAF_OFFSET UNITYSDK_OFFSET(0xB46BCF0)
-#define BGOILLLFNBH_COPKIGDEEIN_OFFSET UNITYSDK_OFFSET(0xB46BB30)
-#define BGOILLLFNBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB469BA0)
-#define BGOILLLFNBH_DMBEPACJNPO_OFFSET UNITYSDK_OFFSET(0xB46B970)
-#define BGOILLLFNBH_FPDBLBFEICB_OFFSET UNITYSDK_OFFSET(0xB46ACA0)
-#define BGOILLLFNBH_GBEBHDAKHAL_OFFSET UNITYSDK_OFFSET(0xB469EC0)
-#define BGOILLLFNBH_PFFFGEDFLPK_OFFSET UNITYSDK_OFFSET(0xB46BA50)
+#define BGOILLLFNBH_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xBB22210)
+#define BGOILLLFNBH_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB24290)
+#define BGOILLLFNBH_CMOOFJOLBAF_OFFSET UNITYSDK_OFFSET(0xBB240C0)
+#define BGOILLLFNBH_COPKIGDEEIN_OFFSET UNITYSDK_OFFSET(0xBB23F00)
+#define BGOILLLFNBH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB21F90)
+#define BGOILLLFNBH_DMBEPACJNPO_OFFSET UNITYSDK_OFFSET(0xBB23D40)
+#define BGOILLLFNBH_FPDBLBFEICB_OFFSET UNITYSDK_OFFSET(0xBB23080)
+#define BGOILLLFNBH_GBEBHDAKHAL_OFFSET UNITYSDK_OFFSET(0xBB222B0)
+#define BGOILLLFNBH_PFFFGEDFLPK_OFFSET UNITYSDK_OFFSET(0xBB23E20)
 
-inline static constexpr unsigned int BGOILLLFNBH_TypeDefinitionIndex = 70236;
+inline static constexpr unsigned int BGOILLLFNBH_TypeDefinitionIndex = 72202;
 
 	class BGOILLLFNBH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::PIINMLJJIAF*>* JOICGHIMGDN; // 0x10
-		::OHIFOGLGAKI* EHJGKDIFINJ; // 0x18
-		::System::Collections::Generic::Dictionary_2<::IDEFMHBFDKL*, ::PIINMLJJIAF*>* CKINPNIALOA; // 0x20
-		::System::Collections::Generic::Dictionary_2<::IDEFMHBFDKL*, ::PIINMLJJIAF*>* ACBLKAECPNE; // 0x28
+		::System::Collections::Generic::Dictionary_2<::IDEFMHBFDKL*, ::PIINMLJJIAF*>* ACBLKAECPNE; // 0x10
+		::System::Collections::Generic::Dictionary_2<::IDEFMHBFDKL*, ::PIINMLJJIAF*>* CKINPNIALOA; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::PIINMLJJIAF*>* JOICGHIMGDN; // 0x20
+		::OHIFOGLGAKI* EHJGKDIFINJ; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::Object*, ::PIINMLJJIAF*>* JPMIGLBGPIP; // 0x30
 		::UnityEngine::Vector3 PECPBEOHOJC; // 0x38
 		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_BOMDLHIEJHJ()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BGOILLLFNBH")->GetStaticField(0x6ED20);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "BGOILLLFNBH")->GetStaticField(0x6B0A0);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::UnityEngine::Vector3 a2)

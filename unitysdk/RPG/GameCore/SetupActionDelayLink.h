@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ActionDelayLinkExtraBehaviorGroup; }
 namespace RPG::GameCore { class SetupActionDelayLink; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETUPACTIONDELAYLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DACC530)
-#define RPG_GAMECORE_SETUPACTIONDELAYLINK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DACC540)
-#define RPG_GAMECORE_SETUPACTIONDELAYLINK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DACC500)
+#define RPG_GAMECORE_SETUPACTIONDELAYLINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECDE390)
+#define RPG_GAMECORE_SETUPACTIONDELAYLINK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECDE3A0)
+#define RPG_GAMECORE_SETUPACTIONDELAYLINK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECDE360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupActionDelayLink_TypeDefinitionIndex = 23270;
+	inline static constexpr unsigned int SetupActionDelayLink_TypeDefinitionIndex = 23710;
 
 	class SetupActionDelayLink : public ::RPG::GameCore::TaskConfig
 	{

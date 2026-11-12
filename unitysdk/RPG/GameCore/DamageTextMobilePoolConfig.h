@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DamageTextMobilePoolConfig; }
 namespace RPG::GameCore { class DamageTextTeamPoolConfig; }
 
-#define RPG_GAMECORE_DAMAGETEXTMOBILEPOOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F2630)
-#define RPG_GAMECORE_DAMAGETEXTMOBILEPOOLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5F2570)
+#define RPG_GAMECORE_DAMAGETEXTMOBILEPOOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8045E0)
+#define RPG_GAMECORE_DAMAGETEXTMOBILEPOOLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E804520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DamageTextMobilePoolConfig_TypeDefinitionIndex = 17143;
+	inline static constexpr unsigned int DamageTextMobilePoolConfig_TypeDefinitionIndex = 17310;
 
 	class DamageTextMobilePoolConfig : public ::RPG::GameCore::JsonConfig
 	{

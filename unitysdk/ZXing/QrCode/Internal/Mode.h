@@ -5,15 +5,15 @@ namespace System { class String; }
 namespace ZXing::QrCode::Internal { class Mode; }
 namespace ZXing::QrCode::Internal { class Version; }
 
-#define ZXING_QRCODE_INTERNAL_MODE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6DC690)
-#define ZXING_QRCODE_INTERNAL_MODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6DC660)
-#define ZXING_QRCODE_INTERNAL_MODE_GETCHARACTERCOUNTBITS_OFFSET UNITYSDK_OFFSET(0x1F6D5C30)
-#define ZXING_QRCODE_INTERNAL_MODE_GET_BITS_OFFSET UNITYSDK_OFFSET(0x1F6DC670)
-#define ZXING_QRCODE_INTERNAL_MODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F6DC680)
+#define ZXING_QRCODE_INTERNAL_MODE_CCTOR_OFFSET UNITYSDK_OFFSET(0x2098BC40)
+#define ZXING_QRCODE_INTERNAL_MODE_CTOR_OFFSET UNITYSDK_OFFSET(0x2098BC10)
+#define ZXING_QRCODE_INTERNAL_MODE_GETCHARACTERCOUNTBITS_OFFSET UNITYSDK_OFFSET(0x20985250)
+#define ZXING_QRCODE_INTERNAL_MODE_GET_BITS_OFFSET UNITYSDK_OFFSET(0x2098BC20)
+#define ZXING_QRCODE_INTERNAL_MODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2098BC30)
 
 namespace ZXing::QrCode::Internal
 {
-	inline static constexpr unsigned int Mode_TypeDefinitionIndex = 7040;
+	inline static constexpr unsigned int Mode_TypeDefinitionIndex = 7051;
 
 	class Mode : public ::System::Object
 	{
@@ -23,52 +23,52 @@ namespace ZXing::QrCode::Internal
 		::System::Int32 bits; // 0x20
 		static ::ZXing::QrCode::Internal::Mode** StaticGet_ECI()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23400);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_HANZI()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23408);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_BYTE()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23410);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_KANJI()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23418);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_STRUCTURED_APPEND()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23420);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_TERMINATOR()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23428);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_FNC1_SECOND_POSITION()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23430);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_FNC1_FIRST_POSITION()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23438);
-		}
-
-		static ::ZXing::QrCode::Internal::Mode** StaticGet_NUMERIC()
-		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23440);
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448C0);
 		}
 
 		static ::ZXing::QrCode::Internal::Mode** StaticGet_ALPHANUMERIC()
 		{
-			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x23448);
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448C8);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_NUMERIC()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448D0);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_BYTE()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448D8);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_HANZI()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448E0);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_KANJI()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448E8);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_TERMINATOR()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448F0);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_FNC1_SECOND_POSITION()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x448F8);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_FNC1_FIRST_POSITION()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x44900);
+		}
+
+		static ::ZXing::QrCode::Internal::Mode** StaticGet_STRUCTURED_APPEND()
+		{
+			return (::ZXing::QrCode::Internal::Mode**)UnitySDK::FromName("ZXing.QrCode.Internal", "Mode")->GetStaticField(0x44908);
 		}
 
 		::System::Void _ctor(::Il2CppArray<::System::Int32>* a1, ::System::Int32 a2, ::System::String* a3)

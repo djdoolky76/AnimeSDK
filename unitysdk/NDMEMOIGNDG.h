@@ -8,29 +8,29 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NDMEMOIGNDG_BBEGCJHDGHL_OFFSET UNITYSDK_OFFSET(0xBB50DE0)
-#define NDMEMOIGNDG_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xBB50530)
-#define NDMEMOIGNDG_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB50F20)
-#define NDMEMOIGNDG_OMNGJIFEIFH_OFFSET UNITYSDK_OFFSET(0xBB50910)
+#define NDMEMOIGNDG_BBEGCJHDGHL_OFFSET UNITYSDK_OFFSET(0xC3DA4A0)
+#define NDMEMOIGNDG_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xC3D9C10)
+#define NDMEMOIGNDG_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3DA5E0)
+#define NDMEMOIGNDG_OMNGJIFEIFH_OFFSET UNITYSDK_OFFSET(0xC3D9FD0)
 
-inline static constexpr unsigned int NDMEMOIGNDG_TypeDefinitionIndex = 69266;
+inline static constexpr unsigned int NDMEMOIGNDG_TypeDefinitionIndex = 71220;
 
 	class NDMEMOIGNDG : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::CBOICBCAHBE*>** StaticGet_JIGBCKKNLOA()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::CBOICBCAHBE*>**)UnitySDK::FromName("", "NDMEMOIGNDG")->GetStaticField(0x2DD00);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_JCMHNBPCBBO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "NDMEMOIGNDG")->GetStaticField(0x2DD08);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "NDMEMOIGNDG")->GetStaticField(0x26CE0);
 		}
 
 		static ::System::Collections::Generic::List_1<::CBOICBCAHBE*>** StaticGet_EAMPGPHCHHL()
 		{
-			return (::System::Collections::Generic::List_1<::CBOICBCAHBE*>**)UnitySDK::FromName("", "NDMEMOIGNDG")->GetStaticField(0x2DD10);
+			return (::System::Collections::Generic::List_1<::CBOICBCAHBE*>**)UnitySDK::FromName("", "NDMEMOIGNDG")->GetStaticField(0x26CE8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::CBOICBCAHBE*>** StaticGet_JIGBCKKNLOA()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::CBOICBCAHBE*>**)UnitySDK::FromName("", "NDMEMOIGNDG")->GetStaticField(0x26CF0);
 		}
 
 		static ::System::Void _cctor()

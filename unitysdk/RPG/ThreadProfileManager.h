@@ -7,35 +7,35 @@ namespace System { class String; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentBag_1; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 
-#define RPG_THREADPROFILEMANAGER_ADDPROFILER_OFFSET UNITYSDK_OFFSET(0x1EBBB700)
-#define RPG_THREADPROFILEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBBCB40)
-#define RPG_THREADPROFILEMANAGER_COLLECTINFOS_OFFSET UNITYSDK_OFFSET(0x1EBBB790)
-#define RPG_THREADPROFILEMANAGER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1EBB7DA0)
-#define RPG_THREADPROFILEMANAGER_EXPORTTHREADTIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x1EBBBB80)
-#define RPG_THREADPROFILEMANAGER_GETMARKERNAMESSTR_OFFSET UNITYSDK_OFFSET(0x1EBBB950)
-#define RPG_THREADPROFILEMANAGER_GETPROFILELIST_OFFSET UNITYSDK_OFFSET(0x1EBBB560)
-#define RPG_THREADPROFILEMANAGER_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1EBBB7A0)
+#define RPG_THREADPROFILEMANAGER_ADDPROFILER_OFFSET UNITYSDK_OFFSET(0x1FE6EDC0)
+#define RPG_THREADPROFILEMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE70200)
+#define RPG_THREADPROFILEMANAGER_COLLECTINFOS_OFFSET UNITYSDK_OFFSET(0x1FE6EE50)
+#define RPG_THREADPROFILEMANAGER_DISPATCHTOMAINTHREAD_OFFSET UNITYSDK_OFFSET(0x1FE6B400)
+#define RPG_THREADPROFILEMANAGER_EXPORTTHREADTIMESAMPLES_OFFSET UNITYSDK_OFFSET(0x1FE6F240)
+#define RPG_THREADPROFILEMANAGER_GETMARKERNAMESSTR_OFFSET UNITYSDK_OFFSET(0x1FE6F010)
+#define RPG_THREADPROFILEMANAGER_GETPROFILELIST_OFFSET UNITYSDK_OFFSET(0x1FE6EC20)
+#define RPG_THREADPROFILEMANAGER_ONLATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1FE6EE60)
 
 namespace RPG
 {
-	inline static constexpr unsigned int ThreadProfileManager_TypeDefinitionIndex = 35155;
+	inline static constexpr unsigned int ThreadProfileManager_TypeDefinitionIndex = 36083;
 
 	class ThreadProfileManager : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentBag_1<::RPG::ThreadStatProfiler*>** StaticGet_AllProfilers()
 		{
-			return (::System::Collections::Concurrent::ConcurrentBag_1<::RPG::ThreadStatProfiler*>**)UnitySDK::FromName("RPG", "ThreadProfileManager")->GetStaticField(0x870);
+			return (::System::Collections::Concurrent::ConcurrentBag_1<::RPG::ThreadStatProfiler*>**)UnitySDK::FromName("RPG", "ThreadProfileManager")->GetStaticField(0x820);
 		}
 
 		static ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>** StaticGet_MainThreadCmdQueue()
 		{
-			return (::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>**)UnitySDK::FromName("RPG", "ThreadProfileManager")->GetStaticField(0x878);
+			return (::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>**)UnitySDK::FromName("RPG", "ThreadProfileManager")->GetStaticField(0x828);
 		}
 
 		static ::Il2CppArray<::RPG::ThreadStatProfiler*>** StaticGet_ProfileListTemp()
 		{
-			return (::Il2CppArray<::RPG::ThreadStatProfiler*>**)UnitySDK::FromName("RPG", "ThreadProfileManager")->GetStaticField(0x880);
+			return (::Il2CppArray<::RPG::ThreadStatProfiler*>**)UnitySDK::FromName("RPG", "ThreadProfileManager")->GetStaticField(0x830);
 		}
 
 		static ::System::Boolean* StaticGet_bEnableProfile()

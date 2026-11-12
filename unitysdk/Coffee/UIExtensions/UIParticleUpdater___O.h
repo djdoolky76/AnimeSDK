@@ -5,14 +5,14 @@ namespace System { class Action; }
 
 namespace Coffee::UIExtensions
 {
-	inline static constexpr unsigned int UIParticleUpdater___O_TypeDefinitionIndex = 45163;
+	inline static constexpr unsigned int UIParticleUpdater___O_TypeDefinitionIndex = 40876;
 
 	class UIParticleUpdater___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___Refresh()
 		{
-			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>O")->GetStaticField(0x1060);
+			return (::System::Action**)UnitySDK::FromName("Coffee.UIExtensions", "<>O")->GetStaticField(0xBA0);
 		}
 
 	};

@@ -3,10 +3,10 @@
 class AMODLAOOHCO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKIOCLBBOFE_CTOR_OFFSET UNITYSDK_OFFSET(0x15506490)
-#define EKIOCLBBOFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155064C0)
+#define EKIOCLBBOFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1644ED60)
+#define EKIOCLBBOFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1644ED90)
 
-inline static constexpr unsigned int EKIOCLBBOFE_TypeDefinitionIndex = 53301;
+inline static constexpr unsigned int EKIOCLBBOFE_TypeDefinitionIndex = 54463;
 
 	class EKIOCLBBOFE
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ATTACHAVATARCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4014A0)
-#define RPG_GAMECORE_ATTACHAVATARCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D401510)
-#define RPG_GAMECORE_ATTACHAVATARCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D401410)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E621710)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E621780)
+#define RPG_GAMECORE_ATTACHAVATARCHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E621680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttachAvatarChange_TypeDefinitionIndex = 23612;
+	inline static constexpr unsigned int AttachAvatarChange_TypeDefinitionIndex = 24059;
 
 	class AttachAvatarChange : public ::RPG::GameCore::TaskConfig
 	{

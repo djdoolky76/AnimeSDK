@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleCollegeStageIntroRow; }
 
-#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4547A0)
-#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4545E0)
+#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6641E0)
+#define RPG_GAMECORE_BATTLECOLLEGESTAGEINTROROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E664020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCollegeStageIntroRow_TypeDefinitionIndex = 12838;
+	inline static constexpr unsigned int BattleCollegeStageIntroRow_TypeDefinitionIndex = 12910;
 
 	class BattleCollegeStageIntroRow : public ::System::Object
 	{

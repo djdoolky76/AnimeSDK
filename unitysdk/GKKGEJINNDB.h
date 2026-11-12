@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsActivityInSchedule; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKKGEJINNDB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A9E2B0)
-#define GKKGEJINNDB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A9E2E0)
+#define GKKGEJINNDB_CTOR_OFFSET UNITYSDK_OFFSET(0x169DAFC0)
+#define GKKGEJINNDB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169DAFF0)
 
-inline static constexpr unsigned int GKKGEJINNDB_TypeDefinitionIndex = 52600;
+inline static constexpr unsigned int GKKGEJINNDB_TypeDefinitionIndex = 53707;
 
 	class GKKGEJINNDB
 	{

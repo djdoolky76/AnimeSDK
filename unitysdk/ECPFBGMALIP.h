@@ -15,30 +15,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ECPFBGMALIP_AOBHBJHANFI_1_OFFSET UNITYSDK_OFFSET(0x12D17BF0)
-#define ECPFBGMALIP_AOBHBJHANFI_OFFSET UNITYSDK_OFFSET(0x12D16FD0)
-#define ECPFBGMALIP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x12D168B0)
-#define ECPFBGMALIP_CTOR_OFFSET UNITYSDK_OFFSET(0x12D16A80)
-#define ECPFBGMALIP_DPGIJKFBDOF_OFFSET UNITYSDK_OFFSET(0x12D16CB0)
-#define ECPFBGMALIP_EEDHFGLHMAA_OFFSET UNITYSDK_OFFSET(0x12D18090)
-#define ECPFBGMALIP_EJBCJAPMECH_OFFSET UNITYSDK_OFFSET(0x12D16BF0)
-#define ECPFBGMALIP_FPMOEHJELID_OFFSET UNITYSDK_OFFSET(0x12D16860)
-#define ECPFBGMALIP_GFJKECKDOGC_OFFSET UNITYSDK_OFFSET(0x12D16D10)
-#define ECPFBGMALIP_IBFFEPGNBCM_OFFSET UNITYSDK_OFFSET(0x12D17460)
-#define ECPFBGMALIP_IOGBJKLPAAK_OFFSET UNITYSDK_OFFSET(0x12D17FB0)
-#define ECPFBGMALIP_NIBNOMPBOPL_OFFSET UNITYSDK_OFFSET(0x12D18130)
+#define ECPFBGMALIP_AOBHBJHANFI_1_OFFSET UNITYSDK_OFFSET(0x140BF940)
+#define ECPFBGMALIP_AOBHBJHANFI_OFFSET UNITYSDK_OFFSET(0x140BED20)
+#define ECPFBGMALIP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x140BE640)
+#define ECPFBGMALIP_CTOR_OFFSET UNITYSDK_OFFSET(0x140BE7F0)
+#define ECPFBGMALIP_DPGIJKFBDOF_OFFSET UNITYSDK_OFFSET(0x140BEA00)
+#define ECPFBGMALIP_EEDHFGLHMAA_OFFSET UNITYSDK_OFFSET(0x140BFDE0)
+#define ECPFBGMALIP_EJBCJAPMECH_OFFSET UNITYSDK_OFFSET(0x140BE940)
+#define ECPFBGMALIP_FPMOEHJELID_OFFSET UNITYSDK_OFFSET(0x140BE5F0)
+#define ECPFBGMALIP_GFJKECKDOGC_OFFSET UNITYSDK_OFFSET(0x140BEA60)
+#define ECPFBGMALIP_IBFFEPGNBCM_OFFSET UNITYSDK_OFFSET(0x140BF1B0)
+#define ECPFBGMALIP_IOGBJKLPAAK_OFFSET UNITYSDK_OFFSET(0x140BFD00)
+#define ECPFBGMALIP_NIBNOMPBOPL_OFFSET UNITYSDK_OFFSET(0x140BFE80)
 
-inline static constexpr unsigned int ECPFBGMALIP_TypeDefinitionIndex = 74605;
+inline static constexpr unsigned int ECPFBGMALIP_TypeDefinitionIndex = 76753;
 
 	class ECPFBGMALIP : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>* AFOPLGLPMKK; // 0x10
-		::FFCGHKGDAJF* DCOPELFHOLO; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* EAPOGCIPOIO; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MJOBGAACNDC*>* KIMKMPPNJEI; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* KADGKBFMELL; // 0x30
-		::System::Collections::Generic::List_1<::DJJFECDBGIK*>* CAEIHNOCJDC; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::MJOBGAACNDC*>* KIMKMPPNJEI; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* KADGKBFMELL; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* EAPOGCIPOIO; // 0x28
+		::System::Collections::Generic::List_1<::DJJFECDBGIK*>* CAEIHNOCJDC; // 0x30
+		::FFCGHKGDAJF* DCOPELFHOLO; // 0x38
 		::System::Void _ctor(::FFCGHKGDAJF* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>* a2, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::FFCGHKGDAJF*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::LevelNavNodeInfo>*, ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>, ::System::Collections::Generic::List_1<::RPG::GameCore::LevelNavNodeTransitInfo>*>*))((::PBYTE)hIl2Cpp + ECPFBGMALIP_CTOR_OFFSET))(this, a1, a2, a3);

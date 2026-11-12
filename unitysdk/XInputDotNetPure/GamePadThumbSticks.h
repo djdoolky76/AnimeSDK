@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/XInputDotNetPure/GamePadThumbSticks_StickValue.h"
 
-#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
+#define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
 #define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_LEFT_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define XINPUTDOTNETPURE_GAMEPADTHUMBSTICKS_GET_RIGHT_OFFSET UNITYSDK_OFFSET(0x1D40)
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadThumbSticks_TypeDefinitionIndex = 40783;
+	inline static constexpr unsigned int GamePadThumbSticks_TypeDefinitionIndex = 41758;
 
 	struct alignas(4) GamePadThumbSticks
 	{

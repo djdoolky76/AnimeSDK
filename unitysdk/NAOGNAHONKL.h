@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvEntityModifyCameraRootTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NAOGNAHONKL_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA96F0)
-#define NAOGNAHONKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAA9720)
+#define NAOGNAHONKL_CTOR_OFFSET UNITYSDK_OFFSET(0xC32E4A0)
+#define NAOGNAHONKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC32E4D0)
 
-inline static constexpr unsigned int NAOGNAHONKL_TypeDefinitionIndex = 52366;
+inline static constexpr unsigned int NAOGNAHONKL_TypeDefinitionIndex = 53472;
 
 	class NAOGNAHONKL
 	{

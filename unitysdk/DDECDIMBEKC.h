@@ -4,7 +4,7 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-inline static constexpr unsigned int DDECDIMBEKC_TypeDefinitionIndex = 58247;
+inline static constexpr unsigned int DDECDIMBEKC_TypeDefinitionIndex = 59503;
 
 	struct alignas(8) DDECDIMBEKC
 	{

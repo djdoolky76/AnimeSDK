@@ -11,29 +11,29 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59A2C0)
-#define RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D599EA0)
+#define RPG_GAMECORE_CHIMERADATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AAD20)
+#define RPG_GAMECORE_CHIMERADATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7AA900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDataRow_TypeDefinitionIndex = 13017;
+	inline static constexpr unsigned int ChimeraDataRow_TypeDefinitionIndex = 13085;
 
 	class ChimeraDataRow : public ::System::Object
 	{
 	public:
-		::System::String* DataJson; // 0x10
-		::System::String* VoiceType; // 0x18
-		::System::String* ChimeraIcon; // 0x20
-		::RPG::GameCore::ChimeraEyeDetailType Eye; // 0x28
-		::RPG::GameCore::ChimeraMemberType Type; // 0x2C
-		::System::UInt32 DisplayID; // 0x30
-		::RPG::GameCore::ChimeraTailPartType Tail; // 0x34
-		::RPG::GameCore::ChimeraMaterialType Body; // 0x38
-		::System::UInt32 RaritySetting; // 0x3C
-		::System::UInt32 ChimeraID; // 0x40
-		::RPG::GameCore::ChimeraWingsPartType Wing; // 0x44
-		::System::Single Sort; // 0x48
-		::RPG::GameCore::ChimeraHornsPartType Horn; // 0x4C
+		::System::String* ChimeraIcon; // 0x10
+		::System::String* DataJson; // 0x18
+		::System::String* VoiceType; // 0x20
+		::RPG::GameCore::ChimeraMemberType Type; // 0x28
+		::System::UInt32 ChimeraID; // 0x2C
+		::RPG::GameCore::ChimeraWingsPartType Wing; // 0x30
+		::RPG::GameCore::ChimeraHornsPartType Horn; // 0x34
+		::System::UInt32 DisplayID; // 0x38
+		::System::Single Sort; // 0x3C
+		::RPG::GameCore::ChimeraEyeDetailType Eye; // 0x40
+		::RPG::GameCore::ChimeraMaterialType Body; // 0x44
+		::RPG::GameCore::ChimeraTailPartType Tail; // 0x48
+		::System::UInt32 RaritySetting; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADATAROW_CTOR_OFFSET))(this);

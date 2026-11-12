@@ -4,14 +4,14 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureCharacterFootIKConfig; }
 
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3C74C0)
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C7480)
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1D3C7490)
-#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C6870)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5D66B0)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D6670)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1E5D6680)
+#define RPG_GAMECORE_ADVENTURECHARACTERFOOTIKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5D59C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterFootIKConfig_TypeDefinitionIndex = 17435;
+	inline static constexpr unsigned int AdventureCharacterFootIKConfig_TypeDefinitionIndex = 17603;
 
 	class AdventureCharacterFootIKConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -21,7 +21,7 @@ namespace RPG::GameCore
 		::System::Single FootHeightOffset; // 0x18
 		static ::RPG::GameCore::AdventureCharacterFootIKConfig** StaticGet__Default_k__BackingField()
 		{
-			return (::RPG::GameCore::AdventureCharacterFootIKConfig**)UnitySDK::FromName("RPG.GameCore", "AdventureCharacterFootIKConfig")->GetStaticField(0x498B0);
+			return (::RPG::GameCore::AdventureCharacterFootIKConfig**)UnitySDK::FromName("RPG.GameCore", "AdventureCharacterFootIKConfig")->GetStaticField(0x3F980);
 		}
 
 		::System::Void _ctor()

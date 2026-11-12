@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define DFELFHOKCDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD15720)
+#define DFELFHOKCDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEE1AD0)
 
-inline static constexpr unsigned int DFELFHOKCDF_TypeDefinitionIndex = 24995;
+inline static constexpr unsigned int DFELFHOKCDF_TypeDefinitionIndex = 25475;
 
 	class DFELFHOKCDF : public ::System::Attribute
 	{

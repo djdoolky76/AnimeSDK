@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Animator; }
 
-#define OEPIJBDIDIC_HBIFBJENIIK_OFFSET UNITYSDK_OFFSET(0x24120)
-#define OEPIJBDIDIC_NKBAHKJGEFM_OFFSET UNITYSDK_OFFSET(0x24110)
+#define OEPIJBDIDIC_HBIFBJENIIK_OFFSET UNITYSDK_OFFSET(0x29370)
+#define OEPIJBDIDIC_NKBAHKJGEFM_OFFSET UNITYSDK_OFFSET(0x29360)
 
-inline static constexpr unsigned int OEPIJBDIDIC_TypeDefinitionIndex = 73328;
+inline static constexpr unsigned int OEPIJBDIDIC_TypeDefinitionIndex = 75445;
 
 	struct alignas(4) OEPIJBDIDIC
 	{

@@ -16,31 +16,31 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 namespace UnityEngine::UI { class Text; }
 namespace UnityEngine::UI { class VertexHelper; }
 
-#define RPG_CLIENT_TEXTICONS_BKLBALDEGHK_OFFSET UNITYSDK_OFFSET(0xE212BF0)
-#define RPG_CLIENT_TEXTICONS_CFGCILKDEEB_OFFSET UNITYSDK_OFFSET(0xE211E50)
-#define RPG_CLIENT_TEXTICONS_CLEAR_OFFSET UNITYSDK_OFFSET(0xE20E7E0)
-#define RPG_CLIENT_TEXTICONS_CPGODLFKMEN_OFFSET UNITYSDK_OFFSET(0xE20C170)
-#define RPG_CLIENT_TEXTICONS_CTOR_OFFSET UNITYSDK_OFFSET(0xE212DE0)
-#define RPG_CLIENT_TEXTICONS_CULL_OFFSET UNITYSDK_OFFSET(0xE20E720)
-#define RPG_CLIENT_TEXTICONS_FFKJOPELDPP_OFFSET UNITYSDK_OFFSET(0xE20EE80)
-#define RPG_CLIENT_TEXTICONS_GET_ICONS_OFFSET UNITYSDK_OFFSET(0xE20BDE0)
-#define RPG_CLIENT_TEXTICONS_GFOGDDEMDKB_OFFSET UNITYSDK_OFFSET(0xE20CE10)
-#define RPG_CLIENT_TEXTICONS_GJOFAHEIHFK_OFFSET UNITYSDK_OFFSET(0xE2103F0)
-#define RPG_CLIENT_TEXTICONS_JENFGEEHAOF_OFFSET UNITYSDK_OFFSET(0xE20E0E0)
-#define RPG_CLIENT_TEXTICONS_OMFCJIEMEDK_OFFSET UNITYSDK_OFFSET(0xE20F210)
-#define RPG_CLIENT_TEXTICONS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xE20C410)
-#define RPG_CLIENT_TEXTICONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xE20BE70)
-#define RPG_CLIENT_TEXTICONS_PHHIBFMOKIM_OFFSET UNITYSDK_OFFSET(0xE210D10)
-#define RPG_CLIENT_TEXTICONS_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0xE20E780)
-#define RPG_CLIENT_TEXTICONS_SET_ICONS_OFFSET UNITYSDK_OFFSET(0xE20BE20)
-#define RPG_CLIENT_TEXTICONS_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0xE20D000)
-#define RPG_CLIENT_TEXTICONS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xE20E4D0)
-#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_0_OFFSET UNITYSDK_OFFSET(0xE212E20)
-#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_1_OFFSET UNITYSDK_OFFSET(0xE212E70)
+#define RPG_CLIENT_TEXTICONS_BKLBALDEGHK_OFFSET UNITYSDK_OFFSET(0xECBFBE0)
+#define RPG_CLIENT_TEXTICONS_CFGCILKDEEB_OFFSET UNITYSDK_OFFSET(0xECBEE70)
+#define RPG_CLIENT_TEXTICONS_CLEAR_OFFSET UNITYSDK_OFFSET(0xECBB850)
+#define RPG_CLIENT_TEXTICONS_CPGODLFKMEN_OFFSET UNITYSDK_OFFSET(0xECB92A0)
+#define RPG_CLIENT_TEXTICONS_CTOR_OFFSET UNITYSDK_OFFSET(0xECBFDD0)
+#define RPG_CLIENT_TEXTICONS_CULL_OFFSET UNITYSDK_OFFSET(0xECBB790)
+#define RPG_CLIENT_TEXTICONS_FFKJOPELDPP_OFFSET UNITYSDK_OFFSET(0xECBBED0)
+#define RPG_CLIENT_TEXTICONS_GET_ICONS_OFFSET UNITYSDK_OFFSET(0xECB8F40)
+#define RPG_CLIENT_TEXTICONS_GFOGDDEMDKB_OFFSET UNITYSDK_OFFSET(0xECB9EE0)
+#define RPG_CLIENT_TEXTICONS_GJOFAHEIHFK_OFFSET UNITYSDK_OFFSET(0xECBD420)
+#define RPG_CLIENT_TEXTICONS_JENFGEEHAOF_OFFSET UNITYSDK_OFFSET(0xECBB1A0)
+#define RPG_CLIENT_TEXTICONS_OMFCJIEMEDK_OFFSET UNITYSDK_OFFSET(0xECBC260)
+#define RPG_CLIENT_TEXTICONS_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xECB9510)
+#define RPG_CLIENT_TEXTICONS_ONENABLE_OFFSET UNITYSDK_OFFSET(0xECB8FD0)
+#define RPG_CLIENT_TEXTICONS_PHHIBFMOKIM_OFFSET UNITYSDK_OFFSET(0xECBDD30)
+#define RPG_CLIENT_TEXTICONS_SETCLIPRECT_OFFSET UNITYSDK_OFFSET(0xECBB7F0)
+#define RPG_CLIENT_TEXTICONS_SET_ICONS_OFFSET UNITYSDK_OFFSET(0xECB8F80)
+#define RPG_CLIENT_TEXTICONS_UPDATEGEOMETRY_OFFSET UNITYSDK_OFFSET(0xECBA0D0)
+#define RPG_CLIENT_TEXTICONS_UPDATEMATERIAL_OFFSET UNITYSDK_OFFSET(0xECBB560)
+#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_0_OFFSET UNITYSDK_OFFSET(0xECBFE10)
+#define RPG_CLIENT_TEXTICONS__BUILDICONATLAS_B__13_1_OFFSET UNITYSDK_OFFSET(0xECBFE60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_TypeDefinitionIndex = 72679;
+	inline static constexpr unsigned int TextIcons_TypeDefinitionIndex = 74758;
 
 	class TextIcons : public ::UnityEngine::MonoBehaviour
 	{
@@ -57,34 +57,34 @@ namespace RPG::Client
 		::System::Int32 OMAOFBNHCFL; // 0x68
 		::System::Int32 NNIFBDFMHKI; // 0x6C
 		::UnityEngine::Experimental::Rendering::GraphicsFormat DIEDAENPFLG; // 0x70
-		static ::UnityEngine::Material** StaticGet_NJPALBPLPIJ()
-		{
-			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x15080);
-		}
-
-		static ::UnityEngine::Mesh** StaticGet_MJJPAPGBALA()
-		{
-			return (::UnityEngine::Mesh**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x15088);
-		}
-
-		static ::UnityEngine::Texture** StaticGet_CPOFKPJOCEF()
-		{
-			return (::UnityEngine::Texture**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x15090);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>** StaticGet_NMGAADNPIOG()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x15098);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UI::VertexHelper*>**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x25440);
 		}
 
 		static ::Il2CppArray<::UnityEngine::UIVertex>** StaticGet_EKJGCDIEEHB()
 		{
-			return (::Il2CppArray<::UnityEngine::UIVertex>**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x150A0);
+			return (::Il2CppArray<::UnityEngine::UIVertex>**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x25448);
+		}
+
+		static ::UnityEngine::Material** StaticGet_NJPALBPLPIJ()
+		{
+			return (::UnityEngine::Material**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x25450);
+		}
+
+		static ::UnityEngine::Texture** StaticGet_CPOFKPJOCEF()
+		{
+			return (::UnityEngine::Texture**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x25458);
+		}
+
+		static ::UnityEngine::Mesh** StaticGet_MJJPAPGBALA()
+		{
+			return (::UnityEngine::Mesh**)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x25460);
 		}
 
 		static ::System::Int32* StaticGet_AOMGOGBFECA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x50C0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TextIcons")->GetStaticField(0x7280);
 		}
 
 		// static const ::System::Object LHCKIKNCDPE; // 0x0

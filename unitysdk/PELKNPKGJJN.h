@@ -7,17 +7,17 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define PELKNPKGJJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D59A0)
-#define PELKNPKGJJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D59E0)
-#define PELKNPKGJJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D5920)
+#define PELKNPKGJJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E1DE0)
+#define PELKNPKGJJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4E1E20)
+#define PELKNPKGJJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4E1D80)
 
-inline static constexpr unsigned int PELKNPKGJJN_TypeDefinitionIndex = 21080;
+inline static constexpr unsigned int PELKNPKGJJN_TypeDefinitionIndex = 21418;
 
 	class PELKNPKGJJN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* GFNAPNFFGPJ; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::System::String* GFNAPNFFGPJ; // 0x20
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* ABAEIEAEEAI; // 0x28
 		::System::Int32 NALMBOOCCIN; // 0x30
 		::System::Void _ctor()

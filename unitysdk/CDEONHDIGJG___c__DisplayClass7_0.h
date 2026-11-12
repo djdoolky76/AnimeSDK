@@ -6,10 +6,10 @@ class CDEONHDIGJG;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
-#define CDEONHDIGJG___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC765430)
-#define CDEONHDIGJG___C__DISPLAYCLASS7_0__RELOADEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xC766300)
+#define CDEONHDIGJG___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD0CE490)
+#define CDEONHDIGJG___C__DISPLAYCLASS7_0__RELOADEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xD0CF360)
 
-inline static constexpr unsigned int CDEONHDIGJG___c__DisplayClass7_0_TypeDefinitionIndex = 53745;
+inline static constexpr unsigned int CDEONHDIGJG___c__DisplayClass7_0_TypeDefinitionIndex = 54909;
 
 	class CDEONHDIGJG___c__DisplayClass7_0 : public ::System::Object
 	{

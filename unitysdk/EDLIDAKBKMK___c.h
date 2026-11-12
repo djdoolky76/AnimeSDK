@@ -4,18 +4,18 @@
 class EDLIDAKBKMK;
 namespace System { class Object; }
 
-#define EDLIDAKBKMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E262A60)
-#define EDLIDAKBKMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E262AA0)
-#define EDLIDAKBKMK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E262AB0)
+#define EDLIDAKBKMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5602B0)
+#define EDLIDAKBKMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5602F0)
+#define EDLIDAKBKMK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F560300)
 
-inline static constexpr unsigned int EDLIDAKBKMK___c_TypeDefinitionIndex = 27681;
+inline static constexpr unsigned int EDLIDAKBKMK___c_TypeDefinitionIndex = 28212;
 
 	class EDLIDAKBKMK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40D60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50CB0);
 		}
 
 		static ::System::Void _cctor()

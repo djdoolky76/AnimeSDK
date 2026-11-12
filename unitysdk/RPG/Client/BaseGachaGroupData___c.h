@@ -5,31 +5,31 @@ namespace RPG::Client { class BaseGachaPoolData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BASEGACHAGROUPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7E6940)
-#define RPG_CLIENT_BASEGACHAGROUPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7E6980)
-#define RPG_CLIENT_BASEGACHAGROUPDATA___C__ISFEATURECLOSED_B__6_0_OFFSET UNITYSDK_OFFSET(0xC7E6A20)
-#define RPG_CLIENT_BASEGACHAGROUPDATA___C__ISVALID_B__5_0_OFFSET UNITYSDK_OFFSET(0xC7E6990)
+#define RPG_CLIENT_BASEGACHAGROUPDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1473F0)
+#define RPG_CLIENT_BASEGACHAGROUPDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD147430)
+#define RPG_CLIENT_BASEGACHAGROUPDATA___C__ISFEATURECLOSED_B__6_0_OFFSET UNITYSDK_OFFSET(0xD1474D0)
+#define RPG_CLIENT_BASEGACHAGROUPDATA___C__ISVALID_B__5_0_OFFSET UNITYSDK_OFFSET(0xD147440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BaseGachaGroupData___c_TypeDefinitionIndex = 64308;
+	inline static constexpr unsigned int BaseGachaGroupData___c_TypeDefinitionIndex = 65753;
 
 	class BaseGachaGroupData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::BaseGachaPoolData*, ::System::Boolean>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::BaseGachaPoolData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56E90);
-		}
-
-		static ::System::Func_2<::RPG::Client::BaseGachaPoolData*, ::System::Boolean>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::RPG::Client::BaseGachaPoolData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56E98);
+			return (::System::Func_2<::RPG::Client::BaseGachaPoolData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58FA0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56EA0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58FA8);
+		}
+
+		static ::System::Func_2<::RPG::Client::BaseGachaPoolData*, ::System::Boolean>** StaticGet___9__5_0()
+		{
+			return (::System::Func_2<::RPG::Client::BaseGachaPoolData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58FB0);
 		}
 
 		static ::System::Void _cctor()

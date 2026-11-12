@@ -5,23 +5,23 @@ class JJAKFICJBBF_OAGIHDNKOCB;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define CGOMAEDNFGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5D4C70)
-#define CGOMAEDNFGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D4CB0)
-#define CGOMAEDNFGF___C___HANDLECATREACHSECTIONTARGET_B__21_0_OFFSET UNITYSDK_OFFSET(0x1C5D4CC0)
+#define CGOMAEDNFGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7564A0)
+#define CGOMAEDNFGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7564E0)
+#define CGOMAEDNFGF___C___HANDLECATREACHSECTIONTARGET_B__21_0_OFFSET UNITYSDK_OFFSET(0x1D7564F0)
 
-inline static constexpr unsigned int CGOMAEDNFGF___c_TypeDefinitionIndex = 37437;
+inline static constexpr unsigned int CGOMAEDNFGF___c_TypeDefinitionIndex = 38365;
 
 	class CGOMAEDNFGF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57DA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67FA0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::UInt32>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57DA8);
+			return (::System::Func_2<::System::Object*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67FA8);
 		}
 
 		static ::System::Void _cctor()

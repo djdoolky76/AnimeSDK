@@ -6,11 +6,11 @@ class HKPOAGEKMAM;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MLPBHLMGMGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4BC9E0)
-#define MLPBHLMGMGP_EFMKONMGMNA_OFFSET UNITYSDK_OFFSET(0x1C4BC800)
-#define MLPBHLMGMGP_LANIHFLKEHH_OFFSET UNITYSDK_OFFSET(0x1C4BC990)
+#define MLPBHLMGMGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63FEC0)
+#define MLPBHLMGMGP_EFMKONMGMNA_OFFSET UNITYSDK_OFFSET(0x1D63FCE0)
+#define MLPBHLMGMGP_LANIHFLKEHH_OFFSET UNITYSDK_OFFSET(0x1D63FE70)
 
-inline static constexpr unsigned int MLPBHLMGMGP_TypeDefinitionIndex = 41523;
+inline static constexpr unsigned int MLPBHLMGMGP_TypeDefinitionIndex = 42498;
 
 	class MLPBHLMGMGP : public ::System::Object
 	{

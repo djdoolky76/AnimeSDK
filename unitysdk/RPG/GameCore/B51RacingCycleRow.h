@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class B51RacingCycleRow; }
 
-#define RPG_GAMECORE_B51RACINGCYCLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D433640)
-#define RPG_GAMECORE_B51RACINGCYCLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D433320)
+#define RPG_GAMECORE_B51RACINGCYCLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E654330)
+#define RPG_GAMECORE_B51RACINGCYCLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E654010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingCycleRow_TypeDefinitionIndex = 10950;
+	inline static constexpr unsigned int B51RacingCycleRow_TypeDefinitionIndex = 10966;
 
 	class B51RacingCycleRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DriverIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* PaintIDList; // 0x10
 		::Il2CppArray<::System::UInt32>* PartIDList; // 0x18
-		::Il2CppArray<::System::UInt32>* TeamIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* CarIDList; // 0x28
-		::Il2CppArray<::System::UInt32>* PaintIDList; // 0x30
+		::Il2CppArray<::System::UInt32>* CarIDList; // 0x20
+		::Il2CppArray<::System::UInt32>* DriverIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* TeamIDList; // 0x30
 		::RPG::Client::TextID Name; // 0x38
 		::System::UInt32 ID; // 0x48
 		::System::Void _ctor()

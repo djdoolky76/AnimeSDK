@@ -6,11 +6,11 @@ class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceCatIdListSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define ECLLAOAHBEB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C5F6740)
-#define ECLLAOAHBEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB0B0)
-#define ECLLAOAHBEB_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C5FB0E0)
+#define ECLLAOAHBEB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1D777E60)
+#define ECLLAOAHBEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77C770)
+#define ECLLAOAHBEB_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1D77C7A0)
 
-inline static constexpr unsigned int ECLLAOAHBEB_TypeDefinitionIndex = 37422;
+inline static constexpr unsigned int ECLLAOAHBEB_TypeDefinitionIndex = 38350;
 
 	class ECLLAOAHBEB
 	{

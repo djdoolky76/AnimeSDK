@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroGunPlayPuzzleSetupStartupMode; }
 
-#define FGLJNDGCANK_CTOR_OFFSET UNITYSDK_OFFSET(0x157675C0)
-#define FGLJNDGCANK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157675F0)
+#define FGLJNDGCANK_CTOR_OFFSET UNITYSDK_OFFSET(0x16687DD0)
+#define FGLJNDGCANK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16687E00)
 
-inline static constexpr unsigned int FGLJNDGCANK_TypeDefinitionIndex = 58957;
+inline static constexpr unsigned int FGLJNDGCANK_TypeDefinitionIndex = 60230;
 
 	class FGLJNDGCANK
 	{

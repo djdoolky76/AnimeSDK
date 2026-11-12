@@ -4,18 +4,18 @@
 class MHNNEFBOPIE;
 namespace System { class Object; }
 
-#define MHNNEFBOPIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA39380)
-#define MHNNEFBOPIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA393C0)
-#define MHNNEFBOPIE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA393D0)
+#define MHNNEFBOPIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD8AE90)
+#define MHNNEFBOPIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8AED0)
+#define MHNNEFBOPIE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD8AEE0)
 
-inline static constexpr unsigned int MHNNEFBOPIE___c_TypeDefinitionIndex = 25891;
+inline static constexpr unsigned int MHNNEFBOPIE___c_TypeDefinitionIndex = 26388;
 
 	class MHNNEFBOPIE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x527C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58D20);
 		}
 
 		static ::System::Void _cctor()

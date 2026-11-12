@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Prop/AlchemyType.h"
 
-inline static constexpr unsigned int ABJFFLEMKHI_TypeDefinitionIndex = 78204;
+inline static constexpr unsigned int ABJFFLEMKHI_TypeDefinitionIndex = 80939;
 
 	struct alignas(4) ABJFFLEMKHI
 	{

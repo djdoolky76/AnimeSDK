@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FCLPHDEONPI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C614670)
-#define FCLPHDEONPI___C__DISPLAYCLASS4_0__GETDICECONTENTODDOREVENCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1C615620)
+#define FCLPHDEONPI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D795D00)
+#define FCLPHDEONPI___C__DISPLAYCLASS4_0__GETDICECONTENTODDOREVENCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1D796BE0)
 
-inline static constexpr unsigned int FCLPHDEONPI___c__DisplayClass4_0_TypeDefinitionIndex = 36285;
+inline static constexpr unsigned int FCLPHDEONPI___c__DisplayClass4_0_TypeDefinitionIndex = 37213;
 
 	class FCLPHDEONPI___c__DisplayClass4_0 : public ::System::Object
 	{

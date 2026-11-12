@@ -7,22 +7,22 @@ class FCOEMCEDLNL;
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define BDLHKCMCMGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCFD560)
-#define BDLHKCMCMGJ_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1CCFD830)
-#define BDLHKCMCMGJ_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1CCFD800)
-#define BDLHKCMCMGJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCFD570)
-#define BDLHKCMCMGJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCFD530)
+#define BDLHKCMCMGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA6850)
+#define BDLHKCMCMGJ_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DEA6AF0)
+#define BDLHKCMCMGJ_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DEA6AC0)
+#define BDLHKCMCMGJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DEA6860)
+#define BDLHKCMCMGJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEA6820)
 
-inline static constexpr unsigned int BDLHKCMCMGJ_TypeDefinitionIndex = 21299;
+inline static constexpr unsigned int BDLHKCMCMGJ_TypeDefinitionIndex = 21642;
 
 	class BDLHKCMCMGJ : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
 		::System::String* BFLIFKBEOPJ; // 0x20
-		::RPG::GameCore::DesignerUserPrefsDomain POIELLDDNFM; // 0x28
-		::System::Boolean JJODEAGKDOH; // 0x2C
+		::System::Boolean JJODEAGKDOH; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::UInt32 DPICNGBHFAC; // 0x30
+		::System::UInt32 DPICNGBHFAC; // 0x2C
+		::RPG::GameCore::DesignerUserPrefsDomain POIELLDDNFM; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDLHKCMCMGJ_CTOR_OFFSET))(this);

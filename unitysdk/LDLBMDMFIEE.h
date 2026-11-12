@@ -8,31 +8,30 @@ namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Collision; }
 
-#define LDLBMDMFIEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C90CF00)
-#define LDLBMDMFIEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90D110)
-#define LDLBMDMFIEE_FBNDHBBKGCJ_OFFSET UNITYSDK_OFFSET(0x1C90D060)
-#define LDLBMDMFIEE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C90CE00)
+#define LDLBMDMFIEE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAB9380)
+#define LDLBMDMFIEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB9560)
+#define LDLBMDMFIEE_FBNDHBBKGCJ_OFFSET UNITYSDK_OFFSET(0x1DAB94C0)
+#define LDLBMDMFIEE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DAB9280)
 
-inline static constexpr unsigned int LDLBMDMFIEE_TypeDefinitionIndex = 43534;
+inline static constexpr unsigned int LDLBMDMFIEE_TypeDefinitionIndex = 44516;
 
 	class LDLBMDMFIEE : public ::NOOHPODHIAA
 	{
 	public:
 		::RPG::PoolList_1<::UnityEngine::Collision*>* KNEONECEFKK; // 0x338
 		::RPG::PoolHashSet_1<::System::Int32>* NCIHCMEFKMP; // 0x340
-		::System::Single MHPMADJGBJB; // 0x348
-		::UnityEngine::Vector3 KEJAHHOADEC; // 0x34C
-		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x358
-		::System::Byte _padding0[0x2C];
-		::System::Single GPGIEFKLNKA; // 0x38C
-		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x390
+		::System::Single GPGIEFKLNKA; // 0x348
+		::System::Single MHPMADJGBJB; // 0x34C
+		::System::Boolean IHLODLNFJKK; // 0x350
+		::System::Boolean BNAPGMEKLHB; // 0x351
+		::System::Byte _padding0[0x2];
+		::UnityEngine::Vector3 KEJAHHOADEC; // 0x354
+		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x360
 		::System::Byte _padding1[0x2C];
-		::System::Nullable_1<::UnityEngine::RaycastHit> ALAGENDAJLE; // 0x3C4
+		::System::Int32 HMGBOLNBDGA; // 0x394
+		::System::Nullable_1<::UnityEngine::RaycastHit> KFFFAJEEKGI; // 0x398
 		::System::Byte _padding2[0x2C];
-		::System::Boolean BNAPGMEKLHB; // 0x3F8
-		::System::Boolean IHLODLNFJKK; // 0x3F9
-		::System::Byte _padding3[0x2];
-		::System::Int32 HMGBOLNBDGA; // 0x3FC
+		::System::Nullable_1<::UnityEngine::RaycastHit> NGKIHMLBGLE; // 0x3CC
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDLBMDMFIEE_CTOR_OFFSET))(this);

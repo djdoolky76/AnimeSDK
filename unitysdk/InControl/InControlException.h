@@ -4,13 +4,13 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define INCONTROL_INCONTROLEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1B9E83C0)
-#define INCONTROL_INCONTROLEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1B9E8420)
-#define INCONTROL_INCONTROLEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9E8360)
+#define INCONTROL_INCONTROLEXCEPTION_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CB71260)
+#define INCONTROL_INCONTROLEXCEPTION_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1CB712C0)
+#define INCONTROL_INCONTROLEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB71200)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InControlException_TypeDefinitionIndex = 40831;
+	inline static constexpr unsigned int InControlException_TypeDefinitionIndex = 41806;
 
 	class InControlException : public ::System::Exception
 	{

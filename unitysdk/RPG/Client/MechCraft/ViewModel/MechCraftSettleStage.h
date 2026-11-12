@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftSettleStage_TypeDefinitionIndex = 79724;
+	inline static constexpr unsigned int MechCraftSettleStage_TypeDefinitionIndex = 82501;
 
 	enum class MechCraftSettleStage : ::System::Int32
 	{

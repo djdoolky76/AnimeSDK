@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityHipplen
 {
-	inline static constexpr unsigned int ActivityHipplenIncidentStepState_TypeDefinitionIndex = 75552;
+	inline static constexpr unsigned int ActivityHipplenIncidentStepState_TypeDefinitionIndex = 77879;
 
 	enum class ActivityHipplenIncidentStepState : ::System::Int32
 	{

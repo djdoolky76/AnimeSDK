@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveNodeType_TypeDefinitionIndex = 10394;
+	inline static constexpr unsigned int IdleLiveNodeType_TypeDefinitionIndex = 10404;
 
 	enum class IdleLiveNodeType : ::System::Int32
 	{

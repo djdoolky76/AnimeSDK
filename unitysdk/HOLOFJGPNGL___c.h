@@ -4,18 +4,18 @@
 class HOLOFJGPNGL;
 namespace System { class Object; }
 
-#define HOLOFJGPNGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5EE670)
-#define HOLOFJGPNGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5EE6A0)
-#define HOLOFJGPNGL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5EE6B0)
+#define HOLOFJGPNGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8EAE90)
+#define HOLOFJGPNGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8EAEC0)
+#define HOLOFJGPNGL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F8EAED0)
 
-inline static constexpr unsigned int HOLOFJGPNGL___c_TypeDefinitionIndex = 34122;
+inline static constexpr unsigned int HOLOFJGPNGL___c_TypeDefinitionIndex = 35037;
 
 	class HOLOFJGPNGL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E2F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40F60);
 		}
 
 		static ::System::Void _cctor()

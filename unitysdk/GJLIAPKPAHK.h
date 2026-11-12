@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetGlobalShaderProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GJLIAPKPAHK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A6C3E0)
-#define GJLIAPKPAHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A6C410)
+#define GJLIAPKPAHK_CTOR_OFFSET UNITYSDK_OFFSET(0x169A9090)
+#define GJLIAPKPAHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169A90C0)
 
-inline static constexpr unsigned int GJLIAPKPAHK_TypeDefinitionIndex = 55510;
+inline static constexpr unsigned int GJLIAPKPAHK_TypeDefinitionIndex = 56698;
 
 	class GJLIAPKPAHK
 	{

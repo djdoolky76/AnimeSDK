@@ -5,23 +5,23 @@ class FKIODIMJPNA;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define FGDGPEABLMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x157578F0)
-#define FGDGPEABLMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15757920)
-#define FGDGPEABLMN___C___BUILDSLOTS_B__19_0_OFFSET UNITYSDK_OFFSET(0x15757930)
+#define FGDGPEABLMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16677000)
+#define FGDGPEABLMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16677040)
+#define FGDGPEABLMN___C___BUILDSLOTS_B__19_0_OFFSET UNITYSDK_OFFSET(0x16677050)
 
-inline static constexpr unsigned int FGDGPEABLMN___c_TypeDefinitionIndex = 60205;
+inline static constexpr unsigned int FGDGPEABLMN___c_TypeDefinitionIndex = 61489;
 
 	class FGDGPEABLMN___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66050);
-		}
-
 		static ::System::Comparison_1<::FKIODIMJPNA*>** StaticGet___9__19_0()
 		{
-			return (::System::Comparison_1<::FKIODIMJPNA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66058);
+			return (::System::Comparison_1<::FKIODIMJPNA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x595A0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x595A8);
 		}
 
 		static ::System::Void _cctor()

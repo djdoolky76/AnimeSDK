@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class IdleLiveEventSentenceRow; }
 
-#define OCFKLJHADGF___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD60210)
-#define OCFKLJHADGF___C__DISPLAYCLASS2_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xBD60590)
+#define OCFKLJHADGF___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC664BE0)
+#define OCFKLJHADGF___C__DISPLAYCLASS2_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xC664F60)
 
-inline static constexpr unsigned int OCFKLJHADGF___c__DisplayClass2_0_TypeDefinitionIndex = 75164;
+inline static constexpr unsigned int OCFKLJHADGF___c__DisplayClass2_0_TypeDefinitionIndex = 77491;
 
 	class OCFKLJHADGF___c__DisplayClass2_0 : public ::System::Object
 	{

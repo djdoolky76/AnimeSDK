@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EIAABIGEBOL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD85780)
-#define EIAABIGEBOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD85D50)
-#define EIAABIGEBOL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD858F0)
-#define EIAABIGEBOL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD851F0)
-#define EIAABIGEBOL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD85480)
-#define EIAABIGEBOL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD85990)
-#define EIAABIGEBOL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD859E0)
-#define EIAABIGEBOL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD857C0)
-#define EIAABIGEBOL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD85420)
-#define EIAABIGEBOL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD855F0)
-#define EIAABIGEBOL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD85850)
-#define EIAABIGEBOL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD85170)
+#define EIAABIGEBOL_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DF56EA0)
+#define EIAABIGEBOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF57470)
+#define EIAABIGEBOL_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DF57010)
+#define EIAABIGEBOL_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DF56910)
+#define EIAABIGEBOL_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DF56BA0)
+#define EIAABIGEBOL_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DF570B0)
+#define EIAABIGEBOL_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DF57100)
+#define EIAABIGEBOL_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DF56EE0)
+#define EIAABIGEBOL_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DF56B40)
+#define EIAABIGEBOL_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DF56D10)
+#define EIAABIGEBOL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DF56F70)
+#define EIAABIGEBOL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DF56890)
 
-inline static constexpr unsigned int EIAABIGEBOL_TypeDefinitionIndex = 14122;
+inline static constexpr unsigned int EIAABIGEBOL_TypeDefinitionIndex = 14279;
 
 	class EIAABIGEBOL : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x54060);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MechanismBarConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MechanismBarConfigRow*>**)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x54068);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MechanismBarConfigRow*>**)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x377E0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x54070);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x377E8);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x12A60);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x377F0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0x12A61);
+			return (::System::Byte*)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0xBFD0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "EIAABIGEBOL")->GetStaticField(0xBFD1);
 		}
 
 		static ::System::Void _cctor()

@@ -5,9 +5,9 @@
 #include "unitysdk/RPG/GameCore/ConfigDataPoolListPoolMember_1.h"
 namespace System { class String; }
 
-#define LGBMNAIELIC_KEBIHOIOKKB_OFFSET UNITYSDK_OFFSET(0x1D0EBC80)
+#define LGBMNAIELIC_KEBIHOIOKKB_OFFSET UNITYSDK_OFFSET(0x1E2E4250)
 
-inline static constexpr unsigned int LGBMNAIELIC_TypeDefinitionIndex = 10793;
+inline static constexpr unsigned int LGBMNAIELIC_TypeDefinitionIndex = 10809;
 
 	class LGBMNAIELIC : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JBNEHIIFAOD_Phase_TypeDefinitionIndex = 59802;
+inline static constexpr unsigned int JBNEHIIFAOD_Phase_TypeDefinitionIndex = 61082;
 
 	enum class JBNEHIIFAOD_Phase : ::System::Int32
 	{

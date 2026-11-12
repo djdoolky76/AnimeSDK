@@ -3,10 +3,10 @@
 class LMKKFPJBAFD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDFOLNCCELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1599B8A0)
-#define GDFOLNCCELE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1599B8D0)
+#define GDFOLNCCELE_CTOR_OFFSET UNITYSDK_OFFSET(0x168D2650)
+#define GDFOLNCCELE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168D2680)
 
-inline static constexpr unsigned int GDFOLNCCELE_TypeDefinitionIndex = 55548;
+inline static constexpr unsigned int GDFOLNCCELE_TypeDefinitionIndex = 56740;
 
 	class GDFOLNCCELE
 	{

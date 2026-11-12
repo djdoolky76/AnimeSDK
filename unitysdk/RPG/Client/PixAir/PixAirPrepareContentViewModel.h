@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseViewModel.h"
 
-#define RPG_CLIENT_PIXAIR_PIXAIRPREPARECONTENTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB67ED0)
+#define RPG_CLIENT_PIXAIR_PIXAIRPREPARECONTENTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE5BECD0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirPrepareContentViewModel_TypeDefinitionIndex = 79259;
+	inline static constexpr unsigned int PixAirPrepareContentViewModel_TypeDefinitionIndex = 82036;
 
 	class PixAirPrepareContentViewModel : public ::Sofa::BaseViewModel
 	{

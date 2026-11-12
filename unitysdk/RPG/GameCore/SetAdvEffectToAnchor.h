@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetAdvEffectToAnchor; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETADVEFFECTTOANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA935C0)
-#define RPG_GAMECORE_SETADVEFFECTTOANCHOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA935D0)
-#define RPG_GAMECORE_SETADVEFFECTTOANCHOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA93590)
+#define RPG_GAMECORE_SETADVEFFECTTOANCHOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA5B40)
+#define RPG_GAMECORE_SETADVEFFECTTOANCHOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECA5B50)
+#define RPG_GAMECORE_SETADVEFFECTTOANCHOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA5B10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAdvEffectToAnchor_TypeDefinitionIndex = 22320;
+	inline static constexpr unsigned int SetAdvEffectToAnchor_TypeDefinitionIndex = 22725;
 
 	class SetAdvEffectToAnchor : public ::RPG::GameCore::TaskConfig
 	{

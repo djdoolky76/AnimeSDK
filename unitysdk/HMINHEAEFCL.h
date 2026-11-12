@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define HMINHEAEFCL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D83230)
+#define HMINHEAEFCL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D20AF0)
 
-inline static constexpr unsigned int HMINHEAEFCL_TypeDefinitionIndex = 61264;
+inline static constexpr unsigned int HMINHEAEFCL_TypeDefinitionIndex = 62649;
 
 	class HMINHEAEFCL : public ::System::Exception
 	{

@@ -4,18 +4,18 @@
 class DHLPEJFEGAN;
 namespace System { class Object; }
 
-#define DHLPEJFEGAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1B8060)
-#define DHLPEJFEGAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B80A0)
-#define DHLPEJFEGAN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1B80B0)
+#define DHLPEJFEGAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F493970)
+#define DHLPEJFEGAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4939B0)
+#define DHLPEJFEGAN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4939C0)
 
-inline static constexpr unsigned int DHLPEJFEGAN___c_TypeDefinitionIndex = 31528;
+inline static constexpr unsigned int DHLPEJFEGAN___c_TypeDefinitionIndex = 32441;
 
 	class DHLPEJFEGAN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x354F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30D50);
 		}
 
 		static ::System::Void _cctor()

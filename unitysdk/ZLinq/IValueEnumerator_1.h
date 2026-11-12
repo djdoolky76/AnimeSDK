@@ -3,7 +3,7 @@
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int IValueEnumerator_1_TypeDefinitionIndex = 6094;
+	inline static constexpr unsigned int IValueEnumerator_1_TypeDefinitionIndex = 6102;
 
 	template <typename T>
 	class IValueEnumerator_1

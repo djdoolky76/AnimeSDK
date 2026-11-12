@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class AirshipEngineBehaviorMode;
 
-#define COMMONSHIPENGINECONTROLLER_LEHCLLKCJJG_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0xF12E0)
+#define COMMONSHIPENGINECONTROLLER_LEHCLLKCJJG_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0xFC9E0)
 
-inline static constexpr unsigned int CommonShipEngineController_LEHCLLKCJJG_TypeDefinitionIndex = 47086;
+inline static constexpr unsigned int CommonShipEngineController_LEHCLLKCJJG_TypeDefinitionIndex = 48114;
 
 	struct alignas(4) CommonShipEngineController_LEHCLLKCJJG
 	{

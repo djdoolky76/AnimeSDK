@@ -4,22 +4,22 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_CLEAR_OFFSET UNITYSDK_OFFSET(0xD0DB6F0)
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_CTOR_OFFSET UNITYSDK_OFFSET(0xD0DB7B0)
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_HASREWARD_OFFSET UNITYSDK_OFFSET(0xD0DB750)
-#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_SRCTYPE_OFFSET UNITYSDK_OFFSET(0xD0DB6A0)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_CLEAR_OFFSET UNITYSDK_OFFSET(0xDA71590)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_CTOR_OFFSET UNITYSDK_OFFSET(0xDA71660)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_HASREWARD_OFFSET UNITYSDK_OFFSET(0xDA71600)
+#define RPG_CLIENT_GRIDFIGHTBATTLERESULTBONUS_GET_SRCTYPE_OFFSET UNITYSDK_OFFSET(0xDA71540)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBattleResultBonus_TypeDefinitionIndex = 64428;
+	inline static constexpr unsigned int GridFightBattleResultBonus_TypeDefinitionIndex = 65894;
 
 	class GridFightBattleResultBonus : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* OrbAdds; // 0x10
-		::System::Int32 LevelAdd; // 0x18
-		::System::Int32 ExpAdd; // 0x1C
-		::System::Int32 GoldAdd; // 0x20
+		::System::Int32 GoldAdd; // 0x18
+		::System::Int32 LevelAdd; // 0x1C
+		::System::Int32 ExpAdd; // 0x20
 		::System::Int32 RoleNumAdd; // 0x24
 		::System::Void _ctor()
 		{

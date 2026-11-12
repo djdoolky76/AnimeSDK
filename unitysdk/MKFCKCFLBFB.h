@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MKFCKCFLBFB_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0xB996A60)
-#define MKFCKCFLBFB_CTOR_OFFSET UNITYSDK_OFFSET(0xB996A40)
+#define MKFCKCFLBFB_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0xC250E10)
+#define MKFCKCFLBFB_CTOR_OFFSET UNITYSDK_OFFSET(0xC250DF0)
 
-inline static constexpr unsigned int MKFCKCFLBFB_TypeDefinitionIndex = 68909;
+inline static constexpr unsigned int MKFCKCFLBFB_TypeDefinitionIndex = 70862;
 
 	class MKFCKCFLBFB : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define IEGKNHMIGMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB085E0)
+#define IEGKNHMIGMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCD070)
 
-inline static constexpr unsigned int IEGKNHMIGMB_TypeDefinitionIndex = 42536;
+inline static constexpr unsigned int IEGKNHMIGMB_TypeDefinitionIndex = 43511;
 
 	class IEGKNHMIGMB : public ::System::Object
 	{

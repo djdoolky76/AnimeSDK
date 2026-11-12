@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelDeleteEffectNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELDELETEEFFECTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59E830)
-#define RPG_GAMECORE_CHIMERADUELDELETEEFFECTNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59E840)
-#define RPG_GAMECORE_CHIMERADUELDELETEEFFECTNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59E7E0)
+#define RPG_GAMECORE_CHIMERADUELDELETEEFFECTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AF490)
+#define RPG_GAMECORE_CHIMERADUELDELETEEFFECTNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7AF4A0)
+#define RPG_GAMECORE_CHIMERADUELDELETEEFFECTNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7AF440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelDeleteEffectNode_TypeDefinitionIndex = 15955;
+	inline static constexpr unsigned int ChimeraDuelDeleteEffectNode_TypeDefinitionIndex = 16113;
 
 	class ChimeraDuelDeleteEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

@@ -5,25 +5,25 @@ namespace RPG::Client { class MusicRhythmTrack; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MUSICRHYTHMLEVEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD912D90)
-#define RPG_CLIENT_MUSICRHYTHMLEVEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD912DD0)
-#define RPG_CLIENT_MUSICRHYTHMLEVEL___C__GETTRACKS_B__6_0_OFFSET UNITYSDK_OFFSET(0xD912DE0)
+#define RPG_CLIENT_MUSICRHYTHMLEVEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3A69E0)
+#define RPG_CLIENT_MUSICRHYTHMLEVEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE3A6A20)
+#define RPG_CLIENT_MUSICRHYTHMLEVEL___C__GETTRACKS_B__6_0_OFFSET UNITYSDK_OFFSET(0xE3A6A30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmLevel___c_TypeDefinitionIndex = 61818;
+	inline static constexpr unsigned int MusicRhythmLevel___c_TypeDefinitionIndex = 63224;
 
 	class MusicRhythmLevel___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E560);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E568);
+			return (::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69430);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69438);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GuideResRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GUIDERESROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74FAA0)
-#define RPG_GAMECORE_GUIDERESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74F480)
+#define RPG_GAMECORE_GUIDERESROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E963510)
+#define RPG_GAMECORE_GUIDERESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E962EF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideResRow_TypeDefinitionIndex = 13711;
+	inline static constexpr unsigned int GuideResRow_TypeDefinitionIndex = 13868;
 
 	class GuideResRow : public ::System::Object
 	{

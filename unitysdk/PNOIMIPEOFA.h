@@ -5,21 +5,21 @@ class APPKINLAONP;
 class BLPBNHJNGID;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define PNOIMIPEOFA_BBDEPHPJNBD_OFFSET UNITYSDK_OFFSET(0xC356300)
-#define PNOIMIPEOFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC356230)
-#define PNOIMIPEOFA_GET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xC356210)
-#define PNOIMIPEOFA_GET_ENPCF07IDS_OFFSET UNITYSDK_OFFSET(0xC356200)
-#define PNOIMIPEOFA_KKLHJCEJGEG_OFFSET UNITYSDK_OFFSET(0xC356240)
-#define PNOIMIPEOFA_SET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xC356220)
+#define PNOIMIPEOFA_BBDEPHPJNBD_OFFSET UNITYSDK_OFFSET(0xCC88910)
+#define PNOIMIPEOFA_CTOR_OFFSET UNITYSDK_OFFSET(0xCC88840)
+#define PNOIMIPEOFA_GET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xCC88820)
+#define PNOIMIPEOFA_GET_ENPCF07IDS_OFFSET UNITYSDK_OFFSET(0xCC88810)
+#define PNOIMIPEOFA_KKLHJCEJGEG_OFFSET UNITYSDK_OFFSET(0xCC88850)
+#define PNOIMIPEOFA_SET_DRESSEDENPCF07_OFFSET UNITYSDK_OFFSET(0xCC88830)
 
-inline static constexpr unsigned int PNOIMIPEOFA_TypeDefinitionIndex = 51909;
+inline static constexpr unsigned int PNOIMIPEOFA_TypeDefinitionIndex = 52995;
 
 	class PNOIMIPEOFA : public ::System::Object
 	{
 	public:
-		::BLPBNHJNGID* _DressedENpcF07_k__BackingField; // 0x10
-		::APPKINLAONP* NMOPFNGFPPB; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _ENpcF07Ids_k__BackingField; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _ENpcF07Ids_k__BackingField; // 0x10
+		::BLPBNHJNGID* _DressedENpcF07_k__BackingField; // 0x18
+		::APPKINLAONP* NMOPFNGFPPB; // 0x20
 		::System::Void _ctor(::APPKINLAONP* a1, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::APPKINLAONP*, ::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + PNOIMIPEOFA_CTOR_OFFSET))(this, a1, a2);

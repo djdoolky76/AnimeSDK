@@ -5,11 +5,11 @@ class DLNGPHPNPAN;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KICPABCKDCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB419C90)
-#define KICPABCKDCM_LOCK_OFFSET UNITYSDK_OFFSET(0xB419CA0)
-#define KICPABCKDCM_UNLOCK_OFFSET UNITYSDK_OFFSET(0xB419D60)
+#define KICPABCKDCM_CTOR_OFFSET UNITYSDK_OFFSET(0xBCAFF90)
+#define KICPABCKDCM_LOCK_OFFSET UNITYSDK_OFFSET(0xBCAFFA0)
+#define KICPABCKDCM_UNLOCK_OFFSET UNITYSDK_OFFSET(0xBCB0060)
 
-inline static constexpr unsigned int KICPABCKDCM_TypeDefinitionIndex = 74795;
+inline static constexpr unsigned int KICPABCKDCM_TypeDefinitionIndex = 76949;
 
 	class KICPABCKDCM : public ::RPG::Client::GamePlayLockTargetFunc
 	{

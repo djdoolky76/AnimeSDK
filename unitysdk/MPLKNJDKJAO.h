@@ -5,18 +5,18 @@ namespace RPG::GameCore { class CharacterEyeCtrlConfig; }
 namespace RPG::GameCore { class CharacterEyeCtrlMappingConfig; }
 namespace System { class String; }
 
-#define MPLKNJDKJAO_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xBA41770)
-#define MPLKNJDKJAO_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xBA41680)
-#define MPLKNJDKJAO_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xBA41720)
+#define MPLKNJDKJAO_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xC301190)
+#define MPLKNJDKJAO_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xC3010A0)
+#define MPLKNJDKJAO_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xC301140)
 
-inline static constexpr unsigned int MPLKNJDKJAO_TypeDefinitionIndex = 73294;
+inline static constexpr unsigned int MPLKNJDKJAO_TypeDefinitionIndex = 75410;
 
 	class MPLKNJDKJAO : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::CharacterEyeCtrlMappingConfig** StaticGet_IGHAHBNLIJA()
 		{
-			return (::RPG::GameCore::CharacterEyeCtrlMappingConfig**)UnitySDK::FromName("", "MPLKNJDKJAO")->GetStaticField(0x16500);
+			return (::RPG::GameCore::CharacterEyeCtrlMappingConfig**)UnitySDK::FromName("", "MPLKNJDKJAO")->GetStaticField(0x11A10);
 		}
 
 		static ::System::Void HCFINLKPIHL()

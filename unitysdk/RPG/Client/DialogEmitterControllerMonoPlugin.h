@@ -3,11 +3,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DIALOGEMITTERCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCBFBAE0)
+#define RPG_CLIENT_DIALOGEMITTERCONTROLLERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD572900)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogEmitterControllerMonoPlugin_TypeDefinitionIndex = 70891;
+	inline static constexpr unsigned int DialogEmitterControllerMonoPlugin_TypeDefinitionIndex = 72870;
 
 	class DialogEmitterControllerMonoPlugin
 	{

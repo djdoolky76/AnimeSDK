@@ -4,12 +4,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD3F9B00)
-#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD3F9AB0)
+#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDE4CD40)
+#define RPG_CLIENT_LINEARMODULERENDERERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDE4CCF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LinearModuleRendererMonoPlugin_TypeDefinitionIndex = 70903;
+	inline static constexpr unsigned int LinearModuleRendererMonoPlugin_TypeDefinitionIndex = 72882;
 
 	class LinearModuleRendererMonoPlugin
 	{

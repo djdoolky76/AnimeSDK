@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePropState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HNDBHOGJDNN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8D5B0)
-#define HNDBHOGJDNN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D8D5E0)
+#define HNDBHOGJDNN_CTOR_OFFSET UNITYSDK_OFFSET(0x16D2DB90)
+#define HNDBHOGJDNN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D2DBC0)
 
-inline static constexpr unsigned int HNDBHOGJDNN_TypeDefinitionIndex = 52588;
+inline static constexpr unsigned int HNDBHOGJDNN_TypeDefinitionIndex = 53694;
 
 	class HNDBHOGJDNN
 	{

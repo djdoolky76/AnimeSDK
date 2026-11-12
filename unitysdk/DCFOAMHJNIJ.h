@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LJKHPOHKIIF.h"
 
-#define DCFOAMHJNIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE2427E0)
-#define DCFOAMHJNIJ_GNLKPJHAKHM_OFFSET UNITYSDK_OFFSET(0xE2418E0)
+#define DCFOAMHJNIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA3990)
+#define DCFOAMHJNIJ_GNLKPJHAKHM_OFFSET UNITYSDK_OFFSET(0xEBA2A90)
 
-inline static constexpr unsigned int DCFOAMHJNIJ_TypeDefinitionIndex = 59717;
+inline static constexpr unsigned int DCFOAMHJNIJ_TypeDefinitionIndex = 60996;
 
 	class DCFOAMHJNIJ : public ::LJKHPOHKIIF
 	{

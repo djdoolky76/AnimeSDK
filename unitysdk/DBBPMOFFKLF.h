@@ -18,140 +18,140 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::UI { class Image; }
 
-#define DBBPMOFFKLF_BKBPBCGNOBO_OFFSET UNITYSDK_OFFSET(0x1C458790)
-#define DBBPMOFFKLF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C45A1A0)
-#define DBBPMOFFKLF_COIOFHMDMKD_OFFSET UNITYSDK_OFFSET(0x1C457840)
-#define DBBPMOFFKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C45A190)
-#define DBBPMOFFKLF_DBMJPGJNJIE_OFFSET UNITYSDK_OFFSET(0x1C457D20)
-#define DBBPMOFFKLF_EEOACNHKPHD_OFFSET UNITYSDK_OFFSET(0x1C457650)
-#define DBBPMOFFKLF_HLHNPAOHPAJ_OFFSET UNITYSDK_OFFSET(0x1C457B10)
-#define DBBPMOFFKLF_IMGNPJMHIJH_OFFSET UNITYSDK_OFFSET(0x1C457460)
-#define DBBPMOFFKLF_LCBKJLFIEFJ_OFFSET UNITYSDK_OFFSET(0x1C458C10)
-#define DBBPMOFFKLF_OGKLMKDPALF_OFFSET UNITYSDK_OFFSET(0x1C458CA0)
+#define DBBPMOFFKLF_BKBPBCGNOBO_OFFSET UNITYSDK_OFFSET(0x1D5DC890)
+#define DBBPMOFFKLF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5DE2B0)
+#define DBBPMOFFKLF_COIOFHMDMKD_OFFSET UNITYSDK_OFFSET(0x1D5DB940)
+#define DBBPMOFFKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DE2A0)
+#define DBBPMOFFKLF_DBMJPGJNJIE_OFFSET UNITYSDK_OFFSET(0x1D5DBE20)
+#define DBBPMOFFKLF_EEOACNHKPHD_OFFSET UNITYSDK_OFFSET(0x1D5DB750)
+#define DBBPMOFFKLF_HLHNPAOHPAJ_OFFSET UNITYSDK_OFFSET(0x1D5DBC10)
+#define DBBPMOFFKLF_IMGNPJMHIJH_OFFSET UNITYSDK_OFFSET(0x1D5DB560)
+#define DBBPMOFFKLF_LCBKJLFIEFJ_OFFSET UNITYSDK_OFFSET(0x1D5DCD10)
+#define DBBPMOFFKLF_OGKLMKDPALF_OFFSET UNITYSDK_OFFSET(0x1D5DCDA0)
 
-inline static constexpr unsigned int DBBPMOFFKLF_TypeDefinitionIndex = 41578;
+inline static constexpr unsigned int DBBPMOFFKLF_TypeDefinitionIndex = 42553;
 
 	class DBBPMOFFKLF : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>** StaticGet_NJBIFAKICOM()
+		static ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>** StaticGet_LCBDKJCAJGI()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C00);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>** StaticGet_BDKJCMAHHKH()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C08);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::RuntimeAnimatorController*>** StaticGet_AMCDGKAEPFB()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::RuntimeAnimatorController*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C10);
+			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DC80);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>** StaticGet_EOJEBPPGLFN()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C18);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DC88);
 		}
 
-		static ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemRenderer*>** StaticGet_BACHNKOHHGB()
+		static ::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>** StaticGet_NJBIFAKICOM()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemRenderer*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C20);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Animator*>** StaticGet_KDLLIJBMKIJ()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Animator*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C28);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>** StaticGet_NJKNLKPLJFB()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C30);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Mesh*>** StaticGet_GHEBMBKILAE()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Mesh*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C38);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>** StaticGet_LCBDKJCAJGI()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C40);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_HOIEAOIPFHP()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C48);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Animation*>** StaticGet_LGGHNMGNOGB()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Animation*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C50);
+			return (::System::Collections::Generic::List_1<::UnityEngine::MeshFilter*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DC90);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>** StaticGet_JJPFFNLFJPF()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x11C58);
+			return (::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DC98);
 		}
 
-		static ::System::Int32* StaticGet_JJOLFLDABHK()
+		static ::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>** StaticGet_NJKNLKPLJFB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AB0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::SkinnedMeshRenderer*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCA0);
 		}
 
-		static ::System::Int64* StaticGet_GNLCLIEDIIA()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Mesh*>** StaticGet_GHEBMBKILAE()
 		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AB8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Mesh*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCA8);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemRenderer*>** StaticGet_BACHNKOHHGB()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::ParticleSystemRenderer*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCB0);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Animation*>** StaticGet_LGGHNMGNOGB()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Animation*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCB8);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::RuntimeAnimatorController*>** StaticGet_AMCDGKAEPFB()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::RuntimeAnimatorController*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCC0);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet_HOIEAOIPFHP()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCC8);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>** StaticGet_BDKJCMAHHKH()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::MeshRenderer*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCD0);
+		}
+
+		static ::System::Collections::Generic::List_1<::UnityEngine::Animator*>** StaticGet_KDLLIJBMKIJ()
+		{
+			return (::System::Collections::Generic::List_1<::UnityEngine::Animator*>**)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x6DCD8);
 		}
 
 		static ::System::Int64* StaticGet_LJDFBNKDEGO()
 		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AC0);
-		}
-
-		static ::System::Int64* StaticGet_BEKNOBAPLHA()
-		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AC8);
-		}
-
-		static ::System::Int64* StaticGet_DAILMLPDGCJ()
-		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AD0);
-		}
-
-		static ::System::Int64* StaticGet_AKGAICACJIK()
-		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AD8);
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C50);
 		}
 
 		static ::System::Int64* StaticGet_DALHKPCEJOI()
 		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AE0);
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C58);
+		}
+
+		static ::System::Int64* StaticGet_GNLCLIEDIIA()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C60);
+		}
+
+		static ::System::Int32* StaticGet_JJOLFLDABHK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C68);
 		}
 
 		static ::System::Int64* StaticGet_NNGADONAEJG()
 		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AE8);
-		}
-
-		static ::System::Int64* StaticGet_JFCMINMMMAA()
-		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AF0);
-		}
-
-		static ::System::Int64* StaticGet_OFEMFLDPFNB()
-		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3AF8);
-		}
-
-		static ::System::Int64* StaticGet_LCDGFHJBNID()
-		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3B00);
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C70);
 		}
 
 		static ::System::Int64* StaticGet_MKBPKIDLOLK()
 		{
-			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x3B08);
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C78);
+		}
+
+		static ::System::Int64* StaticGet_BEKNOBAPLHA()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C80);
+		}
+
+		static ::System::Int64* StaticGet_OFEMFLDPFNB()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C88);
+		}
+
+		static ::System::Int64* StaticGet_AKGAICACJIK()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C90);
+		}
+
+		static ::System::Int64* StaticGet_DAILMLPDGCJ()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15C98);
+		}
+
+		static ::System::Int64* StaticGet_LCDGFHJBNID()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15CA0);
+		}
+
+		static ::System::Int64* StaticGet_JFCMINMMMAA()
+		{
+			return (::System::Int64*)UnitySDK::FromName("", "DBBPMOFFKLF")->GetStaticField(0x15CA8);
 		}
 
 		::System::Void _ctor()

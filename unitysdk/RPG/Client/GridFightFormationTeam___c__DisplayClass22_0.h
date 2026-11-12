@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightTrait; }
 
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD13CFF0)
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS22_0__GETTRAITBYID_B__0_OFFSET UNITYSDK_OFFSET(0xD141C50)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAFBB10)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS22_0__GETTRAITBYID_B__0_OFFSET UNITYSDK_OFFSET(0xDB009E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass22_0_TypeDefinitionIndex = 64664;
+	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass22_0_TypeDefinitionIndex = 66199;
 
 	class GridFightFormationTeam___c__DisplayClass22_0 : public ::System::Object
 	{

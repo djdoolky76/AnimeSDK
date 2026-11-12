@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CharacterNavigateFollow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLJJKJCCJLN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF0DED0)
-#define OLJJKJCCJLN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF0DEE0)
-#define OLJJKJCCJLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF0DF20)
-#define OLJJKJCCJLN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF0DFA0)
-#define OLJJKJCCJLN_TICK_OFFSET UNITYSDK_OFFSET(0xBF0DFF0)
+#define OLJJKJCCJLN_CTOR_OFFSET UNITYSDK_OFFSET(0xC8094D0)
+#define OLJJKJCCJLN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC8094E0)
+#define OLJJKJCCJLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC809520)
+#define OLJJKJCCJLN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC8095A0)
+#define OLJJKJCCJLN_TICK_OFFSET UNITYSDK_OFFSET(0xC8095F0)
 
-inline static constexpr unsigned int OLJJKJCCJLN_TypeDefinitionIndex = 58006;
+inline static constexpr unsigned int OLJJKJCCJLN_TypeDefinitionIndex = 59245;
 
 	class OLJJKJCCJLN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CharacterNavigateFollow* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CharacterNavigateFollow* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterNavigateFollow* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterNavigateFollow*))((::PBYTE)hIl2Cpp + OLJJKJCCJLN_CTOR_OFFSET))(this, a1, a2);

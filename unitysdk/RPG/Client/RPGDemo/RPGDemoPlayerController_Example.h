@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE1D620)
-#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xDE1D4D0)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE882B90)
+#define RPG_CLIENT_RPGDEMO_RPGDEMOPLAYERCONTROLLER_EXAMPLE_UPDATE_OFFSET UNITYSDK_OFFSET(0xE882A40)
 
 namespace RPG::Client::RPGDemo
 {
-	inline static constexpr unsigned int RPGDemoPlayerController_Example_TypeDefinitionIndex = 75949;
+	inline static constexpr unsigned int RPGDemoPlayerController_Example_TypeDefinitionIndex = 78276;
 
 	class RPGDemoPlayerController_Example : public ::UnityEngine::MonoBehaviour
 	{

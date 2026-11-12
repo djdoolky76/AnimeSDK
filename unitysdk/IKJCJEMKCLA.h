@@ -6,10 +6,10 @@ class IFNMPBPNBIF;
 class LADCEAIPJIO;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkSkillDice; }
 
-#define IKJCJEMKCLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6DD8C0)
-#define IKJCJEMKCLA_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6DD970)
+#define IKJCJEMKCLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85F1E0)
+#define IKJCJEMKCLA_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D85F290)
 
-inline static constexpr unsigned int IKJCJEMKCLA_TypeDefinitionIndex = 36293;
+inline static constexpr unsigned int IKJCJEMKCLA_TypeDefinitionIndex = 37221;
 
 	class IKJCJEMKCLA : public ::AJBKGPOEBFG
 	{

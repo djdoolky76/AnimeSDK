@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_FIXSTRETCHEDSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0xD040C30)
-#define RPG_CLIENT_FIXSTRETCHEDSCALE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD040BE0)
+#define RPG_CLIENT_FIXSTRETCHEDSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0xD9C84D0)
+#define RPG_CLIENT_FIXSTRETCHEDSCALE_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD9C8480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FixStretchedScale_TypeDefinitionIndex = 70601;
+	inline static constexpr unsigned int FixStretchedScale_TypeDefinitionIndex = 72578;
 
 	class FixStretchedScale
 	{

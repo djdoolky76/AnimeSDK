@@ -5,25 +5,25 @@ class OGFNMNGJPIC;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0E6AF0)
-#define RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0E6B30)
-#define RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C__GETDAMAGESTATISTICS_B__38_0_OFFSET UNITYSDK_OFFSET(0xD0E6B40)
+#define RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA7D2E0)
+#define RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA7D320)
+#define RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C__GETDAMAGESTATISTICS_B__44_0_OFFSET UNITYSDK_OFFSET(0xDA7D330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightBattleUtils___c_TypeDefinitionIndex = 72272;
+	inline static constexpr unsigned int GridFightBattleUtils___c_TypeDefinitionIndex = 74347;
 
 	class GridFightBattleUtils___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_3<::OGFNMNGJPIC*, ::OGFNMNGJPIC*, ::System::Int32>** StaticGet___9__44_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x64ED0);
+			return (::System::Func_3<::OGFNMNGJPIC*, ::OGFNMNGJPIC*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CA90);
 		}
 
-		static ::System::Func_3<::OGFNMNGJPIC*, ::OGFNMNGJPIC*, ::System::Int32>** StaticGet___9__38_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_3<::OGFNMNGJPIC*, ::OGFNMNGJPIC*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x64ED8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CA98);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Int32 _GetDamageStatistics_b__38_0(::OGFNMNGJPIC* a1, ::OGFNMNGJPIC* a2)
+		::System::Int32 _GetDamageStatistics_b__44_0(::OGFNMNGJPIC* a1, ::OGFNMNGJPIC* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::OGFNMNGJPIC*, ::OGFNMNGJPIC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C__GETDAMAGESTATISTICS_B__38_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::OGFNMNGJPIC*, ::OGFNMNGJPIC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTBATTLEUTILS___C__GETDAMAGESTATISTICS_B__44_0_OFFSET))(this, a1, a2);
 		}
 
 	};

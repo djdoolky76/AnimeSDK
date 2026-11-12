@@ -5,19 +5,19 @@ namespace System::Threading { class ParameterizedThreadStart; }
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface___O_TypeDefinitionIndex = 46687;
+	inline static constexpr unsigned int MiHoYoMTRInterface___O_TypeDefinitionIndex = 47715;
 
 	class MiHoYoMTRInterface___O : public ::System::Object
 	{
 	public:
 		static ::System::Threading::ParameterizedThreadStart** StaticGet__1___StopUrlUsageProc()
 		{
-			return (::System::Threading::ParameterizedThreadStart**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>O")->GetStaticField(0x25480);
+			return (::System::Threading::ParameterizedThreadStart**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>O")->GetStaticField(0x1FC30);
 		}
 
 		static ::System::Threading::ParameterizedThreadStart** StaticGet__0___StopMTRProc()
 		{
-			return (::System::Threading::ParameterizedThreadStart**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>O")->GetStaticField(0x25488);
+			return (::System::Threading::ParameterizedThreadStart**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>O")->GetStaticField(0x1FC38);
 		}
 
 	};

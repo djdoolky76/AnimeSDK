@@ -12,109 +12,109 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class ConstructorInfo; }
 namespace System::Reflection { class MemberInfo; }
 
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBA9800)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBA9840)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_10_OFFSET UNITYSDK_OFFSET(0x1BBA9A50)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_11_OFFSET UNITYSDK_OFFSET(0x1BBA9A60)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_12_OFFSET UNITYSDK_OFFSET(0x1BBA9A80)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_13_OFFSET UNITYSDK_OFFSET(0x1BBA9A90)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_14_OFFSET UNITYSDK_OFFSET(0x1BBA9AA0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_15_OFFSET UNITYSDK_OFFSET(0x1BBA9AB0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_16_OFFSET UNITYSDK_OFFSET(0x1BBA9AC0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_17_OFFSET UNITYSDK_OFFSET(0x1BBA9AE0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_2_OFFSET UNITYSDK_OFFSET(0x1BBA9970)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_4_OFFSET UNITYSDK_OFFSET(0x1BBA99C0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_5_OFFSET UNITYSDK_OFFSET(0x1BBA9AF0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_6_OFFSET UNITYSDK_OFFSET(0x1BBA9B10)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_7_OFFSET UNITYSDK_OFFSET(0x1BBA9CA0)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_8_OFFSET UNITYSDK_OFFSET(0x1BBA9850)
-#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_9_OFFSET UNITYSDK_OFFSET(0x1BBA98E0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD32680)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD326C0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_10_OFFSET UNITYSDK_OFFSET(0x1CD328D0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_11_OFFSET UNITYSDK_OFFSET(0x1CD328E0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_12_OFFSET UNITYSDK_OFFSET(0x1CD32900)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_13_OFFSET UNITYSDK_OFFSET(0x1CD32910)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_14_OFFSET UNITYSDK_OFFSET(0x1CD32920)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_15_OFFSET UNITYSDK_OFFSET(0x1CD32930)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_16_OFFSET UNITYSDK_OFFSET(0x1CD32940)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_17_OFFSET UNITYSDK_OFFSET(0x1CD32960)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_2_OFFSET UNITYSDK_OFFSET(0x1CD327F0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_4_OFFSET UNITYSDK_OFFSET(0x1CD32840)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_5_OFFSET UNITYSDK_OFFSET(0x1CD32970)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_6_OFFSET UNITYSDK_OFFSET(0x1CD32990)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_7_OFFSET UNITYSDK_OFFSET(0x1CD32B20)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_8_OFFSET UNITYSDK_OFFSET(0x1CD326D0)
+#define MESSAGEPACK_INTERNAL_OBJECTSERIALIZATIONINFO___C__CREATEORNULL_B__27_9_OFFSET UNITYSDK_OFFSET(0x1CD32760)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int ObjectSerializationInfo___c_TypeDefinitionIndex = 7337;
+	inline static constexpr unsigned int ObjectSerializationInfo___c_TypeDefinitionIndex = 7348;
 
 	class ObjectSerializationInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Int32>** StaticGet___9__27_12()
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__27_9()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26300);
-		}
-
-		static ::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Object*>** StaticGet___9__27_13()
-		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Object*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26308);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__27_5()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26310);
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A540);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__27_6()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26318);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32>** StaticGet___9__27_10()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26320);
-		}
-
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Type*>** StaticGet___9__27_8()
-		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Type*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26328);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26330);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__27_14()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26338);
-		}
-
-		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__27_2()
-		{
-			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26340);
-		}
-
-		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32, ::System::ValueTuple_2<::System::Object*, ::System::Int32>>** StaticGet___9__27_11()
-		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32, ::System::ValueTuple_2<::System::Object*, ::System::Int32>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26348);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>** StaticGet___9__27_15()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26350);
-		}
-
-		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>** StaticGet___9__27_9()
-		{
-			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26358);
-		}
-
-		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Int32>** StaticGet___9__27_4()
-		{
-			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26360);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A548);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__27_7()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26368);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A550);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__27_16()
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__27_5()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26370);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A558);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>** StaticGet___9__27_17()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x26378);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A560);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Int32>** StaticGet___9__27_12()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A568);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__27_14()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A570);
+		}
+
+		static ::System::Func_2<::System::Reflection::MemberInfo*, ::System::Type*>** StaticGet___9__27_8()
+		{
+			return (::System::Func_2<::System::Reflection::MemberInfo*, ::System::Type*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A578);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>** StaticGet___9__27_16()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::String*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A580);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32>** StaticGet___9__27_10()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A588);
+		}
+
+		static ::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Object*>** StaticGet___9__27_13()
+		{
+			return (::System::Func_2<::System::ValueTuple_2<::System::Object*, ::System::Int32>, ::System::Object*>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A590);
+		}
+
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32, ::System::ValueTuple_2<::System::Object*, ::System::Int32>>** StaticGet___9__27_11()
+		{
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::Int32, ::System::Object*>, ::System::Int32, ::System::ValueTuple_2<::System::Object*, ::System::Int32>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A598);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A5A0);
+		}
+
+		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>** StaticGet___9__27_2()
+		{
+			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A5A8);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>** StaticGet___9__27_15()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>, ::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Object*>>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A5B0);
+		}
+
+		static ::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Int32>** StaticGet___9__27_4()
+		{
+			return (::System::Func_2<::System::Reflection::ConstructorInfo*, ::System::Int32>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x4A5B8);
 		}
 
 		static ::System::Void _cctor()

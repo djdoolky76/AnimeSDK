@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindForbidSelect; }
 
-#define MPCDELAGPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA39340)
-#define MPCDELAGPHG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA39370)
+#define MPCDELAGPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F7DD0)
+#define MPCDELAGPHG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2F7E00)
 
-inline static constexpr unsigned int MPCDELAGPHG_TypeDefinitionIndex = 53399;
+inline static constexpr unsigned int MPCDELAGPHG_TypeDefinitionIndex = 54561;
 
 	class MPCDELAGPHG
 	{

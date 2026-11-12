@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int ILittleGameConfigContext_1_TypeDefinitionIndex = 37033;
+	inline static constexpr unsigned int ILittleGameConfigContext_1_TypeDefinitionIndex = 37961;
 
 	template <typename T>
 	class ILittleGameConfigContext_1

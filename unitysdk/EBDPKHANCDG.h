@@ -7,23 +7,23 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EBDPKHANCDG_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x12CED550)
-#define EBDPKHANCDG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CED2D0)
-#define EBDPKHANCDG_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x12CEDA10)
-#define EBDPKHANCDG_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x12CEDCB0)
-#define EBDPKHANCDG_LMGLHEKNHKD_OFFSET UNITYSDK_OFFSET(0x12CEDB10)
-#define EBDPKHANCDG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x12CED710)
-#define EBDPKHANCDG_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x12CEDCC0)
+#define EBDPKHANCDG_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0x13A9E5D0)
+#define EBDPKHANCDG_CTOR_OFFSET UNITYSDK_OFFSET(0x13A9E350)
+#define EBDPKHANCDG_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x13A9EA90)
+#define EBDPKHANCDG_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x13A9ED30)
+#define EBDPKHANCDG_LMGLHEKNHKD_OFFSET UNITYSDK_OFFSET(0x13A9EB90)
+#define EBDPKHANCDG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x13A9E790)
+#define EBDPKHANCDG_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x13A9ED40)
 
-inline static constexpr unsigned int EBDPKHANCDG_TypeDefinitionIndex = 78444;
+inline static constexpr unsigned int EBDPKHANCDG_TypeDefinitionIndex = 81179;
 
 	class EBDPKHANCDG : public ::System::Object
 	{
 	public:
 		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x10
-		::System::Action* MECKBKLEHAN; // 0x18
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x20
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PNHFIJMPEKH; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* PNHFIJMPEKH; // 0x18
+		::System::Action* MECKBKLEHAN; // 0x20
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* ECJADDMLLPJ; // 0x28
 		::System::Boolean _IsFinished_k__BackingField; // 0x30
 		::System::Byte _padding0[0x3];
 		::System::Single FOMCKBAHCFM; // 0x34

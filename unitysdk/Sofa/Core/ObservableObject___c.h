@@ -6,25 +6,25 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define SOFA_CORE_OBSERVABLEOBJECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC91020)
-#define SOFA_CORE_OBSERVABLEOBJECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC91060)
-#define SOFA_CORE_OBSERVABLEOBJECT___C___GETPROPERTYCHANGEDEVENTARGS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1EC91070)
+#define SOFA_CORE_OBSERVABLEOBJECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF41920)
+#define SOFA_CORE_OBSERVABLEOBJECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF41960)
+#define SOFA_CORE_OBSERVABLEOBJECT___C___GETPROPERTYCHANGEDEVENTARGS_B__5_0_OFFSET UNITYSDK_OFFSET(0x1FF41970)
 
 namespace Sofa::Core
 {
-	inline static constexpr unsigned int ObservableObject___c_TypeDefinitionIndex = 44108;
+	inline static constexpr unsigned int ObservableObject___c_TypeDefinitionIndex = 45183;
 
 	class ObservableObject___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Sofa.Core", "<>c")->GetStaticField(0x4FFF0);
+			return (::System::Object**)UnitySDK::FromName("Sofa.Core", "<>c")->GetStaticField(0x65C60);
 		}
 
 		static ::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)UnitySDK::FromName("Sofa.Core", "<>c")->GetStaticField(0x4FFF8);
+			return (::System::Func_2<::System::String*, ::System::ComponentModel::PropertyChangedEventArgs*>**)UnitySDK::FromName("Sofa.Core", "<>c")->GetStaticField(0x65C68);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HHCLFOHEKNM_FaceProp_TypeDefinitionIndex = 69967;
+inline static constexpr unsigned int HHCLFOHEKNM_FaceProp_TypeDefinitionIndex = 71927;
 
 	enum class HHCLFOHEKNM_FaceProp : ::System::Int32
 	{

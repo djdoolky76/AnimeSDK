@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputRangeType.h"
 
-#define INCONTROL_INPUTRANGE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9FE4F0)
-#define INCONTROL_INPUTRANGE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C0C0A0)
-#define INCONTROL_INPUTRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C0C090)
-#define INCONTROL_INPUTRANGE_EXCLUDES_1_OFFSET UNITYSDK_OFFSET(0x1B9EE8D0)
-#define INCONTROL_INPUTRANGE_EXCLUDES_OFFSET UNITYSDK_OFFSET(0x3C0C170)
-#define INCONTROL_INPUTRANGE_INCLUDES_OFFSET UNITYSDK_OFFSET(0x3C0C140)
-#define INCONTROL_INPUTRANGE_REMAP_1_OFFSET UNITYSDK_OFFSET(0x1B9EE9A0)
-#define INCONTROL_INPUTRANGE_REMAP_OFFSET UNITYSDK_OFFSET(0x1B9FE470)
+#define INCONTROL_INPUTRANGE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB872B0)
+#define INCONTROL_INPUTRANGE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3E5B080)
+#define INCONTROL_INPUTRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x3E5B070)
+#define INCONTROL_INPUTRANGE_EXCLUDES_1_OFFSET UNITYSDK_OFFSET(0x1CB77710)
+#define INCONTROL_INPUTRANGE_EXCLUDES_OFFSET UNITYSDK_OFFSET(0x3E5B150)
+#define INCONTROL_INPUTRANGE_INCLUDES_OFFSET UNITYSDK_OFFSET(0x3E5B120)
+#define INCONTROL_INPUTRANGE_REMAP_1_OFFSET UNITYSDK_OFFSET(0x1CB777E0)
+#define INCONTROL_INPUTRANGE_REMAP_OFFSET UNITYSDK_OFFSET(0x1CB87230)
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputRange_TypeDefinitionIndex = 40826;
+	inline static constexpr unsigned int InputRange_TypeDefinitionIndex = 41801;
 
 	struct alignas(4) InputRange
 	{
@@ -22,42 +22,42 @@ namespace InControl
 		::InControl::InputRangeType Type; // 0x18
 		static ::Il2CppArray<::InControl::InputRange>** StaticGet_typeToRange()
 		{
-			return (::Il2CppArray<::InControl::InputRange>**)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x58B10);
-		}
-
-		static ::InControl::InputRange* StaticGet_None()
-		{
-			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x13920);
-		}
-
-		static ::InControl::InputRange* StaticGet_MinusOneToZero()
-		{
-			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x1392C);
-		}
-
-		static ::InControl::InputRange* StaticGet_MinusOneToOne()
-		{
-			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x13938);
-		}
-
-		static ::InControl::InputRange* StaticGet_OneToZero()
-		{
-			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x13944);
-		}
-
-		static ::InControl::InputRange* StaticGet_ZeroToMinusOne()
-		{
-			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x13950);
-		}
-
-		static ::InControl::InputRange* StaticGet_ZeroToOne()
-		{
-			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x1395C);
+			return (::Il2CppArray<::InControl::InputRange>**)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x695B0);
 		}
 
 		static ::InControl::InputRange* StaticGet_OneToMinusOne()
 		{
-			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x13968);
+			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x151F0);
+		}
+
+		static ::InControl::InputRange* StaticGet_None()
+		{
+			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x151FC);
+		}
+
+		static ::InControl::InputRange* StaticGet_MinusOneToZero()
+		{
+			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x15208);
+		}
+
+		static ::InControl::InputRange* StaticGet_ZeroToOne()
+		{
+			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x15214);
+		}
+
+		static ::InControl::InputRange* StaticGet_MinusOneToOne()
+		{
+			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x15220);
+		}
+
+		static ::InControl::InputRange* StaticGet_ZeroToMinusOne()
+		{
+			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x1522C);
+		}
+
+		static ::InControl::InputRange* StaticGet_OneToZero()
+		{
+			return (::InControl::InputRange*)UnitySDK::FromName("InControl", "InputRange")->GetStaticField(0x15238);
 		}
 
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::InControl::InputRangeType a3)

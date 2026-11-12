@@ -11,12 +11,12 @@ namespace System
 	public:
 		static ::System::Boolean* StaticGet_IsAppEarlierThanWindowsPhone8()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3E50);
+			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3CE0);
 		}
 
 		static ::System::Boolean* StaticGet_IsAppEarlierThanSilverlight4()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3E51);
+			return (::System::Boolean*)UnitySDK::FromName("System", "CompatibilitySwitches")->GetStaticField(0x3CE1);
 		}
 
 	};

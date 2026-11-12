@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FENMFIBCEMO_TypeDefinitionIndex = 26778;
+inline static constexpr unsigned int FENMFIBCEMO_TypeDefinitionIndex = 27309;
 
 	enum class FENMFIBCEMO : ::System::Int32
 	{

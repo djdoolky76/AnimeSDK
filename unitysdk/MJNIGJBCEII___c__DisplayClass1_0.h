@@ -6,10 +6,10 @@ class MJNIGJBCEII;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define MJNIGJBCEII___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB970780)
-#define MJNIGJBCEII___C__DISPLAYCLASS1_0___ONAFTERFIREEFFECTCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0xB970790)
+#define MJNIGJBCEII___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC22A3C0)
+#define MJNIGJBCEII___C__DISPLAYCLASS1_0___ONAFTERFIREEFFECTCOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0xC22A3D0)
 
-inline static constexpr unsigned int MJNIGJBCEII___c__DisplayClass1_0_TypeDefinitionIndex = 55727;
+inline static constexpr unsigned int MJNIGJBCEII___c__DisplayClass1_0_TypeDefinitionIndex = 56929;
 
 	class MJNIGJBCEII___c__DisplayClass1_0 : public ::System::Object
 	{

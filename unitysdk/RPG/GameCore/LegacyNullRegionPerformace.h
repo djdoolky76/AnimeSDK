@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LegacyNullRegionPerformace; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEGACYNULLREGIONPERFORMACE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A3920)
-#define RPG_GAMECORE_LEGACYNULLREGIONPERFORMACE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A37C0)
+#define RPG_GAMECORE_LEGACYNULLREGIONPERFORMACE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E6EA0)
+#define RPG_GAMECORE_LEGACYNULLREGIONPERFORMACE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9E6D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LegacyNullRegionPerformace_TypeDefinitionIndex = 19221;
+	inline static constexpr unsigned int LegacyNullRegionPerformace_TypeDefinitionIndex = 19411;
 
 	class LegacyNullRegionPerformace : public ::RPG::GameCore::JsonConfig
 	{

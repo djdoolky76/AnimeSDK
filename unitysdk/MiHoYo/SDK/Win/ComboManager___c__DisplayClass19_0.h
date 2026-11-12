@@ -10,20 +10,20 @@ namespace MiHoYo::SDK::Win { class ComboManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD1A360)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS19_0__ONHANDHELDCHANNELLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1BD299B0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS19_0__ONHANDHELDCHANNELLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1BD2A8B0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA32D0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS19_0__ONHANDHELDCHANNELLOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1CEB2920)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__DISPLAYCLASS19_0__ONHANDHELDCHANNELLOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1CEB3820)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c__DisplayClass19_0_TypeDefinitionIndex = 9416;
+	inline static constexpr unsigned int ComboManager___c__DisplayClass19_0_TypeDefinitionIndex = 9424;
 
 	class ComboManager___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
+		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x10
 		::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* callbackModel; // 0x18
-		::MiHoYo::SDK::Alert_OnAlertDelegate* __9__1; // 0x20
+		::System::Action_1<::System::String*>* callback; // 0x20
 		::MiHoYo::SDK::Win::ComboManager* __4__this; // 0x28
 		::System::Void _ctor()
 		{

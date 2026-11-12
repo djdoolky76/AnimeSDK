@@ -3,10 +3,10 @@
 class NMGMHOOOPBF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AFNOHLNIOFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF1A750)
-#define AFNOHLNIOFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF1A780)
+#define AFNOHLNIOFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD5CE7B0)
+#define AFNOHLNIOFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5CE7E0)
 
-inline static constexpr unsigned int AFNOHLNIOFO_TypeDefinitionIndex = 53298;
+inline static constexpr unsigned int AFNOHLNIOFO_TypeDefinitionIndex = 54460;
 
 	class AFNOHLNIOFO
 	{

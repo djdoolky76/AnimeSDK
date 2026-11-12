@@ -1,45 +1,69 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
 namespace RPG::Client { class FontAssetConfig; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace TMPro { class TMP_FontAsset; }
+namespace UnityEngine { class Font; }
 namespace UnityEngine { class Material; }
 
-#define AIJADKIGLFM_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xEBAD370)
-#define AIJADKIGLFM_AKKJNAGLOCB_OFFSET UNITYSDK_OFFSET(0xEBACB20)
-#define AIJADKIGLFM_BGOMKDMBLKK_OFFSET UNITYSDK_OFFSET(0xEBAD1E0)
-#define AIJADKIGLFM_CCTOR_OFFSET UNITYSDK_OFFSET(0xEBAD780)
-#define AIJADKIGLFM_CHLOLNMMOEL_OFFSET UNITYSDK_OFFSET(0xEBAC860)
-#define AIJADKIGLFM_GBIGAIDNPDM_OFFSET UNITYSDK_OFFSET(0xEBACD70)
-#define AIJADKIGLFM_MKGNPNPJNNJ_OFFSET UNITYSDK_OFFSET(0xEBACF20)
-#define AIJADKIGLFM_NLGPNKOMKGA_OFFSET UNITYSDK_OFFSET(0xEBACFC0)
-#define AIJADKIGLFM_POHJFDLMOMM_OFFSET UNITYSDK_OFFSET(0xEBAD5A0)
+#define AIJADKIGLFM_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x12D7E420)
+#define AIJADKIGLFM_AGICDAAMNLA_OFFSET UNITYSDK_OFFSET(0x12D7DC10)
+#define AIJADKIGLFM_AKKJNAGLOCB_1_OFFSET UNITYSDK_OFFSET(0x12D7CF10)
+#define AIJADKIGLFM_AKKJNAGLOCB_OFFSET UNITYSDK_OFFSET(0x12D7CE40)
+#define AIJADKIGLFM_BGOMKDMBLKK_OFFSET UNITYSDK_OFFSET(0x12D7E000)
+#define AIJADKIGLFM_BOJMICJOPED_OFFSET UNITYSDK_OFFSET(0x12D7E640)
+#define AIJADKIGLFM_CCTOR_OFFSET UNITYSDK_OFFSET(0x12D7F030)
+#define AIJADKIGLFM_CHLOLNMMOEL_OFFSET UNITYSDK_OFFSET(0x12D7CB80)
+#define AIJADKIGLFM_GBIGAIDNPDM_OFFSET UNITYSDK_OFFSET(0x12D7D180)
+#define AIJADKIGLFM_ICHMPCOCBHK_OFFSET UNITYSDK_OFFSET(0x12D7D650)
+#define AIJADKIGLFM_JFILHKLKEJP_OFFSET UNITYSDK_OFFSET(0x12D7EA10)
+#define AIJADKIGLFM_JMMCOIFDCGA_OFFSET UNITYSDK_OFFSET(0x12D7E190)
+#define AIJADKIGLFM_KHABCFBKOLI_OFFSET UNITYSDK_OFFSET(0x12D7DE70)
+#define AIJADKIGLFM_LIGOINPBPLC_OFFSET UNITYSDK_OFFSET(0x12D7EF10)
+#define AIJADKIGLFM_LNIAFJHIEDB_OFFSET UNITYSDK_OFFSET(0x12D7D860)
+#define AIJADKIGLFM_MKGNPNPJNNJ_OFFSET UNITYSDK_OFFSET(0x12D7D360)
+#define AIJADKIGLFM_NLGPNKOMKGA_OFFSET UNITYSDK_OFFSET(0x12D7D430)
+#define AIJADKIGLFM_OHHICNGNPCN_OFFSET UNITYSDK_OFFSET(0x12D7EB10)
+#define AIJADKIGLFM_POHJFDLMOMM_OFFSET UNITYSDK_OFFSET(0x12D7E800)
 
-inline static constexpr unsigned int AIJADKIGLFM_TypeDefinitionIndex = 72527;
+inline static constexpr unsigned int AIJADKIGLFM_TypeDefinitionIndex = 74606;
 
 	class AIJADKIGLFM : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::TMPro::TMP_FontAsset*, ::System::Int32>** StaticGet_PMEMCMCAOPC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::TMPro::TMP_FontAsset*, ::System::Int32>**)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x58910);
+			return (::System::Collections::Generic::Dictionary_2<::TMPro::TMP_FontAsset*, ::System::Int32>**)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x58560);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::Client::FontAssetConfig*, ::TMPro::TMP_FontAsset*>** StaticGet_MMHNLDCEDNO()
+		static ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::FontAssetConfig*, ::UnityEngine::Font*>, ::TMPro::TMP_FontAsset*>** StaticGet_MMHNLDCEDNO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::Client::FontAssetConfig*, ::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x58918);
+			return (::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::RPG::Client::FontAssetConfig*, ::UnityEngine::Font*>, ::TMPro::TMP_FontAsset*>**)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x58568);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_MPIEKAPCOPN()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x58570);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Font*>** StaticGet_ACFNBIIHKIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::Font*>**)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x58578);
 		}
 
 		static ::System::Boolean* StaticGet_JLPIKFOJPBJ()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x13860);
+			return (::System::Boolean*)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x10A60);
 		}
 
 		static ::System::Boolean* StaticGet_ECFACLNOKFG()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x13861);
+			return (::System::Boolean*)UnitySDK::FromName("", "AIJADKIGLFM")->GetStaticField(0x10A61);
 		}
 
 		// static const ::System::String* NFNCFMABGCC; // 0x0
@@ -59,9 +83,39 @@ inline static constexpr unsigned int AIJADKIGLFM_TypeDefinitionIndex = 72527;
 			return ((::TMPro::TMP_FontAsset*(*)(::RPG::Client::FontAssetConfig*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_AKKJNAGLOCB_OFFSET))(a1);
 		}
 
-		static ::System::Void MKGNPNPJNNJ(::TMPro::TMP_FontAsset* a1, ::System::String* a2)
+		static ::TMPro::TMP_FontAsset* AKKJNAGLOCB_1(::RPG::Client::FontAssetConfig* a1, ::UnityEngine::Font* a2)
 		{
-			return ((::System::Void(*)(::TMPro::TMP_FontAsset*, ::System::String*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_MKGNPNPJNNJ_OFFSET))(a1, a2);
+			return ((::TMPro::TMP_FontAsset*(*)(::RPG::Client::FontAssetConfig*, ::UnityEngine::Font*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_AKKJNAGLOCB_1_OFFSET))(a1, a2);
+		}
+
+		static ::System::Void MKGNPNPJNNJ(::RPG::Client::FontAssetConfig* a1, ::TMPro::TMP_FontAsset* a2, ::System::String* a3)
+		{
+			return ((::System::Void(*)(::RPG::Client::FontAssetConfig*, ::TMPro::TMP_FontAsset*, ::System::String*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_MKGNPNPJNNJ_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean ICHMPCOCBHK(::TMPro::TMP_FontAsset* a1, ::Il2CppArray<::System::UInt32>* a2, ::System::Object* a3)
+		{
+			return ((::System::Boolean(*)(::TMPro::TMP_FontAsset*, ::Il2CppArray<::System::UInt32>*, ::System::Object*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_ICHMPCOCBHK_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void LNIAFJHIEDB(::RPG::Client::FontAssetConfig* a1, ::TMPro::TMP_FontAsset* a2, ::Il2CppArray<::System::UInt32>* a3)
+		{
+			return ((::System::Void(*)(::RPG::Client::FontAssetConfig*, ::TMPro::TMP_FontAsset*, ::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_LNIAFJHIEDB_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Boolean KHABCFBKOLI(::TMPro::TMP_FontAsset* a1, ::TMPro::TMP_FontAsset* a2)
+		{
+			return ((::System::Boolean(*)(::TMPro::TMP_FontAsset*, ::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_KHABCFBKOLI_OFFSET))(a1, a2);
+		}
+
+		static ::System::Boolean JMMCOIFDCGA(::TMPro::TMP_FontAsset* a1, ::TMPro::TMP_FontAsset* a2, ::System::Collections::Generic::HashSet_1<::TMPro::TMP_FontAsset*>* a3)
+		{
+			return ((::System::Boolean(*)(::TMPro::TMP_FontAsset*, ::TMPro::TMP_FontAsset*, ::System::Collections::Generic::HashSet_1<::TMPro::TMP_FontAsset*>*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_JMMCOIFDCGA_OFFSET))(a1, a2, a3);
+		}
+
+		static ::UnityEngine::Font* AGICDAAMNLA(::System::String* a1)
+		{
+			return ((::UnityEngine::Font*(*)(::System::String*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_AGICDAAMNLA_OFFSET))(a1);
 		}
 
 		static ::System::Void BGOMKDMBLKK(::TMPro::TMP_FontAsset* a1)
@@ -72,6 +126,21 @@ inline static constexpr unsigned int AIJADKIGLFM_TypeDefinitionIndex = 72527;
 		static ::System::Void ABKBOGIGAEH(::TMPro::TMP_FontAsset* a1)
 		{
 			return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_ABKBOGIGAEH_OFFSET))(a1);
+		}
+
+		static ::System::Void BOJMICJOPED(::TMPro::TMP_FontAsset* a1)
+		{
+			return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_BOJMICJOPED_OFFSET))(a1);
+		}
+
+		static ::System::Void JFILHKLKEJP(::TMPro::TMP_FontAsset* a1)
+		{
+			return ((::System::Void(*)(::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_JFILHKLKEJP_OFFSET))(a1);
+		}
+
+		static ::System::Void OHHICNGNPCN(::UnityEngine::Font* a1)
+		{
+			return ((::System::Void(*)(::UnityEngine::Font*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_OHHICNGNPCN_OFFSET))(a1);
 		}
 
 		static ::System::Void POHJFDLMOMM(::TMPro::TMP_FontAsset* a1)
@@ -87,6 +156,11 @@ inline static constexpr unsigned int AIJADKIGLFM_TypeDefinitionIndex = 72527;
 		static ::Il2CppArray<::System::UInt32>* NLGPNKOMKGA(::System::String* a1)
 		{
 			return ((::Il2CppArray<::System::UInt32>*(*)(::System::String*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_NLGPNKOMKGA_OFFSET))(a1);
+		}
+
+		static ::System::String* LIGOINPBPLC(::Il2CppArray<::System::UInt32>* a1)
+		{
+			return ((::System::String*(*)(::Il2CppArray<::System::UInt32>*))((::PBYTE)hIl2Cpp + AIJADKIGLFM_LIGOINPBPLC_OFFSET))(a1);
 		}
 
 	};

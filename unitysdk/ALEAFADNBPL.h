@@ -8,37 +8,37 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ALEAFADNBPL_ADLHNKOLGHL_OFFSET UNITYSDK_OFFSET(0x155643C0)
-#define ALEAFADNBPL_CCTOR_OFFSET UNITYSDK_OFFSET(0x15564FF0)
-#define ALEAFADNBPL_DMBBMCMNECL_OFFSET UNITYSDK_OFFSET(0x15564790)
-#define ALEAFADNBPL_ELJIAJLMJIO_OFFSET UNITYSDK_OFFSET(0x15564830)
-#define ALEAFADNBPL_INNOGOBKOCJ_OFFSET UNITYSDK_OFFSET(0x155641D0)
-#define ALEAFADNBPL_MBJLECNOAAB_OFFSET UNITYSDK_OFFSET(0x15563E50)
-#define ALEAFADNBPL_NGINDNLDJAA_OFFSET UNITYSDK_OFFSET(0x15564050)
+#define ALEAFADNBPL_ADLHNKOLGHL_OFFSET UNITYSDK_OFFSET(0x163D19D0)
+#define ALEAFADNBPL_CCTOR_OFFSET UNITYSDK_OFFSET(0x163D2600)
+#define ALEAFADNBPL_DMBBMCMNECL_OFFSET UNITYSDK_OFFSET(0x163D1DA0)
+#define ALEAFADNBPL_ELJIAJLMJIO_OFFSET UNITYSDK_OFFSET(0x163D1E40)
+#define ALEAFADNBPL_INNOGOBKOCJ_OFFSET UNITYSDK_OFFSET(0x163D17E0)
+#define ALEAFADNBPL_MBJLECNOAAB_OFFSET UNITYSDK_OFFSET(0x163D1460)
+#define ALEAFADNBPL_NGINDNLDJAA_OFFSET UNITYSDK_OFFSET(0x163D1660)
 
-inline static constexpr unsigned int ALEAFADNBPL_TypeDefinitionIndex = 49207;
+inline static constexpr unsigned int ALEAFADNBPL_TypeDefinitionIndex = 50283;
 
 	class ALEAFADNBPL : public ::System::Object
 	{
 	public:
 		static ::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>** StaticGet_JFPJIMPMPAG()
 		{
-			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1A0);
-		}
-
-		static ::ODGPPIHLOFF** StaticGet_OEPKPNECODG()
-		{
-			return (::ODGPPIHLOFF**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1A8);
+			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x510A0);
 		}
 
 		static ::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>** StaticGet_PPCAPJJKHNE()
 		{
-			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1B0);
+			return (::System::Action_3<::System::Int64, ::System::Boolean, ::AGKHOGNMPMO*>**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x510A8);
+		}
+
+		static ::ODGPPIHLOFF** StaticGet_OEPKPNECODG()
+		{
+			return (::ODGPPIHLOFF**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x510B0);
 		}
 
 		static ::ODGPPIHLOFF** StaticGet_DOJJOAFMGFM()
 		{
-			return (::ODGPPIHLOFF**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x5E1B8);
+			return (::ODGPPIHLOFF**)UnitySDK::FromName("", "ALEAFADNBPL")->GetStaticField(0x510B8);
 		}
 
 		static ::System::Void _cctor()

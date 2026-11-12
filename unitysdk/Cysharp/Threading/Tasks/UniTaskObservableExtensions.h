@@ -7,12 +7,12 @@
 namespace Cysharp::Threading::Tasks::Internal { template <typename T> class AsyncSubject_1; }
 namespace System { template <typename T> class IObservable_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKOBSERVABLEEXTENSIONS_FIRE_1_OFFSET UNITYSDK_OFFSET(0x1F155A10)
-#define CYSHARP_THREADING_TASKS_UNITASKOBSERVABLEEXTENSIONS_TOOBSERVABLE_1_OFFSET UNITYSDK_OFFSET(0x1F155890)
+#define CYSHARP_THREADING_TASKS_UNITASKOBSERVABLEEXTENSIONS_FIRE_1_OFFSET UNITYSDK_OFFSET(0x20406E40)
+#define CYSHARP_THREADING_TASKS_UNITASKOBSERVABLEEXTENSIONS_TOOBSERVABLE_1_OFFSET UNITYSDK_OFFSET(0x20406CB0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskObservableExtensions_TypeDefinitionIndex = 38438;
+	inline static constexpr unsigned int UniTaskObservableExtensions_TypeDefinitionIndex = 39367;
 
 	class UniTaskObservableExtensions : public ::System::Object
 	{

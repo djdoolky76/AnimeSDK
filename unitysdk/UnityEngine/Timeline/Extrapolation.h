@@ -4,20 +4,20 @@
 namespace UnityEngine::Timeline { class TimelineClip; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define UNITYENGINE_TIMELINE_EXTRAPOLATION_CALCULATEEXTRAPOLATIONTIMES_OFFSET UNITYSDK_OFFSET(0x1F38B170)
-#define UNITYENGINE_TIMELINE_EXTRAPOLATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F38B850)
-#define UNITYENGINE_TIMELINE_EXTRAPOLATION_SORTCLIPSBYSTARTTIME_OFFSET UNITYSDK_OFFSET(0x1F38B6B0)
+#define UNITYENGINE_TIMELINE_EXTRAPOLATION_CALCULATEEXTRAPOLATIONTIMES_OFFSET UNITYSDK_OFFSET(0x2063BF10)
+#define UNITYENGINE_TIMELINE_EXTRAPOLATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x2063C5F0)
+#define UNITYENGINE_TIMELINE_EXTRAPOLATION_SORTCLIPSBYSTARTTIME_OFFSET UNITYSDK_OFFSET(0x2063C450)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int Extrapolation_TypeDefinitionIndex = 38872;
+	inline static constexpr unsigned int Extrapolation_TypeDefinitionIndex = 39801;
 
 	class Extrapolation : public ::System::Object
 	{
 	public:
 		static ::System::Double* StaticGet_kMinExtrapolationTime()
 		{
-			return (::System::Double*)UnitySDK::FromName("UnityEngine.Timeline", "Extrapolation")->GetStaticField(0x11850);
+			return (::System::Double*)UnitySDK::FromName("UnityEngine.Timeline", "Extrapolation")->GetStaticField(0xDDB0);
 		}
 
 		static ::System::Void _cctor()

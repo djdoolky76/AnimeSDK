@@ -6,13 +6,13 @@ namespace RPG::GameCore { class NewAdventureFireProjectile; }
 namespace RPG::GameCore { class NewProjectileConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D5EC0)
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8D5ED0)
-#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D5E90)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAEFB10)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAEFB20)
+#define RPG_GAMECORE_NEWADVENTUREFIREPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAEFAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewAdventureFireProjectile_TypeDefinitionIndex = 20211;
+	inline static constexpr unsigned int NewAdventureFireProjectile_TypeDefinitionIndex = 20546;
 
 	class NewAdventureFireProjectile : public ::RPG::GameCore::AdventureFireProjectileBase
 	{

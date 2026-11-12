@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapSkillIndicatorTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGOEJPIEMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1451EFE0)
-#define EGOEJPIEMHI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1451F000)
+#define EGOEJPIEMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x152F9BB0)
+#define EGOEJPIEMHI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x152F9BD0)
 
-inline static constexpr unsigned int EGOEJPIEMHI_TypeDefinitionIndex = 59119;
+inline static constexpr unsigned int EGOEJPIEMHI_TypeDefinitionIndex = 60395;
 
 	class EGOEJPIEMHI
 	{

@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HGEGFCADEEC_CHCKKHBDDFN_OFFSET UNITYSDK_OFFSET(0x15C94EA0)
-#define HGEGFCADEEC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C949A0)
-#define HGEGFCADEEC_JPJAEBAIBFF_OFFSET UNITYSDK_OFFSET(0x15C94D90)
-#define HGEGFCADEEC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15C95430)
-#define HGEGFCADEEC_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0x15C94F30)
+#define HGEGFCADEEC_CHCKKHBDDFN_OFFSET UNITYSDK_OFFSET(0x16BDEFF0)
+#define HGEGFCADEEC_CTOR_OFFSET UNITYSDK_OFFSET(0x16BDEAF0)
+#define HGEGFCADEEC_JPJAEBAIBFF_OFFSET UNITYSDK_OFFSET(0x16BDEEE0)
+#define HGEGFCADEEC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x16BDF580)
+#define HGEGFCADEEC_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0x16BDF080)
 
-inline static constexpr unsigned int HGEGFCADEEC_TypeDefinitionIndex = 69795;
+inline static constexpr unsigned int HGEGFCADEEC_TypeDefinitionIndex = 71754;
 
 	class HGEGFCADEEC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>* MGGOBPCCILE; // 0x10
-		::System::String* KAMICNALBKI; // 0x18
-		::HGEGFCADEEC_GOBPIMACLEE* JLKLHLAPFMA; // 0x20
+		::HGEGFCADEEC_GOBPIMACLEE* JLKLHLAPFMA; // 0x10
+		::System::Collections::Generic::List_1<::System::Action_1<::System::Object*>*>* MGGOBPCCILE; // 0x18
+		::System::String* KAMICNALBKI; // 0x20
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Vector3 a2, ::UnityEngine::Vector3 a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + HGEGFCADEEC_CTOR_OFFSET))(this, a1, a2, a3);

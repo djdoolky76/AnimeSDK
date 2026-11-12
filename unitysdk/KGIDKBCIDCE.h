@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int KGIDKBCIDCE_TypeDefinitionIndex = 79008;
+inline static constexpr unsigned int KGIDKBCIDCE_TypeDefinitionIndex = 81784;
 
 	class KGIDKBCIDCE : public ::System::Object
 	{

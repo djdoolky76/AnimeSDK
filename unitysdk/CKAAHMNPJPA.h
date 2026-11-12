@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KCJNGDLDKFG;
 
-#define CKAAHMNPJPA_CTOR_OFFSET UNITYSDK_OFFSET(0xD751C50)
-#define CKAAHMNPJPA_GET__FLOWCOORDINATOR_OFFSET UNITYSDK_OFFSET(0xD751C40)
+#define CKAAHMNPJPA_CTOR_OFFSET UNITYSDK_OFFSET(0xE08BA90)
+#define CKAAHMNPJPA_GET__FLOWCOORDINATOR_OFFSET UNITYSDK_OFFSET(0xE08BA80)
 
-inline static constexpr unsigned int CKAAHMNPJPA_TypeDefinitionIndex = 79705;
+inline static constexpr unsigned int CKAAHMNPJPA_TypeDefinitionIndex = 82482;
 
 	class CKAAHMNPJPA : public ::System::Object
 	{

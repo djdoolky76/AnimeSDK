@@ -4,18 +4,18 @@
 class CIFCAIEDOLK;
 namespace System { class Object; }
 
-#define CIFCAIEDOLK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0D1EB0)
-#define CIFCAIEDOLK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0D1EF0)
-#define CIFCAIEDOLK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0D1F00)
+#define CIFCAIEDOLK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3A2E50)
+#define CIFCAIEDOLK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A2E90)
+#define CIFCAIEDOLK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F3A2EA0)
 
-inline static constexpr unsigned int CIFCAIEDOLK___c_TypeDefinitionIndex = 32677;
+inline static constexpr unsigned int CIFCAIEDOLK___c_TypeDefinitionIndex = 33592;
 
 	class CIFCAIEDOLK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x174A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x110B0);
 		}
 
 		static ::System::Void _cctor()

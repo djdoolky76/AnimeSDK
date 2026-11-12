@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StoryStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STORYSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB29190)
-#define RPG_GAMECORE_STORYSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB28FF0)
+#define RPG_GAMECORE_STORYSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD8970)
+#define RPG_GAMECORE_STORYSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDD87D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryStateConfig_TypeDefinitionIndex = 16384;
+	inline static constexpr unsigned int StoryStateConfig_TypeDefinitionIndex = 16548;
 
 	class StoryStateConfig : public ::RPG::GameCore::JsonConfig
 	{

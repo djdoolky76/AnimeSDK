@@ -4,11 +4,11 @@ namespace RPG::GameCore { class BindSwitchPhotoGraphFuncBtn; }
 namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GPBICCMIODG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3D070)
-#define GPBICCMIODG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B3D090)
-#define GPBICCMIODG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B3D1F0)
+#define GPBICCMIODG_CTOR_OFFSET UNITYSDK_OFFSET(0x16AC3800)
+#define GPBICCMIODG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16AC3820)
+#define GPBICCMIODG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AC3980)
 
-inline static constexpr unsigned int GPBICCMIODG_TypeDefinitionIndex = 52536;
+inline static constexpr unsigned int GPBICCMIODG_TypeDefinitionIndex = 53642;
 
 	class GPBICCMIODG
 	{

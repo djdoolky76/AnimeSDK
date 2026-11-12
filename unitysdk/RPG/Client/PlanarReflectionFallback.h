@@ -5,12 +5,12 @@ namespace RPG::Client::TAUtils { class RendererSlotMaterialPaths; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xDB72580)
-#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDB72530)
+#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C9620)
+#define RPG_CLIENT_PLANARREFLECTIONFALLBACK_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE5C95D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanarReflectionFallback_TypeDefinitionIndex = 70297;
+	inline static constexpr unsigned int PlanarReflectionFallback_TypeDefinitionIndex = 72263;
 
 	class PlanarReflectionFallback
 	{

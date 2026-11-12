@@ -4,18 +4,18 @@
 class ELBOKICMECP;
 namespace System { class Object; }
 
-#define ELBOKICMECP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2CA580)
-#define ELBOKICMECP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2CA5C0)
-#define ELBOKICMECP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2CA5D0)
+#define ELBOKICMECP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5AE6A0)
+#define ELBOKICMECP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5AE6E0)
+#define ELBOKICMECP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F5AE6F0)
 
-inline static constexpr unsigned int ELBOKICMECP___c_TypeDefinitionIndex = 30866;
+inline static constexpr unsigned int ELBOKICMECP___c_TypeDefinitionIndex = 31779;
 
 	class ELBOKICMECP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E450);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48DA0);
 		}
 
 		static ::System::Void _cctor()

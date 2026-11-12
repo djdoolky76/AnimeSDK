@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeBuffParamKey; }
 
-#define RPG_GAMECORE_MAZEBUFFPARAMKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D862BE0)
-#define RPG_GAMECORE_MAZEBUFFPARAMKEY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D862AA0)
+#define RPG_GAMECORE_MAZEBUFFPARAMKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7D430)
+#define RPG_GAMECORE_MAZEBUFFPARAMKEY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA7D2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuffParamKey_TypeDefinitionIndex = 18262;
+	inline static constexpr unsigned int MazeBuffParamKey_TypeDefinitionIndex = 18424;
 
 	class MazeBuffParamKey : public ::RPG::GameCore::JsonConfig
 	{

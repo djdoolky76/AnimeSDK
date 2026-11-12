@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_GAMECORE_ABILITYPROPERTYCHANGEREASONEXTENSION_TOPARAMSTRING_OFFSET UNITYSDK_OFFSET(0xE4BB1C0)
+#define RPG_GAMECORE_ABILITYPROPERTYCHANGEREASONEXTENSION_TOPARAMSTRING_OFFSET UNITYSDK_OFFSET(0xEF7A550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityPropertyChangeReasonExtension_TypeDefinitionIndex = 57726;
+	inline static constexpr unsigned int AbilityPropertyChangeReasonExtension_TypeDefinitionIndex = 58959;
 
 	class AbilityPropertyChangeReasonExtension : public ::System::Object
 	{

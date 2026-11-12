@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyAreaGoalConfigRow; }
 
-#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2DC60)
-#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC2DAE0)
+#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE418F0)
+#define RPG_GAMECORE_TRAINPARTYAREAGOALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE41770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyAreaGoalConfigRow_TypeDefinitionIndex = 15327;
+	inline static constexpr unsigned int TrainPartyAreaGoalConfigRow_TypeDefinitionIndex = 15483;
 
 	class TrainPartyAreaGoalConfigRow : public ::System::Object
 	{

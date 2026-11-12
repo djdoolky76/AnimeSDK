@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTMODIFYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D630AF0)
-#define RPG_GAMECORE_EFFECTMODIFYDATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D630B00)
-#define RPG_GAMECORE_EFFECTMODIFYDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6308F0)
+#define RPG_GAMECORE_EFFECTMODIFYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86E4D0)
+#define RPG_GAMECORE_EFFECTMODIFYDATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E86E4E0)
+#define RPG_GAMECORE_EFFECTMODIFYDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86E350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectModifyData_TypeDefinitionIndex = 20266;
+	inline static constexpr unsigned int EffectModifyData_TypeDefinitionIndex = 20601;
 
 	class EffectModifyData : public ::RPG::GameCore::JsonConfig
 	{

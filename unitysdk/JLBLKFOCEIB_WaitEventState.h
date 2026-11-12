@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JLBLKFOCEIB_WaitEventState_TypeDefinitionIndex = 52160;
+inline static constexpr unsigned int JLBLKFOCEIB_WaitEventState_TypeDefinitionIndex = 53265;
 
 	enum class JLBLKFOCEIB_WaitEventState : ::System::Int32
 	{

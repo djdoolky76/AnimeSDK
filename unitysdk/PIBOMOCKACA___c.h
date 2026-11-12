@@ -4,18 +4,18 @@
 class PIBOMOCKACA;
 namespace System { class Object; }
 
-#define PIBOMOCKACA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF41CE0)
-#define PIBOMOCKACA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF41D20)
-#define PIBOMOCKACA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF41D30)
+#define PIBOMOCKACA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F212A10)
+#define PIBOMOCKACA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F212A50)
+#define PIBOMOCKACA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F212A60)
 
-inline static constexpr unsigned int PIBOMOCKACA___c_TypeDefinitionIndex = 33068;
+inline static constexpr unsigned int PIBOMOCKACA___c_TypeDefinitionIndex = 33983;
 
 	class PIBOMOCKACA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40910);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37050);
 		}
 
 		static ::System::Void _cctor()

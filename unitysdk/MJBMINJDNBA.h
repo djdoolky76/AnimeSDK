@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGame/ChenLing/ChenLingSoldierTeamType.h"
 #include "unitysdk/System/Object.h"
 
-#define MJBMINJDNBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C8A0)
+#define MJBMINJDNBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEDDA0)
 
-inline static constexpr unsigned int MJBMINJDNBA_TypeDefinitionIndex = 43740;
+inline static constexpr unsigned int MJBMINJDNBA_TypeDefinitionIndex = 44815;
 
 	class MJBMINJDNBA : public ::System::Object
 	{

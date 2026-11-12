@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FDKLOILAJHE_TypeDefinitionIndex = 26542;
+inline static constexpr unsigned int FDKLOILAJHE_TypeDefinitionIndex = 27073;
 
 	enum class FDKLOILAJHE : ::System::Int32
 	{

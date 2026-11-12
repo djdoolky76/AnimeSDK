@@ -3,10 +3,10 @@
 class GJCIOLMFNAK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HBEILLALMEB_CTOR_OFFSET UNITYSDK_OFFSET(0x15BED630)
-#define HBEILLALMEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BED660)
+#define HBEILLALMEB_CTOR_OFFSET UNITYSDK_OFFSET(0x16B2F590)
+#define HBEILLALMEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B2F5C0)
 
-inline static constexpr unsigned int HBEILLALMEB_TypeDefinitionIndex = 53216;
+inline static constexpr unsigned int HBEILLALMEB_TypeDefinitionIndex = 54378;
 
 	class HBEILLALMEB
 	{

@@ -5,20 +5,20 @@ namespace RPG::GameCore { class RogueDLC1Dot3AdventureRoomPrepare; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define ENOACPMIKCL_CTOR_OFFSET UNITYSDK_OFFSET(0x155B4430)
-#define ENOACPMIKCL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155B4440)
-#define ENOACPMIKCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155B44E0)
-#define ENOACPMIKCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155B4730)
-#define ENOACPMIKCL_PFFCCGKGLKF_OFFSET UNITYSDK_OFFSET(0x155B47F0)
-#define ENOACPMIKCL_TICK_OFFSET UNITYSDK_OFFSET(0x155B4480)
+#define ENOACPMIKCL_CTOR_OFFSET UNITYSDK_OFFSET(0x164C4FB0)
+#define ENOACPMIKCL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164C4FC0)
+#define ENOACPMIKCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164C5060)
+#define ENOACPMIKCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164C52B0)
+#define ENOACPMIKCL_PFFCCGKGLKF_OFFSET UNITYSDK_OFFSET(0x164C5370)
+#define ENOACPMIKCL_TICK_OFFSET UNITYSDK_OFFSET(0x164C5000)
 
-inline static constexpr unsigned int ENOACPMIKCL_TypeDefinitionIndex = 58447;
+inline static constexpr unsigned int ENOACPMIKCL_TypeDefinitionIndex = 59703;
 
 	class ENOACPMIKCL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RogueDLC1Dot3AdventureRoomPrepare* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RogueDLC1Dot3AdventureRoomPrepare* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomPrepare* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RogueDLC1Dot3AdventureRoomPrepare*))((::PBYTE)hIl2Cpp + ENOACPMIKCL_CTOR_OFFSET))(this, a1, a2);

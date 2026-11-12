@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class FCLEMGPEMJJ;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD603000)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS12_0___BIND_B__0_OFFSET UNITYSDK_OFFSET(0xD605300)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE055EF0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDBANKCONTROL___C__DISPLAYCLASS12_0___BIND_B__0_OFFSET UNITYSDK_OFFSET(0xE058230)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftChipMoldBankControl___c__DisplayClass12_0_TypeDefinitionIndex = 79854;
+	inline static constexpr unsigned int MechCraftCraftChipMoldBankControl___c__DisplayClass12_0_TypeDefinitionIndex = 82631;
 
 	class MechCraftCraftChipMoldBankControl___c__DisplayClass12_0 : public ::System::Object
 	{

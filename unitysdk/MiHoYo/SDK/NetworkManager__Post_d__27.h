@@ -8,28 +8,28 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAE0C0)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BEB5130)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB51F0)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BEB5250)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BEB5200)
-#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BEB5120)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_CTOR_OFFSET UNITYSDK_OFFSET(0x1D035F10)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D03CFA0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D03D060)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D03D0C0)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D03D070)
+#define MIHOYO_SDK_NETWORKMANAGER__POST_D__27_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D03CF90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager__Post_d__27_TypeDefinitionIndex = 8150;
+	inline static constexpr unsigned int NetworkManager__Post_d__27_TypeDefinitionIndex = 8159;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27>
 	class NetworkManager__Post_d__27 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x10
-		::System::Action* timeoutCallback; // 0x18
-		::System::String* bodyString; // 0x20
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x28
-		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* callback; // 0x30
-		::System::String* requestUrl; // 0x38
-		::System::Object* __2__current; // 0x40
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* callback; // 0x10
+		::System::String* bodyString; // 0x18
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x28
+		::System::String* requestUrl; // 0x30
+		::System::Object* __2__current; // 0x38
+		::System::Action* timeoutCallback; // 0x40
 		::System::Int32 __1__state; // 0x48
 		::System::Void _ctor(::System::Int32 a1)
 		{

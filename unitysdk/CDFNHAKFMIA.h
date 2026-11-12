@@ -10,11 +10,11 @@ namespace Proto { class DisplayAvatarDetailInfo; }
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class String; }
 
-#define CDFNHAKFMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xC766B00)
-#define CDFNHAKFMIA_GGGFIFKDHDA_OFFSET UNITYSDK_OFFSET(0xC766CC0)
-#define CDFNHAKFMIA_MAPOJCHIIAG_OFFSET UNITYSDK_OFFSET(0xC766BB0)
+#define CDFNHAKFMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0CFB60)
+#define CDFNHAKFMIA_GGGFIFKDHDA_OFFSET UNITYSDK_OFFSET(0xD0CFD20)
+#define CDFNHAKFMIA_MAPOJCHIIAG_OFFSET UNITYSDK_OFFSET(0xD0CFC10)
 
-inline static constexpr unsigned int CDFNHAKFMIA_TypeDefinitionIndex = 62738;
+inline static constexpr unsigned int CDFNHAKFMIA_TypeDefinitionIndex = 64172;
 
 	class CDFNHAKFMIA : public ::System::Object
 	{

@@ -1,7 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-#include "unitysdk/RPG/GameCore/FixPoint.h"
 class BNCHFPFHIJL;
 class EPPECLHAGLL;
 class GBCGKOIEMKF;
@@ -12,35 +11,39 @@ namespace RPG::Client { class BattleShowUIPageTextParam; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
+namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EPPECLHAGLL_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0x155DAA10)
-#define EPPECLHAGLL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x155DA000)
-#define EPPECLHAGLL_CCHBIBHIACF_OFFSET UNITYSDK_OFFSET(0x155DA790)
-#define EPPECLHAGLL_CCTOR_OFFSET UNITYSDK_OFFSET(0x155DAA90)
-#define EPPECLHAGLL_CTOR_OFFSET UNITYSDK_OFFSET(0x155DA540)
-#define EPPECLHAGLL_FFOFCCNIAIB_OFFSET UNITYSDK_OFFSET(0x155DA0E0)
-#define EPPECLHAGLL_FPDICBGPCDE_OFFSET UNITYSDK_OFFSET(0x155DA550)
-#define EPPECLHAGLL_GMEKIMKHNLF_OFFSET UNITYSDK_OFFSET(0x155DA8A0)
-#define EPPECLHAGLL_MONBOOMKINM_OFFSET UNITYSDK_OFFSET(0x155DA9C0)
-#define EPPECLHAGLL_PNMCLEKKJKB_OFFSET UNITYSDK_OFFSET(0x155DA690)
+#define EPPECLHAGLL_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0x164ED9A0)
+#define EPPECLHAGLL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x164ECD10)
+#define EPPECLHAGLL_CCHBIBHIACF_OFFSET UNITYSDK_OFFSET(0x164ED750)
+#define EPPECLHAGLL_CCTOR_OFFSET UNITYSDK_OFFSET(0x164EDA20)
+#define EPPECLHAGLL_CTOR_OFFSET UNITYSDK_OFFSET(0x164ED640)
+#define EPPECLHAGLL_FFOFCCNIAIB_OFFSET UNITYSDK_OFFSET(0x164ECDC0)
+#define EPPECLHAGLL_FPDICBGPCDE_OFFSET UNITYSDK_OFFSET(0x164ED2E0)
+#define EPPECLHAGLL_GMEKIMKHNLF_OFFSET UNITYSDK_OFFSET(0x164ED860)
+#define EPPECLHAGLL_HIHGIIBLMON_OFFSET UNITYSDK_OFFSET(0x164ED470)
+#define EPPECLHAGLL_MONBOOMKINM_OFFSET UNITYSDK_OFFSET(0x164ED950)
+#define EPPECLHAGLL_PNMCLEKKJKB_OFFSET UNITYSDK_OFFSET(0x164ED650)
 
-inline static constexpr unsigned int EPPECLHAGLL_TypeDefinitionIndex = 71696;
+inline static constexpr unsigned int EPPECLHAGLL_TypeDefinitionIndex = 73687;
 
 	class EPPECLHAGLL : public ::System::Object
 	{
 	public:
-		::System::String* DDDAKMPHEEJ; // 0x10
-		::System::String* GEPAHMFFAOF; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::BattleShowUIPageTextParam*>* NPFHEANBOLE; // 0x20
-		::System::String* GEJIJFFILEB; // 0x28
+		::System::String* GEPAHMFFAOF; // 0x10
+		::System::String* DDDAKMPHEEJ; // 0x18
+		::System::String* GEJIJFFILEB; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::BattleShowUIPageTextParam*>* NPFHEANBOLE; // 0x28
 		::System::Single MMOCIIJHFHL; // 0x30
 		static ::KELONCAICPO** StaticGet_LHNBJBCOOHH()
 		{
-			return (::KELONCAICPO**)UnitySDK::FromName("", "EPPECLHAGLL")->GetStaticField(0x563C0);
+			return (::KELONCAICPO**)UnitySDK::FromName("", "EPPECLHAGLL")->GetStaticField(0x34790);
 		}
 
+		// static const ::System::String* IGCNIFCGAOO; // 0x0
+		// static const ::System::String* JINPOMEEFKA; // 0x0
 		// static const ::System::Object FOPMNAAAIDC; // 0x0
 		::System::Void _ctor()
 		{
@@ -72,9 +75,14 @@ inline static constexpr unsigned int EPPECLHAGLL_TypeDefinitionIndex = 71696;
 			return ((::System::String*(*)(::RPG::GameCore::TargetEvaluator*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + EPPECLHAGLL_CCHBIBHIACF_OFFSET))(a1, a2);
 		}
 
-		static ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* FPDICBGPCDE(::Il2CppArray<::RPG::GameCore::DynamicFloat*>* a1, ::RPG::GameCore::TaskContext* a2)
+		static ::System::Collections::Generic::List_1<::System::Object*>* FPDICBGPCDE(::Il2CppArray<::RPG::GameCore::DynamicFloat*>* a1, ::RPG::GameCore::TaskContext* a2)
 		{
-			return ((::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>*(*)(::Il2CppArray<::RPG::GameCore::DynamicFloat*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + EPPECLHAGLL_FPDICBGPCDE_OFFSET))(a1, a2);
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::Il2CppArray<::RPG::GameCore::DynamicFloat*>*, ::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + EPPECLHAGLL_FPDICBGPCDE_OFFSET))(a1, a2);
+		}
+
+		static ::System::String* HIHGIIBLMON(::RPG::GameCore::TaskContext* a1)
+		{
+			return ((::System::String*(*)(::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + EPPECLHAGLL_HIHGIIBLMON_OFFSET))(a1);
 		}
 
 		static ::System::Single GMEKIMKHNLF(::GBCGKOIEMKF* a1, ::RPG::GameCore::TaskContext* a2)

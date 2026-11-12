@@ -4,18 +4,18 @@
 class LDNPBALACDB;
 namespace System { class Object; }
 
-#define LDNPBALACDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E900C40)
-#define LDNPBALACDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E900C80)
-#define LDNPBALACDB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E900C90)
+#define LDNPBALACDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC3FC00)
+#define LDNPBALACDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC3FC40)
+#define LDNPBALACDB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC3FC50)
 
-inline static constexpr unsigned int LDNPBALACDB___c_TypeDefinitionIndex = 29687;
+inline static constexpr unsigned int LDNPBALACDB___c_TypeDefinitionIndex = 30505;
 
 	class LDNPBALACDB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35810);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BB60);
 		}
 
 		static ::System::Void _cctor()

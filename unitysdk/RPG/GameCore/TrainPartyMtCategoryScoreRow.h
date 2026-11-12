@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyMtCategoryScoreRow; }
 
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC33000)
-#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC32E90)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE462A0)
+#define RPG_GAMECORE_TRAINPARTYMTCATEGORYSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE46130)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyMtCategoryScoreRow_TypeDefinitionIndex = 15332;
+	inline static constexpr unsigned int TrainPartyMtCategoryScoreRow_TypeDefinitionIndex = 15488;
 
 	class TrainPartyMtCategoryScoreRow : public ::System::Object
 	{

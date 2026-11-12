@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpenTrainPartyBuildUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LCMKGMNPOMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB619090)
-#define LCMKGMNPOMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6190C0)
+#define LCMKGMNPOMB_CTOR_OFFSET UNITYSDK_OFFSET(0xBEABD50)
+#define LCMKGMNPOMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEABD80)
 
-inline static constexpr unsigned int LCMKGMNPOMB_TypeDefinitionIndex = 53416;
+inline static constexpr unsigned int LCMKGMNPOMB_TypeDefinitionIndex = 54578;
 
 	class LCMKGMNPOMB
 	{

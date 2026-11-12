@@ -4,22 +4,22 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGPARTRETENTIONITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B4450)
+#define RPG_CLIENT_B51RACING_B51RACINGPARTRETENTIONITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD115680)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingPartRetentionItemViewModel_TypeDefinitionIndex = 82009;
+	inline static constexpr unsigned int B51RacingPartRetentionItemViewModel_TypeDefinitionIndex = 84790;
 
 	class B51RacingPartRetentionItemViewModel : public ::System::Object
 	{
 	public:
 		::System::String* PartIconPath; // 0x10
-		::System::UInt32 PartID; // 0x18
-		::System::Boolean IsNew; // 0x1C
+		::RPG::Client::TextID NewTagText; // 0x18
+		::System::UInt32 PartID; // 0x28
+		::System::Boolean IsNew; // 0x2C
 		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID PartName; // 0x20
-		::RPG::Client::TextID NewTagText; // 0x30
-		::RPG::Client::TextID HintText; // 0x40
+		::RPG::Client::TextID HintText; // 0x30
+		::RPG::Client::TextID PartName; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGPARTRETENTIONITEMVIEWMODEL_CTOR_OFFSET))(this);

@@ -4,10 +4,10 @@
 class MICBPNMPEFP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DHBCOBNPOAH_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB6A10)
-#define DHBCOBNPOAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBB6AF0)
+#define DHBCOBNPOAH_CTOR_OFFSET UNITYSDK_OFFSET(0xF435150)
+#define DHBCOBNPOAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF435230)
 
-inline static constexpr unsigned int DHBCOBNPOAH_TypeDefinitionIndex = 53875;
+inline static constexpr unsigned int DHBCOBNPOAH_TypeDefinitionIndex = 55039;
 
 	class DHBCOBNPOAH
 	{

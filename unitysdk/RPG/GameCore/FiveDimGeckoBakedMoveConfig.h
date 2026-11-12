@@ -4,19 +4,17 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimGeckoBakedMoveConfig; }
 
-#define RPG_GAMECORE_FIVEDIMGECKOBAKEDMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C13C0)
-#define RPG_GAMECORE_FIVEDIMGECKOBAKEDMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C13D0)
-#define RPG_GAMECORE_FIVEDIMGECKOBAKEDMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C1390)
+#define RPG_GAMECORE_FIVEDIMGECKOBAKEDMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8CDF60)
+#define RPG_GAMECORE_FIVEDIMGECKOBAKEDMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8CDF70)
+#define RPG_GAMECORE_FIVEDIMGECKOBAKEDMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8CDF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGeckoBakedMoveConfig_TypeDefinitionIndex = 16679;
+	inline static constexpr unsigned int FiveDimGeckoBakedMoveConfig_TypeDefinitionIndex = 16845;
 
 	class FiveDimGeckoBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:
-		::System::Single FallGravity; // 0x30
-		::System::Single MaxFallSpeed; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMGECKOBAKEDMOVECONFIG_CTOR_OFFSET))(this);

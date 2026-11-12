@@ -7,19 +7,19 @@ namespace SuperScrollView { class LoopGridView; }
 namespace SuperScrollView { class LoopGridViewItem; }
 namespace XLua { class LuaTable; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROL___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD64E3C0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROL___C__DISPLAYCLASS6_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD64E800)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROL___C__DISPLAYCLASS6_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0xD64E960)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROL___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DD380)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROL___C__DISPLAYCLASS6_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xE0DD7C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROL___C__DISPLAYCLASS6_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0xE0DD920)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftOrderListControl___c__DisplayClass6_0_TypeDefinitionIndex = 80018;
+	inline static constexpr unsigned int MechCraftOrderListControl___c__DisplayClass6_0_TypeDefinitionIndex = 82795;
 
 	class MechCraftOrderListControl___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::FJIJGGEANOH* vm; // 0x10
-		::RPG::Client::MechCraft::View::MechCraftOrderListControl* __4__this; // 0x18
+		::RPG::Client::MechCraft::View::MechCraftOrderListControl* __4__this; // 0x10
+		::FJIJGGEANOH* vm; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERLISTCONTROL___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);

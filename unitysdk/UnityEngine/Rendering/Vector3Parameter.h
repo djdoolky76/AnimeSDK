@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define UNITYENGINE_RENDERING_VECTOR3PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2DBED0)
-#define UNITYENGINE_RENDERING_VECTOR3PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1F2DC030)
+#define UNITYENGINE_RENDERING_VECTOR3PARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x2058CD40)
+#define UNITYENGINE_RENDERING_VECTOR3PARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x2058CEA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int Vector3Parameter_TypeDefinitionIndex = 35647;
+	inline static constexpr unsigned int Vector3Parameter_TypeDefinitionIndex = 36575;
 
 	class Vector3Parameter
 	{

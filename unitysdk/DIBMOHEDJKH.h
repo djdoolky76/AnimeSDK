@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RemoveGlobalTimeSlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DIBMOHEDJKH_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEFE60)
-#define DIBMOHEDJKH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBEFE70)
-#define DIBMOHEDJKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBEFEB0)
-#define DIBMOHEDJKH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBEFF40)
-#define DIBMOHEDJKH_TICK_OFFSET UNITYSDK_OFFSET(0xEBEFF90)
+#define DIBMOHEDJKH_CTOR_OFFSET UNITYSDK_OFFSET(0xF961BF0)
+#define DIBMOHEDJKH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF961C00)
+#define DIBMOHEDJKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF961C40)
+#define DIBMOHEDJKH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF961CD0)
+#define DIBMOHEDJKH_TICK_OFFSET UNITYSDK_OFFSET(0xF961D20)
 
-inline static constexpr unsigned int DIBMOHEDJKH_TypeDefinitionIndex = 55307;
+inline static constexpr unsigned int DIBMOHEDJKH_TypeDefinitionIndex = 56489;
 
 	class DIBMOHEDJKH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RemoveGlobalTimeSlow* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::RemoveGlobalTimeSlow* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RemoveGlobalTimeSlow* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RemoveGlobalTimeSlow*))((::PBYTE)hIl2Cpp + DIBMOHEDJKH_CTOR_OFFSET))(this, a1, a2);

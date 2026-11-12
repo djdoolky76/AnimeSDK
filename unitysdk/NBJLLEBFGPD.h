@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NBJLLEBFGPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C943820)
-#define NBJLLEBFGPD_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C9438B0)
-#define NBJLLEBFGPD_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C9438C0)
+#define NBJLLEBFGPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB052F0)
+#define NBJLLEBFGPD_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DB05380)
+#define NBJLLEBFGPD_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1DB05390)
 
-inline static constexpr unsigned int NBJLLEBFGPD_TypeDefinitionIndex = 41940;
+inline static constexpr unsigned int NBJLLEBFGPD_TypeDefinitionIndex = 42915;
 
 	class NBJLLEBFGPD : public ::System::Object
 	{

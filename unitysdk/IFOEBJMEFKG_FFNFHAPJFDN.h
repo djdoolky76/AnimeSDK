@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/IFOEBJMEFKG_BCEIMHGKKCC.h"
 
-#define IFOEBJMEFKG_FFNFHAPJFDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15F2BCA0)
+#define IFOEBJMEFKG_FFNFHAPJFDN_CTOR_OFFSET UNITYSDK_OFFSET(0x16E9B0C0)
 
-inline static constexpr unsigned int IFOEBJMEFKG_FFNFHAPJFDN_TypeDefinitionIndex = 79441;
+inline static constexpr unsigned int IFOEBJMEFKG_FFNFHAPJFDN_TypeDefinitionIndex = 82218;
 
 	class IFOEBJMEFKG_FFNFHAPJFDN : public ::IFOEBJMEFKG_BCEIMHGKKCC
 	{

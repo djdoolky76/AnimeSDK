@@ -4,18 +4,18 @@
 class HOPLLHBDLBI;
 namespace System { class Object; }
 
-#define HOPLLHBDLBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5F34A0)
-#define HOPLLHBDLBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F34E0)
-#define HOPLLHBDLBI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E5F34F0)
+#define HOPLLHBDLBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8EFD10)
+#define HOPLLHBDLBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8EFD50)
+#define HOPLLHBDLBI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F8EFD60)
 
-inline static constexpr unsigned int HOPLLHBDLBI___c_TypeDefinitionIndex = 28255;
+inline static constexpr unsigned int HOPLLHBDLBI___c_TypeDefinitionIndex = 28845;
 
 	class HOPLLHBDLBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x501C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41D70);
 		}
 
 		static ::System::Void _cctor()

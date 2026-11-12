@@ -4,12 +4,12 @@
 namespace RPG::Client { class PlanetFesActiveBuff; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDBC3AC0)
-#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0___FINDACTIVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xDBC3AD0)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE641300)
+#define RPG_CLIENT_PLANETFESMODULE___C__DISPLAYCLASS48_0___FINDACTIVEBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xE65B0E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass48_0_TypeDefinitionIndex = 66657;
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass48_0_TypeDefinitionIndex = 68593;
 
 	class PlanetFesModule___c__DisplayClass48_0 : public ::System::Object
 	{

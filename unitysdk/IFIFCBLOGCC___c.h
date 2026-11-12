@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define IFIFCBLOGCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15F18520)
-#define IFIFCBLOGCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F18560)
-#define IFIFCBLOGCC___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15F18570)
+#define IFIFCBLOGCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16E873E0)
+#define IFIFCBLOGCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16E87420)
+#define IFIFCBLOGCC___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x16E87430)
 
-inline static constexpr unsigned int IFIFCBLOGCC___c_TypeDefinitionIndex = 58023;
+inline static constexpr unsigned int IFIFCBLOGCC___c_TypeDefinitionIndex = 59262;
 
 	class IFIFCBLOGCC___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57900);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x437A0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57908);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x437A8);
 		}
 
 		static ::System::Void _cctor()

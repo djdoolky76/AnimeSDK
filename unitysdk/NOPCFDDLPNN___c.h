@@ -4,18 +4,18 @@
 class NOPCFDDLPNN;
 namespace System { class Object; }
 
-#define NOPCFDDLPNN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB91960)
-#define NOPCFDDLPNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB919A0)
-#define NOPCFDDLPNN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB919B0)
+#define NOPCFDDLPNN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F085E00)
+#define NOPCFDDLPNN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F085E40)
+#define NOPCFDDLPNN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F085E50)
 
-inline static constexpr unsigned int NOPCFDDLPNN___c_TypeDefinitionIndex = 29896;
+inline static constexpr unsigned int NOPCFDDLPNN___c_TypeDefinitionIndex = 30794;
 
 	class NOPCFDDLPNN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD4B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72B80);
 		}
 
 		static ::System::Void _cctor()

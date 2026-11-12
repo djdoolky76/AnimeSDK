@@ -3,10 +3,10 @@
 class NABOEBEOBDB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MNINIONBJNK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0CEA0)
-#define MNINIONBJNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA0CED0)
+#define MNINIONBJNK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2CA560)
+#define MNINIONBJNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2CA590)
 
-inline static constexpr unsigned int MNINIONBJNK_TypeDefinitionIndex = 58212;
+inline static constexpr unsigned int MNINIONBJNK_TypeDefinitionIndex = 59468;
 
 	class MNINIONBJNK
 	{

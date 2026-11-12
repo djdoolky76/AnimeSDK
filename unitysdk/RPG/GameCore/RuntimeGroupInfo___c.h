@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_GAMECORE_RUNTIMEGROUPINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE746520)
-#define RPG_GAMECORE_RUNTIMEGROUPINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE746550)
-#define RPG_GAMECORE_RUNTIMEGROUPINFO___C__TRYGETLITTLEGAMEINFO_B__28_0_OFFSET UNITYSDK_OFFSET(0xE746580)
-#define RPG_GAMECORE_RUNTIMEGROUPINFO___C___DORANDOMINIT_B__0_0_OFFSET UNITYSDK_OFFSET(0xE746560)
+#define RPG_GAMECORE_RUNTIMEGROUPINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF249720)
+#define RPG_GAMECORE_RUNTIMEGROUPINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF249750)
+#define RPG_GAMECORE_RUNTIMEGROUPINFO___C__TRYGETLITTLEGAMEINFO_B__28_0_OFFSET UNITYSDK_OFFSET(0xF249780)
+#define RPG_GAMECORE_RUNTIMEGROUPINFO___C___DORANDOMINIT_B__0_0_OFFSET UNITYSDK_OFFSET(0xF249760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RuntimeGroupInfo___c_TypeDefinitionIndex = 53565;
+	inline static constexpr unsigned int RuntimeGroupInfo___c_TypeDefinitionIndex = 54728;
 
 	class RuntimeGroupInfo___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::GameCore::LevelGroupRandomInitControl*, ::System::UInt32>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::LevelGroupRandomInitControl*, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x728F0);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CB10);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x728F8);
 		}
 
 		static ::System::Func_3<::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*, ::System::Boolean>** StaticGet___9__28_0()
 		{
-			return (::System::Func_3<::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CB18);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::LevelGroupRandomInitControl*, ::System::UInt32>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::LevelGroupRandomInitControl*, ::System::UInt32>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CB20);
+			return (::System::Func_3<::System::UInt32, ::RPG::GameCore::LevelLittleGameInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72900);
 		}
 
 		static ::System::Void _cctor()

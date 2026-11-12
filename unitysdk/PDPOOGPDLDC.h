@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowPropSceneObjClickHint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PDPOOGPDLDC_CTOR_OFFSET UNITYSDK_OFFSET(0xC023C30)
-#define PDPOOGPDLDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC023C60)
+#define PDPOOGPDLDC_CTOR_OFFSET UNITYSDK_OFFSET(0xC929E40)
+#define PDPOOGPDLDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC929E70)
 
-inline static constexpr unsigned int PDPOOGPDLDC_TypeDefinitionIndex = 53284;
+inline static constexpr unsigned int PDPOOGPDLDC_TypeDefinitionIndex = 54446;
 
 	class PDPOOGPDLDC
 	{

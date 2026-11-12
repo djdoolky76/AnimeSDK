@@ -8,12 +8,12 @@ namespace RPG::GameCore { class HipplenHintWeightConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76BF90)
-#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76B770)
+#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97F860)
+#define RPG_GAMECORE_HIPPLENGAMEMAINCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97F0D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameMainConfig_TypeDefinitionIndex = 16782;
+	inline static constexpr unsigned int HipplenGameMainConfig_TypeDefinitionIndex = 16949;
 
 	class HipplenGameMainConfig : public ::RPG::GameCore::JsonConfig
 	{

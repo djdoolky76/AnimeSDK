@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Rendering/LODParameters.h"
 #include "unitysdk/UnityEngine/Plane.h"
 
-#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C73190)
+#define UNITYENGINE_RENDERING_BATCHCULLINGCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3EC2400)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 4735;
+	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 4739;
 
 	struct alignas(8) BatchCullingContext
 	{

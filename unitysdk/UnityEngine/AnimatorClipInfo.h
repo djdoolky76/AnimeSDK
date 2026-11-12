@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class AnimationClip; }
 
-#define UNITYENGINE_ANIMATORCLIPINFO_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x3C6A210)
+#define UNITYENGINE_ANIMATORCLIPINFO_GET_CLIP_OFFSET UNITYSDK_OFFSET(0x3EB9680)
 #define UNITYENGINE_ANIMATORCLIPINFO_GET_WEIGHT_OFFSET UNITYSDK_OFFSET(0x1D10)
-#define UNITYENGINE_ANIMATORCLIPINFO_INSTANCEIDTOANIMATIONCLIPPPTR_OFFSET UNITYSDK_OFFSET(0x1F3BF130)
+#define UNITYENGINE_ANIMATORCLIPINFO_INSTANCEIDTOANIMATIONCLIPPPTR_OFFSET UNITYSDK_OFFSET(0x2066FFB0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorClipInfo_TypeDefinitionIndex = 5705;
+	inline static constexpr unsigned int AnimatorClipInfo_TypeDefinitionIndex = 5711;
 
 	struct alignas(4) AnimatorClipInfo
 	{

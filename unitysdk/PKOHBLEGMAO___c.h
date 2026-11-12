@@ -4,18 +4,18 @@
 class PKOHBLEGMAO;
 namespace System { class Object; }
 
-#define PKOHBLEGMAO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF94F00)
-#define PKOHBLEGMAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF94F30)
-#define PKOHBLEGMAO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF94F40)
+#define PKOHBLEGMAO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F246730)
+#define PKOHBLEGMAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F246760)
+#define PKOHBLEGMAO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F246770)
 
-inline static constexpr unsigned int PKOHBLEGMAO___c_TypeDefinitionIndex = 33021;
+inline static constexpr unsigned int PKOHBLEGMAO___c_TypeDefinitionIndex = 33936;
 
 	class PKOHBLEGMAO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A5C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CE00);
 		}
 
 		static ::System::Void _cctor()

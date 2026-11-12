@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C033B70)
+#define MONO_SECURITY_INTERFACE_MONOTLSPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1BB030)
 
 namespace Mono::Security::Interface
 {

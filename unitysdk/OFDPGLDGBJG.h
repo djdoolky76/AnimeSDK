@@ -5,23 +5,23 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class NJGDIEAIHPD;
 
-#define OFDPGLDGBJG_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0xBE3E480)
-#define OFDPGLDGBJG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3DC60)
-#define OFDPGLDGBJG_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xBE3DC90)
-#define OFDPGLDGBJG_JENEIKCAPGI_OFFSET UNITYSDK_OFFSET(0xBE3E430)
+#define OFDPGLDGBJG_ANOGKEGBNJE_OFFSET UNITYSDK_OFFSET(0xC6F6E90)
+#define OFDPGLDGBJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F6670)
+#define OFDPGLDGBJG_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xC6F66A0)
+#define OFDPGLDGBJG_JENEIKCAPGI_OFFSET UNITYSDK_OFFSET(0xC6F6E40)
 
-inline static constexpr unsigned int OFDPGLDGBJG_TypeDefinitionIndex = 62522;
+inline static constexpr unsigned int OFDPGLDGBJG_TypeDefinitionIndex = 63935;
 
 	class OFDPGLDGBJG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarPropertyType JJPKJHBGAEC; // 0x10
+		::RPG::GameCore::AvatarPropertyType ANAKLGDMHEA; // 0x10
 		::RPG::GameCore::AvatarPropertyType KALLAOMAHEB; // 0x14
-		::RPG::GameCore::AvatarPropertyType FMKJGJOKPNP; // 0x18
-		::RPG::GameCore::AvatarPropertyType ANAKLGDMHEA; // 0x1C
-		::RPG::GameCore::AvatarPropertyType HGFIMHFOKNL; // 0x20
-		::RPG::GameCore::AvatarPropertyType MJGCJCPOJBM; // 0x24
-		::RPG::GameCore::AvatarPropertyType BFCNHGJAKFL; // 0x28
+		::RPG::GameCore::AvatarPropertyType HGFIMHFOKNL; // 0x18
+		::RPG::GameCore::AvatarPropertyType MJGCJCPOJBM; // 0x1C
+		::RPG::GameCore::AvatarPropertyType JJPKJHBGAEC; // 0x20
+		::RPG::GameCore::AvatarPropertyType BFCNHGJAKFL; // 0x24
+		::RPG::GameCore::AvatarPropertyType FMKJGJOKPNP; // 0x28
 		::System::Void _ctor(::RPG::GameCore::AvatarPropertyType a1, ::RPG::GameCore::AvatarPropertyType a2, ::RPG::GameCore::AvatarPropertyType a3, ::RPG::GameCore::AvatarPropertyType a4, ::RPG::GameCore::AvatarPropertyType a5, ::RPG::GameCore::AvatarPropertyType a6, ::RPG::GameCore::AvatarPropertyType a7)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType))((::PBYTE)hIl2Cpp + OFDPGLDGBJG_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7);

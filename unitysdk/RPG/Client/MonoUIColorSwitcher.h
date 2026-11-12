@@ -6,13 +6,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOUICOLORSWITCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xD87B450)
-#define RPG_CLIENT_MONOUICOLORSWITCHER_GETCOLORBYSTATE_OFFSET UNITYSDK_OFFSET(0xD87AE40)
-#define RPG_CLIENT_MONOUICOLORSWITCHER_SWITCHCOLORSTATE_OFFSET UNITYSDK_OFFSET(0xD87B000)
+#define RPG_CLIENT_MONOUICOLORSWITCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xE2CD960)
+#define RPG_CLIENT_MONOUICOLORSWITCHER_GETCOLORBYSTATE_OFFSET UNITYSDK_OFFSET(0xE2CD350)
+#define RPG_CLIENT_MONOUICOLORSWITCHER_SWITCHCOLORSTATE_OFFSET UNITYSDK_OFFSET(0xE2CD510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIColorSwitcher_TypeDefinitionIndex = 68974;
+	inline static constexpr unsigned int MonoUIColorSwitcher_TypeDefinitionIndex = 70927;
 
 	class MonoUIColorSwitcher : public ::UnityEngine::MonoBehaviour
 	{

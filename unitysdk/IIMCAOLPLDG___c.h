@@ -5,29 +5,29 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define IIMCAOLPLDG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1644DAB0)
-#define IIMCAOLPLDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1644DAF0)
-#define IIMCAOLPLDG___C__GETEQUIPMENTPROPERTYLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x1644DB80)
-#define IIMCAOLPLDG___C___TOPROPERTYMODIFYDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x1644DB00)
+#define IIMCAOLPLDG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x17408860)
+#define IIMCAOLPLDG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x174088A0)
+#define IIMCAOLPLDG___C__GETEQUIPMENTPROPERTYLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0x17408930)
+#define IIMCAOLPLDG___C___TOPROPERTYMODIFYDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0x174088B0)
 
-inline static constexpr unsigned int IIMCAOLPLDG___c_TypeDefinitionIndex = 73268;
+inline static constexpr unsigned int IIMCAOLPLDG___c_TypeDefinitionIndex = 75384;
 
 	class IIMCAOLPLDG___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FDE0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FDE8);
+			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67F40);
 		}
 
 		static ::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FDF0);
+			return (::System::Comparison_1<::RPG::GameCore::RtPropertyModifyData>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67F48);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67F50);
 		}
 
 		static ::System::Void _cctor()

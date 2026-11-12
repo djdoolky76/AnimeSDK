@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamBuildGroupConfigRow; }
 
-#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB79D80)
-#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB79C40)
+#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE29530)
+#define RPG_GAMECORE_TEAMBUILDGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE293F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamBuildGroupConfigRow_TypeDefinitionIndex = 15274;
+	inline static constexpr unsigned int TeamBuildGroupConfigRow_TypeDefinitionIndex = 15430;
 
 	class TeamBuildGroupConfigRow : public ::System::Object
 	{

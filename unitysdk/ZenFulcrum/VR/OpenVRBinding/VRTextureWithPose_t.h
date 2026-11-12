@@ -4,7 +4,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VRTextureWithPose_t_TypeDefinitionIndex = 39279;
+	inline static constexpr unsigned int VRTextureWithPose_t_TypeDefinitionIndex = 40208;
 
 	struct alignas(4) VRTextureWithPose_t
 	{

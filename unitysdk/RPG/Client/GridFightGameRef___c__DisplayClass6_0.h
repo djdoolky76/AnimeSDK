@@ -7,19 +7,19 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15C880)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS6_0__SENDGRIDFIGHTREADGAMEREFUPDATEREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD165A30)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS6_0__SENDGRIDFIGHTREADGAMEREFUPDATEREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD165AA0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2C410)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS6_0__SENDGRIDFIGHTREADGAMEREFUPDATEREQ_B__0_OFFSET UNITYSDK_OFFSET(0xDB2C420)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS6_0__SENDGRIDFIGHTREADGAMEREFUPDATEREQ_B__1_OFFSET UNITYSDK_OFFSET(0xDB2C490)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass6_0_TypeDefinitionIndex = 64712;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass6_0_TypeDefinitionIndex = 66255;
 
 	class GridFightGameRef___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightGameRef* __4__this; // 0x10
-		::System::Action_1<::System::Boolean>* callback; // 0x18
+		::System::Action_1<::System::Boolean>* callback; // 0x10
+		::RPG::Client::GridFightGameRef* __4__this; // 0x18
 		::Il2CppArray<::System::String*>* ids; // 0x20
 		::System::Void _ctor()
 		{

@@ -8,22 +8,22 @@ namespace RPG::Client::FateRin::CaseBoard { class TeamViewModel; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PPJFJOGLHGL_BFEBJFGONMF_OFFSET UNITYSDK_OFFSET(0xC38C2D0)
-#define PPJFJOGLHGL_BFLNFMEGCPE_OFFSET UNITYSDK_OFFSET(0xC38C370)
-#define PPJFJOGLHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC38C5C0)
-#define PPJFJOGLHGL_GET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xC38C2B0)
-#define PPJFJOGLHGL_SET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xC38C2C0)
+#define PPJFJOGLHGL_BFEBJFGONMF_OFFSET UNITYSDK_OFFSET(0xCCC1A20)
+#define PPJFJOGLHGL_BFLNFMEGCPE_OFFSET UNITYSDK_OFFSET(0xCCC1AC0)
+#define PPJFJOGLHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC1D10)
+#define PPJFJOGLHGL_GET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xCCC1A00)
+#define PPJFJOGLHGL_SET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xCCC1A10)
 
-inline static constexpr unsigned int PPJFJOGLHGL_TypeDefinitionIndex = 80789;
+inline static constexpr unsigned int PPJFJOGLHGL_TypeDefinitionIndex = 83569;
 
 	class PPJFJOGLHGL : public ::System::Object
 	{
 	public:
-		::PHCOGNHOOJP* DLNIGFGLPLJ; // 0x10
-		::System::String* NLCHDCHBCAL; // 0x18
+		::System::String* NLCHDCHBCAL; // 0x10
+		::PHCOGNHOOJP* DLNIGFGLPLJ; // 0x18
 		static ::RPG::Client::FateRin::CaseBoard::CaseBoardPerformViewModel** StaticGet__CurrentPerformForTask_k__BackingField()
 		{
-			return (::RPG::Client::FateRin::CaseBoard::CaseBoardPerformViewModel**)UnitySDK::FromName("", "PPJFJOGLHGL")->GetStaticField(0xD670);
+			return (::RPG::Client::FateRin::CaseBoard::CaseBoardPerformViewModel**)UnitySDK::FromName("", "PPJFJOGLHGL")->GetStaticField(0xC3A0);
 		}
 
 		::System::Void _ctor()

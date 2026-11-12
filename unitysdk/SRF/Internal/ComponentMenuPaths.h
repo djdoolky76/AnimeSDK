@@ -4,7 +4,7 @@
 
 namespace SRF::Internal
 {
-	inline static constexpr unsigned int ComponentMenuPaths_TypeDefinitionIndex = 35434;
+	inline static constexpr unsigned int ComponentMenuPaths_TypeDefinitionIndex = 36362;
 
 	class ComponentMenuPaths : public ::System::Object
 	{

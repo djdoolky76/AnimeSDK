@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveMessageContentType_TypeDefinitionIndex = 11778;
+	inline static constexpr unsigned int IdleLiveMessageContentType_TypeDefinitionIndex = 11835;
 
 	enum class IdleLiveMessageContentType : ::System::Int32
 	{

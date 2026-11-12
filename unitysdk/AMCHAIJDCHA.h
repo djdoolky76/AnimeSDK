@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCarryMazebuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMCHAIJDCHA_CTOR_OFFSET UNITYSDK_OFFSET(0x15576540)
-#define AMCHAIJDCHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15576570)
+#define AMCHAIJDCHA_CTOR_OFFSET UNITYSDK_OFFSET(0x163E6570)
+#define AMCHAIJDCHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163E65A0)
 
-inline static constexpr unsigned int AMCHAIJDCHA_TypeDefinitionIndex = 54517;
+inline static constexpr unsigned int AMCHAIJDCHA_TypeDefinitionIndex = 55682;
 
 	class AMCHAIJDCHA
 	{

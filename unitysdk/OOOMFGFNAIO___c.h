@@ -7,47 +7,47 @@ namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 namespace System { class Object; }
 
-#define OOOMFGFNAIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF94CA0)
-#define OOOMFGFNAIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF94CE0)
-#define OOOMFGFNAIO___C__INITIALIZE_B__1_0_OFFSET UNITYSDK_OFFSET(0xBF94CF0)
-#define OOOMFGFNAIO___C__INITIALIZE_B__1_1_OFFSET UNITYSDK_OFFSET(0xBF95070)
-#define OOOMFGFNAIO___C__INITIALIZE_B__1_2_OFFSET UNITYSDK_OFFSET(0xBF95150)
-#define OOOMFGFNAIO___C__INITIALIZE_B__1_3_OFFSET UNITYSDK_OFFSET(0xBF95210)
-#define OOOMFGFNAIO___C__INITIALIZE_B__1_4_OFFSET UNITYSDK_OFFSET(0xBF952C0)
+#define OOOMFGFNAIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC895B90)
+#define OOOMFGFNAIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC895BD0)
+#define OOOMFGFNAIO___C__INITIALIZE_B__1_0_OFFSET UNITYSDK_OFFSET(0xC895BE0)
+#define OOOMFGFNAIO___C__INITIALIZE_B__1_1_OFFSET UNITYSDK_OFFSET(0xC895F60)
+#define OOOMFGFNAIO___C__INITIALIZE_B__1_2_OFFSET UNITYSDK_OFFSET(0xC896040)
+#define OOOMFGFNAIO___C__INITIALIZE_B__1_3_OFFSET UNITYSDK_OFFSET(0xC896100)
+#define OOOMFGFNAIO___C__INITIALIZE_B__1_4_OFFSET UNITYSDK_OFFSET(0xC8961B0)
 
-inline static constexpr unsigned int OOOMFGFNAIO___c_TypeDefinitionIndex = 76606;
+inline static constexpr unsigned int OOOMFGFNAIO___c_TypeDefinitionIndex = 78937;
 
 	class OOOMFGFNAIO___c : public ::System::Object
 	{
 	public:
 		static ::Entitas::EntityComponentChanged** StaticGet___9__1_2()
 		{
-			return (::Entitas::EntityComponentChanged**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F130);
-		}
-
-		static ::Entitas::EntityComponentReplaced** StaticGet___9__1_0()
-		{
-			return (::Entitas::EntityComponentReplaced**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F138);
-		}
-
-		static ::Entitas::EntityComponentChanged** StaticGet___9__1_3()
-		{
-			return (::Entitas::EntityComponentChanged**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F140);
+			return (::Entitas::EntityComponentChanged**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B460);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F148);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B468);
 		}
 
 		static ::Entitas::EntityComponentReplaced** StaticGet___9__1_4()
 		{
-			return (::Entitas::EntityComponentReplaced**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F150);
+			return (::Entitas::EntityComponentReplaced**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B470);
+		}
+
+		static ::Entitas::EntityComponentChanged** StaticGet___9__1_3()
+		{
+			return (::Entitas::EntityComponentChanged**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B478);
+		}
+
+		static ::Entitas::EntityComponentReplaced** StaticGet___9__1_0()
+		{
+			return (::Entitas::EntityComponentReplaced**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B480);
 		}
 
 		static ::Entitas::EntityComponentChanged** StaticGet___9__1_1()
 		{
-			return (::Entitas::EntityComponentChanged**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F158);
+			return (::Entitas::EntityComponentChanged**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B488);
 		}
 
 		static ::System::Void _cctor()

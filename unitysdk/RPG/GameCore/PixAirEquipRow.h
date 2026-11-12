@@ -8,18 +8,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirEquipRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIREQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91B9D0)
-#define RPG_GAMECORE_PIXAIREQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91AAE0)
+#define RPG_GAMECORE_PIXAIREQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB34BE0)
+#define RPG_GAMECORE_PIXAIREQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB33D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEquipRow_TypeDefinitionIndex = 12155;
+	inline static constexpr unsigned int PixAirEquipRow_TypeDefinitionIndex = 12212;
 
 	class PixAirEquipRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* TagList; // 0x10
-		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* AffectedTaglist; // 0x18
+		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* AffectedTaglist; // 0x10
+		::Il2CppArray<::RPG::GameCore::PixAirEquipTag>* TagList; // 0x18
 		::System::String* EquipIcon; // 0x20
 		::System::Boolean IsCore; // 0x28
 		::System::Byte _padding0[0x7];

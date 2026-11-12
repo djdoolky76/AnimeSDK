@@ -4,14 +4,14 @@
 namespace Spine { class Attachment; }
 namespace System { class String; }
 
-#define SPINE_ATTACHMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC9EB30)
-#define SPINE_ATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9EAE0)
-#define SPINE_ATTACHMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1EC9EAD0)
-#define SPINE_ATTACHMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EC9EB50)
+#define SPINE_ATTACHMENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FF4F330)
+#define SPINE_ATTACHMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF4F2E0)
+#define SPINE_ATTACHMENT_GET_NAME_OFFSET UNITYSDK_OFFSET(0x1FF4F2D0)
+#define SPINE_ATTACHMENT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1FF4F350)
 
 namespace Spine
 {
-	inline static constexpr unsigned int Attachment_TypeDefinitionIndex = 39650;
+	inline static constexpr unsigned int Attachment_TypeDefinitionIndex = 40579;
 
 	class Attachment : public ::System::Object
 	{

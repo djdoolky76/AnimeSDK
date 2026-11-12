@@ -5,25 +5,25 @@ namespace RPG::Client { class MusicAlbumGroupData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MUSICALBUMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD90A8D0)
-#define RPG_CLIENT_MUSICALBUMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD90A910)
-#define RPG_CLIENT_MUSICALBUMMODULE___C__GETUNLOCKMUSICALBUMGROUPDATAS_B__12_0_OFFSET UNITYSDK_OFFSET(0xD90A920)
+#define RPG_CLIENT_MUSICALBUMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE39E500)
+#define RPG_CLIENT_MUSICALBUMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE39E540)
+#define RPG_CLIENT_MUSICALBUMMODULE___C__GETUNLOCKMUSICALBUMGROUPDATAS_B__12_0_OFFSET UNITYSDK_OFFSET(0xE39E550)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicAlbumModule___c_TypeDefinitionIndex = 66361;
+	inline static constexpr unsigned int MusicAlbumModule___c_TypeDefinitionIndex = 68297;
 
 	class MusicAlbumModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E3D0);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::MusicAlbumGroupData*>** StaticGet___9__12_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MusicAlbumGroupData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E3D8);
+			return (::System::Comparison_1<::RPG::Client::MusicAlbumGroupData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69260);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x69268);
 		}
 
 		static ::System::Void _cctor()

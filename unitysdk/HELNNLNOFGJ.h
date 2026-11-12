@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HELNNLNOFGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x202EFC0)
+#define HELNNLNOFGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x2168550)
 
-inline static constexpr unsigned int HELNNLNOFGJ_TypeDefinitionIndex = 71103;
+inline static constexpr unsigned int HELNNLNOFGJ_TypeDefinitionIndex = 73086;
 
 	struct alignas(4) HELNNLNOFGJ
 	{

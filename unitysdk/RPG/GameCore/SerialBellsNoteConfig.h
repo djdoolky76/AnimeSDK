@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SerialBellsNoteConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SERIALBELLSNOTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8CF50)
-#define RPG_GAMECORE_SERIALBELLSNOTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8CDB0)
+#define RPG_GAMECORE_SERIALBELLSNOTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9F5C0)
+#define RPG_GAMECORE_SERIALBELLSNOTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9F420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SerialBellsNoteConfig_TypeDefinitionIndex = 16380;
+	inline static constexpr unsigned int SerialBellsNoteConfig_TypeDefinitionIndex = 16544;
 
 	class SerialBellsNoteConfig : public ::RPG::GameCore::JsonConfig
 	{

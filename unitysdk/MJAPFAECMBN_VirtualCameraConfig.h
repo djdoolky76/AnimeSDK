@@ -5,10 +5,10 @@
 namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client { class CameraBlendCurve; }
 
-#define MJAPFAECMBN_VIRTUALCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB962F90)
-#define MJAPFAECMBN_VIRTUALCAMERACONFIG_GET_PREFERREDVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xB962B70)
+#define MJAPFAECMBN_VIRTUALCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC218E10)
+#define MJAPFAECMBN_VIRTUALCAMERACONFIG_GET_PREFERREDVIRTUALCAMERA_OFFSET UNITYSDK_OFFSET(0xC2189F0)
 
-inline static constexpr unsigned int MJAPFAECMBN_VirtualCameraConfig_TypeDefinitionIndex = 78476;
+inline static constexpr unsigned int MJAPFAECMBN_VirtualCameraConfig_TypeDefinitionIndex = 81211;
 
 	class MJAPFAECMBN_VirtualCameraConfig : public ::System::Object
 	{

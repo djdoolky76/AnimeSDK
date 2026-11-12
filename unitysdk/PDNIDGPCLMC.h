@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define PDNIDGPCLMC_MLOJDNENGDC_OFFSET UNITYSDK_OFFSET(0xC021880)
+#define PDNIDGPCLMC_MLOJDNENGDC_OFFSET UNITYSDK_OFFSET(0xC927AC0)
 
-inline static constexpr unsigned int PDNIDGPCLMC_TypeDefinitionIndex = 55156;
+inline static constexpr unsigned int PDNIDGPCLMC_TypeDefinitionIndex = 56337;
 
 	struct alignas(4) PDNIDGPCLMC
 	{

@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Net::Http::Headers { class TransferCodingHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE55230)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE55260)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONCLOSE_B__19_0_OFFSET UNITYSDK_OFFSET(0x1EE55270)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONKEEPALIVE_B__22_0_OFFSET UNITYSDK_OFFSET(0x1EE55290)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_EXPECTCONTINUE_B__29_0_OFFSET UNITYSDK_OFFSET(0x1EE552B0)
-#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_TRANSFERENCODINGCHUNKED_B__71_0_OFFSET UNITYSDK_OFFSET(0x1EE552E0)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20104C10)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20104C40)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONCLOSE_B__19_0_OFFSET UNITYSDK_OFFSET(0x20104C50)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_CONNECTIONKEEPALIVE_B__22_0_OFFSET UNITYSDK_OFFSET(0x20104C70)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_EXPECTCONTINUE_B__29_0_OFFSET UNITYSDK_OFFSET(0x20104C90)
+#define SYSTEM_NET_HTTP_HEADERS_HTTPREQUESTHEADERS___C__GET_TRANSFERENCODINGCHUNKED_B__71_0_OFFSET UNITYSDK_OFFSET(0x20104CC0)
 
 namespace System::Net::Http::Headers
 {
@@ -20,29 +20,29 @@ namespace System::Net::Http::Headers
 	class HttpRequestHeaders___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x48A70);
+		}
+
 		static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>** StaticGet___9__29_0()
 		{
-			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x2C20);
-		}
-
-		static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>** StaticGet___9__71_0()
-		{
-			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x2C28);
-		}
-
-		static ::System::Predicate_1<::System::String*>** StaticGet___9__19_0()
-		{
-			return (::System::Predicate_1<::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x2C30);
+			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x48A78);
 		}
 
 		static ::System::Predicate_1<::System::String*>** StaticGet___9__22_0()
 		{
-			return (::System::Predicate_1<::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x2C38);
+			return (::System::Predicate_1<::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x48A80);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>** StaticGet___9__71_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x2C40);
+			return (::System::Predicate_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x48A88);
+		}
+
+		static ::System::Predicate_1<::System::String*>** StaticGet___9__19_0()
+		{
+			return (::System::Predicate_1<::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x48A90);
 		}
 
 		static ::System::Void _cctor()

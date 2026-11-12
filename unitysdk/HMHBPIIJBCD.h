@@ -6,18 +6,18 @@
 class FCOEMCEDLNL;
 class HMHBPIIJBCD;
 
-#define HMHBPIIJBCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC5D20)
-#define HMHBPIIJBCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC5B20)
+#define HMHBPIIJBCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A6950)
+#define HMHBPIIJBCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0A6750)
 
-inline static constexpr unsigned int HMHBPIIJBCD_TypeDefinitionIndex = 11583;
+inline static constexpr unsigned int HMHBPIIJBCD_TypeDefinitionIndex = 11634;
 
 	class HMHBPIIJBCD : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID IBGNNBCPHFO; // 0x10
-		::System::UInt32 GNIFLCBGAAA; // 0x20
-		::System::UInt32 EOAGGGKKHLN; // 0x24
-		::RPG::GameCore::FateRinSwitchDayTalker PFNEMONCJFE; // 0x28
+		::RPG::GameCore::FateRinSwitchDayTalker PFNEMONCJFE; // 0x20
+		::System::UInt32 GNIFLCBGAAA; // 0x24
+		::System::UInt32 EOAGGGKKHLN; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HMHBPIIJBCD_CTOR_OFFSET))(this);

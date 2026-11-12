@@ -5,30 +5,30 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define JEADGPFEBOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x16612720)
-#define JEADGPFEBOL_CFFDCFEHJMC_OFFSET UNITYSDK_OFFSET(0x16612570)
-#define JEADGPFEBOL_FHKABLBOMBF_OFFSET UNITYSDK_OFFSET(0x16612470)
-#define JEADGPFEBOL_LEPOJDCMAMN_OFFSET UNITYSDK_OFFSET(0x16612670)
-#define JEADGPFEBOL_MCOEJCBNOJM_OFFSET UNITYSDK_OFFSET(0x166123F0)
+#define JEADGPFEBOL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB95B1E0)
+#define JEADGPFEBOL_CFFDCFEHJMC_OFFSET UNITYSDK_OFFSET(0xB95B030)
+#define JEADGPFEBOL_FHKABLBOMBF_OFFSET UNITYSDK_OFFSET(0xB95AF30)
+#define JEADGPFEBOL_LEPOJDCMAMN_OFFSET UNITYSDK_OFFSET(0xB95B130)
+#define JEADGPFEBOL_MCOEJCBNOJM_OFFSET UNITYSDK_OFFSET(0xB95AEB0)
 
-inline static constexpr unsigned int JEADGPFEBOL_TypeDefinitionIndex = 54449;
+inline static constexpr unsigned int JEADGPFEBOL_TypeDefinitionIndex = 55613;
 
 	class JEADGPFEBOL : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_GLPMBHGPMNO()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "JEADGPFEBOL")->GetStaticField(0x6F260);
+			return (::System::Object**)UnitySDK::FromName("", "JEADGPFEBOL")->GetStaticField(0x68290);
 		}
 
 		static ::System::Object** StaticGet_JAFCIONPLCI()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "JEADGPFEBOL")->GetStaticField(0x6F268);
+			return (::System::Object**)UnitySDK::FromName("", "JEADGPFEBOL")->GetStaticField(0x68298);
 		}
 
 		static ::RPG::GameCore::FixPoint* StaticGet_NPKGLMNBMOA()
 		{
-			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "JEADGPFEBOL")->GetStaticField(0x15890);
+			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "JEADGPFEBOL")->GetStaticField(0x14EF0);
 		}
 
 		static ::System::Void _cctor()

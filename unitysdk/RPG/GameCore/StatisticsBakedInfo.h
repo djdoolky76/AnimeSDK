@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StatisticsBakedInfo; }
 
-#define RPG_GAMECORE_STATISTICSBAKEDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB20F50)
-#define RPG_GAMECORE_STATISTICSBAKEDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB20E90)
+#define RPG_GAMECORE_STATISTICSBAKEDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED32800)
+#define RPG_GAMECORE_STATISTICSBAKEDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED32740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StatisticsBakedInfo_TypeDefinitionIndex = 16724;
+	inline static constexpr unsigned int StatisticsBakedInfo_TypeDefinitionIndex = 16890;
 
 	class StatisticsBakedInfo : public ::RPG::GameCore::JsonConfig
 	{

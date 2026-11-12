@@ -6,25 +6,25 @@ namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS218_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6422A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS218_0__EVALJS_B__0_OFFSET UNITYSDK_OFFSET(0x1F6474A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS218_0__EVALJS_B__1_OFFSET UNITYSDK_OFFSET(0x1F647610)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS218_0_CTOR_OFFSET UNITYSDK_OFFSET(0x208F1B00)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS218_0__EVALJS_B__0_OFFSET UNITYSDK_OFFSET(0x208F6D20)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS218_0__EVALJS_B__1_OFFSET UNITYSDK_OFFSET(0x208F6E90)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass218_0_TypeDefinitionIndex = 39351;
+	inline static constexpr unsigned int Browser___c__DisplayClass218_0_TypeDefinitionIndex = 40280;
 
 	class Browser___c__DisplayClass218_0 : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::Promise_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>* promise; // 0x10
-		::System::String* scriptURL; // 0x18
-		::System::String* resultJS; // 0x20
-		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x28
-		::System::Int32 timeout; // 0x30
+		::System::String* scriptURL; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::Promise_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>* promise; // 0x20
+		::System::String* resultJS; // 0x28
+		::System::Int32 id; // 0x30
 		::System::Boolean block; // 0x34
 		::System::Byte _padding0[0x3];
-		::System::Int32 id; // 0x38
+		::System::Int32 timeout; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS218_0_CTOR_OFFSET))(this);

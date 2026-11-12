@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyFloorType_TypeDefinitionIndex = 12610;
+	inline static constexpr unsigned int AlleyFloorType_TypeDefinitionIndex = 12677;
 
 	enum class AlleyFloorType : ::System::Int32
 	{

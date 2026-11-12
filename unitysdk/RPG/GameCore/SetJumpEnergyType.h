@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetJumpEnergyType_TypeDefinitionIndex = 18736;
+	inline static constexpr unsigned int SetJumpEnergyType_TypeDefinitionIndex = 18897;
 
 	enum class SetJumpEnergyType : ::System::Int32
 	{

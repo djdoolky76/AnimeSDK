@@ -12,7 +12,7 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageLog_TypeDefinitionIndex = 46986;
+	inline static constexpr unsigned int rdtTcpMessageLog_TypeDefinitionIndex = 48014;
 
 	struct alignas(8) rdtTcpMessageLog
 	{

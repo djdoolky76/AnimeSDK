@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFateGameRoundSettleDmgSourceItem_TypeDefinitionIndex = 64067;
+	inline static constexpr unsigned int IFateGameRoundSettleDmgSourceItem_TypeDefinitionIndex = 65512;
 
 	class IFateGameRoundSettleDmgSourceItem
 	{

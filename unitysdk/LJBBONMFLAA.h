@@ -5,9 +5,9 @@ class BMJCKPHKIMP;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LJBBONMFLAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E02D0)
+#define LJBBONMFLAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7B460)
 
-inline static constexpr unsigned int LJBBONMFLAA_TypeDefinitionIndex = 73972;
+inline static constexpr unsigned int LJBBONMFLAA_TypeDefinitionIndex = 76108;
 
 	class LJBBONMFLAA : public ::System::Object
 	{

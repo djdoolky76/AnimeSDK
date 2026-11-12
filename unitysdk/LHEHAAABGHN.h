@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/FateRinSwitchDayTalker.h"
 #include "unitysdk/System/Object.h"
 
-#define LHEHAAABGHN_NIEPBFAFELJ_OFFSET UNITYSDK_OFFSET(0xB6ADA00)
+#define LHEHAAABGHN_NIEPBFAFELJ_OFFSET UNITYSDK_OFFSET(0xBF454A0)
 
-inline static constexpr unsigned int LHEHAAABGHN_TypeDefinitionIndex = 81064;
+inline static constexpr unsigned int LHEHAAABGHN_TypeDefinitionIndex = 83844;
 
 	class LHEHAAABGHN : public ::System::Object
 	{

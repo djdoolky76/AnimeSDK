@@ -8,29 +8,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemConfig; }
 namespace RPG::GameCore { class MappingInfoRow; }
 
-#define RPG_GAMECORE_MAPPINGINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D836030)
-#define RPG_GAMECORE_MAPPINGINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8356D0)
+#define RPG_GAMECORE_MAPPINGINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA50A70)
+#define RPG_GAMECORE_MAPPINGINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA50110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingInfoRow_TypeDefinitionIndex = 12558;
+	inline static constexpr unsigned int MappingInfoRow_TypeDefinitionIndex = 12625;
 
 	class MappingInfoRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* DisplayItemList; // 0x10
 		::Il2CppArray<::System::UInt32>* ShowMonsterList; // 0x18
-		::System::UInt32 ID; // 0x20
-		::System::Boolean IsShowMonsterSummon; // 0x24
-		::System::Boolean isShowCleared; // 0x25
-		::System::Boolean IsShowInFog; // 0x26
-		::System::Byte _padding0[0x1];
-		::RPG::Client::TextID Name; // 0x28
-		::System::UInt32 WorldLevel; // 0x38
-		::RPG::GameCore::MappingInfoType Type; // 0x3C
-		::RPG::GameCore::FarmTypeConfig FarmType; // 0x40
-		::System::Byte _padding1[0x4];
-		::RPG::Client::TextID Desc; // 0x48
+		::System::UInt32 WorldLevel; // 0x20
+		::RPG::GameCore::FarmTypeConfig FarmType; // 0x24
+		::RPG::Client::TextID Desc; // 0x28
+		::RPG::GameCore::MappingInfoType Type; // 0x38
+		::System::UInt32 ID; // 0x3C
+		::System::Boolean IsShowInFog; // 0x40
+		::System::Boolean isShowCleared; // 0x41
+		::System::Boolean IsShowMonsterSummon; // 0x42
+		::System::Byte _padding0[0x5];
+		::RPG::Client::TextID Name; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPPINGINFOROW_CTOR_OFFSET))(this);

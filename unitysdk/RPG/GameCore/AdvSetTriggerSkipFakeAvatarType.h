@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetTriggerSkipFakeAvatarType_TypeDefinitionIndex = 24509;
+	inline static constexpr unsigned int AdvSetTriggerSkipFakeAvatarType_TypeDefinitionIndex = 24969;
 
 	enum class AdvSetTriggerSkipFakeAvatarType : ::System::Int32
 	{

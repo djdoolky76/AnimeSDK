@@ -5,20 +5,20 @@
 class EOELEKKGBBJ;
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define EOELEKKGBBJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x155BDD10)
-#define EOELEKKGBBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x155BDEC0)
-#define EOELEKKGBBJ_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x155BDE70)
-#define EOELEKKGBBJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x155BDD90)
+#define EOELEKKGBBJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x164CFE00)
+#define EOELEKKGBBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164CFFB0)
+#define EOELEKKGBBJ_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x164CFF60)
+#define EOELEKKGBBJ_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x164CFE80)
 
-inline static constexpr unsigned int EOELEKKGBBJ_TypeDefinitionIndex = 65864;
+inline static constexpr unsigned int EOELEKKGBBJ_TypeDefinitionIndex = 67796;
 
 	class EOELEKKGBBJ : public ::FNIDIOCNBBI
 	{
 	public:
-		::UnityEngine::Vector2Int PECPBEOHOJC; // 0x28
-		::System::Boolean LOMFLPDGODN; // 0x30
+		::System::UInt32 KFIDBNDPNNI; // 0x28
+		::System::Boolean LOMFLPDGODN; // 0x2C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 KFIDBNDPNNI; // 0x34
+		::UnityEngine::Vector2Int PECPBEOHOJC; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EOELEKKGBBJ_CTOR_OFFSET))(this);

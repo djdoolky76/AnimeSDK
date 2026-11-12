@@ -4,7 +4,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int ListWrap_GetCount_1_TypeDefinitionIndex = 50227;
+	inline static constexpr unsigned int ListWrap_GetCount_1_TypeDefinitionIndex = 51278;
 
 	template <typename T>
 	class ListWrap_GetCount_1 : public ::XLua::OverloadMethodWrap

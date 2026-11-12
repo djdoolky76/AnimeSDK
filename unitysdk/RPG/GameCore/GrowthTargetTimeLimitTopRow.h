@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GrowthTargetTimeLimitTopRow; }
 
-#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74D160)
-#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74D040)
+#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E960BD0)
+#define RPG_GAMECORE_GROWTHTARGETTIMELIMITTOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E960AB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GrowthTargetTimeLimitTopRow_TypeDefinitionIndex = 13369;
+	inline static constexpr unsigned int GrowthTargetTimeLimitTopRow_TypeDefinitionIndex = 13441;
 
 	class GrowthTargetTimeLimitTopRow : public ::System::Object
 	{

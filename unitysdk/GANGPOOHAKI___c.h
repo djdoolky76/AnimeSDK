@@ -4,18 +4,18 @@
 class GANGPOOHAKI;
 namespace System { class Object; }
 
-#define GANGPOOHAKI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4254C0)
-#define GANGPOOHAKI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E425500)
-#define GANGPOOHAKI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E425510)
+#define GANGPOOHAKI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F713110)
+#define GANGPOOHAKI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F713150)
+#define GANGPOOHAKI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F713160)
 
-inline static constexpr unsigned int GANGPOOHAKI___c_TypeDefinitionIndex = 31711;
+inline static constexpr unsigned int GANGPOOHAKI___c_TypeDefinitionIndex = 32624;
 
 	class GANGPOOHAKI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC840);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54FB0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,10 +6,10 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 namespace System::Runtime::CompilerServices { template <typename T> class StrongBox_1; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE29250)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EE292A0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EE29260)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EE292B0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x200D8CD0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x200D8D20)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x200D8CE0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x200D8D30)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -18,8 +18,8 @@ namespace System::Linq::Expressions::Interpreter
 	class StringSwitchInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _cases; // 0x10
+		::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* _nullCase; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* a1, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>*, ::System::Runtime::CompilerServices::StrongBox_1<::System::Int32>*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_STRINGSWITCHINSTRUCTION_CTOR_OFFSET))(this, a1, a2);

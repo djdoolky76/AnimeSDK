@@ -8,35 +8,35 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DOFHJFBBGML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FE5590)
-#define DOFHJFBBGML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE55D0)
-#define DOFHJFBBGML___C__WARMUPPSOSONEBYONE_B__13_0_OFFSET UNITYSDK_OFFSET(0x11FE55E0)
-#define DOFHJFBBGML___C__WARMUPPSOSONEBYONE_B__13_1_OFFSET UNITYSDK_OFFSET(0x11FE5710)
-#define DOFHJFBBGML___C__WRITEWARMUPINFOS_B__23_0_OFFSET UNITYSDK_OFFSET(0x11FE5740)
+#define DOFHJFBBGML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12DDEE60)
+#define DOFHJFBBGML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12DDEEA0)
+#define DOFHJFBBGML___C__WARMUPPSOSONEBYONE_B__13_0_OFFSET UNITYSDK_OFFSET(0x12DDEEB0)
+#define DOFHJFBBGML___C__WARMUPPSOSONEBYONE_B__13_1_OFFSET UNITYSDK_OFFSET(0x12DDEFE0)
+#define DOFHJFBBGML___C__WRITEWARMUPINFOS_B__23_0_OFFSET UNITYSDK_OFFSET(0x12DDF010)
 
-inline static constexpr unsigned int DOFHJFBBGML___c_TypeDefinitionIndex = 47425;
+inline static constexpr unsigned int DOFHJFBBGML___c_TypeDefinitionIndex = 48454;
 
 	class DOFHJFBBGML___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8D0);
-		}
-
-		static ::System::Comparison_1<::WarmupQualitySet>** StaticGet___9__23_0()
-		{
-			return (::System::Comparison_1<::WarmupQualitySet>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8D8);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8E0);
+			return (::System::Func_2<::System::Collections::Generic::List_1<::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DD40);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__13_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6F8E8);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DD48);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DD50);
+		}
+
+		static ::System::Comparison_1<::WarmupQualitySet>** StaticGet___9__23_0()
+		{
+			return (::System::Comparison_1<::WarmupQualitySet>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DD58);
 		}
 
 		static ::System::Void _cctor()

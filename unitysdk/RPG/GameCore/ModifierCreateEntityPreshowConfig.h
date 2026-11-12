@@ -9,12 +9,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierCreateEntityPreshowConfig; }
 namespace RPG::GameCore { class PredicateConfig; }
 
-#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88DBD0)
-#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88D9D0)
+#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA7F40)
+#define RPG_GAMECORE_MODIFIERCREATEENTITYPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA7D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierCreateEntityPreshowConfig_TypeDefinitionIndex = 18182;
+	inline static constexpr unsigned int ModifierCreateEntityPreshowConfig_TypeDefinitionIndex = 18344;
 
 	class ModifierCreateEntityPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

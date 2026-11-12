@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BySkipNextTeleportEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HADJKOMJHMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15B720C0)
-#define HADJKOMJHMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B720F0)
+#define HADJKOMJHMN_CTOR_OFFSET UNITYSDK_OFFSET(0x16AF8AE0)
+#define HADJKOMJHMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16AF8B10)
 
-inline static constexpr unsigned int HADJKOMJHMN_TypeDefinitionIndex = 53165;
+inline static constexpr unsigned int HADJKOMJHMN_TypeDefinitionIndex = 54327;
 
 	class HADJKOMJHMN
 	{

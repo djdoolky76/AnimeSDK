@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PingPongEnemyShootOverrideConfig; }
 
-#define RPG_GAMECORE_PINGPONGENEMYSHOOTOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D916EE0)
-#define RPG_GAMECORE_PINGPONGENEMYSHOOTOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D916D60)
+#define RPG_GAMECORE_PINGPONGENEMYSHOOTOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB30130)
+#define RPG_GAMECORE_PINGPONGENEMYSHOOTOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2FFB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PingPongEnemyShootOverrideConfig_TypeDefinitionIndex = 18939;
+	inline static constexpr unsigned int PingPongEnemyShootOverrideConfig_TypeDefinitionIndex = 19126;
 
 	class PingPongEnemyShootOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

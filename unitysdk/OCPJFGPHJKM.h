@@ -10,104 +10,104 @@
 namespace RPG::GameCore { class FloatCurve; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define OCPJFGPHJKM_AAMEKFHFEFI_OFFSET UNITYSDK_OFFSET(0x1C97BC60)
-#define OCPJFGPHJKM_APDPAKAAJJH_OFFSET UNITYSDK_OFFSET(0x1C97B940)
-#define OCPJFGPHJKM_BBLCFCJBDCF_OFFSET UNITYSDK_OFFSET(0x1C97B150)
-#define OCPJFGPHJKM_BJEAHBAFHNB_OFFSET UNITYSDK_OFFSET(0x1C97B6F0)
-#define OCPJFGPHJKM_BNJOEDIJIBB_OFFSET UNITYSDK_OFFSET(0x1C97B850)
-#define OCPJFGPHJKM_CCINCDFJPPO_OFFSET UNITYSDK_OFFSET(0x1C97B660)
-#define OCPJFGPHJKM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C97BCC0)
-#define OCPJFGPHJKM_DIDMHINDMJN_OFFSET UNITYSDK_OFFSET(0x1C97BBD0)
-#define OCPJFGPHJKM_FAPLBCJENCB_OFFSET UNITYSDK_OFFSET(0x1C97B1E0)
-#define OCPJFGPHJKM_FPBGEBAFKLA_OFFSET UNITYSDK_OFFSET(0x1C97B7C0)
-#define OCPJFGPHJKM_GHMNHCFHOJD_OFFSET UNITYSDK_OFFSET(0x1C97AFD0)
-#define OCPJFGPHJKM_GLIDBGMKHDB_OFFSET UNITYSDK_OFFSET(0x1C97B270)
-#define OCPJFGPHJKM_GOAKJAAMCKH_OFFSET UNITYSDK_OFFSET(0x1C97B420)
-#define OCPJFGPHJKM_HABNGFFDJAN_OFFSET UNITYSDK_OFFSET(0x1C97AE20)
-#define OCPJFGPHJKM_JIEECEFEFCP_OFFSET UNITYSDK_OFFSET(0x1C97AD60)
-#define OCPJFGPHJKM_KLGENAECHKE_OFFSET UNITYSDK_OFFSET(0x1C97B300)
-#define OCPJFGPHJKM_KOLMHLNHNJC_OFFSET UNITYSDK_OFFSET(0x1C97A0E0)
-#define OCPJFGPHJKM_LIBIEGFCCCF_OFFSET UNITYSDK_OFFSET(0x1C97B780)
-#define OCPJFGPHJKM_NCNNEAMLGFP_OFFSET UNITYSDK_OFFSET(0x1C97B390)
-#define OCPJFGPHJKM_NPBCCGGGMDL_OFFSET UNITYSDK_OFFSET(0x1C97B5D0)
-#define OCPJFGPHJKM_ODOOMDGHPIE_OFFSET UNITYSDK_OFFSET(0x1C97A7E0)
-#define OCPJFGPHJKM_ONIJJONIHLM_OFFSET UNITYSDK_OFFSET(0x1C97B4B0)
-#define OCPJFGPHJKM_PEDOHHAIPNC_OFFSET UNITYSDK_OFFSET(0x1C97B8F0)
-#define OCPJFGPHJKM_PINCNEHBNHJ_OFFSET UNITYSDK_OFFSET(0x1C97B540)
+#define OCPJFGPHJKM_AAMEKFHFEFI_OFFSET UNITYSDK_OFFSET(0x1DB3D9F0)
+#define OCPJFGPHJKM_APDPAKAAJJH_OFFSET UNITYSDK_OFFSET(0x1DB3D6D0)
+#define OCPJFGPHJKM_BBLCFCJBDCF_OFFSET UNITYSDK_OFFSET(0x1DB3CEE0)
+#define OCPJFGPHJKM_BJEAHBAFHNB_OFFSET UNITYSDK_OFFSET(0x1DB3D480)
+#define OCPJFGPHJKM_BNJOEDIJIBB_OFFSET UNITYSDK_OFFSET(0x1DB3D5E0)
+#define OCPJFGPHJKM_CCINCDFJPPO_OFFSET UNITYSDK_OFFSET(0x1DB3D3F0)
+#define OCPJFGPHJKM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB3DA50)
+#define OCPJFGPHJKM_DIDMHINDMJN_OFFSET UNITYSDK_OFFSET(0x1DB3D960)
+#define OCPJFGPHJKM_FAPLBCJENCB_OFFSET UNITYSDK_OFFSET(0x1DB3CF70)
+#define OCPJFGPHJKM_FPBGEBAFKLA_OFFSET UNITYSDK_OFFSET(0x1DB3D550)
+#define OCPJFGPHJKM_GHMNHCFHOJD_OFFSET UNITYSDK_OFFSET(0x1DB3CD60)
+#define OCPJFGPHJKM_GLIDBGMKHDB_OFFSET UNITYSDK_OFFSET(0x1DB3D000)
+#define OCPJFGPHJKM_GOAKJAAMCKH_OFFSET UNITYSDK_OFFSET(0x1DB3D1B0)
+#define OCPJFGPHJKM_HABNGFFDJAN_OFFSET UNITYSDK_OFFSET(0x1DB3CBB0)
+#define OCPJFGPHJKM_JIEECEFEFCP_OFFSET UNITYSDK_OFFSET(0x1DB3CAF0)
+#define OCPJFGPHJKM_KLGENAECHKE_OFFSET UNITYSDK_OFFSET(0x1DB3D090)
+#define OCPJFGPHJKM_KOLMHLNHNJC_OFFSET UNITYSDK_OFFSET(0x1DB3BE70)
+#define OCPJFGPHJKM_LIBIEGFCCCF_OFFSET UNITYSDK_OFFSET(0x1DB3D510)
+#define OCPJFGPHJKM_NCNNEAMLGFP_OFFSET UNITYSDK_OFFSET(0x1DB3D120)
+#define OCPJFGPHJKM_NPBCCGGGMDL_OFFSET UNITYSDK_OFFSET(0x1DB3D360)
+#define OCPJFGPHJKM_ODOOMDGHPIE_OFFSET UNITYSDK_OFFSET(0x1DB3C570)
+#define OCPJFGPHJKM_ONIJJONIHLM_OFFSET UNITYSDK_OFFSET(0x1DB3D240)
+#define OCPJFGPHJKM_PEDOHHAIPNC_OFFSET UNITYSDK_OFFSET(0x1DB3D680)
+#define OCPJFGPHJKM_PINCNEHBNHJ_OFFSET UNITYSDK_OFFSET(0x1DB3D2D0)
 
-inline static constexpr unsigned int OCPJFGPHJKM_TypeDefinitionIndex = 43622;
+inline static constexpr unsigned int OCPJFGPHJKM_TypeDefinitionIndex = 44605;
 
 	class OCPJFGPHJKM : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NLGIFCNAMMO()
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LFFIEPNCKKA()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA30);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LCCNAEFHLCJ()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA38);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_FIKOGCMGIKC()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA40);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B090);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_POLKEHMMGHM()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA48);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B098);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NGNHHFCGHJM()
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NLGIFCNAMMO()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA50);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_GBPPDGIFACJ()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA58);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LMHDAOPEPOH()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA60);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LFFIEPNCKKA()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA68);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LKPHEMBLCKF()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA70);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_FOFGDIOCLDB()
-		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA78);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0A0);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_IJDPBBAGFHM()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA80);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0A8);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_IMEJNNPBGLK()
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_NGNHHFCGHJM()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA88);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0B0);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_BJKBNEEJJDL()
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_FIKOGCMGIKC()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA90);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0B8);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_AEELGFMOOJH()
 		{
-			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x4BA98);
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0C0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_FOFGDIOCLDB()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0C8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LKPHEMBLCKF()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0D0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_IMEJNNPBGLK()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0D8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LMHDAOPEPOH()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0E0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_BJKBNEEJJDL()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0E8);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_LCCNAEFHLCJ()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0F0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>** StaticGet_GBPPDGIFACJ()
+		{
+			return (::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::Move::MoveState>**)UnitySDK::FromName("", "OCPJFGPHJKM")->GetStaticField(0x2B0F8);
 		}
 
 		static ::System::Void _cctor()

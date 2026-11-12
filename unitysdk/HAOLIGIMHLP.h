@@ -8,23 +8,23 @@ namespace RPG::GameCore { class PropComponent; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HAOLIGIMHLP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B9DEC0)
-#define HAOLIGIMHLP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B9DED0)
-#define HAOLIGIMHLP_EPNBGKJBCEF_OFFSET UNITYSDK_OFFSET(0x15B9DF70)
-#define HAOLIGIMHLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B9E340)
-#define HAOLIGIMHLP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B9E240)
-#define HAOLIGIMHLP_TICK_OFFSET UNITYSDK_OFFSET(0x15B9E2E0)
+#define HAOLIGIMHLP_CTOR_OFFSET UNITYSDK_OFFSET(0x16B23CB0)
+#define HAOLIGIMHLP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16B23CC0)
+#define HAOLIGIMHLP_EPNBGKJBCEF_OFFSET UNITYSDK_OFFSET(0x16B23D60)
+#define HAOLIGIMHLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B24130)
+#define HAOLIGIMHLP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16B24030)
+#define HAOLIGIMHLP_TICK_OFFSET UNITYSDK_OFFSET(0x16B240D0)
 
-inline static constexpr unsigned int HAOLIGIMHLP_TypeDefinitionIndex = 58301;
+inline static constexpr unsigned int HAOLIGIMHLP_TypeDefinitionIndex = 59557;
 
 	class HAOLIGIMHLP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PropAttachMove* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::PropComponent* KDCGICCJBMB; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::EDHPIGIAOLE* HDIOLMOJFDN; // 0x30
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x38
+		::RPG::GameCore::PropComponent* KDCGICCJBMB; // 0x18
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x20
+		::EDHPIGIAOLE* HDIOLMOJFDN; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::RPG::GameCore::PropAttachMove* OFKGLJOAMLD; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropAttachMove* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropAttachMove*))((::PBYTE)hIl2Cpp + HAOLIGIMHLP_CTOR_OFFSET))(this, a1, a2);

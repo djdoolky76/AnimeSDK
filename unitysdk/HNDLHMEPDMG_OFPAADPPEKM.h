@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KOAOAKKCCPK;
 
-#define HNDLHMEPDMG_OFPAADPPEKM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D91840)
+#define HNDLHMEPDMG_OFPAADPPEKM_CTOR_OFFSET UNITYSDK_OFFSET(0x16D31F30)
 
-inline static constexpr unsigned int HNDLHMEPDMG_OFPAADPPEKM_TypeDefinitionIndex = 71501;
+inline static constexpr unsigned int HNDLHMEPDMG_OFPAADPPEKM_TypeDefinitionIndex = 73486;
 
 	class HNDLHMEPDMG_OFPAADPPEKM : public ::System::Object
 	{

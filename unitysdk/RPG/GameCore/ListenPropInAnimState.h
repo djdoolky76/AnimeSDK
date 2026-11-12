@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LISTENPROPINANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D5BF0)
-#define RPG_GAMECORE_LISTENPROPINANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D5C00)
-#define RPG_GAMECORE_LISTENPROPINANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D5BC0)
+#define RPG_GAMECORE_LISTENPROPINANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA17210)
+#define RPG_GAMECORE_LISTENPROPINANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA17220)
+#define RPG_GAMECORE_LISTENPROPINANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA171E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ListenPropInAnimState_TypeDefinitionIndex = 20685;
+	inline static constexpr unsigned int ListenPropInAnimState_TypeDefinitionIndex = 21022;
 
 	class ListenPropInAnimState : public ::RPG::GameCore::TaskConfig
 	{

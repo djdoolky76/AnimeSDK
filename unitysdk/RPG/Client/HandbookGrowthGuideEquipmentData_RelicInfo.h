@@ -4,7 +4,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideEquipmentData_RelicInfo_TypeDefinitionIndex = 65622;
+	inline static constexpr unsigned int HandbookGrowthGuideEquipmentData_RelicInfo_TypeDefinitionIndex = 67546;
 
 	struct alignas(8) HandbookGrowthGuideEquipmentData_RelicInfo
 	{

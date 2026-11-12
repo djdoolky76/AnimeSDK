@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StackRedirectSkillTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_STACKREDIRECTSKILLTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB039A0)
-#define RPG_GAMECORE_STACKREDIRECTSKILLTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB03A40)
-#define RPG_GAMECORE_STACKREDIRECTSKILLTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB038E0)
+#define RPG_GAMECORE_STACKREDIRECTSKILLTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED159F0)
+#define RPG_GAMECORE_STACKREDIRECTSKILLTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED15A90)
+#define RPG_GAMECORE_STACKREDIRECTSKILLTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED15930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackRedirectSkillTarget_TypeDefinitionIndex = 23626;
+	inline static constexpr unsigned int StackRedirectSkillTarget_TypeDefinitionIndex = 24073;
 
 	class StackRedirectSkillTarget : public ::RPG::GameCore::TaskConfig
 	{

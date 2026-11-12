@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsHealCallBackStack; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGHKHPPEFGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB188DF0)
-#define BGHKHPPEFGO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB188E20)
+#define BGHKHPPEFGO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB107C0)
+#define BGHKHPPEFGO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB107F0)
 
-inline static constexpr unsigned int BGHKHPPEFGO_TypeDefinitionIndex = 54662;
+inline static constexpr unsigned int BGHKHPPEFGO_TypeDefinitionIndex = 55828;
 
 	class BGHKHPPEFGO
 	{

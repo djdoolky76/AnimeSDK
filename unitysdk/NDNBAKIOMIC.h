@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define NDNBAKIOMIC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB53100)
-#define NDNBAKIOMIC_GET_STRINGPARAMS_OFFSET UNITYSDK_OFFSET(0xBB530F0)
-#define NDNBAKIOMIC_GET_UINTPARAMS_OFFSET UNITYSDK_OFFSET(0xBB530E0)
+#define NDNBAKIOMIC_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DC810)
+#define NDNBAKIOMIC_GET_STRINGPARAMS_OFFSET UNITYSDK_OFFSET(0xC3DC800)
+#define NDNBAKIOMIC_GET_UINTPARAMS_OFFSET UNITYSDK_OFFSET(0xC3DC7F0)
 
-inline static constexpr unsigned int NDNBAKIOMIC_TypeDefinitionIndex = 64353;
+inline static constexpr unsigned int NDNBAKIOMIC_TypeDefinitionIndex = 65800;
 
 	class NDNBAKIOMIC : public ::System::Object
 	{

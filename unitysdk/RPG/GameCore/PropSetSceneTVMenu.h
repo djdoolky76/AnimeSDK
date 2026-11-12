@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropSetSceneTVMenu; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSETSCENETVMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1D954460)
-#define RPG_GAMECORE_PROPSETSCENETVMENU_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D954490)
-#define RPG_GAMECORE_PROPSETSCENETVMENU_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D954410)
+#define RPG_GAMECORE_PROPSETSCENETVMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6CEC0)
+#define RPG_GAMECORE_PROPSETSCENETVMENU_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB6CEF0)
+#define RPG_GAMECORE_PROPSETSCENETVMENU_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6CE70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetSceneTVMenu_TypeDefinitionIndex = 21974;
+	inline static constexpr unsigned int PropSetSceneTVMenu_TypeDefinitionIndex = 22365;
 
 	class PropSetSceneTVMenu : public ::RPG::GameCore::TaskConfig
 	{

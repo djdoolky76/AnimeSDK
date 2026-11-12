@@ -7,27 +7,27 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightTalentConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTTALENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D746160)
-#define RPG_GAMECORE_GRIDFIGHTTALENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D745CA0)
+#define RPG_GAMECORE_GRIDFIGHTTALENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E958A90)
+#define RPG_GAMECORE_GRIDFIGHTTALENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9585D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightTalentConfigRow_TypeDefinitionIndex = 13571;
+	inline static constexpr unsigned int GridFightTalentConfigRow_TypeDefinitionIndex = 13680;
 
 	class GridFightTalentConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::Il2CppArray<::System::UInt32>* NextTalentIDList; // 0x18
-		::System::String* JsonPath; // 0x20
-		::Il2CppArray<::System::UInt32>* PreTalentIDList; // 0x28
-		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x30
-		::RPG::Client::TextID EffectTitle; // 0x38
+		::Il2CppArray<::System::UInt32>* NextTalentIDList; // 0x10
+		::System::String* JsonPath; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* EffectParamList; // 0x20
+		::System::String* IconPath; // 0x28
+		::Il2CppArray<::System::UInt32>* PreTalentIDList; // 0x30
+		::RPG::Client::TextID EffectTag; // 0x38
 		::RPG::Client::TextID EffectDesc; // 0x48
-		::System::UInt32 IsImportant; // 0x58
+		::System::UInt32 ID; // 0x58
 		::System::UInt32 IsOCEffective; // 0x5C
-		::RPG::Client::TextID EffectTag; // 0x60
-		::System::UInt32 ID; // 0x70
+		::RPG::Client::TextID EffectTitle; // 0x60
+		::System::UInt32 IsImportant; // 0x70
 		::System::UInt32 Cost; // 0x74
 		::System::Void _ctor()
 		{

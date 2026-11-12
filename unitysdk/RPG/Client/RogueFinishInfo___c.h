@@ -5,25 +5,25 @@ class ALBLEFHHJIC;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEFINISHINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEFFCD0)
-#define RPG_CLIENT_ROGUEFINISHINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEFFD10)
-#define RPG_CLIENT_ROGUEFINISHINFO___C__GET_RECORDAVATARS_B__62_0_OFFSET UNITYSDK_OFFSET(0xDEFFD20)
+#define RPG_CLIENT_ROGUEFINISHINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9B0480)
+#define RPG_CLIENT_ROGUEFINISHINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE9B04C0)
+#define RPG_CLIENT_ROGUEFINISHINFO___C__GET_RECORDAVATARS_B__62_0_OFFSET UNITYSDK_OFFSET(0xE9B04D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueFinishInfo___c_TypeDefinitionIndex = 67457;
+	inline static constexpr unsigned int RogueFinishInfo___c_TypeDefinitionIndex = 69401;
 
 	class RogueFinishInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::ALBLEFHHJIC*>** StaticGet___9__62_0()
 		{
-			return (::System::Comparison_1<::ALBLEFHHJIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F520);
+			return (::System::Comparison_1<::ALBLEFHHJIC*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CDA0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5F528);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CDA8);
 		}
 
 		static ::System::Void _cctor()

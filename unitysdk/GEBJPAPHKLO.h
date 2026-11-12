@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define GEBJPAPHKLO_CTOR_OFFSET UNITYSDK_OFFSET(0x159C65D0)
+#define GEBJPAPHKLO_CTOR_OFFSET UNITYSDK_OFFSET(0x168FF550)
 
-inline static constexpr unsigned int GEBJPAPHKLO_TypeDefinitionIndex = 67236;
+inline static constexpr unsigned int GEBJPAPHKLO_TypeDefinitionIndex = 69180;
 
 	class GEBJPAPHKLO : public ::System::Attribute
 	{

@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ParkourBGMConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PARKOURBGMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EEB20)
-#define RPG_GAMECORE_PARKOURBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EE9A0)
+#define RPG_GAMECORE_PARKOURBGMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB080F0)
+#define RPG_GAMECORE_PARKOURBGMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB07F70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParkourBGMConfigRow_TypeDefinitionIndex = 12114;
+	inline static constexpr unsigned int ParkourBGMConfigRow_TypeDefinitionIndex = 12171;
 
 	class ParkourBGMConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* NormalEventName; // 0x10
-		::System::String* FastEventName; // 0x18
+		::System::String* FastEventName; // 0x10
+		::System::String* NormalEventName; // 0x18
 		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{

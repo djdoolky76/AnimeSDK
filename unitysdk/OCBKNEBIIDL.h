@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FiveDimSurfaceConfig; }
 
-#define OCBKNEBIIDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C97A090)
+#define OCBKNEBIIDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3BE20)
 
-inline static constexpr unsigned int OCBKNEBIIDL_TypeDefinitionIndex = 43362;
+inline static constexpr unsigned int OCBKNEBIIDL_TypeDefinitionIndex = 44343;
 
 	class OCBKNEBIIDL : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class Object; }
 
-#define SYSTEM_XML_SCHEMA_UPAEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EECCC00)
+#define SYSTEM_XML_SCHEMA_UPAEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x2017C3C0)
 
 namespace System::Xml::Schema
 {
@@ -12,8 +12,8 @@ namespace System::Xml::Schema
 	class UpaException : public ::System::Exception
 	{
 	public:
-		::System::Object* particle1; // 0x88
-		::System::Object* particle2; // 0x90
+		::System::Object* particle2; // 0x88
+		::System::Object* particle1; // 0x90
 		::System::Void _ctor(::System::Object* a1, ::System::Object* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_UPAEXCEPTION_CTOR_OFFSET))(this, a1, a2);

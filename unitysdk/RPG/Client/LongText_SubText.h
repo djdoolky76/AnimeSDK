@@ -5,11 +5,11 @@ namespace UnityEngine { class CanvasRenderer; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LONGTEXT_SUBTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xD4AF5D0)
+#define RPG_CLIENT_LONGTEXT_SUBTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0xDF1D990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LongText_SubText_TypeDefinitionIndex = 72570;
+	inline static constexpr unsigned int LongText_SubText_TypeDefinitionIndex = 74649;
 
 	class LongText_SubText : public ::System::Object
 	{

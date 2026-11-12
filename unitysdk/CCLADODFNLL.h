@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchFateRinCardSkillSubTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CCLADODFNLL_CTOR_OFFSET UNITYSDK_OFFSET(0xC74E5F0)
-#define CCLADODFNLL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC74E640)
+#define CCLADODFNLL_CTOR_OFFSET UNITYSDK_OFFSET(0xD0B7750)
+#define CCLADODFNLL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD0B77A0)
 
-inline static constexpr unsigned int CCLADODFNLL_TypeDefinitionIndex = 59133;
+inline static constexpr unsigned int CCLADODFNLL_TypeDefinitionIndex = 60409;
 
 	class CCLADODFNLL
 	{

@@ -3,33 +3,33 @@
 #include "unitysdk/ZXing/OneD/OneDReader.h"
 namespace System { class String; }
 
-#define ZXING_ONED_MSIREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C40D0)
+#define ZXING_ONED_MSIREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20973800)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 7013;
+	inline static constexpr unsigned int MSIReader_TypeDefinitionIndex = 7024;
 
 	class MSIReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
+		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x22D60);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x43450);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_doubleAndCrossSum()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x22D68);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x43458);
 		}
 
 		static ::System::String** StaticGet_ALPHABET_STRING()
 		{
-			return (::System::String**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x22D70);
+			return (::System::String**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x43460);
 		}
 
-		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
+		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x22D78);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "MSIReader")->GetStaticField(0x43468);
 		}
 
 		static ::System::Void _cctor()

@@ -10,11 +10,11 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::Serialization::Formatters::Binary { class ParseRecord; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_ARRAYCOUNTINCREMENT_OFFSET UNITYSDK_OFFSET(0x1C31B9C0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C31BAB0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C31B840)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_GETNEXT_OFFSET UNITYSDK_OFFSET(0x1C31B9D0)
-#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_INIT_OFFSET UNITYSDK_OFFSET(0x1C31B8A0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_ARRAYCOUNTINCREMENT_OFFSET UNITYSDK_OFFSET(0x1D4A2540)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4A2630)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4A23D0)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_GETNEXT_OFFSET UNITYSDK_OFFSET(0x1D4A2550)
+#define SYSTEM_RUNTIME_SERIALIZATION_FORMATTERS_BINARY_OBJECTPROGRESS_INIT_OFFSET UNITYSDK_OFFSET(0x1D4A2430)
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
@@ -23,29 +23,29 @@ namespace System::Runtime::Serialization::Formatters::Binary
 	class ObjectProgress : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* memberNames; // 0x10
-		::Il2CppArray<::System::Type*>* memberTypes; // 0x18
-		::System::Object* typeInformation; // 0x20
-		::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr; // 0x28
-		::System::String* name; // 0x30
+		::Il2CppArray<::System::Type*>* memberTypes; // 0x10
+		::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr; // 0x18
+		::System::Type* dtType; // 0x20
+		::System::String* name; // 0x28
+		::Il2CppArray<::System::Object*>* typeInformationA; // 0x30
 		::System::Object* expectedTypeInformation; // 0x38
-		::System::Type* dtType; // 0x40
-		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x48
-		::Il2CppArray<::System::Object*>* typeInformationA; // 0x50
-		::System::Int32 memberLength; // 0x58
-		::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum; // 0x5C
+		::Il2CppArray<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>* binaryTypeEnumA; // 0x40
+		::System::Object* typeInformation; // 0x48
+		::Il2CppArray<::System::String*>* memberNames; // 0x50
+		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum; // 0x58
+		::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum; // 0x5C
 		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum expectedType; // 0x60
-		::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum; // 0x64
-		::System::Int32 numItems; // 0x68
+		::System::Int32 numItems; // 0x64
+		::System::Runtime::Serialization::Formatters::Binary::InternalMemberTypeE memberTypeEnum; // 0x68
 		::System::Int32 count; // 0x6C
-		::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum; // 0x70
-		::System::Int32 nullCount; // 0x74
-		::System::Boolean isInitial; // 0x78
+		::System::Int32 memberLength; // 0x70
+		::System::Boolean isInitial; // 0x74
 		::System::Byte _padding0[0x3];
-		::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum; // 0x7C
+		::System::Runtime::Serialization::Formatters::Binary::InternalMemberValueE memberValueEnum; // 0x78
+		::System::Int32 nullCount; // 0x7C
 		static ::System::Int32* StaticGet_opRecordIdCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "ObjectProgress")->GetStaticField(0x5D80);
+			return (::System::Int32*)UnitySDK::FromName("System.Runtime.Serialization.Formatters.Binary", "ObjectProgress")->GetStaticField(0x65A0);
 		}
 
 		::System::Void _ctor()

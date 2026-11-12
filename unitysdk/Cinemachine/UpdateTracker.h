@@ -7,28 +7,28 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define CINEMACHINE_UPDATETRACKER_CCTOR_OFFSET UNITYSDK_OFFSET(0x166B01A0)
-#define CINEMACHINE_UPDATETRACKER_CTOR_OFFSET UNITYSDK_OFFSET(0x166B0190)
-#define CINEMACHINE_UPDATETRACKER_GETPREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x166AFDF0)
-#define CINEMACHINE_UPDATETRACKER_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x166AF720)
-#define CINEMACHINE_UPDATETRACKER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x166B0090)
-#define CINEMACHINE_UPDATETRACKER_UPDATETARGETS_OFFSET UNITYSDK_OFFSET(0x166AF7B0)
+#define CINEMACHINE_UPDATETRACKER_CCTOR_OFFSET UNITYSDK_OFFSET(0x174F4850)
+#define CINEMACHINE_UPDATETRACKER_CTOR_OFFSET UNITYSDK_OFFSET(0x174F4840)
+#define CINEMACHINE_UPDATETRACKER_GETPREFERREDUPDATE_OFFSET UNITYSDK_OFFSET(0x174F44A0)
+#define CINEMACHINE_UPDATETRACKER_INITIALIZEMODULE_OFFSET UNITYSDK_OFFSET(0x174F3DD0)
+#define CINEMACHINE_UPDATETRACKER_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x174F4740)
+#define CINEMACHINE_UPDATETRACKER_UPDATETARGETS_OFFSET UNITYSDK_OFFSET(0x174F3E60)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int UpdateTracker_TypeDefinitionIndex = 39853;
+	inline static constexpr unsigned int UpdateTracker_TypeDefinitionIndex = 40782;
 
 	class UpdateTracker : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Object*>** StaticGet_mUpdateStatus()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Object*>**)UnitySDK::FromName("Cinemachine", "UpdateTracker")->GetStaticField(0xB30);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::Transform*, ::System::Object*>**)UnitySDK::FromName("Cinemachine", "UpdateTracker")->GetStaticField(0xAE0);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::Transform*>** StaticGet_sToDelete()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)UnitySDK::FromName("Cinemachine", "UpdateTracker")->GetStaticField(0xB38);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Transform*>**)UnitySDK::FromName("Cinemachine", "UpdateTracker")->GetStaticField(0xAE8);
 		}
 
 		static ::System::Single* StaticGet_mLastUpdateTime()

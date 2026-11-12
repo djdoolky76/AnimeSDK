@@ -3,7 +3,7 @@
 
 namespace ZLinq
 {
-	inline static constexpr unsigned int ValueEnumerator_2_TypeDefinitionIndex = 6095;
+	inline static constexpr unsigned int ValueEnumerator_2_TypeDefinitionIndex = 6103;
 
 	template <typename T1, typename T2>
 	struct alignas(8) ValueEnumerator_2

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ReduceStanceRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJLPDFFKDBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB2087B0)
-#define JJLPDFFKDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2087E0)
+#define JJLPDFFKDBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2BD70)
+#define JJLPDFFKDBD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA2BDA0)
 
-inline static constexpr unsigned int JJLPDFFKDBD_TypeDefinitionIndex = 55289;
+inline static constexpr unsigned int JJLPDFFKDBD_TypeDefinitionIndex = 56470;
 
 	class JJLPDFFKDBD
 	{

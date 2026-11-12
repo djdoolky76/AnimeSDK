@@ -9,7 +9,7 @@
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int GamePadThumbSticks_StickValue_TypeDefinitionIndex = 40784;
+	inline static constexpr unsigned int GamePadThumbSticks_StickValue_TypeDefinitionIndex = 41759;
 
 	struct alignas(4) GamePadThumbSticks_StickValue
 	{

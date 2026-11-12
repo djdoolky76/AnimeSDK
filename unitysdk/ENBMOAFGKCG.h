@@ -5,19 +5,19 @@
 class ENBMOAFGKCG;
 class FCOEMCEDLNL;
 
-#define ENBMOAFGKCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDAA1B0)
-#define ENBMOAFGKCG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDA9FB0)
+#define ENBMOAFGKCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF7F930)
+#define ENBMOAFGKCG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF7F730)
 
-inline static constexpr unsigned int ENBMOAFGKCG_TypeDefinitionIndex = 13922;
+inline static constexpr unsigned int ENBMOAFGKCG_TypeDefinitionIndex = 14079;
 
 	class ENBMOAFGKCG : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::LimaoNewsPostDisplayTag>* CNCKNJMHDIL; // 0x10
 		::System::UInt32 KMIBDJKKGDE; // 0x18
-		::System::UInt32 KIFJECNOHDG; // 0x1C
-		::System::UInt32 DGLJLJEHNNB; // 0x20
-		::System::UInt32 AEDOBNFDODI; // 0x24
+		::System::UInt32 DGLJLJEHNNB; // 0x1C
+		::System::UInt32 AEDOBNFDODI; // 0x20
+		::System::UInt32 KIFJECNOHDG; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ENBMOAFGKCG_CTOR_OFFSET))(this);

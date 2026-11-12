@@ -6,11 +6,11 @@ class GDOHGDIFGCF;
 namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMBIIJAPJMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB53CA50)
-#define KMBIIJAPJMM_NMMMJLNFPLG_OFFSET UNITYSDK_OFFSET(0xB53C700)
-#define KMBIIJAPJMM_POEMKFCAECK_OFFSET UNITYSDK_OFFSET(0xB53C580)
+#define KMBIIJAPJMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD87B20)
+#define KMBIIJAPJMM_NMMMJLNFPLG_OFFSET UNITYSDK_OFFSET(0xBD877D0)
+#define KMBIIJAPJMM_POEMKFCAECK_OFFSET UNITYSDK_OFFSET(0xBD87650)
 
-inline static constexpr unsigned int KMBIIJAPJMM_TypeDefinitionIndex = 77866;
+inline static constexpr unsigned int KMBIIJAPJMM_TypeDefinitionIndex = 80601;
 
 	class KMBIIJAPJMM : public ::System::Object
 	{

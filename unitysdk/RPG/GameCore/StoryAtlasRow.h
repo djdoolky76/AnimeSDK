@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StoryAtlasRow; }
 
-#define RPG_GAMECORE_STORYATLASROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB268E0)
-#define RPG_GAMECORE_STORYATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB26660)
+#define RPG_GAMECORE_STORYATLASROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED38140)
+#define RPG_GAMECORE_STORYATLASROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED37EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StoryAtlasRow_TypeDefinitionIndex = 12687;
+	inline static constexpr unsigned int StoryAtlasRow_TypeDefinitionIndex = 12754;
 
 	class StoryAtlasRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Unlock; // 0x10
-		::System::Int32 SortID; // 0x14
+		::System::Int32 SortID; // 0x10
+		::System::UInt32 Unlock; // 0x14
 		::System::UInt32 ReplaceID; // 0x18
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Story; // 0x20

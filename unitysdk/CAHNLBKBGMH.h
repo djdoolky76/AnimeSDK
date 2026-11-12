@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HEOLKMLMPML.h"
+#include "unitysdk/RPG/Client/GridFightRichTextNodeCompiler.h"
 class CAHNLBKBGMH;
 class CLFABOEKMJI;
 class DNGMCNPJHBJ;
@@ -8,19 +8,19 @@ class FMKEJLGKEMH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define CAHNLBKBGMH_ACMPHJJOOHE_OFFSET UNITYSDK_OFFSET(0xC47F690)
-#define CAHNLBKBGMH_CTOR_OFFSET UNITYSDK_OFFSET(0xC4801F0)
-#define CAHNLBKBGMH_DOEDJLANCGH_OFFSET UNITYSDK_OFFSET(0xC47F990)
-#define CAHNLBKBGMH_FALKOFKEKCM_OFFSET UNITYSDK_OFFSET(0xC4801A0)
-#define CAHNLBKBGMH_GLEFNFJPLMM_OFFSET UNITYSDK_OFFSET(0xC480150)
-#define CAHNLBKBGMH_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0xC47F350)
-#define CAHNLBKBGMH_ODALLOCGAFF_OFFSET UNITYSDK_OFFSET(0xC47F420)
-#define CAHNLBKBGMH_PFHJBAMGNPO_OFFSET UNITYSDK_OFFSET(0xC47F640)
-#define CAHNLBKBGMH_PLODAFJKDJP_OFFSET UNITYSDK_OFFSET(0xC47F3C0)
+#define CAHNLBKBGMH_COMPILE_OFFSET UNITYSDK_OFFSET(0xCB6B850)
+#define CAHNLBKBGMH_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6C3B0)
+#define CAHNLBKBGMH_DOEDJLANCGH_OFFSET UNITYSDK_OFFSET(0xCB6BB50)
+#define CAHNLBKBGMH_FALKOFKEKCM_OFFSET UNITYSDK_OFFSET(0xCB6C360)
+#define CAHNLBKBGMH_GET_TAG_OFFSET UNITYSDK_OFFSET(0xCB6B510)
+#define CAHNLBKBGMH_GLEFNFJPLMM_OFFSET UNITYSDK_OFFSET(0xCB6C310)
+#define CAHNLBKBGMH_ODALLOCGAFF_OFFSET UNITYSDK_OFFSET(0xCB6B5E0)
+#define CAHNLBKBGMH_PFHJBAMGNPO_OFFSET UNITYSDK_OFFSET(0xCB6B800)
+#define CAHNLBKBGMH_PLODAFJKDJP_OFFSET UNITYSDK_OFFSET(0xCB6B580)
 
-inline static constexpr unsigned int CAHNLBKBGMH_TypeDefinitionIndex = 65279;
+inline static constexpr unsigned int CAHNLBKBGMH_TypeDefinitionIndex = 67033;
 
-	class CAHNLBKBGMH : public ::HEOLKMLMPML
+	class CAHNLBKBGMH : public ::RPG::Client::GridFightRichTextNodeCompiler
 	{
 	public:
 		::CLFABOEKMJI* JDGJCGMFEGK; // 0x10
@@ -30,9 +30,9 @@ inline static constexpr unsigned int CAHNLBKBGMH_TypeDefinitionIndex = 65279;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CAHNLBKBGMH_CTOR_OFFSET))(this);
 		}
 
-		::System::String* NDMBDGKAJEK()
+		::System::String* get_Tag()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CAHNLBKBGMH_NDMBDGKAJEK_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + CAHNLBKBGMH_GET_TAG_OFFSET))(this);
 		}
 
 		::System::Collections::Generic::IList_1<::System::UInt32>* PLODAFJKDJP()
@@ -50,9 +50,9 @@ inline static constexpr unsigned int CAHNLBKBGMH_TypeDefinitionIndex = 65279;
 			return ((::CAHNLBKBGMH*(*)(::PVOID, ::CLFABOEKMJI*))((::PBYTE)hIl2Cpp + CAHNLBKBGMH_PFHJBAMGNPO_OFFSET))(this, a1);
 		}
 
-		::System::String* ACMPHJJOOHE(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
+		::System::String* Compile(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + CAHNLBKBGMH_ACMPHJJOOHE_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + CAHNLBKBGMH_COMPILE_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* DOEDJLANCGH()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattlePropertyFormulaType_TypeDefinitionIndex = 13774;
+	inline static constexpr unsigned int ILBattlePropertyFormulaType_TypeDefinitionIndex = 13931;
 
 	enum class ILBattlePropertyFormulaType : ::System::Int32
 	{

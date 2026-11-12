@@ -5,22 +5,22 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HLOPOIKJHBO_CLAFAKHIBPI_OFFSET UNITYSDK_OFFSET(0x15D75BE0)
-#define HLOPOIKJHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D75EF0)
-#define HLOPOIKJHBO_MLCFAILEHMF_OFFSET UNITYSDK_OFFSET(0x15D75EA0)
-#define HLOPOIKJHBO_NCKOFEKBHFE_OFFSET UNITYSDK_OFFSET(0x15D75DC0)
-#define HLOPOIKJHBO_OOPFGPMAGLK_OFFSET UNITYSDK_OFFSET(0x15D75E50)
+#define HLOPOIKJHBO_CLAFAKHIBPI_OFFSET UNITYSDK_OFFSET(0x16CD18C0)
+#define HLOPOIKJHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x16CD1BD0)
+#define HLOPOIKJHBO_MLCFAILEHMF_OFFSET UNITYSDK_OFFSET(0x16CD1B80)
+#define HLOPOIKJHBO_NCKOFEKBHFE_OFFSET UNITYSDK_OFFSET(0x16CD1AA0)
+#define HLOPOIKJHBO_OOPFGPMAGLK_OFFSET UNITYSDK_OFFSET(0x16CD1B30)
 
-inline static constexpr unsigned int HLOPOIKJHBO_TypeDefinitionIndex = 54420;
+inline static constexpr unsigned int HLOPOIKJHBO_TypeDefinitionIndex = 55584;
 
 	class HLOPOIKJHBO : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AttackDamageType, ::RPG::GameCore::FixPoint>* NJJLNIMFPBD; // 0x10
-		::System::Int32 DPLMENILLLL; // 0x18
+		::RPG::GameCore::FixPoint NJCODFBDLDD; // 0x18
+		::RPG::GameCore::FixPoint AMEPBNONNCL; // 0x20
+		::System::Int32 DPLMENILLLL; // 0x28
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint NJCODFBDLDD; // 0x20
-		::RPG::GameCore::FixPoint AMEPBNONNCL; // 0x28
 		::RPG::GameCore::FixPoint HKOJCEMPDGE; // 0x30
 		::System::Void _ctor()
 		{

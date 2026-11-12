@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHaveInsertUltraWait; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHEBEHPPLLG_CTOR_OFFSET UNITYSDK_OFFSET(0xBBBED10)
-#define NHEBEHPPLLG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBBED40)
+#define NHEBEHPPLLG_CTOR_OFFSET UNITYSDK_OFFSET(0xC49B050)
+#define NHEBEHPPLLG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC49B080)
 
-inline static constexpr unsigned int NHEBEHPPLLG_TypeDefinitionIndex = 54903;
+inline static constexpr unsigned int NHEBEHPPLLG_TypeDefinitionIndex = 56075;
 
 	class NHEBEHPPLLG
 	{

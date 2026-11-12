@@ -1,75 +1,75 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MIHOYO_SDK_SECURITYTUNNEL_PACKETCOMMAND_CCTOR_OFFSET UNITYSDK_OFFSET(0xB04D4E0)
+#define MIHOYO_SDK_SECURITYTUNNEL_PACKETCOMMAND_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6AE260)
 #define MIHOYO_SDK_SECURITYTUNNEL_PACKETCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define MIHOYO_SDK_SECURITYTUNNEL_PACKETCOMMAND_IS_OFFSET UNITYSDK_OFFSET(0xAF50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_PacketCommand_TypeDefinitionIndex = 46383;
+	inline static constexpr unsigned int SecurityTunnel_PacketCommand_TypeDefinitionIndex = 47411;
 
 	struct alignas(4) SecurityTunnel_PacketCommand
 	{
 		::System::UInt32 CommandCode; // 0x10
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_FileTransforEnd()
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Logout()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABD0);
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BC0);
 		}
 
 		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_FileTransforBegin()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABD4);
-		}
-
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_FileTransforData()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABD8);
-		}
-
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_ExchangeSecretKey()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABDC);
-		}
-
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Logout()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABE0);
-		}
-
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_SecureMessage()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABE4);
-		}
-
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Login()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABE8);
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BC4);
 		}
 
 		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_ClientMessage()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABEC);
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BC8);
 		}
 
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Heartbeat()
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_FileTransforData()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABF0);
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BCC);
 		}
 
-		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Shutdown()
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_ExchangeSecretKey()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABF4);
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BD0);
+		}
+
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_FileTransforEnd()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BD4);
 		}
 
 		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_KickOff()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABF8);
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BD8);
+		}
+
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_SecureMessage()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BDC);
+		}
+
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Heartbeat()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BE0);
 		}
 
 		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Null()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0xABFC);
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BE4);
+		}
+
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Login()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BE8);
+		}
+
+		static ::MiHoYo::SDK::SecurityTunnel_PacketCommand* StaticGet_Shutdown()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_PacketCommand*)UnitySDK::FromName("MiHoYo.SDK", "PacketCommand")->GetStaticField(0x8BEC);
 		}
 
 		::System::Void _ctor(::System::UInt32 a1)

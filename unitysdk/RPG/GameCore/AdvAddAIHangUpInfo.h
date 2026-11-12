@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVADDAIHANGUPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38DD60)
-#define RPG_GAMECORE_ADVADDAIHANGUPINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38DD70)
-#define RPG_GAMECORE_ADVADDAIHANGUPINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38DD30)
+#define RPG_GAMECORE_ADVADDAIHANGUPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59D9A0)
+#define RPG_GAMECORE_ADVADDAIHANGUPINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E59D9B0)
+#define RPG_GAMECORE_ADVADDAIHANGUPINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E59D970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvAddAIHangUpInfo_TypeDefinitionIndex = 20233;
+	inline static constexpr unsigned int AdvAddAIHangUpInfo_TypeDefinitionIndex = 20568;
 
 	class AdvAddAIHangUpInfo : public ::RPG::GameCore::TaskConfig
 	{

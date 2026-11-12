@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AGOGHMCAKAD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF46CB0)
+#define AGOGHMCAKAD_CTOR_OFFSET UNITYSDK_OFFSET(0xF135A20)
 
-inline static constexpr unsigned int AGOGHMCAKAD_TypeDefinitionIndex = 80438;
+inline static constexpr unsigned int AGOGHMCAKAD_TypeDefinitionIndex = 83218;
 
 	class AGOGHMCAKAD : public ::System::Object
 	{

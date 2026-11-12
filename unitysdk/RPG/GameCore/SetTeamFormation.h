@@ -10,13 +10,13 @@ namespace RPG::GameCore { class SetTeamFormation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTEAMFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC6A70)
-#define RPG_GAMECORE_SETTEAMFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC6AC0)
-#define RPG_GAMECORE_SETTEAMFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC6A00)
+#define RPG_GAMECORE_SETTEAMFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD8970)
+#define RPG_GAMECORE_SETTEAMFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD89C0)
+#define RPG_GAMECORE_SETTEAMFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD8900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTeamFormation_TypeDefinitionIndex = 22913;
+	inline static constexpr unsigned int SetTeamFormation_TypeDefinitionIndex = 23339;
 
 	class SetTeamFormation : public ::RPG::GameCore::TaskConfig
 	{

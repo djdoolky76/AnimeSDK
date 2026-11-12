@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KIHPGEJOMHC_GLEPACIIPLL_TypeDefinitionIndex = 53089;
+inline static constexpr unsigned int KIHPGEJOMHC_GLEPACIIPLL_TypeDefinitionIndex = 54250;
 
 	struct alignas(4) KIHPGEJOMHC_GLEPACIIPLL
 	{

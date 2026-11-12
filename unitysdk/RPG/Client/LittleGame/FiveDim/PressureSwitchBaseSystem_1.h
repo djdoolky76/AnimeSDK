@@ -11,7 +11,7 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int PressureSwitchBaseSystem_1_TypeDefinitionIndex = 77143;
+	inline static constexpr unsigned int PressureSwitchBaseSystem_1_TypeDefinitionIndex = 79477;
 
 	template <typename T>
 	class PressureSwitchBaseSystem_1 : public ::System::Object

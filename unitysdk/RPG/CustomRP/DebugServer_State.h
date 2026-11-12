@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DebugServer_State_TypeDefinitionIndex = 37921;
+	inline static constexpr unsigned int DebugServer_State_TypeDefinitionIndex = 38850;
 
 	enum class DebugServer_State : ::System::Int32
 	{

@@ -5,13 +5,13 @@ namespace HoudiniEngineUnity { class Test_MeshRenderer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B4610)
-#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B4730)
-#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B45D0)
+#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1CB3D540)
+#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1CB3D660)
+#define HOUDINIENGINEUNITY_TEST_MESHRENDERER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1CB3D500)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_MeshRenderer_Extensions_TypeDefinitionIndex = 40738;
+	inline static constexpr unsigned int Test_MeshRenderer_Extensions_TypeDefinitionIndex = 41713;
 
 	class Test_MeshRenderer_Extensions : public ::System::Object
 	{

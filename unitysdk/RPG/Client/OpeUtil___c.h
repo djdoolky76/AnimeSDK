@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_OPEUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9FBD80)
-#define RPG_CLIENT_OPEUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD9FBDC0)
-#define RPG_CLIENT_OPEUTIL___C__OPENGACHAHISTORYURL_B__55_0_OFFSET UNITYSDK_OFFSET(0xD9FBDD0)
+#define RPG_CLIENT_OPEUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4926F0)
+#define RPG_CLIENT_OPEUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE492730)
+#define RPG_CLIENT_OPEUTIL___C__OPENGACHAHISTORYURL_B__55_0_OFFSET UNITYSDK_OFFSET(0xE492740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OpeUtil___c_TypeDefinitionIndex = 59309;
+	inline static constexpr unsigned int OpeUtil___c_TypeDefinitionIndex = 60586;
 
 	class OpeUtil___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC560);
-		}
-
 		static ::System::Func_2<::System::UInt32, ::System::String*>** StaticGet___9__55_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xC568);
+			return (::System::Func_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1AB70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1AB78);
 		}
 
 		static ::System::Void _cctor()

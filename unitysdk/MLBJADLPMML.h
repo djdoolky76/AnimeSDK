@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RecoverAllCharactersHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MLBJADLPMML_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A52F0)
-#define MLBJADLPMML_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9A5300)
-#define MLBJADLPMML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9A5340)
-#define MLBJADLPMML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9A5790)
-#define MLBJADLPMML_TICK_OFFSET UNITYSDK_OFFSET(0xB9A57E0)
+#define MLBJADLPMML_CTOR_OFFSET UNITYSDK_OFFSET(0xC2604E0)
+#define MLBJADLPMML_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2604F0)
+#define MLBJADLPMML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC260530)
+#define MLBJADLPMML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC260980)
+#define MLBJADLPMML_TICK_OFFSET UNITYSDK_OFFSET(0xC2609D0)
 
-inline static constexpr unsigned int MLBJADLPMML_TypeDefinitionIndex = 58371;
+inline static constexpr unsigned int MLBJADLPMML_TypeDefinitionIndex = 59627;
 
 	class MLBJADLPMML : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RecoverAllCharactersHP* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RecoverAllCharactersHP* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RecoverAllCharactersHP* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RecoverAllCharactersHP*))((::PBYTE)hIl2Cpp + MLBJADLPMML_CTOR_OFFSET))(this, a1, a2);

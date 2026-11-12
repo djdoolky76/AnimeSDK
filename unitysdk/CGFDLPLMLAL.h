@@ -7,11 +7,11 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEntitiesExclusionSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CGFDLPLMLAL_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xCC87FA0)
-#define CGFDLPLMLAL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC882F0)
-#define CGFDLPLMLAL_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xCC88060)
+#define CGFDLPLMLAL_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xD635970)
+#define CGFDLPLMLAL_CTOR_OFFSET UNITYSDK_OFFSET(0xD635CC0)
+#define CGFDLPLMLAL_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xD635A30)
 
-inline static constexpr unsigned int CGFDLPLMLAL_TypeDefinitionIndex = 77521;
+inline static constexpr unsigned int CGFDLPLMLAL_TypeDefinitionIndex = 80256;
 
 	class CGFDLPLMLAL : public ::System::Object
 	{

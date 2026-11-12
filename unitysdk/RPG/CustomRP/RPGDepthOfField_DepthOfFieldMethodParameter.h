@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_DEPTHOFFIELDMETHODPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC43BC0)
+#define RPG_CUSTOMRP_RPGDEPTHOFFIELD_DEPTHOFFIELDMETHODPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDEAFF0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGDepthOfField_DepthOfFieldMethodParameter_TypeDefinitionIndex = 37800;
+	inline static constexpr unsigned int RPGDepthOfField_DepthOfFieldMethodParameter_TypeDefinitionIndex = 38729;
 
 	class RPGDepthOfField_DepthOfFieldMethodParameter
 	{

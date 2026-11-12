@@ -5,9 +5,9 @@ class OCMIHMKBAAA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PNDFLJFPBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CFC80)
+#define PNDFLJFPBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D652FE0)
 
-inline static constexpr unsigned int PNDFLJFPBBE_TypeDefinitionIndex = 41400;
+inline static constexpr unsigned int PNDFLJFPBBE_TypeDefinitionIndex = 42375;
 
 	class PNDFLJFPBBE : public ::System::Object
 	{

@@ -5,23 +5,23 @@ class HIOEAKHGILF;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define EJNMEBKMOFC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x154F1380)
-#define EJNMEBKMOFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154F13C0)
-#define EJNMEBKMOFC___C___INITIALIZEWINDOWCONTROLLER_B__2_0_OFFSET UNITYSDK_OFFSET(0x154F13D0)
+#define EJNMEBKMOFC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16439110)
+#define EJNMEBKMOFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16439140)
+#define EJNMEBKMOFC___C___INITIALIZEWINDOWCONTROLLER_B__2_0_OFFSET UNITYSDK_OFFSET(0x16439150)
 
-inline static constexpr unsigned int EJNMEBKMOFC___c_TypeDefinitionIndex = 77171;
+inline static constexpr unsigned int EJNMEBKMOFC___c_TypeDefinitionIndex = 79505;
 
 	class EJNMEBKMOFC___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::HIOEAKHGILF*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E030);
+			return (::System::Comparison_1<::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E800);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E038);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E808);
 		}
 
 		static ::System::Void _cctor()

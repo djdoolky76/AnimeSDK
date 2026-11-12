@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ReviveCharacter; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AIGMKNNHHBF_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA3960)
-#define AIGMKNNHHBF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBA3970)
-#define AIGMKNNHHBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBA3A10)
-#define AIGMKNNHHBF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBA3D90)
-#define AIGMKNNHHBF_TICK_OFFSET UNITYSDK_OFFSET(0xEBA39B0)
+#define AIGMKNNHHBF_CTOR_OFFSET UNITYSDK_OFFSET(0xF162F60)
+#define AIGMKNNHHBF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF162F70)
+#define AIGMKNNHHBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF163010)
+#define AIGMKNNHHBF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF163390)
+#define AIGMKNNHHBF_TICK_OFFSET UNITYSDK_OFFSET(0xF162FB0)
 
-inline static constexpr unsigned int AIGMKNNHHBF_TypeDefinitionIndex = 55326;
+inline static constexpr unsigned int AIGMKNNHHBF_TypeDefinitionIndex = 56508;
 
 	class AIGMKNNHHBF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ReviveCharacter* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ReviveCharacter* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ReviveCharacter* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ReviveCharacter*))((::PBYTE)hIl2Cpp + AIGMKNNHHBF_CTOR_OFFSET))(this, a1, a2);

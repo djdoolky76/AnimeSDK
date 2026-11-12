@@ -5,20 +5,20 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TaskTemplateFetchParamSequence; }
 
-#define GCGHJHGDHMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1596A9C0)
-#define GCGHJHGDHMI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1596A9D0)
-#define GCGHJHGDHMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1596AA10)
-#define GCGHJHGDHMI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1596ACA0)
-#define GCGHJHGDHMI_TICK_OFFSET UNITYSDK_OFFSET(0x1596ACF0)
+#define GCGHJHGDHMI_CTOR_OFFSET UNITYSDK_OFFSET(0x168A0B50)
+#define GCGHJHGDHMI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168A0B60)
+#define GCGHJHGDHMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168A0BA0)
+#define GCGHJHGDHMI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x168A0E00)
+#define GCGHJHGDHMI_TICK_OFFSET UNITYSDK_OFFSET(0x168A0E50)
 
-inline static constexpr unsigned int GCGHJHGDHMI_TypeDefinitionIndex = 55703;
+inline static constexpr unsigned int GCGHJHGDHMI_TypeDefinitionIndex = 56905;
 
 	class GCGHJHGDHMI : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* HFOFIODMFGB; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::RPG::GameCore::TaskTemplateFetchParamSequence* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::KFELGAIGHAP* HFOFIODMFGB; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TaskTemplateFetchParamSequence* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TaskTemplateFetchParamSequence*))((::PBYTE)hIl2Cpp + GCGHJHGDHMI_CTOR_OFFSET))(this, a1, a2);

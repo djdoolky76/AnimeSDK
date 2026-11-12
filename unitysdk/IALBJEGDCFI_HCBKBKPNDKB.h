@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IALBJEGDCFI_HCBKBKPNDKB_CTOR_OFFSET UNITYSDK_OFFSET(0x15E193B0)
+#define IALBJEGDCFI_HCBKBKPNDKB_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC2B70)
 
-inline static constexpr unsigned int IALBJEGDCFI_HCBKBKPNDKB_TypeDefinitionIndex = 79494;
+inline static constexpr unsigned int IALBJEGDCFI_HCBKBKPNDKB_TypeDefinitionIndex = 82271;
 
 	class IALBJEGDCFI_HCBKBKPNDKB : public ::System::Object
 	{

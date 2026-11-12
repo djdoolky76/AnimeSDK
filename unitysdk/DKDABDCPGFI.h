@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetTeam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DKDABDCPGFI_CTOR_OFFSET UNITYSDK_OFFSET(0xF2568A0)
-#define DKDABDCPGFI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF2568D0)
+#define DKDABDCPGFI_CTOR_OFFSET UNITYSDK_OFFSET(0xFFD9BC0)
+#define DKDABDCPGFI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFFD9BF0)
 
-inline static constexpr unsigned int DKDABDCPGFI_TypeDefinitionIndex = 54727;
+inline static constexpr unsigned int DKDABDCPGFI_TypeDefinitionIndex = 55894;
 
 	class DKDABDCPGFI
 	{

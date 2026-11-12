@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EBFCKNGIMJC_TypeDefinitionIndex = 25292;
+inline static constexpr unsigned int EBFCKNGIMJC_TypeDefinitionIndex = 25770;
 
 	enum class EBFCKNGIMJC : ::System::Int32
 	{

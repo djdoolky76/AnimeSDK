@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareIsWolfBroPuzzleAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AFFHDDKBMHH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0AF90)
-#define AFFHDDKBMHH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF0AFC0)
+#define AFFHDDKBMHH_CTOR_OFFSET UNITYSDK_OFFSET(0xD5BC7C0)
+#define AFFHDDKBMHH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD5BC7F0)
 
-inline static constexpr unsigned int AFFHDDKBMHH_TypeDefinitionIndex = 52575;
+inline static constexpr unsigned int AFFHDDKBMHH_TypeDefinitionIndex = 53681;
 
 	class AFFHDDKBMHH
 	{

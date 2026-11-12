@@ -4,18 +4,18 @@
 class EBGAMBKHDBO;
 namespace System { class Object; }
 
-#define EBGAMBKHDBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2364A0)
-#define EBGAMBKHDBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2364D0)
-#define EBGAMBKHDBO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2364E0)
+#define EBGAMBKHDBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F516D90)
+#define EBGAMBKHDBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F516DC0)
+#define EBGAMBKHDBO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F516DD0)
 
-inline static constexpr unsigned int EBGAMBKHDBO___c_TypeDefinitionIndex = 35074;
+inline static constexpr unsigned int EBGAMBKHDBO___c_TypeDefinitionIndex = 36002;
 
 	class EBGAMBKHDBO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AC80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x489A0);
 		}
 
 		static ::System::Void _cctor()

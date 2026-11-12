@@ -5,11 +5,11 @@
 namespace RPG::Client { class RogueMagicScepterDataItem; }
 namespace System { class Object; }
 
-#define BEBMFHAGBLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1630C670)
-#define BEBMFHAGBLK_FNLKLLKLMBO_OFFSET UNITYSDK_OFFSET(0x1630C720)
-#define BEBMFHAGBLK_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x1630C680)
+#define BEBMFHAGBLK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C37A0)
+#define BEBMFHAGBLK_FNLKLLKLMBO_OFFSET UNITYSDK_OFFSET(0xB7C3850)
+#define BEBMFHAGBLK_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xB7C37B0)
 
-inline static constexpr unsigned int BEBMFHAGBLK_TypeDefinitionIndex = 67249;
+inline static constexpr unsigned int BEBMFHAGBLK_TypeDefinitionIndex = 69193;
 
 	class BEBMFHAGBLK : public ::System::Object
 	{

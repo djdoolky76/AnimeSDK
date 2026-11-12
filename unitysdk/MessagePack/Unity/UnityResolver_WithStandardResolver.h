@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack::Unity { class UnityResolver_WithStandardResolver; }
 
-#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB682D0)
-#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB682C0)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF0FE0)
+#define MESSAGEPACK_UNITY_UNITYRESOLVER_WITHSTANDARDRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF0FD0)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int UnityResolver_WithStandardResolver_TypeDefinitionIndex = 10144;
+	inline static constexpr unsigned int UnityResolver_WithStandardResolver_TypeDefinitionIndex = 10152;
 
 	class UnityResolver_WithStandardResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Unity::UnityResolver_WithStandardResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Unity::UnityResolver_WithStandardResolver**)UnitySDK::FromName("MessagePack.Unity", "WithStandardResolver")->GetStaticField(0x7B0);
+			return (::MessagePack::Unity::UnityResolver_WithStandardResolver**)UnitySDK::FromName("MessagePack.Unity", "WithStandardResolver")->GetStaticField(0x760);
 		}
 
 		::System::Void _ctor()

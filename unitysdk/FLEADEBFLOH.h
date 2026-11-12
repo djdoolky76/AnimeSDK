@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsStageFirstWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FLEADEBFLOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1582D6B0)
-#define FLEADEBFLOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1582D6E0)
+#define FLEADEBFLOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1679CB00)
+#define FLEADEBFLOH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1679CB30)
 
-inline static constexpr unsigned int FLEADEBFLOH_TypeDefinitionIndex = 54686;
+inline static constexpr unsigned int FLEADEBFLOH_TypeDefinitionIndex = 55852;
 
 	class FLEADEBFLOH
 	{

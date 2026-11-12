@@ -9,7 +9,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int AsyncEnumeratorAwaitSelectorBase_3_TypeDefinitionIndex = 45227;
+	inline static constexpr unsigned int AsyncEnumeratorAwaitSelectorBase_3_TypeDefinitionIndex = 46256;
 
 	template <typename T1, typename T2, typename T3>
 	class AsyncEnumeratorAwaitSelectorBase_3 : public ::Cysharp::Threading::Tasks::MoveNextSource

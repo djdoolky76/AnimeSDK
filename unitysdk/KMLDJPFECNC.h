@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PropResetPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KMLDJPFECNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB5660C0)
-#define KMLDJPFECNC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5662A0)
-#define KMLDJPFECNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5660D0)
-#define KMLDJPFECNC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB566250)
-#define KMLDJPFECNC_TICK_OFFSET UNITYSDK_OFFSET(0xB5662E0)
+#define KMLDJPFECNC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB1760)
+#define KMLDJPFECNC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDB1940)
+#define KMLDJPFECNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDB1770)
+#define KMLDJPFECNC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDB18F0)
+#define KMLDJPFECNC_TICK_OFFSET UNITYSDK_OFFSET(0xBDB1980)
 
-inline static constexpr unsigned int KMLDJPFECNC_TypeDefinitionIndex = 58343;
+inline static constexpr unsigned int KMLDJPFECNC_TypeDefinitionIndex = 59599;
 
 	class KMLDJPFECNC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PropResetPuzzle* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::PropResetPuzzle* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropResetPuzzle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropResetPuzzle*))((::PBYTE)hIl2Cpp + KMLDJPFECNC_CTOR_OFFSET))(this, a1, a2);

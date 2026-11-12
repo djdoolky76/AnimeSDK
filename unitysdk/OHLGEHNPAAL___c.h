@@ -4,18 +4,18 @@
 class OHLGEHNPAAL;
 namespace System { class Object; }
 
-#define OHLGEHNPAAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE65990)
-#define OHLGEHNPAAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE659C0)
-#define OHLGEHNPAAL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DE659D0)
+#define OHLGEHNPAAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F10C050)
+#define OHLGEHNPAAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F10C080)
+#define OHLGEHNPAAL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F10C090)
 
-inline static constexpr unsigned int OHLGEHNPAAL___c_TypeDefinitionIndex = 25866;
+inline static constexpr unsigned int OHLGEHNPAAL___c_TypeDefinitionIndex = 26363;
 
 	class OHLGEHNPAAL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B610);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16320);
 		}
 
 		static ::System::Void _cctor()

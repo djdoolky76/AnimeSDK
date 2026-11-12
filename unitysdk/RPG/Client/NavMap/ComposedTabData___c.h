@@ -6,37 +6,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD93A200)
-#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD93A240)
-#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C__GET_ISSHOW_B__35_0_OFFSET UNITYSDK_OFFSET(0xD93A290)
-#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C__GET_SHOWSUBTABCOUNT_B__29_0_OFFSET UNITYSDK_OFFSET(0xD93A250)
-#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C__GET_UNLOCK_B__33_0_OFFSET UNITYSDK_OFFSET(0xD93A270)
+#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3CFA20)
+#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE3CFA60)
+#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C__GET_ISSHOW_B__35_0_OFFSET UNITYSDK_OFFSET(0xE3CFB90)
+#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C__GET_SHOWSUBTABCOUNT_B__29_0_OFFSET UNITYSDK_OFFSET(0xE3CFA70)
+#define RPG_CLIENT_NAVMAP_COMPOSEDTABDATA___C__GET_UNLOCK_B__33_0_OFFSET UNITYSDK_OFFSET(0xE3CFA90)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int ComposedTabData___c_TypeDefinitionIndex = 74534;
+	inline static constexpr unsigned int ComposedTabData___c_TypeDefinitionIndex = 76682;
 
 	class ComposedTabData___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::System::Boolean>** StaticGet___9__33_0()
+		{
+			return (::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x9A80);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EC50);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x9A88);
 		}
 
 		static ::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::System::Boolean>** StaticGet___9__35_0()
 		{
-			return (::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EC58);
+			return (::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x9A90);
 		}
 
 		static ::System::Predicate_1<::RPG::Client::NavMap::SubTabData*>** StaticGet___9__29_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::NavMap::SubTabData*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EC60);
-		}
-
-		static ::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::System::Boolean>** StaticGet___9__33_0()
-		{
-			return (::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6EC68);
+			return (::System::Predicate_1<::RPG::Client::NavMap::SubTabData*>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x9A98);
 		}
 
 		static ::System::Void _cctor()

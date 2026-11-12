@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPrepTutorialToastHintParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALTOASTHINTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73B1C0)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALTOASTHINTPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73A7B0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALTOASTHINTPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94B9E0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALTOASTHINTPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E94AFD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialToastHintParam_TypeDefinitionIndex = 19964;
+	inline static constexpr unsigned int GridFightPrepTutorialToastHintParam_TypeDefinitionIndex = 20294;
 
 	class GridFightPrepTutorialToastHintParam : public ::RPG::GameCore::JsonConfig
 	{

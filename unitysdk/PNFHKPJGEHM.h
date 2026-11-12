@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/CACNLLMKCPD.h"
 
-#define PNFHKPJGEHM_COMPARE_OFFSET UNITYSDK_OFFSET(0xC337DB0)
-#define PNFHKPJGEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xC337E10)
+#define PNFHKPJGEHM_COMPARE_OFFSET UNITYSDK_OFFSET(0xCC6A950)
+#define PNFHKPJGEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xCC6A9B0)
 
-inline static constexpr unsigned int PNFHKPJGEHM_TypeDefinitionIndex = 52875;
+inline static constexpr unsigned int PNFHKPJGEHM_TypeDefinitionIndex = 54031;
 
 	class PNFHKPJGEHM : public ::System::Object
 	{

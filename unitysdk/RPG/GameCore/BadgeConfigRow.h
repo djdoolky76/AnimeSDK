@@ -8,25 +8,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BadgeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BADGECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D438B20)
-#define RPG_GAMECORE_BADGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4387F0)
+#define RPG_GAMECORE_BADGECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E659540)
+#define RPG_GAMECORE_BADGECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E659210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BadgeConfigRow_TypeDefinitionIndex = 12828;
+	inline static constexpr unsigned int BadgeConfigRow_TypeDefinitionIndex = 12900;
 
 	class BadgeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconMiddlePath; // 0x10
-		::System::String* Prefab; // 0x18
-		::System::UInt32 ItemID; // 0x20
-		::System::UInt32 ComeFromGoto; // 0x24
+		::System::String* Prefab; // 0x10
+		::System::String* IconMiddlePath; // 0x18
+		::System::UInt32 ComeFromGoto; // 0x20
+		::System::UInt32 BadgeID; // 0x24
 		::RPG::Client::TextID ComeFromText; // 0x28
 		::RPG::GameCore::BadgeLevel BadgeLevel; // 0x38
-		::RPG::GameCore::BadgePlayType Type; // 0x3C
-		::System::UInt32 Param; // 0x40
-		::System::UInt32 BadgeID; // 0x44
+		::System::UInt32 Param; // 0x3C
+		::RPG::GameCore::BadgePlayType Type; // 0x40
+		::System::UInt32 ItemID; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BADGECONFIGROW_CTOR_OFFSET))(this);

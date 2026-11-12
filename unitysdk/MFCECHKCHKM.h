@@ -5,20 +5,20 @@ namespace RPG::GameCore { class PropEscalatorMoveStop; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define MFCECHKCHKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8EDD20)
-#define MFCECHKCHKM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8EDD30)
-#define MFCECHKCHKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8EDDD0)
-#define MFCECHKCHKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8EDD80)
-#define MFCECHKCHKM_TICK_OFFSET UNITYSDK_OFFSET(0xB8EDF10)
+#define MFCECHKCHKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC19FB40)
+#define MFCECHKCHKM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC19FB50)
+#define MFCECHKCHKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC19FBF0)
+#define MFCECHKCHKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC19FBA0)
+#define MFCECHKCHKM_TICK_OFFSET UNITYSDK_OFFSET(0xC19FD30)
 
-inline static constexpr unsigned int MFCECHKCHKM_TypeDefinitionIndex = 58321;
+inline static constexpr unsigned int MFCECHKCHKM_TypeDefinitionIndex = 59577;
 
 	class MFCECHKCHKM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::System::String* IJMGEMMNNPI; // 0x20
-		::RPG::GameCore::PropEscalatorMoveStop* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::PropEscalatorMoveStop* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::System::String* IJMGEMMNNPI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropEscalatorMoveStop* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropEscalatorMoveStop*))((::PBYTE)hIl2Cpp + MFCECHKCHKM_CTOR_OFFSET))(this, a1, a2);

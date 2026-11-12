@@ -5,16 +5,16 @@
 class FCOEMCEDLNL;
 class LODHEADAKJE;
 
-#define LODHEADAKJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D120640)
-#define LODHEADAKJE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D120510)
+#define LODHEADAKJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E31F660)
+#define LODHEADAKJE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E31F530)
 
-inline static constexpr unsigned int LODHEADAKJE_TypeDefinitionIndex = 15138;
+inline static constexpr unsigned int LODHEADAKJE_TypeDefinitionIndex = 15294;
 
 	class LODHEADAKJE : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::BattleResultConditionType LOAGIPDPLFM; // 0x10
-		::System::UInt32 DBLDCKODNEN; // 0x14
+		::System::UInt32 DBLDCKODNEN; // 0x10
+		::RPG::GameCore::BattleResultConditionType LOAGIPDPLFM; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LODHEADAKJE_CTOR_OFFSET))(this);

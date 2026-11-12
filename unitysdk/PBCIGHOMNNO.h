@@ -3,10 +3,10 @@
 class MHLHEHALOFL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBCIGHOMNNO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE1990)
-#define PBCIGHOMNNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFE19C0)
+#define PBCIGHOMNNO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8E48E0)
+#define PBCIGHOMNNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8E4910)
 
-inline static constexpr unsigned int PBCIGHOMNNO_TypeDefinitionIndex = 58690;
+inline static constexpr unsigned int PBCIGHOMNNO_TypeDefinitionIndex = 59957;
 
 	class PBCIGHOMNNO
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageType_TypeDefinitionIndex = 10419;
+	inline static constexpr unsigned int StageType_TypeDefinitionIndex = 10430;
 
 	enum class StageType : ::System::Int32
 	{
@@ -47,5 +47,6 @@ namespace RPG::GameCore
 		FateRin = 37,
 		ExpeditionBattle = 38,
 		FinalityActivity = 39,
+		RealityShowActivity = 40,
 	};
 }

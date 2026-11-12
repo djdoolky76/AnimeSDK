@@ -5,31 +5,31 @@ namespace RPG::Client { class Product; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_PAYMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA95FC0)
-#define RPG_CLIENT_PAYMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA96000)
-#define RPG_CLIENT_PAYMODULE___C__GET_ALLHCOINPRODUCTS_B__41_0_OFFSET UNITYSDK_OFFSET(0xDA96010)
-#define RPG_CLIENT_PAYMODULE___C__GET_MONTHCARDPRODUCT_B__43_0_OFFSET UNITYSDK_OFFSET(0xDA96080)
+#define RPG_CLIENT_PAYMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4EB8E0)
+#define RPG_CLIENT_PAYMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE4EB910)
+#define RPG_CLIENT_PAYMODULE___C__GET_ALLHCOINPRODUCTS_B__41_0_OFFSET UNITYSDK_OFFSET(0xE4EB920)
+#define RPG_CLIENT_PAYMODULE___C__GET_MONTHCARDPRODUCT_B__43_0_OFFSET UNITYSDK_OFFSET(0xE4EB990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PayModule___c_TypeDefinitionIndex = 66436;
+	inline static constexpr unsigned int PayModule___c_TypeDefinitionIndex = 68372;
 
 	class PayModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::Product*, ::System::Boolean>** StaticGet___9__43_0()
 		{
-			return (::System::Func_2<::RPG::Client::Product*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x130C0);
+			return (::System::Func_2<::RPG::Client::Product*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24FE0);
 		}
 
 		static ::System::Func_2<::RPG::Client::Product*, ::System::Boolean>** StaticGet___9__41_0()
 		{
-			return (::System::Func_2<::RPG::Client::Product*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x130C8);
+			return (::System::Func_2<::RPG::Client::Product*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24FE8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x130D0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24FF0);
 		}
 
 		static ::System::Void _cctor()

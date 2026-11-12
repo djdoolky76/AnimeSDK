@@ -1,19 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GridFightTraitEffectBase.h"
+#include "unitysdk/RPG/Client/GridFightTraitEffectEffType.h"
 namespace RPG::Client { class GridFightTrait; }
 namespace RPG::GameCore { class GridFightTraitEffectIdConfigRow; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD2ABF50)
-#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWICON_OFFSET UNITYSDK_OFFSET(0xD2AC230)
-#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWMEMBERUIDS_OFFSET UNITYSDK_OFFSET(0xD2AC280)
-#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GET_NEEDPLAYEFFECT_OFFSET UNITYSDK_OFFSET(0xD2AC1F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDCC7A30)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWICON_OFFSET UNITYSDK_OFFSET(0xDCC7C60)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GETSHOWMEMBERUIDS_OFFSET UNITYSDK_OFFSET(0xDCC7CB0)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GET_EFFTYPE_OFFSET UNITYSDK_OFFSET(0xDCC7C10)
+#define RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GET_NEEDPLAYACTIVEEFFECT_OFFSET UNITYSDK_OFFSET(0xDCC7BD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitBackStrengthenFrontEffect_TypeDefinitionIndex = 65390;
+	inline static constexpr unsigned int GridFightTraitBackStrengthenFrontEffect_TypeDefinitionIndex = 67231;
 
 	class GridFightTraitBackStrengthenFrontEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
@@ -27,9 +29,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_CTOR_OFFSET))(this, a1, a2);
 		}
 
-		::System::Boolean get_NeedPlayEffect()
+		::System::Boolean get_NeedPlayActiveEffect()
 		{
-			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GET_NEEDPLAYEFFECT_OFFSET))(this);
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GET_NEEDPLAYACTIVEEFFECT_OFFSET))(this);
+		}
+
+		::RPG::Client::GridFightTraitEffectEffType get_EffType()
+		{
+			return ((::RPG::Client::GridFightTraitEffectEffType(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITBACKSTRENGTHENFRONTEFFECT_GET_EFFTYPE_OFFSET))(this);
 		}
 
 		::System::String* GetShowIcon()

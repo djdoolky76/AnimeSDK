@@ -5,17 +5,17 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleShowNPCDither; }
 
-#define LGEGDKDALFH_CTOR_OFFSET UNITYSDK_OFFSET(0xB690EB0)
-#define LGEGDKDALFH_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB691190)
-#define LGEGDKDALFH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB690EF0)
+#define LGEGDKDALFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF26D50)
+#define LGEGDKDALFH_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBF27030)
+#define LGEGDKDALFH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBF26D90)
 
-inline static constexpr unsigned int LGEGDKDALFH_TypeDefinitionIndex = 78407;
+inline static constexpr unsigned int LGEGDKDALFH_TypeDefinitionIndex = 81142;
 
 	class LGEGDKDALFH : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
 		::RPG::GameCore::ChimeraBattleShowNPCDither* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattleShowNPCDither* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2)
 		{

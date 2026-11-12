@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/LMNEKOLMGEM.h"
-class GBDODOMIMIF;
+namespace RPG::AvatarSystem { class AvatarPath; }
 
-#define NOBCAKJMGPH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBCE4880)
-#define NOBCAKJMGPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE4970)
+#define NOBCAKJMGPH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC5D0780)
+#define NOBCAKJMGPH_CTOR_OFFSET UNITYSDK_OFFSET(0xC5D0880)
 
-inline static constexpr unsigned int NOBCAKJMGPH_TypeDefinitionIndex = 62605;
+inline static constexpr unsigned int NOBCAKJMGPH_TypeDefinitionIndex = 64028;
 
 	class NOBCAKJMGPH : public ::System::Object
 	{
@@ -17,9 +17,9 @@ inline static constexpr unsigned int NOBCAKJMGPH_TypeDefinitionIndex = 62605;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOBCAKJMGPH_CTOR_OFFSET))(this);
 		}
 
-		::GBDODOMIMIF* BPLPBPMEODA(::LMNEKOLMGEM a1)
+		::RPG::AvatarSystem::AvatarPath* BPLPBPMEODA(::LMNEKOLMGEM a1)
 		{
-			return ((::GBDODOMIMIF*(*)(::PVOID, ::LMNEKOLMGEM))((::PBYTE)hIl2Cpp + NOBCAKJMGPH_BPLPBPMEODA_OFFSET))(this, a1);
+			return ((::RPG::AvatarSystem::AvatarPath*(*)(::PVOID, ::LMNEKOLMGEM))((::PBYTE)hIl2Cpp + NOBCAKJMGPH_BPLPBPMEODA_OFFSET))(this, a1);
 		}
 
 	};

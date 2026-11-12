@@ -9,28 +9,28 @@
 namespace RPG::Client::ActivityAlley { class AlleyPackAnchor; }
 namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 
-#define IBNAFGFFJLJ_CFINKMFANFE_OFFSET UNITYSDK_OFFSET(0x15E43080)
-#define IBNAFGFFJLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15E430C0)
-#define IBNAFGFFJLJ_EJNEFDIIINJ_OFFSET UNITYSDK_OFFSET(0x15E43040)
-#define IBNAFGFFJLJ_IMOKLLCPEJO_OFFSET UNITYSDK_OFFSET(0x15E42E90)
-#define IBNAFGFFJLJ_MJNMFMEDJJM_OFFSET UNITYSDK_OFFSET(0x15E43000)
-#define IBNAFGFFJLJ_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0x15E42EC0)
-#define IBNAFGFFJLJ_ONSELECT_OFFSET UNITYSDK_OFFSET(0x15E42FC0)
+#define IBNAFGFFJLJ_CFINKMFANFE_OFFSET UNITYSDK_OFFSET(0x16DEDBB0)
+#define IBNAFGFFJLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16DEDBF0)
+#define IBNAFGFFJLJ_EJNEFDIIINJ_OFFSET UNITYSDK_OFFSET(0x16DEDB70)
+#define IBNAFGFFJLJ_IMOKLLCPEJO_OFFSET UNITYSDK_OFFSET(0x16DED9C0)
+#define IBNAFGFFJLJ_MJNMFMEDJJM_OFFSET UNITYSDK_OFFSET(0x16DEDB30)
+#define IBNAFGFFJLJ_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0x16DED9F0)
+#define IBNAFGFFJLJ_ONSELECT_OFFSET UNITYSDK_OFFSET(0x16DEDAF0)
 
-inline static constexpr unsigned int IBNAFGFFJLJ_TypeDefinitionIndex = 74099;
+inline static constexpr unsigned int IBNAFGFFJLJ_TypeDefinitionIndex = 76247;
 
 	class IBNAFGFFJLJ : public ::System::Object
 	{
 	public:
 		::RPG::Client::ActivityAlley::AlleyPackGoodData* OKDJPNMPIAF; // 0x10
 		::RPG::Client::ActivityAlley::AlleyPackAnchor* GLCHNMCMIMI; // 0x18
-		::RPG::Client::ActivityAlley::AlleyPackAnchorState MEPFOEEGBEA; // 0x20
-		::UnityEngine::Vector3 HMPNOGFAFEM; // 0x24
+		::RPG::Client::ActivityAlley::AlleyPackAnchorDirType MLDNAFBHNKO; // 0x20
+		::RPG::Client::ActivityAlley::AlleyPackAnchorState MEPFOEEGBEA; // 0x24
+		::System::UInt32 NHHOBBKMIGF; // 0x28
+		::RPG::GameCore::AlleyPackAnchorType HPLKADFDFAI; // 0x2C
 		::System::ValueTuple_3<::System::Int32, ::System::Int32, ::System::Int32> DLIJNFFLHHI; // 0x30
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::AlleyPackAnchorType HPLKADFDFAI; // 0x3C
-		::RPG::Client::ActivityAlley::AlleyPackAnchorDirType MLDNAFBHNKO; // 0x40
-		::System::UInt32 NHHOBBKMIGF; // 0x44
+		::UnityEngine::Vector3 HMPNOGFAFEM; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IBNAFGFFJLJ_CTOR_OFFSET))(this);

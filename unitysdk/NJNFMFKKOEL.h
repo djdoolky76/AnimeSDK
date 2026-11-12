@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareStanceCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJNFMFKKOEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC260C0)
-#define NJNFMFKKOEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC260F0)
+#define NJNFMFKKOEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC509A30)
+#define NJNFMFKKOEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC509A60)
 
-inline static constexpr unsigned int NJNFMFKKOEL_TypeDefinitionIndex = 54575;
+inline static constexpr unsigned int NJNFMFKKOEL_TypeDefinitionIndex = 55740;
 
 	class NJNFMFKKOEL
 	{

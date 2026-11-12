@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OOKFEOBBJPI_OGNBLDHPLIJ;
 
-#define OOKFEOBBJPI_APAJCCNIGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD88B00)
+#define OOKFEOBBJPI_APAJCCNIGCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF8B3A0)
 
-inline static constexpr unsigned int OOKFEOBBJPI_APAJCCNIGCO_TypeDefinitionIndex = 6194;
+inline static constexpr unsigned int OOKFEOBBJPI_APAJCCNIGCO_TypeDefinitionIndex = 6201;
 
 	class OOKFEOBBJPI_APAJCCNIGCO : public ::System::Object
 	{

@@ -12,48 +12,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JKGDOGOKODO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D041D10)
-#define JKGDOGOKODO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D042290)
-#define JKGDOGOKODO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D041E80)
-#define JKGDOGOKODO_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1D041B20)
-#define JKGDOGOKODO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D041760)
-#define JKGDOGOKODO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0419F0)
-#define JKGDOGOKODO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D041F20)
-#define JKGDOGOKODO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D041F70)
-#define JKGDOGOKODO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D041D50)
-#define JKGDOGOKODO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D041990)
-#define JKGDOGOKODO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D041B80)
-#define JKGDOGOKODO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D041DE0)
-#define JKGDOGOKODO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0416E0)
+#define JKGDOGOKODO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E230B50)
+#define JKGDOGOKODO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2310D0)
+#define JKGDOGOKODO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E230CC0)
+#define JKGDOGOKODO_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E230960)
+#define JKGDOGOKODO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E2305A0)
+#define JKGDOGOKODO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E230830)
+#define JKGDOGOKODO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E230D60)
+#define JKGDOGOKODO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E230DB0)
+#define JKGDOGOKODO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E230B90)
+#define JKGDOGOKODO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E2307D0)
+#define JKGDOGOKODO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E2309C0)
+#define JKGDOGOKODO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E230C20)
+#define JKGDOGOKODO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E230520)
 
-inline static constexpr unsigned int JKGDOGOKODO_TypeDefinitionIndex = 14996;
+inline static constexpr unsigned int JKGDOGOKODO_TypeDefinitionIndex = 15152;
 
 	class JKGDOGOKODO : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F120);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F128);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F0B0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F130);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F0B8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueTournExhibitionConfigRow*>**)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x2F0C0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x9C70);
+			return (::System::Byte*)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x9E80);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x9C71);
+			return (::System::Boolean*)UnitySDK::FromName("", "JKGDOGOKODO")->GetStaticField(0x9E81);
 		}
 
 		static ::System::Void _cctor()

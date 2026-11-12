@@ -4,12 +4,12 @@
 class ECNEEKNHIOE;
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudTargetSingleViewModel; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCED5F50)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_1___REFRESHVIEWMODEL_B__1_OFFSET UNITYSDK_OFFSET(0xCED6100)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD89EA60)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDTARGETVIEWMODEL___C__DISPLAYCLASS3_1___REFRESHVIEWMODEL_B__1_OFFSET UNITYSDK_OFFSET(0xD89EC10)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudTargetViewModel___c__DisplayClass3_1_TypeDefinitionIndex = 80938;
+	inline static constexpr unsigned int FateRinBattleHudTargetViewModel___c__DisplayClass3_1_TypeDefinitionIndex = 83718;
 
 	template <typename T>
 	class FateRinBattleHudTargetViewModel___c__DisplayClass3_1 : public ::System::Object

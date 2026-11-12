@@ -3,12 +3,13 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrayType_TypeDefinitionIndex = 13491;
+	inline static constexpr unsigned int GridFightPrayType_TypeDefinitionIndex = 13582;
 
 	enum class GridFightPrayType : ::System::Int32
 	{
 		None = 0,
 		FateWhite = 1,
 		FateBlack = 2,
+		PetPal = 3,
 	};
 }

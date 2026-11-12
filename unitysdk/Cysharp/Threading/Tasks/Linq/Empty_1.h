@@ -5,7 +5,7 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Empty_1_TypeDefinitionIndex = 45356;
+	inline static constexpr unsigned int Empty_1_TypeDefinitionIndex = 46385;
 
 	template <typename T>
 	class Empty_1 : public ::System::Object

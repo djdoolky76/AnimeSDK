@@ -4,18 +4,18 @@
 class ENOABFIPHOB;
 namespace System { class Object; }
 
-#define ENOABFIPHOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2F30D0)
-#define ENOABFIPHOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F3110)
-#define ENOABFIPHOB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2F3120)
+#define ENOABFIPHOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5D7D60)
+#define ENOABFIPHOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D7DA0)
+#define ENOABFIPHOB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F5D7DB0)
 
-inline static constexpr unsigned int ENOABFIPHOB___c_TypeDefinitionIndex = 26265;
+inline static constexpr unsigned int ENOABFIPHOB___c_TypeDefinitionIndex = 26792;
 
 	class ENOABFIPHOB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54890);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x509D0);
 		}
 
 		static ::System::Void _cctor()

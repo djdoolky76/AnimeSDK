@@ -10,17 +10,17 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewMode
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudInputBrain; }
 namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 
-#define KMBPODMNLAN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB53CB30)
-#define KMBPODMNLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB53CA60)
+#define KMBPODMNLAN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBD87C00)
+#define KMBPODMNLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBD87B30)
 
-inline static constexpr unsigned int KMBPODMNLAN_TypeDefinitionIndex = 80928;
+inline static constexpr unsigned int KMBPODMNLAN_TypeDefinitionIndex = 83708;
 
 	class KMBPODMNLAN : public ::System::Object
 	{
 	public:
-		::MOHDOOBDGIL* JPOICDFFNLN; // 0x10
-		::JMIAGJADDDK* LFCGFHMCEFD; // 0x18
-		::CAEBEEOCLLI* ODBKGBNKPPJ; // 0x20
+		::JMIAGJADDDK* LFCGFHMCEFD; // 0x10
+		::CAEBEEOCLLI* ODBKGBNKPPJ; // 0x18
+		::MOHDOOBDGIL* JPOICDFFNLN; // 0x20
 		::System::Void _ctor(::OBJANKHLNGO* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::OBJANKHLNGO*))((::PBYTE)hIl2Cpp + KMBPODMNLAN_CTOR_OFFSET))(this, a1);

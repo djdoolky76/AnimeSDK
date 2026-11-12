@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ChangeCharacterUIDisplay; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGECHARACTERUIDISPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5662A0)
-#define RPG_GAMECORE_CHANGECHARACTERUIDISPLAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5662E0)
-#define RPG_GAMECORE_CHANGECHARACTERUIDISPLAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5660E0)
+#define RPG_GAMECORE_CHANGECHARACTERUIDISPLAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E777820)
+#define RPG_GAMECORE_CHANGECHARACTERUIDISPLAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E777860)
+#define RPG_GAMECORE_CHANGECHARACTERUIDISPLAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E777660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeCharacterUIDisplay_TypeDefinitionIndex = 23674;
+	inline static constexpr unsigned int ChangeCharacterUIDisplay_TypeDefinitionIndex = 24128;
 
 	class ChangeCharacterUIDisplay : public ::RPG::GameCore::TaskConfig
 	{

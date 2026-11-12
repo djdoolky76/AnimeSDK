@@ -13,23 +13,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HLFPDKHEBAB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x15D5F0D0)
-#define HLFPDKHEBAB_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D5F110)
-#define HLFPDKHEBAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5EA30)
-#define HLFPDKHEBAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15D5EE30)
-#define HLFPDKHEBAB_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0x15D5EC50)
-#define HLFPDKHEBAB_TICK_OFFSET UNITYSDK_OFFSET(0x15D5F060)
+#define HLFPDKHEBAB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x16CB88F0)
+#define HLFPDKHEBAB_CCTOR_OFFSET UNITYSDK_OFFSET(0x16CB8930)
+#define HLFPDKHEBAB_CTOR_OFFSET UNITYSDK_OFFSET(0x16CB81C0)
+#define HLFPDKHEBAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16CB8650)
+#define HLFPDKHEBAB_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0x16CB8470)
+#define HLFPDKHEBAB_TICK_OFFSET UNITYSDK_OFFSET(0x16CB8880)
 
-inline static constexpr unsigned int HLFPDKHEBAB_TypeDefinitionIndex = 77661;
+inline static constexpr unsigned int HLFPDKHEBAB_TypeDefinitionIndex = 80396;
 
 	class HLFPDKHEBAB : public ::System::Object
 	{
 	public:
-		::AFNDGNFOAKC* HFOFIODMFGB; // 0x10
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x18
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x10
+		::AFNDGNFOAKC* HFOFIODMFGB; // 0x18
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelStatusType, ::System::String*>** StaticGet_NBEKIBIEAOJ()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelStatusType, ::System::String*>**)UnitySDK::FromName("", "HLFPDKHEBAB")->GetStaticField(0x24930);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChimeraDuelStatusType, ::System::String*>**)UnitySDK::FromName("", "HLFPDKHEBAB")->GetStaticField(0x166E0);
 		}
 
 		::System::Void _ctor(::KAKADGHNMFK* a1, ::RPG::GameCore::ChimeraDuelStatusType a2, ::OMFDCMJIAHG* a3, ::HAJDFCHFBGN* a4)

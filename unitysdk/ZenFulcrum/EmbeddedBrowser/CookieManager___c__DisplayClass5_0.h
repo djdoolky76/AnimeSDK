@@ -5,12 +5,12 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace ZenFulcrum::EmbeddedBrowser { class Cookie; }
 namespace ZenFulcrum::EmbeddedBrowser { template <typename T> class Promise_1; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6577E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER___C__DISPLAYCLASS5_0__CB_GETCOOKIEFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x1F6578F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x20906FB0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIEMANAGER___C__DISPLAYCLASS5_0__CB_GETCOOKIEFUNC_B__0_OFFSET UNITYSDK_OFFSET(0x209070C0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int CookieManager___c__DisplayClass5_0_TypeDefinitionIndex = 39492;
+	inline static constexpr unsigned int CookieManager___c__DisplayClass5_0_TypeDefinitionIndex = 40421;
 
 	class CookieManager___c__DisplayClass5_0 : public ::System::Object
 	{

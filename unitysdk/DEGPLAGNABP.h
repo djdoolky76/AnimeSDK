@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define DEGPLAGNABP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD11070)
+#define DEGPLAGNABP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEDC6F0)
 
-inline static constexpr unsigned int DEGPLAGNABP_TypeDefinitionIndex = 10372;
+inline static constexpr unsigned int DEGPLAGNABP_TypeDefinitionIndex = 10382;
 
 	class DEGPLAGNABP : public ::System::Object
 	{
 	public:
-		::System::Action* MMLNGGEKDEN; // 0x10
-		::System::Action* ECHFHBKOMLC; // 0x18
+		::System::Action* ECHFHBKOMLC; // 0x10
+		::System::Action* MMLNGGEKDEN; // 0x18
 		::RPG::Expression::Precedence BPCGJGFOAGM; // 0x20
 		::System::Void _ctor()
 		{

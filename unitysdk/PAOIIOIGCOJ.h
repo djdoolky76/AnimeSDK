@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LJFHKAJPFNE;
 
-#define PAOIIOIGCOJ_AGMANDJBGJJ_OFFSET UNITYSDK_OFFSET(0xBFDA0B0)
-#define PAOIIOIGCOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC7410)
+#define PAOIIOIGCOJ_AGMANDJBGJJ_OFFSET UNITYSDK_OFFSET(0xC8DD040)
+#define PAOIIOIGCOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CA040)
 
-inline static constexpr unsigned int PAOIIOIGCOJ_TypeDefinitionIndex = 73782;
+inline static constexpr unsigned int PAOIIOIGCOJ_TypeDefinitionIndex = 75908;
 
 	class PAOIIOIGCOJ : public ::System::Object
 	{

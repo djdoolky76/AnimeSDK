@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CILKCIHDBOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4A50)
+#define CILKCIHDBOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBCD0D0)
 
-inline static constexpr unsigned int CILKCIHDBOM_TypeDefinitionIndex = 42346;
+inline static constexpr unsigned int CILKCIHDBOM_TypeDefinitionIndex = 43321;
 
 	class CILKCIHDBOM : public ::System::Object
 	{

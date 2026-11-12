@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByUsedFiveDimHoldDash; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IANCIPKCJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E1F7B0)
-#define IANCIPKCJAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E1F7E0)
+#define IANCIPKCJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC9210)
+#define IANCIPKCJAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16DC9240)
 
-inline static constexpr unsigned int IANCIPKCJAG_TypeDefinitionIndex = 52824;
+inline static constexpr unsigned int IANCIPKCJAG_TypeDefinitionIndex = 53968;
 
 	class IANCIPKCJAG
 	{

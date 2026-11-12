@@ -8,28 +8,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveAvatarPropertyConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEAVATARPROPERTYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D778160)
-#define RPG_GAMECORE_IDLELIVEAVATARPROPERTYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D777C30)
+#define RPG_GAMECORE_IDLELIVEAVATARPROPERTYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98B890)
+#define RPG_GAMECORE_IDLELIVEAVATARPROPERTYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98B360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAvatarPropertyConfigRow_TypeDefinitionIndex = 11712;
+	inline static constexpr unsigned int IdleLiveAvatarPropertyConfigRow_TypeDefinitionIndex = 11769;
 
 	class IdleLiveAvatarPropertyConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID PropertyDesc; // 0x18
-		::RPG::GameCore::FixPoint BackgroundPowerFactor; // 0x28
-		::RPG::GameCore::FixPoint CaptainPowerFactor; // 0x30
-		::RPG::Client::TextID PropertyName; // 0x38
-		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x48
-		::RPG::GameCore::IdleLiveAvatarPropertyType BaseProperty; // 0x4C
-		::RPG::GameCore::FixPoint FrontPowerFactor; // 0x50
-		::System::Boolean IsDisplay; // 0x58
+		::RPG::GameCore::FixPoint FrontPowerFactor; // 0x18
+		::RPG::Client::TextID PropertyDesc; // 0x20
+		::RPG::GameCore::IdleLiveAvatarPropertyType PropertyType; // 0x30
+		::System::UInt32 Order; // 0x34
+		::RPG::GameCore::FixPoint SupportPowerFactor; // 0x38
+		::RPG::GameCore::FixPoint CaptainPowerFactor; // 0x40
+		::RPG::Client::TextID PropertyName; // 0x48
+		::RPG::GameCore::FixPoint BackgroundPowerFactor; // 0x58
+		::System::Boolean IsDisplay; // 0x60
 		::System::Byte _padding0[0x3];
-		::System::UInt32 Order; // 0x5C
-		::RPG::GameCore::FixPoint SupportPowerFactor; // 0x60
+		::RPG::GameCore::IdleLiveAvatarPropertyType BaseProperty; // 0x64
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEAVATARPROPERTYCONFIGROW_CTOR_OFFSET))(this);

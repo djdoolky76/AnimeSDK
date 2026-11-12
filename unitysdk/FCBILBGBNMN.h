@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FCBILBGBNMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA663E0)
+#define FCBILBGBNMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC29C90)
 
-inline static constexpr unsigned int FCBILBGBNMN_TypeDefinitionIndex = 42988;
+inline static constexpr unsigned int FCBILBGBNMN_TypeDefinitionIndex = 43969;
 
 	class FCBILBGBNMN : public ::System::Object
 	{

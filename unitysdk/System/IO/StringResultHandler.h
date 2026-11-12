@@ -3,9 +3,9 @@
 namespace System { class String; }
 namespace System::IO { class SearchResult; }
 
-#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C26EDB0)
-#define SYSTEM_IO_STRINGRESULTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C25EED0)
-#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1C26ECC0)
+#define SYSTEM_IO_STRINGRESULTHANDLER_CREATEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D3F59D0)
+#define SYSTEM_IO_STRINGRESULTHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E59E0)
+#define SYSTEM_IO_STRINGRESULTHANDLER_ISRESULTINCLUDED_OFFSET UNITYSDK_OFFSET(0x1D3F58E0)
 
 namespace System::IO
 {
@@ -14,8 +14,8 @@ namespace System::IO
 	class StringResultHandler
 	{
 	public:
-		::System::Boolean _includeFiles; // 0x10
-		::System::Boolean _includeDirs; // 0x11
+		::System::Boolean _includeDirs; // 0x10
+		::System::Boolean _includeFiles; // 0x11
 		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + SYSTEM_IO_STRINGRESULTHANDLER_CTOR_OFFSET))(this, a1, a2);

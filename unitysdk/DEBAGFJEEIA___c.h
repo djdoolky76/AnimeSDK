@@ -4,18 +4,18 @@
 class DEBAGFJEEIA;
 namespace System { class Object; }
 
-#define DEBAGFJEEIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E18F170)
-#define DEBAGFJEEIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E18F1A0)
-#define DEBAGFJEEIA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E18F1B0)
+#define DEBAGFJEEIA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F468C60)
+#define DEBAGFJEEIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F468C90)
+#define DEBAGFJEEIA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F468CA0)
 
-inline static constexpr unsigned int DEBAGFJEEIA___c_TypeDefinitionIndex = 30183;
+inline static constexpr unsigned int DEBAGFJEEIA___c_TypeDefinitionIndex = 31081;
 
 	class DEBAGFJEEIA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30380);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2A9B0);
 		}
 
 		static ::System::Void _cctor()

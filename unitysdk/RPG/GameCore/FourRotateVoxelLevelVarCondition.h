@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FourRotateVoxelLevelVarCondition; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F04D0)
-#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F0330)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FA790)
+#define RPG_GAMECORE_FOURROTATEVOXELLEVELVARCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FA610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelLevelVarCondition_TypeDefinitionIndex = 16778;
+	inline static constexpr unsigned int FourRotateVoxelLevelVarCondition_TypeDefinitionIndex = 16945;
 
 	class FourRotateVoxelLevelVarCondition : public ::RPG::GameCore::JsonConfig
 	{

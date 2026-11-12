@@ -5,29 +5,29 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define CKOAIMAKAOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD76C830)
-#define CKOAIMAKAOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD76C860)
-#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_0_OFFSET UNITYSDK_OFFSET(0xD76C870)
-#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_1_OFFSET UNITYSDK_OFFSET(0xD76C950)
+#define CKOAIMAKAOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0A6C20)
+#define CKOAIMAKAOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0A6C60)
+#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_0_OFFSET UNITYSDK_OFFSET(0xE0A6C70)
+#define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_1_OFFSET UNITYSDK_OFFSET(0xE0A6D50)
 
-inline static constexpr unsigned int CKOAIMAKAOD___c_TypeDefinitionIndex = 52404;
+inline static constexpr unsigned int CKOAIMAKAOD___c_TypeDefinitionIndex = 53510;
 
 	class CKOAIMAKAOD___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ED50);
+		}
+
 		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_1()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49A30);
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ED58);
 		}
 
 		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet___9__7_0()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49A38);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49A40);
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2ED60);
 		}
 
 		static ::System::Void _cctor()

@@ -8,11 +8,11 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEARRAYMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCD3C8E0)
+#define RPG_CLIENT_EFFECT_INSTANCEARRAYMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD703770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceArrayMonoPlugin_TypeDefinitionIndex = 70618;
+	inline static constexpr unsigned int Effect_InstanceArrayMonoPlugin_TypeDefinitionIndex = 72595;
 
 	class Effect_InstanceArrayMonoPlugin
 	{

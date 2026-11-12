@@ -5,70 +5,70 @@ namespace System { class String; }
 namespace ZXing::Common::ReedSolomon { class GenericGF; }
 namespace ZXing::Common::ReedSolomon { class GenericGFPoly; }
 
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_ADDORSUBTRACT_OFFSET UNITYSDK_OFFSET(0x1F6A6C90)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_BUILDMONOMIAL_OFFSET UNITYSDK_OFFSET(0x1F6A6BD0)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6A70E0)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6A6900)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_EXP_OFFSET UNITYSDK_OFFSET(0x1F6A6CA0)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_GET_GENERATORBASE_OFFSET UNITYSDK_OFFSET(0x1F6A6E60)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x1F6A6BC0)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_INVERSE_OFFSET UNITYSDK_OFFSET(0x1F6A6D50)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_LOG_OFFSET UNITYSDK_OFFSET(0x1F6A6CD0)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x1F6A6DF0)
-#define ZXING_COMMON_REEDSOLOMON_GENERICGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F6A6E70)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_ADDORSUBTRACT_OFFSET UNITYSDK_OFFSET(0x20956400)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_BUILDMONOMIAL_OFFSET UNITYSDK_OFFSET(0x20956340)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_CCTOR_OFFSET UNITYSDK_OFFSET(0x20956850)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_CTOR_OFFSET UNITYSDK_OFFSET(0x20956070)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_EXP_OFFSET UNITYSDK_OFFSET(0x20956410)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_GET_GENERATORBASE_OFFSET UNITYSDK_OFFSET(0x209565D0)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_GET_ZERO_OFFSET UNITYSDK_OFFSET(0x20956330)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_INVERSE_OFFSET UNITYSDK_OFFSET(0x209564C0)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_LOG_OFFSET UNITYSDK_OFFSET(0x20956440)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_MULTIPLY_OFFSET UNITYSDK_OFFSET(0x20956560)
+#define ZXING_COMMON_REEDSOLOMON_GENERICGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x209565E0)
 
 namespace ZXing::Common::ReedSolomon
 {
-	inline static constexpr unsigned int GenericGF_TypeDefinitionIndex = 7047;
+	inline static constexpr unsigned int GenericGF_TypeDefinitionIndex = 7058;
 
 	class GenericGF : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* logTable; // 0x10
-		::ZXing::Common::ReedSolomon::GenericGFPoly* zero; // 0x18
-		::ZXing::Common::ReedSolomon::GenericGFPoly* one; // 0x20
-		::Il2CppArray<::System::Int32>* expTable; // 0x28
-		::System::Int32 primitive; // 0x30
-		::System::Int32 size; // 0x34
+		::Il2CppArray<::System::Int32>* expTable; // 0x10
+		::Il2CppArray<::System::Int32>* logTable; // 0x18
+		::ZXing::Common::ReedSolomon::GenericGFPoly* zero; // 0x20
+		::ZXing::Common::ReedSolomon::GenericGFPoly* one; // 0x28
+		::System::Int32 size; // 0x30
+		::System::Int32 primitive; // 0x34
 		::System::Int32 generatorBase; // 0x38
-		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_DATA_MATRIX_FIELD_256()
+		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_PARAM()
 		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21100);
-		}
-
-		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_DATA_10()
-		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21108);
-		}
-
-		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_DATA_6()
-		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21110);
-		}
-
-		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_QR_CODE_FIELD_256()
-		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21118);
-		}
-
-		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_DATA_8()
-		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21120);
-		}
-
-		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_MAXICODE_FIELD_64()
-		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21128);
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CA0);
 		}
 
 		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_DATA_12()
 		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21130);
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CA8);
 		}
 
-		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_PARAM()
+		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_DATA_8()
 		{
-			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x21138);
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CB0);
+		}
+
+		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_DATA_6()
+		{
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CB8);
+		}
+
+		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_MAXICODE_FIELD_64()
+		{
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CC0);
+		}
+
+		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_DATA_MATRIX_FIELD_256()
+		{
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CC8);
+		}
+
+		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_AZTEC_DATA_10()
+		{
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CD0);
+		}
+
+		static ::ZXing::Common::ReedSolomon::GenericGF** StaticGet_QR_CODE_FIELD_256()
+		{
+			return (::ZXing::Common::ReedSolomon::GenericGF**)UnitySDK::FromName("ZXing.Common.ReedSolomon", "GenericGF")->GetStaticField(0x40CD8);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)

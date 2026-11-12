@@ -3,10 +3,10 @@
 class GCFBDNCBFIE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADNBNIMIFDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB147120)
-#define ADNBNIMIFDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB147150)
+#define ADNBNIMIFDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AC400)
+#define ADNBNIMIFDI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7AC430)
 
-inline static constexpr unsigned int ADNBNIMIFDI_TypeDefinitionIndex = 52840;
+inline static constexpr unsigned int ADNBNIMIFDI_TypeDefinitionIndex = 53993;
 
 	class ADNBNIMIFDI
 	{

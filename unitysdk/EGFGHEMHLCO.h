@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define EGFGHEMHLCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50330)
+#define EGFGHEMHLCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC13B90)
 
-inline static constexpr unsigned int EGFGHEMHLCO_TypeDefinitionIndex = 43782;
+inline static constexpr unsigned int EGFGHEMHLCO_TypeDefinitionIndex = 44857;
 
 	class EGFGHEMHLCO : public ::System::Object
 	{

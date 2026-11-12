@@ -11,52 +11,52 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarServantSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARSERVANTSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D426F70)
-#define RPG_GAMECORE_AVATARSERVANTSKILLROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D424780)
-#define RPG_GAMECORE_AVATARSERVANTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D425590)
-#define RPG_GAMECORE_AVATARSERVANTSKILLROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D426EA0)
-#define RPG_GAMECORE_AVATARSERVANTSKILLROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D426F00)
+#define RPG_GAMECORE_AVATARSERVANTSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E647A20)
+#define RPG_GAMECORE_AVATARSERVANTSKILLROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1E645220)
+#define RPG_GAMECORE_AVATARSERVANTSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E646030)
+#define RPG_GAMECORE_AVATARSERVANTSKILLROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1E647940)
+#define RPG_GAMECORE_AVATARSERVANTSKILLROW_RESET_OFFSET UNITYSDK_OFFSET(0x1E6479A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarServantSkillRow_TypeDefinitionIndex = 12806;
+	inline static constexpr unsigned int AvatarServantSkillRow_TypeDefinitionIndex = 12878;
 
 	class AvatarServantSkillRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* RatedRankID; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ShowStanceList; // 0x18
-		::Il2CppArray<::System::UInt32>* RatedSkillTreeID; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x28
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x30
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x38
-		::System::String* SkillIcon; // 0x40
-		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x48
-		::System::String* SkillTriggerKey; // 0x50
-		::System::String* UltraSkillIcon; // 0x58
-		::RPG::Client::TextID SkillNeed; // 0x60
-		::RPG::GameCore::FixPoint SPNeed; // 0x70
-		::System::Int32 StanceDamageDisplay; // 0x78
-		::RPG::GameCore::AttackDamageType StanceDamageType; // 0x7C
-		::RPG::GameCore::FixPoint SPAdd; // 0x80
-		::RPG::Client::TextID SkillName; // 0x88
-		::System::Boolean HideInUI; // 0x98
+		::System::String* SkillIcon; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
+		::System::String* UltraSkillIcon; // 0x20
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x28
+		::Il2CppArray<::System::UInt32>* RatedSkillTreeID; // 0x30
+		::Il2CppArray<::RPG::GameCore::FixPoint>* SimpleParamList; // 0x38
+		::Il2CppArray<::System::UInt32>* RatedRankID; // 0x40
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ShowStanceList; // 0x48
+		::Il2CppArray<::System::UInt32>* SimpleExtraEffectIDList; // 0x50
+		::System::String* SkillTriggerKey; // 0x58
+		::RPG::Client::TextID SkillTag; // 0x60
+		::RPG::Client::TextID SkillTypeDesc; // 0x70
+		::System::UInt32 MaxLevel; // 0x80
+		::System::Boolean HideInUI; // 0x84
 		::System::Byte _padding0[0x3];
+		::RPG::GameCore::SkillEffect SkillEffect; // 0x88
+		::System::Int32 StanceDamageDisplay; // 0x8C
+		::RPG::GameCore::FixPoint DelayRatio; // 0x90
+		::System::UInt32 SkillID; // 0x98
 		::System::UInt32 Level; // 0x9C
-		::RPG::Client::TextID SkillTypeDesc; // 0xA0
-		::RPG::Client::TextID SkillDesc; // 0xB0
-		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0xC0
-		::RPG::GameCore::FixPoint DelayRatio; // 0xC8
-		::RPG::Client::TextID SimpleSkillDesc; // 0xD0
+		::RPG::Client::TextID SkillNeed; // 0xA0
+		::RPG::GameCore::AttackDamageType StanceDamageType; // 0xB0
+		::RPG::GameCore::AttackType AttackType; // 0xB4
+		::RPG::GameCore::FixPoint SPNeed; // 0xB8
+		::RPG::GameCore::FixPoint SPAdd; // 0xC0
+		::RPG::Client::TextID SimpleSkillDesc; // 0xC8
+		::RPG::GameCore::FixPoint BPAdd; // 0xD8
 		::RPG::GameCore::FixPoint SPBase; // 0xE0
-		::RPG::GameCore::FixPoint SPMultipleRatio; // 0xE8
-		::RPG::GameCore::FixPoint BPNeed; // 0xF0
-		::RPG::Client::TextID SkillTag; // 0xF8
-		::RPG::GameCore::AttackType AttackType; // 0x108
-		::System::UInt32 MaxLevel; // 0x10C
-		::RPG::GameCore::FixPoint BPAdd; // 0x110
-		::System::UInt32 SkillID; // 0x118
-		::RPG::GameCore::SkillEffect SkillEffect; // 0x11C
+		::RPG::GameCore::FixPoint BPNeed; // 0xE8
+		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0xF0
+		::RPG::Client::TextID SkillName; // 0xF8
+		::RPG::GameCore::FixPoint SPMultipleRatio; // 0x108
+		::RPG::Client::TextID SkillDesc; // 0x110
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSERVANTSKILLROW_CTOR_OFFSET))(this);

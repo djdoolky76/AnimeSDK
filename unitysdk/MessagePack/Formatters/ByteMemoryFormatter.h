@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class ByteMemoryFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB6FCF0)
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB6FC20)
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB6FC70)
-#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB6FC30)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF8A00)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF8930)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF8980)
+#define MESSAGEPACK_FORMATTERS_BYTEMEMORYFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF8940)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ByteMemoryFormatter_TypeDefinitionIndex = 7373;
+	inline static constexpr unsigned int ByteMemoryFormatter_TypeDefinitionIndex = 7384;
 
 	class ByteMemoryFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::ByteMemoryFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::ByteMemoryFormatter**)UnitySDK::FromName("MessagePack.Formatters", "ByteMemoryFormatter")->GetStaticField(0x24AB0);
+			return (::MessagePack::Formatters::ByteMemoryFormatter**)UnitySDK::FromName("MessagePack.Formatters", "ByteMemoryFormatter")->GetStaticField(0x46920);
 		}
 
 		::System::Void _ctor()

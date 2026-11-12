@@ -4,10 +4,10 @@
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class Object; }
 
-#define FGBADHIHBFD_OCJMANGGCCC_1_OFFSET UNITYSDK_OFFSET(0x1EC6A5F0)
-#define FGBADHIHBFD_OCJMANGGCCC_OFFSET UNITYSDK_OFFSET(0x1EC6A0B0)
+#define FGBADHIHBFD_OCJMANGGCCC_1_OFFSET UNITYSDK_OFFSET(0x1FF1AFD0)
+#define FGBADHIHBFD_OCJMANGGCCC_OFFSET UNITYSDK_OFFSET(0x1FF1AA90)
 
-inline static constexpr unsigned int FGBADHIHBFD_TypeDefinitionIndex = 44150;
+inline static constexpr unsigned int FGBADHIHBFD_TypeDefinitionIndex = 45225;
 
 	class FGBADHIHBFD : public ::System::Object
 	{

@@ -5,22 +5,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class MapPropConditionConfigRow; }
 
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82E850)
-#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D82E170)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA49270)
+#define RPG_GAMECORE_MAPPROPCONDITIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA48B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapPropConditionConfigRow_TypeDefinitionIndex = 12576;
+	inline static constexpr unsigned int MapPropConditionConfigRow_TypeDefinitionIndex = 12643;
 
 	class MapPropConditionConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnloadConditions; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockConditions; // 0x18
-		::System::UInt32 MappingInfoID; // 0x20
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnlockConditions; // 0x10
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* UnloadConditions; // 0x18
+		::System::UInt32 Priority; // 0x20
 		::System::UInt32 MiniMapIconID; // 0x24
-		::System::UInt32 Priority; // 0x28
-		::System::UInt32 ID; // 0x2C
+		::System::UInt32 ID; // 0x28
+		::System::UInt32 MappingInfoID; // 0x2C
 		::System::UInt32 ActivityModuleID; // 0x30
 		::System::Void _ctor()
 		{

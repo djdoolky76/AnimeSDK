@@ -4,18 +4,18 @@
 class EKFCDGNOAIN;
 namespace System { class Object; }
 
-#define EKFCDGNOAIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2C0C80)
-#define EKFCDGNOAIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2C0CC0)
-#define EKFCDGNOAIN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2C0CD0)
+#define EKFCDGNOAIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5A4370)
+#define EKFCDGNOAIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A43B0)
+#define EKFCDGNOAIN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F5A43C0)
 
-inline static constexpr unsigned int EKFCDGNOAIN___c_TypeDefinitionIndex = 32715;
+inline static constexpr unsigned int EKFCDGNOAIN___c_TypeDefinitionIndex = 33630;
 
 	class EKFCDGNOAIN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CBC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47110);
 		}
 
 		static ::System::Void _cctor()

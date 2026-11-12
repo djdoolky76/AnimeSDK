@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetBattleBGMState; }
 
-#define RPG_GAMECORE_SETBATTLEBGMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA96690)
-#define RPG_GAMECORE_SETBATTLEBGMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA966A0)
-#define RPG_GAMECORE_SETBATTLEBGMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA96660)
+#define RPG_GAMECORE_SETBATTLEBGMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA8B30)
+#define RPG_GAMECORE_SETBATTLEBGMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECA8B40)
+#define RPG_GAMECORE_SETBATTLEBGMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA8B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetBattleBGMState_TypeDefinitionIndex = 22965;
+	inline static constexpr unsigned int SetBattleBGMState_TypeDefinitionIndex = 23393;
 
 	class SetBattleBGMState : public ::RPG::GameCore::TaskConfig
 	{

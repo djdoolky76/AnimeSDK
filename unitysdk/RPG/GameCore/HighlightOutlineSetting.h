@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HighlightOutlineSetting; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76A550)
-#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76A330)
+#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97E020)
+#define RPG_GAMECORE_HIGHLIGHTOUTLINESETTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97DE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HighlightOutlineSetting_TypeDefinitionIndex = 17147;
+	inline static constexpr unsigned int HighlightOutlineSetting_TypeDefinitionIndex = 17314;
 
 	class HighlightOutlineSetting : public ::RPG::GameCore::JsonConfig
 	{

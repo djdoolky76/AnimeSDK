@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define KHAKCLAJLOB___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FC3F0)
-#define KHAKCLAJLOB___C__DISPLAYCLASS4_0__ONPREFABCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0xB3FC420)
+#define KHAKCLAJLOB___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC8FAC0)
+#define KHAKCLAJLOB___C__DISPLAYCLASS4_0__ONPREFABCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0xBC8FAF0)
 
-inline static constexpr unsigned int KHAKCLAJLOB___c__DisplayClass4_0_TypeDefinitionIndex = 49354;
+inline static constexpr unsigned int KHAKCLAJLOB___c__DisplayClass4_0_TypeDefinitionIndex = 50430;
 
 	class KHAKCLAJLOB___c__DisplayClass4_0 : public ::System::Object
 	{

@@ -3,13 +3,13 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/AlleyEventInfo.h"
 
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC65BBE0)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS37_0___FRESHEVENTCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0xC6745F0)
-#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS37_0___FRESHEVENTCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0xC674620)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFB6910)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS37_0___FRESHEVENTCLOSE_B__0_OFFSET UNITYSDK_OFFSET(0xCFCF340)
+#define RPG_CLIENT_ALLEYMODULE___C__DISPLAYCLASS37_0___FRESHEVENTCLOSE_B__1_OFFSET UNITYSDK_OFFSET(0xCFCF360)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyModule___c__DisplayClass37_0_TypeDefinitionIndex = 62253;
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass37_0_TypeDefinitionIndex = 63666;
 
 	class AlleyModule___c__DisplayClass37_0 : public ::System::Object
 	{

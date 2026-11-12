@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int World3DMapEntranceCheckType_TypeDefinitionIndex = 13999;
+	inline static constexpr unsigned int World3DMapEntranceCheckType_TypeDefinitionIndex = 14156;
 
 	enum class World3DMapEntranceCheckType : ::System::Int32
 	{

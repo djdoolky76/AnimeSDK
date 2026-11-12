@@ -4,18 +4,18 @@
 class AAMPBNNKEOK;
 namespace System { class Object; }
 
-#define AAMPBNNKEOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDC1350)
-#define AAMPBNNKEOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDC1390)
-#define AAMPBNNKEOK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DDC13A0)
+#define AAMPBNNKEOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFC3C70)
+#define AAMPBNNKEOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC3CB0)
+#define AAMPBNNKEOK___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EFC3CC0)
 
-inline static constexpr unsigned int AAMPBNNKEOK___c_TypeDefinitionIndex = 30209;
+inline static constexpr unsigned int AAMPBNNKEOK___c_TypeDefinitionIndex = 31107;
 
 	class AAMPBNNKEOK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x377B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32810);
 		}
 
 		static ::System::Void _cctor()

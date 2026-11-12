@@ -5,18 +5,18 @@ class FOMDMAGLLNI;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditViewModel; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC96FEE0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS28_0__SUBMITCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xC9702E0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2D5650)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS28_0__SUBMITCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xD2D5A50)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c__DisplayClass28_0_TypeDefinitionIndex = 81634;
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c__DisplayClass28_0_TypeDefinitionIndex = 84415;
 
 	class ChallengeTierceTeamEditViewModel___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditViewModel* __4__this; // 0x10
-		::FOMDMAGLLNI* plan; // 0x18
+		::FOMDMAGLLNI* plan; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceTeamEditViewModel* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCETEAMEDITVIEWMODEL___C__DISPLAYCLASS28_0_CTOR_OFFSET))(this);

@@ -11,18 +11,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NHKPFIMPGPP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBD3F30)
-#define NHKPFIMPGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBD4040)
-#define NHKPFIMPGPP_DPCKLFEKBNC_OFFSET UNITYSDK_OFFSET(0xBBD3EF0)
-#define NHKPFIMPGPP_JLODINLPCCO_OFFSET UNITYSDK_OFFSET(0xBBD4740)
+#define NHKPFIMPGPP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC4B2730)
+#define NHKPFIMPGPP_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B2840)
+#define NHKPFIMPGPP_DPCKLFEKBNC_OFFSET UNITYSDK_OFFSET(0xC4B26F0)
+#define NHKPFIMPGPP_JLODINLPCCO_OFFSET UNITYSDK_OFFSET(0xC4B2F40)
 
-inline static constexpr unsigned int NHKPFIMPGPP_TypeDefinitionIndex = 75395;
+inline static constexpr unsigned int NHKPFIMPGPP_TypeDefinitionIndex = 77722;
 
 	class NHKPFIMPGPP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* ABIDONIKBFG; // 0x10
-		::System::String* HPGOIKJCKLF; // 0x18
+		::System::String* HPGOIKJCKLF; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* ABIDONIKBFG; // 0x18
 		::System::Single PFADDKKAOHI; // 0x20
 		::System::Void _ctor(::System::Collections::Generic::IList_1<::HNAMMBJPEDF*>* a1, ::RPG::GameCore::GenderType a2)
 		{

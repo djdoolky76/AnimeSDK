@@ -3,7 +3,7 @@
 #include "unitysdk/CHMCAGBDPJH.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int LCDAFHDGMAP_TypeDefinitionIndex = 57743;
+inline static constexpr unsigned int LCDAFHDGMAP_TypeDefinitionIndex = 58977;
 
 	struct alignas(4) LCDAFHDGMAP
 	{

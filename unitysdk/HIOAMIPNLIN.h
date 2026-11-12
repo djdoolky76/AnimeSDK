@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HIOAMIPNLIN_TypeDefinitionIndex = 54439;
+inline static constexpr unsigned int HIOAMIPNLIN_TypeDefinitionIndex = 55603;
 
 	class HIOAMIPNLIN
 	{

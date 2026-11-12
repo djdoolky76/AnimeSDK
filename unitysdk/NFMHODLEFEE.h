@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetEntityActionState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NFMHODLEFEE_CTOR_OFFSET UNITYSDK_OFFSET(0xBB9B520)
-#define NFMHODLEFEE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB9B530)
-#define NFMHODLEFEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB9B570)
-#define NFMHODLEFEE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB9B860)
-#define NFMHODLEFEE_TICK_OFFSET UNITYSDK_OFFSET(0xBB9B8B0)
+#define NFMHODLEFEE_CTOR_OFFSET UNITYSDK_OFFSET(0xC474E80)
+#define NFMHODLEFEE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC474E90)
+#define NFMHODLEFEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC474ED0)
+#define NFMHODLEFEE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC4751C0)
+#define NFMHODLEFEE_TICK_OFFSET UNITYSDK_OFFSET(0xC475210)
 
-inline static constexpr unsigned int NFMHODLEFEE_TypeDefinitionIndex = 55499;
+inline static constexpr unsigned int NFMHODLEFEE_TypeDefinitionIndex = 56687;
 
 	class NFMHODLEFEE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetEntityActionState* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetEntityActionState* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetEntityActionState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetEntityActionState*))((::PBYTE)hIl2Cpp + NFMHODLEFEE_CTOR_OFFSET))(this, a1, a2);

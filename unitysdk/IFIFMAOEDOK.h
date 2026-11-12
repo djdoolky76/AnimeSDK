@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ReleaseCharacterHUDVisibleControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFIFMAOEDOK_CTOR_OFFSET UNITYSDK_OFFSET(0x15F18600)
-#define IFIFMAOEDOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F18630)
+#define IFIFMAOEDOK_CTOR_OFFSET UNITYSDK_OFFSET(0x16E874C0)
+#define IFIFMAOEDOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E874F0)
 
-inline static constexpr unsigned int IFIFMAOEDOK_TypeDefinitionIndex = 55296;
+inline static constexpr unsigned int IFIFMAOEDOK_TypeDefinitionIndex = 56477;
 
 	class IFIFMAOEDOK
 	{

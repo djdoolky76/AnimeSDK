@@ -3,7 +3,7 @@
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONNodeType_TypeDefinitionIndex = 46065;
+	inline static constexpr unsigned int JSONNodeType_TypeDefinitionIndex = 47094;
 
 	enum class JSONNodeType : ::System::Int32
 	{

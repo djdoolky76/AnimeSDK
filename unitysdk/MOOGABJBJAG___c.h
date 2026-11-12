@@ -4,18 +4,18 @@
 class MOOGABJBJAG;
 namespace System { class Object; }
 
-#define MOOGABJBJAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAB1340)
-#define MOOGABJBJAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB1380)
-#define MOOGABJBJAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAB1390)
+#define MOOGABJBJAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDEC130)
+#define MOOGABJBJAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDEC170)
+#define MOOGABJBJAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FDEC180)
 
-inline static constexpr unsigned int MOOGABJBJAG___c_TypeDefinitionIndex = 28931;
+inline static constexpr unsigned int MOOGABJBJAG___c_TypeDefinitionIndex = 29521;
 
 	class MOOGABJBJAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AF20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65CE0);
 		}
 
 		static ::System::Void _cctor()

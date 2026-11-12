@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2___c_TypeDefinitionIndex = 5584;
+	inline static constexpr unsigned int MapField_2___c_TypeDefinitionIndex = 5589;
 
 	template <typename T1, typename T2>
 	class MapField_2___c : public ::System::Object

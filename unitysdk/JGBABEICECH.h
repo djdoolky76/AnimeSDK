@@ -5,22 +5,22 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class Text; }
 
-#define JGBABEICECH_CTOR_OFFSET UNITYSDK_OFFSET(0x1665D340)
-#define JGBABEICECH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1665D2F0)
-#define JGBABEICECH_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1665D1D0)
+#define JGBABEICECH_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A8FE0)
+#define JGBABEICECH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xB9A8F90)
+#define JGBABEICECH_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xB9A8E70)
 
-inline static constexpr unsigned int JGBABEICECH_TypeDefinitionIndex = 72820;
+inline static constexpr unsigned int JGBABEICECH_TypeDefinitionIndex = 74899;
 
 	class JGBABEICECH : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::UI::Text* EFDOLJLHGNG; // 0x18
+		::UnityEngine::UI::Text* APBADKAOJPH; // 0x18
 		::UnityEngine::UI::Button* ODBHKKIJNEK; // 0x20
-		::UnityEngine::UI::Button* GJINCGEJDAG; // 0x28
-		::UnityEngine::UI::Text* MIKHNILLLCK; // 0x30
-		::UnityEngine::UI::Text* APBADKAOJPH; // 0x38
-		::UnityEngine::UI::Text* CEPGGFOJNCC; // 0x40
-		::UnityEngine::UI::Button* FPNIIGOJKGG; // 0x48
+		::UnityEngine::UI::Text* MIKHNILLLCK; // 0x28
+		::UnityEngine::UI::Button* FPNIIGOJKGG; // 0x30
+		::UnityEngine::UI::Button* GJINCGEJDAG; // 0x38
+		::UnityEngine::UI::Text* EFDOLJLHGNG; // 0x40
+		::UnityEngine::UI::Text* CEPGGFOJNCC; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JGBABEICECH_CTOR_OFFSET))(this);

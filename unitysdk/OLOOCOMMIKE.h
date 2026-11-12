@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetColliderGroupState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLOOCOMMIKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBF17220)
-#define OLOOCOMMIKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF17250)
+#define OLOOCOMMIKE_CTOR_OFFSET UNITYSDK_OFFSET(0xC814DC0)
+#define OLOOCOMMIKE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC814DF0)
 
-inline static constexpr unsigned int OLOOCOMMIKE_TypeDefinitionIndex = 52491;
+inline static constexpr unsigned int OLOOCOMMIKE_TypeDefinitionIndex = 53597;
 
 	class OLOOCOMMIKE
 	{

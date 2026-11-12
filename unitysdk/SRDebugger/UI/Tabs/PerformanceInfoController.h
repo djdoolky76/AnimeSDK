@@ -5,11 +5,11 @@ namespace SRDebugger::UI::Controls { class InfoBlock; }
 namespace SRF::UI { class FlashGraphic; }
 namespace UnityEngine { class RectTransform; }
 
-#define SRDEBUGGER_UI_TABS_PERFORMANCEINFOCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE95ECF0)
+#define SRDEBUGGER_UI_TABS_PERFORMANCEINFOCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xF47D540)
 
 namespace SRDebugger::UI::Tabs
 {
-	inline static constexpr unsigned int PerformanceInfoController_TypeDefinitionIndex = 47708;
+	inline static constexpr unsigned int PerformanceInfoController_TypeDefinitionIndex = 48738;
 
 	class PerformanceInfoController : public ::SRF::SRMonoBehaviourEx
 	{

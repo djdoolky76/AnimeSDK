@@ -4,18 +4,18 @@
 class DAMBPIKLCBL;
 namespace System { class Object; }
 
-#define DAMBPIKLCBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E153E80)
-#define DAMBPIKLCBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E153EC0)
-#define DAMBPIKLCBL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E153ED0)
+#define DAMBPIKLCBL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F42CF30)
+#define DAMBPIKLCBL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F42CF70)
+#define DAMBPIKLCBL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F42CF80)
 
-inline static constexpr unsigned int DAMBPIKLCBL___c_TypeDefinitionIndex = 28994;
+inline static constexpr unsigned int DAMBPIKLCBL___c_TypeDefinitionIndex = 29584;
 
 	class DAMBPIKLCBL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24CB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F990);
 		}
 
 		static ::System::Void _cctor()

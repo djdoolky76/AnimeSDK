@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FreeStyleStateTemplate; }
 namespace RPG::GameCore { class FreeStyleStateTemplateConfig; }
 
-#define RPG_GAMECORE_FREESTYLESTATETEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F5080)
-#define RPG_GAMECORE_FREESTYLESTATETEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F4F90)
+#define RPG_GAMECORE_FREESTYLESTATETEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FF2D0)
+#define RPG_GAMECORE_FREESTYLESTATETEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FF1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleStateTemplateConfig_TypeDefinitionIndex = 16314;
+	inline static constexpr unsigned int FreeStyleStateTemplateConfig_TypeDefinitionIndex = 16477;
 
 	class FreeStyleStateTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

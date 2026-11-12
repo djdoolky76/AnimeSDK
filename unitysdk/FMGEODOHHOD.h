@@ -10,48 +10,48 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FMGEODOHHOD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE0AD00)
-#define FMGEODOHHOD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE0B360)
-#define FMGEODOHHOD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE0AE70)
-#define FMGEODOHHOD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE0A7B0)
-#define FMGEODOHHOD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE0AA40)
-#define FMGEODOHHOD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE0AF10)
-#define FMGEODOHHOD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE0AF60)
-#define FMGEODOHHOD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE0AD40)
-#define FMGEODOHHOD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE0A9E0)
-#define FMGEODOHHOD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE0ABB0)
-#define FMGEODOHHOD_NPEIBLCMKNL_OFFSET UNITYSDK_OFFSET(0x1CE0B280)
-#define FMGEODOHHOD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE0ADD0)
-#define FMGEODOHHOD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE0A730)
+#define FMGEODOHHOD_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DFE42F0)
+#define FMGEODOHHOD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE4950)
+#define FMGEODOHHOD_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DFE4460)
+#define FMGEODOHHOD_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DFE3DA0)
+#define FMGEODOHHOD_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DFE4030)
+#define FMGEODOHHOD_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DFE4500)
+#define FMGEODOHHOD_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DFE4550)
+#define FMGEODOHHOD_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DFE4330)
+#define FMGEODOHHOD_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DFE3FD0)
+#define FMGEODOHHOD_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DFE41A0)
+#define FMGEODOHHOD_NPEIBLCMKNL_OFFSET UNITYSDK_OFFSET(0x1DFE4870)
+#define FMGEODOHHOD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DFE43C0)
+#define FMGEODOHHOD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DFE3D20)
 
-inline static constexpr unsigned int FMGEODOHHOD_TypeDefinitionIndex = 13218;
+inline static constexpr unsigned int FMGEODOHHOD_TypeDefinitionIndex = 13292;
 
 	class FMGEODOHHOD : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FunNumMultiplierRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FunNumMultiplierRow*>**)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0xA5D0);
+		}
+
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0x14CC0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0xA5D8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0x14CC8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FunNumMultiplierRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::FunNumMultiplierRow*>**)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0x14CD0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0xA5E0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0x4FC0);
+			return (::System::Boolean*)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0xFA0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0x4FC1);
+			return (::System::Byte*)UnitySDK::FromName("", "FMGEODOHHOD")->GetStaticField(0xFA1);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@ class BACCOPOCMPC;
 namespace RPG::GameCore { class ST_ByAIHangUp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PIPOIMODPLD_CTOR_OFFSET UNITYSDK_OFFSET(0xC277080)
-#define PIPOIMODPLD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC277140)
+#define PIPOIMODPLD_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9F1D0)
+#define PIPOIMODPLD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCB9F290)
 
-inline static constexpr unsigned int PIPOIMODPLD_TypeDefinitionIndex = 52179;
+inline static constexpr unsigned int PIPOIMODPLD_TypeDefinitionIndex = 53284;
 
 	class PIPOIMODPLD
 	{

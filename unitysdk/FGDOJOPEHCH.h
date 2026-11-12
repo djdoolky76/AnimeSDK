@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGDOJOPEHCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15758BC0)
-#define FGDOJOPEHCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15758BF0)
+#define FGDOJOPEHCH_CTOR_OFFSET UNITYSDK_OFFSET(0x166782D0)
+#define FGDOJOPEHCH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16678300)
 
-inline static constexpr unsigned int FGDOJOPEHCH_TypeDefinitionIndex = 54620;
+inline static constexpr unsigned int FGDOJOPEHCH_TypeDefinitionIndex = 55786;
 
 	class FGDOJOPEHCH
 	{

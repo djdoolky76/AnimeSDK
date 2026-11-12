@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LogicAnimEventTimelineTrackGroup; }
 
-#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACKGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F3DA0)
-#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACKGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F3D60)
+#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACKGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36A20)
+#define RPG_GAMECORE_LOGICANIMEVENTTIMELINETRACKGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA369E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LogicAnimEventTimelineTrackGroup_TypeDefinitionIndex = 16297;
+	inline static constexpr unsigned int LogicAnimEventTimelineTrackGroup_TypeDefinitionIndex = 16460;
 
 	class LogicAnimEventTimelineTrackGroup : public ::RPG::GameCore::JsonConfig
 	{

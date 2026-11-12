@@ -4,7 +4,7 @@
 class MDOCPCEPNBC;
 namespace System { class String; }
 
-inline static constexpr unsigned int MDOCPCEPNBC___c__DisplayClass10_0_TypeDefinitionIndex = 49241;
+inline static constexpr unsigned int MDOCPCEPNBC___c__DisplayClass10_0_TypeDefinitionIndex = 50317;
 
 	class MDOCPCEPNBC___c__DisplayClass10_0 : public ::System::Object
 	{

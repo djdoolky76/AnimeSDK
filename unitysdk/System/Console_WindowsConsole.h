@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Console_WindowsConsole_WindowsCancelHandler; }
 
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C195C50)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_DOWINDOWSCONSOLECANCELEVENT_OFFSET UNITYSDK_OFFSET(0x1C195C10)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLECP_OFFSET UNITYSDK_OFFSET(0x1C195B10)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLEOUTPUTCP_OFFSET UNITYSDK_OFFSET(0x1C195B90)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETINPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1C194770)
-#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETOUTPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1C194810)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D31CE90)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_DOWINDOWSCONSOLECANCELEVENT_OFFSET UNITYSDK_OFFSET(0x1D31CE50)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLECP_OFFSET UNITYSDK_OFFSET(0x1D31CD50)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETCONSOLEOUTPUTCP_OFFSET UNITYSDK_OFFSET(0x1D31CDD0)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETINPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1D31B950)
+#define SYSTEM_CONSOLE_WINDOWSCONSOLE_GETOUTPUTCODEPAGE_OFFSET UNITYSDK_OFFSET(0x1D31B9F0)
 
 namespace System
 {
@@ -19,12 +19,12 @@ namespace System
 	public:
 		static ::System::Console_WindowsConsole_WindowsCancelHandler** StaticGet_cancelHandler()
 		{
-			return (::System::Console_WindowsConsole_WindowsCancelHandler**)UnitySDK::FromName("System", "WindowsConsole")->GetStaticField(0x10BD0);
+			return (::System::Console_WindowsConsole_WindowsCancelHandler**)UnitySDK::FromName("System", "WindowsConsole")->GetStaticField(0xF0B0);
 		}
 
 		static ::System::Boolean* StaticGet_ctrlHandlerAdded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System", "WindowsConsole")->GetStaticField(0x38A0);
+			return (::System::Boolean*)UnitySDK::FromName("System", "WindowsConsole")->GetStaticField(0x3180);
 		}
 
 		static ::System::Void _cctor()

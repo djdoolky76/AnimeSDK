@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS { class XboxStatisticsParamExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF31290)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF31280)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B7E30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELSTATISTICSPARAMS_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0B7E20)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelStatisticsParams_TypeDefinitionIndex = 8631;
+	inline static constexpr unsigned int HoYoChannelStatisticsParams_TypeDefinitionIndex = 8640;
 
 	class HoYoChannelStatisticsParams : public ::MiHoYo::SDK::PC::OS::HoYoChannelAsyncParams
 	{

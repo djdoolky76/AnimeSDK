@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FBEOIDJHJMG.h"
+class BBPBANMMLMF;
+class EAGPPDDBBIM;
+class FKFGNAHIOPO;
+class HLJNBBHKKMI;
+class LPHINGPIEAJ;
+class NEFGBOPDKEH;
+
+#define HIJEJPGGPJO_BEACDEEOHOO_OFFSET UNITYSDK_OFFSET(0x16C3A450)
+#define HIJEJPGGPJO_CTOR_OFFSET UNITYSDK_OFFSET(0x16C3A360)
+#define HIJEJPGGPJO_NFKMMJMFANC_OFFSET UNITYSDK_OFFSET(0x16C3A4D0)
+
+inline static constexpr unsigned int HIJEJPGGPJO_TypeDefinitionIndex = 80069;
+
+	class HIJEJPGGPJO : public ::FBEOIDJHJMG
+	{
+	public:
+		::HLJNBBHKKMI* PDENFEFCAGN; // 0x50
+		::System::Void _ctor(::HLJNBBHKKMI* a1, ::LPHINGPIEAJ* a2, ::LPHINGPIEAJ* a3, ::System::Int32 a4, ::BBPBANMMLMF* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::HLJNBBHKKMI*, ::LPHINGPIEAJ*, ::LPHINGPIEAJ*, ::System::Int32, ::BBPBANMMLMF*))((::PBYTE)hIl2Cpp + HIJEJPGGPJO_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::NEFGBOPDKEH* BEACDEEOHOO(::EAGPPDDBBIM* a1)
+		{
+			return ((::NEFGBOPDKEH*(*)(::PVOID, ::EAGPPDDBBIM*))((::PBYTE)hIl2Cpp + HIJEJPGGPJO_BEACDEEOHOO_OFFSET))(this, a1);
+		}
+
+		::FKFGNAHIOPO* NFKMMJMFANC()
+		{
+			return ((::FKFGNAHIOPO*(*)(::PVOID))((::PBYTE)hIl2Cpp + HIJEJPGGPJO_NFKMMJMFANC_OFFSET))(this);
+		}
+
+	};

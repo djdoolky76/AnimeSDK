@@ -4,18 +4,18 @@
 class HCKADDLIGEB;
 namespace System { class Object; }
 
-#define HCKADDLIGEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E541FF0)
-#define HCKADDLIGEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E542030)
-#define HCKADDLIGEB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E542040)
+#define HCKADDLIGEB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F839210)
+#define HCKADDLIGEB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F839250)
+#define HCKADDLIGEB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F839260)
 
-inline static constexpr unsigned int HCKADDLIGEB___c_TypeDefinitionIndex = 25252;
+inline static constexpr unsigned int HCKADDLIGEB___c_TypeDefinitionIndex = 25730;
 
 	class HCKADDLIGEB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25C30);
 		}
 
 		static ::System::Void _cctor()

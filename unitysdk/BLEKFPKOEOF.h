@@ -6,23 +6,23 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BLEKFPKOEOF_BCHEMANKAFP_OFFSET UNITYSDK_OFFSET(0x1EBF51E0)
-#define BLEKFPKOEOF_BFGJIANIBJB_OFFSET UNITYSDK_OFFSET(0x1EBF56A0)
-#define BLEKFPKOEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF4A30)
-#define BLEKFPKOEOF_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1EBF5060)
-#define BLEKFPKOEOF_KHFHNDEBGDH_OFFSET UNITYSDK_OFFSET(0x1EBF5820)
-#define BLEKFPKOEOF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1EBF4F20)
-#define BLEKFPKOEOF_LJJBPKAMKHA_OFFSET UNITYSDK_OFFSET(0x1EBF51D0)
+#define BLEKFPKOEOF_BCHEMANKAFP_OFFSET UNITYSDK_OFFSET(0x1FEA5DB0)
+#define BLEKFPKOEOF_BFGJIANIBJB_OFFSET UNITYSDK_OFFSET(0x1FEA6270)
+#define BLEKFPKOEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEA5610)
+#define BLEKFPKOEOF_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1FEA5C30)
+#define BLEKFPKOEOF_KHFHNDEBGDH_OFFSET UNITYSDK_OFFSET(0x1FEA63F0)
+#define BLEKFPKOEOF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1FEA5AF0)
+#define BLEKFPKOEOF_LJJBPKAMKHA_OFFSET UNITYSDK_OFFSET(0x1FEA5DA0)
 
-inline static constexpr unsigned int BLEKFPKOEOF_TypeDefinitionIndex = 35271;
+inline static constexpr unsigned int BLEKFPKOEOF_TypeDefinitionIndex = 36199;
 
 	class BLEKFPKOEOF : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* HDENIHCMNHA; // 0x10
-		::BPDGNJCCOFO* GPKKOJMEDLF; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* EBCHMKHAOOJ; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::String*>* BPLDPPGMHHA; // 0x28
+		::System::Collections::Generic::HashSet_1<::System::String*>* BPLDPPGMHHA; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* EBCHMKHAOOJ; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* HDENIHCMNHA; // 0x20
+		::BPDGNJCCOFO* GPKKOJMEDLF; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BLEKFPKOEOF_CTOR_OFFSET))(this);

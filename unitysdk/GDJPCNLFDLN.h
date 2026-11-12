@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JFFOAJNHNIP.h"
 
-inline static constexpr unsigned int GDJPCNLFDLN_TypeDefinitionIndex = 43426;
+inline static constexpr unsigned int GDJPCNLFDLN_TypeDefinitionIndex = 44408;
 
 	struct alignas(4) GDJPCNLFDLN
 	{

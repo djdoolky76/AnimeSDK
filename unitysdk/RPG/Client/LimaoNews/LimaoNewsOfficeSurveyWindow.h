@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Sofa/BaseSofaWindow.h"
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xD3CCBD0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xDE050E0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsOfficeSurveyWindow_TypeDefinitionIndex = 80370;
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyWindow_TypeDefinitionIndex = 83150;
 
 	class LimaoNewsOfficeSurveyWindow : public ::Sofa::BaseSofaWindow
 	{

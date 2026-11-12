@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB4C0D0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4C100)
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C__GETGALLERYTALKS_B__6_1_OFFSET UNITYSDK_OFFSET(0xCB4C1A0)
-#define RPG_CLIENT_CHIMERAGALLERYINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0xCB4C110)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD4AFD60)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD4AFD90)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C__GETGALLERYTALKS_B__6_1_OFFSET UNITYSDK_OFFSET(0xD4AFE30)
+#define RPG_CLIENT_CHIMERAGALLERYINFO___C__INIT_B__5_0_OFFSET UNITYSDK_OFFSET(0xD4AFDA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryInfo___c_TypeDefinitionIndex = 63426;
+	inline static constexpr unsigned int ChimeraGalleryInfo___c_TypeDefinitionIndex = 64864;
 
 	class ChimeraGalleryInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13310);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13318);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x129E0);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>** StaticGet___9__5_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ChimeraGalleryActData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x129E8);
 		}
 
 		static ::System::Func_2<::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Single>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13320);
+			return (::System::Func_2<::RPG::Client::ChimeraGalleryGroupedTalkData*, ::System::Single>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x129F0);
 		}
 
 		static ::System::Void _cctor()

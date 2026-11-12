@@ -5,9 +5,9 @@ class LOJIKMHLCBL;
 class OINNEGOFKAA;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define MDGDMLDPNDG_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xB8A37A0)
+#define MDGDMLDPNDG_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xC1535D0)
 
-inline static constexpr unsigned int MDGDMLDPNDG_TypeDefinitionIndex = 63134;
+inline static constexpr unsigned int MDGDMLDPNDG_TypeDefinitionIndex = 64572;
 
 	class MDGDMLDPNDG : public ::System::Object
 	{

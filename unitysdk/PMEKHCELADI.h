@@ -10,21 +10,21 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PMEKHCELADI_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xC318E40)
-#define PMEKHCELADI_CTOR_OFFSET UNITYSDK_OFFSET(0xC3192D0)
-#define PMEKHCELADI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC3187A0)
-#define PMEKHCELADI_KOIMBAMCMJC_OFFSET UNITYSDK_OFFSET(0xC318170)
-#define PMEKHCELADI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC3181B0)
-#define PMEKHCELADI_MKJOFNBDCKH_OFFSET UNITYSDK_OFFSET(0xC318AD0)
+#define PMEKHCELADI_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0xCC47C70)
+#define PMEKHCELADI_CTOR_OFFSET UNITYSDK_OFFSET(0xCC48100)
+#define PMEKHCELADI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xCC475D0)
+#define PMEKHCELADI_KOIMBAMCMJC_OFFSET UNITYSDK_OFFSET(0xCC46FA0)
+#define PMEKHCELADI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCC46FE0)
+#define PMEKHCELADI_MKJOFNBDCKH_OFFSET UNITYSDK_OFFSET(0xCC47900)
 
-inline static constexpr unsigned int PMEKHCELADI_TypeDefinitionIndex = 61405;
+inline static constexpr unsigned int PMEKHCELADI_TypeDefinitionIndex = 62790;
 
 	class PMEKHCELADI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ScheduleTask*>* BMMCEEADIAJ; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityBenefitV2Round*>* JBMFDPFFBGC; // 0x10
 		::System::Collections::Generic::List_1<::System::UInt32>* JJACEJGDPAK; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityBenefitV2Round*>* JBMFDPFFBGC; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ScheduleTask*>* BMMCEEADIAJ; // 0x20
 		::System::UInt32 NFLNCFNGOAD; // 0x28
 		::System::Void _ctor()
 		{

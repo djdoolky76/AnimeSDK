@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LMKNLEIGIPA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D116F20)
-#define LMKNLEIGIPA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1174F0)
-#define LMKNLEIGIPA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D117090)
-#define LMKNLEIGIPA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D116990)
-#define LMKNLEIGIPA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D116C20)
-#define LMKNLEIGIPA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D117130)
-#define LMKNLEIGIPA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D117180)
-#define LMKNLEIGIPA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D116F60)
-#define LMKNLEIGIPA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D116BC0)
-#define LMKNLEIGIPA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D116D90)
-#define LMKNLEIGIPA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D116FF0)
-#define LMKNLEIGIPA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D116910)
+#define LMKNLEIGIPA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E313710)
+#define LMKNLEIGIPA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E313CE0)
+#define LMKNLEIGIPA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E313880)
+#define LMKNLEIGIPA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E313180)
+#define LMKNLEIGIPA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E313410)
+#define LMKNLEIGIPA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E313920)
+#define LMKNLEIGIPA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E313970)
+#define LMKNLEIGIPA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E313750)
+#define LMKNLEIGIPA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E3133B0)
+#define LMKNLEIGIPA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E313580)
+#define LMKNLEIGIPA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E3137E0)
+#define LMKNLEIGIPA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E313100)
 
-inline static constexpr unsigned int LMKNLEIGIPA_TypeDefinitionIndex = 11858;
+inline static constexpr unsigned int LMKNLEIGIPA_TypeDefinitionIndex = 11915;
 
 	class LMKNLEIGIPA : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x44B90);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x44B98);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x361F0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleSealTalkConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleSealTalkConfigRow*>**)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x44BA0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::MarbleSealTalkConfigRow*>**)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x361F8);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x36200);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x10580);
+			return (::System::Byte*)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0xB8E0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0x10581);
+			return (::System::Boolean*)UnitySDK::FromName("", "LMKNLEIGIPA")->GetStaticField(0xB8E1);
 		}
 
 		static ::System::Void _cctor()

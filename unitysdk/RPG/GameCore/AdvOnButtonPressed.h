@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvOnButtonPressed; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVONBUTTONPRESSED_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A9500)
-#define RPG_GAMECORE_ADVONBUTTONPRESSED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A9510)
-#define RPG_GAMECORE_ADVONBUTTONPRESSED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A94D0)
+#define RPG_GAMECORE_ADVONBUTTONPRESSED_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B8AB0)
+#define RPG_GAMECORE_ADVONBUTTONPRESSED_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B8AC0)
+#define RPG_GAMECORE_ADVONBUTTONPRESSED_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B8A80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvOnButtonPressed_TypeDefinitionIndex = 20539;
+	inline static constexpr unsigned int AdvOnButtonPressed_TypeDefinitionIndex = 20875;
 
 	class AdvOnButtonPressed : public ::RPG::GameCore::TaskConfig
 	{

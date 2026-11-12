@@ -5,20 +5,20 @@ namespace RPG::GameCore { class CharacterLeaveStage; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFMLJINGLFM_CDNOABAIEHJ_OFFSET UNITYSDK_OFFSET(0x15F25390)
-#define IFMLJINGLFM_CTOR_OFFSET UNITYSDK_OFFSET(0x15F24A90)
-#define IFMLJINGLFM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F24AA0)
-#define IFMLJINGLFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F24AE0)
-#define IFMLJINGLFM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15F25400)
-#define IFMLJINGLFM_TICK_OFFSET UNITYSDK_OFFSET(0x15F25450)
+#define IFMLJINGLFM_CDNOABAIEHJ_OFFSET UNITYSDK_OFFSET(0x16E947F0)
+#define IFMLJINGLFM_CTOR_OFFSET UNITYSDK_OFFSET(0x16E93EF0)
+#define IFMLJINGLFM_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E93F00)
+#define IFMLJINGLFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E93F40)
+#define IFMLJINGLFM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16E94860)
+#define IFMLJINGLFM_TICK_OFFSET UNITYSDK_OFFSET(0x16E948B0)
 
-inline static constexpr unsigned int IFMLJINGLFM_TypeDefinitionIndex = 54938;
+inline static constexpr unsigned int IFMLJINGLFM_TypeDefinitionIndex = 56110;
 
 	class IFMLJINGLFM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CharacterLeaveStage* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CharacterLeaveStage* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterLeaveStage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterLeaveStage*))((::PBYTE)hIl2Cpp + IFMLJINGLFM_CTOR_OFFSET))(this, a1, a2);

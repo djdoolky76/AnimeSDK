@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByAdsorption; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DIODOJKGDFH_CTOR_OFFSET UNITYSDK_OFFSET(0xF224F20)
-#define DIODOJKGDFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF225000)
+#define DIODOJKGDFH_CTOR_OFFSET UNITYSDK_OFFSET(0xF98B170)
+#define DIODOJKGDFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF98B250)
 
-inline static constexpr unsigned int DIODOJKGDFH_TypeDefinitionIndex = 55405;
+inline static constexpr unsigned int DIODOJKGDFH_TypeDefinitionIndex = 56590;
 
 	class DIODOJKGDFH
 	{

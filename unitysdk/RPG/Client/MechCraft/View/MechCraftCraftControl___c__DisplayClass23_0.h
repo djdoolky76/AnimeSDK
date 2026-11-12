@@ -5,12 +5,12 @@ class HAMCAOCNLGB;
 namespace RPG::Client::MechCraft::View { class MechCraftCraftControl; }
 namespace System { class String; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCONTROL___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6100C0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCONTROL___C__DISPLAYCLASS23_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD610D80)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCONTROL___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE062F60)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCONTROL___C__DISPLAYCLASS23_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xE063A30)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftControl___c__DisplayClass23_0_TypeDefinitionIndex = 79905;
+	inline static constexpr unsigned int MechCraftCraftControl___c__DisplayClass23_0_TypeDefinitionIndex = 82682;
 
 	class MechCraftCraftControl___c__DisplayClass23_0 : public ::System::Object
 	{

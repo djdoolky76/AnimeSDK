@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-class KGFNADPCPCE;
+class CJALJOFPNEB;
 
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1A15B0)
-#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS31_0__ISIGNOREPOPULATION_B__0_OFFSET UNITYSDK_OFFSET(0xD1A1E60)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDBE39B0)
+#define RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS31_0__GETROLEPOPULATION_B__0_OFFSET UNITYSDK_OFFSET(0xDBE4640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass31_0_TypeDefinitionIndex = 65050;
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass31_0_TypeDefinitionIndex = 66676;
 
 	class GridFightModifierInfo___c__DisplayClass31_0 : public ::System::Object
 	{
@@ -19,9 +19,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS31_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _IsIgnorePopulation_b__0(::KGFNADPCPCE* a1)
+		::System::Boolean _GetRolePopulation_b__0(::CJALJOFPNEB* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::KGFNADPCPCE*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS31_0__ISIGNOREPOPULATION_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::CJALJOFPNEB*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTMODIFIERINFO___C__DISPLAYCLASS31_0__GETROLEPOPULATION_B__0_OFFSET))(this, a1);
 		}
 
 	};

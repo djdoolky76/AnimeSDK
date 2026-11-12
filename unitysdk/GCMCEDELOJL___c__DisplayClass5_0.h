@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightRole; }
 
-#define GCMCEDELOJL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15983E70)
-#define GCMCEDELOJL___C__DISPLAYCLASS5_0__GETROLEBYID_B__0_OFFSET UNITYSDK_OFFSET(0x15984260)
+#define GCMCEDELOJL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x168BA590)
+#define GCMCEDELOJL___C__DISPLAYCLASS5_0__GETROLEBYID_B__0_OFFSET UNITYSDK_OFFSET(0x168BA980)
 
-inline static constexpr unsigned int GCMCEDELOJL___c__DisplayClass5_0_TypeDefinitionIndex = 65320;
+inline static constexpr unsigned int GCMCEDELOJL___c__DisplayClass5_0_TypeDefinitionIndex = 67089;
 
 	class GCMCEDELOJL___c__DisplayClass5_0 : public ::System::Object
 	{

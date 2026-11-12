@@ -10,31 +10,31 @@ namespace RPG::GameCore { class MarbleMatchTitleRow; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MARBLEBATTLERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0xD571C00)
-#define RPG_CLIENT_MARBLEBATTLERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xD572670)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0xD572B20)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_GAMEMODE_OFFSET UNITYSDK_OFFSET(0xD572A80)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0xD572AE0)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0xD572B00)
-#define RPG_CLIENT_MARBLEBATTLERESULT_GET_MATCHCONTEXT_OFFSET UNITYSDK_OFFSET(0xD572B40)
-#define RPG_CLIENT_MARBLEBATTLERESULT_SET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0xD572B30)
-#define RPG_CLIENT_MARBLEBATTLERESULT_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0xD572AF0)
-#define RPG_CLIENT_MARBLEBATTLERESULT_SET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0xD572B10)
-#define RPG_CLIENT_MARBLEBATTLERESULT__REFRESHRANKRESULTINFO_OFFSET UNITYSDK_OFFSET(0xD572850)
+#define RPG_CLIENT_MARBLEBATTLERESULT_CREATE_OFFSET UNITYSDK_OFFSET(0xDFC34D0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC3F40)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0xDFC43F0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_GAMEMODE_OFFSET UNITYSDK_OFFSET(0xDFC4350)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0xDFC43B0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0xDFC43D0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_GET_MATCHCONTEXT_OFFSET UNITYSDK_OFFSET(0xDFC4410)
+#define RPG_CLIENT_MARBLEBATTLERESULT_SET_CURRANKINFO_OFFSET UNITYSDK_OFFSET(0xDFC4400)
+#define RPG_CLIENT_MARBLEBATTLERESULT_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0xDFC43C0)
+#define RPG_CLIENT_MARBLEBATTLERESULT_SET_LASTRANKINFO_OFFSET UNITYSDK_OFFSET(0xDFC43E0)
+#define RPG_CLIENT_MARBLEBATTLERESULT__REFRESHRANKRESULTINFO_OFFSET UNITYSDK_OFFSET(0xDFC4120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleResult_TypeDefinitionIndex = 65813;
+	inline static constexpr unsigned int MarbleBattleResult_TypeDefinitionIndex = 67745;
 
 	class MarbleBattleResult : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::MarbleMatchTitleRow*>* Titles; // 0x10
-		::System::Collections::Generic::List_1<::System::Int32>* TitleParams; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::MarbleBall*>* Balls; // 0x20
-		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _LastRankInfo_k__BackingField; // 0x28
-		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _CurRankInfo_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* SubSealIDs; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* TitleParams; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::MarbleMatchTitleRow*>* Titles; // 0x18
+		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _CurRankInfo_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::MarbleBall*>* Balls; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* SubSealIDs; // 0x30
+		::RPG::Client::ActivityMarble::MarblePVPRankInfo* _LastRankInfo_k__BackingField; // 0x38
 		::System::Boolean _IsWin_k__BackingField; // 0x40
 		::System::Void _ctor()
 		{

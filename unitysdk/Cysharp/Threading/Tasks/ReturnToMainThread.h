@@ -5,11 +5,11 @@
 #include "unitysdk/Cysharp/Threading/Tasks/ReturnToMainThread_Awaiter.h"
 
 #define CYSHARP_THREADING_TASKS_RETURNTOMAINTHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0xE590)
-#define CYSHARP_THREADING_TASKS_RETURNTOMAINTHREAD_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3C5E890)
+#define CYSHARP_THREADING_TASKS_RETURNTOMAINTHREAD_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3EADC10)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ReturnToMainThread_TypeDefinitionIndex = 38365;
+	inline static constexpr unsigned int ReturnToMainThread_TypeDefinitionIndex = 39294;
 
 	struct alignas(4) ReturnToMainThread
 	{

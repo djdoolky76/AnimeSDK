@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE367C20)
-#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0___WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0xE368460)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEDD54B0)
+#define RPG_CLIENT_UI3DTRANSITION___C__DISPLAYCLASS6_0___WAITFOR_B__0_OFFSET UNITYSDK_OFFSET(0xEDD5D00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DTransition___c__DisplayClass6_0_TypeDefinitionIndex = 73013;
+	inline static constexpr unsigned int UI3DTransition___c__DisplayClass6_0_TypeDefinitionIndex = 75125;
 
 	class UI3DTransition___c__DisplayClass6_0 : public ::System::Object
 	{

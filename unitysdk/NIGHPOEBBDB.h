@@ -5,11 +5,11 @@
 namespace RPG::Client { class RogueTournPersonaRoomCompositionTypeData; }
 namespace System { class Object; }
 
-#define NIGHPOEBBDB_CTOR_OFFSET UNITYSDK_OFFSET(0xBBEABB0)
-#define NIGHPOEBBDB_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xBBEABC0)
-#define NIGHPOEBBDB_PIDDJCJPLDL_OFFSET UNITYSDK_OFFSET(0xBBEAC50)
+#define NIGHPOEBBDB_CTOR_OFFSET UNITYSDK_OFFSET(0xC4CD490)
+#define NIGHPOEBBDB_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xC4CD4A0)
+#define NIGHPOEBBDB_PIDDJCJPLDL_OFFSET UNITYSDK_OFFSET(0xC4CD530)
 
-inline static constexpr unsigned int NIGHPOEBBDB_TypeDefinitionIndex = 67255;
+inline static constexpr unsigned int NIGHPOEBBDB_TypeDefinitionIndex = 69199;
 
 	class NIGHPOEBBDB : public ::System::Object
 	{

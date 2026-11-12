@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StopCurrentLittleGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HABHCKJMLIF_CTOR_OFFSET UNITYSDK_OFFSET(0x15B70A80)
-#define HABHCKJMLIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B70AB0)
+#define HABHCKJMLIF_CTOR_OFFSET UNITYSDK_OFFSET(0x16AF7130)
+#define HABHCKJMLIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AF7160)
 
-inline static constexpr unsigned int HABHCKJMLIF_TypeDefinitionIndex = 52979;
+inline static constexpr unsigned int HABHCKJMLIF_TypeDefinitionIndex = 54138;
 
 	class HABHCKJMLIF
 	{

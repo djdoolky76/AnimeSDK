@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class EnterMap; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IJNLPGNLDIB_CTOR_OFFSET UNITYSDK_OFFSET(0x16471C60)
-#define IJNLPGNLDIB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16471C70)
-#define IJNLPGNLDIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16471CB0)
-#define IJNLPGNLDIB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16471F40)
-#define IJNLPGNLDIB_TICK_OFFSET UNITYSDK_OFFSET(0x16471F90)
+#define IJNLPGNLDIB_CTOR_OFFSET UNITYSDK_OFFSET(0x17444610)
+#define IJNLPGNLDIB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17444620)
+#define IJNLPGNLDIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17444660)
+#define IJNLPGNLDIB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x174448F0)
+#define IJNLPGNLDIB_TICK_OFFSET UNITYSDK_OFFSET(0x17444940)
 
-inline static constexpr unsigned int IJNLPGNLDIB_TypeDefinitionIndex = 52754;
+inline static constexpr unsigned int IJNLPGNLDIB_TypeDefinitionIndex = 53898;
 
 	class IJNLPGNLDIB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::EnterMap* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::EnterMap* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnterMap* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EnterMap*))((::PBYTE)hIl2Cpp + IJNLPGNLDIB_CTOR_OFFSET))(this, a1, a2);

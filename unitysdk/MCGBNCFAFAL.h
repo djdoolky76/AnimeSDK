@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PDPIHJEBAEC;
 
-#define MCGBNCFAFAL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C924C30)
-#define MCGBNCFAFAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924C90)
+#define MCGBNCFAFAL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAE6150)
+#define MCGBNCFAFAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE61B0)
 
-inline static constexpr unsigned int MCGBNCFAFAL_TypeDefinitionIndex = 43372;
+inline static constexpr unsigned int MCGBNCFAFAL_TypeDefinitionIndex = 44353;
 
 	class MCGBNCFAFAL : public ::System::Object
 	{

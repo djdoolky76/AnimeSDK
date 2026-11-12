@@ -6,12 +6,12 @@ namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace Sofa::Core { class SimpleCommand; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xCB14B10)
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB14BA0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL_CREATE_OFFSET UNITYSDK_OFFSET(0xD478560)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD4785F0)
 
 namespace RPG::Client::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelBattleViewModel_TypeDefinitionIndex = 81253;
+	inline static constexpr unsigned int ChimeraDuelBattleViewModel_TypeDefinitionIndex = 84033;
 
 	class ChimeraDuelBattleViewModel : public ::Sofa::Core::ObservableObject
 	{

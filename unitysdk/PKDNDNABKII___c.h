@@ -4,18 +4,18 @@
 class PKDNDNABKII;
 namespace System { class Object; }
 
-#define PKDNDNABKII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF88BA0)
-#define PKDNDNABKII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF88BE0)
-#define PKDNDNABKII___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DF88BF0)
+#define PKDNDNABKII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F23A2E0)
+#define PKDNDNABKII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F23A320)
+#define PKDNDNABKII___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F23A330)
 
-inline static constexpr unsigned int PKDNDNABKII___c_TypeDefinitionIndex = 25532;
+inline static constexpr unsigned int PKDNDNABKII___c_TypeDefinitionIndex = 26025;
 
 	class PKDNDNABKII___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BFB0);
 		}
 
 		static ::System::Void _cctor()

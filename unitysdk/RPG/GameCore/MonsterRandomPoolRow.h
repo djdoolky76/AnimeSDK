@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterRandomPoolRow; }
 
-#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B7230)
-#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B7090)
+#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD0FD0)
+#define RPG_GAMECORE_MONSTERRANDOMPOOLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD0E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterRandomPoolRow_TypeDefinitionIndex = 14195;
+	inline static constexpr unsigned int MonsterRandomPoolRow_TypeDefinitionIndex = 14352;
 
 	class MonsterRandomPoolRow : public ::System::Object
 	{

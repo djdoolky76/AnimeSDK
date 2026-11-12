@@ -10,27 +10,27 @@ namespace System::IO { class MemoryStream; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class AutoResetEvent; }
 
-#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC7DD00)
-#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1CC7E050)
-#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1CC7E190)
-#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1CC7DFF0)
-#define RPG_CUSTOMRP_WRITEMESSAGETHREAD__ONIDLE_OFFSET UNITYSDK_OFFSET(0x1CC7E1A0)
-#define RPG_CUSTOMRP_WRITEMESSAGETHREAD__ONWRITING_OFFSET UNITYSDK_OFFSET(0x1CC7E340)
+#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE24F10)
+#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_ENQUEUEMESSAGE_OFFSET UNITYSDK_OFFSET(0x1DE251F0)
+#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1DE25330)
+#define RPG_CUSTOMRP_WRITEMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1DE25190)
+#define RPG_CUSTOMRP_WRITEMESSAGETHREAD__ONIDLE_OFFSET UNITYSDK_OFFSET(0x1DE25340)
+#define RPG_CUSTOMRP_WRITEMESSAGETHREAD__ONWRITING_OFFSET UNITYSDK_OFFSET(0x1DE254E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int WriteMessageThread_TypeDefinitionIndex = 37907;
+	inline static constexpr unsigned int WriteMessageThread_TypeDefinitionIndex = 38836;
 
 	class WriteMessageThread : public ::RPG::CustomRP::IOThread
 	{
 	public:
-		::RPG::CustomRP::IRPMessage* _currentMessage; // 0x40
-		::System::Threading::AutoResetEvent* _event; // 0x48
-		::System::IO::MemoryStream* _writeMS; // 0x50
-		::Il2CppArray<::System::Byte>* _bufferTmp; // 0x58
-		::System::IO::BinaryWriter* _bw; // 0x60
-		::System::IO::BinaryWriter* _writer; // 0x68
-		::System::Collections::Generic::Queue_1<::RPG::CustomRP::IRPMessage*>* _messageQueue; // 0x70
+		::System::Threading::AutoResetEvent* _event; // 0x40
+		::Il2CppArray<::System::Byte>* _bufferTmp; // 0x48
+		::RPG::CustomRP::IRPMessage* _currentMessage; // 0x50
+		::System::Collections::Generic::Queue_1<::RPG::CustomRP::IRPMessage*>* _messageQueue; // 0x58
+		::System::IO::MemoryStream* _writeMS; // 0x60
+		::System::IO::BinaryWriter* _bw; // 0x68
+		::System::IO::BinaryWriter* _writer; // 0x70
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::String* a2, ::RPG::CustomRP::IMsgFactory* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::String*, ::RPG::CustomRP::IMsgFactory*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_WRITEMESSAGETHREAD_CTOR_OFFSET))(this, a1, a2, a3);

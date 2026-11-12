@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DICEONDKEFF_TypeDefinitionIndex = 32815;
+inline static constexpr unsigned int DICEONDKEFF_TypeDefinitionIndex = 33730;
 
 	enum class DICEONDKEFF : ::System::Int32
 	{

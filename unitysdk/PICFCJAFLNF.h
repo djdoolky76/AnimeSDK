@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PICFCJAFLNF_TypeDefinitionIndex = 74732;
+inline static constexpr unsigned int PICFCJAFLNF_TypeDefinitionIndex = 76880;
 
 	class PICFCJAFLNF
 	{

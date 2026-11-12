@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class QteCatchGhostRewind; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95EAD0)
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95EAE0)
-#define RPG_GAMECORE_QTECATCHGHOSTREWIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95EAA0)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB76E70)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB76E80)
+#define RPG_GAMECORE_QTECATCHGHOSTREWIND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB76E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int QteCatchGhostRewind_TypeDefinitionIndex = 22046;
+	inline static constexpr unsigned int QteCatchGhostRewind_TypeDefinitionIndex = 22451;
 
 	class QteCatchGhostRewind : public ::RPG::GameCore::TaskConfig
 	{

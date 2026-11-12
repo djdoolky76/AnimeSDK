@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ChenLingFesRegionCellConfig; }
 namespace RPG::GameCore { class ChenLingFesRegionConfig; }
 namespace RPG::GameCore { class ChenLingFesRegionItemConfig; }
 
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D590650)
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D590660)
-#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D590600)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A0930)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A0940)
+#define RPG_GAMECORE_CHENLINGFESREGIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7A08E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingFesRegionConfig_TypeDefinitionIndex = 18444;
+	inline static constexpr unsigned int ChenLingFesRegionConfig_TypeDefinitionIndex = 18604;
 
 	class ChenLingFesRegionConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

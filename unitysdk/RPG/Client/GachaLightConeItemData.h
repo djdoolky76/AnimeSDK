@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/GachaItemData.h"
-namespace RPG::GameCore { class EquipmentRow; }
+namespace RPG::Client { class EquipmentData; }
 
-#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0938F0)
-#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_GET_EQUIPMENTROW_OFFSET UNITYSDK_OFFSET(0xD093A00)
-#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_SETROW_OFFSET UNITYSDK_OFFSET(0xD093900)
-#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_SET_EQUIPMENTROW_OFFSET UNITYSDK_OFFSET(0xD093A10)
+#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA1C000)
+#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_GET_EQUIPMENTDATA_OFFSET UNITYSDK_OFFSET(0xDA1C110)
+#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_SETROW_OFFSET UNITYSDK_OFFSET(0xDA1C010)
+#define RPG_CLIENT_GACHALIGHTCONEITEMDATA_SET_EQUIPMENTDATA_OFFSET UNITYSDK_OFFSET(0xDA1C120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaLightConeItemData_TypeDefinitionIndex = 64300;
+	inline static constexpr unsigned int GachaLightConeItemData_TypeDefinitionIndex = 65745;
 
 	class GachaLightConeItemData : public ::RPG::Client::GachaItemData
 	{
 	public:
-		::RPG::GameCore::EquipmentRow* _EquipmentRow_k__BackingField; // 0x30
+		::RPG::Client::EquipmentData* _EquipmentData_k__BackingField; // 0x30
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHALIGHTCONEITEMDATA_CTOR_OFFSET))(this, a1);
@@ -26,14 +26,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHALIGHTCONEITEMDATA_SETROW_OFFSET))(this, a1);
 		}
 
-		::RPG::GameCore::EquipmentRow* get_EquipmentRow()
+		::RPG::Client::EquipmentData* get_EquipmentData()
 		{
-			return ((::RPG::GameCore::EquipmentRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHALIGHTCONEITEMDATA_GET_EQUIPMENTROW_OFFSET))(this);
+			return ((::RPG::Client::EquipmentData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHALIGHTCONEITEMDATA_GET_EQUIPMENTDATA_OFFSET))(this);
 		}
 
-		::System::Void set_EquipmentRow(::RPG::GameCore::EquipmentRow* a1)
+		::System::Void set_EquipmentData(::RPG::Client::EquipmentData* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::EquipmentRow*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHALIGHTCONEITEMDATA_SET_EQUIPMENTROW_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::EquipmentData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GACHALIGHTCONEITEMDATA_SET_EQUIPMENTDATA_OFFSET))(this, a1);
 		}
 
 	};

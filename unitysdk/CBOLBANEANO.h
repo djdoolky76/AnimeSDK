@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CBOLBANEANO_TypeDefinitionIndex = 25196;
+inline static constexpr unsigned int CBOLBANEANO_TypeDefinitionIndex = 25674;
 
 	enum class CBOLBANEANO : ::System::Int32
 	{

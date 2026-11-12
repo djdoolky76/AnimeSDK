@@ -4,18 +4,18 @@
 class JOIAADCLOGF;
 namespace System { class Object; }
 
-#define JOIAADCLOGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7A3C30)
-#define JOIAADCLOGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A3C60)
-#define JOIAADCLOGF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7A3C70)
+#define JOIAADCLOGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAD3F40)
+#define JOIAADCLOGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAD3F70)
+#define JOIAADCLOGF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FAD3F80)
 
-inline static constexpr unsigned int JOIAADCLOGF___c_TypeDefinitionIndex = 26533;
+inline static constexpr unsigned int JOIAADCLOGF___c_TypeDefinitionIndex = 27064;
 
 	class JOIAADCLOGF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D090);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58290);
 		}
 
 		static ::System::Void _cctor()

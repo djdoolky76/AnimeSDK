@@ -5,25 +5,25 @@ namespace RPG::Client { class TitanAtlasInfo; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_TITANATLASGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2AE820)
-#define RPG_CLIENT_TITANATLASGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2AE860)
-#define RPG_CLIENT_TITANATLASGROUP___C__GETALLBASEINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0xE2AE870)
+#define RPG_CLIENT_TITANATLASGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xED18E40)
+#define RPG_CLIENT_TITANATLASGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xED18E80)
+#define RPG_CLIENT_TITANATLASGROUP___C__GETALLBASEINFOS_B__2_0_OFFSET UNITYSDK_OFFSET(0xED18E90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TitanAtlasGroup___c_TypeDefinitionIndex = 68142;
+	inline static constexpr unsigned int TitanAtlasGroup___c_TypeDefinitionIndex = 70088;
 
 	class TitanAtlasGroup___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::TitanAtlasInfo*>** StaticGet___9__2_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::TitanAtlasInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1D240);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1D248);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x29230);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::TitanAtlasInfo*>** StaticGet___9__2_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::TitanAtlasInfo*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x29238);
 		}
 
 		static ::System::Void _cctor()

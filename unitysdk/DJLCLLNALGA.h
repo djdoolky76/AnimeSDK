@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class BJIACBNKCCJ;
 
-#define DJLCLLNALGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2ABF0)
+#define DJLCLLNALGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBEE420)
 
-inline static constexpr unsigned int DJLCLLNALGA_TypeDefinitionIndex = 42929;
+inline static constexpr unsigned int DJLCLLNALGA_TypeDefinitionIndex = 43910;
 
 	class DJLCLLNALGA : public ::System::Object
 	{

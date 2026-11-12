@@ -4,14 +4,14 @@
 class PHKFMKDHNBO;
 namespace System { template <typename T> class Comparison_1; }
 
-inline static constexpr unsigned int OEENEGJBMCO___O_TypeDefinitionIndex = 56052;
+inline static constexpr unsigned int OEENEGJBMCO___O_TypeDefinitionIndex = 57264;
 
 	class OEENEGJBMCO___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::PHKFMKDHNBO*>** StaticGet__0___CompareElationSkill()
 		{
-			return (::System::Comparison_1<::PHKFMKDHNBO*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x644F0);
+			return (::System::Comparison_1<::PHKFMKDHNBO*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x68310);
 		}
 
 	};

@@ -4,10 +4,10 @@
 #include "unitysdk/AHHNGJGLOKA.h"
 class IDELJGCBBGK;
 
-#define OBBHHEFPEHP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBD36EE0)
-#define OBBHHEFPEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD36F50)
+#define OBBHHEFPEHP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC63A7D0)
+#define OBBHHEFPEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xC63A840)
 
-inline static constexpr unsigned int OBBHHEFPEHP_TypeDefinitionIndex = 62617;
+inline static constexpr unsigned int OBBHHEFPEHP_TypeDefinitionIndex = 64041;
 
 	class OBBHHEFPEHP : public ::System::Object
 	{

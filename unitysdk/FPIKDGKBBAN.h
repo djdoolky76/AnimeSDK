@@ -5,21 +5,21 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FPIKDGKBBAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1591AA20)
-#define FPIKDGKBBAN_DFILDMGKFAD_OFFSET UNITYSDK_OFFSET(0x15919EC0)
-#define FPIKDGKBBAN_ENNCCPIDPGI_OFFSET UNITYSDK_OFFSET(0x1591A590)
-#define FPIKDGKBBAN_GIBABKGHHJA_OFFSET UNITYSDK_OFFSET(0x1591A6B0)
-#define FPIKDGKBBAN_MBEGFDMEMBG_OFFSET UNITYSDK_OFFSET(0x1591A7B0)
-#define FPIKDGKBBAN_OEGANPJGOIG_OFFSET UNITYSDK_OFFSET(0x15919FC0)
+#define FPIKDGKBBAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1684C140)
+#define FPIKDGKBBAN_DFILDMGKFAD_OFFSET UNITYSDK_OFFSET(0x1684B620)
+#define FPIKDGKBBAN_ENNCCPIDPGI_OFFSET UNITYSDK_OFFSET(0x1684BCB0)
+#define FPIKDGKBBAN_GIBABKGHHJA_OFFSET UNITYSDK_OFFSET(0x1684BDD0)
+#define FPIKDGKBBAN_MBEGFDMEMBG_OFFSET UNITYSDK_OFFSET(0x1684BED0)
+#define FPIKDGKBBAN_OEGANPJGOIG_OFFSET UNITYSDK_OFFSET(0x1684B720)
 
-inline static constexpr unsigned int FPIKDGKBBAN_TypeDefinitionIndex = 66265;
+inline static constexpr unsigned int FPIKDGKBBAN_TypeDefinitionIndex = 68201;
 
 	class FPIKDGKBBAN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::MonopolyCellPeformanceType>* JOAHDLJKOMF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*>* KPAADJNLHBL; // 0x18
-		::Il2CppArray<::System::String*>* IHEKIDJHBCB; // 0x20
+		::Il2CppArray<::System::String*>* IHEKIDJHBCB; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::MonopolyCellPeformanceType>* JOAHDLJKOMF; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>*>* KPAADJNLHBL; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FPIKDGKBBAN_CTOR_OFFSET))(this);

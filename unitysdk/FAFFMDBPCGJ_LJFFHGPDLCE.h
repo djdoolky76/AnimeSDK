@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FourRotateVoxel/FourRotateVoxelGameViewCoord.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int FAFFMDBPCGJ_LJFFHGPDLCE_TypeDefinitionIndex = 76726;
+inline static constexpr unsigned int FAFFMDBPCGJ_LJFFHGPDLCE_TypeDefinitionIndex = 79059;
 
 	struct alignas(4) FAFFMDBPCGJ_LJFFHGPDLCE
 	{

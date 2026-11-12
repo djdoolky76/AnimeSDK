@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdvNpcFollowPlayer; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A6E10)
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A6E60)
-#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A6DA0)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B6540)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B6590)
+#define RPG_GAMECORE_ADVNPCFOLLOWPLAYER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B64D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFollowPlayer_TypeDefinitionIndex = 19987;
+	inline static constexpr unsigned int AdvNpcFollowPlayer_TypeDefinitionIndex = 20321;
 
 	class AdvNpcFollowPlayer : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,10 +5,10 @@ class DLLDHFAAHEP;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EGJANNFKDLK___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1451B100)
-#define EGJANNFKDLK___C__DISPLAYCLASS8_0___SETUPBUFFLIST_B__0_OFFSET UNITYSDK_OFFSET(0x1451B410)
+#define EGJANNFKDLK___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x152F1830)
+#define EGJANNFKDLK___C__DISPLAYCLASS8_0___SETUPBUFFLIST_B__0_OFFSET UNITYSDK_OFFSET(0x152F1B40)
 
-inline static constexpr unsigned int EGJANNFKDLK___c__DisplayClass8_0_TypeDefinitionIndex = 71198;
+inline static constexpr unsigned int EGJANNFKDLK___c__DisplayClass8_0_TypeDefinitionIndex = 73180;
 
 	class EGJANNFKDLK___c__DisplayClass8_0 : public ::System::Object
 	{

@@ -8,27 +8,27 @@ class EPPEFKBPGDC;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define EPPEFKBPGDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC1C30)
-#define EPPEFKBPGDC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC16C0)
+#define EPPEFKBPGDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF99370)
+#define EPPEFKBPGDC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF98E00)
 
-inline static constexpr unsigned int EPPEFKBPGDC_TypeDefinitionIndex = 11527;
+inline static constexpr unsigned int EPPEFKBPGDC_TypeDefinitionIndex = 11578;
 
 	class EPPEFKBPGDC : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* MDEBFIFOKHH; // 0x10
-		::System::String* NGAGNNIHGFE; // 0x18
-		::Il2CppArray<::System::UInt32>* BEOGEKDEPLO; // 0x20
-		::RPG::Client::TextID OKCCPDBENOJ; // 0x28
-		::System::UInt32 AMONFPEGLAF; // 0x38
-		::System::UInt32 OHFGNODANEP; // 0x3C
-		::System::UInt32 ILLBMODJJGP; // 0x40
-		::System::UInt32 GDLLGLFCEHC; // 0x44
-		::RPG::Client::TextID LEPNNKOAOJF; // 0x48
-		::RPG::GameCore::FateHouguType GMPGDEINODK; // 0x58
-		::System::UInt32 EFAIIOHKFGD; // 0x5C
-		::RPG::Client::TextID GMGEMCFDIOE; // 0x60
-		::RPG::Client::TextID CBCOAKMDBHD; // 0x70
+		::System::String* NGAGNNIHGFE; // 0x10
+		::Il2CppArray<::System::UInt32>* BEOGEKDEPLO; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* MDEBFIFOKHH; // 0x20
+		::RPG::Client::TextID LEPNNKOAOJF; // 0x28
+		::RPG::Client::TextID GMGEMCFDIOE; // 0x38
+		::RPG::Client::TextID CBCOAKMDBHD; // 0x48
+		::RPG::Client::TextID OKCCPDBENOJ; // 0x58
+		::System::UInt32 GDLLGLFCEHC; // 0x68
+		::System::UInt32 ILLBMODJJGP; // 0x6C
+		::RPG::GameCore::FateHouguType GMPGDEINODK; // 0x70
+		::System::UInt32 EFAIIOHKFGD; // 0x74
+		::System::UInt32 AMONFPEGLAF; // 0x78
+		::System::UInt32 OHFGNODANEP; // 0x7C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EPPEFKBPGDC_CTOR_OFFSET))(this);

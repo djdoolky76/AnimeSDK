@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define GAMEOBJECTTOSCREENPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x15B6A9F0)
-#define GAMEOBJECTTOSCREENPOS_START_OFFSET UNITYSDK_OFFSET(0x15B6A310)
-#define GAMEOBJECTTOSCREENPOS_UPDATE_OFFSET UNITYSDK_OFFSET(0x15B6A360)
+#define GAMEOBJECTTOSCREENPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x16AF0750)
+#define GAMEOBJECTTOSCREENPOS_START_OFFSET UNITYSDK_OFFSET(0x16AF0070)
+#define GAMEOBJECTTOSCREENPOS_UPDATE_OFFSET UNITYSDK_OFFSET(0x16AF00C0)
 
-inline static constexpr unsigned int GameObjectToScreenPos_TypeDefinitionIndex = 47276;
+inline static constexpr unsigned int GameObjectToScreenPos_TypeDefinitionIndex = 48304;
 
 	class GameObjectToScreenPos : public ::UnityEngine::MonoBehaviour
 	{

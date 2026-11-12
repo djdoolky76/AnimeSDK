@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define FGEMFBIDMPG_CTOR_OFFSET UNITYSDK_OFFSET(0x15759540)
+#define FGEMFBIDMPG_CTOR_OFFSET UNITYSDK_OFFSET(0x16679B00)
 
-inline static constexpr unsigned int FGEMFBIDMPG_TypeDefinitionIndex = 73660;
+inline static constexpr unsigned int FGEMFBIDMPG_TypeDefinitionIndex = 75783;
 
 	class FGEMFBIDMPG : public ::System::Attribute
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByCompareMP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBCOANCCHLH_CTOR_OFFSET UNITYSDK_OFFSET(0x12CECA90)
-#define EBCOANCCHLH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CECAC0)
+#define EBCOANCCHLH_CTOR_OFFSET UNITYSDK_OFFSET(0x13A9DB10)
+#define EBCOANCCHLH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A9DB40)
 
-inline static constexpr unsigned int EBCOANCCHLH_TypeDefinitionIndex = 54458;
+inline static constexpr unsigned int EBCOANCCHLH_TypeDefinitionIndex = 55622;
 
 	class EBCOANCCHLH
 	{

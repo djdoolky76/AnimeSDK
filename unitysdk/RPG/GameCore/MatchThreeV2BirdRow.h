@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MatchThreeV2BirdRow; }
 
-#define RPG_GAMECORE_MATCHTHREEV2BIRDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85BDB0)
-#define RPG_GAMECORE_MATCHTHREEV2BIRDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D85BC60)
+#define RPG_GAMECORE_MATCHTHREEV2BIRDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA76680)
+#define RPG_GAMECORE_MATCHTHREEV2BIRDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA76530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MatchThreeV2BirdRow_TypeDefinitionIndex = 11946;
+	inline static constexpr unsigned int MatchThreeV2BirdRow_TypeDefinitionIndex = 12003;
 
 	class MatchThreeV2BirdRow : public ::System::Object
 	{

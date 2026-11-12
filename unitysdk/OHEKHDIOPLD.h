@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define OHEKHDIOPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C992CB0)
+#define OHEKHDIOPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB54A20)
 
-inline static constexpr unsigned int OHEKHDIOPLD_TypeDefinitionIndex = 42819;
+inline static constexpr unsigned int OHEKHDIOPLD_TypeDefinitionIndex = 43799;
 
 	class OHEKHDIOPLD : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

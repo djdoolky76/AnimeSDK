@@ -11,7 +11,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int DKKIKDPFHFN_TypeDefinitionIndex = 50006;
+inline static constexpr unsigned int DKKIKDPFHFN_TypeDefinitionIndex = 51054;
 
 	class DKKIKDPFHFN : public ::System::Object
 	{

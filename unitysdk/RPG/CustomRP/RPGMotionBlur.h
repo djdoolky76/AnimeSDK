@@ -6,13 +6,13 @@ namespace RPG::CustomRP { class MotionBlurQualityParameter; }
 namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class IntParameter; }
 
-#define RPG_CUSTOMRP_RPGMOTIONBLUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC5B8E0)
-#define RPG_CUSTOMRP_RPGMOTIONBLUR_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1CC5B850)
-#define RPG_CUSTOMRP_RPGMOTIONBLUR_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1CC5B730)
+#define RPG_CUSTOMRP_RPGMOTIONBLUR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE02DE0)
+#define RPG_CUSTOMRP_RPGMOTIONBLUR_ISACTIVEIMPL_OFFSET UNITYSDK_OFFSET(0x1DE02D50)
+#define RPG_CUSTOMRP_RPGMOTIONBLUR_ONOVERRIDE_OFFSET UNITYSDK_OFFSET(0x1DE02C30)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGMotionBlur_TypeDefinitionIndex = 37832;
+	inline static constexpr unsigned int RPGMotionBlur_TypeDefinitionIndex = 38761;
 
 	class RPGMotionBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{
@@ -23,7 +23,7 @@ namespace RPG::CustomRP
 		::UnityEngine::Rendering::IntParameter* MotionBlurMax; // 0x50
 		static ::System::Boolean* StaticGet_IsMotionBlurEnable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RPGMotionBlur")->GetStaticField(0xAC00);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "RPGMotionBlur")->GetStaticField(0x8DF0);
 		}
 
 		// static const ::System::Object kMotionBlurTileSize; // 0x0

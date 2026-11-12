@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JGJAOBJPGDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02A570)
+#define JGJAOBJPGDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2178E0)
 
-inline static constexpr unsigned int JGJAOBJPGDO_TypeDefinitionIndex = 15463;
+inline static constexpr unsigned int JGJAOBJPGDO_TypeDefinitionIndex = 15621;
 
 	class JGJAOBJPGDO : public ::System::Object
 	{

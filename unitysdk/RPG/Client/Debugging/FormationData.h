@@ -7,11 +7,11 @@ namespace RPG::Client::Debugging { class LocationData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DEBUGGING_FORMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCBECB10)
+#define RPG_CLIENT_DEBUGGING_FORMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD560AF0)
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 82127;
+	inline static constexpr unsigned int FormationData_TypeDefinitionIndex = 85000;
 
 	class FormationData : public ::System::Object
 	{
@@ -20,9 +20,12 @@ namespace RPG::Client::Debugging
 		::System::Boolean AdjustByTargetWidth; // 0x18
 		::System::Byte _padding0[0x3];
 		::UnityEngine::Vector3 RootOffset; // 0x1C
-		::RPG::Client::Debugging::FormationDataServantMode ServantMode; // 0x28
+		::System::Single YOffsetRatioByHeight; // 0x28
 		::System::Byte _padding1[0x4];
-		::System::Collections::Generic::List_1<::RPG::Client::Debugging::LocationData*>* LocationList; // 0x30
+		::System::String* YOffsetRefAttachPoint; // 0x30
+		::RPG::Client::Debugging::FormationDataServantMode ServantMode; // 0x38
+		::System::Byte _padding2[0x4];
+		::System::Collections::Generic::List_1<::RPG::Client::Debugging::LocationData*>* LocationList; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DEBUGGING_FORMATIONDATA_CTOR_OFFSET))(this);

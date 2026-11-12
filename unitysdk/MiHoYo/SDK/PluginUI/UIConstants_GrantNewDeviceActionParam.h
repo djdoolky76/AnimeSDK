@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_GrantNewDeviceActionParam_TypeDefinitionIndex = 46840;
+	inline static constexpr unsigned int UIConstants_GrantNewDeviceActionParam_TypeDefinitionIndex = 47868;
 
 	class UIConstants_GrantNewDeviceActionParam : public ::System::Object
 	{

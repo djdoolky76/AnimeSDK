@@ -4,11 +4,11 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MATCHTHREEV2MODULE_LEVELFINISHDTO_CTOR_OFFSET UNITYSDK_OFFSET(0xD5BDA10)
+#define RPG_CLIENT_MATCHTHREEV2MODULE_LEVELFINISHDTO_CTOR_OFFSET UNITYSDK_OFFSET(0xE00FEF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2Module_LevelFinishDto_TypeDefinitionIndex = 66034;
+	inline static constexpr unsigned int MatchThreeV2Module_LevelFinishDto_TypeDefinitionIndex = 67966;
 
 	class MatchThreeV2Module_LevelFinishDto : public ::System::Object
 	{

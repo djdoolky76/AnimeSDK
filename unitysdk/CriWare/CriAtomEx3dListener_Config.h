@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx3dListener_Config_TypeDefinitionIndex = 40010;
+	inline static constexpr unsigned int CriAtomEx3dListener_Config_TypeDefinitionIndex = 40985;
 
 	struct alignas(4) CriAtomEx3dListener_Config
 	{

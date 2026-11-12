@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGSTARTSTORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE168B60)
+#define RPG_CLIENT_SWORDTRAINING_SWORDTRAININGSTARTSTORYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xEC15DE0)
 
 namespace RPG::Client::SwordTraining
 {
-	inline static constexpr unsigned int SwordTrainingStartStoryData_TypeDefinitionIndex = 75051;
+	inline static constexpr unsigned int SwordTrainingStartStoryData_TypeDefinitionIndex = 77378;
 
 	class SwordTrainingStartStoryData : public ::System::Object
 	{

@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCDiceSurfaceRarityRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C0830)
-#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9C01F0)
+#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC09F90)
+#define RPG_GAMECORE_ROGUEDLCDICESURFACERARITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC09950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCDiceSurfaceRarityRow_TypeDefinitionIndex = 14745;
+	inline static constexpr unsigned int RogueDLCDiceSurfaceRarityRow_TypeDefinitionIndex = 14901;
 
 	class RogueDLCDiceSurfaceRarityRow : public ::System::Object
 	{
 	public:
-		::System::String* NameColor; // 0x10
-		::System::String* DiceSurfaceRarityImage; // 0x18
+		::System::String* DiceSurfaceRarityImage; // 0x10
+		::System::String* NameColor; // 0x18
 		::System::UInt32 Rarity; // 0x20
 		::System::Void _ctor()
 		{

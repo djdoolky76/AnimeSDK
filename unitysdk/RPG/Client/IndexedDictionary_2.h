@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IndexedDictionary_2_TypeDefinitionIndex = 35241;
+	inline static constexpr unsigned int IndexedDictionary_2_TypeDefinitionIndex = 36169;
 
 	template <typename T1, typename T2>
 	class IndexedDictionary_2 : public ::System::Object

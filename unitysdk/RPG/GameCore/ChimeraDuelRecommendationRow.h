@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelRecommendationRow; }
 
-#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A8F00)
-#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5A8DB0)
+#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B9560)
+#define RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7B9410)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRecommendationRow_TypeDefinitionIndex = 11121;
+	inline static constexpr unsigned int ChimeraDuelRecommendationRow_TypeDefinitionIndex = 11137;
 
 	class ChimeraDuelRecommendationRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChimeraIDList; // 0x10
-		::System::UInt32 RecommendationID; // 0x18
-		::System::UInt32 MasterID; // 0x1C
+		::System::UInt32 MasterID; // 0x18
+		::System::UInt32 RecommendationID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELRECOMMENDATIONROW_CTOR_OFFSET))(this);

@@ -4,31 +4,31 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F394ED0)
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F394F10)
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1F394F20)
-#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__15_1_OFFSET UNITYSDK_OFFSET(0x1F394F30)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20645C70)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20645CB0)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__15_0_OFFSET UNITYSDK_OFFSET(0x20645CC0)
+#define UNITYENGINE_TIMELINE_TIMEUTILITY___C__PARSETIMECODE_B__15_1_OFFSET UNITYSDK_OFFSET(0x20645CD0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TimeUtility___c_TypeDefinitionIndex = 38879;
+	inline static constexpr unsigned int TimeUtility___c_TypeDefinitionIndex = 39808;
 
 	class TimeUtility___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__15_1()
+		{
+			return (::System::Func_2<::System::Char, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x41B00);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x4C6C0);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x41B08);
 		}
 
 		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__15_0()
 		{
-			return (::System::Func_2<::System::Char, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x4C6C8);
-		}
-
-		static ::System::Func_2<::System::Char, ::System::Boolean>** StaticGet___9__15_1()
-		{
-			return (::System::Func_2<::System::Char, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x4C6D0);
+			return (::System::Func_2<::System::Char, ::System::Boolean>**)UnitySDK::FromName("UnityEngine.Timeline", "<>c")->GetStaticField(0x41B10);
 		}
 
 		static ::System::Void _cctor()

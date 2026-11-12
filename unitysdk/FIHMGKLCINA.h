@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int FIHMGKLCINA_TypeDefinitionIndex = 43436;
+inline static constexpr unsigned int FIHMGKLCINA_TypeDefinitionIndex = 44418;
 
 	struct alignas(4) FIHMGKLCINA
 	{

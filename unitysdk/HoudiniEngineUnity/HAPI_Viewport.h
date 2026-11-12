@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HOUDINIENGINEUNITY_HAPI_VIEWPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x304BF20)
-#define HOUDINIENGINEUNITY_HAPI_VIEWPORT_INIT_OFFSET UNITYSDK_OFFSET(0x304BF80)
+#define HOUDINIENGINEUNITY_HAPI_VIEWPORT_CTOR_OFFSET UNITYSDK_OFFSET(0x322D340)
+#define HOUDINIENGINEUNITY_HAPI_VIEWPORT_INIT_OFFSET UNITYSDK_OFFSET(0x322D3A0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_Viewport_TypeDefinitionIndex = 40521;
+	inline static constexpr unsigned int HAPI_Viewport_TypeDefinitionIndex = 41496;
 
 	struct alignas(8) HAPI_Viewport
 	{

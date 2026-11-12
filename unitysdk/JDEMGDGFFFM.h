@@ -6,20 +6,20 @@ namespace RPG::Client::Pet { class IPet; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JDEMGDGFFFM_BAKIJBBMPDI_OFFSET UNITYSDK_OFFSET(0x165C23C0)
-#define JDEMGDGFFFM_BKPDINENNFM_OFFSET UNITYSDK_OFFSET(0x165C20F0)
-#define JDEMGDGFFFM_DCIMCJAGEAI_OFFSET UNITYSDK_OFFSET(0x165C1A80)
-#define JDEMGDGFFFM_HJBBLCCABLJ_OFFSET UNITYSDK_OFFSET(0x165C1BF0)
-#define JDEMGDGFFFM_PCBFFHPHEPE_OFFSET UNITYSDK_OFFSET(0x165C2410)
+#define JDEMGDGFFFM_BAKIJBBMPDI_OFFSET UNITYSDK_OFFSET(0xB908320)
+#define JDEMGDGFFFM_BKPDINENNFM_OFFSET UNITYSDK_OFFSET(0xB908050)
+#define JDEMGDGFFFM_DCIMCJAGEAI_OFFSET UNITYSDK_OFFSET(0xB907A00)
+#define JDEMGDGFFFM_HJBBLCCABLJ_OFFSET UNITYSDK_OFFSET(0xB907B70)
+#define JDEMGDGFFFM_PCBFFHPHEPE_OFFSET UNITYSDK_OFFSET(0xB908370)
 
-inline static constexpr unsigned int JDEMGDGFFFM_TypeDefinitionIndex = 75713;
+inline static constexpr unsigned int JDEMGDGFFFM_TypeDefinitionIndex = 78040;
 
 	class JDEMGDGFFFM : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Pet::PetIdentifier>** StaticGet_BKEJEPKOLDO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Pet::PetIdentifier>**)UnitySDK::FromName("", "JDEMGDGFFFM")->GetStaticField(0x6EFE0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Pet::PetIdentifier>**)UnitySDK::FromName("", "JDEMGDGFFFM")->GetStaticField(0x66850);
 		}
 
 		static ::System::Boolean DCIMCJAGEAI(::System::UInt32 a1, ::RPG::Client::Pet::IPet* a2)

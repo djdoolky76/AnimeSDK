@@ -7,32 +7,32 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::IO { class TextWriter; }
 
-#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4102D0)
-#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_GETCHARESCAPEFLAGS_OFFSET UNITYSDK_OFFSET(0x1C411590)
-#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_SHOULDESCAPEJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1C3E4B20)
-#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_TOESCAPEDJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1C411F20)
-#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_WRITEESCAPEDJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1C4115F0)
+#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D596A90)
+#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_GETCHARESCAPEFLAGS_OFFSET UNITYSDK_OFFSET(0x1D597D80)
+#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_SHOULDESCAPEJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1D56B410)
+#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_TOESCAPEDJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1D598710)
+#define NEWTONSOFT_JSON_UTILITIES_JAVASCRIPTUTILS_WRITEESCAPEDJAVASCRIPTSTRING_OFFSET UNITYSDK_OFFSET(0x1D597DE0)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int JavaScriptUtils_TypeDefinitionIndex = 9673;
+	inline static constexpr unsigned int JavaScriptUtils_TypeDefinitionIndex = 9681;
 
 	class JavaScriptUtils : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Boolean>** StaticGet_SingleQuoteCharEscapeFlags()
+		static ::Il2CppArray<::System::Boolean>** StaticGet_HtmlCharEscapeFlags()
 		{
-			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "JavaScriptUtils")->GetStaticField(0x30270);
+			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "JavaScriptUtils")->GetStaticField(0x2F140);
 		}
 
 		static ::Il2CppArray<::System::Boolean>** StaticGet_DoubleQuoteCharEscapeFlags()
 		{
-			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "JavaScriptUtils")->GetStaticField(0x30278);
+			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "JavaScriptUtils")->GetStaticField(0x2F148);
 		}
 
-		static ::Il2CppArray<::System::Boolean>** StaticGet_HtmlCharEscapeFlags()
+		static ::Il2CppArray<::System::Boolean>** StaticGet_SingleQuoteCharEscapeFlags()
 		{
-			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "JavaScriptUtils")->GetStaticField(0x30280);
+			return (::Il2CppArray<::System::Boolean>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "JavaScriptUtils")->GetStaticField(0x2F150);
 		}
 
 		static ::System::Void _cctor()

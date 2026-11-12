@@ -5,21 +5,21 @@ namespace RPG::Client::Prop { class JigsawItemData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LIBKOBLJDMC_BMLNJHOEMHK_OFFSET UNITYSDK_OFFSET(0xB6C2DD0)
-#define LIBKOBLJDMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C2810)
-#define LIBKOBLJDMC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6C2C20)
-#define LIBKOBLJDMC_EAOCMDPLDHA_OFFSET UNITYSDK_OFFSET(0xB6C3010)
-#define LIBKOBLJDMC_EKAOPNJPPBD_OFFSET UNITYSDK_OFFSET(0xB6C3210)
-#define LIBKOBLJDMC_LDFHEEOGHPE_OFFSET UNITYSDK_OFFSET(0xB6C2C80)
-#define LIBKOBLJDMC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB6C2920)
+#define LIBKOBLJDMC_BMLNJHOEMHK_OFFSET UNITYSDK_OFFSET(0xBF5ACB0)
+#define LIBKOBLJDMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF5A6F0)
+#define LIBKOBLJDMC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF5AB00)
+#define LIBKOBLJDMC_EAOCMDPLDHA_OFFSET UNITYSDK_OFFSET(0xBF5AEF0)
+#define LIBKOBLJDMC_EKAOPNJPPBD_OFFSET UNITYSDK_OFFSET(0xBF5B0F0)
+#define LIBKOBLJDMC_LDFHEEOGHPE_OFFSET UNITYSDK_OFFSET(0xBF5AB60)
+#define LIBKOBLJDMC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBF5A800)
 
-inline static constexpr unsigned int LIBKOBLJDMC_TypeDefinitionIndex = 78648;
+inline static constexpr unsigned int LIBKOBLJDMC_TypeDefinitionIndex = 81383;
 
 	class LIBKOBLJDMC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>* KGBKLAPGFMN; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* ILLOMKAHNNH; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* ILLOMKAHNNH; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>* KGBKLAPGFMN; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::Prop::JigsawItemData*>*>* CCHAAKOLCFL; // 0x20
 		::System::Void _ctor()
 		{

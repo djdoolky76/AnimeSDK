@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLEBOARD_JMJKEEKABGK_CTOR_OFFSET UNITYSDK_OFFSET(0xDDC8A10)
+#define RPG_CLIENT_PROP_TIMEREWINDPARTERREPUZZLEBOARD_JMJKEEKABGK_CTOR_OFFSET UNITYSDK_OFFSET(0xE82BB70)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int TimeRewindParterrePuzzleBoard_JMJKEEKABGK_TypeDefinitionIndex = 78909;
+	inline static constexpr unsigned int TimeRewindParterrePuzzleBoard_JMJKEEKABGK_TypeDefinitionIndex = 81680;
 
 	class TimeRewindParterrePuzzleBoard_JMJKEEKABGK : public ::System::Object
 	{

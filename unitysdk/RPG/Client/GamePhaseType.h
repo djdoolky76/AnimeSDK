@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePhaseType_TypeDefinitionIndex = 61123;
+	inline static constexpr unsigned int GamePhaseType_TypeDefinitionIndex = 62508;
 
 	enum class GamePhaseType : ::System::Int32
 	{
@@ -23,15 +23,16 @@ namespace RPG::Client
 		Adventure = 13,
 		BattleLineup = 14,
 		BattleLineupV2 = 15,
-		QABattleLineup = 16,
-		Battle = 17,
-		BattleNew = 18,
-		Replay = 19,
-		DevLevel = 20,
-		RenderTest = 21,
-		StoryTest = 22,
-		AdventureMapTest = 23,
-		AssetMemStatisticsTest = 24,
-		Empty = 25,
+		GridFightDev = 16,
+		QABattleLineup = 17,
+		Battle = 18,
+		BattleNew = 19,
+		Replay = 20,
+		DevLevel = 21,
+		RenderTest = 22,
+		StoryTest = 23,
+		AdventureMapTest = 24,
+		AssetMemStatisticsTest = 25,
+		Empty = 26,
 	};
 }

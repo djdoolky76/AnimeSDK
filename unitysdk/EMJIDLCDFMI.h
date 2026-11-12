@@ -4,9 +4,9 @@
 class KFJGDFIDKOI;
 class POHKBAILKGD;
 
-#define EMJIDLCDFMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA615A0)
+#define EMJIDLCDFMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC24E20)
 
-inline static constexpr unsigned int EMJIDLCDFMI_TypeDefinitionIndex = 42425;
+inline static constexpr unsigned int EMJIDLCDFMI_TypeDefinitionIndex = 43400;
 
 	class EMJIDLCDFMI : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ENTITAS_ENTITASRESOURCES_GETVERSION_OFFSET UNITYSDK_OFFSET(0x16759B30)
+#define ENTITAS_ENTITASRESOURCES_GETVERSION_OFFSET UNITYSDK_OFFSET(0x1759DD70)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntitasResources_TypeDefinitionIndex = 10003;
+	inline static constexpr unsigned int EntitasResources_TypeDefinitionIndex = 10011;
 
 	class EntitasResources : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DisableSelectionProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFAFPMHCIKA_CTOR_OFFSET UNITYSDK_OFFSET(0x16643500)
-#define JFAFPMHCIKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16643530)
+#define JFAFPMHCIKA_CTOR_OFFSET UNITYSDK_OFFSET(0xB98CAA0)
+#define JFAFPMHCIKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB98CAD0)
 
-inline static constexpr unsigned int JFAFPMHCIKA_TypeDefinitionIndex = 58085;
+inline static constexpr unsigned int JFAFPMHCIKA_TypeDefinitionIndex = 59324;
 
 	class JFAFPMHCIKA
 	{

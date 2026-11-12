@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PERFORMANCERECALLMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAA4B50)
-#define RPG_CLIENT_PERFORMANCERECALLMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAA4B80)
-#define RPG_CLIENT_PERFORMANCERECALLMODULE___C___REFRESHUNLOCKEDCONDITIONDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xDAA4B90)
+#define RPG_CLIENT_PERFORMANCERECALLMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4FA5B0)
+#define RPG_CLIENT_PERFORMANCERECALLMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE4FA5E0)
+#define RPG_CLIENT_PERFORMANCERECALLMODULE___C___REFRESHUNLOCKEDCONDITIONDATA_B__23_0_OFFSET UNITYSDK_OFFSET(0xE4FA5F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceRecallModule___c_TypeDefinitionIndex = 66445;
+	inline static constexpr unsigned int PerformanceRecallModule___c_TypeDefinitionIndex = 68381;
 
 	class PerformanceRecallModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__23_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14030);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25980);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14038);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25988);
 		}
 
 		static ::System::Void _cctor()

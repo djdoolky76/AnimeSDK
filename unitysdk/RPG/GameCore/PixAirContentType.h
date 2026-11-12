@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirContentType_TypeDefinitionIndex = 12123;
+	inline static constexpr unsigned int PixAirContentType_TypeDefinitionIndex = 12180;
 
 	enum class PixAirContentType : ::System::Int32
 	{

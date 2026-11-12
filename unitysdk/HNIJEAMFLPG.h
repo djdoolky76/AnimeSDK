@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetMechanismBarState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HNIJEAMFLPG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D9BAC0)
-#define HNIJEAMFLPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D9BAD0)
-#define HNIJEAMFLPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D9BB10)
-#define HNIJEAMFLPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D9BB60)
-#define HNIJEAMFLPG_TICK_OFFSET UNITYSDK_OFFSET(0x15D9BBB0)
+#define HNIJEAMFLPG_CTOR_OFFSET UNITYSDK_OFFSET(0x16D3CA90)
+#define HNIJEAMFLPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16D3CAA0)
+#define HNIJEAMFLPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D3CAE0)
+#define HNIJEAMFLPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16D3CB30)
+#define HNIJEAMFLPG_TICK_OFFSET UNITYSDK_OFFSET(0x16D3CB80)
 
-inline static constexpr unsigned int HNIJEAMFLPG_TypeDefinitionIndex = 55532;
+inline static constexpr unsigned int HNIJEAMFLPG_TypeDefinitionIndex = 56724;
 
 	class HNIJEAMFLPG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetMechanismBarState* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetMechanismBarState* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMechanismBarState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetMechanismBarState*))((::PBYTE)hIl2Cpp + HNIJEAMFLPG_CTOR_OFFSET))(this, a1, a2);

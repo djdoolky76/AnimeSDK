@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 
-#define MIGBFDJKDCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB953960)
+#define MIGBFDJKDCD_CTOR_OFFSET UNITYSDK_OFFSET(0xC2082B0)
 
-inline static constexpr unsigned int MIGBFDJKDCD_TypeDefinitionIndex = 47482;
+inline static constexpr unsigned int MIGBFDJKDCD_TypeDefinitionIndex = 48511;
 
 	class MIGBFDJKDCD : public ::RPG::Client::TABehaviorBase
 	{

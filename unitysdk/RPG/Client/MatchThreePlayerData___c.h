@@ -5,25 +5,25 @@ namespace RPG::Client { class MatchThreeBirdData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEPLAYERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5AA690)
-#define RPG_CLIENT_MATCHTHREEPLAYERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5AA6D0)
-#define RPG_CLIENT_MATCHTHREEPLAYERDATA___C__GETALLBIRD_B__4_0_OFFSET UNITYSDK_OFFSET(0xD5AA6E0)
+#define RPG_CLIENT_MATCHTHREEPLAYERDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFFC690)
+#define RPG_CLIENT_MATCHTHREEPLAYERDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFFC6D0)
+#define RPG_CLIENT_MATCHTHREEPLAYERDATA___C__GETALLBIRD_B__4_0_OFFSET UNITYSDK_OFFSET(0xDFFC6E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreePlayerData___c_TypeDefinitionIndex = 65977;
+	inline static constexpr unsigned int MatchThreePlayerData___c_TypeDefinitionIndex = 67909;
 
 	class MatchThreePlayerData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54E90);
-		}
-
 		static ::System::Func_2<::RPG::Client::MatchThreeBirdData*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::MatchThreeBirdData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54E98);
+			return (::System::Func_2<::RPG::Client::MatchThreeBirdData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B130);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B138);
 		}
 
 		static ::System::Void _cctor()

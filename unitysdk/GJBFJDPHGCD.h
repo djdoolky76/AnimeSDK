@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareModifierCustomEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GJBFJDPHGCD_CTOR_OFFSET UNITYSDK_OFFSET(0x15A59540)
-#define GJBFJDPHGCD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A59570)
+#define GJBFJDPHGCD_CTOR_OFFSET UNITYSDK_OFFSET(0x16994A80)
+#define GJBFJDPHGCD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16994AB0)
 
-inline static constexpr unsigned int GJBFJDPHGCD_TypeDefinitionIndex = 54886;
+inline static constexpr unsigned int GJBFJDPHGCD_TypeDefinitionIndex = 56057;
 
 	class GJBFJDPHGCD
 	{

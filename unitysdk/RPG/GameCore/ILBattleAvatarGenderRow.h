@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ILBattleAvatarGenderRow; }
 
-#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D774FC0)
-#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D774ED0)
+#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E988700)
+#define RPG_GAMECORE_ILBATTLEAVATARGENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E988610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ILBattleAvatarGenderRow_TypeDefinitionIndex = 13788;
+	inline static constexpr unsigned int ILBattleAvatarGenderRow_TypeDefinitionIndex = 13945;
 
 	class ILBattleAvatarGenderRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BoyAvatarID; // 0x10
-		::System::UInt32 GirlAvatarID; // 0x14
+		::System::UInt32 GirlAvatarID; // 0x10
+		::System::UInt32 BoyAvatarID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ILBATTLEAVATARGENDERROW_CTOR_OFFSET))(this);

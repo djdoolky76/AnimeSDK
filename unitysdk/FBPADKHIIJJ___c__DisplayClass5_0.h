@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class HIAHLINDEHP;
 
-#define FBPADKHIIJJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156AD680)
-#define FBPADKHIIJJ___C__DISPLAYCLASS5_0___GETAFFIXCOMPARERESULTS_B__0_OFFSET UNITYSDK_OFFSET(0x156ADA10)
+#define FBPADKHIIJJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x165C56D0)
+#define FBPADKHIIJJ___C__DISPLAYCLASS5_0___GETAFFIXCOMPARERESULTS_B__0_OFFSET UNITYSDK_OFFSET(0x165C56E0)
 
-inline static constexpr unsigned int FBPADKHIIJJ___c__DisplayClass5_0_TypeDefinitionIndex = 75234;
+inline static constexpr unsigned int FBPADKHIIJJ___c__DisplayClass5_0_TypeDefinitionIndex = 77561;
 
 	class FBPADKHIIJJ___c__DisplayClass5_0 : public ::System::Object
 	{

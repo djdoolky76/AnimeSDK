@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class RefreshMazeBuffTime; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9769F0)
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D976A00)
-#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9769C0)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8ED80)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB8ED90)
+#define RPG_GAMECORE_REFRESHMAZEBUFFTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB8ED50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RefreshMazeBuffTime_TypeDefinitionIndex = 20187;
+	inline static constexpr unsigned int RefreshMazeBuffTime_TypeDefinitionIndex = 20521;
 
 	class RefreshMazeBuffTime : public ::RPG::GameCore::TaskConfig
 	{

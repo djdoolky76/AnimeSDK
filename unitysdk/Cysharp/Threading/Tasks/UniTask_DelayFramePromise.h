@@ -13,36 +13,37 @@ namespace Cysharp::Threading::Tasks { class UniTask_DelayFramePromise; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1470E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F140F90)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1471E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F1471F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F1473C0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F1470D0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F1474E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F1474C0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F147320)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F147470)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x203F8000)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x203F1EB0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x203F8100)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x203F8110)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x203F82E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x203F7FF0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x203F8450)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x203F8430)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x203F8240)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x203F83B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayFramePromise_TypeDefinitionIndex = 38234;
+	inline static constexpr unsigned int UniTask_DelayFramePromise_TypeDefinitionIndex = 39163;
 
 	class UniTask_DelayFramePromise : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x10
+		::Cysharp::Threading::Tasks::UniTask_DelayFramePromise* nextNode; // 0x10
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x18
 		::System::Byte _padding0[0x18];
-		::Cysharp::Threading::Tasks::UniTask_DelayFramePromise* nextNode; // 0x30
 		::System::Threading::CancellationToken cancellationToken; // 0x38
 		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x40
-		::System::Int32 delayFrameCount; // 0x58
-		::System::Int32 initialFrame; // 0x5C
+		::System::Int32 initialFrame; // 0x58
+		::System::Boolean cancelImmediately; // 0x5C
+		::System::Byte _padding1[0x3];
 		::System::Int32 currentFrameCount; // 0x60
-		::System::Boolean cancelImmediately; // 0x64
+		::System::Int32 delayFrameCount; // 0x64
 		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "DelayFramePromise")->GetStaticField(0x46540);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "DelayFramePromise")->GetStaticField(0x3A080);
 		}
 
 		static ::System::Void _cctor()

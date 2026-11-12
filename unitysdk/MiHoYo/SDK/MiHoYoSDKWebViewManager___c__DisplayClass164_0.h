@@ -5,23 +5,23 @@ namespace MiHoYo::SDK { class MiHoYoSDKWebViewManager; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFF7950)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0__PLAYSHOWWEBANIMATIONFORISR_B__0_OFFSET UNITYSDK_OFFSET(0xB011EA0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0__PLAYSHOWWEBANIMATIONFORISR_B__1_OFFSET UNITYSDK_OFFSET(0xB011EE0)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0__PLAYSHOWWEBANIMATIONFORISR_B__2_OFFSET UNITYSDK_OFFSET(0xB0125E0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB658C20)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0__PLAYSHOWWEBANIMATIONFORISR_B__0_OFFSET UNITYSDK_OFFSET(0xB672E90)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0__PLAYSHOWWEBANIMATIONFORISR_B__1_OFFSET UNITYSDK_OFFSET(0xB672ED0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0__PLAYSHOWWEBANIMATIONFORISR_B__2_OFFSET UNITYSDK_OFFSET(0xB6735D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass164_0_TypeDefinitionIndex = 46627;
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass164_0_TypeDefinitionIndex = 47655;
 
 	class MiHoYoSDKWebViewManager___c__DisplayClass164_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::MiHoYo::SDK::MiHoYoSDKWebViewManager* __4__this; // 0x18
+		::MiHoYo::SDK::MiHoYoSDKWebViewManager* __4__this; // 0x10
+		::System::Action* __9__2; // 0x18
 		::System::String* animationStage2; // 0x20
-		::System::Boolean hasStage2; // 0x28
-		::System::Boolean needHideNaviBar; // 0x29
+		::System::Boolean needHideNaviBar; // 0x28
+		::System::Boolean hasStage2; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER___C__DISPLAYCLASS164_0_CTOR_OFFSET))(this);

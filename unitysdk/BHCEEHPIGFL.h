@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/LittleGameShare/MsgRetcode.h"
 class ICKLANINJDB;
 
-#define BHCEEHPIGFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB472B60)
-#define BHCEEHPIGFL_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0xB472B50)
+#define BHCEEHPIGFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB2B060)
+#define BHCEEHPIGFL_GET_RETCODE_OFFSET UNITYSDK_OFFSET(0xBB2B050)
 
-inline static constexpr unsigned int BHCEEHPIGFL_TypeDefinitionIndex = 78053;
+inline static constexpr unsigned int BHCEEHPIGFL_TypeDefinitionIndex = 80788;
 
 	class BHCEEHPIGFL : public ::FDLCNGPGEFP
 	{

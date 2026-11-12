@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JOGGBGBENHJ;
 
-#define EOFDHAPECOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61C00)
+#define EOFDHAPECOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC25480)
 
-inline static constexpr unsigned int EOFDHAPECOF_TypeDefinitionIndex = 43220;
+inline static constexpr unsigned int EOFDHAPECOF_TypeDefinitionIndex = 44201;
 
 	class EOFDHAPECOF : public ::System::Object
 	{

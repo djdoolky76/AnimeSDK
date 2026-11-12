@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetActionBarItemAnimatorTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCODOMAMALK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1C900)
-#define NCODOMAMALK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB1C930)
+#define NCODOMAMALK_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A5410)
+#define NCODOMAMALK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3A5440)
 
-inline static constexpr unsigned int NCODOMAMALK_TypeDefinitionIndex = 47607;
+inline static constexpr unsigned int NCODOMAMALK_TypeDefinitionIndex = 48636;
 
 	class NCODOMAMALK
 	{

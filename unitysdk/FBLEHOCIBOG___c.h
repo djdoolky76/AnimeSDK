@@ -4,18 +4,18 @@
 class FBLEHOCIBOG;
 namespace System { class Object; }
 
-#define FBLEHOCIBOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E338CB0)
-#define FBLEHOCIBOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E338CE0)
-#define FBLEHOCIBOG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E338CF0)
+#define FBLEHOCIBOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F61F0B0)
+#define FBLEHOCIBOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61F0E0)
+#define FBLEHOCIBOG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F61F0F0)
 
-inline static constexpr unsigned int FBLEHOCIBOG___c_TypeDefinitionIndex = 30471;
+inline static constexpr unsigned int FBLEHOCIBOG___c_TypeDefinitionIndex = 31377;
 
 	class FBLEHOCIBOG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59BC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57390);
 		}
 
 		static ::System::Void _cctor()

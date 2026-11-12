@@ -4,11 +4,11 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_AttributeInfo.h"
 namespace HoudiniEngineUnity { class Test_HAPI_AttributeInfo; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_ATTRIBUTEINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B1390)
+#define HOUDINIENGINEUNITY_TEST_HAPI_ATTRIBUTEINFO_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1CB3A2C0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_AttributeInfo_Extensions_TypeDefinitionIndex = 40705;
+	inline static constexpr unsigned int Test_HAPI_AttributeInfo_Extensions_TypeDefinitionIndex = 41680;
 
 	class Test_HAPI_AttributeInfo_Extensions : public ::System::Object
 	{

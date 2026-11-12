@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEmoGraphAlwaysEvaluate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHAKNJBEJML_CTOR_OFFSET UNITYSDK_OFFSET(0x164169D0)
-#define IHAKNJBEJML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16416A00)
+#define IHAKNJBEJML_CTOR_OFFSET UNITYSDK_OFFSET(0x173C8BD0)
+#define IHAKNJBEJML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173C8C00)
 
-inline static constexpr unsigned int IHAKNJBEJML_TypeDefinitionIndex = 55892;
+inline static constexpr unsigned int IHAKNJBEJML_TypeDefinitionIndex = 57095;
 
 	class IHAKNJBEJML
 	{

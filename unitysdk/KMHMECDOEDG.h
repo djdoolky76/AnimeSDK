@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvHideMazeBtn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KMHMECDOEDG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5573D0)
-#define KMHMECDOEDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB557400)
+#define KMHMECDOEDG_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA2E10)
+#define KMHMECDOEDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDA2E40)
 
-inline static constexpr unsigned int KMHMECDOEDG_TypeDefinitionIndex = 57876;
+inline static constexpr unsigned int KMHMECDOEDG_TypeDefinitionIndex = 59113;
 
 	class KMHMECDOEDG
 	{

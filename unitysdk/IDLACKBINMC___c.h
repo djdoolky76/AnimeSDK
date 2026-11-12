@@ -4,18 +4,18 @@
 class IDLACKBINMC;
 namespace System { class Object; }
 
-#define IDLACKBINMC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E62FD90)
-#define IDLACKBINMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62FDD0)
-#define IDLACKBINMC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E62FDE0)
+#define IDLACKBINMC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F94D570)
+#define IDLACKBINMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F94D5B0)
+#define IDLACKBINMC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F94D5C0)
 
-inline static constexpr unsigned int IDLACKBINMC___c_TypeDefinitionIndex = 25238;
+inline static constexpr unsigned int IDLACKBINMC___c_TypeDefinitionIndex = 25716;
 
 	class IDLACKBINMC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46DB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4DBD0);
 		}
 
 		static ::System::Void _cctor()

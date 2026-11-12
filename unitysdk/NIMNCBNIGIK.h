@@ -3,10 +3,10 @@
 namespace RPG::Client { class RoadRashGameAbility_Slam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NIMNCBNIGIK_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFDCD0)
-#define NIMNCBNIGIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBFDD00)
+#define NIMNCBNIGIK_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E0E90)
+#define NIMNCBNIGIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4E0EC0)
 
-inline static constexpr unsigned int NIMNCBNIGIK_TypeDefinitionIndex = 58409;
+inline static constexpr unsigned int NIMNCBNIGIK_TypeDefinitionIndex = 59665;
 
 	class NIMNCBNIGIK
 	{

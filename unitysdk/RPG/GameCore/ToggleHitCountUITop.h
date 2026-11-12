@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class ToggleHitCountUITop; }
 
-#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8BF50)
-#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB8BF90)
-#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB8BEF0)
+#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3B120)
+#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE3B160)
+#define RPG_GAMECORE_TOGGLEHITCOUNTUITOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE3B0C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToggleHitCountUITop_TypeDefinitionIndex = 23154;
+	inline static constexpr unsigned int ToggleHitCountUITop_TypeDefinitionIndex = 23584;
 
 	class ToggleHitCountUITop : public ::RPG::GameCore::TaskConfig
 	{

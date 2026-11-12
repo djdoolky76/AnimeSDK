@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackSkillDesc; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBINCDIACGP_CTOR_OFFSET UNITYSDK_OFFSET(0x156A0FD0)
-#define FBINCDIACGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156A1000)
+#define FBINCDIACGP_CTOR_OFFSET UNITYSDK_OFFSET(0x165B8C90)
+#define FBINCDIACGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165B8CC0)
 
-inline static constexpr unsigned int FBINCDIACGP_TypeDefinitionIndex = 55651;
+inline static constexpr unsigned int FBINCDIACGP_TypeDefinitionIndex = 56849;
 
 	class FBINCDIACGP
 	{

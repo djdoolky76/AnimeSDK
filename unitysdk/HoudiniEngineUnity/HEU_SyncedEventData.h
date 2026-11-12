@@ -4,11 +4,11 @@
 namespace HoudiniEngineUnity { class HEU_BaseSync; }
 namespace HoudiniEngineUnity { class HEU_ThreadedTaskLoadGeo_HEU_LoadData; }
 
-#define HOUDINIENGINEUNITY_HEU_SYNCEDEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B988360)
+#define HOUDINIENGINEUNITY_HEU_SYNCEDEVENTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB11270)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SyncedEventData_TypeDefinitionIndex = 40594;
+	inline static constexpr unsigned int HEU_SyncedEventData_TypeDefinitionIndex = 41569;
 
 	class HEU_SyncedEventData : public ::System::Object
 	{

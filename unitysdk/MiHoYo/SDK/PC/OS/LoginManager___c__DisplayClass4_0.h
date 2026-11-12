@@ -6,18 +6,18 @@ namespace MiHoYo::SDK::PC::OS { class LoginManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3F670)
-#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS4_0__LOGOUTWITHOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1BF40820)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C6290)
+#define MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS4_0__LOGOUTWITHOUTCONFIRM_B__0_OFFSET UNITYSDK_OFFSET(0x1D0C7440)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int LoginManager___c__DisplayClass4_0_TypeDefinitionIndex = 8710;
+	inline static constexpr unsigned int LoginManager___c__DisplayClass4_0_TypeDefinitionIndex = 8719;
 
 	class LoginManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x10
-		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* callback; // 0x18
+		::System::Action_1<::MiHoYo::SDK::CallbackModel_1<::System::String*>*>* callback; // 0x10
+		::MiHoYo::SDK::PC::OS::LoginManager* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_LOGINMANAGER___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

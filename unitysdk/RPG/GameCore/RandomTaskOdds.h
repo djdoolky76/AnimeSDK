@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RandomTaskOdds; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RANDOMTASKODDS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96CF80)
-#define RPG_GAMECORE_RANDOMTASKODDS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D96CE30)
+#define RPG_GAMECORE_RANDOMTASKODDS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB852C0)
+#define RPG_GAMECORE_RANDOMTASKODDS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB85170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RandomTaskOdds_TypeDefinitionIndex = 21278;
+	inline static constexpr unsigned int RandomTaskOdds_TypeDefinitionIndex = 21621;
 
 	class RandomTaskOdds : public ::RPG::GameCore::JsonConfig
 	{

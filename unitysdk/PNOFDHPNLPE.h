@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int PNOFDHPNLPE_TypeDefinitionIndex = 43441;
+inline static constexpr unsigned int PNOFDHPNLPE_TypeDefinitionIndex = 44423;
 
 	struct alignas(4) PNOFDHPNLPE
 	{

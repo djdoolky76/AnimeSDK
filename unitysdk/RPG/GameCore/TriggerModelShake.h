@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerModelShake; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERMODELSHAKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC554B0)
-#define RPG_GAMECORE_TRIGGERMODELSHAKE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC55500)
-#define RPG_GAMECORE_TRIGGERMODELSHAKE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC55440)
+#define RPG_GAMECORE_TRIGGERMODELSHAKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE694B0)
+#define RPG_GAMECORE_TRIGGERMODELSHAKE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE69500)
+#define RPG_GAMECORE_TRIGGERMODELSHAKE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE69440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerModelShake_TypeDefinitionIndex = 22453;
+	inline static constexpr unsigned int TriggerModelShake_TypeDefinitionIndex = 22862;
 
 	class TriggerModelShake : public ::RPG::GameCore::TaskConfig
 	{

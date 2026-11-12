@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetDroneFuncBtn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIDKNNMELJE_CTOR_OFFSET UNITYSDK_OFFSET(0x16438E90)
-#define IIDKNNMELJE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16438EA0)
-#define IIDKNNMELJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16438EE0)
-#define IIDKNNMELJE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16438FD0)
-#define IIDKNNMELJE_TICK_OFFSET UNITYSDK_OFFSET(0x16439020)
+#define IIDKNNMELJE_CTOR_OFFSET UNITYSDK_OFFSET(0x173F1A30)
+#define IIDKNNMELJE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x173F1A40)
+#define IIDKNNMELJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173F1A80)
+#define IIDKNNMELJE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x173F1B70)
+#define IIDKNNMELJE_TICK_OFFSET UNITYSDK_OFFSET(0x173F1BC0)
 
-inline static constexpr unsigned int IIDKNNMELJE_TypeDefinitionIndex = 53227;
+inline static constexpr unsigned int IIDKNNMELJE_TypeDefinitionIndex = 54389;
 
 	class IIDKNNMELJE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetDroneFuncBtn* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetDroneFuncBtn* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDroneFuncBtn* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDroneFuncBtn*))((::PBYTE)hIl2Cpp + IIDKNNMELJE_CTOR_OFFSET))(this, a1, a2);

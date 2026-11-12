@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ChangeLimitedDiceAvailableCount; }
 
-#define BHHOILNDPND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BF210)
-#define BHHOILNDPND_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5BF220)
+#define BHHOILNDPND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D740AA0)
+#define BHHOILNDPND_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D740AB0)
 
-inline static constexpr unsigned int BHHOILNDPND_TypeDefinitionIndex = 36318;
+inline static constexpr unsigned int BHHOILNDPND_TypeDefinitionIndex = 37246;
 
 	class BHHOILNDPND : public ::AJBKGPOEBFG
 	{

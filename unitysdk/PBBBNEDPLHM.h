@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAvatarBaseType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBBBNEDPLHM_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE0FF0)
-#define PBBBNEDPLHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFE1020)
+#define PBBBNEDPLHM_CTOR_OFFSET UNITYSDK_OFFSET(0xC8E3F40)
+#define PBBBNEDPLHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC8E3F70)
 
-inline static constexpr unsigned int PBBBNEDPLHM_TypeDefinitionIndex = 54486;
+inline static constexpr unsigned int PBBBNEDPLHM_TypeDefinitionIndex = 55650;
 
 	class PBBBNEDPLHM
 	{

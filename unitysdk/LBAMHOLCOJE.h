@@ -10,39 +10,39 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LBAMHOLCOJE_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0xB5EC190)
-#define LBAMHOLCOJE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5ECB40)
-#define LBAMHOLCOJE_DBAGALBCODO_OFFSET UNITYSDK_OFFSET(0xB5EB6A0)
-#define LBAMHOLCOJE_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0xB5EAE90)
-#define LBAMHOLCOJE_HJKJONMPKOK_OFFSET UNITYSDK_OFFSET(0xB5EC2E0)
-#define LBAMHOLCOJE_ILPFNEBPHBF_OFFSET UNITYSDK_OFFSET(0xB5EB040)
-#define LBAMHOLCOJE_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0xB5ECAC0)
-#define LBAMHOLCOJE_OICINKKCCCD_OFFSET UNITYSDK_OFFSET(0xB5EBD40)
-#define LBAMHOLCOJE_OPMLENHJBIH_OFFSET UNITYSDK_OFFSET(0xB5EB430)
+#define LBAMHOLCOJE_AABALFLGKPE_OFFSET UNITYSDK_OFFSET(0xBE7DA50)
+#define LBAMHOLCOJE_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE7E400)
+#define LBAMHOLCOJE_DBAGALBCODO_OFFSET UNITYSDK_OFFSET(0xBE7CF60)
+#define LBAMHOLCOJE_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0xBE7C750)
+#define LBAMHOLCOJE_HJKJONMPKOK_OFFSET UNITYSDK_OFFSET(0xBE7DBA0)
+#define LBAMHOLCOJE_ILPFNEBPHBF_OFFSET UNITYSDK_OFFSET(0xBE7C900)
+#define LBAMHOLCOJE_JDKCDJNJAOL_OFFSET UNITYSDK_OFFSET(0xBE7E380)
+#define LBAMHOLCOJE_OICINKKCCCD_OFFSET UNITYSDK_OFFSET(0xBE7D600)
+#define LBAMHOLCOJE_OPMLENHJBIH_OFFSET UNITYSDK_OFFSET(0xBE7CCF0)
 
-inline static constexpr unsigned int LBAMHOLCOJE_TypeDefinitionIndex = 56529;
+inline static constexpr unsigned int LBAMHOLCOJE_TypeDefinitionIndex = 57749;
 
 	class LBAMHOLCOJE : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::DIFEEJPHMJC>** StaticGet_DGEJECBNNLO()
+		static ::System::Collections::Generic::Dictionary_2<::DIFEEJPHMJC, ::EILOGENDCCG*>** StaticGet_HCLPCNHFLCG()
 		{
-			return (::System::Collections::Generic::HashSet_1<::DIFEEJPHMJC>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x53B70);
+			return (::System::Collections::Generic::Dictionary_2<::DIFEEJPHMJC, ::EILOGENDCCG*>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x65CF0);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_ENKNDGOHBIN()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x53B78);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x65CF8);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetEvaluator*>** StaticGet_LJPBMKPNDLP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetEvaluator*>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x53B80);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::TargetEvaluator*>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x65D00);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::DIFEEJPHMJC, ::EILOGENDCCG*>** StaticGet_HCLPCNHFLCG()
+		static ::System::Collections::Generic::HashSet_1<::DIFEEJPHMJC>** StaticGet_DGEJECBNNLO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::DIFEEJPHMJC, ::EILOGENDCCG*>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x53B88);
+			return (::System::Collections::Generic::HashSet_1<::DIFEEJPHMJC>**)UnitySDK::FromName("", "LBAMHOLCOJE")->GetStaticField(0x65D08);
 		}
 
 		// static const ::System::String* GNEINLIJOBC; // 0x0

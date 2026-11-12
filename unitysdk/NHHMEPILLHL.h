@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NHHMEPILLHL_TypeDefinitionIndex = 32816;
+inline static constexpr unsigned int NHHMEPILLHL_TypeDefinitionIndex = 33731;
 
 	enum class NHHMEPILLHL : ::System::Int32
 	{

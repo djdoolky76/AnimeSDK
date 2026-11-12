@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class OpenRaid; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_OPENRAID_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E1D90)
-#define RPG_GAMECORE_OPENRAID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E1DA0)
-#define RPG_GAMECORE_OPENRAID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E1D60)
+#define RPG_GAMECORE_OPENRAID_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAFA830)
+#define RPG_GAMECORE_OPENRAID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAFA840)
+#define RPG_GAMECORE_OPENRAID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAFA800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenRaid_TypeDefinitionIndex = 21614;
+	inline static constexpr unsigned int OpenRaid_TypeDefinitionIndex = 22002;
 
 	class OpenRaid : public ::RPG::GameCore::TaskConfig
 	{

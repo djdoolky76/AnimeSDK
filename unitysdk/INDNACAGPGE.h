@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackStatusProbability; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define INDNACAGPGE_CTOR_OFFSET UNITYSDK_OFFSET(0x164E89C0)
-#define INDNACAGPGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164E89F0)
+#define INDNACAGPGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB8183D0)
+#define INDNACAGPGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB818400)
 
-inline static constexpr unsigned int INDNACAGPGE_TypeDefinitionIndex = 55653;
+inline static constexpr unsigned int INDNACAGPGE_TypeDefinitionIndex = 56851;
 
 	class INDNACAGPGE
 	{

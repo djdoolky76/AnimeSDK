@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/NGHKLMAIFFB.h"
 
-inline static constexpr unsigned int BEBFFHKPNOC_TypeDefinitionIndex = 68497;
+inline static constexpr unsigned int BEBFFHKPNOC_TypeDefinitionIndex = 70445;
 
 	struct alignas(8) BEBFFHKPNOC
 	{

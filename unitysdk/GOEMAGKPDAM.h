@@ -8,11 +8,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define GOEMAGKPDAM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2CA90)
-#define GOEMAGKPDAM_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x15B2C520)
-#define GOEMAGKPDAM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15B2C600)
+#define GOEMAGKPDAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16AB2740)
+#define GOEMAGKPDAM_ONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x16AB21D0)
+#define GOEMAGKPDAM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x16AB22B0)
 
-inline static constexpr unsigned int GOEMAGKPDAM_TypeDefinitionIndex = 48459;
+inline static constexpr unsigned int GOEMAGKPDAM_TypeDefinitionIndex = 49500;
 
 	class GOEMAGKPDAM : public ::UnityEngine::Playables::PlayableBehaviour
 	{

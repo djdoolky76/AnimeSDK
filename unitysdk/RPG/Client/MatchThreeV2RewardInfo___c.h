@@ -5,31 +5,31 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5CD120)
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5CD160)
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__GET__RESIDENTREWARDQUESTIDS_B__1_0_OFFSET UNITYSDK_OFFSET(0xD5CD170)
-#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__HASRESIDENTREWARDTOTAKE_B__8_0_OFFSET UNITYSDK_OFFSET(0xD5CD1D0)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE01F310)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE01F350)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__GET__RESIDENTREWARDQUESTIDS_B__1_0_OFFSET UNITYSDK_OFFSET(0xE01F360)
+#define RPG_CLIENT_MATCHTHREEV2REWARDINFO___C__HASRESIDENTREWARDTOTAKE_B__8_0_OFFSET UNITYSDK_OFFSET(0xE01F3C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2RewardInfo___c_TypeDefinitionIndex = 66006;
+	inline static constexpr unsigned int MatchThreeV2RewardInfo___c_TypeDefinitionIndex = 67938;
 
 	class MatchThreeV2RewardInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55B80);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D7A0);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55B88);
+			return (::System::Func_2<::System::UInt32, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D7A8);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55B90);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D7B0);
 		}
 
 		static ::System::Void _cctor()

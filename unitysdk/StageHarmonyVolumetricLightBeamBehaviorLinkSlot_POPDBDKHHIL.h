@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace VLB { class VolumetricLightBeam; }
 
-#define STAGEHARMONYVOLUMETRICLIGHTBEAMBEHAVIORLINKSLOT_POPDBDKHHIL_CTOR_OFFSET UNITYSDK_OFFSET(0xE9982F0)
+#define STAGEHARMONYVOLUMETRICLIGHTBEAMBEHAVIORLINKSLOT_POPDBDKHHIL_CTOR_OFFSET UNITYSDK_OFFSET(0xF4AD8F0)
 
-inline static constexpr unsigned int StageHarmonyVolumetricLightBeamBehaviorLinkSlot_POPDBDKHHIL_TypeDefinitionIndex = 47386;
+inline static constexpr unsigned int StageHarmonyVolumetricLightBeamBehaviorLinkSlot_POPDBDKHHIL_TypeDefinitionIndex = 48415;
 
 	class StageHarmonyVolumetricLightBeamBehaviorLinkSlot_POPDBDKHHIL : public ::System::Object
 	{

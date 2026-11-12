@@ -9,14 +9,15 @@ namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace RPG::GameCore { class LittleGameLevelSettings; }
 namespace RPG::GameCore { class LittleGameLevelVariableCollection; }
+namespace RPG::GameCore { class LittleGameSandboxProfileRef; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E3840)
-#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E35B0)
+#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA23F90)
+#define RPG_GAMECORE_LITTLEGAMELEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA23CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelConfig_TypeDefinitionIndex = 18841;
+	inline static constexpr unsigned int LittleGameLevelConfig_TypeDefinitionIndex = 19003;
 
 	class LittleGameLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -31,6 +32,7 @@ namespace RPG::GameCore
 		::Il2CppArray<::RPG::Client::LockSource>* LockSources; // 0x38
 		::RPG::GameCore::LittleGameLevelVariableCollection* LevelVariables; // 0x40
 		::RPG::GameCore::LittleGameLevelSettings* LevelSettings; // 0x48
+		::RPG::GameCore::LittleGameSandboxProfileRef* SandboxProfileRef; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LITTLEGAMELEVELCONFIG_CTOR_OFFSET))(this);

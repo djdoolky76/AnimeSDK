@@ -4,18 +4,18 @@
 class BAMIHIIOBNM;
 namespace System { class Object; }
 
-#define BAMIHIIOBNM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7BC3B0)
-#define BAMIHIIOBNM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BC3F0)
-#define BAMIHIIOBNM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7BC400)
+#define BAMIHIIOBNM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA77620)
+#define BAMIHIIOBNM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA77660)
+#define BAMIHIIOBNM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FA77670)
 
-inline static constexpr unsigned int BAMIHIIOBNM___c_TypeDefinitionIndex = 34878;
+inline static constexpr unsigned int BAMIHIIOBNM___c_TypeDefinitionIndex = 35806;
 
 	class BAMIHIIOBNM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46410);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F360);
 		}
 
 		static ::System::Void _cctor()

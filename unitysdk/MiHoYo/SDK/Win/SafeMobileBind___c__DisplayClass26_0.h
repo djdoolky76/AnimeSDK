@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class AccountModel; }
 namespace MiHoYo::SDK::Win { class SafeMobileBind; }
 
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDE9740)
-#define MIHOYO_SDK_WIN_SAFEMOBILEBIND___C__DISPLAYCLASS26_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BDE9C70)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF71D20)
+#define MIHOYO_SDK_WIN_SAFEMOBILEBIND___C__DISPLAYCLASS26_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CF72250)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SafeMobileBind___c__DisplayClass26_0_TypeDefinitionIndex = 9519;
+	inline static constexpr unsigned int SafeMobileBind___c__DisplayClass26_0_TypeDefinitionIndex = 9527;
 
 	class SafeMobileBind___c__DisplayClass26_0 : public ::System::Object
 	{

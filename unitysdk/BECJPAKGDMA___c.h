@@ -4,23 +4,23 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define BECJPAKGDMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1630FEB0)
-#define BECJPAKGDMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1630FEF0)
-#define BECJPAKGDMA___C__ONTASKBEGIN_B__6_0_OFFSET UNITYSDK_OFFSET(0x1630FF00)
+#define BECJPAKGDMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7C6FF0)
+#define BECJPAKGDMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C7030)
+#define BECJPAKGDMA___C__ONTASKBEGIN_B__6_0_OFFSET UNITYSDK_OFFSET(0xB7C7040)
 
-inline static constexpr unsigned int BECJPAKGDMA___c_TypeDefinitionIndex = 58160;
+inline static constexpr unsigned int BECJPAKGDMA___c_TypeDefinitionIndex = 59413;
 
 	class BECJPAKGDMA___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__6_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DD00);
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x692B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DD08);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x692B8);
 		}
 
 		static ::System::Void _cctor()

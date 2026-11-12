@@ -7,12 +7,12 @@ namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCBA60B0)
-#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xCBA56B0)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD519EA0)
+#define RPG_CLIENT_COMMONBUTTON_COMMONBUTTONCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xD5194A0)
 
 namespace RPG::Client::CommonButton
 {
-	inline static constexpr unsigned int CommonButtonControl_TypeDefinitionIndex = 81244;
+	inline static constexpr unsigned int CommonButtonControl_TypeDefinitionIndex = 84024;
 
 	class CommonButtonControl
 	{

@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::UI { class ChannelProtocolDialog; }
 
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFF4BC0)
-#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG___C__DISPLAYCLASS41_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BFF50D0)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D17BB80)
+#define MIHOYO_SDK_UI_CHANNELPROTOCOLDIALOG___C__DISPLAYCLASS41_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D17C090)
 
 namespace MiHoYo::SDK::UI
 {
-	inline static constexpr unsigned int ChannelProtocolDialog___c__DisplayClass41_0_TypeDefinitionIndex = 8393;
+	inline static constexpr unsigned int ChannelProtocolDialog___c__DisplayClass41_0_TypeDefinitionIndex = 8402;
 
 	class ChannelProtocolDialog___c__DisplayClass41_0 : public ::System::Object
 	{

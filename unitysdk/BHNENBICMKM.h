@@ -5,10 +5,10 @@ namespace RPG::AvatarSystem::Property { template <typename T> class PropertyModi
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTechTreeInfo; }
 
-#define BHNENBICMKM_BUILD_OFFSET UNITYSDK_OFFSET(0xB48F1C0)
-#define BHNENBICMKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB48F1A0)
+#define BHNENBICMKM_BUILD_OFFSET UNITYSDK_OFFSET(0xBB47F10)
+#define BHNENBICMKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBB47EF0)
 
-inline static constexpr unsigned int BHNENBICMKM_TypeDefinitionIndex = 75132;
+inline static constexpr unsigned int BHNENBICMKM_TypeDefinitionIndex = 77459;
 
 	class BHNENBICMKM
 	{

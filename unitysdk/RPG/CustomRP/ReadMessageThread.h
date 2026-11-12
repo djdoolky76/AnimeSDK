@@ -10,28 +10,28 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class MemoryStream; }
 namespace System::IO { class Stream; }
 
-#define RPG_CUSTOMRP_READMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC379E0)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1CC37E50)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_READBYTESBLOCKED_OFFSET UNITYSDK_OFFSET(0x1CC6C220)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_START_OFFSET UNITYSDK_OFFSET(0x1CC37C70)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1CC37CA0)
-#define RPG_CUSTOMRP_READMESSAGETHREAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC37C80)
-#define RPG_CUSTOMRP_READMESSAGETHREAD__ONREADING_OFFSET UNITYSDK_OFFSET(0x1CC6C370)
-#define RPG_CUSTOMRP_READMESSAGETHREAD__READMSG_OFFSET UNITYSDK_OFFSET(0x1CC6BE80)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDEE50)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0x1DDDF240)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_READBYTESBLOCKED_OFFSET UNITYSDK_OFFSET(0x1DE13680)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_START_OFFSET UNITYSDK_OFFSET(0x1DDDF060)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0x1DDDF090)
+#define RPG_CUSTOMRP_READMESSAGETHREAD_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DDDF070)
+#define RPG_CUSTOMRP_READMESSAGETHREAD__ONREADING_OFFSET UNITYSDK_OFFSET(0x1DE137D0)
+#define RPG_CUSTOMRP_READMESSAGETHREAD__READMSG_OFFSET UNITYSDK_OFFSET(0x1DE132E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 37909;
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 38838;
 
 	class ReadMessageThread : public ::RPG::CustomRP::IOThread
 	{
 	public:
-		::System::IO::MemoryStream* _readMS; // 0x40
-		::RPG::CustomRP::ReadMessageThread_MsgDispatcher* _dispatcher; // 0x48
-		::Il2CppArray<::System::Byte>* _bufferTmp; // 0x50
-		::System::Action_1<::RPG::CustomRP::IRPMessage*>* _callback; // 0x58
-		::System::IO::BinaryReader* _reader; // 0x60
-		::System::IO::BinaryReader* _br; // 0x68
+		::System::IO::BinaryReader* _reader; // 0x40
+		::Il2CppArray<::System::Byte>* _bufferTmp; // 0x48
+		::System::IO::BinaryReader* _br; // 0x50
+		::RPG::CustomRP::ReadMessageThread_MsgDispatcher* _dispatcher; // 0x58
+		::System::IO::MemoryStream* _readMS; // 0x60
+		::System::Action_1<::RPG::CustomRP::IRPMessage*>* _callback; // 0x68
 		::System::Void _ctor(::System::IO::Stream* a1, ::System::Action_1<::RPG::CustomRP::IRPMessage*>* a2, ::System::String* a3, ::RPG::CustomRP::IMsgFactory* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::System::Action_1<::RPG::CustomRP::IRPMessage*>*, ::System::String*, ::RPG::CustomRP::IMsgFactory*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_READMESSAGETHREAD_CTOR_OFFSET))(this, a1, a2, a3, a4);

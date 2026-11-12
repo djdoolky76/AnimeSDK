@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterEnhancedState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHOFPIOIHNG_CTOR_OFFSET UNITYSDK_OFFSET(0xEB89C10)
-#define AHOFPIOIHNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB89C40)
+#define AHOFPIOIHNG_CTOR_OFFSET UNITYSDK_OFFSET(0xF149860)
+#define AHOFPIOIHNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF149890)
 
-inline static constexpr unsigned int AHOFPIOIHNG_TypeDefinitionIndex = 55370;
+inline static constexpr unsigned int AHOFPIOIHNG_TypeDefinitionIndex = 56553;
 
 	class AHOFPIOIHNG
 	{

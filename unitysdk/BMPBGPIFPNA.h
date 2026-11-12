@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define BMPBGPIFPNA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8BD0C0)
+#define BMPBGPIFPNA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA3DDE0)
 
-inline static constexpr unsigned int BMPBGPIFPNA_TypeDefinitionIndex = 42782;
+inline static constexpr unsigned int BMPBGPIFPNA_TypeDefinitionIndex = 43761;
 
 	class BMPBGPIFPNA : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
-		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x20580);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x20588);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x168F0);
+		}
+
+		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
+		{
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "BMPBGPIFPNA")->GetStaticField(0x168F8);
 		}
 
 		// static const ::System::Object MJCOFFAOFMD; // 0x0

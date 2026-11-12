@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayVideo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYVIDEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9329F0)
-#define RPG_GAMECORE_PLAYVIDEO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D932A00)
-#define RPG_GAMECORE_PLAYVIDEO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9329B0)
+#define RPG_GAMECORE_PLAYVIDEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4BB60)
+#define RPG_GAMECORE_PLAYVIDEO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB4BB70)
+#define RPG_GAMECORE_PLAYVIDEO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB4BB20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayVideo_TypeDefinitionIndex = 20878;
+	inline static constexpr unsigned int PlayVideo_TypeDefinitionIndex = 21215;
 
 	class PlayVideo : public ::RPG::GameCore::TaskConfig
 	{

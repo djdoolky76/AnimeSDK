@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define BAPAGANHJII_CTOR_1_OFFSET UNITYSDK_OFFSET(0x15E7FA40)
-#define BAPAGANHJII_CTOR_OFFSET UNITYSDK_OFFSET(0x15E7F9E0)
-#define BAPAGANHJII_INTERP_OFFSET UNITYSDK_OFFSET(0x15E7FAD0)
+#define BAPAGANHJII_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16D03D60)
+#define BAPAGANHJII_CTOR_OFFSET UNITYSDK_OFFSET(0x16D03D00)
+#define BAPAGANHJII_INTERP_OFFSET UNITYSDK_OFFSET(0x16D03DE0)
 
-inline static constexpr unsigned int BAPAGANHJII_TypeDefinitionIndex = 74024;
+inline static constexpr unsigned int BAPAGANHJII_TypeDefinitionIndex = 76160;
 
 	class BAPAGANHJII
 	{
 	public:
-		::System::Boolean KFOEFBPENPP; // 0x20
-		::System::Boolean MHIPFCLLDLD; // 0x21
+		::System::Boolean MHIPFCLLDLD; // 0x20
+		::System::Boolean KFOEFBPENPP; // 0x21
 		::System::Boolean CLBCJFLEAMN; // 0x22
 		::System::Void _ctor(::UnityEngine::Color a1)
 		{

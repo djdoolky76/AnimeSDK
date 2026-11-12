@@ -5,11 +5,11 @@
 namespace ScenenLightManager { class TransformExportData; }
 namespace System { class String; }
 
-#define SCENENLIGHTMANAGER_BASESCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE961170)
+#define SCENENLIGHTMANAGER_BASESCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF47F9C0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int BaseSceneLightExportData_TypeDefinitionIndex = 49144;
+	inline static constexpr unsigned int BaseSceneLightExportData_TypeDefinitionIndex = 50220;
 
 	class BaseSceneLightExportData : public ::ScenenLightManager::MinimalLightImportData
 	{

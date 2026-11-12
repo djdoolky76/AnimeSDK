@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/RtAbilityProperty.h"
 
-inline static constexpr unsigned int AMJPKALDLMI_LOAHLODECJC_TypeDefinitionIndex = 53731;
+inline static constexpr unsigned int AMJPKALDLMI_LOAHLODECJC_TypeDefinitionIndex = 54895;
 
 	struct alignas(4) AMJPKALDLMI_LOAHLODECJC
 	{

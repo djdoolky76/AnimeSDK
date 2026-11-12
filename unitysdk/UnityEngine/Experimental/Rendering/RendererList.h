@@ -8,14 +8,14 @@
 #include "unitysdk/UnityEngine/Rendering/ShaderTagId.h"
 #include "unitysdk/UnityEngine/Experimental/Rendering/RendererListDesc.h"
 
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A5CB0)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x1F2A4500)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CCTOR_OFFSET UNITYSDK_OFFSET(0x20556A20)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_CREATE_OFFSET UNITYSDK_OFFSET(0x20555270)
 #define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xC200)
-#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0xE7630)
+#define UNITYENGINE_EXPERIMENTAL_RENDERING_RENDERERLIST_SET_ISVALID_OFFSET UNITYSDK_OFFSET(0x26200)
 
 namespace UnityEngine::Experimental::Rendering
 {
-	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 35444;
+	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 36372;
 
 	struct alignas(8) RendererList
 	{
@@ -27,12 +27,12 @@ namespace UnityEngine::Experimental::Rendering
 		::System::Nullable_1<::UnityEngine::Rendering::RenderStateBlock> stateBlock; // 0x1CC
 		static ::UnityEngine::Rendering::ShaderTagId* StaticGet_s_EmptyName()
 		{
-			return (::UnityEngine::Rendering::ShaderTagId*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x107F0);
+			return (::UnityEngine::Rendering::ShaderTagId*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x10CA0);
 		}
 
 		static ::UnityEngine::Experimental::Rendering::RendererList* StaticGet_nullRendererList()
 		{
-			return (::UnityEngine::Experimental::Rendering::RendererList*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x107F8);
+			return (::UnityEngine::Experimental::Rendering::RendererList*)UnitySDK::FromName("UnityEngine.Experimental.Rendering", "RendererList")->GetStaticField(0x10CA8);
 		}
 
 		static ::System::Void _cctor()

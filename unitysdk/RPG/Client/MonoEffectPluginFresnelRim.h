@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_CTOR_OFFSET UNITYSDK_OFFSET(0xD800320)
-#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD800170)
+#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_CTOR_OFFSET UNITYSDK_OFFSET(0xE251B20)
+#define RPG_CLIENT_MONOEFFECTPLUGINFRESNELRIM_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xE251970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginFresnelRim_TypeDefinitionIndex = 70007;
+	inline static constexpr unsigned int MonoEffectPluginFresnelRim_TypeDefinitionIndex = 71967;
 
 	class MonoEffectPluginFresnelRim : public ::RPG::Client::MonoEffectPluginCharaReplaceMatBase
 	{

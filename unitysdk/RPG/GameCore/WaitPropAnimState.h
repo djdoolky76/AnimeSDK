@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitPropAnimState; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITPROPANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9E1A0)
-#define RPG_GAMECORE_WAITPROPANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9E1B0)
-#define RPG_GAMECORE_WAITPROPANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9E170)
+#define RPG_GAMECORE_WAITPROPANIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB0BE0)
+#define RPG_GAMECORE_WAITPROPANIMSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB0BF0)
+#define RPG_GAMECORE_WAITPROPANIMSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB0BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPropAnimState_TypeDefinitionIndex = 20686;
+	inline static constexpr unsigned int WaitPropAnimState_TypeDefinitionIndex = 21023;
 
 	class WaitPropAnimState : public ::RPG::GameCore::TaskConfig
 	{
@@ -24,6 +24,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::DynamicFloat* NormalizedTime; // 0x28
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* ForwardCallback; // 0x30
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BackwardCallback; // 0x38
+		::System::Boolean IsLoop; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITPROPANIMSTATE_CTOR_OFFSET))(this);

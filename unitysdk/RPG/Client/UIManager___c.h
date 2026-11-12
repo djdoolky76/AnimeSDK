@@ -5,37 +5,37 @@ namespace RPG::Client { class UIController; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UIMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3C0B40)
-#define RPG_CLIENT_UIMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE3C0B70)
-#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__215_0_OFFSET UNITYSDK_OFFSET(0xE3C0B80)
-#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__215_1_OFFSET UNITYSDK_OFFSET(0xE3C0C10)
-#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__215_2_OFFSET UNITYSDK_OFFSET(0xE3C0CA0)
+#define RPG_CLIENT_UIMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEE7B450)
+#define RPG_CLIENT_UIMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEE7B480)
+#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__215_0_OFFSET UNITYSDK_OFFSET(0xEE7B490)
+#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__215_1_OFFSET UNITYSDK_OFFSET(0xEE7B520)
+#define RPG_CLIENT_UIMANAGER___C___GETFIRSTFOCUSABLECONTROLLER_B__215_2_OFFSET UNITYSDK_OFFSET(0xEE7B5B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIManager___c_TypeDefinitionIndex = 73080;
+	inline static constexpr unsigned int UIManager___c_TypeDefinitionIndex = 75194;
 
 	class UIManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A640);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x43720);
 		}
 
 		static ::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>** StaticGet___9__215_0()
 		{
-			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A648);
+			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x43728);
 		}
 
 		static ::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>** StaticGet___9__215_2()
 		{
-			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A650);
+			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x43730);
 		}
 
 		static ::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>** StaticGet___9__215_1()
 		{
-			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3A658);
+			return (::System::Func_2<::RPG::Client::UIController*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x43738);
 		}
 
 		static ::System::Void _cctor()

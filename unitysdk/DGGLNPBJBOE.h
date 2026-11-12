@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetCountDownWarning; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DGGLNPBJBOE_CTOR_OFFSET UNITYSDK_OFFSET(0xE849F30)
-#define DGGLNPBJBOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE849F40)
-#define DGGLNPBJBOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE849F80)
-#define DGGLNPBJBOE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE84A0B0)
-#define DGGLNPBJBOE_TICK_OFFSET UNITYSDK_OFFSET(0xE84A100)
+#define DGGLNPBJBOE_CTOR_OFFSET UNITYSDK_OFFSET(0xF41BDB0)
+#define DGGLNPBJBOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF41BDC0)
+#define DGGLNPBJBOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF41BE00)
+#define DGGLNPBJBOE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF41BF30)
+#define DGGLNPBJBOE_TICK_OFFSET UNITYSDK_OFFSET(0xF41BF80)
 
-inline static constexpr unsigned int DGGLNPBJBOE_TypeDefinitionIndex = 56400;
+inline static constexpr unsigned int DGGLNPBJBOE_TypeDefinitionIndex = 57618;
 
 	class DGGLNPBJBOE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetCountDownWarning* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetCountDownWarning* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCountDownWarning* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetCountDownWarning*))((::PBYTE)hIl2Cpp + DGGLNPBJBOE_CTOR_OFFSET))(this, a1, a2);

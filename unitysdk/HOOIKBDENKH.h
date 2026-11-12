@@ -3,10 +3,10 @@
 class ABELNLAOFEI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOOIKBDENKH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBE4F0)
-#define HOOIKBDENKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DBE520)
+#define HOOIKBDENKH_CTOR_OFFSET UNITYSDK_OFFSET(0x16D61EB0)
+#define HOOIKBDENKH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D61EE0)
 
-inline static constexpr unsigned int HOOIKBDENKH_TypeDefinitionIndex = 55033;
+inline static constexpr unsigned int HOOIKBDENKH_TypeDefinitionIndex = 56209;
 
 	class HOOIKBDENKH
 	{

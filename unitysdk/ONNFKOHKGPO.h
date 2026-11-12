@@ -4,10 +4,10 @@
 class APDMIIEDMLI_CFHOMFLPNNO;
 namespace System { class String; }
 
-#define ONNFKOHKGPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF5F870)
-#define ONNFKOHKGPO_PARSE_OFFSET UNITYSDK_OFFSET(0xBF5F800)
+#define ONNFKOHKGPO_CTOR_OFFSET UNITYSDK_OFFSET(0xC85E4B0)
+#define ONNFKOHKGPO_PARSE_OFFSET UNITYSDK_OFFSET(0xC85E440)
 
-inline static constexpr unsigned int ONNFKOHKGPO_TypeDefinitionIndex = 59933;
+inline static constexpr unsigned int ONNFKOHKGPO_TypeDefinitionIndex = 61217;
 
 	class ONNFKOHKGPO : public ::System::Object
 	{

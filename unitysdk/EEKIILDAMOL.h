@@ -4,19 +4,20 @@
 class EEKIILDAMOL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EEKIILDAMOL_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1C5FB4C0)
-#define EEKIILDAMOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB530)
+#define EEKIILDAMOL_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1D77CB80)
+#define EEKIILDAMOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77CBF0)
 
-inline static constexpr unsigned int EEKIILDAMOL_TypeDefinitionIndex = 36205;
+inline static constexpr unsigned int EEKIILDAMOL_TypeDefinitionIndex = 37133;
 
 	class EEKIILDAMOL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* CDAAHGAIJMP; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* BFMIOOIDNJM; // 0x18
-		::System::Int32 BDGECKGNFFM; // 0x20
-		::System::Boolean MBCNGGNENHJ; // 0x24
-		::System::Boolean PONDPEDABAF; // 0x25
+		::System::Collections::Generic::List_1<::System::UInt32>* BFMIOOIDNJM; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* CDAAHGAIJMP; // 0x18
+		::System::Boolean PONDPEDABAF; // 0x20
+		::System::Boolean MBCNGGNENHJ; // 0x21
+		::System::Byte _padding0[0x2];
+		::System::Int32 BDGECKGNFFM; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEKIILDAMOL_CTOR_OFFSET))(this);

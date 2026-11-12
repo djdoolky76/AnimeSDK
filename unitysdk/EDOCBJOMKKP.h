@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEffectAnimatorTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDOCBJOMKKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1332D910)
-#define EDOCBJOMKKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1332D940)
+#define EDOCBJOMKKP_CTOR_OFFSET UNITYSDK_OFFSET(0x140EAA60)
+#define EDOCBJOMKKP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140EAA90)
 
-inline static constexpr unsigned int EDOCBJOMKKP_TypeDefinitionIndex = 55490;
+inline static constexpr unsigned int EDOCBJOMKKP_TypeDefinitionIndex = 56678;
 
 	class EDOCBJOMKKP
 	{

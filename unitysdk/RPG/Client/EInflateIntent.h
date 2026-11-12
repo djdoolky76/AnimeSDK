@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EInflateIntent_TypeDefinitionIndex = 68678;
+	inline static constexpr unsigned int EInflateIntent_TypeDefinitionIndex = 70630;
 
 	enum class EInflateIntent : ::System::Int32
 	{

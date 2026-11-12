@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelGroupAtmosphereLoadCondition; }
 namespace RPG::GameCore { class LevelGroupAtmosphereLoadConditionSet; }
 
-#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AF8C0)
-#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7AF790)
+#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F2AD0)
+#define RPG_GAMECORE_LEVELGROUPATMOSPHERELOADCONDITIONSET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9F29A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGroupAtmosphereLoadConditionSet_TypeDefinitionIndex = 17217;
+	inline static constexpr unsigned int LevelGroupAtmosphereLoadConditionSet_TypeDefinitionIndex = 17385;
 
 	class LevelGroupAtmosphereLoadConditionSet : public ::RPG::GameCore::JsonConfig
 	{

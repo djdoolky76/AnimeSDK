@@ -4,10 +4,10 @@
 class NGHEPMFILPE;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 
-#define EMHNMDDCHMD_CTOR_OFFSET UNITYSDK_OFFSET(0x155393F0)
-#define EMHNMDDCHMD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15539400)
+#define EMHNMDDCHMD_CTOR_OFFSET UNITYSDK_OFFSET(0x16485B90)
+#define EMHNMDDCHMD_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16485BA0)
 
-inline static constexpr unsigned int EMHNMDDCHMD_TypeDefinitionIndex = 76263;
+inline static constexpr unsigned int EMHNMDDCHMD_TypeDefinitionIndex = 78594;
 
 	class EMHNMDDCHMD : public ::MLKDDLHNNHH
 	{

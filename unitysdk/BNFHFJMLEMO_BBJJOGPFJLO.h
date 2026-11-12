@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Object; }
 
-#define BNFHFJMLEMO_BBJJOGPFJLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDCB5D0)
+#define BNFHFJMLEMO_BBJJOGPFJLO_CTOR_OFFSET UNITYSDK_OFFSET(0xC749DD0)
 
-inline static constexpr unsigned int BNFHFJMLEMO_BBJJOGPFJLO_TypeDefinitionIndex = 49268;
+inline static constexpr unsigned int BNFHFJMLEMO_BBJJOGPFJLO_TypeDefinitionIndex = 50344;
 
 	class BNFHFJMLEMO_BBJJOGPFJLO : public ::System::Object
 	{

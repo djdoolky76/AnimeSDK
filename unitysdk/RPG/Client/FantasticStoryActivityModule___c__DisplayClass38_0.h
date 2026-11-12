@@ -4,19 +4,19 @@
 namespace RPG::Client { class FantasticStoryActivityModule; }
 namespace RPG::Client { class FantasticStoryBuffData; }
 
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE691A0)
-#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCE6EC50)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD8310B0)
+#define RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0__GETSLOTSTAGEBUFFDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD836B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FantasticStoryActivityModule___c__DisplayClass38_0_TypeDefinitionIndex = 63974;
+	inline static constexpr unsigned int FantasticStoryActivityModule___c__DisplayClass38_0_TypeDefinitionIndex = 65416;
 
 	class FantasticStoryActivityModule___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::FantasticStoryActivityModule* __4__this; // 0x10
-		::System::UInt32 SlotID; // 0x18
-		::System::UInt32 ParagraphID; // 0x1C
+		::System::UInt32 ParagraphID; // 0x18
+		::System::UInt32 SlotID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FANTASTICSTORYACTIVITYMODULE___C__DISPLAYCLASS38_0_CTOR_OFFSET))(this);

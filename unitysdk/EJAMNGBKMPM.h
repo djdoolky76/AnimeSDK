@@ -13,28 +13,28 @@ namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EJAMNGBKMPM_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x154D6400)
-#define EJAMNGBKMPM_AGMJFFJOIAJ_OFFSET UNITYSDK_OFFSET(0x154D77F0)
-#define EJAMNGBKMPM_AJHCKJPACGB_OFFSET UNITYSDK_OFFSET(0x154D76C0)
-#define EJAMNGBKMPM_CTOR_OFFSET UNITYSDK_OFFSET(0x154D7850)
-#define EJAMNGBKMPM_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x154D6550)
-#define EJAMNGBKMPM_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x154D5A40)
+#define EJAMNGBKMPM_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x16416D80)
+#define EJAMNGBKMPM_AGMJFFJOIAJ_OFFSET UNITYSDK_OFFSET(0x164180F0)
+#define EJAMNGBKMPM_AJHCKJPACGB_OFFSET UNITYSDK_OFFSET(0x16417FC0)
+#define EJAMNGBKMPM_CTOR_OFFSET UNITYSDK_OFFSET(0x16418150)
+#define EJAMNGBKMPM_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x16416EE0)
+#define EJAMNGBKMPM_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x164163F0)
 
-inline static constexpr unsigned int EJAMNGBKMPM_TypeDefinitionIndex = 56971;
+inline static constexpr unsigned int EJAMNGBKMPM_TypeDefinitionIndex = 58197;
 
 	class EJAMNGBKMPM : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::PCPJDDKFJHJ>* HFGCJNINKJH; // 0x10
-		::System::String* MKGLDELKOJF; // 0x18
+		::RPG::GameCore::AvatarEnergyBarState* OKBLGLLJGPO; // 0x10
+		::System::Collections::Generic::List_1<::PCPJDDKFJHJ>* HFGCJNINKJH; // 0x18
 		::KCMGAIFFBPL* DFGDPDPNPPL; // 0x20
-		::RPG::GameCore::AvatarEnergyBarState* OKBLGLLJGPO; // 0x28
-		::RPG::GameCore::FixPoint DLBPEEGBIBA; // 0x30
-		::RPG::GameCore::FixPoint EMFGEFNHOIB; // 0x38
-		::System::Int32 PKICDFAEPKE; // 0x40
-		::RPG::GameCore::EnumStatusTypeMask JAPDAFFPAOE; // 0x44
-		::System::Int32 EDGGKIMJPOM; // 0x48
-		::RPG::GameCore::SaveCharacterStateMask BHLJCGNGLMI; // 0x4C
+		::System::String* MKGLDELKOJF; // 0x28
+		::RPG::GameCore::SaveCharacterStateMask BHLJCGNGLMI; // 0x30
+		::RPG::GameCore::EnumStatusTypeMask JAPDAFFPAOE; // 0x34
+		::RPG::GameCore::FixPoint DLBPEEGBIBA; // 0x38
+		::System::Int32 EDGGKIMJPOM; // 0x40
+		::System::Int32 PKICDFAEPKE; // 0x44
+		::RPG::GameCore::FixPoint EMFGEFNHOIB; // 0x48
 		::RPG::GameCore::FixPoint LCPFMGPBMMG; // 0x50
 		::System::Void _ctor()
 		{

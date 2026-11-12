@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec___c__DisplayClass17_0_1_TypeDefinitionIndex = 5382;
+	inline static constexpr unsigned int FieldCodec___c__DisplayClass17_0_1_TypeDefinitionIndex = 5387;
 
 	template <typename T>
 	class FieldCodec___c__DisplayClass17_0_1 : public ::System::Object

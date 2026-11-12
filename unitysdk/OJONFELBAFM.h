@@ -5,15 +5,15 @@
 namespace RPG::GameCore { class LittleGameAbilityConfig; }
 namespace RPG::GameCore { class PixAirCastCondition; }
 
-#define OJONFELBAFM_CTOR_OFFSET UNITYSDK_OFFSET(0xBECFE80)
+#define OJONFELBAFM_CTOR_OFFSET UNITYSDK_OFFSET(0xC7C7590)
 
-inline static constexpr unsigned int OJONFELBAFM_TypeDefinitionIndex = 79397;
+inline static constexpr unsigned int OJONFELBAFM_TypeDefinitionIndex = 82174;
 
 	class OJONFELBAFM : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PixAirCastCondition* OPJCGMMGPOF; // 0x10
-		::RPG::GameCore::LittleGameAbilityConfig* IJLBBLFFADO; // 0x18
+		::RPG::GameCore::LittleGameAbilityConfig* IJLBBLFFADO; // 0x10
+		::RPG::GameCore::PixAirCastCondition* OPJCGMMGPOF; // 0x18
 		::Il2CppArray<::RPG::GameCore::FixPoint>* EPHECEILCCA; // 0x20
 		::System::UInt32 BOKJJKFCFME; // 0x28
 		::System::Void _ctor()

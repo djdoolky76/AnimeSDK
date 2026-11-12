@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDynamicArgConfig; }
 
-#define RPG_GAMECORE_ROGUEDYNAMICARGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C95F0)
-#define RPG_GAMECORE_ROGUEDYNAMICARGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9C95B0)
+#define RPG_GAMECORE_ROGUEDYNAMICARGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC12E00)
+#define RPG_GAMECORE_ROGUEDYNAMICARGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC12DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDynamicArgConfig_TypeDefinitionIndex = 19814;
+	inline static constexpr unsigned int RogueDynamicArgConfig_TypeDefinitionIndex = 20143;
 
 	class RogueDynamicArgConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetNpcAlertConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LAJGEFDLJLM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E5640)
-#define LAJGEFDLJLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5E5670)
+#define LAJGEFDLJLM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE76F60)
+#define LAJGEFDLJLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE76F90)
 
-inline static constexpr unsigned int LAJGEFDLJLM_TypeDefinitionIndex = 52499;
+inline static constexpr unsigned int LAJGEFDLJLM_TypeDefinitionIndex = 53605;
 
 	class LAJGEFDLJLM
 	{

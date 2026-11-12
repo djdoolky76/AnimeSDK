@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelEntityVCameraConfig; }
 
-#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7AC840)
-#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7AC620)
+#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EFEA0)
+#define RPG_GAMECORE_LEVELENTITYVCAMERACONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9EFD90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityVCameraConfig_TypeDefinitionIndex = 17259;
+	inline static constexpr unsigned int LevelEntityVCameraConfig_TypeDefinitionIndex = 17427;
 
 	class LevelEntityVCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

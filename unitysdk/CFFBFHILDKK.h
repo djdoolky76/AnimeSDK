@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CFFBFHILDKK_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA11680)
+#define CFFBFHILDKK_CCTOR_OFFSET UNITYSDK_OFFSET(0xD37BC10)
 
-inline static constexpr unsigned int CFFBFHILDKK_TypeDefinitionIndex = 69496;
+inline static constexpr unsigned int CFFBFHILDKK_TypeDefinitionIndex = 71450;
 
 	class CFFBFHILDKK : public ::System::Object
 	{

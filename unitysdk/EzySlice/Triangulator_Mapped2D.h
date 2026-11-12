@@ -9,7 +9,7 @@
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Triangulator_Mapped2D_TypeDefinitionIndex = 47003;
+	inline static constexpr unsigned int Triangulator_Mapped2D_TypeDefinitionIndex = 48031;
 
 	struct alignas(4) Triangulator_Mapped2D
 	{

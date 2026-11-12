@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class MCMFHHKJDEE;
 
-#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1427C0)
-#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__GETSTORYLINEFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0xE142D50)
+#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEFAB0)
+#define RPG_CLIENT_STORYLINEDATA___C__DISPLAYCLASS36_0__GETSTORYLINEFLOOR_B__0_OFFSET UNITYSDK_OFFSET(0xEBF0040)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineData___c__DisplayClass36_0_TypeDefinitionIndex = 67989;
+	inline static constexpr unsigned int StoryLineData___c__DisplayClass36_0_TypeDefinitionIndex = 69935;
 
 	class StoryLineData___c__DisplayClass36_0 : public ::System::Object
 	{

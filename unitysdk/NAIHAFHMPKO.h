@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAvatarAssistant; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAIHAFHMPKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9C5F0)
-#define NAIHAFHMPKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA9C640)
+#define NAIHAFHMPKO_CTOR_OFFSET UNITYSDK_OFFSET(0xC321320)
+#define NAIHAFHMPKO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC321370)
 
-inline static constexpr unsigned int NAIHAFHMPKO_TypeDefinitionIndex = 59147;
+inline static constexpr unsigned int NAIHAFHMPKO_TypeDefinitionIndex = 60423;
 
 	class NAIHAFHMPKO
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/MulticastDelegate.h"
 
-inline static constexpr unsigned int FGLELNGFMGN_TypeDefinitionIndex = 44122;
+inline static constexpr unsigned int FGLELNGFMGN_TypeDefinitionIndex = 45197;
 
 	class FGLELNGFMGN : public ::System::MulticastDelegate
 	{

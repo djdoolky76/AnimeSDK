@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelNavNodeInnerGraphEditorInfo; }
 
-#define RPG_GAMECORE_LEVELNAVNODEINNERGRAPHEDITORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BB490)
-#define RPG_GAMECORE_LEVELNAVNODEINNERGRAPHEDITORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7BB450)
+#define RPG_GAMECORE_LEVELNAVNODEINNERGRAPHEDITORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FD390)
+#define RPG_GAMECORE_LEVELNAVNODEINNERGRAPHEDITORINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9FD350)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelNavNodeInnerGraphEditorInfo_TypeDefinitionIndex = 17389;
+	inline static constexpr unsigned int LevelNavNodeInnerGraphEditorInfo_TypeDefinitionIndex = 17557;
 
 	class LevelNavNodeInnerGraphEditorInfo : public ::RPG::GameCore::JsonConfig
 	{

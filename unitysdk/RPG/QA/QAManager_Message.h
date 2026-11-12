@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPG_QA_QAMANAGER_MESSAGE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF6D20)
-#define RPG_QA_QAMANAGER_MESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0xF6D00)
-#define RPG_QA_QAMANAGER_MESSAGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xF6D40)
+#define RPG_QA_QAMANAGER_MESSAGE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x103C70)
+#define RPG_QA_QAMANAGER_MESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x103C50)
+#define RPG_QA_QAMANAGER_MESSAGE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x103C90)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int QAManager_Message_TypeDefinitionIndex = 51816;
+	inline static constexpr unsigned int QAManager_Message_TypeDefinitionIndex = 52902;
 
 	struct alignas(8) QAManager_Message
 	{

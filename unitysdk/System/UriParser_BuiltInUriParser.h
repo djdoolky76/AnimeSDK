@@ -4,7 +4,7 @@
 #include "unitysdk/System/UriSyntaxFlags.h"
 namespace System { class String; }
 
-#define SYSTEM_URIPARSER_BUILTINURIPARSER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F13D0)
+#define SYSTEM_URIPARSER_BUILTINURIPARSER_CTOR_OFFSET UNITYSDK_OFFSET(0x203A2390)
 
 namespace System
 {

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetCharacterCustomTeamFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHNOBAFJJBH_CTOR_OFFSET UNITYSDK_OFFSET(0xEB88E80)
-#define AHNOBAFJJBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB88EB0)
+#define AHNOBAFJJBH_CTOR_OFFSET UNITYSDK_OFFSET(0xF148AD0)
+#define AHNOBAFJJBH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF148B00)
 
-inline static constexpr unsigned int AHNOBAFJJBH_TypeDefinitionIndex = 55316;
+inline static constexpr unsigned int AHNOBAFJJBH_TypeDefinitionIndex = 56498;
 
 	class AHNOBAFJJBH
 	{

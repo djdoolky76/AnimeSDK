@@ -6,27 +6,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyPassengerConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPASSENGERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC33660)
-#define RPG_GAMECORE_TRAINPARTYPASSENGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC33260)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE46900)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE46500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPassengerConfigRow_TypeDefinitionIndex = 15318;
+	inline static constexpr unsigned int TrainPartyPassengerConfigRow_TypeDefinitionIndex = 15474;
 
 	class TrainPartyPassengerConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* MeetingIconPath; // 0x10
-		::System::String* AvatarRoundIconBgPath; // 0x18
-		::System::String* AvatarRoundIconPath; // 0x20
-		::System::String* MiniIconPath; // 0x28
-		::System::String* AvatarCardPrefabPath; // 0x30
-		::System::String* IconPath; // 0x38
-		::RPG::Client::TextID UnlcokDesc; // 0x40
+		::System::String* AvatarRoundIconPath; // 0x10
+		::System::String* MiniIconPath; // 0x18
+		::System::String* AvatarCardPrefabPath; // 0x20
+		::System::String* IconPath; // 0x28
+		::System::String* AvatarRoundIconBgPath; // 0x30
+		::System::String* MeetingIconPath; // 0x38
+		::System::UInt32 DiaryOrder; // 0x40
+		::System::UInt32 PassengerID; // 0x44
+		::System::UInt32 PassengerQuest; // 0x48
+		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Name; // 0x50
-		::System::UInt32 PassengerQuest; // 0x60
-		::System::UInt32 PassengerID; // 0x64
-		::System::UInt32 DiaryOrder; // 0x68
+		::RPG::Client::TextID UnlcokDesc; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPASSENGERCONFIGROW_CTOR_OFFSET))(this);

@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class PetMarbleSpecialTalk; }
 
-#define PNNMHFGEHCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F9230)
-#define PNNMHFGEHCD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9F9240)
+#define PNNMHFGEHCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBBC950)
+#define PNNMHFGEHCD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DBBC960)
 
-inline static constexpr unsigned int PNNMHFGEHCD_TypeDefinitionIndex = 43106;
+inline static constexpr unsigned int PNNMHFGEHCD_TypeDefinitionIndex = 44087;
 
 	class PNNMHFGEHCD : public ::BKABEBEPPJK
 	{

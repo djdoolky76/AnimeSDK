@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MGGAIAJILFC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB91CA20)
-#define MGGAIAJILFC___C__DISPLAYCLASS6_0__LAUNCH_B__0_OFFSET UNITYSDK_OFFSET(0xB91CA80)
+#define MGGAIAJILFC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1D0220)
+#define MGGAIAJILFC___C__DISPLAYCLASS6_0__LAUNCH_B__0_OFFSET UNITYSDK_OFFSET(0xC1D0280)
 
-inline static constexpr unsigned int MGGAIAJILFC___c__DisplayClass6_0_TypeDefinitionIndex = 69482;
+inline static constexpr unsigned int MGGAIAJILFC___c__DisplayClass6_0_TypeDefinitionIndex = 71436;
 
 	class MGGAIAJILFC___c__DisplayClass6_0 : public ::System::Object
 	{

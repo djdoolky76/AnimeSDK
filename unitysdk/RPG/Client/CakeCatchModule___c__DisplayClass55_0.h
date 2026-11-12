@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class CakeCatchCatData; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8EB3E0)
-#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__ISCAKELOCALAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0xC8ED130)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD250470)
+#define RPG_CLIENT_CAKECATCHMODULE___C__DISPLAYCLASS55_0__ISCAKELOCALAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0xD2521E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass55_0_TypeDefinitionIndex = 62970;
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass55_0_TypeDefinitionIndex = 64408;
 
 	class CakeCatchModule___c__DisplayClass55_0 : public ::System::Object
 	{

@@ -4,15 +4,15 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SetComponentAssetAnimStateConfig; }
 
-#define NBBBBGDEFLP_KEEHKEKMOHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBABCEB0)
+#define NBBBBGDEFLP_KEEHKEKMOHI_CTOR_OFFSET UNITYSDK_OFFSET(0xC342400)
 
-inline static constexpr unsigned int NBBBBGDEFLP_KEEHKEKMOHI_TypeDefinitionIndex = 55379;
+inline static constexpr unsigned int NBBBBGDEFLP_KEEHKEKMOHI_TypeDefinitionIndex = 56562;
 
 	class NBBBBGDEFLP_KEEHKEKMOHI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::SetComponentAssetAnimStateConfig* EABKOHGCHFP; // 0x10
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+		::RPG::GameCore::SetComponentAssetAnimStateConfig* EABKOHGCHFP; // 0x18
 		::System::Single GFCFHLJEHMC; // 0x20
 		::System::Void _ctor()
 		{

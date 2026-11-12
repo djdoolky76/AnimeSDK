@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPGTools::Timeline { class OverrideTransform; }
 
-#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_EKIBOPLECIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE912C80)
+#define RPGTOOLS_TIMELINE_OVERRIDETRANSFORMMIXER_EKIBOPLECIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF3EE7A0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int OverrideTransformMixer_EKIBOPLECIJ_TypeDefinitionIndex = 47997;
+	inline static constexpr unsigned int OverrideTransformMixer_EKIBOPLECIJ_TypeDefinitionIndex = 49028;
 
 	class OverrideTransformMixer_EKIBOPLECIJ : public ::System::Object
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Newtonsoft/Json/Utilities/ParserTimeZone.h"
 
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C40AB40)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE2DIGIT_OFFSET UNITYSDK_OFFSET(0x3C26270)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE4DIGIT_OFFSET UNITYSDK_OFFSET(0x3C26260)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSECHAR_OFFSET UNITYSDK_OFFSET(0x3C26300)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEDATE_OFFSET UNITYSDK_OFFSET(0x3C261F0)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x3C26200)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x3C26240)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEZONE_OFFSET UNITYSDK_OFFSET(0x3C26250)
-#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x3C261E0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D591340)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE2DIGIT_OFFSET UNITYSDK_OFFSET(0x3E751F0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE4DIGIT_OFFSET UNITYSDK_OFFSET(0x3E751E0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSECHAR_OFFSET UNITYSDK_OFFSET(0x3E75280)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEDATE_OFFSET UNITYSDK_OFFSET(0x3E75170)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIMEANDZONEANDWHITESPACE_OFFSET UNITYSDK_OFFSET(0x3E75180)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSETIME_OFFSET UNITYSDK_OFFSET(0x3E751C0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSEZONE_OFFSET UNITYSDK_OFFSET(0x3E751D0)
+#define NEWTONSOFT_JSON_UTILITIES_DATETIMEPARSER_PARSE_OFFSET UNITYSDK_OFFSET(0x3E75160)
 
 namespace Newtonsoft::Json::Utilities
 {
-	inline static constexpr unsigned int DateTimeParser_TypeDefinitionIndex = 9630;
+	inline static constexpr unsigned int DateTimeParser_TypeDefinitionIndex = 9638;
 
 	struct alignas(8) DateTimeParser
 	{
@@ -32,72 +32,72 @@ namespace Newtonsoft::Json::Utilities
 		::System::Int32 _end; // 0x40
 		static ::Il2CppArray<::System::Int32>** StaticGet_Power10()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0x31670);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy_MM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA600);
-		}
-
-		static ::System::Int32* StaticGet_LzHH_mm_ss()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA604);
-		}
-
-		static ::System::Int32* StaticGet_Lz_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA608);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA60C);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy_MM_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA610);
-		}
-
-		static ::System::Int32* StaticGet_LzHH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA614);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy_MM_dd()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA618);
-		}
-
-		static ::System::Int32* StaticGet_LzHH_mm_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA61C);
-		}
-
-		static ::System::Int32* StaticGet_Lzyyyy_()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA620);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0x30210);
 		}
 
 		static ::System::Int32* StaticGet_LzHH_()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA624);
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA240);
 		}
 
 		static ::System::Int32* StaticGet_Lz_zz()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA628);
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA244);
+		}
+
+		static ::System::Int32* StaticGet_Lz_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA248);
+		}
+
+		static ::System::Int32* StaticGet_LzHH_mm_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA24C);
+		}
+
+		static ::System::Int32* StaticGet_LzHH_mm_ss()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA250);
+		}
+
+		static ::System::Int32* StaticGet_LzHH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA254);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy_MM_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA258);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy_MM_dd()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA25C);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy_()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA260);
 		}
 
 		static ::System::Int32* StaticGet_Lzyyyy_MM_ddT()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA62C);
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA264);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA268);
 		}
 
 		static ::System::Int32* StaticGet_LzHH_mm()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA630);
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA26C);
+		}
+
+		static ::System::Int32* StaticGet_Lzyyyy_MM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Newtonsoft.Json.Utilities", "DateTimeParser")->GetStaticField(0xA270);
 		}
 
 		static ::System::Void _cctor()

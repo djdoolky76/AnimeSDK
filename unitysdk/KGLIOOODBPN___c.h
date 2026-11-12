@@ -4,18 +4,18 @@
 class KGLIOOODBPN;
 namespace System { class Object; }
 
-#define KGLIOOODBPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E839EA0)
-#define KGLIOOODBPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E839EE0)
-#define KGLIOOODBPN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E839EF0)
+#define KGLIOOODBPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB537C0)
+#define KGLIOOODBPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB53800)
+#define KGLIOOODBPN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB53810)
 
-inline static constexpr unsigned int KGLIOOODBPN___c_TypeDefinitionIndex = 33165;
+inline static constexpr unsigned int KGLIOOODBPN___c_TypeDefinitionIndex = 34080;
 
 	class KGLIOOODBPN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x161D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF7A0);
 		}
 
 		static ::System::Void _cctor()

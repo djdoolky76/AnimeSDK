@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SelectRubikGroup; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SELECTRUBIKGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8C640)
-#define RPG_GAMECORE_SELECTRUBIKGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8C650)
-#define RPG_GAMECORE_SELECTRUBIKGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8C610)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9ECB0)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC9ECC0)
+#define RPG_GAMECORE_SELECTRUBIKGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9EC80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectRubikGroup_TypeDefinitionIndex = 22144;
+	inline static constexpr unsigned int SelectRubikGroup_TypeDefinitionIndex = 22549;
 
 	class SelectRubikGroup : public ::RPG::GameCore::TaskConfig
 	{

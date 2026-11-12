@@ -5,12 +5,12 @@
 class FBCGFMLJMLM;
 namespace RPG::Client::NavMap { class ICartographer; }
 
-#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD004490)
-#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__TRIGGERFINDCHEST_B__0_OFFSET UNITYSDK_OFFSET(0xD0044A0)
+#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD986360)
+#define RPG_CLIENT_FINDCHESTMODULE___C__DISPLAYCLASS4_0__TRIGGERFINDCHEST_B__0_OFFSET UNITYSDK_OFFSET(0xD988080)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FindChestModule___c__DisplayClass4_0_TypeDefinitionIndex = 64202;
+	inline static constexpr unsigned int FindChestModule___c__DisplayClass4_0_TypeDefinitionIndex = 65647;
 
 	class FindChestModule___c__DisplayClass4_0 : public ::System::Object
 	{

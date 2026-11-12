@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvDisableNpcSyncMotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CELILNMLNMP_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E4900)
-#define CELILNMLNMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9E4930)
+#define CELILNMLNMP_CTOR_OFFSET UNITYSDK_OFFSET(0xD3491F0)
+#define CELILNMLNMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD349220)
 
-inline static constexpr unsigned int CELILNMLNMP_TypeDefinitionIndex = 57875;
+inline static constexpr unsigned int CELILNMLNMP_TypeDefinitionIndex = 59112;
 
 	class CELILNMLNMP
 	{

@@ -5,11 +5,11 @@
 namespace RPG::Client { class IRogueMiracle; }
 namespace System { class Object; }
 
-#define BPEPLABIOEB_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A41F0)
-#define BPEPLABIOEB_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xC1A4200)
-#define BPEPLABIOEB_MNJBPJFMLJD_OFFSET UNITYSDK_OFFSET(0xC1A4380)
+#define BPEPLABIOEB_CTOR_OFFSET UNITYSDK_OFFSET(0xCB44D40)
+#define BPEPLABIOEB_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xCB44D50)
+#define BPEPLABIOEB_MNJBPJFMLJD_OFFSET UNITYSDK_OFFSET(0xCB44ED0)
 
-inline static constexpr unsigned int BPEPLABIOEB_TypeDefinitionIndex = 67261;
+inline static constexpr unsigned int BPEPLABIOEB_TypeDefinitionIndex = 69205;
 
 	class BPEPLABIOEB : public ::System::Object
 	{

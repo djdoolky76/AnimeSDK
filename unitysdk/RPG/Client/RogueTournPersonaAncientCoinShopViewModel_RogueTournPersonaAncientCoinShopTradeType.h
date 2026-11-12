@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaAncientCoinShopViewModel_RogueTournPersonaAncientCoinShopTradeType_TypeDefinitionIndex = 72878;
+	inline static constexpr unsigned int RogueTournPersonaAncientCoinShopViewModel_RogueTournPersonaAncientCoinShopTradeType_TypeDefinitionIndex = 74988;
 
 	enum class RogueTournPersonaAncientCoinShopViewModel_RogueTournPersonaAncientCoinShopTradeType : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class LDCFLPGNOJE;
 namespace System { class Object; }
 
-#define LDCFLPGNOJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8F3DC0)
-#define LDCFLPGNOJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F3E00)
-#define LDCFLPGNOJE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8F3E10)
+#define LDCFLPGNOJE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC32490)
+#define LDCFLPGNOJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC324D0)
+#define LDCFLPGNOJE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC324E0)
 
-inline static constexpr unsigned int LDCFLPGNOJE___c_TypeDefinitionIndex = 28898;
+inline static constexpr unsigned int LDCFLPGNOJE___c_TypeDefinitionIndex = 29488;
 
 	class LDCFLPGNOJE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x339D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29420);
 		}
 
 		static ::System::Void _cctor()

@@ -11,22 +11,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::UI { class Text; }
 
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x1ED574D0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED575A0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED57590)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMAXVALUE_OFFSET UNITYSDK_OFFSET(0x1ED57000)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMINVALUE_OFFSET UNITYSDK_OFFSET(0x1ED57210)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISDECIMALTYPE_OFFSET UNITYSDK_OFFSET(0x1ED56F10)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISINTEGERTYPE_OFFSET UNITYSDK_OFFSET(0x1ED56E20)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x1ED56A90)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1ED569F0)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x1ED57420)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x1ED57560)
-#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_START_OFFSET UNITYSDK_OFFSET(0x1ED56910)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CANBIND_OFFSET UNITYSDK_OFFSET(0x20006FF0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0x200070C0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0x200070B0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMAXVALUE_OFFSET UNITYSDK_OFFSET(0x20006B20)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_GETMINVALUE_OFFSET UNITYSDK_OFFSET(0x20006D30)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISDECIMALTYPE_OFFSET UNITYSDK_OFFSET(0x20006A30)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ISINTEGERTYPE_OFFSET UNITYSDK_OFFSET(0x20006940)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONBIND_OFFSET UNITYSDK_OFFSET(0x200065B0)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUECHANGED_OFFSET UNITYSDK_OFFSET(0x20006510)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_ONVALUEUPDATED_OFFSET UNITYSDK_OFFSET(0x20006F40)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_OPTIONCONTROL_OFFSET UNITYSDK_OFFSET(0x20007080)
+#define SRDEBUGGER_UI_CONTROLS_DATA_NUMBERCONTROL_START_OFFSET UNITYSDK_OFFSET(0x20006430)
 
 namespace SRDebugger::UI::Controls::Data
 {
-	inline static constexpr unsigned int NumberControl_TypeDefinitionIndex = 38044;
+	inline static constexpr unsigned int NumberControl_TypeDefinitionIndex = 38973;
 
 	class NumberControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
@@ -38,19 +38,19 @@ namespace SRDebugger::UI::Controls::Data
 		::SRF::UI::SRNumberSpinner* NumberSpinner; // 0xB8
 		::UnityEngine::UI::Text* Title; // 0xC0
 		::SRF::UI::SRNumberButton* UpNumberButton; // 0xC8
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_ValueRanges()
+		static ::Il2CppArray<::System::Type*>** StaticGet_IntegerTypes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x3BD70);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x33E20);
 		}
 
 		static ::Il2CppArray<::System::Type*>** StaticGet_DecimalTypes()
 		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x3BD78);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x33E28);
 		}
 
-		static ::Il2CppArray<::System::Type*>** StaticGet_IntegerTypes()
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_ValueRanges()
 		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x3BD80);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("SRDebugger.UI.Controls.Data", "NumberControl")->GetStaticField(0x33E30);
 		}
 
 		::System::Void _ctor()

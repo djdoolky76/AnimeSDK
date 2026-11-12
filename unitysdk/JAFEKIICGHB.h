@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JAFEKIICGHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8AA50)
+#define JAFEKIICGHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD51040)
 
-inline static constexpr unsigned int JAFEKIICGHB_TypeDefinitionIndex = 42366;
+inline static constexpr unsigned int JAFEKIICGHB_TypeDefinitionIndex = 43341;
 
 	class JAFEKIICGHB : public ::System::Object
 	{

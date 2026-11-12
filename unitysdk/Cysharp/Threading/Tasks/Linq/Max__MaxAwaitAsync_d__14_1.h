@@ -11,7 +11,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Max__MaxAwaitAsync_d__14_1_TypeDefinitionIndex = 45444;
+	inline static constexpr unsigned int Max__MaxAwaitAsync_d__14_1_TypeDefinitionIndex = 46473;
 
 	template <typename T>
 	struct alignas(8) Max__MaxAwaitAsync_d__14_1

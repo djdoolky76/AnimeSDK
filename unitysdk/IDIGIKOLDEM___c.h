@@ -4,18 +4,18 @@
 class IDIGIKOLDEM;
 namespace System { class Object; }
 
-#define IDIGIKOLDEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E62C9A0)
-#define IDIGIKOLDEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62C9E0)
-#define IDIGIKOLDEM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E62C9F0)
+#define IDIGIKOLDEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F94A180)
+#define IDIGIKOLDEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F94A1C0)
+#define IDIGIKOLDEM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F94A1D0)
 
-inline static constexpr unsigned int IDIGIKOLDEM___c_TypeDefinitionIndex = 29751;
+inline static constexpr unsigned int IDIGIKOLDEM___c_TypeDefinitionIndex = 30649;
 
 	class IDIGIKOLDEM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x463E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D510);
 		}
 
 		static ::System::Void _cctor()

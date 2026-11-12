@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBossHPStanceChangeType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBGDNLEFPGO_CTOR_OFFSET UNITYSDK_OFFSET(0x12CEFC80)
-#define EBGDNLEFPGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CEFCB0)
+#define EBGDNLEFPGO_CTOR_OFFSET UNITYSDK_OFFSET(0x13AA0CF0)
+#define EBGDNLEFPGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AA0D20)
 
-inline static constexpr unsigned int EBGDNLEFPGO_TypeDefinitionIndex = 55360;
+inline static constexpr unsigned int EBGDNLEFPGO_TypeDefinitionIndex = 56543;
 
 	class EBGDNLEFPGO
 	{

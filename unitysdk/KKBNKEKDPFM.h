@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KKBNKEKDPFM_TypeDefinitionIndex = 30795;
+inline static constexpr unsigned int KKBNKEKDPFM_TypeDefinitionIndex = 31708;
 
 	enum class KKBNKEKDPFM : ::System::Int32
 	{

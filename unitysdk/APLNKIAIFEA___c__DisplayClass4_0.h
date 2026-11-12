@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class APLNKIAIFEA;
 
-#define APLNKIAIFEA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB4400)
-#define APLNKIAIFEA___C__DISPLAYCLASS4_0__SELECTDEVELOPPARTASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x15BB47B0)
+#define APLNKIAIFEA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16A15090)
+#define APLNKIAIFEA___C__DISPLAYCLASS4_0__SELECTDEVELOPPARTASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x16A15440)
 
-inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass4_0_TypeDefinitionIndex = 81814;
+inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass4_0_TypeDefinitionIndex = 84595;
 
 	class APLNKIAIFEA___c__DisplayClass4_0 : public ::System::Object
 	{

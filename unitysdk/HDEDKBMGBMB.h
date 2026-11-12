@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HDEDKBMGBMB_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C49A70)
+#define HDEDKBMGBMB_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3E98ED0)
 
-inline static constexpr unsigned int HDEDKBMGBMB_TypeDefinitionIndex = 6279;
+inline static constexpr unsigned int HDEDKBMGBMB_TypeDefinitionIndex = 6286;
 
 	struct alignas(4) HDEDKBMGBMB
 	{

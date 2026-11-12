@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define IRI_DECALCUSTOMDATA_INSTANCEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x16533720)
+#define IRI_DECALCUSTOMDATA_INSTANCEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB868180)
 
-inline static constexpr unsigned int IRI_DecalCustomData_InstanceData_TypeDefinitionIndex = 47171;
+inline static constexpr unsigned int IRI_DecalCustomData_InstanceData_TypeDefinitionIndex = 48199;
 
 	struct alignas(4) IRI_DecalCustomData_InstanceData
 	{
@@ -16,7 +16,7 @@ inline static constexpr unsigned int IRI_DecalCustomData_InstanceData_TypeDefini
 		::UnityEngine::Color CustomColor; // 0x2C
 		static ::IRI_DecalCustomData_InstanceData* StaticGet_DefaultValue()
 		{
-			return (::IRI_DecalCustomData_InstanceData*)UnitySDK::FromName("", "InstanceData")->GetStaticField(0x15410);
+			return (::IRI_DecalCustomData_InstanceData*)UnitySDK::FromName("", "InstanceData")->GetStaticField(0x136C0);
 		}
 
 		static ::System::Void _cctor()

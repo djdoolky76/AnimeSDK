@@ -5,18 +5,18 @@ namespace RPG::GameCore { class CharacterEyeBloomConfig; }
 namespace RPG::GameCore { class CharacterEyeBloomMappingConfig; }
 namespace System { class String; }
 
-#define DHDKJEOKMBI_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xEBCC340)
-#define DHDKJEOKMBI_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xEBCC250)
-#define DHDKJEOKMBI_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xEBCC2F0)
+#define DHDKJEOKMBI_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xF44A9C0)
+#define DHDKJEOKMBI_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xF44A8D0)
+#define DHDKJEOKMBI_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xF44A970)
 
-inline static constexpr unsigned int DHDKJEOKMBI_TypeDefinitionIndex = 73293;
+inline static constexpr unsigned int DHDKJEOKMBI_TypeDefinitionIndex = 75409;
 
 	class DHDKJEOKMBI : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::CharacterEyeBloomMappingConfig** StaticGet_IGHAHBNLIJA()
 		{
-			return (::RPG::GameCore::CharacterEyeBloomMappingConfig**)UnitySDK::FromName("", "DHDKJEOKMBI")->GetStaticField(0x52370);
+			return (::RPG::GameCore::CharacterEyeBloomMappingConfig**)UnitySDK::FromName("", "DHDKJEOKMBI")->GetStaticField(0x5EE70);
 		}
 
 		static ::System::Void HCFINLKPIHL()

@@ -4,18 +4,18 @@
 class INGKNDHECNF;
 namespace System { class Object; }
 
-#define INGKNDHECNF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C1C90)
-#define INGKNDHECNF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C1CD0)
-#define INGKNDHECNF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6C1CE0)
+#define INGKNDHECNF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9CA080)
+#define INGKNDHECNF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9CA0C0)
+#define INGKNDHECNF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F9CA0D0)
 
-inline static constexpr unsigned int INGKNDHECNF___c_TypeDefinitionIndex = 31178;
+inline static constexpr unsigned int INGKNDHECNF___c_TypeDefinitionIndex = 32091;
 
 	class INGKNDHECNF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58410);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56B70);
 		}
 
 		static ::System::Void _cctor()

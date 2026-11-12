@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleGameAreaUsage_TypeDefinitionIndex = 74718;
+	inline static constexpr unsigned int PetMarbleGameAreaUsage_TypeDefinitionIndex = 76866;
 
 	enum class PetMarbleGameAreaUsage : ::System::Int32
 	{

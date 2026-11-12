@@ -4,10 +4,10 @@
 class FDCJIIKHHHB;
 class MGFNPLKAALN;
 
-#define MGFNPLKAALN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB91AE70)
-#define MGFNPLKAALN___C__DISPLAYCLASS3_0__FINISHREPORT_B__0_OFFSET UNITYSDK_OFFSET(0xB91AE80)
+#define MGFNPLKAALN___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1CE690)
+#define MGFNPLKAALN___C__DISPLAYCLASS3_0__FINISHREPORT_B__0_OFFSET UNITYSDK_OFFSET(0xC1CE6A0)
 
-inline static constexpr unsigned int MGFNPLKAALN___c__DisplayClass3_0_TypeDefinitionIndex = 80225;
+inline static constexpr unsigned int MGFNPLKAALN___c__DisplayClass3_0_TypeDefinitionIndex = 83002;
 
 	class MGFNPLKAALN___c__DisplayClass3_0 : public ::System::Object
 	{

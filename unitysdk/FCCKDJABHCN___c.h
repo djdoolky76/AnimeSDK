@@ -5,29 +5,29 @@ class FCCKDJABHCN;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define FCCKDJABHCN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x156B4010)
-#define FCCKDJABHCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156B4040)
-#define FCCKDJABHCN___C__GET__FIXEDUPDATEACTION_B__21_0_OFFSET UNITYSDK_OFFSET(0x156B4050)
-#define FCCKDJABHCN___C__GET__LATEFIXEDUPDATEACTION_B__23_0_OFFSET UNITYSDK_OFFSET(0x156B4070)
+#define FCCKDJABHCN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x165CBE20)
+#define FCCKDJABHCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x165CBE50)
+#define FCCKDJABHCN___C__GET__FIXEDUPDATEACTION_B__21_0_OFFSET UNITYSDK_OFFSET(0x165CBE60)
+#define FCCKDJABHCN___C__GET__LATEFIXEDUPDATEACTION_B__23_0_OFFSET UNITYSDK_OFFSET(0x165CBE80)
 
-inline static constexpr unsigned int FCCKDJABHCN___c_TypeDefinitionIndex = 77149;
+inline static constexpr unsigned int FCCKDJABHCN___c_TypeDefinitionIndex = 79483;
 
 	class FCCKDJABHCN___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCCKDJABHCN*>** StaticGet___9__21_0()
-		{
-			return (::System::Action_1<::FCCKDJABHCN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBF0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EBF8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48F20);
+		}
+
+		static ::System::Action_1<::FCCKDJABHCN*>** StaticGet___9__21_0()
+		{
+			return (::System::Action_1<::FCCKDJABHCN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48F28);
 		}
 
 		static ::System::Action_1<::FCCKDJABHCN*>** StaticGet___9__23_0()
 		{
-			return (::System::Action_1<::FCCKDJABHCN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC00);
+			return (::System::Action_1<::FCCKDJABHCN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48F30);
 		}
 
 		static ::System::Void _cctor()

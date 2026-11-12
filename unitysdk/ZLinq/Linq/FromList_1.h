@@ -4,7 +4,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromList_1_TypeDefinitionIndex = 6107;
+	inline static constexpr unsigned int FromList_1_TypeDefinitionIndex = 6115;
 
 	template <typename T>
 	struct alignas(8) FromList_1

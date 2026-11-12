@@ -5,18 +5,18 @@ class HKJEGBONDGA;
 class NHCHDKJLNBJ;
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceEntranceViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xC9462E0)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xC9462D0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CREATE_OFFSET UNITYSDK_OFFSET(0xD2ABDF0)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD2ABDE0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceEntranceViewModel_Factory_TypeDefinitionIndex = 81588;
+	inline static constexpr unsigned int ChallengeTierceEntranceViewModel_Factory_TypeDefinitionIndex = 84369;
 
 	class ChallengeTierceEntranceViewModel_Factory : public ::System::Object
 	{
 	public:
-		::NHCHDKJLNBJ* _Repository; // 0x10
-		::HKJEGBONDGA* _SwitchService; // 0x18
+		::HKJEGBONDGA* _SwitchService; // 0x10
+		::NHCHDKJLNBJ* _Repository; // 0x18
 		::System::Void _ctor(::NHCHDKJLNBJ* a1, ::HKJEGBONDGA* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::NHCHDKJLNBJ*, ::HKJEGBONDGA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCEENTRANCEVIEWMODEL_FACTORY_CTOR_OFFSET))(this, a1, a2);

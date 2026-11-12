@@ -6,18 +6,18 @@
 class FCOEMCEDLNL;
 class OFHBIFPNNBH;
 
-#define OFHBIFPNNBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D269340)
-#define OFHBIFPNNBH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D269150)
+#define OFHBIFPNNBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E46F590)
+#define OFHBIFPNNBH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E46F3A0)
 
-inline static constexpr unsigned int OFHBIFPNNBH_TypeDefinitionIndex = 11549;
+inline static constexpr unsigned int OFHBIFPNNBH_TypeDefinitionIndex = 11600;
 
 	class OFHBIFPNNBH : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* OFIGPIFELHJ; // 0x10
-		::Il2CppArray<::System::UInt32>* NJBEMAEAEIL; // 0x18
-		::RPG::GameCore::FateRinHouguOwnerType LOALOLNACOA; // 0x20
-		::RPG::GameCore::FateRinDeckRecommendTiming JGAKLKBOPEG; // 0x24
+		::Il2CppArray<::System::UInt32>* NJBEMAEAEIL; // 0x10
+		::Il2CppArray<::System::UInt32>* OFIGPIFELHJ; // 0x18
+		::RPG::GameCore::FateRinDeckRecommendTiming JGAKLKBOPEG; // 0x20
+		::RPG::GameCore::FateRinHouguOwnerType LOALOLNACOA; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFHBIFPNNBH_CTOR_OFFSET))(this);

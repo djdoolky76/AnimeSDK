@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EOABGMGNKGA;
 
-#define KENPNFDNDEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB37FEE0)
-#define KENPNFDNDEL_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xB37FEF0)
+#define KENPNFDNDEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0ACB0)
+#define KENPNFDNDEL_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xBC0ACC0)
 
-inline static constexpr unsigned int KENPNFDNDEL_TypeDefinitionIndex = 59267;
+inline static constexpr unsigned int KENPNFDNDEL_TypeDefinitionIndex = 60544;
 
 	class KENPNFDNDEL : public ::System::Object
 	{

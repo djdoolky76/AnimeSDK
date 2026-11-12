@@ -4,18 +4,18 @@
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/StandaloneWebResources_IndexEntry.h"
 namespace ZenFulcrum::EmbeddedBrowser { class StandaloneWebResources; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F66EB90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES___C__DISPLAYCLASS7_0__HANDLEREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1F66F800)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x2091E360)
+#define ZENFULCRUM_EMBEDDEDBROWSER_STANDALONEWEBRESOURCES___C__DISPLAYCLASS7_0__HANDLEREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x2091EFD0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int StandaloneWebResources___c__DisplayClass7_0_TypeDefinitionIndex = 39565;
+	inline static constexpr unsigned int StandaloneWebResources___c__DisplayClass7_0_TypeDefinitionIndex = 40494;
 
 	class StandaloneWebResources___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry entry; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources* __4__this; // 0x28
+		::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources* __4__this; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry entry; // 0x18
 		::System::Int32 id; // 0x30
 		::System::Void _ctor()
 		{

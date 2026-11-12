@@ -3,10 +3,10 @@
 class HCBPOFFBEOH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHJGOICCKOH_CTOR_OFFSET UNITYSDK_OFFSET(0xBBC5E10)
-#define NHJGOICCKOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBC5E40)
+#define NHJGOICCKOH_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A4680)
+#define NHJGOICCKOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4A46B0)
 
-inline static constexpr unsigned int NHJGOICCKOH_TypeDefinitionIndex = 55684;
+inline static constexpr unsigned int NHJGOICCKOH_TypeDefinitionIndex = 56882;
 
 	class NHJGOICCKOH
 	{

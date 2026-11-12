@@ -4,18 +4,18 @@
 class OELLEKNNEMK;
 namespace System { class Object; }
 
-#define OELLEKNNEMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE2F5D0)
-#define OELLEKNNEMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2F610)
-#define OELLEKNNEMK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE2F620)
+#define OELLEKNNEMK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0D3040)
+#define OELLEKNNEMK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0D3080)
+#define OELLEKNNEMK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F0D3090)
 
-inline static constexpr unsigned int OELLEKNNEMK___c_TypeDefinitionIndex = 25918;
+inline static constexpr unsigned int OELLEKNNEMK___c_TypeDefinitionIndex = 26415;
 
 	class OELLEKNNEMK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15990);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10240);
 		}
 
 		static ::System::Void _cctor()

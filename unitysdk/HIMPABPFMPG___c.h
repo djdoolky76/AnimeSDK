@@ -4,18 +4,18 @@
 class HIMPABPFMPG;
 namespace System { class Object; }
 
-#define HIMPABPFMPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E59D6D0)
-#define HIMPABPFMPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59D700)
-#define HIMPABPFMPG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E59D710)
+#define HIMPABPFMPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F898940)
+#define HIMPABPFMPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F898970)
+#define HIMPABPFMPG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F898980)
 
-inline static constexpr unsigned int HIMPABPFMPG___c_TypeDefinitionIndex = 25955;
+inline static constexpr unsigned int HIMPABPFMPG___c_TypeDefinitionIndex = 26452;
 
 	class HIMPABPFMPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E870);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32790);
 		}
 
 		static ::System::Void _cctor()

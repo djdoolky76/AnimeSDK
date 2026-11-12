@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define JDMCHDDALJL_CTOR_OFFSET UNITYSDK_OFFSET(0x165D8190)
-#define JDMCHDDALJL_INTERP_OFFSET UNITYSDK_OFFSET(0x165D8200)
+#define JDMCHDDALJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB91EC50)
+#define JDMCHDDALJL_INTERP_OFFSET UNITYSDK_OFFSET(0xB91ECC0)
 
-inline static constexpr unsigned int JDMCHDDALJL_TypeDefinitionIndex = 74026;
+inline static constexpr unsigned int JDMCHDDALJL_TypeDefinitionIndex = 76162;
 
 	class JDMCHDDALJL
 	{

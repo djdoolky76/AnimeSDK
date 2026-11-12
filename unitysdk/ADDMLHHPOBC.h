@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ADDMLHHPOBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C581660)
+#define ADDMLHHPOBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D702F80)
 
-inline static constexpr unsigned int ADDMLHHPOBC_TypeDefinitionIndex = 37232;
+inline static constexpr unsigned int ADDMLHHPOBC_TypeDefinitionIndex = 38160;
 
 	class ADDMLHHPOBC : public ::System::Object
 	{

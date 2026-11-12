@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightDropCfgType_TypeDefinitionIndex = 24629;
+	inline static constexpr unsigned int GridFightDropCfgType_TypeDefinitionIndex = 25097;
 
 	enum class GridFightDropCfgType : ::System::Int32
 	{
@@ -17,5 +17,6 @@ namespace RPG::GameCore
 		Orb4 = 9,
 		Orb5 = 10,
 		Orb6 = 11,
+		TrailblazeShopCoin = 12,
 	};
 }

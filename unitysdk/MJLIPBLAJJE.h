@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PhotoGraphAimTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MJLIPBLAJJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB96EB80)
-#define MJLIPBLAJJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB96EBB0)
+#define MJLIPBLAJJE_CTOR_OFFSET UNITYSDK_OFFSET(0xC228640)
+#define MJLIPBLAJJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC228670)
 
-inline static constexpr unsigned int MJLIPBLAJJE_TypeDefinitionIndex = 53092;
+inline static constexpr unsigned int MJLIPBLAJJE_TypeDefinitionIndex = 54253;
 
 	class MJLIPBLAJJE
 	{

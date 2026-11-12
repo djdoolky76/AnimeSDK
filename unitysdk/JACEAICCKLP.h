@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 namespace System { class IDisposable; }
 
-#define JACEAICCKLP_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0x165409B0)
-#define JACEAICCKLP_CCTOR_OFFSET UNITYSDK_OFFSET(0x16540A40)
+#define JACEAICCKLP_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0xB876930)
+#define JACEAICCKLP_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8769C0)
 
-inline static constexpr unsigned int JACEAICCKLP_TypeDefinitionIndex = 49963;
+inline static constexpr unsigned int JACEAICCKLP_TypeDefinitionIndex = 51011;
 
 	class JACEAICCKLP : public ::System::Object
 	{
 	public:
 		static ::System::IDisposable** StaticGet_COAHELMPGLI()
 		{
-			return (::System::IDisposable**)UnitySDK::FromName("", "JACEAICCKLP")->GetStaticField(0x6DF60);
+			return (::System::IDisposable**)UnitySDK::FromName("", "JACEAICCKLP")->GetStaticField(0x5BA20);
 		}
 
 		static ::System::Void _cctor()

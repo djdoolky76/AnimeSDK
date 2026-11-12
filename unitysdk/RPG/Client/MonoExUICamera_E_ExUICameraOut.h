@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoExUICamera_E_ExUICameraOut_TypeDefinitionIndex = 72980;
+	inline static constexpr unsigned int MonoExUICamera_E_ExUICameraOut_TypeDefinitionIndex = 75092;
 
 	enum class MonoExUICamera_E_ExUICameraOut : ::System::Int32
 	{

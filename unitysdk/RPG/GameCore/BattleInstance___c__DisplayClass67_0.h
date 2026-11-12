@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class LineUpCharacter; }
 
-#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE5C5E00)
-#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0___REMOVEBANNEDAVATARFROMSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE5C6430)
+#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF047230)
+#define RPG_GAMECORE_BATTLEINSTANCE___C__DISPLAYCLASS67_0___REMOVEBANNEDAVATARFROMSTAGE_B__0_OFFSET UNITYSDK_OFFSET(0xF047860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleInstance___c__DisplayClass67_0_TypeDefinitionIndex = 56040;
+	inline static constexpr unsigned int BattleInstance___c__DisplayClass67_0_TypeDefinitionIndex = 57252;
 
 	class BattleInstance___c__DisplayClass67_0 : public ::System::Object
 	{

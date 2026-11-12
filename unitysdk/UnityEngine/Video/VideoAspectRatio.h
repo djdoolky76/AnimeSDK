@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Video
 {
-	inline static constexpr unsigned int VideoAspectRatio_TypeDefinitionIndex = 6051;
+	inline static constexpr unsigned int VideoAspectRatio_TypeDefinitionIndex = 6059;
 
 	enum class VideoAspectRatio : ::System::Int32
 	{

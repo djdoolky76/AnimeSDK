@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/GUILayoutOption_Type.h"
 namespace System { class Object; }
 
-#define UNITYENGINE_GUILAYOUTOPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F456B40)
+#define UNITYENGINE_GUILAYOUTOPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x207074C0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUILayoutOption_TypeDefinitionIndex = 5174;
+	inline static constexpr unsigned int GUILayoutOption_TypeDefinitionIndex = 5179;
 
 	class GUILayoutOption : public ::System::Object
 	{

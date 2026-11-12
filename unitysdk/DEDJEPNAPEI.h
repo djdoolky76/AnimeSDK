@@ -3,10 +3,10 @@
 class BIAJADAIBND;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DEDJEPNAPEI_CTOR_OFFSET UNITYSDK_OFFSET(0xE5048E0)
-#define DEDJEPNAPEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE504910)
+#define DEDJEPNAPEI_CTOR_OFFSET UNITYSDK_OFFSET(0xEE4B740)
+#define DEDJEPNAPEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE4B770)
 
-inline static constexpr unsigned int DEDJEPNAPEI_TypeDefinitionIndex = 52837;
+inline static constexpr unsigned int DEDJEPNAPEI_TypeDefinitionIndex = 53990;
 
 	class DEDJEPNAPEI
 	{

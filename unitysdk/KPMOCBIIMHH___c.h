@@ -4,18 +4,18 @@
 class KPMOCBIIMHH;
 namespace System { class Object; }
 
-#define KPMOCBIIMHH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8C0D60)
-#define KPMOCBIIMHH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C0DA0)
-#define KPMOCBIIMHH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8C0DB0)
+#define KPMOCBIIMHH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBFD750)
+#define KPMOCBIIMHH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFD790)
+#define KPMOCBIIMHH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FBFD7A0)
 
-inline static constexpr unsigned int KPMOCBIIMHH___c_TypeDefinitionIndex = 29297;
+inline static constexpr unsigned int KPMOCBIIMHH___c_TypeDefinitionIndex = 29980;
 
 	class KPMOCBIIMHH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D3F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24E60);
 		}
 
 		static ::System::Void _cctor()

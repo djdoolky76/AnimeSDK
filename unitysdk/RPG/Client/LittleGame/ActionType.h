@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ActionType_TypeDefinitionIndex = 42311;
+	inline static constexpr unsigned int ActionType_TypeDefinitionIndex = 43286;
 
 	enum class ActionType : ::System::Int32
 	{

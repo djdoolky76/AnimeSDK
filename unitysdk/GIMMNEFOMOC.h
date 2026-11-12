@@ -13,49 +13,49 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define GIMMNEFOMOC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE51940)
-#define GIMMNEFOMOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE51F10)
-#define GIMMNEFOMOC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE51AB0)
-#define GIMMNEFOMOC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1CE51490)
-#define GIMMNEFOMOC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE51090)
-#define GIMMNEFOMOC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE51320)
-#define GIMMNEFOMOC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE51B50)
-#define GIMMNEFOMOC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE51BA0)
-#define GIMMNEFOMOC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE51980)
-#define GIMMNEFOMOC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE512C0)
-#define GIMMNEFOMOC_LKIOBOCENNO_OFFSET UNITYSDK_OFFSET(0x1CE516A0)
-#define GIMMNEFOMOC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE51510)
-#define GIMMNEFOMOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE51A10)
-#define GIMMNEFOMOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE51010)
+#define GIMMNEFOMOC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E02CF30)
+#define GIMMNEFOMOC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E02D500)
+#define GIMMNEFOMOC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E02D0A0)
+#define GIMMNEFOMOC_EHAFELPCLKB_OFFSET UNITYSDK_OFFSET(0x1E02CA80)
+#define GIMMNEFOMOC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E02C680)
+#define GIMMNEFOMOC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E02C910)
+#define GIMMNEFOMOC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E02D140)
+#define GIMMNEFOMOC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E02D190)
+#define GIMMNEFOMOC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E02CF70)
+#define GIMMNEFOMOC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E02C8B0)
+#define GIMMNEFOMOC_LKIOBOCENNO_OFFSET UNITYSDK_OFFSET(0x1E02CC90)
+#define GIMMNEFOMOC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E02CB00)
+#define GIMMNEFOMOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E02D000)
+#define GIMMNEFOMOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E02C600)
 
-inline static constexpr unsigned int GIMMNEFOMOC_TypeDefinitionIndex = 14400;
+inline static constexpr unsigned int GIMMNEFOMOC_TypeDefinitionIndex = 14557;
 
 	class GIMMNEFOMOC : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x17BC0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JAENDDMAHNP*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JAENDDMAHNP*>**)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x17BC8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x10320);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x17BD0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x10328);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JAENDDMAHNP*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x58A0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::JAENDDMAHNP*>**)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x10330);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x58A1);
+			return (::System::Byte*)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x3480);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GIMMNEFOMOC")->GetStaticField(0x3481);
 		}
 
 		static ::System::Void _cctor()

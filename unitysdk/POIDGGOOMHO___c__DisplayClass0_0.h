@@ -6,10 +6,10 @@ class POIDGGOOMHO;
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define POIDGGOOMHO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC3686B0)
-#define POIDGGOOMHO___C__DISPLAYCLASS0_0___APPLYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC36B6C0)
+#define POIDGGOOMHO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC9B8B0)
+#define POIDGGOOMHO___C__DISPLAYCLASS0_0___APPLYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCC9E850)
 
-inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass0_0_TypeDefinitionIndex = 80237;
+inline static constexpr unsigned int POIDGGOOMHO___c__DisplayClass0_0_TypeDefinitionIndex = 83014;
 
 	class POIDGGOOMHO___c__DisplayClass0_0 : public ::System::Object
 	{

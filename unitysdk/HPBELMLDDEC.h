@@ -3,10 +3,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class NOOHPODHIAA;
 
-#define HPBELMLDDEC_CTOR_OFFSET UNITYSDK_OFFSET(0x3C33120)
-#define HPBELMLDDEC_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0x3C33180)
+#define HPBELMLDDEC_CTOR_OFFSET UNITYSDK_OFFSET(0x3E82100)
+#define HPBELMLDDEC_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0x3E82160)
 
-inline static constexpr unsigned int HPBELMLDDEC_TypeDefinitionIndex = 43528;
+inline static constexpr unsigned int HPBELMLDDEC_TypeDefinitionIndex = 44510;
 
 	struct alignas(4) HPBELMLDDEC
 	{

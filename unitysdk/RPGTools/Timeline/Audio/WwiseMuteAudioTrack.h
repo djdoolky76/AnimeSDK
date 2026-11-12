@@ -6,12 +6,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEAUDIOTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8B3580)
-#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEAUDIOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B3630)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEAUDIOTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xF38D430)
+#define RPGTOOLS_TIMELINE_AUDIO_WWISEMUTEAUDIOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF38D4E0)
 
 namespace RPGTools::Timeline::Audio
 {
-	inline static constexpr unsigned int WwiseMuteAudioTrack_TypeDefinitionIndex = 48855;
+	inline static constexpr unsigned int WwiseMuteAudioTrack_TypeDefinitionIndex = 49901;
 
 	class WwiseMuteAudioTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

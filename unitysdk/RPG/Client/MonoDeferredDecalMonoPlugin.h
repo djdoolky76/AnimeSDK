@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/CustomRP/CustomLightQualityFilter.h"
 
-#define RPG_CLIENT_MONODEFERREDDECALMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD74AA90)
+#define RPG_CLIENT_MONODEFERREDDECALMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE1DDCE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDeferredDecalMonoPlugin_TypeDefinitionIndex = 70923;
+	inline static constexpr unsigned int MonoDeferredDecalMonoPlugin_TypeDefinitionIndex = 72902;
 
 	class MonoDeferredDecalMonoPlugin
 	{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RemoveShield; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REMOVESHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9867C0)
-#define RPG_GAMECORE_REMOVESHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9867D0)
-#define RPG_GAMECORE_REMOVESHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D986790)
+#define RPG_GAMECORE_REMOVESHIELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9EBF0)
+#define RPG_GAMECORE_REMOVESHIELD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB9EC00)
+#define RPG_GAMECORE_REMOVESHIELD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9EBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveShield_TypeDefinitionIndex = 23598;
+	inline static constexpr unsigned int RemoveShield_TypeDefinitionIndex = 24045;
 
 	class RemoveShield : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/B51RacingDisplayCarType.h"
 #include "unitysdk/System/Object.h"
 
-#define PLEKDDGOMHO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F0890)
-#define PLEKDDGOMHO_GET_DIAPLAYCARTYPE_OFFSET UNITYSDK_OFFSET(0xC2F08A0)
+#define PLEKDDGOMHO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC1F730)
+#define PLEKDDGOMHO_GET_DIAPLAYCARTYPE_OFFSET UNITYSDK_OFFSET(0xCC1F740)
 
-inline static constexpr unsigned int PLEKDDGOMHO_TypeDefinitionIndex = 81700;
+inline static constexpr unsigned int PLEKDDGOMHO_TypeDefinitionIndex = 84481;
 
 	class PLEKDDGOMHO : public ::System::Object
 	{

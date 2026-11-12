@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterHeadConstraint; }
 
-#define RPG_GAMECORE_CHARACTERHEADCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D571AB0)
-#define RPG_GAMECORE_CHARACTERHEADCONSTRAINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5719A0)
+#define RPG_GAMECORE_CHARACTERHEADCONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E782AC0)
+#define RPG_GAMECORE_CHARACTERHEADCONSTRAINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7829B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterHeadConstraint_TypeDefinitionIndex = 20864;
+	inline static constexpr unsigned int CharacterHeadConstraint_TypeDefinitionIndex = 21201;
 
 	class CharacterHeadConstraint : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnParticleCollisionHandler_TypeDefinitionIndex = 38570;
+	inline static constexpr unsigned int IAsyncOnParticleCollisionHandler_TypeDefinitionIndex = 39499;
 
 	class IAsyncOnParticleCollisionHandler
 	{

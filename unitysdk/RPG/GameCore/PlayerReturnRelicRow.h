@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerReturnRelicRow; }
 
-#define RPG_GAMECORE_PLAYERRETURNRELICROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93B760)
-#define RPG_GAMECORE_PLAYERRETURNRELICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93B5A0)
+#define RPG_GAMECORE_PLAYERRETURNRELICROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB548E0)
+#define RPG_GAMECORE_PLAYERRETURNRELICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB54720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerReturnRelicRow_TypeDefinitionIndex = 14535;
+	inline static constexpr unsigned int PlayerReturnRelicRow_TypeDefinitionIndex = 14690;
 
 	class PlayerReturnRelicRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RelicLevel; // 0x10
-		::System::Boolean IsRelicMatchMainAffix; // 0x14
+		::System::UInt32 WorldLevel; // 0x10
+		::RPG::GameCore::CombatPowerRelicRarityType RelicRarity; // 0x14
+		::System::Boolean IsRelicMatchMainAffix; // 0x18
 		::System::Byte _padding0[0x3];
-		::System::UInt32 WorldLevel; // 0x18
-		::RPG::GameCore::CombatPowerRelicRarityType RelicRarity; // 0x1C
+		::System::UInt32 RelicLevel; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PLAYERRETURNRELICROW_CTOR_OFFSET))(this);

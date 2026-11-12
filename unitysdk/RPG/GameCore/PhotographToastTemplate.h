@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotographToastTemplate; }
 
-#define RPG_GAMECORE_PHOTOGRAPHTOASTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9147D0)
-#define RPG_GAMECORE_PHOTOGRAPHTOASTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D914620)
+#define RPG_GAMECORE_PHOTOGRAPHTOASTTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2DA20)
+#define RPG_GAMECORE_PHOTOGRAPHTOASTTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2D870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotographToastTemplate_TypeDefinitionIndex = 19062;
+	inline static constexpr unsigned int PhotographToastTemplate_TypeDefinitionIndex = 19249;
 
 	class PhotographToastTemplate : public ::RPG::GameCore::JsonConfig
 	{

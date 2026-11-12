@@ -4,9 +4,9 @@ namespace System { class String; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define FIVEDIMPROTOTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x2E78990)
+#define FIVEDIMPROTOTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x304E3D0)
 
-inline static constexpr unsigned int FiveDimPrototype_TypeDefinitionIndex = 47110;
+inline static constexpr unsigned int FiveDimPrototype_TypeDefinitionIndex = 48138;
 
 	struct alignas(8) FiveDimPrototype
 	{

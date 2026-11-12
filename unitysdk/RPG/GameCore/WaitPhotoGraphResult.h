@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitPhotoGraphResult; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9D690)
-#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9D6A0)
-#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9D650)
+#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB00C0)
+#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB00D0)
+#define RPG_GAMECORE_WAITPHOTOGRAPHRESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB0080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitPhotoGraphResult_TypeDefinitionIndex = 22170;
+	inline static constexpr unsigned int WaitPhotoGraphResult_TypeDefinitionIndex = 22575;
 
 	class WaitPhotoGraphResult : public ::RPG::GameCore::TaskConfig
 	{

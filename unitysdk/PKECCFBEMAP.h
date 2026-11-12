@@ -5,21 +5,21 @@ namespace RPG::Client { class UIController; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerRogueOpenChest; }
 
-#define PKECCFBEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B3480)
-#define PKECCFBEMAP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2B3490)
-#define PKECCFBEMAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2B3530)
-#define PKECCFBEMAP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2B3770)
-#define PKECCFBEMAP_TICK_OFFSET UNITYSDK_OFFSET(0xC2B34D0)
-#define PKECCFBEMAP__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xC2B37C0)
+#define PKECCFBEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDE1A0)
+#define PKECCFBEMAP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCBDE1B0)
+#define PKECCFBEMAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBDE250)
+#define PKECCFBEMAP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCBDE490)
+#define PKECCFBEMAP_TICK_OFFSET UNITYSDK_OFFSET(0xCBDE1F0)
+#define PKECCFBEMAP__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xCBDE4E0)
 
-inline static constexpr unsigned int PKECCFBEMAP_TypeDefinitionIndex = 58798;
+inline static constexpr unsigned int PKECCFBEMAP_TypeDefinitionIndex = 60066;
 
 	class PKECCFBEMAP : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TriggerRogueOpenChest* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::Client::UIController* OGOFNHAGOPO; // 0x28
+		::RPG::Client::UIController* OGOFNHAGOPO; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerRogueOpenChest* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerRogueOpenChest*))((::PBYTE)hIl2Cpp + PKECCFBEMAP_CTOR_OFFSET))(this, a1, a2);

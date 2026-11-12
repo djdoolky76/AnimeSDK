@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define IPGAELJAFCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1651F930)
+#define IPGAELJAFCN_CTOR_OFFSET UNITYSDK_OFFSET(0xB854440)
 
-inline static constexpr unsigned int IPGAELJAFCN_TypeDefinitionIndex = 61274;
+inline static constexpr unsigned int IPGAELJAFCN_TypeDefinitionIndex = 62659;
 
 	class IPGAELJAFCN : public ::System::Exception
 	{

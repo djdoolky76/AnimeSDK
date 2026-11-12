@@ -4,10 +4,10 @@
 class HDODANAJKGC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OIDLPGNODAF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE7AB90)
-#define OIDLPGNODAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE7AC70)
+#define OIDLPGNODAF_CTOR_OFFSET UNITYSDK_OFFSET(0xC735D70)
+#define OIDLPGNODAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC735E50)
 
-inline static constexpr unsigned int OIDLPGNODAF_TypeDefinitionIndex = 55462;
+inline static constexpr unsigned int OIDLPGNODAF_TypeDefinitionIndex = 56650;
 
 	class OIDLPGNODAF
 	{

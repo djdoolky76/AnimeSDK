@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define FFIDOBGHEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1573F620)
+#define FFIDOBGHEDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1665B870)
 
-inline static constexpr unsigned int FFIDOBGHEDH_TypeDefinitionIndex = 54924;
+inline static constexpr unsigned int FFIDOBGHEDH_TypeDefinitionIndex = 56096;
 
 	class FFIDOBGHEDH : public ::System::Object
 	{

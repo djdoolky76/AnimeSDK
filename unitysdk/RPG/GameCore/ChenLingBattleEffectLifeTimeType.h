@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleEffectLifeTimeType_TypeDefinitionIndex = 15702;
+	inline static constexpr unsigned int ChenLingBattleEffectLifeTimeType_TypeDefinitionIndex = 15860;
 
 	enum class ChenLingBattleEffectLifeTimeType : ::System::Int32
 	{

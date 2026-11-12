@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureAttackDetectSummonUnitTriggerConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREATTACKDETECTSUMMONUNITTRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B74C0)
-#define RPG_GAMECORE_ADVENTUREATTACKDETECTSUMMONUNITTRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B73C0)
+#define RPG_GAMECORE_ADVENTUREATTACKDETECTSUMMONUNITTRIGGERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C6950)
+#define RPG_GAMECORE_ADVENTUREATTACKDETECTSUMMONUNITTRIGGERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C6850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAttackDetectSummonUnitTriggerConfig_TypeDefinitionIndex = 16277;
+	inline static constexpr unsigned int AdventureAttackDetectSummonUnitTriggerConfig_TypeDefinitionIndex = 16440;
 
 	class AdventureAttackDetectSummonUnitTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,17 +6,17 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AIDNGNILOAF_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA1B70)
-#define AIDNGNILOAF_DGNJHLIELNK_OFFSET UNITYSDK_OFFSET(0xEBA19D0)
-#define AIDNGNILOAF_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xEBA1940)
+#define AIDNGNILOAF_CTOR_OFFSET UNITYSDK_OFFSET(0xF160F90)
+#define AIDNGNILOAF_DGNJHLIELNK_OFFSET UNITYSDK_OFFSET(0xF160DF0)
+#define AIDNGNILOAF_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xF160D60)
 
-inline static constexpr unsigned int AIDNGNILOAF_TypeDefinitionIndex = 72941;
+inline static constexpr unsigned int AIDNGNILOAF_TypeDefinitionIndex = 75051;
 
 	class AIDNGNILOAF : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* KJBFEAMFNCO; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* NFJDFOMJMDK; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* NFJDFOMJMDK; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* KJBFEAMFNCO; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AIDNGNILOAF_CTOR_OFFSET))(this);

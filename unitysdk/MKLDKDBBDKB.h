@@ -5,16 +5,16 @@
 class FCOEMCEDLNL;
 class MKLDKDBBDKB;
 
-#define MKLDKDBBDKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CB720)
-#define MKLDKDBBDKB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CB5D0)
+#define MKLDKDBBDKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3CD190)
+#define MKLDKDBBDKB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3CD040)
 
-inline static constexpr unsigned int MKLDKDBBDKB_TypeDefinitionIndex = 20131;
+inline static constexpr unsigned int MKLDKDBBDKB_TypeDefinitionIndex = 20465;
 
 	class MKLDKDBBDKB : public ::RPG::GameCore::JsonConfig
 	{
 	public:
-		::System::Single LABDELLPODK; // 0x10
-		::RPG::GameCore::STDetectMoneyType ABFDDDEHDGN; // 0x14
+		::RPG::GameCore::STDetectMoneyType ABFDDDEHDGN; // 0x10
+		::System::Single LABDELLPODK; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MKLDKDBBDKB_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class ICOPHOIEECL;
 namespace System { class Object; }
 
-#define ICOPHOIEECL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E627460)
-#define ICOPHOIEECL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E627490)
-#define ICOPHOIEECL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E6274A0)
+#define ICOPHOIEECL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F943580)
+#define ICOPHOIEECL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9435B0)
+#define ICOPHOIEECL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9435C0)
 
-inline static constexpr unsigned int ICOPHOIEECL___c_TypeDefinitionIndex = 34018;
+inline static constexpr unsigned int ICOPHOIEECL___c_TypeDefinitionIndex = 34933;
 
 	class ICOPHOIEECL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45450);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C3A0);
 		}
 
 		static ::System::Void _cctor()

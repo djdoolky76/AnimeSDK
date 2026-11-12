@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define FJCDKKKGKND_CTOR_OFFSET UNITYSDK_OFFSET(0x157BD160)
-#define FJCDKKKGKND_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x157BCF80)
-#define FJCDKKKGKND_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x157BCFA0)
-#define FJCDKKKGKND_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x157BCF90)
+#define FJCDKKKGKND_CTOR_OFFSET UNITYSDK_OFFSET(0x166DF530)
+#define FJCDKKKGKND_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x166DF350)
+#define FJCDKKKGKND_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0x166DF370)
+#define FJCDKKKGKND_SET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x166DF360)
 
-inline static constexpr unsigned int FJCDKKKGKND_TypeDefinitionIndex = 48840;
+inline static constexpr unsigned int FJCDKKKGKND_TypeDefinitionIndex = 49886;
 
 	class FJCDKKKGKND : public ::UnityEngine::Playables::PlayableBehaviour
 	{

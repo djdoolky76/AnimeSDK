@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PropOverrideAnimLayerConfig; }
 namespace RPG::GameCore { class PropOverrideColliderConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94A3B0)
-#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94A1E0)
+#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB63390)
+#define RPG_GAMECORE_PROPDYNAMICRESCONFIGITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB631C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDynamicResConfigItem_TypeDefinitionIndex = 17586;
+	inline static constexpr unsigned int PropDynamicResConfigItem_TypeDefinitionIndex = 17754;
 
 	class PropDynamicResConfigItem : public ::RPG::GameCore::JsonConfig
 	{

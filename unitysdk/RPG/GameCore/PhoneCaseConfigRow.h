@@ -6,23 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhoneCaseConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHONECASECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90B7A0)
-#define RPG_GAMECORE_PHONECASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D90B540)
+#define RPG_GAMECORE_PHONECASECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB24E10)
+#define RPG_GAMECORE_PHONECASECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB24BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhoneCaseConfigRow_TypeDefinitionIndex = 14451;
+	inline static constexpr unsigned int PhoneCaseConfigRow_TypeDefinitionIndex = 14606;
 
 	class PhoneCaseConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* PrefabPath; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* ImagePath; // 0x10
+		::System::String* PrefabPath; // 0x18
 		::System::String* ItemFigurePath; // 0x20
-		::System::String* ImagePath; // 0x28
+		::System::String* IconPath; // 0x28
 		::RPG::GameCore::PersonalizeShowType ShowType; // 0x30
-		::System::UInt32 CaseID; // 0x34
-		::System::UInt32 ShowParam; // 0x38
+		::System::UInt32 ShowParam; // 0x34
+		::System::UInt32 CaseID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PHONECASECONFIGROW_CTOR_OFFSET))(this);

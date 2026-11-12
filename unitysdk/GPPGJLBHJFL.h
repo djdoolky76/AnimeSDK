@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GPPGJLBHJFL_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x15B67AB0)
-#define GPPGJLBHJFL_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B68010)
-#define GPPGJLBHJFL_CTOR_OFFSET UNITYSDK_OFFSET(0x15B68000)
+#define GPPGJLBHJFL_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x16AED810)
+#define GPPGJLBHJFL_CCTOR_OFFSET UNITYSDK_OFFSET(0x16AEDD70)
+#define GPPGJLBHJFL_CTOR_OFFSET UNITYSDK_OFFSET(0x16AEDD60)
 
-inline static constexpr unsigned int GPPGJLBHJFL_TypeDefinitionIndex = 49613;
+inline static constexpr unsigned int GPPGJLBHJFL_TypeDefinitionIndex = 50689;
 
 	class GPPGJLBHJFL : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>** StaticGet_EJCIOGFMOMF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)UnitySDK::FromName("", "GPPGJLBHJFL")->GetStaticField(0x6D9E0);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*>**)UnitySDK::FromName("", "GPPGJLBHJFL")->GetStaticField(0x71A60);
 		}
 
 		::System::Void _ctor()

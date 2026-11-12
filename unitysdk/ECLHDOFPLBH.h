@@ -6,10 +6,10 @@ namespace RPG::GameCore { class ICharacterSkillRowData; }
 namespace RPG::GameCore { class ServantSkillRowData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ECLHDOFPLBH_BOJFECOMNJP_OFFSET UNITYSDK_OFFSET(0x12D12D60)
-#define ECLHDOFPLBH_CTOR_OFFSET UNITYSDK_OFFSET(0x12D12F60)
+#define ECLHDOFPLBH_BOJFECOMNJP_OFFSET UNITYSDK_OFFSET(0x13AC5950)
+#define ECLHDOFPLBH_CTOR_OFFSET UNITYSDK_OFFSET(0x13AC5B50)
 
-inline static constexpr unsigned int ECLHDOFPLBH_TypeDefinitionIndex = 62637;
+inline static constexpr unsigned int ECLHDOFPLBH_TypeDefinitionIndex = 64064;
 
 	class ECLHDOFPLBH : public ::System::Object
 	{

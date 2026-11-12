@@ -5,22 +5,22 @@
 namespace System { class String; }
 namespace UnityEngine::ProBuilder { class HSVColor; }
 
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F1DD1A0)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F19B7D0)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x1F1DD1C0)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0x1F1DD2F0)
-#define UNITYENGINE_PROBUILDER_HSVCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F1DD220)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2048E5C0)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_OFFSET UNITYSDK_OFFSET(0x2044CC10)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_FROMRGB_OFFSET UNITYSDK_OFFSET(0x2048E5E0)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_SQRDISTANCE_OFFSET UNITYSDK_OFFSET(0x2048E710)
+#define UNITYENGINE_PROBUILDER_HSVCOLOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2048E640)
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int HSVColor_TypeDefinitionIndex = 44347;
+	inline static constexpr unsigned int HSVColor_TypeDefinitionIndex = 45422;
 
 	class HSVColor : public ::System::Object
 	{
 	public:
-		::System::Single s; // 0x10
-		::System::Single v; // 0x14
-		::System::Single h; // 0x18
+		::System::Single h; // 0x10
+		::System::Single s; // 0x14
+		::System::Single v; // 0x18
 		::System::Void _ctor(::System::Single a1, ::System::Single a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PROBUILDER_HSVCOLOR_CTOR_OFFSET))(this, a1, a2, a3);

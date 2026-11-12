@@ -8,25 +8,25 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceBattleItemRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACEBATTLEITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54C9B0)
-#define RPG_GAMECORE_CAKERACEBATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D54C5C0)
+#define RPG_GAMECORE_CAKERACEBATTLEITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E75EB10)
+#define RPG_GAMECORE_CAKERACEBATTLEITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E75E720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceBattleItemRow_TypeDefinitionIndex = 11001;
+	inline static constexpr unsigned int CakeRaceBattleItemRow_TypeDefinitionIndex = 11017;
 
 	class CakeRaceBattleItemRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::FixPoint>* BattleItemEffectParamList; // 0x10
-		::System::String* BattleItemInvalidIcon; // 0x18
-		::System::String* BattleItemIcon; // 0x20
-		::System::String* AbilityJson; // 0x28
-		::RPG::GameCore::CakeRaceBattleItemUseType BattleItemUseType; // 0x30
-		::System::UInt32 BattleItemID; // 0x34
-		::RPG::Client::TextID BattleItemDesc; // 0x38
-		::RPG::Client::TextID BattleItemUseHint; // 0x48
-		::RPG::Client::TextID BattleItemName; // 0x58
+		::System::String* BattleItemIcon; // 0x10
+		::System::String* AbilityJson; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* BattleItemEffectParamList; // 0x20
+		::System::String* BattleItemInvalidIcon; // 0x28
+		::RPG::Client::TextID BattleItemName; // 0x30
+		::RPG::GameCore::CakeRaceBattleItemUseType BattleItemUseType; // 0x40
+		::System::UInt32 BattleItemID; // 0x44
+		::RPG::Client::TextID BattleItemDesc; // 0x48
+		::RPG::Client::TextID BattleItemUseHint; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEBATTLEITEMROW_CTOR_OFFSET))(this);

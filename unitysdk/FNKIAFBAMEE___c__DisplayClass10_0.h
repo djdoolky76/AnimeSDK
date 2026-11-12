@@ -6,18 +6,18 @@ class FNKIAFBAMEE;
 class OBJANKHLNGO;
 namespace RPG::Client::Promises { class Promise; }
 
-#define FNKIAFBAMEE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15876A50)
-#define FNKIAFBAMEE___C__DISPLAYCLASS10_0__SHOWGAMESETTLE_B__0_OFFSET UNITYSDK_OFFSET(0x15877950)
+#define FNKIAFBAMEE___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x167E9220)
+#define FNKIAFBAMEE___C__DISPLAYCLASS10_0__SHOWGAMESETTLE_B__0_OFFSET UNITYSDK_OFFSET(0x167EA120)
 
-inline static constexpr unsigned int FNKIAFBAMEE___c__DisplayClass10_0_TypeDefinitionIndex = 81293;
+inline static constexpr unsigned int FNKIAFBAMEE___c__DisplayClass10_0_TypeDefinitionIndex = 84073;
 
 	class FNKIAFBAMEE___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::OBJANKHLNGO* messenger; // 0x10
-		::DMHADFNOIGP* levelData; // 0x18
-		::FNKIAFBAMEE* __4__this; // 0x20
-		::RPG::Client::Promises::Promise* promise; // 0x28
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::FNKIAFBAMEE* __4__this; // 0x18
+		::DMHADFNOIGP* levelData; // 0x20
+		::OBJANKHLNGO* messenger; // 0x28
 		::System::UInt32 levelID; // 0x30
 		::System::Void _ctor()
 		{

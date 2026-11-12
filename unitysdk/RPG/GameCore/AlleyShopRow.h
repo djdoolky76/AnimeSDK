@@ -5,21 +5,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyShopRow; }
 namespace RPG::GameCore { class ShopGoodsMap; }
 
-#define RPG_GAMECORE_ALLEYSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EBC30)
-#define RPG_GAMECORE_ALLEYSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3EB590)
+#define RPG_GAMECORE_ALLEYSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E60BF50)
+#define RPG_GAMECORE_ALLEYSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E60B8B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyShopRow_TypeDefinitionIndex = 12597;
+	inline static constexpr unsigned int AlleyShopRow_TypeDefinitionIndex = 12664;
 
 	class AlleyShopRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ShopGoodsMap*>* ShopGoods; // 0x10
-		::Il2CppArray<::System::UInt32>* EnergyColor; // 0x18
-		::System::UInt32 ShopID; // 0x20
-		::System::UInt32 ShopEnergy; // 0x24
-		::System::UInt32 ShopBox; // 0x28
+		::Il2CppArray<::System::UInt32>* EnergyColor; // 0x10
+		::Il2CppArray<::RPG::GameCore::ShopGoodsMap*>* ShopGoods; // 0x18
+		::System::UInt32 ShopBox; // 0x20
+		::System::UInt32 ShopID; // 0x24
+		::System::UInt32 ShopEnergy; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ALLEYSHOPROW_CTOR_OFFSET))(this);

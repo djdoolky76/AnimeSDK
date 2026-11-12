@@ -8,20 +8,20 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 
-#define PDKPLHGKFOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D09E0)
-#define PDKPLHGKFOI_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1D2D0CF0)
-#define PDKPLHGKFOI_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D2D0C90)
-#define PDKPLHGKFOI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D0A20)
-#define PDKPLHGKFOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D0980)
+#define PDKPLHGKFOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DCBE0)
+#define PDKPLHGKFOI_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1E4DCEF0)
+#define PDKPLHGKFOI_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E4DCE90)
+#define PDKPLHGKFOI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4DCC20)
+#define PDKPLHGKFOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4DCB80)
 
-inline static constexpr unsigned int PDKPLHGKFOI_TypeDefinitionIndex = 24101;
+inline static constexpr unsigned int PDKPLHGKFOI_TypeDefinitionIndex = 24560;
 
 	class PDKPLHGKFOI : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* AAHOJJJPFLD; // 0x20
+		::RPG::GameCore::TargetEvaluator* MKMCENPANNO; // 0x20
 		::RPG::GameCore::DynamicFloat* DPICNGBHFAC; // 0x28
-		::RPG::GameCore::TargetEvaluator* MKMCENPANNO; // 0x30
+		::RPG::GameCore::TargetEvaluator* AAHOJJJPFLD; // 0x30
 		::RPG::GameCore::CompareType EHCHAPPGJDJ; // 0x38
 		::System::Void _ctor()
 		{

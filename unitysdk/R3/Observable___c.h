@@ -5,25 +5,25 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define R3_OBSERVABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C423B90)
-#define R3_OBSERVABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C423BD0)
-#define R3_OBSERVABLE___C__FROMEVENT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1C423BE0)
+#define R3_OBSERVABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5AA380)
+#define R3_OBSERVABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AA3C0)
+#define R3_OBSERVABLE___C__FROMEVENT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1D5AA3D0)
 
 namespace R3
 {
-	inline static constexpr unsigned int Observable___c_TypeDefinitionIndex = 35906;
+	inline static constexpr unsigned int Observable___c_TypeDefinitionIndex = 36834;
 
 	class Observable___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Action*, ::System::Action*>** StaticGet___9__26_0()
-		{
-			return (::System::Func_2<::System::Action*, ::System::Action*>**)UnitySDK::FromName("R3", "<>c")->GetStaticField(0xA20);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("R3", "<>c")->GetStaticField(0xA28);
+			return (::System::Object**)UnitySDK::FromName("R3", "<>c")->GetStaticField(0x9D0);
+		}
+
+		static ::System::Func_2<::System::Action*, ::System::Action*>** StaticGet___9__26_0()
+		{
+			return (::System::Func_2<::System::Action*, ::System::Action*>**)UnitySDK::FromName("R3", "<>c")->GetStaticField(0x9D8);
 		}
 
 		static ::System::Void _cctor()

@@ -6,36 +6,35 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MiniMapIconRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MINIMAPICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D883010)
-#define RPG_GAMECORE_MINIMAPICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8825D0)
-#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTICONPATH_OFFSET UNITYSDK_OFFSET(0x1D883020)
-#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTMISSIONICONPATH_OFFSET UNITYSDK_OFFSET(0x1D883070)
+#define RPG_GAMECORE_MINIMAPICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9D3C0)
+#define RPG_GAMECORE_MINIMAPICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA9C980)
+#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTICONPATH_OFFSET UNITYSDK_OFFSET(0x1EA9D3D0)
+#define RPG_GAMECORE_MINIMAPICONROW_GETCONNECTMISSIONICONPATH_OFFSET UNITYSDK_OFFSET(0x1EA9D420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniMapIconRow_TypeDefinitionIndex = 12549;
+	inline static constexpr unsigned int MiniMapIconRow_TypeDefinitionIndex = 12616;
 
 	class MiniMapIconRow : public ::System::Object
 	{
 	public:
-		::System::String* MissionIconPath; // 0x10
+		::System::String* IconPath; // 0x10
 		::Il2CppArray<::System::UInt32>* FiveDimBillboardIDList; // 0x18
-		::System::String* IconName; // 0x20
-		::System::String* IconPath; // 0x28
-		::RPG::GameCore::MiniMapIconOrientationType IconOrientetionSwitch; // 0x30
-		::System::Boolean IsShowInBillboard; // 0x34
-		::System::Boolean IsFollowPropScale; // 0x35
-		::System::Boolean IsFollowMapScale; // 0x36
-		::System::Boolean IsShowCornerArrow; // 0x37
-		::System::UInt32 CircleRange; // 0x38
-		::System::UInt32 ID; // 0x3C
-		::System::UInt32 ModelIcon; // 0x40
-		::System::UInt32 ConnectID; // 0x44
-		::System::Boolean isShowinMap; // 0x48
-		::System::Boolean IsCrossLayer; // 0x49
-		::System::Byte _padding0[0x2];
-		::System::UInt32 Priority; // 0x4C
-		::System::UInt32 BillboardIcon; // 0x50
+		::System::String* MissionIconPath; // 0x20
+		::System::String* IconName; // 0x28
+		::System::UInt32 ModelIcon; // 0x30
+		::System::Boolean IsShowCornerArrow; // 0x34
+		::System::Boolean IsCrossLayer; // 0x35
+		::System::Boolean isShowinMap; // 0x36
+		::System::Boolean IsShowInBillboard; // 0x37
+		::System::UInt32 ConnectID; // 0x38
+		::RPG::GameCore::MiniMapIconOrientationType IconOrientetionSwitch; // 0x3C
+		::System::UInt32 Priority; // 0x40
+		::System::UInt32 CircleRange; // 0x44
+		::System::UInt32 ID; // 0x48
+		::System::UInt32 BillboardIcon; // 0x4C
+		::System::Boolean IsFollowPropScale; // 0x50
+		::System::Boolean IsFollowMapScale; // 0x51
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MINIMAPICONROW_CTOR_OFFSET))(this);

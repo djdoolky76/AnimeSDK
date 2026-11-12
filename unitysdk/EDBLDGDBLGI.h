@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetNpcWaypath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDBLDGDBLGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1330F4F0)
-#define EDBLDGDBLGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1330F520)
+#define EDBLDGDBLGI_CTOR_OFFSET UNITYSDK_OFFSET(0x140CB760)
+#define EDBLDGDBLGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140CB790)
 
-inline static constexpr unsigned int EDBLDGDBLGI_TypeDefinitionIndex = 53251;
+inline static constexpr unsigned int EDBLDGDBLGI_TypeDefinitionIndex = 54413;
 
 	class EDBLDGDBLGI
 	{

@@ -7,9 +7,9 @@ namespace RPG::GameCore { class AnchorInfo; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define ACPBENOMMMA_JHIIIDKKGIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB12FD60)
+#define ACPBENOMMMA_JHIIIDKKGIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB796C10)
 
-inline static constexpr unsigned int ACPBENOMMMA_JHIIIDKKGIJ_TypeDefinitionIndex = 58444;
+inline static constexpr unsigned int ACPBENOMMMA_JHIIIDKKGIJ_TypeDefinitionIndex = 59700;
 
 	class ACPBENOMMMA_JHIIIDKKGIJ : public ::System::Object
 	{

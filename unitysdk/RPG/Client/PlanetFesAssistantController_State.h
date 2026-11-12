@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesAssistantController_State_TypeDefinitionIndex = 66472;
+	inline static constexpr unsigned int PlanetFesAssistantController_State_TypeDefinitionIndex = 68408;
 
 	enum class PlanetFesAssistantController_State : ::System::Int32
 	{

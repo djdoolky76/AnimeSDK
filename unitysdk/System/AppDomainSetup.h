@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_APPDOMAINSETUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0A0F00)
+#define SYSTEM_APPDOMAINSETUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2282D0)
 
 namespace System
 {

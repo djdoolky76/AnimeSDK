@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LockFlagType_TypeDefinitionIndex = 10182;
+	inline static constexpr unsigned int LockFlagType_TypeDefinitionIndex = 10190;
 
 	enum class LockFlagType : ::System::Int32
 	{

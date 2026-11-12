@@ -6,12 +6,12 @@ namespace RPG::GameCore { class AnimationZone; }
 namespace RPG::GameCore { class AnimatorClipZoneDescConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMATORCLIPZONEDESCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F49C0)
-#define RPG_GAMECORE_ANIMATORCLIPZONEDESCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3F4870)
+#define RPG_GAMECORE_ANIMATORCLIPZONEDESCCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E614C40)
+#define RPG_GAMECORE_ANIMATORCLIPZONEDESCCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E614AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorClipZoneDescConfig_TypeDefinitionIndex = 16329;
+	inline static constexpr unsigned int AnimatorClipZoneDescConfig_TypeDefinitionIndex = 16492;
 
 	class AnimatorClipZoneDescConfig : public ::RPG::GameCore::JsonConfig
 	{

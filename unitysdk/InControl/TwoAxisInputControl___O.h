@@ -5,14 +5,14 @@ namespace InControl { class DeadZoneFunc; }
 
 namespace InControl
 {
-	inline static constexpr unsigned int TwoAxisInputControl___O_TypeDefinitionIndex = 40830;
+	inline static constexpr unsigned int TwoAxisInputControl___O_TypeDefinitionIndex = 41805;
 
 	class TwoAxisInputControl___O : public ::System::Object
 	{
 	public:
 		static ::InControl::DeadZoneFunc** StaticGet__0___Circular()
 		{
-			return (::InControl::DeadZoneFunc**)UnitySDK::FromName("InControl", "<>O")->GetStaticField(0xD820);
+			return (::InControl::DeadZoneFunc**)UnitySDK::FromName("InControl", "<>O")->GetStaticField(0x6B010);
 		}
 
 	};

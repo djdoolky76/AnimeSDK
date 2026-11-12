@@ -5,25 +5,25 @@ namespace RPG::Client::NavMap { class IMainTab; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_NAVMAP_WORLDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD97BD80)
-#define RPG_CLIENT_NAVMAP_WORLDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD97BDC0)
-#define RPG_CLIENT_NAVMAP_WORLDDATA___C__GET_SHOWTABS_B__24_0_OFFSET UNITYSDK_OFFSET(0xD97BDD0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE40F2A0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE40F2E0)
+#define RPG_CLIENT_NAVMAP_WORLDDATA___C__GET_SHOWTABS_B__24_0_OFFSET UNITYSDK_OFFSET(0xE40F2F0)
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int WorldData___c_TypeDefinitionIndex = 74646;
+	inline static constexpr unsigned int WorldData___c_TypeDefinitionIndex = 76794;
 
 	class WorldData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::NavMap::IMainTab*, ::System::Boolean>** StaticGet___9__24_0()
-		{
-			return (::System::Func_2<::RPG::Client::NavMap::IMainTab*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6F2A0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0x6F2A8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xE2F0);
+		}
+
+		static ::System::Func_2<::RPG::Client::NavMap::IMainTab*, ::System::Boolean>** StaticGet___9__24_0()
+		{
+			return (::System::Func_2<::RPG::Client::NavMap::IMainTab*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.NavMap", "<>c")->GetStaticField(0xE2F8);
 		}
 
 		static ::System::Void _cctor()

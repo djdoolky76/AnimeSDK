@@ -5,25 +5,25 @@ class GBMLMONHJME;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB2D190)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB2D1D0)
-#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__TRYTRIGGERPENDINGPERFORMANCE_B__49_0_OFFSET UNITYSDK_OFFSET(0xCB2D1E0)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD494150)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD494190)
+#define RPG_CLIENT_CHIMERADUELGAMESESSIONSHOP___C__TRYTRIGGERPENDINGPERFORMANCE_B__49_0_OFFSET UNITYSDK_OFFSET(0xD4941A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraDuelGameSessionShop___c_TypeDefinitionIndex = 63321;
+	inline static constexpr unsigned int ChimeraDuelGameSessionShop___c_TypeDefinitionIndex = 64759;
 
 	class ChimeraDuelGameSessionShop___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12400);
-		}
-
 		static ::System::Predicate_1<::GBMLMONHJME*>** StaticGet___9__49_0()
 		{
-			return (::System::Predicate_1<::GBMLMONHJME*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x12408);
+			return (::System::Predicate_1<::GBMLMONHJME*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B40);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10B48);
 		}
 
 		static ::System::Void _cctor()

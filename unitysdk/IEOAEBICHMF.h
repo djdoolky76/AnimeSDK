@@ -4,7 +4,7 @@
 #include "unitysdk/MGMHEKMJKBH.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int IEOAEBICHMF_TypeDefinitionIndex = 6253;
+inline static constexpr unsigned int IEOAEBICHMF_TypeDefinitionIndex = 6260;
 
 	struct alignas(4) IEOAEBICHMF
 	{

@@ -5,25 +5,25 @@ namespace RPG::Client { class IGridFightTraitShowEffect; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTROLEEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD25CE90)
-#define RPG_CLIENT_GRIDFIGHTROLEEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD25CED0)
-#define RPG_CLIENT_GRIDFIGHTROLEEFFECT___C__GETSHOWNEFFECTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xD25CEE0)
+#define RPG_CLIENT_GRIDFIGHTROLEEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC52EF0)
+#define RPG_CLIENT_GRIDFIGHTROLEEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC52F30)
+#define RPG_CLIENT_GRIDFIGHTROLEEFFECT___C__GETSHOWNEFFECTS_B__4_0_OFFSET UNITYSDK_OFFSET(0xDC52F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRoleEffect___c_TypeDefinitionIndex = 65132;
+	inline static constexpr unsigned int GridFightRoleEffect___c_TypeDefinitionIndex = 66816;
 
 	class GridFightRoleEffect___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::IGridFightTraitShowEffect*, ::System::Int32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::IGridFightTraitShowEffect*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E400);
+			return (::System::Func_2<::RPG::Client::IGridFightTraitShowEffect*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAB40);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E408);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xAB48);
 		}
 
 		static ::System::Void _cctor()

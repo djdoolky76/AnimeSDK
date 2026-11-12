@@ -5,25 +5,25 @@ namespace RPG::GameCore { class MonopolyMapCell; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONOPOLYMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8AB790)
-#define RPG_CLIENT_MONOPOLYMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD8AB7D0)
-#define RPG_CLIENT_MONOPOLYMODULE___C__GETCELLLISTBYMAP_B__155_0_OFFSET UNITYSDK_OFFSET(0xD8AB7E0)
+#define RPG_CLIENT_MONOPOLYMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2FE0D0)
+#define RPG_CLIENT_MONOPOLYMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2FE110)
+#define RPG_CLIENT_MONOPOLYMODULE___C__GETCELLLISTBYMAP_B__155_0_OFFSET UNITYSDK_OFFSET(0xE2FE120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyModule___c_TypeDefinitionIndex = 66277;
+	inline static constexpr unsigned int MonopolyModule___c_TypeDefinitionIndex = 68213;
 
 	class MonopolyModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::MonopolyMapCell*>** StaticGet___9__155_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::MonopolyMapCell*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D640);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D648);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x67690);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::MonopolyMapCell*>** StaticGet___9__155_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::MonopolyMapCell*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x67698);
 		}
 
 		static ::System::Void _cctor()

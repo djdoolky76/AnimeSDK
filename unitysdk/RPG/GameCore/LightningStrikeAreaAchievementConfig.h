@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LightningStrikeAreaAchievementConfig; }
 
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAACHIEVEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CFC80)
-#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAACHIEVEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7CFBE0)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAACHIEVEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA11660)
+#define RPG_GAMECORE_LIGHTNINGSTRIKEAREAACHIEVEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA115C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LightningStrikeAreaAchievementConfig_TypeDefinitionIndex = 16816;
+	inline static constexpr unsigned int LightningStrikeAreaAchievementConfig_TypeDefinitionIndex = 16983;
 
 	class LightningStrikeAreaAchievementConfig : public ::RPG::GameCore::JsonConfig
 	{

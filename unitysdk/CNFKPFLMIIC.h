@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CNFKPFLMIIC_CTOR_OFFSET UNITYSDK_OFFSET(0xDA4C490)
+#define CNFKPFLMIIC_CTOR_OFFSET UNITYSDK_OFFSET(0xE5E4BB0)
 
-inline static constexpr unsigned int CNFKPFLMIIC_TypeDefinitionIndex = 81268;
+inline static constexpr unsigned int CNFKPFLMIIC_TypeDefinitionIndex = 84048;
 
 	class CNFKPFLMIIC : public ::System::Object
 	{

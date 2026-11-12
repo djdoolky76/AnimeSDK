@@ -1,28 +1,28 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/EventSystems/UIBehaviour.h"
-namespace UnityEngine { class Animation; }
-namespace UnityEngine { class BoxCollider; }
-namespace UnityEngine { class Collider; }
+namespace System { class String; }
+namespace UnityEngine { class Animator; }
+namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_AWAKE_OFFSET UNITYSDK_OFFSET(0xD037630)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_BLMPICNOABN_OFFSET UNITYSDK_OFFSET(0xD037790)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xD037AA0)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD037740)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET UNITYSDK_OFFSET(0xD0378E0)
-#define RPG_CLIENT_FIVEDIMSTAFFENTRY_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0xD037930)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_AWAKE_OFFSET UNITYSDK_OFFSET(0xD9BA570)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xD9BAAE0)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_EONKNONKLFK_OFFSET UNITYSDK_OFFSET(0xD9BA800)
+#define RPG_CLIENT_FIVEDIMSTAFFENTRY_TRIGGERIN_OFFSET UNITYSDK_OFFSET(0xD9BA680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimStaffEntry_TypeDefinitionIndex = 60398;
+	inline static constexpr unsigned int FiveDimStaffEntry_TypeDefinitionIndex = 61683;
 
 	class FiveDimStaffEntry : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:
-		::UnityEngine::BoxCollider* Trigger; // 0x18
-		::UnityEngine::RectTransform* IGLNACMFMHF; // 0x20
-		::UnityEngine::Animation* KCOAILOHDND; // 0x28
+		::System::String* AnimTriggerOnPlayerEnter; // 0x18
+		::Il2CppArray<::UnityEngine::ParticleSystem*>* _ShapeParticles; // 0x20
+		::System::String* EventOnPlayerEnter; // 0x28
+		::UnityEngine::RectTransform* IGLNACMFMHF; // 0x30
+		::UnityEngine::Animator* KCOAILOHDND; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_CTOR_OFFSET))(this);
@@ -33,24 +33,14 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_AWAKE_OFFSET))(this);
 		}
 
-		::System::Void OnEnable()
+		::System::Void TriggerIn()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_ONENABLE_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_TRIGGERIN_OFFSET))(this);
 		}
 
-		::System::Void OnRectTransformDimensionsChange()
+		::System::Void EONKNONKLFK()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_ONRECTTRANSFORMDIMENSIONSCHANGE_OFFSET))(this);
-		}
-
-		::System::Void BLMPICNOABN()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_BLMPICNOABN_OFFSET))(this);
-		}
-
-		::System::Void OnTriggerEnter(::UnityEngine::Collider* a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_ONTRIGGERENTER_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FIVEDIMSTAFFENTRY_EONKNONKLFK_OFFSET))(this);
 		}
 
 	};

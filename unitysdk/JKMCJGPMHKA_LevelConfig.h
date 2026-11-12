@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define JKMCJGPMHKA_LEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
-#define JKMCJGPMHKA_LEVELCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0xB220700)
+#define JKMCJGPMHKA_LEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x12B00)
+#define JKMCJGPMHKA_LEVELCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0xBA48C80)
 
-inline static constexpr unsigned int JKMCJGPMHKA_LevelConfig_TypeDefinitionIndex = 51809;
+inline static constexpr unsigned int JKMCJGPMHKA_LevelConfig_TypeDefinitionIndex = 52895;
 
 	struct alignas(4) JKMCJGPMHKA_LevelConfig
 	{

@@ -5,25 +5,25 @@ class GPEPGKCPBPB;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF38160)
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF381A0)
-#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xDF381B0)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9E8C90)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E8CD0)
+#define RPG_CLIENT_ROGUEMAGICSETTLEDATA___C__CREATE_B__2_0_OFFSET UNITYSDK_OFFSET(0xE9E8CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicSettleData___c_TypeDefinitionIndex = 67398;
+	inline static constexpr unsigned int RogueMagicSettleData___c_TypeDefinitionIndex = 69342;
 
 	class RogueMagicSettleData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x64C40);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D670);
 		}
 
 		static ::System::Comparison_1<::GPEPGKCPBPB*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::GPEPGKCPBPB*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x64C48);
+			return (::System::Comparison_1<::GPEPGKCPBPB*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D678);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC936BF0)
-#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_IHIPPEMHBMH_OFFSET UNITYSDK_OFFSET(0xC936B90)
-#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_LPOLAJJKNAL_OFFSET UNITYSDK_OFFSET(0xC936A10)
+#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD29AF30)
+#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_IHIPPEMHBMH_OFFSET UNITYSDK_OFFSET(0xD29AED0)
+#define RPG_CLIENT_CAMERAFIGHTSTATEUSESKILLPERFORMCONFIG_LPOLAJJKNAL_OFFSET UNITYSDK_OFFSET(0xD29AD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraFightStateUseSkillPerformConfig_TypeDefinitionIndex = 69587;
+	inline static constexpr unsigned int CameraFightStateUseSkillPerformConfig_TypeDefinitionIndex = 71544;
 
 	class CameraFightStateUseSkillPerformConfig : public ::RPG::Client::CameraFightStateCommonConfig
 	{

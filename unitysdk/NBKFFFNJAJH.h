@@ -7,21 +7,21 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class RectTransform; }
 
-#define NBKFFFNJAJH_AINEOFAFCNP_OFFSET UNITYSDK_OFFSET(0xBAD91F0)
-#define NBKFFFNJAJH_BAIJCABAHAM_OFFSET UNITYSDK_OFFSET(0xBAD9160)
-#define NBKFFFNJAJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBAD92D0)
-#define NBKFFFNJAJH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBAD8F50)
-#define NBKFFFNJAJH_JNGBCLIPFBB_OFFSET UNITYSDK_OFFSET(0xBAD8FF0)
-#define NBKFFFNJAJH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBAD8EF0)
+#define NBKFFFNJAJH_AINEOFAFCNP_OFFSET UNITYSDK_OFFSET(0xC35FA60)
+#define NBKFFFNJAJH_BAIJCABAHAM_OFFSET UNITYSDK_OFFSET(0xC35F9D0)
+#define NBKFFFNJAJH_CTOR_OFFSET UNITYSDK_OFFSET(0xC35FB40)
+#define NBKFFFNJAJH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC35F7C0)
+#define NBKFFFNJAJH_JNGBCLIPFBB_OFFSET UNITYSDK_OFFSET(0xC35F860)
+#define NBKFFFNJAJH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC35F760)
 
-inline static constexpr unsigned int NBKFFFNJAJH_TypeDefinitionIndex = 72068;
+inline static constexpr unsigned int NBKFFFNJAJH_TypeDefinitionIndex = 74101;
 
 	class NBKFFFNJAJH : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::LevelUIComponent* CFKHNPGEAJA; // 0x10
-		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::RectTransform*>* HADAMKNKPLI; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::UnityEngine::RectTransform*>* HADAMKNKPLI; // 0x18
+		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NBKFFFNJAJH_CTOR_OFFSET))(this);

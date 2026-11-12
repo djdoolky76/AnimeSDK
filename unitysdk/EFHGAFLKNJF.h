@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PauseToTurnEnd; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EFHGAFLKNJF_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4C090)
-#define EFHGAFLKNJF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13A4C0A0)
-#define EFHGAFLKNJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A4C0E0)
-#define EFHGAFLKNJF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13A4C180)
-#define EFHGAFLKNJF_TICK_OFFSET UNITYSDK_OFFSET(0x13A4C1D0)
+#define EFHGAFLKNJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1480D5A0)
+#define EFHGAFLKNJF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1480D5B0)
+#define EFHGAFLKNJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1480D5F0)
+#define EFHGAFLKNJF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1480D690)
+#define EFHGAFLKNJF_TICK_OFFSET UNITYSDK_OFFSET(0x1480D6E0)
 
-inline static constexpr unsigned int EFHGAFLKNJF_TypeDefinitionIndex = 58250;
+inline static constexpr unsigned int EFHGAFLKNJF_TypeDefinitionIndex = 59506;
 
 	class EFHGAFLKNJF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::PauseToTurnEnd* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::PauseToTurnEnd* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PauseToTurnEnd* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PauseToTurnEnd*))((::PBYTE)hIl2Cpp + EFHGAFLKNJF_CTOR_OFFSET))(this, a1, a2);

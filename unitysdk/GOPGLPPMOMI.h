@@ -10,11 +10,11 @@ class PKHKEEKIODC;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GOPGLPPMOMI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15B3C790)
-#define GOPGLPPMOMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3C710)
-#define GOPGLPPMOMI_JDJDCFLAKGP_OFFSET UNITYSDK_OFFSET(0x15B3C900)
+#define GOPGLPPMOMI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16AC2F20)
+#define GOPGLPPMOMI_CTOR_OFFSET UNITYSDK_OFFSET(0x16AC2EA0)
+#define GOPGLPPMOMI_JDJDCFLAKGP_OFFSET UNITYSDK_OFFSET(0x16AC3090)
 
-inline static constexpr unsigned int GOPGLPPMOMI_TypeDefinitionIndex = 67115;
+inline static constexpr unsigned int GOPGLPPMOMI_TypeDefinitionIndex = 69059;
 
 	class GOPGLPPMOMI : public ::System::Object
 	{

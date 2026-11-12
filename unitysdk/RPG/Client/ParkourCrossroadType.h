@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ParkourCrossroadType_TypeDefinitionIndex = 61835;
+	inline static constexpr unsigned int ParkourCrossroadType_TypeDefinitionIndex = 63241;
 
 	enum class ParkourCrossroadType : ::System::Int32
 	{

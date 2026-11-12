@@ -3,10 +3,10 @@
 class MLJGEGPAAFF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGEOAJAKCAP_CTOR_OFFSET UNITYSDK_OFFSET(0x15C960F0)
-#define HGEOAJAKCAP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C96120)
+#define HGEOAJAKCAP_CTOR_OFFSET UNITYSDK_OFFSET(0x16BE0240)
+#define HGEOAJAKCAP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16BE0270)
 
-inline static constexpr unsigned int HGEOAJAKCAP_TypeDefinitionIndex = 53643;
+inline static constexpr unsigned int HGEOAJAKCAP_TypeDefinitionIndex = 54807;
 
 	class HGEOAJAKCAP
 	{

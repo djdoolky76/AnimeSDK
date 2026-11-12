@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define OHIOBPKCBFM_CTOR_OFFSET UNITYSDK_OFFSET(0x21E10)
+#define OHIOBPKCBFM_CTOR_OFFSET UNITYSDK_OFFSET(0x27120)
 
-inline static constexpr unsigned int OHIOBPKCBFM_TypeDefinitionIndex = 78658;
+inline static constexpr unsigned int OHIOBPKCBFM_TypeDefinitionIndex = 81393;
 
 	struct alignas(4) OHIOBPKCBFM
 	{

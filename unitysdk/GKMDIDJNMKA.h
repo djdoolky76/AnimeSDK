@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GKMDIDJNMKA_TypeDefinitionIndex = 81485;
+inline static constexpr unsigned int GKMDIDJNMKA_TypeDefinitionIndex = 84265;
 
 	class GKMDIDJNMKA
 	{

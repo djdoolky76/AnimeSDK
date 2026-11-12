@@ -6,21 +6,21 @@ namespace RPG::GameCore { class MarbleSimulateListener; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CFKKDNJMJLG_CMMHAKEAFAC_OFFSET UNITYSDK_OFFSET(0xCC4FA40)
-#define CFKKDNJMJLG_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F740)
-#define CFKKDNJMJLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC4F8E0)
-#define CFKKDNJMJLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC4F7D0)
-#define CFKKDNJMJLG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC4F890)
-#define CFKKDNJMJLG_TICK_OFFSET UNITYSDK_OFFSET(0xCC4FC10)
+#define CFKKDNJMJLG_CMMHAKEAFAC_OFFSET UNITYSDK_OFFSET(0xD5FD040)
+#define CFKKDNJMJLG_CTOR_OFFSET UNITYSDK_OFFSET(0xD5FCD40)
+#define CFKKDNJMJLG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD5FCEE0)
+#define CFKKDNJMJLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5FCDD0)
+#define CFKKDNJMJLG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD5FCE90)
+#define CFKKDNJMJLG_TICK_OFFSET UNITYSDK_OFFSET(0xD5FD210)
 
-inline static constexpr unsigned int CFKKDNJMJLG_TypeDefinitionIndex = 52305;
+inline static constexpr unsigned int CFKKDNJMJLG_TypeDefinitionIndex = 53411;
 
 	class CFKKDNJMJLG : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* BGGKBBLAGKN; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
-		::RPG::GameCore::MarbleSimulateListener* IGHAHBNLIJA; // 0x28
+		::RPG::GameCore::MarbleSimulateListener* IGHAHBNLIJA; // 0x18
+		::KFELGAIGHAP* BGGKBBLAGKN; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MarbleSimulateListener* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MarbleSimulateListener*))((::PBYTE)hIl2Cpp + CFKKDNJMJLG_CTOR_OFFSET))(this, a1, a2);

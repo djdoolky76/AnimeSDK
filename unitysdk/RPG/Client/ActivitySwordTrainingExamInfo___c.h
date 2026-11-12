@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5B4200)
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5B4240)
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C__STARTEXAM_B__4_0_OFFSET UNITYSDK_OFFSET(0xC5B4250)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF09BD0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF09C10)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C__STARTEXAM_B__4_0_OFFSET UNITYSDK_OFFSET(0xCF09C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySwordTrainingExamInfo___c_TypeDefinitionIndex = 61946;
+	inline static constexpr unsigned int ActivitySwordTrainingExamInfo___c_TypeDefinitionIndex = 63358;
 
 	class ActivitySwordTrainingExamInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__4_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E850);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3E858);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34FC0);
+		}
+
+		static ::System::Action** StaticGet___9__4_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34FC8);
 		}
 
 		static ::System::Void _cctor()

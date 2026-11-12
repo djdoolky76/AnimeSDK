@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ITrackableIcon_TypeDefinitionIndex = 62913;
+	inline static constexpr unsigned int ITrackableIcon_TypeDefinitionIndex = 64351;
 
 	class ITrackableIcon
 	{

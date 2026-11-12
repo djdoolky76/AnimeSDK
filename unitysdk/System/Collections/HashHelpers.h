@@ -5,11 +5,11 @@ namespace System { class Object; }
 namespace System::Runtime::CompilerServices { template <typename T1, typename T2> class ConditionalWeakTable_2; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_HASHHELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0C3FC0)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x1C0C3FA0)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x1C0C3E60)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x1C0C3D20)
-#define SYSTEM_COLLECTIONS_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x1C0C3DE0)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D24B250)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_EXPANDPRIME_OFFSET UNITYSDK_OFFSET(0x1D24B230)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_GETPRIME_OFFSET UNITYSDK_OFFSET(0x1D24B0F0)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_GET_SERIALIZATIONINFOTABLE_OFFSET UNITYSDK_OFFSET(0x1D24AFB0)
+#define SYSTEM_COLLECTIONS_HASHHELPERS_ISPRIME_OFFSET UNITYSDK_OFFSET(0x1D24B070)
 
 namespace System::Collections
 {
@@ -18,14 +18,14 @@ namespace System::Collections
 	class HashHelpers : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Int32>** StaticGet_primes()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0xFF30);
-		}
-
 		static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>** StaticGet_s_SerializationInfoTable()
 		{
-			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0xFF38);
+			return (::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0xE350);
+		}
+
+		static ::Il2CppArray<::System::Int32>** StaticGet_primes()
+		{
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("System.Collections", "HashHelpers")->GetStaticField(0xE358);
 		}
 
 		static ::System::Void _cctor()

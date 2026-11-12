@@ -4,31 +4,31 @@
 namespace System { class Object; }
 namespace System::Threading { class WaitCallback; }
 
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xAFC02D0)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAFC0310)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CHECKURLUSAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xAFC09B0)
-#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DOMTR_B__3_0_OFFSET UNITYSDK_OFFSET(0xAFC0320)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB621900)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB621940)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__CHECKURLUSAGE_B__5_0_OFFSET UNITYSDK_OFFSET(0xB621FE0)
+#define MIHOYO_SDK_MTR_MIHOYOMTRINTERFACE___C__DOMTR_B__3_0_OFFSET UNITYSDK_OFFSET(0xB621950)
 
 namespace MiHoYo::SDK::MTR
 {
-	inline static constexpr unsigned int MiHoYoMTRInterface___c_TypeDefinitionIndex = 46688;
+	inline static constexpr unsigned int MiHoYoMTRInterface___c_TypeDefinitionIndex = 47716;
 
 	class MiHoYoMTRInterface___c : public ::System::Object
 	{
 	public:
 		static ::System::Threading::WaitCallback** StaticGet___9__5_0()
 		{
-			return (::System::Threading::WaitCallback**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>c")->GetStaticField(0x25460);
+			return (::System::Threading::WaitCallback**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>c")->GetStaticField(0x1FC10);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>c")->GetStaticField(0x25468);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>c")->GetStaticField(0x1FC18);
 		}
 
 		static ::System::Threading::WaitCallback** StaticGet___9__3_0()
 		{
-			return (::System::Threading::WaitCallback**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>c")->GetStaticField(0x25470);
+			return (::System::Threading::WaitCallback**)UnitySDK::FromName("MiHoYo.SDK.MTR", "<>c")->GetStaticField(0x1FC20);
 		}
 
 		static ::System::Void _cctor()

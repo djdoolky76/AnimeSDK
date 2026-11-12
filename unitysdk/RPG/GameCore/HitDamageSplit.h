@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class HitDamageSplit; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HITDAMAGESPLIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D770060)
-#define RPG_GAMECORE_HITDAMAGESPLIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D770070)
-#define RPG_GAMECORE_HITDAMAGESPLIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D770020)
+#define RPG_GAMECORE_HITDAMAGESPLIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9837B0)
+#define RPG_GAMECORE_HITDAMAGESPLIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9837C0)
+#define RPG_GAMECORE_HITDAMAGESPLIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E983770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitDamageSplit_TypeDefinitionIndex = 23574;
+	inline static constexpr unsigned int HitDamageSplit_TypeDefinitionIndex = 24021;
 
 	class HitDamageSplit : public ::RPG::GameCore::TaskConfig
 	{

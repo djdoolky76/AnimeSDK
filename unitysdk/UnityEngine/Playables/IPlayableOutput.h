@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int IPlayableOutput_TypeDefinitionIndex = 4909;
+	inline static constexpr unsigned int IPlayableOutput_TypeDefinitionIndex = 4914;
 
 	class IPlayableOutput
 	{

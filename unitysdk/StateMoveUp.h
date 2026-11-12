@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace UnityEngine { class Animator; }
 
-#define STATEMOVEUP_CTOR_OFFSET UNITYSDK_OFFSET(0xE998820)
-#define STATEMOVEUP_NIJCGEIOIII_OFFSET UNITYSDK_OFFSET(0xE998750)
-#define STATEMOVEUP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xE998310)
-#define STATEMOVEUP_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE9983C0)
+#define STATEMOVEUP_CTOR_OFFSET UNITYSDK_OFFSET(0xF4ADE20)
+#define STATEMOVEUP_NIJCGEIOIII_OFFSET UNITYSDK_OFFSET(0xF4ADD50)
+#define STATEMOVEUP_ONSTATEENTER_OFFSET UNITYSDK_OFFSET(0xF4AD910)
+#define STATEMOVEUP_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xF4AD9C0)
 
-inline static constexpr unsigned int StateMoveUp_TypeDefinitionIndex = 47274;
+inline static constexpr unsigned int StateMoveUp_TypeDefinitionIndex = 48302;
 
 	class StateMoveUp : public ::UnityEngine::StateMachineBehaviour
 	{

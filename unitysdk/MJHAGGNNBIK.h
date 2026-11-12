@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 class MJHAGGNNBIK;
 
-#define MJHAGGNNBIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1B53B0)
-#define MJHAGGNNBIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1B53C0)
-#define MJHAGGNNBIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1B5370)
+#define MJHAGGNNBIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B6C10)
+#define MJHAGGNNBIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3B6C20)
+#define MJHAGGNNBIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3B6BD0)
 
-inline static constexpr unsigned int MJHAGGNNBIK_TypeDefinitionIndex = 22727;
+inline static constexpr unsigned int MJHAGGNNBIK_TypeDefinitionIndex = 23149;
 
 	class MJHAGGNNBIK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::Boolean GAFJFMNACDO; // 0x18
-		::System::Boolean KLCKBECJHFM; // 0x19
+		::System::Boolean PGLPJMGJNMO; // 0x19
 		::System::Boolean EADOPLLMICI; // 0x1A
 		::System::Boolean IGFNFLBGLEP; // 0x1B
-		::System::Boolean PGLPJMGJNMO; // 0x1C
+		::System::Boolean KLCKBECJHFM; // 0x1C
 		::System::Byte _padding0[0x3];
 		::System::Single NEMDKBKDFDN; // 0x20
 		::System::Void _ctor()

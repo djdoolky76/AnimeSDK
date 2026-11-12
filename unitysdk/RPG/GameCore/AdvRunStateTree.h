@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AIVariable; }
 namespace RPG::GameCore { class AdvRunStateTree; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVRUNSTATETREE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3ACE80)
-#define RPG_GAMECORE_ADVRUNSTATETREE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3ACE90)
-#define RPG_GAMECORE_ADVRUNSTATETREE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3ACE50)
+#define RPG_GAMECORE_ADVRUNSTATETREE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BC3B0)
+#define RPG_GAMECORE_ADVRUNSTATETREE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5BC3C0)
+#define RPG_GAMECORE_ADVRUNSTATETREE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5BC380)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvRunStateTree_TypeDefinitionIndex = 20009;
+	inline static constexpr unsigned int AdvRunStateTree_TypeDefinitionIndex = 20343;
 
 	class AdvRunStateTree : public ::RPG::GameCore::TaskConfig
 	{

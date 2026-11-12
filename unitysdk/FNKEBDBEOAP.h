@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTeamLocationIndexType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNKEBDBEOAP_CTOR_OFFSET UNITYSDK_OFFSET(0x158752F0)
-#define FNKEBDBEOAP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15875320)
+#define FNKEBDBEOAP_CTOR_OFFSET UNITYSDK_OFFSET(0x167E7AD0)
+#define FNKEBDBEOAP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x167E7B00)
 
-inline static constexpr unsigned int FNKEBDBEOAP_TypeDefinitionIndex = 54693;
+inline static constexpr unsigned int FNKEBDBEOAP_TypeDefinitionIndex = 55859;
 
 	class FNKEBDBEOAP
 	{

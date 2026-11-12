@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPrepTutorialRemoveEquipTrackParam; }
 
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALREMOVEEQUIPTRACKPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73B190)
-#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALREMOVEEQUIPTRACKPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D73B0C0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALREMOVEEQUIPTRACKPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94B9B0)
+#define RPG_GAMECORE_GRIDFIGHTPREPTUTORIALREMOVEEQUIPTRACKPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E94B8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPrepTutorialRemoveEquipTrackParam_TypeDefinitionIndex = 19970;
+	inline static constexpr unsigned int GridFightPrepTutorialRemoveEquipTrackParam_TypeDefinitionIndex = 20300;
 
 	class GridFightPrepTutorialRemoveEquipTrackParam : public ::RPG::GameCore::JsonConfig
 	{

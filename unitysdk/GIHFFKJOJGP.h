@@ -5,10 +5,10 @@ namespace RPG::AvatarSystem::Property { template <typename T> class PropertyModi
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarInfo; }
 
-#define GIHFFKJOJGP_BUILD_OFFSET UNITYSDK_OFFSET(0x15A37A00)
-#define GIHFFKJOJGP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A379E0)
+#define GIHFFKJOJGP_BUILD_OFFSET UNITYSDK_OFFSET(0x16972120)
+#define GIHFFKJOJGP_CTOR_OFFSET UNITYSDK_OFFSET(0x16972100)
 
-inline static constexpr unsigned int GIHFFKJOJGP_TypeDefinitionIndex = 75135;
+inline static constexpr unsigned int GIHFFKJOJGP_TypeDefinitionIndex = 77462;
 
 	class GIHFFKJOJGP
 	{

@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define DONKELCPIAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FE50)
+#define DONKELCPIAN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DBF3690)
 
-inline static constexpr unsigned int DONKELCPIAN_TypeDefinitionIndex = 42780;
+inline static constexpr unsigned int DONKELCPIAN_TypeDefinitionIndex = 43759;
 
 	class DONKELCPIAN : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DONKELCPIAN")->GetStaticField(0x26280);
-		}
-
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "DONKELCPIAN")->GetStaticField(0x26288);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "DONKELCPIAN")->GetStaticField(0x1B020);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DONKELCPIAN")->GetStaticField(0x1B028);
 		}
 
 		// static const ::System::Object HFLDHJHJNCF; // 0x0

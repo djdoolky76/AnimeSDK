@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int First_TypeDefinitionIndex = 45360;
+	inline static constexpr unsigned int First_TypeDefinitionIndex = 46389;
 
 	class First : public ::System::Object
 	{

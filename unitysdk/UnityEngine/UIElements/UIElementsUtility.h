@@ -19,67 +19,67 @@ namespace UnityEngine::UIElements { class EventBase; }
 namespace UnityEngine::UIElements { class IMGUIContainer; }
 namespace UnityEngine::UIElements { class Panel; }
 
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_BEGINCONTAINERGUI_OFFSET UNITYSDK_OFFSET(0x1F4B7380)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C6320)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CLEANUPROOTS_OFFSET UNITYSDK_OFFSET(0x1F4C7330)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CREATEEVENT_1_OFFSET UNITYSDK_OFFSET(0x1F4C7570)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x1F4C7500)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_DODISPATCH_OFFSET UNITYSDK_OFFSET(0x1F4C6BE0)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_ENDCONTAINERGUIFROMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x1F4C73A0)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_ENDCONTAINERGUI_OFFSET UNITYSDK_OFFSET(0x1F4B76A0)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_GETALLPANELS_OFFSET UNITYSDK_OFFSET(0x1F4C6070)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_GETPANELSITERATOR_OFFSET UNITYSDK_OFFSET(0x1F4C7A80)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_MAKECURRENTIMGUICONTAINERDIRTY_OFFSET UNITYSDK_OFFSET(0x1F4C6750)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x1F4C6A90)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x1F4C6A80)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_REMOVECACHEDPANEL_OFFSET UNITYSDK_OFFSET(0x1F4AA190)
-#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_TAKECAPTURE_OFFSET UNITYSDK_OFFSET(0x1F4C6870)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_BEGINCONTAINERGUI_OFFSET UNITYSDK_OFFSET(0x20767200)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x20776170)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CLEANUPROOTS_OFFSET UNITYSDK_OFFSET(0x20777180)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CREATEEVENT_1_OFFSET UNITYSDK_OFFSET(0x207773C0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_CREATEEVENT_OFFSET UNITYSDK_OFFSET(0x20777350)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_DODISPATCH_OFFSET UNITYSDK_OFFSET(0x20776A30)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_ENDCONTAINERGUIFROMEXCEPTION_OFFSET UNITYSDK_OFFSET(0x207771F0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_ENDCONTAINERGUI_OFFSET UNITYSDK_OFFSET(0x20767520)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_GETALLPANELS_OFFSET UNITYSDK_OFFSET(0x20775EC0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_GETPANELSITERATOR_OFFSET UNITYSDK_OFFSET(0x207778D0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_MAKECURRENTIMGUICONTAINERDIRTY_OFFSET UNITYSDK_OFFSET(0x207765A0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_PROCESSEVENT_OFFSET UNITYSDK_OFFSET(0x207768E0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_RELEASECAPTURE_OFFSET UNITYSDK_OFFSET(0x207768D0)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_REMOVECACHEDPANEL_OFFSET UNITYSDK_OFFSET(0x2075A010)
+#define UNITYENGINE_UIELEMENTS_UIELEMENTSUTILITY_TAKECAPTURE_OFFSET UNITYSDK_OFFSET(0x207766C0)
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int UIElementsUtility_TypeDefinitionIndex = 5898;
+	inline static constexpr unsigned int UIElementsUtility_TypeDefinitionIndex = 5906;
 
 	class UIElementsUtility : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_s_EventProfilerMarkerName()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x1DBE0);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x276F0);
 		}
 
 		static ::System::String** StaticGet_s_RepaintProfilerMarkerName()
 		{
-			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x1DBE8);
+			return (::System::String**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x276F8);
 		}
 
 		static ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer*>** StaticGet_s_ContainerStack()
 		{
-			return (::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer*>**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x1DBF0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UIElements::Panel*>** StaticGet_s_UIElementsCache()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UIElements::Panel*>**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x1DBF8);
+			return (::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer*>**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x27700);
 		}
 
 		static ::UnityEngine::Event** StaticGet_s_EventInstance()
 		{
-			return (::UnityEngine::Event**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x1DC00);
+			return (::UnityEngine::Event**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x27708);
 		}
 
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_EventProfilerMarker()
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UIElements::Panel*>** StaticGet_s_UIElementsCache()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x6C80);
-		}
-
-		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_RepaintProfilerMarker()
-		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x6C88);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::UIElements::Panel*>**)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x27710);
 		}
 
 		static ::UnityEngine::Color* StaticGet_editorPlayModeTintColor()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x6C90);
+			return (::UnityEngine::Color*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x7E10);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_EventProfilerMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x7E20);
+		}
+
+		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_RepaintProfilerMarker()
+		{
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements", "UIElementsUtility")->GetStaticField(0x7E28);
 		}
 
 		static ::System::Void _cctor()

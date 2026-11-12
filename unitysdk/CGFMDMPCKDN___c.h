@@ -4,18 +4,18 @@
 class CGFMDMPCKDN;
 namespace System { class Object; }
 
-#define CGFMDMPCKDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0AEBA0)
-#define CGFMDMPCKDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0AEBE0)
-#define CGFMDMPCKDN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0AEBF0)
+#define CGFMDMPCKDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F376AD0)
+#define CGFMDMPCKDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F376B10)
+#define CGFMDMPCKDN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F376B20)
 
-inline static constexpr unsigned int CGFMDMPCKDN___c_TypeDefinitionIndex = 34259;
+inline static constexpr unsigned int CGFMDMPCKDN___c_TypeDefinitionIndex = 35187;
 
 	class CGFMDMPCKDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13EF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB9B0);
 		}
 
 		static ::System::Void _cctor()

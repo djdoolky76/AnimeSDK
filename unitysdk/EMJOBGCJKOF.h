@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RefreshFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EMJOBGCJKOF_CTOR_OFFSET UNITYSDK_OFFSET(0x155460B0)
-#define EMJOBGCJKOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155460E0)
+#define EMJOBGCJKOF_CTOR_OFFSET UNITYSDK_OFFSET(0x16492850)
+#define EMJOBGCJKOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16492880)
 
-inline static constexpr unsigned int EMJOBGCJKOF_TypeDefinitionIndex = 58375;
+inline static constexpr unsigned int EMJOBGCJKOF_TypeDefinitionIndex = 59631;
 
 	class EMJOBGCJKOF
 	{

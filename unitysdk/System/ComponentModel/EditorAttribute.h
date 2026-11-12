@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE84F0)
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFE8630)
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFE86E0)
-#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x1EFE8540)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20297D70)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x20297EB0)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x20297F60)
+#define SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_GET_TYPEID_OFFSET UNITYSDK_OFFSET(0x20297DC0)
 
 namespace System::ComponentModel
 {
@@ -16,9 +16,9 @@ namespace System::ComponentModel
 	class EditorAttribute : public ::System::Attribute
 	{
 	public:
-		::System::String* baseTypeName; // 0x10
-		::System::String* typeId; // 0x18
-		::System::String* typeName; // 0x20
+		::System::String* typeId; // 0x10
+		::System::String* typeName; // 0x18
+		::System::String* baseTypeName; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_EDITORATTRIBUTE_CTOR_OFFSET))(this, a1, a2);

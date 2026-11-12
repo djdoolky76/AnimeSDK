@@ -8,12 +8,12 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define ILKDFKIBOKA_CLEAR_OFFSET UNITYSDK_OFFSET(0x164C3A00)
-#define ILKDFKIBOKA_CTOR_OFFSET UNITYSDK_OFFSET(0x164C3B50)
-#define ILKDFKIBOKA_FNBGFENAFFL_OFFSET UNITYSDK_OFFSET(0x164C3A80)
-#define ILKDFKIBOKA_GDKBLINFAHI_OFFSET UNITYSDK_OFFSET(0x164C3AE0)
+#define ILKDFKIBOKA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1749BBD0)
+#define ILKDFKIBOKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1749BD20)
+#define ILKDFKIBOKA_FNBGFENAFFL_OFFSET UNITYSDK_OFFSET(0x1749BC50)
+#define ILKDFKIBOKA_GDKBLINFAHI_OFFSET UNITYSDK_OFFSET(0x1749BCB0)
 
-inline static constexpr unsigned int ILKDFKIBOKA_TypeDefinitionIndex = 59747;
+inline static constexpr unsigned int ILKDFKIBOKA_TypeDefinitionIndex = 61027;
 
 	class ILKDFKIBOKA : public ::System::Object
 	{
@@ -22,8 +22,8 @@ inline static constexpr unsigned int ILKDFKIBOKA_TypeDefinitionIndex = 59747;
 		::System::Collections::Generic::List_1<::System::UInt32>* CFCEACHEPAB; // 0x18
 		::System::String* DHMDAEKJENF; // 0x20
 		::System::Action_3<::System::UInt32, ::AkCallbackType, ::AkCallbackInfo*>* PHNEEILABKK; // 0x28
-		::System::UInt32 COMOBEBHBDK; // 0x30
-		::System::UInt32 NMBKAIEIAPE; // 0x34
+		::System::UInt32 NMBKAIEIAPE; // 0x30
+		::System::UInt32 COMOBEBHBDK; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILKDFKIBOKA_CTOR_OFFSET))(this);

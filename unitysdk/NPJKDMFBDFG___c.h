@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define NPJKDMFBDFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD0BB80)
-#define NPJKDMFBDFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD0BBB0)
-#define NPJKDMFBDFG___C__INIT_B__40_0_OFFSET UNITYSDK_OFFSET(0xBD0BBC0)
+#define NPJKDMFBDFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5FB750)
+#define NPJKDMFBDFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5FB780)
+#define NPJKDMFBDFG___C__INIT_B__40_0_OFFSET UNITYSDK_OFFSET(0xC5FB790)
 
-inline static constexpr unsigned int NPJKDMFBDFG___c_TypeDefinitionIndex = 49429;
+inline static constexpr unsigned int NPJKDMFBDFG___c_TypeDefinitionIndex = 50505;
 
 	class NPJKDMFBDFG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59100);
-		}
-
 		static ::System::Object** StaticGet___9__40_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59108);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC40);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC48);
 		}
 
 		static ::System::Void _cctor()

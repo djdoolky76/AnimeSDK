@@ -7,21 +7,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicWorkbenchFuncRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D8700)
-#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D8450)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC21EF0)
+#define RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC21C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicWorkbenchFuncRow_TypeDefinitionIndex = 14872;
+	inline static constexpr unsigned int RogueMagicWorkbenchFuncRow_TypeDefinitionIndex = 15028;
 
 	class RogueMagicWorkbenchFuncRow : public ::System::Object
 	{
 	public:
 		::System::String* FuncIcon; // 0x10
-		::RPG::Client::TextID FuncDesc; // 0x18
-		::RPG::GameCore::RogueWorkbenchFuncType FuncType; // 0x28
-		::System::UInt32 FuncID; // 0x2C
-		::RPG::Client::TextID FuncName; // 0x30
+		::RPG::Client::TextID FuncName; // 0x18
+		::RPG::Client::TextID FuncDesc; // 0x28
+		::System::UInt32 FuncID; // 0x38
+		::RPG::GameCore::RogueWorkbenchFuncType FuncType; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICWORKBENCHFUNCROW_CTOR_OFFSET))(this);

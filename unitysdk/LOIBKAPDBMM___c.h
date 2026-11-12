@@ -4,18 +4,18 @@
 class LOIBKAPDBMM;
 namespace System { class Object; }
 
-#define LOIBKAPDBMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C0B30)
-#define LOIBKAPDBMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C0B70)
-#define LOIBKAPDBMM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E9C0B80)
+#define LOIBKAPDBMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCE5A70)
+#define LOIBKAPDBMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCE5AB0)
+#define LOIBKAPDBMM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FCE5AC0)
 
-inline static constexpr unsigned int LOIBKAPDBMM___c_TypeDefinitionIndex = 27398;
+inline static constexpr unsigned int LOIBKAPDBMM___c_TypeDefinitionIndex = 27929;
 
 	class LOIBKAPDBMM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52070);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45D10);
 		}
 
 		static ::System::Void _cctor()

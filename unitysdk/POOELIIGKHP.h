@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAnimatorParameterWithTransition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define POOELIIGKHP_CTOR_OFFSET UNITYSDK_OFFSET(0xC374700)
-#define POOELIIGKHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3747B0)
+#define POOELIIGKHP_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA9CD0)
+#define POOELIIGKHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCCA9D80)
 
-inline static constexpr unsigned int POOELIIGKHP_TypeDefinitionIndex = 55345;
+inline static constexpr unsigned int POOELIIGKHP_TypeDefinitionIndex = 56528;
 
 	class POOELIIGKHP
 	{

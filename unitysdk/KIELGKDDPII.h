@@ -5,9 +5,9 @@
 #include "unitysdk/RPGTools/Octree/Generation/OctreeNodeNativeData.h"
 class NGLFOJKOKBH;
 
-#define KIELGKDDPII_CTOR_OFFSET UNITYSDK_OFFSET(0x14A50)
+#define KIELGKDDPII_CTOR_OFFSET UNITYSDK_OFFSET(0x19600)
 
-inline static constexpr unsigned int KIELGKDDPII_TypeDefinitionIndex = 48891;
+inline static constexpr unsigned int KIELGKDDPII_TypeDefinitionIndex = 49948;
 
 	struct alignas(4) KIELGKDDPII
 	{

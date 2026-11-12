@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BundleLocationType_TypeDefinitionIndex = 41405;
+	inline static constexpr unsigned int BundleLocationType_TypeDefinitionIndex = 42380;
 
 	enum class BundleLocationType : ::System::Int32
 	{

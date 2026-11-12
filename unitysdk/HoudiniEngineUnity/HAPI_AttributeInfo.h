@@ -5,11 +5,11 @@
 #include "unitysdk/HoudiniEngineUnity/HAPI_StorageType.h"
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HAPI_ATTRIBUTEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x304AC60)
+#define HOUDINIENGINEUNITY_HAPI_ATTRIBUTEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x322C080)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_AttributeInfo_TypeDefinitionIndex = 40506;
+	inline static constexpr unsigned int HAPI_AttributeInfo_TypeDefinitionIndex = 41481;
 
 	struct alignas(4) HAPI_AttributeInfo
 	{

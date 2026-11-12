@@ -4,20 +4,20 @@
 namespace Proto { class StrongChallengeAvatar; }
 namespace System { class Object; }
 
-#define PROTO_STRONGCHALLENGEAVATAR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E014DD0)
-#define PROTO_STRONGCHALLENGEAVATAR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E014E10)
-#define PROTO_STRONGCHALLENGEAVATAR___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E014E20)
+#define PROTO_STRONGCHALLENGEAVATAR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2E5340)
+#define PROTO_STRONGCHALLENGEAVATAR___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2E5380)
+#define PROTO_STRONGCHALLENGEAVATAR___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2E5390)
 
 namespace Proto
 {
-	inline static constexpr unsigned int StrongChallengeAvatar___c_TypeDefinitionIndex = 34295;
+	inline static constexpr unsigned int StrongChallengeAvatar___c_TypeDefinitionIndex = 35223;
 
 	class StrongChallengeAvatar___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x463A0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x52740);
 		}
 
 		static ::System::Void _cctor()

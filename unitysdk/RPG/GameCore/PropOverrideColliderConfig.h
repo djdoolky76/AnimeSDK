@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropOverrideColliderConfig; }
 
-#define RPG_GAMECORE_PROPOVERRIDECOLLIDERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D950BE0)
-#define RPG_GAMECORE_PROPOVERRIDECOLLIDERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D950990)
+#define RPG_GAMECORE_PROPOVERRIDECOLLIDERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB697D0)
+#define RPG_GAMECORE_PROPOVERRIDECOLLIDERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB633A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropOverrideColliderConfig_TypeDefinitionIndex = 17585;
+	inline static constexpr unsigned int PropOverrideColliderConfig_TypeDefinitionIndex = 17753;
 
 	class PropOverrideColliderConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,7 +6,7 @@ class CEEGMMCFCBG;
 namespace RPG::Client { class AnimatorButton; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 
-inline static constexpr unsigned int JHGEIEHKPNG__Bind_O__0_0_1_TypeDefinitionIndex = 49902;
+inline static constexpr unsigned int JHGEIEHKPNG__Bind_O__0_0_1_TypeDefinitionIndex = 50950;
 
 	template <typename T>
 	class JHGEIEHKPNG__Bind_O__0_0_1 : public ::System::Object

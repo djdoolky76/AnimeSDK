@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetSpecialVisionOn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCLLEAMFDFA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB157F0)
-#define NCLLEAMFDFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB15820)
+#define NCLLEAMFDFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC39E370)
+#define NCLLEAMFDFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC39E3A0)
 
-inline static constexpr unsigned int NCLLEAMFDFA_TypeDefinitionIndex = 58577;
+inline static constexpr unsigned int NCLLEAMFDFA_TypeDefinitionIndex = 59842;
 
 	class NCLLEAMFDFA
 	{

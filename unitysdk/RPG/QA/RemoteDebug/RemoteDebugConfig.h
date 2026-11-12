@@ -4,7 +4,7 @@
 
 namespace RPG::QA::RemoteDebug
 {
-	inline static constexpr unsigned int RemoteDebugConfig_TypeDefinitionIndex = 51830;
+	inline static constexpr unsigned int RemoteDebugConfig_TypeDefinitionIndex = 52916;
 
 	class RemoteDebugConfig : public ::System::Object
 	{

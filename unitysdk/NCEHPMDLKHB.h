@@ -6,10 +6,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NewAdventureFireProjectile; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NCEHPMDLKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0A570)
-#define NCEHPMDLKHB_EEKEIPKOEKN_OFFSET UNITYSDK_OFFSET(0xBB0A680)
+#define NCEHPMDLKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC390A20)
+#define NCEHPMDLKHB_EEKEIPKOEKN_OFFSET UNITYSDK_OFFSET(0xC390B30)
 
-inline static constexpr unsigned int NCEHPMDLKHB_TypeDefinitionIndex = 58235;
+inline static constexpr unsigned int NCEHPMDLKHB_TypeDefinitionIndex = 59491;
 
 	class NCEHPMDLKHB : public ::NCGKGFAJMGM
 	{

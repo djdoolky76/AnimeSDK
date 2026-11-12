@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AutoBubbleConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUTOBUBBLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4098F0)
-#define RPG_GAMECORE_AUTOBUBBLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D409700)
+#define RPG_GAMECORE_AUTOBUBBLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E629B80)
+#define RPG_GAMECORE_AUTOBUBBLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E629990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AutoBubbleConfig_TypeDefinitionIndex = 16949;
+	inline static constexpr unsigned int AutoBubbleConfig_TypeDefinitionIndex = 17116;
 
 	class AutoBubbleConfig : public ::RPG::GameCore::JsonConfig
 	{

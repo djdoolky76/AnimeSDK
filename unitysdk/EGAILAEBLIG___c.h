@@ -4,18 +4,18 @@
 class EGAILAEBLIG;
 namespace System { class Object; }
 
-#define EGAILAEBLIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E291600)
-#define EGAILAEBLIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E291640)
-#define EGAILAEBLIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E291650)
+#define EGAILAEBLIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F573E80)
+#define EGAILAEBLIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F573EC0)
+#define EGAILAEBLIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F573ED0)
 
-inline static constexpr unsigned int EGAILAEBLIG___c_TypeDefinitionIndex = 33426;
+inline static constexpr unsigned int EGAILAEBLIG___c_TypeDefinitionIndex = 34341;
 
 	class EGAILAEBLIG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x457D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52CB0);
 		}
 
 		static ::System::Void _cctor()

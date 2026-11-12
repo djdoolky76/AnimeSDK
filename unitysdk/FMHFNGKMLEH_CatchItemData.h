@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define FMHFNGKMLEH_CATCHITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15858760)
+#define FMHFNGKMLEH_CATCHITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x167C8BD0)
 
-inline static constexpr unsigned int FMHFNGKMLEH_CatchItemData_TypeDefinitionIndex = 60295;
+inline static constexpr unsigned int FMHFNGKMLEH_CatchItemData_TypeDefinitionIndex = 61579;
 
 	class FMHFNGKMLEH_CatchItemData : public ::System::Object
 	{

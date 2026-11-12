@@ -3,11 +3,11 @@
 namespace RPG::GameCore { class LockCurrentSceneTransferAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBLOJEGPEGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF49E0)
-#define PBLOJEGPEGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBFF4AE0)
-#define PBLOJEGPEGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF4A10)
+#define PBLOJEGPEGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F9250)
+#define PBLOJEGPEGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC8F9350)
+#define PBLOJEGPEGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8F9280)
 
-inline static constexpr unsigned int PBLOJEGPEGE_TypeDefinitionIndex = 52984;
+inline static constexpr unsigned int PBLOJEGPEGE_TypeDefinitionIndex = 54143;
 
 	class PBLOJEGPEGE
 	{

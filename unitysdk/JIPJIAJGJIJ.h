@@ -3,9 +3,9 @@
 namespace System { class String; }
 
 #define JIPJIAJGJIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define JIPJIAJGJIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x10D40)
+#define JIPJIAJGJIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x148F0)
 
-inline static constexpr unsigned int JIPJIAJGJIJ_TypeDefinitionIndex = 67264;
+inline static constexpr unsigned int JIPJIAJGJIJ_TypeDefinitionIndex = 69208;
 
 	struct alignas(4) JIPJIAJGJIJ
 	{

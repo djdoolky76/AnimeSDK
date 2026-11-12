@@ -5,36 +5,36 @@
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C7D20)
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEENGINEUPDATE_OFFSET UNITYSDK_OFFSET(0x1F4C7BE0)
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEFLUSHPENDINGRESOURCES_OFFSET UNITYSDK_OFFSET(0x1F4C7C90)
-#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEGRAPHICSRESOURCESRECREATE_OFFSET UNITYSDK_OFFSET(0x1F4C7B50)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x20777B70)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEENGINEUPDATE_OFFSET UNITYSDK_OFFSET(0x20777A30)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEFLUSHPENDINGRESOURCES_OFFSET UNITYSDK_OFFSET(0x20777AE0)
+#define UNITYENGINE_UIELEMENTS_UIR_UTILITY_RAISEGRAPHICSRESOURCESRECREATE_OFFSET UNITYSDK_OFFSET(0x207779A0)
 
 namespace UnityEngine::UIElements::UIR
 {
-	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 6008;
+	inline static constexpr unsigned int Utility_TypeDefinitionIndex = 6016;
 
 	class Utility : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet_EngineUpdate()
-		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x1FB20);
-		}
-
 		static ::System::Action_1<::System::Boolean>** StaticGet_GraphicsResourcesRecreate()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x1FB28);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x28820);
 		}
 
 		static ::System::Action** StaticGet_FlushPendingResources()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x1FB30);
+			return (::System::Action**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x28828);
+		}
+
+		static ::System::Action** StaticGet_EngineUpdate()
+		{
+			return (::System::Action**)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x28830);
 		}
 
 		static ::Unity::Profiling::ProfilerMarker* StaticGet_s_MarkerRaiseEngineUpdate()
 		{
-			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x73C0);
+			return (::Unity::Profiling::ProfilerMarker*)UnitySDK::FromName("UnityEngine.UIElements.UIR", "Utility")->GetStaticField(0x8450);
 		}
 
 		static ::System::Void _cctor()

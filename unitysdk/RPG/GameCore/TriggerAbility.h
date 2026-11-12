@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TriggerAbility; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_TRIGGERABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC42030)
-#define RPG_GAMECORE_TRIGGERABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC42040)
-#define RPG_GAMECORE_TRIGGERABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC42000)
+#define RPG_GAMECORE_TRIGGERABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE55270)
+#define RPG_GAMECORE_TRIGGERABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE55280)
+#define RPG_GAMECORE_TRIGGERABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE55240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerAbility_TypeDefinitionIndex = 22687;
+	inline static constexpr unsigned int TriggerAbility_TypeDefinitionIndex = 23109;
 
 	class TriggerAbility : public ::RPG::GameCore::TaskConfig
 	{

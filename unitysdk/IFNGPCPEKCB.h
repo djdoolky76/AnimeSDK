@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 class IFNGPCPEKCB;
 
-#define IFNGPCPEKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEF5E30)
-#define IFNGPCPEKCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEF5BE0)
+#define IFNGPCPEKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E9100)
+#define IFNGPCPEKCB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0E8EB0)
 
-inline static constexpr unsigned int IFNGPCPEKCB_TypeDefinitionIndex = 12888;
+inline static constexpr unsigned int IFNGPCPEKCB_TypeDefinitionIndex = 12960;
 
 	class IFNGPCPEKCB : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID DNLFJOJJDNF; // 0x10
-		::RPG::Client::TextID OENAMINOLLF; // 0x20
-		::System::UInt32 NBEKALMIDKH; // 0x30
-		::System::UInt32 FCOKEIGNAIN; // 0x34
+		::System::UInt32 NBEKALMIDKH; // 0x10
+		::System::UInt32 FCOKEIGNAIN; // 0x14
+		::RPG::Client::TextID DNLFJOJJDNF; // 0x18
+		::RPG::Client::TextID OENAMINOLLF; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFNGPCPEKCB_CTOR_OFFSET))(this);

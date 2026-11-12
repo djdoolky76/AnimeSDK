@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xD4DF570)
-#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD4DFBC0)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xDF2FD70)
+#define RPG_CLIENT_LOOPGENERATEBEHAVIOR_RUNTIMESLIDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDF303C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_RuntimeSlider_TypeDefinitionIndex = 70909;
+	inline static constexpr unsigned int LoopGenerateBehavior_RuntimeSlider_TypeDefinitionIndex = 72888;
 
 	class LoopGenerateBehavior_RuntimeSlider : public ::System::Object
 	{

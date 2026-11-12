@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CloneWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BMNPJNACGOF_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC1670)
-#define BMNPJNACGOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDC16A0)
+#define BMNPJNACGOF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7401F0)
+#define BMNPJNACGOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC740220)
 
-inline static constexpr unsigned int BMNPJNACGOF_TypeDefinitionIndex = 54969;
+inline static constexpr unsigned int BMNPJNACGOF_TypeDefinitionIndex = 56143;
 
 	class BMNPJNACGOF
 	{

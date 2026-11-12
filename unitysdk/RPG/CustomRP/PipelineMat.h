@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PipelineMat_TypeDefinitionIndex = 37860;
+	inline static constexpr unsigned int PipelineMat_TypeDefinitionIndex = 38789;
 
 	enum class PipelineMat : ::System::Int32
 	{

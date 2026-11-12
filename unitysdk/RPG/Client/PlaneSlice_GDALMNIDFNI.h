@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_PLANESLICE_GDALMNIDFNI_EQUALS_OFFSET UNITYSDK_OFFSET(0xEE730)
-#define RPG_CLIENT_PLANESLICE_GDALMNIDFNI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xEE740)
+#define RPG_CLIENT_PLANESLICE_GDALMNIDFNI_EQUALS_OFFSET UNITYSDK_OFFSET(0xFA7B0)
+#define RPG_CLIENT_PLANESLICE_GDALMNIDFNI_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xFA7C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlaneSlice_GDALMNIDFNI_TypeDefinitionIndex = 70701;
+	inline static constexpr unsigned int PlaneSlice_GDALMNIDFNI_TypeDefinitionIndex = 72678;
 
 	struct alignas(4) PlaneSlice_GDALMNIDFNI
 	{

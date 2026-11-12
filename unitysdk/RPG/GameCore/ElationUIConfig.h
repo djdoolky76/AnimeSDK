@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationUIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELATIONUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6338E0)
-#define RPG_GAMECORE_ELATIONUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D632580)
+#define RPG_GAMECORE_ELATIONUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8712B0)
+#define RPG_GAMECORE_ELATIONUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86FF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationUIConfig_TypeDefinitionIndex = 16546;
+	inline static constexpr unsigned int ElationUIConfig_TypeDefinitionIndex = 16712;
 
 	class ElationUIConfig : public ::RPG::GameCore::JsonConfig
 	{

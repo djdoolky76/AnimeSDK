@@ -3,10 +3,10 @@
 class OOCOGGMJLBN;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DBAPNGKHNNO_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD59A0)
-#define DBAPNGKHNNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFD59D0)
+#define DBAPNGKHNNO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB77710)
+#define DBAPNGKHNNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB77740)
 
-inline static constexpr unsigned int DBAPNGKHNNO_TypeDefinitionIndex = 55132;
+inline static constexpr unsigned int DBAPNGKHNNO_TypeDefinitionIndex = 56313;
 
 	class DBAPNGKHNNO
 	{

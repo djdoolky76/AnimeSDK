@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class CalcYawAngle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NKOMIPMMPBG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC4C310)
-#define NKOMIPMMPBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC4C3F0)
+#define NKOMIPMMPBG_CTOR_OFFSET UNITYSDK_OFFSET(0xC530A40)
+#define NKOMIPMMPBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC530B20)
 
-inline static constexpr unsigned int NKOMIPMMPBG_TypeDefinitionIndex = 56349;
+inline static constexpr unsigned int NKOMIPMMPBG_TypeDefinitionIndex = 57563;
 
 	class NKOMIPMMPBG
 	{

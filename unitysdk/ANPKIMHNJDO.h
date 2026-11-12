@@ -4,22 +4,22 @@
 class ANPKIMHNJDO;
 class FCOEMCEDLNL;
 
-#define ANPKIMHNJDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE7860)
-#define ANPKIMHNJDO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE74E0)
+#define ANPKIMHNJDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE91350)
+#define ANPKIMHNJDO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE90FD0)
 
-inline static constexpr unsigned int ANPKIMHNJDO_TypeDefinitionIndex = 11288;
+inline static constexpr unsigned int ANPKIMHNJDO_TypeDefinitionIndex = 11339;
 
 	class ANPKIMHNJDO : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* HDJGBKABEKF; // 0x10
-		::Il2CppArray<::System::UInt32>* ENIJMCCMFFJ; // 0x18
-		::Il2CppArray<::System::UInt32>* OGDLLCOBDNB; // 0x20
-		::Il2CppArray<::System::UInt32>* AANFAMJILOB; // 0x28
-		::Il2CppArray<::System::UInt32>* KLGMFBFNALH; // 0x30
-		::Il2CppArray<::System::UInt32>* JPOEFHLLNIK; // 0x38
+		::Il2CppArray<::System::UInt32>* ENIJMCCMFFJ; // 0x10
+		::Il2CppArray<::System::UInt32>* JPOEFHLLNIK; // 0x18
+		::Il2CppArray<::System::UInt32>* KLGMFBFNALH; // 0x20
+		::Il2CppArray<::System::UInt32>* OGDLLCOBDNB; // 0x28
+		::Il2CppArray<::System::UInt32>* NOIDIGCCPEJ; // 0x30
+		::Il2CppArray<::System::UInt32>* HDJGBKABEKF; // 0x38
 		::Il2CppArray<::System::UInt32>* DJGJIPEMIGE; // 0x40
-		::Il2CppArray<::System::UInt32>* NOIDIGCCPEJ; // 0x48
+		::Il2CppArray<::System::UInt32>* AANFAMJILOB; // 0x48
 		::System::UInt32 OGMFNGPLDOB; // 0x50
 		::System::Void _ctor()
 		{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ALLAPOFKLMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1556F840)
+#define ALLAPOFKLMD_CTOR_OFFSET UNITYSDK_OFFSET(0x163DDFB0)
 
-inline static constexpr unsigned int ALLAPOFKLMD_TypeDefinitionIndex = 81280;
+inline static constexpr unsigned int ALLAPOFKLMD_TypeDefinitionIndex = 84060;
 
 	class ALLAPOFKLMD : public ::System::Object
 	{

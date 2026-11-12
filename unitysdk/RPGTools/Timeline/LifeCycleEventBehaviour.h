@@ -8,17 +8,17 @@ namespace RPGTools::Timeline { class LifeCycleEventArgument; }
 namespace System { class Object; }
 namespace UnityEngine { class Renderer; }
 
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_CCTOR_OFFSET UNITYSDK_OFFSET(0xE904AF0)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE904AE0)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xE904990)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xE904150)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xE904A10)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE904900)
-#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR__ONGRAPHSTOP_B__9_0_OFFSET UNITYSDK_OFFSET(0xE904B40)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_CCTOR_OFFSET UNITYSDK_OFFSET(0xF3E02D0)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF3E02C0)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_ONBEHAVIOURPAUSE_OFFSET UNITYSDK_OFFSET(0xF3E0170)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xF3DF930)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xF3E01F0)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xF3E00E0)
+#define RPGTOOLS_TIMELINE_LIFECYCLEEVENTBEHAVIOUR__ONGRAPHSTOP_B__9_0_OFFSET UNITYSDK_OFFSET(0xF3E0320)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int LifeCycleEventBehaviour_TypeDefinitionIndex = 48149;
+	inline static constexpr unsigned int LifeCycleEventBehaviour_TypeDefinitionIndex = 49180;
 
 	class LifeCycleEventBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -26,19 +26,19 @@ namespace RPGTools::Timeline
 		::RPGTools::Timeline::LifeCycleEventArgument* Argument; // 0x10
 		::UnityEngine::Renderer* _Renderer; // 0x18
 		::OLBKHCNLBGJ* _Argument; // 0x20
-		static ::System::Int32* StaticGet_ShadowThreshold()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "LifeCycleEventBehaviour")->GetStaticField(0x15B70);
-		}
-
 		static ::System::Int32* StaticGet_ShadowColor()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "LifeCycleEventBehaviour")->GetStaticField(0x15B74);
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "LifeCycleEventBehaviour")->GetStaticField(0x9C0);
+		}
+
+		static ::System::Int32* StaticGet_ShadowThreshold()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "LifeCycleEventBehaviour")->GetStaticField(0x9C4);
 		}
 
 		static ::System::Int32* StaticGet_EyeShadowColor()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "LifeCycleEventBehaviour")->GetStaticField(0x15B78);
+			return (::System::Int32*)UnitySDK::FromName("RPGTools.Timeline", "LifeCycleEventBehaviour")->GetStaticField(0x9C8);
 		}
 
 		::System::Void _ctor()

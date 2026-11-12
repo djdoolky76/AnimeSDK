@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 class HIOAMIPNLIN;
 
-#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE6A7BC0)
-#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__DEATHRATTLE_B__0_OFFSET UNITYSDK_OFFSET(0xE6A9D00)
+#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF1A9470)
+#define RPG_GAMECORE_GAMEENTITY___C__DISPLAYCLASS58_0__DEATHRATTLE_B__0_OFFSET UNITYSDK_OFFSET(0xF1A9480)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntity___c__DisplayClass58_0_TypeDefinitionIndex = 53556;
+	inline static constexpr unsigned int GameEntity___c__DisplayClass58_0_TypeDefinitionIndex = 54719;
 
 	class GameEntity___c__DisplayClass58_0 : public ::System::Object
 	{

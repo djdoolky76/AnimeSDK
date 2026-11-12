@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JNLDOKHCFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA6550)
+#define JNLDOKHCFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD77D00)
 
-inline static constexpr unsigned int JNLDOKHCFAM_TypeDefinitionIndex = 43280;
+inline static constexpr unsigned int JNLDOKHCFAM_TypeDefinitionIndex = 44261;
 
 	class JNLDOKHCFAM : public ::System::Object
 	{

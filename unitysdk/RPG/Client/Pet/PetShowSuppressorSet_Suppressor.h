@@ -5,12 +5,12 @@
 namespace RPG::Client::Pet { class PetShowSuppressorSet; }
 namespace System { template <typename T> class WeakReference_1; }
 
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDAC2900)
-#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDAC2B10)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE5186E0)
+#define RPG_CLIENT_PET_PETSHOWSUPPRESSORSET_SUPPRESSOR_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE518890)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetShowSuppressorSet_Suppressor_TypeDefinitionIndex = 75707;
+	inline static constexpr unsigned int PetShowSuppressorSet_Suppressor_TypeDefinitionIndex = 78034;
 
 	class PetShowSuppressorSet_Suppressor : public ::System::Object
 	{

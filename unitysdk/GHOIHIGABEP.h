@@ -4,10 +4,10 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointSameWithEnemy; }
 
-#define GHOIHIGABEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63EED0)
-#define GHOIHIGABEP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C63EEE0)
+#define GHOIHIGABEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C0B10)
+#define GHOIHIGABEP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D7C0B20)
 
-inline static constexpr unsigned int GHOIHIGABEP_TypeDefinitionIndex = 36217;
+inline static constexpr unsigned int GHOIHIGABEP_TypeDefinitionIndex = 37145;
 
 	class GHOIHIGABEP : public ::PNECKGBKMEL
 	{

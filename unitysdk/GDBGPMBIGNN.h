@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define GDBGPMBIGNN_CTOR_OFFSET UNITYSDK_OFFSET(0x159937E0)
-#define GDBGPMBIGNN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x159937D0)
+#define GDBGPMBIGNN_CTOR_OFFSET UNITYSDK_OFFSET(0x168CA530)
+#define GDBGPMBIGNN_GET_NAME_OFFSET UNITYSDK_OFFSET(0x168CA520)
 
-inline static constexpr unsigned int GDBGPMBIGNN_TypeDefinitionIndex = 79349;
+inline static constexpr unsigned int GDBGPMBIGNN_TypeDefinitionIndex = 82126;
 
 	class GDBGPMBIGNN : public ::System::Object
 	{

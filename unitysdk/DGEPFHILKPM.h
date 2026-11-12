@@ -5,10 +5,10 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DGEPFHILKPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE846200)
-#define DGEPFHILKPM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xE8461B0)
+#define DGEPFHILKPM_CTOR_OFFSET UNITYSDK_OFFSET(0xF4180A0)
+#define DGEPFHILKPM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xF418050)
 
-inline static constexpr unsigned int DGEPFHILKPM_TypeDefinitionIndex = 80113;
+inline static constexpr unsigned int DGEPFHILKPM_TypeDefinitionIndex = 82890;
 
 	class DGEPFHILKPM : public ::System::Object
 	{

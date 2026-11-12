@@ -4,10 +4,10 @@
 class IDOFDGLMMPD;
 namespace RPG::Client { class BattleGamePhase; }
 
-#define IDOFDGLMMPD___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE2050)
-#define IDOFDGLMMPD___C__DISPLAYCLASS5_0___MEMORYPHASEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x15EE2990)
+#define IDOFDGLMMPD___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16E4CFE0)
+#define IDOFDGLMMPD___C__DISPLAYCLASS5_0___MEMORYPHASEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x16E4D920)
 
-inline static constexpr unsigned int IDOFDGLMMPD___c__DisplayClass5_0_TypeDefinitionIndex = 61181;
+inline static constexpr unsigned int IDOFDGLMMPD___c__DisplayClass5_0_TypeDefinitionIndex = 62566;
 
 	class IDOFDGLMMPD___c__DisplayClass5_0 : public ::System::Object
 	{

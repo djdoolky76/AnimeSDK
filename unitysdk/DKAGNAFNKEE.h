@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class IMEFEGGEMIJ;
 
-#define DKAGNAFNKEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2BFF0)
-#define DKAGNAFNKEE_LPOMBDLDBAF_OFFSET UNITYSDK_OFFSET(0x1CA2BF50)
+#define DKAGNAFNKEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBEF820)
+#define DKAGNAFNKEE_LPOMBDLDBAF_OFFSET UNITYSDK_OFFSET(0x1DBEF780)
 
-inline static constexpr unsigned int DKAGNAFNKEE_TypeDefinitionIndex = 42078;
+inline static constexpr unsigned int DKAGNAFNKEE_TypeDefinitionIndex = 43053;
 
 	class DKAGNAFNKEE : public ::System::Object
 	{

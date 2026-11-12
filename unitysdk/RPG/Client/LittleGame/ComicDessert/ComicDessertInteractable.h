@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/ComicDessertTutorialOperationType.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+class LPHINGPIEAJ;
+namespace RPG::Client::LittleGame::ComicDessert { class ComicDessertView; }
+namespace UnityEngine::EventSystems { class PointerEventData; }
+
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_CGDNPIJGNNK_OFFSET UNITYSDK_OFFSET(0xDE843B0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_COIDMLFECGO_OFFSET UNITYSDK_OFFSET(0xDE84860)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7AF00)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_DLLPFKENBDA_OFFSET UNITYSDK_OFFSET(0xDE7A710)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_IHPBNNBLGBL_OFFSET UNITYSDK_OFFSET(0xDE84480)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_JHJFDGLHGAN_OFFSET UNITYSDK_OFFSET(0xDE7AB90)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_NNIBMMPNDFK_OFFSET UNITYSDK_OFFSET(0xDE7A860)
+
+namespace RPG::Client::LittleGame::ComicDessert
+{
+	inline static constexpr unsigned int ComicDessertInteractable_TypeDefinitionIndex = 79770;
+
+	class ComicDessertInteractable : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::RPG::Client::LittleGame::ComicDessert::ComicDessertView* NHNHKBJJKPP; // 0x18
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_CTOR_OFFSET))(this);
+		}
+
+		::RPG::Client::LittleGame::ComicDessert::ComicDessertView* JHJFDGLHGAN()
+		{
+			return ((::RPG::Client::LittleGame::ComicDessert::ComicDessertView*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_JHJFDGLHGAN_OFFSET))(this);
+		}
+
+		::LPHINGPIEAJ* CGDNPIJGNNK()
+		{
+			return ((::LPHINGPIEAJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_CGDNPIJGNNK_OFFSET))(this);
+		}
+
+		::LPHINGPIEAJ* COIDMLFECGO()
+		{
+			return ((::LPHINGPIEAJ*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_COIDMLFECGO_OFFSET))(this);
+		}
+
+		::System::Boolean IHPBNNBLGBL(::LPHINGPIEAJ* a1, ::RPG::GameCore::ComicDessertTutorialOperationType a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::LPHINGPIEAJ*, ::RPG::GameCore::ComicDessertTutorialOperationType))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_IHPBNNBLGBL_OFFSET))(this, a1, a2);
+		}
+
+		::System::Boolean DLLPFKENBDA(::UnityEngine::EventSystems::PointerEventData* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_DLLPFKENBDA_OFFSET))(this, a1);
+		}
+
+		::System::Boolean NNIBMMPNDFK()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTINTERACTABLE_NNIBMMPNDFK_OFFSET))(this);
+		}
+
+	};
+}

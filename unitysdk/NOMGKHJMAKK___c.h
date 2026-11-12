@@ -5,23 +5,23 @@ namespace RPG::GameCore { class IdleLiveAvatarPropertyConfigRow; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NOMGKHJMAKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCF4D80)
-#define NOMGKHJMAKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF4DC0)
-#define NOMGKHJMAKK___C___REGISTERPROPERTYFORMULAS_B__8_0_OFFSET UNITYSDK_OFFSET(0xBCF4DD0)
+#define NOMGKHJMAKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5E1590)
+#define NOMGKHJMAKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5E15D0)
+#define NOMGKHJMAKK___C___REGISTERPROPERTYFORMULAS_B__8_0_OFFSET UNITYSDK_OFFSET(0xC5E15E0)
 
-inline static constexpr unsigned int NOMGKHJMAKK___c_TypeDefinitionIndex = 75127;
+inline static constexpr unsigned int NOMGKHJMAKK___c_TypeDefinitionIndex = 77454;
 
 	class NOMGKHJMAKK___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58380);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::IdleLiveAvatarPropertyConfigRow*, ::System::Boolean>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::IdleLiveAvatarPropertyConfigRow*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58388);
+			return (::System::Func_2<::RPG::GameCore::IdleLiveAvatarPropertyConfigRow*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59BC0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59BC8);
 		}
 
 		static ::System::Void _cctor()

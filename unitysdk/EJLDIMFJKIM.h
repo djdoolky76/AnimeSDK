@@ -6,20 +6,20 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 namespace System { class Action; }
 namespace System { template <typename T> class Func_1; }
 
-#define EJLDIMFJKIM_CTOR_OFFSET UNITYSDK_OFFSET(0x154E1130)
-#define EJLDIMFJKIM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x154E1140)
-#define EJLDIMFJKIM_TICK_OFFSET UNITYSDK_OFFSET(0x154E1220)
+#define EJLDIMFJKIM_CTOR_OFFSET UNITYSDK_OFFSET(0x16428AF0)
+#define EJLDIMFJKIM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16428B00)
+#define EJLDIMFJKIM_TICK_OFFSET UNITYSDK_OFFSET(0x16428BE0)
 
-inline static constexpr unsigned int EJLDIMFJKIM_TypeDefinitionIndex = 77668;
+inline static constexpr unsigned int EJLDIMFJKIM_TypeDefinitionIndex = 80403;
 
 	class EJLDIMFJKIM : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraDuelBubbleEvent* FLPMDDEMIBJ; // 0x10
-		::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* PHKEALDENKI; // 0x18
-		::System::Action* LGAOOKPFIMF; // 0x20
-		::System::Boolean LNPALNBIBFK; // 0x28
-		::System::Boolean OELBLBCINNB; // 0x29
+		::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* PHKEALDENKI; // 0x10
+		::System::Action* LGAOOKPFIMF; // 0x18
+		::RPG::Client::Prop::ChimeraDuelBubbleEvent* FLPMDDEMIBJ; // 0x20
+		::System::Boolean OELBLBCINNB; // 0x28
+		::System::Boolean LNPALNBIBFK; // 0x29
 		::System::Byte _padding0[0x2];
 		::System::Single HBDJCFFDGDD; // 0x2C
 		::System::Void _ctor(::System::Func_1<::RPG::Client::Prop::ChimeraDuelBubbleEvent*>* a1, ::System::Boolean a2)

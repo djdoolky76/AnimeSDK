@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LGIHDAMOLNK_DiffState_TypeDefinitionIndex = 72157;
+inline static constexpr unsigned int LGIHDAMOLNK_DiffState_TypeDefinitionIndex = 74221;
 
 	enum class LGIHDAMOLNK_DiffState : ::System::Int32
 	{

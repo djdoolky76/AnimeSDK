@@ -6,18 +6,18 @@ class GEGLLAHJHOG;
 class LBJLBMOOJGM;
 namespace System { class Object; }
 
-#define GEGLLAHJHOG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1EC6CDF0)
-#define GEGLLAHJHOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6DC20)
-#define GEGLLAHJHOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6CDE0)
+#define GEGLLAHJHOG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1FF1D7D0)
+#define GEGLLAHJHOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF1E600)
+#define GEGLLAHJHOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1D7C0)
 
-inline static constexpr unsigned int GEGLLAHJHOG_TypeDefinitionIndex = 44291;
+inline static constexpr unsigned int GEGLLAHJHOG_TypeDefinitionIndex = 45366;
 
 	class GEGLLAHJHOG : public ::System::Object
 	{
 	public:
 		static ::GEGLLAHJHOG** StaticGet_FMJPMFEDIJL()
 		{
-			return (::GEGLLAHJHOG**)UnitySDK::FromName("", "GEGLLAHJHOG")->GetStaticField(0x4B0F0);
+			return (::GEGLLAHJHOG**)UnitySDK::FromName("", "GEGLLAHJHOG")->GetStaticField(0x620D0);
 		}
 
 		::System::Void _ctor()

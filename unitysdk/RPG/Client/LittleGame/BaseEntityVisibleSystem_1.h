@@ -15,7 +15,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseEntityVisibleSystem_1_TypeDefinitionIndex = 42085;
+	inline static constexpr unsigned int BaseEntityVisibleSystem_1_TypeDefinitionIndex = 43060;
 
 	template <typename T>
 	class BaseEntityVisibleSystem_1 : public ::System::Object

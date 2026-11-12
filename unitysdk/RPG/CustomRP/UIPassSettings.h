@@ -8,150 +8,150 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace UnityEngine { class RenderTexture; }
 
-#define RPG_CUSTOMRP_UIPASSSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC79620)
-#define RPG_CUSTOMRP_UIPASSSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC79610)
-#define RPG_CUSTOMRP_UIPASSSETTINGS_GET_SCENEPOSTPROCESSRENDERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1CC795B0)
+#define RPG_CUSTOMRP_UIPASSSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE20850)
+#define RPG_CUSTOMRP_UIPASSSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE20840)
+#define RPG_CUSTOMRP_UIPASSSETTINGS_GET_SCENEPOSTPROCESSRENDERTOTEXTURE_OFFSET UNITYSDK_OFFSET(0x1DE207E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int UIPassSettings_TypeDefinitionIndex = 37575;
+	inline static constexpr unsigned int UIPassSettings_TypeDefinitionIndex = 38503;
 
 	class UIPassSettings : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>** StaticGet_OffScreenUIContexts()
 		{
-			return (::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2780);
+			return (::Il2CppArray<::System::ValueTuple_2<::UnityEngine::RenderTexture*, ::System::Boolean>>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x17A40);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BlurPartialParamsA()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector4>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2788);
+			return (::Il2CppArray<::UnityEngine::Vector4>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x17A48);
 		}
 
 		static ::Il2CppArray<::UnityEngine::Vector4>** StaticGet_BlurPartialParamsB()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector4>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2790);
-		}
-
-		static ::System::Single* StaticGet_VignetteSmoothness()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FB0);
-		}
-
-		static ::System::Int32* StaticGet_UILayer3()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FB4);
-		}
-
-		static ::System::Single* StaticGet_BlurPartialAlpha()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FB8);
-		}
-
-		static ::UnityEngine::Color* StaticGet_VignetteColor()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FBC);
-		}
-
-		static ::System::Single* StaticGet_BlurPartialScale()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FCC);
-		}
-
-		static ::System::Int32* StaticGet_UILayer1()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FD0);
+			return (::Il2CppArray<::UnityEngine::Vector4>**)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x17A50);
 		}
 
 		static ::UnityEngine::Vector2* StaticGet_VignetteCenter()
 		{
-			return (::UnityEngine::Vector2*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FD4);
-		}
-
-		static ::System::Int32* StaticGet_CircleCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FDC);
-		}
-
-		static ::System::Single* StaticGet_BlurFullScale()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FE0);
+			return (::UnityEngine::Vector2*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4E90);
 		}
 
 		static ::System::Single* StaticGet_Alpha()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FE4);
-		}
-
-		static ::System::Int32* StaticGet_UILayer2()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FE8);
-		}
-
-		static ::System::Int32* StaticGet_RectCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FEC);
-		}
-
-		static ::System::Int32* StaticGet_VersionIndex()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FF0);
-		}
-
-		static ::System::Single* StaticGet_VignetteIntensity()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FF4);
-		}
-
-		static ::UnityEngine::Vector4* StaticGet_BlurPartialSmooth()
-		{
-			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x1FF8);
-		}
-
-		static ::System::Boolean* StaticGet_EnableVignette()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2008);
-		}
-
-		static ::System::Boolean* StaticGet_VignetteRounded()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2009);
-		}
-
-		static ::System::Boolean* StaticGet_EnableBlurPartial()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x200A);
-		}
-
-		static ::System::Single* StaticGet_Brightness()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x200C);
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4E98);
 		}
 
 		static ::RPG::CustomRP::Quality* StaticGet_Quality()
 		{
-			return (::RPG::CustomRP::Quality*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2010);
+			return (::RPG::CustomRP::Quality*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4E9C);
 		}
 
-		static ::System::Boolean* StaticGet_EnableOffScreenUI()
+		static ::System::Single* StaticGet_BlurPartialAlpha()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2014);
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EA0);
 		}
 
-		static ::System::Boolean* StaticGet_DisableMainCamera()
+		static ::System::Int32* StaticGet_UILayer2()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2015);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EA4);
+		}
+
+		static ::UnityEngine::Color* StaticGet_VignetteColor()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EA8);
+		}
+
+		static ::System::Int32* StaticGet_CircleCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EB8);
+		}
+
+		static ::System::Int32* StaticGet_RectCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EBC);
+		}
+
+		static ::System::Int32* StaticGet_UILayer1()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EC0);
+		}
+
+		static ::System::Single* StaticGet_VignetteIntensity()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EC4);
 		}
 
 		static ::System::Boolean* StaticGet_BlurFullDisableUI3DCamera()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2016);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EC8);
+		}
+
+		static ::System::Boolean* StaticGet_VignetteRounded()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EC9);
+		}
+
+		static ::System::Boolean* StaticGet_EnableBlurPartial()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ECA);
 		}
 
 		static ::System::Boolean* StaticGet_EnableBlurFull()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x2017);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ECB);
+		}
+
+		static ::System::Single* StaticGet_Brightness()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ECC);
+		}
+
+		static ::System::Single* StaticGet_BlurFullScale()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ED0);
+		}
+
+		static ::System::Boolean* StaticGet_DisableMainCamera()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ED4);
+		}
+
+		static ::System::Boolean* StaticGet_EnableOffScreenUI()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ED5);
+		}
+
+		static ::System::Boolean* StaticGet_EnableVignette()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ED6);
+		}
+
+		static ::UnityEngine::Vector4* StaticGet_BlurPartialSmooth()
+		{
+			return (::UnityEngine::Vector4*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4ED8);
+		}
+
+		static ::System::Int32* StaticGet_VersionIndex()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EE8);
+		}
+
+		static ::System::Int32* StaticGet_UILayer3()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EEC);
+		}
+
+		static ::System::Single* StaticGet_BlurPartialScale()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EF0);
+		}
+
+		static ::System::Single* StaticGet_VignetteSmoothness()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "UIPassSettings")->GetStaticField(0x4EF4);
 		}
 
 		::System::Void _ctor()

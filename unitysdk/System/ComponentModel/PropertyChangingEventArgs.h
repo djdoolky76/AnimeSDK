@@ -3,12 +3,12 @@
 #include "unitysdk/System/EventArgs.h"
 namespace System { class String; }
 
-#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C41E410)
-#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS_SET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1C41E4C0)
+#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A4C00)
+#define SYSTEM_COMPONENTMODEL_PROPERTYCHANGINGEVENTARGS_SET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1D5A4CB0)
 
 namespace System::ComponentModel
 {
-	inline static constexpr unsigned int PropertyChangingEventArgs_TypeDefinitionIndex = 9576;
+	inline static constexpr unsigned int PropertyChangingEventArgs_TypeDefinitionIndex = 9584;
 
 	class PropertyChangingEventArgs : public ::System::EventArgs
 	{

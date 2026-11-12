@@ -5,25 +5,25 @@ namespace RPG::Client { class ExpeditionBattleTeamMember; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EXPEDITIONBATTLETEAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE535C0)
-#define RPG_CLIENT_EXPEDITIONBATTLETEAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE53600)
-#define RPG_CLIENT_EXPEDITIONBATTLETEAM___C__GETMEMBERCOUNT_B__15_0_OFFSET UNITYSDK_OFFSET(0xCE53610)
+#define RPG_CLIENT_EXPEDITIONBATTLETEAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD81C0B0)
+#define RPG_CLIENT_EXPEDITIONBATTLETEAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD81C0F0)
+#define RPG_CLIENT_EXPEDITIONBATTLETEAM___C__GETMEMBERCOUNT_B__15_0_OFFSET UNITYSDK_OFFSET(0xD81C100)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionBattleTeam___c_TypeDefinitionIndex = 63856;
+	inline static constexpr unsigned int ExpeditionBattleTeam___c_TypeDefinitionIndex = 65298;
 
 	class ExpeditionBattleTeam___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ExpeditionBattleTeamMember*, ::System::Boolean>** StaticGet___9__15_0()
-		{
-			return (::System::Func_2<::RPG::Client::ExpeditionBattleTeamMember*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56AC0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56AC8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x541E0);
+		}
+
+		static ::System::Func_2<::RPG::Client::ExpeditionBattleTeamMember*, ::System::Boolean>** StaticGet___9__15_0()
+		{
+			return (::System::Func_2<::RPG::Client::ExpeditionBattleTeamMember*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x541E8);
 		}
 
 		static ::System::Void _cctor()

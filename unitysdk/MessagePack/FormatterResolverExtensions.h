@@ -10,27 +10,27 @@ namespace System { class TypeInitializationException; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB6E460)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMICWITHVERIFY_OFFSET UNITYSDK_OFFSET(0x1BB6E3D0)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1BB6DFF0)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_1_OFFSET UNITYSDK_OFFSET(0x1BB6DE50)
-#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_OFFSET UNITYSDK_OFFSET(0x1BB6DE00)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF7170)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMICWITHVERIFY_OFFSET UNITYSDK_OFFSET(0x1CCF70E0)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_GETFORMATTERDYNAMIC_OFFSET UNITYSDK_OFFSET(0x1CCF6D00)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_1_OFFSET UNITYSDK_OFFSET(0x1CCF6B60)
+#define MESSAGEPACK_FORMATTERRESOLVEREXTENSIONS_THROW_OFFSET UNITYSDK_OFFSET(0x1CCF6B10)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int FormatterResolverExtensions_TypeDefinitionIndex = 7163;
+	inline static constexpr unsigned int FormatterResolverExtensions_TypeDefinitionIndex = 7174;
 
 	class FormatterResolverExtensions : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Func_2<::MessagePack::IFormatterResolver*, ::MessagePack::Formatters::IMessagePackFormatter*>*>** StaticGet_FormatterGetters()
 		{
-			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Func_2<::MessagePack::IFormatterResolver*, ::MessagePack::Formatters::IMessagePackFormatter*>*>**)UnitySDK::FromName("MessagePack", "FormatterResolverExtensions")->GetStaticField(0x24640);
+			return (::MessagePack::Internal::ThreadsafeTypeKeyHashTable_1<::System::Func_2<::MessagePack::IFormatterResolver*, ::MessagePack::Formatters::IMessagePackFormatter*>*>**)UnitySDK::FromName("MessagePack", "FormatterResolverExtensions")->GetStaticField(0x465E0);
 		}
 
 		static ::System::Reflection::MethodInfo** StaticGet_GetFormatterRuntimeMethod()
 		{
-			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack", "FormatterResolverExtensions")->GetStaticField(0x24648);
+			return (::System::Reflection::MethodInfo**)UnitySDK::FromName("MessagePack", "FormatterResolverExtensions")->GetStaticField(0x465E8);
 		}
 
 		static ::System::Void _cctor()

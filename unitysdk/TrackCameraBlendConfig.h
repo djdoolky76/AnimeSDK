@@ -5,11 +5,11 @@
 namespace Cinemachine { class CinemachineBrain; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define TRACKCAMERABLENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E25F0)
-#define TRACKCAMERABLENDCONFIG_GIIEFOFHKDE_OFFSET UNITYSDK_OFFSET(0xE9E2450)
-#define TRACKCAMERABLENDCONFIG_IMCECPDAODJ_OFFSET UNITYSDK_OFFSET(0xE9E24A0)
+#define TRACKCAMERABLENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF4F7B50)
+#define TRACKCAMERABLENDCONFIG_GIIEFOFHKDE_OFFSET UNITYSDK_OFFSET(0xF4F79B0)
+#define TRACKCAMERABLENDCONFIG_IMCECPDAODJ_OFFSET UNITYSDK_OFFSET(0xF4F7A00)
 
-inline static constexpr unsigned int TrackCameraBlendConfig_TypeDefinitionIndex = 47282;
+inline static constexpr unsigned int TrackCameraBlendConfig_TypeDefinitionIndex = 48311;
 
 	class TrackCameraBlendConfig : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterIDGroupConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D572320)
-#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D572200)
+#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E783330)
+#define RPG_GAMECORE_CHARACTERIDGROUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E783210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterIDGroupConfig_TypeDefinitionIndex = 17137;
+	inline static constexpr unsigned int CharacterIDGroupConfig_TypeDefinitionIndex = 17304;
 
 	class CharacterIDGroupConfig : public ::RPG::GameCore::JsonConfig
 	{

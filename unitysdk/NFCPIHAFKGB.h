@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NFCPIHAFKGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C956510)
+#define NFCPIHAFKGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB182F0)
 
-inline static constexpr unsigned int NFCPIHAFKGB_TypeDefinitionIndex = 42112;
+inline static constexpr unsigned int NFCPIHAFKGB_TypeDefinitionIndex = 43087;
 
 	class NFCPIHAFKGB : public ::System::Object
 	{

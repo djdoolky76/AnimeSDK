@@ -7,13 +7,13 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIDEMODIFIEREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7690A0)
-#define RPG_GAMECORE_HIDEMODIFIEREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7690B0)
-#define RPG_GAMECORE_HIDEMODIFIEREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D769060)
+#define RPG_GAMECORE_HIDEMODIFIEREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97CB10)
+#define RPG_GAMECORE_HIDEMODIFIEREFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E97CB20)
+#define RPG_GAMECORE_HIDEMODIFIEREFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97CAD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideModifierEffect_TypeDefinitionIndex = 23631;
+	inline static constexpr unsigned int HideModifierEffect_TypeDefinitionIndex = 24078;
 
 	class HideModifierEffect : public ::RPG::GameCore::TaskConfig
 	{

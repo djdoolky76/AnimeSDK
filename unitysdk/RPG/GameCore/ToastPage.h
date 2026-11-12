@@ -7,13 +7,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class ToastPage; }
 
-#define RPG_GAMECORE_TOASTPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB8B7C0)
-#define RPG_GAMECORE_TOASTPAGE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1DB8B7D0)
-#define RPG_GAMECORE_TOASTPAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB8B790)
+#define RPG_GAMECORE_TOASTPAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE3A990)
+#define RPG_GAMECORE_TOASTPAGE_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1EE3A9A0)
+#define RPG_GAMECORE_TOASTPAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE3A960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ToastPage_TypeDefinitionIndex = 20305;
+	inline static constexpr unsigned int ToastPage_TypeDefinitionIndex = 20640;
 
 	class ToastPage : public ::RPG::GameCore::TaskConfig
 	{

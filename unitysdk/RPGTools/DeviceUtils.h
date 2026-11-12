@@ -3,35 +3,35 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_DEVICEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0847D0)
-#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0xB084650)
-#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0xB084520)
+#define RPGTOOLS_DEVICEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6E5580)
+#define RPGTOOLS_DEVICEUTILS_FORMATPOWER_OFFSET UNITYSDK_OFFSET(0xB6E5400)
+#define RPGTOOLS_DEVICEUTILS_FORMATSIZE_OFFSET UNITYSDK_OFFSET(0xB6E52D0)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 46918;
+	inline static constexpr unsigned int DeviceUtils_TypeDefinitionIndex = 47946;
 
 	class DeviceUtils : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet_MESSAGE_OBJECT_NAME()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x39D60);
-		}
-
-		static ::System::String** StaticGet_MESSAGE_WIFI_STATE_CHANGED()
-		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x39D68);
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x316F0);
 		}
 
 		static ::System::String** StaticGet_MESSAGE_BETTERY_CHANGED()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x39D70);
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x316F8);
+		}
+
+		static ::System::String** StaticGet_MESSAGE_WIFI_STATE_CHANGED()
+		{
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x31700);
 		}
 
 		static ::System::String** StaticGet_MESSAGE_WIFI_RSSI_CHANGED()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x39D78);
+			return (::System::String**)UnitySDK::FromName("RPGTools", "DeviceUtils")->GetStaticField(0x31708);
 		}
 
 		// static const ::System::Object BATTERY_LEVEL_MAX; // 0x0

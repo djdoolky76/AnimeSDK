@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ChallengeGeneralConfigRow; }
 namespace RPG::GameCore { class ConditionParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEGENERALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D55D9D0)
-#define RPG_GAMECORE_CHALLENGEGENERALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D55D2E0)
+#define RPG_GAMECORE_CHALLENGEGENERALCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E76F130)
+#define RPG_GAMECORE_CHALLENGEGENERALCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E76EA80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeGeneralConfigRow_TypeDefinitionIndex = 12944;
+	inline static constexpr unsigned int ChallengeGeneralConfigRow_TypeDefinitionIndex = 13016;
 
 	class ChallengeGeneralConfigRow : public ::System::Object
 	{

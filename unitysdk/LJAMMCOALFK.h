@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddReShaReactProp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJAMMCOALFK_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E0040)
-#define LJAMMCOALFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6E0070)
+#define LJAMMCOALFK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7B1E0)
+#define LJAMMCOALFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF7B210)
 
-inline static constexpr unsigned int LJAMMCOALFK_TypeDefinitionIndex = 52327;
+inline static constexpr unsigned int LJAMMCOALFK_TypeDefinitionIndex = 53433;
 
 	class LJAMMCOALFK
 	{

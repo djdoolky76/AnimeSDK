@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FFJMOFNDDEH;
 
-#define LINKOLBFHMK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB6DAEF0)
-#define LINKOLBFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DAFB0)
+#define LINKOLBFHMK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBF76020)
+#define LINKOLBFHMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF760F0)
 
-inline static constexpr unsigned int LINKOLBFHMK_TypeDefinitionIndex = 80155;
+inline static constexpr unsigned int LINKOLBFHMK_TypeDefinitionIndex = 82932;
 
 	class LINKOLBFHMK : public ::System::Object
 	{

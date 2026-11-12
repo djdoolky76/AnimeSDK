@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Runtime::Remoting { class ObjRef; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E4710)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADOBJREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D46B270)
 
 namespace System::Runtime::Remoting::Messaging
 {

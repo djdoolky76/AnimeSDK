@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAfterImageEffect; }
 
-#define PJGGHLMLIJP_CTOR_OFFSET UNITYSDK_OFFSET(0xC285FD0)
-#define PJGGHLMLIJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC286000)
+#define PJGGHLMLIJP_CTOR_OFFSET UNITYSDK_OFFSET(0xCBADED0)
+#define PJGGHLMLIJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBADF00)
 
-inline static constexpr unsigned int PJGGHLMLIJP_TypeDefinitionIndex = 56465;
+inline static constexpr unsigned int PJGGHLMLIJP_TypeDefinitionIndex = 57685;
 
 	class PJGGHLMLIJP
 	{

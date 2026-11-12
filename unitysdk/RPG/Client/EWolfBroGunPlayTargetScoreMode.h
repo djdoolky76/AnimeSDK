@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EWolfBroGunPlayTargetScoreMode_TypeDefinitionIndex = 68743;
+	inline static constexpr unsigned int EWolfBroGunPlayTargetScoreMode_TypeDefinitionIndex = 70695;
 
 	enum class EWolfBroGunPlayTargetScoreMode : ::System::Int32
 	{

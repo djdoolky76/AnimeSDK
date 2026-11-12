@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ForceSyncActionDelayLink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPFOOCIDIGM_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A4A00)
-#define BPFOOCIDIGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A4A30)
+#define BPFOOCIDIGM_CTOR_OFFSET UNITYSDK_OFFSET(0xCB45550)
+#define BPFOOCIDIGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB45580)
 
-inline static constexpr unsigned int BPFOOCIDIGM_TypeDefinitionIndex = 55075;
+inline static constexpr unsigned int BPFOOCIDIGM_TypeDefinitionIndex = 56252;
 
 	class BPFOOCIDIGM
 	{

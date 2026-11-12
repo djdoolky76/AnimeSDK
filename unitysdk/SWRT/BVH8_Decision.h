@@ -3,7 +3,7 @@
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH8_Decision_TypeDefinitionIndex = 37510;
+	inline static constexpr unsigned int BVH8_Decision_TypeDefinitionIndex = 38438;
 
 	struct alignas(4) BVH8_Decision
 	{

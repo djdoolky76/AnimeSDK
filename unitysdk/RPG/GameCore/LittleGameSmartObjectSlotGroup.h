@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameSmartObjectSlotGroup_TypeDefinitionIndex = 18876;
+	inline static constexpr unsigned int LittleGameSmartObjectSlotGroup_TypeDefinitionIndex = 19038;
 
 	enum class LittleGameSmartObjectSlotGroup : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindControllerInteract; }
 
-#define MMIPBHJNICO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D3430)
-#define MMIPBHJNICO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9D3460)
+#define MMIPBHJNICO_CTOR_OFFSET UNITYSDK_OFFSET(0xC28F480)
+#define MMIPBHJNICO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC28F4B0)
 
-inline static constexpr unsigned int MMIPBHJNICO_TypeDefinitionIndex = 53398;
+inline static constexpr unsigned int MMIPBHJNICO_TypeDefinitionIndex = 54560;
 
 	class MMIPBHJNICO
 	{

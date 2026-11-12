@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IFFKDFPJECM_TypeDefinitionIndex = 28732;
+inline static constexpr unsigned int IFFKDFPJECM_TypeDefinitionIndex = 29322;
 
 	enum class IFFKDFPJECM : ::System::Int32
 	{

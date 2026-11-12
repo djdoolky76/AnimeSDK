@@ -4,18 +4,18 @@
 class GDDEAKMJOAP;
 namespace System { class Object; }
 
-#define GDDEAKMJOAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E445250)
-#define GDDEAKMJOAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E445290)
-#define GDDEAKMJOAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4452A0)
+#define GDDEAKMJOAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F733000)
+#define GDDEAKMJOAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F733040)
+#define GDDEAKMJOAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F733050)
 
-inline static constexpr unsigned int GDDEAKMJOAP___c_TypeDefinitionIndex = 31212;
+inline static constexpr unsigned int GDDEAKMJOAP___c_TypeDefinitionIndex = 32125;
 
 	class GDDEAKMJOAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10130);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56C70);
 		}
 
 		static ::System::Void _cctor()

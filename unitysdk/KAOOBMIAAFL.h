@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KAOOBMIAAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E40)
+#define KAOOBMIAAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD82560)
 
-inline static constexpr unsigned int KAOOBMIAAFL_TypeDefinitionIndex = 43804;
+inline static constexpr unsigned int KAOOBMIAAFL_TypeDefinitionIndex = 44879;
 
 	class KAOOBMIAAFL : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideFloorDefaultEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GJHAPGDHBCI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A69BA0)
-#define GJHAPGDHBCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A69BD0)
+#define GJHAPGDHBCI_CTOR_OFFSET UNITYSDK_OFFSET(0x169A5140)
+#define GJHAPGDHBCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x169A5170)
 
-inline static constexpr unsigned int GJHAPGDHBCI_TypeDefinitionIndex = 58245;
+inline static constexpr unsigned int GJHAPGDHBCI_TypeDefinitionIndex = 59501;
 
 	class GJHAPGDHBCI
 	{

@@ -2,24 +2,25 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F581D00)
-#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57D560)
+#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x20831B00)
+#define AKCALLBACKMANAGER_INITIALIZATIONSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x2082D380)
 
-inline static constexpr unsigned int AkCallbackManager_InitializationSettings_TypeDefinitionIndex = 44830;
+inline static constexpr unsigned int AkCallbackManager_InitializationSettings_TypeDefinitionIndex = 45905;
 
 	class AkCallbackManager_InitializationSettings : public ::System::Object
 	{
 	public:
-		::System::Int32 BufferSize; // 0x10
-		::System::Boolean IsLoggingEnabled; // 0x14
+		::System::Boolean IsLoggingEnabled; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::Int32 BufferSize; // 0x14
 		static ::System::Int32* StaticGet_DefaultBufferSize()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "InitializationSettings")->GetStaticField(0x2220);
+			return (::System::Int32*)UnitySDK::FromName("", "InitializationSettings")->GetStaticField(0x6D90);
 		}
 
 		static ::System::Boolean* StaticGet_DefaultIsLoggingEnabled()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "InitializationSettings")->GetStaticField(0x2224);
+			return (::System::Boolean*)UnitySDK::FromName("", "InitializationSettings")->GetStaticField(0x6D94);
 		}
 
 		::System::Void _ctor()

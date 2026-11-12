@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace R3
 {
-	inline static constexpr unsigned int CombineLatest_1_TypeDefinitionIndex = 35907;
+	inline static constexpr unsigned int CombineLatest_1_TypeDefinitionIndex = 36835;
 
 	template <typename T>
 	class CombineLatest_1

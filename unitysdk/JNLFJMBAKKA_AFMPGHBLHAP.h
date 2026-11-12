@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JNLFJMBAKKA_AFMPGHBLHAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB28BB50)
+#define JNLFJMBAKKA_AFMPGHBLHAP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB60F0)
 
-inline static constexpr unsigned int JNLFJMBAKKA_AFMPGHBLHAP_TypeDefinitionIndex = 79534;
+inline static constexpr unsigned int JNLFJMBAKKA_AFMPGHBLHAP_TypeDefinitionIndex = 82311;
 
 	class JNLFJMBAKKA_AFMPGHBLHAP : public ::System::Object
 	{

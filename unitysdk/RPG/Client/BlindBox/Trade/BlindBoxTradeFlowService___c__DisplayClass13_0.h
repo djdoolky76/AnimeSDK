@@ -4,12 +4,12 @@
 class FNKHNOMEMFD;
 namespace RPG::Client::BlindBox::Trade { class BlindBoxTradeFlowService; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8966A0)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS13_0__PUBLISHPRIVATEHIDDENORDER_B__0_OFFSET UNITYSDK_OFFSET(0xC898650)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1FBCD0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS13_0__PUBLISHPRIVATEHIDDENORDER_B__0_OFFSET UNITYSDK_OFFSET(0xD1FDC50)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeFlowService___c__DisplayClass13_0_TypeDefinitionIndex = 74897;
+	inline static constexpr unsigned int BlindBoxTradeFlowService___c__DisplayClass13_0_TypeDefinitionIndex = 77224;
 
 	class BlindBoxTradeFlowService___c__DisplayClass13_0 : public ::System::Object
 	{

@@ -5,20 +5,20 @@ namespace RPG::Client { class GridFightBonusResultData; }
 namespace RPG::Client { class GridFightEquipItemData; }
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPBONUSEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD10C050)
-#define RPG_CLIENT_GRIDFIGHTEQUIPBONUSEVENT_GET_EQUIPPEDBYROLE_OFFSET UNITYSDK_OFFSET(0xD10C000)
-#define RPG_CLIENT_GRIDFIGHTEQUIPBONUSEVENT_GET_EQUIPPEDUID_OFFSET UNITYSDK_OFFSET(0xD10BF90)
+#define RPG_CLIENT_GRIDFIGHTEQUIPBONUSEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDACC190)
+#define RPG_CLIENT_GRIDFIGHTEQUIPBONUSEVENT_GET_EQUIPPEDBYROLE_OFFSET UNITYSDK_OFFSET(0xDACC140)
+#define RPG_CLIENT_GRIDFIGHTEQUIPBONUSEVENT_GET_EQUIPPEDUID_OFFSET UNITYSDK_OFFSET(0xDACC0D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipBonusEvent_TypeDefinitionIndex = 64939;
+	inline static constexpr unsigned int GridFightEquipBonusEvent_TypeDefinitionIndex = 66520;
 
 	class GridFightEquipBonusEvent : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightEquipItemData* Equip; // 0x10
-		::RPG::Client::GridFightRole* EquippedRole; // 0x18
-		::RPG::Client::GridFightBonusResultData* Bonus; // 0x20
+		::RPG::Client::GridFightRole* EquippedRole; // 0x10
+		::RPG::Client::GridFightBonusResultData* Bonus; // 0x18
+		::RPG::Client::GridFightEquipItemData* Equip; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPBONUSEVENT_CTOR_OFFSET))(this);

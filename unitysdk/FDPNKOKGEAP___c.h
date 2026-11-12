@@ -4,18 +4,18 @@
 class FDPNKOKGEAP;
 namespace System { class Object; }
 
-#define FDPNKOKGEAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E35F120)
-#define FDPNKOKGEAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E35F160)
-#define FDPNKOKGEAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E35F170)
+#define FDPNKOKGEAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F646710)
+#define FDPNKOKGEAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F646750)
+#define FDPNKOKGEAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F646760)
 
-inline static constexpr unsigned int FDPNKOKGEAP___c_TypeDefinitionIndex = 27428;
+inline static constexpr unsigned int FDPNKOKGEAP___c_TypeDefinitionIndex = 27959;
 
 	class FDPNKOKGEAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BF30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A5B0);
 		}
 
 		static ::System::Void _cctor()

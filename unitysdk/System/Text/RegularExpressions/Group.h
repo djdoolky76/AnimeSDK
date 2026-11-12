@@ -5,11 +5,11 @@ namespace System { class String; }
 namespace System::Text::RegularExpressions { class CaptureCollection; }
 namespace System::Text::RegularExpressions { class Group; }
 
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0B71C0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0B7240)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0B70D0)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x1F0B7160)
-#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x1F0B7150)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CCTOR_OFFSET UNITYSDK_OFFSET(0x20367EE0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20367F60)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x20367DF0)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_CAPTURES_OFFSET UNITYSDK_OFFSET(0x20367E80)
+#define SYSTEM_TEXT_REGULAREXPRESSIONS_GROUP_GET_SUCCESS_OFFSET UNITYSDK_OFFSET(0x20367E70)
 
 namespace System::Text::RegularExpressions
 {
@@ -24,7 +24,7 @@ namespace System::Text::RegularExpressions
 		::System::Int32 _capcount; // 0x38
 		static ::System::Text::RegularExpressions::Group** StaticGet__emptygroup()
 		{
-			return (::System::Text::RegularExpressions::Group**)UnitySDK::FromName("System.Text.RegularExpressions", "Group")->GetStaticField(0x30880);
+			return (::System::Text::RegularExpressions::Group**)UnitySDK::FromName("System.Text.RegularExpressions", "Group")->GetStaticField(0x39560);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::System::String* a4)

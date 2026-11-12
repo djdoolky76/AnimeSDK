@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define ABMAPHBEJFA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB107E10)
-#define ABMAPHBEJFA_IEDAOBCAEEP_OFFSET UNITYSDK_OFFSET(0xB107A50)
-#define ABMAPHBEJFA_INMDIOHABLJ_OFFSET UNITYSDK_OFFSET(0xB107CD0)
-#define ABMAPHBEJFA_PIBEJIEGMLP_OFFSET UNITYSDK_OFFSET(0xB107B90)
+#define ABMAPHBEJFA_CCTOR_OFFSET UNITYSDK_OFFSET(0xB76A780)
+#define ABMAPHBEJFA_IEDAOBCAEEP_OFFSET UNITYSDK_OFFSET(0xB76A3C0)
+#define ABMAPHBEJFA_INMDIOHABLJ_OFFSET UNITYSDK_OFFSET(0xB76A640)
+#define ABMAPHBEJFA_PIBEJIEGMLP_OFFSET UNITYSDK_OFFSET(0xB76A500)
 
-inline static constexpr unsigned int ABMAPHBEJFA_TypeDefinitionIndex = 81359;
+inline static constexpr unsigned int ABMAPHBEJFA_TypeDefinitionIndex = 84139;
 
 	class ABMAPHBEJFA : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*>** StaticGet_KFELEMDFEGK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*>**)UnitySDK::FromName("", "ABMAPHBEJFA")->GetStaticField(0x43270);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>** StaticGet_KILMAKECMBL()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>**)UnitySDK::FromName("", "ABMAPHBEJFA")->GetStaticField(0x43278);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesToastStyleType, ::System::String*>**)UnitySDK::FromName("", "ABMAPHBEJFA")->GetStaticField(0x39F80);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>** StaticGet_KCJKPDBIIBK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)UnitySDK::FromName("", "ABMAPHBEJFA")->GetStaticField(0x43280);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Type*>**)UnitySDK::FromName("", "ABMAPHBEJFA")->GetStaticField(0x39F88);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>** StaticGet_KILMAKECMBL()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::ChenLingFesDialogStyleType, ::System::String*>**)UnitySDK::FromName("", "ABMAPHBEJFA")->GetStaticField(0x39F90);
 		}
 
 		static ::System::Void _cctor()

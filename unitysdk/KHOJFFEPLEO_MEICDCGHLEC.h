@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_3.h"
 
-#define KHOJFFEPLEO_MEICDCGHLEC_COMPARE_OFFSET UNITYSDK_OFFSET(0xB414D70)
-#define KHOJFFEPLEO_MEICDCGHLEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB4145F0)
+#define KHOJFFEPLEO_MEICDCGHLEC_COMPARE_OFFSET UNITYSDK_OFFSET(0xBCAA730)
+#define KHOJFFEPLEO_MEICDCGHLEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA9FB0)
 
-inline static constexpr unsigned int KHOJFFEPLEO_MEICDCGHLEC_TypeDefinitionIndex = 74114;
+inline static constexpr unsigned int KHOJFFEPLEO_MEICDCGHLEC_TypeDefinitionIndex = 76262;
 
 	class KHOJFFEPLEO_MEICDCGHLEC : public ::System::Object
 	{

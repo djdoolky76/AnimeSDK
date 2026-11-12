@@ -8,20 +8,20 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC33BB60)
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0xC33C490)
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0xC33C6C0)
-#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0xC33C520)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC6E9D0)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_B__3_OFFSET UNITYSDK_OFFSET(0xCC6F300)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMAXFISRT_1_OFFSET UNITYSDK_OFFSET(0xCC6F530)
+#define PNJKHPMDMBP___C__DISPLAYCLASS4_0__ENTITYSORT_SORTBYMODIFIERVALUE_G___COMPAREIMPLMINFISRT_0_OFFSET UNITYSDK_OFFSET(0xCC6F390)
 
-inline static constexpr unsigned int PNJKHPMDMBP___c__DisplayClass4_0_TypeDefinitionIndex = 55632;
+inline static constexpr unsigned int PNJKHPMDMBP___c__DisplayClass4_0_TypeDefinitionIndex = 56830;
 
 	class PNJKHPMDMBP___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x10
-		::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x18
+		::System::Predicate_1<::RPG::GameCore::TurnBasedModifierInstance*>* __9__3; // 0x10
+		::RPG::GameCore::SortByModifierValue* config; // 0x18
 		::RPG::GameCore::GameEntity* _Caster; // 0x20
-		::RPG::GameCore::SortByModifierValue* config; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::RPG::GameCore::FixPoint>* _SortScoreDict; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNJKHPMDMBP___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

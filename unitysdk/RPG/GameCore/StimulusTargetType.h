@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StimulusTargetType_TypeDefinitionIndex = 24519;
+	inline static constexpr unsigned int StimulusTargetType_TypeDefinitionIndex = 24979;
 
 	enum class StimulusTargetType : ::System::Int32
 	{

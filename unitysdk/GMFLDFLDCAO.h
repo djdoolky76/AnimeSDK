@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareNPCMonsterCheckState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GMFLDFLDCAO_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACE080)
-#define GMFLDFLDCAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15ACE0B0)
+#define GMFLDFLDCAO_CTOR_OFFSET UNITYSDK_OFFSET(0x16A50AD0)
+#define GMFLDFLDCAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A50B00)
 
-inline static constexpr unsigned int GMFLDFLDCAO_TypeDefinitionIndex = 52580;
+inline static constexpr unsigned int GMFLDFLDCAO_TypeDefinitionIndex = 53686;
 
 	class GMFLDFLDCAO
 	{

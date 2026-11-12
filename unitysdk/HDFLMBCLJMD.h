@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearDynamicSkillButtonInput; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDFLMBCLJMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C32C70)
-#define HDFLMBCLJMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C32CA0)
+#define HDFLMBCLJMD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B76410)
+#define HDFLMBCLJMD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B76440)
 
-inline static constexpr unsigned int HDFLMBCLJMD_TypeDefinitionIndex = 54959;
+inline static constexpr unsigned int HDFLMBCLJMD_TypeDefinitionIndex = 56133;
 
 	class HDFLMBCLJMD
 	{

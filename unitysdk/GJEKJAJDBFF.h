@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define GJEKJAJDBFF_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7C140)
+#define GJEKJAJDBFF_CTOR_OFFSET UNITYSDK_OFFSET(0x3051EC0)
 
-inline static constexpr unsigned int GJEKJAJDBFF_TypeDefinitionIndex = 73561;
+inline static constexpr unsigned int GJEKJAJDBFF_TypeDefinitionIndex = 75684;
 
 	struct alignas(8) GJEKJAJDBFF
 	{

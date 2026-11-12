@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldBindingSuccessDialog; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEEA1D0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BEEADD0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D070D10)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_HANDHELDBINDINGSUCCESSDIALOG___C__DISPLAYCLASS14_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D0718F0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int HandheldBindingSuccessDialog___c__DisplayClass14_0_TypeDefinitionIndex = 8806;
+	inline static constexpr unsigned int HandheldBindingSuccessDialog___c__DisplayClass14_0_TypeDefinitionIndex = 8815;
 
 	class HandheldBindingSuccessDialog___c__DisplayClass14_0 : public ::System::Object
 	{

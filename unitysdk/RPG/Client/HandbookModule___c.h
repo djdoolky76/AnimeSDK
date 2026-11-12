@@ -9,55 +9,55 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_HANDBOOKMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD303B30)
-#define RPG_CLIENT_HANDBOOKMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD303B60)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GENERATECHAPTERDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0xD303B70)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GETSHOWROGUEDATALIST_B__119_0_OFFSET UNITYSDK_OFFSET(0xD303E70)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDMAINPATHLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0xD303BC0)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDSUBPATHLIST_B__12_0_OFFSET UNITYSDK_OFFSET(0xD303E30)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUEDLC_B__120_0_OFFSET UNITYSDK_OFFSET(0xD304110)
-#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUENOUS_B__121_0_OFFSET UNITYSDK_OFFSET(0xD304170)
+#define RPG_CLIENT_HANDBOOKMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD38190)
+#define RPG_CLIENT_HANDBOOKMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDD381C0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GENERATECHAPTERDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0xDD381D0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GETSHOWROGUEDATALIST_B__116_0_OFFSET UNITYSDK_OFFSET(0xDD384C0)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDMAINPATHLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0xDD38220)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDSUBPATHLIST_B__12_0_OFFSET UNITYSDK_OFFSET(0xDD38480)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUEDLC_B__117_0_OFFSET UNITYSDK_OFFSET(0xDD38760)
+#define RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUENOUS_B__118_0_OFFSET UNITYSDK_OFFSET(0xDD387C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookModule___c_TypeDefinitionIndex = 65630;
+	inline static constexpr unsigned int HandbookModule___c_TypeDefinitionIndex = 67554;
 
 	class HandbookModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::MissionChronicleSubPathData*>** StaticGet___9__12_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MissionChronicleSubPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF410);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::HandbookChapterData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::HandbookChapterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF418);
+			return (::System::Comparison_1<::RPG::Client::HandbookChapterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19880);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF420);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19888);
 		}
 
-		static ::System::Action** StaticGet___9__121_0()
+		static ::System::Comparison_1<::RPG::Client::MissionChronicleSubPathData*>** StaticGet___9__12_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF428);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::HandbookRogueData*>** StaticGet___9__119_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::HandbookRogueData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF430);
+			return (::System::Comparison_1<::RPG::Client::MissionChronicleSubPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19890);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::MissionChronicleMainPathData*>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF438);
+			return (::System::Comparison_1<::RPG::Client::MissionChronicleMainPathData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19898);
 		}
 
-		static ::System::Action** StaticGet___9__120_0()
+		static ::System::Comparison_1<::RPG::Client::HandbookRogueData*>** StaticGet___9__116_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF440);
+			return (::System::Comparison_1<::RPG::Client::HandbookRogueData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x198A0);
+		}
+
+		static ::System::Action** StaticGet___9__118_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x198A8);
+		}
+
+		static ::System::Action** StaticGet___9__117_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x198B0);
 		}
 
 		static ::System::Void _cctor()
@@ -85,19 +85,19 @@ namespace RPG::Client
 			return ((::System::Int32(*)(::PVOID, ::RPG::Client::MissionChronicleSubPathData*, ::RPG::Client::MissionChronicleSubPathData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__GETSORTEDSUBPATHLIST_B__12_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Int32 _GetShowRogueDataList_b__119_0(::RPG::Client::HandbookRogueData* a1, ::RPG::Client::HandbookRogueData* a2)
+		::System::Int32 _GetShowRogueDataList_b__116_0(::RPG::Client::HandbookRogueData* a1, ::RPG::Client::HandbookRogueData* a2)
 		{
-			return ((::System::Int32(*)(::PVOID, ::RPG::Client::HandbookRogueData*, ::RPG::Client::HandbookRogueData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__GETSHOWROGUEDATALIST_B__119_0_OFFSET))(this, a1, a2);
+			return ((::System::Int32(*)(::PVOID, ::RPG::Client::HandbookRogueData*, ::RPG::Client::HandbookRogueData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__GETSHOWROGUEDATALIST_B__116_0_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void _GotoToGuideRogueDLC_b__120_0()
+		::System::Void _GotoToGuideRogueDLC_b__117_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUEDLC_B__120_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUEDLC_B__117_0_OFFSET))(this);
 		}
 
-		::System::Void _GotoToGuideRogueNous_b__121_0()
+		::System::Void _GotoToGuideRogueNous_b__118_0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUENOUS_B__121_0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_HANDBOOKMODULE___C__GOTOTOGUIDEROGUENOUS_B__118_0_OFFSET))(this);
 		}
 
 	};

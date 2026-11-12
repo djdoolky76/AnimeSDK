@@ -4,10 +4,10 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenCount; }
 
-#define ENBFGOGFELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C605220)
-#define ENBFGOGFELD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C605230)
+#define ENBFGOGFELD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D786900)
+#define ENBFGOGFELD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D786910)
 
-inline static constexpr unsigned int ENBFGOGFELD_TypeDefinitionIndex = 36210;
+inline static constexpr unsigned int ENBFGOGFELD_TypeDefinitionIndex = 37138;
 
 	class ENBFGOGFELD : public ::PNECKGBKMEL
 	{

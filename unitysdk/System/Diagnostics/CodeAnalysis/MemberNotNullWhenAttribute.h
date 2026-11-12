@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MEMBERNOTNULLWHENATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C426650)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_MEMBERNOTNULLWHENATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ACE40)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int MemberNotNullWhenAttribute_TypeDefinitionIndex = 35894;
+	inline static constexpr unsigned int MemberNotNullWhenAttribute_TypeDefinitionIndex = 36822;
 
 	class MemberNotNullWhenAttribute : public ::System::Attribute
 	{

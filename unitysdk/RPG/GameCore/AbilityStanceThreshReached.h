@@ -8,24 +8,25 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4BBB60)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CTOR_OFFSET UNITYSDK_OFFSET(0xE4BBC50)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE4BBC00)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE4BBBB0)
-#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_INIT_OFFSET UNITYSDK_OFFSET(0xE4BBAD0)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CLEAR_OFFSET UNITYSDK_OFFSET(0xEF7AEF0)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CTOR_OFFSET UNITYSDK_OFFSET(0xEF7AFE0)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xEF7AF90)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xEF7AF40)
+#define RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_INIT_OFFSET UNITYSDK_OFFSET(0xEF7AE60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AbilityStanceThreshReached_TypeDefinitionIndex = 56587;
+	inline static constexpr unsigned int AbilityStanceThreshReached_TypeDefinitionIndex = 57808;
 
 	class AbilityStanceThreshReached : public ::CMPGEAFHHDC
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::String*>* LockHPKeys; // 0x18
-		::RPG::GameCore::GameEntity* AttackerEntity; // 0x20
+		::RPG::GameCore::GameEntity* AttackerEntity; // 0x18
+		::System::Collections::Generic::List_1<::System::String*>* LockHPKeys; // 0x20
 		::RPG::GameCore::GameEntity* DefenderEntity; // 0x28
-		::RPG::GameCore::FixPoint Threshold; // 0x30
-		::System::Int32 SumStanceCount; // 0x38
+		::System::Int32 SumStanceCount; // 0x30
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint Threshold; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ABILITYSTANCETHRESHREACHED_CTOR_OFFSET))(this);

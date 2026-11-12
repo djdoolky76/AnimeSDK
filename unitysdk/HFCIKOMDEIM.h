@@ -4,28 +4,28 @@
 #include "unitysdk/BCMNLOPKLDO.h"
 namespace System { class String; }
 
-#define HFCIKOMDEIM_APHKGPOCPBG_OFFSET UNITYSDK_OFFSET(0x15C702E0)
-#define HFCIKOMDEIM_BKJAIHLBGAC_OFFSET UNITYSDK_OFFSET(0x15C70590)
-#define HFCIKOMDEIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15C70220)
-#define HFCIKOMDEIM_GAJOGNKBPJC_OFFSET UNITYSDK_OFFSET(0x15C70280)
-#define HFCIKOMDEIM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15C70340)
-#define HFCIKOMDEIM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15C70240)
+#define HFCIKOMDEIM_APHKGPOCPBG_OFFSET UNITYSDK_OFFSET(0x16BB4A50)
+#define HFCIKOMDEIM_BKJAIHLBGAC_OFFSET UNITYSDK_OFFSET(0x16BB4D00)
+#define HFCIKOMDEIM_CTOR_OFFSET UNITYSDK_OFFSET(0x16BB4990)
+#define HFCIKOMDEIM_GAJOGNKBPJC_OFFSET UNITYSDK_OFFSET(0x16BB49F0)
+#define HFCIKOMDEIM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16BB4AB0)
+#define HFCIKOMDEIM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16BB49B0)
 
-inline static constexpr unsigned int HFCIKOMDEIM_TypeDefinitionIndex = 59348;
+inline static constexpr unsigned int HFCIKOMDEIM_TypeDefinitionIndex = 60625;
 
 	class HFCIKOMDEIM : public ::System::Object
 	{
 	public:
-		::System::String* NCDGDDKNMDB; // 0x10
-		::System::String* BNAEJLJFMLB; // 0x18
-		::System::Int32 MJLLBKNFJLA; // 0x20
-		::System::Boolean KGKKOOOJMAJ; // 0x24
-		::System::Boolean OHNFDEBPBMO; // 0x25
-		::System::Boolean MBKFKOHFPAA; // 0x26
-		::System::Boolean IFMNPPJCIOD; // 0x27
-		::System::Single MFHEDGJMFFD; // 0x28
-		::System::Single KCJJMLHECEL; // 0x2C
-		::System::Int32 MEKEEFKCDCN; // 0x30
+		::System::String* BNAEJLJFMLB; // 0x10
+		::System::String* NCDGDDKNMDB; // 0x18
+		::System::Single KCJJMLHECEL; // 0x20
+		::System::Int32 MEKEEFKCDCN; // 0x24
+		::System::Boolean MBKFKOHFPAA; // 0x28
+		::System::Boolean OHNFDEBPBMO; // 0x29
+		::System::Boolean IFMNPPJCIOD; // 0x2A
+		::System::Boolean KGKKOOOJMAJ; // 0x2B
+		::System::Int32 MJLLBKNFJLA; // 0x2C
+		::System::Single MFHEDGJMFFD; // 0x30
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HFCIKOMDEIM_CTOR_OFFSET))(this, a1, a2);

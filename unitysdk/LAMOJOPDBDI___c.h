@@ -5,35 +5,35 @@ class EGBIFFCBKEH;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LAMOJOPDBDI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C56DF90)
-#define LAMOJOPDBDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56DFD0)
-#define LAMOJOPDBDI___C__SORTEXAM_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C56DFE0)
-#define LAMOJOPDBDI___C__SORTEXAM_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C56E000)
-#define LAMOJOPDBDI___C__SORTEXAM_B__0_2_OFFSET UNITYSDK_OFFSET(0x1C56E020)
+#define LAMOJOPDBDI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6EF930)
+#define LAMOJOPDBDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EF970)
+#define LAMOJOPDBDI___C__SORTEXAM_B__0_0_OFFSET UNITYSDK_OFFSET(0x1D6EF980)
+#define LAMOJOPDBDI___C__SORTEXAM_B__0_1_OFFSET UNITYSDK_OFFSET(0x1D6EF9A0)
+#define LAMOJOPDBDI___C__SORTEXAM_B__0_2_OFFSET UNITYSDK_OFFSET(0x1D6EF9C0)
 
-inline static constexpr unsigned int LAMOJOPDBDI___c_TypeDefinitionIndex = 41898;
+inline static constexpr unsigned int LAMOJOPDBDI___c_TypeDefinitionIndex = 42873;
 
 	class LAMOJOPDBDI___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::EGBIFFCBKEH*, ::System::Boolean>** StaticGet___9__0_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::EGBIFFCBKEH*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x188A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11290);
 		}
 
 		static ::System::Func_2<::EGBIFFCBKEH*, ::System::UInt32>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::EGBIFFCBKEH*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x188A8);
+			return (::System::Func_2<::EGBIFFCBKEH*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11298);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::EGBIFFCBKEH*, ::System::Boolean>** StaticGet___9__0_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x188B0);
+			return (::System::Func_2<::EGBIFFCBKEH*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x112A0);
 		}
 
 		static ::System::Func_2<::EGBIFFCBKEH*, ::System::UInt32>** StaticGet___9__0_2()
 		{
-			return (::System::Func_2<::EGBIFFCBKEH*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x188B8);
+			return (::System::Func_2<::EGBIFFCBKEH*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x112A8);
 		}
 
 		static ::System::Void _cctor()

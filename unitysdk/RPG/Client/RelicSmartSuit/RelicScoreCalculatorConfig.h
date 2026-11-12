@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicScoreCalculatorConfig_TypeDefinitionIndex = 74430;
+	inline static constexpr unsigned int RelicScoreCalculatorConfig_TypeDefinitionIndex = 76578;
 
 	enum class RelicScoreCalculatorConfig : ::System::Int32
 	{

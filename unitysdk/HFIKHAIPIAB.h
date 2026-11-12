@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HFIKHAIPIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7BAA0)
+#define HFIKHAIPIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x16BC3060)
 
-inline static constexpr unsigned int HFIKHAIPIAB_TypeDefinitionIndex = 65531;
+inline static constexpr unsigned int HFIKHAIPIAB_TypeDefinitionIndex = 67447;
 
 	class HFIKHAIPIAB : public ::System::Object
 	{

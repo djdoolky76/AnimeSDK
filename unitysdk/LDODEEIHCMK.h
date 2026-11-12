@@ -5,20 +5,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrainPartyAddBathBuff; }
 namespace System { class Object; }
 
-#define LDODEEIHCMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB63EDF0)
-#define LDODEEIHCMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB63F020)
-#define LDODEEIHCMK_EPOKNPOCHGM_OFFSET UNITYSDK_OFFSET(0xB63F0E0)
-#define LDODEEIHCMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB63EE00)
-#define LDODEEIHCMK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB63EF10)
-#define LDODEEIHCMK_TICK_OFFSET UNITYSDK_OFFSET(0xB63EFC0)
+#define LDODEEIHCMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBED4AD0)
+#define LDODEEIHCMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBED4D00)
+#define LDODEEIHCMK_EPOKNPOCHGM_OFFSET UNITYSDK_OFFSET(0xBED4DC0)
+#define LDODEEIHCMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBED4AE0)
+#define LDODEEIHCMK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBED4BF0)
+#define LDODEEIHCMK_TICK_OFFSET UNITYSDK_OFFSET(0xBED4CA0)
 
-inline static constexpr unsigned int LDODEEIHCMK_TypeDefinitionIndex = 53419;
+inline static constexpr unsigned int LDODEEIHCMK_TypeDefinitionIndex = 54581;
 
 	class LDODEEIHCMK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TrainPartyAddBathBuff* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TrainPartyAddBathBuff* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TrainPartyAddBathBuff* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TrainPartyAddBathBuff*))((::PBYTE)hIl2Cpp + LDODEEIHCMK_CTOR_OFFSET))(this, a1, a2);

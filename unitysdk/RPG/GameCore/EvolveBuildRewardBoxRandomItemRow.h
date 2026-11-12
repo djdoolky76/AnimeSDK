@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EvolveBuildRewardBoxRandomItemRow; }
 
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D685C60)
-#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D685B20)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8921D0)
+#define RPG_GAMECORE_EVOLVEBUILDREWARDBOXRANDOMITEMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E892090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EvolveBuildRewardBoxRandomItemRow_TypeDefinitionIndex = 11440;
+	inline static constexpr unsigned int EvolveBuildRewardBoxRandomItemRow_TypeDefinitionIndex = 11491;
 
 	class EvolveBuildRewardBoxRandomItemRow : public ::System::Object
 	{

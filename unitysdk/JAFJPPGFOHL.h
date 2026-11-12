@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPlayerGravityOppositeToCurrentSurface; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JAFJPPGFOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x16544740)
-#define JAFJPPGFOHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16544770)
+#define JAFJPPGFOHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB87BF50)
+#define JAFJPPGFOHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB87BF80)
 
-inline static constexpr unsigned int JAFJPPGFOHL_TypeDefinitionIndex = 52823;
+inline static constexpr unsigned int JAFJPPGFOHL_TypeDefinitionIndex = 53967;
 
 	class JAFJPPGFOHL
 	{

@@ -4,10 +4,10 @@
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class AnimatorControllerParameter; }
 
-#define HPPNJDAKAKO_HBIFBJENIIK_OFFSET UNITYSDK_OFFSET(0x2E7F5B0)
-#define HPPNJDAKAKO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x2E7F5A0)
+#define HPPNJDAKAKO_HBIFBJENIIK_OFFSET UNITYSDK_OFFSET(0x30556A0)
+#define HPPNJDAKAKO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x3055690)
 
-inline static constexpr unsigned int HPPNJDAKAKO_TypeDefinitionIndex = 73327;
+inline static constexpr unsigned int HPPNJDAKAKO_TypeDefinitionIndex = 75444;
 
 	struct alignas(4) HPPNJDAKAKO
 	{

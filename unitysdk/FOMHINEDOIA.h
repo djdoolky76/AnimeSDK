@@ -4,10 +4,10 @@
 #include "unitysdk/LNNEBLLJHPC.h"
 namespace RPG::AvatarSystem { class AvatarServant; }
 
-#define FOMHINEDOIA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x158FB120)
-#define FOMHINEDOIA_CTOR_OFFSET UNITYSDK_OFFSET(0x158FB310)
+#define FOMHINEDOIA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16829B30)
+#define FOMHINEDOIA_CTOR_OFFSET UNITYSDK_OFFSET(0x16829D30)
 
-inline static constexpr unsigned int FOMHINEDOIA_TypeDefinitionIndex = 62607;
+inline static constexpr unsigned int FOMHINEDOIA_TypeDefinitionIndex = 64030;
 
 	class FOMHINEDOIA : public ::System::Object
 	{

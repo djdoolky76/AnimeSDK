@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroSetupCameraAxis; }
 
-#define LMIDAEOHENM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C8AC0)
-#define LMIDAEOHENM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7C8AF0)
+#define LMIDAEOHENM_CTOR_OFFSET UNITYSDK_OFFSET(0xC024D80)
+#define LMIDAEOHENM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC024DB0)
 
-inline static constexpr unsigned int LMIDAEOHENM_TypeDefinitionIndex = 58964;
+inline static constexpr unsigned int LMIDAEOHENM_TypeDefinitionIndex = 60237;
 
 	class LMIDAEOHENM
 	{

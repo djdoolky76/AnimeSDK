@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetNpcWaypath; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETNPCWAYPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABE510)
-#define RPG_GAMECORE_SETNPCWAYPATH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABE540)
-#define RPG_GAMECORE_SETNPCWAYPATH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABE4C0)
+#define RPG_GAMECORE_SETNPCWAYPATH_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD0740)
+#define RPG_GAMECORE_SETNPCWAYPATH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD0770)
+#define RPG_GAMECORE_SETNPCWAYPATH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD06F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNpcWaypath_TypeDefinitionIndex = 20341;
+	inline static constexpr unsigned int SetNpcWaypath_TypeDefinitionIndex = 20676;
 
 	class SetNpcWaypath : public ::RPG::GameCore::TaskConfig
 	{

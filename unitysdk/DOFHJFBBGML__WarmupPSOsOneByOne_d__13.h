@@ -10,41 +10,41 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE45B0)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x11FE6000)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_OBJECT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x11FE6BB0)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11FE6B40)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x11FE6C50)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11FE6BA0)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x11FE6B50)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FE5FB0)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x11FE5FF0)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x11FE5FE0)
-#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY3_OFFSET UNITYSDK_OFFSET(0x11FE5FD0)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_CTOR_OFFSET UNITYSDK_OFFSET(0x12DDDE80)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x12DDF8D0)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_OBJECT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x12DE0490)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12DE0420)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x12DE0530)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12DE0480)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x12DE0430)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DDF880)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x12DDF8C0)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x12DDF8B0)
+#define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY3_OFFSET UNITYSDK_OFFSET(0x12DDF8A0)
 
-inline static constexpr unsigned int DOFHJFBBGML__WarmupPSOsOneByOne_d__13_TypeDefinitionIndex = 47427;
+inline static constexpr unsigned int DOFHJFBBGML__WarmupPSOsOneByOne_d__13_TypeDefinitionIndex = 48456;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class DOFHJFBBGML__WarmupPSOsOneByOne_d__13 : public ::System::Object
 	{
 	public:
-		::System::Object* __7__wrap6; // 0x10
-		::System::Byte _padding0[0x10];
-		::System::Collections::Generic::List_1<::System::Object*>* _qualityData_5__6; // 0x28
-		::System::Object* __7__wrap8; // 0x30
+		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* __3__warmupPSOs; // 0x10
+		::System::Object* __7__wrap3; // 0x18
+		::System::Byte _padding0[0x20];
+		::System::Object* __2__current; // 0x40
+		::System::Collections::Generic::List_1<::System::Object*>* _qualityData_5__6; // 0x48
+		::DOFHJFBBGML_IGOIBNLMFLE* _shaderPSOs_5__8; // 0x50
+		::System::Object* __7__wrap8; // 0x58
 		::System::Byte _padding1[0x10];
-		::DOFHJFBBGML* __4__this; // 0x48
-		::System::Object* __7__wrap3; // 0x50
-		::System::Byte _padding2[0x20];
-		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* __3__warmupPSOs; // 0x78
-		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* warmupPSOs; // 0x80
-		::DOFHJFBBGML_IGOIBNLMFLE* _shaderPSOs_5__8; // 0x88
-		::System::Object* __2__current; // 0x90
-		::System::Int32 __1__state; // 0x98
-		::System::Int32 _currentPsoIdx_5__3; // 0x9C
-		::System::Int32 _totalPsoCount_5__2; // 0xA0
-		::WarmupQualitySet _quality_5__5; // 0xA4
-		::System::Int32 __l__initialThreadId; // 0xAC
+		::DOFHJFBBGML* __4__this; // 0x70
+		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* warmupPSOs; // 0x78
+		::System::Object* __7__wrap6; // 0x80
+		::System::Byte _padding2[0x10];
+		::System::Int32 _totalPsoCount_5__2; // 0x98
+		::WarmupQualitySet _quality_5__5; // 0x9C
+		::System::Int32 __l__initialThreadId; // 0xA4
+		::System::Int32 __1__state; // 0xA8
+		::System::Int32 _currentPsoIdx_5__3; // 0xAC
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13_CTOR_OFFSET))(this, a1);

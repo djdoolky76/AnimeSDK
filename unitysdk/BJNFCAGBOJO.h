@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BJNFCAGBOJO_TypeDefinitionIndex = 71213;
+inline static constexpr unsigned int BJNFCAGBOJO_TypeDefinitionIndex = 73195;
 
 	struct alignas(4) BJNFCAGBOJO
 	{

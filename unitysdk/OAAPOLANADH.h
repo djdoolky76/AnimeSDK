@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OAAPOLANADH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD18900)
+#define OAAPOLANADH_CTOR_OFFSET UNITYSDK_OFFSET(0xC6170A0)
 
-inline static constexpr unsigned int OAAPOLANADH_TypeDefinitionIndex = 61941;
+inline static constexpr unsigned int OAAPOLANADH_TypeDefinitionIndex = 63353;
 
 	class OAAPOLANADH : public ::System::Object
 	{

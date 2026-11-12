@@ -5,18 +5,18 @@ namespace UnityEngine { class CanvasRenderer; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_TEXTICONS_KMPBAAJEKPL_CTOR_OFFSET UNITYSDK_OFFSET(0xE210BB0)
-#define RPG_CLIENT_TEXTICONS_KMPBAAJEKPL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xE20CDA0)
+#define RPG_CLIENT_TEXTICONS_KMPBAAJEKPL_CTOR_OFFSET UNITYSDK_OFFSET(0xECBDBD0)
+#define RPG_CLIENT_TEXTICONS_KMPBAAJEKPL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xECB9E70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_KMPBAAJEKPL_TypeDefinitionIndex = 72681;
+	inline static constexpr unsigned int TextIcons_KMPBAAJEKPL_TypeDefinitionIndex = 74760;
 
 	class TextIcons_KMPBAAJEKPL : public ::System::Object
 	{
 	public:
-		::UnityEngine::Texture* JKIJEJKCHKP; // 0x10
-		::UnityEngine::CanvasRenderer* ONEFCLJPGLE; // 0x18
+		::UnityEngine::CanvasRenderer* ONEFCLJPGLE; // 0x10
+		::UnityEngine::Texture* JKIJEJKCHKP; // 0x18
 		::System::Int32 FGAFLJPGCNH; // 0x20
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::System::Int32 a2, ::UnityEngine::Texture* a3)
 		{

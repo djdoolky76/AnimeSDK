@@ -4,19 +4,19 @@
 namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 namespace System { class String; }
 
-#define PLGEGIPFLBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC305560)
-#define PLGEGIPFLBH_GET_ROOMCARDBEFORE_OFFSET UNITYSDK_OFFSET(0xC3057C0)
-#define PLGEGIPFLBH_GET_ROOMCARD_OFFSET UNITYSDK_OFFSET(0xC3057B0)
-#define PLGEGIPFLBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC305570)
-#define PLGEGIPFLBH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC305610)
+#define PLGEGIPFLBH_CTOR_OFFSET UNITYSDK_OFFSET(0xCC34400)
+#define PLGEGIPFLBH_GET_ROOMCARDBEFORE_OFFSET UNITYSDK_OFFSET(0xCC34690)
+#define PLGEGIPFLBH_GET_ROOMCARD_OFFSET UNITYSDK_OFFSET(0xCC34680)
+#define PLGEGIPFLBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCC34410)
+#define PLGEGIPFLBH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xCC344B0)
 
-inline static constexpr unsigned int PLGEGIPFLBH_TypeDefinitionIndex = 67049;
+inline static constexpr unsigned int PLGEGIPFLBH_TypeDefinitionIndex = 68993;
 
 	class PLGEGIPFLBH : public ::System::Object
 	{
 	public:
-		::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCardBefore_k__BackingField; // 0x10
-		::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCard_k__BackingField; // 0x18
+		::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCard_k__BackingField; // 0x10
+		::RPG::Client::IRogueTournPersonaRoomCardInGame* _RoomCardBefore_k__BackingField; // 0x18
 		::System::Void _ctor(::RPG::Client::IRogueTournPersonaRoomCardInGame* a1, ::RPG::Client::IRogueTournPersonaRoomCardInGame* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::IRogueTournPersonaRoomCardInGame*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*))((::PBYTE)hIl2Cpp + PLGEGIPFLBH_CTOR_OFFSET))(this, a1, a2);

@@ -3,10 +3,10 @@
 class MMFMAIKPPDO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMFAJKIMMNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1557C810)
-#define AMFAJKIMMNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1557C840)
+#define AMFAJKIMMNF_CTOR_OFFSET UNITYSDK_OFFSET(0x163EBBB0)
+#define AMFAJKIMMNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163EBBE0)
 
-inline static constexpr unsigned int AMFAJKIMMNF_TypeDefinitionIndex = 55049;
+inline static constexpr unsigned int AMFAJKIMMNF_TypeDefinitionIndex = 56225;
 
 	class AMFAJKIMMNF
 	{

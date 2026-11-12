@@ -6,7 +6,7 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
-inline static constexpr unsigned int JHGEIEHKPNG___c__14_1_TypeDefinitionIndex = 49884;
+inline static constexpr unsigned int JHGEIEHKPNG___c__14_1_TypeDefinitionIndex = 50932;
 
 	template <typename T>
 	class JHGEIEHKPNG___c__14_1 : public ::System::Object

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETUPBUTTONLISTTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B1A30)
-#define RPG_GAMECORE_ADVSETUPBUTTONLISTTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B1A50)
-#define RPG_GAMECORE_ADVSETUPBUTTONLISTTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B19F0)
+#define RPG_GAMECORE_ADVSETUPBUTTONLISTTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C1150)
+#define RPG_GAMECORE_ADVSETUPBUTTONLISTTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5C1170)
+#define RPG_GAMECORE_ADVSETUPBUTTONLISTTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C1110)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetupButtonListTrigger_TypeDefinitionIndex = 22175;
+	inline static constexpr unsigned int AdvSetupButtonListTrigger_TypeDefinitionIndex = 22580;
 
 	class AdvSetupButtonListTrigger : public ::RPG::GameCore::TaskConfig
 	{

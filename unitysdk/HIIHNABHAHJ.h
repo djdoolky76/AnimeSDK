@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define HIIHNABHAHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE9DB0)
-#define HIIHNABHAHJ_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15CE9DC0)
+#define HIIHNABHAHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16C38C40)
+#define HIIHNABHAHJ_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x16C38C50)
 
-inline static constexpr unsigned int HIIHNABHAHJ_TypeDefinitionIndex = 62533;
+inline static constexpr unsigned int HIIHNABHAHJ_TypeDefinitionIndex = 63946;
 
 	class HIIHNABHAHJ : public ::System::Object
 	{

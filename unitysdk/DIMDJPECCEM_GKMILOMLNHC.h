@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int DIMDJPECCEM_GKMILOMLNHC_TypeDefinitionIndex = 76900;
+inline static constexpr unsigned int DIMDJPECCEM_GKMILOMLNHC_TypeDefinitionIndex = 79234;
 
 	class DIMDJPECCEM_GKMILOMLNHC : public ::System::Object
 	{

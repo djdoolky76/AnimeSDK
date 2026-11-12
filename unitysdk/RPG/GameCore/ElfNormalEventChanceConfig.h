@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfNormalEventChanceConfig; }
 
-#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D636E80)
-#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D636CB0)
+#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E874850)
+#define RPG_GAMECORE_ELFNORMALEVENTCHANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E874680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfNormalEventChanceConfig_TypeDefinitionIndex = 18475;
+	inline static constexpr unsigned int ElfNormalEventChanceConfig_TypeDefinitionIndex = 18635;
 
 	class ElfNormalEventChanceConfig : public ::RPG::GameCore::JsonConfig
 	{

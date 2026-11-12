@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class DMDIHKEBDJJ;
 
-#define GAFEHOEIPBD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA73BF0)
-#define GAFEHOEIPBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA73C50)
+#define GAFEHOEIPBD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC37590)
+#define GAFEHOEIPBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC375F0)
 
-inline static constexpr unsigned int GAFEHOEIPBD_TypeDefinitionIndex = 43568;
+inline static constexpr unsigned int GAFEHOEIPBD_TypeDefinitionIndex = 44550;
 
 	class GAFEHOEIPBD : public ::System::Object
 	{

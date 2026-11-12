@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamAvatarData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC462DD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0__CHECKHASAVATARCANDEPLOY_B__2_OFFSET UNITYSDK_OFFSET(0xC46AD80)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDA0FF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEBASETEAMINFO___C__DISPLAYCLASS19_0__CHECKHASAVATARCANDEPLOY_B__2_OFFSET UNITYSDK_OFFSET(0xCDA8FB0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass19_0_TypeDefinitionIndex = 75096;
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass19_0_TypeDefinitionIndex = 77423;
 
 	class IdleLiveBaseTeamInfo___c__DisplayClass19_0 : public ::System::Object
 	{

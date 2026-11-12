@@ -6,23 +6,23 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UniversalHotFixBaseTask; }
 namespace System { class Object; }
 
-#define HCKEGEPFOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C20030)
-#define HCKEGEPFOPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C200B0)
-#define HCKEGEPFOPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C200F0)
-#define HCKEGEPFOPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C20170)
-#define HCKEGEPFOPO_TICK_OFFSET UNITYSDK_OFFSET(0x15C201C0)
+#define HCKEGEPFOPO_CTOR_OFFSET UNITYSDK_OFFSET(0x16B62E20)
+#define HCKEGEPFOPO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16B62EA0)
+#define HCKEGEPFOPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B62EE0)
+#define HCKEGEPFOPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16B62F60)
+#define HCKEGEPFOPO_TICK_OFFSET UNITYSDK_OFFSET(0x16B62FB0)
 
-inline static constexpr unsigned int HCKEGEPFOPO_TypeDefinitionIndex = 55785;
+inline static constexpr unsigned int HCKEGEPFOPO_TypeDefinitionIndex = 56988;
 
 	class HCKEGEPFOPO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::UniversalHotFixBaseTask* OPCCJDHNKEC; // 0x20
-		::System::Object* FFMHIBPLNDN; // 0x28
-		::System::Object* IIOFACHKJGP; // 0x30
-		::System::Object* PGLHDMEECHP; // 0x38
-		::CAPNGJEIJOL* CDMOKNNGKCC; // 0x40
+		::System::Object* FFMHIBPLNDN; // 0x18
+		::CAPNGJEIJOL* CDMOKNNGKCC; // 0x20
+		::System::Object* IIOFACHKJGP; // 0x28
+		::System::Object* PGLHDMEECHP; // 0x30
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
+		::RPG::GameCore::UniversalHotFixBaseTask* OPCCJDHNKEC; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UniversalHotFixBaseTask* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::UniversalHotFixBaseTask*))((::PBYTE)hIl2Cpp + HCKEGEPFOPO_CTOR_OFFSET))(this, a1, a2);

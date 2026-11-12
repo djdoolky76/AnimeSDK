@@ -11,30 +11,29 @@ namespace RPG::GameCore { class TriggerAnimStateWithMove; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define MFPPIILJIFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB9129F0)
-#define MFPPIILJIFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB912D20)
-#define MFPPIILJIFF_FAELOPANPPM_OFFSET UNITYSDK_OFFSET(0xB913820)
-#define MFPPIILJIFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB912E90)
-#define MFPPIILJIFF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB913C20)
-#define MFPPIILJIFF_TICK_OFFSET UNITYSDK_OFFSET(0xB913DD0)
+#define MFPPIILJIFF_CTOR_OFFSET UNITYSDK_OFFSET(0xC1C5210)
+#define MFPPIILJIFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1C5540)
+#define MFPPIILJIFF_FAELOPANPPM_OFFSET UNITYSDK_OFFSET(0xC1C6050)
+#define MFPPIILJIFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1C56B0)
+#define MFPPIILJIFF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1C6450)
+#define MFPPIILJIFF_TICK_OFFSET UNITYSDK_OFFSET(0xC1C6600)
 
-inline static constexpr unsigned int MFPPIILJIFF_TypeDefinitionIndex = 55716;
+inline static constexpr unsigned int MFPPIILJIFF_TypeDefinitionIndex = 56918;
 
 	class MFPPIILJIFF : public ::GELIALJDFBL
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Boolean>* NFJNDAFJCAG; // 0x18
-		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x20
-		::RPG::GameCore::TriggerAnimStateWithMove* OFKGLJOAMLD; // 0x28
-		::ONLHJAEPLBB EJPILIBEFCB; // 0x30
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x40
-		::BGOBCKLPEMK* JDNLKGBPHDC; // 0x48
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x50
-		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* KELALIPPMIM; // 0x58
-		::System::Boolean PFMNLFEOAGO; // 0x60
-		::System::Boolean HHCFIHBHPLB; // 0x61
-		::System::Byte _padding0[0x2];
-		::System::Int32 APNGJPMPMOB; // 0x64
+		::BGOBCKLPEMK* JDNLKGBPHDC; // 0x18
+		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* KELALIPPMIM; // 0x20
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x28
+		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x30
+		::System::Collections::Generic::List_1<::System::Boolean>* NFJNDAFJCAG; // 0x38
+		::RPG::GameCore::TriggerAnimStateWithMove* OFKGLJOAMLD; // 0x40
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x48
+		::ONLHJAEPLBB EJPILIBEFCB; // 0x50
+		::System::Int32 APNGJPMPMOB; // 0x60
+		::System::Boolean HHCFIHBHPLB; // 0x64
+		::System::Boolean PFMNLFEOAGO; // 0x65
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerAnimStateWithMove* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerAnimStateWithMove*))((::PBYTE)hIl2Cpp + MFPPIILJIFF_CTOR_OFFSET))(this, a1, a2);

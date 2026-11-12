@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DGEPOBDMLDJ_Type_TypeDefinitionIndex = 6536;
+inline static constexpr unsigned int DGEPOBDMLDJ_Type_TypeDefinitionIndex = 6543;
 
 	enum class DGEPOBDMLDJ_Type : ::System::Int32
 	{

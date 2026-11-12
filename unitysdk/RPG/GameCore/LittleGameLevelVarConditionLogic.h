@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVarConditionLogic_TypeDefinitionIndex = 18863;
+	inline static constexpr unsigned int LittleGameLevelVarConditionLogic_TypeDefinitionIndex = 19025;
 
 	enum class LittleGameLevelVarConditionLogic : ::System::Int32
 	{

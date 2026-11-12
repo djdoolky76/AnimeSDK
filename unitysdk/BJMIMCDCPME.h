@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define BJMIMCDCPME_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC120)
+#define BJMIMCDCPME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3CE40)
 
-inline static constexpr unsigned int BJMIMCDCPME_TypeDefinitionIndex = 43213;
+inline static constexpr unsigned int BJMIMCDCPME_TypeDefinitionIndex = 44194;
 
 	class BJMIMCDCPME : public ::System::Object
 	{
@@ -14,7 +14,7 @@ inline static constexpr unsigned int BJMIMCDCPME_TypeDefinitionIndex = 43213;
 		::System::Collections::Generic::HashSet_1<::RPG::Client::LittleGame::FourRotateVoxel::InputSignalType>* FCCACCAJHBL; // 0x10
 		static ::System::Int32* StaticGet_FGGNLDMCMNA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "BJMIMCDCPME")->GetStaticField(0x3A30);
+			return (::System::Int32*)UnitySDK::FromName("", "BJMIMCDCPME")->GetStaticField(0x16260);
 		}
 
 		::System::Void _ctor()

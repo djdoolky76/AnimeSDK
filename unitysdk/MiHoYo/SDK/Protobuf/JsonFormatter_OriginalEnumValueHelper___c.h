@@ -6,31 +6,31 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class FieldInfo; }
 
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBECF20)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBECF60)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_0_OFFSET UNITYSDK_OFFSET(0x1BBECF70)
-#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_1_OFFSET UNITYSDK_OFFSET(0x1BBED000)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD75DE0)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD75E20)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_0_OFFSET UNITYSDK_OFFSET(0x1CD75E30)
+#define MIHOYO_SDK_PROTOBUF_JSONFORMATTER_ORIGINALENUMVALUEHELPER___C__GETNAMEMAPPING_B__2_1_OFFSET UNITYSDK_OFFSET(0x1CD75EC0)
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper___c_TypeDefinitionIndex = 35728;
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper___c_TypeDefinitionIndex = 36656;
 
 	class JsonFormatter_OriginalEnumValueHelper___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::String*>** StaticGet___9__2_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4D120);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5C780);
 		}
 
 		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::Object*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4D128);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::Object*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5C788);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::System::Reflection::FieldInfo*, ::System::String*>** StaticGet___9__2_1()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x4D130);
+			return (::System::Func_2<::System::Reflection::FieldInfo*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Protobuf", "<>c")->GetStaticField(0x5C790);
 		}
 
 		static ::System::Void _cctor()

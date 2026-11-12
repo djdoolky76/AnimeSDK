@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define MLAGKIPMNJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A4D30)
+#define MLAGKIPMNJO_CTOR_OFFSET UNITYSDK_OFFSET(0xC25FDC0)
 
-inline static constexpr unsigned int MLAGKIPMNJO_TypeDefinitionIndex = 54961;
+inline static constexpr unsigned int MLAGKIPMNJO_TypeDefinitionIndex = 56135;
 
 	class MLAGKIPMNJO : public ::System::Object
 	{

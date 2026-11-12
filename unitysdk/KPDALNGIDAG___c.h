@@ -4,18 +4,18 @@
 class KPDALNGIDAG;
 namespace System { class Object; }
 
-#define KPDALNGIDAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8BA690)
-#define KPDALNGIDAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BA6D0)
-#define KPDALNGIDAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8BA6E0)
+#define KPDALNGIDAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBF70A0)
+#define KPDALNGIDAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF70E0)
+#define KPDALNGIDAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FBF70F0)
 
-inline static constexpr unsigned int KPDALNGIDAG___c_TypeDefinitionIndex = 32889;
+inline static constexpr unsigned int KPDALNGIDAG___c_TypeDefinitionIndex = 33804;
 
 	class KPDALNGIDAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C9F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FEB0);
 		}
 
 		static ::System::Void _cctor()

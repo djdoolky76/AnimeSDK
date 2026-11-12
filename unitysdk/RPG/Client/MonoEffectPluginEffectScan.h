@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_CTOR_OFFSET UNITYSDK_OFFSET(0xD7FBA00)
-#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xD7FB550)
+#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_CTOR_OFFSET UNITYSDK_OFFSET(0xE24D2B0)
+#define RPG_CLIENT_MONOEFFECTPLUGINEFFECTSCAN_IFOEAAAKONL_OFFSET UNITYSDK_OFFSET(0xE24CE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginEffectScan_TypeDefinitionIndex = 70004;
+	inline static constexpr unsigned int MonoEffectPluginEffectScan_TypeDefinitionIndex = 71964;
 
 	class MonoEffectPluginEffectScan : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{

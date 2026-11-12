@@ -12,66 +12,66 @@ namespace MiHoYo::SDK { class WeGameDelegate_SetNotifyWindowEnableDelegate; }
 namespace MiHoYo::SDK { class WeGameDelegate_UnRegisterCallbackDelegate; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_WEGAMEDELEGATE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C01DA40)
-#define MIHOYO_SDK_WEGAMEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01DA30)
-#define MIHOYO_SDK_WEGAMEDELEGATE_ONWEGAMEANTIADDICTION_OFFSET UNITYSDK_OFFSET(0x1C01D840)
-#define MIHOYO_SDK_WEGAMEDELEGATE_ONWEGAMEEXIT_OFFSET UNITYSDK_OFFSET(0x1C01D940)
+#define MIHOYO_SDK_WEGAMEDELEGATE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1A4A40)
+#define MIHOYO_SDK_WEGAMEDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A4A30)
+#define MIHOYO_SDK_WEGAMEDELEGATE_ONWEGAMEANTIADDICTION_OFFSET UNITYSDK_OFFSET(0x1D1A4840)
+#define MIHOYO_SDK_WEGAMEDELEGATE_ONWEGAMEEXIT_OFFSET UNITYSDK_OFFSET(0x1D1A4940)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WeGameDelegate_TypeDefinitionIndex = 7710;
+	inline static constexpr unsigned int WeGameDelegate_TypeDefinitionIndex = 7719;
 
 	class WeGameDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::WeGameDelegate_RegisterCallbackDelegate** StaticGet_RegisterCallback()
+		static ::MiHoYo::SDK::WeGameDelegate_DoAwakeDelegate** StaticGet_DoAwake()
 		{
-			return (::MiHoYo::SDK::WeGameDelegate_RegisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18510);
-		}
-
-		static ::MiHoYo::SDK::WeGameDelegate_GetPlayerIDDelegate** StaticGet_GetPlayerID()
-		{
-			return (::MiHoYo::SDK::WeGameDelegate_GetPlayerIDDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18518);
-		}
-
-		static ::MiHoYo::SDK::WeGameDelegate_AsyncShowPaymentWindowDelegate** StaticGet_AsyncShowPaymentWindow()
-		{
-			return (::MiHoYo::SDK::WeGameDelegate_AsyncShowPaymentWindowDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18520);
+			return (::MiHoYo::SDK::WeGameDelegate_DoAwakeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25610);
 		}
 
 		static ::MiHoYo::SDK::WeGameDelegate_SetNotifyWindowEnableDelegate** StaticGet_SetNotifyWindowEnable()
 		{
-			return (::MiHoYo::SDK::WeGameDelegate_SetNotifyWindowEnableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18528);
+			return (::MiHoYo::SDK::WeGameDelegate_SetNotifyWindowEnableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25618);
 		}
 
-		static ::MiHoYo::SDK::WeGameDelegate_AsyncAcquireSessionTicketDelegate** StaticGet_AsyncAcquireSessionTicket()
+		static ::MiHoYo::SDK::WeGameDelegate_RegisterCallbackDelegate** StaticGet_RegisterCallback()
 		{
-			return (::MiHoYo::SDK::WeGameDelegate_AsyncAcquireSessionTicketDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18530);
-		}
-
-		static ::MiHoYo::SDK::WeGameDelegate_UnRegisterCallbackDelegate** StaticGet_UnRegisterCallback()
-		{
-			return (::MiHoYo::SDK::WeGameDelegate_UnRegisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18538);
-		}
-
-		static ::MiHoYo::SDK::WeGameDelegate_GetPlayerNameDelegate** StaticGet_GetPlayerName()
-		{
-			return (::MiHoYo::SDK::WeGameDelegate_GetPlayerNameDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18540);
+			return (::MiHoYo::SDK::WeGameDelegate_RegisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25620);
 		}
 
 		static ::MiHoYo::SDK::WeGameDelegate_RailFireEventsDelegate** StaticGet_RailFireEvents()
 		{
-			return (::MiHoYo::SDK::WeGameDelegate_RailFireEventsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18548);
+			return (::MiHoYo::SDK::WeGameDelegate_RailFireEventsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25628);
 		}
 
-		static ::MiHoYo::SDK::WeGameDelegate_DoAwakeDelegate** StaticGet_DoAwake()
+		static ::MiHoYo::SDK::WeGameDelegate_GetPlayerNameDelegate** StaticGet_GetPlayerName()
 		{
-			return (::MiHoYo::SDK::WeGameDelegate_DoAwakeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x18550);
+			return (::MiHoYo::SDK::WeGameDelegate_GetPlayerNameDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25630);
+		}
+
+		static ::MiHoYo::SDK::WeGameDelegate_GetPlayerIDDelegate** StaticGet_GetPlayerID()
+		{
+			return (::MiHoYo::SDK::WeGameDelegate_GetPlayerIDDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25638);
+		}
+
+		static ::MiHoYo::SDK::WeGameDelegate_AsyncAcquireSessionTicketDelegate** StaticGet_AsyncAcquireSessionTicket()
+		{
+			return (::MiHoYo::SDK::WeGameDelegate_AsyncAcquireSessionTicketDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25640);
+		}
+
+		static ::MiHoYo::SDK::WeGameDelegate_AsyncShowPaymentWindowDelegate** StaticGet_AsyncShowPaymentWindow()
+		{
+			return (::MiHoYo::SDK::WeGameDelegate_AsyncShowPaymentWindowDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25648);
+		}
+
+		static ::MiHoYo::SDK::WeGameDelegate_UnRegisterCallbackDelegate** StaticGet_UnRegisterCallback()
+		{
+			return (::MiHoYo::SDK::WeGameDelegate_UnRegisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x25650);
 		}
 
 		static ::System::Boolean* StaticGet_antiAddictionNotifyEnable()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x5A30);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "WeGameDelegate")->GetStaticField(0x72F0);
 		}
 
 		// static const ::System::Object GameId; // 0x0

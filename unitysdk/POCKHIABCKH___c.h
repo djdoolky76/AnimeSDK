@@ -4,18 +4,18 @@
 class POCKHIABCKH;
 namespace System { class Object; }
 
-#define POCKHIABCKH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFC7800)
-#define POCKHIABCKH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC7830)
-#define POCKHIABCKH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DFC7840)
+#define POCKHIABCKH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2793D0)
+#define POCKHIABCKH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F279400)
+#define POCKHIABCKH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F279410)
 
-inline static constexpr unsigned int POCKHIABCKH___c_TypeDefinitionIndex = 25989;
+inline static constexpr unsigned int POCKHIABCKH___c_TypeDefinitionIndex = 26486;
 
 	class POCKHIABCKH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43430);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45FF0);
 		}
 
 		static ::System::Void _cctor()

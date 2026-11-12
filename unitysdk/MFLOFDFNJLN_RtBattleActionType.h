@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MFLOFDFNJLN_RtBattleActionType_TypeDefinitionIndex = 54256;
+inline static constexpr unsigned int MFLOFDFNJLN_RtBattleActionType_TypeDefinitionIndex = 55420;
 
 	enum class MFLOFDFNJLN_RtBattleActionType : ::System::Int32
 	{

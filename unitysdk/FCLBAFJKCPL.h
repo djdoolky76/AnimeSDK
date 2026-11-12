@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FCLBAFJKCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6132D0)
+#define FCLBAFJKCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D794960)
 
-inline static constexpr unsigned int FCLBAFJKCPL_TypeDefinitionIndex = 36438;
+inline static constexpr unsigned int FCLBAFJKCPL_TypeDefinitionIndex = 37366;
 
 	class FCLBAFJKCPL : public ::System::Object
 	{

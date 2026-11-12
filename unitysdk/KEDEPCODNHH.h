@@ -3,10 +3,10 @@
 class NBOALILMEML;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KEDEPCODNHH_CTOR_OFFSET UNITYSDK_OFFSET(0xB374C90)
-#define KEDEPCODNHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB374CC0)
+#define KEDEPCODNHH_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFF500)
+#define KEDEPCODNHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBFF530)
 
-inline static constexpr unsigned int KEDEPCODNHH_TypeDefinitionIndex = 53050;
+inline static constexpr unsigned int KEDEPCODNHH_TypeDefinitionIndex = 54210;
 
 	class KEDEPCODNHH
 	{

@@ -4,18 +4,18 @@
 class AHCLMAGAHPN;
 namespace System { class Object; }
 
-#define AHCLMAGAHPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E26D400)
-#define AHCLMAGAHPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E26D430)
-#define AHCLMAGAHPN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E26D440)
+#define AHCLMAGAHPN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F521640)
+#define AHCLMAGAHPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F521670)
+#define AHCLMAGAHPN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F521680)
 
-inline static constexpr unsigned int AHCLMAGAHPN___c_TypeDefinitionIndex = 32319;
+inline static constexpr unsigned int AHCLMAGAHPN___c_TypeDefinitionIndex = 33232;
 
 	class AHCLMAGAHPN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x318C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D420);
 		}
 
 		static ::System::Void _cctor()

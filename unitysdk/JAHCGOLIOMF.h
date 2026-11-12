@@ -19,9 +19,9 @@ namespace RPG::GameCore { class BattleGridFightEquipData; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GridFightAvatarRow_AvatarCommonRowWrap; }
 namespace RPG::GameCore { class GridFightBattleTemplate; }
-namespace RPG::GameCore { class GridFightCyreneModifyConfigRow; }
 namespace RPG::GameCore { class GridFightManager; }
 namespace RPG::GameCore { class GridFightRankSkillModifyConfigRow; }
+namespace RPG::GameCore { class GridFightSpecialModifyConfigRow; }
 namespace RPG::GameCore { class GridFightStageTemplateConfig; }
 namespace RPG::GameCore { class GridFightWaveInfo; }
 namespace RPG::GameCore { class ICharacterRowData; }
@@ -33,232 +33,271 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JAHCGOLIOMF_AIJCBGKFKBC_OFFSET UNITYSDK_OFFSET(0x165460C0)
-#define JAHCGOLIOMF_AMOKHJLHNID_OFFSET UNITYSDK_OFFSET(0x165495F0)
-#define JAHCGOLIOMF_BHONMMAINDJ_OFFSET UNITYSDK_OFFSET(0x16549AB0)
-#define JAHCGOLIOMF_BKJLCMNMGKA_OFFSET UNITYSDK_OFFSET(0x165464D0)
-#define JAHCGOLIOMF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1654A940)
-#define JAHCGOLIOMF_COKKBDOAEAD_OFFSET UNITYSDK_OFFSET(0x16547430)
-#define JAHCGOLIOMF_DBDFDJKPDLO_OFFSET UNITYSDK_OFFSET(0x165467C0)
-#define JAHCGOLIOMF_DMBILPKMIDO_OFFSET UNITYSDK_OFFSET(0x16548E30)
-#define JAHCGOLIOMF_DNDGNBBFKJA_OFFSET UNITYSDK_OFFSET(0x16549250)
-#define JAHCGOLIOMF_EODNHLGAACI_OFFSET UNITYSDK_OFFSET(0x16548F30)
-#define JAHCGOLIOMF_FKPFBOMMGBE_OFFSET UNITYSDK_OFFSET(0x1654A580)
-#define JAHCGOLIOMF_FMPJFMNBJKM_OFFSET UNITYSDK_OFFSET(0x16548CF0)
-#define JAHCGOLIOMF_GBNDPJNKOID_OFFSET UNITYSDK_OFFSET(0x16546050)
-#define JAHCGOLIOMF_IJDAOFAONPK_OFFSET UNITYSDK_OFFSET(0x16549C30)
-#define JAHCGOLIOMF_JFCBOKFBFFC_OFFSET UNITYSDK_OFFSET(0x16545E60)
-#define JAHCGOLIOMF_KBKEFCCEFDD_OFFSET UNITYSDK_OFFSET(0x16547EB0)
-#define JAHCGOLIOMF_LFCBPEMJFPG_OFFSET UNITYSDK_OFFSET(0x16547260)
-#define JAHCGOLIOMF_LMGFNLICEDC_OFFSET UNITYSDK_OFFSET(0x165497C0)
-#define JAHCGOLIOMF_LNOHFFHDPAP_OFFSET UNITYSDK_OFFSET(0x16549420)
-#define JAHCGOLIOMF_MBPFJIBHHID_OFFSET UNITYSDK_OFFSET(0x16546890)
-#define JAHCGOLIOMF_MJCPLODCNFP_OFFSET UNITYSDK_OFFSET(0x16549040)
-#define JAHCGOLIOMF_MNDEJPCMMBG_OFFSET UNITYSDK_OFFSET(0x16545F40)
-#define JAHCGOLIOMF_MOGGNKOHFIB_OFFSET UNITYSDK_OFFSET(0x165460F0)
-#define JAHCGOLIOMF_NGBIODOOGCL_OFFSET UNITYSDK_OFFSET(0x16546260)
-#define JAHCGOLIOMF_NJOMMEINNDD_OFFSET UNITYSDK_OFFSET(0x1654A2E0)
-#define JAHCGOLIOMF_OALIBBODAOC_OFFSET UNITYSDK_OFFSET(0x16546620)
-#define JAHCGOLIOMF_POBPPOCFFOJ_OFFSET UNITYSDK_OFFSET(0x165470B0)
+#define JAHCGOLIOMF_AIJCBGKFKBC_OFFSET UNITYSDK_OFFSET(0xB87D8E0)
+#define JAHCGOLIOMF_BAFJOENBECG_OFFSET UNITYSDK_OFFSET(0xB881250)
+#define JAHCGOLIOMF_BHONMMAINDJ_OFFSET UNITYSDK_OFFSET(0xB8818E0)
+#define JAHCGOLIOMF_BKJLCMNMGKA_OFFSET UNITYSDK_OFFSET(0xB87DCF0)
+#define JAHCGOLIOMF_CCTOR_OFFSET UNITYSDK_OFFSET(0xB882770)
+#define JAHCGOLIOMF_DBDFDJKPDLO_OFFSET UNITYSDK_OFFSET(0xB87DFE0)
+#define JAHCGOLIOMF_DBLMOGLEKAC_OFFSET UNITYSDK_OFFSET(0xB880D40)
+#define JAHCGOLIOMF_DMBILPKMIDO_OFFSET UNITYSDK_OFFSET(0xB880780)
+#define JAHCGOLIOMF_EODNHLGAACI_OFFSET UNITYSDK_OFFSET(0xB880890)
+#define JAHCGOLIOMF_FKPFBOMMGBE_OFFSET UNITYSDK_OFFSET(0xB8823B0)
+#define JAHCGOLIOMF_FMPJFMNBJKM_OFFSET UNITYSDK_OFFSET(0xB880640)
+#define JAHCGOLIOMF_GAPMJCEIHKG_OFFSET UNITYSDK_OFFSET(0xB880BB0)
+#define JAHCGOLIOMF_GBNDPJNKOID_OFFSET UNITYSDK_OFFSET(0xB87D870)
+#define JAHCGOLIOMF_IFJOIEOLALC_OFFSET UNITYSDK_OFFSET(0xB880FA0)
+#define JAHCGOLIOMF_IJDAOFAONPK_OFFSET UNITYSDK_OFFSET(0xB881A60)
+#define JAHCGOLIOMF_JFCBOKFBFFC_OFFSET UNITYSDK_OFFSET(0xB87D680)
+#define JAHCGOLIOMF_KBKEFCCEFDD_OFFSET UNITYSDK_OFFSET(0xB87F7E0)
+#define JAHCGOLIOMF_LBOBEPOFCBM_OFFSET UNITYSDK_OFFSET(0xB881420)
+#define JAHCGOLIOMF_LFCBPEMJFPG_OFFSET UNITYSDK_OFFSET(0xB87EAA0)
+#define JAHCGOLIOMF_LGCDLAAGENG_OFFSET UNITYSDK_OFFSET(0xB880E10)
+#define JAHCGOLIOMF_LMGFNLICEDC_OFFSET UNITYSDK_OFFSET(0xB8815F0)
+#define JAHCGOLIOMF_MBPFJIBHHID_OFFSET UNITYSDK_OFFSET(0xB87E0D0)
+#define JAHCGOLIOMF_MJCPLODCNFP_OFFSET UNITYSDK_OFFSET(0xB8809A0)
+#define JAHCGOLIOMF_MNDEJPCMMBG_OFFSET UNITYSDK_OFFSET(0xB87D760)
+#define JAHCGOLIOMF_MOGGNKOHFIB_OFFSET UNITYSDK_OFFSET(0xB87D910)
+#define JAHCGOLIOMF_NGBIODOOGCL_OFFSET UNITYSDK_OFFSET(0xB87DA80)
+#define JAHCGOLIOMF_NJOMMEINNDD_OFFSET UNITYSDK_OFFSET(0xB882110)
+#define JAHCGOLIOMF_OALIBBODAOC_OFFSET UNITYSDK_OFFSET(0xB87DE40)
+#define JAHCGOLIOMF_OLEOOKMBIOF_OFFSET UNITYSDK_OFFSET(0xB87EC70)
+#define JAHCGOLIOMF_PFMNAHPEKKJ_OFFSET UNITYSDK_OFFSET(0xB881080)
+#define JAHCGOLIOMF_POBPPOCFFOJ_OFFSET UNITYSDK_OFFSET(0xB87E8F0)
 
-inline static constexpr unsigned int JAHCGOLIOMF_TypeDefinitionIndex = 59060;
+inline static constexpr unsigned int JAHCGOLIOMF_TypeDefinitionIndex = 60335;
 
 	class JAHCGOLIOMF : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_EKNLIOANFAA()
+		static ::System::String** StaticGet_EJIPPFGACDB()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1C0E0);
-		}
-
-		static ::RPG::GameCore::GridFightStageTemplateConfig** StaticGet_OCNEEODCHFE()
-		{
-			return (::RPG::GameCore::GridFightStageTemplateConfig**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1C0E8);
-		}
-
-		static ::OLDDHFANEDA** StaticGet_JCCODBFHFNJ()
-		{
-			return (::OLDDHFANEDA**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1C0F0);
+			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xA610);
 		}
 
 		static ::DEEJKBIMHAA** StaticGet_JJNGEGLMCGK()
 		{
-			return (::DEEJKBIMHAA**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1C0F8);
+			return (::DEEJKBIMHAA**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xA618);
 		}
 
-		static ::System::String** StaticGet_HHKOPCOCEOG()
+		static ::OLDDHFANEDA** StaticGet_JCCODBFHFNJ()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1C100);
+			return (::OLDDHFANEDA**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xA620);
+		}
+
+		static ::System::String** StaticGet_EKNLIOANFAA()
+		{
+			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xA628);
 		}
 
 		static ::System::String** StaticGet_HBPGAJNMCHD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1C108);
+			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xA630);
 		}
 
-		static ::System::String** StaticGet_EJIPPFGACDB()
+		static ::System::String** StaticGet_HHKOPCOCEOG()
 		{
-			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1C110);
+			return (::System::String**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xA638);
 		}
 
-		static ::System::Boolean* StaticGet_GEFPEIAJFOO()
+		static ::RPG::GameCore::GridFightStageTemplateConfig** StaticGet_OCNEEODCHFE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x6490);
+			return (::RPG::GameCore::GridFightStageTemplateConfig**)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xA640);
 		}
 
-		static ::System::Boolean* StaticGet_MGBLMOACGIC()
+		static ::RPG::GameCore::StringHash* StaticGet_OHLHNOABAMK()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x6491);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFD0);
 		}
 
-		static ::RPG::GameCore::StringHash* StaticGet_MLHLNECCDPD()
+		static ::RPG::GameCore::StringHash* StaticGet_NGLHIFLIFBI()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x6494);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_AFDMMEDFPKN()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x6498);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_EHNJDIDABHD()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x649C);
-		}
-
-		static ::System::UInt32* StaticGet_FCJOJOIEOJD()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64A0);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_KOMFCJAFGPA()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64A4);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_CIKHDIJFAED()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64A8);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_GMHANKLHGGK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64AC);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_HKMHDAMLOOK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64B0);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_IFPMJJLBMID()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64B4);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_OMOKHMIGIMC()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64B8);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_GKBBBILMGNC()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64BC);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_HLEDGKCEKGB()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64C0);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_IDJOOLJBFCG()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64C4);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_MPMAOEFLGEK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64C8);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_MGPAOPACBDK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64CC);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_FEMNBMBEAKN()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64D0);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_KMENGMELADF()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64D4);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_JJJIPEDNLDK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64D8);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_NNDBFAIDKNJ()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64DC);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_ODFBFLBMKEK()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64E0);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_IHKFAFJMCIB()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64E4);
-		}
-
-		static ::System::UInt32* StaticGet_LHDOKKFJMIF()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64E8);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFD4);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_LIFBHELMEAI()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64EC);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_FOCJBGGBPKN()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64F0);
-		}
-
-		static ::RPG::GameCore::StringHash* StaticGet_HPDOIKGOEOB()
-		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64F4);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFD8);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_JBIMLONMJBF()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64F8);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFDC);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_DMBIOBMBOAN()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x64FC);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFE0);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_ODFBFLBMKEK()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFE4);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_IFPMJJLBMID()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFE8);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_HPDOIKGOEOB()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFEC);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_IHKFAFJMCIB()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFF0);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_KAPLBIDKPOM()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x6500);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFF4);
+		}
+
+		static ::System::UInt32* StaticGet_FCJOJOIEOJD()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFF8);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_FEMNBMBEAKN()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0xFFC);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_GKBBBILMGNC()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1000);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_AFDMMEDFPKN()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1004);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_FOCJBGGBPKN()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1008);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_EHNJDIDABHD()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x100C);
+		}
+
+		static ::System::UInt32* StaticGet_LHDOKKFJMIF()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1010);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_HKMHDAMLOOK()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1014);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_MPMAOEFLGEK()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1018);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_KMENGMELADF()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x101C);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_IDJOOLJBFCG()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1020);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_NNDBFAIDKNJ()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1024);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_OMOKHMIGIMC()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1028);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_KONFLEMHELN()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x102C);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_JJJIPEDNLDK()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1030);
 		}
 
 		static ::System::UInt32* StaticGet_HNAAIBBKOLK()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x6504);
+			return (::System::UInt32*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1034);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_FCAADPLHHKM()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1038);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_GMHANKLHGGK()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x103C);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_ANACELALIEJ()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1040);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_MGPAOPACBDK()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1044);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_DLAFLIIPGBJ()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1048);
 		}
 
 		static ::RPG::GameCore::StringHash* StaticGet_IGDGDPJOKDN()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x6508);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x104C);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_IENABOHGHJJ()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1050);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_HLEDGKCEKGB()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1054);
+		}
+
+		static ::System::Boolean* StaticGet_MGBLMOACGIC()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1058);
+		}
+
+		static ::System::Boolean* StaticGet_GEFPEIAJFOO()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1059);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_MLHLNECCDPD()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x105C);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_CIKHDIJFAED()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1060);
+		}
+
+		static ::RPG::GameCore::StringHash* StaticGet_KOMFCJAFGPA()
+		{
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "JAHCGOLIOMF")->GetStaticField(0x1064);
 		}
 
 		// static const ::System::String* MMLEGFJKACL; // 0x0
@@ -337,24 +376,44 @@ inline static constexpr unsigned int JAHCGOLIOMF_TypeDefinitionIndex = 59060;
 			return ((::System::Void(*)(::RPG::GameCore::ServantRowData*))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_MJCPLODCNFP_OFFSET))(a1);
 		}
 
-		static ::System::Void COKKBDOAEAD(::RPG::GameCore::GridFightManager* a1, ::RPG::GameCore::BattleGridFightAvatarData* a2, ::RPG::GameCore::ICharacterRowData* a3, ::RPG::GameCore::GridFightSkillType a4, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a5, ::System::Boolean a6)
+		static ::System::Boolean GAPMJCEIHKG(::RPG::GameCore::GridFightManager* a1, ::System::UInt32 a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GridFightManager*, ::RPG::GameCore::BattleGridFightAvatarData*, ::RPG::GameCore::ICharacterRowData*, ::RPG::GameCore::GridFightSkillType, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_COKKBDOAEAD_OFFSET))(a1, a2, a3, a4, a5, a6);
+			return ((::System::Boolean(*)(::RPG::GameCore::GridFightManager*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_GAPMJCEIHKG_OFFSET))(a1, a2, a3);
 		}
 
-		static ::System::Void DNDGNBBFKJA(::RPG::GameCore::GridFightCyreneModifyConfigRow* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a2, ::System::UInt32 a3, ::RPG::GameCore::FixPoint a4)
+		static ::RPG::GameCore::BattleGridFightAvatarData* DBLMOGLEKAC(::RPG::GameCore::GridFightManager* a1, ::System::UInt32 a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GridFightCyreneModifyConfigRow*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_DNDGNBBFKJA_OFFSET))(a1, a2, a3, a4);
+			return ((::RPG::GameCore::BattleGridFightAvatarData*(*)(::RPG::GameCore::GridFightManager*, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_DBLMOGLEKAC_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void AMOKHJLHNID(::RPG::GameCore::GridFightCyreneModifyConfigRow* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a2, ::RPG::GameCore::FixPoint a3)
+		static ::System::Boolean LGCDLAAGENG(::RPG::GameCore::GridFightManager* a1, ::RPG::GameCore::GridFightSpecialModifyConfigRow* a2)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GridFightCyreneModifyConfigRow*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_AMOKHJLHNID_OFFSET))(a1, a2, a3);
+			return ((::System::Boolean(*)(::RPG::GameCore::GridFightManager*, ::RPG::GameCore::GridFightSpecialModifyConfigRow*))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_LGCDLAAGENG_OFFSET))(a1, a2);
 		}
 
-		static ::System::Void LNOHFFHDPAP(::RPG::GameCore::GridFightCyreneModifyConfigRow* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a2, ::System::UInt32 a3, ::RPG::GameCore::FixPoint a4)
+		static ::System::Boolean IFJOIEOLALC(::RPG::GameCore::GridFightManager* a1, ::Il2CppArray<::System::UInt32>* a2, ::System::UInt32 a3)
 		{
-			return ((::System::Void(*)(::RPG::GameCore::GridFightCyreneModifyConfigRow*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_LNOHFFHDPAP_OFFSET))(a1, a2, a3, a4);
+			return ((::System::Boolean(*)(::RPG::GameCore::GridFightManager*, ::Il2CppArray<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_IFJOIEOLALC_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void OLEOOKMBIOF(::RPG::GameCore::GridFightManager* a1, ::RPG::GameCore::BattleGridFightAvatarData* a2, ::RPG::GameCore::ICharacterRowData* a3, ::RPG::GameCore::GridFightSkillType a4, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a5, ::System::Boolean a6)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::GridFightManager*, ::RPG::GameCore::BattleGridFightAvatarData*, ::RPG::GameCore::ICharacterRowData*, ::RPG::GameCore::GridFightSkillType, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_OLEOOKMBIOF_OFFSET))(a1, a2, a3, a4, a5, a6);
+		}
+
+		static ::System::Void PFMNAHPEKKJ(::RPG::GameCore::GridFightSpecialModifyConfigRow* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a2, ::System::UInt32 a3, ::RPG::GameCore::FixPoint a4)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::GridFightSpecialModifyConfigRow*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_PFMNAHPEKKJ_OFFSET))(a1, a2, a3, a4);
+		}
+
+		static ::System::Void LBOBEPOFCBM(::RPG::GameCore::GridFightSpecialModifyConfigRow* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a2, ::RPG::GameCore::FixPoint a3)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::GridFightSpecialModifyConfigRow*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_LBOBEPOFCBM_OFFSET))(a1, a2, a3);
+		}
+
+		static ::System::Void BAFJOENBECG(::RPG::GameCore::GridFightSpecialModifyConfigRow* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a2, ::System::UInt32 a3, ::RPG::GameCore::FixPoint a4)
+		{
+			return ((::System::Void(*)(::RPG::GameCore::GridFightSpecialModifyConfigRow*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>*, ::System::UInt32, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + JAHCGOLIOMF_BAFJOENBECG_OFFSET))(a1, a2, a3, a4);
 		}
 
 		static ::System::Void LFCBPEMJFPG(::RPG::GameCore::GridFightRankSkillModifyConfigRow* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::Il2CppArray<::RPG::GameCore::FixPoint>*>* a2)

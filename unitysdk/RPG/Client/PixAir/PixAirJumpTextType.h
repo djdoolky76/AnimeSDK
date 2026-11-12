@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirJumpTextType_TypeDefinitionIndex = 79204;
+	inline static constexpr unsigned int PixAirJumpTextType_TypeDefinitionIndex = 81981;
 
 	enum class PixAirJumpTextType : ::System::Int32
 	{

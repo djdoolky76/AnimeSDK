@@ -10,18 +10,18 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NCLLCKELFPC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB15740)
-#define NCLLCKELFPC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB156A0)
-#define NCLLCKELFPC_HIHHHKGJAKO_OFFSET UNITYSDK_OFFSET(0xBB15500)
-#define NCLLCKELFPC_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xBB15250)
+#define NCLLCKELFPC_CTOR_OFFSET UNITYSDK_OFFSET(0xC39E2C0)
+#define NCLLCKELFPC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC39E220)
+#define NCLLCKELFPC_HIHHHKGJAKO_OFFSET UNITYSDK_OFFSET(0xC39E080)
+#define NCLLCKELFPC_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xC39DDD0)
 
-inline static constexpr unsigned int NCLLCKELFPC_TypeDefinitionIndex = 77393;
+inline static constexpr unsigned int NCLLCKELFPC_TypeDefinitionIndex = 79727;
 
 	class NCLLCKELFPC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::LittleGame::Ability::ILittleGameAbilityValueGetter_1<::Entitas::IEntity*>*>* BKFGHBBALAL; // 0x10
-		::LMBHBNPPLEL* CEFLLELKFOP; // 0x18
+		::LMBHBNPPLEL* CEFLLELKFOP; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::LittleGame::Ability::ILittleGameAbilityValueGetter_1<::Entitas::IEntity*>*>* BKFGHBBALAL; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NCLLCKELFPC_CTOR_OFFSET))(this);

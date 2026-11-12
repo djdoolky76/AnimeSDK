@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PKEDKJMGAII_CLONE_OFFSET UNITYSDK_OFFSET(0x1C7ED5E0)
-#define PKEDKJMGAII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED580)
+#define PKEDKJMGAII_CLONE_OFFSET UNITYSDK_OFFSET(0x1D96EF70)
+#define PKEDKJMGAII_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96EF10)
 
-inline static constexpr unsigned int PKEDKJMGAII_TypeDefinitionIndex = 36288;
+inline static constexpr unsigned int PKEDKJMGAII_TypeDefinitionIndex = 37216;
 
 	class PKEDKJMGAII : public ::System::Object
 	{

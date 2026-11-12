@@ -7,24 +7,24 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD7CC600)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD7D12C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_IGPKOJNJDLL_OFFSET UNITYSDK_OFFSET(0xD7D11F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_OKHJEBHJFAB_OFFSET UNITYSDK_OFFSET(0xD7D1050)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE21DE60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE222B60)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_IGPKOJNJDLL_OFFSET UNITYSDK_OFFSET(0xE222A90)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARAEFFECTBASE_HOJNPLEHLDJ_OKHJEBHJFAB_OFFSET UNITYSDK_OFFSET(0xE2228F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_HOJNPLEHLDJ_TypeDefinitionIndex = 69941;
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase_HOJNPLEHLDJ_TypeDefinitionIndex = 71900;
 
 	class MonoEffectPluginCharaEffectBase_HOJNPLEHLDJ : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DMNJNFCPGHM; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* HPLODFKEHED; // 0x18
-		::Il2CppArray<::UnityEngine::Material*>* CNMOOKIKPLF; // 0x20
-		::System::String* OAKGHGGKALA; // 0x28
-		::UnityEngine::MaterialPropertyBlock* OBINDGFMHIH; // 0x30
-		::RPG::GameCore::CharacterReplaceMaterialRender* DLHNEGPIONF; // 0x38
+		::RPG::GameCore::CharacterReplaceMaterialRender* DLHNEGPIONF; // 0x10
+		::System::String* OAKGHGGKALA; // 0x18
+		::UnityEngine::MaterialPropertyBlock* OBINDGFMHIH; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* HPLODFKEHED; // 0x28
+		::Il2CppArray<::UnityEngine::Material*>* CNMOOKIKPLF; // 0x30
+		::Il2CppArray<::System::UInt32>* DMNJNFCPGHM; // 0x38
 		::System::UInt32 KJJNDIDPEMH; // 0x40
 		::System::Void _ctor()
 		{

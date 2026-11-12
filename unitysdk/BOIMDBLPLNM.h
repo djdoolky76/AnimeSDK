@@ -3,10 +3,10 @@
 class PDHJJNFJCJF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOIMDBLPLNM_CTOR_OFFSET UNITYSDK_OFFSET(0xC192800)
-#define BOIMDBLPLNM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC192830)
+#define BOIMDBLPLNM_CTOR_OFFSET UNITYSDK_OFFSET(0xC772860)
+#define BOIMDBLPLNM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC772890)
 
-inline static constexpr unsigned int BOIMDBLPLNM_TypeDefinitionIndex = 53892;
+inline static constexpr unsigned int BOIMDBLPLNM_TypeDefinitionIndex = 55056;
 
 	class BOIMDBLPLNM
 	{

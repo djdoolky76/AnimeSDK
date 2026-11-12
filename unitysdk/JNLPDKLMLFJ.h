@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class OpenTrainPartyEntrancePage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JNLPDKLMLFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB28C230)
-#define JNLPDKLMLFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB28C2C0)
-#define JNLPDKLMLFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB28C240)
-#define JNLPDKLMLFJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB28C300)
-#define JNLPDKLMLFJ_TICK_OFFSET UNITYSDK_OFFSET(0xB28C350)
+#define JNLPDKLMLFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB69E0)
+#define JNLPDKLMLFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAB6A70)
+#define JNLPDKLMLFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB69F0)
+#define JNLPDKLMLFJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAB6AB0)
+#define JNLPDKLMLFJ_TICK_OFFSET UNITYSDK_OFFSET(0xBAB6B00)
 
-inline static constexpr unsigned int JNLPDKLMLFJ_TypeDefinitionIndex = 53417;
+inline static constexpr unsigned int JNLPDKLMLFJ_TypeDefinitionIndex = 54579;
 
 	class JNLPDKLMLFJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::OpenTrainPartyEntrancePage* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::OpenTrainPartyEntrancePage* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OpenTrainPartyEntrancePage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OpenTrainPartyEntrancePage*))((::PBYTE)hIl2Cpp + JNLPDKLMLFJ_CTOR_OFFSET))(this, a1, a2);

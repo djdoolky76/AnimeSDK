@@ -7,13 +7,13 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client { class PlanetFesReward; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PLANETFESREWARD_CREATE_1_OFFSET UNITYSDK_OFFSET(0xDBCB2F0)
-#define RPG_CLIENT_PLANETFESREWARD_CREATE_OFFSET UNITYSDK_OFFSET(0xDBB6B00)
-#define RPG_CLIENT_PLANETFESREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDBCB2E0)
+#define RPG_CLIENT_PLANETFESREWARD_CREATE_1_OFFSET UNITYSDK_OFFSET(0xE663850)
+#define RPG_CLIENT_PLANETFESREWARD_CREATE_OFFSET UNITYSDK_OFFSET(0xE663250)
+#define RPG_CLIENT_PLANETFESREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0xE663240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesReward_TypeDefinitionIndex = 66625;
+	inline static constexpr unsigned int PlanetFesReward_TypeDefinitionIndex = 68561;
 
 	class PlanetFesReward : public ::System::Object
 	{

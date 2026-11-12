@@ -7,30 +7,30 @@ namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define GHBBNLCKPJF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A14740)
-#define GHBBNLCKPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A13E20)
-#define GHBBNLCKPJF_MHLLCNCOMOL_OFFSET UNITYSDK_OFFSET(0x15A146D0)
-#define GHBBNLCKPJF_MKFMCMKILOB_OFFSET UNITYSDK_OFFSET(0x15A13E80)
+#define GHBBNLCKPJF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1694ED30)
+#define GHBBNLCKPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1694E420)
+#define GHBBNLCKPJF_MHLLCNCOMOL_OFFSET UNITYSDK_OFFSET(0x1694ECD0)
+#define GHBBNLCKPJF_MKFMCMKILOB_OFFSET UNITYSDK_OFFSET(0x1694E480)
 
-inline static constexpr unsigned int GHBBNLCKPJF_TypeDefinitionIndex = 78486;
+inline static constexpr unsigned int GHBBNLCKPJF_TypeDefinitionIndex = 81221;
 
 	class GHBBNLCKPJF : public ::System::Object
 	{
 	public:
-		::UnityEngine::Animator* APPGGMLEPLN; // 0x10
-		::RPG::Client::Prop::ChimeraEntranceAnchorConfig* IGHAHBNLIJA; // 0x18
+		::UnityEngine::GameObject* MIDIOOAFHDM; // 0x10
+		::UnityEngine::Transform* KJMDDAHEODL; // 0x18
 		::UnityEngine::GameObject* INCICLMMBFL; // 0x20
-		::RPG::Client::Prop::ChimeraGameObjectBuilder* LIOJKFIGGIJ; // 0x28
-		::UnityEngine::Transform* KJMDDAHEODL; // 0x30
-		::UnityEngine::GameObject* MIDIOOAFHDM; // 0x38
-		static ::System::Int32* StaticGet_EKKFGDBABLD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "GHBBNLCKPJF")->GetStaticField(0x13EB0);
-		}
-
+		::RPG::Client::Prop::ChimeraEntranceAnchorConfig* IGHAHBNLIJA; // 0x28
+		::RPG::Client::Prop::ChimeraGameObjectBuilder* LIOJKFIGGIJ; // 0x30
+		::UnityEngine::Animator* APPGGMLEPLN; // 0x38
 		static ::System::Int32* StaticGet_FCBMOJDECKL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GHBBNLCKPJF")->GetStaticField(0x13EB4);
+			return (::System::Int32*)UnitySDK::FromName("", "GHBBNLCKPJF")->GetStaticField(0x14F20);
+		}
+
+		static ::System::Int32* StaticGet_EKKFGDBABLD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "GHBBNLCKPJF")->GetStaticField(0x14F24);
 		}
 
 		// static const ::System::String* OGPHPKMGMKG; // 0x0

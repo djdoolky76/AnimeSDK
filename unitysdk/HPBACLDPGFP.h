@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 
-#define HPBACLDPGFP_DLNBNJDJPCP_OFFSET UNITYSDK_OFFSET(0x15DC0DC0)
+#define HPBACLDPGFP_DLNBNJDJPCP_OFFSET UNITYSDK_OFFSET(0x16D64FC0)
 
-inline static constexpr unsigned int HPBACLDPGFP_TypeDefinitionIndex = 47900;
+inline static constexpr unsigned int HPBACLDPGFP_TypeDefinitionIndex = 48931;
 
 	class HPBACLDPGFP : public ::System::Object
 	{

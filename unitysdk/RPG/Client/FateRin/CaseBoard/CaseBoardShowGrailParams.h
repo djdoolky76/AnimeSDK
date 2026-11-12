@@ -4,11 +4,11 @@
 namespace RPG::Client::FateRin::CaseBoard { class GrailViewModel; }
 namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 
-#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSHOWGRAILPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xCF98970)
+#define RPG_CLIENT_FATERIN_CASEBOARD_CASEBOARDSHOWGRAILPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xD918A50)
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int CaseBoardShowGrailParams_TypeDefinitionIndex = 80805;
+	inline static constexpr unsigned int CaseBoardShowGrailParams_TypeDefinitionIndex = 83585;
 
 	class CaseBoardShowGrailParams : public ::System::Object
 	{

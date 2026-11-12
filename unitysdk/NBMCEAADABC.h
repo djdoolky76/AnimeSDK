@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MABHMGJMHFC.h"
 
-#define NBMCEAADABC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F0D30)
+#define NBMCEAADABC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4049D0)
 
-inline static constexpr unsigned int NBMCEAADABC_TypeDefinitionIndex = 25016;
+inline static constexpr unsigned int NBMCEAADABC_TypeDefinitionIndex = 25494;
 
 	class NBMCEAADABC : public ::MABHMGJMHFC
 	{

@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define LBGNELKODEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5FAFE0)
-#define LBGNELKODEM_DLCCBMPEKFA_OFFSET UNITYSDK_OFFSET(0xB5FAE40)
-#define LBGNELKODEM_LCMJOHKAAAC_OFFSET UNITYSDK_OFFSET(0xB5FAE90)
-#define LBGNELKODEM_MPIBNJBBOKM_OFFSET UNITYSDK_OFFSET(0xB5FAF90)
+#define LBGNELKODEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE8D6A0)
+#define LBGNELKODEM_DLCCBMPEKFA_OFFSET UNITYSDK_OFFSET(0xBE8D500)
+#define LBGNELKODEM_LCMJOHKAAAC_OFFSET UNITYSDK_OFFSET(0xBE8D550)
+#define LBGNELKODEM_MPIBNJBBOKM_OFFSET UNITYSDK_OFFSET(0xBE8D650)
 
-inline static constexpr unsigned int LBGNELKODEM_TypeDefinitionIndex = 78564;
+inline static constexpr unsigned int LBGNELKODEM_TypeDefinitionIndex = 81299;
 
 	class LBGNELKODEM : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* EOBLJJBOBIN; // 0x10
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
+		::RPG::GameCore::GameEntity* EOBLJJBOBIN; // 0x18
 		::System::Single MNDFOPKBHKP; // 0x20
 		::System::Void _ctor()
 		{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class BDKNHKCLPIC;
 
-#define HPDGCJJCBIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC22C0)
+#define HPDGCJJCBIH_CTOR_OFFSET UNITYSDK_OFFSET(0x16D66340)
 
-inline static constexpr unsigned int HPDGCJJCBIH_TypeDefinitionIndex = 63924;
+inline static constexpr unsigned int HPDGCJJCBIH_TypeDefinitionIndex = 65366;
 
 	class HPDGCJJCBIH : public ::System::Object
 	{

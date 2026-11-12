@@ -8,10 +8,10 @@ class PMBMFHMKBNC;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define KADPPOJNAOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D3BD0)
-#define KADPPOJNAOI_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xB2D3BE0)
+#define KADPPOJNAOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB575A0)
+#define KADPPOJNAOI_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xBB575B0)
 
-inline static constexpr unsigned int KADPPOJNAOI_TypeDefinitionIndex = 80243;
+inline static constexpr unsigned int KADPPOJNAOI_TypeDefinitionIndex = 83020;
 
 	class KADPPOJNAOI : public ::System::Object
 	{

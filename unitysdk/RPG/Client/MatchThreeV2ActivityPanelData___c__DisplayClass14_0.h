@@ -4,19 +4,19 @@
 namespace RPG::Client { class MatchThreeV2ActivityPanelData; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEV2ACTIVITYPANELDATA___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B4650)
-#define RPG_CLIENT_MATCHTHREEV2ACTIVITYPANELDATA___C__DISPLAYCLASS14_0___GOTOENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xD5B4880)
-#define RPG_CLIENT_MATCHTHREEV2ACTIVITYPANELDATA___C__DISPLAYCLASS14_0___GOTOENTRANCEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xD5B4A60)
+#define RPG_CLIENT_MATCHTHREEV2ACTIVITYPANELDATA___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE005EF0)
+#define RPG_CLIENT_MATCHTHREEV2ACTIVITYPANELDATA___C__DISPLAYCLASS14_0___GOTOENTRANCEPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xE006120)
+#define RPG_CLIENT_MATCHTHREEV2ACTIVITYPANELDATA___C__DISPLAYCLASS14_0___GOTOENTRANCEPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xE006300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeV2ActivityPanelData___c__DisplayClass14_0_TypeDefinitionIndex = 61638;
+	inline static constexpr unsigned int MatchThreeV2ActivityPanelData___c__DisplayClass14_0_TypeDefinitionIndex = 63036;
 
 	class MatchThreeV2ActivityPanelData___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__1; // 0x10
-		::RPG::Client::MatchThreeV2ActivityPanelData* __4__this; // 0x18
+		::RPG::Client::MatchThreeV2ActivityPanelData* __4__this; // 0x10
+		::System::Action* __9__1; // 0x18
 		::System::Int32 initialTabUid; // 0x20
 		::System::Void _ctor()
 		{

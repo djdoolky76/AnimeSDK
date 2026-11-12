@@ -5,23 +5,23 @@ class KIGLHBEPNOG;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define DBBPHCIBIBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5DB250)
-#define DBBPHCIBIBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DB290)
-#define DBBPHCIBIBI___C__UPDATEABILITIES_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C5DB2A0)
+#define DBBPHCIBIBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D75C9D0)
+#define DBBPHCIBIBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75CA10)
+#define DBBPHCIBIBI___C__UPDATEABILITIES_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D75CA20)
 
-inline static constexpr unsigned int DBBPHCIBIBI___c_TypeDefinitionIndex = 37283;
+inline static constexpr unsigned int DBBPHCIBIBI___c_TypeDefinitionIndex = 38211;
 
 	class DBBPHCIBIBI___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::KIGLHBEPNOG*>** StaticGet___9__8_0()
-		{
-			return (::System::Predicate_1<::KIGLHBEPNOG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58B40);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58B48);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68D30);
+		}
+
+		static ::System::Predicate_1<::KIGLHBEPNOG*>** StaticGet___9__8_0()
+		{
+			return (::System::Predicate_1<::KIGLHBEPNOG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68D38);
 		}
 
 		static ::System::Void _cctor()

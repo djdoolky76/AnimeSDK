@@ -6,19 +6,19 @@ namespace RPG::Client { class GridFightFormationRole; }
 namespace RPG::Client { class GridFightFormationTeam; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD140030)
-#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_0___SYNCTEAM_B__0_OFFSET UNITYSDK_OFFSET(0xD142030)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAFEC50)
+#define RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_0___SYNCTEAM_B__0_OFFSET UNITYSDK_OFFSET(0xDB00DC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass70_0_TypeDefinitionIndex = 64674;
+	inline static constexpr unsigned int GridFightFormationTeam___c__DisplayClass70_0_TypeDefinitionIndex = 66209;
 
 	class GridFightFormationTeam___c__DisplayClass70_0 : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::GridFightFormationRole*>* appendingRoles; // 0x10
-		::RPG::Client::GridFightFormationTeam* __4__this; // 0x18
-		::MFNCDGPLHDC* teamFactory; // 0x20
+		::MFNCDGPLHDC* teamFactory; // 0x18
+		::RPG::Client::GridFightFormationTeam* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTFORMATIONTEAM___C__DISPLAYCLASS70_0_CTOR_OFFSET))(this);

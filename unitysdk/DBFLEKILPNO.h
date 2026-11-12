@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialSave; }
 
-#define DBFLEKILPNO_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE0BA0)
-#define DBFLEKILPNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDFE0BB0)
-#define DBFLEKILPNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDFE0BF0)
-#define DBFLEKILPNO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDFE0C70)
-#define DBFLEKILPNO_TICK_OFFSET UNITYSDK_OFFSET(0xDFE0CC0)
+#define DBFLEKILPNO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB82CF0)
+#define DBFLEKILPNO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB82D00)
+#define DBFLEKILPNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB82D40)
+#define DBFLEKILPNO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB82DC0)
+#define DBFLEKILPNO_TICK_OFFSET UNITYSDK_OFFSET(0xEB82E10)
 
-inline static constexpr unsigned int DBFLEKILPNO_TypeDefinitionIndex = 58828;
+inline static constexpr unsigned int DBFLEKILPNO_TypeDefinitionIndex = 60096;
 
 	class DBFLEKILPNO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TutorialSave* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TutorialSave* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TutorialSave* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TutorialSave*))((::PBYTE)hIl2Cpp + DBFLEKILPNO_CTOR_OFFSET))(this, a1, a2);

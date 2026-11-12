@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IFriendInviteContext_TypeDefinitionIndex = 64261;
+	inline static constexpr unsigned int IFriendInviteContext_TypeDefinitionIndex = 65706;
 
 	class IFriendInviteContext
 	{

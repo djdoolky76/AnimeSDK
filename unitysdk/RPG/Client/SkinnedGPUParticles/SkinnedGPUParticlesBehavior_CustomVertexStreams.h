@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_SKINNEDGPUPARTICLES_SKINNEDGPUPARTICLESBEHAVIOR_CUSTOMVERTEXSTREAMS_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xF1DD0)
+#define RPG_CLIENT_SKINNEDGPUPARTICLES_SKINNEDGPUPARTICLESBEHAVIOR_CUSTOMVERTEXSTREAMS_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xFDFC0)
 
 namespace RPG::Client::SkinnedGPUParticles
 {
-	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_CustomVertexStreams_TypeDefinitionIndex = 73703;
+	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_CustomVertexStreams_TypeDefinitionIndex = 75826;
 
 	struct alignas(4) SkinnedGPUParticlesBehavior_CustomVertexStreams
 	{

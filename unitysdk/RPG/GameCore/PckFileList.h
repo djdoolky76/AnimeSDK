@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PckFileList; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PCKFILELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F3D40)
-#define RPG_GAMECORE_PCKFILELIST_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D8F3D50)
-#define RPG_GAMECORE_PCKFILELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F3C50)
+#define RPG_GAMECORE_PCKFILELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0D2F0)
+#define RPG_GAMECORE_PCKFILELIST_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EB0D300)
+#define RPG_GAMECORE_PCKFILELIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB0D200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckFileList_TypeDefinitionIndex = 16394;
+	inline static constexpr unsigned int PckFileList_TypeDefinitionIndex = 16558;
 
 	class PckFileList : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,9 +4,9 @@
 #include "unitysdk/System/ValueTuple_2.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OAMLFGILKOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C979430)
+#define OAMLFGILKOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB3B1C0)
 
-inline static constexpr unsigned int OAMLFGILKOP_TypeDefinitionIndex = 42235;
+inline static constexpr unsigned int OAMLFGILKOP_TypeDefinitionIndex = 43210;
 
 	class OAMLFGILKOP : public ::System::Object
 	{

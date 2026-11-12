@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IOIANEFDPBE_TempBitConverterImpl_1_TypeDefinitionIndex = 6557;
+inline static constexpr unsigned int IOIANEFDPBE_TempBitConverterImpl_1_TypeDefinitionIndex = 6564;
 
 	template <typename T>
 	struct alignas(4) IOIANEFDPBE_TempBitConverterImpl_1

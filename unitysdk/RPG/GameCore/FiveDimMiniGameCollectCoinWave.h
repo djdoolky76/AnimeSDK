@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimMiniGameCollectCoinWave; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMINIGAMECOLLECTCOINWAVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C8190)
-#define RPG_GAMECORE_FIVEDIMMINIGAMECOLLECTCOINWAVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C7FA0)
+#define RPG_GAMECORE_FIVEDIMMINIGAMECOLLECTCOINWAVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D4E20)
+#define RPG_GAMECORE_FIVEDIMMINIGAMECOLLECTCOINWAVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8D4C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMiniGameCollectCoinWave_TypeDefinitionIndex = 18805;
+	inline static constexpr unsigned int FiveDimMiniGameCollectCoinWave_TypeDefinitionIndex = 18966;
 
 	class FiveDimMiniGameCollectCoinWave : public ::RPG::GameCore::JsonConfig
 	{

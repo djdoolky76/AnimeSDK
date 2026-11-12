@@ -4,11 +4,11 @@
 #include "unitysdk/RPGTools/Timeline/Emotion/EmoTrackType.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOAKPIIOFPG_AIOHKBDAGLD_OFFSET UNITYSDK_OFFSET(0x2E7F1F0)
-#define HOAKPIIOFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x2E7F1E0)
-#define HOAKPIIOFPG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E7F240)
+#define HOAKPIIOFPG_AIOHKBDAGLD_OFFSET UNITYSDK_OFFSET(0x30552E0)
+#define HOAKPIIOFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x30552D0)
+#define HOAKPIIOFPG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3055330)
 
-inline static constexpr unsigned int HOAKPIIOFPG_TypeDefinitionIndex = 73563;
+inline static constexpr unsigned int HOAKPIIOFPG_TypeDefinitionIndex = 75686;
 
 	struct alignas(8) HOAKPIIOFPG
 	{

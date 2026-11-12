@@ -4,18 +4,18 @@
 class KEEPBBDICFN;
 namespace System { class Object; }
 
-#define KEEPBBDICFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E809FF0)
-#define KEEPBBDICFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80A030)
-#define KEEPBBDICFN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E80A040)
+#define KEEPBBDICFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB206A0)
+#define KEEPBBDICFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB206E0)
+#define KEEPBBDICFN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB206F0)
 
-inline static constexpr unsigned int KEEPBBDICFN___c_TypeDefinitionIndex = 29223;
+inline static constexpr unsigned int KEEPBBDICFN___c_TypeDefinitionIndex = 29871;
 
 	class KEEPBBDICFN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12840);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x9F80);
 		}
 
 		static ::System::Void _cctor()

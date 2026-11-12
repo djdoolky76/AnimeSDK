@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationGroupConfig; }
 namespace RPG::GameCore { class RotatableRegionPose; }
 
-#define RPG_GAMECORE_ROTATABLEREGIONPOSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA479C0)
-#define RPG_GAMECORE_ROTATABLEREGIONPOSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA47540)
+#define RPG_GAMECORE_ROTATABLEREGIONPOSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5A7E0)
+#define RPG_GAMECORE_ROTATABLEREGIONPOSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC5A4E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RotatableRegionPose_TypeDefinitionIndex = 17022;
+	inline static constexpr unsigned int RotatableRegionPose_TypeDefinitionIndex = 17189;
 
 	class RotatableRegionPose : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,24 +8,24 @@ namespace RPG::GameCore { class LevelInsertAbilityFinish; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6F33A0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F34C0)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F3470)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F3420)
-#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xE6F32A0)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CLEAR_OFFSET UNITYSDK_OFFSET(0xF1F5810)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_CTOR_OFFSET UNITYSDK_OFFSET(0xF1F5930)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF1F58E0)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF1F5890)
+#define RPG_GAMECORE_LEVELINSERTABILITYFINISH_INIT_OFFSET UNITYSDK_OFFSET(0xF1F5710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 56834;
+	inline static constexpr unsigned int LevelInsertAbilityFinish_TypeDefinitionIndex = 58058;
 
 	class LevelInsertAbilityFinish : public ::CMPGEAFHHDC
 	{
 	public:
-		::System::String* InsertAbilityName; // 0x18
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x18
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x20
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x28
-		::System::Boolean Silence; // 0x30
-		::System::Boolean ShowInActionBar; // 0x31
+		::System::String* InsertAbilityName; // 0x28
+		::System::Boolean ShowInActionBar; // 0x30
+		::System::Boolean Silence; // 0x31
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELINSERTABILITYFINISH_CTOR_OFFSET))(this);

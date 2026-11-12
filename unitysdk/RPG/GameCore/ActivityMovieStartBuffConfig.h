@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityMovieStartBuffConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36BA80)
-#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D36B980)
+#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57AC00)
+#define RPG_GAMECORE_ACTIVITYMOVIESTARTBUFFCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E57AB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityMovieStartBuffConfig_TypeDefinitionIndex = 17538;
+	inline static constexpr unsigned int ActivityMovieStartBuffConfig_TypeDefinitionIndex = 17706;
 
 	class ActivityMovieStartBuffConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NLAEDPNBHBP_TypeDefinitionIndex = 31328;
+inline static constexpr unsigned int NLAEDPNBHBP_TypeDefinitionIndex = 32241;
 
 	enum class NLAEDPNBHBP : ::System::Int32
 	{

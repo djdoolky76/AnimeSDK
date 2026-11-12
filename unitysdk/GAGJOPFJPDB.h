@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GAGJOPFJPDB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE1FF50)
-#define GAGJOPFJPDB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE204D0)
-#define GAGJOPFJPDB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE200C0)
-#define GAGJOPFJPDB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE1FA40)
-#define GAGJOPFJPDB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE1FCD0)
-#define GAGJOPFJPDB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE20160)
-#define GAGJOPFJPDB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE201B0)
-#define GAGJOPFJPDB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE1FF90)
-#define GAGJOPFJPDB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE1FC70)
-#define GAGJOPFJPDB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE1FE00)
-#define GAGJOPFJPDB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE20020)
-#define GAGJOPFJPDB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE1F9C0)
+#define GAGJOPFJPDB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DFFAD70)
+#define GAGJOPFJPDB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFFB2F0)
+#define GAGJOPFJPDB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DFFAEE0)
+#define GAGJOPFJPDB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DFFA860)
+#define GAGJOPFJPDB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DFFAAF0)
+#define GAGJOPFJPDB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DFFAF80)
+#define GAGJOPFJPDB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DFFAFD0)
+#define GAGJOPFJPDB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DFFADB0)
+#define GAGJOPFJPDB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DFFAA90)
+#define GAGJOPFJPDB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DFFAC20)
+#define GAGJOPFJPDB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DFFAE40)
+#define GAGJOPFJPDB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DFFA7E0)
 
-inline static constexpr unsigned int GAGJOPFJPDB_TypeDefinitionIndex = 11387;
+inline static constexpr unsigned int GAGJOPFJPDB_TypeDefinitionIndex = 11438;
 
 	class GAGJOPFJPDB : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0x15A30);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0x15A38);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0xCD80);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantSelectEventConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantSelectEventConfigRow*>**)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0x15A40);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantSelectEventConfigRow*>**)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0xCD88);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0x5260);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0xCD90);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0x5261);
+			return (::System::Byte*)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0x18A0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GAGJOPFJPDB")->GetStaticField(0x18A1);
 		}
 
 		static ::System::Void _cctor()

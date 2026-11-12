@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EBMMGODFEEO;
 
-#define HPPNAAGGAMP___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE17E0)
-#define HPPNAAGGAMP___C__DISPLAYCLASS21_0__STOPTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0x15DE17F0)
+#define HPPNAAGGAMP___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16D84180)
+#define HPPNAAGGAMP___C__DISPLAYCLASS21_0__STOPTIMELINE_B__0_OFFSET UNITYSDK_OFFSET(0x16D85EB0)
 
-inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass21_0_TypeDefinitionIndex = 48484;
+inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass21_0_TypeDefinitionIndex = 49525;
 
 	class HPPNAAGGAMP___c__DisplayClass21_0 : public ::System::Object
 	{

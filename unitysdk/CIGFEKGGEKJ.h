@@ -1,16 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
+class CJEEJFDPPNG;
+namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SetCharacterFormation; }
 namespace RPG::GameCore { class TaskContext; }
+namespace System { class String; }
 
-#define CIGFEKGGEKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCF70A90)
-#define CIGFEKGGEKJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF70AA0)
-#define CIGFEKGGEKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF70AE0)
-#define CIGFEKGGEKJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF710F0)
-#define CIGFEKGGEKJ_TICK_OFFSET UNITYSDK_OFFSET(0xCF71140)
+#define CIGFEKGGEKJ_AGLLMMLILAF_OFFSET UNITYSDK_OFFSET(0xD8DEDD0)
+#define CIGFEKGGEKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD8DE2E0)
+#define CIGFEKGGEKJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD8DE2F0)
+#define CIGFEKGGEKJ_LNODDPMOEEJ_OFFSET UNITYSDK_OFFSET(0xD8DEA80)
+#define CIGFEKGGEKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD8DE330)
+#define CIGFEKGGEKJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD8DE9D0)
+#define CIGFEKGGEKJ_PBGOLACGDKO_OFFSET UNITYSDK_OFFSET(0xD8DE980)
+#define CIGFEKGGEKJ_TICK_OFFSET UNITYSDK_OFFSET(0xD8DEA20)
 
-inline static constexpr unsigned int CIGFEKGGEKJ_TypeDefinitionIndex = 55371;
+inline static constexpr unsigned int CIGFEKGGEKJ_TypeDefinitionIndex = 56554;
 
 	class CIGFEKGGEKJ : public ::GELIALJDFBL
 	{
@@ -40,6 +46,21 @@ inline static constexpr unsigned int CIGFEKGGEKJ_TypeDefinitionIndex = 55371;
 		::System::Void Tick(::System::Single a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CIGFEKGGEKJ_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void PBGOLACGDKO(::RPG::GameCore::GameEntity* a1, ::CJEEJFDPPNG* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::CJEEJFDPPNG*))((::PBYTE)hIl2Cpp + CIGFEKGGEKJ_PBGOLACGDKO_OFFSET))(this, a1, a2);
+		}
+
+		static ::System::String* LNODDPMOEEJ(::RPG::GameCore::TaskContext* a1)
+		{
+			return ((::System::String*(*)(::RPG::GameCore::TaskContext*))((::PBYTE)hIl2Cpp + CIGFEKGGEKJ_LNODDPMOEEJ_OFFSET))(a1);
+		}
+
+		::System::Boolean AGLLMMLILAF(::RPG::GameCore::GameEntity* a1, ::CJEEJFDPPNG* a2)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::CJEEJFDPPNG*))((::PBYTE)hIl2Cpp + CIGFEKGGEKJ_AGLLMMLILAF_OFFSET))(this, a1, a2);
 		}
 
 	};

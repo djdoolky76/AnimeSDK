@@ -6,19 +6,18 @@ class FCOEMCEDLNL;
 class LLGMEBOEBPP;
 namespace System { class String; }
 
-#define LLGMEBOEBPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D10E7A0)
-#define LLGMEBOEBPP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D10E590)
+#define LLGMEBOEBPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E30ABE0)
+#define LLGMEBOEBPP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E30A9D0)
 
-inline static constexpr unsigned int LLGMEBOEBPP_TypeDefinitionIndex = 11990;
+inline static constexpr unsigned int LLGMEBOEBPP_TypeDefinitionIndex = 12047;
 
 	class LLGMEBOEBPP : public ::System::Object
 	{
 	public:
-		::System::String* HLDFOGCMOMM; // 0x10
-		::System::String* HIKPBAFAIMF; // 0x18
-		::System::UInt32 PHFMCACHFIJ; // 0x20
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID OENAMINOLLF; // 0x28
+		::System::String* HIKPBAFAIMF; // 0x10
+		::System::String* HLDFOGCMOMM; // 0x18
+		::RPG::Client::TextID OENAMINOLLF; // 0x20
+		::System::UInt32 PHFMCACHFIJ; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLGMEBOEBPP_CTOR_OFFSET))(this);

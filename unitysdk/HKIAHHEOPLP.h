@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchPropFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HKIAHHEOPLP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D45170)
-#define HKIAHHEOPLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D451E0)
+#define HKIAHHEOPLP_CTOR_OFFSET UNITYSDK_OFFSET(0x16C9A8D0)
+#define HKIAHHEOPLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C9A940)
 
-inline static constexpr unsigned int HKIAHHEOPLP_TypeDefinitionIndex = 59217;
+inline static constexpr unsigned int HKIAHHEOPLP_TypeDefinitionIndex = 60494;
 
 	class HKIAHHEOPLP
 	{

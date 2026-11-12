@@ -4,25 +4,24 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE2ECDC0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_ISFINISH_OFFSET UNITYSDK_OFFSET(0xE2ED1B0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_TICK_OFFSET UNITYSDK_OFFSET(0xE2ED080)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO__FINISHCURRENTMOVE_OFFSET UNITYSDK_OFFSET(0xE2ED270)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xED56B90)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_ISFINISH_OFFSET UNITYSDK_OFFSET(0xED56F80)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_TICK_OFFSET UNITYSDK_OFFSET(0xED56E50)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO__FINISHCURRENTMOVE_OFFSET UNITYSDK_OFFSET(0xED57040)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyMeetingCardController_CardMoveInfo_TypeDefinitionIndex = 74279;
+	inline static constexpr unsigned int TrainPartyMeetingCardController_CardMoveInfo_TypeDefinitionIndex = 76427;
 
 	class TrainPartyMeetingCardController_CardMoveInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::RectTransform* Target; // 0x10
 		::System::Single _Duration; // 0x18
-		::UnityEngine::Vector2 _SourcePos; // 0x1C
-		::System::Boolean _IsFinish; // 0x24
-		::System::Byte _padding0[0x3];
-		::System::Single _CumulativeTime; // 0x28
-		::UnityEngine::Vector2 _FinalPos; // 0x2C
+		::System::Single _CumulativeTime; // 0x1C
+		::UnityEngine::Vector2 _FinalPos; // 0x20
+		::UnityEngine::Vector2 _SourcePos; // 0x28
+		::System::Boolean _IsFinish; // 0x30
 		::System::Void _ctor(::UnityEngine::RectTransform* a1, ::UnityEngine::RectTransform* a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*, ::UnityEngine::RectTransform*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_TRAINPARTY_TRAINPARTYMEETINGCARDCONTROLLER_CARDMOVEINFO_CTOR_OFFSET))(this, a1, a2, a3);

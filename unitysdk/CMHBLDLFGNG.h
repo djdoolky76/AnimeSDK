@@ -6,37 +6,36 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define CMHBLDLFGNG_CTOR_OFFSET UNITYSDK_OFFSET(0xDA34720)
-#define CMHBLDLFGNG_DPDHILBILFO_OFFSET UNITYSDK_OFFSET(0xDA33D60)
-#define CMHBLDLFGNG_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xDA34700)
-#define CMHBLDLFGNG_JCABPDOGLNN_OFFSET UNITYSDK_OFFSET(0xDA337A0)
-#define CMHBLDLFGNG_KMHFPELPNAA_OFFSET UNITYSDK_OFFSET(0xDA33E20)
-#define CMHBLDLFGNG_OEDINIMBKPL_OFFSET UNITYSDK_OFFSET(0xDA34640)
-#define CMHBLDLFGNG_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0xDA34030)
-#define CMHBLDLFGNG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xDA33CF0)
-#define CMHBLDLFGNG_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xDA34710)
+#define CMHBLDLFGNG_CTOR_OFFSET UNITYSDK_OFFSET(0xE372C60)
+#define CMHBLDLFGNG_DPDHILBILFO_OFFSET UNITYSDK_OFFSET(0xE3722B0)
+#define CMHBLDLFGNG_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xE372C40)
+#define CMHBLDLFGNG_JCABPDOGLNN_OFFSET UNITYSDK_OFFSET(0xE371CF0)
+#define CMHBLDLFGNG_KMHFPELPNAA_OFFSET UNITYSDK_OFFSET(0xE372370)
+#define CMHBLDLFGNG_OEDINIMBKPL_OFFSET UNITYSDK_OFFSET(0xE372B80)
+#define CMHBLDLFGNG_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0xE372580)
+#define CMHBLDLFGNG_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xE372240)
+#define CMHBLDLFGNG_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xE372C50)
 
-inline static constexpr unsigned int CMHBLDLFGNG_TypeDefinitionIndex = 57062;
+inline static constexpr unsigned int CMHBLDLFGNG_TypeDefinitionIndex = 58289;
 
 	class CMHBLDLFGNG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x10
-		::UnityEngine::Transform* AFIBNIPMICJ; // 0x18
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x20
-		::UnityEngine::Transform* OIGGFCOBKCG; // 0x28
+		::UnityEngine::Transform* OIGGFCOBKCG; // 0x10
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x18
+		::UnityEngine::Transform* AFIBNIPMICJ; // 0x20
+		::RPG::GameCore::GameEntity* CFKHNPGEAJA; // 0x28
 		::System::Single CBDKIJBKBCO; // 0x30
-		::System::Single LOFDNKOBKBO; // 0x34
-		::System::Single DAPNPMJMPIO; // 0x38
-		::System::Single NAJDBLCPLBH; // 0x3C
-		::System::Single DADDDKFPJGK; // 0x40
-		::System::Single CGJOJELIIMC; // 0x44
-		::System::Single JKEDDIHDHFH; // 0x48
-		::System::Single DFGGPBBAAIH; // 0x4C
-		::System::Single ANBAHMFOPCI; // 0x50
-		::System::Boolean _IsActive_k__BackingField; // 0x54
-		::System::Byte _padding0[0x3];
-		::System::Single NBOJCABFJJH; // 0x58
+		::System::Single JKEDDIHDHFH; // 0x34
+		::System::Single ANBAHMFOPCI; // 0x38
+		::System::Single CGJOJELIIMC; // 0x3C
+		::System::Single NBOJCABFJJH; // 0x40
+		::System::Single DADDDKFPJGK; // 0x44
+		::System::Single DFGGPBBAAIH; // 0x48
+		::System::Single DAPNPMJMPIO; // 0x4C
+		::System::Single NAJDBLCPLBH; // 0x50
+		::System::Single LOFDNKOBKBO; // 0x54
+		::System::Boolean _IsActive_k__BackingField; // 0x58
 		// static const ::System::Object ALNFBJNICCK; // 0x0
 		// static const ::System::Object EOBGHFMMGCM; // 0x0
 		::System::Void _ctor()

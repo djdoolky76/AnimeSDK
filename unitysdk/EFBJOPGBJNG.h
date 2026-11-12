@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EFBJOPGBJNG_CTOR_OFFSET UNITYSDK_OFFSET(0x13A47420)
+#define EFBJOPGBJNG_CTOR_OFFSET UNITYSDK_OFFSET(0x14807DF0)
 
-inline static constexpr unsigned int EFBJOPGBJNG_TypeDefinitionIndex = 80195;
+inline static constexpr unsigned int EFBJOPGBJNG_TypeDefinitionIndex = 82972;
 
 	class EFBJOPGBJNG : public ::System::Object
 	{

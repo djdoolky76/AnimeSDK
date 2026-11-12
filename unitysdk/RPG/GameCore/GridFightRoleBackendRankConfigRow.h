@@ -9,31 +9,31 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 namespace RPG::GameCore { class GridFightRoleBackendRankConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73D020)
-#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D73C9B0)
+#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94DE30)
+#define RPG_GAMECORE_GRIDFIGHTROLEBACKENDRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E94D7C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightRoleBackendRankConfigRow_TypeDefinitionIndex = 13514;
+	inline static constexpr unsigned int GridFightRoleBackendRankConfigRow_TypeDefinitionIndex = 13607;
 
 	class GridFightRoleBackendRankConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Double>* DescParamList; // 0x10
-		::Il2CppArray<::System::UInt32>* ModifySkillList; // 0x18
-		::Il2CppArray<::RPG::GameCore::FixPoint>* Param; // 0x20
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OwnerGeneralPropertyList; // 0x28
-		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x30
-		::Il2CppArray<::System::String*>* RankAbility; // 0x38
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x40
-		::System::String* IconPath; // 0x48
-		::RPG::GameCore::FixPoint ModifyEnergyBar; // 0x50
-		::RPG::GameCore::StringHash Trigger; // 0x58
-		::System::UInt32 Rank; // 0x5C
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* OwnerGeneralPropertyList; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* Param; // 0x18
+		::System::String* IconPath; // 0x20
+		::Il2CppArray<::System::UInt32>* ModifySkillList; // 0x28
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyValue*>* AllMemberGeneralPropertyList; // 0x30
+		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x38
+		::Il2CppArray<::System::Double>* DescParamList; // 0x40
+		::Il2CppArray<::System::String*>* RankAbility; // 0x48
+		::RPG::GameCore::StringHash Trigger; // 0x50
+		::System::UInt32 Rank; // 0x54
+		::RPG::GameCore::FixPoint ModifyEnergyBar; // 0x58
 		::System::UInt32 RankID; // 0x60
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint ModifyInitialEnergyBar; // 0x68
-		::RPG::Client::TextID Name; // 0x70
+		::RPG::Client::TextID Name; // 0x68
+		::RPG::GameCore::FixPoint ModifyInitialEnergyBar; // 0x78
 		::RPG::Client::TextID Desc; // 0x80
 		::System::Void _ctor()
 		{

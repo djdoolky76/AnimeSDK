@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimGameInstance_VisibleReason_TypeDefinitionIndex = 60392;
+	inline static constexpr unsigned int FiveDimGameInstance_VisibleReason_TypeDefinitionIndex = 61677;
 
 	enum class FiveDimGameInstance_VisibleReason : ::System::Int32
 	{

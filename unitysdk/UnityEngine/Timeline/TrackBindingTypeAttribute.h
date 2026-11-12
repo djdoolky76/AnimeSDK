@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Timeline/TrackBindingFlags.h"
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F3A7F90)
-#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A7F80)
+#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20658D10)
+#define UNITYENGINE_TIMELINE_TRACKBINDINGTYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20658D00)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackBindingTypeAttribute_TypeDefinitionIndex = 38860;
+	inline static constexpr unsigned int TrackBindingTypeAttribute_TypeDefinitionIndex = 39789;
 
 	class TrackBindingTypeAttribute : public ::System::Attribute
 	{

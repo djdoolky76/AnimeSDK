@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HEBOFHMHNEA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C43750)
-#define HEBOFHMHNEA_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15C43710)
+#define HEBOFHMHNEA_CTOR_OFFSET UNITYSDK_OFFSET(0x16B87790)
+#define HEBOFHMHNEA_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x16B87750)
 
-inline static constexpr unsigned int HEBOFHMHNEA_TypeDefinitionIndex = 62444;
+inline static constexpr unsigned int HEBOFHMHNEA_TypeDefinitionIndex = 63857;
 
 	class HEBOFHMHNEA : public ::System::Object
 	{

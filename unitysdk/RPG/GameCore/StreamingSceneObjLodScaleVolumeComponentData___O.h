@@ -5,19 +5,19 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StreamingSceneObjLodScaleVolumeComponentData___O_TypeDefinitionIndex = 19128;
+	inline static constexpr unsigned int StreamingSceneObjLodScaleVolumeComponentData___O_TypeDefinitionIndex = 19316;
 
 	class StreamingSceneObjLodScaleVolumeComponentData___O : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet__0___FromJson()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1F460);
-		}
-
 		static ::System::Object** StaticGet__1___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1F468);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1F090);
+		}
+
+		static ::System::Object** StaticGet__0___FromJson()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1F098);
 		}
 
 	};

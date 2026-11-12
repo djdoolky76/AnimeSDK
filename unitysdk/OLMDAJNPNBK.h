@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OLMDAJNPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF10DB0)
+#define OLMDAJNPNBK_CTOR_OFFSET UNITYSDK_OFFSET(0xC80DDA0)
 
-inline static constexpr unsigned int OLMDAJNPNBK_TypeDefinitionIndex = 81261;
+inline static constexpr unsigned int OLMDAJNPNBK_TypeDefinitionIndex = 84041;
 
 	class OLMDAJNPNBK : public ::System::Object
 	{

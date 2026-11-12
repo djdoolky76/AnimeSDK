@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FreeStyleCharacterInfoConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F4040)
-#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F3F00)
+#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FE2E0)
+#define RPG_GAMECORE_FREESTYLECHARACTERINFOCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8FE1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleCharacterInfoConfigRow_TypeDefinitionIndex = 13301;
+	inline static constexpr unsigned int FreeStyleCharacterInfoConfigRow_TypeDefinitionIndex = 13373;
 
 	class FreeStyleCharacterInfoConfigRow : public ::System::Object
 	{

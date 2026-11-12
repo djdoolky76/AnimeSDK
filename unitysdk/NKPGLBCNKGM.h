@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_DirectDamage; }
 
-#define NKPGLBCNKGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C79C3E0)
-#define NKPGLBCNKGM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C79C3F0)
+#define NKPGLBCNKGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91DC80)
+#define NKPGLBCNKGM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D91DC90)
 
-inline static constexpr unsigned int NKPGLBCNKGM_TypeDefinitionIndex = 36313;
+inline static constexpr unsigned int NKPGLBCNKGM_TypeDefinitionIndex = 37241;
 
 	class NKPGLBCNKGM : public ::AJBKGPOEBFG
 	{

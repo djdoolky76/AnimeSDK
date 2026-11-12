@@ -6,19 +6,19 @@ namespace RPG::Client { class NPCPedestrianV2BatchAnimationEvent; }
 namespace System { class String; }
 namespace UnityEngine::Rendering { class BatchAnimation; }
 
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD9303D0)
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___C__DISPLAYCLASS4_0__AWAKE_B__0_OFFSET UNITYSDK_OFFSET(0xD930680)
-#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___C__DISPLAYCLASS4_0__AWAKE_B__1_OFFSET UNITYSDK_OFFSET(0xD930710)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3C3FF0)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___C__DISPLAYCLASS4_0__AWAKE_B__0_OFFSET UNITYSDK_OFFSET(0xE3C42A0)
+#define RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___C__DISPLAYCLASS4_0__AWAKE_B__1_OFFSET UNITYSDK_OFFSET(0xE3C4330)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NPCPedestrianV2BatchAnimationEvent___c__DisplayClass4_0_TypeDefinitionIndex = 69256;
+	inline static constexpr unsigned int NPCPedestrianV2BatchAnimationEvent___c__DisplayClass4_0_TypeDefinitionIndex = 71210;
 
 	class NPCPedestrianV2BatchAnimationEvent___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::System::String* ev; // 0x10
-		::RPG::Client::NPCPedestrianV2BatchAnimationEvent* __4__this; // 0x18
+		::RPG::Client::NPCPedestrianV2BatchAnimationEvent* __4__this; // 0x10
+		::System::String* ev; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NPCPEDESTRIANV2BATCHANIMATIONEVENT___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

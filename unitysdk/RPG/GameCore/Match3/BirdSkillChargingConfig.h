@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore::Match3 { class BirdSkillChargingConfig; }
 
-#define RPG_GAMECORE_MATCH3_BIRDSKILLCHARGINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84B200)
-#define RPG_GAMECORE_MATCH3_BIRDSKILLCHARGINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D84B0C0)
+#define RPG_GAMECORE_MATCH3_BIRDSKILLCHARGINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA65BB0)
+#define RPG_GAMECORE_MATCH3_BIRDSKILLCHARGINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA65A70)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int BirdSkillChargingConfig_TypeDefinitionIndex = 24929;
+	inline static constexpr unsigned int BirdSkillChargingConfig_TypeDefinitionIndex = 25409;
 
 	class BirdSkillChargingConfig : public ::RPG::GameCore::JsonConfig
 	{

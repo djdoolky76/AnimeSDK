@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterReplaceMaterialOriginProperty; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D578290)
-#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5780A0)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E789080)
+#define RPG_GAMECORE_CHARACTERREPLACEMATERIALORIGINPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E788E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterReplaceMaterialOriginProperty_TypeDefinitionIndex = 17441;
+	inline static constexpr unsigned int CharacterReplaceMaterialOriginProperty_TypeDefinitionIndex = 17609;
 
 	class CharacterReplaceMaterialOriginProperty : public ::RPG::GameCore::JsonConfig
 	{

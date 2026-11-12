@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::WellKnownTypes
 {
-	inline static constexpr unsigned int Field_Types_Cardinality_TypeDefinitionIndex = 5448;
+	inline static constexpr unsigned int Field_Types_Cardinality_TypeDefinitionIndex = 5453;
 
 	enum class Field_Types_Cardinality : ::System::Int32
 	{

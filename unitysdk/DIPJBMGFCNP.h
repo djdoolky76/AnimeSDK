@@ -5,20 +5,20 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class StackCustomUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DIPJBMGFCNP_CTOR_OFFSET UNITYSDK_OFFSET(0xF226940)
-#define DIPJBMGFCNP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF226A00)
-#define DIPJBMGFCNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF226AD0)
-#define DIPJBMGFCNP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF226D40)
-#define DIPJBMGFCNP_TICK_OFFSET UNITYSDK_OFFSET(0xF226D90)
+#define DIPJBMGFCNP_CTOR_OFFSET UNITYSDK_OFFSET(0xF98CB60)
+#define DIPJBMGFCNP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF98CC20)
+#define DIPJBMGFCNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF98CCF0)
+#define DIPJBMGFCNP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF98CF60)
+#define DIPJBMGFCNP_TICK_OFFSET UNITYSDK_OFFSET(0xF98CFB0)
 
-inline static constexpr unsigned int DIPJBMGFCNP_TypeDefinitionIndex = 55641;
+inline static constexpr unsigned int DIPJBMGFCNP_TypeDefinitionIndex = 56839;
 
 	class DIPJBMGFCNP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::StackCustomUnselectable* OFKGLJOAMLD; // 0x20
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x28
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::StackCustomUnselectable* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackCustomUnselectable* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StackCustomUnselectable*))((::PBYTE)hIl2Cpp + DIPJBMGFCNP_CTOR_OFFSET))(this, a1, a2);

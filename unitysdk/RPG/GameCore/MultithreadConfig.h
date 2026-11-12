@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MultithreadConfig; }
 namespace RPG::GameCore { class ThreadTaskConfig; }
 
-#define RPG_GAMECORE_MULTITHREADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C02C0)
-#define RPG_GAMECORE_MULTITHREADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C0200)
+#define RPG_GAMECORE_MULTITHREADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD9FE0)
+#define RPG_GAMECORE_MULTITHREADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAD9F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultithreadConfig_TypeDefinitionIndex = 24403;
+	inline static constexpr unsigned int MultithreadConfig_TypeDefinitionIndex = 24862;
 
 	class MultithreadConfig : public ::RPG::GameCore::JsonConfig
 	{

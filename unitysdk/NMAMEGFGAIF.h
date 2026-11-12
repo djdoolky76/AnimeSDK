@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 class OEIKFPLBOMH;
 
-#define NMAMEGFGAIF_EHIEEGPHKAI_OFFSET UNITYSDK_OFFSET(0x1EC89DC0)
-#define NMAMEGFGAIF_PEMOEMHMHCA_OFFSET UNITYSDK_OFFSET(0x1EC658C0)
+#define NMAMEGFGAIF_EHIEEGPHKAI_OFFSET UNITYSDK_OFFSET(0x1FF3A6F0)
+#define NMAMEGFGAIF_PEMOEMHMHCA_OFFSET UNITYSDK_OFFSET(0x1FF162E0)
 
-inline static constexpr unsigned int NMAMEGFGAIF_TypeDefinitionIndex = 44088;
+inline static constexpr unsigned int NMAMEGFGAIF_TypeDefinitionIndex = 45163;
 
 	class NMAMEGFGAIF : public ::System::Object
 	{
 	public:
 		static ::OEIKFPLBOMH** StaticGet_JKCNFDEAMDJ()
 		{
-			return (::OEIKFPLBOMH**)UnitySDK::FromName("", "NMAMEGFGAIF")->GetStaticField(0x4DDE0);
+			return (::OEIKFPLBOMH**)UnitySDK::FromName("", "NMAMEGFGAIF")->GetStaticField(0x65940);
 		}
 
 		static ::OEIKFPLBOMH* PEMOEMHMHCA()

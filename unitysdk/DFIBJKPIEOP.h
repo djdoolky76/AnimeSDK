@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IIAJFCNCMEB;
 
-#define DFIBJKPIEOP_CTOR_OFFSET UNITYSDK_OFFSET(0xE82DFF0)
+#define DFIBJKPIEOP_CTOR_OFFSET UNITYSDK_OFFSET(0xF18EB90)
 
-inline static constexpr unsigned int DFIBJKPIEOP_TypeDefinitionIndex = 80549;
+inline static constexpr unsigned int DFIBJKPIEOP_TypeDefinitionIndex = 83329;
 
 	class DFIBJKPIEOP : public ::System::Object
 	{

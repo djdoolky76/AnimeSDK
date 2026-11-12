@@ -7,30 +7,30 @@ namespace RPG::Client { class ChimeraEvaluationManager; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MCHDFGLEMCD_BKIJADGMLOI_OFFSET UNITYSDK_OFFSET(0xB87CCA0)
-#define MCHDFGLEMCD_CGKBNLGAPKN_OFFSET UNITYSDK_OFFSET(0xB87D6E0)
-#define MCHDFGLEMCD_CKKLFABIJKF_OFFSET UNITYSDK_OFFSET(0xB87CC40)
-#define MCHDFGLEMCD_CTOR_OFFSET UNITYSDK_OFFSET(0xB87CAC0)
-#define MCHDFGLEMCD_EGPOPPDFDLD_OFFSET UNITYSDK_OFFSET(0xB87CED0)
-#define MCHDFGLEMCD_GET_CHIMERAEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xB87DBD0)
-#define MCHDFGLEMCD_GET_CHIMERAEVALUATIONDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xB87DC10)
-#define MCHDFGLEMCD_GET_CHIMERASATISFYEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xB87DBF0)
-#define MCHDFGLEMCD_GKMHMAAPHIH_OFFSET UNITYSDK_OFFSET(0xB87D4C0)
-#define MCHDFGLEMCD_HBBOGCNJMOI_OFFSET UNITYSDK_OFFSET(0xB87D160)
-#define MCHDFGLEMCD_OMKMIIJLDAJ_OFFSET UNITYSDK_OFFSET(0xB87CAD0)
-#define MCHDFGLEMCD_SET_CHIMERAEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xB87DBE0)
-#define MCHDFGLEMCD_SET_CHIMERAEVALUATIONDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xB87DC20)
-#define MCHDFGLEMCD_SET_CHIMERASATISFYEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xB87DC00)
+#define MCHDFGLEMCD_BKIJADGMLOI_OFFSET UNITYSDK_OFFSET(0xC0E3AC0)
+#define MCHDFGLEMCD_CGKBNLGAPKN_OFFSET UNITYSDK_OFFSET(0xC0E44F0)
+#define MCHDFGLEMCD_CKKLFABIJKF_OFFSET UNITYSDK_OFFSET(0xC0E3A60)
+#define MCHDFGLEMCD_CTOR_OFFSET UNITYSDK_OFFSET(0xC0E38E0)
+#define MCHDFGLEMCD_EGPOPPDFDLD_OFFSET UNITYSDK_OFFSET(0xC0E3CF0)
+#define MCHDFGLEMCD_GET_CHIMERAEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xC0E49E0)
+#define MCHDFGLEMCD_GET_CHIMERAEVALUATIONDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xC0E4A20)
+#define MCHDFGLEMCD_GET_CHIMERASATISFYEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xC0E4A00)
+#define MCHDFGLEMCD_GKMHMAAPHIH_OFFSET UNITYSDK_OFFSET(0xC0E42D0)
+#define MCHDFGLEMCD_HBBOGCNJMOI_OFFSET UNITYSDK_OFFSET(0xC0E3F80)
+#define MCHDFGLEMCD_OMKMIIJLDAJ_OFFSET UNITYSDK_OFFSET(0xC0E38F0)
+#define MCHDFGLEMCD_SET_CHIMERAEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xC0E49F0)
+#define MCHDFGLEMCD_SET_CHIMERAEVALUATIONDISPLAYDATA_OFFSET UNITYSDK_OFFSET(0xC0E4A30)
+#define MCHDFGLEMCD_SET_CHIMERASATISFYEVALUATIONDICT_OFFSET UNITYSDK_OFFSET(0xC0E4A10)
 
-inline static constexpr unsigned int MCHDFGLEMCD_TypeDefinitionIndex = 63494;
+inline static constexpr unsigned int MCHDFGLEMCD_TypeDefinitionIndex = 64932;
 
 	class MCHDFGLEMCD : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraEvaluationData*>*>* _ChimeraEvaluationDict_k__BackingField; // 0x10
-		::RPG::Client::ChimeraEvaluationManager* CFKHNPGEAJA; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _ChimeraSatisfyEvaluationDict_k__BackingField; // 0x20
-		::System::Collections::Generic::List_1<::RPG::Client::ChimeraEvaluationDisplayData*>* _ChimeraEvaluationDisplayData_k__BackingField; // 0x28
+		::RPG::Client::ChimeraEvaluationManager* CFKHNPGEAJA; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::ChimeraEvaluationDisplayData*>* _ChimeraEvaluationDisplayData_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::ChimeraEvaluationData*>*>* _ChimeraEvaluationDict_k__BackingField; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* _ChimeraSatisfyEvaluationDict_k__BackingField; // 0x28
 		::System::Void _ctor(::RPG::Client::ChimeraEvaluationManager* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraEvaluationManager*))((::PBYTE)hIl2Cpp + MCHDFGLEMCD_CTOR_OFFSET))(this, a1);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterAlwaysIdleState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLOMIKJDBFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF17130)
-#define OLOMIKJDBFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF17160)
+#define OLOMIKJDBFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC814CD0)
+#define OLOMIKJDBFG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC814D00)
 
-inline static constexpr unsigned int OLOMIKJDBFG_TypeDefinitionIndex = 55366;
+inline static constexpr unsigned int OLOMIKJDBFG_TypeDefinitionIndex = 56549;
 
 	class OLOMIKJDBFG
 	{

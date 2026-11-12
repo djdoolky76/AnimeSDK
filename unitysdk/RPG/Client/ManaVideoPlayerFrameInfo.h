@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace CriWare::CriMana { class FrameInfo; }
 
-#define RPG_CLIENT_MANAVIDEOPLAYERFRAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD511F10)
-#define RPG_CLIENT_MANAVIDEOPLAYERFRAMEINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xD511E00)
+#define RPG_CLIENT_MANAVIDEOPLAYERFRAMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDF62880)
+#define RPG_CLIENT_MANAVIDEOPLAYERFRAMEINFO_UPDATEINFO_OFFSET UNITYSDK_OFFSET(0xDF62770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ManaVideoPlayerFrameInfo_TypeDefinitionIndex = 73200;
+	inline static constexpr unsigned int ManaVideoPlayerFrameInfo_TypeDefinitionIndex = 75315;
 
 	class ManaVideoPlayerFrameInfo : public ::System::Object
 	{
 	public:
-		::System::Single FullTime; // 0x10
-		::System::UInt32 FullFrame; // 0x14
-		::System::Int32 Frame; // 0x18
+		::System::Int32 Frame; // 0x10
+		::System::Single FullTime; // 0x14
+		::System::UInt32 FullFrame; // 0x18
 		::System::Single Time; // 0x1C
 		::System::Void _ctor()
 		{

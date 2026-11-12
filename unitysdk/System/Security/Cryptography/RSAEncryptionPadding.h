@@ -7,18 +7,18 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Security::Cryptography { class RSAEncryptionPadding; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0D4200)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x1C0D3DC0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_CREATEOAEP_OFFSET UNITYSDK_OFFSET(0x1C0D3C30)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D3C20)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1C0D3E30)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C0D3DD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C0D3CD0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_GET_OAEPSHA1_OFFSET UNITYSDK_OFFSET(0x1C0D3BC0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_GET_PKCS1_OFFSET UNITYSDK_OFFSET(0x1C0D3B60)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1C0D4100)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1C0D4080)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C0D4120)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D25B410)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_COMBINEHASHCODES_OFFSET UNITYSDK_OFFSET(0x1D25AFD0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_CREATEOAEP_OFFSET UNITYSDK_OFFSET(0x1D25AE40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D25AE30)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1D25B040)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_EQUALS_OFFSET UNITYSDK_OFFSET(0x1D25AFE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D25AEE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_GET_OAEPSHA1_OFFSET UNITYSDK_OFFSET(0x1D25ADD0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_GET_PKCS1_OFFSET UNITYSDK_OFFSET(0x1D25AD70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x1D25B310)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0x1D25B290)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RSAENCRYPTIONPADDING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D25B330)
 
 namespace System::Security::Cryptography
 {
@@ -29,29 +29,29 @@ namespace System::Security::Cryptography
 	public:
 		::System::Security::Cryptography::HashAlgorithmName _oaepHashAlgorithm; // 0x10
 		::System::Security::Cryptography::RSAEncryptionPaddingMode _mode; // 0x18
-		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_oaepSHA384()
-		{
-			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x18670);
-		}
-
-		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_oaepSHA1()
-		{
-			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x18678);
-		}
-
 		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_oaepSHA512()
 		{
-			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x18680);
-		}
-
-		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_oaepSHA256()
-		{
-			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x18688);
+			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x1E430);
 		}
 
 		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_pkcs1()
 		{
-			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x18690);
+			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x1E438);
+		}
+
+		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_oaepSHA256()
+		{
+			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x1E440);
+		}
+
+		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_oaepSHA384()
+		{
+			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x1E448);
+		}
+
+		static ::System::Security::Cryptography::RSAEncryptionPadding** StaticGet_s_oaepSHA1()
+		{
+			return (::System::Security::Cryptography::RSAEncryptionPadding**)UnitySDK::FromName("System.Security.Cryptography", "RSAEncryptionPadding")->GetStaticField(0x1E450);
 		}
 
 		::System::Void _ctor(::System::Security::Cryptography::RSAEncryptionPaddingMode a1, ::System::Security::Cryptography::HashAlgorithmName a2)

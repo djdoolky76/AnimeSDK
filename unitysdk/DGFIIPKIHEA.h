@@ -3,10 +3,10 @@
 #include "unitysdk/HDJIGMBHENE.h"
 #include "unitysdk/RPG/Client/TextID.h"
 
-#define DGFIIPKIHEA_CTOR_OFFSET UNITYSDK_OFFSET(0xE846210)
-#define DGFIIPKIHEA_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0xE846230)
+#define DGFIIPKIHEA_CTOR_OFFSET UNITYSDK_OFFSET(0xF4180B0)
+#define DGFIIPKIHEA_NPJGONHMEOD_OFFSET UNITYSDK_OFFSET(0xF4180D0)
 
-inline static constexpr unsigned int DGFIIPKIHEA_TypeDefinitionIndex = 61190;
+inline static constexpr unsigned int DGFIIPKIHEA_TypeDefinitionIndex = 62575;
 
 	class DGFIIPKIHEA : public ::HDJIGMBHENE
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSwitchMascotPickupCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EADMLLDCALG_CTOR_OFFSET UNITYSDK_OFFSET(0x126739F0)
-#define EADMLLDCALG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12673A20)
+#define EADMLLDCALG_CTOR_OFFSET UNITYSDK_OFFSET(0x13463D10)
+#define EADMLLDCALG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13463D40)
 
-inline static constexpr unsigned int EADMLLDCALG_TypeDefinitionIndex = 57977;
+inline static constexpr unsigned int EADMLLDCALG_TypeDefinitionIndex = 59215;
 
 	class EADMLLDCALG
 	{

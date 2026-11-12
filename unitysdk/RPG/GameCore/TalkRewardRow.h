@@ -4,25 +4,26 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TalkRewardRow; }
 
-#define RPG_GAMECORE_TALKREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB557A0)
-#define RPG_GAMECORE_TALKREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB55490)
+#define RPG_GAMECORE_TALKREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE049D0)
+#define RPG_GAMECORE_TALKREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE046C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkRewardRow_TypeDefinitionIndex = 15215;
+	inline static constexpr unsigned int TalkRewardRow_TypeDefinitionIndex = 15371;
 
 	class TalkRewardRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 NPCConfigID; // 0x10
-		::System::UInt32 PropConfigID; // 0x14
-		::System::UInt32 VerificationID; // 0x18
-		::System::UInt32 RewardID; // 0x1C
-		::System::UInt32 GroupID; // 0x20
-		::System::UInt32 FloorID; // 0x24
-		::System::UInt32 ID; // 0x28
-		::System::UInt32 PlaneID; // 0x2C
-		::System::Boolean IsMove; // 0x30
+		::System::UInt32 FloorID; // 0x10
+		::System::UInt32 RewardID; // 0x14
+		::System::UInt32 PlaneID; // 0x18
+		::System::UInt32 GroupID; // 0x1C
+		::System::UInt32 NPCConfigID; // 0x20
+		::System::UInt32 ID; // 0x24
+		::System::UInt32 VerificationID; // 0x28
+		::System::Boolean IsMove; // 0x2C
+		::System::Byte _padding0[0x3];
+		::System::UInt32 PropConfigID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKREWARDROW_CTOR_OFFSET))(this);

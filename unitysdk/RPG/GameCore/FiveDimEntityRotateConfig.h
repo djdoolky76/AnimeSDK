@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEntityRotateConfig; }
 
-#define RPG_GAMECORE_FIVEDIMENTITYROTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BBB30)
-#define RPG_GAMECORE_FIVEDIMENTITYROTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BB960)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C8460)
+#define RPG_GAMECORE_FIVEDIMENTITYROTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8C8290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEntityRotateConfig_TypeDefinitionIndex = 18752;
+	inline static constexpr unsigned int FiveDimEntityRotateConfig_TypeDefinitionIndex = 18913;
 
 	class FiveDimEntityRotateConfig : public ::RPG::GameCore::JsonConfig
 	{

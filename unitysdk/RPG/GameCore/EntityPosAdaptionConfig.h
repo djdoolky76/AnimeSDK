@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EntityPosAdaptionConfig; }
 
-#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D679A60)
-#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D679670)
+#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E885E10)
+#define RPG_GAMECORE_ENTITYPOSADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E885A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityPosAdaptionConfig_TypeDefinitionIndex = 20358;
+	inline static constexpr unsigned int EntityPosAdaptionConfig_TypeDefinitionIndex = 20693;
 
 	class EntityPosAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

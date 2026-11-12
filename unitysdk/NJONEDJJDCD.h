@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvNPCSetHidden; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJONEDJJDCD_CTOR_OFFSET UNITYSDK_OFFSET(0xBC29E90)
-#define NJONEDJJDCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC29EC0)
+#define NJONEDJJDCD_CTOR_OFFSET UNITYSDK_OFFSET(0xC50D7C0)
+#define NJONEDJJDCD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC50D7F0)
 
-inline static constexpr unsigned int NJONEDJJDCD_TypeDefinitionIndex = 52442;
+inline static constexpr unsigned int NJONEDJJDCD_TypeDefinitionIndex = 53548;
 
 	class NJONEDJJDCD
 	{

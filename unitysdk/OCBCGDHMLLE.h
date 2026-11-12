@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OCBCGDHMLLE_TypeDefinitionIndex = 67013;
+inline static constexpr unsigned int OCBCGDHMLLE_TypeDefinitionIndex = 68957;
 
 	class OCBCGDHMLLE
 	{

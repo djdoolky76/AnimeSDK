@@ -3,9 +3,9 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define TERRAINASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E2230)
+#define TERRAINASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF4F7810)
 
-inline static constexpr unsigned int TerrainAssetConfig_TypeDefinitionIndex = 47337;
+inline static constexpr unsigned int TerrainAssetConfig_TypeDefinitionIndex = 48366;
 
 	class TerrainAssetConfig : public ::UnityEngine::MonoBehaviour
 	{

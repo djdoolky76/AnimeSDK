@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearAllEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FAOANFFMIKF_CTOR_OFFSET UNITYSDK_OFFSET(0x156878A0)
-#define FAOANFFMIKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156878D0)
+#define FAOANFFMIKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1659BB60)
+#define FAOANFFMIKF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1659BB90)
 
-inline static constexpr unsigned int FAOANFFMIKF_TypeDefinitionIndex = 54958;
+inline static constexpr unsigned int FAOANFFMIKF_TypeDefinitionIndex = 56132;
 
 	class FAOANFFMIKF
 	{

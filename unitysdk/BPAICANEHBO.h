@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 
-#define BPAICANEHBO_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x1CC8F420)
-#define BPAICANEHBO_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC8F300)
-#define BPAICANEHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8F450)
+#define BPAICANEHBO_CONVERTBOXED_OFFSET UNITYSDK_OFFSET(0x1DE365B0)
+#define BPAICANEHBO_CONVERT_OFFSET UNITYSDK_OFFSET(0x1DE36490)
+#define BPAICANEHBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE365E0)
 
-inline static constexpr unsigned int BPAICANEHBO_TypeDefinitionIndex = 43911;
+inline static constexpr unsigned int BPAICANEHBO_TypeDefinitionIndex = 44986;
 
 	class BPAICANEHBO : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class MMNONCLEIIH;
 namespace System { class Object; }
 
-#define MMNONCLEIIH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA8F4F0)
-#define MMNONCLEIIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA8F520)
-#define MMNONCLEIIH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA8F530)
+#define MMNONCLEIIH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDC7000)
+#define MMNONCLEIIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDC7030)
+#define MMNONCLEIIH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FDC7040)
 
-inline static constexpr unsigned int MMNONCLEIIH___c_TypeDefinitionIndex = 33991;
+inline static constexpr unsigned int MMNONCLEIIH___c_TypeDefinitionIndex = 34906;
 
 	class MMNONCLEIIH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59320);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E930);
 		}
 
 		static ::System::Void _cctor()

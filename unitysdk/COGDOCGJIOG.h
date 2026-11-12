@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PausePropMoveTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define COGDOCGJIOG_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB7090)
-#define COGDOCGJIOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCB70C0)
+#define COGDOCGJIOG_CTOR_OFFSET UNITYSDK_OFFSET(0xE603860)
+#define COGDOCGJIOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE603890)
 
-inline static constexpr unsigned int COGDOCGJIOG_TypeDefinitionIndex = 53060;
+inline static constexpr unsigned int COGDOCGJIOG_TypeDefinitionIndex = 54220;
 
 	class COGDOCGJIOG
 	{

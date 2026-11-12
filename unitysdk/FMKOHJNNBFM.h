@@ -5,20 +5,20 @@
 #include "unitysdk/RPG/GameCore/TurnState.h"
 namespace System { class String; }
 
-#define FMKOHJNNBFM_CTOR_OFFSET UNITYSDK_OFFSET(0x158616D0)
-#define FMKOHJNNBFM_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x15861560)
-#define FMKOHJNNBFM_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x158615A0)
-#define FMKOHJNNBFM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x158612F0)
-#define FMKOHJNNBFM_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15861300)
+#define FMKOHJNNBFM_CTOR_OFFSET UNITYSDK_OFFSET(0x167D1F80)
+#define FMKOHJNNBFM_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x167D1E10)
+#define FMKOHJNNBFM_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x167D1E50)
+#define FMKOHJNNBFM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x167D1BA0)
+#define FMKOHJNNBFM_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x167D1BB0)
 
-inline static constexpr unsigned int FMKOHJNNBFM_TypeDefinitionIndex = 56131;
+inline static constexpr unsigned int FMKOHJNNBFM_TypeDefinitionIndex = 57343;
 
 	class FMKOHJNNBFM : public ::DBGDNLLDPFI
 	{
 	public:
 		::System::String* ILGEBBAIFMM; // 0x10
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x18
-		::RPG::GameCore::TurnState PIGMOFHJCOG; // 0x1C
+		::RPG::GameCore::TurnState PIGMOFHJCOG; // 0x18
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FMKOHJNNBFM_CTOR_OFFSET))(this);

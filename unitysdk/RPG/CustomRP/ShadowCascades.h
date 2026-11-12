@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShadowCascades_TypeDefinitionIndex = 37540;
+	inline static constexpr unsigned int ShadowCascades_TypeDefinitionIndex = 38468;
 
 	enum class ShadowCascades : ::System::Int32
 	{

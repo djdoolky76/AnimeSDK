@@ -9,20 +9,20 @@ namespace RPG::GameCore { class SetDynamicValueByCopyingBatchItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class Object; }
 
-#define MOFBPDIGHKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DC4F0)
-#define MOFBPDIGHKJ_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1D1DC780)
-#define MOFBPDIGHKJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DC530)
-#define MOFBPDIGHKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DC490)
+#define MOFBPDIGHKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F0160)
+#define MOFBPDIGHKJ_GETDYNAMICKEY_OFFSET UNITYSDK_OFFSET(0x1E3F03F0)
+#define MOFBPDIGHKJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3F01A0)
+#define MOFBPDIGHKJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3F0100)
 
-inline static constexpr unsigned int MOFBPDIGHKJ_TypeDefinitionIndex = 23825;
+inline static constexpr unsigned int MOFBPDIGHKJ_TypeDefinitionIndex = 24282;
 
 	class MOFBPDIGHKJ : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* BFICDICDOFO; // 0x18
-		::RPG::GameCore::DynamicString* DMOBBGFFGEB; // 0x20
-		::RPG::GameCore::TargetEvaluator* KCDLOAHLFAO; // 0x28
-		::Il2CppArray<::RPG::GameCore::SetDynamicValueByCopyingBatchItem*>* ODDCGJLJMNM; // 0x30
+		::RPG::GameCore::TargetEvaluator* KCDLOAHLFAO; // 0x20
+		::Il2CppArray<::RPG::GameCore::SetDynamicValueByCopyingBatchItem*>* ODDCGJLJMNM; // 0x28
+		::RPG::GameCore::DynamicString* DMOBBGFFGEB; // 0x30
 		::RPG::GameCore::DynamicValueContextScope JDLEDIOAPHJ; // 0x38
 		::System::Void _ctor()
 		{

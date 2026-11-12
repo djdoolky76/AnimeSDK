@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/UI/InputField_ContentType.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLEIMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE27A50)
+#define MIHOYO_SDK_CONSOLEIMEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFAFF40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConsoleImeInfo_TypeDefinitionIndex = 7870;
+	inline static constexpr unsigned int ConsoleImeInfo_TypeDefinitionIndex = 7879;
 
 	class ConsoleImeInfo : public ::System::Object
 	{
 	public:
-		::System::String* title; // 0x10
-		::System::String* description; // 0x18
+		::System::String* description; // 0x10
+		::System::String* defaultValue; // 0x18
 		::System::String* placeholder; // 0x20
-		::System::String* defaultValue; // 0x28
+		::System::String* title; // 0x28
 		::System::Boolean isMultiLine; // 0x30
 		::System::Byte _padding0[0x3];
 		::UnityEngine::UI::InputField_ContentType imeType; // 0x34

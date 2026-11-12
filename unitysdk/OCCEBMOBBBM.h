@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 class OCCEBMOBBBM;
 namespace System { class String; }
 
-#define OCCEBMOBBBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D250FD0)
-#define OCCEBMOBBBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D250D50)
+#define OCCEBMOBBBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E457440)
+#define OCCEBMOBBBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4571C0)
 
-inline static constexpr unsigned int OCCEBMOBBBM_TypeDefinitionIndex = 14409;
+inline static constexpr unsigned int OCCEBMOBBBM_TypeDefinitionIndex = 14566;
 
 	class OCCEBMOBBBM : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* AKOCMKFLEBF; // 0x10
-		::System::String* OLOIFNNLKJP; // 0x18
-		::System::String* OPBOFEBHDCM; // 0x20
+		::System::String* OPBOFEBHDCM; // 0x10
+		::Il2CppArray<::System::UInt32>* AKOCMKFLEBF; // 0x18
+		::System::String* OLOIFNNLKJP; // 0x20
 		::RPG::Client::TextID OENAMINOLLF; // 0x28
 		::System::UInt32 HDDIKPLHHPP; // 0x38
 		::System::UInt32 BEOFPCAACEP; // 0x3C

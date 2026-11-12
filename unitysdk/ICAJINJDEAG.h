@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RemoveEntityFromRelationGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ICAJINJDEAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E48EE0)
-#define ICAJINJDEAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E48F10)
+#define ICAJINJDEAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16DF3ED0)
+#define ICAJINJDEAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DF3F00)
 
-inline static constexpr unsigned int ICAJINJDEAG_TypeDefinitionIndex = 55023;
+inline static constexpr unsigned int ICAJINJDEAG_TypeDefinitionIndex = 56197;
 
 	class ICAJINJDEAG
 	{

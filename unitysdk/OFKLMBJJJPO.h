@@ -12,33 +12,33 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define OFKLMBJJJPO_ADHDFEOFJNM_OFFSET UNITYSDK_OFFSET(0x1DE49150)
-#define OFKLMBJJJPO_BIOOHPIHADO_OFFSET UNITYSDK_OFFSET(0x1DE491A0)
-#define OFKLMBJJJPO_BKAGFOAHENE_OFFSET UNITYSDK_OFFSET(0x1DE49170)
-#define OFKLMBJJJPO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DE496E0)
-#define OFKLMBJJJPO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE49AE0)
-#define OFKLMBJJJPO_CLCNPIJOIBL_OFFSET UNITYSDK_OFFSET(0x1DE491B0)
-#define OFKLMBJJJPO_CLONE_OFFSET UNITYSDK_OFFSET(0x1DE49100)
-#define OFKLMBJJJPO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DE49050)
-#define OFKLMBJJJPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE49000)
-#define OFKLMBJJJPO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DE49280)
-#define OFKLMBJJJPO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DE491E0)
-#define OFKLMBJJJPO_FMMFNNOAAEK_OFFSET UNITYSDK_OFFSET(0x1DE49190)
-#define OFKLMBJJJPO_FPJLEGMCENK_OFFSET UNITYSDK_OFFSET(0x1DE491C0)
-#define OFKLMBJJJPO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DE49310)
-#define OFKLMBJJJPO_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1DE48FC0)
-#define OFKLMBJJJPO_KMGGNNGDLCO_OFFSET UNITYSDK_OFFSET(0x1DE49180)
-#define OFKLMBJJJPO_LKGJAFJLNMM_OFFSET UNITYSDK_OFFSET(0x1DE49140)
-#define OFKLMBJJJPO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DE499C0)
-#define OFKLMBJJJPO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DE49940)
-#define OFKLMBJJJPO_MJOEMBBMBON_OFFSET UNITYSDK_OFFSET(0x1DE49130)
-#define OFKLMBJJJPO_NMKKOBNKIDP_OFFSET UNITYSDK_OFFSET(0x1DE49160)
-#define OFKLMBJJJPO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DE48FF0)
-#define OFKLMBJJJPO_PMPGMADMADA_OFFSET UNITYSDK_OFFSET(0x1DE491D0)
-#define OFKLMBJJJPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE49410)
-#define OFKLMBJJJPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE49470)
+#define OFKLMBJJJPO_ADHDFEOFJNM_OFFSET UNITYSDK_OFFSET(0x1F0EDE40)
+#define OFKLMBJJJPO_BIOOHPIHADO_OFFSET UNITYSDK_OFFSET(0x1F0EDDF0)
+#define OFKLMBJJJPO_BKAGFOAHENE_OFFSET UNITYSDK_OFFSET(0x1F0EDE90)
+#define OFKLMBJJJPO_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F0EE3C0)
+#define OFKLMBJJJPO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0EE7D0)
+#define OFKLMBJJJPO_CLCNPIJOIBL_OFFSET UNITYSDK_OFFSET(0x1F0EDE00)
+#define OFKLMBJJJPO_CLONE_OFFSET UNITYSDK_OFFSET(0x1F0EDDC0)
+#define OFKLMBJJJPO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0EDD10)
+#define OFKLMBJJJPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0EDCC0)
+#define OFKLMBJJJPO_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F0EDF40)
+#define OFKLMBJJJPO_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F0EDEA0)
+#define OFKLMBJJJPO_FMMFNNOAAEK_OFFSET UNITYSDK_OFFSET(0x1F0EDE20)
+#define OFKLMBJJJPO_FPJLEGMCENK_OFFSET UNITYSDK_OFFSET(0x1F0EDE50)
+#define OFKLMBJJJPO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F0EDFD0)
+#define OFKLMBJJJPO_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F0EDC80)
+#define OFKLMBJJJPO_KMGGNNGDLCO_OFFSET UNITYSDK_OFFSET(0x1F0EDE10)
+#define OFKLMBJJJPO_LKGJAFJLNMM_OFFSET UNITYSDK_OFFSET(0x1F0EDE30)
+#define OFKLMBJJJPO_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F0EE6A0)
+#define OFKLMBJJJPO_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F0EE620)
+#define OFKLMBJJJPO_MJOEMBBMBON_OFFSET UNITYSDK_OFFSET(0x1F0EDE70)
+#define OFKLMBJJJPO_NMKKOBNKIDP_OFFSET UNITYSDK_OFFSET(0x1F0EDE80)
+#define OFKLMBJJJPO_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F0EDCB0)
+#define OFKLMBJJJPO_PMPGMADMADA_OFFSET UNITYSDK_OFFSET(0x1F0EDE60)
+#define OFKLMBJJJPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F0EE0F0)
+#define OFKLMBJJJPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F0EE150)
 
-inline static constexpr unsigned int OFKLMBJJJPO_TypeDefinitionIndex = 29817;
+inline static constexpr unsigned int OFKLMBJJJPO_TypeDefinitionIndex = 30715;
 
 	class OFKLMBJJJPO : public ::System::Object
 	{
@@ -46,27 +46,26 @@ inline static constexpr unsigned int OFKLMBJJJPO_TypeDefinitionIndex = 29817;
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* CBFGBDBJHID; // 0x18
 		::System::UInt32 EIMJCAPGIAC; // 0x20
-		::System::UInt32 MGPCOLIAECE; // 0x24
+		::System::UInt32 DBDCJHECJOO; // 0x24
 		::System::UInt32 HKMEMBIPHAN; // 0x28
-		::System::Boolean CCNIHPKICOK; // 0x2C
-		::System::Byte _padding0[0x3];
-		::System::UInt32 DBDCJHECJOO; // 0x30
-		static ::Google::Protobuf::MessageParser_1<::OFKLMBJJJPO*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::OFKLMBJJJPO*>**)UnitySDK::FromName("", "OFKLMBJJJPO")->GetStaticField(0x17910);
-		}
-
+		::System::UInt32 MGPCOLIAECE; // 0x2C
+		::System::Boolean CCNIHPKICOK; // 0x30
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_DDFODHOFBIP()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "OFKLMBJJJPO")->GetStaticField(0x17918);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "OFKLMBJJJPO")->GetStaticField(0x12BC0);
 		}
 
-		// static const ::System::Object IMGDAOEBONP; // 0x0
-		// static const ::System::Object BKCLJIHIJIJ; // 0x0
-		// static const ::System::Object JGGMJFOBLCI; // 0x0
-		// static const ::System::Object KOAPPFHOOEJ; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::OFKLMBJJJPO*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::OFKLMBJJJPO*>**)UnitySDK::FromName("", "OFKLMBJJJPO")->GetStaticField(0x12BC8);
+		}
+
 		// static const ::System::Object BOGFCKKNGJB; // 0x0
+		// static const ::System::Object KOAPPFHOOEJ; // 0x0
+		// static const ::System::Object BKCLJIHIJIJ; // 0x0
 		// static const ::System::Object HACFLGOPALO; // 0x0
+		// static const ::System::Object IMGDAOEBONP; // 0x0
+		// static const ::System::Object JGGMJFOBLCI; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_CTOR_OFFSET))(this);
@@ -97,29 +96,14 @@ inline static constexpr unsigned int OFKLMBJJJPO_TypeDefinitionIndex = 29817;
 			return ((::OFKLMBJJJPO*(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* MJOEMBBMBON()
+		::System::UInt32 BIOOHPIHADO()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_MJOEMBBMBON_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_BIOOHPIHADO_OFFSET))(this);
 		}
 
-		::System::UInt32 LKGJAFJLNMM()
+		::System::Void CLCNPIJOIBL(::System::UInt32 a1)
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_LKGJAFJLNMM_OFFSET))(this);
-		}
-
-		::System::Void ADHDFEOFJNM(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_ADHDFEOFJNM_OFFSET))(this, a1);
-		}
-
-		::System::UInt32 NMKKOBNKIDP()
-		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_NMKKOBNKIDP_OFFSET))(this);
-		}
-
-		::System::Void BKAGFOAHENE(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_BKAGFOAHENE_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_CLCNPIJOIBL_OFFSET))(this, a1);
 		}
 
 		::System::Boolean KMGGNNGDLCO()
@@ -132,14 +116,14 @@ inline static constexpr unsigned int OFKLMBJJJPO_TypeDefinitionIndex = 29817;
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_FMMFNNOAAEK_OFFSET))(this, a1);
 		}
 
-		::System::UInt32 BIOOHPIHADO()
+		::System::UInt32 LKGJAFJLNMM()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_BIOOHPIHADO_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_LKGJAFJLNMM_OFFSET))(this);
 		}
 
-		::System::Void CLCNPIJOIBL(::System::UInt32 a1)
+		::System::Void ADHDFEOFJNM(::System::UInt32 a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_CLCNPIJOIBL_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_ADHDFEOFJNM_OFFSET))(this, a1);
 		}
 
 		::System::UInt32 FPJLEGMCENK()
@@ -150,6 +134,21 @@ inline static constexpr unsigned int OFKLMBJJJPO_TypeDefinitionIndex = 29817;
 		::System::Void PMPGMADMADA(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_PMPGMADMADA_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* MJOEMBBMBON()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_MJOEMBBMBON_OFFSET))(this);
+		}
+
+		::System::UInt32 NMKKOBNKIDP()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_NMKKOBNKIDP_OFFSET))(this);
+		}
+
+		::System::Void BKAGFOAHENE(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + OFKLMBJJJPO_BKAGFOAHENE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

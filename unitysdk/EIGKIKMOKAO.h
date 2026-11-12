@@ -4,10 +4,10 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_ElfByIsTakeOutState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EIGKIKMOKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x154C6290)
-#define EIGKIKMOKAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x154C6310)
+#define EIGKIKMOKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x16404E70)
+#define EIGKIKMOKAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16404EF0)
 
-inline static constexpr unsigned int EIGKIKMOKAO_TypeDefinitionIndex = 52149;
+inline static constexpr unsigned int EIGKIKMOKAO_TypeDefinitionIndex = 53254;
 
 	class EIGKIKMOKAO
 	{

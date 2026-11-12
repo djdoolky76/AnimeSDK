@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_SHOTTEMPLATERUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xE0BEAA0)
+#define RPG_CLIENT_SHOTTEMPLATERUNTIME_CTOR_OFFSET UNITYSDK_OFFSET(0xEB288C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShotTemplateRuntime_TypeDefinitionIndex = 69692;
+	inline static constexpr unsigned int ShotTemplateRuntime_TypeDefinitionIndex = 71649;
 
 	class ShotTemplateRuntime : public ::UnityEngine::ScriptableObject
 	{

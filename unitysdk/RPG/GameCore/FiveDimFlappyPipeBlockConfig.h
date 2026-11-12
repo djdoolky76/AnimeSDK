@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimFlappyPipeBlockConfig; }
 
-#define RPG_GAMECORE_FIVEDIMFLAPPYPIPEBLOCKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BE080)
-#define RPG_GAMECORE_FIVEDIMFLAPPYPIPEBLOCKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BDF50)
+#define RPG_GAMECORE_FIVEDIMFLAPPYPIPEBLOCKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8CA8E0)
+#define RPG_GAMECORE_FIVEDIMFLAPPYPIPEBLOCKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8CA7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimFlappyPipeBlockConfig_TypeDefinitionIndex = 16728;
+	inline static constexpr unsigned int FiveDimFlappyPipeBlockConfig_TypeDefinitionIndex = 16894;
 
 	class FiveDimFlappyPipeBlockConfig : public ::RPG::GameCore::JsonConfig
 	{

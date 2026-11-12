@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerCableProceduralEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC44C60)
-#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC44C70)
-#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC44C30)
+#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE57EA0)
+#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE57EB0)
+#define RPG_GAMECORE_TRIGGERCABLEPROCEDURALEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE57E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerCableProceduralEffect_TypeDefinitionIndex = 23634;
+	inline static constexpr unsigned int TriggerCableProceduralEffect_TypeDefinitionIndex = 24081;
 
 	class TriggerCableProceduralEffect : public ::RPG::GameCore::TaskConfig
 	{

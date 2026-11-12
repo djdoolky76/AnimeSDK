@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E25E0)
-#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E2600)
-#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E25A0)
+#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F4920)
+#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F4940)
+#define RPG_GAMECORE_CREATEBATTLEEVENTSERVANT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F48E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateBattleEventServant_TypeDefinitionIndex = 23428;
+	inline static constexpr unsigned int CreateBattleEventServant_TypeDefinitionIndex = 23874;
 
 	class CreateBattleEventServant : public ::RPG::GameCore::TaskConfig
 	{

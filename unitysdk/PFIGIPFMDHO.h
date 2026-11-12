@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int PFIGIPFMDHO_TypeDefinitionIndex = 60279;
+inline static constexpr unsigned int PFIGIPFMDHO_TypeDefinitionIndex = 61563;
 
 	struct alignas(8) PFIGIPFMDHO
 	{

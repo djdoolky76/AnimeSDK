@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimPortalTarget; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPORTALTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D3050)
-#define RPG_GAMECORE_FIVEDIMPORTALTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D0D00)
+#define RPG_GAMECORE_FIVEDIMPORTALTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DDBE0)
+#define RPG_GAMECORE_FIVEDIMPORTALTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DD9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPortalTarget_TypeDefinitionIndex = 18572;
+	inline static constexpr unsigned int FiveDimPortalTarget_TypeDefinitionIndex = 18732;
 
 	class FiveDimPortalTarget : public ::RPG::GameCore::JsonConfig
 	{

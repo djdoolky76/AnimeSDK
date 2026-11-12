@@ -1,20 +1,20 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HEOLKMLMPML.h"
+#include "unitysdk/RPG/Client/GridFightRichTextNodeCompiler.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class DNGMCNPJHBJ;
 class FMKEJLGKEMH;
 namespace System { class String; }
 
-#define AKILPHPMMBF_ACMPHJJOOHE_OFFSET UNITYSDK_OFFSET(0x12CD4130)
-#define AKILPHPMMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x12CD4990)
-#define AKILPHPMMBF_GHBFNFFDGLJ_OFFSET UNITYSDK_OFFSET(0x12CD46A0)
-#define AKILPHPMMBF_GMFJFBJFMFH_OFFSET UNITYSDK_OFFSET(0x12CD43C0)
-#define AKILPHPMMBF_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x12CD40E0)
+#define AKILPHPMMBF_COMPILE_OFFSET UNITYSDK_OFFSET(0x12DBA4F0)
+#define AKILPHPMMBF_CTOR_OFFSET UNITYSDK_OFFSET(0x12DBAD90)
+#define AKILPHPMMBF_GET_TAG_OFFSET UNITYSDK_OFFSET(0x12DBA4A0)
+#define AKILPHPMMBF_GHBFNFFDGLJ_OFFSET UNITYSDK_OFFSET(0x12DBAAA0)
+#define AKILPHPMMBF_GMFJFBJFMFH_OFFSET UNITYSDK_OFFSET(0x12DBA780)
 
-inline static constexpr unsigned int AKILPHPMMBF_TypeDefinitionIndex = 65294;
+inline static constexpr unsigned int AKILPHPMMBF_TypeDefinitionIndex = 67054;
 
-	class AKILPHPMMBF : public ::HEOLKMLMPML
+	class AKILPHPMMBF : public ::RPG::Client::GridFightRichTextNodeCompiler
 	{
 	public:
 		::FMKEJLGKEMH* JKLBAAHFJDJ; // 0x10
@@ -23,14 +23,14 @@ inline static constexpr unsigned int AKILPHPMMBF_TypeDefinitionIndex = 65294;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKILPHPMMBF_CTOR_OFFSET))(this);
 		}
 
-		::System::String* NDMBDGKAJEK()
+		::System::String* get_Tag()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKILPHPMMBF_NDMBDGKAJEK_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKILPHPMMBF_GET_TAG_OFFSET))(this);
 		}
 
-		::System::String* ACMPHJJOOHE(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
+		::System::String* Compile(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + AKILPHPMMBF_ACMPHJJOOHE_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + AKILPHPMMBF_COMPILE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Int32 GMFJFBJFMFH()

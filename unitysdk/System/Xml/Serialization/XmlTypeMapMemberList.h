@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Serialization/XmlTypeMapMemberElement.h"
 
-#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF12910)
+#define SYSTEM_XML_SERIALIZATION_XMLTYPEMAPMEMBERLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x201C20F0)
 
 namespace System::Xml::Serialization
 {

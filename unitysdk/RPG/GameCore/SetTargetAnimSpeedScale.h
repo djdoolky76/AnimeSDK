@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetTargetAnimSpeedScale; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC44C0)
-#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC44D0)
-#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC4490)
+#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD64C0)
+#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD64D0)
+#define RPG_GAMECORE_SETTARGETANIMSPEEDSCALE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD6490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetAnimSpeedScale_TypeDefinitionIndex = 22885;
+	inline static constexpr unsigned int SetTargetAnimSpeedScale_TypeDefinitionIndex = 23311;
 
 	class SetTargetAnimSpeedScale : public ::RPG::GameCore::TaskConfig
 	{

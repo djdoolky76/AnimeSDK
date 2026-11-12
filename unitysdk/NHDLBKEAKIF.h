@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpticalIllusionSetOpCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHDLBKEAKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xBBBEB50)
-#define NHDLBKEAKIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBBEB80)
+#define NHDLBKEAKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC49AE90)
+#define NHDLBKEAKIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC49AEC0)
 
-inline static constexpr unsigned int NHDLBKEAKIF_TypeDefinitionIndex = 53044;
+inline static constexpr unsigned int NHDLBKEAKIF_TypeDefinitionIndex = 54204;
 
 	class NHDLBKEAKIF
 	{

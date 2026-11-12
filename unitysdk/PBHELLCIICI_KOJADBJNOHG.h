@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PBHELLCIICI_KOJADBJNOHG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEE230)
+#define PBHELLCIICI_KOJADBJNOHG_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F2750)
 
-inline static constexpr unsigned int PBHELLCIICI_KOJADBJNOHG_TypeDefinitionIndex = 60851;
+inline static constexpr unsigned int PBHELLCIICI_KOJADBJNOHG_TypeDefinitionIndex = 62230;
 
 	class PBHELLCIICI_KOJADBJNOHG : public ::System::Object
 	{

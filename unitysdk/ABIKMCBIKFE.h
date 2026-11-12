@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class PauseGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABIKMCBIKFE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0FB4F0)
-#define ABIKMCBIKFE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB0FB500)
-#define ABIKMCBIKFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0FB540)
-#define ABIKMCBIKFE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0FB9E0)
-#define ABIKMCBIKFE_TICK_OFFSET UNITYSDK_OFFSET(0xB0FBA30)
+#define ABIKMCBIKFE_CTOR_OFFSET UNITYSDK_OFFSET(0xB75DEC0)
+#define ABIKMCBIKFE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB75DED0)
+#define ABIKMCBIKFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB75DF10)
+#define ABIKMCBIKFE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB75E3B0)
+#define ABIKMCBIKFE_TICK_OFFSET UNITYSDK_OFFSET(0xB75E400)
 
-inline static constexpr unsigned int ABIKMCBIKFE_TypeDefinitionIndex = 58249;
+inline static constexpr unsigned int ABIKMCBIKFE_TypeDefinitionIndex = 59505;
 
 	class ABIKMCBIKFE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::PauseGame* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::PauseGame* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PauseGame* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PauseGame*))((::PBYTE)hIl2Cpp + ABIKMCBIKFE_CTOR_OFFSET))(this, a1, a2);

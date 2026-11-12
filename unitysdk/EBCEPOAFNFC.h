@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define EBCEPOAFNFC_CTOR_OFFSET UNITYSDK_OFFSET(0x12CE9910)
-#define EBCEPOAFNFC_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0x12CE97B0)
+#define EBCEPOAFNFC_CTOR_OFFSET UNITYSDK_OFFSET(0x13A9A740)
+#define EBCEPOAFNFC_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0x13A9A5E0)
 
-inline static constexpr unsigned int EBCEPOAFNFC_TypeDefinitionIndex = 68697;
+inline static constexpr unsigned int EBCEPOAFNFC_TypeDefinitionIndex = 70649;
 
 	class EBCEPOAFNFC
 	{

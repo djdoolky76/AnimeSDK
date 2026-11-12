@@ -7,22 +7,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpaceZooChannelConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF3D70)
-#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAF36E0)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED05D70)
+#define RPG_GAMECORE_SPACEZOOCHANNELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED056E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooChannelConfigRow_TypeDefinitionIndex = 12362;
+	inline static constexpr unsigned int SpaceZooChannelConfigRow_TypeDefinitionIndex = 12429;
 
 	class SpaceZooChannelConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* OfficialNameText; // 0x10
 		::RPG::GameCore::SpaceZooInheritType InheritType; // 0x18
-		::RPG::GameCore::SpaceZooChannelType Channel; // 0x1C
-		::System::UInt32 DefaultFeatureID; // 0x20
+		::System::UInt32 RewardID; // 0x1C
+		::RPG::GameCore::SpaceZooChannelType Channel; // 0x20
 		::System::UInt32 HandbookTag; // 0x24
-		::System::UInt32 RewardID; // 0x28
+		::System::UInt32 DefaultFeatureID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPACEZOOCHANNELCONFIGROW_CTOR_OFFSET))(this);

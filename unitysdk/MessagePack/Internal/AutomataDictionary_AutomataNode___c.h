@@ -5,31 +5,31 @@ namespace MessagePack::Internal { class AutomataDictionary_AutomataNode; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB86CB0)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB86CF0)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1BB86D00)
-#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__16_1_OFFSET UNITYSDK_OFFSET(0x1BB86D20)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD0FB20)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD0FB60)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1CD0FB70)
+#define MESSAGEPACK_INTERNAL_AUTOMATADICTIONARY_AUTOMATANODE___C__EMITSEARCHNEXTCORE_B__16_1_OFFSET UNITYSDK_OFFSET(0x1CD0FB90)
 
 namespace MessagePack::Internal
 {
-	inline static constexpr unsigned int AutomataDictionary_AutomataNode___c_TypeDefinitionIndex = 7283;
+	inline static constexpr unsigned int AutomataDictionary_AutomataNode___c_TypeDefinitionIndex = 7294;
 
 	class AutomataDictionary_AutomataNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x258A0);
+			return (::System::Object**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x481F0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x258A8);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x481F8);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__16_1()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x258B0);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("MessagePack.Internal", "<>c")->GetStaticField(0x48200);
 		}
 
 		static ::System::Void _cctor()

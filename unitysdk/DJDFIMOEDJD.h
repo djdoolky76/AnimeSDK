@@ -4,10 +4,10 @@
 class APDMIIEDMLI_CFHOMFLPNNO;
 namespace RPG::GameCore { class MiConditionConfigBase; }
 
-#define DJDFIMOEDJD_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xF22DFC0)
-#define DJDFIMOEDJD_CTOR_OFFSET UNITYSDK_OFFSET(0xF22E470)
+#define DJDFIMOEDJD_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xFFAF0F0)
+#define DJDFIMOEDJD_CTOR_OFFSET UNITYSDK_OFFSET(0xFFAF5A0)
 
-inline static constexpr unsigned int DJDFIMOEDJD_TypeDefinitionIndex = 59949;
+inline static constexpr unsigned int DJDFIMOEDJD_TypeDefinitionIndex = 61233;
 
 	class DJDFIMOEDJD : public ::System::Object
 	{

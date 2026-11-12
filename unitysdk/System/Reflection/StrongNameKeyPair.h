@@ -7,9 +7,9 @@ namespace System { class String; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 namespace System::Security::Cryptography { class RSA; }
 
-#define SYSTEM_REFLECTION_STRONGNAMEKEYPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2B16B0)
-#define SYSTEM_REFLECTION_STRONGNAMEKEYPAIR_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1C2B1980)
-#define SYSTEM_REFLECTION_STRONGNAMEKEYPAIR_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C2B1800)
+#define SYSTEM_REFLECTION_STRONGNAMEKEYPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D438390)
+#define SYSTEM_REFLECTION_STRONGNAMEKEYPAIR_SYSTEM_RUNTIME_SERIALIZATION_IDESERIALIZATIONCALLBACK_ONDESERIALIZATION_OFFSET UNITYSDK_OFFSET(0x1D438660)
+#define SYSTEM_REFLECTION_STRONGNAMEKEYPAIR_SYSTEM_RUNTIME_SERIALIZATION_ISERIALIZABLE_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D4384E0)
 
 namespace System::Reflection
 {
@@ -18,10 +18,10 @@ namespace System::Reflection
 	class StrongNameKeyPair : public ::System::Object
 	{
 	public:
-		::System::Security::Cryptography::RSA* _rsa; // 0x10
+		::Il2CppArray<::System::Byte>* _publicKey; // 0x10
 		::Il2CppArray<::System::Byte>* _keyPairArray; // 0x18
-		::System::String* _keyPairContainer; // 0x20
-		::Il2CppArray<::System::Byte>* _publicKey; // 0x28
+		::System::Security::Cryptography::RSA* _rsa; // 0x20
+		::System::String* _keyPairContainer; // 0x28
 		::System::Boolean _keyPairExported; // 0x30
 		::System::Void _ctor(::System::Runtime::Serialization::SerializationInfo* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{

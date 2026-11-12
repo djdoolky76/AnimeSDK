@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RemoveAirline; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEAIRLINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D983BE0)
-#define RPG_GAMECORE_REMOVEAIRLINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D983BF0)
-#define RPG_GAMECORE_REMOVEAIRLINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D983BB0)
+#define RPG_GAMECORE_REMOVEAIRLINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9C050)
+#define RPG_GAMECORE_REMOVEAIRLINE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB9C060)
+#define RPG_GAMECORE_REMOVEAIRLINE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9C020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveAirline_TypeDefinitionIndex = 21877;
+	inline static constexpr unsigned int RemoveAirline_TypeDefinitionIndex = 22268;
 
 	class RemoveAirline : public ::RPG::GameCore::TaskConfig
 	{

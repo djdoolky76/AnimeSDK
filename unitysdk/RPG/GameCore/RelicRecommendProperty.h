@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RelicRecommendProperty; }
 
-#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D97FE50)
-#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D97FD30)
+#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB98280)
+#define RPG_GAMECORE_RELICRECOMMENDPROPERTY_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB98160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicRecommendProperty_TypeDefinitionIndex = 12760;
+	inline static constexpr unsigned int RelicRecommendProperty_TypeDefinitionIndex = 12830;
 
 	class RelicRecommendProperty : public ::System::Object
 	{

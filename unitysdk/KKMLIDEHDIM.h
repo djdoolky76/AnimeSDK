@@ -3,10 +3,10 @@
 class NMFDMKMIDKB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKMLIDEHDIM_CTOR_OFFSET UNITYSDK_OFFSET(0xB4D5E30)
-#define KKMLIDEHDIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4D5E60)
+#define KKMLIDEHDIM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1F1E0)
+#define KKMLIDEHDIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD1F210)
 
-inline static constexpr unsigned int KKMLIDEHDIM_TypeDefinitionIndex = 55016;
+inline static constexpr unsigned int KKMLIDEHDIM_TypeDefinitionIndex = 56190;
 
 	class KKMLIDEHDIM
 	{

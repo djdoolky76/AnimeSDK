@@ -8,49 +8,49 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE85370)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE853B0)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C__COUNTUNLOCKEDSLOTS_B__12_0_OFFSET UNITYSDK_OFFSET(0xCE853C0)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__29_0_OFFSET UNITYSDK_OFFSET(0xCE85740)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__29_1_OFFSET UNITYSDK_OFFSET(0xCE85750)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__21_0_OFFSET UNITYSDK_OFFSET(0xCE853E0)
-#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__21_1_OFFSET UNITYSDK_OFFSET(0xCE85540)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD84D5D0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD84D610)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C__COUNTUNLOCKEDSLOTS_B__12_0_OFFSET UNITYSDK_OFFSET(0xD84D620)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__29_0_OFFSET UNITYSDK_OFFSET(0xD84D9A0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFAMPLIFICATION_B__29_1_OFFSET UNITYSDK_OFFSET(0xD84D9B0)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__21_0_OFFSET UNITYSDK_OFFSET(0xD84D640)
+#define RPG_CLIENT_FATEBUFFTRAITINFO___C___REFRESHBUFFSLOT_B__21_1_OFFSET UNITYSDK_OFFSET(0xD84D7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateBuffTraitInfo___c_TypeDefinitionIndex = 64000;
+	inline static constexpr unsigned int FateBuffTraitInfo___c_TypeDefinitionIndex = 65445;
 
 	class FateBuffTraitInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::FateBuffSlotData*>** StaticGet___9__21_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::FateBuffSlotData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58E90);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::FateBuffData*>** StaticGet___9__21_1()
-		{
-			return (::System::Comparison_1<::RPG::Client::FateBuffData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58E98);
-		}
-
-		static ::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>** StaticGet___9__12_0()
-		{
-			return (::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58EA0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58EA8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55AD0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__29_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58EB0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55AD8);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::FateBuffSlotData*>** StaticGet___9__21_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::FateBuffSlotData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55AE0);
+		}
+
+		static ::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>** StaticGet___9__12_0()
+		{
+			return (::System::Func_2<::RPG::Client::FateBuffSlotData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55AE8);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::FateBuffData*>** StaticGet___9__21_1()
+		{
+			return (::System::Comparison_1<::RPG::Client::FateBuffData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55AF0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__29_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58EB8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x55AF8);
 		}
 
 		static ::System::Void _cctor()

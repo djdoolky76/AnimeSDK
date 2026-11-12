@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateShopGoodsConfig; }
 
-#define RPG_GAMECORE_FATESHOPGOODSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69EC40)
-#define RPG_GAMECORE_FATESHOPGOODSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69EC00)
+#define RPG_GAMECORE_FATESHOPGOODSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AB5B0)
+#define RPG_GAMECORE_FATESHOPGOODSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8AB570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateShopGoodsConfig_TypeDefinitionIndex = 19260;
+	inline static constexpr unsigned int FateShopGoodsConfig_TypeDefinitionIndex = 19450;
 
 	class FateShopGoodsConfig : public ::RPG::GameCore::JsonConfig
 	{

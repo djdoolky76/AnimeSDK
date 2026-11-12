@@ -4,10 +4,10 @@
 class EDPHMDDGGGL;
 namespace RPG::GameCore { class PerformanceDynamicLoadCharacter; }
 
-#define EDPHMDDGGGL___C__DISPLAYCLASS59_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13334C20)
-#define EDPHMDDGGGL___C__DISPLAYCLASS59_0___ONDYNAMICLOADSTORYCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0x1334C430)
+#define EDPHMDDGGGL___C__DISPLAYCLASS59_0_CTOR_OFFSET UNITYSDK_OFFSET(0x147E6640)
+#define EDPHMDDGGGL___C__DISPLAYCLASS59_0___ONDYNAMICLOADSTORYCHARACTER_B__0_OFFSET UNITYSDK_OFFSET(0x147E6650)
 
-inline static constexpr unsigned int EDPHMDDGGGL___c__DisplayClass59_0_TypeDefinitionIndex = 60724;
+inline static constexpr unsigned int EDPHMDDGGGL___c__DisplayClass59_0_TypeDefinitionIndex = 62101;
 
 	class EDPHMDDGGGL___c__DisplayClass59_0 : public ::System::Object
 	{

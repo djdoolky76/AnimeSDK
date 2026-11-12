@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class FILCLOOIFKF;
 
-#define ELFIKKJOJPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61510)
+#define ELFIKKJOJPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC24D90)
 
-inline static constexpr unsigned int ELFIKKJOJPP_TypeDefinitionIndex = 43206;
+inline static constexpr unsigned int ELFIKKJOJPP_TypeDefinitionIndex = 44187;
 
 	class ELFIKKJOJPP : public ::System::Object
 	{

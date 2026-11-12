@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GCFreeClosure { template <typename T1, typename T2> class FuncByRef_2; }
 
-inline static constexpr unsigned int DGEPOBDMLDJ_Reader_1_TypeDefinitionIndex = 6542;
+inline static constexpr unsigned int DGEPOBDMLDJ_Reader_1_TypeDefinitionIndex = 6549;
 
 	template <typename T>
 	class DGEPOBDMLDJ_Reader_1 : public ::System::Object

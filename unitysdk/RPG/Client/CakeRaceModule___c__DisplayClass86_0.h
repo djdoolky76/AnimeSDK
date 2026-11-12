@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class CakeRaceModule; }
 
-#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC923000)
-#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0___TRYACCEPTINVITED_B__0_OFFSET UNITYSDK_OFFSET(0xC925070)
+#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD288880)
+#define RPG_CLIENT_CAKERACEMODULE___C__DISPLAYCLASS86_0___TRYACCEPTINVITED_B__0_OFFSET UNITYSDK_OFFSET(0xD28ADA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceModule___c__DisplayClass86_0_TypeDefinitionIndex = 63011;
+	inline static constexpr unsigned int CakeRaceModule___c__DisplayClass86_0_TypeDefinitionIndex = 64449;
 
 	class CakeRaceModule___c__DisplayClass86_0 : public ::System::Object
 	{

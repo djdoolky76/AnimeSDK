@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ONTOUCHNOTOVERME_CTOR_OFFSET UNITYSDK_OFFSET(0x16757060)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKTOUCH_ONTOUCHNOTOVERME_CTOR_OFFSET UNITYSDK_OFFSET(0x1759B290)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickTouch_OnTouchNotOverMe_TypeDefinitionIndex = 40278;
+	inline static constexpr unsigned int QuickTouch_OnTouchNotOverMe_TypeDefinitionIndex = 41253;
 
 	class QuickTouch_OnTouchNotOverMe
 	{

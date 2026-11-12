@@ -7,16 +7,16 @@ namespace System { class Type; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine::Playables { class PlayableBinding_CreateOutputMethod; }
 
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F40B7B0)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F40B790)
-#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUT_OFFSET UNITYSDK_OFFSET(0x3C70510)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CCTOR_OFFSET UNITYSDK_OFFSET(0x206BC370)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEINTERNAL_OFFSET UNITYSDK_OFFSET(0x206BC350)
+#define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_CREATEOUTPUT_OFFSET UNITYSDK_OFFSET(0x3EBF790)
 #define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_GET_OUTPUTTARGETTYPE_OFFSET UNITYSDK_OFFSET(0x94D0)
 #define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_GET_SOURCEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D40)
 #define UNITYENGINE_PLAYABLES_PLAYABLEBINDING_GET_STREAMNAME_OFFSET UNITYSDK_OFFSET(0x1D30)
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableBinding_TypeDefinitionIndex = 4915;
+	inline static constexpr unsigned int PlayableBinding_TypeDefinitionIndex = 4920;
 
 	struct alignas(8) PlayableBinding
 	{
@@ -26,12 +26,12 @@ namespace UnityEngine::Playables
 		::UnityEngine::Playables::PlayableBinding_CreateOutputMethod* m_CreateOutputMethod; // 0x28
 		static ::Il2CppArray<::UnityEngine::Playables::PlayableBinding>** StaticGet_None()
 		{
-			return (::Il2CppArray<::UnityEngine::Playables::PlayableBinding>**)UnitySDK::FromName("UnityEngine.Playables", "PlayableBinding")->GetStaticField(0x12860);
+			return (::Il2CppArray<::UnityEngine::Playables::PlayableBinding>**)UnitySDK::FromName("UnityEngine.Playables", "PlayableBinding")->GetStaticField(0xE860);
 		}
 
 		static ::System::Double* StaticGet_DefaultDuration()
 		{
-			return (::System::Double*)UnitySDK::FromName("UnityEngine.Playables", "PlayableBinding")->GetStaticField(0x4060);
+			return (::System::Double*)UnitySDK::FromName("UnityEngine.Playables", "PlayableBinding")->GetStaticField(0x3030);
 		}
 
 		static ::System::Void _cctor()

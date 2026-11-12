@@ -5,65 +5,65 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define EOIJLIIHGJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x155C3C90)
-#define EOIJLIIHGJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x155C3CD0)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_0_OFFSET UNITYSDK_OFFSET(0x155C3CE0)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_1_OFFSET UNITYSDK_OFFSET(0x155C3D90)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_2_OFFSET UNITYSDK_OFFSET(0x155C3E40)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_3_OFFSET UNITYSDK_OFFSET(0x155C3F10)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_4_OFFSET UNITYSDK_OFFSET(0x155C3F50)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_5_OFFSET UNITYSDK_OFFSET(0x155C4000)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_6_OFFSET UNITYSDK_OFFSET(0x155C40B0)
-#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_7_OFFSET UNITYSDK_OFFSET(0x155C4160)
+#define EOIJLIIHGJD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x164D5D10)
+#define EOIJLIIHGJD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x164D5D50)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_0_OFFSET UNITYSDK_OFFSET(0x164D5D60)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_1_OFFSET UNITYSDK_OFFSET(0x164D5E10)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_2_OFFSET UNITYSDK_OFFSET(0x164D5EC0)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_3_OFFSET UNITYSDK_OFFSET(0x164D5F90)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_4_OFFSET UNITYSDK_OFFSET(0x164D5FD0)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_5_OFFSET UNITYSDK_OFFSET(0x164D6080)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_6_OFFSET UNITYSDK_OFFSET(0x164D6130)
+#define EOIJLIIHGJD___C__CREATEPLAYERSETTING_B__0_7_OFFSET UNITYSDK_OFFSET(0x164D61E0)
 
-inline static constexpr unsigned int EOIJLIIHGJD___c_TypeDefinitionIndex = 66696;
+inline static constexpr unsigned int EOIJLIIHGJD___c_TypeDefinitionIndex = 68632;
 
 	class EOIJLIIHGJD___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_5()
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_2()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538E0);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_4()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538E8);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319A0);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_1()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538F0);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_2()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538F8);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_7()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53900);
-		}
-
-		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_6()
-		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53908);
-		}
-
-		static ::System::Action_1<::System::Object*>** StaticGet___9__0_3()
-		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53910);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319A8);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53918);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53920);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319B8);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_6()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319C0);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_4()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319C8);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_5()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319D0);
+		}
+
+		static ::System::Action_1<::System::Boolean>** StaticGet___9__0_7()
+		{
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319D8);
+		}
+
+		static ::System::Action_1<::System::Object*>** StaticGet___9__0_3()
+		{
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x319E0);
 		}
 
 		static ::System::Void _cctor()

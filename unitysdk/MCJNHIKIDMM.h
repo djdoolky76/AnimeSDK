@@ -5,11 +5,11 @@ namespace RPG::Client { class LocalizedTextSDF; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define MCJNHIKIDMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB882940)
-#define MCJNHIKIDMM_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xB882880)
-#define MCJNHIKIDMM_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xB8828D0)
+#define MCJNHIKIDMM_CTOR_OFFSET UNITYSDK_OFFSET(0xC0E97D0)
+#define MCJNHIKIDMM_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xC0E9710)
+#define MCJNHIKIDMM_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xC0E9760)
 
-inline static constexpr unsigned int MCJNHIKIDMM_TypeDefinitionIndex = 73104;
+inline static constexpr unsigned int MCJNHIKIDMM_TypeDefinitionIndex = 75218;
 
 	class MCJNHIKIDMM : public ::LBAMBIMMJKB
 	{

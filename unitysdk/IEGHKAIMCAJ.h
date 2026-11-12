@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define IEGHKAIMCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EF9C60)
-#define IEGHKAIMCAJ_TRIGGER_OFFSET UNITYSDK_OFFSET(0x15EF9C20)
+#define IEGHKAIMCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16E65550)
+#define IEGHKAIMCAJ_TRIGGER_OFFSET UNITYSDK_OFFSET(0x16E65510)
 
-inline static constexpr unsigned int IEGHKAIMCAJ_TypeDefinitionIndex = 66243;
+inline static constexpr unsigned int IEGHKAIMCAJ_TypeDefinitionIndex = 68179;
 
 	class IEGHKAIMCAJ : public ::System::Object
 	{

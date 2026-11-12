@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PassageConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PASSAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F07B0)
-#define RPG_GAMECORE_PASSAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F0630)
+#define RPG_GAMECORE_PASSAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB09D80)
+#define RPG_GAMECORE_PASSAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB09C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PassageConfig_TypeDefinitionIndex = 19157;
+	inline static constexpr unsigned int PassageConfig_TypeDefinitionIndex = 19347;
 
 	class PassageConfig : public ::RPG::GameCore::JsonConfig
 	{

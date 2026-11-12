@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AMKKNLEFDPP;
 
-#define MEIOIOKFOFN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C925390)
-#define MEIOIOKFOFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C925410)
+#define MEIOIOKFOFN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAE68C0)
+#define MEIOIOKFOFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE6920)
 
-inline static constexpr unsigned int MEIOIOKFOFN_TypeDefinitionIndex = 43325;
+inline static constexpr unsigned int MEIOIOKFOFN_TypeDefinitionIndex = 44306;
 
 	class MEIOIOKFOFN : public ::System::Object
 	{

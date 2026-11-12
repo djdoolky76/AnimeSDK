@@ -3,10 +3,10 @@
 #include "unitysdk/HCODNLKAGHK.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define GCHIOHGGHNE_CTOR_OFFSET UNITYSDK_OFFSET(0x159710C0)
-#define GCHIOHGGHNE_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x159710B0)
+#define GCHIOHGGHNE_CTOR_OFFSET UNITYSDK_OFFSET(0x168A7C90)
+#define GCHIOHGGHNE_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x168A7C80)
 
-inline static constexpr unsigned int GCHIOHGGHNE_TypeDefinitionIndex = 76992;
+inline static constexpr unsigned int GCHIOHGGHNE_TypeDefinitionIndex = 79326;
 
 	class GCHIOHGGHNE : public ::HCODNLKAGHK
 	{

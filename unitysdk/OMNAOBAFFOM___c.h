@@ -4,18 +4,18 @@
 class OMNAOBAFFOM;
 namespace System { class Object; }
 
-#define OMNAOBAFFOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEBC250)
-#define OMNAOBAFFOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBC290)
-#define OMNAOBAFFOM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DEBC2A0)
+#define OMNAOBAFFOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F183F70)
+#define OMNAOBAFFOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F183FB0)
+#define OMNAOBAFFOM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F183FC0)
 
-inline static constexpr unsigned int OMNAOBAFFOM___c_TypeDefinitionIndex = 27352;
+inline static constexpr unsigned int OMNAOBAFFOM___c_TypeDefinitionIndex = 27883;
 
 	class OMNAOBAFFOM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B820);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x252B0);
 		}
 
 		static ::System::Void _cctor()

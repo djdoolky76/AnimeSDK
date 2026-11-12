@@ -5,18 +5,18 @@ class NJNGLDPKCCM;
 namespace System { class Exception; }
 namespace System { class Object; }
 
-#define NJMFABHNAIG___C__DISPLAYCLASS22_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1D9E0)
-#define NJMFABHNAIG___C__DISPLAYCLASS22_1__ASYNCREQUESTSTARTNODE_B__1_OFFSET UNITYSDK_OFFSET(0xBC1E9C0)
-#define NJMFABHNAIG___C__DISPLAYCLASS22_1__ASYNCREQUESTSTARTNODE_B__2_OFFSET UNITYSDK_OFFSET(0xBC1EF60)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC501380)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_1__ASYNCREQUESTSTARTNODE_B__1_OFFSET UNITYSDK_OFFSET(0xC502330)
+#define NJMFABHNAIG___C__DISPLAYCLASS22_1__ASYNCREQUESTSTARTNODE_B__2_OFFSET UNITYSDK_OFFSET(0xC5028D0)
 
-inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_1_TypeDefinitionIndex = 75154;
+inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_1_TypeDefinitionIndex = 77481;
 
 	template <typename T>
 	class NJMFABHNAIG___c__DisplayClass22_1 : public ::System::Object
 	{
 	public:
-		::NJNGLDPKCCM* enterBattleNodeService; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::NJNGLDPKCCM* enterBattleNodeService; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJMFABHNAIG___C__DISPLAYCLASS22_1_CTOR_OFFSET))(this);

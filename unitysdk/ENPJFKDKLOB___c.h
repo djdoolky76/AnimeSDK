@@ -4,18 +4,18 @@
 class ENPJFKDKLOB;
 namespace System { class Object; }
 
-#define ENPJFKDKLOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2F4CC0)
-#define ENPJFKDKLOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F4D00)
-#define ENPJFKDKLOB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2F4D10)
+#define ENPJFKDKLOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5D9930)
+#define ENPJFKDKLOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D9970)
+#define ENPJFKDKLOB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F5D9980)
 
-inline static constexpr unsigned int ENPJFKDKLOB___c_TypeDefinitionIndex = 35102;
+inline static constexpr unsigned int ENPJFKDKLOB___c_TypeDefinitionIndex = 36030;
 
 	class ENPJFKDKLOB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54980);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50CC0);
 		}
 
 		static ::System::Void _cctor()

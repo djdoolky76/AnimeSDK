@@ -6,27 +6,27 @@ class MELDOFLDELP;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define OAOGJELMLNE_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2F280)
-#define OAOGJELMLNE_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xBD2F210)
-#define OAOGJELMLNE_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBD2F260)
-#define OAOGJELMLNE_GET_EFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xBD2F250)
-#define OAOGJELMLNE_GET_ID_OFFSET UNITYSDK_OFFSET(0xBD2F220)
-#define OAOGJELMLNE_GET_PRICE_OFFSET UNITYSDK_OFFSET(0xBD2F240)
-#define OAOGJELMLNE_GET_REQUIREDWORKSHOPLEVEL_OFFSET UNITYSDK_OFFSET(0xBD2F230)
-#define OAOGJELMLNE_GET_ROUNDICON_OFFSET UNITYSDK_OFFSET(0xBD2F270)
+#define OAOGJELMLNE_CTOR_OFFSET UNITYSDK_OFFSET(0xC62E290)
+#define OAOGJELMLNE_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xC62E220)
+#define OAOGJELMLNE_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC62E270)
+#define OAOGJELMLNE_GET_EFFECTIDLIST_OFFSET UNITYSDK_OFFSET(0xC62E260)
+#define OAOGJELMLNE_GET_ID_OFFSET UNITYSDK_OFFSET(0xC62E230)
+#define OAOGJELMLNE_GET_PRICE_OFFSET UNITYSDK_OFFSET(0xC62E250)
+#define OAOGJELMLNE_GET_REQUIREDWORKSHOPLEVEL_OFFSET UNITYSDK_OFFSET(0xC62E240)
+#define OAOGJELMLNE_GET_ROUNDICON_OFFSET UNITYSDK_OFFSET(0xC62E280)
 
-inline static constexpr unsigned int OAOGJELMLNE_TypeDefinitionIndex = 80154;
+inline static constexpr unsigned int OAOGJELMLNE_TypeDefinitionIndex = 82931;
 
 	class OAOGJELMLNE : public ::System::Object
 	{
 	public:
 		::System::String* _RoundIcon_k__BackingField; // 0x10
 		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _EffectIDList_k__BackingField; // 0x18
-		::System::Int32 _CacheKey_k__BackingField; // 0x20
-		::System::UInt32 _RequiredWorkshopLevel_k__BackingField; // 0x24
-		::System::UInt32 _Price_k__BackingField; // 0x28
-		::System::UInt32 _ID_k__BackingField; // 0x2C
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x30
+		::System::UInt32 _RequiredWorkshopLevel_k__BackingField; // 0x20
+		::System::UInt32 _ID_k__BackingField; // 0x24
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x28
+		::System::UInt32 _Price_k__BackingField; // 0x38
+		::System::Int32 _CacheKey_k__BackingField; // 0x3C
 		::System::Void _ctor(::MELDOFLDELP* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MELDOFLDELP*))((::PBYTE)hIl2Cpp + OAOGJELMLNE_CTOR_OFFSET))(this, a1);

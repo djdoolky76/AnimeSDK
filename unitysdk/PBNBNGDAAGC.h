@@ -5,9 +5,9 @@ class CCGFCHPPIDH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PBNBNGDAAGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5A90)
+#define PBNBNGDAAGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC8FA310)
 
-inline static constexpr unsigned int PBNBNGDAAGC_TypeDefinitionIndex = 64790;
+inline static constexpr unsigned int PBNBNGDAAGC_TypeDefinitionIndex = 66334;
 
 	class PBNBNGDAAGC : public ::System::Object
 	{

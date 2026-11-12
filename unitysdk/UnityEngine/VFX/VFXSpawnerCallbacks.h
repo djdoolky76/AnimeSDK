@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define UNITYENGINE_VFX_VFXSPAWNERCALLBACKS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F56B2A0)
+#define UNITYENGINE_VFX_VFXSPAWNERCALLBACKS_CTOR_OFFSET UNITYSDK_OFFSET(0x2081B140)
 
 namespace UnityEngine::VFX
 {
-	inline static constexpr unsigned int VFXSpawnerCallbacks_TypeDefinitionIndex = 6041;
+	inline static constexpr unsigned int VFXSpawnerCallbacks_TypeDefinitionIndex = 6049;
 
 	class VFXSpawnerCallbacks : public ::UnityEngine::ScriptableObject
 	{

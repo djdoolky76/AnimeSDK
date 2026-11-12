@@ -5,11 +5,11 @@ namespace RPG::Client { class GridFightRole; }
 namespace System { class Object; }
 namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
-#define PKHOJDAHBOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC2BB3C0)
-#define PKHOJDAHBOJ_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xC2BB5F0)
-#define PKHOJDAHBOJ_NGEJHKGHOEK_OFFSET UNITYSDK_OFFSET(0xC2BB490)
+#define PKHOJDAHBOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCBE6150)
+#define PKHOJDAHBOJ_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xCBE6380)
+#define PKHOJDAHBOJ_NGEJHKGHOEK_OFFSET UNITYSDK_OFFSET(0xCBE6220)
 
-inline static constexpr unsigned int PKHOJDAHBOJ_TypeDefinitionIndex = 65137;
+inline static constexpr unsigned int PKHOJDAHBOJ_TypeDefinitionIndex = 66821;
 
 	class PKHOJDAHBOJ : public ::KKPPDDOFADO
 	{

@@ -6,21 +6,21 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8E8FE0)
-#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_GETFIGHTROOMINFO_OFFSET UNITYSDK_OFFSET(0xD8E8760)
-#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_GETFIGHTSERIALNUMBER_OFFSET UNITYSDK_OFFSET(0xD8E8990)
-#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_TRYCLEARRECONNECTABLESTATE_OFFSET UNITYSDK_OFFSET(0xD8E8C80)
+#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE33BCB0)
+#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_GETFIGHTROOMINFO_OFFSET UNITYSDK_OFFSET(0xE33B430)
+#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_GETFIGHTSERIALNUMBER_OFFSET UNITYSDK_OFFSET(0xE33B660)
+#define RPG_CLIENT_MULTIPLAYERGAMEUTILS_TRYCLEARRECONNECTABLESTATE_OFFSET UNITYSDK_OFFSET(0xE33B950)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiplayerGameUtils_TypeDefinitionIndex = 66315;
+	inline static constexpr unsigned int MultiplayerGameUtils_TypeDefinitionIndex = 68251;
 
 	class MultiplayerGameUtils : public ::System::Object
 	{
 	public:
 		static ::System::String** StaticGet__FightSerialNumber()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "MultiplayerGameUtils")->GetStaticField(0x6E0A0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "MultiplayerGameUtils")->GetStaticField(0x68850);
 		}
 
 		static ::System::Void _cctor()

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CalculateMissionCustomValue; }
 namespace RPG::GameCore { class MissionCustomValue; }
 namespace RPG::GameCore { class MissionCustomValuePair; }
 
-#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D554F70)
-#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D554F80)
-#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D554F40)
+#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E766D70)
+#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E766D80)
+#define RPG_GAMECORE_CALCULATEMISSIONCUSTOMVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E766D40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalculateMissionCustomValue_TypeDefinitionIndex = 20443;
+	inline static constexpr unsigned int CalculateMissionCustomValue_TypeDefinitionIndex = 20778;
 
 	class CalculateMissionCustomValue : public ::RPG::GameCore::TaskConfig
 	{

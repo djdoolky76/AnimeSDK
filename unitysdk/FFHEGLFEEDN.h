@@ -4,10 +4,10 @@ namespace RPG::GameCore { class ShowFightFestMainRaceUpgradeResultDialog; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define FFHEGLFEEDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1573D0C0)
-#define FFHEGLFEEDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1573D120)
+#define FFHEGLFEEDN_CTOR_OFFSET UNITYSDK_OFFSET(0x166592E0)
+#define FFHEGLFEEDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16659340)
 
-inline static constexpr unsigned int FFHEGLFEEDN_TypeDefinitionIndex = 58649;
+inline static constexpr unsigned int FFHEGLFEEDN_TypeDefinitionIndex = 59916;
 
 	class FFHEGLFEEDN
 	{

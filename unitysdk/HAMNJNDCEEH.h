@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class BaseChimeraDuelNode; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define HAMNJNDCEEH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B97540)
-#define HAMNJNDCEEH_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15B96590)
-#define HAMNJNDCEEH_PHMGIKGGMHA_OFFSET UNITYSDK_OFFSET(0x15B97020)
+#define HAMNJNDCEEH_CTOR_OFFSET UNITYSDK_OFFSET(0x16B1DEB0)
+#define HAMNJNDCEEH_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x16B1CF00)
+#define HAMNJNDCEEH_PHMGIKGGMHA_OFFSET UNITYSDK_OFFSET(0x16B1D990)
 
-inline static constexpr unsigned int HAMNJNDCEEH_TypeDefinitionIndex = 77617;
+inline static constexpr unsigned int HAMNJNDCEEH_TypeDefinitionIndex = 80352;
 
 	class HAMNJNDCEEH : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FOLELKOHPCC_TypeDefinitionIndex = 70411;
+inline static constexpr unsigned int FOLELKOHPCC_TypeDefinitionIndex = 72378;
 
 	class FOLELKOHPCC
 	{

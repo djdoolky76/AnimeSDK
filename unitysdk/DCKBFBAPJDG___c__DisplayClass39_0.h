@@ -4,10 +4,10 @@
 class FHBHJAHCJHN;
 namespace RPG::GameCore { class RtSkillConfig; }
 
-#define DCKBFBAPJDG___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE24E850)
-#define DCKBFBAPJDG___C__DISPLAYCLASS39_0___INITSKILLDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xE24E960)
+#define DCKBFBAPJDG___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEE087D0)
+#define DCKBFBAPJDG___C__DISPLAYCLASS39_0___INITSKILLDATAS_B__0_OFFSET UNITYSDK_OFFSET(0xEE088E0)
 
-inline static constexpr unsigned int DCKBFBAPJDG___c__DisplayClass39_0_TypeDefinitionIndex = 54206;
+inline static constexpr unsigned int DCKBFBAPJDG___c__DisplayClass39_0_TypeDefinitionIndex = 55370;
 
 	class DCKBFBAPJDG___c__DisplayClass39_0 : public ::System::Object
 	{

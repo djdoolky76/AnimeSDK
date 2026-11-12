@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ActivityAlley { class AlleyPackComponent; }
 
-#define AGDJMPPLIIA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF26800)
-#define AGDJMPPLIIA_PALDJMEGECK_OFFSET UNITYSDK_OFFSET(0xCF26740)
+#define AGDJMPPLIIA_CTOR_OFFSET UNITYSDK_OFFSET(0xD5DCF00)
+#define AGDJMPPLIIA_PALDJMEGECK_OFFSET UNITYSDK_OFFSET(0xD5DCE40)
 
-inline static constexpr unsigned int AGDJMPPLIIA_TypeDefinitionIndex = 74119;
+inline static constexpr unsigned int AGDJMPPLIIA_TypeDefinitionIndex = 76267;
 
 	class AGDJMPPLIIA : public ::System::Object
 	{

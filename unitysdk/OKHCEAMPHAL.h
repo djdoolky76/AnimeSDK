@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OKHCEAMPHAL_CTOR_OFFSET UNITYSDK_OFFSET(0xBEDA2F0)
-#define OKHCEAMPHAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEDA300)
-#define OKHCEAMPHAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEDA340)
-#define OKHCEAMPHAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEDB030)
-#define OKHCEAMPHAL_TICK_OFFSET UNITYSDK_OFFSET(0xBEDB080)
+#define OKHCEAMPHAL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7D34B0)
+#define OKHCEAMPHAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7D34C0)
+#define OKHCEAMPHAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7D3500)
+#define OKHCEAMPHAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC7D41E0)
+#define OKHCEAMPHAL_TICK_OFFSET UNITYSDK_OFFSET(0xC7D4230)
 
-inline static constexpr unsigned int OKHCEAMPHAL_TypeDefinitionIndex = 55158;
+inline static constexpr unsigned int OKHCEAMPHAL_TypeDefinitionIndex = 56339;
 
 	class OKHCEAMPHAL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::LookAt* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::LookAt* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LookAt* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LookAt*))((::PBYTE)hIl2Cpp + OKHCEAMPHAL_CTOR_OFFSET))(this, a1, a2);

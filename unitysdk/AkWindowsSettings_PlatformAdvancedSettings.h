@@ -4,10 +4,10 @@
 #include "unitysdk/AkWindowsSettings_PlatformAdvancedSettings_AudioAPI.h"
 class AkPlatformInitSettings;
 
-#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F61AE60)
-#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61B020)
+#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x208CA790)
+#define AKWINDOWSSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x208CA950)
 
-inline static constexpr unsigned int AkWindowsSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 44900;
+inline static constexpr unsigned int AkWindowsSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 45975;
 
 	class AkWindowsSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{

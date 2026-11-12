@@ -6,17 +6,17 @@
 class FCOEMCEDLNL;
 class GHFDKAAGDJJ;
 
-#define GHFDKAAGDJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE46590)
-#define GHFDKAAGDJJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE46440)
+#define GHFDKAAGDJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E021A30)
+#define GHFDKAAGDJJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0218E0)
 
-inline static constexpr unsigned int GHFDKAAGDJJ_TypeDefinitionIndex = 13885;
+inline static constexpr unsigned int GHFDKAAGDJJ_TypeDefinitionIndex = 14042;
 
 	class GHFDKAAGDJJ : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::ItemSubType FIPANNNNKLH; // 0x10
-		::RPG::GameCore::ItemRarity LBOADDIBILJ; // 0x14
-		::System::UInt32 NNFLNBDIBOM; // 0x18
+		::System::UInt32 NNFLNBDIBOM; // 0x14
+		::RPG::GameCore::ItemRarity LBOADDIBILJ; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHFDKAAGDJJ_CTOR_OFFSET))(this);

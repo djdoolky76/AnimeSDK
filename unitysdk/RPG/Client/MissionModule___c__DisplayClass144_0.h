@@ -4,18 +4,18 @@
 namespace RPG::Client { class SubMissionData; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS144_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6EA420)
-#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS144_0___UNREGISTERSINGLEFLOORSAVEDVALUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xD708650)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS144_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1772E0)
+#define RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS144_0___UNREGISTERSINGLEFLOORSAVEDVALUECALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xE1980A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule___c__DisplayClass144_0_TypeDefinitionIndex = 66150;
+	inline static constexpr unsigned int MissionModule___c__DisplayClass144_0_TypeDefinitionIndex = 68084;
 
 	class MissionModule___c__DisplayClass144_0 : public ::System::Object
 	{
 	public:
-		::System::Predicate_1<::RPG::Client::SubMissionData*>* __9__0; // 0x10
-		::RPG::Client::SubMissionData* subMissionData; // 0x18
+		::RPG::Client::SubMissionData* subMissionData; // 0x10
+		::System::Predicate_1<::RPG::Client::SubMissionData*>* __9__0; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MISSIONMODULE___C__DISPLAYCLASS144_0_CTOR_OFFSET))(this);

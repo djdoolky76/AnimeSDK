@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace HoudiniEngineUnity { class Test_HAPI_ParmInfo; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_PARMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B1C20)
-#define HOUDINIENGINEUNITY_TEST_HAPI_PARMINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B1C30)
+#define HOUDINIENGINEUNITY_TEST_HAPI_PARMINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3AB50)
+#define HOUDINIENGINEUNITY_TEST_HAPI_PARMINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CB3AB60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_ParmInfo_TypeDefinitionIndex = 40708;
+	inline static constexpr unsigned int Test_HAPI_ParmInfo_TypeDefinitionIndex = 41683;
 
 	class Test_HAPI_ParmInfo : public ::System::Object
 	{

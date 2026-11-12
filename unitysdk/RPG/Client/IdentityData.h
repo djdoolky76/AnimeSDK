@@ -6,12 +6,12 @@ namespace RPG::Client { class FeatureData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_IDENTITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD33C730)
-#define RPG_CLIENT_IDENTITYDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD33C6F0)
+#define RPG_CLIENT_IDENTITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDD71390)
+#define RPG_CLIENT_IDENTITYDATA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xDD71350)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IdentityData_TypeDefinitionIndex = 60001;
+	inline static constexpr unsigned int IdentityData_TypeDefinitionIndex = 61285;
 
 	class IdentityData : public ::System::Object
 	{

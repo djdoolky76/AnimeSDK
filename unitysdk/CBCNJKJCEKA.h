@@ -5,10 +5,10 @@ class ICDNEPOKHJL;
 class JNHEPGLMAFE;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define CBCNJKJCEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C8D90)
-#define CBCNJKJCEKA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C5C8E60)
+#define CBCNJKJCEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74A610)
+#define CBCNJKJCEKA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D74A6E0)
 
-inline static constexpr unsigned int CBCNJKJCEKA_TypeDefinitionIndex = 37191;
+inline static constexpr unsigned int CBCNJKJCEKA_TypeDefinitionIndex = 38119;
 
 	class CBCNJKJCEKA : public ::System::Object
 	{

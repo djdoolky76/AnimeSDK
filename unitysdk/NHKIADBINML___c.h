@@ -4,18 +4,18 @@
 class NHKIADBINML;
 namespace System { class Object; }
 
-#define NHKIADBINML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB1FB20)
-#define NHKIADBINML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB1FB60)
-#define NHKIADBINML___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB1FB70)
+#define NHKIADBINML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE61F90)
+#define NHKIADBINML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE61FD0)
+#define NHKIADBINML___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE61FE0)
 
-inline static constexpr unsigned int NHKIADBINML___c_TypeDefinitionIndex = 31122;
+inline static constexpr unsigned int NHKIADBINML___c_TypeDefinitionIndex = 32035;
 
 	class NHKIADBINML___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60650);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6AF90);
 		}
 
 		static ::System::Void _cctor()

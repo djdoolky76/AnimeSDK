@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int FadingSchedulerState_TypeDefinitionIndex = 73945;
+	inline static constexpr unsigned int FadingSchedulerState_TypeDefinitionIndex = 76081;
 
 	enum class FadingSchedulerState : ::System::Int32
 	{

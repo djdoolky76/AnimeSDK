@@ -8,23 +8,22 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define PEMEHFIAHKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D5DF0)
-#define PEMEHFIAHKI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D5E10)
-#define PEMEHFIAHKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D5DA0)
+#define PEMEHFIAHKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E2210)
+#define PEMEHFIAHKI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4E2230)
+#define PEMEHFIAHKI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4E21C0)
 
-inline static constexpr unsigned int PEMEHFIAHKI_TypeDefinitionIndex = 23603;
+inline static constexpr unsigned int PEMEHFIAHKI_TypeDefinitionIndex = 24050;
 
 	class PEMEHFIAHKI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::Il2CppArray<::System::String*>* MDLOPBMGFMP; // 0x18
 		::RPG::GameCore::DynamicFloat* MIOOGEBNBGL; // 0x20
-		::RPG::GameCore::DynamicFloat* NIEFDEJOIID; // 0x28
-		::RPG::GameCore::TargetEvaluator* LMHLJEKNHOK; // 0x30
-		::RPG::GameCore::PropertyModifyFunction DEOCMFOJHAM; // 0x38
-		::System::Boolean DKKNBKPNJBN; // 0x3C
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::PropertyModifyFunction HJOALLKGNGP; // 0x40
+		::RPG::GameCore::TargetEvaluator* LMHLJEKNHOK; // 0x28
+		::RPG::GameCore::DynamicFloat* NIEFDEJOIID; // 0x30
+		::RPG::GameCore::PropertyModifyFunction HJOALLKGNGP; // 0x38
+		::RPG::GameCore::PropertyModifyFunction DEOCMFOJHAM; // 0x3C
+		::System::Boolean DKKNBKPNJBN; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEMEHFIAHKI_CTOR_OFFSET))(this);

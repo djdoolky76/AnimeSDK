@@ -6,55 +6,55 @@ namespace System { class Object; }
 namespace System::Threading { class SendOrPostCallback; }
 namespace System::Threading { class SynchronizationContext; }
 
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1569A0)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x1F1563F0)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F156990)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_OPERATIONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F1563B0)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_OPERATIONSTARTED_OFFSET UNITYSDK_OFFSET(0x1F156370)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_POST_OFFSET UNITYSDK_OFFSET(0x1F155F60)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_RUN_OFFSET UNITYSDK_OFFSET(0x1F156400)
-#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_SEND_OFFSET UNITYSDK_OFFSET(0x1F155F30)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x20407DE0)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CREATECOPY_OFFSET UNITYSDK_OFFSET(0x20407830)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x20407DD0)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_OPERATIONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x204077F0)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_OPERATIONSTARTED_OFFSET UNITYSDK_OFFSET(0x204077B0)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_POST_OFFSET UNITYSDK_OFFSET(0x204073A0)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_RUN_OFFSET UNITYSDK_OFFSET(0x20407840)
+#define CYSHARP_THREADING_TASKS_UNITASKSYNCHRONIZATIONCONTEXT_SEND_OFFSET UNITYSDK_OFFSET(0x20407370)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskSynchronizationContext_TypeDefinitionIndex = 38446;
+	inline static constexpr unsigned int UniTaskSynchronizationContext_TypeDefinitionIndex = 39375;
 
 	class UniTaskSynchronizationContext : public ::System::Threading::SynchronizationContext
 	{
 	public:
-		static ::Il2CppArray<::System::Object*>** StaticGet_waitingList()
-		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x48F20);
-		}
-
 		static ::Il2CppArray<::System::Object*>** StaticGet_actionList()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x48F28);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x3B470);
 		}
 
-		static ::System::Int32* StaticGet_opCount()
+		static ::Il2CppArray<::System::Object*>** StaticGet_waitingList()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x112A0);
-		}
-
-		static ::System::Boolean* StaticGet_dequing()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x112A4);
-		}
-
-		static ::System::Int32* StaticGet_actionListCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x112A8);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x3B478);
 		}
 
 		static ::System::Int32* StaticGet_waitingListCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x112AC);
+			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0xD080);
+		}
+
+		static ::System::Boolean* StaticGet_dequing()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0xD084);
+		}
+
+		static ::System::Int32* StaticGet_actionListCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0xD088);
+		}
+
+		static ::System::Int32* StaticGet_opCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0xD08C);
 		}
 
 		static ::System::Threading::SpinLock* StaticGet_gate()
 		{
-			return (::System::Threading::SpinLock*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0x112B0);
+			return (::System::Threading::SpinLock*)UnitySDK::FromName("Cysharp.Threading.Tasks", "UniTaskSynchronizationContext")->GetStaticField(0xD090);
 		}
 
 		// static const ::System::Object MaxArrayLength; // 0x0

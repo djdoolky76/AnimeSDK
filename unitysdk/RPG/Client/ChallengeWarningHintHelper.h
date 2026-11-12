@@ -6,36 +6,36 @@
 namespace RPG::Client { class ChallengeGroupData; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9C1A60)
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER_TRYGETWARNINGHINT_OFFSET UNITYSDK_OFFSET(0xC9C14C0)
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__GETTYPENAMETEXTID_OFFSET UNITYSDK_OFFSET(0xC9C1940)
-#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__TRYGET5WEEKDURATION_OFFSET UNITYSDK_OFFSET(0xC9C1590)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xD326FA0)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER_TRYGETWARNINGHINT_OFFSET UNITYSDK_OFFSET(0xD326A00)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__GETTYPENAMETEXTID_OFFSET UNITYSDK_OFFSET(0xD326E80)
+#define RPG_CLIENT_CHALLENGEWARNINGHINTHELPER__TRYGET5WEEKDURATION_OFFSET UNITYSDK_OFFSET(0xD326AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeWarningHintHelper_TypeDefinitionIndex = 63120;
+	inline static constexpr unsigned int ChallengeWarningHintHelper_TypeDefinitionIndex = 64558;
 
 	class ChallengeWarningHintHelper : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::TextID* StaticGet__Warning5WeekTextID()
-		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x152A0);
-		}
-
 		static ::RPG::Client::TextID* StaticGet__BossNameTextID()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x152B0);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x14AB0);
 		}
 
 		static ::RPG::Client::TextID* StaticGet__MemoryNameTextID()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x152C0);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x14AC0);
+		}
+
+		static ::RPG::Client::TextID* StaticGet__Warning5WeekTextID()
+		{
+			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x14AD0);
 		}
 
 		static ::RPG::Client::TextID* StaticGet__StoryNameTextID()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x152D0);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("RPG.Client", "ChallengeWarningHintHelper")->GetStaticField(0x14AE0);
 		}
 
 		// static const ::System::String* _Special5WeekConstKey; // 0x0

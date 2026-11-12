@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLATTRIBUTE_4467EC9957A2EA45_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD8FF0)
+#define SYSTEM_DIAGNOSTICS_CODEANALYSIS_NOTNULLATTRIBUTE_4467EC9957A2EA45_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD61F80)
 
 namespace System::Diagnostics::CodeAnalysis
 {
-	inline static constexpr unsigned int NotNullAttribute_4467EC9957A2EA45_TypeDefinitionIndex = 7527;
+	inline static constexpr unsigned int NotNullAttribute_4467EC9957A2EA45_TypeDefinitionIndex = 7538;
 
 	class NotNullAttribute_4467EC9957A2EA45 : public ::System::Attribute
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerGridFightWaveSettle; }
 
-#define HGLIPPGNBGF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB0EE0)
-#define HGLIPPGNBGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CB0F10)
+#define HGLIPPGNBGF_CTOR_OFFSET UNITYSDK_OFFSET(0x16BFB470)
+#define HGLIPPGNBGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BFB4A0)
 
-inline static constexpr unsigned int HGLIPPGNBGF_TypeDefinitionIndex = 55738;
+inline static constexpr unsigned int HGLIPPGNBGF_TypeDefinitionIndex = 56940;
 
 	class HGLIPPGNBGF
 	{

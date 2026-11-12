@@ -4,18 +4,18 @@
 class GDLCKAFPJCI;
 namespace System { class Object; }
 
-#define GDLCKAFPJCI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E44E260)
-#define GDLCKAFPJCI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44E2A0)
-#define GDLCKAFPJCI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E44E2B0)
+#define GDLCKAFPJCI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F73C080)
+#define GDLCKAFPJCI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F73C0C0)
+#define GDLCKAFPJCI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F73C0D0)
 
-inline static constexpr unsigned int GDLCKAFPJCI___c_TypeDefinitionIndex = 33373;
+inline static constexpr unsigned int GDLCKAFPJCI___c_TypeDefinitionIndex = 34288;
 
 	class GDLCKAFPJCI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11320);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x577E0);
 		}
 
 		static ::System::Void _cctor()

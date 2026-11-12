@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AnimatorStateCustomZoneBinding; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F4C10)
-#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3F4AD0)
+#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_CTOR_OFFSET UNITYSDK_OFFSET(0x1E614E90)
+#define RPG_GAMECORE_ANIMATORSTATECUSTOMZONEBINDING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E614D50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimatorStateCustomZoneBinding_TypeDefinitionIndex = 16333;
+	inline static constexpr unsigned int AnimatorStateCustomZoneBinding_TypeDefinitionIndex = 16496;
 
 	class AnimatorStateCustomZoneBinding : public ::RPG::GameCore::JsonConfig
 	{

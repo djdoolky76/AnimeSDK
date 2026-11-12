@@ -3,7 +3,7 @@
 #include "unitysdk/System/Runtime/InteropServices/ComInterfaceType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C9370)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_INTERFACETYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D450010)
 
 namespace System::Runtime::InteropServices
 {

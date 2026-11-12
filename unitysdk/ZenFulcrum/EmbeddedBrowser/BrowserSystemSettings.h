@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F655050)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F655120)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS_AWAKE_OFFSET UNITYSDK_OFFSET(0x20904800)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERSYSTEMSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x209048D0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserSystemSettings_TypeDefinitionIndex = 39466;
+	inline static constexpr unsigned int BrowserSystemSettings_TypeDefinitionIndex = 40395;
 
 	class BrowserSystemSettings : public ::UnityEngine::MonoBehaviour
 	{

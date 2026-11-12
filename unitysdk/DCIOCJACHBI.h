@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvAddVisionUseCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DCIOCJACHBI_CTOR_OFFSET UNITYSDK_OFFSET(0xE248710)
-#define DCIOCJACHBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE248740)
+#define DCIOCJACHBI_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA9970)
+#define DCIOCJACHBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBA99A0)
 
-inline static constexpr unsigned int DCIOCJACHBI_TypeDefinitionIndex = 52335;
+inline static constexpr unsigned int DCIOCJACHBI_TypeDefinitionIndex = 53441;
 
 	class DCIOCJACHBI
 	{

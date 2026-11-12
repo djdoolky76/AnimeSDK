@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNPNJOJJNNO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1FA00)
-#define GNPNJOJJNNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B1FAE0)
+#define GNPNJOJJNNO_CTOR_OFFSET UNITYSDK_OFFSET(0x16AA5150)
+#define GNPNJOJJNNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AA5230)
 
-inline static constexpr unsigned int GNPNJOJJNNO_TypeDefinitionIndex = 55403;
+inline static constexpr unsigned int GNPNJOJJNNO_TypeDefinitionIndex = 56588;
 
 	class GNPNJOJJNNO
 	{

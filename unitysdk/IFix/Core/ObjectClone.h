@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define IFIX_CORE_OBJECTCLONE_CLONE_OFFSET UNITYSDK_OFFSET(0x1B9BC5D0)
-#define IFIX_CORE_OBJECTCLONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BE9C0)
+#define IFIX_CORE_OBJECTCLONE_CLONE_OFFSET UNITYSDK_OFFSET(0x1CB45500)
+#define IFIX_CORE_OBJECTCLONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB478F0)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int ObjectClone_TypeDefinitionIndex = 7128;
+	inline static constexpr unsigned int ObjectClone_TypeDefinitionIndex = 7139;
 
 	class ObjectClone : public ::System::Object
 	{

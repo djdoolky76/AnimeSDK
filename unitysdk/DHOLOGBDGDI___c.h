@@ -4,18 +4,18 @@
 class DHOLOGBDGDI;
 namespace System { class Object; }
 
-#define DHOLOGBDGDI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1BA4C0)
-#define DHOLOGBDGDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BA500)
-#define DHOLOGBDGDI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1BA510)
+#define DHOLOGBDGDI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F495E80)
+#define DHOLOGBDGDI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F495EC0)
+#define DHOLOGBDGDI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F495ED0)
 
-inline static constexpr unsigned int DHOLOGBDGDI___c_TypeDefinitionIndex = 31222;
+inline static constexpr unsigned int DHOLOGBDGDI___c_TypeDefinitionIndex = 32135;
 
 	class DHOLOGBDGDI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35BD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x312D0);
 		}
 
 		static ::System::Void _cctor()

@@ -12,37 +12,37 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BAHPIHGCJJJ_CPBNIGDKKMP_OFFSET UNITYSDK_OFFSET(0x1C5A3110)
-#define BAHPIHGCJJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A3470)
-#define BAHPIHGCJJJ_DFHPPADMBAI_OFFSET UNITYSDK_OFFSET(0x1C5A2810)
-#define BAHPIHGCJJJ_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1C5A3000)
-#define BAHPIHGCJJJ_JLNMMLCKHDA_OFFSET UNITYSDK_OFFSET(0x1C5A3210)
-#define BAHPIHGCJJJ_LDNPOPPIPKD_OFFSET UNITYSDK_OFFSET(0x1C5A3370)
-#define BAHPIHGCJJJ_MCCGMIGNDPM_OFFSET UNITYSDK_OFFSET(0x1C5A2DC0)
+#define BAHPIHGCJJJ_CPBNIGDKKMP_OFFSET UNITYSDK_OFFSET(0x1D724990)
+#define BAHPIHGCJJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D724CF0)
+#define BAHPIHGCJJJ_DFHPPADMBAI_OFFSET UNITYSDK_OFFSET(0x1D724090)
+#define BAHPIHGCJJJ_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1D724880)
+#define BAHPIHGCJJJ_JLNMMLCKHDA_OFFSET UNITYSDK_OFFSET(0x1D724A90)
+#define BAHPIHGCJJJ_LDNPOPPIPKD_OFFSET UNITYSDK_OFFSET(0x1D724BF0)
+#define BAHPIHGCJJJ_MCCGMIGNDPM_OFFSET UNITYSDK_OFFSET(0x1D724640)
 
-inline static constexpr unsigned int BAHPIHGCJJJ_TypeDefinitionIndex = 37315;
+inline static constexpr unsigned int BAHPIHGCJJJ_TypeDefinitionIndex = 38243;
 
 	class BAHPIHGCJJJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* HMNJDELFEAI; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::Int32, ::System::UInt32>*>* NDALOEKCDBN; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* ILACMNCIKPM; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* GGGMDECDEBB; // 0x18
 		::System::Collections::Generic::List_1<::System::UInt32>* FDPEBMLJCBN; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>*>* CMCEONNODPM; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* GKIIJMCKKON; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* OLDAIOBNCEI; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* GEGNADMNMPI; // 0x40
-		::System::Collections::Generic::List_1<::System::UInt32>* ILACMNCIKPM; // 0x48
-		::System::Collections::Generic::List_1<::System::UInt32>* GGGMDECDEBB; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* NNCHEAGGHPN; // 0x58
-		::System::Collections::Generic::HashSet_1<::System::UInt32>* LGKAFKNCDHH; // 0x60
-		::System::UInt64 NFBBHGNOMIP; // 0x68
-		::System::UInt32 NLPDPGNBBFL; // 0x70
-		::System::UInt32 DMOIDFFJOJI; // 0x74
-		::System::UInt64 GGPDPNKBKCG; // 0x78
-		::System::UInt64 PINIOPONGNJ; // 0x80
-		::System::UInt32 HIGBNCKIODM; // 0x88
-		::System::UInt32 COOBDCLFEFB; // 0x8C
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* NNCHEAGGHPN; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_3<::System::UInt32, ::System::UInt32, ::System::Boolean>*>* CMCEONNODPM; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* GKIIJMCKKON; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* OLDAIOBNCEI; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* HMNJDELFEAI; // 0x48
+		::System::Collections::Generic::HashSet_1<::System::UInt32>* LGKAFKNCDHH; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::UInt32, ::System::UInt32>*>* GEGNADMNMPI; // 0x58
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Tuple_2<::System::Int32, ::System::UInt32>*>* NDALOEKCDBN; // 0x60
+		::System::UInt32 DMOIDFFJOJI; // 0x68
+		::System::UInt32 HIGBNCKIODM; // 0x6C
+		::System::UInt64 GGPDPNKBKCG; // 0x70
+		::System::UInt64 PINIOPONGNJ; // 0x78
+		::System::UInt64 NFBBHGNOMIP; // 0x80
+		::System::UInt32 COOBDCLFEFB; // 0x88
+		::System::UInt32 NLPDPGNBBFL; // 0x8C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAHPIHGCJJJ_CTOR_OFFSET))(this);

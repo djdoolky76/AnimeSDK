@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HEBPNDKHCAH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C43FF0)
-#define HEBPNDKHCAH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15C44050)
-#define HEBPNDKHCAH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15C44000)
+#define HEBPNDKHCAH_CTOR_OFFSET UNITYSDK_OFFSET(0x16B88030)
+#define HEBPNDKHCAH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x16B88090)
+#define HEBPNDKHCAH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x16B88040)
 
-inline static constexpr unsigned int HEBPNDKHCAH_TypeDefinitionIndex = 56634;
+inline static constexpr unsigned int HEBPNDKHCAH_TypeDefinitionIndex = 57856;
 
 	class HEBPNDKHCAH : public ::System::Object
 	{
 	public:
-		::System::String* IEMJLAKHBJJ; // 0x10
-		::System::String* EALNBEBALJM; // 0x18
+		::System::String* EALNBEBALJM; // 0x10
+		::System::String* IEMJLAKHBJJ; // 0x18
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + HEBPNDKHCAH_CTOR_OFFSET))(this, a1, a2);

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CUSTOMRP_GAUSSIANBLURGRADUALPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC33040)
+#define RPG_CUSTOMRP_GAUSSIANBLURGRADUALPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDA4B0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int GaussianBlurGradualParameter_TypeDefinitionIndex = 37814;
+	inline static constexpr unsigned int GaussianBlurGradualParameter_TypeDefinitionIndex = 38743;
 
 	class GaussianBlurGradualParameter
 	{

@@ -4,18 +4,18 @@
 class GEFEDOAOKNO;
 namespace System { class Object; }
 
-#define GEFEDOAOKNO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4570D0)
-#define GEFEDOAOKNO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E457110)
-#define GEFEDOAOKNO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E457120)
+#define GEFEDOAOKNO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F744F10)
+#define GEFEDOAOKNO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F744F50)
+#define GEFEDOAOKNO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F744F60)
 
-inline static constexpr unsigned int GEFEDOAOKNO___c_TypeDefinitionIndex = 29828;
+inline static constexpr unsigned int GEFEDOAOKNO___c_TypeDefinitionIndex = 30726;
 
 	class GEFEDOAOKNO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12430);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x588D0);
 		}
 
 		static ::System::Void _cctor()

@@ -7,12 +7,12 @@ namespace Entitas { class IEntity; }
 namespace Entitas::VisualDebugging::Unity { class EntityBehaviour; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OBLMFFJNNKP_AAJNAFJEDHB_OFFSET UNITYSDK_OFFSET(0xBD4C210)
-#define OBLMFFJNNKP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD4BCB0)
-#define OBLMFFJNNKP_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0xBD4BE30)
-#define OBLMFFJNNKP_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0xBD4BFD0)
+#define OBLMFFJNNKP_AAJNAFJEDHB_OFFSET UNITYSDK_OFFSET(0xC650210)
+#define OBLMFFJNNKP_CTOR_OFFSET UNITYSDK_OFFSET(0xC64FCB0)
+#define OBLMFFJNNKP_DEACTIVATE_OFFSET UNITYSDK_OFFSET(0xC64FE30)
+#define OBLMFFJNNKP_ONENTITYCREATED_OFFSET UNITYSDK_OFFSET(0xC64FFD0)
 
-inline static constexpr unsigned int OBLMFFJNNKP_TypeDefinitionIndex = 77248;
+inline static constexpr unsigned int OBLMFFJNNKP_TypeDefinitionIndex = 79582;
 
 	class OBLMFFJNNKP : public ::Entitas::VisualDebugging::Unity::ContextObserver
 	{

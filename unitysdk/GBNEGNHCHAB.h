@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/FiveDimExitType.h"
 #include "unitysdk/RPG/GameCore/FiveDimCustomScreenTransferStyle.h"
 
-inline static constexpr unsigned int GBNEGNHCHAB_TypeDefinitionIndex = 43558;
+inline static constexpr unsigned int GBNEGNHCHAB_TypeDefinitionIndex = 44540;
 
 	struct alignas(4) GBNEGNHCHAB
 	{

@@ -6,19 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceLiveStreamEmojiRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8FD200)
-#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8FCB70)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB16680)
+#define RPG_GAMECORE_PERFORMANCELIVESTREAMEMOJIROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB16070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceLiveStreamEmojiRow_TypeDefinitionIndex = 14321;
+	inline static constexpr unsigned int PerformanceLiveStreamEmojiRow_TypeDefinitionIndex = 14478;
 
 	class PerformanceLiveStreamEmojiRow : public ::System::Object
 	{
 	public:
-		::System::String* MainEmojiPath; // 0x10
-		::System::String* SubEmojiPath1; // 0x18
-		::System::String* SubEmojiPath2; // 0x20
+		::System::String* SubEmojiPath1; // 0x10
+		::System::String* SubEmojiPath2; // 0x18
+		::System::String* MainEmojiPath; // 0x20
 		::RPG::GameCore::PerformanceLiveStreamAtmosphereType Atmosphere; // 0x28
 		::System::Void _ctor()
 		{

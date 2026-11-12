@@ -4,18 +4,18 @@
 class OHICCFONLEC;
 namespace System { class Object; }
 
-#define OHICCFONLEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE620B0)
-#define OHICCFONLEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE620F0)
-#define OHICCFONLEC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DE62100)
+#define OHICCFONLEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1087B0)
+#define OHICCFONLEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1087F0)
+#define OHICCFONLEC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F108800)
 
-inline static constexpr unsigned int OHICCFONLEC___c_TypeDefinitionIndex = 34243;
+inline static constexpr unsigned int OHICCFONLEC___c_TypeDefinitionIndex = 35171;
 
 	class OHICCFONLEC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1AC90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16000);
 		}
 
 		static ::System::Void _cctor()

@@ -6,17 +6,17 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define GDNBDAMHILN_CTOR_OFFSET UNITYSDK_OFFSET(0x159B7450)
+#define GDNBDAMHILN_CTOR_OFFSET UNITYSDK_OFFSET(0x168F0120)
 
-inline static constexpr unsigned int GDNBDAMHILN_TypeDefinitionIndex = 57692;
+inline static constexpr unsigned int GDNBDAMHILN_TypeDefinitionIndex = 58924;
 
 	class GDNBDAMHILN : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::System::String* LBFLPOJHJIG; // 0x20
-		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x28
+		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x10
+		::System::String* LBFLPOJHJIG; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x28
 		::System::Boolean MOKNCFJICIC; // 0x30
 		::System::Boolean BPCINCEKHLN; // 0x31
 		::System::Void _ctor()

@@ -12,59 +12,59 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Transform; }
 
-#define OODMOIBKGCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF795B0)
-#define OODMOIBKGCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF795F0)
-#define OODMOIBKGCP___C__CREATEBALL_B__9_0_OFFSET UNITYSDK_OFFSET(0xBF79690)
-#define OODMOIBKGCP___C__CREATEDROPITEM_B__10_0_OFFSET UNITYSDK_OFFSET(0xBF796C0)
-#define OODMOIBKGCP___C__CREATEENEMYBULLET_B__8_0_OFFSET UNITYSDK_OFFSET(0xBF79660)
-#define OODMOIBKGCP___C__CREATEENEMY_B__15_0_OFFSET UNITYSDK_OFFSET(0xBF796F0)
-#define OODMOIBKGCP___C__CREATERACKETBULLET_B__7_0_OFFSET UNITYSDK_OFFSET(0xBF79630)
-#define OODMOIBKGCP___C__CREATERACKET_B__6_0_OFFSET UNITYSDK_OFFSET(0xBF79600)
-#define OODMOIBKGCP___C___CREATEENEMYUNIT_B__21_0_OFFSET UNITYSDK_OFFSET(0xBF79730)
+#define OODMOIBKGCP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC878E00)
+#define OODMOIBKGCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC878E40)
+#define OODMOIBKGCP___C__CREATEBALL_B__9_0_OFFSET UNITYSDK_OFFSET(0xC878EE0)
+#define OODMOIBKGCP___C__CREATEDROPITEM_B__10_0_OFFSET UNITYSDK_OFFSET(0xC878F10)
+#define OODMOIBKGCP___C__CREATEENEMYBULLET_B__8_0_OFFSET UNITYSDK_OFFSET(0xC878EB0)
+#define OODMOIBKGCP___C__CREATEENEMY_B__15_0_OFFSET UNITYSDK_OFFSET(0xC878F40)
+#define OODMOIBKGCP___C__CREATERACKETBULLET_B__7_0_OFFSET UNITYSDK_OFFSET(0xC878E80)
+#define OODMOIBKGCP___C__CREATERACKET_B__6_0_OFFSET UNITYSDK_OFFSET(0xC878E50)
+#define OODMOIBKGCP___C___CREATEENEMYUNIT_B__21_0_OFFSET UNITYSDK_OFFSET(0xC878F80)
 
-inline static constexpr unsigned int OODMOIBKGCP___c_TypeDefinitionIndex = 76656;
+inline static constexpr unsigned int OODMOIBKGCP___c_TypeDefinitionIndex = 78987;
 
 	class OODMOIBKGCP___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E010);
-		}
-
 		static ::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>** StaticGet___9__15_0()
 		{
-			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E018);
-		}
-
-		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__9_0()
-		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E020);
-		}
-
-		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__10_0()
-		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E028);
+			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::System::ValueTuple_2<::RPG::GameCore::PingPongEnemyConfig*, ::RPG::GameCore::LittleGameEntityConfig*>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59660);
 		}
 
 		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__8_0()
 		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E030);
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59668);
 		}
 
-		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__7_0()
+		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E038);
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59670);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59678);
 		}
 
 		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E040);
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59680);
+		}
+
+		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__9_0()
+		{
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59688);
 		}
 
 		static ::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>** StaticGet___9__21_0()
 		{
-			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E048);
+			return (::System::Action_4<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*, ::RPG::GameCore::PingPongEnemyUnitConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59690);
+		}
+
+		static ::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>** StaticGet___9__7_0()
+		{
+			return (::System::Action_3<::OODMOIBKGCP*, ::OCPOIDCNJDA*, ::UnityEngine::Transform*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59698);
 		}
 
 		static ::System::Void _cctor()

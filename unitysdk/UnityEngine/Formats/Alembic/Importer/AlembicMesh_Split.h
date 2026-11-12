@@ -9,40 +9,40 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Mesh; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SPLIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F169DA0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SPLIT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F169800)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SPLIT_CTOR_OFFSET UNITYSDK_OFFSET(0x2041B3E0)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICMESH_SPLIT_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2041AE50)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicMesh_Split_TypeDefinitionIndex = 45856;
+	inline static constexpr unsigned int AlembicMesh_Split_TypeDefinitionIndex = 46885;
 
 	class AlembicMesh_Split : public ::System::Object
 	{
 	public:
-		::UnityEngine::Mesh* mesh; // 0x10
-		::UnityEngine::GameObject* host; // 0x18
-		::UnityEngine::Vector3 size; // 0x20
-		::System::Byte _padding0[0x4];
+		::UnityEngine::GameObject* host; // 0x10
+		::UnityEngine::Mesh* mesh; // 0x18
+		::System::Boolean velocitiesSet; // 0x20
+		::System::Boolean active; // 0x21
+		::System::Boolean disposed; // 0x22
+		::System::Byte _padding0[0x1];
+		::UnityEngine::Vector3 center; // 0x24
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> velocities; // 0x30
 		::System::Byte _padding1[0x8];
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> normals; // 0x40
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> zeroVelocities; // 0x40
 		::System::Byte _padding2[0x8];
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> uv0; // 0x50
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> uv1; // 0x50
 		::System::Byte _padding3[0x8];
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> zeroVelocities; // 0x60
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> normals; // 0x60
 		::System::Byte _padding4[0x8];
-		::Unity::Collections::NativeArray_1<::UnityEngine::Color> rgb; // 0x70
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> uv0; // 0x70
 		::System::Byte _padding5[0x8];
-		::Unity::Collections::NativeArray_1<::UnityEngine::Color> rgba; // 0x80
+		::Unity::Collections::NativeArray_1<::UnityEngine::Color> rgb; // 0x80
 		::System::Byte _padding6[0x8];
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> uv1; // 0x90
-		::System::Byte _padding7[0x8];
-		::System::Boolean velocitiesSet; // 0xA0
-		::System::Boolean disposed; // 0xA1
-		::System::Boolean active; // 0xA2
-		::System::Byte _padding8[0x1];
-		::UnityEngine::Vector3 center; // 0xA4
-		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> tangents; // 0xB0
+		::UnityEngine::Vector3 size; // 0x90
+		::System::Byte _padding7[0x4];
+		::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> tangents; // 0xA0
+		::System::Byte _padding8[0x8];
+		::Unity::Collections::NativeArray_1<::UnityEngine::Color> rgba; // 0xB0
 		::System::Byte _padding9[0x8];
 		::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> points; // 0xC0
 		::System::Void _ctor()

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapPartEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENLNCLNOEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x155B2110)
-#define ENLNCLNOEKG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x155B2130)
+#define ENLNCLNOEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x164C2C10)
+#define ENLNCLNOEKG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x164C2C30)
 
-inline static constexpr unsigned int ENLNCLNOEKG_TypeDefinitionIndex = 59140;
+inline static constexpr unsigned int ENLNCLNOEKG_TypeDefinitionIndex = 60416;
 
 	class ENLNCLNOEKG
 	{

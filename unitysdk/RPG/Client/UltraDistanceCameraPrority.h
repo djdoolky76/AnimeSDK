@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UltraDistanceCameraPrority_TypeDefinitionIndex = 69724;
+	inline static constexpr unsigned int UltraDistanceCameraPrority_TypeDefinitionIndex = 71681;
 
 	enum class UltraDistanceCameraPrority : ::System::Int32
 	{

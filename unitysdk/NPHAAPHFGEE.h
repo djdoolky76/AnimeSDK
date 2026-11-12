@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchLastKillTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPHAAPHFGEE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFD840)
-#define NPHAAPHFGEE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCFD8B0)
+#define NPHAAPHFGEE_CTOR_OFFSET UNITYSDK_OFFSET(0xC5ED310)
+#define NPHAAPHFGEE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC5ED380)
 
-inline static constexpr unsigned int NPHAAPHFGEE_TypeDefinitionIndex = 59125;
+inline static constexpr unsigned int NPHAAPHFGEE_TypeDefinitionIndex = 60401;
 
 	class NPHAAPHFGEE
 	{

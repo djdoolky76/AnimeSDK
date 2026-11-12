@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF55410)
-#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS37_0__HOYOSDKINTERNALNOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0xAF55C40)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B63B0)
+#define MIHOYO_SDK_ACCOUNTPLATNATIVE___C__DISPLAYCLASS37_0__HOYOSDKINTERNALNOTIFICATION_B__0_OFFSET UNITYSDK_OFFSET(0xB5B6BE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountPlatNative___c__DisplayClass37_0_TypeDefinitionIndex = 46095;
+	inline static constexpr unsigned int AccountPlatNative___c__DisplayClass37_0_TypeDefinitionIndex = 47124;
 
 	class AccountPlatNative___c__DisplayClass37_0 : public ::System::Object
 	{

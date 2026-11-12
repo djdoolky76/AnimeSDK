@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ConditionIconData_TypeDefinitionIndex = 76348;
+	inline static constexpr unsigned int ConditionIconData_TypeDefinitionIndex = 78679;
 
 	struct alignas(8) ConditionIconData
 	{

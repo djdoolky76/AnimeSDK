@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/SequentialPanelContainer/EdgeDirection.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define IALHECNHCCM_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0x15E1A740)
-#define IALHECNHCCM_CTOR_OFFSET UNITYSDK_OFFSET(0x15E1A7C0)
+#define IALHECNHCCM_AACLJANIILC_OFFSET UNITYSDK_OFFSET(0x16DC3EF0)
+#define IALHECNHCCM_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC3F70)
 
-inline static constexpr unsigned int IALHECNHCCM_TypeDefinitionIndex = 74763;
+inline static constexpr unsigned int IALHECNHCCM_TypeDefinitionIndex = 76917;
 
 	class IALHECNHCCM : public ::HKHAKEGOLDK
 	{

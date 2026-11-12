@@ -4,18 +4,18 @@
 class KJAFBEGOCHP;
 namespace RPG::Client { class PlayerModule; }
 
-#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDBF55B0)
-#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS57_0___CMDPLAYERGETTOKENSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xDBFA860)
+#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE690A20)
+#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS57_0___CMDPLAYERGETTOKENSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xE695C30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerModule___c__DisplayClass57_0_TypeDefinitionIndex = 66689;
+	inline static constexpr unsigned int PlayerModule___c__DisplayClass57_0_TypeDefinitionIndex = 68625;
 
 	class PlayerModule___c__DisplayClass57_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::PlayerModule* __4__this; // 0x10
-		::KJAFBEGOCHP* rsp; // 0x18
+		::KJAFBEGOCHP* rsp; // 0x10
+		::RPG::Client::PlayerModule* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS57_0_CTOR_OFFSET))(this);

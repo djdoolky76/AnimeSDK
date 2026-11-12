@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define COFFEE_UIPARTICLEINTERNAL_FASTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x166C4D50)
-#define COFFEE_UIPARTICLEINTERNAL_FASTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x166C4BB0)
+#define COFFEE_UIPARTICLEINTERNAL_FASTACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x17508D60)
+#define COFFEE_UIPARTICLEINTERNAL_FASTACTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x17508BC0)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int FastAction_TypeDefinitionIndex = 45128;
+	inline static constexpr unsigned int FastAction_TypeDefinitionIndex = 40841;
 
 	class FastAction
 	{

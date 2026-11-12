@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KAKADGHNMFK;
 
-#define NCLOFDLCAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB163E0)
-#define NCLOFDLCAFL_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBB16380)
+#define NCLOFDLCAFL_CTOR_OFFSET UNITYSDK_OFFSET(0xC39EF60)
+#define NCLOFDLCAFL_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC39EF00)
 
-inline static constexpr unsigned int NCLOFDLCAFL_TypeDefinitionIndex = 77596;
+inline static constexpr unsigned int NCLOFDLCAFL_TypeDefinitionIndex = 80331;
 
 	class NCLOFDLCAFL : public ::System::Object
 	{

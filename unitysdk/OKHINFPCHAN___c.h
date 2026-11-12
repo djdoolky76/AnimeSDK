@@ -4,18 +4,18 @@
 class OKHINFPCHAN;
 namespace System { class Object; }
 
-#define OKHINFPCHAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE9ABF0)
-#define OKHINFPCHAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE9AC20)
-#define OKHINFPCHAN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE9AC30)
+#define OKHINFPCHAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F142EB0)
+#define OKHINFPCHAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F142EE0)
+#define OKHINFPCHAN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F142EF0)
 
-inline static constexpr unsigned int OKHINFPCHAN___c_TypeDefinitionIndex = 29016;
+inline static constexpr unsigned int OKHINFPCHAN___c_TypeDefinitionIndex = 29606;
 
 	class OKHINFPCHAN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22700);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E160);
 		}
 
 		static ::System::Void _cctor()

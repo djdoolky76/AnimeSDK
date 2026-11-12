@@ -5,13 +5,13 @@ namespace System { class String; }
 namespace System::IO { class BinaryReader; }
 namespace System::IO { class BinaryWriter; }
 
-#define HDG_RDTUDPMESSAGEHELLO_CTOR_OFFSET UNITYSDK_OFFSET(0xAF395D0)
-#define HDG_RDTUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0xAF4ED80)
-#define HDG_RDTUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0xAF39E50)
+#define HDG_RDTUDPMESSAGEHELLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB59A630)
+#define HDG_RDTUDPMESSAGEHELLO_READ_OFFSET UNITYSDK_OFFSET(0xB5AFEE0)
+#define HDG_RDTUDPMESSAGEHELLO_WRITE_OFFSET UNITYSDK_OFFSET(0xB59AEE0)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtUdpMessageHello_TypeDefinitionIndex = 46992;
+	inline static constexpr unsigned int rdtUdpMessageHello_TypeDefinitionIndex = 48020;
 
 	class rdtUdpMessageHello : public ::System::Object
 	{

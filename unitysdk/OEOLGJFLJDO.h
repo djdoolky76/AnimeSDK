@@ -12,45 +12,44 @@ class PGJINBJDAHN;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define OEOLGJFLJDO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE38D20)
-#define OEOLGJFLJDO_CLEAR_OFFSET UNITYSDK_OFFSET(0xBE38C50)
-#define OEOLGJFLJDO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE38CE0)
-#define OEOLGJFLJDO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xBE38AF0)
+#define OEOLGJFLJDO_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6F0B50)
+#define OEOLGJFLJDO_CLEAR_OFFSET UNITYSDK_OFFSET(0xC6F0A80)
+#define OEOLGJFLJDO_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F0B10)
+#define OEOLGJFLJDO_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xC6F0910)
 
-inline static constexpr unsigned int OEOLGJFLJDO_TypeDefinitionIndex = 53790;
+inline static constexpr unsigned int OEOLGJFLJDO_TypeDefinitionIndex = 54954;
 
 	class OEOLGJFLJDO
 	{
 	public:
-		::System::String* BFHDJGEIGBC; // 0x18
-		::MBBEBLGELAP* KPLILJJOOGI; // 0x20
-		::PGJINBJDAHN* PMCDOCGAOIN; // 0x28
-		::RPG::GameCore::GameEntity* MFIEDDGBIPH; // 0x30
-		::System::String* MKFEAAIKJNA; // 0x38
-		::MNBNFBAMKKI* AMLKIGFLNHI; // 0x40
-		::System::Single OCAGLPIKAKC; // 0x48
-		::System::Nullable_1<::System::Int32> DIIGMKEAKCD; // 0x4C
-		::System::Nullable_1<::System::Int32> OEODJDBGBIF; // 0x54
-		::System::Boolean LDGDOCAGNEE; // 0x5C
-		::System::Boolean BPEKOACCGHK; // 0x5D
-		::System::Byte _padding0[0x2];
-		::System::Nullable_1<::System::Int32> BNJBNIIDHJN; // 0x60
-		::System::Nullable_1<::RPG::GameCore::FixPoint> MJPNFNMGANM; // 0x68
+		::RPG::GameCore::GameEntity* MFIEDDGBIPH; // 0x18
+		::System::String* BFHDJGEIGBC; // 0x20
+		::MBBEBLGELAP* KPLILJJOOGI; // 0x28
+		::PGJINBJDAHN* PMCDOCGAOIN; // 0x30
+		::MNBNFBAMKKI* AMLKIGFLNHI; // 0x38
+		::System::String* MKFEAAIKJNA; // 0x40
+		::System::Nullable_1<::RPG::GameCore::FixPoint> MJPNFNMGANM; // 0x48
+		::System::Byte _padding0[0x8];
+		::System::Nullable_1<::RPG::GameCore::FixPoint> HJKAEDGCBAC; // 0x58
 		::System::Byte _padding1[0x8];
-		::System::Nullable_1<::System::Int32> AAIKGIBKHBH; // 0x78
-		::System::Single LDFKGILGIOA; // 0x80
-		::RPG::GameCore::ModifierAddReason HBGNJPJNLIJ; // 0x84
-		::RPG::MVector3 HNNPEMAPANP; // 0x88
-		::RPG::GameCore::ModifierStackingFlag MLLIBMECPGM; // 0x94
-		::System::Boolean ADMJLNEDMDG; // 0x98
-		::System::Boolean DNNKBICNJOA; // 0x99
-		::System::Boolean APFPPJAKNBF; // 0x9A
-		::System::Boolean CPFEDPAGDFF; // 0x9B
-		::System::Byte _padding2[0x4];
-		::System::Nullable_1<::RPG::GameCore::FixPoint> HJKAEDGCBAC; // 0xA0
+		::System::Nullable_1<::System::Int32> BNJBNIIDHJN; // 0x68
+		::RPG::MVector3 HNNPEMAPANP; // 0x70
+		::System::Single OCAGLPIKAKC; // 0x7C
+		::System::Nullable_1<::System::Int32> AAIKGIBKHBH; // 0x80
+		::System::Nullable_1<::System::Int32> DIIGMKEAKCD; // 0x88
+		::System::Nullable_1<::System::Int32> OEODJDBGBIF; // 0x90
+		::RPG::GameCore::ModifierStackingFlag MLLIBMECPGM; // 0x98
+		::RPG::GameCore::ModifierAddReason HBGNJPJNLIJ; // 0x9C
+		::System::Single LDFKGILGIOA; // 0xA0
+		::System::Boolean LDGDOCAGNEE; // 0xA4
+		::System::Boolean APFPPJAKNBF; // 0xA5
+		::System::Boolean DNNKBICNJOA; // 0xA6
+		::System::Boolean CPFEDPAGDFF; // 0xA7
+		::System::Boolean BPEKOACCGHK; // 0xA8
+		::System::Boolean ADMJLNEDMDG; // 0xA9
 		static ::OEOLGJFLJDO** StaticGet_JNKBIGPJDNK()
 		{
-			return (::OEOLGJFLJDO**)UnitySDK::FromName("", "OEOLGJFLJDO")->GetStaticField(0x64600);
+			return (::OEOLGJFLJDO**)UnitySDK::FromName("", "OEOLGJFLJDO")->GetStaticField(0x688D0);
 		}
 
 		::System::Void _ctor()

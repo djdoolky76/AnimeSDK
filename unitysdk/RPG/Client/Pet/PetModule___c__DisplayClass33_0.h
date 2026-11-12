@@ -4,12 +4,12 @@
 class DJNNFOIKDKF;
 namespace RPG::Client::Pet { class PetModule; }
 
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAC0280)
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS33_0___ONRECALLPETSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xDAC1180)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE516060)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS33_0___ONRECALLPETSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xE516F60)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetModule___c__DisplayClass33_0_TypeDefinitionIndex = 75699;
+	inline static constexpr unsigned int PetModule___c__DisplayClass33_0_TypeDefinitionIndex = 78026;
 
 	class PetModule___c__DisplayClass33_0 : public ::System::Object
 	{

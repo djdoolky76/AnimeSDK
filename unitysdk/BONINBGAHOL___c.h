@@ -5,23 +5,23 @@ class EKPOLIPHPIK;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define BONINBGAHOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC199BC0)
-#define BONINBGAHOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC199BF0)
-#define BONINBGAHOL___C__UPDATECAPSULEDATAS_B__7_0_OFFSET UNITYSDK_OFFSET(0xC199C00)
+#define BONINBGAHOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB39F00)
+#define BONINBGAHOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB39F30)
+#define BONINBGAHOL___C__UPDATECAPSULEDATAS_B__7_0_OFFSET UNITYSDK_OFFSET(0xCB39F40)
 
-inline static constexpr unsigned int BONINBGAHOL___c_TypeDefinitionIndex = 51888;
+inline static constexpr unsigned int BONINBGAHOL___c_TypeDefinitionIndex = 52974;
 
 	class BONINBGAHOL___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C50);
-		}
-
 		static ::System::Predicate_1<::EKPOLIPHPIK*>** StaticGet___9__7_0()
 		{
-			return (::System::Predicate_1<::EKPOLIPHPIK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C58);
+			return (::System::Predicate_1<::EKPOLIPHPIK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72F70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72F78);
 		}
 
 		static ::System::Void _cctor()

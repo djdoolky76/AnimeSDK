@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF02CC0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS8_0__OPENURL_B__0_OFFSET UNITYSDK_OFFSET(0x1BF032E0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D089770)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_LOGINMANAGERCXHANDHELD___C__DISPLAYCLASS8_0__OPENURL_B__0_OFFSET UNITYSDK_OFFSET(0x1D089D90)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass8_0_TypeDefinitionIndex = 8763;
+	inline static constexpr unsigned int LoginManagerCXHandheld___c__DisplayClass8_0_TypeDefinitionIndex = 8772;
 
 	class LoginManagerCXHandheld___c__DisplayClass8_0 : public ::System::Object
 	{

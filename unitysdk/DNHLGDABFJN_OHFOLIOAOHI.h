@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/DNHLGDABFJN_DitherProcessType.h"
 
-inline static constexpr unsigned int DNHLGDABFJN_OHFOLIOAOHI_TypeDefinitionIndex = 69619;
+inline static constexpr unsigned int DNHLGDABFJN_OHFOLIOAOHI_TypeDefinitionIndex = 71576;
 
 	struct alignas(4) DNHLGDABFJN_OHFOLIOAOHI
 	{

@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldOptions_Types_TypeDefinitionIndex = 5495;
+	inline static constexpr unsigned int FieldOptions_Types_TypeDefinitionIndex = 5500;
 
 	class FieldOptions_Types : public ::System::Object
 	{

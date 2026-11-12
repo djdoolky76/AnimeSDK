@@ -5,13 +5,13 @@ namespace System { class String; }
 namespace System::Linq::Expressions::Interpreter { class GotoInstruction; }
 namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EDE8470)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1EDE8240)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE8220)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDE8200)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EDE81C0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EDE8210)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x1EDE8380)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x20097EC0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x20097C90)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x20097C70)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x20097C50)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x20097C10)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x20097C60)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_GOTOINSTRUCTION_RUN_OFFSET UNITYSDK_OFFSET(0x20097DD0)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -20,12 +20,12 @@ namespace System::Linq::Expressions::Interpreter
 	class GotoInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction
 	{
 	public:
-		::System::Boolean _labelTargetGetsValue; // 0x18
-		::System::Boolean _hasValue; // 0x19
-		::System::Boolean _hasResult; // 0x1A
+		::System::Boolean _hasValue; // 0x18
+		::System::Boolean _hasResult; // 0x19
+		::System::Boolean _labelTargetGetsValue; // 0x1A
 		static ::Il2CppArray<::System::Linq::Expressions::Interpreter::GotoInstruction*>** StaticGet_s_cache()
 		{
-			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::GotoInstruction*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "GotoInstruction")->GetStaticField(0x3AB70);
+			return (::Il2CppArray<::System::Linq::Expressions::Interpreter::GotoInstruction*>**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "GotoInstruction")->GetStaticField(0x41140);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4)

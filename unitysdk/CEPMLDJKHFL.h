@@ -15,30 +15,29 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RPGInstancedItemClusterVolumeManager; }
 namespace UnityEngine { class Transform; }
 
-#define CEPMLDJKHFL_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xC9F9730)
-#define CEPMLDJKHFL_CTOR_OFFSET UNITYSDK_OFFSET(0xC9F8890)
-#define CEPMLDJKHFL_DAHANCBCKOH_OFFSET UNITYSDK_OFFSET(0xC9F8D20)
-#define CEPMLDJKHFL_EINIOPLFCLN_OFFSET UNITYSDK_OFFSET(0xC9F94D0)
-#define CEPMLDJKHFL_FPFLMADOKJN_OFFSET UNITYSDK_OFFSET(0xC9F9170)
-#define CEPMLDJKHFL_GPBIACDBPNB_OFFSET UNITYSDK_OFFSET(0xC9F97E0)
-#define CEPMLDJKHFL_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xC9F9980)
-#define CEPMLDJKHFL_LMJCDMPNBKE_OFFSET UNITYSDK_OFFSET(0xC9F9040)
-#define CEPMLDJKHFL_ONHNNLDMAII_OFFSET UNITYSDK_OFFSET(0xC9F8EE0)
+#define CEPMLDJKHFL_BJMNKLGEMPM_OFFSET UNITYSDK_OFFSET(0xD35ECD0)
+#define CEPMLDJKHFL_CTOR_OFFSET UNITYSDK_OFFSET(0xD35DE90)
+#define CEPMLDJKHFL_DAHANCBCKOH_OFFSET UNITYSDK_OFFSET(0xD35E320)
+#define CEPMLDJKHFL_EINIOPLFCLN_OFFSET UNITYSDK_OFFSET(0xD35EAD0)
+#define CEPMLDJKHFL_FPFLMADOKJN_OFFSET UNITYSDK_OFFSET(0xD35E770)
+#define CEPMLDJKHFL_GPBIACDBPNB_OFFSET UNITYSDK_OFFSET(0xD35ED80)
+#define CEPMLDJKHFL_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xD35EF20)
+#define CEPMLDJKHFL_LMJCDMPNBKE_OFFSET UNITYSDK_OFFSET(0xD35E640)
+#define CEPMLDJKHFL_ONHNNLDMAII_OFFSET UNITYSDK_OFFSET(0xD35E4E0)
 
-inline static constexpr unsigned int CEPMLDJKHFL_TypeDefinitionIndex = 47756;
+inline static constexpr unsigned int CEPMLDJKHFL_TypeDefinitionIndex = 48786;
 
 	class CEPMLDJKHFL : public ::NNEDFJMPCCK
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* CMNLKKBBIMO; // 0x30
-		::UnityEngine::RPGInstancedItemClusterVolumeManager* BDBLGJGGNDH; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* EEFNDEPABJC; // 0x40
-		::UnityEngine::GameObject* CDBMKOJNEHB; // 0x48
-		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> GDFDJKEDLJO; // 0x50
-		::System::Byte _padding0[0x8];
-		::System::Boolean OJJHEHBPJBC; // 0x60
-		::System::Byte _padding1[0x7];
-		::System::UInt64 HAKOPJDCGBA; // 0x68
+		::UnityEngine::RPGInstancedItemClusterVolumeManager* BDBLGJGGNDH; // 0x30
+		::UnityEngine::GameObject* CDBMKOJNEHB; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::Transform*>* CMNLKKBBIMO; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* EEFNDEPABJC; // 0x48
+		::System::Boolean OJJHEHBPJBC; // 0x50
+		::System::Byte _padding0[0x7];
+		::System::UInt64 HAKOPJDCGBA; // 0x58
+		::Unity::Collections::NativeArray_1<::UnityEngine::Matrix4x4> GDFDJKEDLJO; // 0x60
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::UnityEngine::GameObject* a2, ::UnityEngine::IRIClusterVolumeInfo a3, ::UnityEngine::RPGInstancedItemClusterVolumeManager* a4, ::UnityEngine::Vector3 a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::GameObject*, ::UnityEngine::IRIClusterVolumeInfo, ::UnityEngine::RPGInstancedItemClusterVolumeManager*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CEPMLDJKHFL_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

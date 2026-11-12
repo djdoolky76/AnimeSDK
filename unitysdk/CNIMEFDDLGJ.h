@@ -4,10 +4,10 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_ElfByIsCustomerState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CNIMEFDDLGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA551C0)
-#define CNIMEFDDLGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA55240)
+#define CNIMEFDDLGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE5EDAE0)
+#define CNIMEFDDLGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE5EDB60)
 
-inline static constexpr unsigned int CNIMEFDDLGJ_TypeDefinitionIndex = 52148;
+inline static constexpr unsigned int CNIMEFDDLGJ_TypeDefinitionIndex = 53253;
 
 	class CNIMEFDDLGJ
 	{

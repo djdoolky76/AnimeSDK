@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int SequenceEqual_TypeDefinitionIndex = 45572;
+	inline static constexpr unsigned int SequenceEqual_TypeDefinitionIndex = 46601;
 
 	class SequenceEqual : public ::System::Object
 	{

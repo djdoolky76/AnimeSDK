@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetupActionDelayLink; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MBFOOOBHIFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB85A620)
-#define MBFOOOBHIFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB85A650)
+#define MBFOOOBHIFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC0C03F0)
+#define MBFOOOBHIFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0C0420)
 
-inline static constexpr unsigned int MBFOOOBHIFA_TypeDefinitionIndex = 55598;
+inline static constexpr unsigned int MBFOOOBHIFA_TypeDefinitionIndex = 56794;
 
 	class MBFOOOBHIFA
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtBattleSetCameraMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKLNPHLGADO_CTOR_OFFSET UNITYSDK_OFFSET(0xD763EE0)
-#define CKLNPHLGADO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD763F10)
+#define CKLNPHLGADO_CTOR_OFFSET UNITYSDK_OFFSET(0xE09E180)
+#define CKLNPHLGADO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE09E1B0)
 
-inline static constexpr unsigned int CKLNPHLGADO_TypeDefinitionIndex = 54156;
+inline static constexpr unsigned int CKLNPHLGADO_TypeDefinitionIndex = 55320;
 
 	class CKLNPHLGADO
 	{

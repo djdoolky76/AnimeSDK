@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimPropBakedMoveConfig; }
 namespace RPG::GameCore { class FiveDimPropMoveConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C9520)
-#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6D5000)
-#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D4230)
+#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DFB80)
+#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8DF8F0)
+#define RPG_GAMECORE_FIVEDIMPROPMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DEBD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPropMoveConfig_TypeDefinitionIndex = 16687;
+	inline static constexpr unsigned int FiveDimPropMoveConfig_TypeDefinitionIndex = 16853;
 
 	class FiveDimPropMoveConfig : public ::RPG::GameCore::JsonConfig
 	{

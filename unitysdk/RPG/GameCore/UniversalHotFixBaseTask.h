@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class UniversalHotFixBaseTask; }
 namespace RPG::GameCore { class UniversalHotFixTaskConfig; }
 
-#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC76400)
-#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC76410)
-#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC761E0)
+#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE89020)
+#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE89030)
+#define RPG_GAMECORE_UNIVERSALHOTFIXBASETASK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE88E00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniversalHotFixBaseTask_TypeDefinitionIndex = 23356;
+	inline static constexpr unsigned int UniversalHotFixBaseTask_TypeDefinitionIndex = 23798;
 
 	class UniversalHotFixBaseTask : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,13 +5,13 @@ namespace HoudiniEngineUnity { class Test_SphereCollider; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class SphereCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1B9B4E30)
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1B9B4F50)
-#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1B9B0700)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1CB3DD60)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1CB3DE80)
+#define HOUDINIENGINEUNITY_TEST_SPHERECOLLIDER_EXTENSIONS_TOTESTOBJECT_OFFSET UNITYSDK_OFFSET(0x1CB39630)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_SphereCollider_Extensions_TypeDefinitionIndex = 40726;
+	inline static constexpr unsigned int Test_SphereCollider_Extensions_TypeDefinitionIndex = 41701;
 
 	class Test_SphereCollider_Extensions : public ::System::Object
 	{

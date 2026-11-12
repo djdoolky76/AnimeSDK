@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/Pet/PetRarity.h"
 
-#define IOJLOPLDGDJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16503210)
+#define IOJLOPLDGDJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB837B60)
 
-inline static constexpr unsigned int IOJLOPLDGDJ_TypeDefinitionIndex = 75704;
+inline static constexpr unsigned int IOJLOPLDGDJ_TypeDefinitionIndex = 78031;
 
 	class IOJLOPLDGDJ : public ::System::Object
 	{

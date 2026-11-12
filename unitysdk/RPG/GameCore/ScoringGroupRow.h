@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ScoringGroupRow; }
 
-#define RPG_GAMECORE_SCORINGGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8A550)
-#define RPG_GAMECORE_SCORINGGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA89EE0)
+#define RPG_GAMECORE_SCORINGGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9CBC0)
+#define RPG_GAMECORE_SCORINGGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC9C550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScoringGroupRow_TypeDefinitionIndex = 12884;
+	inline static constexpr unsigned int ScoringGroupRow_TypeDefinitionIndex = 12956;
 
 	class ScoringGroupRow : public ::System::Object
 	{

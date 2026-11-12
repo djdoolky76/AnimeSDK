@@ -10,13 +10,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATESUMMONUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E6540)
-#define RPG_GAMECORE_CREATESUMMONUNIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E6700)
-#define RPG_GAMECORE_CREATESUMMONUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E6500)
+#define RPG_GAMECORE_CREATESUMMONUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F8610)
+#define RPG_GAMECORE_CREATESUMMONUNIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F87D0)
+#define RPG_GAMECORE_CREATESUMMONUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F85D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateSummonUnit_TypeDefinitionIndex = 20359;
+	inline static constexpr unsigned int CreateSummonUnit_TypeDefinitionIndex = 20694;
 
 	class CreateSummonUnit : public ::RPG::GameCore::TaskConfig
 	{

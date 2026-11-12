@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/AvatarBaseType.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int FOMHMBKPEDB_LMHFPDFCMJA_TypeDefinitionIndex = 59044;
+inline static constexpr unsigned int FOMHMBKPEDB_LMHFPDFCMJA_TypeDefinitionIndex = 60319;
 
 	struct alignas(8) FOMHMBKPEDB_LMHFPDFCMJA
 	{

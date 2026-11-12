@@ -4,18 +4,18 @@
 class CPHOIPHAPDJ;
 namespace System { class Object; }
 
-#define CPHOIPHAPDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E13F5B0)
-#define CPHOIPHAPDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E13F5F0)
-#define CPHOIPHAPDJ___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E13F600)
+#define CPHOIPHAPDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4177D0)
+#define CPHOIPHAPDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F417810)
+#define CPHOIPHAPDJ___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F417820)
 
-inline static constexpr unsigned int CPHOIPHAPDJ___c_TypeDefinitionIndex = 31750;
+inline static constexpr unsigned int CPHOIPHAPDJ___c_TypeDefinitionIndex = 32663;
 
 	class CPHOIPHAPDJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x22880);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D590);
 		}
 
 		static ::System::Void _cctor()

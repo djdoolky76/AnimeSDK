@@ -10,13 +10,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class InfectModifier; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_INFECTMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D786480)
-#define RPG_GAMECORE_INFECTMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7864E0)
-#define RPG_GAMECORE_INFECTMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D786400)
+#define RPG_GAMECORE_INFECTMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E999BB0)
+#define RPG_GAMECORE_INFECTMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E999C10)
+#define RPG_GAMECORE_INFECTMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E999B30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InfectModifier_TypeDefinitionIndex = 23068;
+	inline static constexpr unsigned int InfectModifier_TypeDefinitionIndex = 23497;
 
 	class InfectModifier : public ::RPG::GameCore::TaskConfig
 	{

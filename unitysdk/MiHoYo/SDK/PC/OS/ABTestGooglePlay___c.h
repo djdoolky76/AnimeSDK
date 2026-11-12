@@ -5,31 +5,31 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BEBEA60)
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEBEAA0)
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BEBEAB0)
-#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_1_OFFSET UNITYSDK_OFFSET(0x1BEBEAC0)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D046910)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D046950)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D046960)
+#define MIHOYO_SDK_PC_OS_ABTESTGOOGLEPLAY___C__REQUESTABTESTCONFIG_B__6_1_OFFSET UNITYSDK_OFFSET(0x1D046970)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int ABTestGooglePlay___c_TypeDefinitionIndex = 8716;
+	inline static constexpr unsigned int ABTestGooglePlay___c_TypeDefinitionIndex = 8725;
 
 	class ABTestGooglePlay___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x11BE0);
-		}
-
 		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x11BE8);
+			return (::System::Func_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0xBD40);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0x11BF0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0xBD48);
+		}
+
+		static ::System::Func_2<::System::String*, ::System::String*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::System::String*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PC.OS", "<>c")->GetStaticField(0xBD50);
 		}
 
 		static ::System::Void _cctor()

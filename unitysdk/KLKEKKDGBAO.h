@@ -9,31 +9,30 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Transform; }
 
-#define KLKEKKDGBAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB52C280)
-#define KLKEKKDGBAO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB52BA90)
-#define KLKEKKDGBAO_GBJGAIBJLBB_OFFSET UNITYSDK_OFFSET(0xB52BB10)
-#define KLKEKKDGBAO_HPBJLBOKODD_OFFSET UNITYSDK_OFFSET(0xB52C160)
-#define KLKEKKDGBAO_JMGCAPDFIGJ_OFFSET UNITYSDK_OFFSET(0xB52C100)
-#define KLKEKKDGBAO_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB52C090)
-#define KLKEKKDGBAO_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xB52B8D0)
-#define KLKEKKDGBAO_OALPGDIOIFD_OFFSET UNITYSDK_OFFSET(0xB52C270)
-#define KLKEKKDGBAO_PFNHAMFJBFJ_OFFSET UNITYSDK_OFFSET(0xB52BBC0)
-#define KLKEKKDGBAO_TICK_OFFSET UNITYSDK_OFFSET(0xB52C020)
+#define KLKEKKDGBAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD77290)
+#define KLKEKKDGBAO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD76A70)
+#define KLKEKKDGBAO_GBJGAIBJLBB_OFFSET UNITYSDK_OFFSET(0xBD76AF0)
+#define KLKEKKDGBAO_HPBJLBOKODD_OFFSET UNITYSDK_OFFSET(0xBD77170)
+#define KLKEKKDGBAO_JMGCAPDFIGJ_OFFSET UNITYSDK_OFFSET(0xBD77110)
+#define KLKEKKDGBAO_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xBD770A0)
+#define KLKEKKDGBAO_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xBD768B0)
+#define KLKEKKDGBAO_OALPGDIOIFD_OFFSET UNITYSDK_OFFSET(0xBD77280)
+#define KLKEKKDGBAO_PFNHAMFJBFJ_OFFSET UNITYSDK_OFFSET(0xBD76BA0)
+#define KLKEKKDGBAO_TICK_OFFSET UNITYSDK_OFFSET(0xBD77030)
 
-inline static constexpr unsigned int KLKEKKDGBAO_TypeDefinitionIndex = 56962;
+inline static constexpr unsigned int KLKEKKDGBAO_TypeDefinitionIndex = 58188;
 
 	class KLKEKKDGBAO : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Single, ::System::Single>* AJBAMNPFGIB; // 0x18
-		::RPG::GameCore::CharacterModelScaleEventParam* GJMEBCMNPMK; // 0x20
-		::RPG::GameCore::CharacterModelComponent* EHFENKGDGJD; // 0x28
-		::UnityEngine::Transform* DMOMBMJBBNP; // 0x30
-		::RPG::GameCore::GameEntity* DPDJLGOIALF; // 0x38
-		::System::Boolean IKCMMJAPKPC; // 0x40
-		::System::Boolean MNMOPFJLDCJ; // 0x41
-		::System::Byte _padding0[0x2];
-		::KLKEKKDGBAO_EHHAHMPEADF ENHJFLBIELP; // 0x44
+		::RPG::GameCore::CharacterModelScaleEventParam* GJMEBCMNPMK; // 0x18
+		::RPG::GameCore::GameEntity* DPDJLGOIALF; // 0x20
+		::UnityEngine::Transform* DMOMBMJBBNP; // 0x28
+		::RPG::GameCore::CharacterModelComponent* EHFENKGDGJD; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::Single, ::System::Single>* AJBAMNPFGIB; // 0x38
+		::KLKEKKDGBAO_EHHAHMPEADF ENHJFLBIELP; // 0x40
+		::System::Boolean MNMOPFJLDCJ; // 0x44
+		::System::Boolean IKCMMJAPKPC; // 0x45
 		// static const ::System::String* POPHIILFKAA; // 0x0
 		::System::Void _ctor()
 		{

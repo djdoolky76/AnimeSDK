@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CLAMP_OFFSET UNITYSDK_OFFSET(0xE4585E0)
-#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CTOR_OFFSET UNITYSDK_OFFSET(0xE4585D0)
+#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CLAMP_OFFSET UNITYSDK_OFFSET(0xEF16F60)
+#define RPG_CLIENT_VIRTUALCURSORROUNDCLAMPER_CTOR_OFFSET UNITYSDK_OFFSET(0xEF16F50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VirtualCursorRoundClamper_TypeDefinitionIndex = 73241;
+	inline static constexpr unsigned int VirtualCursorRoundClamper_TypeDefinitionIndex = 75357;
 
 	class VirtualCursorRoundClamper : public ::System::Object
 	{

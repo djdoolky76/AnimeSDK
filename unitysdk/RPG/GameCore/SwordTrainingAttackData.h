@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingAttackData; }
 
-#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB47620)
-#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB47630)
-#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB475E0)
+#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF6C10)
+#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EDF6C20)
+#define RPG_GAMECORE_SWORDTRAININGATTACKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDF6BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingAttackData_TypeDefinitionIndex = 22596;
+	inline static constexpr unsigned int SwordTrainingAttackData_TypeDefinitionIndex = 23011;
 
 	class SwordTrainingAttackData : public ::RPG::GameCore::AttackData
 	{
 	public:
-		::RPG::GameCore::SwordTrainingProperty UseSwordTrainingProperty; // 0x148
+		::RPG::GameCore::SwordTrainingProperty UseSwordTrainingProperty; // 0x150
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGATTACKDATA_CTOR_OFFSET))(this);

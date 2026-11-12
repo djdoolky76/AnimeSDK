@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::MechCraft::ViewModel { class IMechCraftDiyMechatronItemViewModel; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONLISTVIEWMODEL___C__DISPLAYCLASS45_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD67E2A0)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONLISTVIEWMODEL___C__DISPLAYCLASS45_0___FINDDEFAULTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xD67E420)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONLISTVIEWMODEL___C__DISPLAYCLASS45_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE10CC60)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONLISTVIEWMODEL___C__DISPLAYCLASS45_0___FINDDEFAULTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xE10CDE0)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiyMechatronListViewModel___c__DisplayClass45_0_TypeDefinitionIndex = 79631;
+	inline static constexpr unsigned int MechCraftDiyMechatronListViewModel___c__DisplayClass45_0_TypeDefinitionIndex = 82408;
 
 	class MechCraftDiyMechatronListViewModel___c__DisplayClass45_0 : public ::System::Object
 	{

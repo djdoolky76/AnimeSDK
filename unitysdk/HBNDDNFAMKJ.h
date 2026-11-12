@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HeadLookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HBNDDNFAMKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C11550)
-#define HBNDDNFAMKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C11580)
+#define HBNDDNFAMKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16B53300)
+#define HBNDDNFAMKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B53330)
 
-inline static constexpr unsigned int HBNDDNFAMKJ_TypeDefinitionIndex = 55878;
+inline static constexpr unsigned int HBNDDNFAMKJ_TypeDefinitionIndex = 57081;
 
 	class HBNDDNFAMKJ
 	{

@@ -5,23 +5,23 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIBPJLAGBLD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB951250)
-#define MIBPJLAGBLD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB951290)
-#define MIBPJLAGBLD___C__CONFIRMLOAN_B__7_2_OFFSET UNITYSDK_OFFSET(0xB9512A0)
+#define MIBPJLAGBLD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC205B80)
+#define MIBPJLAGBLD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC205BC0)
+#define MIBPJLAGBLD___C__CONFIRMLOAN_B__7_2_OFFSET UNITYSDK_OFFSET(0xC205BD0)
 
-inline static constexpr unsigned int MIBPJLAGBLD___c_TypeDefinitionIndex = 76461;
+inline static constexpr unsigned int MIBPJLAGBLD___c_TypeDefinitionIndex = 78792;
 
 	class MIBPJLAGBLD___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCA0);
-		}
-
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__7_2()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FCA8);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73560);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73568);
 		}
 
 		static ::System::Void _cctor()

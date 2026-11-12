@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int VREvent_Keyboard_t_TypeDefinitionIndex = 39290;
+	inline static constexpr unsigned int VREvent_Keyboard_t_TypeDefinitionIndex = 40219;
 
 	struct alignas(4) VREvent_Keyboard_t
 	{

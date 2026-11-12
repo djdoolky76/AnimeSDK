@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpticalIllusionEnterPerformance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IADCKHKHFOF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E019E0)
-#define IADCKHKHFOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E01A10)
+#define IADCKHKHFOF_CTOR_OFFSET UNITYSDK_OFFSET(0x16DAC240)
+#define IADCKHKHFOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DAC270)
 
-inline static constexpr unsigned int IADCKHKHFOF_TypeDefinitionIndex = 53040;
+inline static constexpr unsigned int IADCKHKHFOF_TypeDefinitionIndex = 54200;
 
 	class IADCKHKHFOF
 	{

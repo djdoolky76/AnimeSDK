@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class JNPCHAAGGGO;
 
-inline static constexpr unsigned int AAOICMLBOPN_TypeDefinitionIndex = 44051;
+inline static constexpr unsigned int AAOICMLBOPN_TypeDefinitionIndex = 45126;
 
 	class AAOICMLBOPN : public ::System::Object
 	{

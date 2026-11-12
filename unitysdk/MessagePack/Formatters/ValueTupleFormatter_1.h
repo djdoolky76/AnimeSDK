@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ValueTupleFormatter_1_TypeDefinitionIndex = 7514;
+	inline static constexpr unsigned int ValueTupleFormatter_1_TypeDefinitionIndex = 7525;
 
 	template <typename T>
 	class ValueTupleFormatter_1 : public ::System::Object

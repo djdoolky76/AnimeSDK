@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-inline static constexpr unsigned int GNACIJDMBOK_DKAJOCLLDFO_TypeDefinitionIndex = 76722;
+inline static constexpr unsigned int GNACIJDMBOK_DKAJOCLLDFO_TypeDefinitionIndex = 79055;
 
 	struct alignas(8) GNACIJDMBOK_DKAJOCLLDFO
 	{

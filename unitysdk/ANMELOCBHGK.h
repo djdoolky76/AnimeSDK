@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ANMELOCBHGK_TypeDefinitionIndex = 34700;
+inline static constexpr unsigned int ANMELOCBHGK_TypeDefinitionIndex = 35628;
 
 	enum class ANMELOCBHGK : ::System::Int32
 	{

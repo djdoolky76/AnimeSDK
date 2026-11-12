@@ -3,7 +3,7 @@
 
 namespace RVO
 {
-	inline static constexpr unsigned int EAsyncNavMeshAgentPriority_TypeDefinitionIndex = 46036;
+	inline static constexpr unsigned int EAsyncNavMeshAgentPriority_TypeDefinitionIndex = 47065;
 
 	enum class EAsyncNavMeshAgentPriority : ::System::Int32
 	{

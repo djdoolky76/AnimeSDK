@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 namespace System::IO { class StreamWriter; }
 
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_CTOR_OFFSET UNITYSDK_OFFSET(0xC69F1B0)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_DFIJJMILIGJ_OFFSET UNITYSDK_OFFSET(0xC69DD90)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC69DA50)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xC69DA60)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_START_OFFSET UNITYSDK_OFFSET(0xC69DA70)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xC69E400)
-#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST__ONASYNCLOADFINISH_OFFSET UNITYSDK_OFFSET(0xC69EA40)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_CTOR_OFFSET UNITYSDK_OFFSET(0xCFFB000)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_DFIJJMILIGJ_OFFSET UNITYSDK_OFFSET(0xCFF9BE0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xCFF98A0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xCFF98B0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_START_OFFSET UNITYSDK_OFFSET(0xCFF98C0)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xCFFA250)
+#define RPG_CLIENT_ASSETSYSTEM_TEST_LOADRESOURCETEST__ONASYNCLOADFINISH_OFFSET UNITYSDK_OFFSET(0xCFFA890)
 
 namespace RPG::Client::AssetSystem::Test
 {
-	inline static constexpr unsigned int LoadResourceTest_TypeDefinitionIndex = 82299;
+	inline static constexpr unsigned int LoadResourceTest_TypeDefinitionIndex = 85172;
 
 	class LoadResourceTest : public ::UnityEngine::MonoBehaviour
 	{
@@ -31,12 +31,12 @@ namespace RPG::Client::AssetSystem::Test
 		::System::Boolean isRunninsg; // 0x38
 		static ::System::String** StaticGet_FDCBOKOGCPJ()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.AssetSystem.Test", "LoadResourceTest")->GetStaticField(0x57C70);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.AssetSystem.Test", "LoadResourceTest")->GetStaticField(0x50F10);
 		}
 
 		static ::RPG::Client::AssetSystem::Test::LoadResourceTest** StaticGet__Instance_k__BackingField()
 		{
-			return (::RPG::Client::AssetSystem::Test::LoadResourceTest**)UnitySDK::FromName("RPG.Client.AssetSystem.Test", "LoadResourceTest")->GetStaticField(0x57C78);
+			return (::RPG::Client::AssetSystem::Test::LoadResourceTest**)UnitySDK::FromName("RPG.Client.AssetSystem.Test", "LoadResourceTest")->GetStaticField(0x50F18);
 		}
 
 		::System::Void _ctor()

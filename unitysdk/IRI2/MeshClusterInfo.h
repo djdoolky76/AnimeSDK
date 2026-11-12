@@ -5,13 +5,13 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace System { class Object; }
 
-#define IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_1_OFFSET UNITYSDK_OFFSET(0x2E841F0)
-#define IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_OFFSET UNITYSDK_OFFSET(0x2E841E0)
-#define IRI2_MESHCLUSTERINFO_PLGIIKHDPJM_OFFSET UNITYSDK_OFFSET(0x2E841C0)
+#define IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_1_OFFSET UNITYSDK_OFFSET(0x11DB0)
+#define IRI2_MESHCLUSTERINFO_NIOAMPCPLPM_OFFSET UNITYSDK_OFFSET(0x11DA0)
+#define IRI2_MESHCLUSTERINFO_PLGIIKHDPJM_OFFSET UNITYSDK_OFFSET(0x11D80)
 
 namespace IRI2
 {
-	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 49663;
+	inline static constexpr unsigned int MeshClusterInfo_TypeDefinitionIndex = 50739;
 
 	struct alignas(8) MeshClusterInfo
 	{

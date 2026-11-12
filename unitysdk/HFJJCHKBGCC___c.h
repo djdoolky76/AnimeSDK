@@ -5,23 +5,23 @@ class AILLDGBCBGE;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HFJJCHKBGCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15C870F0)
-#define HFJJCHKBGCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15C87120)
-#define HFJJCHKBGCC___C__REGISTERCOMPONENTADAPTERS_B__178_0_OFFSET UNITYSDK_OFFSET(0x15C87130)
+#define HFJJCHKBGCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16BCE890)
+#define HFJJCHKBGCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16BCE8C0)
+#define HFJJCHKBGCC___C__REGISTERCOMPONENTADAPTERS_B__178_0_OFFSET UNITYSDK_OFFSET(0x16BCE8D0)
 
-inline static constexpr unsigned int HFJJCHKBGCC___c_TypeDefinitionIndex = 49280;
+inline static constexpr unsigned int HFJJCHKBGCC___c_TypeDefinitionIndex = 50356;
 
 	class HFJJCHKBGCC___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11A80);
-		}
-
 		static ::System::Func_2<::System::Object*, ::AILLDGBCBGE*>** StaticGet___9__178_0()
 		{
-			return (::System::Func_2<::System::Object*, ::AILLDGBCBGE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11A88);
+			return (::System::Func_2<::System::Object*, ::AILLDGBCBGE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73860);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73868);
 		}
 
 		static ::System::Void _cctor()

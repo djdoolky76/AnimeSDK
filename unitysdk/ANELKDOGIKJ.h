@@ -5,11 +5,11 @@ namespace RPG::GameCore { class TargetFetchCurrentInsertAbilityTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ANELKDOGIKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15595420)
-#define ANELKDOGIKJ_DCHBJGFBNLG_OFFSET UNITYSDK_OFFSET(0x15595680)
-#define ANELKDOGIKJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15595490)
+#define ANELKDOGIKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x166FE400)
+#define ANELKDOGIKJ_DCHBJGFBNLG_OFFSET UNITYSDK_OFFSET(0x166FE660)
+#define ANELKDOGIKJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x166FE470)
 
-inline static constexpr unsigned int ANELKDOGIKJ_TypeDefinitionIndex = 59121;
+inline static constexpr unsigned int ANELKDOGIKJ_TypeDefinitionIndex = 60397;
 
 	class ANELKDOGIKJ
 	{

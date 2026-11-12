@@ -4,11 +4,11 @@
 #include "unitysdk/CriWare/CriAtom_SpeakerMapping.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x2E89860)
+#define CRIWARE_CRIATOMEXACF_ACFDSPBUSINFO_GET_NAME_OFFSET UNITYSDK_OFFSET(0x305BE90)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusInfo_TypeDefinitionIndex = 40026;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspBusInfo_TypeDefinitionIndex = 41001;
 
 	struct alignas(8) CriAtomExAcf_AcfDspBusInfo
 	{

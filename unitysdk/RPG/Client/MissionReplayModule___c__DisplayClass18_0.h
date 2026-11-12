@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD70FF20)
-#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0___TRYSTARTREPLAYMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xD711350)
+#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1A0610)
+#define RPG_CLIENT_MISSIONREPLAYMODULE___C__DISPLAYCLASS18_0___TRYSTARTREPLAYMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xE1A1A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionReplayModule___c__DisplayClass18_0_TypeDefinitionIndex = 66207;
+	inline static constexpr unsigned int MissionReplayModule___c__DisplayClass18_0_TypeDefinitionIndex = 68143;
 
 	class MissionReplayModule___c__DisplayClass18_0 : public ::System::Object
 	{

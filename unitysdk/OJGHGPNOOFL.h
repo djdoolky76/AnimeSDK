@@ -8,27 +8,27 @@ class PMMMEFBPCEK;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OJGHGPNOOFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB7140)
-#define OJGHGPNOOFL_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xBEB62C0)
-#define OJGHGPNOOFL_GGEDGBNHGAC_OFFSET UNITYSDK_OFFSET(0xBEB6310)
-#define OJGHGPNOOFL_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0xBEB6D30)
-#define OJGHGPNOOFL_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xBEB6F40)
+#define OJGHGPNOOFL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7AE8C0)
+#define OJGHGPNOOFL_GGEDGBNHGAC_OFFSET UNITYSDK_OFFSET(0xC7AD270)
+#define OJGHGPNOOFL_ONCNALEHHKK_OFFSET UNITYSDK_OFFSET(0xC7AE4B0)
+#define OJGHGPNOOFL_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xC7AE6C0)
+#define OJGHGPNOOFL__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0xC7AD220)
 
-inline static constexpr unsigned int OJGHGPNOOFL_TypeDefinitionIndex = 71235;
+inline static constexpr unsigned int OJGHGPNOOFL_TypeDefinitionIndex = 73214;
 
 	class OJGHGPNOOFL : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::PMMMEFBPCEK*>* DAIGNINLNKF; // 0x60
-		::IGKFNIEJGLM PMECLILMEDH; // 0x68
+		::IGKFNIEJGLM PMECLILMEDH; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::PMMMEFBPCEK*>* DAIGNINLNKF; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OJGHGPNOOFL_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + OJGHGPNOOFL_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + OJGHGPNOOFL__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
 		::System::Void GGEDGBNHGAC(::NFGNOOMMMEK* a1)

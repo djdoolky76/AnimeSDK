@@ -2,20 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD324830)
-#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0xD324850)
+#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDD58E20)
+#define RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_ISEXTRACONDSATISFY_OFFSET UNITYSDK_OFFSET(0xDD58E40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HighLevelCompanionMissionActivityData_TypeDefinitionIndex = 61635;
+	inline static constexpr unsigned int HighLevelCompanionMissionActivityData_TypeDefinitionIndex = 63033;
 
 	class HighLevelCompanionMissionActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:
-		::System::Boolean _Asked; // 0xA0
-		::System::Byte _padding0[0x3];
-		::System::UInt32 CompanionMissionID; // 0xA4
-		::System::UInt32 _CurLastMissionID; // 0xA8
+		::System::UInt32 CompanionMissionID; // 0xA0
+		::System::UInt32 _CurLastMissionID; // 0xA4
+		::System::Boolean _Asked; // 0xA8
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_HIGHLEVELCOMPANIONMISSIONACTIVITYDATA_CTOR_OFFSET))(this, a1);

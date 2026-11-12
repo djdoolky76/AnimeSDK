@@ -10,30 +10,30 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Image; }
 
-#define GNHEKDHMANH_AKMGALBKAGP_OFFSET UNITYSDK_OFFSET(0x15B0A010)
-#define GNHEKDHMANH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B0A220)
-#define GNHEKDHMANH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B0A1F0)
-#define GNHEKDHMANH_JEJLPHKIHLB_OFFSET UNITYSDK_OFFSET(0x15B09E50)
-#define GNHEKDHMANH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x15B09DE0)
-#define GNHEKDHMANH_NLMKFNDDHNN_OFFSET UNITYSDK_OFFSET(0x15B0A180)
-#define GNHEKDHMANH__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B09D40)
+#define GNHEKDHMANH_AKMGALBKAGP_OFFSET UNITYSDK_OFFSET(0x16A8D050)
+#define GNHEKDHMANH_CCTOR_OFFSET UNITYSDK_OFFSET(0x16A8D260)
+#define GNHEKDHMANH_CTOR_OFFSET UNITYSDK_OFFSET(0x16A8D230)
+#define GNHEKDHMANH_JEJLPHKIHLB_OFFSET UNITYSDK_OFFSET(0x16A8CE90)
+#define GNHEKDHMANH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x16A8CE20)
+#define GNHEKDHMANH_NLMKFNDDHNN_OFFSET UNITYSDK_OFFSET(0x16A8D1C0)
+#define GNHEKDHMANH__ONBIND_OFFSET UNITYSDK_OFFSET(0x16A8CC60)
 
-inline static constexpr unsigned int GNHEKDHMANH_TypeDefinitionIndex = 71458;
+inline static constexpr unsigned int GNHEKDHMANH_TypeDefinitionIndex = 73440;
 
 	class GNHEKDHMANH : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* MKOCDHEFAME; // 0x60
+		::RPG::Client::UIStateCtrl* GIMAEGBDOBL; // 0x60
 		::UnityEngine::RectTransform* HACIPINNIOG; // 0x68
-		::RPG::Client::UIStateCtrl* GIMAEGBDOBL; // 0x70
-		static ::System::Collections::Generic::Dictionary_2<::ANOBAENCAOD, ::System::String*>** StaticGet_MEGMMHLDHHF()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::ANOBAENCAOD, ::System::String*>**)UnitySDK::FromName("", "GNHEKDHMANH")->GetStaticField(0x6BE50);
-		}
-
+		::UnityEngine::UI::Image* MKOCDHEFAME; // 0x70
 		static ::System::Collections::Generic::Dictionary_2<::ANFHJIOJJMG, ::System::String*>** StaticGet_DOKLAJNEDGF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::ANFHJIOJJMG, ::System::String*>**)UnitySDK::FromName("", "GNHEKDHMANH")->GetStaticField(0x6BE58);
+			return (::System::Collections::Generic::Dictionary_2<::ANFHJIOJJMG, ::System::String*>**)UnitySDK::FromName("", "GNHEKDHMANH")->GetStaticField(0x6D8A0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::ANOBAENCAOD, ::System::String*>** StaticGet_MEGMMHLDHHF()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::ANOBAENCAOD, ::System::String*>**)UnitySDK::FromName("", "GNHEKDHMANH")->GetStaticField(0x6D8A8);
 		}
 
 		::System::Void _ctor()

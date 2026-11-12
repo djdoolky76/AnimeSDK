@@ -4,20 +4,20 @@
 namespace MiHoYo::SDK::Protobuf::Reflection { class OneofDescriptorProto; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC0DD70)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC0DDB0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1BC0DDC0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD96BD0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD96C10)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ONEOFDESCRIPTORPROTO___C___CCTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0x1CD96C20)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int OneofDescriptorProto___c_TypeDefinitionIndex = 35775;
+	inline static constexpr unsigned int OneofDescriptorProto___c_TypeDefinitionIndex = 36703;
 
 	class OneofDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x519D0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "<>c")->GetStaticField(0x5EB30);
 		}
 
 		static ::System::Void _cctor()

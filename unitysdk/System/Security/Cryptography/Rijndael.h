@@ -4,9 +4,9 @@
 namespace System::Security::Cryptography { class KeySizes; }
 namespace System::Security::Cryptography { class Rijndael; }
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0D6CC0)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1C0D6B50)
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0D6AE0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D25DE70)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CREATE_OFFSET UNITYSDK_OFFSET(0x1D25DD60)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_RIJNDAEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D25DCF0)
 
 namespace System::Security::Cryptography
 {
@@ -17,12 +17,12 @@ namespace System::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalKeySizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Rijndael")->GetStaticField(0x188D0);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Rijndael")->GetStaticField(0x1E6A0);
 		}
 
 		static ::Il2CppArray<::System::Security::Cryptography::KeySizes*>** StaticGet_s_legalBlockSizes()
 		{
-			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Rijndael")->GetStaticField(0x188D8);
+			return (::Il2CppArray<::System::Security::Cryptography::KeySizes*>**)UnitySDK::FromName("System.Security.Cryptography", "Rijndael")->GetStaticField(0x1E6A8);
 		}
 
 		::System::Void _ctor()

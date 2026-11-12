@@ -5,10 +5,10 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KMCIALDOECA_CTOR_OFFSET UNITYSDK_OFFSET(0xB53D3C0)
-#define KMCIALDOECA_PDAKILNLHNA_OFFSET UNITYSDK_OFFSET(0xB53CCD0)
+#define KMCIALDOECA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD88490)
+#define KMCIALDOECA_PDAKILNLHNA_OFFSET UNITYSDK_OFFSET(0xBD87DA0)
 
-inline static constexpr unsigned int KMCIALDOECA_TypeDefinitionIndex = 59830;
+inline static constexpr unsigned int KMCIALDOECA_TypeDefinitionIndex = 61111;
 
 	class KMCIALDOECA : public ::System::Object
 	{

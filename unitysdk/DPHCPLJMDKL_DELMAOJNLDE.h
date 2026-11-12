@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DPHCPLJMDKL_DELMAOJNLDE_TypeDefinitionIndex = 60024;
+inline static constexpr unsigned int DPHCPLJMDKL_DELMAOJNLDE_TypeDefinitionIndex = 61308;
 
 	struct alignas(4) DPHCPLJMDKL_DELMAOJNLDE
 	{

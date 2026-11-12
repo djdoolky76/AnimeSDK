@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PillarPuzzleInteract; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GCBBPJFKEKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1595F390)
-#define GCBBPJFKEKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1595F3C0)
+#define GCBBPJFKEKD_CTOR_OFFSET UNITYSDK_OFFSET(0x16895000)
+#define GCBBPJFKEKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16895030)
 
-inline static constexpr unsigned int GCBBPJFKEKD_TypeDefinitionIndex = 58254;
+inline static constexpr unsigned int GCBBPJFKEKD_TypeDefinitionIndex = 59510;
 
 	class GCBBPJFKEKD
 	{

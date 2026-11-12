@@ -7,37 +7,37 @@ class OAOONIMHKLA;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8983B0)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8983F0)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__CANCELPRIVATEORDERANDCHECK_B__10_0_OFFSET UNITYSDK_OFFSET(0xC898420)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__CANCELPUBLICORDERANDCHECK_B__9_0_OFFSET UNITYSDK_OFFSET(0xC898410)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__PUBLISHPUBLICORDER_B__4_0_OFFSET UNITYSDK_OFFSET(0xC898400)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1FD9B0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1FD9F0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__CANCELPRIVATEORDERANDCHECK_B__10_0_OFFSET UNITYSDK_OFFSET(0xD1FDA20)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__CANCELPUBLICORDERANDCHECK_B__9_0_OFFSET UNITYSDK_OFFSET(0xD1FDA10)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__PUBLISHPUBLICORDER_B__4_0_OFFSET UNITYSDK_OFFSET(0xD1FDA00)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeFlowService___c_TypeDefinitionIndex = 74894;
+	inline static constexpr unsigned int BlindBoxTradeFlowService___c_TypeDefinitionIndex = 77221;
 
 	class BlindBoxTradeFlowService___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::IAKKHBENIOL*, ::System::Boolean>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::IAKKHBENIOL*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5E370);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5E378);
-		}
-
-		static ::System::Func_2<::BACPIBIJPPH*, ::System::Boolean>** StaticGet___9__10_0()
-		{
-			return (::System::Func_2<::BACPIBIJPPH*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5E380);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5C0E0);
 		}
 
 		static ::System::Func_2<::OAOONIMHKLA*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::OAOONIMHKLA*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5E388);
+			return (::System::Func_2<::OAOONIMHKLA*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5C0E8);
+		}
+
+		static ::System::Func_2<::IAKKHBENIOL*, ::System::Boolean>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::IAKKHBENIOL*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5C0F0);
+		}
+
+		static ::System::Func_2<::BACPIBIJPPH*, ::System::Boolean>** StaticGet___9__10_0()
+		{
+			return (::System::Func_2<::BACPIBIJPPH*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5C0F8);
 		}
 
 		static ::System::Void _cctor()

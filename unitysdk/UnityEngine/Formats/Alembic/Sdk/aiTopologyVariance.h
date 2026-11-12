@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiTopologyVariance_TypeDefinitionIndex = 45803;
+	inline static constexpr unsigned int aiTopologyVariance_TypeDefinitionIndex = 46832;
 
 	enum class aiTopologyVariance : ::System::Int32
 	{

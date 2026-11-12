@@ -6,21 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingEnchantRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGENCHANTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58C0E0)
-#define RPG_GAMECORE_CHENLINGENCHANTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58BEA0)
+#define RPG_GAMECORE_CHENLINGENCHANTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E79C520)
+#define RPG_GAMECORE_CHENLINGENCHANTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E79C2E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingEnchantRow_TypeDefinitionIndex = 11065;
+	inline static constexpr unsigned int ChenLingEnchantRow_TypeDefinitionIndex = 11081;
 
 	class ChenLingEnchantRow : public ::System::Object
 	{
 	public:
 		::System::String* SmallIconPath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x20
-		::RPG::Client::TextID Desc; // 0x30
+		::RPG::Client::TextID Name; // 0x18
+		::RPG::Client::TextID Desc; // 0x28
+		::System::UInt32 ID; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGENCHANTROW_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int PerObjectShadowCount_TypeDefinitionIndex = 37545;
+	inline static constexpr unsigned int PerObjectShadowCount_TypeDefinitionIndex = 38473;
 
 	enum class PerObjectShadowCount : ::System::Int32
 	{

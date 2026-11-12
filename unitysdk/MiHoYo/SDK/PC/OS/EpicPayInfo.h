@@ -4,17 +4,17 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::PC::OS { class ProductData; }
 
-#define MIHOYO_SDK_PC_OS_EPICPAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0FD90)
+#define MIHOYO_SDK_PC_OS_EPICPAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D096920)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int EpicPayInfo_TypeDefinitionIndex = 8534;
+	inline static constexpr unsigned int EpicPayInfo_TypeDefinitionIndex = 8543;
 
 	class EpicPayInfo : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::ProductData* productData; // 0x10
-		::MiHoYo::SDK::JSONNode* paramsInfo; // 0x18
+		::MiHoYo::SDK::JSONNode* paramsInfo; // 0x10
+		::MiHoYo::SDK::PC::OS::ProductData* productData; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_EPICPAYINFO_CTOR_OFFSET))(this);

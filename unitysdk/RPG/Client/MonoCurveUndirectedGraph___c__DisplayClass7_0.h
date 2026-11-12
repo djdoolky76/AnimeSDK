@@ -6,12 +6,12 @@ namespace RPG::Client { class CurveUndirectedEdgeSetting; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD7467F0)
-#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__GENERATECURVEEDGES_B__1_OFFSET UNITYSDK_OFFSET(0xD746960)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE1D9C80)
+#define RPG_CLIENT_MONOCURVEUNDIRECTEDGRAPH___C__DISPLAYCLASS7_0__GENERATECURVEEDGES_B__1_OFFSET UNITYSDK_OFFSET(0xE1D9DF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_0_TypeDefinitionIndex = 68577;
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_0_TypeDefinitionIndex = 70525;
 
 	class MonoCurveUndirectedGraph___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -5,10 +5,10 @@ class KCFOLLEKPGG;
 namespace RPG::Client::BlindBox::Pool { class IPoolContents; }
 namespace RPG::Client::Pet::BlindBox { class IBlindBoxPetRepository; }
 
-#define FHKIHEIDKMJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15781380)
-#define FHKIHEIDKMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15781320)
+#define FHKIHEIDKMJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x166A2060)
+#define FHKIHEIDKMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x166A2000)
 
-inline static constexpr unsigned int FHKIHEIDKMJ_TypeDefinitionIndex = 74939;
+inline static constexpr unsigned int FHKIHEIDKMJ_TypeDefinitionIndex = 77266;
 
 	class FHKIHEIDKMJ : public ::System::Object
 	{

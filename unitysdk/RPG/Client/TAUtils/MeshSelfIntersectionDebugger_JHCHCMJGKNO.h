@@ -4,7 +4,7 @@
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MeshSelfIntersectionDebugger_JHCHCMJGKNO_TypeDefinitionIndex = 73636;
+	inline static constexpr unsigned int MeshSelfIntersectionDebugger_JHCHCMJGKNO_TypeDefinitionIndex = 75759;
 
 	struct alignas(4) MeshSelfIntersectionDebugger_JHCHCMJGKNO
 	{

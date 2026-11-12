@@ -5,12 +5,12 @@ namespace RPG::GameCore { class EntityManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE640C20)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0__CLIENTCREATENPC_B__0_OFFSET UNITYSDK_OFFSET(0xE664530)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF0E93E0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS8_0__CLIENTCREATENPC_B__0_OFFSET UNITYSDK_OFFSET(0xF0E93F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass8_0_TypeDefinitionIndex = 57784;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass8_0_TypeDefinitionIndex = 59019;
 
 	class EntityManagerExtension___c__DisplayClass8_0 : public ::System::Object
 	{

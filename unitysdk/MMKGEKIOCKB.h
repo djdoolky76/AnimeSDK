@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeAnimEventConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MMKGEKIOCKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D4920)
-#define MMKGEKIOCKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9D4950)
+#define MMKGEKIOCKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC290940)
+#define MMKGEKIOCKB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC290970)
 
-inline static constexpr unsigned int MMKGEKIOCKB_TypeDefinitionIndex = 54913;
+inline static constexpr unsigned int MMKGEKIOCKB_TypeDefinitionIndex = 56085;
 
 	class MMKGEKIOCKB
 	{

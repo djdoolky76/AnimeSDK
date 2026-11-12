@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MHDBCOLPEDF_GBNJNLGJMGJ_TypeDefinitionIndex = 59780;
+inline static constexpr unsigned int MHDBCOLPEDF_GBNJNLGJMGJ_TypeDefinitionIndex = 61060;
 
 	struct alignas(4) MHDBCOLPEDF_GBNJNLGJMGJ
 	{

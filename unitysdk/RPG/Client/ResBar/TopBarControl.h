@@ -8,12 +8,12 @@ namespace RPG::UINavigation { class UINavigationChildActiveSwitch; }
 namespace RPG::UINavigation { class UINavigationZone; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_RESBAR_TOPBARCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xDEBBAF0)
-#define RPG_CLIENT_RESBAR_TOPBARCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xDEBAE90)
+#define RPG_CLIENT_RESBAR_TOPBARCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE96C4C0)
+#define RPG_CLIENT_RESBAR_TOPBARCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE96B860)
 
 namespace RPG::Client::ResBar
 {
-	inline static constexpr unsigned int TopBarControl_TypeDefinitionIndex = 79144;
+	inline static constexpr unsigned int TopBarControl_TypeDefinitionIndex = 81920;
 
 	class TopBarControl
 	{

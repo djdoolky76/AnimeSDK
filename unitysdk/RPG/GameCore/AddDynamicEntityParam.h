@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AddDynamicEntityParam; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3866C0)
-#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3866D0)
-#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D386690)
+#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5963F0)
+#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E596400)
+#define RPG_GAMECORE_ADDDYNAMICENTITYPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5963C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddDynamicEntityParam_TypeDefinitionIndex = 22671;
+	inline static constexpr unsigned int AddDynamicEntityParam_TypeDefinitionIndex = 23093;
 
 	class AddDynamicEntityParam : public ::RPG::GameCore::TaskConfig
 	{

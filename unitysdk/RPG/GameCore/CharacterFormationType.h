@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterFormationType_TypeDefinitionIndex = 24637;
+	inline static constexpr unsigned int CharacterFormationType_TypeDefinitionIndex = 25109;
 
 	enum class CharacterFormationType : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int MatchTargetFields_TypeDefinitionIndex = 38776;
+	inline static constexpr unsigned int MatchTargetFields_TypeDefinitionIndex = 39705;
 
 	enum class MatchTargetFields : ::System::Int32
 	{

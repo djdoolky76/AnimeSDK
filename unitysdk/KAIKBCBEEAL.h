@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KAIKBCBEEAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DA610)
+#define KAIKBCBEEAL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5EA10)
 
-inline static constexpr unsigned int KAIKBCBEEAL_TypeDefinitionIndex = 55563;
+inline static constexpr unsigned int KAIKBCBEEAL_TypeDefinitionIndex = 56757;
 
 	class KAIKBCBEEAL : public ::System::Object
 	{

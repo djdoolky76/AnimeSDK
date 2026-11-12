@@ -4,13 +4,13 @@ class LNLOANLHMAA;
 class NGFHCJIAOLH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGHNCPOMCDD_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBA7EC0)
-#define NGHNCPOMCDD_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA7C10)
-#define NGHNCPOMCDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBA7C40)
-#define NGHNCPOMCDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBA7E10)
-#define NGHNCPOMCDD_TICK_OFFSET UNITYSDK_OFFSET(0xBBA7E60)
+#define NGHNCPOMCDD_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4836F0)
+#define NGHNCPOMCDD_CTOR_OFFSET UNITYSDK_OFFSET(0xC483440)
+#define NGHNCPOMCDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC483470)
+#define NGHNCPOMCDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC483640)
+#define NGHNCPOMCDD_TICK_OFFSET UNITYSDK_OFFSET(0xC483690)
 
-inline static constexpr unsigned int NGHNCPOMCDD_TypeDefinitionIndex = 52143;
+inline static constexpr unsigned int NGHNCPOMCDD_TypeDefinitionIndex = 53248;
 
 	class NGHNCPOMCDD
 	{
@@ -18,7 +18,7 @@ inline static constexpr unsigned int NGHNCPOMCDD_TypeDefinitionIndex = 52143;
 		::NGFHCJIAOLH* DPOJGPNDPMD; // 0x28
 		static ::System::Int32* StaticGet_DJFABCJPEHG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "NGHNCPOMCDD")->GetStaticField(0xB7C0);
+			return (::System::Int32*)UnitySDK::FromName("", "NGHNCPOMCDD")->GetStaticField(0xA4C0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::LNLOANLHMAA* a2)

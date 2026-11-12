@@ -9,18 +9,18 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BHDAALLBPIG_AIPHNDLOLEN_OFFSET UNITYSDK_OFFSET(0xB474450)
-#define BHDAALLBPIG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB474200)
-#define BHDAALLBPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4742F0)
-#define BHDAALLBPIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB474300)
+#define BHDAALLBPIG_AIPHNDLOLEN_OFFSET UNITYSDK_OFFSET(0xBB2C950)
+#define BHDAALLBPIG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBB2C700)
+#define BHDAALLBPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBB2C7F0)
+#define BHDAALLBPIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBB2C800)
 
-inline static constexpr unsigned int BHDAALLBPIG_TypeDefinitionIndex = 62316;
+inline static constexpr unsigned int BHDAALLBPIG_TypeDefinitionIndex = 63729;
 
 	class BHDAALLBPIG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* PKIJJKHMPDO; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* GBKKLJAOLEP; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* GBKKLJAOLEP; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector2Int>* PKIJJKHMPDO; // 0x18
 		::MJCABDDEGOE_MeasureAction JCHFCNFHCMM; // 0x20
 		::UnityEngine::Vector2 HGLFBAAHBFB; // 0x24
 		::System::Void _ctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GGJFAFONDHN.h"
 
-#define MOBOBPALBPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA24C80)
+#define MOBOBPALBPO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E3540)
 
-inline static constexpr unsigned int MOBOBPALBPO_TypeDefinitionIndex = 49516;
+inline static constexpr unsigned int MOBOBPALBPO_TypeDefinitionIndex = 50592;
 
 	class MOBOBPALBPO : public ::GGJFAFONDHN
 	{

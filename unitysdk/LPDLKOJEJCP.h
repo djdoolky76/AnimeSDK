@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LPDLKOJEJCP_CTOR_OFFSET UNITYSDK_OFFSET(0xB81EC00)
+#define LPDLKOJEJCP_CTOR_OFFSET UNITYSDK_OFFSET(0xC080130)
 
-inline static constexpr unsigned int LPDLKOJEJCP_TypeDefinitionIndex = 80569;
+inline static constexpr unsigned int LPDLKOJEJCP_TypeDefinitionIndex = 83349;
 
 	class LPDLKOJEJCP : public ::System::Object
 	{

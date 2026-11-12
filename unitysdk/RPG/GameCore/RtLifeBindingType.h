@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLifeBindingType_TypeDefinitionIndex = 24805;
+	inline static constexpr unsigned int RtLifeBindingType_TypeDefinitionIndex = 25285;
 
 	enum class RtLifeBindingType : ::System::Int32
 	{

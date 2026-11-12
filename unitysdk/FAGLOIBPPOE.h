@@ -6,10 +6,10 @@ namespace RPG::Client { class IFateGameMasterInfoItem; }
 namespace RPG::Client { class IFateGameRoundSettleDmgSourceItem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FAGLOIBPPOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1567B5D0)
-#define FAGLOIBPPOE_FOIHOEHAOJD_OFFSET UNITYSDK_OFFSET(0x1567ADE0)
+#define FAGLOIBPPOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1658EFC0)
+#define FAGLOIBPPOE_FOIHOEHAOJD_OFFSET UNITYSDK_OFFSET(0x1658E7D0)
 
-inline static constexpr unsigned int FAGLOIBPPOE_TypeDefinitionIndex = 64064;
+inline static constexpr unsigned int FAGLOIBPPOE_TypeDefinitionIndex = 65509;
 
 	class FAGLOIBPPOE : public ::System::Object
 	{

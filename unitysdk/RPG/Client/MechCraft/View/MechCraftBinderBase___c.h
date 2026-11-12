@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5EE3B0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5EE3F0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE___C___TRYGETCMPT_B__6_0_OFFSET UNITYSDK_OFFSET(0xD5EE400)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE041290)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0412D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE___C___TRYGETCMPT_B__6_0_OFFSET UNITYSDK_OFFSET(0xE0412E0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftBinderBase___c_TypeDefinitionIndex = 79980;
+	inline static constexpr unsigned int MechCraftBinderBase___c_TypeDefinitionIndex = 82757;
 
 	class MechCraftBinderBase___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x56E60);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x5F4A0);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x56E68);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x5F4A8);
 		}
 
 		static ::System::Void _cctor()

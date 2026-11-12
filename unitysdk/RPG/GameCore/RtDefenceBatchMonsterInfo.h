@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtDefenceBatchMonsterInfo; }
 namespace RPG::GameCore { class RtDefenceSpawnMonsterInfo; }
 
-#define RPG_GAMECORE_RTDEFENCEBATCHMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5A9F0)
-#define RPG_GAMECORE_RTDEFENCEBATCHMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5A7A0)
+#define RPG_GAMECORE_RTDEFENCEBATCHMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6C4E0)
+#define RPG_GAMECORE_RTDEFENCEBATCHMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC6C290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceBatchMonsterInfo_TypeDefinitionIndex = 18068;
+	inline static constexpr unsigned int RtDefenceBatchMonsterInfo_TypeDefinitionIndex = 18234;
 
 	class RtDefenceBatchMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{

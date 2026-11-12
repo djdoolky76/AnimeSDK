@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AGBBJFOIPII_TypeDefinitionIndex = 31403;
+inline static constexpr unsigned int AGBBJFOIPII_TypeDefinitionIndex = 32316;
 
 	enum class AGBBJFOIPII : ::System::Int32
 	{

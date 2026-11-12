@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueHandBookMiracleRow; }
 
-#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9CE130)
-#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9CDF10)
+#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC17940)
+#define RPG_GAMECORE_ROGUEHANDBOOKMIRACLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC17720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueHandBookMiracleRow_TypeDefinitionIndex = 14835;
+	inline static constexpr unsigned int RogueHandBookMiracleRow_TypeDefinitionIndex = 14991;
 
 	class RogueHandBookMiracleRow : public ::System::Object
 	{

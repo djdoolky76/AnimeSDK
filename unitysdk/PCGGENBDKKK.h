@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define PCGGENBDKKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EB480)
+#define PCGGENBDKKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96CE10)
 
-inline static constexpr unsigned int PCGGENBDKKK_TypeDefinitionIndex = 36841;
+inline static constexpr unsigned int PCGGENBDKKK_TypeDefinitionIndex = 37769;
 
 	class PCGGENBDKKK : public ::System::Attribute
 	{

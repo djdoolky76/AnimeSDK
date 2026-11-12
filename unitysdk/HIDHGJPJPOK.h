@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvRemoveNpcVisionConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIDHGJPJPOK_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE17C0)
-#define HIDHGJPJPOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CE17F0)
+#define HIDHGJPJPOK_CTOR_OFFSET UNITYSDK_OFFSET(0x16C2F0B0)
+#define HIDHGJPJPOK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C2F0E0)
 
-inline static constexpr unsigned int HIDHGJPJPOK_TypeDefinitionIndex = 52482;
+inline static constexpr unsigned int HIDHGJPJPOK_TypeDefinitionIndex = 53588;
 
 	class HIDHGJPJPOK
 	{

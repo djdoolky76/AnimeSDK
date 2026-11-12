@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SwitchHandResetTransform; }
 
-#define RPG_GAMECORE_SWITCHHANDRESETTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB42AC0)
-#define RPG_GAMECORE_SWITCHHANDRESETTRANSFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB42AD0)
-#define RPG_GAMECORE_SWITCHHANDRESETTRANSFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB42A90)
+#define RPG_GAMECORE_SWITCHHANDRESETTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF20B0)
+#define RPG_GAMECORE_SWITCHHANDRESETTRANSFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EDF20C0)
+#define RPG_GAMECORE_SWITCHHANDRESETTRANSFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDF2080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchHandResetTransform_TypeDefinitionIndex = 20958;
+	inline static constexpr unsigned int SwitchHandResetTransform_TypeDefinitionIndex = 21296;
 
 	class SwitchHandResetTransform : public ::RPG::GameCore::TaskConfig
 	{

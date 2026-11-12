@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameRequireMissionInfo; }
 
-#define RPG_GAMECORE_LITTLEGAMEREQUIREMISSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E5F10)
-#define RPG_GAMECORE_LITTLEGAMEREQUIREMISSIONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E5E50)
+#define RPG_GAMECORE_LITTLEGAMEREQUIREMISSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA26830)
+#define RPG_GAMECORE_LITTLEGAMEREQUIREMISSIONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA26770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameRequireMissionInfo_TypeDefinitionIndex = 17340;
+	inline static constexpr unsigned int LittleGameRequireMissionInfo_TypeDefinitionIndex = 17508;
 
 	class LittleGameRequireMissionInfo : public ::RPG::GameCore::JsonConfig
 	{

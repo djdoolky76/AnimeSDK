@@ -6,23 +6,23 @@ namespace RPG::Client { class MonoEffect; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define DLLOHMOOHNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF8B27B0)
-#define DLLOHMOOHNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B27F0)
-#define DLLOHMOOHNE___C__TRIGGERBODYWAVEEFFECT_B__20_0_OFFSET UNITYSDK_OFFSET(0xF8B2800)
+#define DLLOHMOOHNE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x10622730)
+#define DLLOHMOOHNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x10622770)
+#define DLLOHMOOHNE___C__TRIGGERBODYWAVEEFFECT_B__20_0_OFFSET UNITYSDK_OFFSET(0x10622780)
 
-inline static constexpr unsigned int DLLOHMOOHNE___c_TypeDefinitionIndex = 57069;
+inline static constexpr unsigned int DLLOHMOOHNE___c_TypeDefinitionIndex = 58296;
 
 	class DLLOHMOOHNE___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>** StaticGet___9__20_0()
 		{
-			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BDA0);
+			return (::System::Action_2<::RPG::Client::MonoEffect*, ::RPG::Client::TriggerEffectCallbackParams>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52CE0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BDA8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52CE8);
 		}
 
 		static ::System::Void _cctor()

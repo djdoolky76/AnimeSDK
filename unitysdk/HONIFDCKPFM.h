@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HONIFDCKPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBD640)
-#define HONIFDCKPFM_INTERP_OFFSET UNITYSDK_OFFSET(0x15DBD6B0)
+#define HONIFDCKPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x16D60DC0)
+#define HONIFDCKPFM_INTERP_OFFSET UNITYSDK_OFFSET(0x16D60E30)
 
-inline static constexpr unsigned int HONIFDCKPFM_TypeDefinitionIndex = 74006;
+inline static constexpr unsigned int HONIFDCKPFM_TypeDefinitionIndex = 76142;
 
 	class HONIFDCKPFM
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int Ak3DPositionType_TypeDefinitionIndex = 44710;
+inline static constexpr unsigned int Ak3DPositionType_TypeDefinitionIndex = 45785;
 
 	enum class Ak3DPositionType : ::System::Int32
 	{

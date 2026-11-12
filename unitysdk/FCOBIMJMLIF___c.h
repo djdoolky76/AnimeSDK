@@ -4,18 +4,18 @@
 class FCOBIMJMLIF;
 namespace System { class Object; }
 
-#define FCOBIMJMLIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E34F690)
-#define FCOBIMJMLIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E34F6D0)
-#define FCOBIMJMLIF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E34F6E0)
+#define FCOBIMJMLIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F636260)
+#define FCOBIMJMLIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6362A0)
+#define FCOBIMJMLIF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F6362B0)
 
-inline static constexpr unsigned int FCOBIMJMLIF___c_TypeDefinitionIndex = 29824;
+inline static constexpr unsigned int FCOBIMJMLIF___c_TypeDefinitionIndex = 30722;
 
 	class FCOBIMJMLIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ADF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58CE0);
 		}
 
 		static ::System::Void _cctor()

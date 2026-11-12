@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PATMatPropertyControllerBehavior_MatBlockType_TypeDefinitionIndex = 70692;
+	inline static constexpr unsigned int PATMatPropertyControllerBehavior_MatBlockType_TypeDefinitionIndex = 72669;
 
 	enum class PATMatPropertyControllerBehavior_MatBlockType : ::System::Int32
 	{

@@ -5,7 +5,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ThriftServerOptions_TypeDefinitionIndex = 40494;
+	inline static constexpr unsigned int HAPI_ThriftServerOptions_TypeDefinitionIndex = 41469;
 
 	struct alignas(4) HAPI_ThriftServerOptions
 	{

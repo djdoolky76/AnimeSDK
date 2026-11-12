@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TwinkleFlipperLightDevice; }
 
-#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6EC90)
-#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6ECD0)
-#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6EC30)
+#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE81990)
+#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE819D0)
+#define RPG_GAMECORE_TWINKLEFLIPPERLIGHTDEVICE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE81930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TwinkleFlipperLightDevice_TypeDefinitionIndex = 22340;
+	inline static constexpr unsigned int TwinkleFlipperLightDevice_TypeDefinitionIndex = 22749;
 
 	class TwinkleFlipperLightDevice : public ::RPG::GameCore::TaskConfig
 	{

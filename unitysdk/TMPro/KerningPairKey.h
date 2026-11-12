@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define TMPRO_KERNINGPAIRKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C675D0)
+#define TMPRO_KERNINGPAIRKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3EB6930)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int KerningPairKey_TypeDefinitionIndex = 44576;
+	inline static constexpr unsigned int KerningPairKey_TypeDefinitionIndex = 45651;
 
 	struct alignas(4) KerningPairKey
 	{

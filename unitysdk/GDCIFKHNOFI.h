@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapAllOffTeamMember; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GDCIFKHNOFI_CTOR_OFFSET UNITYSDK_OFFSET(0x15995120)
-#define GDCIFKHNOFI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15995140)
+#define GDCIFKHNOFI_CTOR_OFFSET UNITYSDK_OFFSET(0x168CBE70)
+#define GDCIFKHNOFI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x168CBE90)
 
-inline static constexpr unsigned int GDCIFKHNOFI_TypeDefinitionIndex = 59240;
+inline static constexpr unsigned int GDCIFKHNOFI_TypeDefinitionIndex = 60517;
 
 	class GDCIFKHNOFI
 	{

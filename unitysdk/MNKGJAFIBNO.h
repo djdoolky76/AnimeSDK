@@ -3,10 +3,10 @@
 class GIKHELDPFIA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MNKGJAFIBNO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0FFA0)
-#define MNKGJAFIBNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA0FFD0)
+#define MNKGJAFIBNO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2CE530)
+#define MNKGJAFIBNO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2CE560)
 
-inline static constexpr unsigned int MNKGJAFIBNO_TypeDefinitionIndex = 52827;
+inline static constexpr unsigned int MNKGJAFIBNO_TypeDefinitionIndex = 53980;
 
 	class MNKGJAFIBNO
 	{

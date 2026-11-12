@@ -4,18 +4,18 @@
 class GIDEDMOPFKF;
 namespace System { class Object; }
 
-#define GIDEDMOPFKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E493DE0)
-#define GIDEDMOPFKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E493E20)
-#define GIDEDMOPFKF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E493E30)
+#define GIDEDMOPFKF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F785EB0)
+#define GIDEDMOPFKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F785EF0)
+#define GIDEDMOPFKF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F785F00)
 
-inline static constexpr unsigned int GIDEDMOPFKF___c_TypeDefinitionIndex = 29206;
+inline static constexpr unsigned int GIDEDMOPFKF___c_TypeDefinitionIndex = 29854;
 
 	class GIDEDMOPFKF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18FE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x111D0);
 		}
 
 		static ::System::Void _cctor()

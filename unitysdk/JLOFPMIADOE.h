@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetPropInteractTriggerState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JLOFPMIADOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB2534B0)
-#define JLOFPMIADOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2534E0)
+#define JLOFPMIADOE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7E300)
+#define JLOFPMIADOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA7E330)
 
-inline static constexpr unsigned int JLOFPMIADOE_TypeDefinitionIndex = 58570;
+inline static constexpr unsigned int JLOFPMIADOE_TypeDefinitionIndex = 59835;
 
 	class JLOFPMIADOE
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FormationTargetDistanceConfig; }
 
-#define RPG_GAMECORE_FORMATIONTARGETDISTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EBF20)
-#define RPG_GAMECORE_FORMATIONTARGETDISTANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EBDA0)
+#define RPG_GAMECORE_FORMATIONTARGETDISTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F64B0)
+#define RPG_GAMECORE_FORMATIONTARGETDISTANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F6330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationTargetDistanceConfig_TypeDefinitionIndex = 18202;
+	inline static constexpr unsigned int FormationTargetDistanceConfig_TypeDefinitionIndex = 18364;
 
 	class FormationTargetDistanceConfig : public ::RPG::GameCore::JsonConfig
 	{

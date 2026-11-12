@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xE923A50)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE922E40)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0xF3FF790)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_DOFTIMELINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xF3FEB80)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int DOFTimelineMixer_TypeDefinitionIndex = 48570;
+	inline static constexpr unsigned int DOFTimelineMixer_TypeDefinitionIndex = 49611;
 
 	class DOFTimelineMixer
 	{

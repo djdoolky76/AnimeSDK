@@ -3,10 +3,10 @@
 class AGINOJMPLJF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ABKIAIBAKDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB105BB0)
-#define ABKIAIBAKDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB105BE0)
+#define ABKIAIBAKDE_CTOR_OFFSET UNITYSDK_OFFSET(0xB768520)
+#define ABKIAIBAKDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB768550)
 
-inline static constexpr unsigned int ABKIAIBAKDE_TypeDefinitionIndex = 52528;
+inline static constexpr unsigned int ABKIAIBAKDE_TypeDefinitionIndex = 53634;
 
 	class ABKIAIBAKDE
 	{

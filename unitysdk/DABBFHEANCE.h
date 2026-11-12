@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FKJEJCFGKNJ.h"
 
-#define DABBFHEANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBAB90)
-#define DABBFHEANCE_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0xDFBAA10)
+#define DABBFHEANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xE91DAA0)
+#define DABBFHEANCE_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0xE91D920)
 
-inline static constexpr unsigned int DABBFHEANCE_TypeDefinitionIndex = 68940;
+inline static constexpr unsigned int DABBFHEANCE_TypeDefinitionIndex = 70893;
 
 	class DABBFHEANCE : public ::FKJEJCFGKNJ
 	{

@@ -6,21 +6,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AnniversaryCollectionContentConfigRow; }
 
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F5B20)
-#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3F58D0)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E615DA0)
+#define RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E615B50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnniversaryCollectionContentConfigRow_TypeDefinitionIndex = 12665;
+	inline static constexpr unsigned int AnniversaryCollectionContentConfigRow_TypeDefinitionIndex = 12732;
 
 	class AnniversaryCollectionContentConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID ContentTitle; // 0x10
-		::System::UInt32 RelatedGotoID; // 0x20
-		::RPG::GameCore::AnniversaryCollectionContentRegionScope RegionScope; // 0x24
-		::System::UInt32 ContentID; // 0x28
-		::System::UInt32 RelatedActivityID; // 0x2C
+		::System::UInt32 RelatedGotoID; // 0x10
+		::RPG::GameCore::AnniversaryCollectionContentRegionScope RegionScope; // 0x14
+		::System::UInt32 ContentID; // 0x18
+		::System::UInt32 RelatedActivityID; // 0x1C
+		::RPG::Client::TextID ContentTitle; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ANNIVERSARYCOLLECTIONCONTENTCONFIGROW_CTOR_OFFSET))(this);

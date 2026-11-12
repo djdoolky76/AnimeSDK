@@ -4,18 +4,18 @@
 class DABKPEFPBOL;
 namespace System { class Object; }
 
-#define DABKPEFPBOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E14B640)
-#define DABKPEFPBOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E14B680)
-#define DABKPEFPBOL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E14B690)
+#define DABKPEFPBOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F424770)
+#define DABKPEFPBOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4247B0)
+#define DABKPEFPBOL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4247C0)
 
-inline static constexpr unsigned int DABKPEFPBOL___c_TypeDefinitionIndex = 28511;
+inline static constexpr unsigned int DABKPEFPBOL___c_TypeDefinitionIndex = 29101;
 
 	class DABKPEFPBOL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23760);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1EEB0);
 		}
 
 		static ::System::Void _cctor()

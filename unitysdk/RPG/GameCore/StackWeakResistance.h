@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ResistanceItem; }
 namespace RPG::GameCore { class StackWeakResistance; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKWEAKRESISTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB04B40)
-#define RPG_GAMECORE_STACKWEAKRESISTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB04B50)
-#define RPG_GAMECORE_STACKWEAKRESISTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB04B10)
+#define RPG_GAMECORE_STACKWEAKRESISTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED16B90)
+#define RPG_GAMECORE_STACKWEAKRESISTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED16BA0)
+#define RPG_GAMECORE_STACKWEAKRESISTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED16B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackWeakResistance_TypeDefinitionIndex = 23073;
+	inline static constexpr unsigned int StackWeakResistance_TypeDefinitionIndex = 23502;
 
 	class StackWeakResistance : public ::RPG::GameCore::TaskConfig
 	{

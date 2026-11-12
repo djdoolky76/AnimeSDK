@@ -7,22 +7,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TextmapRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TEXTMAPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB843B0)
-#define RPG_GAMECORE_TEXTMAPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1DB82410)
-#define RPG_GAMECORE_TEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB82940)
-#define RPG_GAMECORE_TEXTMAPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1DB843C0)
-#define RPG_GAMECORE_TEXTMAPROW_RESET_OFFSET UNITYSDK_OFFSET(0x1DB84420)
+#define RPG_GAMECORE_TEXTMAPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE33A80)
+#define RPG_GAMECORE_TEXTMAPROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1EE31AE0)
+#define RPG_GAMECORE_TEXTMAPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE32010)
+#define RPG_GAMECORE_TEXTMAPROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EE33A90)
+#define RPG_GAMECORE_TEXTMAPROW_RESET_OFFSET UNITYSDK_OFFSET(0x1EE33AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextmapRow_TypeDefinitionIndex = 15291;
+	inline static constexpr unsigned int TextmapRow_TypeDefinitionIndex = 15447;
 
 	class TextmapRow : public ::System::Object
 	{
 	public:
 		::System::String* Text; // 0x10
-		::RPG::Client::TextID ID; // 0x18
-		::System::Boolean HasParam; // 0x28
+		::System::Boolean HasParam; // 0x18
+		::System::Byte _padding0[0x7];
+		::RPG::Client::TextID ID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEXTMAPROW_CTOR_OFFSET))(this);

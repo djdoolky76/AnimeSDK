@@ -5,25 +5,25 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCBAB30)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCBAB70)
-#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__REACTIVATEACCOUNT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1BCBAB80)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE43F90)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE43FD0)
+#define MIHOYO_SDK_CONSOLE_OS_BINDMANAGERCX___C__REACTIVATEACCOUNT_B__6_0_OFFSET UNITYSDK_OFFSET(0x1CE43FE0)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int BindManagerCX___c_TypeDefinitionIndex = 9076;
+	inline static constexpr unsigned int BindManagerCX___c_TypeDefinitionIndex = 9085;
 
 	class BindManagerCX___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x38DF0);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x5B0F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x38DF8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.OS", "<>c")->GetStaticField(0x5B0F8);
 		}
 
 		static ::System::Void _cctor()

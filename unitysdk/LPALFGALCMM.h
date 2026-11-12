@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LPALFGALCMM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D124260)
-#define LPALFGALCMM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1247E0)
-#define LPALFGALCMM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1243D0)
-#define LPALFGALCMM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D123D10)
-#define LPALFGALCMM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D123FA0)
-#define LPALFGALCMM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D124470)
-#define LPALFGALCMM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1244C0)
-#define LPALFGALCMM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1242A0)
-#define LPALFGALCMM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D123F40)
-#define LPALFGALCMM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D124110)
-#define LPALFGALCMM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D124330)
-#define LPALFGALCMM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D123C90)
+#define LPALFGALCMM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E323280)
+#define LPALFGALCMM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E323800)
+#define LPALFGALCMM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E3233F0)
+#define LPALFGALCMM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E322D30)
+#define LPALFGALCMM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E322FC0)
+#define LPALFGALCMM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E323490)
+#define LPALFGALCMM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E3234E0)
+#define LPALFGALCMM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E3232C0)
+#define LPALFGALCMM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E322F60)
+#define LPALFGALCMM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E323130)
+#define LPALFGALCMM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E323350)
+#define LPALFGALCMM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E322CB0)
 
-inline static constexpr unsigned int LPALFGALCMM_TypeDefinitionIndex = 12998;
+inline static constexpr unsigned int LPALFGALCMM_TypeDefinitionIndex = 13066;
 
 	class LPALFGALCMM : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x45EA0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x36E40);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengeStoryThemeConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengeStoryThemeConfigRow*>**)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x45EA8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChallengeStoryThemeConfigRow*>**)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x36E48);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x45EB0);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x10B60);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x36E50);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0x10B61);
+			return (::System::Byte*)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0xBC70);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "LPALFGALCMM")->GetStaticField(0xBC71);
 		}
 
 		static ::System::Void _cctor()

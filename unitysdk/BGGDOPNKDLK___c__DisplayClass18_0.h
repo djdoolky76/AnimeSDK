@@ -3,19 +3,18 @@
 #include "unitysdk/System/Object.h"
 class BGGDOPNKDLK_GLGPGAAPAAI;
 
-#define BGGDOPNKDLK___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BA9D0)
-#define BGGDOPNKDLK___C__DISPLAYCLASS18_0__SEARCHMAXWEIGHTPATHDIRECTION_B__0_OFFSET UNITYSDK_OFFSET(0x1C5BD600)
-#define BGGDOPNKDLK___C__DISPLAYCLASS18_0__SEARCHMAXWEIGHTPATHDIRECTION_B__1_OFFSET UNITYSDK_OFFSET(0x1C5BD630)
+#define BGGDOPNKDLK___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D73C280)
+#define BGGDOPNKDLK___C__DISPLAYCLASS18_0__SEARCHMAXWEIGHTPATHDIRECTION_B__0_OFFSET UNITYSDK_OFFSET(0x1D73EEA0)
+#define BGGDOPNKDLK___C__DISPLAYCLASS18_0__SEARCHMAXWEIGHTPATHDIRECTION_B__1_OFFSET UNITYSDK_OFFSET(0x1D73EED0)
 
-inline static constexpr unsigned int BGGDOPNKDLK___c__DisplayClass18_0_TypeDefinitionIndex = 37269;
+inline static constexpr unsigned int BGGDOPNKDLK___c__DisplayClass18_0_TypeDefinitionIndex = 38197;
 
 	class BGGDOPNKDLK___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
 		::BGGDOPNKDLK_GLGPGAAPAAI* findContext; // 0x10
-		::System::Single maxWeight; // 0x18
-		::System::Byte _padding0[0x4];
-		::System::Double sumExp; // 0x20
+		::System::Double sumExp; // 0x18
+		::System::Single maxWeight; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BGGDOPNKDLK___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);

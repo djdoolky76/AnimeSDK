@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFourRotateVoxelCurrentDirection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JMLEJIPBFKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB270210)
-#define JMLEJIPBFKN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB270240)
+#define JMLEJIPBFKN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9B060)
+#define JMLEJIPBFKN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA9B090)
 
-inline static constexpr unsigned int JMLEJIPBFKN_TypeDefinitionIndex = 52956;
+inline static constexpr unsigned int JMLEJIPBFKN_TypeDefinitionIndex = 54115;
 
 	class JMLEJIPBFKN
 	{

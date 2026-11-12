@@ -8,29 +8,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CMFAIIHOFPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA2F1B0)
-#define CMFAIIHOFPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA2F1E0)
-#define CMFAIIHOFPL___C___INITPOINTCONTROLCONTEXT_B__7_0_OFFSET UNITYSDK_OFFSET(0xDA2F1F0)
-#define CMFAIIHOFPL___C___PROCESSLINETRACEONVISIBLECHANGEDCLOSURE_B__27_0_OFFSET UNITYSDK_OFFSET(0xDA2F250)
+#define CMFAIIHOFPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE36E110)
+#define CMFAIIHOFPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE36E140)
+#define CMFAIIHOFPL___C___INITPOINTCONTROLCONTEXT_B__7_0_OFFSET UNITYSDK_OFFSET(0xE36E150)
+#define CMFAIIHOFPL___C___PROCESSLINETRACEONVISIBLECHANGEDCLOSURE_B__27_0_OFFSET UNITYSDK_OFFSET(0xE36E1B0)
 
-inline static constexpr unsigned int CMFAIIHOFPL___c_TypeDefinitionIndex = 77163;
+inline static constexpr unsigned int CMFAIIHOFPL___c_TypeDefinitionIndex = 79497;
 
 	class CMFAIIHOFPL___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::KEHLFNHAMLA>** StaticGet___9__7_0()
-		{
-			return (::System::Comparison_1<::KEHLFNHAMLA>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50E30);
-		}
-
 		static ::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>** StaticGet___9__27_0()
 		{
-			return (::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50E38);
+			return (::System::Action_2<::CMFAIIHOFPL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35130);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50E40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35138);
+		}
+
+		static ::System::Comparison_1<::KEHLFNHAMLA>** StaticGet___9__7_0()
+		{
+			return (::System::Comparison_1<::KEHLFNHAMLA>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35140);
 		}
 
 		static ::System::Void _cctor()

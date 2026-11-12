@@ -6,13 +6,13 @@
 #include "unitysdk/UnityEngine/Rendering/StripTarget.h"
 namespace System { class String; }
 
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2CA2B0)
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F2CA2C0)
-#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2CA2A0)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2057B110)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_2_OFFSET UNITYSDK_OFFSET(0x2057B120)
+#define UNITYENGINE_RENDERING_RELOADATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x2057B100)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReloadAttribute_TypeDefinitionIndex = 35607;
+	inline static constexpr unsigned int ReloadAttribute_TypeDefinitionIndex = 36535;
 
 	class ReloadAttribute : public ::System::Attribute
 	{

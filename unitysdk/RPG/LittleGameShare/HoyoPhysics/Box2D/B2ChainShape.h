@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SurfaceMaterial.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CHAINSHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C80AB70)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CHAINSHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98C4D0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ChainShape_TypeDefinitionIndex = 36610;
+	inline static constexpr unsigned int B2ChainShape_TypeDefinitionIndex = 37538;
 
 	class B2ChainShape : public ::System::Object
 	{
@@ -15,12 +15,12 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		::Il2CppArray<::System::Int32>* shapeIndices; // 0x10
 		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SurfaceMaterial>* materials; // 0x18
 		::System::Int32 bodyId; // 0x20
-		::System::Int32 id; // 0x24
-		::System::Int32 materialCount; // 0x28
+		::System::Int32 count; // 0x24
+		::System::Int32 id; // 0x28
 		::System::Int32 nextChainId; // 0x2C
 		::System::UInt16 generation; // 0x30
 		::System::Byte _padding0[0x2];
-		::System::Int32 count; // 0x34
+		::System::Int32 materialCount; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2CHAINSHAPE_CTOR_OFFSET))(this);

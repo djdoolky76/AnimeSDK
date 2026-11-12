@@ -3,9 +3,9 @@
 #include "unitysdk/ILEDHBPJGFC.h"
 class ALFCGCNDMIA;
 
-#define INEOKPGLKKN_CTOR_OFFSET UNITYSDK_OFFSET(0x164E9490)
+#define INEOKPGLKKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB81A410)
 
-inline static constexpr unsigned int INEOKPGLKKN_TypeDefinitionIndex = 79104;
+inline static constexpr unsigned int INEOKPGLKKN_TypeDefinitionIndex = 81880;
 
 	class INEOKPGLKKN : public ::ILEDHBPJGFC
 	{

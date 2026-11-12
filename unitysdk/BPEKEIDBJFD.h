@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BPEKEIDBJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC655B0)
+#define BPEKEIDBJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF15FD0)
 
-inline static constexpr unsigned int BPEKEIDBJFD_TypeDefinitionIndex = 44274;
+inline static constexpr unsigned int BPEKEIDBJFD_TypeDefinitionIndex = 45349;
 
 	class BPEKEIDBJFD : public ::System::Object
 	{

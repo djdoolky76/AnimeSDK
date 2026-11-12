@@ -4,18 +4,18 @@
 class MHMFPLEKOIL;
 namespace System { class Object; }
 
-#define MHMFPLEKOIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA36AB0)
-#define MHMFPLEKOIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36AF0)
-#define MHMFPLEKOIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA36B00)
+#define MHMFPLEKOIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD885C0)
+#define MHMFPLEKOIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD88600)
+#define MHMFPLEKOIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD88610)
 
-inline static constexpr unsigned int MHMFPLEKOIL___c_TypeDefinitionIndex = 32107;
+inline static constexpr unsigned int MHMFPLEKOIL___c_TypeDefinitionIndex = 33020;
 
 	class MHMFPLEKOIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52380);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58970);
 		}
 
 		static ::System::Void _cctor()

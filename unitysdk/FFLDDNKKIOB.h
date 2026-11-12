@@ -4,9 +4,9 @@
 class DIDMPBAABII;
 namespace RPG::GameCore { class FiveDimMusicDirectorComponentConfig; }
 
-#define FFLDDNKKIOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E320)
+#define FFLDDNKKIOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31C80)
 
-inline static constexpr unsigned int FFLDDNKKIOB_TypeDefinitionIndex = 43402;
+inline static constexpr unsigned int FFLDDNKKIOB_TypeDefinitionIndex = 44383;
 
 	class FFLDDNKKIOB : public ::System::Object
 	{

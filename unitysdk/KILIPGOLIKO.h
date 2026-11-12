@@ -3,18 +3,18 @@
 #include "unitysdk/BCFDAHOHJEA.h"
 namespace System { class String; }
 
-#define KILIPGOLIKO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4341D0)
-#define KILIPGOLIKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB4341A0)
-#define KILIPGOLIKO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB433E80)
+#define KILIPGOLIKO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCCA690)
+#define KILIPGOLIKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBCCA660)
+#define KILIPGOLIKO__ONBIND_OFFSET UNITYSDK_OFFSET(0xBCCA280)
 
-inline static constexpr unsigned int KILIPGOLIKO_TypeDefinitionIndex = 71498;
+inline static constexpr unsigned int KILIPGOLIKO_TypeDefinitionIndex = 73483;
 
 	class KILIPGOLIKO : public ::BCFDAHOHJEA
 	{
 	public:
 		static ::System::String** StaticGet_JFCMCPFPDFP()
 		{
-			return (::System::String**)UnitySDK::FromName("", "KILIPGOLIKO")->GetStaticField(0x2D520);
+			return (::System::String**)UnitySDK::FromName("", "KILIPGOLIKO")->GetStaticField(0x17020);
 		}
 
 		::System::Void _ctor()

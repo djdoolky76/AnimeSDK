@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyPreviewTipsType_TypeDefinitionIndex = 74363;
+	inline static constexpr unsigned int TrainPartyPreviewTipsType_TypeDefinitionIndex = 76511;
 
 	enum class TrainPartyPreviewTipsType : ::System::Int32
 	{

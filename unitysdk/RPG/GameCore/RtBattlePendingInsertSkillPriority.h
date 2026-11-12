@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattlePendingInsertSkillPriority_TypeDefinitionIndex = 54237;
+	inline static constexpr unsigned int RtBattlePendingInsertSkillPriority_TypeDefinitionIndex = 55401;
 
 	enum class RtBattlePendingInsertSkillPriority : ::System::Int32
 	{

@@ -5,11 +5,11 @@
 namespace UnityEngine { class GPUParticlesRenderer; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 
-#define RPG_CLIENT_SKINNEDGPUPARTICLES_SKINNEDGPUPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0xE0E7B40)
+#define RPG_CLIENT_SKINNEDGPUPARTICLES_SKINNEDGPUPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0xEB518C0)
 
 namespace RPG::Client::SkinnedGPUParticles
 {
-	inline static constexpr unsigned int SkinnedGPUParticles_TypeDefinitionIndex = 73699;
+	inline static constexpr unsigned int SkinnedGPUParticles_TypeDefinitionIndex = 75822;
 
 	class SkinnedGPUParticles
 	{

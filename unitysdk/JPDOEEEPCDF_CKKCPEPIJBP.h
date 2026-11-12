@@ -4,7 +4,7 @@
 #include "unitysdk/MHCOBFJNNJB.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int JPDOEEEPCDF_CKKCPEPIJBP_TypeDefinitionIndex = 76582;
+inline static constexpr unsigned int JPDOEEEPCDF_CKKCPEPIJBP_TypeDefinitionIndex = 78913;
 
 	struct alignas(8) JPDOEEEPCDF_CKKCPEPIJBP
 	{

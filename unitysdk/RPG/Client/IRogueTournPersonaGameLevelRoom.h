@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournPersonaGameLevelRoom_TypeDefinitionIndex = 67716;
+	inline static constexpr unsigned int IRogueTournPersonaGameLevelRoom_TypeDefinitionIndex = 69661;
 
 	class IRogueTournPersonaGameLevelRoom
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KCLIKAPODAD;
 
-#define DNMOMHFDFGI_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDA8C0)
-#define DNMOMHFDFGI_JKIBFIBAMKB_OFFSET UNITYSDK_OFFSET(0x11FDA8D0)
+#define DNMOMHFDFGI_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD3DB0)
+#define DNMOMHFDFGI_JKIBFIBAMKB_OFFSET UNITYSDK_OFFSET(0x12DD3DC0)
 
-inline static constexpr unsigned int DNMOMHFDFGI_TypeDefinitionIndex = 62861;
+inline static constexpr unsigned int DNMOMHFDFGI_TypeDefinitionIndex = 64299;
 
 	class DNMOMHFDFGI : public ::System::Object
 	{

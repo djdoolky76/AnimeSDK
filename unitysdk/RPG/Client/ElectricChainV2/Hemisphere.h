@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
-#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_CTOR_OFFSET UNITYSDK_OFFSET(0xCD828A0)
-#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_LOICGIBKHMM_OFFSET UNITYSDK_OFFSET(0xCD82420)
+#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_CTOR_OFFSET UNITYSDK_OFFSET(0xD749940)
+#define RPG_CLIENT_ELECTRICCHAINV2_HEMISPHERE_LOICGIBKHMM_OFFSET UNITYSDK_OFFSET(0xD7494C0)
 
 namespace RPG::Client::ElectricChainV2
 {
-	inline static constexpr unsigned int Hemisphere_TypeDefinitionIndex = 73597;
+	inline static constexpr unsigned int Hemisphere_TypeDefinitionIndex = 75720;
 
 	class Hemisphere : public ::RPG::Client::ElectricChainV2::Shape
 	{

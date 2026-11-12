@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JCFCFDIFPFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4300)
+#define JCFCFDIFPFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D875D60)
 
-inline static constexpr unsigned int JCFCFDIFPFB_TypeDefinitionIndex = 36910;
+inline static constexpr unsigned int JCFCFDIFPFB_TypeDefinitionIndex = 37838;
 
 	class JCFCFDIFPFB : public ::System::Object
 	{

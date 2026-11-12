@@ -8,7 +8,7 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_Task_1_TypeDefinitionIndex = 52113;
+	inline static constexpr unsigned int SO_Task_1_TypeDefinitionIndex = 53218;
 
 	template <typename T>
 	class SO_Task_1 : public ::GELIALJDFBL

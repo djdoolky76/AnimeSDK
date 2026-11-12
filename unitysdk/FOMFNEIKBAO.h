@@ -3,7 +3,7 @@
 class JJNNBBAINJI;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int FOMFNEIKBAO_TypeDefinitionIndex = 44117;
+inline static constexpr unsigned int FOMFNEIKBAO_TypeDefinitionIndex = 45192;
 
 	struct alignas(8) FOMFNEIKBAO
 	{

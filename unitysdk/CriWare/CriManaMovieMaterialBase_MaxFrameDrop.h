@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriManaMovieMaterialBase_MaxFrameDrop_TypeDefinitionIndex = 40131;
+	inline static constexpr unsigned int CriManaMovieMaterialBase_MaxFrameDrop_TypeDefinitionIndex = 41106;
 
 	enum class CriManaMovieMaterialBase_MaxFrameDrop : ::System::Int32
 	{

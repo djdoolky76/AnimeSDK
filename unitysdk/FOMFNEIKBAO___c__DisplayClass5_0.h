@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int FOMFNEIKBAO___c__DisplayClass5_0_TypeDefinitionIndex = 44119;
+inline static constexpr unsigned int FOMFNEIKBAO___c__DisplayClass5_0_TypeDefinitionIndex = 45194;
 
 	class FOMFNEIKBAO___c__DisplayClass5_0 : public ::System::Object
 	{

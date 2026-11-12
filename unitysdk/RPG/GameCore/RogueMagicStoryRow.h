@@ -7,24 +7,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicStoryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D65F0)
-#define RPG_GAMECORE_ROGUEMAGICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D6320)
+#define RPG_GAMECORE_ROGUEMAGICSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1FDE0)
+#define RPG_GAMECORE_ROGUEMAGICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC1FB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStoryRow_TypeDefinitionIndex = 14892;
+	inline static constexpr unsigned int RogueMagicStoryRow_TypeDefinitionIndex = 15048;
 
 	class RogueMagicStoryRow : public ::System::Object
 	{
 	public:
-		::System::String* StoryImage; // 0x10
-		::System::String* LevelGraphPath; // 0x18
-		::RPG::Client::TextID StoryName; // 0x20
-		::System::UInt32 StoryID; // 0x30
-		::RPG::GameCore::RogueMagicStoryCategory StoryCategory; // 0x34
-		::System::Boolean IsHide; // 0x38
+		::System::String* LevelGraphPath; // 0x10
+		::System::String* StoryImage; // 0x18
+		::RPG::GameCore::RogueMagicStoryCategory StoryCategory; // 0x20
+		::System::Boolean IsHide; // 0x24
 		::System::Byte _padding0[0x3];
-		::System::UInt32 UnLockDisplay; // 0x3C
+		::System::UInt32 StoryID; // 0x28
+		::System::UInt32 UnLockDisplay; // 0x2C
+		::RPG::Client::TextID StoryName; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICSTORYROW_CTOR_OFFSET))(this);

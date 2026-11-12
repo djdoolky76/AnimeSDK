@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 class BNGCBENBDPA;
 
-#define NGPDCHNFHKK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C960D30)
-#define NGPDCHNFHKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C960DE0)
+#define NGPDCHNFHKK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB22B20)
+#define NGPDCHNFHKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB22BD0)
 
-inline static constexpr unsigned int NGPDCHNFHKK_TypeDefinitionIndex = 42029;
+inline static constexpr unsigned int NGPDCHNFHKK_TypeDefinitionIndex = 43004;
 
 	class NGPDCHNFHKK : public ::System::Object
 	{
 	public:
-		::BNGCBENBDPA* KPJGAIFEMOM; // 0x10
-		::HBBDELABEAM HLCIBNIDADC; // 0x18
+		::HBBDELABEAM HLCIBNIDADC; // 0x10
+		::BNGCBENBDPA* KPJGAIFEMOM; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGPDCHNFHKK_CTOR_OFFSET))(this);

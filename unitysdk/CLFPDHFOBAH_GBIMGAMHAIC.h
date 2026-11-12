@@ -3,9 +3,9 @@
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 namespace System { class Object; }
 
-#define CLFPDHFOBAH_GBIMGAMHAIC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xEBC50)
+#define CLFPDHFOBAH_GBIMGAMHAIC_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF73A0)
 
-inline static constexpr unsigned int CLFPDHFOBAH_GBIMGAMHAIC_TypeDefinitionIndex = 47130;
+inline static constexpr unsigned int CLFPDHFOBAH_GBIMGAMHAIC_TypeDefinitionIndex = 48158;
 
 	struct alignas(8) CLFPDHFOBAH_GBIMGAMHAIC
 	{

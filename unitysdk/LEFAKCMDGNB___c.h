@@ -4,18 +4,18 @@
 class LEFAKCMDGNB;
 namespace System { class Object; }
 
-#define LEFAKCMDGNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9282E0)
-#define LEFAKCMDGNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E928310)
-#define LEFAKCMDGNB___C___CCTOR_B__67_0_OFFSET UNITYSDK_OFFSET(0x1E928320)
+#define LEFAKCMDGNB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC46D40)
+#define LEFAKCMDGNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC46D70)
+#define LEFAKCMDGNB___C___CCTOR_B__67_0_OFFSET UNITYSDK_OFFSET(0x1FC46D80)
 
-inline static constexpr unsigned int LEFAKCMDGNB___c_TypeDefinitionIndex = 33188;
+inline static constexpr unsigned int LEFAKCMDGNB___c_TypeDefinitionIndex = 34103;
 
 	class LEFAKCMDGNB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37470);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D0C0);
 		}
 
 		static ::System::Void _cctor()

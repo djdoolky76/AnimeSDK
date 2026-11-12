@@ -7,11 +7,11 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGAJFEPPGLD_CTOR_OFFSET UNITYSDK_OFFSET(0xB68BEE0)
-#define LGAJFEPPGLD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB68BF60)
-#define LGAJFEPPGLD_FFPNHDPLHJB_OFFSET UNITYSDK_OFFSET(0xB68C280)
+#define LGAJFEPPGLD_CTOR_OFFSET UNITYSDK_OFFSET(0xBF21B00)
+#define LGAJFEPPGLD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF21B80)
+#define LGAJFEPPGLD_FFPNHDPLHJB_OFFSET UNITYSDK_OFFSET(0xBF21EA0)
 
-inline static constexpr unsigned int LGAJFEPPGLD_TypeDefinitionIndex = 69750;
+inline static constexpr unsigned int LGAJFEPPGLD_TypeDefinitionIndex = 71707;
 
 	class LGAJFEPPGLD : public ::System::Object
 	{

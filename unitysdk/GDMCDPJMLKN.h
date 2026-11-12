@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCheckWindowInSlot; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDMCDPJMLKN_CTOR_OFFSET UNITYSDK_OFFSET(0x159A4E50)
-#define GDMCDPJMLKN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159A4E80)
+#define GDMCDPJMLKN_CTOR_OFFSET UNITYSDK_OFFSET(0x168DDA80)
+#define GDMCDPJMLKN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x168DDAB0)
 
-inline static constexpr unsigned int GDMCDPJMLKN_TypeDefinitionIndex = 52819;
+inline static constexpr unsigned int GDMCDPJMLKN_TypeDefinitionIndex = 53963;
 
 	class GDMCDPJMLKN
 	{

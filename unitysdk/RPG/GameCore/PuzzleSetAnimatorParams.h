@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PuzzleAnimatorParam; }
 namespace RPG::GameCore { class PuzzleSetAnimatorParams; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95E1B0)
-#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D95E1E0)
-#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D95E160)
+#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB76550)
+#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB76580)
+#define RPG_GAMECORE_PUZZLESETANIMATORPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB76500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PuzzleSetAnimatorParams_TypeDefinitionIndex = 22227;
+	inline static constexpr unsigned int PuzzleSetAnimatorParams_TypeDefinitionIndex = 22632;
 
 	class PuzzleSetAnimatorParams : public ::RPG::GameCore::TaskConfig
 	{

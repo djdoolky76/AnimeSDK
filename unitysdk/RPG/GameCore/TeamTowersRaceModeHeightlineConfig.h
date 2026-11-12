@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamTowersRaceModeHeightlineConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSRACEMODEHEIGHTLINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7E180)
-#define RPG_GAMECORE_TEAMTOWERSRACEMODEHEIGHTLINECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB7DFB0)
+#define RPG_GAMECORE_TEAMTOWERSRACEMODEHEIGHTLINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2D730)
+#define RPG_GAMECORE_TEAMTOWERSRACEMODEHEIGHTLINECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE2D560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersRaceModeHeightlineConfig_TypeDefinitionIndex = 18949;
+	inline static constexpr unsigned int TeamTowersRaceModeHeightlineConfig_TypeDefinitionIndex = 19136;
 
 	class TeamTowersRaceModeHeightlineConfig : public ::RPG::GameCore::JsonConfig
 	{

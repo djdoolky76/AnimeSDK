@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define OGLJNOJMKBF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C98D050)
-#define OGLJNOJMKBF_CNBJLNGJPCK_OFFSET UNITYSDK_OFFSET(0x1C98D0B0)
-#define OGLJNOJMKBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98D0C0)
+#define OGLJNOJMKBF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB4EDC0)
+#define OGLJNOJMKBF_CNBJLNGJPCK_OFFSET UNITYSDK_OFFSET(0x1DB4EE20)
+#define OGLJNOJMKBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4EE30)
 
-inline static constexpr unsigned int OGLJNOJMKBF_TypeDefinitionIndex = 43407;
+inline static constexpr unsigned int OGLJNOJMKBF_TypeDefinitionIndex = 44388;
 
 	class OGLJNOJMKBF : public ::System::Object
 	{

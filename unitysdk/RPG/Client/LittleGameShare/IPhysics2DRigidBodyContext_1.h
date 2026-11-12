@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int IPhysics2DRigidBodyContext_1_TypeDefinitionIndex = 37041;
+	inline static constexpr unsigned int IPhysics2DRigidBodyContext_1_TypeDefinitionIndex = 37969;
 
 	template <typename T>
 	class IPhysics2DRigidBodyContext_1

@@ -12,49 +12,49 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReportFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___O_TypeDefinitionIndex = 39336;
+	inline static constexpr unsigned int Browser___O_TypeDefinitionIndex = 40265;
 
 	class Browser___O : public ::System::Object
 	{
 	public:
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc** StaticGet__7___CB_NewWindowFunc()
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc** StaticGet__4___CB_ReadyFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E340);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45130);
 		}
 
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ForwardJSCallFunc** StaticGet__0___CB_ForwardJSCallFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ForwardJSCallFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E348);
-		}
-
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc** StaticGet__2___CB_ConsoleFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E350);
-		}
-
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DisplayDialogFunc** StaticGet__3___CB_DisplayDialogFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_DisplayDialogFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E358);
-		}
-
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc** StaticGet__1___CB_ChangeFunc()
-		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E360);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ForwardJSCallFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45138);
 		}
 
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NavStateFunc** StaticGet__5___CB_NavStateFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NavStateFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E368);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NavStateFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45140);
 		}
 
-		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc** StaticGet__4___CB_ReadyFunc()
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc** StaticGet__2___CB_ConsoleFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E370);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ConsoleFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45148);
+		}
+
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc** StaticGet__1___CB_ChangeFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ChangeFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45150);
+		}
+
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_DisplayDialogFunc** StaticGet__3___CB_DisplayDialogFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_DisplayDialogFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45158);
 		}
 
 		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc** StaticGet__6___CB_ReportFunc()
 		{
-			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x4E378);
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReportFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45160);
+		}
+
+		static ::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc** StaticGet__7___CB_NewWindowFunc()
+		{
+			return (::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>O")->GetStaticField(0x45168);
 		}
 
 	};

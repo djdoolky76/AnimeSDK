@@ -3,10 +3,10 @@
 namespace RPG::Client { class ST_Parkour_ByCompareRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FBCHDCNAGHA_CTOR_OFFSET UNITYSDK_OFFSET(0x15696070)
-#define FBCHDCNAGHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156960A0)
+#define FBCHDCNAGHA_CTOR_OFFSET UNITYSDK_OFFSET(0x165AC110)
+#define FBCHDCNAGHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165AC140)
 
-inline static constexpr unsigned int FBCHDCNAGHA_TypeDefinitionIndex = 52133;
+inline static constexpr unsigned int FBCHDCNAGHA_TypeDefinitionIndex = 53238;
 
 	class FBCHDCNAGHA
 	{

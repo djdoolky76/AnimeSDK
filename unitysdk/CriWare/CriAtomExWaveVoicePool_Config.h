@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomExVoicePool_PlayerConfig.h"
 
-#define CRIWARE_CRIATOMEXWAVEVOICEPOOL_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x16701720)
+#define CRIWARE_CRIATOMEXWAVEVOICEPOOL_CONFIG_DEFAULT_OFFSET UNITYSDK_OFFSET(0x17545680)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExWaveVoicePool_Config_TypeDefinitionIndex = 40082;
+	inline static constexpr unsigned int CriAtomExWaveVoicePool_Config_TypeDefinitionIndex = 41057;
 
 	struct alignas(4) CriAtomExWaveVoicePool_Config
 	{

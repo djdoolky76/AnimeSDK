@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 class PGMFANHDHGG;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define PGMFANHDHGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2E3360)
-#define PGMFANHDHGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2E3370)
-#define PGMFANHDHGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2E3320)
+#define PGMFANHDHGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4EF930)
+#define PGMFANHDHGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4EF940)
+#define PGMFANHDHGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4EF8F0)
 
-inline static constexpr unsigned int PGMFANHDHGG_TypeDefinitionIndex = 24125;
+inline static constexpr unsigned int PGMFANHDHGG_TypeDefinitionIndex = 24584;
 
 	class PGMFANHDHGG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* MDKGHHJBLOI; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::TargetEvaluator* MDKGHHJBLOI; // 0x20
 		::RPG::GameCore::DeathSource HFELBILEHNM; // 0x28
 		::System::Boolean FMPDLMMILBG; // 0x2C
 		::System::Void _ctor()

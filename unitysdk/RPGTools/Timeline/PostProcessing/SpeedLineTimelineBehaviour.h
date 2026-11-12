@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE92B080)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE92A4E0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF406CE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_SPEEDLINETIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xF406140)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int SpeedLineTimelineBehaviour_TypeDefinitionIndex = 48616;
+	inline static constexpr unsigned int SpeedLineTimelineBehaviour_TypeDefinitionIndex = 49657;
 
 	class SpeedLineTimelineBehaviour
 	{

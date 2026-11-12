@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeActivityRaidConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D55A380)
-#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D559CB0)
+#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E76C000)
+#define RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E76B930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeActivityRaidConfigRow_TypeDefinitionIndex = 12948;
+	inline static constexpr unsigned int ChallengeActivityRaidConfigRow_TypeDefinitionIndex = 13020;
 
 	class ChallengeActivityRaidConfigRow : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::UInt32>* MonsterList; // 0x10
 		::System::String* IconPath; // 0x18
 		::System::UInt32 ChallengeID; // 0x20
-		::System::UInt32 ScheduleDataID; // 0x24
-		::System::UInt32 ScoringGroupID; // 0x28
+		::System::UInt32 ScoringGroupID; // 0x24
+		::System::UInt32 ScheduleDataID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHALLENGEACTIVITYRAIDCONFIGROW_CTOR_OFFSET))(this);

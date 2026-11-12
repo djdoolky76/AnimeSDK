@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IOLIAAFBFON_RegionType_TypeDefinitionIndex = 47496;
+inline static constexpr unsigned int IOLIAAFBFON_RegionType_TypeDefinitionIndex = 48525;
 
 	enum class IOLIAAFBFON_RegionType : ::System::Int32
 	{

@@ -6,36 +6,36 @@ namespace System { class String; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define FBMBFECHHLB_ACMHOPJPEIF_OFFSET UNITYSDK_OFFSET(0x156A5BB0)
-#define FBMBFECHHLB_AHBCLDGBENB_OFFSET UNITYSDK_OFFSET(0x156A61A0)
-#define FBMBFECHHLB_CTOR_OFFSET UNITYSDK_OFFSET(0x156A5890)
-#define FBMBFECHHLB_EAIICCPNFCN_OFFSET UNITYSDK_OFFSET(0x156A58A0)
-#define FBMBFECHHLB_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x156A5700)
-#define FBMBFECHHLB_KHDDKBAMFIM_OFFSET UNITYSDK_OFFSET(0x156A6530)
-#define FBMBFECHHLB_KMOILMDCEBF_OFFSET UNITYSDK_OFFSET(0x156A6490)
-#define FBMBFECHHLB_LEDPNJMKGOJ_OFFSET UNITYSDK_OFFSET(0x156A5EB0)
-#define FBMBFECHHLB_ONAMGOODPBA_OFFSET UNITYSDK_OFFSET(0x156A6950)
+#define FBMBFECHHLB_ACMHOPJPEIF_OFFSET UNITYSDK_OFFSET(0x165BD890)
+#define FBMBFECHHLB_AHBCLDGBENB_OFFSET UNITYSDK_OFFSET(0x165BDE80)
+#define FBMBFECHHLB_CTOR_OFFSET UNITYSDK_OFFSET(0x165BD560)
+#define FBMBFECHHLB_EAIICCPNFCN_OFFSET UNITYSDK_OFFSET(0x165BD570)
+#define FBMBFECHHLB_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x165BD3D0)
+#define FBMBFECHHLB_KHDDKBAMFIM_OFFSET UNITYSDK_OFFSET(0x165BE210)
+#define FBMBFECHHLB_KMOILMDCEBF_OFFSET UNITYSDK_OFFSET(0x165BE170)
+#define FBMBFECHHLB_LEDPNJMKGOJ_OFFSET UNITYSDK_OFFSET(0x165BDB90)
+#define FBMBFECHHLB_ONAMGOODPBA_OFFSET UNITYSDK_OFFSET(0x165BE630)
 
-inline static constexpr unsigned int FBMBFECHHLB_TypeDefinitionIndex = 47302;
+inline static constexpr unsigned int FBMBFECHHLB_TypeDefinitionIndex = 48331;
 
 	class FBMBFECHHLB : public ::System::Object
 	{
 	public:
-		::UnityEngine::Rendering::VolumeProfile* MLDCLNDMLPC; // 0x10
-		::UnityEngine::Rendering::VolumeProfile* MGJHACGONOM; // 0x18
-		::System::String* PCKFAMEEOPE; // 0x20
-		::UnityEngine::Rendering::VolumeProfile* DLHIAKOOEKB; // 0x28
-		::UnityEngine::Rendering::VolumeComponent* FAEABHPMKPB; // 0x30
-		::UnityEngine::Rendering::VolumeProfile* EICIFNFMNLI; // 0x38
-		::UnityEngine::Rendering::VolumeComponent* IJDKCIGFHGF; // 0x40
-		::UnityEngine::Rendering::VolumeComponent* HKDPMHAOMLE; // 0x48
-		::UnityEngine::Rendering::VolumeComponent* EFFHCCPENGA; // 0x50
-		::UnityEngine::Rendering::VolumeProfile* FEDGFMPPLDO; // 0x58
-		::System::Single MFCPOAPFNCP; // 0x60
-		::System::Single AMBPOMOJFME; // 0x64
+		::UnityEngine::Rendering::VolumeComponent* HKDPMHAOMLE; // 0x10
+		::System::String* PCKFAMEEOPE; // 0x18
+		::UnityEngine::Rendering::VolumeProfile* EICIFNFMNLI; // 0x20
+		::UnityEngine::Rendering::VolumeComponent* FAEABHPMKPB; // 0x28
+		::UnityEngine::Rendering::VolumeProfile* FEDGFMPPLDO; // 0x30
+		::UnityEngine::Rendering::VolumeProfile* MLDCLNDMLPC; // 0x38
+		::UnityEngine::Rendering::VolumeProfile* MGJHACGONOM; // 0x40
+		::UnityEngine::Rendering::VolumeComponent* IJDKCIGFHGF; // 0x48
+		::UnityEngine::Rendering::VolumeProfile* DLHIAKOOEKB; // 0x50
+		::UnityEngine::Rendering::VolumeComponent* EFFHCCPENGA; // 0x58
+		::System::Single AMBPOMOJFME; // 0x60
+		::System::Single MFCPOAPFNCP; // 0x64
 		static ::FBMBFECHHLB** StaticGet_FLMODBLFAGD()
 		{
-			return (::FBMBFECHHLB**)UnitySDK::FromName("", "FBMBFECHHLB")->GetStaticField(0x5E3D0);
+			return (::FBMBFECHHLB**)UnitySDK::FromName("", "FBMBFECHHLB")->GetStaticField(0x45510);
 		}
 
 		::System::Void _ctor()

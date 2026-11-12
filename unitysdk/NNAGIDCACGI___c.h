@@ -4,18 +4,18 @@
 class NNAGIDCACGI;
 namespace System { class Object; }
 
-#define NNAGIDCACGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB7DB90)
-#define NNAGIDCACGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB7DBD0)
-#define NNAGIDCACGI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB7DBE0)
+#define NNAGIDCACGI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F070060)
+#define NNAGIDCACGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0700A0)
+#define NNAGIDCACGI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F0700B0)
 
-inline static constexpr unsigned int NNAGIDCACGI___c_TypeDefinitionIndex = 27438;
+inline static constexpr unsigned int NNAGIDCACGI___c_TypeDefinitionIndex = 27969;
 
 	class NNAGIDCACGI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71D60);
 		}
 
 		static ::System::Void _cctor()

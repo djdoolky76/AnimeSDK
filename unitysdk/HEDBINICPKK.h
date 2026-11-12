@@ -5,17 +5,17 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define HEDBINICPKK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C265E0)
-#define HEDBINICPKK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x15C49410)
-#define HEDBINICPKK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15C493C0)
+#define HEDBINICPKK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B8D3E0)
+#define HEDBINICPKK_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x16B8D440)
+#define HEDBINICPKK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x16B8D3F0)
 
-inline static constexpr unsigned int HEDBINICPKK_TypeDefinitionIndex = 56678;
+inline static constexpr unsigned int HEDBINICPKK_TypeDefinitionIndex = 57902;
 
 	class HEDBINICPKK : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* KGMHHAKOMLO; // 0x10
-		::System::String* DHMDAEKJENF; // 0x18
+		::System::String* DHMDAEKJENF; // 0x10
+		::RPG::GameCore::GameEntity* KGMHHAKOMLO; // 0x18
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*))((::PBYTE)hIl2Cpp + HEDBINICPKK_CTOR_OFFSET))(this, a1, a2);

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define IFIX_CORE_FIELDADDR_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9BCA10)
+#define IFIX_CORE_FIELDADDR_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB45940)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int FieldAddr_TypeDefinitionIndex = 7139;
+	inline static constexpr unsigned int FieldAddr_TypeDefinitionIndex = 7150;
 
 	class FieldAddr : public ::System::Object
 	{

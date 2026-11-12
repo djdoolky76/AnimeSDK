@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_ACFDSPSETTINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8A420)
+#define CRIWARE_CRIATOMEXACF_ACFDSPSETTINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x305CA50)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_AcfDspSettingInfo_TypeDefinitionIndex = 40024;
+	inline static constexpr unsigned int CriAtomExAcf_AcfDspSettingInfo_TypeDefinitionIndex = 40999;
 
 	struct alignas(8) CriAtomExAcf_AcfDspSettingInfo
 	{

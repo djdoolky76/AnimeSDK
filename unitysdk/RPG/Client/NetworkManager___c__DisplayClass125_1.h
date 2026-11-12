@@ -4,12 +4,12 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D0470)
-#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_1__PINGBYUDP_B__1_OFFSET UNITYSDK_OFFSET(0xD9D0480)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_1_CTOR_OFFSET UNITYSDK_OFFSET(0xE466FA0)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS125_1__PINGBYUDP_B__1_OFFSET UNITYSDK_OFFSET(0xE466FB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass125_1_TypeDefinitionIndex = 69374;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass125_1_TypeDefinitionIndex = 71327;
 
 	template <typename T>
 	class NetworkManager___c__DisplayClass125_1 : public ::System::Object

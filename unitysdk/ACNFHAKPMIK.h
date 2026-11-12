@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CRPVirtualCameraTargetConfig; }
 namespace SimpleJSON { class JSONNode; }
 
-#define ACNFHAKPMIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCA6820)
-#define ACNFHAKPMIK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1CCA7DE0)
-#define ACNFHAKPMIK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1CCA7D60)
-#define ACNFHAKPMIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCA6870)
-#define ACNFHAKPMIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCA67A0)
+#define ACNFHAKPMIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE4F410)
+#define ACNFHAKPMIK_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DE50840)
+#define ACNFHAKPMIK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DE507C0)
+#define ACNFHAKPMIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DE4F460)
+#define ACNFHAKPMIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE4F390)
 
-inline static constexpr unsigned int ACNFHAKPMIK_TypeDefinitionIndex = 22893;
+inline static constexpr unsigned int ACNFHAKPMIK_TypeDefinitionIndex = 23319;
 
 	class ACNFHAKPMIK : public ::RPG::GameCore::TriggerEffect
 	{
 	public:
-		::RPG::GameCore::CRPVirtualCameraTargetConfig* MFHDAFAFHAD; // 0x158
-		::RPG::GameCore::CRPVirtualCameraTargetConfig* AKJBPEPHNPG; // 0x160
-		::RPG::GameCore::CRPVirtualCameraTargetConfig* IEIOCHGPBAM; // 0x168
-		::RPG::GameCore::CRPVirtualCameraTargetConfig* IMAFEMCIJDK; // 0x170
-		::RPG::GameCore::CRPVirtualCameraTargetConfig* HENPNIABNAD; // 0x178
-		::System::Boolean BEBFMAPHDLK; // 0x180
-		::System::Boolean NIEKCEHHNIP; // 0x181
+		::RPG::GameCore::CRPVirtualCameraTargetConfig* HENPNIABNAD; // 0x158
+		::RPG::GameCore::CRPVirtualCameraTargetConfig* IMAFEMCIJDK; // 0x160
+		::RPG::GameCore::CRPVirtualCameraTargetConfig* MFHDAFAFHAD; // 0x168
+		::RPG::GameCore::CRPVirtualCameraTargetConfig* IEIOCHGPBAM; // 0x170
+		::RPG::GameCore::CRPVirtualCameraTargetConfig* AKJBPEPHNPG; // 0x178
+		::System::Boolean NIEKCEHHNIP; // 0x180
+		::System::Boolean BEBFMAPHDLK; // 0x181
 		::System::Byte _padding0[0x2];
 		::System::Single GGKJFMBJEIB; // 0x184
 		::System::Void _ctor()

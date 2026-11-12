@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCharacterVOType_TypeDefinitionIndex = 16376;
+	inline static constexpr unsigned int AdventureCharacterVOType_TypeDefinitionIndex = 16540;
 
 	enum class AdventureCharacterVOType : ::System::Int32
 	{

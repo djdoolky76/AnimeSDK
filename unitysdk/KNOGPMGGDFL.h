@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int KNOGPMGGDFL_TypeDefinitionIndex = 43055;
+inline static constexpr unsigned int KNOGPMGGDFL_TypeDefinitionIndex = 44036;
 
 	struct alignas(4) KNOGPMGGDFL
 	{

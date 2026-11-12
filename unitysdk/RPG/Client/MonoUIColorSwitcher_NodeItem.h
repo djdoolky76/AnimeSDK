@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_MONOUICOLORSWITCHER_NODEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD87B470)
+#define RPG_CLIENT_MONOUICOLORSWITCHER_NODEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xE2CD980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIColorSwitcher_NodeItem_TypeDefinitionIndex = 68977;
+	inline static constexpr unsigned int MonoUIColorSwitcher_NodeItem_TypeDefinitionIndex = 70930;
 
 	class MonoUIColorSwitcher_NodeItem : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Prop { class OraclePuzzleBoard; }
 
-#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD58600)
-#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0___STARTPUZZLEPANELTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0xDD58D80)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE7B5BC0)
+#define RPG_CLIENT_PROP_ORACLEPUZZLEBOARD___C__DISPLAYCLASS68_0___STARTPUZZLEPANELTRANSITION_B__0_OFFSET UNITYSDK_OFFSET(0xE7B6330)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int OraclePuzzleBoard___c__DisplayClass68_0_TypeDefinitionIndex = 78725;
+	inline static constexpr unsigned int OraclePuzzleBoard___c__DisplayClass68_0_TypeDefinitionIndex = 81460;
 
 	class OraclePuzzleBoard___c__DisplayClass68_0 : public ::System::Object
 	{

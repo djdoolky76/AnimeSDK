@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowMazeUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKALMHKNONE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AC480)
-#define BKALMHKNONE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7AC490)
-#define BKALMHKNONE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7AC4D0)
-#define BKALMHKNONE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7AC770)
-#define BKALMHKNONE_TICK_OFFSET UNITYSDK_OFFSET(0xB7AC7C0)
+#define BKALMHKNONE_CTOR_OFFSET UNITYSDK_OFFSET(0xC102570)
+#define BKALMHKNONE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC102580)
+#define BKALMHKNONE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1025C0)
+#define BKALMHKNONE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC102860)
+#define BKALMHKNONE_TICK_OFFSET UNITYSDK_OFFSET(0xC1028B0)
 
-inline static constexpr unsigned int BKALMHKNONE_TypeDefinitionIndex = 56457;
+inline static constexpr unsigned int BKALMHKNONE_TypeDefinitionIndex = 57675;
 
 	class BKALMHKNONE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowMazeUI* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowMazeUI* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowMazeUI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowMazeUI*))((::PBYTE)hIl2Cpp + BKALMHKNONE_CTOR_OFFSET))(this, a1, a2);

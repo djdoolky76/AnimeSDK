@@ -8,32 +8,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xDB552E0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_ENEMYEQUIPMENTGHOSTS_OFFSET UNITYSDK_OFFSET(0xDB56B10)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_ENEMYPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xDB56AB0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_PLAYEREQUIPMENTGHOSTS_OFFSET UNITYSDK_OFFSET(0xDB56AD0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_PLAYERPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xDB56A90)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xDB55440)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_SET_ENEMYPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xDB56AC0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_SET_PLAYERPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xDB56AA0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_SYNCFROMENTITIES_OFFSET UNITYSDK_OFFSET(0xDB56370)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER__CREATEGHOSTSFROMENTITIES_OFFSET UNITYSDK_OFFSET(0xDB55490)
-#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER__INITGHOSTSFROMENTITIES_OFFSET UNITYSDK_OFFSET(0xDB55B80)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xE5AC450)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_ENEMYEQUIPMENTGHOSTS_OFFSET UNITYSDK_OFFSET(0xE58D360)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_ENEMYPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xE5AD540)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_PLAYEREQUIPMENTGHOSTS_OFFSET UNITYSDK_OFFSET(0xE58D260)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_GET_PLAYERPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xE5AD520)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xE5AC5B0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_SET_ENEMYPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xE5AD550)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_SET_PLAYERPLANEGHOST_OFFSET UNITYSDK_OFFSET(0xE5AD530)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_SYNCFROMENTITIES_OFFSET UNITYSDK_OFFSET(0xE5AD130)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER__CREATEGHOSTSFROMENTITIES_OFFSET UNITYSDK_OFFSET(0xE5AC600)
+#define RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER__INITGHOSTSFROMENTITIES_OFFSET UNITYSDK_OFFSET(0xE5ACD40)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGhostManager_TypeDefinitionIndex = 79195;
+	inline static constexpr unsigned int PixAirGhostManager_TypeDefinitionIndex = 81972;
 
 	class PixAirGhostManager : public ::System::Object
 	{
 	public:
-		::RPG::Client::PixAir::PixAirPlaneGhost* _EnemyPlaneGhost_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::PixAir::PixAirEquipmentGhost*>* _EquipmentGhosts; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::PixAir::PixAirPlaneGhost*>* _PlaneGhosts; // 0x20
-		::LAECFLNNOFH* _Contexts; // 0x28
-		::RPG::Client::PixAir::PixAirPlaneGhost* _PlayerPlaneGhost_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipmentGhost*>* _EnemyEquipmentGhosts; // 0x38
-		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipmentGhost*>* _PlayerEquipmentGhosts; // 0x40
+		::LAECFLNNOFH* _Contexts; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipmentGhost*>* _PlayerEquipmentGhosts; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::PixAir::PixAirEquipmentGhost*>* _EnemyEquipmentGhosts; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::PixAir::PixAirPlaneGhost*>* _PlaneGhosts; // 0x28
+		::RPG::Client::PixAir::PixAirPlaneGhost* _EnemyPlaneGhost_k__BackingField; // 0x30
+		::RPG::Client::PixAir::PixAirPlaneGhost* _PlayerPlaneGhost_k__BackingField; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::PixAir::PixAirEquipmentGhost*>* _EquipmentGhosts; // 0x40
 		::System::Void _ctor(::LAECFLNNOFH* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::LAECFLNNOFH*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGHOSTMANAGER_CTOR_OFFSET))(this, a1);

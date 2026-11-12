@@ -5,29 +5,29 @@ namespace MiHoYo::SDK { class HoYoChannelSDK_CallBack; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelSocialServices___O_TypeDefinitionIndex = 46551;
+	inline static constexpr unsigned int HoYoChannelSocialServices___O_TypeDefinitionIndex = 47579;
 
 	class HoYoChannelSocialServices___O : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__2___OnUserProfileCallback()
 		{
-			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x214F0);
-		}
-
-		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__0___OnFriendListCallback()
-		{
-			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x214F8);
-		}
-
-		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__1___OnBlockListCallback()
-		{
-			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x21500);
+			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1CA30);
 		}
 
 		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__3___OnSocialUpdateCallback()
 		{
-			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x21508);
+			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1CA38);
+		}
+
+		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__1___OnBlockListCallback()
+		{
+			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1CA40);
+		}
+
+		static ::MiHoYo::SDK::HoYoChannelSDK_CallBack** StaticGet__0___OnFriendListCallback()
+		{
+			return (::MiHoYo::SDK::HoYoChannelSDK_CallBack**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1CA48);
 		}
 
 	};

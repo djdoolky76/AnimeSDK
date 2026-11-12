@@ -4,18 +4,18 @@
 class PIMFFPGEPIO;
 namespace System { class Object; }
 
-#define PIMFFPGEPIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF6DFC0)
-#define PIMFFPGEPIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF6E000)
-#define PIMFFPGEPIO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF6E010)
+#define PIMFFPGEPIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F21F5F0)
+#define PIMFFPGEPIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F21F630)
+#define PIMFFPGEPIO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F21F640)
 
-inline static constexpr unsigned int PIMFFPGEPIO___c_TypeDefinitionIndex = 30820;
+inline static constexpr unsigned int PIMFFPGEPIO___c_TypeDefinitionIndex = 31733;
 
 	class PIMFFPGEPIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44B50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39110);
 		}
 
 		static ::System::Void _cctor()

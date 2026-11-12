@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonMonsterUsage_TypeDefinitionIndex = 24638;
+	inline static constexpr unsigned int SummonMonsterUsage_TypeDefinitionIndex = 25110;
 
 	enum class SummonMonsterUsage : ::System::Int32
 	{

@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB02DAA0)
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB02DAE0)
-#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET UNITYSDK_OFFSET(0xB02DAF0)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB68EA30)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB68EA70)
+#define MIHOYO_SDK_PLUGINUI_MIHOYOSDKUIMANAGER___C__BRIDGE2NATIVE_B__16_1_OFFSET UNITYSDK_OFFSET(0xB68EA80)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int MiHoYoSDKUIManager___c_TypeDefinitionIndex = 46886;
+	inline static constexpr unsigned int MiHoYoSDKUIManager___c_TypeDefinitionIndex = 47914;
 
 	class MiHoYoSDKUIManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x324C0);
-		}
-
 		static ::System::Action_1<::System::String*>** StaticGet___9__16_1()
 		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x324C8);
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x2A320);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "<>c")->GetStaticField(0x2A328);
 		}
 
 		static ::System::Void _cctor()

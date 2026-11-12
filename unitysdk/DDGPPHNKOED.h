@@ -6,22 +6,21 @@
 class DDGPPHNKOED;
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define DDGPPHNKOED_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE262C80)
-#define DDGPPHNKOED_CTOR_OFFSET UNITYSDK_OFFSET(0xE262E90)
-#define DDGPPHNKOED_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xE262E40)
-#define DDGPPHNKOED_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xE262D00)
-#define DDGPPHNKOED_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xE262D60)
+#define DDGPPHNKOED_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xEE1E220)
+#define DDGPPHNKOED_CTOR_OFFSET UNITYSDK_OFFSET(0xEE1E420)
+#define DDGPPHNKOED_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xEE1E3D0)
+#define DDGPPHNKOED_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xEE1E2A0)
+#define DDGPPHNKOED_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xEE1E2F0)
 
-inline static constexpr unsigned int DDGPPHNKOED_TypeDefinitionIndex = 65859;
+inline static constexpr unsigned int DDGPPHNKOED_TypeDefinitionIndex = 67791;
 
 	class DDGPPHNKOED : public ::FNIDIOCNBBI
 	{
 	public:
-		::System::UInt32 AOCLHNKNJHM; // 0x28
-		::System::Boolean GBKHPNODEAH; // 0x2C
-		::System::Byte _padding0[0x3];
-		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x30
-		::UnityEngine::Vector2 NHEDBJMCEEF; // 0x34
+		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x28
+		::System::UInt32 AOCLHNKNJHM; // 0x2C
+		::UnityEngine::Vector2 NHEDBJMCEEF; // 0x30
+		::System::Boolean GBKHPNODEAH; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDGPPHNKOED_CTOR_OFFSET))(this);

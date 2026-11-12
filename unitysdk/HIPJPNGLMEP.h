@@ -5,10 +5,10 @@
 class GELIALJDFBL;
 namespace RPG::GameCore { class DynamicToastConfig; }
 
-#define HIPJPNGLMEP_CPHHGKLIAKM_OFFSET UNITYSDK_OFFSET(0x15D01250)
-#define HIPJPNGLMEP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D012D0)
+#define HIPJPNGLMEP_CPHHGKLIAKM_OFFSET UNITYSDK_OFFSET(0x16C50660)
+#define HIPJPNGLMEP_CTOR_OFFSET UNITYSDK_OFFSET(0x16C506E0)
 
-inline static constexpr unsigned int HIPJPNGLMEP_TypeDefinitionIndex = 57686;
+inline static constexpr unsigned int HIPJPNGLMEP_TypeDefinitionIndex = 58918;
 
 	class HIPJPNGLMEP : public ::System::Object
 	{

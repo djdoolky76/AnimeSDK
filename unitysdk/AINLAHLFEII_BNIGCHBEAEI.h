@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define AINLAHLFEII_BNIGCHBEAEI_COMPARETO_OFFSET UNITYSDK_OFFSET(0x2305C50)
+#define AINLAHLFEII_BNIGCHBEAEI_COMPARETO_OFFSET UNITYSDK_OFFSET(0x1DC4700)
 
-inline static constexpr unsigned int AINLAHLFEII_BNIGCHBEAEI_TypeDefinitionIndex = 57280;
+inline static constexpr unsigned int AINLAHLFEII_BNIGCHBEAEI_TypeDefinitionIndex = 58507;
 
 	struct alignas(4) AINLAHLFEII_BNIGCHBEAEI
 	{

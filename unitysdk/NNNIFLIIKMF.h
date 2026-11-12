@@ -7,12 +7,12 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfBoss; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfMemory; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordOfStory; }
 
-#define NNNIFLIIKMF_AFDCLFNBBJO_OFFSET UNITYSDK_OFFSET(0xBCD54D0)
-#define NNNIFLIIKMF_DJNKECFKIJC_OFFSET UNITYSDK_OFFSET(0xBCD5630)
-#define NNNIFLIIKMF_HCPELCFLADG_OFFSET UNITYSDK_OFFSET(0xBCD5B20)
-#define NNNIFLIIKMF_PBMLOCMBHPI_OFFSET UNITYSDK_OFFSET(0xBCD58F0)
+#define NNNIFLIIKMF_AFDCLFNBBJO_OFFSET UNITYSDK_OFFSET(0xC5C14A0)
+#define NNNIFLIIKMF_DJNKECFKIJC_OFFSET UNITYSDK_OFFSET(0xC5C1600)
+#define NNNIFLIIKMF_HCPELCFLADG_OFFSET UNITYSDK_OFFSET(0xC5C1AF0)
+#define NNNIFLIIKMF_PBMLOCMBHPI_OFFSET UNITYSDK_OFFSET(0xC5C18C0)
 
-inline static constexpr unsigned int NNNIFLIIKMF_TypeDefinitionIndex = 81467;
+inline static constexpr unsigned int NNNIFLIIKMF_TypeDefinitionIndex = 84247;
 
 	class NNNIFLIIKMF : public ::System::Object
 	{

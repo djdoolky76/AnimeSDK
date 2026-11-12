@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class UIOperation; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6FFF0)
-#define RPG_GAMECORE_UIOPERATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6FD20)
+#define RPG_GAMECORE_UIOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82CF0)
+#define RPG_GAMECORE_UIOPERATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE82A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIOperation_TypeDefinitionIndex = 24424;
+	inline static constexpr unsigned int UIOperation_TypeDefinitionIndex = 24883;
 
 	class UIOperation : public ::RPG::GameCore::JsonConfig
 	{

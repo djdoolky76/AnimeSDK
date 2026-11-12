@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_FREELOOK3RDRECENTERPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xD0502E0)
+#define RPG_CLIENT_FREELOOK3RDRECENTERPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D8880)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Freelook3rdRecenterParams_TypeDefinitionIndex = 69679;
+	inline static constexpr unsigned int Freelook3rdRecenterParams_TypeDefinitionIndex = 71636;
 
 	class Freelook3rdRecenterParams : public ::System::Object
 	{

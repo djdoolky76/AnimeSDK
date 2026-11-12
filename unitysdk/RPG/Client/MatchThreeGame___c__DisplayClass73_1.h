@@ -4,12 +4,12 @@
 class DLBGONGJBNC;
 namespace RPG::Client { class MatchThreeGameProp; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD59B300)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_1___UPDATEPLAYER_B__1_OFFSET UNITYSDK_OFFSET(0xD59B310)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_1_CTOR_OFFSET UNITYSDK_OFFSET(0xDFEBA80)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS73_1___UPDATEPLAYER_B__1_OFFSET UNITYSDK_OFFSET(0xDFF01D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass73_1_TypeDefinitionIndex = 65949;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass73_1_TypeDefinitionIndex = 67881;
 
 	template <typename T>
 	class MatchThreeGame___c__DisplayClass73_1 : public ::System::Object

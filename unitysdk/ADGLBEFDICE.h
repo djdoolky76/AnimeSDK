@@ -4,10 +4,10 @@
 #include "unitysdk/NOJEJFMMCEG.h"
 class FPNHGPEICOG;
 
-#define ADGLBEFDICE_CTOR_OFFSET UNITYSDK_OFFSET(0xB138E10)
-#define ADGLBEFDICE_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xB138A30)
+#define ADGLBEFDICE_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A0140)
+#define ADGLBEFDICE_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xB79FD60)
 
-inline static constexpr unsigned int ADGLBEFDICE_TypeDefinitionIndex = 53682;
+inline static constexpr unsigned int ADGLBEFDICE_TypeDefinitionIndex = 54846;
 
 	class ADGLBEFDICE : public ::System::Object
 	{

@@ -5,25 +5,25 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8AAD50)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8AAD90)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C__GET__VALIDDAYOPTIONS_B__4_0_OFFSET UNITYSDK_OFFSET(0xC8AADA0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD210170)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2101B0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERINFO___C__GET__VALIDDAYOPTIONS_B__4_0_OFFSET UNITYSDK_OFFSET(0xD2101C0)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo___c_TypeDefinitionIndex = 74892;
+	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo___c_TypeDefinitionIndex = 77219;
 
 	class BlindBoxTradePublishOrderInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5EAE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5C970);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5EAE8);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client.BlindBox.Trade", "<>c")->GetStaticField(0x5C978);
 		}
 
 		static ::System::Void _cctor()

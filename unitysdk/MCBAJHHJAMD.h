@@ -4,19 +4,19 @@
 #include "unitysdk/UnityEngine/Vector3Int.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define MCBAJHHJAMD_BJPOGNABBLE_OFFSET UNITYSDK_OFFSET(0xB873520)
-#define MCBAJHHJAMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB8736D0)
-#define MCBAJHHJAMD_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xB873620)
-#define MCBAJHHJAMD_PLFJCMLDIKG_OFFSET UNITYSDK_OFFSET(0xB873440)
+#define MCBAJHHJAMD_BJPOGNABBLE_OFFSET UNITYSDK_OFFSET(0xC0D8DF0)
+#define MCBAJHHJAMD_CTOR_OFFSET UNITYSDK_OFFSET(0xC0D8FA0)
+#define MCBAJHHJAMD_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xC0D8EF0)
+#define MCBAJHHJAMD_PLFJCMLDIKG_OFFSET UNITYSDK_OFFSET(0xC0D8D10)
 
-inline static constexpr unsigned int MCBAJHHJAMD_TypeDefinitionIndex = 52059;
+inline static constexpr unsigned int MCBAJHHJAMD_TypeDefinitionIndex = 53164;
 
 	class MCBAJHHJAMD : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3Int OGPDIJFMIHM; // 0x10
-		::UnityEngine::Vector3Int BBFOLEOPPPL; // 0x1C
-		::System::Single HAHMJKDKEKC; // 0x28
+		::System::Single HAHMJKDKEKC; // 0x10
+		::UnityEngine::Vector3Int OGPDIJFMIHM; // 0x14
+		::UnityEngine::Vector3Int BBFOLEOPPPL; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MCBAJHHJAMD_CTOR_OFFSET))(this);

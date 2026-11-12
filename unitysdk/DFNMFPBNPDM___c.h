@@ -4,18 +4,18 @@
 class DFNMFPBNPDM;
 namespace System { class Object; }
 
-#define DFNMFPBNPDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1A9AE0)
-#define DFNMFPBNPDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A9B20)
-#define DFNMFPBNPDM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1A9B30)
+#define DFNMFPBNPDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F484830)
+#define DFNMFPBNPDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F484870)
+#define DFNMFPBNPDM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F484880)
 
-inline static constexpr unsigned int DFNMFPBNPDM___c_TypeDefinitionIndex = 29098;
+inline static constexpr unsigned int DFNMFPBNPDM___c_TypeDefinitionIndex = 29688;
 
 	class DFNMFPBNPDM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2EB40);
 		}
 
 		static ::System::Void _cctor()

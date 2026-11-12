@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 class CCGFLDDDIPN;
 
-#define CCGFLDDDIPN_CTOR_OFFSET UNITYSDK_OFFSET(0xC73AC50)
-#define CCGFLDDDIPN_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xC73ABE0)
+#define CCGFLDDDIPN_CTOR_OFFSET UNITYSDK_OFFSET(0xCE2D1B0)
+#define CCGFLDDDIPN_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xCE2D140)
 
-inline static constexpr unsigned int CCGFLDDDIPN_TypeDefinitionIndex = 56307;
+inline static constexpr unsigned int CCGFLDDDIPN_TypeDefinitionIndex = 57521;
 
 	class CCGFLDDDIPN : public ::System::Object
 	{
 	public:
-		::System::UInt32 KKCKMCDGCGK; // 0x10
-		::System::Boolean NKNCBCEHKCP; // 0x14
+		::System::UInt32 EFJAHDEMACL; // 0x10
+		::System::UInt32 KKCKMCDGCGK; // 0x14
+		::System::Boolean NKNCBCEHKCP; // 0x18
 		::System::Byte _padding0[0x3];
-		::System::UInt32 EFJAHDEMACL; // 0x18
 		::System::UInt32 MBCACNKDMFG; // 0x1C
 		::System::Void _ctor()
 		{

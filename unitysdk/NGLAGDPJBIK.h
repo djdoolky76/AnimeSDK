@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetDynamicValueByAddValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGLAGDPJBIK_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAD1C0)
-#define NGLAGDPJBIK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBAD1D0)
-#define NGLAGDPJBIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBAD210)
-#define NGLAGDPJBIK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBAD660)
-#define NGLAGDPJBIK_TICK_OFFSET UNITYSDK_OFFSET(0xBBAD6B0)
+#define NGLAGDPJBIK_CTOR_OFFSET UNITYSDK_OFFSET(0xC4891A0)
+#define NGLAGDPJBIK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4891B0)
+#define NGLAGDPJBIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4891F0)
+#define NGLAGDPJBIK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC489640)
+#define NGLAGDPJBIK_TICK_OFFSET UNITYSDK_OFFSET(0xC489690)
 
-inline static constexpr unsigned int NGLAGDPJBIK_TypeDefinitionIndex = 55404;
+inline static constexpr unsigned int NGLAGDPJBIK_TypeDefinitionIndex = 56589;
 
 	class NGLAGDPJBIK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetDynamicValueByAddValue* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetDynamicValueByAddValue* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByAddValue* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDynamicValueByAddValue*))((::PBYTE)hIl2Cpp + NGLAGDPJBIK_CTOR_OFFSET))(this, a1, a2);

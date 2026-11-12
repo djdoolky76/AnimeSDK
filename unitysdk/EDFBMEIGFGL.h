@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EDFBMEIGFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33510)
+#define EDFBMEIGFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF6D60)
 
-inline static constexpr unsigned int EDFBMEIGFGL_TypeDefinitionIndex = 42957;
+inline static constexpr unsigned int EDFBMEIGFGL_TypeDefinitionIndex = 43938;
 
 	class EDFBMEIGFGL : public ::System::Object
 	{

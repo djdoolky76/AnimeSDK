@@ -6,18 +6,18 @@ class EGAADKHGDJN;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define EGAADKHGDJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7A4E0)
-#define EGAADKHGDJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD7A4F0)
-#define EGAADKHGDJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD7A4B0)
+#define EGAADKHGDJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF4BB80)
+#define EGAADKHGDJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF4BB90)
+#define EGAADKHGDJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF4BB50)
 
-inline static constexpr unsigned int EGAADKHGDJN_TypeDefinitionIndex = 19887;
+inline static constexpr unsigned int EGAADKHGDJN_TypeDefinitionIndex = 20216;
 
 	class EGAADKHGDJN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x18
-		::RPG::GameCore::FateRinCardPileType KODIKGGDENE; // 0x20
-		::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x22
+		::RPG::GameCore::FateRinCardPileType IANCHJFBKFC; // 0x20
+		::RPG::GameCore::FateRinCardPileType KODIKGGDENE; // 0x22
 		::System::UInt32 FEHABNJEENK; // 0x24
 		::System::Void _ctor()
 		{

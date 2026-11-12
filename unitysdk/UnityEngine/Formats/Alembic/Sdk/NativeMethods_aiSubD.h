@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Formats/Alembic/Sdk/aiPolyMeshSample.h"
 
-#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AISUBD_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x1F17CE30)
+#define UNITYENGINE_FORMATS_ALEMBIC_SDK_NATIVEMETHODS_AISUBD_AISCHEMAGETSAMPLE_OFFSET UNITYSDK_OFFSET(0x2042E270)
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int NativeMethods_aiSubD_TypeDefinitionIndex = 45797;
+	inline static constexpr unsigned int NativeMethods_aiSubD_TypeDefinitionIndex = 46826;
 
 	struct alignas(4) NativeMethods_aiSubD
 	{

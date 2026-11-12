@@ -8,23 +8,24 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace RPG::GameCore { class RogueMagicTalentRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICTALENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D7860)
-#define RPG_GAMECORE_ROGUEMAGICTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D7590)
+#define RPG_GAMECORE_ROGUEMAGICTALENTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC21050)
+#define RPG_GAMECORE_ROGUEMAGICTALENTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC20D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicTalentRow_TypeDefinitionIndex = 14868;
+	inline static constexpr unsigned int RogueMagicTalentRow_TypeDefinitionIndex = 15024;
 
 	class RogueMagicTalentRow : public ::System::Object
 	{
 	public:
 		::System::String* TalentIcon; // 0x10
-		::Il2CppArray<::RPG::GameCore::ItemConfig*>* Cost; // 0x18
-		::Il2CppArray<::AJCJJOCGIEL*>* DescParams; // 0x20
-		::System::UInt32 TalentID; // 0x28
+		::Il2CppArray<::AJCJJOCGIEL*>* DescParams; // 0x18
+		::Il2CppArray<::RPG::GameCore::ItemConfig*>* Cost; // 0x20
+		::System::UInt32 NameDisplayID; // 0x28
 		::System::UInt32 Level; // 0x2C
-		::RPG::Client::TextID EffectDesc; // 0x30
-		::System::UInt32 NameDisplayID; // 0x40
+		::System::UInt32 TalentID; // 0x30
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID EffectDesc; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEMAGICTALENTROW_CTOR_OFFSET))(this);

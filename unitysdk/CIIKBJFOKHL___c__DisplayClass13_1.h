@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class ALMFLCJCHKP;
 
-#define CIIKBJFOKHL___C__DISPLAYCLASS13_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCF85CE0)
-#define CIIKBJFOKHL___C__DISPLAYCLASS13_1___FILTERSOLDIERBYINITPOSITION_B__6_OFFSET UNITYSDK_OFFSET(0xCF8AEA0)
+#define CIIKBJFOKHL___C__DISPLAYCLASS13_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD8F52A0)
+#define CIIKBJFOKHL___C__DISPLAYCLASS13_1___FILTERSOLDIERBYINITPOSITION_B__6_OFFSET UNITYSDK_OFFSET(0xD8FA4C0)
 
-inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass13_1_TypeDefinitionIndex = 77872;
+inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass13_1_TypeDefinitionIndex = 80607;
 
 	template <typename T>
 	class CIIKBJFOKHL___c__DisplayClass13_1 : public ::System::Object

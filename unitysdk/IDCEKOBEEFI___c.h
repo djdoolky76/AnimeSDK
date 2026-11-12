@@ -4,18 +4,18 @@
 class IDCEKOBEEFI;
 namespace System { class Object; }
 
-#define IDCEKOBEEFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E629750)
-#define IDCEKOBEEFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E629790)
-#define IDCEKOBEEFI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E6297A0)
+#define IDCEKOBEEFI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F945870)
+#define IDCEKOBEEFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9458B0)
+#define IDCEKOBEEFI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F9458C0)
 
-inline static constexpr unsigned int IDCEKOBEEFI___c_TypeDefinitionIndex = 33381;
+inline static constexpr unsigned int IDCEKOBEEFI___c_TypeDefinitionIndex = 34296;
 
 	class IDCEKOBEEFI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45AD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CC50);
 		}
 
 		static ::System::Void _cctor()

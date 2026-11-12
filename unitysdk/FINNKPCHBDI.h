@@ -11,27 +11,27 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Transform; }
 
-#define FINNKPCHBDI_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x157AFDF0)
-#define FINNKPCHBDI_CTOR_OFFSET UNITYSDK_OFFSET(0x157B0020)
-#define FINNKPCHBDI_GIIGBBPKFMF_OFFSET UNITYSDK_OFFSET(0x157AFF70)
-#define FINNKPCHBDI_HIPMKBHGDID_OFFSET UNITYSDK_OFFSET(0x157AFFD0)
-#define FINNKPCHBDI_IINKHPOJOGP_OFFSET UNITYSDK_OFFSET(0x157AF120)
-#define FINNKPCHBDI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x157AFB70)
+#define FINNKPCHBDI_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x166D0ED0)
+#define FINNKPCHBDI_CTOR_OFFSET UNITYSDK_OFFSET(0x166D1100)
+#define FINNKPCHBDI_GIIGBBPKFMF_OFFSET UNITYSDK_OFFSET(0x166D1050)
+#define FINNKPCHBDI_HIPMKBHGDID_OFFSET UNITYSDK_OFFSET(0x166D10B0)
+#define FINNKPCHBDI_IINKHPOJOGP_OFFSET UNITYSDK_OFFSET(0x166D01F0)
+#define FINNKPCHBDI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x166D0C50)
 
-inline static constexpr unsigned int FINNKPCHBDI_TypeDefinitionIndex = 70397;
+inline static constexpr unsigned int FINNKPCHBDI_TypeDefinitionIndex = 72364;
 
 	class FINNKPCHBDI : public ::System::Object
 	{
 	public:
-		::UnityEngine::Camera* FCMHOBKNEEG; // 0x10
-		::RPG::CustomRP::VirtualCamera* EJFOJELOONF; // 0x18
+		::UnityEngine::GameObject* LIECGHBPGOI; // 0x10
+		::Il2CppArray<::UnityEngine::Renderer*>* MOECGMPCECP; // 0x18
 		::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* BMCPFHADPKJ; // 0x20
-		::UnityEngine::GameObject* LIECGHBPGOI; // 0x28
-		::Il2CppArray<::UnityEngine::Renderer*>* MOECGMPCECP; // 0x30
-		::UnityEngine::Transform* EJLFKOAFOJB; // 0x38
-		::UnityEngine::Vector4 JFAGECNFHJL; // 0x40
-		::System::Boolean LNKHKEFIBNN; // 0x50
+		::UnityEngine::Camera* FCMHOBKNEEG; // 0x28
+		::UnityEngine::Transform* EJLFKOAFOJB; // 0x30
+		::RPG::CustomRP::VirtualCamera* EJFOJELOONF; // 0x38
+		::System::Boolean LNKHKEFIBNN; // 0x40
 		::System::Byte _padding0[0x3];
+		::UnityEngine::Vector4 JFAGECNFHJL; // 0x44
 		::System::Single KFJBNPHGCMJ; // 0x54
 		::UnityEngine::Vector2 NMPDINMMMGA; // 0x58
 		::UnityEngine::Matrix4x4 GGFBEOFHAFD; // 0x60

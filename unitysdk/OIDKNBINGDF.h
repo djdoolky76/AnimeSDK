@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class SetupBattleLineup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OIDKNBINGDF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE7A8D0)
-#define OIDKNBINGDF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE7A8E0)
-#define OIDKNBINGDF_GFIGDCOCMMI_OFFSET UNITYSDK_OFFSET(0xBE7A970)
-#define OIDKNBINGDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE7A920)
-#define OIDKNBINGDF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE7AAE0)
-#define OIDKNBINGDF_TICK_OFFSET UNITYSDK_OFFSET(0xBE7AB30)
+#define OIDKNBINGDF_CTOR_OFFSET UNITYSDK_OFFSET(0xC735AC0)
+#define OIDKNBINGDF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC735AD0)
+#define OIDKNBINGDF_GFIGDCOCMMI_OFFSET UNITYSDK_OFFSET(0xC735B60)
+#define OIDKNBINGDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC735B10)
+#define OIDKNBINGDF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC735CC0)
+#define OIDKNBINGDF_TICK_OFFSET UNITYSDK_OFFSET(0xC735D10)
 
-inline static constexpr unsigned int OIDKNBINGDF_TypeDefinitionIndex = 58594;
+inline static constexpr unsigned int OIDKNBINGDF_TypeDefinitionIndex = 59859;
 
 	class OIDKNBINGDF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetupBattleLineup* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetupBattleLineup* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetupBattleLineup* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetupBattleLineup*))((::PBYTE)hIl2Cpp + OIDKNBINGDF_CTOR_OFFSET))(this, a1, a2);

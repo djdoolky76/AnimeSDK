@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfFoodEventConfig; }
 
-#define RPG_GAMECORE_ELFFOODEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D636410)
-#define RPG_GAMECORE_ELFFOODEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D636290)
+#define RPG_GAMECORE_ELFFOODEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E873DE0)
+#define RPG_GAMECORE_ELFFOODEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E873C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfFoodEventConfig_TypeDefinitionIndex = 18472;
+	inline static constexpr unsigned int ElfFoodEventConfig_TypeDefinitionIndex = 18632;
 
 	class ElfFoodEventConfig : public ::RPG::GameCore::JsonConfig
 	{

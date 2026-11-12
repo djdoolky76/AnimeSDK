@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HJIAHMMPICB_NpcShowState_TypeDefinitionIndex = 73311;
+inline static constexpr unsigned int HJIAHMMPICB_NpcShowState_TypeDefinitionIndex = 75428;
 
 	enum class HJIAHMMPICB_NpcShowState : ::System::Int32
 	{

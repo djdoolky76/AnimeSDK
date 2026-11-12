@@ -5,17 +5,17 @@
 class DPNEAKNHADE;
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define DELPKNBPNLN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA25800)
-#define DELPKNBPNLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA259B0)
+#define DELPKNBPNLN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DBE9050)
+#define DELPKNBPNLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBE91F0)
 
-inline static constexpr unsigned int DELPKNBPNLN_TypeDefinitionIndex = 43653;
+inline static constexpr unsigned int DELPKNBPNLN_TypeDefinitionIndex = 44636;
 
 	class DELPKNBPNLN : public ::System::Object
 	{
 	public:
-		::RPG::GCFreeClosure::FuncClosureR_1<::System::Boolean> PKDKLMCDLAE; // 0x10
+		::RPG::PoolList_1<::DPNEAKNHADE*>* JNKMGENNMDJ; // 0x10
+		::RPG::GCFreeClosure::FuncClosureR_1<::System::Boolean> PKDKLMCDLAE; // 0x18
 		::System::Byte _padding0[0x88];
-		::RPG::PoolList_1<::DPNEAKNHADE*>* JNKMGENNMDJ; // 0xA0
 		::System::UInt32 OKEFEBGFHBB; // 0xA8
 		::System::Boolean BOECFAMLMEH; // 0xAC
 		::System::Void _ctor()

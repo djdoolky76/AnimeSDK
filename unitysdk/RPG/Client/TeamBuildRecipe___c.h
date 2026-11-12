@@ -5,25 +5,25 @@ class MCOFKOEJGGL;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TEAMBUILDRECIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1CB640)
-#define RPG_CLIENT_TEAMBUILDRECIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1CB680)
-#define RPG_CLIENT_TEAMBUILDRECIPE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0xE1CB690)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEC78B40)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEC78B80)
+#define RPG_CLIENT_TEAMBUILDRECIPE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0xEC78B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildRecipe___c_TypeDefinitionIndex = 68094;
+	inline static constexpr unsigned int TeamBuildRecipe___c_TypeDefinitionIndex = 70040;
 
 	class TeamBuildRecipe___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF900);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1C510);
 		}
 
 		static ::System::Func_2<::MCOFKOEJGGL*, ::System::UInt32>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::MCOFKOEJGGL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF908);
+			return (::System::Func_2<::MCOFKOEJGGL*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1C518);
 		}
 
 		static ::System::Void _cctor()

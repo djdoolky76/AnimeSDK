@@ -5,14 +5,14 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameBillboardConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7DE250)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DDED0)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7DDEE0)
-#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DDE70)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA1EBE0)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA1E860)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA1E870)
+#define RPG_GAMECORE_LITTLEGAMEBILLBOARDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA1E800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameBillboardConfig_TypeDefinitionIndex = 18834;
+	inline static constexpr unsigned int LittleGameBillboardConfig_TypeDefinitionIndex = 18996;
 
 	class LittleGameBillboardConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
@@ -29,7 +29,7 @@ namespace RPG::GameCore
 		::System::Single OverrideShowDistance; // 0x30
 		static ::RPG::GameCore::LittleGameBillboardConfig** StaticGet_DefaultBillboardConfig()
 		{
-			return (::RPG::GameCore::LittleGameBillboardConfig**)UnitySDK::FromName("RPG.GameCore", "LittleGameBillboardConfig")->GetStaticField(0x33460);
+			return (::RPG::GameCore::LittleGameBillboardConfig**)UnitySDK::FromName("RPG.GameCore", "LittleGameBillboardConfig")->GetStaticField(0x3C910);
 		}
 
 		::System::Void _ctor()

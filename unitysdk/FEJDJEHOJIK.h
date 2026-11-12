@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class FEJDJEHOJIK;
 
-#define FEJDJEHOJIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE1F80)
-#define FEJDJEHOJIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE1E60)
+#define FEJDJEHOJIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBAF00)
+#define FEJDJEHOJIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DFBADE0)
 
-inline static constexpr unsigned int FEJDJEHOJIK_TypeDefinitionIndex = 12879;
+inline static constexpr unsigned int FEJDJEHOJIK_TypeDefinitionIndex = 12951;
 
 	class FEJDJEHOJIK : public ::System::Object
 	{
 	public:
-		::System::UInt32 ACCJKGEKHKP; // 0x10
-		::System::UInt32 DLOOMDHHNGC; // 0x14
+		::System::UInt32 DLOOMDHHNGC; // 0x10
+		::System::UInt32 ACCJKGEKHKP; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FEJDJEHOJIK_CTOR_OFFSET))(this);

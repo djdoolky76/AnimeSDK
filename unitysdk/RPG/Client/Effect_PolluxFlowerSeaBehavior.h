@@ -9,31 +9,31 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xCD5E650)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_ANFFLAJPOMN_OFFSET UNITYSDK_OFFSET(0xCD5EF60)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_BGOHMLNDAKH_OFFSET UNITYSDK_OFFSET(0xCD5EA60)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD60D40)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xCD5E5E0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xCD60D30)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_DOPPCGIHJBF_OFFSET UNITYSDK_OFFSET(0xCD608D0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xCD5E9E0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_GFJGFOAJBKJ_OFFSET UNITYSDK_OFFSET(0xCD601D0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_GNPCHJBBDPH_OFFSET UNITYSDK_OFFSET(0xCD60410)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xCD5E790)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCD5E3E0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xCD5E850)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_LDPDLKILLEL_OFFSET UNITYSDK_OFFSET(0xCD60520)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xCD5E580)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xCD603B0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xCD5E7F0)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xCD5E520)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_OPOOJLBPINA_OFFSET UNITYSDK_OFFSET(0xCD60710)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xCD5E440)
-#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xCD60370)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xD724E50)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_ANFFLAJPOMN_OFFSET UNITYSDK_OFFSET(0xD725760)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_BGOHMLNDAKH_OFFSET UNITYSDK_OFFSET(0xD725260)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7274E0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xD724DE0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD7274D0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_DOPPCGIHJBF_OFFSET UNITYSDK_OFFSET(0xD7270D0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_GET__OWNER_OFFSET UNITYSDK_OFFSET(0xD7251E0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_GFJGFOAJBKJ_OFFSET UNITYSDK_OFFSET(0xD7269D0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_GNPCHJBBDPH_OFFSET UNITYSDK_OFFSET(0xD726C10)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xD724F90)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD724BE0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_LATETICK_OFFSET UNITYSDK_OFFSET(0xD725050)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_LDPDLKILLEL_OFFSET UNITYSDK_OFFSET(0xD726D20)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xD724D80)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xD726BB0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xD724FF0)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xD724D20)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_OPOOJLBPINA_OFFSET UNITYSDK_OFFSET(0xD726F10)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xD724C40)
+#define RPG_CLIENT_EFFECT_POLLUXFLOWERSEABEHAVIOR_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xD726B70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_PolluxFlowerSeaBehavior_TypeDefinitionIndex = 70536;
+	inline static constexpr unsigned int Effect_PolluxFlowerSeaBehavior_TypeDefinitionIndex = 72511;
 
 	class Effect_PolluxFlowerSeaBehavior : public ::RPG::Client::TABehaviorBase
 	{
@@ -44,117 +44,117 @@ namespace RPG::Client
 		::UnityEngine::Texture2D* _LifeTimeAnimation; // 0x50
 		static ::System::String** StaticGet__KeywordInstancedFlowerSea()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0x3BFF0);
-		}
-
-		static ::System::Int32* StaticGet__PropCustomLightingDirection()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCB0);
-		}
-
-		static ::System::Int32* StaticGet__PropLineSideFallOffSmooth()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCB4);
-		}
-
-		static ::System::Int32* StaticGet__PropCustomLightingOffset()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCB8);
-		}
-
-		static ::System::Int32* StaticGet__PropLineGrowRandom()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCBC);
-		}
-
-		static ::System::Int32* StaticGet__PropLineStartPositon()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCC0);
-		}
-
-		static ::System::Int32* StaticGet__PropWindNoiseIntensity()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCC4);
-		}
-
-		static ::System::Int32* StaticGet__PropCustomLightingSmoothness()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCC8);
-		}
-
-		static ::System::Int32* StaticGet__PropLineDirection()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCCC);
-		}
-
-		static ::System::Int32* StaticGet__PropWindNoiseFrequency()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCD0);
-		}
-
-		static ::System::Int32* StaticGet__PropCustomBrightColor()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCD4);
-		}
-
-		static ::System::Int32* StaticGet__PropCustomDarkColor()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCD8);
-		}
-
-		static ::System::Int32* StaticGet__PropLineGrowDebug()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCDC);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0x39820);
 		}
 
 		static ::System::Int32* StaticGet__PropWindDirection()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCE0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9D0);
 		}
 
-		static ::System::Int32* StaticGet__PropWindNoiseTile()
+		static ::System::Int32* StaticGet__PropLineDirection()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCE4);
-		}
-
-		static ::System::Int32* StaticGet__PropCustomLighting()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCE8);
-		}
-
-		static ::System::Int32* StaticGet__PropLineGrowDistance()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCEC);
-		}
-
-		static ::System::Int32* StaticGet__PropLineSideFallOffDistance()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCF0);
-		}
-
-		static ::System::Int32* StaticGet__PropLineGrowSmooth()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCF4);
-		}
-
-		static ::System::Int32* StaticGet__PropLifeTimeAnimation()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCF8);
-		}
-
-		static ::System::Int32* StaticGet__PropDisappearFrame()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCCFC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9D4);
 		}
 
 		static ::System::Int32* StaticGet__AnimationTexResolution()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCD00);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9D8);
+		}
+
+		static ::System::Int32* StaticGet__PropCustomLighting()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9DC);
+		}
+
+		static ::System::Int32* StaticGet__PropLineGrowRandom()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9E0);
+		}
+
+		static ::System::Int32* StaticGet__PropCustomLightingOffset()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9E4);
+		}
+
+		static ::System::Int32* StaticGet__PropCustomDarkColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9E8);
+		}
+
+		static ::System::Int32* StaticGet__PropWindNoiseTile()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9EC);
 		}
 
 		static ::System::Int32* StaticGet__PropLineSideLineSideFallOff()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCD04);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9F0);
+		}
+
+		static ::System::Int32* StaticGet__PropCustomLightingSmoothness()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9F4);
+		}
+
+		static ::System::Int32* StaticGet__PropLineStartPositon()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9F8);
+		}
+
+		static ::System::Int32* StaticGet__PropLineGrowDebug()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xC9FC);
+		}
+
+		static ::System::Int32* StaticGet__PropLineSideFallOffSmooth()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA00);
+		}
+
+		static ::System::Int32* StaticGet__PropWindNoiseIntensity()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA04);
+		}
+
+		static ::System::Int32* StaticGet__PropDisappearFrame()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA08);
+		}
+
+		static ::System::Int32* StaticGet__PropWindNoiseFrequency()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA0C);
+		}
+
+		static ::System::Int32* StaticGet__PropCustomBrightColor()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA10);
+		}
+
+		static ::System::Int32* StaticGet__PropLineGrowDistance()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA14);
+		}
+
+		static ::System::Int32* StaticGet__PropLifeTimeAnimation()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA18);
+		}
+
+		static ::System::Int32* StaticGet__PropLineSideFallOffDistance()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA1C);
+		}
+
+		static ::System::Int32* StaticGet__PropLineGrowSmooth()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA20);
+		}
+
+		static ::System::Int32* StaticGet__PropCustomLightingDirection()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "Effect_PolluxFlowerSeaBehavior")->GetStaticField(0xCA24);
 		}
 
 		::System::Void _ctor()

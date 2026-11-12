@@ -12,96 +12,95 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define BNAILMNNGIF_BGGAJHKBEOP_OFFSET UNITYSDK_OFFSET(0x1E02EE60)
-#define BNAILMNNGIF_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E02FB20)
-#define BNAILMNNGIF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E030340)
-#define BNAILMNNGIF_CLONE_OFFSET UNITYSDK_OFFSET(0x1E02ED80)
-#define BNAILMNNGIF_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E02EC50)
-#define BNAILMNNGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E02EA00)
-#define BNAILMNNGIF_EBHCBABJCAE_OFFSET UNITYSDK_OFFSET(0x1E02EDE0)
-#define BNAILMNNGIF_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E02EF10)
-#define BNAILMNNGIF_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E02EEB0)
-#define BNAILMNNGIF_GCJNNCIADGA_OFFSET UNITYSDK_OFFSET(0x1E02EE50)
-#define BNAILMNNGIF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E02F0B0)
-#define BNAILMNNGIF_IBKPICHCNLF_OFFSET UNITYSDK_OFFSET(0x1E02EDD0)
-#define BNAILMNNGIF_INADFNOMPCI_OFFSET UNITYSDK_OFFSET(0x1E02EE30)
-#define BNAILMNNGIF_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E02E990)
-#define BNAILMNNGIF_JNFHBKGNDFG_OFFSET UNITYSDK_OFFSET(0x1E02EDF0)
-#define BNAILMNNGIF_KEEKFNPDMFN_OFFSET UNITYSDK_OFFSET(0x1E02EE90)
-#define BNAILMNNGIF_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E02FF60)
-#define BNAILMNNGIF_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E02FE40)
-#define BNAILMNNGIF_NAKEOKBACJK_OFFSET UNITYSDK_OFFSET(0x1E02EE40)
-#define BNAILMNNGIF_NBMMCGDDADH_OFFSET UNITYSDK_OFFSET(0x1E02EE20)
-#define BNAILMNNGIF_NHJMPKEGIHH_OFFSET UNITYSDK_OFFSET(0x1E02EE10)
-#define BNAILMNNGIF_NMFJLCLAJGA_OFFSET UNITYSDK_OFFSET(0x1E02EE80)
-#define BNAILMNNGIF_OOIPIFKLFBG_OFFSET UNITYSDK_OFFSET(0x1E02EE70)
-#define BNAILMNNGIF_OPAINJBAAJC_OFFSET UNITYSDK_OFFSET(0x1E02EE00)
-#define BNAILMNNGIF_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E02E9F0)
-#define BNAILMNNGIF_PPOBKKILKLI_OFFSET UNITYSDK_OFFSET(0x1E02EEA0)
-#define BNAILMNNGIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E02F770)
-#define BNAILMNNGIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E02F7D0)
+#define BNAILMNNGIF_BGGAJHKBEOP_OFFSET UNITYSDK_OFFSET(0x1F2F00A0)
+#define BNAILMNNGIF_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F2F0D60)
+#define BNAILMNNGIF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2F1580)
+#define BNAILMNNGIF_CLONE_OFFSET UNITYSDK_OFFSET(0x1F2EFFC0)
+#define BNAILMNNGIF_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2EFE90)
+#define BNAILMNNGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2EFC40)
+#define BNAILMNNGIF_EBHCBABJCAE_OFFSET UNITYSDK_OFFSET(0x1F2F0020)
+#define BNAILMNNGIF_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F2F0150)
+#define BNAILMNNGIF_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F2F00F0)
+#define BNAILMNNGIF_GCJNNCIADGA_OFFSET UNITYSDK_OFFSET(0x1F2F0090)
+#define BNAILMNNGIF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F2F02F0)
+#define BNAILMNNGIF_IBKPICHCNLF_OFFSET UNITYSDK_OFFSET(0x1F2F0010)
+#define BNAILMNNGIF_INADFNOMPCI_OFFSET UNITYSDK_OFFSET(0x1F2F0070)
+#define BNAILMNNGIF_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F2EFBD0)
+#define BNAILMNNGIF_JNFHBKGNDFG_OFFSET UNITYSDK_OFFSET(0x1F2F0030)
+#define BNAILMNNGIF_KEEKFNPDMFN_OFFSET UNITYSDK_OFFSET(0x1F2F00D0)
+#define BNAILMNNGIF_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F2F11A0)
+#define BNAILMNNGIF_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F2F1080)
+#define BNAILMNNGIF_NAKEOKBACJK_OFFSET UNITYSDK_OFFSET(0x1F2F0080)
+#define BNAILMNNGIF_NBMMCGDDADH_OFFSET UNITYSDK_OFFSET(0x1F2F0060)
+#define BNAILMNNGIF_NHJMPKEGIHH_OFFSET UNITYSDK_OFFSET(0x1F2F0050)
+#define BNAILMNNGIF_NMFJLCLAJGA_OFFSET UNITYSDK_OFFSET(0x1F2F00C0)
+#define BNAILMNNGIF_OOIPIFKLFBG_OFFSET UNITYSDK_OFFSET(0x1F2F00B0)
+#define BNAILMNNGIF_OPAINJBAAJC_OFFSET UNITYSDK_OFFSET(0x1F2F0040)
+#define BNAILMNNGIF_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F2EFC30)
+#define BNAILMNNGIF_PPOBKKILKLI_OFFSET UNITYSDK_OFFSET(0x1F2F00E0)
+#define BNAILMNNGIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F2F09B0)
+#define BNAILMNNGIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F2F0A10)
 
-inline static constexpr unsigned int BNAILMNNGIF_TypeDefinitionIndex = 25345;
+inline static constexpr unsigned int BNAILMNNGIF_TypeDefinitionIndex = 25823;
 
 	class BNAILMNNGIF : public ::System::Object
 	{
 	public:
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* KODOFMFHODC; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* OJLDHDLJBAO; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* MFBMMEIBFGA; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IBHIPLIJCOD; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* HLHBAMNIIPL; // 0x20
 		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* GMLCEONMBLF; // 0x28
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* HLHBAMNIIPL; // 0x30
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* MFBMMEIBFGA; // 0x30
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x38
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* JENLLNOCMOB; // 0x40
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* ILFEOGGFMMB; // 0x48
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* IBHIPLIJCOD; // 0x50
-		::System::Boolean MKAGEBHPNFJ; // 0x58
-		::System::Byte _padding0[0x3];
-		::System::UInt32 EEBAODJJGCK; // 0x5C
-		::System::UInt32 INGJCMPECKG; // 0x60
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* ILFEOGGFMMB; // 0x40
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* OJLDHDLJBAO; // 0x48
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* JENLLNOCMOB; // 0x50
+		::System::UInt32 EEBAODJJGCK; // 0x58
+		::System::UInt32 INGJCMPECKG; // 0x5C
+		::System::Boolean MKAGEBHPNFJ; // 0x60
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_OJJOCMGKBJG()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B00);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_GBEIAGDAENI()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B08);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_AFAJFPBDDAH()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B10);
-		}
-
-		static ::Google::Protobuf::MessageParser_1<::BNAILMNNGIF*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::BNAILMNNGIF*>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B18);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FPBNDAIFPLH()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B20);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_NIMFKPNOEMP()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B28);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FLNFEEBHFDP()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B30);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531B0);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_OPGPJAPIEGH()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B38);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531B8);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_GBEIAGDAENI()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531C0);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FLNFEEBHFDP()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531C8);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_AFAJFPBDDAH()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531D0);
+		}
+
+		static ::Google::Protobuf::MessageParser_1<::BNAILMNNGIF*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::BNAILMNNGIF*>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531D8);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_NIMFKPNOEMP()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531E0);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_BPOOBGPBFOI()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x51B40);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531E8);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_FPBNDAIFPLH()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "BNAILMNNGIF")->GetStaticField(0x531F0);
 		}
 
 		// static const ::System::Object PMCPJLAGBMD; // 0x0

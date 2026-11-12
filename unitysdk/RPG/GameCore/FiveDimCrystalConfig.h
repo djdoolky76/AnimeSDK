@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B6E40)
-#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6B6E60)
-#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B6E00)
+#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C3A10)
+#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8C3A30)
+#define RPG_GAMECORE_FIVEDIMCRYSTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8C39D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCrystalConfig_TypeDefinitionIndex = 18600;
+	inline static constexpr unsigned int FiveDimCrystalConfig_TypeDefinitionIndex = 18760;
 
 	class FiveDimCrystalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

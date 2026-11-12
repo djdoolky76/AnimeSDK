@@ -11,20 +11,20 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define IFELGKPONAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15F108E0)
-#define IFELGKPONAK_FMPAOKGPMNG_OFFSET UNITYSDK_OFFSET(0x15F10BC0)
+#define IFELGKPONAK_CTOR_OFFSET UNITYSDK_OFFSET(0x16E7F7E0)
+#define IFELGKPONAK_FMPAOKGPMNG_OFFSET UNITYSDK_OFFSET(0x16E7FAB0)
 
-inline static constexpr unsigned int IFELGKPONAK_TypeDefinitionIndex = 70213;
+inline static constexpr unsigned int IFELGKPONAK_TypeDefinitionIndex = 72179;
 
 	class IFELGKPONAK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* JPBKHEDJFBD; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* BEOFJIBAJKA; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* NBAFHMOKMHJ; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::System::Object*>*>* JHLFLOGEECG; // 0x28
-		::System::Collections::Generic::List_1<::JPHKBAHBDGB*>* MBKGKIIBIML; // 0x30
-		::ABGNMNDCEND* EBILLBOENIN; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Mesh*, ::UnityEngine::Material*>, ::System::Collections::Generic::List_1<::System::Object*>*>* JHLFLOGEECG; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* NBAFHMOKMHJ; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* JPBKHEDJFBD; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::LiteInstancedItem::ItemPrototype*, ::RPG::Client::LiteInstancedItem::ItemPrototype*>* BEOFJIBAJKA; // 0x28
+		::ABGNMNDCEND* EBILLBOENIN; // 0x30
+		::System::Collections::Generic::List_1<::JPHKBAHBDGB*>* MBKGKIIBIML; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFELGKPONAK_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class ABFLEADGIIF;
 namespace System { class Object; }
 
-#define ABFLEADGIIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDCA1F0)
-#define ABFLEADGIIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDCA220)
-#define ABFLEADGIIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDCA230)
+#define ABFLEADGIIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFCCAE0)
+#define ABFLEADGIIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFCCB10)
+#define ABFLEADGIIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EFCCB20)
 
-inline static constexpr unsigned int ABFLEADGIIF___c_TypeDefinitionIndex = 30981;
+inline static constexpr unsigned int ABFLEADGIIF___c_TypeDefinitionIndex = 31894;
 
 	class ABFLEADGIIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38EC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x34090);
 		}
 
 		static ::System::Void _cctor()

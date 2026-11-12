@@ -5,16 +5,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/Client/TextID.h"
 class CFIHNPKOEMD;
-class GBDODOMIMIF;
 class LCJIAMCDDFL;
 class NOBCAKJMGPH;
+namespace RPG::AvatarSystem { class AvatarPath; }
 
-#define FPMGNALPHAG_BHODBHGCDAM_OFFSET UNITYSDK_OFFSET(0x1591F3F0)
-#define FPMGNALPHAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1591F3E0)
-#define FPMGNALPHAG_GHBAOILNBJP_OFFSET UNITYSDK_OFFSET(0x1591F4D0)
-#define FPMGNALPHAG_LEAFDECAGPG_OFFSET UNITYSDK_OFFSET(0x1591F460)
+#define FPMGNALPHAG_BHODBHGCDAM_OFFSET UNITYSDK_OFFSET(0x16852870)
+#define FPMGNALPHAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16852860)
+#define FPMGNALPHAG_GHBAOILNBJP_OFFSET UNITYSDK_OFFSET(0x16852950)
+#define FPMGNALPHAG_LEAFDECAGPG_OFFSET UNITYSDK_OFFSET(0x168528E0)
 
-inline static constexpr unsigned int FPMGNALPHAG_TypeDefinitionIndex = 62687;
+inline static constexpr unsigned int FPMGNALPHAG_TypeDefinitionIndex = 64121;
 
 	class FPMGNALPHAG : public ::System::Object
 	{
@@ -31,9 +31,9 @@ inline static constexpr unsigned int FPMGNALPHAG_TypeDefinitionIndex = 62687;
 			return ((::LCJIAMCDDFL*(*)(::PVOID, ::RPG::GameCore::AttackDamageType))((::PBYTE)hIl2Cpp + FPMGNALPHAG_BHODBHGCDAM_OFFSET))(this, a1);
 		}
 
-		::GBDODOMIMIF* LEAFDECAGPG(::RPG::GameCore::AvatarBaseType a1)
+		::RPG::AvatarSystem::AvatarPath* LEAFDECAGPG(::RPG::GameCore::AvatarBaseType a1)
 		{
-			return ((::GBDODOMIMIF*(*)(::PVOID, ::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + FPMGNALPHAG_LEAFDECAGPG_OFFSET))(this, a1);
+			return ((::RPG::AvatarSystem::AvatarPath*(*)(::PVOID, ::RPG::GameCore::AvatarBaseType))((::PBYTE)hIl2Cpp + FPMGNALPHAG_LEAFDECAGPG_OFFSET))(this, a1);
 		}
 
 		::RPG::Client::TextID GHBAOILNBJP(::System::UInt32 a1)

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetEffectProgress; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETEFFECTPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAF410)
-#define RPG_GAMECORE_SETEFFECTPROGRESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAAF420)
-#define RPG_GAMECORE_SETEFFECTPROGRESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAAF3E0)
+#define RPG_GAMECORE_SETEFFECTPROGRESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC1750)
+#define RPG_GAMECORE_SETEFFECTPROGRESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC1760)
+#define RPG_GAMECORE_SETEFFECTPROGRESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC1720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEffectProgress_TypeDefinitionIndex = 23749;
+	inline static constexpr unsigned int SetEffectProgress_TypeDefinitionIndex = 24205;
 
 	class SetEffectProgress : public ::RPG::GameCore::TaskConfig
 	{

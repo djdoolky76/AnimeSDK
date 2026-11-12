@@ -8,12 +8,12 @@ namespace RPG::GameCore { class FiveDimMapFaceConfig; }
 namespace RPG::GameCore { class FiveDimMapSurfaceConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C7910)
-#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C75B0)
+#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D4630)
+#define RPG_GAMECORE_FIVEDIMMAPFACECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8D4320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMapFaceConfig_TypeDefinitionIndex = 18523;
+	inline static constexpr unsigned int FiveDimMapFaceConfig_TypeDefinitionIndex = 18683;
 
 	class FiveDimMapFaceConfig : public ::RPG::GameCore::JsonConfig
 	{

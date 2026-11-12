@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournHexAvatarBaseTypeRow; }
 
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3CFD0)
-#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA3C970)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4F210)
+#define RPG_GAMECORE_ROGUETOURNHEXAVATARBASETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC4EBB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeRow_TypeDefinitionIndex = 15029;
+	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeRow_TypeDefinitionIndex = 15185;
 
 	class RogueTournHexAvatarBaseTypeRow : public ::System::Object
 	{

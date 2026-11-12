@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A6870)
+#define RPGTOOLS_OCTREE_GENERATION_OCTREEMANAGER_AREADATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF377EB0)
 
 namespace RPGTools::Octree::Generation
 {
-	inline static constexpr unsigned int OctreeManager_AreaData_TypeDefinitionIndex = 48890;
+	inline static constexpr unsigned int OctreeManager_AreaData_TypeDefinitionIndex = 49947;
 
 	class OctreeManager_AreaData : public ::System::Object
 	{

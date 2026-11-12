@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D63D9D0)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D63D050)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D63CEE0)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D63CBD0)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D63CE80)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D63D1E0)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D63CC50)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D63D220)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D63D3F0)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D63D660)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D63D350)
-#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D63D2B0)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E87B330)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E87A9B0)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E87A840)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E87A530)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E87A7E0)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E87AB40)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E87A5B0)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E87AB80)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E87AD50)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E87AFC0)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E87ACB0)
+#define RPG_GAMECORE_EMOJIGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E87AC10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EmojiGroupExcelTable_TypeDefinitionIndex = 13223;
+	inline static constexpr unsigned int EmojiGroupExcelTable_TypeDefinitionIndex = 13297;
 
 	class EmojiGroupExcelTable : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x23B70);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x23B78);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x1C7A0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EmojiGroupRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EmojiGroupRow*>**)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x23B80);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::EmojiGroupRow*>**)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x1C7A8);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x1C7B0);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x7E80);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x5D10);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x7E81);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "EmojiGroupExcelTable")->GetStaticField(0x5D11);
 		}
 
 		static ::System::Void _cctor()

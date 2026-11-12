@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_UNITYENGINEMODULEASSEMBLY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D3C0)
+#define UNITYENGINE_UNITYENGINEMODULEASSEMBLY_CTOR_OFFSET UNITYSDK_OFFSET(0x2074D220)
 
 namespace UnityEngine
 {

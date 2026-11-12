@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_GUITARGETATTRIBUTE_GETGUITARGETATTRVALUE_OFFSET UNITYSDK_OFFSET(0x1F462360)
+#define UNITYENGINE_GUITARGETATTRIBUTE_GETGUITARGETATTRVALUE_OFFSET UNITYSDK_OFFSET(0x20712CE0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUITargetAttribute_TypeDefinitionIndex = 5186;
+	inline static constexpr unsigned int GUITargetAttribute_TypeDefinitionIndex = 5191;
 
 	class GUITargetAttribute : public ::System::Attribute
 	{

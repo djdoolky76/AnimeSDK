@@ -9,19 +9,19 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace SRDebugger::Internal
 {
-	inline static constexpr unsigned int SRDebuggerUtil___O_TypeDefinitionIndex = 38109;
+	inline static constexpr unsigned int SRDebuggerUtil___O_TypeDefinitionIndex = 39038;
 
 	class SRDebuggerUtil___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_3<::System::Object*, ::System::Reflection::MethodInfo*, ::SRDebugger::OptionDefinition*>** StaticGet__1___GetMethodOptionDefinition()
 		{
-			return (::System::Func_3<::System::Object*, ::System::Reflection::MethodInfo*, ::SRDebugger::OptionDefinition*>**)UnitySDK::FromName("SRDebugger.Internal", "<>O")->GetStaticField(0x39870);
+			return (::System::Func_3<::System::Object*, ::System::Reflection::MethodInfo*, ::SRDebugger::OptionDefinition*>**)UnitySDK::FromName("SRDebugger.Internal", "<>O")->GetStaticField(0x316C0);
 		}
 
 		static ::System::Func_3<::System::Object*, ::System::Reflection::PropertyInfo*, ::SRDebugger::OptionDefinition*>** StaticGet__0___GetPropertyOptionDefinition()
 		{
-			return (::System::Func_3<::System::Object*, ::System::Reflection::PropertyInfo*, ::SRDebugger::OptionDefinition*>**)UnitySDK::FromName("SRDebugger.Internal", "<>O")->GetStaticField(0x39878);
+			return (::System::Func_3<::System::Object*, ::System::Reflection::PropertyInfo*, ::SRDebugger::OptionDefinition*>**)UnitySDK::FromName("SRDebugger.Internal", "<>O")->GetStaticField(0x316C8);
 		}
 
 	};

@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToLookup_TypeDefinitionIndex = 45686;
+	inline static constexpr unsigned int ToLookup_TypeDefinitionIndex = 46715;
 
 	class ToLookup : public ::System::Object
 	{

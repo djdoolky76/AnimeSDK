@@ -10,11 +10,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PIPELINECAMERAMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2D1F0)
+#define RPG_CLIENT_PIPELINECAMERAMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE584420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PipelineCameraModuleConfig_TypeDefinitionIndex = 69730;
+	inline static constexpr unsigned int PipelineCameraModuleConfig_TypeDefinitionIndex = 71687;
 
 	class PipelineCameraModuleConfig : public ::UnityEngine::ScriptableObject
 	{

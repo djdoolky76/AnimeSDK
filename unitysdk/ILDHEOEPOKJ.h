@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DefineDynamicString; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILDHEOEPOKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164A9D00)
-#define ILDHEOEPOKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164A9D30)
+#define ILDHEOEPOKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1747DDB0)
+#define ILDHEOEPOKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1747DDE0)
 
-inline static constexpr unsigned int ILDHEOEPOKJ_TypeDefinitionIndex = 54998;
+inline static constexpr unsigned int ILDHEOEPOKJ_TypeDefinitionIndex = 56172;
 
 	class ILDHEOEPOKJ
 	{

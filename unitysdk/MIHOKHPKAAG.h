@@ -8,18 +8,18 @@ namespace System { class Type; }
 namespace System::Collections { class IList; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOKHPKAAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC37ED0)
-#define MIHOKHPKAAG_FAJKOHBAPGN_OFFSET UNITYSDK_OFFSET(0x1EC37AD0)
-#define MIHOKHPKAAG_JOKOIOKLNHD_1_OFFSET UNITYSDK_OFFSET(0x1EC37DD0)
+#define MIHOKHPKAAG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEE8960)
+#define MIHOKHPKAAG_FAJKOHBAPGN_OFFSET UNITYSDK_OFFSET(0x1FEE8560)
+#define MIHOKHPKAAG_JOKOIOKLNHD_1_OFFSET UNITYSDK_OFFSET(0x1FEE8860)
 
-inline static constexpr unsigned int MIHOKHPKAAG_TypeDefinitionIndex = 35247;
+inline static constexpr unsigned int MIHOKHPKAAG_TypeDefinitionIndex = 36175;
 
 	class MIHOKHPKAAG : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>** StaticGet_HILOJJAEGGF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "MIHOKHPKAAG")->GetStaticField(0x50070);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>**)UnitySDK::FromName("", "MIHOKHPKAAG")->GetStaticField(0x55F50);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeferDeleteStatus_TypeDefinitionIndex = 57813;
+	inline static constexpr unsigned int DeferDeleteStatus_TypeDefinitionIndex = 59048;
 
 	enum class DeferDeleteStatus : ::System::Byte
 	{

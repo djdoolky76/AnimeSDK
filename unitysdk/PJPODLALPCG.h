@@ -6,34 +6,34 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PJPODLALPCG_CCTOR_OFFSET UNITYSDK_OFFSET(0xC2A0E30)
-#define PJPODLALPCG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A0D40)
-#define PJPODLALPCG_DFILIDFJGGB_OFFSET UNITYSDK_OFFSET(0xC2A0C80)
-#define PJPODLALPCG_EADMJJNGDKG_OFFSET UNITYSDK_OFFSET(0xC2A0B90)
-#define PJPODLALPCG_GMLKMFDNNFP_OFFSET UNITYSDK_OFFSET(0xC2A0490)
-#define PJPODLALPCG_JDAGFHEPMHF_OFFSET UNITYSDK_OFFSET(0xC2A03A0)
+#define PJPODLALPCG_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBCBB20)
+#define PJPODLALPCG_CTOR_OFFSET UNITYSDK_OFFSET(0xCBCBA30)
+#define PJPODLALPCG_DFILIDFJGGB_OFFSET UNITYSDK_OFFSET(0xCBCB970)
+#define PJPODLALPCG_EADMJJNGDKG_OFFSET UNITYSDK_OFFSET(0xCBCB880)
+#define PJPODLALPCG_GMLKMFDNNFP_OFFSET UNITYSDK_OFFSET(0xCBCB180)
+#define PJPODLALPCG_JDAGFHEPMHF_OFFSET UNITYSDK_OFFSET(0xCBCB090)
 
-inline static constexpr unsigned int PJPODLALPCG_TypeDefinitionIndex = 60311;
+inline static constexpr unsigned int PJPODLALPCG_TypeDefinitionIndex = 61595;
 
 	class PJPODLALPCG : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* PGPEMCHEHKD; // 0x10
-		::Il2CppArray<::System::String*>* JGDHIBFCACK; // 0x18
-		::RPG::Client::TriggerEffectParamsRef PDPHINAPMKK; // 0x20
+		::RPG::Client::TriggerEffectParamsRef PDPHINAPMKK; // 0x10
+		::Il2CppArray<::System::String*>* JGDHIBFCACK; // 0x20
+		::Il2CppArray<::System::String*>* PGPEMCHEHKD; // 0x28
 		static ::System::String** StaticGet_PFIJGEHPIAJ()
 		{
-			return (::System::String**)UnitySDK::FromName("", "PJPODLALPCG")->GetStaticField(0x6FB50);
-		}
-
-		static ::System::String** StaticGet_FIFCEJBOKPJ()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PJPODLALPCG")->GetStaticField(0x6FB58);
+			return (::System::String**)UnitySDK::FromName("", "PJPODLALPCG")->GetStaticField(0x729E0);
 		}
 
 		static ::System::String** StaticGet_KCLDOCJPEPO()
 		{
-			return (::System::String**)UnitySDK::FromName("", "PJPODLALPCG")->GetStaticField(0x6FB60);
+			return (::System::String**)UnitySDK::FromName("", "PJPODLALPCG")->GetStaticField(0x729E8);
+		}
+
+		static ::System::String** StaticGet_FIFCEJBOKPJ()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PJPODLALPCG")->GetStaticField(0x729F0);
 		}
 
 		::System::Void _ctor()

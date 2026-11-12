@@ -5,12 +5,12 @@ namespace HoudiniEngineUnity { class HEU_Curve; }
 namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__DISPLAYCLASS404_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9295A0)
-#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__DISPLAYCLASS404_0__COPYPROPERTIESTO_B__0_OFFSET UNITYSDK_OFFSET(0x1B92B5A0)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__DISPLAYCLASS404_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB2510)
+#define HOUDINIENGINEUNITY_HEU_HOUDINIASSET___C__DISPLAYCLASS404_0__COPYPROPERTIESTO_B__0_OFFSET UNITYSDK_OFFSET(0x1CAB4510)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniAsset___c__DisplayClass404_0_TypeDefinitionIndex = 40400;
+	inline static constexpr unsigned int HEU_HoudiniAsset___c__DisplayClass404_0_TypeDefinitionIndex = 41375;
 
 	class HEU_HoudiniAsset___c__DisplayClass404_0 : public ::System::Object
 	{

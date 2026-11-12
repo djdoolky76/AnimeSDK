@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define INAIJCCJHOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C421520)
+#define INAIJCCJHOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A7D10)
 
-inline static constexpr unsigned int INAIJCCJHOP_TypeDefinitionIndex = 5076;
+inline static constexpr unsigned int INAIJCCJHOP_TypeDefinitionIndex = 5081;
 
 	class INAIJCCJHOP : public ::System::Attribute
 	{

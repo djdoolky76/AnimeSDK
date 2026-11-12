@@ -7,11 +7,11 @@ namespace System::Reflection { class PropertyInfo; }
 namespace XLua { class ObjectTranslator; }
 namespace XLua { class OverloadMethodWrap; }
 
-#define XLUA_METHODWRAPCACHEEX_CREATE_OFFSET UNITYSDK_OFFSET(0x14DC5690)
+#define XLUA_METHODWRAPCACHEEX_CREATE_OFFSET UNITYSDK_OFFSET(0x15C85CD0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrapCacheEx_TypeDefinitionIndex = 50229;
+	inline static constexpr unsigned int MethodWrapCacheEx_TypeDefinitionIndex = 51280;
 
 	class MethodWrapCacheEx : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IMCPKODGAEO_ClippingPlane_TypeDefinitionIndex = 49003;
+inline static constexpr unsigned int IMCPKODGAEO_ClippingPlane_TypeDefinitionIndex = 50072;
 
 	enum class IMCPKODGAEO_ClippingPlane : ::System::Int32
 	{

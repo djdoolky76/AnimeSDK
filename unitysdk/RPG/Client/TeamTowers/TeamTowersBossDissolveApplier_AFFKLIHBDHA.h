@@ -5,7 +5,7 @@ class FiveDimRenderingItem;
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersBossDissolveApplier_AFFKLIHBDHA_TypeDefinitionIndex = 79131;
+	inline static constexpr unsigned int TeamTowersBossDissolveApplier_AFFKLIHBDHA_TypeDefinitionIndex = 81907;
 
 	struct alignas(8) TeamTowersBossDissolveApplier_AFFKLIHBDHA
 	{

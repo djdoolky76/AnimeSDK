@@ -4,18 +4,18 @@
 class HIPEONEPCFF;
 namespace System { class Object; }
 
-#define HIPEONEPCFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5A0530)
-#define HIPEONEPCFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A0570)
-#define HIPEONEPCFF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5A0580)
+#define HIPEONEPCFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F89B7B0)
+#define HIPEONEPCFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F89B7F0)
+#define HIPEONEPCFF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F89B800)
 
-inline static constexpr unsigned int HIPEONEPCFF___c_TypeDefinitionIndex = 32081;
+inline static constexpr unsigned int HIPEONEPCFF___c_TypeDefinitionIndex = 32994;
 
 	class HIPEONEPCFF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EE90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33380);
 		}
 
 		static ::System::Void _cctor()

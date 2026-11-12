@@ -4,20 +4,20 @@
 namespace Proto { class UnlockTutorialGuideScRsp; }
 namespace System { class Object; }
 
-#define PROTO_UNLOCKTUTORIALGUIDESCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E01A8C0)
-#define PROTO_UNLOCKTUTORIALGUIDESCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E01A8F0)
-#define PROTO_UNLOCKTUTORIALGUIDESCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E01A900)
+#define PROTO_UNLOCKTUTORIALGUIDESCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2EAF20)
+#define PROTO_UNLOCKTUTORIALGUIDESCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2EAF50)
+#define PROTO_UNLOCKTUTORIALGUIDESCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2EAF60)
 
 namespace Proto
 {
-	inline static constexpr unsigned int UnlockTutorialGuideScRsp___c_TypeDefinitionIndex = 35055;
+	inline static constexpr unsigned int UnlockTutorialGuideScRsp___c_TypeDefinitionIndex = 35983;
 
 	class UnlockTutorialGuideScRsp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x473A0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x53260);
 		}
 
 		static ::System::Void _cctor()

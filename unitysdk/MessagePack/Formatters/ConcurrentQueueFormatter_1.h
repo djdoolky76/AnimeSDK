@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ConcurrentQueueFormatter_1_TypeDefinitionIndex = 7412;
+	inline static constexpr unsigned int ConcurrentQueueFormatter_1_TypeDefinitionIndex = 7423;
 
 	template <typename T>
 	class ConcurrentQueueFormatter_1

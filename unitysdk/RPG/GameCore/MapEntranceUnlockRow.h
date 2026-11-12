@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapEntranceUnlockRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D829B80)
-#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D829A80)
+#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA445E0)
+#define RPG_GAMECORE_MAPENTRANCEUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA444E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapEntranceUnlockRow_TypeDefinitionIndex = 14066;
+	inline static constexpr unsigned int MapEntranceUnlockRow_TypeDefinitionIndex = 14223;
 
 	class MapEntranceUnlockRow : public ::System::Object
 	{

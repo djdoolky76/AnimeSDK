@@ -5,10 +5,10 @@
 namespace RPG::Client::Pet { class IPetInstance; }
 namespace RPG::Client::Pet { class IPetLineup; }
 
-#define DONPAICOHMP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x11FF3D40)
-#define DONPAICOHMP_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x11FF3DF0)
+#define DONPAICOHMP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x12DEDB50)
+#define DONPAICOHMP_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0x12DEDC00)
 
-inline static constexpr unsigned int DONPAICOHMP_TypeDefinitionIndex = 75656;
+inline static constexpr unsigned int DONPAICOHMP_TypeDefinitionIndex = 77983;
 
 	class DONPAICOHMP : public ::System::Object
 	{

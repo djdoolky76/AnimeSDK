@@ -7,25 +7,25 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7D5140)
-#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7D5180)
-#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C___UPDATE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC7D5190)
+#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD135D30)
+#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD135D70)
+#define RPG_CLIENT_BAT_BATCONTROLLER_GRID___C___UPDATE_B__3_0_OFFSET UNITYSDK_OFFSET(0xD135D80)
 
 namespace RPG::Client::BAT
 {
-	inline static constexpr unsigned int BATController_Grid___c_TypeDefinitionIndex = 73669;
+	inline static constexpr unsigned int BATController_Grid___c_TypeDefinitionIndex = 75792;
 
 	class BATController_Grid___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.BAT", "<>c")->GetStaticField(0x56470);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Matrix4x4>*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Matrix4x4>*>**)UnitySDK::FromName("RPG.Client.BAT", "<>c")->GetStaticField(0x56478);
+			return (::System::Func_2<::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Matrix4x4>*>**)UnitySDK::FromName("RPG.Client.BAT", "<>c")->GetStaticField(0x58610);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.BAT", "<>c")->GetStaticField(0x58618);
 		}
 
 		static ::System::Void _cctor()

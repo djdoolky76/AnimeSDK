@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActiveFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFOMOLKGCKL_CTOR_OFFSET UNITYSDK_OFFSET(0xB174C50)
-#define BFOMOLKGCKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB174C80)
+#define BFOMOLKGCKL_CTOR_OFFSET UNITYSDK_OFFSET(0xBAFC780)
+#define BFOMOLKGCKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAFC7B0)
 
-inline static constexpr unsigned int BFOMOLKGCKL_TypeDefinitionIndex = 55869;
+inline static constexpr unsigned int BFOMOLKGCKL_TypeDefinitionIndex = 57072;
 
 	class BFOMOLKGCKL
 	{

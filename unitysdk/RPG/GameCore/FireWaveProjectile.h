@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FireWaveProjectile; }
 namespace RPG::GameCore { class ProjectileData; }
 
-#define RPG_GAMECORE_FIREWAVEPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6AC9B0)
-#define RPG_GAMECORE_FIREWAVEPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6AC9C0)
-#define RPG_GAMECORE_FIREWAVEPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6AC970)
+#define RPG_GAMECORE_FIREWAVEPROJECTILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B91E0)
+#define RPG_GAMECORE_FIREWAVEPROJECTILE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8B9240)
+#define RPG_GAMECORE_FIREWAVEPROJECTILE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8B9160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FireWaveProjectile_TypeDefinitionIndex = 22583;
+	inline static constexpr unsigned int FireWaveProjectile_TypeDefinitionIndex = 22998;
 
 	class FireWaveProjectile : public ::RPG::GameCore::FireWaveProjectileBase
 	{

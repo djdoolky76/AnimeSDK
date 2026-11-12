@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GBOOKLKIMND_IHCBGIEAIKG_OFFSET UNITYSDK_OFFSET(0x15959330)
+#define GBOOKLKIMND_IHCBGIEAIKG_OFFSET UNITYSDK_OFFSET(0x1688F3B0)
 
-inline static constexpr unsigned int GBOOKLKIMND_TypeDefinitionIndex = 65788;
+inline static constexpr unsigned int GBOOKLKIMND_TypeDefinitionIndex = 67720;
 
 	class GBOOKLKIMND : public ::System::Object
 	{

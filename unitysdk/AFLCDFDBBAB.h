@@ -4,17 +4,17 @@
 namespace RPG::Client::Promises { class Promise; }
 namespace RPG::GameCore { class ChimeraTriggerTutorial; }
 
-#define AFLCDFDBBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF12A30)
-#define AFLCDFDBBAB_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xCF12AE0)
-#define AFLCDFDBBAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xCF12A70)
+#define AFLCDFDBBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xD5C4B70)
+#define AFLCDFDBBAB_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xD5C4C20)
+#define AFLCDFDBBAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xD5C4BB0)
 
-inline static constexpr unsigned int AFLCDFDBBAB_TypeDefinitionIndex = 78420;
+inline static constexpr unsigned int AFLCDFDBBAB_TypeDefinitionIndex = 81155;
 
 	class AFLCDFDBBAB : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChimeraTriggerTutorial* IGHAHBNLIJA; // 0x10
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+		::RPG::GameCore::ChimeraTriggerTutorial* IGHAHBNLIJA; // 0x18
 		::System::Void _ctor(::RPG::GameCore::ChimeraTriggerTutorial* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraTriggerTutorial*))((::PBYTE)hIl2Cpp + AFLCDFDBBAB_CTOR_OFFSET))(this, a1);

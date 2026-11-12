@@ -6,31 +6,31 @@ namespace RPG::GameCore { class GameWorld; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HJFPCBCMKJP_AHNEBBAONDG_OFFSET UNITYSDK_OFFSET(0x15D20F30)
-#define HJFPCBCMKJP_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D21660)
-#define HJFPCBCMKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D20640)
-#define HJFPCBCMKJP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D20CA0)
-#define HJFPCBCMKJP_DOKGOKCOOCJ_OFFSET UNITYSDK_OFFSET(0x15D21540)
-#define HJFPCBCMKJP_FPNKGECHCEN_OFFSET UNITYSDK_OFFSET(0x15D207C0)
-#define HJFPCBCMKJP_JMEMLOMFOFE_OFFSET UNITYSDK_OFFSET(0x15D20EE0)
-#define HJFPCBCMKJP_MNDMOLBCKBI_OFFSET UNITYSDK_OFFSET(0x15D215F0)
-#define HJFPCBCMKJP_TICK_OFFSET UNITYSDK_OFFSET(0x15D20760)
+#define HJFPCBCMKJP_AHNEBBAONDG_OFFSET UNITYSDK_OFFSET(0x16C70F80)
+#define HJFPCBCMKJP_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C71680)
+#define HJFPCBCMKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x16C70690)
+#define HJFPCBCMKJP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16C70CF0)
+#define HJFPCBCMKJP_DOKGOKCOOCJ_OFFSET UNITYSDK_OFFSET(0x16C71560)
+#define HJFPCBCMKJP_FPNKGECHCEN_OFFSET UNITYSDK_OFFSET(0x16C70810)
+#define HJFPCBCMKJP_JMEMLOMFOFE_OFFSET UNITYSDK_OFFSET(0x16C70F30)
+#define HJFPCBCMKJP_MNDMOLBCKBI_OFFSET UNITYSDK_OFFSET(0x16C71610)
+#define HJFPCBCMKJP_TICK_OFFSET UNITYSDK_OFFSET(0x16C707B0)
 
-inline static constexpr unsigned int HJFPCBCMKJP_TypeDefinitionIndex = 68284;
+inline static constexpr unsigned int HJFPCBCMKJP_TypeDefinitionIndex = 70230;
 
 	class HJFPCBCMKJP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* EKJCECJEIFP; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* DPPOMJHENPM; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::GameCore::GameEntity*>* OGGKEINNCFD; // 0x18
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* DPPOMJHENPM; // 0x20
-		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* EHEHGMDHNGP; // 0x30
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* PODMJJANGML; // 0x38
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* PODMJJANGML; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* EHEHGMDHNGP; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* EKJCECJEIFP; // 0x30
+		::RPG::GameCore::GameWorld* IMMBMILPPFB; // 0x38
 		::System::Boolean FFDNCNPILJP; // 0x40
 		static ::System::Single* StaticGet_PFMGGKEBLCC()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "HJFPCBCMKJP")->GetStaticField(0x7570);
+			return (::System::Single*)UnitySDK::FromName("", "HJFPCBCMKJP")->GetStaticField(0x3820);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::GameWorld* a1)

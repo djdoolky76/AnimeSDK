@@ -7,31 +7,31 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCA57F0)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA5830)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__168_0_OFFSET UNITYSDK_OFFSET(0x1BCA5A00)
-#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1BCA5840)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE2ED60)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2EDA0)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__CONSOLE_SWITCH_CONTROL_B__168_0_OFFSET UNITYSDK_OFFSET(0x1CE2EEF0)
+#define MIHOYO_SDK_CONSOLE_MIHOYOSDKDLL___C__INIT_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CE2EDB0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 8951;
+	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 8960;
 
 	class MiHoYoSDKDll___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::System::Int32, ::System::String*>** StaticGet___9__168_0()
-		{
-			return (::System::Converter_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x36490);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x36498);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x59580);
+		}
+
+		static ::System::Converter_2<::System::Int32, ::System::String*>** StaticGet___9__168_0()
+		{
+			return (::System::Converter_2<::System::Int32, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x59588);
 		}
 
 		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__18_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x364A0);
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x59590);
 		}
 
 		static ::System::Void _cctor()

@@ -11,33 +11,33 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5208A0)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1C51E900)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1C520810)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_INDEXOFFIELDRELATIVE_OFFSET UNITYSDK_OFFSET(0x1C521720)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_REGISTER_OFFSET UNITYSDK_OFFSET(0x1C521570)
-#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_SETFIELD_OFFSET UNITYSDK_OFFSET(0x1C51ED80)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6A26C0)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETFIELD_OFFSET UNITYSDK_OFFSET(0x1D6A0A20)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_GETTYPE_OFFSET UNITYSDK_OFFSET(0x1D6A2630)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_INDEXOFFIELDRELATIVE_OFFSET UNITYSDK_OFFSET(0x1D6A3540)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_REGISTER_OFFSET UNITYSDK_OFFSET(0x1D6A3390)
+#define BANSHEEGZ_BGSPLINE_CURVE_BGCURVEPOINT_FIELDTYPES_SETFIELD_OFFSET UNITYSDK_OFFSET(0x1D6A0EA0)
 
 namespace BansheeGz::BGSpline::Curve
 {
-	inline static constexpr unsigned int BGCurvePoint_FieldTypes_TypeDefinitionIndex = 36017;
+	inline static constexpr unsigned int BGCurvePoint_FieldTypes_TypeDefinitionIndex = 36945;
 
 	class BGCurvePoint_FieldTypes : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Type*>** StaticGet_type2Type()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Type*>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "FieldTypes")->GetStaticField(0x54930);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::System::Object*, ::System::Int32, ::System::Object*>*>** StaticGet_type2fieldSetter()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::System::Object*, ::System::Int32, ::System::Object*>*>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "FieldTypes")->GetStaticField(0x54938);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Type*>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "FieldTypes")->GetStaticField(0x66420);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::System::Object*, ::System::Int32, ::System::Object*>*>** StaticGet_type2fieldGetter()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::System::Object*, ::System::Int32, ::System::Object*>*>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "FieldTypes")->GetStaticField(0x54940);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Func_3<::System::Object*, ::System::Int32, ::System::Object*>*>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "FieldTypes")->GetStaticField(0x66428);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::System::Object*, ::System::Int32, ::System::Object*>*>** StaticGet_type2fieldSetter()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Action_3<::System::Object*, ::System::Int32, ::System::Object*>*>**)UnitySDK::FromName("BansheeGz.BGSpline.Curve", "FieldTypes")->GetStaticField(0x66430);
 		}
 
 		static ::System::Void _cctor()

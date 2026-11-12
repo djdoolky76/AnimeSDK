@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TimeRewindSetSpecularMat; }
 
-#define JAJFNLAPNGE_CTOR_OFFSET UNITYSDK_OFFSET(0x16553FF0)
-#define JAJFNLAPNGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16554020)
+#define JAJFNLAPNGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB88C340)
+#define JAJFNLAPNGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB88C370)
 
-inline static constexpr unsigned int JAJFNLAPNGE_TypeDefinitionIndex = 53405;
+inline static constexpr unsigned int JAJFNLAPNGE_TypeDefinitionIndex = 54567;
 
 	class JAJFNLAPNGE
 	{

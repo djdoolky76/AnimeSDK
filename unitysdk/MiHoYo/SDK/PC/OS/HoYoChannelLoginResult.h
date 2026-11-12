@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::PC::OS { class SteamLoginExtension; }
 namespace MiHoYo::SDK::PC::OS { class XboxLoginExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF30D60)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF30D20)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF30D10)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B7900)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1D0B78C0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLOGINRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0B78B0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelLoginResult_TypeDefinitionIndex = 8595;
+	inline static constexpr unsigned int HoYoChannelLoginResult_TypeDefinitionIndex = 8604;
 
 	class HoYoChannelLoginResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

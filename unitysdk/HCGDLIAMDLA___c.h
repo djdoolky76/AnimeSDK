@@ -4,18 +4,18 @@
 class HCGDLIAMDLA;
 namespace System { class Object; }
 
-#define HCGDLIAMDLA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E53D340)
-#define HCGDLIAMDLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53D380)
-#define HCGDLIAMDLA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E53D390)
+#define HCGDLIAMDLA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F834540)
+#define HCGDLIAMDLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F834580)
+#define HCGDLIAMDLA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F834590)
 
-inline static constexpr unsigned int HCGDLIAMDLA___c_TypeDefinitionIndex = 31866;
+inline static constexpr unsigned int HCGDLIAMDLA___c_TypeDefinitionIndex = 32779;
 
 	class HCGDLIAMDLA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FEC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25580);
 		}
 
 		static ::System::Void _cctor()

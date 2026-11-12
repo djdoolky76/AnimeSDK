@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int SerializableDictionary_2_TypeDefinitionIndex = 51877;
+	inline static constexpr unsigned int SerializableDictionary_2_TypeDefinitionIndex = 52963;
 
 	template <typename T1, typename T2>
 	class SerializableDictionary_2

@@ -5,10 +5,10 @@ class LKGIMGKIFFI;
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 
-#define LKGIMGKIFFI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB747850)
-#define LKGIMGKIFFI___C__DISPLAYCLASS6_0___PRESETSTACKORTHOGRAPHICSIZEFORSTARTCURVE_B__0_OFFSET UNITYSDK_OFFSET(0xB747860)
+#define LKGIMGKIFFI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFD47C0)
+#define LKGIMGKIFFI___C__DISPLAYCLASS6_0___PRESETSTACKORTHOGRAPHICSIZEFORSTARTCURVE_B__0_OFFSET UNITYSDK_OFFSET(0xBFE4D70)
 
-inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass6_0_TypeDefinitionIndex = 76766;
+inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass6_0_TypeDefinitionIndex = 79099;
 
 	class LKGIMGKIFFI___c__DisplayClass6_0 : public ::System::Object
 	{

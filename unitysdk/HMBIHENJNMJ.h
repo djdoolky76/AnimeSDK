@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FourRotateVoxelEntityStateConfig; }
 
-#define HMBIHENJNMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECF10)
+#define HMBIHENJNMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB18E0)
 
-inline static constexpr unsigned int HMBIHENJNMJ_TypeDefinitionIndex = 43230;
+inline static constexpr unsigned int HMBIHENJNMJ_TypeDefinitionIndex = 44211;
 
 	class HMBIHENJNMJ : public ::System::Object
 	{

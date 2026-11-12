@@ -4,18 +4,18 @@
 class NOFJDPGJCNI;
 namespace System { class String; }
 
-#define NOFJDPGJCNI_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCEB8E0)
-#define NOFJDPGJCNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEB880)
-#define NOFJDPGJCNI_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xBCEB890)
+#define NOFJDPGJCNI_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5D7AF0)
+#define NOFJDPGJCNI_CTOR_OFFSET UNITYSDK_OFFSET(0xC5D7A90)
+#define NOFJDPGJCNI_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xC5D7AA0)
 
-inline static constexpr unsigned int NOFJDPGJCNI_TypeDefinitionIndex = 67278;
+inline static constexpr unsigned int NOFJDPGJCNI_TypeDefinitionIndex = 69222;
 
 	class NOFJDPGJCNI : public ::GOGCDNMNIKF
 	{
 	public:
 		static ::NOFJDPGJCNI** StaticGet_FMJPMFEDIJL()
 		{
-			return (::NOFJDPGJCNI**)UnitySDK::FromName("", "NOFJDPGJCNI")->GetStaticField(0x57AB0);
+			return (::NOFJDPGJCNI**)UnitySDK::FromName("", "NOFJDPGJCNI")->GetStaticField(0x58D60);
 		}
 
 		::System::Void _ctor()

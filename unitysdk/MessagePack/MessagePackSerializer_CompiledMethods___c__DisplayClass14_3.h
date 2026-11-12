@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 namespace System::Reflection { class MethodInfo; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC91B0)
-#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x1BBC9A10)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD52080)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZER_COMPILEDMETHODS___C__DISPLAYCLASS14_3___CTOR_B__3_OFFSET UNITYSDK_OFFSET(0x1CD528E0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_3_TypeDefinitionIndex = 7223;
+	inline static constexpr unsigned int MessagePackSerializer_CompiledMethods___c__DisplayClass14_3_TypeDefinitionIndex = 7234;
 
 	template <typename T1, typename T2, typename T3>
 	class MessagePackSerializer_CompiledMethods___c__DisplayClass14_3 : public ::System::Object

@@ -20,12 +20,12 @@ namespace RPG::GameCore { class ShowHintNotifyConfig; }
 namespace RPG::GameCore { class SoundNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NOTENOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DA740)
-#define RPG_GAMECORE_NOTENOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DA370)
+#define RPG_GAMECORE_NOTENOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF33E0)
+#define RPG_GAMECORE_NOTENOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAF3010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NoteNotifyConfig_TypeDefinitionIndex = 16955;
+	inline static constexpr unsigned int NoteNotifyConfig_TypeDefinitionIndex = 17122;
 
 	class NoteNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

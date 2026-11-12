@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAdvEffectBGCurve; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JJEMFIDCMIH_CTOR_OFFSET UNITYSDK_OFFSET(0xB203A70)
-#define JJEMFIDCMIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB203AA0)
+#define JJEMFIDCMIH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA25D50)
+#define JJEMFIDCMIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA25D80)
 
-inline static constexpr unsigned int JJEMFIDCMIH_TypeDefinitionIndex = 55341;
+inline static constexpr unsigned int JJEMFIDCMIH_TypeDefinitionIndex = 56524;
 
 	class JJEMFIDCMIH
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FateRinBattleHudAreaType.h"
 
-#define HGIMEDCAIHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC0)
+#define HGIMEDCAIHC_CTOR_OFFSET UNITYSDK_OFFSET(0x23280)
 
-inline static constexpr unsigned int HGIMEDCAIHC_TypeDefinitionIndex = 80576;
+inline static constexpr unsigned int HGIMEDCAIHC_TypeDefinitionIndex = 83356;
 
 	struct alignas(4) HGIMEDCAIHC
 	{

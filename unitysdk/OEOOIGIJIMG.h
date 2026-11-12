@@ -5,11 +5,11 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::UINavigation { class UINavigationButton; }
 namespace System { template <typename T> class Action_1; }
 
-#define OEOOIGIJIMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE38DA0)
-#define OEOOIGIJIMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE39080)
-#define OEOOIGIJIMG_DOAOGHIIPAC_OFFSET UNITYSDK_OFFSET(0xBE38FA0)
+#define OEOOIGIJIMG_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F0BD0)
+#define OEOOIGIJIMG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC6F0E10)
+#define OEOOIGIJIMG_DOAOGHIIPAC_OFFSET UNITYSDK_OFFSET(0xC6F0D30)
 
-inline static constexpr unsigned int OEOOIGIJIMG_TypeDefinitionIndex = 49828;
+inline static constexpr unsigned int OEOOIGIJIMG_TypeDefinitionIndex = 50876;
 
 	class OEOOIGIJIMG : public ::System::Object
 	{

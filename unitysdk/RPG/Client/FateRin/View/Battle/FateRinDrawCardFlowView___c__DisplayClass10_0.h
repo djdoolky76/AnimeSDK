@@ -4,18 +4,18 @@
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudCardAreaViewModel; }
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewModel; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC88F0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0___CREATEPERCARDCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCFC8EA0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD94B350)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0___CREATEPERCARDCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD94B900)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass10_0_TypeDefinitionIndex = 80684;
+	inline static constexpr unsigned int FateRinDrawCardFlowView___c__DisplayClass10_0_TypeDefinitionIndex = 83464;
 
 	class FateRinDrawCardFlowView___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* cardAreaVm; // 0x10
-		::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel* handCardVm; // 0x18
+		::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel* handCardVm; // 0x10
+		::RPG::Client::FateRin::Battle::IFateRinBattleHudCardAreaViewModel* cardAreaVm; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINDRAWCARDFLOWVIEW___C__DISPLAYCLASS10_0_CTOR_OFFSET))(this);

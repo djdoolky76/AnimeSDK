@@ -3,19 +3,20 @@
 #include "unitysdk/KNFCEJEJINK.h"
 namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 
-#define KJKLIJBEOJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB45A7B0)
-#define KJKLIJBEOJJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB45A860)
-#define KJKLIJBEOJJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB45A7C0)
+#define KJKLIJBEOJJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF26A0)
+#define KJKLIJBEOJJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBCF2750)
+#define KJKLIJBEOJJ_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBCF26B0)
 
-inline static constexpr unsigned int KJKLIJBEOJJ_TypeDefinitionIndex = 78266;
+inline static constexpr unsigned int KJKLIJBEOJJ_TypeDefinitionIndex = 81001;
 
 	class KJKLIJBEOJJ : public ::KNFCEJEJINK
 	{
 	public:
 		::RPG::Client::Prop::ChimeraDuelBubbleEvent* FLPMDDEMIBJ; // 0x18
-		::System::Single HBDJCFFDGDD; // 0x20
-		::System::Boolean OELBLBCINNB; // 0x24
-		::System::Boolean MFLJMFPCNFL; // 0x25
+		::System::Boolean OELBLBCINNB; // 0x20
+		::System::Boolean MFLJMFPCNFL; // 0x21
+		::System::Byte _padding0[0x2];
+		::System::Single HBDJCFFDGDD; // 0x24
 		::System::Void _ctor(::RPG::Client::Prop::ChimeraDuelBubbleEvent* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::ChimeraDuelBubbleEvent*, ::System::Boolean))((::PBYTE)hIl2Cpp + KJKLIJBEOJJ_CTOR_OFFSET))(this, a1, a2);

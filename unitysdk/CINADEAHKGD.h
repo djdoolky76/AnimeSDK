@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define CINADEAHKGD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8ECE0)
-#define CINADEAHKGD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xCF8E780)
+#define CINADEAHKGD_CTOR_OFFSET UNITYSDK_OFFSET(0xD8FEC30)
+#define CINADEAHKGD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xD8FE6D0)
 
-inline static constexpr unsigned int CINADEAHKGD_TypeDefinitionIndex = 81439;
+inline static constexpr unsigned int CINADEAHKGD_TypeDefinitionIndex = 84219;
 
 	class CINADEAHKGD : public ::System::Object
 	{

@@ -5,10 +5,10 @@
 class DICKPDFNEHP;
 namespace System { class Object; }
 
-#define DICKPDFNEHP___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBF1010)
-#define DICKPDFNEHP___C__DISPLAYCLASS6_0___REGISTEREVENT_B__0_OFFSET UNITYSDK_OFFSET(0xEBF1330)
+#define DICKPDFNEHP___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF962CD0)
+#define DICKPDFNEHP___C__DISPLAYCLASS6_0___REGISTEREVENT_B__0_OFFSET UNITYSDK_OFFSET(0xF962FF0)
 
-inline static constexpr unsigned int DICKPDFNEHP___c__DisplayClass6_0_TypeDefinitionIndex = 78097;
+inline static constexpr unsigned int DICKPDFNEHP___c__DisplayClass6_0_TypeDefinitionIndex = 80832;
 
 	class DICKPDFNEHP___c__DisplayClass6_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareBP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DAFBDDNADJP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC1960)
-#define DAFBDDNADJP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFC1990)
+#define DAFBDDNADJP_CTOR_OFFSET UNITYSDK_OFFSET(0xE9247D0)
+#define DAFBDDNADJP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE924800)
 
-inline static constexpr unsigned int DAFBDDNADJP_TypeDefinitionIndex = 54515;
+inline static constexpr unsigned int DAFBDDNADJP_TypeDefinitionIndex = 55680;
 
 	class DAFBDDNADJP
 	{

@@ -7,19 +7,19 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define NPJJJGPOIKG_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFF2F0)
-#define NPJJJGPOIKG_MAAFKCALCMH_OFFSET UNITYSDK_OFFSET(0xBCFECA0)
-#define NPJJJGPOIKG_NEJLOGNANMC_OFFSET UNITYSDK_OFFSET(0xBCFEC50)
-#define NPJJJGPOIKG_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xBCFEFF0)
-#define NPJJJGPOIKG_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xBCFF220)
+#define NPJJJGPOIKG_CTOR_OFFSET UNITYSDK_OFFSET(0xC5EEDC0)
+#define NPJJJGPOIKG_MAAFKCALCMH_OFFSET UNITYSDK_OFFSET(0xC5EE770)
+#define NPJJJGPOIKG_NEJLOGNANMC_OFFSET UNITYSDK_OFFSET(0xC5EE720)
+#define NPJJJGPOIKG_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xC5EEAC0)
+#define NPJJJGPOIKG_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xC5EECF0)
 
-inline static constexpr unsigned int NPJJJGPOIKG_TypeDefinitionIndex = 48069;
+inline static constexpr unsigned int NPJJJGPOIKG_TypeDefinitionIndex = 49100;
 
 	class NPJJJGPOIKG : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* ECBONMNCJMA; // 0x10
-		::UnityEngine::Playables::PlayableDirector* OPNHINPCKOJ; // 0x18
+		::UnityEngine::Playables::PlayableDirector* OPNHINPCKOJ; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* ECBONMNCJMA; // 0x18
 		::System::Int32 BLJAICCCHIP; // 0x20
 		::System::Void _ctor()
 		{

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelMinimapPassage; }
 
-#define RPG_GAMECORE_LEVELMINIMAPPASSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B2F70)
-#define RPG_GAMECORE_LEVELMINIMAPPASSAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7B2CC0)
+#define RPG_GAMECORE_LEVELMINIMAPPASSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F5C60)
+#define RPG_GAMECORE_LEVELMINIMAPPASSAGE_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9F5AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelMinimapPassage_TypeDefinitionIndex = 17218;
+	inline static constexpr unsigned int LevelMinimapPassage_TypeDefinitionIndex = 17386;
 
 	class LevelMinimapPassage : public ::RPG::GameCore::JsonConfig
 	{

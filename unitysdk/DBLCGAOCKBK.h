@@ -4,18 +4,18 @@
 class DBLCGAOCKBK;
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleModifierHintViewModel; }
 
-#define DBLCGAOCKBK_CCTOR_OFFSET UNITYSDK_OFFSET(0xE22AFC0)
-#define DBLCGAOCKBK_COMPARE_OFFSET UNITYSDK_OFFSET(0xE22AC50)
-#define DBLCGAOCKBK_CTOR_OFFSET UNITYSDK_OFFSET(0xE22AFB0)
+#define DBLCGAOCKBK_CCTOR_OFFSET UNITYSDK_OFFSET(0xEB89CD0)
+#define DBLCGAOCKBK_COMPARE_OFFSET UNITYSDK_OFFSET(0xEB89960)
+#define DBLCGAOCKBK_CTOR_OFFSET UNITYSDK_OFFSET(0xEB89CC0)
 
-inline static constexpr unsigned int DBLCGAOCKBK_TypeDefinitionIndex = 80987;
+inline static constexpr unsigned int DBLCGAOCKBK_TypeDefinitionIndex = 83767;
 
 	class DBLCGAOCKBK : public ::System::Object
 	{
 	public:
 		static ::DBLCGAOCKBK** StaticGet_FMJPMFEDIJL()
 		{
-			return (::DBLCGAOCKBK**)UnitySDK::FromName("", "DBLCGAOCKBK")->GetStaticField(0x54E60);
+			return (::DBLCGAOCKBK**)UnitySDK::FromName("", "DBLCGAOCKBK")->GetStaticField(0x4DC20);
 		}
 
 		::System::Void _ctor()

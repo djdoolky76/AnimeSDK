@@ -6,12 +6,12 @@ namespace RPG::GameCore { class MarbleMainsubConfig; }
 namespace RPG::GameCore { class MarbleMainsubKillSealScore; }
 namespace RPG::GameCore { class MarbleNpcConfig; }
 
-#define RPG_GAMECORE_MARBLEMAINSUBCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D83FEE0)
-#define RPG_GAMECORE_MARBLEMAINSUBCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D83EEB0)
+#define RPG_GAMECORE_MARBLEMAINSUBCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5A8D0)
+#define RPG_GAMECORE_MARBLEMAINSUBCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA598F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMainsubConfig_TypeDefinitionIndex = 18928;
+	inline static constexpr unsigned int MarbleMainsubConfig_TypeDefinitionIndex = 19115;
 
 	class MarbleMainsubConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,20 +6,20 @@ namespace RPG::GameCore { class ActivityRaidSpecialOrderRow; }
 namespace RPG::GameCore { class GoodsClass; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDSPECIALORDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37B5E0)
-#define RPG_GAMECORE_ACTIVITYRAIDSPECIALORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D37B370)
+#define RPG_GAMECORE_ACTIVITYRAIDSPECIALORDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E58A840)
+#define RPG_GAMECORE_ACTIVITYRAIDSPECIALORDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E58A5D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidSpecialOrderRow_TypeDefinitionIndex = 12644;
+	inline static constexpr unsigned int ActivityRaidSpecialOrderRow_TypeDefinitionIndex = 12711;
 
 	class ActivityRaidSpecialOrderRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* OrderTipsTime; // 0x10
-		::Il2CppArray<::System::UInt32>* SpecialOrderContent; // 0x18
-		::System::String* OrderTips; // 0x20
-		::Il2CppArray<::RPG::GameCore::GoodsClass*>* SpecialOrderGoods; // 0x28
+		::Il2CppArray<::System::UInt32>* SpecialOrderContent; // 0x10
+		::Il2CppArray<::RPG::GameCore::GoodsClass*>* SpecialOrderGoods; // 0x18
+		::Il2CppArray<::System::UInt32>* OrderTipsTime; // 0x20
+		::System::String* OrderTips; // 0x28
 		::System::UInt32 SpecialOrderShip; // 0x30
 		::System::UInt32 SpecialOrderID; // 0x34
 		::System::Void _ctor()

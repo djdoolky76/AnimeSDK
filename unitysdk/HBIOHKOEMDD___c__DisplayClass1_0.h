@@ -4,10 +4,10 @@
 class HBIOHKOEMDD_IHPDOPAKDCG;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define HBIOHKOEMDD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C05C20)
-#define HBIOHKOEMDD___C__DISPLAYCLASS1_0__SORT_B__0_OFFSET UNITYSDK_OFFSET(0x15C06EB0)
+#define HBIOHKOEMDD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16B478B0)
+#define HBIOHKOEMDD___C__DISPLAYCLASS1_0__SORT_B__0_OFFSET UNITYSDK_OFFSET(0x16B48B40)
 
-inline static constexpr unsigned int HBIOHKOEMDD___c__DisplayClass1_0_TypeDefinitionIndex = 66731;
+inline static constexpr unsigned int HBIOHKOEMDD___c__DisplayClass1_0_TypeDefinitionIndex = 68667;
 
 	class HBIOHKOEMDD___c__DisplayClass1_0 : public ::System::Object
 	{

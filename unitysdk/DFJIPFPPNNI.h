@@ -6,12 +6,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DFJIPFPPNNI_CTOR_OFFSET UNITYSDK_OFFSET(0xE82FB40)
-#define DFJIPFPPNNI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE82FD70)
-#define DFJIPFPPNNI_FILTER_OFFSET UNITYSDK_OFFSET(0xE82FC70)
-#define DFJIPFPPNNI_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0xE82FBA0)
+#define DFJIPFPPNNI_CTOR_OFFSET UNITYSDK_OFFSET(0xF1906E0)
+#define DFJIPFPPNNI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xF190910)
+#define DFJIPFPPNNI_FILTER_OFFSET UNITYSDK_OFFSET(0xF190810)
+#define DFJIPFPPNNI_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0xF190740)
 
-inline static constexpr unsigned int DFJIPFPPNNI_TypeDefinitionIndex = 75778;
+inline static constexpr unsigned int DFJIPFPPNNI_TypeDefinitionIndex = 78105;
 
 	class DFJIPFPPNNI
 	{

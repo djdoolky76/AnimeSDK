@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_H5LOG_TypeDefinitionIndex = 46181;
+	inline static constexpr unsigned int MHYSDKC_H5LOG_TypeDefinitionIndex = 47210;
 
 	class MHYSDKC_H5LOG : public ::System::Object
 	{

@@ -7,20 +7,20 @@ class FNNMLBJJPBJ;
 namespace Google::Protobuf::Collections { template <typename T1, typename T2> class MapField_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FNNMLBJJPBJ_BBIMDNBFOCJ_OFFSET UNITYSDK_OFFSET(0x15886DC0)
-#define FNNMLBJJPBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15886320)
-#define FNNMLBJJPBJ_GIEGHFKCEIK_OFFSET UNITYSDK_OFFSET(0x158862E0)
-#define FNNMLBJJPBJ_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0x15886990)
-#define FNNMLBJJPBJ_LHFHPPJCEGA_OFFSET UNITYSDK_OFFSET(0x15887240)
-#define FNNMLBJJPBJ_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x158863C0)
+#define FNNMLBJJPBJ_BBIMDNBFOCJ_OFFSET UNITYSDK_OFFSET(0x167FA620)
+#define FNNMLBJJPBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x167F9B80)
+#define FNNMLBJJPBJ_GIEGHFKCEIK_OFFSET UNITYSDK_OFFSET(0x167F9B40)
+#define FNNMLBJJPBJ_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0x167FA1F0)
+#define FNNMLBJJPBJ_LHFHPPJCEGA_OFFSET UNITYSDK_OFFSET(0x167FAAA0)
+#define FNNMLBJJPBJ_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x167F9C20)
 
-inline static constexpr unsigned int FNNMLBJJPBJ_TypeDefinitionIndex = 56296;
+inline static constexpr unsigned int FNNMLBJJPBJ_TypeDefinitionIndex = 57510;
 
 	class FNNMLBJJPBJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* DNOBPAFNGFM; // 0x10
-		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* MNBJBIHLKIE; // 0x18
+		::Google::Protobuf::Collections::MapField_2<::System::UInt32, ::System::UInt32>* MNBJBIHLKIE; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::FixPoint>* DNOBPAFNGFM; // 0x18
 		::System::Int32 BNPCLOPOJAC; // 0x20
 		::System::Void _ctor(::System::Int32 a1)
 		{

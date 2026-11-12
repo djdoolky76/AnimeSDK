@@ -4,18 +4,18 @@
 class ECKAIIJPAON;
 namespace System { class Object; }
 
-#define ECKAIIJPAON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2542A0)
-#define ECKAIIJPAON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2542E0)
-#define ECKAIIJPAON___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2542F0)
+#define ECKAIIJPAON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F551490)
+#define ECKAIIJPAON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5514D0)
+#define ECKAIIJPAON___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F5514E0)
 
-inline static constexpr unsigned int ECKAIIJPAON___c_TypeDefinitionIndex = 31858;
+inline static constexpr unsigned int ECKAIIJPAON___c_TypeDefinitionIndex = 32771;
 
 	class ECKAIIJPAON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E9F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E760);
 		}
 
 		static ::System::Void _cctor()

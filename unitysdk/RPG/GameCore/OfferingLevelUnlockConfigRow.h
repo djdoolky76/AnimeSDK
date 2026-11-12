@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class OfferingLevelUnlockConfigRow; }
 
-#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DEDB0)
-#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8DEC30)
+#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF7A70)
+#define RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAF78F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfferingLevelUnlockConfigRow_TypeDefinitionIndex = 14295;
+	inline static constexpr unsigned int OfferingLevelUnlockConfigRow_TypeDefinitionIndex = 14452;
 
 	class OfferingLevelUnlockConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 UnlockID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID UnlockDesc; // 0x18
+		::RPG::Client::TextID UnlockDesc; // 0x10
+		::System::UInt32 UnlockID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFERINGLEVELUNLOCKCONFIGROW_CTOR_OFFSET))(this);

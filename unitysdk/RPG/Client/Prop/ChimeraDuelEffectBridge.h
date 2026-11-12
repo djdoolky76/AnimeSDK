@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PROP_CHIMERADUELEFFECTBRIDGE_CTOR_OFFSET UNITYSDK_OFFSET(0xDC5E150)
+#define RPG_CLIENT_PROP_CHIMERADUELEFFECTBRIDGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6FB520)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelEffectBridge_TypeDefinitionIndex = 78298;
+	inline static constexpr unsigned int ChimeraDuelEffectBridge_TypeDefinitionIndex = 81033;
 
 	class ChimeraDuelEffectBridge : public ::UnityEngine::MonoBehaviour
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AddByMaxStanceConfig; }
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D385F60)
-#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D385B50)
+#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E595C90)
+#define RPG_GAMECORE_ADDBYMAXSTANCECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E595880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddByMaxStanceConfig_TypeDefinitionIndex = 18183;
+	inline static constexpr unsigned int AddByMaxStanceConfig_TypeDefinitionIndex = 18345;
 
 	class AddByMaxStanceConfig : public ::RPG::GameCore::JsonConfig
 	{

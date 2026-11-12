@@ -4,9 +4,9 @@
 namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HFJEDABANAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7CE30)
+#define HFJEDABANAD_CTOR_OFFSET UNITYSDK_OFFSET(0x16BC4410)
 
-inline static constexpr unsigned int HFJEDABANAD_TypeDefinitionIndex = 74393;
+inline static constexpr unsigned int HFJEDABANAD_TypeDefinitionIndex = 76541;
 
 	class HFJEDABANAD : public ::System::Object
 	{

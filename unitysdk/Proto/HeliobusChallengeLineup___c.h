@@ -4,20 +4,20 @@
 namespace Proto { class HeliobusChallengeLineup; }
 namespace System { class Object; }
 
-#define PROTO_HELIOBUSCHALLENGELINEUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFFD6E0)
-#define PROTO_HELIOBUSCHALLENGELINEUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFFD710)
-#define PROTO_HELIOBUSCHALLENGELINEUP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DFFD720)
+#define PROTO_HELIOBUSCHALLENGELINEUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2AEDF0)
+#define PROTO_HELIOBUSCHALLENGELINEUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2AEE20)
+#define PROTO_HELIOBUSCHALLENGELINEUP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F2AEE30)
 
 namespace Proto
 {
-	inline static constexpr unsigned int HeliobusChallengeLineup___c_TypeDefinitionIndex = 29770;
+	inline static constexpr unsigned int HeliobusChallengeLineup___c_TypeDefinitionIndex = 30668;
 
 	class HeliobusChallengeLineup___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43D00);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4F260);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelTalkNode; }
 
-#define RPG_GAMECORE_CHIMERADUELTALKNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AB670)
-#define RPG_GAMECORE_CHIMERADUELTALKNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5AB680)
-#define RPG_GAMECORE_CHIMERADUELTALKNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5AB620)
+#define RPG_GAMECORE_CHIMERADUELTALKNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BBCD0)
+#define RPG_GAMECORE_CHIMERADUELTALKNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7BBCE0)
+#define RPG_GAMECORE_CHIMERADUELTALKNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7BBC80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelTalkNode_TypeDefinitionIndex = 15972;
+	inline static constexpr unsigned int ChimeraDuelTalkNode_TypeDefinitionIndex = 16130;
 
 	class ChimeraDuelTalkNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DOFJEBICGJI_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE6CF0)
+#define DOFJEBICGJI_CTOR_OFFSET UNITYSDK_OFFSET(0x12DE05D0)
 
-inline static constexpr unsigned int DOFJEBICGJI_TypeDefinitionIndex = 81274;
+inline static constexpr unsigned int DOFJEBICGJI_TypeDefinitionIndex = 84054;
 
 	class DOFJEBICGJI : public ::System::Object
 	{

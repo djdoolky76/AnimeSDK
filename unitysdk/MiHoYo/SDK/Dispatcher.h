@@ -7,39 +7,39 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_DISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF78D70)
-#define MIHOYO_SDK_DISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xAF78D60)
-#define MIHOYO_SDK_DISPATCHER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xAF78910)
-#define MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0xAF786B0)
-#define MIHOYO_SDK_DISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0xAF78600)
-#define MIHOYO_SDK_DISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0xAF78760)
-#define MIHOYO_SDK_DISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0xAF78A20)
+#define MIHOYO_SDK_DISPATCHER_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5DA240)
+#define MIHOYO_SDK_DISPATCHER_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DA230)
+#define MIHOYO_SDK_DISPATCHER_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xB5D9DE0)
+#define MIHOYO_SDK_DISPATCHER_RUNASYNC_1_OFFSET UNITYSDK_OFFSET(0xB5D9B80)
+#define MIHOYO_SDK_DISPATCHER_RUNASYNC_OFFSET UNITYSDK_OFFSET(0xB5D9AD0)
+#define MIHOYO_SDK_DISPATCHER_RUNONMAINTHREAD_OFFSET UNITYSDK_OFFSET(0xB5D9C30)
+#define MIHOYO_SDK_DISPATCHER_UPDATE_OFFSET UNITYSDK_OFFSET(0xB5D9EF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int Dispatcher_TypeDefinitionIndex = 46299;
+	inline static constexpr unsigned int Dispatcher_TypeDefinitionIndex = 47327;
 
 	class Dispatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__backlog()
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__actions()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1FF30);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1AEA0);
 		}
 
 		static ::MiHoYo::SDK::Dispatcher** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::Dispatcher**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1FF38);
+			return (::MiHoYo::SDK::Dispatcher**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1AEA8);
 		}
 
-		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__actions()
+		static ::System::Collections::Generic::List_1<::System::Action*>** StaticGet__backlog()
 		{
-			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1FF40);
+			return (::System::Collections::Generic::List_1<::System::Action*>**)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x1AEB0);
 		}
 
 		static ::System::Boolean* StaticGet__queued()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x74B0);
+			return (::System::Boolean*)UnitySDK::FromName("MiHoYo.SDK", "Dispatcher")->GetStaticField(0x57E0);
 		}
 
 		::System::Void _ctor()

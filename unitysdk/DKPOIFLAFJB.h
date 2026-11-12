@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByNPCMonsterPurposeType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DKPOIFLAFJB_CTOR_OFFSET UNITYSDK_OFFSET(0xF88EFF0)
-#define DKPOIFLAFJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF88F020)
+#define DKPOIFLAFJB_CTOR_OFFSET UNITYSDK_OFFSET(0xFFF4B30)
+#define DKPOIFLAFJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xFFF4B60)
 
-inline static constexpr unsigned int DKPOIFLAFJB_TypeDefinitionIndex = 54473;
+inline static constexpr unsigned int DKPOIFLAFJB_TypeDefinitionIndex = 55637;
 
 	class DKPOIFLAFJB
 	{

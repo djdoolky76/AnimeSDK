@@ -4,9 +4,9 @@
 class CCGFCHPPIDH;
 namespace System { class String; }
 
-#define PCMJEHDDMNL_CTOR_OFFSET UNITYSDK_OFFSET(0xC0084F0)
+#define PCMJEHDDMNL_CTOR_OFFSET UNITYSDK_OFFSET(0xC90DF60)
 
-inline static constexpr unsigned int PCMJEHDDMNL_TypeDefinitionIndex = 64787;
+inline static constexpr unsigned int PCMJEHDDMNL_TypeDefinitionIndex = 66331;
 
 	class PCMJEHDDMNL : public ::System::Object
 	{

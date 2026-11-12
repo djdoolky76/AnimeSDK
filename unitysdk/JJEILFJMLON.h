@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class CJCHKDLALDN;
 
-#define JJEILFJMLON_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FF9E0)
+#define JJEILFJMLON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D881490)
 
-inline static constexpr unsigned int JJEILFJMLON_TypeDefinitionIndex = 36277;
+inline static constexpr unsigned int JJEILFJMLON_TypeDefinitionIndex = 37205;
 
 	class JJEILFJMLON : public ::System::Object
 	{

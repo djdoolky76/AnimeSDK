@@ -5,12 +5,12 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RelicPresetApplyDetailViewModel; }
 namespace RPG::Client { class RelicPresetPlanData; }
 
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7B4A0)
-#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0__BUILDPLANVIEWMODELS_B__0_OFFSET UNITYSDK_OFFSET(0xDE7B870)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EA280)
+#define RPG_CLIENT_RELICPRESETAPPLYDETAILVIEWMODEL___C__DISPLAYCLASS12_0__BUILDPLANVIEWMODELS_B__0_OFFSET UNITYSDK_OFFSET(0xE8EA650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 66857;
+	inline static constexpr unsigned int RelicPresetApplyDetailViewModel___c__DisplayClass12_0_TypeDefinitionIndex = 68803;
 
 	class RelicPresetApplyDetailViewModel___c__DisplayClass12_0 : public ::System::Object
 	{

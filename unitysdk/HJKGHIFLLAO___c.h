@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define HJKGHIFLLAO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D2B9B0)
-#define HJKGHIFLLAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15D2B9F0)
-#define HJKGHIFLLAO___C__INITTEMPDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x15D2BA00)
+#define HJKGHIFLLAO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C7BC00)
+#define HJKGHIFLLAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16C7BC40)
+#define HJKGHIFLLAO___C__INITTEMPDATA_B__17_0_OFFSET UNITYSDK_OFFSET(0x16C7BC50)
 
-inline static constexpr unsigned int HJKGHIFLLAO___c_TypeDefinitionIndex = 78577;
+inline static constexpr unsigned int HJKGHIFLLAO___c_TypeDefinitionIndex = 81312;
 
 	class HJKGHIFLLAO___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>** StaticGet___9__17_0()
-		{
-			return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21310);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21318);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11A00);
+		}
+
+		static ::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>** StaticGet___9__17_0()
+		{
+			return (::System::Comparison_1<::System::Tuple_2<::System::UInt32, ::System::Single>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11A08);
 		}
 
 		static ::System::Void _cctor()

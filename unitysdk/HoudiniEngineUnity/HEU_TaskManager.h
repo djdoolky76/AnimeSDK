@@ -6,38 +6,38 @@
 namespace HoudiniEngineUnity { class HEU_Task; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x1B9889C0)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B988780)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_COMPLETETASK_OFFSET UNITYSDK_OFFSET(0x1B988F20)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1B988FB0)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_EXECUTETASK_OFFSET UNITYSDK_OFFSET(0x1B988EF0)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_GETTASK_OFFSET UNITYSDK_OFFSET(0x1B988850)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_INTERNALCOMPLETETASK_OFFSET UNITYSDK_OFFSET(0x1B988F50)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_KILLTASK_1_OFFSET UNITYSDK_OFFSET(0x1B988E50)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_KILLTASK_OFFSET UNITYSDK_OFFSET(0x1B988B90)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0x1B988C90)
-#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1B988840)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_ADDTASK_OFFSET UNITYSDK_OFFSET(0x1CB118D0)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB11690)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_COMPLETETASK_OFFSET UNITYSDK_OFFSET(0x1CB11E30)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB11EC0)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_EXECUTETASK_OFFSET UNITYSDK_OFFSET(0x1CB11E00)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_GETTASK_OFFSET UNITYSDK_OFFSET(0x1CB11760)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_INTERNALCOMPLETETASK_OFFSET UNITYSDK_OFFSET(0x1CB11E60)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_KILLTASK_1_OFFSET UNITYSDK_OFFSET(0x1CB11D60)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_KILLTASK_OFFSET UNITYSDK_OFFSET(0x1CB11AA0)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_REMOVETASK_OFFSET UNITYSDK_OFFSET(0x1CB11BA0)
+#define HOUDINIENGINEUNITY_HEU_TASKMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CB11750)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_TaskManager_TypeDefinitionIndex = 40605;
+	inline static constexpr unsigned int HEU_TaskManager_TypeDefinitionIndex = 41580;
 
 	class HEU_TaskManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>** StaticGet__pendingAdd()
-		{
-			return (::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_TaskManager")->GetStaticField(0x554D0);
-		}
-
 		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>** StaticGet__pendingRemove()
 		{
-			return (::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_TaskManager")->GetStaticField(0x554D8);
+			return (::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_TaskManager")->GetStaticField(0x67750);
+		}
+
+		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>** StaticGet__pendingAdd()
+		{
+			return (::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_TaskManager")->GetStaticField(0x67758);
 		}
 
 		static ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>** StaticGet__tasks()
 		{
-			return (::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_TaskManager")->GetStaticField(0x554E0);
+			return (::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Task*>**)UnitySDK::FromName("HoudiniEngineUnity", "HEU_TaskManager")->GetStaticField(0x67760);
 		}
 
 		static ::System::Void _cctor()

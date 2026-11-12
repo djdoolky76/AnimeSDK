@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelChimeraLevelRow; }
 
-#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59D410)
-#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D59D2C0)
+#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AE070)
+#define RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7ADF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelChimeraLevelRow_TypeDefinitionIndex = 11115;
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelRow_TypeDefinitionIndex = 11131;
 
 	class ChimeraDuelChimeraLevelRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* SkillIDList; // 0x10
-		::System::UInt32 Level; // 0x18
-		::System::UInt32 ChimeraID; // 0x1C
+		::System::UInt32 ChimeraID; // 0x18
+		::System::UInt32 Level; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERADUELCHIMERALEVELROW_CTOR_OFFSET))(this);

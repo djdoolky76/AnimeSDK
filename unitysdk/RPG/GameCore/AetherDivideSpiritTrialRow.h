@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherDivideSpiritTrialRow; }
 
-#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DCC30)
-#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DCAC0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5FC8E0)
+#define RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5FC770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideSpiritTrialRow_TypeDefinitionIndex = 10934;
+	inline static constexpr unsigned int AetherDivideSpiritTrialRow_TypeDefinitionIndex = 10950;
 
 	class AetherDivideSpiritTrialRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Promotion; // 0x10
-		::System::UInt32 SpiritID; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 Promotion; // 0x14
+		::System::UInt32 SpiritID; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDESPIRITTRIALROW_CTOR_OFFSET))(this);

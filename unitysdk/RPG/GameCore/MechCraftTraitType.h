@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MechCraftTraitType_TypeDefinitionIndex = 11970;
+	inline static constexpr unsigned int MechCraftTraitType_TypeDefinitionIndex = 12027;
 
 	enum class MechCraftTraitType : ::System::Int32
 	{

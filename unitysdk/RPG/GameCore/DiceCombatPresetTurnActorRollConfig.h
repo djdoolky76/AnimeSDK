@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatPresetTurnActorRollConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6101A0)
-#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6100B0)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84E230)
+#define RPG_GAMECORE_DICECOMBATPRESETTURNACTORROLLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E84E140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatPresetTurnActorRollConfig_TypeDefinitionIndex = 16130;
+	inline static constexpr unsigned int DiceCombatPresetTurnActorRollConfig_TypeDefinitionIndex = 16288;
 
 	class DiceCombatPresetTurnActorRollConfig : public ::RPG::GameCore::JsonConfig
 	{

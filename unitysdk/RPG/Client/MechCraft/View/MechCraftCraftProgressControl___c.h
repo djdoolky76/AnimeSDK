@@ -6,25 +6,25 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6326A0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD6326E0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___C___REFRESHTRAITS_B__12_1_OFFSET UNITYSDK_OFFSET(0xD6326F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0C1250)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0C1290)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTPROGRESSCONTROL___C___REFRESHTRAITS_B__12_1_OFFSET UNITYSDK_OFFSET(0xE0C12A0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftProgressControl___c_TypeDefinitionIndex = 79929;
+	inline static constexpr unsigned int MechCraftCraftProgressControl___c_TypeDefinitionIndex = 82706;
 
 	class MechCraftCraftProgressControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x59710);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x61FE0);
 		}
 
 		static ::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL** StaticGet___9__12_1()
 		{
-			return (::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x59718);
+			return (::RPG::Client::MechCraft::View::MechCraftNodeListControl_CBPOMADILDL**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x61FE8);
 		}
 
 		static ::System::Void _cctor()

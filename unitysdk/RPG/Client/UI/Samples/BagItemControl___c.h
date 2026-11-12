@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE40D970)
-#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE40D9B0)
-#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C___BINDING_B__3_0_OFFSET UNITYSDK_OFFSET(0xE40D9C0)
-#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C___BINDING_B__3_1_OFFSET UNITYSDK_OFFSET(0xE40D9E0)
-#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C___BINDING_B__3_2_OFFSET UNITYSDK_OFFSET(0xE40DA00)
+#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEEC8E70)
+#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEEC8EB0)
+#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C___BINDING_B__3_0_OFFSET UNITYSDK_OFFSET(0xEEC8EC0)
+#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C___BINDING_B__3_1_OFFSET UNITYSDK_OFFSET(0xEEC8EE0)
+#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL___C___BINDING_B__3_2_OFFSET UNITYSDK_OFFSET(0xEEC8F00)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int BagItemControl___c_TypeDefinitionIndex = 73427;
+	inline static constexpr unsigned int BagItemControl___c_TypeDefinitionIndex = 75550;
 
 	class BagItemControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__3_0()
+		static ::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x423A0);
+			return (::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D060);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__3_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x423A8);
+			return (::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D068);
 		}
 
 		static ::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x423B0);
+			return (::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D070);
 		}
 
-		static ::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__3_1()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Func_2<::CKKGECOHPMO*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x423B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D078);
 		}
 
 		static ::System::Void _cctor()

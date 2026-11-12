@@ -4,18 +4,18 @@
 class CGONOIEOEBP;
 namespace System { class Object; }
 
-#define CGONOIEOEBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0BA2C0)
-#define CGONOIEOEBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0BA300)
-#define CGONOIEOEBP___C___CCTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1E0BA310)
+#define CGONOIEOEBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F385370)
+#define CGONOIEOEBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3853B0)
+#define CGONOIEOEBP___C___CCTOR_B__40_0_OFFSET UNITYSDK_OFFSET(0x1F3853C0)
 
-inline static constexpr unsigned int CGONOIEOEBP___c_TypeDefinitionIndex = 29867;
+inline static constexpr unsigned int CGONOIEOEBP___c_TypeDefinitionIndex = 30765;
 
 	class CGONOIEOEBP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x151D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE0D0);
 		}
 
 		static ::System::Void _cctor()

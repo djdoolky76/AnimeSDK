@@ -4,20 +4,20 @@
 namespace MiHoYo::SDK { class MiHoYoSDKPluginUIWrapper; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKPLUGINUIWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD34B0)
-#define MIHOYO_SDK_MIHOYOSDKPLUGINUIWRAPPER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0xAFD34C0)
-#define MIHOYO_SDK_MIHOYOSDKPLUGINUIWRAPPER_UPDATEPLUGINUIELEMENT_OFFSET UNITYSDK_OFFSET(0xAFD3530)
+#define MIHOYO_SDK_MIHOYOSDKPLUGINUIWRAPPER_CTOR_OFFSET UNITYSDK_OFFSET(0xB6347A0)
+#define MIHOYO_SDK_MIHOYOSDKPLUGINUIWRAPPER_GETINSTANCE_OFFSET UNITYSDK_OFFSET(0xB6347B0)
+#define MIHOYO_SDK_MIHOYOSDKPLUGINUIWRAPPER_UPDATEPLUGINUIELEMENT_OFFSET UNITYSDK_OFFSET(0xB634820)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKPluginUIWrapper_TypeDefinitionIndex = 46460;
+	inline static constexpr unsigned int MiHoYoSDKPluginUIWrapper_TypeDefinitionIndex = 47488;
 
 	class MiHoYoSDKPluginUIWrapper : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::MiHoYoSDKPluginUIWrapper** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::MiHoYoSDKPluginUIWrapper**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKPluginUIWrapper")->GetStaticField(0x25FC0);
+			return (::MiHoYo::SDK::MiHoYoSDKPluginUIWrapper**)UnitySDK::FromName("MiHoYo.SDK", "MiHoYoSDKPluginUIWrapper")->GetStaticField(0x248A0);
 		}
 
 		::System::Void _ctor()

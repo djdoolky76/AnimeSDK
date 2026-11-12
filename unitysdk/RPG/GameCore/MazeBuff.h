@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeBuff; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MAZEBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D860170)
-#define RPG_GAMECORE_MAZEBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D860040)
+#define RPG_GAMECORE_MAZEBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7A9C0)
+#define RPG_GAMECORE_MAZEBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA7A890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeBuff_TypeDefinitionIndex = 20417;
+	inline static constexpr unsigned int MazeBuff_TypeDefinitionIndex = 20752;
 
 	class MazeBuff : public ::RPG::GameCore::JsonConfig
 	{

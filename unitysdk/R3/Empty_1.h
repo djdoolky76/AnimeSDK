@@ -4,7 +4,7 @@ namespace R3 { template <typename T> class Empty_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int Empty_1_TypeDefinitionIndex = 35910;
+	inline static constexpr unsigned int Empty_1_TypeDefinitionIndex = 36838;
 
 	template <typename T>
 	class Empty_1

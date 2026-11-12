@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ConvinceGameplaySkillConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DE4C0)
-#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5DDDA0)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F0900)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7F01E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceGameplaySkillConfigRow_TypeDefinitionIndex = 13099;
+	inline static constexpr unsigned int ConvinceGameplaySkillConfigRow_TypeDefinitionIndex = 13167;
 
 	class ConvinceGameplaySkillConfigRow : public ::System::Object
 	{

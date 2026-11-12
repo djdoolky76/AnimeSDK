@@ -10,41 +10,41 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define ILOFKJGANPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x164C8F40)
-#define ILOFKJGANPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x164C8F70)
-#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x164C8F80)
-#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x164C9310)
-#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x164C92F0)
-#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x164C96A0)
+#define ILOFKJGANPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x174A2120)
+#define ILOFKJGANPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x174A2150)
+#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x174A2160)
+#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x174A24F0)
+#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x174A24D0)
+#define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x174A2880)
 
-inline static constexpr unsigned int ILOFKJGANPP___c_TypeDefinitionIndex = 67137;
+inline static constexpr unsigned int ILOFKJGANPP___c_TypeDefinitionIndex = 69081;
 
 	class ILOFKJGANPP___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::LJNBEGPNLDL*, ::RPG::Client::RogueBuffData*>** StaticGet___9__1_2()
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::HCOCIAMDBDO*>*, ::KCAMGNGBBLN*>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::LJNBEGPNLDL*, ::RPG::Client::RogueBuffData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66720);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::HCOCIAMDBDO*>*, ::KCAMGNGBBLN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C970);
 		}
 
 		static ::System::Func_2<::HCOCIAMDBDO*, ::RPG::Client::RogueBuffData*>** StaticGet___9__1_3()
 		{
-			return (::System::Func_2<::HCOCIAMDBDO*, ::RPG::Client::RogueBuffData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66728);
+			return (::System::Func_2<::HCOCIAMDBDO*, ::RPG::Client::RogueBuffData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C978);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::LJNBEGPNLDL*, ::RPG::Client::RogueBuffData*>** StaticGet___9__1_2()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66730);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::HCOCIAMDBDO*>*, ::KCAMGNGBBLN*>** StaticGet___9__1_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::HCOCIAMDBDO*>*, ::KCAMGNGBBLN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66738);
+			return (::System::Func_2<::LJNBEGPNLDL*, ::RPG::Client::RogueBuffData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C980);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::LJNBEGPNLDL*>*, ::BFEOAPAHKLC*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::LJNBEGPNLDL*>*, ::BFEOAPAHKLC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66740);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::LJNBEGPNLDL*>*, ::BFEOAPAHKLC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C988);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C990);
 		}
 
 		static ::System::Void _cctor()

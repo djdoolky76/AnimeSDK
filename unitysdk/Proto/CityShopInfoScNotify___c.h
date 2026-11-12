@@ -4,20 +4,20 @@
 namespace Proto { class CityShopInfoScNotify; }
 namespace System { class Object; }
 
-#define PROTO_CITYSHOPINFOSCNOTIFY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE9D70)
-#define PROTO_CITYSHOPINFOSCNOTIFY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE9DB0)
-#define PROTO_CITYSHOPINFOSCNOTIFY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DFE9DC0)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F29B4B0)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F29B4F0)
+#define PROTO_CITYSHOPINFOSCNOTIFY___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F29B500)
 
 namespace Proto
 {
-	inline static constexpr unsigned int CityShopInfoScNotify___c_TypeDefinitionIndex = 34188;
+	inline static constexpr unsigned int CityShopInfoScNotify___c_TypeDefinitionIndex = 35103;
 
 	class CityShopInfoScNotify___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43A10);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4B8C0);
 		}
 
 		static ::System::Void _cctor()

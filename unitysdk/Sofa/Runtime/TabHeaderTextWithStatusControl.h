@@ -5,12 +5,12 @@ class HIKAAGHELPH;
 namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class Transform; }
 
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE981ED0)
-#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE981480)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xF497520)
+#define SOFA_RUNTIME_TABHEADERTEXTWITHSTATUSCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xF496AD0)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderTextWithStatusControl_TypeDefinitionIndex = 49738;
+	inline static constexpr unsigned int TabHeaderTextWithStatusControl_TypeDefinitionIndex = 50786;
 
 	class TabHeaderTextWithStatusControl
 	{

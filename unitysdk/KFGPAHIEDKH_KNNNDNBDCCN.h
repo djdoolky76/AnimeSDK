@@ -4,19 +4,19 @@
 class JFEFMEHKHOO;
 namespace RPG::Client { class ChatMessageData; }
 
-#define KFGPAHIEDKH_KNNNDNBDCCN_CTOR_OFFSET UNITYSDK_OFFSET(0xB3A2550)
+#define KFGPAHIEDKH_KNNNDNBDCCN_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2EAE0)
 
-inline static constexpr unsigned int KFGPAHIEDKH_KNNNDNBDCCN_TypeDefinitionIndex = 80260;
+inline static constexpr unsigned int KFGPAHIEDKH_KNNNDNBDCCN_TypeDefinitionIndex = 83037;
 
 	class KFGPAHIEDKH_KNNNDNBDCCN : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChatMessageData* FJCAKOIDONG; // 0x10
 		::JFEFMEHKHOO* BOOJMDODFBI; // 0x18
-		::System::Int32 AHAKHPFDGBK; // 0x20
-		::System::Boolean ELKFFEIOGDN; // 0x24
-		::System::Boolean IAMBMCMIJPO; // 0x25
+		::System::Boolean ELKFFEIOGDN; // 0x20
+		::System::Boolean IAMBMCMIJPO; // 0x21
 		::System::Byte _padding0[0x2];
+		::System::Int32 AHAKHPFDGBK; // 0x24
 		::System::Int32 NAFMKIDLAJI; // 0x28
 		::System::UInt32 MPMAOCEOJLI; // 0x2C
 		::System::Void _ctor()

@@ -5,7 +5,7 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRSystem__PollNextEvent; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int CVRSystem_PollNextEventUnion_TypeDefinitionIndex = 39191;
+	inline static constexpr unsigned int CVRSystem_PollNextEventUnion_TypeDefinitionIndex = 40120;
 
 	struct alignas(8) CVRSystem_PollNextEventUnion
 	{

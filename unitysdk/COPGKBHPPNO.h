@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define COPGKBHPPNO_CTOR_OFFSET UNITYSDK_OFFSET(0xDCC6C10)
+#define COPGKBHPPNO_CTOR_OFFSET UNITYSDK_OFFSET(0xE613510)
 
-inline static constexpr unsigned int COPGKBHPPNO_TypeDefinitionIndex = 73665;
+inline static constexpr unsigned int COPGKBHPPNO_TypeDefinitionIndex = 75788;
 
 	class COPGKBHPPNO : public ::System::Attribute
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DCPFONICDGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1B660)
+#define DCPFONICDGO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBDEE80)
 
-inline static constexpr unsigned int DCPFONICDGO_TypeDefinitionIndex = 42260;
+inline static constexpr unsigned int DCPFONICDGO_TypeDefinitionIndex = 43235;
 
 	class DCPFONICDGO : public ::System::Object
 	{

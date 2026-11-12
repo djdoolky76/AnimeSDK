@@ -1,11 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorTimeRange.h"
 namespace System { class String; }
 namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo_TypeDefinitionIndex = 70117;
+	inline static constexpr unsigned int MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo_TypeDefinitionIndex = 72082;
 
 	struct alignas(8) MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo
 	{
@@ -17,5 +18,8 @@ namespace RPG::Client
 		::System::Byte _padding1[0x7];
 		::System::String* SyncState; // 0x28
 		::System::Boolean UseFixedTime; // 0x30
+		::System::Boolean EnableSyncTimeRange; // 0x31
+		::System::Byte _padding2[0x2];
+		::RPG::Client::MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorTimeRange SyncTimeRange; // 0x34
 	};
 }

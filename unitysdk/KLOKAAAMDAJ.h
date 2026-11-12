@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int KLOKAAAMDAJ_TypeDefinitionIndex = 6240;
+inline static constexpr unsigned int KLOKAAAMDAJ_TypeDefinitionIndex = 6247;
 
 	struct alignas(4) KLOKAAAMDAJ
 	{

@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define NGGIMKMBGCF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBA5CD0)
-#define NGGIMKMBGCF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA5D00)
-#define NGGIMKMBGCF___C__COMPUTECONVEXHULL_B__0_0_OFFSET UNITYSDK_OFFSET(0xBBA5D10)
+#define NGGIMKMBGCF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC481EB0)
+#define NGGIMKMBGCF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC481EE0)
+#define NGGIMKMBGCF___C__COMPUTECONVEXHULL_B__0_0_OFFSET UNITYSDK_OFFSET(0xC481EF0)
 
-inline static constexpr unsigned int NGGIMKMBGCF___c_TypeDefinitionIndex = 47572;
+inline static constexpr unsigned int NGGIMKMBGCF___c_TypeDefinitionIndex = 48601;
 
 	class NGGIMKMBGCF___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::UnityEngine::Vector2>** StaticGet___9__0_0()
-		{
-			return (::System::Comparison_1<::UnityEngine::Vector2>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36220);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36228);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30840);
+		}
+
+		static ::System::Comparison_1<::UnityEngine::Vector2>** StaticGet___9__0_0()
+		{
+			return (::System::Comparison_1<::UnityEngine::Vector2>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30848);
 		}
 
 		static ::System::Void _cctor()

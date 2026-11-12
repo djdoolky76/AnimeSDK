@@ -4,10 +4,10 @@
 #include "unitysdk/ABMNAENMFJL.h"
 class KCLIKAPODAD;
 
-#define AMHCELGLLED_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1557ECA0)
-#define AMHCELGLLED_CTOR_OFFSET UNITYSDK_OFFSET(0x1557ED80)
+#define AMHCELGLLED_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x163EE180)
+#define AMHCELGLLED_CTOR_OFFSET UNITYSDK_OFFSET(0x163EE250)
 
-inline static constexpr unsigned int AMHCELGLLED_TypeDefinitionIndex = 62838;
+inline static constexpr unsigned int AMHCELGLLED_TypeDefinitionIndex = 64276;
 
 	class AMHCELGLLED : public ::System::Object
 	{

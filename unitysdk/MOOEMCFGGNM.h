@@ -6,11 +6,11 @@ class MOOEMCFGGNM_PICKDNMPCLL;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MOOEMCFGGNM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA36780)
-#define MOOEMCFGGNM_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xBA35B20)
-#define MOOEMCFGGNM_LODCDEIDBMA_OFFSET UNITYSDK_OFFSET(0xBA35A90)
+#define MOOEMCFGGNM_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F5000)
+#define MOOEMCFGGNM_HMPDCLHIPHI_OFFSET UNITYSDK_OFFSET(0xC2F43A0)
+#define MOOEMCFGGNM_LODCDEIDBMA_OFFSET UNITYSDK_OFFSET(0xC2F4310)
 
-inline static constexpr unsigned int MOOEMCFGGNM_TypeDefinitionIndex = 56080;
+inline static constexpr unsigned int MOOEMCFGGNM_TypeDefinitionIndex = 57292;
 
 	class MOOEMCFGGNM : public ::System::Object
 	{

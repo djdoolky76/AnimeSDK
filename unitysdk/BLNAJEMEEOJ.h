@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define BLNAJEMEEOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E0970)
+#define BLNAJEMEEOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBA9400)
 
-inline static constexpr unsigned int BLNAJEMEEOJ_TypeDefinitionIndex = 24997;
+inline static constexpr unsigned int BLNAJEMEEOJ_TypeDefinitionIndex = 25477;
 
 	class BLNAJEMEEOJ : public ::System::Attribute
 	{

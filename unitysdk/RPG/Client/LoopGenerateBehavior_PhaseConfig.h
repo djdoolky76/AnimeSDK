@@ -5,7 +5,7 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopGenerateBehavior_PhaseConfig_TypeDefinitionIndex = 70914;
+	inline static constexpr unsigned int LoopGenerateBehavior_PhaseConfig_TypeDefinitionIndex = 72893;
 
 	struct alignas(8) LoopGenerateBehavior_PhaseConfig
 	{

@@ -4,16 +4,16 @@
 class CIFJBKHOIDF;
 class FCOEMCEDLNL;
 
-#define CIFJBKHOIDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC152B0)
-#define CIFJBKHOIDF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC15190)
+#define CIFJBKHOIDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD29B0)
+#define CIFJBKHOIDF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDD2890)
 
-inline static constexpr unsigned int CIFJBKHOIDF_TypeDefinitionIndex = 12105;
+inline static constexpr unsigned int CIFJBKHOIDF_TypeDefinitionIndex = 12162;
 
 	class CIFJBKHOIDF : public ::System::Object
 	{
 	public:
-		::System::UInt32 GAFENHHEBPG; // 0x10
-		::System::UInt32 MLDLOJJBIJD; // 0x14
+		::System::UInt32 MLDLOJJBIJD; // 0x10
+		::System::UInt32 GAFENHHEBPG; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIFJBKHOIDF_CTOR_OFFSET))(this);

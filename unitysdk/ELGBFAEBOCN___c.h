@@ -4,18 +4,18 @@
 class ELGBFAEBOCN;
 namespace System { class Object; }
 
-#define ELGBFAEBOCN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2CF780)
-#define ELGBFAEBOCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2CF7B0)
-#define ELGBFAEBOCN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2CF7C0)
+#define ELGBFAEBOCN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5B3C10)
+#define ELGBFAEBOCN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5B3C50)
+#define ELGBFAEBOCN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F5B3C60)
 
-inline static constexpr unsigned int ELGBFAEBOCN___c_TypeDefinitionIndex = 34290;
+inline static constexpr unsigned int ELGBFAEBOCN___c_TypeDefinitionIndex = 35218;
 
 	class ELGBFAEBOCN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x502B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49CF0);
 		}
 
 		static ::System::Void _cctor()

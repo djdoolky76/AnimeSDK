@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class JEDPJHPMPJB;
 
-#define NDNDJODCDEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB531A0)
-#define NDNDJODCDEP_GET_RULE_OFFSET UNITYSDK_OFFSET(0xBB531B0)
+#define NDNDJODCDEP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DC8B0)
+#define NDNDJODCDEP_GET_RULE_OFFSET UNITYSDK_OFFSET(0xC3DC8C0)
 
-inline static constexpr unsigned int NDNDJODCDEP_TypeDefinitionIndex = 80713;
+inline static constexpr unsigned int NDNDJODCDEP_TypeDefinitionIndex = 83493;
 
 	class NDNDJODCDEP : public ::System::Object
 	{

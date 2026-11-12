@@ -5,10 +5,10 @@ class AOKFCBEPNNA;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define AOKFCBEPNNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEA810)
-#define AOKFCBEPNNA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEA6F0)
+#define AOKFCBEPNNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE94300)
+#define AOKFCBEPNNA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE941E0)
 
-inline static constexpr unsigned int AOKFCBEPNNA_TypeDefinitionIndex = 14174;
+inline static constexpr unsigned int AOKFCBEPNNA_TypeDefinitionIndex = 14331;
 
 	class AOKFCBEPNNA : public ::System::Object
 	{

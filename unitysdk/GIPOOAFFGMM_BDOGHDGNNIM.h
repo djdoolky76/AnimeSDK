@@ -4,9 +4,9 @@
 class AFOPMEOBPCM;
 class KOAOAKKCCPK;
 
-#define GIPOOAFFGMM_BDOGHDGNNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x15A55520)
+#define GIPOOAFFGMM_BDOGHDGNNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x16990B70)
 
-inline static constexpr unsigned int GIPOOAFFGMM_BDOGHDGNNIM_TypeDefinitionIndex = 72061;
+inline static constexpr unsigned int GIPOOAFFGMM_BDOGHDGNNIM_TypeDefinitionIndex = 74092;
 
 	class GIPOOAFFGMM_BDOGHDGNNIM : public ::System::Object
 	{

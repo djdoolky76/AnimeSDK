@@ -5,20 +5,20 @@
 namespace RPG::GameCore { class ShowTutorialBlockMask; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IDJPIPHGKMK_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED6F90)
-#define IDJPIPHGKMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15ED6FA0)
-#define IDJPIPHGKMK_IBBLOPBJJJG_OFFSET UNITYSDK_OFFSET(0x15ED7080)
-#define IDJPIPHGKMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ED6FE0)
-#define IDJPIPHGKMK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15ED7130)
-#define IDJPIPHGKMK_TICK_OFFSET UNITYSDK_OFFSET(0x15ED7180)
+#define IDJPIPHGKMK_CTOR_OFFSET UNITYSDK_OFFSET(0x16E417D0)
+#define IDJPIPHGKMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E417E0)
+#define IDJPIPHGKMK_IBBLOPBJJJG_OFFSET UNITYSDK_OFFSET(0x16E418C0)
+#define IDJPIPHGKMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E41820)
+#define IDJPIPHGKMK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16E41970)
+#define IDJPIPHGKMK_TICK_OFFSET UNITYSDK_OFFSET(0x16E419C0)
 
-inline static constexpr unsigned int IDJPIPHGKMK_TypeDefinitionIndex = 58698;
+inline static constexpr unsigned int IDJPIPHGKMK_TypeDefinitionIndex = 59966;
 
 	class IDJPIPHGKMK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowTutorialBlockMask* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowTutorialBlockMask* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowTutorialBlockMask* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowTutorialBlockMask*))((::PBYTE)hIl2Cpp + IDJPIPHGKMK_CTOR_OFFSET))(this, a1, a2);

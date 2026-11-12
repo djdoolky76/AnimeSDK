@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckElfTodayManaged; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HPCHOALOGLK_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC1960)
-#define HPCHOALOGLK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DC1990)
+#define HPCHOALOGLK_CTOR_OFFSET UNITYSDK_OFFSET(0x16D65AC0)
+#define HPCHOALOGLK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D65AF0)
 
-inline static constexpr unsigned int HPCHOALOGLK_TypeDefinitionIndex = 57969;
+inline static constexpr unsigned int HPCHOALOGLK_TypeDefinitionIndex = 59207;
 
 	class HPCHOALOGLK
 	{

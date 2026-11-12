@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xE2FE080)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xED691D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_TypeDefinitionIndex = 68878;
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_TypeDefinitionIndex = 70831;
 
 	class TrainPartyBuildItemDynamicBindValue : public ::System::Object
 	{

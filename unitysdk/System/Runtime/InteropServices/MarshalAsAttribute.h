@@ -7,7 +7,7 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x1C2ADC20)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_MARSHALASATTRIBUTE_COPY_OFFSET UNITYSDK_OFFSET(0x1D434900)
 
 namespace System::Runtime::InteropServices
 {

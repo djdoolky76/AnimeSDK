@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraArrangementPresetRow; }
 
-#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D599330)
-#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D599150)
+#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A9AF0)
+#define RPG_GAMECORE_CHIMERAARRANGEMENTPRESETROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7A9910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraArrangementPresetRow_TypeDefinitionIndex = 13050;
+	inline static constexpr unsigned int ChimeraArrangementPresetRow_TypeDefinitionIndex = 13118;
 
 	class ChimeraArrangementPresetRow : public ::System::Object
 	{

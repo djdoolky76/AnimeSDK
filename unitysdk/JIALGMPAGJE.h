@@ -4,16 +4,16 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkWeatherInEffect; }
 
-#define JIALGMPAGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F5400)
-#define JIALGMPAGJE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F5410)
+#define JIALGMPAGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D876E60)
+#define JIALGMPAGJE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D876E70)
 
-inline static constexpr unsigned int JIALGMPAGJE_TypeDefinitionIndex = 36294;
+inline static constexpr unsigned int JIALGMPAGJE_TypeDefinitionIndex = 37222;
 
 	class JIALGMPAGJE : public ::AJBKGPOEBFG
 	{
 	public:
-		::EGDGOMKKEJI* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* IGHAHBNLIJA; // 0x18
+		::EGDGOMKKEJI* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect* a1, ::EGDGOMKKEJI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_MarkWeatherInEffect*, ::EGDGOMKKEJI*))((::PBYTE)hIl2Cpp + JIALGMPAGJE_CTOR_OFFSET))(this, a1, a2);

@@ -12,7 +12,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int BufferSkip_1__BufferSkip_TypeDefinitionIndex = 45272;
+	inline static constexpr unsigned int BufferSkip_1__BufferSkip_TypeDefinitionIndex = 46301;
 
 	template <typename T>
 	class BufferSkip_1__BufferSkip : public ::Cysharp::Threading::Tasks::MoveNextSource

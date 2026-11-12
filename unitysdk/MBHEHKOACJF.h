@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BlockCameraDitherUpdate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MBHEHKOACJF_CTOR_OFFSET UNITYSDK_OFFSET(0xB85ADA0)
-#define MBHEHKOACJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB85ADD0)
+#define MBHEHKOACJF_CTOR_OFFSET UNITYSDK_OFFSET(0xC0C0D00)
+#define MBHEHKOACJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0C0D30)
 
-inline static constexpr unsigned int MBHEHKOACJF_TypeDefinitionIndex = 57960;
+inline static constexpr unsigned int MBHEHKOACJF_TypeDefinitionIndex = 59198;
 
 	class MBHEHKOACJF
 	{

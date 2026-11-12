@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PropSetupHitBoxGroup; }
 namespace RPG::GameCore { class SingleHitBoxConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSETUPHITBOXGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D955190)
-#define RPG_GAMECORE_PROPSETUPHITBOXGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9551C0)
-#define RPG_GAMECORE_PROPSETUPHITBOXGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D955140)
+#define RPG_GAMECORE_PROPSETUPHITBOXGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6DBF0)
+#define RPG_GAMECORE_PROPSETUPHITBOXGROUP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB6DC20)
+#define RPG_GAMECORE_PROPSETUPHITBOXGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6DBA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupHitBoxGroup_TypeDefinitionIndex = 20390;
+	inline static constexpr unsigned int PropSetupHitBoxGroup_TypeDefinitionIndex = 20725;
 
 	class PropSetupHitBoxGroup : public ::RPG::GameCore::TaskConfig
 	{

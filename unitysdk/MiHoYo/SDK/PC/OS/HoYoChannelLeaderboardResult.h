@@ -5,13 +5,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelLeaderboardResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxLeaderboardExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF30CD0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF30C90)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF30C80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B7870)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1D0B7830)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELLEADERBOARDRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0B7820)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelLeaderboardResult_TypeDefinitionIndex = 8634;
+	inline static constexpr unsigned int HoYoChannelLeaderboardResult_TypeDefinitionIndex = 8643;
 
 	class HoYoChannelLeaderboardResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

@@ -6,20 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class B51RacingTeamRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_B51RACINGTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4351D0)
-#define RPG_GAMECORE_B51RACINGTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D434FD0)
+#define RPG_GAMECORE_B51RACINGTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E655F00)
+#define RPG_GAMECORE_B51RACINGTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E655D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int B51RacingTeamRow_TypeDefinitionIndex = 10956;
+	inline static constexpr unsigned int B51RacingTeamRow_TypeDefinitionIndex = 10972;
 
 	class B51RacingTeamRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 InitialPoint; // 0x28
-		::System::UInt32 ID; // 0x2C
+		::System::UInt32 ID; // 0x28
+		::System::UInt32 InitialPoint; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_B51RACINGTEAMROW_CTOR_OFFSET))(this);

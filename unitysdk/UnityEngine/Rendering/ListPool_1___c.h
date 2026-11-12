@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ListPool_1___c_TypeDefinitionIndex = 35494;
+	inline static constexpr unsigned int ListPool_1___c_TypeDefinitionIndex = 36422;
 
 	template <typename T>
 	class ListPool_1___c : public ::System::Object

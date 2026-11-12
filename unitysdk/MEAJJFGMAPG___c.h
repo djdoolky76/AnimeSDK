@@ -4,18 +4,18 @@
 class MEAJJFGMAPG;
 namespace System { class Object; }
 
-#define MEAJJFGMAPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA07CA0)
-#define MEAJJFGMAPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA07CD0)
-#define MEAJJFGMAPG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA07CE0)
+#define MEAJJFGMAPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD51BE0)
+#define MEAJJFGMAPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD51C10)
+#define MEAJJFGMAPG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD51C20)
 
-inline static constexpr unsigned int MEAJJFGMAPG___c_TypeDefinitionIndex = 27677;
+inline static constexpr unsigned int MEAJJFGMAPG___c_TypeDefinitionIndex = 28208;
 
 	class MEAJJFGMAPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A0E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50D20);
 		}
 
 		static ::System::Void _cctor()

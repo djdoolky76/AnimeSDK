@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD399FF0)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD39A030)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___BUILDEXPSOURCES_B__45_0_OFFSET UNITYSDK_OFFSET(0xD39A060)
-#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___TRIMEXPOVERFLOW_B__41_0_OFFSET UNITYSDK_OFFSET(0xD39A040)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDD01E0)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDDD0220)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___BUILDEXPSOURCES_B__45_0_OFFSET UNITYSDK_OFFSET(0xDDD0250)
+#define RPG_CLIENT_LIGHTCONEQUICKGROWCALCULATOR___C___TRIMEXPOVERFLOW_B__41_0_OFFSET UNITYSDK_OFFSET(0xDDD0230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeQuickGrowCalculator___c_TypeDefinitionIndex = 65723;
+	inline static constexpr unsigned int LightConeQuickGrowCalculator___c_TypeDefinitionIndex = 67649;
 
 	class LightConeQuickGrowCalculator___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__41_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1CC00);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x282B0);
 		}
 
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__45_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1CC08);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x282B8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Predicate_1<::RPG::GameCore::ItemConfig*>** StaticGet___9__41_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1CC10);
+			return (::System::Predicate_1<::RPG::GameCore::ItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x282C0);
 		}
 
 		static ::System::Void _cctor()

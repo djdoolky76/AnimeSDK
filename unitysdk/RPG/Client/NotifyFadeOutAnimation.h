@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class AnimationClip; }
 
-#define RPG_CLIENT_NOTIFYFADEOUTANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0xD9D4900)
-#define RPG_CLIENT_NOTIFYFADEOUTANIMATION_GET_FADEOUTDURATION_OFFSET UNITYSDK_OFFSET(0xD9D48A0)
+#define RPG_CLIENT_NOTIFYFADEOUTANIMATION_CTOR_OFFSET UNITYSDK_OFFSET(0xE46B4B0)
+#define RPG_CLIENT_NOTIFYFADEOUTANIMATION_GET_FADEOUTDURATION_OFFSET UNITYSDK_OFFSET(0xE46B450)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NotifyFadeOutAnimation_TypeDefinitionIndex = 72305;
+	inline static constexpr unsigned int NotifyFadeOutAnimation_TypeDefinitionIndex = 74382;
 
 	class NotifyFadeOutAnimation : public ::UnityEngine::MonoBehaviour
 	{

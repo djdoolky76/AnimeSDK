@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DIDMPBAABII_TrackPlayingState_TypeDefinitionIndex = 43401;
+inline static constexpr unsigned int DIDMPBAABII_TrackPlayingState_TypeDefinitionIndex = 44382;
 
 	enum class DIDMPBAABII_TrackPlayingState : ::System::Int32
 	{

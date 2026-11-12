@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuteEntitySound; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MUTEENTITYSOUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CF6F0)
-#define RPG_GAMECORE_MUTEENTITYSOUND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8CF700)
-#define RPG_GAMECORE_MUTEENTITYSOUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8CF6C0)
+#define RPG_GAMECORE_MUTEENTITYSOUND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE9450)
+#define RPG_GAMECORE_MUTEENTITYSOUND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAE9460)
+#define RPG_GAMECORE_MUTEENTITYSOUND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAE9420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuteEntitySound_TypeDefinitionIndex = 22196;
+	inline static constexpr unsigned int MuteEntitySound_TypeDefinitionIndex = 22601;
 
 	class MuteEntitySound : public ::RPG::GameCore::TaskConfig
 	{

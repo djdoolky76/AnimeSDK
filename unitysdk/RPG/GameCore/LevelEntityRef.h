@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelEntityRef; }
 
-#define RPG_GAMECORE_LEVELENTITYREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7ABE90)
-#define RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7ABDA0)
+#define RPG_GAMECORE_LEVELENTITYREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EF340)
+#define RPG_GAMECORE_LEVELENTITYREF_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9EF250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityRef_TypeDefinitionIndex = 18899;
+	inline static constexpr unsigned int LevelEntityRef_TypeDefinitionIndex = 19061;
 
 	class LevelEntityRef : public ::RPG::GameCore::JsonConfig
 	{

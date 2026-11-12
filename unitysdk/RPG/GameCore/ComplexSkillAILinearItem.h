@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ComplexSkillAILinearItem; }
 
-#define RPG_GAMECORE_COMPLEXSKILLAILINEARITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5CE830)
-#define RPG_GAMECORE_COMPLEXSKILLAILINEARITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5CE5A0)
+#define RPG_GAMECORE_COMPLEXSKILLAILINEARITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7E0DB0)
+#define RPG_GAMECORE_COMPLEXSKILLAILINEARITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7E0B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ComplexSkillAILinearItem_TypeDefinitionIndex = 15556;
+	inline static constexpr unsigned int ComplexSkillAILinearItem_TypeDefinitionIndex = 15714;
 
 	class ComplexSkillAILinearItem : public ::RPG::GameCore::JsonConfig
 	{

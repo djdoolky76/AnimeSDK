@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 namespace UnityEngine { class Transform; }
 
-#define PRESKIRTIK_CTOR_OFFSET UNITYSDK_OFFSET(0xC39B400)
-#define PRESKIRTIK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xC39B340)
+#define PRESKIRTIK_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD15A0)
+#define PRESKIRTIK_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCCD14E0)
 
-inline static constexpr unsigned int PreSkirtIk_TypeDefinitionIndex = 47249;
+inline static constexpr unsigned int PreSkirtIk_TypeDefinitionIndex = 48277;
 
 	class PreSkirtIk : public ::UnityEngine::MonoBehaviour
 	{

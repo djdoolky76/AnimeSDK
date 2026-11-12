@@ -5,25 +5,25 @@ namespace RPG::Client::TeamTowers { class TeamTowersGameStageStarInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE203FF0)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE204030)
-#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C__GET_ACHIEVEDCOUNT_B__4_0_OFFSET UNITYSDK_OFFSET(0xE204040)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xECB10F0)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xECB1130)
+#define RPG_CLIENT_TEAMTOWERS_TEAMTOWERSSTAGEDETAILSTARSVIEWMODEL___C__GET_ACHIEVEDCOUNT_B__4_0_OFFSET UNITYSDK_OFFSET(0xECB1140)
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersStageDetailStarsViewModel___c_TypeDefinitionIndex = 79076;
+	inline static constexpr unsigned int TeamTowersStageDetailStarsViewModel___c_TypeDefinitionIndex = 81852;
 
 	class TeamTowersStageDetailStarsViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x13F70);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x24CE0);
 		}
 
 		static ::System::Func_2<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*, ::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x13F78);
+			return (::System::Func_2<::RPG::Client::TeamTowers::TeamTowersGameStageStarInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TeamTowers", "<>c")->GetStaticField(0x24CE8);
 		}
 
 		static ::System::Void _cctor()

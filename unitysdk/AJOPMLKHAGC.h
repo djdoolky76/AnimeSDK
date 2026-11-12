@@ -4,11 +4,11 @@
 #include "unitysdk/System/ValueTuple_2.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AJOPMLKHAGC_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC88F0)
-#define AJOPMLKHAGC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC84D0)
-#define AJOPMLKHAGC_GIBPGBDMHML_OFFSET UNITYSDK_OFFSET(0x12CC8510)
+#define AJOPMLKHAGC_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA7B70)
+#define AJOPMLKHAGC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DA7730)
+#define AJOPMLKHAGC_GIBPGBDMHML_OFFSET UNITYSDK_OFFSET(0x12DA7770)
 
-inline static constexpr unsigned int AJOPMLKHAGC_TypeDefinitionIndex = 60313;
+inline static constexpr unsigned int AJOPMLKHAGC_TypeDefinitionIndex = 61597;
 
 	class AJOPMLKHAGC : public ::System::Object
 	{

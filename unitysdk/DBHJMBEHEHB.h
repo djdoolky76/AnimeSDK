@@ -6,15 +6,15 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class NewFireProjectile; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DBHJMBEHEHB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE22D0)
-#define DBHJMBEHEHB_KAMBFDCONPJ_OFFSET UNITYSDK_OFFSET(0xDFE22F0)
+#define DBHJMBEHEHB_CTOR_OFFSET UNITYSDK_OFFSET(0xEB84420)
+#define DBHJMBEHEHB_KAMBFDCONPJ_OFFSET UNITYSDK_OFFSET(0xEB84440)
 
-inline static constexpr unsigned int DBHJMBEHEHB_TypeDefinitionIndex = 55232;
+inline static constexpr unsigned int DBHJMBEHEHB_TypeDefinitionIndex = 56413;
 
 	class DBHJMBEHEHB : public ::BBPFGANJMPN
 	{
 	public:
-		::RPG::GameCore::NewFireProjectile* PBGHFKLFOHD; // 0x40
+		::RPG::GameCore::NewFireProjectile* PBGHFKLFOHD; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::NewFireProjectile* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::NewFireProjectile*))((::PBYTE)hIl2Cpp + DBHJMBEHEHB_CTOR_OFFSET))(this, a1, a2);

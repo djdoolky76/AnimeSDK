@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int IStateMachineRunnerPromise_1_TypeDefinitionIndex = 38707;
+	inline static constexpr unsigned int IStateMachineRunnerPromise_1_TypeDefinitionIndex = 39636;
 
 	template <typename T>
 	class IStateMachineRunnerPromise_1

@@ -6,12 +6,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
-#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F279760)
-#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x1F2796E0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE_CTOR_OFFSET UNITYSDK_OFFSET(0x2052A6F0)
+#define UNITYENGINE_PROBUILDER_SHAPES_SHAPE_UPDATEBOUNDS_OFFSET UNITYSDK_OFFSET(0x2052A670)
 
 namespace UnityEngine::ProBuilder::Shapes
 {
-	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 44467;
+	inline static constexpr unsigned int Shape_TypeDefinitionIndex = 45542;
 
 	class Shape : public ::System::Object
 	{

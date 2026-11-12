@@ -8,22 +8,22 @@ namespace RPG::GameCore { class LevelInsertAbilityAbort; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6F3140)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F3260)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F3210)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F31C0)
-#define RPG_GAMECORE_LEVELINSERTABILITYABORT_INIT_OFFSET UNITYSDK_OFFSET(0xE6F3060)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_CLEAR_OFFSET UNITYSDK_OFFSET(0xF1F55B0)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_CTOR_OFFSET UNITYSDK_OFFSET(0xF1F56D0)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF1F5680)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF1F5630)
+#define RPG_GAMECORE_LEVELINSERTABILITYABORT_INIT_OFFSET UNITYSDK_OFFSET(0xF1F54D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInsertAbilityAbort_TypeDefinitionIndex = 56835;
+	inline static constexpr unsigned int LevelInsertAbilityAbort_TypeDefinitionIndex = 58059;
 
 	class LevelInsertAbilityAbort : public ::CMPGEAFHHDC
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* TargetList; // 0x18
-		::RPG::GameCore::GameEntity* CasterEntity; // 0x20
-		::System::String* InsertAbilityName; // 0x28
+		::System::String* InsertAbilityName; // 0x20
+		::RPG::GameCore::GameEntity* CasterEntity; // 0x28
 		::System::Boolean ShowInActionBar; // 0x30
 		::System::Void _ctor()
 		{

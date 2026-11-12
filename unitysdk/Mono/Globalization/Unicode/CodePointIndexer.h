@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C057E20)
-#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER_TOINDEX_OFFSET UNITYSDK_OFFSET(0x1C058050)
+#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DF1D0)
+#define MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER_TOINDEX_OFFSET UNITYSDK_OFFSET(0x1D1DF400)
 
 namespace Mono::Globalization::Unicode
 {
@@ -14,9 +14,9 @@ namespace Mono::Globalization::Unicode
 	{
 	public:
 		::Il2CppArray<::System::Object*>* ranges; // 0x10
-		::System::Int32 defaultCP; // 0x18
-		::System::Int32 TotalCount; // 0x1C
-		::System::Int32 defaultIndex; // 0x20
+		::System::Int32 defaultIndex; // 0x18
+		::System::Int32 defaultCP; // 0x1C
+		::System::Int32 TotalCount; // 0x20
 		::System::Void _ctor(::Il2CppArray<::System::Int32>* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Int32 a3, ::System::Int32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + MONO_GLOBALIZATION_UNICODE_CODEPOINTINDEXER_CTOR_OFFSET))(this, a1, a2, a3, a4);

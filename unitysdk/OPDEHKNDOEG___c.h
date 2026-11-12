@@ -7,29 +7,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Collider; }
 
-#define OPDEHKNDOEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFA7C20)
-#define OPDEHKNDOEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA7C50)
-#define OPDEHKNDOEG___C___DEPLOYBORDERPLAT_B__5_0_OFFSET UNITYSDK_OFFSET(0xBFA7C60)
-#define OPDEHKNDOEG___C___DEPLOYBORDERPLAT_B__5_1_OFFSET UNITYSDK_OFFSET(0xBFA7C90)
+#define OPDEHKNDOEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8A92C0)
+#define OPDEHKNDOEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A92F0)
+#define OPDEHKNDOEG___C___DEPLOYBORDERPLAT_B__5_0_OFFSET UNITYSDK_OFFSET(0xC8A9300)
+#define OPDEHKNDOEG___C___DEPLOYBORDERPLAT_B__5_1_OFFSET UNITYSDK_OFFSET(0xC8A9330)
 
-inline static constexpr unsigned int OPDEHKNDOEG___c_TypeDefinitionIndex = 77066;
+inline static constexpr unsigned int OPDEHKNDOEG___c_TypeDefinitionIndex = 79400;
 
 	class OPDEHKNDOEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__5_1()
 		{
-			return (::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA60);
+			return (::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB70);
 		}
 
 		static ::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__5_0()
 		{
-			return (::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA68);
+			return (::System::Action_3<::OPDEHKNDOEG*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB78);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FA70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CB80);
 		}
 
 		static ::System::Void _cctor()

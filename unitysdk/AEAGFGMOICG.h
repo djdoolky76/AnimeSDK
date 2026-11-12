@@ -7,10 +7,10 @@ class IJFIHJJPHNA;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AEAGFGMOICG_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1C581670)
-#define AEAGFGMOICG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5816D0)
+#define AEAGFGMOICG_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1D702F90)
+#define AEAGFGMOICG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D702FF0)
 
-inline static constexpr unsigned int AEAGFGMOICG_TypeDefinitionIndex = 36198;
+inline static constexpr unsigned int AEAGFGMOICG_TypeDefinitionIndex = 37126;
 
 	class AEAGFGMOICG : public ::System::Object
 	{

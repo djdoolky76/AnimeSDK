@@ -6,21 +6,21 @@ namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::EventSystems { class BaseEventData; }
 namespace UnityEngine::UI { class Button; }
 
-#define JKMPIOCHLNN___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB224770)
-#define JKMPIOCHLNN___C__DISPLAYCLASS1_0__BINDHOLD_B__0_OFFSET UNITYSDK_OFFSET(0xB224EC0)
-#define JKMPIOCHLNN___C__DISPLAYCLASS1_0__BINDHOLD_B__1_OFFSET UNITYSDK_OFFSET(0xB2250A0)
+#define JKMPIOCHLNN___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4CC10)
+#define JKMPIOCHLNN___C__DISPLAYCLASS1_0__BINDHOLD_B__0_OFFSET UNITYSDK_OFFSET(0xBA4D360)
+#define JKMPIOCHLNN___C__DISPLAYCLASS1_0__BINDHOLD_B__1_OFFSET UNITYSDK_OFFSET(0xBA4D540)
 
-inline static constexpr unsigned int JKMPIOCHLNN___c__DisplayClass1_0_TypeDefinitionIndex = 73029;
+inline static constexpr unsigned int JKMPIOCHLNN___c__DisplayClass1_0_TypeDefinitionIndex = 75143;
 
 	class JKMPIOCHLNN___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Button* button; // 0x10
-		::System::Action_1<::System::Object*>* onClick; // 0x18
-		::System::Action_1<::System::Object*>* onHoldRelease; // 0x20
-		::System::Action_1<::System::Object*>* downCallback; // 0x28
-		::System::Object* p; // 0x30
-		::System::Action_1<::System::Object*>* holdBegin; // 0x38
+		::System::Action_1<::System::Object*>* downCallback; // 0x10
+		::System::Action_1<::System::Object*>* holdBegin; // 0x18
+		::System::Object* p; // 0x20
+		::System::Action_1<::System::Object*>* onClick; // 0x28
+		::UnityEngine::UI::Button* button; // 0x30
+		::System::Action_1<::System::Object*>* onHoldRelease; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JKMPIOCHLNN___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TextJoinOverrideType_TypeDefinitionIndex = 15443;
+	inline static constexpr unsigned int TextJoinOverrideType_TypeDefinitionIndex = 15600;
 
 	enum class TextJoinOverrideType : ::System::Int32
 	{

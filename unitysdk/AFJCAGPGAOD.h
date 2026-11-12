@@ -2,20 +2,23 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GridFightRegion.h"
 #include "unitysdk/System/Object.h"
+#include "unitysdk/System/ValueTuple_2.h"
 class NDPFOOJIAIJ;
 namespace RPG::GameCore { class GridFightGetGridEmptySlotParam; }
 namespace RPG::GameCore { class TutorialDynamicParamBase; }
 namespace System { class String; }
 
-#define AFJCAGPGAOD_CCKOMAPMIDP_OFFSET UNITYSDK_OFFSET(0xCF0D4B0)
-#define AFJCAGPGAOD_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0E100)
-#define AFJCAGPGAOD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xCF0D2C0)
-#define AFJCAGPGAOD_HPGMEHJHEBM_OFFSET UNITYSDK_OFFSET(0xCF0D5F0)
-#define AFJCAGPGAOD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xCF0D390)
-#define AFJCAGPGAOD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF0D1F0)
-#define AFJCAGPGAOD_LODDCIJMKND_OFFSET UNITYSDK_OFFSET(0xCF0DE40)
+#define AFJCAGPGAOD_AACIOODHEMM_OFFSET UNITYSDK_OFFSET(0xD5BFD40)
+#define AFJCAGPGAOD_BCBIAJEFCMJ_OFFSET UNITYSDK_OFFSET(0xD5BFA30)
+#define AFJCAGPGAOD_CCKOMAPMIDP_OFFSET UNITYSDK_OFFSET(0xD5BF170)
+#define AFJCAGPGAOD_CTOR_OFFSET UNITYSDK_OFFSET(0xD5C0140)
+#define AFJCAGPGAOD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xD5BEF10)
+#define AFJCAGPGAOD_HPGMEHJHEBM_OFFSET UNITYSDK_OFFSET(0xD5BF1E0)
+#define AFJCAGPGAOD_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xD5BEFE0)
+#define AFJCAGPGAOD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD5BEE40)
+#define AFJCAGPGAOD_LODDCIJMKND_OFFSET UNITYSDK_OFFSET(0xD5BFE80)
 
-inline static constexpr unsigned int AFJCAGPGAOD_TypeDefinitionIndex = 65505;
+inline static constexpr unsigned int AFJCAGPGAOD_TypeDefinitionIndex = 67419;
 
 	class AFJCAGPGAOD : public ::System::Object
 	{
@@ -55,6 +58,16 @@ inline static constexpr unsigned int AFJCAGPGAOD_TypeDefinitionIndex = 65505;
 		::System::UInt32 HPGMEHJHEBM(::System::UInt32 a1, ::Il2CppArray<::RPG::GameCore::GridFightRegion>* a2)
 		{
 			return ((::System::UInt32(*)(::PVOID, ::System::UInt32, ::Il2CppArray<::RPG::GameCore::GridFightRegion>*))((::PBYTE)hIl2Cpp + AFJCAGPGAOD_HPGMEHJHEBM_OFFSET))(this, a1, a2);
+		}
+
+		::System::UInt32 BCBIAJEFCMJ(::Il2CppArray<::RPG::GameCore::GridFightRegion>* a1)
+		{
+			return ((::System::UInt32(*)(::PVOID, ::Il2CppArray<::RPG::GameCore::GridFightRegion>*))((::PBYTE)hIl2Cpp + AFJCAGPGAOD_BCBIAJEFCMJ_OFFSET))(this, a1);
+		}
+
+		::System::ValueTuple_2<::System::UInt32, ::System::UInt32> AACIOODHEMM(::RPG::GameCore::GridFightRegion a1)
+		{
+			return ((::System::ValueTuple_2<::System::UInt32, ::System::UInt32>(*)(::PVOID, ::RPG::GameCore::GridFightRegion))((::PBYTE)hIl2Cpp + AFJCAGPGAOD_AACIOODHEMM_OFFSET))(this, a1);
 		}
 
 	};

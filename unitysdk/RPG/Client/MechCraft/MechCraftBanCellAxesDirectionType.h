@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft
 {
-	inline static constexpr unsigned int MechCraftBanCellAxesDirectionType_TypeDefinitionIndex = 41645;
+	inline static constexpr unsigned int MechCraftBanCellAxesDirectionType_TypeDefinitionIndex = 42620;
 
 	enum class MechCraftBanCellAxesDirectionType : ::System::Int32
 	{

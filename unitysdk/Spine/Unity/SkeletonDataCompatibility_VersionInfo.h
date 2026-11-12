@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED13980)
+#define SPINE_UNITY_SKELETONDATACOMPATIBILITY_VERSIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFC3660)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataCompatibility_VersionInfo_TypeDefinitionIndex = 45005;
+	inline static constexpr unsigned int SkeletonDataCompatibility_VersionInfo_TypeDefinitionIndex = 46080;
 
 	class SkeletonDataCompatibility_VersionInfo : public ::System::Object
 	{

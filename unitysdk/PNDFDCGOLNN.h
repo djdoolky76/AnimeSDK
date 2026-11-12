@@ -5,11 +5,11 @@ namespace RPG::GameCore { class HideModifierEffect; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define PNDFDCGOLNN_CTOR_OFFSET UNITYSDK_OFFSET(0xC333BB0)
-#define PNDFDCGOLNN_JHLKCDBJJJF_OFFSET UNITYSDK_OFFSET(0xC3345C0)
-#define PNDFDCGOLNN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC333BE0)
+#define PNDFDCGOLNN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC66690)
+#define PNDFDCGOLNN_JHLKCDBJJJF_OFFSET UNITYSDK_OFFSET(0xCC671A0)
+#define PNDFDCGOLNN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC666C0)
 
-inline static constexpr unsigned int PNDFDCGOLNN_TypeDefinitionIndex = 55099;
+inline static constexpr unsigned int PNDFDCGOLNN_TypeDefinitionIndex = 56276;
 
 	class PNDFDCGOLNN
 	{

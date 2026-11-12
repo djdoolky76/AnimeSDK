@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class ConfigIniModel; }
 
-#define MIHOYO_SDK_CONFIGINIUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC4EC50)
-#define MIHOYO_SDK_CONFIGINIUTIL_LOADCONFIGINI_OFFSET UNITYSDK_OFFSET(0x1BC4E400)
+#define MIHOYO_SDK_CONFIGINIUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD7DA0)
+#define MIHOYO_SDK_CONFIGINIUTIL_LOADCONFIGINI_OFFSET UNITYSDK_OFFSET(0x1CDD7530)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfigIniUtil_TypeDefinitionIndex = 7976;
+	inline static constexpr unsigned int ConfigIniUtil_TypeDefinitionIndex = 7985;
 
 	class ConfigIniUtil : public ::System::Object
 	{

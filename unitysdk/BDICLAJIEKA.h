@@ -8,18 +8,18 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class PreviewAvatarProxy; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BDICLAJIEKA_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x162FB0E0)
-#define BDICLAJIEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x162FB060)
-#define BDICLAJIEKA_MLAJEHANLNL_OFFSET UNITYSDK_OFFSET(0x162FB510)
-#define BDICLAJIEKA_NKFLPDLCLCM_OFFSET UNITYSDK_OFFSET(0x162FB310)
+#define BDICLAJIEKA_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x170C2640)
+#define BDICLAJIEKA_CTOR_OFFSET UNITYSDK_OFFSET(0x170C25C0)
+#define BDICLAJIEKA_MLAJEHANLNL_OFFSET UNITYSDK_OFFSET(0x170C2A70)
+#define BDICLAJIEKA_NKFLPDLCLCM_OFFSET UNITYSDK_OFFSET(0x170C2870)
 
-inline static constexpr unsigned int BDICLAJIEKA_TypeDefinitionIndex = 62697;
+inline static constexpr unsigned int BDICLAJIEKA_TypeDefinitionIndex = 64131;
 
 	class BDICLAJIEKA : public ::System::Object
 	{
 	public:
-		::MGLBNNIPDMC* CEFLLELKFOP; // 0x10
-		::System::Collections::Generic::Dictionary_2<::AHHNGJGLOKA, ::RPG::Client::PreviewAvatarProxy*>* LMDLPAPLEBK; // 0x18
+		::System::Collections::Generic::Dictionary_2<::AHHNGJGLOKA, ::RPG::Client::PreviewAvatarProxy*>* LMDLPAPLEBK; // 0x10
+		::MGLBNNIPDMC* CEFLLELKFOP; // 0x18
 		::System::Void _ctor(::MGLBNNIPDMC* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::MGLBNNIPDMC*))((::PBYTE)hIl2Cpp + BDICLAJIEKA_CTOR_OFFSET))(this, a1);

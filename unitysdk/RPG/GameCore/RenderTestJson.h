@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RenderTestItemJson; }
 namespace RPG::GameCore { class RenderTestJson; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RENDERTESTJSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D987DD0)
-#define RPG_GAMECORE_RENDERTESTJSON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D987AD0)
+#define RPG_GAMECORE_RENDERTESTJSON_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBA0070)
+#define RPG_GAMECORE_RENDERTESTJSON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9FE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RenderTestJson_TypeDefinitionIndex = 24399;
+	inline static constexpr unsigned int RenderTestJson_TypeDefinitionIndex = 24858;
 
 	class RenderTestJson : public ::RPG::GameCore::JsonConfig
 	{

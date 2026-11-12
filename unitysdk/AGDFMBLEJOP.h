@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/VersusBarQuestStatus.h"
 #include "unitysdk/System/Object.h"
 
-#define AGDFMBLEJOP_CTOR_OFFSET UNITYSDK_OFFSET(0xCF26730)
+#define AGDFMBLEJOP_CTOR_OFFSET UNITYSDK_OFFSET(0xD5DCE30)
 
-inline static constexpr unsigned int AGDFMBLEJOP_TypeDefinitionIndex = 55588;
+inline static constexpr unsigned int AGDFMBLEJOP_TypeDefinitionIndex = 56784;
 
 	class AGDFMBLEJOP : public ::System::Object
 	{

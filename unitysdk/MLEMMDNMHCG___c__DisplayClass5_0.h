@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PHCMIJEDENP;
 
-#define MLEMMDNMHCG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C570700)
-#define MLEMMDNMHCG___C__DISPLAYCLASS5_0__GETTALENTPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1C572D00)
+#define MLEMMDNMHCG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F2090)
+#define MLEMMDNMHCG___C__DISPLAYCLASS5_0__GETTALENTPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1D6F4660)
 
-inline static constexpr unsigned int MLEMMDNMHCG___c__DisplayClass5_0_TypeDefinitionIndex = 41881;
+inline static constexpr unsigned int MLEMMDNMHCG___c__DisplayClass5_0_TypeDefinitionIndex = 42856;
 
 	class MLEMMDNMHCG___c__DisplayClass5_0 : public ::System::Object
 	{

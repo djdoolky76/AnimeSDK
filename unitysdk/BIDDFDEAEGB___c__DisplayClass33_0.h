@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MapEntityDef; }
 
-#define BIDDFDEAEGB___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB49C150)
-#define BIDDFDEAEGB___C__DISPLAYCLASS33_0__REMOVESERVERENTITYDEF_B__0_OFFSET UNITYSDK_OFFSET(0xB4A1F90)
+#define BIDDFDEAEGB___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2F3C0)
+#define BIDDFDEAEGB___C__DISPLAYCLASS33_0__REMOVESERVERENTITYDEF_B__0_OFFSET UNITYSDK_OFFSET(0xBE350E0)
 
-inline static constexpr unsigned int BIDDFDEAEGB___c__DisplayClass33_0_TypeDefinitionIndex = 62111;
+inline static constexpr unsigned int BIDDFDEAEGB___c__DisplayClass33_0_TypeDefinitionIndex = 63524;
 
 	class BIDDFDEAEGB___c__DisplayClass33_0 : public ::System::Object
 	{

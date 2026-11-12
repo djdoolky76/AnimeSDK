@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/SWRT/BVH8_CWNodeUnpacked.h"
 
-#define SWRT_BVH8_CWNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C35DD0)
+#define SWRT_BVH8_CWNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x3E84D70)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH8_CWNode_TypeDefinitionIndex = 37509;
+	inline static constexpr unsigned int BVH8_CWNode_TypeDefinitionIndex = 38437;
 
 	struct alignas(4) BVH8_CWNode
 	{

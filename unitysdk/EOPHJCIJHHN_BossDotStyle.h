@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EOPHJCIJHHN_BossDotStyle_TypeDefinitionIndex = 71608;
+inline static constexpr unsigned int EOPHJCIJHHN_BossDotStyle_TypeDefinitionIndex = 73596;
 
 	enum class EOPHJCIJHHN_BossDotStyle : ::System::Int32
 	{

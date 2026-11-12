@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int Lists_TypeDefinitionIndex = 5578;
+	inline static constexpr unsigned int Lists_TypeDefinitionIndex = 5583;
 
 	class Lists : public ::System::Object
 	{

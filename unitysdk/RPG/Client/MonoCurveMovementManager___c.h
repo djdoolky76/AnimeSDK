@@ -5,31 +5,31 @@ namespace RPG::Client { class CurveMovementHandler; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD740E00)
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD740E40)
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C__ISALLMOVEMENTHANDLERCOMPLETED_B__21_0_OFFSET UNITYSDK_OFFSET(0xD740E70)
-#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C__ISANYMOVEMENTHANDLERMOVING_B__20_0_OFFSET UNITYSDK_OFFSET(0xD740E50)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1D4370)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1D43B0)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C__ISALLMOVEMENTHANDLERCOMPLETED_B__21_0_OFFSET UNITYSDK_OFFSET(0xE1D43E0)
+#define RPG_CLIENT_MONOCURVEMOVEMENTMANAGER___C__ISANYMOVEMENTHANDLERMOVING_B__20_0_OFFSET UNITYSDK_OFFSET(0xE1D43C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveMovementManager___c_TypeDefinitionIndex = 68550;
+	inline static constexpr unsigned int MonoCurveMovementManager___c_TypeDefinitionIndex = 70498;
 
 	class MonoCurveMovementManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B110);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A6D0);
 		}
 
 		static ::System::Func_2<::RPG::Client::CurveMovementHandler*, ::System::Boolean>** StaticGet___9__20_0()
 		{
-			return (::System::Func_2<::RPG::Client::CurveMovementHandler*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B118);
+			return (::System::Func_2<::RPG::Client::CurveMovementHandler*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A6D8);
 		}
 
 		static ::System::Func_2<::RPG::Client::CurveMovementHandler*, ::System::Boolean>** StaticGet___9__21_0()
 		{
-			return (::System::Func_2<::RPG::Client::CurveMovementHandler*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B120);
+			return (::System::Func_2<::RPG::Client::CurveMovementHandler*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A6E0);
 		}
 
 		static ::System::Void _cctor()

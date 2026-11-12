@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_UIRANDOMUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xE3F4BC0)
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0xE3F4B00)
-#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0xE3F4B70)
+#define RPG_CLIENT_UIRANDOMUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xEEAF7B0)
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEFLOAT_OFFSET UNITYSDK_OFFSET(0xEEAF6F0)
+#define RPG_CLIENT_UIRANDOMUTILS_RANGEINT_OFFSET UNITYSDK_OFFSET(0xEEAF760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 73181;
+	inline static constexpr unsigned int UIRandomUtils_TypeDefinitionIndex = 75295;
 
 	class UIRandomUtils : public ::System::Object
 	{

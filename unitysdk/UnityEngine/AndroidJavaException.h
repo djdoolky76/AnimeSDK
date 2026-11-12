@@ -3,12 +3,12 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define UNITYENGINE_ANDROIDJAVAEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3ACF50)
-#define UNITYENGINE_ANDROIDJAVAEXCEPTION_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x1F3AF2C0)
+#define UNITYENGINE_ANDROIDJAVAEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x2065DDA0)
+#define UNITYENGINE_ANDROIDJAVAEXCEPTION_GET_STACKTRACE_OFFSET UNITYSDK_OFFSET(0x20660110)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AndroidJavaException_TypeDefinitionIndex = 5677;
+	inline static constexpr unsigned int AndroidJavaException_TypeDefinitionIndex = 5683;
 
 	class AndroidJavaException : public ::System::Exception
 	{

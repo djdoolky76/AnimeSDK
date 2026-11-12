@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityChan { class SpringManager; }
 
-inline static constexpr unsigned int BBIOBFKEKCF_TypeDefinitionIndex = 68466;
+inline static constexpr unsigned int BBIOBFKEKCF_TypeDefinitionIndex = 70413;
 
 	struct alignas(8) BBIOBFKEKCF
 	{

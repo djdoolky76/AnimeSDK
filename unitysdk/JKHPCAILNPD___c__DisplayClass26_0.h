@@ -7,10 +7,10 @@ class JKHPCAILNPD;
 class NKIJFPHFJCO;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define JKHPCAILNPD___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C569780)
-#define JKHPCAILNPD___C__DISPLAYCLASS26_0___REFRESHFULLLINEBUFFEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0x1C569C60)
+#define JKHPCAILNPD___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EB120)
+#define JKHPCAILNPD___C__DISPLAYCLASS26_0___REFRESHFULLLINEBUFFEFFECT_B__2_OFFSET UNITYSDK_OFFSET(0x1D6EB600)
 
-inline static constexpr unsigned int JKHPCAILNPD___c__DisplayClass26_0_TypeDefinitionIndex = 41757;
+inline static constexpr unsigned int JKHPCAILNPD___c__DisplayClass26_0_TypeDefinitionIndex = 42732;
 
 	class JKHPCAILNPD___c__DisplayClass26_0 : public ::System::Object
 	{

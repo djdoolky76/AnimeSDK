@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Linq/LineInfoAnnotation.h"
 
-#define SYSTEM_XML_LINQ_LINEINFOENDELEMENTANNOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82520)
+#define SYSTEM_XML_LINQ_LINEINFOENDELEMENTANNOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x20131D00)
 
 namespace System::Xml::Linq
 {

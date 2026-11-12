@@ -7,24 +7,24 @@ namespace MiHoYo::SDK { class HoYoSDKNetworkNative_HoYoNetworkWriteCallback; }
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkNative___O_TypeDefinitionIndex = 46123;
+	inline static constexpr unsigned int HoYoSDKNetworkNative___O_TypeDefinitionIndex = 47152;
 
 	class HoYoSDKNetworkNative___O : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkWriteCallback** StaticGet__0___HoYoNetworkWriteInternalCallback()
-		{
-			return (::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkWriteCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x22DE0);
-		}
-
 		static ::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkProgressCallback** StaticGet__2___HoYoNetworkProgressInternalCallback()
 		{
-			return (::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkProgressCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x22DE8);
+			return (::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkProgressCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1DDC0);
+		}
+
+		static ::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkWriteCallback** StaticGet__0___HoYoNetworkWriteInternalCallback()
+		{
+			return (::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkWriteCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1DDC8);
 		}
 
 		static ::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkHeaderCallback** StaticGet__1___HoYoNetworkHeaderInternalCallback()
 		{
-			return (::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkHeaderCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x22DF0);
+			return (::MiHoYo::SDK::HoYoSDKNetworkNative_HoYoNetworkHeaderCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1DDD0);
 		}
 
 	};

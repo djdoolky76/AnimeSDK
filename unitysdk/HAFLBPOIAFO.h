@@ -4,20 +4,20 @@
 namespace RPG::Client { class RPGFadeAnimation; }
 namespace UnityEngine { class Animation; }
 
-#define HAFLBPOIAFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B73430)
-#define HAFLBPOIAFO_EEHAFGBMFAA_OFFSET UNITYSDK_OFFSET(0x15B730A0)
-#define HAFLBPOIAFO_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x15B73050)
-#define HAFLBPOIAFO_MPFLEGNNDCH_OFFSET UNITYSDK_OFFSET(0x15B733C0)
-#define HAFLBPOIAFO_PEODBEAFGAD_OFFSET UNITYSDK_OFFSET(0x15B73230)
-#define HAFLBPOIAFO__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B72FD0)
+#define HAFLBPOIAFO_CTOR_OFFSET UNITYSDK_OFFSET(0x16AF9F00)
+#define HAFLBPOIAFO_EEHAFGBMFAA_OFFSET UNITYSDK_OFFSET(0x16AF9B70)
+#define HAFLBPOIAFO_MPFLEGNNDCH_OFFSET UNITYSDK_OFFSET(0x16AF9E90)
+#define HAFLBPOIAFO_PEODBEAFGAD_OFFSET UNITYSDK_OFFSET(0x16AF9D00)
+#define HAFLBPOIAFO__ONBIND_OFFSET UNITYSDK_OFFSET(0x16AF99F0)
+#define HAFLBPOIAFO__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x16AF9B20)
 
-inline static constexpr unsigned int HAFLBPOIAFO_TypeDefinitionIndex = 72189;
+inline static constexpr unsigned int HAFLBPOIAFO_TypeDefinitionIndex = 74249;
 
 	class HAFLBPOIAFO : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Animation* KCOAILOHDND; // 0x60
-		::RPG::Client::RPGFadeAnimation* BFOLJLOAOCF; // 0x68
+		::RPG::Client::RPGFadeAnimation* BFOLJLOAOCF; // 0x60
+		::UnityEngine::Animation* KCOAILOHDND; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAFLBPOIAFO_CTOR_OFFSET))(this);
@@ -28,9 +28,9 @@ inline static constexpr unsigned int HAFLBPOIAFO_TypeDefinitionIndex = 72189;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAFLBPOIAFO__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAFLBPOIAFO_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HAFLBPOIAFO__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void PEODBEAFGAD()

@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define LMGAOOEJHIJ_NABCFOILKJN_AKGEFMLNFIC_OFFSET UNITYSDK_OFFSET(0xB77F860)
-#define LMGAOOEJHIJ_NABCFOILKJN_CLOJHADCIIK_OFFSET UNITYSDK_OFFSET(0xB780150)
-#define LMGAOOEJHIJ_NABCFOILKJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB77F590)
-#define LMGAOOEJHIJ_NABCFOILKJN_ILCJKPFHDCP_OFFSET UNITYSDK_OFFSET(0xB77FA60)
-#define LMGAOOEJHIJ_NABCFOILKJN_KMAAFBPPINO_OFFSET UNITYSDK_OFFSET(0xB77F660)
-#define LMGAOOEJHIJ_NABCFOILKJN_MJEBNLCHNEB_OFFSET UNITYSDK_OFFSET(0xB77F5A0)
+#define LMGAOOEJHIJ_NABCFOILKJN_AKGEFMLNFIC_OFFSET UNITYSDK_OFFSET(0xC01F950)
+#define LMGAOOEJHIJ_NABCFOILKJN_CLOJHADCIIK_OFFSET UNITYSDK_OFFSET(0xC020240)
+#define LMGAOOEJHIJ_NABCFOILKJN_CTOR_OFFSET UNITYSDK_OFFSET(0xC01F680)
+#define LMGAOOEJHIJ_NABCFOILKJN_ILCJKPFHDCP_OFFSET UNITYSDK_OFFSET(0xC01FB50)
+#define LMGAOOEJHIJ_NABCFOILKJN_KMAAFBPPINO_OFFSET UNITYSDK_OFFSET(0xC01F750)
+#define LMGAOOEJHIJ_NABCFOILKJN_MJEBNLCHNEB_OFFSET UNITYSDK_OFFSET(0xC01F690)
 
-inline static constexpr unsigned int LMGAOOEJHIJ_NABCFOILKJN_TypeDefinitionIndex = 70363;
+inline static constexpr unsigned int LMGAOOEJHIJ_NABCFOILKJN_TypeDefinitionIndex = 72329;
 
 	class LMGAOOEJHIJ_NABCFOILKJN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GICNGBKIMMF; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* JGHCMAFNNHO; // 0x10
 		::UnityEngine::MaterialPropertyBlock* COHNLCNKKND; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>* JGHCMAFNNHO; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Matrix4x4>* GICNGBKIMMF; // 0x20
 		::System::Collections::Generic::List_1<::System::Int32>* CADKJJELDNH; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::System::Single>*>* OJFPHAODBJK; // 0x30
 		::System::Int32 CNMCPNKMNLK; // 0x38

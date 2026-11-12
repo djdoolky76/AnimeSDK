@@ -6,14 +6,14 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CollaborationGachaMergeGroupData___O_TypeDefinitionIndex = 64316;
+	inline static constexpr unsigned int CollaborationGachaMergeGroupData___O_TypeDefinitionIndex = 65761;
 
 	class CollaborationGachaMergeGroupData___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::BaseGachaPoolData*>** StaticGet__0___BaseGachaPoolDataComparison()
 		{
-			return (::System::Comparison_1<::RPG::Client::BaseGachaPoolData*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x19250);
+			return (::System::Comparison_1<::RPG::Client::BaseGachaPoolData*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x17A00);
 		}
 
 	};

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Version; }
 
-#define SYSTEM_NET_HTTPVERSION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F05C4C0)
+#define SYSTEM_NET_HTTPVERSION_CCTOR_OFFSET UNITYSDK_OFFSET(0x2030BFC0)
 
 namespace System::Net
 {
@@ -14,12 +14,12 @@ namespace System::Net
 	public:
 		static ::System::Version** StaticGet_Version10()
 		{
-			return (::System::Version**)UnitySDK::FromName("System.Net", "HttpVersion")->GetStaticField(0xBEB0);
+			return (::System::Version**)UnitySDK::FromName("System.Net", "HttpVersion")->GetStaticField(0x30260);
 		}
 
 		static ::System::Version** StaticGet_Version11()
 		{
-			return (::System::Version**)UnitySDK::FromName("System.Net", "HttpVersion")->GetStaticField(0xBEB8);
+			return (::System::Version**)UnitySDK::FromName("System.Net", "HttpVersion")->GetStaticField(0x30268);
 		}
 
 		static ::System::Void _cctor()

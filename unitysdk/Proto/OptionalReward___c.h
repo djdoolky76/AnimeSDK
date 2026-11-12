@@ -4,20 +4,20 @@
 namespace Proto { class OptionalReward; }
 namespace System { class Object; }
 
-#define PROTO_OPTIONALREWARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E008840)
-#define PROTO_OPTIONALREWARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E008880)
-#define PROTO_OPTIONALREWARD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E008890)
+#define PROTO_OPTIONALREWARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2D8FF0)
+#define PROTO_OPTIONALREWARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D9030)
+#define PROTO_OPTIONALREWARD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2D9040)
 
 namespace Proto
 {
-	inline static constexpr unsigned int OptionalReward___c_TypeDefinitionIndex = 26554;
+	inline static constexpr unsigned int OptionalReward___c_TypeDefinitionIndex = 27085;
 
 	class OptionalReward___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x44210);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x51210);
 		}
 
 		static ::System::Void _cctor()

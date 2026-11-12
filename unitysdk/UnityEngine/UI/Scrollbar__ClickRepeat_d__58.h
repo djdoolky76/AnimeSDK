@@ -6,16 +6,16 @@ namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine::UI { class Scrollbar; }
 
-#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_CTOR_OFFSET UNITYSDK_OFFSET(0x1F549480)
-#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F54A190)
-#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F54A540)
-#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1F54A5A0)
-#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1F54A550)
-#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1F54A180)
+#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_CTOR_OFFSET UNITYSDK_OFFSET(0x207F9330)
+#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x207FA040)
+#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x207FA3F0)
+#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x207FA450)
+#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x207FA400)
+#define UNITYENGINE_UI_SCROLLBAR__CLICKREPEAT_D__58_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x207FA030)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Scrollbar__ClickRepeat_d__58_TypeDefinitionIndex = 6837;
+	inline static constexpr unsigned int Scrollbar__ClickRepeat_d__58_TypeDefinitionIndex = 6848;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41, typename T42, typename T43, typename T44, typename T45, typename T46, typename T47, typename T48, typename T49, typename T50, typename T51, typename T52, typename T53, typename T54, typename T55, typename T56, typename T57, typename T58>
 	class Scrollbar__ClickRepeat_d__58 : public ::System::Object

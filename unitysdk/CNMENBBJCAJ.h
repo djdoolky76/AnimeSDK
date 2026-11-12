@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CNMENBBJCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA59B60)
+#define CNMENBBJCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE5F2470)
 
-inline static constexpr unsigned int CNMENBBJCAJ_TypeDefinitionIndex = 79651;
+inline static constexpr unsigned int CNMENBBJCAJ_TypeDefinitionIndex = 82428;
 
 	class CNMENBBJCAJ : public ::System::Object
 	{

@@ -6,10 +6,10 @@
 class GHCECAKHKJP;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyContext_1; }
 
-#define COLCDJNDLDD_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0xDCBA390)
-#define COLCDJNDLDD_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBA230)
+#define COLCDJNDLDD_CALCULATEVALUE_OFFSET UNITYSDK_OFFSET(0xE606E30)
+#define COLCDJNDLDD_CTOR_OFFSET UNITYSDK_OFFSET(0xE606CD0)
 
-inline static constexpr unsigned int COLCDJNDLDD_TypeDefinitionIndex = 75128;
+inline static constexpr unsigned int COLCDJNDLDD_TypeDefinitionIndex = 77455;
 
 	class COLCDJNDLDD : public ::System::Object
 	{

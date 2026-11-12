@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimSurfaceMapDefinitionConfig; }
 
-#define RPG_GAMECORE_FIVEDIMSURFACEMAPDEFINITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E0790)
-#define RPG_GAMECORE_FIVEDIMSURFACEMAPDEFINITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6E0750)
+#define RPG_GAMECORE_FIVEDIMSURFACEMAPDEFINITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EAB40)
+#define RPG_GAMECORE_FIVEDIMSURFACEMAPDEFINITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8EAB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSurfaceMapDefinitionConfig_TypeDefinitionIndex = 18521;
+	inline static constexpr unsigned int FiveDimSurfaceMapDefinitionConfig_TypeDefinitionIndex = 18681;
 
 	class FiveDimSurfaceMapDefinitionConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvFireStimulus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLMMLCIEDHP_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B2960)
-#define DLMMLCIEDHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8B2990)
+#define DLMMLCIEDHP_CTOR_OFFSET UNITYSDK_OFFSET(0x106228E0)
+#define DLMMLCIEDHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x10622910)
 
-inline static constexpr unsigned int DLMMLCIEDHP_TypeDefinitionIndex = 52374;
+inline static constexpr unsigned int DLMMLCIEDHP_TypeDefinitionIndex = 53480;
 
 	class DLMMLCIEDHP
 	{

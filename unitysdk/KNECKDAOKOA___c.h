@@ -4,18 +4,18 @@
 class KNECKDAOKOA;
 namespace System { class Object; }
 
-#define KNECKDAOKOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8A1E00)
-#define KNECKDAOKOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A1E40)
-#define KNECKDAOKOA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8A1E50)
+#define KNECKDAOKOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBBDB00)
+#define KNECKDAOKOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBBDB40)
+#define KNECKDAOKOA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FBBDB50)
 
-inline static constexpr unsigned int KNECKDAOKOA___c_TypeDefinitionIndex = 31756;
+inline static constexpr unsigned int KNECKDAOKOA___c_TypeDefinitionIndex = 32669;
 
 	class KNECKDAOKOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23B90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BE10);
 		}
 
 		static ::System::Void _cctor()

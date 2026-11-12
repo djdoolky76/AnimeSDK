@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define LGHLMNLLNBB_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0xB697C60)
-#define LGHLMNLLNBB_CTOR_OFFSET UNITYSDK_OFFSET(0xB697CB0)
-#define LGHLMNLLNBB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB697B10)
-#define LGHLMNLLNBB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB697A00)
+#define LGHLMNLLNBB_BIOBBNGDGDF_OFFSET UNITYSDK_OFFSET(0xBF2EDB0)
+#define LGHLMNLLNBB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2EE00)
+#define LGHLMNLLNBB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBF2EC60)
+#define LGHLMNLLNBB__ONBIND_OFFSET UNITYSDK_OFFSET(0xBF2EAE0)
 
-inline static constexpr unsigned int LGHLMNLLNBB_TypeDefinitionIndex = 71861;
+inline static constexpr unsigned int LGHLMNLLNBB_TypeDefinitionIndex = 73882;
 
 	class LGHLMNLLNBB : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
-		::UnityEngine::Transform* GHGAKNDLKGM; // 0x68
+		::UnityEngine::Transform* GHGAKNDLKGM; // 0x60
+		::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
 		::UnityEngine::Transform* CBFEKJKIHLN; // 0x70
 		::System::Boolean IAPJFCPEOBL; // 0x78
 		// static const ::System::String* FBJEELGJKLK; // 0x0

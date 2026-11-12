@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetNpcStatus; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETNPCSTATUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABE2F0)
-#define RPG_GAMECORE_SETNPCSTATUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABE320)
-#define RPG_GAMECORE_SETNPCSTATUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABE2A0)
+#define RPG_GAMECORE_SETNPCSTATUS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD0520)
+#define RPG_GAMECORE_SETNPCSTATUS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD0550)
+#define RPG_GAMECORE_SETNPCSTATUS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD04D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNpcStatus_TypeDefinitionIndex = 20340;
+	inline static constexpr unsigned int SetNpcStatus_TypeDefinitionIndex = 20675;
 
 	class SetNpcStatus : public ::RPG::GameCore::TaskConfig
 	{

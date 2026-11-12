@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int TriggerShapeController_2_TypeDefinitionIndex = 73976;
+	inline static constexpr unsigned int TriggerShapeController_2_TypeDefinitionIndex = 76112;
 
 	template <typename T1, typename T2>
 	class TriggerShapeController_2 : public ::System::Object

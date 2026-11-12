@@ -4,7 +4,7 @@
 
 namespace XLua
 {
-	inline static constexpr unsigned int CastToInt_1_CastToIntFunc_TypeDefinitionIndex = 50257;
+	inline static constexpr unsigned int CastToInt_1_CastToIntFunc_TypeDefinitionIndex = 51308;
 
 	template <typename T>
 	class CastToInt_1_CastToIntFunc : public ::System::MulticastDelegate

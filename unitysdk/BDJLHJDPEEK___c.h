@@ -4,18 +4,18 @@
 class BDJLHJDPEEK;
 namespace System { class Object; }
 
-#define BDJLHJDPEEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9187D0)
-#define BDJLHJDPEEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E918800)
-#define BDJLHJDPEEK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E918810)
+#define BDJLHJDPEEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBDD660)
+#define BDJLHJDPEEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBDD690)
+#define BDJLHJDPEEK___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FBDD6A0)
 
-inline static constexpr unsigned int BDJLHJDPEEK___c_TypeDefinitionIndex = 33037;
+inline static constexpr unsigned int BDJLHJDPEEK___c_TypeDefinitionIndex = 33952;
 
 	class BDJLHJDPEEK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DD70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46530);
 		}
 
 		static ::System::Void _cctor()

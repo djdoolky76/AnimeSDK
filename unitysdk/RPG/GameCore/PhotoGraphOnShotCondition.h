@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphOnShotCondition; }
 
-#define RPG_GAMECORE_PHOTOGRAPHONSHOTCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D911BA0)
-#define RPG_GAMECORE_PHOTOGRAPHONSHOTCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D911B10)
+#define RPG_GAMECORE_PHOTOGRAPHONSHOTCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2ADF0)
+#define RPG_GAMECORE_PHOTOGRAPHONSHOTCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2AD60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphOnShotCondition_TypeDefinitionIndex = 21649;
+	inline static constexpr unsigned int PhotoGraphOnShotCondition_TypeDefinitionIndex = 22037;
 
 	class PhotoGraphOnShotCondition : public ::RPG::GameCore::JsonConfig
 	{

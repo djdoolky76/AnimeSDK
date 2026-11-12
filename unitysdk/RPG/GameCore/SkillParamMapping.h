@@ -7,12 +7,12 @@ namespace RPG::GameCore { class SkillParamMapping; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_SKILLPARAMMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEFC70)
-#define RPG_GAMECORE_SKILLPARAMMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEFAA0)
+#define RPG_GAMECORE_SKILLPARAMMAPPING_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED01AC0)
+#define RPG_GAMECORE_SKILLPARAMMAPPING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED018F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillParamMapping_TypeDefinitionIndex = 18173;
+	inline static constexpr unsigned int SkillParamMapping_TypeDefinitionIndex = 18335;
 
 	class SkillParamMapping : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class FAICNBKIELL;
 namespace System { class Object; }
 
-#define FAICNBKIELL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E323980)
-#define FAICNBKIELL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3239B0)
-#define FAICNBKIELL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E3239C0)
+#define FAICNBKIELL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6091D0)
+#define FAICNBKIELL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F609200)
+#define FAICNBKIELL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F609210)
 
-inline static constexpr unsigned int FAICNBKIELL___c_TypeDefinitionIndex = 33687;
+inline static constexpr unsigned int FAICNBKIELL___c_TypeDefinitionIndex = 34602;
 
 	class FAICNBKIELL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57FC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55640);
 		}
 
 		static ::System::Void _cctor()

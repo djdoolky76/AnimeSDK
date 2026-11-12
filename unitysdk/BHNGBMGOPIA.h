@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BHNGBMGOPIA_CTOR_OFFSET UNITYSDK_OFFSET(0xB48F250)
+#define BHNGBMGOPIA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB47FA0)
 
-inline static constexpr unsigned int BHNGBMGOPIA_TypeDefinitionIndex = 72629;
+inline static constexpr unsigned int BHNGBMGOPIA_TypeDefinitionIndex = 74708;
 
 	class BHNGBMGOPIA : public ::System::Object
 	{

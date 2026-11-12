@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_NPCBODYSIZEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD9DC2F0)
-#define RPG_CLIENT_NPCBODYSIZEINFO_KEPMMNCIGDK_OFFSET UNITYSDK_OFFSET(0xD9DC160)
+#define RPG_CLIENT_NPCBODYSIZEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE4727C0)
+#define RPG_CLIENT_NPCBODYSIZEINFO_KEPMMNCIGDK_OFFSET UNITYSDK_OFFSET(0xE472630)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NpcBodySizeInfo_TypeDefinitionIndex = 60048;
+	inline static constexpr unsigned int NpcBodySizeInfo_TypeDefinitionIndex = 61332;
 
 	class NpcBodySizeInfo : public ::System::Object
 	{

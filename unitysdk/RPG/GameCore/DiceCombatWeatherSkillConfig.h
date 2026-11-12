@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DiceCombatNotAvatarPreviewConfig; }
 namespace RPG::GameCore { class DiceCombatSkillAIEffectConfig; }
 namespace RPG::GameCore { class DiceCombatWeatherSkillConfig; }
 
-#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6165B0)
-#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D616480)
+#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E854640)
+#define RPG_GAMECORE_DICECOMBATWEATHERSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E854510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatWeatherSkillConfig_TypeDefinitionIndex = 16161;
+	inline static constexpr unsigned int DiceCombatWeatherSkillConfig_TypeDefinitionIndex = 16319;
 
 	class DiceCombatWeatherSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -6,23 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventurePlayerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREPLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3CC350)
-#define RPG_GAMECORE_ADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3CBBF0)
+#define RPG_GAMECORE_ADVENTUREPLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DB290)
+#define RPG_GAMECORE_ADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5DAB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventurePlayerRow_TypeDefinitionIndex = 12584;
+	inline static constexpr unsigned int AdventurePlayerRow_TypeDefinitionIndex = 12651;
 
 	class AdventurePlayerRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x10
-		::System::String* PlayerJsonPath; // 0x18
-		::System::String* DefaultAvatarHeadIconPath; // 0x20
-		::System::String* PlayerPrefabPath; // 0x28
-		::RPG::Client::TextID PlayerName; // 0x30
-		::System::UInt32 ID; // 0x40
-		::System::UInt32 AvatarID; // 0x44
+		::System::String* PlayerJsonPath; // 0x10
+		::System::String* PlayerPrefabPath; // 0x18
+		::Il2CppArray<::System::UInt32>* MazeSkillIdList; // 0x20
+		::System::String* DefaultAvatarHeadIconPath; // 0x28
+		::System::UInt32 ID; // 0x30
+		::System::UInt32 AvatarID; // 0x34
+		::RPG::Client::TextID PlayerName; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREPLAYERROW_CTOR_OFFSET))(this);

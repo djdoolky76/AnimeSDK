@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define NIBPDHCDKHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9660C0)
+#define NIBPDHCDKHD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB27EC0)
 
-inline static constexpr unsigned int NIBPDHCDKHD_TypeDefinitionIndex = 42806;
+inline static constexpr unsigned int NIBPDHCDKHD_TypeDefinitionIndex = 43786;
 
 	class NIBPDHCDKHD : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

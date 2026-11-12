@@ -5,12 +5,12 @@ class MBKHJOFOACA;
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 namespace UnityEngine { class Transform; }
 
-#define ELECJOJHOAJ_BJLJAHMLKIO_OFFSET UNITYSDK_OFFSET(0x1551EB90)
-#define ELECJOJHOAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1551E380)
-#define ELECJOJHOAJ_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1551E560)
-#define ELECJOJHOAJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1551E760)
+#define ELECJOJHOAJ_BJLJAHMLKIO_OFFSET UNITYSDK_OFFSET(0x16466FF0)
+#define ELECJOJHOAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x164667E0)
+#define ELECJOJHOAJ_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x164669C0)
+#define ELECJOJHOAJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16466BC0)
 
-inline static constexpr unsigned int ELECJOJHOAJ_TypeDefinitionIndex = 77665;
+inline static constexpr unsigned int ELECJOJHOAJ_TypeDefinitionIndex = 80400;
 
 	class ELECJOJHOAJ : public ::System::Object
 	{
@@ -18,9 +18,9 @@ inline static constexpr unsigned int ELECJOJHOAJ_TypeDefinitionIndex = 77665;
 		::RPG::Client::Prop::DuelChimeraProxy* COKDGBEABHP; // 0x10
 		::UnityEngine::Transform* HKJLKMCDMGB; // 0x18
 		::UnityEngine::Transform* IBLBKLNHKLL; // 0x20
-		::System::Single LLNIGIGFCEA; // 0x28
-		::System::Boolean HCOFMFKFMDK; // 0x2C
+		::System::Boolean HCOFMFKFMDK; // 0x28
 		::System::Byte _padding0[0x3];
+		::System::Single LLNIGIGFCEA; // 0x2C
 		::System::Single FLHOEGBFPJB; // 0x30
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::RPG::Client::Prop::DuelChimeraProxy* a3, ::MBKHJOFOACA* a4)
 		{

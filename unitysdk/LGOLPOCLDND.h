@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class GridFightShowTraitEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGOLPOCLDND_CTOR_OFFSET UNITYSDK_OFFSET(0xB69D850)
-#define LGOLPOCLDND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB69D880)
+#define LGOLPOCLDND_CTOR_OFFSET UNITYSDK_OFFSET(0xBF34AF0)
+#define LGOLPOCLDND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF34B20)
 
-inline static constexpr unsigned int LGOLPOCLDND_TypeDefinitionIndex = 58148;
+inline static constexpr unsigned int LGOLPOCLDND_TypeDefinitionIndex = 59396;
 
 	class LGOLPOCLDND
 	{

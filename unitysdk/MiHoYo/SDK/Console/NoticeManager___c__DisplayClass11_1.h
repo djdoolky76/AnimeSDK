@@ -5,12 +5,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCA6EB0)
-#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1BCAA880)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE30380)
+#define MIHOYO_SDK_CONSOLE_NOTICEMANAGER___C__DISPLAYCLASS11_1__CHECKPOPNOTICE_B__0_OFFSET UNITYSDK_OFFSET(0x1CE33D50)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int NoticeManager___c__DisplayClass11_1_TypeDefinitionIndex = 8982;
+	inline static constexpr unsigned int NoticeManager___c__DisplayClass11_1_TypeDefinitionIndex = 8991;
 
 	template <typename T>
 	class NoticeManager___c__DisplayClass11_1 : public ::System::Object

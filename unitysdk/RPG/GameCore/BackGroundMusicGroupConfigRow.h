@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BackGroundMusicGroupConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4384A0)
-#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4382B0)
+#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E658EC0)
+#define RPG_GAMECORE_BACKGROUNDMUSICGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E658CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BackGroundMusicGroupConfigRow_TypeDefinitionIndex = 12815;
+	inline static constexpr unsigned int BackGroundMusicGroupConfigRow_TypeDefinitionIndex = 12887;
 
 	class BackGroundMusicGroupConfigRow : public ::System::Object
 	{

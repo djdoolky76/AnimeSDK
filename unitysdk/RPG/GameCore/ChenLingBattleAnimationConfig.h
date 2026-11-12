@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ChenLingBattleAnimationConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEANIMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5821C0)
-#define RPG_GAMECORE_CHENLINGBATTLEANIMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5820E0)
+#define RPG_GAMECORE_CHENLINGBATTLEANIMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E792FC0)
+#define RPG_GAMECORE_CHENLINGBATTLEANIMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E792EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAnimationConfig_TypeDefinitionIndex = 15693;
+	inline static constexpr unsigned int ChenLingBattleAnimationConfig_TypeDefinitionIndex = 15851;
 
 	class ChenLingBattleAnimationConfig : public ::RPG::GameCore::JsonConfig
 	{

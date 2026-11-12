@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BALayerMask_TypeDefinitionIndex = 37464;
+inline static constexpr unsigned int BALayerMask_TypeDefinitionIndex = 38392;
 
 	enum class BALayerMask : ::System::Int32
 	{

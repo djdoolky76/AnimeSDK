@@ -8,95 +8,95 @@ namespace RPG::GameCore { class EventManager; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define PMEPACFLODP_AHKHHIOFACB_OFFSET UNITYSDK_OFFSET(0xC31AC20)
-#define PMEPACFLODP_CCTOR_OFFSET UNITYSDK_OFFSET(0xC31AF00)
-#define PMEPACFLODP_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xC319A30)
-#define PMEPACFLODP_CTOR_OFFSET UNITYSDK_OFFSET(0xC31AEE0)
-#define PMEPACFLODP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC31ABE0)
-#define PMEPACFLODP_DMOJDFGLDDA_OFFSET UNITYSDK_OFFSET(0xC319F50)
-#define PMEPACFLODP_FAFJHKAIKFM_OFFSET UNITYSDK_OFFSET(0xC31A070)
-#define PMEPACFLODP_IAHCFAPEIAK_OFFSET UNITYSDK_OFFSET(0xC31AAC0)
-#define PMEPACFLODP_IDBAFCFGGGA_OFFSET UNITYSDK_OFFSET(0xC3199D0)
-#define PMEPACFLODP_IFGIIKEDIEO_OFFSET UNITYSDK_OFFSET(0xC31A720)
-#define PMEPACFLODP_IJBCGLFFPBL_OFFSET UNITYSDK_OFFSET(0xC31AB60)
-#define PMEPACFLODP_JFAJHFKIMMD_OFFSET UNITYSDK_OFFSET(0xC31A7C0)
-#define PMEPACFLODP_KDDGGAHEOKF_OFFSET UNITYSDK_OFFSET(0xC31A480)
-#define PMEPACFLODP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC3197E0)
-#define PMEPACFLODP_LEOBPPJOIBM_OFFSET UNITYSDK_OFFSET(0xC319C40)
-#define PMEPACFLODP_MFDCJOIKCKF_OFFSET UNITYSDK_OFFSET(0xC31A6A0)
+#define PMEPACFLODP_AHKHHIOFACB_OFFSET UNITYSDK_OFFSET(0xCC49A50)
+#define PMEPACFLODP_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC49D30)
+#define PMEPACFLODP_CGEJMGFOLMP_OFFSET UNITYSDK_OFFSET(0xCC48860)
+#define PMEPACFLODP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC49D10)
+#define PMEPACFLODP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC49A10)
+#define PMEPACFLODP_DMOJDFGLDDA_OFFSET UNITYSDK_OFFSET(0xCC48D80)
+#define PMEPACFLODP_FAFJHKAIKFM_OFFSET UNITYSDK_OFFSET(0xCC48EA0)
+#define PMEPACFLODP_IAHCFAPEIAK_OFFSET UNITYSDK_OFFSET(0xCC498F0)
+#define PMEPACFLODP_IDBAFCFGGGA_OFFSET UNITYSDK_OFFSET(0xCC48800)
+#define PMEPACFLODP_IFGIIKEDIEO_OFFSET UNITYSDK_OFFSET(0xCC49550)
+#define PMEPACFLODP_IJBCGLFFPBL_OFFSET UNITYSDK_OFFSET(0xCC49990)
+#define PMEPACFLODP_JFAJHFKIMMD_OFFSET UNITYSDK_OFFSET(0xCC495F0)
+#define PMEPACFLODP_KDDGGAHEOKF_OFFSET UNITYSDK_OFFSET(0xCC492B0)
+#define PMEPACFLODP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCC48610)
+#define PMEPACFLODP_LEOBPPJOIBM_OFFSET UNITYSDK_OFFSET(0xCC48A70)
+#define PMEPACFLODP_MFDCJOIKCKF_OFFSET UNITYSDK_OFFSET(0xCC494D0)
 
-inline static constexpr unsigned int PMEPACFLODP_TypeDefinitionIndex = 68687;
+inline static constexpr unsigned int PMEPACFLODP_TypeDefinitionIndex = 70639;
 
 	class PMEPACFLODP : public ::System::Object
 	{
 	public:
-		::System::String* FPIGFFJNEOO; // 0x10
+		::RPG::GameCore::EventManager* EBOCGAJBGPG; // 0x10
 		::RPG::GameCore::GameEntity* HPANEMEFNPH; // 0x18
-		::RPG::Client::SpecialVisionSystem* CGKCJPPHKPK; // 0x20
-		::RPG::GameCore::EventManager* EBOCGAJBGPG; // 0x28
-		::RPG::GameCore::GameEntity* JPOLHHNOAOI; // 0x30
-		::System::Int32 AMMGGCGKHLM; // 0x38
-		::System::UInt32 OAMECKMNKGD; // 0x3C
+		::RPG::GameCore::GameEntity* JPOLHHNOAOI; // 0x20
+		::System::String* FPIGFFJNEOO; // 0x28
+		::RPG::Client::SpecialVisionSystem* CGKCJPPHKPK; // 0x30
+		::System::Boolean POHEELFNCOM; // 0x38
+		::System::Boolean ECLBIAAFNNK; // 0x39
+		::System::Boolean AHKAHJLAGEG; // 0x3A
+		::System::Boolean MIBHNBOOAHB; // 0x3B
+		::System::Int32 AMMGGCGKHLM; // 0x3C
 		::System::UInt32 MFHCPNAKBGH; // 0x40
-		::System::Single NBDACLLLBOP; // 0x44
-		::System::UInt32 AANHEMFBHCG; // 0x48
-		::System::Boolean MIBHNBOOAHB; // 0x4C
-		::System::Boolean AHKAHJLAGEG; // 0x4D
-		::System::Boolean POHEELFNCOM; // 0x4E
-		::System::Boolean ECLBIAAFNNK; // 0x4F
-		static ::System::String** StaticGet_EJJNJKGNCCL()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A50);
-		}
-
-		static ::System::String** StaticGet_EDBHFLBEFNC()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A58);
-		}
-
-		static ::System::String** StaticGet_ABKJOBAFHDD()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A60);
-		}
-
-		static ::System::String** StaticGet_GEJLDEBJMDJ()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A68);
-		}
-
+		::System::UInt32 AANHEMFBHCG; // 0x44
+		::System::UInt32 OAMECKMNKGD; // 0x48
+		::System::Single NBDACLLLBOP; // 0x4C
 		static ::System::String** StaticGet_EHONIOCBAEE()
 		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A70);
-		}
-
-		static ::System::String** StaticGet_EIBHDGJCMIL()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A78);
-		}
-
-		static ::System::String** StaticGet_LMNIFPBCPIF()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A80);
-		}
-
-		static ::System::String** StaticGet_GNHJBHKEPKM()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A88);
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF00);
 		}
 
 		static ::System::String** StaticGet_HPEGDAHBCOM()
 		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A90);
-		}
-
-		static ::System::String** StaticGet_POEEPKIPMLM()
-		{
-			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49A98);
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF08);
 		}
 
 		static ::PMEPACFLODP** StaticGet_KKHLPDBJAIL()
 		{
-			return (::PMEPACFLODP**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x49AA0);
+			return (::PMEPACFLODP**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF10);
+		}
+
+		static ::System::String** StaticGet_GNHJBHKEPKM()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF18);
+		}
+
+		static ::System::String** StaticGet_POEEPKIPMLM()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF20);
+		}
+
+		static ::System::String** StaticGet_GEJLDEBJMDJ()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF28);
+		}
+
+		static ::System::String** StaticGet_EIBHDGJCMIL()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF30);
+		}
+
+		static ::System::String** StaticGet_ABKJOBAFHDD()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF38);
+		}
+
+		static ::System::String** StaticGet_EDBHFLBEFNC()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF40);
+		}
+
+		static ::System::String** StaticGet_LMNIFPBCPIF()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF48);
+		}
+
+		static ::System::String** StaticGet_EJJNJKGNCCL()
+		{
+			return (::System::String**)UnitySDK::FromName("", "PMEPACFLODP")->GetStaticField(0x3FF50);
 		}
 
 		::System::Void _ctor()

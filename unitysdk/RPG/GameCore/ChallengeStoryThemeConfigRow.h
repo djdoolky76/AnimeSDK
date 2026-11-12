@@ -5,22 +5,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeStoryThemeConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGESTORYTHEMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D563980)
-#define RPG_GAMECORE_CHALLENGESTORYTHEMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D563720)
+#define RPG_GAMECORE_CHALLENGESTORYTHEMECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E775120)
+#define RPG_GAMECORE_CHALLENGESTORYTHEMECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E774EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeStoryThemeConfigRow_TypeDefinitionIndex = 12997;
+	inline static constexpr unsigned int ChallengeStoryThemeConfigRow_TypeDefinitionIndex = 13065;
 
 	class ChallengeStoryThemeConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* ThemeSubColor1; // 0x10
-		::System::String* ThemeBgPrefabPath; // 0x18
+		::System::String* ThemePanelPrefabPath; // 0x10
+		::System::String* ThemeMainColor; // 0x18
 		::System::String* ThemeSubColor2; // 0x20
-		::System::String* ThemeEffColor; // 0x28
-		::System::String* ThemePanelPrefabPath; // 0x30
-		::System::String* ThemeMainColor; // 0x38
+		::System::String* ThemeSubColor1; // 0x28
+		::System::String* ThemeBgPrefabPath; // 0x30
+		::System::String* ThemeEffColor; // 0x38
 		::System::UInt32 ThemeID; // 0x40
 		::System::Void _ctor()
 		{

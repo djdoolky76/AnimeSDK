@@ -8,17 +8,17 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define INFGFDMJBKK_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0x164EC1E0)
-#define INFGFDMJBKK_CTOR_OFFSET UNITYSDK_OFFSET(0x164EBB00)
-#define INFGFDMJBKK_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0x164EBB90)
+#define INFGFDMJBKK_ANAHFGMKJMB_OFFSET UNITYSDK_OFFSET(0xB81D150)
+#define INFGFDMJBKK_CTOR_OFFSET UNITYSDK_OFFSET(0xB81CA70)
+#define INFGFDMJBKK_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0xB81CB00)
 
-inline static constexpr unsigned int INFGFDMJBKK_TypeDefinitionIndex = 62789;
+inline static constexpr unsigned int INFGFDMJBKK_TypeDefinitionIndex = 64227;
 
 	class INFGFDMJBKK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>* KBEMHKFOKOF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KHDJLEELKHD*>* IEHKMMAEDMH; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KHDJLEELKHD*>* IEHKMMAEDMH; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>* KBEMHKFOKOF; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KHDJLEELKHD*>* a1, ::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::KHDJLEELKHD*>*, ::System::Collections::Generic::IReadOnlyList_1<::BCGKEELAOEA*>*))((::PBYTE)hIl2Cpp + INFGFDMJBKK_CTOR_OFFSET))(this, a1, a2);

@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNode_PromiseParam_1_TypeDefinitionIndex = 61071;
+	inline static constexpr unsigned int WorkNode_PromiseParam_1_TypeDefinitionIndex = 62456;
 
 	template <typename T>
 	class WorkNode_PromiseParam_1 : public ::System::Object

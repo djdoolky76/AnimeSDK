@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class QueryHoyoTag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HJGJOLNOKFF_CTOR_OFFSET UNITYSDK_OFFSET(0x15D21920)
-#define HJGJOLNOKFF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D21950)
+#define HJGJOLNOKFF_CTOR_OFFSET UNITYSDK_OFFSET(0x16C71940)
+#define HJGJOLNOKFF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C71970)
 
-inline static constexpr unsigned int HJGJOLNOKFF_TypeDefinitionIndex = 56380;
+inline static constexpr unsigned int HJGJOLNOKFF_TypeDefinitionIndex = 57597;
 
 	class HJGJOLNOKFF
 	{

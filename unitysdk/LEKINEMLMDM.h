@@ -6,10 +6,10 @@ class AJHEFPNNKKC;
 class DPDPDOIKOAG;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define LEKINEMLMDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB65CEE0)
-#define LEKINEMLMDM_NAKFPELKKFG_OFFSET UNITYSDK_OFFSET(0xB65CF90)
+#define LEKINEMLMDM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF04A0)
+#define LEKINEMLMDM_NAKFPELKKFG_OFFSET UNITYSDK_OFFSET(0xBEF0550)
 
-inline static constexpr unsigned int LEKINEMLMDM_TypeDefinitionIndex = 62539;
+inline static constexpr unsigned int LEKINEMLMDM_TypeDefinitionIndex = 63952;
 
 	class LEKINEMLMDM : public ::System::Object
 	{

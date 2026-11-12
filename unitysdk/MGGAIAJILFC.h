@@ -4,31 +4,31 @@
 namespace MiHoYoSDKJSON { class JSONObject; }
 namespace System::Threading { class Thread; }
 
-#define MGGAIAJILFC_ALHEOBCEJGN_OFFSET UNITYSDK_OFFSET(0xB91C150)
-#define MGGAIAJILFC_CTOR_OFFSET UNITYSDK_OFFSET(0xB91CA70)
-#define MGGAIAJILFC_IHJIAMCFFGF_OFFSET UNITYSDK_OFFSET(0xB91CA30)
-#define MGGAIAJILFC_JBFEFINPPFP_OFFSET UNITYSDK_OFFSET(0xB91C100)
-#define MGGAIAJILFC_LLPGKJNAMIN_OFFSET UNITYSDK_OFFSET(0xB91C9C0)
-#define MGGAIAJILFC_MNANMMJADGN_OFFSET UNITYSDK_OFFSET(0xB91C350)
+#define MGGAIAJILFC_ALHEOBCEJGN_OFFSET UNITYSDK_OFFSET(0xC1CF950)
+#define MGGAIAJILFC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1D0270)
+#define MGGAIAJILFC_IHJIAMCFFGF_OFFSET UNITYSDK_OFFSET(0xC1D0230)
+#define MGGAIAJILFC_JBFEFINPPFP_OFFSET UNITYSDK_OFFSET(0xC1CF900)
+#define MGGAIAJILFC_LLPGKJNAMIN_OFFSET UNITYSDK_OFFSET(0xC1D01C0)
+#define MGGAIAJILFC_MNANMMJADGN_OFFSET UNITYSDK_OFFSET(0xC1CFB50)
 
-inline static constexpr unsigned int MGGAIAJILFC_TypeDefinitionIndex = 69481;
+inline static constexpr unsigned int MGGAIAJILFC_TypeDefinitionIndex = 71435;
 
 	class MGGAIAJILFC : public ::System::Object
 	{
 	public:
 		static ::System::Threading::Thread** StaticGet_JMNAAFBIHOP()
 		{
-			return (::System::Threading::Thread**)UnitySDK::FromName("", "MGGAIAJILFC")->GetStaticField(0x6F8F0);
-		}
-
-		static ::System::Int32* StaticGet_JEPIGKPBNLD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGGAIAJILFC")->GetStaticField(0x15A60);
+			return (::System::Threading::Thread**)UnitySDK::FromName("", "MGGAIAJILFC")->GetStaticField(0x730A0);
 		}
 
 		static ::System::Boolean* StaticGet_GBKLKFDBLDH()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MGGAIAJILFC")->GetStaticField(0x15A64);
+			return (::System::Boolean*)UnitySDK::FromName("", "MGGAIAJILFC")->GetStaticField(0x16000);
+		}
+
+		static ::System::Int32* StaticGet_JEPIGKPBNLD()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "MGGAIAJILFC")->GetStaticField(0x16004);
 		}
 
 		::System::Void _ctor()

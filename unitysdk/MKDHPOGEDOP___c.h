@@ -4,18 +4,18 @@
 class MKDHPOGEDOP;
 namespace System { class Object; }
 
-#define MKDHPOGEDOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA547C0)
-#define MKDHPOGEDOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA547F0)
-#define MKDHPOGEDOP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA54800)
+#define MKDHPOGEDOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDA6F70)
+#define MKDHPOGEDOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDA6FA0)
+#define MKDHPOGEDOP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FDA6FB0)
 
-inline static constexpr unsigned int MKDHPOGEDOP___c_TypeDefinitionIndex = 26425;
+inline static constexpr unsigned int MKDHPOGEDOP___c_TypeDefinitionIndex = 26956;
 
 	class MKDHPOGEDOP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x566E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B350);
 		}
 
 		static ::System::Void _cctor()

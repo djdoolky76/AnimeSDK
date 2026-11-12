@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueActionWeightConfig; }
 
-#define RPG_GAMECORE_ROGUEACTIONWEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9A2870)
-#define RPG_GAMECORE_ROGUEACTIONWEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9A2830)
+#define RPG_GAMECORE_ROGUEACTIONWEIGHTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBEB830)
+#define RPG_GAMECORE_ROGUEACTIONWEIGHTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBEB7F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueActionWeightConfig_TypeDefinitionIndex = 19700;
+	inline static constexpr unsigned int RogueActionWeightConfig_TypeDefinitionIndex = 20032;
 
 	class RogueActionWeightConfig : public ::RPG::GameCore::JsonConfig
 	{

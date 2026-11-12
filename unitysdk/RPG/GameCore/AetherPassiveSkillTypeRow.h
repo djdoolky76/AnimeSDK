@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherPassiveSkillTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DDF60)
-#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3DD920)
+#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5FE360)
+#define RPG_GAMECORE_AETHERPASSIVESKILLTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5FDCE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherPassiveSkillTypeRow_TypeDefinitionIndex = 10928;
+	inline static constexpr unsigned int AetherPassiveSkillTypeRow_TypeDefinitionIndex = 10944;
 
 	class AetherPassiveSkillTypeRow : public ::System::Object
 	{

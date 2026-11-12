@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OKNOPHBDNAB_AMIOJKLDALI_OFFSET UNITYSDK_OFFSET(0xBEF0D90)
-#define OKNOPHBDNAB_FPPOHEPFLPC_OFFSET UNITYSDK_OFFSET(0xBEF0D30)
+#define OKNOPHBDNAB_AMIOJKLDALI_OFFSET UNITYSDK_OFFSET(0xC7EBFE0)
+#define OKNOPHBDNAB_FPPOHEPFLPC_OFFSET UNITYSDK_OFFSET(0xC7EBF80)
 
-inline static constexpr unsigned int OKNOPHBDNAB_TypeDefinitionIndex = 54985;
+inline static constexpr unsigned int OKNOPHBDNAB_TypeDefinitionIndex = 56159;
 
 	class OKNOPHBDNAB : public ::System::Object
 	{

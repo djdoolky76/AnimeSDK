@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_EDITOR_CUBEMAPGENERATORUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xE4AAE80)
+#define RPG_EDITOR_CUBEMAPGENERATORUTILS_CTOR_OFFSET UNITYSDK_OFFSET(0xEF69C90)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int CubemapGeneratorUtils_TypeDefinitionIndex = 52015;
+	inline static constexpr unsigned int CubemapGeneratorUtils_TypeDefinitionIndex = 53120;
 
 	class CubemapGeneratorUtils : public ::System::Object
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JLBODMEMLKJ_FIPIOMHIMIL_TypeDefinitionIndex = 32568;
+inline static constexpr unsigned int JLBODMEMLKJ_FIPIOMHIMIL_TypeDefinitionIndex = 33483;
 
 	enum class JLBODMEMLKJ_FIPIOMHIMIL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		IAMDABEAHJA = 4,
-		OENAMINOLLF = 8,
+		IAMDABEAHJA = 8,
+		OENAMINOLLF = 3,
 	};

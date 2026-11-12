@@ -6,11 +6,11 @@ class IOGNBKGNPFD;
 namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define GBBLNLFLMCE_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x1594A160)
-#define GBBLNLFLMCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1594AA70)
-#define GBBLNLFLMCE_GBCADBOJDPF_OFFSET UNITYSDK_OFFSET(0x1594A6B0)
+#define GBBLNLFLMCE_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0x1687E6F0)
+#define GBBLNLFLMCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1687F000)
+#define GBBLNLFLMCE_GBCADBOJDPF_OFFSET UNITYSDK_OFFSET(0x1687EC40)
 
-inline static constexpr unsigned int GBBLNLFLMCE_TypeDefinitionIndex = 77377;
+inline static constexpr unsigned int GBBLNLFLMCE_TypeDefinitionIndex = 79711;
 
 	class GBBLNLFLMCE : public ::System::Object
 	{

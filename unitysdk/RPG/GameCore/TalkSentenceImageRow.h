@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TalkSentenceImageRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKSENTENCEIMAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB581C0)
-#define RPG_GAMECORE_TALKSENTENCEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB57790)
+#define RPG_GAMECORE_TALKSENTENCEIMAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE073F0)
+#define RPG_GAMECORE_TALKSENTENCEIMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE069C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkSentenceImageRow_TypeDefinitionIndex = 15222;
+	inline static constexpr unsigned int TalkSentenceImageRow_TypeDefinitionIndex = 15378;
 
 	class TalkSentenceImageRow : public ::System::Object
 	{
 	public:
-		::System::String* ImagePath; // 0x10
-		::System::String* Speaker; // 0x18
+		::System::String* Speaker; // 0x10
+		::System::String* ImagePath; // 0x18
 		::System::String* Comment; // 0x20
 		::System::Void _ctor()
 		{

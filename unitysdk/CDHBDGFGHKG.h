@@ -11,18 +11,18 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CDHBDGFGHKG_CDFPFIHCPEH_OFFSET UNITYSDK_OFFSET(0xC767740)
-#define CDHBDGFGHKG_CTOR_OFFSET UNITYSDK_OFFSET(0xC767570)
-#define CDHBDGFGHKG_LCFMJCMIMJH_OFFSET UNITYSDK_OFFSET(0xC767580)
+#define CDHBDGFGHKG_CDFPFIHCPEH_OFFSET UNITYSDK_OFFSET(0xD0D07A0)
+#define CDHBDGFGHKG_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D05D0)
+#define CDHBDGFGHKG_LCFMJCMIMJH_OFFSET UNITYSDK_OFFSET(0xD0D05E0)
 
-inline static constexpr unsigned int CDHBDGFGHKG_TypeDefinitionIndex = 79686;
+inline static constexpr unsigned int CDHBDGFGHKG_TypeDefinitionIndex = 82463;
 
 	class CDHBDGFGHKG : public ::System::Object
 	{
 	public:
-		::MGFNPLKAALN* IIDIJLNGJNM; // 0x10
+		::OBJANKHLNGO* GJALMBBNNOF; // 0x10
 		::EMOCGPGJCGO* LIOJKFIGGIJ; // 0x18
-		::OBJANKHLNGO* GJALMBBNNOF; // 0x20
+		::MGFNPLKAALN* IIDIJLNGJNM; // 0x20
 		::System::Void _ctor(::OBJANKHLNGO* a1, ::EMOCGPGJCGO* a2, ::MGFNPLKAALN* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::OBJANKHLNGO*, ::EMOCGPGJCGO*, ::MGFNPLKAALN*))((::PBYTE)hIl2Cpp + CDHBDGFGHKG_CTOR_OFFSET))(this, a1, a2, a3);

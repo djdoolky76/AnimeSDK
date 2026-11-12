@@ -6,24 +6,24 @@
 class HDKJJLANJIN;
 class OBOAGAFHIJO;
 
-#define FCLMONFLHFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x156CE810)
-#define FCLMONFLHFP_CTOR_OFFSET UNITYSDK_OFFSET(0x156CE960)
-#define FCLMONFLHFP_DDFKGBCOEMH_OFFSET UNITYSDK_OFFSET(0x156CE6E0)
-#define FCLMONFLHFP_JNDOGMFFOIM_OFFSET UNITYSDK_OFFSET(0x156CE520)
+#define FCLMONFLHFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x165E8010)
+#define FCLMONFLHFP_CTOR_OFFSET UNITYSDK_OFFSET(0x165E8150)
+#define FCLMONFLHFP_DDFKGBCOEMH_OFFSET UNITYSDK_OFFSET(0x165E7EE0)
+#define FCLMONFLHFP_JNDOGMFFOIM_OFFSET UNITYSDK_OFFSET(0x165E7D20)
 
-inline static constexpr unsigned int FCLMONFLHFP_TypeDefinitionIndex = 73973;
+inline static constexpr unsigned int FCLMONFLHFP_TypeDefinitionIndex = 76109;
 
 	class FCLMONFLHFP : public ::System::Object
 	{
 	public:
-		::OBOAGAFHIJO* GOHGJMFAMLH; // 0x10
-		::HDKJJLANJIN* LEFCNOJGDBP; // 0x18
-		::System::Int32 IBOIJPFPBIF; // 0x20
-		::System::Boolean DFHHKFNDECI; // 0x24
-		::System::Byte _padding0[0x3];
-		::System::Int32 AMFJIHAABBP; // 0x28
-		::System::Byte _padding1[0x4];
-		::System::Int64 EOBMFJGOIHB; // 0x30
+		::HDKJJLANJIN* LEFCNOJGDBP; // 0x10
+		::OBOAGAFHIJO* GOHGJMFAMLH; // 0x18
+		::System::Int32 AMFJIHAABBP; // 0x20
+		::System::Byte _padding0[0x4];
+		::System::Int64 EOBMFJGOIHB; // 0x28
+		::System::Boolean DFHHKFNDECI; // 0x30
+		::System::Byte _padding1[0x3];
+		::System::Int32 IBOIJPFPBIF; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCLMONFLHFP_CTOR_OFFSET))(this);

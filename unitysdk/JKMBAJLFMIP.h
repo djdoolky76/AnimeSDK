@@ -6,18 +6,18 @@ class JKMBAJLFMIP;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define JKMBAJLFMIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D044890)
-#define JKMBAJLFMIP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0448A0)
-#define JKMBAJLFMIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D044860)
+#define JKMBAJLFMIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E233710)
+#define JKMBAJLFMIP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E233720)
+#define JKMBAJLFMIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E2336E0)
 
-inline static constexpr unsigned int JKMBAJLFMIP_TypeDefinitionIndex = 20240;
+inline static constexpr unsigned int JKMBAJLFMIP_TypeDefinitionIndex = 20575;
 
 	class JKMBAJLFMIP : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* BJOCBPFKJDP; // 0x18
+		::RPG::GameCore::DynamicFloat* CONJAMJKHBI; // 0x18
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::RPG::GameCore::DynamicFloat* CONJAMJKHBI; // 0x28
+		::RPG::GameCore::DynamicFloat* BJOCBPFKJDP; // 0x28
 		::System::Boolean EKGDOELGLFK; // 0x30
 		::System::Void _ctor()
 		{

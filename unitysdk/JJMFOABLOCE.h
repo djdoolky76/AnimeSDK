@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JJMFOABLOCE_TypeDefinitionIndex = 25370;
+inline static constexpr unsigned int JJMFOABLOCE_TypeDefinitionIndex = 25848;
 
 	enum class JJMFOABLOCE : ::System::Int32
 	{

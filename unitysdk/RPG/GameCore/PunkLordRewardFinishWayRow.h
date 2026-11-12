@@ -6,21 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PunkLordRewardFinishWayRow; }
 
-#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95D9D0)
-#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D95D7C0)
+#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB75D70)
+#define RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB75B60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordRewardFinishWayRow_TypeDefinitionIndex = 12297;
+	inline static constexpr unsigned int PunkLordRewardFinishWayRow_TypeDefinitionIndex = 12354;
 
 	class PunkLordRewardFinishWayRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FinishPoint; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID FinishName; // 0x18
-		::System::UInt32 FinishID; // 0x28
-		::RPG::GameCore::PunkLordMonsterRare FinishRare; // 0x2C
+		::RPG::Client::TextID FinishName; // 0x10
+		::System::UInt32 FinishPoint; // 0x20
+		::System::UInt32 FinishID; // 0x24
+		::RPG::GameCore::PunkLordMonsterRare FinishRare; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_PUNKLORDREWARDFINISHWAYROW_CTOR_OFFSET))(this);

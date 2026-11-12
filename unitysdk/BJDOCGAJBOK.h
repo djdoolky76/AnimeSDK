@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LGGELBFHJIM;
 
-#define BJDOCGAJBOK_CTOR_OFFSET UNITYSDK_OFFSET(0xB799080)
-#define BJDOCGAJBOK_LOMPGELJCLM_OFFSET UNITYSDK_OFFSET(0xB799090)
+#define BJDOCGAJBOK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE5C260)
+#define BJDOCGAJBOK_LOMPGELJCLM_OFFSET UNITYSDK_OFFSET(0xBE5C270)
 
-inline static constexpr unsigned int BJDOCGAJBOK_TypeDefinitionIndex = 79051;
+inline static constexpr unsigned int BJDOCGAJBOK_TypeDefinitionIndex = 81827;
 
 	class BJDOCGAJBOK : public ::System::Object
 	{

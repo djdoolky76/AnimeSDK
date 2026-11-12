@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/SpikeTrapState.h"
 namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int PDFKHMDEOGC_TypeDefinitionIndex = 43469;
+inline static constexpr unsigned int PDFKHMDEOGC_TypeDefinitionIndex = 44451;
 
 	struct alignas(8) PDFKHMDEOGC
 	{

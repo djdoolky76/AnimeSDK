@@ -5,23 +5,23 @@ class DJJFECDBGIK;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define ECPFBGMALIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12D182F0)
-#define ECPFBGMALIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12D18320)
-#define ECPFBGMALIP___C___COLLECTNAVNODESAFTERMERGE_B__15_0_OFFSET UNITYSDK_OFFSET(0x12D18330)
+#define ECPFBGMALIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x140C0040)
+#define ECPFBGMALIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x140C0070)
+#define ECPFBGMALIP___C___COLLECTNAVNODESAFTERMERGE_B__15_0_OFFSET UNITYSDK_OFFSET(0x140C0080)
 
-inline static constexpr unsigned int ECPFBGMALIP___c_TypeDefinitionIndex = 74606;
+inline static constexpr unsigned int ECPFBGMALIP___c_TypeDefinitionIndex = 76754;
 
 	class ECPFBGMALIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::DJJFECDBGIK*>** StaticGet___9__15_0()
 		{
-			return (::System::Comparison_1<::DJJFECDBGIK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FED0);
+			return (::System::Comparison_1<::DJJFECDBGIK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72F80);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FED8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72F88);
 		}
 
 		static ::System::Void _cctor()

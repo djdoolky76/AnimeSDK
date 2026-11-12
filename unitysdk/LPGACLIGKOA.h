@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchFightMVPEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LPGACLIGKOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB81F920)
-#define LPGACLIGKOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB81F970)
+#define LPGACLIGKOA_CTOR_OFFSET UNITYSDK_OFFSET(0xC080E50)
+#define LPGACLIGKOA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC080EA0)
 
-inline static constexpr unsigned int LPGACLIGKOA_TypeDefinitionIndex = 59126;
+inline static constexpr unsigned int LPGACLIGKOA_TypeDefinitionIndex = 60402;
 
 	class LPGACLIGKOA
 	{

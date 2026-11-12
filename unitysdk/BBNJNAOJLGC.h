@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int BBNJNAOJLGC_TypeDefinitionIndex = 69731;
+inline static constexpr unsigned int BBNJNAOJLGC_TypeDefinitionIndex = 71688;
 
 	class BBNJNAOJLGC : public ::System::Object
 	{

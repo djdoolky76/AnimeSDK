@@ -6,12 +6,12 @@ class JNFBANKKLJK;
 namespace RPG::GameCore { class LittleGameAbilityConfig; }
 namespace RPG::GameCore { class TeamTowersSkillConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7E2A0)
-#define RPG_GAMECORE_TEAMTOWERSSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB7E1C0)
+#define RPG_GAMECORE_TEAMTOWERSSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2D850)
+#define RPG_GAMECORE_TEAMTOWERSSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE2D770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersSkillConfig_TypeDefinitionIndex = 21406;
+	inline static constexpr unsigned int TeamTowersSkillConfig_TypeDefinitionIndex = 21749;
 
 	class TeamTowersSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

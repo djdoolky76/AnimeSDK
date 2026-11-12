@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateRinMonsterHitBoxOffsetEntry; }
 
-#define RPG_GAMECORE_FATERINMONSTERHITBOXOFFSETENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69EA40)
-#define RPG_GAMECORE_FATERINMONSTERHITBOXOFFSETENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69E7F0)
+#define RPG_GAMECORE_FATERINMONSTERHITBOXOFFSETENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AB3B0)
+#define RPG_GAMECORE_FATERINMONSTERHITBOXOFFSETENTRY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8AB160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinMonsterHitBoxOffsetEntry_TypeDefinitionIndex = 18160;
+	inline static constexpr unsigned int FateRinMonsterHitBoxOffsetEntry_TypeDefinitionIndex = 18322;
 
 	class FateRinMonsterHitBoxOffsetEntry : public ::RPG::GameCore::JsonConfig
 	{

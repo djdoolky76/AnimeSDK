@@ -6,11 +6,11 @@
 namespace System { class String; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_CRPVCBACKGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CDCC0)
+#define RPG_CLIENT_CRPVCBACKGROUND_CTOR_OFFSET UNITYSDK_OFFSET(0xD232F90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CRPVCBackground_TypeDefinitionIndex = 69711;
+	inline static constexpr unsigned int CRPVCBackground_TypeDefinitionIndex = 71668;
 
 	class CRPVCBackground : public ::System::Object
 	{

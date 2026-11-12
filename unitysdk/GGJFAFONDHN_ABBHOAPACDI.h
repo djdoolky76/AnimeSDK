@@ -5,17 +5,17 @@ class GGJFAFONDHN;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define GGJFAFONDHN_ABBHOAPACDI_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x15A0D430)
-#define GGJFAFONDHN_ABBHOAPACDI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0D360)
-#define GGJFAFONDHN_ABBHOAPACDI_LBJLOBHFGEH_OFFSET UNITYSDK_OFFSET(0x15A0D3B0)
+#define GGJFAFONDHN_ABBHOAPACDI_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x169479A0)
+#define GGJFAFONDHN_ABBHOAPACDI_CTOR_OFFSET UNITYSDK_OFFSET(0x169478D0)
+#define GGJFAFONDHN_ABBHOAPACDI_LBJLOBHFGEH_OFFSET UNITYSDK_OFFSET(0x16947920)
 
-inline static constexpr unsigned int GGJFAFONDHN_ABBHOAPACDI_TypeDefinitionIndex = 49515;
+inline static constexpr unsigned int GGJFAFONDHN_ABBHOAPACDI_TypeDefinitionIndex = 50591;
 
 	class GGJFAFONDHN_ABBHOAPACDI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Stack_1<::GGJFAFONDHN*>* PLPNIKALEBA; // 0x10
-		::System::String* LFLPOOCDHDP; // 0x18
+		::System::String* LFLPOOCDHDP; // 0x10
+		::System::Collections::Generic::Stack_1<::GGJFAFONDHN*>* PLPNIKALEBA; // 0x18
 		::System::Int32 GLLLIKDBLCL; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::Int32 a2)
 		{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_CTOR_OFFSET UNITYSDK_OFFSET(0xB047A10)
-#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB04B930)
+#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A87A0)
+#define MIHOYO_SDK_SECURITYTUNNEL_JSONBODY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB6AC720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_JSONBody_TypeDefinitionIndex = 46381;
+	inline static constexpr unsigned int SecurityTunnel_JSONBody_TypeDefinitionIndex = 47409;
 
 	class SecurityTunnel_JSONBody : public ::System::Object
 	{

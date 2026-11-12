@@ -3,10 +3,10 @@
 class CDMPEOENGEK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPAMMEFOPDN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA37D80)
-#define MPAMMEFOPDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA37DB0)
+#define MPAMMEFOPDN_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F6750)
+#define MPAMMEFOPDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2F6780)
 
-inline static constexpr unsigned int MPAMMEFOPDN_TypeDefinitionIndex = 52961;
+inline static constexpr unsigned int MPAMMEFOPDN_TypeDefinitionIndex = 54120;
 
 	class MPAMMEFOPDN
 	{

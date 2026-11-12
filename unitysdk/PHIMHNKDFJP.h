@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PHIMHNKDFJP_TypeDefinitionIndex = 43927;
+inline static constexpr unsigned int PHIMHNKDFJP_TypeDefinitionIndex = 45002;
 
 	struct alignas(8) PHIMHNKDFJP
 	{

@@ -5,7 +5,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace R3
 {
-	inline static constexpr unsigned int CombineLatest_4_TypeDefinitionIndex = 35936;
+	inline static constexpr unsigned int CombineLatest_4_TypeDefinitionIndex = 36864;
 
 	template <typename T1, typename T2, typename T3, typename T4>
 	class CombineLatest_4

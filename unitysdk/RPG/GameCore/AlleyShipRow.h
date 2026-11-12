@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AlleyShipRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYSHIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EAD50)
-#define RPG_GAMECORE_ALLEYSHIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3EAC00)
+#define RPG_GAMECORE_ALLEYSHIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E60B070)
+#define RPG_GAMECORE_ALLEYSHIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E60AF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyShipRow_TypeDefinitionIndex = 12616;
+	inline static constexpr unsigned int AlleyShipRow_TypeDefinitionIndex = 12683;
 
 	class AlleyShipRow : public ::System::Object
 	{

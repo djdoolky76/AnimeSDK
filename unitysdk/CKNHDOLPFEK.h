@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CKNHDOLPFEK_CTOR_OFFSET UNITYSDK_OFFSET(0xD76A2E0)
-#define CKNHDOLPFEK_DJIKKEKBCOM_OFFSET UNITYSDK_OFFSET(0xD76A490)
-#define CKNHDOLPFEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD76A360)
-#define CKNHDOLPFEK_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xD76A3F0)
+#define CKNHDOLPFEK_CTOR_OFFSET UNITYSDK_OFFSET(0xE0A4660)
+#define CKNHDOLPFEK_DJIKKEKBCOM_OFFSET UNITYSDK_OFFSET(0xE0A4810)
+#define CKNHDOLPFEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0xE0A46E0)
+#define CKNHDOLPFEK_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xE0A4770)
 
-inline static constexpr unsigned int CKNHDOLPFEK_TypeDefinitionIndex = 67021;
+inline static constexpr unsigned int CKNHDOLPFEK_TypeDefinitionIndex = 68965;
 
 	class CKNHDOLPFEK : public ::System::Object
 	{

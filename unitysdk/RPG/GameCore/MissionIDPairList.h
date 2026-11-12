@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionIDPair; }
 namespace RPG::GameCore { class MissionIDPairList; }
 
-#define RPG_GAMECORE_MISSIONIDPAIRLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D887510)
-#define RPG_GAMECORE_MISSIONIDPAIRLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D887450)
+#define RPG_GAMECORE_MISSIONIDPAIRLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA18C0)
+#define RPG_GAMECORE_MISSIONIDPAIRLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA1800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionIDPairList_TypeDefinitionIndex = 19024;
+	inline static constexpr unsigned int MissionIDPairList_TypeDefinitionIndex = 19211;
 
 	class MissionIDPairList : public ::RPG::GameCore::JsonConfig
 	{

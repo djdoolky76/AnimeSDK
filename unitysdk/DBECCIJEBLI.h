@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define DBECCIJEBLI_CTOR_OFFSET UNITYSDK_OFFSET(0xDFDD180)
+#define DBECCIJEBLI_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7F2C0)
 
-inline static constexpr unsigned int DBECCIJEBLI_TypeDefinitionIndex = 48105;
+inline static constexpr unsigned int DBECCIJEBLI_TypeDefinitionIndex = 49136;
 
 	class DBECCIJEBLI : public ::UnityEngine::Playables::PlayableBehaviour
 	{

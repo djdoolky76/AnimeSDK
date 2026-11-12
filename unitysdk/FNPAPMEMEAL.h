@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FNPAPMEMEAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71B80)
+#define FNPAPMEMEAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC35520)
 
-inline static constexpr unsigned int FNPAPMEMEAL_TypeDefinitionIndex = 42994;
+inline static constexpr unsigned int FNPAPMEMEAL_TypeDefinitionIndex = 43975;
 
 	class FNPAPMEMEAL : public ::System::Object
 	{

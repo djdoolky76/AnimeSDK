@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IMapDataSource_TypeDefinitionIndex = 74618;
+	inline static constexpr unsigned int IMapDataSource_TypeDefinitionIndex = 76766;
 
 	class IMapDataSource
 	{

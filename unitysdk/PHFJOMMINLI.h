@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int PHFJOMMINLI_TypeDefinitionIndex = 43582;
+inline static constexpr unsigned int PHFJOMMINLI_TypeDefinitionIndex = 44564;
 
 	class PHFJOMMINLI : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 namespace Newtonsoft::Json::Linq::JsonPath { class QueryExpression; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_COMPOSITEEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3D0820)
-#define NEWTONSOFT_JSON_LINQ_JSONPATH_COMPOSITEEXPRESSION_SET_EXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1C3D0810)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_COMPOSITEEXPRESSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D557130)
+#define NEWTONSOFT_JSON_LINQ_JSONPATH_COMPOSITEEXPRESSION_SET_EXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1D557120)
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
-	inline static constexpr unsigned int CompositeExpression_TypeDefinitionIndex = 9807;
+	inline static constexpr unsigned int CompositeExpression_TypeDefinitionIndex = 9815;
 
 	class CompositeExpression : public ::Newtonsoft::Json::Linq::JsonPath::QueryExpression
 	{

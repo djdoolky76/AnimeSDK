@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame { class PlacementConfig; }
 
-#define LAIMDKOEEJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90C770)
+#define LAIMDKOEEJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB89D0)
 
-inline static constexpr unsigned int LAIMDKOEEJP_TypeDefinitionIndex = 42343;
+inline static constexpr unsigned int LAIMDKOEEJP_TypeDefinitionIndex = 43318;
 
 	class LAIMDKOEEJP : public ::System::Object
 	{

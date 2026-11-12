@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByIsInPhantomFrozen; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MCHIMDCGLGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB87F6E0)
-#define MCHIMDCGLGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB87F710)
+#define MCHIMDCGLGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC0E64F0)
+#define MCHIMDCGLGJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC0E6520)
 
-inline static constexpr unsigned int MCHIMDCGLGJ_TypeDefinitionIndex = 53117;
+inline static constexpr unsigned int MCHIMDCGLGJ_TypeDefinitionIndex = 54279;
 
 	class MCHIMDCGLGJ
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingPartnerGroupRow; }
 
-#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4C080)
-#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4BF00)
+#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFB680)
+#define RPG_GAMECORE_SWORDTRAININGPARTNERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EDFB500)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingPartnerGroupRow_TypeDefinitionIndex = 12441;
+	inline static constexpr unsigned int SwordTrainingPartnerGroupRow_TypeDefinitionIndex = 12508;
 
 	class SwordTrainingPartnerGroupRow : public ::System::Object
 	{

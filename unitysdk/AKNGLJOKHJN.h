@@ -5,11 +5,11 @@ class AKNGLJOKHJN;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define AKNGLJOKHJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD54C0)
-#define AKNGLJOKHJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCD54D0)
-#define AKNGLJOKHJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCD5490)
+#define AKNGLJOKHJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE7EB00)
+#define AKNGLJOKHJN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DE7EB10)
+#define AKNGLJOKHJN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE7EAD0)
 
-inline static constexpr unsigned int AKNGLJOKHJN_TypeDefinitionIndex = 22412;
+inline static constexpr unsigned int AKNGLJOKHJN_TypeDefinitionIndex = 22821;
 
 	class AKNGLJOKHJN : public ::RPG::GameCore::TaskConfig
 	{
@@ -17,8 +17,8 @@ inline static constexpr unsigned int AKNGLJOKHJN_TypeDefinitionIndex = 22412;
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
 		::System::Int32 BGFBICLOCMK; // 0x20
 		::System::Boolean AHCIOIHFOHH; // 0x24
-		::System::Boolean NJNGPPFAEPG; // 0x25
-		::System::Boolean APKNFGMBLGD; // 0x26
+		::System::Boolean APKNFGMBLGD; // 0x25
+		::System::Boolean NJNGPPFAEPG; // 0x26
 		::System::Byte _padding0[0x1];
 		::System::Int32 IIPFHDIAFHL; // 0x28
 		::System::Int32 KMOPKKPGADM; // 0x2C

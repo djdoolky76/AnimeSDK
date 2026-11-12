@@ -3,10 +3,10 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define LLPOPILLNNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB779420)
-#define LLPOPILLNNC_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xB779410)
+#define LLPOPILLNNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC0194B0)
+#define LLPOPILLNNC_GET_CMDID_OFFSET UNITYSDK_OFFSET(0xC0194A0)
 
-inline static constexpr unsigned int LLPOPILLNNC_TypeDefinitionIndex = 69402;
+inline static constexpr unsigned int LLPOPILLNNC_TypeDefinitionIndex = 71356;
 
 	class LLPOPILLNNC : public ::System::Exception
 	{

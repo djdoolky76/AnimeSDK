@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TakenMazePuzzleChallenge; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_TAKENMAZEPUZZLECHALLENGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB543D0)
-#define RPG_GAMECORE_TAKENMAZEPUZZLECHALLENGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB54410)
-#define RPG_GAMECORE_TAKENMAZEPUZZLECHALLENGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB54370)
+#define RPG_GAMECORE_TAKENMAZEPUZZLECHALLENGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE035B0)
+#define RPG_GAMECORE_TAKENMAZEPUZZLECHALLENGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE035F0)
+#define RPG_GAMECORE_TAKENMAZEPUZZLECHALLENGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE03550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TakenMazePuzzleChallenge_TypeDefinitionIndex = 22009;
+	inline static constexpr unsigned int TakenMazePuzzleChallenge_TypeDefinitionIndex = 22414;
 
 	class TakenMazePuzzleChallenge : public ::RPG::GameCore::TaskConfig
 	{

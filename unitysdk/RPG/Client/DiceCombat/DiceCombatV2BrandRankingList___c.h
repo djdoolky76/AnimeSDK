@@ -5,25 +5,25 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2BrandRankingEntry; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC9BE90)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC9BED0)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__PLAYCHANGE_B__12_0_OFFSET UNITYSDK_OFFSET(0xCC9BEE0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD65E610)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD65E650)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATV2BRANDRANKINGLIST___C__PLAYCHANGE_B__12_0_OFFSET UNITYSDK_OFFSET(0xD65E660)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatV2BrandRankingList___c_TypeDefinitionIndex = 76206;
+	inline static constexpr unsigned int DiceCombatV2BrandRankingList___c_TypeDefinitionIndex = 78533;
 
 	class DiceCombatV2BrandRankingList___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x2BDD0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x288C0);
 		}
 
 		static ::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>** StaticGet___9__12_0()
 		{
-			return (::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x2BDD8);
+			return (::System::Func_3<::RPG::Client::DiceCombat::DiceCombatV2BrandRankingEntry*, ::System::Int32, ::System::Single>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x288C8);
 		}
 
 		static ::System::Void _cctor()

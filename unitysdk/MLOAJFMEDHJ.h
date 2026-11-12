@@ -6,19 +6,19 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MLOAJFMEDHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74FAD0)
-#define MLOAJFMEDHJ_IAKKCLCNCMG_OFFSET UNITYSDK_OFFSET(0x1C74F9D0)
-#define MLOAJFMEDHJ_JMMACDMEANB_OFFSET UNITYSDK_OFFSET(0x1C74FA20)
-#define MLOAJFMEDHJ_JNPMMLAOEAF_OFFSET UNITYSDK_OFFSET(0x1C74F980)
-#define MLOAJFMEDHJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C74F880)
+#define MLOAJFMEDHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D1420)
+#define MLOAJFMEDHJ_IAKKCLCNCMG_OFFSET UNITYSDK_OFFSET(0x1D8D1320)
+#define MLOAJFMEDHJ_JMMACDMEANB_OFFSET UNITYSDK_OFFSET(0x1D8D1370)
+#define MLOAJFMEDHJ_JNPMMLAOEAF_OFFSET UNITYSDK_OFFSET(0x1D8D12D0)
+#define MLOAJFMEDHJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1D8D11D0)
 
-inline static constexpr unsigned int MLOAJFMEDHJ_TypeDefinitionIndex = 36204;
+inline static constexpr unsigned int MLOAJFMEDHJ_TypeDefinitionIndex = 37132;
 
 	class MLOAJFMEDHJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* CPOAIFJEAJF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::GLPPDCIBMIH*, ::System::String*>* EPAGKAIAOJK; // 0x18
+		::System::Collections::Generic::Dictionary_2<::GLPPDCIBMIH*, ::System::String*>* EPAGKAIAOJK; // 0x10
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* CPOAIFJEAJF; // 0x18
 		::System::Boolean GGHOFCHCMJC; // 0x20
 		::System::Byte _padding0[0x3];
 		::System::Int32 DJNAIMHOHIH; // 0x24

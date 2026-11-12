@@ -7,11 +7,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define PEKDLDNEIGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F2740)
-#define PEKDLDNEIGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1F2760)
-#define PEKDLDNEIGJ__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xC1F27B0)
+#define PEKDLDNEIGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCAD2E40)
+#define PEKDLDNEIGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCAD2E60)
+#define PEKDLDNEIGJ__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xCAD2EB0)
 
-inline static constexpr unsigned int PEKDLDNEIGJ_TypeDefinitionIndex = 76877;
+inline static constexpr unsigned int PEKDLDNEIGJ_TypeDefinitionIndex = 79211;
 
 	class PEKDLDNEIGJ
 	{

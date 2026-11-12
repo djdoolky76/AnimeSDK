@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveReplyRow; }
 
-#define RPG_GAMECORE_IDLELIVEREPLYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77ED20)
-#define RPG_GAMECORE_IDLELIVEREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77EBA0)
+#define RPG_GAMECORE_IDLELIVEREPLYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E992450)
+#define RPG_GAMECORE_IDLELIVEREPLYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9922D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveReplyRow_TypeDefinitionIndex = 11794;
+	inline static constexpr unsigned int IdleLiveReplyRow_TypeDefinitionIndex = 11851;
 
 	class IdleLiveReplyRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID OptionText; // 0x18
+		::RPG::Client::TextID OptionText; // 0x10
+		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEREPLYROW_CTOR_OFFSET))(this);

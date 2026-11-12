@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ResistanceItem; }
 
-#define RPG_GAMECORE_RESISTANCEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D98D270)
-#define RPG_GAMECORE_RESISTANCEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D98D110)
+#define RPG_GAMECORE_RESISTANCEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBD63E0)
+#define RPG_GAMECORE_RESISTANCEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBD6280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResistanceItem_TypeDefinitionIndex = 23072;
+	inline static constexpr unsigned int ResistanceItem_TypeDefinitionIndex = 23501;
 
 	class ResistanceItem : public ::RPG::GameCore::JsonConfig
 	{

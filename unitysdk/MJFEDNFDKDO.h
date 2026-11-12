@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MJFEDNFDKDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C8C0)
+#define MJFEDNFDKDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEDDC0)
 
-inline static constexpr unsigned int MJFEDNFDKDO_TypeDefinitionIndex = 42556;
+inline static constexpr unsigned int MJFEDNFDKDO_TypeDefinitionIndex = 43531;
 
 	class MJFEDNFDKDO : public ::System::Object
 	{

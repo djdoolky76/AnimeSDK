@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/LittleGame/ChimeraDuelTurnBasedStageType.h"
 #include "unitysdk/System/Object.h"
 
-#define LNGEHPOGLFO_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1C91E870)
-#define LNGEHPOGLFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91E880)
+#define LNGEHPOGLFO_AOKLJHMAIOG_OFFSET UNITYSDK_OFFSET(0x1DACAD00)
+#define LNGEHPOGLFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DACAD10)
 
-inline static constexpr unsigned int LNGEHPOGLFO_TypeDefinitionIndex = 41970;
+inline static constexpr unsigned int LNGEHPOGLFO_TypeDefinitionIndex = 42945;
 
 	class LNGEHPOGLFO : public ::System::Object
 	{

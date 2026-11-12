@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D364550)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D363A40)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D363910)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D363600)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D3638B0)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D363BD0)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D363680)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D363C10)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D363DE0)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D364230)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D363D40)
-#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D363CA0)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E572E80)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E572370)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E572240)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E571F30)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E5721E0)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E572500)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E571FB0)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E572540)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E572710)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E572B60)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E572670)
+#define RPG_GAMECORE_ACTIVITYFIGHTGROUPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E5725D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFightGroupExcelTable_TypeDefinitionIndex = 11601;
+	inline static constexpr unsigned int ActivityFightGroupExcelTable_TypeDefinitionIndex = 11652;
 
 	class ActivityFightGroupExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFightGroupRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFightGroupRow*>**)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0x36DE0);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0x36DE8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityFightGroupRow*>**)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0x3D2A0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0x36DF0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0x3D2A8);
+		}
+
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0x3D2B0);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0xBA50);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0xD860);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0xBA51);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "ActivityFightGroupExcelTable")->GetStaticField(0xD861);
 		}
 
 		static ::System::Void _cctor()

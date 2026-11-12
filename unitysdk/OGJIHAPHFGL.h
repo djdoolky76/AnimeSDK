@@ -4,9 +4,9 @@
 class GMIFBFGDGJK;
 class PBGNKMMDBGD;
 
-#define OGJIHAPHFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CE700)
+#define OGJIHAPHFGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94FFC0)
 
-inline static constexpr unsigned int OGJIHAPHFGL_TypeDefinitionIndex = 37441;
+inline static constexpr unsigned int OGJIHAPHFGL_TypeDefinitionIndex = 38369;
 
 	class OGJIHAPHFGL : public ::Entitas::Systems
 	{

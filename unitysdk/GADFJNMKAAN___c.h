@@ -4,18 +4,18 @@
 class GADFJNMKAAN;
 namespace System { class Object; }
 
-#define GADFJNMKAAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E417680)
-#define GADFJNMKAAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4176C0)
-#define GADFJNMKAAN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4176D0)
+#define GADFJNMKAAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7052D0)
+#define GADFJNMKAAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F705310)
+#define GADFJNMKAAN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F705320)
 
-inline static constexpr unsigned int GADFJNMKAAN___c_TypeDefinitionIndex = 30235;
+inline static constexpr unsigned int GADFJNMKAAN___c_TypeDefinitionIndex = 31133;
 
 	class GADFJNMKAAN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x538D0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::Client { class RoadRashGameAbilityValueModifer; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32A7D0)
-#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D32A5D0)
+#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E539D40)
+#define RPG_CLIENT_ROADRASHGAMEABILITYVALUEMODIFER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E539B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbilityValueModifer_TypeDefinitionIndex = 10299;
+	inline static constexpr unsigned int RoadRashGameAbilityValueModifer_TypeDefinitionIndex = 10309;
 
 	class RoadRashGameAbilityValueModifer : public ::RPG::GameCore::JsonConfig
 	{

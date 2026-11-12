@@ -10,14 +10,14 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshFilter; }
 namespace UnityEngine { class Renderer; }
 
-#define DEFORMMODULEPRESET_CCTOR_OFFSET UNITYSDK_OFFSET(0x126670C0)
-#define DEFORMMODULEPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x126670A0)
-#define DEFORMMODULEPRESET_DECODEQTANGENT_OFFSET UNITYSDK_OFFSET(0x12666F20)
-#define DEFORMMODULEPRESET_GET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0x12666EF0)
-#define DEFORMMODULEPRESET_GET_ISLOD0_OFFSET UNITYSDK_OFFSET(0x12666F10)
-#define DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0x12666F00)
+#define DEFORMMODULEPRESET_CCTOR_OFFSET UNITYSDK_OFFSET(0x13456AF0)
+#define DEFORMMODULEPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x13456AD0)
+#define DEFORMMODULEPRESET_DECODEQTANGENT_OFFSET UNITYSDK_OFFSET(0x13456950)
+#define DEFORMMODULEPRESET_GET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0x13456920)
+#define DEFORMMODULEPRESET_GET_ISLOD0_OFFSET UNITYSDK_OFFSET(0x13456940)
+#define DEFORMMODULEPRESET_SET_IFDISABLEAUTOADJUST_OFFSET UNITYSDK_OFFSET(0x13456930)
 
-inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 47159;
+inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 48187;
 
 	class DeformModulePreset : public ::UnityEngine::MonoBehaviour
 	{
@@ -38,7 +38,7 @@ inline static constexpr unsigned int DeformModulePreset_TypeDefinitionIndex = 47
 		::System::Boolean _IfDisableAutoAdjust_k__BackingField; // 0x68
 		static ::System::String** StaticGet_JKMGJKAFIMD()
 		{
-			return (::System::String**)UnitySDK::FromName("", "DeformModulePreset")->GetStaticField(0x6FD50);
+			return (::System::String**)UnitySDK::FromName("", "DeformModulePreset")->GetStaticField(0x71AC0);
 		}
 
 		::System::Void _ctor()

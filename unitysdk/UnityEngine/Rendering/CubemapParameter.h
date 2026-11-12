@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Cubemap; }
 
-#define UNITYENGINE_RENDERING_CUBEMAPPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B6150)
+#define UNITYENGINE_RENDERING_CUBEMAPPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x20566F00)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CubemapParameter_TypeDefinitionIndex = 35655;
+	inline static constexpr unsigned int CubemapParameter_TypeDefinitionIndex = 36583;
 
 	class CubemapParameter
 	{

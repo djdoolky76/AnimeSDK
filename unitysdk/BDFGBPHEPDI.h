@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BDFGBPHEPDI_TypeDefinitionIndex = 32509;
+inline static constexpr unsigned int BDFGBPHEPDI_TypeDefinitionIndex = 33424;
 
 	enum class BDFGBPHEPDI : ::System::Int32
 	{

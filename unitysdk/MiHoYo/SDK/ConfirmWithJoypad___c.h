@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC5FFA0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC5FFE0)
-#define MIHOYO_SDK_CONFIRMWITHJOYPAD___C__SHOW_B__39_1_OFFSET UNITYSDK_OFFSET(0x1BC5FFF0)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDE9690)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDE96D0)
+#define MIHOYO_SDK_CONFIRMWITHJOYPAD___C__SHOW_B__39_1_OFFSET UNITYSDK_OFFSET(0x1CDE96E0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ConfirmWithJoypad___c_TypeDefinitionIndex = 8001;
+	inline static constexpr unsigned int ConfirmWithJoypad___c_TypeDefinitionIndex = 8010;
 
 	class ConfirmWithJoypad___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__39_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x321F0);
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x55140);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x321F8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x55148);
 		}
 
 		static ::System::Void _cctor()

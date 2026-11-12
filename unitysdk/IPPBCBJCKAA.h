@@ -5,11 +5,11 @@ class PFHMJLDOIHP;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class AvatarOutfit; }
 
-#define IPPBCBJCKAA_CTOR_OFFSET UNITYSDK_OFFSET(0x16526590)
-#define IPPBCBJCKAA_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0x16526670)
-#define IPPBCBJCKAA_ODLGFNPHMDJ_OFFSET UNITYSDK_OFFSET(0x16526600)
+#define IPPBCBJCKAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB85B3C0)
+#define IPPBCBJCKAA_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0xB85B4D0)
+#define IPPBCBJCKAA_ODLGFNPHMDJ_OFFSET UNITYSDK_OFFSET(0xB85B430)
 
-inline static constexpr unsigned int IPPBCBJCKAA_TypeDefinitionIndex = 81208;
+inline static constexpr unsigned int IPPBCBJCKAA_TypeDefinitionIndex = 83988;
 
 	class IPPBCBJCKAA : public ::System::Object
 	{

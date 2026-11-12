@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define PDOOHMMHCFN_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x3C4D7E0)
-#define PDOOHMMHCFN_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C4D780)
+#define PDOOHMMHCFN_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x3E9CC40)
+#define PDOOHMMHCFN_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3E9CBE0)
 
-inline static constexpr unsigned int PDOOHMMHCFN_TypeDefinitionIndex = 6223;
+inline static constexpr unsigned int PDOOHMMHCFN_TypeDefinitionIndex = 6230;
 
 	struct alignas(4) PDOOHMMHCFN
 	{

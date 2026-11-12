@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/TimeSpan.h"
 
-#define SYSTEM_THREADING_TIMEOUT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C162FD0)
+#define SYSTEM_THREADING_TIMEOUT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2EA300)
 
 namespace System::Threading
 {
@@ -14,7 +14,7 @@ namespace System::Threading
 	public:
 		static ::System::TimeSpan* StaticGet_InfiniteTimeSpan()
 		{
-			return (::System::TimeSpan*)UnitySDK::FromName("System.Threading", "Timeout")->GetStaticField(0x7990);
+			return (::System::TimeSpan*)UnitySDK::FromName("System.Threading", "Timeout")->GetStaticField(0x8130);
 		}
 
 		static ::System::Void _cctor()

@@ -7,17 +7,17 @@ class EMDFGIJOGNJ;
 class FAKDJHMJOHF;
 namespace Proto { class ItemList; }
 
-#define EMDFGIJOGNJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15530FF0)
-#define EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__0_OFFSET UNITYSDK_OFFSET(0x15531340)
-#define EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__1_OFFSET UNITYSDK_OFFSET(0x15531360)
+#define EMDFGIJOGNJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1647CE10)
+#define EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1647D160)
+#define EMDFGIJOGNJ___C__DISPLAYCLASS5_0__STARTINTERACTION_B__1_OFFSET UNITYSDK_OFFSET(0x1647D180)
 
-inline static constexpr unsigned int EMDFGIJOGNJ___c__DisplayClass5_0_TypeDefinitionIndex = 75341;
+inline static constexpr unsigned int EMDFGIJOGNJ___c__DisplayClass5_0_TypeDefinitionIndex = 77668;
 
 	class EMDFGIJOGNJ___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::EMDFGIJOGNJ* __4__this; // 0x10
-		::FAKDJHMJOHF* service; // 0x18
+		::FAKDJHMJOHF* service; // 0x10
+		::EMDFGIJOGNJ* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EMDFGIJOGNJ___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

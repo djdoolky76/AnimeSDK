@@ -3,9 +3,9 @@
 #include "unitysdk/CPBEHIKPGJA.h"
 class BJAKGOHEGBP;
 
-#define LIGHCKCMMAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC869C0)
+#define LIGHCKCMMAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF372D0)
 
-inline static constexpr unsigned int LIGHCKCMMAD_TypeDefinitionIndex = 44290;
+inline static constexpr unsigned int LIGHCKCMMAD_TypeDefinitionIndex = 45365;
 
 	class LIGHCKCMMAD : public ::CPBEHIKPGJA
 	{

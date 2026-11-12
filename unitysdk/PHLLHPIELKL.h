@@ -3,10 +3,10 @@
 class KHHLCOPIEBE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHLLHPIELKL_CTOR_OFFSET UNITYSDK_OFFSET(0xC255560)
-#define PHLLHPIELKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC255590)
+#define PHLLHPIELKL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB7A990)
+#define PHLLHPIELKL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB7A9C0)
 
-inline static constexpr unsigned int PHLLHPIELKL_TypeDefinitionIndex = 52718;
+inline static constexpr unsigned int PHLLHPIELKL_TypeDefinitionIndex = 53862;
 
 	class PHLLHPIELKL
 	{

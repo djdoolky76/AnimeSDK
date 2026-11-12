@@ -6,10 +6,10 @@ class ILHNCGGCBBL;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define CNLEPDKOPFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xDA58D60)
-#define CNLEPDKOPFJ_GOHDHIMMDNG_OFFSET UNITYSDK_OFFSET(0xDA58D70)
+#define CNLEPDKOPFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE5F1670)
+#define CNLEPDKOPFJ_GOHDHIMMDNG_OFFSET UNITYSDK_OFFSET(0xE5F1680)
 
-inline static constexpr unsigned int CNLEPDKOPFJ_TypeDefinitionIndex = 55862;
+inline static constexpr unsigned int CNLEPDKOPFJ_TypeDefinitionIndex = 57065;
 
 	class CNLEPDKOPFJ : public ::JGKIPOLPACC
 	{

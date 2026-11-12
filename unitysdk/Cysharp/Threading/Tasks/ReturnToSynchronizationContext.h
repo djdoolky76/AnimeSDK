@@ -4,12 +4,12 @@
 #include "unitysdk/Cysharp/Threading/Tasks/ReturnToSynchronizationContext_Awaiter.h"
 namespace System::Threading { class SynchronizationContext; }
 
-#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C5EA70)
-#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3C5EA80)
+#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3EADDF0)
+#define CYSHARP_THREADING_TASKS_RETURNTOSYNCHRONIZATIONCONTEXT_DISPOSEASYNC_OFFSET UNITYSDK_OFFSET(0x3EADE00)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int ReturnToSynchronizationContext_TypeDefinitionIndex = 38373;
+	inline static constexpr unsigned int ReturnToSynchronizationContext_TypeDefinitionIndex = 39302;
 
 	struct alignas(8) ReturnToSynchronizationContext
 	{

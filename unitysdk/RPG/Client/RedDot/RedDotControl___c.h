@@ -7,55 +7,55 @@ namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE62F40)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE62F80)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_0_OFFSET UNITYSDK_OFFSET(0xDE62F90)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_1_OFFSET UNITYSDK_OFFSET(0xDE631A0)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_2_OFFSET UNITYSDK_OFFSET(0xDE633B0)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_3_OFFSET UNITYSDK_OFFSET(0xDE63190)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_4_OFFSET UNITYSDK_OFFSET(0xDE633A0)
-#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_5_OFFSET UNITYSDK_OFFSET(0xDE635B0)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8CC4E0)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8CC520)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_0_OFFSET UNITYSDK_OFFSET(0xE8CC530)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_1_OFFSET UNITYSDK_OFFSET(0xE8CC740)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_2_OFFSET UNITYSDK_OFFSET(0xE8CC950)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_3_OFFSET UNITYSDK_OFFSET(0xE8CC730)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_4_OFFSET UNITYSDK_OFFSET(0xE8CC940)
+#define RPG_CLIENT_REDDOT_REDDOTCONTROL___C___BINDING_B__3_5_OFFSET UNITYSDK_OFFSET(0xE8CCB50)
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotControl___c_TypeDefinitionIndex = 79182;
+	inline static constexpr unsigned int RedDotControl___c_TypeDefinitionIndex = 81959;
 
 	class RedDotControl___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>** StaticGet___9__3_3()
+		{
+			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x693E0);
+		}
+
 		static ::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>** StaticGet___9__3_4()
 		{
-			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BA0);
+			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x693E8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BA8);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>** StaticGet___9__3_3()
-		{
-			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BB0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x693F0);
 		}
 
 		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_1()
 		{
-			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BB8);
-		}
-
-		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_2()
-		{
-			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BC0);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>** StaticGet___9__3_5()
-		{
-			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BC8);
+			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x693F8);
 		}
 
 		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x57BD0);
+			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x69400);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>** StaticGet___9__3_5()
+		{
+			return (::System::Func_2<::RPG::GameCore::RedDotType, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x69408);
+		}
+
+		static ::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>** StaticGet___9__3_2()
+		{
+			return (::System::Func_2<::CHLKFLECHIP*, ::R3::Observable_1<::System::Boolean>*>**)UnitySDK::FromName("RPG.Client.RedDot", "<>c")->GetStaticField(0x69410);
 		}
 
 		static ::System::Void _cctor()

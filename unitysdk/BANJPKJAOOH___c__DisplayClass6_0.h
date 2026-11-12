@@ -4,16 +4,16 @@
 class BANJPKJAOOH;
 class KAKADGHNMFK;
 
-#define BANJPKJAOOH___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E771C0)
-#define BANJPKJAOOH___C__DISPLAYCLASS6_0___TRYCASTABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x15E7AD80)
+#define BANJPKJAOOH___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16CFB480)
+#define BANJPKJAOOH___C__DISPLAYCLASS6_0___TRYCASTABILITY_B__0_OFFSET UNITYSDK_OFFSET(0x16CFF0A0)
 
-inline static constexpr unsigned int BANJPKJAOOH___c__DisplayClass6_0_TypeDefinitionIndex = 77598;
+inline static constexpr unsigned int BANJPKJAOOH___c__DisplayClass6_0_TypeDefinitionIndex = 80333;
 
 	class BANJPKJAOOH___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:
-		::BANJPKJAOOH* __4__this; // 0x10
-		::KAKADGHNMFK* abilityEntity; // 0x18
+		::KAKADGHNMFK* abilityEntity; // 0x10
+		::BANJPKJAOOH* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANJPKJAOOH___C__DISPLAYCLASS6_0_CTOR_OFFSET))(this);

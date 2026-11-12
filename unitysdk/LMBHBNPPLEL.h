@@ -8,12 +8,12 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LMBHBNPPLEL_BHHABIPDODD_OFFSET UNITYSDK_OFFSET(0xB779A80)
-#define LMBHBNPPLEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB7799E0)
-#define LMBHBNPPLEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB77A1B0)
-#define LMBHBNPPLEL_IILMFPPOAKP_OFFSET UNITYSDK_OFFSET(0xB77A250)
+#define LMBHBNPPLEL_BHHABIPDODD_OFFSET UNITYSDK_OFFSET(0xC019B10)
+#define LMBHBNPPLEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC019A70)
+#define LMBHBNPPLEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC01A240)
+#define LMBHBNPPLEL_IILMFPPOAKP_OFFSET UNITYSDK_OFFSET(0xC01A2E0)
 
-inline static constexpr unsigned int LMBHBNPPLEL_TypeDefinitionIndex = 77390;
+inline static constexpr unsigned int LMBHBNPPLEL_TypeDefinitionIndex = 79724;
 
 	class LMBHBNPPLEL : public ::System::Object
 	{

@@ -6,17 +6,17 @@ class FCOEMCEDLNL;
 class NDDDCIEFCNJ;
 namespace System { class String; }
 
-#define NDDDCIEFCNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F7B20)
-#define NDDDCIEFCNJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F78C0)
+#define NDDDCIEFCNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E40C500)
+#define NDDDCIEFCNJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E40C2A0)
 
-inline static constexpr unsigned int NDDDCIEFCNJ_TypeDefinitionIndex = 14438;
+inline static constexpr unsigned int NDDDCIEFCNJ_TypeDefinitionIndex = 14593;
 
 	class NDDDCIEFCNJ : public ::System::Object
 	{
 	public:
 		::System::String* OLOIFNNLKJP; // 0x10
-		::System::String* KILFKBDMJGI; // 0x18
-		::Il2CppArray<::System::UInt32>* BMCKCHLJFIE; // 0x20
+		::Il2CppArray<::System::UInt32>* BMCKCHLJFIE; // 0x18
+		::System::String* KILFKBDMJGI; // 0x20
 		::RPG::Client::TextID OENAMINOLLF; // 0x28
 		::System::UInt32 PHFMCACHFIJ; // 0x38
 		::System::Void _ctor()

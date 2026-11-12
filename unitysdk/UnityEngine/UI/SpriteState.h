@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Sprite; }
 
-#define UNITYENGINE_UI_SPRITESTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C8B210)
+#define UNITYENGINE_UI_SPRITESTATE_EQUALS_OFFSET UNITYSDK_OFFSET(0x3EDA430)
 #define UNITYENGINE_UI_SPRITESTATE_GET_DISABLEDSPRITE_OFFSET UNITYSDK_OFFSET(0x94F0)
 #define UNITYENGINE_UI_SPRITESTATE_GET_HIGHLIGHTEDSPRITE_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define UNITYENGINE_UI_SPRITESTATE_GET_PRESSEDSPRITE_OFFSET UNITYSDK_OFFSET(0x1D40)
@@ -14,7 +14,7 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int SpriteState_TypeDefinitionIndex = 6860;
+	inline static constexpr unsigned int SpriteState_TypeDefinitionIndex = 6871;
 
 	struct alignas(8) SpriteState
 	{

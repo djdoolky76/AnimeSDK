@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MFPPFIGMAKC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D163270)
-#define MFPPFIGMAKC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D163840)
-#define MFPPFIGMAKC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1633E0)
-#define MFPPFIGMAKC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D162CE0)
-#define MFPPFIGMAKC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D162F70)
-#define MFPPFIGMAKC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D163480)
-#define MFPPFIGMAKC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1634D0)
-#define MFPPFIGMAKC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1632B0)
-#define MFPPFIGMAKC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D162F10)
-#define MFPPFIGMAKC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1630E0)
-#define MFPPFIGMAKC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D163340)
-#define MFPPFIGMAKC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D162C60)
+#define MFPPFIGMAKC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E3621F0)
+#define MFPPFIGMAKC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3627C0)
+#define MFPPFIGMAKC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E362360)
+#define MFPPFIGMAKC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E361C60)
+#define MFPPFIGMAKC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E361EF0)
+#define MFPPFIGMAKC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E362400)
+#define MFPPFIGMAKC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E362450)
+#define MFPPFIGMAKC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E362230)
+#define MFPPFIGMAKC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E361E90)
+#define MFPPFIGMAKC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E362060)
+#define MFPPFIGMAKC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E3622C0)
+#define MFPPFIGMAKC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E361BE0)
 
-inline static constexpr unsigned int MFPPFIGMAKC_TypeDefinitionIndex = 11638;
+inline static constexpr unsigned int MFPPFIGMAKC_TypeDefinitionIndex = 11689;
 
 	class MFPPFIGMAKC : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x4ABA0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x3A390);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x4ABA8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x3A398);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenWorkRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenWorkRow*>**)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x4ABB0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityHipplenWorkRow*>**)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x3A3A0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x115E0);
+			return (::System::Byte*)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0xCC70);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0x115E1);
+			return (::System::Boolean*)UnitySDK::FromName("", "MFPPFIGMAKC")->GetStaticField(0xCC71);
 		}
 
 		static ::System::Void _cctor()

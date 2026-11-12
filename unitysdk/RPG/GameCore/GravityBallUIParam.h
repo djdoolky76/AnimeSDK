@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_GRAVITYBALLUIPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE6C8CB0)
+#define RPG_GAMECORE_GRAVITYBALLUIPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF1C9670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GravityBallUIParam_TypeDefinitionIndex = 52912;
+	inline static constexpr unsigned int GravityBallUIParam_TypeDefinitionIndex = 54068;
 
 	class GravityBallUIParam : public ::System::Object
 	{

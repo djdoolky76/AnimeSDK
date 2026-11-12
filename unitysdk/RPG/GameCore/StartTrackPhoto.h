@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StartTrackPhoto; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TrackPhotoEvent; }
 
-#define RPG_GAMECORE_STARTTRACKPHOTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1E9C0)
-#define RPG_GAMECORE_STARTTRACKPHOTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1E9D0)
-#define RPG_GAMECORE_STARTTRACKPHOTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1E990)
+#define RPG_GAMECORE_STARTTRACKPHOTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED30400)
+#define RPG_GAMECORE_STARTTRACKPHOTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED30410)
+#define RPG_GAMECORE_STARTTRACKPHOTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED303D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartTrackPhoto_TypeDefinitionIndex = 21645;
+	inline static constexpr unsigned int StartTrackPhoto_TypeDefinitionIndex = 22033;
 
 	class StartTrackPhoto : public ::RPG::GameCore::TaskConfig
 	{

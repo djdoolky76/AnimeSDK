@@ -8,34 +8,34 @@ namespace RPG::Client::ActivityAlley { class AlleyPackComponent; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class Transform; }
 
-#define HKIMBNBAGJA_APODPKJBIHJ_OFFSET UNITYSDK_OFFSET(0x15D47700)
-#define HKIMBNBAGJA_BFFOABNBGDK_OFFSET UNITYSDK_OFFSET(0x15D47530)
-#define HKIMBNBAGJA_CCIKCBFLPCC_1_OFFSET UNITYSDK_OFFSET(0x15D47870)
-#define HKIMBNBAGJA_CCIKCBFLPCC_OFFSET UNITYSDK_OFFSET(0x15D47360)
-#define HKIMBNBAGJA_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D48210)
-#define HKIMBNBAGJA_EGJHCGHNOGK_OFFSET UNITYSDK_OFFSET(0x15D47F60)
-#define HKIMBNBAGJA_KGLGIOFOODK_OFFSET UNITYSDK_OFFSET(0x15D470F0)
-#define HKIMBNBAGJA_NNOFFBBODFG_OFFSET UNITYSDK_OFFSET(0x15D47C20)
-#define HKIMBNBAGJA_PNBCOIKPMEA_OFFSET UNITYSDK_OFFSET(0x15D477F0)
+#define HKIMBNBAGJA_APODPKJBIHJ_OFFSET UNITYSDK_OFFSET(0x16C9CDF0)
+#define HKIMBNBAGJA_BFFOABNBGDK_OFFSET UNITYSDK_OFFSET(0x16C9CC20)
+#define HKIMBNBAGJA_CCIKCBFLPCC_1_OFFSET UNITYSDK_OFFSET(0x16C9CF60)
+#define HKIMBNBAGJA_CCIKCBFLPCC_OFFSET UNITYSDK_OFFSET(0x16C9CA50)
+#define HKIMBNBAGJA_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C9D900)
+#define HKIMBNBAGJA_EGJHCGHNOGK_OFFSET UNITYSDK_OFFSET(0x16C9D650)
+#define HKIMBNBAGJA_KGLGIOFOODK_OFFSET UNITYSDK_OFFSET(0x16C9C7E0)
+#define HKIMBNBAGJA_NNOFFBBODFG_OFFSET UNITYSDK_OFFSET(0x16C9D310)
+#define HKIMBNBAGJA_PNBCOIKPMEA_OFFSET UNITYSDK_OFFSET(0x16C9CEE0)
 
-inline static constexpr unsigned int HKIMBNBAGJA_TypeDefinitionIndex = 74080;
+inline static constexpr unsigned int HKIMBNBAGJA_TypeDefinitionIndex = 76228;
 
 	class HKIMBNBAGJA : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::RaycastHit* StaticGet_EBAMJBAHGIB()
-		{
-			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "HKIMBNBAGJA")->GetStaticField(0x7CD0);
-		}
-
 		static ::UnityEngine::RaycastHit* StaticGet_OOEBFCMJMBJ()
 		{
-			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "HKIMBNBAGJA")->GetStaticField(0x7D00);
+			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "HKIMBNBAGJA")->GetStaticField(0x45B0);
 		}
 
 		static ::UnityEngine::RaycastHit* StaticGet_ADKIAOLDKGM()
 		{
-			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "HKIMBNBAGJA")->GetStaticField(0x7D30);
+			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "HKIMBNBAGJA")->GetStaticField(0x45E0);
+		}
+
+		static ::UnityEngine::RaycastHit* StaticGet_EBAMJBAHGIB()
+		{
+			return (::UnityEngine::RaycastHit*)UnitySDK::FromName("", "HKIMBNBAGJA")->GetStaticField(0x4610);
 		}
 
 		static ::System::Void _cctor()

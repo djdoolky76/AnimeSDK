@@ -4,7 +4,7 @@
 namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { template <typename T> class Task_1; }
 
-#define SYSTEM_XML_ASYNCHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE91E50)
+#define SYSTEM_XML_ASYNCHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20141630)
 
 namespace System::Xml
 {
@@ -13,24 +13,24 @@ namespace System::Xml
 	class AsyncHelper : public ::System::Object
 	{
 	public:
-		static ::System::Threading::Tasks::Task** StaticGet_DoneTask()
+		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_DoneTaskZero()
 		{
-			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F950);
+			return (::System::Threading::Tasks::Task_1<::System::Int32>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2A750);
 		}
 
-		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskFalse()
+		static ::System::Threading::Tasks::Task** StaticGet_DoneTask()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F958);
+			return (::System::Threading::Tasks::Task**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2A758);
 		}
 
 		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskTrue()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F960);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2A760);
 		}
 
-		static ::System::Threading::Tasks::Task_1<::System::Int32>** StaticGet_DoneTaskZero()
+		static ::System::Threading::Tasks::Task_1<::System::Boolean>** StaticGet_DoneTaskFalse()
 		{
-			return (::System::Threading::Tasks::Task_1<::System::Int32>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x1F968);
+			return (::System::Threading::Tasks::Task_1<::System::Boolean>**)UnitySDK::FromName("System.Xml", "AsyncHelper")->GetStaticField(0x2A768);
 		}
 
 		static ::System::Void _cctor()

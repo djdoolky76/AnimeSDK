@@ -6,11 +6,11 @@ class OIIPJFDNPAH;
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CCGPDGJLMGC_LGKGDLPFNCF_OFFSET UNITYSDK_OFFSET(0xC73B330)
-#define CCGPDGJLMGC_NNMMBCDGKHL_OFFSET UNITYSDK_OFFSET(0xC73C170)
-#define CCGPDGJLMGC_PAAEJIIFCNG_OFFSET UNITYSDK_OFFSET(0xC73B380)
+#define CCGPDGJLMGC_LGKGDLPFNCF_OFFSET UNITYSDK_OFFSET(0xCE2D890)
+#define CCGPDGJLMGC_NNMMBCDGKHL_OFFSET UNITYSDK_OFFSET(0xCE2E6D0)
+#define CCGPDGJLMGC_PAAEJIIFCNG_OFFSET UNITYSDK_OFFSET(0xCE2D8E0)
 
-inline static constexpr unsigned int CCGPDGJLMGC_TypeDefinitionIndex = 68168;
+inline static constexpr unsigned int CCGPDGJLMGC_TypeDefinitionIndex = 70114;
 
 	class CCGPDGJLMGC : public ::System::Object
 	{

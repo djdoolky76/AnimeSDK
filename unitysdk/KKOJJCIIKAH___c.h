@@ -5,23 +5,23 @@ namespace RPG::Client { class ScheduleData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define KKOJJCIIKAH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4D7450)
-#define KKOJJCIIKAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB4D7490)
-#define KKOJJCIIKAH___C__GETUNSEENINSCHEDULELEVELGROUPIDS_B__2_0_OFFSET UNITYSDK_OFFSET(0xB4D74A0)
+#define KKOJJCIIKAH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD20840)
+#define KKOJJCIIKAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD20880)
+#define KKOJJCIIKAH___C__GETUNSEENINSCHEDULELEVELGROUPIDS_B__2_0_OFFSET UNITYSDK_OFFSET(0xBD20890)
 
-inline static constexpr unsigned int KKOJJCIIKAH___c_TypeDefinitionIndex = 82084;
+inline static constexpr unsigned int KKOJJCIIKAH___c_TypeDefinitionIndex = 84957;
 
 	class KKOJJCIIKAH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B160);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E430);
 		}
 
 		static ::System::Action_1<::RPG::Client::ScheduleData*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::RPG::Client::ScheduleData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B168);
+			return (::System::Action_1<::RPG::Client::ScheduleData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E438);
 		}
 
 		static ::System::Void _cctor()

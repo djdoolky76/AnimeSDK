@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainCakeCatchExhibitController_CarPositionType_TypeDefinitionIndex = 60215;
+	inline static constexpr unsigned int TrainCakeCatchExhibitController_CarPositionType_TypeDefinitionIndex = 61499;
 
 	enum class TrainCakeCatchExhibitController_CarPositionType : ::System::Int32
 	{

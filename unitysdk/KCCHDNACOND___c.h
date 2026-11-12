@@ -6,29 +6,29 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define KCCHDNACOND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB331730)
-#define KCCHDNACOND___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB331770)
-#define KCCHDNACOND___C___BUILDRUNTIMERANKROWS_B__9_0_OFFSET UNITYSDK_OFFSET(0xB331780)
-#define KCCHDNACOND___C___BUILDRUNTIMERANKROWS_B__9_1_OFFSET UNITYSDK_OFFSET(0xB3317C0)
+#define KCCHDNACOND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBBBB70)
+#define KCCHDNACOND___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBBBBBB0)
+#define KCCHDNACOND___C___BUILDRUNTIMERANKROWS_B__9_0_OFFSET UNITYSDK_OFFSET(0xBBBBBC0)
+#define KCCHDNACOND___C___BUILDRUNTIMERANKROWS_B__9_1_OFFSET UNITYSDK_OFFSET(0xBBBBC00)
 
-inline static constexpr unsigned int KCCHDNACOND___c_TypeDefinitionIndex = 81974;
+inline static constexpr unsigned int KCCHDNACOND___c_TypeDefinitionIndex = 84755;
 
 	class KCCHDNACOND___c : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::AFNPIPBLFJM*>** StaticGet___9__9_1()
 		{
-			return (::System::Predicate_1<::AFNPIPBLFJM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35820);
+			return (::System::Predicate_1<::AFNPIPBLFJM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29890);
 		}
 
 		static ::System::Comparison_1<::AFNPIPBLFJM*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::AFNPIPBLFJM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35828);
+			return (::System::Comparison_1<::AFNPIPBLFJM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x29898);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35830);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x298A0);
 		}
 
 		static ::System::Void _cctor()

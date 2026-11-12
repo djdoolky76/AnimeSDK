@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_EASYFOG_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCD0EF30)
+#define RPG_CLIENT_EASYFOG_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD6D04C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EasyFog_ExtraExportData_TypeDefinitionIndex = 70784;
+	inline static constexpr unsigned int EasyFog_ExtraExportData_TypeDefinitionIndex = 72763;
 
 	class EasyFog_ExtraExportData : public ::System::Object
 	{

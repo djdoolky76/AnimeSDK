@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define SWRT_BVH2_FNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x3C35DC0)
+#define SWRT_BVH2_FNODE_GET_ISLEAF_OFFSET UNITYSDK_OFFSET(0x3E84D60)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int BVH2_FNode_TypeDefinitionIndex = 37495;
+	inline static constexpr unsigned int BVH2_FNode_TypeDefinitionIndex = 38423;
 
 	struct alignas(4) BVH2_FNode
 	{

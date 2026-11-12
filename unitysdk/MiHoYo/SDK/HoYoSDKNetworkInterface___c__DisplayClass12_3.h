@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK { class HoYoSDKNetworkNative_HttpResponse; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA8970)
-#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__4_OFFSET UNITYSDK_OFFSET(0xAFA8E50)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3_CTOR_OFFSET UNITYSDK_OFFSET(0xB609F50)
+#define MIHOYO_SDK_HOYOSDKNETWORKINTERFACE___C__DISPLAYCLASS12_3__HTTPDNSHTTPREQUESTWITHCUSTOMHANDLER_B__4_OFFSET UNITYSDK_OFFSET(0xB60A430)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_3_TypeDefinitionIndex = 46115;
+	inline static constexpr unsigned int HoYoSDKNetworkInterface___c__DisplayClass12_3_TypeDefinitionIndex = 47144;
 
 	template <typename T1, typename T2, typename T3>
 	class HoYoSDKNetworkInterface___c__DisplayClass12_3 : public ::System::Object

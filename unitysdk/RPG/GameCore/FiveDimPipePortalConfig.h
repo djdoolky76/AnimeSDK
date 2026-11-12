@@ -10,13 +10,13 @@ namespace RPG::GameCore { class FiveDimPortalTarget; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D0520)
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6D0530)
-#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D04F0)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DB770)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8DB780)
+#define RPG_GAMECORE_FIVEDIMPIPEPORTALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DB740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPipePortalConfig_TypeDefinitionIndex = 18574;
+	inline static constexpr unsigned int FiveDimPipePortalConfig_TypeDefinitionIndex = 18734;
 
 	class FiveDimPipePortalConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

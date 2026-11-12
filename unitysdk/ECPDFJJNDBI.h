@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ECPDFJJNDBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C429880)
-#define ECPDFJJNDBI_HIFGANKHPPJ_OFFSET UNITYSDK_OFFSET(0x1C429930)
-#define ECPDFJJNDBI_PCOHLHKDNDF_OFFSET UNITYSDK_OFFSET(0x1C461380)
+#define ECPDFJJNDBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B0070)
+#define ECPDFJJNDBI_HIFGANKHPPJ_OFFSET UNITYSDK_OFFSET(0x1D5B0120)
+#define ECPDFJJNDBI_PCOHLHKDNDF_OFFSET UNITYSDK_OFFSET(0x1D5E54A0)
 
-inline static constexpr unsigned int ECPDFJJNDBI_TypeDefinitionIndex = 41553;
+inline static constexpr unsigned int ECPDFJJNDBI_TypeDefinitionIndex = 42528;
 
 	class ECPDFJJNDBI : public ::System::Object
 	{
 	public:
 		::System::String* MEBGACKEOOG; // 0x10
-		::System::UInt16 DGDINKFBOID; // 0x18
-		::ECPDFJJNDBI_Flags FNPGDNFLMPC; // 0x1A
-		::System::UInt16 ADLIHHPHHLG; // 0x1C
-		::System::UInt16 ABNPHONMCEP; // 0x1E
+		::System::UInt16 ABNPHONMCEP; // 0x18
+		::System::UInt16 ADLIHHPHHLG; // 0x1A
+		::System::UInt16 DGDINKFBOID; // 0x1C
+		::ECPDFJJNDBI_Flags FNPGDNFLMPC; // 0x1E
 		::System::UInt32 MPOOGFEJOOF; // 0x20
 		::System::Void _ctor()
 		{

@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int DAPCKPHHGLE_TypeDefinitionIndex = 6207;
+inline static constexpr unsigned int DAPCKPHHGLE_TypeDefinitionIndex = 6214;
 
 	struct alignas(4) DAPCKPHHGLE
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TeamTowers
 {
-	inline static constexpr unsigned int TeamTowersDepartmentProgressType_TypeDefinitionIndex = 79069;
+	inline static constexpr unsigned int TeamTowersDepartmentProgressType_TypeDefinitionIndex = 81845;
 
 	enum class TeamTowersDepartmentProgressType : ::System::Int32
 	{

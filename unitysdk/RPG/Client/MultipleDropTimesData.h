@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_MULTIPLEDROPTIMESDATA_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0xD8ED140)
+#define RPG_CLIENT_MULTIPLEDROPTIMESDATA_OP_ADDITION_OFFSET UNITYSDK_OFFSET(0xE33FE20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultipleDropTimesData_TypeDefinitionIndex = 66318;
+	inline static constexpr unsigned int MultipleDropTimesData_TypeDefinitionIndex = 68254;
 
 	struct alignas(4) MultipleDropTimesData
 	{

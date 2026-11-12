@@ -4,18 +4,18 @@
 class IPALENCIHFB;
 namespace System { class Object; }
 
-#define IPALENCIHFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6DCEA0)
-#define IPALENCIHFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6DCEE0)
-#define IPALENCIHFB___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E6DCEF0)
+#define IPALENCIHFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9E59C0)
+#define IPALENCIHFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9E5A00)
+#define IPALENCIHFB___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F9E5A10)
 
-inline static constexpr unsigned int IPALENCIHFB___c_TypeDefinitionIndex = 26799;
+inline static constexpr unsigned int IPALENCIHFB___c_TypeDefinitionIndex = 27330;
 
 	class IPALENCIHFB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A980);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58DE0);
 		}
 
 		static ::System::Void _cctor()

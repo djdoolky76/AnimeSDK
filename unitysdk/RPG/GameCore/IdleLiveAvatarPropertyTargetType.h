@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAvatarPropertyTargetType_TypeDefinitionIndex = 13777;
+	inline static constexpr unsigned int IdleLiveAvatarPropertyTargetType_TypeDefinitionIndex = 13934;
 
 	enum class IdleLiveAvatarPropertyTargetType : ::System::Int32
 	{

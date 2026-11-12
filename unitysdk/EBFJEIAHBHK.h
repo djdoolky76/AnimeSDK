@@ -4,17 +4,17 @@
 class EBFJEIAHBHK_LIFDJCHDBNP;
 namespace System { class String; }
 
-#define EBFJEIAHBHK_INIIDBHNMHB_OFFSET UNITYSDK_OFFSET(0x1CD5F2D0)
-#define EBFJEIAHBHK_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1CD5F2E0)
+#define EBFJEIAHBHK_INIIDBHNMHB_OFFSET UNITYSDK_OFFSET(0x1DF2F790)
+#define EBFJEIAHBHK_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1DF2F7A0)
 
-inline static constexpr unsigned int EBFJEIAHBHK_TypeDefinitionIndex = 10748;
+inline static constexpr unsigned int EBFJEIAHBHK_TypeDefinitionIndex = 10764;
 
 	class EBFJEIAHBHK : public ::System::Object
 	{
 	public:
 		static ::EBFJEIAHBHK_LIFDJCHDBNP** StaticGet_OKHGHGDMLGH()
 		{
-			return (::EBFJEIAHBHK_LIFDJCHDBNP**)UnitySDK::FromName("", "EBFJEIAHBHK")->GetStaticField(0x52F60);
+			return (::EBFJEIAHBHK_LIFDJCHDBNP**)UnitySDK::FromName("", "EBFJEIAHBHK")->GetStaticField(0x34330);
 		}
 
 		static ::System::Void INIIDBHNMHB(::EBFJEIAHBHK_LIFDJCHDBNP* a1)

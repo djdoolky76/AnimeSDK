@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IProxyViewBridgeContext_1_TypeDefinitionIndex = 42716;
+	inline static constexpr unsigned int IProxyViewBridgeContext_1_TypeDefinitionIndex = 43695;
 
 	template <typename T>
 	class IProxyViewBridgeContext_1

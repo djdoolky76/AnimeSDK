@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceTriggerConditionRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D553910)
-#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D553780)
+#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E765910)
+#define RPG_GAMECORE_CAKERACETRIGGERCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E765780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceTriggerConditionRow_TypeDefinitionIndex = 11020;
+	inline static constexpr unsigned int CakeRaceTriggerConditionRow_TypeDefinitionIndex = 11036;
 
 	class CakeRaceTriggerConditionRow : public ::System::Object
 	{

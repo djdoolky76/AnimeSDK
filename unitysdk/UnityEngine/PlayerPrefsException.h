@@ -3,7 +3,7 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define UNITYENGINE_PLAYERPREFSEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F40D390)
+#define UNITYENGINE_PLAYERPREFSEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x206BDF50)
 
 namespace UnityEngine
 {

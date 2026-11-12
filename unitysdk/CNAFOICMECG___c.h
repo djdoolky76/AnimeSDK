@@ -4,18 +4,18 @@
 class CNAFOICMECG;
 namespace System { class Object; }
 
-#define CNAFOICMECG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1060F0)
-#define CNAFOICMECG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E106130)
-#define CNAFOICMECG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E106140)
+#define CNAFOICMECG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3FE2B0)
+#define CNAFOICMECG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FE2F0)
+#define CNAFOICMECG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F3FE300)
 
-inline static constexpr unsigned int CNAFOICMECG___c_TypeDefinitionIndex = 27968;
+inline static constexpr unsigned int CNAFOICMECG___c_TypeDefinitionIndex = 28558;
 
 	class CNAFOICMECG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F330);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A130);
 		}
 
 		static ::System::Void _cctor()

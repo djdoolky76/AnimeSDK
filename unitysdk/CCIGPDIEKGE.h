@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CCIGPDIEKGE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DA0C530)
-#define CCIGPDIEKGE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DA0CAB0)
-#define CCIGPDIEKGE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DA0C6A0)
-#define CCIGPDIEKGE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DA0C020)
-#define CCIGPDIEKGE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DA0C2B0)
-#define CCIGPDIEKGE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DA0C740)
-#define CCIGPDIEKGE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DA0C790)
-#define CCIGPDIEKGE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DA0C570)
-#define CCIGPDIEKGE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DA0C250)
-#define CCIGPDIEKGE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DA0C3E0)
-#define CCIGPDIEKGE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DA0C600)
-#define CCIGPDIEKGE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DA0BFA0)
+#define CCIGPDIEKGE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1ED3E6D0)
+#define CCIGPDIEKGE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED3EC50)
+#define CCIGPDIEKGE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1ED3E840)
+#define CCIGPDIEKGE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1ED3E1C0)
+#define CCIGPDIEKGE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1ED3E450)
+#define CCIGPDIEKGE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1ED3E8E0)
+#define CCIGPDIEKGE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1ED3E930)
+#define CCIGPDIEKGE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1ED3E710)
+#define CCIGPDIEKGE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1ED3E3F0)
+#define CCIGPDIEKGE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1ED3E580)
+#define CCIGPDIEKGE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1ED3E7A0)
+#define CCIGPDIEKGE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1ED3E140)
 
-inline static constexpr unsigned int CCIGPDIEKGE_TypeDefinitionIndex = 10996;
+inline static constexpr unsigned int CCIGPDIEKGE_TypeDefinitionIndex = 11012;
 
 	class CCIGPDIEKGE : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakeRaceCatRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x3BA00);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakeRaceCatRow*>**)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x2D840);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x3BA08);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x2D848);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakeRaceCatRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::CakeRaceCatRow*>**)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x3BA10);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0xCB00);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x2D850);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0xCB01);
+			return (::System::Boolean*)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x9800);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "CCIGPDIEKGE")->GetStaticField(0x9801);
 		}
 
 		static ::System::Void _cctor()

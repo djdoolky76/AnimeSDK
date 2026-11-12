@@ -6,11 +6,11 @@ namespace RPG::GameCore { class AdvSetDynamicValueByTargetDistance; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IAIPBNCPELF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E0FEF0)
-#define IAIPBNCPELF_LJADELJLPFO_OFFSET UNITYSDK_OFFSET(0x15E10550)
-#define IAIPBNCPELF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E0FF20)
+#define IAIPBNCPELF_CTOR_OFFSET UNITYSDK_OFFSET(0x16DB9C70)
+#define IAIPBNCPELF_LJADELJLPFO_OFFSET UNITYSDK_OFFSET(0x16DBA2D0)
+#define IAIPBNCPELF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DB9CA0)
 
-inline static constexpr unsigned int IAIPBNCPELF_TypeDefinitionIndex = 57887;
+inline static constexpr unsigned int IAIPBNCPELF_TypeDefinitionIndex = 59124;
 
 	class IAIPBNCPELF
 	{

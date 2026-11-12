@@ -6,11 +6,11 @@
 #include "unitysdk/RPG/GameCore/FixVec2.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define GELOKMAINFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63B420)
-#define GELOKMAINFB_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C63AF90)
-#define GELOKMAINFB_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C63AC80)
+#define GELOKMAINFB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BD090)
+#define GELOKMAINFB_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D7BCC00)
+#define GELOKMAINFB_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D7BC8F0)
 
-inline static constexpr unsigned int GELOKMAINFB_TypeDefinitionIndex = 37202;
+inline static constexpr unsigned int GELOKMAINFB_TypeDefinitionIndex = 38130;
 
 	class GELOKMAINFB : public ::System::Object
 	{

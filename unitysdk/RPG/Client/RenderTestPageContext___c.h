@@ -5,25 +5,25 @@ namespace RPG::Client { class RenderTestPageContext_AnimationDropDownItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEB1E70)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEB1EB0)
-#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0xDEB1EC0)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE962870)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE9628B0)
+#define RPG_CLIENT_RENDERTESTPAGECONTEXT___C___INITANIMATIONDROPDOWN_B__55_0_OFFSET UNITYSDK_OFFSET(0xE9628C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 72866;
+	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 74976;
 
 	class RenderTestPageContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::Object*>** StaticGet___9__55_0()
-		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B4C0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B4C8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A970);
+		}
+
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__55_0()
+		{
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A978);
 		}
 
 		static ::System::Void _cctor()

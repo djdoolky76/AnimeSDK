@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define OLDFFAGDODF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF02600)
-#define OLDFFAGDODF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF02640)
-#define OLDFFAGDODF___C___TRYGETPROPERTYDESC_B__7_0_OFFSET UNITYSDK_OFFSET(0xBF02650)
+#define OLDFFAGDODF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7FD910)
+#define OLDFFAGDODF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7FD950)
+#define OLDFFAGDODF___C___TRYGETPROPERTYDESC_B__7_0_OFFSET UNITYSDK_OFFSET(0xC7FD960)
 
-inline static constexpr unsigned int OLDFFAGDODF___c_TypeDefinitionIndex = 65293;
+inline static constexpr unsigned int OLDFFAGDODF___c_TypeDefinitionIndex = 67053;
 
 	class OLDFFAGDODF___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57B30);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x562D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57B38);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x562D8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,13 +3,13 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xAF0F030)
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xAF0F020)
-#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_GETTARGET_OFFSET UNITYSDK_OFFSET(0xAF0F040)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB570030)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xB570020)
+#define BEEBYTE_OBFUSCATOR_RENAMEATTRIBUTE_GETTARGET_OFFSET UNITYSDK_OFFSET(0xB570040)
 
 namespace Beebyte::Obfuscator
 {
-	inline static constexpr unsigned int RenameAttribute_TypeDefinitionIndex = 47036;
+	inline static constexpr unsigned int RenameAttribute_TypeDefinitionIndex = 48064;
 
 	class RenameAttribute : public ::System::Attribute
 	{

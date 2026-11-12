@@ -8,18 +8,18 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-#define AJLKMKLPPBI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC5630)
-#define AJLKMKLPPBI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC5780)
-#define AJLKMKLPPBI_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0x12CC56E0)
+#define AJLKMKLPPBI_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA4370)
+#define AJLKMKLPPBI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DA44C0)
+#define AJLKMKLPPBI_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0x12DA4420)
 
-inline static constexpr unsigned int AJLKMKLPPBI_TypeDefinitionIndex = 49906;
+inline static constexpr unsigned int AJLKMKLPPBI_TypeDefinitionIndex = 50954;
 
 	class AJLKMKLPPBI : public ::System::Object
 	{
 	public:
-		::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* GBMLHDDJMJM; // 0x10
-		::RPG::Client::AnimatorButton* AAFGIHCCPOP; // 0x18
-		::CBJILMHOMGP* MKKLHFCCCNF; // 0x20
+		::RPG::Client::AnimatorButton* AAFGIHCCPOP; // 0x10
+		::CBJILMHOMGP* MKKLHFCCCNF; // 0x18
+		::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* GBMLHDDJMJM; // 0x20
 		::RPG::Client::CustomButton_VoidDelegate* MBOEDFCNCJF; // 0x28
 		::System::Void _ctor(::RPG::Client::AnimatorButton* a1, ::CBJILMHOMGP* a2, ::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* a3, ::System::Action_2<::RPG::Client::AnimatorButton*, ::System::Object*>* a4)
 		{

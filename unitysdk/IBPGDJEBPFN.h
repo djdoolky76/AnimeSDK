@@ -4,10 +4,10 @@
 class FDBODHHKGFB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IBPGDJEBPFN_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0x1C68E4A0)
-#define IBPGDJEBPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C68E500)
+#define IBPGDJEBPFN_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0x1D80FEB0)
+#define IBPGDJEBPFN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80FF10)
 
-inline static constexpr unsigned int IBPGDJEBPFN_TypeDefinitionIndex = 36462;
+inline static constexpr unsigned int IBPGDJEBPFN_TypeDefinitionIndex = 37390;
 
 	class IBPGDJEBPFN : public ::System::Object
 	{

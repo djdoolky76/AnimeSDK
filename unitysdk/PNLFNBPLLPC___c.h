@@ -5,23 +5,23 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PNLFNBPLLPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC34D540)
-#define PNLFNBPLLPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC34D580)
-#define PNLFNBPLLPC___C___TRYUPDATECACHEDPLANRESULTRELICUID_B__14_0_OFFSET UNITYSDK_OFFSET(0xC34D590)
+#define PNLFNBPLLPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC80430)
+#define PNLFNBPLLPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC80470)
+#define PNLFNBPLLPC___C___TRYUPDATECACHEDPLANRESULTRELICUID_B__14_0_OFFSET UNITYSDK_OFFSET(0xCC80480)
 
-inline static constexpr unsigned int PNLFNBPLLPC___c_TypeDefinitionIndex = 74395;
+inline static constexpr unsigned int PNLFNBPLLPC___c_TypeDefinitionIndex = 76543;
 
 	class PNLFNBPLLPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FF00);
+			return (::System::Func_2<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73A90);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FF08);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73A98);
 		}
 
 		static ::System::Void _cctor()

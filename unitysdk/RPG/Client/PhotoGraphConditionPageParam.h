@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphConditionPageParam_TypeDefinitionIndex = 69457;
+	inline static constexpr unsigned int PhotoGraphConditionPageParam_TypeDefinitionIndex = 71411;
 
 	struct alignas(4) PhotoGraphConditionPageParam
 	{

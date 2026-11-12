@@ -7,33 +7,33 @@ namespace RPG::Client { class MonoPathLightControl; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define EBHMCKHPFEB_CBMHBPFCNMJ_OFFSET UNITYSDK_OFFSET(0x12CF5DD0)
-#define EBHMCKHPFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF8930)
-#define EBHMCKHPFEB_FOIBOJAKNLO_OFFSET UNITYSDK_OFFSET(0x12CF8320)
-#define EBHMCKHPFEB_HBOHKIPCHHE_OFFSET UNITYSDK_OFFSET(0x12CF5C00)
-#define EBHMCKHPFEB_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x12CF5B90)
-#define EBHMCKHPFEB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x12CF56F0)
-#define EBHMCKHPFEB_ODOONEMCBAB_OFFSET UNITYSDK_OFFSET(0x12CF6E10)
+#define EBHMCKHPFEB_CBMHBPFCNMJ_OFFSET UNITYSDK_OFFSET(0x13AA6F10)
+#define EBHMCKHPFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x13AA9A90)
+#define EBHMCKHPFEB_FOIBOJAKNLO_OFFSET UNITYSDK_OFFSET(0x13AA9480)
+#define EBHMCKHPFEB_HBOHKIPCHHE_OFFSET UNITYSDK_OFFSET(0x13AA6D40)
+#define EBHMCKHPFEB_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x13AA6CD0)
+#define EBHMCKHPFEB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13AA6830)
+#define EBHMCKHPFEB_ODOONEMCBAB_OFFSET UNITYSDK_OFFSET(0x13AA7F60)
 
-inline static constexpr unsigned int EBHMCKHPFEB_TypeDefinitionIndex = 70375;
+inline static constexpr unsigned int EBHMCKHPFEB_TypeDefinitionIndex = 72342;
 
 	class EBHMCKHPFEB : public ::RPG::Client::BehaviorBase
 	{
 	public:
 		::UnityEngine::MaterialPropertyBlock* IOCGPFBNHGJ; // 0x18
-		::System::Single GHCBGHCGBBJ; // 0x20
-		::UnityEngine::Vector4 HDNFNONGHCP; // 0x24
-		::UnityEngine::Vector3 ICNBBLAOJGH; // 0x34
-		::System::Single GHABAAOGBNO; // 0x40
-		::UnityEngine::Vector3 OEJLOADFCGB; // 0x44
-		::System::Single EEPGKELFPFL; // 0x50
-		::UnityEngine::Vector3 NILAGOHELML; // 0x54
-		::System::Single DEIMGIGLHLK; // 0x60
-		::UnityEngine::Vector3 PDKDKJIEHPC; // 0x64
+		::UnityEngine::Vector3 JBIJNCJEFIB; // 0x20
+		::UnityEngine::Vector4 HDNFNONGHCP; // 0x2C
+		::System::Single EEPGKELFPFL; // 0x3C
+		::UnityEngine::Vector3 DCPMGDCGHFK; // 0x40
+		::UnityEngine::Vector3 OEJLOADFCGB; // 0x4C
+		::UnityEngine::Vector3 NILAGOHELML; // 0x58
+		::UnityEngine::Vector3 ICNBBLAOJGH; // 0x64
 		::System::Single HMNKOANNINJ; // 0x70
-		::System::Single LKBKDNAMNEG; // 0x74
-		::UnityEngine::Vector3 DCPMGDCGHFK; // 0x78
-		::UnityEngine::Vector3 JBIJNCJEFIB; // 0x84
+		::UnityEngine::Vector3 PDKDKJIEHPC; // 0x74
+		::System::Single DEIMGIGLHLK; // 0x80
+		::System::Single LKBKDNAMNEG; // 0x84
+		::System::Single GHABAAOGBNO; // 0x88
+		::System::Single GHCBGHCGBBJ; // 0x8C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EBHMCKHPFEB_CTOR_OFFSET))(this);

@@ -12,123 +12,123 @@ namespace UnityEngine { class Texture2D; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class JSONNode; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F646BF0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F646C20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__AWAKE_B__158_1_OFFSET UNITYSDK_OFFSET(0x1F646C30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_0_OFFSET UNITYSDK_OFFSET(0x1F646D40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_1_OFFSET UNITYSDK_OFFSET(0x1F646D50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_0_OFFSET UNITYSDK_OFFSET(0x1F646C40)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_10_OFFSET UNITYSDK_OFFSET(0x1F646CE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_11_OFFSET UNITYSDK_OFFSET(0x1F646CF0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_12_OFFSET UNITYSDK_OFFSET(0x1F646D00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_13_OFFSET UNITYSDK_OFFSET(0x1F646D10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_14_OFFSET UNITYSDK_OFFSET(0x1F646D20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_15_OFFSET UNITYSDK_OFFSET(0x1F646D30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_1_OFFSET UNITYSDK_OFFSET(0x1F646C50)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_2_OFFSET UNITYSDK_OFFSET(0x1F646C60)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_3_OFFSET UNITYSDK_OFFSET(0x1F646C70)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_4_OFFSET UNITYSDK_OFFSET(0x1F646C80)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_5_OFFSET UNITYSDK_OFFSET(0x1F646C90)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_6_OFFSET UNITYSDK_OFFSET(0x1F646CA0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_7_OFFSET UNITYSDK_OFFSET(0x1F646CB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_8_OFFSET UNITYSDK_OFFSET(0x1F646CC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_9_OFFSET UNITYSDK_OFFSET(0x1F646CD0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x208F6470)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x208F64A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__AWAKE_B__158_1_OFFSET UNITYSDK_OFFSET(0x208F64B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_0_OFFSET UNITYSDK_OFFSET(0x208F65C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CCTOR_B__255_1_OFFSET UNITYSDK_OFFSET(0x208F65D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_0_OFFSET UNITYSDK_OFFSET(0x208F64C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_10_OFFSET UNITYSDK_OFFSET(0x208F6560)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_11_OFFSET UNITYSDK_OFFSET(0x208F6570)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_12_OFFSET UNITYSDK_OFFSET(0x208F6580)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_13_OFFSET UNITYSDK_OFFSET(0x208F6590)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_14_OFFSET UNITYSDK_OFFSET(0x208F65A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_15_OFFSET UNITYSDK_OFFSET(0x208F65B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_1_OFFSET UNITYSDK_OFFSET(0x208F64D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_2_OFFSET UNITYSDK_OFFSET(0x208F64E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_3_OFFSET UNITYSDK_OFFSET(0x208F64F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_4_OFFSET UNITYSDK_OFFSET(0x208F6500)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_5_OFFSET UNITYSDK_OFFSET(0x208F6510)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_6_OFFSET UNITYSDK_OFFSET(0x208F6520)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_7_OFFSET UNITYSDK_OFFSET(0x208F6530)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_8_OFFSET UNITYSDK_OFFSET(0x208F6540)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C___CTOR_B__254_9_OFFSET UNITYSDK_OFFSET(0x208F6550)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c_TypeDefinitionIndex = 39337;
+	inline static constexpr unsigned int Browser___c_TypeDefinitionIndex = 40266;
 
 	class Browser___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_2<::System::Boolean, ::System::Boolean>** StaticGet___9__254_15()
-		{
-			return (::System::Action_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1D0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1D8);
-		}
-
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_3()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1E0);
-		}
-
-		static ::System::Action** StaticGet___9__254_7()
-		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1E8);
-		}
-
-		static ::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_11()
-		{
-			return (::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1F0);
-		}
-
-		static ::System::Action** StaticGet___9__254_9()
-		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E1F8);
-		}
-
 		static ::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>** StaticGet___9__254_12()
 		{
-			return (::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E200);
-		}
-
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_13()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E208);
-		}
-
-		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__254_0()
-		{
-			return (::System::Action_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E210);
-		}
-
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_5()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E218);
-		}
-
-		static ::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>** StaticGet___9__254_10()
-		{
-			return (::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E220);
-		}
-
-		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__158_1()
-		{
-			return (::System::Action_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E228);
+			return (::System::Action_3<::System::String*, ::System::Boolean, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F60);
 		}
 
 		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_14()
 		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E230);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F68);
 		}
 
-		static ::System::Action** StaticGet___9__254_8()
+		static ::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>** StaticGet___9__254_10()
 		{
-			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E238);
+			return (::System::Action_4<::System::Int32, ::System::Int32, ::System::Int64, ::System::Int64>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F70);
+		}
+
+		static ::System::Action** StaticGet___9__254_7()
+		{
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F78);
+		}
+
+		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__158_1()
+		{
+			return (::System::Action_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F80);
+		}
+
+		static ::System::Action_2<::System::String*, ::System::String*>** StaticGet___9__254_0()
+		{
+			return (::System::Action_2<::System::String*, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F88);
+		}
+
+		static ::System::Action_2<::System::Boolean, ::System::Boolean>** StaticGet___9__254_15()
+		{
+			return (::System::Action_2<::System::Boolean, ::System::Boolean>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F90);
+		}
+
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_13()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44F98);
+		}
+
+		static ::System::Action** StaticGet___9__254_9()
+		{
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FA0);
 		}
 
 		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_4()
 		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E240);
-		}
-
-		static ::System::Action_1<::UnityEngine::Texture2D*>** StaticGet___9__254_1()
-		{
-			return (::System::Action_1<::UnityEngine::Texture2D*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E248);
-		}
-
-		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_2()
-		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E250);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FA8);
 		}
 
 		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_6()
 		{
-			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x4E258);
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FB0);
+		}
+
+		static ::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_11()
+		{
+			return (::System::Action_2<::System::Int32, ::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FB8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FC0);
+		}
+
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_3()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FC8);
+		}
+
+		static ::System::Action** StaticGet___9__254_8()
+		{
+			return (::System::Action**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FD0);
+		}
+
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_5()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FD8);
+		}
+
+		static ::System::Action_1<::UnityEngine::Texture2D*>** StaticGet___9__254_1()
+		{
+			return (::System::Action_1<::UnityEngine::Texture2D*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FE0);
+		}
+
+		static ::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>** StaticGet___9__254_2()
+		{
+			return (::System::Action_1<::ZenFulcrum::EmbeddedBrowser::JSONNode*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x44FE8);
 		}
 
 		static ::System::Void _cctor()

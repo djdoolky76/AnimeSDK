@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_TRANSFORMSTATEVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xE311AF0)
+#define RPG_CLIENT_TRANSFORMSTATEVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xED7CC50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TransformStateValue_TypeDefinitionIndex = 71012;
+	inline static constexpr unsigned int TransformStateValue_TypeDefinitionIndex = 72991;
 
 	class TransformStateValue : public ::RPG::Client::StateValueEntry
 	{

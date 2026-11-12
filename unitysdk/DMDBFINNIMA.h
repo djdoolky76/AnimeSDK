@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DMDBFINNIMA_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB95E0)
+#define DMDBFINNIMA_CTOR_OFFSET UNITYSDK_OFFSET(0x10631D30)
 
-inline static constexpr unsigned int DMDBFINNIMA_TypeDefinitionIndex = 81286;
+inline static constexpr unsigned int DMDBFINNIMA_TypeDefinitionIndex = 84066;
 
 	class DMDBFINNIMA : public ::System::Object
 	{

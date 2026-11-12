@@ -6,14 +6,14 @@ namespace RPG::Client { class StateValueEntry; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xE11CEF0)
-#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE11CEA0)
-#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xE11CE80)
-#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xE11CE90)
+#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC9D80)
+#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xEBC9D30)
+#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xEBC9D10)
+#define RPG_CLIENT_STAGEHARMONYWEATHERCONTROLLER_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xEBC9D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StageHarmonyWeatherController_TypeDefinitionIndex = 71007;
+	inline static constexpr unsigned int StageHarmonyWeatherController_TypeDefinitionIndex = 72986;
 
 	class StageHarmonyWeatherController
 	{
@@ -26,7 +26,7 @@ namespace RPG::Client
 		::System::Collections::Generic::List_1<::RPG::Client::PairValueEntry*>* PairValues; // 0x58
 		static ::RPG::Client::StageHarmonyWeatherController** StaticGet__Instance_k__BackingField()
 		{
-			return (::RPG::Client::StageHarmonyWeatherController**)UnitySDK::FromName("RPG.Client", "StageHarmonyWeatherController")->GetStaticField(0x6F4D0);
+			return (::RPG::Client::StageHarmonyWeatherController**)UnitySDK::FromName("RPG.Client", "StageHarmonyWeatherController")->GetStaticField(0xB6B0);
 		}
 
 		// static const ::System::Object MaxStateCount; // 0x0

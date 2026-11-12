@@ -6,13 +6,13 @@ namespace RPG::Client::PetMarble { class PetMarbleData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_PETMARBLE_PETMARBLEAUDIORESTRICTOR_CREATE_OFFSET UNITYSDK_OFFSET(0xDAD1210)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEAUDIORESTRICTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDAD1190)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEAUDIORESTRICTOR_REQUIREPLAYAUDIO_OFFSET UNITYSDK_OFFSET(0xDAD12F0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEAUDIORESTRICTOR_CREATE_OFFSET UNITYSDK_OFFSET(0xE526E00)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEAUDIORESTRICTOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE526D80)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEAUDIORESTRICTOR_REQUIREPLAYAUDIO_OFFSET UNITYSDK_OFFSET(0xE526EE0)
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarbleAudioRestrictor_TypeDefinitionIndex = 74722;
+	inline static constexpr unsigned int PetMarbleAudioRestrictor_TypeDefinitionIndex = 76870;
 
 	class PetMarbleAudioRestrictor : public ::System::Object
 	{

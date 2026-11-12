@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NBKHOIEPKKJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xBADC280)
-#define NBKHOIEPKKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBADC5A0)
-#define NBKHOIEPKKJ_DDCENCNBHDN_OFFSET UNITYSDK_OFFSET(0xBADC2C0)
+#define NBKHOIEPKKJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xC362C50)
+#define NBKHOIEPKKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC362F70)
+#define NBKHOIEPKKJ_DDCENCNBHDN_OFFSET UNITYSDK_OFFSET(0xC362C90)
 
-inline static constexpr unsigned int NBKHOIEPKKJ_TypeDefinitionIndex = 73387;
+inline static constexpr unsigned int NBKHOIEPKKJ_TypeDefinitionIndex = 75507;
 
 	class NBKHOIEPKKJ : public ::System::Object
 	{

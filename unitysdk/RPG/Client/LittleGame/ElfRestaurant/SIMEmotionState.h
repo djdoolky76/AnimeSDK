@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int SIMEmotionState_TypeDefinitionIndex = 43644;
+	inline static constexpr unsigned int SIMEmotionState_TypeDefinitionIndex = 44627;
 
 	enum class SIMEmotionState : ::System::Int32
 	{

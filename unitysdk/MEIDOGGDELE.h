@@ -4,19 +4,19 @@
 namespace UnityEngine { class ParticleSystem; }
 namespace UnityEngine { class Transform; }
 
-#define MEIDOGGDELE_CTOR_OFFSET UNITYSDK_OFFSET(0xB8CFD50)
-#define MEIDOGGDELE_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB8CFC60)
-#define MEIDOGGDELE_HLJEBPABFAD_OFFSET UNITYSDK_OFFSET(0xB8CFCC0)
-#define MEIDOGGDELE__ONBIND_OFFSET UNITYSDK_OFFSET(0xB8CFB50)
+#define MEIDOGGDELE_CTOR_OFFSET UNITYSDK_OFFSET(0xC181CB0)
+#define MEIDOGGDELE_HLJEBPABFAD_OFFSET UNITYSDK_OFFSET(0xC181C20)
+#define MEIDOGGDELE__ONBIND_OFFSET UNITYSDK_OFFSET(0xC181A40)
+#define MEIDOGGDELE__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC181BC0)
 
-inline static constexpr unsigned int MEIDOGGDELE_TypeDefinitionIndex = 72307;
+inline static constexpr unsigned int MEIDOGGDELE_TypeDefinitionIndex = 74384;
 
 	class MEIDOGGDELE : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* DCCOIAKMMEE; // 0x60
+		::UnityEngine::Transform* AOKHJDHAAKP; // 0x60
 		::UnityEngine::ParticleSystem* MBJJHPKBCCC; // 0x68
-		::UnityEngine::Transform* AOKHJDHAAKP; // 0x70
+		::UnityEngine::Transform* DCCOIAKMMEE; // 0x70
 		::System::Boolean DAKHCIHNGBK; // 0x78
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		// static const ::System::String* PCANCCCAJHL; // 0x0
@@ -30,9 +30,9 @@ inline static constexpr unsigned int MEIDOGGDELE_TypeDefinitionIndex = 72307;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MEIDOGGDELE__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MEIDOGGDELE_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MEIDOGGDELE__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void HLJEBPABFAD(::System::Boolean a1)

@@ -5,10 +5,10 @@ class JCMJBMIKIFO;
 class KKGMHJNMOID;
 namespace System { class String; }
 
-#define OANDMBIDHKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD2F100)
-#define OANDMBIDHKM_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBD2EB60)
+#define OANDMBIDHKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC62E110)
+#define OANDMBIDHKM_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xC62DB70)
 
-inline static constexpr unsigned int OANDMBIDHKM_TypeDefinitionIndex = 79703;
+inline static constexpr unsigned int OANDMBIDHKM_TypeDefinitionIndex = 82480;
 
 	class OANDMBIDHKM : public ::System::Object
 	{

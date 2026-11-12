@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBpFeature; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFNNFAJLDEC_CTOR_OFFSET UNITYSDK_OFFSET(0x15F27800)
-#define IFNNFAJLDEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F27830)
+#define IFNNFAJLDEC_CTOR_OFFSET UNITYSDK_OFFSET(0x16E96C60)
+#define IFNNFAJLDEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E96C90)
 
-inline static constexpr unsigned int IFNNFAJLDEC_TypeDefinitionIndex = 55361;
+inline static constexpr unsigned int IFNNFAJLDEC_TypeDefinitionIndex = 56544;
 
 	class IFNNFAJLDEC
 	{

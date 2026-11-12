@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEntityScaledTimeService_1_TypeDefinitionIndex = 42423;
+	inline static constexpr unsigned int IEntityScaledTimeService_1_TypeDefinitionIndex = 43398;
 
 	template <typename T>
 	class IEntityScaledTimeService_1

@@ -4,23 +4,23 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define JOBECJELCHI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB29E8D0)
-#define JOBECJELCHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB29E910)
-#define JOBECJELCHI___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xB29E920)
+#define JOBECJELCHI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAC9DF0)
+#define JOBECJELCHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBAC9E30)
+#define JOBECJELCHI___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xBAC9E40)
 
-inline static constexpr unsigned int JOBECJELCHI___c_TypeDefinitionIndex = 58759;
+inline static constexpr unsigned int JOBECJELCHI___c_TypeDefinitionIndex = 60027;
 
 	class JOBECJELCHI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24320);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B010);
 		}
 
 		static ::System::Action** StaticGet___9__2_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24328);
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B018);
 		}
 
 		static ::System::Void _cctor()

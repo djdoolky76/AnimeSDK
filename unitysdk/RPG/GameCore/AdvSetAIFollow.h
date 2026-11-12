@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETAIFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AD4A0)
-#define RPG_GAMECORE_ADVSETAIFOLLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3AD550)
-#define RPG_GAMECORE_ADVSETAIFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AD3D0)
+#define RPG_GAMECORE_ADVSETAIFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BC9D0)
+#define RPG_GAMECORE_ADVSETAIFOLLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5BCA80)
+#define RPG_GAMECORE_ADVSETAIFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5BC900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetAIFollow_TypeDefinitionIndex = 22201;
+	inline static constexpr unsigned int AdvSetAIFollow_TypeDefinitionIndex = 22606;
 
 	class AdvSetAIFollow : public ::RPG::GameCore::TaskConfig
 	{

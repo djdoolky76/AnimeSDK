@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinDeckRecommendTiming_TypeDefinitionIndex = 11548;
+	inline static constexpr unsigned int FateRinDeckRecommendTiming_TypeDefinitionIndex = 11599;
 
 	enum class FateRinDeckRecommendTiming : ::System::Int32
 	{

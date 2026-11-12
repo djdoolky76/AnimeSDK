@@ -4,9 +4,9 @@
 #include "unitysdk/DEPCKFHMMHD.h"
 namespace RPG::GameCore { class IAvatarSkillCommonRowWrap; }
 
-#define DIOEHMBGLFA_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xF225490)
+#define DIOEHMBGLFA_KMAKLLEGBHI_OFFSET UNITYSDK_OFFSET(0xF98B6E0)
 
-inline static constexpr unsigned int DIOEHMBGLFA_TypeDefinitionIndex = 62645;
+inline static constexpr unsigned int DIOEHMBGLFA_TypeDefinitionIndex = 64079;
 
 	class DIOEHMBGLFA : public ::System::Object
 	{

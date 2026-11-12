@@ -5,20 +5,20 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleSwapPosition; }
 
-#define LHBIHKKNJMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A7910)
-#define LHBIHKKNJMJ_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB6A7CD0)
-#define LHBIHKKNJMJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB6A7970)
+#define LHBIHKKNJMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBF3E470)
+#define LHBIHKKNJMJ_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBF3E830)
+#define LHBIHKKNJMJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBF3E4D0)
 
-inline static constexpr unsigned int LHBIHKKNJMJ_TypeDefinitionIndex = 78410;
+inline static constexpr unsigned int LHBIHKKNJMJ_TypeDefinitionIndex = 81145;
 
 	class LHBIHKKNJMJ : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x10
+		::RPG::GameCore::ChimeraBattleSwapPosition* IGHAHBNLIJA; // 0x10
 		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x18
-		::RPG::GameCore::ChimeraBattleSwapPosition* IGHAHBNLIJA; // 0x20
-		::System::UInt32 LEKGODGIMCH; // 0x28
-		::System::UInt32 AJLJMGEEKOJ; // 0x2C
+		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x20
+		::System::UInt32 AJLJMGEEKOJ; // 0x28
+		::System::UInt32 LEKGODGIMCH; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattleSwapPosition* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2, ::System::UInt32 a3, ::System::UInt32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleSwapPosition*, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + LHBIHKKNJMJ_CTOR_OFFSET))(this, a1, a2, a3, a4);

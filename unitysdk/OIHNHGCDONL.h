@@ -9,31 +9,31 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace UnityEngine { class Coroutine; }
 
-#define OIHNHGCDONL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE94CF0)
-#define OIHNHGCDONL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE94D00)
-#define OIHNHGCDONL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xBE94D50)
-#define OIHNHGCDONL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBE950E0)
-#define OIHNHGCDONL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBE94E70)
-#define OIHNHGCDONL__START_B__2_0_OFFSET UNITYSDK_OFFSET(0xBE955B0)
-#define OIHNHGCDONL__STOP_B__3_0_OFFSET UNITYSDK_OFFSET(0xBE955C0)
+#define OIHNHGCDONL_CTOR_OFFSET UNITYSDK_OFFSET(0xC78AFA0)
+#define OIHNHGCDONL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC78AFB0)
+#define OIHNHGCDONL_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0xC78B000)
+#define OIHNHGCDONL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC78B390)
+#define OIHNHGCDONL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC78B120)
+#define OIHNHGCDONL__START_B__2_0_OFFSET UNITYSDK_OFFSET(0xC78B860)
+#define OIHNHGCDONL__STOP_B__3_0_OFFSET UNITYSDK_OFFSET(0xC78B870)
 
-inline static constexpr unsigned int OIHNHGCDONL_TypeDefinitionIndex = 78698;
+inline static constexpr unsigned int OIHNHGCDONL_TypeDefinitionIndex = 81433;
 
 	class OIHNHGCDONL : public ::System::Object
 	{
 	public:
-		::System::String* NNIOCPHFNNG; // 0x10
+		::RPG::Client::Prop::OpticalIllusionPuzzleBoard* MIPPNCGOJNM; // 0x10
 		::UnityEngine::Coroutine* NAEJCNNMAKA; // 0x18
 		::RPG::Client::MonoEffect* LBNBPMIFDHI; // 0x20
-		::RPG::Client::Prop::OpticalIllusionPuzzleBoard* MIPPNCGOJNM; // 0x28
-		::Il2CppArray<::HHPKNCPMPOJ*>* EJJJMLPECEJ; // 0x30
-		::System::Action* HIBJGHDJLJO; // 0x38
-		::System::Int32 LMOHABJNMFF; // 0x40
-		::System::Boolean OFEPHLEKKCD; // 0x44
+		::System::String* NNIOCPHFNNG; // 0x28
+		::System::Action* HIBJGHDJLJO; // 0x30
+		::Il2CppArray<::HHPKNCPMPOJ*>* EJJJMLPECEJ; // 0x38
+		::System::Single GHABAAOGBNO; // 0x40
+		::System::Single CHIPCDEFEPM; // 0x44
+		::System::Int32 LMOHABJNMFF; // 0x48
+		::System::Boolean OFEPHLEKKCD; // 0x4C
 		::System::Byte _padding0[0x3];
-		::System::Single HPCHCEFOKJB; // 0x48
-		::System::Single CHIPCDEFEPM; // 0x4C
-		::System::Single GHABAAOGBNO; // 0x50
+		::System::Single HPCHCEFOKJB; // 0x50
 		::System::Void _ctor(::RPG::Client::Prop::OpticalIllusionPuzzleBoard* a1, ::System::String* a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::OpticalIllusionPuzzleBoard*, ::System::String*, ::System::Single))((::PBYTE)hIl2Cpp + OIHNHGCDONL_CTOR_OFFSET))(this, a1, a2, a3);

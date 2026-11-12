@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_TypeDefinitionIndex = 38146;
+	inline static constexpr unsigned int SingleConsumerUnboundedChannel_1_TypeDefinitionIndex = 39075;
 
 	template <typename T>
 	class SingleConsumerUnboundedChannel_1

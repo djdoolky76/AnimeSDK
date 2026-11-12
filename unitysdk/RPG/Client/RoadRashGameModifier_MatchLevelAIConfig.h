@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIConfig; }
 namespace RPG::Client { class RoadRashGameModifier_MatchLevelAIConfig_ProgressKeyframe; }
 
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D332250)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D331820)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5417C0)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_MATCHLEVELAICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E540D90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIConfig_TypeDefinitionIndex = 10316;
+	inline static constexpr unsigned int RoadRashGameModifier_MatchLevelAIConfig_TypeDefinitionIndex = 10326;
 
 	class RoadRashGameModifier_MatchLevelAIConfig : public ::RPG::GameCore::JsonConfig
 	{

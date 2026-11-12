@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareLastKillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMHJDKGBNDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1557ED90)
-#define AMHJDKGBNDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1557EDC0)
+#define AMHJDKGBNDP_CTOR_OFFSET UNITYSDK_OFFSET(0x163EE260)
+#define AMHJDKGBNDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163EE290)
 
-inline static constexpr unsigned int AMHJDKGBNDP_TypeDefinitionIndex = 54540;
+inline static constexpr unsigned int AMHJDKGBNDP_TypeDefinitionIndex = 55705;
 
 	class AMHJDKGBNDP
 	{

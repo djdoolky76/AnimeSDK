@@ -8,31 +8,31 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class GameObject; }
 
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCDB910)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCDB950)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x1BCDB960)
-#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__UPDATESELECTEDACCOUNTINFO_B__60_0_OFFSET UNITYSDK_OFFSET(0x1BCDB970)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE64830)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE64870)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__SHOW_B__45_0_OFFSET UNITYSDK_OFFSET(0x1CE64880)
+#define MIHOYO_SDK_WIN_ACCOUNTLIST___C__UPDATESELECTEDACCOUNTINFO_B__60_0_OFFSET UNITYSDK_OFFSET(0x1CE64890)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int AccountList___c_TypeDefinitionIndex = 9295;
+	inline static constexpr unsigned int AccountList___c_TypeDefinitionIndex = 9303;
 
 	class AccountList___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::Win::AccountList*>** StaticGet___9__45_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Win::AccountList*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x185F0);
-		}
-
-		static ::System::Action_2<::UnityEngine::GameObject*, ::System::String*>** StaticGet___9__60_0()
-		{
-			return (::System::Action_2<::UnityEngine::GameObject*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x185F8);
+			return (::System::Action_1<::MiHoYo::SDK::Win::AccountList*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x25FE0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x18600);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x25FE8);
+		}
+
+		static ::System::Action_2<::UnityEngine::GameObject*, ::System::String*>** StaticGet___9__60_0()
+		{
+			return (::System::Action_2<::UnityEngine::GameObject*, ::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x25FF0);
 		}
 
 		static ::System::Void _cctor()

@@ -9,12 +9,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NLEKIECBHFE_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xBC63F60)
-#define NLEKIECBHFE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC63F10)
-#define NLEKIECBHFE_GPLCMHDFMEK_OFFSET UNITYSDK_OFFSET(0xBC64F30)
-#define NLEKIECBHFE_IDFGDJEPFIK_OFFSET UNITYSDK_OFFSET(0xBC647A0)
+#define NLEKIECBHFE_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xC5492E0)
+#define NLEKIECBHFE_CTOR_OFFSET UNITYSDK_OFFSET(0xC549290)
+#define NLEKIECBHFE_GPLCMHDFMEK_OFFSET UNITYSDK_OFFSET(0xC54A2C0)
+#define NLEKIECBHFE_IDFGDJEPFIK_OFFSET UNITYSDK_OFFSET(0xC549B30)
 
-inline static constexpr unsigned int NLEKIECBHFE_TypeDefinitionIndex = 79163;
+inline static constexpr unsigned int NLEKIECBHFE_TypeDefinitionIndex = 81939;
 
 	class NLEKIECBHFE : public ::System::Object
 	{

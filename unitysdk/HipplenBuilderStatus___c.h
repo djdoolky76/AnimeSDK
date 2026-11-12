@@ -5,23 +5,23 @@ class HipplenBuilderStatus_LHKGHMBBAMD;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define HIPPLENBUILDERSTATUS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DF1650)
-#define HIPPLENBUILDERSTATUS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1690)
-#define HIPPLENBUILDERSTATUS___C__BUFFTIMEPASS_B__8_0_OFFSET UNITYSDK_OFFSET(0x15DF16A0)
+#define HIPPLENBUILDERSTATUS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16D8F560)
+#define HIPPLENBUILDERSTATUS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16D8F5A0)
+#define HIPPLENBUILDERSTATUS___C__BUFFTIMEPASS_B__8_0_OFFSET UNITYSDK_OFFSET(0x16D8F5B0)
 
-inline static constexpr unsigned int HipplenBuilderStatus___c_TypeDefinitionIndex = 47211;
+inline static constexpr unsigned int HipplenBuilderStatus___c_TypeDefinitionIndex = 48239;
 
 	class HipplenBuilderStatus___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DBD0);
-		}
-
 		static ::System::Predicate_1<::System::Object*>** StaticGet___9__8_0()
 		{
-			return (::System::Predicate_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DBD8);
+			return (::System::Predicate_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x273B0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x273B8);
 		}
 
 		static ::System::Void _cctor()

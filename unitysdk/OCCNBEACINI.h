@@ -6,17 +6,17 @@ class OCCNBEACINI;
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define OCCNBEACINI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D251010)
-#define OCCNBEACINI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D251020)
-#define OCCNBEACINI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D250FE0)
+#define OCCNBEACINI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E457480)
+#define OCCNBEACINI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E457490)
+#define OCCNBEACINI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E457450)
 
-inline static constexpr unsigned int OCCNBEACINI_TypeDefinitionIndex = 19918;
+inline static constexpr unsigned int OCCNBEACINI_TypeDefinitionIndex = 20247;
 
 	class OCCNBEACINI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* KKJHBCAHFAO; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OFJMFAAEMAD; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OFJMFAAEMAD; // 0x18
+		::System::String* KKJHBCAHFAO; // 0x20
 		::System::Boolean FKDDKHGMEAM; // 0x28
 		::System::Void _ctor()
 		{

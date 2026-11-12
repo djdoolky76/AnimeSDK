@@ -4,20 +4,20 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define MDJKOJJFBNA_CLEAR_OFFSET UNITYSDK_OFFSET(0xB8AC820)
-#define MDJKOJJFBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AC870)
+#define MDJKOJJFBNA_CLEAR_OFFSET UNITYSDK_OFFSET(0xC15C690)
+#define MDJKOJJFBNA_CTOR_OFFSET UNITYSDK_OFFSET(0xC15C6E0)
 
-inline static constexpr unsigned int MDJKOJJFBNA_TypeDefinitionIndex = 57064;
+inline static constexpr unsigned int MDJKOJJFBNA_TypeDefinitionIndex = 58291;
 
 	class MDJKOJJFBNA : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* OICNIIBMFLK; // 0x10
 		::RPG::GameCore::GameEntity* FMBKMMFOPIL; // 0x18
-		::System::Single GCJMFBKLGHI; // 0x20
-		::RPG::GameCore::AdventureMoveOnNavMeshFaceToType OGMHHHNEEGI; // 0x24
-		::System::Single JMPPNFDHDPJ; // 0x28
-		::System::Single MLINDPFAGFJ; // 0x2C
+		::RPG::GameCore::AdventureMoveOnNavMeshFaceToType OGMHHHNEEGI; // 0x20
+		::System::Single GCJMFBKLGHI; // 0x24
+		::System::Single MLINDPFAGFJ; // 0x28
+		::System::Single JMPPNFDHDPJ; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDJKOJJFBNA_CTOR_OFFSET))(this);

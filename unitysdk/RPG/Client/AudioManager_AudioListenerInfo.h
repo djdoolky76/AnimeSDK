@@ -6,20 +6,20 @@
 #include "unitysdk/System/Nullable_1.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC6BFE40)
-#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO_INIT_OFFSET UNITYSDK_OFFSET(0xC6BB500)
+#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD020E40)
+#define RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO_INIT_OFFSET UNITYSDK_OFFSET(0xD020D80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudioManager_AudioListenerInfo_TypeDefinitionIndex = 59730;
+	inline static constexpr unsigned int AudioManager_AudioListenerInfo_TypeDefinitionIndex = 61009;
 
 	class AudioManager_AudioListenerInfo : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* ListenerFollowTarget; // 0x10
-		::RPG::Client::AudioListenerMode Mode; // 0x18
-		::UnityEngine::Vector3 ListenerOffset; // 0x1C
-		::System::Single ListenerWithinDist; // 0x28
+		::System::Single ListenerWithinDist; // 0x18
+		::RPG::Client::AudioListenerMode Mode; // 0x1C
+		::UnityEngine::Vector3 ListenerOffset; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AUDIOMANAGER_AUDIOLISTENERINFO_CTOR_OFFSET))(this);

@@ -7,11 +7,11 @@ namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 namespace RPG::GameCore { class BaseChenLingBattleResource; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DMBMPINDIPC_CFGOIGELNBN_OFFSET UNITYSDK_OFFSET(0xFEB8190)
-#define DMBMPINDIPC_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB84F0)
-#define DMBMPINDIPC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xFEB7E10)
+#define DMBMPINDIPC_CFGOIGELNBN_OFFSET UNITYSDK_OFFSET(0x106308E0)
+#define DMBMPINDIPC_CTOR_OFFSET UNITYSDK_OFFSET(0x10630C40)
+#define DMBMPINDIPC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x10630540)
 
-inline static constexpr unsigned int DMBMPINDIPC_TypeDefinitionIndex = 77884;
+inline static constexpr unsigned int DMBMPINDIPC_TypeDefinitionIndex = 80619;
 
 	class DMBMPINDIPC : public ::System::Object
 	{

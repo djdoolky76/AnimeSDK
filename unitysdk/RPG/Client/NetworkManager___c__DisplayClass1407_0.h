@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::Client { class NetworkManager; }
+namespace System { class Action; }
+
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS1407_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE463120)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS1407_0__SENDENTERAETHERDIVIDESCENECSREQ_B__0_OFFSET UNITYSDK_OFFSET(0xE467030)
+#define RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS1407_0__SENDENTERAETHERDIVIDESCENECSREQ_B__1_OFFSET UNITYSDK_OFFSET(0xE467130)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass1407_0_TypeDefinitionIndex = 71329;
+
+	class NetworkManager___c__DisplayClass1407_0 : public ::System::Object
+	{
+	public:
+		::RPG::Client::NetworkManager* __4__this; // 0x10
+		::System::Action* doTransferAction; // 0x18
+		::System::UInt32 gymID; // 0x20
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS1407_0_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _SendEnterAetherDivideSceneCsReq_b__0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS1407_0__SENDENTERAETHERDIVIDESCENECSREQ_B__0_OFFSET))(this);
+		}
+
+		::System::Void _SendEnterAetherDivideSceneCsReq_b__1(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_NETWORKMANAGER___C__DISPLAYCLASS1407_0__SENDENTERAETHERDIVIDESCENECSREQ_B__1_OFFSET))(this, a1);
+		}
+
+	};
+}

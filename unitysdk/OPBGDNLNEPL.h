@@ -8,16 +8,16 @@ class OINNEGOFKAA;
 namespace RPG::AvatarSystem { class Avatar; }
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define OPBGDNLNEPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF9FA70)
-#define OPBGDNLNEPL_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xBF9FB20)
+#define OPBGDNLNEPL_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A0B40)
+#define OPBGDNLNEPL_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xC8A0BF0)
 
-inline static constexpr unsigned int OPBGDNLNEPL_TypeDefinitionIndex = 62553;
+inline static constexpr unsigned int OPBGDNLNEPL_TypeDefinitionIndex = 63966;
 
 	class OPBGDNLNEPL : public ::System::Object
 	{
 	public:
-		::MGLBNNIPDMC* CEFLLELKFOP; // 0x10
-		::MLAOHDCAGOK* FAGBIGDLJGA; // 0x18
+		::MLAOHDCAGOK* FAGBIGDLJGA; // 0x10
+		::MGLBNNIPDMC* CEFLLELKFOP; // 0x18
 		::System::Void _ctor(::MLAOHDCAGOK* a1, ::MGLBNNIPDMC* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::MLAOHDCAGOK*, ::MGLBNNIPDMC*))((::PBYTE)hIl2Cpp + OPBGDNLNEPL_CTOR_OFFSET))(this, a1, a2);

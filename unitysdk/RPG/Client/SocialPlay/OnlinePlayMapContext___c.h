@@ -6,25 +6,25 @@ namespace RPG::Client::NavMap { class SubTabData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_SOCIALPLAY_ONLINEPLAYMAPCONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0EDC90)
-#define RPG_CLIENT_SOCIALPLAY_ONLINEPLAYMAPCONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0EDCD0)
-#define RPG_CLIENT_SOCIALPLAY_ONLINEPLAYMAPCONTEXT___C__GETMAINTABLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0xE0EDCE0)
+#define RPG_CLIENT_SOCIALPLAY_ONLINEPLAYMAPCONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEB57A90)
+#define RPG_CLIENT_SOCIALPLAY_ONLINEPLAYMAPCONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEB57AD0)
+#define RPG_CLIENT_SOCIALPLAY_ONLINEPLAYMAPCONTEXT___C__GETMAINTABLIST_B__3_0_OFFSET UNITYSDK_OFFSET(0xEB57AE0)
 
 namespace RPG::Client::SocialPlay
 {
-	inline static constexpr unsigned int OnlinePlayMapContext___c_TypeDefinitionIndex = 74499;
+	inline static constexpr unsigned int OnlinePlayMapContext___c_TypeDefinitionIndex = 76647;
 
 	class OnlinePlayMapContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.SocialPlay", "<>c")->GetStaticField(0x6F190);
-		}
-
 		static ::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::RPG::Client::NavMap::IMainTab*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::RPG::Client::NavMap::IMainTab*>**)UnitySDK::FromName("RPG.Client.SocialPlay", "<>c")->GetStaticField(0x6F198);
+			return (::System::Func_2<::RPG::Client::NavMap::SubTabData*, ::RPG::Client::NavMap::IMainTab*>**)UnitySDK::FromName("RPG.Client.SocialPlay", "<>c")->GetStaticField(0x73A10);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.SocialPlay", "<>c")->GetStaticField(0x73A18);
 		}
 
 		static ::System::Void _cctor()

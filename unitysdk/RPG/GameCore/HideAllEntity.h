@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClearNpcDistanceTrigger; }
 namespace RPG::GameCore { class HideAllEntity; }
 
-#define RPG_GAMECORE_HIDEALLENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D767840)
-#define RPG_GAMECORE_HIDEALLENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D767850)
-#define RPG_GAMECORE_HIDEALLENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D767810)
+#define RPG_GAMECORE_HIDEALLENTITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97B280)
+#define RPG_GAMECORE_HIDEALLENTITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E97B290)
+#define RPG_GAMECORE_HIDEALLENTITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97B250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideAllEntity_TypeDefinitionIndex = 21668;
+	inline static constexpr unsigned int HideAllEntity_TypeDefinitionIndex = 22056;
 
 	class HideAllEntity : public ::RPG::GameCore::TaskConfig
 	{

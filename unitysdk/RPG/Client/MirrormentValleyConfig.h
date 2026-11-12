@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_MIRRORMENTVALLEYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD6C6700)
+#define RPG_CLIENT_MIRRORMENTVALLEYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE156460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MirrormentValleyConfig_TypeDefinitionIndex = 60044;
+	inline static constexpr unsigned int MirrormentValleyConfig_TypeDefinitionIndex = 61328;
 
 	class MirrormentValleyConfig : public ::UnityEngine::ScriptableObject
 	{

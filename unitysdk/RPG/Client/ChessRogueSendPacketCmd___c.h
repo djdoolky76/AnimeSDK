@@ -5,25 +5,25 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB08250)
-#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB08290)
-#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0xCB082A0)
+#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD46B960)
+#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD46B9A0)
+#define RPG_CLIENT_CHESSROGUESENDPACKETCMD___C__SENDREVIVEROGUEAVATARCSREQ_B__1_0_OFFSET UNITYSDK_OFFSET(0xD46B9B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChessRogueSendPacketCmd___c_TypeDefinitionIndex = 67322;
+	inline static constexpr unsigned int ChessRogueSendPacketCmd___c_TypeDefinitionIndex = 69266;
 
 	class ChessRogueSendPacketCmd___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE370);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE378);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE2E0);
+		}
+
+		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE2E8);
 		}
 
 		static ::System::Void _cctor()

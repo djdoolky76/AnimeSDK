@@ -8,31 +8,31 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B855130)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B855170)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B855180)
-#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1B855190)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9DE0A0)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9DE0E0)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C9DE0F0)
+#define GOOGLE_PROTOBUF_EXTENSIONREGISTRY___C___CTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x1C9DE100)
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ExtensionRegistry___c_TypeDefinitionIndex = 5373;
+	inline static constexpr unsigned int ExtensionRegistry___c_TypeDefinitionIndex = 5378;
 
 	class ExtensionRegistry___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1A880);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1A888);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::ObjectIntPair_1<::System::Type*>>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1A580);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::Google::Protobuf::ObjectIntPair_1<::System::Type*>, ::Google::Protobuf::Extension*>, ::Google::Protobuf::Extension*>**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1A588);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1A890);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf", "<>c")->GetStaticField(0x1A590);
 		}
 
 		static ::System::Void _cctor()

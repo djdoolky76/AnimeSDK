@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByPlayerCurrentSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKHAHIIFOGK_CTOR_OFFSET UNITYSDK_OFFSET(0x155059E0)
-#define EKHAHIIFOGK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15505A10)
+#define EKHAHIIFOGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1644DDD0)
+#define EKHAHIIFOGK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1644DE00)
 
-inline static constexpr unsigned int EKHAHIIFOGK_TypeDefinitionIndex = 54474;
+inline static constexpr unsigned int EKHAHIIFOGK_TypeDefinitionIndex = 55638;
 
 	class EKHAHIIFOGK
 	{

@@ -4,18 +4,18 @@
 class NAGFBDNFCEP;
 namespace System { class Object; }
 
-#define NAGFBDNFCEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC1560)
-#define NAGFBDNFCEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC15A0)
-#define NAGFBDNFCEP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAC15B0)
+#define NAGFBDNFCEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDFCE70)
+#define NAGFBDNFCEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDFCEB0)
+#define NAGFBDNFCEP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FDFCEC0)
 
-inline static constexpr unsigned int NAGFBDNFCEP___c_TypeDefinitionIndex = 25973;
+inline static constexpr unsigned int NAGFBDNFCEP___c_TypeDefinitionIndex = 26470;
 
 	class NAGFBDNFCEP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C510);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66C00);
 		}
 
 		static ::System::Void _cctor()

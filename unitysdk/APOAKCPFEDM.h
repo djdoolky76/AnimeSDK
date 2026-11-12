@@ -4,25 +4,24 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define APOAKCPFEDM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BBF8D0)
-#define APOAKCPFEDM_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x15BC0580)
-#define APOAKCPFEDM_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x15BC05F0)
-#define APOAKCPFEDM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15BBF8F0)
-#define APOAKCPFEDM_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x15BC0600)
+#define APOAKCPFEDM_CTOR_OFFSET UNITYSDK_OFFSET(0x16A204A0)
+#define APOAKCPFEDM_DFFCHNLKELO_OFFSET UNITYSDK_OFFSET(0x16A21150)
+#define APOAKCPFEDM_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x16A211C0)
+#define APOAKCPFEDM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16A204C0)
+#define APOAKCPFEDM_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x16A211D0)
 
-inline static constexpr unsigned int APOAKCPFEDM_TypeDefinitionIndex = 78440;
+inline static constexpr unsigned int APOAKCPFEDM_TypeDefinitionIndex = 81175;
 
 	class APOAKCPFEDM : public ::System::Object
 	{
 	public:
 		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* NHNHKBJJKPP; // 0x10
 		::System::Action* MECKBKLEHAN; // 0x18
-		::System::Single FOMCKBAHCFM; // 0x20
-		::System::Int32 CPLLDEHNOHK; // 0x24
-		::System::Boolean _IsFinished_k__BackingField; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::Single MFLNKDOADDG; // 0x2C
-		::System::Int32 KFCHGADJONG; // 0x30
+		::System::Int32 CPLLDEHNOHK; // 0x20
+		::System::Single MFLNKDOADDG; // 0x24
+		::System::Int32 KFCHGADJONG; // 0x28
+		::System::Single FOMCKBAHCFM; // 0x2C
+		::System::Boolean _IsFinished_k__BackingField; // 0x30
 		::System::Void _ctor(::System::Single a1, ::System::Int32 a2, ::System::Int32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4, ::System::Action* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Int32, ::System::Int32, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*, ::System::Action*))((::PBYTE)hIl2Cpp + APOAKCPFEDM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

@@ -4,10 +4,10 @@
 namespace System::Xml { class XmlQualifiedName; }
 namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE9C90)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_GET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1EEE9C70)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1EEE9C80)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x1EEE9C60)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CTOR_OFFSET UNITYSDK_OFFSET(0x20199440)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_GET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x20199420)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_BASEITEMTYPE_OFFSET UNITYSDK_OFFSET(0x20199430)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_SET_ITEMTYPE_OFFSET UNITYSDK_OFFSET(0x20199410)
 
 namespace System::Xml::Schema
 {
@@ -16,9 +16,9 @@ namespace System::Xml::Schema
 	class XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent
 	{
 	public:
-		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x10
-		::System::Xml::Schema::XmlSchemaSimpleType* itemType; // 0x18
-		::System::Xml::XmlQualifiedName* itemTypeName; // 0x20
+		::System::Xml::Schema::XmlSchemaSimpleType* itemType; // 0x10
+		::System::Xml::XmlQualifiedName* itemTypeName; // 0x18
+		::System::Xml::Schema::XmlSchemaSimpleType* baseItemType; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_XML_SCHEMA_XMLSCHEMASIMPLETYPELIST_CTOR_OFFSET))(this);

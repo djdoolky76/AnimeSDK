@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/ProBuilder/Edge.h"
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2189D0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0__CONNECT_B__3_OFFSET UNITYSDK_OFFSET(0x1F218E20)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x204C9D90)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_CONNECTELEMENTS___C__DISPLAYCLASS3_0__CONNECT_B__3_OFFSET UNITYSDK_OFFSET(0x204CA1E0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int ConnectElements___c__DisplayClass3_0_TypeDefinitionIndex = 44488;
+	inline static constexpr unsigned int ConnectElements___c__DisplayClass3_0_TypeDefinitionIndex = 45563;
 
 	class ConnectElements___c__DisplayClass3_0 : public ::System::Object
 	{

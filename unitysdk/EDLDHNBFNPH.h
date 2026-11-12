@@ -3,10 +3,10 @@
 namespace RPG::Client { class RoadRashGameAbility_UltimateV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDLDHNBFNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1332A520)
-#define EDLDHNBFNPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1332A550)
+#define EDLDHNBFNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x140E73C0)
+#define EDLDHNBFNPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140E73F0)
 
-inline static constexpr unsigned int EDLDHNBFNPH_TypeDefinitionIndex = 58411;
+inline static constexpr unsigned int EDLDHNBFNPH_TypeDefinitionIndex = 59667;
 
 	class EDLDHNBFNPH
 	{

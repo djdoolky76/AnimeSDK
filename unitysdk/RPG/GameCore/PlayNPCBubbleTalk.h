@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BubbleTalkInfo; }
 namespace RPG::GameCore { class PlayNPCBubbleTalk; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYNPCBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92EE20)
-#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D92EE40)
-#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D92EDD0)
+#define RPG_GAMECORE_PLAYNPCBUBBLETALK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB47F90)
+#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1EB47FB0)
+#define RPG_GAMECORE_PLAYNPCBUBBLETALK_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB47F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayNPCBubbleTalk_TypeDefinitionIndex = 20405;
+	inline static constexpr unsigned int PlayNPCBubbleTalk_TypeDefinitionIndex = 20740;
 
 	class PlayNPCBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,11 +5,11 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define JDOGOCHLJNM_CTOR_OFFSET UNITYSDK_OFFSET(0x16611130)
-#define JDOGOCHLJNM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x16611080)
-#define JDOGOCHLJNM__ONBIND_OFFSET UNITYSDK_OFFSET(0x16610FE0)
+#define JDOGOCHLJNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB959BF0)
+#define JDOGOCHLJNM_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB959B40)
+#define JDOGOCHLJNM__ONBIND_OFFSET UNITYSDK_OFFSET(0xB9599D0)
 
-inline static constexpr unsigned int JDOGOCHLJNM_TypeDefinitionIndex = 72291;
+inline static constexpr unsigned int JDOGOCHLJNM_TypeDefinitionIndex = 74368;
 
 	class JDOGOCHLJNM : public ::FMPCODLIOLG
 	{

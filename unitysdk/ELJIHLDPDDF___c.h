@@ -4,18 +4,18 @@
 class ELJIHLDPDDF;
 namespace System { class Object; }
 
-#define ELJIHLDPDDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2D4510)
-#define ELJIHLDPDDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D4550)
-#define ELJIHLDPDDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E2D4560)
+#define ELJIHLDPDDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5B8930)
+#define ELJIHLDPDDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5B8970)
+#define ELJIHLDPDDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F5B8980)
 
-inline static constexpr unsigned int ELJIHLDPDDF___c_TypeDefinitionIndex = 33795;
+inline static constexpr unsigned int ELJIHLDPDDF___c_TypeDefinitionIndex = 34710;
 
 	class ELJIHLDPDDF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x510D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4AE20);
 		}
 
 		static ::System::Void _cctor()

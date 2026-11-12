@@ -9,37 +9,37 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BBKMLDGICCH_BNNLHBKGMAG_OFFSET UNITYSDK_OFFSET(0x15E8ED90)
-#define BBKMLDGICCH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15E8E610)
-#define BBKMLDGICCH_CBEJEAAKKGH_OFFSET UNITYSDK_OFFSET(0x15E8EA70)
-#define BBKMLDGICCH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E8EEC0)
-#define BBKMLDGICCH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E8E5C0)
-#define BBKMLDGICCH_LJBEPMLNPCB_OFFSET UNITYSDK_OFFSET(0x15E8E940)
+#define BBKMLDGICCH_BNNLHBKGMAG_OFFSET UNITYSDK_OFFSET(0x16D13C50)
+#define BBKMLDGICCH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16D134F0)
+#define BBKMLDGICCH_CBEJEAAKKGH_OFFSET UNITYSDK_OFFSET(0x16D13940)
+#define BBKMLDGICCH_CCTOR_OFFSET UNITYSDK_OFFSET(0x16D13D80)
+#define BBKMLDGICCH_CTOR_OFFSET UNITYSDK_OFFSET(0x16D134A0)
+#define BBKMLDGICCH_LJBEPMLNPCB_OFFSET UNITYSDK_OFFSET(0x16D13810)
 
-inline static constexpr unsigned int BBKMLDGICCH_TypeDefinitionIndex = 80515;
+inline static constexpr unsigned int BBKMLDGICCH_TypeDefinitionIndex = 83295;
 
 	class BBKMLDGICCH : public ::System::Object
 	{
 	public:
 		::HEJLOAOKDGE* KAMLEMCONJK; // 0x10
-		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_GJLFPNOBHOM()
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::String*>*>** StaticGet_MJMCHFOIADK()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x6C9B0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::String*>*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x66780);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::String*>*>** StaticGet_ILCNLDCFMAH()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::String*>*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x6C9B8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::String*>*>** StaticGet_MJMCHFOIADK()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::String*>*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x6C9C0);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::Il2CppArray<::System::String*>*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x66788);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_MKHPAICIFLP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x6C9C8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x66790);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_GJLFPNOBHOM()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "BBKMLDGICCH")->GetStaticField(0x66798);
 		}
 
 		::System::Void _ctor(::HEJLOAOKDGE* a1)

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 
-#define MIMCKKLOGKP_CTOR_OFFSET UNITYSDK_OFFSET(0xB95E7A0)
-#define MIMCKKLOGKP_EQUALS_OFFSET UNITYSDK_OFFSET(0xB95E6F0)
-#define MIMCKKLOGKP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB95E750)
+#define MIMCKKLOGKP_CTOR_OFFSET UNITYSDK_OFFSET(0xC213B10)
+#define MIMCKKLOGKP_EQUALS_OFFSET UNITYSDK_OFFSET(0xC213A60)
+#define MIMCKKLOGKP_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xC213AC0)
 
-inline static constexpr unsigned int MIMCKKLOGKP_TypeDefinitionIndex = 60088;
+inline static constexpr unsigned int MIMCKKLOGKP_TypeDefinitionIndex = 61372;
 
 	class MIMCKKLOGKP : public ::System::Object
 	{

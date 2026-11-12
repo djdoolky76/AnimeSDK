@@ -6,22 +6,23 @@ class JOPMGMGAFKG;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDIGNPAFPCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB624580)
-#define LDIGNPAFPCH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6245C0)
-#define LDIGNPAFPCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB624600)
-#define LDIGNPAFPCH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB624AD0)
-#define LDIGNPAFPCH_TICK_OFFSET UNITYSDK_OFFSET(0xB6246E0)
+#define LDIGNPAFPCH_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB8FE0)
+#define LDIGNPAFPCH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEB9020)
+#define LDIGNPAFPCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEB9060)
+#define LDIGNPAFPCH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEB9530)
+#define LDIGNPAFPCH_TICK_OFFSET UNITYSDK_OFFSET(0xBEB9140)
 
-inline static constexpr unsigned int LDIGNPAFPCH_TypeDefinitionIndex = 54152;
+inline static constexpr unsigned int LDIGNPAFPCH_TypeDefinitionIndex = 55316;
 
 	class LDIGNPAFPCH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::JOPMGMGAFKG* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::GameEntity* IEKCMJJGLOH; // 0x20
-		::JOPMGMGAFKG* OFKGLJOAMLD; // 0x28
-		::RPG::GameCore::FixPoint OLDIGCGFHJM; // 0x30
-		::System::Int32 APNGJPMPMOB; // 0x38
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::System::Int32 APNGJPMPMOB; // 0x30
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint OLDIGCGFHJM; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::JOPMGMGAFKG* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::JOPMGMGAFKG*))((::PBYTE)hIl2Cpp + LDIGNPAFPCH_CTOR_OFFSET))(this, a1, a2);

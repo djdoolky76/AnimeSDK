@@ -7,21 +7,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LoadingFuncConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_LOADINGFUNCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7EBB90)
-#define RPG_GAMECORE_LOADINGFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7EB980)
+#define RPG_GAMECORE_LOADINGFUNCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2EA70)
+#define RPG_GAMECORE_LOADINGFUNCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA2E860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingFuncConfigRow_TypeDefinitionIndex = 13985;
+	inline static constexpr unsigned int LoadingFuncConfigRow_TypeDefinitionIndex = 14142;
 
 	class LoadingFuncConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* LoadingFuncTypeParam; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::System::UInt32>* LoadingRandomParam; // 0x18
-		::RPG::GameCore::LoadingFuncType LoadingFuncType; // 0x20
-		::System::UInt32 LoadingFuncID; // 0x24
-		::System::UInt32 RandomNumber; // 0x28
+		::System::UInt32 LoadingFuncID; // 0x20
+		::System::UInt32 RandomNumber; // 0x24
+		::RPG::GameCore::LoadingFuncType LoadingFuncType; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LOADINGFUNCCONFIGROW_CTOR_OFFSET))(this);

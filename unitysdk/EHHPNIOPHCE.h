@@ -7,16 +7,16 @@ namespace RPG::GameCore { class ST_Side_NotifySpecialEvent; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EHHPNIOPHCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x154AA420)
-#define EHHPNIOPHCE_CTOR_OFFSET UNITYSDK_OFFSET(0x154A9210)
-#define EHHPNIOPHCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x154A9470)
-#define EHHPNIOPHCE_GJAPGIIBMHB_OFFSET UNITYSDK_OFFSET(0x154A9500)
-#define EHHPNIOPHCE_LIAMCBLLHLD_OFFSET UNITYSDK_OFFSET(0x154A9400)
-#define EHHPNIOPHCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154A9240)
-#define EHHPNIOPHCE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154A9360)
-#define EHHPNIOPHCE_PJCGAIICFAH_OFFSET UNITYSDK_OFFSET(0x154A92B0)
+#define EHHPNIOPHCE_CCTOR_OFFSET UNITYSDK_OFFSET(0x163A90C0)
+#define EHHPNIOPHCE_CTOR_OFFSET UNITYSDK_OFFSET(0x163A7EB0)
+#define EHHPNIOPHCE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x163A8110)
+#define EHHPNIOPHCE_GJAPGIIBMHB_OFFSET UNITYSDK_OFFSET(0x163A81A0)
+#define EHHPNIOPHCE_LIAMCBLLHLD_OFFSET UNITYSDK_OFFSET(0x163A80A0)
+#define EHHPNIOPHCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163A7EE0)
+#define EHHPNIOPHCE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x163A8000)
+#define EHHPNIOPHCE_PJCGAIICFAH_OFFSET UNITYSDK_OFFSET(0x163A7F50)
 
-inline static constexpr unsigned int EHHPNIOPHCE_TypeDefinitionIndex = 52241;
+inline static constexpr unsigned int EHHPNIOPHCE_TypeDefinitionIndex = 53347;
 
 	class EHHPNIOPHCE
 	{
@@ -24,7 +24,7 @@ inline static constexpr unsigned int EHHPNIOPHCE_TypeDefinitionIndex = 52241;
 		::System::Boolean IKOOHIBMNFK; // 0x28
 		static ::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>** StaticGet_IJLNNMPABLK()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "EHHPNIOPHCE")->GetStaticField(0x34CC0);
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("", "EHHPNIOPHCE")->GetStaticField(0x148C0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Side_NotifySpecialEvent* a2)

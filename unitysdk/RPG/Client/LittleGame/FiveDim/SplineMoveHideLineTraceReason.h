@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int SplineMoveHideLineTraceReason_TypeDefinitionIndex = 43555;
+	inline static constexpr unsigned int SplineMoveHideLineTraceReason_TypeDefinitionIndex = 44537;
 
 	enum class SplineMoveHideLineTraceReason : ::System::Int32
 	{

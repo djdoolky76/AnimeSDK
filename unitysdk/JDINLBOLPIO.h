@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetIronTombProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDINLBOLPIO_CTOR_OFFSET UNITYSDK_OFFSET(0x165CEDD0)
-#define JDINLBOLPIO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165CEE00)
+#define JDINLBOLPIO_CTOR_OFFSET UNITYSDK_OFFSET(0xB915020)
+#define JDINLBOLPIO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB915050)
 
-inline static constexpr unsigned int JDINLBOLPIO_TypeDefinitionIndex = 55526;
+inline static constexpr unsigned int JDINLBOLPIO_TypeDefinitionIndex = 56718;
 
 	class JDINLBOLPIO
 	{

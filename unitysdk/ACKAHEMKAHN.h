@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableFieldEffectSoftZOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ACKAHEMKAHN_CTOR_OFFSET UNITYSDK_OFFSET(0xB123D20)
-#define ACKAHEMKAHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB123D50)
+#define ACKAHEMKAHN_CTOR_OFFSET UNITYSDK_OFFSET(0xB789FC0)
+#define ACKAHEMKAHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB789FF0)
 
-inline static constexpr unsigned int ACKAHEMKAHN_TypeDefinitionIndex = 55014;
+inline static constexpr unsigned int ACKAHEMKAHN_TypeDefinitionIndex = 56188;
 
 	class ACKAHEMKAHN
 	{

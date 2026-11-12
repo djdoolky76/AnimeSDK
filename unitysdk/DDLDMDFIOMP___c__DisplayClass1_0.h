@@ -4,18 +4,18 @@
 class OJHMEHAHDNI;
 namespace System { class Object; }
 
-#define DDLDMDFIOMP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E5F30)
-#define DDLDMDFIOMP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0xE4E6300)
-#define DDLDMDFIOMP___C__DISPLAYCLASS1_0__ONTASKBEGIN_G__ONSCENEENTERED_0_OFFSET UNITYSDK_OFFSET(0xE4E6230)
+#define DDLDMDFIOMP___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEE2BF50)
+#define DDLDMDFIOMP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0xEE2C320)
+#define DDLDMDFIOMP___C__DISPLAYCLASS1_0__ONTASKBEGIN_G__ONSCENEENTERED_0_OFFSET UNITYSDK_OFFSET(0xEE2C250)
 
-inline static constexpr unsigned int DDLDMDFIOMP___c__DisplayClass1_0_TypeDefinitionIndex = 57940;
+inline static constexpr unsigned int DDLDMDFIOMP___c__DisplayClass1_0_TypeDefinitionIndex = 59177;
 
 	class DDLDMDFIOMP___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
 		::OJHMEHAHDNI* activityService; // 0x10
-		::System::UInt32 trackId; // 0x18
-		::System::UInt32 matchId; // 0x1C
+		::System::UInt32 matchId; // 0x18
+		::System::UInt32 trackId; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DDLDMDFIOMP___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

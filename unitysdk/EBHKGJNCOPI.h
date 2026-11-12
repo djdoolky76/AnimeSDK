@@ -5,20 +5,20 @@ class HCAAKJLECEH;
 namespace RPG::GameCore { class SetTargetCrossHairVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBHKGJNCOPI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF53E0)
-#define EBHKGJNCOPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CF5460)
-#define EBHKGJNCOPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CF54A0)
-#define EBHKGJNCOPI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CF5640)
-#define EBHKGJNCOPI_TICK_OFFSET UNITYSDK_OFFSET(0x12CF5690)
+#define EBHKGJNCOPI_CTOR_OFFSET UNITYSDK_OFFSET(0x13AA6550)
+#define EBHKGJNCOPI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13AA65A0)
+#define EBHKGJNCOPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AA65E0)
+#define EBHKGJNCOPI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13AA6780)
+#define EBHKGJNCOPI_TICK_OFFSET UNITYSDK_OFFSET(0x13AA67D0)
 
-inline static constexpr unsigned int EBHKGJNCOPI_TypeDefinitionIndex = 56428;
+inline static constexpr unsigned int EBHKGJNCOPI_TypeDefinitionIndex = 57646;
 
 	class EBHKGJNCOPI : public ::GELIALJDFBL
 	{
 	public:
-		::HCAAKJLECEH* AGAPPFLLEBA; // 0x18
-		::RPG::GameCore::SetTargetCrossHairVisible* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::HCAAKJLECEH* AGAPPFLLEBA; // 0x20
+		::RPG::GameCore::SetTargetCrossHairVisible* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTargetCrossHairVisible* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetTargetCrossHairVisible*))((::PBYTE)hIl2Cpp + EBHKGJNCOPI_CTOR_OFFSET))(this, a1, a2);

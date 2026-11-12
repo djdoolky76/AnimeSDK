@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddIsometricConnector; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLBNMOCJLHI_CTOR_OFFSET UNITYSDK_OFFSET(0x15AAA8F0)
-#define GLBNMOCJLHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AAA920)
+#define GLBNMOCJLHI_CTOR_OFFSET UNITYSDK_OFFSET(0x16A2CE60)
+#define GLBNMOCJLHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A2CE90)
 
-inline static constexpr unsigned int GLBNMOCJLHI_TypeDefinitionIndex = 52324;
+inline static constexpr unsigned int GLBNMOCJLHI_TypeDefinitionIndex = 53430;
 
 	class GLBNMOCJLHI
 	{

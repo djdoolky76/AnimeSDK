@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int ICurvesOwner_TypeDefinitionIndex = 38783;
+	inline static constexpr unsigned int ICurvesOwner_TypeDefinitionIndex = 39712;
 
 	class ICurvesOwner
 	{

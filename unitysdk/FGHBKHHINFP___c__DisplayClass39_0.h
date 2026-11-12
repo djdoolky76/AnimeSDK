@@ -6,17 +6,17 @@ class FGHBKHHINFP_INIEEEKLKEA;
 namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define FGHBKHHINFP___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15762040)
-#define FGHBKHHINFP___C__DISPLAYCLASS39_0__ASYNCLOADGAMEOBJECTWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x157622B0)
+#define FGHBKHHINFP___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16682760)
+#define FGHBKHHINFP___C__DISPLAYCLASS39_0__ASYNCLOADGAMEOBJECTWITHPROMISE_B__0_OFFSET UNITYSDK_OFFSET(0x166829C0)
 
-inline static constexpr unsigned int FGHBKHHINFP___c__DisplayClass39_0_TypeDefinitionIndex = 69166;
+inline static constexpr unsigned int FGHBKHHINFP___c__DisplayClass39_0_TypeDefinitionIndex = 71119;
 
 	class FGHBKHHINFP___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:
-		::FGHBKHHINFP_INIEEEKLKEA* onLoadAction; // 0x10
-		::RPG::Client::Promises::Promise* promise; // 0x18
-		::FGHBKHHINFP* __4__this; // 0x20
+		::RPG::Client::Promises::Promise* promise; // 0x10
+		::FGHBKHHINFP* __4__this; // 0x18
+		::FGHBKHHINFP_INIEEEKLKEA* onLoadAction; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FGHBKHHINFP___C__DISPLAYCLASS39_0_CTOR_OFFSET))(this);

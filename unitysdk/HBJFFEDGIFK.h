@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define HBJFFEDGIFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0AD30)
+#define HBJFFEDGIFK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B4CA90)
 
-inline static constexpr unsigned int HBJFFEDGIFK_TypeDefinitionIndex = 47878;
+inline static constexpr unsigned int HBJFFEDGIFK_TypeDefinitionIndex = 48909;
 
 	class HBJFFEDGIFK : public ::UnityEngine::Playables::PlayableBehaviour
 	{

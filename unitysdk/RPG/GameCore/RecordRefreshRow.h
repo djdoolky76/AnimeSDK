@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RecordRefreshRow; }
 
-#define RPG_GAMECORE_RECORDREFRESHROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D974EB0)
-#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D974800)
+#define RPG_GAMECORE_RECORDREFRESHROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8D240)
+#define RPG_GAMECORE_RECORDREFRESHROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB8CB90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 14382;
+	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 14539;
 
 	class RecordRefreshRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RefreshTime; // 0x10
-		::RPG::GameCore::RecordRefreshType RefreshType; // 0x18
+		::System::UInt32 RefreshID; // 0x18
 		::System::Boolean IsInteract; // 0x1C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 RefreshID; // 0x20
+		::RPG::GameCore::RecordRefreshType RefreshType; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECORDREFRESHROW_CTOR_OFFSET))(this);

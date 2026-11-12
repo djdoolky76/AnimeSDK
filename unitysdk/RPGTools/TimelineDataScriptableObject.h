@@ -4,11 +4,11 @@
 namespace RPGTools { class TimelineData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPGTOOLS_TIMELINEDATASCRIPTABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xE95CCF0)
+#define RPGTOOLS_TIMELINEDATASCRIPTABLEOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0xF47B570)
 
 namespace RPGTools
 {
-	inline static constexpr unsigned int TimelineDataScriptableObject_TypeDefinitionIndex = 47784;
+	inline static constexpr unsigned int TimelineDataScriptableObject_TypeDefinitionIndex = 48815;
 
 	class TimelineDataScriptableObject : public ::UnityEngine::ScriptableObject
 	{

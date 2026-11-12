@@ -9,70 +9,70 @@ namespace UnityEngine { class Gradient; }
 namespace UnityEngine { class RenderTexture; }
 namespace UnityEngine { class Texture; }
 
-#define DHCAOJAKHIG_AHINAEDMPGB_OFFSET UNITYSDK_OFFSET(0xEBC8E10)
-#define DHCAOJAKHIG_AIOCPMGPCKH_OFFSET UNITYSDK_OFFSET(0xEBC9230)
-#define DHCAOJAKHIG_CCTOR_OFFSET UNITYSDK_OFFSET(0xEBC94A0)
-#define DHCAOJAKHIG_CEBLFCPPEEB_OFFSET UNITYSDK_OFFSET(0xEBC8530)
-#define DHCAOJAKHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC81C0)
-#define DHCAOJAKHIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBC7CB0)
-#define DHCAOJAKHIG_EJDGNDMMCBH_OFFSET UNITYSDK_OFFSET(0xEBC7EE0)
-#define DHCAOJAKHIG_EJEDDIPFCGL_OFFSET UNITYSDK_OFFSET(0xEBC8420)
-#define DHCAOJAKHIG_ENNNFBDFAAJ_OFFSET UNITYSDK_OFFSET(0xEBC8620)
-#define DHCAOJAKHIG_GNPBDFPINPD_OFFSET UNITYSDK_OFFSET(0xEBC9450)
-#define DHCAOJAKHIG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xEBC85C0)
-#define DHCAOJAKHIG_LEHHMJJLLEP_OFFSET UNITYSDK_OFFSET(0xEBC9460)
+#define DHCAOJAKHIG_AHINAEDMPGB_OFFSET UNITYSDK_OFFSET(0xF4474E0)
+#define DHCAOJAKHIG_AIOCPMGPCKH_OFFSET UNITYSDK_OFFSET(0xF447900)
+#define DHCAOJAKHIG_CCTOR_OFFSET UNITYSDK_OFFSET(0xF447B70)
+#define DHCAOJAKHIG_CEBLFCPPEEB_OFFSET UNITYSDK_OFFSET(0xF446BF0)
+#define DHCAOJAKHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF446880)
+#define DHCAOJAKHIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF4463A0)
+#define DHCAOJAKHIG_EJDGNDMMCBH_OFFSET UNITYSDK_OFFSET(0xF4465A0)
+#define DHCAOJAKHIG_EJEDDIPFCGL_OFFSET UNITYSDK_OFFSET(0xF446AE0)
+#define DHCAOJAKHIG_ENNNFBDFAAJ_OFFSET UNITYSDK_OFFSET(0xF446D20)
+#define DHCAOJAKHIG_GNPBDFPINPD_OFFSET UNITYSDK_OFFSET(0xF447B20)
+#define DHCAOJAKHIG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xF446CC0)
+#define DHCAOJAKHIG_LEHHMJJLLEP_OFFSET UNITYSDK_OFFSET(0xF447B30)
 
-inline static constexpr unsigned int DHCAOJAKHIG_TypeDefinitionIndex = 49539;
+inline static constexpr unsigned int DHCAOJAKHIG_TypeDefinitionIndex = 50615;
 
 	class DHCAOJAKHIG : public ::GNFIJNAMOHD
 	{
 	public:
-		::UnityEngine::RenderTexture* JKCHLIEKONC; // 0x48
-		::UnityEngine::RenderTexture* DNPODDIMCKI; // 0x50
+		::UnityEngine::RenderTexture* DNPODDIMCKI; // 0x48
+		::UnityEngine::RenderTexture* JKCHLIEKONC; // 0x50
 		::UnityEngine::ComputeBuffer* CABMJPOHOMO; // 0x58
-		static ::System::Int32* StaticGet_HPCGFLCLAPC()
+		static ::System::Int32* StaticGet_CMOGMGOPHJA()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123B0);
-		}
-
-		static ::System::Int32* StaticGet_CEMHPKPOOGB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123B4);
-		}
-
-		static ::System::Int32* StaticGet_LPNCGDIOJIH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123B8);
-		}
-
-		static ::System::Int32* StaticGet_JCHFCNFHCMM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123BC);
-		}
-
-		static ::System::Int32* StaticGet_IINFJDLEBOB()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123C0);
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x13FF0);
 		}
 
 		static ::System::Int32* StaticGet_EOPJJANHHFL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123C4);
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x13FF4);
 		}
 
-		static ::System::Int32* StaticGet_PJIFBJPFLEE()
+		static ::System::Int32* StaticGet_CEMHPKPOOGB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123C8);
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x13FF8);
 		}
 
-		static ::System::Int32* StaticGet_CMOGMGOPHJA()
+		static ::System::Int32* StaticGet_IINFJDLEBOB()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123CC);
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x13FFC);
 		}
 
 		static ::System::Int32* StaticGet_IJMMJOLADLN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x123D0);
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x14000);
+		}
+
+		static ::System::Int32* StaticGet_LPNCGDIOJIH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x14004);
+		}
+
+		static ::System::Int32* StaticGet_HPCGFLCLAPC()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x14008);
+		}
+
+		static ::System::Int32* StaticGet_PJIFBJPFLEE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x1400C);
+		}
+
+		static ::System::Int32* StaticGet_JCHFCNFHCMM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "DHCAOJAKHIG")->GetStaticField(0x14010);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2)

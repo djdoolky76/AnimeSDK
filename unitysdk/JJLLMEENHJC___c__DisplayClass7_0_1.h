@@ -4,7 +4,7 @@
 class OCGNLGGKMID;
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int JJLLMEENHJC___c__DisplayClass7_0_1_TypeDefinitionIndex = 44157;
+inline static constexpr unsigned int JJLLMEENHJC___c__DisplayClass7_0_1_TypeDefinitionIndex = 45232;
 
 	template <typename T>
 	class JJLLMEENHJC___c__DisplayClass7_0_1 : public ::System::Object

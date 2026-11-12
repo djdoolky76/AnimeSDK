@@ -4,18 +4,18 @@
 class BABFMGPNOIG;
 namespace System { class Object; }
 
-#define BABFMGPNOIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7AEAA0)
-#define BABFMGPNOIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AEAE0)
-#define BABFMGPNOIG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7AEAF0)
+#define BABFMGPNOIG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA69D40)
+#define BABFMGPNOIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA69D80)
+#define BABFMGPNOIG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FA69D90)
 
-inline static constexpr unsigned int BABFMGPNOIG___c_TypeDefinitionIndex = 29963;
+inline static constexpr unsigned int BABFMGPNOIG___c_TypeDefinitionIndex = 30861;
 
 	class BABFMGPNOIG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x442A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E320);
 		}
 
 		static ::System::Void _cctor()

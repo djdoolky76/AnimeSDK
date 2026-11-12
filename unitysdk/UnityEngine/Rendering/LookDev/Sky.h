@@ -4,7 +4,7 @@ namespace UnityEngine { class Cubemap; }
 
 namespace UnityEngine::Rendering::LookDev
 {
-	inline static constexpr unsigned int Sky_TypeDefinitionIndex = 35670;
+	inline static constexpr unsigned int Sky_TypeDefinitionIndex = 36598;
 
 	struct alignas(8) Sky
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine::Rendering { class QueueData; }
 
-#define UNITYENGINE_RENDERING_BASICQUEUE_HASDATA_OFFSET UNITYSDK_OFFSET(0xE630)
+#define UNITYENGINE_RENDERING_BASICQUEUE_HASDATA_OFFSET UNITYSDK_OFFSET(0xE610)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BasicQueue_TypeDefinitionIndex = 35503;
+	inline static constexpr unsigned int BasicQueue_TypeDefinitionIndex = 36431;
 
 	struct alignas(8) BasicQueue
 	{

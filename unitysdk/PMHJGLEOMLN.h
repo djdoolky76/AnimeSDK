@@ -5,9 +5,9 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PMHJGLEOMLN_CTOR_OFFSET UNITYSDK_OFFSET(0xC31D610)
+#define PMHJGLEOMLN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4C400)
 
-inline static constexpr unsigned int PMHJGLEOMLN_TypeDefinitionIndex = 72950;
+inline static constexpr unsigned int PMHJGLEOMLN_TypeDefinitionIndex = 75060;
 
 	class PMHJGLEOMLN : public ::System::Object
 	{

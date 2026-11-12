@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GamePlayLockTarget_TypeDefinitionIndex = 10179;
+	inline static constexpr unsigned int GamePlayLockTarget_TypeDefinitionIndex = 10187;
 
 	enum class GamePlayLockTarget : ::System::Int32
 	{

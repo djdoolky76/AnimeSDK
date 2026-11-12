@@ -3,10 +3,10 @@
 #include "unitysdk/MKADHMMGGNA.h"
 #include "unitysdk/RPG/Client/Prop/DestroyRootPuzzleChessType.h"
 
-#define AMFOBPIOFJC_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0x1557CB00)
-#define AMFOBPIOFJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1557CB50)
+#define AMFOBPIOFJC_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0x163EBFE0)
+#define AMFOBPIOFJC_CTOR_OFFSET UNITYSDK_OFFSET(0x163EC030)
 
-inline static constexpr unsigned int AMFOBPIOFJC_TypeDefinitionIndex = 78554;
+inline static constexpr unsigned int AMFOBPIOFJC_TypeDefinitionIndex = 81289;
 
 	class AMFOBPIOFJC : public ::MKADHMMGGNA
 	{

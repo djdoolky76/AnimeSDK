@@ -7,17 +7,17 @@ class JFJOPDOIKKC;
 namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 
-#define JFJOPDOIKKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D027370)
-#define JFJOPDOIKKC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D027380)
-#define JFJOPDOIKKC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D027340)
+#define JFJOPDOIKKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2146A0)
+#define JFJOPDOIKKC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E2146B0)
+#define JFJOPDOIKKC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E214670)
 
-inline static constexpr unsigned int JFJOPDOIKKC_TypeDefinitionIndex = 24222;
+inline static constexpr unsigned int JFJOPDOIKKC_TypeDefinitionIndex = 24681;
 
 	class JFJOPDOIKKC : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x18
-		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x20
+		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x18
+		::Il2CppArray<::RPG::GameCore::JsonEnum*>* KGIDDABCHON; // 0x20
 		::Il2CppArray<::RPG::GameCore::SkillType>* OOOPJAECBIN; // 0x28
 		::System::Void _ctor()
 		{

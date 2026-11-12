@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournUseBuffTypeRow; }
 
-#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA43050)
-#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA42F30)
+#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC55290)
+#define RPG_GAMECORE_ROGUETOURNUSEBUFFTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC55170)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournUseBuffTypeRow_TypeDefinitionIndex = 15019;
+	inline static constexpr unsigned int RogueTournUseBuffTypeRow_TypeDefinitionIndex = 15175;
 
 	class RogueTournUseBuffTypeRow : public ::System::Object
 	{

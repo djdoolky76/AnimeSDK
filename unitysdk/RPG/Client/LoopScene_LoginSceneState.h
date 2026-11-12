@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoopScene_LoginSceneState_TypeDefinitionIndex = 68867;
+	inline static constexpr unsigned int LoopScene_LoginSceneState_TypeDefinitionIndex = 70820;
 
 	enum class LoopScene_LoginSceneState : ::System::Int32
 	{

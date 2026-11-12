@@ -4,14 +4,14 @@
 namespace RPG::GameCore { class MarbleSealPlayAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFCKMILLNAF_CCTOR_OFFSET UNITYSDK_OFFSET(0x16646450)
-#define JFCKMILLNAF_CTOR_OFFSET UNITYSDK_OFFSET(0x16646150)
-#define JFCKMILLNAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x166463B0)
-#define JFCKMILLNAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16646160)
-#define JFCKMILLNAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16646360)
-#define JFCKMILLNAF_TICK_OFFSET UNITYSDK_OFFSET(0x166463F0)
+#define JFCKMILLNAF_CCTOR_OFFSET UNITYSDK_OFFSET(0xB98F9D0)
+#define JFCKMILLNAF_CTOR_OFFSET UNITYSDK_OFFSET(0xB98F6D0)
+#define JFCKMILLNAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB98F930)
+#define JFCKMILLNAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB98F6E0)
+#define JFCKMILLNAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB98F8E0)
+#define JFCKMILLNAF_TICK_OFFSET UNITYSDK_OFFSET(0xB98F970)
 
-inline static constexpr unsigned int JFCKMILLNAF_TypeDefinitionIndex = 53010;
+inline static constexpr unsigned int JFCKMILLNAF_TypeDefinitionIndex = 54169;
 
 	class JFCKMILLNAF : public ::GELIALJDFBL
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int JFCKMILLNAF_TypeDefinitionIndex = 53010;
 		::RPG::GameCore::MarbleSealPlayAnim* IGHAHBNLIJA; // 0x20
 		static ::System::Int32* StaticGet_IILGJJADJCK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JFCKMILLNAF")->GetStaticField(0x2A00);
+			return (::System::Int32*)UnitySDK::FromName("", "JFCKMILLNAF")->GetStaticField(0x150A0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MarbleSealPlayAnim* a2)

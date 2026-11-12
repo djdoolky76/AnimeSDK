@@ -8,19 +8,19 @@ class ALKGFCBJODP;
 namespace RPG::Client { class MapNpcDef; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define MACPKMEBPGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB8423E0)
-#define MACPKMEBPGE_FOHGCGENOCP_OFFSET UNITYSDK_OFFSET(0xB842910)
-#define MACPKMEBPGE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB842410)
+#define MACPKMEBPGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC0A3D40)
+#define MACPKMEBPGE_FOHGCGENOCP_OFFSET UNITYSDK_OFFSET(0xC0A3E50)
+#define MACPKMEBPGE_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC0A3D70)
 
-inline static constexpr unsigned int MACPKMEBPGE_TypeDefinitionIndex = 60889;
+inline static constexpr unsigned int MACPKMEBPGE_TypeDefinitionIndex = 62265;
 
 	class MACPKMEBPGE : public ::System::Object
 	{
 	public:
 		::NECBOLFGIMA JINLCKIALKC; // 0x10
 		::ALKGFCBJODP* CGPOGMMADPN; // 0x20
-		::UnityEngine::Quaternion NCMEPPHLGEG; // 0x28
-		::UnityEngine::Vector3 MIFKHBDOGLN; // 0x38
+		::UnityEngine::Vector3 MIFKHBDOGLN; // 0x28
+		::UnityEngine::Quaternion NCMEPPHLGEG; // 0x34
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::UnityEngine::Quaternion a2, ::NECBOLFGIMA a3, ::ALKGFCBJODP* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::NECBOLFGIMA, ::ALKGFCBJODP*))((::PBYTE)hIl2Cpp + MACPKMEBPGE_CTOR_OFFSET))(this, a1, a2, a3, a4);

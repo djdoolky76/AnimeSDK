@@ -4,18 +4,18 @@
 class KLNGFBHIADA;
 namespace System { class Object; }
 
-#define KLNGFBHIADA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E892E20)
-#define KLNGFBHIADA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E892E60)
-#define KLNGFBHIADA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E892E70)
+#define KLNGFBHIADA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBAE220)
+#define KLNGFBHIADA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBAE260)
+#define KLNGFBHIADA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FBAE270)
 
-inline static constexpr unsigned int KLNGFBHIADA___c_TypeDefinitionIndex = 34388;
+inline static constexpr unsigned int KLNGFBHIADA___c_TypeDefinitionIndex = 35316;
 
 	class KLNGFBHIADA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21980);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A110);
 		}
 
 		static ::System::Void _cctor()

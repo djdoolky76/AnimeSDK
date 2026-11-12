@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define JPNACMMAEDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CB280)
+#define JPNACMMAEDC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4E490)
 
-inline static constexpr unsigned int JPNACMMAEDC_TypeDefinitionIndex = 57583;
+inline static constexpr unsigned int JPNACMMAEDC_TypeDefinitionIndex = 58811;
 
 	class JPNACMMAEDC : public ::System::Attribute
 	{

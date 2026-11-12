@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartPropSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDPPLGMNKIF_CTOR_OFFSET UNITYSDK_OFFSET(0x16612270)
-#define JDPPLGMNKIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166122A0)
+#define JDPPLGMNKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xB95AD30)
+#define JDPPLGMNKIF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB95AD60)
 
-inline static constexpr unsigned int JDPPLGMNKIF_TypeDefinitionIndex = 58727;
+inline static constexpr unsigned int JDPPLGMNKIF_TypeDefinitionIndex = 59995;
 
 	class JDPPLGMNKIF
 	{

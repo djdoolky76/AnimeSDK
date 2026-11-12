@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FPOIHCAEPIP_TypeDefinitionIndex = 29735;
+inline static constexpr unsigned int FPOIHCAEPIP_TypeDefinitionIndex = 30633;
 
 	enum class FPOIHCAEPIP : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 namespace System { class Delegate; }
 namespace System { class String; }
 
-inline static constexpr unsigned int COELHJDHAMO_OIIMGJDAGKC_TypeDefinitionIndex = 49294;
+inline static constexpr unsigned int COELHJDHAMO_OIIMGJDAGKC_TypeDefinitionIndex = 50370;
 
 	struct alignas(8) COELHJDHAMO_OIIMGJDAGKC
 	{

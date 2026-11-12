@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageMonsterInvasionParamRow; }
 
-#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB10BD0)
-#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB10A80)
+#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED22DF0)
+#define RPG_GAMECORE_STAGEMONSTERINVASIONPARAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED22CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageMonsterInvasionParamRow_TypeDefinitionIndex = 15160;
+	inline static constexpr unsigned int StageMonsterInvasionParamRow_TypeDefinitionIndex = 15316;
 
 	class StageMonsterInvasionParamRow : public ::System::Object
 	{

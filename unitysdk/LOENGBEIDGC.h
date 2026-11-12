@@ -4,7 +4,7 @@
 #include "unitysdk/RPG/GameCore/MonsterRank.h"
 namespace RPG::GameCore { class AdventureModifierInstance; }
 
-inline static constexpr unsigned int LOENGBEIDGC_TypeDefinitionIndex = 56996;
+inline static constexpr unsigned int LOENGBEIDGC_TypeDefinitionIndex = 58222;
 
 	struct alignas(8) LOENGBEIDGC
 	{

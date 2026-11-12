@@ -7,27 +7,26 @@ namespace RPG::Client::Prop::CoilPuzzle { class RigCoilPuzzleBoard; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define BKEEADFGJEI_AFGKLOKCCBK_OFFSET UNITYSDK_OFFSET(0xB7AF2F0)
-#define BKEEADFGJEI_CECAFEIIMOC_OFFSET UNITYSDK_OFFSET(0xB7AEC00)
-#define BKEEADFGJEI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AEA60)
-#define BKEEADFGJEI_FNKHPHCABMP_OFFSET UNITYSDK_OFFSET(0xB7AEB40)
-#define BKEEADFGJEI_LFNNEGFPEGD_OFFSET UNITYSDK_OFFSET(0xB7AEEB0)
-#define BKEEADFGJEI_MDDOGMMFFEC_OFFSET UNITYSDK_OFFSET(0xB7AF890)
-#define BKEEADFGJEI_MOGBIGMBOME_OFFSET UNITYSDK_OFFSET(0xB7AF7F0)
-#define BKEEADFGJEI_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xB7AF930)
-#define BKEEADFGJEI_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0xB7AF720)
+#define BKEEADFGJEI_AFGKLOKCCBK_OFFSET UNITYSDK_OFFSET(0xC105C20)
+#define BKEEADFGJEI_CECAFEIIMOC_OFFSET UNITYSDK_OFFSET(0xC105530)
+#define BKEEADFGJEI_CTOR_OFFSET UNITYSDK_OFFSET(0xC1053C0)
+#define BKEEADFGJEI_FNKHPHCABMP_OFFSET UNITYSDK_OFFSET(0xC105470)
+#define BKEEADFGJEI_LFNNEGFPEGD_OFFSET UNITYSDK_OFFSET(0xC1057E0)
+#define BKEEADFGJEI_MDDOGMMFFEC_OFFSET UNITYSDK_OFFSET(0xC1061C0)
+#define BKEEADFGJEI_MOGBIGMBOME_OFFSET UNITYSDK_OFFSET(0xC106120)
+#define BKEEADFGJEI_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xC106260)
+#define BKEEADFGJEI_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0xC106050)
 
-inline static constexpr unsigned int BKEEADFGJEI_TypeDefinitionIndex = 78977;
+inline static constexpr unsigned int BKEEADFGJEI_TypeDefinitionIndex = 81753;
 
 	class BKEEADFGJEI : public ::System::Object
 	{
 	public:
 		::UnityEngine::Collider* GBDKBLPAHEL; // 0x10
-		::UnityEngine::MeshRenderer* IFJJNBGGEKF; // 0x18
-		::RPG::Client::Prop::CoilPuzzle::RigCoilPuzzleBoard* MIPPNCGOJNM; // 0x20
-		::System::Boolean HAAPDBMKDLH; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::Int32 NMIEDIECAGH; // 0x2C
+		::RPG::Client::Prop::CoilPuzzle::RigCoilPuzzleBoard* MIPPNCGOJNM; // 0x18
+		::UnityEngine::MeshRenderer* IFJJNBGGEKF; // 0x20
+		::System::Int32 NMIEDIECAGH; // 0x28
+		::System::Boolean HAAPDBMKDLH; // 0x2C
 		::System::Void _ctor(::RPG::Client::Prop::CoilPuzzle::RigCoilPuzzleBoard* a1, ::UnityEngine::Collider* a2, ::System::Boolean a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Prop::CoilPuzzle::RigCoilPuzzleBoard*, ::UnityEngine::Collider*, ::System::Boolean))((::PBYTE)hIl2Cpp + BKEEADFGJEI_CTOR_OFFSET))(this, a1, a2, a3);

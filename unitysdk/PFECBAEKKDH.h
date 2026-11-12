@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCasterAliveOrLimbo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PFECBAEKKDH_CTOR_OFFSET UNITYSDK_OFFSET(0xC20B1C0)
-#define PFECBAEKKDH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC20B1F0)
+#define PFECBAEKKDH_CTOR_OFFSET UNITYSDK_OFFSET(0xCAED650)
+#define PFECBAEKKDH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCAED680)
 
-inline static constexpr unsigned int PFECBAEKKDH_TypeDefinitionIndex = 54881;
+inline static constexpr unsigned int PFECBAEKKDH_TypeDefinitionIndex = 56051;
 
 	class PFECBAEKKDH
 	{

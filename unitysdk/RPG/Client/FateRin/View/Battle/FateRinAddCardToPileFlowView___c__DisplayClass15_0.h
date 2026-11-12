@@ -7,20 +7,20 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCFB7BA0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS15_0___CREATEADDCARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xCFB8490)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD939650)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS15_0___CREATEADDCARDANIMATORPLAYACTIONCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD939F40)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinAddCardToPileFlowView___c__DisplayClass15_0_TypeDefinitionIndex = 80660;
+	inline static constexpr unsigned int FateRinAddCardToPileFlowView___c__DisplayClass15_0_TypeDefinitionIndex = 83440;
 
 	class FateRinAddCardToPileFlowView___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateRin::View::Battle::FateRinEffectController* effectController; // 0x10
-		::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* roots; // 0x18
-		::System::Object* negativeEffectOwner; // 0x20
-		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardDisplayViewModel*>* addedCardVms; // 0x28
+		::System::Collections::Generic::IList_1<::UnityEngine::RectTransform*>* roots; // 0x10
+		::System::Object* negativeEffectOwner; // 0x18
+		::System::Collections::Generic::IList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardDisplayViewModel*>* addedCardVms; // 0x20
+		::RPG::Client::FateRin::View::Battle::FateRinEffectController* effectController; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINADDCARDTOPILEFLOWVIEW___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);

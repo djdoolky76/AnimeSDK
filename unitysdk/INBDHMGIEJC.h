@@ -3,31 +3,31 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define INBDHMGIEJC_BPABJEJPDBD_OFFSET UNITYSDK_OFFSET(0x1C4A2F20)
-#define INBDHMGIEJC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C4A3010)
-#define INBDHMGIEJC_EOBIFOOMAFC_OFFSET UNITYSDK_OFFSET(0x1C4A2F90)
-#define INBDHMGIEJC_HHPHBCLLNBL_OFFSET UNITYSDK_OFFSET(0x1C4A2EA0)
-#define INBDHMGIEJC_LEENDOIIGGJ_OFFSET UNITYSDK_OFFSET(0x1C4A3000)
-#define INBDHMGIEJC_OPDOKEDPNFP_OFFSET UNITYSDK_OFFSET(0x1C4A2E90)
+#define INBDHMGIEJC_BPABJEJPDBD_OFFSET UNITYSDK_OFFSET(0x1D626A60)
+#define INBDHMGIEJC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D626B50)
+#define INBDHMGIEJC_EOBIFOOMAFC_OFFSET UNITYSDK_OFFSET(0x1D626AD0)
+#define INBDHMGIEJC_HHPHBCLLNBL_OFFSET UNITYSDK_OFFSET(0x1D6269E0)
+#define INBDHMGIEJC_LEENDOIIGGJ_OFFSET UNITYSDK_OFFSET(0x1D626B40)
+#define INBDHMGIEJC_OPDOKEDPNFP_OFFSET UNITYSDK_OFFSET(0x1D6269D0)
 
-inline static constexpr unsigned int INBDHMGIEJC_TypeDefinitionIndex = 41403;
+inline static constexpr unsigned int INBDHMGIEJC_TypeDefinitionIndex = 42378;
 
 	class INBDHMGIEJC : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_EIOIOKNDHKM()
+		static ::System::String** StaticGet_FKEFMEAJIMH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "INBDHMGIEJC")->GetStaticField(0x129D0);
+			return (::System::String**)UnitySDK::FromName("", "INBDHMGIEJC")->GetStaticField(0x9840);
 		}
 
 		static ::System::String** StaticGet_CEHLKMOKBMG()
 		{
-			return (::System::String**)UnitySDK::FromName("", "INBDHMGIEJC")->GetStaticField(0x129D8);
+			return (::System::String**)UnitySDK::FromName("", "INBDHMGIEJC")->GetStaticField(0x9848);
 		}
 
-		static ::System::String** StaticGet_FKEFMEAJIMH()
+		static ::System::String** StaticGet_EIOIOKNDHKM()
 		{
-			return (::System::String**)UnitySDK::FromName("", "INBDHMGIEJC")->GetStaticField(0x129E0);
+			return (::System::String**)UnitySDK::FromName("", "INBDHMGIEJC")->GetStaticField(0x9850);
 		}
 
 		// static const ::System::String* LFEEFADMBKL; // 0x0

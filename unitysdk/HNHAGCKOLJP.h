@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HNHAGCKOLJP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D93D50)
-#define HNHAGCKOLJP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15D93950)
+#define HNHAGCKOLJP_CTOR_OFFSET UNITYSDK_OFFSET(0x16D34D30)
+#define HNHAGCKOLJP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x16D34920)
 
-inline static constexpr unsigned int HNHAGCKOLJP_TypeDefinitionIndex = 62449;
+inline static constexpr unsigned int HNHAGCKOLJP_TypeDefinitionIndex = 63862;
 
 	class HNHAGCKOLJP : public ::System::Object
 	{

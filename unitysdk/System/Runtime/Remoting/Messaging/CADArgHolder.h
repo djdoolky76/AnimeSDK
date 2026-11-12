@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADARGHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E1950)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADARGHOLDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D468460)
 
 namespace System::Runtime::Remoting::Messaging
 {

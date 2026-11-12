@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Card
 {
-	inline static constexpr unsigned int IFateRinCardKeywordListViewModel_TypeDefinitionIndex = 81139;
+	inline static constexpr unsigned int IFateRinCardKeywordListViewModel_TypeDefinitionIndex = 83919;
 
 	class IFateRinCardKeywordListViewModel
 	{

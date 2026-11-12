@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerBossSpecialEffect; }
 
-#define BOIKLKGBAKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C8BA0)
-#define BOIKLKGBAKA_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5C8BB0)
+#define BOIKLKGBAKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74A420)
+#define BOIKLKGBAKA_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D74A430)
 
-inline static constexpr unsigned int BOIKLKGBAKA_TypeDefinitionIndex = 36304;
+inline static constexpr unsigned int BOIKLKGBAKA_TypeDefinitionIndex = 37232;
 
 	class BOIKLKGBAKA : public ::AJBKGPOEBFG
 	{

@@ -4,18 +4,18 @@
 class DFDPLINPMJF;
 namespace System { class Object; }
 
-#define DFDPLINPMJF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E19E830)
-#define DFDPLINPMJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E19E870)
-#define DFDPLINPMJF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E19E880)
+#define DFDPLINPMJF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F478350)
+#define DFDPLINPMJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F478390)
+#define DFDPLINPMJF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F4783A0)
 
-inline static constexpr unsigned int DFDPLINPMJF___c_TypeDefinitionIndex = 25573;
+inline static constexpr unsigned int DFDPLINPMJF___c_TypeDefinitionIndex = 26068;
 
 	class DFDPLINPMJF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32400);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C3B0);
 		}
 
 		static ::System::Void _cctor()

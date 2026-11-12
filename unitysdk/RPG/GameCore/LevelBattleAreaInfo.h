@@ -8,13 +8,13 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class LevelBattleAreaInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELBATTLEAREAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A6B60)
-#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1D7A6B70)
-#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A6B30)
+#define RPG_GAMECORE_LEVELBATTLEAREAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E9BD0)
+#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1E9E9BE0)
+#define RPG_GAMECORE_LEVELBATTLEAREAINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9E9BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelBattleAreaInfo_TypeDefinitionIndex = 17266;
+	inline static constexpr unsigned int LevelBattleAreaInfo_TypeDefinitionIndex = 17434;
 
 	class LevelBattleAreaInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

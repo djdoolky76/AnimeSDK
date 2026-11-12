@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsFakeSkillByName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKPNDFCDHOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB75CD70)
-#define LKPNDFCDHOP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB75CDA0)
+#define LKPNDFCDHOP_CTOR_OFFSET UNITYSDK_OFFSET(0xBFFC520)
+#define LKPNDFCDHOP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFFC550)
 
-inline static constexpr unsigned int LKPNDFCDHOP_TypeDefinitionIndex = 54656;
+inline static constexpr unsigned int LKPNDFCDHOP_TypeDefinitionIndex = 55822;
 
 	class LKPNDFCDHOP
 	{

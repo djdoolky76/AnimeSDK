@@ -4,18 +4,18 @@
 class EMIFJNLDKDE;
 namespace System { class Object; }
 
-#define EMIFJNLDKDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2E2EE0)
-#define EMIFJNLDKDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E2F10)
-#define EMIFJNLDKDE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E2E2F20)
+#define EMIFJNLDKDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5C71A0)
+#define EMIFJNLDKDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C71D0)
+#define EMIFJNLDKDE___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F5C71E0)
 
-inline static constexpr unsigned int EMIFJNLDKDE___c_TypeDefinitionIndex = 30918;
+inline static constexpr unsigned int EMIFJNLDKDE___c_TypeDefinitionIndex = 31831;
 
 	class EMIFJNLDKDE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53960);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D580);
 		}
 
 		static ::System::Void _cctor()

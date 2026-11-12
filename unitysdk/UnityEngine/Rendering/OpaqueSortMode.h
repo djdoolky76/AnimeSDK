@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int OpaqueSortMode_TypeDefinitionIndex = 4692;
+	inline static constexpr unsigned int OpaqueSortMode_TypeDefinitionIndex = 4696;
 
 	enum class OpaqueSortMode : ::System::Int32
 	{

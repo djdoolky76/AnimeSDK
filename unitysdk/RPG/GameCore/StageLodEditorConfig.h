@@ -6,12 +6,12 @@ namespace RPG::GameCore { class StageLodEditorConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_STAGELODEDITORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB10920)
-#define RPG_GAMECORE_STAGELODEDITORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB107B0)
+#define RPG_GAMECORE_STAGELODEDITORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED22B40)
+#define RPG_GAMECORE_STAGELODEDITORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED229D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageLodEditorConfig_TypeDefinitionIndex = 19206;
+	inline static constexpr unsigned int StageLodEditorConfig_TypeDefinitionIndex = 19396;
 
 	class StageLodEditorConfig : public ::RPG::GameCore::JsonConfig
 	{

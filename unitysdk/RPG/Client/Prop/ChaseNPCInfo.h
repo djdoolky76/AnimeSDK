@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChaseNPCInfo_TypeDefinitionIndex = 78224;
+	inline static constexpr unsigned int ChaseNPCInfo_TypeDefinitionIndex = 80959;
 
 	struct alignas(8) ChaseNPCInfo
 	{

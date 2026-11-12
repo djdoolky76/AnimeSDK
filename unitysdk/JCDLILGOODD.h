@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Nullable_1.h"
 
-inline static constexpr unsigned int JCDLILGOODD_TypeDefinitionIndex = 36859;
+inline static constexpr unsigned int JCDLILGOODD_TypeDefinitionIndex = 37787;
 
 	struct alignas(8) JCDLILGOODD
 	{

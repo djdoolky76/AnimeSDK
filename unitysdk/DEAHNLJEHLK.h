@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FormationMoveSetGroupToStation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DEAHNLJEHLK_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F3230)
-#define DEAHNLJEHLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F3260)
+#define DEAHNLJEHLK_CTOR_OFFSET UNITYSDK_OFFSET(0xEE3A0C0)
+#define DEAHNLJEHLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE3A0F0)
 
-inline static constexpr unsigned int DEAHNLJEHLK_TypeDefinitionIndex = 58133;
+inline static constexpr unsigned int DEAHNLJEHLK_TypeDefinitionIndex = 59372;
 
 	class DEAHNLJEHLK
 	{

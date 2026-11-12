@@ -6,21 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightFormationWaveConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTFORMATIONWAVECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D730F40)
-#define RPG_GAMECORE_GRIDFIGHTFORMATIONWAVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D730D10)
+#define RPG_GAMECORE_GRIDFIGHTFORMATIONWAVECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E93D050)
+#define RPG_GAMECORE_GRIDFIGHTFORMATIONWAVECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E93CE20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightFormationWaveConfigRow_TypeDefinitionIndex = 13631;
+	inline static constexpr unsigned int GridFightFormationWaveConfigRow_TypeDefinitionIndex = 13753;
 
 	class GridFightFormationWaveConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* Ability; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x18
-		::System::UInt32 MaxTeammateCount; // 0x20
-		::System::UInt32 ID; // 0x24
-		::System::Boolean ClearPreviousAbility; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
+		::System::String* Ability; // 0x18
+		::System::UInt32 ID; // 0x20
+		::System::Boolean ClearPreviousAbility; // 0x24
+		::System::Byte _padding0[0x3];
+		::System::UInt32 MaxTeammateCount; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTFORMATIONWAVECONFIGROW_CTOR_OFFSET))(this);

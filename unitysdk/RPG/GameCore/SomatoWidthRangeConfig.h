@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SomatoWidthRangeConfig; }
 
-#define RPG_GAMECORE_SOMATOWIDTHRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF13A0)
-#define RPG_GAMECORE_SOMATOWIDTHRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF1240)
+#define RPG_GAMECORE_SOMATOWIDTHRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED033A0)
+#define RPG_GAMECORE_SOMATOWIDTHRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED03240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SomatoWidthRangeConfig_TypeDefinitionIndex = 17115;
+	inline static constexpr unsigned int SomatoWidthRangeConfig_TypeDefinitionIndex = 17282;
 
 	class SomatoWidthRangeConfig : public ::RPG::GameCore::JsonConfig
 	{

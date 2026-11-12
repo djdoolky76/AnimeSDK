@@ -4,29 +4,29 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KAFGBNNMFGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2D5FF0)
-#define KAFGBNNMFGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB2D6030)
-#define KAFGBNNMFGL___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB2D6040)
-#define KAFGBNNMFGL___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xB2D6050)
+#define KAFGBNNMFGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB599C0)
+#define KAFGBNNMFGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBB59A00)
+#define KAFGBNNMFGL___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xBB59A10)
+#define KAFGBNNMFGL___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xBB59A20)
 
-inline static constexpr unsigned int KAFGBNNMFGL___c_TypeDefinitionIndex = 52650;
+inline static constexpr unsigned int KAFGBNNMFGL___c_TypeDefinitionIndex = 53757;
 
 	class KAFGBNNMFGL___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x250D0);
+		}
+
 		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F780);
+			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x250D8);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::Single>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F788);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F790);
+			return (::System::Func_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x250E0);
 		}
 
 		static ::System::Void _cctor()

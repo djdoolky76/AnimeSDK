@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KPILLBAALJO_TypeDefinitionIndex = 77295;
+inline static constexpr unsigned int KPILLBAALJO_TypeDefinitionIndex = 79629;
 
 	class KPILLBAALJO
 	{

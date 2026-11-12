@@ -4,18 +4,18 @@
 class LMDPKOELKFL;
 namespace System { class Object; }
 
-#define LMDPKOELKFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9A3550)
-#define LMDPKOELKFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A3590)
-#define LMDPKOELKFL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9A35A0)
+#define LMDPKOELKFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCC69C0)
+#define LMDPKOELKFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCC6A00)
+#define LMDPKOELKFL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FCC6A10)
 
-inline static constexpr unsigned int LMDPKOELKFL___c_TypeDefinitionIndex = 27826;
+inline static constexpr unsigned int LMDPKOELKFL___c_TypeDefinitionIndex = 28403;
 
 	class LMDPKOELKFL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CC60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FAF0);
 		}
 
 		static ::System::Void _cctor()

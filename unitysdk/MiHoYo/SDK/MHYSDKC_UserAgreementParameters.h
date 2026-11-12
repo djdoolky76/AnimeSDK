@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_UserAgreementParameters_TypeDefinitionIndex = 46223;
+	inline static constexpr unsigned int MHYSDKC_UserAgreementParameters_TypeDefinitionIndex = 47252;
 
 	class MHYSDKC_UserAgreementParameters : public ::System::Object
 	{

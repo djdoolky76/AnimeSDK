@@ -15,66 +15,66 @@ namespace Proto { class GroupSnapshot; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define PROTO_GROUPSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1DFFC440)
-#define PROTO_GROUPSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFFC9E0)
-#define PROTO_GROUPSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1DFFBDF0)
-#define PROTO_GROUPSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1DFFBD00)
-#define PROTO_GROUPSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFFBC20)
-#define PROTO_GROUPSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1DFFBF20)
-#define PROTO_GROUPSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1DFFBEC0)
-#define PROTO_GROUPSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1DFFC040)
-#define PROTO_GROUPSNAPSHOT_GET_ACTIVEMCVKEYLIST_OFFSET UNITYSDK_OFFSET(0x1DFFBEB0)
-#define PROTO_GROUPSNAPSHOT_GET_ACTIVESUBMISSIONLIST_OFFSET UNITYSDK_OFFSET(0x1DFFBEA0)
-#define PROTO_GROUPSNAPSHOT_GET_ENTITYLIST_OFFSET UNITYSDK_OFFSET(0x1DFFBE80)
-#define PROTO_GROUPSNAPSHOT_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFFBE40)
-#define PROTO_GROUPSNAPSHOT_GET_GROUPSTATE_OFFSET UNITYSDK_OFFSET(0x1DFFBE60)
-#define PROTO_GROUPSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1DFFBBB0)
-#define PROTO_GROUPSNAPSHOT_GET_PROPERTYMAP_OFFSET UNITYSDK_OFFSET(0x1DFFBE90)
-#define PROTO_GROUPSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1DFFC7B0)
-#define PROTO_GROUPSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1DFFC660)
-#define PROTO_GROUPSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1DFFBC10)
-#define PROTO_GROUPSNAPSHOT_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1DFFBE50)
-#define PROTO_GROUPSNAPSHOT_SET_GROUPSTATE_OFFSET UNITYSDK_OFFSET(0x1DFFBE70)
-#define PROTO_GROUPSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFFC1E0)
-#define PROTO_GROUPSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFFC240)
+#define PROTO_GROUPSNAPSHOT_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F2ADAE0)
+#define PROTO_GROUPSNAPSHOT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2AE080)
+#define PROTO_GROUPSNAPSHOT_CLONE_OFFSET UNITYSDK_OFFSET(0x1F2AD490)
+#define PROTO_GROUPSNAPSHOT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2AD3A0)
+#define PROTO_GROUPSNAPSHOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2AD2C0)
+#define PROTO_GROUPSNAPSHOT_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F2AD5C0)
+#define PROTO_GROUPSNAPSHOT_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F2AD560)
+#define PROTO_GROUPSNAPSHOT_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F2AD6E0)
+#define PROTO_GROUPSNAPSHOT_GET_ACTIVEMCVKEYLIST_OFFSET UNITYSDK_OFFSET(0x1F2AD550)
+#define PROTO_GROUPSNAPSHOT_GET_ACTIVESUBMISSIONLIST_OFFSET UNITYSDK_OFFSET(0x1F2AD540)
+#define PROTO_GROUPSNAPSHOT_GET_ENTITYLIST_OFFSET UNITYSDK_OFFSET(0x1F2AD520)
+#define PROTO_GROUPSNAPSHOT_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1F2AD4E0)
+#define PROTO_GROUPSNAPSHOT_GET_GROUPSTATE_OFFSET UNITYSDK_OFFSET(0x1F2AD500)
+#define PROTO_GROUPSNAPSHOT_GET_PARSER_OFFSET UNITYSDK_OFFSET(0x1F2AD250)
+#define PROTO_GROUPSNAPSHOT_GET_PROPERTYMAP_OFFSET UNITYSDK_OFFSET(0x1F2AD530)
+#define PROTO_GROUPSNAPSHOT_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F2ADE50)
+#define PROTO_GROUPSNAPSHOT_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F2ADD00)
+#define PROTO_GROUPSNAPSHOT_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F2AD2B0)
+#define PROTO_GROUPSNAPSHOT_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1F2AD4F0)
+#define PROTO_GROUPSNAPSHOT_SET_GROUPSTATE_OFFSET UNITYSDK_OFFSET(0x1F2AD510)
+#define PROTO_GROUPSNAPSHOT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F2AD880)
+#define PROTO_GROUPSNAPSHOT_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F2AD8E0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int GroupSnapshot_TypeDefinitionIndex = 25826;
+	inline static constexpr unsigned int GroupSnapshot_TypeDefinitionIndex = 26323;
 
 	class GroupSnapshot : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::Proto::EntitySnapshot*>* entityList_; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* activeSubmissionList_; // 0x10
 		::Google::Protobuf::Collections::MapField_2<::System::String*, ::System::Int32>* propertyMap_; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* activeSubmissionList_; // 0x20
+		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x20
 		::Google::Protobuf::Collections::RepeatedField_1<::Proto::ActiveMCVKeySnapshot*>* activeMcvKeyList_; // 0x28
-		::Google::Protobuf::UnknownFieldSet* _unknownFields; // 0x30
+		::Google::Protobuf::Collections::RepeatedField_1<::Proto::EntitySnapshot*>* entityList_; // 0x30
 		::System::UInt32 groupState_; // 0x38
 		::System::UInt32 groupId_; // 0x3C
 		static ::Google::Protobuf::MessageParser_1<::Proto::GroupSnapshot*>** StaticGet__parser()
 		{
-			return (::Google::Protobuf::MessageParser_1<::Proto::GroupSnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CB0);
-		}
-
-		static ::Google::Protobuf::FieldCodec_1<::Proto::EntitySnapshot*>** StaticGet__repeated_entityList_codec()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::EntitySnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CB8);
+			return (::Google::Protobuf::MessageParser_1<::Proto::GroupSnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x4EF50);
 		}
 
 		static ::System::Object** StaticGet__map_propertyMap_codec()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CC0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x4EF58);
 		}
 
-		static ::Google::Protobuf::FieldCodec_1<::Proto::ActiveMCVKeySnapshot*>** StaticGet__repeated_activeMcvKeyList_codec()
+		static ::Google::Protobuf::FieldCodec_1<::Proto::EntitySnapshot*>** StaticGet__repeated_entityList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::Proto::ActiveMCVKeySnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CC8);
+			return (::Google::Protobuf::FieldCodec_1<::Proto::EntitySnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x4EF60);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet__repeated_activeSubmissionList_codec()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x43CD0);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x4EF68);
+		}
+
+		static ::Google::Protobuf::FieldCodec_1<::Proto::ActiveMCVKeySnapshot*>** StaticGet__repeated_activeMcvKeyList_codec()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::Proto::ActiveMCVKeySnapshot*>**)UnitySDK::FromName("Proto", "GroupSnapshot")->GetStaticField(0x4EF70);
 		}
 
 		// static const ::System::Object GroupIdFieldNumber; // 0x0

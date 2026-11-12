@@ -7,17 +7,17 @@ class CJLPABADMFD;
 class FCOEMCEDLNL;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CJLPABADMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC1B510)
-#define CJLPABADMFD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC10E90)
+#define CJLPABADMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEC2420)
+#define CJLPABADMFD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEC2130)
 
-inline static constexpr unsigned int CJLPABADMFD_TypeDefinitionIndex = 11986;
+inline static constexpr unsigned int CJLPABADMFD_TypeDefinitionIndex = 12043;
 
 	class CJLPABADMFD : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::MechCraftTraitType>* KEDCLDIKAGC; // 0x10
-		::Il2CppArray<::System::UInt32>* PCEHNLCLKGH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::NEBMBGBIHHH, ::System::UInt32>* IBNALLEGIFH; // 0x20
+		::Il2CppArray<::System::UInt32>* PCEHNLCLKGH; // 0x10
+		::System::Collections::Generic::Dictionary_2<::NEBMBGBIHHH, ::System::UInt32>* IBNALLEGIFH; // 0x18
+		::Il2CppArray<::RPG::GameCore::MechCraftTraitType>* KEDCLDIKAGC; // 0x20
 		::Il2CppArray<::System::UInt32>* ENGGEFINDPH; // 0x28
 		::System::Boolean ADEJDFIJOKF; // 0x30
 		::System::Byte _padding0[0x3];

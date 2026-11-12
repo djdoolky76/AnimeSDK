@@ -9,31 +9,31 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define INFENGJKFBI_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x164EB1F0)
-#define INFENGJKFBI_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0x164EB2E0)
-#define INFENGJKFBI_BOBIMMBILPB_OFFSET UNITYSDK_OFFSET(0x164E9EB0)
-#define INFENGJKFBI_CJHGGEOOAMM_OFFSET UNITYSDK_OFFSET(0x164EAE60)
-#define INFENGJKFBI_CTOR_OFFSET UNITYSDK_OFFSET(0x164E9A90)
-#define INFENGJKFBI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x164EA400)
-#define INFENGJKFBI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x164E9F40)
-#define INFENGJKFBI_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0x164EB470)
-#define INFENGJKFBI_NPDIHAOHCPI_OFFSET UNITYSDK_OFFSET(0x164EABE0)
+#define INFENGJKFBI_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xB81C160)
+#define INFENGJKFBI_BLILDBCEGFH_OFFSET UNITYSDK_OFFSET(0xB81C250)
+#define INFENGJKFBI_BOBIMMBILPB_OFFSET UNITYSDK_OFFSET(0xB81AE50)
+#define INFENGJKFBI_CJHGGEOOAMM_OFFSET UNITYSDK_OFFSET(0xB81BDD0)
+#define INFENGJKFBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB81AA10)
+#define INFENGJKFBI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB81B3A0)
+#define INFENGJKFBI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB81AEE0)
+#define INFENGJKFBI_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xB81C3E0)
+#define INFENGJKFBI_NPDIHAOHCPI_OFFSET UNITYSDK_OFFSET(0xB81BB50)
 
-inline static constexpr unsigned int INFENGJKFBI_TypeDefinitionIndex = 70936;
+inline static constexpr unsigned int INFENGJKFBI_TypeDefinitionIndex = 72915;
 
 	class INFENGJKFBI : public ::System::Object
 	{
 	public:
-		::RPG::Client::StageLiteInstanceItemRendererMonoPlugin* EFJIMACIJAP; // 0x10
-		::RPG::Client::FallingObjectTemplate* OBPFHANLBIG; // 0x18
-		::UnityEngine::GameObject* PLAJENPLCNM; // 0x20
-		::System::Collections::Generic::List_1<::IDGOINOHFEE*>* BHJBFKOHLII; // 0x28
+		::RPG::Client::FallingObjectTemplate* OBPFHANLBIG; // 0x10
+		::RPG::Client::StageLiteInstanceItemRendererMonoPlugin* EFJIMACIJAP; // 0x18
+		::System::Collections::Generic::List_1<::IDGOINOHFEE*>* BHJBFKOHLII; // 0x20
+		::UnityEngine::GameObject* PLAJENPLCNM; // 0x28
 		::UnityEngine::Vector3 IEELGIPAPFK; // 0x30
-		::System::Single FPDLMIIEGEB; // 0x3C
-		::UnityEngine::Vector3 GCJMFBKLGHI; // 0x40
-		::UnityEngine::Vector3 LGIMCMOPFFN; // 0x4C
-		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x58
-		::UnityEngine::Vector3 FLNOBMJMDNG; // 0x64
+		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x3C
+		::UnityEngine::Vector3 GCJMFBKLGHI; // 0x48
+		::UnityEngine::Vector3 FLNOBMJMDNG; // 0x54
+		::System::Single FPDLMIIEGEB; // 0x60
+		::UnityEngine::Vector3 LGIMCMOPFFN; // 0x64
 		::System::Void _ctor(::RPG::Client::FallingObjectTemplate* a1, ::UnityEngine::Transform* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::FallingObjectTemplate*, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + INFENGJKFBI_CTOR_OFFSET))(this, a1, a2);

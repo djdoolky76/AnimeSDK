@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDE525E0)
-#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDE52590)
+#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B8440)
+#define RPG_CLIENT_RANDOMFALLINGOBJECTMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE8B83F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RandomFallingObjectMonoPlugin_TypeDefinitionIndex = 70939;
+	inline static constexpr unsigned int RandomFallingObjectMonoPlugin_TypeDefinitionIndex = 72918;
 
 	class RandomFallingObjectMonoPlugin
 	{

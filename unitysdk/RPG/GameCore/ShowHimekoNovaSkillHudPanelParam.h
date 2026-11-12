@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_SHOWHIMEKONOVASKILLHUDPANELPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE74CC10)
+#define RPG_GAMECORE_SHOWHIMEKONOVASKILLHUDPANELPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF250250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowHimekoNovaSkillHudPanelParam_TypeDefinitionIndex = 58665;
+	inline static constexpr unsigned int ShowHimekoNovaSkillHudPanelParam_TypeDefinitionIndex = 59932;
 
 	class ShowHimekoNovaSkillHudPanelParam : public ::System::Object
 	{

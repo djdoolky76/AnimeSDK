@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define DDJKNPCIALI_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4E0E60)
-#define DDJKNPCIALI_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E0EB0)
+#define DDJKNPCIALI_CLEAR_OFFSET UNITYSDK_OFFSET(0xEE27F00)
+#define DDJKNPCIALI_CTOR_OFFSET UNITYSDK_OFFSET(0xEE27F50)
 
-inline static constexpr unsigned int DDJKNPCIALI_TypeDefinitionIndex = 53720;
+inline static constexpr unsigned int DDJKNPCIALI_TypeDefinitionIndex = 54884;
 
 	class DDJKNPCIALI : public ::System::Object
 	{

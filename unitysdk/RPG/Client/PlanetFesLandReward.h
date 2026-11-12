@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PlanetFesReward; }
 
-#define RPG_CLIENT_PLANETFESLANDREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDB9A750)
+#define RPG_CLIENT_PLANETFESLANDREWARD_CTOR_OFFSET UNITYSDK_OFFSET(0xE635370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesLandReward_TypeDefinitionIndex = 66619;
+	inline static constexpr unsigned int PlanetFesLandReward_TypeDefinitionIndex = 68555;
 
 	class PlanetFesLandReward : public ::System::Object
 	{

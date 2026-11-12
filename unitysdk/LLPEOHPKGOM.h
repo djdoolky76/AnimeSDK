@@ -6,20 +6,19 @@ class FCOEMCEDLNL;
 class LLPEOHPKGOM;
 namespace System { class String; }
 
-#define LLPEOHPKGOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D110FC0)
-#define LLPEOHPKGOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D110FD0)
-#define LLPEOHPKGOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D110F90)
+#define LLPEOHPKGOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E30D5B0)
+#define LLPEOHPKGOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E30D5C0)
+#define LLPEOHPKGOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E30D580)
 
-inline static constexpr unsigned int LLPEOHPKGOM_TypeDefinitionIndex = 21298;
+inline static constexpr unsigned int LLPEOHPKGOM_TypeDefinitionIndex = 21641;
 
 	class LLPEOHPKGOM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* BFLIFKBEOPJ; // 0x18
-		::System::Boolean JJODEAGKDOH; // 0x20
-		::System::Byte _padding0[0x3];
+		::System::UInt32 MNDFOPKBHKP; // 0x20
 		::RPG::GameCore::DesignerUserPrefsDomain POIELLDDNFM; // 0x24
-		::System::UInt32 MNDFOPKBHKP; // 0x28
+		::System::Boolean JJODEAGKDOH; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLPEOHPKGOM_CTOR_OFFSET))(this);

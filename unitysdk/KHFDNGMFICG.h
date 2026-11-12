@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareGridFightProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHFDNGMFICG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4067B0)
-#define KHFDNGMFICG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4067E0)
+#define KHFDNGMFICG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC99EE0)
+#define KHFDNGMFICG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC99F10)
 
-inline static constexpr unsigned int KHFDNGMFICG_TypeDefinitionIndex = 54535;
+inline static constexpr unsigned int KHFDNGMFICG_TypeDefinitionIndex = 55700;
 
 	class KHFDNGMFICG
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 class FEBFJNFNBAP;
 
-#define RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD6DF250)
+#define RPG_CLIENT_MISSIONMODULE_MISSIONCUSTOMVALUECLIENT_CTOR_OFFSET UNITYSDK_OFFSET(0xE170890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MissionModule_MissionCustomValueClient_TypeDefinitionIndex = 66143;
+	inline static constexpr unsigned int MissionModule_MissionCustomValueClient_TypeDefinitionIndex = 68076;
 
 	class MissionModule_MissionCustomValueClient : public ::System::Object
 	{

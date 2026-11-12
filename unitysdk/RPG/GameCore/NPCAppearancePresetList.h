@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class NPCAppearancePreset; }
 namespace RPG::GameCore { class NPCAppearancePresetList; }
 
-#define RPG_GAMECORE_NPCAPPEARANCEPRESETLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CFE30)
-#define RPG_GAMECORE_NPCAPPEARANCEPRESETLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8CFD70)
+#define RPG_GAMECORE_NPCAPPEARANCEPRESETLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE9B90)
+#define RPG_GAMECORE_NPCAPPEARANCEPRESETLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAE9AD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NPCAppearancePresetList_TypeDefinitionIndex = 17460;
+	inline static constexpr unsigned int NPCAppearancePresetList_TypeDefinitionIndex = 17628;
 
 	class NPCAppearancePresetList : public ::RPG::GameCore::JsonConfig
 	{

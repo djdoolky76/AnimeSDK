@@ -7,20 +7,20 @@ namespace RPG::GameCore { class MazePuzzleOrigamiRow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOBEPKMMPHL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DAF230)
-#define HOBEPKMMPHL_EILJDOKJADD_OFFSET UNITYSDK_OFFSET(0x15DAF720)
-#define HOBEPKMMPHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DAF260)
-#define HOBEPKMMPHL_IEDEPMNGMJP_OFFSET UNITYSDK_OFFSET(0x15DAF8C0)
-#define HOBEPKMMPHL_LGOJDJBABID_OFFSET UNITYSDK_OFFSET(0x15DAF860)
-#define HOBEPKMMPHL_LMNCCLONKAA_OFFSET UNITYSDK_OFFSET(0x15DAF950)
+#define HOBEPKMMPHL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D50230)
+#define HOBEPKMMPHL_EILJDOKJADD_OFFSET UNITYSDK_OFFSET(0x16D50720)
+#define HOBEPKMMPHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D50260)
+#define HOBEPKMMPHL_IEDEPMNGMJP_OFFSET UNITYSDK_OFFSET(0x16D508C0)
+#define HOBEPKMMPHL_LGOJDJBABID_OFFSET UNITYSDK_OFFSET(0x16D50860)
+#define HOBEPKMMPHL_LMNCCLONKAA_OFFSET UNITYSDK_OFFSET(0x16D50950)
 
-inline static constexpr unsigned int HOBEPKMMPHL_TypeDefinitionIndex = 53128;
+inline static constexpr unsigned int HOBEPKMMPHL_TypeDefinitionIndex = 54290;
 
 	class HOBEPKMMPHL
 	{
 	public:
-		::RPG::GameCore::MazePuzzleOrigamiColonyRow* OPEGEBLMMII; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* IHPLGIBHEPE; // 0x30
+		::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* IHPLGIBHEPE; // 0x28
+		::RPG::GameCore::MazePuzzleOrigamiColonyRow* OPEGEBLMMII; // 0x30
 		::System::UInt32 FMJAHJGAKNE; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByCheckColonyMirrorTakenDiff* a2)
 		{

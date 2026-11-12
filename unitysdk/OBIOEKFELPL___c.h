@@ -4,18 +4,18 @@
 class OBIOEKFELPL;
 namespace System { class Object; }
 
-#define OBIOEKFELPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBB18B0)
-#define OBIOEKFELPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB18F0)
-#define OBIOEKFELPL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EBB1900)
+#define OBIOEKFELPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0A5F60)
+#define OBIOEKFELPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0A5FA0)
+#define OBIOEKFELPL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F0A5FB0)
 
-inline static constexpr unsigned int OBIOEKFELPL___c_TypeDefinitionIndex = 26122;
+inline static constexpr unsigned int OBIOEKFELPL___c_TypeDefinitionIndex = 26649;
 
 	class OBIOEKFELPL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10A10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB5E0);
 		}
 
 		static ::System::Void _cctor()

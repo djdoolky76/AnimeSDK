@@ -7,21 +7,21 @@ namespace RPG::GameCore { class TriggerModifierLeaveBattle; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OKADKGLHGKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBED2DD0)
-#define OKADKGLHGKM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBED2E20)
-#define OKADKGLHGKM_ECEAGHHFINI_OFFSET UNITYSDK_OFFSET(0xBED32D0)
-#define OKADKGLHGKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBED2EC0)
-#define OKADKGLHGKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBED3350)
-#define OKADKGLHGKM_TICK_OFFSET UNITYSDK_OFFSET(0xBED2E60)
+#define OKADKGLHGKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC7CA350)
+#define OKADKGLHGKM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7CA3A0)
+#define OKADKGLHGKM_ECEAGHHFINI_OFFSET UNITYSDK_OFFSET(0xC7CA8A0)
+#define OKADKGLHGKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7CA440)
+#define OKADKGLHGKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC7CA920)
+#define OKADKGLHGKM_TICK_OFFSET UNITYSDK_OFFSET(0xC7CA3E0)
 
-inline static constexpr unsigned int OKADKGLHGKM_TypeDefinitionIndex = 55751;
+inline static constexpr unsigned int OKADKGLHGKM_TypeDefinitionIndex = 56953;
 
 	class OKADKGLHGKM : public ::GELIALJDFBL
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* AFFKHDBKGOJ; // 0x18
-		::RPG::GameCore::TriggerModifierLeaveBattle* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* AFFKHDBKGOJ; // 0x20
+		::RPG::GameCore::TriggerModifierLeaveBattle* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerModifierLeaveBattle* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerModifierLeaveBattle*))((::PBYTE)hIl2Cpp + OKADKGLHGKM_CTOR_OFFSET))(this, a1, a2);

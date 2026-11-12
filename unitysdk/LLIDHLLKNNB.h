@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetBPSortType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLIDHLLKNNB_CTOR_OFFSET UNITYSDK_OFFSET(0xB770450)
-#define LLIDHLLKNNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB770480)
+#define LLIDHLLKNNB_CTOR_OFFSET UNITYSDK_OFFSET(0xC00FBB0)
+#define LLIDHLLKNNB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC00FBE0)
 
-inline static constexpr unsigned int LLIDHLLKNNB_TypeDefinitionIndex = 55350;
+inline static constexpr unsigned int LLIDHLLKNNB_TypeDefinitionIndex = 56533;
 
 	class LLIDHLLKNNB
 	{

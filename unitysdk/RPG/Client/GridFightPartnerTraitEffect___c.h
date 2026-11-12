@@ -8,43 +8,43 @@ namespace RPG::Client { class GridFightTraitConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1D1FB0)
-#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1D1FF0)
-#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GETCOPYEQUIPDATA_B__34_0_OFFSET UNITYSDK_OFFSET(0xD1D20C0)
-#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITCONFIGS_B__23_0_OFFSET UNITYSDK_OFFSET(0xD1D2000)
-#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITS_B__25_0_OFFSET UNITYSDK_OFFSET(0xD1D2060)
-#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_ROLEOPTIONS_B__46_0_OFFSET UNITYSDK_OFFSET(0xD1D2110)
+#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC1D640)
+#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC1D680)
+#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GETCOPYEQUIPDATA_B__36_0_OFFSET UNITYSDK_OFFSET(0xDC1D750)
+#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITCONFIGS_B__25_0_OFFSET UNITYSDK_OFFSET(0xDC1D690)
+#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITS_B__27_0_OFFSET UNITYSDK_OFFSET(0xDC1D6F0)
+#define RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_ROLEOPTIONS_B__48_0_OFFSET UNITYSDK_OFFSET(0xDC1D7A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightPartnerTraitEffect___c_TypeDefinitionIndex = 65406;
+	inline static constexpr unsigned int GridFightPartnerTraitEffect___c_TypeDefinitionIndex = 67263;
 
 	class GridFightPartnerTraitEffect___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightRole*, ::RPG::Client::GridFightPartnerOption*>** StaticGet___9__46_0()
+		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightRole*, ::RPG::Client::GridFightPartnerOption*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DE80);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DE88);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::Boolean>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DE90);
-		}
-
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__34_0()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DE98);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72EF0);
 		}
 
 		static ::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DEA0);
+			return (::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72EF8);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightRole*, ::RPG::Client::GridFightPartnerOption*>** StaticGet___9__48_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightRole*, ::RPG::Client::GridFightPartnerOption*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72F00);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72F08);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::Boolean>** StaticGet___9__27_0()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightTraitConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72F10);
 		}
 
 		static ::System::Void _cctor()
@@ -57,24 +57,24 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean _get_BonusTraitConfigs_b__23_0(::RPG::Client::GridFightTraitConfig* a1)
+		::System::Boolean _get_BonusTraitConfigs_b__25_0(::RPG::Client::GridFightTraitConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITCONFIGS_B__23_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITCONFIGS_B__25_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _get_BonusTraits_b__25_0(::RPG::Client::GridFightTraitConfig* a1)
+		::System::Boolean _get_BonusTraits_b__27_0(::RPG::Client::GridFightTraitConfig* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITS_B__25_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_BONUSTRAITS_B__27_0_OFFSET))(this, a1);
 		}
 
-		::System::Boolean _GetCopyEquipData_b__34_0(::RPG::Client::GridFightEquipItemData* a1)
+		::System::Boolean _GetCopyEquipData_b__36_0(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GETCOPYEQUIPDATA_B__34_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GETCOPYEQUIPDATA_B__36_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightPartnerOption* _get_RoleOptions_b__46_0(::RPG::Client::GridFightRole* a1)
+		::RPG::Client::GridFightPartnerOption* _get_RoleOptions_b__48_0(::RPG::Client::GridFightRole* a1)
 		{
-			return ((::RPG::Client::GridFightPartnerOption*(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_ROLEOPTIONS_B__46_0_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightPartnerOption*(*)(::PVOID, ::RPG::Client::GridFightRole*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTPARTNERTRAITEFFECT___C__GET_ROLEOPTIONS_B__48_0_OFFSET))(this, a1);
 		}
 
 	};

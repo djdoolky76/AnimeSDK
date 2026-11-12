@@ -5,7 +5,7 @@ namespace RPG::Client { class IntroButton; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int BFKCJLGJINM___c__1_1_TypeDefinitionIndex = 49931;
+inline static constexpr unsigned int BFKCJLGJINM___c__1_1_TypeDefinitionIndex = 50979;
 
 	template <typename T>
 	class BFKCJLGJINM___c__1_1 : public ::System::Object

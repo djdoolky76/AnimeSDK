@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_QA_DEBUGANIMATORINFOPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE87BD00)
-#define RPG_QA_DEBUGANIMATORINFOPANEL_SHOWENTITY_OFFSET UNITYSDK_OFFSET(0xE87BCF0)
+#define RPG_QA_DEBUGANIMATORINFOPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0xF3480F0)
+#define RPG_QA_DEBUGANIMATORINFOPANEL_SHOWENTITY_OFFSET UNITYSDK_OFFSET(0xF3480E0)
 
 namespace RPG::QA
 {
-	inline static constexpr unsigned int DebugAnimatorInfoPanel_TypeDefinitionIndex = 51821;
+	inline static constexpr unsigned int DebugAnimatorInfoPanel_TypeDefinitionIndex = 52907;
 
 	class DebugAnimatorInfoPanel : public ::UnityEngine::MonoBehaviour
 	{

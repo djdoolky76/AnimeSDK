@@ -4,11 +4,11 @@
 namespace RPG::Client { class GridFightGridData; }
 namespace RPG::GameCore { class GridFightDragOpGridSelector; }
 
-#define MJKAAFGONCL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB96DFD0)
-#define MJKAAFGONCL___C__DISPLAYCLASS1_0__GETGRID_B__0_OFFSET UNITYSDK_OFFSET(0xB96E240)
-#define MJKAAFGONCL___C__DISPLAYCLASS1_0__GETGRID_B__1_OFFSET UNITYSDK_OFFSET(0xB96E420)
+#define MJKAAFGONCL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2274A0)
+#define MJKAAFGONCL___C__DISPLAYCLASS1_0__GETGRID_B__0_OFFSET UNITYSDK_OFFSET(0xC227710)
+#define MJKAAFGONCL___C__DISPLAYCLASS1_0__GETGRID_B__1_OFFSET UNITYSDK_OFFSET(0xC2278F0)
 
-inline static constexpr unsigned int MJKAAFGONCL___c__DisplayClass1_0_TypeDefinitionIndex = 65503;
+inline static constexpr unsigned int MJKAAFGONCL___c__DisplayClass1_0_TypeDefinitionIndex = 67417;
 
 	class MJKAAFGONCL___c__DisplayClass1_0 : public ::System::Object
 	{

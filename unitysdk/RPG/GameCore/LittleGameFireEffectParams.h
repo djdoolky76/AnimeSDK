@@ -6,14 +6,14 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameFireEffectParams; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7E33B0)
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1D7E32B0)
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E32A0)
-#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E2EB0)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA23AD0)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CLEAR_OFFSET UNITYSDK_OFFSET(0x1EA239D0)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA239C0)
+#define RPG_GAMECORE_LITTLEGAMEFIREEFFECTPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA236D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameFireEffectParams_TypeDefinitionIndex = 18889;
+	inline static constexpr unsigned int LittleGameFireEffectParams_TypeDefinitionIndex = 19051;
 
 	class LittleGameFireEffectParams : public ::RPG::GameCore::JsonConfig
 	{
@@ -30,7 +30,7 @@ namespace RPG::GameCore
 		::RPG::MVector3 RotationOffset; // 0x48
 		static ::RPG::GameCore::LittleGameFireEffectParams** StaticGet__ProtoType()
 		{
-			return (::RPG::GameCore::LittleGameFireEffectParams**)UnitySDK::FromName("RPG.GameCore", "LittleGameFireEffectParams")->GetStaticField(0x33C80);
+			return (::RPG::GameCore::LittleGameFireEffectParams**)UnitySDK::FromName("RPG.GameCore", "LittleGameFireEffectParams")->GetStaticField(0x3CB00);
 		}
 
 		::System::Void _ctor()

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class LockBattleOperation; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LOCKBATTLEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7EFFF0)
-#define RPG_GAMECORE_LOCKBATTLEOPERATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7F0000)
-#define RPG_GAMECORE_LOCKBATTLEOPERATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7EFFB0)
+#define RPG_GAMECORE_LOCKBATTLEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA32C70)
+#define RPG_GAMECORE_LOCKBATTLEOPERATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA32C80)
+#define RPG_GAMECORE_LOCKBATTLEOPERATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA32C30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LockBattleOperation_TypeDefinitionIndex = 23276;
+	inline static constexpr unsigned int LockBattleOperation_TypeDefinitionIndex = 23716;
 
 	class LockBattleOperation : public ::RPG::GameCore::TaskConfig
 	{

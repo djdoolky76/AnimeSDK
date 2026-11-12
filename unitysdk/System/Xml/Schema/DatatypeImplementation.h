@@ -20,30 +20,30 @@ namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 namespace System::Xml::Schema { class XmlSchemaType; }
 namespace System::Xml::Schema { class XmlValueConverter; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEA8FB0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_COMPARE_OFFSET UNITYSDK_OFFSET(0x1EEB2B70)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEBUILTINTYPES_OFFSET UNITYSDK_OFFSET(0x1EEB0CE0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EEB2760)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB2BD0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_DERIVEBYLIST_OFFSET UNITYSDK_OFFSET(0x1EEAEE20)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FINISHBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1FF0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMTYPENAME_OFFSET UNITYSDK_OFFSET(0x1EEB1E10)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMXMLTOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1D80)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETSIMPLETYPEFROMTYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB2480)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x1EEB2AD0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_ANYSIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1CC0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x1EEB28D0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x1EEB2770)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_RESTRICTION_OFFSET UNITYSDK_OFFSET(0x1EEB28C0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB2860)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x1EEB28B0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_UNTYPEDATOMICTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1D20)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x1EEB27D0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB2870)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VARIETY_OFFSET UNITYSDK_OFFSET(0x1EEB28A0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x1EEB26D0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EEB28E0)
-#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_STARTBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB1EF0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CCTOR_OFFSET UNITYSDK_OFFSET(0x20158720)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_COMPARE_OFFSET UNITYSDK_OFFSET(0x201622E0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEBUILTINTYPES_OFFSET UNITYSDK_OFFSET(0x20160450)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CREATEVALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x20161ED0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x20162340)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_DERIVEBYLIST_OFFSET UNITYSDK_OFFSET(0x2015E590)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FINISHBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x20161760)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMTYPENAME_OFFSET UNITYSDK_OFFSET(0x20161580)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_FROMXMLTOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x201614F0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETSIMPLETYPEFROMTYPECODE_OFFSET UNITYSDK_OFFSET(0x20161BF0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0x20162240)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_ANYSIMPLETYPE_OFFSET UNITYSDK_OFFSET(0x20161430)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_BUILTINWHITESPACEFACET_OFFSET UNITYSDK_OFFSET(0x20162040)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_FACETSCHECKER_OFFSET UNITYSDK_OFFSET(0x20161EE0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_RESTRICTION_OFFSET UNITYSDK_OFFSET(0x20162030)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x20161FD0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_TYPECODE_OFFSET UNITYSDK_OFFSET(0x20162020)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_UNTYPEDATOMICTYPE_OFFSET UNITYSDK_OFFSET(0x20161490)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUECONVERTER_OFFSET UNITYSDK_OFFSET(0x20161F40)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x20161FE0)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_GET_VARIETY_OFFSET UNITYSDK_OFFSET(0x20162010)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_ISEQUAL_OFFSET UNITYSDK_OFFSET(0x20161E40)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x20162050)
+#define SYSTEM_XML_SCHEMA_DATATYPEIMPLEMENTATION_STARTBUILTINTYPE_OFFSET UNITYSDK_OFFSET(0x20161660)
 
 namespace System::Xml::Schema
 {
@@ -53,428 +53,428 @@ namespace System::Xml::Schema
 	{
 	public:
 		::System::Xml::Schema::XmlSchemaType* parentSchemaType; // 0x10
-		::System::Xml::Schema::DatatypeImplementation* baseType; // 0x18
-		::System::Xml::Schema::XmlValueConverter* valueConverter; // 0x20
+		::System::Xml::Schema::XmlValueConverter* valueConverter; // 0x18
+		::System::Xml::Schema::DatatypeImplementation* baseType; // 0x20
 		::System::Xml::Schema::RestrictionFacets* restriction; // 0x28
 		::System::Xml::Schema::XmlSchemaDatatypeVariety variety; // 0x30
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NCName()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyAtomicType()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AC0);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_miscFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AC8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_short()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AD0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedInt()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AD8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTimeNoTz()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AE0);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_dateTimeFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AE8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_date()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AF0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITIES()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21AF8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_positiveInteger()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B00);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_uuid()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B08);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_integer()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B10);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_QName()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B18);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_duration()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B20);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_time()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B28);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonthDuration()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B30);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonNegativeInteger()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B38);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITY()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B40);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedStringV1Compat()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B48);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_durationFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B50);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_QNameXdr()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B58);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedLong()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B60);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_binaryFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B68);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREF()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B70);
-		}
-
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anyAtomicType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B78);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKEN()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B80);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_Name()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B88);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyURI()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B90);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NOTATION()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21B98);
-		}
-
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_yearMonthDurationType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BA0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_negativeInteger()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BA8);
-		}
-
-		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypes()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BB0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKENS()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BB8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREFS()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BC0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonth()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BC8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonPositiveInteger()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BD0);
-		}
-
-		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypesXsd()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BD8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_decimal()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BE0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_hexBinary()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BE8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_long()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BF0);
-		}
-
-		static ::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>** StaticGet_enumToTypeCode()
-		{
-			return (::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21BF8);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet_builtinTypes()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C00);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_qnameFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C08);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_int()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C10);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric2FacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C18);
-		}
-
-		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnySimpleType()
-		{
-			return (::System::Xml::XmlQualifiedName**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C20);
-		}
-
-		static ::Il2CppArray<::System::Object*>** StaticGet_c_XdrTypes()
-		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C28);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_listFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C30);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTimeTz()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C38);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_float()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C40);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dayTimeDuration()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C48);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_boolean()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C50);
-		}
-
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_unionFacetsChecker()
-		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C58);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C010);
 		}
 
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_char()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C60);
-		}
-
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anySimpleType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C68);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedShort()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C70);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_day()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C78);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_tokenV1Compat()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C80);
-		}
-
-		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnyType()
-		{
-			return (::System::Xml::XmlQualifiedName**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C88);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_token()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C90);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_year()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21C98);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C018);
 		}
 
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_base64Binary()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CA0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_doubleXdr()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CA8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedString()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CB0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ID()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CB8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_language()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CC0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_double()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CC8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_byte()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CD0);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_string()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CD8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_timeTz()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CE0);
-		}
-
-		static ::Il2CppArray<::System::Object*>** StaticGet_c_XsdTypes()
-		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CE8);
-		}
-
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anySimpleType()
-		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CF0);
-		}
-
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_untypedAtomicType()
-		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21CF8);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C020);
 		}
 
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_timeNoTz()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D00);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C028);
 		}
 
-		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_dayTimeDurationType()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_long()
 		{
-			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D08);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C030);
 		}
 
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENUMERATION()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_language()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D10);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C038);
 		}
 
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_floatXdr()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_float()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D18);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C040);
 		}
 
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedByte()
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_qnameFacetsChecker()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D20);
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C048);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_c_XdrTypes()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C050);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_binaryFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C058);
+		}
+
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_yearMonthDurationType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C060);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonth()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C068);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_integer()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C070);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_c_XsdTypes()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C078);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_time()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C080);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedShort()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C088);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_miscFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C090);
+		}
+
+		static ::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>** StaticGet_enumToTypeCode()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::XmlSchemaSimpleType*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C098);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedInt()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0A0);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_listFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0A8);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKEN()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0B0);
 		}
 
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_fixed()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D28);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0B8);
 		}
 
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyAtomicType()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_year()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D30);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0C0);
 		}
 
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTime()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENUMERATION()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D38);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0C8);
 		}
 
-		static ::System::Xml::Schema::FacetsChecker** StaticGet_stringFacetsChecker()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NMTOKENS()
 		{
-			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D40);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0D0);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_timeTz()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0D8);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_decimal()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0E0);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_string()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0E8);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_byte()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0F0);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonPositiveInteger()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C0F8);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anyURI()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C100);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedStringV1Compat()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C108);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_double()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C110);
+		}
+
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_untypedAtomicType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C118);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREF()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C120);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_doubleXdr()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C128);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedByte()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C130);
+		}
+
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_dayTimeDurationType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C138);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_QNameXdr()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C140);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_short()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C148);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTimeTz()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C150);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_boolean()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C158);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_day()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C160);
+		}
+
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anySimpleType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C168);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_unionFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C170);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_QName()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C178);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_uuid()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C180);
 		}
 
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_untypedAtomicType()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D48);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C188);
 		}
 
-		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_monthDay()
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_floatXdr()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D50);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C190);
+		}
+
+		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypesXsd()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C198);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_IDREFS()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1A0);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_builtinTypes()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1A8);
+		}
+
+		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnyType()
+		{
+			return (::System::Xml::XmlQualifiedName**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1B0);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_yearMonthDuration()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1B8);
+		}
+
+		static ::System::Xml::XmlQualifiedName** StaticGet_QnAnySimpleType()
+		{
+			return (::System::Xml::XmlQualifiedName**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1C0);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_anySimpleType()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1C8);
 		}
 
 		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_month()
 		{
-			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x21D58);
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1D0);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ID()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1D8);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_normalizedString()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1E0);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_numeric2FacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1E8);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_positiveInteger()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1F0);
+		}
+
+		static ::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>** StaticGet_c_tokenizedTypes()
+		{
+			return (::Il2CppArray<::System::Xml::Schema::DatatypeImplementation*>**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C1F8);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_int()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C200);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dayTimeDuration()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C208);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_nonNegativeInteger()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C210);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_token()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C218);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_negativeInteger()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C220);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NOTATION()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C228);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_tokenV1Compat()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C230);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_durationFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C238);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_duration()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C240);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTime()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C248);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_monthDay()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C250);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_stringFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C258);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_date()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C260);
+		}
+
+		static ::System::Xml::Schema::FacetsChecker** StaticGet_dateTimeFacetsChecker()
+		{
+			return (::System::Xml::Schema::FacetsChecker**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C268);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_Name()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C270);
+		}
+
+		static ::System::Xml::Schema::XmlSchemaSimpleType** StaticGet_anyAtomicType()
+		{
+			return (::System::Xml::Schema::XmlSchemaSimpleType**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C278);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_NCName()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C280);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_hexBinary()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C288);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITY()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C290);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_dateTimeNoTz()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C298);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_ENTITIES()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C2A0);
+		}
+
+		static ::System::Xml::Schema::DatatypeImplementation** StaticGet_c_unsignedLong()
+		{
+			return (::System::Xml::Schema::DatatypeImplementation**)UnitySDK::FromName("System.Xml.Schema", "DatatypeImplementation")->GetStaticField(0x2C2A8);
 		}
 
 		static ::System::Void _cctor()

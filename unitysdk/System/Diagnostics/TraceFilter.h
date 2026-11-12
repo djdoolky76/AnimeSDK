@@ -5,7 +5,7 @@
 namespace System { class String; }
 namespace System::Diagnostics { class TraceEventCache; }
 
-#define SYSTEM_DIAGNOSTICS_TRACEFILTER_SHOULDTRACE_1_OFFSET UNITYSDK_OFFSET(0x1F0115F0)
+#define SYSTEM_DIAGNOSTICS_TRACEFILTER_SHOULDTRACE_1_OFFSET UNITYSDK_OFFSET(0x202C0E40)
 
 namespace System::Diagnostics
 {

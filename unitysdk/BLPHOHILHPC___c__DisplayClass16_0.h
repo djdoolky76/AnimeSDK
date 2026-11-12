@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BLPHOHILHPC___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA852F0)
-#define BLPHOHILHPC___C__DISPLAYCLASS16_0__ISTOOUNIFORM_B__1_OFFSET UNITYSDK_OFFSET(0xBA85410)
+#define BLPHOHILHPC___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4175B0)
+#define BLPHOHILHPC___C__DISPLAYCLASS16_0__ISTOOUNIFORM_B__1_OFFSET UNITYSDK_OFFSET(0xC4176D0)
 
-inline static constexpr unsigned int BLPHOHILHPC___c__DisplayClass16_0_TypeDefinitionIndex = 77904;
+inline static constexpr unsigned int BLPHOHILHPC___c__DisplayClass16_0_TypeDefinitionIndex = 80639;
 
 	class BLPHOHILHPC___c__DisplayClass16_0 : public ::System::Object
 	{

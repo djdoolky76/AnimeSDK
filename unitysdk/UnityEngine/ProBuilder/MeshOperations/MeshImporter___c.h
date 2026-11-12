@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2347C0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F234800)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__IMPORT_B__9_0_OFFSET UNITYSDK_OFFSET(0x1F234810)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x204E5AF0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x204E5B30)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER___C__IMPORT_B__9_0_OFFSET UNITYSDK_OFFSET(0x204E5B40)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshImporter___c_TypeDefinitionIndex = 44506;
+	inline static constexpr unsigned int MeshImporter___c_TypeDefinitionIndex = 45581;
 
 	class MeshImporter___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x54970);
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x679D0);
 		}
 
 		static ::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x54978);
+			return (::System::Func_2<::UnityEngine::ProBuilder::Vertex*, ::UnityEngine::Vector3>**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "<>c")->GetStaticField(0x679D8);
 		}
 
 		static ::System::Void _cctor()

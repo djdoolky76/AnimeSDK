@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define DJIGFHMOPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF2358E0)
+#define DJIGFHMOPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xFFB6E60)
 
-inline static constexpr unsigned int DJIGFHMOPIG_TypeDefinitionIndex = 55840;
+inline static constexpr unsigned int DJIGFHMOPIG_TypeDefinitionIndex = 57043;
 
 	class DJIGFHMOPIG : public ::System::Object
 	{

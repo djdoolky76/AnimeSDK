@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ClearRegardAsAttackType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JGGNPDLOLMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB199DC0)
-#define JGGNPDLOLMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB199DF0)
+#define JGGNPDLOLMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B4130)
+#define JGGNPDLOLMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9B4160)
 
-inline static constexpr unsigned int JGGNPDLOLMM_TypeDefinitionIndex = 54965;
+inline static constexpr unsigned int JGGNPDLOLMM_TypeDefinitionIndex = 56139;
 
 	class JGGNPDLOLMM
 	{

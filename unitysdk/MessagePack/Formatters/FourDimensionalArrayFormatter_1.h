@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int FourDimensionalArrayFormatter_1_TypeDefinitionIndex = 7439;
+	inline static constexpr unsigned int FourDimensionalArrayFormatter_1_TypeDefinitionIndex = 7450;
 
 	template <typename T>
 	class FourDimensionalArrayFormatter_1 : public ::System::Object

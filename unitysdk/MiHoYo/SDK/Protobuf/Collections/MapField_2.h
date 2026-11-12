@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_TypeDefinitionIndex = 35858;
+	inline static constexpr unsigned int MapField_2_TypeDefinitionIndex = 36786;
 
 	template <typename T1, typename T2>
 	class MapField_2 : public ::System::Object

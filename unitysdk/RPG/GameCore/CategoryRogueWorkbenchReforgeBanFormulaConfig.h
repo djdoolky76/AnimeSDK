@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CategoryRogueWorkbenchReforgeBanFormulaConfig; }
 
-#define RPG_GAMECORE_CATEGORYROGUEWORKBENCHREFORGEBANFORMULACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D558230)
-#define RPG_GAMECORE_CATEGORYROGUEWORKBENCHREFORGEBANFORMULACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5581F0)
+#define RPG_GAMECORE_CATEGORYROGUEWORKBENCHREFORGEBANFORMULACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E769EB0)
+#define RPG_GAMECORE_CATEGORYROGUEWORKBENCHREFORGEBANFORMULACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E769E70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CategoryRogueWorkbenchReforgeBanFormulaConfig_TypeDefinitionIndex = 17756;
+	inline static constexpr unsigned int CategoryRogueWorkbenchReforgeBanFormulaConfig_TypeDefinitionIndex = 17925;
 
 	class CategoryRogueWorkbenchReforgeBanFormulaConfig : public ::RPG::GameCore::JsonConfig
 	{

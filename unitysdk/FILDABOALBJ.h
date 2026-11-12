@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FILDABOALBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157ACF80)
+#define FILDABOALBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x166CEA00)
 
-inline static constexpr unsigned int FILDABOALBJ_TypeDefinitionIndex = 81278;
+inline static constexpr unsigned int FILDABOALBJ_TypeDefinitionIndex = 84058;
 
 	class FILDABOALBJ : public ::System::Object
 	{

@@ -4,23 +4,23 @@
 class FDPALAEIHPB;
 class HJNDPHEDAGM;
 
-#define NEOCANJOBBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C955DA0)
-#define NEOCANJOBBD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C955DC0)
-#define NEOCANJOBBD_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1C956300)
+#define NEOCANJOBBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB17B80)
+#define NEOCANJOBBD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DB17BA0)
+#define NEOCANJOBBD_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1DB180E0)
 
-inline static constexpr unsigned int NEOCANJOBBD_TypeDefinitionIndex = 42194;
+inline static constexpr unsigned int NEOCANJOBBD_TypeDefinitionIndex = 43169;
 
 	class NEOCANJOBBD : public ::System::Object
 	{
 	public:
 		static ::FDPALAEIHPB** StaticGet_BJPFDPILDDK()
 		{
-			return (::FDPALAEIHPB**)UnitySDK::FromName("", "NEOCANJOBBD")->GetStaticField(0x249B0);
+			return (::FDPALAEIHPB**)UnitySDK::FromName("", "NEOCANJOBBD")->GetStaticField(0x195F0);
 		}
 
 		static ::HJNDPHEDAGM** StaticGet_FKGGBEAELPE()
 		{
-			return (::HJNDPHEDAGM**)UnitySDK::FromName("", "NEOCANJOBBD")->GetStaticField(0x249B8);
+			return (::HJNDPHEDAGM**)UnitySDK::FromName("", "NEOCANJOBBD")->GetStaticField(0x195F8);
 		}
 
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::HJNDPHEDAGM* a2)

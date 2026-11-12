@@ -4,18 +4,18 @@
 class KLABGDHBEDN;
 namespace System { class Object; }
 
-#define KLABGDHBEDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8807A0)
-#define KLABGDHBEDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8807E0)
-#define KLABGDHBEDN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8807F0)
+#define KLABGDHBEDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB9BB00)
+#define KLABGDHBEDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB9BB40)
+#define KLABGDHBEDN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB9BB50)
 
-inline static constexpr unsigned int KLABGDHBEDN___c_TypeDefinitionIndex = 28524;
+inline static constexpr unsigned int KLABGDHBEDN___c_TypeDefinitionIndex = 29114;
 
 	class KLABGDHBEDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F7D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x175E0);
 		}
 
 		static ::System::Void _cctor()

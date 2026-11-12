@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/InControl/InputDeviceProfile.h"
 
-#define INCONTROL_UNITYDEVICEPROFILES_SAMSUNGGP20ANDROIDUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB292A0)
-#define INCONTROL_UNITYDEVICEPROFILES_SAMSUNGGP20ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1BB282C0)
+#define INCONTROL_UNITYDEVICEPROFILES_SAMSUNGGP20ANDROIDUNITYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB1EF0)
+#define INCONTROL_UNITYDEVICEPROFILES_SAMSUNGGP20ANDROIDUNITYPROFILE_DEFINE_OFFSET UNITYSDK_OFFSET(0x1CCB0F10)
 
 namespace InControl::UnityDeviceProfiles
 {
-	inline static constexpr unsigned int SamsungGP20AndroidUnityProfile_TypeDefinitionIndex = 40987;
+	inline static constexpr unsigned int SamsungGP20AndroidUnityProfile_TypeDefinitionIndex = 41962;
 
 	class SamsungGP20AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{

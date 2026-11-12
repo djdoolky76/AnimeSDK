@@ -6,12 +6,12 @@ namespace RPG::GameCore { class TargetSortByGridFightPower; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LFFPDEHBJJE_COMPARE_OFFSET UNITYSDK_OFFSET(0xB669790)
-#define LFFPDEHBJJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6693D0)
-#define LFFPDEHBJJE_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xB6693F0)
-#define LFFPDEHBJJE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB6694D0)
+#define LFFPDEHBJJE_COMPARE_OFFSET UNITYSDK_OFFSET(0xBEFF0A0)
+#define LFFPDEHBJJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFECF0)
+#define LFFPDEHBJJE_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xBEFED10)
+#define LFFPDEHBJJE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBEFEDE0)
 
-inline static constexpr unsigned int LFFPDEHBJJE_TypeDefinitionIndex = 59178;
+inline static constexpr unsigned int LFFPDEHBJJE_TypeDefinitionIndex = 60455;
 
 	class LFFPDEHBJJE
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/MatchThreeTemplateType.h"
 #include "unitysdk/System/Object.h"
 
-#define BABCKFPNILI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8ADE00)
+#define BABCKFPNILI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2EAD0)
 
-inline static constexpr unsigned int BABCKFPNILI_TypeDefinitionIndex = 42233;
+inline static constexpr unsigned int BABCKFPNILI_TypeDefinitionIndex = 43208;
 
 	class BABCKFPNILI : public ::System::Object
 	{

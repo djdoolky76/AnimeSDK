@@ -4,21 +4,21 @@
 namespace System { class String; }
 namespace UnityEngine { class ComputeShader; }
 
-#define GGLPJCKICNF_BFNAPJBGPHH_OFFSET UNITYSDK_OFFSET(0x15A0FBF0)
-#define GGLPJCKICNF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A0FC10)
-#define GGLPJCKICNF_EEIHCPDDDAC_OFFSET UNITYSDK_OFFSET(0x15A0FBE0)
-#define GGLPJCKICNF_NFFAELNJGMK_OFFSET UNITYSDK_OFFSET(0x15A0FC00)
-#define GGLPJCKICNF_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x15A0FBD0)
+#define GGLPJCKICNF_BFNAPJBGPHH_OFFSET UNITYSDK_OFFSET(0x1694A1F0)
+#define GGLPJCKICNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1694A210)
+#define GGLPJCKICNF_EEIHCPDDDAC_OFFSET UNITYSDK_OFFSET(0x1694A1E0)
+#define GGLPJCKICNF_NFFAELNJGMK_OFFSET UNITYSDK_OFFSET(0x1694A200)
+#define GGLPJCKICNF_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x1694A1D0)
 
-inline static constexpr unsigned int GGLPJCKICNF_TypeDefinitionIndex = 49264;
+inline static constexpr unsigned int GGLPJCKICNF_TypeDefinitionIndex = 50340;
 
 	class GGLPJCKICNF : public ::System::Object
 	{
 	public:
-		::System::UInt32 FOKMDPCICLJ; // 0x10
+		::System::UInt32 HIMCJBIFANO; // 0x10
 		::System::UInt32 POJDIFPKIMN; // 0x14
-		::System::Int32 NOIEMNLMACN; // 0x18
-		::System::UInt32 HIMCJBIFANO; // 0x1C
+		::System::UInt32 FOKMDPCICLJ; // 0x18
+		::System::Int32 NOIEMNLMACN; // 0x1C
 		::System::Void _ctor(::UnityEngine::ComputeShader* a1, ::System::String* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::ComputeShader*, ::System::String*))((::PBYTE)hIl2Cpp + GGLPJCKICNF_CTOR_OFFSET))(this, a1, a2);

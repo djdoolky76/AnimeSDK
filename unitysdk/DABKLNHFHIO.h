@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define DABKLNHFHIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D80B0)
+#define DABKLNHFHIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7598C0)
 
-inline static constexpr unsigned int DABKLNHFHIO_TypeDefinitionIndex = 36878;
+inline static constexpr unsigned int DABKLNHFHIO_TypeDefinitionIndex = 37806;
 
 	class DABKLNHFHIO : public ::System::Attribute
 	{

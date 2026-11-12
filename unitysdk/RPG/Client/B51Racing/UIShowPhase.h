@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int UIShowPhase_TypeDefinitionIndex = 81920;
+	inline static constexpr unsigned int UIShowPhase_TypeDefinitionIndex = 84701;
 
 	enum class UIShowPhase : ::System::Int32
 	{

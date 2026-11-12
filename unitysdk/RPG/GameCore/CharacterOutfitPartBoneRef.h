@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterOutfitPartBoneRef; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D574570)
-#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D574450)
+#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E785580)
+#define RPG_GAMECORE_CHARACTEROUTFITPARTBONEREF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E785460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterOutfitPartBoneRef_TypeDefinitionIndex = 17481;
+	inline static constexpr unsigned int CharacterOutfitPartBoneRef_TypeDefinitionIndex = 17649;
 
 	class CharacterOutfitPartBoneRef : public ::RPG::GameCore::JsonConfig
 	{

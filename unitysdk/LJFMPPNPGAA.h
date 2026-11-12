@@ -7,17 +7,17 @@ class IJCMAKLBINJ;
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define LJFMPPNPGAA_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0xB717B00)
-#define LJFMPPNPGAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB717AF0)
+#define LJFMPPNPGAA_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0xBFB3DB0)
+#define LJFMPPNPGAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3DA0)
 
-inline static constexpr unsigned int LJFMPPNPGAA_TypeDefinitionIndex = 73154;
+inline static constexpr unsigned int LJFMPPNPGAA_TypeDefinitionIndex = 75268;
 
 	class LJFMPPNPGAA : public ::System::Object
 	{
 	public:
-		::ACPNMANEGEH* GELGHEBPAFE; // 0x10
+		::IJCMAKLBINJ* FNDHDEOILCK; // 0x10
 		::System::Reflection::MethodInfo* KFGCBHOEIPE; // 0x18
-		::IJCMAKLBINJ* FNDHDEOILCK; // 0x20
+		::ACPNMANEGEH* GELGHEBPAFE; // 0x20
 		::System::Void _ctor(::System::Reflection::MethodInfo* a1, ::ACPNMANEGEH* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Reflection::MethodInfo*, ::ACPNMANEGEH*))((::PBYTE)hIl2Cpp + LJFMPPNPGAA_CTOR_OFFSET))(this, a1, a2);

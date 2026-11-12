@@ -6,7 +6,7 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UI3DControllerBase_NotifyHandlerBinding_TypeDefinitionIndex = 73000;
+	inline static constexpr unsigned int UI3DControllerBase_NotifyHandlerBinding_TypeDefinitionIndex = 75112;
 
 	struct alignas(8) UI3DControllerBase_NotifyHandlerBinding
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class FGLELNGFMGN;
 
-inline static constexpr unsigned int PHBAOIHCKJH_TypeDefinitionIndex = 44123;
+inline static constexpr unsigned int PHBAOIHCKJH_TypeDefinitionIndex = 45198;
 
 	class PHBAOIHCKJH : public ::System::Object
 	{

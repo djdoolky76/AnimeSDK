@@ -6,17 +6,17 @@ class JGHKOBIIEFC;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define JGHKOBIIEFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02A1E0)
-#define JGHKOBIIEFC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D02A1F0)
-#define JGHKOBIIEFC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D02A1A0)
+#define JGHKOBIIEFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E217550)
+#define JGHKOBIIEFC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E217560)
+#define JGHKOBIIEFC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E217510)
 
-inline static constexpr unsigned int JGHKOBIIEFC_TypeDefinitionIndex = 10189;
+inline static constexpr unsigned int JGHKOBIIEFC_TypeDefinitionIndex = 10197;
 
 	class JGHKOBIIEFC : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* FMLGGKAFMKC; // 0x20
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* LEAHACBFJBP; // 0x28
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* LEAHACBFJBP; // 0x20
+		::RPG::GameCore::DynamicFloat* FMLGGKAFMKC; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JGHKOBIIEFC_CTOR_OFFSET))(this);

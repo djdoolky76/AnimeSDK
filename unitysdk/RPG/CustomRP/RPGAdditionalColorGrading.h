@@ -6,11 +6,11 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 namespace UnityEngine::Rendering { class TextureParameter; }
 namespace UnityEngine::Rendering { class Vector2Parameter; }
 
-#define RPG_CUSTOMRP_RPGADDITIONALCOLORGRADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC3C500)
+#define RPG_CUSTOMRP_RPGADDITIONALCOLORGRADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE38D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGAdditionalColorGrading_TypeDefinitionIndex = 37782;
+	inline static constexpr unsigned int RPGAdditionalColorGrading_TypeDefinitionIndex = 38711;
 
 	class RPGAdditionalColorGrading : public ::RPG::CustomRP::CustomVolumeComponent
 	{

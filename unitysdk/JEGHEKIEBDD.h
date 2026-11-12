@@ -4,18 +4,18 @@
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 #include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 
-#define JEGHEKIEBDD_AHMCGDLMMLM_OFFSET UNITYSDK_OFFSET(0x1661FFD0)
-#define JEGHEKIEBDD_CCTOR_OFFSET UNITYSDK_OFFSET(0x166206C0)
-#define JEGHEKIEBDD_JLPDLBCBJNN_OFFSET UNITYSDK_OFFSET(0x16620350)
+#define JEGHEKIEBDD_AHMCGDLMMLM_OFFSET UNITYSDK_OFFSET(0xB965570)
+#define JEGHEKIEBDD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB965BD0)
+#define JEGHEKIEBDD_JLPDLBCBJNN_OFFSET UNITYSDK_OFFSET(0xB965890)
 
-inline static constexpr unsigned int JEGHEKIEBDD_TypeDefinitionIndex = 77169;
+inline static constexpr unsigned int JEGHEKIEBDD_TypeDefinitionIndex = 79503;
 
 	class JEGHEKIEBDD : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::UInt16>** StaticGet_EFKAFBDADME()
 		{
-			return (::Il2CppArray<::System::UInt16>**)UnitySDK::FromName("", "JEGHEKIEBDD")->GetStaticField(0x2310);
+			return (::Il2CppArray<::System::UInt16>**)UnitySDK::FromName("", "JEGHEKIEBDD")->GetStaticField(0x685A0);
 		}
 
 		// static const ::System::Object OFPBCBONGCP; // 0x0

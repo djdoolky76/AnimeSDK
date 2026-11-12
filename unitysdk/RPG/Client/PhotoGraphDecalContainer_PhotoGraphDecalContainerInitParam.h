@@ -2,27 +2,27 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_PHOTOGRAPHDECALCONTAINERINITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xDAFABF0)
+#define RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_PHOTOGRAPHDECALCONTAINERINITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE551870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphDecalContainer_PhotoGraphDecalContainerInitParam_TypeDefinitionIndex = 69445;
+	inline static constexpr unsigned int PhotoGraphDecalContainer_PhotoGraphDecalContainerInitParam_TypeDefinitionIndex = 71399;
 
 	class PhotoGraphDecalContainer_PhotoGraphDecalContainerInitParam : public ::System::Object
 	{
 	public:
-		::System::Single FadeOutAnimeSpeed; // 0x10
-		::System::Single PreviewDecalCD; // 0x14
+		::System::Single DecalScale; // 0x10
+		::System::Single PreviewDecalAlpha; // 0x14
 		::System::Int32 MaxDecalCount; // 0x18
-		::System::Single DecalWidth; // 0x1C
-		::System::Single DecalScale; // 0x20
-		::System::Single DepthBufferSampleRadiusRatio; // 0x24
-		::System::Single MaxDepthTestVariance; // 0x28
-		::System::Single DecalHeight; // 0x2C
-		::System::Single MaxRaycastLength; // 0x30
-		::System::Single MaxDepthVariance; // 0x34
-		::System::Single PreviewDecalAlpha; // 0x38
-		::System::Single FadeInAnimeSpeed; // 0x3C
+		::System::Single FadeInAnimeSpeed; // 0x1C
+		::System::Single MaxDepthTestVariance; // 0x20
+		::System::Single MaxDepthVariance; // 0x24
+		::System::Single DecalHeight; // 0x28
+		::System::Single MaxRaycastLength; // 0x2C
+		::System::Single DecalWidth; // 0x30
+		::System::Single PreviewDecalCD; // 0x34
+		::System::Single DepthBufferSampleRadiusRatio; // 0x38
+		::System::Single FadeOutAnimeSpeed; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHDECALCONTAINER_PHOTOGRAPHDECALCONTAINERINITPARAM_CTOR_OFFSET))(this);

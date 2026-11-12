@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEntityPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGGLHEIALPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB695B00)
-#define LGGLHEIALPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB695B30)
+#define LGGLHEIALPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2CBE0)
+#define LGGLHEIALPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF2CC10)
 
-inline static constexpr unsigned int LGGLHEIALPM_TypeDefinitionIndex = 58542;
+inline static constexpr unsigned int LGGLHEIALPM_TypeDefinitionIndex = 59807;
 
 	class LGGLHEIALPM
 	{

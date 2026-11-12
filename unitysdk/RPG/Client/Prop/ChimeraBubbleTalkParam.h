@@ -7,31 +7,32 @@ namespace RPG::GameCore { class ChimeraTalkContent; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xDC54B80)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xDC54B40)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xDC54B00)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_ISCHIMERA_OFFSET UNITYSDK_OFFSET(0xDC54B20)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_VOICEEVTSTR_OFFSET UNITYSDK_OFFSET(0xDC54B60)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xDC54B50)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xDC54B10)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_ISCHIMERA_OFFSET UNITYSDK_OFFSET(0xDC54B30)
-#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_VOICEEVTSTR_OFFSET UNITYSDK_OFFSET(0xDC54B70)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F19F0)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xE6F19B0)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xE6F1970)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_ISCHIMERA_OFFSET UNITYSDK_OFFSET(0xE6F1990)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_GET_VOICEEVTSTR_OFFSET UNITYSDK_OFFSET(0xE6F19D0)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_CHIMERAID_OFFSET UNITYSDK_OFFSET(0xE6F19C0)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_DIRECTION_OFFSET UNITYSDK_OFFSET(0xE6F1980)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_ISCHIMERA_OFFSET UNITYSDK_OFFSET(0xE6F19A0)
+#define RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_SET_VOICEEVTSTR_OFFSET UNITYSDK_OFFSET(0xE6F19E0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBubbleTalkParam_TypeDefinitionIndex = 78405;
+	inline static constexpr unsigned int ChimeraBubbleTalkParam_TypeDefinitionIndex = 81140;
 
 	class ChimeraBubbleTalkParam : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* AttachPoint; // 0x10
-		::System::String* _VoiceEvtStr_k__BackingField; // 0x18
-		::System::String* IconPath; // 0x20
-		::RPG::Client::TextID Content; // 0x28
-		::System::Single ShowTime; // 0x38
-		::System::UInt32 _ChimeraID_k__BackingField; // 0x3C
-		::RPG::GameCore::ChimeraTalkPopDirection _Direction_k__BackingField; // 0x40
-		::System::Boolean _IsChimera_k__BackingField; // 0x44
+		::System::String* IconPath; // 0x18
+		::System::String* _VoiceEvtStr_k__BackingField; // 0x20
+		::RPG::GameCore::ChimeraTalkPopDirection _Direction_k__BackingField; // 0x28
+		::System::Boolean _IsChimera_k__BackingField; // 0x2C
+		::System::Byte _padding0[0x3];
+		::RPG::Client::TextID Content; // 0x30
+		::System::Single ShowTime; // 0x40
+		::System::UInt32 _ChimeraID_k__BackingField; // 0x44
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::RPG::GameCore::ChimeraTalkContent* a2, ::System::Single a3, ::RPG::GameCore::ChimeraTalkPopDirection a4, ::System::UInt32 a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::RPG::GameCore::ChimeraTalkContent*, ::System::Single, ::RPG::GameCore::ChimeraTalkPopDirection, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_CHIMERABUBBLETALKPARAM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

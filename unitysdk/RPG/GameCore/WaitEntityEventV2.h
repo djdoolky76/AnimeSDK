@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitEntityEventV2; }
 
-#define RPG_GAMECORE_WAITENTITYEVENTV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC97090)
-#define RPG_GAMECORE_WAITENTITYEVENTV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC970A0)
-#define RPG_GAMECORE_WAITENTITYEVENTV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC97050)
+#define RPG_GAMECORE_WAITENTITYEVENTV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA9770)
+#define RPG_GAMECORE_WAITENTITYEVENTV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEA9780)
+#define RPG_GAMECORE_WAITENTITYEVENTV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEA9730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitEntityEventV2_TypeDefinitionIndex = 20722;
+	inline static constexpr unsigned int WaitEntityEventV2_TypeDefinitionIndex = 21059;
 
 	class WaitEntityEventV2 : public ::RPG::GameCore::AdvWaitingEventBase
 	{

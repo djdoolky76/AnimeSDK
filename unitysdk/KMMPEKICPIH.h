@@ -6,9 +6,9 @@ class GLLIPCNMDBO;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KMMPEKICPIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909810)
+#define KMMPEKICPIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB5A40)
 
-inline static constexpr unsigned int KMMPEKICPIH_TypeDefinitionIndex = 43672;
+inline static constexpr unsigned int KMMPEKICPIH_TypeDefinitionIndex = 44655;
 
 	class KMMPEKICPIH : public ::System::Object
 	{

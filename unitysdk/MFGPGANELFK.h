@@ -5,29 +5,29 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixVec2.h"
 
-#define MFGPGANELFK_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8FB260)
-#define MFGPGANELFK_COHHMPBOLGM_OFFSET UNITYSDK_OFFSET(0xB8FA820)
-#define MFGPGANELFK_FNILNONEOGJ_OFFSET UNITYSDK_OFFSET(0xB8FA7A0)
-#define MFGPGANELFK_PJIMBHJBADK_OFFSET UNITYSDK_OFFSET(0xB8FA950)
+#define MFGPGANELFK_CCTOR_OFFSET UNITYSDK_OFFSET(0xC1AD4F0)
+#define MFGPGANELFK_COHHMPBOLGM_OFFSET UNITYSDK_OFFSET(0xC1ACAB0)
+#define MFGPGANELFK_FNILNONEOGJ_OFFSET UNITYSDK_OFFSET(0xC1ACA30)
+#define MFGPGANELFK_PJIMBHJBADK_OFFSET UNITYSDK_OFFSET(0xC1ACBE0)
 
-inline static constexpr unsigned int MFGPGANELFK_TypeDefinitionIndex = 54228;
+inline static constexpr unsigned int MFGPGANELFK_TypeDefinitionIndex = 55392;
 
 	class MFGPGANELFK : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::FixPoint* StaticGet_LMOMOFMGJCA()
 		{
-			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "MFGPGANELFK")->GetStaticField(0x3430);
+			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "MFGPGANELFK")->GetStaticField(0xCD0);
 		}
 
 		static ::RPG::GameCore::IVec2* StaticGet_ENDKNALEOMC()
 		{
-			return (::RPG::GameCore::IVec2*)UnitySDK::FromName("", "MFGPGANELFK")->GetStaticField(0x3438);
+			return (::RPG::GameCore::IVec2*)UnitySDK::FromName("", "MFGPGANELFK")->GetStaticField(0xCD8);
 		}
 
 		static ::RPG::GameCore::FixPoint* StaticGet_LMFODKEBNME()
 		{
-			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "MFGPGANELFK")->GetStaticField(0x3440);
+			return (::RPG::GameCore::FixPoint*)UnitySDK::FromName("", "MFGPGANELFK")->GetStaticField(0xCE0);
 		}
 
 		static ::System::Void _cctor()

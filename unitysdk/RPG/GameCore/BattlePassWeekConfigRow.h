@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattlePassWeekConfigRow; }
 
-#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4642E0)
-#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4641A0)
+#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6741A0)
+#define RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E674060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattlePassWeekConfigRow_TypeDefinitionIndex = 12875;
+	inline static constexpr unsigned int BattlePassWeekConfigRow_TypeDefinitionIndex = 12947;
 
 	class BattlePassWeekConfigRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 BPLevelExp; // 0x10
-		::System::UInt32 BPWeekMaxExp; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ID; // 0x14
+		::System::UInt32 BPWeekMaxExp; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLEPASSWEEKCONFIGROW_CTOR_OFFSET))(this);

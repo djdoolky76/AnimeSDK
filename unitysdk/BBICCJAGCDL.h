@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define BBICCJAGCDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15E8D410)
-#define BBICCJAGCDL_FGHLAGJJMKC_OFFSET UNITYSDK_OFFSET(0x15E8D420)
+#define BBICCJAGCDL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D122F0)
+#define BBICCJAGCDL_FGHLAGJJMKC_OFFSET UNITYSDK_OFFSET(0x16D12300)
 
-inline static constexpr unsigned int BBICCJAGCDL_TypeDefinitionIndex = 59057;
+inline static constexpr unsigned int BBICCJAGCDL_TypeDefinitionIndex = 60332;
 
 	class BBICCJAGCDL
 	{

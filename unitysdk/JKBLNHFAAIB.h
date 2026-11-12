@@ -7,24 +7,24 @@ class DMGLFMNEJGL;
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define JKBLNHFAAIB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2128E0)
-#define JKBLNHFAAIB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2128D0)
-#define JKBLNHFAAIB_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xB2123B0)
-#define JKBLNHFAAIB_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB212340)
+#define JKBLNHFAAIB_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA3A210)
+#define JKBLNHFAAIB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3A200)
+#define JKBLNHFAAIB_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xBA39CE0)
+#define JKBLNHFAAIB_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xBA39C70)
 
-inline static constexpr unsigned int JKBLNHFAAIB_TypeDefinitionIndex = 73358;
+inline static constexpr unsigned int JKBLNHFAAIB_TypeDefinitionIndex = 75475;
 
 	class JKBLNHFAAIB : public ::System::Object
 	{
 	public:
-		static ::System::Text::RegularExpressions::Regex** StaticGet_JPLECFMABNF()
-		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "JKBLNHFAAIB")->GetStaticField(0x16690);
-		}
-
 		static ::System::Text::RegularExpressions::Regex** StaticGet_ELEDGDBNMNL()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "JKBLNHFAAIB")->GetStaticField(0x16698);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "JKBLNHFAAIB")->GetStaticField(0x10ED0);
+		}
+
+		static ::System::Text::RegularExpressions::Regex** StaticGet_JPLECFMABNF()
+		{
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "JKBLNHFAAIB")->GetStaticField(0x10ED8);
 		}
 
 		::System::Void _ctor()

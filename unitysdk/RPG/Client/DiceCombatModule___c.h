@@ -5,31 +5,31 @@ namespace RPG::Client { class QuestData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_DICECOMBATMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCC5DF0)
-#define RPG_CLIENT_DICECOMBATMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC5E30)
-#define RPG_CLIENT_DICECOMBATMODULE___C__GETV2SCOREREWARDS_B__35_0_OFFSET UNITYSDK_OFFSET(0xCCC5E40)
-#define RPG_CLIENT_DICECOMBATMODULE___C__GETV2SCOREREWARDS_B__35_1_OFFSET UNITYSDK_OFFSET(0xCCC5E50)
+#define RPG_CLIENT_DICECOMBATMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD687250)
+#define RPG_CLIENT_DICECOMBATMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD687290)
+#define RPG_CLIENT_DICECOMBATMODULE___C__GETV2SCOREREWARDS_B__35_0_OFFSET UNITYSDK_OFFSET(0xD6872A0)
+#define RPG_CLIENT_DICECOMBATMODULE___C__GETV2SCOREREWARDS_B__35_1_OFFSET UNITYSDK_OFFSET(0xD6872B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DiceCombatModule___c_TypeDefinitionIndex = 63558;
+	inline static constexpr unsigned int DiceCombatModule___c_TypeDefinitionIndex = 65000;
 
 	class DiceCombatModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::UInt32>** StaticGet___9__35_1()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2E3C0);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x29990);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2E3C8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x29998);
 		}
 
 		static ::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>** StaticGet___9__35_0()
 		{
-			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2E3D0);
+			return (::System::Func_2<::RPG::Client::QuestData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x299A0);
 		}
 
 		static ::System::Void _cctor()

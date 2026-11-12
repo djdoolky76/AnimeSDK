@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetCharacterAnimFollow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GGBIAAPMJMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A01CB0)
-#define GGBIAAPMJMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A01CC0)
-#define GGBIAAPMJMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A01D00)
-#define GGBIAAPMJMP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A02040)
-#define GGBIAAPMJMP_TICK_OFFSET UNITYSDK_OFFSET(0x15A02090)
+#define GGBIAAPMJMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1693C230)
+#define GGBIAAPMJMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1693C240)
+#define GGBIAAPMJMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1693C280)
+#define GGBIAAPMJMP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1693C5C0)
+#define GGBIAAPMJMP_TICK_OFFSET UNITYSDK_OFFSET(0x1693C610)
 
-inline static constexpr unsigned int GGBIAAPMJMP_TypeDefinitionIndex = 55367;
+inline static constexpr unsigned int GGBIAAPMJMP_TypeDefinitionIndex = 56550;
 
 	class GGBIAAPMJMP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetCharacterAnimFollow* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetCharacterAnimFollow* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetCharacterAnimFollow* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetCharacterAnimFollow*))((::PBYTE)hIl2Cpp + GGBIAAPMJMP_CTOR_OFFSET))(this, a1, a2);

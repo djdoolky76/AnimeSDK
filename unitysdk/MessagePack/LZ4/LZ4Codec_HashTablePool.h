@@ -2,24 +2,24 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUINTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x1BBAF180)
-#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUSHORTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x1BBAE230)
+#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUINTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x1CD37FF0)
+#define MESSAGEPACK_LZ4_LZ4CODEC_HASHTABLEPOOL_GETUSHORTHASHTABLEPOOL_OFFSET UNITYSDK_OFFSET(0x1CD370B0)
 
 namespace MessagePack::LZ4
 {
-	inline static constexpr unsigned int LZ4Codec_HashTablePool_TypeDefinitionIndex = 7280;
+	inline static constexpr unsigned int LZ4Codec_HashTablePool_TypeDefinitionIndex = 7291;
 
 	class LZ4Codec_HashTablePool : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::UInt32>** StaticGet_uintPool()
-		{
-			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("MessagePack.LZ4", "HashTablePool")->GetStaticField(0x0);
-		}
-
 		static ::Il2CppArray<::System::UInt16>** StaticGet_ushortPool()
 		{
 			return (::Il2CppArray<::System::UInt16>**)UnitySDK::FromName("MessagePack.LZ4", "HashTablePool")->GetStaticField(0x0);
+		}
+
+		static ::Il2CppArray<::System::UInt32>** StaticGet_uintPool()
+		{
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("MessagePack.LZ4", "HashTablePool")->GetStaticField(0x0);
 		}
 
 		static ::Il2CppArray<::System::UInt16>* GetUShortHashTablePool()

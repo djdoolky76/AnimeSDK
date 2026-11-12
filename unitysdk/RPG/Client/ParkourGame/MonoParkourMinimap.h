@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA76AA0)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURMINIMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xE4CC040)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourMinimap_TypeDefinitionIndex = 74152;
+	inline static constexpr unsigned int MonoParkourMinimap_TypeDefinitionIndex = 76300;
 
 	class MonoParkourMinimap : public ::UnityEngine::MonoBehaviour
 	{

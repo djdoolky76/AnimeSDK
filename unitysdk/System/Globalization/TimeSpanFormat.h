@@ -8,11 +8,11 @@ namespace System { class IFormatProvider; }
 namespace System { class String; }
 namespace System::Globalization { class DateTimeFormatInfo; }
 
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C23D2D0)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x1C23C0B0)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATSTANDARD_OFFSET UNITYSDK_OFFSET(0x1C23BB20)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x1C23B8F0)
-#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1C23B8C0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3C3C10)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATCUSTOMIZED_OFFSET UNITYSDK_OFFSET(0x1D3C29F0)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMATSTANDARD_OFFSET UNITYSDK_OFFSET(0x1D3C2460)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_FORMAT_OFFSET UNITYSDK_OFFSET(0x1D3C2230)
+#define SYSTEM_GLOBALIZATION_TIMESPANFORMAT_INTTOSTRING_OFFSET UNITYSDK_OFFSET(0x1D3C2200)
 
 namespace System::Globalization
 {
@@ -21,14 +21,14 @@ namespace System::Globalization
 	class TimeSpanFormat : public ::System::Object
 	{
 	public:
-		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_NegativeInvariantFormatLiterals()
-		{
-			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)UnitySDK::FromName("System.Globalization", "TimeSpanFormat")->GetStaticField(0x13390);
-		}
-
 		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_PositiveInvariantFormatLiterals()
 		{
-			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)UnitySDK::FromName("System.Globalization", "TimeSpanFormat")->GetStaticField(0x133B8);
+			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)UnitySDK::FromName("System.Globalization", "TimeSpanFormat")->GetStaticField(0x16120);
+		}
+
+		static ::System::Globalization::TimeSpanFormat_FormatLiterals* StaticGet_NegativeInvariantFormatLiterals()
+		{
+			return (::System::Globalization::TimeSpanFormat_FormatLiterals*)UnitySDK::FromName("System.Globalization", "TimeSpanFormat")->GetStaticField(0x16148);
 		}
 
 		static ::System::Void _cctor()

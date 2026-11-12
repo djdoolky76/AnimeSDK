@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ReviveCharacter; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REVIVECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9997C0)
-#define RPG_GAMECORE_REVIVECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9998C0)
-#define RPG_GAMECORE_REVIVECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D999690)
+#define RPG_GAMECORE_REVIVECHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE2830)
+#define RPG_GAMECORE_REVIVECHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBE2930)
+#define RPG_GAMECORE_REVIVECHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBE2700)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReviveCharacter_TypeDefinitionIndex = 22718;
+	inline static constexpr unsigned int ReviveCharacter_TypeDefinitionIndex = 23140;
 
 	class ReviveCharacter : public ::RPG::GameCore::TaskConfig
 	{

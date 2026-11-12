@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasInsertBattlePerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFBIKJMPGOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C696B0)
-#define HFBIKJMPGOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C696E0)
+#define HFBIKJMPGOL_CTOR_OFFSET UNITYSDK_OFFSET(0x16BADCC0)
+#define HFBIKJMPGOL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16BADCF0)
 
-inline static constexpr unsigned int HFBIKJMPGOL_TypeDefinitionIndex = 54616;
+inline static constexpr unsigned int HFBIKJMPGOL_TypeDefinitionIndex = 55782;
 
 	class HFBIKJMPGOL
 	{

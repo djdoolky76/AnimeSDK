@@ -4,12 +4,12 @@
 namespace SRDebugger::UI::Other { class SRTab; }
 namespace SRDebugger::UI::Other { class SRTabController; }
 
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED64A60)
-#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__DISPLAYCLASS18_0__ADDTAB_B__0_OFFSET UNITYSDK_OFFSET(0x1ED64DC0)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x20014580)
+#define SRDEBUGGER_UI_OTHER_SRTABCONTROLLER___C__DISPLAYCLASS18_0__ADDTAB_B__0_OFFSET UNITYSDK_OFFSET(0x200148E0)
 
 namespace SRDebugger::UI::Other
 {
-	inline static constexpr unsigned int SRTabController___c__DisplayClass18_0_TypeDefinitionIndex = 38014;
+	inline static constexpr unsigned int SRTabController___c__DisplayClass18_0_TypeDefinitionIndex = 38943;
 
 	class SRTabController___c__DisplayClass18_0 : public ::System::Object
 	{

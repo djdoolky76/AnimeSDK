@@ -4,18 +4,18 @@
 class GEGLJDELBHA;
 namespace System { class Object; }
 
-#define GEGLJDELBHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4591E0)
-#define GEGLJDELBHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E459210)
-#define GEGLJDELBHA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E459220)
+#define GEGLJDELBHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F746FD0)
+#define GEGLJDELBHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F747000)
+#define GEGLJDELBHA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F747010)
 
-inline static constexpr unsigned int GEGLJDELBHA___c_TypeDefinitionIndex = 32371;
+inline static constexpr unsigned int GEGLJDELBHA___c_TypeDefinitionIndex = 33284;
 
 	class GEGLJDELBHA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12630);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58BB0);
 		}
 
 		static ::System::Void _cctor()

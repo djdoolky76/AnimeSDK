@@ -1,0 +1,263 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+class DFJCLNAMIBO;
+class EJJDGONFDOC;
+class LPHINGPIEAJ;
+namespace RPG::Client::LittleGame::ComicDessert { class ComicDessertOrderDishCategoryViewModel; }
+namespace RPG::Client::LittleGame::ComicDessert { class ViewModelEventHandler; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_ADD_ONREFRESH_OFFSET UNITYSDK_OFFSET(0xDE89A00)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_ADD_ONWRONGSERVE_OFFSET UNITYSDK_OFFSET(0xDE89AC0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE8AE90)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDE7E970)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ACTIVEGRIDINDEX_OFFSET UNITYSDK_OFFSET(0xDE89CF0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_CATEGORIES_OFFSET UNITYSDK_OFFSET(0xDE89CD0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_CUSTOMERCREATIONINDEX_OFFSET UNITYSDK_OFFSET(0xDE89B80)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_HASPATIENCEREDUCE_OFFSET UNITYSDK_OFFSET(0xDE89C40)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_HASWORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xDE89D20)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ISANGRY_OFFSET UNITYSDK_OFFSET(0xDE89BB0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ISHORIZONTALLAYOUT_OFFSET UNITYSDK_OFFSET(0xDE89D10)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xDE89B90)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_MAXPATIENCE_OFFSET UNITYSDK_OFFSET(0xDE89C20)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ORIGINALDISHICONPATHS_OFFSET UNITYSDK_OFFSET(0xDE89BE0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ORIGINALDISHIDS_OFFSET UNITYSDK_OFFSET(0xDE89BD0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_PATIENCE_OFFSET UNITYSDK_OFFSET(0xDE89C00)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_REMAININGDISHIDS_OFFSET UNITYSDK_OFFSET(0xDE89BF0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_SLOTINDEX_OFFSET UNITYSDK_OFFSET(0xDE89E50)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_USABLEPATIENCERATIO_OFFSET UNITYSDK_OFFSET(0xDE89C50)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_WORLDPOSITION_OFFSET UNITYSDK_OFFSET(0xDE89DA0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_ISDISHSERVED_OFFSET UNITYSDK_OFFSET(0xDE89E60)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_PULSEWRONGSERVE_OFFSET UNITYSDK_OFFSET(0xDE80B20)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_REMOVE_ONREFRESH_OFFSET UNITYSDK_OFFSET(0xDE89A60)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_REMOVE_ONWRONGSERVE_OFFSET UNITYSDK_OFFSET(0xDE89B20)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SETSELECTED_OFFSET UNITYSDK_OFFSET(0xDE80980)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_ACTIVEGRIDINDEX_OFFSET UNITYSDK_OFFSET(0xDE89D00)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_CATEGORIES_OFFSET UNITYSDK_OFFSET(0xDE89CE0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_ISANGRY_OFFSET UNITYSDK_OFFSET(0xDE89BC0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xDE89BA0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_MAXPATIENCE_OFFSET UNITYSDK_OFFSET(0xDE89C30)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_PATIENCE_OFFSET UNITYSDK_OFFSET(0xDE89C10)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_UPDATE_OFFSET UNITYSDK_OFFSET(0xDE7EC80)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__COUNTSERVED_OFFSET UNITYSDK_OFFSET(0xDE8AC10)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__FILLCATEGORY_OFFSET UNITYSDK_OFFSET(0xDE8A8C0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__REFRESHCATEGORIES_OFFSET UNITYSDK_OFFSET(0xDE8A290)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__SYNCREMAININGDISHIDS_OFFSET UNITYSDK_OFFSET(0xDE8A180)
+
+namespace RPG::Client::LittleGame::ComicDessert
+{
+	inline static constexpr unsigned int ComicDessertOrderBubbleViewModel_TypeDefinitionIndex = 80128;
+
+	class ComicDessertOrderBubbleViewModel : public ::System::Object
+	{
+	public:
+		::EJJDGONFDOC* _ConfigService; // 0x10
+		::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* OnRefresh; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _RemainingDishIDs_k__BackingField; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ComicDessert::ComicDessertOrderDishCategoryViewModel*>* _Categories_k__BackingField; // 0x28
+		::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* OnWrongServe; // 0x30
+		::System::Collections::Generic::List_1<::System::UInt32>* _OriginalDishIDs_k__BackingField; // 0x38
+		::System::Collections::Generic::List_1<::System::String*>* _OriginalDishIconPaths_k__BackingField; // 0x40
+		::DFJCLNAMIBO* _Classifier; // 0x48
+		::System::Single _Patience_k__BackingField; // 0x50
+		::System::Boolean _IsAngry_k__BackingField; // 0x54
+		::System::Boolean _IsSelected_k__BackingField; // 0x55
+		::System::Byte _padding0[0x2];
+		::System::Single _ActualPatience; // 0x58
+		::System::Int32 _SlotIndex; // 0x5C
+		::System::Single _MaxPatience_k__BackingField; // 0x60
+		::System::Int32 _CustomerCreationIndex_k__BackingField; // 0x64
+		::System::UInt32 _BubbleLayoutType; // 0x68
+		::System::Int32 _ActiveGridIndex_k__BackingField; // 0x6C
+		static ::DFJCLNAMIBO** StaticGet__HorizontalClassifier()
+		{
+			return (::DFJCLNAMIBO**)UnitySDK::FromName("RPG.Client.LittleGame.ComicDessert", "ComicDessertOrderBubbleViewModel")->GetStaticField(0x399C0);
+		}
+
+		// static const ::System::Object MaxCategoryCount; // 0x0
+		::System::Void _ctor(::LPHINGPIEAJ* a1, ::EJJDGONFDOC* a2, ::DFJCLNAMIBO* a3, ::System::Single a4)
+		{
+			return ((::System::Void(*)(::PVOID, ::LPHINGPIEAJ*, ::EJJDGONFDOC*, ::DFJCLNAMIBO*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3, a4);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_CCTOR_OFFSET))();
+		}
+
+		::System::Void add_OnRefresh(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_ADD_ONREFRESH_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnRefresh(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_REMOVE_ONREFRESH_OFFSET))(this, a1);
+		}
+
+		::System::Void add_OnWrongServe(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_ADD_ONWRONGSERVE_OFFSET))(this, a1);
+		}
+
+		::System::Void remove_OnWrongServe(::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ViewModelEventHandler*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_REMOVE_ONWRONGSERVE_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_CustomerCreationIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_CUSTOMERCREATIONINDEX_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsSelected()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ISSELECTED_OFFSET))(this);
+		}
+
+		::System::Void set_IsSelected(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_ISSELECTED_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsAngry()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ISANGRY_OFFSET))(this);
+		}
+
+		::System::Void set_IsAngry(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_ISANGRY_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_OriginalDishIDs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ORIGINALDISHIDS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::String*>* get_OriginalDishIconPaths()
+		{
+			return ((::System::Collections::Generic::List_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ORIGINALDISHICONPATHS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::UInt32>* get_RemainingDishIDs()
+		{
+			return ((::System::Collections::Generic::List_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_REMAININGDISHIDS_OFFSET))(this);
+		}
+
+		::System::Single get_Patience()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_PATIENCE_OFFSET))(this);
+		}
+
+		::System::Void set_Patience(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_PATIENCE_OFFSET))(this, a1);
+		}
+
+		::System::Single get_MaxPatience()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_MAXPATIENCE_OFFSET))(this);
+		}
+
+		::System::Void set_MaxPatience(::System::Single a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_MAXPATIENCE_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_HasPatienceReduce()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_HASPATIENCEREDUCE_OFFSET))(this);
+		}
+
+		::System::Single get_UsablePatienceRatio()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_USABLEPATIENCERATIO_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ComicDessert::ComicDessertOrderDishCategoryViewModel*>* get_Categories()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ComicDessert::ComicDessertOrderDishCategoryViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_CATEGORIES_OFFSET))(this);
+		}
+
+		::System::Void set_Categories(::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ComicDessert::ComicDessertOrderDishCategoryViewModel*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ComicDessert::ComicDessertOrderDishCategoryViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_CATEGORIES_OFFSET))(this, a1);
+		}
+
+		::System::Int32 get_ActiveGridIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ACTIVEGRIDINDEX_OFFSET))(this);
+		}
+
+		::System::Void set_ActiveGridIndex(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SET_ACTIVEGRIDINDEX_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_IsHorizontalLayout()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_ISHORIZONTALLAYOUT_OFFSET))(this);
+		}
+
+		::System::Boolean get_HasWorldPosition()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_HASWORLDPOSITION_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 get_WorldPosition()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_WORLDPOSITION_OFFSET))(this);
+		}
+
+		::System::Int32 get_SlotIndex()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_GET_SLOTINDEX_OFFSET))(this);
+		}
+
+		::System::Boolean IsDishServed(::System::Int32 a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_ISDISHSERVED_OFFSET))(this, a1);
+		}
+
+		::System::Void Update(::LPHINGPIEAJ* a1, ::System::Single a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::LPHINGPIEAJ*, ::System::Single))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_UPDATE_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void SetSelected(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_SETSELECTED_OFFSET))(this, a1);
+		}
+
+		::System::Void PulseWrongServe()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL_PULSEWRONGSERVE_OFFSET))(this);
+		}
+
+		::System::Void _SyncRemainingDishIDs(::System::Collections::Generic::List_1<::System::UInt32>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__SYNCREMAININGDISHIDS_OFFSET))(this, a1);
+		}
+
+		::System::Void _RefreshCategories()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__REFRESHCATEGORIES_OFFSET))(this);
+		}
+
+		::System::Void _FillCategory(::RPG::Client::LittleGame::ComicDessert::ComicDessertOrderDishCategoryViewModel* a1, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ComicDessertOrderDishCategoryViewModel*, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Int32>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__FILLCATEGORY_OFFSET))(this, a1, a2);
+		}
+
+		::System::Int32 _CountServed(::System::UInt32 a1)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTORDERBUBBLEVIEWMODEL__COUNTSERVED_OFFSET))(this, a1);
+		}
+
+	};
+}

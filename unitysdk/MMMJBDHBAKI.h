@@ -4,10 +4,10 @@
 class LMFOOOLDECA;
 class OMNJCDDMLHI;
 
-#define MMMJBDHBAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D9E30)
-#define MMMJBDHBAKI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB9D9E40)
+#define MMMJBDHBAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xC296550)
+#define MMMJBDHBAKI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC296560)
 
-inline static constexpr unsigned int MMMJBDHBAKI_TypeDefinitionIndex = 77946;
+inline static constexpr unsigned int MMMJBDHBAKI_TypeDefinitionIndex = 80681;
 
 	class MMMJBDHBAKI : public ::System::Object
 	{

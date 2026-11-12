@@ -5,19 +5,18 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ILFGEKKBEHI_CTOR_OFFSET UNITYSDK_OFFSET(0x164B02C0)
+#define ILFGEKKBEHI_CTOR_OFFSET UNITYSDK_OFFSET(0x17484910)
 
-inline static constexpr unsigned int ILFGEKKBEHI_TypeDefinitionIndex = 78942;
+inline static constexpr unsigned int ILFGEKKBEHI_TypeDefinitionIndex = 81718;
 
 	class ILFGEKKBEHI : public ::ENLNFBCDEIO
 	{
 	public:
-		::RPG::Client::Prop::LogisticsRobotState MEPFOEEGBEA; // 0x10
-		::System::Boolean HDFBNKLCAMN; // 0x14
-		::System::Byte _padding0[0x3];
-		::UnityEngine::Quaternion CCAHBOJLPAC; // 0x18
-		::System::Int32 KCKMILLHIIA; // 0x28
-		::UnityEngine::Vector3 LCGNINJHEMI; // 0x2C
+		::UnityEngine::Vector3 LCGNINJHEMI; // 0x10
+		::RPG::Client::Prop::LogisticsRobotState MEPFOEEGBEA; // 0x1C
+		::System::Int32 KCKMILLHIIA; // 0x20
+		::UnityEngine::Quaternion CCAHBOJLPAC; // 0x24
+		::System::Boolean HDFBNKLCAMN; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ILFGEKKBEHI_CTOR_OFFSET))(this);

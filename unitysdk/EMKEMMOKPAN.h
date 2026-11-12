@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/OMMDKIBILJE.h"
 
-#define EMKEMMOKPAN_CTOR_OFFSET UNITYSDK_OFFSET(0x15546260)
+#define EMKEMMOKPAN_CTOR_OFFSET UNITYSDK_OFFSET(0x164929F0)
 
-inline static constexpr unsigned int EMKEMMOKPAN_TypeDefinitionIndex = 53547;
+inline static constexpr unsigned int EMKEMMOKPAN_TypeDefinitionIndex = 54710;
 
 	class EMKEMMOKPAN : public ::OMMDKIBILJE
 	{

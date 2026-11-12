@@ -4,18 +4,18 @@
 class MAMINBCLDKO;
 namespace System { class Object; }
 
-#define MAMINBCLDKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9DC870)
-#define MAMINBCLDKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9DC8B0)
-#define MAMINBCLDKO___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E9DC8C0)
+#define MAMINBCLDKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD04DB0)
+#define MAMINBCLDKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD04DF0)
+#define MAMINBCLDKO___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1FD04E00)
 
-inline static constexpr unsigned int MAMINBCLDKO___c_TypeDefinitionIndex = 30454;
+inline static constexpr unsigned int MAMINBCLDKO___c_TypeDefinitionIndex = 31360;
 
 	class MAMINBCLDKO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42D10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B740);
 		}
 
 		static ::System::Void _cctor()

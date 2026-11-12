@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ChangeChallengeBuff; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPMJFKNPBKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CA720)
-#define JPMJFKNPBKJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB2CA730)
-#define JPMJFKNPBKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2CA770)
-#define JPMJFKNPBKJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2CA850)
-#define JPMJFKNPBKJ_TICK_OFFSET UNITYSDK_OFFSET(0xB2CA8A0)
+#define JPMJFKNPBKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4D940)
+#define JPMJFKNPBKJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB4D950)
+#define JPMJFKNPBKJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB4D990)
+#define JPMJFKNPBKJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB4DA70)
+#define JPMJFKNPBKJ_TICK_OFFSET UNITYSDK_OFFSET(0xBB4DAC0)
 
-inline static constexpr unsigned int JPMJFKNPBKJ_TypeDefinitionIndex = 52637;
+inline static constexpr unsigned int JPMJFKNPBKJ_TypeDefinitionIndex = 53744;
 
 	class JPMJFKNPBKJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ChangeChallengeBuff* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ChangeChallengeBuff* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ChangeChallengeBuff* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ChangeChallengeBuff*))((::PBYTE)hIl2Cpp + JPMJFKNPBKJ_CTOR_OFFSET))(this, a1, a2);

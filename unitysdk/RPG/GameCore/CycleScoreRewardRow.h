@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CycleScoreRewardRow; }
 
-#define RPG_GAMECORE_CYCLESCOREREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ECE20)
-#define RPG_GAMECORE_CYCLESCOREREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5ECCE0)
+#define RPG_GAMECORE_CYCLESCOREREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FEE20)
+#define RPG_GAMECORE_CYCLESCOREREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7FECE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CycleScoreRewardRow_TypeDefinitionIndex = 13111;
+	inline static constexpr unsigned int CycleScoreRewardRow_TypeDefinitionIndex = 13179;
 
 	class CycleScoreRewardRow : public ::System::Object
 	{

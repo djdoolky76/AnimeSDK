@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChallengePeakTarget; }
 
-#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC99DE40)
-#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS57_0__GETTARGETINDEXBYID_B__0_OFFSET UNITYSDK_OFFSET(0xC99EC60)
+#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3038B0)
+#define RPG_CLIENT_CHALLENGEPEAK___C__DISPLAYCLASS57_0__GETTARGETINDEXBYID_B__0_OFFSET UNITYSDK_OFFSET(0xD304400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeak___c__DisplayClass57_0_TypeDefinitionIndex = 63154;
+	inline static constexpr unsigned int ChallengePeak___c__DisplayClass57_0_TypeDefinitionIndex = 64592;
 
 	class ChallengePeak___c__DisplayClass57_0 : public ::System::Object
 	{

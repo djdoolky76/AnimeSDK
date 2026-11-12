@@ -5,9 +5,9 @@
 class OIFBDLCGHPP_DLMDIKDBOFJ;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OIFBDLCGHPP_HNABIJCBHNO_OFFSET UNITYSDK_OFFSET(0x1C7CF120)
+#define OIFBDLCGHPP_HNABIJCBHNO_OFFSET UNITYSDK_OFFSET(0x1D9509E0)
 
-inline static constexpr unsigned int OIFBDLCGHPP_TypeDefinitionIndex = 37272;
+inline static constexpr unsigned int OIFBDLCGHPP_TypeDefinitionIndex = 38200;
 
 	class OIFBDLCGHPP : public ::System::Object
 	{

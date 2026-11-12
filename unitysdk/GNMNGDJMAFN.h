@@ -3,10 +3,10 @@
 class IPPBBDNNICM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNMNGDJMAFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1B380)
-#define GNMNGDJMAFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B1B3B0)
+#define GNMNGDJMAFN_CTOR_OFFSET UNITYSDK_OFFSET(0x16AA0AD0)
+#define GNMNGDJMAFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AA0B00)
 
-inline static constexpr unsigned int GNMNGDJMAFN_TypeDefinitionIndex = 53021;
+inline static constexpr unsigned int GNMNGDJMAFN_TypeDefinitionIndex = 54181;
 
 	class GNMNGDJMAFN
 	{

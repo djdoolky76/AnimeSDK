@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define JJAABNBJMEH_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1D037450)
+#define JJAABNBJMEH_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1E225600)
 
-inline static constexpr unsigned int JJAABNBJMEH_TypeDefinitionIndex = 10364;
+inline static constexpr unsigned int JJAABNBJMEH_TypeDefinitionIndex = 10374;
 
 	struct alignas(8) JJAABNBJMEH
 	{

@@ -7,23 +7,24 @@
 class PNDIOOHCBLB;
 namespace RPG::GameCore { class VCameraNoiseChange; }
 
-#define CJOJDEPDCBK_CLEAR_OFFSET UNITYSDK_OFFSET(0xD751320)
-#define CJOJDEPDCBK_CTOR_OFFSET UNITYSDK_OFFSET(0xD7513C0)
+#define CJOJDEPDCBK_CLEAR_OFFSET UNITYSDK_OFFSET(0xE08B160)
+#define CJOJDEPDCBK_CTOR_OFFSET UNITYSDK_OFFSET(0xE08B1F0)
 
-inline static constexpr unsigned int CJOJDEPDCBK_TypeDefinitionIndex = 69533;
+inline static constexpr unsigned int CJOJDEPDCBK_TypeDefinitionIndex = 71490;
 
 	class CJOJDEPDCBK : public ::System::Object
 	{
 	public:
-		::RPG::Client::CameraResultData LNGJLADJKKD; // 0x10
-		::PNDIOOHCBLB* GKFANPLKAJP; // 0xA8
-		::RPG::GameCore::VCameraNoiseChange* FNPOMHPFKAO; // 0xB0
-		::Cinemachine::CinemachineBlendDefinition MCOFPKAILOE; // 0xB8
-		::System::Single IEHPFADHJFD; // 0xC8
-		::Cinemachine::CinemachineVirtualCameraBase_BlendHint DBEIPBLOIPC; // 0xCC
-		::System::Single IFEPJHGNCOI; // 0xD0
-		::System::Single MHGCHGAMNJK; // 0xD4
-		::System::Boolean FKIFAEOAGLL; // 0xD8
+		::RPG::GameCore::VCameraNoiseChange* FNPOMHPFKAO; // 0x10
+		::Cinemachine::CinemachineBlendDefinition MCOFPKAILOE; // 0x18
+		::RPG::Client::CameraResultData LNGJLADJKKD; // 0x28
+		::PNDIOOHCBLB* GKFANPLKAJP; // 0xC0
+		::System::Boolean FKIFAEOAGLL; // 0xC8
+		::System::Byte _padding0[0x3];
+		::System::Single MHGCHGAMNJK; // 0xCC
+		::Cinemachine::CinemachineVirtualCameraBase_BlendHint DBEIPBLOIPC; // 0xD0
+		::System::Single IFEPJHGNCOI; // 0xD4
+		::System::Single IEHPFADHJFD; // 0xD8
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CJOJDEPDCBK_CTOR_OFFSET))(this);

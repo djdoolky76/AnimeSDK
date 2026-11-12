@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMSETPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F2C00)
-#define RPG_GAMECORE_ANIMSETPARAMETER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3F2C90)
-#define RPG_GAMECORE_ANIMSETPARAMETER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3F2B50)
+#define RPG_GAMECORE_ANIMSETPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E612E80)
+#define RPG_GAMECORE_ANIMSETPARAMETER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E612F10)
+#define RPG_GAMECORE_ANIMSETPARAMETER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E612DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimSetParameter_TypeDefinitionIndex = 20598;
+	inline static constexpr unsigned int AnimSetParameter_TypeDefinitionIndex = 20934;
 
 	class AnimSetParameter : public ::RPG::GameCore::TaskConfig
 	{

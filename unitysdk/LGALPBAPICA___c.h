@@ -4,18 +4,18 @@
 class LGALPBAPICA;
 namespace System { class Object; }
 
-#define LGALPBAPICA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E948E10)
-#define LGALPBAPICA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E948E40)
-#define LGALPBAPICA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E948E50)
+#define LGALPBAPICA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC68810)
+#define LGALPBAPICA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC68850)
+#define LGALPBAPICA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FC68860)
 
-inline static constexpr unsigned int LGALPBAPICA___c_TypeDefinitionIndex = 30520;
+inline static constexpr unsigned int LGALPBAPICA___c_TypeDefinitionIndex = 31426;
 
 	class LGALPBAPICA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D650);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31660);
 		}
 
 		static ::System::Void _cctor()

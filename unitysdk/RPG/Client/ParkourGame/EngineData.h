@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int EngineData_TypeDefinitionIndex = 74131;
+	inline static constexpr unsigned int EngineData_TypeDefinitionIndex = 76279;
 
 	struct alignas(4) EngineData
 	{

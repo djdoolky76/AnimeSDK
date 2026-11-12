@@ -8,20 +8,20 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace UnityEngine::Events { class UnityEventBase; }
 
-#define FLPBCEFLDGH_AKMGNEMGGMD_OFFSET UNITYSDK_OFFSET(0x1EC6C6C0)
-#define FLPBCEFLDGH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6CB90)
-#define FLPBCEFLDGH_GCIDMDHKMEC_OFFSET UNITYSDK_OFFSET(0x1EC6B870)
-#define FLPBCEFLDGH_JFPIDHPFDCD_OFFSET UNITYSDK_OFFSET(0x1EC6C0D0)
-#define FLPBCEFLDGH_JNBFOGKPGPC_OFFSET UNITYSDK_OFFSET(0x1EC6BDA0)
+#define FLPBCEFLDGH_AKMGNEMGGMD_OFFSET UNITYSDK_OFFSET(0x1FF1D0A0)
+#define FLPBCEFLDGH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF1D570)
+#define FLPBCEFLDGH_GCIDMDHKMEC_OFFSET UNITYSDK_OFFSET(0x1FF1C250)
+#define FLPBCEFLDGH_JFPIDHPFDCD_OFFSET UNITYSDK_OFFSET(0x1FF1CAB0)
+#define FLPBCEFLDGH_JNBFOGKPGPC_OFFSET UNITYSDK_OFFSET(0x1FF1C780)
 
-inline static constexpr unsigned int FLPBCEFLDGH_TypeDefinitionIndex = 44076;
+inline static constexpr unsigned int FLPBCEFLDGH_TypeDefinitionIndex = 45151;
 
 	class FLPBCEFLDGH : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Type*>** StaticGet_KLABJMFDCCP()
 		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("", "FLPBCEFLDGH")->GetStaticField(0x4AFD0);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("", "FLPBCEFLDGH")->GetStaticField(0x62050);
 		}
 
 		static ::System::Void _cctor()

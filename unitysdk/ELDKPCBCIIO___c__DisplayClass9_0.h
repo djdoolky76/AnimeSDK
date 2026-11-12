@@ -4,16 +4,16 @@
 class ELDKPCBCIIO;
 namespace System { class Action; }
 
-#define ELDKPCBCIIO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1551DEA0)
-#define ELDKPCBCIIO___C__DISPLAYCLASS9_0___CREATEUIMENUBGMEXITCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1551DFC0)
+#define ELDKPCBCIIO___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16466300)
+#define ELDKPCBCIIO___C__DISPLAYCLASS9_0___CREATEUIMENUBGMEXITCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x16466420)
 
-inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass9_0_TypeDefinitionIndex = 80624;
+inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass9_0_TypeDefinitionIndex = 83404;
 
 	class ELDKPCBCIIO___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::System::Action* onExit; // 0x10
-		::ELDKPCBCIIO* __4__this; // 0x18
+		::ELDKPCBCIIO* __4__this; // 0x10
+		::System::Action* onExit; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ELDKPCBCIIO___C__DISPLAYCLASS9_0_CTOR_OFFSET))(this);

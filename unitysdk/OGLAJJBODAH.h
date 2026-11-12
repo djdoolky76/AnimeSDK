@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int OGLAJJBODAH_TypeDefinitionIndex = 73955;
+inline static constexpr unsigned int OGLAJJBODAH_TypeDefinitionIndex = 76091;
 
 	struct alignas(4) OGLAJJBODAH
 	{

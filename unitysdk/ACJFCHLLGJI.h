@@ -4,11 +4,11 @@ namespace RPG::GameCore { class OpenFarmElement; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define ACJFCHLLGJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB123420)
-#define ACJFCHLLGJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB123470)
-#define ACJFCHLLGJI__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xB123820)
+#define ACJFCHLLGJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB789700)
+#define ACJFCHLLGJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB789750)
+#define ACJFCHLLGJI__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xB789B00)
 
-inline static constexpr unsigned int ACJFCHLLGJI_TypeDefinitionIndex = 58240;
+inline static constexpr unsigned int ACJFCHLLGJI_TypeDefinitionIndex = 59496;
 
 	class ACJFCHLLGJI
 	{

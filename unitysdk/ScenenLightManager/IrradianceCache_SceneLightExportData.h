@@ -4,12 +4,12 @@
 namespace ScenenLightManager { class BaseComponentExportData; }
 namespace ScenenLightManager { class IrradianceCache_ExportData; }
 
-#define SCENENLIGHTMANAGER_IRRADIANCECACHE_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE963E20)
-#define SCENENLIGHTMANAGER_IRRADIANCECACHE_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xE963E10)
+#define SCENENLIGHTMANAGER_IRRADIANCECACHE_SCENELIGHTEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF482670)
+#define SCENENLIGHTMANAGER_IRRADIANCECACHE_SCENELIGHTEXPORTDATA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xF482660)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int IrradianceCache_SceneLightExportData_TypeDefinitionIndex = 49063;
+	inline static constexpr unsigned int IrradianceCache_SceneLightExportData_TypeDefinitionIndex = 50139;
 
 	class IrradianceCache_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{

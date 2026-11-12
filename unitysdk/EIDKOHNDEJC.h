@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define EIDKOHNDEJC_CTOR_OFFSET UNITYSDK_OFFSET(0x154BF330)
+#define EIDKOHNDEJC_CTOR_OFFSET UNITYSDK_OFFSET(0x163FDCC0)
 
-inline static constexpr unsigned int EIDKOHNDEJC_TypeDefinitionIndex = 48697;
+inline static constexpr unsigned int EIDKOHNDEJC_TypeDefinitionIndex = 49743;
 
 	class EIDKOHNDEJC : public ::UnityEngine::Playables::PlayableBehaviour
 	{

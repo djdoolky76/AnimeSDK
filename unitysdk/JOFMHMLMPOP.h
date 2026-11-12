@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JOFMHMLMPOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7088B0)
+#define JOFMHMLMPOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88A370)
 
-inline static constexpr unsigned int JOFMHMLMPOP_TypeDefinitionIndex = 36460;
+inline static constexpr unsigned int JOFMHMLMPOP_TypeDefinitionIndex = 37388;
 
 	class JOFMHMLMPOP : public ::System::Object
 	{

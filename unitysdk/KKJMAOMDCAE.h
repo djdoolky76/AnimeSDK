@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define KKJMAOMDCAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CE7A0)
+#define KKJMAOMDCAE_CTOR_OFFSET UNITYSDK_OFFSET(0xBD172D0)
 
-inline static constexpr unsigned int KKJMAOMDCAE_TypeDefinitionIndex = 64769;
+inline static constexpr unsigned int KKJMAOMDCAE_TypeDefinitionIndex = 66311;
 
 	class KKJMAOMDCAE : public ::System::Object
 	{

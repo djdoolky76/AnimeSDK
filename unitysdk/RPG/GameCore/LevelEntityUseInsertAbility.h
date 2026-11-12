@@ -9,23 +9,23 @@ namespace RPG::GameCore { class LevelEntityUseInsertAbility; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6EE080)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EE170)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EE120)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EE0D0)
-#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_INIT_OFFSET UNITYSDK_OFFSET(0xE6EDFE0)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_CLEAR_OFFSET UNITYSDK_OFFSET(0xF1F05D0)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0xF1F06C0)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF1F0670)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF1F0620)
+#define RPG_GAMECORE_LEVELENTITYUSEINSERTABILITY_INIT_OFFSET UNITYSDK_OFFSET(0xF1F0530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelEntityUseInsertAbility_TypeDefinitionIndex = 56754;
+	inline static constexpr unsigned int LevelEntityUseInsertAbility_TypeDefinitionIndex = 57978;
 
 	class LevelEntityUseInsertAbility : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::GameEntity* Target; // 0x18
-		::Il2CppArray<::RPG::GameCore::JsonEnum*>* CustomFlags; // 0x20
-		::System::String* AbilityName; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* AbilityTargetList; // 0x30
+		::System::String* AbilityName; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* AbilityTargetList; // 0x20
+		::Il2CppArray<::RPG::GameCore::JsonEnum*>* CustomFlags; // 0x28
+		::RPG::GameCore::GameEntity* Target; // 0x30
 		::System::Boolean Silence; // 0x38
 		::System::Void _ctor()
 		{

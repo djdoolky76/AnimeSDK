@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtDefenceStageRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTDEFENCESTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5BFA0)
-#define RPG_GAMECORE_RTDEFENCESTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA5BEA0)
+#define RPG_GAMECORE_RTDEFENCESTAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6E590)
+#define RPG_GAMECORE_RTDEFENCESTAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC6E490)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceStageRow_TypeDefinitionIndex = 18058;
+	inline static constexpr unsigned int RtDefenceStageRow_TypeDefinitionIndex = 18224;
 
 	class RtDefenceStageRow : public ::RPG::GameCore::JsonConfig
 	{

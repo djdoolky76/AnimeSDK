@@ -5,9 +5,9 @@
 namespace RPG::GameCore { class PossessionConfigRow; }
 namespace System { class String; }
 
-#define ADOJBOKNGMB_CTOR_OFFSET UNITYSDK_OFFSET(0xF890)
+#define ADOJBOKNGMB_CTOR_OFFSET UNITYSDK_OFFSET(0xF520)
 
-inline static constexpr unsigned int ADOJBOKNGMB_TypeDefinitionIndex = 69264;
+inline static constexpr unsigned int ADOJBOKNGMB_TypeDefinitionIndex = 71218;
 
 	struct alignas(8) ADOJBOKNGMB
 	{

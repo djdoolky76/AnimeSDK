@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceSkipLevelStateOverrideConfig; }
 namespace RPG::GameCore { class PerformanceSkipLevelStateOverrideItem; }
 
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D904410)
-#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D904320)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB1D840)
+#define RPG_GAMECORE_PERFORMANCESKIPLEVELSTATEOVERRIDECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB1D750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideConfig_TypeDefinitionIndex = 19044;
+	inline static constexpr unsigned int PerformanceSkipLevelStateOverrideConfig_TypeDefinitionIndex = 19231;
 
 	class PerformanceSkipLevelStateOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{

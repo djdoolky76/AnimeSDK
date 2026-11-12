@@ -6,7 +6,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitWhilePromise_1___c_TypeDefinitionIndex = 38259;
+	inline static constexpr unsigned int UniTask_WaitWhilePromise_1___c_TypeDefinitionIndex = 39188;
 
 	template <typename T>
 	class UniTask_WaitWhilePromise_1___c : public ::System::Object

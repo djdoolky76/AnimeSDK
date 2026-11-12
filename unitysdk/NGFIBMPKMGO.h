@@ -3,10 +3,10 @@
 class ILPFGMCKLMH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGFIBMPKMGO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA48D0)
-#define NGFIBMPKMGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBA4900)
+#define NGFIBMPKMGO_CTOR_OFFSET UNITYSDK_OFFSET(0xC480AB0)
+#define NGFIBMPKMGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC480AE0)
 
-inline static constexpr unsigned int NGFIBMPKMGO_TypeDefinitionIndex = 58435;
+inline static constexpr unsigned int NGFIBMPKMGO_TypeDefinitionIndex = 59691;
 
 	class NGFIBMPKMGO
 	{

@@ -5,21 +5,21 @@ namespace RPG::GameCore { class CalculateMissionCustomValue; }
 namespace RPG::GameCore { class MissionCustomValuePair; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JAMPFIHLEDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1655B960)
-#define JAMPFIHLEDG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1655B970)
-#define JAMPFIHLEDG_GNHDPFKBDGD_OFFSET UNITYSDK_OFFSET(0x1655BB00)
-#define JAMPFIHLEDG_KDAIGBAOCEK_OFFSET UNITYSDK_OFFSET(0x1655BDA0)
-#define JAMPFIHLEDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1655B9B0)
-#define JAMPFIHLEDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1655BCF0)
-#define JAMPFIHLEDG_TICK_OFFSET UNITYSDK_OFFSET(0x1655BD40)
+#define JAMPFIHLEDG_CTOR_OFFSET UNITYSDK_OFFSET(0xB894180)
+#define JAMPFIHLEDG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB894190)
+#define JAMPFIHLEDG_GNHDPFKBDGD_OFFSET UNITYSDK_OFFSET(0xB894320)
+#define JAMPFIHLEDG_KDAIGBAOCEK_OFFSET UNITYSDK_OFFSET(0xB8945C0)
+#define JAMPFIHLEDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8941D0)
+#define JAMPFIHLEDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB894510)
+#define JAMPFIHLEDG_TICK_OFFSET UNITYSDK_OFFSET(0xB894560)
 
-inline static constexpr unsigned int JAMPFIHLEDG_TypeDefinitionIndex = 52629;
+inline static constexpr unsigned int JAMPFIHLEDG_TypeDefinitionIndex = 53736;
 
 	class JAMPFIHLEDG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CalculateMissionCustomValue* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CalculateMissionCustomValue* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CalculateMissionCustomValue* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CalculateMissionCustomValue*))((::PBYTE)hIl2Cpp + JAMPFIHLEDG_CTOR_OFFSET))(this, a1, a2);

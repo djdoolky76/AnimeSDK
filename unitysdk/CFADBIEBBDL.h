@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AddGlobalDynamicOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFADBIEBBDL_CTOR_OFFSET UNITYSDK_OFFSET(0xC9FAD60)
-#define CFADBIEBBDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC9FAD70)
-#define CFADBIEBBDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9FADB0)
-#define CFADBIEBBDL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC9FB2B0)
-#define CFADBIEBBDL_TICK_OFFSET UNITYSDK_OFFSET(0xC9FB300)
+#define CFADBIEBBDL_CTOR_OFFSET UNITYSDK_OFFSET(0xD360340)
+#define CFADBIEBBDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD360350)
+#define CFADBIEBBDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD360390)
+#define CFADBIEBBDL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD360840)
+#define CFADBIEBBDL_TICK_OFFSET UNITYSDK_OFFSET(0xD360890)
 
-inline static constexpr unsigned int CFADBIEBBDL_TypeDefinitionIndex = 57861;
+inline static constexpr unsigned int CFADBIEBBDL_TypeDefinitionIndex = 59098;
 
 	class CFADBIEBBDL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::AddGlobalDynamicOffset* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::AddGlobalDynamicOffset* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AddGlobalDynamicOffset* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AddGlobalDynamicOffset*))((::PBYTE)hIl2Cpp + CFADBIEBBDL_CTOR_OFFSET))(this, a1, a2);

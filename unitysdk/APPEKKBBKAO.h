@@ -6,11 +6,11 @@ class AMHCELGLLED;
 class KCLIKAPODAD;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define APPEKKBBKAO_BABCOOBOKME_OFFSET UNITYSDK_OFFSET(0x15BC0840)
-#define APPEKKBBKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x15BC0610)
-#define APPEKKBBKAO_JKIBFIBAMKB_OFFSET UNITYSDK_OFFSET(0x15BC06D0)
+#define APPEKKBBKAO_BABCOOBOKME_OFFSET UNITYSDK_OFFSET(0x16A21410)
+#define APPEKKBBKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x16A211E0)
+#define APPEKKBBKAO_JKIBFIBAMKB_OFFSET UNITYSDK_OFFSET(0x16A212A0)
 
-inline static constexpr unsigned int APPEKKBBKAO_TypeDefinitionIndex = 62867;
+inline static constexpr unsigned int APPEKKBBKAO_TypeDefinitionIndex = 64305;
 
 	class APPEKKBBKAO : public ::System::Object
 	{

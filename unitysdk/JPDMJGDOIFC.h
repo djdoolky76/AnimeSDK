@@ -6,9 +6,9 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JPDMJGDOIFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7EA0)
+#define JPDMJGDOIFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD795B0)
 
-inline static constexpr unsigned int JPDMJGDOIFC_TypeDefinitionIndex = 43763;
+inline static constexpr unsigned int JPDMJGDOIFC_TypeDefinitionIndex = 44838;
 
 	class JPDMJGDOIFC : public ::System::Object
 	{

@@ -6,18 +6,18 @@
 class CHGHIALKMFM;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define JINPMMMOFHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C555E50)
-#define JINPMMMOFHK_LICOGDLBFGE_OFFSET UNITYSDK_OFFSET(0x1C564180)
-#define JINPMMMOFHK_MAPIDKMGMIE_OFFSET UNITYSDK_OFFSET(0x1C564130)
-#define JINPMMMOFHK__ITERATEAFFECTEDCELLS_G__ISINRANGE_4_0_OFFSET UNITYSDK_OFFSET(0x1C564CD0)
+#define JINPMMMOFHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D7810)
+#define JINPMMMOFHK_LICOGDLBFGE_OFFSET UNITYSDK_OFFSET(0x1D6E5B20)
+#define JINPMMMOFHK_MAPIDKMGMIE_OFFSET UNITYSDK_OFFSET(0x1D6E5AD0)
+#define JINPMMMOFHK__ITERATEAFFECTEDCELLS_G__ISINRANGE_4_0_OFFSET UNITYSDK_OFFSET(0x1D6E6670)
 
-inline static constexpr unsigned int JINPMMMOFHK_TypeDefinitionIndex = 41778;
+inline static constexpr unsigned int JINPMMMOFHK_TypeDefinitionIndex = 42753;
 
 	class JINPMMMOFHK : public ::FBKKFMONGAA
 	{
 	public:
-		::UnityEngine::Vector2Int JGLJCHGAIHP; // 0x18
-		::System::Single OHEALPINCGL; // 0x20
+		::System::Single OHEALPINCGL; // 0x18
+		::UnityEngine::Vector2Int JGLJCHGAIHP; // 0x1C
 		::System::Void _ctor(::System::Single a1, ::UnityEngine::Vector2Int a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::Vector2Int))((::PBYTE)hIl2Cpp + JINPMMMOFHK_CTOR_OFFSET))(this, a1, a2);

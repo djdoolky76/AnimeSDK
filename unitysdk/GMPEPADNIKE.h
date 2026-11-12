@@ -12,25 +12,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GMPEPADNIKE_AJMIHANJNPD_OFFSET UNITYSDK_OFFSET(0x15ADD460)
-#define GMPEPADNIKE_BKCPMPMKLFI_OFFSET UNITYSDK_OFFSET(0x15ADD5F0)
-#define GMPEPADNIKE_BOHPNBGHBIP_OFFSET UNITYSDK_OFFSET(0x15ADCC50)
-#define GMPEPADNIKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15ADD800)
-#define GMPEPADNIKE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15ADCA40)
-#define GMPEPADNIKE_DLBPAPFGDCN_OFFSET UNITYSDK_OFFSET(0x15ADD110)
-#define GMPEPADNIKE_HPCNGBNHIDP_OFFSET UNITYSDK_OFFSET(0x15ADD520)
-#define GMPEPADNIKE_JFJOIIHAJIP_OFFSET UNITYSDK_OFFSET(0x15ADCB60)
+#define GMPEPADNIKE_AJMIHANJNPD_OFFSET UNITYSDK_OFFSET(0x16A5FE50)
+#define GMPEPADNIKE_BKCPMPMKLFI_OFFSET UNITYSDK_OFFSET(0x16A5FFE0)
+#define GMPEPADNIKE_BOHPNBGHBIP_OFFSET UNITYSDK_OFFSET(0x16A5F640)
+#define GMPEPADNIKE_CTOR_OFFSET UNITYSDK_OFFSET(0x16A601F0)
+#define GMPEPADNIKE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A5F420)
+#define GMPEPADNIKE_DLBPAPFGDCN_OFFSET UNITYSDK_OFFSET(0x16A5FB00)
+#define GMPEPADNIKE_HPCNGBNHIDP_OFFSET UNITYSDK_OFFSET(0x16A5FF10)
+#define GMPEPADNIKE_JFJOIIHAJIP_OFFSET UNITYSDK_OFFSET(0x16A5F550)
 
-inline static constexpr unsigned int GMPEPADNIKE_TypeDefinitionIndex = 78802;
+inline static constexpr unsigned int GMPEPADNIKE_TypeDefinitionIndex = 81537;
 
 	class GMPEPADNIKE : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* DGFJCKGNDMB; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* PBNEFDJDFBD; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* PBNEFDJDFBD; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* NEIHDGHAJMK; // 0x18
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Action*>* PLOIEGDDOKF; // 0x20
-		::RPG::GameCore::PropOptionTrigger_ButtonParam* EDNNMHBJOBK; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::OptionTalkInfo*>* NEIHDGHAJMK; // 0x30
+		::RPG::GameCore::GameEntity* DGFJCKGNDMB; // 0x28
+		::RPG::GameCore::PropOptionTrigger_ButtonParam* EDNNMHBJOBK; // 0x30
 		::RPG::Client::Prop::PuzzleOptionUIUtilType BKFIOOHCNEG; // 0x38
 		::System::Boolean BAMMGAOFJHO; // 0x3C
 		::System::Void _ctor()

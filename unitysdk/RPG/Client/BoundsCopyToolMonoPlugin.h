@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_BOUNDSCOPYTOOLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC8B7250)
+#define RPG_CLIENT_BOUNDSCOPYTOOLMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD21C530)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BoundsCopyToolMonoPlugin_TypeDefinitionIndex = 71037;
+	inline static constexpr unsigned int BoundsCopyToolMonoPlugin_TypeDefinitionIndex = 73016;
 
 	class BoundsCopyToolMonoPlugin
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MOHFNFDHMMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2C740)
+#define MOHFNFDHMMO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2EB0F0)
 
-inline static constexpr unsigned int MOHFNFDHMMO_TypeDefinitionIndex = 49326;
+inline static constexpr unsigned int MOHFNFDHMMO_TypeDefinitionIndex = 50402;
 
 	class MOHFNFDHMMO : public ::System::Attribute
 	{

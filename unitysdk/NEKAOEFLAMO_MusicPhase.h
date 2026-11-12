@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NEKAOEFLAMO_MusicPhase_TypeDefinitionIndex = 60161;
+inline static constexpr unsigned int NEKAOEFLAMO_MusicPhase_TypeDefinitionIndex = 61445;
 
 	enum class NEKAOEFLAMO_MusicPhase : ::System::Int32
 	{

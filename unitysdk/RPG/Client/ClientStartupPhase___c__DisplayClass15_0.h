@@ -4,12 +4,12 @@
 namespace RPG::Client { class ClientStartupPhase; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB791C0)
-#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS15_0___FETCHGLOBALDISPATCHINFO_B__1_OFFSET UNITYSDK_OFFSET(0xCB79270)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD4DD430)
+#define RPG_CLIENT_CLIENTSTARTUPPHASE___C__DISPLAYCLASS15_0___FETCHGLOBALDISPATCHINFO_B__1_OFFSET UNITYSDK_OFFSET(0xD4DD4E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClientStartupPhase___c__DisplayClass15_0_TypeDefinitionIndex = 61140;
+	inline static constexpr unsigned int ClientStartupPhase___c__DisplayClass15_0_TypeDefinitionIndex = 62525;
 
 	class ClientStartupPhase___c__DisplayClass15_0 : public ::System::Object
 	{

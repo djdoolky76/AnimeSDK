@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEntitiesFilterSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEntityPredicateBase; }
 
-#define RPG_GAMECORE_CHIMERADUELENTITIESFILTERSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59F540)
-#define RPG_GAMECORE_CHIMERADUELENTITIESFILTERSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59F550)
-#define RPG_GAMECORE_CHIMERADUELENTITIESFILTERSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59F4F0)
+#define RPG_GAMECORE_CHIMERADUELENTITIESFILTERSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B0350)
+#define RPG_GAMECORE_CHIMERADUELENTITIESFILTERSELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7B0360)
+#define RPG_GAMECORE_CHIMERADUELENTITIESFILTERSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7B0300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEntitiesFilterSelectorConfig_TypeDefinitionIndex = 15917;
+	inline static constexpr unsigned int ChimeraDuelEntitiesFilterSelectorConfig_TypeDefinitionIndex = 16075;
 
 	class ChimeraDuelEntitiesFilterSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{

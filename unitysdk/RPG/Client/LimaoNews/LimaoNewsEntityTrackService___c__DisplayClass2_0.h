@@ -4,12 +4,12 @@
 class ALOHJILIGNK;
 namespace RPG::Client::LimaoNews { class LimaoNewsEntityTrackService; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3A62F0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS2_0__BEGINTRACKENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xD3A7DE0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDDBE30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSENTITYTRACKSERVICE___C__DISPLAYCLASS2_0__BEGINTRACKENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xDDDD8F0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass2_0_TypeDefinitionIndex = 80320;
+	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass2_0_TypeDefinitionIndex = 83097;
 
 	class LimaoNewsEntityTrackService___c__DisplayClass2_0 : public ::System::Object
 	{

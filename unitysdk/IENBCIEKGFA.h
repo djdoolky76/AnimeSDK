@@ -1,21 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HEOLKMLMPML.h"
 #include "unitysdk/IENBCIEKGFA_GridFightPropertyDisplayType.h"
+#include "unitysdk/RPG/Client/GridFightRichTextNodeCompiler.h"
 #include "unitysdk/RPG/GameCore/AvatarPropertyType.h"
 class DNGMCNPJHBJ;
 class FMKEJLGKEMH;
 namespace System { class String; }
 
-#define IENBCIEKGFA_ACMPHJJOOHE_OFFSET UNITYSDK_OFFSET(0x15F05910)
-#define IENBCIEKGFA_CTOR_OFFSET UNITYSDK_OFFSET(0x15F05E60)
-#define IENBCIEKGFA_HPKMLKKCCOP_OFFSET UNITYSDK_OFFSET(0x15F05A10)
-#define IENBCIEKGFA_KGJGHKHLIHA_OFFSET UNITYSDK_OFFSET(0x15F05BF0)
-#define IENBCIEKGFA_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x15F058C0)
+#define IENBCIEKGFA_COMPILE_OFFSET UNITYSDK_OFFSET(0x16E74530)
+#define IENBCIEKGFA_CTOR_OFFSET UNITYSDK_OFFSET(0x16E74A60)
+#define IENBCIEKGFA_GET_TAG_OFFSET UNITYSDK_OFFSET(0x16E744E0)
+#define IENBCIEKGFA_HPKMLKKCCOP_OFFSET UNITYSDK_OFFSET(0x16E74610)
+#define IENBCIEKGFA_KGJGHKHLIHA_OFFSET UNITYSDK_OFFSET(0x16E747F0)
 
-inline static constexpr unsigned int IENBCIEKGFA_TypeDefinitionIndex = 65290;
+inline static constexpr unsigned int IENBCIEKGFA_TypeDefinitionIndex = 67050;
 
-	class IENBCIEKGFA : public ::HEOLKMLMPML
+	class IENBCIEKGFA : public ::RPG::Client::GridFightRichTextNodeCompiler
 	{
 	public:
 		::DNGMCNPJHBJ* EEFMDEHLLFI; // 0x10
@@ -24,14 +24,14 @@ inline static constexpr unsigned int IENBCIEKGFA_TypeDefinitionIndex = 65290;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IENBCIEKGFA_CTOR_OFFSET))(this);
 		}
 
-		::System::String* NDMBDGKAJEK()
+		::System::String* get_Tag()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + IENBCIEKGFA_NDMBDGKAJEK_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + IENBCIEKGFA_GET_TAG_OFFSET))(this);
 		}
 
-		::System::String* ACMPHJJOOHE(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
+		::System::String* Compile(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + IENBCIEKGFA_ACMPHJJOOHE_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + IENBCIEKGFA_COMPILE_OFFSET))(this, a1, a2);
 		}
 
 		::System::Boolean HPKMLKKCCOP(::FMKEJLGKEMH* a1, ::RPG::GameCore::AvatarPropertyType a2, ::IENBCIEKGFA_GridFightPropertyDisplayType a3)

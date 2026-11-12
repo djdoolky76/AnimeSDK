@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class LittleGameSmartObjectConfig; }
 namespace System { class String; }
 
-#define NDAHMHCJMIP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1EA00)
+#define NDAHMHCJMIP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A78F0)
 
-inline static constexpr unsigned int NDAHMHCJMIP_TypeDefinitionIndex = 77252;
+inline static constexpr unsigned int NDAHMHCJMIP_TypeDefinitionIndex = 79586;
 
 	class NDAHMHCJMIP : public ::System::Object
 	{

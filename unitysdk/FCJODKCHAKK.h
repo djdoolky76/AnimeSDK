@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define FCJODKCHAKK_BELNEIKHHAJ_OFFSET UNITYSDK_OFFSET(0x1EC07A40)
-#define FCJODKCHAKK_EKELAKECLJA_OFFSET UNITYSDK_OFFSET(0x1EC07B90)
+#define FCJODKCHAKK_BELNEIKHHAJ_OFFSET UNITYSDK_OFFSET(0x1FEB8580)
+#define FCJODKCHAKK_EKELAKECLJA_OFFSET UNITYSDK_OFFSET(0x1FEB86D0)
 
-inline static constexpr unsigned int FCJODKCHAKK_TypeDefinitionIndex = 35265;
+inline static constexpr unsigned int FCJODKCHAKK_TypeDefinitionIndex = 36193;
 
 	class FCJODKCHAKK : public ::System::Object
 	{

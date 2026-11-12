@@ -7,12 +7,12 @@ namespace System { class String; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NFANJNAMFBH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB772A0)
-#define NFANJNAMFBH_ICINELGDJLB_OFFSET UNITYSDK_OFFSET(0xBB77080)
-#define NFANJNAMFBH_IMFCINMNNPA_OFFSET UNITYSDK_OFFSET(0xBB77040)
-#define NFANJNAMFBH_JBPAMNBNJJO_OFFSET UNITYSDK_OFFSET(0xBB76F90)
+#define NFANJNAMFBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC4520D0)
+#define NFANJNAMFBH_ICINELGDJLB_OFFSET UNITYSDK_OFFSET(0xC451EB0)
+#define NFANJNAMFBH_IMFCINMNNPA_OFFSET UNITYSDK_OFFSET(0xC451E70)
+#define NFANJNAMFBH_JBPAMNBNJJO_OFFSET UNITYSDK_OFFSET(0xC451DC0)
 
-inline static constexpr unsigned int NFANJNAMFBH_TypeDefinitionIndex = 69344;
+inline static constexpr unsigned int NFANJNAMFBH_TypeDefinitionIndex = 71298;
 
 	class NFANJNAMFBH : public ::System::Object
 	{

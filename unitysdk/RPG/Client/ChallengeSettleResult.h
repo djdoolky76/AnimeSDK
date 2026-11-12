@@ -3,11 +3,11 @@
 namespace RPG::Client { class ItemDisplayData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGESETTLERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xE3EE0)
+#define RPG_CLIENT_CHALLENGESETTLERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0xEF9C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeSettleResult_TypeDefinitionIndex = 63099;
+	inline static constexpr unsigned int ChallengeSettleResult_TypeDefinitionIndex = 64537;
 
 	struct alignas(8) ChallengeSettleResult
 	{

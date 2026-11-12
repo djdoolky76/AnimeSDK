@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_FOODDEBRIS_CTOR_OFFSET UNITYSDK_OFFSET(0xD42CFA0)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_FOODDEBRIS_CTOR_OFFSET UNITYSDK_OFFSET(0xDE99C40)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int FoodDebris_TypeDefinitionIndex = 77281;
+	inline static constexpr unsigned int FoodDebris_TypeDefinitionIndex = 79615;
 
 	class FoodDebris : public ::System::Object
 	{

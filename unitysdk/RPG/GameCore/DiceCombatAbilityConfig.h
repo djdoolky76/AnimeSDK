@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DiceCombatAbilityConfig; }
 namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
-#define RPG_GAMECORE_DICECOMBATABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D605780)
-#define RPG_GAMECORE_DICECOMBATABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D605620)
+#define RPG_GAMECORE_DICECOMBATABILITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E843790)
+#define RPG_GAMECORE_DICECOMBATABILITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E843630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DiceCombatAbilityConfig_TypeDefinitionIndex = 16119;
+	inline static constexpr unsigned int DiceCombatAbilityConfig_TypeDefinitionIndex = 16277;
 
 	class DiceCombatAbilityConfig : public ::RPG::GameCore::JsonConfig
 	{

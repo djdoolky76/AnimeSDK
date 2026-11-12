@@ -1,0 +1,142 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/AIMGBHJFAFK.h"
+#include "unitysdk/CKFCPCNGNEC.h"
+#include "unitysdk/OIJLBJIKKNJ.h"
+class AMOGJEDKANE;
+class BACPDKLFMAF;
+class DNDEALPLBBA;
+class FFOAFCPMFCA;
+class OLKIGNMJDMA;
+namespace RPG::Client { class LuaUIController; }
+namespace RPG::Client::LittleGame::ComicDessert { class ComicDessertSettlementViewModel; }
+namespace RPG::Client::Promises { class IPromise; }
+namespace System { class Action; }
+namespace System { class String; }
+
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_CLOSEMAINPAGE_OFFSET UNITYSDK_OFFSET(0xD50FEA0)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_CLOSESETTLEMENTPAGE_OFFSET UNITYSDK_OFFSET(0xD50FDC0)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_CTOR_OFFSET UNITYSDK_OFFSET(0xD507780)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWCOMICUNLOCKDIALOG_OFFSET UNITYSDK_OFFSET(0xD50F970)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWDATEDIALOG_OFFSET UNITYSDK_OFFSET(0xD50F860)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWFORUMDIALOG_OFFSET UNITYSDK_OFFSET(0xD50FA90)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWLIMITEDREWARDPAGE_OFFSET UNITYSDK_OFFSET(0xD5063F0)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWMAINPAGE_OFFSET UNITYSDK_OFFSET(0xD50F7A0)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWPICTUREDETAILDIALOG_OFFSET UNITYSDK_OFFSET(0xD509AD0)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWPICTUREGUIDEPAGE_OFFSET UNITYSDK_OFFSET(0xD506040)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWRESIDENTREWARDDIALOG_OFFSET UNITYSDK_OFFSET(0xD506270)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWSETTLEMENTPAGE_OFFSET UNITYSDK_OFFSET(0xD50FC60)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWUPGRADEDIALOG_OFFSET UNITYSDK_OFFSET(0xD506550)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_TRYSHOWPROGRESSUPDIALOG_OFFSET UNITYSDK_OFFSET(0xD506710)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE__LOGERROR_OFFSET UNITYSDK_OFFSET(0xD50FE20)
+#define RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE__SHOWMAINPAGE_OFFSET UNITYSDK_OFFSET(0xD50FF60)
+
+namespace RPG::Client::ComicDessert::Service
+{
+	inline static constexpr unsigned int ComicDessertWindowService_TypeDefinitionIndex = 77151;
+
+	class ComicDessertWindowService : public ::System::Object
+	{
+	public:
+		::AMOGJEDKANE* _LongTailService; // 0x10
+		::RPG::Client::LuaUIController* _SettlementPage; // 0x18
+		::OLKIGNMJDMA* _UpgradeDomainService; // 0x20
+		::DNDEALPLBBA* _CycleConfigRepository; // 0x28
+		::FFOAFCPMFCA* _ProgressService; // 0x30
+		::BACPDKLFMAF* _SandboxService; // 0x38
+		// static const ::System::Object _FIRST_CYCLE_ID; // 0x0
+		// static const ::System::String* _MAIN_PAGE_NAME; // 0x0
+		// static const ::System::String* _MAIN_PAGE_PATH; // 0x0
+		// static const ::System::String* _DATE_DIALOG_PATH; // 0x0
+		// static const ::System::String* _PROGRESS_UP_DIALOG_PATH; // 0x0
+		// static const ::System::String* _UPGRADE_DIALOG_PATH; // 0x0
+		// static const ::System::String* _COMIC_UNLOCK_DIALOG_PATH; // 0x0
+		// static const ::System::String* _FORUM_DIALOG_PATH; // 0x0
+		// static const ::System::String* _PICTURE_GUIDE_PAGE_PATH; // 0x0
+		// static const ::System::String* _PICTURE_DETAIL_DIALOG_PATH; // 0x0
+		// static const ::System::String* _LIMITED_REWARD_PAGE_PATH; // 0x0
+		// static const ::System::String* _RESIDENT_REWARD_DIALOG_PATH; // 0x0
+		// static const ::System::String* _SETTLEMENT_PAGE_PATH; // 0x0
+		::System::Void _ctor(::BACPDKLFMAF* a1, ::FFOAFCPMFCA* a2, ::AMOGJEDKANE* a3, ::DNDEALPLBBA* a4, ::OLKIGNMJDMA* a5)
+		{
+			return ((::System::Void(*)(::PVOID, ::BACPDKLFMAF*, ::FFOAFCPMFCA*, ::AMOGJEDKANE*, ::DNDEALPLBBA*, ::OLKIGNMJDMA*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);
+		}
+
+		::RPG::Client::Promises::IPromise* ShowMainPage(::System::Action* a1)
+		{
+			return ((::RPG::Client::Promises::IPromise*(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWMAINPAGE_OFFSET))(this, a1);
+		}
+
+		::System::Void ShowDateDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWDATEDIALOG_OFFSET))(this);
+		}
+
+		::System::Void ShowUpgradeDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWUPGRADEDIALOG_OFFSET))(this);
+		}
+
+		::System::Void ShowComicUnlockDialog(::OIJLBJIKKNJ a1, ::System::Action* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::OIJLBJIKKNJ, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWCOMICUNLOCKDIALOG_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ShowForumDialog(::AIMGBHJFAFK a1, ::System::Action* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::AIMGBHJFAFK, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWFORUMDIALOG_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void ShowPictureGuidePage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWPICTUREGUIDEPAGE_OFFSET))(this);
+		}
+
+		::System::Void ShowPictureDetailDialog(::CKFCPCNGNEC a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::CKFCPCNGNEC))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWPICTUREDETAILDIALOG_OFFSET))(this, a1);
+		}
+
+		::System::Void ShowLimitedRewardPage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWLIMITEDREWARDPAGE_OFFSET))(this);
+		}
+
+		::System::Void ShowResidentRewardDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWRESIDENTREWARDDIALOG_OFFSET))(this);
+		}
+
+		::System::Boolean ShowSettlementPage(::RPG::Client::LittleGame::ComicDessert::ComicDessertSettlementViewModel* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::LittleGame::ComicDessert::ComicDessertSettlementViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_SHOWSETTLEMENTPAGE_OFFSET))(this, a1);
+		}
+
+		::System::Void CloseSettlementPage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_CLOSESETTLEMENTPAGE_OFFSET))(this);
+		}
+
+		::System::Void TryShowProgressUpDialog()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_TRYSHOWPROGRESSUPDIALOG_OFFSET))(this);
+		}
+
+		::System::Void CloseMainPage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE_CLOSEMAINPAGE_OFFSET))(this);
+		}
+
+		::System::Void _ShowMainPage()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE__SHOWMAINPAGE_OFFSET))(this);
+		}
+
+		static ::System::Void _LogError(::System::String* a1)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_SERVICE_COMICDESSERTWINDOWSERVICE__LOGERROR_OFFSET))(a1);
+		}
+
+	};
+}

@@ -4,18 +4,18 @@
 class KILGONODPIC;
 namespace System { class Object; }
 
-#define KILGONODPIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E863D00)
-#define KILGONODPIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E863D30)
-#define KILGONODPIC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E863D40)
+#define KILGONODPIC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB7DE40)
+#define KILGONODPIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB7DE70)
+#define KILGONODPIC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FB7DE80)
 
-inline static constexpr unsigned int KILGONODPIC___c_TypeDefinitionIndex = 33809;
+inline static constexpr unsigned int KILGONODPIC___c_TypeDefinitionIndex = 34724;
 
 	class KILGONODPIC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1B5C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13AC0);
 		}
 
 		static ::System::Void _cctor()

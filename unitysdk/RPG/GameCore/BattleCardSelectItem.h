@@ -8,12 +8,12 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_BATTLECARDSELECTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4531A0)
-#define RPG_GAMECORE_BATTLECARDSELECTITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D452FE0)
+#define RPG_GAMECORE_BATTLECARDSELECTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E662BE0)
+#define RPG_GAMECORE_BATTLECARDSELECTITEM_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E662A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCardSelectItem_TypeDefinitionIndex = 22542;
+	inline static constexpr unsigned int BattleCardSelectItem_TypeDefinitionIndex = 22957;
 
 	class BattleCardSelectItem : public ::RPG::GameCore::JsonConfig
 	{

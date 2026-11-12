@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_TIMEREWINDRAYCASTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE286570)
+#define RPG_CLIENT_TIMEREWINDRAYCASTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xECF0CD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindRaycastInfo_TypeDefinitionIndex = 60845;
+	inline static constexpr unsigned int TimeRewindRaycastInfo_TypeDefinitionIndex = 62224;
 
 	class TimeRewindRaycastInfo : public ::System::Object
 	{

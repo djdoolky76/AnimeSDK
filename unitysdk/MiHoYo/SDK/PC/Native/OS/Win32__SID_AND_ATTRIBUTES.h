@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::PC::Native::OS
 {
-	inline static constexpr unsigned int Win32__SID_AND_ATTRIBUTES_TypeDefinitionIndex = 8479;
+	inline static constexpr unsigned int Win32__SID_AND_ATTRIBUTES_TypeDefinitionIndex = 8488;
 
 	struct alignas(4) Win32__SID_AND_ATTRIBUTES
 	{

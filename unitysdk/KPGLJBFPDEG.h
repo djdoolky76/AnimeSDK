@@ -8,23 +8,23 @@ namespace RPG::GameCore { class BattleInstance; }
 namespace System { class Object; }
 namespace UnityEngine { class Animation; }
 
-#define KPGLJBFPDEG_BILDNHAOGBA_OFFSET UNITYSDK_OFFSET(0xB5BC9F0)
-#define KPGLJBFPDEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BCF00)
-#define KPGLJBFPDEG_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB5BCB90)
-#define KPGLJBFPDEG_NFPHAJMIOIE_OFFSET UNITYSDK_OFFSET(0xB5BCE50)
-#define KPGLJBFPDEG_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB5BCC80)
-#define KPGLJBFPDEG_PGIJAGHKJLN_OFFSET UNITYSDK_OFFSET(0xB5BCE90)
-#define KPGLJBFPDEG__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5BCB20)
+#define KPGLJBFPDEG_BILDNHAOGBA_OFFSET UNITYSDK_OFFSET(0xBE108E0)
+#define KPGLJBFPDEG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE10E40)
+#define KPGLJBFPDEG_NFPHAJMIOIE_OFFSET UNITYSDK_OFFSET(0xBE10D90)
+#define KPGLJBFPDEG_PGIJAGHKJLN_OFFSET UNITYSDK_OFFSET(0xBE10DD0)
+#define KPGLJBFPDEG__INITVARONCE_OFFSET UNITYSDK_OFFSET(0xBE10BC0)
+#define KPGLJBFPDEG__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE10A10)
+#define KPGLJBFPDEG__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBE10AD0)
 
-inline static constexpr unsigned int KPGLJBFPDEG_TypeDefinitionIndex = 72042;
+inline static constexpr unsigned int KPGLJBFPDEG_TypeDefinitionIndex = 74073;
 
 	class KPGLJBFPDEG : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::RPGAnimationEvent* DDCODMNKPIP; // 0x60
-		::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
-		::Il2CppArray<::System::Object*>* DNJLAHPLLFB; // 0x70
-		::RPG::GameCore::BattleInstance* CKPCDFOHJIE; // 0x78
+		::UnityEngine::Animation* JPHOOFFIAAH; // 0x60
+		::RPG::Client::RPGAnimationEvent* DDCODMNKPIP; // 0x68
+		::RPG::GameCore::BattleInstance* CKPCDFOHJIE; // 0x70
+		::Il2CppArray<::System::Object*>* DNJLAHPLLFB; // 0x78
 		::RPG::GameCore::StageType LFJEGJMCEBD; // 0x80
 		::System::Void _ctor()
 		{
@@ -41,14 +41,14 @@ inline static constexpr unsigned int KPGLJBFPDEG_TypeDefinitionIndex = 72042;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPGLJBFPDEG__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPGLJBFPDEG_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPGLJBFPDEG__SETUPVIEW_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPGLJBFPDEG_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPGLJBFPDEG__INITVARONCE_OFFSET))(this);
 		}
 
 		static ::System::Boolean NFPHAJMIOIE()

@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GFOCDHFMBBC_TypeDefinitionIndex = 27971;
+inline static constexpr unsigned int GFOCDHFMBBC_TypeDefinitionIndex = 28561;
 
 	enum class GFOCDHFMBBC : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		GMCIMIMJNKC = 9110,
-		NLNGGABBEEK = 9103,
-		ELNGDMKBHIE = 9104,
-		AECKJFFELBJ = 9109,
-		FAGCDJLHAAE = 9102,
+		ELNGDMKBHIE = 9108,
+		FAGCDJLHAAE = 9103,
+		AECKJFFELBJ = 9110,
+		GMCIMIMJNKC = 9107,
+		NLNGGABBEEK = 9106,
 	};

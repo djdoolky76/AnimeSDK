@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEPREVIEWCAR_CTOR_OFFSET UNITYSDK_OFFSET(0xDEDF010)
+#define RPG_CLIENT_ROADRASH_MONOROADRASHGAMEPREVIEWCAR_CTOR_OFFSET UNITYSDK_OFFSET(0xE98F950)
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int MonoRoadRashGamePreviewCar_TypeDefinitionIndex = 75859;
+	inline static constexpr unsigned int MonoRoadRashGamePreviewCar_TypeDefinitionIndex = 78186;
 
 	class MonoRoadRashGamePreviewCar : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,18 +3,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define PCMHEPFFIMO_AOLBPOLCJGJ_OFFSET UNITYSDK_OFFSET(0xC008420)
-#define PCMHEPFFIMO_CTOR_OFFSET UNITYSDK_OFFSET(0xC0084E0)
-#define PCMHEPFFIMO_PJLGNEPKOGE_OFFSET UNITYSDK_OFFSET(0xC008490)
+#define PCMHEPFFIMO_AOLBPOLCJGJ_OFFSET UNITYSDK_OFFSET(0xC90DE90)
+#define PCMHEPFFIMO_CTOR_OFFSET UNITYSDK_OFFSET(0xC90DF50)
+#define PCMHEPFFIMO_PJLGNEPKOGE_OFFSET UNITYSDK_OFFSET(0xC90DF00)
 
-inline static constexpr unsigned int PCMHEPFFIMO_TypeDefinitionIndex = 54278;
+inline static constexpr unsigned int PCMHEPFFIMO_TypeDefinitionIndex = 55442;
 
 	class PCMHEPFFIMO : public ::System::Object
 	{
 	public:
-		::System::UInt32 JIDLKIHJLFL; // 0x10
-		::System::Byte _padding0[0x4];
-		::System::Double CHHDAKCOACO; // 0x18
+		::System::Double CHHDAKCOACO; // 0x10
+		::System::UInt32 JIDLKIHJLFL; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PCMHEPFFIMO_CTOR_OFFSET))(this);

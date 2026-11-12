@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FOFEHEIJHFB;
 
-#define KANKEPCJION___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2E26C0)
-#define KANKEPCJION___C__DISPLAYCLASS37_0__REFRESHWEAKNESSACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0xB2E4C00)
+#define KANKEPCJION___C__DISPLAYCLASS37_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBB679D0)
+#define KANKEPCJION___C__DISPLAYCLASS37_0__REFRESHWEAKNESSACTIVE_B__0_OFFSET UNITYSDK_OFFSET(0xBB69F10)
 
-inline static constexpr unsigned int KANKEPCJION___c__DisplayClass37_0_TypeDefinitionIndex = 71899;
+inline static constexpr unsigned int KANKEPCJION___c__DisplayClass37_0_TypeDefinitionIndex = 73920;
 
 	class KANKEPCJION___c__DisplayClass37_0 : public ::System::Object
 	{

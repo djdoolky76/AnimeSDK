@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LMCPKMHMLFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9109D0)
+#define LMCPKMHMLFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABCE40)
 
-inline static constexpr unsigned int LMCPKMHMLFA_TypeDefinitionIndex = 42161;
+inline static constexpr unsigned int LMCPKMHMLFA_TypeDefinitionIndex = 43136;
 
 	class LMCPKMHMLFA : public ::System::Object
 	{

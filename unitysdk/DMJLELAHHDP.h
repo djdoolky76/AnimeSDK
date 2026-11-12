@@ -3,10 +3,10 @@
 class CPBDANBHPBE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DMJLELAHHDP_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC3210)
-#define DMJLELAHHDP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEC3240)
+#define DMJLELAHHDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1063C100)
+#define DMJLELAHHDP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1063C130)
 
-inline static constexpr unsigned int DMJLELAHHDP_TypeDefinitionIndex = 52301;
+inline static constexpr unsigned int DMJLELAHHDP_TypeDefinitionIndex = 53407;
 
 	class DMJLELAHHDP
 	{

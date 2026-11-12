@@ -6,23 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceNPCRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CAKERACENPCROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D551820)
-#define RPG_GAMECORE_CAKERACENPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D551570)
+#define RPG_GAMECORE_CAKERACENPCROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E763920)
+#define RPG_GAMECORE_CAKERACENPCROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E763670)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceNPCRow_TypeDefinitionIndex = 11007;
+	inline static constexpr unsigned int CakeRaceNPCRow_TypeDefinitionIndex = 11023;
 
 	class CakeRaceNPCRow : public ::System::Object
 	{
 	public:
-		::System::String* NPCAIJsonPath; // 0x10
-		::System::String* NPCIcon; // 0x18
-		::Il2CppArray<::System::UInt32>* EmojiIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* MessageIDList; // 0x28
-		::System::UInt32 NPCID; // 0x30
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID NPCName; // 0x38
+		::System::String* NPCIcon; // 0x10
+		::Il2CppArray<::System::UInt32>* EmojiIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* MessageIDList; // 0x20
+		::System::String* NPCAIJsonPath; // 0x28
+		::RPG::Client::TextID NPCName; // 0x30
+		::System::UInt32 NPCID; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACENPCROW_CTOR_OFFSET))(this);

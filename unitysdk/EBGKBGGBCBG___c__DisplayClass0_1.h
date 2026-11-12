@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/Collections/Generic/KeyValuePair_2.h"
 
-#define EBGKBGGBCBG___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54FFA0)
-#define EBGKBGGBCBG___C__DISPLAYCLASS0_1__DETERMINE_B__1_OFFSET UNITYSDK_OFFSET(0x1C550080)
+#define EBGKBGGBCBG___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D1970)
+#define EBGKBGGBCBG___C__DISPLAYCLASS0_1__DETERMINE_B__1_OFFSET UNITYSDK_OFFSET(0x1D6D1A50)
 
-inline static constexpr unsigned int EBGKBGGBCBG___c__DisplayClass0_1_TypeDefinitionIndex = 41893;
+inline static constexpr unsigned int EBGKBGGBCBG___c__DisplayClass0_1_TypeDefinitionIndex = 42868;
 
 	template <typename T>
 	class EBGKBGGBCBG___c__DisplayClass0_1 : public ::System::Object

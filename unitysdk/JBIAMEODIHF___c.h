@@ -4,18 +4,18 @@
 class DCAMGFEKEBH;
 namespace System { class Object; }
 
-#define JBIAMEODIHF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F2F50)
-#define JBIAMEODIHF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F2F90)
-#define JBIAMEODIHF___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C6F2FA0)
+#define JBIAMEODIHF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8749A0)
+#define JBIAMEODIHF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8749E0)
+#define JBIAMEODIHF___C___CCTOR_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D8749F0)
 
-inline static constexpr unsigned int JBIAMEODIHF___c_TypeDefinitionIndex = 36898;
+inline static constexpr unsigned int JBIAMEODIHF___c_TypeDefinitionIndex = 37826;
 
 	class JBIAMEODIHF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10A00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x70FB0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,25 +5,25 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_TEAMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1EC2C0)
-#define RPG_CLIENT_TEAMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1EC300)
-#define RPG_CLIENT_TEAMMODULE___C__SETTEAMMEMBER_B__39_0_OFFSET UNITYSDK_OFFSET(0xE1EC310)
+#define RPG_CLIENT_TEAMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEC993C0)
+#define RPG_CLIENT_TEAMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEC993F0)
+#define RPG_CLIENT_TEAMMODULE___C__SETTEAMMEMBER_B__39_0_OFFSET UNITYSDK_OFFSET(0xEC99400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamModule___c_TypeDefinitionIndex = 68132;
+	inline static constexpr unsigned int TeamModule___c_TypeDefinitionIndex = 70078;
 
 	class TeamModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__39_0()
-		{
-			return (::System::Predicate_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x106C0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x106C8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1DE80);
+		}
+
+		static ::System::Predicate_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__39_0()
+		{
+			return (::System::Predicate_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1DE88);
 		}
 
 		static ::System::Void _cctor()

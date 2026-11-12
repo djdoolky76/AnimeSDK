@@ -4,18 +4,18 @@
 class PEMJOICNGMM;
 namespace System { class Object; }
 
-#define PEMJOICNGMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF1E0F0)
-#define PEMJOICNGMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF1E130)
-#define PEMJOICNGMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF1E140)
+#define PEMJOICNGMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1EAD40)
+#define PEMJOICNGMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1EAD80)
+#define PEMJOICNGMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F1EAD90)
 
-inline static constexpr unsigned int PEMJOICNGMM___c_TypeDefinitionIndex = 31421;
+inline static constexpr unsigned int PEMJOICNGMM___c_TypeDefinitionIndex = 32334;
 
 	class PEMJOICNGMM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A5B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30D20);
 		}
 
 		static ::System::Void _cctor()

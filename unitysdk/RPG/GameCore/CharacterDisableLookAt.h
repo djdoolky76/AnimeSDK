@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CharacterDisableLookAt; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERDISABLELOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56FD10)
-#define RPG_GAMECORE_CHARACTERDISABLELOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D56FD20)
-#define RPG_GAMECORE_CHARACTERDISABLELOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56FCD0)
+#define RPG_GAMECORE_CHARACTERDISABLELOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E781250)
+#define RPG_GAMECORE_CHARACTERDISABLELOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E781260)
+#define RPG_GAMECORE_CHARACTERDISABLELOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E781210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterDisableLookAt_TypeDefinitionIndex = 20867;
+	inline static constexpr unsigned int CharacterDisableLookAt_TypeDefinitionIndex = 21204;
 
 	class CharacterDisableLookAt : public ::RPG::GameCore::TaskConfig
 	{

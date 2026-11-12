@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ShowReading; }
 
-#define RPG_GAMECORE_SHOWREADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE3050)
-#define RPG_GAMECORE_SHOWREADING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE3060)
-#define RPG_GAMECORE_SHOWREADING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE3010)
+#define RPG_GAMECORE_SHOWREADING_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF4EE0)
+#define RPG_GAMECORE_SHOWREADING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECF4EF0)
+#define RPG_GAMECORE_SHOWREADING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECF4EA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowReading_TypeDefinitionIndex = 20891;
+	inline static constexpr unsigned int ShowReading_TypeDefinitionIndex = 21229;
 
 	class ShowReading : public ::RPG::GameCore::TaskConfig
 	{

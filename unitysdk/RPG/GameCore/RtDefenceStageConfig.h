@@ -12,12 +12,12 @@ namespace RPG::GameCore { class RtDefenceStageUnitInfo; }
 namespace RPG::GameCore { class RtDefenceWaveMonsterInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTDEFENCESTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5BE90)
-#define RPG_GAMECORE_RTDEFENCESTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5BA40)
+#define RPG_GAMECORE_RTDEFENCESTAGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6E480)
+#define RPG_GAMECORE_RTDEFENCESTAGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC6E030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceStageConfig_TypeDefinitionIndex = 18070;
+	inline static constexpr unsigned int RtDefenceStageConfig_TypeDefinitionIndex = 18236;
 
 	class RtDefenceStageConfig : public ::RPG::GameCore::JsonConfig
 	{

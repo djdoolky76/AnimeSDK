@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPGTOOLS_STORY_CAMERAREGIONCHECKVISUALIZATION_CTOR_OFFSET UNITYSDK_OFFSET(0xE8A8C90)
+#define RPGTOOLS_STORY_CAMERAREGIONCHECKVISUALIZATION_CTOR_OFFSET UNITYSDK_OFFSET(0xF382B10)
 
 namespace RPGTools::Story
 {
-	inline static constexpr unsigned int CameraRegionCheckVisualization_TypeDefinitionIndex = 48972;
+	inline static constexpr unsigned int CameraRegionCheckVisualization_TypeDefinitionIndex = 50033;
 
 	class CameraRegionCheckVisualization : public ::UnityEngine::MonoBehaviour
 	{

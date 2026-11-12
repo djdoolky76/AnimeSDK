@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPropStateIconCategory_TypeDefinitionIndex = 17195;
+	inline static constexpr unsigned int LevelPropStateIconCategory_TypeDefinitionIndex = 17363;
 
 	enum class LevelPropStateIconCategory : ::System::Int32
 	{

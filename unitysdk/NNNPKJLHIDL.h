@@ -3,10 +3,10 @@
 class FFFPDOPONLA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNNPKJLHIDL_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD6230)
-#define NNNPKJLHIDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCD6260)
+#define NNNPKJLHIDL_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C2200)
+#define NNNPKJLHIDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC5C2230)
 
-inline static constexpr unsigned int NNNPKJLHIDL_TypeDefinitionIndex = 53415;
+inline static constexpr unsigned int NNNPKJLHIDL_TypeDefinitionIndex = 54577;
 
 	class NNNPKJLHIDL
 	{

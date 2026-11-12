@@ -13,38 +13,38 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class Transform; }
 
-#define GGIBGDHBAMN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A057D0)
-#define GGIBGDHBAMN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A05E60)
-#define GGIBGDHBAMN_EPGLGPDJIKC_OFFSET UNITYSDK_OFFSET(0x15A06850)
-#define GGIBGDHBAMN_FEPJAECJNEL_OFFSET UNITYSDK_OFFSET(0x15A05EE0)
-#define GGIBGDHBAMN_GAHOBOLNAIA_OFFSET UNITYSDK_OFFSET(0x15A073B0)
-#define GGIBGDHBAMN_KANHFCAOALI_OFFSET UNITYSDK_OFFSET(0x15A05FF0)
-#define GGIBGDHBAMN_MKHFJMILGAG_OFFSET UNITYSDK_OFFSET(0x15A06F60)
-#define GGIBGDHBAMN_ODGOHFJHDMF_OFFSET UNITYSDK_OFFSET(0x15A06460)
-#define GGIBGDHBAMN_OPNIMOOAKDL_OFFSET UNITYSDK_OFFSET(0x15A06080)
+#define GGIBGDHBAMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1693FD50)
+#define GGIBGDHBAMN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16940380)
+#define GGIBGDHBAMN_EPGLGPDJIKC_OFFSET UNITYSDK_OFFSET(0x16940D70)
+#define GGIBGDHBAMN_FEPJAECJNEL_OFFSET UNITYSDK_OFFSET(0x16940400)
+#define GGIBGDHBAMN_GAHOBOLNAIA_OFFSET UNITYSDK_OFFSET(0x169418D0)
+#define GGIBGDHBAMN_KANHFCAOALI_OFFSET UNITYSDK_OFFSET(0x16940510)
+#define GGIBGDHBAMN_MKHFJMILGAG_OFFSET UNITYSDK_OFFSET(0x16941480)
+#define GGIBGDHBAMN_ODGOHFJHDMF_OFFSET UNITYSDK_OFFSET(0x16940990)
+#define GGIBGDHBAMN_OPNIMOOAKDL_OFFSET UNITYSDK_OFFSET(0x169405A0)
 
-inline static constexpr unsigned int GGIBGDHBAMN_TypeDefinitionIndex = 60809;
+inline static constexpr unsigned int GGIBGDHBAMN_TypeDefinitionIndex = 62188;
 
 	class GGIBGDHBAMN : public ::System::Object
 	{
 	public:
-		::CCKKOKJIIDO* FCIENMANDEG; // 0x10
-		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* PPLFJBHKPDG; // 0x18
-		::UnityEngine::Transform* IFFOHHFHPDO; // 0x20
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BHAKAOEDEII; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BHAKAOEDEII; // 0x10
+		::UnityEngine::Transform* IFFOHHFHPDO; // 0x18
+		::CCKKOKJIIDO* FCIENMANDEG; // 0x20
+		::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* PPLFJBHKPDG; // 0x28
 		::Il2CppArray<::UnityEngine::RaycastHit>* CIECEBIKPMP; // 0x30
-		::System::Single EEAAFHMHFFB; // 0x38
-		::System::Single MFOOBPJLGKG; // 0x3C
-		::System::Single OCGFPOBMDKF; // 0x40
-		::System::Single JLDNDCNNBCL; // 0x44
-		::ELDNAILNPNL ILNDMCGIHFH; // 0x48
-		::UnityEngine::Vector3 AFJPJMACFPP; // 0xA8
-		::System::Single NCGNANEMDCF; // 0xB4
-		::System::Single NEJLFGKIEMM; // 0xB8
-		::System::Single BBGJMDDEKIC; // 0xBC
-		::System::Single DKBKELBFMCD; // 0xC0
-		::System::Single PHFMMMBEDKD; // 0xC4
-		::UnityEngine::Vector3 GCDKCNKNDEN; // 0xC8
+		::System::Single NCGNANEMDCF; // 0x38
+		::System::Single BBGJMDDEKIC; // 0x3C
+		::UnityEngine::Vector3 AFJPJMACFPP; // 0x40
+		::System::Single MFOOBPJLGKG; // 0x4C
+		::System::Single DKBKELBFMCD; // 0x50
+		::UnityEngine::Vector3 GCDKCNKNDEN; // 0x54
+		::System::Single JLDNDCNNBCL; // 0x60
+		::System::Single OCGFPOBMDKF; // 0x64
+		::System::Single NEJLFGKIEMM; // 0x68
+		::System::Single EEAAFHMHFFB; // 0x6C
+		::ELDNAILNPNL ILNDMCGIHFH; // 0x70
+		::System::Single PHFMMMBEDKD; // 0xD0
 		// static const ::System::Object BAHOMNMNIFM; // 0x0
 		::System::Void _ctor(::RPG::GameCore::PlayerLockRangeConfig* a1)
 		{

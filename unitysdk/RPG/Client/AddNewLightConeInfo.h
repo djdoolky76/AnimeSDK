@@ -7,19 +7,19 @@ namespace RPG::Client { class EquipmentItemData; }
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ADDNEWLIGHTCONEINFO_CREATEADDNEWLIGHTCONEINFO_OFFSET UNITYSDK_OFFSET(0xC5C91A0)
-#define RPG_CLIENT_ADDNEWLIGHTCONEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC5C9690)
+#define RPG_CLIENT_ADDNEWLIGHTCONEINFO_CREATEADDNEWLIGHTCONEINFO_OFFSET UNITYSDK_OFFSET(0xCF241B0)
+#define RPG_CLIENT_ADDNEWLIGHTCONEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF245E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AddNewLightConeInfo_TypeDefinitionIndex = 65674;
+	inline static constexpr unsigned int AddNewLightConeInfo_TypeDefinitionIndex = 67596;
 
 	class AddNewLightConeInfo : public ::System::Object
 	{
 	public:
-		::RPG::Client::EquipmentItemData* NewLightConeData; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* ConvertItemList; // 0x18
-		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* AdditionalItemList; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* AdditionalItemList; // 0x10
+		::RPG::Client::EquipmentItemData* NewLightConeData; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::ItemConfig*>* ConvertItemList; // 0x20
 		::System::Boolean IsNew; // 0x28
 		::System::Void _ctor()
 		{

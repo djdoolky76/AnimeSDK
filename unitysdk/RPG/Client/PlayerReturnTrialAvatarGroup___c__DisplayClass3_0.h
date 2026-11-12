@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDBFD170)
-#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS3_0__GETTRIALAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xDBFD2E0)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE698F50)
+#define RPG_CLIENT_PLAYERRETURNTRIALAVATARGROUP___C__DISPLAYCLASS3_0__GETTRIALAVATAR_B__0_OFFSET UNITYSDK_OFFSET(0xE6990F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerReturnTrialAvatarGroup___c__DisplayClass3_0_TypeDefinitionIndex = 61886;
+	inline static constexpr unsigned int PlayerReturnTrialAvatarGroup___c__DisplayClass3_0_TypeDefinitionIndex = 63293;
 
 	class PlayerReturnTrialAvatarGroup___c__DisplayClass3_0 : public ::System::Object
 	{

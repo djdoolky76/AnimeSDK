@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PS_PlayGoDialogMode_TypeDefinitionIndex = 46148;
+	inline static constexpr unsigned int MHYSDKC_PS_PlayGoDialogMode_TypeDefinitionIndex = 47177;
 
 	enum class MHYSDKC_PS_PlayGoDialogMode : ::System::Int32
 	{

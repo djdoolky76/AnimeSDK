@@ -4,18 +4,18 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class HOAPGECFOFC;
 
-#define HOAPGECFOFC_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA9E70)
-#define HOAPGECFOFC_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x15DA9DE0)
-#define HOAPGECFOFC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15DA9E80)
+#define HOAPGECFOFC_CTOR_OFFSET UNITYSDK_OFFSET(0x16D4AE80)
+#define HOAPGECFOFC_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x16D4ADF0)
+#define HOAPGECFOFC_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x16D4AE90)
 
-inline static constexpr unsigned int HOAPGECFOFC_TypeDefinitionIndex = 62535;
+inline static constexpr unsigned int HOAPGECFOFC_TypeDefinitionIndex = 63948;
 
 	class HOAPGECFOFC : public ::System::Object
 	{
 	public:
 		static ::HOAPGECFOFC** StaticGet_FLMODBLFAGD()
 		{
-			return (::HOAPGECFOFC**)UnitySDK::FromName("", "HOAPGECFOFC")->GetStaticField(0x34A20);
+			return (::HOAPGECFOFC**)UnitySDK::FromName("", "HOAPGECFOFC")->GetStaticField(0x1E970);
 		}
 
 		::System::Void _ctor()

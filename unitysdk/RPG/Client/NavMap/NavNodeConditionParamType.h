@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int NavNodeConditionParamType_TypeDefinitionIndex = 74599;
+	inline static constexpr unsigned int NavNodeConditionParamType_TypeDefinitionIndex = 76747;
 
 	enum class NavNodeConditionParamType : ::System::Int32
 	{

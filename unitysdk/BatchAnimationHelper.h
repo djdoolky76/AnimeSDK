@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Rendering/BAVariantKey.h"
 namespace System { class String; }
 
-#define BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET UNITYSDK_OFFSET(0x1CBE7790)
-#define BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET UNITYSDK_OFFSET(0x1CBE77E0)
+#define BATCHANIMATIONHELPER_CREATEVARIANTKEY_OFFSET UNITYSDK_OFFSET(0x1DD8EBC0)
+#define BATCHANIMATIONHELPER_CREATEVARIANT_OFFSET UNITYSDK_OFFSET(0x1DD8EC10)
 
-inline static constexpr unsigned int BatchAnimationHelper_TypeDefinitionIndex = 37476;
+inline static constexpr unsigned int BatchAnimationHelper_TypeDefinitionIndex = 38404;
 
 	class BatchAnimationHelper : public ::System::Object
 	{

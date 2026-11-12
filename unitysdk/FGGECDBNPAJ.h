@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define FGGECDBNPAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E330)
+#define FGGECDBNPAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31CA0)
 
-inline static constexpr unsigned int FGGECDBNPAJ_TypeDefinitionIndex = 43305;
+inline static constexpr unsigned int FGGECDBNPAJ_TypeDefinitionIndex = 44286;
 
 	class FGGECDBNPAJ : public ::System::Object
 	{

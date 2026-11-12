@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/RogueMagicMountType.h"
 #include "unitysdk/System/Object.h"
 
-#define BPKNCADPBJL_KFDKJEKBFEM_OFFSET UNITYSDK_OFFSET(0x1D9FAFE0)
-#define BPKNCADPBJL_LNMKGFCPNIF_OFFSET UNITYSDK_OFFSET(0x1D9FAFF0)
+#define BPKNCADPBJL_KFDKJEKBFEM_OFFSET UNITYSDK_OFFSET(0x1EBC5A70)
+#define BPKNCADPBJL_LNMKGFCPNIF_OFFSET UNITYSDK_OFFSET(0x1EBC5A80)
 
-inline static constexpr unsigned int BPKNCADPBJL_TypeDefinitionIndex = 15476;
+inline static constexpr unsigned int BPKNCADPBJL_TypeDefinitionIndex = 15634;
 
 	class BPKNCADPBJL : public ::System::Object
 	{

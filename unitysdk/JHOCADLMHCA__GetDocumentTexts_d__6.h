@@ -6,18 +6,18 @@ class JHOCADLMHCA;
 namespace System { class String; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define JHOCADLMHCA__GETDOCUMENTTEXTS_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10B50)
-#define JHOCADLMHCA__GETDOCUMENTTEXTS_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B60)
+#define JHOCADLMHCA__GETDOCUMENTTEXTS_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14800)
+#define JHOCADLMHCA__GETDOCUMENTTEXTS_D__6_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x14810)
 
-inline static constexpr unsigned int JHOCADLMHCA__GetDocumentTexts_d__6_TypeDefinitionIndex = 50036;
+inline static constexpr unsigned int JHOCADLMHCA__GetDocumentTexts_d__6_TypeDefinitionIndex = 51084;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	struct alignas(8) JHOCADLMHCA__GetDocumentTexts_d__6
 	{
-		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x10
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppArray<::System::String*>*> __t__builder; // 0x18
+		::JHOCADLMHCA* __4__this; // 0x10
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x18
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppArray<::System::String*>*> __t__builder; // 0x20
 		::System::Byte _padding0[0x10];
-		::JHOCADLMHCA* __4__this; // 0x30
 		::System::String* docID; // 0x38
 		::System::Int32 __1__state; // 0x40
 		::System::Void MoveNext()

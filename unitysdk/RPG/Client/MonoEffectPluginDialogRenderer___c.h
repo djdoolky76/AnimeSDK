@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD7F55B0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD7F55F0)
-#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__GET_DIALOGTARGETRENDERERS_B__27_0_OFFSET UNITYSDK_OFFSET(0xD7F5600)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE247940)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE247980)
+#define RPG_CLIENT_MONOEFFECTPLUGINDIALOGRENDERER___C__GET_DIALOGTARGETRENDERERS_B__27_0_OFFSET UNITYSDK_OFFSET(0xE247990)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex = 69995;
+	inline static constexpr unsigned int MonoEffectPluginDialogRenderer___c_TypeDefinitionIndex = 71955;
 
 	class MonoEffectPluginDialogRenderer___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__27_0()
-		{
-			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x647C0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x647C8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BC20);
+		}
+
+		static ::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>** StaticGet___9__27_0()
+		{
+			return (::System::Func_2<::UnityEngine::Renderer*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5BC28);
 		}
 
 		static ::System::Void _cctor()

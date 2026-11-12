@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCharacterSomatoWidthType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDMFHJKKOBK_CTOR_OFFSET UNITYSDK_OFFSET(0x1332B130)
-#define EDMFHJKKOBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1332B160)
+#define EDMFHJKKOBK_CTOR_OFFSET UNITYSDK_OFFSET(0x140E7FB0)
+#define EDMFHJKKOBK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x140E7FE0)
 
-inline static constexpr unsigned int EDMFHJKKOBK_TypeDefinitionIndex = 54489;
+inline static constexpr unsigned int EDMFHJKKOBK_TypeDefinitionIndex = 55653;
 
 	class EDMFHJKKOBK
 	{

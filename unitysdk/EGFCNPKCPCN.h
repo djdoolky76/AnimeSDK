@@ -4,14 +4,14 @@
 namespace RPG::GameCore { class SwitchBattleArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGFCNPKCPCN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1450B290)
-#define EGFCNPKCPCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1450A9F0)
-#define EGFCNPKCPCN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1450AA10)
-#define EGFCNPKCPCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1450AAB0)
-#define EGFCNPKCPCN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1450AA60)
-#define EGFCNPKCPCN_TICK_OFFSET UNITYSDK_OFFSET(0x1450AF50)
+#define EGFCNPKCPCN_CCTOR_OFFSET UNITYSDK_OFFSET(0x152E1AC0)
+#define EGFCNPKCPCN_CTOR_OFFSET UNITYSDK_OFFSET(0x152E1210)
+#define EGFCNPKCPCN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x152E1230)
+#define EGFCNPKCPCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152E12D0)
+#define EGFCNPKCPCN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x152E1280)
+#define EGFCNPKCPCN_TICK_OFFSET UNITYSDK_OFFSET(0x152E1770)
 
-inline static constexpr unsigned int EGFCNPKCPCN_TypeDefinitionIndex = 55673;
+inline static constexpr unsigned int EGFCNPKCPCN_TypeDefinitionIndex = 56871;
 
 	class EGFCNPKCPCN : public ::GELIALJDFBL
 	{
@@ -19,11 +19,11 @@ inline static constexpr unsigned int EGFCNPKCPCN_TypeDefinitionIndex = 55673;
 		::RPG::GameCore::SwitchBattleArea* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Single JGKBGIEHILF; // 0x28
-		::System::Boolean IELGJKINIBB; // 0x2C
-		::System::Boolean ONANKDBEFFM; // 0x2D
+		::System::Boolean ONANKDBEFFM; // 0x2C
+		::System::Boolean IELGJKINIBB; // 0x2D
 		static ::System::Single* StaticGet_GFCIOHGKKEE()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "EGFCNPKCPCN")->GetStaticField(0x9C0);
+			return (::System::Single*)UnitySDK::FromName("", "EGFCNPKCPCN")->GetStaticField(0x16330);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchBattleArea* a2)

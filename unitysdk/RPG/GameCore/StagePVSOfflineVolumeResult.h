@@ -6,12 +6,12 @@ namespace RPG::GameCore { class StagePVSOfflineSamplerResult; }
 namespace RPG::GameCore { class StagePVSOfflineVolumeResult; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STAGEPVSOFFLINEVOLUMERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB12DA0)
-#define RPG_GAMECORE_STAGEPVSOFFLINEVOLUMERESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB12BA0)
+#define RPG_GAMECORE_STAGEPVSOFFLINEVOLUMERESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED24EC0)
+#define RPG_GAMECORE_STAGEPVSOFFLINEVOLUMERESULT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED24CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StagePVSOfflineVolumeResult_TypeDefinitionIndex = 19186;
+	inline static constexpr unsigned int StagePVSOfflineVolumeResult_TypeDefinitionIndex = 19376;
 
 	class StagePVSOfflineVolumeResult : public ::RPG::GameCore::JsonConfig
 	{

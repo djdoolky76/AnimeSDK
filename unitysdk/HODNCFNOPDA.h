@@ -13,44 +13,44 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define HODNCFNOPDA_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E5E6D40)
-#define HODNCFNOPDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5E70B0)
-#define HODNCFNOPDA_CLONE_OFFSET UNITYSDK_OFFSET(0x1E5E6880)
-#define HODNCFNOPDA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E5E67F0)
-#define HODNCFNOPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E67B0)
-#define HODNCFNOPDA_DFKJLKHBCLK_OFFSET UNITYSDK_OFFSET(0x1E5E68C0)
-#define HODNCFNOPDA_DGAGMHOCIHP_OFFSET UNITYSDK_OFFSET(0x1E5E68B0)
-#define HODNCFNOPDA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E5E6A30)
-#define HODNCFNOPDA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E5E68E0)
-#define HODNCFNOPDA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E5E6B60)
-#define HODNCFNOPDA_INJLCGGALGC_OFFSET UNITYSDK_OFFSET(0x1E5E68D0)
-#define HODNCFNOPDA_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E5E6770)
-#define HODNCFNOPDA_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E5E6EF0)
-#define HODNCFNOPDA_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E5E6E50)
-#define HODNCFNOPDA_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E5E67A0)
-#define HODNCFNOPDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E6BD0)
-#define HODNCFNOPDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E6C30)
+#define HODNCFNOPDA_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F8E3550)
+#define HODNCFNOPDA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8E38E0)
+#define HODNCFNOPDA_CLONE_OFFSET UNITYSDK_OFFSET(0x1F8E30B0)
+#define HODNCFNOPDA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F8E3020)
+#define HODNCFNOPDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8E2FE0)
+#define HODNCFNOPDA_DFKJLKHBCLK_OFFSET UNITYSDK_OFFSET(0x1F8E3100)
+#define HODNCFNOPDA_DGAGMHOCIHP_OFFSET UNITYSDK_OFFSET(0x1F8E30F0)
+#define HODNCFNOPDA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F8E3260)
+#define HODNCFNOPDA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F8E3110)
+#define HODNCFNOPDA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F8E3380)
+#define HODNCFNOPDA_INJLCGGALGC_OFFSET UNITYSDK_OFFSET(0x1F8E30E0)
+#define HODNCFNOPDA_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F8E2FA0)
+#define HODNCFNOPDA_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F8E3720)
+#define HODNCFNOPDA_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F8E3680)
+#define HODNCFNOPDA_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F8E2FD0)
+#define HODNCFNOPDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F8E33F0)
+#define HODNCFNOPDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F8E3450)
 
-inline static constexpr unsigned int HODNCFNOPDA_TypeDefinitionIndex = 27853;
+inline static constexpr unsigned int HODNCFNOPDA_TypeDefinitionIndex = 28430;
 
 	class HODNCFNOPDA : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::DAGNHGIBCPG*>* EFHEPAJIOHG; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::DAGNHGIBCPG*>* EFHEPAJIOHG; // 0x10
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
 		::System::UInt32 GHHBJPNDOIK; // 0x20
-		static ::Google::Protobuf::MessageParser_1<::HODNCFNOPDA*>** StaticGet_CHLCMCKIGKG()
-		{
-			return (::Google::Protobuf::MessageParser_1<::HODNCFNOPDA*>**)UnitySDK::FromName("", "HODNCFNOPDA")->GetStaticField(0x4CED0);
-		}
-
 		static ::Google::Protobuf::FieldCodec_1<::DAGNHGIBCPG*>** StaticGet_NLAAEADFOIK()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::DAGNHGIBCPG*>**)UnitySDK::FromName("", "HODNCFNOPDA")->GetStaticField(0x4CED8);
+			return (::Google::Protobuf::FieldCodec_1<::DAGNHGIBCPG*>**)UnitySDK::FromName("", "HODNCFNOPDA")->GetStaticField(0x3FCA0);
 		}
 
-		// static const ::System::Object EMKCGPBAPHK; // 0x0
+		static ::Google::Protobuf::MessageParser_1<::HODNCFNOPDA*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::HODNCFNOPDA*>**)UnitySDK::FromName("", "HODNCFNOPDA")->GetStaticField(0x3FCA8);
+		}
+
 		// static const ::System::Object LDPIDBDJDLO; // 0x0
+		// static const ::System::Object EMKCGPBAPHK; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HODNCFNOPDA_CTOR_OFFSET))(this);
@@ -81,6 +81,11 @@ inline static constexpr unsigned int HODNCFNOPDA_TypeDefinitionIndex = 27853;
 			return ((::HODNCFNOPDA*(*)(::PVOID))((::PBYTE)hIl2Cpp + HODNCFNOPDA_CLONE_OFFSET))(this);
 		}
 
+		::Google::Protobuf::Collections::RepeatedField_1<::DAGNHGIBCPG*>* INJLCGGALGC()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::DAGNHGIBCPG*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HODNCFNOPDA_INJLCGGALGC_OFFSET))(this);
+		}
+
 		::System::UInt32 DGAGMHOCIHP()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + HODNCFNOPDA_DGAGMHOCIHP_OFFSET))(this);
@@ -89,11 +94,6 @@ inline static constexpr unsigned int HODNCFNOPDA_TypeDefinitionIndex = 27853;
 		::System::Void DFKJLKHBCLK(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + HODNCFNOPDA_DFKJLKHBCLK_OFFSET))(this, a1);
-		}
-
-		::Google::Protobuf::Collections::RepeatedField_1<::DAGNHGIBCPG*>* INJLCGGALGC()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::DAGNHGIBCPG*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + HODNCFNOPDA_INJLCGGALGC_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

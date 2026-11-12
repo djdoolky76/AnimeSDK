@@ -4,18 +4,18 @@
 class LDNFIICMCHA;
 namespace System { class Object; }
 
-#define LDNFIICMCHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8FF860)
-#define LDNFIICMCHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FF8A0)
-#define LDNFIICMCHA___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E8FF8B0)
+#define LDNFIICMCHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC3E820)
+#define LDNFIICMCHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC3E860)
+#define LDNFIICMCHA___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1FC3E870)
 
-inline static constexpr unsigned int LDNFIICMCHA___c_TypeDefinitionIndex = 27047;
+inline static constexpr unsigned int LDNFIICMCHA___c_TypeDefinitionIndex = 27578;
 
 	class LDNFIICMCHA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35550);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B960);
 		}
 
 		static ::System::Void _cctor()

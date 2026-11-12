@@ -7,11 +7,11 @@ namespace RPG::Client { class PedestrianMemberExternalConfig_MaterialShowParts; 
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BFJBFLADFJK_CTOR_OFFSET UNITYSDK_OFFSET(0xB16E700)
-#define BFJBFLADFJK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB16EA00)
-#define BFJBFLADFJK_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB16EBA0)
+#define BFJBFLADFJK_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF6210)
+#define BFJBFLADFJK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAF6510)
+#define BFJBFLADFJK_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBAF66E0)
 
-inline static constexpr unsigned int BFJBFLADFJK_TypeDefinitionIndex = 69261;
+inline static constexpr unsigned int BFJBFLADFJK_TypeDefinitionIndex = 71215;
 
 	class BFJBFLADFJK : public ::System::Object
 	{

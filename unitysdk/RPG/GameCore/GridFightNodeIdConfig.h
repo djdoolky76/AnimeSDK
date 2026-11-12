@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightNodeIdConfig; }
 
-#define RPG_GAMECORE_GRIDFIGHTNODEIDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D736EA0)
-#define RPG_GAMECORE_GRIDFIGHTNODEIDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D736D80)
+#define RPG_GAMECORE_GRIDFIGHTNODEIDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9458D0)
+#define RPG_GAMECORE_GRIDFIGHTNODEIDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9457B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightNodeIdConfig_TypeDefinitionIndex = 10551;
+	inline static constexpr unsigned int GridFightNodeIdConfig_TypeDefinitionIndex = 10562;
 
 	class GridFightNodeIdConfig : public ::RPG::GameCore::JsonConfig
 	{

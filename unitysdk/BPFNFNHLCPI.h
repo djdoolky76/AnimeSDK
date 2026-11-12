@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DecoupleParentTransform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPFNFNHLCPI_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A46F0)
-#define BPFNFNHLCPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1A4720)
+#define BPFNFNHLCPI_CTOR_OFFSET UNITYSDK_OFFSET(0xCB45240)
+#define BPFNFNHLCPI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB45270)
 
-inline static constexpr unsigned int BPFNFNHLCPI_TypeDefinitionIndex = 54994;
+inline static constexpr unsigned int BPFNFNHLCPI_TypeDefinitionIndex = 56168;
 
 	class BPFNFNHLCPI
 	{

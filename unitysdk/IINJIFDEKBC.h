@@ -8,23 +8,23 @@ namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define IINJIFDEKBC_BLPFHIOJJLP_OFFSET UNITYSDK_OFFSET(0x16454200)
-#define IINJIFDEKBC_CGEJOHMBJFE_OFFSET UNITYSDK_OFFSET(0x16453D50)
-#define IINJIFDEKBC_CTOR_OFFSET UNITYSDK_OFFSET(0x164539C0)
-#define IINJIFDEKBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16453A20)
-#define IINJIFDEKBC_GIMLFBJHECH_OFFSET UNITYSDK_OFFSET(0x16453AD0)
-#define IINJIFDEKBC_LGPCCEMAJDM_OFFSET UNITYSDK_OFFSET(0x164543F0)
-#define IINJIFDEKBC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16453DC0)
+#define IINJIFDEKBC_BLPFHIOJJLP_OFFSET UNITYSDK_OFFSET(0x1741CD60)
+#define IINJIFDEKBC_CGEJOHMBJFE_OFFSET UNITYSDK_OFFSET(0x1741C8B0)
+#define IINJIFDEKBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1741C500)
+#define IINJIFDEKBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1741C560)
+#define IINJIFDEKBC_GIMLFBJHECH_OFFSET UNITYSDK_OFFSET(0x1741C610)
+#define IINJIFDEKBC_LGPCCEMAJDM_OFFSET UNITYSDK_OFFSET(0x1741CF50)
+#define IINJIFDEKBC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1741C920)
 
-inline static constexpr unsigned int IINJIFDEKBC_TypeDefinitionIndex = 69101;
+inline static constexpr unsigned int IINJIFDEKBC_TypeDefinitionIndex = 71054;
 
 	class IINJIFDEKBC : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* MGNJFJDHPAN; // 0x10
 		::UnityEngine::GameObject* BBFICHMOMOH; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* OPOECLNGMAB; // 0x20
-		::UnityEngine::Transform* PNHDMLKLONE; // 0x28
+		::UnityEngine::Transform* PNHDMLKLONE; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* OPOECLNGMAB; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IINJIFDEKBC_CTOR_OFFSET))(this);

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/Schema/FacetsChecker.h"
 
-#define SYSTEM_XML_SCHEMA_MISCFACETSCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAE180)
+#define SYSTEM_XML_SCHEMA_MISCFACETSCHECKER_CTOR_OFFSET UNITYSDK_OFFSET(0x2015D8F0)
 
 namespace System::Xml::Schema
 {

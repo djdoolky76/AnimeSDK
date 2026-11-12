@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack::Resolvers { class BuiltinResolver; }
 
-#define MESSAGEPACK_RESOLVERS_BUILTINRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBCDC50)
-#define MESSAGEPACK_RESOLVERS_BUILTINRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBCDC40)
+#define MESSAGEPACK_RESOLVERS_BUILTINRESOLVER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD56BC0)
+#define MESSAGEPACK_RESOLVERS_BUILTINRESOLVER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD56BB0)
 
 namespace MessagePack::Resolvers
 {
-	inline static constexpr unsigned int BuiltinResolver_TypeDefinitionIndex = 7252;
+	inline static constexpr unsigned int BuiltinResolver_TypeDefinitionIndex = 7263;
 
 	class BuiltinResolver : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Resolvers::BuiltinResolver** StaticGet_Instance()
 		{
-			return (::MessagePack::Resolvers::BuiltinResolver**)UnitySDK::FromName("MessagePack.Resolvers", "BuiltinResolver")->GetStaticField(0x26600);
+			return (::MessagePack::Resolvers::BuiltinResolver**)UnitySDK::FromName("MessagePack.Resolvers", "BuiltinResolver")->GetStaticField(0x4AEA0);
 		}
 
 		::System::Void _ctor()

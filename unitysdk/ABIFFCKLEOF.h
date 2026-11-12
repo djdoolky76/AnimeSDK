@@ -6,32 +6,32 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ABIFFCKLEOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C580EE0)
-#define ABIFFCKLEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C580ED0)
-#define ABIFFCKLEOF_EBKOAAPDLOD_OFFSET UNITYSDK_OFFSET(0x1C580BC0)
-#define ABIFFCKLEOF_ICDGPECDPFO_OFFSET UNITYSDK_OFFSET(0x1C580C30)
-#define ABIFFCKLEOF_MEBPCCPOMHK_1_OFFSET UNITYSDK_OFFSET(0x1C580D60)
-#define ABIFFCKLEOF_MEBPCCPOMHK_2_OFFSET UNITYSDK_OFFSET(0x1C580E10)
-#define ABIFFCKLEOF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1C580CB0)
+#define ABIFFCKLEOF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D702800)
+#define ABIFFCKLEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7027F0)
+#define ABIFFCKLEOF_EBKOAAPDLOD_OFFSET UNITYSDK_OFFSET(0x1D7024E0)
+#define ABIFFCKLEOF_ICDGPECDPFO_OFFSET UNITYSDK_OFFSET(0x1D702550)
+#define ABIFFCKLEOF_MEBPCCPOMHK_1_OFFSET UNITYSDK_OFFSET(0x1D702680)
+#define ABIFFCKLEOF_MEBPCCPOMHK_2_OFFSET UNITYSDK_OFFSET(0x1D702730)
+#define ABIFFCKLEOF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1D7025D0)
 
-inline static constexpr unsigned int ABIFFCKLEOF_TypeDefinitionIndex = 37006;
+inline static constexpr unsigned int ABIFFCKLEOF_TypeDefinitionIndex = 37934;
 
 	class ABIFFCKLEOF : public ::System::Object
 	{
 	public:
+		static ::RPG::MVector3* StaticGet_EMHOCDLFGBN()
+		{
+			return (::RPG::MVector3*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x148F0);
+		}
+
 		static ::System::Guid* StaticGet_ALCCFEHEOBN()
 		{
-			return (::System::Guid*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x12E20);
+			return (::System::Guid*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x148FC);
 		}
 
 		static ::System::Single* StaticGet_LCHEBJKNFNF()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x12E30);
-		}
-
-		static ::RPG::MVector3* StaticGet_EMHOCDLFGBN()
-		{
-			return (::RPG::MVector3*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x12E34);
+			return (::System::Single*)UnitySDK::FromName("", "ABIFFCKLEOF")->GetStaticField(0x1490C);
 		}
 
 		// static const ::System::Object GONCEDKMGHL; // 0x0

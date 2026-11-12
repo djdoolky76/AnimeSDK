@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIWAREPS4_CTOR_OFFSET UNITYSDK_OFFSET(0x16737C00)
-#define CRIWARE_CRIWAREPS4_ISBGMOVERRIDDEN_OFFSET UNITYSDK_OFFSET(0x16737BF0)
+#define CRIWARE_CRIWAREPS4_CTOR_OFFSET UNITYSDK_OFFSET(0x1757BEA0)
+#define CRIWARE_CRIWAREPS4_ISBGMOVERRIDDEN_OFFSET UNITYSDK_OFFSET(0x1757BE90)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWarePS4_TypeDefinitionIndex = 39921;
+	inline static constexpr unsigned int CriWarePS4_TypeDefinitionIndex = 40896;
 
 	class CriWarePS4 : public ::System::Object
 	{

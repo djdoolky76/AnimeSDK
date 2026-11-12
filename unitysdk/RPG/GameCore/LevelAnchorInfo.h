@@ -7,13 +7,13 @@ namespace RPG::GameCore { class LevelAnchorInfo; }
 namespace RPG::GameCore { class LevelAnchorParameter; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A4ED0)
-#define RPG_GAMECORE_LEVELANCHORINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7A4EE0)
-#define RPG_GAMECORE_LEVELANCHORINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A4EA0)
+#define RPG_GAMECORE_LEVELANCHORINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E8190)
+#define RPG_GAMECORE_LEVELANCHORINFO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9E81A0)
+#define RPG_GAMECORE_LEVELANCHORINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9E8160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAnchorInfo_TypeDefinitionIndex = 17246;
+	inline static constexpr unsigned int LevelAnchorInfo_TypeDefinitionIndex = 17414;
 
 	class LevelAnchorInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{

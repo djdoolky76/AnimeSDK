@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFetchPuzzleEntityType_TypeDefinitionIndex = 24794;
+	inline static constexpr unsigned int TargetFetchPuzzleEntityType_TypeDefinitionIndex = 25274;
 
 	enum class TargetFetchPuzzleEntityType : ::System::Int32
 	{

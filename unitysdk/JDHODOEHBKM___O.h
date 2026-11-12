@@ -3,14 +3,14 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-inline static constexpr unsigned int JDHODOEHBKM___O_TypeDefinitionIndex = 73333;
+inline static constexpr unsigned int JDHODOEHBKM___O_TypeDefinitionIndex = 75450;
 
 	class JDHODOEHBKM___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0____RecycleNextFrameImpl()
 		{
-			return (::System::Action**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6F140);
+			return (::System::Action**)UnitySDK::FromName("", "<>O")->GetStaticField(0x66EE0);
 		}
 
 	};

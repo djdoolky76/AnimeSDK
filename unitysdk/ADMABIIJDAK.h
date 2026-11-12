@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetMissionAudioState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADMABIIJDAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB146710)
-#define ADMABIIJDAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB146740)
+#define ADMABIIJDAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AB9D0)
+#define ADMABIIJDAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7ABA00)
 
-inline static constexpr unsigned int ADMABIIJDAK_TypeDefinitionIndex = 58397;
+inline static constexpr unsigned int ADMABIIJDAK_TypeDefinitionIndex = 59653;
 
 	class ADMABIIJDAK
 	{

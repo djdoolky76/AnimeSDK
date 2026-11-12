@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xAFE0A20)
-#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIG_GETLOGINTYPE_OFFSET UNITYSDK_OFFSET(0xAFE0860)
+#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB641CA0)
+#define MIHOYO_SDK_MIHOYOSDKTHIRDLOGINCONFIG_GETLOGINTYPE_OFFSET UNITYSDK_OFFSET(0xB641B00)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfig_TypeDefinitionIndex = 46336;
+	inline static constexpr unsigned int MiHoYoSDKThirdLoginConfig_TypeDefinitionIndex = 47364;
 
 	class MiHoYoSDKThirdLoginConfig : public ::System::Object
 	{

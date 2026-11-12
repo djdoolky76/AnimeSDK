@@ -9,13 +9,13 @@ namespace RPG::GameCore { class TaskListTemplate; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88D740)
-#define RPG_GAMECORE_MODIFIERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D88D750)
-#define RPG_GAMECORE_MODIFIERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88D3F0)
+#define RPG_GAMECORE_MODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA7AB0)
+#define RPG_GAMECORE_MODIFIERCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAA7AC0)
+#define RPG_GAMECORE_MODIFIERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA7760)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierConfig_TypeDefinitionIndex = 15649;
+	inline static constexpr unsigned int ModifierConfig_TypeDefinitionIndex = 15807;
 
 	class ModifierConfig : public ::RPG::GameCore::JsonConfig
 	{

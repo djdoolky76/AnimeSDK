@@ -4,18 +4,18 @@
 class EMGMPNOKJGL;
 namespace System { class Object; }
 
-#define EMGMPNOKJGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2E1610)
-#define EMGMPNOKJGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2E1650)
-#define EMGMPNOKJGL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2E1660)
+#define EMGMPNOKJGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5C58D0)
+#define EMGMPNOKJGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5C5910)
+#define EMGMPNOKJGL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F5C5920)
 
-inline static constexpr unsigned int EMGMPNOKJGL___c_TypeDefinitionIndex = 30155;
+inline static constexpr unsigned int EMGMPNOKJGL___c_TypeDefinitionIndex = 31053;
 
 	class EMGMPNOKJGL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53010);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CFA0);
 		}
 
 		static ::System::Void _cctor()

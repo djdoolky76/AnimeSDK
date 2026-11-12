@@ -4,18 +4,18 @@
 class ALOLLLFPILL;
 namespace System { class Object; }
 
-#define ALOLLLFPILL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5156D0)
-#define ALOLLLFPILL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E515710)
-#define ALOLLLFPILL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E515720)
+#define ALOLLLFPILL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7D0070)
+#define ALOLLLFPILL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7D00B0)
+#define ALOLLLFPILL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F7D00C0)
 
-inline static constexpr unsigned int ALOLLLFPILL___c_TypeDefinitionIndex = 32197;
+inline static constexpr unsigned int ALOLLLFPILL___c_TypeDefinitionIndex = 33110;
 
 	class ALOLLLFPILL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A8F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E730);
 		}
 
 		static ::System::Void _cctor()

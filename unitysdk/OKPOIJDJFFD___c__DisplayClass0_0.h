@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define OKPOIJDJFFD___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C57AD80)
-#define OKPOIJDJFFD___C__DISPLAYCLASS0_0__APPLY_B__0_OFFSET UNITYSDK_OFFSET(0x1C57B040)
+#define OKPOIJDJFFD___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FC6C0)
+#define OKPOIJDJFFD___C__DISPLAYCLASS0_0__APPLY_B__0_OFFSET UNITYSDK_OFFSET(0x1D6FC980)
 
-inline static constexpr unsigned int OKPOIJDJFFD___c__DisplayClass0_0_TypeDefinitionIndex = 41662;
+inline static constexpr unsigned int OKPOIJDJFFD___c__DisplayClass0_0_TypeDefinitionIndex = 42637;
 
 	class OKPOIJDJFFD___c__DisplayClass0_0 : public ::System::Object
 	{

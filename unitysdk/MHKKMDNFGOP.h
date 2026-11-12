@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsProjectileHitTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MHKKMDNFGOP_CTOR_OFFSET UNITYSDK_OFFSET(0xB945360)
-#define MHKKMDNFGOP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB945390)
+#define MHKKMDNFGOP_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F9CA0)
+#define MHKKMDNFGOP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC1F9CD0)
 
-inline static constexpr unsigned int MHKKMDNFGOP_TypeDefinitionIndex = 54678;
+inline static constexpr unsigned int MHKKMDNFGOP_TypeDefinitionIndex = 55844;
 
 	class MHKKMDNFGOP
 	{

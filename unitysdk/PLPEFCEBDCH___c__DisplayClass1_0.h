@@ -4,10 +4,10 @@
 class PLPEFCEBDCH;
 namespace System { class String; }
 
-#define PLPEFCEBDCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC30E260)
-#define PLPEFCEBDCH___C__DISPLAYCLASS1_0__PLAYANIMFROMEND_B__0_OFFSET UNITYSDK_OFFSET(0xC30E770)
+#define PLPEFCEBDCH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC3CCF0)
+#define PLPEFCEBDCH___C__DISPLAYCLASS1_0__PLAYANIMFROMEND_B__0_OFFSET UNITYSDK_OFFSET(0xCC3D260)
 
-inline static constexpr unsigned int PLPEFCEBDCH___c__DisplayClass1_0_TypeDefinitionIndex = 72013;
+inline static constexpr unsigned int PLPEFCEBDCH___c__DisplayClass1_0_TypeDefinitionIndex = 74042;
 
 	class PLPEFCEBDCH___c__DisplayClass1_0 : public ::System::Object
 	{

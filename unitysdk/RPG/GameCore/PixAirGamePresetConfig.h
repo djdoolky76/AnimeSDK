@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirGamePresetConfig; }
 namespace RPG::GameCore { class PixAirPlanePresetConfig; }
 
-#define RPG_GAMECORE_PIXAIRGAMEPRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D91C0E0)
-#define RPG_GAMECORE_PIXAIRGAMEPRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D91BFC0)
+#define RPG_GAMECORE_PIXAIRGAMEPRESETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB352F0)
+#define RPG_GAMECORE_PIXAIRGAMEPRESETCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB351D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirGamePresetConfig_TypeDefinitionIndex = 16248;
+	inline static constexpr unsigned int PixAirGamePresetConfig_TypeDefinitionIndex = 16406;
 
 	class PixAirGamePresetConfig : public ::RPG::GameCore::JsonConfig
 	{

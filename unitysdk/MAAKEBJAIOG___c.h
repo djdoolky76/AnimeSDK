@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define MAAKEBJAIOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5702B0)
-#define MAAKEBJAIOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5702F0)
-#define MAAKEBJAIOG___C__BINDTARGETCHIPSONLYCONSTRAINTS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C570300)
+#define MAAKEBJAIOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6F1C40)
+#define MAAKEBJAIOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F1C80)
+#define MAAKEBJAIOG___C__BINDTARGETCHIPSONLYCONSTRAINTS_B__12_0_OFFSET UNITYSDK_OFFSET(0x1D6F1C90)
 
-inline static constexpr unsigned int MAAKEBJAIOG___c_TypeDefinitionIndex = 41810;
+inline static constexpr unsigned int MAAKEBJAIOG___c_TypeDefinitionIndex = 42785;
 
 	class MAAKEBJAIOG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18940);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11370);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::UInt32>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18948);
+			return (::System::Func_2<::System::Int32, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11378);
 		}
 
 		static ::System::Void _cctor()

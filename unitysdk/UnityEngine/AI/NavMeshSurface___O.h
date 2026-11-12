@@ -5,14 +5,14 @@ namespace UnityEngine::AI { class NavMesh_OnNavMeshPreUpdate; }
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int NavMeshSurface___O_TypeDefinitionIndex = 41354;
+	inline static constexpr unsigned int NavMeshSurface___O_TypeDefinitionIndex = 42329;
 
 	class NavMeshSurface___O : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate** StaticGet__0___UpdateActive()
 		{
-			return (::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate**)UnitySDK::FromName("UnityEngine.AI", "<>O")->GetStaticField(0xBD0);
+			return (::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate**)UnitySDK::FromName("UnityEngine.AI", "<>O")->GetStaticField(0xCD0);
 		}
 
 	};

@@ -8,41 +8,41 @@ class OLLEOCLINLN;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define HLKOBNFAMOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D63E10)
-#define HLKOBNFAMOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15D63E50)
-#define HLKOBNFAMOI___C__EQUIPLIGHTCONE_B__2_0_OFFSET UNITYSDK_OFFSET(0x15D63E60)
-#define HLKOBNFAMOI___C__EQUIPRELICS_B__4_0_OFFSET UNITYSDK_OFFSET(0x15D63E80)
-#define HLKOBNFAMOI___C__TAKEOFFLIGHTCONE_B__3_0_OFFSET UNITYSDK_OFFSET(0x15D63E70)
-#define HLKOBNFAMOI___C__TAKEOFFRELICS_B__5_0_OFFSET UNITYSDK_OFFSET(0x15D63E90)
+#define HLKOBNFAMOI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16CBF1B0)
+#define HLKOBNFAMOI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16CBF1F0)
+#define HLKOBNFAMOI___C__EQUIPLIGHTCONE_B__2_0_OFFSET UNITYSDK_OFFSET(0x16CBF200)
+#define HLKOBNFAMOI___C__EQUIPRELICS_B__4_0_OFFSET UNITYSDK_OFFSET(0x16CBF220)
+#define HLKOBNFAMOI___C__TAKEOFFLIGHTCONE_B__3_0_OFFSET UNITYSDK_OFFSET(0x16CBF210)
+#define HLKOBNFAMOI___C__TAKEOFFRELICS_B__5_0_OFFSET UNITYSDK_OFFSET(0x16CBF230)
 
-inline static constexpr unsigned int HLKOBNFAMOI___c_TypeDefinitionIndex = 62761;
+inline static constexpr unsigned int HLKOBNFAMOI___c_TypeDefinitionIndex = 64201;
 
 	class HLKOBNFAMOI___c : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::OLLEOCLINLN*>** StaticGet___9__4_0()
+		{
+			return (::System::Action_1<::OLLEOCLINLN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16EE0);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D370);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16EE8);
 		}
 
 		static ::System::Action_1<::DEIKCHNBAGL*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::DEIKCHNBAGL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D378);
-		}
-
-		static ::System::Action_1<::EEANCDFECGN*>** StaticGet___9__5_0()
-		{
-			return (::System::Action_1<::EEANCDFECGN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D380);
-		}
-
-		static ::System::Action_1<::OLLEOCLINLN*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_1<::OLLEOCLINLN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D388);
+			return (::System::Action_1<::DEIKCHNBAGL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16EF0);
 		}
 
 		static ::System::Action_1<::KEALONANBJO*>** StaticGet___9__3_0()
 		{
-			return (::System::Action_1<::KEALONANBJO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D390);
+			return (::System::Action_1<::KEALONANBJO*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16EF8);
+		}
+
+		static ::System::Action_1<::EEANCDFECGN*>** StaticGet___9__5_0()
+		{
+			return (::System::Action_1<::EEANCDFECGN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16F00);
 		}
 
 		static ::System::Void _cctor()

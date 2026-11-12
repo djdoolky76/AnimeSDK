@@ -5,11 +5,11 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraPostSoundEvent; }
 
-#define IFHPADKLOHC_CTOR_OFFSET UNITYSDK_OFFSET(0x15F17A30)
-#define IFHPADKLOHC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x15F17A80)
-#define IFHPADKLOHC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15F17AC0)
+#define IFHPADKLOHC_CTOR_OFFSET UNITYSDK_OFFSET(0x16E868F0)
+#define IFHPADKLOHC_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0x16E86940)
+#define IFHPADKLOHC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x16E86980)
 
-inline static constexpr unsigned int IFHPADKLOHC_TypeDefinitionIndex = 78415;
+inline static constexpr unsigned int IFHPADKLOHC_TypeDefinitionIndex = 81150;
 
 	class IFHPADKLOHC : public ::System::Object
 	{
@@ -17,8 +17,8 @@ inline static constexpr unsigned int IFHPADKLOHC_TypeDefinitionIndex = 78415;
 		::RPG::GameCore::ChimeraPostSoundEvent* IGHAHBNLIJA; // 0x10
 		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
 		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x20
-		::System::UInt32 AJLJMGEEKOJ; // 0x28
-		::System::UInt32 NCBAPGKFFJA; // 0x2C
+		::System::UInt32 NCBAPGKFFJA; // 0x28
+		::System::UInt32 AJLJMGEEKOJ; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::ChimeraPostSoundEvent* a1, ::System::UInt32 a2, ::System::UInt32 a3, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraPostSoundEvent*, ::System::UInt32, ::System::UInt32, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*))((::PBYTE)hIl2Cpp + IFHPADKLOHC_CTOR_OFFSET))(this, a1, a2, a3, a4);

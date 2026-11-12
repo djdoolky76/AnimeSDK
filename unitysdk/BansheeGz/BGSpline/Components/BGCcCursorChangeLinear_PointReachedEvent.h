@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E9070)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGCCCURSORCHANGELINEAR_POINTREACHEDEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D66B330)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGCcCursorChangeLinear_PointReachedEvent_TypeDefinitionIndex = 36035;
+	inline static constexpr unsigned int BGCcCursorChangeLinear_PointReachedEvent_TypeDefinitionIndex = 36963;
 
 	class BGCcCursorChangeLinear_PointReachedEvent
 	{

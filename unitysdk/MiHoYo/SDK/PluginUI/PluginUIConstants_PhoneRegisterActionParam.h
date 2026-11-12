@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_PhoneRegisterActionParam_TypeDefinitionIndex = 9203;
+	inline static constexpr unsigned int PluginUIConstants_PhoneRegisterActionParam_TypeDefinitionIndex = 9212;
 
 	class PluginUIConstants_PhoneRegisterActionParam : public ::System::Object
 	{

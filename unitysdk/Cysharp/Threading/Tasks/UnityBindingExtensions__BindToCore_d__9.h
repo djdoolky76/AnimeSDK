@@ -9,29 +9,29 @@ namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 namespace UnityEngine::UI { class Selectable; }
 
-#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5F7B0)
+#define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3EAEB30)
 #define CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__9_TypeDefinitionIndex = 38491;
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__9_TypeDefinitionIndex = 39420;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__9
 	{
-		::System::Object* __7__wrap3; // 0x10
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Boolean>* source; // 0x18
+		::UnityEngine::UI::Selectable* selectable; // 0x10
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Boolean>* _e_5__3; // 0x18
 		::System::Threading::CancellationToken cancellationToken; // 0x20
-		::UnityEngine::UI::Selectable* selectable; // 0x28
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Boolean>* _e_5__3; // 0x30
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x38
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x48
-		::System::Object* __u__1; // 0x50
+		::System::Object* __u__1; // 0x28
 		::System::Byte _padding0[0x8];
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskVoidMethodBuilder __t__builder; // 0x38
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x40
+		::System::Object* __7__wrap3; // 0x50
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Boolean>* source; // 0x58
 		::System::Int32 __7__wrap4; // 0x60
 		::System::Int32 __1__state; // 0x64
-		::System::Boolean rebindOnError; // 0x68
-		::System::Boolean _repeat_5__2; // 0x69
+		::System::Boolean _repeat_5__2; // 0x68
+		::System::Boolean rebindOnError; // 0x69
 		::System::Void MoveNext()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CYSHARP_THREADING_TASKS_UNITYBINDINGEXTENSIONS__BINDTOCORE_D__9_MOVENEXT_OFFSET))(this);

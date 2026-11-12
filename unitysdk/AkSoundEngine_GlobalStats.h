@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AkSoundEngine_GlobalStats_TypeDefinitionIndex = 44802;
+inline static constexpr unsigned int AkSoundEngine_GlobalStats_TypeDefinitionIndex = 45877;
 
 	struct alignas(4) AkSoundEngine_GlobalStats
 	{

@@ -3,10 +3,10 @@
 class MLMOAFNJPBG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLEDJDANOKL_CTOR_OFFSET UNITYSDK_OFFSET(0xF89A930)
-#define DLEDJDANOKL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xF89A960)
+#define DLEDJDANOKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1060A260)
+#define DLEDJDANOKL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1060A290)
 
-inline static constexpr unsigned int DLEDJDANOKL_TypeDefinitionIndex = 52549;
+inline static constexpr unsigned int DLEDJDANOKL_TypeDefinitionIndex = 53655;
 
 	class DLEDJDANOKL
 	{

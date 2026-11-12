@@ -2,9 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KKNFPOBBEKE_DBOBDPMCMAC_OFFSET UNITYSDK_OFFSET(0xB4D6440)
+#define KKNFPOBBEKE_CODIPLCLPGN_OFFSET UNITYSDK_OFFSET(0xBD1F830)
+#define KKNFPOBBEKE_DBOBDPMCMAC_OFFSET UNITYSDK_OFFSET(0xBD1F7F0)
 
-inline static constexpr unsigned int KKNFPOBBEKE_TypeDefinitionIndex = 74813;
+inline static constexpr unsigned int KKNFPOBBEKE_TypeDefinitionIndex = 76983;
 
 	class KKNFPOBBEKE : public ::System::Object
 	{
@@ -14,6 +15,11 @@ inline static constexpr unsigned int KKNFPOBBEKE_TypeDefinitionIndex = 74813;
 		static ::System::UInt32 DBOBDPMCMAC()
 		{
 			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + KKNFPOBBEKE_DBOBDPMCMAC_OFFSET))();
+		}
+
+		static ::System::UInt32 CODIPLCLPGN()
+		{
+			return ((::System::UInt32(*)())((::PBYTE)hIl2Cpp + KKNFPOBBEKE_CODIPLCLPGN_OFFSET))();
 		}
 
 	};

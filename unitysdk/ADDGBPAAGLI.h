@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MarblePauseGame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADDGBPAAGLI_CTOR_OFFSET UNITYSDK_OFFSET(0xB135830)
-#define ADDGBPAAGLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB135860)
+#define ADDGBPAAGLI_CTOR_OFFSET UNITYSDK_OFFSET(0xB79CC60)
+#define ADDGBPAAGLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB79CC90)
 
-inline static constexpr unsigned int ADDGBPAAGLI_TypeDefinitionIndex = 52304;
+inline static constexpr unsigned int ADDGBPAAGLI_TypeDefinitionIndex = 53410;
 
 	class ADDGBPAAGLI
 	{

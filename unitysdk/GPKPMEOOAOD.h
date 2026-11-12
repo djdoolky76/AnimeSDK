@@ -3,10 +3,10 @@
 class JCDELEMIIME;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GPKPMEOOAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B5D5A0)
-#define GPKPMEOOAOD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B5D5D0)
+#define GPKPMEOOAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x16AE2FD0)
+#define GPKPMEOOAOD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16AE3000)
 
-inline static constexpr unsigned int GPKPMEOOAOD_TypeDefinitionIndex = 52780;
+inline static constexpr unsigned int GPKPMEOOAOD_TypeDefinitionIndex = 53924;
 
 	class GPKPMEOOAOD
 	{

@@ -9,61 +9,61 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BD251C0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BD25200)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__CHECKACCOUNTPLATFORMANDLOGIN_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BD252D0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__CHECKACCOUNTPLATFORMANDLOGIN_B__22_1_OFFSET UNITYSDK_OFFSET(0x1BD25420)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__ONHANDHELDCHANNELLOGIN_B__19_2_OFFSET UNITYSDK_OFFSET(0x1BD25270)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__ONMDKORAUTHTICKETLOGIN_B__18_6_OFFSET UNITYSDK_OFFSET(0x1BD25210)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__ONREQUESTCOMBOLOGIN_B__27_3_OFFSET UNITYSDK_OFFSET(0x1BD25480)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__OPENURLWITHLOGINSTATUS_B__32_1_OFFSET UNITYSDK_OFFSET(0x1BD254E0)
-#define MIHOYO_SDK_WIN_COMBOMANAGER___C__REQUESTREDPOINT_B__46_0_OFFSET UNITYSDK_OFFSET(0x1BD25560)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CEAE130)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEAE170)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__CHECKACCOUNTPLATFORMANDLOGIN_B__22_0_OFFSET UNITYSDK_OFFSET(0x1CEAE240)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__CHECKACCOUNTPLATFORMANDLOGIN_B__22_1_OFFSET UNITYSDK_OFFSET(0x1CEAE390)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__ONHANDHELDCHANNELLOGIN_B__19_2_OFFSET UNITYSDK_OFFSET(0x1CEAE1E0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__ONMDKORAUTHTICKETLOGIN_B__18_6_OFFSET UNITYSDK_OFFSET(0x1CEAE180)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__ONREQUESTCOMBOLOGIN_B__27_3_OFFSET UNITYSDK_OFFSET(0x1CEAE3F0)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__OPENURLWITHLOGINSTATUS_B__32_1_OFFSET UNITYSDK_OFFSET(0x1CEAE450)
+#define MIHOYO_SDK_WIN_COMBOMANAGER___C__REQUESTREDPOINT_B__46_0_OFFSET UNITYSDK_OFFSET(0x1CEAE4D0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int ComboManager___c_TypeDefinitionIndex = 9415;
+	inline static constexpr unsigned int ComboManager___c_TypeDefinitionIndex = 9423;
 
 	class ComboManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEE0);
-		}
-
-		static ::System::Action_1<::System::String*>** StaticGet___9__27_3()
-		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEE8);
-		}
-
-		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__46_0()
-		{
-			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEF0);
-		}
-
 		static ::MiHoYo::SDK::Web_OnWebViewPageClose** StaticGet___9__32_1()
 		{
-			return (::MiHoYo::SDK::Web_OnWebViewPageClose**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CEF8);
-		}
-
-		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__22_0()
-		{
-			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF00);
-		}
-
-		static ::System::Action_1<::System::String*>** StaticGet___9__19_2()
-		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF08);
-		}
-
-		static ::System::Action_1<::System::String*>** StaticGet___9__18_6()
-		{
-			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF10);
+			return (::MiHoYo::SDK::Web_OnWebViewPageClose**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A50);
 		}
 
 		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__22_1()
 		{
-			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x1CF18);
+			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A58);
+		}
+
+		static ::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler** StaticGet___9__22_0()
+		{
+			return (::MiHoYo::SDK::AccountPlatformPlugin_MessageHandler**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A60);
+		}
+
+		static ::System::Action_1<::System::String*>** StaticGet___9__27_3()
+		{
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A68);
+		}
+
+		static ::System::Action_1<::System::String*>** StaticGet___9__19_2()
+		{
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A70);
+		}
+
+		static ::System::Action_1<::System::String*>** StaticGet___9__18_6()
+		{
+			return (::System::Action_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A78);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A80);
+		}
+
+		static ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>** StaticGet___9__46_0()
+		{
+			return (::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x28A88);
 		}
 
 		static ::System::Void _cctor()

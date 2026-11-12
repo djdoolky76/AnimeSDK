@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideChallengeType_TypeDefinitionIndex = 13383;
+	inline static constexpr unsigned int GuideChallengeType_TypeDefinitionIndex = 13455;
 
 	enum class GuideChallengeType : ::System::Int32
 	{

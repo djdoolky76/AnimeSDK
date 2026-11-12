@@ -4,7 +4,7 @@
 
 #define AIJMAGPODFP_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 
-inline static constexpr unsigned int AIJMAGPODFP_TypeDefinitionIndex = 58811;
+inline static constexpr unsigned int AIJMAGPODFP_TypeDefinitionIndex = 60079;
 
 	struct alignas(4) AIJMAGPODFP
 	{

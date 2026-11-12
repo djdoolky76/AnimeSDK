@@ -5,12 +5,12 @@ namespace MiHoYo::SDK::PC::OS { class EpicPayInfo; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelEpic; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF27C10)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS18_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BF28C00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AE7A0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELEPIC___C__DISPLAYCLASS18_0__PAY_B__0_OFFSET UNITYSDK_OFFSET(0x1D0AF790)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelEpic___c__DisplayClass18_0_TypeDefinitionIndex = 8521;
+	inline static constexpr unsigned int HoYoChannelEpic___c__DisplayClass18_0_TypeDefinitionIndex = 8530;
 
 	class HoYoChannelEpic___c__DisplayClass18_0 : public ::System::Object
 	{

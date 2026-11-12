@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CacheUI; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CACHEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5463A0)
-#define RPG_GAMECORE_CACHEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5463B0)
-#define RPG_GAMECORE_CACHEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D546370)
+#define RPG_GAMECORE_CACHEUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E758500)
+#define RPG_GAMECORE_CACHEUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E758510)
+#define RPG_GAMECORE_CACHEUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7584D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CacheUI_TypeDefinitionIndex = 21702;
+	inline static constexpr unsigned int CacheUI_TypeDefinitionIndex = 22091;
 
 	class CacheUI : public ::RPG::GameCore::TaskConfig
 	{

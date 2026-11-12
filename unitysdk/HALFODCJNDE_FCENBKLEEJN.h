@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-inline static constexpr unsigned int HALFODCJNDE_FCENBKLEEJN_TypeDefinitionIndex = 51778;
+inline static constexpr unsigned int HALFODCJNDE_FCENBKLEEJN_TypeDefinitionIndex = 52864;
 
 	struct alignas(4) HALFODCJNDE_FCENBKLEEJN
 	{

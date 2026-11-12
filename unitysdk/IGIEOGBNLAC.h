@@ -6,23 +6,23 @@ class BCFAKEGJPKN;
 class JLNEKELMDNJ;
 class PJPPGJEDCOG;
 
-#define IGIEOGBNLAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54CC80)
-#define IGIEOGBNLAC_GET_CUSTOMERACTORCONFIG_OFFSET UNITYSDK_OFFSET(0x1C562E60)
-#define IGIEOGBNLAC_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1C562E40)
-#define IGIEOGBNLAC_GET_ORDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1C562E50)
-#define IGIEOGBNLAC_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1C562E70)
-#define IGIEOGBNLAC_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1C562E80)
+#define IGIEOGBNLAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CE650)
+#define IGIEOGBNLAC_GET_CUSTOMERACTORCONFIG_OFFSET UNITYSDK_OFFSET(0x1D6E4820)
+#define IGIEOGBNLAC_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x1D6E4800)
+#define IGIEOGBNLAC_GET_ORDERCONFIG_OFFSET UNITYSDK_OFFSET(0x1D6E4810)
+#define IGIEOGBNLAC_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0x1D6E4830)
+#define IGIEOGBNLAC_GET_STATE_OFFSET UNITYSDK_OFFSET(0x1D6E4840)
 
-inline static constexpr unsigned int IGIEOGBNLAC_TypeDefinitionIndex = 41868;
+inline static constexpr unsigned int IGIEOGBNLAC_TypeDefinitionIndex = 42843;
 
 	class IGIEOGBNLAC : public ::System::Object
 	{
 	public:
-		::PJPPGJEDCOG* _RequirementConfig_k__BackingField; // 0x10
+		::JLNEKELMDNJ* _OrderConfig_k__BackingField; // 0x10
 		::BCFAKEGJPKN* _CustomerActorConfig_k__BackingField; // 0x18
-		::JLNEKELMDNJ* _OrderConfig_k__BackingField; // 0x20
-		::RPG::Client::MechCraft::MechCraftOrderState _State_k__BackingField; // 0x28
-		::System::UInt32 _Identifier_k__BackingField; // 0x2C
+		::PJPPGJEDCOG* _RequirementConfig_k__BackingField; // 0x20
+		::System::UInt32 _Identifier_k__BackingField; // 0x28
+		::RPG::Client::MechCraft::MechCraftOrderState _State_k__BackingField; // 0x2C
 		::System::Void _ctor(::System::UInt32 a1, ::JLNEKELMDNJ* a2, ::BCFAKEGJPKN* a3, ::PJPPGJEDCOG* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::JLNEKELMDNJ*, ::BCFAKEGJPKN*, ::PJPPGJEDCOG*))((::PBYTE)hIl2Cpp + IGIEOGBNLAC_CTOR_OFFSET))(this, a1, a2, a3, a4);

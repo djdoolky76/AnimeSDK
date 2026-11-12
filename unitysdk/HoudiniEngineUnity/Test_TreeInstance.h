@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/TreeInstance.h"
 namespace HoudiniEngineUnity { class Test_TreeInstance; }
 
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B76F0)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B7710)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB40620)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CB40640)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TreeInstance_TypeDefinitionIndex = 40757;
+	inline static constexpr unsigned int Test_TreeInstance_TypeDefinitionIndex = 41732;
 
 	class Test_TreeInstance : public ::System::Object
 	{

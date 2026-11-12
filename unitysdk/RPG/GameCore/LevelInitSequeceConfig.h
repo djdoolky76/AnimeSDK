@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelInitSequeceConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_LEVELINITSEQUECECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B1DD0)
-#define RPG_GAMECORE_LEVELINITSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7B1D10)
+#define RPG_GAMECORE_LEVELINITSEQUECECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F4DF0)
+#define RPG_GAMECORE_LEVELINITSEQUECECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9F4D30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelInitSequeceConfig_TypeDefinitionIndex = 18299;
+	inline static constexpr unsigned int LevelInitSequeceConfig_TypeDefinitionIndex = 18461;
 
 	class LevelInitSequeceConfig : public ::RPG::GameCore::JsonConfig
 	{

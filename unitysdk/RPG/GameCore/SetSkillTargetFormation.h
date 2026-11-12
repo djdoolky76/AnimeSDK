@@ -9,13 +9,13 @@ namespace RPG::GameCore { class SetSkillTargetFormation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TargetFormationConfig; }
 
-#define RPG_GAMECORE_SETSKILLTARGETFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC1580)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC15C0)
-#define RPG_GAMECORE_SETSKILLTARGETFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC1520)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD3800)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD3840)
+#define RPG_GAMECORE_SETSKILLTARGETFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD37A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSkillTargetFormation_TypeDefinitionIndex = 22494;
+	inline static constexpr unsigned int SetSkillTargetFormation_TypeDefinitionIndex = 22903;
 
 	class SetSkillTargetFormation : public ::RPG::GameCore::TaskConfig
 	{

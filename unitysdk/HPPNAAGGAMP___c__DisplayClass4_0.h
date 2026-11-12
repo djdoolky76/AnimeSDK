@@ -4,10 +4,10 @@
 class EBMMGODFEEO;
 namespace System { class String; }
 
-#define HPPNAAGGAMP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE18B0)
-#define HPPNAAGGAMP___C__DISPLAYCLASS4_0__BORROW_B__0_OFFSET UNITYSDK_OFFSET(0x15DE18C0)
+#define HPPNAAGGAMP___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16D81280)
+#define HPPNAAGGAMP___C__DISPLAYCLASS4_0__BORROW_B__0_OFFSET UNITYSDK_OFFSET(0x16D85F50)
 
-inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass4_0_TypeDefinitionIndex = 48487;
+inline static constexpr unsigned int HPPNAAGGAMP___c__DisplayClass4_0_TypeDefinitionIndex = 49528;
 
 	class HPPNAAGGAMP___c__DisplayClass4_0 : public ::System::Object
 	{

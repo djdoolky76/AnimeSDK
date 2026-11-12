@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class DialogueConditionRow; }
 
-#define AHCKMADNOKB_JONOPHJFBDI_OFFSET UNITYSDK_OFFSET(0xEB7AAB0)
+#define AHCKMADNOKB_JONOPHJFBDI_OFFSET UNITYSDK_OFFSET(0xF139BB0)
 
-inline static constexpr unsigned int AHCKMADNOKB_TypeDefinitionIndex = 56498;
+inline static constexpr unsigned int AHCKMADNOKB_TypeDefinitionIndex = 57718;
 
 	class AHCKMADNOKB : public ::System::Object
 	{

@@ -5,13 +5,13 @@ namespace RPG::Client::MechCraft::View { class MechCraftOrderItemControl; }
 namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderItemViewModel; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERITEMCONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD64D480)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERITEMCONTROL___C__DISPLAYCLASS14_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xD64DB00)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERITEMCONTROL___C__DISPLAYCLASS14_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0xD64DC50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERITEMCONTROL___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DC3E0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERITEMCONTROL___C__DISPLAYCLASS14_0___REFRESH_B__0_OFFSET UNITYSDK_OFFSET(0xE0DCAC0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTORDERITEMCONTROL___C__DISPLAYCLASS14_0___REFRESH_B__1_OFFSET UNITYSDK_OFFSET(0xE0DCC10)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftOrderItemControl___c__DisplayClass14_0_TypeDefinitionIndex = 80015;
+	inline static constexpr unsigned int MechCraftOrderItemControl___c__DisplayClass14_0_TypeDefinitionIndex = 82792;
 
 	class MechCraftOrderItemControl___c__DisplayClass14_0 : public ::System::Object
 	{

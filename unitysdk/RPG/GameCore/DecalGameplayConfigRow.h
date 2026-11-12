@@ -5,20 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DecalGameplayConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F8F40)
-#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5F8D80)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80AE90)
+#define RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E80A810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalGameplayConfigRow_TypeDefinitionIndex = 13127;
+	inline static constexpr unsigned int DecalGameplayConfigRow_TypeDefinitionIndex = 13195;
 
 	class DecalGameplayConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::System::String* TextureMapPath; // 0x18
-		::System::UInt32 DecalID; // 0x20
-		::System::UInt32 RequiredItemID; // 0x24
+		::System::String* TextureMapPath; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::UInt32 RequiredItemID; // 0x20
+		::System::UInt32 DecalID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_DECALGAMEPLAYCONFIGROW_CTOR_OFFSET))(this);

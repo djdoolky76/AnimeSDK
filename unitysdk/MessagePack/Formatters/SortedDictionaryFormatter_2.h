@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int SortedDictionaryFormatter_2_TypeDefinitionIndex = 7423;
+	inline static constexpr unsigned int SortedDictionaryFormatter_2_TypeDefinitionIndex = 7434;
 
 	template <typename T1, typename T2>
 	class SortedDictionaryFormatter_2

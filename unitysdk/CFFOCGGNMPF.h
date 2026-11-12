@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareCityAtmosphereSubwayArrived; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CFFOCGGNMPF_CTOR_OFFSET UNITYSDK_OFFSET(0xCA11860)
-#define CFFOCGGNMPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCA11890)
+#define CFFOCGGNMPF_CTOR_OFFSET UNITYSDK_OFFSET(0xD37BDF0)
+#define CFFOCGGNMPF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD37BE20)
 
-inline static constexpr unsigned int CFFOCGGNMPF_TypeDefinitionIndex = 52554;
+inline static constexpr unsigned int CFFOCGGNMPF_TypeDefinitionIndex = 53660;
 
 	class CFFOCGGNMPF
 	{

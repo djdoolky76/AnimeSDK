@@ -11,13 +11,13 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JBIAMEODIHF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1570)
-#define JBIAMEODIHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E33C0)
-#define JBIAMEODIHF_FGAFJIDFFNA_OFFSET UNITYSDK_OFFSET(0x1C6E3910)
-#define JBIAMEODIHF_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1C6F1530)
-#define JBIAMEODIHF_OLKCPLKFFFO_OFFSET UNITYSDK_OFFSET(0x1C6E3A50)
+#define JBIAMEODIHF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D872FC0)
+#define JBIAMEODIHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D864D70)
+#define JBIAMEODIHF_FGAFJIDFFNA_OFFSET UNITYSDK_OFFSET(0x1D8652C0)
+#define JBIAMEODIHF_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1D872F80)
+#define JBIAMEODIHF_OLKCPLKFFFO_OFFSET UNITYSDK_OFFSET(0x1D865400)
 
-inline static constexpr unsigned int JBIAMEODIHF_TypeDefinitionIndex = 36897;
+inline static constexpr unsigned int JBIAMEODIHF_TypeDefinitionIndex = 37825;
 
 	class JBIAMEODIHF : public ::System::Object
 	{
@@ -25,12 +25,12 @@ inline static constexpr unsigned int JBIAMEODIHF_TypeDefinitionIndex = 36897;
 		::KLIKMKFLGLG* FLMODBLFAGD; // 0x10
 		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::RuntimeTypeHandle>** StaticGet_DCELBGNCLJJ()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "JBIAMEODIHF")->GetStaticField(0xFCD0);
+			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "JBIAMEODIHF")->GetStaticField(0x680E0);
 		}
 
 		static ::RPG::Client::LittleGameShare::RpcObjectPool_1<::DCAMGFEKEBH*>** StaticGet_PNKEIPDJFNJ()
 		{
-			return (::RPG::Client::LittleGameShare::RpcObjectPool_1<::DCAMGFEKEBH*>**)UnitySDK::FromName("", "JBIAMEODIHF")->GetStaticField(0xFCD8);
+			return (::RPG::Client::LittleGameShare::RpcObjectPool_1<::DCAMGFEKEBH*>**)UnitySDK::FromName("", "JBIAMEODIHF")->GetStaticField(0x680E8);
 		}
 
 		// static const ::System::Object HNKLIJEABKG; // 0x0

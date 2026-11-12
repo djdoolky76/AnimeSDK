@@ -5,17 +5,17 @@
 class HIOGHIDKJMC;
 class HJAGOKIHCLK;
 
-#define JLNOLMNPIGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7066B0)
+#define JLNOLMNPIGN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D888170)
 
-inline static constexpr unsigned int JLNOLMNPIGN_TypeDefinitionIndex = 36272;
+inline static constexpr unsigned int JLNOLMNPIGN_TypeDefinitionIndex = 37200;
 
 	class JLNOLMNPIGN : public ::NCEBAMHOOJM
 	{
 	public:
-		::HJAGOKIHCLK* FIDJLAKNAJD; // 0x28
-		::HIOGHIDKJMC* BPCDCCAJIMK; // 0x30
-		::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode HKEACDBJCOD; // 0x38
-		::System::UInt32 DOBKKDIECDO; // 0x3C
+		::HIOGHIDKJMC* BPCDCCAJIMK; // 0x28
+		::HJAGOKIHCLK* FIDJLAKNAJD; // 0x30
+		::System::UInt32 DOBKKDIECDO; // 0x38
+		::RPG::LittleGameShare::DiceCombatCore::GameMode::DiceCombatGameMode HKEACDBJCOD; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JLNOLMNPIGN_CTOR_OFFSET))(this);

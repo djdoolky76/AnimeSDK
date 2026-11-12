@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityFinalityBattle::Entrance
 {
-	inline static constexpr unsigned int FinalityBattleEntranceViewModel__LevelRank_TypeDefinitionIndex = 82081;
+	inline static constexpr unsigned int FinalityBattleEntranceViewModel__LevelRank_TypeDefinitionIndex = 84954;
 
 	enum class FinalityBattleEntranceViewModel__LevelRank : ::System::Int32
 	{

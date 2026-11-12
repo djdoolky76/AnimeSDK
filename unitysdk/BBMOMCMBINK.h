@@ -11,26 +11,26 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerModifierCustomEvent; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define BBMOMCMBINK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E93810)
-#define BBMOMCMBINK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E93970)
-#define BBMOMCMBINK_EIEKAMLDNND_OFFSET UNITYSDK_OFFSET(0x15E946C0)
-#define BBMOMCMBINK_NPHDJAKLKJF_OFFSET UNITYSDK_OFFSET(0x15E94980)
-#define BBMOMCMBINK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E939C0)
+#define BBMOMCMBINK_CTOR_OFFSET UNITYSDK_OFFSET(0x1708BDC0)
+#define BBMOMCMBINK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1708BF20)
+#define BBMOMCMBINK_EIEKAMLDNND_OFFSET UNITYSDK_OFFSET(0x1708CE20)
+#define BBMOMCMBINK_NPHDJAKLKJF_OFFSET UNITYSDK_OFFSET(0x1708D0E0)
+#define BBMOMCMBINK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1708BF70)
 
-inline static constexpr unsigned int BBMOMCMBINK_TypeDefinitionIndex = 55747;
+inline static constexpr unsigned int BBMOMCMBINK_TypeDefinitionIndex = 56949;
 
 	class BBMOMCMBINK
 	{
 	public:
 		::RPG::GameCore::GameEntity* BLDBOAKGDNH; // 0x28
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x30
-		::RPG::GameCore::ModifierCustomEventConfig* FNKBIEBFFBO; // 0x38
-		::RPG::PoolList_1<::RPG::GameCore::TurnBasedModifierInstance*>* HKGJKJHBOBG; // 0x40
-		::RPG::GameCore::GameEntity* GHBGHCLIMKC; // 0x48
-		::System::Int32 HMLNECEFMEL; // 0x50
-		::System::Int32 CIFEKCAKFPL; // 0x54
-		::RPG::GameCore::ModifierCustomEventSortType OEAAMAEJBDP; // 0x58
-		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x5C
+		::RPG::GameCore::GameEntity* GHBGHCLIMKC; // 0x30
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x38
+		::RPG::GameCore::ModifierCustomEventConfig* FNKBIEBFFBO; // 0x40
+		::RPG::PoolList_1<::RPG::GameCore::TurnBasedModifierInstance*>* HKGJKJHBOBG; // 0x48
+		::RPG::GameCore::ModifierCustomEventSortType OEAAMAEJBDP; // 0x50
+		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x54
+		::System::Int32 CIFEKCAKFPL; // 0x58
+		::System::Int32 HMLNECEFMEL; // 0x5C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerModifierCustomEvent* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerModifierCustomEvent*))((::PBYTE)hIl2Cpp + BBMOMCMBINK_CTOR_OFFSET))(this, a1, a2);

@@ -4,17 +4,17 @@
 namespace RPG::GameCore { class PetPartyInteractionDefinition; }
 namespace System { class Object; }
 
-#define GKCNCLIOFDA_FGAIJIBMILD_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8E840)
-#define GKCNCLIOFDA_FGAIJIBMILD_GET_DEFINITION_OFFSET UNITYSDK_OFFSET(0x15A90550)
-#define GKCNCLIOFDA_FGAIJIBMILD_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x15A90560)
+#define GKCNCLIOFDA_FGAIJIBMILD_CTOR_OFFSET UNITYSDK_OFFSET(0x169CB6A0)
+#define GKCNCLIOFDA_FGAIJIBMILD_GET_DEFINITION_OFFSET UNITYSDK_OFFSET(0x169CD3A0)
+#define GKCNCLIOFDA_FGAIJIBMILD_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x169CD3B0)
 
-inline static constexpr unsigned int GKCNCLIOFDA_FGAIJIBMILD_TypeDefinitionIndex = 53524;
+inline static constexpr unsigned int GKCNCLIOFDA_FGAIJIBMILD_TypeDefinitionIndex = 54687;
 
 	class GKCNCLIOFDA_FGAIJIBMILD : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::PetPartyInteractionDefinition* _Definition_k__BackingField; // 0x10
-		::Il2CppArray<::System::Object*>* _Participants_k__BackingField; // 0x18
+		::Il2CppArray<::System::Object*>* _Participants_k__BackingField; // 0x10
+		::RPG::GameCore::PetPartyInteractionDefinition* _Definition_k__BackingField; // 0x18
 		::System::Void _ctor(::RPG::GameCore::PetPartyInteractionDefinition* a1, ::Il2CppArray<::System::Object*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PetPartyInteractionDefinition*, ::Il2CppArray<::System::Object*>*))((::PBYTE)hIl2Cpp + GKCNCLIOFDA_FGAIJIBMILD_CTOR_OFFSET))(this, a1, a2);

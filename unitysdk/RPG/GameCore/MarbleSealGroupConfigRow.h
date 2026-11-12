@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleSealGroupConfigRow; }
 
-#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D846F70)
-#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D846E30)
+#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA61960)
+#define RPG_GAMECORE_MARBLESEALGROUPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA61820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSealGroupConfigRow_TypeDefinitionIndex = 11861;
+	inline static constexpr unsigned int MarbleSealGroupConfigRow_TypeDefinitionIndex = 11918;
 
 	class MarbleSealGroupConfigRow : public ::System::Object
 	{

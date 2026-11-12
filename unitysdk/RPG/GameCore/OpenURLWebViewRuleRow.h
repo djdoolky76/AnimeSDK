@@ -4,21 +4,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class OpenURLWebViewRuleRow; }
 
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E3DC0)
-#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8E3710)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAFC860)
+#define RPG_GAMECORE_OPENURLWEBVIEWRULEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAFC1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OpenURLWebViewRuleRow_TypeDefinitionIndex = 13331;
+	inline static constexpr unsigned int OpenURLWebViewRuleRow_TypeDefinitionIndex = 13403;
 
 	class OpenURLWebViewRuleRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 Windows; // 0x10
-		::System::UInt32 Android; // 0x14
-		::System::UInt32 iOS; // 0x18
-		::System::UInt32 RuleID; // 0x1C
-		::System::UInt32 Default; // 0x20
+		::System::UInt32 iOS; // 0x14
+		::System::UInt32 RuleID; // 0x18
+		::System::UInt32 Default; // 0x1C
+		::System::UInt32 Android; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OPENURLWEBVIEWRULEROW_CTOR_OFFSET))(this);

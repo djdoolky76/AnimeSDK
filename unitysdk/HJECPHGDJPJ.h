@@ -7,10 +7,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelFireGlobalEffectNode; }
 
-#define HJECPHGDJPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15D14020)
-#define HJECPHGDJPJ_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x15D13FA0)
+#define HJECPHGDJPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16C64220)
+#define HJECPHGDJPJ_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0x16C641A0)
 
-inline static constexpr unsigned int HJECPHGDJPJ_TypeDefinitionIndex = 77681;
+inline static constexpr unsigned int HJECPHGDJPJ_TypeDefinitionIndex = 80416;
 
 	class HJECPHGDJPJ : public ::HBLDGJCDJPF
 	{

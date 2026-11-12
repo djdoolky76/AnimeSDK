@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/ELevelPerformanceType.h"
 
-#define NCPLKHJEBFG_AACOKONKPKC_OFFSET UNITYSDK_OFFSET(0x1FC20)
-#define NCPLKHJEBFG_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB1E270)
-#define NCPLKHJEBFG_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0xBB1DE20)
+#define NCPLKHJEBFG_AACOKONKPKC_OFFSET UNITYSDK_OFFSET(0x24770)
+#define NCPLKHJEBFG_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3A7160)
+#define NCPLKHJEBFG_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0xC3A6D10)
 
-inline static constexpr unsigned int NCPLKHJEBFG_TypeDefinitionIndex = 57457;
+inline static constexpr unsigned int NCPLKHJEBFG_TypeDefinitionIndex = 58685;
 
 	struct alignas(4) NCPLKHJEBFG
 	{
@@ -18,7 +18,7 @@ inline static constexpr unsigned int NCPLKHJEBFG_TypeDefinitionIndex = 57457;
 		::System::Boolean BCAMNPDLBNM; // 0x20
 		static ::NCPLKHJEBFG* StaticGet_HGLIFJGHADE()
 		{
-			return (::NCPLKHJEBFG*)UnitySDK::FromName("", "NCPLKHJEBFG")->GetStaticField(0x52B0);
+			return (::NCPLKHJEBFG*)UnitySDK::FromName("", "NCPLKHJEBFG")->GetStaticField(0x7B0);
 		}
 
 		static ::System::Void _cctor()

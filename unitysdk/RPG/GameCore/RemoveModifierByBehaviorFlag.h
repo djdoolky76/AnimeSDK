@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class RemoveModifierByBehaviorFlag; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D986230)
-#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D986240)
-#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D986200)
+#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9E660)
+#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB9E670)
+#define RPG_GAMECORE_REMOVEMODIFIERBYBEHAVIORFLAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9E630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveModifierByBehaviorFlag_TypeDefinitionIndex = 23080;
+	inline static constexpr unsigned int RemoveModifierByBehaviorFlag_TypeDefinitionIndex = 23509;
 
 	class RemoveModifierByBehaviorFlag : public ::RPG::GameCore::TaskConfig
 	{

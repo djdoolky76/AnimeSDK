@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HOBKANOJDMA_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
-#define HOBKANOJDMA_MJLLHMGLOHL_OFFSET UNITYSDK_OFFSET(0x2E7F250)
+#define HOBKANOJDMA_CTOR_OFFSET UNITYSDK_OFFSET(0x12B00)
+#define HOBKANOJDMA_MJLLHMGLOHL_OFFSET UNITYSDK_OFFSET(0x3055340)
 
-inline static constexpr unsigned int HOBKANOJDMA_TypeDefinitionIndex = 62049;
+inline static constexpr unsigned int HOBKANOJDMA_TypeDefinitionIndex = 63462;
 
 	struct alignas(4) HOBKANOJDMA
 	{

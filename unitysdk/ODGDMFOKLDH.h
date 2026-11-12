@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowExpandElationItem; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ODGDMFOKLDH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD92B40)
-#define ODGDMFOKLDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD92B70)
+#define ODGDMFOKLDH_CTOR_OFFSET UNITYSDK_OFFSET(0xC699100)
+#define ODGDMFOKLDH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC699130)
 
-inline static constexpr unsigned int ODGDMFOKLDH_TypeDefinitionIndex = 56455;
+inline static constexpr unsigned int ODGDMFOKLDH_TypeDefinitionIndex = 57673;
 
 	class ODGDMFOKLDH
 	{

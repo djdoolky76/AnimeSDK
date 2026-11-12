@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByInMotionState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAAFHDIPGCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15933DB0)
-#define GAAFHDIPGCJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15933DE0)
+#define GAAFHDIPGCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16867870)
+#define GAAFHDIPGCJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x168678A0)
 
-inline static constexpr unsigned int GAAFHDIPGCJ_TypeDefinitionIndex = 54462;
+inline static constexpr unsigned int GAAFHDIPGCJ_TypeDefinitionIndex = 55626;
 
 	class GAAFHDIPGCJ
 	{

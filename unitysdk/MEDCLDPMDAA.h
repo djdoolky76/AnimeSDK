@@ -10,34 +10,34 @@ namespace Sofa::Core { class SimpleCommand; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define MEDCLDPMDAA_ADD_EXITREQUESTED_OFFSET UNITYSDK_OFFSET(0xB8BBFB0)
-#define MEDCLDPMDAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BBB90)
-#define MEDCLDPMDAA_GET_ARCHIVETIMETEXT_OFFSET UNITYSDK_OFFSET(0xB8BBDE0)
-#define MEDCLDPMDAA_GET_FAVOURTEXT_OFFSET UNITYSDK_OFFSET(0xB8BBE20)
-#define MEDCLDPMDAA_GET_ISFAVOUR_OFFSET UNITYSDK_OFFSET(0xB8BBE10)
-#define MEDCLDPMDAA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB8BBDD0)
-#define MEDCLDPMDAA_GET_SELECTEDTABINDEX_OFFSET UNITYSDK_OFFSET(0xB8BBE00)
-#define MEDCLDPMDAA_GET_TABS_OFFSET UNITYSDK_OFFSET(0xB8BBDC0)
-#define MEDCLDPMDAA_GET_VERSIONTEXT_OFFSET UNITYSDK_OFFSET(0xB8BBDF0)
-#define MEDCLDPMDAA_MAFKACBNNIJ_OFFSET UNITYSDK_OFFSET(0xB8BBE30)
-#define MEDCLDPMDAA_NJHJMCAOCBC_OFFSET UNITYSDK_OFFSET(0xB8BBEF0)
-#define MEDCLDPMDAA_REMOVE_EXITREQUESTED_OFFSET UNITYSDK_OFFSET(0xB8BC010)
-#define MEDCLDPMDAA__GET_ONEXITCOMMAND_B__27_0_OFFSET UNITYSDK_OFFSET(0xB8BC190)
-#define MEDCLDPMDAA__GET_ONFAVOURCOMMAND_B__24_0_OFFSET UNITYSDK_OFFSET(0xB8BC070)
+#define MEDCLDPMDAA_ADD_EXITREQUESTED_OFFSET UNITYSDK_OFFSET(0xC16D9B0)
+#define MEDCLDPMDAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC16D590)
+#define MEDCLDPMDAA_GET_ARCHIVETIMETEXT_OFFSET UNITYSDK_OFFSET(0xC16D7E0)
+#define MEDCLDPMDAA_GET_FAVOURTEXT_OFFSET UNITYSDK_OFFSET(0xC16D820)
+#define MEDCLDPMDAA_GET_ISFAVOUR_OFFSET UNITYSDK_OFFSET(0xC16D810)
+#define MEDCLDPMDAA_GET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xC16D7D0)
+#define MEDCLDPMDAA_GET_SELECTEDTABINDEX_OFFSET UNITYSDK_OFFSET(0xC16D800)
+#define MEDCLDPMDAA_GET_TABS_OFFSET UNITYSDK_OFFSET(0xC16D7C0)
+#define MEDCLDPMDAA_GET_VERSIONTEXT_OFFSET UNITYSDK_OFFSET(0xC16D7F0)
+#define MEDCLDPMDAA_MAFKACBNNIJ_OFFSET UNITYSDK_OFFSET(0xC16D830)
+#define MEDCLDPMDAA_NJHJMCAOCBC_OFFSET UNITYSDK_OFFSET(0xC16D8F0)
+#define MEDCLDPMDAA_REMOVE_EXITREQUESTED_OFFSET UNITYSDK_OFFSET(0xC16DA10)
+#define MEDCLDPMDAA__GET_ONEXITCOMMAND_B__27_0_OFFSET UNITYSDK_OFFSET(0xC16DB90)
+#define MEDCLDPMDAA__GET_ONFAVOURCOMMAND_B__24_0_OFFSET UNITYSDK_OFFSET(0xC16DA70)
 
-inline static constexpr unsigned int MEDCLDPMDAA_TypeDefinitionIndex = 73459;
+inline static constexpr unsigned int MEDCLDPMDAA_TypeDefinitionIndex = 75582;
 
 	class MEDCLDPMDAA : public ::System::Object
 	{
 	public:
-		::System::Action* ExitRequested; // 0x10
-		::R3::ReactiveProperty_1<::System::Int32>* _SelectedTabIndex_k__BackingField; // 0x18
-		::System::String* _VersionText_k__BackingField; // 0x20
-		::Sofa::Core::SimpleCommand* GFFLPAOPOHA; // 0x28
-		::R3::Observable_1<::System::String*>* _FavourText_k__BackingField; // 0x30
-		::Sofa::Core::SimpleCommand* FKPDLPNELCO; // 0x38
+		::Sofa::Core::SimpleCommand* GFFLPAOPOHA; // 0x10
+		::R3::Observable_1<::System::String*>* _FavourText_k__BackingField; // 0x18
+		::System::String* _ArchiveTimeText_k__BackingField; // 0x20
+		::System::Action* ExitRequested; // 0x28
+		::System::String* _VersionText_k__BackingField; // 0x30
+		::R3::ReactiveProperty_1<::System::Int32>* _SelectedTabIndex_k__BackingField; // 0x38
 		::R3::ReactiveProperty_1<::System::Boolean>* _IsFavour_k__BackingField; // 0x40
-		::System::String* _ArchiveTimeText_k__BackingField; // 0x48
+		::Sofa::Core::SimpleCommand* FKPDLPNELCO; // 0x48
 		::ObservableCollections::ObservableList_1<::RPG::Client::Ui::Samples::GridFightSettleTabViewModel*>* _Tabs_k__BackingField; // 0x50
 		::System::Boolean _IsFinished_k__BackingField; // 0x58
 		::System::Void _ctor(::System::Boolean a1, ::System::String* a2, ::System::String* a3)

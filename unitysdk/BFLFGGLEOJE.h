@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int BFLFGGLEOJE_TypeDefinitionIndex = 6234;
+inline static constexpr unsigned int BFLFGGLEOJE_TypeDefinitionIndex = 6241;
 
 	struct alignas(4) BFLFGGLEOJE
 	{

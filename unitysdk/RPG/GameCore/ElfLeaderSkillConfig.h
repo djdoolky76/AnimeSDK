@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfLeaderSkillConfig; }
 namespace RPG::GameCore { class ElfLeaderSkillLevelConfig; }
 
-#define RPG_GAMECORE_ELFLEADERSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D636910)
-#define RPG_GAMECORE_ELFLEADERSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D636820)
+#define RPG_GAMECORE_ELFLEADERSKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8742E0)
+#define RPG_GAMECORE_ELFLEADERSKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8741F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfLeaderSkillConfig_TypeDefinitionIndex = 18462;
+	inline static constexpr unsigned int ElfLeaderSkillConfig_TypeDefinitionIndex = 18622;
 
 	class ElfLeaderSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

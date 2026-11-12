@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define COPKPNCABFO___C__DISPLAYCLASS53_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCC3D0)
-#define COPKPNCABFO___C__DISPLAYCLASS53_0__TRYPACKWITHSCALE_B__0_OFFSET UNITYSDK_OFFSET(0xDCCDD30)
-#define COPKPNCABFO___C__DISPLAYCLASS53_0__TRYPACKWITHSCALE_B__1_OFFSET UNITYSDK_OFFSET(0xDCCDD80)
+#define COPKPNCABFO___C__DISPLAYCLASS53_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE618E80)
+#define COPKPNCABFO___C__DISPLAYCLASS53_0__TRYPACKWITHSCALE_B__0_OFFSET UNITYSDK_OFFSET(0xE61A7B0)
+#define COPKPNCABFO___C__DISPLAYCLASS53_0__TRYPACKWITHSCALE_B__1_OFFSET UNITYSDK_OFFSET(0xE61A800)
 
-inline static constexpr unsigned int COPKPNCABFO___c__DisplayClass53_0_TypeDefinitionIndex = 51762;
+inline static constexpr unsigned int COPKPNCABFO___c__DisplayClass53_0_TypeDefinitionIndex = 52848;
 
 	class COPKPNCABFO___c__DisplayClass53_0 : public ::System::Object
 	{

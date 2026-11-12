@@ -1,0 +1,136 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/RPG/Client/TextID.h"
+namespace RPG::Client { class ActivityData; }
+namespace RPG::Client { class ActivityPanelData; }
+namespace RPG::Client { class ActivityReCollectionItemData; }
+namespace RPG::GameCore { class ActivityReCollectionItemRow; }
+namespace System { class String; }
+
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xCEE0030)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCEE0520)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ACTIVITYDATA_OFFSET UNITYSDK_OFFSET(0xCEE07A0)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ACTIVITYPANELDATA_OFFSET UNITYSDK_OFFSET(0xCEE0950)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xCEDFD20)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xCEE0560)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISAVAILABLE_OFFSET UNITYSDK_OFFSET(0xCEDF510)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISEXPIRED_OFFSET UNITYSDK_OFFSET(0xCEE08E0)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISFINISHCONDITIONSCOMPLETED_OFFSET UNITYSDK_OFFSET(0xCEE0350)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISOPEN_OFFSET UNITYSDK_OFFSET(0xCEE0840)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAM1_OFFSET UNITYSDK_OFFSET(0xCEE05D0)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAM2_OFFSET UNITYSDK_OFFSET(0xCEE0620)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAM3_OFFSET UNITYSDK_OFFSET(0xCEE0670)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAMLIST_OFFSET UNITYSDK_OFFSET(0xCEE06C0)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_RECOLLECTIONID_OFFSET UNITYSDK_OFFSET(0xCEE0580)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_SORTWEIGHT_OFFSET UNITYSDK_OFFSET(0xCEE0460)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_TABICONPATH_OFFSET UNITYSDK_OFFSET(0xCEE0730)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xCEE09B0)
+#define RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_SET_ID_OFFSET UNITYSDK_OFFSET(0xCEE0570)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ActivityReCollectionItemData_TypeDefinitionIndex = 63309;
+
+	class ActivityReCollectionItemData : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::ActivityReCollectionItemRow* _Row; // 0x10
+		::System::UInt32 _ID_k__BackingField; // 0x18
+		::System::Void _ctor(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_CTOR_OFFSET))(this, a1);
+		}
+
+		static ::RPG::Client::ActivityReCollectionItemData* Create(::System::UInt32 a1)
+		{
+			return ((::RPG::Client::ActivityReCollectionItemData*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_CREATE_OFFSET))(a1);
+		}
+
+		::System::UInt32 get_ID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ID_OFFSET))(this);
+		}
+
+		::System::Void set_ID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_SET_ID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_ReCollectionID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_RECOLLECTIONID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Param1()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAM1_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Param2()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAM2_OFFSET))(this);
+		}
+
+		::System::UInt32 get_Param3()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAM3_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::UInt32>* get_ParamList()
+		{
+			return ((::Il2CppArray<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_PARAMLIST_OFFSET))(this);
+		}
+
+		::System::String* get_TabIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_TABICONPATH_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityData* get_ActivityData()
+		{
+			return ((::RPG::Client::ActivityData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ACTIVITYDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsOpen()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISOPEN_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsExpired()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISEXPIRED_OFFSET))(this);
+		}
+
+		::System::Int64 get_EndTimeStamp()
+		{
+			return ((::System::Int64(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ENDTIMESTAMP_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityPanelData* get_ActivityPanelData()
+		{
+			return ((::RPG::Client::ActivityPanelData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ACTIVITYPANELDATA_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsAvailable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISAVAILABLE_OFFSET))(this);
+		}
+
+		::RPG::Client::TextID get_Title()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_TITLE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SortWeight()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_SORTWEIGHT_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsFinishConditionsCompleted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYRECOLLECTIONITEMDATA_GET_ISFINISHCONDITIONSCOMPLETED_OFFSET))(this);
+		}
+
+	};
+}

@@ -5,20 +5,20 @@ class GELIALJDFBL;
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitFor; }
 
-#define MGEEJIGDLBE_CTOR_OFFSET UNITYSDK_OFFSET(0xB917E60)
-#define MGEEJIGDLBE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB917F20)
-#define MGEEJIGDLBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB917FF0)
-#define MGEEJIGDLBE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB918080)
-#define MGEEJIGDLBE_TICK_OFFSET UNITYSDK_OFFSET(0xB9180D0)
+#define MGEEJIGDLBE_CTOR_OFFSET UNITYSDK_OFFSET(0xC1CA670)
+#define MGEEJIGDLBE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1CA730)
+#define MGEEJIGDLBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1CA800)
+#define MGEEJIGDLBE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1CA890)
+#define MGEEJIGDLBE_TICK_OFFSET UNITYSDK_OFFSET(0xC1CA8E0)
 
-inline static constexpr unsigned int MGEEJIGDLBE_TypeDefinitionIndex = 58892;
+inline static constexpr unsigned int MGEEJIGDLBE_TypeDefinitionIndex = 60164;
 
 	class MGEEJIGDLBE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WaitFor* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::GELIALJDFBL* LLHKOFLJFCH; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::WaitFor* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitFor* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitFor*))((::PBYTE)hIl2Cpp + MGEEJIGDLBE_CTOR_OFFSET))(this, a1, a2);

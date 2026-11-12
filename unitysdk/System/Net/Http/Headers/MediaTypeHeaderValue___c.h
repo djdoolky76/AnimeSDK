@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE565A0)
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE565E0)
-#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__GET_CHARSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x1EE565F0)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20105F30)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20105F70)
+#define SYSTEM_NET_HTTP_HEADERS_MEDIATYPEHEADERVALUE___C__GET_CHARSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x20105F80)
 
 namespace System::Net::Http::Headers
 {
@@ -18,12 +18,12 @@ namespace System::Net::Http::Headers
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x2E60);
+			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x48C60);
 		}
 
 		static ::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>** StaticGet___9__6_0()
 		{
-			return (::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x2E68);
+			return (::System::Predicate_1<::System::Net::Http::Headers::NameValueHeaderValue*>**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x48C68);
 		}
 
 		static ::System::Void _cctor()

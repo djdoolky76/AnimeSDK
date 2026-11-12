@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2QueryFilter.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDMOVERCASTCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3C2DA20)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2WORLDMOVERCASTCONTEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x3E7CA00)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2WorldMoverCastContext_TypeDefinitionIndex = 36816;
+	inline static constexpr unsigned int B2WorldMoverCastContext_TypeDefinitionIndex = 37744;
 
 	struct alignas(8) B2WorldMoverCastContext
 	{

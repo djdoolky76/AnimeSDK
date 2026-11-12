@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvHideRushBtn; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NBFBKNABFOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBABF200)
-#define NBFBKNABFOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBABF230)
+#define NBFBKNABFOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC344930)
+#define NBFBKNABFOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC344960)
 
-inline static constexpr unsigned int NBFBKNABFOJ_TypeDefinitionIndex = 57877;
+inline static constexpr unsigned int NBFBKNABFOJ_TypeDefinitionIndex = 59114;
 
 	class NBFBKNABFOJ
 	{

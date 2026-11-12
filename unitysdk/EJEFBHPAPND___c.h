@@ -4,18 +4,18 @@
 class EJEFBHPAPND;
 namespace System { class Object; }
 
-#define EJEFBHPAPND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2B4880)
-#define EJEFBHPAPND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B48C0)
-#define EJEFBHPAPND___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2B48D0)
+#define EJEFBHPAPND___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F597ED0)
+#define EJEFBHPAPND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F597F10)
+#define EJEFBHPAPND___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F597F20)
 
-inline static constexpr unsigned int EJEFBHPAPND___c_TypeDefinitionIndex = 25221;
+inline static constexpr unsigned int EJEFBHPAPND___c_TypeDefinitionIndex = 25699;
 
 	class EJEFBHPAPND___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B400);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44BD0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 class ABBKNGEHNNA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGJOGOKJGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB69A150)
-#define LGJOGOKJGMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB69A180)
+#define LGJOGOKJGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBF313B0)
+#define LGJOGOKJGMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF313E0)
 
-inline static constexpr unsigned int LGJOGOKJGMJ_TypeDefinitionIndex = 52850;
+inline static constexpr unsigned int LGJOGOKJGMJ_TypeDefinitionIndex = 54005;
 
 	class LGJOGOKJGMJ
 	{

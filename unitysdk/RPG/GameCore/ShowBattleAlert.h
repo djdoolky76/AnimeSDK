@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ShowBattleAlert; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWBATTLEALERT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD7120)
-#define RPG_GAMECORE_SHOWBATTLEALERT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD7130)
-#define RPG_GAMECORE_SHOWBATTLEALERT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD70F0)
+#define RPG_GAMECORE_SHOWBATTLEALERT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE8F30)
+#define RPG_GAMECORE_SHOWBATTLEALERT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECE8F40)
+#define RPG_GAMECORE_SHOWBATTLEALERT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE8F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleAlert_TypeDefinitionIndex = 22929;
+	inline static constexpr unsigned int ShowBattleAlert_TypeDefinitionIndex = 23355;
 
 	class ShowBattleAlert : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,18 +4,18 @@
 class BHCFGOHFLIO;
 namespace System { class Object; }
 
-#define BHCFGOHFLIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDF49A0)
-#define BHCFGOHFLIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF49E0)
-#define BHCFGOHFLIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DDF49F0)
+#define BHCFGOHFLIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F002E70)
+#define BHCFGOHFLIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F002EB0)
+#define BHCFGOHFLIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F002EC0)
 
-inline static constexpr unsigned int BHCFGOHFLIO___c_TypeDefinitionIndex = 26043;
+inline static constexpr unsigned int BHCFGOHFLIO___c_TypeDefinitionIndex = 26570;
 
 	class BHCFGOHFLIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45A30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47D80);
 		}
 
 		static ::System::Void _cctor()

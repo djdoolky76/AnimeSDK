@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AutoUseUltraSkill; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUTOUSEULTRASKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40AB00)
-#define RPG_GAMECORE_AUTOUSEULTRASKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D40AB10)
-#define RPG_GAMECORE_AUTOUSEULTRASKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D40AAC0)
+#define RPG_GAMECORE_AUTOUSEULTRASKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62AD90)
+#define RPG_GAMECORE_AUTOUSEULTRASKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E62ADA0)
+#define RPG_GAMECORE_AUTOUSEULTRASKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E62AD50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AutoUseUltraSkill_TypeDefinitionIndex = 23470;
+	inline static constexpr unsigned int AutoUseUltraSkill_TypeDefinitionIndex = 23916;
 
 	class AutoUseUltraSkill : public ::RPG::GameCore::TaskConfig
 	{

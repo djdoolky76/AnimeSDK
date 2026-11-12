@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class ECONLFPJNAA;
 
-#define HLGMAAPMLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5FAD0)
-#define HLGMAAPMLLO_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0x15D5FA70)
+#define HLGMAAPMLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x16CB92F0)
+#define HLGMAAPMLLO_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0x16CB9290)
 
-inline static constexpr unsigned int HLGMAAPMLLO_TypeDefinitionIndex = 56303;
+inline static constexpr unsigned int HLGMAAPMLLO_TypeDefinitionIndex = 57517;
 
 	class HLGMAAPMLLO : public ::System::Object
 	{

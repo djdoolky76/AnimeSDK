@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityConstantGSRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3506B0)
-#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D350130)
+#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55EF80)
+#define RPG_GAMECORE_ACTIVITYCONSTANTGSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E55EA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityConstantGSRow_TypeDefinitionIndex = 11619;
+	inline static constexpr unsigned int ActivityConstantGSRow_TypeDefinitionIndex = 11670;
 
 	class ActivityConstantGSRow : public ::System::Object
 	{

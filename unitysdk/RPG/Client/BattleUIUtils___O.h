@@ -6,14 +6,14 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleUIUtils___O_TypeDefinitionIndex = 72080;
+	inline static constexpr unsigned int BattleUIUtils___O_TypeDefinitionIndex = 74113;
 
 	class BattleUIUtils___O : public ::System::Object
 	{
 	public:
 		static ::System::Predicate_1<::RPG::GameCore::GameEntity*>** StaticGet__0___IsEntityNeedShowInViewMode()
 		{
-			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x5CD30);
+			return (::System::Predicate_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x59DE0);
 		}
 
 	};

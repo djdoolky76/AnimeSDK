@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropWormCompassSetItemVisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIEOMMHPDAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1643A660)
-#define IIEOMMHPDAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1643A690)
+#define IIEOMMHPDAK_CTOR_OFFSET UNITYSDK_OFFSET(0x173F3300)
+#define IIEOMMHPDAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x173F3330)
 
-inline static constexpr unsigned int IIEOMMHPDAK_TypeDefinitionIndex = 58367;
+inline static constexpr unsigned int IIEOMMHPDAK_TypeDefinitionIndex = 59623;
 
 	class IIEOMMHPDAK
 	{

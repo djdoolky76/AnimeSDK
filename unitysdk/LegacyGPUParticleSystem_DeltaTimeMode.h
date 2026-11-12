@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LegacyGPUParticleSystem_DeltaTimeMode_TypeDefinitionIndex = 43990;
+inline static constexpr unsigned int LegacyGPUParticleSystem_DeltaTimeMode_TypeDefinitionIndex = 45065;
 
 	enum class LegacyGPUParticleSystem_DeltaTimeMode : ::System::Int32
 	{

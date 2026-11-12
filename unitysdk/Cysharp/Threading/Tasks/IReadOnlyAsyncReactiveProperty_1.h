@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IReadOnlyAsyncReactiveProperty_1_TypeDefinitionIndex = 38118;
+	inline static constexpr unsigned int IReadOnlyAsyncReactiveProperty_1_TypeDefinitionIndex = 39047;
 
 	template <typename T>
 	class IReadOnlyAsyncReactiveProperty_1

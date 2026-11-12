@@ -4,10 +4,10 @@
 class GELEOLEEDHH;
 namespace RPG::GameCore { class FiveDimContactEventEmitterConfig; }
 
-#define ICBOICBIAIH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB074A0)
-#define ICBOICBIAIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB07500)
+#define ICBOICBIAIH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DCCBF20)
+#define ICBOICBIAIH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCBF80)
 
-inline static constexpr unsigned int ICBOICBIAIH_TypeDefinitionIndex = 43319;
+inline static constexpr unsigned int ICBOICBIAIH_TypeDefinitionIndex = 44300;
 
 	class ICBOICBIAIH : public ::System::Object
 	{

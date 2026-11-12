@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_FIVEDIMVCAMERABLENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E25E0)
-#define RPG_GAMECORE_FIVEDIMVCAMERABLENDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D0360)
+#define RPG_GAMECORE_FIVEDIMVCAMERABLENDCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EC9C0)
+#define RPG_GAMECORE_FIVEDIMVCAMERABLENDCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8EA6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimVCameraBlendConfig_TypeDefinitionIndex = 18617;
+	inline static constexpr unsigned int FiveDimVCameraBlendConfig_TypeDefinitionIndex = 18777;
 
 	class FiveDimVCameraBlendConfig : public ::RPG::GameCore::JsonConfig
 	{

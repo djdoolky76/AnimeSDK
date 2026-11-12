@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int IAGMIDFNIIC_TypeDefinitionIndex = 35332;
+inline static constexpr unsigned int IAGMIDFNIIC_TypeDefinitionIndex = 36260;
 
 	class IAGMIDFNIIC : public ::System::Object
 	{

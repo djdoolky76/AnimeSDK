@@ -4,18 +4,18 @@
 class ANNMAOPFDAL;
 namespace System { class Object; }
 
-#define ANNMAOPFDAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E665150)
-#define ANNMAOPFDAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E665190)
-#define ANNMAOPFDAL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6651A0)
+#define ANNMAOPFDAL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F922BF0)
+#define ANNMAOPFDAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F922C30)
+#define ANNMAOPFDAL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F922C40)
 
-inline static constexpr unsigned int ANNMAOPFDAL___c_TypeDefinitionIndex = 31242;
+inline static constexpr unsigned int ANNMAOPFDAL___c_TypeDefinitionIndex = 32155;
 
 	class ANNMAOPFDAL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FC80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43E60);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-#define NEOFADECOGH_HGMMGGLJNPN_CTOR_OFFSET UNITYSDK_OFFSET(0xBB74E00)
+#define NEOFADECOGH_HGMMGGLJNPN_CTOR_OFFSET UNITYSDK_OFFSET(0xC44FC10)
 
-inline static constexpr unsigned int NEOFADECOGH_HGMMGGLJNPN_TypeDefinitionIndex = 49289;
+inline static constexpr unsigned int NEOFADECOGH_HGMMGGLJNPN_TypeDefinitionIndex = 50365;
 
 	class NEOFADECOGH_HGMMGGLJNPN : public ::System::Object
 	{

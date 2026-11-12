@@ -4,15 +4,15 @@
 class BDJOLKOIDJJ;
 namespace RPG::Client { template <typename T1, typename T2, typename T3> class RogueInstanceCacheManager_3; }
 
-#define BDJOLKOIDJJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x162FD380)
-#define BDJOLKOIDJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x162FD110)
-#define BDJOLKOIDJJ_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x162FD230)
-#define BDJOLKOIDJJ_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0x162FD0F0)
-#define BDJOLKOIDJJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x162FD120)
-#define BDJOLKOIDJJ_OPJGEGLNBLH_OFFSET UNITYSDK_OFFSET(0x162FD1C0)
-#define BDJOLKOIDJJ_SET_PRESETID_OFFSET UNITYSDK_OFFSET(0x162FD100)
+#define BDJOLKOIDJJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x170C48F0)
+#define BDJOLKOIDJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x170C4680)
+#define BDJOLKOIDJJ_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0x170C47A0)
+#define BDJOLKOIDJJ_GET_PRESETID_OFFSET UNITYSDK_OFFSET(0x170C4660)
+#define BDJOLKOIDJJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x170C4690)
+#define BDJOLKOIDJJ_OPJGEGLNBLH_OFFSET UNITYSDK_OFFSET(0x170C4730)
+#define BDJOLKOIDJJ_SET_PRESETID_OFFSET UNITYSDK_OFFSET(0x170C4670)
 
-inline static constexpr unsigned int BDJOLKOIDJJ_TypeDefinitionIndex = 67723;
+inline static constexpr unsigned int BDJOLKOIDJJ_TypeDefinitionIndex = 69668;
 
 	class BDJOLKOIDJJ : public ::System::Object
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int BDJOLKOIDJJ_TypeDefinitionIndex = 67723;
 		::System::UInt32 _PresetID_k__BackingField; // 0x10
 		static ::RPG::Client::RogueInstanceCacheManager_3<::System::UInt32, ::System::UInt32, ::BDJOLKOIDJJ*>** StaticGet_CCAEPODBHDM()
 		{
-			return (::RPG::Client::RogueInstanceCacheManager_3<::System::UInt32, ::System::UInt32, ::BDJOLKOIDJJ*>**)UnitySDK::FromName("", "BDJOLKOIDJJ")->GetStaticField(0x6DB00);
+			return (::RPG::Client::RogueInstanceCacheManager_3<::System::UInt32, ::System::UInt32, ::BDJOLKOIDJJ*>**)UnitySDK::FromName("", "BDJOLKOIDJJ")->GetStaticField(0x67E70);
 		}
 
 		::System::Void _ctor()

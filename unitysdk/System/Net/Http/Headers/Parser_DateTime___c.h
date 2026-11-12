@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE576F0)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE57720)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EE57730)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20107080)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x201070B0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_DATETIME___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x201070C0)
 
 namespace System::Net::Http::Headers
 {
@@ -17,7 +17,7 @@ namespace System::Net::Http::Headers
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x31D0);
+			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x49200);
 		}
 
 		static ::System::Void _cctor()

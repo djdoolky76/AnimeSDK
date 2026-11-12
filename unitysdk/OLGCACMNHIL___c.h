@@ -14,77 +14,77 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define OLGCACMNHIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF095A0)
-#define OLGCACMNHIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF095D0)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0xBF095E0)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0xBF098F0)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0xBF09C20)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0xBF0A330)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0xBF098D0)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0xBF09C00)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0xBF0A2F0)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0xBF0A310)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_8_OFFSET UNITYSDK_OFFSET(0xBF0AA00)
-#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_9_OFFSET UNITYSDK_OFFSET(0xBF0AA20)
+#define OLGCACMNHIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC804A70)
+#define OLGCACMNHIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC804AA0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0xC804AB0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0xC804DC0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0xC8050F0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0xC805800)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0xC804DA0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0xC8050D0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0xC8057C0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0xC8057E0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_8_OFFSET UNITYSDK_OFFSET(0xC805ED0)
+#define OLGCACMNHIL___C__HANDLEPOSTPROCESS_B__1_9_OFFSET UNITYSDK_OFFSET(0xC805EF0)
 
-inline static constexpr unsigned int OLGCACMNHIL___c_TypeDefinitionIndex = 67144;
+inline static constexpr unsigned int OLGCACMNHIL___c_TypeDefinitionIndex = 69088;
 
 	class OLGCACMNHIL___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_9()
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DKPIDAKNGCH*>*, ::BPODJGFBMJN*>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EA0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::FGEKJENHIIJ*>*, ::JDOGOGJPHAM*>** StaticGet___9__1_0()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::FGEKJENHIIJ*>*, ::JDOGOGJPHAM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EA8);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::AEBIFEEPLDM*>*, ::MECBFBNNICM*>** StaticGet___9__1_1()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::AEBIFEEPLDM*>*, ::MECBFBNNICM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EB0);
-		}
-
-		static ::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_8()
-		{
-			return (::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EB8);
-		}
-
-		static ::System::Func_2<::AEBIFEEPLDM*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_5()
-		{
-			return (::System::Func_2<::AEBIFEEPLDM*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EC0);
-		}
-
-		static ::System::Func_2<::DKPIDAKNGCH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_6()
-		{
-			return (::System::Func_2<::DKPIDAKNGCH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EC8);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DKPIDAKNGCH*>*, ::BPODJGFBMJN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56300);
 		}
 
 		static ::System::Func_2<::DKPIDAKNGCH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_7()
 		{
-			return (::System::Func_2<::DKPIDAKNGCH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57ED0);
+			return (::System::Func_2<::DKPIDAKNGCH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56308);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DKPIDAKNGCH*>*, ::BPODJGFBMJN*>** StaticGet___9__1_2()
+		static ::System::Func_2<::DKPIDAKNGCH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_6()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DKPIDAKNGCH*>*, ::BPODJGFBMJN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57ED8);
-		}
-
-		static ::System::Func_2<::FGEKJENHIIJ*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_4()
-		{
-			return (::System::Func_2<::FGEKJENHIIJ*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EE0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::PLGEGIPFLBH*>*, ::LNOENDGLHFI*>** StaticGet___9__1_3()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::PLGEGIPFLBH*>*, ::LNOENDGLHFI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EE8);
+			return (::System::Func_2<::DKPIDAKNGCH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56310);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57EF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56318);
+		}
+
+		static ::System::Func_2<::FGEKJENHIIJ*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_4()
+		{
+			return (::System::Func_2<::FGEKJENHIIJ*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56320);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::AEBIFEEPLDM*>*, ::MECBFBNNICM*>** StaticGet___9__1_1()
+		{
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::AEBIFEEPLDM*>*, ::MECBFBNNICM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56328);
+		}
+
+		static ::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_8()
+		{
+			return (::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56330);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::PLGEGIPFLBH*>*, ::LNOENDGLHFI*>** StaticGet___9__1_3()
+		{
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::PLGEGIPFLBH*>*, ::LNOENDGLHFI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56338);
+		}
+
+		static ::System::Func_2<::AEBIFEEPLDM*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_5()
+		{
+			return (::System::Func_2<::AEBIFEEPLDM*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56340);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::FGEKJENHIIJ*>*, ::JDOGOGJPHAM*>** StaticGet___9__1_0()
+		{
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::FGEKJENHIIJ*>*, ::JDOGOGJPHAM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56348);
+		}
+
+		static ::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>** StaticGet___9__1_9()
+		{
+			return (::System::Func_2<::PLGEGIPFLBH*, ::RPG::Client::IRogueTournPersonaRoomCardInGame*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56350);
 		}
 
 		static ::System::Void _cctor()

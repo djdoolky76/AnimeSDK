@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMIHMGNLBPN.h"
 
-#define AEJELHNFBLA_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFEBB0)
-#define AEJELHNFBLA_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xCEFE900)
+#define AEJELHNFBLA_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B0300)
+#define AEJELHNFBLA_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xD5B0050)
 
-inline static constexpr unsigned int AEJELHNFBLA_TypeDefinitionIndex = 66513;
+inline static constexpr unsigned int AEJELHNFBLA_TypeDefinitionIndex = 68449;
 
 	class AEJELHNFBLA : public ::FMIHMGNLBPN
 	{

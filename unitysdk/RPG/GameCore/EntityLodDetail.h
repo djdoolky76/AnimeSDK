@@ -5,14 +5,14 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EntityLodDetail; }
 
-#define RPG_GAMECORE_ENTITYLODDETAIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6469C0)
-#define RPG_GAMECORE_ENTITYLODDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D646310)
-#define RPG_GAMECORE_ENTITYLODDETAIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D646330)
-#define RPG_GAMECORE_ENTITYLODDETAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6462A0)
+#define RPG_GAMECORE_ENTITYLODDETAIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8842A0)
+#define RPG_GAMECORE_ENTITYLODDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E883BF0)
+#define RPG_GAMECORE_ENTITYLODDETAIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E883C10)
+#define RPG_GAMECORE_ENTITYLODDETAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E883B80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodDetail_TypeDefinitionIndex = 19209;
+	inline static constexpr unsigned int EntityLodDetail_TypeDefinitionIndex = 19399;
 
 	class EntityLodDetail : public ::RPG::GameCore::LodDetail
 	{
@@ -32,7 +32,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::FiveDimLoadMode FiveDimLoadMode; // 0x40
 		static ::RPG::GameCore::EntityLodDetail** StaticGet_InvisibleLodDetail()
 		{
-			return (::RPG::GameCore::EntityLodDetail**)UnitySDK::FromName("RPG.GameCore", "EntityLodDetail")->GetStaticField(0x24680);
+			return (::RPG::GameCore::EntityLodDetail**)UnitySDK::FromName("RPG.GameCore", "EntityLodDetail")->GetStaticField(0x1D580);
 		}
 
 		::System::Void _ctor()

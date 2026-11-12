@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetUpTrainVisitorBubble; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPGPLJPLJFA_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFC880)
-#define DPGPLJPLJFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FFC8B0)
+#define DPGPLJPLJFA_CTOR_OFFSET UNITYSDK_OFFSET(0x12DF7B20)
+#define DPGPLJPLJFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DF7B50)
 
-inline static constexpr unsigned int DPGPLJPLJFA_TypeDefinitionIndex = 53259;
+inline static constexpr unsigned int DPGPLJPLJFA_TypeDefinitionIndex = 54421;
 
 	class DPGPLJPLJFA
 	{

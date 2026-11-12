@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RegisterLittleGameSequences; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BIFGMPDPPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A51E0)
-#define BIFGMPDPPLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4A5210)
+#define BIFGMPDPPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE38300)
+#define BIFGMPDPPLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE38330)
 
-inline static constexpr unsigned int BIFGMPDPPLJ_TypeDefinitionIndex = 52978;
+inline static constexpr unsigned int BIFGMPDPPLJ_TypeDefinitionIndex = 54137;
 
 	class BIFGMPDPPLJ
 	{

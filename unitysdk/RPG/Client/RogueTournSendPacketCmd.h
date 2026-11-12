@@ -4,12 +4,12 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_ROGUETOURNSENDPACKETCMD_CTOR_OFFSET UNITYSDK_OFFSET(0xE03F460)
-#define RPG_CLIENT_ROGUETOURNSENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0xE03F3A0)
+#define RPG_CLIENT_ROGUETOURNSENDPACKETCMD_CTOR_OFFSET UNITYSDK_OFFSET(0xEAA9970)
+#define RPG_CLIENT_ROGUETOURNSENDPACKETCMD_SENDREVIVEROGUEAVATARCSREQ_OFFSET UNITYSDK_OFFSET(0xEAA98B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournSendPacketCmd_TypeDefinitionIndex = 67810;
+	inline static constexpr unsigned int RogueTournSendPacketCmd_TypeDefinitionIndex = 69755;
 
 	class RogueTournSendPacketCmd : public ::System::Object
 	{

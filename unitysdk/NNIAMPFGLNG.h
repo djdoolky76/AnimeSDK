@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define NNIAMPFGLNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23B780)
+#define NNIAMPFGLNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E440C70)
 
-inline static constexpr unsigned int NNIAMPFGLNG_TypeDefinitionIndex = 25026;
+inline static constexpr unsigned int NNIAMPFGLNG_TypeDefinitionIndex = 25504;
 
 	class NNIAMPFGLNG : public ::System::Attribute
 	{

@@ -5,10 +5,10 @@ namespace System { class String; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class LambdaExpression; }
 
-#define BPNKGIEADHA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1EC65B30)
-#define BPNKGIEADHA_JBMGIFPFHCL_OFFSET UNITYSDK_OFFSET(0x1EC65BD0)
+#define BPNKGIEADHA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1FF16550)
+#define BPNKGIEADHA_JBMGIFPFHCL_OFFSET UNITYSDK_OFFSET(0x1FF165F0)
 
-inline static constexpr unsigned int BPNKGIEADHA_TypeDefinitionIndex = 44063;
+inline static constexpr unsigned int BPNKGIEADHA_TypeDefinitionIndex = 45138;
 
 	class BPNKGIEADHA : public ::System::Object
 	{

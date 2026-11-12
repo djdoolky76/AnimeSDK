@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByContainMonsterOnWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EALODDHCDFM_CTOR_OFFSET UNITYSDK_OFFSET(0x12683530)
-#define EALODDHCDFM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12683560)
+#define EALODDHCDFM_CTOR_OFFSET UNITYSDK_OFFSET(0x134751C0)
+#define EALODDHCDFM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x134751F0)
 
-inline static constexpr unsigned int EALODDHCDFM_TypeDefinitionIndex = 54592;
+inline static constexpr unsigned int EALODDHCDFM_TypeDefinitionIndex = 55757;
 
 	class EALODDHCDFM
 	{

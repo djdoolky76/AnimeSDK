@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemConfig; }
 
-#define RPG_GAMECORE_ITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D793EC0)
-#define RPG_GAMECORE_ITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D793DD0)
+#define RPG_GAMECORE_ITEMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A7630)
+#define RPG_GAMECORE_ITEMCONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9A7540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemConfig_TypeDefinitionIndex = 13070;
+	inline static constexpr unsigned int ItemConfig_TypeDefinitionIndex = 13138;
 
 	class ItemConfig : public ::System::Object
 	{

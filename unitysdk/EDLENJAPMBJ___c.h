@@ -4,18 +4,18 @@
 class EDLENJAPMBJ;
 namespace System { class Object; }
 
-#define EDLENJAPMBJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E261E90)
-#define EDLENJAPMBJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E261ED0)
-#define EDLENJAPMBJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E261EE0)
+#define EDLENJAPMBJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F55F6E0)
+#define EDLENJAPMBJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F55F720)
+#define EDLENJAPMBJ___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F55F730)
 
-inline static constexpr unsigned int EDLENJAPMBJ___c_TypeDefinitionIndex = 25805;
+inline static constexpr unsigned int EDLENJAPMBJ___c_TypeDefinitionIndex = 26302;
 
 	class EDLENJAPMBJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40C20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50B80);
 		}
 
 		static ::System::Void _cctor()

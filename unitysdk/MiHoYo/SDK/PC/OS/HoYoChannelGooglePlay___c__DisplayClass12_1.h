@@ -7,23 +7,23 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckoutResult; }
 namespace System { class Object; }
 namespace UnityEngine { class Coroutine; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF2DD40)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1__PAY_B__2_OFFSET UNITYSDK_OFFSET(0x1BF2E0A0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1__PAY_B__3_OFFSET UNITYSDK_OFFSET(0x1BF2E190)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1__PAY_B__5_OFFSET UNITYSDK_OFFSET(0x1BF2E060)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0B48E0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1__PAY_B__2_OFFSET UNITYSDK_OFFSET(0x1D0B4C40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1__PAY_B__3_OFFSET UNITYSDK_OFFSET(0x1D0B4D30)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1__PAY_B__5_OFFSET UNITYSDK_OFFSET(0x1D0B4C00)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_1_TypeDefinitionIndex = 8576;
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_1_TypeDefinitionIndex = 8585;
 
 	template <typename T>
 	class HoYoChannelGooglePlay___c__DisplayClass12_1 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Alert_OnAlertDelegate* callback; // 0x10
-		::UnityEngine::Coroutine* openingUI; // 0x18
-		::System::Object* CS___8__locals1; // 0x20
-		::MiHoYo::SDK::NetworkResponseModelEx* createOrderResponse; // 0x28
+		::System::Object* CS___8__locals1; // 0x10
+		::MiHoYo::SDK::Alert_OnAlertDelegate* callback; // 0x18
+		::MiHoYo::SDK::NetworkResponseModelEx* createOrderResponse; // 0x20
+		::UnityEngine::Coroutine* openingUI; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_HOYOCHANNELGOOGLEPLAY___C__DISPLAYCLASS12_1_CTOR_OFFSET))(this);

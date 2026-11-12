@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6E1490)
-#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6E14A0)
-#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C9000)
+#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8EB870)
+#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8EB880)
+#define RPG_GAMECORE_FIVEDIMTRAMPOLINECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8EB840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimTrampolineConfig_TypeDefinitionIndex = 18544;
+	inline static constexpr unsigned int FiveDimTrampolineConfig_TypeDefinitionIndex = 18704;
 
 	class FiveDimTrampolineConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

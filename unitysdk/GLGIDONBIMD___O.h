@@ -5,19 +5,19 @@ class MEIGMBOLDOF;
 namespace UnityEngine::Events { template <typename T1, typename T2> class UnityAction_2; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-inline static constexpr unsigned int GLGIDONBIMD___O_TypeDefinitionIndex = 49088;
+inline static constexpr unsigned int GLGIDONBIMD___O_TypeDefinitionIndex = 50164;
 
 	class GLGIDONBIMD___O : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Events::UnityAction_1<::MEIGMBOLDOF*>** StaticGet__1___OnReleasePooledManagedLight()
-		{
-			return (::UnityEngine::Events::UnityAction_1<::MEIGMBOLDOF*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x645E0);
-		}
-
 		static ::UnityEngine::Events::UnityAction_2<::MEIGMBOLDOF*, ::System::Boolean>** StaticGet__0___OnGetPooledManagedLight()
 		{
-			return (::UnityEngine::Events::UnityAction_2<::MEIGMBOLDOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x645E8);
+			return (::UnityEngine::Events::UnityAction_2<::MEIGMBOLDOF*, ::System::Boolean>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6CB30);
+		}
+
+		static ::UnityEngine::Events::UnityAction_1<::MEIGMBOLDOF*>** StaticGet__1___OnReleasePooledManagedLight()
+		{
+			return (::UnityEngine::Events::UnityAction_1<::MEIGMBOLDOF*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6CB38);
 		}
 
 	};

@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define CIDMEPLLPIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC14F90)
-#define CIDMEPLLPIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC14FA0)
-#define CIDMEPLLPIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC14F60)
+#define CIDMEPLLPIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDD2690)
+#define CIDMEPLLPIM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EDD26A0)
+#define CIDMEPLLPIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDD2660)
 
-inline static constexpr unsigned int CIDMEPLLPIM_TypeDefinitionIndex = 23167;
+inline static constexpr unsigned int CIDMEPLLPIM_TypeDefinitionIndex = 23597;
 
 	class CIDMEPLLPIM : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* HCDEOKNIGKG; // 0x18
-		::RPG::GameCore::DynamicFloat* HOCMHABKLGJ; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::DynamicFloat* HOCMHABKLGJ; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CIDMEPLLPIM_CTOR_OFFSET))(this);

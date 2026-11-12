@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetStanceHintEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETSTANCEHINTEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC2EC0)
-#define RPG_GAMECORE_SETSTANCEHINTEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC2F00)
-#define RPG_GAMECORE_SETSTANCEHINTEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC2E60)
+#define RPG_GAMECORE_SETSTANCEHINTEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD4FB0)
+#define RPG_GAMECORE_SETSTANCEHINTEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD4FF0)
+#define RPG_GAMECORE_SETSTANCEHINTEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD4F50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetStanceHintEffect_TypeDefinitionIndex = 23657;
+	inline static constexpr unsigned int SetStanceHintEffect_TypeDefinitionIndex = 24110;
 
 	class SetStanceHintEffect : public ::RPG::GameCore::TaskConfig
 	{

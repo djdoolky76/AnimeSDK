@@ -8,12 +8,12 @@ namespace System { class Type; }
 namespace System::Xml { class IXmlNamespaceResolver; }
 namespace System::Xml { class XmlNameTable; }
 
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEB52E0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAFDE0)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB5280)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x1EEB5020)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EEB5220)
-#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x1EEB5030)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CCTOR_OFFSET UNITYSDK_OFFSET(0x20164A50)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_CTOR_OFFSET UNITYSDK_OFFSET(0x2015F550)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_LISTVALUETYPE_OFFSET UNITYSDK_OFFSET(0x201649F0)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_TOKENIZEDTYPE_OFFSET UNITYSDK_OFFSET(0x20164790)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x20164990)
+#define SYSTEM_XML_SCHEMA_DATATYPE_QNAMEXDR_PARSEVALUE_OFFSET UNITYSDK_OFFSET(0x201647A0)
 
 namespace System::Xml::Schema
 {
@@ -24,12 +24,12 @@ namespace System::Xml::Schema
 	public:
 		static ::System::Type** StaticGet_atomicValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x22080);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x2C840);
 		}
 
 		static ::System::Type** StaticGet_listValueType()
 		{
-			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x22088);
+			return (::System::Type**)UnitySDK::FromName("System.Xml.Schema", "Datatype_QNameXdr")->GetStaticField(0x2C848);
 		}
 
 		::System::Void _ctor()

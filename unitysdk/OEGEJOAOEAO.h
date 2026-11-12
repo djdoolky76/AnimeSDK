@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAllUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OEGEJOAOEAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2CC40)
-#define OEGEJOAOEAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE2CC90)
+#define OEGEJOAOEAO_CTOR_OFFSET UNITYSDK_OFFSET(0xC6E3BF0)
+#define OEGEJOAOEAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC6E3C40)
 
-inline static constexpr unsigned int OEGEJOAOEAO_TypeDefinitionIndex = 59144;
+inline static constexpr unsigned int OEGEJOAOEAO_TypeDefinitionIndex = 60420;
 
 	class OEGEJOAOEAO
 	{

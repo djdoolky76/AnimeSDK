@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FCLPHDEONPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6155B0)
-#define FCLPHDEONPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6155F0)
-#define FCLPHDEONPI___C__ISDICECONTENTHASNOFAKIND_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C615600)
+#define FCLPHDEONPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D796B70)
+#define FCLPHDEONPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D796BB0)
+#define FCLPHDEONPI___C__ISDICECONTENTHASNOFAKIND_B__7_0_OFFSET UNITYSDK_OFFSET(0x1D796BC0)
 
-inline static constexpr unsigned int FCLPHDEONPI___c_TypeDefinitionIndex = 36283;
+inline static constexpr unsigned int FCLPHDEONPI___c_TypeDefinitionIndex = 37211;
 
 	class FCLPHDEONPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B3C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69BC0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Boolean>** StaticGet___9__7_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B3C8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int32>, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69BC8);
 		}
 
 		static ::System::Void _cctor()

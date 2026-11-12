@@ -4,18 +4,18 @@
 class GFOAMKNHBFE;
 namespace System { class Object; }
 
-#define GFOAMKNHBFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E475080)
-#define GFOAMKNHBFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4750C0)
-#define GFOAMKNHBFE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4750D0)
+#define GFOAMKNHBFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F762FD0)
+#define GFOAMKNHBFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F763010)
+#define GFOAMKNHBFE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F763020)
 
-inline static constexpr unsigned int GFOAMKNHBFE___c_TypeDefinitionIndex = 32495;
+inline static constexpr unsigned int GFOAMKNHBFE___c_TypeDefinitionIndex = 33410;
 
 	class GFOAMKNHBFE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15560);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD440);
 		}
 
 		static ::System::Void _cctor()

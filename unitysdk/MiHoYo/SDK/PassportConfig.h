@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class JSONNode; }
 
-#define MIHOYO_SDK_PASSPORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF81280)
+#define MIHOYO_SDK_PASSPORTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D107E10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int PassportConfig_TypeDefinitionIndex = 7932;
+	inline static constexpr unsigned int PassportConfig_TypeDefinitionIndex = 7941;
 
 	class PassportConfig : public ::System::Object
 	{

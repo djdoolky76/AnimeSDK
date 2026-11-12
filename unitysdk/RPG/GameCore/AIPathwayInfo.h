@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AIPathwayInfo; }
 
-#define RPG_GAMECORE_AIPATHWAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33A840)
-#define RPG_GAMECORE_AIPATHWAYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D33A650)
+#define RPG_GAMECORE_AIPATHWAYINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E549DB0)
+#define RPG_GAMECORE_AIPATHWAYINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E549BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIPathwayInfo_TypeDefinitionIndex = 17230;
+	inline static constexpr unsigned int AIPathwayInfo_TypeDefinitionIndex = 17398;
 
 	class AIPathwayInfo : public ::RPG::GameCore::JsonConfig
 	{

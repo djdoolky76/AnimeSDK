@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MappingInfoConnectionRow; }
 
-#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8340A0)
-#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D833A00)
+#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4EAE0)
+#define RPG_GAMECORE_MAPPINGINFOCONNECTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA4E440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MappingInfoConnectionRow_TypeDefinitionIndex = 12574;
+	inline static constexpr unsigned int MappingInfoConnectionRow_TypeDefinitionIndex = 12641;
 
 	class MappingInfoConnectionRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SourceMappingInfoID; // 0x10
-		::System::UInt32 TargetEntranceID; // 0x14
-		::System::UInt32 SourceEntranceID; // 0x18
-		::System::UInt32 TargetMappingInfoID; // 0x1C
+		::System::UInt32 TargetEntranceID; // 0x10
+		::System::UInt32 SourceMappingInfoID; // 0x14
+		::System::UInt32 TargetMappingInfoID; // 0x18
+		::System::UInt32 SourceEntranceID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPPINGINFOCONNECTIONROW_CTOR_OFFSET))(this);

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int PlayableExtensions_TypeDefinitionIndex = 4918;
+	inline static constexpr unsigned int PlayableExtensions_TypeDefinitionIndex = 4923;
 
 	class PlayableExtensions : public ::System::Object
 	{

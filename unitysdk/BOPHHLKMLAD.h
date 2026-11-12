@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareRedStanceCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOPHHLKMLAD_CTOR_OFFSET UNITYSDK_OFFSET(0xC19AA50)
-#define BOPHHLKMLAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC19AA80)
+#define BOPHHLKMLAD_CTOR_OFFSET UNITYSDK_OFFSET(0xCB3AD90)
+#define BOPHHLKMLAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCB3ADC0)
 
-inline static constexpr unsigned int BOPHHLKMLAD_TypeDefinitionIndex = 54559;
+inline static constexpr unsigned int BOPHHLKMLAD_TypeDefinitionIndex = 55724;
 
 	class BOPHHLKMLAD
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActiveFMChannelReceiver; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JGLIAAIGFDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB19E6F0)
-#define JGLIAAIGFDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB19E720)
+#define JGLIAAIGFDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B8F90)
+#define JGLIAAIGFDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9B8FC0)
 
-inline static constexpr unsigned int JGLIAAIGFDK_TypeDefinitionIndex = 52265;
+inline static constexpr unsigned int JGLIAAIGFDK_TypeDefinitionIndex = 53371;
 
 	class JGLIAAIGFDK
 	{

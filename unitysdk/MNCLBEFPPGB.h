@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MNCLBEFPPGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB9E86A0)
-#define MNCLBEFPPGB_EAOIFEDPNMJ_OFFSET UNITYSDK_OFFSET(0xB9E85C0)
-#define MNCLBEFPPGB_KKEJDPBPKBC_OFFSET UNITYSDK_OFFSET(0xB9E8530)
+#define MNCLBEFPPGB_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A53D0)
+#define MNCLBEFPPGB_EAOIFEDPNMJ_OFFSET UNITYSDK_OFFSET(0xC2A52F0)
+#define MNCLBEFPPGB_KKEJDPBPKBC_OFFSET UNITYSDK_OFFSET(0xC2A5260)
 
-inline static constexpr unsigned int MNCLBEFPPGB_TypeDefinitionIndex = 57632;
+inline static constexpr unsigned int MNCLBEFPPGB_TypeDefinitionIndex = 58861;
 
 	class MNCLBEFPPGB : public ::System::Object
 	{

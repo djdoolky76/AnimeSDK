@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PlayMonsterHPBarTween; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PLAYMONSTERHPBARTWEEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92E100)
-#define RPG_GAMECORE_PLAYMONSTERHPBARTWEEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D92E110)
-#define RPG_GAMECORE_PLAYMONSTERHPBARTWEEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D92E0D0)
+#define RPG_GAMECORE_PLAYMONSTERHPBARTWEEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB47270)
+#define RPG_GAMECORE_PLAYMONSTERHPBARTWEEN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB47280)
+#define RPG_GAMECORE_PLAYMONSTERHPBARTWEEN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB47240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayMonsterHPBarTween_TypeDefinitionIndex = 22822;
+	inline static constexpr unsigned int PlayMonsterHPBarTween_TypeDefinitionIndex = 23245;
 
 	class PlayMonsterHPBarTween : public ::RPG::GameCore::TaskConfig
 	{

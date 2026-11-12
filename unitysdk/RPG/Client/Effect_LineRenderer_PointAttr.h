@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_EFFECT_LINERENDERER_POINTATTR_CTOR_OFFSET UNITYSDK_OFFSET(0xE6A50)
+#define RPG_CLIENT_EFFECT_LINERENDERER_POINTATTR_CTOR_OFFSET UNITYSDK_OFFSET(0xF2CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_LineRenderer_PointAttr_TypeDefinitionIndex = 70498;
+	inline static constexpr unsigned int Effect_LineRenderer_PointAttr_TypeDefinitionIndex = 72473;
 
 	struct alignas(8) Effect_LineRenderer_PointAttr
 	{

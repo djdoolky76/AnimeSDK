@@ -3,10 +3,11 @@
 #include "unitysdk/System/Object.h"
 class AOIAGGGHHBD;
 
-#define MADHNHEMBOJ___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB846BE0)
-#define MADHNHEMBOJ___C__DISPLAYCLASS31_0___SUBTRACTFROM_B__0_OFFSET UNITYSDK_OFFSET(0xB84B460)
+#define MADHNHEMBOJ___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC0A81A0)
+#define MADHNHEMBOJ___C__DISPLAYCLASS31_0___UNIONINTO_B__0_OFFSET UNITYSDK_OFFSET(0xC0AC9F0)
+#define MADHNHEMBOJ___C__DISPLAYCLASS31_0___UNIONINTO_B__1_OFFSET UNITYSDK_OFFSET(0xC0ACA30)
 
-inline static constexpr unsigned int MADHNHEMBOJ___c__DisplayClass31_0_TypeDefinitionIndex = 71207;
+inline static constexpr unsigned int MADHNHEMBOJ___c__DisplayClass31_0_TypeDefinitionIndex = 73188;
 
 	class MADHNHEMBOJ___c__DisplayClass31_0 : public ::System::Object
 	{
@@ -17,9 +18,14 @@ inline static constexpr unsigned int MADHNHEMBOJ___c__DisplayClass31_0_TypeDefin
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MADHNHEMBOJ___C__DISPLAYCLASS31_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __SubtractFrom_b__0(::AOIAGGGHHBD* a1)
+		::System::Boolean __UnionInto_b__0(::AOIAGGGHHBD* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::AOIAGGGHHBD*))((::PBYTE)hIl2Cpp + MADHNHEMBOJ___C__DISPLAYCLASS31_0___SUBTRACTFROM_B__0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::AOIAGGGHHBD*))((::PBYTE)hIl2Cpp + MADHNHEMBOJ___C__DISPLAYCLASS31_0___UNIONINTO_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Boolean __UnionInto_b__1(::AOIAGGGHHBD* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::AOIAGGGHHBD*))((::PBYTE)hIl2Cpp + MADHNHEMBOJ___C__DISPLAYCLASS31_0___UNIONINTO_B__1_OFFSET))(this, a1);
 		}
 
 	};

@@ -5,10 +5,10 @@ class FGFGINEFBBK;
 namespace RPG::Client { class PunkLordData; }
 namespace RPG::Client { class SettledPunkLordData; }
 
-#define KJNJIHCEGNF_DBOCFDFIPGB_OFFSET UNITYSDK_OFFSET(0xB45E0D0)
-#define KJNJIHCEGNF_GGEGEHBEFGN_OFFSET UNITYSDK_OFFSET(0xB45E170)
+#define KJNJIHCEGNF_DBOCFDFIPGB_OFFSET UNITYSDK_OFFSET(0xBCF6140)
+#define KJNJIHCEGNF_GGEGEHBEFGN_OFFSET UNITYSDK_OFFSET(0xBCF61E0)
 
-inline static constexpr unsigned int KJNJIHCEGNF_TypeDefinitionIndex = 66748;
+inline static constexpr unsigned int KJNJIHCEGNF_TypeDefinitionIndex = 68684;
 
 	class KJNJIHCEGNF : public ::System::Object
 	{

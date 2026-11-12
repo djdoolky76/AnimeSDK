@@ -6,32 +6,32 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::Rendering { class DebugManager; }
 
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2B9E40)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B9E70)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1F2B9EA0)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_0_OFFSET UNITYSDK_OFFSET(0x1F2B9E80)
-#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_1_OFFSET UNITYSDK_OFFSET(0x1F2B9E90)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x2056AC50)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x2056AC80)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x2056ACB0)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_0_OFFSET UNITYSDK_OFFSET(0x2056AC90)
+#define UNITYENGINE_RENDERING_DEBUGMANAGER___C___CTOR_B__51_1_OFFSET UNITYSDK_OFFSET(0x2056ACA0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DebugManager___c_TypeDefinitionIndex = 35517;
+	inline static constexpr unsigned int DebugManager___c_TypeDefinitionIndex = 36445;
 
 	class DebugManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x47770);
-		}
-
 		static ::System::Action** StaticGet___9__51_1()
 		{
-			return (::System::Action**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x47778);
+			return (::System::Action**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x59EA0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x59EA8);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__51_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x47780);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("UnityEngine.Rendering", "<>c")->GetStaticField(0x59EB0);
 		}
 
 		static ::System::Void _cctor()

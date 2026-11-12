@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DFIOFNAOPIC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD1A0F0)
-#define DFIOFNAOPIC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD1A6C0)
-#define DFIOFNAOPIC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD1A260)
-#define DFIOFNAOPIC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD19B60)
-#define DFIOFNAOPIC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD19DF0)
-#define DFIOFNAOPIC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD1A300)
-#define DFIOFNAOPIC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD1A350)
-#define DFIOFNAOPIC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD1A130)
-#define DFIOFNAOPIC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD19D90)
-#define DFIOFNAOPIC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD19F60)
-#define DFIOFNAOPIC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD1A1C0)
-#define DFIOFNAOPIC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD19AE0)
+#define DFIOFNAOPIC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DEE6540)
+#define DFIOFNAOPIC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEE6B10)
+#define DFIOFNAOPIC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DEE66B0)
+#define DFIOFNAOPIC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DEE5FB0)
+#define DFIOFNAOPIC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DEE6240)
+#define DFIOFNAOPIC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DEE6750)
+#define DFIOFNAOPIC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DEE67A0)
+#define DFIOFNAOPIC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DEE6580)
+#define DFIOFNAOPIC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DEE61E0)
+#define DFIOFNAOPIC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DEE63B0)
+#define DFIOFNAOPIC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DEE6610)
+#define DFIOFNAOPIC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DEE5F30)
 
-inline static constexpr unsigned int DFIOFNAOPIC_TypeDefinitionIndex = 14675;
+inline static constexpr unsigned int DFIOFNAOPIC_TypeDefinitionIndex = 14831;
 
 	class DFIOFNAOPIC : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x4C100);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueArcadeConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueArcadeConfigRow*>**)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x4C108);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x3B820);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x4C110);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x3B828);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueArcadeConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x11920);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueArcadeConfigRow*>**)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x3B830);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0x11921);
+			return (::System::Byte*)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0xD180);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "DFIOFNAOPIC")->GetStaticField(0xD181);
 		}
 
 		static ::System::Void _cctor()

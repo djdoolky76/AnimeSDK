@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SimpleFreeStyleConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE9AC0)
-#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE98F0)
+#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFB890)
+#define RPG_GAMECORE_SIMPLEFREESTYLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECFB6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SimpleFreeStyleConfig_TypeDefinitionIndex = 21623;
+	inline static constexpr unsigned int SimpleFreeStyleConfig_TypeDefinitionIndex = 22011;
 
 	class SimpleFreeStyleConfig : public ::RPG::GameCore::JsonConfig
 	{

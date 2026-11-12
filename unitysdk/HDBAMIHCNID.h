@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/PingPongDropItemType.h"
 #include "unitysdk/System/Object.h"
 
-#define HDBAMIHCNID_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD0F0)
+#define HDBAMIHCNID_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC81B00)
 
-inline static constexpr unsigned int HDBAMIHCNID_TypeDefinitionIndex = 42950;
+inline static constexpr unsigned int HDBAMIHCNID_TypeDefinitionIndex = 43931;
 
 	class HDBAMIHCNID : public ::System::Object
 	{

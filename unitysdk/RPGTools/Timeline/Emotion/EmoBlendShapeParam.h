@@ -4,11 +4,11 @@
 namespace RPG::Client { class MonoEmoBlendShapesController; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EBEF0)
+#define RPGTOOLS_TIMELINE_EMOTION_EMOBLENDSHAPEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF3C5C20)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int EmoBlendShapeParam_TypeDefinitionIndex = 48736;
+	inline static constexpr unsigned int EmoBlendShapeParam_TypeDefinitionIndex = 49782;
 
 	class EmoBlendShapeParam : public ::System::Object
 	{

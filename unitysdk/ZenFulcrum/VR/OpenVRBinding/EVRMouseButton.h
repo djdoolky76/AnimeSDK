@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int EVRMouseButton_TypeDefinitionIndex = 39228;
+	inline static constexpr unsigned int EVRMouseButton_TypeDefinitionIndex = 40157;
 
 	enum class EVRMouseButton : ::System::Int32
 	{

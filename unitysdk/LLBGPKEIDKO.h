@@ -7,12 +7,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LLBGPKEIDKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90FED0)
-#define LLBGPKEIDKO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C910170)
-#define LLBGPKEIDKO_FILTER_OFFSET UNITYSDK_OFFSET(0x1C910070)
-#define LLBGPKEIDKO_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C90FF50)
+#define LLBGPKEIDKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABC330)
+#define LLBGPKEIDKO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DABC5D0)
+#define LLBGPKEIDKO_FILTER_OFFSET UNITYSDK_OFFSET(0x1DABC4D0)
+#define LLBGPKEIDKO_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1DABC3B0)
 
-inline static constexpr unsigned int LLBGPKEIDKO_TypeDefinitionIndex = 42875;
+inline static constexpr unsigned int LLBGPKEIDKO_TypeDefinitionIndex = 43856;
 
 	class LLBGPKEIDKO
 	{

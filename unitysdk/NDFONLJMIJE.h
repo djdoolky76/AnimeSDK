@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NDFONLJMIJE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1F8790)
-#define NDFONLJMIJE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1F8D60)
-#define NDFONLJMIJE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1F8900)
-#define NDFONLJMIJE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1F8200)
-#define NDFONLJMIJE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1F8490)
-#define NDFONLJMIJE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1F89A0)
-#define NDFONLJMIJE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1F89F0)
-#define NDFONLJMIJE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1F87D0)
-#define NDFONLJMIJE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1F8430)
-#define NDFONLJMIJE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1F8600)
-#define NDFONLJMIJE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1F8860)
-#define NDFONLJMIJE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1F8180)
+#define NDFONLJMIJE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E40D170)
+#define NDFONLJMIJE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E40D740)
+#define NDFONLJMIJE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E40D2E0)
+#define NDFONLJMIJE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E40CBE0)
+#define NDFONLJMIJE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E40CE70)
+#define NDFONLJMIJE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E40D380)
+#define NDFONLJMIJE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E40D3D0)
+#define NDFONLJMIJE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E40D1B0)
+#define NDFONLJMIJE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E40CE10)
+#define NDFONLJMIJE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E40CFE0)
+#define NDFONLJMIJE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E40D240)
+#define NDFONLJMIJE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E40CB60)
 
-inline static constexpr unsigned int NDFONLJMIJE_TypeDefinitionIndex = 12228;
+inline static constexpr unsigned int NDFONLJMIJE_TypeDefinitionIndex = 12285;
 
 	class NDFONLJMIJE : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x2D930);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x2D938);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x47D50);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesTaskRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesTaskRow*>**)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x2D940);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesTaskRow*>**)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x47D58);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x47D60);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x94D0);
+			return (::System::Byte*)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0xEDD0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0x94D1);
+			return (::System::Boolean*)UnitySDK::FromName("", "NDFONLJMIJE")->GetStaticField(0xEDD1);
 		}
 
 		static ::System::Void _cctor()

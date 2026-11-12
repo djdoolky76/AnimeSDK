@@ -3,10 +3,10 @@
 #include "unitysdk/JNOCOHFFHCP.h"
 namespace RPG::GameCore { class PropComponent; }
 
-#define IONBAHLIGMI_CTOR_OFFSET UNITYSDK_OFFSET(0x165131C0)
-#define IONBAHLIGMI_GET_ICONID_OFFSET UNITYSDK_OFFSET(0x16513100)
+#define IONBAHLIGMI_CTOR_OFFSET UNITYSDK_OFFSET(0xB847980)
+#define IONBAHLIGMI_GET_ICONID_OFFSET UNITYSDK_OFFSET(0xB8478C0)
 
-inline static constexpr unsigned int IONBAHLIGMI_TypeDefinitionIndex = 60645;
+inline static constexpr unsigned int IONBAHLIGMI_TypeDefinitionIndex = 62022;
 
 	class IONBAHLIGMI : public ::JNOCOHFFHCP
 	{

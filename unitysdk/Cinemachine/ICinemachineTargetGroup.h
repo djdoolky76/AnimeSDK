@@ -3,7 +3,7 @@
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int ICinemachineTargetGroup_TypeDefinitionIndex = 39758;
+	inline static constexpr unsigned int ICinemachineTargetGroup_TypeDefinitionIndex = 40687;
 
 	class ICinemachineTargetGroup
 	{

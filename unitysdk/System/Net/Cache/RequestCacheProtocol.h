@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F020490)
+#define SYSTEM_NET_CACHE_REQUESTCACHEPROTOCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x202CFCB0)
 
 namespace System::Net::Cache
 {

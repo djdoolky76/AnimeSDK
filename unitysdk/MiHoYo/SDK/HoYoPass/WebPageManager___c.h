@@ -5,25 +5,25 @@ namespace MiHoYo::SDK { class Web; }
 namespace MiHoYo::SDK { class Web_OnWebViewPageBeforeHide; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE7CC00)
-#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE7CC40)
-#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__OPENWEBPAGE_B__7_1_OFFSET UNITYSDK_OFFSET(0x1BE7CC50)
+#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D005FF0)
+#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D006030)
+#define MIHOYO_SDK_HOYOPASS_WEBPAGEMANAGER___C__OPENWEBPAGE_B__7_1_OFFSET UNITYSDK_OFFSET(0x1D006040)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int WebPageManager___c_TypeDefinitionIndex = 8346;
+	inline static constexpr unsigned int WebPageManager___c_TypeDefinitionIndex = 8355;
 
 	class WebPageManager___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::Web_OnWebViewPageBeforeHide** StaticGet___9__7_1()
-		{
-			return (::MiHoYo::SDK::Web_OnWebViewPageBeforeHide**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xF1A0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0xF1A8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x65FE0);
+		}
+
+		static ::MiHoYo::SDK::Web_OnWebViewPageBeforeHide** StaticGet___9__7_1()
+		{
+			return (::MiHoYo::SDK::Web_OnWebViewPageBeforeHide**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "<>c")->GetStaticField(0x65FE8);
 		}
 
 		static ::System::Void _cctor()

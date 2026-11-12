@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IExecuteEventBlocker_TypeDefinitionIndex = 6934;
+	inline static constexpr unsigned int IExecuteEventBlocker_TypeDefinitionIndex = 6945;
 
 	class IExecuteEventBlocker
 	{

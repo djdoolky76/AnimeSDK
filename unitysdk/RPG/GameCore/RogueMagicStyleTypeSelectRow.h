@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicStyleTypeSelectRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D7580)
-#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9D6E70)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC20D70)
+#define RPG_GAMECORE_ROGUEMAGICSTYLETYPESELECTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC20660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 14896;
+	inline static constexpr unsigned int RogueMagicStyleTypeSelectRow_TypeDefinitionIndex = 15052;
 
 	class RogueMagicStyleTypeSelectRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 DisplayID; // 0x18
-		::RPG::GameCore::RogueMagicStyleType EnumType; // 0x1C
-		::RPG::Client::TextID EnumDesc; // 0x20
+		::RPG::Client::TextID EnumDesc; // 0x18
+		::System::UInt32 DisplayID; // 0x28
+		::RPG::GameCore::RogueMagicStyleType EnumType; // 0x2C
 		::System::UInt32 UnlockID; // 0x30
 		::System::Void _ctor()
 		{

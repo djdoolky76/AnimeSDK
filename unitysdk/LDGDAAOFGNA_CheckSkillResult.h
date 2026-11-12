@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LDGDAAOFGNA_CheckSkillResult_TypeDefinitionIndex = 77013;
+inline static constexpr unsigned int LDGDAAOFGNA_CheckSkillResult_TypeDefinitionIndex = 79347;
 
 	enum class LDGDAAOFGNA_CheckSkillResult : ::System::Int32
 	{

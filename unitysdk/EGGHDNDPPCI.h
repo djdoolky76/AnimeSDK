@@ -6,16 +6,16 @@ class HIOAMIPNLIN;
 namespace RPG::GameCore { class SetModifierDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGGHDNDPPCI_CTOR_OFFSET UNITYSDK_OFFSET(0x14517EC0)
-#define EGGHDNDPPCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14517EF0)
+#define EGGHDNDPPCI_CTOR_OFFSET UNITYSDK_OFFSET(0x152EE6A0)
+#define EGGHDNDPPCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152EE6D0)
 
-inline static constexpr unsigned int EGGHDNDPPCI_TypeDefinitionIndex = 55534;
+inline static constexpr unsigned int EGGHDNDPPCI_TypeDefinitionIndex = 56726;
 
 	class EGGHDNDPPCI
 	{
 	public:
-		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
-		::RPG::GameCore::ArrayPoolWrapper_1<::HIOAMIPNLIN*> NMJKNKGGBOD; // 0x2C
+		::RPG::GameCore::ArrayPoolWrapper_1<::HIOAMIPNLIN*> NMJKNKGGBOD; // 0x28
+		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetModifierDynamicValue* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetModifierDynamicValue*))((::PBYTE)hIl2Cpp + EGGHDNDPPCI_CTOR_OFFSET))(this, a1, a2);

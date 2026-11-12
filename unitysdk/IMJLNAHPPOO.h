@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define IMJLNAHPPOO_CTOR_OFFSET UNITYSDK_OFFSET(0x164DD240)
-#define IMJLNAHPPOO_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x164DD250)
+#define IMJLNAHPPOO_CTOR_OFFSET UNITYSDK_OFFSET(0xB80CB60)
+#define IMJLNAHPPOO_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB80CB70)
 
-inline static constexpr unsigned int IMJLNAHPPOO_TypeDefinitionIndex = 56025;
+inline static constexpr unsigned int IMJLNAHPPOO_TypeDefinitionIndex = 57237;
 
 	class IMJLNAHPPOO : public ::System::Attribute
 	{

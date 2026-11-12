@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class EBPMACLHLOP;
 
-#define PMHPPMJAECI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9F6BE0)
-#define PMHPPMJAECI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6C40)
+#define PMHPPMJAECI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DBBA2F0)
+#define PMHPPMJAECI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBBA350)
 
-inline static constexpr unsigned int PMHPPMJAECI_TypeDefinitionIndex = 43327;
+inline static constexpr unsigned int PMHPPMJAECI_TypeDefinitionIndex = 44308;
 
 	class PMHPPMJAECI : public ::System::Object
 	{

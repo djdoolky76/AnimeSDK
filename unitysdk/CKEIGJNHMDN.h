@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class CakeRaceCatAIConfig; }
 
-#define CKEIGJNHMDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D7590)
+#define CKEIGJNHMDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D758DC0)
 
-inline static constexpr unsigned int CKEIGJNHMDN_TypeDefinitionIndex = 37247;
+inline static constexpr unsigned int CKEIGJNHMDN_TypeDefinitionIndex = 38175;
 
 	class CKEIGJNHMDN : public ::System::Object
 	{

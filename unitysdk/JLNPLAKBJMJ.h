@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/EFCOKCPFADH.h"
 
-#define JLNPLAKBJMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB251B20)
-#define JLNPLAKBJMJ_EPACDIFIDGI_OFFSET UNITYSDK_OFFSET(0xB2518B0)
+#define JLNPLAKBJMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7C970)
+#define JLNPLAKBJMJ_EPACDIFIDGI_OFFSET UNITYSDK_OFFSET(0xBA7C700)
 
-inline static constexpr unsigned int JLNPLAKBJMJ_TypeDefinitionIndex = 54182;
+inline static constexpr unsigned int JLNPLAKBJMJ_TypeDefinitionIndex = 55346;
 
 	class JLNPLAKBJMJ : public ::EFCOKCPFADH
 	{

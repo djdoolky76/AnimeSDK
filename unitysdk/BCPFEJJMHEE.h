@@ -5,9 +5,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class RtSkillConfig; }
 
-#define BCPFEJJMHEE_MDGNJPIMCPH_OFFSET UNITYSDK_OFFSET(0x162EA6F0)
+#define BCPFEJJMHEE_MDGNJPIMCPH_OFFSET UNITYSDK_OFFSET(0x170B17F0)
 
-inline static constexpr unsigned int BCPFEJJMHEE_TypeDefinitionIndex = 54058;
+inline static constexpr unsigned int BCPFEJJMHEE_TypeDefinitionIndex = 55222;
 
 	class BCPFEJJMHEE : public ::System::Object
 	{

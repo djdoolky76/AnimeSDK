@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateModifierListConfig; }
 
-#define RPG_GAMECORE_FATEMODIFIERLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69B540)
-#define RPG_GAMECORE_FATEMODIFIERLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69B500)
+#define RPG_GAMECORE_FATEMODIFIERLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A7E20)
+#define RPG_GAMECORE_FATEMODIFIERLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8A7DE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateModifierListConfig_TypeDefinitionIndex = 19257;
+	inline static constexpr unsigned int FateModifierListConfig_TypeDefinitionIndex = 19447;
 
 	class FateModifierListConfig : public ::RPG::GameCore::JsonConfig
 	{

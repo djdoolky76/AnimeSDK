@@ -5,14 +5,14 @@ class LHHEGNEBMLN;
 class PIOFKDHFGIF;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int OPFPIKNCBKG___O_TypeDefinitionIndex = 61033;
+inline static constexpr unsigned int OPFPIKNCBKG___O_TypeDefinitionIndex = 62418;
 
 	class OPFPIKNCBKG___O : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::LHHEGNEBMLN*, ::PIOFKDHFGIF*>** StaticGet__0___CreateView()
 		{
-			return (::System::Func_2<::LHHEGNEBMLN*, ::PIOFKDHFGIF*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5FC80);
+			return (::System::Func_2<::LHHEGNEBMLN*, ::PIOFKDHFGIF*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5D0A0);
 		}
 
 	};

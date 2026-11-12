@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class FrameCaptureIfNeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOBJNCNPAHA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F3650)
-#define LOBJNCNPAHA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7F3660)
-#define LOBJNCNPAHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7F36A0)
-#define LOBJNCNPAHA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7F37F0)
-#define LOBJNCNPAHA_TICK_OFFSET UNITYSDK_OFFSET(0xB7F3840)
+#define LOBJNCNPAHA_CTOR_OFFSET UNITYSDK_OFFSET(0xC052B70)
+#define LOBJNCNPAHA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC052B80)
+#define LOBJNCNPAHA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC052BC0)
+#define LOBJNCNPAHA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC052D10)
+#define LOBJNCNPAHA_TICK_OFFSET UNITYSDK_OFFSET(0xC052D60)
 
-inline static constexpr unsigned int LOBJNCNPAHA_TypeDefinitionIndex = 55076;
+inline static constexpr unsigned int LOBJNCNPAHA_TypeDefinitionIndex = 56253;
 
 	class LOBJNCNPAHA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::FrameCaptureIfNeed* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::FrameCaptureIfNeed* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Int32 OAOAKFFKDHB; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::FrameCaptureIfNeed* a2)
 		{

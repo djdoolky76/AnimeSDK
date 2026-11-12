@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RangeConfig; }
 
-#define RPG_GAMECORE_RANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96E100)
-#define RPG_GAMECORE_RANGECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D96DFE0)
+#define RPG_GAMECORE_RANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB86110)
+#define RPG_GAMECORE_RANGECONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB85FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RangeConfig_TypeDefinitionIndex = 13072;
+	inline static constexpr unsigned int RangeConfig_TypeDefinitionIndex = 13140;
 
 	class RangeConfig : public ::System::Object
 	{

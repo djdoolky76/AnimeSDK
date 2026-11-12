@@ -7,20 +7,20 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::Client { class CameraFightStateCommonConfig; }
 namespace RPG::Client { class CameraFightStateSelectDarkTeamSelfEntityConfig; }
 
-#define HDEPAIHHFCI_CTOR_OFFSET UNITYSDK_OFFSET(0x15C327C0)
-#define HDEPAIHHFCI_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x15C32780)
-#define HDEPAIHHFCI_INIT_OFFSET UNITYSDK_OFFSET(0x15C31F50)
-#define HDEPAIHHFCI_REFRESH_OFFSET UNITYSDK_OFFSET(0x15C320B0)
-#define HDEPAIHHFCI_RESET_OFFSET UNITYSDK_OFFSET(0x15C32010)
+#define HDEPAIHHFCI_CTOR_OFFSET UNITYSDK_OFFSET(0x16B75EB0)
+#define HDEPAIHHFCI_GETFIGHTSTATECONFIG_OFFSET UNITYSDK_OFFSET(0x16B75E70)
+#define HDEPAIHHFCI_INIT_OFFSET UNITYSDK_OFFSET(0x16B75640)
+#define HDEPAIHHFCI_REFRESH_OFFSET UNITYSDK_OFFSET(0x16B757A0)
+#define HDEPAIHHFCI_RESET_OFFSET UNITYSDK_OFFSET(0x16B75700)
 
-inline static constexpr unsigned int HDEPAIHHFCI_TypeDefinitionIndex = 69603;
+inline static constexpr unsigned int HDEPAIHHFCI_TypeDefinitionIndex = 71560;
 
 	class HDEPAIHHFCI : public ::System::Object
 	{
 	public:
-		::ACBFNEKJDNP* LEOGIKABIGF; // 0x10
+		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x10
 		::RPG::Client::CameraFightStateSelectDarkTeamSelfEntityConfig* MAFIONBKPIE; // 0x18
-		::RPG::Client::CameraDataAndFlags* OMKPPIGCFDN; // 0x20
+		::ACBFNEKJDNP* LEOGIKABIGF; // 0x20
 		::UnityEngine::Vector3 EPGIKHNGDEB; // 0x28
 		::System::Single JONIHNEBKCO; // 0x34
 		::System::Void _ctor()

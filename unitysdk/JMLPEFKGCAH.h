@@ -3,9 +3,9 @@
 class LPNPMKNMMOK;
 namespace RPG::GameCore { class GameEntity; }
 
-#define JMLPEFKGCAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB271D00)
+#define JMLPEFKGCAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBA9CB50)
 
-inline static constexpr unsigned int JMLPEFKGCAH_TypeDefinitionIndex = 53784;
+inline static constexpr unsigned int JMLPEFKGCAH_TypeDefinitionIndex = 54948;
 
 	struct alignas(8) JMLPEFKGCAH
 	{

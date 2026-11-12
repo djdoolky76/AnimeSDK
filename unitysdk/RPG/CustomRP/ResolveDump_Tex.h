@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_RESOLVEDUMP_TEX_CTOR_OFFSET UNITYSDK_OFFSET(0xE9D80)
+#define RPG_CUSTOMRP_RESOLVEDUMP_TEX_CTOR_OFFSET UNITYSDK_OFFSET(0xF5D80)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ResolveDump_Tex_TypeDefinitionIndex = 37745;
+	inline static constexpr unsigned int ResolveDump_Tex_TypeDefinitionIndex = 38674;
 
 	struct alignas(8) ResolveDump_Tex
 	{

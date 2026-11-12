@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PABKMCIOHDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFC4F40)
-#define PABKMCIOHDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC4F80)
-#define PABKMCIOHDM___C__UPDATEASSOCIATEFINISHCONDITIONMISSION_B__0_0_OFFSET UNITYSDK_OFFSET(0xBFC4F90)
+#define PABKMCIOHDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8C6470)
+#define PABKMCIOHDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8C64B0)
+#define PABKMCIOHDM___C__UPDATEASSOCIATEFINISHCONDITIONMISSION_B__0_0_OFFSET UNITYSDK_OFFSET(0xC8C64C0)
 
-inline static constexpr unsigned int PABKMCIOHDM___c_TypeDefinitionIndex = 56497;
+inline static constexpr unsigned int PABKMCIOHDM___c_TypeDefinitionIndex = 57717;
 
 	class PABKMCIOHDM___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60E50);
-		}
-
 		static ::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>** StaticGet___9__0_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60E58);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::RPG::Client::SubMissionData*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E600);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E608);
 		}
 
 		static ::System::Void _cctor()

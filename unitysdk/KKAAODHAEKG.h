@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleAddSkill; }
 
-#define KKAAODHAEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C905520)
-#define KKAAODHAEKG_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C905530)
+#define KKAAODHAEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB1740)
+#define KKAAODHAEKG_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DAB1750)
 
-inline static constexpr unsigned int KKAAODHAEKG_TypeDefinitionIndex = 43126;
+inline static constexpr unsigned int KKAAODHAEKG_TypeDefinitionIndex = 44107;
 
 	class KKAAODHAEKG : public ::BKABEBEPPJK
 	{

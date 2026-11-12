@@ -6,11 +6,11 @@ namespace RPG::GameCore { class PuzzleSetAnimatorParams; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define AFJKCCDLNNA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0E110)
-#define AFJKCCDLNNA_JDKDPMGIABH_OFFSET UNITYSDK_OFFSET(0xCF0E420)
-#define AFJKCCDLNNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF0E140)
+#define AFJKCCDLNNA_CTOR_OFFSET UNITYSDK_OFFSET(0xD5C0150)
+#define AFJKCCDLNNA_JDKDPMGIABH_OFFSET UNITYSDK_OFFSET(0xD5C0460)
+#define AFJKCCDLNNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5C0180)
 
-inline static constexpr unsigned int AFJKCCDLNNA_TypeDefinitionIndex = 53189;
+inline static constexpr unsigned int AFJKCCDLNNA_TypeDefinitionIndex = 54351;
 
 	class AFJKCCDLNNA
 	{

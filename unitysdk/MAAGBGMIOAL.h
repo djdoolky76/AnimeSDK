@@ -26,7 +26,7 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class LittleGameLevelConfig; }
 namespace System { class String; }
 
-inline static constexpr unsigned int MAAGBGMIOAL_TypeDefinitionIndex = 43356;
+inline static constexpr unsigned int MAAGBGMIOAL_TypeDefinitionIndex = 44337;
 
 	struct alignas(8) MAAGBGMIOAL
 	{

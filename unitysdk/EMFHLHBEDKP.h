@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define EMFHLHBEDKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15534690)
-#define EMFHLHBEDKP_HOAHHKDMAFB_OFFSET UNITYSDK_OFFSET(0x15534610)
+#define EMFHLHBEDKP_CTOR_OFFSET UNITYSDK_OFFSET(0x16480DD0)
+#define EMFHLHBEDKP_HOAHHKDMAFB_OFFSET UNITYSDK_OFFSET(0x16480D50)
 
-inline static constexpr unsigned int EMFHLHBEDKP_TypeDefinitionIndex = 81976;
+inline static constexpr unsigned int EMFHLHBEDKP_TypeDefinitionIndex = 84757;
 
 	class EMFHLHBEDKP : public ::System::Object
 	{

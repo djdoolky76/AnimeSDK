@@ -7,20 +7,20 @@ namespace RPG::Client { class MapNpcDef; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PEBBBNOOCFO_FPEFNEKIIDL_BAHBJMACJNA_OFFSET UNITYSDK_OFFSET(0xC030CE0)
-#define PEBBBNOOCFO_FPEFNEKIIDL_CLEAR_OFFSET UNITYSDK_OFFSET(0xC032420)
-#define PEBBBNOOCFO_FPEFNEKIIDL_CPLJLJPLLNC_OFFSET UNITYSDK_OFFSET(0xC0313D0)
-#define PEBBBNOOCFO_FPEFNEKIIDL_CTOR_OFFSET UNITYSDK_OFFSET(0xC031370)
+#define PEBBBNOOCFO_FPEFNEKIIDL_BAHBJMACJNA_OFFSET UNITYSDK_OFFSET(0xC937010)
+#define PEBBBNOOCFO_FPEFNEKIIDL_CLEAR_OFFSET UNITYSDK_OFFSET(0xC938810)
+#define PEBBBNOOCFO_FPEFNEKIIDL_CPLJLJPLLNC_OFFSET UNITYSDK_OFFSET(0xC937770)
+#define PEBBBNOOCFO_FPEFNEKIIDL_CTOR_OFFSET UNITYSDK_OFFSET(0xC937710)
 
-inline static constexpr unsigned int PEBBBNOOCFO_FPEFNEKIIDL_TypeDefinitionIndex = 60605;
+inline static constexpr unsigned int PEBBBNOOCFO_FPEFNEKIIDL_TypeDefinitionIndex = 61982;
 
 	class PEBBBNOOCFO_FPEFNEKIIDL : public ::System::Object
 	{
 	public:
-		::RPG::Client::MapNpcDef* ODOBMHNHNEB; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* KBKIKFGJBII; // 0x18
-		::RPG::Client::MapRotation::EffectType DLMINHHKKMK; // 0x20
-		::System::UInt32 GJPPHJMHBPF; // 0x24
+		::System::Collections::Generic::List_1<::System::Object*>* KBKIKFGJBII; // 0x10
+		::RPG::Client::MapNpcDef* ODOBMHNHNEB; // 0x18
+		::System::UInt32 GJPPHJMHBPF; // 0x20
+		::RPG::Client::MapRotation::EffectType DLMINHHKKMK; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PEBBBNOOCFO_FPEFNEKIIDL_CTOR_OFFSET))(this);

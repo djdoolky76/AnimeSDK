@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYSUBSCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD67E460)
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYSUBSCRIPTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD67E4C0)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYSUBSCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE10CE20)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYSUBSCRIPTION_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE10CE80)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiySubscription_TypeDefinitionIndex = 79623;
+	inline static constexpr unsigned int MechCraftDiySubscription_TypeDefinitionIndex = 82400;
 
 	class MechCraftDiySubscription : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckLineupAvatarBaseType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBEIKBBMKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x15E86710)
-#define BBEIKBBMKCB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E86740)
+#define BBEIKBBMKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x16D0B040)
+#define BBEIKBBMKCB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D0B070)
 
-inline static constexpr unsigned int BBEIKBBMKCB_TypeDefinitionIndex = 52084;
+inline static constexpr unsigned int BBEIKBBMKCB_TypeDefinitionIndex = 53189;
 
 	class BBEIKBBMKCB
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ResetVirtualCameraPosByPlayerTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDLGEAMNAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1332A9C0)
-#define EDLGEAMNAIL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1332A9D0)
-#define EDLGEAMNAIL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1332AA10)
-#define EDLGEAMNAIL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1332B080)
-#define EDLGEAMNAIL_TICK_OFFSET UNITYSDK_OFFSET(0x1332B0D0)
+#define EDLGEAMNAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x140E7860)
+#define EDLGEAMNAIL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x140E7870)
+#define EDLGEAMNAIL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140E78B0)
+#define EDLGEAMNAIL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x140E7F00)
+#define EDLGEAMNAIL_TICK_OFFSET UNITYSDK_OFFSET(0x140E7F50)
 
-inline static constexpr unsigned int EDLGEAMNAIL_TypeDefinitionIndex = 58399;
+inline static constexpr unsigned int EDLGEAMNAIL_TypeDefinitionIndex = 59655;
 
 	class EDLGEAMNAIL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ResetVirtualCameraPosByPlayerTalk*))((::PBYTE)hIl2Cpp + EDLGEAMNAIL_CTOR_OFFSET))(this, a1, a2);

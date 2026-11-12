@@ -5,25 +5,25 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ELFRESTAURANTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCDC9340)
-#define RPG_CLIENT_ELFRESTAURANTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCDC9380)
-#define RPG_CLIENT_ELFRESTAURANTINFO___C__TRYGETMANAGESTATISTICS_B__25_0_OFFSET UNITYSDK_OFFSET(0xCDC9390)
+#define RPG_CLIENT_ELFRESTAURANTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD790380)
+#define RPG_CLIENT_ELFRESTAURANTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD7903C0)
+#define RPG_CLIENT_ELFRESTAURANTINFO___C__TRYGETMANAGESTATISTICS_B__25_0_OFFSET UNITYSDK_OFFSET(0xD7903D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRestaurantInfo___c_TypeDefinitionIndex = 63740;
+	inline static constexpr unsigned int ElfRestaurantInfo___c_TypeDefinitionIndex = 65182;
 
 	class ElfRestaurantInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Boolean>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x48560);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x44780);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x48568);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x44788);
 		}
 
 		static ::System::Void _cctor()

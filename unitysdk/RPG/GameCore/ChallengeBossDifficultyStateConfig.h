@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeBossDifficultyStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D55B940)
-#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D55B760)
+#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E76D0E0)
+#define RPG_GAMECORE_CHALLENGEBOSSDIFFICULTYSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E76CF00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeBossDifficultyStateConfig_TypeDefinitionIndex = 16405;
+	inline static constexpr unsigned int ChallengeBossDifficultyStateConfig_TypeDefinitionIndex = 16569;
 
 	class ChallengeBossDifficultyStateConfig : public ::RPG::GameCore::JsonConfig
 	{

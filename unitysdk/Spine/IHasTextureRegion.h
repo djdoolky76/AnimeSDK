@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int IHasTextureRegion_TypeDefinitionIndex = 39655;
+	inline static constexpr unsigned int IHasTextureRegion_TypeDefinitionIndex = 40584;
 
 	class IHasTextureRegion
 	{

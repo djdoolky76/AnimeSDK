@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_DONTDRAWCOMPONENTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x16762BF0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_DONTDRAWCOMPONENTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x175A6E50)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int DontDrawComponentAttribute_TypeDefinitionIndex = 10064;
+	inline static constexpr unsigned int DontDrawComponentAttribute_TypeDefinitionIndex = 10072;
 
 	class DontDrawComponentAttribute : public ::System::Attribute
 	{

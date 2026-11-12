@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SummonEntityPreloadConfig; }
 
-#define RPG_GAMECORE_SUMMONENTITYPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB39BD0)
-#define RPG_GAMECORE_SUMMONENTITYPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB39AD0)
+#define RPG_GAMECORE_SUMMONENTITYPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE9520)
+#define RPG_GAMECORE_SUMMONENTITYPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDE9420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SummonEntityPreloadConfig_TypeDefinitionIndex = 16342;
+	inline static constexpr unsigned int SummonEntityPreloadConfig_TypeDefinitionIndex = 16505;
 
 	class SummonEntityPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

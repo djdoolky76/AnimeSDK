@@ -4,11 +4,11 @@
 class COGBNIGPJPO;
 namespace RPG::Client { class Map; }
 
-#define RPG_CLIENT_ADVENTUREMAPTESTINITPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xC5D9AB0)
+#define RPG_CLIENT_ADVENTUREMAPTESTINITPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xCF34C80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureMapTestInitParams_TypeDefinitionIndex = 60952;
+	inline static constexpr unsigned int AdventureMapTestInitParams_TypeDefinitionIndex = 62328;
 
 	class AdventureMapTestInitParams : public ::System::Object
 	{

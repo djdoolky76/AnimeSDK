@@ -6,10 +6,10 @@ namespace RPG::GameCore { class UIOperation; }
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define MONOUIADAPTCONFIGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4FA40)
-#define MONOUIADAPTCONFIGITEM_EPGFADIBHKP_OFFSET UNITYSDK_OFFSET(0xBA4F530)
+#define MONOUIADAPTCONFIGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xC30FE90)
+#define MONOUIADAPTCONFIGITEM_EPGFADIBHKP_OFFSET UNITYSDK_OFFSET(0xC30F980)
 
-inline static constexpr unsigned int MonoUIAdaptConfigItem_TypeDefinitionIndex = 47584;
+inline static constexpr unsigned int MonoUIAdaptConfigItem_TypeDefinitionIndex = 48613;
 
 	class MonoUIAdaptConfigItem : public ::System::Object
 	{

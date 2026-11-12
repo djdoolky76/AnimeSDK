@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class APKDMEEAPKJ;
 
-#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE6FA4D0)
-#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0__GETACTIVITYBUFFLAYERCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xE6FF7E0)
+#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF202560)
+#define RPG_GAMECORE_LEVELUICOMPONENT___C__DISPLAYCLASS8_0__GETACTIVITYBUFFLAYERCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xF202570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelUIComponent___c__DisplayClass8_0_TypeDefinitionIndex = 57300;
+	inline static constexpr unsigned int LevelUIComponent___c__DisplayClass8_0_TypeDefinitionIndex = 58528;
 
 	class LevelUIComponent___c__DisplayClass8_0 : public ::System::Object
 	{

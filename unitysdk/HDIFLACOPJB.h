@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvRemoveEffectList; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HDIFLACOPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C37360)
-#define HDIFLACOPJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C37390)
+#define HDIFLACOPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x16B7ADC0)
+#define HDIFLACOPJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B7ADF0)
 
-inline static constexpr unsigned int HDIFLACOPJB_TypeDefinitionIndex = 52481;
+inline static constexpr unsigned int HDIFLACOPJB_TypeDefinitionIndex = 53587;
 
 	class HDIFLACOPJB
 	{

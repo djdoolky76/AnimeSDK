@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DecalPuzzleStart; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DECALPUZZLESTART_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F92B0)
-#define RPG_GAMECORE_DECALPUZZLESTART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5F92D0)
-#define RPG_GAMECORE_DECALPUZZLESTART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5F9260)
+#define RPG_GAMECORE_DECALPUZZLESTART_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80B200)
+#define RPG_GAMECORE_DECALPUZZLESTART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E80B220)
+#define RPG_GAMECORE_DECALPUZZLESTART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E80B1B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DecalPuzzleStart_TypeDefinitionIndex = 21208;
+	inline static constexpr unsigned int DecalPuzzleStart_TypeDefinitionIndex = 21551;
 
 	class DecalPuzzleStart : public ::RPG::GameCore::TaskConfig
 	{

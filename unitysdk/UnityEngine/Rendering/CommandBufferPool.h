@@ -5,22 +5,22 @@ namespace System { class String; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2AEB70)
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0x1F2AEA40)
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_GET_1_OFFSET UNITYSDK_OFFSET(0x1F2AE9C0)
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_GET_OFFSET UNITYSDK_OFFSET(0x1F2AE910)
-#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x1F2AEAC0)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x2055F8F0)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_GETDEFAULT_OFFSET UNITYSDK_OFFSET(0x2055F7C0)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_GET_1_OFFSET UNITYSDK_OFFSET(0x2055F740)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_GET_OFFSET UNITYSDK_OFFSET(0x2055F690)
+#define UNITYENGINE_RENDERING_COMMANDBUFFERPOOL_RELEASE_OFFSET UNITYSDK_OFFSET(0x2055F840)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CommandBufferPool_TypeDefinitionIndex = 35470;
+	inline static constexpr unsigned int CommandBufferPool_TypeDefinitionIndex = 36398;
 
 	class CommandBufferPool : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>** StaticGet_s_BufferPool()
 		{
-			return (::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>**)UnitySDK::FromName("UnityEngine.Rendering", "CommandBufferPool")->GetStaticField(0x46EF0);
+			return (::UnityEngine::Rendering::ObjectPool_1<::UnityEngine::Rendering::CommandBuffer*>**)UnitySDK::FromName("UnityEngine.Rendering", "CommandBufferPool")->GetStaticField(0x59980);
 		}
 
 		static ::System::Void _cctor()

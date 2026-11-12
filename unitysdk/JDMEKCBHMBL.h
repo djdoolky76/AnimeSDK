@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByPlayerInVisionZone; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDMEKCBHMBL_CTOR_OFFSET UNITYSDK_OFFSET(0x165D8280)
-#define JDMEKCBHMBL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165D82B0)
+#define JDMEKCBHMBL_CTOR_OFFSET UNITYSDK_OFFSET(0xB91ED40)
+#define JDMEKCBHMBL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB91ED70)
 
-inline static constexpr unsigned int JDMEKCBHMBL_TypeDefinitionIndex = 53120;
+inline static constexpr unsigned int JDMEKCBHMBL_TypeDefinitionIndex = 54282;
 
 	class JDMEKCBHMBL
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HGKCJBNMCPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFA040)
+#define HGKCJBNMCPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEAAB90)
 
-inline static constexpr unsigned int HGKCJBNMCPI_TypeDefinitionIndex = 35274;
+inline static constexpr unsigned int HGKCJBNMCPI_TypeDefinitionIndex = 36202;
 
 	class HGKCJBNMCPI : public ::System::Object
 	{

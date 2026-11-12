@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 class IDBNLIKLDKJ;
 namespace RPG::GameCore { class StageInvasionConfigRow; }
 
-#define RPG_GAMECORE_STAGEINVASIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0F3B0)
-#define RPG_GAMECORE_STAGEINVASIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0F250)
+#define RPG_GAMECORE_STAGEINVASIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED215D0)
+#define RPG_GAMECORE_STAGEINVASIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED21470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionConfigRow_TypeDefinitionIndex = 15156;
+	inline static constexpr unsigned int StageInvasionConfigRow_TypeDefinitionIndex = 15312;
 
 	class StageInvasionConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::IDBNLIKLDKJ*>* MonsterInvasionList; // 0x10
-		::System::UInt32 StageID; // 0x18
-		::System::UInt32 InvasionID; // 0x1C
+		::System::UInt32 InvasionID; // 0x18
+		::System::UInt32 StageID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_STAGEINVASIONCONFIGROW_CTOR_OFFSET))(this);

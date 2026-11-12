@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3Int.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JMAEIEGICHJ_BHJJNCEJODI_CTOR_OFFSET UNITYSDK_OFFSET(0xB259DA0)
+#define JMAEIEGICHJ_BHJJNCEJODI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA84D10)
 
-inline static constexpr unsigned int JMAEIEGICHJ_BHJJNCEJODI_TypeDefinitionIndex = 51846;
+inline static constexpr unsigned int JMAEIEGICHJ_BHJJNCEJODI_TypeDefinitionIndex = 52932;
 
 	class JMAEIEGICHJ_BHJJNCEJODI : public ::System::Object
 	{

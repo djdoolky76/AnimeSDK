@@ -3,9 +3,9 @@
 #include "unitysdk/PNELGBMHFFL.h"
 #include "unitysdk/System/Object.h"
 
-#define BIMGEEPNCHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BAF60)
+#define BIMGEEPNCHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3BC80)
 
-inline static constexpr unsigned int BIMGEEPNCHP_TypeDefinitionIndex = 42222;
+inline static constexpr unsigned int BIMGEEPNCHP_TypeDefinitionIndex = 43197;
 
 	class BIMGEEPNCHP : public ::System::Object
 	{

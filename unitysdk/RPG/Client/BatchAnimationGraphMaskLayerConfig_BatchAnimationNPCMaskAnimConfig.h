@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_BATCHANIMATIONNPCMASKANIMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F5B00)
+#define RPG_CLIENT_BATCHANIMATIONGRAPHMASKLAYERCONFIG_BATCHANIMATIONNPCMASKANIMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD156580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationNPCMaskAnimConfig_TypeDefinitionIndex = 60014;
+	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationNPCMaskAnimConfig_TypeDefinitionIndex = 61298;
 
 	class BatchAnimationGraphMaskLayerConfig_BatchAnimationNPCMaskAnimConfig : public ::System::Object
 	{

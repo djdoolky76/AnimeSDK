@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_H5LOGGENERALREPORT_MODULETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0xAF7FF50)
+#define MIHOYO_SDK_H5LOGGENERALREPORT_MODULETYPE_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E1440)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int H5logGeneralReport_ModuleType_TypeDefinitionIndex = 46473;
+	inline static constexpr unsigned int H5logGeneralReport_ModuleType_TypeDefinitionIndex = 47501;
 
 	class H5logGeneralReport_ModuleType : public ::System::Object
 	{

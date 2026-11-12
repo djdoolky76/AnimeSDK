@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace TMPro { class TMP_GlyphPairAdjustmentRecord; }
 
-#define TMPRO_GLYPHPAIRKEY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C67430)
-#define TMPRO_GLYPHPAIRKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C67410)
+#define TMPRO_GLYPHPAIRKEY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3EB6790)
+#define TMPRO_GLYPHPAIRKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x3EB6770)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int GlyphPairKey_TypeDefinitionIndex = 44592;
+	inline static constexpr unsigned int GlyphPairKey_TypeDefinitionIndex = 45667;
 
 	struct alignas(4) GlyphPairKey
 	{

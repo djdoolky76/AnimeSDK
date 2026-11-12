@@ -4,18 +4,18 @@
 class AIIGHJEIGHE;
 namespace System { class Object; }
 
-#define AIIGHJEIGHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E27D860)
-#define AIIGHJEIGHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27D8A0)
-#define AIIGHJEIGHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E27D8B0)
+#define AIIGHJEIGHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F531A00)
+#define AIIGHJEIGHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F531A40)
+#define AIIGHJEIGHE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F531A50)
 
-inline static constexpr unsigned int AIIGHJEIGHE___c_TypeDefinitionIndex = 25186;
+inline static constexpr unsigned int AIIGHJEIGHE___c_TypeDefinitionIndex = 25664;
 
 	class AIIGHJEIGHE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D740);
 		}
 
 		static ::System::Void _cctor()

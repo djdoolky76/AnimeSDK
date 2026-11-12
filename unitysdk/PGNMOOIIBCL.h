@@ -7,12 +7,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PGNMOOIIBCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E8F30)
-#define PGNMOOIIBCL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C9E91D0)
-#define PGNMOOIIBCL_FILTER_OFFSET UNITYSDK_OFFSET(0x1C9E90D0)
-#define PGNMOOIIBCL_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C9E8FB0)
+#define PGNMOOIIBCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBABD30)
+#define PGNMOOIIBCL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DBABFD0)
+#define PGNMOOIIBCL_FILTER_OFFSET UNITYSDK_OFFSET(0x1DBABED0)
+#define PGNMOOIIBCL_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1DBABDB0)
 
-inline static constexpr unsigned int PGNMOOIIBCL_TypeDefinitionIndex = 42871;
+inline static constexpr unsigned int PGNMOOIIBCL_TypeDefinitionIndex = 43852;
 
 	class PGNMOOIIBCL
 	{

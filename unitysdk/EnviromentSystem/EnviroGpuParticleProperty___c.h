@@ -5,25 +5,25 @@ namespace RPG::Client { class GpuParticleOccluder; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x155FC010)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x155FC050)
-#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CALCULATEOBBAABBINTERSECTIONS_B__56_0_OFFSET UNITYSDK_OFFSET(0x155FC060)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1650CE90)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1650CED0)
+#define ENVIROMENTSYSTEM_ENVIROGPUPARTICLEPROPERTY___C__CALCULATEOBBAABBINTERSECTIONS_B__56_0_OFFSET UNITYSDK_OFFSET(0x1650CEE0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty___c_TypeDefinitionIndex = 49603;
+	inline static constexpr unsigned int EnviroGpuParticleProperty___c_TypeDefinitionIndex = 50679;
 
 	class EnviroGpuParticleProperty___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>** StaticGet___9__56_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)UnitySDK::FromName("EnviromentSystem", "<>c")->GetStaticField(0x575C0);
+			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)UnitySDK::FromName("EnviromentSystem", "<>c")->GetStaticField(0x36FB0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("EnviromentSystem", "<>c")->GetStaticField(0x575C8);
+			return (::System::Object**)UnitySDK::FromName("EnviromentSystem", "<>c")->GetStaticField(0x36FB8);
 		}
 
 		static ::System::Void _cctor()

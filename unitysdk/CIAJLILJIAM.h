@@ -1,29 +1,33 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/BehaviorBase.h"
+#include "unitysdk/RPG/Client/MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo.h"
+#include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace RPG::Client { class MonoEffectPluginSyncTargetNormalizedTime; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define CIAJLILJIAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF65180)
-#define CIAJLILJIAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCF645C0)
-#define CIAJLILJIAM_EKHOGLFCCBI_OFFSET UNITYSDK_OFFSET(0xCF64850)
-#define CIAJLILJIAM_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xCF65070)
-#define CIAJLILJIAM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCF648A0)
-#define CIAJLILJIAM_KLIOBGEPFEH_OFFSET UNITYSDK_OFFSET(0xCF64630)
-#define CIAJLILJIAM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF64550)
-#define CIAJLILJIAM_LODGFIDABBO_OFFSET UNITYSDK_OFFSET(0xCF64690)
-#define CIAJLILJIAM_PCJEOMHPCJM_OFFSET UNITYSDK_OFFSET(0xCF650C0)
-#define CIAJLILJIAM_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xCF64800)
+#define CIAJLILJIAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD8CE330)
+#define CIAJLILJIAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD8CD280)
+#define CIAJLILJIAM_DLPIEHDMKED_OFFSET UNITYSDK_OFFSET(0xD8CE250)
+#define CIAJLILJIAM_EKHOGLFCCBI_OFFSET UNITYSDK_OFFSET(0xD8CD510)
+#define CIAJLILJIAM_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xD8CDEF0)
+#define CIAJLILJIAM_IFEMMNPDLCM_OFFSET UNITYSDK_OFFSET(0xD8CDF40)
+#define CIAJLILJIAM_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xD8CD560)
+#define CIAJLILJIAM_KLIOBGEPFEH_OFFSET UNITYSDK_OFFSET(0xD8CD2F0)
+#define CIAJLILJIAM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD8CD210)
+#define CIAJLILJIAM_LODGFIDABBO_OFFSET UNITYSDK_OFFSET(0xD8CD350)
+#define CIAJLILJIAM_PCJEOMHPCJM_OFFSET UNITYSDK_OFFSET(0xD8CE190)
+#define CIAJLILJIAM_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xD8CD4C0)
 
-inline static constexpr unsigned int CIAJLILJIAM_TypeDefinitionIndex = 69902;
+inline static constexpr unsigned int CIAJLILJIAM_TypeDefinitionIndex = 71861;
 
 	class CIAJLILJIAM : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::UnityEngine::Animator* FGJKNDNCCCJ; // 0x18
-		::UnityEngine::Animator* ENJHGOIKBMG; // 0x20
+		::UnityEngine::Animator* ENJHGOIKBMG; // 0x18
+		::UnityEngine::Animator* FGJKNDNCCCJ; // 0x20
 		::System::Int32 ENMONAJOEME; // 0x28
 		::System::Void _ctor()
 		{
@@ -68,6 +72,16 @@ inline static constexpr unsigned int CIAJLILJIAM_TypeDefinitionIndex = 69902;
 		::UnityEngine::Animator* PCJEOMHPCJM(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::UnityEngine::Animator*(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + CIAJLILJIAM_PCJEOMHPCJM_OFFSET))(this, a1);
+		}
+
+		::System::Single IFEMMNPDLCM(::RPG::Client::MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::Animator* a3)
+		{
+			return ((::System::Single(*)(::PVOID, ::RPG::Client::MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + CIAJLILJIAM_IFEMMNPDLCM_OFFSET))(this, a1, a2, a3);
+		}
+
+		::System::Single DLPIEHDMKED(::RPG::Client::MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo a1, ::UnityEngine::AnimatorStateInfo a2, ::UnityEngine::Animator* a3)
+		{
+			return ((::System::Single(*)(::PVOID, ::RPG::Client::MonoEffectPluginSyncTargetNormalizedTime_SyncAnimatorInfo, ::UnityEngine::AnimatorStateInfo, ::UnityEngine::Animator*))((::PBYTE)hIl2Cpp + CIAJLILJIAM_DLPIEHDMKED_OFFSET))(this, a1, a2, a3);
 		}
 
 		::RPG::Client::MonoEffectPluginSyncTargetNormalizedTime* HPNDIIPEFLJ()

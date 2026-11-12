@@ -6,17 +6,17 @@
 class NEJLIGKNHCC_GONOHDPNHKO;
 namespace System { class Object; }
 
-#define NEJLIGKNHCC___C__DISPLAYCLASS30_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBB65680)
-#define NEJLIGKNHCC___C__DISPLAYCLASS30_1___BUILDPOINTLAYOUT_B__0_OFFSET UNITYSDK_OFFSET(0xBB67110)
+#define NEJLIGKNHCC___C__DISPLAYCLASS30_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC3EF530)
+#define NEJLIGKNHCC___C__DISPLAYCLASS30_1___BUILDPOINTLAYOUT_B__0_OFFSET UNITYSDK_OFFSET(0xC3F0FF0)
 
-inline static constexpr unsigned int NEJLIGKNHCC___c__DisplayClass30_1_TypeDefinitionIndex = 69298;
+inline static constexpr unsigned int NEJLIGKNHCC___c__DisplayClass30_1_TypeDefinitionIndex = 71252;
 
 	template <typename T>
 	class NEJLIGKNHCC___c__DisplayClass30_1 : public ::System::Object
 	{
 	public:
-		::NEJLIGKNHCC_GONOHDPNHKO* emitterCandidatePool; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::NEJLIGKNHCC_GONOHDPNHKO* emitterCandidatePool; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEJLIGKNHCC___C__DISPLAYCLASS30_1_CTOR_OFFSET))(this);

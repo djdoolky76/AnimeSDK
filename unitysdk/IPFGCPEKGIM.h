@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IPFGCPEKGIM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CF2DC20)
-#define IPFGCPEKGIM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF2E1F0)
-#define IPFGCPEKGIM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CF2DD90)
-#define IPFGCPEKGIM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CF2D690)
-#define IPFGCPEKGIM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CF2D920)
-#define IPFGCPEKGIM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CF2DE30)
-#define IPFGCPEKGIM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CF2DE80)
-#define IPFGCPEKGIM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CF2DC60)
-#define IPFGCPEKGIM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CF2D8C0)
-#define IPFGCPEKGIM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CF2DA90)
-#define IPFGCPEKGIM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF2DCF0)
-#define IPFGCPEKGIM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF2D610)
+#define IPFGCPEKGIM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E114530)
+#define IPFGCPEKGIM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E114B30)
+#define IPFGCPEKGIM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E1146A0)
+#define IPFGCPEKGIM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E113F60)
+#define IPFGCPEKGIM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E1141F0)
+#define IPFGCPEKGIM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E114740)
+#define IPFGCPEKGIM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E114790)
+#define IPFGCPEKGIM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E114570)
+#define IPFGCPEKGIM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E114190)
+#define IPFGCPEKGIM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E114360)
+#define IPFGCPEKGIM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E114600)
+#define IPFGCPEKGIM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E113EE0)
 
-inline static constexpr unsigned int IPFGCPEKGIM_TypeDefinitionIndex = 13466;
+inline static constexpr unsigned int IPFGCPEKGIM_TypeDefinitionIndex = 13542;
 
 	class IPFGCPEKGIM : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipRecommendRoleConfigRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipRecommendRoleConfigRow*>**)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x24DC0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x1D520);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x24DC8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x1D528);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipRecommendRoleConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x24DD0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipRecommendRoleConfigRow*>**)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x1D530);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x80B0);
+			return (::System::Byte*)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x6640);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x80B1);
+			return (::System::Boolean*)UnitySDK::FromName("", "IPFGCPEKGIM")->GetStaticField(0x6641);
 		}
 
 		static ::System::Void _cctor()
@@ -73,9 +73,9 @@ inline static constexpr unsigned int IPFGCPEKGIM_TypeDefinitionIndex = 13466;
 			return ((::RPG::GameCore::FixEnumerator_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightEquipRecommendRoleConfigRow*>(*)())((::PBYTE)hIl2Cpp + IPFGCPEKGIM_FPHGMAMDFHE_OFFSET))();
 		}
 
-		static ::RPG::GameCore::GridFightEquipRecommendRoleConfigRow* LMBKNCAIDLC(::System::UInt32 a1)
+		static ::RPG::GameCore::GridFightEquipRecommendRoleConfigRow* LMBKNCAIDLC(::System::UInt32 a1, ::System::UInt32 a2)
 		{
-			return ((::RPG::GameCore::GridFightEquipRecommendRoleConfigRow*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + IPFGCPEKGIM_LMBKNCAIDLC_OFFSET))(a1);
+			return ((::RPG::GameCore::GridFightEquipRecommendRoleConfigRow*(*)(::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + IPFGCPEKGIM_LMBKNCAIDLC_OFFSET))(a1, a2);
 		}
 
 		static ::System::Boolean ANPPJFBBJFP()

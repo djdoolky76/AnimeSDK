@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EnergyBarConfig; }
 
-#define RPG_GAMECORE_ENERGYBARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D641F50)
-#define RPG_GAMECORE_ENERGYBARCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D641E90)
+#define RPG_GAMECORE_ENERGYBARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E87F860)
+#define RPG_GAMECORE_ENERGYBARCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E87F7A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnergyBarConfig_TypeDefinitionIndex = 16548;
+	inline static constexpr unsigned int EnergyBarConfig_TypeDefinitionIndex = 16714;
 
 	class EnergyBarConfig : public ::RPG::GameCore::JsonConfig
 	{

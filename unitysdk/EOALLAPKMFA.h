@@ -12,48 +12,48 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define EOALLAPKMFA_AONEFDOPGDC_OFFSET UNITYSDK_OFFSET(0x1E2F6430)
-#define EOALLAPKMFA_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E2F6990)
-#define EOALLAPKMFA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2F6C20)
-#define EOALLAPKMFA_CLONE_OFFSET UNITYSDK_OFFSET(0x1E2F63E0)
-#define EOALLAPKMFA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E2F6340)
-#define EOALLAPKMFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F62E0)
-#define EOALLAPKMFA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E2F6540)
-#define EOALLAPKMFA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E2F64A0)
-#define EOALLAPKMFA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E2F6670)
-#define EOALLAPKMFA_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E2F62A0)
-#define EOALLAPKMFA_LAEEMPOIHOK_OFFSET UNITYSDK_OFFSET(0x1E2F6490)
-#define EOALLAPKMFA_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E2F6B20)
-#define EOALLAPKMFA_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E2F6AB0)
-#define EOALLAPKMFA_NOJOEJIFAGC_OFFSET UNITYSDK_OFFSET(0x1E2F6440)
-#define EOALLAPKMFA_OCMELHDBILD_OFFSET UNITYSDK_OFFSET(0x1E2F6410)
-#define EOALLAPKMFA_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E2F62D0)
-#define EOALLAPKMFA_PNLHBBDAGKE_OFFSET UNITYSDK_OFFSET(0x1E2F6420)
-#define EOALLAPKMFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F67F0)
-#define EOALLAPKMFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F6850)
+#define EOALLAPKMFA_AONEFDOPGDC_OFFSET UNITYSDK_OFFSET(0x1F5DB0A0)
+#define EOALLAPKMFA_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F5DB620)
+#define EOALLAPKMFA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5DB8C0)
+#define EOALLAPKMFA_CLONE_OFFSET UNITYSDK_OFFSET(0x1F5DB060)
+#define EOALLAPKMFA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F5DAFC0)
+#define EOALLAPKMFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DAF60)
+#define EOALLAPKMFA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F5DB1C0)
+#define EOALLAPKMFA_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F5DB120)
+#define EOALLAPKMFA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F5DB2F0)
+#define EOALLAPKMFA_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F5DAF20)
+#define EOALLAPKMFA_LAEEMPOIHOK_OFFSET UNITYSDK_OFFSET(0x1F5DB090)
+#define EOALLAPKMFA_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F5DB7C0)
+#define EOALLAPKMFA_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F5DB750)
+#define EOALLAPKMFA_NOJOEJIFAGC_OFFSET UNITYSDK_OFFSET(0x1F5DB0B0)
+#define EOALLAPKMFA_OCMELHDBILD_OFFSET UNITYSDK_OFFSET(0x1F5DB100)
+#define EOALLAPKMFA_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F5DAF50)
+#define EOALLAPKMFA_PNLHBBDAGKE_OFFSET UNITYSDK_OFFSET(0x1F5DB110)
+#define EOALLAPKMFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F5DB470)
+#define EOALLAPKMFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F5DB4D0)
 
-inline static constexpr unsigned int EOALLAPKMFA_TypeDefinitionIndex = 34133;
+inline static constexpr unsigned int EOALLAPKMFA_TypeDefinitionIndex = 35048;
 
 	class EOALLAPKMFA : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::System::String* GBEOKDKOKKG; // 0x18
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* MKIMBAJGANG; // 0x20
+		::System::String* GBEOKDKOKKG; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* MKIMBAJGANG; // 0x18
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x20
 		::System::UInt32 EEJENIBCKFC; // 0x28
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_NGJOKJCBILD()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "EOALLAPKMFA")->GetStaticField(0x54A00);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "EOALLAPKMFA")->GetStaticField(0x50F00);
 		}
 
 		static ::Google::Protobuf::MessageParser_1<::EOALLAPKMFA*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::EOALLAPKMFA*>**)UnitySDK::FromName("", "EOALLAPKMFA")->GetStaticField(0x54A08);
+			return (::Google::Protobuf::MessageParser_1<::EOALLAPKMFA*>**)UnitySDK::FromName("", "EOALLAPKMFA")->GetStaticField(0x50F08);
 		}
 
-		// static const ::System::Object CDDFKHMGIKC; // 0x0
-		// static const ::System::Object NPGGEJCIEND; // 0x0
 		// static const ::System::Object CIPHCNGGHJJ; // 0x0
+		// static const ::System::Object NPGGEJCIEND; // 0x0
+		// static const ::System::Object CDDFKHMGIKC; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EOALLAPKMFA_CTOR_OFFSET))(this);
@@ -84,14 +84,9 @@ inline static constexpr unsigned int EOALLAPKMFA_TypeDefinitionIndex = 34133;
 			return ((::EOALLAPKMFA*(*)(::PVOID))((::PBYTE)hIl2Cpp + EOALLAPKMFA_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 OCMELHDBILD()
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* LAEEMPOIHOK()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EOALLAPKMFA_OCMELHDBILD_OFFSET))(this);
-		}
-
-		::System::Void PNLHBBDAGKE(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EOALLAPKMFA_PNLHBBDAGKE_OFFSET))(this, a1);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EOALLAPKMFA_LAEEMPOIHOK_OFFSET))(this);
 		}
 
 		::System::String* AONEFDOPGDC()
@@ -104,9 +99,14 @@ inline static constexpr unsigned int EOALLAPKMFA_TypeDefinitionIndex = 34133;
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + EOALLAPKMFA_NOJOEJIFAGC_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* LAEEMPOIHOK()
+		::System::UInt32 OCMELHDBILD()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EOALLAPKMFA_LAEEMPOIHOK_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + EOALLAPKMFA_OCMELHDBILD_OFFSET))(this);
+		}
+
+		::System::Void PNLHBBDAGKE(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + EOALLAPKMFA_PNLHBBDAGKE_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

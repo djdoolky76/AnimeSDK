@@ -8,25 +8,25 @@ namespace RPG::GameCore { class SortTargets; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGPKDLCHPHL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A0080)
-#define LGPKDLCHPHL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6A01E0)
-#define LGPKDLCHPHL_HEGNDMHLBGN_OFFSET UNITYSDK_OFFSET(0xB6A14F0)
-#define LGPKDLCHPHL_OHBBIFDAMMG_OFFSET UNITYSDK_OFFSET(0xB6A14E0)
-#define LGPKDLCHPHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6A03C0)
-#define LGPKDLCHPHL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6A0F80)
-#define LGPKDLCHPHL_TICK_OFFSET UNITYSDK_OFFSET(0xB6A0FD0)
+#define LGPKDLCHPHL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF37340)
+#define LGPKDLCHPHL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF374A0)
+#define LGPKDLCHPHL_HEGNDMHLBGN_OFFSET UNITYSDK_OFFSET(0xBF386A0)
+#define LGPKDLCHPHL_OHBBIFDAMMG_OFFSET UNITYSDK_OFFSET(0xBF38690)
+#define LGPKDLCHPHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF37680)
+#define LGPKDLCHPHL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF381B0)
+#define LGPKDLCHPHL_TICK_OFFSET UNITYSDK_OFFSET(0xBF38200)
 
-inline static constexpr unsigned int LGPKDLCHPHL_TypeDefinitionIndex = 55634;
+inline static constexpr unsigned int LGPKDLCHPHL_TypeDefinitionIndex = 56832;
 
 	class LGPKDLCHPHL : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x20
-		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* FBAGEMHGIIB; // 0x28
+		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* FBAGEMHGIIB; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BLOMOEJJCIK; // 0x28
 		::RPG::GameCore::SortTargets* OFKGLJOAMLD; // 0x30
 		::KFELGAIGHAP* FNLJDEPHGFK; // 0x38
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* BLOMOEJJCIK; // 0x40
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x40
 		::System::Boolean BGALIKOEDMJ; // 0x48
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SortTargets* a2)
 		{

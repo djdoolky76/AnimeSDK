@@ -6,40 +6,39 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityDiceCombatAvatarRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3515E0)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D350E80)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55FEB0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E55F750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatAvatarRow_TypeDefinitionIndex = 11235;
+	inline static constexpr unsigned int ActivityDiceCombatAvatarRow_TypeDefinitionIndex = 11286;
 
 	class ActivityDiceCombatAvatarRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* DiceCountPerRare; // 0x10
-		::System::String* HighLevelBGImgPath; // 0x18
-		::System::String* AttackEffectEnemyPath; // 0x20
-		::Il2CppArray<::System::UInt32>* RecommendDiceIDList; // 0x28
-		::System::String* FinalAttackVoice; // 0x30
-		::System::String* AttackEffectPath; // 0x38
-		::System::String* AttackAnimation; // 0x40
-		::System::String* ImgPath; // 0x48
-		::System::String* HighLevelBGImgPathUI3D; // 0x50
-		::System::String* AttackJson; // 0x58
-		::Il2CppArray<::System::UInt32>* DiceIDPerRare; // 0x60
-		::System::String* ImgPathHeadIcon; // 0x68
-		::System::String* ShopIcon; // 0x70
+		::System::String* HighLevelBGImgPath; // 0x10
+		::System::String* ImgPathHeadIcon; // 0x18
+		::Il2CppArray<::System::UInt32>* DiceIDPerRare; // 0x20
+		::Il2CppArray<::System::UInt32>* DiceCountPerRare; // 0x28
+		::System::String* AttackAnimation; // 0x30
+		::System::String* HighLevelBGImgPathUI3D; // 0x38
+		::System::String* FinalAttackVoice; // 0x40
+		::Il2CppArray<::System::UInt32>* RecommendDiceIDList; // 0x48
+		::System::String* AttackEffectEnemyPath; // 0x50
+		::System::String* AttackEffectPath; // 0x58
+		::System::String* ImgPath; // 0x60
+		::System::String* ShopIcon; // 0x68
+		::System::String* AttackJson; // 0x70
 		::System::String* ImgPathUI3D; // 0x78
-		::System::UInt32 SkillID; // 0x80
+		::System::UInt32 AttackDiceNumber; // 0x80
 		::System::UInt32 DefendDiceNumber; // 0x84
-		::System::UInt32 ColorfulDiceAvailableCount; // 0x88
+		::System::UInt32 SkillID; // 0x88
 		::System::UInt32 DiceAvatarID; // 0x8C
-		::RPG::Client::TextID Name; // 0x90
-		::System::UInt32 HP; // 0xA0
-		::System::UInt32 Rare; // 0xA4
-		::System::Boolean IsCollection; // 0xA8
-		::System::Byte _padding0[0x3];
-		::System::UInt32 AttackDiceNumber; // 0xAC
+		::System::UInt32 HP; // 0x90
+		::System::UInt32 Rare; // 0x94
+		::RPG::Client::TextID Name; // 0x98
+		::System::UInt32 ColorfulDiceAvailableCount; // 0xA8
+		::System::Boolean IsCollection; // 0xAC
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYDICECOMBATAVATARROW_CTOR_OFFSET))(this);

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace System { class String; }
 
-#define PIOFBIDPBMI_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0xDE4D0)
+#define PIOFBIDPBMI_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0xE9910)
 
-inline static constexpr unsigned int PIOFBIDPBMI_TypeDefinitionIndex = 56919;
+inline static constexpr unsigned int PIOFBIDPBMI_TypeDefinitionIndex = 58143;
 
 	struct alignas(8) PIOFBIDPBMI
 	{
@@ -19,6 +19,7 @@ inline static constexpr unsigned int PIOFBIDPBMI_TypeDefinitionIndex = 56919;
 		::System::String* OJGFKPKJAHE; // 0x58
 		::System::String* EGLAAFCNBKF; // 0x60
 		::System::String* FGOCPOGANCF; // 0x68
+		::System::String* BKIHKLNLGNA; // 0x70
 		/*
 		::System::Void KDPEDNKCMEB(::PIOFBIDPBMI a1)
 		{

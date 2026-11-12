@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamFormationSortingRule_TypeDefinitionIndex = 57713;
+	inline static constexpr unsigned int TeamFormationSortingRule_TypeDefinitionIndex = 58946;
 
 	enum class TeamFormationSortingRule : ::System::Int32
 	{

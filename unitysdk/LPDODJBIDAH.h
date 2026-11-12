@@ -3,33 +3,33 @@
 #include "unitysdk/KIDPCOMKMKJ.h"
 class BOGCBDLBHFK;
 
-#define LPDODJBIDAH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C922D50)
-#define LPDODJBIDAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921A20)
-#define LPDODJBIDAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C921A30)
-#define LPDODJBIDAH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C921AE0)
-#define LPDODJBIDAH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C9227F0)
+#define LPDODJBIDAH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DACEAD0)
+#define LPDODJBIDAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DACD7A0)
+#define LPDODJBIDAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1DACD7B0)
+#define LPDODJBIDAH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1DACD860)
+#define LPDODJBIDAH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DACE570)
 
-inline static constexpr unsigned int LPDODJBIDAH_TypeDefinitionIndex = 42470;
+inline static constexpr unsigned int LPDODJBIDAH_TypeDefinitionIndex = 43445;
 
 	class LPDODJBIDAH : public ::KIDPCOMKMKJ
 	{
 	public:
 		::BOGCBDLBHFK* LHLOGDGCOHK; // 0x18
-		::System::Single OBJJIELNFLP; // 0x20
-		::System::Single FNNLDNCIIKI; // 0x24
-		static ::System::Int32* StaticGet_CFPDLJNJNJL()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "LPDODJBIDAH")->GetStaticField(0x12F80);
-		}
-
+		::System::Single FNNLDNCIIKI; // 0x20
+		::System::Single OBJJIELNFLP; // 0x24
 		static ::System::Int32* StaticGet_OGPJNMKBNOM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "LPDODJBIDAH")->GetStaticField(0x12F84);
+			return (::System::Int32*)UnitySDK::FromName("", "LPDODJBIDAH")->GetStaticField(0xFC60);
+		}
+
+		static ::System::Int32* StaticGet_CFPDLJNJNJL()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "LPDODJBIDAH")->GetStaticField(0xFC64);
 		}
 
 		static ::System::Int32* StaticGet_NICCHCOPMAD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "LPDODJBIDAH")->GetStaticField(0x12F88);
+			return (::System::Int32*)UnitySDK::FromName("", "LPDODJBIDAH")->GetStaticField(0xFC68);
 		}
 
 		::System::Void _ctor(::System::Single a1)

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RemoveWalkingEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMOVEWALKINGEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D987080)
-#define RPG_GAMECORE_REMOVEWALKINGEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D987090)
-#define RPG_GAMECORE_REMOVEWALKINGEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D987040)
+#define RPG_GAMECORE_REMOVEWALKINGEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9F4B0)
+#define RPG_GAMECORE_REMOVEWALKINGEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB9F4C0)
+#define RPG_GAMECORE_REMOVEWALKINGEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9F470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveWalkingEffect_TypeDefinitionIndex = 22432;
+	inline static constexpr unsigned int RemoveWalkingEffect_TypeDefinitionIndex = 22841;
 
 	class RemoveWalkingEffect : public ::RPG::GameCore::TaskConfig
 	{

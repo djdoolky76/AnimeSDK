@@ -4,23 +4,23 @@
 namespace RPG::GameCore { class LevelLittleGameInfo; }
 namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
 
-#define PKKCELEHDBA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC2C3E40)
-#define PKKCELEHDBA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C3E30)
-#define PKKCELEHDBA_GET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0xC2C3E10)
-#define PKKCELEHDBA_GET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0xC2C3DF0)
-#define PKKCELEHDBA_SET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0xC2C3E20)
-#define PKKCELEHDBA_SET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0xC2C3E00)
+#define PKKCELEHDBA_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBEF290)
+#define PKKCELEHDBA_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEF280)
+#define PKKCELEHDBA_GET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0xCBEF260)
+#define PKKCELEHDBA_GET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0xCBEF240)
+#define PKKCELEHDBA_SET_CONTAINERINFO_OFFSET UNITYSDK_OFFSET(0xCBEF270)
+#define PKKCELEHDBA_SET_LEVELVARBINDINGMAP_OFFSET UNITYSDK_OFFSET(0xCBEF250)
 
-inline static constexpr unsigned int PKKCELEHDBA_TypeDefinitionIndex = 60399;
+inline static constexpr unsigned int PKKCELEHDBA_TypeDefinitionIndex = 61689;
 
 	class PKKCELEHDBA : public ::IAJLHKIHBFB
 	{
 	public:
-		::RPG::GameCore::LevelLittleGameInfo* _ContainerInfo_k__BackingField; // 0x28
-		::RPG::GameCore::LittleGameLevelVarBindingMap* _LevelVarBindingMap_k__BackingField; // 0x30
+		::RPG::GameCore::LittleGameLevelVarBindingMap* _LevelVarBindingMap_k__BackingField; // 0x28
+		::RPG::GameCore::LevelLittleGameInfo* _ContainerInfo_k__BackingField; // 0x30
 		static ::System::Int32* StaticGet_MKBNALHKDHF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "PKKCELEHDBA")->GetStaticField(0x13F00);
+			return (::System::Int32*)UnitySDK::FromName("", "PKKCELEHDBA")->GetStaticField(0xD790);
 		}
 
 		::System::Void _ctor()

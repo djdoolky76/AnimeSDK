@@ -15,16 +15,16 @@ namespace System::IO { class Stream; }
 namespace System::Threading { class SemaphoreSlim; }
 namespace System::Threading::Tasks { class Task; }
 
-#define SYSTEM_IO_STREAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C268F80)
-#define SYSTEM_IO_STREAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C268FB0)
-#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_0_OFFSET UNITYSDK_OFFSET(0x1C269190)
-#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_1_OFFSET UNITYSDK_OFFSET(0x1C269260)
-#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_0_OFFSET UNITYSDK_OFFSET(0x1C269570)
-#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_1_OFFSET UNITYSDK_OFFSET(0x1C269640)
-#define SYSTEM_IO_STREAM___C__BEGINREADINTERNAL_B__39_0_OFFSET UNITYSDK_OFFSET(0x1C269000)
-#define SYSTEM_IO_STREAM___C__BEGINWRITEINTERNAL_B__46_0_OFFSET UNITYSDK_OFFSET(0x1C2692F0)
-#define SYSTEM_IO_STREAM___C__ENSUREASYNCACTIVESEMAPHOREINITIALIZED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1C268FC0)
-#define SYSTEM_IO_STREAM___C__RUNREADWRITETASKWHENREADY_B__47_0_OFFSET UNITYSDK_OFFSET(0x1C269480)
+#define SYSTEM_IO_STREAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3EFA80)
+#define SYSTEM_IO_STREAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3EFAB0)
+#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_0_OFFSET UNITYSDK_OFFSET(0x1D3EFCB0)
+#define SYSTEM_IO_STREAM___C__BEGINENDREADASYNC_B__43_1_OFFSET UNITYSDK_OFFSET(0x1D3EFD80)
+#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_0_OFFSET UNITYSDK_OFFSET(0x1D3F0090)
+#define SYSTEM_IO_STREAM___C__BEGINENDWRITEASYNC_B__53_1_OFFSET UNITYSDK_OFFSET(0x1D3F0160)
+#define SYSTEM_IO_STREAM___C__BEGINREADINTERNAL_B__39_0_OFFSET UNITYSDK_OFFSET(0x1D3EFB00)
+#define SYSTEM_IO_STREAM___C__BEGINWRITEINTERNAL_B__46_0_OFFSET UNITYSDK_OFFSET(0x1D3EFE10)
+#define SYSTEM_IO_STREAM___C__ENSUREASYNCACTIVESEMAPHOREINITIALIZED_B__4_0_OFFSET UNITYSDK_OFFSET(0x1D3EFAC0)
+#define SYSTEM_IO_STREAM___C__RUNREADWRITETASKWHENREADY_B__47_0_OFFSET UNITYSDK_OFFSET(0x1D3EFFA0)
 
 namespace System::IO
 {
@@ -33,49 +33,49 @@ namespace System::IO
 	class Stream___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__43_0()
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__39_0()
 		{
-			return (::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15200);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__46_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15208);
-		}
-
-		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>** StaticGet___9__43_1()
-		{
-			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15210);
-		}
-
-		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>** StaticGet___9__53_1()
-		{
-			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15218);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x18070);
 		}
 
 		static ::System::Func_1<::System::Threading::SemaphoreSlim*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_1<::System::Threading::SemaphoreSlim*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15220);
+			return (::System::Func_1<::System::Threading::SemaphoreSlim*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x18078);
 		}
 
-		static ::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__53_0()
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__46_0()
 		{
-			return (::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15228);
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x18080);
 		}
 
-		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__47_0()
+		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>** StaticGet___9__43_1()
 		{
-			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15230);
+			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x18088);
+		}
+
+		static ::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>** StaticGet___9__53_1()
+		{
+			return (::System::Func_3<::System::IO::Stream*, ::System::IAsyncResult*, ::System::Threading::Tasks::VoidTaskResult>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x18090);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15238);
+			return (::System::Object**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x18098);
 		}
 
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__39_0()
+		static ::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__43_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x15240);
+			return (::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x180A0);
+		}
+
+		static ::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>** StaticGet___9__53_0()
+		{
+			return (::System::Func_5<::System::IO::Stream*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x180A8);
+		}
+
+		static ::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>** StaticGet___9__47_0()
+		{
+			return (::System::Action_2<::System::Threading::Tasks::Task*, ::System::Object*>**)UnitySDK::FromName("System.IO", "<>c")->GetStaticField(0x180B0);
 		}
 
 		static ::System::Void _cctor()

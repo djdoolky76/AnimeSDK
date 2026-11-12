@@ -8,10 +8,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AJCECOPPDLJ_AJEIDJMGHFO_OFFSET UNITYSDK_OFFSET(0x12CB12E0)
-#define AJCECOPPDLJ_BGBFGOLKMCF_OFFSET UNITYSDK_OFFSET(0x12CB14F0)
+#define AJCECOPPDLJ_AJEIDJMGHFO_OFFSET UNITYSDK_OFFSET(0x12D8FDF0)
+#define AJCECOPPDLJ_BGBFGOLKMCF_OFFSET UNITYSDK_OFFSET(0x12D90000)
 
-inline static constexpr unsigned int AJCECOPPDLJ_TypeDefinitionIndex = 54340;
+inline static constexpr unsigned int AJCECOPPDLJ_TypeDefinitionIndex = 55504;
 
 	class AJCECOPPDLJ : public ::System::Object
 	{

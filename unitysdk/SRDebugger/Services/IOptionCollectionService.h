@@ -3,7 +3,7 @@
 
 namespace SRDebugger::Services
 {
-	inline static constexpr unsigned int IOptionCollectionService_TypeDefinitionIndex = 38063;
+	inline static constexpr unsigned int IOptionCollectionService_TypeDefinitionIndex = 38992;
 
 	class IOptionCollectionService
 	{

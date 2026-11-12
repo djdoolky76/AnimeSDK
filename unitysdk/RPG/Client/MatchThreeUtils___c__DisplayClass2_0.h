@@ -6,20 +6,20 @@
 namespace RPG::Client { class LobbyModule; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B1540)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xD5B2E70)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0xD5B30D0)
-#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_G___CREATELOBBY_1_OFFSET UNITYSDK_OFFSET(0xD5B2F60)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE002AE0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__0_OFFSET UNITYSDK_OFFSET(0xE0043D0)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_B__2_OFFSET UNITYSDK_OFFSET(0xE004620)
+#define RPG_CLIENT_MATCHTHREEUTILS___C__DISPLAYCLASS2_0__CREATEANDOPENLOBBY_G___CREATELOBBY_1_OFFSET UNITYSDK_OFFSET(0xE0044B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass2_0_TypeDefinitionIndex = 65981;
+	inline static constexpr unsigned int MatchThreeUtils___c__DisplayClass2_0_TypeDefinitionIndex = 67913;
 
 	class MatchThreeUtils___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:
-		::System::Action* __9__2; // 0x10
-		::RPG::Client::LobbyModule* lobbyModule; // 0x18
+		::RPG::Client::LobbyModule* lobbyModule; // 0x10
+		::System::Action* __9__2; // 0x18
 		::System::UInt32 birdID; // 0x20
 		::System::Void _ctor()
 		{

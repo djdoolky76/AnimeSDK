@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define CLASS_223_C2861125138D8845_METHOD_1_OFFSET UNITYSDK_OFFSET(0xB7E18B0)
+#define CLASS_223_C2861125138D8845_METHOD_2_OFFSET UNITYSDK_OFFSET(0xB7E1480)
+#define CLASS_223_C2861125138D8845_METHOD_OFFSET UNITYSDK_OFFSET(0xB7E1B20)
+
+inline static constexpr unsigned int Class_223_C2861125138D8845_TypeDefinitionIndex = 51577;
+
+	class Class_223_C2861125138D8845 : public ::System::Object
+	{
+	public:
+		::System::Void Method_0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLASS_223_C2861125138D8845_METHOD_OFFSET))(this);
+		}
+
+		static ::System::Void Method_1_1(::System::IntPtr a1)
+		{
+			return ((::System::Void(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_223_C2861125138D8845_METHOD_1_OFFSET))(a1);
+		}
+
+		static ::System::Int32 Method_2_2(::System::IntPtr a1)
+		{
+			return ((::System::Int32(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + CLASS_223_C2861125138D8845_METHOD_2_OFFSET))(a1);
+		}
+
+	};

@@ -5,9 +5,9 @@
 class DNFFEFPKDPC;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JOGGBGBENHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7770)
+#define JOGGBGBENHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD78E80)
 
-inline static constexpr unsigned int JOGGBGBENHJ_TypeDefinitionIndex = 43219;
+inline static constexpr unsigned int JOGGBGBENHJ_TypeDefinitionIndex = 44200;
 
 	class JOGGBGBENHJ : public ::System::Object
 	{

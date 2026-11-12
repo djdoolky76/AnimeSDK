@@ -4,18 +4,18 @@
 class MFBNEECALDM;
 namespace System { class Object; }
 
-#define MFBNEECALDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA15D90)
-#define MFBNEECALDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA15DD0)
-#define MFBNEECALDM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA15DE0)
+#define MFBNEECALDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD609B0)
+#define MFBNEECALDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD609F0)
+#define MFBNEECALDM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FD60A00)
 
-inline static constexpr unsigned int MFBNEECALDM___c_TypeDefinitionIndex = 34945;
+inline static constexpr unsigned int MFBNEECALDM___c_TypeDefinitionIndex = 35873;
 
 	class MFBNEECALDM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BF20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52C00);
 		}
 
 		static ::System::Void _cctor()

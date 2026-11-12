@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLockableFeatureType_TypeDefinitionIndex = 18290;
+	inline static constexpr unsigned int LevelLockableFeatureType_TypeDefinitionIndex = 18452;
 
 	enum class LevelLockableFeatureType : ::System::Int32
 	{

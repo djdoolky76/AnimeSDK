@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 class JBAMLLPFKFF_GMMEADJNPBI;
 
-#define JBAMLLPFKFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1655ED30)
+#define JBAMLLPFKFF_CTOR_OFFSET UNITYSDK_OFFSET(0xB897500)
 
-inline static constexpr unsigned int JBAMLLPFKFF_TypeDefinitionIndex = 59067;
+inline static constexpr unsigned int JBAMLLPFKFF_TypeDefinitionIndex = 60342;
 
 	class JBAMLLPFKFF : public ::System::Object
 	{
 	public:
-		::JBAMLLPFKFF_GMMEADJNPBI* ECHFHBKOMLC; // 0x10
-		::JBAMLLPFKFF_GMMEADJNPBI* MMLNGGEKDEN; // 0x18
+		::JBAMLLPFKFF_GMMEADJNPBI* MMLNGGEKDEN; // 0x10
+		::JBAMLLPFKFF_GMMEADJNPBI* ECHFHBKOMLC; // 0x18
 		::RPG::GameCore::TargetAliasPrecedence BPCGJGFOAGM; // 0x20
 		::System::Void _ctor()
 		{

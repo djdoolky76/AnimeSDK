@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ACOKICDKFCI_TypeDefinitionIndex = 29112;
+inline static constexpr unsigned int ACOKICDKFCI_TypeDefinitionIndex = 29705;
 
 	enum class ACOKICDKFCI : ::System::Int32
 	{

@@ -6,12 +6,12 @@ namespace System::Linq::Expressions::Interpreter { class Instruction; }
 namespace System::Linq::Expressions::Interpreter { class NullableMethodCallInstruction; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATEGETVALUE_OFFSET UNITYSDK_OFFSET(0x1EE21AD0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x1EE21700)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE216F0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EE21690)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x1EE216B0)
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x1EE216A0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATEGETVALUE_OFFSET UNITYSDK_OFFSET(0x200D1550)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CREATE_OFFSET UNITYSDK_OFFSET(0x200D1180)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_CTOR_OFFSET UNITYSDK_OFFSET(0x200D1170)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_CONSUMEDSTACK_OFFSET UNITYSDK_OFFSET(0x200D1110)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_INSTRUCTIONNAME_OFFSET UNITYSDK_OFFSET(0x200D1130)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_NULLABLEMETHODCALLINSTRUCTION_GET_PRODUCEDSTACK_OFFSET UNITYSDK_OFFSET(0x200D1120)
 
 namespace System::Linq::Expressions::Interpreter
 {
@@ -20,34 +20,34 @@ namespace System::Linq::Expressions::Interpreter
 	class NullableMethodCallInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_equals()
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getHashCode()
 		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x3E340);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_toString()
-		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x3E348);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getValueOrDefault1()
-		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x3E350);
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x45BC0);
 		}
 
 		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_hasValue()
 		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x3E358);
-		}
-
-		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getHashCode()
-		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x3E360);
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x45BC8);
 		}
 
 		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_value()
 		{
-			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x3E368);
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x45BD0);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_equals()
+		{
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x45BD8);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_getValueOrDefault1()
+		{
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x45BE0);
+		}
+
+		static ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction** StaticGet_s_toString()
+		{
+			return (::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction**)UnitySDK::FromName("System.Linq.Expressions.Interpreter", "NullableMethodCallInstruction")->GetStaticField(0x45BE8);
 		}
 
 		::System::Void _ctor()

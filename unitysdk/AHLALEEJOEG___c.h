@@ -5,20 +5,20 @@
 class AHLALEEJOEG;
 namespace System { class Object; }
 
-#define AHLALEEJOEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E274DB0)
-#define AHLALEEJOEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E274DE0)
-#define AHLALEEJOEG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E274DF0)
-#define AHLALEEJOEG___C___CCTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1E274E40)
-#define AHLALEEJOEG___C___CCTOR_B__23_2_OFFSET UNITYSDK_OFFSET(0x1E274E50)
+#define AHLALEEJOEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F528F70)
+#define AHLALEEJOEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F528FA0)
+#define AHLALEEJOEG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F528FB0)
+#define AHLALEEJOEG___C___CCTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1F529000)
+#define AHLALEEJOEG___C___CCTOR_B__23_2_OFFSET UNITYSDK_OFFSET(0x1F529010)
 
-inline static constexpr unsigned int AHLALEEJOEG___c_TypeDefinitionIndex = 33241;
+inline static constexpr unsigned int AHLALEEJOEG___c_TypeDefinitionIndex = 34156;
 
 	class AHLALEEJOEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32430);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D570);
 		}
 
 		static ::System::Void _cctor()

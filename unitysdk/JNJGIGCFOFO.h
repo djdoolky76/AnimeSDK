@@ -4,10 +4,10 @@
 class MCDOIAPPMBF;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 
-#define JNJGIGCFOFO_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xB286320)
-#define JNJGIGCFOFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2863A0)
+#define JNJGIGCFOFO_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xBAB0590)
+#define JNJGIGCFOFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB0610)
 
-inline static constexpr unsigned int JNJGIGCFOFO_TypeDefinitionIndex = 64151;
+inline static constexpr unsigned int JNJGIGCFOFO_TypeDefinitionIndex = 65596;
 
 	class JNJGIGCFOFO : public ::System::Object
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int EMGBGGMLFED_TypeDefinitionIndex = 43063;
+inline static constexpr unsigned int EMGBGGMLFED_TypeDefinitionIndex = 44044;
 
 	struct alignas(4) EMGBGGMLFED
 	{

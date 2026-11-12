@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IAvatarComparer_TypeDefinitionIndex = 62816;
+	inline static constexpr unsigned int IAvatarComparer_TypeDefinitionIndex = 64254;
 
 	class IAvatarComparer
 	{

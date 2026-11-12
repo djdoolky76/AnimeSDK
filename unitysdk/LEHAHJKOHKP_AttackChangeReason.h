@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LEHAHJKOHKP_AttackChangeReason_TypeDefinitionIndex = 77425;
+inline static constexpr unsigned int LEHAHJKOHKP_AttackChangeReason_TypeDefinitionIndex = 80160;
 
 	enum class LEHAHJKOHKP_AttackChangeReason : ::System::Int32
 	{

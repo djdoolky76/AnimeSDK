@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BEAEBE0)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1BEB1BA0)
-#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1BEB1BF0)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D036A40)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__0_OFFSET UNITYSDK_OFFSET(0x1D039A00)
+#define MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0__POSTREQUEST_B__1_OFFSET UNITYSDK_OFFSET(0x1D039A50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int NetworkManager___c__DisplayClass42_0_TypeDefinitionIndex = 8165;
+	inline static constexpr unsigned int NetworkManager___c__DisplayClass42_0_TypeDefinitionIndex = 8174;
 
 	class NetworkManager___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x10
-		::MiHoYo::SDK::NetworkManager* __4__this; // 0x18
+		::MiHoYo::SDK::NetworkManager* __4__this; // 0x10
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* callback; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_NETWORKMANAGER___C__DISPLAYCLASS42_0_CTOR_OFFSET))(this);

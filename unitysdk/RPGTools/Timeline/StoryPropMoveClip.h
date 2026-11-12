@@ -12,13 +12,13 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE945C10)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xE945DA0)
-#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xE945C00)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xF463CF0)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_CTOR_OFFSET UNITYSDK_OFFSET(0xF463E50)
+#define RPGTOOLS_TIMELINE_STORYPROPMOVECLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0xF463CE0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryPropMoveClip_TypeDefinitionIndex = 48353;
+	inline static constexpr unsigned int StoryPropMoveClip_TypeDefinitionIndex = 49394;
 
 	class StoryPropMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{

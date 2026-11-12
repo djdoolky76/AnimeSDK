@@ -4,18 +4,18 @@
 class HEACNLOGGPH;
 namespace System { class Object; }
 
-#define HEACNLOGGPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E556A10)
-#define HEACNLOGGPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E556A40)
-#define HEACNLOGGPH___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x1E556A50)
+#define HEACNLOGGPH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F84F780)
+#define HEACNLOGGPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F84F7B0)
+#define HEACNLOGGPH___C___CCTOR_B__98_0_OFFSET UNITYSDK_OFFSET(0x1F84F7C0)
 
-inline static constexpr unsigned int HEACNLOGGPH___c_TypeDefinitionIndex = 34083;
+inline static constexpr unsigned int HEACNLOGGPH___c_TypeDefinitionIndex = 34998;
 
 	class HEACNLOGGPH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32940);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27F90);
 		}
 
 		static ::System::Void _cctor()

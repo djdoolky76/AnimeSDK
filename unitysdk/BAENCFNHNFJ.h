@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetTimeRelayFlame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BAENCFNHNFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD9CD0)
-#define BAENCFNHNFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BD9D00)
+#define BAENCFNHNFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16CE6020)
+#define BAENCFNHNFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16CE6050)
 
-inline static constexpr unsigned int BAENCFNHNFJ_TypeDefinitionIndex = 53208;
+inline static constexpr unsigned int BAENCFNHNFJ_TypeDefinitionIndex = 54370;
 
 	class BAENCFNHNFJ
 	{

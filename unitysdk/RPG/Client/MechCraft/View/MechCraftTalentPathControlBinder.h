@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPATHCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD66A8C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTPATHCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE0F9460)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentPathControlBinder_TypeDefinitionIndex = 80070;
+	inline static constexpr unsigned int MechCraftTalentPathControlBinder_TypeDefinitionIndex = 82847;
 
 	class MechCraftTalentPathControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

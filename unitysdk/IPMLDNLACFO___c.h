@@ -4,18 +4,18 @@
 class IPMLDNLACFO;
 namespace System { class Object; }
 
-#define IPMLDNLACFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6E7E60)
-#define IPMLDNLACFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E7EA0)
-#define IPMLDNLACFO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E6E7EB0)
+#define IPMLDNLACFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9F1850)
+#define IPMLDNLACFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9F1890)
+#define IPMLDNLACFO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9F18A0)
 
-inline static constexpr unsigned int IPMLDNLACFO___c_TypeDefinitionIndex = 31817;
+inline static constexpr unsigned int IPMLDNLACFO___c_TypeDefinitionIndex = 32730;
 
 	class IPMLDNLACFO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B700);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59FC0);
 		}
 
 		static ::System::Void _cctor()

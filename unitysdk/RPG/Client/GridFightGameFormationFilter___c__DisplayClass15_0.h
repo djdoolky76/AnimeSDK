@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/GridFightTraitType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD157880)
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS15_0__GETFILTERTRAITCOUNTBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xD158900)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB1CF80)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONFILTER___C__DISPLAYCLASS15_0__GETFILTERTRAITCOUNTBYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xDB1E000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationFilter___c__DisplayClass15_0_TypeDefinitionIndex = 64692;
+	inline static constexpr unsigned int GridFightGameFormationFilter___c__DisplayClass15_0_TypeDefinitionIndex = 66230;
 
 	class GridFightGameFormationFilter___c__DisplayClass15_0 : public ::System::Object
 	{

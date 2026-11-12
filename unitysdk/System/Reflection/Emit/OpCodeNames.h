@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_REFLECTION_EMIT_OPCODENAMES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C29EA00)
+#define SYSTEM_REFLECTION_EMIT_OPCODENAMES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4256E0)
 
 namespace System::Reflection::Emit
 {
@@ -14,7 +14,7 @@ namespace System::Reflection::Emit
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_names()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Reflection.Emit", "OpCodeNames")->GetStaticField(0x13E90);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Reflection.Emit", "OpCodeNames")->GetStaticField(0x1CB30);
 		}
 
 		static ::System::Void _cctor()

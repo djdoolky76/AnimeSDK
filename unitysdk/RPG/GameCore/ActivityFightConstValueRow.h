@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityFightConstValueRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3635F0)
-#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3634E0)
+#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E571F20)
+#define RPG_GAMECORE_ACTIVITYFIGHTCONSTVALUEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E571E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFightConstValueRow_TypeDefinitionIndex = 11602;
+	inline static constexpr unsigned int ActivityFightConstValueRow_TypeDefinitionIndex = 11653;
 
 	class ActivityFightConstValueRow : public ::System::Object
 	{

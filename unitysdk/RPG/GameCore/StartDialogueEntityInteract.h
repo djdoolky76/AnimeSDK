@@ -8,13 +8,13 @@ namespace RPG::GameCore { class StartDialogueEntityInteract; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1C730)
-#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1C740)
-#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1C700)
+#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED2E300)
+#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED2E310)
+#define RPG_GAMECORE_STARTDIALOGUEENTITYINTERACT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED2E2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StartDialogueEntityInteract_TypeDefinitionIndex = 20394;
+	inline static constexpr unsigned int StartDialogueEntityInteract_TypeDefinitionIndex = 20729;
 
 	class StartDialogueEntityInteract : public ::RPG::GameCore::TaskConfig
 	{

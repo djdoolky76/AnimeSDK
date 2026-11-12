@@ -4,7 +4,7 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-inline static constexpr unsigned int PHBAOIHCKJH___c_TypeDefinitionIndex = 44124;
+inline static constexpr unsigned int PHBAOIHCKJH___c_TypeDefinitionIndex = 45199;
 
 	class PHBAOIHCKJH___c : public ::System::Object
 	{

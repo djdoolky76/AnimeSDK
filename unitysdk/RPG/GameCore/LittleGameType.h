@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameType_TypeDefinitionIndex = 18836;
+	inline static constexpr unsigned int LittleGameType_TypeDefinitionIndex = 18998;
 
 	enum class LittleGameType : ::System::Int32
 	{
@@ -23,5 +23,6 @@ namespace RPG::GameCore
 		TeamTowers = 441,
 		RoadRash = 461,
 		MarbleCoopBoss = 462,
+		ComicDessert = 471,
 	};
 }

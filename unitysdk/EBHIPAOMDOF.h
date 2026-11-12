@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define EBHIPAOMDOF_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF53D0)
-#define EBHIPAOMDOF_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0x12CF53C0)
+#define EBHIPAOMDOF_CTOR_OFFSET UNITYSDK_OFFSET(0x13AA6540)
+#define EBHIPAOMDOF_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0x13AA6530)
 
-inline static constexpr unsigned int EBHIPAOMDOF_TypeDefinitionIndex = 55389;
+inline static constexpr unsigned int EBHIPAOMDOF_TypeDefinitionIndex = 56574;
 
 	class EBHIPAOMDOF : public ::System::Object
 	{

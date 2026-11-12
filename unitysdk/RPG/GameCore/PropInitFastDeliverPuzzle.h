@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropInitFastDeliverPuzzle; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPINITFASTDELIVERPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94DDB0)
-#define RPG_GAMECORE_PROPINITFASTDELIVERPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94DDF0)
-#define RPG_GAMECORE_PROPINITFASTDELIVERPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94DD50)
+#define RPG_GAMECORE_PROPINITFASTDELIVERPUZZLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB66F70)
+#define RPG_GAMECORE_PROPINITFASTDELIVERPUZZLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB66FB0)
+#define RPG_GAMECORE_PROPINITFASTDELIVERPUZZLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB66F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInitFastDeliverPuzzle_TypeDefinitionIndex = 22147;
+	inline static constexpr unsigned int PropInitFastDeliverPuzzle_TypeDefinitionIndex = 22552;
 
 	class PropInitFastDeliverPuzzle : public ::RPG::GameCore::TaskConfig
 	{

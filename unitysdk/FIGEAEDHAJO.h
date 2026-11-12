@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdaptEntityPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FIGEAEDHAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x157A5A10)
-#define FIGEAEDHAJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157A5A40)
+#define FIGEAEDHAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x166C7220)
+#define FIGEAEDHAJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166C7250)
 
-inline static constexpr unsigned int FIGEAEDHAJO_TypeDefinitionIndex = 57856;
+inline static constexpr unsigned int FIGEAEDHAJO_TypeDefinitionIndex = 59093;
 
 	class FIGEAEDHAJO
 	{

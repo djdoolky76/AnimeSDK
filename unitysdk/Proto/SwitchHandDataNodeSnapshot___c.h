@@ -4,20 +4,20 @@
 namespace Proto { class SwitchHandDataNodeSnapshot; }
 namespace System { class Object; }
 
-#define PROTO_SWITCHHANDDATANODESNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E016540)
-#define PROTO_SWITCHHANDDATANODESNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E016580)
-#define PROTO_SWITCHHANDDATANODESNAPSHOT___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E016590)
+#define PROTO_SWITCHHANDDATANODESNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2E6B00)
+#define PROTO_SWITCHHANDDATANODESNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2E6B40)
+#define PROTO_SWITCHHANDDATANODESNAPSHOT___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F2E6B50)
 
 namespace Proto
 {
-	inline static constexpr unsigned int SwitchHandDataNodeSnapshot___c_TypeDefinitionIndex = 25853;
+	inline static constexpr unsigned int SwitchHandDataNodeSnapshot___c_TypeDefinitionIndex = 26350;
 
 	class SwitchHandDataNodeSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x46720);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x52A40);
 		}
 
 		static ::System::Void _cctor()

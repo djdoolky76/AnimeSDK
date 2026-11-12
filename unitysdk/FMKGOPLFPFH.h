@@ -4,10 +4,10 @@ class IFBFJDCECML;
 class PAPOPANPGIJ;
 namespace RPG::Client::LittleGameShare { class ST_CakeRaceByCanEnterLock; }
 
-#define FMKGOPLFPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C624710)
-#define FMKGOPLFPFH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1C624790)
+#define FMKGOPLFPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A5C80)
+#define FMKGOPLFPFH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1D7A5D00)
 
-inline static constexpr unsigned int FMKGOPLFPFH_TypeDefinitionIndex = 36979;
+inline static constexpr unsigned int FMKGOPLFPFH_TypeDefinitionIndex = 37907;
 
 	class FMKGOPLFPFH
 	{

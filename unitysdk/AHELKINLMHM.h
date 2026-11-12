@@ -6,11 +6,11 @@ namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
 namespace RPG::Client { class RogueTournBuildRefTeamData; }
 namespace RPG::Client { class RogueTournBuildRefTeamRecomResult; }
 
-#define AHELKINLMHM_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7FCE0)
-#define AHELKINLMHM_NMOILPMMMMA_OFFSET UNITYSDK_OFFSET(0xEB7F340)
-#define AHELKINLMHM_OIHHFAFFEPA_OFFSET UNITYSDK_OFFSET(0xEB7FA70)
+#define AHELKINLMHM_CTOR_OFFSET UNITYSDK_OFFSET(0xF13F1D0)
+#define AHELKINLMHM_NMOILPMMMMA_OFFSET UNITYSDK_OFFSET(0xF13E830)
+#define AHELKINLMHM_OIHHFAFFEPA_OFFSET UNITYSDK_OFFSET(0xF13EF60)
 
-inline static constexpr unsigned int AHELKINLMHM_TypeDefinitionIndex = 67543;
+inline static constexpr unsigned int AHELKINLMHM_TypeDefinitionIndex = 69487;
 
 	class AHELKINLMHM : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 namespace MiHoYo::SDK::PC::OS { class EpicEntitlementData; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_EPICENTITLEMENTSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0FD60)
+#define MIHOYO_SDK_PC_OS_EPICENTITLEMENTSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0968F0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int EpicEntitlementsExtension_TypeDefinitionIndex = 8527;
+	inline static constexpr unsigned int EpicEntitlementsExtension_TypeDefinitionIndex = 8536;
 
 	class EpicEntitlementsExtension : public ::System::Object
 	{

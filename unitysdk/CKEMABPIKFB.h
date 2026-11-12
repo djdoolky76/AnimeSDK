@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DestroyCurvePropGroupPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKEMABPIKFB_CTOR_OFFSET UNITYSDK_OFFSET(0xD758DD0)
-#define CKEMABPIKFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD758E00)
+#define CKEMABPIKFB_CTOR_OFFSET UNITYSDK_OFFSET(0xE092C10)
+#define CKEMABPIKFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE092C40)
 
-inline static constexpr unsigned int CKEMABPIKFB_TypeDefinitionIndex = 58074;
+inline static constexpr unsigned int CKEMABPIKFB_TypeDefinitionIndex = 59313;
 
 	class CKEMABPIKFB
 	{

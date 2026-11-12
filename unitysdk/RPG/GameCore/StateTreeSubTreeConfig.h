@@ -10,13 +10,13 @@ namespace RPG::GameCore { class StateTreeSubTreeConfig; }
 namespace RPG::GameCore { class StateTreeTransitionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STATETREESUBTREECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1F9C0)
-#define RPG_GAMECORE_STATETREESUBTREECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB1F9D0)
-#define RPG_GAMECORE_STATETREESUBTREECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1FCF0)
+#define RPG_GAMECORE_STATETREESUBTREECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED31400)
+#define RPG_GAMECORE_STATETREESUBTREECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED31410)
+#define RPG_GAMECORE_STATETREESUBTREECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED31730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeSubTreeConfig_TypeDefinitionIndex = 15499;
+	inline static constexpr unsigned int StateTreeSubTreeConfig_TypeDefinitionIndex = 15657;
 
 	class StateTreeSubTreeConfig : public ::RPG::GameCore::StateTreeStateBaseConfig
 	{

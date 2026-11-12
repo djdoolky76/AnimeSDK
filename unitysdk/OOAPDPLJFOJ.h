@@ -11,29 +11,29 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Net { class HttpWebResponse; }
 namespace System::Net { class IPEndPoint; }
 
-#define OOAPDPLJFOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBF623E0)
-#define OOAPDPLJFOJ_EAAKMIEMKLF_OFFSET UNITYSDK_OFFSET(0xBF62E50)
-#define OOAPDPLJFOJ_FFCLDNANODI_OFFSET UNITYSDK_OFFSET(0xBF62760)
-#define OOAPDPLJFOJ_GFDNNNJPEAD_OFFSET UNITYSDK_OFFSET(0xBF62610)
-#define OOAPDPLJFOJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBF625C0)
-#define OOAPDPLJFOJ_NIPAOGBHMGD_OFFSET UNITYSDK_OFFSET(0xBF62D80)
-#define OOAPDPLJFOJ_PGPBKFIFNHJ_OFFSET UNITYSDK_OFFSET(0xBF62C10)
-#define OOAPDPLJFOJ_PICGFLDIJNG_OFFSET UNITYSDK_OFFSET(0xBF629D0)
-#define OOAPDPLJFOJ_PIOMOMLODFB_OFFSET UNITYSDK_OFFSET(0xBF626B0)
+#define OOAPDPLJFOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC861260)
+#define OOAPDPLJFOJ_EAAKMIEMKLF_OFFSET UNITYSDK_OFFSET(0xC861D00)
+#define OOAPDPLJFOJ_FFCLDNANODI_OFFSET UNITYSDK_OFFSET(0xC8615E0)
+#define OOAPDPLJFOJ_GFDNNNJPEAD_OFFSET UNITYSDK_OFFSET(0xC861490)
+#define OOAPDPLJFOJ_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC861440)
+#define OOAPDPLJFOJ_NIPAOGBHMGD_OFFSET UNITYSDK_OFFSET(0xC861C30)
+#define OOAPDPLJFOJ_PGPBKFIFNHJ_OFFSET UNITYSDK_OFFSET(0xC861AC0)
+#define OOAPDPLJFOJ_PICGFLDIJNG_OFFSET UNITYSDK_OFFSET(0xC861880)
+#define OOAPDPLJFOJ_PIOMOMLODFB_OFFSET UNITYSDK_OFFSET(0xC861530)
 
-inline static constexpr unsigned int OOAPDPLJFOJ_TypeDefinitionIndex = 59602;
+inline static constexpr unsigned int OOAPDPLJFOJ_TypeDefinitionIndex = 60879;
 
 	class OOAPDPLJFOJ : public ::System::Object
 	{
 	public:
-		::System::String* FNOBOEPLIHH; // 0x10
-		::System::Collections::Generic::List_1<::System::Net::IPEndPoint*>* EDALBPFJFLH; // 0x18
-		::System::String* NHDJIMLEECM; // 0x20
-		::System::String* CLGGLFHIFCK; // 0x28
-		::Il2CppArray<::System::Byte>* DCHOFPFDBNJ; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::JDCHNOCGPGA*>* FOBNPFOCGBO; // 0x38
-		::RPG::Client::AtomicObject_1<::System::Net::IPEndPoint*>* FPFAKJBEDAD; // 0x40
-		::System::Collections::Generic::HashSet_1<::System::String*>* GFIHMIOGHDH; // 0x48
+		::System::Collections::Generic::HashSet_1<::System::String*>* GFIHMIOGHDH; // 0x10
+		::System::String* CLGGLFHIFCK; // 0x18
+		::Il2CppArray<::System::Byte>* DCHOFPFDBNJ; // 0x20
+		::System::Collections::Generic::List_1<::System::Net::IPEndPoint*>* EDALBPFJFLH; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::JDCHNOCGPGA*>* FOBNPFOCGBO; // 0x30
+		::RPG::Client::AtomicObject_1<::System::Net::IPEndPoint*>* FPFAKJBEDAD; // 0x38
+		::System::String* FNOBOEPLIHH; // 0x40
+		::System::String* NHDJIMLEECM; // 0x48
 		::System::Int32 GMDBHJKEAEI; // 0x50
 		::System::UInt32 GNDFOKOGPJC; // 0x54
 		::System::Void _ctor(::System::Int32 a1)

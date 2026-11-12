@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EscapeFromBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCHHLNEEMJA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C1F410)
-#define HCHHLNEEMJA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C1F440)
+#define HCHHLNEEMJA_CTOR_OFFSET UNITYSDK_OFFSET(0x16B61A90)
+#define HCHHLNEEMJA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B61AC0)
 
-inline static constexpr unsigned int HCHHLNEEMJA_TypeDefinitionIndex = 55027;
+inline static constexpr unsigned int HCHHLNEEMJA_TypeDefinitionIndex = 56203;
 
 	class HCHHLNEEMJA
 	{

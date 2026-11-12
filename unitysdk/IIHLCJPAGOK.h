@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class MODIHPIFAPK;
 
-#define IIHLCJPAGOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D8560)
-#define IIHLCJPAGOK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6D8570)
+#define IIHLCJPAGOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D859EA0)
+#define IIHLCJPAGOK_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D859EB0)
 
-inline static constexpr unsigned int IIHLCJPAGOK_TypeDefinitionIndex = 37195;
+inline static constexpr unsigned int IIHLCJPAGOK_TypeDefinitionIndex = 38123;
 
 	class IIHLCJPAGOK : public ::System::Object
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::Client { class MonoEffect; }
 
-#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE_LMGEJEJGFOL_CTOR_OFFSET UNITYSDK_OFFSET(0xD466E70)
+#define RPG_CLIENT_LITTLEGAME_FOURROTATEVOXEL_FOURROTATEVOXELGAMESTARTCURVE_LMGEJEJGFOL_CTOR_OFFSET UNITYSDK_OFFSET(0xDED4140)
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_LMGEJEJGFOL_TypeDefinitionIndex = 76840;
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_LMGEJEJGFOL_TypeDefinitionIndex = 79174;
 
 	class FourRotateVoxelGameStartCurve_LMGEJEJGFOL : public ::System::Object
 	{

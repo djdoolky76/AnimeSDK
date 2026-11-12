@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GachaNewsRow; }
 
-#define RPG_GAMECORE_GACHANEWSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6FCB30)
-#define RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6FC8B0)
+#define RPG_GAMECORE_GACHANEWSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E906D60)
+#define RPG_GAMECORE_GACHANEWSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E906AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GachaNewsRow_TypeDefinitionIndex = 13365;
+	inline static constexpr unsigned int GachaNewsRow_TypeDefinitionIndex = 13437;
 
 	class GachaNewsRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* AvatarList; // 0x10
-		::System::UInt32 NewsID; // 0x18
-		::System::UInt32 DecideID; // 0x1C
-		::RPG::Client::TextID Desc; // 0x20
-		::RPG::Client::TextID Title; // 0x30
+		::RPG::Client::TextID Title; // 0x18
+		::RPG::Client::TextID Desc; // 0x28
+		::System::UInt32 NewsID; // 0x38
+		::System::UInt32 DecideID; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GACHANEWSROW_CTOR_OFFSET))(this);

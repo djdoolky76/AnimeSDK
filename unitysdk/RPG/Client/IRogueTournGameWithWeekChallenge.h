@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournGameWithWeekChallenge_TypeDefinitionIndex = 67606;
+	inline static constexpr unsigned int IRogueTournGameWithWeekChallenge_TypeDefinitionIndex = 69550;
 
 	class IRogueTournGameWithWeekChallenge
 	{

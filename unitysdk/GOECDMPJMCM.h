@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GOECDMPJMCM_TypeDefinitionIndex = 25676;
+inline static constexpr unsigned int GOECDMPJMCM_TypeDefinitionIndex = 26173;
 
 	enum class GOECDMPJMCM : ::System::Int32
 	{

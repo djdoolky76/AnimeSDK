@@ -3,10 +3,10 @@
 class GJCHOJBIMBJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLDICFCOIGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB763C30)
-#define LLDICFCOIGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB763C60)
+#define LLDICFCOIGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC0033A0)
+#define LLDICFCOIGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0033D0)
 
-inline static constexpr unsigned int LLDICFCOIGJ_TypeDefinitionIndex = 57950;
+inline static constexpr unsigned int LLDICFCOIGJ_TypeDefinitionIndex = 59187;
 
 	class LLDICFCOIGJ
 	{

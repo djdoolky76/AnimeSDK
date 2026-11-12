@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FJCHBJKDLLH_NodeSelectType_TypeDefinitionIndex = 71490;
+inline static constexpr unsigned int FJCHBJKDLLH_NodeSelectType_TypeDefinitionIndex = 73475;
 
 	enum class FJCHBJKDLLH_NodeSelectType : ::System::Int32
 	{

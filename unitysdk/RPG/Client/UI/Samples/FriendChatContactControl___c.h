@@ -7,37 +7,37 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE40E220)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE40E260)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_0_OFFSET UNITYSDK_OFFSET(0xE40E270)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_1_OFFSET UNITYSDK_OFFSET(0xE40E290)
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_2_OFFSET UNITYSDK_OFFSET(0xE40E2B0)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEEC9720)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEEC9760)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_0_OFFSET UNITYSDK_OFFSET(0xEEC9770)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_1_OFFSET UNITYSDK_OFFSET(0xEEC9790)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATCONTACTCONTROL___C___BINDING_B__4_2_OFFSET UNITYSDK_OFFSET(0xEEC97B0)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int FriendChatContactControl___c_TypeDefinitionIndex = 73434;
+	inline static constexpr unsigned int FriendChatContactControl___c_TypeDefinitionIndex = 75557;
 
 	class FriendChatContactControl___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_0()
+		{
+			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D0D0);
+		}
+
 		static ::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::Int32>*>** StaticGet___9__4_2()
 		{
-			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42460);
+			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D0D8);
 		}
 
 		static ::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_1()
 		{
-			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42468);
-		}
-
-		static ::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>** StaticGet___9__4_0()
-		{
-			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42470);
+			return (::System::Func_2<::GNAHJKHFMCA*, ::R3::Observable_1<::System::String*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D0E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42478);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D0E8);
 		}
 
 		static ::System::Void _cctor()

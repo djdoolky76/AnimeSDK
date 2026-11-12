@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class UIAdaptiveDeviceConfigItem; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6F420)
-#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIGITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6F2C0)
+#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIGITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE82120)
+#define RPG_GAMECORE_UIADAPTIVEDEVICECONFIGITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE81FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UIAdaptiveDeviceConfigItem_TypeDefinitionIndex = 24428;
+	inline static constexpr unsigned int UIAdaptiveDeviceConfigItem_TypeDefinitionIndex = 24887;
 
 	class UIAdaptiveDeviceConfigItem : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 class MNJNHIAPNKD;
 
-#define MNJNHIAPNKD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0F170)
-#define MNJNHIAPNKD___C__DISPLAYCLASS8_0___ONBATTLEGAMEPAGEONTURNAVATARCHANGEBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBA0FB30)
+#define MNJNHIAPNKD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2CCE50)
+#define MNJNHIAPNKD___C__DISPLAYCLASS8_0___ONBATTLEGAMEPAGEONTURNAVATARCHANGEBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC2CD810)
 
-inline static constexpr unsigned int MNJNHIAPNKD___c__DisplayClass8_0_TypeDefinitionIndex = 71953;
+inline static constexpr unsigned int MNJNHIAPNKD___c__DisplayClass8_0_TypeDefinitionIndex = 73977;
 
 	class MNJNHIAPNKD___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
 		::MNJNHIAPNKD* __4__this; // 0x10
-		::System::UInt32 avatarID; // 0x18
-		::System::UInt32 ultraSkillID; // 0x1C
+		::System::UInt32 ultraSkillID; // 0x18
+		::System::UInt32 avatarID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MNJNHIAPNKD___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

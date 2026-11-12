@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRebateConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYREBATECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37C6B0)
-#define RPG_GAMECORE_ACTIVITYREBATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D37C510)
+#define RPG_GAMECORE_ACTIVITYREBATECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E58C3A0)
+#define RPG_GAMECORE_ACTIVITYREBATECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E58C1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRebateConfigRow_TypeDefinitionIndex = 12329;
+	inline static constexpr unsigned int ActivityRebateConfigRow_TypeDefinitionIndex = 12396;
 
 	class ActivityRebateConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* TriggerIDList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 RewardID; // 0x1C
-		::System::UInt32 ActivityModuleID; // 0x20
+		::System::UInt32 RewardID; // 0x18
+		::System::UInt32 ActivityModuleID; // 0x1C
+		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYREBATECONFIGROW_CTOR_OFFSET))(this);

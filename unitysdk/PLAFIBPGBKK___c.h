@@ -4,18 +4,18 @@
 class PLAFIBPGBKK;
 namespace System { class Object; }
 
-#define PLAFIBPGBKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF9C360)
-#define PLAFIBPGBKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9C3A0)
-#define PLAFIBPGBKK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF9C3B0)
+#define PLAFIBPGBKK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24DAD0)
+#define PLAFIBPGBKK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24DB10)
+#define PLAFIBPGBKK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F24DB20)
 
-inline static constexpr unsigned int PLAFIBPGBKK___c_TypeDefinitionIndex = 26112;
+inline static constexpr unsigned int PLAFIBPGBKK___c_TypeDefinitionIndex = 26639;
 
 	class PLAFIBPGBKK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B410);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D030);
 		}
 
 		static ::System::Void _cctor()

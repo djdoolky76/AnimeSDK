@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OFPMACBFBCL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4D9D0)
-#define OFPMACBFBCL_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xBE4D920)
+#define OFPMACBFBCL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7079B0)
+#define OFPMACBFBCL_GAOBNIHOCLL_OFFSET UNITYSDK_OFFSET(0xC707900)
 
-inline static constexpr unsigned int OFPMACBFBCL_TypeDefinitionIndex = 67324;
+inline static constexpr unsigned int OFPMACBFBCL_TypeDefinitionIndex = 69268;
 
 	class OFPMACBFBCL : public ::System::Object
 	{

@@ -11,48 +11,48 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define DJOCKCIFPGI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD31B60)
-#define DJOCKCIFPGI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD320E0)
-#define DJOCKCIFPGI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD31CD0)
-#define DJOCKCIFPGI_ENCPFJNBFCF_OFFSET UNITYSDK_OFFSET(0x1CD31900)
-#define DJOCKCIFPGI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD313B0)
-#define DJOCKCIFPGI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD31640)
-#define DJOCKCIFPGI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD31D70)
-#define DJOCKCIFPGI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD31DC0)
-#define DJOCKCIFPGI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD31BA0)
-#define DJOCKCIFPGI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD315E0)
-#define DJOCKCIFPGI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD317B0)
-#define DJOCKCIFPGI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD31C30)
-#define DJOCKCIFPGI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD31330)
+#define DJOCKCIFPGI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DEFF710)
+#define DJOCKCIFPGI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEFFC90)
+#define DJOCKCIFPGI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DEFF880)
+#define DJOCKCIFPGI_ENCPFJNBFCF_OFFSET UNITYSDK_OFFSET(0x1DEFF4B0)
+#define DJOCKCIFPGI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DEFEF60)
+#define DJOCKCIFPGI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DEFF1F0)
+#define DJOCKCIFPGI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DEFF920)
+#define DJOCKCIFPGI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DEFF970)
+#define DJOCKCIFPGI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DEFF750)
+#define DJOCKCIFPGI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DEFF190)
+#define DJOCKCIFPGI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DEFF360)
+#define DJOCKCIFPGI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DEFF7E0)
+#define DJOCKCIFPGI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DEFEEE0)
 
-inline static constexpr unsigned int DJOCKCIFPGI_TypeDefinitionIndex = 13582;
+inline static constexpr unsigned int DJOCKCIFPGI_TypeDefinitionIndex = 13693;
 
 	class DJOCKCIFPGI : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x4DC30);
-		}
-
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x4DC38);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x3C7E0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightSeasonTraitRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightSeasonTraitRow*>**)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x4DC40);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightSeasonTraitRow*>**)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x3C7E8);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x3C7F0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x11E90);
+			return (::System::Byte*)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0xD5E0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0x11E91);
+			return (::System::Boolean*)UnitySDK::FromName("", "DJOCKCIFPGI")->GetStaticField(0xD5E1);
 		}
 
 		static ::System::Void _cctor()

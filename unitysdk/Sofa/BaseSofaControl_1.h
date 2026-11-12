@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Sofa
 {
-	inline static constexpr unsigned int BaseSofaControl_1_TypeDefinitionIndex = 49682;
+	inline static constexpr unsigned int BaseSofaControl_1_TypeDefinitionIndex = 50758;
 
 	template <typename T>
 	class BaseSofaControl_1 : public ::Sofa::BaseSofaControl

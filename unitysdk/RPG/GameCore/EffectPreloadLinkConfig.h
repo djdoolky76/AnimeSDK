@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectPreloadLinkConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D631420)
-#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D631310)
+#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86ED00)
+#define RPG_GAMECORE_EFFECTPRELOADLINKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86EBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectPreloadLinkConfig_TypeDefinitionIndex = 16348;
+	inline static constexpr unsigned int EffectPreloadLinkConfig_TypeDefinitionIndex = 16512;
 
 	class EffectPreloadLinkConfig : public ::RPG::GameCore::JsonConfig
 	{

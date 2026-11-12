@@ -14,7 +14,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Subscribe__SubscribeCore_d__4_1_TypeDefinitionIndex = 45607;
+	inline static constexpr unsigned int Subscribe__SubscribeCore_d__4_1_TypeDefinitionIndex = 46636;
 
 	template <typename T>
 	struct alignas(8) Subscribe__SubscribeCore_d__4_1

@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x166724C0)
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16672500)
-#define CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET UNITYSDK_OFFSET(0x16672510)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x174B6AC0)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x174B6B00)
+#define CINEMACHINE_CINEMACHINECLEARSHOT___C__RANDOMIZE_B__47_0_OFFSET UNITYSDK_OFFSET(0x174B6B10)
 
 namespace Cinemachine
 {
-	inline static constexpr unsigned int CinemachineClearShot___c_TypeDefinitionIndex = 39726;
+	inline static constexpr unsigned int CinemachineClearShot___c_TypeDefinitionIndex = 40655;
 
 	class CinemachineClearShot___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x53270);
+			return (::System::Object**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x54320);
 		}
 
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__47_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x53278);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("Cinemachine", "<>c")->GetStaticField(0x54328);
 		}
 
 		static ::System::Void _cctor()

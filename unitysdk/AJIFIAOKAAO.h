@@ -7,20 +7,20 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AJIFIAOKAAO_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBE3A0)
-#define AJIFIAOKAAO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CBE730)
-#define AJIFIAOKAAO_DMKDFPEDJJK_OFFSET UNITYSDK_OFFSET(0x12CBE460)
-#define AJIFIAOKAAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CBE3B0)
-#define AJIFIAOKAAO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CBE680)
-#define AJIFIAOKAAO_TICK_OFFSET UNITYSDK_OFFSET(0x12CBE6D0)
+#define AJIFIAOKAAO_CTOR_OFFSET UNITYSDK_OFFSET(0x12D9CFC0)
+#define AJIFIAOKAAO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D9D350)
+#define AJIFIAOKAAO_DMKDFPEDJJK_OFFSET UNITYSDK_OFFSET(0x12D9D080)
+#define AJIFIAOKAAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D9CFD0)
+#define AJIFIAOKAAO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12D9D2A0)
+#define AJIFIAOKAAO_TICK_OFFSET UNITYSDK_OFFSET(0x12D9D2F0)
 
-inline static constexpr unsigned int AJIFIAOKAAO_TypeDefinitionIndex = 58119;
+inline static constexpr unsigned int AJIFIAOKAAO_TypeDefinitionIndex = 59358;
 
 	class AJIFIAOKAAO : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::EnterGameFlowImmediately* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::EnterGameFlowImmediately* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::EnterGameFlowImmediately* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::EnterGameFlowImmediately*))((::PBYTE)hIl2Cpp + AJIFIAOKAAO_CTOR_OFFSET))(this, a1, a2);

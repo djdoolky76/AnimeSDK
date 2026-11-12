@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchSummonMonsters; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KOMHFOMGHLK_CTOR_OFFSET UNITYSDK_OFFSET(0xB5A24B0)
-#define KOMHFOMGHLK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB5A2500)
+#define KOMHFOMGHLK_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF5DA0)
+#define KOMHFOMGHLK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDF5DF0)
 
-inline static constexpr unsigned int KOMHFOMGHLK_TypeDefinitionIndex = 59148;
+inline static constexpr unsigned int KOMHFOMGHLK_TypeDefinitionIndex = 60424;
 
 	class KOMHFOMGHLK
 	{

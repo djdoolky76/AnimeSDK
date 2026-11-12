@@ -6,25 +6,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8F0690)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F06D0)
-#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C__SORT_B__5_0_OFFSET UNITYSDK_OFFSET(0xC8F06E0)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD255700)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD255740)
+#define RPG_CLIENT_CAKERACE_CAKERACECATRANKGAMEDATA___C__SORT_B__5_0_OFFSET UNITYSDK_OFFSET(0xD255750)
 
 namespace RPG::Client::CakeRace
 {
-	inline static constexpr unsigned int CakeRaceCatRankGameData___c_TypeDefinitionIndex = 76433;
+	inline static constexpr unsigned int CakeRaceCatRankGameData___c_TypeDefinitionIndex = 78764;
 
 	class CakeRaceCatRankGameData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60C60);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x5AFC0);
 		}
 
 		static ::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x60C68);
+			return (::System::Comparison_1<::System::ValueTuple_2<::System::UInt32, ::UnityEngine::Vector3>>**)UnitySDK::FromName("RPG.Client.CakeRace", "<>c")->GetStaticField(0x5AFC8);
 		}
 
 		static ::System::Void _cctor()

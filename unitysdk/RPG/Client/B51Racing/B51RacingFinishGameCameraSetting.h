@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGFINISHGAMECAMERASETTING_CTOR_OFFSET UNITYSDK_OFFSET(0xC794460)
-#define RPG_CLIENT_B51RACING_B51RACINGFINISHGAMECAMERASETTING_GETDELAYSHOWFINISHPAGESECONDS_OFFSET UNITYSDK_OFFSET(0xC794410)
+#define RPG_CLIENT_B51RACING_B51RACINGFINISHGAMECAMERASETTING_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A4410)
+#define RPG_CLIENT_B51RACING_B51RACINGFINISHGAMECAMERASETTING_GETDELAYSHOWFINISHPAGESECONDS_OFFSET UNITYSDK_OFFSET(0xD0A43C0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingFinishGameCameraSetting_TypeDefinitionIndex = 81844;
+	inline static constexpr unsigned int B51RacingFinishGameCameraSetting_TypeDefinitionIndex = 84625;
 
 	class B51RacingFinishGameCameraSetting : public ::UnityEngine::MonoBehaviour
 	{

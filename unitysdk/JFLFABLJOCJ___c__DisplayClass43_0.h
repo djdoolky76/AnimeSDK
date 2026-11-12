@@ -5,10 +5,10 @@
 class JFLFABLJOCJ;
 namespace RPG::Client { class IAssetOperation; }
 
-#define JFLFABLJOCJ___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16653C20)
-#define JFLFABLJOCJ___C__DISPLAYCLASS43_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x16655AF0)
+#define JFLFABLJOCJ___C__DISPLAYCLASS43_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB99D1B0)
+#define JFLFABLJOCJ___C__DISPLAYCLASS43_0__ASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB99F0A0)
 
-inline static constexpr unsigned int JFLFABLJOCJ___c__DisplayClass43_0_TypeDefinitionIndex = 49571;
+inline static constexpr unsigned int JFLFABLJOCJ___c__DisplayClass43_0_TypeDefinitionIndex = 50647;
 
 	class JFLFABLJOCJ___c__DisplayClass43_0 : public ::System::Object
 	{

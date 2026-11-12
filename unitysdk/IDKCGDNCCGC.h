@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/ChallengeLineupAvatarSaveType.h"
 #include "unitysdk/System/Object.h"
 
-#define IDKCGDNCCGC_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED71E0)
+#define IDKCGDNCCGC_CTOR_OFFSET UNITYSDK_OFFSET(0x16E41A20)
 
-inline static constexpr unsigned int IDKCGDNCCGC_TypeDefinitionIndex = 63095;
+inline static constexpr unsigned int IDKCGDNCCGC_TypeDefinitionIndex = 64533;
 
 	class IDKCGDNCCGC : public ::System::Object
 	{

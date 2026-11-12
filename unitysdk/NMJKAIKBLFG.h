@@ -7,11 +7,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NMJKAIKBLFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC881A0)
-#define NMJKAIKBLFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC88240)
-#define NMJKAIKBLFG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBC881B0)
+#define NMJKAIKBLFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC570960)
+#define NMJKAIKBLFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC570A00)
+#define NMJKAIKBLFG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC570970)
 
-inline static constexpr unsigned int NMJKAIKBLFG_TypeDefinitionIndex = 59071;
+inline static constexpr unsigned int NMJKAIKBLFG_TypeDefinitionIndex = 60346;
 
 	class NMJKAIKBLFG : public ::System::Object
 	{

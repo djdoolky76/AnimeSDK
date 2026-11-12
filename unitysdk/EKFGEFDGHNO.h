@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EKFGEFDGHNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA54EC0)
+#define EKFGEFDGHNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC18740)
 
-inline static constexpr unsigned int EKFGEFDGHNO_TypeDefinitionIndex = 42249;
+inline static constexpr unsigned int EKFGEFDGHNO_TypeDefinitionIndex = 43224;
 
 	class EKFGEFDGHNO : public ::System::Object
 	{

@@ -8,26 +8,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarRelicRecommendRow; }
 namespace RPG::GameCore { class RelicRecommendProperty; }
 
-#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D421660)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D420DA0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_GETPROPERTYTYPEARRAY_OFFSET UNITYSDK_OFFSET(0x1D4216B0)
-#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_GETPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1D421670)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E641E10)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E641550)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_GETPROPERTYTYPEARRAY_OFFSET UNITYSDK_OFFSET(0x1E641E60)
+#define RPG_GAMECORE_AVATARRELICRECOMMENDROW_GETPROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1E641E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarRelicRecommendRow_TypeDefinitionIndex = 12761;
+	inline static constexpr unsigned int AvatarRelicRecommendRow_TypeDefinitionIndex = 12831;
 
 	class AvatarRelicRecommendRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* SubAffixPropertyList; // 0x10
-		::Il2CppArray<::RPG::GameCore::RelicRecommendProperty*>* PropertyList; // 0x18
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList4; // 0x20
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList6; // 0x28
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList3; // 0x30
-		::Il2CppArray<::System::UInt32>* Set2IDList; // 0x38
-		::Il2CppArray<::System::UInt32>* ScoreRankList; // 0x40
-		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList5; // 0x48
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList5; // 0x10
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList4; // 0x18
+		::Il2CppArray<::System::UInt32>* ScoreRankList; // 0x20
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList3; // 0x28
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* PropertyList6; // 0x30
+		::Il2CppArray<::RPG::GameCore::RelicRecommendProperty*>* PropertyList; // 0x38
+		::Il2CppArray<::System::UInt32>* Set2IDList; // 0x40
+		::Il2CppArray<::RPG::GameCore::AvatarPropertyType>* SubAffixPropertyList; // 0x48
 		::Il2CppArray<::System::UInt32>* Set4IDList; // 0x50
 		::System::UInt32 AvatarID; // 0x58
 		::System::Byte _padding0[0x4];

@@ -5,25 +5,25 @@ namespace BansheeGz::BGSpline::Components { class BGCcSplitterPolyline; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD418130)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD418170)
-#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__BINDCOMPONENTS_B__2_0_OFFSET UNITYSDK_OFFSET(0xD418180)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE6B4F0)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE6B530)
+#define RPG_CLIENT_LITTLEGAME_CHENLINGFES_CHENLINGFESROUTERENDERERVIEW___C__BINDCOMPONENTS_B__2_0_OFFSET UNITYSDK_OFFSET(0xDE6B540)
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int ChenLingFesRouteRendererView___c_TypeDefinitionIndex = 77791;
+	inline static constexpr unsigned int ChenLingFesRouteRendererView___c_TypeDefinitionIndex = 80526;
 
 	class ChenLingFesRouteRendererView___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "<>c")->GetStaticField(0x2DE50);
+			return (::System::Func_2<::BansheeGz::BGSpline::Components::BGCcSplitterPolyline*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "<>c")->GetStaticField(0x377D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "<>c")->GetStaticField(0x2DE58);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLingFes", "<>c")->GetStaticField(0x377D8);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JPLMLOIHNIC_TypeDefinitionIndex = 35078;
+inline static constexpr unsigned int JPLMLOIHNIC_TypeDefinitionIndex = 36006;
 
 	enum class JPLMLOIHNIC : ::System::Int32
 	{

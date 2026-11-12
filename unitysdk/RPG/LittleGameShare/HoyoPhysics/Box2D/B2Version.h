@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2VERSION_CTOR_OFFSET UNITYSDK_OFFSET(0xFE60)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2VERSION_CTOR_OFFSET UNITYSDK_OFFSET(0x16980)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Version_TypeDefinitionIndex = 36805;
+	inline static constexpr unsigned int B2Version_TypeDefinitionIndex = 37733;
 
 	struct alignas(4) B2Version
 	{

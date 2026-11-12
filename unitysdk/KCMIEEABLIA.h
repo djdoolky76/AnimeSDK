@@ -7,10 +7,10 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define KCMIEEABLIA_OECFOHFAIBF_1_OFFSET UNITYSDK_OFFSET(0x13640)
-#define KCMIEEABLIA_OECFOHFAIBF_OFFSET UNITYSDK_OFFSET(0x13630)
+#define KCMIEEABLIA_OECFOHFAIBF_1_OFFSET UNITYSDK_OFFSET(0x18140)
+#define KCMIEEABLIA_OECFOHFAIBF_OFFSET UNITYSDK_OFFSET(0x17FE0)
 
-inline static constexpr unsigned int KCMIEEABLIA_TypeDefinitionIndex = 54671;
+inline static constexpr unsigned int KCMIEEABLIA_TypeDefinitionIndex = 55837;
 
 	struct alignas(8) KCMIEEABLIA
 	{

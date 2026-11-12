@@ -5,23 +5,23 @@ class HIOAMIPNLIN;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define IIEFJEMPJLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16439900)
-#define IIEFJEMPJLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16439940)
-#define IIEFJEMPJLC___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x16439950)
+#define IIEFJEMPJLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x173F24C0)
+#define IIEFJEMPJLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x173F2500)
+#define IIEFJEMPJLC___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x173F2510)
 
-inline static constexpr unsigned int IIEFJEMPJLC___c_TypeDefinitionIndex = 53897;
+inline static constexpr unsigned int IIEFJEMPJLC___c_TypeDefinitionIndex = 55061;
 
 	class IIEFJEMPJLC___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::HIOAMIPNLIN*>** StaticGet___9__2_0()
-		{
-			return (::System::Action_1<::HIOAMIPNLIN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EF60);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EF68);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67770);
+		}
+
+		static ::System::Action_1<::HIOAMIPNLIN*>** StaticGet___9__2_0()
+		{
+			return (::System::Action_1<::HIOAMIPNLIN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67778);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/AFLELOJKGHN.h"
 #include "unitysdk/System/Object.h"
 
-#define GLDAKIMDBCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1C30)
+#define GLDAKIMDBCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC755E0)
 
-inline static constexpr unsigned int GLDAKIMDBCA_TypeDefinitionIndex = 42777;
+inline static constexpr unsigned int GLDAKIMDBCA_TypeDefinitionIndex = 43756;
 
 	class GLDAKIMDBCA : public ::System::Object
 	{

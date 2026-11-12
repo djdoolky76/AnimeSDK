@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class ECNEEKNHIOE;
 
-#define LDMBNFAMCOI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB63DCF0)
-#define LDMBNFAMCOI___C__DISPLAYCLASS4_0__GETENEMY_B__0_OFFSET UNITYSDK_OFFSET(0xB63DF90)
+#define LDMBNFAMCOI___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBED39D0)
+#define LDMBNFAMCOI___C__DISPLAYCLASS4_0__GETENEMY_B__0_OFFSET UNITYSDK_OFFSET(0xBED3C70)
 
-inline static constexpr unsigned int LDMBNFAMCOI___c__DisplayClass4_0_TypeDefinitionIndex = 81004;
+inline static constexpr unsigned int LDMBNFAMCOI___c__DisplayClass4_0_TypeDefinitionIndex = 83784;
 
 	class LDMBNFAMCOI___c__DisplayClass4_0 : public ::System::Object
 	{

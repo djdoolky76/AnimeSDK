@@ -4,18 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightEquipRecommendRoleConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPRECOMMENDROLECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72CB10)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPRECOMMENDROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72C9D0)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPRECOMMENDROLECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E938970)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPRECOMMENDROLECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9387F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipRecommendRoleConfigRow_TypeDefinitionIndex = 13465;
+	inline static constexpr unsigned int GridFightEquipRecommendRoleConfigRow_TypeDefinitionIndex = 13541;
 
 	class GridFightEquipRecommendRoleConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RecommendRoleIDList; // 0x10
-		::System::UInt32 EquipID; // 0x18
+		::System::UInt32 Season; // 0x18
+		::System::UInt32 EquipID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTEQUIPRECOMMENDROLECONFIGROW_CTOR_OFFSET))(this);

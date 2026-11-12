@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int KMHOHENIFAL_TypeDefinitionIndex = 72303;
+inline static constexpr unsigned int KMHOHENIFAL_TypeDefinitionIndex = 74380;
 
 	class KMHOHENIFAL : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 class GMIFBFGDGJK;
 class PBGNKMMDBGD;
 
-#define MGIELAIHNCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74AF70)
-#define MGIELAIHNCP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C74AF80)
+#define MGIELAIHNCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CC8D0)
+#define MGIELAIHNCP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1D8CC8E0)
 
-inline static constexpr unsigned int MGIELAIHNCP_TypeDefinitionIndex = 37444;
+inline static constexpr unsigned int MGIELAIHNCP_TypeDefinitionIndex = 38372;
 
 	class MGIELAIHNCP : public ::System::Object
 	{

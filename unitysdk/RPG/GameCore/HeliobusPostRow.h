@@ -8,34 +8,34 @@ class NPCKPMGEFLE;
 namespace RPG::GameCore { class HeliobusPostRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_HELIOBUSPOSTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D762760)
-#define RPG_GAMECORE_HELIOBUSPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D760E60)
+#define RPG_GAMECORE_HELIOBUSPOSTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E976160)
+#define RPG_GAMECORE_HELIOBUSPOSTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E974820)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeliobusPostRow_TypeDefinitionIndex = 13743;
+	inline static constexpr unsigned int HeliobusPostRow_TypeDefinitionIndex = 13900;
 
 	class HeliobusPostRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PostUnlockSubMissionIDList; // 0x10
 		::Il2CppArray<::NPCKPMGEFLE*>* Likes; // 0x18
-		::Il2CppArray<::System::UInt32>* PlayerCommentIDList; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* PostFansReward; // 0x28
-		::RPG::Client::TextID PostFansPreview; // 0x30
-		::System::UInt32 HeliobusPostID; // 0x40
-		::System::Boolean IsClosePanel; // 0x44
-		::System::Byte _padding0[0x3];
-		::System::UInt32 HeliobusUserID; // 0x48
-		::RPG::GameCore::HeliobusPostType PostType; // 0x4C
-		::System::UInt32 PostUnlockPhase; // 0x50
-		::System::Byte _padding1[0x4];
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt32>* PostFansReward; // 0x20
+		::Il2CppArray<::System::UInt32>* PlayerCommentIDList; // 0x28
+		::System::UInt32 HeliobusUserID; // 0x30
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID PostFansPreview; // 0x38
+		::System::Boolean IsClosePanel; // 0x48
+		::System::Byte _padding1[0x3];
+		::System::UInt32 HeliobusPostID; // 0x4C
+		::System::UInt32 PostTypeParameter; // 0x50
+		::System::UInt32 ReplyIncomeReward; // 0x54
 		::RPG::Client::TextID HeliobusPostContent; // 0x58
-		::System::UInt32 ReplyIncomeReward; // 0x68
-		::System::UInt32 PostIncomeReward; // 0x6C
-		::System::UInt32 PostImgID; // 0x70
-		::System::UInt32 PostTypeParameter; // 0x74
-		::RPG::Client::TextID HeliobusPostTitle; // 0x78
+		::RPG::Client::TextID HeliobusPostTitle; // 0x68
+		::System::UInt32 PostImgID; // 0x78
+		::RPG::GameCore::HeliobusPostType PostType; // 0x7C
+		::System::UInt32 PostIncomeReward; // 0x80
+		::System::UInt32 PostUnlockPhase; // 0x84
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HELIOBUSPOSTROW_CTOR_OFFSET))(this);

@@ -4,10 +4,10 @@
 class OOHFBGJHCMB;
 namespace RPG::Client { class ChallengePeak; }
 
-#define OOHFBGJHCMB___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF802F0)
-#define OOHFBGJHCMB___C__DISPLAYCLASS23_0__CHALLENGENORMAL_B__0_OFFSET UNITYSDK_OFFSET(0xBF84320)
+#define OOHFBGJHCMB___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC880C90)
+#define OOHFBGJHCMB___C__DISPLAYCLASS23_0__CHALLENGENORMAL_B__0_OFFSET UNITYSDK_OFFSET(0xC884CC0)
 
-inline static constexpr unsigned int OOHFBGJHCMB___c__DisplayClass23_0_TypeDefinitionIndex = 63164;
+inline static constexpr unsigned int OOHFBGJHCMB___c__DisplayClass23_0_TypeDefinitionIndex = 64602;
 
 	class OOHFBGJHCMB___c__DisplayClass23_0 : public ::System::Object
 	{

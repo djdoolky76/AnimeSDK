@@ -5,16 +5,16 @@ class KMFDPCOPGGC;
 class OAAPOLANADH;
 namespace RPG::Client { class ActivitySwordTrainingExamData; }
 
-#define NOJDNFNJLMP_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF2750)
+#define NOJDNFNJLMP_CTOR_OFFSET UNITYSDK_OFFSET(0xC5DEF20)
 
-inline static constexpr unsigned int NOJDNFNJLMP_TypeDefinitionIndex = 61939;
+inline static constexpr unsigned int NOJDNFNJLMP_TypeDefinitionIndex = 63351;
 
 	class NOJDNFNJLMP : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivitySwordTrainingExamData* JLGMOEDGOEB; // 0x10
-		::KMFDPCOPGGC* AHJAKPGEIKH; // 0x18
-		::OAAPOLANADH* PPBCGLJNFBL; // 0x20
+		::KMFDPCOPGGC* AHJAKPGEIKH; // 0x10
+		::OAAPOLANADH* PPBCGLJNFBL; // 0x18
+		::RPG::Client::ActivitySwordTrainingExamData* JLGMOEDGOEB; // 0x20
 		::System::Boolean LAJOJDBILNI; // 0x28
 		::System::Void _ctor()
 		{

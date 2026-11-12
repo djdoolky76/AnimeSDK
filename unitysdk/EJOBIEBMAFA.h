@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTargetNatureID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EJOBIEBMAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x154F25A0)
-#define EJOBIEBMAFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x154F25D0)
+#define EJOBIEBMAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1643A4F0)
+#define EJOBIEBMAFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1643A520)
 
-inline static constexpr unsigned int EJOBIEBMAFA_TypeDefinitionIndex = 54581;
+inline static constexpr unsigned int EJOBIEBMAFA_TypeDefinitionIndex = 55746;
 
 	class EJOBIEBMAFA
 	{

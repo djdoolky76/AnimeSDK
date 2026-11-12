@@ -5,22 +5,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class OfferingLevelConfigRow; }
 
-#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DEC20)
-#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8DEA10)
+#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF78E0)
+#define RPG_GAMECORE_OFFERINGLEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAF76D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfferingLevelConfigRow_TypeDefinitionIndex = 14293;
+	inline static constexpr unsigned int OfferingLevelConfigRow_TypeDefinitionIndex = 14450;
 
 	class OfferingLevelConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 TypeID; // 0x10
-		::System::UInt32 ItemCost; // 0x14
-		::RPG::GameCore::OfferingRewardType Type; // 0x18
-		::System::UInt32 Level; // 0x1C
-		::System::UInt32 RewardID; // 0x20
-		::System::UInt32 UnlockID; // 0x24
+		::System::UInt32 UnlockID; // 0x10
+		::System::UInt32 TypeID; // 0x14
+		::System::UInt32 ItemCost; // 0x18
+		::RPG::GameCore::OfferingRewardType Type; // 0x1C
+		::System::UInt32 Level; // 0x20
+		::System::UInt32 RewardID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_OFFERINGLEVELCONFIGROW_CTOR_OFFSET))(this);

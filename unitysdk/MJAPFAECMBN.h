@@ -4,18 +4,18 @@
 class MJAPFAECMBN_VirtualCameraConfig;
 namespace Cinemachine { class CinemachineVirtualCamera; }
 
-#define MJAPFAECMBN_BKJEHMFHBEH_OFFSET UNITYSDK_OFFSET(0xB962EE0)
-#define MJAPFAECMBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB962F80)
-#define MJAPFAECMBN_KGNOLLBFAAH_OFFSET UNITYSDK_OFFSET(0xB962790)
-#define MJAPFAECMBN_LGJGKIBHGAN_OFFSET UNITYSDK_OFFSET(0xB962C30)
+#define MJAPFAECMBN_BKJEHMFHBEH_OFFSET UNITYSDK_OFFSET(0xC218D60)
+#define MJAPFAECMBN_CTOR_OFFSET UNITYSDK_OFFSET(0xC218E00)
+#define MJAPFAECMBN_KGNOLLBFAAH_OFFSET UNITYSDK_OFFSET(0xC218610)
+#define MJAPFAECMBN_LGJGKIBHGAN_OFFSET UNITYSDK_OFFSET(0xC218AB0)
 
-inline static constexpr unsigned int MJAPFAECMBN_TypeDefinitionIndex = 78475;
+inline static constexpr unsigned int MJAPFAECMBN_TypeDefinitionIndex = 81210;
 
 	class MJAPFAECMBN : public ::System::Object
 	{
 	public:
-		::MJAPFAECMBN_VirtualCameraConfig* LMAGNOACOGP; // 0x10
-		::Cinemachine::CinemachineVirtualCamera* GLKOKAONKDI; // 0x18
+		::Cinemachine::CinemachineVirtualCamera* GLKOKAONKDI; // 0x10
+		::MJAPFAECMBN_VirtualCameraConfig* LMAGNOACOGP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJAPFAECMBN_CTOR_OFFSET))(this);

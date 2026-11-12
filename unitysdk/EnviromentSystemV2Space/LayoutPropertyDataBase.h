@@ -4,11 +4,11 @@
 #include "unitysdk/EnviromentSystemV2Space/PropertyDataBase.h"
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPROPERTYDATABASE_CTOR_OFFSET UNITYSDK_OFFSET(0x15655A90)
+#define ENVIROMENTSYSTEMV2SPACE_LAYOUTPROPERTYDATABASE_CTOR_OFFSET UNITYSDK_OFFSET(0x16568E20)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int LayoutPropertyDataBase_TypeDefinitionIndex = 49365;
+	inline static constexpr unsigned int LayoutPropertyDataBase_TypeDefinitionIndex = 50441;
 
 	class LayoutPropertyDataBase : public ::EnviromentSystemV2Space::PropertyDataBase
 	{

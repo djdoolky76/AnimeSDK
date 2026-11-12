@@ -7,9 +7,9 @@
 class HPCKCJDCNFM;
 namespace UnityEngine { class Transform; }
 
-#define GNAONAKKPDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB4E80)
+#define GNAONAKKPDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC78840)
 
-inline static constexpr unsigned int GNAONAKKPDJ_TypeDefinitionIndex = 42496;
+inline static constexpr unsigned int GNAONAKKPDJ_TypeDefinitionIndex = 43471;
 
 	class GNAONAKKPDJ : public ::System::Object
 	{

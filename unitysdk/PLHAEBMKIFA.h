@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PLHAEBMKIFA_TypeDefinitionIndex = 60414;
+inline static constexpr unsigned int PLHAEBMKIFA_TypeDefinitionIndex = 61704;
 
 	class PLHAEBMKIFA
 	{

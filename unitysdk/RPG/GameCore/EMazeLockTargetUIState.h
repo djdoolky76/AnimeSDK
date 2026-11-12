@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EMazeLockTargetUIState_TypeDefinitionIndex = 57651;
+	inline static constexpr unsigned int EMazeLockTargetUIState_TypeDefinitionIndex = 58881;
 
 	enum class EMazeLockTargetUIState : ::System::Int32
 	{

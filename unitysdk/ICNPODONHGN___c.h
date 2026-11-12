@@ -4,18 +4,18 @@
 class ICNPODONHGN;
 namespace System { class Object; }
 
-#define ICNPODONHGN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E626B80)
-#define ICNPODONHGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E626BC0)
-#define ICNPODONHGN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E626BD0)
+#define ICNPODONHGN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F942350)
+#define ICNPODONHGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F942390)
+#define ICNPODONHGN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9423A0)
 
-inline static constexpr unsigned int ICNPODONHGN___c_TypeDefinitionIndex = 33512;
+inline static constexpr unsigned int ICNPODONHGN___c_TypeDefinitionIndex = 34427;
 
 	class ICNPODONHGN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x452F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C150);
 		}
 
 		static ::System::Void _cctor()

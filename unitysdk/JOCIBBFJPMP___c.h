@@ -4,18 +4,18 @@
 class JOCIBBFJPMP;
 namespace System { class Object; }
 
-#define JOCIBBFJPMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E79DBF0)
-#define JOCIBBFJPMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E79DC30)
-#define JOCIBBFJPMP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E79DC40)
+#define JOCIBBFJPMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FACD3D0)
+#define JOCIBBFJPMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FACD410)
+#define JOCIBBFJPMP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FACD420)
 
-inline static constexpr unsigned int JOCIBBFJPMP___c_TypeDefinitionIndex = 25172;
+inline static constexpr unsigned int JOCIBBFJPMP___c_TypeDefinitionIndex = 25650;
 
 	class JOCIBBFJPMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CBF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57730);
 		}
 
 		static ::System::Void _cctor()

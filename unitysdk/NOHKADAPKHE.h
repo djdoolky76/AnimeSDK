@@ -14,48 +14,48 @@ namespace Proto { class ItemList; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NOHKADAPKHE_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1EB8AF50)
-#define NOHKADAPKHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB8B3C0)
-#define NOHKADAPKHE_CIINPAGCGFD_OFFSET UNITYSDK_OFFSET(0x1EB8AA80)
-#define NOHKADAPKHE_CLONE_OFFSET UNITYSDK_OFFSET(0x1EB8AA10)
-#define NOHKADAPKHE_CPCEGCCEMIM_OFFSET UNITYSDK_OFFSET(0x1EB8AA60)
-#define NOHKADAPKHE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EB8A910)
-#define NOHKADAPKHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8A8C0)
-#define NOHKADAPKHE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1EB8AAC0)
-#define NOHKADAPKHE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EB8AA90)
-#define NOHKADAPKHE_FAEKBILGPCO_OFFSET UNITYSDK_OFFSET(0x1EB8AA50)
-#define NOHKADAPKHE_FJOCHFMKIKP_OFFSET UNITYSDK_OFFSET(0x1EB8AA70)
-#define NOHKADAPKHE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EB8ACA0)
-#define NOHKADAPKHE_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1EB8A880)
-#define NOHKADAPKHE_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1EB8B190)
-#define NOHKADAPKHE_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1EB8B090)
-#define NOHKADAPKHE_OAPIGKOIMJL_OFFSET UNITYSDK_OFFSET(0x1EB8AA40)
-#define NOHKADAPKHE_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EB8A8B0)
-#define NOHKADAPKHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8AD80)
-#define NOHKADAPKHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8ADE0)
+#define NOHKADAPKHE_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F07F3A0)
+#define NOHKADAPKHE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F07F850)
+#define NOHKADAPKHE_CIINPAGCGFD_OFFSET UNITYSDK_OFFSET(0x1F07EE90)
+#define NOHKADAPKHE_CLONE_OFFSET UNITYSDK_OFFSET(0x1F07EE60)
+#define NOHKADAPKHE_CPCEGCCEMIM_OFFSET UNITYSDK_OFFSET(0x1F07EEA0)
+#define NOHKADAPKHE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F07ED60)
+#define NOHKADAPKHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F07ED10)
+#define NOHKADAPKHE_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F07EF10)
+#define NOHKADAPKHE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F07EEE0)
+#define NOHKADAPKHE_FAEKBILGPCO_OFFSET UNITYSDK_OFFSET(0x1F07EED0)
+#define NOHKADAPKHE_FJOCHFMKIKP_OFFSET UNITYSDK_OFFSET(0x1F07EEB0)
+#define NOHKADAPKHE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F07F0F0)
+#define NOHKADAPKHE_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F07ECD0)
+#define NOHKADAPKHE_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F07F610)
+#define NOHKADAPKHE_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F07F500)
+#define NOHKADAPKHE_OAPIGKOIMJL_OFFSET UNITYSDK_OFFSET(0x1F07EEC0)
+#define NOHKADAPKHE_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F07ED00)
+#define NOHKADAPKHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F07F1D0)
+#define NOHKADAPKHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F07F230)
 
-inline static constexpr unsigned int NOHKADAPKHE_TypeDefinitionIndex = 30059;
+inline static constexpr unsigned int NOHKADAPKHE_TypeDefinitionIndex = 30957;
 
 	class NOHKADAPKHE : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::KAODLPJMEFE*>* MGNMGOKNKHB; // 0x18
-		::Proto::ItemList* JDAFJANAEBG; // 0x20
+		::Google::Protobuf::Collections::RepeatedField_1<::KAODLPJMEFE*>* MGNMGOKNKHB; // 0x10
+		::Proto::ItemList* JDAFJANAEBG; // 0x18
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x20
 		::System::UInt32 NAEACGPKNNH; // 0x28
-		static ::Google::Protobuf::FieldCodec_1<::KAODLPJMEFE*>** StaticGet_DCBLHKDPAOP()
-		{
-			return (::Google::Protobuf::FieldCodec_1<::KAODLPJMEFE*>**)UnitySDK::FromName("", "NOHKADAPKHE")->GetStaticField(0xC1C0);
-		}
-
 		static ::Google::Protobuf::MessageParser_1<::NOHKADAPKHE*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::NOHKADAPKHE*>**)UnitySDK::FromName("", "NOHKADAPKHE")->GetStaticField(0xC1C8);
+			return (::Google::Protobuf::MessageParser_1<::NOHKADAPKHE*>**)UnitySDK::FromName("", "NOHKADAPKHE")->GetStaticField(0x726D0);
 		}
 
-		// static const ::System::Object PLDKENJLKME; // 0x0
-		// static const ::System::Object EBMIJAAKMMH; // 0x0
+		static ::Google::Protobuf::FieldCodec_1<::KAODLPJMEFE*>** StaticGet_DCBLHKDPAOP()
+		{
+			return (::Google::Protobuf::FieldCodec_1<::KAODLPJMEFE*>**)UnitySDK::FromName("", "NOHKADAPKHE")->GetStaticField(0x726D8);
+		}
+
 		// static const ::System::Object DEENBNDCNGE; // 0x0
+		// static const ::System::Object EBMIJAAKMMH; // 0x0
+		// static const ::System::Object PLDKENJLKME; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOHKADAPKHE_CTOR_OFFSET))(this);
@@ -86,14 +86,9 @@ inline static constexpr unsigned int NOHKADAPKHE_TypeDefinitionIndex = 30059;
 			return ((::NOHKADAPKHE*(*)(::PVOID))((::PBYTE)hIl2Cpp + NOHKADAPKHE_CLONE_OFFSET))(this);
 		}
 
-		::System::UInt32 OAPIGKOIMJL()
+		::Google::Protobuf::Collections::RepeatedField_1<::KAODLPJMEFE*>* CIINPAGCGFD()
 		{
-			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NOHKADAPKHE_OAPIGKOIMJL_OFFSET))(this);
-		}
-
-		::System::Void FAEKBILGPCO(::System::UInt32 a1)
-		{
-			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NOHKADAPKHE_FAEKBILGPCO_OFFSET))(this, a1);
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::KAODLPJMEFE*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NOHKADAPKHE_CIINPAGCGFD_OFFSET))(this);
 		}
 
 		::Proto::ItemList* CPCEGCCEMIM()
@@ -106,9 +101,14 @@ inline static constexpr unsigned int NOHKADAPKHE_TypeDefinitionIndex = 30059;
 			return ((::System::Void(*)(::PVOID, ::Proto::ItemList*))((::PBYTE)hIl2Cpp + NOHKADAPKHE_FJOCHFMKIKP_OFFSET))(this, a1);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::KAODLPJMEFE*>* CIINPAGCGFD()
+		::System::UInt32 OAPIGKOIMJL()
 		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::KAODLPJMEFE*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + NOHKADAPKHE_CIINPAGCGFD_OFFSET))(this);
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + NOHKADAPKHE_OAPIGKOIMJL_OFFSET))(this);
+		}
+
+		::System::Void FAEKBILGPCO(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + NOHKADAPKHE_FAEKBILGPCO_OFFSET))(this, a1);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

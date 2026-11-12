@@ -6,10 +6,10 @@ class CAFGGCCJPNI;
 class CBFJBNFLHJE;
 namespace System { class Object; }
 
-#define FPBAFGOJCNK___C__DISPLAYCLASS5_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1590CA90)
-#define FPBAFGOJCNK___C__DISPLAYCLASS5_1__PLAN_B__0_OFFSET UNITYSDK_OFFSET(0x1590CDB0)
+#define FPBAFGOJCNK___C__DISPLAYCLASS5_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1683BF60)
+#define FPBAFGOJCNK___C__DISPLAYCLASS5_1__PLAN_B__0_OFFSET UNITYSDK_OFFSET(0x1683C280)
 
-inline static constexpr unsigned int FPBAFGOJCNK___c__DisplayClass5_1_TypeDefinitionIndex = 63908;
+inline static constexpr unsigned int FPBAFGOJCNK___c__DisplayClass5_1_TypeDefinitionIndex = 65350;
 
 	template <typename T>
 	class FPBAFGOJCNK___c__DisplayClass5_1 : public ::System::Object

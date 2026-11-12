@@ -4,18 +4,18 @@
 class OKABLGLBPOA;
 namespace System { class Object; }
 
-#define OKABLGLBPOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE8E8A0)
-#define OKABLGLBPOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8E8E0)
-#define OKABLGLBPOA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DE8E8F0)
+#define OKABLGLBPOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F136AF0)
+#define OKABLGLBPOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F136B30)
+#define OKABLGLBPOA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F136B40)
 
-inline static constexpr unsigned int OKABLGLBPOA___c_TypeDefinitionIndex = 30042;
+inline static constexpr unsigned int OKABLGLBPOA___c_TypeDefinitionIndex = 30940;
 
 	class OKABLGLBPOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x208B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C1C0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::MechCraft::View { class MechCraftProductAttributeControl; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD664DA0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C__DISPLAYCLASS7_0___REFRESHATTRIBUTES_B__2_OFFSET UNITYSDK_OFFSET(0xD664F90)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0F3A00)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTSETTLEPRODUCTSTATSCONTROL___C__DISPLAYCLASS7_0___REFRESHATTRIBUTES_B__2_OFFSET UNITYSDK_OFFSET(0xE0F3BF0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftSettleProductStatsControl___c__DisplayClass7_0_TypeDefinitionIndex = 80042;
+	inline static constexpr unsigned int MechCraftSettleProductStatsControl___c__DisplayClass7_0_TypeDefinitionIndex = 82819;
 
 	class MechCraftSettleProductStatsControl___c__DisplayClass7_0 : public ::System::Object
 	{

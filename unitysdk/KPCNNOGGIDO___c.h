@@ -4,18 +4,18 @@
 class KPCNNOGGIDO;
 namespace System { class Object; }
 
-#define KPCNNOGGIDO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8B9DE0)
-#define KPCNNOGGIDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B9E10)
-#define KPCNNOGGIDO___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E8B9E20)
+#define KPCNNOGGIDO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBF67F0)
+#define KPCNNOGGIDO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBF6820)
+#define KPCNNOGGIDO___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1FBF6830)
 
-inline static constexpr unsigned int KPCNNOGGIDO___c_TypeDefinitionIndex = 31339;
+inline static constexpr unsigned int KPCNNOGGIDO___c_TypeDefinitionIndex = 32252;
 
 	class KPCNNOGGIDO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C950);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FE10);
 		}
 
 		static ::System::Void _cctor()

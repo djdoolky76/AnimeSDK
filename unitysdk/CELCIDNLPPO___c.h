@@ -4,18 +4,18 @@
 class CELCIDNLPPO;
 namespace System { class Object; }
 
-#define CELCIDNLPPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E099090)
-#define CELCIDNLPPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0990C0)
-#define CELCIDNLPPO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E0990D0)
+#define CELCIDNLPPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F35F9C0)
+#define CELCIDNLPPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F35F9F0)
+#define CELCIDNLPPO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F35FA00)
 
-inline static constexpr unsigned int CELCIDNLPPO___c_TypeDefinitionIndex = 32389;
+inline static constexpr unsigned int CELCIDNLPPO___c_TypeDefinitionIndex = 33302;
 
 	class CELCIDNLPPO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12610);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EA30);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 class HHLOEMDFFMG;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTLOADINGWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xD6481D0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTLOADINGWINDOW_CTOR_OFFSET UNITYSDK_OFFSET(0xE0D7010)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftLoadingWindow_TypeDefinitionIndex = 79976;
+	inline static constexpr unsigned int MechCraftLoadingWindow_TypeDefinitionIndex = 82753;
 
 	class MechCraftLoadingWindow
 	{

@@ -5,25 +5,25 @@ class OIHFMECAJBH;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDMOBDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDBE96D0)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDMOBDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDBE9710)
-#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDMOBDATA___C___SYNCLINEUP_B__2_0_OFFSET UNITYSDK_OFFSET(0xDBE9720)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDMOBDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE685E00)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDMOBDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE685E40)
+#define RPG_CLIENT_PLAYERCHALLENGEPEAKRECORDMOBDATA___C___SYNCLINEUP_B__2_0_OFFSET UNITYSDK_OFFSET(0xE685E50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerChallengePeakRecordMobData___c_TypeDefinitionIndex = 64267;
+	inline static constexpr unsigned int PlayerChallengePeakRecordMobData___c_TypeDefinitionIndex = 65712;
 
 	class PlayerChallengePeakRecordMobData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x39A50);
-		}
-
 		static ::System::Comparison_1<::OIHFMECAJBH*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::OIHFMECAJBH*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x39A58);
+			return (::System::Comparison_1<::OIHFMECAJBH*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x461D0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x461D8);
 		}
 
 		static ::System::Void _cctor()

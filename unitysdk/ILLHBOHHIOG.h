@@ -4,10 +4,10 @@
 class HOCGLMNPAPI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ILLHBOHHIOG_CTOR_OFFSET UNITYSDK_OFFSET(0x164C49D0)
-#define ILLHBOHHIOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164C4AB0)
+#define ILLHBOHHIOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1749D8A0)
+#define ILLHBOHHIOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1749D980)
 
-inline static constexpr unsigned int ILLHBOHHIOG_TypeDefinitionIndex = 55053;
+inline static constexpr unsigned int ILLHBOHHIOG_TypeDefinitionIndex = 56229;
 
 	class ILLHBOHHIOG
 	{

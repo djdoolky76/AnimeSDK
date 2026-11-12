@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define EBDEJIMKFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x12CECE90)
+#define EBDEJIMKFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A9DF10)
 
-inline static constexpr unsigned int EBDEJIMKFNO_TypeDefinitionIndex = 47864;
+inline static constexpr unsigned int EBDEJIMKFNO_TypeDefinitionIndex = 48895;
 
 	class EBDEJIMKFNO : public ::UnityEngine::Playables::PlayableBehaviour
 	{

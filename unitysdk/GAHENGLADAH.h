@@ -9,21 +9,21 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAHENGLADAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1593BC00)
-#define GAHENGLADAH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1593BE30)
-#define GAHENGLADAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1593C280)
-#define GAHENGLADAH_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x1593BF00)
+#define GAHENGLADAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1686FD80)
+#define GAHENGLADAH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1686FFB0)
+#define GAHENGLADAH_CTOR_OFFSET UNITYSDK_OFFSET(0x16870380)
+#define GAHENGLADAH_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x16870080)
 
-inline static constexpr unsigned int GAHENGLADAH_TypeDefinitionIndex = 53981;
+inline static constexpr unsigned int GAHENGLADAH_TypeDefinitionIndex = 55145;
 
 	class GAHENGLADAH : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x10
-		::GELIALJDFBL* LLHKOFLJFCH; // 0x18
-		::RPG::GameCore::EntityTypeMask JKAGAKJELHA; // 0x20
+		::GELIALJDFBL* LLHKOFLJFCH; // 0x10
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TeamTypeMask AILGGHMGLIN; // 0x20
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::TeamTypeMask AILGGHMGLIN; // 0x28
+		::RPG::GameCore::EntityTypeMask JKAGAKJELHA; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAHENGLADAH_CTOR_OFFSET))(this);

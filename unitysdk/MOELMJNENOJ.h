@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PauseTimeRewindTargetInRange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOELMJNENOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBA298D0)
-#define MOELMJNENOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA29900)
+#define MOELMJNENOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E80C0)
+#define MOELMJNENOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E80F0)
 
-inline static constexpr unsigned int MOELMJNENOJ_TypeDefinitionIndex = 53381;
+inline static constexpr unsigned int MOELMJNENOJ_TypeDefinitionIndex = 54543;
 
 	class MOELMJNENOJ
 	{

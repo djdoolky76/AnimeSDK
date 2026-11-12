@@ -4,9 +4,9 @@
 class HIOEAKHGILF;
 class PEEDLCHFAFL;
 
-#define PJKFGLFCKCD_OHONOJAFMPM_OFFSET UNITYSDK_OFFSET(0xC297BB0)
+#define PJKFGLFCKCD_OHONOJAFMPM_OFFSET UNITYSDK_OFFSET(0xCBC1A00)
 
-inline static constexpr unsigned int PJKFGLFCKCD_TypeDefinitionIndex = 77062;
+inline static constexpr unsigned int PJKFGLFCKCD_TypeDefinitionIndex = 79396;
 
 	class PJKFGLFCKCD : public ::System::Object
 	{

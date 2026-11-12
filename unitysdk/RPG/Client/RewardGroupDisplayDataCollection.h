@@ -5,12 +5,12 @@ namespace RPG::Client { class RewardGroupDisplayData; }
 namespace RPG::Client { class RewardGroupDisplayDataCollection; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CREATEFROMITEMGIFTPACK_OFFSET UNITYSDK_OFFSET(0xDEC4130)
-#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDEC4D40)
+#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CREATEFROMITEMGIFTPACK_OFFSET UNITYSDK_OFFSET(0xE974A80)
+#define RPG_CLIENT_REWARDGROUPDISPLAYDATACOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE975690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RewardGroupDisplayDataCollection_TypeDefinitionIndex = 65714;
+	inline static constexpr unsigned int RewardGroupDisplayDataCollection_TypeDefinitionIndex = 67640;
 
 	class RewardGroupDisplayDataCollection : public ::System::Object
 	{

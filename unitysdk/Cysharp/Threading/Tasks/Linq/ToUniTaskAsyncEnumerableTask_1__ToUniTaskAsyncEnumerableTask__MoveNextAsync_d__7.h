@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask__MoveNextAsync_d__7_TypeDefinitionIndex = 45706;
+	inline static constexpr unsigned int ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask__MoveNextAsync_d__7_TypeDefinitionIndex = 46735;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	struct alignas(8) ToUniTaskAsyncEnumerableTask_1__ToUniTaskAsyncEnumerableTask__MoveNextAsync_d__7

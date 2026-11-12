@@ -4,11 +4,11 @@ namespace RPG::GameCore { class AdvForceSetNpcAlertValue; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CHGIEOHONGE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF496C0)
-#define CHGIEOHONGE_MGGPHJADAAG_OFFSET UNITYSDK_OFFSET(0xCF49E20)
-#define CHGIEOHONGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF496F0)
+#define CHGIEOHONGE_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B1900)
+#define CHGIEOHONGE_MGGPHJADAAG_OFFSET UNITYSDK_OFFSET(0xD8B2050)
+#define CHGIEOHONGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD8B1930)
 
-inline static constexpr unsigned int CHGIEOHONGE_TypeDefinitionIndex = 52376;
+inline static constexpr unsigned int CHGIEOHONGE_TypeDefinitionIndex = 53482;
 
 	class CHGIEOHONGE
 	{

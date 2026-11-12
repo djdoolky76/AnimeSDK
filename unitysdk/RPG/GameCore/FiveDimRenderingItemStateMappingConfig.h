@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FiveDimRenderingItemStateMappingConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FIVEDIMRENDERINGITEMSTATEMAPPINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D75F0)
-#define RPG_GAMECORE_FIVEDIMRENDERINGITEMSTATEMAPPINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D7510)
+#define RPG_GAMECORE_FIVEDIMRENDERINGITEMSTATEMAPPINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E1E00)
+#define RPG_GAMECORE_FIVEDIMRENDERINGITEMSTATEMAPPINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E1D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimRenderingItemStateMappingConfig_TypeDefinitionIndex = 16720;
+	inline static constexpr unsigned int FiveDimRenderingItemStateMappingConfig_TypeDefinitionIndex = 16886;
 
 	class FiveDimRenderingItemStateMappingConfig : public ::RPG::GameCore::JsonConfig
 	{

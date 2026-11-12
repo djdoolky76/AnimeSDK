@@ -6,20 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GiftDanmuSenderRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GIFTDANMUSENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71E5C0)
-#define RPG_GAMECORE_GIFTDANMUSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D71E3F0)
+#define RPG_GAMECORE_GIFTDANMUSENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E928890)
+#define RPG_GAMECORE_GIFTDANMUSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9286F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GiftDanmuSenderRow_TypeDefinitionIndex = 15193;
+	inline static constexpr unsigned int GiftDanmuSenderRow_TypeDefinitionIndex = 15349;
 
 	class GiftDanmuSenderRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID Name; // 0x18
+		::System::UInt32 ID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GIFTDANMUSENDERROW_CTOR_OFFSET))(this);

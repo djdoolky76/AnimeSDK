@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckFloorCustomBool; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ECABJPNBJAA_CTOR_OFFSET UNITYSDK_OFFSET(0x12D05040)
-#define ECABJPNBJAA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12D05070)
+#define ECABJPNBJAA_CTOR_OFFSET UNITYSDK_OFFSET(0x13AB6410)
+#define ECABJPNBJAA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13AB6440)
 
-inline static constexpr unsigned int ECABJPNBJAA_TypeDefinitionIndex = 52550;
+inline static constexpr unsigned int ECABJPNBJAA_TypeDefinitionIndex = 53656;
 
 	class ECABJPNBJAA
 	{

@@ -5,9 +5,9 @@ class FHLBIPIKFEJ;
 namespace RPG::GameCore { class StateTreeStateConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJOAPIGIBGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC29E210)
+#define PJOAPIGIBGC_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC8CD0)
 
-inline static constexpr unsigned int PJOAPIGIBGC_TypeDefinitionIndex = 53635;
+inline static constexpr unsigned int PJOAPIGIBGC_TypeDefinitionIndex = 54799;
 
 	class PJOAPIGIBGC : public ::FHLBIPIKFEJ
 	{

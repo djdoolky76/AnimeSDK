@@ -3,11 +3,11 @@
 #include "unitysdk/System/ComponentModel/PropertyDescriptor.h"
 namespace System { class Type; }
 
-#define NEWTONSOFT_JSON_LINQ_JPROPERTYDESCRIPTOR_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1C3C10B0)
+#define NEWTONSOFT_JSON_LINQ_JPROPERTYDESCRIPTOR_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x1D547990)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int JPropertyDescriptor_TypeDefinitionIndex = 9752;
+	inline static constexpr unsigned int JPropertyDescriptor_TypeDefinitionIndex = 9760;
 
 	class JPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor
 	{

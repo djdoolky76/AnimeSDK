@@ -8,20 +8,20 @@ namespace RPG::Client::LimaoNews { class LimaoNewsPlanService; }
 namespace RPG::Client::LimaoNews { class LimaoNewsPostSubmitViewModel; }
 namespace RPG::Client::LimaoNews { class LimaoNewsWorkProgressResultViewModel; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3D1E80)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xD3D3FF0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xD3D4220)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE08A60)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__0_OFFSET UNITYSDK_OFFSET(0xDE09B30)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0___FINISHCURRENTPLANPHASEANDSHOWRESULTPAGE_B__1_OFFSET UNITYSDK_OFFSET(0xDE09D60)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsPlanService___c__DisplayClass16_0_TypeDefinitionIndex = 80334;
+	inline static constexpr unsigned int LimaoNewsPlanService___c__DisplayClass16_0_TypeDefinitionIndex = 83111;
 
 	class LimaoNewsPlanService___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::LimaoNews::LimaoNewsPlanService* __4__this; // 0x10
+		::RPG::Client::LimaoNews::LimaoNewsModule* limaoModule; // 0x10
 		::RPG::Client::LimaoNews::LimaoNewsWorkProgressResultViewModel* resultViewModel; // 0x18
-		::RPG::Client::LimaoNews::LimaoNewsModule* limaoModule; // 0x20
+		::RPG::Client::LimaoNews::LimaoNewsPlanService* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSPLANSERVICE___C__DISPLAYCLASS16_0_CTOR_OFFSET))(this);

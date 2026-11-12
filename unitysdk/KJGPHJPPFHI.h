@@ -10,29 +10,29 @@ class KJGPHJPPFHI_GBGJFKCLONN;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KJGPHJPPFHI_CCTOR_OFFSET UNITYSDK_OFFSET(0xB44AD20)
-#define KJGPHJPPFHI_CTOR_OFFSET UNITYSDK_OFFSET(0xB44AC40)
-#define KJGPHJPPFHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB44A020)
-#define KJGPHJPPFHI_IKAHNBNDHDL_1_OFFSET UNITYSDK_OFFSET(0xB44A9F0)
-#define KJGPHJPPFHI_IKAHNBNDHDL_OFFSET UNITYSDK_OFFSET(0xB44A430)
-#define KJGPHJPPFHI_LNEMCMANEJE_1_OFFSET UNITYSDK_OFFSET(0xB44A270)
-#define KJGPHJPPFHI_LNEMCMANEJE_OFFSET UNITYSDK_OFFSET(0xB44A0B0)
+#define KJGPHJPPFHI_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCE1AD0)
+#define KJGPHJPPFHI_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE19F0)
+#define KJGPHJPPFHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCE0DD0)
+#define KJGPHJPPFHI_IKAHNBNDHDL_1_OFFSET UNITYSDK_OFFSET(0xBCE17A0)
+#define KJGPHJPPFHI_IKAHNBNDHDL_OFFSET UNITYSDK_OFFSET(0xBCE11E0)
+#define KJGPHJPPFHI_LNEMCMANEJE_1_OFFSET UNITYSDK_OFFSET(0xBCE1020)
+#define KJGPHJPPFHI_LNEMCMANEJE_OFFSET UNITYSDK_OFFSET(0xBCE0E60)
 
-inline static constexpr unsigned int KJGPHJPPFHI_TypeDefinitionIndex = 64017;
+inline static constexpr unsigned int KJGPHJPPFHI_TypeDefinitionIndex = 65462;
 
 	class KJGPHJPPFHI : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* GEELMEHMANA; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* AAOEPOECOAN; // 0x18
-		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_DAAHPAOPPBD()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "KJGPHJPPFHI")->GetStaticField(0x57FB0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_BKOMBJIONNM()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "KJGPHJPPFHI")->GetStaticField(0x57FB8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "KJGPHJPPFHI")->GetStaticField(0x45C90);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_DAAHPAOPPBD()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("", "KJGPHJPPFHI")->GetStaticField(0x45C98);
 		}
 
 		::System::Void _ctor()

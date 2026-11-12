@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FreeStyleLayerList; }
 
-#define RPG_GAMECORE_FREESTYLELAYERLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F4090)
-#define RPG_GAMECORE_FREESTYLELAYERLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6F4050)
+#define RPG_GAMECORE_FREESTYLELAYERLIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FE330)
+#define RPG_GAMECORE_FREESTYLELAYERLIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8FE2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FreeStyleLayerList_TypeDefinitionIndex = 16319;
+	inline static constexpr unsigned int FreeStyleLayerList_TypeDefinitionIndex = 16482;
 
 	class FreeStyleLayerList : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,43 +2,54 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 class CKCPEGPJGLD;
+class DOLMCHMNEIL;
 namespace Google::Protobuf { class CodedInputStream; }
 namespace Google::Protobuf { class CodedOutputStream; }
 namespace Google::Protobuf { class UnknownFieldSet; }
+namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
 namespace Google::Protobuf { template <typename T> class MessageParser_1; }
+namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define CKCPEGPJGLD_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E0E9000)
-#define CKCPEGPJGLD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0E9220)
-#define CKCPEGPJGLD_CLONE_OFFSET UNITYSDK_OFFSET(0x1E0E8C50)
-#define CKCPEGPJGLD_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E0E8C20)
-#define CKCPEGPJGLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E8C10)
-#define CKCPEGPJGLD_EIOMMLPIAKP_OFFSET UNITYSDK_OFFSET(0x1E0E8C90)
-#define CKCPEGPJGLD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E0E8D80)
-#define CKCPEGPJGLD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E0E8CB0)
-#define CKCPEGPJGLD_GEMDLCGEPMD_OFFSET UNITYSDK_OFFSET(0x1E0E8CA0)
-#define CKCPEGPJGLD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E0E8EF0)
-#define CKCPEGPJGLD_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E0E8BD0)
-#define CKCPEGPJGLD_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E0E90C0)
-#define CKCPEGPJGLD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E0E9090)
-#define CKCPEGPJGLD_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E0E8C00)
-#define CKCPEGPJGLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E8F20)
-#define CKCPEGPJGLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E8F80)
+#define CKCPEGPJGLD_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F3BB890)
+#define CKCPEGPJGLD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3BBC30)
+#define CKCPEGPJGLD_CLONE_OFFSET UNITYSDK_OFFSET(0x1F3BB3F0)
+#define CKCPEGPJGLD_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F3BB330)
+#define CKCPEGPJGLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3BB2E0)
+#define CKCPEGPJGLD_EIOMMLPIAKP_OFFSET UNITYSDK_OFFSET(0x1F3BB430)
+#define CKCPEGPJGLD_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F3BB5A0)
+#define CKCPEGPJGLD_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F3BB450)
+#define CKCPEGPJGLD_GEMDLCGEPMD_OFFSET UNITYSDK_OFFSET(0x1F3BB440)
+#define CKCPEGPJGLD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F3BB6C0)
+#define CKCPEGPJGLD_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F3BB2A0)
+#define CKCPEGPJGLD_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F3BBA60)
+#define CKCPEGPJGLD_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F3BB9C0)
+#define CKCPEGPJGLD_OMJILCNDMOH_OFFSET UNITYSDK_OFFSET(0x1F3BB420)
+#define CKCPEGPJGLD_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F3BB2D0)
+#define CKCPEGPJGLD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F3BB730)
+#define CKCPEGPJGLD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F3BB790)
 
-inline static constexpr unsigned int CKCPEGPJGLD_TypeDefinitionIndex = 32454;
+inline static constexpr unsigned int CKCPEGPJGLD_TypeDefinitionIndex = 33369;
 
 	class CKCPEGPJGLD : public ::System::Object
 	{
 	public:
 		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::System::UInt32 GEMFJILOPLL; // 0x18
-		static ::Google::Protobuf::MessageParser_1<::CKCPEGPJGLD*>** StaticGet_CHLCMCKIGKG()
+		::Google::Protobuf::Collections::RepeatedField_1<::DOLMCHMNEIL*>* BKOMHPBNKPD; // 0x18
+		::System::UInt32 GEMFJILOPLL; // 0x20
+		static ::Google::Protobuf::FieldCodec_1<::DOLMCHMNEIL*>** StaticGet_CIBEFBPGOCA()
 		{
-			return (::Google::Protobuf::MessageParser_1<::CKCPEGPJGLD*>**)UnitySDK::FromName("", "CKCPEGPJGLD")->GetStaticField(0x1AD00);
+			return (::Google::Protobuf::FieldCodec_1<::DOLMCHMNEIL*>**)UnitySDK::FromName("", "CKCPEGPJGLD")->GetStaticField(0x13F60);
 		}
 
+		static ::Google::Protobuf::MessageParser_1<::CKCPEGPJGLD*>** StaticGet_CHLCMCKIGKG()
+		{
+			return (::Google::Protobuf::MessageParser_1<::CKCPEGPJGLD*>**)UnitySDK::FromName("", "CKCPEGPJGLD")->GetStaticField(0x13F68);
+		}
+
+		// static const ::System::Object AGGCHJFEBPC; // 0x0
 		// static const ::System::Object AKFFJEHMCCB; // 0x0
 		::System::Void _ctor()
 		{
@@ -68,6 +79,11 @@ inline static constexpr unsigned int CKCPEGPJGLD_TypeDefinitionIndex = 32454;
 		::CKCPEGPJGLD* Clone()
 		{
 			return ((::CKCPEGPJGLD*(*)(::PVOID))((::PBYTE)hIl2Cpp + CKCPEGPJGLD_CLONE_OFFSET))(this);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::DOLMCHMNEIL*>* OMJILCNDMOH()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::DOLMCHMNEIL*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + CKCPEGPJGLD_OMJILCNDMOH_OFFSET))(this);
 		}
 
 		::System::UInt32 EIOMMLPIAKP()

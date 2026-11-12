@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int ISubmitHandler_TypeDefinitionIndex = 6926;
+	inline static constexpr unsigned int ISubmitHandler_TypeDefinitionIndex = 6937;
 
 	class ISubmitHandler
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IIdleLiveAvatarData_TypeDefinitionIndex = 75072;
+	inline static constexpr unsigned int IIdleLiveAvatarData_TypeDefinitionIndex = 77399;
 
 	class IIdleLiveAvatarData
 	{

@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_MESSAGEPACKSERIALIZEROPTIONS_MESSAGEPACKSERIALIZEROPTIONSDEFAULTSETTINGSLAZYINITIALIZATIONHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBCB2F0)
+#define MESSAGEPACK_MESSAGEPACKSERIALIZEROPTIONS_MESSAGEPACKSERIALIZEROPTIONSDEFAULTSETTINGSLAZYINITIALIZATIONHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD541C0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSerializerOptions_MessagePackSerializerOptionsDefaultSettingsLazyInitializationHelper_TypeDefinitionIndex = 7231;
+	inline static constexpr unsigned int MessagePackSerializerOptions_MessagePackSerializerOptionsDefaultSettingsLazyInitializationHelper_TypeDefinitionIndex = 7242;
 
 	class MessagePackSerializerOptions_MessagePackSerializerOptionsDefaultSettingsLazyInitializationHelper : public ::System::Object
 	{
 	public:
 		static ::MessagePack::MessagePackSerializerOptions** StaticGet_Standard()
 		{
-			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack", "MessagePackSerializerOptionsDefaultSettingsLazyInitializationHelper")->GetStaticField(0x154D0);
+			return (::MessagePack::MessagePackSerializerOptions**)UnitySDK::FromName("MessagePack", "MessagePackSerializerOptionsDefaultSettingsLazyInitializationHelper")->GetStaticField(0xDB00);
 		}
 
 		static ::System::Void _cctor()

@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define RPG_CUSTOMRP_FOGVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2FEE0)
-#define RPG_CUSTOMRP_FOGVOLUME_START_OFFSET UNITYSDK_OFFSET(0x1CC2FEA0)
-#define RPG_CUSTOMRP_FOGVOLUME_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1CC2FBF0)
+#define RPG_CUSTOMRP_FOGVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD7340)
+#define RPG_CUSTOMRP_FOGVOLUME_START_OFFSET UNITYSDK_OFFSET(0x1DDD7300)
+#define RPG_CUSTOMRP_FOGVOLUME_UPDATEPARAMETERS_OFFSET UNITYSDK_OFFSET(0x1DDD7050)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int FogVolume_TypeDefinitionIndex = 37732;
+	inline static constexpr unsigned int FogVolume_TypeDefinitionIndex = 38661;
 
 	class FogVolume : public ::UnityEngine::MonoBehaviour
 	{

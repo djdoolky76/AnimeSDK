@@ -6,10 +6,10 @@ class IJFIHJJPHNA;
 class PLAJONHLDJN;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KAAMFILLIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C709E70)
-#define KAAMFILLIND_IBFCFOLIHFN_OFFSET UNITYSDK_OFFSET(0x1C709F00)
+#define KAAMFILLIND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88B940)
+#define KAAMFILLIND_IBFCFOLIHFN_OFFSET UNITYSDK_OFFSET(0x1D88B9D0)
 
-inline static constexpr unsigned int KAAMFILLIND_TypeDefinitionIndex = 36399;
+inline static constexpr unsigned int KAAMFILLIND_TypeDefinitionIndex = 37327;
 
 	class KAAMFILLIND : public ::EHMBINMCDGN
 	{

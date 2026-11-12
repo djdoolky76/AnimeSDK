@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define OOBCBCDBGBH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF62F60)
-#define OOBCBCDBGBH_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xBF62F30)
-#define OOBCBCDBGBH_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xBF62F50)
+#define OOBCBCDBGBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC861E10)
+#define OOBCBCDBGBH_GET_POSITION_OFFSET UNITYSDK_OFFSET(0xC861DE0)
+#define OOBCBCDBGBH_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xC861E00)
 
-inline static constexpr unsigned int OOBCBCDBGBH_TypeDefinitionIndex = 74590;
+inline static constexpr unsigned int OOBCBCDBGBH_TypeDefinitionIndex = 76738;
 
 	class OOBCBCDBGBH : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FloatMessageType_TypeDefinitionIndex = 24623;
+	inline static constexpr unsigned int FloatMessageType_TypeDefinitionIndex = 25091;
 
 	enum class FloatMessageType : ::System::Int32
 	{
@@ -12,5 +12,6 @@ namespace RPG::GameCore
 		MiniToast = 1,
 		SilverWolf999NormalKillHint = 2,
 		SilverWolf999SpeicalKillHint = 3,
+		ArcheonExecuteHint = 4,
 	};
 }

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SkillTreePointPreset; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SKILLTREEPOINTPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF02F0)
-#define RPG_GAMECORE_SKILLTREEPOINTPRESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF01A0)
+#define RPG_GAMECORE_SKILLTREEPOINTPRESET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED02140)
+#define RPG_GAMECORE_SKILLTREEPOINTPRESET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED01FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillTreePointPreset_TypeDefinitionIndex = 18136;
+	inline static constexpr unsigned int SkillTreePointPreset_TypeDefinitionIndex = 18298;
 
 	class SkillTreePointPreset : public ::RPG::GameCore::JsonConfig
 	{

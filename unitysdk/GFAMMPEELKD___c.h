@@ -4,18 +4,18 @@
 class GFAMMPEELKD;
 namespace System { class Object; }
 
-#define GFAMMPEELKD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E45FFE0)
-#define GFAMMPEELKD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E460020)
-#define GFAMMPEELKD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E460030)
+#define GFAMMPEELKD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F74DE90)
+#define GFAMMPEELKD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F74DED0)
+#define GFAMMPEELKD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F74DEE0)
 
-inline static constexpr unsigned int GFAMMPEELKD___c_TypeDefinitionIndex = 33769;
+inline static constexpr unsigned int GFAMMPEELKD___c_TypeDefinitionIndex = 34684;
 
 	class GFAMMPEELKD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12CE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x9D40);
 		}
 
 		static ::System::Void _cctor()

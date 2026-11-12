@@ -4,10 +4,10 @@
 class NJCHNLINLMK;
 namespace System { class String; }
 
-#define FMMKENDGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x15861730)
-#define FMMKENDGOPH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x158616E0)
+#define FMMKENDGOPH_CTOR_OFFSET UNITYSDK_OFFSET(0x167D26F0)
+#define FMMKENDGOPH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x167D26A0)
 
-inline static constexpr unsigned int FMMKENDGOPH_TypeDefinitionIndex = 82304;
+inline static constexpr unsigned int FMMKENDGOPH_TypeDefinitionIndex = 85177;
 
 	class FMMKENDGOPH : public ::System::Object
 	{

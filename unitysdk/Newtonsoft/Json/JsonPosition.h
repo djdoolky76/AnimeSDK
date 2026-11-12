@@ -7,17 +7,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x1C398460)
-#define NEWTONSOFT_JSON_JSONPOSITION_CALCULATELENGTH_OFFSET UNITYSDK_OFFSET(0x3C25620)
-#define NEWTONSOFT_JSON_JSONPOSITION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C398B30)
-#define NEWTONSOFT_JSON_JSONPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x3C255D0)
-#define NEWTONSOFT_JSON_JSONPOSITION_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x1C3986D0)
-#define NEWTONSOFT_JSON_JSONPOSITION_TYPEHASINDEX_OFFSET UNITYSDK_OFFSET(0x1C398080)
-#define NEWTONSOFT_JSON_JSONPOSITION_WRITETO_OFFSET UNITYSDK_OFFSET(0x3C25630)
+#define NEWTONSOFT_JSON_JSONPOSITION_BUILDPATH_OFFSET UNITYSDK_OFFSET(0x1D51EC10)
+#define NEWTONSOFT_JSON_JSONPOSITION_CALCULATELENGTH_OFFSET UNITYSDK_OFFSET(0x3E745A0)
+#define NEWTONSOFT_JSON_JSONPOSITION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D51F2E0)
+#define NEWTONSOFT_JSON_JSONPOSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x3E74550)
+#define NEWTONSOFT_JSON_JSONPOSITION_FORMATMESSAGE_OFFSET UNITYSDK_OFFSET(0x1D51EE80)
+#define NEWTONSOFT_JSON_JSONPOSITION_TYPEHASINDEX_OFFSET UNITYSDK_OFFSET(0x1D51E830)
+#define NEWTONSOFT_JSON_JSONPOSITION_WRITETO_OFFSET UNITYSDK_OFFSET(0x3E745B0)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonPosition_TypeDefinitionIndex = 9591;
+	inline static constexpr unsigned int JsonPosition_TypeDefinitionIndex = 9599;
 
 	struct alignas(8) JsonPosition
 	{
@@ -27,7 +27,7 @@ namespace Newtonsoft::Json
 		::System::Boolean HasIndex; // 0x20
 		static ::Il2CppArray<::System::Char>** StaticGet_SpecialCharacters()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("Newtonsoft.Json", "JsonPosition")->GetStaticField(0x2C300);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("Newtonsoft.Json", "JsonPosition")->GetStaticField(0x2AC00);
 		}
 
 		::System::Void _ctor(::Newtonsoft::Json::JsonContainerType a1)

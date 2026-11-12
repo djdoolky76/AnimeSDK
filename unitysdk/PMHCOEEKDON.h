@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityData; }
 
-#define PMHCOEEKDON_CTOR_OFFSET UNITYSDK_OFFSET(0xC31C9A0)
-#define PMHCOEEKDON_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xC31C920)
+#define PMHCOEEKDON_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4B7B0)
+#define PMHCOEEKDON_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xCC4B730)
 
-inline static constexpr unsigned int PMHCOEEKDON_TypeDefinitionIndex = 61723;
+inline static constexpr unsigned int PMHCOEEKDON_TypeDefinitionIndex = 63129;
 
 	class PMHCOEEKDON : public ::System::Object
 	{

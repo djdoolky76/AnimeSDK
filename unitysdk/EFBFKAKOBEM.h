@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define EFBFKAKOBEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA33A20)
+#define EFBFKAKOBEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF7270)
 
-inline static constexpr unsigned int EFBFKAKOBEM_TypeDefinitionIndex = 43754;
+inline static constexpr unsigned int EFBFKAKOBEM_TypeDefinitionIndex = 44829;
 
 	class EFBFKAKOBEM : public ::System::Object
 	{

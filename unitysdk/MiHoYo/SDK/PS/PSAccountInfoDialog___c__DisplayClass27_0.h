@@ -7,24 +7,24 @@ namespace System { class String; }
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF67130)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BF69C80)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0__SHOW_B__1_OFFSET UNITYSDK_OFFSET(0x1BF69E20)
-#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0__SHOW_B__2_OFFSET UNITYSDK_OFFSET(0x1BF69E70)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EDC00)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1D0F0750)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0__SHOW_B__1_OFFSET UNITYSDK_OFFSET(0x1D0F08F0)
+#define MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0__SHOW_B__2_OFFSET UNITYSDK_OFFSET(0x1D0F0940)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSAccountInfoDialog___c__DisplayClass27_0_TypeDefinitionIndex = 8936;
+	inline static constexpr unsigned int PSAccountInfoDialog___c__DisplayClass27_0_TypeDefinitionIndex = 8945;
 
 	class PSAccountInfoDialog___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
 		::System::String* psnAccountName; // 0x10
-		::System::String* hoyoAccountName; // 0x18
-		::System::Predicate_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* __9__1; // 0x20
-		::System::String* currentZone; // 0x28
-		::System::Collections::Generic::List_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* userGameInfoList; // 0x30
-		::System::Predicate_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* __9__2; // 0x38
+		::System::String* currentZone; // 0x18
+		::System::Collections::Generic::List_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* userGameInfoList; // 0x20
+		::System::Predicate_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* __9__2; // 0x28
+		::System::Predicate_1<::MiHoYo::SDK::PS::UserGameServerInfo*>* __9__1; // 0x30
+		::System::String* hoyoAccountName; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PS_PSACCOUNTINFODIALOG___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);

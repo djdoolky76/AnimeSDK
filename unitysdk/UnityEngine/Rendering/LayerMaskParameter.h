@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/LayerMask.h"
 
-#define UNITYENGINE_RENDERING_LAYERMASKPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C4300)
+#define UNITYENGINE_RENDERING_LAYERMASKPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x20575140)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LayerMaskParameter_TypeDefinitionIndex = 35624;
+	inline static constexpr unsigned int LayerMaskParameter_TypeDefinitionIndex = 36552;
 
 	class LayerMaskParameter
 	{

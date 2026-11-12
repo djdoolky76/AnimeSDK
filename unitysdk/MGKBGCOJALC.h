@@ -5,18 +5,18 @@ namespace RPG::GameCore { class CharacterFaceExpressionConfig; }
 namespace RPG::GameCore { class CharacterFaceExpressionMappingConfig; }
 namespace System { class String; }
 
-#define MGKBGCOJALC_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xB925A10)
-#define MGKBGCOJALC_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xB925920)
-#define MGKBGCOJALC_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xB9259C0)
+#define MGKBGCOJALC_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0xC1D9250)
+#define MGKBGCOJALC_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xC1D9160)
+#define MGKBGCOJALC_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xC1D9200)
 
-inline static constexpr unsigned int MGKBGCOJALC_TypeDefinitionIndex = 73295;
+inline static constexpr unsigned int MGKBGCOJALC_TypeDefinitionIndex = 75411;
 
 	class MGKBGCOJALC : public ::System::Object
 	{
 	public:
 		static ::RPG::GameCore::CharacterFaceExpressionMappingConfig** StaticGet_IGHAHBNLIJA()
 		{
-			return (::RPG::GameCore::CharacterFaceExpressionMappingConfig**)UnitySDK::FromName("", "MGKBGCOJALC")->GetStaticField(0x6F9A0);
+			return (::RPG::GameCore::CharacterFaceExpressionMappingConfig**)UnitySDK::FromName("", "MGKBGCOJALC")->GetStaticField(0x73280);
 		}
 
 		static ::System::Void HCFINLKPIHL()

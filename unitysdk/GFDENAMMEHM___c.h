@@ -4,18 +4,18 @@
 class GFDENAMMEHM;
 namespace System { class Object; }
 
-#define GFDENAMMEHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E465A10)
-#define GFDENAMMEHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E465A40)
-#define GFDENAMMEHM___C___CCTOR_B__61_0_OFFSET UNITYSDK_OFFSET(0x1E465A50)
+#define GFDENAMMEHM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F753890)
+#define GFDENAMMEHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7538C0)
+#define GFDENAMMEHM___C___CCTOR_B__61_0_OFFSET UNITYSDK_OFFSET(0x1F7538D0)
 
-inline static constexpr unsigned int GFDENAMMEHM___c_TypeDefinitionIndex = 33934;
+inline static constexpr unsigned int GFDENAMMEHM___c_TypeDefinitionIndex = 34849;
 
 	class GFDENAMMEHM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x135F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xAAC0);
 		}
 
 		static ::System::Void _cctor()

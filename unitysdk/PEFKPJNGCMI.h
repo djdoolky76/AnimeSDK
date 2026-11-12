@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class AbilityPropertyValue; }
 namespace System { class String; }
 
-#define PEFKPJNGCMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D3090)
+#define PEFKPJNGCMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4DF290)
 
-inline static constexpr unsigned int PEFKPJNGCMI_TypeDefinitionIndex = 15461;
+inline static constexpr unsigned int PEFKPJNGCMI_TypeDefinitionIndex = 15619;
 
 	class PEFKPJNGCMI : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* KPHIIIDGLEB; // 0x10
-		::Il2CppArray<::RPG::GameCore::AbilityPropertyValue*>* EABDPMABDHO; // 0x18
-		::System::String* KNNCCLDKFGO; // 0x20
+		::System::String* KNNCCLDKFGO; // 0x18
+		::Il2CppArray<::RPG::GameCore::AbilityPropertyValue*>* EABDPMABDHO; // 0x20
 		::System::UInt32 DPKHKFBMIKD; // 0x28
 		::System::Void _ctor()
 		{

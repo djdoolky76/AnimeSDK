@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartySingleDoubleStartOrder_TypeDefinitionIndex = 17549;
+	inline static constexpr unsigned int PetPartySingleDoubleStartOrder_TypeDefinitionIndex = 17717;
 
 	enum class PetPartySingleDoubleStartOrder : ::System::Int32
 	{

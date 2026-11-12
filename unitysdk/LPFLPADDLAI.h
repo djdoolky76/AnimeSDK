@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define LPFLPADDLAI_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB81F8C0)
-#define LPFLPADDLAI_CTOR_2_OFFSET UNITYSDK_OFFSET(0xB81F910)
-#define LPFLPADDLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xB81F8B0)
+#define LPFLPADDLAI_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC080DF0)
+#define LPFLPADDLAI_CTOR_2_OFFSET UNITYSDK_OFFSET(0xC080E40)
+#define LPFLPADDLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xC080DE0)
 
-inline static constexpr unsigned int LPFLPADDLAI_TypeDefinitionIndex = 56509;
+inline static constexpr unsigned int LPFLPADDLAI_TypeDefinitionIndex = 57729;
 
 	class LPFLPADDLAI : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* EMOEJADDBNE; // 0x10
-		::Il2CppArray<::System::String*>* GGDJEJOPDKB; // 0x18
+		::Il2CppArray<::System::String*>* GGDJEJOPDKB; // 0x10
+		::Il2CppArray<::System::String*>* EMOEJADDBNE; // 0x18
 		::RPG::GameCore::JsonConfigListType OENAMINOLLF; // 0x20
 		::System::Void _ctor()
 		{

@@ -4,18 +4,18 @@
 class KFMDFCHECOM;
 namespace System { class Object; }
 
-#define KFMDFCHECOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E820100)
-#define KFMDFCHECOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E820140)
-#define KFMDFCHECOM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E820150)
+#define KFMDFCHECOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB36770)
+#define KFMDFCHECOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB367B0)
+#define KFMDFCHECOM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FB367C0)
 
-inline static constexpr unsigned int KFMDFCHECOM___c_TypeDefinitionIndex = 32207;
+inline static constexpr unsigned int KFMDFCHECOM___c_TypeDefinitionIndex = 33120;
 
 	class KFMDFCHECOM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14330);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCF60);
 		}
 
 		static ::System::Void _cctor()

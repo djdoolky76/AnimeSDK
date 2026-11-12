@@ -6,20 +6,20 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD046030)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_GETFIRSTORDEFAULTCONNECTION_OFFSET UNITYSDK_OFFSET(0xD045A40)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD046410)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD9CD8D0)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_GETFIRSTORDEFAULTCONNECTION_OFFSET UNITYSDK_OFFSET(0xD9CD2E0)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD9CDCB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_EdgeInfo_TypeDefinitionIndex = 64230;
+	inline static constexpr unsigned int FloorConnectivityData_EdgeInfo_TypeDefinitionIndex = 65675;
 
 	class FloorConnectivityData_EdgeInfo : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Object*>* Connections; // 0x10
-		::System::UInt32 FromFloorID; // 0x18
-		::System::UInt32 ToFloorID; // 0x1C
+		::System::UInt32 ToFloorID; // 0x18
+		::System::UInt32 FromFloorID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FLOORCONNECTIVITYDATA_EDGEINFO_CTOR_OFFSET))(this);

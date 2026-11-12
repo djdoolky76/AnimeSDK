@@ -4,10 +4,10 @@
 class NKCPCLDGKLO;
 namespace RPG::Client { class AdventurePhase; }
 
-#define NKCPCLDGKLO___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC30CA0)
-#define NKCPCLDGKLO___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xBC311B0)
+#define NKCPCLDGKLO___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC514760)
+#define NKCPCLDGKLO___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0xC514C70)
 
-inline static constexpr unsigned int NKCPCLDGKLO___c__DisplayClass2_0_TypeDefinitionIndex = 58792;
+inline static constexpr unsigned int NKCPCLDGKLO___c__DisplayClass2_0_TypeDefinitionIndex = 60060;
 
 	class NKCPCLDGKLO___c__DisplayClass2_0 : public ::System::Object
 	{

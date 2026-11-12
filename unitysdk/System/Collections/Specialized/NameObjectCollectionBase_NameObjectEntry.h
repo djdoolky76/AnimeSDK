@@ -4,7 +4,7 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_NAMEOBJECTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD8A20)
+#define SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_NAMEOBJECTENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x20288340)
 
 namespace System::Collections::Specialized
 {
@@ -13,8 +13,8 @@ namespace System::Collections::Specialized
 	class NameObjectCollectionBase_NameObjectEntry : public ::System::Object
 	{
 	public:
-		::System::Object* Value; // 0x10
-		::System::String* Key; // 0x18
+		::System::String* Key; // 0x10
+		::System::Object* Value; // 0x18
 		::System::Void _ctor(::System::String* a1, ::System::Object* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_COLLECTIONS_SPECIALIZED_NAMEOBJECTCOLLECTIONBASE_NAMEOBJECTENTRY_CTOR_OFFSET))(this, a1, a2);

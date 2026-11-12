@@ -7,21 +7,22 @@ namespace RPG::Client { class MonoEmoPlayableGraph; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NNFKJPCLNJF_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA81D0)
-#define NNFKJPCLNJF_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xBCA7CC0)
-#define NNFKJPCLNJF_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xBCA7CE0)
-#define NNFKJPCLNJF_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xBCA7E10)
-#define NNFKJPCLNJF_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xBCA7E80)
-#define NNFKJPCLNJF_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xBCA7CD0)
+#define NNFKJPCLNJF_CTOR_OFFSET UNITYSDK_OFFSET(0xC590B10)
+#define NNFKJPCLNJF_GET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xC5905B0)
+#define NNFKJPCLNJF_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xC5905D0)
+#define NNFKJPCLNJF_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xC590700)
+#define NNFKJPCLNJF_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xC590770)
+#define NNFKJPCLNJF_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xC5905C0)
 
-inline static constexpr unsigned int NNFKJPCLNJF_TypeDefinitionIndex = 47868;
+inline static constexpr unsigned int NNFKJPCLNJF_TypeDefinitionIndex = 48899;
 
 	class NNFKJPCLNJF : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:
-		::System::String* _CharacterUniqueName_k__BackingField; // 0x10
-		::RPG::Client::MonoEmoPlayableGraph* HPFOHJJHBAJ; // 0x18
+		::RPG::Client::MonoEmoPlayableGraph* HPFOHJJHBAJ; // 0x10
+		::System::String* _CharacterUniqueName_k__BackingField; // 0x18
 		::System::Boolean NOADJIAOJOP; // 0x20
+		::System::Boolean JOMEFMAGFDO; // 0x21
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NNFKJPCLNJF_CTOR_OFFSET))(this);

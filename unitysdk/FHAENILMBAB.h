@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByIsPlanetFesBusinessDayFinished; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHAENILMBAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15770C40)
-#define FHAENILMBAB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15770C70)
+#define FHAENILMBAB_CTOR_OFFSET UNITYSDK_OFFSET(0x16691890)
+#define FHAENILMBAB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x166918C0)
 
-inline static constexpr unsigned int FHAENILMBAB_TypeDefinitionIndex = 57982;
+inline static constexpr unsigned int FHAENILMBAB_TypeDefinitionIndex = 59221;
 
 	class FHAENILMBAB
 	{

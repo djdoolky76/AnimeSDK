@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemComposeTagRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCOMPOSETAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D792E50)
-#define RPG_GAMECORE_ITEMCOMPOSETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D792820)
+#define RPG_GAMECORE_ITEMCOMPOSETAGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A65C0)
+#define RPG_GAMECORE_ITEMCOMPOSETAGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9A5F90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemComposeTagRow_TypeDefinitionIndex = 13842;
+	inline static constexpr unsigned int ItemComposeTagRow_TypeDefinitionIndex = 13999;
 
 	class ItemComposeTagRow : public ::System::Object
 	{

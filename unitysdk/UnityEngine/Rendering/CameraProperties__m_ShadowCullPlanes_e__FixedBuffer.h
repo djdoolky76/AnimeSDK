@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CameraProperties__m_ShadowCullPlanes_e__FixedBuffer_TypeDefinitionIndex = 4744;
+	inline static constexpr unsigned int CameraProperties__m_ShadowCullPlanes_e__FixedBuffer_TypeDefinitionIndex = 4748;
 
 	struct alignas(4) CameraProperties__m_ShadowCullPlanes_e__FixedBuffer
 	{

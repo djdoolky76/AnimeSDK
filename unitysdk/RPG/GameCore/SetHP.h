@@ -1,5 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/AbilityPropertyChangeReason.h"
+#include "unitysdk/RPG/GameCore/AntiLockHPStrength.h"
 #include "unitysdk/RPG/GameCore/AttackDamageType.h"
 #include "unitysdk/RPG/GameCore/AttackType.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
@@ -9,13 +11,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetHP; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB5930)
-#define RPG_GAMECORE_SETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAB59B0)
-#define RPG_GAMECORE_SETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB5890)
+#define RPG_GAMECORE_SETHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC7B50)
+#define RPG_GAMECORE_SETHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC7BD0)
+#define RPG_GAMECORE_SETHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC7AA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetHP_TypeDefinitionIndex = 22626;
+	inline static constexpr unsigned int SetHP_TypeDefinitionIndex = 23048;
 
 	class SetHP : public ::RPG::GameCore::TaskConfig
 	{
@@ -30,6 +32,8 @@ namespace RPG::GameCore
 		::System::Byte _padding0[0x6];
 		::RPG::GameCore::DamageDisplayData* DisplayData; // 0x40
 		::RPG::GameCore::TargetEvaluator* SourceType; // 0x48
+		::RPG::GameCore::AbilityPropertyChangeReason ChangeReason; // 0x50
+		::RPG::GameCore::AntiLockHPStrength Strength; // 0x54
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SETHP_CTOR_OFFSET))(this);

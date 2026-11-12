@@ -5,12 +5,12 @@ class JNKPPLPLFOM;
 namespace RPG::Client { class WolfBroGunTargetProjectile; }
 namespace System { class String; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE_CTOR_OFFSET UNITYSDK_OFFSET(0xE475F10)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xE475E90)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE_CTOR_OFFSET UNITYSDK_OFFSET(0xEF34DB0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGETACTIONCONFIG_SCATTERFIRE_EINKGFCBAJI_OFFSET UNITYSDK_OFFSET(0xEF34D30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_ScatterFire_TypeDefinitionIndex = 68714;
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_ScatterFire_TypeDefinitionIndex = 70666;
 
 	class WolfBroGunPlayTargetActionConfig_ScatterFire : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{

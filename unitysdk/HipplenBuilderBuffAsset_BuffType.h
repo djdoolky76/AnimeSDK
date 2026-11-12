@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HipplenBuilderBuffAsset_BuffType_TypeDefinitionIndex = 47226;
+inline static constexpr unsigned int HipplenBuilderBuffAsset_BuffType_TypeDefinitionIndex = 48254;
 
 	enum class HipplenBuilderBuffAsset_BuffType : ::System::Int32
 	{

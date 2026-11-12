@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ProcessOpInSkillExecuting; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PROCESSOPINSKILLEXECUTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9427F0)
-#define RPG_GAMECORE_PROCESSOPINSKILLEXECUTING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D942800)
-#define RPG_GAMECORE_PROCESSOPINSKILLEXECUTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9427C0)
+#define RPG_GAMECORE_PROCESSOPINSKILLEXECUTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5B970)
+#define RPG_GAMECORE_PROCESSOPINSKILLEXECUTING_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB5B980)
+#define RPG_GAMECORE_PROCESSOPINSKILLEXECUTING_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB5B940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProcessOpInSkillExecuting_TypeDefinitionIndex = 22482;
+	inline static constexpr unsigned int ProcessOpInSkillExecuting_TypeDefinitionIndex = 22891;
 
 	class ProcessOpInSkillExecuting : public ::RPG::GameCore::TaskConfig
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Behaviour.h"
 
-#define UNITYENGINE_FLARELAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EB500)
+#define UNITYENGINE_FLARELAYER_CTOR_OFFSET UNITYSDK_OFFSET(0x2069C070)
 
 namespace UnityEngine
 {

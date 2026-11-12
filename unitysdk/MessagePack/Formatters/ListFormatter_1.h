@@ -4,7 +4,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ListFormatter_1_TypeDefinitionIndex = 7382;
+	inline static constexpr unsigned int ListFormatter_1_TypeDefinitionIndex = 7393;
 
 	template <typename T>
 	class ListFormatter_1 : public ::System::Object

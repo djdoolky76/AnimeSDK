@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FDRIStateMaskEnum.h"
 #include "unitysdk/System/Object.h"
 
-#define FDRISTATEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x156E44E0)
+#define FDRISTATEOPERATION_CTOR_OFFSET UNITYSDK_OFFSET(0x165FE3E0)
 
-inline static constexpr unsigned int FDRIStateOperation_TypeDefinitionIndex = 47112;
+inline static constexpr unsigned int FDRIStateOperation_TypeDefinitionIndex = 48140;
 
 	class FDRIStateOperation : public ::System::Object
 	{

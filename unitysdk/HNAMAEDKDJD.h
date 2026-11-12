@@ -6,10 +6,10 @@ class EEBDFMJEMBM;
 namespace RPG::Client::PixAir { class PixAirEquipItemChangeInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HNAMAEDKDJD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D8C180)
-#define HNAMAEDKDJD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D8C260)
+#define HNAMAEDKDJD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16D2C760)
+#define HNAMAEDKDJD_CTOR_OFFSET UNITYSDK_OFFSET(0x16D2C840)
 
-inline static constexpr unsigned int HNAMAEDKDJD_TypeDefinitionIndex = 79276;
+inline static constexpr unsigned int HNAMAEDKDJD_TypeDefinitionIndex = 82053;
 
 	class HNAMAEDKDJD : public ::System::Object
 	{

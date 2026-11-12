@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LENOCCCOKBI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0E6620)
-#define LENOCCCOKBI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0E6BA0)
-#define LENOCCCOKBI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0E6790)
-#define LENOCCCOKBI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0E6110)
-#define LENOCCCOKBI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0E63A0)
-#define LENOCCCOKBI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0E6830)
-#define LENOCCCOKBI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0E6880)
-#define LENOCCCOKBI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0E6660)
-#define LENOCCCOKBI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0E6340)
-#define LENOCCCOKBI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0E64D0)
-#define LENOCCCOKBI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0E66F0)
-#define LENOCCCOKBI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0E6090)
+#define LENOCCCOKBI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E2DE910)
+#define LENOCCCOKBI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2DEE90)
+#define LENOCCCOKBI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E2DEA80)
+#define LENOCCCOKBI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E2DE400)
+#define LENOCCCOKBI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E2DE690)
+#define LENOCCCOKBI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E2DEB20)
+#define LENOCCCOKBI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E2DEB70)
+#define LENOCCCOKBI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E2DE950)
+#define LENOCCCOKBI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E2DE630)
+#define LENOCCCOKBI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E2DE7C0)
+#define LENOCCCOKBI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E2DE9E0)
+#define LENOCCCOKBI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E2DE380)
 
-inline static constexpr unsigned int LENOCCCOKBI_TypeDefinitionIndex = 13055;
+inline static constexpr unsigned int LENOCCCOKBI_TypeDefinitionIndex = 13123;
 
 	class LENOCCCOKBI : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0x3C9B0);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0x3C9B8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0x322A0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraGalleryActRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraGalleryActRow*>**)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0x3C9C0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChimeraGalleryActRow*>**)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0x322A8);
 		}
 
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0xCFB0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0x322B0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0xCFB1);
+			return (::System::Boolean*)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0xAA00);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "LENOCCCOKBI")->GetStaticField(0xAA01);
 		}
 
 		static ::System::Void _cctor()

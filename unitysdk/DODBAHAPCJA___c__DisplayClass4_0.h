@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChenLingFesPosition; }
 
-#define DODBAHAPCJA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE02C0)
-#define DODBAHAPCJA___C__DISPLAYCLASS4_0__ISGRIDBLOCKBYTUTORIAL_B__0_OFFSET UNITYSDK_OFFSET(0x11FE09C0)
+#define DODBAHAPCJA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD9970)
+#define DODBAHAPCJA___C__DISPLAYCLASS4_0__ISGRIDBLOCKBYTUTORIAL_B__0_OFFSET UNITYSDK_OFFSET(0x12DDA070)
 
-inline static constexpr unsigned int DODBAHAPCJA___c__DisplayClass4_0_TypeDefinitionIndex = 77763;
+inline static constexpr unsigned int DODBAHAPCJA___c__DisplayClass4_0_TypeDefinitionIndex = 80498;
 
 	class DODBAHAPCJA___c__DisplayClass4_0 : public ::System::Object
 	{

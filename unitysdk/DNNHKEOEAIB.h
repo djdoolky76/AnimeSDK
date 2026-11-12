@@ -7,21 +7,21 @@ namespace System { class Object; }
 namespace System::Collections::Concurrent { template <typename T> class ConcurrentQueue_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DNNHKEOEAIB_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDB7F0)
-#define DNNHKEOEAIB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FDB5C0)
-#define DNNHKEOEAIB_FLGGEJIJGKJ_OFFSET UNITYSDK_OFFSET(0x11FDB6E0)
-#define DNNHKEOEAIB_HOFFFFOKACC_OFFSET UNITYSDK_OFFSET(0x11FDB060)
-#define DNNHKEOEAIB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x11FDAF00)
-#define DNNHKEOEAIB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x11FDADE0)
+#define DNNHKEOEAIB_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD4CD0)
+#define DNNHKEOEAIB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DD4AB0)
+#define DNNHKEOEAIB_FLGGEJIJGKJ_OFFSET UNITYSDK_OFFSET(0x12DD4BC0)
+#define DNNHKEOEAIB_HOFFFFOKACC_OFFSET UNITYSDK_OFFSET(0x12DD4550)
+#define DNNHKEOEAIB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x12DD43F0)
+#define DNNHKEOEAIB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x12DD42D0)
 
-inline static constexpr unsigned int DNNHKEOEAIB_TypeDefinitionIndex = 59827;
+inline static constexpr unsigned int DNNHKEOEAIB_TypeDefinitionIndex = 61108;
 
 	class DNNHKEOEAIB : public ::System::Object
 	{
 	public:
-		::DHADINIAOAA* IFCMENDDFIK; // 0x10
-		::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::System::Byte>*>* CFEEKKNHLEH; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::CloudGraphicsSettingType, ::System::Object*>* KNPDAPNGBFO; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::CloudGraphicsSettingType, ::System::Object*>* KNPDAPNGBFO; // 0x10
+		::DHADINIAOAA* IFCMENDDFIK; // 0x18
+		::System::Collections::Concurrent::ConcurrentQueue_1<::Il2CppArray<::System::Byte>*>* CFEEKKNHLEH; // 0x20
 		::System::Byte DBOEHPLAGHO; // 0x28
 		::System::Void _ctor()
 		{

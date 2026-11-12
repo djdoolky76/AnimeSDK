@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CMFPDCFGOHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13130)
+#define CMFPDCFGOHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBD69B0)
 
-inline static constexpr unsigned int CMFPDCFGOHG_TypeDefinitionIndex = 42275;
+inline static constexpr unsigned int CMFPDCFGOHG_TypeDefinitionIndex = 43250;
 
 	class CMFPDCFGOHG : public ::System::Object
 	{

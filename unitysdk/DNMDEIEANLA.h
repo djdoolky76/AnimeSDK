@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LMFOOOLDECA;
 
-#define DNMDEIEANLA_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD88C0)
-#define DNMDEIEANLA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x11FD88D0)
+#define DNMDEIEANLA_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD1D60)
+#define DNMDEIEANLA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x12DD1D70)
 
-inline static constexpr unsigned int DNMDEIEANLA_TypeDefinitionIndex = 77952;
+inline static constexpr unsigned int DNMDEIEANLA_TypeDefinitionIndex = 80687;
 
 	class DNMDEIEANLA : public ::System::Object
 	{

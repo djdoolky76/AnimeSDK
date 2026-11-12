@@ -6,10 +6,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define KGIBEOCEEFK_CTOR_OFFSET UNITYSDK_OFFSET(0xB3ED790)
-#define KGIBEOCEEFK_EFOKNMPOIPE_OFFSET UNITYSDK_OFFSET(0xB3ED610)
+#define KGIBEOCEEFK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC80650)
+#define KGIBEOCEEFK_EFOKNMPOIPE_OFFSET UNITYSDK_OFFSET(0xBC804D0)
 
-inline static constexpr unsigned int KGIBEOCEEFK_TypeDefinitionIndex = 54288;
+inline static constexpr unsigned int KGIBEOCEEFK_TypeDefinitionIndex = 55452;
 
 	class KGIBEOCEEFK : public ::KIFCLJJAOFJ
 	{

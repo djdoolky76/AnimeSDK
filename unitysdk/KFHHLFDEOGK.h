@@ -6,12 +6,12 @@ namespace RPG::GameCore { class ChronicleCustomShowCondition; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KFHHLFDEOGK_IBBEEFBALIH_OFFSET UNITYSDK_OFFSET(0xB3A3A10)
-#define KFHHLFDEOGK_IBCLLIJNJIB_OFFSET UNITYSDK_OFFSET(0xB3A38A0)
-#define KFHHLFDEOGK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB3A3860)
-#define KFHHLFDEOGK_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xB3A3960)
+#define KFHHLFDEOGK_IBBEEFBALIH_OFFSET UNITYSDK_OFFSET(0xBC306E0)
+#define KFHHLFDEOGK_IBCLLIJNJIB_OFFSET UNITYSDK_OFFSET(0xBC30570)
+#define KFHHLFDEOGK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC30530)
+#define KFHHLFDEOGK_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xBC30630)
 
-inline static constexpr unsigned int KFHHLFDEOGK_TypeDefinitionIndex = 66094;
+inline static constexpr unsigned int KFHHLFDEOGK_TypeDefinitionIndex = 68027;
 
 	class KFHHLFDEOGK : public ::System::Object
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceSplitObjectAnimMap; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCESPLITOBJECTANIMMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D906BA0)
-#define RPG_GAMECORE_PERFORMANCESPLITOBJECTANIMMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D906A70)
+#define RPG_GAMECORE_PERFORMANCESPLITOBJECTANIMMAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB1FFB0)
+#define RPG_GAMECORE_PERFORMANCESPLITOBJECTANIMMAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB1FE80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceSplitObjectAnimMap_TypeDefinitionIndex = 17577;
+	inline static constexpr unsigned int PerformanceSplitObjectAnimMap_TypeDefinitionIndex = 17745;
 
 	class PerformanceSplitObjectAnimMap : public ::RPG::GameCore::JsonConfig
 	{

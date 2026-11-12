@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OJACCBLPEPG_EStationOpenState_TypeDefinitionIndex = 59821;
+inline static constexpr unsigned int OJACCBLPEPG_EStationOpenState_TypeDefinitionIndex = 61101;
 
 	enum class OJACCBLPEPG_EStationOpenState : ::System::Int32
 	{

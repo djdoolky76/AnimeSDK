@@ -6,19 +6,19 @@ namespace RPG::CustomRP { class MaterialLibrary; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC61500)
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1CC616F0)
-#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC615D0)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE089E0)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_INNEREXECUTE_OFFSET UNITYSDK_OFFSET(0x1DE08BD0)
+#define RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DE08AB0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPGSkillRadialBlurRenderer_TypeDefinitionIndex = 37842;
+	inline static constexpr unsigned int RPGSkillRadialBlurRenderer_TypeDefinitionIndex = 38771;
 
 	class RPGSkillRadialBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:
-		::UnityEngine::Material* _Uber; // 0x28
-		::RPG::CustomRP::MRTBinding _RTBinding; // 0x30
+		::RPG::CustomRP::MRTBinding _RTBinding; // 0x28
+		::UnityEngine::Material* _Uber; // 0x80
 		::System::Void _ctor(::RPG::CustomRP::MaterialLibrary* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::CustomRP::MaterialLibrary*))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPGSKILLRADIALBLURRENDERER_CTOR_OFFSET))(this, a1);

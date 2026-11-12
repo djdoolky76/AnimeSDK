@@ -3,10 +3,10 @@
 class ELLIFHOBAEJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NIPNKOJFHAG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC070D0)
-#define NIPNKOJFHAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC07100)
+#define NIPNKOJFHAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC4EA2B0)
+#define NIPNKOJFHAG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4EA2E0)
 
-inline static constexpr unsigned int NIPNKOJFHAG_TypeDefinitionIndex = 53885;
+inline static constexpr unsigned int NIPNKOJFHAG_TypeDefinitionIndex = 55049;
 
 	class NIPNKOJFHAG
 	{

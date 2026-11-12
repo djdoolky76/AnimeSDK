@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowRogueLoadingPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGLLMBLAFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xB18BFC0)
-#define BGLLMBLAFMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB18BFF0)
+#define BGLLMBLAFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB168F0)
+#define BGLLMBLAFMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB16920)
 
-inline static constexpr unsigned int BGLLMBLAFMA_TypeDefinitionIndex = 58685;
+inline static constexpr unsigned int BGLLMBLAFMA_TypeDefinitionIndex = 59952;
 
 	class BGLLMBLAFMA
 	{

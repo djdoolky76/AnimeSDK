@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropServerStateRotation; }
 
-#define RPG_GAMECORE_PROPSERVERSTATEROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D953970)
-#define RPG_GAMECORE_PROPSERVERSTATEROTATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D953930)
+#define RPG_GAMECORE_PROPSERVERSTATEROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6C560)
+#define RPG_GAMECORE_PROPSERVERSTATEROTATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6C520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropServerStateRotation_TypeDefinitionIndex = 20350;
+	inline static constexpr unsigned int PropServerStateRotation_TypeDefinitionIndex = 20685;
 
 	class PropServerStateRotation : public ::RPG::GameCore::JsonConfig
 	{

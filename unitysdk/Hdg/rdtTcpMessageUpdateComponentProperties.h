@@ -11,7 +11,7 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
-	inline static constexpr unsigned int rdtTcpMessageUpdateComponentProperties_TypeDefinitionIndex = 46988;
+	inline static constexpr unsigned int rdtTcpMessageUpdateComponentProperties_TypeDefinitionIndex = 48016;
 
 	struct alignas(8) rdtTcpMessageUpdateComponentProperties
 	{

@@ -13,27 +13,28 @@ namespace RPG::Client { class ChallengeTeamInfo; }
 namespace RPG::Client { class MonsterData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xC974F70)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC979800)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0xC979810)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xC975CB0)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_TRYGETAVATARDATA_OFFSET UNITYSDK_OFFSET(0xC975EC0)
-#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_UPDATEBATTLERESULT_OFFSET UNITYSDK_OFFSET(0xC9761C0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CREATE_OFFSET UNITYSDK_OFFSET(0xD2DA700)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD2DEF90)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_GETAVATARDATALIST_OFFSET UNITYSDK_OFFSET(0xD2DEFA0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_SYNC_OFFSET UNITYSDK_OFFSET(0xD2DB4E0)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_TRYGETAVATARDATA_OFFSET UNITYSDK_OFFSET(0xD2DB700)
+#define RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_UPDATEBATTLERESULT_OFFSET UNITYSDK_OFFSET(0xD2DBA00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengeBossSingleNodeInfo_TypeDefinitionIndex = 63081;
+	inline static constexpr unsigned int ChallengeBossSingleNodeInfo_TypeDefinitionIndex = 64519;
 
 	class ChallengeBossSingleNodeInfo : public ::System::Object
 	{
 	public:
 		::RPG::Client::ChallengeTeamInfo* TeamInfo; // 0x10
 		::RPG::Client::MonsterData* MonsterData; // 0x18
-		::System::UInt32 MaxScore; // 0x20
-		::System::UInt32 BuffID; // 0x24
-		::System::Boolean HasBeenChallenged; // 0x28
-		::System::Boolean HasTeamInfo; // 0x29
-		::System::Boolean IsPass; // 0x2A
+		::System::UInt32 BuffID; // 0x20
+		::System::Boolean HasBeenChallenged; // 0x24
+		::System::Boolean IsPass; // 0x25
+		::System::Boolean HasTeamInfo; // 0x26
+		::System::Byte _padding0[0x1];
+		::System::UInt32 MaxScore; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGEBOSSSINGLENODEINFO_CTOR_OFFSET))(this);

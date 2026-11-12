@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AttackFormulaType_TypeDefinitionIndex = 24735;
+	inline static constexpr unsigned int AttackFormulaType_TypeDefinitionIndex = 25211;
 
 	enum class AttackFormulaType : ::System::Int32
 	{

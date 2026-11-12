@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Rendering/AsyncGPUReadbackRequest.h"
 namespace RPG::CustomRP { class CaptureScene; }
 
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC115C0)
-#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC115D0)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB8720)
+#define RPG_CUSTOMRP_CAPTURESCENE___C__DISPLAYCLASS13_0___CAPTURESCENEOUTPUTCOROUTINE_B__0_OFFSET UNITYSDK_OFFSET(0x1DDB8730)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CaptureScene___c__DisplayClass13_0_TypeDefinitionIndex = 37601;
+	inline static constexpr unsigned int CaptureScene___c__DisplayClass13_0_TypeDefinitionIndex = 38529;
 
 	class CaptureScene___c__DisplayClass13_0 : public ::System::Object
 	{

@@ -4,20 +4,19 @@
 #include "unitysdk/RPG/GameCore/B51RacingStatType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPRESULTVALUEUPTOASTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC723E40)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPRESULTVALUEUPTOASTVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD0851A0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDevelopResultValueUpToastViewModel_TypeDefinitionIndex = 82016;
+	inline static constexpr unsigned int B51RacingCarDevelopResultValueUpToastViewModel_TypeDefinitionIndex = 84797;
 
 	class B51RacingCarDevelopResultValueUpToastViewModel : public ::System::Object
 	{
 	public:
-		::System::UInt32 BoostLevel; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID ResultText; // 0x18
+		::RPG::Client::TextID ResultText; // 0x10
+		::System::UInt32 BoostLevel; // 0x20
+		::RPG::GameCore::B51RacingStatType StatType; // 0x24
 		::System::UInt32 DeltaValue; // 0x28
-		::RPG::GameCore::B51RacingStatType StatType; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDEVELOPRESULTVALUEUPTOASTVIEWMODEL_CTOR_OFFSET))(this);

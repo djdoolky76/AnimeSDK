@@ -4,18 +4,18 @@
 class ENJDEFHFKPI;
 namespace System { class Object; }
 
-#define ENJDEFHFKPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2F2640)
-#define ENJDEFHFKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F2680)
-#define ENJDEFHFKPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2F2690)
+#define ENJDEFHFKPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5D72D0)
+#define ENJDEFHFKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D7310)
+#define ENJDEFHFKPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F5D7320)
 
-inline static constexpr unsigned int ENJDEFHFKPI___c_TypeDefinitionIndex = 28290;
+inline static constexpr unsigned int ENJDEFHFKPI___c_TypeDefinitionIndex = 28880;
 
 	class ENJDEFHFKPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54820);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x508F0);
 		}
 
 		static ::System::Void _cctor()

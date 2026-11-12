@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/RuntimeTypeHandle.h"
 
-#define BHIOFPIHHDL_CTOR_OFFSET UNITYSDK_OFFSET(0xB48CF50)
-#define BHIOFPIHHDL_EQUALS_OFFSET UNITYSDK_OFFSET(0xB48CEA0)
-#define BHIOFPIHHDL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB48CF00)
+#define BHIOFPIHHDL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB45D50)
+#define BHIOFPIHHDL_EQUALS_OFFSET UNITYSDK_OFFSET(0xBB45CA0)
+#define BHIOFPIHHDL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xBB45D00)
 
-inline static constexpr unsigned int BHIOFPIHHDL_TypeDefinitionIndex = 57585;
+inline static constexpr unsigned int BHIOFPIHHDL_TypeDefinitionIndex = 58813;
 
 	class BHIOFPIHHDL : public ::System::Object
 	{

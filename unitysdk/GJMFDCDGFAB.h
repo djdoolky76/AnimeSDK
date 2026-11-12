@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GJMFDCDGFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A6FC70)
-#define GJMFDCDGFAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15A6FBE0)
+#define GJMFDCDGFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x169AC8E0)
+#define GJMFDCDGFAB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x169AC850)
 
-inline static constexpr unsigned int GJMFDCDGFAB_TypeDefinitionIndex = 70495;
+inline static constexpr unsigned int GJMFDCDGFAB_TypeDefinitionIndex = 72470;
 
 	class GJMFDCDGFAB : public ::System::Object
 	{

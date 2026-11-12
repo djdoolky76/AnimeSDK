@@ -9,23 +9,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace UnityEngine { class Collider; }
 
-#define AJJCKLMCOMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12CC1720)
-#define AJJCKLMCOMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC1750)
-#define AJJCKLMCOMM___C___CREATETARGETENTITYFILTER_B__16_0_OFFSET UNITYSDK_OFFSET(0x12CC1760)
+#define AJJCKLMCOMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x12DA0450)
+#define AJJCKLMCOMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA0480)
+#define AJJCKLMCOMM___C___CREATETARGETENTITYFILTER_B__16_0_OFFSET UNITYSDK_OFFSET(0x12DA0490)
 
-inline static constexpr unsigned int AJJCKLMCOMM___c_TypeDefinitionIndex = 77091;
+inline static constexpr unsigned int AJJCKLMCOMM___c_TypeDefinitionIndex = 79425;
 
 	class AJJCKLMCOMM___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_4<::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__16_0()
-		{
-			return (::System::Func_4<::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B150);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B158);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A370);
+		}
+
+		static ::System::Func_4<::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>** StaticGet___9__16_0()
+		{
+			return (::System::Func_4<::AJJCKLMCOMM*, ::System::ValueTuple_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimTriggerTargetType>, ::UnityEngine::Collider*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A378);
 		}
 
 		static ::System::Void _cctor()

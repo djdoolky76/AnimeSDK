@@ -7,15 +7,15 @@ namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 
-#define BONINBGAHOL_CCTOR_OFFSET UNITYSDK_OFFSET(0xC199B60)
-#define BONINBGAHOL_CFBHFIJFIOF_OFFSET UNITYSDK_OFFSET(0xC199A80)
-#define BONINBGAHOL_CTOR_OFFSET UNITYSDK_OFFSET(0xC199B20)
-#define BONINBGAHOL_DGONHBLGKAP_OFFSET UNITYSDK_OFFSET(0xC198FB0)
-#define BONINBGAHOL_DKIJPIIFFHB_OFFSET UNITYSDK_OFFSET(0xC199A20)
-#define BONINBGAHOL_HPDJPBBEJBI_OFFSET UNITYSDK_OFFSET(0xC198D30)
-#define BONINBGAHOL_NNJGFABCOAK_OFFSET UNITYSDK_OFFSET(0xC198F00)
+#define BONINBGAHOL_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB39EA0)
+#define BONINBGAHOL_CFBHFIJFIOF_OFFSET UNITYSDK_OFFSET(0xCB39DC0)
+#define BONINBGAHOL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB39E60)
+#define BONINBGAHOL_DGONHBLGKAP_OFFSET UNITYSDK_OFFSET(0xCB392F0)
+#define BONINBGAHOL_DKIJPIIFFHB_OFFSET UNITYSDK_OFFSET(0xCB39D60)
+#define BONINBGAHOL_HPDJPBBEJBI_OFFSET UNITYSDK_OFFSET(0xCB39070)
+#define BONINBGAHOL_NNJGFABCOAK_OFFSET UNITYSDK_OFFSET(0xCB39240)
 
-inline static constexpr unsigned int BONINBGAHOL_TypeDefinitionIndex = 51887;
+inline static constexpr unsigned int BONINBGAHOL_TypeDefinitionIndex = 52973;
 
 	class BONINBGAHOL : public ::System::Object
 	{
@@ -23,22 +23,22 @@ inline static constexpr unsigned int BONINBGAHOL_TypeDefinitionIndex = 51887;
 		::System::Collections::Generic::List_1<::EKPOLIPHPIK*>* OBFJAJIAEPF; // 0x10
 		static ::System::Comparison_1<::EKPOLIPHPIK*>** StaticGet_ALKBOFECEDE()
 		{
-			return (::System::Comparison_1<::EKPOLIPHPIK*>**)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x2C10);
+			return (::System::Comparison_1<::EKPOLIPHPIK*>**)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x72F60);
 		}
 
 		static ::UnityEngine::Camera** StaticGet_LJDPPOJNJBA()
 		{
-			return (::UnityEngine::Camera**)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x2C18);
+			return (::UnityEngine::Camera**)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x72F68);
 		}
 
 		static ::UnityEngine::Vector3* StaticGet_FLLMOJMLOBL()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x2250);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x15FE0);
 		}
 
 		static ::UnityEngine::Vector3* StaticGet_AGBAEPFJNGK()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x225C);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "BONINBGAHOL")->GetStaticField(0x15FEC);
 		}
 
 		::System::Void _ctor()

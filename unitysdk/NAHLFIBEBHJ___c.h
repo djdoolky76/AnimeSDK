@@ -4,18 +4,18 @@
 class NAHLFIBEBHJ;
 namespace System { class Object; }
 
-#define NAHLFIBEBHJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC4390)
-#define NAHLFIBEBHJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC43D0)
-#define NAHLFIBEBHJ___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EAC43E0)
+#define NAHLFIBEBHJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDFFCB0)
+#define NAHLFIBEBHJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDFFCF0)
+#define NAHLFIBEBHJ___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FDFFD00)
 
-inline static constexpr unsigned int NAHLFIBEBHJ___c_TypeDefinitionIndex = 34326;
+inline static constexpr unsigned int NAHLFIBEBHJ___c_TypeDefinitionIndex = 35254;
 
 	class NAHLFIBEBHJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C7C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66EB0);
 		}
 
 		static ::System::Void _cctor()

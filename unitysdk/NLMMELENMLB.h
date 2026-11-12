@@ -7,22 +7,22 @@ namespace RPG::GameCore { class CreateBattleCharacter; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NLMMELENMLB_AJABCNCOMOH_OFFSET UNITYSDK_OFFSET(0xBC736B0)
-#define NLMMELENMLB_CTOR_OFFSET UNITYSDK_OFFSET(0xBC72BA0)
-#define NLMMELENMLB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC72C40)
-#define NLMMELENMLB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC72C90)
-#define NLMMELENMLB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC739A0)
-#define NLMMELENMLB_TICK_OFFSET UNITYSDK_OFFSET(0xBC739F0)
+#define NLMMELENMLB_AJABCNCOMOH_OFFSET UNITYSDK_OFFSET(0xC55B430)
+#define NLMMELENMLB_CTOR_OFFSET UNITYSDK_OFFSET(0xC55A560)
+#define NLMMELENMLB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC55A600)
+#define NLMMELENMLB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC55A650)
+#define NLMMELENMLB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC55B720)
+#define NLMMELENMLB_TICK_OFFSET UNITYSDK_OFFSET(0xC55B770)
 
-inline static constexpr unsigned int NLMMELENMLB_TypeDefinitionIndex = 54977;
+inline static constexpr unsigned int NLMMELENMLB_TypeDefinitionIndex = 56151;
 
 	class NLMMELENMLB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CreateBattleCharacter* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::KFELGAIGHAP* KLCAHFOFIHC; // 0x28
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x30
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::KFELGAIGHAP* KLCAHFOFIHC; // 0x20
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x28
+		::RPG::GameCore::CreateBattleCharacter* OFKGLJOAMLD; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateBattleCharacter* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CreateBattleCharacter*))((::PBYTE)hIl2Cpp + NLMMELENMLB_CTOR_OFFSET))(this, a1, a2);

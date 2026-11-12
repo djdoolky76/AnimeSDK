@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSkillUsageLimit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CMCOPFPANJC_CTOR_OFFSET UNITYSDK_OFFSET(0xDA27CD0)
-#define CMCOPFPANJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA27D00)
+#define CMCOPFPANJC_CTOR_OFFSET UNITYSDK_OFFSET(0xE366C60)
+#define CMCOPFPANJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE366C90)
 
-inline static constexpr unsigned int CMCOPFPANJC_TypeDefinitionIndex = 54567;
+inline static constexpr unsigned int CMCOPFPANJC_TypeDefinitionIndex = 55732;
 
 	class CMCOPFPANJC
 	{

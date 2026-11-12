@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HoyoTagInfo; }
 namespace RPG::GameCore { class HoyoTagNodeInfo; }
 
-#define RPG_GAMECORE_HOYOTAGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7732F0)
-#define RPG_GAMECORE_HOYOTAGINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D773230)
+#define RPG_GAMECORE_HOYOTAGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E986A30)
+#define RPG_GAMECORE_HOYOTAGINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E986970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HoyoTagInfo_TypeDefinitionIndex = 18317;
+	inline static constexpr unsigned int HoyoTagInfo_TypeDefinitionIndex = 18479;
 
 	class HoyoTagInfo : public ::RPG::GameCore::JsonConfig
 	{

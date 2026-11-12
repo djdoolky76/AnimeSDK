@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StepOnPoseConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STEPONPOSECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB24300)
-#define RPG_GAMECORE_STEPONPOSECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB24050)
+#define RPG_GAMECORE_STEPONPOSECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED35BB0)
+#define RPG_GAMECORE_STEPONPOSECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED35900)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StepOnPoseConfig_TypeDefinitionIndex = 16404;
+	inline static constexpr unsigned int StepOnPoseConfig_TypeDefinitionIndex = 16568;
 
 	class StepOnPoseConfig : public ::RPG::GameCore::JsonConfig
 	{

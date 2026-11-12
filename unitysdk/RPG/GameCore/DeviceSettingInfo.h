@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DeviceSettingInfo; }
 namespace RPG::GameCore { class FrameTimeBudgetInfo; }
 namespace RPG::GameCore { class GameObjectPoolSetting; }
 
-#define RPG_GAMECORE_DEVICESETTINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6009C0)
-#define RPG_GAMECORE_DEVICESETTINGINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6007C0)
+#define RPG_GAMECORE_DEVICESETTINGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E813C20)
+#define RPG_GAMECORE_DEVICESETTINGINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E813A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DeviceSettingInfo_TypeDefinitionIndex = 16465;
+	inline static constexpr unsigned int DeviceSettingInfo_TypeDefinitionIndex = 16629;
 
 	class DeviceSettingInfo : public ::RPG::GameCore::JsonConfig
 	{

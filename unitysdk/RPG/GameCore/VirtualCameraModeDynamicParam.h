@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwipeRotationCameraParam; }
 namespace RPG::GameCore { class VirtualCameraModeDynamicParam; }
 
-#define RPG_GAMECORE_VIRTUALCAMERAMODEDYNAMICPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC903F0)
-#define RPG_GAMECORE_VIRTUALCAMERAMODEDYNAMICPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC902E0)
+#define RPG_GAMECORE_VIRTUALCAMERAMODEDYNAMICPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA2AD0)
+#define RPG_GAMECORE_VIRTUALCAMERAMODEDYNAMICPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEA29C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VirtualCameraModeDynamicParam_TypeDefinitionIndex = 20829;
+	inline static constexpr unsigned int VirtualCameraModeDynamicParam_TypeDefinitionIndex = 21166;
 
 	class VirtualCameraModeDynamicParam : public ::RPG::GameCore::JsonConfig
 	{

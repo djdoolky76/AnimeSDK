@@ -4,7 +4,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftPoseAdjuster_PosePointInfo_TypeDefinitionIndex = 79973;
+	inline static constexpr unsigned int MechCraftPoseAdjuster_PosePointInfo_TypeDefinitionIndex = 82750;
 
 	struct alignas(8) MechCraftPoseAdjuster_PosePointInfo
 	{

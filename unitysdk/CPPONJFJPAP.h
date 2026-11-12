@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyAdventureCharacterRunSpeedRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CPPONJFJPAP_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDDCD0)
-#define CPPONJFJPAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCDDD00)
+#define CPPONJFJPAP_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F2310)
+#define CPPONJFJPAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE8F2340)
 
-inline static constexpr unsigned int CPPONJFJPAP_TypeDefinitionIndex = 53023;
+inline static constexpr unsigned int CPPONJFJPAP_TypeDefinitionIndex = 54183;
 
 	class CPPONJFJPAP
 	{

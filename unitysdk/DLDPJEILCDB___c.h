@@ -4,18 +4,18 @@
 class DLDPJEILCDB;
 namespace System { class Object; }
 
-#define DLDPJEILCDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1E3E60)
-#define DLDPJEILCDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E3EA0)
-#define DLDPJEILCDB___C___CCTOR_B__103_0_OFFSET UNITYSDK_OFFSET(0x1E1E3EB0)
+#define DLDPJEILCDB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4C0340)
+#define DLDPJEILCDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4C0380)
+#define DLDPJEILCDB___C___CCTOR_B__103_0_OFFSET UNITYSDK_OFFSET(0x1F4C0390)
 
-inline static constexpr unsigned int DLDPJEILCDB___c_TypeDefinitionIndex = 27689;
+inline static constexpr unsigned int DLDPJEILCDB___c_TypeDefinitionIndex = 28220;
 
 	class DLDPJEILCDB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CD70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38D00);
 		}
 
 		static ::System::Void _cctor()

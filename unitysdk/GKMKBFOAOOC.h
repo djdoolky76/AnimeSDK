@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapPartOwnerEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GKMKBFOAOOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA2A40)
-#define GKMKBFOAOOC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15AA2A60)
+#define GKMKBFOAOOC_CTOR_OFFSET UNITYSDK_OFFSET(0x169DF740)
+#define GKMKBFOAOOC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x169DF760)
 
-inline static constexpr unsigned int GKMKBFOAOOC_TypeDefinitionIndex = 59141;
+inline static constexpr unsigned int GKMKBFOAOOC_TypeDefinitionIndex = 60417;
 
 	class GKMKBFOAOOC
 	{

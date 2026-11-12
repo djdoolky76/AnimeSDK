@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerGroupEvent; }
 
-#define KCPGJIADFGE_CTOR_OFFSET UNITYSDK_OFFSET(0xB346130)
-#define KCPGJIADFGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB346160)
+#define KCPGJIADFGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBBCFCF0)
+#define KCPGJIADFGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBCFD20)
 
-inline static constexpr unsigned int KCPGJIADFGE_TypeDefinitionIndex = 52529;
+inline static constexpr unsigned int KCPGJIADFGE_TypeDefinitionIndex = 53635;
 
 	class KCPGJIADFGE
 	{

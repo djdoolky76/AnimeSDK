@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class BMFJFABKKFE;
 
-#define KOEJPJACFDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71D990)
+#define KOEJPJACFDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89F310)
 
-inline static constexpr unsigned int KOEJPJACFDD_TypeDefinitionIndex = 37175;
+inline static constexpr unsigned int KOEJPJACFDD_TypeDefinitionIndex = 38103;
 
 	class KOEJPJACFDD : public ::System::Object
 	{

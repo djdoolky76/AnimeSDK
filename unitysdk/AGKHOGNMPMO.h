@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AGKHOGNMPMO_TypeDefinitionIndex = 49249;
+inline static constexpr unsigned int AGKHOGNMPMO_TypeDefinitionIndex = 50325;
 
 	class AGKHOGNMPMO
 	{

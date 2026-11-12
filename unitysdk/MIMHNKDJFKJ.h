@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByShowChallengeSelectPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MIMHNKDJFKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB95F3A0)
-#define MIMHNKDJFKJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB95F3D0)
+#define MIMHNKDJFKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC2153E0)
+#define MIMHNKDJFKJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC215410)
 
-inline static constexpr unsigned int MIMHNKDJFKJ_TypeDefinitionIndex = 52607;
+inline static constexpr unsigned int MIMHNKDJFKJ_TypeDefinitionIndex = 53714;
 
 	class MIMHNKDJFKJ
 	{

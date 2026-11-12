@@ -3,21 +3,21 @@
 #include "unitysdk/MiHoYo/SDK/PluginUI/MiHoYoSDKUIContainer.h"
 namespace MiHoYo::SDK::PluginUI { class HoYoSDKCommonLoading; }
 
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_CTOR_OFFSET UNITYSDK_OFFSET(0xB0195E0)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB019530)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_ONCLOSE_OFFSET UNITYSDK_OFFSET(0xB019720)
-#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_ONSHOW_OFFSET UNITYSDK_OFFSET(0xB019660)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_CTOR_OFFSET UNITYSDK_OFFSET(0xB67A9B0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_INSTANCE_OFFSET UNITYSDK_OFFSET(0xB67A900)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_ONCLOSE_OFFSET UNITYSDK_OFFSET(0xB67AAF0)
+#define MIHOYO_SDK_PLUGINUI_HOYOSDKCOMMONLOADING_ONSHOW_OFFSET UNITYSDK_OFFSET(0xB67AA30)
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int HoYoSDKCommonLoading_TypeDefinitionIndex = 46747;
+	inline static constexpr unsigned int HoYoSDKCommonLoading_TypeDefinitionIndex = 47775;
 
 	class HoYoSDKCommonLoading : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:
 		static ::MiHoYo::SDK::PluginUI::HoYoSDKCommonLoading** StaticGet__instance()
 		{
-			return (::MiHoYo::SDK::PluginUI::HoYoSDKCommonLoading**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "HoYoSDKCommonLoading")->GetStaticField(0x307F0);
+			return (::MiHoYo::SDK::PluginUI::HoYoSDKCommonLoading**)UnitySDK::FromName("MiHoYo.SDK.PluginUI", "HoYoSDKCommonLoading")->GetStaticField(0x28970);
 		}
 
 		::System::Void _ctor()

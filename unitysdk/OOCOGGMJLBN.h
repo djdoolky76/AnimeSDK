@@ -1,20 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/GameCore/SingleBlockUIStyle.h"
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 class FCOEMCEDLNL;
 class OOCOGGMJLBN;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define OOCOGGMJLBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A8600)
-#define OOCOGGMJLBN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2A8610)
-#define OOCOGGMJLBN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2A85D0)
+#define OOCOGGMJLBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4B1B40)
+#define OOCOGGMJLBN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4B1B50)
+#define OOCOGGMJLBN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4B1B10)
 
-inline static constexpr unsigned int OOCOGGMJLBN_TypeDefinitionIndex = 23604;
+inline static constexpr unsigned int OOCOGGMJLBN_TypeDefinitionIndex = 24051;
 
 	class OOCOGGMJLBN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicFloat* MCNPMDPMCKM; // 0x18
+		::RPG::GameCore::SingleBlockUIStyle PPDLJLBALGE; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OOCOGGMJLBN_CTOR_OFFSET))(this);

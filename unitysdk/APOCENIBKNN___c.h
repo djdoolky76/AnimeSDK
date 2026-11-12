@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int APOCENIBKNN___c_TypeDefinitionIndex = 50004;
+inline static constexpr unsigned int APOCENIBKNN___c_TypeDefinitionIndex = 51052;
 
 	class APOCENIBKNN___c : public ::System::Object
 	{

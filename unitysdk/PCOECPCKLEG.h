@@ -10,23 +10,23 @@ namespace RPG::GameCore { class CakeRaceBuffConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PCOECPCKLEG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C7E7F20)
-#define PCOECPCKLEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EB5D0)
-#define PCOECPCKLEG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C7E8850)
-#define PCOECPCKLEG_HKPPLGIMBJF_OFFSET UNITYSDK_OFFSET(0x1C7CAEC0)
-#define PCOECPCKLEG_IFOOEPKGGAG_OFFSET UNITYSDK_OFFSET(0x1C7EB770)
-#define PCOECPCKLEG_JOENLGFDJAM_OFFSET UNITYSDK_OFFSET(0x1C7EBBF0)
-#define PCOECPCKLEG_LHECDBHFABB_OFFSET UNITYSDK_OFFSET(0x1C7EBCA0)
-#define PCOECPCKLEG_PIONJPDIBNG_OFFSET UNITYSDK_OFFSET(0x1C7EB6C0)
+#define PCOECPCKLEG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1D9698D0)
+#define PCOECPCKLEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96CF60)
+#define PCOECPCKLEG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D96A1F0)
+#define PCOECPCKLEG_HKPPLGIMBJF_OFFSET UNITYSDK_OFFSET(0x1D94C750)
+#define PCOECPCKLEG_IFOOEPKGGAG_OFFSET UNITYSDK_OFFSET(0x1D96D100)
+#define PCOECPCKLEG_JOENLGFDJAM_OFFSET UNITYSDK_OFFSET(0x1D96D580)
+#define PCOECPCKLEG_LHECDBHFABB_OFFSET UNITYSDK_OFFSET(0x1D96D630)
+#define PCOECPCKLEG_PIONJPDIBNG_OFFSET UNITYSDK_OFFSET(0x1D96D050)
 
-inline static constexpr unsigned int PCOECPCKLEG_TypeDefinitionIndex = 37287;
+inline static constexpr unsigned int PCOECPCKLEG_TypeDefinitionIndex = 38215;
 
 	class PCOECPCKLEG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::ENDEAPMHAOI*>*>* MGLAMPIIONC; // 0x10
-		::PBGNKMMDBGD* PDENFEFCAGN; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* BJBKBDJFBMB; // 0x20
+		::PBGNKMMDBGD* PDENFEFCAGN; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* BJBKBDJFBMB; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::ENDEAPMHAOI*>*>* MGLAMPIIONC; // 0x20
 		::System::Void _ctor(::PBGNKMMDBGD* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::PBGNKMMDBGD*))((::PBYTE)hIl2Cpp + PCOECPCKLEG_CTOR_OFFSET))(this, a1);

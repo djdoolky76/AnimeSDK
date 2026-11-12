@@ -6,65 +6,65 @@ namespace Entitas { class IEntity; }
 namespace RPG::Client::LittleGame::Ability { template <typename T> class ILittleGameAbilityValueGetter_1; }
 namespace System { class Object; }
 
-#define LMBHBNPPLEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB77A3E0)
-#define LMBHBNPPLEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB77A420)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_0_OFFSET UNITYSDK_OFFSET(0xB77A430)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_1_OFFSET UNITYSDK_OFFSET(0xB77A470)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_2_OFFSET UNITYSDK_OFFSET(0xB77A4B0)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_3_OFFSET UNITYSDK_OFFSET(0xB77A4F0)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_4_OFFSET UNITYSDK_OFFSET(0xB77A530)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_5_OFFSET UNITYSDK_OFFSET(0xB77A570)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_6_OFFSET UNITYSDK_OFFSET(0xB77A5B0)
-#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_7_OFFSET UNITYSDK_OFFSET(0xB77A5F0)
+#define LMBHBNPPLEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC01A470)
+#define LMBHBNPPLEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC01A4B0)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_0_OFFSET UNITYSDK_OFFSET(0xC01A4C0)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_1_OFFSET UNITYSDK_OFFSET(0xC01A500)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_2_OFFSET UNITYSDK_OFFSET(0xC01A540)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_3_OFFSET UNITYSDK_OFFSET(0xC01A580)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_4_OFFSET UNITYSDK_OFFSET(0xC01A5C0)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_5_OFFSET UNITYSDK_OFFSET(0xC01A600)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_6_OFFSET UNITYSDK_OFFSET(0xC01A640)
+#define LMBHBNPPLEL___C___INITDEFAULTMAPPINGS_B__2_7_OFFSET UNITYSDK_OFFSET(0xC01A680)
 
-inline static constexpr unsigned int LMBHBNPPLEL___c_TypeDefinitionIndex = 77392;
+inline static constexpr unsigned int LMBHBNPPLEL___c_TypeDefinitionIndex = 79726;
 
 	class LMBHBNPPLEL___c : public ::System::Object
 	{
 	public:
-		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_7()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66530);
-		}
-
-		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_3()
-		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66538);
-		}
-
-		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_0()
-		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66540);
-		}
-
-		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_4()
-		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66548);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69830);
 		}
 
 		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_5()
 		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66550);
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69838);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_4()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66558);
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69840);
 		}
 
 		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_2()
 		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66560);
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69848);
+		}
+
+		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_0()
+		{
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69850);
 		}
 
 		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_1()
 		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66568);
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69858);
+		}
+
+		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_7()
+		{
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69860);
 		}
 
 		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_6()
 		{
-			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66570);
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69868);
+		}
+
+		static ::LMBHBNPPLEL_FCPFNOMEOKE** StaticGet___9__2_3()
+		{
+			return (::LMBHBNPPLEL_FCPFNOMEOKE**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69870);
 		}
 
 		static ::System::Void _cctor()

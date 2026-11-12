@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class PEJDKHGMKPE;
 
-inline static constexpr unsigned int PEJDKHGMKPE_MJPJHHDPMJG_TypeDefinitionIndex = 50018;
+inline static constexpr unsigned int PEJDKHGMKPE_MJPJHHDPMJG_TypeDefinitionIndex = 51066;
 
 	class PEJDKHGMKPE_MJPJHHDPMJG : public ::System::Object
 	{

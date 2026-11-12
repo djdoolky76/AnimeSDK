@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RndOptionGroupRow; }
 
-#define RPG_GAMECORE_RNDOPTIONGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99C2F0)
-#define RPG_GAMECORE_RNDOPTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D99C1C0)
+#define RPG_GAMECORE_RNDOPTIONGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE5370)
+#define RPG_GAMECORE_RNDOPTIONGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBE5240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RndOptionGroupRow_TypeDefinitionIndex = 14662;
+	inline static constexpr unsigned int RndOptionGroupRow_TypeDefinitionIndex = 14818;
 
 	class RndOptionGroupRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RndGroupType ID; // 0x10
-		::System::UInt32 OptionCount; // 0x14
+		::System::UInt32 OptionCount; // 0x10
+		::RPG::GameCore::RndGroupType ID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RNDOPTIONGROUPROW_CTOR_OFFSET))(this);

@@ -6,24 +6,24 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::EventSystems { class PointerEventData; }
 
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE1280)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BFE1810)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BFE18A0)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BFE1900)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BFE18B0)
-#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BFE1800)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_CTOR_OFFSET UNITYSDK_OFFSET(0x1D168390)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D1688A0)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D168910)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D168970)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D168920)
+#define MIHOYO_SDK_STATICICON__DELAYEDACTION_D__19_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D168890)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int StaticIcon__DelayedAction_d__19_TypeDefinitionIndex = 8016;
+	inline static constexpr unsigned int StaticIcon__DelayedAction_d__19_TypeDefinitionIndex = 8025;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19>
 	class StaticIcon__DelayedAction_d__19 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::StaticIcon* __4__this; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* action; // 0x20
+		::System::Object* __2__current; // 0x10
+		::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* action; // 0x18
+		::MiHoYo::SDK::StaticIcon* __4__this; // 0x20
 		::UnityEngine::EventSystems::PointerEventData* eventData; // 0x28
 		::System::Int32 __1__state; // 0x30
 		::System::Void _ctor(::System::Int32 a1)

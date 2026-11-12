@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreloadGroupType_TypeDefinitionIndex = 16370;
+	inline static constexpr unsigned int PreloadGroupType_TypeDefinitionIndex = 16534;
 
 	enum class PreloadGroupType : ::System::Int32
 	{

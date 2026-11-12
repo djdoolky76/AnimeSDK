@@ -7,13 +7,13 @@ class DHOKPKHPKCH;
 class GGJBEDDBAJH;
 namespace RPG::Client { class MatchThreeBoard; }
 
-#define GGJBEDDBAJH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15A07940)
-#define GGJBEDDBAJH_CTOR_OFFSET UNITYSDK_OFFSET(0x15A07F30)
-#define GGJBEDDBAJH_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x15A07EE0)
-#define GGJBEDDBAJH_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x15A079D0)
-#define GGJBEDDBAJH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15A07A60)
+#define GGJBEDDBAJH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16941E50)
+#define GGJBEDDBAJH_CTOR_OFFSET UNITYSDK_OFFSET(0x16942440)
+#define GGJBEDDBAJH_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0x169423F0)
+#define GGJBEDDBAJH_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x16941EE0)
+#define GGJBEDDBAJH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16941F70)
 
-inline static constexpr unsigned int GGJBEDDBAJH_TypeDefinitionIndex = 65863;
+inline static constexpr unsigned int GGJBEDDBAJH_TypeDefinitionIndex = 67795;
 
 	class GGJBEDDBAJH : public ::FNIDIOCNBBI
 	{
@@ -23,8 +23,8 @@ inline static constexpr unsigned int GGJBEDDBAJH_TypeDefinitionIndex = 65863;
 		::System::Boolean AELFMDGFAIK; // 0x31
 		::System::Byte _padding0[0x2];
 		::UnityEngine::Vector2 ICGKFDEILKA; // 0x34
-		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x3C
-		::System::UInt32 IGDOFKLAILH; // 0x40
+		::System::UInt32 IGDOFKLAILH; // 0x3C
+		::RPG::Client::LittleGame::Match3::OpponentRole BDPIMPJOJBK; // 0x40
 		// static const ::System::Object JCENJMALKBB; // 0x0
 		// static const ::System::Object KMINGMBCIBI; // 0x0
 		::System::Void _ctor()

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MainMissionPerformanceIndexConfig; }
 
-#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FB7F0)
-#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7FB730)
+#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3E310)
+#define RPG_GAMECORE_MAINMISSIONPERFORMANCEINDEXCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA3E250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainMissionPerformanceIndexConfig_TypeDefinitionIndex = 19030;
+	inline static constexpr unsigned int MainMissionPerformanceIndexConfig_TypeDefinitionIndex = 19217;
 
 	class MainMissionPerformanceIndexConfig : public ::RPG::GameCore::JsonConfig
 	{

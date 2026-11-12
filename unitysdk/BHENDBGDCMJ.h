@@ -7,11 +7,11 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelEventTargetsSelectorConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define BHENDBGDCMJ_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xB474CF0)
-#define BHENDBGDCMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB475230)
-#define BHENDBGDCMJ_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xB474DB0)
+#define BHENDBGDCMJ_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xBB2D200)
+#define BHENDBGDCMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB2D740)
+#define BHENDBGDCMJ_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xBB2D2C0)
 
-inline static constexpr unsigned int BHENDBGDCMJ_TypeDefinitionIndex = 77528;
+inline static constexpr unsigned int BHENDBGDCMJ_TypeDefinitionIndex = 80263;
 
 	class BHENDBGDCMJ : public ::System::Object
 	{

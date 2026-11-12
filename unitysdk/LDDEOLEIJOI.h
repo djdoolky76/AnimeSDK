@@ -12,21 +12,21 @@ namespace RPG::GameCore { class CakeRaceAbilityConfig; }
 namespace RPG::GameCore { class CakeRaceActionAddBuff; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define LDDEOLEIJOI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C70BDB0)
-#define LDDEOLEIJOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C739180)
-#define LDDEOLEIJOI_EJCDCBDCDBC_OFFSET UNITYSDK_OFFSET(0x1C7392F0)
-#define LDDEOLEIJOI_IHGHLKKBAHI_OFFSET UNITYSDK_OFFSET(0x1C739410)
-#define LDDEOLEIJOI_PMIMAILJLAF_OFFSET UNITYSDK_OFFSET(0x1C739460)
+#define LDDEOLEIJOI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1D88D790)
+#define LDDEOLEIJOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BAB10)
+#define LDDEOLEIJOI_EJCDCBDCDBC_OFFSET UNITYSDK_OFFSET(0x1D8BAC80)
+#define LDDEOLEIJOI_IHGHLKKBAHI_OFFSET UNITYSDK_OFFSET(0x1D8BADA0)
+#define LDDEOLEIJOI_PMIMAILJLAF_OFFSET UNITYSDK_OFFSET(0x1D8BADF0)
 
-inline static constexpr unsigned int LDDEOLEIJOI_TypeDefinitionIndex = 37363;
+inline static constexpr unsigned int LDDEOLEIJOI_TypeDefinitionIndex = 38291;
 
 	class LDDEOLEIJOI : public ::KIGLHBEPNOG
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::IFBFJDCECML*>* PDHLGICHLKD; // 0x58
-		::AJFCABOOKCA* EMDEOIKJLMJ; // 0x60
-		::RPG::GameCore::CakeRaceActionAddBuff* HJAHGGHDMOA; // 0x68
-		::LMIOHCMPBJB* LMDHPABCOAB; // 0x70
+		::LMIOHCMPBJB* LMDHPABCOAB; // 0x58
+		::RPG::GameCore::CakeRaceActionAddBuff* HJAHGGHDMOA; // 0x60
+		::AJFCABOOKCA* EMDEOIKJLMJ; // 0x68
+		::System::Collections::Generic::IReadOnlyList_1<::IFBFJDCECML*>* PDHLGICHLKD; // 0x70
 		::System::Void _ctor(::IFBFJDCECML* a1, ::RPG::GameCore::CakeRaceAbilityConfig* a2, ::PBGNKMMDBGD* a3, ::LBGIDBFBHEF* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::IFBFJDCECML*, ::RPG::GameCore::CakeRaceAbilityConfig*, ::PBGNKMMDBGD*, ::LBGIDBFBHEF*))((::PBYTE)hIl2Cpp + LDDEOLEIJOI_CTOR_OFFSET))(this, a1, a2, a3, a4);

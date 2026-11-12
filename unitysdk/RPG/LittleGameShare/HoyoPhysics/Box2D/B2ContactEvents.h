@@ -6,7 +6,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ContactEvents_TypeDefinitionIndex = 36625;
+	inline static constexpr unsigned int B2ContactEvents_TypeDefinitionIndex = 37553;
 
 	struct alignas(8) B2ContactEvents
 	{

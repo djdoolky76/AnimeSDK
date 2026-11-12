@@ -6,29 +6,29 @@ class LHGAEBPLFFK;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JKHPCAILNPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C569790)
-#define JKHPCAILNPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5697D0)
-#define JKHPCAILNPD___C___REFRESHFULLLINEBUFFEFFECT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1C5697E0)
-#define JKHPCAILNPD___C___REFRESHFULLLINEBUFFEFFECT_B__26_1_OFFSET UNITYSDK_OFFSET(0x1C569850)
+#define JKHPCAILNPD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6EB130)
+#define JKHPCAILNPD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EB170)
+#define JKHPCAILNPD___C___REFRESHFULLLINEBUFFEFFECT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1D6EB180)
+#define JKHPCAILNPD___C___REFRESHFULLLINEBUFFEFFECT_B__26_1_OFFSET UNITYSDK_OFFSET(0x1D6EB1F0)
 
-inline static constexpr unsigned int JKHPCAILNPD___c_TypeDefinitionIndex = 41754;
+inline static constexpr unsigned int JKHPCAILNPD___c_TypeDefinitionIndex = 42729;
 
 	class JKHPCAILNPD___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::AGFFMOLFPEF*, ::System::Boolean>** StaticGet___9__26_1()
-		{
-			return (::System::Func_2<::AGFFMOLFPEF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18210);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18218);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x103C0);
 		}
 
 		static ::System::Func_2<::LHGAEBPLFFK*, ::AGFFMOLFPEF*>** StaticGet___9__26_0()
 		{
-			return (::System::Func_2<::LHGAEBPLFFK*, ::AGFFMOLFPEF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18220);
+			return (::System::Func_2<::LHGAEBPLFFK*, ::AGFFMOLFPEF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x103C8);
+		}
+
+		static ::System::Func_2<::AGFFMOLFPEF*, ::System::Boolean>** StaticGet___9__26_1()
+		{
+			return (::System::Func_2<::AGFFMOLFPEF*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x103D0);
 		}
 
 		static ::System::Void _cctor()

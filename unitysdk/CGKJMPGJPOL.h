@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetCameraAxis; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGKJMPGJPOL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8B180)
-#define CGKJMPGJPOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC8B1B0)
+#define CGKJMPGJPOL_CTOR_OFFSET UNITYSDK_OFFSET(0xD638E50)
+#define CGKJMPGJPOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD638E80)
 
-inline static constexpr unsigned int CGKJMPGJPOL_TypeDefinitionIndex = 55315;
+inline static constexpr unsigned int CGKJMPGJPOL_TypeDefinitionIndex = 56497;
 
 	class CGKJMPGJPOL
 	{

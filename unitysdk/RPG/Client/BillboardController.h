@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_BILLBOARDCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xC884330)
+#define RPG_CLIENT_BILLBOARDCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0xD1E9A50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardController_TypeDefinitionIndex = 70780;
+	inline static constexpr unsigned int BillboardController_TypeDefinitionIndex = 72759;
 
 	class BillboardController
 	{

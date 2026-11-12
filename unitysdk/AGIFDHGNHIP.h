@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class ChenLingFesAbilityConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGIFDHGNHIP_CTOR_OFFSET UNITYSDK_OFFSET(0xCF330A0)
-#define AGIFDHGNHIP_GET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xCF330B0)
-#define AGIFDHGNHIP_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xCF330C0)
+#define AGIFDHGNHIP_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E9FB0)
+#define AGIFDHGNHIP_GET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xD5E9FC0)
+#define AGIFDHGNHIP_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0xD5E9FD0)
 
-inline static constexpr unsigned int AGIFDHGNHIP_TypeDefinitionIndex = 77710;
+inline static constexpr unsigned int AGIFDHGNHIP_TypeDefinitionIndex = 80445;
 
 	class AGIFDHGNHIP : public ::System::Object
 	{

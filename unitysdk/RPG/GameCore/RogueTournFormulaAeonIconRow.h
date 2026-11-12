@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueTournFormulaAeonIconRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA39630)
-#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DA39450)
+#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4B8B0)
+#define RPG_GAMECORE_ROGUETOURNFORMULAAEONICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC4B6D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueTournFormulaAeonIconRow_TypeDefinitionIndex = 15009;
+	inline static constexpr unsigned int RogueTournFormulaAeonIconRow_TypeDefinitionIndex = 15165;
 
 	class RogueTournFormulaAeonIconRow : public ::System::Object
 	{

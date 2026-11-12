@@ -6,19 +6,19 @@ class FJEOAPBLMKG;
 namespace RPG::GameCore { class AvatarOutfitModelConfig; }
 namespace RPG::GameCore { class PlayerOutfitDetailRow; }
 
-#define FJEOAPBLMKG_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x157C3410)
-#define FJEOAPBLMKG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x157C32E0)
-#define FJEOAPBLMKG_CTOR_OFFSET UNITYSDK_OFFSET(0x157C3400)
-#define FJEOAPBLMKG_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x157C32D0)
-#define FJEOAPBLMKG_GET_ID_OFFSET UNITYSDK_OFFSET(0x157C32C0)
+#define FJEOAPBLMKG_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x166E59A0)
+#define FJEOAPBLMKG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x166E5870)
+#define FJEOAPBLMKG_CTOR_OFFSET UNITYSDK_OFFSET(0x166E5990)
+#define FJEOAPBLMKG_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x166E5860)
+#define FJEOAPBLMKG_GET_ID_OFFSET UNITYSDK_OFFSET(0x166E5850)
 
-inline static constexpr unsigned int FJEOAPBLMKG_TypeDefinitionIndex = 62500;
+inline static constexpr unsigned int FJEOAPBLMKG_TypeDefinitionIndex = 63913;
 
 	class FJEOAPBLMKG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarOutfitModelConfig* _Config_k__BackingField; // 0x10
-		::RPG::GameCore::PlayerOutfitDetailRow* POBMBPIIJND; // 0x18
+		::RPG::GameCore::PlayerOutfitDetailRow* POBMBPIIJND; // 0x10
+		::RPG::GameCore::AvatarOutfitModelConfig* _Config_k__BackingField; // 0x18
 		::System::UInt32 _ID_k__BackingField; // 0x20
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::GameCore::AvatarOutfitModelConfig* a2)
 		{

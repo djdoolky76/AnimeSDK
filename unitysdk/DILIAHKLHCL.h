@@ -5,21 +5,21 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class ShowFantasticStoryBattleResultPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DILIAHKLHCL_CTOR_OFFSET UNITYSDK_OFFSET(0xF2136F0)
-#define DILIAHKLHCL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF213700)
-#define DILIAHKLHCL_NOOGKPDBCCC_OFFSET UNITYSDK_OFFSET(0xF213790)
-#define DILIAHKLHCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF213740)
-#define DILIAHKLHCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF213910)
-#define DILIAHKLHCL_TICK_OFFSET UNITYSDK_OFFSET(0xF213960)
+#define DILIAHKLHCL_CTOR_OFFSET UNITYSDK_OFFSET(0xF979630)
+#define DILIAHKLHCL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF979640)
+#define DILIAHKLHCL_NOOGKPDBCCC_OFFSET UNITYSDK_OFFSET(0xF9796D0)
+#define DILIAHKLHCL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF979680)
+#define DILIAHKLHCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF979800)
+#define DILIAHKLHCL_TICK_OFFSET UNITYSDK_OFFSET(0xF979850)
 
-inline static constexpr unsigned int DILIAHKLHCL_TypeDefinitionIndex = 58647;
+inline static constexpr unsigned int DILIAHKLHCL_TypeDefinitionIndex = 59914;
 
 	class DILIAHKLHCL : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowFantasticStoryBattleResultPage* OFKGLJOAMLD; // 0x20
-		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x28
+		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x20
+		::RPG::GameCore::ShowFantasticStoryBattleResultPage* OFKGLJOAMLD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowFantasticStoryBattleResultPage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowFantasticStoryBattleResultPage*))((::PBYTE)hIl2Cpp + DILIAHKLHCL_CTOR_OFFSET))(this, a1, a2);

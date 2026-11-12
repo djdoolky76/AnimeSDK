@@ -4,12 +4,12 @@
 namespace System::IO { class BinaryWriter; }
 namespace System::Text { class Encoding; }
 
-#define NEWTONSOFT_JSON_BSON_BSONBINARYWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C376AA0)
-#define NEWTONSOFT_JSON_BSON_BSONBINARYWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1C376A10)
+#define NEWTONSOFT_JSON_BSON_BSONBINARYWRITER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4FD1F0)
+#define NEWTONSOFT_JSON_BSON_BSONBINARYWRITER_FLUSH_OFFSET UNITYSDK_OFFSET(0x1D4FD160)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonBinaryWriter_TypeDefinitionIndex = 9847;
+	inline static constexpr unsigned int BsonBinaryWriter_TypeDefinitionIndex = 9855;
 
 	class BsonBinaryWriter : public ::System::Object
 	{
@@ -17,7 +17,7 @@ namespace Newtonsoft::Json::Bson
 		::System::IO::BinaryWriter* _writer; // 0x10
 		static ::System::Text::Encoding** StaticGet_Encoding()
 		{
-			return (::System::Text::Encoding**)UnitySDK::FromName("Newtonsoft.Json.Bson", "BsonBinaryWriter")->GetStaticField(0x2B540);
+			return (::System::Text::Encoding**)UnitySDK::FromName("Newtonsoft.Json.Bson", "BsonBinaryWriter")->GetStaticField(0x2A200);
 		}
 
 		static ::System::Void _cctor()

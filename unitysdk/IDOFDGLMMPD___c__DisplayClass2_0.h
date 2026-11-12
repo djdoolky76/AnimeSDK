@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class BattleGamePhase; }
 
-#define IDOFDGLMMPD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE1610)
-#define IDOFDGLMMPD___C__DISPLAYCLASS2_0__PHASEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x15EE2980)
+#define IDOFDGLMMPD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16E4C5A0)
+#define IDOFDGLMMPD___C__DISPLAYCLASS2_0__PHASEEXIT_B__0_OFFSET UNITYSDK_OFFSET(0x16E4D910)
 
-inline static constexpr unsigned int IDOFDGLMMPD___c__DisplayClass2_0_TypeDefinitionIndex = 61180;
+inline static constexpr unsigned int IDOFDGLMMPD___c__DisplayClass2_0_TypeDefinitionIndex = 62565;
 
 	class IDOFDGLMMPD___c__DisplayClass2_0 : public ::System::Object
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetSkillButtonAdditionalStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHKFHFBOGKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBBD1D30)
-#define NHKFHFBOGKD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBD1D40)
-#define NHKFHFBOGKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBD1D80)
-#define NHKFHFBOGKD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBD1EA0)
-#define NHKFHFBOGKD_TICK_OFFSET UNITYSDK_OFFSET(0xBBD1EF0)
+#define NHKFHFBOGKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B0560)
+#define NHKFHFBOGKD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4B0570)
+#define NHKFHFBOGKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4B05B0)
+#define NHKFHFBOGKD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC4B06D0)
+#define NHKFHFBOGKD_TICK_OFFSET UNITYSDK_OFFSET(0xC4B0720)
 
-inline static constexpr unsigned int NHKFHFBOGKD_TypeDefinitionIndex = 55565;
+inline static constexpr unsigned int NHKFHFBOGKD_TypeDefinitionIndex = 56759;
 
 	class NHKFHFBOGKD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetSkillButtonAdditionalStatus* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetSkillButtonAdditionalStatus* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetSkillButtonAdditionalStatus* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetSkillButtonAdditionalStatus*))((::PBYTE)hIl2Cpp + NHKFHFBOGKD_CTOR_OFFSET))(this, a1, a2);

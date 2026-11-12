@@ -4,17 +4,17 @@
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class String; }
 
-#define BFPOPEHNOAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB1758E0)
-#define BFPOPEHNOAP_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xB1757F0)
+#define BFPOPEHNOAP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAFD400)
+#define BFPOPEHNOAP_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xBAFD310)
 
-inline static constexpr unsigned int BFPOPEHNOAP_TypeDefinitionIndex = 55600;
+inline static constexpr unsigned int BFPOPEHNOAP_TypeDefinitionIndex = 56796;
 
 	class BFPOPEHNOAP : public ::System::Object
 	{
 	public:
 		::System::String* IFNAGLOMHBK; // 0x10
-		::System::UInt32 KPLDHNOGLDC; // 0x18
-		::System::UInt32 OMIPHFPGKAC; // 0x1C
+		::System::UInt32 OMIPHFPGKAC; // 0x18
+		::System::UInt32 KPLDHNOGLDC; // 0x1C
 		::System::Int32 BJOBFAIMJAE; // 0x20
 		::System::Void _ctor()
 		{

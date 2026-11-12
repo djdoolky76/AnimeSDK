@@ -4,23 +4,23 @@
 #include "unitysdk/RPG/GameCore/PropState.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_ADVENTUREAFTERPROPSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE54B680)
-#define RPG_GAMECORE_ADVENTUREAFTERPROPSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE54B6B0)
-#define RPG_GAMECORE_ADVENTUREAFTERPROPSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE54B700)
+#define RPG_GAMECORE_ADVENTUREAFTERPROPSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xEFC7C00)
+#define RPG_GAMECORE_ADVENTUREAFTERPROPSTATECHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xEFC7C30)
+#define RPG_GAMECORE_ADVENTUREAFTERPROPSTATECHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xEFC7C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAfterPropStateChange_TypeDefinitionIndex = 56627;
+	inline static constexpr unsigned int AdventureAfterPropStateChange_TypeDefinitionIndex = 57849;
 
 	class AdventureAfterPropStateChange : public ::System::Object
 	{
 	public:
-		::System::UInt32 RuntimeID; // 0x10
-		::RPG::GameCore::PropState FromState; // 0x14
+		::System::UInt32 GroupID; // 0x10
+		::System::UInt32 ServerEntityID; // 0x14
 		::RPG::GameCore::PropState ToState; // 0x18
-		::System::UInt32 InstanceID; // 0x1C
-		::System::UInt32 ServerEntityID; // 0x20
-		::System::UInt32 GroupID; // 0x24
+		::RPG::GameCore::PropState FromState; // 0x1C
+		::System::UInt32 RuntimeID; // 0x20
+		::System::UInt32 InstanceID; // 0x24
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::System::UInt32 a4, ::RPG::GameCore::PropState a5, ::RPG::GameCore::PropState a6)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::UInt32, ::RPG::GameCore::PropState, ::RPG::GameCore::PropState))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADVENTUREAFTERPROPSTATECHANGE_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6);

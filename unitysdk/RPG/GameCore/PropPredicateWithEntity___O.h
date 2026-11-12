@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropPredicateWithEntity___O_TypeDefinitionIndex = 22019;
+	inline static constexpr unsigned int PropPredicateWithEntity___O_TypeDefinitionIndex = 22424;
 
 	class PropPredicateWithEntity___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x4BFF0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x58820);
 		}
 
 	};

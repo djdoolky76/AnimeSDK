@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchCameraAimTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PEFOJOFABNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC03B0B0)
-#define PEFOJOFABNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC03B100)
+#define PEFOJOFABNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC944540)
+#define PEFOJOFABNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC944590)
 
-inline static constexpr unsigned int PEFOJOFABNC_TypeDefinitionIndex = 59159;
+inline static constexpr unsigned int PEFOJOFABNC_TypeDefinitionIndex = 60435;
 
 	class PEFOJOFABNC
 	{

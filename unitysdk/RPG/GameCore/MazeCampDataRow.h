@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeCampDataRow; }
 
-#define RPG_GAMECORE_MAZECAMPDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D863FD0)
-#define RPG_GAMECORE_MAZECAMPDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8635E0)
+#define RPG_GAMECORE_MAZECAMPDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7E820)
+#define RPG_GAMECORE_MAZECAMPDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA7DE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeCampDataRow_TypeDefinitionIndex = 14051;
+	inline static constexpr unsigned int MazeCampDataRow_TypeDefinitionIndex = 14208;
 
 	class MazeCampDataRow : public ::System::Object
 	{

@@ -5,10 +5,10 @@ class GDDNDJNMONC;
 class INMMPMDELKE;
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 
-#define GDDNDJNMONC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15997320)
-#define GDDNDJNMONC___C__DISPLAYCLASS3_0___SOLVESUBCLASSACTION_B__1_OFFSET UNITYSDK_OFFSET(0x15999DD0)
+#define GDDNDJNMONC___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x168CE0E0)
+#define GDDNDJNMONC___C__DISPLAYCLASS3_0___SOLVESUBCLASSACTION_B__1_OFFSET UNITYSDK_OFFSET(0x168D0B80)
 
-inline static constexpr unsigned int GDDNDJNMONC___c__DisplayClass3_0_TypeDefinitionIndex = 76704;
+inline static constexpr unsigned int GDDNDJNMONC___c__DisplayClass3_0_TypeDefinitionIndex = 79035;
 
 	class GDDNDJNMONC___c__DisplayClass3_0 : public ::System::Object
 	{

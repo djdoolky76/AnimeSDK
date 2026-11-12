@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/BaseChimeraViewProxy.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERAWORKVIEWPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6DED0)
-#define RPG_CLIENT_CHIMERAWORKVIEWPROXY_POSTEVENT_OFFSET UNITYSDK_OFFSET(0xCB6DAE0)
+#define RPG_CLIENT_CHIMERAWORKVIEWPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xD4D1A70)
+#define RPG_CLIENT_CHIMERAWORKVIEWPROXY_POSTEVENT_OFFSET UNITYSDK_OFFSET(0xD4D1680)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkViewProxy_TypeDefinitionIndex = 68652;
+	inline static constexpr unsigned int ChimeraWorkViewProxy_TypeDefinitionIndex = 70604;
 
 	class ChimeraWorkViewProxy : public ::RPG::Client::BaseChimeraViewProxy
 	{

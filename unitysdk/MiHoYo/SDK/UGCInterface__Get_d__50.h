@@ -7,29 +7,29 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_CTOR_OFFSET UNITYSDK_OFFSET(0xB060910)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xB063270)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB063320)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB063380)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB063330)
-#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB063260)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C16C0)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xB6C4020)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB6C40D0)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB6C4130)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB6C40E0)
+#define MIHOYO_SDK_UGCINTERFACE__GET_D__50_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6C4010)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCInterface__Get_d__50_TypeDefinitionIndex = 46446;
+	inline static constexpr unsigned int UGCInterface__Get_d__50_TypeDefinitionIndex = 47474;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38, typename T39, typename T40, typename T41, typename T42, typename T43, typename T44, typename T45, typename T46, typename T47, typename T48, typename T49, typename T50>
 	class UGCInterface__Get_d__50 : public ::System::Object
 	{
 	public:
-		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* completeCallback; // 0x10
+		::System::Object* __2__current; // 0x10
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* headers; // 0x18
-		::System::Object* __2__current; // 0x20
-		::System::String* strUrl; // 0x28
+		::System::String* strUrl; // 0x20
+		::System::Action_2<::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*, ::System::String*>* completeCallback; // 0x28
 		::System::Action* timeoutCallback; // 0x30
-		::System::Int32 nRetryCount; // 0x38
+		::System::Single nTimeoutSeconds; // 0x38
 		::System::Int32 __1__state; // 0x3C
-		::System::Single nTimeoutSeconds; // 0x40
+		::System::Int32 nRetryCount; // 0x40
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCINTERFACE__GET_D__50_CTOR_OFFSET))(this, a1);

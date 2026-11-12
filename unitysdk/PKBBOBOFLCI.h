@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HipplenSetEntityPositionByAnchor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKBBOBOFLCI_CTOR_OFFSET UNITYSDK_OFFSET(0xC2AA650)
-#define PKBBOBOFLCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2AA680)
+#define PKBBOBOFLCI_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD5340)
+#define PKBBOBOFLCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBD5370)
 
-inline static constexpr unsigned int PKBBOBOFLCI_TypeDefinitionIndex = 52280;
+inline static constexpr unsigned int PKBBOBOFLCI_TypeDefinitionIndex = 53386;
 
 	class PKBBOBOFLCI
 	{

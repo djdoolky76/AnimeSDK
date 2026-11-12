@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvFakeAvatarPlayerStub; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CCIKCPMLHEI_CTOR_OFFSET UNITYSDK_OFFSET(0xC73DA20)
-#define CCIKCPMLHEI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC73DA90)
+#define CCIKCPMLHEI_CTOR_OFFSET UNITYSDK_OFFSET(0xCE30890)
+#define CCIKCPMLHEI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCE30900)
 
-inline static constexpr unsigned int CCIKCPMLHEI_TypeDefinitionIndex = 59090;
+inline static constexpr unsigned int CCIKCPMLHEI_TypeDefinitionIndex = 60365;
 
 	class CCIKCPMLHEI
 	{

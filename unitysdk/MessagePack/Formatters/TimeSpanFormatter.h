@@ -7,21 +7,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { template <typename T> class IMessagePackFormatter_1; }
 
-#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB80140)
-#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB80080)
-#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB800A0)
-#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB80090)
+#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD08E50)
+#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD08D90)
+#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD08DB0)
+#define MESSAGEPACK_FORMATTERS_TIMESPANFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CD08DA0)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int TimeSpanFormatter_TypeDefinitionIndex = 7487;
+	inline static constexpr unsigned int TimeSpanFormatter_TypeDefinitionIndex = 7498;
 
 	class TimeSpanFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::IMessagePackFormatter_1<::System::TimeSpan>** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::TimeSpan>**)UnitySDK::FromName("MessagePack.Formatters", "TimeSpanFormatter")->GetStaticField(0x25520);
+			return (::MessagePack::Formatters::IMessagePackFormatter_1<::System::TimeSpan>**)UnitySDK::FromName("MessagePack.Formatters", "TimeSpanFormatter")->GetStaticField(0x47BF0);
 		}
 
 		::System::Void _ctor()

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SettingDisplayModeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETTINGDISPLAYMODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DACB2C0)
-#define RPG_GAMECORE_SETTINGDISPLAYMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DACA890)
+#define RPG_GAMECORE_SETTINGDISPLAYMODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECDD150)
+#define RPG_GAMECORE_SETTINGDISPLAYMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ECDC720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SettingDisplayModeRow_TypeDefinitionIndex = 15093;
+	inline static constexpr unsigned int SettingDisplayModeRow_TypeDefinitionIndex = 15249;
 
 	class SettingDisplayModeRow : public ::System::Object
 	{

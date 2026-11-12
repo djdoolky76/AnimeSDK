@@ -5,23 +5,23 @@ namespace RPG::Client { class GridFightGridMember; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JHLCCGABEGB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB1BB270)
-#define JHLCCGABEGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB1BB2B0)
-#define JHLCCGABEGB___C__SATISFY_B__0_0_OFFSET UNITYSDK_OFFSET(0xB1BB2C0)
+#define JHLCCGABEGB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9DD060)
+#define JHLCCGABEGB___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB9DD0A0)
+#define JHLCCGABEGB___C__SATISFY_B__0_0_OFFSET UNITYSDK_OFFSET(0xB9DD0B0)
 
-inline static constexpr unsigned int JHLCCGABEGB___c_TypeDefinitionIndex = 64909;
+inline static constexpr unsigned int JHLCCGABEGB___c_TypeDefinitionIndex = 66475;
 
 	class JHLCCGABEGB___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>** StaticGet___9__0_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11600);
+			return (::System::Func_2<::RPG::Client::GridFightGridMember*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA760);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11608);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA768);
 		}
 
 		static ::System::Void _cctor()

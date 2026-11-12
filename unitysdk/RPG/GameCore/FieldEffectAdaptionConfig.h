@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FieldEffectAdaptionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A0A20)
-#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A0840)
+#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AD190)
+#define RPG_GAMECORE_FIELDEFFECTADAPTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8AD030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FieldEffectAdaptionConfig_TypeDefinitionIndex = 16511;
+	inline static constexpr unsigned int FieldEffectAdaptionConfig_TypeDefinitionIndex = 16675;
 
 	class FieldEffectAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define DNNCLMDGIFH_CTOR_OFFSET UNITYSDK_OFFSET(0xFE60)
+#define DNNCLMDGIFH_CTOR_OFFSET UNITYSDK_OFFSET(0x16980)
 
-inline static constexpr unsigned int DNNCLMDGIFH_TypeDefinitionIndex = 68929;
+inline static constexpr unsigned int DNNCLMDGIFH_TypeDefinitionIndex = 70882;
 
 	struct alignas(4) DNNCLMDGIFH
 	{

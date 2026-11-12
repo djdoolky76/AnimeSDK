@@ -6,13 +6,13 @@ namespace RPG::GameCore { class GridFightDragOpEquipSelector; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 namespace RPG::GameCore { class GridFightWaitDragEquip; }
 
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D749980)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D749990)
-#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D749950)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E95D4A0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E95D4B0)
+#define RPG_GAMECORE_GRIDFIGHTWAITDRAGEQUIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E95D470)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightWaitDragEquip_TypeDefinitionIndex = 19961;
+	inline static constexpr unsigned int GridFightWaitDragEquip_TypeDefinitionIndex = 20291;
 
 	class GridFightWaitDragEquip : public ::RPG::GameCore::TaskConfig
 	{

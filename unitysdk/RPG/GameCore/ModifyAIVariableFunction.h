@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyAIVariableFunction_TypeDefinitionIndex = 15575;
+	inline static constexpr unsigned int ModifyAIVariableFunction_TypeDefinitionIndex = 15733;
 
 	enum class ModifyAIVariableFunction : ::System::Int32
 	{

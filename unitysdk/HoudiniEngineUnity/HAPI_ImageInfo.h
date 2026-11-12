@@ -5,7 +5,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HAPI_ImageInfo_TypeDefinitionIndex = 40509;
+	inline static constexpr unsigned int HAPI_ImageInfo_TypeDefinitionIndex = 41484;
 
 	struct alignas(4) HAPI_ImageInfo
 	{

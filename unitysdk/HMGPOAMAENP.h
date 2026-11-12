@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareGraphDynamicFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HMGPOAMAENP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D818B0)
-#define HMGPOAMAENP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D818E0)
+#define HMGPOAMAENP_CTOR_OFFSET UNITYSDK_OFFSET(0x16D1F170)
+#define HMGPOAMAENP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D1F1A0)
 
-inline static constexpr unsigned int HMGPOAMAENP_TypeDefinitionIndex = 52565;
+inline static constexpr unsigned int HMGPOAMAENP_TypeDefinitionIndex = 53671;
 
 	class HMGPOAMAENP
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class NewProjectileConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_NEWPROJECTILECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D7700)
-#define RPG_GAMECORE_NEWPROJECTILECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8D77A0)
-#define RPG_GAMECORE_NEWPROJECTILECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D61A0)
+#define RPG_GAMECORE_NEWPROJECTILECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF1340)
+#define RPG_GAMECORE_NEWPROJECTILECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAF13E0)
+#define RPG_GAMECORE_NEWPROJECTILECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAEFDF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NewProjectileConfig_TypeDefinitionIndex = 15656;
+	inline static constexpr unsigned int NewProjectileConfig_TypeDefinitionIndex = 15814;
 
 	class NewProjectileConfig : public ::RPG::GameCore::JsonConfig
 	{

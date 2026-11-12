@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CCMOIFIMAIL_OverrideAspect_TypeDefinitionIndex = 73812;
+inline static constexpr unsigned int CCMOIFIMAIL_OverrideAspect_TypeDefinitionIndex = 75938;
 
 	enum class CCMOIFIMAIL_OverrideAspect : ::System::Int32
 	{

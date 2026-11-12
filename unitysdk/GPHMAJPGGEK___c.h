@@ -4,18 +4,18 @@
 class GPHMAJPGGEK;
 namespace System { class Object; }
 
-#define GPHMAJPGGEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4FA690)
-#define GPHMAJPGGEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FA6D0)
-#define GPHMAJPGGEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4FA6E0)
+#define GPHMAJPGGEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F80D020)
+#define GPHMAJPGGEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F80D060)
+#define GPHMAJPGGEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F80D070)
 
-inline static constexpr unsigned int GPHMAJPGGEK___c_TypeDefinitionIndex = 33526;
+inline static constexpr unsigned int GPHMAJPGGEK___c_TypeDefinitionIndex = 34441;
 
 	class GPHMAJPGGEK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BB60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E040);
 		}
 
 		static ::System::Void _cctor()

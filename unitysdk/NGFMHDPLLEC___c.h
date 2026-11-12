@@ -4,18 +4,18 @@
 class NGFMHDPLLEC;
 namespace System { class Object; }
 
-#define NGFMHDPLLEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB0DAE0)
-#define NGFMHDPLLEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0DB20)
-#define NGFMHDPLLEC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB0DB30)
+#define NGFMHDPLLEC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE4FFD0)
+#define NGFMHDPLLEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE50010)
+#define NGFMHDPLLEC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FE50020)
 
-inline static constexpr unsigned int NGFMHDPLLEC___c_TypeDefinitionIndex = 34249;
+inline static constexpr unsigned int NGFMHDPLLEC___c_TypeDefinitionIndex = 35177;
 
 	class NGFMHDPLLEC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F310);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A240);
 		}
 
 		static ::System::Void _cctor()

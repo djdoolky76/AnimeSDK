@@ -5,25 +5,25 @@ namespace RPG::Client { class ActiveActivityBenefitData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVEACTIVITYPANELDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3B5340)
-#define RPG_CLIENT_ACTIVEACTIVITYPANELDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3B5380)
-#define RPG_CLIENT_ACTIVEACTIVITYPANELDATA___C__ISSHOWNORMALREDDOT_B__3_0_OFFSET UNITYSDK_OFFSET(0xC3B5390)
+#define RPG_CLIENT_ACTIVEACTIVITYPANELDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCEF6C0)
+#define RPG_CLIENT_ACTIVEACTIVITYPANELDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCEF700)
+#define RPG_CLIENT_ACTIVEACTIVITYPANELDATA___C__ISSHOWNORMALREDDOT_B__3_0_OFFSET UNITYSDK_OFFSET(0xCCEF710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActiveActivityPanelData___c_TypeDefinitionIndex = 61576;
+	inline static constexpr unsigned int ActiveActivityPanelData___c_TypeDefinitionIndex = 62973;
 
 	class ActiveActivityPanelData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActiveActivityBenefitData*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActiveActivityBenefitData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11110);
+			return (::System::Func_2<::RPG::Client::ActiveActivityBenefitData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10600);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11118);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x10608);
 		}
 
 		static ::System::Void _cctor()

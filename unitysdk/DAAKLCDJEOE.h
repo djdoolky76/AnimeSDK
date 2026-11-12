@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define DAAKLCDJEOE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBA3C0)
-#define DAAKLCDJEOE_TRIGGER_OFFSET UNITYSDK_OFFSET(0xDFBA450)
+#define DAAKLCDJEOE_CTOR_OFFSET UNITYSDK_OFFSET(0xE91D2C0)
+#define DAAKLCDJEOE_TRIGGER_OFFSET UNITYSDK_OFFSET(0xE91D350)
 
-inline static constexpr unsigned int DAAKLCDJEOE_TypeDefinitionIndex = 66237;
+inline static constexpr unsigned int DAAKLCDJEOE_TypeDefinitionIndex = 68173;
 
 	class DAAKLCDJEOE : public ::System::Object
 	{
 	public:
 		::System::UInt32 NBJOOFCNMFM; // 0x10
-		::System::UInt32 IHFNLAGGGNM; // 0x14
-		::System::UInt32 AIDLKPHEAMD; // 0x18
-		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x1C
+		::System::UInt32 AIDLKPHEAMD; // 0x14
+		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x18
+		::System::UInt32 IHFNLAGGGNM; // 0x1C
 		::System::UInt32 NHGPMJAGGCJ; // 0x20
 		::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 		{

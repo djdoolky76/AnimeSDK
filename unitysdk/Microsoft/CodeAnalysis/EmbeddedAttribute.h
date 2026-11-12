@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MICROSOFT_CODEANALYSIS_EMBEDDEDATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED866F0)
+#define MICROSOFT_CODEANALYSIS_EMBEDDEDATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20036130)
 
 namespace Microsoft::CodeAnalysis
 {

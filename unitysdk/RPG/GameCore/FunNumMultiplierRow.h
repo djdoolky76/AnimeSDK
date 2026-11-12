@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FunNumMultiplierRow; }
 
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F5F00)
-#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6F5DC0)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E900150)
+#define RPG_GAMECORE_FUNNUMMULTIPLIERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E900010)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 13217;
+	inline static constexpr unsigned int FunNumMultiplierRow_TypeDefinitionIndex = 13291;
 
 	class FunNumMultiplierRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FunNum; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint Multiplier; // 0x18
+		::RPG::GameCore::FixPoint Multiplier; // 0x10
+		::System::UInt32 FunNum; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FUNNUMMULTIPLIERROW_CTOR_OFFSET))(this);

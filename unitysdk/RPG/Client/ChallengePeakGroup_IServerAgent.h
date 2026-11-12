@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChallengePeakGroup_IServerAgent_TypeDefinitionIndex = 63178;
+	inline static constexpr unsigned int ChallengePeakGroup_IServerAgent_TypeDefinitionIndex = 64616;
 
 	class ChallengePeakGroup_IServerAgent
 	{

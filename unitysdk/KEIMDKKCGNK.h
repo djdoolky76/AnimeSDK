@@ -8,18 +8,18 @@ class KEIMDKKCGNK;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define KEIMDKKCGNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D08A3E0)
-#define KEIMDKKCGNK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D08A3F0)
-#define KEIMDKKCGNK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D08A3A0)
+#define KEIMDKKCGNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27AAB0)
+#define KEIMDKKCGNK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E27AAC0)
+#define KEIMDKKCGNK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E27AA70)
 
-inline static constexpr unsigned int KEIMDKKCGNK_TypeDefinitionIndex = 24191;
+inline static constexpr unsigned int KEIMDKKCGNK_TypeDefinitionIndex = 24650;
 
 	class KEIMDKKCGNK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* DIFDKADNNDK; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
-		::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* KJDKAOPEMFF; // 0x28
+		::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* KJDKAOPEMFF; // 0x18
+		::RPG::GameCore::DynamicFloat* DIFDKADNNDK; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::System::Boolean EOAFKHDEJCO; // 0x30
 		::System::Byte _padding0[0x3];
 		::RPG::GameCore::EnumStatusType LMIODAHFGOA; // 0x34

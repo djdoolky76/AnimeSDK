@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/MonoSpineStoryController_Dialog.h"
 #include "unitysdk/System/Object.h"
 
-#define CNBKPPKILBJ_HMCIPPMJCDK_CTOR_OFFSET UNITYSDK_OFFSET(0xDA482E0)
+#define CNBKPPKILBJ_HMCIPPMJCDK_CTOR_OFFSET UNITYSDK_OFFSET(0xE5E1BF0)
 
-inline static constexpr unsigned int CNBKPPKILBJ_HMCIPPMJCDK_TypeDefinitionIndex = 60285;
+inline static constexpr unsigned int CNBKPPKILBJ_HMCIPPMJCDK_TypeDefinitionIndex = 61569;
 
 	class CNBKPPKILBJ_HMCIPPMJCDK : public ::System::Object
 	{

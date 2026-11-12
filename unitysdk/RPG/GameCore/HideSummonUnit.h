@@ -5,19 +5,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HideSummonUnit; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HIDESUMMONUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D769810)
-#define RPG_GAMECORE_HIDESUMMONUNIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D769820)
-#define RPG_GAMECORE_HIDESUMMONUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7697D0)
+#define RPG_GAMECORE_HIDESUMMONUNIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97D280)
+#define RPG_GAMECORE_HIDESUMMONUNIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E97D290)
+#define RPG_GAMECORE_HIDESUMMONUNIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97D240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideSummonUnit_TypeDefinitionIndex = 20361;
+	inline static constexpr unsigned int HideSummonUnit_TypeDefinitionIndex = 20696;
 
 	class HideSummonUnit : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* SummonUnit; // 0x18
 		::System::Boolean Hide; // 0x20
+		::System::Boolean MultiTarget; // 0x21
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_HIDESUMMONUNIT_CTOR_OFFSET))(this);

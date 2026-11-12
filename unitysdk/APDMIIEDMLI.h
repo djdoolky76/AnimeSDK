@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 class APDMIIEDMLI_CFHOMFLPNNO;
 
-#define APDMIIEDMLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x15BA7030)
-#define APDMIIEDMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA7020)
+#define APDMIIEDMLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x16A07910)
+#define APDMIIEDMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x16A07900)
 
-inline static constexpr unsigned int APDMIIEDMLI_TypeDefinitionIndex = 59937;
+inline static constexpr unsigned int APDMIIEDMLI_TypeDefinitionIndex = 61221;
 
 	class APDMIIEDMLI : public ::System::Object
 	{
 	public:
 		static ::APDMIIEDMLI_CFHOMFLPNNO** StaticGet_IBLOPKIDEBE()
 		{
-			return (::APDMIIEDMLI_CFHOMFLPNNO**)UnitySDK::FromName("", "APDMIIEDMLI")->GetStaticField(0x1B00);
+			return (::APDMIIEDMLI_CFHOMFLPNNO**)UnitySDK::FromName("", "APDMIIEDMLI")->GetStaticField(0x31140);
 		}
 
 		::System::Void _ctor()

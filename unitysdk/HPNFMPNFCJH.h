@@ -4,18 +4,18 @@
 namespace RPG::GameCore { class SetTraceOrigamiFlag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HPNFMPNFCJH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DD5640)
-#define HPNFMPNFCJH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD5500)
-#define HPNFMPNFCJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15DD5530)
+#define HPNFMPNFCJH_CCTOR_OFFSET UNITYSDK_OFFSET(0x16D79510)
+#define HPNFMPNFCJH_CTOR_OFFSET UNITYSDK_OFFSET(0x16D793D0)
+#define HPNFMPNFCJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16D79400)
 
-inline static constexpr unsigned int HPNFMPNFCJH_TypeDefinitionIndex = 53256;
+inline static constexpr unsigned int HPNFMPNFCJH_TypeDefinitionIndex = 54418;
 
 	class HPNFMPNFCJH
 	{
 	public:
 		static ::RPG::GameCore::StringHash* StaticGet_OIGCOKPHANN()
 		{
-			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "HPNFMPNFCJH")->GetStaticField(0xC1B0);
+			return (::RPG::GameCore::StringHash*)UnitySDK::FromName("", "HPNFMPNFCJH")->GetStaticField(0x7B30);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTraceOrigamiFlag* a2)

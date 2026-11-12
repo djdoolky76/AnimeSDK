@@ -6,12 +6,12 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class RelicItemData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NAPGKEGIKGN_AAGONFFJLHB_OFFSET UNITYSDK_OFFSET(0xBAB79D0)
-#define NAPGKEGIKGN_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB7D50)
-#define NAPGKEGIKGN_KOMIDHBOOIC_OFFSET UNITYSDK_OFFSET(0xBAB7B00)
-#define NAPGKEGIKGN_PAMCFLCNAPG_OFFSET UNITYSDK_OFFSET(0xBAB7AA0)
+#define NAPGKEGIKGN_AAGONFFJLHB_OFFSET UNITYSDK_OFFSET(0xC33C930)
+#define NAPGKEGIKGN_CTOR_OFFSET UNITYSDK_OFFSET(0xC33CC80)
+#define NAPGKEGIKGN_KOMIDHBOOIC_OFFSET UNITYSDK_OFFSET(0xC33CA60)
+#define NAPGKEGIKGN_PAMCFLCNAPG_OFFSET UNITYSDK_OFFSET(0xC33CA00)
 
-inline static constexpr unsigned int NAPGKEGIKGN_TypeDefinitionIndex = 66858;
+inline static constexpr unsigned int NAPGKEGIKGN_TypeDefinitionIndex = 68804;
 
 	class NAPGKEGIKGN : public ::System::Object
 	{

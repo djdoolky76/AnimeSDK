@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StackCrazyAIBehavior; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KFFPNOBMODN_CTOR_OFFSET UNITYSDK_OFFSET(0xB399C10)
-#define KFFPNOBMODN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB399C40)
+#define KFFPNOBMODN_CTOR_OFFSET UNITYSDK_OFFSET(0xBC261B0)
+#define KFFPNOBMODN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC261E0)
 
-inline static constexpr unsigned int KFFPNOBMODN_TypeDefinitionIndex = 55639;
+inline static constexpr unsigned int KFFPNOBMODN_TypeDefinitionIndex = 56837;
 
 	class KFFPNOBMODN
 	{

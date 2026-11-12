@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JDKNLNLGODN.h"
 
-#define BLKFJOLACOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA78CC0)
-#define BLKFJOLACOB_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0xBA78C70)
+#define BLKFJOLACOB_CTOR_OFFSET UNITYSDK_OFFSET(0xC40AF10)
+#define BLKFJOLACOB_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0xC40AEC0)
 
-inline static constexpr unsigned int BLKFJOLACOB_TypeDefinitionIndex = 61068;
+inline static constexpr unsigned int BLKFJOLACOB_TypeDefinitionIndex = 62453;
 
 	class BLKFJOLACOB : public ::JDKNLNLGODN
 	{

@@ -4,18 +4,18 @@
 class DOELBKLNLIM;
 namespace System { class Object; }
 
-#define DOELBKLNLIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1FF210)
-#define DOELBKLNLIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1FF250)
-#define DOELBKLNLIM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1FF260)
+#define DOELBKLNLIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4DC0E0)
+#define DOELBKLNLIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4DC120)
+#define DOELBKLNLIM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F4DC130)
 
-inline static constexpr unsigned int DOELBKLNLIM___c_TypeDefinitionIndex = 28964;
+inline static constexpr unsigned int DOELBKLNLIM___c_TypeDefinitionIndex = 29554;
 
 	class DOELBKLNLIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41BB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E550);
 		}
 
 		static ::System::Void _cctor()

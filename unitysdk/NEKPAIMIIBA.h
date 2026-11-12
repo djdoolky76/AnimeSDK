@@ -3,24 +3,24 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define NEKPAIMIIBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6FB80)
+#define NEKPAIMIIBA_CTOR_OFFSET UNITYSDK_OFFSET(0xC3F9A30)
 
-inline static constexpr unsigned int NEKPAIMIIBA_TypeDefinitionIndex = 57545;
+inline static constexpr unsigned int NEKPAIMIIBA_TypeDefinitionIndex = 58773;
 
 	class NEKPAIMIIBA : public ::System::Object
 	{
 	public:
-		::System::Boolean HAIJMANJPFL; // 0x10
-		::System::Boolean LLPKBMADFLH; // 0x11
-		::System::Boolean FBLFFCNGHIH; // 0x12
-		::System::Boolean KEKMKCBCMGG; // 0x13
-		::System::Boolean OCCFDKHILOP; // 0x14
-		::System::Boolean DNJPLJFGEFK; // 0x15
-		::System::Boolean ABFIGOPLJEB; // 0x16
-		::System::Boolean LKFPCBFPPGP; // 0x17
-		::System::Single EKMEAGHNCDH; // 0x18
-		::UnityEngine::Vector2 ODFEMKDMJCK; // 0x1C
-		::UnityEngine::Vector2 BACEJJFFPOL; // 0x24
+		::System::Single EKMEAGHNCDH; // 0x10
+		::UnityEngine::Vector2 ODFEMKDMJCK; // 0x14
+		::System::Boolean DNJPLJFGEFK; // 0x1C
+		::System::Boolean HAIJMANJPFL; // 0x1D
+		::System::Boolean ABFIGOPLJEB; // 0x1E
+		::System::Boolean OCCFDKHILOP; // 0x1F
+		::UnityEngine::Vector2 BACEJJFFPOL; // 0x20
+		::System::Boolean FBLFFCNGHIH; // 0x28
+		::System::Boolean LKFPCBFPPGP; // 0x29
+		::System::Boolean LLPKBMADFLH; // 0x2A
+		::System::Boolean KEKMKCBCMGG; // 0x2B
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEKPAIMIIBA_CTOR_OFFSET))(this);

@@ -5,19 +5,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaveMonsterMaxCount; }
 
-#define FCEAHLMJOMB_CTOR_OFFSET UNITYSDK_OFFSET(0x156B71A0)
-#define FCEAHLMJOMB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156B7250)
-#define FCEAHLMJOMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156B7290)
-#define FCEAHLMJOMB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x156B7690)
-#define FCEAHLMJOMB_TICK_OFFSET UNITYSDK_OFFSET(0x156B76E0)
+#define FCEAHLMJOMB_CTOR_OFFSET UNITYSDK_OFFSET(0x165CF220)
+#define FCEAHLMJOMB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x165CF2D0)
+#define FCEAHLMJOMB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165CF310)
+#define FCEAHLMJOMB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x165CF700)
+#define FCEAHLMJOMB_TICK_OFFSET UNITYSDK_OFFSET(0x165CF750)
 
-inline static constexpr unsigned int FCEAHLMJOMB_TypeDefinitionIndex = 58948;
+inline static constexpr unsigned int FCEAHLMJOMB_TypeDefinitionIndex = 60221;
 
 	class FCEAHLMJOMB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaveMonsterMaxCount* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaveMonsterMaxCount* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaveMonsterMaxCount* a2)
 		{

@@ -5,16 +5,16 @@ class HGKIKKOLLFA;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define JLLLBIBKBHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB24FB00)
+#define JLLLBIBKBHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7A980)
 
-inline static constexpr unsigned int JLLLBIBKBHJ_TypeDefinitionIndex = 71724;
+inline static constexpr unsigned int JLLLBIBKBHJ_TypeDefinitionIndex = 73715;
 
 	class JLLLBIBKBHJ : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* MJPMAPNJMNE; // 0x10
+		::UnityEngine::UI::Text* IABIKOKLBLJ; // 0x10
 		::HGKIKKOLLFA* IDJEEOFELEJ; // 0x18
-		::UnityEngine::UI::Text* IABIKOKLBLJ; // 0x20
+		::UnityEngine::Transform* MJPMAPNJMNE; // 0x20
 		::System::Boolean LMJDNIGEHCO; // 0x28
 		::System::Void _ctor()
 		{

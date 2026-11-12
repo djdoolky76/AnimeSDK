@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int VolumetricLightSettings_TypeDefinitionIndex = 4857;
+	inline static constexpr unsigned int VolumetricLightSettings_TypeDefinitionIndex = 4862;
 
 	struct alignas(4) VolumetricLightSettings
 	{

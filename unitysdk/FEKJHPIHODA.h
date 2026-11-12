@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareFloorSavedValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FEKJHPIHODA_CTOR_OFFSET UNITYSDK_OFFSET(0x15724EB0)
-#define FEKJHPIHODA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15724EE0)
+#define FEKJHPIHODA_CTOR_OFFSET UNITYSDK_OFFSET(0x1663F030)
+#define FEKJHPIHODA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1663F060)
 
-inline static constexpr unsigned int FEKJHPIHODA_TypeDefinitionIndex = 52562;
+inline static constexpr unsigned int FEKJHPIHODA_TypeDefinitionIndex = 53668;
 
 	class FEKJHPIHODA
 	{

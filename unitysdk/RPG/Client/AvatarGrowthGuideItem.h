@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define RPG_CLIENT_AVATARGROWTHGUIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xC6EE900)
+#define RPG_CLIENT_AVATARGROWTHGUIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD04E4A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarGrowthGuideItem_TypeDefinitionIndex = 65546;
+	inline static constexpr unsigned int AvatarGrowthGuideItem_TypeDefinitionIndex = 67462;
 
 	class AvatarGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{

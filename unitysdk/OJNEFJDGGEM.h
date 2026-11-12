@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OJNEFJDGGEM_TypeDefinitionIndex = 25724;
+inline static constexpr unsigned int OJNEFJDGGEM_TypeDefinitionIndex = 26221;
 
 	enum class OJNEFJDGGEM : ::System::Int32
 	{

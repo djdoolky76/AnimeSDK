@@ -5,21 +5,21 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ALPLGBPDPIK_CTOR_OFFSET UNITYSDK_OFFSET(0x15571EB0)
-#define ALPLGBPDPIK_GET_BASEADDSEQUENCE_OFFSET UNITYSDK_OFFSET(0x15571EE0)
-#define ALPLGBPDPIK_GET_MULTSEQUENCE_OFFSET UNITYSDK_OFFSET(0x15571F00)
-#define ALPLGBPDPIK_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x15571EC0)
-#define ALPLGBPDPIK_SET_BASEADDSEQUENCE_OFFSET UNITYSDK_OFFSET(0x15571EF0)
-#define ALPLGBPDPIK_SET_MULTSEQUENCE_OFFSET UNITYSDK_OFFSET(0x15571F10)
-#define ALPLGBPDPIK_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x15571ED0)
+#define ALPLGBPDPIK_CTOR_OFFSET UNITYSDK_OFFSET(0x163E1EE0)
+#define ALPLGBPDPIK_GET_BASEADDSEQUENCE_OFFSET UNITYSDK_OFFSET(0x163E1F10)
+#define ALPLGBPDPIK_GET_MULTSEQUENCE_OFFSET UNITYSDK_OFFSET(0x163E1F30)
+#define ALPLGBPDPIK_GET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x163E1EF0)
+#define ALPLGBPDPIK_SET_BASEADDSEQUENCE_OFFSET UNITYSDK_OFFSET(0x163E1F20)
+#define ALPLGBPDPIK_SET_MULTSEQUENCE_OFFSET UNITYSDK_OFFSET(0x163E1F40)
+#define ALPLGBPDPIK_SET_PROPERTYTYPE_OFFSET UNITYSDK_OFFSET(0x163E1F00)
 
-inline static constexpr unsigned int ALPLGBPDPIK_TypeDefinitionIndex = 76383;
+inline static constexpr unsigned int ALPLGBPDPIK_TypeDefinitionIndex = 78714;
 
 	class ALPLGBPDPIK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* _BaseAddSequence_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* _MultSequence_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* _MultSequence_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* _BaseAddSequence_k__BackingField; // 0x18
 		::GLBAOKOHKCF _PropertyType_k__BackingField; // 0x20
 		::System::Void _ctor(::GLBAOKOHKCF a1, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* a2, ::System::Collections::Generic::List_1<::RPG::GameCore::FixPoint>* a3)
 		{

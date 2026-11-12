@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE966730)
-#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_KIFAGHIPEDN_OFFSET UNITYSDK_OFFSET(0xE9667F0)
+#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF484F10)
+#define SCENENLIGHTMANAGER_TRANSFORMEXPORTDATA_KIFAGHIPEDN_OFFSET UNITYSDK_OFFSET(0xF484FD0)
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int TransformExportData_TypeDefinitionIndex = 49145;
+	inline static constexpr unsigned int TransformExportData_TypeDefinitionIndex = 50221;
 
 	class TransformExportData : public ::System::Object
 	{

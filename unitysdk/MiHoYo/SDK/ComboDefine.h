@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_COMBODEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC47F10)
+#define MIHOYO_SDK_COMBODEFINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDD1040)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ComboDefine_TypeDefinitionIndex = 7573;
+	inline static constexpr unsigned int ComboDefine_TypeDefinitionIndex = 7582;
 
 	class ComboDefine : public ::System::Object
 	{

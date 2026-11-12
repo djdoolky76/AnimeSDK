@@ -7,23 +7,23 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class SilverWolfTabGroupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SILVERWOLFTABGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE96F0)
-#define RPG_GAMECORE_SILVERWOLFTABGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAE9410)
+#define RPG_GAMECORE_SILVERWOLFTABGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFB4C0)
+#define RPG_GAMECORE_SILVERWOLFTABGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ECFB1E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolfTabGroupRow_TypeDefinitionIndex = 12349;
+	inline static constexpr unsigned int SilverWolfTabGroupRow_TypeDefinitionIndex = 12416;
 
 	class SilverWolfTabGroupRow : public ::System::Object
 	{
 	public:
-		::System::String* RaidFigurePath; // 0x10
-		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x18
-		::System::String* ExploreFigurePath; // 0x20
-		::System::String* IconPath; // 0x28
-		::RPG::Client::TextID Name; // 0x30
-		::System::UInt32 GroupID; // 0x40
-		::System::UInt32 ActivityModuleID; // 0x44
+		::System::String* ExploreFigurePath; // 0x10
+		::System::String* IconPath; // 0x18
+		::System::String* RaidFigurePath; // 0x20
+		::Il2CppArray<::RPG::GameCore::ConditionParam*>* Conditions; // 0x28
+		::System::UInt32 ActivityModuleID; // 0x30
+		::System::UInt32 GroupID; // 0x34
+		::RPG::Client::TextID Name; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SILVERWOLFTABGROUPROW_CTOR_OFFSET))(this);

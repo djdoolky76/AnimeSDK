@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ShowAttackTimeParam; }
 
-#define MADHNHEMBOJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8451D0)
-#define MADHNHEMBOJ___C__DISPLAYCLASS8_0__GETATTACKTIME_B__0_OFFSET UNITYSDK_OFFSET(0xB84B4F0)
+#define MADHNHEMBOJ___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC0A6740)
+#define MADHNHEMBOJ___C__DISPLAYCLASS8_0__GETATTACKTIME_B__0_OFFSET UNITYSDK_OFFSET(0xC0ACB00)
 
-inline static constexpr unsigned int MADHNHEMBOJ___c__DisplayClass8_0_TypeDefinitionIndex = 71209;
+inline static constexpr unsigned int MADHNHEMBOJ___c__DisplayClass8_0_TypeDefinitionIndex = 73191;
 
 	class MADHNHEMBOJ___c__DisplayClass8_0 : public ::System::Object
 	{

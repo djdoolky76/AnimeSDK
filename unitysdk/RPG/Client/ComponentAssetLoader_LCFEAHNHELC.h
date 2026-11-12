@@ -6,20 +6,20 @@ namespace RPG::Client { class ComponentAssetLoader_KPIMOEDONLE; }
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define RPG_CLIENT_COMPONENTASSETLOADER_LCFEAHNHELC_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xCBB1E80)
-#define RPG_CLIENT_COMPONENTASSETLOADER_LCFEAHNHELC_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBB2840)
-#define RPG_CLIENT_COMPONENTASSETLOADER_LCFEAHNHELC_IGFIKKDJKNI_OFFSET UNITYSDK_OFFSET(0xCBB2780)
+#define RPG_CLIENT_COMPONENTASSETLOADER_LCFEAHNHELC_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xD525DE0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_LCFEAHNHELC_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5267D0)
+#define RPG_CLIENT_COMPONENTASSETLOADER_LCFEAHNHELC_IGFIKKDJKNI_OFFSET UNITYSDK_OFFSET(0xD526710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ComponentAssetLoader_LCFEAHNHELC_TypeDefinitionIndex = 68393;
+	inline static constexpr unsigned int ComponentAssetLoader_LCFEAHNHELC_TypeDefinitionIndex = 70340;
 
 	class ComponentAssetLoader_LCFEAHNHELC : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::Object*>** StaticGet_KKHALCLJGNJ()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("RPG.Client", "LCFEAHNHELC")->GetStaticField(0x1B300);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("RPG.Client", "LCFEAHNHELC")->GetStaticField(0x1AF20);
 		}
 
 		static ::System::Void _cctor()

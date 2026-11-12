@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGameShare/TeamTowersCore/PendingSkillEffectType.h"
 class KPPPKJJDPBK;
 
-inline static constexpr unsigned int OJMIDGODIKC_TypeDefinitionIndex = 37098;
+inline static constexpr unsigned int OJMIDGODIKC_TypeDefinitionIndex = 38026;
 
 	struct alignas(8) OJMIDGODIKC
 	{

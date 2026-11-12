@@ -9,26 +9,26 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class RtDefenceBatchMonsterInfo; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LOKEGILJPKG_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xB806CD0)
-#define LOKEGILJPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB806CE0)
-#define LOKEGILJPKG_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0xB806CC0)
-#define LOKEGILJPKG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB8064C0)
-#define LOKEGILJPKG_JLNLAPDLKCC_OFFSET UNITYSDK_OFFSET(0xB806A50)
-#define LOKEGILJPKG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB806330)
+#define LOKEGILJPKG_BGDKFHEBDFJ_OFFSET UNITYSDK_OFFSET(0xC067E20)
+#define LOKEGILJPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xC067E30)
+#define LOKEGILJPKG_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0xC067E10)
+#define LOKEGILJPKG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC067610)
+#define LOKEGILJPKG_JLNLAPDLKCC_OFFSET UNITYSDK_OFFSET(0xC067BA0)
+#define LOKEGILJPKG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC067480)
 
-inline static constexpr unsigned int LOKEGILJPKG_TypeDefinitionIndex = 54315;
+inline static constexpr unsigned int LOKEGILJPKG_TypeDefinitionIndex = 55479;
 
 	class LOKEGILJPKG : public ::System::Object
 	{
 	public:
-		::POEGKFEADIE* BHJDJDPLCLP; // 0x10
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* FPEOFLNHOOL; // 0x10
 		::RPG::GameCore::RtDefenceBatchMonsterInfo* IGHAHBNLIJA; // 0x18
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* FPEOFLNHOOL; // 0x20
-		::System::Collections::Generic::List_1<::LOKEGILJPKG*>* ADENKDFOMFN; // 0x28
-		::RPG::GameCore::RtDefenceBatchSpawnState DLNIGFGLPLJ; // 0x30
-		::System::Int32 INAKMLFKHAM; // 0x34
-		::System::Int32 BOGKJCEABFK; // 0x38
-		::System::Int32 NBGFIOIOJDL; // 0x3C
+		::System::Collections::Generic::List_1<::LOKEGILJPKG*>* ADENKDFOMFN; // 0x20
+		::POEGKFEADIE* BHJDJDPLCLP; // 0x28
+		::System::Int32 BOGKJCEABFK; // 0x30
+		::System::Int32 NBGFIOIOJDL; // 0x34
+		::RPG::GameCore::RtDefenceBatchSpawnState DLNIGFGLPLJ; // 0x38
+		::System::Int32 INAKMLFKHAM; // 0x3C
 		::System::Int32 IDCHMNBJKGA; // 0x40
 		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint PGMIOKKLHIE; // 0x48

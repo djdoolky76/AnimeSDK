@@ -7,13 +7,13 @@ namespace RPG::Client { class RoadRashGameAbilityValueModifer; }
 namespace RPG::Client { class RoadRashGameModifier_SpeedBoost; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_SPEEDBOOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D333280)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_SPEEDBOOST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D333290)
-#define RPG_CLIENT_ROADRASHGAMEMODIFIER_SPEEDBOOST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D333240)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_SPEEDBOOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5427F0)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_SPEEDBOOST_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E542800)
+#define RPG_CLIENT_ROADRASHGAMEMODIFIER_SPEEDBOOST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5427B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameModifier_SpeedBoost_TypeDefinitionIndex = 10310;
+	inline static constexpr unsigned int RoadRashGameModifier_SpeedBoost_TypeDefinitionIndex = 10320;
 
 	class RoadRashGameModifier_SpeedBoost : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{

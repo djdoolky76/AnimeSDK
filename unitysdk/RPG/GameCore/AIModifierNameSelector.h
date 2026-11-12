@@ -8,13 +8,13 @@ namespace RPG::GameCore { class SortByModifierValue; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AIMODIFIERNAMESELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D33A050)
-#define RPG_GAMECORE_AIMODIFIERNAMESELECTOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D33A0B0)
-#define RPG_GAMECORE_AIMODIFIERNAMESELECTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D339FD0)
+#define RPG_GAMECORE_AIMODIFIERNAMESELECTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5495C0)
+#define RPG_GAMECORE_AIMODIFIERNAMESELECTOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E549620)
+#define RPG_GAMECORE_AIMODIFIERNAMESELECTOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E549540)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIModifierNameSelector_TypeDefinitionIndex = 15597;
+	inline static constexpr unsigned int AIModifierNameSelector_TypeDefinitionIndex = 15755;
 
 	class AIModifierNameSelector : public ::RPG::GameCore::AISelector
 	{

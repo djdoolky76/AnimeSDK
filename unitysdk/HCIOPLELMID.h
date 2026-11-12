@@ -4,18 +4,18 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace System { class String; }
 
-#define HCIOPLELMID_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x15C1FCB0)
-#define HCIOPLELMID_IHIHFINNDAJ_OFFSET UNITYSDK_OFFSET(0x15C1FCD0)
-#define HCIOPLELMID_SET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x15C1FCC0)
+#define HCIOPLELMID_GET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x16B62AA0)
+#define HCIOPLELMID_IHIHFINNDAJ_OFFSET UNITYSDK_OFFSET(0x16B62AC0)
+#define HCIOPLELMID_SET_ISENABLED_OFFSET UNITYSDK_OFFSET(0x16B62AB0)
 
-inline static constexpr unsigned int HCIOPLELMID_TypeDefinitionIndex = 56559;
+inline static constexpr unsigned int HCIOPLELMID_TypeDefinitionIndex = 57779;
 
 	class HCIOPLELMID : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet__IsEnabled_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HCIOPLELMID")->GetStaticField(0x1C80);
+			return (::System::Boolean*)UnitySDK::FromName("", "HCIOPLELMID")->GetStaticField(0x16020);
 		}
 
 		static ::System::Boolean get_IsEnabled()

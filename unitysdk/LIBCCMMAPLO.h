@@ -3,10 +3,10 @@
 class MGNNDAHLACH;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LIBCCMMAPLO_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C21E0)
-#define LIBCCMMAPLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6C2210)
+#define LIBCCMMAPLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBF5A0C0)
+#define LIBCCMMAPLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF5A0F0)
 
-inline static constexpr unsigned int LIBCCMMAPLO_TypeDefinitionIndex = 53864;
+inline static constexpr unsigned int LIBCCMMAPLO_TypeDefinitionIndex = 55028;
 
 	class LIBCCMMAPLO
 	{

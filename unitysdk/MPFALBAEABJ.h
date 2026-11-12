@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class NGFHCJIAOLH;
 
-#define MPFALBAEABJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3D440)
+#define MPFALBAEABJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC2FBE70)
 
-inline static constexpr unsigned int MPFALBAEABJ_TypeDefinitionIndex = 81264;
+inline static constexpr unsigned int MPFALBAEABJ_TypeDefinitionIndex = 84044;
 
 	class MPFALBAEABJ : public ::System::Object
 	{

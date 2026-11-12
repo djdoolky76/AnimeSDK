@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define BMFFPNOKOJF_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA4A50)
+#define BMFFPNOKOJF_CTOR_OFFSET UNITYSDK_OFFSET(0xC4333F0)
 
-inline static constexpr unsigned int BMFFPNOKOJF_TypeDefinitionIndex = 65675;
+inline static constexpr unsigned int BMFFPNOKOJF_TypeDefinitionIndex = 67597;
 
 	class BMFFPNOKOJF : public ::System::Object
 	{
 	public:
-		::System::String* IICNEELOMDJ; // 0x10
-		::System::String* OLOIFNNLKJP; // 0x18
+		::System::String* OLOIFNNLKJP; // 0x10
+		::System::String* IICNEELOMDJ; // 0x18
 		::RPG::Client::TextID OEPLADOIMOC; // 0x20
 		::System::Void _ctor()
 		{

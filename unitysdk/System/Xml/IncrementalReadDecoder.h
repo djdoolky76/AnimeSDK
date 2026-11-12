@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_XML_INCREMENTALREADDECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEA56D0)
+#define SYSTEM_XML_INCREMENTALREADDECODER_CTOR_OFFSET UNITYSDK_OFFSET(0x20154E40)
 
 namespace System::Xml
 {

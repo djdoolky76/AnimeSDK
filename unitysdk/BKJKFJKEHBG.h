@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvAIRemeberGobackPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BKJKFJKEHBG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA59A60)
-#define BKJKFJKEHBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA59A90)
+#define BKJKFJKEHBG_CTOR_OFFSET UNITYSDK_OFFSET(0xC122A80)
+#define BKJKFJKEHBG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC122AB0)
 
-inline static constexpr unsigned int BKJKFJKEHBG_TypeDefinitionIndex = 52331;
+inline static constexpr unsigned int BKJKFJKEHBG_TypeDefinitionIndex = 53437;
 
 	class BKJKFJKEHBG
 	{

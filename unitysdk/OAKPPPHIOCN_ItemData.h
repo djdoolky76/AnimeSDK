@@ -6,9 +6,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define OAKPPPHIOCN_ITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD29E10)
+#define OAKPPPHIOCN_ITEMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC628EE0)
 
-inline static constexpr unsigned int OAKPPPHIOCN_ItemData_TypeDefinitionIndex = 48868;
+inline static constexpr unsigned int OAKPPPHIOCN_ItemData_TypeDefinitionIndex = 49914;
 
 	class OAKPPPHIOCN_ItemData : public ::System::Object
 	{

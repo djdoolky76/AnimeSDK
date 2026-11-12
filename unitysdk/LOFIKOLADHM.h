@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsInsertAction; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOFIKOLADHM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FF430)
-#define LOFIKOLADHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7FF460)
+#define LOFIKOLADHM_CTOR_OFFSET UNITYSDK_OFFSET(0xC05F410)
+#define LOFIKOLADHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC05F440)
 
-inline static constexpr unsigned int LOFIKOLADHM_TypeDefinitionIndex = 54673;
+inline static constexpr unsigned int LOFIKOLADHM_TypeDefinitionIndex = 55839;
 
 	class LOFIKOLADHM
 	{

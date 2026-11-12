@@ -8,27 +8,27 @@ namespace System::Reflection { class MethodBase; }
 namespace System::Reflection { class MethodInfo; }
 namespace Unity::IL2CPP::CompilerServices { class Il2CppIntrinsics_6138A94ECB4B0862_LateBound; }
 
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_BUILDBYDYNAMICMETHODCALL_OFFSET UNITYSDK_OFFSET(0x1B9E5F50)
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9E5F20)
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_DIRECTCALL_OFFSET UNITYSDK_OFFSET(0x1B9E5F70)
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_GETCURRENTMETHODRID_OFFSET UNITYSDK_OFFSET(0x1B9E5F40)
-#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_UNLIKELY_OFFSET UNITYSDK_OFFSET(0x1B9E5F30)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_BUILDBYDYNAMICMETHODCALL_OFFSET UNITYSDK_OFFSET(0x1CB6EDF0)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB6EDC0)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_DIRECTCALL_OFFSET UNITYSDK_OFFSET(0x1CB6EE10)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_GETCURRENTMETHODRID_OFFSET UNITYSDK_OFFSET(0x1CB6EDE0)
+#define UNITY_IL2CPP_COMPILERSERVICES_IL2CPPINTRINSICS_6138A94ECB4B0862_UNLIKELY_OFFSET UNITYSDK_OFFSET(0x1CB6EDD0)
 
 namespace Unity::IL2CPP::CompilerServices
 {
-	inline static constexpr unsigned int Il2CppIntrinsics_6138A94ECB4B0862_TypeDefinitionIndex = 7126;
+	inline static constexpr unsigned int Il2CppIntrinsics_6138A94ECB4B0862_TypeDefinitionIndex = 7137;
 
 	class Il2CppIntrinsics_6138A94ECB4B0862 : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::MethodInfo*, ::System::Object*>** StaticGet_Cache()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::MethodInfo*, ::System::Object*>**)UnitySDK::FromName("Unity.IL2CPP.CompilerServices", "Il2CppIntrinsics")->GetStaticField(0x70110);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Reflection::MethodInfo*, ::System::Object*>**)UnitySDK::FromName("Unity.IL2CPP.CompilerServices", "Il2CppIntrinsics")->GetStaticField(0x73DD0);
 		}
 
 		static ::System::Func_2<::System::Reflection::MethodInfo*, ::System::Object*>** StaticGet__buildByDynamicMethodDelegate()
 		{
-			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Object*>**)UnitySDK::FromName("Unity.IL2CPP.CompilerServices", "Il2CppIntrinsics")->GetStaticField(0x70118);
+			return (::System::Func_2<::System::Reflection::MethodInfo*, ::System::Object*>**)UnitySDK::FromName("Unity.IL2CPP.CompilerServices", "Il2CppIntrinsics")->GetStaticField(0x73DD8);
 		}
 
 		static ::System::Void _cctor()

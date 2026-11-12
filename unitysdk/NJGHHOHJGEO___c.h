@@ -4,18 +4,18 @@
 class NJGHHOHJGEO;
 namespace System { class Object; }
 
-#define NJGHHOHJGEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB3E0C0)
-#define NJGHHOHJGEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB3E100)
-#define NJGHHOHJGEO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB3E110)
+#define NJGHHOHJGEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0270B0)
+#define NJGHHOHJGEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0270F0)
+#define NJGHHOHJGEO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F027100)
 
-inline static constexpr unsigned int NJGHHOHJGEO___c_TypeDefinitionIndex = 32430;
+inline static constexpr unsigned int NJGHHOHJGEO___c_TypeDefinitionIndex = 33343;
 
 	class NJGHHOHJGEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64C50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D1E0);
 		}
 
 		static ::System::Void _cctor()

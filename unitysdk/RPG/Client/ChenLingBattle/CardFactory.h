@@ -5,12 +5,12 @@ namespace RPG::Client::ChenLingBattle { class CardConfig; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xCA3B840)
-#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET UNITYSDK_OFFSET(0xCA3B7F0)
+#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIGS_OFFSET UNITYSDK_OFFSET(0xD39F7B0)
+#define RPG_CLIENT_CHENLINGBATTLE_CARDFACTORY_CREATECARDCONFIG_OFFSET UNITYSDK_OFFSET(0xD39F760)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int CardFactory_TypeDefinitionIndex = 76224;
+	inline static constexpr unsigned int CardFactory_TypeDefinitionIndex = 78555;
 
 	class CardFactory : public ::System::Object
 	{

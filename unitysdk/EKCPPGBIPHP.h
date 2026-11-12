@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/LCPNALBMKIB.h"
 
-#define EKCPPGBIPHP_CTOR_OFFSET UNITYSDK_OFFSET(0x154FFA60)
-#define EKCPPGBIPHP_DANKHPIIDOH_OFFSET UNITYSDK_OFFSET(0x154FF800)
+#define EKCPPGBIPHP_CTOR_OFFSET UNITYSDK_OFFSET(0x16447CF0)
+#define EKCPPGBIPHP_DANKHPIIDOH_OFFSET UNITYSDK_OFFSET(0x16447A90)
 
-inline static constexpr unsigned int EKCPPGBIPHP_TypeDefinitionIndex = 66172;
+inline static constexpr unsigned int EKCPPGBIPHP_TypeDefinitionIndex = 68108;
 
 	class EKCPPGBIPHP : public ::LCPNALBMKIB
 	{

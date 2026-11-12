@@ -4,21 +4,21 @@
 namespace RPG::GameCore { class LevelAudioSwitch; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E1610)
-#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6E1620)
-#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE6E1660)
-#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE6E1840)
-#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE6E1890)
+#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xF1E3710)
+#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF1E3720)
+#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1E3760)
+#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF1E3930)
+#define RPG_GAMECORE_LEVELAUDIOSWITCHTASK_TICK_OFFSET UNITYSDK_OFFSET(0xF1E3980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAudioSwitchTask_TypeDefinitionIndex = 58181;
+	inline static constexpr unsigned int LevelAudioSwitchTask_TypeDefinitionIndex = 59435;
 
 	class LevelAudioSwitchTask : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::LevelAudioSwitch* _ConfigRef; // 0x18
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::RPG::GameCore::LevelAudioSwitch* _ConfigRef; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LevelAudioSwitch* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LevelAudioSwitch*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELAUDIOSWITCHTASK_CTOR_OFFSET))(this, a1, a2);

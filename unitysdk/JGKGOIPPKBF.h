@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureSetAttackTargetMonsterDie; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JGKGOIPPKBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB19ADB0)
-#define JGKGOIPPKBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB19ADE0)
+#define JGKGOIPPKBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B5620)
+#define JGKGOIPPKBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9B5650)
 
-inline static constexpr unsigned int JGKGOIPPKBF_TypeDefinitionIndex = 52531;
+inline static constexpr unsigned int JGKGOIPPKBF_TypeDefinitionIndex = 53637;
 
 	class JGKGOIPPKBF
 	{

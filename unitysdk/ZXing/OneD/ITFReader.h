@@ -2,43 +2,43 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/OneD/OneDReader.h"
 
-#define ZXING_ONED_ITFREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C2A90)
+#define ZXING_ONED_ITFREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x209721B0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int ITFReader_TypeDefinitionIndex = 6973;
+	inline static constexpr unsigned int ITFReader_TypeDefinitionIndex = 6984;
 
 	class ITFReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
 		static ::Il2CppArray<::System::Int32>** StaticGet_START_PATTERN()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x22CF0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x433D0);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_END_PATTERN_REVERSED()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x22CF8);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x433D8);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_DEFAULT_ALLOWED_LENGTHS()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x22D00);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x433E0);
 		}
 
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_PATTERNS()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x22D08);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x433E8);
 		}
 
 		static ::System::Int32* StaticGet_MAX_AVG_VARIANCE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x7B80);
+			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0xE370);
 		}
 
 		static ::System::Int32* StaticGet_MAX_INDIVIDUAL_VARIANCE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0x7B84);
+			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "ITFReader")->GetStaticField(0xE374);
 		}
 
 		static ::System::Void _cctor()

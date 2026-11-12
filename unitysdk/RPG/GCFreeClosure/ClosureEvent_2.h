@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GCFreeClosure
 {
-	inline static constexpr unsigned int ClosureEvent_2_TypeDefinitionIndex = 6446;
+	inline static constexpr unsigned int ClosureEvent_2_TypeDefinitionIndex = 6453;
 
 	template <typename T1, typename T2>
 	struct alignas(8) ClosureEvent_2

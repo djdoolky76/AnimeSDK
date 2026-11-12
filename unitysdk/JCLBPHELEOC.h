@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ValueTuple_2.h"
 
-#define JCLBPHELEOC_APHNNGCLBDP_OFFSET UNITYSDK_OFFSET(0x1CB8F1D0)
-#define JCLBPHELEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8F210)
+#define JCLBPHELEOC_APHNNGCLBDP_OFFSET UNITYSDK_OFFSET(0x1DD557C0)
+#define JCLBPHELEOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD55800)
 
-inline static constexpr unsigned int JCLBPHELEOC_TypeDefinitionIndex = 42226;
+inline static constexpr unsigned int JCLBPHELEOC_TypeDefinitionIndex = 43201;
 
 	class JCLBPHELEOC : public ::System::Object
 	{

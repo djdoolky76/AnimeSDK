@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyContext_1; }
 
-#define OBFCJHPPJFE_CTOR_OFFSET UNITYSDK_OFFSET(0xBD3D140)
-#define OBFCJHPPJFE_GET_PROPERTYCONTEXT_OFFSET UNITYSDK_OFFSET(0xBD3D120)
-#define OBFCJHPPJFE_SET_PROPERTYCONTEXT_OFFSET UNITYSDK_OFFSET(0xBD3D130)
+#define OBFCJHPPJFE_CTOR_OFFSET UNITYSDK_OFFSET(0xC641390)
+#define OBFCJHPPJFE_GET_PROPERTYCONTEXT_OFFSET UNITYSDK_OFFSET(0xC641370)
+#define OBFCJHPPJFE_SET_PROPERTYCONTEXT_OFFSET UNITYSDK_OFFSET(0xC641380)
 
-inline static constexpr unsigned int OBFCJHPPJFE_TypeDefinitionIndex = 51921;
+inline static constexpr unsigned int OBFCJHPPJFE_TypeDefinitionIndex = 53012;
 
 	class OBFCJHPPJFE : public ::System::Object
 	{

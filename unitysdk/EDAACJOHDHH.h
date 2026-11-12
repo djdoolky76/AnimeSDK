@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EDAACJOHDHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1330ED10)
+#define EDAACJOHDHH_CTOR_OFFSET UNITYSDK_OFFSET(0x140CAE20)
 
-inline static constexpr unsigned int EDAACJOHDHH_TypeDefinitionIndex = 55982;
+inline static constexpr unsigned int EDAACJOHDHH_TypeDefinitionIndex = 57185;
 
 	class EDAACJOHDHH : public ::System::Object
 	{

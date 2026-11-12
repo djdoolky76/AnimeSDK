@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarSourceConfigRow; }
 
-#define RPG_GAMECORE_AVATARSOURCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D430550)
-#define RPG_GAMECORE_AVATARSOURCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D430460)
+#define RPG_GAMECORE_AVATARSOURCECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6511F0)
+#define RPG_GAMECORE_AVATARSOURCECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E651100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSourceConfigRow_TypeDefinitionIndex = 10940;
+	inline static constexpr unsigned int AvatarSourceConfigRow_TypeDefinitionIndex = 10956;
 
 	class AvatarSourceConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 SourceAvatarID; // 0x10
-		::System::UInt32 AvatarID; // 0x14
+		::System::UInt32 AvatarID; // 0x10
+		::System::UInt32 SourceAvatarID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARSOURCECONFIGROW_CTOR_OFFSET))(this);

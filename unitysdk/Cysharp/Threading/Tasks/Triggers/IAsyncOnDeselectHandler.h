@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnDeselectHandler_TypeDefinitionIndex = 38622;
+	inline static constexpr unsigned int IAsyncOnDeselectHandler_TypeDefinitionIndex = 39551;
 
 	class IAsyncOnDeselectHandler
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AnimSpeedNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F30E0)
-#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3F2F20)
+#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E613360)
+#define RPG_GAMECORE_ANIMSPEEDNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6131A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimSpeedNotifyConfig_TypeDefinitionIndex = 16959;
+	inline static constexpr unsigned int AnimSpeedNotifyConfig_TypeDefinitionIndex = 17126;
 
 	class AnimSpeedNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

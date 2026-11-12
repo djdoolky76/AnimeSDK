@@ -4,12 +4,12 @@
 #include "unitysdk/UnityEngine/Color.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_AEJGJGDEDOM_OFFSET UNITYSDK_OFFSET(0xE952DD0)
-#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE952E50)
+#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_AEJGJGDEDOM_OFFSET UNITYSDK_OFFSET(0xF471420)
+#define RPGTOOLS_TIMELINE_VFX_PAGETEARCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xF4714A0)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int PageTearConfig_TypeDefinitionIndex = 48677;
+	inline static constexpr unsigned int PageTearConfig_TypeDefinitionIndex = 49723;
 
 	class PageTearConfig : public ::System::Object
 	{

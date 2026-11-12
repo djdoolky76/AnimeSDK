@@ -4,18 +4,18 @@
 class OIMLMDHOHAP;
 namespace System { class Object; }
 
-#define OIMLMDHOHAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE750A0)
-#define OIMLMDHOHAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE750E0)
-#define OIMLMDHOHAP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DE750F0)
+#define OIMLMDHOHAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11D050)
+#define OIMLMDHOHAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F11D090)
+#define OIMLMDHOHAP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F11D0A0)
 
-inline static constexpr unsigned int OIMLMDHOHAP___c_TypeDefinitionIndex = 28915;
+inline static constexpr unsigned int OIMLMDHOHAP___c_TypeDefinitionIndex = 29505;
 
 	class OIMLMDHOHAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E000);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x186F0);
 		}
 
 		static ::System::Void _cctor()

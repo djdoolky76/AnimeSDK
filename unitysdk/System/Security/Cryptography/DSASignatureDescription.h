@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Security/Cryptography/SignatureDescription.h"
 
-#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1C358FF0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_DSASIGNATUREDESCRIPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4DF7A0)
 
 namespace System::Security::Cryptography
 {

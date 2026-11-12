@@ -6,20 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ConvinceGameplayNPCConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5DD520)
-#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5DCE40)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7EF960)
+#define RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7EF280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConvinceGameplayNPCConfigRow_TypeDefinitionIndex = 13097;
+	inline static constexpr unsigned int ConvinceGameplayNPCConfigRow_TypeDefinitionIndex = 13165;
 
 	class ConvinceGameplayNPCConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* NPCDescriptionID; // 0x10
-		::System::String* NPCIconPath; // 0x18
-		::RPG::Client::TextID NPCNameID; // 0x20
-		::System::UInt32 ID; // 0x30
+		::System::String* NPCIconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* NPCDescriptionID; // 0x18
+		::System::UInt32 ID; // 0x20
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID NPCNameID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CONVINCEGAMEPLAYNPCCONFIGROW_CTOR_OFFSET))(this);

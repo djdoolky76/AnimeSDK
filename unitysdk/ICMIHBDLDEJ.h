@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define ICMIHBDLDEJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB07520)
-#define ICMIHBDLDEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB075A0)
+#define ICMIHBDLDEJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DCCBFC0)
+#define ICMIHBDLDEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCC040)
 
-inline static constexpr unsigned int ICMIHBDLDEJ_TypeDefinitionIndex = 42163;
+inline static constexpr unsigned int ICMIHBDLDEJ_TypeDefinitionIndex = 43138;
 
 	class ICMIHBDLDEJ : public ::System::Object
 	{

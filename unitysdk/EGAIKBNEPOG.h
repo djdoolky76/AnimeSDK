@@ -7,17 +7,17 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define EGAIKBNEPOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD7A790)
-#define EGAIKBNEPOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD7A7D0)
-#define EGAIKBNEPOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD7A730)
+#define EGAIKBNEPOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF4BE30)
+#define EGAIKBNEPOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF4BE70)
+#define EGAIKBNEPOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF4BDD0)
 
-inline static constexpr unsigned int EGAIKBNEPOG_TypeDefinitionIndex = 23121;
+inline static constexpr unsigned int EGAIKBNEPOG_TypeDefinitionIndex = 23550;
 
 	class EGAIKBNEPOG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::System::String* CIDCEJCGOGB; // 0x20
+		::System::String* CIDCEJCGOGB; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
 		::Il2CppArray<::RPG::GameCore::JsonEnum*>* DCLGGMAEMAO; // 0x28
 		::System::Void _ctor()
 		{

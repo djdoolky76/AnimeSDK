@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleSampleConfig; }
 
-#define RPG_GAMECORE_MARBLESAMPLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D845FB0)
-#define RPG_GAMECORE_MARBLESAMPLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D83FAD0)
+#define RPG_GAMECORE_MARBLESAMPLECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA609A0)
+#define RPG_GAMECORE_MARBLESAMPLECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA5A4C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleSampleConfig_TypeDefinitionIndex = 16911;
+	inline static constexpr unsigned int MarbleSampleConfig_TypeDefinitionIndex = 17078;
 
 	class MarbleSampleConfig : public ::RPG::GameCore::JsonConfig
 	{

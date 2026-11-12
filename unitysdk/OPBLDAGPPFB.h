@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ExpeditionBattleMap; }
 
-#define OPBLDAGPPFB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFA09B0)
-#define OPBLDAGPPFB_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA0B90)
+#define OPBLDAGPPFB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC8A1C80)
+#define OPBLDAGPPFB_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A1E60)
 
-inline static constexpr unsigned int OPBLDAGPPFB_TypeDefinitionIndex = 63866;
+inline static constexpr unsigned int OPBLDAGPPFB_TypeDefinitionIndex = 65308;
 
 	class OPBLDAGPPFB : public ::System::Object
 	{

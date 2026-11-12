@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class IMABGHCOMFF;
 
-#define IMABGHCOMFF___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4A28B0)
-#define IMABGHCOMFF___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x1C4A29A0)
+#define IMABGHCOMFF___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6263F0)
+#define IMABGHCOMFF___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x1D6264E0)
 
-inline static constexpr unsigned int IMABGHCOMFF___c__DisplayClass19_0_TypeDefinitionIndex = 41518;
+inline static constexpr unsigned int IMABGHCOMFF___c__DisplayClass19_0_TypeDefinitionIndex = 42493;
 
 	class IMABGHCOMFF___c__DisplayClass19_0 : public ::System::Object
 	{

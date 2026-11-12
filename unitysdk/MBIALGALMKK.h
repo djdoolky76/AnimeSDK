@@ -4,9 +4,9 @@
 #include "unitysdk/System/ValueTuple_2.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define MBIALGALMKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924B30)
+#define MBIALGALMKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE6050)
 
-inline static constexpr unsigned int MBIALGALMKK_TypeDefinitionIndex = 42256;
+inline static constexpr unsigned int MBIALGALMKK_TypeDefinitionIndex = 43231;
 
 	class MBIALGALMKK : public ::System::Object
 	{

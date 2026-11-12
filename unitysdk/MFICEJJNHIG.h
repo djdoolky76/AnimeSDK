@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SaveCharacterState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MFICEJJNHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB8FED80)
-#define MFICEJJNHIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8FED90)
-#define MFICEJJNHIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8FEDD0)
-#define MFICEJJNHIG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8FF040)
-#define MFICEJJNHIG_TICK_OFFSET UNITYSDK_OFFSET(0xB8FF090)
+#define MFICEJJNHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B1010)
+#define MFICEJJNHIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1B1020)
+#define MFICEJJNHIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1B1060)
+#define MFICEJJNHIG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1B12D0)
+#define MFICEJJNHIG_TICK_OFFSET UNITYSDK_OFFSET(0xC1B1320)
 
-inline static constexpr unsigned int MFICEJJNHIG_TypeDefinitionIndex = 55329;
+inline static constexpr unsigned int MFICEJJNHIG_TypeDefinitionIndex = 56511;
 
 	class MFICEJJNHIG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SaveCharacterState* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SaveCharacterState* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SaveCharacterState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SaveCharacterState*))((::PBYTE)hIl2Cpp + MFICEJJNHIG_CTOR_OFFSET))(this, a1, a2);

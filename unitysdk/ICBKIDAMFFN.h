@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ShowGuideTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ICBKIDAMFFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E4B870)
-#define ICBKIDAMFFN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E4B880)
-#define ICBKIDAMFFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E4B8C0)
-#define ICBKIDAMFFN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E4BA90)
-#define ICBKIDAMFFN_TICK_OFFSET UNITYSDK_OFFSET(0x15E4BAE0)
+#define ICBKIDAMFFN_CTOR_OFFSET UNITYSDK_OFFSET(0x16DF6850)
+#define ICBKIDAMFFN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DF6860)
+#define ICBKIDAMFFN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DF68A0)
+#define ICBKIDAMFFN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16DF6A00)
+#define ICBKIDAMFFN_TICK_OFFSET UNITYSDK_OFFSET(0x16DF6A50)
 
-inline static constexpr unsigned int ICBKIDAMFFN_TypeDefinitionIndex = 58658;
+inline static constexpr unsigned int ICBKIDAMFFN_TypeDefinitionIndex = 59925;
 
 	class ICBKIDAMFFN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ShowGuideTalk* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::ShowGuideTalk* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowGuideTalk* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowGuideTalk*))((::PBYTE)hIl2Cpp + ICBKIDAMFFN_CTOR_OFFSET))(this, a1, a2);

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LBEHAPAJCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F9CA0)
-#define LBEHAPAJCBI_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xB5F9C60)
+#define LBEHAPAJCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBE8BE60)
+#define LBEHAPAJCBI_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xBE8BE20)
 
-inline static constexpr unsigned int LBEHAPAJCBI_TypeDefinitionIndex = 67445;
+inline static constexpr unsigned int LBEHAPAJCBI_TypeDefinitionIndex = 69389;
 
 	class LBEHAPAJCBI : public ::System::Object
 	{

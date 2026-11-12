@@ -5,10 +5,10 @@ class MOBLPGFPLEM;
 namespace RPG::AvatarSystem::Property { template <typename T> class PropertyModifierBuilder_1; }
 namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 
-#define GHGJAPAEJIA_BUILD_OFFSET UNITYSDK_OFFSET(0x15A1EB70)
-#define GHGJAPAEJIA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1EB50)
+#define GHGJAPAEJIA_BUILD_OFFSET UNITYSDK_OFFSET(0x169592A0)
+#define GHGJAPAEJIA_CTOR_OFFSET UNITYSDK_OFFSET(0x16959280)
 
-inline static constexpr unsigned int GHGJAPAEJIA_TypeDefinitionIndex = 75133;
+inline static constexpr unsigned int GHGJAPAEJIA_TypeDefinitionIndex = 77460;
 
 	class GHGJAPAEJIA
 	{

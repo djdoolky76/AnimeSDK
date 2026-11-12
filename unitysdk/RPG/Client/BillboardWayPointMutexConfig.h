@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Billboard { class BillboardIdentifier; }
 
-#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC884710)
+#define RPG_CLIENT_BILLBOARDWAYPOINTMUTEXCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD1E9E30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BillboardWayPointMutexConfig_TypeDefinitionIndex = 60498;
+	inline static constexpr unsigned int BillboardWayPointMutexConfig_TypeDefinitionIndex = 61788;
 
 	class BillboardWayPointMutexConfig : public ::System::Object
 	{

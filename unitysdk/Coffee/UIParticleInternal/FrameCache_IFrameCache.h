@@ -3,7 +3,7 @@
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int FrameCache_IFrameCache_TypeDefinitionIndex = 45131;
+	inline static constexpr unsigned int FrameCache_IFrameCache_TypeDefinitionIndex = 40844;
 
 	class FrameCache_IFrameCache
 	{

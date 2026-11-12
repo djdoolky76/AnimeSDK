@@ -4,10 +4,10 @@
 namespace RPG::Client { class ActivityElationAvatarData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JCDIFIAMNEA___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1657CC20)
-#define JCDIFIAMNEA___C__DISPLAYCLASS23_0___REFRESHLOADERVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1657D900)
+#define JCDIFIAMNEA___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B60E0)
+#define JCDIFIAMNEA___C__DISPLAYCLASS23_0___REFRESHLOADERVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xB8B6DB0)
 
-inline static constexpr unsigned int JCDIFIAMNEA___c__DisplayClass23_0_TypeDefinitionIndex = 71367;
+inline static constexpr unsigned int JCDIFIAMNEA___c__DisplayClass23_0_TypeDefinitionIndex = 73344;
 
 	class JCDIFIAMNEA___c__DisplayClass23_0 : public ::System::Object
 	{

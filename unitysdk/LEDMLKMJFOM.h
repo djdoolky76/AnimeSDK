@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideSkillTargetInfo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LEDMLKMJFOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB64EDA0)
-#define LEDMLKMJFOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64EDD0)
+#define LEDMLKMJFOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE5410)
+#define LEDMLKMJFOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEE5440)
 
-inline static constexpr unsigned int LEDMLKMJFOM_TypeDefinitionIndex = 55248;
+inline static constexpr unsigned int LEDMLKMJFOM_TypeDefinitionIndex = 56429;
 
 	class LEDMLKMJFOM
 	{

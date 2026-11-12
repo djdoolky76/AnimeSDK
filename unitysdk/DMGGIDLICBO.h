@@ -11,45 +11,45 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DMGGIDLICBO_BJCJMIHHPLN_OFFSET UNITYSDK_OFFSET(0xFEBE740)
-#define DMGGIDLICBO_CBEHMJHPNED_OFFSET UNITYSDK_OFFSET(0xFEC00C0)
-#define DMGGIDLICBO_CTOR_OFFSET UNITYSDK_OFFSET(0xFEBE520)
-#define DMGGIDLICBO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEBEAB0)
-#define DMGGIDLICBO_EEBBJAIGJDO_OFFSET UNITYSDK_OFFSET(0xFEBDFB0)
-#define DMGGIDLICBO_FGKIJNFGPHJ_OFFSET UNITYSDK_OFFSET(0xFEBFEE0)
-#define DMGGIDLICBO_FLOCDIBINPI_OFFSET UNITYSDK_OFFSET(0xFEBFF30)
-#define DMGGIDLICBO_FMMICHDNGJJ_OFFSET UNITYSDK_OFFSET(0xFEBE1F0)
-#define DMGGIDLICBO_GNOBFPBCHPK_OFFSET UNITYSDK_OFFSET(0xFEC0040)
-#define DMGGIDLICBO_IHOHEKNBHMM_OFFSET UNITYSDK_OFFSET(0xFEBFFD0)
-#define DMGGIDLICBO_INIJEADAIIM_OFFSET UNITYSDK_OFFSET(0xFEBED40)
-#define DMGGIDLICBO_JFDIDKMDAKP_OFFSET UNITYSDK_OFFSET(0xFEBE430)
-#define DMGGIDLICBO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xFEBE7A0)
-#define DMGGIDLICBO_LNCCMLHABBO_OFFSET UNITYSDK_OFFSET(0xFEBDD00)
-#define DMGGIDLICBO_MKCBFCKIMKK_OFFSET UNITYSDK_OFFSET(0xFEBDE50)
-#define DMGGIDLICBO_NLHCEANMIPB_OFFSET UNITYSDK_OFFSET(0xFEBDF00)
-#define DMGGIDLICBO_PIFKDBBEKFH_OFFSET UNITYSDK_OFFSET(0xFEBFB30)
-#define DMGGIDLICBO_PODPNMOLIEO_OFFSET UNITYSDK_OFFSET(0xFEBEF10)
+#define DMGGIDLICBO_BJCJMIHHPLN_OFFSET UNITYSDK_OFFSET(0x10637660)
+#define DMGGIDLICBO_CBEHMJHPNED_OFFSET UNITYSDK_OFFSET(0x10638FC0)
+#define DMGGIDLICBO_CTOR_OFFSET UNITYSDK_OFFSET(0x10637450)
+#define DMGGIDLICBO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x106379D0)
+#define DMGGIDLICBO_EEBBJAIGJDO_OFFSET UNITYSDK_OFFSET(0x10636EE0)
+#define DMGGIDLICBO_FGKIJNFGPHJ_OFFSET UNITYSDK_OFFSET(0x10638DE0)
+#define DMGGIDLICBO_FLOCDIBINPI_OFFSET UNITYSDK_OFFSET(0x10638E30)
+#define DMGGIDLICBO_FMMICHDNGJJ_OFFSET UNITYSDK_OFFSET(0x10637120)
+#define DMGGIDLICBO_GNOBFPBCHPK_OFFSET UNITYSDK_OFFSET(0x10638F40)
+#define DMGGIDLICBO_IHOHEKNBHMM_OFFSET UNITYSDK_OFFSET(0x10638ED0)
+#define DMGGIDLICBO_INIJEADAIIM_OFFSET UNITYSDK_OFFSET(0x10637C50)
+#define DMGGIDLICBO_JFDIDKMDAKP_OFFSET UNITYSDK_OFFSET(0x10637360)
+#define DMGGIDLICBO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x106376C0)
+#define DMGGIDLICBO_LNCCMLHABBO_OFFSET UNITYSDK_OFFSET(0x10636C30)
+#define DMGGIDLICBO_MKCBFCKIMKK_OFFSET UNITYSDK_OFFSET(0x10636D80)
+#define DMGGIDLICBO_NLHCEANMIPB_OFFSET UNITYSDK_OFFSET(0x10636E30)
+#define DMGGIDLICBO_PIFKDBBEKFH_OFFSET UNITYSDK_OFFSET(0x10638A30)
+#define DMGGIDLICBO_PODPNMOLIEO_OFFSET UNITYSDK_OFFSET(0x10637E20)
 
-inline static constexpr unsigned int DMGGIDLICBO_TypeDefinitionIndex = 65763;
+inline static constexpr unsigned int DMGGIDLICBO_TypeDefinitionIndex = 67695;
 
 	class DMGGIDLICBO : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LoadingFuncConfigRow* IHGEMOBNFLB; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::System::Collections::Generic::List_1<::RPG::GameCore::LoadingDescRow*>*>* KKOHGABGELH; // 0x18
-		::RPG::Client::LoadingTipsRandomPool_1<::RPG::GameCore::LoadingDescGroup>* PIBAENJHBJH; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::System::Collections::Generic::List_1<::RPG::GameCore::LoadingDescRow*>*>* KKOHGABGELH; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::RPG::Client::LoadingTipsRandomPool_1<::RPG::GameCore::LoadingDescRow*>*>* KGFECCHFLBL; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::RPG::Client::LoadingTipsRandomPool_1<::RPG::GameCore::LoadingDescRow*>*>* CDHOJLJIFGC; // 0x20
 		::RPG::Client::LoadingTipsRandomPool_1<::RPG::GameCore::LoadingDescGroup>* DNEMDCOPOJA; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::LoadingDescRow*>* POOCEABNNJA; // 0x30
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::RPG::Client::LoadingTipsRandomPool_1<::RPG::GameCore::LoadingDescRow*>*>* KGFECCHFLBL; // 0x38
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::LoadingDescGroup, ::RPG::Client::LoadingTipsRandomPool_1<::RPG::GameCore::LoadingDescRow*>*>* CDHOJLJIFGC; // 0x40
+		::RPG::GameCore::LoadingFuncConfigRow* IHGEMOBNFLB; // 0x30
+		::System::Collections::Generic::List_1<::RPG::GameCore::LoadingDescRow*>* POOCEABNNJA; // 0x38
+		::RPG::Client::LoadingTipsRandomPool_1<::RPG::GameCore::LoadingDescGroup>* PIBAENJHBJH; // 0x40
 		::System::Boolean EBLPKIOGNCF; // 0x48
 		::System::Byte _padding0[0x3];
-		::System::UInt32 CCCAHOHOGBE; // 0x4C
-		::System::UInt32 MLKDMLFAMJC; // 0x50
-		::System::UInt32 CLHLFGJGGCH; // 0x54
-		::System::Int32 AMNHGOGKBEP; // 0x58
-		::System::UInt32 CGNMMODPMMN; // 0x5C
-		::RPG::GameCore::GameModeType GICHGNGMBGD; // 0x60
+		::System::UInt32 MLKDMLFAMJC; // 0x4C
+		::System::UInt32 CGNMMODPMMN; // 0x50
+		::RPG::GameCore::GameModeType GICHGNGMBGD; // 0x54
+		::System::UInt32 CLHLFGJGGCH; // 0x58
+		::System::UInt32 CCCAHOHOGBE; // 0x5C
+		::System::Int32 AMNHGOGKBEP; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DMGGIDLICBO_CTOR_OFFSET))(this);

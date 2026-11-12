@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GKCNCLIOFDA_JMPJNHALMMF_CTOR_OFFSET UNITYSDK_OFFSET(0x15A903E0)
-#define GKCNCLIOFDA_JMPJNHALMMF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15A91390)
+#define GKCNCLIOFDA_JMPJNHALMMF_CTOR_OFFSET UNITYSDK_OFFSET(0x169CD230)
+#define GKCNCLIOFDA_JMPJNHALMMF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x169CE130)
 
-inline static constexpr unsigned int GKCNCLIOFDA_JMPJNHALMMF_TypeDefinitionIndex = 53533;
+inline static constexpr unsigned int GKCNCLIOFDA_JMPJNHALMMF_TypeDefinitionIndex = 54696;
 
 	class GKCNCLIOFDA_JMPJNHALMMF : public ::System::Object
 	{
 	public:
-		::System::Single BAJFNPFEIEM; // 0x10
-		::System::Single HFDCEMJGHNN; // 0x14
+		::System::Single HFDCEMJGHNN; // 0x10
+		::System::Single BAJFNPFEIEM; // 0x14
 		::System::Void _ctor(::System::Single a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + GKCNCLIOFDA_JMPJNHALMMF_CTOR_OFFSET))(this, a1);

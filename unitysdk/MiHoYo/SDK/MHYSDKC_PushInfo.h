@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_PushInfo_TypeDefinitionIndex = 46199;
+	inline static constexpr unsigned int MHYSDKC_PushInfo_TypeDefinitionIndex = 47228;
 
 	class MHYSDKC_PushInfo : public ::System::Object
 	{

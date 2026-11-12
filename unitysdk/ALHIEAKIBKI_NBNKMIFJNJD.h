@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define ALHIEAKIBKI_NBNKMIFJNJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1556CCA0)
+#define ALHIEAKIBKI_NBNKMIFJNJD_CTOR_OFFSET UNITYSDK_OFFSET(0x163DA560)
 
-inline static constexpr unsigned int ALHIEAKIBKI_NBNKMIFJNJD_TypeDefinitionIndex = 76943;
+inline static constexpr unsigned int ALHIEAKIBKI_NBNKMIFJNJD_TypeDefinitionIndex = 79277;
 
 	class ALHIEAKIBKI_NBNKMIFJNJD
 	{

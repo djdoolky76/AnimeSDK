@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KILOJFMKNAI_AIEHMLPBHCG_OFFSET UNITYSDK_OFFSET(0x1C7114E0)
-#define KILOJFMKNAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7114D0)
-#define KILOJFMKNAI_FEADNMNABOL_OFFSET UNITYSDK_OFFSET(0x1C711520)
-#define KILOJFMKNAI_MIFAOKMDILB_OFFSET UNITYSDK_OFFSET(0x1C711560)
+#define KILOJFMKNAI_AIEHMLPBHCG_OFFSET UNITYSDK_OFFSET(0x1D892E90)
+#define KILOJFMKNAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D892E80)
+#define KILOJFMKNAI_FEADNMNABOL_OFFSET UNITYSDK_OFFSET(0x1D892ED0)
+#define KILOJFMKNAI_MIFAOKMDILB_OFFSET UNITYSDK_OFFSET(0x1D892F10)
 
-inline static constexpr unsigned int KILOJFMKNAI_TypeDefinitionIndex = 36847;
+inline static constexpr unsigned int KILOJFMKNAI_TypeDefinitionIndex = 37775;
 
 	class KILOJFMKNAI : public ::System::Object
 	{
 	public:
-		::System::UInt32 ABNPHONMCEP; // 0x10
-		::System::Int32 CKOJEBCLBJP; // 0x14
+		::System::Int32 CKOJEBCLBJP; // 0x10
+		::System::UInt32 ABNPHONMCEP; // 0x14
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + KILOJFMKNAI_CTOR_OFFSET))(this, a1);

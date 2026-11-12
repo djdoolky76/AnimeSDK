@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtStopMove; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RTSTOPMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA65FC0)
-#define RPG_GAMECORE_RTSTOPMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA66000)
-#define RPG_GAMECORE_RTSTOPMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA65F60)
+#define RPG_GAMECORE_RTSTOPMOVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC78840)
+#define RPG_GAMECORE_RTSTOPMOVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC78880)
+#define RPG_GAMECORE_RTSTOPMOVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC787E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtStopMove_TypeDefinitionIndex = 24117;
+	inline static constexpr unsigned int RtStopMove_TypeDefinitionIndex = 24576;
 
 	class RtStopMove : public ::RPG::GameCore::TaskConfig
 	{

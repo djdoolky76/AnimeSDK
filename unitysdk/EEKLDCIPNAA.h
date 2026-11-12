@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EEKLDCIPNAA_CCTOR_OFFSET UNITYSDK_OFFSET(0x13A33D30)
-#define EEKLDCIPNAA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13A33FB0)
+#define EEKLDCIPNAA_CCTOR_OFFSET UNITYSDK_OFFSET(0x147F4760)
+#define EEKLDCIPNAA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x147F49E0)
 
-inline static constexpr unsigned int EEKLDCIPNAA_TypeDefinitionIndex = 69831;
+inline static constexpr unsigned int EEKLDCIPNAA_TypeDefinitionIndex = 71790;
 
 	class EEKLDCIPNAA : public ::System::Object
 	{

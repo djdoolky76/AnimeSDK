@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class HBAHBGCOOML;
 
-#define KNHHGDEKCBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71C080)
+#define KNHHGDEKCBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89DA20)
 
-inline static constexpr unsigned int KNHHGDEKCBL_TypeDefinitionIndex = 36226;
+inline static constexpr unsigned int KNHHGDEKCBL_TypeDefinitionIndex = 37154;
 
 	class KNHHGDEKCBL : public ::System::Object
 	{

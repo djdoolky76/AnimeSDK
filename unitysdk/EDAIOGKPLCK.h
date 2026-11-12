@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define EDAIOGKPLCK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CD6F740)
-#define EDAIOGKPLCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD6FD10)
-#define EDAIOGKPLCK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CD6F8B0)
-#define EDAIOGKPLCK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CD6F1B0)
-#define EDAIOGKPLCK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CD6F440)
-#define EDAIOGKPLCK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CD6F950)
-#define EDAIOGKPLCK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CD6F9A0)
-#define EDAIOGKPLCK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CD6F780)
-#define EDAIOGKPLCK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CD6F3E0)
-#define EDAIOGKPLCK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CD6F5B0)
-#define EDAIOGKPLCK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD6F810)
-#define EDAIOGKPLCK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD6F130)
+#define EDAIOGKPLCK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DF40D90)
+#define EDAIOGKPLCK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF41360)
+#define EDAIOGKPLCK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DF40F00)
+#define EDAIOGKPLCK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DF40800)
+#define EDAIOGKPLCK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DF40A90)
+#define EDAIOGKPLCK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DF40FA0)
+#define EDAIOGKPLCK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DF40FF0)
+#define EDAIOGKPLCK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DF40DD0)
+#define EDAIOGKPLCK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DF40A30)
+#define EDAIOGKPLCK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DF40C00)
+#define EDAIOGKPLCK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DF40E60)
+#define EDAIOGKPLCK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DF40780)
 
-inline static constexpr unsigned int EDAIOGKPLCK_TypeDefinitionIndex = 11311;
+inline static constexpr unsigned int EDAIOGKPLCK_TypeDefinitionIndex = 11362;
 
 	class EDAIOGKPLCK : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x53850);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x34F10);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::GAMAMJKNNFK*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::GAMAMJKNNFK*>**)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x53858);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::GAMAMJKNNFK*>**)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x34F18);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x53860);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x34F20);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x12830);
+			return (::System::Boolean*)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0xB3E0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0x12831);
+			return (::System::Byte*)UnitySDK::FromName("", "EDAIOGKPLCK")->GetStaticField(0xB3E1);
 		}
 
 		static ::System::Void _cctor()

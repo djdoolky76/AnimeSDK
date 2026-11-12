@@ -1,24 +1,21 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/AHDJACCHDCE.h"
 #include "unitysdk/System/Object.h"
-class KFELGAIGHAP;
 namespace RPG::GameCore { class DynamicValueRangeCallback; }
 
-#define CLMEOCEIFBI_CTOR_OFFSET UNITYSDK_OFFSET(0xD792680)
+#define CLMEOCEIFBI_CTOR_OFFSET UNITYSDK_OFFSET(0xE35A2E0)
 
-inline static constexpr unsigned int CLMEOCEIFBI_TypeDefinitionIndex = 55841;
+inline static constexpr unsigned int CLMEOCEIFBI_TypeDefinitionIndex = 57044;
 
 	class CLMEOCEIFBI : public ::System::Object
 	{
 	public:
-		::KFELGAIGHAP* LEAHACBFJBP; // 0x10
-		::RPG::GameCore::DynamicValueRangeCallback* EABKOHGCHFP; // 0x18
-		::KFELGAIGHAP* AHEEAFKFALM; // 0x20
-		::KFELGAIGHAP* CLJEBKODGHK; // 0x28
-		::System::SByte PLPOFKKEENK; // 0x30
-		::System::SByte IEFMFPIDINK; // 0x31
-		::System::Boolean PDAAIEKJOJK; // 0x32
-		::System::SByte EBPHCMMFAPJ; // 0x33
+		::RPG::GameCore::DynamicValueRangeCallback* EABKOHGCHFP; // 0x10
+		::AHDJACCHDCE AHEEAFKFALM; // 0x18
+		::AHDJACCHDCE LEAHACBFJBP; // 0x38
+		::AHDJACCHDCE CLJEBKODGHK; // 0x58
+		::System::Boolean PDAAIEKJOJK; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CLMEOCEIFBI_CTOR_OFFSET))(this);

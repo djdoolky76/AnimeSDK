@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharmUseSkill; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_CHARMUSESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57A6B0)
-#define RPG_GAMECORE_CHARMUSESKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57A6F0)
-#define RPG_GAMECORE_CHARMUSESKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57A640)
+#define RPG_GAMECORE_CHARMUSESKILL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78B450)
+#define RPG_GAMECORE_CHARMUSESKILL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E78B490)
+#define RPG_GAMECORE_CHARMUSESKILL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E78B3E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharmUseSkill_TypeDefinitionIndex = 23666;
+	inline static constexpr unsigned int CharmUseSkill_TypeDefinitionIndex = 24119;
 
 	class CharmUseSkill : public ::RPG::GameCore::TaskConfig
 	{

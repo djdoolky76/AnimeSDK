@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class NotifyFarmUnlock; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOAKFPMPBPB_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE70B0)
-#define BOAKFPMPBPB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDE70E0)
+#define BOAKFPMPBPB_CTOR_OFFSET UNITYSDK_OFFSET(0xC767EB0)
+#define BOAKFPMPBPB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC767EE0)
 
-inline static constexpr unsigned int BOAKFPMPBPB_TypeDefinitionIndex = 53034;
+inline static constexpr unsigned int BOAKFPMPBPB_TypeDefinitionIndex = 54194;
 
 	class BOAKFPMPBPB
 	{

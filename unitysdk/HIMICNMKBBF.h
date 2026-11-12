@@ -8,11 +8,11 @@ class LFCKLPMBGGI;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define HIMICNMKBBF_EFMKONMGMNA_OFFSET UNITYSDK_OFFSET(0x1C488690)
-#define HIMICNMKBBF_GOEAPGOAIEB_OFFSET UNITYSDK_OFFSET(0x1C4886E0)
-#define HIMICNMKBBF_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C488950)
+#define HIMICNMKBBF_EFMKONMGMNA_OFFSET UNITYSDK_OFFSET(0x1D60C150)
+#define HIMICNMKBBF_GOEAPGOAIEB_OFFSET UNITYSDK_OFFSET(0x1D60C1A0)
+#define HIMICNMKBBF_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1D60C410)
 
-inline static constexpr unsigned int HIMICNMKBBF_TypeDefinitionIndex = 41528;
+inline static constexpr unsigned int HIMICNMKBBF_TypeDefinitionIndex = 42503;
 
 	class HIMICNMKBBF : public ::System::Object
 	{

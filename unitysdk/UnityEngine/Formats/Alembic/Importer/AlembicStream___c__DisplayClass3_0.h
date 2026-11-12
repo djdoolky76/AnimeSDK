@@ -4,12 +4,12 @@
 namespace System { class String; }
 namespace UnityEngine::Formats::Alembic::Importer { class AlembicStream; }
 
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1717C0)
-#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET UNITYSDK_OFFSET(0x1F175760)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0x20422C00)
+#define UNITYENGINE_FORMATS_ALEMBIC_IMPORTER_ALEMBICSTREAM___C__DISPLAYCLASS3_0__REMAPSTREAMSWITHPATH_B__0_OFFSET UNITYSDK_OFFSET(0x20426BA0)
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
-	inline static constexpr unsigned int AlembicStream___c__DisplayClass3_0_TypeDefinitionIndex = 45867;
+	inline static constexpr unsigned int AlembicStream___c__DisplayClass3_0_TypeDefinitionIndex = 46896;
 
 	class AlembicStream___c__DisplayClass3_0 : public ::System::Object
 	{

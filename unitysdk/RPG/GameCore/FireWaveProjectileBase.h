@@ -3,27 +3,28 @@
 #include "unitysdk/RPG/GameCore/TaskConfig.h"
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DamageByAttackProperty; }
+namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class FireWaveProjectileBase; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ACCC0)
-#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6ACEA0)
-#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6ACCD0)
+#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B9540)
+#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8B9860)
+#define RPG_GAMECORE_FIREWAVEPROJECTILEBASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8B95A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FireWaveProjectileBase_TypeDefinitionIndex = 22582;
+	inline static constexpr unsigned int FireWaveProjectileBase_TypeDefinitionIndex = 22997;
 
 	class FireWaveProjectileBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* CasterTargetType; // 0x18
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
-		::System::Int32 Count; // 0x28
-		::System::Single Interval; // 0x2C
-		::System::Boolean WaitProjectileFinish; // 0x30
-		::System::Byte _padding0[0x7];
+		::RPG::GameCore::DynamicFloat* Count; // 0x28
+		::System::Single Interval; // 0x30
+		::System::Boolean WaitProjectileFinish; // 0x34
+		::System::Byte _padding0[0x3];
 		::RPG::GameCore::DamageByAttackProperty* PerProjectileDamage; // 0x38
 		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OnProjectileHitClientOnly; // 0x40
 		::System::Void _ctor()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Collections::Generic { template <typename T> class LinkedListNode_1; }
 
-inline static constexpr unsigned int NHCKMODKGBK_TypeDefinitionIndex = 43845;
+inline static constexpr unsigned int NHCKMODKGBK_TypeDefinitionIndex = 44920;
 
 	struct alignas(8) NHCKMODKGBK
 	{

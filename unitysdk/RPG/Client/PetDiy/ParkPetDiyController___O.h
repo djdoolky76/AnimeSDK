@@ -6,14 +6,14 @@ namespace System { template <typename T> class Action_1; }
 
 namespace RPG::Client::PetDiy
 {
-	inline static constexpr unsigned int ParkPetDiyController___O_TypeDefinitionIndex = 74477;
+	inline static constexpr unsigned int ParkPetDiyController___O_TypeDefinitionIndex = 76625;
 
 	class ParkPetDiyController___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::GameCore::GameEntity*>** StaticGet__0___ForceSampleFirstFrame()
 		{
-			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>O")->GetStaticField(0x161F0);
+			return (::System::Action_1<::RPG::GameCore::GameEntity*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>O")->GetStaticField(0x27FE0);
 		}
 
 	};

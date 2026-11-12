@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C340C20)
-#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C340C30)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4C7610)
+#define SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D4C7620)
 
 namespace System::Runtime::Serialization
 {
@@ -14,8 +14,8 @@ namespace System::Runtime::Serialization
 	class SurrogateKey : public ::System::Object
 	{
 	public:
-		::System::Type* m_type; // 0x10
-		::System::Runtime::Serialization::StreamingContext m_context; // 0x18
+		::System::Runtime::Serialization::StreamingContext m_context; // 0x10
+		::System::Type* m_type; // 0x20
 		::System::Void _ctor(::System::Type* a1, ::System::Runtime::Serialization::StreamingContext a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Type*, ::System::Runtime::Serialization::StreamingContext))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_SERIALIZATION_SURROGATEKEY_CTOR_OFFSET))(this, a1, a2);

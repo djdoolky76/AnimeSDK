@@ -3,10 +3,10 @@
 class GFKIPGPPFOB;
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDGJCKGKMNA_CTOR_OFFSET UNITYSDK_OFFSET(0x13314220)
-#define EDGJCKGKMNA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13314250)
+#define EDGJCKGKMNA_CTOR_OFFSET UNITYSDK_OFFSET(0x140D0D70)
+#define EDGJCKGKMNA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x140D0DA0)
 
-inline static constexpr unsigned int EDGJCKGKMNA_TypeDefinitionIndex = 52604;
+inline static constexpr unsigned int EDGJCKGKMNA_TypeDefinitionIndex = 53711;
 
 	class EDGJCKGKMNA
 	{

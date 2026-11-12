@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KNEBGJFMJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909830)
+#define KNEBGJFMJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB5A60)
 
-inline static constexpr unsigned int KNEBGJFMJDK_TypeDefinitionIndex = 42136;
+inline static constexpr unsigned int KNEBGJFMJDK_TypeDefinitionIndex = 43111;
 
 	class KNEBGJFMJDK : public ::System::Object
 	{

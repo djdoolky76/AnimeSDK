@@ -8,10 +8,10 @@ class KGPCBBIOGLB;
 class KPNOBBFKNHA;
 namespace System { class Object; }
 
-#define JIAFOPELMJJ___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1CC140)
-#define JIAFOPELMJJ___C__DISPLAYCLASS3_0___MAKETEXTMAPPACKPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xB1E6E50)
+#define JIAFOPELMJJ___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9EE050)
+#define JIAFOPELMJJ___C__DISPLAYCLASS3_0___MAKETEXTMAPPACKPROGRESS_B__0_OFFSET UNITYSDK_OFFSET(0xBA08D80)
 
-inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass3_0_TypeDefinitionIndex = 59515;
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass3_0_TypeDefinitionIndex = 60792;
 
 	class JIAFOPELMJJ___c__DisplayClass3_0 : public ::System::Object
 	{

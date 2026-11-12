@@ -4,18 +4,18 @@
 class JPEGNCJDBOM;
 namespace System { class Object; }
 
-#define JPEGNCJDBOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7D25A0)
-#define JPEGNCJDBOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D25E0)
-#define JPEGNCJDBOM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7D25F0)
+#define JPEGNCJDBOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAE68D0)
+#define JPEGNCJDBOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAE6910)
+#define JPEGNCJDBOM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FAE6920)
 
-inline static constexpr unsigned int JPEGNCJDBOM___c_TypeDefinitionIndex = 31150;
+inline static constexpr unsigned int JPEGNCJDBOM___c_TypeDefinitionIndex = 32063;
 
 	class JPEGNCJDBOM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xACE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49250);
 		}
 
 		static ::System::Void _cctor()

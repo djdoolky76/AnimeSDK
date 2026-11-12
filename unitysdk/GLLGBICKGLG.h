@@ -8,10 +8,10 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TeamFormationComponent; }
 
-#define GLLGBICKGLG_DPNCMDJEPMJ_OFFSET UNITYSDK_OFFSET(0x2E7C6A0)
-#define GLLGBICKGLG_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x15ABC670)
+#define GLLGBICKGLG_DPNCMDJEPMJ_OFFSET UNITYSDK_OFFSET(0x30525C0)
+#define GLLGBICKGLG_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x16A3EC70)
 
-inline static constexpr unsigned int GLLGBICKGLG_TypeDefinitionIndex = 57717;
+inline static constexpr unsigned int GLLGBICKGLG_TypeDefinitionIndex = 58950;
 
 	struct alignas(8) GLLGBICKGLG
 	{

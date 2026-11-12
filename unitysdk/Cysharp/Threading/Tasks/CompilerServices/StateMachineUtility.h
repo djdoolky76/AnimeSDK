@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY_GETSTATE_OFFSET UNITYSDK_OFFSET(0x1F116C60)
+#define CYSHARP_THREADING_TASKS_COMPILERSERVICES_STATEMACHINEUTILITY_GETSTATE_OFFSET UNITYSDK_OFFSET(0x203C7CA0)
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
-	inline static constexpr unsigned int StateMachineUtility_TypeDefinitionIndex = 38708;
+	inline static constexpr unsigned int StateMachineUtility_TypeDefinitionIndex = 39637;
 
 	class StateMachineUtility : public ::System::Object
 	{

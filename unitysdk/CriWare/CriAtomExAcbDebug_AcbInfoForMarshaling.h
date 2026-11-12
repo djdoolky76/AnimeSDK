@@ -4,11 +4,11 @@
 #include "unitysdk/CriWare/CriAtomExAcbDebug_AcbInfo.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x2E89110)
+#define CRIWARE_CRIATOMEXACBDEBUG_ACBINFOFORMARSHALING_CONVERT_OFFSET UNITYSDK_OFFSET(0x305B740)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 40193;
+	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 41168;
 
 	struct alignas(8) CriAtomExAcbDebug_AcbInfoForMarshaling
 	{

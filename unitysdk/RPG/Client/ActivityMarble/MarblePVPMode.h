@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarblePVPMode_TypeDefinitionIndex = 76015;
+	inline static constexpr unsigned int MarblePVPMode_TypeDefinitionIndex = 78342;
 
 	enum class MarblePVPMode : ::System::Int32
 	{

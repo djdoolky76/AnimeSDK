@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MissionCustomValue; }
 namespace RPG::GameCore { class MissionCustomValuePair; }
 
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1D885D20)
-#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D885B80)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA00D0)
+#define RPG_GAMECORE_MISSIONCUSTOMVALUEPAIR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA9FF30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionCustomValuePair_TypeDefinitionIndex = 18990;
+	inline static constexpr unsigned int MissionCustomValuePair_TypeDefinitionIndex = 19177;
 
 	class MissionCustomValuePair : public ::RPG::GameCore::JsonConfig
 	{

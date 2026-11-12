@@ -5,14 +5,14 @@ namespace System { class String; }
 namespace UnityEngine { class Animator; }
 namespace UnityEngine { class GameObject; }
 
-#define KMBCPKFMDEH_BBAMDLPPKNP_OFFSET UNITYSDK_OFFSET(0xB53BBA0)
-#define KMBCPKFMDEH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB53BD40)
-#define KMBCPKFMDEH_CTOR_OFFSET UNITYSDK_OFFSET(0xB53B8C0)
-#define KMBCPKFMDEH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB53BAB0)
-#define KMBCPKFMDEH_PIHPPBJIJFC_OFFSET UNITYSDK_OFFSET(0xB53BB00)
-#define KMBCPKFMDEH_PINNIHNGDNC_OFFSET UNITYSDK_OFFSET(0xB53BC40)
+#define KMBCPKFMDEH_BBAMDLPPKNP_OFFSET UNITYSDK_OFFSET(0xBD86C70)
+#define KMBCPKFMDEH_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD86E10)
+#define KMBCPKFMDEH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD86990)
+#define KMBCPKFMDEH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD86B80)
+#define KMBCPKFMDEH_PIHPPBJIJFC_OFFSET UNITYSDK_OFFSET(0xBD86BD0)
+#define KMBCPKFMDEH_PINNIHNGDNC_OFFSET UNITYSDK_OFFSET(0xBD86D10)
 
-inline static constexpr unsigned int KMBCPKFMDEH_TypeDefinitionIndex = 78984;
+inline static constexpr unsigned int KMBCPKFMDEH_TypeDefinitionIndex = 81760;
 
 	class KMBCPKFMDEH : public ::System::Object
 	{
@@ -20,32 +20,32 @@ inline static constexpr unsigned int KMBCPKFMDEH_TypeDefinitionIndex = 78984;
 		::UnityEngine::Animator* MABMPCKBKNI; // 0x10
 		static ::System::String** StaticGet_HFJLGKGPKOM()
 		{
-			return (::System::String**)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x5EDF0);
-		}
-
-		static ::System::Int32* StaticGet_NPHHMJPMMHM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x14490);
+			return (::System::String**)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x55B40);
 		}
 
 		static ::System::Int32* StaticGet_PBAEAGEPDCH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x14494);
+			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x10760);
+		}
+
+		static ::System::Int32* StaticGet_NPHHMJPMMHM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x10764);
 		}
 
 		static ::System::Int32* StaticGet_OMDPHFLEHEF()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x14498);
+			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x10768);
 		}
 
 		static ::System::Int32* StaticGet_ECOIODPLNOO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x1449C);
+			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x1076C);
 		}
 
 		static ::System::Int32* StaticGet_GPDFLOGAMIP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x144A0);
+			return (::System::Int32*)UnitySDK::FromName("", "KMBCPKFMDEH")->GetStaticField(0x10770);
 		}
 
 		::System::Void _ctor(::UnityEngine::GameObject* a1)

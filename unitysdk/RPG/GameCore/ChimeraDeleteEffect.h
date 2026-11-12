@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDeleteEffect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADELETEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D598FC0)
-#define RPG_GAMECORE_CHIMERADELETEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D598FD0)
-#define RPG_GAMECORE_CHIMERADELETEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59A2D0)
+#define RPG_GAMECORE_CHIMERADELETEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A9260)
+#define RPG_GAMECORE_CHIMERADELETEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A9270)
+#define RPG_GAMECORE_CHIMERADELETEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7AAD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDeleteEffect_TypeDefinitionIndex = 15865;
+	inline static constexpr unsigned int ChimeraDeleteEffect_TypeDefinitionIndex = 16023;
 
 	class ChimeraDeleteEffect : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

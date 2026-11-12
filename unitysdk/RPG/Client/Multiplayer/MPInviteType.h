@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Multiplayer
 {
-	inline static constexpr unsigned int MPInviteType_TypeDefinitionIndex = 80258;
+	inline static constexpr unsigned int MPInviteType_TypeDefinitionIndex = 83035;
 
 	enum class MPInviteType : ::System::Int32
 	{

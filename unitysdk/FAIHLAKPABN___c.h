@@ -4,18 +4,18 @@
 class FAIHLAKPABN;
 namespace System { class Object; }
 
-#define FAIHLAKPABN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3268D0)
-#define FAIHLAKPABN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E326910)
-#define FAIHLAKPABN___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E326920)
+#define FAIHLAKPABN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F60C1B0)
+#define FAIHLAKPABN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60C1F0)
+#define FAIHLAKPABN___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F60C200)
 
-inline static constexpr unsigned int FAIHLAKPABN___c_TypeDefinitionIndex = 29691;
+inline static constexpr unsigned int FAIHLAKPABN___c_TypeDefinitionIndex = 30509;
 
 	class FAIHLAKPABN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55800);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateRinCaseBoardTeamRelationInfo; }
 
-#define RPG_GAMECORE_FATERINCASEBOARDTEAMRELATIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69E790)
-#define RPG_GAMECORE_FATERINCASEBOARDTEAMRELATIONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69E600)
+#define RPG_GAMECORE_FATERINCASEBOARDTEAMRELATIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AB100)
+#define RPG_GAMECORE_FATERINCASEBOARDTEAMRELATIONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8AAF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCaseBoardTeamRelationInfo_TypeDefinitionIndex = 16233;
+	inline static constexpr unsigned int FateRinCaseBoardTeamRelationInfo_TypeDefinitionIndex = 16391;
 
 	class FateRinCaseBoardTeamRelationInfo : public ::RPG::GameCore::JsonConfig
 	{

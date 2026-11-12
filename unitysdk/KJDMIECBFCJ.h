@@ -3,21 +3,21 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class BattleAreaRow; }
 
-#define KJDMIECBFCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB442210)
-#define KJDMIECBFCJ_IMHKCDCAFFK_OFFSET UNITYSDK_OFFSET(0xB442170)
+#define KJDMIECBFCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD8FB0)
+#define KJDMIECBFCJ_IMHKCDCAFFK_OFFSET UNITYSDK_OFFSET(0xBCD8F10)
 
-inline static constexpr unsigned int KJDMIECBFCJ_TypeDefinitionIndex = 58770;
+inline static constexpr unsigned int KJDMIECBFCJ_TypeDefinitionIndex = 60038;
 
 	class KJDMIECBFCJ : public ::System::Object
 	{
 	public:
-		::System::UInt32 NJIOMOHBILM; // 0x10
-		::System::UInt32 FFLDMJCEMDC; // 0x14
-		::System::UInt32 FIMNPJLNLEE; // 0x18
-		::System::UInt32 HNEIIAGADGO; // 0x1C
+		::System::UInt32 NMBKAIEIAPE; // 0x10
+		::System::UInt32 HNEIIAGADGO; // 0x14
+		::System::UInt32 NJIOMOHBILM; // 0x18
+		::System::UInt32 FFLDMJCEMDC; // 0x1C
 		::System::UInt32 LLDCHLHNADA; // 0x20
 		::System::UInt32 GKAENDDHNOG; // 0x24
-		::System::UInt32 NMBKAIEIAPE; // 0x28
+		::System::UInt32 FIMNPJLNLEE; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJDMIECBFCJ_CTOR_OFFSET))(this);

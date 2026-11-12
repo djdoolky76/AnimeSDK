@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ModifierDestroyTextInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88DF60)
-#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88DD90)
+#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA82D0)
+#define RPG_GAMECORE_MODIFIERDESTROYTEXTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA8100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierDestroyTextInfo_TypeDefinitionIndex = 17146;
+	inline static constexpr unsigned int ModifierDestroyTextInfo_TypeDefinitionIndex = 17313;
 
 	class ModifierDestroyTextInfo : public ::RPG::GameCore::JsonConfig
 	{

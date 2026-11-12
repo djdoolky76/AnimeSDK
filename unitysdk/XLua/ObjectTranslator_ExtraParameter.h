@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Type; }
 
-#define XLUA_OBJECTTRANSLATOR_EXTRAPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1523A680)
+#define XLUA_OBJECTTRANSLATOR_EXTRAPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x16116AB0)
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectTranslator_ExtraParameter_TypeDefinitionIndex = 50070;
+	inline static constexpr unsigned int ObjectTranslator_ExtraParameter_TypeDefinitionIndex = 51118;
 
 	class ObjectTranslator_ExtraParameter : public ::System::Object
 	{

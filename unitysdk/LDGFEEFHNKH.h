@@ -4,20 +4,20 @@
 class FCOEMCEDLNL;
 class LDGFEEFHNKH;
 
-#define LDGFEEFHNKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E0180)
-#define LDGFEEFHNKH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0DFEF0)
+#define LDGFEEFHNKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D7100)
+#define LDGFEEFHNKH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E2D6E70)
 
-inline static constexpr unsigned int LDGFEEFHNKH_TypeDefinitionIndex = 13926;
+inline static constexpr unsigned int LDGFEEFHNKH_TypeDefinitionIndex = 14083;
 
 	class LDGFEEFHNKH : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* GLBIANIMBII; // 0x10
-		::System::UInt32 AEDOBNFDODI; // 0x18
-		::System::UInt32 HFFBGDNDBHC; // 0x1C
-		::System::UInt32 KIFJECNOHDG; // 0x20
-		::System::Boolean GNDCCBNILML; // 0x24
-		::System::Boolean ENJDBDEKJIM; // 0x25
+		::System::UInt32 HFFBGDNDBHC; // 0x18
+		::System::UInt32 KIFJECNOHDG; // 0x1C
+		::System::UInt32 AEDOBNFDODI; // 0x20
+		::System::Boolean ENJDBDEKJIM; // 0x24
+		::System::Boolean GNDCCBNILML; // 0x25
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDGFEEFHNKH_CTOR_OFFSET))(this);

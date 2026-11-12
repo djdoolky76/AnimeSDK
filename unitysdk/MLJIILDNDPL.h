@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MLJIILDNDPL_TypeDefinitionIndex = 29121;
+inline static constexpr unsigned int MLJIILDNDPL_TypeDefinitionIndex = 29716;
 
 	enum class MLJIILDNDPL : ::System::Int32
 	{

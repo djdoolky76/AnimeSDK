@@ -6,22 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MuseumAreaConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUSEUMAREACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C3090)
-#define RPG_GAMECORE_MUSEUMAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8C28F0)
+#define RPG_GAMECORE_MUSEUMAREACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EADCDB0)
+#define RPG_GAMECORE_MUSEUMAREACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EADC610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MuseumAreaConfigRow_TypeDefinitionIndex = 14214;
+	inline static constexpr unsigned int MuseumAreaConfigRow_TypeDefinitionIndex = 14371;
 
 	class MuseumAreaConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* FirstWorldText; // 0x10
-		::System::String* MuseumAreaHintIcon; // 0x18
-		::System::String* MuseumAreaTabIcon; // 0x20
+		::System::String* MuseumAreaTabIcon; // 0x10
+		::System::String* FirstWorldText; // 0x18
+		::System::String* MuseumAreaHintIcon; // 0x20
 		::RPG::Client::TextID MuseumAreaName; // 0x28
-		::RPG::Client::TextID AreaItemNoTextID; // 0x38
-		::System::UInt32 AreaID; // 0x48
+		::System::UInt32 AreaID; // 0x38
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID AreaItemNoTextID; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MUSEUMAREACONFIGROW_CTOR_OFFSET))(this);

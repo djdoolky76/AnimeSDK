@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2E88C70)
-#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E88C60)
+#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x28010)
+#define CRIWARE_CRIATOMEX_GAMEVARIABLEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x305B2A0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomEx_GameVariableInfo_TypeDefinitionIndex = 39971;
+	inline static constexpr unsigned int CriAtomEx_GameVariableInfo_TypeDefinitionIndex = 40946;
 
 	struct alignas(8) CriAtomEx_GameVariableInfo
 	{

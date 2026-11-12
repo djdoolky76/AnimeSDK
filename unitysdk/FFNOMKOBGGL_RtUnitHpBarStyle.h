@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FFNOMKOBGGL_RtUnitHpBarStyle_TypeDefinitionIndex = 73279;
+inline static constexpr unsigned int FFNOMKOBGGL_RtUnitHpBarStyle_TypeDefinitionIndex = 75395;
 
 	enum class FFNOMKOBGGL_RtUnitHpBarStyle : ::System::Int32
 	{

@@ -8,13 +8,13 @@ namespace RPG::GameCore { class AdvNpcFaceTo; }
 namespace RPG::GameCore { class DynamicString; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVNPCFACETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A5CD0)
-#define RPG_GAMECORE_ADVNPCFACETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A5CE0)
-#define RPG_GAMECORE_ADVNPCFACETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A5C90)
+#define RPG_GAMECORE_ADVNPCFACETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B5480)
+#define RPG_GAMECORE_ADVNPCFACETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B5490)
+#define RPG_GAMECORE_ADVNPCFACETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B5440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcFaceTo_TypeDefinitionIndex = 20338;
+	inline static constexpr unsigned int AdvNpcFaceTo_TypeDefinitionIndex = 20673;
 
 	class AdvNpcFaceTo : public ::RPG::GameCore::TaskConfig
 	{

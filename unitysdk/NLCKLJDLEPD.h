@@ -6,10 +6,10 @@ class CBFJBNFLHJE;
 namespace RPG::GameCore { class BaseExpeditionBattleAction; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define NLCKLJDLEPD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC631F0)
-#define NLCKLJDLEPD_CTOR_OFFSET UNITYSDK_OFFSET(0xBC63280)
+#define NLCKLJDLEPD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC5485D0)
+#define NLCKLJDLEPD_CTOR_OFFSET UNITYSDK_OFFSET(0xC548660)
 
-inline static constexpr unsigned int NLCKLJDLEPD_TypeDefinitionIndex = 63905;
+inline static constexpr unsigned int NLCKLJDLEPD_TypeDefinitionIndex = 65347;
 
 	class NLCKLJDLEPD : public ::System::Object
 	{

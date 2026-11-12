@@ -5,23 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterGuideTagConfigRow; }
 
-#define RPG_GAMECORE_MONSTERGUIDETAGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6770)
-#define RPG_GAMECORE_MONSTERGUIDETAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B6410)
+#define RPG_GAMECORE_MONSTERGUIDETAGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD0510)
+#define RPG_GAMECORE_MONSTERGUIDETAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD01B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterGuideTagConfigRow_TypeDefinitionIndex = 14199;
+	inline static constexpr unsigned int MonsterGuideTagConfigRow_TypeDefinitionIndex = 14356;
 
 	class MonsterGuideTagConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* ParameterList; // 0x10
 		::Il2CppArray<::System::UInt32>* EffectID; // 0x18
-		::RPG::Client::TextID TagBriefDescription; // 0x20
-		::RPG::Client::TextID TagDetailDescription; // 0x30
-		::System::UInt32 SkillID; // 0x40
-		::System::UInt32 TagID; // 0x44
-		::RPG::Client::TextID TagName; // 0x48
+		::RPG::Client::TextID TagName; // 0x20
+		::System::UInt32 SkillID; // 0x30
+		::System::UInt32 TagID; // 0x34
+		::RPG::Client::TextID TagBriefDescription; // 0x38
+		::RPG::Client::TextID TagDetailDescription; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERGUIDETAGCONFIGROW_CTOR_OFFSET))(this);

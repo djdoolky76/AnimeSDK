@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JMFCIHKNIFH_TypeDefinitionIndex = 42384;
+inline static constexpr unsigned int JMFCIHKNIFH_TypeDefinitionIndex = 43359;
 
 	class JMFCIHKNIFH
 	{

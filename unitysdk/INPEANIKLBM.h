@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetEntityFadeWithAnim; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define INPEANIKLBM_CTOR_OFFSET UNITYSDK_OFFSET(0x164F8EF0)
-#define INPEANIKLBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164F8F20)
+#define INPEANIKLBM_CTOR_OFFSET UNITYSDK_OFFSET(0xB82A380)
+#define INPEANIKLBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB82A3B0)
 
-inline static constexpr unsigned int INPEANIKLBM_TypeDefinitionIndex = 58585;
+inline static constexpr unsigned int INPEANIKLBM_TypeDefinitionIndex = 59850;
 
 	class INPEANIKLBM
 	{

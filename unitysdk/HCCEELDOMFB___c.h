@@ -6,29 +6,29 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Net { class IPEndPoint; }
 namespace System::Net::Sockets { class Socket; }
 
-#define HCCEELDOMFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDADAF0)
-#define HCCEELDOMFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDADB30)
-#define HCCEELDOMFB___C__PINGBYUDPSYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x1DDADB40)
-#define HCCEELDOMFB___C__PINGBYUDPSYNC_B__2_1_OFFSET UNITYSDK_OFFSET(0x1DDADB50)
+#define HCCEELDOMFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFB03A0)
+#define HCCEELDOMFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFB03E0)
+#define HCCEELDOMFB___C__PINGBYUDPSYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EFB03F0)
+#define HCCEELDOMFB___C__PINGBYUDPSYNC_B__2_1_OFFSET UNITYSDK_OFFSET(0x1EFB0400)
 
-inline static constexpr unsigned int HCCEELDOMFB___c_TypeDefinitionIndex = 43964;
+inline static constexpr unsigned int HCCEELDOMFB___c_TypeDefinitionIndex = 45039;
 
 	class HCCEELDOMFB___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E9A0);
+		}
+
 		static ::System::Func_2<::System::Net::IPEndPoint*, ::System::Net::Sockets::Socket*>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Net::Sockets::Socket*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EF20);
+			return (::System::Func_2<::System::Net::IPEndPoint*, ::System::Net::Sockets::Socket*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E9A8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EF28);
-		}
-
-		static ::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::System::Net::IPEndPoint*, ::System::UInt64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EF30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E9B0);
 		}
 
 		static ::System::Void _cctor()

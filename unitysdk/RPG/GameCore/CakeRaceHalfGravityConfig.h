@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceHalfGravityConfig; }
 
-#define RPG_GAMECORE_CAKERACEHALFGRAVITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5508A0)
-#define RPG_GAMECORE_CAKERACEHALFGRAVITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5501C0)
+#define RPG_GAMECORE_CAKERACEHALFGRAVITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7629A0)
+#define RPG_GAMECORE_CAKERACEHALFGRAVITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7622C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceHalfGravityConfig_TypeDefinitionIndex = 18405;
+	inline static constexpr unsigned int CakeRaceHalfGravityConfig_TypeDefinitionIndex = 18565;
 
 	class CakeRaceHalfGravityConfig : public ::RPG::GameCore::JsonConfig
 	{

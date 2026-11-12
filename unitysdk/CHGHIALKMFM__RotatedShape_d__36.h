@@ -8,17 +8,17 @@ namespace System { class Object; }
 namespace System::Collections { class IEnumerator; }
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54B200)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1C54B980)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_UNITYENGINE_VECTOR2INT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C54BF40)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_UNITYENGINE_VECTOR2INT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C54BEB0)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C54BFC0)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1C54BF10)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C54BEC0)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C54B840)
-#define CHGHIALKMFM__ROTATEDSHAPE_D__36___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1C54B880)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CCBD0)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D6CD350)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_UNITYENGINE_VECTOR2INT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D6CD910)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_UNITYENGINE_VECTOR2INT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D6CD880)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D6CD990)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D6CD8E0)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D6CD890)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D6CD210)
+#define CHGHIALKMFM__ROTATEDSHAPE_D__36___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1D6CD250)
 
-inline static constexpr unsigned int CHGHIALKMFM__RotatedShape_d__36_TypeDefinitionIndex = 41808;
+inline static constexpr unsigned int CHGHIALKMFM__RotatedShape_d__36_TypeDefinitionIndex = 42783;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36>
 	class CHGHIALKMFM__RotatedShape_d__36 : public ::System::Object
@@ -26,12 +26,12 @@ inline static constexpr unsigned int CHGHIALKMFM__RotatedShape_d__36_TypeDefinit
 	public:
 		::System::Collections::Generic::IEnumerator_1<::UnityEngine::Vector2Int>* __7__wrap2; // 0x10
 		::CHGHIALKMFM* __4__this; // 0x18
-		::UnityEngine::Vector2Int __2__current; // 0x20
-		::RPG::Client::MechCraft::MechCraftRotationType __3__rotation; // 0x28
-		::System::Int32 __l__initialThreadId; // 0x2C
-		::System::Int32 __1__state; // 0x30
-		::RPG::Client::MechCraft::MechCraftRotationType rotation; // 0x34
-		::UnityEngine::Vector2Int _originalSize_5__2; // 0x38
+		::System::Int32 __l__initialThreadId; // 0x20
+		::System::Int32 __1__state; // 0x24
+		::UnityEngine::Vector2Int _originalSize_5__2; // 0x28
+		::RPG::Client::MechCraft::MechCraftRotationType rotation; // 0x30
+		::UnityEngine::Vector2Int __2__current; // 0x34
+		::RPG::Client::MechCraft::MechCraftRotationType __3__rotation; // 0x3C
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CHGHIALKMFM__ROTATEDSHAPE_D__36_CTOR_OFFSET))(this, a1);

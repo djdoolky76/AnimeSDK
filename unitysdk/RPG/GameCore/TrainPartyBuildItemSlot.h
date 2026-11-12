@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyBuildItemSlot; }
 namespace RPG::GameCore { class TrainPartyBuildItemSlotExt; }
 
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2EA90)
-#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC2E770)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE42610)
+#define RPG_GAMECORE_TRAINPARTYBUILDITEMSLOT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE42400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyBuildItemSlot_TypeDefinitionIndex = 16265;
+	inline static constexpr unsigned int TrainPartyBuildItemSlot_TypeDefinitionIndex = 16423;
 
 	class TrainPartyBuildItemSlot : public ::RPG::GameCore::JsonConfig
 	{

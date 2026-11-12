@@ -4,8 +4,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE34510)
-#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x1EE34500)
+#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO_CCTOR_OFFSET UNITYSDK_OFFSET(0x200E3F60)
+#define SYSTEM_LINQ_EXPRESSIONS_SYMBOLDOCUMENTINFO_GET_FILENAME_OFFSET UNITYSDK_OFFSET(0x200E3F50)
 
 namespace System::Linq::Expressions
 {
@@ -17,7 +17,7 @@ namespace System::Linq::Expressions
 		::System::String* _FileName_k__BackingField; // 0x10
 		static ::System::Guid* StaticGet_DocumentType_Text()
 		{
-			return (::System::Guid*)UnitySDK::FromName("System.Linq.Expressions", "SymbolDocumentInfo")->GetStaticField(0xD7E0);
+			return (::System::Guid*)UnitySDK::FromName("System.Linq.Expressions", "SymbolDocumentInfo")->GetStaticField(0xEC00);
 		}
 
 		static ::System::Void _cctor()

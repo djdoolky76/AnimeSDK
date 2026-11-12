@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IFIX_CORE_TYPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9CFC60)
+#define IFIX_CORE_TYPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB58B00)
 
 namespace IFix::Core
 {
-	inline static constexpr unsigned int TypeInfo_TypeDefinitionIndex = 7129;
+	inline static constexpr unsigned int TypeInfo_TypeDefinitionIndex = 7140;
 
 	class TypeInfo : public ::System::Object
 	{

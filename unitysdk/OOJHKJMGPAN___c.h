@@ -5,113 +5,113 @@ class OIMEGOHPNFI;
 class OOJHKJMGPAN_BMEEIPLOBFM;
 namespace System { class Object; }
 
-#define OOJHKJMGPAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF8BBF0)
-#define OOJHKJMGPAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8BC30)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_0_OFFSET UNITYSDK_OFFSET(0xBF8BC40)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_10_OFFSET UNITYSDK_OFFSET(0xBF8BEC0)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_11_OFFSET UNITYSDK_OFFSET(0xBF8BF00)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_12_OFFSET UNITYSDK_OFFSET(0xBF8BF40)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_13_OFFSET UNITYSDK_OFFSET(0xBF8BF80)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_14_OFFSET UNITYSDK_OFFSET(0xBF8BFC0)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_15_OFFSET UNITYSDK_OFFSET(0xBF8C000)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_1_OFFSET UNITYSDK_OFFSET(0xBF8BC80)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_2_OFFSET UNITYSDK_OFFSET(0xBF8BCC0)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_3_OFFSET UNITYSDK_OFFSET(0xBF8BD00)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_4_OFFSET UNITYSDK_OFFSET(0xBF8BD40)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_5_OFFSET UNITYSDK_OFFSET(0xBF8BD80)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_6_OFFSET UNITYSDK_OFFSET(0xBF8BDC0)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_7_OFFSET UNITYSDK_OFFSET(0xBF8BE00)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_8_OFFSET UNITYSDK_OFFSET(0xBF8BE40)
-#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_9_OFFSET UNITYSDK_OFFSET(0xBF8BE80)
+#define OOJHKJMGPAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC88C530)
+#define OOJHKJMGPAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC88C570)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_0_OFFSET UNITYSDK_OFFSET(0xC88C580)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_10_OFFSET UNITYSDK_OFFSET(0xC88C800)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_11_OFFSET UNITYSDK_OFFSET(0xC88C840)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_12_OFFSET UNITYSDK_OFFSET(0xC88C880)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_13_OFFSET UNITYSDK_OFFSET(0xC88C8C0)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_14_OFFSET UNITYSDK_OFFSET(0xC88C900)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_15_OFFSET UNITYSDK_OFFSET(0xC88C940)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_1_OFFSET UNITYSDK_OFFSET(0xC88C5C0)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_2_OFFSET UNITYSDK_OFFSET(0xC88C600)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_3_OFFSET UNITYSDK_OFFSET(0xC88C640)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_4_OFFSET UNITYSDK_OFFSET(0xC88C680)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_5_OFFSET UNITYSDK_OFFSET(0xC88C6C0)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_6_OFFSET UNITYSDK_OFFSET(0xC88C700)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_7_OFFSET UNITYSDK_OFFSET(0xC88C740)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_8_OFFSET UNITYSDK_OFFSET(0xC88C780)
+#define OOJHKJMGPAN___C___INITDEFAULTMAPPINGS_B__2_9_OFFSET UNITYSDK_OFFSET(0xC88C7C0)
 
-inline static constexpr unsigned int OOJHKJMGPAN___c_TypeDefinitionIndex = 77368;
+inline static constexpr unsigned int OOJHKJMGPAN___c_TypeDefinitionIndex = 79702;
 
 	class OOJHKJMGPAN___c : public ::System::Object
 	{
 	public:
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_0()
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_12()
 		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC10);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC18);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_7()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC20);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_3()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC28);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_15()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC30);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_8()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC38);
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC70);
 		}
 
 		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_1()
 		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC40);
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC78);
 		}
 
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_5()
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_0()
 		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC48);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_11()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC50);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_13()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC58);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_12()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC60);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_9()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC68);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_2()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC70);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_10()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC78);
-		}
-
-		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_6()
-		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC80);
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC80);
 		}
 
 		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_4()
 		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC88);
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC88);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC90);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_13()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5AC98);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_2()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACA0);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_3()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACA8);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_11()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACB0);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_5()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACB8);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_15()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACC0);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_8()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACC8);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_7()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACD0);
 		}
 
 		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_14()
 		{
-			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EC90);
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACD8);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_10()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACE0);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_6()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACE8);
+		}
+
+		static ::OOJHKJMGPAN_BMEEIPLOBFM** StaticGet___9__2_9()
+		{
+			return (::OOJHKJMGPAN_BMEEIPLOBFM**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5ACF0);
 		}
 
 		static ::System::Void _cctor()

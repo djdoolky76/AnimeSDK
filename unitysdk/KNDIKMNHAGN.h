@@ -3,9 +3,9 @@
 #include "unitysdk/CFJDNIMHGOG.h"
 namespace System { class String; }
 
-#define KNDIKMNHAGN_CTOR_OFFSET UNITYSDK_OFFSET(0xB5806B0)
+#define KNDIKMNHAGN_CTOR_OFFSET UNITYSDK_OFFSET(0xBDCE260)
 
-inline static constexpr unsigned int KNDIKMNHAGN_TypeDefinitionIndex = 55593;
+inline static constexpr unsigned int KNDIKMNHAGN_TypeDefinitionIndex = 56789;
 
 	class KNDIKMNHAGN : public ::CFJDNIMHGOG
 	{

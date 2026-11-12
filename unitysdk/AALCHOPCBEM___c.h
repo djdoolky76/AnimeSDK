@@ -4,18 +4,18 @@
 class AALCHOPCBEM;
 namespace System { class Object; }
 
-#define AALCHOPCBEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDBE920)
-#define AALCHOPCBEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBE960)
-#define AALCHOPCBEM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDBE970)
+#define AALCHOPCBEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFC1250)
+#define AALCHOPCBEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC1290)
+#define AALCHOPCBEM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EFC12A0)
 
-inline static constexpr unsigned int AALCHOPCBEM___c_TypeDefinitionIndex = 27060;
+inline static constexpr unsigned int AALCHOPCBEM___c_TypeDefinitionIndex = 27591;
 
 	class AALCHOPCBEM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37420);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32350);
 		}
 
 		static ::System::Void _cctor()

@@ -5,10 +5,10 @@ class ECIAICDLAHO;
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define PHJGOBCDCPK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC6D830)
-#define PHJGOBCDCPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8F7D0)
+#define PHJGOBCDCPK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FF1E210)
+#define PHJGOBCDCPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF400B0)
 
-inline static constexpr unsigned int PHJGOBCDCPK_TypeDefinitionIndex = 44304;
+inline static constexpr unsigned int PHJGOBCDCPK_TypeDefinitionIndex = 45379;
 
 	class PHJGOBCDCPK : public ::System::Exception
 	{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class IACGHDENOPA;
 
-inline static constexpr unsigned int IACGHDENOPA_KeyCollection_Enumerator_TypeDefinitionIndex = 6330;
+inline static constexpr unsigned int IACGHDENOPA_KeyCollection_Enumerator_TypeDefinitionIndex = 6337;
 
 	struct alignas(8) IACGHDENOPA_KeyCollection_Enumerator
 	{

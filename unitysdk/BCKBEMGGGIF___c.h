@@ -4,18 +4,18 @@
 class BCKBEMGGGIF;
 namespace System { class Object; }
 
-#define BCKBEMGGGIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E909EA0)
-#define BCKBEMGGGIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E909EE0)
-#define BCKBEMGGGIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E909EF0)
+#define BCKBEMGGGIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBCE210)
+#define BCKBEMGGGIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBCE250)
+#define BCKBEMGGGIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FBCE260)
 
-inline static constexpr unsigned int BCKBEMGGGIF___c_TypeDefinitionIndex = 31283;
+inline static constexpr unsigned int BCKBEMGGGIF___c_TypeDefinitionIndex = 32196;
 
 	class BCKBEMGGGIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BC70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x443B0);
 		}
 
 		static ::System::Void _cctor()

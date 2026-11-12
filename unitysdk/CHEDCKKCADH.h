@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::FiveDim { template <typename T> class PhantomPlayerFrameData_1; }
 
-#define CHEDCKKCADH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4930)
-#define CHEDCKKCADH_GAFAJGPHHEP_OFFSET UNITYSDK_OFFSET(0x1C8E4730)
+#define CHEDCKKCADH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA65620)
+#define CHEDCKKCADH_GAFAJGPHHEP_OFFSET UNITYSDK_OFFSET(0x1DA65420)
 
-inline static constexpr unsigned int CHEDCKKCADH_TypeDefinitionIndex = 43584;
+inline static constexpr unsigned int CHEDCKKCADH_TypeDefinitionIndex = 44566;
 
 	class CHEDCKKCADH : public ::System::Object
 	{

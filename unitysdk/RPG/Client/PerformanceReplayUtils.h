@@ -7,59 +7,59 @@ namespace Proto { class PerformanceStartSnapshot; }
 namespace System { class String; }
 namespace System::IO { class Stream; }
 
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0xDAA5020)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0xDAA58D0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAA5C80)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0xDAA4EA0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0xDAA4BA0)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xDAA4C50)
-#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0xDAA53D0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESDECRYPT_OFFSET UNITYSDK_OFFSET(0xE4FAAB0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_AESENCRYPT_OFFSET UNITYSDK_OFFSET(0xE4FB300)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4FB680)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_GETPERFORMANCESNAPSHOTFILENAME_OFFSET UNITYSDK_OFFSET(0xE4FA900)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOTWITHBACKUP_OFFSET UNITYSDK_OFFSET(0xE4FA600)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_LOADPERFORMANCESTARTSNAPSHOT_OFFSET UNITYSDK_OFFSET(0xE4FA6B0)
+#define RPG_CLIENT_PERFORMANCEREPLAYUTILS_WRITETOSTREAM_OFFSET UNITYSDK_OFFSET(0xE4FAE30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 62211;
+	inline static constexpr unsigned int PerformanceReplayUtils_TypeDefinitionIndex = 63624;
 
 	class PerformanceReplayUtils : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_PerformanceSnapshotLoadPath()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140C0);
-		}
-
-		static ::System::String** StaticGet_ByteExtension()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140C8);
-		}
-
-		static ::System::String** StaticGet_JsonExtension()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140D0);
-		}
-
-		static ::System::String** StaticGet__DefaultAESIV()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140D8);
-		}
-
 		static ::System::String** StaticGet_PerformanceSnapshotOutputPath()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140E0);
-		}
-
-		static ::System::String** StaticGet_PerformanceLogPath()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140E8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x267F0);
 		}
 
 		static ::System::String** StaticGet__DefaultAESKey()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140F0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x267F8);
+		}
+
+		static ::System::String** StaticGet_PerformanceLogPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x26800);
+		}
+
+		static ::System::String** StaticGet__DefaultAESIV()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x26808);
+		}
+
+		static ::System::String** StaticGet_ByteExtension()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x26810);
+		}
+
+		static ::System::String** StaticGet_JsonExtension()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x26818);
 		}
 
 		static ::System::String** StaticGet_PacketLogFilePath()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x140F8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x26820);
+		}
+
+		static ::System::String** StaticGet_PerformanceSnapshotLoadPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "PerformanceReplayUtils")->GetStaticField(0x26828);
 		}
 
 		static ::System::Void _cctor()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define IMCNNFDOHGC_CTOR_OFFSET UNITYSDK_OFFSET(0x164D14A0)
+#define IMCNNFDOHGC_CTOR_OFFSET UNITYSDK_OFFSET(0xB800A70)
 
-inline static constexpr unsigned int IMCNNFDOHGC_TypeDefinitionIndex = 48729;
+inline static constexpr unsigned int IMCNNFDOHGC_TypeDefinitionIndex = 49775;
 
 	class IMCNNFDOHGC : public ::UnityEngine::Playables::PlayableBehaviour
 	{

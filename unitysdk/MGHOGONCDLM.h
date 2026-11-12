@@ -6,10 +6,10 @@ class HIOEAKHGILF;
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define MGHOGONCDLM_KOLDOPHICAF_OFFSET UNITYSDK_OFFSET(0x3C2FE10)
-#define MGHOGONCDLM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x3C2FE00)
+#define MGHOGONCDLM_KOLDOPHICAF_OFFSET UNITYSDK_OFFSET(0x3E7ED50)
+#define MGHOGONCDLM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x3E7ED40)
 
-inline static constexpr unsigned int MGHOGONCDLM_TypeDefinitionIndex = 43514;
+inline static constexpr unsigned int MGHOGONCDLM_TypeDefinitionIndex = 44496;
 
 	struct alignas(8) MGHOGONCDLM
 	{

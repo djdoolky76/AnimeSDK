@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 class KNKFLMOILNP;
 
-#define KNKFLMOILNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB587A00)
-#define KNKFLMOILNP_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB587A10)
-#define KNKFLMOILNP_NHNKBKHNDKA_OFFSET UNITYSDK_OFFSET(0xB587A80)
+#define KNKFLMOILNP_CTOR_OFFSET UNITYSDK_OFFSET(0xBDD6120)
+#define KNKFLMOILNP_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xBDD6130)
+#define KNKFLMOILNP_NHNKBKHNDKA_OFFSET UNITYSDK_OFFSET(0xBDD61A0)
 
-inline static constexpr unsigned int KNKFLMOILNP_TypeDefinitionIndex = 51793;
+inline static constexpr unsigned int KNKFLMOILNP_TypeDefinitionIndex = 52879;
 
 	class KNKFLMOILNP : public ::System::Object
 	{
 	public:
 		static ::KNKFLMOILNP** StaticGet_EMLNOINPICJ()
 		{
-			return (::KNKFLMOILNP**)UnitySDK::FromName("", "KNKFLMOILNP")->GetStaticField(0x64130);
+			return (::KNKFLMOILNP**)UnitySDK::FromName("", "KNKFLMOILNP")->GetStaticField(0x5B3E0);
 		}
 
 		::System::Void _ctor()

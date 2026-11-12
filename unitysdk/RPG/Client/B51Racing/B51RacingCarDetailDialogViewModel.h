@@ -8,24 +8,24 @@ namespace RPG::Client::B51Racing { class B51RacingCarStatItemViewModel; }
 namespace RPG::Client::B51Racing { class B51RacingDevelopValueIconListViewModel; }
 namespace System { class String; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGCARDETAILDIALOGVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC71DA80)
+#define RPG_CLIENT_B51RACING_B51RACINGCARDETAILDIALOGVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD07E9C0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingCarDetailDialogViewModel_TypeDefinitionIndex = 82011;
+	inline static constexpr unsigned int B51RacingCarDetailDialogViewModel_TypeDefinitionIndex = 84792;
 
 	class B51RacingCarDetailDialogViewModel : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* StatItems; // 0x10
-		::System::String* DriverIconID; // 0x18
-		::Il2CppArray<::RPG::Client::B51Racing::B51RacingBuffSkillItemViewModel*>* BuffSkillItems; // 0x20
-		::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel* TargetStatIconList; // 0x28
-		::System::Single ActiveSkillExpProgress; // 0x30
-		::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode DisplayMode; // 0x34
-		::System::UInt32 ActiveSkillID; // 0x38
-		::System::UInt32 ActiveSkillLevel; // 0x3C
-		::RPG::Client::TextID DriverBonusText; // 0x40
+		::RPG::Client::B51Racing::B51RacingDevelopValueIconListViewModel* TargetStatIconList; // 0x10
+		::Il2CppArray<::RPG::Client::B51Racing::B51RacingBuffSkillItemViewModel*>* BuffSkillItems; // 0x18
+		::System::String* DriverIconID; // 0x20
+		::Il2CppArray<::RPG::Client::B51Racing::B51RacingCarStatItemViewModel*>* StatItems; // 0x28
+		::RPG::Client::TextID DriverBonusText; // 0x30
+		::System::UInt32 ActiveSkillID; // 0x40
+		::System::UInt32 ActiveSkillLevel; // 0x44
+		::System::Single ActiveSkillExpProgress; // 0x48
+		::RPG::Client::B51Racing::B51RacingCarDetailDisplayMode DisplayMode; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGCARDETAILDIALOGVIEWMODEL_CTOR_OFFSET))(this);

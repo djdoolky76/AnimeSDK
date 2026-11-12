@@ -7,37 +7,37 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GNELPKKAEBC_CCTOR_OFFSET UNITYSDK_OFFSET(0x15B00C20)
-#define GNELPKKAEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFFF60)
-#define GNELPKKAEBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B00610)
-#define GNELPKKAEBC_EAGICECFLFG_OFFSET UNITYSDK_OFFSET(0x15B00560)
-#define GNELPKKAEBC_GNGKEEGOFIE_OFFSET UNITYSDK_OFFSET(0x15B00710)
-#define GNELPKKAEBC_IAIIGFFHJAL_1_OFFSET UNITYSDK_OFFSET(0x15B00BB0)
-#define GNELPKKAEBC_IAIIGFFHJAL_OFFSET UNITYSDK_OFFSET(0x15B00AB0)
-#define GNELPKKAEBC_ICINPELIFCC_OFFSET UNITYSDK_OFFSET(0x15B004D0)
-#define GNELPKKAEBC_IFJOPBEPCEE_OFFSET UNITYSDK_OFFSET(0x15B00290)
-#define GNELPKKAEBC_KBMHMHFNPNF_OFFSET UNITYSDK_OFFSET(0x15B00520)
-#define GNELPKKAEBC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15B005A0)
-#define GNELPKKAEBC_PCAGBGGPLDO_OFFSET UNITYSDK_OFFSET(0x15B00920)
-#define GNELPKKAEBC_PHFKFBLIBKG_OFFSET UNITYSDK_OFFSET(0x15B002E0)
+#define GNELPKKAEBC_CCTOR_OFFSET UNITYSDK_OFFSET(0x16A83A60)
+#define GNELPKKAEBC_CTOR_OFFSET UNITYSDK_OFFSET(0x16A82D90)
+#define GNELPKKAEBC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A83440)
+#define GNELPKKAEBC_EAGICECFLFG_OFFSET UNITYSDK_OFFSET(0x16A83390)
+#define GNELPKKAEBC_GNGKEEGOFIE_OFFSET UNITYSDK_OFFSET(0x16A83550)
+#define GNELPKKAEBC_IAIIGFFHJAL_1_OFFSET UNITYSDK_OFFSET(0x16A839F0)
+#define GNELPKKAEBC_IAIIGFFHJAL_OFFSET UNITYSDK_OFFSET(0x16A838F0)
+#define GNELPKKAEBC_ICINPELIFCC_OFFSET UNITYSDK_OFFSET(0x16A83300)
+#define GNELPKKAEBC_IFJOPBEPCEE_OFFSET UNITYSDK_OFFSET(0x16A830C0)
+#define GNELPKKAEBC_KBMHMHFNPNF_OFFSET UNITYSDK_OFFSET(0x16A83350)
+#define GNELPKKAEBC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x16A833D0)
+#define GNELPKKAEBC_PCAGBGGPLDO_OFFSET UNITYSDK_OFFSET(0x16A83760)
+#define GNELPKKAEBC_PHFKFBLIBKG_OFFSET UNITYSDK_OFFSET(0x16A83110)
 
-inline static constexpr unsigned int GNELPKKAEBC_TypeDefinitionIndex = 78987;
+inline static constexpr unsigned int GNELPKKAEBC_TypeDefinitionIndex = 81763;
 
 	class GNELPKKAEBC : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* FOIBNHFMDMO; // 0x10
-		::Il2CppArray<::System::Int32>* FDHJNHGLLEL; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::Prop::ChimePuzzle::LogicChimeType>* OCIJCENFCOD; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::RPG::Client::Prop::ChimePuzzle::LogicChimeType>* OCIJCENFCOD; // 0x18
+		::Il2CppArray<::System::Int32>* FDHJNHGLLEL; // 0x20
 		::System::Int32 BFLNNOEKIGE; // 0x28
 		static ::System::Int32* StaticGet_EHNNGMCDIIL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNELPKKAEBC")->GetStaticField(0x14FA0);
+			return (::System::Int32*)UnitySDK::FromName("", "GNELPKKAEBC")->GetStaticField(0x15B40);
 		}
 
 		static ::System::Int32* StaticGet_PNNIOKLAAPO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GNELPKKAEBC")->GetStaticField(0x14FA4);
+			return (::System::Int32*)UnitySDK::FromName("", "GNELPKKAEBC")->GetStaticField(0x15B44);
 		}
 
 		::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::Prop::ChimePuzzle::ChimeProxy>* a1, ::Il2CppArray<::System::Int32>* a2, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::HashSet_1<::System::Int32>*>* a3, ::System::Int32 a4)

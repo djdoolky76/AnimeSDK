@@ -7,12 +7,12 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EEFGGFIGMCK_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2B7B0)
-#define EEFGGFIGMCK_FNJCDCFNBDB_OFFSET UNITYSDK_OFFSET(0x13A2C030)
-#define EEFGGFIGMCK_IMCPOJIMBOC_OFFSET UNITYSDK_OFFSET(0x13A2B860)
-#define EEFGGFIGMCK_KFCHLCHINDI_OFFSET UNITYSDK_OFFSET(0x13A2C220)
+#define EEFGGFIGMCK_CTOR_OFFSET UNITYSDK_OFFSET(0x147EB3C0)
+#define EEFGGFIGMCK_FNJCDCFNBDB_OFFSET UNITYSDK_OFFSET(0x147EBC30)
+#define EEFGGFIGMCK_IMCPOJIMBOC_OFFSET UNITYSDK_OFFSET(0x147EB470)
+#define EEFGGFIGMCK_KFCHLCHINDI_OFFSET UNITYSDK_OFFSET(0x147EBE10)
 
-inline static constexpr unsigned int EEFGGFIGMCK_TypeDefinitionIndex = 60705;
+inline static constexpr unsigned int EEFGGFIGMCK_TypeDefinitionIndex = 62082;
 
 	class EEFGGFIGMCK : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/HBIAKFCLCIG.h"
 #include "unitysdk/CAHKKMIFGGB.h"
 
-#define JJCPPLCFDID_CTOR_OFFSET UNITYSDK_OFFSET(0xB201BF0)
-#define JJCPPLCFDID_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xB2013F0)
+#define JJCPPLCFDID_CTOR_OFFSET UNITYSDK_OFFSET(0xBA23EC0)
+#define JJCPPLCFDID_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xBA236C0)
 
-inline static constexpr unsigned int JJCPPLCFDID_TypeDefinitionIndex = 64929;
+inline static constexpr unsigned int JJCPPLCFDID_TypeDefinitionIndex = 66500;
 
 	class JJCPPLCFDID : public ::HBIAKFCLCIG
 	{

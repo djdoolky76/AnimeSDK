@@ -4,11 +4,11 @@
 class GGHEGHCAIEH;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define PACFJDLCKGC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBFC5EC0)
-#define PACFJDLCKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC5F80)
-#define PACFJDLCKGC_LALPGEAJIHF_OFFSET UNITYSDK_OFFSET(0xBFC5E20)
+#define PACFJDLCKGC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC8C73F0)
+#define PACFJDLCKGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC8C74B0)
+#define PACFJDLCKGC_LALPGEAJIHF_OFFSET UNITYSDK_OFFSET(0xC8C7350)
 
-inline static constexpr unsigned int PACFJDLCKGC_TypeDefinitionIndex = 80110;
+inline static constexpr unsigned int PACFJDLCKGC_TypeDefinitionIndex = 82887;
 
 	class PACFJDLCKGC : public ::System::Object
 	{

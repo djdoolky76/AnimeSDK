@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int DAJGBMBBLAF_PANPNJKGPOI_TypeDefinitionIndex = 76499;
+inline static constexpr unsigned int DAJGBMBBLAF_PANPNJKGPOI_TypeDefinitionIndex = 78830;
 
 	struct alignas(8) DAJGBMBBLAF_PANPNJKGPOI
 	{

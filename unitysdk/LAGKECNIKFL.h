@@ -3,9 +3,9 @@
 namespace System { class String; }
 
 #define LAGKECNIKFL_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define LAGKECNIKFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x17410)
+#define LAGKECNIKFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BAE0)
 
-inline static constexpr unsigned int LAGKECNIKFL_TypeDefinitionIndex = 67674;
+inline static constexpr unsigned int LAGKECNIKFL_TypeDefinitionIndex = 69619;
 
 	struct alignas(4) LAGKECNIKFL
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HKHKECCLBPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECBC0)
+#define HKHKECCLBPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1590)
 
-inline static constexpr unsigned int HKHKECCLBPF_TypeDefinitionIndex = 43795;
+inline static constexpr unsigned int HKHKECCLBPF_TypeDefinitionIndex = 44870;
 
 	class HKHKECCLBPF : public ::System::Object
 	{

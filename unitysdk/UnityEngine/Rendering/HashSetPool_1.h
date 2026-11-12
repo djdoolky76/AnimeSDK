@@ -6,7 +6,7 @@ namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HashSetPool_1_TypeDefinitionIndex = 35495;
+	inline static constexpr unsigned int HashSetPool_1_TypeDefinitionIndex = 36423;
 
 	template <typename T>
 	class HashSetPool_1 : public ::System::Object

@@ -4,18 +4,18 @@
 namespace RPG::CustomRP { class IRPMessage; }
 namespace RPG::CustomRP { class ReadMessageThread; }
 
-#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC6C120)
-#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0___READMSG_B__0_OFFSET UNITYSDK_OFFSET(0x1CC6CA00)
+#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE13580)
+#define RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0___READMSG_B__0_OFFSET UNITYSDK_OFFSET(0x1DE13E00)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass8_0_TypeDefinitionIndex = 37912;
+	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass8_0_TypeDefinitionIndex = 38841;
 
 	class ReadMessageThread___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::CustomRP::ReadMessageThread* __4__this; // 0x10
-		::RPG::CustomRP::IRPMessage* message; // 0x18
+		::RPG::CustomRP::IRPMessage* message; // 0x10
+		::RPG::CustomRP::ReadMessageThread* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_READMESSAGETHREAD___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

@@ -6,17 +6,17 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AKTRIGGERHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x1F618660)
-#define AKTRIGGERHANDLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F619710)
-#define AKTRIGGERHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F619680)
-#define AKTRIGGERHANDLER_DODESTROY_OFFSET UNITYSDK_OFFSET(0x1F618E20)
-#define AKTRIGGERHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1F618DD0)
-#define AKTRIGGERHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F6193C0)
-#define AKTRIGGERHANDLER_REGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1F618860)
-#define AKTRIGGERHANDLER_START_OFFSET UNITYSDK_OFFSET(0x1F618C70)
-#define AKTRIGGERHANDLER_UNREGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x1F619020)
+#define AKTRIGGERHANDLER_AWAKE_OFFSET UNITYSDK_OFFSET(0x208C7EB0)
+#define AKTRIGGERHANDLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x208C9060)
+#define AKTRIGGERHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x208C8FD0)
+#define AKTRIGGERHANDLER_DODESTROY_OFFSET UNITYSDK_OFFSET(0x208C8710)
+#define AKTRIGGERHANDLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x208C86C0)
+#define AKTRIGGERHANDLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x208C8D10)
+#define AKTRIGGERHANDLER_REGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x208C80B0)
+#define AKTRIGGERHANDLER_START_OFFSET UNITYSDK_OFFSET(0x208C8560)
+#define AKTRIGGERHANDLER_UNREGISTERTRIGGERS_OFFSET UNITYSDK_OFFSET(0x208C8910)
 
-inline static constexpr unsigned int AkTriggerHandler_TypeDefinitionIndex = 44967;
+inline static constexpr unsigned int AkTriggerHandler_TypeDefinitionIndex = 46042;
 
 	class AkTriggerHandler : public ::UnityEngine::MonoBehaviour
 	{
@@ -27,7 +27,7 @@ inline static constexpr unsigned int AkTriggerHandler_TypeDefinitionIndex = 4496
 		::System::Boolean useOtherObject; // 0x28
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet_triggerTypes()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("", "AkTriggerHandler")->GetStaticField(0x11330);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("", "AkTriggerHandler")->GetStaticField(0xA740);
 		}
 
 		// static const ::System::Object AWAKE_TRIGGER_ID; // 0x0

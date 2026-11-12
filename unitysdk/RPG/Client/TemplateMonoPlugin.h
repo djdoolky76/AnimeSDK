@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_TEMPLATEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE208070)
+#define RPG_CLIENT_TEMPLATEMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xECB5160)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TemplateMonoPlugin_TypeDefinitionIndex = 70779;
+	inline static constexpr unsigned int TemplateMonoPlugin_TypeDefinitionIndex = 72758;
 
 	class TemplateMonoPlugin
 	{

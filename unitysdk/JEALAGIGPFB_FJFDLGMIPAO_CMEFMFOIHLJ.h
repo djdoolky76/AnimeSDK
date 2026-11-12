@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16615C90)
+#define JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB95E9A0)
 
-inline static constexpr unsigned int JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ_TypeDefinitionIndex = 57428;
+inline static constexpr unsigned int JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ_TypeDefinitionIndex = 58656;
 
 	class JEALAGIGPFB_FJFDLGMIPAO_CMEFMFOIHLJ : public ::System::Object
 	{

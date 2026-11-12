@@ -1,6 +1,6 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HEOLKMLMPML.h"
+#include "unitysdk/RPG/Client/GridFightRichTextNodeCompiler.h"
 #include "unitysdk/RPG/GameCore/ModifyCalcOpType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 class DNGMCNPJHBJ;
@@ -8,17 +8,17 @@ class FMKEJLGKEMH;
 namespace RPG::Client { class GridFightRoleSkillDetail; }
 namespace System { class String; }
 
-#define JCNKGOEFKKK_ACMPHJJOOHE_OFFSET UNITYSDK_OFFSET(0x165A7E00)
-#define JCNKGOEFKKK_APKAPIKJDOA_OFFSET UNITYSDK_OFFSET(0x165A82C0)
-#define JCNKGOEFKKK_CTOR_OFFSET UNITYSDK_OFFSET(0x165A7DF0)
-#define JCNKGOEFKKK_GCEGDBMEHLN_OFFSET UNITYSDK_OFFSET(0x165A8110)
-#define JCNKGOEFKKK_KALJPLALDAM_OFFSET UNITYSDK_OFFSET(0x165A7F80)
-#define JCNKGOEFKKK_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x165A7D80)
-#define JCNKGOEFKKK_OHHEEPFHMGK_OFFSET UNITYSDK_OFFSET(0x165A8520)
+#define JCNKGOEFKKK_APKAPIKJDOA_OFFSET UNITYSDK_OFFSET(0xB8EBDF0)
+#define JCNKGOEFKKK_COMPILE_OFFSET UNITYSDK_OFFSET(0xB8EB8B0)
+#define JCNKGOEFKKK_CTOR_OFFSET UNITYSDK_OFFSET(0xB8EB8A0)
+#define JCNKGOEFKKK_GCEGDBMEHLN_OFFSET UNITYSDK_OFFSET(0xB8EBC00)
+#define JCNKGOEFKKK_GET_TAG_OFFSET UNITYSDK_OFFSET(0xB8EB830)
+#define JCNKGOEFKKK_KALJPLALDAM_OFFSET UNITYSDK_OFFSET(0xB8EBA30)
+#define JCNKGOEFKKK_OHHEEPFHMGK_OFFSET UNITYSDK_OFFSET(0xB8EC050)
 
-inline static constexpr unsigned int JCNKGOEFKKK_TypeDefinitionIndex = 65287;
+inline static constexpr unsigned int JCNKGOEFKKK_TypeDefinitionIndex = 67046;
 
-	class JCNKGOEFKKK : public ::HEOLKMLMPML
+	class JCNKGOEFKKK : public ::RPG::Client::GridFightRichTextNodeCompiler
 	{
 	public:
 		::FMKEJLGKEMH* JKLBAAHFJDJ; // 0x10
@@ -28,14 +28,14 @@ inline static constexpr unsigned int JCNKGOEFKKK_TypeDefinitionIndex = 65287;
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightRoleSkillDetail*))((::PBYTE)hIl2Cpp + JCNKGOEFKKK_CTOR_OFFSET))(this, a1);
 		}
 
-		::System::String* NDMBDGKAJEK()
+		::System::String* get_Tag()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + JCNKGOEFKKK_NDMBDGKAJEK_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + JCNKGOEFKKK_GET_TAG_OFFSET))(this);
 		}
 
-		::System::String* ACMPHJJOOHE(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
+		::System::String* Compile(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + JCNKGOEFKKK_ACMPHJJOOHE_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + JCNKGOEFKKK_COMPILE_OFFSET))(this, a1, a2);
 		}
 
 		::System::String* KALJPLALDAM()

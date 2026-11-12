@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPathwayLinkInfo; }
 
-#define RPG_GAMECORE_LEVELPATHWAYLINKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C3430)
-#define RPG_GAMECORE_LEVELPATHWAYLINKINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C3340)
+#define RPG_GAMECORE_LEVELPATHWAYLINKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA02C30)
+#define RPG_GAMECORE_LEVELPATHWAYLINKINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA02B40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPathwayLinkInfo_TypeDefinitionIndex = 17251;
+	inline static constexpr unsigned int LevelPathwayLinkInfo_TypeDefinitionIndex = 17419;
 
 	class LevelPathwayLinkInfo : public ::RPG::GameCore::JsonConfig
 	{

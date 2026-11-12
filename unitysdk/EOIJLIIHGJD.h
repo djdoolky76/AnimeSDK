@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PlayerSettingItem; }
 
-#define EOIJLIIHGJD_CTOR_OFFSET UNITYSDK_OFFSET(0x155C3C80)
-#define EOIJLIIHGJD_LFNIDOPEMEA_OFFSET UNITYSDK_OFFSET(0x155C2B60)
+#define EOIJLIIHGJD_CTOR_OFFSET UNITYSDK_OFFSET(0x164D5D00)
+#define EOIJLIIHGJD_LFNIDOPEMEA_OFFSET UNITYSDK_OFFSET(0x164D4BE0)
 
-inline static constexpr unsigned int EOIJLIIHGJD_TypeDefinitionIndex = 66694;
+inline static constexpr unsigned int EOIJLIIHGJD_TypeDefinitionIndex = 68630;
 
 	class EOIJLIIHGJD : public ::System::Object
 	{

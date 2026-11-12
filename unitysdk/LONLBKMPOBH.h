@@ -9,14 +9,14 @@ namespace System { class String; }
 namespace System::Text { class StringBuilder; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define LONLBKMPOBH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB80F2D0)
-#define LONLBKMPOBH_CLKIPNEJNGF_OFFSET UNITYSDK_OFFSET(0xB80F130)
-#define LONLBKMPOBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB80F250)
-#define LONLBKMPOBH_HJGFJHKLPNF_OFFSET UNITYSDK_OFFSET(0xB80F1E0)
-#define LONLBKMPOBH_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xB80ED20)
-#define LONLBKMPOBH_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB80ECB0)
+#define LONLBKMPOBH_CCTOR_OFFSET UNITYSDK_OFFSET(0xC0704E0)
+#define LONLBKMPOBH_CLKIPNEJNGF_OFFSET UNITYSDK_OFFSET(0xC070340)
+#define LONLBKMPOBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC070460)
+#define LONLBKMPOBH_HJGFJHKLPNF_OFFSET UNITYSDK_OFFSET(0xC0703F0)
+#define LONLBKMPOBH_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xC06FF30)
+#define LONLBKMPOBH_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xC06FEC0)
 
-inline static constexpr unsigned int LONLBKMPOBH_TypeDefinitionIndex = 73378;
+inline static constexpr unsigned int LONLBKMPOBH_TypeDefinitionIndex = 75498;
 
 	class LONLBKMPOBH : public ::System::Object
 	{
@@ -24,7 +24,7 @@ inline static constexpr unsigned int LONLBKMPOBH_TypeDefinitionIndex = 73378;
 		::System::Text::StringBuilder* NBGGLAANOJH; // 0x10
 		static ::System::Text::RegularExpressions::Regex** StaticGet_HLHJINEJLOA()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "LONLBKMPOBH")->GetStaticField(0x6D7D0);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "LONLBKMPOBH")->GetStaticField(0x6B280);
 		}
 
 		// static const ::System::String* HNKDAMMJLJG; // 0x0

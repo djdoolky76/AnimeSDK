@@ -7,10 +7,10 @@ class BJCNEJFNIID;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PCPJIEBCNBI_CLEAR_OFFSET UNITYSDK_OFFSET(0xC00B3F0)
-#define PCPJIEBCNBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC00B440)
+#define PCPJIEBCNBI_CLEAR_OFFSET UNITYSDK_OFFSET(0xC911270)
+#define PCPJIEBCNBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC9112C0)
 
-inline static constexpr unsigned int PCPJIEBCNBI_TypeDefinitionIndex = 56057;
+inline static constexpr unsigned int PCPJIEBCNBI_TypeDefinitionIndex = 57269;
 
 	class PCPJIEBCNBI : public ::System::Object
 	{

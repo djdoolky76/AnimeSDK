@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/TimeScaleReason.h"
 namespace RPG { template <typename T> class PoolList_1; }
 
-#define AOCLFHHDFNG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C89E690)
-#define AOCLFHHDFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E750)
+#define AOCLFHHDFNG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DA1FCE0)
+#define AOCLFHHDFNG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1FDA0)
 
-inline static constexpr unsigned int AOCLFHHDFNG_TypeDefinitionIndex = 43313;
+inline static constexpr unsigned int AOCLFHHDFNG_TypeDefinitionIndex = 44294;
 
 	class AOCLFHHDFNG : public ::KMGHEKCKAAP
 	{

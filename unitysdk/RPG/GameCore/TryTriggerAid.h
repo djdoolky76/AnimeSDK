@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TryTriggerAid; }
 
-#define RPG_GAMECORE_TRYTRIGGERAID_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC61780)
-#define RPG_GAMECORE_TRYTRIGGERAID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC61790)
-#define RPG_GAMECORE_TRYTRIGGERAID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC61750)
+#define RPG_GAMECORE_TRYTRIGGERAID_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE74330)
+#define RPG_GAMECORE_TRYTRIGGERAID_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE74340)
+#define RPG_GAMECORE_TRYTRIGGERAID_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE74300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TryTriggerAid_TypeDefinitionIndex = 23640;
+	inline static constexpr unsigned int TryTriggerAid_TypeDefinitionIndex = 24087;
 
 	class TryTriggerAid : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,18 +4,18 @@
 class KIDELOJLPFB;
 namespace System { class Object; }
 
-#define KIDELOJLPFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E856E40)
-#define KIDELOJLPFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E856E80)
-#define KIDELOJLPFB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E856E90)
+#define KIDELOJLPFB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB70F70)
+#define KIDELOJLPFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB70FB0)
+#define KIDELOJLPFB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FB70FC0)
 
-inline static constexpr unsigned int KIDELOJLPFB___c_TypeDefinitionIndex = 30083;
+inline static constexpr unsigned int KIDELOJLPFB___c_TypeDefinitionIndex = 30981;
 
 	class KIDELOJLPFB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18F50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12A60);
 		}
 
 		static ::System::Void _cctor()

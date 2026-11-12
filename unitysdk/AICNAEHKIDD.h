@@ -6,23 +6,23 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define AICNAEHKIDD_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA0690)
-#define AICNAEHKIDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEBA0940)
-#define AICNAEHKIDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEBA0980)
-#define AICNAEHKIDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBA0DB0)
-#define AICNAEHKIDD_TICK_OFFSET UNITYSDK_OFFSET(0xEBA0E00)
+#define AICNAEHKIDD_CTOR_OFFSET UNITYSDK_OFFSET(0xF15FAB0)
+#define AICNAEHKIDD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF15FD60)
+#define AICNAEHKIDD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF15FDA0)
+#define AICNAEHKIDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF1601D0)
+#define AICNAEHKIDD_TICK_OFFSET UNITYSDK_OFFSET(0xF160220)
 
-inline static constexpr unsigned int AICNAEHKIDD_TypeDefinitionIndex = 52628;
+inline static constexpr unsigned int AICNAEHKIDD_TypeDefinitionIndex = 53735;
 
 	class AICNAEHKIDD : public ::GELIALJDFBL
 	{
 	public:
-		::UnityEngine::Animator* OIPFNAHBHKG; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::System::Collections::Generic::List_1<::System::Int32>* ACDDCNNEDBF; // 0x28
-		::RPG::GameCore::CalcElevatorLoopTime* OFKGLJOAMLD; // 0x30
-		::System::Int32 LPDFMBGPPJB; // 0x38
-		::System::Single JOHKMCAFKGJ; // 0x3C
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CalcElevatorLoopTime* OFKGLJOAMLD; // 0x20
+		::UnityEngine::Animator* OIPFNAHBHKG; // 0x28
+		::System::Collections::Generic::List_1<::System::Int32>* ACDDCNNEDBF; // 0x30
+		::System::Single JOHKMCAFKGJ; // 0x38
+		::System::Int32 LPDFMBGPPJB; // 0x3C
 		::System::Int32 COJMPLBLJDE; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CalcElevatorLoopTime* a2)
 		{

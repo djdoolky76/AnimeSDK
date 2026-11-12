@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define EIHFPMIDMGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8A400)
+#define EIHFPMIDMGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF5D120)
 
-inline static constexpr unsigned int EIHFPMIDMGP_TypeDefinitionIndex = 25027;
+inline static constexpr unsigned int EIHFPMIDMGP_TypeDefinitionIndex = 25505;
 
 	class EIHFPMIDMGP : public ::System::Attribute
 	{

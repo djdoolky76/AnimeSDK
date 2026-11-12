@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesSkillTreePhaseRow; }
 
-#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92B370)
-#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D92B1C0)
+#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB444B0)
+#define RPG_GAMECORE_PLANETFESSKILLTREEPHASEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB44300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesSkillTreePhaseRow_TypeDefinitionIndex = 12205;
+	inline static constexpr unsigned int PlanetFesSkillTreePhaseRow_TypeDefinitionIndex = 12262;
 
 	class PlanetFesSkillTreePhaseRow : public ::System::Object
 	{

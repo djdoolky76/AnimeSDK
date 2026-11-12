@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EMBFOGJJONO_TypeDefinitionIndex = 31433;
+inline static constexpr unsigned int EMBFOGJJONO_TypeDefinitionIndex = 32346;
 
 	enum class EMBFOGJJONO : ::System::Int32
 	{

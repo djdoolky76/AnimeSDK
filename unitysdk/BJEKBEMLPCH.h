@@ -6,11 +6,11 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define BJEKBEMLPCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80D2B0)
-#define BJEKBEMLPCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D80D2E0)
-#define BJEKBEMLPCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D80D260)
+#define BJEKBEMLPCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C0E70)
+#define BJEKBEMLPCH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9C0EA0)
+#define BJEKBEMLPCH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9C0E20)
 
-inline static constexpr unsigned int BJEKBEMLPCH_TypeDefinitionIndex = 20988;
+inline static constexpr unsigned int BJEKBEMLPCH_TypeDefinitionIndex = 21326;
 
 	class BJEKBEMLPCH : public ::RPG::GameCore::TaskConfig
 	{

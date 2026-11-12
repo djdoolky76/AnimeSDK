@@ -6,19 +6,19 @@ namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xD424AA0)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD424AD0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xDE77E40)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDE77E70)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraUseAbilityCommand_TypeDefinitionIndex = 76627;
+	inline static constexpr unsigned int ChimeraUseAbilityCommand_TypeDefinitionIndex = 78958;
 
 	class ChimeraUseAbilityCommand : public ::System::Object
 	{
 	public:
 		::System::String* JsonPath; // 0x10
-		::System::UInt32 FromID; // 0x18
-		::System::UInt32 TriggerID; // 0x1C
+		::System::UInt32 TriggerID; // 0x18
+		::System::UInt32 FromID; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::System::String* a2, ::EHIEFPKGLAN* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::String*, ::EHIEFPKGLAN*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAUSEABILITYCOMMAND_CTOR_OFFSET))(this, a1, a2, a3);

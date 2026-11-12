@@ -4,12 +4,12 @@
 namespace RPG::Client::UI::UIStateCtrl { class CanvasGroupAlphaData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_CANVASGROUPSETALPHAACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE348CE0)
-#define RPG_CLIENT_UI_UISTATECTRL_CANVASGROUPSETALPHAACTION_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xE348B90)
+#define RPG_CLIENT_UI_UISTATECTRL_CANVASGROUPSETALPHAACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xEDB4CC0)
+#define RPG_CLIENT_UI_UISTATECTRL_CANVASGROUPSETALPHAACTION_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xEDB4B70)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int CanvasGroupSetAlphaAction_TypeDefinitionIndex = 74045;
+	inline static constexpr unsigned int CanvasGroupSetAlphaAction_TypeDefinitionIndex = 76190;
 
 	class CanvasGroupSetAlphaAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{

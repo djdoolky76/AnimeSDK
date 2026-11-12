@@ -3,12 +3,12 @@
 #include "unitysdk/RPGTools/Timeline/CustomEventBehaviour.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE93A830)
-#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE93A8A0)
+#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xF4580D0)
+#define RPGTOOLS_TIMELINE_SHOWUIBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF458140)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowUIBehaviour_TypeDefinitionIndex = 48408;
+	inline static constexpr unsigned int ShowUIBehaviour_TypeDefinitionIndex = 49449;
 
 	class ShowUIBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{

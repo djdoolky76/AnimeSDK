@@ -3,9 +3,9 @@
 #include "unitysdk/FPBBKOFJLIM.h"
 #include "unitysdk/System/Object.h"
 
-#define MPHJKFMANPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92E3E0)
+#define MPHJKFMANPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEF8D0)
 
-inline static constexpr unsigned int MPHJKFMANPG_TypeDefinitionIndex = 42273;
+inline static constexpr unsigned int MPHJKFMANPG_TypeDefinitionIndex = 43248;
 
 	class MPHJKFMANPG : public ::System::Object
 	{

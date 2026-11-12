@@ -4,17 +4,17 @@
 class NMEGIPHFFDA;
 namespace System { class Object; }
 
-#define HDCIKKPIPKA___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15C307F0)
-#define HDCIKKPIPKA___C__DISPLAYCLASS0_1__TOPUBLICORDERS_B__0_OFFSET UNITYSDK_OFFSET(0x15C309E0)
+#define HDCIKKPIPKA___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x16B73EA0)
+#define HDCIKKPIPKA___C__DISPLAYCLASS0_1__TOPUBLICORDERS_B__0_OFFSET UNITYSDK_OFFSET(0x16B74090)
 
-inline static constexpr unsigned int HDCIKKPIPKA___c__DisplayClass0_1_TypeDefinitionIndex = 74866;
+inline static constexpr unsigned int HDCIKKPIPKA___c__DisplayClass0_1_TypeDefinitionIndex = 77193;
 
 	template <typename T>
 	class HDCIKKPIPKA___c__DisplayClass0_1 : public ::System::Object
 	{
 	public:
-		::NMEGIPHFFDA* protoOrder; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::NMEGIPHFFDA* protoOrder; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDCIKKPIPKA___C__DISPLAYCLASS0_1_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/SceneManagement/LoadSceneMode.h"
 #include "unitysdk/UnityEngine/SceneManagement/LocalPhysicsMode.h"
 
-#define UNITYENGINE_SCENEMANAGEMENT_LOADSCENEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x3C7B8C0)
+#define UNITYENGINE_SCENEMANAGEMENT_LOADSCENEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x3ECAB60)
 
 namespace UnityEngine::SceneManagement
 {

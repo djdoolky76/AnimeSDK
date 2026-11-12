@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHeroGender; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDMOMGNBIMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB63E210)
-#define LDMOMGNBIMM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB63E240)
+#define LDMOMGNBIMM_CTOR_OFFSET UNITYSDK_OFFSET(0xBED3EF0)
+#define LDMOMGNBIMM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBED3F20)
 
-inline static constexpr unsigned int LDMOMGNBIMM_TypeDefinitionIndex = 53144;
+inline static constexpr unsigned int LDMOMGNBIMM_TypeDefinitionIndex = 54306;
 
 	class LDMOMGNBIMM
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OHNELDKIJPH_TypeDefinitionIndex = 27268;
+inline static constexpr unsigned int OHNELDKIJPH_TypeDefinitionIndex = 27799;
 
 	enum class OHNELDKIJPH : ::System::Int32
 	{

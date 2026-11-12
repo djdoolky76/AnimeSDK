@@ -5,26 +5,26 @@ namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCCBD70)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1BCCE2C0)
-#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__3_OFFSET UNITYSDK_OFFSET(0x1BCCE4F0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE55040)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__0_OFFSET UNITYSDK_OFFSET(0x1CE575E0)
+#define MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0__REQUESTDETECTPAY_B__3_OFFSET UNITYSDK_OFFSET(0x1CE57810)
 
 namespace MiHoYo::SDK::Console::OS
 {
-	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 9100;
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass18_0_TypeDefinitionIndex = 9109;
 
 	class PayManagerCX___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::System::String* aid; // 0x10
-		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x18
-		::System::String* region; // 0x20
-		::System::String* collectionsId; // 0x28
-		::System::Action_1<::System::String*>* __9__3; // 0x30
+		::System::String* device; // 0x10
+		::System::Action_1<::System::String*>* __9__3; // 0x18
+		::System::String* uid; // 0x20
+		::MiHoYo::SDK::Console::OS::PayManagerCX* __4__this; // 0x28
+		::System::String* collectionsId; // 0x30
 		::System::String* game; // 0x38
 		::System::String* gameToken; // 0x40
-		::System::String* uid; // 0x48
-		::System::String* device; // 0x50
+		::System::String* region; // 0x48
+		::System::String* aid; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_OS_PAYMANAGERCX___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);

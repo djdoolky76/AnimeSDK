@@ -4,20 +4,20 @@
 namespace Proto { class FloorCustomValueSnapshot; }
 namespace System { class Object; }
 
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF40C0)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF4100)
-#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DFF4110)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A57C0)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A5800)
+#define PROTO_FLOORCUSTOMVALUESNAPSHOT___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F2A5810)
 
 namespace Proto
 {
-	inline static constexpr unsigned int FloorCustomValueSnapshot___c_TypeDefinitionIndex = 25818;
+	inline static constexpr unsigned int FloorCustomValueSnapshot___c_TypeDefinitionIndex = 26315;
 
 	class FloorCustomValueSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43B40);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4D300);
 		}
 
 		static ::System::Void _cctor()

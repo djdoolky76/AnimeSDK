@@ -4,17 +4,17 @@
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PHOTOGRAPHUTILS_CACHEDIMAGESAVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDB21D20)
+#define RPG_CLIENT_PHOTOGRAPHUTILS_CACHEDIMAGESAVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE577960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphUtils_CachedImageSaveData_TypeDefinitionIndex = 69462;
+	inline static constexpr unsigned int PhotoGraphUtils_CachedImageSaveData_TypeDefinitionIndex = 71416;
 
 	class PhotoGraphUtils_CachedImageSaveData : public ::System::Object
 	{
 	public:
-		::System::String* Title; // 0x10
-		::System::String* Desc; // 0x18
+		::System::String* Desc; // 0x10
+		::System::String* Title; // 0x18
 		::System::String* FileName; // 0x20
 		::Il2CppArray<::System::Byte>* MediaBytes; // 0x28
 		::System::Action_1<::System::Boolean>* Callback; // 0x30

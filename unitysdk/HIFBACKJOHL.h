@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_MarkBossForceChangePhaseFlag; }
 
-#define HIFBACKJOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C667690)
-#define HIFBACKJOHL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6676A0)
+#define HIFBACKJOHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E92F0)
+#define HIFBACKJOHL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D7E9300)
 
-inline static constexpr unsigned int HIFBACKJOHL_TypeDefinitionIndex = 36331;
+inline static constexpr unsigned int HIFBACKJOHL_TypeDefinitionIndex = 37259;
 
 	class HIFBACKJOHL : public ::AJBKGPOEBFG
 	{

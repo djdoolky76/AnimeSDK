@@ -5,10 +5,10 @@
 class DJFOGDKHPKO;
 namespace System { class Object; }
 
-#define PMCOCHDJINJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xC316CE0)
-#define PMCOCHDJINJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC316D30)
+#define PMCOCHDJINJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC45B10)
+#define PMCOCHDJINJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCC45B60)
 
-inline static constexpr unsigned int PMCOCHDJINJ_TypeDefinitionIndex = 54118;
+inline static constexpr unsigned int PMCOCHDJINJ_TypeDefinitionIndex = 55282;
 
 	class PMCOCHDJINJ : public ::System::Object
 	{

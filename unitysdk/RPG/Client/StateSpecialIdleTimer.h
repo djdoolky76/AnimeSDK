@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/AnimatorStateInfo.h"
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_STATESPECIALIDLETIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xE132860)
-#define RPG_CLIENT_STATESPECIALIDLETIMER_LMMKJBBALFC_OFFSET UNITYSDK_OFFSET(0xE1327D0)
-#define RPG_CLIENT_STATESPECIALIDLETIMER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE132640)
+#define RPG_CLIENT_STATESPECIALIDLETIMER_CTOR_OFFSET UNITYSDK_OFFSET(0xEBDFAC0)
+#define RPG_CLIENT_STATESPECIALIDLETIMER_LMMKJBBALFC_OFFSET UNITYSDK_OFFSET(0xEBDFA30)
+#define RPG_CLIENT_STATESPECIALIDLETIMER_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xEBDF8A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateSpecialIdleTimer_TypeDefinitionIndex = 68844;
+	inline static constexpr unsigned int StateSpecialIdleTimer_TypeDefinitionIndex = 70797;
 
 	class StateSpecialIdleTimer : public ::RPG::Client::StateCommonIdleTimer
 	{

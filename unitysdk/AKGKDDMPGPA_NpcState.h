@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AKGKDDMPGPA_NpcState_TypeDefinitionIndex = 60153;
+inline static constexpr unsigned int AKGKDDMPGPA_NpcState_TypeDefinitionIndex = 61437;
 
 	enum class AKGKDDMPGPA_NpcState : ::System::Int32
 	{

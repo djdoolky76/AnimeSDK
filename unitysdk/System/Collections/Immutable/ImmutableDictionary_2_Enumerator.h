@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableDictionary_2_Enumerator_TypeDefinitionIndex = 6623;
+	inline static constexpr unsigned int ImmutableDictionary_2_Enumerator_TypeDefinitionIndex = 6634;
 
 	template <typename T1, typename T2>
 	struct alignas(8) ImmutableDictionary_2_Enumerator

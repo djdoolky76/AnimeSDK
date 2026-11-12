@@ -5,11 +5,11 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Button; }
 
-#define CCMLHBNNEGG_CTOR_OFFSET UNITYSDK_OFFSET(0xC74F610)
-#define CCMLHBNNEGG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xC74F4B0)
-#define CCMLHBNNEGG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xC74F520)
+#define CCMLHBNNEGG_CTOR_OFFSET UNITYSDK_OFFSET(0xD0B8780)
+#define CCMLHBNNEGG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xD0B8620)
+#define CCMLHBNNEGG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xD0B8690)
 
-inline static constexpr unsigned int CCMLHBNNEGG_TypeDefinitionIndex = 72862;
+inline static constexpr unsigned int CCMLHBNNEGG_TypeDefinitionIndex = 74972;
 
 	class CCMLHBNNEGG : public ::LBAMBIMMJKB
 	{

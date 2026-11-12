@@ -4,10 +4,10 @@
 class CEHOCKFOKCE;
 namespace RPG::GameCore { class FiveDimSimpleHitBoxConfig; }
 
-#define LIBDFHNOMPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C90ED60)
-#define LIBDFHNOMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EDE0)
+#define LIBDFHNOMPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DABB1D0)
+#define LIBDFHNOMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABB230)
 
-inline static constexpr unsigned int LIBDFHNOMPJ_TypeDefinitionIndex = 43521;
+inline static constexpr unsigned int LIBDFHNOMPJ_TypeDefinitionIndex = 44503;
 
 	class LIBDFHNOMPJ : public ::System::Object
 	{

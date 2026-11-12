@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Playables/PlayableHandle.h"
 namespace UnityEngine { class AnimationClip; }
 
-#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET UNITYSDK_OFFSET(0x1F3B8420)
+#define UNITYENGINE_ANIMATIONS_ANIMATIONPLAYABLEEXTENSIONS_SETANIMATEDPROPERTIESINTERNAL_OFFSET UNITYSDK_OFFSET(0x20669270)
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationPlayableExtensions_TypeDefinitionIndex = 5753;
+	inline static constexpr unsigned int AnimationPlayableExtensions_TypeDefinitionIndex = 5759;
 
 	class AnimationPlayableExtensions : public ::System::Object
 	{

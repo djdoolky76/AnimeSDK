@@ -4,26 +4,26 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14A4E0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14A520)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x1F14A590)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F14A530)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203FB5D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203FB610)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C__CREATE_B__11_0_OFFSET UNITYSDK_OFFSET(0x203FB680)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x203FB620)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_NextFramePromise___c_TypeDefinitionIndex = 38231;
+	inline static constexpr unsigned int UniTask_NextFramePromise___c_TypeDefinitionIndex = 39160;
 
 	class UniTask_NextFramePromise___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet___9__11_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x46E10);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A290);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x46E18);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A298);
 		}
 
 		static ::System::Void _cctor()

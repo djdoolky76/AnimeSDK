@@ -5,19 +5,19 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfWaiterTimeOverPerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AFAOBDEGOAO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF04A10)
-#define AFAOBDEGOAO_DIKFHKDIMBM_OFFSET UNITYSDK_OFFSET(0xCF04D20)
-#define AFAOBDEGOAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF04A40)
-#define AFAOBDEGOAO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF05180)
-#define AFAOBDEGOAO_TICK_OFFSET UNITYSDK_OFFSET(0xCF04C90)
+#define AFAOBDEGOAO_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B6250)
+#define AFAOBDEGOAO_DIKFHKDIMBM_OFFSET UNITYSDK_OFFSET(0xD5B6550)
+#define AFAOBDEGOAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5B6280)
+#define AFAOBDEGOAO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD5B69B0)
+#define AFAOBDEGOAO_TICK_OFFSET UNITYSDK_OFFSET(0xD5B64C0)
 
-inline static constexpr unsigned int AFAOBDEGOAO_TypeDefinitionIndex = 52175;
+inline static constexpr unsigned int AFAOBDEGOAO_TypeDefinitionIndex = 53280;
 
 	class AFAOBDEGOAO
 	{
 	public:
-		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
-		::RPG::Client::LittleGame::ElfRestaurantGameEntity* DKPFOJDAALN; // 0x30
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* DKPFOJDAALN; // 0x28
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
 		::System::Single PGMIOKKLHIE; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfWaiterTimeOverPerform* a2)
 		{

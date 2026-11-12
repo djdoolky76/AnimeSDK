@@ -4,18 +4,18 @@
 class JADFEJKNOCO;
 namespace System { class Object; }
 
-#define JADFEJKNOCO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6ECD50)
-#define JADFEJKNOCO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6ECD90)
-#define JADFEJKNOCO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E6ECDA0)
+#define JADFEJKNOCO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9F7150)
+#define JADFEJKNOCO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9F7190)
+#define JADFEJKNOCO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F9F71A0)
 
-inline static constexpr unsigned int JADFEJKNOCO___c_TypeDefinitionIndex = 34401;
+inline static constexpr unsigned int JADFEJKNOCO___c_TypeDefinitionIndex = 35329;
 
 	class JADFEJKNOCO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5BC60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A920);
 		}
 
 		static ::System::Void _cctor()

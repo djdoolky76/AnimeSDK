@@ -6,12 +6,12 @@
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Timeline { class TimelineClip; }
 
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xE8C5070)
-#define RPGTOOLS_TIMELINE_CHARAEYELIGHTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C51E0)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTTRACK_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0xF39EC00)
+#define RPGTOOLS_TIMELINE_CHARAEYELIGHTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF39ED70)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharaEyeLightTrack_TypeDefinitionIndex = 47931;
+	inline static constexpr unsigned int CharaEyeLightTrack_TypeDefinitionIndex = 48962;
 
 	class CharaEyeLightTrack : public ::RPGTools::Timeline::CharacterTrack
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InsertBattlePerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NFLALMANLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB996A0)
-#define NFLALMANLAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB996D0)
+#define NFLALMANLAI_CTOR_OFFSET UNITYSDK_OFFSET(0xC472DB0)
+#define NFLALMANLAI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC472DE0)
 
-inline static constexpr unsigned int NFLALMANLAI_TypeDefinitionIndex = 58177;
+inline static constexpr unsigned int NFLALMANLAI_TypeDefinitionIndex = 59431;
 
 	class NFLALMANLAI
 	{

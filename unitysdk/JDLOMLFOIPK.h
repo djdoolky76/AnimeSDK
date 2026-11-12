@@ -7,12 +7,12 @@ namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JDLOMLFOIPK_CTOR_OFFSET UNITYSDK_OFFSET(0x165D8000)
-#define JDLOMLFOIPK_FAEBNMMIADH_OFFSET UNITYSDK_OFFSET(0x165D7EB0)
-#define JDLOMLFOIPK_IECFILHPBEF_OFFSET UNITYSDK_OFFSET(0x165D7E40)
-#define JDLOMLFOIPK_JMBCNNMEGAE_OFFSET UNITYSDK_OFFSET(0x165D7CF0)
+#define JDLOMLFOIPK_CTOR_OFFSET UNITYSDK_OFFSET(0xB91EAC0)
+#define JDLOMLFOIPK_FAEBNMMIADH_OFFSET UNITYSDK_OFFSET(0xB91E970)
+#define JDLOMLFOIPK_IECFILHPBEF_OFFSET UNITYSDK_OFFSET(0xB91E900)
+#define JDLOMLFOIPK_JMBCNNMEGAE_OFFSET UNITYSDK_OFFSET(0xB91E7B0)
 
-inline static constexpr unsigned int JDLOMLFOIPK_TypeDefinitionIndex = 64258;
+inline static constexpr unsigned int JDLOMLFOIPK_TypeDefinitionIndex = 65703;
 
 	class JDLOMLFOIPK : public ::System::Object
 	{

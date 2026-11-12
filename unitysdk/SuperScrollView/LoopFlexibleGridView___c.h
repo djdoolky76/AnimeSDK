@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9A5D00)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE9A5D40)
-#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__SETGRIDITEMS_B__35_0_OFFSET UNITYSDK_OFFSET(0xE9A5D50)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF4B9B30)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF4B9B70)
+#define SUPERSCROLLVIEW_LOOPFLEXIBLEGRIDVIEW___C__SETGRIDITEMS_B__35_0_OFFSET UNITYSDK_OFFSET(0xF4B9B80)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int LoopFlexibleGridView___c_TypeDefinitionIndex = 47645;
+	inline static constexpr unsigned int LoopFlexibleGridView___c_TypeDefinitionIndex = 48675;
 
 	class LoopFlexibleGridView___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>** StaticGet___9__35_0()
 		{
-			return (::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>**)UnitySDK::FromName("SuperScrollView", "<>c")->GetStaticField(0xFAB0);
+			return (::System::Action_1<::System::Collections::Generic::List_1<::System::Int32>*>**)UnitySDK::FromName("SuperScrollView", "<>c")->GetStaticField(0x14280);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("SuperScrollView", "<>c")->GetStaticField(0xFAB8);
+			return (::System::Object**)UnitySDK::FromName("SuperScrollView", "<>c")->GetStaticField(0x14288);
 		}
 
 		static ::System::Void _cctor()

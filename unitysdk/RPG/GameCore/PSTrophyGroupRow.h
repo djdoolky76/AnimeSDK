@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PSTrophyGroupRow; }
 
-#define RPG_GAMECORE_PSTROPHYGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EABB0)
-#define RPG_GAMECORE_PSTROPHYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EAA30)
+#define RPG_GAMECORE_PSTROPHYGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB035D0)
+#define RPG_GAMECORE_PSTROPHYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB03450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PSTrophyGroupRow_TypeDefinitionIndex = 13083;
+	inline static constexpr unsigned int PSTrophyGroupRow_TypeDefinitionIndex = 13151;
 
 	class PSTrophyGroupRow : public ::System::Object
 	{

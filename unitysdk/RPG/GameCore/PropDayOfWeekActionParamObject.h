@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropDayOfWeekActionParamObject; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPDAYOFWEEKACTIONPARAMOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D949220)
-#define RPG_GAMECORE_PROPDAYOFWEEKACTIONPARAMOBJECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D948FF0)
+#define RPG_GAMECORE_PROPDAYOFWEEKACTIONPARAMOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB62200)
+#define RPG_GAMECORE_PROPDAYOFWEEKACTIONPARAMOBJECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB61FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropDayOfWeekActionParamObject_TypeDefinitionIndex = 22075;
+	inline static constexpr unsigned int PropDayOfWeekActionParamObject_TypeDefinitionIndex = 22480;
 
 	class PropDayOfWeekActionParamObject : public ::RPG::GameCore::JsonConfig
 	{

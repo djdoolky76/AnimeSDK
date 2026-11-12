@@ -4,18 +4,18 @@
 class IDJALKEGPLI;
 namespace System { class Object; }
 
-#define IDJALKEGPLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E62D5A0)
-#define IDJALKEGPLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62D5E0)
-#define IDJALKEGPLI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E62D5F0)
+#define IDJALKEGPLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F94AD60)
+#define IDJALKEGPLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F94ADA0)
+#define IDJALKEGPLI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F94ADB0)
 
-inline static constexpr unsigned int IDJALKEGPLI___c_TypeDefinitionIndex = 31616;
+inline static constexpr unsigned int IDJALKEGPLI___c_TypeDefinitionIndex = 32529;
 
 	class IDJALKEGPLI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x465C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D690);
 		}
 
 		static ::System::Void _cctor()

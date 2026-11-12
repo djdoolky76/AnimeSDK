@@ -7,18 +7,18 @@ namespace System { class Type; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Reflection { class ConstructorInfo; }
 
-#define LDBCBLHGCLN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1EC85300)
-#define LDBCBLHGCLN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC85AB0)
-#define LDBCBLHGCLN_KCAMCLANHCC_OFFSET UNITYSDK_OFFSET(0x1EC855C0)
+#define LDBCBLHGCLN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1FF35BF0)
+#define LDBCBLHGCLN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF363A0)
+#define LDBCBLHGCLN_KCAMCLANHCC_OFFSET UNITYSDK_OFFSET(0x1FF35EB0)
 
-inline static constexpr unsigned int LDBCBLHGCLN_TypeDefinitionIndex = 44219;
+inline static constexpr unsigned int LDBCBLHGCLN_TypeDefinitionIndex = 45294;
 
 	class LDBCBLHGCLN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Reflection::ConstructorInfo*>** StaticGet_AEFFOKJDDEH()
 		{
-			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Reflection::ConstructorInfo*>**)UnitySDK::FromName("", "LDBCBLHGCLN")->GetStaticField(0x4D410);
+			return (::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Reflection::ConstructorInfo*>**)UnitySDK::FromName("", "LDBCBLHGCLN")->GetStaticField(0x65700);
 		}
 
 		static ::System::Void _cctor()

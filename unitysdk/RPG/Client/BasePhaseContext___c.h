@@ -5,31 +5,31 @@ class KDLEIHJGDAP;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_BASEPHASECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7F0DA0)
-#define RPG_CLIENT_BASEPHASECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F0DD0)
-#define RPG_CLIENT_BASEPHASECONTEXT___C__DISPOSE_B__10_0_OFFSET UNITYSDK_OFFSET(0xC7F0E00)
-#define RPG_CLIENT_BASEPHASECONTEXT___C__INIT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC7F0DE0)
+#define RPG_CLIENT_BASEPHASECONTEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD151830)
+#define RPG_CLIENT_BASEPHASECONTEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD151860)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__DISPOSE_B__10_0_OFFSET UNITYSDK_OFFSET(0xD151890)
+#define RPG_CLIENT_BASEPHASECONTEXT___C__INIT_B__2_0_OFFSET UNITYSDK_OFFSET(0xD151870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BasePhaseContext___c_TypeDefinitionIndex = 61114;
+	inline static constexpr unsigned int BasePhaseContext___c_TypeDefinitionIndex = 62499;
 
 	class BasePhaseContext___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57870);
-		}
-
 		static ::System::Action_1<::KDLEIHJGDAP*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57878);
+			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x596A0);
 		}
 
 		static ::System::Action_1<::KDLEIHJGDAP*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x57880);
+			return (::System::Action_1<::KDLEIHJGDAP*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x596A8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x596B0);
 		}
 
 		static ::System::Void _cctor()

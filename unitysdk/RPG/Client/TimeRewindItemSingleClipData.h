@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace RPG::Client { class EntityTimelineControlNode; }
 
-#define RPG_CLIENT_TIMEREWINDITEMSINGLECLIPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE283930)
+#define RPG_CLIENT_TIMEREWINDITEMSINGLECLIPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xECEE180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeRewindItemSingleClipData_TypeDefinitionIndex = 60838;
+	inline static constexpr unsigned int TimeRewindItemSingleClipData_TypeDefinitionIndex = 62217;
 
 	class TimeRewindItemSingleClipData : public ::UnityEngine::ScriptableObject
 	{

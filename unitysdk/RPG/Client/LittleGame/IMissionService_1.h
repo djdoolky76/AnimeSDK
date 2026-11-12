@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IMissionService_1_TypeDefinitionIndex = 42415;
+	inline static constexpr unsigned int IMissionService_1_TypeDefinitionIndex = 43390;
 
 	template <typename T>
 	class IMissionService_1

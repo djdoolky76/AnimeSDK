@@ -5,25 +5,25 @@ namespace RPG::Client::PixAir { class PixAirEnterBattleLoadingViewModel; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS_CTOR_OFFSET UNITYSDK_OFFSET(0xDB378B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB37F40)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xDB37E20)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xDB379A0)
-#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS__ONTICK_OFFSET UNITYSDK_OFFSET(0xDB37FF0)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS_CTOR_OFFSET UNITYSDK_OFFSET(0xE58F650)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS_GET__VIEWMODEL_OFFSET UNITYSDK_OFFSET(0xE58FCD0)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS__ONBINDVIEWMODEL_OFFSET UNITYSDK_OFFSET(0xE58FBB0)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS__ONINITIALIZECOMPONENT_OFFSET UNITYSDK_OFFSET(0xE58F740)
+#define RPG_CLIENT_PIXAIR_PIXAIRENTERBATTLELOADINGWINDOWS__ONTICK_OFFSET UNITYSDK_OFFSET(0xE58FD80)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEnterBattleLoadingWindows_TypeDefinitionIndex = 79239;
+	inline static constexpr unsigned int PixAirEnterBattleLoadingWindows_TypeDefinitionIndex = 82016;
 
 	class PixAirEnterBattleLoadingWindows : public ::Sofa::BaseSofaWindow
 	{
 	public:
-		::UnityEngine::UI::Text* _PlayerTalkContent; // 0x48
-		::UnityEngine::UI::Text* _EnemyTalkContent; // 0x50
-		::UnityEngine::UI::Image* _EnemyIconImage; // 0x58
-		::UnityEngine::UI::Image* _PlayerIconImage; // 0x60
+		::UnityEngine::UI::Image* _EnemyIconImage; // 0x48
+		::UnityEngine::UI::Image* _PlayerIconImage; // 0x50
+		::UnityEngine::UI::Text* _PlayerTalkContent; // 0x58
+		::UnityEngine::UI::Text* _EnemyName; // 0x60
 		::UnityEngine::UI::Text* _PlayerName; // 0x68
-		::UnityEngine::UI::Text* _EnemyName; // 0x70
+		::UnityEngine::UI::Text* _EnemyTalkContent; // 0x70
 		::System::Single _ShowTime; // 0x78
 		::System::Void _ctor(::RPG::Client::PixAir::PixAirEnterBattleLoadingViewModel* a1)
 		{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvLogisticsRobotTriggerLoad; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHDMCEKJBBN_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7CB50)
-#define AHDMCEKJBBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB7CB80)
+#define AHDMCEKJBBN_CTOR_OFFSET UNITYSDK_OFFSET(0xF13BEB0)
+#define AHDMCEKJBBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF13BEE0)
 
-inline static constexpr unsigned int AHDMCEKJBBN_TypeDefinitionIndex = 52395;
+inline static constexpr unsigned int AHDMCEKJBBN_TypeDefinitionIndex = 53501;
 
 	class AHDMCEKJBBN
 	{

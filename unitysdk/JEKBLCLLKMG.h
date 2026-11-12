@@ -6,19 +6,19 @@
 class FCOEMCEDLNL;
 class JEKBLCLLKMG;
 
-#define JEKBLCLLKMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01F510)
-#define JEKBLCLLKMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D01F2C0)
+#define JEKBLCLLKMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E20C840)
+#define JEKBLCLLKMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E20C5F0)
 
-inline static constexpr unsigned int JEKBLCLLKMG_TypeDefinitionIndex = 13970;
+inline static constexpr unsigned int JEKBLCLLKMG_TypeDefinitionIndex = 14127;
 
 	class JEKBLCLLKMG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::LimaoNewsWorkRecordType MNLAMKJIAOC; // 0x10
-		::System::UInt32 OOCPKIGPEHP; // 0x14
-		::System::UInt32 OGLGIADFFML; // 0x18
-		::System::UInt32 GKENNBPKDDA; // 0x1C
-		::RPG::Client::TextID MMFOONHFAEB; // 0x20
+		::RPG::Client::TextID MMFOONHFAEB; // 0x10
+		::RPG::GameCore::LimaoNewsWorkRecordType MNLAMKJIAOC; // 0x20
+		::System::UInt32 OGLGIADFFML; // 0x24
+		::System::UInt32 GKENNBPKDDA; // 0x28
+		::System::UInt32 OOCPKIGPEHP; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JEKBLCLLKMG_CTOR_OFFSET))(this);

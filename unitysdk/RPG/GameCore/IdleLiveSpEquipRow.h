@@ -7,18 +7,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveSpEquipRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVESPEQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77F190)
-#define RPG_GAMECORE_IDLELIVESPEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77EF60)
+#define RPG_GAMECORE_IDLELIVESPEQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9928C0)
+#define RPG_GAMECORE_IDLELIVESPEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E992690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveSpEquipRow_TypeDefinitionIndex = 11762;
+	inline static constexpr unsigned int IdleLiveSpEquipRow_TypeDefinitionIndex = 11819;
 
 	class IdleLiveSpEquipRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath; // 0x10
-		::AKACCHPPLPG* DefenceParam; // 0x18
+		::AKACCHPPLPG* DefenceParam; // 0x10
+		::System::String* IconPath; // 0x18
 		::AKACCHPPLPG* HpParam; // 0x20
 		::AKACCHPPLPG* AttackParam; // 0x28
 		::RPG::Client::TextID Name; // 0x30

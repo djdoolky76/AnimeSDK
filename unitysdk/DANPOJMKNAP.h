@@ -5,23 +5,22 @@
 class DANPOJMKNAP;
 class FCOEMCEDLNL;
 
-#define DANPOJMKNAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCCE30)
-#define DANPOJMKNAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCCCAA0)
+#define DANPOJMKNAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEF0E60)
+#define DANPOJMKNAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEF0AD0)
 
-inline static constexpr unsigned int DANPOJMKNAP_TypeDefinitionIndex = 13965;
+inline static constexpr unsigned int DANPOJMKNAP_TypeDefinitionIndex = 14122;
 
 	class DANPOJMKNAP : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* FMMELPPDMKI; // 0x10
-		::Il2CppArray<::System::UInt32>* KOAGHJCOOGA; // 0x18
-		::RPG::Client::TextID FAHDNMHFOKD; // 0x20
+		::Il2CppArray<::System::UInt32>* KOAGHJCOOGA; // 0x10
+		::Il2CppArray<::System::UInt32>* FMMELPPDMKI; // 0x18
+		::RPG::Client::TextID DCDCCOBHCAP; // 0x20
 		::System::UInt32 EPDCFPAADJF; // 0x30
-		::System::UInt32 GGKPLJJMBBA; // 0x34
-		::System::UInt32 GABPGBDNDEH; // 0x38
-		::System::Boolean CBCAAENONPB; // 0x3C
-		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID DCDCCOBHCAP; // 0x40
+		::System::UInt32 GABPGBDNDEH; // 0x34
+		::RPG::Client::TextID FAHDNMHFOKD; // 0x38
+		::System::UInt32 GGKPLJJMBBA; // 0x48
+		::System::Boolean CBCAAENONPB; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DANPOJMKNAP_CTOR_OFFSET))(this);

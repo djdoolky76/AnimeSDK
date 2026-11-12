@@ -4,18 +4,18 @@
 class LIKMPNFOKFF;
 namespace System { class Object; }
 
-#define LIKMPNFOKFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E970D20)
-#define LIKMPNFOKFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E970D60)
-#define LIKMPNFOKFF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E970D70)
+#define LIKMPNFOKFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC91D30)
+#define LIKMPNFOKFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC91D70)
+#define LIKMPNFOKFF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC91D80)
 
-inline static constexpr unsigned int LIKMPNFOKFF___c_TypeDefinitionIndex = 35116;
+inline static constexpr unsigned int LIKMPNFOKFF___c_TypeDefinitionIndex = 36044;
 
 	class LIKMPNFOKFF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45A50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36DE0);
 		}
 
 		static ::System::Void _cctor()

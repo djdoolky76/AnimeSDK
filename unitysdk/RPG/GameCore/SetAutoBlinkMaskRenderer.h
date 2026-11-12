@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SetAutoBlinkMaskRenderer; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA957D0)
-#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA957E0)
-#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA957A0)
+#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA7C70)
+#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECA7C80)
+#define RPG_GAMECORE_SETAUTOBLINKMASKRENDERER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA7C40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAutoBlinkMaskRenderer_TypeDefinitionIndex = 22379;
+	inline static constexpr unsigned int SetAutoBlinkMaskRenderer_TypeDefinitionIndex = 22788;
 
 	class SetAutoBlinkMaskRenderer : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameLevelVarCondition; }
 
-#define RPG_GAMECORE_LITTLEGAMELEVELVARCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E43C0)
-#define RPG_GAMECORE_LITTLEGAMELEVELVARCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E4280)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARCONDITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA24CE0)
+#define RPG_GAMECORE_LITTLEGAMELEVELVARCONDITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA24BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameLevelVarCondition_TypeDefinitionIndex = 18864;
+	inline static constexpr unsigned int LittleGameLevelVarCondition_TypeDefinitionIndex = 19026;
 
 	class LittleGameLevelVarCondition : public ::RPG::GameCore::JsonConfig
 	{

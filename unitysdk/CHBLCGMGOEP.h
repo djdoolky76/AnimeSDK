@@ -3,10 +3,10 @@
 #include "unitysdk/NADABFJHEHM.h"
 namespace RPG::Client { class AnniversaryCollectionPanelData; }
 
-#define CHBLCGMGOEP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC910A0)
-#define CHBLCGMGOEP_MNFDJHCGKNE_OFFSET UNITYSDK_OFFSET(0xCC910B0)
+#define CHBLCGMGOEP_CTOR_OFFSET UNITYSDK_OFFSET(0xD63ED70)
+#define CHBLCGMGOEP_MNFDJHCGKNE_OFFSET UNITYSDK_OFFSET(0xD63ED80)
 
-inline static constexpr unsigned int CHBLCGMGOEP_TypeDefinitionIndex = 62392;
+inline static constexpr unsigned int CHBLCGMGOEP_TypeDefinitionIndex = 63805;
 
 	class CHBLCGMGOEP : public ::NADABFJHEHM
 	{

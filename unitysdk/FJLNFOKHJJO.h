@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class ECNEEKNHIOE;
 
-#define FJLNFOKHJJO_CTOR_OFFSET UNITYSDK_OFFSET(0x157D9790)
+#define FJLNFOKHJJO_CTOR_OFFSET UNITYSDK_OFFSET(0x167449C0)
 
-inline static constexpr unsigned int FJLNFOKHJJO_TypeDefinitionIndex = 80562;
+inline static constexpr unsigned int FJLNFOKHJJO_TypeDefinitionIndex = 83342;
 
 	class FJLNFOKHJJO : public ::System::Object
 	{

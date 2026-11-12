@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyActivityElationPower; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKBMOPLBAHN_CTOR_OFFSET UNITYSDK_OFFSET(0xD754930)
-#define CKBMOPLBAHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD754960)
+#define CKBMOPLBAHN_CTOR_OFFSET UNITYSDK_OFFSET(0xE08E770)
+#define CKBMOPLBAHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE08E7A0)
 
-inline static constexpr unsigned int CKBMOPLBAHN_TypeDefinitionIndex = 54805;
+inline static constexpr unsigned int CKBMOPLBAHN_TypeDefinitionIndex = 55974;
 
 	class CKBMOPLBAHN
 	{

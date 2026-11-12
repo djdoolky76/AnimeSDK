@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleBuffText; }
 
-#define FJKABDBPFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA70EF0)
-#define FJKABDBPFEI_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA70F00)
+#define FJKABDBPFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC34880)
+#define FJKABDBPFEI_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DC34890)
 
-inline static constexpr unsigned int FJKABDBPFEI_TypeDefinitionIndex = 43104;
+inline static constexpr unsigned int FJKABDBPFEI_TypeDefinitionIndex = 44085;
 
 	class FJKABDBPFEI : public ::BKABEBEPPJK
 	{

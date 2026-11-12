@@ -7,13 +7,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelEntitlementsResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxEntitlementsExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF24640)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF24600)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF245F0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AB1D0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1D0AB190)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELENTITLEMENTSRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0AB180)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelEntitlementsResult_TypeDefinitionIndex = 8602;
+	inline static constexpr unsigned int HoYoChannelEntitlementsResult_TypeDefinitionIndex = 8611;
 
 	class HoYoChannelEntitlementsResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

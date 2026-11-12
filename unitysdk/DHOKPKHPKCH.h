@@ -6,19 +6,19 @@ namespace System { class Action; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DHOKPKHPKCH_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEC390)
-#define DHOKPKHPKCH_EPNEGKHHBJO_OFFSET UNITYSDK_OFFSET(0xEBEC190)
-#define DHOKPKHPKCH_PDAAPIILFOP_OFFSET UNITYSDK_OFFSET(0xEBEC300)
+#define DHOKPKHPKCH_CTOR_OFFSET UNITYSDK_OFFSET(0xF95E150)
+#define DHOKPKHPKCH_EPNEGKHHBJO_OFFSET UNITYSDK_OFFSET(0xF95DF50)
+#define DHOKPKHPKCH_PDAAPIILFOP_OFFSET UNITYSDK_OFFSET(0xF95E0C0)
 
-inline static constexpr unsigned int DHOKPKHPKCH_TypeDefinitionIndex = 76571;
+inline static constexpr unsigned int DHOKPKHPKCH_TypeDefinitionIndex = 78902;
 
 	class DHOKPKHPKCH : public ::System::Object
 	{
 	public:
-		::System::Action* EDHFCGNFFBF; // 0x10
-		::System::Collections::Generic::List_1<::IFEABBJBIGK*>* GKCIFCIHJBK; // 0x18
-		::System::Collections::Generic::List_1<::IFEABBJBIGK*>* IHAPLODILIG; // 0x20
-		::System::Func_3<::System::UInt32, ::System::Boolean, ::IFEABBJBIGK*>* BKEGFOPHOKL; // 0x28
+		::System::Collections::Generic::List_1<::IFEABBJBIGK*>* GKCIFCIHJBK; // 0x10
+		::System::Action* EDHFCGNFFBF; // 0x18
+		::System::Func_3<::System::UInt32, ::System::Boolean, ::IFEABBJBIGK*>* BKEGFOPHOKL; // 0x20
+		::System::Collections::Generic::List_1<::IFEABBJBIGK*>* IHAPLODILIG; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHOKPKHPKCH_CTOR_OFFSET))(this);

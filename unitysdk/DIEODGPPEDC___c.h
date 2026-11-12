@@ -4,18 +4,18 @@
 class DIEODGPPEDC;
 namespace System { class Object; }
 
-#define DIEODGPPEDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1BC290)
-#define DIEODGPPEDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BC2C0)
-#define DIEODGPPEDC___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E1BC2D0)
+#define DIEODGPPEDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F497D00)
+#define DIEODGPPEDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F497D30)
+#define DIEODGPPEDC___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F497D40)
 
-inline static constexpr unsigned int DIEODGPPEDC___c_TypeDefinitionIndex = 28436;
+inline static constexpr unsigned int DIEODGPPEDC___c_TypeDefinitionIndex = 29026;
 
 	class DIEODGPPEDC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35E90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x318B0);
 		}
 
 		static ::System::Void _cctor()

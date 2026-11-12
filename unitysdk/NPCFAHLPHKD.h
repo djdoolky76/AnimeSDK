@@ -6,10 +6,10 @@ namespace RPG::Client { class GridFightConsumableInfo_GridFightConsumableItemUse
 namespace RPG::Client { class GridFightConsumableItemData; }
 namespace System { class String; }
 
-#define NPCFAHLPHKD_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xBCF9F60)
-#define NPCFAHLPHKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFA2B0)
+#define NPCFAHLPHKD_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xC5E9130)
+#define NPCFAHLPHKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC5E9480)
 
-inline static constexpr unsigned int NPCFAHLPHKD_TypeDefinitionIndex = 64915;
+inline static constexpr unsigned int NPCFAHLPHKD_TypeDefinitionIndex = 66485;
 
 	class NPCFAHLPHKD : public ::System::Object
 	{

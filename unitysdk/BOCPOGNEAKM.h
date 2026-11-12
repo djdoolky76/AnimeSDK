@@ -5,12 +5,12 @@ namespace RPG::GameCore { class TargetSortByModifierValue; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BOCPOGNEAKM_COMPARE_OFFSET UNITYSDK_OFFSET(0xC18DB50)
-#define BOCPOGNEAKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC18DB30)
-#define BOCPOGNEAKM_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xC18DD60)
-#define BOCPOGNEAKM_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC18DDB0)
+#define BOCPOGNEAKM_COMPARE_OFFSET UNITYSDK_OFFSET(0xC76D9E0)
+#define BOCPOGNEAKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC76D9C0)
+#define BOCPOGNEAKM_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xC76DBF0)
+#define BOCPOGNEAKM_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC76DC40)
 
-inline static constexpr unsigned int BOCPOGNEAKM_TypeDefinitionIndex = 59171;
+inline static constexpr unsigned int BOCPOGNEAKM_TypeDefinitionIndex = 60448;
 
 	class BOCPOGNEAKM
 	{

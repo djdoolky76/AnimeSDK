@@ -6,29 +6,29 @@ class AkRoomAwareObject;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace UnityEngine { class Collider; }
 
-#define AKROOMAWAREMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5BB1D0)
-#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_1_OFFSET UNITYSDK_OFFSET(0x1F5B94E0)
-#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_OFFSET UNITYSDK_OFFSET(0x1F5B9E70)
-#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_1_OFFSET UNITYSDK_OFFSET(0x1F5BADB0)
-#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_OFFSET UNITYSDK_OFFSET(0x1F5B9F80)
-#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x1F5B9B70)
-#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5BAAA0)
-#define AKROOMAWAREMANAGER_UNREGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5BAB60)
-#define AKROOMAWAREMANAGER_UPDATEROOMAWAREOBJECTS_OFFSET UNITYSDK_OFFSET(0x1F5BAF30)
+#define AKROOMAWAREMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x2086AB60)
+#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_1_OFFSET UNITYSDK_OFFSET(0x20868E80)
+#define AKROOMAWAREMANAGER_OBJECTENTEREDROOM_OFFSET UNITYSDK_OFFSET(0x20869810)
+#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_1_OFFSET UNITYSDK_OFFSET(0x2086A750)
+#define AKROOMAWAREMANAGER_OBJECTEXITEDROOM_OFFSET UNITYSDK_OFFSET(0x20869920)
+#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECTFORUPDATE_OFFSET UNITYSDK_OFFSET(0x20869510)
+#define AKROOMAWAREMANAGER_REGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x2086A440)
+#define AKROOMAWAREMANAGER_UNREGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x2086A500)
+#define AKROOMAWAREMANAGER_UPDATEROOMAWAREOBJECTS_OFFSET UNITYSDK_OFFSET(0x2086A8D0)
 
-inline static constexpr unsigned int AkRoomAwareManager_TypeDefinitionIndex = 44849;
+inline static constexpr unsigned int AkRoomAwareManager_TypeDefinitionIndex = 45924;
 
 	class AkRoomAwareManager : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>** StaticGet_m_RoomAwareObjects()
-		{
-			return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)UnitySDK::FromName("", "AkRoomAwareManager")->GetStaticField(0xE8B0);
-		}
-
 		static ::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>** StaticGet_m_RoomAwareObjectToUpdate()
 		{
-			return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)UnitySDK::FromName("", "AkRoomAwareManager")->GetStaticField(0xE8B8);
+			return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)UnitySDK::FromName("", "AkRoomAwareManager")->GetStaticField(0x70C70);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>** StaticGet_m_RoomAwareObjects()
+		{
+			return (::System::Collections::Generic::HashSet_1<::AkRoomAwareObject*>**)UnitySDK::FromName("", "AkRoomAwareManager")->GetStaticField(0x70C78);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SetNavMeshState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETNAVMESHSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABDC50)
-#define RPG_GAMECORE_SETNAVMESHSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DABDC60)
-#define RPG_GAMECORE_SETNAVMESHSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DABDC20)
+#define RPG_GAMECORE_SETNAVMESHSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECCFE80)
+#define RPG_GAMECORE_SETNAVMESHSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECCFE90)
+#define RPG_GAMECORE_SETNAVMESHSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECCFE50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetNavMeshState_TypeDefinitionIndex = 22230;
+	inline static constexpr unsigned int SetNavMeshState_TypeDefinitionIndex = 22635;
 
 	class SetNavMeshState : public ::RPG::GameCore::TaskConfig
 	{

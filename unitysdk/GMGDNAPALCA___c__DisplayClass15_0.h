@@ -4,16 +4,16 @@
 class GMGDNAPALCA;
 namespace RPG::Client::ActivityMarble { class MarblePVPMatchContext; }
 
-#define GMGDNAPALCA___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD1210)
-#define GMGDNAPALCA___C__DISPLAYCLASS15_0__OPENMATCHPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x15AD1220)
+#define GMGDNAPALCA___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16A539A0)
+#define GMGDNAPALCA___C__DISPLAYCLASS15_0__OPENMATCHPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16A539B0)
 
-inline static constexpr unsigned int GMGDNAPALCA___c__DisplayClass15_0_TypeDefinitionIndex = 75997;
+inline static constexpr unsigned int GMGDNAPALCA___c__DisplayClass15_0_TypeDefinitionIndex = 78324;
 
 	class GMGDNAPALCA___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityMarble::MarblePVPMatchContext* context; // 0x10
-		::GMGDNAPALCA* __4__this; // 0x18
+		::GMGDNAPALCA* __4__this; // 0x10
+		::RPG::Client::ActivityMarble::MarblePVPMatchContext* context; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GMGDNAPALCA___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);

@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define OBOCABOPCON_FGIHJGKPONO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD4CFC0)
+#define OBOCABOPCON_FGIHJGKPONO_CTOR_OFFSET UNITYSDK_OFFSET(0xC650FC0)
 
-inline static constexpr unsigned int OBOCABOPCON_FGIHJGKPONO_TypeDefinitionIndex = 81259;
+inline static constexpr unsigned int OBOCABOPCON_FGIHJGKPONO_TypeDefinitionIndex = 84039;
 
 	class OBOCABOPCON_FGIHJGKPONO : public ::System::Object
 	{

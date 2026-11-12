@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_ISUNMANAGEDATTRIBUTE_AC92DA0118667625_CTOR_OFFSET UNITYSDK_OFFSET(0x1C876D40)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_ISUNMANAGEDATTRIBUTE_AC92DA0118667625_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F8460)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int IsUnmanagedAttribute_AC92DA0118667625_TypeDefinitionIndex = 36086;
+	inline static constexpr unsigned int IsUnmanagedAttribute_AC92DA0118667625_TypeDefinitionIndex = 37014;
 
 	class IsUnmanagedAttribute_AC92DA0118667625 : public ::System::Attribute
 	{

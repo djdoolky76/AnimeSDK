@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ResetActionDelay; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_RESETACTIONDELAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D989E40)
-#define RPG_GAMECORE_RESETACTIONDELAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D989E50)
-#define RPG_GAMECORE_RESETACTIONDELAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D989E10)
+#define RPG_GAMECORE_RESETACTIONDELAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBA2290)
+#define RPG_GAMECORE_RESETACTIONDELAY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBA22A0)
+#define RPG_GAMECORE_RESETACTIONDELAY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBA2260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ResetActionDelay_TypeDefinitionIndex = 23281;
+	inline static constexpr unsigned int ResetActionDelay_TypeDefinitionIndex = 23721;
 
 	class ResetActionDelay : public ::RPG::GameCore::TaskConfig
 	{

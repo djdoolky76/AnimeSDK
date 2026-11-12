@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define KALGLFPKCGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DE7F0)
-#define KALGLFPKCGH_GPAHMMGLFGA_OFFSET UNITYSDK_OFFSET(0xB2DE760)
-#define KALGLFPKCGH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB2DE580)
-#define KALGLFPKCGH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2DE380)
+#define KALGLFPKCGH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB63670)
+#define KALGLFPKCGH_GPAHMMGLFGA_OFFSET UNITYSDK_OFFSET(0xBB635E0)
+#define KALGLFPKCGH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBB63400)
+#define KALGLFPKCGH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBB63200)
 
-inline static constexpr unsigned int KALGLFPKCGH_TypeDefinitionIndex = 72273;
+inline static constexpr unsigned int KALGLFPKCGH_TypeDefinitionIndex = 74349;
 
 	class KALGLFPKCGH : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* IILLJBCGOOJ; // 0x60
-		::UnityEngine::Transform* PBAMNMKPJIN; // 0x68
-		::UnityEngine::Transform* EHHMNHMEFEB; // 0x70
-		::UnityEngine::Transform* MGKMPLIICNA; // 0x78
+		::UnityEngine::Transform* PBAMNMKPJIN; // 0x60
+		::UnityEngine::Transform* MGKMPLIICNA; // 0x68
+		::UnityEngine::Transform* IILLJBCGOOJ; // 0x70
+		::UnityEngine::Transform* EHHMNHMEFEB; // 0x78
 		// static const ::System::String* JFCMCPFPDFP; // 0x0
 		::System::Void _ctor()
 		{

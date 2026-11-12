@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPTerrainPalette_GroupInfoData_TypeDefinitionIndex = 37725;
+	inline static constexpr unsigned int CRPTerrainPalette_GroupInfoData_TypeDefinitionIndex = 38654;
 
 	struct alignas(4) CRPTerrainPalette_GroupInfoData
 	{

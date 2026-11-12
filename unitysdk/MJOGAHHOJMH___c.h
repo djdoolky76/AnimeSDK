@@ -5,23 +5,23 @@ namespace RPG::Client { class RogueMagicScepterDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MJOGAHHOJMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB97ABF0)
-#define MJOGAHHOJMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB97AC30)
-#define MJOGAHHOJMH___C___SETUPVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0xB97AC40)
+#define MJOGAHHOJMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC234E60)
+#define MJOGAHHOJMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC234EA0)
+#define MJOGAHHOJMH___C___SETUPVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0xC234EB0)
 
-inline static constexpr unsigned int MJOGAHHOJMH___c_TypeDefinitionIndex = 72315;
+inline static constexpr unsigned int MJOGAHHOJMH___c_TypeDefinitionIndex = 74392;
 
 	class MJOGAHHOJMH___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD90);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::RogueMagicScepterDataItem*>** StaticGet___9__11_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RogueMagicScepterDataItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD98);
+			return (::System::Comparison_1<::RPG::Client::RogueMagicScepterDataItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73770);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73778);
 		}
 
 		static ::System::Void _cctor()

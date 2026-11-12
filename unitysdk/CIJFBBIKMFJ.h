@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleChooseTarget; }
 
-#define CIJFBBIKMFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E49C0)
-#define CIJFBBIKMFJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C8E49D0)
+#define CIJFBBIKMFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBCD040)
+#define CIJFBBIKMFJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DBCD050)
 
-inline static constexpr unsigned int CIJFBBIKMFJ_TypeDefinitionIndex = 43108;
+inline static constexpr unsigned int CIJFBBIKMFJ_TypeDefinitionIndex = 44089;
 
 	class CIJFBBIKMFJ : public ::BKABEBEPPJK
 	{

@@ -6,18 +6,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GotoTipsConfigRow; }
 
-#define RPG_GAMECORE_GOTOTIPSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D722800)
-#define RPG_GAMECORE_GOTOTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7221C0)
+#define RPG_GAMECORE_GOTOTIPSCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E92C230)
+#define RPG_GAMECORE_GOTOTIPSCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E92BBF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GotoTipsConfigRow_TypeDefinitionIndex = 13333;
+	inline static constexpr unsigned int GotoTipsConfigRow_TypeDefinitionIndex = 13405;
 
 	class GotoTipsConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID Name; // 0x10
-		::RPG::GameCore::ConditionType ID; // 0x20
+		::RPG::GameCore::ConditionType ID; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Name; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GOTOTIPSCONFIGROW_CTOR_OFFSET))(this);

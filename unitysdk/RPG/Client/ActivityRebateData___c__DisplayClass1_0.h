@@ -4,12 +4,12 @@
 class AAOAEMOHCEP;
 namespace RPG::Client { class ActivityRebateTriggerData; }
 
-#define RPG_CLIENT_ACTIVITYREBATEDATA___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC59F4C0)
-#define RPG_CLIENT_ACTIVITYREBATEDATA___C__DISPLAYCLASS1_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xC59F800)
+#define RPG_CLIENT_ACTIVITYREBATEDATA___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEF4680)
+#define RPG_CLIENT_ACTIVITYREBATEDATA___C__DISPLAYCLASS1_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0xCEF49C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRebateData___c__DisplayClass1_0_TypeDefinitionIndex = 61901;
+	inline static constexpr unsigned int ActivityRebateData___c__DisplayClass1_0_TypeDefinitionIndex = 63313;
 
 	class ActivityRebateData___c__DisplayClass1_0 : public ::System::Object
 	{

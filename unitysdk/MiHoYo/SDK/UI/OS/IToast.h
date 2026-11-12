@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int IToast_TypeDefinitionIndex = 8474;
+	inline static constexpr unsigned int IToast_TypeDefinitionIndex = 8483;
 
 	class IToast
 	{

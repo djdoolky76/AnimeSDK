@@ -5,25 +5,25 @@ namespace RPG::Client { class PrefabLoadMeta; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define JJNNABINOOH_CIAHPJCCNCE_OFFSET UNITYSDK_OFFSET(0xB2091E0)
-#define JJNNABINOOH_CNFDLJLFBNN_OFFSET UNITYSDK_OFFSET(0xB208F50)
-#define JJNNABINOOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB209350)
-#define JJNNABINOOH_DIDHIGAFKNI_OFFSET UNITYSDK_OFFSET(0xB2090D0)
-#define JJNNABINOOH_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB208EC0)
-#define JJNNABINOOH_HCNIHAHLEGO_OFFSET UNITYSDK_OFFSET(0xB209250)
-#define JJNNABINOOH_JKEPGGJBMGP_OFFSET UNITYSDK_OFFSET(0xB208FC0)
-#define JJNNABINOOH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB208D10)
+#define JJNNABINOOH_CIAHPJCCNCE_OFFSET UNITYSDK_OFFSET(0xBA2C810)
+#define JJNNABINOOH_CNFDLJLFBNN_OFFSET UNITYSDK_OFFSET(0xBA2C580)
+#define JJNNABINOOH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2C990)
+#define JJNNABINOOH_DIDHIGAFKNI_OFFSET UNITYSDK_OFFSET(0xBA2C700)
+#define JJNNABINOOH_HCNIHAHLEGO_OFFSET UNITYSDK_OFFSET(0xBA2C880)
+#define JJNNABINOOH_JKEPGGJBMGP_OFFSET UNITYSDK_OFFSET(0xBA2C5F0)
+#define JJNNABINOOH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA2C2D0)
+#define JJNNABINOOH__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBA2C4F0)
 
-inline static constexpr unsigned int JJNNABINOOH_TypeDefinitionIndex = 72204;
+inline static constexpr unsigned int JJNNABINOOH_TypeDefinitionIndex = 74271;
 
 	class JJNNABINOOH : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* DCBAIJBMMJA; // 0x60
-		::UnityEngine::Transform* ALEDBEKLNCE; // 0x68
+		::UnityEngine::Transform* ALEDBEKLNCE; // 0x60
+		::RPG::Client::PrefabLoadMeta* CHNCAFCKHAN; // 0x68
 		::UnityEngine::GameObject* FEFMICGONJE; // 0x70
 		::UnityEngine::Transform* BIBAGOMGIFE; // 0x78
-		::RPG::Client::PrefabLoadMeta* CHNCAFCKHAN; // 0x80
+		::UnityEngine::Transform* DCBAIJBMMJA; // 0x80
 		// static const ::System::String* DJCBDJMACFH; // 0x0
 		::System::Void _ctor()
 		{
@@ -35,9 +35,9 @@ inline static constexpr unsigned int JJNNABINOOH_TypeDefinitionIndex = 72204;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JJNNABINOOH__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JJNNABINOOH_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JJNNABINOOH__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void JKEPGGJBMGP()

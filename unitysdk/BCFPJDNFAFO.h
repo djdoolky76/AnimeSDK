@@ -6,20 +6,20 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine::UI { class RuntimeAtlasManager; }
 
-#define BCFPJDNFAFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA6A30)
-#define BCFPJDNFAFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15EA6BE0)
-#define BCFPJDNFAFO_JHFBGGNCCLN_OFFSET UNITYSDK_OFFSET(0x15EA6C70)
-#define BCFPJDNFAFO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EA6A40)
+#define BCFPJDNFAFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1709F170)
+#define BCFPJDNFAFO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1709F320)
+#define BCFPJDNFAFO_JHFBGGNCCLN_OFFSET UNITYSDK_OFFSET(0x1709F3B0)
+#define BCFPJDNFAFO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1709F180)
 
-inline static constexpr unsigned int BCFPJDNFAFO_TypeDefinitionIndex = 72641;
+inline static constexpr unsigned int BCFPJDNFAFO_TypeDefinitionIndex = 74720;
 
 	class BCFPJDNFAFO : public ::System::Object
 	{
 	public:
 		::UnityEngine::UI::RuntimeAtlasManager* NECFCKBGIIJ; // 0x10
-		::UnityEngine::ComputeShader* AAFAJOFGPCN; // 0x18
-		::UnityEngine::Texture* JCPDDABHJPI; // 0x20
-		::UnityEngine::Material* ILKIEOPBAGE; // 0x28
+		::UnityEngine::Texture* JCPDDABHJPI; // 0x18
+		::UnityEngine::Material* ILKIEOPBAGE; // 0x20
+		::UnityEngine::ComputeShader* AAFAJOFGPCN; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BCFPJDNFAFO_CTOR_OFFSET))(this);

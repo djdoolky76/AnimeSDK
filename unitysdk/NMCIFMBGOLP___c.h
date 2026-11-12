@@ -4,18 +4,18 @@
 class NMCIFMBGOLP;
 namespace System { class Object; }
 
-#define NMCIFMBGOLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB6EDE0)
-#define NMCIFMBGOLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6EE20)
-#define NMCIFMBGOLP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB6EE30)
+#define NMCIFMBGOLP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F05FC40)
+#define NMCIFMBGOLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05FC80)
+#define NMCIFMBGOLP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F05FC90)
 
-inline static constexpr unsigned int NMCIFMBGOLP___c_TypeDefinitionIndex = 33839;
+inline static constexpr unsigned int NMCIFMBGOLP___c_TypeDefinitionIndex = 34754;
 
 	class NMCIFMBGOLP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6BF60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x714A0);
 		}
 
 		static ::System::Void _cctor()

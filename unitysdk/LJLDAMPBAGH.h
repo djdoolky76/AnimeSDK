@@ -4,10 +4,10 @@ class NOEBJBDLNGN;
 namespace RPG::GameCore { class ST_ByContainAbnormalState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJLDAMPBAGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB71ECA0)
-#define LJLDAMPBAGH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB71ED60)
+#define LJLDAMPBAGH_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBB760)
+#define LJLDAMPBAGH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFBB820)
 
-inline static constexpr unsigned int LJLDAMPBAGH_TypeDefinitionIndex = 52185;
+inline static constexpr unsigned int LJLDAMPBAGH_TypeDefinitionIndex = 53290;
 
 	class LJLDAMPBAGH
 	{

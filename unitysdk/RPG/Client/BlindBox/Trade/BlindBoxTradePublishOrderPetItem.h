@@ -7,26 +7,27 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPetInstance; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xC8AAB10)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GETINSTANCEAT_OFFSET UNITYSDK_OFFSET(0xC8AAE90)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_INSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0xC8AAE40)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_ISSELECTABLE_OFFSET UNITYSDK_OFFSET(0xC8AAE20)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_KIND_OFFSET UNITYSDK_OFFSET(0xC8AAE00)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_PET_OFFSET UNITYSDK_OFFSET(0xC8AAE10)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_SHOWSTACKCOUNT_OFFSET UNITYSDK_OFFSET(0xC8AAE30)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD20FF30)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GETINSTANCEAT_OFFSET UNITYSDK_OFFSET(0xD2102B0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_INSTANCECOUNT_OFFSET UNITYSDK_OFFSET(0xD210260)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_ISSELECTABLE_OFFSET UNITYSDK_OFFSET(0xD210240)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_KIND_OFFSET UNITYSDK_OFFSET(0xD210220)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_PET_OFFSET UNITYSDK_OFFSET(0xD210230)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_GET_SHOWSTACKCOUNT_OFFSET UNITYSDK_OFFSET(0xD210250)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradePublishOrderPetItem_TypeDefinitionIndex = 74888;
+	inline static constexpr unsigned int BlindBoxTradePublishOrderPetItem_TypeDefinitionIndex = 77215;
 
 	class BlindBoxTradePublishOrderPetItem : public ::System::Object
 	{
 	public:
 		::RPG::Client::Pet::BlindBox::IBlindBoxPet* _Pet_k__BackingField; // 0x10
 		::System::Collections::Generic::List_1<::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*>* _Instances; // 0x18
-		::RPG::Client::BlindBox::Trade::BlindBoxTradePublishOrderPetItemKind _Kind_k__BackingField; // 0x20
-		::System::Boolean _ShowStackCount_k__BackingField; // 0x24
-		::System::Boolean _IsSelectable_k__BackingField; // 0x25
+		::System::Boolean _ShowStackCount_k__BackingField; // 0x20
+		::System::Boolean _IsSelectable_k__BackingField; // 0x21
+		::System::Byte _padding0[0x2];
+		::RPG::Client::BlindBox::Trade::BlindBoxTradePublishOrderPetItemKind _Kind_k__BackingField; // 0x24
 		::System::Void _ctor(::RPG::Client::BlindBox::Trade::BlindBoxTradePublishOrderPetItemKind a1, ::RPG::Client::Pet::BlindBox::IBlindBoxPet* a2, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*>* a3, ::System::Boolean a4, ::System::Boolean a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::BlindBox::Trade::BlindBoxTradePublishOrderPetItemKind, ::RPG::Client::Pet::BlindBox::IBlindBoxPet*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::Pet::BlindBox::IBlindBoxPetInstance*>*, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEPUBLISHORDERPETITEM_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

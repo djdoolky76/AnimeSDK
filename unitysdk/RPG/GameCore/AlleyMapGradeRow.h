@@ -6,12 +6,12 @@ class ILGDPAKJKGE;
 namespace RPG::GameCore { class AlleyMapGradeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ALLEYMAPGRADEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3E76D0)
-#define RPG_GAMECORE_ALLEYMAPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3E70B0)
+#define RPG_GAMECORE_ALLEYMAPGRADEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E607A70)
+#define RPG_GAMECORE_ALLEYMAPGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E607450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AlleyMapGradeRow_TypeDefinitionIndex = 12636;
+	inline static constexpr unsigned int AlleyMapGradeRow_TypeDefinitionIndex = 12703;
 
 	class AlleyMapGradeRow : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 class BJBDLEBCEKF;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CBMGBGGBNCF_CTOR_OFFSET UNITYSDK_OFFSET(0xC4AFAD0)
-#define CBMGBGGBNCF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4AF9A0)
+#define CBMGBGGBNCF_CTOR_OFFSET UNITYSDK_OFFSET(0xCE18AD0)
+#define CBMGBGGBNCF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCE189A0)
 
-inline static constexpr unsigned int CBMGBGGBNCF_TypeDefinitionIndex = 57262;
+inline static constexpr unsigned int CBMGBGGBNCF_TypeDefinitionIndex = 58489;
 
 	class CBMGBGGBNCF : public ::System::Object
 	{

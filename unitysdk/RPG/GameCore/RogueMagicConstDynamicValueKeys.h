@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueMagicConstDynamicValueKeys; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9D3C60)
-#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9D3AC0)
+#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC1D450)
+#define RPG_GAMECORE_ROGUEMAGICCONSTDYNAMICVALUEKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC1D2B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueMagicConstDynamicValueKeys_TypeDefinitionIndex = 17129;
+	inline static constexpr unsigned int RogueMagicConstDynamicValueKeys_TypeDefinitionIndex = 17296;
 
 	class RogueMagicConstDynamicValueKeys : public ::RPG::GameCore::JsonConfig
 	{

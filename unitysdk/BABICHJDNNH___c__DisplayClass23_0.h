@@ -6,10 +6,10 @@ class EDGNLGIJLOJ;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BABICHJDNNH___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BCE300)
-#define BABICHJDNNH___C__DISPLAYCLASS23_0___REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15BCE3E0)
+#define BABICHJDNNH___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16CDA120)
+#define BABICHJDNNH___C__DISPLAYCLASS23_0___REFRESHVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x16CDA200)
 
-inline static constexpr unsigned int BABICHJDNNH___c__DisplayClass23_0_TypeDefinitionIndex = 72327;
+inline static constexpr unsigned int BABICHJDNNH___c__DisplayClass23_0_TypeDefinitionIndex = 74404;
 
 	class BABICHJDNNH___c__DisplayClass23_0 : public ::System::Object
 	{

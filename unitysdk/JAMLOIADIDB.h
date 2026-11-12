@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JAMLOIADIDB_CTOR_OFFSET UNITYSDK_OFFSET(0x1655B950)
-#define JAMLOIADIDB_GET_SHOWBG_OFFSET UNITYSDK_OFFSET(0x1655B930)
-#define JAMLOIADIDB_SET_SHOWBG_OFFSET UNITYSDK_OFFSET(0x1655B940)
+#define JAMLOIADIDB_CTOR_OFFSET UNITYSDK_OFFSET(0xB894170)
+#define JAMLOIADIDB_GET_SHOWBG_OFFSET UNITYSDK_OFFSET(0xB894150)
+#define JAMLOIADIDB_SET_SHOWBG_OFFSET UNITYSDK_OFFSET(0xB894160)
 
-inline static constexpr unsigned int JAMLOIADIDB_TypeDefinitionIndex = 79136;
+inline static constexpr unsigned int JAMLOIADIDB_TypeDefinitionIndex = 81912;
 
 	class JAMLOIADIDB : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class KHPOKIKCOFO;
 
-#define OLOMBDFNFFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DBE0)
+#define OLOMBDFNFFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5FAD0)
 
-inline static constexpr unsigned int OLOMBDFNFFG_TypeDefinitionIndex = 42144;
+inline static constexpr unsigned int OLOMBDFNFFG_TypeDefinitionIndex = 43119;
 
 	class OLOMBDFNFFG : public ::System::Object
 	{

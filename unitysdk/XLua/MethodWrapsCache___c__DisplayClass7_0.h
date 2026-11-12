@@ -4,12 +4,12 @@
 namespace System { class Type; }
 namespace XLua { class MethodWrapsCache; }
 
-#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14DC68F0)
-#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_0__GETCONSTRUCTORWRAP_B__0_OFFSET UNITYSDK_OFFSET(0x14DC8F30)
+#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C86F30)
+#define XLUA_METHODWRAPSCACHE___C__DISPLAYCLASS7_0__GETCONSTRUCTORWRAP_B__0_OFFSET UNITYSDK_OFFSET(0x15C89570)
 
 namespace XLua
 {
-	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass7_0_TypeDefinitionIndex = 50218;
+	inline static constexpr unsigned int MethodWrapsCache___c__DisplayClass7_0_TypeDefinitionIndex = 51269;
 
 	class MethodWrapsCache___c__DisplayClass7_0 : public ::System::Object
 	{

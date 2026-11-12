@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveTeamRecommendRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D780C80)
-#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7809F0)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9943B0)
+#define RPG_GAMECORE_IDLELIVETEAMRECOMMENDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E994120)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11709;
+	inline static constexpr unsigned int IdleLiveTeamRecommendRow_TypeDefinitionIndex = 11766;
 
 	class IdleLiveTeamRecommendRow : public ::System::Object
 	{

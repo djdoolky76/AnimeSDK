@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NNMCPNJFPJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCCC290)
+#define NNMCPNJFPJE_CTOR_OFFSET UNITYSDK_OFFSET(0xC5B8100)
 
-inline static constexpr unsigned int NNMCPNJFPJE_TypeDefinitionIndex = 60955;
+inline static constexpr unsigned int NNMCPNJFPJE_TypeDefinitionIndex = 62331;
 
 	class NNMCPNJFPJE : public ::System::Object
 	{

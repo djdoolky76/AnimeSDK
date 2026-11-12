@@ -4,18 +4,18 @@
 class KEJANPDMOIL;
 namespace System { class Object; }
 
-#define KEJANPDMOIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E80C640)
-#define KEJANPDMOIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80C680)
-#define KEJANPDMOIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E80C690)
+#define KEJANPDMOIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB22CE0)
+#define KEJANPDMOIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB22D20)
+#define KEJANPDMOIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FB22D30)
 
-inline static constexpr unsigned int KEJANPDMOIL___c_TypeDefinitionIndex = 34146;
+inline static constexpr unsigned int KEJANPDMOIL___c_TypeDefinitionIndex = 35061;
 
 	class KEJANPDMOIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x129F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA480);
 		}
 
 		static ::System::Void _cctor()

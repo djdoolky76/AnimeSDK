@@ -7,19 +7,19 @@ namespace RPG::GameCore { class ActivityTagRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_ACTIVITYTAGDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5BD120)
-#define RPG_CLIENT_ACTIVITYTAGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC5BC950)
-#define RPG_CLIENT_ACTIVITYTAGDATA_GETALLTAGS_OFFSET UNITYSDK_OFFSET(0xC5BCCD0)
-#define RPG_CLIENT_ACTIVITYTAGDATA_GETTAG_OFFSET UNITYSDK_OFFSET(0xC5BC960)
-#define RPG_CLIENT_ACTIVITYTAGDATA_GET_TAGID_OFFSET UNITYSDK_OFFSET(0xC5BCFA0)
-#define RPG_CLIENT_ACTIVITYTAGDATA_GET_TAGTEXT_OFFSET UNITYSDK_OFFSET(0xC5BCFE0)
-#define RPG_CLIENT_ACTIVITYTAGDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xC5BD0C0)
-#define RPG_CLIENT_ACTIVITYTAGDATA_ISVALIDTAG_OFFSET UNITYSDK_OFFSET(0xC5BCB40)
-#define RPG_CLIENT_ACTIVITYTAGDATA__TRYCREATEFLYWEIGHT_OFFSET UNITYSDK_OFFSET(0xC5BCBA0)
+#define RPG_CLIENT_ACTIVITYTAGDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF12560)
+#define RPG_CLIENT_ACTIVITYTAGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF11D90)
+#define RPG_CLIENT_ACTIVITYTAGDATA_GETALLTAGS_OFFSET UNITYSDK_OFFSET(0xCF12110)
+#define RPG_CLIENT_ACTIVITYTAGDATA_GETTAG_OFFSET UNITYSDK_OFFSET(0xCF11DA0)
+#define RPG_CLIENT_ACTIVITYTAGDATA_GET_TAGID_OFFSET UNITYSDK_OFFSET(0xCF123E0)
+#define RPG_CLIENT_ACTIVITYTAGDATA_GET_TAGTEXT_OFFSET UNITYSDK_OFFSET(0xCF12420)
+#define RPG_CLIENT_ACTIVITYTAGDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xCF12500)
+#define RPG_CLIENT_ACTIVITYTAGDATA_ISVALIDTAG_OFFSET UNITYSDK_OFFSET(0xCF11F80)
+#define RPG_CLIENT_ACTIVITYTAGDATA__TRYCREATEFLYWEIGHT_OFFSET UNITYSDK_OFFSET(0xCF11FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityTagData_TypeDefinitionIndex = 61706;
+	inline static constexpr unsigned int ActivityTagData_TypeDefinitionIndex = 63112;
 
 	class ActivityTagData : public ::System::Object
 	{
@@ -27,7 +27,7 @@ namespace RPG::Client
 		::System::UInt32 _TagID; // 0x10
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityTagData*>** StaticGet__Instances()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityTagData*>**)UnitySDK::FromName("RPG.Client", "ActivityTagData")->GetStaticField(0x3F640);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ActivityTagData*>**)UnitySDK::FromName("RPG.Client", "ActivityTagData")->GetStaticField(0x35790);
 		}
 
 		::System::Void _ctor(::System::UInt32 a1)

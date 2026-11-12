@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShieldModifierConstKeys; }
 
-#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD1D80)
-#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD1810)
+#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE3B90)
+#define RPG_GAMECORE_SHIELDMODIFIERCONSTKEYS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE3620)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShieldModifierConstKeys_TypeDefinitionIndex = 17102;
+	inline static constexpr unsigned int ShieldModifierConstKeys_TypeDefinitionIndex = 17269;
 
 	class ShieldModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{

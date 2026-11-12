@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/BattleGamePhase.h"
 namespace RPG::Client { class BattleGamePhaseInitParams; }
 
-#define EBIEELNHAHL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF9120)
+#define EBIEELNHAHL_CTOR_OFFSET UNITYSDK_OFFSET(0x13AAA270)
 
-inline static constexpr unsigned int EBIEELNHAHL_TypeDefinitionIndex = 71122;
+inline static constexpr unsigned int EBIEELNHAHL_TypeDefinitionIndex = 73105;
 
 	class EBIEELNHAHL : public ::RPG::Client::BattleGamePhase
 	{

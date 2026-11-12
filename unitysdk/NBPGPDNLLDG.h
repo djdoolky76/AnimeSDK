@@ -5,21 +5,21 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 namespace RPG::GameCore { class ST_Main_ElfCustomerExtraPay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NBPGPDNLLDG_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF5B20)
-#define NBPGPDNLLDG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAF6030)
-#define NBPGPDNLLDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAF5B40)
-#define NBPGPDNLLDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAF5E70)
-#define NBPGPDNLLDG_TICK_OFFSET UNITYSDK_OFFSET(0xBAF5EC0)
+#define NBPGPDNLLDG_CTOR_OFFSET UNITYSDK_OFFSET(0xC37CC30)
+#define NBPGPDNLLDG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC37D150)
+#define NBPGPDNLLDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC37CC50)
+#define NBPGPDNLLDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC37CF80)
+#define NBPGPDNLLDG_TICK_OFFSET UNITYSDK_OFFSET(0xC37CFD0)
 
-inline static constexpr unsigned int NBPGPDNLLDG_TypeDefinitionIndex = 52154;
+inline static constexpr unsigned int NBPGPDNLLDG_TypeDefinitionIndex = 53259;
 
 	class NBPGPDNLLDG
 	{
 	public:
-		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x28
-		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x30
-		::System::Single HBDJCFFDGDD; // 0x38
-		::System::Single PGMIOKKLHIE; // 0x3C
+		::RPG::Client::ElfRestaurantGameInstance* MIJMIIENKAK; // 0x28
+		::RPG::Client::LittleGame::ElfRestaurantGameEntity* PCPOJALEGGF; // 0x30
+		::System::Single PGMIOKKLHIE; // 0x38
+		::System::Single HBDJCFFDGDD; // 0x3C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ST_Main_ElfCustomerExtraPay* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ST_Main_ElfCustomerExtraPay*))((::PBYTE)hIl2Cpp + NBPGPDNLLDG_CTOR_OFFSET))(this, a1, a2);

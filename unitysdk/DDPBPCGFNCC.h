@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtUnstackInvisible; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DDPBPCGFNCC_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F1040)
-#define DDPBPCGFNCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE4F1070)
+#define DDPBPCGFNCC_CTOR_OFFSET UNITYSDK_OFFSET(0xEE37EC0)
+#define DDPBPCGFNCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE37EF0)
 
-inline static constexpr unsigned int DDPBPCGFNCC_TypeDefinitionIndex = 53908;
+inline static constexpr unsigned int DDPBPCGFNCC_TypeDefinitionIndex = 55072;
 
 	class DDPBPCGFNCC
 	{

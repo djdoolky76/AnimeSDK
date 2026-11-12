@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 
-#define BBJAEFLCAEI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E8E2F0)
-#define BBJAEFLCAEI_NJJIFIKEPGM_OFFSET UNITYSDK_OFFSET(0x15E8E270)
+#define BBJAEFLCAEI_CTOR_OFFSET UNITYSDK_OFFSET(0x16D131D0)
+#define BBJAEFLCAEI_NJJIFIKEPGM_OFFSET UNITYSDK_OFFSET(0x16D13150)
 
-inline static constexpr unsigned int BBJAEFLCAEI_TypeDefinitionIndex = 73749;
+inline static constexpr unsigned int BBJAEFLCAEI_TypeDefinitionIndex = 75873;
 
 	class BBJAEFLCAEI : public ::System::Object
 	{

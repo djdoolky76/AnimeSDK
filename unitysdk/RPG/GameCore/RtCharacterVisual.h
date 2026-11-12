@@ -10,12 +10,12 @@ namespace RPG::GameCore { class RtCharacterVisual; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_RTCHARACTERVISUAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA58BC0)
-#define RPG_GAMECORE_RTCHARACTERVISUAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA58260)
+#define RPG_GAMECORE_RTCHARACTERVISUAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6AA40)
+#define RPG_GAMECORE_RTCHARACTERVISUAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC6A0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtCharacterVisual_TypeDefinitionIndex = 24091;
+	inline static constexpr unsigned int RtCharacterVisual_TypeDefinitionIndex = 24550;
 
 	class RtCharacterVisual : public ::RPG::GameCore::JsonConfig
 	{

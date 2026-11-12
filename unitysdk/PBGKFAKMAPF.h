@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PBGKFAKMAPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E7980)
+#define PBGKFAKMAPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9692C0)
 
-inline static constexpr unsigned int PBGKFAKMAPF_TypeDefinitionIndex = 36458;
+inline static constexpr unsigned int PBGKFAKMAPF_TypeDefinitionIndex = 37386;
 
 	class PBGKFAKMAPF : public ::System::Object
 	{

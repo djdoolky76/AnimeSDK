@@ -5,9 +5,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define JKJGLIPPEPP_CTOR_OFFSET UNITYSDK_OFFSET(0xB21F410)
+#define JKJGLIPPEPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA47320)
 
-inline static constexpr unsigned int JKJGLIPPEPP_TypeDefinitionIndex = 72112;
+inline static constexpr unsigned int JKJGLIPPEPP_TypeDefinitionIndex = 74147;
 
 	class JKJGLIPPEPP : public ::System::Object
 	{

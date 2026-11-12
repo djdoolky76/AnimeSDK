@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Color.h"
 namespace UnityEngine { class Object; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE350420)
+#define RPG_CLIENT_UI_UISTATECTRL_SWITCHRAMPCOLORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xEDBC4B0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int SwitchRampColorData_TypeDefinitionIndex = 74062;
+	inline static constexpr unsigned int SwitchRampColorData_TypeDefinitionIndex = 76208;
 
 	class SwitchRampColorData : public ::System::Object
 	{

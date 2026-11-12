@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine::EventSystems { class AxisEventData; }
 
-#define RPG_CLIENT_MONOUIFOURWAYNAVIGATION_CTOR_OFFSET UNITYSDK_OFFSET(0xD87BE50)
-#define RPG_CLIENT_MONOUIFOURWAYNAVIGATION_ONMOVE_OFFSET UNITYSDK_OFFSET(0xD87BDC0)
+#define RPG_CLIENT_MONOUIFOURWAYNAVIGATION_CTOR_OFFSET UNITYSDK_OFFSET(0xE2CE360)
+#define RPG_CLIENT_MONOUIFOURWAYNAVIGATION_ONMOVE_OFFSET UNITYSDK_OFFSET(0xE2CE2D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIFourWayNavigation_TypeDefinitionIndex = 68978;
+	inline static constexpr unsigned int MonoUIFourWayNavigation_TypeDefinitionIndex = 70931;
 
 	class MonoUIFourWayNavigation : public ::UnityEngine::MonoBehaviour
 	{

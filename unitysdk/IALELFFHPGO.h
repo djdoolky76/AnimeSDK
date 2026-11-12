@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define IALELFFHPGO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E19AA0)
+#define IALELFFHPGO_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC3250)
 
-inline static constexpr unsigned int IALELFFHPGO_TypeDefinitionIndex = 81285;
+inline static constexpr unsigned int IALELFFHPGO_TypeDefinitionIndex = 84065;
 
 	class IALELFFHPGO : public ::System::Object
 	{

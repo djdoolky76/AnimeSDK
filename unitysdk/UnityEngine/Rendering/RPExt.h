@@ -6,36 +6,36 @@
 #include "unitysdk/UnityEngine/RenderTextureFormat.h"
 #include "unitysdk/UnityEngine/RenderTextureReadWrite.h"
 
-#define UNITYENGINE_RENDERING_RPEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2C6BF0)
-#define UNITYENGINE_RENDERING_RPEXT_GETGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x1F2ACD70)
-#define UNITYENGINE_RENDERING_RPEXT_RESET_OFFSET UNITYSDK_OFFSET(0x1F2C6A50)
-#define UNITYENGINE_RENDERING_RPEXT__GETGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x1F2C6AC0)
+#define UNITYENGINE_RENDERING_RPEXT_CCTOR_OFFSET UNITYSDK_OFFSET(0x20577A30)
+#define UNITYENGINE_RENDERING_RPEXT_GETGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x2055DAF0)
+#define UNITYENGINE_RENDERING_RPEXT_RESET_OFFSET UNITYSDK_OFFSET(0x20577890)
+#define UNITYENGINE_RENDERING_RPEXT__GETGRAPHICSFORMAT_OFFSET UNITYSDK_OFFSET(0x20577900)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RPExt_TypeDefinitionIndex = 35570;
+	inline static constexpr unsigned int RPExt_TypeDefinitionIndex = 36498;
 
 	class RPExt : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::UnityEngine::Experimental::Rendering::GraphicsFormat>** StaticGet__FormatTable()
 		{
-			return (::Il2CppArray<::UnityEngine::Experimental::Rendering::GraphicsFormat>**)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x490A0);
-		}
-
-		static ::UnityEngine::Experimental::Rendering::GraphicsFormat* StaticGet__DefaultHDRFromat()
-		{
-			return (::UnityEngine::Experimental::Rendering::GraphicsFormat*)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x112E0);
-		}
-
-		static ::UnityEngine::Experimental::Rendering::GraphicsFormat* StaticGet__DefaultFormat()
-		{
-			return (::UnityEngine::Experimental::Rendering::GraphicsFormat*)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x112E4);
+			return (::Il2CppArray<::UnityEngine::Experimental::Rendering::GraphicsFormat>**)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x5AD30);
 		}
 
 		static ::System::Boolean* StaticGet__IsDefaultSRGB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x112E8);
+			return (::System::Boolean*)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x13680);
+		}
+
+		static ::UnityEngine::Experimental::Rendering::GraphicsFormat* StaticGet__DefaultFormat()
+		{
+			return (::UnityEngine::Experimental::Rendering::GraphicsFormat*)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x13684);
+		}
+
+		static ::UnityEngine::Experimental::Rendering::GraphicsFormat* StaticGet__DefaultHDRFromat()
+		{
+			return (::UnityEngine::Experimental::Rendering::GraphicsFormat*)UnitySDK::FromName("UnityEngine.Rendering", "RPExt")->GetStaticField(0x13688);
 		}
 
 		static ::System::Void _cctor()

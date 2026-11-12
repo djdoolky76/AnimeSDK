@@ -6,11 +6,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2SolverBlock; }
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SOLVERSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C85C400)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SOLVERSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9DDAB0)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2SolverStage_TypeDefinitionIndex = 36780;
+	inline static constexpr unsigned int B2SolverStage_TypeDefinitionIndex = 37708;
 
 	class B2SolverStage : public ::System::Object
 	{
@@ -18,9 +18,9 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ArraySegment_1<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SolverBlock*> blocks; // 0x10
 		::System::Byte _padding0[0x8];
 		::System::Int32 blockCount; // 0x20
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SolverStageType type; // 0x24
-		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AtomicInt completionCount; // 0x28
-		::System::Int32 colorIndex; // 0x2C
+		::System::Int32 colorIndex; // 0x24
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2SolverStageType type; // 0x28
+		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2AtomicInt completionCount; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SOLVERSTAGE_CTOR_OFFSET))(this);

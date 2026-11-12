@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class MonoTriggerRegion; }
 
-#define RPG_CLIENT_MONOBASETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0xD730F60)
-#define RPG_CLIENT_MONOBASETRIGGER_MEJPCPBPMNM_OFFSET UNITYSDK_OFFSET(0xD730F20)
-#define RPG_CLIENT_MONOBASETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xD730DD0)
+#define RPG_CLIENT_MONOBASETRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C42C0)
+#define RPG_CLIENT_MONOBASETRIGGER_MEJPCPBPMNM_OFFSET UNITYSDK_OFFSET(0xE1C4280)
+#define RPG_CLIENT_MONOBASETRIGGER_START_OFFSET UNITYSDK_OFFSET(0xE1C4130)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoBaseTrigger_TypeDefinitionIndex = 68906;
+	inline static constexpr unsigned int MonoBaseTrigger_TypeDefinitionIndex = 70859;
 
 	class MonoBaseTrigger : public ::UnityEngine::MonoBehaviour
 	{

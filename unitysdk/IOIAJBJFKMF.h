@@ -4,16 +4,16 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define IOIAJBJFKMF_CTOR_OFFSET UNITYSDK_OFFSET(0x16502E00)
-#define IOIAJBJFKMF_TRIGGER_OFFSET UNITYSDK_OFFSET(0x16502CB0)
+#define IOIAJBJFKMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB837750)
+#define IOIAJBJFKMF_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB837600)
 
-inline static constexpr unsigned int IOIAJBJFKMF_TypeDefinitionIndex = 66228;
+inline static constexpr unsigned int IOIAJBJFKMF_TypeDefinitionIndex = 68164;
 
 	class IOIAJBJFKMF : public ::System::Object
 	{
 	public:
-		::System::UInt32 AIKAPJELHNK; // 0x10
-		::System::UInt32 IHHNMMBAAGN; // 0x14
+		::System::UInt32 IHHNMMBAAGN; // 0x10
+		::System::UInt32 AIKAPJELHNK; // 0x14
 		::System::UInt32 HKAHFHHICEN; // 0x18
 		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x1C
 		// static const ::System::String* NNKPLACOBCD; // 0x0

@@ -4,18 +4,18 @@
 namespace System { class Object; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED70420)
-#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS1_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1ED70530)
+#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x2001FE50)
+#define SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS1_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x2001FF60)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int MethodReference___c__DisplayClass1_0_TypeDefinitionIndex = 35424;
+	inline static constexpr unsigned int MethodReference___c__DisplayClass1_0_TypeDefinitionIndex = 36352;
 
 	class MethodReference___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Object* target; // 0x10
-		::System::Reflection::MethodInfo* method; // 0x18
+		::System::Reflection::MethodInfo* method; // 0x10
+		::System::Object* target; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SRF_HELPERS_METHODREFERENCE___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

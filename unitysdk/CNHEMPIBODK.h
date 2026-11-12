@@ -4,21 +4,22 @@
 namespace RPG::GameCore { class CreatePlayerTeam; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CNHEMPIBODK_CTOR_OFFSET UNITYSDK_OFFSET(0xDA50900)
-#define CNHEMPIBODK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA50910)
-#define CNHEMPIBODK_LCFENHCPIGP_OFFSET UNITYSDK_OFFSET(0xDA509E0)
-#define CNHEMPIBODK_NMFEHIMCPCM_OFFSET UNITYSDK_OFFSET(0xDA51EB0)
-#define CNHEMPIBODK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA50950)
-#define CNHEMPIBODK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA51E00)
-#define CNHEMPIBODK_TICK_OFFSET UNITYSDK_OFFSET(0xDA51E50)
+#define CNHEMPIBODK_CTOR_OFFSET UNITYSDK_OFFSET(0xE5E9050)
+#define CNHEMPIBODK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5E9060)
+#define CNHEMPIBODK_JFJDJKNONHO_OFFSET UNITYSDK_OFFSET(0xE5E9140)
+#define CNHEMPIBODK_LCFENHCPIGP_OFFSET UNITYSDK_OFFSET(0xE5E92D0)
+#define CNHEMPIBODK_NMFEHIMCPCM_OFFSET UNITYSDK_OFFSET(0xE5EA7D0)
+#define CNHEMPIBODK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5E90A0)
+#define CNHEMPIBODK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE5EA720)
+#define CNHEMPIBODK_TICK_OFFSET UNITYSDK_OFFSET(0xE5EA770)
 
-inline static constexpr unsigned int CNHEMPIBODK_TypeDefinitionIndex = 58055;
+inline static constexpr unsigned int CNHEMPIBODK_TypeDefinitionIndex = 59294;
 
 	class CNHEMPIBODK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::CreatePlayerTeam* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::CreatePlayerTeam* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreatePlayerTeam* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CreatePlayerTeam*))((::PBYTE)hIl2Cpp + CNHEMPIBODK_CTOR_OFFSET))(this, a1, a2);
@@ -42,6 +43,11 @@ inline static constexpr unsigned int CNHEMPIBODK_TypeDefinitionIndex = 58055;
 		::System::Void Tick(::System::Single a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CNHEMPIBODK_TICK_OFFSET))(this, a1);
+		}
+
+		::System::Void JFJDJKNONHO()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CNHEMPIBODK_JFJDJKNONHO_OFFSET))(this);
 		}
 
 		::System::Void LCFENHCPIGP()

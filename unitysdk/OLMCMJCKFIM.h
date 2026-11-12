@@ -5,21 +5,21 @@ class KFELGAIGHAP;
 namespace RPG::GameCore { class MonopolyCheckHasFinishedQuiz; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OLMCMJCKFIM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF10700)
-#define OLMCMJCKFIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF10A70)
-#define OLMCMJCKFIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF10800)
-#define OLMCMJCKFIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF10A20)
-#define OLMCMJCKFIM_TICK_OFFSET UNITYSDK_OFFSET(0xBF10BE0)
+#define OLMCMJCKFIM_CTOR_OFFSET UNITYSDK_OFFSET(0xC80D770)
+#define OLMCMJCKFIM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC80DAE0)
+#define OLMCMJCKFIM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC80D870)
+#define OLMCMJCKFIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC80DA90)
+#define OLMCMJCKFIM_TICK_OFFSET UNITYSDK_OFFSET(0xC80DC50)
 
-inline static constexpr unsigned int OLMCMJCKFIM_TypeDefinitionIndex = 58216;
+inline static constexpr unsigned int OLMCMJCKFIM_TypeDefinitionIndex = 59472;
 
 	class OLMCMJCKFIM : public ::GELIALJDFBL
 	{
 	public:
 		::KFELGAIGHAP* IJBFOGOBMLE; // 0x18
-		::RPG::GameCore::MonopolyCheckHasFinishedQuiz* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::KFELGAIGHAP* APPJBNPGGMI; // 0x30
+		::KFELGAIGHAP* APPJBNPGGMI; // 0x20
+		::RPG::GameCore::MonopolyCheckHasFinishedQuiz* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MonopolyCheckHasFinishedQuiz* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MonopolyCheckHasFinishedQuiz*))((::PBYTE)hIl2Cpp + OLMCMJCKFIM_CTOR_OFFSET))(this, a1, a2);

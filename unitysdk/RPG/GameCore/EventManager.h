@@ -9,23 +9,23 @@ namespace RPG::GameCore { class OnEventCallBack; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_GAMECORE_EVENTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xE678120)
-#define RPG_GAMECORE_EVENTMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE677750)
-#define RPG_GAMECORE_EVENTMANAGER_FIREEVENT_OFFSET UNITYSDK_OFFSET(0xE677970)
-#define RPG_GAMECORE_EVENTMANAGER_GETEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xE678010)
-#define RPG_GAMECORE_EVENTMANAGER_REGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xE677DB0)
-#define RPG_GAMECORE_EVENTMANAGER_RELEASEEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xE6780A0)
-#define RPG_GAMECORE_EVENTMANAGER_UNREGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xE677F50)
+#define RPG_GAMECORE_EVENTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0xF0FCD00)
+#define RPG_GAMECORE_EVENTMANAGER_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF0FC9D0)
+#define RPG_GAMECORE_EVENTMANAGER_FIREEVENT_OFFSET UNITYSDK_OFFSET(0xF0D4FF0)
+#define RPG_GAMECORE_EVENTMANAGER_GETEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xF0FCBF0)
+#define RPG_GAMECORE_EVENTMANAGER_REGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xF0F0370)
+#define RPG_GAMECORE_EVENTMANAGER_RELEASEEXECUTELIST_OFFSET UNITYSDK_OFFSET(0xF0FCC80)
+#define RPG_GAMECORE_EVENTMANAGER_UNREGISTEREVENTLISTENER_OFFSET UNITYSDK_OFFSET(0xF0F0510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EventManager_TypeDefinitionIndex = 56690;
+	inline static constexpr unsigned int EventManager_TypeDefinitionIndex = 57914;
 
 	class EventManager : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::LGGGGGJFKMI, ::Collections::Pooled::PooledList_1<::RPG::GameCore::OnEventCallBack*>*>* _EntityEventHandleMap; // 0x10
-		::System::Collections::Generic::Queue_1<::Collections::Pooled::PooledList_1<::RPG::GameCore::OnEventCallBack*>*>* _ExecuteListPool; // 0x18
+		::System::Collections::Generic::Queue_1<::Collections::Pooled::PooledList_1<::RPG::GameCore::OnEventCallBack*>*>* _ExecuteListPool; // 0x10
+		::System::Collections::Generic::Dictionary_2<::LGGGGGJFKMI, ::Collections::Pooled::PooledList_1<::RPG::GameCore::OnEventCallBack*>*>* _EntityEventHandleMap; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EVENTMANAGER_CTOR_OFFSET))(this);

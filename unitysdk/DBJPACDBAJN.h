@@ -6,12 +6,12 @@ namespace RPG::Client { class AdventurePhase; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DBJPACDBAJN_CTOR_OFFSET UNITYSDK_OFFSET(0xE2288D0)
-#define DBJPACDBAJN_DNODEONNPEM_OFFSET UNITYSDK_OFFSET(0xE228950)
-#define DBJPACDBAJN_LOCK_OFFSET UNITYSDK_OFFSET(0xE2288E0)
-#define DBJPACDBAJN_UNLOCK_OFFSET UNITYSDK_OFFSET(0xE228A60)
+#define DBJPACDBAJN_CTOR_OFFSET UNITYSDK_OFFSET(0xEB875E0)
+#define DBJPACDBAJN_DNODEONNPEM_OFFSET UNITYSDK_OFFSET(0xEB87660)
+#define DBJPACDBAJN_LOCK_OFFSET UNITYSDK_OFFSET(0xEB875F0)
+#define DBJPACDBAJN_UNLOCK_OFFSET UNITYSDK_OFFSET(0xEB87770)
 
-inline static constexpr unsigned int DBJPACDBAJN_TypeDefinitionIndex = 74768;
+inline static constexpr unsigned int DBJPACDBAJN_TypeDefinitionIndex = 76922;
 
 	class DBJPACDBAJN : public ::RPG::Client::GamePlayLockTargetFunc
 	{

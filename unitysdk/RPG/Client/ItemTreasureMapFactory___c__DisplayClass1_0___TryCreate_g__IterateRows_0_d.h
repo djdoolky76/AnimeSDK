@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+namespace RPG::GameCore { class ItemCureInfoDataRow; }
+namespace System { class Object; }
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
+
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_CTOR_OFFSET UNITYSDK_OFFSET(0xDDC2940)
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDDC2970)
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_GAMECORE_ITEMCUREINFODATAROW__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xDDC2A70)
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_GAMECORE_ITEMCUREINFODATAROW__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDDC2A00)
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xDDC2AF0)
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDDC2A60)
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDDC2A10)
+#define RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDDC2960)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ItemTreasureMapFactory___c__DisplayClass1_0___TryCreate_g__IterateRows_0_d_TypeDefinitionIndex = 67675;
+
+	class ItemTreasureMapFactory___c__DisplayClass1_0___TryCreate_g__IterateRows_0_d : public ::System::Object
+	{
+	public:
+		::RPG::GameCore::ItemCureInfoDataRow* __2__current; // 0x10
+		::System::Object* __4__this; // 0x18
+		::System::Int32 __1__state; // 0x20
+		::System::Int32 __l__initialThreadId; // 0x24
+		::System::Int32 _pageNumber_5__2; // 0x28
+		::System::Void _ctor(::System::Int32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Void System_IDisposable_Dispose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET))(this);
+		}
+
+		::System::Boolean MoveNext()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_MOVENEXT_OFFSET))(this);
+		}
+
+		::RPG::GameCore::ItemCureInfoDataRow* System_Collections_Generic_IEnumerator_RPG_GameCore_ItemCureInfoDataRow__get_Current()
+		{
+			return ((::RPG::GameCore::ItemCureInfoDataRow*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_RPG_GAMECORE_ITEMCUREINFODATAROW__GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Void System_Collections_IEnumerator_Reset()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET))(this);
+		}
+
+		::System::Object* System_Collections_IEnumerator_get_Current()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerator_1<::RPG::GameCore::ItemCureInfoDataRow*>* System_Collections_Generic_IEnumerable_RPG_GameCore_ItemCureInfoDataRow__GetEnumerator()
+		{
+			return ((::System::Collections::Generic::IEnumerator_1<::RPG::GameCore::ItemCureInfoDataRow*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_RPG_GAMECORE_ITEMCUREINFODATAROW__GETENUMERATOR_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMTREASUREMAPFACTORY___C__DISPLAYCLASS1_0___TRYCREATE_G__ITERATEROWS_0_D_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET))(this);
+		}
+
+	};
+}

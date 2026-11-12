@@ -4,18 +4,18 @@
 class KIIOBCNAPLC;
 namespace System { class Object; }
 
-#define KIIOBCNAPLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E85C230)
-#define KIIOBCNAPLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E85C270)
-#define KIIOBCNAPLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E85C280)
+#define KIIOBCNAPLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB76360)
+#define KIIOBCNAPLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB763A0)
+#define KIIOBCNAPLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB763B0)
 
-inline static constexpr unsigned int KIIOBCNAPLC___c_TypeDefinitionIndex = 33761;
+inline static constexpr unsigned int KIIOBCNAPLC___c_TypeDefinitionIndex = 34676;
 
 	class KIIOBCNAPLC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A3C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13040);
 		}
 
 		static ::System::Void _cctor()

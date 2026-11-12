@@ -13,30 +13,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Camera; }
 namespace UnityEngine { class RenderTexture; }
 
-#define IBCIBKEIBOE_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0x15E2C3C0)
-#define IBCIBKEIBOE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E2C450)
-#define IBCIBKEIBOE_CHHAJHKKGNG_OFFSET UNITYSDK_OFFSET(0x15E2C2C0)
-#define IBCIBKEIBOE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E2C410)
-#define IBCIBKEIBOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E2BE60)
-#define IBCIBKEIBOE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x15E2C3A0)
-#define IBCIBKEIBOE_HDPBMLFMLNC_OFFSET UNITYSDK_OFFSET(0x15E2BFE0)
-#define IBCIBKEIBOE_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x15E2BF80)
-#define IBCIBKEIBOE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15E2B8D0)
-#define IBCIBKEIBOE_NKAIBEJHEKH_OFFSET UNITYSDK_OFFSET(0x15E2C1C0)
-#define IBCIBKEIBOE_OBNBEEJBLAI_OFFSET UNITYSDK_OFFSET(0x15E2C030)
-#define IBCIBKEIBOE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x15E2C3B0)
+#define IBCIBKEIBOE_BBNJCKPKPDN_OFFSET UNITYSDK_OFFSET(0x16DD5DC0)
+#define IBCIBKEIBOE_CCTOR_OFFSET UNITYSDK_OFFSET(0x16DD5E50)
+#define IBCIBKEIBOE_CHHAJHKKGNG_OFFSET UNITYSDK_OFFSET(0x16DD5CC0)
+#define IBCIBKEIBOE_CTOR_OFFSET UNITYSDK_OFFSET(0x16DD5E10)
+#define IBCIBKEIBOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DD5860)
+#define IBCIBKEIBOE_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x16DD5DA0)
+#define IBCIBKEIBOE_HDPBMLFMLNC_OFFSET UNITYSDK_OFFSET(0x16DD59E0)
+#define IBCIBKEIBOE_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x16DD5980)
+#define IBCIBKEIBOE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16DD52D0)
+#define IBCIBKEIBOE_NKAIBEJHEKH_OFFSET UNITYSDK_OFFSET(0x16DD5BC0)
+#define IBCIBKEIBOE_OBNBEEJBLAI_OFFSET UNITYSDK_OFFSET(0x16DD5A30)
+#define IBCIBKEIBOE_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x16DD5DB0)
 
-inline static constexpr unsigned int IBCIBKEIBOE_TypeDefinitionIndex = 70174;
+inline static constexpr unsigned int IBCIBKEIBOE_TypeDefinitionIndex = 72140;
 
 	class IBCIBKEIBOE : public ::System::Object
 	{
 	public:
-		::System::Action* HNONCBFKOOJ; // 0x10
-		::UnityEngine::RenderTexture* _Value_k__BackingField; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Camera*>* GCJFGIIAPGG; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Camera*>* GCJFGIIAPGG; // 0x10
+		::System::Action* HNONCBFKOOJ; // 0x18
+		::UnityEngine::RenderTexture* _Value_k__BackingField; // 0x20
 		static ::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::Il2CppArray<::UnityEngine::RenderTextureFormat>*>** StaticGet_FBBGOHBOFAP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::Il2CppArray<::UnityEngine::RenderTextureFormat>*>**)UnitySDK::FromName("", "IBCIBKEIBOE")->GetStaticField(0x47580);
+			return (::System::Collections::Generic::Dictionary_2<::UnityEngine::RenderTextureFormat, ::Il2CppArray<::UnityEngine::RenderTextureFormat>*>**)UnitySDK::FromName("", "IBCIBKEIBOE")->GetStaticField(0x2E450);
 		}
 
 		::System::Void _ctor()

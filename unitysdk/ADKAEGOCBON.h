@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FlipEraRegion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADKAEGOCBON_CTOR_OFFSET UNITYSDK_OFFSET(0xB142AA0)
-#define ADKAEGOCBON_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB142AD0)
+#define ADKAEGOCBON_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A7D60)
+#define ADKAEGOCBON_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7A7D90)
 
-inline static constexpr unsigned int ADKAEGOCBON_TypeDefinitionIndex = 52764;
+inline static constexpr unsigned int ADKAEGOCBON_TypeDefinitionIndex = 53908;
 
 	class ADKAEGOCBON
 	{

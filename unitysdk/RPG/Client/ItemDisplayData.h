@@ -10,29 +10,30 @@ namespace RPG::Client { class ItemDisplayDataExtraInfo; }
 namespace RPG::GameCore { class ItemRow; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ITEMDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD387310)
-#define RPG_CLIENT_ITEMDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD36EB10)
-#define RPG_CLIENT_ITEMDISPLAYDATA_GET_DEFAULTICONPATH_OFFSET UNITYSDK_OFFSET(0xD3873B0)
-#define RPG_CLIENT_ITEMDISPLAYDATA_GET_ISUNIQUE_OFFSET UNITYSDK_OFFSET(0xD372F80)
-#define RPG_CLIENT_ITEMDISPLAYDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0xD3874C0)
-#define RPG_CLIENT_ITEMDISPLAYDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xD387460)
+#define RPG_CLIENT_ITEMDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xDDBBBA0)
+#define RPG_CLIENT_ITEMDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDDBBC40)
+#define RPG_CLIENT_ITEMDISPLAYDATA_GET_DEFAULTICONPATH_OFFSET UNITYSDK_OFFSET(0xDDBBC50)
+#define RPG_CLIENT_ITEMDISPLAYDATA_GET_ISUNIQUE_OFFSET UNITYSDK_OFFSET(0xDDBBDB0)
+#define RPG_CLIENT_ITEMDISPLAYDATA_GET_UID_OFFSET UNITYSDK_OFFSET(0xDDBBD60)
+#define RPG_CLIENT_ITEMDISPLAYDATA_GET__ROW_OFFSET UNITYSDK_OFFSET(0xDDBBD00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ItemDisplayData_TypeDefinitionIndex = 65710;
+	inline static constexpr unsigned int ItemDisplayData_TypeDefinitionIndex = 67636;
 
 	class ItemDisplayData : public ::System::Object
 	{
 	public:
 		::RPG::Client::ItemDisplayDataExtraInfo* ExtraInfo; // 0x10
-		::RPG::GameCore::ItemMainType ItemMainType; // 0x18
-		::RPG::GameCore::ItemSubType ItemSubType; // 0x1C
-		::System::UInt32 Count; // 0x20
-		::System::UInt32 ConfigID; // 0x24
-		::RPG::GameCore::ItemRarity Rarity; // 0x28
-		::System::UInt32 Rank; // 0x2C
+		::RPG::GameCore::ItemRarity Rarity; // 0x18
+		::System::UInt32 Rank; // 0x1C
+		::System::UInt32 Level; // 0x20
+		::System::UInt32 Count; // 0x24
+		::RPG::GameCore::ItemSubType ItemSubType; // 0x28
+		::System::Byte _padding0[0x4];
 		::RPG::Client::UniqueItemKey UniqueKey; // 0x30
-		::System::UInt32 Level; // 0x48
+		::System::UInt32 ConfigID; // 0x48
+		::RPG::GameCore::ItemMainType ItemMainType; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ITEMDISPLAYDATA_CTOR_OFFSET))(this);

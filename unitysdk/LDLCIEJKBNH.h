@@ -23,50 +23,50 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define LDLCIEJKBNH_APBDACELPEF_OFFSET UNITYSDK_OFFSET(0xB6393D0)
-#define LDLCIEJKBNH_BEIPHHKFHCK_OFFSET UNITYSDK_OFFSET(0xB63C1C0)
-#define LDLCIEJKBNH_BGEBEKMJIPD_OFFSET UNITYSDK_OFFSET(0xB638A20)
-#define LDLCIEJKBNH_CPNEMOBKHEL_OFFSET UNITYSDK_OFFSET(0xB63B000)
-#define LDLCIEJKBNH_CTOR_OFFSET UNITYSDK_OFFSET(0xB6374D0)
-#define LDLCIEJKBNH_DPKGMOFJDPG_OFFSET UNITYSDK_OFFSET(0xB63B400)
-#define LDLCIEJKBNH_FNANPPAGLIF_OFFSET UNITYSDK_OFFSET(0xB63AAF0)
-#define LDLCIEJKBNH_GOPDCOOEBBA_OFFSET UNITYSDK_OFFSET(0xB638FB0)
-#define LDLCIEJKBNH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB637B20)
-#define LDLCIEJKBNH_HDBCOLDGNEI_OFFSET UNITYSDK_OFFSET(0xB638870)
-#define LDLCIEJKBNH_INCHKLCPAOD_OFFSET UNITYSDK_OFFSET(0xB637470)
-#define LDLCIEJKBNH_JIJNOPCPOEF_OFFSET UNITYSDK_OFFSET(0xB639B70)
-#define LDLCIEJKBNH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB6389D0)
-#define LDLCIEJKBNH_JLIMIJFLOPO_OFFSET UNITYSDK_OFFSET(0xB63A0F0)
-#define LDLCIEJKBNH_KBMDPKFIHIH_1_OFFSET UNITYSDK_OFFSET(0xB63C3D0)
-#define LDLCIEJKBNH_KBMDPKFIHIH_OFFSET UNITYSDK_OFFSET(0xB63B860)
-#define LDLCIEJKBNH_LGAAPOLJIMK_OFFSET UNITYSDK_OFFSET(0xB637460)
-#define LDLCIEJKBNH_LMDNLMIAEAP_OFFSET UNITYSDK_OFFSET(0xB63BA50)
-#define LDLCIEJKBNH_LPOBAPPMDAM_OFFSET UNITYSDK_OFFSET(0xB63A790)
-#define LDLCIEJKBNH_NJMOCEKCJPK_OFFSET UNITYSDK_OFFSET(0xB638C60)
-#define LDLCIEJKBNH_NMDDHCFBDMN_OFFSET UNITYSDK_OFFSET(0xB63B150)
-#define LDLCIEJKBNH_OBFHLCLHHFN_OFFSET UNITYSDK_OFFSET(0xB63C470)
-#define LDLCIEJKBNH_OCJHFIOFDIA_OFFSET UNITYSDK_OFFSET(0xB639E40)
-#define LDLCIEJKBNH_OHLPNMKCIFI_OFFSET UNITYSDK_OFFSET(0xB63B290)
-#define LDLCIEJKBNH_OIPCIGEEIHL_OFFSET UNITYSDK_OFFSET(0xB639780)
+#define LDLCIEJKBNH_APBDACELPEF_OFFSET UNITYSDK_OFFSET(0xBECEC70)
+#define LDLCIEJKBNH_BEIPHHKFHCK_OFFSET UNITYSDK_OFFSET(0xBED1A60)
+#define LDLCIEJKBNH_BGEBEKMJIPD_OFFSET UNITYSDK_OFFSET(0xBECE2C0)
+#define LDLCIEJKBNH_CPNEMOBKHEL_OFFSET UNITYSDK_OFFSET(0xBED08A0)
+#define LDLCIEJKBNH_CTOR_OFFSET UNITYSDK_OFFSET(0xBECCDF0)
+#define LDLCIEJKBNH_DPKGMOFJDPG_OFFSET UNITYSDK_OFFSET(0xBED0CA0)
+#define LDLCIEJKBNH_FNANPPAGLIF_OFFSET UNITYSDK_OFFSET(0xBED0390)
+#define LDLCIEJKBNH_GOPDCOOEBBA_OFFSET UNITYSDK_OFFSET(0xBECE850)
+#define LDLCIEJKBNH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBECD400)
+#define LDLCIEJKBNH_HDBCOLDGNEI_OFFSET UNITYSDK_OFFSET(0xBECE110)
+#define LDLCIEJKBNH_INCHKLCPAOD_OFFSET UNITYSDK_OFFSET(0xBECCD90)
+#define LDLCIEJKBNH_JIJNOPCPOEF_OFFSET UNITYSDK_OFFSET(0xBECF410)
+#define LDLCIEJKBNH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBECE270)
+#define LDLCIEJKBNH_JLIMIJFLOPO_OFFSET UNITYSDK_OFFSET(0xBECF990)
+#define LDLCIEJKBNH_KBMDPKFIHIH_1_OFFSET UNITYSDK_OFFSET(0xBED1C70)
+#define LDLCIEJKBNH_KBMDPKFIHIH_OFFSET UNITYSDK_OFFSET(0xBED1100)
+#define LDLCIEJKBNH_LGAAPOLJIMK_OFFSET UNITYSDK_OFFSET(0xBECCD80)
+#define LDLCIEJKBNH_LMDNLMIAEAP_OFFSET UNITYSDK_OFFSET(0xBED12F0)
+#define LDLCIEJKBNH_LPOBAPPMDAM_OFFSET UNITYSDK_OFFSET(0xBED0030)
+#define LDLCIEJKBNH_NJMOCEKCJPK_OFFSET UNITYSDK_OFFSET(0xBECE500)
+#define LDLCIEJKBNH_NMDDHCFBDMN_OFFSET UNITYSDK_OFFSET(0xBED09F0)
+#define LDLCIEJKBNH_OBFHLCLHHFN_OFFSET UNITYSDK_OFFSET(0xBED1D10)
+#define LDLCIEJKBNH_OCJHFIOFDIA_OFFSET UNITYSDK_OFFSET(0xBECF6E0)
+#define LDLCIEJKBNH_OHLPNMKCIFI_OFFSET UNITYSDK_OFFSET(0xBED0B30)
+#define LDLCIEJKBNH_OIPCIGEEIHL_OFFSET UNITYSDK_OFFSET(0xBECF020)
 
-inline static constexpr unsigned int LDLCIEJKBNH_TypeDefinitionIndex = 77810;
+inline static constexpr unsigned int LDLCIEJKBNH_TypeDefinitionIndex = 80545;
 
 	class LDLCIEJKBNH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* GGLCDLGHDLL; // 0x10
-		::KHNIAFDBHCD* HMKJADKFFEF; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::LinkedListNode_1<::RPG::Client::MonoEffect*>*>* CGHPJDOGGAG; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>*>* NKDNNHIPHFF; // 0x28
-		::OMNJCDDMLHI* FKINCGODJEP; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* AJKKAKMLHND; // 0x38
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MonoEffect*, ::System::UInt32>* IJEJEGFJACH; // 0x40
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::RPG::GameCore::ChenLingBattleEffectConfig*, ::System::Int32>>* AHDCNHCPKAP; // 0x48
-		::System::Collections::Generic::List_1<::System::UInt32>* GIFBCMHFGFM; // 0x50
-		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::HashSet_1<::RPG::Client::MonoEffect*>*>* DJKCDMJGLIP; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::LittleGame::ChenLing::ChenLingEffectRemoveReason>* MOPAAKDPILE; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::Int32, ::System::String*>>* JFMJKAGKGPC; // 0x68
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TriggerEffectParamsRef>* NEBGLFDCODO; // 0x70
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::System::Int32, ::System::String*>>* JFMJKAGKGPC; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::HashSet_1<::System::UInt32>*>* AJKKAKMLHND; // 0x18
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MonoEffect*, ::System::UInt32>* IJEJEGFJACH; // 0x20
+		::KHNIAFDBHCD* HMKJADKFFEF; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::LinkedListNode_1<::RPG::Client::MonoEffect*>*>* CGHPJDOGGAG; // 0x30
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::LittleGame::ChenLing::ChenLingEffectRemoveReason>* MOPAAKDPILE; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::ValueTuple_2<::RPG::GameCore::ChenLingBattleEffectConfig*, ::System::Int32>>* AHDCNHCPKAP; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::HashSet_1<::RPG::Client::MonoEffect*>*>* DJKCDMJGLIP; // 0x48
+		::System::Collections::Generic::List_1<::System::UInt32>* GGLCDLGHDLL; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::TriggerEffectParamsRef>* NEBGLFDCODO; // 0x58
+		::OMNJCDDMLHI* FKINCGODJEP; // 0x60
+		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::String*>, ::System::Collections::Generic::LinkedList_1<::RPG::Client::MonoEffect*>*>* NKDNNHIPHFF; // 0x68
+		::System::Collections::Generic::List_1<::System::UInt32>* GIFBCMHFGFM; // 0x70
 		::System::Boolean PPIGLCIEIIM; // 0x78
 		::System::Void _ctor(::OMNJCDDMLHI* a1)
 		{

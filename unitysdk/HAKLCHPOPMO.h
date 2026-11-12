@@ -7,24 +7,24 @@ namespace RPG::GameCore { class AdvPlayerPushDownProp; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HAKLCHPOPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B83F40)
-#define HAKLCHPOPMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B840E0)
-#define HAKLCHPOPMO_KNACEGNPDCP_OFFSET UNITYSDK_OFFSET(0x15B84CD0)
-#define HAKLCHPOPMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B84410)
-#define HAKLCHPOPMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B842C0)
-#define HAKLCHPOPMO_TICK_OFFSET UNITYSDK_OFFSET(0x15B84B20)
+#define HAKLCHPOPMO_CTOR_OFFSET UNITYSDK_OFFSET(0x16B0A8A0)
+#define HAKLCHPOPMO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16B0AA40)
+#define HAKLCHPOPMO_KNACEGNPDCP_OFFSET UNITYSDK_OFFSET(0x16B0B570)
+#define HAKLCHPOPMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B0AD70)
+#define HAKLCHPOPMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16B0AC20)
+#define HAKLCHPOPMO_TICK_OFFSET UNITYSDK_OFFSET(0x16B0B480)
 
-inline static constexpr unsigned int HAKLCHPOPMO_TypeDefinitionIndex = 52471;
+inline static constexpr unsigned int HAKLCHPOPMO_TypeDefinitionIndex = 53577;
 
 	class HAKLCHPOPMO : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* CFOKAIEGBNK; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::AdvPlayerPushDownProp* OFKGLJOAMLD; // 0x28
-		::RPG::GameCore::TaskContext* DMNHJGOOGLI; // 0x30
-		::KFELGAIGHAP* HGJBJGOLLCM; // 0x38
-		::RPG::Client::Prop::MonoPushDownObject* FJNPGFOCEIK; // 0x40
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::KFELGAIGHAP* CFOKAIEGBNK; // 0x20
+		::KFELGAIGHAP* HGJBJGOLLCM; // 0x28
+		::RPG::Client::Prop::MonoPushDownObject* FJNPGFOCEIK; // 0x30
+		::RPG::GameCore::TaskContext* DMNHJGOOGLI; // 0x38
+		::RPG::GameCore::AdvPlayerPushDownProp* OFKGLJOAMLD; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvPlayerPushDownProp* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvPlayerPushDownProp*))((::PBYTE)hIl2Cpp + HAKLCHPOPMO_CTOR_OFFSET))(this, a1, a2);

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleMainsubKillSealScore; }
 
-#define RPG_GAMECORE_MARBLEMAINSUBKILLSEALSCORE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D840050)
-#define RPG_GAMECORE_MARBLEMAINSUBKILLSEALSCORE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D83FEF0)
+#define RPG_GAMECORE_MARBLEMAINSUBKILLSEALSCORE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5AA40)
+#define RPG_GAMECORE_MARBLEMAINSUBKILLSEALSCORE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA5A8E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleMainsubKillSealScore_TypeDefinitionIndex = 18930;
+	inline static constexpr unsigned int MarbleMainsubKillSealScore_TypeDefinitionIndex = 19117;
 
 	class MarbleMainsubKillSealScore : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,11 +5,11 @@ namespace RPG::GameCore { class ByCheckCharacterDie; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPCENMOOIGE_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF9830)
-#define DPCENMOOIGE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FF9910)
-#define DPCENMOOIGE_FEJKOHFHHNN_OFFSET UNITYSDK_OFFSET(0x11FF9B10)
+#define DPCENMOOIGE_CTOR_OFFSET UNITYSDK_OFFSET(0x12DF4BD0)
+#define DPCENMOOIGE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12DF4CB0)
+#define DPCENMOOIGE_FEJKOHFHHNN_OFFSET UNITYSDK_OFFSET(0x12DF4EA0)
 
-inline static constexpr unsigned int DPCENMOOIGE_TypeDefinitionIndex = 57967;
+inline static constexpr unsigned int DPCENMOOIGE_TypeDefinitionIndex = 59205;
 
 	class DPCENMOOIGE
 	{

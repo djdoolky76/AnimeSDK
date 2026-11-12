@@ -6,9 +6,9 @@ namespace RPG::Client { class CameraModuleConfigCollection; }
 namespace RPG::Client { class PipelineCameraEngine; }
 namespace RPG::Client { class PipelineCameraGlobalConfig; }
 
-#define EFMIDMBKAJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x13A5D380)
+#define EFMIDMBKAJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1481F6C0)
 
-inline static constexpr unsigned int EFMIDMBKAJJ_TypeDefinitionIndex = 69743;
+inline static constexpr unsigned int EFMIDMBKAJJ_TypeDefinitionIndex = 71700;
 
 	class EFMIDMBKAJJ : public ::ELALAHMNKGK
 	{

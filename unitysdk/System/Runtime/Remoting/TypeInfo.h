@@ -5,9 +5,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x1C30B910)
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2FA9E0)
-#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1C30B900)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_CANCASTTO_OFFSET UNITYSDK_OFFSET(0x1D492450)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D481500)
+#define SYSTEM_RUNTIME_REMOTING_TYPEINFO_GET_TYPENAME_OFFSET UNITYSDK_OFFSET(0x1D492440)
 
 namespace System::Runtime::Remoting
 {
@@ -17,8 +17,8 @@ namespace System::Runtime::Remoting
 	{
 	public:
 		::Il2CppArray<::System::String*>* interfacesImplemented; // 0x10
-		::Il2CppArray<::System::String*>* serverHierarchy; // 0x18
-		::System::String* serverType; // 0x20
+		::System::String* serverType; // 0x18
+		::Il2CppArray<::System::String*>* serverHierarchy; // 0x20
 		::System::Void _ctor(::System::Type* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + SYSTEM_RUNTIME_REMOTING_TYPEINFO_CTOR_OFFSET))(this, a1);

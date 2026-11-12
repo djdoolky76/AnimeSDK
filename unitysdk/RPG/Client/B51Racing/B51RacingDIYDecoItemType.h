@@ -3,7 +3,7 @@
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingDIYDecoItemType_TypeDefinitionIndex = 81991;
+	inline static constexpr unsigned int B51RacingDIYDecoItemType_TypeDefinitionIndex = 84772;
 
 	enum class B51RacingDIYDecoItemType : ::System::Int32
 	{

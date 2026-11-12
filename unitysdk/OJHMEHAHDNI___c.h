@@ -5,35 +5,35 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define OJHMEHAHDNI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEB9E00)
-#define OJHMEHAHDNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB9E30)
-#define OJHMEHAHDNI___C__SENDINITREQUEST_B__30_0_OFFSET UNITYSDK_OFFSET(0xBEB9F20)
-#define OJHMEHAHDNI___C___REQUESTSTARTMATCHANDBEGIN_B__16_1_OFFSET UNITYSDK_OFFSET(0xBEB9EB0)
-#define OJHMEHAHDNI___C___REQUESTSTARTMATCHANDBEGIN_B__16_3_OFFSET UNITYSDK_OFFSET(0xBEB9E40)
+#define OJHMEHAHDNI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC7B1480)
+#define OJHMEHAHDNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B14B0)
+#define OJHMEHAHDNI___C__SENDINITREQUEST_B__30_0_OFFSET UNITYSDK_OFFSET(0xC7B15A0)
+#define OJHMEHAHDNI___C___REQUESTSTARTMATCHANDBEGIN_B__16_1_OFFSET UNITYSDK_OFFSET(0xC7B1530)
+#define OJHMEHAHDNI___C___REQUESTSTARTMATCHANDBEGIN_B__16_3_OFFSET UNITYSDK_OFFSET(0xC7B14C0)
 
-inline static constexpr unsigned int OJHMEHAHDNI___c_TypeDefinitionIndex = 81731;
+inline static constexpr unsigned int OJHMEHAHDNI___c_TypeDefinitionIndex = 84512;
 
 	class OJHMEHAHDNI___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__30_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54780);
-		}
-
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__16_3()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54788);
-		}
-
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__16_1()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54790);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x561F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54798);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x561F8);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__16_3()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56200);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__16_1()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56208);
 		}
 
 		static ::System::Void _cctor()

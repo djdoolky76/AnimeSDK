@@ -7,17 +7,17 @@ class BJHMBGLPOLB;
 class OOCCBMLAELL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JGPEMHHOJBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A7A80)
+#define JGPEMHHOJBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C7470)
 
-inline static constexpr unsigned int JGPEMHHOJBH_TypeDefinitionIndex = 80539;
+inline static constexpr unsigned int JGPEMHHOJBH_TypeDefinitionIndex = 83319;
 
 	class JGPEMHHOJBH : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::BJHMBGLPOLB*>* PIBKHIILLLF; // 0x10
 		::OOCCBMLAELL* ELIMDKMMGBO; // 0x18
-		::RPG::GameCore::FateRinCardPileType CHPHAMGMKBO; // 0x20
-		::RPG::GameCore::FateRinCardPileType CCFDOHBOHMG; // 0x22
+		::RPG::GameCore::FateRinCardPileType CCFDOHBOHMG; // 0x20
+		::RPG::GameCore::FateRinCardPileType CHPHAMGMKBO; // 0x22
 		::RPG::Client::FateRin::BattleAddCardReason KDHPKOFLNFM; // 0x24
 		::System::Void _ctor(::OOCCBMLAELL* a1, ::System::Collections::Generic::List_1<::BJHMBGLPOLB*>* a2, ::RPG::GameCore::FateRinCardPileType a3, ::RPG::GameCore::FateRinCardPileType a4, ::RPG::Client::FateRin::BattleAddCardReason a5)
 		{

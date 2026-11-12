@@ -8,24 +8,24 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KPOBNILOOKO_AEEKJMLKKLH_OFFSET UNITYSDK_OFFSET(0xB5CF460)
-#define KPOBNILOOKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CFB50)
-#define KPOBNILOOKO_FPJOIGNNIAB_OFFSET UNITYSDK_OFFSET(0xB5CEC50)
-#define KPOBNILOOKO_HPNKDJDJMLN_OFFSET UNITYSDK_OFFSET(0xB5CF9B0)
-#define KPOBNILOOKO_ONINIT_OFFSET UNITYSDK_OFFSET(0xB5CEB10)
-#define KPOBNILOOKO_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xB5CEB50)
-#define KPOBNILOOKO_PEJIBJMDHPH_OFFSET UNITYSDK_OFFSET(0xB5CF780)
+#define KPOBNILOOKO_AEEKJMLKKLH_OFFSET UNITYSDK_OFFSET(0xBE23D30)
+#define KPOBNILOOKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE24420)
+#define KPOBNILOOKO_FPJOIGNNIAB_OFFSET UNITYSDK_OFFSET(0xBE23520)
+#define KPOBNILOOKO_HPNKDJDJMLN_OFFSET UNITYSDK_OFFSET(0xBE24280)
+#define KPOBNILOOKO_ONINIT_OFFSET UNITYSDK_OFFSET(0xBE233E0)
+#define KPOBNILOOKO_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xBE23420)
+#define KPOBNILOOKO_PEJIBJMDHPH_OFFSET UNITYSDK_OFFSET(0xBE24050)
 
-inline static constexpr unsigned int KPOBNILOOKO_TypeDefinitionIndex = 73338;
+inline static constexpr unsigned int KPOBNILOOKO_TypeDefinitionIndex = 75455;
 
 	class KPOBNILOOKO : public ::HBCMHADMLOP
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* JBJEHKEBCJI; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>* FCBNHELBMMM; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* HHAAOGJBFHD; // 0x30
-		::System::Boolean IMLAADIJHMD; // 0x38
-		::System::Boolean AINFEIKOOAA; // 0x39
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>* FCBNHELBMMM; // 0x20
+		::System::Collections::Generic::List_1<::RPG::GameCore::GameEntity*>* HHAAOGJBFHD; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* JBJEHKEBCJI; // 0x30
+		::System::Boolean AINFEIKOOAA; // 0x38
+		::System::Boolean IMLAADIJHMD; // 0x39
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KPOBNILOOKO_CTOR_OFFSET))(this);

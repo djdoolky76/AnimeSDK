@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class GridFightWaitDragRole; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AHNLKBOKIEN_BLBGBLLHDAB_OFFSET UNITYSDK_OFFSET(0xEB88E10)
-#define AHNLKBOKIEN_CTOR_OFFSET UNITYSDK_OFFSET(0xEB88760)
-#define AHNLKBOKIEN_KOHOGMCJHBH_OFFSET UNITYSDK_OFFSET(0xEB88770)
-#define AHNLKBOKIEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB88890)
-#define AHNLKBOKIEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB88D70)
+#define AHNLKBOKIEN_BLBGBLLHDAB_OFFSET UNITYSDK_OFFSET(0xF148A60)
+#define AHNLKBOKIEN_CTOR_OFFSET UNITYSDK_OFFSET(0xF1483B0)
+#define AHNLKBOKIEN_KOHOGMCJHBH_OFFSET UNITYSDK_OFFSET(0xF1483C0)
+#define AHNLKBOKIEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF1484E0)
+#define AHNLKBOKIEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF1489C0)
 
-inline static constexpr unsigned int AHNLKBOKIEN_TypeDefinitionIndex = 53592;
+inline static constexpr unsigned int AHNLKBOKIEN_TypeDefinitionIndex = 54756;
 
 	class AHNLKBOKIEN : public ::CMMNJAMJJCN
 	{
 	public:
-		::RPG::GameCore::GridFightWaitDragRole* IGHAHBNLIJA; // 0x28
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x30
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
+		::RPG::GameCore::GridFightWaitDragRole* IGHAHBNLIJA; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GridFightWaitDragRole* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::GridFightWaitDragRole*))((::PBYTE)hIl2Cpp + AHNLKBOKIEN_CTOR_OFFSET))(this, a1, a2);

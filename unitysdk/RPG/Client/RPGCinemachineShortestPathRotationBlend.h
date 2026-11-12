@@ -5,12 +5,12 @@
 #include "unitysdk/Cinemachine/CameraState.h"
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define RPG_CLIENT_RPGCINEMACHINESHORTESTPATHROTATIONBLEND_CTOR_OFFSET UNITYSDK_OFFSET(0xDE18F80)
-#define RPG_CLIENT_RPGCINEMACHINESHORTESTPATHROTATIONBLEND_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xDE18F10)
+#define RPG_CLIENT_RPGCINEMACHINESHORTESTPATHROTATIONBLEND_CTOR_OFFSET UNITYSDK_OFFSET(0xE87E4F0)
+#define RPG_CLIENT_RPGCINEMACHINESHORTESTPATHROTATIONBLEND_POSTPIPELINESTAGECALLBACK_OFFSET UNITYSDK_OFFSET(0xE87E480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RPGCinemachineShortestPathRotationBlend_TypeDefinitionIndex = 69705;
+	inline static constexpr unsigned int RPGCinemachineShortestPathRotationBlend_TypeDefinitionIndex = 71662;
 
 	class RPGCinemachineShortestPathRotationBlend : public ::Cinemachine::CinemachineExtension
 	{

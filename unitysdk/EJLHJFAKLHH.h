@@ -3,17 +3,17 @@
 #include "unitysdk/RPG/GameCore/TurnBasedModifierEventScope.h"
 #include "unitysdk/System/Object.h"
 
-#define EJLHJFAKLHH_CCTOR_OFFSET UNITYSDK_OFFSET(0x154E2390)
-#define EJLHJFAKLHH_JMFGJFOAJFG_OFFSET UNITYSDK_OFFSET(0x154E23C0)
+#define EJLHJFAKLHH_CCTOR_OFFSET UNITYSDK_OFFSET(0x16429D60)
+#define EJLHJFAKLHH_JMFGJFOAJFG_OFFSET UNITYSDK_OFFSET(0x16429D90)
 
-inline static constexpr unsigned int EJLHJFAKLHH_TypeDefinitionIndex = 55824;
+inline static constexpr unsigned int EJLHJFAKLHH_TypeDefinitionIndex = 57027;
 
 	class EJLHJFAKLHH : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::RPG::GameCore::TurnBasedModifierEventScope>** StaticGet_NOAMHEEOGHP()
 		{
-			return (::Il2CppArray<::RPG::GameCore::TurnBasedModifierEventScope>**)UnitySDK::FromName("", "EJLHJFAKLHH")->GetStaticField(0x3CAF0);
+			return (::Il2CppArray<::RPG::GameCore::TurnBasedModifierEventScope>**)UnitySDK::FromName("", "EJLHJFAKLHH")->GetStaticField(0x1D900);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarDetailTabRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARDETAILTABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D412280)
-#define RPG_GAMECORE_AVATARDETAILTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D411C40)
+#define RPG_GAMECORE_AVATARDETAILTABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E632490)
+#define RPG_GAMECORE_AVATARDETAILTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E631E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarDetailTabRow_TypeDefinitionIndex = 12765;
+	inline static constexpr unsigned int AvatarDetailTabRow_TypeDefinitionIndex = 12835;
 
 	class AvatarDetailTabRow : public ::System::Object
 	{

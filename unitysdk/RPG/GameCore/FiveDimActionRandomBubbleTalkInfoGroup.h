@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimActionBubbleTalkInfo; }
 namespace RPG::GameCore { class FiveDimActionRandomBubbleTalkInfoGroup; }
 
-#define RPG_GAMECORE_FIVEDIMACTIONRANDOMBUBBLETALKINFOGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ADCA0)
-#define RPG_GAMECORE_FIVEDIMACTIONRANDOMBUBBLETALKINFOGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6ADB60)
+#define RPG_GAMECORE_FIVEDIMACTIONRANDOMBUBBLETALKINFOGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8BA670)
+#define RPG_GAMECORE_FIVEDIMACTIONRANDOMBUBBLETALKINFOGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8BA530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimActionRandomBubbleTalkInfoGroup_TypeDefinitionIndex = 18775;
+	inline static constexpr unsigned int FiveDimActionRandomBubbleTalkInfoGroup_TypeDefinitionIndex = 18936;
 
 	class FiveDimActionRandomBubbleTalkInfoGroup : public ::RPG::GameCore::JsonConfig
 	{

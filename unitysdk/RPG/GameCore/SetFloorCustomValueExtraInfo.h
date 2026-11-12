@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetFloorCustomValueExtraInfo; }
 
-#define RPG_GAMECORE_SETFLOORCUSTOMVALUEEXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB4330)
-#define RPG_GAMECORE_SETFLOORCUSTOMVALUEEXTRAINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAB3770)
+#define RPG_GAMECORE_SETFLOORCUSTOMVALUEEXTRAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC6540)
+#define RPG_GAMECORE_SETFLOORCUSTOMVALUEEXTRAINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC5980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetFloorCustomValueExtraInfo_TypeDefinitionIndex = 20689;
+	inline static constexpr unsigned int SetFloorCustomValueExtraInfo_TypeDefinitionIndex = 21026;
 
 	class SetFloorCustomValueExtraInfo : public ::RPG::GameCore::JsonConfig
 	{

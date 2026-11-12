@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WorkNode_Promise_1_TypeDefinitionIndex = 61072;
+	inline static constexpr unsigned int WorkNode_Promise_1_TypeDefinitionIndex = 62457;
 
 	template <typename T>
 	class WorkNode_Promise_1

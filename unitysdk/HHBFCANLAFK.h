@@ -3,10 +3,10 @@
 class EJLGLHKDMAI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHBFCANLAFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB4370)
-#define HHBFCANLAFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CB43A0)
+#define HHBFCANLAFK_CTOR_OFFSET UNITYSDK_OFFSET(0x16C00280)
+#define HHBFCANLAFK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C002B0)
 
-inline static constexpr unsigned int HHBFCANLAFK_TypeDefinitionIndex = 53297;
+inline static constexpr unsigned int HHBFCANLAFK_TypeDefinitionIndex = 54459;
 
 	class HHBFCANLAFK
 	{

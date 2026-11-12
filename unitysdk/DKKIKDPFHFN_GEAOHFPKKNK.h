@@ -8,7 +8,7 @@ namespace System { class IDisposable; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int DKKIKDPFHFN_GEAOHFPKKNK_TypeDefinitionIndex = 50008;
+inline static constexpr unsigned int DKKIKDPFHFN_GEAOHFPKKNK_TypeDefinitionIndex = 51056;
 
 	class DKKIKDPFHFN_GEAOHFPKKNK : public ::System::Object
 	{

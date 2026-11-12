@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StateTreeSelectStateConfig; }
 
-#define RPG_GAMECORE_STATETREESELECTSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB1F5C0)
-#define RPG_GAMECORE_STATETREESELECTSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB1F4C0)
+#define RPG_GAMECORE_STATETREESELECTSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED31000)
+#define RPG_GAMECORE_STATETREESELECTSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED30F00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StateTreeSelectStateConfig_TypeDefinitionIndex = 15496;
+	inline static constexpr unsigned int StateTreeSelectStateConfig_TypeDefinitionIndex = 15654;
 
 	class StateTreeSelectStateConfig : public ::RPG::GameCore::JsonConfig
 	{

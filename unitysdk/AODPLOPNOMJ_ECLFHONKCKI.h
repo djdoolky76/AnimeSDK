@@ -3,7 +3,7 @@
 #include "unitysdk/FBMOHEFENME_OLAPONLEDAK.h"
 namespace RPG::GameCore { class BattleInstance; }
 
-inline static constexpr unsigned int AODPLOPNOMJ_ECLFHONKCKI_TypeDefinitionIndex = 72231;
+inline static constexpr unsigned int AODPLOPNOMJ_ECLFHONKCKI_TypeDefinitionIndex = 74298;
 
 	struct alignas(8) AODPLOPNOMJ_ECLFHONKCKI
 	{

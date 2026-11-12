@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicJson; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TravelShipArriveTo; }
 
-#define RPG_GAMECORE_TRAVELSHIPARRIVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3BAB0)
-#define RPG_GAMECORE_TRAVELSHIPARRIVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC3BB00)
-#define RPG_GAMECORE_TRAVELSHIPARRIVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC3BA40)
+#define RPG_GAMECORE_TRAVELSHIPARRIVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4ED70)
+#define RPG_GAMECORE_TRAVELSHIPARRIVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE4EDC0)
+#define RPG_GAMECORE_TRAVELSHIPARRIVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE4ED00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelShipArriveTo_TypeDefinitionIndex = 20974;
+	inline static constexpr unsigned int TravelShipArriveTo_TypeDefinitionIndex = 21312;
 
 	class TravelShipArriveTo : public ::RPG::GameCore::TaskConfig
 	{

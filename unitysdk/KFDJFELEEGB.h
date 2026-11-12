@@ -5,10 +5,10 @@
 class OBFCJHPPJFE;
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifierProvider_1; }
 
-#define KFDJFELEEGB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB395180)
-#define KFDJFELEEGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB395230)
+#define KFDJFELEEGB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC21B70)
+#define KFDJFELEEGB_CTOR_OFFSET UNITYSDK_OFFSET(0xBC21C20)
 
-inline static constexpr unsigned int KFDJFELEEGB_TypeDefinitionIndex = 62618;
+inline static constexpr unsigned int KFDJFELEEGB_TypeDefinitionIndex = 64042;
 
 	class KFDJFELEEGB : public ::System::Object
 	{

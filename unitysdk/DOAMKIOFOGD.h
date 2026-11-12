@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RemoveDitherGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DOAMKIOFOGD_CTOR_OFFSET UNITYSDK_OFFSET(0x11FDC960)
-#define DOAMKIOFOGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FDC970)
-#define DOAMKIOFOGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FDC9B0)
-#define DOAMKIOFOGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FDCA70)
-#define DOAMKIOFOGD_TICK_OFFSET UNITYSDK_OFFSET(0x11FDCAC0)
+#define DOAMKIOFOGD_CTOR_OFFSET UNITYSDK_OFFSET(0x12DD5E40)
+#define DOAMKIOFOGD_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DD5E50)
+#define DOAMKIOFOGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DD5E90)
+#define DOAMKIOFOGD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12DD5F50)
+#define DOAMKIOFOGD_TICK_OFFSET UNITYSDK_OFFSET(0x12DD5FA0)
 
-inline static constexpr unsigned int DOAMKIOFOGD_TypeDefinitionIndex = 53869;
+inline static constexpr unsigned int DOAMKIOFOGD_TypeDefinitionIndex = 55033;
 
 	class DOAMKIOFOGD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::RemoveDitherGroup* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::RemoveDitherGroup* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RemoveDitherGroup* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RemoveDitherGroup*))((::PBYTE)hIl2Cpp + DOAMKIOFOGD_CTOR_OFFSET))(this, a1, a2);

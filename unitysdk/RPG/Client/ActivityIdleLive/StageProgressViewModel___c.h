@@ -5,31 +5,31 @@ namespace RPG::Client { class BaseGameFlow; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC51DC40)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC51DC80)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___ENTERNEXTNODESTANDALONE_B__69_0_OFFSET UNITYSDK_OFFSET(0xC51DCD0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___REENTERCURNODESTANDALONE_B__68_0_OFFSET UNITYSDK_OFFSET(0xC51DC90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE5B900)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE5B940)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___ENTERNEXTNODESTANDALONE_B__69_0_OFFSET UNITYSDK_OFFSET(0xCE5B990)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_STAGEPROGRESSVIEWMODEL___C___REENTERCURNODESTANDALONE_B__68_0_OFFSET UNITYSDK_OFFSET(0xCE5B950)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int StageProgressViewModel___c_TypeDefinitionIndex = 75443;
+	inline static constexpr unsigned int StageProgressViewModel___c_TypeDefinitionIndex = 77770;
 
 	class StageProgressViewModel___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::RPG::Client::BaseGameFlow*>** StaticGet___9__68_0()
-		{
-			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x2EE00);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x2EE08);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x27280);
 		}
 
 		static ::System::Action_1<::RPG::Client::BaseGameFlow*>** StaticGet___9__69_0()
 		{
-			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x2EE10);
+			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x27288);
+		}
+
+		static ::System::Action_1<::RPG::Client::BaseGameFlow*>** StaticGet___9__68_0()
+		{
+			return (::System::Action_1<::RPG::Client::BaseGameFlow*>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x27290);
 		}
 
 		static ::System::Void _cctor()

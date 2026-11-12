@@ -9,12 +9,12 @@ namespace RPG::GameCore { class LevelGroupMissionConditionSet; }
 namespace RPG::GameCore { class LevelGroupSystemUnlockConditionSet; }
 namespace RPG::GameCore { class RtLevelGroupInstanceCommonInfo; }
 
-#define RPG_GAMECORE_RTLEVELGROUPINSTANCECOMMONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA61030)
-#define RPG_GAMECORE_RTLEVELGROUPINSTANCECOMMONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA60CF0)
+#define RPG_GAMECORE_RTLEVELGROUPINSTANCECOMMONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC73620)
+#define RPG_GAMECORE_RTLEVELGROUPINSTANCECOMMONINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC732E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLevelGroupInstanceCommonInfo_TypeDefinitionIndex = 17346;
+	inline static constexpr unsigned int RtLevelGroupInstanceCommonInfo_TypeDefinitionIndex = 17514;
 
 	class RtLevelGroupInstanceCommonInfo : public ::RPG::GameCore::JsonConfig
 	{

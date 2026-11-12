@@ -4,20 +4,20 @@
 namespace Proto { class MissionCustomValueSnapshotList; }
 namespace System { class Object; }
 
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E004610)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E004650)
-#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E004660)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2D4A60)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D4AA0)
+#define PROTO_MISSIONCUSTOMVALUESNAPSHOTLIST___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F2D4AB0)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MissionCustomValueSnapshotList___c_TypeDefinitionIndex = 25833;
+	inline static constexpr unsigned int MissionCustomValueSnapshotList___c_TypeDefinitionIndex = 26330;
 
 	class MissionCustomValueSnapshotList___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43DE0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x50A40);
 		}
 
 		static ::System::Void _cctor()

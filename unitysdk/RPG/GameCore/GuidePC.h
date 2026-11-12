@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GuidePC; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GUIDEPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74EC00)
-#define RPG_GAMECORE_GUIDEPC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74E860)
+#define RPG_GAMECORE_GUIDEPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E962670)
+#define RPG_GAMECORE_GUIDEPC_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9622D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuidePC_TypeDefinitionIndex = 24336;
+	inline static constexpr unsigned int GuidePC_TypeDefinitionIndex = 24795;
 
 	class GuidePC : public ::RPG::GameCore::JsonConfig
 	{

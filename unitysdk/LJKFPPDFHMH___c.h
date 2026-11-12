@@ -4,18 +4,18 @@
 class LJKFPPDFHMH;
 namespace System { class Object; }
 
-#define LJKFPPDFHMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9859A0)
-#define LJKFPPDFHMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9859E0)
-#define LJKFPPDFHMH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9859F0)
+#define LJKFPPDFHMH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCA72F0)
+#define LJKFPPDFHMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCA7330)
+#define LJKFPPDFHMH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FCA7340)
 
-inline static constexpr unsigned int LJKFPPDFHMH___c_TypeDefinitionIndex = 30197;
+inline static constexpr unsigned int LJKFPPDFHMH___c_TypeDefinitionIndex = 31095;
 
 	class LJKFPPDFHMH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48C50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39BB0);
 		}
 
 		static ::System::Void _cctor()

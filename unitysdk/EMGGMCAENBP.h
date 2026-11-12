@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EMGGMCAENBP_CTOR_OFFSET UNITYSDK_OFFSET(0x15537160)
-#define EMGGMCAENBP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x15537120)
-#define EMGGMCAENBP_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x15537140)
-#define EMGGMCAENBP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x15537130)
-#define EMGGMCAENBP_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x15537150)
+#define EMGGMCAENBP_CTOR_OFFSET UNITYSDK_OFFSET(0x164838F0)
+#define EMGGMCAENBP_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x164838B0)
+#define EMGGMCAENBP_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x164838D0)
+#define EMGGMCAENBP_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x164838C0)
+#define EMGGMCAENBP_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x164838E0)
 
-inline static constexpr unsigned int EMGGMCAENBP_TypeDefinitionIndex = 74591;
+inline static constexpr unsigned int EMGGMCAENBP_TypeDefinitionIndex = 76739;
 
 	class EMGGMCAENBP : public ::System::Object
 	{
 	public:
-		::System::UInt32 _InstanceID_k__BackingField; // 0x10
-		::System::UInt32 _GroupID_k__BackingField; // 0x14
+		::System::UInt32 _GroupID_k__BackingField; // 0x10
+		::System::UInt32 _InstanceID_k__BackingField; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EMGGMCAENBP_CTOR_OFFSET))(this);

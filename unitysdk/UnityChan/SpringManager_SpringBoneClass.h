@@ -5,11 +5,11 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Transform; }
 
-#define UNITYCHAN_SPRINGMANAGER_SPRINGBONECLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xE9EB760)
+#define UNITYCHAN_SPRINGMANAGER_SPRINGBONECLASS_CTOR_OFFSET UNITYSDK_OFFSET(0xF5017B0)
 
 namespace UnityChan
 {
-	inline static constexpr unsigned int SpringManager_SpringBoneClass_TypeDefinitionIndex = 47698;
+	inline static constexpr unsigned int SpringManager_SpringBoneClass_TypeDefinitionIndex = 48728;
 
 	class SpringManager_SpringBoneClass : public ::System::Object
 	{

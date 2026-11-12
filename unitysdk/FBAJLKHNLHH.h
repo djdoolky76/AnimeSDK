@@ -3,13 +3,13 @@
 #include "unitysdk/FMPCODLIOLG.h"
 namespace UnityEngine { class Animator; }
 
-#define FBAJLKHNLHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1568E5F0)
-#define FBAJLKHNLHH_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x1568E380)
-#define FBAJLKHNLHH_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0x1568E430)
-#define FBAJLKHNLHH_MPGLJNHHKDF_OFFSET UNITYSDK_OFFSET(0x1568E540)
-#define FBAJLKHNLHH__ONBIND_OFFSET UNITYSDK_OFFSET(0x1568E320)
+#define FBAJLKHNLHH_CTOR_OFFSET UNITYSDK_OFFSET(0x165A2890)
+#define FBAJLKHNLHH_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0x165A26D0)
+#define FBAJLKHNLHH_MPGLJNHHKDF_OFFSET UNITYSDK_OFFSET(0x165A27E0)
+#define FBAJLKHNLHH__ONBIND_OFFSET UNITYSDK_OFFSET(0x165A2570)
+#define FBAJLKHNLHH__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x165A2620)
 
-inline static constexpr unsigned int FBAJLKHNLHH_TypeDefinitionIndex = 71820;
+inline static constexpr unsigned int FBAJLKHNLHH_TypeDefinitionIndex = 73841;
 
 	class FBAJLKHNLHH : public ::FMPCODLIOLG
 	{
@@ -28,9 +28,9 @@ inline static constexpr unsigned int FBAJLKHNLHH_TypeDefinitionIndex = 71820;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBAJLKHNLHH__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBAJLKHNLHH_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBAJLKHNLHH__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void JJBGNJFCHPL(::System::Boolean a1)

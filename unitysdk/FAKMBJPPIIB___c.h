@@ -4,18 +4,18 @@
 class FAKMBJPPIIB;
 namespace System { class Object; }
 
-#define FAKMBJPPIIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E328920)
-#define FAKMBJPPIIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E328960)
-#define FAKMBJPPIIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E328970)
+#define FAKMBJPPIIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F60E200)
+#define FAKMBJPPIIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F60E240)
+#define FAKMBJPPIIB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F60E250)
 
-inline static constexpr unsigned int FAKMBJPPIIB___c_TypeDefinitionIndex = 27464;
+inline static constexpr unsigned int FAKMBJPPIIB___c_TypeDefinitionIndex = 27995;
 
 	class FAKMBJPPIIB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58560);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55940);
 		}
 
 		static ::System::Void _cctor()

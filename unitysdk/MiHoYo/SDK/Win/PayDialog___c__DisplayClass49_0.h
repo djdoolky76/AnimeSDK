@@ -5,12 +5,12 @@
 namespace MiHoYo::SDK { class JSONNode; }
 namespace MiHoYo::SDK::Win { class PayDialog; }
 
-#define MIHOYO_SDK_WIN_PAYDIALOG___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDC9880)
-#define MIHOYO_SDK_WIN_PAYDIALOG___C__DISPLAYCLASS49_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1BDCC450)
+#define MIHOYO_SDK_WIN_PAYDIALOG___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF51DF0)
+#define MIHOYO_SDK_WIN_PAYDIALOG___C__DISPLAYCLASS49_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0x1CF549C0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayDialog___c__DisplayClass49_0_TypeDefinitionIndex = 9557;
+	inline static constexpr unsigned int PayDialog___c__DisplayClass49_0_TypeDefinitionIndex = 9565;
 
 	class PayDialog___c__DisplayClass49_0 : public ::System::Object
 	{

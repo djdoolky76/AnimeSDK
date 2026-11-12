@@ -10,28 +10,28 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define DDJAAKLBKAG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4DF0D0)
-#define DDJAAKLBKAG_GET_ATTRIBUTE1_OFFSET UNITYSDK_OFFSET(0xE4DF070)
-#define DDJAAKLBKAG_GET_ATTRIBUTE2_OFFSET UNITYSDK_OFFSET(0xE4DF090)
-#define DDJAAKLBKAG_GET_EXITCOMMAND_OFFSET UNITYSDK_OFFSET(0xE4DF0C0)
-#define DDJAAKLBKAG_GET_HASANYTRAIT_OFFSET UNITYSDK_OFFSET(0xE4DF0A0)
-#define DDJAAKLBKAG_GET_HASATLEASTONEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xE4DF060)
-#define DDJAAKLBKAG_GET_HASATLEASTTWOATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xE4DF080)
-#define DDJAAKLBKAG_GET_TRAITSTEXT_OFFSET UNITYSDK_OFFSET(0xE4DF0B0)
-#define DDJAAKLBKAG_HLNPCKOBGBA_OFFSET UNITYSDK_OFFSET(0xE4DF9E0)
+#define DDJAAKLBKAG_CTOR_OFFSET UNITYSDK_OFFSET(0xEE26170)
+#define DDJAAKLBKAG_GET_ATTRIBUTE1_OFFSET UNITYSDK_OFFSET(0xEE26110)
+#define DDJAAKLBKAG_GET_ATTRIBUTE2_OFFSET UNITYSDK_OFFSET(0xEE26130)
+#define DDJAAKLBKAG_GET_EXITCOMMAND_OFFSET UNITYSDK_OFFSET(0xEE26160)
+#define DDJAAKLBKAG_GET_HASANYTRAIT_OFFSET UNITYSDK_OFFSET(0xEE26140)
+#define DDJAAKLBKAG_GET_HASATLEASTONEATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xEE26100)
+#define DDJAAKLBKAG_GET_HASATLEASTTWOATTRIBUTE_OFFSET UNITYSDK_OFFSET(0xEE26120)
+#define DDJAAKLBKAG_GET_TRAITSTEXT_OFFSET UNITYSDK_OFFSET(0xEE26150)
+#define DDJAAKLBKAG_HLNPCKOBGBA_OFFSET UNITYSDK_OFFSET(0xEE26A80)
 
-inline static constexpr unsigned int DDJAAKLBKAG_TypeDefinitionIndex = 79595;
+inline static constexpr unsigned int DDJAAKLBKAG_TypeDefinitionIndex = 82372;
 
 	class DDJAAKLBKAG : public ::System::Object
 	{
 	public:
-		::R3::Observable_1<::System::Boolean>* _HasAtLeastTwoAttribute_k__BackingField; // 0x10
-		::R3::Observable_1<::System::Boolean>* _HasAtLeastOneAttribute_k__BackingField; // 0x18
+		::ACHNEAMCCEC* _Attribute1_k__BackingField; // 0x10
+		::R3::Observable_1<::System::Boolean>* _HasAtLeastTwoAttribute_k__BackingField; // 0x18
 		::R3::Observable_1<::System::String*>* _TraitsText_k__BackingField; // 0x20
-		::CEEGMMCFCBG* _ExitCommand_k__BackingField; // 0x28
-		::R3::Observable_1<::System::Boolean>* _HasAnyTrait_k__BackingField; // 0x30
+		::R3::Observable_1<::System::Boolean>* _HasAnyTrait_k__BackingField; // 0x28
+		::CEEGMMCFCBG* _ExitCommand_k__BackingField; // 0x30
 		::ACHNEAMCCEC* _Attribute2_k__BackingField; // 0x38
-		::ACHNEAMCCEC* _Attribute1_k__BackingField; // 0x40
+		::R3::Observable_1<::System::Boolean>* _HasAtLeastOneAttribute_k__BackingField; // 0x40
 		::System::Void _ctor(::BICOIIAPJKC* a1, ::System::Action* a2, ::System::Collections::Generic::IReadOnlyList_1<::ACHNEAMCCEC*>* a3, ::System::Collections::Generic::IReadOnlyList_1<::FKLECLLJCEH*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::BICOIIAPJKC*, ::System::Action*, ::System::Collections::Generic::IReadOnlyList_1<::ACHNEAMCCEC*>*, ::System::Collections::Generic::IReadOnlyList_1<::FKLECLLJCEH*>*))((::PBYTE)hIl2Cpp + DDJAAKLBKAG_CTOR_OFFSET))(this, a1, a2, a3, a4);

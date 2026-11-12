@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class BOHBPAKJGCK;
 
-#define BOHBPAKJGCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC191280)
-#define BOHBPAKJGCK_CTOR_OFFSET UNITYSDK_OFFSET(0xC191330)
+#define BOHBPAKJGCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC7712D0)
+#define BOHBPAKJGCK_CTOR_OFFSET UNITYSDK_OFFSET(0xC771380)
 
-inline static constexpr unsigned int BOHBPAKJGCK_TypeDefinitionIndex = 79402;
+inline static constexpr unsigned int BOHBPAKJGCK_TypeDefinitionIndex = 82179;
 
 	class BOHBPAKJGCK : public ::System::Object
 	{

@@ -6,19 +6,19 @@ namespace RPG::Client { class LocalizedText; }
 namespace RPG::Client { class UIValueChangeAnimation; }
 namespace UnityEngine::UI { class Image; }
 
-#define OCKEFINEJCD_CTOR_OFFSET UNITYSDK_OFFSET(0xBD6F530)
-#define OCKEFINEJCD_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0xBD6F160)
-#define OCKEFINEJCD_MDOFPEBJCKA_OFFSET UNITYSDK_OFFSET(0xBD6F440)
-#define OCKEFINEJCD_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBD6F250)
-#define OCKEFINEJCD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBD6F0A0)
+#define OCKEFINEJCD_CTOR_OFFSET UNITYSDK_OFFSET(0xC6743D0)
+#define OCKEFINEJCD_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0xC674000)
+#define OCKEFINEJCD_MDOFPEBJCKA_OFFSET UNITYSDK_OFFSET(0xC6742E0)
+#define OCKEFINEJCD_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC6740F0)
+#define OCKEFINEJCD__ONBIND_OFFSET UNITYSDK_OFFSET(0xC673E10)
 
-inline static constexpr unsigned int OCKEFINEJCD_TypeDefinitionIndex = 71600;
+inline static constexpr unsigned int OCKEFINEJCD_TypeDefinitionIndex = 73588;
 
 	class OCKEFINEJCD : public ::FMPCODLIOLG
 	{
 	public:
-		::RPG::Client::UIValueChangeAnimation* CGJKPIEFBKB; // 0x60
-		::RPG::Client::LocalizedText* PKANBKHJHNP; // 0x68
+		::RPG::Client::LocalizedText* PKANBKHJHNP; // 0x60
+		::RPG::Client::UIValueChangeAnimation* CGJKPIEFBKB; // 0x68
 		::UnityEngine::UI::Image* JLHDCKNHDJH; // 0x70
 		::System::Boolean IDBEBIDMHME; // 0x78
 		::System::Void _ctor()

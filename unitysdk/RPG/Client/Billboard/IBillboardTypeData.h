@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Billboard
 {
-	inline static constexpr unsigned int IBillboardTypeData_TypeDefinitionIndex = 74978;
+	inline static constexpr unsigned int IBillboardTypeData_TypeDefinitionIndex = 77305;
 
 	class IBillboardTypeData
 	{

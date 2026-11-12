@@ -6,19 +6,19 @@ class INFDNKHJDPP;
 class PJPPGJEDCOG;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define JNBEDKMHFMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB276BB0)
-#define JNBEDKMHFMN_GET_AVAILABLECHIPMOLDS_OFFSET UNITYSDK_OFFSET(0xB276C20)
-#define JNBEDKMHFMN_GET_FILTERSESSION_OFFSET UNITYSDK_OFFSET(0xB276C30)
-#define JNBEDKMHFMN_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0xB276C10)
+#define JNBEDKMHFMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA1F80)
+#define JNBEDKMHFMN_GET_AVAILABLECHIPMOLDS_OFFSET UNITYSDK_OFFSET(0xBAA1FF0)
+#define JNBEDKMHFMN_GET_FILTERSESSION_OFFSET UNITYSDK_OFFSET(0xBAA2000)
+#define JNBEDKMHFMN_GET_REQUIREMENTCONFIG_OFFSET UNITYSDK_OFFSET(0xBAA1FE0)
 
-inline static constexpr unsigned int JNBEDKMHFMN_TypeDefinitionIndex = 79529;
+inline static constexpr unsigned int JNBEDKMHFMN_TypeDefinitionIndex = 82306;
 
 	class JNBEDKMHFMN : public ::System::Object
 	{
 	public:
-		::PJPPGJEDCOG* _RequirementConfig_k__BackingField; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::CHGHIALKMFM*>* _AvailableChipMolds_k__BackingField; // 0x18
-		::INFDNKHJDPP* _FilterSession_k__BackingField; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::CHGHIALKMFM*>* _AvailableChipMolds_k__BackingField; // 0x10
+		::INFDNKHJDPP* _FilterSession_k__BackingField; // 0x18
+		::PJPPGJEDCOG* _RequirementConfig_k__BackingField; // 0x20
 		::System::Void _ctor(::PJPPGJEDCOG* a1, ::System::Collections::Generic::IReadOnlyList_1<::CHGHIALKMFM*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::PJPPGJEDCOG*, ::System::Collections::Generic::IReadOnlyList_1<::CHGHIALKMFM*>*))((::PBYTE)hIl2Cpp + JNBEDKMHFMN_CTOR_OFFSET))(this, a1, a2);

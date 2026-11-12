@@ -6,23 +6,23 @@ class BDEOLCNPBPP;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LOADPICBEPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7F1D10)
-#define LOADPICBEPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7F1D50)
-#define LOADPICBEPE___C___ONPLAYERFINISH_B__32_0_OFFSET UNITYSDK_OFFSET(0xB7F1D60)
+#define LOADPICBEPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC051180)
+#define LOADPICBEPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC0511C0)
+#define LOADPICBEPE___C___ONPLAYERFINISH_B__32_0_OFFSET UNITYSDK_OFFSET(0xC0511D0)
 
-inline static constexpr unsigned int LOADPICBEPE___c_TypeDefinitionIndex = 74209;
+inline static constexpr unsigned int LOADPICBEPE___c_TypeDefinitionIndex = 76357;
 
 	class LOADPICBEPE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CBE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A8F0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::BDEOLCNPBPP*>** StaticGet___9__32_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::BDEOLCNPBPP*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CBE8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::BDEOLCNPBPP*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A8F8);
 		}
 
 		static ::System::Void _cctor()

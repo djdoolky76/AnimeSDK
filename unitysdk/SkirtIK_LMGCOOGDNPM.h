@@ -4,21 +4,21 @@
 class SkirtIK;
 namespace UnityEngine { class MonoBehaviour; }
 
-#define SKIRTIK_LMGCOOGDNPM_COPYTO_OFFSET UNITYSDK_OFFSET(0xE972E30)
-#define SKIRTIK_LMGCOOGDNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xE969C50)
-#define SKIRTIK_LMGCOOGDNPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE972EF0)
+#define SKIRTIK_LMGCOOGDNPM_COPYTO_OFFSET UNITYSDK_OFFSET(0xF490B20)
+#define SKIRTIK_LMGCOOGDNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xF488420)
+#define SKIRTIK_LMGCOOGDNPM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF490BD0)
 
-inline static constexpr unsigned int SkirtIK_LMGCOOGDNPM_TypeDefinitionIndex = 47251;
+inline static constexpr unsigned int SkirtIK_LMGCOOGDNPM_TypeDefinitionIndex = 48279;
 
 	class SkirtIK_LMGCOOGDNPM : public ::System::Object
 	{
 	public:
-		::System::Single FKPKPNKHGLP; // 0x10
-		::System::Single EKGOPHADBMP; // 0x14
-		::System::Single GOGHLCLFIDM; // 0x18
-		::System::Single GJJFGBGAKKN; // 0x1C
-		::System::Single NMMCJAFDNPG; // 0x20
-		::System::Single OEHIALMOMPN; // 0x24
+		::System::Single EKGOPHADBMP; // 0x10
+		::System::Single OEHIALMOMPN; // 0x14
+		::System::Single FKPKPNKHGLP; // 0x18
+		::System::Single NMMCJAFDNPG; // 0x1C
+		::System::Single GOGHLCLFIDM; // 0x20
+		::System::Single GJJFGBGAKKN; // 0x24
 		::System::Void _ctor(::SkirtIK* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::SkirtIK*))((::PBYTE)hIl2Cpp + SKIRTIK_LMGCOOGDNPM_CTOR_OFFSET))(this, a1);

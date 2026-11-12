@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int EffectHideReason_TypeDefinitionIndex = 42404;
+	inline static constexpr unsigned int EffectHideReason_TypeDefinitionIndex = 43379;
 
 	enum class EffectHideReason : ::System::Int32
 	{

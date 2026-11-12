@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class HEKOMMJCPJF;
 namespace System { class String; }
 
-#define HEKOMMJCPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE9B500)
-#define HEKOMMJCPJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9B3D0)
+#define HEKOMMJCPJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E078260)
+#define HEKOMMJCPJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E078130)
 
-inline static constexpr unsigned int HEKOMMJCPJF_TypeDefinitionIndex = 23201;
+inline static constexpr unsigned int HEKOMMJCPJF_TypeDefinitionIndex = 23632;
 
 	class HEKOMMJCPJF : public ::RPG::GameCore::JsonConfig
 	{

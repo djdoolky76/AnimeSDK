@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvTeamLeader; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NADIACFLGAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA56710)
-#define NADIACFLGAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA56760)
+#define NADIACFLGAO_CTOR_OFFSET UNITYSDK_OFFSET(0xC319840)
+#define NADIACFLGAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC319890)
 
-inline static constexpr unsigned int NADIACFLGAO_TypeDefinitionIndex = 59081;
+inline static constexpr unsigned int NADIACFLGAO_TypeDefinitionIndex = 60356;
 
 	class NADIACFLGAO
 	{

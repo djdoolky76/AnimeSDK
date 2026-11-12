@@ -4,7 +4,7 @@ namespace R3 { template <typename T> class ConnectedReactiveProperty_1; }
 
 namespace R3
 {
-	inline static constexpr unsigned int ConnectedReactiveProperty_1_Observer_TypeDefinitionIndex = 35965;
+	inline static constexpr unsigned int ConnectedReactiveProperty_1_Observer_TypeDefinitionIndex = 36893;
 
 	template <typename T>
 	class ConnectedReactiveProperty_1_Observer

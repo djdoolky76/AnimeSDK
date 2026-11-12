@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Ray.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GIJGAKKAKGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A3E530)
-#define GIJGAKKAKGK_FBEFKEMJHGG_OFFSET UNITYSDK_OFFSET(0x15A3E1B0)
+#define GIJGAKKAKGK_CTOR_OFFSET UNITYSDK_OFFSET(0x16979530)
+#define GIJGAKKAKGK_FBEFKEMJHGG_OFFSET UNITYSDK_OFFSET(0x169791B0)
 
-inline static constexpr unsigned int GIJGAKKAKGK_TypeDefinitionIndex = 74121;
+inline static constexpr unsigned int GIJGAKKAKGK_TypeDefinitionIndex = 76269;
 
 	class GIJGAKKAKGK : public ::System::Object
 	{

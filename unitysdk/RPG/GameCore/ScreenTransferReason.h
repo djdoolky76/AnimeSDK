@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ScreenTransferReason_TypeDefinitionIndex = 24783;
+	inline static constexpr unsigned int ScreenTransferReason_TypeDefinitionIndex = 25263;
 
 	enum class ScreenTransferReason : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCEndGameRewardRow; }
 
-#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C0B30)
-#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9C09F0)
+#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC0A290)
+#define RPG_GAMECORE_ROGUEDLCENDGAMEREWARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC0A150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCEndGameRewardRow_TypeDefinitionIndex = 14801;
+	inline static constexpr unsigned int RogueDLCEndGameRewardRow_TypeDefinitionIndex = 14957;
 
 	class RogueDLCEndGameRewardRow : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OEOAMBFMNIB;
 
-#define KPHIAKENOAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90B9B0)
+#define KPHIAKENOAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB7BF0)
 
-inline static constexpr unsigned int KPHIAKENOAA_TypeDefinitionIndex = 43239;
+inline static constexpr unsigned int KPHIAKENOAA_TypeDefinitionIndex = 44220;
 
 	class KPHIAKENOAA : public ::System::Object
 	{

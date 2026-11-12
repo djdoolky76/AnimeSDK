@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvPauseTickValue; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVPAUSETICKVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AA4E0)
-#define RPG_GAMECORE_ADVPAUSETICKVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3AA520)
-#define RPG_GAMECORE_ADVPAUSETICKVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AA480)
+#define RPG_GAMECORE_ADVPAUSETICKVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B9A90)
+#define RPG_GAMECORE_ADVPAUSETICKVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B9AD0)
+#define RPG_GAMECORE_ADVPAUSETICKVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B9A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPauseTickValue_TypeDefinitionIndex = 21025;
+	inline static constexpr unsigned int AdvPauseTickValue_TypeDefinitionIndex = 21363;
 
 	class AdvPauseTickValue : public ::RPG::GameCore::TaskConfig
 	{

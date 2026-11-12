@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
-#define JKPNKNCHGOD_APPLY_OFFSET UNITYSDK_OFFSET(0xB22EB00)
-#define JKPNKNCHGOD_COMBINE_OFFSET UNITYSDK_OFFSET(0xB22ECB0)
-#define JKPNKNCHGOD_CTOR_OFFSET UNITYSDK_OFFSET(0xB22EAF0)
-#define JKPNKNCHGOD_RESET_OFFSET UNITYSDK_OFFSET(0xB22EE50)
+#define JKPNKNCHGOD_APPLY_OFFSET UNITYSDK_OFFSET(0xBA56D20)
+#define JKPNKNCHGOD_COMBINE_OFFSET UNITYSDK_OFFSET(0xBA56ED0)
+#define JKPNKNCHGOD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA56D10)
+#define JKPNKNCHGOD_RESET_OFFSET UNITYSDK_OFFSET(0xBA57070)
 
-inline static constexpr unsigned int JKPNKNCHGOD_TypeDefinitionIndex = 75118;
+inline static constexpr unsigned int JKPNKNCHGOD_TypeDefinitionIndex = 77445;
 
 	class JKPNKNCHGOD : public ::System::Object
 	{

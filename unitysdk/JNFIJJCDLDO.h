@@ -4,9 +4,9 @@
 class AJHPHMDACGG;
 class CPGHDGPPBJH;
 
-#define JNFIJJCDLDO_CTOR_OFFSET UNITYSDK_OFFSET(0xB27F0D0)
+#define JNFIJJCDLDO_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA92D0)
 
-inline static constexpr unsigned int JNFIJJCDLDO_TypeDefinitionIndex = 80559;
+inline static constexpr unsigned int JNFIJJCDLDO_TypeDefinitionIndex = 83339;
 
 	class JNFIJJCDLDO : public ::System::Object
 	{

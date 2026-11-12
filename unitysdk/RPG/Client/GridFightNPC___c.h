@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTNPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1C2360)
-#define RPG_CLIENT_GRIDFIGHTNPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C23A0)
-#define RPG_CLIENT_GRIDFIGHTNPC___C___ONEQUIPCOMPONENTCOLLECTIONCHANGED_B__29_0_OFFSET UNITYSDK_OFFSET(0xD1C23B0)
+#define RPG_CLIENT_GRIDFIGHTNPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC0CC50)
+#define RPG_CLIENT_GRIDFIGHTNPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC0CC90)
+#define RPG_CLIENT_GRIDFIGHTNPC___C___ONEQUIPCOMPONENTCOLLECTIONCHANGED_B__30_0_OFFSET UNITYSDK_OFFSET(0xDC0CCA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightNPC___c_TypeDefinitionIndex = 65063;
+	inline static constexpr unsigned int GridFightNPC___c_TypeDefinitionIndex = 66690;
 
 	class GridFightNPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DC90);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72D40);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>** StaticGet___9__29_0()
+		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DC98);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72D48);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC___C_CTOR_OFFSET))(this);
 		}
 
-		::System::UInt32 __OnEquipComponentCollectionChanged_b__29_0(::RPG::Client::GridFightEquipItemData* a1)
+		::System::UInt32 __OnEquipComponentCollectionChanged_b__30_0(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC___C___ONEQUIPCOMPONENTCOLLECTIONCHANGED_B__29_0_OFFSET))(this, a1);
+			return ((::System::UInt32(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTNPC___C___ONEQUIPCOMPONENTCOLLECTIONCHANGED_B__30_0_OFFSET))(this, a1);
 		}
 
 	};

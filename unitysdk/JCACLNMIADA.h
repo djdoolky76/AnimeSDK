@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define JCACLNMIADA_CTOR_OFFSET UNITYSDK_OFFSET(0x16577E40)
-#define JCACLNMIADA_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x16577C60)
-#define JCACLNMIADA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x16577CA0)
-#define JCACLNMIADA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x16577980)
-#define JCACLNMIADA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x16577990)
+#define JCACLNMIADA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8B1030)
+#define JCACLNMIADA_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB8B0E50)
+#define JCACLNMIADA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xB8B0E90)
+#define JCACLNMIADA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB8B0B70)
+#define JCACLNMIADA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB8B0B80)
 
-inline static constexpr unsigned int JCACLNMIADA_TypeDefinitionIndex = 56114;
+inline static constexpr unsigned int JCACLNMIADA_TypeDefinitionIndex = 57326;
 
 	class JCACLNMIADA : public ::DBGDNLLDPFI
 	{
 	public:
-		::System::String* CIDCEJCGOGB; // 0x10
+		::System::String* EOBLJJBOBIN; // 0x10
 		::System::String* CJLKMGHEIGC; // 0x18
-		::System::String* EOBLJJBOBIN; // 0x20
+		::System::String* CIDCEJCGOGB; // 0x20
 		::System::Byte JBCBONFABOM; // 0x28
 		::System::Byte _padding0[0x3];
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x2C
-		::System::Int32 KBAPBCNJHDB; // 0x30
+		::System::Int32 KBAPBCNJHDB; // 0x2C
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JCACLNMIADA_CTOR_OFFSET))(this);

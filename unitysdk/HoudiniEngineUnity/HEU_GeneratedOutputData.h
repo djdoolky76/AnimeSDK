@@ -7,12 +7,12 @@ namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 
-#define HOUDINIENGINEUNITY_HEU_GENERATEDOUTPUTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8F1340)
-#define HOUDINIENGINEUNITY_HEU_GENERATEDOUTPUTDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B8F7230)
+#define HOUDINIENGINEUNITY_HEU_GENERATEDOUTPUTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7A2A0)
+#define HOUDINIENGINEUNITY_HEU_GENERATEDOUTPUTDATA_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CA801A0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GeneratedOutputData_TypeDefinitionIndex = 40389;
+	inline static constexpr unsigned int HEU_GeneratedOutputData_TypeDefinitionIndex = 41364;
 
 	class HEU_GeneratedOutputData : public ::System::Object
 	{

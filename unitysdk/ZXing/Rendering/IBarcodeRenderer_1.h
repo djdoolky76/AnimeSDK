@@ -3,7 +3,7 @@
 
 namespace ZXing::Rendering
 {
-	inline static constexpr unsigned int IBarcodeRenderer_1_TypeDefinitionIndex = 6972;
+	inline static constexpr unsigned int IBarcodeRenderer_1_TypeDefinitionIndex = 6983;
 
 	template <typename T>
 	class IBarcodeRenderer_1

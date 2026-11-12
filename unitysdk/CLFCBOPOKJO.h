@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace System { class String; }
 
-#define CLFCBOPOKJO_CTOR_OFFSET UNITYSDK_OFFSET(0xD77BD40)
-#define CLFCBOPOKJO_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xD77BCF0)
+#define CLFCBOPOKJO_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B7550)
+#define CLFCBOPOKJO_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xE0B7500)
 
-inline static constexpr unsigned int CLFCBOPOKJO_TypeDefinitionIndex = 65299;
+inline static constexpr unsigned int CLFCBOPOKJO_TypeDefinitionIndex = 67066;
 
 	class CLFCBOPOKJO : public ::System::Object
 	{

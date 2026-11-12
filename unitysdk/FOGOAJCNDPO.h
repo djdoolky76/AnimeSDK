@@ -6,49 +6,49 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FOGOAJCNDPO_BEBANEHDCED_OFFSET UNITYSDK_OFFSET(0x158EA1B0)
-#define FOGOAJCNDPO_BMBMELBMAAI_OFFSET UNITYSDK_OFFSET(0x158EA730)
-#define FOGOAJCNDPO_CCTOR_OFFSET UNITYSDK_OFFSET(0x158EAB00)
-#define FOGOAJCNDPO_CTOR_OFFSET UNITYSDK_OFFSET(0x158EAAF0)
-#define FOGOAJCNDPO_EGOCJCIHOPL_OFFSET UNITYSDK_OFFSET(0x158EA260)
-#define FOGOAJCNDPO_FAKHOCIOGND_OFFSET UNITYSDK_OFFSET(0x158EA360)
-#define FOGOAJCNDPO_INEFHMKAPOD_OFFSET UNITYSDK_OFFSET(0x158E9480)
-#define FOGOAJCNDPO_JFLEEDBEGIB_OFFSET UNITYSDK_OFFSET(0x158EA860)
-#define FOGOAJCNDPO_KFJEEPEBLAB_OFFSET UNITYSDK_OFFSET(0x158EA3F0)
-#define FOGOAJCNDPO_KHFLODGGLDG_OFFSET UNITYSDK_OFFSET(0x158EA590)
-#define FOGOAJCNDPO_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x158E9400)
-#define FOGOAJCNDPO_LINNGFPLHNF_OFFSET UNITYSDK_OFFSET(0x158E9590)
-#define FOGOAJCNDPO_NHBIAIGAJBA_OFFSET UNITYSDK_OFFSET(0x158EA0F0)
-#define FOGOAJCNDPO_OLNLAGCNGAI_OFFSET UNITYSDK_OFFSET(0x158EA030)
+#define FOGOAJCNDPO_BEBANEHDCED_OFFSET UNITYSDK_OFFSET(0x16819010)
+#define FOGOAJCNDPO_BMBMELBMAAI_OFFSET UNITYSDK_OFFSET(0x16819590)
+#define FOGOAJCNDPO_CCTOR_OFFSET UNITYSDK_OFFSET(0x16819960)
+#define FOGOAJCNDPO_CTOR_OFFSET UNITYSDK_OFFSET(0x16819950)
+#define FOGOAJCNDPO_EGOCJCIHOPL_OFFSET UNITYSDK_OFFSET(0x168190C0)
+#define FOGOAJCNDPO_FAKHOCIOGND_OFFSET UNITYSDK_OFFSET(0x168191C0)
+#define FOGOAJCNDPO_INEFHMKAPOD_OFFSET UNITYSDK_OFFSET(0x168182E0)
+#define FOGOAJCNDPO_JFLEEDBEGIB_OFFSET UNITYSDK_OFFSET(0x168196C0)
+#define FOGOAJCNDPO_KFJEEPEBLAB_OFFSET UNITYSDK_OFFSET(0x16819250)
+#define FOGOAJCNDPO_KHFLODGGLDG_OFFSET UNITYSDK_OFFSET(0x168193F0)
+#define FOGOAJCNDPO_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x16818260)
+#define FOGOAJCNDPO_LINNGFPLHNF_OFFSET UNITYSDK_OFFSET(0x168183F0)
+#define FOGOAJCNDPO_NHBIAIGAJBA_OFFSET UNITYSDK_OFFSET(0x16818F50)
+#define FOGOAJCNDPO_OLNLAGCNGAI_OFFSET UNITYSDK_OFFSET(0x16818E90)
 
-inline static constexpr unsigned int FOGOAJCNDPO_TypeDefinitionIndex = 49092;
+inline static constexpr unsigned int FOGOAJCNDPO_TypeDefinitionIndex = 50168;
 
 	class FOGOAJCNDPO : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_JCGBLEAGAAO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x1B540);
+		}
+
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>** StaticGet_JLPNPPJIJPE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x24750);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x1B548);
 		}
 
 		static ::ScenenLightManager::SceneLightManagerConfigDataNew** StaticGet_EABKOHGCHFP()
 		{
-			return (::ScenenLightManager::SceneLightManagerConfigDataNew**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x24758);
+			return (::ScenenLightManager::SceneLightManagerConfigDataNew**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x1B550);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>** StaticGet_MJNHHIAGJBB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x24760);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>** StaticGet_JCGBLEAGAAO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x24768);
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Boolean>**)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x1B558);
 		}
 
 		static ::System::Boolean* StaticGet_CCAKCJBCOMJ()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x8020);
+			return (::System::Boolean*)UnitySDK::FromName("", "FOGOAJCNDPO")->GetStaticField(0x5A30);
 		}
 
 		::System::Void _ctor()

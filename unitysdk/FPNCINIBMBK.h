@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SyncAnimWithBgm; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPNCINIBMBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15921A30)
-#define FPNCINIBMBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15921A60)
+#define FPNCINIBMBK_CTOR_OFFSET UNITYSDK_OFFSET(0x16854D40)
+#define FPNCINIBMBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16854D70)
 
-inline static constexpr unsigned int FPNCINIBMBK_TypeDefinitionIndex = 56464;
+inline static constexpr unsigned int FPNCINIBMBK_TypeDefinitionIndex = 57684;
 
 	class FPNCINIBMBK
 	{

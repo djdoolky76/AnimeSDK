@@ -7,7 +7,7 @@ namespace System { class String; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-inline static constexpr unsigned int IBMCNLIKBKL_FCABNEADMPF_TypeDefinitionIndex = 82207;
+inline static constexpr unsigned int IBMCNLIKBKL_FCABNEADMPF_TypeDefinitionIndex = 85080;
 
 	struct alignas(8) IBMCNLIKBKL_FCABNEADMPF
 	{

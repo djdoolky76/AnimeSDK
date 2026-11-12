@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONPINCHACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x16755880)
+#define HEDGEHOGTEAM_EASYTOUCH_QUICKPINCH_ONPINCHACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x17599A80)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int QuickPinch_OnPinchAction_TypeDefinitionIndex = 40266;
+	inline static constexpr unsigned int QuickPinch_OnPinchAction_TypeDefinitionIndex = 41241;
 
 	class QuickPinch_OnPinchAction
 	{

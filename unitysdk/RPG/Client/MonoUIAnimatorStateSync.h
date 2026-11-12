@@ -6,13 +6,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define RPG_CLIENT_MONOUIANIMATORSTATESYNC_AWAKE_OFFSET UNITYSDK_OFFSET(0xD87A7F0)
-#define RPG_CLIENT_MONOUIANIMATORSTATESYNC_CTOR_OFFSET UNITYSDK_OFFSET(0xD87AC30)
-#define RPG_CLIENT_MONOUIANIMATORSTATESYNC_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD87A9F0)
+#define RPG_CLIENT_MONOUIANIMATORSTATESYNC_AWAKE_OFFSET UNITYSDK_OFFSET(0xE2CCD30)
+#define RPG_CLIENT_MONOUIANIMATORSTATESYNC_CTOR_OFFSET UNITYSDK_OFFSET(0xE2CD170)
+#define RPG_CLIENT_MONOUIANIMATORSTATESYNC_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE2CCF30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoUIAnimatorStateSync_TypeDefinitionIndex = 68972;
+	inline static constexpr unsigned int MonoUIAnimatorStateSync_TypeDefinitionIndex = 70925;
 
 	class MonoUIAnimatorStateSync : public ::UnityEngine::MonoBehaviour
 	{

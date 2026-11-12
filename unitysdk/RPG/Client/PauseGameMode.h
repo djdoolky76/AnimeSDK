@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PauseGameMode_TypeDefinitionIndex = 73042;
+	inline static constexpr unsigned int PauseGameMode_TypeDefinitionIndex = 75156;
 
 	enum class PauseGameMode : ::System::Int32
 	{

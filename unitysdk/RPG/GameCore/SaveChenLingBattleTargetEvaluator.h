@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class SaveChenLingBattleTargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA88090)
-#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA880A0)
-#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA88040)
+#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9A700)
+#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC9A710)
+#define RPG_GAMECORE_SAVECHENLINGBATTLETARGETEVALUATOR_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9A6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SaveChenLingBattleTargetEvaluator_TypeDefinitionIndex = 15776;
+	inline static constexpr unsigned int SaveChenLingBattleTargetEvaluator_TypeDefinitionIndex = 15934;
 
 	class SaveChenLingBattleTargetEvaluator : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{

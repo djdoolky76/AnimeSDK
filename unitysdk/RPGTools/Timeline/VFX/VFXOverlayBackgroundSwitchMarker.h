@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Timeline/Marker.h"
 namespace RPGTools::Timeline::VFX { class VFXOverlayCharacterBackgroundClip; }
 
-#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYBACKGROUNDSWITCHMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xE953200)
+#define RPGTOOLS_TIMELINE_VFX_VFXOVERLAYBACKGROUNDSWITCHMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xF471850)
 
 namespace RPGTools::Timeline::VFX
 {
-	inline static constexpr unsigned int VFXOverlayBackgroundSwitchMarker_TypeDefinitionIndex = 48665;
+	inline static constexpr unsigned int VFXOverlayBackgroundSwitchMarker_TypeDefinitionIndex = 49711;
 
 	class VFXOverlayBackgroundSwitchMarker : public ::UnityEngine::Timeline::Marker
 	{

@@ -5,20 +5,20 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class OpenMusicRhythmReadyPage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OIMGFBKNPHN_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA0DE0)
-#define OIMGFBKNPHN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEA0DF0)
-#define OIMGFBKNPHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA0E30)
-#define OIMGFBKNPHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEA1230)
-#define OIMGFBKNPHN_TICK_OFFSET UNITYSDK_OFFSET(0xBEA1280)
+#define OIMGFBKNPHN_CTOR_OFFSET UNITYSDK_OFFSET(0xC797160)
+#define OIMGFBKNPHN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC797170)
+#define OIMGFBKNPHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7971B0)
+#define OIMGFBKNPHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC7975B0)
+#define OIMGFBKNPHN_TICK_OFFSET UNITYSDK_OFFSET(0xC797600)
 
-inline static constexpr unsigned int OIMGFBKNPHN_TypeDefinitionIndex = 53038;
+inline static constexpr unsigned int OIMGFBKNPHN_TypeDefinitionIndex = 54198;
 
 	class OIMGFBKNPHN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::OpenMusicRhythmReadyPage* IGHAHBNLIJA; // 0x18
-		::RPG::Client::LuaUIController* NNHPFIOCJLN; // 0x20
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x28
+		::RPG::Client::LuaUIController* NNHPFIOCJLN; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::OpenMusicRhythmReadyPage* IGHAHBNLIJA; // 0x28
 		::System::Single PGMIOKKLHIE; // 0x30
 		::System::Boolean AKKBAEEOCPB; // 0x34
 		::System::Byte _padding0[0x3];

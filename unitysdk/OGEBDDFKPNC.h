@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OGEBDDFKPNC_AAOOIGKJNNI_OFFSET UNITYSDK_OFFSET(0x1C4CD970)
-#define OGEBDDFKPNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4CD980)
-#define OGEBDDFKPNC_FGDKCJPMBEG_OFFSET UNITYSDK_OFFSET(0x1C4CDB40)
-#define OGEBDDFKPNC_GCDOMBALANG_OFFSET UNITYSDK_OFFSET(0x1C4CDAD0)
+#define OGEBDDFKPNC_AAOOIGKJNNI_OFFSET UNITYSDK_OFFSET(0x1D650CF0)
+#define OGEBDDFKPNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D650D00)
+#define OGEBDDFKPNC_FGDKCJPMBEG_OFFSET UNITYSDK_OFFSET(0x1D650EA0)
+#define OGEBDDFKPNC_GCDOMBALANG_OFFSET UNITYSDK_OFFSET(0x1D650E30)
 
-inline static constexpr unsigned int OGEBDDFKPNC_TypeDefinitionIndex = 41506;
+inline static constexpr unsigned int OGEBDDFKPNC_TypeDefinitionIndex = 42481;
 
 	class OGEBDDFKPNC : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* MFMILOFFMAC; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* AKBFAFMNKDG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* AKBFAFMNKDG; // 0x10
+		::Il2CppArray<::System::String*>* MFMILOFFMAC; // 0x18
 		::System::Void _ctor(::Il2CppArray<::System::String*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::String*>*))((::PBYTE)hIl2Cpp + OGEBDDFKPNC_CTOR_OFFSET))(this, a1);

@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::Windows::OS::Channel { class BindManager; }
 namespace System { class Action; }
 
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS52_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE0EFF0)
-#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS52_0__SHOWPREBINDINGPROTOCOLDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1BE13790)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS52_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF97630)
+#define MIHOYO_SDK_WINDOWS_OS_CHANNEL_BINDMANAGER___C__DISPLAYCLASS52_0__SHOWPREBINDINGPROTOCOLDIALOG_B__0_OFFSET UNITYSDK_OFFSET(0x1CF9C220)
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
-	inline static constexpr unsigned int BindManager___c__DisplayClass52_0_TypeDefinitionIndex = 8366;
+	inline static constexpr unsigned int BindManager___c__DisplayClass52_0_TypeDefinitionIndex = 8375;
 
 	class BindManager___c__DisplayClass52_0 : public ::System::Object
 	{

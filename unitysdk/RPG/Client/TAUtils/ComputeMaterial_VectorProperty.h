@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_VECTORPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE18CC20)
+#define RPG_CLIENT_TAUTILS_COMPUTEMATERIAL_VECTORPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xEC3A0A0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int ComputeMaterial_VectorProperty_TypeDefinitionIndex = 73612;
+	inline static constexpr unsigned int ComputeMaterial_VectorProperty_TypeDefinitionIndex = 75735;
 
 	class ComputeMaterial_VectorProperty : public ::System::Object
 	{

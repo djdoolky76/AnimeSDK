@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BoomRobotGameplayTriggerStart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PEGODOPGFJB_CTOR_OFFSET UNITYSDK_OFFSET(0xC03DAF0)
-#define PEGODOPGFJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC03DB20)
+#define PEGODOPGFJB_CTOR_OFFSET UNITYSDK_OFFSET(0xC946F90)
+#define PEGODOPGFJB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC946FC0)
 
-inline static constexpr unsigned int PEGODOPGFJB_TypeDefinitionIndex = 52546;
+inline static constexpr unsigned int PEGODOPGFJB_TypeDefinitionIndex = 53652;
 
 	class PEGODOPGFJB
 	{

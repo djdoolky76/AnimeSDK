@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Text { class StringBuilder; }
+
+#define JBFAFOGGBCA_CTOR_OFFSET UNITYSDK_OFFSET(0x12B00)
+#define JBFAFOGGBCA_DECONSTRUCT_OFFSET UNITYSDK_OFFSET(0x12BE0)
+#define JBFAFOGGBCA_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x12BD0)
+#define JBFAFOGGBCA_EQUALS_OFFSET UNITYSDK_OFFSET(0x12B70)
+#define JBFAFOGGBCA_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x12B60)
+#define JBFAFOGGBCA_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xE600)
+#define JBFAFOGGBCA_GET_GLOBALBUFFSKILLID_OFFSET UNITYSDK_OFFSET(0x12B10)
+#define JBFAFOGGBCA_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0xB8A21F0)
+#define JBFAFOGGBCA_OP_INEQUALITY_OFFSET UNITYSDK_OFFSET(0xB8A21D0)
+#define JBFAFOGGBCA_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x12B40)
+#define JBFAFOGGBCA_SET_AVATARID_OFFSET UNITYSDK_OFFSET(0xAF40)
+#define JBFAFOGGBCA_SET_GLOBALBUFFSKILLID_OFFSET UNITYSDK_OFFSET(0x12B20)
+#define JBFAFOGGBCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x12B30)
+
+inline static constexpr unsigned int JBFAFOGGBCA_TypeDefinitionIndex = 53064;
+
+	struct alignas(4) JBFAFOGGBCA
+	{
+		::System::UInt32 _AvatarID_k__BackingField; // 0x10
+		::System::UInt32 _GlobalBuffSkillID_k__BackingField; // 0x14
+		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::UInt32 get_AvatarID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_GET_AVATARID_OFFSET))(this);
+		}
+
+		::System::Void set_AvatarID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_SET_AVATARID_OFFSET))(this, a1);
+		}
+
+		::System::UInt32 get_GlobalBuffSkillID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_GET_GLOBALBUFFSKILLID_OFFSET))(this);
+		}
+
+		::System::Void set_GlobalBuffSkillID(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_SET_GLOBALBUFFSKILLID_OFFSET))(this, a1);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Boolean PrintMembers(::System::Text::StringBuilder* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_PRINTMEMBERS_OFFSET))(this, a1);
+		}
+
+		/*
+		static ::System::Boolean op_Inequality(::JBFAFOGGBCA a1, ::JBFAFOGGBCA a2)
+		{
+			return ((::System::Boolean(*)(::JBFAFOGGBCA, ::JBFAFOGGBCA))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_OP_INEQUALITY_OFFSET))(a1, a2);
+		}
+		*/
+
+		/*
+		static ::System::Boolean op_Equality(::JBFAFOGGBCA a1, ::JBFAFOGGBCA a2)
+		{
+			return ((::System::Boolean(*)(::JBFAFOGGBCA, ::JBFAFOGGBCA))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_OP_EQUALITY_OFFSET))(a1, a2);
+		}
+		*/
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::Boolean Equals(::System::Object* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_EQUALS_OFFSET))(this, a1);
+		}
+
+		/*
+		::System::Boolean Equals_1(::JBFAFOGGBCA a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::JBFAFOGGBCA))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_EQUALS_1_OFFSET))(this, a1);
+		}
+		*/
+
+		::System::Void Deconstruct(::System::UInt32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + JBFAFOGGBCA_DECONSTRUCT_OFFSET))(this, a1, a2);
+		}
+
+	};

@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define KNOOGHJPPBL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB58AB20)
-#define KNOOGHJPPBL___C__DISPLAYCLASS11_0__ENUMERATESPECIFICPATHAVATARSBYROLE_B__0_OFFSET UNITYSDK_OFFSET(0xB58B540)
+#define KNOOGHJPPBL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDDD1C0)
+#define KNOOGHJPPBL___C__DISPLAYCLASS11_0__ENUMERATESPECIFICPATHAVATARSBYROLE_B__0_OFFSET UNITYSDK_OFFSET(0xBDDDBE0)
 
-inline static constexpr unsigned int KNOOGHJPPBL___c__DisplayClass11_0_TypeDefinitionIndex = 62673;
+inline static constexpr unsigned int KNOOGHJPPBL___c__DisplayClass11_0_TypeDefinitionIndex = 64107;
 
 	class KNOOGHJPPBL___c__DisplayClass11_0 : public ::System::Object
 	{

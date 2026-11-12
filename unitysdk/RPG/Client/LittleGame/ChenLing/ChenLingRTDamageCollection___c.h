@@ -5,25 +5,25 @@ namespace RPG::Client::LittleGame::ChenLing { class ChenLingRTDamageData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD40FC00)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD40FC40)
-#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION___C__REORDER_B__6_0_OFFSET UNITYSDK_OFFSET(0xD40FC50)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE62FC0)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE63000)
+#define RPG_CLIENT_LITTLEGAME_CHENLING_CHENLINGRTDAMAGECOLLECTION___C__REORDER_B__6_0_OFFSET UNITYSDK_OFFSET(0xDE63010)
 
 namespace RPG::Client::LittleGame::ChenLing
 {
-	inline static constexpr unsigned int ChenLingRTDamageCollection___c_TypeDefinitionIndex = 77832;
+	inline static constexpr unsigned int ChenLingRTDamageCollection___c_TypeDefinitionIndex = 80567;
 
 	class ChenLingRTDamageCollection___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLing", "<>c")->GetStaticField(0x2D1D0);
-		}
-
 		static ::System::Func_2<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*, ::System::Single>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*, ::System::Single>**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLing", "<>c")->GetStaticField(0x2D1D8);
+			return (::System::Func_2<::RPG::Client::LittleGame::ChenLing::ChenLingRTDamageData*, ::System::Single>**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLing", "<>c")->GetStaticField(0x34F50);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.ChenLing", "<>c")->GetStaticField(0x34F58);
 		}
 
 		static ::System::Void _cctor()

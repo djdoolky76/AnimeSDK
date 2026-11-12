@@ -3,9 +3,9 @@
 #include "unitysdk/Entitas/Systems.h"
 class MDOLOOKKHJM;
 
-#define FLAINONONFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C623110)
+#define FLAINONONFA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A4690)
 
-inline static constexpr unsigned int FLAINONONFA_TypeDefinitionIndex = 37193;
+inline static constexpr unsigned int FLAINONONFA_TypeDefinitionIndex = 38121;
 
 	class FLAINONONFA : public ::Entitas::Systems
 	{

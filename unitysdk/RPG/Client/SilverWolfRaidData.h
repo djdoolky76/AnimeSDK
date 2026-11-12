@@ -4,11 +4,11 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::Client { class SilverWolfImgPath; }
 
-#define RPG_CLIENT_SILVERWOLFRAIDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0C4E90)
+#define RPG_CLIENT_SILVERWOLFRAIDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB2ECC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SilverWolfRaidData_TypeDefinitionIndex = 67961;
+	inline static constexpr unsigned int SilverWolfRaidData_TypeDefinitionIndex = 69907;
 
 	class SilverWolfRaidData : public ::RPG::Client::SilverWolfBaseMissionData
 	{

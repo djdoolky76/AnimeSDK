@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ManualTriggerAnimEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAKIPNCAACE_CTOR_OFFSET UNITYSDK_OFFSET(0x15940BB0)
-#define GAKIPNCAACE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15940BE0)
+#define GAKIPNCAACE_CTOR_OFFSET UNITYSDK_OFFSET(0x16874BD0)
+#define GAKIPNCAACE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16874C00)
 
-inline static constexpr unsigned int GAKIPNCAACE_TypeDefinitionIndex = 55168;
+inline static constexpr unsigned int GAKIPNCAACE_TypeDefinitionIndex = 56349;
 
 	class GAKIPNCAACE
 	{

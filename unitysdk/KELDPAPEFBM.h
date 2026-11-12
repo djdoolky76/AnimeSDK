@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ApplyCacheCharacterAtlasFaceEmotion; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KELDPAPEFBM_CTOR_OFFSET UNITYSDK_OFFSET(0xB37C5C0)
-#define KELDPAPEFBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB37C5F0)
+#define KELDPAPEFBM_CTOR_OFFSET UNITYSDK_OFFSET(0xBC073D0)
+#define KELDPAPEFBM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC07400)
 
-inline static constexpr unsigned int KELDPAPEFBM_TypeDefinitionIndex = 56343;
+inline static constexpr unsigned int KELDPAPEFBM_TypeDefinitionIndex = 57557;
 
 	class KELDPAPEFBM
 	{

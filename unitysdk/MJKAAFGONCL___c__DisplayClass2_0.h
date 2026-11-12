@@ -4,10 +4,10 @@
 namespace RPG::Client { class GridFightRole; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 
-#define MJKAAFGONCL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB96E0E0)
-#define MJKAAFGONCL___C__DISPLAYCLASS2_0__GETROLE_B__0_OFFSET UNITYSDK_OFFSET(0xB96E450)
+#define MJKAAFGONCL___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2275B0)
+#define MJKAAFGONCL___C__DISPLAYCLASS2_0__GETROLE_B__0_OFFSET UNITYSDK_OFFSET(0xC227920)
 
-inline static constexpr unsigned int MJKAAFGONCL___c__DisplayClass2_0_TypeDefinitionIndex = 65504;
+inline static constexpr unsigned int MJKAAFGONCL___c__DisplayClass2_0_TypeDefinitionIndex = 67418;
 
 	class MJKAAFGONCL___c__DisplayClass2_0 : public ::System::Object
 	{

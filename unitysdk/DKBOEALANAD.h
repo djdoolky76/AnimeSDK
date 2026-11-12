@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class FiveDimGarbageBinBakedMoveConfig; }
 namespace UnityEngine { class BoxCollider; }
 
-#define DKBOEALANAD_OLCEGJIKDAL_OFFSET UNITYSDK_OFFSET(0xF2550C0)
+#define DKBOEALANAD_OLCEGJIKDAL_OFFSET UNITYSDK_OFFSET(0xFFD8410)
 
-inline static constexpr unsigned int DKBOEALANAD_TypeDefinitionIndex = 77178;
+inline static constexpr unsigned int DKBOEALANAD_TypeDefinitionIndex = 79512;
 
 	class DKBOEALANAD : public ::System::Object
 	{

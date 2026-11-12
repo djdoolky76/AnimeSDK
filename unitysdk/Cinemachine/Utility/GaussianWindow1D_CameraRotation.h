@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_CAMERAROTATION_COMPUTE_OFFSET UNITYSDK_OFFSET(0x166B0D70)
-#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_CAMERAROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x166B0D20)
+#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_CAMERAROTATION_COMPUTE_OFFSET UNITYSDK_OFFSET(0x174F5420)
+#define CINEMACHINE_UTILITY_GAUSSIANWINDOW1D_CAMERAROTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x174F53D0)
 
 namespace Cinemachine::Utility
 {
-	inline static constexpr unsigned int GaussianWindow1D_CameraRotation_TypeDefinitionIndex = 39891;
+	inline static constexpr unsigned int GaussianWindow1D_CameraRotation_TypeDefinitionIndex = 40820;
 
 	class GaussianWindow1D_CameraRotation
 	{

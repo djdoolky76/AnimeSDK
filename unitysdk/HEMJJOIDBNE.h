@@ -13,10 +13,10 @@ namespace RPG::GameCore { class RtCollision2DShapeConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define HEMJJOIDBNE_EHPNGOKGEBI_OFFSET UNITYSDK_OFFSET(0x15C5B340)
-#define HEMJJOIDBNE_OAEAMNGDKCO_OFFSET UNITYSDK_OFFSET(0x15C5B0E0)
+#define HEMJJOIDBNE_EHPNGOKGEBI_OFFSET UNITYSDK_OFFSET(0x16B9FDA0)
+#define HEMJJOIDBNE_OAEAMNGDKCO_OFFSET UNITYSDK_OFFSET(0x16B9FB40)
 
-inline static constexpr unsigned int HEMJJOIDBNE_TypeDefinitionIndex = 53980;
+inline static constexpr unsigned int HEMJJOIDBNE_TypeDefinitionIndex = 55144;
 
 	class HEMJJOIDBNE : public ::System::Object
 	{

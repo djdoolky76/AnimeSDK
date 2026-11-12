@@ -4,10 +4,10 @@
 #include "unitysdk/OPPEGLOCAGH_CCMBOGFDEII.h"
 namespace System { class String; }
 
-#define ENNBEKAJNEE___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x155B41D0)
-#define ENNBEKAJNEE___C__DISPLAYCLASS47_0__GETEFFECTPARAMS_B__0_OFFSET UNITYSDK_OFFSET(0x155B41E0)
+#define ENNBEKAJNEE___C__DISPLAYCLASS47_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164C4D50)
+#define ENNBEKAJNEE___C__DISPLAYCLASS47_0__GETEFFECTPARAMS_B__0_OFFSET UNITYSDK_OFFSET(0x164C4D60)
 
-inline static constexpr unsigned int ENNBEKAJNEE___c__DisplayClass47_0_TypeDefinitionIndex = 80118;
+inline static constexpr unsigned int ENNBEKAJNEE___c__DisplayClass47_0_TypeDefinitionIndex = 82895;
 
 	class ENNBEKAJNEE___c__DisplayClass47_0 : public ::System::Object
 	{

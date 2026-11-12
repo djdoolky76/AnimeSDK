@@ -7,11 +7,11 @@ class HILBLEPGKKJ;
 namespace RPG::GameCore { class MarbleTaskConfig; }
 namespace System { class String; }
 
-#define FABKHCPBKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC45A0)
-#define FABKHCPBKHL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDC45B0)
-#define FABKHCPBKHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC4550)
+#define FABKHCPBKHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9BD20)
+#define FABKHCPBKHL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF9BD30)
+#define FABKHCPBKHL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF9BCD0)
 
-inline static constexpr unsigned int FABKHCPBKHL_TypeDefinitionIndex = 16871;
+inline static constexpr unsigned int FABKHCPBKHL_TypeDefinitionIndex = 17038;
 
 	class FABKHCPBKHL : public ::RPG::GameCore::MarbleTaskConfig
 	{
@@ -19,9 +19,8 @@ inline static constexpr unsigned int FABKHCPBKHL_TypeDefinitionIndex = 16871;
 		::System::String* KICLGMCEMNH; // 0x10
 		::Il2CppArray<::RPG::GameCore::MarbleTaskConfig*>* DLHHFOLGFLP; // 0x18
 		::Il2CppArray<::HILBLEPGKKJ*>* HFPHJBGAJOJ; // 0x20
-		::System::Boolean HNMFDELHIEK; // 0x28
-		::System::Byte _padding0[0x3];
-		::System::Int32 KHFBFFHFOCA; // 0x2C
+		::System::Int32 KHFBFFHFOCA; // 0x28
+		::System::Boolean HNMFDELHIEK; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FABKHCPBKHL_CTOR_OFFSET))(this);

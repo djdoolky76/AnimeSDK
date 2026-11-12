@@ -7,60 +7,60 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine::Events { class UnityEvent; }
 namespace UnityEngine::UI { class Button; }
 
-#define JKMPIOCHLNN_BBCLHMBBDDA_OFFSET UNITYSDK_OFFSET(0xB2245B0)
-#define JKMPIOCHLNN_CCTOR_OFFSET UNITYSDK_OFFSET(0xB224D30)
-#define JKMPIOCHLNN_FKEOIGHNDEP_OFFSET UNITYSDK_OFFSET(0xB224CC0)
-#define JKMPIOCHLNN_FOOMGMGEJBN_OFFSET UNITYSDK_OFFSET(0xB224B70)
-#define JKMPIOCHLNN_JCBKKDMJPHD_OFFSET UNITYSDK_OFFSET(0xB224C70)
-#define JKMPIOCHLNN_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0xB224420)
-#define JKMPIOCHLNN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB224780)
-#define JKMPIOCHLNN_KKJABIJMMNG_OFFSET UNITYSDK_OFFSET(0xB224C20)
-#define JKMPIOCHLNN_NDCBHOKPKHG_OFFSET UNITYSDK_OFFSET(0xB2247E0)
-#define JKMPIOCHLNN_NKBDPMEPDHK_OFFSET UNITYSDK_OFFSET(0xB224BD0)
+#define JKMPIOCHLNN_BBCLHMBBDDA_OFFSET UNITYSDK_OFFSET(0xBA4CA50)
+#define JKMPIOCHLNN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA4D1D0)
+#define JKMPIOCHLNN_FKEOIGHNDEP_OFFSET UNITYSDK_OFFSET(0xBA4D160)
+#define JKMPIOCHLNN_FOOMGMGEJBN_OFFSET UNITYSDK_OFFSET(0xBA4D010)
+#define JKMPIOCHLNN_JCBKKDMJPHD_OFFSET UNITYSDK_OFFSET(0xBA4D110)
+#define JKMPIOCHLNN_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0xBA4C8C0)
+#define JKMPIOCHLNN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBA4CC20)
+#define JKMPIOCHLNN_KKJABIJMMNG_OFFSET UNITYSDK_OFFSET(0xBA4D0C0)
+#define JKMPIOCHLNN_NDCBHOKPKHG_OFFSET UNITYSDK_OFFSET(0xBA4CC80)
+#define JKMPIOCHLNN_NKBDPMEPDHK_OFFSET UNITYSDK_OFFSET(0xBA4D070)
 
-inline static constexpr unsigned int JKMPIOCHLNN_TypeDefinitionIndex = 73027;
+inline static constexpr unsigned int JKMPIOCHLNN_TypeDefinitionIndex = 75141;
 
 	class JKMPIOCHLNN : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_CMFBJEAHBLM()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17620);
+			return (::System::Object**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x11EA0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>** StaticGet_JPDDKGFEDFB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17628);
-		}
-
-		static ::System::Action_1<::System::Object*>** StaticGet_LGLFKGDOMCK()
-		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17630);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Single>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x11EA8);
 		}
 
 		static ::System::Action_1<::System::Object*>** StaticGet_GHACEDJLKFF()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x17638);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x11EB0);
 		}
 
-		static ::System::Boolean* StaticGet_MACBJGNIKGE()
+		static ::System::Action_1<::System::Object*>** StaticGet_LGLFKGDOMCK()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x57B0);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x11EB8);
 		}
 
 		static ::System::Boolean* StaticGet_CDOGMMJCHPC()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x57B1);
+			return (::System::Boolean*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x3AA0);
+		}
+
+		static ::System::Boolean* StaticGet_MACBJGNIKGE()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x3AA1);
 		}
 
 		static ::System::Single* StaticGet_KCAHMHDHFMI()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x57B4);
+			return (::System::Single*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x3AA4);
 		}
 
 		static ::System::Int32* StaticGet_CHJGEKMGMAG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x57B8);
+			return (::System::Int32*)UnitySDK::FromName("", "JKMPIOCHLNN")->GetStaticField(0x3AA8);
 		}
 
 		static ::System::Void _cctor()

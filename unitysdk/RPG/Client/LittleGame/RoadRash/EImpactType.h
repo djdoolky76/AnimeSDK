@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::RoadRash
 {
-	inline static constexpr unsigned int EImpactType_TypeDefinitionIndex = 42915;
+	inline static constexpr unsigned int EImpactType_TypeDefinitionIndex = 43896;
 
 	enum class EImpactType : ::System::Int32
 	{

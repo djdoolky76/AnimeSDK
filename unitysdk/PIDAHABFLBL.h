@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PIDAHABFLBL_TypeDefinitionIndex = 25285;
+inline static constexpr unsigned int PIDAHABFLBL_TypeDefinitionIndex = 25763;
 
 	enum class PIDAHABFLBL : ::System::Int32
 	{

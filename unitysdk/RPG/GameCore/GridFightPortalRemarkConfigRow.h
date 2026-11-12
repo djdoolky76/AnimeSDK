@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightPortalRemarkConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D739E50)
-#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D739CD0)
+#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E94A540)
+#define RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E94A3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightPortalRemarkConfigRow_TypeDefinitionIndex = 13639;
+	inline static constexpr unsigned int GridFightPortalRemarkConfigRow_TypeDefinitionIndex = 13764;
 
 	class GridFightPortalRemarkConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 PortalID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID PortalRemark; // 0x18
+		::RPG::Client::TextID PortalRemark; // 0x10
+		::System::UInt32 PortalID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTPORTALREMARKCONFIGROW_CTOR_OFFSET))(this);

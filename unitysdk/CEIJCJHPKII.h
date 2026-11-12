@@ -6,18 +6,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define CEIJCJHPKII_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA141A0)
-#define CEIJCJHPKII_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA14200)
-#define CEIJCJHPKII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA14110)
+#define CEIJCJHPKII_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED46640)
+#define CEIJCJHPKII_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED466A0)
+#define CEIJCJHPKII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED465B0)
 
-inline static constexpr unsigned int CEIJCJHPKII_TypeDefinitionIndex = 22159;
+inline static constexpr unsigned int CEIJCJHPKII_TypeDefinitionIndex = 22564;
 
 	class CEIJCJHPKII : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::DynamicString* BFLIFKBEOPJ; // 0x18
-		::RPG::GameCore::DynamicString* GEBAIALMBFB; // 0x20
-		::RPG::GameCore::DynamicFloat* JODPHBJFOPL; // 0x28
+		::RPG::GameCore::DynamicFloat* JODPHBJFOPL; // 0x20
+		::RPG::GameCore::DynamicString* GEBAIALMBFB; // 0x28
 		::System::Boolean OPBKCOJPOPI; // 0x30
 		::System::Void _ctor()
 		{

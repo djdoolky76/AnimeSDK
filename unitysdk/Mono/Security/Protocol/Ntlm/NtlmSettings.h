@@ -3,8 +3,8 @@
 #include "unitysdk/Mono/Security/Protocol/Ntlm/NtlmAuthLevel.h"
 #include "unitysdk/System/Object.h"
 
-#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C038680)
-#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS_GET_DEFAULTAUTHLEVEL_OFFSET UNITYSDK_OFFSET(0x1C038620)
+#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1BF9B0)
+#define MONO_SECURITY_PROTOCOL_NTLM_NTLMSETTINGS_GET_DEFAULTAUTHLEVEL_OFFSET UNITYSDK_OFFSET(0x1D1BF950)
 
 namespace Mono::Security::Protocol::Ntlm
 {
@@ -15,7 +15,7 @@ namespace Mono::Security::Protocol::Ntlm
 	public:
 		static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel* StaticGet_defaultAuthLevel()
 		{
-			return (::Mono::Security::Protocol::Ntlm::NtlmAuthLevel*)UnitySDK::FromName("Mono.Security.Protocol.Ntlm", "NtlmSettings")->GetStaticField(0xB340);
+			return (::Mono::Security::Protocol::Ntlm::NtlmAuthLevel*)UnitySDK::FromName("Mono.Security.Protocol.Ntlm", "NtlmSettings")->GetStaticField(0x7D40);
 		}
 
 		static ::System::Void _cctor()

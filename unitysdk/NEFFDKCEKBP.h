@@ -3,11 +3,11 @@
 #include "unitysdk/KIDPCOMKMKJ.h"
 #include "unitysdk/RPG/Client/LittleGame/TRFOperate.h"
 
-#define NEFFDKCEKBP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9559C0)
-#define NEFFDKCEKBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C955710)
-#define NEFFDKCEKBP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C955720)
+#define NEFFDKCEKBP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB177A0)
+#define NEFFDKCEKBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB174F0)
+#define NEFFDKCEKBP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1DB17500)
 
-inline static constexpr unsigned int NEFFDKCEKBP_TypeDefinitionIndex = 42479;
+inline static constexpr unsigned int NEFFDKCEKBP_TypeDefinitionIndex = 43454;
 
 	class NEFFDKCEKBP : public ::KIDPCOMKMKJ
 	{
@@ -15,7 +15,7 @@ inline static constexpr unsigned int NEFFDKCEKBP_TypeDefinitionIndex = 42479;
 		::RPG::Client::LittleGame::TRFOperate JELPBNHCPCO; // 0x18
 		static ::Il2CppArray<::System::Single>** StaticGet_CPHDAELGKIA()
 		{
-			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "NEFFDKCEKBP")->GetStaticField(0x57C40);
+			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "NEFFDKCEKBP")->GetStaticField(0x53320);
 		}
 
 		::System::Void _ctor(::RPG::Client::LittleGame::TRFOperate a1)

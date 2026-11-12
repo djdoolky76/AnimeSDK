@@ -4,18 +4,18 @@
 class PNOEINCJCLO;
 namespace System { class Object; }
 
-#define PNOEINCJCLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFBFD10)
-#define PNOEINCJCLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFBFD50)
-#define PNOEINCJCLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DFBFD60)
+#define PNOEINCJCLO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F271220)
+#define PNOEINCJCLO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F271260)
+#define PNOEINCJCLO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F271270)
 
-inline static constexpr unsigned int PNOEINCJCLO___c_TypeDefinitionIndex = 35031;
+inline static constexpr unsigned int PNOEINCJCLO___c_TypeDefinitionIndex = 35959;
 
 	class PNOEINCJCLO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x521A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43A50);
 		}
 
 		static ::System::Void _cctor()

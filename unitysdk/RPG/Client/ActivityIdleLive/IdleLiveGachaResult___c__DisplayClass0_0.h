@@ -4,12 +4,12 @@
 class EBNKDHCIJPH;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResultItemData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4D5070)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__DISPLAYCLASS0_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0xC4D5D90)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDCBC60)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEGACHARESULT___C__DISPLAYCLASS0_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0xCDCC980)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveGachaResult___c__DisplayClass0_0_TypeDefinitionIndex = 75257;
+	inline static constexpr unsigned int IdleLiveGachaResult___c__DisplayClass0_0_TypeDefinitionIndex = 77584;
 
 	class IdleLiveGachaResult___c__DisplayClass0_0 : public ::System::Object
 	{

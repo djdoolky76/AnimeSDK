@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengePeakRewardORRow; }
 
-#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D562380)
-#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D562210)
+#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E773B20)
+#define RPG_GAMECORE_CHALLENGEPEAKREWARDORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7739B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengePeakRewardORRow_TypeDefinitionIndex = 12986;
+	inline static constexpr unsigned int ChallengePeakRewardORRow_TypeDefinitionIndex = 13054;
 
 	class ChallengePeakRewardORRow : public ::System::Object
 	{

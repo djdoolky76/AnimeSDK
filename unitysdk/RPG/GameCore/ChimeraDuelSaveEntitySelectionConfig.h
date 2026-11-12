@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelSaveEntitySelectionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERADUELSAVEENTITYSELECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A9A20)
-#define RPG_GAMECORE_CHIMERADUELSAVEENTITYSELECTIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A9A30)
-#define RPG_GAMECORE_CHIMERADUELSAVEENTITYSELECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A99D0)
+#define RPG_GAMECORE_CHIMERADUELSAVEENTITYSELECTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BA080)
+#define RPG_GAMECORE_CHIMERADUELSAVEENTITYSELECTIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7BA090)
+#define RPG_GAMECORE_CHIMERADUELSAVEENTITYSELECTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7BA030)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelSaveEntitySelectionConfig_TypeDefinitionIndex = 15900;
+	inline static constexpr unsigned int ChimeraDuelSaveEntitySelectionConfig_TypeDefinitionIndex = 16058;
 
 	class ChimeraDuelSaveEntitySelectionConfig : public ::RPG::GameCore::BaseChimeraDuelSaveEntitySelectionConfig
 	{

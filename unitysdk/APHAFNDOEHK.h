@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PreloadMap; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define APHAFNDOEHK_CTOR_OFFSET UNITYSDK_OFFSET(0x15BAB490)
-#define APHAFNDOEHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BAB4C0)
+#define APHAFNDOEHK_CTOR_OFFSET UNITYSDK_OFFSET(0x16A0BCA0)
+#define APHAFNDOEHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A0BCD0)
 
-inline static constexpr unsigned int APHAFNDOEHK_TypeDefinitionIndex = 58299;
+inline static constexpr unsigned int APHAFNDOEHK_TypeDefinitionIndex = 59555;
 
 	class APHAFNDOEHK
 	{

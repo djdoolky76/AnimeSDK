@@ -1,19 +1,19 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class OMINPDAIBLP;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HHHINNEPJIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15CCD800)
-#define HHHINNEPJIJ_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x15CCD640)
-#define HHHINNEPJIJ_NEGKBDJPIJK_OFFSET UNITYSDK_OFFSET(0x15CCD6F0)
-#define HHHINNEPJIJ_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0x15CCD790)
-#define HHHINNEPJIJ_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x15CCD690)
+#define HHHINNEPJIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16C1B1C0)
+#define HHHINNEPJIJ_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x16C1B000)
+#define HHHINNEPJIJ_UPDATEAUGMENTADD_OFFSET UNITYSDK_OFFSET(0x16C1B0B0)
+#define HHHINNEPJIJ_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0x16C1B150)
+#define HHHINNEPJIJ_UPDATESTART_OFFSET UNITYSDK_OFFSET(0x16C1B050)
 
-inline static constexpr unsigned int HHHINNEPJIJ_TypeDefinitionIndex = 64377;
+inline static constexpr unsigned int HHHINNEPJIJ_TypeDefinitionIndex = 65824;
 
-	class HHHINNEPJIJ : public ::AMCOEFHHBPO
+	class HHHINNEPJIJ : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::UInt32>* MLHLKONMMFO; // 0x10
@@ -32,9 +32,9 @@ inline static constexpr unsigned int HHHINNEPJIJ_TypeDefinitionIndex = 64377;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HHHINNEPJIJ_UPDATESTART_OFFSET))(this);
 		}
 
-		::System::Void NEGKBDJPIJK(::OMINPDAIBLP* a1)
+		::System::Void UpdateAugmentAdd(::OMINPDAIBLP* a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::OMINPDAIBLP*))((::PBYTE)hIl2Cpp + HHHINNEPJIJ_NEGKBDJPIJK_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::OMINPDAIBLP*))((::PBYTE)hIl2Cpp + HHHINNEPJIJ_UPDATEAUGMENTADD_OFFSET))(this, a1);
 		}
 
 		::System::Void UpdateDone()

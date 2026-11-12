@@ -5,10 +5,10 @@
 class OONGDLIDJJJ;
 namespace RPG::GameCore { class CheckAIVariableIntAxis; }
 
-#define HMJBEHCCPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D838D0)
-#define HMJBEHCCPLE_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x15D838E0)
+#define HMJBEHCCPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x16D21190)
+#define HMJBEHCCPLE_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x16D211A0)
 
-inline static constexpr unsigned int HMJBEHCCPLE_TypeDefinitionIndex = 54365;
+inline static constexpr unsigned int HMJBEHCCPLE_TypeDefinitionIndex = 55529;
 
 	class HMJBEHCCPLE : public ::BEMKNPIFMBI
 	{

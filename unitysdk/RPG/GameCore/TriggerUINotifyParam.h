@@ -6,18 +6,18 @@
 namespace RPG::GameCore { class GameEntityList; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERUINOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE7B5030)
+#define RPG_GAMECORE_TRIGGERUINOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF2B83C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerUINotifyParam_TypeDefinitionIndex = 56478;
+	inline static constexpr unsigned int TriggerUINotifyParam_TypeDefinitionIndex = 57698;
 
 	class TriggerUINotifyParam : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::String*>* StringParams; // 0x10
-		::Il2CppArray<::RPG::GameCore::FixPoint>* FixPointParam; // 0x18
-		::RPG::GameCore::GameEntityList* Targets; // 0x20
+		::RPG::GameCore::GameEntityList* Targets; // 0x10
+		::Il2CppArray<::System::String*>* StringParams; // 0x18
+		::Il2CppArray<::RPG::GameCore::FixPoint>* FixPointParam; // 0x20
 		::RPG::Client::TextID TextID; // 0x28
 		::System::Void _ctor()
 		{

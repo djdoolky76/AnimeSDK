@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class GELIALJDFBL;
 
-#define BACCOPOCMPC_CHJINNFGIGK_CTOR_OFFSET UNITYSDK_OFFSET(0x15BD6590)
+#define BACCOPOCMPC_CHJINNFGIGK_CTOR_OFFSET UNITYSDK_OFFSET(0x16CE2930)
 
-inline static constexpr unsigned int BACCOPOCMPC_CHJINNFGIGK_TypeDefinitionIndex = 56858;
+inline static constexpr unsigned int BACCOPOCMPC_CHJINNFGIGK_TypeDefinitionIndex = 58082;
 
 	class BACCOPOCMPC_CHJINNFGIGK : public ::System::Object
 	{

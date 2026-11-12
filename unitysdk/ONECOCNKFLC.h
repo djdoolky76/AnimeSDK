@@ -3,10 +3,10 @@
 class CMCFPEBEHPK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ONECOCNKFLC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4FEE0)
-#define ONECOCNKFLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF4FF10)
+#define ONECOCNKFLC_CTOR_OFFSET UNITYSDK_OFFSET(0xC84DE20)
+#define ONECOCNKFLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC84DE50)
 
-inline static constexpr unsigned int ONECOCNKFLC_TypeDefinitionIndex = 52845;
+inline static constexpr unsigned int ONECOCNKFLC_TypeDefinitionIndex = 53998;
 
 	class ONECOCNKFLC
 	{

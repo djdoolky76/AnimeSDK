@@ -6,25 +6,25 @@ class PEDNMPONAAO;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MULTIPATHHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8DCD30)
-#define RPG_CLIENT_MULTIPATHHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD8DCD60)
-#define RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xD8DCD70)
+#define RPG_CLIENT_MULTIPATHHELPER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE32FA40)
+#define RPG_CLIENT_MULTIPATHHELPER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE32FA70)
+#define RPG_CLIENT_MULTIPATHHELPER___C__GETMULTIPATHAVATARTYPESBYROLE_B__13_0_OFFSET UNITYSDK_OFFSET(0xE32FA80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MultiPathHelper___c_TypeDefinitionIndex = 62649;
+	inline static constexpr unsigned int MultiPathHelper___c_TypeDefinitionIndex = 64083;
 
 	class MultiPathHelper___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::PEDNMPONAAO*, ::HNOHHOEPFHC>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::PEDNMPONAAO*, ::HNOHHOEPFHC>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DD90);
+			return (::System::Func_2<::PEDNMPONAAO*, ::HNOHHOEPFHC>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68550);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DD98);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68558);
 		}
 
 		static ::System::Void _cctor()

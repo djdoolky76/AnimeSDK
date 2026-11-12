@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DarkTeamFightFormationConfig; }
 namespace RPG::GameCore { class DarkTeamFightFormationParams; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F4510)
-#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5F4160)
+#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8064A0)
+#define RPG_GAMECORE_DARKTEAMFIGHTFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8060F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DarkTeamFightFormationConfig_TypeDefinitionIndex = 16580;
+	inline static constexpr unsigned int DarkTeamFightFormationConfig_TypeDefinitionIndex = 16746;
 
 	class DarkTeamFightFormationConfig : public ::RPG::GameCore::JsonConfig
 	{

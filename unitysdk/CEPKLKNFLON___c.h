@@ -4,18 +4,18 @@
 class CEPKLKNFLON;
 namespace System { class Object; }
 
-#define CEPKLKNFLON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E09DE00)
-#define CEPKLKNFLON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E09DE30)
-#define CEPKLKNFLON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E09DE40)
+#define CEPKLKNFLON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F364670)
+#define CEPKLKNFLON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3646A0)
+#define CEPKLKNFLON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F3646B0)
 
-inline static constexpr unsigned int CEPKLKNFLON___c_TypeDefinitionIndex = 34430;
+inline static constexpr unsigned int CEPKLKNFLON___c_TypeDefinitionIndex = 35358;
 
 	class CEPKLKNFLON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12990);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EFC0);
 		}
 
 		static ::System::Void _cctor()

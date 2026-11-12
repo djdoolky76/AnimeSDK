@@ -5,10 +5,10 @@ class OGHCJKOKOPF;
 namespace RPG::GameCore { class JsonConfig; }
 namespace System { class Object; }
 
-#define AIDJOMKDIMA_IJIIDFGDCPI_OFFSET UNITYSDK_OFFSET(0xEBA1110)
-#define AIDJOMKDIMA_JMFDMJOIBMG_OFFSET UNITYSDK_OFFSET(0xEBA10C0)
+#define AIDJOMKDIMA_IJIIDFGDCPI_OFFSET UNITYSDK_OFFSET(0xF160530)
+#define AIDJOMKDIMA_JMFDMJOIBMG_OFFSET UNITYSDK_OFFSET(0xF1604E0)
 
-inline static constexpr unsigned int AIDJOMKDIMA_TypeDefinitionIndex = 50031;
+inline static constexpr unsigned int AIDJOMKDIMA_TypeDefinitionIndex = 51079;
 
 	class AIDJOMKDIMA : public ::System::Object
 	{

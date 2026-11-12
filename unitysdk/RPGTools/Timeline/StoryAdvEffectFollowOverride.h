@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_STORYADVEFFECTFOLLOWOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xE93C910)
+#define RPGTOOLS_TIMELINE_STORYADVEFFECTFOLLOWOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xF45A150)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int StoryAdvEffectFollowOverride_TypeDefinitionIndex = 48320;
+	inline static constexpr unsigned int StoryAdvEffectFollowOverride_TypeDefinitionIndex = 49361;
 
 	class StoryAdvEffectFollowOverride : public ::System::Object
 	{

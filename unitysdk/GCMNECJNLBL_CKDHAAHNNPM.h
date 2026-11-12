@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define GCMNECJNLBL_CKDHAAHNNPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15985300)
-#define GCMNECJNLBL_CKDHAAHNNPM_DDDMAIBBMAH_OFFSET UNITYSDK_OFFSET(0x15985410)
-#define GCMNECJNLBL_CKDHAAHNNPM_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0x15985470)
-#define GCMNECJNLBL_CKDHAAHNNPM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15985340)
+#define GCMNECJNLBL_CKDHAAHNNPM_CTOR_OFFSET UNITYSDK_OFFSET(0x168BBA10)
+#define GCMNECJNLBL_CKDHAAHNNPM_DDDMAIBBMAH_OFFSET UNITYSDK_OFFSET(0x168BBB20)
+#define GCMNECJNLBL_CKDHAAHNNPM_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0x168BBB80)
+#define GCMNECJNLBL_CKDHAAHNNPM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x168BBA50)
 
-inline static constexpr unsigned int GCMNECJNLBL_CKDHAAHNNPM_TypeDefinitionIndex = 49216;
+inline static constexpr unsigned int GCMNECJNLBL_CKDHAAHNNPM_TypeDefinitionIndex = 50292;
 
 	class GCMNECJNLBL_CKDHAAHNNPM : public ::System::Object
 	{
 	public:
 		::System::Action_1<::System::Object*>* BPGKFFHGDLD; // 0x10
 		::System::Int32 JAIBONACADL; // 0x18
-		::System::Single LIGCMPFHGJJ; // 0x1C
-		::System::Single JDLOGDBCNMI; // 0x20
+		::System::Single JDLOGDBCNMI; // 0x1C
+		::System::Single LIGCMPFHGJJ; // 0x20
 		::System::Void _ctor(::System::Action_1<::System::Object*>* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Object*>*))((::PBYTE)hIl2Cpp + GCMNECJNLBL_CKDHAAHNNPM_CTOR_OFFSET))(this, a1);

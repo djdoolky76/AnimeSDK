@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByGridFightTraitBonusCurrentLayer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPNAICMEJMH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA41A80)
-#define MPNAICMEJMH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA41B60)
+#define MPNAICMEJMH_CTOR_OFFSET UNITYSDK_OFFSET(0xC3014A0)
+#define MPNAICMEJMH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC301580)
 
-inline static constexpr unsigned int MPNAICMEJMH_TypeDefinitionIndex = 55442;
+inline static constexpr unsigned int MPNAICMEJMH_TypeDefinitionIndex = 56628;
 
 	class MPNAICMEJMH
 	{

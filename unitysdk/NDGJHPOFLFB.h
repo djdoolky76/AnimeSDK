@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define NDGJHPOFLFB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB28170)
-#define NDGJHPOFLFB_GET_SCRIPTABLEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0xBB28160)
+#define NDGJHPOFLFB_CTOR_OFFSET UNITYSDK_OFFSET(0xC3B1A90)
+#define NDGJHPOFLFB_GET_SCRIPTABLEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0xC3B1A80)
 
-inline static constexpr unsigned int NDGJHPOFLFB_TypeDefinitionIndex = 49324;
+inline static constexpr unsigned int NDGJHPOFLFB_TypeDefinitionIndex = 50400;
 
 	class NDGJHPOFLFB : public ::System::Attribute
 	{

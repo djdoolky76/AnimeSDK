@@ -7,17 +7,17 @@ namespace RPG::GameCore { class FrameTimeBudgetInfo; }
 namespace RPG::GameCore { class GameObjectPoolSetting; }
 namespace RPG::GameCore { class MonsterAssetPreloadConfig; }
 
-#define KBDDNMNIHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2F0E30)
-#define KBDDNMNIHIG_DKMDDHAKNLH_OFFSET UNITYSDK_OFFSET(0xB2F0C40)
+#define KBDDNMNIHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBB7A040)
+#define KBDDNMNIHIG_DKMDDHAKNLH_OFFSET UNITYSDK_OFFSET(0xBB79E50)
 
-inline static constexpr unsigned int KBDDNMNIHIG_TypeDefinitionIndex = 68286;
+inline static constexpr unsigned int KBDDNMNIHIG_TypeDefinitionIndex = 70232;
 
 	class KBDDNMNIHIG : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameObjectPoolSetting* FEOOPFGGIJO; // 0x10
+		::RPG::GameCore::FrameTimeBudgetInfo* JCFFHGMHDIP; // 0x10
 		::RPG::GameCore::MonsterAssetPreloadConfig* BPFEBGOBMMM; // 0x18
-		::RPG::GameCore::FrameTimeBudgetInfo* JCFFHGMHDIP; // 0x20
+		::RPG::GameCore::GameObjectPoolSetting* FEOOPFGGIJO; // 0x20
 		::RPG::GameCore::AvatarAssetPreloadConfig* BCNOOKFGFMH; // 0x28
 		::System::Void _ctor()
 		{

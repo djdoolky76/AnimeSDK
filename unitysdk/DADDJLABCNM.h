@@ -6,10 +6,10 @@ class ICCLDNDNHPD;
 class KNFCEJEJINK;
 namespace RPG::GameCore { class ChimeraDuelSwapPositionNode; }
 
-#define DADDJLABCNM_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC1020)
-#define DADDJLABCNM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xDFC0F80)
+#define DADDJLABCNM_CTOR_OFFSET UNITYSDK_OFFSET(0xE923F20)
+#define DADDJLABCNM_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xE923E80)
 
-inline static constexpr unsigned int DADDJLABCNM_TypeDefinitionIndex = 77698;
+inline static constexpr unsigned int DADDJLABCNM_TypeDefinitionIndex = 80433;
 
 	class DADDJLABCNM : public ::HBLDGJCDJPF
 	{

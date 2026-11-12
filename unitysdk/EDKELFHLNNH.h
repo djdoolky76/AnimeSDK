@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define EDKELFHLNNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD70F20)
+#define EDKELFHLNNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF42570)
 
-inline static constexpr unsigned int EDKELFHLNNH_TypeDefinitionIndex = 25031;
+inline static constexpr unsigned int EDKELFHLNNH_TypeDefinitionIndex = 25509;
 
 	class EDKELFHLNNH : public ::System::Attribute
 	{

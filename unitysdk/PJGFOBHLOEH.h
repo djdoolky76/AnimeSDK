@@ -6,21 +6,21 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine { class Transform; }
 
-#define PJGFOBHLOEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC285FA0)
-#define PJGFOBHLOEH_LEFDKGKPDBG_OFFSET UNITYSDK_OFFSET(0xC285E70)
-#define PJGFOBHLOEH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC2858C0)
-#define PJGFOBHLOEH__ONBIND_OFFSET UNITYSDK_OFFSET(0xC2856A0)
+#define PJGFOBHLOEH_CTOR_OFFSET UNITYSDK_OFFSET(0xCBADEA0)
+#define PJGFOBHLOEH_LEFDKGKPDBG_OFFSET UNITYSDK_OFFSET(0xCBADD70)
+#define PJGFOBHLOEH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xCBAD7C0)
+#define PJGFOBHLOEH__ONBIND_OFFSET UNITYSDK_OFFSET(0xCBAD540)
 
-inline static constexpr unsigned int PJGFOBHLOEH_TypeDefinitionIndex = 71923;
+inline static constexpr unsigned int PJGFOBHLOEH_TypeDefinitionIndex = 73945;
 
 	class PJGFOBHLOEH : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* BHCJFANHLNL; // 0x60
+		::UnityEngine::Transform* OLBMACDBDPC; // 0x60
 		::UnityEngine::Transform* HNALEMBOBFE; // 0x68
 		::UnityEngine::Animation* KCOAILOHDND; // 0x70
 		::UnityEngine::Transform* FJIBCEKMCBP; // 0x78
-		::UnityEngine::Transform* OLBMACDBDPC; // 0x80
+		::UnityEngine::Transform* BHCJFANHLNL; // 0x80
 		::RPG::Client::FeixiaoSPPointState DLNIGFGLPLJ; // 0x88
 		// static const ::System::String* OCMKGDHIOOP; // 0x0
 		// static const ::System::String* JIHALFPCDEK; // 0x0

@@ -5,23 +5,23 @@ namespace RPG::GameCore { class BattleFailureTipsConfigRow; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define PPEFOOCOJED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC37DEE0)
-#define PPEFOOCOJED___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC37DF10)
-#define PPEFOOCOJED___C___PREPARETIPSDATA_B__4_0_OFFSET UNITYSDK_OFFSET(0xC37DF20)
+#define PPEFOOCOJED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCB36E0)
+#define PPEFOOCOJED___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCB3710)
+#define PPEFOOCOJED___C___PREPARETIPSDATA_B__4_0_OFFSET UNITYSDK_OFFSET(0xCCB3720)
 
-inline static constexpr unsigned int PPEFOOCOJED___c_TypeDefinitionIndex = 62900;
+inline static constexpr unsigned int PPEFOOCOJED___c_TypeDefinitionIndex = 64338;
 
 	class PPEFOOCOJED___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::BattleFailureTipsConfigRow*>** StaticGet___9__4_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::BattleFailureTipsConfigRow*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC640);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC648);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB510);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::BattleFailureTipsConfigRow*>** StaticGet___9__4_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::BattleFailureTipsConfigRow*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB518);
 		}
 
 		static ::System::Void _cctor()

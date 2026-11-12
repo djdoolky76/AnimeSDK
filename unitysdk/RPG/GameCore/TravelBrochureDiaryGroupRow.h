@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TravelBrochureDiaryGroupRow; }
 
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3BA30)
-#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC3B7F0)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4ECF0)
+#define RPG_GAMECORE_TRAVELBROCHUREDIARYGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE4EAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 15372;
+	inline static constexpr unsigned int TravelBrochureDiaryGroupRow_TypeDefinitionIndex = 15528;
 
 	class TravelBrochureDiaryGroupRow : public ::System::Object
 	{

@@ -16,91 +16,91 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define DNKPNOPPELH_AANNGANODBH_OFFSET UNITYSDK_OFFSET(0x11FD5EB0)
-#define DNKPNOPPELH_CAEPNMEKANB_OFFSET UNITYSDK_OFFSET(0x11FD44B0)
-#define DNKPNOPPELH_CCCMEINCIKG_OFFSET UNITYSDK_OFFSET(0x11FD54B0)
-#define DNKPNOPPELH_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FD6F90)
-#define DNKPNOPPELH_CPHAIGBLPNH_OFFSET UNITYSDK_OFFSET(0x11FD4A20)
-#define DNKPNOPPELH_DCADIANHPFD_1_OFFSET UNITYSDK_OFFSET(0x11FD48E0)
-#define DNKPNOPPELH_DCADIANHPFD_OFFSET UNITYSDK_OFFSET(0x11FD4830)
-#define DNKPNOPPELH_DNKJJODOAJA_OFFSET UNITYSDK_OFFSET(0x11FD6B30)
-#define DNKPNOPPELH_EFMEPLPFBJA_OFFSET UNITYSDK_OFFSET(0x11FD4250)
-#define DNKPNOPPELH_ELEPDOMDAGA_2_OFFSET UNITYSDK_OFFSET(0x11FD49B0)
-#define DNKPNOPPELH_ELEPDOMDAGA_3_OFFSET UNITYSDK_OFFSET(0x11FD4B50)
-#define DNKPNOPPELH_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x11FD4660)
-#define DNKPNOPPELH_EMIHHMDKIEL_OFFSET UNITYSDK_OFFSET(0x11FD51D0)
-#define DNKPNOPPELH_GET_MARKINFODISPLAYRANGE_OFFSET UNITYSDK_OFFSET(0x11FD4180)
-#define DNKPNOPPELH_GET_VISIBLEMARKINFO_OFFSET UNITYSDK_OFFSET(0x11FD41E0)
-#define DNKPNOPPELH_GKJLEIPFOLC_OFFSET UNITYSDK_OFFSET(0x11FD4540)
-#define DNKPNOPPELH_HBGNDKBAAMJ_OFFSET UNITYSDK_OFFSET(0x11FD5FE0)
-#define DNKPNOPPELH_HFJCAAHDJIJ_OFFSET UNITYSDK_OFFSET(0x11FD62C0)
-#define DNKPNOPPELH_IMMNBNNBPGF_OFFSET UNITYSDK_OFFSET(0x11FD5BA0)
-#define DNKPNOPPELH_JJLJDDLILLM_OFFSET UNITYSDK_OFFSET(0x11FD4E90)
-#define DNKPNOPPELH_LFKJJELMNPK_OFFSET UNITYSDK_OFFSET(0x11FD47F0)
-#define DNKPNOPPELH_LNCCJICBOOG_OFFSET UNITYSDK_OFFSET(0x11FD6950)
-#define DNKPNOPPELH_MAAMFKDCEIM_OFFSET UNITYSDK_OFFSET(0x11FD5AC0)
-#define DNKPNOPPELH_MFJPNHGPNMO_1_OFFSET UNITYSDK_OFFSET(0x11FD4400)
-#define DNKPNOPPELH_MFJPNHGPNMO_OFFSET UNITYSDK_OFFSET(0x11FD42E0)
-#define DNKPNOPPELH_MHBLODPBIME_OFFSET UNITYSDK_OFFSET(0x11FD46C0)
-#define DNKPNOPPELH_MLKMBMEBDHE_OFFSET UNITYSDK_OFFSET(0x11FD50A0)
-#define DNKPNOPPELH_MNIOBCBPKJN_OFFSET UNITYSDK_OFFSET(0x11FD4EF0)
-#define DNKPNOPPELH_OECIHKHGCFD_OFFSET UNITYSDK_OFFSET(0x11FD4960)
-#define DNKPNOPPELH_SET_MARKINFODISPLAYRANGE_OFFSET UNITYSDK_OFFSET(0x11FD41B0)
-#define DNKPNOPPELH_SET_VISIBLEMARKINFO_OFFSET UNITYSDK_OFFSET(0x11FD4220)
+#define DNKPNOPPELH_AANNGANODBH_OFFSET UNITYSDK_OFFSET(0x12DCF240)
+#define DNKPNOPPELH_CAEPNMEKANB_OFFSET UNITYSDK_OFFSET(0x12DCD820)
+#define DNKPNOPPELH_CCCMEINCIKG_OFFSET UNITYSDK_OFFSET(0x12DCE840)
+#define DNKPNOPPELH_CCTOR_OFFSET UNITYSDK_OFFSET(0x12DD0320)
+#define DNKPNOPPELH_CPHAIGBLPNH_OFFSET UNITYSDK_OFFSET(0x12DCDDB0)
+#define DNKPNOPPELH_DCADIANHPFD_1_OFFSET UNITYSDK_OFFSET(0x12DCDC70)
+#define DNKPNOPPELH_DCADIANHPFD_OFFSET UNITYSDK_OFFSET(0x12DCDBC0)
+#define DNKPNOPPELH_DNKJJODOAJA_OFFSET UNITYSDK_OFFSET(0x12DCFEC0)
+#define DNKPNOPPELH_EFMEPLPFBJA_OFFSET UNITYSDK_OFFSET(0x12DCD5A0)
+#define DNKPNOPPELH_ELEPDOMDAGA_2_OFFSET UNITYSDK_OFFSET(0x12DCDD40)
+#define DNKPNOPPELH_ELEPDOMDAGA_3_OFFSET UNITYSDK_OFFSET(0x12DCDEE0)
+#define DNKPNOPPELH_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x12DCD9F0)
+#define DNKPNOPPELH_EMIHHMDKIEL_OFFSET UNITYSDK_OFFSET(0x12DCE560)
+#define DNKPNOPPELH_GET_MARKINFODISPLAYRANGE_OFFSET UNITYSDK_OFFSET(0x12DCD4D0)
+#define DNKPNOPPELH_GET_VISIBLEMARKINFO_OFFSET UNITYSDK_OFFSET(0x12DCD530)
+#define DNKPNOPPELH_GKJLEIPFOLC_OFFSET UNITYSDK_OFFSET(0x12DCD8D0)
+#define DNKPNOPPELH_HBGNDKBAAMJ_OFFSET UNITYSDK_OFFSET(0x12DCF370)
+#define DNKPNOPPELH_HFJCAAHDJIJ_OFFSET UNITYSDK_OFFSET(0x12DCF650)
+#define DNKPNOPPELH_IMMNBNNBPGF_OFFSET UNITYSDK_OFFSET(0x12DCEF30)
+#define DNKPNOPPELH_JJLJDDLILLM_OFFSET UNITYSDK_OFFSET(0x12DCE220)
+#define DNKPNOPPELH_LFKJJELMNPK_OFFSET UNITYSDK_OFFSET(0x12DCDB80)
+#define DNKPNOPPELH_LNCCJICBOOG_OFFSET UNITYSDK_OFFSET(0x12DCFCE0)
+#define DNKPNOPPELH_MAAMFKDCEIM_OFFSET UNITYSDK_OFFSET(0x12DCEE50)
+#define DNKPNOPPELH_MFJPNHGPNMO_1_OFFSET UNITYSDK_OFFSET(0x12DCD770)
+#define DNKPNOPPELH_MFJPNHGPNMO_OFFSET UNITYSDK_OFFSET(0x12DCD650)
+#define DNKPNOPPELH_MHBLODPBIME_OFFSET UNITYSDK_OFFSET(0x12DCDA50)
+#define DNKPNOPPELH_MLKMBMEBDHE_OFFSET UNITYSDK_OFFSET(0x12DCE430)
+#define DNKPNOPPELH_MNIOBCBPKJN_OFFSET UNITYSDK_OFFSET(0x12DCE280)
+#define DNKPNOPPELH_OECIHKHGCFD_OFFSET UNITYSDK_OFFSET(0x12DCDCF0)
+#define DNKPNOPPELH_SET_MARKINFODISPLAYRANGE_OFFSET UNITYSDK_OFFSET(0x12DCD500)
+#define DNKPNOPPELH_SET_VISIBLEMARKINFO_OFFSET UNITYSDK_OFFSET(0x12DCD570)
 
-inline static constexpr unsigned int DNKPNOPPELH_TypeDefinitionIndex = 74546;
+inline static constexpr unsigned int DNKPNOPPELH_TypeDefinitionIndex = 76694;
 
 	class DNKPNOPPELH : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>** StaticGet_HCMNHLPLNEA()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE60);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>** StaticGet_AHFMCJCIOKD()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE68);
-		}
-
 		static ::UnityEngine::GameObject** StaticGet_NANGHCCCGEG()
 		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE70);
-		}
-
-		static ::UnityEngine::GameObject** StaticGet_ANCMCNGNKMN()
-		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE78);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_OIELIKANMGI()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE80);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_OHCGPAAMFFB()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE88);
-		}
-
-		static ::System::Collections::Generic::List_1<::RPG::Client::NavMap::DebugDrawnInfo*>** StaticGet_HDJCADGEGCI()
-		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::NavMap::DebugDrawnInfo*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE90);
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD10);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_HBIJCOHAPEL()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x6EE98);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD18);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>** StaticGet_AHFMCJCIOKD()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD20);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>** StaticGet_HCMNHLPLNEA()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::NavMap::DebugDrawnInfo*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD28);
+		}
+
+		static ::UnityEngine::GameObject** StaticGet_ANCMCNGNKMN()
+		{
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD30);
+		}
+
+		static ::System::Collections::Generic::List_1<::RPG::Client::NavMap::DebugDrawnInfo*>** StaticGet_HDJCADGEGCI()
+		{
+			return (::System::Collections::Generic::List_1<::RPG::Client::NavMap::DebugDrawnInfo*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD38);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::UInt32>** StaticGet_OHCGPAAMFFB()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::UInt32>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD40);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_OIELIKANMGI()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0xCD48);
 		}
 
 		static ::System::Int32* StaticGet__MarkInfoDisplayRange_k__BackingField()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x15740);
+			return (::System::Int32*)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x1870);
 		}
 
 		static ::System::Boolean* StaticGet__VisibleMarkInfo_k__BackingField()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x15744);
+			return (::System::Boolean*)UnitySDK::FromName("", "DNKPNOPPELH")->GetStaticField(0x1874);
 		}
 
 		static ::System::Void _cctor()

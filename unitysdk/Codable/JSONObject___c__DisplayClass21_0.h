@@ -5,12 +5,12 @@
 namespace Codable { class JSONNode; }
 namespace System { class String; }
 
-#define CODABLE_JSONOBJECT___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF166A0)
-#define CODABLE_JSONOBJECT___C__DISPLAYCLASS21_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xAF17130)
+#define CODABLE_JSONOBJECT___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5776A0)
+#define CODABLE_JSONOBJECT___C__DISPLAYCLASS21_0__REMOVE_B__0_OFFSET UNITYSDK_OFFSET(0xB578130)
 
 namespace Codable
 {
-	inline static constexpr unsigned int JSONObject___c__DisplayClass21_0_TypeDefinitionIndex = 46078;
+	inline static constexpr unsigned int JSONObject___c__DisplayClass21_0_TypeDefinitionIndex = 47107;
 
 	class JSONObject___c__DisplayClass21_0 : public ::System::Object
 	{

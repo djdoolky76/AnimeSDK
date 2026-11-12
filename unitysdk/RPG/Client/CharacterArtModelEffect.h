@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHARACTERARTMODELEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xC9C4610)
+#define RPG_CLIENT_CHARACTERARTMODELEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD329B60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CharacterArtModelEffect_TypeDefinitionIndex = 70251;
+	inline static constexpr unsigned int CharacterArtModelEffect_TypeDefinitionIndex = 72217;
 
 	class CharacterArtModelEffect
 	{

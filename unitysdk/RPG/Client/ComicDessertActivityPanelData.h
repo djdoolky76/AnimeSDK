@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+
+#define RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD510110)
+#define RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_ISSHOWGOTOBTNREDDOT_OFFSET UNITYSDK_OFFSET(0xD510120)
+#define RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET UNITYSDK_OFFSET(0xD5108B0)
+#define RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xD510710)
+#define RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA__HASANYCLAIMABLEREWARD_OFFSET UNITYSDK_OFFSET(0xD510800)
+#define RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA__HASRESIDENTCLAIMABLEREWARD_OFFSET UNITYSDK_OFFSET(0xD510180)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ComicDessertActivityPanelData_TypeDefinitionIndex = 63004;
+
+	class ComicDessertActivityPanelData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsShowGotoBtnRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_ISSHOWGOTOBTNREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsShowMappingInfoRewardRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA_ISSHOWMAPPINGINFOREWARDREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean _HasAnyClaimableReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA__HASANYCLAIMABLEREWARD_OFFSET))(this);
+		}
+
+		::System::Boolean _HasResidentClaimableReward()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERTACTIVITYPANELDATA__HASRESIDENTCLAIMABLEREWARD_OFFSET))(this);
+		}
+
+	};
+}

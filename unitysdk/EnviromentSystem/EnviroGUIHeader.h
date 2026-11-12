@@ -5,13 +5,13 @@ namespace EnviromentSystem { class EnviroGUIHeader; }
 namespace EnviromentSystem { class EnviroProperty; }
 namespace System { class String; }
 
-#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x155F4CF0)
-#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_CTOR_OFFSET UNITYSDK_OFFSET(0x155F48B0)
-#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x155F4D60)
+#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16505B70)
+#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_CTOR_OFFSET UNITYSDK_OFFSET(0x16505880)
+#define ENVIROMENTSYSTEM_ENVIROGUIHEADER_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x16505BE0)
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGUIHeader_TypeDefinitionIndex = 49621;
+	inline static constexpr unsigned int EnviroGUIHeader_TypeDefinitionIndex = 50697;
 
 	class EnviroGUIHeader : public ::EnviromentSystem::EnviroProperty
 	{

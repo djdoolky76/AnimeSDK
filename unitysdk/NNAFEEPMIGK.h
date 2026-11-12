@@ -5,30 +5,30 @@
 class NNAFEEPMIGK;
 namespace System { class String; }
 
-#define NNAFEEPMIGK_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBC9A840)
-#define NNAFEEPMIGK_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC9A930)
-#define NNAFEEPMIGK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9A920)
+#define NNAFEEPMIGK_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xC582D90)
+#define NNAFEEPMIGK_CCTOR_OFFSET UNITYSDK_OFFSET(0xC582E80)
+#define NNAFEEPMIGK_CTOR_OFFSET UNITYSDK_OFFSET(0xC582E70)
 
-inline static constexpr unsigned int NNAFEEPMIGK_TypeDefinitionIndex = 71749;
+inline static constexpr unsigned int NNAFEEPMIGK_TypeDefinitionIndex = 73740;
 
 	class NNAFEEPMIGK : public ::System::Object
 	{
 	public:
-		::System::String* INJJNCAGKKG; // 0x10
-		::System::String* BDACPPLKLGL; // 0x18
-		static ::NNAFEEPMIGK** StaticGet_IBHILJLAEDC()
-		{
-			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x52550);
-		}
-
+		::System::String* BDACPPLKLGL; // 0x10
+		::System::String* INJJNCAGKKG; // 0x18
 		static ::NNAFEEPMIGK** StaticGet_NGFGMAKPKPD()
 		{
-			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x52558);
+			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x504E0);
+		}
+
+		static ::NNAFEEPMIGK** StaticGet_IBHILJLAEDC()
+		{
+			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x504E8);
 		}
 
 		static ::NNAFEEPMIGK** StaticGet_MOKKBFKOBFH()
 		{
-			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x52560);
+			return (::NNAFEEPMIGK**)UnitySDK::FromName("", "NNAFEEPMIGK")->GetStaticField(0x504F0);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)

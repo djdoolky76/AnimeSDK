@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define RPG_CLIENT_LOGINFAILEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD4A3910)
+#define RPG_CLIENT_LOGINFAILEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDF11B90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LoginFailedException_TypeDefinitionIndex = 61108;
+	inline static constexpr unsigned int LoginFailedException_TypeDefinitionIndex = 62493;
 
 	class LoginFailedException : public ::System::Exception
 	{

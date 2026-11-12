@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MunicipalChatCrowdInfo; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8C1810)
-#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8C1700)
+#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EADB530)
+#define RPG_GAMECORE_MUNICIPALCHATCROWDINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EADB420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MunicipalChatCrowdInfo_TypeDefinitionIndex = 16936;
+	inline static constexpr unsigned int MunicipalChatCrowdInfo_TypeDefinitionIndex = 17103;
 
 	class MunicipalChatCrowdInfo : public ::RPG::GameCore::JsonConfig
 	{

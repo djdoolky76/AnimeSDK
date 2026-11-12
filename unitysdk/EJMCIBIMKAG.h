@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace RPG::GameCore { class AnchorInfo; }
 
-#define EJMCIBIMKAG_CTOR_OFFSET UNITYSDK_OFFSET(0x154ED660)
-#define EJMCIBIMKAG_MGPLPPLEMPK_OFFSET UNITYSDK_OFFSET(0x154ED510)
+#define EJMCIBIMKAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16435410)
+#define EJMCIBIMKAG_MGPLPPLEMPK_OFFSET UNITYSDK_OFFSET(0x164352D0)
 
-inline static constexpr unsigned int EJMCIBIMKAG_TypeDefinitionIndex = 57317;
+inline static constexpr unsigned int EJMCIBIMKAG_TypeDefinitionIndex = 58545;
 
 	class EJMCIBIMKAG : public ::FHKIKPOPLPJ
 	{

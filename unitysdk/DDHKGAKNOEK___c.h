@@ -4,18 +4,18 @@
 class DDHKGAKNOEK;
 namespace System { class Object; }
 
-#define DDHKGAKNOEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E17F390)
-#define DDHKGAKNOEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E17F3C0)
-#define DDHKGAKNOEK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E17F3D0)
+#define DDHKGAKNOEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F459220)
+#define DDHKGAKNOEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F459250)
+#define DDHKGAKNOEK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F459260)
 
-inline static constexpr unsigned int DDHKGAKNOEK___c_TypeDefinitionIndex = 28856;
+inline static constexpr unsigned int DDHKGAKNOEK___c_TypeDefinitionIndex = 29446;
 
 	class DDHKGAKNOEK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DDB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27970);
 		}
 
 		static ::System::Void _cctor()

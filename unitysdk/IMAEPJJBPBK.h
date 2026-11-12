@@ -1,43 +1,42 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
-class KFELGAIGHAP;
 class NAOKFLDEDBJ;
+class OHHPOGMFPBF;
 namespace RPG::GameCore { class FireMultiProjectilesBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class ProjectileData; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IMAEPJJBPBK_ADMGPJLEBEF_OFFSET UNITYSDK_OFFSET(0x164CD070)
-#define IMAEPJJBPBK_CTOR_OFFSET UNITYSDK_OFFSET(0x164CCA80)
-#define IMAEPJJBPBK_DFKILIMLBEN_OFFSET UNITYSDK_OFFSET(0x164CDA70)
-#define IMAEPJJBPBK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164CD800)
-#define IMAEPJJBPBK_ENPMICEBFJE_OFFSET UNITYSDK_OFFSET(0x164CD450)
-#define IMAEPJJBPBK_GOCHKBNMOJM_OFFSET UNITYSDK_OFFSET(0x164CCD90)
-#define IMAEPJJBPBK_INPHBLMECCB_OFFSET UNITYSDK_OFFSET(0x164CDDD0)
-#define IMAEPJJBPBK_JNAJJJCEHDL_OFFSET UNITYSDK_OFFSET(0x164CDCE0)
-#define IMAEPJJBPBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164CD860)
-#define IMAEPJJBPBK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164CDC40)
-#define IMAEPJJBPBK_TICK_OFFSET UNITYSDK_OFFSET(0x164CDAF0)
+#define IMAEPJJBPBK_ADMGPJLEBEF_OFFSET UNITYSDK_OFFSET(0xB7FBC80)
+#define IMAEPJJBPBK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FB830)
+#define IMAEPJJBPBK_DFKILIMLBEN_OFFSET UNITYSDK_OFFSET(0xB7FC6D0)
+#define IMAEPJJBPBK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7FC110)
+#define IMAEPJJBPBK_ENPMICEBFJE_OFFSET UNITYSDK_OFFSET(0xB7FBEE0)
+#define IMAEPJJBPBK_GOCHKBNMOJM_OFFSET UNITYSDK_OFFSET(0xB7FB9A0)
+#define IMAEPJJBPBK_JNAJJJCEHDL_OFFSET UNITYSDK_OFFSET(0xB7FC940)
+#define IMAEPJJBPBK_KJBNCNFLBDJ_OFFSET UNITYSDK_OFFSET(0xB7FC380)
+#define IMAEPJJBPBK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7FC170)
+#define IMAEPJJBPBK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7FC8A0)
+#define IMAEPJJBPBK_TICK_OFFSET UNITYSDK_OFFSET(0xB7FC750)
 
-inline static constexpr unsigned int IMAEPJJBPBK_TypeDefinitionIndex = 55065;
+inline static constexpr unsigned int IMAEPJJBPBK_TypeDefinitionIndex = 56241;
 
 	class IMAEPJJBPBK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
 		::System::Collections::Generic::List_1<::System::Single>* NBMCBEDFFBH; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::RPG::GameCore::GameEntity* KKFCJOJLGCO; // 0x30
-		::System::Collections::Generic::List_1<::KFELGAIGHAP*>* NINIMEBKNLO; // 0x38
-		::Il2CppArray<::NAOKFLDEDBJ*>* MMGFBHHLLOA; // 0x40
-		::System::Collections::Generic::List_1<::RPG::GameCore::ProjectileData*>* LJILIDHFNFJ; // 0x48
-		::RPG::GameCore::FireMultiProjectilesBase* JKJPFJALGKO; // 0x50
+		::RPG::GameCore::FireMultiProjectilesBase* JKJPFJALGKO; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::ProjectileData*>* LJILIDHFNFJ; // 0x30
+		::Il2CppArray<::NAOKFLDEDBJ*>* MMGFBHHLLOA; // 0x38
+		::OHHPOGMFPBF* OJBNGPLELMF; // 0x40
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x48
+		::RPG::GameCore::GameEntity* KKFCJOJLGCO; // 0x50
 		::System::Int32 KNLANGKFPLG; // 0x58
-		::System::Int32 BCMHNNPGGBD; // 0x5C
-		::System::Single LCBECIBFJCC; // 0x60
-		::System::Int32 BLMPGAGBHHK; // 0x64
+		::System::Single LCBECIBFJCC; // 0x5C
+		::System::Int32 BLMPGAGBHHK; // 0x60
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::FireMultiProjectilesBase* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::FireMultiProjectilesBase*))((::PBYTE)hIl2Cpp + IMAEPJJBPBK_CTOR_OFFSET))(this, a1, a2);
@@ -88,9 +87,9 @@ inline static constexpr unsigned int IMAEPJJBPBK_TypeDefinitionIndex = 55065;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMAEPJJBPBK_DFKILIMLBEN_OFFSET))(this);
 		}
 
-		::System::Void INPHBLMECCB(::NAOKFLDEDBJ* a1)
+		::System::Void KJBNCNFLBDJ()
 		{
-			return ((::System::Void(*)(::PVOID, ::NAOKFLDEDBJ*))((::PBYTE)hIl2Cpp + IMAEPJJBPBK_INPHBLMECCB_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IMAEPJJBPBK_KJBNCNFLBDJ_OFFSET))(this);
 		}
 
 	};

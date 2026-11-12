@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_SerializableDictionary_2_TypeDefinitionIndex = 40660;
+	inline static constexpr unsigned int HEU_SerializableDictionary_2_TypeDefinitionIndex = 41635;
 
 	template <typename T1, typename T2>
 	class HEU_SerializableDictionary_2 : public ::System::Object

@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
-	inline static constexpr unsigned int aiPropertyData_TypeDefinitionIndex = 45821;
+	inline static constexpr unsigned int aiPropertyData_TypeDefinitionIndex = 46850;
 
 	struct alignas(4) aiPropertyData
 	{

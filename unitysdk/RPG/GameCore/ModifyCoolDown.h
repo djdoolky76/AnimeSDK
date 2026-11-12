@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ModifyCoolDown; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_MODIFYCOOLDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D891510)
-#define RPG_GAMECORE_MODIFYCOOLDOWN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D891520)
-#define RPG_GAMECORE_MODIFYCOOLDOWN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8914E0)
+#define RPG_GAMECORE_MODIFYCOOLDOWN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAAB7E0)
+#define RPG_GAMECORE_MODIFYCOOLDOWN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAAB7F0)
+#define RPG_GAMECORE_MODIFYCOOLDOWN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAAB7B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyCoolDown_TypeDefinitionIndex = 22601;
+	inline static constexpr unsigned int ModifyCoolDown_TypeDefinitionIndex = 23016;
 
 	class ModifyCoolDown : public ::RPG::GameCore::TaskConfig
 	{

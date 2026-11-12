@@ -3,10 +3,10 @@
 class FOFDNPKONLJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define ICKNIPHOBHF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E51A40)
-#define ICKNIPHOBHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E51A70)
+#define ICKNIPHOBHF_CTOR_OFFSET UNITYSDK_OFFSET(0x16DFE8C0)
+#define ICKNIPHOBHF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DFE8F0)
 
-inline static constexpr unsigned int ICKNIPHOBHF_TypeDefinitionIndex = 55880;
+inline static constexpr unsigned int ICKNIPHOBHF_TypeDefinitionIndex = 57083;
 
 	class ICKNIPHOBHF
 	{

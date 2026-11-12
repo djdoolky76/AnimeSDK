@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIProceduralShape___c__DisplayClass290_0_TypeDefinitionIndex = 72706;
+	inline static constexpr unsigned int UIProceduralShape___c__DisplayClass290_0_TypeDefinitionIndex = 74785;
 
 	struct alignas(8) UIProceduralShape___c__DisplayClass290_0
 	{

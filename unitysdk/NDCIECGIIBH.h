@@ -4,10 +4,10 @@ class CEGJADNLKED;
 namespace RPG::GameCore { class ST_ByHasBornSmartObject; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NDCIECGIIBH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB20220)
-#define NDCIECGIIBH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB202E0)
+#define NDCIECGIIBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A9290)
+#define NDCIECGIIBH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC3A9350)
 
-inline static constexpr unsigned int NDCIECGIIBH_TypeDefinitionIndex = 52195;
+inline static constexpr unsigned int NDCIECGIIBH_TypeDefinitionIndex = 53300;
 
 	class NDCIECGIIBH
 	{

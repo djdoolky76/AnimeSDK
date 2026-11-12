@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournMiracleData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF47F60)
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF47F90)
-#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C___REPORTSELECTMIRACLE_B__30_0_OFFSET UNITYSDK_OFFSET(0xDF47FA0)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9F8430)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE9F8460)
+#define RPG_CLIENT_ROGUEMIRACLESELECTACTION___C___REPORTSELECTMIRACLE_B__30_0_OFFSET UNITYSDK_OFFSET(0xE9F8470)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMiracleSelectAction___c_TypeDefinitionIndex = 67032;
+	inline static constexpr unsigned int RogueMiracleSelectAction___c_TypeDefinitionIndex = 68976;
 
 	class RogueMiracleSelectAction___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65470);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D940);
 		}
 
 		static ::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65478);
+			return (::System::Func_2<::RPG::Client::RogueTournMiracleData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D948);
 		}
 
 		static ::System::Void _cctor()

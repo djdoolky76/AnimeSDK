@@ -4,18 +4,18 @@
 class OGDDOAIIMPG;
 namespace System { class Object; }
 
-#define OGDDOAIIMPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE50A60)
-#define OGDDOAIIMPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE50AA0)
-#define OGDDOAIIMPG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DE50AB0)
+#define OGDDOAIIMPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F57B0)
+#define OGDDOAIIMPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0F57F0)
+#define OGDDOAIIMPG___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F0F5800)
 
-inline static constexpr unsigned int OGDDOAIIMPG___c_TypeDefinitionIndex = 33469;
+inline static constexpr unsigned int OGDDOAIIMPG___c_TypeDefinitionIndex = 34384;
 
 	class OGDDOAIIMPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17DB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x134E0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,31 +6,31 @@ class BIDDFDEAEGB;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MAPDEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD542BA0)
-#define RPG_CLIENT_MAPDEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD542BE0)
-#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET UNITYSDK_OFFSET(0xD542BF0)
-#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET UNITYSDK_OFFSET(0xD542C00)
+#define RPG_CLIENT_MAPDEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF939E0)
+#define RPG_CLIENT_MAPDEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF93A20)
+#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_0_OFFSET UNITYSDK_OFFSET(0xDF93A30)
+#define RPG_CLIENT_MAPDEF___C__GETACTIVEGROUPDEFS_B__212_1_OFFSET UNITYSDK_OFFSET(0xDF93A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapDef___c_TypeDefinitionIndex = 62081;
+	inline static constexpr unsigned int MapDef___c_TypeDefinitionIndex = 63494;
 
 	class MapDef___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::BIDDFDEAEGB*>** StaticGet___9__212_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::BIDDFDEAEGB*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x485D0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::BIDDFDEAEGB*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x537F0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::System::UInt32>** StaticGet___9__212_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x485D8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::BIDDFDEAEGB*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x537F8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x485E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x53800);
 		}
 
 		static ::System::Void _cctor()

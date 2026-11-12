@@ -6,12 +6,12 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class LittleGameAbilityTargetSelectorIntersectConfig; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define AFBJFJIPJBB_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xCF06170)
-#define AFBJFJIPJBB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF065D0)
-#define AFBJFJIPJBB_LNOBGCGFNNE_OFFSET UNITYSDK_OFFSET(0xCF062D0)
-#define AFBJFJIPJBB_NJONDNEFDDC_OFFSET UNITYSDK_OFFSET(0xCF06210)
+#define AFBJFJIPJBB_ABHMCPCPPPP_OFFSET UNITYSDK_OFFSET(0xD5B79A0)
+#define AFBJFJIPJBB_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B7E00)
+#define AFBJFJIPJBB_LNOBGCGFNNE_OFFSET UNITYSDK_OFFSET(0xD5B7B00)
+#define AFBJFJIPJBB_NJONDNEFDDC_OFFSET UNITYSDK_OFFSET(0xD5B7A40)
 
-inline static constexpr unsigned int AFBJFJIPJBB_TypeDefinitionIndex = 77384;
+inline static constexpr unsigned int AFBJFJIPJBB_TypeDefinitionIndex = 79718;
 
 	class AFBJFJIPJBB : public ::System::Object
 	{

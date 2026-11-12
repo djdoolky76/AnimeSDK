@@ -6,13 +6,13 @@ namespace RPG::GameCore { class SubStageMetaData; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SUBSTAGEMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB390B0)
-#define RPG_GAMECORE_SUBSTAGEMETADATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DB390C0)
-#define RPG_GAMECORE_SUBSTAGEMETADATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB38F80)
+#define RPG_GAMECORE_SUBSTAGEMETADATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDE8A00)
+#define RPG_GAMECORE_SUBSTAGEMETADATA_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EDE8A10)
+#define RPG_GAMECORE_SUBSTAGEMETADATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDE88D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SubStageMetaData_TypeDefinitionIndex = 19142;
+	inline static constexpr unsigned int SubStageMetaData_TypeDefinitionIndex = 19332;
 
 	class SubStageMetaData : public ::RPG::GameCore::JsonConfig
 	{

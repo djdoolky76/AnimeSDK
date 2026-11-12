@@ -4,18 +4,18 @@
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectTabViewModel; }
 namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectTabsViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC962E40)
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC963360)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2C7C30)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD2C8150)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 81622;
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 84403;
 
 	class ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabViewModel* tab; // 0x10
-		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabsViewModel* __4__this; // 0x18
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabsViewModel* __4__this; // 0x10
+		::RPG::Client::Challenge::Tierce::ChallengeTierceStageSelectTabViewModel* tab; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGETIERCESTAGESELECTTABSVIEWMODEL___C__DISPLAYCLASS21_0_CTOR_OFFSET))(this);

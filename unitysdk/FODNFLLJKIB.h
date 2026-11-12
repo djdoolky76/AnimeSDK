@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleSetDead; }
 
-#define FODNFLLJKIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71BA0)
-#define FODNFLLJKIB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA71BB0)
+#define FODNFLLJKIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC35540)
+#define FODNFLLJKIB_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DC35550)
 
-inline static constexpr unsigned int FODNFLLJKIB_TypeDefinitionIndex = 43115;
+inline static constexpr unsigned int FODNFLLJKIB_TypeDefinitionIndex = 44096;
 
 	class FODNFLLJKIB : public ::BKABEBEPPJK
 	{

@@ -4,18 +4,18 @@
 class INFDOMFEGML;
 namespace System { class Object; }
 
-#define INFDOMFEGML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C1150)
-#define INFDOMFEGML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C1190)
-#define INFDOMFEGML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6C11A0)
+#define INFDOMFEGML___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9C8BF0)
+#define INFDOMFEGML___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C8C30)
+#define INFDOMFEGML___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F9C8C40)
 
-inline static constexpr unsigned int INFDOMFEGML___c_TypeDefinitionIndex = 29890;
+inline static constexpr unsigned int INFDOMFEGML___c_TypeDefinitionIndex = 30788;
 
 	class INFDOMFEGML___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x582D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x551E0);
 		}
 
 		static ::System::Void _cctor()

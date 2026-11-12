@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LIJPKLOMJLJ_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D0FB940)
-#define LIJPKLOMJLJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0FBF10)
-#define LIJPKLOMJLJ_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D0FBAB0)
-#define LIJPKLOMJLJ_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0FB3B0)
-#define LIJPKLOMJLJ_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D0FB640)
-#define LIJPKLOMJLJ_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0FBB50)
-#define LIJPKLOMJLJ_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0FBBA0)
-#define LIJPKLOMJLJ_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D0FB980)
-#define LIJPKLOMJLJ_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0FB5E0)
-#define LIJPKLOMJLJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D0FB7B0)
-#define LIJPKLOMJLJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0FBA10)
-#define LIJPKLOMJLJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0FB330)
+#define LIJPKLOMJLJ_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E2F5E20)
+#define LIJPKLOMJLJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2F63F0)
+#define LIJPKLOMJLJ_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E2F5F90)
+#define LIJPKLOMJLJ_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E2F5890)
+#define LIJPKLOMJLJ_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E2F5B20)
+#define LIJPKLOMJLJ_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E2F6030)
+#define LIJPKLOMJLJ_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E2F6080)
+#define LIJPKLOMJLJ_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E2F5E60)
+#define LIJPKLOMJLJ_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E2F5AC0)
+#define LIJPKLOMJLJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E2F5C90)
+#define LIJPKLOMJLJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E2F5EF0)
+#define LIJPKLOMJLJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E2F5810)
 
-inline static constexpr unsigned int LIJPKLOMJLJ_TypeDefinitionIndex = 11087;
+inline static constexpr unsigned int LIJPKLOMJLJ_TypeDefinitionIndex = 11103;
 
 	class LIJPKLOMJLJ : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingWaveExpRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingWaveExpRow*>**)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0x3EDD0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0x33410);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0x3EDD8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0x33418);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingWaveExpRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0x3EDE0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0xD710);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingWaveExpRow*>**)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0x33420);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0xD711);
+			return (::System::Boolean*)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0xADD0);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "LIJPKLOMJLJ")->GetStaticField(0xADD1);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class KDKHADGLIPJ;
 
-#define NGMKEPADNEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAF640)
-#define NGMKEPADNEL_JIHPBLELIMG_OFFSET UNITYSDK_OFFSET(0xBBAF5E0)
+#define NGMKEPADNEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC48B670)
+#define NGMKEPADNEL_JIHPBLELIMG_OFFSET UNITYSDK_OFFSET(0xC48B610)
 
-inline static constexpr unsigned int NGMKEPADNEL_TypeDefinitionIndex = 75761;
+inline static constexpr unsigned int NGMKEPADNEL_TypeDefinitionIndex = 78088;
 
 	class NGMKEPADNEL : public ::System::Object
 	{

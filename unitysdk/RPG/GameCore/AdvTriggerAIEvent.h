@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVTRIGGERAIEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B3A70)
-#define RPG_GAMECORE_ADVTRIGGERAIEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B3A80)
-#define RPG_GAMECORE_ADVTRIGGERAIEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B3A40)
+#define RPG_GAMECORE_ADVTRIGGERAIEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C3190)
+#define RPG_GAMECORE_ADVTRIGGERAIEVENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5C31A0)
+#define RPG_GAMECORE_ADVTRIGGERAIEVENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C3160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvTriggerAIEvent_TypeDefinitionIndex = 23391;
+	inline static constexpr unsigned int AdvTriggerAIEvent_TypeDefinitionIndex = 23837;
 
 	class AdvTriggerAIEvent : public ::RPG::GameCore::TaskConfig
 	{

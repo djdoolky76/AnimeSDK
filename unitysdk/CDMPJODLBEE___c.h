@@ -4,18 +4,18 @@
 class CDMPJODLBEE;
 namespace System { class Object; }
 
-#define CDMPJODLBEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E08A910)
-#define CDMPJODLBEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E08A940)
-#define CDMPJODLBEE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E08A950)
+#define CDMPJODLBEE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F34FDC0)
+#define CDMPJODLBEE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F34FDF0)
+#define CDMPJODLBEE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F34FE00)
 
-inline static constexpr unsigned int CDMPJODLBEE___c_TypeDefinitionIndex = 25658;
+inline static constexpr unsigned int CDMPJODLBEE___c_TypeDefinitionIndex = 26155;
 
 	class CDMPJODLBEE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFAC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D100);
 		}
 
 		static ::System::Void _cctor()

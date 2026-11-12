@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEventReceiverContext_1_TypeDefinitionIndex = 42747;
+	inline static constexpr unsigned int IEventReceiverContext_1_TypeDefinitionIndex = 43726;
 
 	template <typename T>
 	class IEventReceiverContext_1

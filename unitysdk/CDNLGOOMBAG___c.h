@@ -4,18 +4,18 @@
 class CDNLGOOMBAG;
 namespace System { class Object; }
 
-#define CDNLGOOMBAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E08B3C0)
-#define CDNLGOOMBAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E08B400)
-#define CDNLGOOMBAG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E08B410)
+#define CDNLGOOMBAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F350880)
+#define CDNLGOOMBAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3508C0)
+#define CDNLGOOMBAG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F3508D0)
 
-inline static constexpr unsigned int CDNLGOOMBAG___c_TypeDefinitionIndex = 34136;
+inline static constexpr unsigned int CDNLGOOMBAG___c_TypeDefinitionIndex = 35051;
 
 	class CDNLGOOMBAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFDE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D180);
 		}
 
 		static ::System::Void _cctor()

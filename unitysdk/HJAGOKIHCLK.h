@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 class CJCHKDLALDN;
 
-#define HJAGOKIHCLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6677A0)
+#define HJAGOKIHCLK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E9400)
 
-inline static constexpr unsigned int HJAGOKIHCLK_TypeDefinitionIndex = 36271;
+inline static constexpr unsigned int HJAGOKIHCLK_TypeDefinitionIndex = 37199;
 
 	class HJAGOKIHCLK : public ::System::Object
 	{
 	public:
-		::CJCHKDLALDN* AJELILFPLDE; // 0x10
-		::CJCHKDLALDN* GEAHEJAKINC; // 0x18
+		::CJCHKDLALDN* GEAHEJAKINC; // 0x10
+		::CJCHKDLALDN* AJELILFPLDE; // 0x18
 		::System::Boolean CCGHKAFINKC; // 0x20
 		::System::Void _ctor()
 		{

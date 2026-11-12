@@ -8,7 +8,7 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ProxyViewService_1_TypeDefinitionIndex = 76518;
+	inline static constexpr unsigned int ProxyViewService_1_TypeDefinitionIndex = 78849;
 
 	template <typename T>
 	class ProxyViewService_1 : public ::System::Object

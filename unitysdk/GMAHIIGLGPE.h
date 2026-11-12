@@ -4,10 +4,10 @@
 namespace System { class Exception; }
 namespace System { class String; }
 
-#define GMAHIIGLGPE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x15AC98D0)
-#define GMAHIIGLGPE_CTOR_OFFSET UNITYSDK_OFFSET(0x15AC9870)
+#define GMAHIIGLGPE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16A4C000)
+#define GMAHIIGLGPE_CTOR_OFFSET UNITYSDK_OFFSET(0x16A4BFA0)
 
-inline static constexpr unsigned int GMAHIIGLGPE_TypeDefinitionIndex = 67504;
+inline static constexpr unsigned int GMAHIIGLGPE_TypeDefinitionIndex = 69448;
 
 	class GMAHIIGLGPE : public ::System::Exception
 	{

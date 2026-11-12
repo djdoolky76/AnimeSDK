@@ -4,18 +4,18 @@
 class NINLEFEPGCC;
 namespace System { class Object; }
 
-#define NINLEFEPGCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB39840)
-#define NINLEFEPGCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB39880)
-#define NINLEFEPGCC___C___CCTOR_B__88_0_OFFSET UNITYSDK_OFFSET(0x1EB39890)
+#define NINLEFEPGCC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F021E50)
+#define NINLEFEPGCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F021E90)
+#define NINLEFEPGCC___C___CCTOR_B__88_0_OFFSET UNITYSDK_OFFSET(0x1F021EA0)
 
-inline static constexpr unsigned int NINLEFEPGCC___c_TypeDefinitionIndex = 25093;
+inline static constexpr unsigned int NINLEFEPGCC___c_TypeDefinitionIndex = 25571;
 
 	class NINLEFEPGCC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64A20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D080);
 		}
 
 		static ::System::Void _cctor()

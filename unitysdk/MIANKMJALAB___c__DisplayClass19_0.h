@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class MIANKMJALAB;
 
-#define MIANKMJALAB___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB94CF40)
-#define MIANKMJALAB___C__DISPLAYCLASS19_0__SETMINUSSHOWBUFFCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xB94CF50)
+#define MIANKMJALAB___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC201380)
+#define MIANKMJALAB___C__DISPLAYCLASS19_0__SETMINUSSHOWBUFFCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xC2018F0)
 
-inline static constexpr unsigned int MIANKMJALAB___c__DisplayClass19_0_TypeDefinitionIndex = 71390;
+inline static constexpr unsigned int MIANKMJALAB___c__DisplayClass19_0_TypeDefinitionIndex = 73370;
 
 	class MIANKMJALAB___c__DisplayClass19_0 : public ::System::Object
 	{

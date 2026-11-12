@@ -9,18 +9,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define PPPHANEJBAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D31C570)
-#define PPPHANEJBAC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31C5B0)
-#define PPPHANEJBAC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31C510)
+#define PPPHANEJBAC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E52B790)
+#define PPPHANEJBAC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E52B7D0)
+#define PPPHANEJBAC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E52B730)
 
-inline static constexpr unsigned int PPPHANEJBAC_TypeDefinitionIndex = 22660;
+inline static constexpr unsigned int PPPHANEJBAC_TypeDefinitionIndex = 23082;
 
 	class PPPHANEJBAC : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x18
-		::RPG::GameCore::TargetEvaluator* NGIJFAEONCK; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::RPG::GameCore::TargetEvaluator* NGIJFAEONCK; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x28
 		::RPG::GameCore::DynamicFloat* KBAPBCNJHDB; // 0x30
 		::RPG::GameCore::PredicateConfig* FHAAHMEJMCI; // 0x38
 		::RPG::GameCore::ControlSkillType JBCBONFABOM; // 0x40

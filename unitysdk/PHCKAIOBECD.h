@@ -4,9 +4,9 @@
 class IIIDOKNGBNL;
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define PHCKAIOBECD_MHKLAHPGHAE_OFFSET UNITYSDK_OFFSET(0xC2394F0)
+#define PHCKAIOBECD_MHKLAHPGHAE_OFFSET UNITYSDK_OFFSET(0xCB23060)
 
-inline static constexpr unsigned int PHCKAIOBECD_TypeDefinitionIndex = 54440;
+inline static constexpr unsigned int PHCKAIOBECD_TypeDefinitionIndex = 55604;
 
 	class PHCKAIOBECD : public ::System::Object
 	{

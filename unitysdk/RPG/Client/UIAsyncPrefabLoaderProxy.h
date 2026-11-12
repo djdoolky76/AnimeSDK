@@ -5,13 +5,13 @@ namespace RPG::Client { class IAssetOperation; }
 namespace RPG::Client { class UIAsyncPrefabLoaderProxy; }
 namespace RPG::Client { class UIPrefabLoader; }
 
-#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0xE37FDF0)
-#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xE37FE60)
-#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_TRYCANCELASYNCLOAD_OFFSET UNITYSDK_OFFSET(0xE37FE70)
+#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CREATE_OFFSET UNITYSDK_OFFSET(0xEDED370)
+#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xEDED3E0)
+#define RPG_CLIENT_UIASYNCPREFABLOADERPROXY_TRYCANCELASYNCLOAD_OFFSET UNITYSDK_OFFSET(0xEDED3F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIAsyncPrefabLoaderProxy_TypeDefinitionIndex = 73022;
+	inline static constexpr unsigned int UIAsyncPrefabLoaderProxy_TypeDefinitionIndex = 75136;
 
 	class UIAsyncPrefabLoaderProxy : public ::System::Object
 	{

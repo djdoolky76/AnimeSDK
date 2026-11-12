@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JFNJKAPPNOF_TypeDefinitionIndex = 25295;
+inline static constexpr unsigned int JFNJKAPPNOF_TypeDefinitionIndex = 25773;
 
 	enum class JFNJKAPPNOF : ::System::Int32
 	{

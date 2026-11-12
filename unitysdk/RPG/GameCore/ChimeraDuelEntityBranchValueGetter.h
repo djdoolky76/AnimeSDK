@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 namespace RPG::GameCore { class ChimeraDuelEntityBranchValueGetter; }
 namespace RPG::GameCore { class ChimeraDuelEntityPredicateBase; }
 
-#define RPG_GAMECORE_CHIMERADUELENTITYBRANCHVALUEGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59FC90)
-#define RPG_GAMECORE_CHIMERADUELENTITYBRANCHVALUEGETTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D59FCA0)
-#define RPG_GAMECORE_CHIMERADUELENTITYBRANCHVALUEGETTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59FC40)
+#define RPG_GAMECORE_CHIMERADUELENTITYBRANCHVALUEGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B0AA0)
+#define RPG_GAMECORE_CHIMERADUELENTITYBRANCHVALUEGETTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7B0AB0)
+#define RPG_GAMECORE_CHIMERADUELENTITYBRANCHVALUEGETTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7B0A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEntityBranchValueGetter_TypeDefinitionIndex = 15922;
+	inline static constexpr unsigned int ChimeraDuelEntityBranchValueGetter_TypeDefinitionIndex = 16080;
 
 	class ChimeraDuelEntityBranchValueGetter : public ::RPG::GameCore::ChimeraDuelEntityValueGetterBase
 	{

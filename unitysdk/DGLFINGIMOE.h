@@ -7,12 +7,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DGLFINGIMOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA12E40)
-#define DGLFINGIMOE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CA29220)
-#define DGLFINGIMOE_FILTER_OFFSET UNITYSDK_OFFSET(0x1CA29120)
-#define DGLFINGIMOE_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1CA29000)
+#define DGLFINGIMOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBD66B0)
+#define DGLFINGIMOE_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DBECA60)
+#define DGLFINGIMOE_FILTER_OFFSET UNITYSDK_OFFSET(0x1DBEC960)
+#define DGLFINGIMOE_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1DBEC840)
 
-inline static constexpr unsigned int DGLFINGIMOE_TypeDefinitionIndex = 42863;
+inline static constexpr unsigned int DGLFINGIMOE_TypeDefinitionIndex = 43844;
 
 	class DGLFINGIMOE
 	{

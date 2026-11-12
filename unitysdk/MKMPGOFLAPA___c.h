@@ -4,18 +4,18 @@
 class MKMPGOFLAPA;
 namespace System { class Object; }
 
-#define MKMPGOFLAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA5B400)
-#define MKMPGOFLAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5B430)
-#define MKMPGOFLAPA___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EA5B440)
+#define MKMPGOFLAPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDADBF0)
+#define MKMPGOFLAPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDADC20)
+#define MKMPGOFLAPA___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1FDADC30)
 
-inline static constexpr unsigned int MKMPGOFLAPA___c_TypeDefinitionIndex = 32409;
+inline static constexpr unsigned int MKMPGOFLAPA___c_TypeDefinitionIndex = 33322;
 
 	class MKMPGOFLAPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x572A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C0A0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePropAnimState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJCIBFPPCGC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0AD40)
-#define NJCIBFPPCGC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC0AD70)
+#define NJCIBFPPCGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC4EDED0)
+#define NJCIBFPPCGC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4EE1C0)
 
-inline static constexpr unsigned int NJCIBFPPCGC_TypeDefinitionIndex = 52585;
+inline static constexpr unsigned int NJCIBFPPCGC_TypeDefinitionIndex = 53691;
 
 	class NJCIBFPPCGC
 	{

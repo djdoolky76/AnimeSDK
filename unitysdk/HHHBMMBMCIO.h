@@ -7,11 +7,11 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HHHBMMBMCIO_AMIHBOCGJEC_OFFSET UNITYSDK_OFFSET(0x15CCD000)
-#define HHHBMMBMCIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15CCD630)
-#define HHHBMMBMCIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15CCCA00)
+#define HHHBMMBMCIO_AMIHBOCGJEC_OFFSET UNITYSDK_OFFSET(0x16C1A9C0)
+#define HHHBMMBMCIO_CTOR_OFFSET UNITYSDK_OFFSET(0x16C1AFF0)
+#define HHHBMMBMCIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16C1A3C0)
 
-inline static constexpr unsigned int HHHBMMBMCIO_TypeDefinitionIndex = 77339;
+inline static constexpr unsigned int HHHBMMBMCIO_TypeDefinitionIndex = 79673;
 
 	class HHHBMMBMCIO : public ::System::Object
 	{

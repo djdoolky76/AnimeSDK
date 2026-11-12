@@ -11,29 +11,30 @@ namespace System::IO { class BinaryReader; }
 namespace System::IO { class Stream; }
 namespace System::Threading { class Thread; }
 
-#define HDG_READMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0xAF29760)
-#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xAF29750)
-#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0xAF2AB50)
-#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0xAF29AA0)
-#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0xAF29950)
-#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xAF29980)
+#define HDG_READMESSAGETHREAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB58A760)
+#define HDG_READMESSAGETHREAD_GET_ISCONNECTED_OFFSET UNITYSDK_OFFSET(0xB58A750)
+#define HDG_READMESSAGETHREAD_ONLOSTCONNECTION_OFFSET UNITYSDK_OFFSET(0xB58BB30)
+#define HDG_READMESSAGETHREAD_ONREADING_OFFSET UNITYSDK_OFFSET(0xB58AAA0)
+#define HDG_READMESSAGETHREAD_STOP_OFFSET UNITYSDK_OFFSET(0xB58A950)
+#define HDG_READMESSAGETHREAD_THREADFUNC_OFFSET UNITYSDK_OFFSET(0xB58A980)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 46937;
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 47965;
 
 	class ReadMessageThread : public ::System::Object
 	{
 	public:
-		::System::Threading::Thread* m_thread; // 0x10
-		::System::IO::BinaryReader* m_reader; // 0x18
-		::System::String* m_name; // 0x20
-		::System::IO::Stream* m_stream; // 0x28
+		::Hdg::rdtDispatcher* m_dispatcher; // 0x10
+		::System::IO::Stream* m_stream; // 0x18
+		::System::IO::BinaryReader* m_reader; // 0x20
+		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x28
 		::System::Action_1<::Hdg::rdtTcpMessage*>* m_callback; // 0x30
-		::Il2CppArray<::System::Action*>* m_stateDelegates; // 0x38
-		::Hdg::rdtDispatcher* m_dispatcher; // 0x40
-		::Hdg::ReadMessageThread_State m_state; // 0x48
-		::System::Boolean m_run; // 0x4C
+		::System::String* m_name; // 0x38
+		::System::Threading::Thread* m_thread; // 0x40
+		::System::Boolean m_run; // 0x48
+		::System::Byte _padding0[0x3];
+		::Hdg::ReadMessageThread_State m_state; // 0x4C
 		::System::Void _ctor(::System::IO::Stream* a1, ::Hdg::rdtDispatcher* a2, ::System::Action_1<::Hdg::rdtTcpMessage*>* a3, ::System::String* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IO::Stream*, ::Hdg::rdtDispatcher*, ::System::Action_1<::Hdg::rdtTcpMessage*>*, ::System::String*))((::PBYTE)hIl2Cpp + HDG_READMESSAGETHREAD_CTOR_OFFSET))(this, a1, a2, a3, a4);

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int IPrepareEditSwitchable_TypeDefinitionIndex = 76292;
+	inline static constexpr unsigned int IPrepareEditSwitchable_TypeDefinitionIndex = 78623;
 
 	class IPrepareEditSwitchable
 	{

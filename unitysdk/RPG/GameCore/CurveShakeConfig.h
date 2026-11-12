@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CurveShakeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CURVESHAKECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E9100)
-#define RPG_GAMECORE_CURVESHAKECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E8E40)
+#define RPG_GAMECORE_CURVESHAKECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FB0D0)
+#define RPG_GAMECORE_CURVESHAKECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7FAF10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CurveShakeConfig_TypeDefinitionIndex = 16415;
+	inline static constexpr unsigned int CurveShakeConfig_TypeDefinitionIndex = 16579;
 
 	class CurveShakeConfig : public ::RPG::GameCore::JsonConfig
 	{

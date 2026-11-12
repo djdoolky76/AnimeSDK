@@ -6,27 +6,27 @@ class OLGBOBMGFIA;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DCCFDMGDNGN_CTOR_OFFSET UNITYSDK_OFFSET(0xE23AD50)
-#define DCCFDMGDNGN_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xE23ADF0)
-#define DCCFDMGDNGN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xE23AE50)
-#define DCCFDMGDNGN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE23B990)
-#define DCCFDMGDNGN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xE23AEF0)
+#define DCCFDMGDNGN_CTOR_OFFSET UNITYSDK_OFFSET(0xEB9BE00)
+#define DCCFDMGDNGN_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xEB9BEA0)
+#define DCCFDMGDNGN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xEB9BF00)
+#define DCCFDMGDNGN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xEB9CA40)
+#define DCCFDMGDNGN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xEB9BFA0)
 
-inline static constexpr unsigned int DCCFDMGDNGN_TypeDefinitionIndex = 74043;
+inline static constexpr unsigned int DCCFDMGDNGN_TypeDefinitionIndex = 76188;
 
 	class DCCFDMGDNGN : public ::System::Object
 	{
 	public:
-		::System::String* FFBMNFMDBID; // 0x10
-		::System::String* EFNAJMADAHM; // 0x18
+		::System::String* NKAACMGNNPK; // 0x10
+		::System::String* GLEBPCFAPMP; // 0x18
 		::System::String* HCDEOKNIGKG; // 0x20
-		::System::String* GOKAENLDALA; // 0x28
-		::System::String* COCBDJEDAJM; // 0x30
-		::System::String* NKAACMGNNPK; // 0x38
-		::System::String* EFAFKFONJHP; // 0x40
-		::System::String* GLEBPCFAPMP; // 0x48
-		::System::String* CLPNGEGJBBE; // 0x50
-		::System::String* EOEABKONOAK; // 0x58
+		::System::String* FFBMNFMDBID; // 0x28
+		::System::String* GOKAENLDALA; // 0x30
+		::System::String* COCBDJEDAJM; // 0x38
+		::System::String* CLPNGEGJBBE; // 0x40
+		::System::String* EFAFKFONJHP; // 0x48
+		::System::String* EOEABKONOAK; // 0x50
+		::System::String* EFNAJMADAHM; // 0x58
 		::EKOGGFMOBNK FJCAKOIDONG; // 0x60
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3, ::System::Int32 a4, ::System::Int32 a5)
 		{

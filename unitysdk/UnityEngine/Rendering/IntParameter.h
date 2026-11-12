@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_INTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2AAD30)
-#define UNITYENGINE_RENDERING_INTPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1F2C42E0)
+#define UNITYENGINE_RENDERING_INTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x2055BAA0)
+#define UNITYENGINE_RENDERING_INTPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x20575120)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int IntParameter_TypeDefinitionIndex = 35625;
+	inline static constexpr unsigned int IntParameter_TypeDefinitionIndex = 36553;
 
 	class IntParameter
 	{

@@ -4,18 +4,18 @@
 class NKGAIPKINJE;
 namespace RPG::GameCore { class CakeRacePickupItemConfig; }
 
-#define ENDBKLKOBFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C605460)
-#define ENDBKLKOBFP_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1C6053A0)
+#define ENDBKLKOBFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D786B40)
+#define ENDBKLKOBFP_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1D786A80)
 
-inline static constexpr unsigned int ENDBKLKOBFP_TypeDefinitionIndex = 37256;
+inline static constexpr unsigned int ENDBKLKOBFP_TypeDefinitionIndex = 38184;
 
 	class ENDBKLKOBFP : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::CakeRacePickupItemConfig* EABKOHGCHFP; // 0x10
 		::System::UInt32 KNAFKCLNNAH; // 0x18
-		::System::Int32 EBJKJAGJGPK; // 0x1C
-		::System::UInt32 GOCFOJJIAHL; // 0x20
+		::System::UInt32 GOCFOJJIAHL; // 0x1C
+		::System::Int32 EBJKJAGJGPK; // 0x20
 		::System::Byte _padding0[0x4];
 		::System::UInt64 KAMOPEEBOHJ; // 0x28
 		::System::Void _ctor()

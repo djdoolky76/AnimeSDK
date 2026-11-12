@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ElfProgressUpgrade; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ADHBCEOHHAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB138F70)
-#define ADHBCEOHHAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB138F80)
-#define ADHBCEOHHAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB138FD0)
-#define ADHBCEOHHAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB139320)
-#define ADHBCEOHHAL_TICK_OFFSET UNITYSDK_OFFSET(0xB139370)
+#define ADHBCEOHHAL_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A02A0)
+#define ADHBCEOHHAL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7A02B0)
+#define ADHBCEOHHAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7A0300)
+#define ADHBCEOHHAL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7A0650)
+#define ADHBCEOHHAL_TICK_OFFSET UNITYSDK_OFFSET(0xB7A06A0)
 
-inline static constexpr unsigned int ADHBCEOHHAL_TypeDefinitionIndex = 58096;
+inline static constexpr unsigned int ADHBCEOHHAL_TypeDefinitionIndex = 59335;
 
 	class ADHBCEOHHAL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ElfProgressUpgrade* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ElfProgressUpgrade* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ElfProgressUpgrade* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ElfProgressUpgrade*))((::PBYTE)hIl2Cpp + ADHBCEOHHAL_CTOR_OFFSET))(this, a1, a2);

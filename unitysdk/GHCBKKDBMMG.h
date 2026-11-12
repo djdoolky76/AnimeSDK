@@ -9,31 +9,31 @@ namespace RPG { template <typename T> class PoolHashSet_1; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define GHCBKKDBMMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAA1F80)
-#define GHCBKKDBMMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA21E0)
-#define GHCBKKDBMMG_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAA2050)
-#define GHCBKKDBMMG_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CAA2130)
+#define GHCBKKDBMMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC658E0)
+#define GHCBKKDBMMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC65B20)
+#define GHCBKKDBMMG_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DC65990)
+#define GHCBKKDBMMG_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1DC65A70)
 
-inline static constexpr unsigned int GHCBKKDBMMG_TypeDefinitionIndex = 43518;
+inline static constexpr unsigned int GHCBKKDBMMG_TypeDefinitionIndex = 44500;
 
 	class GHCBKKDBMMG : public ::System::Object
 	{
 	public:
-		::RPG::PoolHashSet_1<::System::Int32>* IDOGNEJAOHB; // 0x10
-		::System::String* NIKBDNEFPLM; // 0x18
-		::RPG::GCFreeClosure::ClosureEvent_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimLightningStateType> HGOJNFKDIMA; // 0x20
+		::RPG::GCFreeClosure::ClosureEvent_2<::HIOEAKHGILF*, ::RPG::GameCore::FiveDimLightningStateType> HGOJNFKDIMA; // 0x10
 		::System::Byte _padding0[0x8];
-		::RPG::PoolList_1<::System::Int32>* NGMNLMKOIID; // 0x30
-		::System::Single IPPAHGAPEPM; // 0x38
-		::System::Boolean GAINHDAKKBE; // 0x3C
-		::System::Boolean IPKICAFDKEP; // 0x3D
+		::System::String* NIKBDNEFPLM; // 0x20
+		::RPG::PoolList_1<::System::Int32>* NGMNLMKOIID; // 0x28
+		::RPG::PoolHashSet_1<::System::Int32>* IDOGNEJAOHB; // 0x30
+		::UnityEngine::Vector3 EOMJELHBDHN; // 0x38
+		::System::Boolean GAINHDAKKBE; // 0x44
+		::System::Boolean IPKICAFDKEP; // 0x45
 		::System::Byte _padding1[0x2];
-		::UnityEngine::Vector3 LAEIEFCAKEA; // 0x40
-		::UnityEngine::Vector3 OABOILKIDKJ; // 0x4C
-		::System::Single LEPNPMEIMGA; // 0x58
-		::System::Single CBFDCMECCEJ; // 0x5C
-		::RPG::GameCore::FiveDimLightningStateType MEPFOEEGBEA; // 0x60
-		::UnityEngine::Vector3 LABGPOKAGGP; // 0x64
+		::System::Single IPPAHGAPEPM; // 0x48
+		::RPG::GameCore::FiveDimLightningStateType MEPFOEEGBEA; // 0x4C
+		::System::Single LEPNPMEIMGA; // 0x50
+		::UnityEngine::Vector3 HEKLONIAHBM; // 0x54
+		::UnityEngine::Vector3 FGMLGJOFAMA; // 0x60
+		::System::Single CBFDCMECCEJ; // 0x6C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GHCBKKDBMMG_CTOR_OFFSET))(this);

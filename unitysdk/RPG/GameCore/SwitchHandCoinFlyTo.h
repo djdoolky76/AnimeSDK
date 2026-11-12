@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SwitchHandCoinFlyTo; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB41FF0)
-#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB42000)
-#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB41FB0)
+#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF15E0)
+#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EDF15F0)
+#define RPG_GAMECORE_SWITCHHANDCOINFLYTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDF15A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchHandCoinFlyTo_TypeDefinitionIndex = 20970;
+	inline static constexpr unsigned int SwitchHandCoinFlyTo_TypeDefinitionIndex = 21308;
 
 	class SwitchHandCoinFlyTo : public ::RPG::GameCore::TaskConfig
 	{

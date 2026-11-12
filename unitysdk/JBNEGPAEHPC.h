@@ -6,22 +6,22 @@
 class MNNMECAGEJG;
 namespace System { class String; }
 
-#define JBNEGPAEHPC_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0x165749A0)
-#define JBNEGPAEHPC_CTOR_OFFSET UNITYSDK_OFFSET(0x165747D0)
-#define JBNEGPAEHPC_OOPJCBAIKMA_OFFSET UNITYSDK_OFFSET(0x16574AE0)
+#define JBNEGPAEHPC_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xB8AD950)
+#define JBNEGPAEHPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AD780)
+#define JBNEGPAEHPC_OOPJCBAIKMA_OFFSET UNITYSDK_OFFSET(0xB8ADA90)
 
-inline static constexpr unsigned int JBNEGPAEHPC_TypeDefinitionIndex = 80649;
+inline static constexpr unsigned int JBNEGPAEHPC_TypeDefinitionIndex = 83429;
 
 	class JBNEGPAEHPC : public ::System::Object
 	{
 	public:
-		::System::String* IOABPJAFBOJ; // 0x10
-		::MNNMECAGEJG* KMJDIEJMGLI; // 0x18
+		::MNNMECAGEJG* KMJDIEJMGLI; // 0x10
+		::System::String* IOOAAMGICKC; // 0x18
 		::MNNMECAGEJG* EAFNFCALNPF; // 0x20
-		::System::String* IOOAAMGICKC; // 0x28
+		::System::String* IOABPJAFBOJ; // 0x28
 		::UnityEngine::Vector3 AGDMFOBNDLG; // 0x30
-		::System::Single NDKKKNKFAPH; // 0x3C
-		::System::Single JCDKACJFACD; // 0x40
+		::System::Single JCDKACJFACD; // 0x3C
+		::System::Single NDKKKNKFAPH; // 0x40
 		::System::Void _ctor(::UnityEngine::Vector3 a1, ::System::Single a2, ::System::Single a3, ::System::String* a4, ::System::String* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + JBNEGPAEHPC_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

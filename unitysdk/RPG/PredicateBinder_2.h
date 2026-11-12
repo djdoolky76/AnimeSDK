@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int PredicateBinder_2_TypeDefinitionIndex = 6356;
+	inline static constexpr unsigned int PredicateBinder_2_TypeDefinitionIndex = 6363;
 
 	template <typename T1, typename T2>
 	class PredicateBinder_2

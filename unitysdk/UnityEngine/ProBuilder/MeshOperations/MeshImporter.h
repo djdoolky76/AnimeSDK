@@ -8,27 +8,27 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 namespace UnityEngine::ProBuilder { class Vertex; }
 namespace UnityEngine::ProBuilder::MeshOperations { class MeshImportSettings; }
 
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F234770)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F232270)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F232330)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2320D0)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET UNITYSDK_OFFSET(0x1F232510)
-#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET UNITYSDK_OFFSET(0x1F232340)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x204E5AA0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x204E3720)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x204E37E0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_CTOR_OFFSET UNITYSDK_OFFSET(0x204E3580)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_1_OFFSET UNITYSDK_OFFSET(0x204E39C0)
+#define UNITYENGINE_PROBUILDER_MESHOPERATIONS_MESHIMPORTER_IMPORT_OFFSET UNITYSDK_OFFSET(0x204E37F0)
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
-	inline static constexpr unsigned int MeshImporter_TypeDefinitionIndex = 44505;
+	inline static constexpr unsigned int MeshImporter_TypeDefinitionIndex = 45580;
 
 	class MeshImporter : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::UnityEngine::Material*>* m_SourceMaterials; // 0x10
-		::UnityEngine::Mesh* m_SourceMesh; // 0x18
-		::Il2CppArray<::UnityEngine::ProBuilder::Vertex*>* m_Vertices; // 0x20
-		::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination; // 0x28
+		::Il2CppArray<::UnityEngine::ProBuilder::Vertex*>* m_Vertices; // 0x18
+		::UnityEngine::ProBuilder::ProBuilderMesh* m_Destination; // 0x20
+		::UnityEngine::Mesh* m_SourceMesh; // 0x28
 		static ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings** StaticGet_k_DefaultImportSettings()
 		{
-			return (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "MeshImporter")->GetStaticField(0x54960);
+			return (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings**)UnitySDK::FromName("UnityEngine.ProBuilder.MeshOperations", "MeshImporter")->GetStaticField(0x679C0);
 		}
 
 		::System::Void _ctor(::UnityEngine::GameObject* a1)

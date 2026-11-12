@@ -4,9 +4,9 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KKILJMLMGEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C906DD0)
+#define KKILJMLMGEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB2FF0)
 
-inline static constexpr unsigned int KKILJMLMGEB_TypeDefinitionIndex = 41951;
+inline static constexpr unsigned int KKILJMLMGEB_TypeDefinitionIndex = 42926;
 
 	class KKILJMLMGEB : public ::System::Object
 	{

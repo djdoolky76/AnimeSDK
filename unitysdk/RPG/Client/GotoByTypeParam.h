@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_GOTOBYTYPEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD0C0430)
+#define RPG_CLIENT_GOTOBYTYPEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA48CE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GotoByTypeParam_TypeDefinitionIndex = 65530;
+	inline static constexpr unsigned int GotoByTypeParam_TypeDefinitionIndex = 67446;
 
 	class GotoByTypeParam : public ::System::Object
 	{

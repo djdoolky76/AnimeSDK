@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RubikEventListener; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RUBIKEVENTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6D3E0)
-#define RPG_GAMECORE_RUBIKEVENTLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA6D3F0)
-#define RPG_GAMECORE_RUBIKEVENTLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA6D3B0)
+#define RPG_GAMECORE_RUBIKEVENTLISTENER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7FC60)
+#define RPG_GAMECORE_RUBIKEVENTLISTENER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC7FC70)
+#define RPG_GAMECORE_RUBIKEVENTLISTENER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC7FC30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RubikEventListener_TypeDefinitionIndex = 22145;
+	inline static constexpr unsigned int RubikEventListener_TypeDefinitionIndex = 22550;
 
 	class RubikEventListener : public ::RPG::GameCore::TaskConfig
 	{

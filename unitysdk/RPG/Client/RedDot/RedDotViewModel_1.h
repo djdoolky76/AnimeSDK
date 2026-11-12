@@ -9,7 +9,7 @@ namespace System { class String; }
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int RedDotViewModel_1_TypeDefinitionIndex = 79192;
+	inline static constexpr unsigned int RedDotViewModel_1_TypeDefinitionIndex = 81969;
 
 	template <typename T>
 	class RedDotViewModel_1 : public ::System::Object

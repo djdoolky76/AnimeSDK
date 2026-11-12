@@ -4,10 +4,10 @@
 class NBLICBHDAFM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFKKNKNHAPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15F1F410)
-#define IFKKNKNHAPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F1F4F0)
+#define IFKKNKNHAPM_CTOR_OFFSET UNITYSDK_OFFSET(0x16E8E550)
+#define IFKKNKNHAPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E8E630)
 
-inline static constexpr unsigned int IFKKNKNHAPM_TypeDefinitionIndex = 55057;
+inline static constexpr unsigned int IFKKNKNHAPM_TypeDefinitionIndex = 56233;
 
 	class IFKKNKNHAPM
 	{

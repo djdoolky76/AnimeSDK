@@ -5,23 +5,23 @@ namespace RPG::Client { class ChessRogueDiceSurfaceDisplayData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MLINLKBCGCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB9B17A0)
-#define MLINLKBCGCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B17E0)
-#define MLINLKBCGCL___C__GETDICESURFACEDISPLAYDATALIST_B__15_0_OFFSET UNITYSDK_OFFSET(0xB9B17F0)
+#define MLINLKBCGCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC26D190)
+#define MLINLKBCGCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC26D1D0)
+#define MLINLKBCGCL___C__GETDICESURFACEDISPLAYDATALIST_B__15_0_OFFSET UNITYSDK_OFFSET(0xC26D1E0)
 
-inline static constexpr unsigned int MLINLKBCGCL___c_TypeDefinitionIndex = 66947;
+inline static constexpr unsigned int MLINLKBCGCL___c_TypeDefinitionIndex = 68891;
 
 	class MLINLKBCGCL___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>** StaticGet___9__15_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB230);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB238);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73AF0);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>** StaticGet___9__15_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::ChessRogueDiceSurfaceDisplayData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73AF8);
 		}
 
 		static ::System::Void _cctor()

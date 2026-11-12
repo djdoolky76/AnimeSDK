@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOATLASMOUTHTALK_CTOR_OFFSET UNITYSDK_OFFSET(0xD72FEE0)
+#define RPG_CLIENT_MONOATLASMOUTHTALK_CTOR_OFFSET UNITYSDK_OFFSET(0xE1BFF20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoAtlasMouthTalk_TypeDefinitionIndex = 68528;
+	inline static constexpr unsigned int MonoAtlasMouthTalk_TypeDefinitionIndex = 70476;
 
 	class MonoAtlasMouthTalk : public ::UnityEngine::MonoBehaviour
 	{

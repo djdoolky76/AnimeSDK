@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerCustomStringList; }
 
-#define JLLBGCDMHOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB24F970)
-#define JLLBGCDMHOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB24F9A0)
+#define JLLBGCDMHOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA7A800)
+#define JLLBGCDMHOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA7A830)
 
-inline static constexpr unsigned int JLLBGCDMHOA_TypeDefinitionIndex = 58774;
+inline static constexpr unsigned int JLLBGCDMHOA_TypeDefinitionIndex = 60042;
 
 	class JLLBGCDMHOA
 	{

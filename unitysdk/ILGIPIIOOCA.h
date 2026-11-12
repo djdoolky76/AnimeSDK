@@ -6,21 +6,21 @@ namespace RPG::GameCore { class PropCurveMoveStart; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define ILGIPIIOOCA_CTOR_OFFSET UNITYSDK_OFFSET(0x164B0EA0)
-#define ILGIPIIOOCA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164B0EB0)
-#define ILGIPIIOOCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164B0F50)
-#define ILGIPIIOOCA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164B0F00)
-#define ILGIPIIOOCA_TICK_OFFSET UNITYSDK_OFFSET(0x164B1B70)
+#define ILGIPIIOOCA_CTOR_OFFSET UNITYSDK_OFFSET(0x17486CE0)
+#define ILGIPIIOOCA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17486CF0)
+#define ILGIPIIOOCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17486D90)
+#define ILGIPIIOOCA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17486D40)
+#define ILGIPIIOOCA_TICK_OFFSET UNITYSDK_OFFSET(0x17487980)
 
-inline static constexpr unsigned int ILGIPIIOOCA_TypeDefinitionIndex = 58309;
+inline static constexpr unsigned int ILGIPIIOOCA_TypeDefinitionIndex = 59565;
 
 	class ILGIPIIOOCA : public ::GELIALJDFBL
 	{
 	public:
-		::System::String* IJMGEMMNNPI; // 0x18
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x20
-		::RPG::GameCore::PropCurveMoveStart* OFKGLJOAMLD; // 0x28
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::System::String* IJMGEMMNNPI; // 0x28
+		::RPG::GameCore::PropCurveMoveStart* OFKGLJOAMLD; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropCurveMoveStart* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropCurveMoveStart*))((::PBYTE)hIl2Cpp + ILGIPIIOOCA_CTOR_OFFSET))(this, a1, a2);

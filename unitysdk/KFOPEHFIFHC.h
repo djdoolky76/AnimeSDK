@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class OverrideWaveMonsterPerform; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KFOPEHFIFHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C95A0)
-#define KFOPEHFIFHC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3C95B0)
-#define KFOPEHFIFHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3C95F0)
-#define KFOPEHFIFHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3C9790)
-#define KFOPEHFIFHC_TICK_OFFSET UNITYSDK_OFFSET(0xB3C97E0)
+#define KFOPEHFIFHC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC592B0)
+#define KFOPEHFIFHC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC592C0)
+#define KFOPEHFIFHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC59300)
+#define KFOPEHFIFHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC594A0)
+#define KFOPEHFIFHC_TICK_OFFSET UNITYSDK_OFFSET(0xBC594F0)
 
-inline static constexpr unsigned int KFOPEHFIFHC_TypeDefinitionIndex = 58246;
+inline static constexpr unsigned int KFOPEHFIFHC_TypeDefinitionIndex = 59502;
 
 	class KFOPEHFIFHC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::OverrideWaveMonsterPerform* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::OverrideWaveMonsterPerform* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::OverrideWaveMonsterPerform* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::OverrideWaveMonsterPerform*))((::PBYTE)hIl2Cpp + KFOPEHFIFHC_CTOR_OFFSET))(this, a1, a2);

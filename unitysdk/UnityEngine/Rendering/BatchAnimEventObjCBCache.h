@@ -5,13 +5,13 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int BatchAnimEventObjCBCache_TypeDefinitionIndex = 4788;
+	inline static constexpr unsigned int BatchAnimEventObjCBCache_TypeDefinitionIndex = 4792;
 
 	struct alignas(4) BatchAnimEventObjCBCache
 	{
 		static ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchAnimEventObjCB>* StaticGet_eventObjectsCache()
 		{
-			return (::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchAnimEventObjCB>*)UnitySDK::FromName("UnityEngine.Rendering", "BatchAnimEventObjCBCache")->GetStaticField(0x4C90);
+			return (::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchAnimEventObjCB>*)UnitySDK::FromName("UnityEngine.Rendering", "BatchAnimEventObjCBCache")->GetStaticField(0x3470);
 		}
 
 	};

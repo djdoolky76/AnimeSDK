@@ -5,7 +5,7 @@ class IJFIHJJPHNA;
 class PLAJONHLDJN;
 namespace RPG::GameCore { class DiceCombatModifierConfig; }
 
-inline static constexpr unsigned int ONGJCEFKLAC_TypeDefinitionIndex = 36432;
+inline static constexpr unsigned int ONGJCEFKLAC_TypeDefinitionIndex = 37360;
 
 	struct alignas(8) ONGJCEFKLAC
 	{

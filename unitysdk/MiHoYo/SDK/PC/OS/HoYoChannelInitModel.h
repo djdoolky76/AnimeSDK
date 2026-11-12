@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF25B00)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITMODEL_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF30BA0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AC690)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELINITMODEL_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0B7740)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelInitModel_TypeDefinitionIndex = 8586;
+	inline static constexpr unsigned int HoYoChannelInitModel_TypeDefinitionIndex = 8595;
 
 	class HoYoChannelInitModel : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_INVALIDJSONNODEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65F860)
+#define ZENFULCRUM_EMBEDDEDBROWSER_INVALIDJSONNODEEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x2090F020)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int InvalidJSONNodeException_TypeDefinitionIndex = 39510;
+	inline static constexpr unsigned int InvalidJSONNodeException_TypeDefinitionIndex = 40439;
 
 	class InvalidJSONNodeException : public ::System::Exception
 	{

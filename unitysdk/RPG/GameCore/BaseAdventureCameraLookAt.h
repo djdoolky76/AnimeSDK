@@ -8,13 +8,13 @@ namespace RPG::GameCore { class CameraLookAtScreenRangeConfig; }
 namespace RPG::GameCore { class VCameraFreelook3rdConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D438CA0)
-#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D438CB0)
-#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D438B30)
+#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6596C0)
+#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6596D0)
+#define RPG_GAMECORE_BASEADVENTURECAMERALOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E659550)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BaseAdventureCameraLookAt_TypeDefinitionIndex = 23730;
+	inline static constexpr unsigned int BaseAdventureCameraLookAt_TypeDefinitionIndex = 24186;
 
 	class BaseAdventureCameraLookAt : public ::RPG::GameCore::TaskConfig
 	{

@@ -8,18 +8,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class JsonEnum; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define PEKCDLDLGJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D56E0)
-#define PEKCDLDLGJI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2D56F0)
-#define PEKCDLDLGJI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D56A0)
+#define PEKCDLDLGJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E1B40)
+#define PEKCDLDLGJI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4E1B50)
+#define PEKCDLDLGJI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4E1B00)
 
-inline static constexpr unsigned int PEKCDLDLGJI_TypeDefinitionIndex = 22541;
+inline static constexpr unsigned int PEKCDLDLGJI_TypeDefinitionIndex = 22956;
 
 	class PEKCDLDLGJI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x18
 		::RPG::GameCore::JsonEnum* LAONHAPDGGO; // 0x20
-		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x28
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::RPG::GameCore::PropertyModifyFunction DNKFJMBHINL; // 0x30
 		::System::Void _ctor()
 		{

@@ -4,19 +4,19 @@
 namespace Newtonsoft::Json::Bson { class BsonString; }
 namespace Newtonsoft::Json::Bson { class BsonToken; }
 
-#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1C376CE0)
-#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1C376F10)
-#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C376F20)
+#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4FD430)
+#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_NAME_OFFSET UNITYSDK_OFFSET(0x1D4FD660)
+#define NEWTONSOFT_JSON_BSON_BSONPROPERTY_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1D4FD670)
 
 namespace Newtonsoft::Json::Bson
 {
-	inline static constexpr unsigned int BsonProperty_TypeDefinitionIndex = 9858;
+	inline static constexpr unsigned int BsonProperty_TypeDefinitionIndex = 9866;
 
 	class BsonProperty : public ::System::Object
 	{
 	public:
-		::Newtonsoft::Json::Bson::BsonString* _Name_k__BackingField; // 0x10
-		::Newtonsoft::Json::Bson::BsonToken* _Value_k__BackingField; // 0x18
+		::Newtonsoft::Json::Bson::BsonToken* _Value_k__BackingField; // 0x10
+		::Newtonsoft::Json::Bson::BsonString* _Name_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NEWTONSOFT_JSON_BSON_BSONPROPERTY_CTOR_OFFSET))(this);

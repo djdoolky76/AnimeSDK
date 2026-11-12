@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvSetMinimapAlertVisionState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EPBJEHMFNPP_CTOR_OFFSET UNITYSDK_OFFSET(0x155CEBC0)
-#define EPBJEHMFNPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155CEBF0)
+#define EPBJEHMFNPP_CTOR_OFFSET UNITYSDK_OFFSET(0x164E11A0)
+#define EPBJEHMFNPP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164E11D0)
 
-inline static constexpr unsigned int EPBJEHMFNPP_TypeDefinitionIndex = 52498;
+inline static constexpr unsigned int EPBJEHMFNPP_TypeDefinitionIndex = 53604;
 
 	class EPBJEHMFNPP
 	{

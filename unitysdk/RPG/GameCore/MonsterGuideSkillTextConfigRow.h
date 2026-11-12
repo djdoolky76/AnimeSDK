@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterGuideSkillTextConfigRow; }
 
-#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6400)
-#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B6180)
+#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD01A0)
+#define RPG_GAMECORE_MONSTERGUIDESKILLTEXTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EACFF20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterGuideSkillTextConfigRow_TypeDefinitionIndex = 14206;
+	inline static constexpr unsigned int MonsterGuideSkillTextConfigRow_TypeDefinitionIndex = 14363;
 
 	class MonsterGuideSkillTextConfigRow : public ::System::Object
 	{
@@ -18,8 +18,8 @@ namespace RPG::GameCore
 		::Il2CppArray<::System::Single>* ParameterList; // 0x10
 		::Il2CppArray<::System::UInt32>* EffectIDList; // 0x18
 		::RPG::Client::TextID SkillDescription; // 0x20
-		::System::UInt32 SkillID; // 0x30
-		::System::UInt32 SkillTextID; // 0x34
+		::System::UInt32 SkillTextID; // 0x30
+		::System::UInt32 SkillID; // 0x34
 		::System::UInt32 Difficulty; // 0x38
 		::System::Void _ctor()
 		{

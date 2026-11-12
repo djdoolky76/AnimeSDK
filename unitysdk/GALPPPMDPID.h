@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckRogueExploreWin; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GALPPPMDPID_CTOR_OFFSET UNITYSDK_OFFSET(0x15942400)
-#define GALPPPMDPID_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15942430)
+#define GALPPPMDPID_CTOR_OFFSET UNITYSDK_OFFSET(0x16876420)
+#define GALPPPMDPID_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16876450)
 
-inline static constexpr unsigned int GALPPPMDPID_TypeDefinitionIndex = 57972;
+inline static constexpr unsigned int GALPPPMDPID_TypeDefinitionIndex = 59210;
 
 	class GALPPPMDPID
 	{

@@ -25,7 +25,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Entitas
 {
-	inline static constexpr unsigned int Context_1_TypeDefinitionIndex = 9986;
+	inline static constexpr unsigned int Context_1_TypeDefinitionIndex = 9994;
 
 	template <typename T>
 	class Context_1 : public ::System::Object

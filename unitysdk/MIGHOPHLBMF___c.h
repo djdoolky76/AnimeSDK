@@ -4,18 +4,18 @@
 class MIGHOPHLBMF;
 namespace System { class Object; }
 
-#define MIGHOPHLBMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA3C100)
-#define MIGHOPHLBMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3C140)
-#define MIGHOPHLBMF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA3C150)
+#define MIGHOPHLBMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD8DC20)
+#define MIGHOPHLBMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD8DC60)
+#define MIGHOPHLBMF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FD8DC70)
 
-inline static constexpr unsigned int MIGHOPHLBMF___c_TypeDefinitionIndex = 26851;
+inline static constexpr unsigned int MIGHOPHLBMF___c_TypeDefinitionIndex = 27382;
 
 	class MIGHOPHLBMF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52C50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x590B0);
 		}
 
 		static ::System::Void _cctor()

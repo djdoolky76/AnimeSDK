@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int MPAKIOEFBNI_TypeDefinitionIndex = 6215;
+inline static constexpr unsigned int MPAKIOEFBNI_TypeDefinitionIndex = 6222;
 
 	struct alignas(4) MPAKIOEFBNI
 	{

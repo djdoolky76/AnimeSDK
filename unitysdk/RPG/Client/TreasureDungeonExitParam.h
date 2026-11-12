@@ -6,35 +6,35 @@ class KENIHFGIDEO;
 namespace RPG::Client { class TreasureDungeonLevel; }
 namespace System { class String; }
 
-#define RPG_CLIENT_TREASUREDUNGEONEXITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE323530)
-#define RPG_CLIENT_TREASUREDUNGEONEXITPARAM_SYNC_OFFSET UNITYSDK_OFFSET(0xE322750)
+#define RPG_CLIENT_TREASUREDUNGEONEXITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xED8E8F0)
+#define RPG_CLIENT_TREASUREDUNGEONEXITPARAM_SYNC_OFFSET UNITYSDK_OFFSET(0xED8D6C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TreasureDungeonExitParam_TypeDefinitionIndex = 68188;
+	inline static constexpr unsigned int TreasureDungeonExitParam_TypeDefinitionIndex = 70134;
 
 	class TreasureDungeonExitParam : public ::System::Object
 	{
 	public:
 		::System::String* AttackExIcon; // 0x10
-		::System::UInt32 DefenceAdd; // 0x18
-		::System::UInt32 TotalBuffFound; // 0x1C
-		::System::UInt32 MaxFloor; // 0x20
-		::System::UInt32 TotalDefenceItemFound; // 0x24
-		::RPG::Client::TextID AttackExName; // 0x28
-		::System::UInt32 AttackExAdd; // 0x38
-		::System::UInt32 AttackAdd; // 0x3C
-		::System::UInt32 TotalExploreUsed; // 0x40
-		::System::UInt32 TotalUltraItemFound; // 0x44
-		::System::UInt32 CurFloor; // 0x48
+		::System::UInt32 TotalAttackItemFound; // 0x18
+		::System::UInt32 TotalExploreUsed; // 0x1C
+		::System::UInt32 TotalTrialAvatarFound; // 0x20
+		::System::UInt32 AttackAdd; // 0x24
+		::System::UInt32 TotalDefenceItemFound; // 0x28
+		::System::UInt32 DefenceAdd; // 0x2C
+		::RPG::Client::TextID AttackExName; // 0x30
+		::System::UInt32 CurFloor; // 0x40
+		::System::UInt32 TotalEnemyKilled; // 0x44
+		::System::UInt32 TotalUltraItemFound; // 0x48
 		::System::Boolean IsWin; // 0x4C
 		::System::Boolean IsAllDead; // 0x4D
 		::System::Boolean IsFinish; // 0x4E
 		::System::Byte _padding0[0x1];
 		::System::UInt32 GroupID; // 0x50
-		::System::UInt32 TotalEnemyKilled; // 0x54
-		::System::UInt32 TotalTrialAvatarFound; // 0x58
-		::System::UInt32 TotalAttackItemFound; // 0x5C
+		::System::UInt32 MaxFloor; // 0x54
+		::System::UInt32 TotalBuffFound; // 0x58
+		::System::UInt32 AttackExAdd; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_TREASUREDUNGEONEXITPARAM_CTOR_OFFSET))(this);

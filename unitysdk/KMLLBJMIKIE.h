@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnlockReShaCamera; }
 
-#define KMLLBJMIKIE_CTOR_OFFSET UNITYSDK_OFFSET(0xB566860)
-#define KMLLBJMIKIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB566890)
+#define KMLLBJMIKIE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB1F10)
+#define KMLLBJMIKIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDB1F40)
 
-inline static constexpr unsigned int KMLLBJMIKIE_TypeDefinitionIndex = 53462;
+inline static constexpr unsigned int KMLLBJMIKIE_TypeDefinitionIndex = 54624;
 
 	class KMLLBJMIKIE
 	{

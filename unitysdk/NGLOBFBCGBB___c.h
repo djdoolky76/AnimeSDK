@@ -4,18 +4,18 @@
 class NGLOBFBCGBB;
 namespace System { class Object; }
 
-#define NGLOBFBCGBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB14FA0)
-#define NGLOBFBCGBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB14FD0)
-#define NGLOBFBCGBB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB14FE0)
+#define NGLOBFBCGBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE57560)
+#define NGLOBFBCGBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE57590)
+#define NGLOBFBCGBB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE575A0)
 
-inline static constexpr unsigned int NGLOBFBCGBB___c_TypeDefinitionIndex = 31312;
+inline static constexpr unsigned int NGLOBFBCGBB___c_TypeDefinitionIndex = 32225;
 
 	class NGLOBFBCGBB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5F970);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A650);
 		}
 
 		static ::System::Void _cctor()

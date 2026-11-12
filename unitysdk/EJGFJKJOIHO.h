@@ -6,18 +6,18 @@ class KHPOKIKCOFO;
 class OAFCCICMILM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EJGFJKJOIHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA53920)
-#define EJGFJKJOIHO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1CA53980)
-#define EJGFJKJOIHO_OKEFAAMKPKK_OFFSET UNITYSDK_OFFSET(0x1CA54730)
+#define EJGFJKJOIHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC171A0)
+#define EJGFJKJOIHO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DC17200)
+#define EJGFJKJOIHO_OKEFAAMKPKK_OFFSET UNITYSDK_OFFSET(0x1DC17FB0)
 
-inline static constexpr unsigned int EJGFJKJOIHO_TypeDefinitionIndex = 42391;
+inline static constexpr unsigned int EJGFJKJOIHO_TypeDefinitionIndex = 43366;
 
 	class EJGFJKJOIHO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::KHPOKIKCOFO*>* ANDEKHHBIIA; // 0x10
+		::OAFCCICMILM* CKJLAAOFGCC; // 0x10
 		::FDPALAEIHPB* MBKIEFPKECG; // 0x18
-		::OAFCCICMILM* CKJLAAOFGCC; // 0x20
+		::System::Collections::Generic::List_1<::KHPOKIKCOFO*>* ANDEKHHBIIA; // 0x20
 		// static const ::System::Object KENLIFDFIEJ; // 0x0
 		::System::Void _ctor(::FDPALAEIHPB* a1, ::OAFCCICMILM* a2)
 		{

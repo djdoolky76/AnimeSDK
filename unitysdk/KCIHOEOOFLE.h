@@ -6,21 +6,21 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitPlayerChangeModel; }
 namespace System { class Object; }
 
-#define KCIHOEOOFLE_CTOR_OFFSET UNITYSDK_OFFSET(0xB338F90)
-#define KCIHOEOOFLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB339020)
-#define KCIHOEOOFLE_JIEFKDHFPPE_OFFSET UNITYSDK_OFFSET(0xB3393C0)
-#define KCIHOEOOFLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB339180)
-#define KCIHOEOOFLE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB339240)
-#define KCIHOEOOFLE_TICK_OFFSET UNITYSDK_OFFSET(0xB339360)
+#define KCIHOEOOFLE_CTOR_OFFSET UNITYSDK_OFFSET(0xBBC3990)
+#define KCIHOEOOFLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBC3A20)
+#define KCIHOEOOFLE_JIEFKDHFPPE_OFFSET UNITYSDK_OFFSET(0xBBC3DC0)
+#define KCIHOEOOFLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBC3B80)
+#define KCIHOEOOFLE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBC3C40)
+#define KCIHOEOOFLE_TICK_OFFSET UNITYSDK_OFFSET(0xBBC3D60)
 
-inline static constexpr unsigned int KCIHOEOOFLE_TypeDefinitionIndex = 58913;
+inline static constexpr unsigned int KCIHOEOOFLE_TypeDefinitionIndex = 60186;
 
 	class KCIHOEOOFLE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::KFELGAIGHAP* GEKHMGEPKPD; // 0x20
-		::RPG::GameCore::WaitPlayerChangeModel* OFKGLJOAMLD; // 0x28
+		::KFELGAIGHAP* GEKHMGEPKPD; // 0x18
+		::RPG::GameCore::WaitPlayerChangeModel* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitPlayerChangeModel* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitPlayerChangeModel*))((::PBYTE)hIl2Cpp + KCIHOEOOFLE_CTOR_OFFSET))(this, a1, a2);

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UniversalHotFixPredicateC; }
 
-#define ADIKNDCNGJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB141060)
-#define ADIKNDCNGJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1410E0)
+#define ADIKNDCNGJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A64E0)
+#define ADIKNDCNGJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7A6560)
 
-inline static constexpr unsigned int ADIKNDCNGJC_TypeDefinitionIndex = 55792;
+inline static constexpr unsigned int ADIKNDCNGJC_TypeDefinitionIndex = 56995;
 
 	class ADIKNDCNGJC : public ::OGEFLHNGAEH
 	{

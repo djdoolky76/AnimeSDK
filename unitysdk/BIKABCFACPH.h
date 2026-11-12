@@ -5,18 +5,18 @@ namespace RPG::Client::Promises { class Promise; }
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace RPG::GameCore { class ChimeraBattleShowNPCLeave; }
 
-#define BIKABCFACPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB4AE8F0)
-#define BIKABCFACPH_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB4AEBD0)
-#define BIKABCFACPH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB4AE930)
+#define BIKABCFACPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE41930)
+#define BIKABCFACPH_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xBE41C10)
+#define BIKABCFACPH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBE41970)
 
-inline static constexpr unsigned int BIKABCFACPH_TypeDefinitionIndex = 78408;
+inline static constexpr unsigned int BIKABCFACPH_TypeDefinitionIndex = 81143;
 
 	class BIKABCFACPH : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x10
+		::RPG::GameCore::ChimeraBattleShowNPCLeave* IGHAHBNLIJA; // 0x10
 		::RPG::Client::Promises::Promise* KKHPFDBFKHH; // 0x18
-		::RPG::GameCore::ChimeraBattleShowNPCLeave* IGHAHBNLIJA; // 0x20
+		::RPG::Client::Prop::ChimeraBattlePuzzleBoard* PNMFAOJNNIC; // 0x20
 		::System::Void _ctor(::RPG::GameCore::ChimeraBattleShowNPCLeave* a1, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::ChimeraBattleShowNPCLeave*, ::RPG::Client::Prop::ChimeraBattlePuzzleBoard*))((::PBYTE)hIl2Cpp + BIKABCFACPH_CTOR_OFFSET))(this, a1, a2);

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JEOPNAHLJHA_TypeDefinitionIndex = 25264;
+inline static constexpr unsigned int JEOPNAHLJHA_TypeDefinitionIndex = 25742;
 
 	enum class JEOPNAHLJHA : ::System::Int32
 	{
@@ -30,6 +30,7 @@ inline static constexpr unsigned int JEOPNAHLJHA_TypeDefinitionIndex = 25264;
 		MMMODLGCIPG = 56,
 		BJDFDGMJNLH = 61,
 		MHGLEGIFEOB = 62,
+		DBOGIDJCDOA = 71,
 		OLPMFLPNIAA = 190,
 		FIAMFDHPAKF = 191,
 		KIFDAFNNLNG = 192,
@@ -77,4 +78,6 @@ inline static constexpr unsigned int JEOPNAHLJHA_TypeDefinitionIndex = 25264;
 		KNPNEIGAIAJ = 281038,
 		DJBABCLEBEC = 281039,
 		JCFALCCMGCB = 281040,
+		LPJJPDCHCHO = 281041,
+		IIACNGBCOLB = 281042,
 	};

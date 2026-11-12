@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define JCHNMBOAIJM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x165951D0)
-#define JCHNMBOAIJM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16595210)
-#define JCHNMBOAIJM___C__ADDNOTIFY_B__7_0_OFFSET UNITYSDK_OFFSET(0x16595220)
+#define JCHNMBOAIJM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8D95D0)
+#define JCHNMBOAIJM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB8D9610)
+#define JCHNMBOAIJM___C__ADDNOTIFY_B__7_0_OFFSET UNITYSDK_OFFSET(0xB8D9620)
 
-inline static constexpr unsigned int JCHNMBOAIJM___c_TypeDefinitionIndex = 61059;
+inline static constexpr unsigned int JCHNMBOAIJM___c_TypeDefinitionIndex = 62444;
 
 	class JCHNMBOAIJM___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EC30);
-		}
-
 		static ::System::Action_2<::RPG::Client::NotifyType, ::System::Object*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_2<::RPG::Client::NotifyType, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6EC38);
+			return (::System::Action_2<::RPG::Client::NotifyType, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65950);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65958);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NHCJOCFIOLG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C960E00)
-#define NHCJOCFIOLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C960E60)
+#define NHCJOCFIOLG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB22BF0)
+#define NHCJOCFIOLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB22C50)
 
-inline static constexpr unsigned int NHCJOCFIOLG_TypeDefinitionIndex = 42101;
+inline static constexpr unsigned int NHCJOCFIOLG_TypeDefinitionIndex = 43076;
 
 	class NHCJOCFIOLG : public ::System::Object
 	{

@@ -7,21 +7,21 @@ class PBGNKMMDBGD;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AHKGFBHBEEO_BEENFOCPCMB_OFFSET UNITYSDK_OFFSET(0x1C587ED0)
-#define AHKGFBHBEEO_BOENADDGNMM_OFFSET UNITYSDK_OFFSET(0x1C588350)
-#define AHKGFBHBEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C587CF0)
-#define AHKGFBHBEEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C587E80)
-#define AHKGFBHBEEO_HMGPJOANMPG_OFFSET UNITYSDK_OFFSET(0x1C588690)
-#define AHKGFBHBEEO_NIKKILEAFKH_OFFSET UNITYSDK_OFFSET(0x1C588A60)
+#define AHKGFBHBEEO_BEENFOCPCMB_OFFSET UNITYSDK_OFFSET(0x1D709820)
+#define AHKGFBHBEEO_BOENADDGNMM_OFFSET UNITYSDK_OFFSET(0x1D709CD0)
+#define AHKGFBHBEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D709640)
+#define AHKGFBHBEEO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D7097D0)
+#define AHKGFBHBEEO_HMGPJOANMPG_OFFSET UNITYSDK_OFFSET(0x1D70A010)
+#define AHKGFBHBEEO_NIKKILEAFKH_OFFSET UNITYSDK_OFFSET(0x1D70A3F0)
 
-inline static constexpr unsigned int AHKGFBHBEEO_TypeDefinitionIndex = 37320;
+inline static constexpr unsigned int AHKGFBHBEEO_TypeDefinitionIndex = 38248;
 
 	class AHKGFBHBEEO : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Int32, ::System::Int32>, ::System::ValueTuple_2<::System::UInt64, ::System::UInt32>>* NEBCGCKIAFM; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::UInt32>>* GPEPMBICJFC; // 0x18
-		::PBGNKMMDBGD* PDENFEFCAGN; // 0x20
+		::PBGNKMMDBGD* PDENFEFCAGN; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::ValueTuple_2<::System::Int32, ::System::UInt32>>* GPEPMBICJFC; // 0x20
 		::System::UInt32 ABFCFDCOAAC; // 0x28
 		// static const ::System::Object JNKAKBIEJAI; // 0x0
 		::System::Void _ctor(::PBGNKMMDBGD* a1)

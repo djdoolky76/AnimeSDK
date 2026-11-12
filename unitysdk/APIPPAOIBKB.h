@@ -1,9 +1,9 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define APIPPAOIBKB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2E7D8F0)
+#define APIPPAOIBKB_EXECUTE_OFFSET UNITYSDK_OFFSET(0x30523D0)
 
-inline static constexpr unsigned int APIPPAOIBKB_TypeDefinitionIndex = 71097;
+inline static constexpr unsigned int APIPPAOIBKB_TypeDefinitionIndex = 73080;
 
 	struct alignas(4) APIPPAOIBKB
 	{

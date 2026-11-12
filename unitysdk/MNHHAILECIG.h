@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class FOLDGFEBJNO;
 
-#define MNHHAILECIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA09020)
+#define MNHHAILECIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C66E0)
 
-inline static constexpr unsigned int MNHHAILECIG_TypeDefinitionIndex = 54317;
+inline static constexpr unsigned int MNHHAILECIG_TypeDefinitionIndex = 55481;
 
 	class MNHHAILECIG : public ::System::Object
 	{

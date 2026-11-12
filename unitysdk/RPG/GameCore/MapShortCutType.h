@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapShortCutType_TypeDefinitionIndex = 12571;
+	inline static constexpr unsigned int MapShortCutType_TypeDefinitionIndex = 12638;
 
 	enum class MapShortCutType : ::System::Int32
 	{

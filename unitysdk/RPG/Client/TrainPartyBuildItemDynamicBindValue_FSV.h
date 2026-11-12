@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/GameCore/CompareType.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV_CTOR_OFFSET UNITYSDK_OFFSET(0xE2FE180)
-#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xE2FE0F0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV_CTOR_OFFSET UNITYSDK_OFFSET(0xED692D0)
+#define RPG_CLIENT_TRAINPARTYBUILDITEMDYNAMICBINDVALUE_FSV_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xED69240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_FSV_TypeDefinitionIndex = 68879;
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_FSV_TypeDefinitionIndex = 70832;
 
 	class TrainPartyBuildItemDynamicBindValue_FSV : public ::RPG::Client::TrainPartyBuildItemDynamicBindValue
 	{

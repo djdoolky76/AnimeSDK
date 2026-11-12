@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define ORBITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB9280)
+#define ORBITDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC8BA960)
 
-inline static constexpr unsigned int OrbitData_TypeDefinitionIndex = 47305;
+inline static constexpr unsigned int OrbitData_TypeDefinitionIndex = 48334;
 
 	class OrbitData : public ::System::Object
 	{

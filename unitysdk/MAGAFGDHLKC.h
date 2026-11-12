@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetDieImmediately; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MAGAFGDHLKC_CTOR_OFFSET UNITYSDK_OFFSET(0xB84C7B0)
-#define MAGAFGDHLKC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB84C7C0)
-#define MAGAFGDHLKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB84C800)
-#define MAGAFGDHLKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB84CA50)
-#define MAGAFGDHLKC_TICK_OFFSET UNITYSDK_OFFSET(0xB84CAA0)
+#define MAGAFGDHLKC_CTOR_OFFSET UNITYSDK_OFFSET(0xC0ADDD0)
+#define MAGAFGDHLKC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC0ADDE0)
+#define MAGAFGDHLKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0ADE20)
+#define MAGAFGDHLKC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC0AE060)
+#define MAGAFGDHLKC_TICK_OFFSET UNITYSDK_OFFSET(0xC0AE0B0)
 
-inline static constexpr unsigned int MAGAFGDHLKC_TypeDefinitionIndex = 55396;
+inline static constexpr unsigned int MAGAFGDHLKC_TypeDefinitionIndex = 56581;
 
 	class MAGAFGDHLKC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetDieImmediately* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::SetDieImmediately* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDieImmediately* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetDieImmediately*))((::PBYTE)hIl2Cpp + MAGAFGDHLKC_CTOR_OFFSET))(this, a1, a2);

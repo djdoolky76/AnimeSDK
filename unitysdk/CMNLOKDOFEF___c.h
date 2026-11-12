@@ -4,18 +4,18 @@
 class CMNLOKDOFEF;
 namespace System { class Object; }
 
-#define CMNLOKDOFEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E104DA0)
-#define CMNLOKDOFEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E104DE0)
-#define CMNLOKDOFEF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E104DF0)
+#define CMNLOKDOFEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3FCF40)
+#define CMNLOKDOFEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3FCF80)
+#define CMNLOKDOFEF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F3FCF90)
 
-inline static constexpr unsigned int CMNLOKDOFEF___c_TypeDefinitionIndex = 25751;
+inline static constexpr unsigned int CMNLOKDOFEF___c_TypeDefinitionIndex = 26248;
 
 	class CMNLOKDOFEF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E910);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19E20);
 		}
 
 		static ::System::Void _cctor()

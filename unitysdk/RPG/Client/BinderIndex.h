@@ -6,16 +6,16 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_BINDERINDEX_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8859C0)
-#define RPG_CLIENT_BINDERINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0xC885980)
-#define RPG_CLIENT_BINDERINDEX_GETFILENAME_OFFSET UNITYSDK_OFFSET(0xC885910)
-#define RPG_CLIENT_BINDERINDEX_GETPLAINCOMPONENTBYINDEX_OFFSET UNITYSDK_OFFSET(0xC8856E0)
-#define RPG_CLIENT_BINDERINDEX_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xC885690)
-#define RPG_CLIENT_BINDERINDEX_INDEXVALID_OFFSET UNITYSDK_OFFSET(0xC885630)
+#define RPG_CLIENT_BINDERINDEX_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1EB0E0)
+#define RPG_CLIENT_BINDERINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0xD1EB0A0)
+#define RPG_CLIENT_BINDERINDEX_GETFILENAME_OFFSET UNITYSDK_OFFSET(0xD1EB030)
+#define RPG_CLIENT_BINDERINDEX_GETPLAINCOMPONENTBYINDEX_OFFSET UNITYSDK_OFFSET(0xD1EAE00)
+#define RPG_CLIENT_BINDERINDEX_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xD1EADB0)
+#define RPG_CLIENT_BINDERINDEX_INDEXVALID_OFFSET UNITYSDK_OFFSET(0xD1EAD50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BinderIndex_TypeDefinitionIndex = 72508;
+	inline static constexpr unsigned int BinderIndex_TypeDefinitionIndex = 74587;
 
 	class BinderIndex : public ::UnityEngine::MonoBehaviour
 	{
@@ -24,7 +24,7 @@ namespace RPG::Client
 		::System::String* OutputFileName; // 0x20
 		static ::System::Boolean* StaticGet_BinderIndexOpen()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "BinderIndex")->GetStaticField(0x5710);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "BinderIndex")->GetStaticField(0x5B60);
 		}
 
 		::System::Void _ctor()

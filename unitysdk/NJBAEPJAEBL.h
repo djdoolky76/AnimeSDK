@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BySimulateSpeedUp; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NJBAEPJAEBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC08FA0)
-#define NJBAEPJAEBL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC08FD0)
+#define NJBAEPJAEBL_CTOR_OFFSET UNITYSDK_OFFSET(0xC4EC170)
+#define NJBAEPJAEBL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4EC1A0)
 
-inline static constexpr unsigned int NJBAEPJAEBL_TypeDefinitionIndex = 54713;
+inline static constexpr unsigned int NJBAEPJAEBL_TypeDefinitionIndex = 55880;
 
 	class NJBAEPJAEBL
 	{

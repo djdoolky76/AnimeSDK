@@ -4,10 +4,10 @@
 class AENGOKAEEOA;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarData; }
 
-#define IIMCAOLPLDG___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1644BE00)
-#define IIMCAOLPLDG___C__DISPLAYCLASS6_0__GETBACKUPCHARACTERDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0x1644DC30)
+#define IIMCAOLPLDG___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17406B90)
+#define IIMCAOLPLDG___C__DISPLAYCLASS6_0__GETBACKUPCHARACTERDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0x174089E0)
 
-inline static constexpr unsigned int IIMCAOLPLDG___c__DisplayClass6_0_TypeDefinitionIndex = 73270;
+inline static constexpr unsigned int IIMCAOLPLDG___c__DisplayClass6_0_TypeDefinitionIndex = 75386;
 
 	class IIMCAOLPLDG___c__DisplayClass6_0 : public ::System::Object
 	{

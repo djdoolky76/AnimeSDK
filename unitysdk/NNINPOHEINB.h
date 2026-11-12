@@ -7,27 +7,26 @@ namespace RPG::GameCore { class PropStateChangeListenerConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define NNINPOHEINB_CTOR_OFFSET UNITYSDK_OFFSET(0xBCAF300)
-#define NNINPOHEINB_DFJAMCIAJPP_OFFSET UNITYSDK_OFFSET(0xBCAFA10)
-#define NNINPOHEINB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCAFDD0)
-#define NNINPOHEINB_ECEBDIPBCGN_OFFSET UNITYSDK_OFFSET(0xBCAFAF0)
-#define NNINPOHEINB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCAF320)
-#define NNINPOHEINB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCAF9C0)
-#define NNINPOHEINB_TICK_OFFSET UNITYSDK_OFFSET(0xBCAFEB0)
+#define NNINPOHEINB_CTOR_OFFSET UNITYSDK_OFFSET(0xC597D60)
+#define NNINPOHEINB_DFJAMCIAJPP_OFFSET UNITYSDK_OFFSET(0xC598470)
+#define NNINPOHEINB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC598830)
+#define NNINPOHEINB_ECEBDIPBCGN_OFFSET UNITYSDK_OFFSET(0xC598550)
+#define NNINPOHEINB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC597D80)
+#define NNINPOHEINB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC598420)
+#define NNINPOHEINB_TICK_OFFSET UNITYSDK_OFFSET(0xC598910)
 
-inline static constexpr unsigned int NNINPOHEINB_TypeDefinitionIndex = 58359;
+inline static constexpr unsigned int NNINPOHEINB_TypeDefinitionIndex = 59615;
 
 	class NNINPOHEINB : public ::GELIALJDFBL
 	{
 	public:
-		::GELIALJDFBL* MJOEBIHKEIG; // 0x18
-		::RPG::GameCore::PropStateChangeListenerConfig* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::PropStateChangeListenerConfig* IGHAHBNLIJA; // 0x18
+		::GELIALJDFBL* MJOEBIHKEIG; // 0x20
 		::System::String* HFLOLHCOGMG; // 0x28
 		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x30
 		::System::UInt32 JJNEKDFIBMA; // 0x38
-		::System::Boolean BJIMNGNKDGD; // 0x3C
-		::System::Byte _padding0[0x3];
-		::System::UInt32 IDOEBJDGHBF; // 0x40
+		::System::UInt32 IDOEBJDGHBF; // 0x3C
+		::System::Boolean BJIMNGNKDGD; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::PropStateChangeListenerConfig* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::PropStateChangeListenerConfig*))((::PBYTE)hIl2Cpp + NNINPOHEINB_CTOR_OFFSET))(this, a1, a2);

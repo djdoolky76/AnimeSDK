@@ -12,23 +12,23 @@ namespace System::ComponentModel { class ICustomTypeDescriptor; }
 namespace System::ComponentModel { class ReflectTypeDescriptionProvider_ReflectedTypeData; }
 namespace System::ComponentModel { class TypeConverter; }
 
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF6BE0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x1EFF3660)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF2110)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1EFF37B0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETCACHE_OFFSET UNITYSDK_OFFSET(0x1EFF4640)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x1EFF4C40)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETEXTENDEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1EFF52B0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETEXTENDEDCONVERTER_OFFSET UNITYSDK_OFFSET(0x1EFF52E0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETEXTENDEDTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EFF5330)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETREFLECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x1EFF5340)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETTYPEDATA_OFFSET UNITYSDK_OFFSET(0x1EFF37E0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1EFF5360)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GET_INTRINSICTYPECONVERTERS_OFFSET UNITYSDK_OFFSET(0x1EFF2130)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_ISPOPULATED_OFFSET UNITYSDK_OFFSET(0x1EFF5370)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTGETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x1EFF53B0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFRESH_OFFSET UNITYSDK_OFFSET(0x1EFF5AA0)
-#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_SEARCHINTRINSICTABLE_OFFSET UNITYSDK_OFFSET(0x1EFF5AF0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x202A64B0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_CREATEINSTANCE_OFFSET UNITYSDK_OFFSET(0x202A2E80)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x202A1930)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x202A2FD0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETCACHE_OFFSET UNITYSDK_OFFSET(0x202A3E30)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETCONVERTER_OFFSET UNITYSDK_OFFSET(0x202A4430)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETEXTENDEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x202A4AA0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETEXTENDEDCONVERTER_OFFSET UNITYSDK_OFFSET(0x202A4AD0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETEXTENDEDTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x202A4B20)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETREFLECTIONTYPE_OFFSET UNITYSDK_OFFSET(0x202A4B30)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETTYPEDATA_OFFSET UNITYSDK_OFFSET(0x202A3000)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GETTYPEDESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x202A4B50)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_GET_INTRINSICTYPECONVERTERS_OFFSET UNITYSDK_OFFSET(0x202A1950)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_ISPOPULATED_OFFSET UNITYSDK_OFFSET(0x202A4B60)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFLECTGETATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x202A4BA0)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_REFRESH_OFFSET UNITYSDK_OFFSET(0x202A5290)
+#define SYSTEM_COMPONENTMODEL_REFLECTTYPEDESCRIPTIONPROVIDER_SEARCHINTRINSICTABLE_OFFSET UNITYSDK_OFFSET(0x202A52E0)
 
 namespace System::ComponentModel
 {
@@ -40,57 +40,57 @@ namespace System::ComponentModel
 		::System::Collections::Hashtable* _typeData; // 0x20
 		static ::System::Object** StaticGet__intrinsicNullableKey()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B6E0);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet__attributeCache()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B6E8);
-		}
-
-		static ::Il2CppArray<::System::Type*>** StaticGet__skipInterfaceAttributeList()
-		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B6F0);
-		}
-
-		static ::System::Object** StaticGet__intrinsicReferenceKey()
-		{
-			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B6F8);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet__intrinsicTypeConverters()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B700);
+			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B160);
 		}
 
 		static ::System::Object** StaticGet__dictionaryKey()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B708);
+			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B168);
 		}
 
-		static ::System::Object** StaticGet__internalSyncObject()
+		static ::System::Collections::Hashtable** StaticGet__attributeCache()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B710);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B170);
 		}
 
 		static ::Il2CppArray<::System::Type*>** StaticGet__typeConstructor()
 		{
-			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x3B718);
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B178);
 		}
 
-		static ::System::Guid* StaticGet__extenderPropertiesKey()
+		static ::System::Object** StaticGet__intrinsicReferenceKey()
 		{
-			return (::System::Guid*)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0xCA40);
+			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B180);
 		}
 
-		static ::System::Guid* StaticGet__extenderProviderPropertiesKey()
+		static ::System::Collections::Hashtable** StaticGet__intrinsicTypeConverters()
 		{
-			return (::System::Guid*)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0xCA50);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B188);
+		}
+
+		static ::System::Object** StaticGet__internalSyncObject()
+		{
+			return (::System::Object**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B190);
+		}
+
+		static ::Il2CppArray<::System::Type*>** StaticGet__skipInterfaceAttributeList()
+		{
+			return (::Il2CppArray<::System::Type*>**)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x2B198);
 		}
 
 		static ::System::Guid* StaticGet__extenderProviderKey()
 		{
-			return (::System::Guid*)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0xCA60);
+			return (::System::Guid*)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x8D70);
+		}
+
+		static ::System::Guid* StaticGet__extenderProviderPropertiesKey()
+		{
+			return (::System::Guid*)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x8D80);
+		}
+
+		static ::System::Guid* StaticGet__extenderPropertiesKey()
+		{
+			return (::System::Guid*)UnitySDK::FromName("System.ComponentModel", "ReflectTypeDescriptionProvider")->GetStaticField(0x8D90);
 		}
 
 		::System::Void _ctor()

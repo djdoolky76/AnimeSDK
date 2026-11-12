@@ -6,7 +6,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int LightVolumeInfo_TypeDefinitionIndex = 4874;
+	inline static constexpr unsigned int LightVolumeInfo_TypeDefinitionIndex = 4879;
 
 	struct alignas(4) LightVolumeInfo
 	{

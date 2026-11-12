@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/StringHash.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int EHBDCHCIMPG_TypeDefinitionIndex = 57757;
+inline static constexpr unsigned int EHBDCHCIMPG_TypeDefinitionIndex = 58992;
 
 	struct alignas(8) EHBDCHCIMPG
 	{

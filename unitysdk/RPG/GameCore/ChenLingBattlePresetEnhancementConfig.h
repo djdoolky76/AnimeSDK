@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingBattlePresetEnhancementConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEPRESETENHANCEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D587860)
-#define RPG_GAMECORE_CHENLINGBATTLEPRESETENHANCEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D587740)
+#define RPG_GAMECORE_CHENLINGBATTLEPRESETENHANCEMENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E797CF0)
+#define RPG_GAMECORE_CHENLINGBATTLEPRESETENHANCEMENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E797BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattlePresetEnhancementConfig_TypeDefinitionIndex = 15692;
+	inline static constexpr unsigned int ChenLingBattlePresetEnhancementConfig_TypeDefinitionIndex = 15850;
 
 	class ChenLingBattlePresetEnhancementConfig : public ::RPG::GameCore::JsonConfig
 	{

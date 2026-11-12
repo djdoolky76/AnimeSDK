@@ -5,10 +5,10 @@ class HIOAMIPNLIN;
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ICPIAGADBBO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E66700)
-#define ICPIAGADBBO___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0x15E66940)
+#define ICPIAGADBBO___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16E141C0)
+#define ICPIAGADBBO___C__DISPLAYCLASS1_0__EVALUATE_B__0_OFFSET UNITYSDK_OFFSET(0x16E14400)
 
-inline static constexpr unsigned int ICPIAGADBBO___c__DisplayClass1_0_TypeDefinitionIndex = 53801;
+inline static constexpr unsigned int ICPIAGADBBO___c__DisplayClass1_0_TypeDefinitionIndex = 54965;
 
 	class ICPIAGADBBO___c__DisplayClass1_0 : public ::System::Object
 	{

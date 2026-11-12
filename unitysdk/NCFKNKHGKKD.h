@@ -6,13 +6,13 @@ class GHHIAGDFMMN;
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define NCFKNKHGKKD_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB0ECC0)
-#define NCFKNKHGKKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB0E5E0)
-#define NCFKNKHGKKD_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBB0ECB0)
-#define NCFKNKHGKKD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB0E640)
-#define NCFKNKHGKKD_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xBB0E690)
+#define NCFKNKHGKKD_CCTOR_OFFSET UNITYSDK_OFFSET(0xC395DC0)
+#define NCFKNKHGKKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC3956F0)
+#define NCFKNKHGKKD_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xC395DB0)
+#define NCFKNKHGKKD_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC395750)
+#define NCFKNKHGKKD_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xC3957A0)
 
-inline static constexpr unsigned int NCFKNKHGKKD_TypeDefinitionIndex = 57044;
+inline static constexpr unsigned int NCFKNKHGKKD_TypeDefinitionIndex = 58271;
 
 	class NCFKNKHGKKD : public ::BDENDNDOFLF
 	{
@@ -22,12 +22,12 @@ inline static constexpr unsigned int NCFKNKHGKKD_TypeDefinitionIndex = 57044;
 		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x78
 		static ::System::Int32* StaticGet_GFHGDAAIKEL()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "NCFKNKHGKKD")->GetStaticField(0x81D0);
+			return (::System::Int32*)UnitySDK::FromName("", "NCFKNKHGKKD")->GetStaticField(0x6880);
 		}
 
 		static ::System::Int32* StaticGet_EEFFFMLAANC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "NCFKNKHGKKD")->GetStaticField(0x81D4);
+			return (::System::Int32*)UnitySDK::FromName("", "NCFKNKHGKKD")->GetStaticField(0x6884);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)

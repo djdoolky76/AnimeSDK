@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FEMGODPIOBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E290)
+#define FEMGODPIOBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31BF0)
 
-inline static constexpr unsigned int FEMGODPIOBN_TypeDefinitionIndex = 42119;
+inline static constexpr unsigned int FEMGODPIOBN_TypeDefinitionIndex = 43094;
 
 	class FEMGODPIOBN : public ::System::Object
 	{

@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Nerdbank::Streams
 {
-	inline static constexpr unsigned int Sequence_1_TypeDefinitionIndex = 7155;
+	inline static constexpr unsigned int Sequence_1_TypeDefinitionIndex = 7166;
 
 	template <typename T>
 	class Sequence_1 : public ::System::Object

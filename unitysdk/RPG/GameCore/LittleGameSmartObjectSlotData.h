@@ -7,12 +7,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameSmartObjectSlotData; }
 
-#define RPG_GAMECORE_LITTLEGAMESMARTOBJECTSLOTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E65E0)
-#define RPG_GAMECORE_LITTLEGAMESMARTOBJECTSLOTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E6310)
+#define RPG_GAMECORE_LITTLEGAMESMARTOBJECTSLOTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA293B0)
+#define RPG_GAMECORE_LITTLEGAMESMARTOBJECTSLOTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA291E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameSmartObjectSlotData_TypeDefinitionIndex = 18874;
+	inline static constexpr unsigned int LittleGameSmartObjectSlotData_TypeDefinitionIndex = 19036;
 
 	class LittleGameSmartObjectSlotData : public ::RPG::GameCore::JsonConfig
 	{

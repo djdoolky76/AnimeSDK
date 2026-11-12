@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PunkLordHonorRow; }
 
-#define RPG_GAMECORE_PUNKLORDHONORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95D620)
-#define RPG_GAMECORE_PUNKLORDHONORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D95D460)
+#define RPG_GAMECORE_PUNKLORDHONORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB759C0)
+#define RPG_GAMECORE_PUNKLORDHONORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB75800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PunkLordHonorRow_TypeDefinitionIndex = 12295;
+	inline static constexpr unsigned int PunkLordHonorRow_TypeDefinitionIndex = 12352;
 
 	class PunkLordHonorRow : public ::System::Object
 	{

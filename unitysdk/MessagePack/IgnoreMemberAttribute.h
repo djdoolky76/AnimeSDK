@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define MESSAGEPACK_IGNOREMEMBERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB611B0)
+#define MESSAGEPACK_IGNOREMEMBERATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE9EC0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int IgnoreMemberAttribute_TypeDefinitionIndex = 6168;
+	inline static constexpr unsigned int IgnoreMemberAttribute_TypeDefinitionIndex = 6175;
 
 	class IgnoreMemberAttribute : public ::System::Attribute
 	{

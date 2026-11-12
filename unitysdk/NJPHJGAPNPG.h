@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 class NJPHJGAPNPG;
 namespace RPG::GameCore { class FiveDimPortalTarget; }
 
-#define NJPHJGAPNPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D22E820)
-#define NJPHJGAPNPG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D22E830)
-#define NJPHJGAPNPG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D22E7F0)
+#define NJPHJGAPNPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E433670)
+#define NJPHJGAPNPG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E433680)
+#define NJPHJGAPNPG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E433640)
 
-inline static constexpr unsigned int NJPHJGAPNPG_TypeDefinitionIndex = 21461;
+inline static constexpr unsigned int NJPHJGAPNPG_TypeDefinitionIndex = 21804;
 
 	class NJPHJGAPNPG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::FiveDimPortalTarget* MCLLALGABAB; // 0x18
-		::System::Boolean FIIGINAGCKL; // 0x20
-		::System::Boolean OOMOFODFCBH; // 0x21
+		::System::Boolean OOMOFODFCBH; // 0x20
+		::System::Boolean FIIGINAGCKL; // 0x21
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NJPHJGAPNPG_CTOR_OFFSET))(this);

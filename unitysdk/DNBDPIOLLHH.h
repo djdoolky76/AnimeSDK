@@ -3,23 +3,23 @@
 #include "unitysdk/System/Object.h"
 class GEDMHFPPBHN;
 
-#define DNBDPIOLLHH_CCTOR_OFFSET UNITYSDK_OFFSET(0x11940630)
-#define DNBDPIOLLHH_CTOR_OFFSET UNITYSDK_OFFSET(0x11940480)
-#define DNBDPIOLLHH_GBAJONBCAJJ_OFFSET UNITYSDK_OFFSET(0x119405C0)
-#define DNBDPIOLLHH_PBAMNLGHDJG_OFFSET UNITYSDK_OFFSET(0x11940530)
+#define DNBDPIOLLHH_CCTOR_OFFSET UNITYSDK_OFFSET(0x126D1B40)
+#define DNBDPIOLLHH_CTOR_OFFSET UNITYSDK_OFFSET(0x126D1990)
+#define DNBDPIOLLHH_GBAJONBCAJJ_OFFSET UNITYSDK_OFFSET(0x126D1AD0)
+#define DNBDPIOLLHH_PBAMNLGHDJG_OFFSET UNITYSDK_OFFSET(0x126D1A40)
 
-inline static constexpr unsigned int DNBDPIOLLHH_TypeDefinitionIndex = 71211;
+inline static constexpr unsigned int DNBDPIOLLHH_TypeDefinitionIndex = 73193;
 
 	class DNBDPIOLLHH : public ::System::Object
 	{
 	public:
 		::GEDMHFPPBHN* IOJNCJMDDOD; // 0x10
 		::System::UInt32 LCHLDHNIILN; // 0x18
-		::System::Boolean JMBIGPPGCEK; // 0x1C
-		::System::Boolean HIGNCPLFPCK; // 0x1D
+		::System::Boolean HIGNCPLFPCK; // 0x1C
+		::System::Boolean JMBIGPPGCEK; // 0x1D
 		static ::System::UInt32* StaticGet_KKGGDACLCAE()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "DNBDPIOLLHH")->GetStaticField(0x158A0);
+			return (::System::UInt32*)UnitySDK::FromName("", "DNBDPIOLLHH")->GetStaticField(0x15970);
 		}
 
 		::System::Void _ctor()

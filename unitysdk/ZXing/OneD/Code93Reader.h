@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ZXing/OneD/OneDReader.h"
 
-#define ZXING_ONED_CODE93READER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6BF090)
+#define ZXING_ONED_CODE93READER_CCTOR_OFFSET UNITYSDK_OFFSET(0x2096E7B0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int Code93Reader_TypeDefinitionIndex = 6976;
+	inline static constexpr unsigned int Code93Reader_TypeDefinitionIndex = 6987;
 
 	class Code93Reader : public ::ZXing::OneD::OneDReader
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "Code93Reader")->GetStaticField(0x22990);
-		}
-
 		static ::Il2CppArray<::System::Int32>** StaticGet_CHARACTER_ENCODINGS()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "Code93Reader")->GetStaticField(0x22998);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "Code93Reader")->GetStaticField(0x43200);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_ALPHABET()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("ZXing.OneD", "Code93Reader")->GetStaticField(0x43208);
 		}
 
 		static ::System::Int32* StaticGet_ASTERISK_ENCODING()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "Code93Reader")->GetStaticField(0x7B30);
+			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "Code93Reader")->GetStaticField(0xE310);
 		}
 
 		static ::System::Void _cctor()

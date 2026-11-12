@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define ABKHJBACHOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEFD0)
+#define ABKHJBACHOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEFB0)
 
-inline static constexpr unsigned int ABKHJBACHOO_TypeDefinitionIndex = 74548;
+inline static constexpr unsigned int ABKHJBACHOO_TypeDefinitionIndex = 76696;
 
 	struct alignas(4) ABKHJBACHOO
 	{

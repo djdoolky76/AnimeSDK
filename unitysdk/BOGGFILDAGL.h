@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BOGGFILDAGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8C3710)
+#define BOGGFILDAGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA44460)
 
-inline static constexpr unsigned int BOGGFILDAGL_TypeDefinitionIndex = 43302;
+inline static constexpr unsigned int BOGGFILDAGL_TypeDefinitionIndex = 44283;
 
 	class BOGGFILDAGL : public ::System::Object
 	{

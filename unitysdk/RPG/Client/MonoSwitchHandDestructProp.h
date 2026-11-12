@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOSWITCHHANDDESTRUCTPROP_CTOR_OFFSET UNITYSDK_OFFSET(0xD867960)
+#define RPG_CLIENT_MONOSWITCHHANDDESTRUCTPROP_CTOR_OFFSET UNITYSDK_OFFSET(0xE2B9F10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoSwitchHandDestructProp_TypeDefinitionIndex = 68781;
+	inline static constexpr unsigned int MonoSwitchHandDestructProp_TypeDefinitionIndex = 70733;
 
 	class MonoSwitchHandDestructProp : public ::UnityEngine::MonoBehaviour
 	{

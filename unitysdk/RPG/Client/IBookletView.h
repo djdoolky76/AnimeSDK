@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IBookletView_TypeDefinitionIndex = 72454;
+	inline static constexpr unsigned int IBookletView_TypeDefinitionIndex = 74533;
 
 	class IBookletView
 	{

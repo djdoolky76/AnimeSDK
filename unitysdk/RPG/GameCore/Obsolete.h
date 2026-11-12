@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class Obsolete; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OBSOLETE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DE8F0)
-#define RPG_GAMECORE_OBSOLETE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8DE900)
-#define RPG_GAMECORE_OBSOLETE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DE8C0)
+#define RPG_GAMECORE_OBSOLETE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF75B0)
+#define RPG_GAMECORE_OBSOLETE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAF75C0)
+#define RPG_GAMECORE_OBSOLETE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAF7580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Obsolete_TypeDefinitionIndex = 23766;
+	inline static constexpr unsigned int Obsolete_TypeDefinitionIndex = 24222;
 
 	class Obsolete : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/FixVec3.h"
 #include "unitysdk/System/Object.h"
 
-#define LEHBJLFHDAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB653BD0)
+#define LEHBJLFHDAD_CTOR_OFFSET UNITYSDK_OFFSET(0xBEEA600)
 
-inline static constexpr unsigned int LEHBJLFHDAD_TypeDefinitionIndex = 54273;
+inline static constexpr unsigned int LEHBJLFHDAD_TypeDefinitionIndex = 55437;
 
 	class LEHBJLFHDAD : public ::System::Object
 	{

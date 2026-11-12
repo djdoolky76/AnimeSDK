@@ -4,18 +4,18 @@
 class ALBOKFLDIIH;
 namespace System { class Object; }
 
-#define ALBOKFLDIIH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3D4AC0)
-#define ALBOKFLDIIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D4B00)
-#define ALBOKFLDIIH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3D4B10)
+#define ALBOKFLDIIH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7C2700)
+#define ALBOKFLDIIH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7C2740)
+#define ALBOKFLDIIH___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F7C2750)
 
-inline static constexpr unsigned int ALBOKFLDIIH___c_TypeDefinitionIndex = 33467;
+inline static constexpr unsigned int ALBOKFLDIIH___c_TypeDefinitionIndex = 34382;
 
 	class ALBOKFLDIIH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37910);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3DD80);
 		}
 
 		static ::System::Void _cctor()

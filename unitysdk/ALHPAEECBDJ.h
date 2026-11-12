@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RadialBlurEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ALHPAEECBDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1556CD70)
-#define ALHPAEECBDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1556CD80)
-#define ALHPAEECBDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1556CDC0)
-#define ALHPAEECBDJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1556D260)
-#define ALHPAEECBDJ_TICK_OFFSET UNITYSDK_OFFSET(0x1556D2B0)
+#define ALHPAEECBDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x163DA630)
+#define ALHPAEECBDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x163DA640)
+#define ALHPAEECBDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163DA680)
+#define ALHPAEECBDJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x163DAB20)
+#define ALHPAEECBDJ_TICK_OFFSET UNITYSDK_OFFSET(0x163DAB70)
 
-inline static constexpr unsigned int ALHPAEECBDJ_TypeDefinitionIndex = 55274;
+inline static constexpr unsigned int ALHPAEECBDJ_TypeDefinitionIndex = 56455;
 
 	class ALHPAEECBDJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::RadialBlurEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::RadialBlurEffect* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RadialBlurEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RadialBlurEffect*))((::PBYTE)hIl2Cpp + ALHPAEECBDJ_CTOR_OFFSET))(this, a1, a2);

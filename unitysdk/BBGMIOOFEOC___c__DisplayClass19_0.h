@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class BBGMIOOFEOC;
 
-#define BBGMIOOFEOC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4355E0)
-#define BBGMIOOFEOC___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x1C4356F0)
+#define BBGMIOOFEOC___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5BBC10)
+#define BBGMIOOFEOC___C__DISPLAYCLASS19_0___CHECK_DUPLICATES_B__0_OFFSET UNITYSDK_OFFSET(0x1D5BBD20)
 
-inline static constexpr unsigned int BBGMIOOFEOC___c__DisplayClass19_0_TypeDefinitionIndex = 41520;
+inline static constexpr unsigned int BBGMIOOFEOC___c__DisplayClass19_0_TypeDefinitionIndex = 42495;
 
 	class BBGMIOOFEOC___c__DisplayClass19_0 : public ::System::Object
 	{

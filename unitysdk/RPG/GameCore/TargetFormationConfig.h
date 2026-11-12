@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetFormationConfig; }
 
-#define RPG_GAMECORE_TARGETFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB67930)
-#define RPG_GAMECORE_TARGETFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB677B0)
+#define RPG_GAMECORE_TARGETFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE16F70)
+#define RPG_GAMECORE_TARGETFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE16DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetFormationConfig_TypeDefinitionIndex = 22493;
+	inline static constexpr unsigned int TargetFormationConfig_TypeDefinitionIndex = 22902;
 
 	class TargetFormationConfig : public ::RPG::GameCore::JsonConfig
 	{

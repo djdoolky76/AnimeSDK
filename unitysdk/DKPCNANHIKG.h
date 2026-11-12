@@ -3,7 +3,7 @@
 class ADBNDDAJGBP;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-inline static constexpr unsigned int DKPCNANHIKG_TypeDefinitionIndex = 63130;
+inline static constexpr unsigned int DKPCNANHIKG_TypeDefinitionIndex = 64568;
 
 	struct alignas(8) DKPCNANHIKG
 	{

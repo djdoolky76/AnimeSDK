@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIFollowMode_TypeDefinitionIndex = 24608;
+	inline static constexpr unsigned int AIFollowMode_TypeDefinitionIndex = 25076;
 
 	enum class AIFollowMode : ::System::Int32
 	{

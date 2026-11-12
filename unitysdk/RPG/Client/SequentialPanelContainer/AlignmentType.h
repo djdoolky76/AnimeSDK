@@ -3,7 +3,7 @@
 
 namespace RPG::Client::SequentialPanelContainer
 {
-	inline static constexpr unsigned int AlignmentType_TypeDefinitionIndex = 74755;
+	inline static constexpr unsigned int AlignmentType_TypeDefinitionIndex = 76909;
 
 	enum class AlignmentType : ::System::Int32
 	{

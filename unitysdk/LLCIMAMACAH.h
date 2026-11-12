@@ -5,10 +5,10 @@
 class OONGDLIDJJJ;
 namespace RPG::GameCore { class CheckTurnStateAxis; }
 
-#define LLCIMAMACAH_CTOR_OFFSET UNITYSDK_OFFSET(0xB7629F0)
-#define LLCIMAMACAH_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB762A00)
+#define LLCIMAMACAH_CTOR_OFFSET UNITYSDK_OFFSET(0xC002190)
+#define LLCIMAMACAH_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xC0021A0)
 
-inline static constexpr unsigned int LLCIMAMACAH_TypeDefinitionIndex = 54376;
+inline static constexpr unsigned int LLCIMAMACAH_TypeDefinitionIndex = 55540;
 
 	class LLCIMAMACAH : public ::BEMKNPIFMBI
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyTeamBoostPointMax; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFKIDJJLCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C882F0)
-#define HFKIDJJLCPL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C88320)
+#define HFKIDJJLCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x16BCFAC0)
+#define HFKIDJJLCPL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BCFAF0)
 
-inline static constexpr unsigned int HFKIDJJLCPL_TypeDefinitionIndex = 55220;
+inline static constexpr unsigned int HFKIDJJLCPL_TypeDefinitionIndex = 56401;
 
 	class HFKIDJJLCPL
 	{

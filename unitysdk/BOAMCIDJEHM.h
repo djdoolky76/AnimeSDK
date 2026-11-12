@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropInitFastDeliverPuzzle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOAMCIDJEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE7270)
-#define BOAMCIDJEHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDE72A0)
+#define BOAMCIDJEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xC768070)
+#define BOAMCIDJEHM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7680A0)
 
-inline static constexpr unsigned int BOAMCIDJEHM_TypeDefinitionIndex = 58329;
+inline static constexpr unsigned int BOAMCIDJEHM_TypeDefinitionIndex = 59585;
 
 	class BOAMCIDJEHM
 	{

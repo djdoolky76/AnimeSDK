@@ -5,10 +5,10 @@
 namespace RPG::Client { class MonoCharacterHeadPoint; }
 namespace UnityEngine { class Transform; }
 
-#define EHHAOKBNDII_HHHBOFNGHCK_OFFSET UNITYSDK_OFFSET(0x2E72B00)
-#define EHHAOKBNDII_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x2E72B40)
+#define EHHAOKBNDII_HHHBOFNGHCK_OFFSET UNITYSDK_OFFSET(0x3047770)
+#define EHHAOKBNDII_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x30477B0)
 
-inline static constexpr unsigned int EHHAOKBNDII_TypeDefinitionIndex = 57099;
+inline static constexpr unsigned int EHHAOKBNDII_TypeDefinitionIndex = 58328;
 
 	struct alignas(8) EHHAOKBNDII
 	{

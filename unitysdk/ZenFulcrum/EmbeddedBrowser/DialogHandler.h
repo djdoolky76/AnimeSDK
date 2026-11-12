@@ -8,16 +8,16 @@ namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler; }
 namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_DialogCallback; }
 namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_MenuCallback; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x1F63EDB0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F659190)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLECONTEXTMENU_OFFSET UNITYSDK_OFFSET(0x1F648740)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLEDIALOG_OFFSET UNITYSDK_OFFSET(0x1F647F30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HIDE_OFFSET UNITYSDK_OFFSET(0x1F658FD0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_SHOW_OFFSET UNITYSDK_OFFSET(0x1F659130)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_CREATE_OFFSET UNITYSDK_OFFSET(0x208EE640)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_CTOR_OFFSET UNITYSDK_OFFSET(0x20908960)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLECONTEXTMENU_OFFSET UNITYSDK_OFFSET(0x208F7FC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HANDLEDIALOG_OFFSET UNITYSDK_OFFSET(0x208F77B0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_HIDE_OFFSET UNITYSDK_OFFSET(0x209087A0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_SHOW_OFFSET UNITYSDK_OFFSET(0x20908900)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int DialogHandler_TypeDefinitionIndex = 39493;
+	inline static constexpr unsigned int DialogHandler_TypeDefinitionIndex = 40422;
 
 	class DialogHandler : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,7 +28,7 @@ namespace ZenFulcrum::EmbeddedBrowser
 		::ZenFulcrum::EmbeddedBrowser::DialogHandler_MenuCallback* contextCallback; // 0x30
 		static ::System::String** StaticGet_dialogPage()
 		{
-			return (::System::String**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "DialogHandler")->GetStaticField(0x523E0);
+			return (::System::String**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "DialogHandler")->GetStaticField(0x482B0);
 		}
 
 		::System::Void _ctor()

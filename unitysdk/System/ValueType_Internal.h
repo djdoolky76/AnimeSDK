@@ -11,7 +11,7 @@ namespace System
 	public:
 		static ::System::Int32* StaticGet_hash_code_of_ptr_seed()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System", "Internal")->GetStaticField(0x7EB0);
+			return (::System::Int32*)UnitySDK::FromName("System", "Internal")->GetStaticField(0x87F0);
 		}
 
 	};

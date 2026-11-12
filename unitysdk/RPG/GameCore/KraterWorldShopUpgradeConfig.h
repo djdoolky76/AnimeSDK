@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class KraterWorldShopUpgradeConfig; }
 
-#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A3130)
-#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7A3060)
+#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E66B0)
+#define RPG_GAMECORE_KRATERWORLDSHOPUPGRADECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9E65E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int KraterWorldShopUpgradeConfig_TypeDefinitionIndex = 16815;
+	inline static constexpr unsigned int KraterWorldShopUpgradeConfig_TypeDefinitionIndex = 16982;
 
 	class KraterWorldShopUpgradeConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BPBFCHPINDD_FadingDoneActionType_TypeDefinitionIndex = 73798;
+inline static constexpr unsigned int BPBFCHPINDD_FadingDoneActionType_TypeDefinitionIndex = 75924;
 
 	enum class BPBFCHPINDD_FadingDoneActionType : ::System::Int32
 	{

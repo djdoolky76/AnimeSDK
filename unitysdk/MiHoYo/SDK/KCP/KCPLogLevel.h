@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::KCP
 {
-	inline static constexpr unsigned int KCPLogLevel_TypeDefinitionIndex = 46690;
+	inline static constexpr unsigned int KCPLogLevel_TypeDefinitionIndex = 47718;
 
 	enum class KCPLogLevel : ::System::Int32
 	{

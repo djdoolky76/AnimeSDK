@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int NPOIDDEMNHN_TypeDefinitionIndex = 49835;
+inline static constexpr unsigned int NPOIDDEMNHN_TypeDefinitionIndex = 50883;
 
 	class NPOIDDEMNHN : public ::System::Object
 	{

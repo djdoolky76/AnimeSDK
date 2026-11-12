@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoadingStratageType_TypeDefinitionIndex = 10567;
+	inline static constexpr unsigned int LoadingStratageType_TypeDefinitionIndex = 10583;
 
 	enum class LoadingStratageType : ::System::Int32
 	{

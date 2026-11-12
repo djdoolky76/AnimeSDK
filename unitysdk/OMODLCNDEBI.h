@@ -6,21 +6,21 @@
 namespace RPG::GameCore { class LevelTriggerInfo; }
 namespace RPG::GameCore { class TriggerValidGuestConfig; }
 
-#define OMODLCNDEBI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF44A10)
+#define OMODLCNDEBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC842330)
 
-inline static constexpr unsigned int OMODLCNDEBI_TypeDefinitionIndex = 57510;
+inline static constexpr unsigned int OMODLCNDEBI_TypeDefinitionIndex = 58738;
 
 	class OMODLCNDEBI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TriggerValidGuestConfig* OCPMCMIAOFM; // 0x10
-		::RPG::GameCore::LevelTriggerInfo* DCAPKFBJFDM; // 0x18
-		::UnityEngine::Vector3 FJBGGCPCFHO; // 0x20
-		::UnityEngine::Vector3 DJOPKBFLMII; // 0x2C
-		::System::Boolean KBIHIOOINBD; // 0x38
+		::RPG::GameCore::LevelTriggerInfo* DCAPKFBJFDM; // 0x10
+		::RPG::GameCore::TriggerValidGuestConfig* OCPMCMIAOFM; // 0x18
+		::System::Single IMAKHPOEMIP; // 0x20
+		::System::Boolean KBIHIOOINBD; // 0x24
 		::System::Byte _padding0[0x3];
-		::System::Single IMAKHPOEMIP; // 0x3C
-		::UnityEngine::Quaternion KBOGCGPBOFH; // 0x40
+		::UnityEngine::Quaternion KBOGCGPBOFH; // 0x28
+		::UnityEngine::Vector3 FJBGGCPCFHO; // 0x38
+		::UnityEngine::Vector3 DJOPKBFLMII; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OMODLCNDEBI_CTOR_OFFSET))(this);

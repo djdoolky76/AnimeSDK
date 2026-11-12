@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define ODCFEGFDIMM___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD889B0)
-#define ODCFEGFDIMM___C__DISPLAYCLASS13_0___INITGAME_B__1_OFFSET UNITYSDK_OFFSET(0xBD88DA0)
+#define ODCFEGFDIMM___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC68EA00)
+#define ODCFEGFDIMM___C__DISPLAYCLASS13_0___INITGAME_B__1_OFFSET UNITYSDK_OFFSET(0xC68EDF0)
 
-inline static constexpr unsigned int ODCFEGFDIMM___c__DisplayClass13_0_TypeDefinitionIndex = 61153;
+inline static constexpr unsigned int ODCFEGFDIMM___c__DisplayClass13_0_TypeDefinitionIndex = 62538;
 
 	class ODCFEGFDIMM___c__DisplayClass13_0 : public ::System::Object
 	{

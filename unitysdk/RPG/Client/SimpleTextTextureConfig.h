@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xE0DE0B0)
-#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DE120)
+#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG_AWAKE_OFFSET UNITYSDK_OFFSET(0xEB47E90)
+#define RPG_CLIENT_SIMPLETEXTTEXTURECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xEB47F00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SimpleTextTextureConfig_TypeDefinitionIndex = 72653;
+	inline static constexpr unsigned int SimpleTextTextureConfig_TypeDefinitionIndex = 74732;
 
 	class SimpleTextTextureConfig : public ::UnityEngine::MonoBehaviour
 	{

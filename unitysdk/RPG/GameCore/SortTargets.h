@@ -9,13 +9,13 @@ namespace RPG::GameCore { class SortTargets; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SORTTARGETS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF1860)
-#define RPG_GAMECORE_SORTTARGETS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAF18C0)
-#define RPG_GAMECORE_SORTTARGETS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAF17D0)
+#define RPG_GAMECORE_SORTTARGETS_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED03860)
+#define RPG_GAMECORE_SORTTARGETS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED038C0)
+#define RPG_GAMECORE_SORTTARGETS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED037D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 23139;
+	inline static constexpr unsigned int SortTargets_TypeDefinitionIndex = 23568;
 
 	class SortTargets : public ::RPG::GameCore::TaskConfig
 	{

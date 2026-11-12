@@ -5,24 +5,24 @@ namespace System { class String; }
 namespace UnityEngine { class GUIContent; }
 namespace UnityEngine { class Texture; }
 
-#define UNITYENGINE_GUICONTENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4528C0)
-#define UNITYENGINE_GUICONTENT_CLEARSTATICCACHE_OFFSET UNITYSDK_OFFSET(0x1F452640)
-#define UNITYENGINE_GUICONTENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F4525C0)
-#define UNITYENGINE_GUICONTENT_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1F4525E0)
-#define UNITYENGINE_GUICONTENT_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1F4525F0)
-#define UNITYENGINE_GUICONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4525A0)
-#define UNITYENGINE_GUICONTENT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x1F449AE0)
-#define UNITYENGINE_GUICONTENT_GET_TOOLTIP_OFFSET UNITYSDK_OFFSET(0x1F44D950)
-#define UNITYENGINE_GUICONTENT_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0x1F452580)
-#define UNITYENGINE_GUICONTENT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1F449AF0)
-#define UNITYENGINE_GUICONTENT_SET_TOOLTIP_OFFSET UNITYSDK_OFFSET(0x1F452590)
-#define UNITYENGINE_GUICONTENT_TEMP_1_OFFSET UNITYSDK_OFFSET(0x1F449290)
-#define UNITYENGINE_GUICONTENT_TEMP_2_OFFSET UNITYSDK_OFFSET(0x1F452760)
-#define UNITYENGINE_GUICONTENT_TEMP_OFFSET UNITYSDK_OFFSET(0x1F446550)
+#define UNITYENGINE_GUICONTENT_CCTOR_OFFSET UNITYSDK_OFFSET(0x20703240)
+#define UNITYENGINE_GUICONTENT_CLEARSTATICCACHE_OFFSET UNITYSDK_OFFSET(0x20702FC0)
+#define UNITYENGINE_GUICONTENT_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20702F40)
+#define UNITYENGINE_GUICONTENT_CTOR_2_OFFSET UNITYSDK_OFFSET(0x20702F60)
+#define UNITYENGINE_GUICONTENT_CTOR_3_OFFSET UNITYSDK_OFFSET(0x20702F70)
+#define UNITYENGINE_GUICONTENT_CTOR_OFFSET UNITYSDK_OFFSET(0x20702F20)
+#define UNITYENGINE_GUICONTENT_GET_TEXT_OFFSET UNITYSDK_OFFSET(0x206FA490)
+#define UNITYENGINE_GUICONTENT_GET_TOOLTIP_OFFSET UNITYSDK_OFFSET(0x206FE300)
+#define UNITYENGINE_GUICONTENT_SET_IMAGE_OFFSET UNITYSDK_OFFSET(0x20702F00)
+#define UNITYENGINE_GUICONTENT_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x206FA4A0)
+#define UNITYENGINE_GUICONTENT_SET_TOOLTIP_OFFSET UNITYSDK_OFFSET(0x20702F10)
+#define UNITYENGINE_GUICONTENT_TEMP_1_OFFSET UNITYSDK_OFFSET(0x206F9C40)
+#define UNITYENGINE_GUICONTENT_TEMP_2_OFFSET UNITYSDK_OFFSET(0x207030E0)
+#define UNITYENGINE_GUICONTENT_TEMP_OFFSET UNITYSDK_OFFSET(0x206F6F00)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int GUIContent_TypeDefinitionIndex = 5170;
+	inline static constexpr unsigned int GUIContent_TypeDefinitionIndex = 5175;
 
 	class GUIContent : public ::System::Object
 	{
@@ -30,24 +30,24 @@ namespace UnityEngine
 		::System::String* m_Text; // 0x10
 		::UnityEngine::Texture* m_Image; // 0x18
 		::System::String* m_Tooltip; // 0x20
+		static ::UnityEngine::GUIContent** StaticGet_s_TextImage()
+		{
+			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x142B0);
+		}
+
 		static ::UnityEngine::GUIContent** StaticGet_s_Text()
 		{
-			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x137E0);
+			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x142B8);
 		}
 
 		static ::UnityEngine::GUIContent** StaticGet_s_Image()
 		{
-			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x137E8);
+			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x142C0);
 		}
 
 		static ::UnityEngine::GUIContent** StaticGet_none()
 		{
-			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x137F0);
-		}
-
-		static ::UnityEngine::GUIContent** StaticGet_s_TextImage()
-		{
-			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x137F8);
+			return (::UnityEngine::GUIContent**)UnitySDK::FromName("UnityEngine", "GUIContent")->GetStaticField(0x142C8);
 		}
 
 		::System::Void _ctor()

@@ -12,47 +12,47 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define HEOAAAKKHLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CAC7340)
-#define HEOAAAKKHLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC7380)
-#define HEOAAAKKHLC___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1CAC7390)
-#define HEOAAAKKHLC___C___CTOR_B__0_2_OFFSET UNITYSDK_OFFSET(0x1CAC73B0)
-#define HEOAAAKKHLC___C___CTOR_B__0_3_OFFSET UNITYSDK_OFFSET(0x1CAC73D0)
-#define HEOAAAKKHLC___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1CAC7430)
-#define HEOAAAKKHLC___C___MAKECHOICE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CAC73F0)
+#define HEOAAAKKHLC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC8BD50)
+#define HEOAAAKKHLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8BD90)
+#define HEOAAAKKHLC___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1DC8BDA0)
+#define HEOAAAKKHLC___C___CTOR_B__0_2_OFFSET UNITYSDK_OFFSET(0x1DC8BDC0)
+#define HEOAAAKKHLC___C___CTOR_B__0_3_OFFSET UNITYSDK_OFFSET(0x1DC8BDE0)
+#define HEOAAAKKHLC___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1DC8BE40)
+#define HEOAAAKKHLC___C___MAKECHOICE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DC8BE00)
 
-inline static constexpr unsigned int HEOAAAKKHLC___c_TypeDefinitionIndex = 43032;
+inline static constexpr unsigned int HEOAAAKKHLC___c_TypeDefinitionIndex = 44013;
 
 	class HEOAAAKKHLC___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>** StaticGet___9__0_3()
-		{
-			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A990);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>** StaticGet___9__0_2()
 		{
-			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A998);
-		}
-
-		static ::System::Comparison_1<::PKJOPFLMLLB*>** StaticGet___9__18_0()
-		{
-			return (::System::Comparison_1<::PKJOPFLMLLB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9A0);
+			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::RPG::GameCore::MatchThreePropType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DB80);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>** StaticGet___9__0_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9A8);
+			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIScoreAspectConfig*, ::RPG::GameCore::Match3::MatchThree1v1AIScoreApsect>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DB88);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>** StaticGet___9__0_3()
+		{
+			return (::System::Func_2<::RPG::GameCore::Match3::MatchThree1v1AIPropPriorityConfig*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DB90);
 		}
 
 		static ::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>** StaticGet___9__31_0()
 		{
-			return (::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9B0);
+			return (::System::Comparison_1<::System::ValueTuple_4<::System::UInt32, ::System::UInt32, ::System::UInt32, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DB98);
+		}
+
+		static ::System::Comparison_1<::PKJOPFLMLLB*>** StaticGet___9__18_0()
+		{
+			return (::System::Comparison_1<::PKJOPFLMLLB*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DBA0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9B8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DBA8);
 		}
 
 		static ::System::Void _cctor()

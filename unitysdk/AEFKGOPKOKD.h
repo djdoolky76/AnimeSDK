@@ -5,11 +5,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define AEFKGOPKOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB14F6E0)
-#define AEFKGOPKOKD_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB14F650)
-#define AEFKGOPKOKD__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB14F700)
+#define AEFKGOPKOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7B4CA0)
+#define AEFKGOPKOKD_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB7B4C10)
+#define AEFKGOPKOKD__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB7B4CC0)
 
-inline static constexpr unsigned int AEFKGOPKOKD_TypeDefinitionIndex = 59884;
+inline static constexpr unsigned int AEFKGOPKOKD_TypeDefinitionIndex = 61168;
 
 	class AEFKGOPKOKD : public ::RPG::Client::AsyncCheckItemBase
 	{

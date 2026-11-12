@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DronesSwitchDynamicCollider; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define COPMAIHOBLL_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCDFC0)
-#define COPMAIHOBLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCCDFF0)
+#define COPMAIHOBLL_CTOR_OFFSET UNITYSDK_OFFSET(0xE61AA40)
+#define COPMAIHOBLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE61AA70)
 
-inline static constexpr unsigned int COPMAIHOBLL_TypeDefinitionIndex = 58092;
+inline static constexpr unsigned int COPMAIHOBLL_TypeDefinitionIndex = 59331;
 
 	class COPMAIHOBLL
 	{

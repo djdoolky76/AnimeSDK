@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class LimitFrameMaxTimeStep; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDHBCDKPAAN_CTOR_OFFSET UNITYSDK_OFFSET(0xB35D690)
-#define KDHBCDKPAAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB35D6A0)
-#define KDHBCDKPAAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB35D6E0)
-#define KDHBCDKPAAN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB35D810)
-#define KDHBCDKPAAN_TICK_OFFSET UNITYSDK_OFFSET(0xB35D860)
+#define KDHBCDKPAAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBBE7580)
+#define KDHBCDKPAAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBE7590)
+#define KDHBCDKPAAN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBE75D0)
+#define KDHBCDKPAAN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBE7700)
+#define KDHBCDKPAAN_TICK_OFFSET UNITYSDK_OFFSET(0xBBE7750)
 
-inline static constexpr unsigned int KDHBCDKPAAN_TypeDefinitionIndex = 55139;
+inline static constexpr unsigned int KDHBCDKPAAN_TypeDefinitionIndex = 56320;
 
 	class KDHBCDKPAAN : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::LimitFrameMaxTimeStep* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::LimitFrameMaxTimeStep* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::LimitFrameMaxTimeStep* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::LimitFrameMaxTimeStep*))((::PBYTE)hIl2Cpp + KDHBCDKPAAN_CTOR_OFFSET))(this, a1, a2);

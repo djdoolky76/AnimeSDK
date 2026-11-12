@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int ObjectRepository_1_TypeDefinitionIndex = 45141;
+	inline static constexpr unsigned int ObjectRepository_1_TypeDefinitionIndex = 40854;
 
 	template <typename T>
 	class ObjectRepository_1 : public ::System::Object

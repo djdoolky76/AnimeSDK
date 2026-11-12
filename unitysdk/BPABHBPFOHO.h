@@ -11,25 +11,26 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define BPABHBPFOHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9F6BD0)
-#define BPABHBPFOHO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9F6C40)
-#define BPABHBPFOHO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9F6B40)
+#define BPABHBPFOHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBC1630)
+#define BPABHBPFOHO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBC16A0)
+#define BPABHBPFOHO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBC15A0)
 
-inline static constexpr unsigned int BPABHBPFOHO_TypeDefinitionIndex = 24194;
+inline static constexpr unsigned int BPABHBPFOHO_TypeDefinitionIndex = 24653;
 
 	class BPABHBPFOHO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* LGANOFMNOCG; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* MAONBNHOPBJ; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
-		::RPG::GameCore::PredicateConfig* IANNCHKLMOD; // 0x30
-		::RPG::GameCore::TargetEvaluator* NJLICGGKCAB; // 0x38
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* NKCKAJPAJCJ; // 0x40
-		::System::String* IFNAGLOMHBK; // 0x48
-		::RPG::GameCore::DynamicFloat* LNNLLMKBAGL; // 0x50
-		::RPG::GameCore::EnumStatusTypeMask JHGJBDEIJNC; // 0x58
-		::System::Boolean NANPIEIOFLM; // 0x5C
+		::RPG::GameCore::TargetEvaluator* NJLICGGKCAB; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::System::String* IFNAGLOMHBK; // 0x28
+		::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* LGANOFMNOCG; // 0x30
+		::RPG::GameCore::DynamicFloat* LNNLLMKBAGL; // 0x38
+		::RPG::GameCore::PredicateConfig* IANNCHKLMOD; // 0x40
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* NKCKAJPAJCJ; // 0x48
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* MAONBNHOPBJ; // 0x50
+		::System::Boolean NANPIEIOFLM; // 0x58
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::EnumStatusTypeMask JHGJBDEIJNC; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BPABHBPFOHO_CTOR_OFFSET))(this);

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FGNIPENEIOG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CDEF970)
-#define FGNIPENEIOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CDEFEF0)
-#define FGNIPENEIOG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CDEFAE0)
-#define FGNIPENEIOG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CDEF420)
-#define FGNIPENEIOG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CDEF6B0)
-#define FGNIPENEIOG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CDEFB80)
-#define FGNIPENEIOG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CDEFBD0)
-#define FGNIPENEIOG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CDEF9B0)
-#define FGNIPENEIOG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CDEF650)
-#define FGNIPENEIOG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CDEF820)
-#define FGNIPENEIOG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDEFA40)
-#define FGNIPENEIOG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDEF3A0)
+#define FGNIPENEIOG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1DFC9540)
+#define FGNIPENEIOG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFC9AC0)
+#define FGNIPENEIOG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1DFC96B0)
+#define FGNIPENEIOG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1DFC8FF0)
+#define FGNIPENEIOG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1DFC9280)
+#define FGNIPENEIOG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1DFC9750)
+#define FGNIPENEIOG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1DFC97A0)
+#define FGNIPENEIOG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1DFC9580)
+#define FGNIPENEIOG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1DFC9220)
+#define FGNIPENEIOG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1DFC93F0)
+#define FGNIPENEIOG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DFC9610)
+#define FGNIPENEIOG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DFC8F70)
 
-inline static constexpr unsigned int FGNIPENEIOG_TypeDefinitionIndex = 14838;
+inline static constexpr unsigned int FGNIPENEIOG_TypeDefinitionIndex = 14994;
 
 	class FGNIPENEIOG : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueHandBookMiracleTypeRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueHandBookMiracleTypeRow*>**)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x133F0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x42DD0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x133F8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x42DD8);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueHandBookMiracleTypeRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x13400);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x43B0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueHandBookMiracleTypeRow*>**)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x42DE0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0x43B1);
+			return (::System::Boolean*)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0xE220);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "FGNIPENEIOG")->GetStaticField(0xE221);
 		}
 
 		static ::System::Void _cctor()

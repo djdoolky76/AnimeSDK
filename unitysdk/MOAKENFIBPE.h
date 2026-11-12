@@ -11,31 +11,32 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define MOAKENFIBPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1DBE60)
-#define MOAKENFIBPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DBED0)
-#define MOAKENFIBPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DBDD0)
+#define MOAKENFIBPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3EFAD0)
+#define MOAKENFIBPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3EFB40)
+#define MOAKENFIBPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E3EFA40)
 
-inline static constexpr unsigned int MOAKENFIBPE_TypeDefinitionIndex = 24163;
+inline static constexpr unsigned int MOAKENFIBPE_TypeDefinitionIndex = 24622;
 
 	class MOAKENFIBPE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* CCOLBNIOBLG; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KBCHNLAAKLL; // 0x20
-		::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x28
-		::RPG::GameCore::DynamicFloat* FCNMJPINEOB; // 0x30
-		::RPG::GameCore::TargetEvaluator* DNOMOIIFDIN; // 0x38
-		::RPG::GameCore::TargetEvaluator* JGAFNEFOLLO; // 0x40
-		::RPG::GameCore::RtAttackData* GADPAGHLPLC; // 0x48
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x50
-		::System::String* AKFCLJOMGHO; // 0x58
-		::System::Boolean JFPGICNIGCJ; // 0x60
-		::System::Boolean ABCHCGCMIFL; // 0x61
-		::System::Boolean HBIJNLPFNKL; // 0x62
-		::System::Boolean BONOECIJPJM; // 0x63
+		::RPG::GameCore::DamageDisplayData* AIMHHKODFJN; // 0x18
+		::RPG::GameCore::DynamicFloat* FCNMJPINEOB; // 0x20
+		::RPG::GameCore::RtAttackData* GADPAGHLPLC; // 0x28
+		::RPG::GameCore::TargetEvaluator* JGAFNEFOLLO; // 0x30
+		::System::String* AKFCLJOMGHO; // 0x38
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* KBCHNLAAKLL; // 0x40
+		::System::String* CCOLBNIOBLG; // 0x48
+		::RPG::GameCore::TargetEvaluator* DNOMOIIFDIN; // 0x50
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x58
+		::System::Boolean HBIJNLPFNKL; // 0x60
+		::System::Boolean DMMAOLBOHDI; // 0x61
+		::System::Byte _padding0[0x2];
 		::RPG::GameCore::AttackType HIFKEKCELFB; // 0x64
 		::System::Boolean BLHGAFKJDCD; // 0x68
-		::System::Boolean DMMAOLBOHDI; // 0x69
+		::System::Boolean BONOECIJPJM; // 0x69
+		::System::Boolean ABCHCGCMIFL; // 0x6A
+		::System::Boolean JFPGICNIGCJ; // 0x6B
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MOAKENFIBPE_CTOR_OFFSET))(this);

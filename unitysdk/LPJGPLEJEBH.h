@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByDrinkMakerCheersStoryLastMakedDrinkIsPositive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPJGPLEJEBH_CTOR_OFFSET UNITYSDK_OFFSET(0xB8223B0)
-#define LPJGPLEJEBH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB8223E0)
+#define LPJGPLEJEBH_CTOR_OFFSET UNITYSDK_OFFSET(0xC0838E0)
+#define LPJGPLEJEBH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC083910)
 
-inline static constexpr unsigned int LPJGPLEJEBH_TypeDefinitionIndex = 57980;
+inline static constexpr unsigned int LPJGPLEJEBH_TypeDefinitionIndex = 59218;
 
 	class LPJGPLEJEBH
 	{

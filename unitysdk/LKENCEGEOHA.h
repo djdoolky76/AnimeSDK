@@ -6,11 +6,11 @@ class LKENCEGEOHA;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define LKENCEGEOHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D108130)
-#define LKENCEGEOHA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D108140)
-#define LKENCEGEOHA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D108100)
+#define LKENCEGEOHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E303860)
+#define LKENCEGEOHA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E303870)
+#define LKENCEGEOHA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E303830)
 
-inline static constexpr unsigned int LKENCEGEOHA_TypeDefinitionIndex = 24189;
+inline static constexpr unsigned int LKENCEGEOHA_TypeDefinitionIndex = 24648;
 
 	class LKENCEGEOHA : public ::RPG::GameCore::TaskConfig
 	{

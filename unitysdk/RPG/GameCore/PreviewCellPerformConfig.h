@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PreviewCellPerformConfig; }
 
-#define RPG_GAMECORE_PREVIEWCELLPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D940AF0)
-#define RPG_GAMECORE_PREVIEWCELLPERFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9408B0)
+#define RPG_GAMECORE_PREVIEWCELLPERFORMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB59C70)
+#define RPG_GAMECORE_PREVIEWCELLPERFORMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB59A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreviewCellPerformConfig_TypeDefinitionIndex = 18438;
+	inline static constexpr unsigned int PreviewCellPerformConfig_TypeDefinitionIndex = 18598;
 
 	class PreviewCellPerformConfig : public ::RPG::GameCore::JsonConfig
 	{

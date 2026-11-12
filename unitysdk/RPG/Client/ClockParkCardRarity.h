@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ClockParkCardRarity_TypeDefinitionIndex = 61485;
+	inline static constexpr unsigned int ClockParkCardRarity_TypeDefinitionIndex = 62870;
 
 	enum class ClockParkCardRarity : ::System::Int32
 	{

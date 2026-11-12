@@ -5,18 +5,18 @@ namespace RPG::GameCore { class SetComponentAssetLoadState; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GDEKGOOCHHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1599A810)
-#define GDEKGOOCHHP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1599A840)
-#define GDEKGOOCHHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1599A880)
+#define GDEKGOOCHHP_CTOR_OFFSET UNITYSDK_OFFSET(0x168D15C0)
+#define GDEKGOOCHHP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168D15F0)
+#define GDEKGOOCHHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168D1630)
 
-inline static constexpr unsigned int GDEKGOOCHHP_TypeDefinitionIndex = 55377;
+inline static constexpr unsigned int GDEKGOOCHHP_TypeDefinitionIndex = 56560;
 
 	class GDEKGOOCHHP
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>** StaticGet_KPGKNONGLCM()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>**)UnitySDK::FromName("", "GDEKGOOCHHP")->GetStaticField(0x548C0);
+			return (::System::Collections::Generic::List_1<::RPG::Client::ComponentAssetLoader*>**)UnitySDK::FromName("", "GDEKGOOCHHP")->GetStaticField(0x5F2A0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetComponentAssetLoadState* a2)

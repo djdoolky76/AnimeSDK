@@ -6,18 +6,18 @@ class MDJICBJCOGE;
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define MDJICBJCOGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D14A630)
-#define MDJICBJCOGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D14A640)
-#define MDJICBJCOGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D14A600)
+#define MDJICBJCOGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E349490)
+#define MDJICBJCOGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E3494A0)
+#define MDJICBJCOGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E349460)
 
-inline static constexpr unsigned int MDJICBJCOGE_TypeDefinitionIndex = 21436;
+inline static constexpr unsigned int MDJICBJCOGE_TypeDefinitionIndex = 21779;
 
 	class MDJICBJCOGE : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BAGFJGCLLCK; // 0x18
-		::RPG::GameCore::DynamicString* MNMHMECGDAK; // 0x20
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OBNDBPAFEOK; // 0x28
+		::RPG::GameCore::DynamicString* MNMHMECGDAK; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OBNDBPAFEOK; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* BAGFJGCLLCK; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDJICBJCOGE_CTOR_OFFSET))(this);

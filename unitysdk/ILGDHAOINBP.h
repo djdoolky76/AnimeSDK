@@ -3,21 +3,21 @@
 #include "unitysdk/DHCNDENHLGO.h"
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define ILGDHAOINBP_CTOR_OFFSET UNITYSDK_OFFSET(0x164B0E90)
-#define ILGDHAOINBP_GET_BATTLETARGETIDS_OFFSET UNITYSDK_OFFSET(0x164B0E70)
-#define ILGDHAOINBP_GET_CLEARSCORE_OFFSET UNITYSDK_OFFSET(0x164B0E30)
-#define ILGDHAOINBP_GET_FEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0x164B0E50)
-#define ILGDHAOINBP_SET_BATTLETARGETIDS_OFFSET UNITYSDK_OFFSET(0x164B0E80)
-#define ILGDHAOINBP_SET_CLEARSCORE_OFFSET UNITYSDK_OFFSET(0x164B0E40)
-#define ILGDHAOINBP_SET_FEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0x164B0E60)
+#define ILGDHAOINBP_CTOR_OFFSET UNITYSDK_OFFSET(0x17486CD0)
+#define ILGDHAOINBP_GET_BATTLETARGETIDS_OFFSET UNITYSDK_OFFSET(0x17486CB0)
+#define ILGDHAOINBP_GET_CLEARSCORE_OFFSET UNITYSDK_OFFSET(0x17486C70)
+#define ILGDHAOINBP_GET_FEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0x17486C90)
+#define ILGDHAOINBP_SET_BATTLETARGETIDS_OFFSET UNITYSDK_OFFSET(0x17486CC0)
+#define ILGDHAOINBP_SET_CLEARSCORE_OFFSET UNITYSDK_OFFSET(0x17486C80)
+#define ILGDHAOINBP_SET_FEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0x17486CA0)
 
-inline static constexpr unsigned int ILGDHAOINBP_TypeDefinitionIndex = 81448;
+inline static constexpr unsigned int ILGDHAOINBP_TypeDefinitionIndex = 84228;
 
 	class ILGDHAOINBP : public ::DHCNDENHLGO
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _BattleTargetIDs_k__BackingField; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _FeverMazeBuffIDs_k__BackingField; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _FeverMazeBuffIDs_k__BackingField; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _BattleTargetIDs_k__BackingField; // 0x20
 		::System::Int32 _ClearScore_k__BackingField; // 0x28
 		::System::Void _ctor()
 		{

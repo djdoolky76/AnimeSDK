@@ -5,10 +5,10 @@ class IAJGGEMFOMB;
 class NKIJFPHFJCO;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FLNGKAJHEEE___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15841DE0)
-#define FLNGKAJHEEE___C__DISPLAYCLASS33_0___ONONLYORDERINGCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x15841E30)
+#define FLNGKAJHEEE___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x167B1850)
+#define FLNGKAJHEEE___C__DISPLAYCLASS33_0___ONONLYORDERINGCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0x167B18A0)
 
-inline static constexpr unsigned int FLNGKAJHEEE___c__DisplayClass33_0_TypeDefinitionIndex = 79479;
+inline static constexpr unsigned int FLNGKAJHEEE___c__DisplayClass33_0_TypeDefinitionIndex = 82256;
 
 	class FLNGKAJHEEE___c__DisplayClass33_0 : public ::System::Object
 	{

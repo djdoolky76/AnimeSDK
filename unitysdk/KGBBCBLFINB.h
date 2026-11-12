@@ -5,9 +5,9 @@ class GLPPDCIBMIH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KGBBCBLFINB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F400)
+#define KGBBCBLFINB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D890DB0)
 
-inline static constexpr unsigned int KGBBCBLFINB_TypeDefinitionIndex = 36499;
+inline static constexpr unsigned int KGBBCBLFINB_TypeDefinitionIndex = 37427;
 
 	class KGBBCBLFINB : public ::System::Object
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBF3130)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1BBF0170)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORREFLECTION_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD7BFE0)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_DESCRIPTORREFLECTION_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1CD79020)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int DescriptorReflection_TypeDefinitionIndex = 35757;
+	inline static constexpr unsigned int DescriptorReflection_TypeDefinitionIndex = 36685;
 
 	class DescriptorReflection : public ::System::Object
 	{
 	public:
 		static ::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor** StaticGet_descriptor()
 		{
-			return (::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "DescriptorReflection")->GetStaticField(0x4DD90);
+			return (::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor**)UnitySDK::FromName("MiHoYo.SDK.Protobuf.Reflection", "DescriptorReflection")->GetStaticField(0x5CD20);
 		}
 
 		static ::System::Void _cctor()

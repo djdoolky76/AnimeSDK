@@ -7,29 +7,29 @@ class PJFEPJKONAA;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PDKDGMLAHPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC01E120)
-#define PDKDGMLAHPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC01E160)
-#define PDKDGMLAHPM___C__REQUESTGETSTAGE_B__4_0_OFFSET UNITYSDK_OFFSET(0xC01E190)
-#define PDKDGMLAHPM___C__REQUESTSTARTSTAGE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC01E170)
+#define PDKDGMLAHPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC924360)
+#define PDKDGMLAHPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9243A0)
+#define PDKDGMLAHPM___C__REQUESTGETSTAGE_B__4_0_OFFSET UNITYSDK_OFFSET(0xC9243D0)
+#define PDKDGMLAHPM___C__REQUESTSTARTSTAGE_B__3_0_OFFSET UNITYSDK_OFFSET(0xC9243B0)
 
-inline static constexpr unsigned int PDKDGMLAHPM___c_TypeDefinitionIndex = 76238;
+inline static constexpr unsigned int PDKDGMLAHPM___c_TypeDefinitionIndex = 78569;
 
 	class PDKDGMLAHPM___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66830);
+		}
+
 		static ::System::Func_2<::PJFEPJKONAA*, ::BDOEDOEBFAJ*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::PJFEPJKONAA*, ::BDOEDOEBFAJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65C10);
+			return (::System::Func_2<::PJFEPJKONAA*, ::BDOEDOEBFAJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66838);
 		}
 
 		static ::System::Func_2<::CPMOGOPHJOG*, ::BDOEDOEBFAJ*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::CPMOGOPHJOG*, ::BDOEDOEBFAJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65C18);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65C20);
+			return (::System::Func_2<::CPMOGOPHJOG*, ::BDOEDOEBFAJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66840);
 		}
 
 		static ::System::Void _cctor()

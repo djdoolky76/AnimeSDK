@@ -5,17 +5,18 @@
 class FCOEMCEDLNL;
 class HDGLGNMBEKO;
 
-#define HDGLGNMBEKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE941C0)
-#define HDGLGNMBEKO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE941D0)
-#define HDGLGNMBEKO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE94180)
+#define HDGLGNMBEKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E070F90)
+#define HDGLGNMBEKO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E070FA0)
+#define HDGLGNMBEKO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E070F50)
 
-inline static constexpr unsigned int HDGLGNMBEKO_TypeDefinitionIndex = 21489;
+inline static constexpr unsigned int HDGLGNMBEKO_TypeDefinitionIndex = 21842;
 
 	class HDGLGNMBEKO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::FiveDimBtnType MBOBPDOAGLL; // 0x18
-		::System::Boolean MOKNCFJICIC; // 0x1C
+		::System::Boolean MOKNCFJICIC; // 0x18
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::FiveDimBtnType MBOBPDOAGLL; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HDGLGNMBEKO_CTOR_OFFSET))(this);

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/AKGFIFMIGNC.h"
 
-#define DKHHGOACFFO_CTOR_OFFSET UNITYSDK_OFFSET(0xF8805B0)
-#define DKHHGOACFFO_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xF880370)
+#define DKHHGOACFFO_CTOR_OFFSET UNITYSDK_OFFSET(0xFFE61D0)
+#define DKHHGOACFFO_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xFFE5F90)
 
-inline static constexpr unsigned int DKHHGOACFFO_TypeDefinitionIndex = 77111;
+inline static constexpr unsigned int DKHHGOACFFO_TypeDefinitionIndex = 79445;
 
 	class DKHHGOACFFO : public ::AKGFIFMIGNC
 	{

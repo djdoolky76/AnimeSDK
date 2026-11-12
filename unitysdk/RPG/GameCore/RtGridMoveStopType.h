@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtGridMoveStopType_TypeDefinitionIndex = 24804;
+	inline static constexpr unsigned int RtGridMoveStopType_TypeDefinitionIndex = 25284;
 
 	enum class RtGridMoveStopType : ::System::Int32
 	{

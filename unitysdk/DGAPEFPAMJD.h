@@ -3,10 +3,10 @@
 class KADCLBEPFPL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DGAPEFPAMJD_CTOR_OFFSET UNITYSDK_OFFSET(0xE841C50)
-#define DGAPEFPAMJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE841C80)
+#define DGAPEFPAMJD_CTOR_OFFSET UNITYSDK_OFFSET(0xF413030)
+#define DGAPEFPAMJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF413060)
 
-inline static constexpr unsigned int DGAPEFPAMJD_TypeDefinitionIndex = 55369;
+inline static constexpr unsigned int DGAPEFPAMJD_TypeDefinitionIndex = 56552;
 
 	class DGAPEFPAMJD
 	{

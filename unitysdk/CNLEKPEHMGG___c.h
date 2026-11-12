@@ -5,23 +5,23 @@ namespace RPG::Client::ActivityFinalityBattle::Level { class FinalityBattleBattl
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define CNLEKPEHMGG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA58CD0)
-#define CNLEKPEHMGG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA58D10)
-#define CNLEKPEHMGG___C__GETBATTLETARGETITEMSINBATTLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xDA58D20)
+#define CNLEKPEHMGG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5F15E0)
+#define CNLEKPEHMGG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5F1620)
+#define CNLEKPEHMGG___C__GETBATTLETARGETITEMSINBATTLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xE5F1630)
 
-inline static constexpr unsigned int CNLEKPEHMGG___c_TypeDefinitionIndex = 82100;
+inline static constexpr unsigned int CNLEKPEHMGG___c_TypeDefinitionIndex = 84973;
 
 	class CNLEKPEHMGG___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53F00);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::ActivityFinalityBattle::Level::FinalityBattleBattleTargetItem*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityFinalityBattle::Level::FinalityBattleBattleTargetItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53F08);
+			return (::System::Comparison_1<::RPG::Client::ActivityFinalityBattle::Level::FinalityBattleBattleTargetItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B0A0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B0A8);
 		}
 
 		static ::System::Void _cctor()

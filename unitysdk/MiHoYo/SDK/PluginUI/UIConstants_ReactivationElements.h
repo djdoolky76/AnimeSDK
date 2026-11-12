@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_ReactivationElements_TypeDefinitionIndex = 46855;
+	inline static constexpr unsigned int UIConstants_ReactivationElements_TypeDefinitionIndex = 47883;
 
 	class UIConstants_ReactivationElements : public ::System::Object
 	{

@@ -41,187 +41,187 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 namespace UnityEngine { class TextAsset; }
 
-#define APMFKFNCCHH_ABKKJIBEBHA_OFFSET UNITYSDK_OFFSET(0x15BB81D0)
-#define APMFKFNCCHH_ABNALGJICPC_OFFSET UNITYSDK_OFFSET(0x15BBEC60)
-#define APMFKFNCCHH_ADOJEIDGKOL_OFFSET UNITYSDK_OFFSET(0x15BB8230)
-#define APMFKFNCCHH_BIBIIMAHAKB_OFFSET UNITYSDK_OFFSET(0x15BB7940)
-#define APMFKFNCCHH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15BBEF60)
-#define APMFKFNCCHH_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB4BD0)
-#define APMFKFNCCHH_DHHPINDLPJH_OFFSET UNITYSDK_OFFSET(0x15BBE8E0)
-#define APMFKFNCCHH_DNPBNFFBCID_OFFSET UNITYSDK_OFFSET(0x15BB8610)
-#define APMFKFNCCHH_EDHHHIKCHPH_OFFSET UNITYSDK_OFFSET(0x15BBCC40)
-#define APMFKFNCCHH_EDIHHHMNMMK_OFFSET UNITYSDK_OFFSET(0x15BB8520)
-#define APMFKFNCCHH_EEEAMAPMDDF_OFFSET UNITYSDK_OFFSET(0x15BB9850)
-#define APMFKFNCCHH_EOKFAMBHPHG_OFFSET UNITYSDK_OFFSET(0x15BB9520)
-#define APMFKFNCCHH_FDCEFLFOGIO_OFFSET UNITYSDK_OFFSET(0x15BB7D70)
-#define APMFKFNCCHH_FDMNDEDEDOD_OFFSET UNITYSDK_OFFSET(0x15BB98C0)
-#define APMFKFNCCHH_FIOGPHDEDLK_OFFSET UNITYSDK_OFFSET(0x15BB9670)
-#define APMFKFNCCHH_FJHGMBFNFJH_OFFSET UNITYSDK_OFFSET(0x15BBE7F0)
-#define APMFKFNCCHH_FOBNNIEINCK_OFFSET UNITYSDK_OFFSET(0x15BBDCD0)
-#define APMFKFNCCHH_FOEJHGAKBBI_OFFSET UNITYSDK_OFFSET(0x15BB9BB0)
-#define APMFKFNCCHH_FPFIKNEGHCA_OFFSET UNITYSDK_OFFSET(0x15BB8710)
-#define APMFKFNCCHH_GET_DATADIRTY_OFFSET UNITYSDK_OFFSET(0x15BBE920)
-#define APMFKFNCCHH_GET_USEBINARYDATA_OFFSET UNITYSDK_OFFSET(0x15BB4B60)
-#define APMFKFNCCHH_GFJFCAMHCOK_OFFSET UNITYSDK_OFFSET(0x15BBEB10)
-#define APMFKFNCCHH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x15BB72B0)
-#define APMFKFNCCHH_HHFONBFOGCA_OFFSET UNITYSDK_OFFSET(0x15BBE940)
-#define APMFKFNCCHH_HMPFPFNHOLK_OFFSET UNITYSDK_OFFSET(0x15BBEE10)
-#define APMFKFNCCHH_ICABECIMMGC_OFFSET UNITYSDK_OFFSET(0x15BB7740)
-#define APMFKFNCCHH_IFHDKHHMBFJ_OFFSET UNITYSDK_OFFSET(0x15BBE900)
-#define APMFKFNCCHH_JLBNKAMAOHJ_OFFSET UNITYSDK_OFFSET(0x15BB8B60)
-#define APMFKFNCCHH_JLOLGLLIBKE_OFFSET UNITYSDK_OFFSET(0x15BB8430)
-#define APMFKFNCCHH_JMOHCMJEOMC_OFFSET UNITYSDK_OFFSET(0x15BB8150)
-#define APMFKFNCCHH_JPHPAKAGJHA_OFFSET UNITYSDK_OFFSET(0x15BBE210)
-#define APMFKFNCCHH_JPKLGGEKLJJ_OFFSET UNITYSDK_OFFSET(0x15BB78F0)
-#define APMFKFNCCHH_KCFFBEAIFEG_OFFSET UNITYSDK_OFFSET(0x15BBA740)
-#define APMFKFNCCHH_KCGFKIBJKNJ_OFFSET UNITYSDK_OFFSET(0x15BBA0F0)
-#define APMFKFNCCHH_KLEJMFCPEPB_OFFSET UNITYSDK_OFFSET(0x15BB8DB0)
-#define APMFKFNCCHH_KNIBMDAAEKE_OFFSET UNITYSDK_OFFSET(0x15BBAEE0)
-#define APMFKFNCCHH_LFBKNKJIOIA_OFFSET UNITYSDK_OFFSET(0x15BB4B80)
-#define APMFKFNCCHH_LNHCLLFAILN_OFFSET UNITYSDK_OFFSET(0x15BB9210)
-#define APMFKFNCCHH_LOBINCLNKDC_OFFSET UNITYSDK_OFFSET(0x15BBD030)
-#define APMFKFNCCHH_MCIJELPHKFK_OFFSET UNITYSDK_OFFSET(0x15BB71D0)
-#define APMFKFNCCHH_MMEDFDJIGIM_OFFSET UNITYSDK_OFFSET(0x15BB7C00)
-#define APMFKFNCCHH_MNFKCINBNFJ_OFFSET UNITYSDK_OFFSET(0x15BB8EA0)
-#define APMFKFNCCHH_NANIAEPEGHB_OFFSET UNITYSDK_OFFSET(0x15BBAE40)
-#define APMFKFNCCHH_NCFAINDCHOB_OFFSET UNITYSDK_OFFSET(0x15BBD360)
-#define APMFKFNCCHH_NECEPECJKJA_OFFSET UNITYSDK_OFFSET(0x15BBE910)
-#define APMFKFNCCHH_NHIANJEHEEK_OFFSET UNITYSDK_OFFSET(0x15BB7270)
-#define APMFKFNCCHH_NKMCDHLFAOI_OFFSET UNITYSDK_OFFSET(0x15BB8480)
-#define APMFKFNCCHH_NPPKAHKODCC_OFFSET UNITYSDK_OFFSET(0x15BB8890)
-#define APMFKFNCCHH_OGMODJFMPBI_OFFSET UNITYSDK_OFFSET(0x15BB9600)
-#define APMFKFNCCHH_OJNGKKJLDNB_OFFSET UNITYSDK_OFFSET(0x15BBE2B0)
-#define APMFKFNCCHH_OMJPFIHCGHA_OFFSET UNITYSDK_OFFSET(0x15BB7290)
-#define APMFKFNCCHH_ONFEIIIFCOK_OFFSET UNITYSDK_OFFSET(0x15BB9B10)
-#define APMFKFNCCHH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15BBB0B0)
-#define APMFKFNCCHH_PAIGPOKOCJL_OFFSET UNITYSDK_OFFSET(0x15BB84D0)
-#define APMFKFNCCHH_PCONDAPOAFH_OFFSET UNITYSDK_OFFSET(0x15BBE8F0)
-#define APMFKFNCCHH_PKPEINFBLBO_OFFSET UNITYSDK_OFFSET(0x15BBA4C0)
-#define APMFKFNCCHH_SET_DATADIRTY_OFFSET UNITYSDK_OFFSET(0x15BBE930)
-#define APMFKFNCCHH_SET_USEBINARYDATA_OFFSET UNITYSDK_OFFSET(0x15BB4B70)
+#define APMFKFNCCHH_ABKKJIBEBHA_OFFSET UNITYSDK_OFFSET(0x16A18D50)
+#define APMFKFNCCHH_ABNALGJICPC_OFFSET UNITYSDK_OFFSET(0x16A1F840)
+#define APMFKFNCCHH_ADOJEIDGKOL_OFFSET UNITYSDK_OFFSET(0x16A18DB0)
+#define APMFKFNCCHH_BIBIIMAHAKB_OFFSET UNITYSDK_OFFSET(0x16A18550)
+#define APMFKFNCCHH_CCTOR_OFFSET UNITYSDK_OFFSET(0x16A1FB40)
+#define APMFKFNCCHH_CTOR_OFFSET UNITYSDK_OFFSET(0x16A15860)
+#define APMFKFNCCHH_DHHPINDLPJH_OFFSET UNITYSDK_OFFSET(0x16A1F4C0)
+#define APMFKFNCCHH_DNPBNFFBCID_OFFSET UNITYSDK_OFFSET(0x16A191A0)
+#define APMFKFNCCHH_EDHHHIKCHPH_OFFSET UNITYSDK_OFFSET(0x16A1D7F0)
+#define APMFKFNCCHH_EDIHHHMNMMK_OFFSET UNITYSDK_OFFSET(0x16A190B0)
+#define APMFKFNCCHH_EEEAMAPMDDF_OFFSET UNITYSDK_OFFSET(0x16A1A3F0)
+#define APMFKFNCCHH_EOKFAMBHPHG_OFFSET UNITYSDK_OFFSET(0x16A1A0C0)
+#define APMFKFNCCHH_FDCEFLFOGIO_OFFSET UNITYSDK_OFFSET(0x16A18940)
+#define APMFKFNCCHH_FDMNDEDEDOD_OFFSET UNITYSDK_OFFSET(0x16A1A460)
+#define APMFKFNCCHH_FIOGPHDEDLK_OFFSET UNITYSDK_OFFSET(0x16A1A210)
+#define APMFKFNCCHH_FJHGMBFNFJH_OFFSET UNITYSDK_OFFSET(0x16A1F3D0)
+#define APMFKFNCCHH_FOBNNIEINCK_OFFSET UNITYSDK_OFFSET(0x16A1E8A0)
+#define APMFKFNCCHH_FOEJHGAKBBI_OFFSET UNITYSDK_OFFSET(0x16A1A750)
+#define APMFKFNCCHH_FPFIKNEGHCA_OFFSET UNITYSDK_OFFSET(0x16A19290)
+#define APMFKFNCCHH_GET_DATADIRTY_OFFSET UNITYSDK_OFFSET(0x16A1F500)
+#define APMFKFNCCHH_GET_USEBINARYDATA_OFFSET UNITYSDK_OFFSET(0x16A157F0)
+#define APMFKFNCCHH_GFJFCAMHCOK_OFFSET UNITYSDK_OFFSET(0x16A1F6F0)
+#define APMFKFNCCHH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x16A17EC0)
+#define APMFKFNCCHH_HHFONBFOGCA_OFFSET UNITYSDK_OFFSET(0x16A1F520)
+#define APMFKFNCCHH_HMPFPFNHOLK_OFFSET UNITYSDK_OFFSET(0x16A1F9F0)
+#define APMFKFNCCHH_ICABECIMMGC_OFFSET UNITYSDK_OFFSET(0x16A18350)
+#define APMFKFNCCHH_IFHDKHHMBFJ_OFFSET UNITYSDK_OFFSET(0x16A1F4E0)
+#define APMFKFNCCHH_JLBNKAMAOHJ_OFFSET UNITYSDK_OFFSET(0x16A196E0)
+#define APMFKFNCCHH_JLOLGLLIBKE_OFFSET UNITYSDK_OFFSET(0x16A18FA0)
+#define APMFKFNCCHH_JMOHCMJEOMC_OFFSET UNITYSDK_OFFSET(0x16A18CE0)
+#define APMFKFNCCHH_JPHPAKAGJHA_OFFSET UNITYSDK_OFFSET(0x16A1EDE0)
+#define APMFKFNCCHH_JPKLGGEKLJJ_OFFSET UNITYSDK_OFFSET(0x16A18500)
+#define APMFKFNCCHH_KCFFBEAIFEG_OFFSET UNITYSDK_OFFSET(0x16A1B2E0)
+#define APMFKFNCCHH_KCGFKIBJKNJ_OFFSET UNITYSDK_OFFSET(0x16A1AC90)
+#define APMFKFNCCHH_KLEJMFCPEPB_OFFSET UNITYSDK_OFFSET(0x16A19930)
+#define APMFKFNCCHH_KNIBMDAAEKE_OFFSET UNITYSDK_OFFSET(0x16A1BA80)
+#define APMFKFNCCHH_LFBKNKJIOIA_OFFSET UNITYSDK_OFFSET(0x16A15810)
+#define APMFKFNCCHH_LNHCLLFAILN_OFFSET UNITYSDK_OFFSET(0x16A19DB0)
+#define APMFKFNCCHH_LOBINCLNKDC_OFFSET UNITYSDK_OFFSET(0x16A1DBF0)
+#define APMFKFNCCHH_MCIJELPHKFK_OFFSET UNITYSDK_OFFSET(0x16A17DE0)
+#define APMFKFNCCHH_MMEDFDJIGIM_OFFSET UNITYSDK_OFFSET(0x16A187D0)
+#define APMFKFNCCHH_MNFKCINBNFJ_OFFSET UNITYSDK_OFFSET(0x16A19A30)
+#define APMFKFNCCHH_NANIAEPEGHB_OFFSET UNITYSDK_OFFSET(0x16A1B9E0)
+#define APMFKFNCCHH_NCFAINDCHOB_OFFSET UNITYSDK_OFFSET(0x16A1DF30)
+#define APMFKFNCCHH_NECEPECJKJA_OFFSET UNITYSDK_OFFSET(0x16A1F4F0)
+#define APMFKFNCCHH_NHIANJEHEEK_OFFSET UNITYSDK_OFFSET(0x16A17E80)
+#define APMFKFNCCHH_NKMCDHLFAOI_OFFSET UNITYSDK_OFFSET(0x16A19000)
+#define APMFKFNCCHH_NPPKAHKODCC_OFFSET UNITYSDK_OFFSET(0x16A19410)
+#define APMFKFNCCHH_OGMODJFMPBI_OFFSET UNITYSDK_OFFSET(0x16A1A1A0)
+#define APMFKFNCCHH_OJNGKKJLDNB_OFFSET UNITYSDK_OFFSET(0x16A1EE80)
+#define APMFKFNCCHH_OMJPFIHCGHA_OFFSET UNITYSDK_OFFSET(0x16A17EA0)
+#define APMFKFNCCHH_ONFEIIIFCOK_OFFSET UNITYSDK_OFFSET(0x16A1A6B0)
+#define APMFKFNCCHH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x16A1BC50)
+#define APMFKFNCCHH_PAIGPOKOCJL_OFFSET UNITYSDK_OFFSET(0x16A19060)
+#define APMFKFNCCHH_PCONDAPOAFH_OFFSET UNITYSDK_OFFSET(0x16A1F4D0)
+#define APMFKFNCCHH_PKPEINFBLBO_OFFSET UNITYSDK_OFFSET(0x16A1B060)
+#define APMFKFNCCHH_SET_DATADIRTY_OFFSET UNITYSDK_OFFSET(0x16A1F510)
+#define APMFKFNCCHH_SET_USEBINARYDATA_OFFSET UNITYSDK_OFFSET(0x16A15800)
 
-inline static constexpr unsigned int APMFKFNCCHH_TypeDefinitionIndex = 73776;
+inline static constexpr unsigned int APMFKFNCCHH_TypeDefinitionIndex = 75900;
 
 	class APMFKFNCCHH : public ::System::Object
 	{
 	public:
-		::Collections::Pooled::PooledDictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>* PILDFLBIFJN; // 0x10
-		::System::Collections::Generic::HashSet_1<::OLMJHHNPJJH*>* DHIBMDEMIBN; // 0x18
-		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* MGMEJJHGAOM; // 0x20
-		::NCNPCENKKGN* PNIAJCNKHOP; // 0x28
-		::System::Collections::Generic::List_1<::System::String*>* EONODDHDKGG; // 0x30
-		::System::Action_6<::UnityEngine::TextAsset*, ::RPG::IReference*, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::System::Int32>* JJMFOBIIICA; // 0x38
-		::System::Collections::Generic::List_1<::System::Single>* PAKDMMJLJFI; // 0x40
-		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>*>*>* PMOBOBNKKAO; // 0x48
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Boolean>* JBHOAMOBHCG; // 0x50
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ECKIMJFMONA; // 0x58
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*>* JPKACEHEFOH; // 0x60
-		::RPG::GameCore::StagePVSData* CDHODPNNMGO; // 0x68
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* KDHCAJKADBL; // 0x70
+		::System::Action_6<::UnityEngine::TextAsset*, ::RPG::IReference*, ::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::System::Int32>* JJMFOBIIICA; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::ValueTuple_4<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::System::Int32>>* DBKOBGPIHEE; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>* NPBFOFEGKJG; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Boolean>* JBHOAMOBHCG; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* JDHOBEHPEJF; // 0x30
+		::RPG::GameCore::StageAutoGenConfig* CGPPFOLFAKI; // 0x38
+		::System::Collections::Generic::List_1<::System::ValueTuple_5<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::RPG::GameCore::JsonOfflineCullingCellData*, ::System::Int32>>* OGHDCJLJECC; // 0x40
+		::System::Action_2<::System::Int64, ::System::Boolean>* PDHMBMJIADP; // 0x48
+		::Collections::Pooled::PooledDictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>* PILDFLBIFJN; // 0x50
+		::System::Collections::Generic::List_1<::System::Single>* PAKDMMJLJFI; // 0x58
+		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* OALJEANHPAO; // 0x60
+		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::Volume*>* PKOJHLMKMPD; // 0x68
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>* NIMEBGFNBGA; // 0x70
 		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Int32>* AFGNJKMIELE; // 0x78
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::HPKACEPPPCA*>* NIMEBGFNBGA; // 0x80
-		::System::Collections::Generic::List_1<::System::ValueTuple_4<::RPG::GameCore::OfflineCullingIndex*, ::UnityEngine::Vector3, ::System::Single, ::System::Int32>>* NMNLECOANLF; // 0x88
-		::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>* NPBFOFEGKJG; // 0x90
-		::RPG::Client::PVSDebugMono* EMDIEIENDCN; // 0x98
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* DLMAKOKDAPL; // 0xA0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* OOEGCINAFFI; // 0xA8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonOfflineCullingCellData*>* BOBJONMPNFM; // 0x80
+		::RPG::GameCore::StagePVSData* CDHODPNNMGO; // 0x88
+		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* KJCFIDNOOPD; // 0x90
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* KDHCAJKADBL; // 0x98
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* OOEGCINAFFI; // 0xA0
+		::RPG::Client::PVSDebugMono* EMDIEIENDCN; // 0xA8
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::HashSet_1<::RPG::GameCore::OfflineCullingIndex*>*>* GLIHMBDEKFP; // 0xB0
-		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::StreamingItemData*>* OALJEANHPAO; // 0xB8
-		::RPG::GameCore::StageAutoGenConfig* CGPPFOLFAKI; // 0xC0
-		::System::Action_2<::System::Int64, ::System::Boolean>* PDHMBMJIADP; // 0xC8
-		::FCCJBBDBHCA* IDHKPDHIAKE; // 0xD0
-		::RPG::GameCore::StageBaseConfig* KIKKCNDGFOL; // 0xD8
-		::System::Collections::Generic::List_1<::RPG::Client::OpenWorld::Volume*>* PKOJHLMKMPD; // 0xE0
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* JDHOBEHPEJF; // 0xE8
-		::System::Collections::Generic::List_1<::System::ValueTuple_5<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::RPG::GameCore::JsonOfflineCullingCellData*, ::System::Int32>>* OGHDCJLJECC; // 0xF0
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::JsonOfflineCullingCellData*>* BOBJONMPNFM; // 0xF8
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>*>* FJJNAJMOGHG; // 0x100
-		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* KJCFIDNOOPD; // 0x108
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* GOLFLIHEPEL; // 0x110
-		::LJFHKAJPFNE* BJPKBELGNCM; // 0x118
-		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::ValueTuple_4<::UnityEngine::Vector3, ::System::Single, ::RPG::GameCore::OfflineCullingIndex*, ::System::Int32>>* DBKOBGPIHEE; // 0x120
-		::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::OpenWorldCullingPauseReason> CKHLABOMJBM; // 0x128
-		::System::Single JDHLINNDIJD; // 0x130
-		::System::Int32 KPCDAMGMMJB; // 0x134
-		::System::Boolean _UseBinaryData_k__BackingField; // 0x138
-		::System::Boolean LJJPFLOEHGA; // 0x139
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ECKIMJFMONA; // 0xB8
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* GOLFLIHEPEL; // 0xC0
+		::System::Collections::Generic::List_1<::System::String*>* EONODDHDKGG; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::OpenWorld::StreamingItemData*, ::System::Int32>* DLMAKOKDAPL; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>*>* FJJNAJMOGHG; // 0xD8
+		::RPG::GameCore::StageBaseConfig* KIKKCNDGFOL; // 0xE0
+		::System::Collections::Generic::HashSet_1<::OLMJHHNPJJH*>* DHIBMDEMIBN; // 0xE8
+		::FCCJBBDBHCA* IDHKPDHIAKE; // 0xF0
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Int32, ::System::Int32>>*>* JPKACEHEFOH; // 0xF8
+		::System::Collections::Generic::List_1<::System::ValueTuple_4<::RPG::GameCore::OfflineCullingIndex*, ::UnityEngine::Vector3, ::System::Single, ::System::Int32>>* NMNLECOANLF; // 0x100
+		::NCNPCENKKGN* PNIAJCNKHOP; // 0x108
+		::System::Collections::Generic::HashSet_1<::RPG::Client::OpenWorld::StreamingItemData*>* MGMEJJHGAOM; // 0x110
+		::System::Collections::Generic::List_1<::System::Collections::Generic::Dictionary_2<::System::Int64, ::System::Collections::Generic::List_1<::RPG::GameCore::OfflineCullingIndex*>*>*>* PMOBOBNKKAO; // 0x118
+		::LJFHKAJPFNE* BJPKBELGNCM; // 0x120
+		::System::Int64 EJLJJDFHDGK; // 0x128
+		::System::Boolean DLBAMHMDMDP; // 0x130
+		::System::Boolean CLAFGFLPIPA; // 0x131
 		::System::Byte _padding0[0x6];
-		::System::Int64 EJLJJDFHDGK; // 0x140
-		::System::Int32 PKDPHHHLAMA; // 0x148
-		::UnityEngine::Vector3 BCEBNLHANAO; // 0x14C
-		::System::Boolean CKCFINEHCBL; // 0x158
-		::System::Boolean _DataDirty_k__BackingField; // 0x159
-		::System::Boolean DLBAMHMDMDP; // 0x15A
-		::System::Boolean CLAFGFLPIPA; // 0x15B
-		::System::Int32 EJIMIIGJFHH; // 0x15C
+		::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::OpenWorldCullingPauseReason> CKHLABOMJBM; // 0x138
+		::System::Boolean LJJPFLOEHGA; // 0x140
+		::System::Boolean _DataDirty_k__BackingField; // 0x141
+		::System::Boolean _UseBinaryData_k__BackingField; // 0x142
+		::System::Boolean CKCFINEHCBL; // 0x143
+		::System::Int32 EJIMIIGJFHH; // 0x144
+		::System::Int32 KPCDAMGMMJB; // 0x148
+		::System::Int32 PKDPHHHLAMA; // 0x14C
+		::UnityEngine::Vector3 BCEBNLHANAO; // 0x150
+		::System::Single JDHLINNDIJD; // 0x15C
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_KJPLMHJINGE()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F000);
+		}
+
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_CIBEDCLKBNE()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x658E0);
-		}
-
-		static ::System::Object** StaticGet_GONDGPELLDG()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x658E8);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_JPGBNDEGOMD()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x658F0);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_NDJICBEOKAI()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x658F8);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_MLGAHMJHMLP()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65900);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_NDDGLIBPIEM()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65908);
-		}
-
-		static ::FCOEMCEDLNL** StaticGet_DHAELINDBHK()
-		{
-			return (::FCOEMCEDLNL**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65910);
-		}
-
-		static ::System::Collections::Generic::List_1<::System::Int64>** StaticGet_NMIKNGNEMHF()
-		{
-			return (::System::Collections::Generic::List_1<::System::Int64>**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65918);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_PKAJOPBCPIK()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65920);
-		}
-
-		static ::System::Collections::Generic::Stack_1<::KGPLCHGEGMD*>** StaticGet_MPDMJDFHLPN()
-		{
-			return (::System::Collections::Generic::Stack_1<::KGPLCHGEGMD*>**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65928);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F008);
 		}
 
 		static ::System::Object** StaticGet_FMPJFBMGADP()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65930);
+			return (::System::Object**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F010);
+		}
+
+		static ::FCOEMCEDLNL** StaticGet_DHAELINDBHK()
+		{
+			return (::FCOEMCEDLNL**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F018);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_MLGAHMJHMLP()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F020);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_PKAJOPBCPIK()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F028);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_NDDGLIBPIEM()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F030);
 		}
 
 		static ::System::Collections::Generic::Stack_1<::PLEDOEKMLCN*>** StaticGet_MMPMFOFFJHB()
 		{
-			return (::System::Collections::Generic::Stack_1<::PLEDOEKMLCN*>**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65938);
+			return (::System::Collections::Generic::Stack_1<::PLEDOEKMLCN*>**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F038);
 		}
 
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_KJPLMHJINGE()
+		static ::System::Collections::Generic::Stack_1<::KGPLCHGEGMD*>** StaticGet_MPDMJDFHLPN()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x65940);
+			return (::System::Collections::Generic::Stack_1<::KGPLCHGEGMD*>**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F040);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_JPGBNDEGOMD()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F048);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_NDJICBEOKAI()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F050);
+		}
+
+		static ::System::Object** StaticGet_GONDGPELLDG()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F058);
+		}
+
+		static ::System::Collections::Generic::List_1<::System::Int64>** StaticGet_NMIKNGNEMHF()
+		{
+			return (::System::Collections::Generic::List_1<::System::Int64>**)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x5F060);
 		}
 
 		static ::System::Single* StaticGet_IGKDOGBBDGH()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x14D70);
+			return (::System::Single*)UnitySDK::FromName("", "APMFKFNCCHH")->GetStaticField(0x14160);
 		}
 
 		// static const ::System::Object KONDIJAGDAC; // 0x0

@@ -6,29 +6,29 @@ class NAOKFLDEDBJ;
 namespace RPG::GameCore { class LinearWithDetectProjectileData; }
 namespace UnityEngine { class Collider; }
 
-#define ILJKOLGJHMC_CTOR_OFFSET UNITYSDK_OFFSET(0x164C0B20)
-#define ILJKOLGJHMC_GET_FIRSTFRAMEOCCLUSION_OFFSET UNITYSDK_OFFSET(0x164C18A0)
-#define ILJKOLGJHMC_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0x164C1210)
-#define ILJKOLGJHMC_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0x164C0FC0)
-#define ILJKOLGJHMC_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x164C0B80)
-#define ILJKOLGJHMC_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x164C10E0)
-#define ILJKOLGJHMC_SET_FIRSTFRAMEOCCLUSION_OFFSET UNITYSDK_OFFSET(0x164C18B0)
+#define ILJKOLGJHMC_CTOR_OFFSET UNITYSDK_OFFSET(0x17498D00)
+#define ILJKOLGJHMC_GET_FIRSTFRAMEOCCLUSION_OFFSET UNITYSDK_OFFSET(0x17499A70)
+#define ILJKOLGJHMC_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0x174993E0)
+#define ILJKOLGJHMC_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0x17499190)
+#define ILJKOLGJHMC_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x17498D60)
+#define ILJKOLGJHMC_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x174992B0)
+#define ILJKOLGJHMC_SET_FIRSTFRAMEOCCLUSION_OFFSET UNITYSDK_OFFSET(0x17499A80)
 
-inline static constexpr unsigned int ILJKOLGJHMC_TypeDefinitionIndex = 54746;
+inline static constexpr unsigned int ILJKOLGJHMC_TypeDefinitionIndex = 55913;
 
 	class ILJKOLGJHMC : public ::GGJEMEHMBNL
 	{
 	public:
-		::UnityEngine::Collider* PAKKIDHJAPI; // 0x48
-		::RPG::GameCore::LinearWithDetectProjectileData* FPGPHIEOMFL; // 0x50
-		::System::Boolean _FirstFrameOcclusion_k__BackingField; // 0x58
-		::System::Boolean GCFHHOLDLAB; // 0x59
+		::RPG::GameCore::LinearWithDetectProjectileData* FPGPHIEOMFL; // 0x48
+		::UnityEngine::Collider* PAKKIDHJAPI; // 0x50
+		::UnityEngine::Vector3 PLJPILHHGAL; // 0x58
+		::System::Single FKNJJCMGEGL; // 0x64
+		::System::Boolean GCFHHOLDLAB; // 0x68
+		::System::Boolean _FirstFrameOcclusion_k__BackingField; // 0x69
 		::System::Byte _padding0[0x2];
-		::System::Single KGBDNGJFPGM; // 0x5C
-		::System::Single GDKPNPHFMAJ; // 0x60
-		::UnityEngine::Vector3 PLJPILHHGAL; // 0x64
-		::System::Single FKNJJCMGEGL; // 0x70
-		::System::Single LDLDMGFBGAI; // 0x74
+		::System::Single LDLDMGFBGAI; // 0x6C
+		::System::Single GDKPNPHFMAJ; // 0x70
+		::System::Single KGBDNGJFPGM; // 0x74
 		::System::Void _ctor(::NAOKFLDEDBJ* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NAOKFLDEDBJ*))((::PBYTE)hIl2Cpp + ILJKOLGJHMC_CTOR_OFFSET))(this, a1);

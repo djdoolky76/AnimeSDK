@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/BaseShowDialogBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9383F0)
+#define RPGTOOLS_TIMELINE_SHOWB51RACINGPERFORMANCEDIALOGBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF455CB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ShowB51RacingPerformanceDialogBehaviour_TypeDefinitionIndex = 48288;
+	inline static constexpr unsigned int ShowB51RacingPerformanceDialogBehaviour_TypeDefinitionIndex = 49329;
 
 	class ShowB51RacingPerformanceDialogBehaviour : public ::RPGTools::Timeline::BaseShowDialogBehaviour
 	{

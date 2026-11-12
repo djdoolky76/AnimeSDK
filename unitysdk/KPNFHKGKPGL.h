@@ -4,9 +4,9 @@
 class NICJMCOELEP;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define KPNFHKGKPGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C7260)
+#define KPNFHKGKPGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE1BB10)
 
-inline static constexpr unsigned int KPNFHKGKPGL_TypeDefinitionIndex = 47063;
+inline static constexpr unsigned int KPNFHKGKPGL_TypeDefinitionIndex = 48091;
 
 	class KPNFHKGKPGL : public ::System::Object
 	{

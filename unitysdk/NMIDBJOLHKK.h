@@ -3,10 +3,10 @@
 class CIDMEPLLPIM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define NMIDBJOLHKK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC865E0)
-#define NMIDBJOLHKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC86610)
+#define NMIDBJOLHKK_CTOR_OFFSET UNITYSDK_OFFSET(0xC56EDA0)
+#define NMIDBJOLHKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC56EDD0)
 
-inline static constexpr unsigned int NMIDBJOLHKK_TypeDefinitionIndex = 55517;
+inline static constexpr unsigned int NMIDBJOLHKK_TypeDefinitionIndex = 56709;
 
 	class NMIDBJOLHKK
 	{

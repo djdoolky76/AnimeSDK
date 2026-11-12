@@ -4,18 +4,18 @@
 class CANOCBHNHLJ;
 namespace System { class Object; }
 
-#define CANOCBHNHLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E05FE30)
-#define CANOCBHNHLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E05FE70)
-#define CANOCBHNHLJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E05FE80)
+#define CANOCBHNHLJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F323820)
+#define CANOCBHNHLJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F323860)
+#define CANOCBHNHLJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F323870)
 
-inline static constexpr unsigned int CANOCBHNHLJ___c_TypeDefinitionIndex = 31811;
+inline static constexpr unsigned int CANOCBHNHLJ___c_TypeDefinitionIndex = 32724;
 
 	class CANOCBHNHLJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58D80);
 		}
 
 		static ::System::Void _cctor()

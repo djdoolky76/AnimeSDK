@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchDialogueEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CMOGFMFNOBA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA40610)
-#define CMOGFMFNOBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDA40680)
+#define CMOGFMFNOBA_CTOR_OFFSET UNITYSDK_OFFSET(0xE3814D0)
+#define CMOGFMFNOBA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE381540)
 
-inline static constexpr unsigned int CMOGFMFNOBA_TypeDefinitionIndex = 59095;
+inline static constexpr unsigned int CMOGFMFNOBA_TypeDefinitionIndex = 60370;
 
 	class CMOGFMFNOBA
 	{

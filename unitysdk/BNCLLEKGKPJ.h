@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetEntityArtRotation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BNCLLEKGKPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC82A0)
-#define BNCLLEKGKPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDC82D0)
+#define BNCLLEKGKPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC746AA0)
+#define BNCLLEKGKPJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC746AD0)
 
-inline static constexpr unsigned int BNCLLEKGKPJ_TypeDefinitionIndex = 58541;
+inline static constexpr unsigned int BNCLLEKGKPJ_TypeDefinitionIndex = 59806;
 
 	class BNCLLEKGKPJ
 	{

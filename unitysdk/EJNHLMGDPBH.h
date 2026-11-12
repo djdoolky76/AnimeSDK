@@ -5,10 +5,10 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarInfo; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EJNHLMGDPBH_CTOR_OFFSET UNITYSDK_OFFSET(0x154EF3E0)
-#define EJNHLMGDPBH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x154EF460)
+#define EJNHLMGDPBH_CTOR_OFFSET UNITYSDK_OFFSET(0x16437180)
+#define EJNHLMGDPBH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16437200)
 
-inline static constexpr unsigned int EJNHLMGDPBH_TypeDefinitionIndex = 75359;
+inline static constexpr unsigned int EJNHLMGDPBH_TypeDefinitionIndex = 77686;
 
 	class EJNHLMGDPBH : public ::MLKDDLHNNHH
 	{

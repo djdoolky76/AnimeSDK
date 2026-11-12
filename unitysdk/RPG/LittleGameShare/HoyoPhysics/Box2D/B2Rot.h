@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Rot_TypeDefinitionIndex = 36741;
+	inline static constexpr unsigned int B2Rot_TypeDefinitionIndex = 37669;
 
 	struct alignas(4) B2Rot
 	{

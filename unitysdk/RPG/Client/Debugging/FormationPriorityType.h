@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Debugging
 {
-	inline static constexpr unsigned int FormationPriorityType_TypeDefinitionIndex = 82124;
+	inline static constexpr unsigned int FormationPriorityType_TypeDefinitionIndex = 84997;
 
 	enum class FormationPriorityType : ::System::Int32
 	{

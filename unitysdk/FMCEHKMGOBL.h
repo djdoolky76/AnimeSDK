@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define FMCEHKMGOBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1584E080)
+#define FMCEHKMGOBL_CTOR_OFFSET UNITYSDK_OFFSET(0x167BE2B0)
 
-inline static constexpr unsigned int FMCEHKMGOBL_TypeDefinitionIndex = 48656;
+inline static constexpr unsigned int FMCEHKMGOBL_TypeDefinitionIndex = 49702;
 
 	class FMCEHKMGOBL : public ::UnityEngine::Playables::PlayableBehaviour
 	{

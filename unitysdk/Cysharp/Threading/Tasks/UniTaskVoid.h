@@ -5,7 +5,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskVoid_TypeDefinitionIndex = 38448;
+	inline static constexpr unsigned int UniTaskVoid_TypeDefinitionIndex = 39377;
 
 	struct alignas(4) UniTaskVoid
 	{

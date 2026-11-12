@@ -3,7 +3,7 @@
 
 namespace UnityEngine::AI
 {
-	inline static constexpr unsigned int OffMeshLinkType_TypeDefinitionIndex = 5649;
+	inline static constexpr unsigned int OffMeshLinkType_TypeDefinitionIndex = 5654;
 
 	enum class OffMeshLinkType : ::System::Int32
 	{

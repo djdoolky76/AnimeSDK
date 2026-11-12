@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CakeRaceLookAtCatByRank; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MNPKLAJLBED_CTOR_OFFSET UNITYSDK_OFFSET(0xBA1A2B0)
-#define MNPKLAJLBED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA1A2E0)
+#define MNPKLAJLBED_CTOR_OFFSET UNITYSDK_OFFSET(0xC2D8630)
+#define MNPKLAJLBED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2D8660)
 
-inline static constexpr unsigned int MNPKLAJLBED_TypeDefinitionIndex = 52622;
+inline static constexpr unsigned int MNPKLAJLBED_TypeDefinitionIndex = 53729;
 
 	class MNPKLAJLBED
 	{

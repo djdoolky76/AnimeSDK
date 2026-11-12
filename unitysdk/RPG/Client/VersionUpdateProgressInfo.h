@@ -4,25 +4,25 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_VERSIONUPDATEPROGRESSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4BDE0)
+#define RPG_CLIENT_VERSIONUPDATEPROGRESSINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEFC840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VersionUpdateProgressInfo_TypeDefinitionIndex = 35338;
+	inline static constexpr unsigned int VersionUpdateProgressInfo_TypeDefinitionIndex = 36266;
 
 	class VersionUpdateProgressInfo : public ::System::Object
 	{
 	public:
-		::System::String* DownloadProgress; // 0x10
-		::System::String* DescStr; // 0x18
-		::System::String* DownloadSize; // 0x20
-		::System::String* DownloadSpeed; // 0x28
-		::RPG::Client::TextID DescTextID; // 0x30
-		::System::Boolean ShowSpeed; // 0x40
+		::System::String* DownloadSpeed; // 0x10
+		::System::String* DownloadSize; // 0x18
+		::System::String* DescStr; // 0x20
+		::System::String* DownloadProgress; // 0x28
+		::System::Single ProgressValue; // 0x30
+		::System::Boolean ShowSpeed; // 0x34
 		::System::Byte _padding0[0x3];
-		::System::Single ProgressValue; // 0x44
-		::System::Int64 TotalSize; // 0x48
-		::System::Int64 CurSize; // 0x50
+		::System::Int64 TotalSize; // 0x38
+		::System::Int64 CurSize; // 0x40
+		::RPG::Client::TextID DescTextID; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_VERSIONUPDATEPROGRESSINFO_CTOR_OFFSET))(this);

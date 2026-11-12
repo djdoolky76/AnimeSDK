@@ -6,10 +6,10 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FKNLFCPDINH_CTOR_OFFSET UNITYSDK_OFFSET(0x158121A0)
-#define FKNLFCPDINH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15811DA0)
+#define FKNLFCPDINH_CTOR_OFFSET UNITYSDK_OFFSET(0x1677F840)
+#define FKNLFCPDINH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1677F440)
 
-inline static constexpr unsigned int FKNLFCPDINH_TypeDefinitionIndex = 77357;
+inline static constexpr unsigned int FKNLFCPDINH_TypeDefinitionIndex = 79691;
 
 	class FKNLFCPDINH : public ::System::Object
 	{

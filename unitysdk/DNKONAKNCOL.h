@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class DACEDJLJOGK;
 
-#define DNKONAKNCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD4170)
+#define DNKONAKNCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x12DCD4C0)
 
-inline static constexpr unsigned int DNKONAKNCOL_TypeDefinitionIndex = 81993;
+inline static constexpr unsigned int DNKONAKNCOL_TypeDefinitionIndex = 84774;
 
 	class DNKONAKNCOL : public ::System::Object
 	{

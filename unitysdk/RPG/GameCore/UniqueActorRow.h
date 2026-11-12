@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class UniqueActorRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_UNIQUEACTORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC72DB0)
-#define RPG_GAMECORE_UNIQUEACTORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC72C80)
+#define RPG_GAMECORE_UNIQUEACTORROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE85A60)
+#define RPG_GAMECORE_UNIQUEACTORROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE85930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UniqueActorRow_TypeDefinitionIndex = 13107;
+	inline static constexpr unsigned int UniqueActorRow_TypeDefinitionIndex = 13175;
 
 	class UniqueActorRow : public ::System::Object
 	{

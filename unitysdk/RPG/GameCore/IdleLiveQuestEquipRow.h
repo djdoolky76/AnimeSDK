@@ -4,22 +4,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveQuestEquipRow; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTEQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77DDE0)
-#define RPG_GAMECORE_IDLELIVEQUESTEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77DB40)
+#define RPG_GAMECORE_IDLELIVEQUESTEQUIPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E991510)
+#define RPG_GAMECORE_IDLELIVEQUESTEQUIPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E991270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestEquipRow_TypeDefinitionIndex = 11768;
+	inline static constexpr unsigned int IdleLiveQuestEquipRow_TypeDefinitionIndex = 11825;
 
 	class IdleLiveQuestEquipRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* PropertyIDList; // 0x10
-		::System::UInt32 Rarity; // 0x18
-		::System::Boolean IsSpecial; // 0x1C
+		::System::UInt32 QuestID; // 0x18
+		::System::UInt32 RandomFactorIndex; // 0x1C
+		::System::UInt32 Rarity; // 0x20
+		::System::Boolean IsSpecial; // 0x24
 		::System::Byte _padding0[0x3];
-		::System::UInt32 QuestID; // 0x20
-		::System::UInt32 RandomFactorIndex; // 0x24
 		::System::UInt32 EquipID; // 0x28
 		::System::UInt32 Level; // 0x2C
 		::System::Void _ctor()

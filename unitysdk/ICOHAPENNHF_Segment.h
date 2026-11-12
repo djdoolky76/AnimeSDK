@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define ICOHAPENNHF_SEGMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
-#define ICOHAPENNHF_SEGMENT_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x2E7FC40)
+#define ICOHAPENNHF_SEGMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
+#define ICOHAPENNHF_SEGMENT_GET_CENTER_OFFSET UNITYSDK_OFFSET(0x3055D30)
 
-inline static constexpr unsigned int ICOHAPENNHF_Segment_TypeDefinitionIndex = 69329;
+inline static constexpr unsigned int ICOHAPENNHF_Segment_TypeDefinitionIndex = 71283;
 
 	struct alignas(4) ICOHAPENNHF_Segment
 	{

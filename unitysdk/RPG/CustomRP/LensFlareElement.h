@@ -6,11 +6,11 @@ namespace RPG::CustomRP { class GradientTex; }
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CUSTOMRP_LENSFLAREELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC33F70)
+#define RPG_CUSTOMRP_LENSFLAREELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDB3E0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LensFlareElement_TypeDefinitionIndex = 37821;
+	inline static constexpr unsigned int LensFlareElement_TypeDefinitionIndex = 38750;
 
 	class LensFlareElement : public ::System::Object
 	{

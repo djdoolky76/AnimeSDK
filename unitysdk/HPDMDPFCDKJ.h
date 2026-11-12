@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HPDMDPFCDKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x202EFC0)
+#define HPDMDPFCDKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x2168550)
 
-inline static constexpr unsigned int HPDMDPFCDKJ_TypeDefinitionIndex = 57791;
+inline static constexpr unsigned int HPDMDPFCDKJ_TypeDefinitionIndex = 59026;
 
 	struct alignas(4) HPDMDPFCDKJ
 	{

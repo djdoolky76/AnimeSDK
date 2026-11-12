@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JBFFCBPMKEF_ReferenceType_TypeDefinitionIndex = 57767;
+inline static constexpr unsigned int JBFFCBPMKEF_ReferenceType_TypeDefinitionIndex = 59002;
 
 	enum class JBFFCBPMKEF_ReferenceType : ::System::Int32
 	{

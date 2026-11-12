@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/MechCraft/ViewModel/MechCraftDiyEditItemViewModelBase.h"
 class HEFLLOIJAOF;
 
-#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEFFECTITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD67CE40)
+#define RPG_CLIENT_MECHCRAFT_VIEWMODEL_MECHCRAFTDIYMECHATRONEFFECTITEMVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE10B800)
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftDiyMechatronEffectItemViewModel_TypeDefinitionIndex = 79605;
+	inline static constexpr unsigned int MechCraftDiyMechatronEffectItemViewModel_TypeDefinitionIndex = 82382;
 
 	class MechCraftDiyMechatronEffectItemViewModel : public ::RPG::Client::MechCraft::ViewModel::MechCraftDiyEditItemViewModelBase
 	{

@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatPredicateConfig_DamageValueCompare; }
 
-#define PHIBBEBOOKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED1B0)
-#define PHIBBEBOOKF_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C7ED1D0)
+#define PHIBBEBOOKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D96EB40)
+#define PHIBBEBOOKF_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D96EB60)
 
-inline static constexpr unsigned int PHIBBEBOOKF_TypeDefinitionIndex = 36317;
+inline static constexpr unsigned int PHIBBEBOOKF_TypeDefinitionIndex = 37245;
 
 	class PHIBBEBOOKF : public ::HHOHBHGLHHF
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EraFlipperConfig; }
 namespace RPG::GameCore { class EraRegion; }
 
-#define RPG_GAMECORE_ERAFLIPPERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6812C0)
-#define RPG_GAMECORE_ERAFLIPPERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D681100)
+#define RPG_GAMECORE_ERAFLIPPERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D5F0)
+#define RPG_GAMECORE_ERAFLIPPERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E88D430)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EraFlipperConfig_TypeDefinitionIndex = 16619;
+	inline static constexpr unsigned int EraFlipperConfig_TypeDefinitionIndex = 16785;
 
 	class EraFlipperConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCurrentSkillEffect___O_TypeDefinitionIndex = 23020;
+	inline static constexpr unsigned int ByCurrentSkillEffect___O_TypeDefinitionIndex = 23448;
 
 	class ByCurrentSkillEffect___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0xE080);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x547C0);
 		}
 
 	};

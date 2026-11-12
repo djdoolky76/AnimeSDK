@@ -6,23 +6,23 @@ namespace RPG::GameCore { class LittleGameCustomLoadConfig; }
 namespace RPG::GameCore { class LittleGameEntityConfig; }
 namespace RPG::GameCore { class LittleGameEntityVarConfig; }
 
-#define CKOLIMBFFBD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA12F10)
-#define CKOLIMBFFBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13060)
-#define CKOLIMBFFBD_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA12F90)
-#define CKOLIMBFFBD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA13020)
+#define CKOLIMBFFBD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DBD6780)
+#define CKOLIMBFFBD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBD68D0)
+#define CKOLIMBFFBD_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DBD6800)
+#define CKOLIMBFFBD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1DBD6890)
 
-inline static constexpr unsigned int CKOLIMBFFBD_TypeDefinitionIndex = 43357;
+inline static constexpr unsigned int CKOLIMBFFBD_TypeDefinitionIndex = 44338;
 
 	class CKOLIMBFFBD : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::LittleGameEntityVarConfig* JNEACCAPCHE; // 0x10
-		::RPG::GameCore::LittleGameCustomLoadConfig* LEPGEFCALCH; // 0x18
+		::RPG::PoolList_1<::System::UInt32>* EGGCADJJJOD; // 0x18
 		::RPG::GameCore::LittleGameEntityConfig* HEOPJACOFPI; // 0x20
-		::RPG::PoolList_1<::System::UInt32>* EGGCADJJJOD; // 0x28
-		::System::Int32 NJGKCPOOHDM; // 0x30
+		::RPG::GameCore::LittleGameCustomLoadConfig* LEPGEFCALCH; // 0x28
+		::System::UInt32 BNLCCCCMABF; // 0x30
 		::System::UInt32 DFEJABODPGM; // 0x34
-		::System::UInt32 BNLCCCCMABF; // 0x38
+		::System::Int32 NJGKCPOOHDM; // 0x38
 		::System::Boolean ANEDAPKOFBC; // 0x3C
 		::System::Boolean IOBJFEJFLJP; // 0x3D
 		::System::Void _ctor()

@@ -4,9 +4,9 @@
 namespace Entitas { class IContext; }
 namespace Entitas { class IEntity; }
 
-#define BLOBJPIJDPC_ECCEMBIIJPF_1_OFFSET UNITYSDK_OFFSET(0x1C5C0420)
+#define BLOBJPIJDPC_ECCEMBIIJPF_1_OFFSET UNITYSDK_OFFSET(0x1D741CA0)
 
-inline static constexpr unsigned int BLOBJPIJDPC_TypeDefinitionIndex = 37011;
+inline static constexpr unsigned int BLOBJPIJDPC_TypeDefinitionIndex = 37939;
 
 	class BLOBJPIJDPC : public ::System::Object
 	{

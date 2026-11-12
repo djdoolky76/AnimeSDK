@@ -8,51 +8,51 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class Texture2D; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_ADD_CURSORCHANGE_OFFSET UNITYSDK_OFFSET(0x1F6490A0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F64A5D0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F649A60)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_GET_HASMOUSE_OFFSET UNITYSDK_OFFSET(0x1F649A20)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_GET_HOTSPOT_OFFSET UNITYSDK_OFFSET(0x1F649A00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x1F6499E0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_LOAD_OFFSET UNITYSDK_OFFSET(0x1F649160)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_REMOVE_CURSORCHANGE_OFFSET UNITYSDK_OFFSET(0x1F649100)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SETACTIVECURSOR_OFFSET UNITYSDK_OFFSET(0x1F649CE0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SETCUSTOMCURSOR_OFFSET UNITYSDK_OFFSET(0x1F64A1F0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SET_HASMOUSE_OFFSET UNITYSDK_OFFSET(0x1F649A30)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SET_HOTSPOT_OFFSET UNITYSDK_OFFSET(0x1F649A10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x1F6499F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_ADD_CURSORCHANGE_OFFSET UNITYSDK_OFFSET(0x208F8920)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x208F9D90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_CTOR_OFFSET UNITYSDK_OFFSET(0x208F92C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_GET_HASMOUSE_OFFSET UNITYSDK_OFFSET(0x208F9280)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_GET_HOTSPOT_OFFSET UNITYSDK_OFFSET(0x208F9260)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_GET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x208F9240)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_LOAD_OFFSET UNITYSDK_OFFSET(0x208F89E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_REMOVE_CURSORCHANGE_OFFSET UNITYSDK_OFFSET(0x208F8980)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SETACTIVECURSOR_OFFSET UNITYSDK_OFFSET(0x208F9540)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SETCUSTOMCURSOR_OFFSET UNITYSDK_OFFSET(0x208F99F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SET_HASMOUSE_OFFSET UNITYSDK_OFFSET(0x208F9290)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SET_HOTSPOT_OFFSET UNITYSDK_OFFSET(0x208F9270)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERCURSOR_SET_TEXTURE_OFFSET UNITYSDK_OFFSET(0x208F9250)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserCursor_TypeDefinitionIndex = 39366;
+	inline static constexpr unsigned int BrowserCursor_TypeDefinitionIndex = 40295;
 
 	class BrowserCursor : public ::System::Object
 	{
 	public:
-		::System::Action* cursorChange; // 0x10
+		::UnityEngine::Texture2D* normalTexture; // 0x10
 		::UnityEngine::Texture2D* _Texture_k__BackingField; // 0x18
-		::UnityEngine::Texture2D* customTexture; // 0x20
-		::UnityEngine::Texture2D* normalTexture; // 0x28
+		::System::Action* cursorChange; // 0x20
+		::UnityEngine::Texture2D* customTexture; // 0x28
 		::UnityEngine::Vector2 _Hotspot_k__BackingField; // 0x30
 		::System::Boolean _hasMouse; // 0x38
 		static ::UnityEngine::Texture2D** StaticGet_allCursors()
 		{
-			return (::UnityEngine::Texture2D**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0x50510);
+			return (::UnityEngine::Texture2D**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0x46230);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>** StaticGet_mapping()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0x50518);
+			return (::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0x46238);
 		}
 
 		static ::System::Int32* StaticGet_size()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0x12130);
+			return (::System::Int32*)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0xEB50);
 		}
 
 		static ::System::Boolean* StaticGet_loaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0x12134);
+			return (::System::Boolean*)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "BrowserCursor")->GetStaticField(0xEB54);
 		}
 
 		::System::Void _ctor()

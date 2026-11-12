@@ -5,9 +5,9 @@ class BJHMBGLPOLB;
 class OOCCBMLAELL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MCMDOMJOAGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB888220)
+#define MCMDOMJOAGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC134670)
 
-inline static constexpr unsigned int MCMDOMJOAGJ_TypeDefinitionIndex = 80552;
+inline static constexpr unsigned int MCMDOMJOAGJ_TypeDefinitionIndex = 83332;
 
 	class MCMDOMJOAGJ : public ::System::Object
 	{

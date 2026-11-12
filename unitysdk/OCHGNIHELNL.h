@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CompareType.h"
 #include "unitysdk/System/Object.h"
 
-#define OCHGNIHELNL_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1C7CBE20)
+#define OCHGNIHELNL_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1D94D6B0)
 
-inline static constexpr unsigned int OCHGNIHELNL_TypeDefinitionIndex = 36976;
+inline static constexpr unsigned int OCHGNIHELNL_TypeDefinitionIndex = 37904;
 
 	class OCHGNIHELNL : public ::System::Object
 	{

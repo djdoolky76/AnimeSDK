@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Animations
 {
-	inline static constexpr unsigned int AnimationStream_TypeDefinitionIndex = 5759;
+	inline static constexpr unsigned int AnimationStream_TypeDefinitionIndex = 5765;
 
 	struct alignas(4) AnimationStream
 	{

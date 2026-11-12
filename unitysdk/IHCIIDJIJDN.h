@@ -6,18 +6,18 @@ class IHCIIDJIJDN;
 class LBJLBMOOJGM;
 namespace System { class Object; }
 
-#define IHCIIDJIJDN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC76570)
-#define IHCIIDJIJDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC75BA0)
-#define IHCIIDJIJDN_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1EC75BB0)
+#define IHCIIDJIJDN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF26F60)
+#define IHCIIDJIJDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF265D0)
+#define IHCIIDJIJDN_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1FF265E0)
 
-inline static constexpr unsigned int IHCIIDJIJDN_TypeDefinitionIndex = 44314;
+inline static constexpr unsigned int IHCIIDJIJDN_TypeDefinitionIndex = 45389;
 
 	class IHCIIDJIJDN : public ::System::Object
 	{
 	public:
 		static ::IHCIIDJIJDN** StaticGet_FMJPMFEDIJL()
 		{
-			return (::IHCIIDJIJDN**)UnitySDK::FromName("", "IHCIIDJIJDN")->GetStaticField(0x4C7E0);
+			return (::IHCIIDJIJDN**)UnitySDK::FromName("", "IHCIIDJIJDN")->GetStaticField(0x62650);
 		}
 
 		::System::Void _ctor()

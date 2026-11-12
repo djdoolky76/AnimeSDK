@@ -5,45 +5,45 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define NHGNBMFAINF_ALIGJKCICHG_OFFSET UNITYSDK_OFFSET(0xBBC2150)
-#define NHGNBMFAINF_BGFGBADLKCJ_OFFSET UNITYSDK_OFFSET(0xBBC2470)
-#define NHGNBMFAINF_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBC24E0)
-#define NHGNBMFAINF_GPDOEHKMLOK_OFFSET UNITYSDK_OFFSET(0xBBC2290)
-#define NHGNBMFAINF_MJDEFKGACDG_OFFSET UNITYSDK_OFFSET(0xBBC23F0)
+#define NHGNBMFAINF_ALIGJKCICHG_OFFSET UNITYSDK_OFFSET(0xC49FAA0)
+#define NHGNBMFAINF_BGFGBADLKCJ_OFFSET UNITYSDK_OFFSET(0xC49FDC0)
+#define NHGNBMFAINF_CCTOR_OFFSET UNITYSDK_OFFSET(0xC49FE30)
+#define NHGNBMFAINF_GPDOEHKMLOK_OFFSET UNITYSDK_OFFSET(0xC49FBE0)
+#define NHGNBMFAINF_MJDEFKGACDG_OFFSET UNITYSDK_OFFSET(0xC49FD40)
 
-inline static constexpr unsigned int NHGNBMFAINF_TypeDefinitionIndex = 78793;
+inline static constexpr unsigned int NHGNBMFAINF_TypeDefinitionIndex = 81528;
 
 	class NHGNBMFAINF : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Vector2Int* StaticGet_MMEEICBJGBO()
-		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xC270);
-		}
-
-		static ::UnityEngine::Vector2Int* StaticGet_MEEGDBLPJHO()
-		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xC278);
-		}
-
 		static ::UnityEngine::Vector2Int* StaticGet_JBGHFDAKJDD()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xC280);
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xB820);
+		}
+
+		static ::UnityEngine::Vector2Int* StaticGet_MMEEICBJGBO()
+		{
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xB828);
 		}
 
 		static ::UnityEngine::Vector2Int* StaticGet_BMFIPKPLLJM()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xC288);
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xB830);
 		}
 
 		static ::System::Int32* StaticGet_AHLHICBECGN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xC290);
+			return (::System::Int32*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xB838);
+		}
+
+		static ::UnityEngine::Vector2Int* StaticGet_MEEGDBLPJHO()
+		{
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xB83C);
 		}
 
 		static ::UnityEngine::Vector2Int* StaticGet_BBNMBHNPIDM()
 		{
-			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xC294);
+			return (::UnityEngine::Vector2Int*)UnitySDK::FromName("", "NHGNBMFAINF")->GetStaticField(0xB844);
 		}
 
 		static ::System::Void _cctor()

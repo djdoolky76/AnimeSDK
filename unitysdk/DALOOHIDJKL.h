@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByStatusCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DALOOHIDJKL_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC50B0)
-#define DALOOHIDJKL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xDFC50E0)
+#define DALOOHIDJKL_CTOR_OFFSET UNITYSDK_OFFSET(0xE928B00)
+#define DALOOHIDJKL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE928B30)
 
-inline static constexpr unsigned int DALOOHIDJKL_TypeDefinitionIndex = 54715;
+inline static constexpr unsigned int DALOOHIDJKL_TypeDefinitionIndex = 55882;
 
 	class DALOOHIDJKL
 	{

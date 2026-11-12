@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_B51RACING_ROADRASHFIREPROJECTILEHITNOTIFYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC7D1A60)
+#define RPG_CLIENT_B51RACING_ROADRASHFIREPROJECTILEHITNOTIFYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD131F00)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int RoadRashFireProjectileHitNotifyData_TypeDefinitionIndex = 81677;
+	inline static constexpr unsigned int RoadRashFireProjectileHitNotifyData_TypeDefinitionIndex = 84458;
 
 	class RoadRashFireProjectileHitNotifyData : public ::System::Object
 	{

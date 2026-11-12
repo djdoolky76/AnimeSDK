@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnableDynamicSkillButtonInput; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OBGNPMHPGFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD407A0)
-#define OBGNPMHPGFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD407D0)
+#define OBGNPMHPGFP_CTOR_OFFSET UNITYSDK_OFFSET(0xC644940)
+#define OBGNPMHPGFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC644970)
 
-inline static constexpr unsigned int OBGNPMHPGFP_TypeDefinitionIndex = 55012;
+inline static constexpr unsigned int OBGNPMHPGFP_TypeDefinitionIndex = 56186;
 
 	class OBGNPMHPGFP
 	{

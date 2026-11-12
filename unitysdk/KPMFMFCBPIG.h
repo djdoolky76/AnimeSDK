@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BFINOGCFBMJ.h"
 
-#define KPMFMFCBPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C1B70)
+#define KPMFMFCBPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE16410)
 
-inline static constexpr unsigned int KPMFMFCBPIG_TypeDefinitionIndex = 54286;
+inline static constexpr unsigned int KPMFMFCBPIG_TypeDefinitionIndex = 55450;
 
 	class KPMFMFCBPIG : public ::BFINOGCFBMJ
 	{

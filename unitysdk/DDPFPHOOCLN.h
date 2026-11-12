@@ -5,16 +5,16 @@
 class JNPKHNPNMFC;
 namespace UnityEngine { class Material; }
 
-#define DDPFPHOOCLN_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4F1550)
-#define DDPFPHOOCLN_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F15A0)
+#define DDPFPHOOCLN_CLEAR_OFFSET UNITYSDK_OFFSET(0xEE383D0)
+#define DDPFPHOOCLN_CTOR_OFFSET UNITYSDK_OFFSET(0xEE38420)
 
-inline static constexpr unsigned int DDPFPHOOCLN_TypeDefinitionIndex = 69842;
+inline static constexpr unsigned int DDPFPHOOCLN_TypeDefinitionIndex = 71801;
 
 	class DDPFPHOOCLN : public ::System::Object
 	{
 	public:
-		::JNPKHNPNMFC* CPOAKCIODHA; // 0x10
-		::Il2CppArray<::UnityEngine::Material*>* HNOOHPDGPEA; // 0x18
+		::Il2CppArray<::UnityEngine::Material*>* HNOOHPDGPEA; // 0x10
+		::JNPKHNPNMFC* CPOAKCIODHA; // 0x18
 		::System::Int32 BJIOBCHFCAA; // 0x20
 		::FBGCEENEKND MJMEEOIEMMM; // 0x24
 		::System::Void _ctor()

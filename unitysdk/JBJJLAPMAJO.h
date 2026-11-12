@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionOverrideBaseWaitTime; }
 
-#define JBJJLAPMAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D6FF0)
-#define JBJJLAPMAJO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C6F2FC0)
+#define JBJJLAPMAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D858930)
+#define JBJJLAPMAJO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1D874A10)
 
-inline static constexpr unsigned int JBJJLAPMAJO_TypeDefinitionIndex = 37390;
+inline static constexpr unsigned int JBJJLAPMAJO_TypeDefinitionIndex = 38318;
 
 	class JBJJLAPMAJO : public ::GPLOFONGBGI
 	{

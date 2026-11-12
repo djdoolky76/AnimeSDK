@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Rect.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define AMAONGGOKGP_PHOOLFPABIL_OFFSET UNITYSDK_OFFSET(0x1C89DF60)
+#define AMAONGGOKGP_PHOOLFPABIL_OFFSET UNITYSDK_OFFSET(0x1DA1F600)
 
-inline static constexpr unsigned int AMAONGGOKGP_TypeDefinitionIndex = 43591;
+inline static constexpr unsigned int AMAONGGOKGP_TypeDefinitionIndex = 44573;
 
 	class AMAONGGOKGP : public ::System::Object
 	{

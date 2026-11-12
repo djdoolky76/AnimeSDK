@@ -11,25 +11,25 @@ namespace System::Net::Http { class HttpClient; }
 namespace System::Net::Http { class HttpRequestMessage; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define JHOCADLMHCA__LISTSHEETS_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x10BF0)
-#define JHOCADLMHCA__LISTSHEETS_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10C00)
+#define JHOCADLMHCA__LISTSHEETS_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x14890)
+#define JHOCADLMHCA__LISTSHEETS_D__11_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x148A0)
 
-inline static constexpr unsigned int JHOCADLMHCA__ListSheets_d__11_TypeDefinitionIndex = 50041;
+inline static constexpr unsigned int JHOCADLMHCA__ListSheets_d__11_TypeDefinitionIndex = 51089;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	struct alignas(8) JHOCADLMHCA__ListSheets_d__11
 	{
-		::System::Net::Http::HttpClient* _client_5__3; // 0x10
-		::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x18
-		::System::Object* __u__2; // 0x20
+		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x10
+		::System::Net::Http::HttpClient* _client_5__3; // 0x18
+		::System::Object* __u__3; // 0x20
 		::System::Byte _padding0[0x8];
-		::System::Object* __u__3; // 0x30
+		::System::Object* __u__2; // 0x30
 		::System::Byte _padding1[0x8];
-		::JHOCADLMHCA* __4__this; // 0x40
-		::System::String* docID; // 0x48
-		::System::Runtime::CompilerServices::TaskAwaiter_1<::System::String*> __u__1; // 0x50
-		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::String*>>*> __t__builder; // 0x58
+		::System::String* docID; // 0x40
+		::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::String*, ::System::String*>>*> __t__builder; // 0x48
 		::System::Byte _padding2[0x10];
+		::System::Net::Http::HttpRequestMessage* _request_5__2; // 0x60
+		::JHOCADLMHCA* __4__this; // 0x68
 		::System::Int32 __1__state; // 0x70
 		::System::Void MoveNext()
 		{

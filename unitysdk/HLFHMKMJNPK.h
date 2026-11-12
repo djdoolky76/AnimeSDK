@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class PLAGENLANML;
 
-#define HLFHMKMJNPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECBE0)
+#define HLFHMKMJNPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB15B0)
 
-inline static constexpr unsigned int HLFHMKMJNPK_TypeDefinitionIndex = 42159;
+inline static constexpr unsigned int HLFHMKMJNPK_TypeDefinitionIndex = 43134;
 
 	class HLFHMKMJNPK : public ::System::Object
 	{

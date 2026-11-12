@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define PLBKCJPICMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F63D0)
+#define PLBKCJPICMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBB9AE0)
 
-inline static constexpr unsigned int PLBKCJPICMN_TypeDefinitionIndex = 43217;
+inline static constexpr unsigned int PLBKCJPICMN_TypeDefinitionIndex = 44198;
 
 	class PLBKCJPICMN : public ::System::Object
 	{
 	public:
 		::UnityEngine::AnimationCurve* ICPLILLKDJJ; // 0x10
 		::System::Single JIPONFOAAPH; // 0x18
-		::System::Boolean FNPGLAFFLHO; // 0x1C
-		::System::Boolean CKHKLEKIFFO; // 0x1D
+		::System::Single FLAAIBEJDOI; // 0x1C
+		::System::Boolean CKHKLEKIFFO; // 0x20
+		::System::Boolean FNPGLAFFLHO; // 0x21
 		::System::Byte _padding0[0x2];
-		::System::Single FLAAIBEJDOI; // 0x20
 		::System::Single EIBGEGPABFK; // 0x24
 		::System::Void _ctor()
 		{

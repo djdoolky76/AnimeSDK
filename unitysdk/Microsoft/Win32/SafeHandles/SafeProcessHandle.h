@@ -3,10 +3,10 @@
 #include "unitysdk/Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.h"
 namespace Microsoft::Win32::SafeHandles { class SafeProcessHandle; }
 
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFBA3B0)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EFBA1B0)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBA370)
-#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x1EFBA390)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x20269AC0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x202698C0)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0x20269A80)
+#define MICROSOFT_WIN32_SAFEHANDLES_SAFEPROCESSHANDLE_RELEASEHANDLE_OFFSET UNITYSDK_OFFSET(0x20269AA0)
 
 namespace Microsoft::Win32::SafeHandles
 {
@@ -17,7 +17,7 @@ namespace Microsoft::Win32::SafeHandles
 	public:
 		static ::Microsoft::Win32::SafeHandles::SafeProcessHandle** StaticGet_InvalidHandle()
 		{
-			return (::Microsoft::Win32::SafeHandles::SafeProcessHandle**)UnitySDK::FromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->GetStaticField(0x36890);
+			return (::Microsoft::Win32::SafeHandles::SafeProcessHandle**)UnitySDK::FromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->GetStaticField(0x27D60);
 		}
 
 		::System::Void _ctor(::System::IntPtr a1)

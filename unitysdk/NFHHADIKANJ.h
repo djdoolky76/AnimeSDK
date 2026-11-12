@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NFHHADIKANJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB93EE0)
+#define NFHHADIKANJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC46D430)
 
-inline static constexpr unsigned int NFHHADIKANJ_TypeDefinitionIndex = 67783;
+inline static constexpr unsigned int NFHHADIKANJ_TypeDefinitionIndex = 69728;
 
 	class NFHHADIKANJ : public ::System::Object
 	{

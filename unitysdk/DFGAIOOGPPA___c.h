@@ -4,18 +4,18 @@
 class DFGAIOOGPPA;
 namespace System { class Object; }
 
-#define DFGAIOOGPPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1A2800)
-#define DFGAIOOGPPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1A2830)
-#define DFGAIOOGPPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1A2840)
+#define DFGAIOOGPPA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F47C200)
+#define DFGAIOOGPPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F47C230)
+#define DFGAIOOGPPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F47C240)
 
-inline static constexpr unsigned int DFGAIOOGPPA___c_TypeDefinitionIndex = 33578;
+inline static constexpr unsigned int DFGAIOOGPPA___c_TypeDefinitionIndex = 34493;
 
 	class DFGAIOOGPPA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x328E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D0D0);
 		}
 
 		static ::System::Void _cctor()

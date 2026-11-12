@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_BATTLESELECTHOUGUDIALOGINITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE5CBB90)
-#define RPG_GAMECORE_BATTLESELECTHOUGUDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE5CBB30)
+#define RPG_GAMECORE_BATTLESELECTHOUGUDIALOGINITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF04D6E0)
+#define RPG_GAMECORE_BATTLESELECTHOUGUDIALOGINITPARAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF04D680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleSelectHouguDialogInitParam_TypeDefinitionIndex = 55604;
+	inline static constexpr unsigned int BattleSelectHouguDialogInitParam_TypeDefinitionIndex = 56800;
 
 	class BattleSelectHouguDialogInitParam : public ::System::Object
 	{

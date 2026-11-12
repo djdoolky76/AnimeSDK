@@ -6,18 +6,18 @@ namespace RPG::Client { class UIPrefabLoader_LoadResult; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3EA180)
-#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0___ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xE3EA610)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEEA4DC0)
+#define RPG_CLIENT_UIPREFABLOADER___C__DISPLAYCLASS16_0___ASYNCLOADPREFAB_B__0_OFFSET UNITYSDK_OFFSET(0xEEA5220)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass16_0_TypeDefinitionIndex = 73098;
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass16_0_TypeDefinitionIndex = 75212;
 
 	class UIPrefabLoader___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Object*>* callback; // 0x10
-		::RPG::Client::UIPrefabLoader* __4__this; // 0x18
+		::RPG::Client::UIPrefabLoader* __4__this; // 0x10
+		::System::Action_1<::System::Object*>* callback; // 0x18
 		::System::Boolean autoRelease; // 0x20
 		::System::Boolean autoReturnCache; // 0x21
 		::System::Void _ctor()

@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightBinaryDiffAddRuleConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTBINARYDIFFADDRULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7274B0)
-#define RPG_GAMECORE_GRIDFIGHTBINARYDIFFADDRULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D727340)
+#define RPG_GAMECORE_GRIDFIGHTBINARYDIFFADDRULECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9311C0)
+#define RPG_GAMECORE_GRIDFIGHTBINARYDIFFADDRULECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E931050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightBinaryDiffAddRuleConfigRow_TypeDefinitionIndex = 13611;
+	inline static constexpr unsigned int GridFightBinaryDiffAddRuleConfigRow_TypeDefinitionIndex = 13731;
 
 	class GridFightBinaryDiffAddRuleConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 EnemyDifficultyAddValue; // 0x10
-		::System::UInt32 Quality; // 0x14
-		::System::UInt32 ID; // 0x18
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 EnemyDifficultyAddValue; // 0x14
+		::System::UInt32 Quality; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTBINARYDIFFADDRULECONFIGROW_CTOR_OFFSET))(this);

@@ -1,13 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/StringHash.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
+namespace RPG::GameCore { class GridFightManager; }
 namespace RPG::GameCore { class SetDynamicValueByGridFightCustomProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LMIOIDHOACI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CA040)
-#define LMIOIDHOACI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7CA120)
+#define LMIOIDHOACI_CTOR_OFFSET UNITYSDK_OFFSET(0xC0263C0)
+#define LMIOIDHOACI_NJFOGGDKJNE_OFFSET UNITYSDK_OFFSET(0xC0265F0)
+#define LMIOIDHOACI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0264A0)
 
-inline static constexpr unsigned int LMIOIDHOACI_TypeDefinitionIndex = 55439;
+inline static constexpr unsigned int LMIOIDHOACI_TypeDefinitionIndex = 56625;
 
 	class LMIOIDHOACI
 	{
@@ -21,6 +24,11 @@ inline static constexpr unsigned int LMIOIDHOACI_TypeDefinitionIndex = 55439;
 		::System::Void OnTaskBegin()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIOIDHOACI_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::RPG::GameCore::FixPoint NJFOGGDKJNE(::RPG::GameCore::GridFightManager* a1)
+		{
+			return ((::RPG::GameCore::FixPoint(*)(::PVOID, ::RPG::GameCore::GridFightManager*))((::PBYTE)hIl2Cpp + LMIOIDHOACI_NJFOGGDKJNE_OFFSET))(this, a1);
 		}
 
 	};

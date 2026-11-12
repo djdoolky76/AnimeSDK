@@ -6,20 +6,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemConsumeTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCONSUMETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D794DD0)
-#define RPG_GAMECORE_ITEMCONSUMETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D794740)
+#define RPG_GAMECORE_ITEMCONSUMETYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A8580)
+#define RPG_GAMECORE_ITEMCONSUMETYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9A7EB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemConsumeTypeRow_TypeDefinitionIndex = 13846;
+	inline static constexpr unsigned int ItemConsumeTypeRow_TypeDefinitionIndex = 14003;
 
 	class ItemConsumeTypeRow : public ::System::Object
 	{
 	public:
 		::System::String* TypeIconPath; // 0x10
-		::System::UInt32 TypeID; // 0x18
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID FilterName; // 0x20
+		::RPG::Client::TextID FilterName; // 0x18
+		::System::UInt32 TypeID; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMCONSUMETYPEROW_CTOR_OFFSET))(this);

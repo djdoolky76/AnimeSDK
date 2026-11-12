@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPedestrianV2IntersectionChenLingTribeDropPointInfo; }
 namespace RPG::GameCore { class LevelPedestrianV2RoadEntryInfo; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEDROPPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C5B70)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEDROPPOINTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C5A20)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEDROPPOINTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA04B70)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2INTERSECTIONCHENLINGTRIBEDROPPOINTINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA04A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingTribeDropPointInfo_TypeDefinitionIndex = 17309;
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionChenLingTribeDropPointInfo_TypeDefinitionIndex = 17477;
 
 	class LevelPedestrianV2IntersectionChenLingTribeDropPointInfo : public ::RPG::GameCore::JsonConfig
 	{

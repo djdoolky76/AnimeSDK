@@ -1,22 +1,22 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
 #include "unitysdk/JJDFGMMMCMI.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 class CDEAABODKCP;
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define IHIKPPFNMKF_BNNKNIJBGPA_OFFSET UNITYSDK_OFFSET(0x164227B0)
-#define IHIKPPFNMKF_CTOR_OFFSET UNITYSDK_OFFSET(0x16422800)
-#define IHIKPPFNMKF_DLGFMPNEHGO_OFFSET UNITYSDK_OFFSET(0x16422750)
-#define IHIKPPFNMKF_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x16422050)
-#define IHIKPPFNMKF_UPDATEADDROLE_OFFSET UNITYSDK_OFFSET(0x16422550)
-#define IHIKPPFNMKF_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x164225E0)
-#define IHIKPPFNMKF_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x164220A0)
+#define IHIKPPFNMKF_BNNKNIJBGPA_OFFSET UNITYSDK_OFFSET(0x173DA200)
+#define IHIKPPFNMKF_CTOR_OFFSET UNITYSDK_OFFSET(0x173DA250)
+#define IHIKPPFNMKF_DLGFMPNEHGO_OFFSET UNITYSDK_OFFSET(0x173DA1A0)
+#define IHIKPPFNMKF_ISCONCERNEDWITH_OFFSET UNITYSDK_OFFSET(0x173D9980)
+#define IHIKPPFNMKF_UPDATEADDROLE_OFFSET UNITYSDK_OFFSET(0x173D9F80)
+#define IHIKPPFNMKF_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x173DA010)
+#define IHIKPPFNMKF_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x173D9AD0)
 
-inline static constexpr unsigned int IHIKPPFNMKF_TypeDefinitionIndex = 65181;
+inline static constexpr unsigned int IHIKPPFNMKF_TypeDefinitionIndex = 66878;
 
-	class IHIKPPFNMKF : public ::AMCOEFHHBPO
+	class IHIKPPFNMKF : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::RPG::Client::GridFightRole* AMLNAMDJKBD; // 0x10
@@ -27,9 +27,9 @@ inline static constexpr unsigned int IHIKPPFNMKF_TypeDefinitionIndex = 65181;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IHIKPPFNMKF_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean IsConcernedWith(::JJDFGMMMCMI a1)
+		::System::Boolean IsConcernedWith(::JJDFGMMMCMI a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::JJDFGMMMCMI))((::PBYTE)hIl2Cpp + IHIKPPFNMKF_ISCONCERNEDWITH_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::JJDFGMMMCMI, ::System::Collections::Generic::IList_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + IHIKPPFNMKF_ISCONCERNEDWITH_OFFSET))(this, a1, a2);
 		}
 
 		::System::Void UpdateBefore(::JJDFGMMMCMI a1, ::System::Collections::Generic::IList_1<::System::UInt32>* a2)

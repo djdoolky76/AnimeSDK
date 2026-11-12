@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PREFABCUSTOMSTATECONFIG_GIAGNIKDOEH_CCTOR_OFFSET UNITYSDK_OFFSET(0xC39BF60)
-#define PREFABCUSTOMSTATECONFIG_GIAGNIKDOEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC39BF50)
+#define PREFABCUSTOMSTATECONFIG_GIAGNIKDOEH_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCD2100)
+#define PREFABCUSTOMSTATECONFIG_GIAGNIKDOEH_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD20F0)
 
-inline static constexpr unsigned int PrefabCustomStateConfig_GIAGNIKDOEH_TypeDefinitionIndex = 47335;
+inline static constexpr unsigned int PrefabCustomStateConfig_GIAGNIKDOEH_TypeDefinitionIndex = 48364;
 
 	class PrefabCustomStateConfig_GIAGNIKDOEH : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_JMEHIIABGGM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "GIAGNIKDOEH")->GetStaticField(0x35C0);
+			return (::System::Int32*)UnitySDK::FromName("", "GIAGNIKDOEH")->GetStaticField(0x2E80);
 		}
 
 		::System::Void _ctor()

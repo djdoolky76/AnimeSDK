@@ -4,12 +4,12 @@
 #include "unitysdk/MiHoYo/SDK/Console/ConsoleProduct.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B340)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_2__EXCHANGESONYSTOREITEMINFO_B__2_OFFSET UNITYSDK_OFFSET(0x1BC3B480)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_2_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC4440)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_THIRDPARTYSTORE___C__DISPLAYCLASS16_2__EXCHANGESONYSTOREITEMINFO_B__2_OFFSET UNITYSDK_OFFSET(0x1CDC4580)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_2_TypeDefinitionIndex = 8853;
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_2_TypeDefinitionIndex = 8862;
 
 	template <typename T1, typename T2>
 	class ThirdpartyStore___c__DisplayClass16_2 : public ::System::Object

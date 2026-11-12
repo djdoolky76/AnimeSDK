@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IAsyncClickEventHandler_TypeDefinitionIndex = 38472;
+	inline static constexpr unsigned int IAsyncClickEventHandler_TypeDefinitionIndex = 39401;
 
 	class IAsyncClickEventHandler
 	{

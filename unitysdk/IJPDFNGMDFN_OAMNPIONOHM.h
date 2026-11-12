@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define IJPDFNGMDFN_OAMNPIONOHM_CTOR_OFFSET UNITYSDK_OFFSET(0x2E82200)
+#define IJPDFNGMDFN_OAMNPIONOHM_CTOR_OFFSET UNITYSDK_OFFSET(0x3057CA0)
 
-inline static constexpr unsigned int IJPDFNGMDFN_OAMNPIONOHM_TypeDefinitionIndex = 58491;
+inline static constexpr unsigned int IJPDFNGMDFN_OAMNPIONOHM_TypeDefinitionIndex = 59747;
 
 	struct alignas(8) IJPDFNGMDFN_OAMNPIONOHM
 	{

@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RecommendDisplayConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECOMMENDDISPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9738F0)
-#define RPG_GAMECORE_RECOMMENDDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D973720)
+#define RPG_GAMECORE_RECOMMENDDISPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8BC80)
+#define RPG_GAMECORE_RECOMMENDDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB8BAB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RecommendDisplayConfigRow_TypeDefinitionIndex = 14616;
+	inline static constexpr unsigned int RecommendDisplayConfigRow_TypeDefinitionIndex = 14772;
 
 	class RecommendDisplayConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* EnvironmentProfilePath; // 0x10
-		::System::String* UIPrefab; // 0x18
+		::System::String* UIPrefab; // 0x10
+		::System::String* EnvironmentProfilePath; // 0x18
 		::System::String* UI3DPrefab; // 0x20
 		::System::UInt32 IntroID; // 0x28
 		::System::UInt32 ID; // 0x2C

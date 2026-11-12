@@ -10,13 +10,13 @@ namespace RPG::GameCore { class MissionCustomValue; }
 namespace RPG::GameCore { class MissionWaypointDataPack; }
 namespace SimpleJSON { class JSONNode; }
 
-#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88AFE0)
-#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D88AFF0)
-#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88AC60)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA5350)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EAA5360)
+#define RPG_GAMECORE_MISSIONWAYPOINTDATAPACK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA4FD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MissionWaypointDataPack_TypeDefinitionIndex = 19012;
+	inline static constexpr unsigned int MissionWaypointDataPack_TypeDefinitionIndex = 19199;
 
 	class MissionWaypointDataPack : public ::RPG::GameCore::JsonConfig
 	{

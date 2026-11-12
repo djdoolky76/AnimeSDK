@@ -7,26 +7,26 @@ namespace RPG::Client::FateRin::View::Battle { class FateRinEffectController; }
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define LHFJDJAENGM_AAABFGNHANJ_OFFSET UNITYSDK_OFFSET(0xB6B0F10)
-#define LHFJDJAENGM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB6B0BB0)
-#define LHFJDJAENGM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B0F70)
-#define LHFJDJAENGM_EPJFIHHDMAK_OFFSET UNITYSDK_OFFSET(0xB6B0E40)
-#define LHFJDJAENGM_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB6B0E80)
-#define LHFJDJAENGM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB6B0D00)
+#define LHFJDJAENGM_AAABFGNHANJ_OFFSET UNITYSDK_OFFSET(0xBF48A00)
+#define LHFJDJAENGM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBF486A0)
+#define LHFJDJAENGM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF48A60)
+#define LHFJDJAENGM_EPJFIHHDMAK_OFFSET UNITYSDK_OFFSET(0xBF48930)
+#define LHFJDJAENGM_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xBF48970)
+#define LHFJDJAENGM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBF487F0)
 
-inline static constexpr unsigned int LHFJDJAENGM_TypeDefinitionIndex = 80849;
+inline static constexpr unsigned int LHFJDJAENGM_TypeDefinitionIndex = 83629;
 
 	class LHFJDJAENGM : public ::MLKDDLHNNHH
 	{
 	public:
-		::System::Action* BBNDNGACCFL; // 0x20
-		::System::Object* CFKHNPGEAJA; // 0x28
-		::RPG::Client::FateRin::View::Battle::FateRinEffectController* CPIIOIPAAKK; // 0x30
-		::System::Boolean BEMMCKLJICI; // 0x38
+		::System::Object* CFKHNPGEAJA; // 0x20
+		::RPG::Client::FateRin::View::Battle::FateRinEffectController* CPIIOIPAAKK; // 0x28
+		::System::Action* BBNDNGACCFL; // 0x30
+		::UnityEngine::Vector3 IPBOCIPNDMG; // 0x38
+		::UnityEngine::Vector3 IEBJLLHDMAG; // 0x44
+		::System::Boolean BEMMCKLJICI; // 0x50
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector3 IMFHNDBKHLI; // 0x3C
-		::UnityEngine::Vector3 IEBJLLHDMAG; // 0x48
-		::UnityEngine::Vector3 IPBOCIPNDMG; // 0x54
+		::UnityEngine::Vector3 IMFHNDBKHLI; // 0x54
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LHFJDJAENGM_CTOR_OFFSET))(this);

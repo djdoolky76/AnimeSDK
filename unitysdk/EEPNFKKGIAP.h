@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByIsInPosition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EEPNFKKGIAP_CTOR_OFFSET UNITYSDK_OFFSET(0x13A424B0)
-#define EEPNFKKGIAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A424E0)
+#define EEPNFKKGIAP_CTOR_OFFSET UNITYSDK_OFFSET(0x14802E40)
+#define EEPNFKKGIAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x14802E70)
 
-inline static constexpr unsigned int EEPNFKKGIAP_TypeDefinitionIndex = 54465;
+inline static constexpr unsigned int EEPNFKKGIAP_TypeDefinitionIndex = 55629;
 
 	class EEPNFKKGIAP
 	{

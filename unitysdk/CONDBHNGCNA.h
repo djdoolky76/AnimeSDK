@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define CONDBHNGCNA_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
-#define CONDBHNGCNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xEEC00)
+#define CONDBHNGCNA_CTOR_OFFSET UNITYSDK_OFFSET(0x12B00)
+#define CONDBHNGCNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0xFAA20)
 
-inline static constexpr unsigned int CONDBHNGCNA_TypeDefinitionIndex = 67428;
+inline static constexpr unsigned int CONDBHNGCNA_TypeDefinitionIndex = 69372;
 
 	struct alignas(4) CONDBHNGCNA
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_LOGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAFD5720)
+#define MIHOYO_SDK_MIHOYOSDKREPORTMODEL_LOGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB636A10)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKReportModel_LogInfo_TypeDefinitionIndex = 46358;
+	inline static constexpr unsigned int MiHoYoSDKReportModel_LogInfo_TypeDefinitionIndex = 47386;
 
 	class MiHoYoSDKReportModel_LogInfo : public ::System::Object
 	{

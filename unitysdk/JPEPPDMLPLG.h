@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JPEPPDMLPLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BC9C0)
+#define JPEPPDMLPLG_CTOR_OFFSET UNITYSDK_OFFSET(0xBAE8720)
 
-inline static constexpr unsigned int JPEPPDMLPLG_TypeDefinitionIndex = 54389;
+inline static constexpr unsigned int JPEPPDMLPLG_TypeDefinitionIndex = 55553;
 
 	class JPEPPDMLPLG : public ::System::Object
 	{

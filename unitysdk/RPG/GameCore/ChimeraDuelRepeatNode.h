@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChimeraDuelSaveEntitySelectionConfig; }
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 namespace RPG::GameCore { class ChimeraDuelRepeatNode; }
 
-#define RPG_GAMECORE_CHIMERADUELREPEATNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A9420)
-#define RPG_GAMECORE_CHIMERADUELREPEATNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A9430)
-#define RPG_GAMECORE_CHIMERADUELREPEATNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A93D0)
+#define RPG_GAMECORE_CHIMERADUELREPEATNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B9A80)
+#define RPG_GAMECORE_CHIMERADUELREPEATNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7B9A90)
+#define RPG_GAMECORE_CHIMERADUELREPEATNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7B9A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelRepeatNode_TypeDefinitionIndex = 15982;
+	inline static constexpr unsigned int ChimeraDuelRepeatNode_TypeDefinitionIndex = 16140;
 
 	class ChimeraDuelRepeatNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

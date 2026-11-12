@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/CameraModuleConfigBase.h"
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 
-#define RPG_CLIENT_DITHERMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCCD01F0)
-#define RPG_CLIENT_DITHERMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xCCD01A0)
+#define RPG_CLIENT_DITHERMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD691830)
+#define RPG_CLIENT_DITHERMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xD6917E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DitherModuleConfig_TypeDefinitionIndex = 69673;
+	inline static constexpr unsigned int DitherModuleConfig_TypeDefinitionIndex = 71630;
 
 	class DitherModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/miHoYoEmotion/BaseMarker.h"
 
-#define MIHOYOEMOTION_EYECTRLMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xB0BF7C0)
+#define MIHOYOEMOTION_EYECTRLMARKER_CTOR_OFFSET UNITYSDK_OFFSET(0xB7204A0)
 
 namespace miHoYoEmotion
 {
-	inline static constexpr unsigned int EyeCtrlMarker_TypeDefinitionIndex = 45965;
+	inline static constexpr unsigned int EyeCtrlMarker_TypeDefinitionIndex = 46994;
 
 	class EyeCtrlMarker : public ::miHoYoEmotion::BaseMarker
 	{

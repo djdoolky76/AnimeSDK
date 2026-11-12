@@ -9,48 +9,48 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Text { class StringBuilder; }
 
-#define R3_OBSERVABLETRACKER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C424A80)
-#define R3_OBSERVABLETRACKER_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1C4249D0)
-#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTIONCORE_OFFSET UNITYSDK_OFFSET(0x1C423F10)
-#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTION_OFFSET UNITYSDK_OFFSET(0x1C423E70)
-#define R3_OBSERVABLETRACKER_TYPEBEAUTIFY_OFFSET UNITYSDK_OFFSET(0x1C424390)
-#define R3_OBSERVABLETRACKER_UNWRAPTRACKABLEDISPOSABLE_OFFSET UNITYSDK_OFFSET(0x1C424330)
+#define R3_OBSERVABLETRACKER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5AB270)
+#define R3_OBSERVABLETRACKER_REMOVETRACKING_OFFSET UNITYSDK_OFFSET(0x1D5AB1C0)
+#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTIONCORE_OFFSET UNITYSDK_OFFSET(0x1D5AA700)
+#define R3_OBSERVABLETRACKER_TRYTRACKACTIVESUBSCRIPTION_OFFSET UNITYSDK_OFFSET(0x1D5AA660)
+#define R3_OBSERVABLETRACKER_TYPEBEAUTIFY_OFFSET UNITYSDK_OFFSET(0x1D5AAB80)
+#define R3_OBSERVABLETRACKER_UNWRAPTRACKABLEDISPOSABLE_OFFSET UNITYSDK_OFFSET(0x1D5AAB20)
 
 namespace R3
 {
-	inline static constexpr unsigned int ObservableTracker_TypeDefinitionIndex = 35926;
+	inline static constexpr unsigned int ObservableTracker_TypeDefinitionIndex = 36854;
 
 	class ObservableTracker : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::R3::TrackingState>** StaticGet_iterateCache()
 		{
-			return (::System::Collections::Generic::List_1<::R3::TrackingState>**)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0xA60);
+			return (::System::Collections::Generic::List_1<::R3::TrackingState>**)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0xA10);
 		}
 
 		static ::R3::Internal::WeakDictionary_2<::R3::TrackableDisposable*, ::R3::TrackingState>** StaticGet_tracking()
 		{
-			return (::R3::Internal::WeakDictionary_2<::R3::TrackableDisposable*, ::R3::TrackingState>**)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0xA68);
-		}
-
-		static ::System::Boolean* StaticGet_EnableTracking()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x540);
-		}
-
-		static ::System::Boolean* StaticGet_EnableStackTrace()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x541);
-		}
-
-		static ::System::Boolean* StaticGet_dirty()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x542);
+			return (::R3::Internal::WeakDictionary_2<::R3::TrackableDisposable*, ::R3::TrackingState>**)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0xA18);
 		}
 
 		static ::System::Int32* StaticGet_trackingIdCounter()
 		{
-			return (::System::Int32*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x544);
+			return (::System::Int32*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x540);
+		}
+
+		static ::System::Boolean* StaticGet_EnableTracking()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x544);
+		}
+
+		static ::System::Boolean* StaticGet_dirty()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x545);
+		}
+
+		static ::System::Boolean* StaticGet_EnableStackTrace()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("R3", "ObservableTracker")->GetStaticField(0x546);
 		}
 
 		static ::System::Void _cctor()

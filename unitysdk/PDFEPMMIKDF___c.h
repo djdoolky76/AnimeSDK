@@ -4,18 +4,18 @@
 class PDFEPMMIKDF;
 namespace System { class Object; }
 
-#define PDFEPMMIKDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF0E450)
-#define PDFEPMMIKDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF0E480)
-#define PDFEPMMIKDF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF0E490)
+#define PDFEPMMIKDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1D9E00)
+#define PDFEPMMIKDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1D9E30)
+#define PDFEPMMIKDF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F1D9E40)
 
-inline static constexpr unsigned int PDFEPMMIKDF___c_TypeDefinitionIndex = 31549;
+inline static constexpr unsigned int PDFEPMMIKDF___c_TypeDefinitionIndex = 32462;
 
 	class PDFEPMMIKDF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36C10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2E630);
 		}
 
 		static ::System::Void _cctor()

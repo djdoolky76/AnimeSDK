@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/EventSystems/MoveDirection.h"
 
-#define MOIOIIICKOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2D290)
-#define MOIOIIICKOI_GET_MOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0xBA2D270)
-#define MOIOIIICKOI_SET_MOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0xBA2D280)
+#define MOIOIIICKOI_CTOR_OFFSET UNITYSDK_OFFSET(0xC2EBC40)
+#define MOIOIIICKOI_GET_MOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0xC2EBC20)
+#define MOIOIIICKOI_SET_MOVEDIRECTION_OFFSET UNITYSDK_OFFSET(0xC2EBC30)
 
-inline static constexpr unsigned int MOIOIIICKOI_TypeDefinitionIndex = 68956;
+inline static constexpr unsigned int MOIOIIICKOI_TypeDefinitionIndex = 70909;
 
 	class MOIOIIICKOI : public ::System::Object
 	{

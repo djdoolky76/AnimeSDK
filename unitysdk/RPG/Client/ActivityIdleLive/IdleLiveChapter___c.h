@@ -5,25 +5,25 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveNode; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC46E140)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC46E180)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C__ISALLBOSSNODEFINISHED_B__49_0_OFFSET UNITYSDK_OFFSET(0xC46E190)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCDAC370)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCDAC3B0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVECHAPTER___C__ISALLBOSSNODEFINISHED_B__49_0_OFFSET UNITYSDK_OFFSET(0xCDAC3C0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveChapter___c_TypeDefinitionIndex = 75148;
+	inline static constexpr unsigned int IdleLiveChapter___c_TypeDefinitionIndex = 77475;
 
 	class IdleLiveChapter___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x22570);
-		}
-
 		static ::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveNode*, ::System::Boolean>** StaticGet___9__49_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x22578);
+			return (::System::Func_2<::RPG::Client::ActivityIdleLive::IdleLiveNode*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1B320);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityIdleLive", "<>c")->GetStaticField(0x1B328);
 		}
 
 		static ::System::Void _cctor()

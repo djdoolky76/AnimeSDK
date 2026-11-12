@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DABGOCJPFBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA2F80)
+#define DABGOCJPFBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA5900)
 
-inline static constexpr unsigned int DABGOCJPFBI_TypeDefinitionIndex = 43934;
+inline static constexpr unsigned int DABGOCJPFBI_TypeDefinitionIndex = 45009;
 
 	class DABGOCJPFBI : public ::System::Object
 	{

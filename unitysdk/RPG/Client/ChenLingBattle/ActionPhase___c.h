@@ -5,25 +5,25 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA38770)
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA387B0)
-#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPHASE___C__REQUESTSELLHANDCARD_B__5_0_OFFSET UNITYSDK_OFFSET(0xCA387C0)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD39C600)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD39C640)
+#define RPG_CLIENT_CHENLINGBATTLE_ACTIONPHASE___C__REQUESTSELLHANDCARD_B__5_0_OFFSET UNITYSDK_OFFSET(0xD39C650)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int ActionPhase___c_TypeDefinitionIndex = 76287;
+	inline static constexpr unsigned int ActionPhase___c_TypeDefinitionIndex = 78618;
 
 	class ActionPhase___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__5_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E110);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x67F60);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E118);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x67F68);
 		}
 
 		static ::System::Void _cctor()

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CLKKKBLLOOK_TypeDefinitionIndex = 55865;
+inline static constexpr unsigned int CLKKKBLLOOK_TypeDefinitionIndex = 57068;
 
 	class CLKKKBLLOOK
 	{

@@ -4,10 +4,10 @@
 class MDGKKKNOGHA;
 namespace System { class String; }
 
-#define EEMDFPCIKCJ___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A376F0)
-#define EEMDFPCIKCJ___C__DISPLAYCLASS10_0___GETPARTDITHER_B__0_OFFSET UNITYSDK_OFFSET(0x13A3DA50)
+#define EEMDFPCIKCJ___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x147F8170)
+#define EEMDFPCIKCJ___C__DISPLAYCLASS10_0___GETPARTDITHER_B__0_OFFSET UNITYSDK_OFFSET(0x147FE1A0)
 
-inline static constexpr unsigned int EEMDFPCIKCJ___c__DisplayClass10_0_TypeDefinitionIndex = 57347;
+inline static constexpr unsigned int EEMDFPCIKCJ___c__DisplayClass10_0_TypeDefinitionIndex = 58575;
 
 	class EEMDFPCIKCJ___c__DisplayClass10_0 : public ::System::Object
 	{

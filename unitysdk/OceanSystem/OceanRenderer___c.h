@@ -7,25 +7,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
 namespace UnityEngine { class Camera; }
 
-#define OCEANSYSTEM_OCEANRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBFB8D20)
-#define OCEANSYSTEM_OCEANRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB8D60)
-#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0xBFB8D70)
+#define OCEANSYSTEM_OCEANRENDERER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8BA400)
+#define OCEANSYSTEM_OCEANRENDERER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8BA440)
+#define OCEANSYSTEM_OCEANRENDERER___C__GET_ONBEGINCAMERARENDERING_B__58_0_OFFSET UNITYSDK_OFFSET(0xC8BA450)
 
 namespace OceanSystem
 {
-	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 48978;
+	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 50047;
 
 	class OceanRenderer___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__58_0()
-		{
-			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)UnitySDK::FromName("OceanSystem", "<>c")->GetStaticField(0x60310);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("OceanSystem", "<>c")->GetStaticField(0x60318);
+			return (::System::Object**)UnitySDK::FromName("OceanSystem", "<>c")->GetStaticField(0x5DB20);
+		}
+
+		static ::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>** StaticGet___9__58_0()
+		{
+			return (::System::Action_3<::OceanSystem::OceanRenderer*, ::UnityEngine::Rendering::ScriptableRenderContext, ::UnityEngine::Camera*>**)UnitySDK::FromName("OceanSystem", "<>c")->GetStaticField(0x5DB28);
 		}
 
 		static ::System::Void _cctor()

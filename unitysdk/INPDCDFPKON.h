@@ -6,24 +6,24 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 namespace RPG::GameCore { class IdleLiveEquipSlotRow; }
 namespace System { class String; }
 
-#define INPDCDFPKON_CTOR_OFFSET UNITYSDK_OFFSET(0x164F88F0)
-#define INPDCDFPKON_GET_EQUIP_OFFSET UNITYSDK_OFFSET(0x164F88C0)
-#define INPDCDFPKON_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0x164F88E0)
-#define INPDCDFPKON_GET_TITLE_OFFSET UNITYSDK_OFFSET(0x164F88B0)
-#define INPDCDFPKON_HGGABIEGFJB_OFFSET UNITYSDK_OFFSET(0x164F8920)
-#define INPDCDFPKON_MLNGAKHBJMI_OFFSET UNITYSDK_OFFSET(0x164F8970)
-#define INPDCDFPKON_SET_EQUIP_OFFSET UNITYSDK_OFFSET(0x164F88D0)
+#define INPDCDFPKON_CTOR_OFFSET UNITYSDK_OFFSET(0xB829D70)
+#define INPDCDFPKON_GET_EQUIP_OFFSET UNITYSDK_OFFSET(0xB829D40)
+#define INPDCDFPKON_GET_SLOTID_OFFSET UNITYSDK_OFFSET(0xB829D60)
+#define INPDCDFPKON_GET_TITLE_OFFSET UNITYSDK_OFFSET(0xB829D30)
+#define INPDCDFPKON_HGGABIEGFJB_OFFSET UNITYSDK_OFFSET(0xB829DB0)
+#define INPDCDFPKON_MLNGAKHBJMI_OFFSET UNITYSDK_OFFSET(0xB829E00)
+#define INPDCDFPKON_SET_EQUIP_OFFSET UNITYSDK_OFFSET(0xB829D50)
 
-inline static constexpr unsigned int INPDCDFPKON_TypeDefinitionIndex = 75223;
+inline static constexpr unsigned int INPDCDFPKON_TypeDefinitionIndex = 77550;
 
 	class INPDCDFPKON : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData* _Equip_k__BackingField; // 0x10
-		::System::String* NDKFOEHAIED; // 0x18
-		::System::UInt32 _SlotId_k__BackingField; // 0x20
-		::System::UInt32 IPONDHMHDBI; // 0x24
-		::RPG::Client::TextID _Title_k__BackingField; // 0x28
+		::System::String* NDKFOEHAIED; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveEquipmentData* _Equip_k__BackingField; // 0x18
+		::RPG::Client::TextID _Title_k__BackingField; // 0x20
+		::System::UInt32 _SlotId_k__BackingField; // 0x30
+		::System::UInt32 IPONDHMHDBI; // 0x34
 		::System::Void _ctor(::RPG::GameCore::IdleLiveEquipSlotRow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::IdleLiveEquipSlotRow*))((::PBYTE)hIl2Cpp + INPDCDFPKON_CTOR_OFFSET))(this, a1);

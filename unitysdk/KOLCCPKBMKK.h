@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KOLCCPKBMKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FBFB0)
+#define KOLCCPKBMKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB7690)
 
-inline static constexpr unsigned int KOLCCPKBMKK_TypeDefinitionIndex = 42153;
+inline static constexpr unsigned int KOLCCPKBMKK_TypeDefinitionIndex = 43128;
 
 	class KOLCCPKBMKK : public ::System::Object
 	{

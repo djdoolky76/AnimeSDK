@@ -7,25 +7,25 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
-#define HHPLFEJFLHF_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x15CD6A20)
-#define HHPLFEJFLHF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x15CD6240)
-#define HHPLFEJFLHF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15CD6B00)
-#define HHPLFEJFLHF_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD6450)
-#define HHPLFEJFLHF_KGPHPJDJDLA_OFFSET UNITYSDK_OFFSET(0x15CD6560)
-#define HHPLFEJFLHF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15CD6490)
+#define HHPLFEJFLHF_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0x16C24330)
+#define HHPLFEJFLHF_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x16C23B50)
+#define HHPLFEJFLHF_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C24410)
+#define HHPLFEJFLHF_CTOR_OFFSET UNITYSDK_OFFSET(0x16C23D60)
+#define HHPLFEJFLHF_KGPHPJDJDLA_OFFSET UNITYSDK_OFFSET(0x16C23E70)
+#define HHPLFEJFLHF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16C23DA0)
 
-inline static constexpr unsigned int HHPLFEJFLHF_TypeDefinitionIndex = 49349;
+inline static constexpr unsigned int HHPLFEJFLHF_TypeDefinitionIndex = 50425;
 
 	class HHPLFEJFLHF : public ::System::Object
 	{
 	public:
-		::System::Action* NODPAHFJLPH; // 0x10
-		::System::Collections::Generic::List_1<::KHKMCPLEEEB*>* NGKNDNPPAEC; // 0x18
+		::System::Collections::Generic::List_1<::KHKMCPLEEEB*>* NGKNDNPPAEC; // 0x10
+		::System::Action* NODPAHFJLPH; // 0x18
 		::System::Single BAGBOHCDFFA; // 0x20
 		::System::Single HNOLFPKINDK; // 0x24
 		static ::System::Collections::Generic::Stack_1<::HHPLFEJFLHF*>** StaticGet_MFPNICMCKJG()
 		{
-			return (::System::Collections::Generic::Stack_1<::HHPLFEJFLHF*>**)UnitySDK::FromName("", "HHPLFEJFLHF")->GetStaticField(0x19DE0);
+			return (::System::Collections::Generic::Stack_1<::HHPLFEJFLHF*>**)UnitySDK::FromName("", "HHPLFEJFLHF")->GetStaticField(0xBA40);
 		}
 
 		::System::Void _ctor()

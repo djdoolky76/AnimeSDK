@@ -6,18 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElationCharacterUIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D632250)
-#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6320D0)
+#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86FB90)
+#define RPG_GAMECORE_ELATIONCHARACTERUICONFIG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E86F930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElationCharacterUIConfig_TypeDefinitionIndex = 16544;
+	inline static constexpr unsigned int ElationCharacterUIConfig_TypeDefinitionIndex = 16710;
 
 	class ElationCharacterUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:
 		::RPG::Client::TextID EchoPointDesc; // 0x10
-		::Il2CppArray<::System::String*>* PreviewElationSkillTriggerKeyList; // 0x20
+		::RPG::Client::TextID NihiluxEchoPointDesc; // 0x20
+		::Il2CppArray<::System::String*>* PreviewElationSkillTriggerKeyList; // 0x30
+		::Il2CppArray<::System::String*>* IgnoreElationSkillTriggerKeyList; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ELATIONCHARACTERUICONFIG_CTOR_OFFSET))(this);

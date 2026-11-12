@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Collider2D.h"
 
-#define UNITYENGINE_CIRCLECOLLIDER2D_CTOR_OFFSET UNITYSDK_OFFSET(0x1F47F000)
-#define UNITYENGINE_CIRCLECOLLIDER2D_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1F47EFE0)
-#define UNITYENGINE_CIRCLECOLLIDER2D_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x1F47EFF0)
+#define UNITYENGINE_CIRCLECOLLIDER2D_CTOR_OFFSET UNITYSDK_OFFSET(0x2072F970)
+#define UNITYENGINE_CIRCLECOLLIDER2D_GET_RADIUS_OFFSET UNITYSDK_OFFSET(0x2072F950)
+#define UNITYENGINE_CIRCLECOLLIDER2D_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0x2072F960)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int CircleCollider2D_TypeDefinitionIndex = 5814;
+	inline static constexpr unsigned int CircleCollider2D_TypeDefinitionIndex = 5822;
 
 	class CircleCollider2D : public ::UnityEngine::Collider2D
 	{

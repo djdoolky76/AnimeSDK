@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class String; }
 
-#define TMPRO_MESH_EXTENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
-#define TMPRO_MESH_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C676F0)
+#define TMPRO_MESH_EXTENTS_CTOR_OFFSET UNITYSDK_OFFSET(0x13290)
+#define TMPRO_MESH_EXTENTS_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3EB6A50)
 
 namespace TMPro
 {
-	inline static constexpr unsigned int Mesh_Extents_TypeDefinitionIndex = 44687;
+	inline static constexpr unsigned int Mesh_Extents_TypeDefinitionIndex = 45762;
 
 	struct alignas(4) Mesh_Extents
 	{

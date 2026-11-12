@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int LEIFGBGKLDF_TypeDefinitionIndex = 6209;
+inline static constexpr unsigned int LEIFGBGKLDF_TypeDefinitionIndex = 6216;
 
 	struct alignas(4) LEIFGBGKLDF
 	{

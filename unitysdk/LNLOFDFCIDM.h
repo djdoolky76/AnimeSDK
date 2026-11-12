@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Threading { class ManualResetEvent; }
 
-#define LNLOFDFCIDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E8910)
-#define LNLOFDFCIDM_EEMDBGCMHLP_OFFSET UNITYSDK_OFFSET(0xB7E8950)
-#define LNLOFDFCIDM_OEPGEEFHCDL_OFFSET UNITYSDK_OFFSET(0xB7E8A60)
+#define LNLOFDFCIDM_CTOR_OFFSET UNITYSDK_OFFSET(0xC047E40)
+#define LNLOFDFCIDM_EEMDBGCMHLP_OFFSET UNITYSDK_OFFSET(0xC047E80)
+#define LNLOFDFCIDM_OEPGEEFHCDL_OFFSET UNITYSDK_OFFSET(0xC047F90)
 
-inline static constexpr unsigned int LNLOFDFCIDM_TypeDefinitionIndex = 59441;
+inline static constexpr unsigned int LNLOFDFCIDM_TypeDefinitionIndex = 60718;
 
 	class LNLOFDFCIDM : public ::System::Object
 	{

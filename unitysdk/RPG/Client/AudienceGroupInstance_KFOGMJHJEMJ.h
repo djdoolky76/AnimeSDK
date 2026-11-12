@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceGroupInstance_KFOGMJHJEMJ_TypeDefinitionIndex = 69146;
+	inline static constexpr unsigned int AudienceGroupInstance_KFOGMJHJEMJ_TypeDefinitionIndex = 71099;
 
 	struct alignas(8) AudienceGroupInstance_KFOGMJHJEMJ
 	{

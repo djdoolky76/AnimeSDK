@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int AJDILIJMINH_TypeDefinitionIndex = 57736;
+inline static constexpr unsigned int AJDILIJMINH_TypeDefinitionIndex = 58970;
 
 	struct alignas(4) AJDILIJMINH
 	{

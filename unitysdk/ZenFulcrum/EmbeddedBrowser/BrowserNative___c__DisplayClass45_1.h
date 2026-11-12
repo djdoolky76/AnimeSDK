@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/ZenFulcrum/EmbeddedBrowser/BrowserNative_ZFBInitialSettings.h"
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS45_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1F650310)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS45_1__INITWEBVIEWASYNC_B__2_OFFSET UNITYSDK_OFFSET(0x1F650320)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS45_1_CTOR_OFFSET UNITYSDK_OFFSET(0x208FFAC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSERNATIVE___C__DISPLAYCLASS45_1__INITWEBVIEWASYNC_B__2_OFFSET UNITYSDK_OFFSET(0x208FFAD0)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int BrowserNative___c__DisplayClass45_1_TypeDefinitionIndex = 39465;
+	inline static constexpr unsigned int BrowserNative___c__DisplayClass45_1_TypeDefinitionIndex = 40394;
 
 	template <typename T>
 	class BrowserNative___c__DisplayClass45_1 : public ::System::Object

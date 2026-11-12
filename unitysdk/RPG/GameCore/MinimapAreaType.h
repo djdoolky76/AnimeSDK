@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MinimapAreaType_TypeDefinitionIndex = 10525;
+	inline static constexpr unsigned int MinimapAreaType_TypeDefinitionIndex = 10536;
 
 	enum class MinimapAreaType : ::System::Int32
 	{

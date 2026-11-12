@@ -4,18 +4,18 @@
 class ADNCPPCPLLH;
 namespace System { class Object; }
 
-#define ADNCPPCPLLH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDE4920)
-#define ADNCPPCPLLH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDE4960)
-#define ADNCPPCPLLH___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DDE4970)
+#define ADNCPPCPLLH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFE85D0)
+#define ADNCPPCPLLH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFE8610)
+#define ADNCPPCPLLH___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EFE8620)
 
-inline static constexpr unsigned int ADNCPPCPLLH___c_TypeDefinitionIndex = 31029;
+inline static constexpr unsigned int ADNCPPCPLLH___c_TypeDefinitionIndex = 31942;
 
 	class ADNCPPCPLLH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BCA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37D50);
 		}
 
 		static ::System::Void _cctor()

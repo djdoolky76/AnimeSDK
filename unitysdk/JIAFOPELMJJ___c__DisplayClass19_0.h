@@ -9,17 +9,17 @@ class KGPCBBIOGLB;
 class PNFLEMCDMJD;
 namespace System { class Object; }
 
-#define JIAFOPELMJJ___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1D2A00)
-#define JIAFOPELMJJ___C__DISPLAYCLASS19_0___MAKEPREDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xB1E6AF0)
+#define JIAFOPELMJJ___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9F4960)
+#define JIAFOPELMJJ___C__DISPLAYCLASS19_0___MAKEPREDOWNLOAD_B__0_OFFSET UNITYSDK_OFFSET(0xBA08A20)
 
-inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass19_0_TypeDefinitionIndex = 59509;
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass19_0_TypeDefinitionIndex = 60786;
 
 	class JIAFOPELMJJ___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:
-		::CEOABLKMPKE* audioHPatch; // 0x10
-		::JIAFOPELMJJ* __4__this; // 0x18
-		::PNFLEMCDMJD* blockHPatch; // 0x20
+		::JIAFOPELMJJ* __4__this; // 0x10
+		::PNFLEMCDMJD* blockHPatch; // 0x18
+		::CEOABLKMPKE* audioHPatch; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ___C__DISPLAYCLASS19_0_CTOR_OFFSET))(this);

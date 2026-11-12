@@ -5,11 +5,11 @@
 namespace RPG::GameCore { class DamageTypeRow; }
 namespace System { class String; }
 
-#define NGLDKIHKGKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAD860)
-#define NGLDKIHKGKJ_JLKHLIGLGMN_OFFSET UNITYSDK_OFFSET(0xBBAD780)
-#define NGLDKIHKGKJ_PHJMDGLMDCG_OFFSET UNITYSDK_OFFSET(0xBBAD710)
+#define NGLDKIHKGKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC489840)
+#define NGLDKIHKGKJ_JLKHLIGLGMN_OFFSET UNITYSDK_OFFSET(0xC489760)
+#define NGLDKIHKGKJ_PHJMDGLMDCG_OFFSET UNITYSDK_OFFSET(0xC4896F0)
 
-inline static constexpr unsigned int NGLDKIHKGKJ_TypeDefinitionIndex = 81043;
+inline static constexpr unsigned int NGLDKIHKGKJ_TypeDefinitionIndex = 83823;
 
 	class NGLDKIHKGKJ : public ::System::Object
 	{

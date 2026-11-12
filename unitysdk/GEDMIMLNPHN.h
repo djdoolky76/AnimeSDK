@@ -4,10 +4,10 @@
 class GBNPHKMEIHA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GEDMIMLNPHN_CTOR_OFFSET UNITYSDK_OFFSET(0x159CF680)
-#define GEDMIMLNPHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159CF760)
+#define GEDMIMLNPHN_CTOR_OFFSET UNITYSDK_OFFSET(0x16908530)
+#define GEDMIMLNPHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16908610)
 
-inline static constexpr unsigned int GEDMIMLNPHN_TypeDefinitionIndex = 55429;
+inline static constexpr unsigned int GEDMIMLNPHN_TypeDefinitionIndex = 56614;
 
 	class GEDMIMLNPHN
 	{

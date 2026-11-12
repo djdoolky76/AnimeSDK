@@ -9,23 +9,22 @@ class JLJPFFILKIO;
 class NJMDFFHEAJJ;
 namespace Google::Protobuf::Collections { template <typename T> class RepeatedField_1; }
 
-#define DLNCBOGAMFG_COMOEOCJNML_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xF8B5D70)
-#define DLNCBOGAMFG_COMOEOCJNML_CTOR_OFFSET UNITYSDK_OFFSET(0xF8B9460)
+#define DLNCBOGAMFG_COMOEOCJNML_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x10625C70)
+#define DLNCBOGAMFG_COMOEOCJNML_CTOR_OFFSET UNITYSDK_OFFSET(0x10629290)
 
-inline static constexpr unsigned int DLNCBOGAMFG_COMOEOCJNML_TypeDefinitionIndex = 65793;
+inline static constexpr unsigned int DLNCBOGAMFG_COMOEOCJNML_TypeDefinitionIndex = 67725;
 
 	class DLNCBOGAMFG_COMOEOCJNML : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::Collections::RepeatedField_1<::BPJCKMPBAFC*>* EHKHFECEOFK; // 0x10
-		::HIIIBFIMIIE* COOOMDKGODF; // 0x18
-		::JLJPFFILKIO* JLOOPPGEADG; // 0x20
-		::Google::Protobuf::Collections::RepeatedField_1<::NJMDFFHEAJJ*>* OCKHPCLHAFD; // 0x28
-		::System::Boolean JOHBLNAKLMA; // 0x30
-		::System::Boolean IHOPKHOINBA; // 0x31
-		::System::Byte _padding0[0x2];
+		::JLJPFFILKIO* JLOOPPGEADG; // 0x10
+		::Google::Protobuf::Collections::RepeatedField_1<::NJMDFFHEAJJ*>* OCKHPCLHAFD; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::BPJCKMPBAFC*>* EHKHFECEOFK; // 0x20
+		::HIIIBFIMIIE* COOOMDKGODF; // 0x28
+		::System::UInt32 GJPPHJMHBPF; // 0x30
 		::System::Int32 FCFGHOHHJLE; // 0x34
-		::System::UInt32 GJPPHJMHBPF; // 0x38
+		::System::Boolean IHOPKHOINBA; // 0x38
+		::System::Boolean JOHBLNAKLMA; // 0x39
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLNCBOGAMFG_COMOEOCJNML_CTOR_OFFSET))(this);

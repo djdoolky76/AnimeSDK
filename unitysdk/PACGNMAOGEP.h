@@ -2,15 +2,15 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define PACGNMAOGEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E6070)
+#define PACGNMAOGEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9679B0)
 
-inline static constexpr unsigned int PACGNMAOGEP_TypeDefinitionIndex = 36437;
+inline static constexpr unsigned int PACGNMAOGEP_TypeDefinitionIndex = 37365;
 
 	class PACGNMAOGEP : public ::System::Object
 	{
 	public:
-		::System::UInt32 NKGDAAOPLJK; // 0x10
-		::System::UInt32 GMPGDEINODK; // 0x14
+		::System::UInt32 GMPGDEINODK; // 0x10
+		::System::UInt32 NKGDAAOPLJK; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PACGNMAOGEP_CTOR_OFFSET))(this);

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimMissionTalkAction; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace RPG::GameCore { class SimpleTalkListConfig; }
 
-#define RPG_GAMECORE_FIVEDIMMISSIONTALKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C9730)
-#define RPG_GAMECORE_FIVEDIMMISSIONTALKACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C9740)
-#define RPG_GAMECORE_FIVEDIMMISSIONTALKACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C9700)
+#define RPG_GAMECORE_FIVEDIMMISSIONTALKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D5D30)
+#define RPG_GAMECORE_FIVEDIMMISSIONTALKACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8D5D40)
+#define RPG_GAMECORE_FIVEDIMMISSIONTALKACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8D5D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimMissionTalkAction_TypeDefinitionIndex = 18759;
+	inline static constexpr unsigned int FiveDimMissionTalkAction_TypeDefinitionIndex = 18920;
 
 	class FiveDimMissionTalkAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{

@@ -4,7 +4,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int CollectorContextExtension_TypeDefinitionIndex = 9980;
+	inline static constexpr unsigned int CollectorContextExtension_TypeDefinitionIndex = 9988;
 
 	class CollectorContextExtension : public ::System::Object
 	{

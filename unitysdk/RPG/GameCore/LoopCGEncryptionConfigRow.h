@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LoopCGEncryptionConfigRow; }
 
-#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F56B0)
-#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7F5530)
+#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA38330)
+#define RPG_GAMECORE_LOOPCGENCRYPTIONCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA381B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LoopCGEncryptionConfigRow_TypeDefinitionIndex = 15420;
+	inline static constexpr unsigned int LoopCGEncryptionConfigRow_TypeDefinitionIndex = 15577;
 
 	class LoopCGEncryptionConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 VideoID; // 0x10
-		::RPG::GameCore::VideoEncryptionMethod EncryptionMethod; // 0x14
+		::RPG::GameCore::VideoEncryptionMethod EncryptionMethod; // 0x10
+		::System::UInt32 VideoID; // 0x14
 		::System::Boolean Encryption; // 0x18
 		::System::Void _ctor()
 		{

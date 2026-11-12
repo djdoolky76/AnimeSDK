@@ -7,14 +7,14 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class MethodInfo; }
 
-#define SRF_HELPERS_METHODREFERENCE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1ED70430)
-#define SRF_HELPERS_METHODREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED70370)
-#define SRF_HELPERS_METHODREFERENCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1ED70440)
-#define SRF_HELPERS_METHODREFERENCE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x1ED70470)
+#define SRF_HELPERS_METHODREFERENCE_CTOR_1_OFFSET UNITYSDK_OFFSET(0x2001FE60)
+#define SRF_HELPERS_METHODREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x2001FDA0)
+#define SRF_HELPERS_METHODREFERENCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x2001FE70)
+#define SRF_HELPERS_METHODREFERENCE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x2001FEA0)
 
 namespace SRF::Helpers
 {
-	inline static constexpr unsigned int MethodReference_TypeDefinitionIndex = 35423;
+	inline static constexpr unsigned int MethodReference_TypeDefinitionIndex = 36351;
 
 	class MethodReference : public ::System::Object
 	{

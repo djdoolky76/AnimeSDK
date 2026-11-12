@@ -6,9 +6,9 @@ namespace System { template <typename T> class Predicate_1; }
 namespace System { template <typename T> class WeakReference_1; }
 namespace System::Diagnostics::Tracing { class EtwSession; }
 
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAE70)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1DAEB0)
-#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x1C1DAEC0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D361BA0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D361BE0)
+#define SYSTEM_DIAGNOSTICS_TRACING_ETWSESSION___C__TRIMGLOBALLIST_B__2_0_OFFSET UNITYSDK_OFFSET(0x1D361BF0)
 
 namespace System::Diagnostics::Tracing
 {
@@ -17,14 +17,14 @@ namespace System::Diagnostics::Tracing
 	class EtwSession___c : public ::System::Object
 	{
 	public:
-		static ::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet___9__2_0()
-		{
-			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x12160);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x12168);
+			return (::System::Object**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x112F0);
+		}
+
+		static ::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>** StaticGet___9__2_0()
+		{
+			return (::System::Predicate_1<::System::WeakReference_1<::System::Diagnostics::Tracing::EtwSession*>*>**)UnitySDK::FromName("System.Diagnostics.Tracing", "<>c")->GetStaticField(0x112F8);
 		}
 
 		static ::System::Void _cctor()

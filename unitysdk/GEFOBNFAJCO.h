@@ -7,20 +7,20 @@ namespace System { class IDisposable; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GEFOBNFAJCO_CTOR_OFFSET UNITYSDK_OFFSET(0x159D3D20)
-#define GEFOBNFAJCO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159D4590)
-#define GEFOBNFAJCO_GDEJKMCGIMO_OFFSET UNITYSDK_OFFSET(0x159D4370)
-#define GEFOBNFAJCO_GELCGNKGEMN_OFFSET UNITYSDK_OFFSET(0x159D4180)
+#define GEFOBNFAJCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1690C140)
+#define GEFOBNFAJCO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1690C9B0)
+#define GEFOBNFAJCO_GDEJKMCGIMO_OFFSET UNITYSDK_OFFSET(0x1690C790)
+#define GEFOBNFAJCO_GELCGNKGEMN_OFFSET UNITYSDK_OFFSET(0x1690C5A0)
 
-inline static constexpr unsigned int GEFOBNFAJCO_TypeDefinitionIndex = 49821;
+inline static constexpr unsigned int GEFOBNFAJCO_TypeDefinitionIndex = 50869;
 
 	class GEFOBNFAJCO : public ::System::Object
 	{
 	public:
-		::System::Action_1<::EDNECKFHLEM*>* DFHDMFHHAOH; // 0x10
+		::System::Collections::Generic::Dictionary_2<::EDNECKFHLEM*, ::System::IDisposable*>* LLOGGOIPHBC; // 0x10
 		::RPG::Client::TabView* PEOHNLJEFLJ; // 0x18
 		::System::Action_1<::EDNECKFHLEM*>* OHLCAJMAAKH; // 0x20
-		::System::Collections::Generic::Dictionary_2<::EDNECKFHLEM*, ::System::IDisposable*>* LLOGGOIPHBC; // 0x28
+		::System::Action_1<::EDNECKFHLEM*>* DFHDMFHHAOH; // 0x28
 		::System::Void _ctor(::RPG::Client::TabView* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::TabView*))((::PBYTE)hIl2Cpp + GEFOBNFAJCO_CTOR_OFFSET))(this, a1);

@@ -4,7 +4,7 @@
 class HAGAHJEDCHF;
 namespace RPG::GameCore { class LittleGameEntityPreset; }
 
-inline static constexpr unsigned int BJMLJIJAFPD_TypeDefinitionIndex = 43488;
+inline static constexpr unsigned int BJMLJIJAFPD_TypeDefinitionIndex = 44470;
 
 	struct alignas(8) BJMLJIJAFPD
 	{

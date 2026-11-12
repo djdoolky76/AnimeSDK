@@ -5,11 +5,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define GBPOMEFHEHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1595E5C0)
-#define GBPOMEFHEHL_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x1595E530)
-#define GBPOMEFHEHL_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x1595E4A0)
+#define GBPOMEFHEHL_CTOR_OFFSET UNITYSDK_OFFSET(0x16894250)
+#define GBPOMEFHEHL_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x168941C0)
+#define GBPOMEFHEHL_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x16894130)
 
-inline static constexpr unsigned int GBPOMEFHEHL_TypeDefinitionIndex = 69826;
+inline static constexpr unsigned int GBPOMEFHEHL_TypeDefinitionIndex = 71785;
 
 	class GBPOMEFHEHL : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Reflection { class TargetInvocationException; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHELPERS_UNWRAPANDRETHROW_OFFSET UNITYSDK_OFFSET(0x1EDDC5F0)
+#define SYSTEM_LINQ_EXPRESSIONS_INTERPRETER_EXCEPTIONHELPERS_UNWRAPANDRETHROW_OFFSET UNITYSDK_OFFSET(0x2008C040)
 
 namespace System::Linq::Expressions::Interpreter
 {

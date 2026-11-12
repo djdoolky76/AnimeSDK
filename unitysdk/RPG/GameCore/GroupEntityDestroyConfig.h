@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GroupEntityDestroyConfig; }
 
-#define RPG_GAMECORE_GROUPENTITYDESTROYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74A8C0)
-#define RPG_GAMECORE_GROUPENTITYDESTROYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D74A720)
+#define RPG_GAMECORE_GROUPENTITYDESTROYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E95E470)
+#define RPG_GAMECORE_GROUPENTITYDESTROYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E95E2D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GroupEntityDestroyConfig_TypeDefinitionIndex = 21227;
+	inline static constexpr unsigned int GroupEntityDestroyConfig_TypeDefinitionIndex = 21570;
 
 	class GroupEntityDestroyConfig : public ::RPG::GameCore::JsonConfig
 	{

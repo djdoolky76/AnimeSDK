@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EndAdvSkillCombo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EDGCJKNEKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x13314050)
-#define EDGCJKNEKCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13314080)
+#define EDGCJKNEKCB_CTOR_OFFSET UNITYSDK_OFFSET(0x140D0BA0)
+#define EDGCJKNEKCB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140D0BD0)
 
-inline static constexpr unsigned int EDGCJKNEKCB_TypeDefinitionIndex = 58113;
+inline static constexpr unsigned int EDGCJKNEKCB_TypeDefinitionIndex = 59352;
 
 	class EDGCJKNEKCB
 	{

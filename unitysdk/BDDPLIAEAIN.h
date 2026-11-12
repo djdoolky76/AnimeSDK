@@ -7,19 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define BDDPLIAEAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCFC9C0)
-#define BDDPLIAEAIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCFC9D0)
-#define BDDPLIAEAIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCFC960)
+#define BDDPLIAEAIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA5CB0)
+#define BDDPLIAEAIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DEA5CC0)
+#define BDDPLIAEAIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEA5C70)
 
-inline static constexpr unsigned int BDDPLIAEAIN_TypeDefinitionIndex = 22679;
+inline static constexpr unsigned int BDDPLIAEAIN_TypeDefinitionIndex = 23101;
 
 	class BDDPLIAEAIN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicString* FHLJGDGMMHK; // 0x18
-		::RPG::GameCore::DynamicFloat* KHBBNDBJAFK; // 0x20
-		::RPG::GameCore::PropertyModifyFunction FKCKKFALPBK; // 0x28
-		::System::Boolean EPDBNDGLPGH; // 0x2C
+		::RPG::GameCore::DynamicFloat* KHBBNDBJAFK; // 0x18
+		::RPG::GameCore::DynamicString* FHLJGDGMMHK; // 0x20
+		::System::Boolean EPDBNDGLPGH; // 0x28
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::PropertyModifyFunction FKCKKFALPBK; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDDPLIAEAIN_CTOR_OFFSET))(this);

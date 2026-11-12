@@ -7,24 +7,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitDialogueBegin; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8761E0)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE876270)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE876390)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE8764F0)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_TICK_OFFSET UNITYSDK_OFFSET(0xE8765B0)
-#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK__ONDIALOGUEBEGIN_OFFSET UNITYSDK_OFFSET(0xE876610)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_CTOR_OFFSET UNITYSDK_OFFSET(0xF33FEB0)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF33FF40)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF340060)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF3401C0)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK_TICK_OFFSET UNITYSDK_OFFSET(0xF340280)
+#define RPG_GAMECORE_WAITDIALOGUEBEGINTASK__ONDIALOGUEBEGIN_OFFSET UNITYSDK_OFFSET(0xF3402E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitDialogueBeginTask_TypeDefinitionIndex = 58882;
+	inline static constexpr unsigned int WaitDialogueBeginTask_TypeDefinitionIndex = 60154;
 
 	class WaitDialogueBeginTask : public ::GELIALJDFBL
 	{
 	public:
-		::KFELGAIGHAP* _BeginCallback; // 0x18
-		::RPG::GameCore::TaskContext* _TaskContext; // 0x20
-		::RPG::GameCore::WaitDialogueBegin* _ConfigRef; // 0x28
-		::RPG::GameCore::GameEntity* _TargetEntity; // 0x30
+		::RPG::GameCore::TaskContext* _TaskContext; // 0x18
+		::RPG::GameCore::WaitDialogueBegin* _ConfigRef; // 0x20
+		::RPG::GameCore::GameEntity* _TargetEntity; // 0x28
+		::KFELGAIGHAP* _BeginCallback; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitDialogueBegin* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitDialogueBegin*))((::PBYTE)hIl2Cpp + RPG_GAMECORE_WAITDIALOGUEBEGINTASK_CTOR_OFFSET))(this, a1, a2);

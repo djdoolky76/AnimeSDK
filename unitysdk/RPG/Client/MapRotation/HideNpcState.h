@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MapRotation
 {
-	inline static constexpr unsigned int HideNpcState_TypeDefinitionIndex = 75748;
+	inline static constexpr unsigned int HideNpcState_TypeDefinitionIndex = 78075;
 
 	enum class HideNpcState : ::System::Int32
 	{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraBattleRunOut; }
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 
-#define RPG_GAMECORE_CHIMERABATTLERUNOUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5982B0)
-#define RPG_GAMECORE_CHIMERABATTLERUNOUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5982C0)
-#define RPG_GAMECORE_CHIMERABATTLERUNOUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D599A90)
+#define RPG_GAMECORE_CHIMERABATTLERUNOUT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A8550)
+#define RPG_GAMECORE_CHIMERABATTLERUNOUT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A8560)
+#define RPG_GAMECORE_CHIMERABATTLERUNOUT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7AA250)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleRunOut_TypeDefinitionIndex = 15879;
+	inline static constexpr unsigned int ChimeraBattleRunOut_TypeDefinitionIndex = 16037;
 
 	class ChimeraBattleRunOut : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraAbility; }
 namespace RPG::GameCore { class ChimeraAbilityModifier; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERAABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D595E90)
-#define RPG_GAMECORE_CHIMERAABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D595EA0)
-#define RPG_GAMECORE_CHIMERAABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D595E40)
+#define RPG_GAMECORE_CHIMERAABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A61B0)
+#define RPG_GAMECORE_CHIMERAABILITY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A61C0)
+#define RPG_GAMECORE_CHIMERAABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7A6160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraAbility_TypeDefinitionIndex = 15841;
+	inline static constexpr unsigned int ChimeraAbility_TypeDefinitionIndex = 15999;
 
 	class ChimeraAbility : public ::RPG::GameCore::ChimeraAbilityBase
 	{

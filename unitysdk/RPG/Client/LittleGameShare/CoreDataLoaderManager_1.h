@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int CoreDataLoaderManager_1_TypeDefinitionIndex = 36848;
+	inline static constexpr unsigned int CoreDataLoaderManager_1_TypeDefinitionIndex = 37776;
 
 	template <typename T>
 	class CoreDataLoaderManager_1 : public ::System::Object

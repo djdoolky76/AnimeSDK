@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ProcessStoredDamage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROCESSSTOREDDAMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D942A30)
-#define RPG_GAMECORE_PROCESSSTOREDDAMAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D942AD0)
-#define RPG_GAMECORE_PROCESSSTOREDDAMAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D942970)
+#define RPG_GAMECORE_PROCESSSTOREDDAMAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5BBB0)
+#define RPG_GAMECORE_PROCESSSTOREDDAMAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB5BC50)
+#define RPG_GAMECORE_PROCESSSTOREDDAMAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB5BAF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProcessStoredDamage_TypeDefinitionIndex = 22759;
+	inline static constexpr unsigned int ProcessStoredDamage_TypeDefinitionIndex = 23181;
 
 	class ProcessStoredDamage : public ::RPG::GameCore::TaskConfig
 	{

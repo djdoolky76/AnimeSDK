@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/LittleGameShare/HoyoPhysics/Box2D/B2SimplexVertex.h"
 #include "unitysdk/System/Span_1_0C0D59FF8BC7380B.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SIMPLEX_ASSPAN_OFFSET UNITYSDK_OFFSET(0x3C2D670)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SIMPLEX_ASSPAN_OFFSET UNITYSDK_OFFSET(0x3E7C650)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Simplex_TypeDefinitionIndex = 36772;
+	inline static constexpr unsigned int B2Simplex_TypeDefinitionIndex = 37700;
 
 	struct alignas(4) B2Simplex
 	{

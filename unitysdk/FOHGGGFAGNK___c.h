@@ -5,23 +5,23 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentPointViewMode
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FOHGGGFAGNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x158F1D50)
-#define FOHGGGFAGNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x158F1D90)
-#define FOHGGGFAGNK___C___REFRESHACTORSTATES_B__74_1_OFFSET UNITYSDK_OFFSET(0x158F1DA0)
+#define FOHGGGFAGNK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16820B70)
+#define FOHGGGFAGNK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16820BB0)
+#define FOHGGGFAGNK___C___REFRESHACTORSTATES_B__74_1_OFFSET UNITYSDK_OFFSET(0x16820BC0)
 
-inline static constexpr unsigned int FOHGGGFAGNK___c_TypeDefinitionIndex = 79760;
+inline static constexpr unsigned int FOHGGGFAGNK___c_TypeDefinitionIndex = 82537;
 
 	class FOHGGGFAGNK___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B5B0);
-		}
-
 		static ::System::Func_2<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*, ::System::Boolean>** StaticGet___9__74_1()
 		{
-			return (::System::Func_2<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B5B8);
+			return (::System::Func_2<::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointViewModel*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x530C0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x530C8);
 		}
 
 		static ::System::Void _cctor()

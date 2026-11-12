@@ -3,7 +3,7 @@
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int EnvObserverType_TypeDefinitionIndex = 49313;
+	inline static constexpr unsigned int EnvObserverType_TypeDefinitionIndex = 50389;
 
 	enum class EnvObserverType : ::System::Int32
 	{

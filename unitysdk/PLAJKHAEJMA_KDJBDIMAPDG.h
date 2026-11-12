@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int PLAJKHAEJMA_KDJBDIMAPDG_TypeDefinitionIndex = 43848;
+inline static constexpr unsigned int PLAJKHAEJMA_KDJBDIMAPDG_TypeDefinitionIndex = 44923;
 
 	struct alignas(8) PLAJKHAEJMA_KDJBDIMAPDG
 	{

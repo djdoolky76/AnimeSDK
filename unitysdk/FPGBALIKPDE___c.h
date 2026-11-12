@@ -4,18 +4,18 @@
 class FPGBALIKPDE;
 namespace System { class Object; }
 
-#define FPGBALIKPDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4091A0)
-#define FPGBALIKPDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4091E0)
-#define FPGBALIKPDE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4091F0)
+#define FPGBALIKPDE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6F61E0)
+#define FPGBALIKPDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6F6220)
+#define FPGBALIKPDE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F6F6230)
 
-inline static constexpr unsigned int FPGBALIKPDE___c_TypeDefinitionIndex = 34967;
+inline static constexpr unsigned int FPGBALIKPDE___c_TypeDefinitionIndex = 35895;
 
 	class FPGBALIKPDE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69500);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51FC0);
 		}
 
 		static ::System::Void _cctor()

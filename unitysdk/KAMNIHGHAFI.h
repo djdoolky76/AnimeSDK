@@ -6,17 +6,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define KAMNIHGHAFI_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DEC80)
-#define KAMNIHGHAFI_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB2DEC30)
-#define KAMNIHGHAFI_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB2DEBE0)
+#define KAMNIHGHAFI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB63B00)
+#define KAMNIHGHAFI_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBB63AB0)
+#define KAMNIHGHAFI_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBB63A60)
 
-inline static constexpr unsigned int KAMNIHGHAFI_TypeDefinitionIndex = 56672;
+inline static constexpr unsigned int KAMNIHGHAFI_TypeDefinitionIndex = 57896;
 
 	class KAMNIHGHAFI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* BDHFPPIGIAH; // 0x10
-		::System::Object* LBJJPCCEHLF; // 0x18
+		::System::Object* LBJJPCCEHLF; // 0x10
+		::RPG::GameCore::GameEntity* BDHFPPIGIAH; // 0x18
 		::System::String* DHMDAEKJENF; // 0x20
 		::System::Void _ctor()
 		{

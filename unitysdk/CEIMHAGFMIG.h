@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CEIMHAGFMIG_TypeDefinitionIndex = 54196;
+inline static constexpr unsigned int CEIMHAGFMIG_TypeDefinitionIndex = 55360;
 
 	struct alignas(4) CEIMHAGFMIG
 	{

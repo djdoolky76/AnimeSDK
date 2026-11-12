@@ -82,403 +82,403 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace UnityEngine { class Object; }
 namespace UnityEngine::UI { class InputField; }
 
-#define MIHOYO_SDK_DELEGATEREGISTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF6D990)
-#define MIHOYO_SDK_DELEGATEREGISTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAF6D9C0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERAPM_B__7_0_OFFSET UNITYSDK_OFFSET(0xAF72B20)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERAPM_B__7_1_OFFSET UNITYSDK_OFFSET(0xAF72DA0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERHOYOCHANNELS_B__2_0_OFFSET UNITYSDK_OFFSET(0xAF721F0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_0_OFFSET UNITYSDK_OFFSET(0xAF6EEE0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_10_OFFSET UNITYSDK_OFFSET(0xAF6FED0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_11_OFFSET UNITYSDK_OFFSET(0xAF6FF90)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_12_OFFSET UNITYSDK_OFFSET(0xAF70050)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_13_OFFSET UNITYSDK_OFFSET(0xAF70070)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_14_OFFSET UNITYSDK_OFFSET(0xAF70150)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_15_OFFSET UNITYSDK_OFFSET(0xAF70210)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_16_OFFSET UNITYSDK_OFFSET(0xAF702D0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_17_OFFSET UNITYSDK_OFFSET(0xAF70390)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_18_OFFSET UNITYSDK_OFFSET(0xAF704F0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_19_OFFSET UNITYSDK_OFFSET(0xAF705C0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_1_OFFSET UNITYSDK_OFFSET(0xAF6F090)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_20_OFFSET UNITYSDK_OFFSET(0xAF70680)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_21_OFFSET UNITYSDK_OFFSET(0xAF70730)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_22_OFFSET UNITYSDK_OFFSET(0xAF707F0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_23_OFFSET UNITYSDK_OFFSET(0xAF708A0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_24_OFFSET UNITYSDK_OFFSET(0xAF70960)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_25_OFFSET UNITYSDK_OFFSET(0xAF70A90)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_26_OFFSET UNITYSDK_OFFSET(0xAF70BC0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_27_OFFSET UNITYSDK_OFFSET(0xAF70C80)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_28_OFFSET UNITYSDK_OFFSET(0xAF70D60)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_29_OFFSET UNITYSDK_OFFSET(0xAF70E40)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_2_OFFSET UNITYSDK_OFFSET(0xAF6F240)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_30_OFFSET UNITYSDK_OFFSET(0xAF70EF0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_31_OFFSET UNITYSDK_OFFSET(0xAF714E0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_32_OFFSET UNITYSDK_OFFSET(0xAF71880)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_33_OFFSET UNITYSDK_OFFSET(0xAF718B0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_34_OFFSET UNITYSDK_OFFSET(0xAF71900)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_35_OFFSET UNITYSDK_OFFSET(0xAF71930)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_36_OFFSET UNITYSDK_OFFSET(0xAF71960)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_37_OFFSET UNITYSDK_OFFSET(0xAF71990)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_38_OFFSET UNITYSDK_OFFSET(0xAF71A50)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_39_OFFSET UNITYSDK_OFFSET(0xAF71B10)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_3_OFFSET UNITYSDK_OFFSET(0xAF6F3F0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_40_OFFSET UNITYSDK_OFFSET(0xAF71C10)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_41_OFFSET UNITYSDK_OFFSET(0xAF71C50)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_4_OFFSET UNITYSDK_OFFSET(0xAF6F5A0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_5_OFFSET UNITYSDK_OFFSET(0xAF6F750)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_6_OFFSET UNITYSDK_OFFSET(0xAF6F900)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_7_OFFSET UNITYSDK_OFFSET(0xAF6FAB0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_8_OFFSET UNITYSDK_OFFSET(0xAF6FC60)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_9_OFFSET UNITYSDK_OFFSET(0xAF6FE10)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_0_OFFSET UNITYSDK_OFFSET(0xAF6D9D0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_10_OFFSET UNITYSDK_OFFSET(0xAF6E080)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_11_OFFSET UNITYSDK_OFFSET(0xAF6E470)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_12_OFFSET UNITYSDK_OFFSET(0xAF6E500)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_13_OFFSET UNITYSDK_OFFSET(0xAF6E920)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_14_OFFSET UNITYSDK_OFFSET(0xAF6EBD0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_15_OFFSET UNITYSDK_OFFSET(0xAF6EC70)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_16_OFFSET UNITYSDK_OFFSET(0xAF6ED90)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_17_OFFSET UNITYSDK_OFFSET(0xAF6EE20)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_18_OFFSET UNITYSDK_OFFSET(0xAF6EE80)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_1_OFFSET UNITYSDK_OFFSET(0xAF6DA30)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_2_OFFSET UNITYSDK_OFFSET(0xAF6DA90)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_3_OFFSET UNITYSDK_OFFSET(0xAF6DAF0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_4_OFFSET UNITYSDK_OFFSET(0xAF6DBA0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_5_OFFSET UNITYSDK_OFFSET(0xAF6DC00)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_6_OFFSET UNITYSDK_OFFSET(0xAF6DC40)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_7_OFFSET UNITYSDK_OFFSET(0xAF6DCA0)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_8_OFFSET UNITYSDK_OFFSET(0xAF6DD80)
-#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_9_OFFSET UNITYSDK_OFFSET(0xAF6DE60)
+#define MIHOYO_SDK_DELEGATEREGISTER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5CE980)
+#define MIHOYO_SDK_DELEGATEREGISTER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB5CE9B0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERAPM_B__7_0_OFFSET UNITYSDK_OFFSET(0xB5D3B10)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERAPM_B__7_1_OFFSET UNITYSDK_OFFSET(0xB5D3D90)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERHOYOCHANNELS_B__2_0_OFFSET UNITYSDK_OFFSET(0xB5D31E0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_0_OFFSET UNITYSDK_OFFSET(0xB5CFED0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_10_OFFSET UNITYSDK_OFFSET(0xB5D0EC0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_11_OFFSET UNITYSDK_OFFSET(0xB5D0F80)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_12_OFFSET UNITYSDK_OFFSET(0xB5D1040)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_13_OFFSET UNITYSDK_OFFSET(0xB5D1060)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_14_OFFSET UNITYSDK_OFFSET(0xB5D1140)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_15_OFFSET UNITYSDK_OFFSET(0xB5D1200)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_16_OFFSET UNITYSDK_OFFSET(0xB5D12C0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_17_OFFSET UNITYSDK_OFFSET(0xB5D1380)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_18_OFFSET UNITYSDK_OFFSET(0xB5D14E0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_19_OFFSET UNITYSDK_OFFSET(0xB5D15B0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_1_OFFSET UNITYSDK_OFFSET(0xB5D0080)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_20_OFFSET UNITYSDK_OFFSET(0xB5D1670)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_21_OFFSET UNITYSDK_OFFSET(0xB5D1720)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_22_OFFSET UNITYSDK_OFFSET(0xB5D17E0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_23_OFFSET UNITYSDK_OFFSET(0xB5D1890)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_24_OFFSET UNITYSDK_OFFSET(0xB5D1950)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_25_OFFSET UNITYSDK_OFFSET(0xB5D1A80)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_26_OFFSET UNITYSDK_OFFSET(0xB5D1BB0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_27_OFFSET UNITYSDK_OFFSET(0xB5D1C70)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_28_OFFSET UNITYSDK_OFFSET(0xB5D1D50)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_29_OFFSET UNITYSDK_OFFSET(0xB5D1E30)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_2_OFFSET UNITYSDK_OFFSET(0xB5D0230)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_30_OFFSET UNITYSDK_OFFSET(0xB5D1EE0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_31_OFFSET UNITYSDK_OFFSET(0xB5D24D0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_32_OFFSET UNITYSDK_OFFSET(0xB5D2870)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_33_OFFSET UNITYSDK_OFFSET(0xB5D28A0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_34_OFFSET UNITYSDK_OFFSET(0xB5D28F0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_35_OFFSET UNITYSDK_OFFSET(0xB5D2920)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_36_OFFSET UNITYSDK_OFFSET(0xB5D2950)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_37_OFFSET UNITYSDK_OFFSET(0xB5D2980)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_38_OFFSET UNITYSDK_OFFSET(0xB5D2A40)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_39_OFFSET UNITYSDK_OFFSET(0xB5D2B00)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_3_OFFSET UNITYSDK_OFFSET(0xB5D03E0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_40_OFFSET UNITYSDK_OFFSET(0xB5D2C00)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_41_OFFSET UNITYSDK_OFFSET(0xB5D2C40)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_4_OFFSET UNITYSDK_OFFSET(0xB5D0590)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_5_OFFSET UNITYSDK_OFFSET(0xB5D0740)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_6_OFFSET UNITYSDK_OFFSET(0xB5D08F0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_7_OFFSET UNITYSDK_OFFSET(0xB5D0AA0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_8_OFFSET UNITYSDK_OFFSET(0xB5D0C50)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTERWEBFUNC_B__1_9_OFFSET UNITYSDK_OFFSET(0xB5D0E00)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_0_OFFSET UNITYSDK_OFFSET(0xB5CE9C0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_10_OFFSET UNITYSDK_OFFSET(0xB5CF070)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_11_OFFSET UNITYSDK_OFFSET(0xB5CF460)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_12_OFFSET UNITYSDK_OFFSET(0xB5CF4F0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_13_OFFSET UNITYSDK_OFFSET(0xB5CF910)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_14_OFFSET UNITYSDK_OFFSET(0xB5CFBC0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_15_OFFSET UNITYSDK_OFFSET(0xB5CFC60)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_16_OFFSET UNITYSDK_OFFSET(0xB5CFD80)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_17_OFFSET UNITYSDK_OFFSET(0xB5CFE10)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_18_OFFSET UNITYSDK_OFFSET(0xB5CFE70)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_1_OFFSET UNITYSDK_OFFSET(0xB5CEA20)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_2_OFFSET UNITYSDK_OFFSET(0xB5CEA80)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_3_OFFSET UNITYSDK_OFFSET(0xB5CEAE0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_4_OFFSET UNITYSDK_OFFSET(0xB5CEB90)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_5_OFFSET UNITYSDK_OFFSET(0xB5CEBF0)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_6_OFFSET UNITYSDK_OFFSET(0xB5CEC30)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_7_OFFSET UNITYSDK_OFFSET(0xB5CEC90)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_8_OFFSET UNITYSDK_OFFSET(0xB5CED70)
+#define MIHOYO_SDK_DELEGATEREGISTER___C__REGISTER_B__0_9_OFFSET UNITYSDK_OFFSET(0xB5CEE50)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DelegateRegister___c_TypeDefinitionIndex = 46275;
+	inline static constexpr unsigned int DelegateRegister___c_TypeDefinitionIndex = 47303;
 
 	class DelegateRegister___c : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate** StaticGet___9__1_10()
+		static ::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate** StaticGet___9__1_19()
 		{
-			return (::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EEE0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish** StaticGet___9__1_1()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EEE8);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_InputFieldDelegate** StaticGet___9__0_2()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_InputFieldDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EEF0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate** StaticGet___9__1_38()
-		{
-			return (::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EEF8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate** StaticGet___9__2_0()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF00);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetFrameDelegate** StaticGet___9__1_13()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetFrameDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF08);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate** StaticGet___9__0_14()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF10);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_LoadDelegate** StaticGet___9__1_9()
-		{
-			return (::MiHoYo::SDK::WebDelegate_LoadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF18);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate** StaticGet___9__1_40()
-		{
-			return (::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF20);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate** StaticGet___9__1_8()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF28);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_CloseDelegate** StaticGet___9__1_20()
-		{
-			return (::MiHoYo::SDK::WebDelegate_CloseDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF30);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_ShowDelegate** StaticGet___9__1_22()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ShowDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF38);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GetMacAddressDelegate** StaticGet___9__0_10()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetMacAddressDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF40);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate** StaticGet___9__7_0()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF48);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate** StaticGet___9__1_27()
-		{
-			return (::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF50);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate** StaticGet___9__0_9()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF58);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate** StaticGet___9__0_15()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF60);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate** StaticGet___9__1_0()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF68);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate** StaticGet___9__1_29()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF70);
+			return (::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FB0);
 		}
 
 		static ::MiHoYo::SDK::WebDelegate_ClearCookiesDelegate** StaticGet___9__1_25()
 		{
-			return (::MiHoYo::SDK::WebDelegate_ClearCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF78);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate** StaticGet___9__1_14()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF80);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_GetWebCookiesDelegate** StaticGet___9__1_35()
-		{
-			return (::MiHoYo::SDK::WebDelegate_GetWebCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF88);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_ShowTextDelegate** StaticGet___9__0_18()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_ShowTextDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF90);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate** StaticGet___9__1_31()
-		{
-			return (::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EF98);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate** StaticGet___9__0_12()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFA0);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate** StaticGet___9__0_5()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFA8);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate** StaticGet___9__1_19()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetBouncesEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFB0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate** StaticGet___9__1_11()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFB8);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate** StaticGet___9__0_16()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFC0);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_OnBoxConfigReadyDelegate** StaticGet___9__7_1()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_OnBoxConfigReadyDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFC8);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate** StaticGet___9__1_39()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFD0);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_NotificationDelegate** StaticGet___9__0_1()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_NotificationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFD8);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate** StaticGet___9__1_34()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFE0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_UpdateJoypadControlDelegate** StaticGet___9__1_36()
-		{
-			return (::MiHoYo::SDK::WebDelegate_UpdateJoypadControlDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFE8);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate** StaticGet___9__1_17()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFF0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate** StaticGet___9__1_7()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1EFF8);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_DownloadDelegate** StaticGet___9__0_0()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_DownloadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F000);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_OnGameRoleUpdateDelegate** StaticGet___9__0_17()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_OnGameRoleUpdateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F008);
+			return (::MiHoYo::SDK::WebDelegate_ClearCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FB8);
 		}
 
 		static ::MiHoYo::SDK::WebDelegate_OnWebViewBeforePageHide** StaticGet___9__1_4()
 		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforePageHide**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F010);
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforePageHide**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FC0);
 		}
 
-		static ::MiHoYo::SDK::WebDelegate_HideBGDelegate** StaticGet___9__1_26()
+		static ::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate** StaticGet___9__1_38()
 		{
-			return (::MiHoYo::SDK::WebDelegate_HideBGDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F018);
+			return (::MiHoYo::SDK::WebDelegate_RegisterJSPostMessageDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FC8);
 		}
 
-		static ::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate** StaticGet___9__0_4()
+		static ::MiHoYo::SDK::SDKDelegate_OnGameRoleUpdateDelegate** StaticGet___9__0_17()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F020);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate** StaticGet___9__1_28()
-		{
-			return (::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F028);
+			return (::MiHoYo::SDK::SDKDelegate_OnGameRoleUpdateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FD0);
 		}
 
 		static ::MiHoYo::SDK::WebDelegate_SetUrlQueryDelegate** StaticGet___9__1_33()
 		{
-			return (::MiHoYo::SDK::WebDelegate_SetUrlQueryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F030);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate** StaticGet___9__0_13()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F038);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate** StaticGet___9__0_7()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F040);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_HideDelegate** StaticGet___9__1_21()
-		{
-			return (::MiHoYo::SDK::WebDelegate_HideDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F048);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate** StaticGet___9__1_41()
-		{
-			return (::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F050);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady** StaticGet___9__1_5()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F058);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GetDriveTotalFreeSpaceDelegate** StaticGet___9__0_8()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalFreeSpaceDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F060);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate** StaticGet___9__1_37()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F068);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate** StaticGet___9__1_23()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F070);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetCookiesDelegate** StaticGet___9__1_24()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F078);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F080);
+			return (::MiHoYo::SDK::WebDelegate_SetUrlQueryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FD8);
 		}
 
 		static ::MiHoYo::SDK::WebDelegate_HideNavigationBarDelegate** StaticGet___9__1_18()
 		{
-			return (::MiHoYo::SDK::WebDelegate_HideNavigationBarDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F088);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate** StaticGet___9__1_15()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F090);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate** StaticGet___9__1_16()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F098);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate** StaticGet___9__1_30()
-		{
-			return (::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0A0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate** StaticGet___9__1_12()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0A8);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageClose** StaticGet___9__1_3()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageClose**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0B0);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate** StaticGet___9__0_6()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0B8);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate** StaticGet___9__0_11()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0C0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetWebLinearDelegate** StaticGet___9__1_32()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebLinearDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0C8);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus** StaticGet___9__1_6()
-		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0D0);
+			return (::MiHoYo::SDK::WebDelegate_HideNavigationBarDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FE0);
 		}
 
 		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageError** StaticGet___9__1_2()
 		{
-			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageError**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0D8);
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageError**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FE8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate** StaticGet___9__1_27()
+		{
+			return (::MiHoYo::SDK::WebDelegate_CallJSFunctionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FF0);
 		}
 
 		static ::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate** StaticGet___9__0_3()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1F0E0);
+			return (::MiHoYo::SDK::SDKDelegate_LoadAssetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x18FF8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate** StaticGet___9__1_34()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetWebCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19000);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate** StaticGet___9__1_31()
+		{
+			return (::MiHoYo::SDK::WebDelegate_RegisterGeetestViewDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19008);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate** StaticGet___9__1_29()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ClearBGImgDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19010);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate** StaticGet___9__1_10()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ShowDevToolsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19018);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate** StaticGet___9__1_11()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetNewWindowTypeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19020);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_ShowTextDelegate** StaticGet___9__0_18()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_ShowTextDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19028);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate** StaticGet___9__0_15()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_OnGyroscopeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19030);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate** StaticGet___9__1_37()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetAdjustDPIEnableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19038);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate** StaticGet___9__7_0()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_SetAPMAgeGateDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19040);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageClose** StaticGet___9__1_3()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageClose**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19048);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate** StaticGet___9__1_8()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPopupBrowserCreate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19050);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish** StaticGet___9__1_1()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewPageFinish**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19058);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_DownloadDelegate** StaticGet___9__0_0()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_DownloadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19060);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate** StaticGet___9__1_12()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19068);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate** StaticGet___9__1_14()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetBackButtonEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19070);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetWebLinearDelegate** StaticGet___9__1_32()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetWebLinearDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19078);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_HideDelegate** StaticGet___9__1_21()
+		{
+			return (::MiHoYo::SDK::WebDelegate_HideDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19080);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_NotificationDelegate** StaticGet___9__0_1()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_NotificationDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19088);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate** StaticGet___9__0_16()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_OnGameControlReceiveDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19090);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus** StaticGet___9__1_6()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewInputEnableStatus**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19098);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate** StaticGet___9__1_15()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetForwardButtonEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190A0);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate** StaticGet___9__0_6()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetDiskFreeSpaceDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190A8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate** StaticGet___9__1_7()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewBeforeNavigationMessageDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190B0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190B8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate** StaticGet___9__1_16()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetBackButtonActionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190C0);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate** StaticGet___9__1_23()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetZoomEnabledDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190C8);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate** StaticGet___9__0_14()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_OnGyroEventDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190D0);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_GetWebCookiesDelegate** StaticGet___9__1_35()
+		{
+			return (::MiHoYo::SDK::WebDelegate_GetWebCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190D8);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetDriveTotalFreeSpaceDelegate** StaticGet___9__0_8()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalFreeSpaceDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190E0);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_LoadDelegate** StaticGet___9__1_9()
+		{
+			return (::MiHoYo::SDK::WebDelegate_LoadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190E8);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate** StaticGet___9__0_12()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetNetworkAdapterListDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190F0);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate** StaticGet___9__0_9()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetRamRemainDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x190F8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetCookiesDelegate** StaticGet___9__1_24()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetCookiesDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19100);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate** StaticGet___9__1_41()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ShowGeetestV4WebDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19108);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate** StaticGet___9__1_30()
+		{
+			return (::MiHoYo::SDK::WebDelegate_GeetestLoadURLDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19110);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate** StaticGet___9__0_5()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_UseRuntimeFontDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19118);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetMacAddressDelegate** StaticGet___9__0_10()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetMacAddressDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19120);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_OnBoxConfigReadyDelegate** StaticGet___9__7_1()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_OnBoxConfigReadyDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19128);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_ShowDelegate** StaticGet___9__1_22()
+		{
+			return (::MiHoYo::SDK::WebDelegate_ShowDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19130);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate** StaticGet___9__1_28()
+		{
+			return (::MiHoYo::SDK::WebDelegate_CallJSPublishFunctionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19138);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate** StaticGet___9__1_17()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetCurrentWebviewAnimationEnableDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19140);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_UpdateJoypadControlDelegate** StaticGet___9__1_36()
+		{
+			return (::MiHoYo::SDK::WebDelegate_UpdateJoypadControlDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19148);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate** StaticGet___9__2_0()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_UnregisterCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19150);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate** StaticGet___9__0_4()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_UnLoadAssetDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19158);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_HideBGDelegate** StaticGet___9__1_26()
+		{
+			return (::MiHoYo::SDK::WebDelegate_HideBGDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19160);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate** StaticGet___9__1_40()
+		{
+			return (::MiHoYo::SDK::WebDelegate_QueryIsOffScreenRenderingDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19168);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate** StaticGet___9__0_13()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetNetworkTypeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19170);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate** StaticGet___9__1_39()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetWebFeatureDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19178);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_InputFieldDelegate** StaticGet___9__0_2()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_InputFieldDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19180);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate** StaticGet___9__0_11()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GeNetworkAdapterDescriptionDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19188);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady** StaticGet___9__1_5()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnWebViewNativeReady**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19190);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate** StaticGet___9__1_0()
+		{
+			return (::MiHoYo::SDK::WebDelegate_OnUniWebViewMessageDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x19198);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_CloseDelegate** StaticGet___9__1_20()
+		{
+			return (::MiHoYo::SDK::WebDelegate_CloseDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x191A0);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate** StaticGet___9__0_7()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetDriveTotalSpaceDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x191A8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetFrameDelegate** StaticGet___9__1_13()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetFrameDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x191B0);
 		}
 
 		static ::System::Void _cctor()

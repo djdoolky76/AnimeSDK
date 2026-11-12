@@ -7,21 +7,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CharacterCampConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D56A8A0)
-#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D56A150)
+#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E77BE60)
+#define RPG_GAMECORE_CHARACTERCAMPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E77B710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterCampConfigRow_TypeDefinitionIndex = 12698;
+	inline static constexpr unsigned int CharacterCampConfigRow_TypeDefinitionIndex = 12765;
 
 	class CharacterCampConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
 		::RPG::Client::TextID Name; // 0x18
-		::System::Int32 SortID; // 0x28
+		::RPG::GameCore::CharacterCampType CampType; // 0x28
 		::System::UInt32 ID; // 0x2C
-		::RPG::GameCore::CharacterCampType CampType; // 0x30
+		::System::Int32 SortID; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHARACTERCAMPCONFIGROW_CTOR_OFFSET))(this);

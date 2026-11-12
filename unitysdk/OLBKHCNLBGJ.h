@@ -5,11 +5,11 @@
 namespace RPGTools::Timeline { class LifeCycleEventArgument; }
 namespace System { class String; }
 
-#define OLBKHCNLBGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFFF50)
-#define OLBKHCNLBGJ_FNHGCHHJJLL_OFFSET UNITYSDK_OFFSET(0xBEFFDD0)
-#define OLBKHCNLBGJ_KHIDIKCNPFK_OFFSET UNITYSDK_OFFSET(0xBEFFCB0)
+#define OLBKHCNLBGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC7FB260)
+#define OLBKHCNLBGJ_FNHGCHHJJLL_OFFSET UNITYSDK_OFFSET(0xC7FB0E0)
+#define OLBKHCNLBGJ_KHIDIKCNPFK_OFFSET UNITYSDK_OFFSET(0xC7FAFC0)
 
-inline static constexpr unsigned int OLBKHCNLBGJ_TypeDefinitionIndex = 48154;
+inline static constexpr unsigned int OLBKHCNLBGJ_TypeDefinitionIndex = 49185;
 
 	class OLBKHCNLBGJ : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FourRotateVoxelRevertConfig; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELREVERTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F1700)
-#define RPG_GAMECORE_FOURROTATEVOXELREVERTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EE8A0)
+#define RPG_GAMECORE_FOURROTATEVOXELREVERTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FB9E0)
+#define RPG_GAMECORE_FOURROTATEVOXELREVERTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F8C60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelRevertConfig_TypeDefinitionIndex = 16740;
+	inline static constexpr unsigned int FourRotateVoxelRevertConfig_TypeDefinitionIndex = 16906;
 
 	class FourRotateVoxelRevertConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define CMBKDKLEBMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29B90)
+#define CMBKDKLEBMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF2C300)
 
-inline static constexpr unsigned int CMBKDKLEBMF_TypeDefinitionIndex = 6316;
+inline static constexpr unsigned int CMBKDKLEBMF_TypeDefinitionIndex = 6323;
 
 	class CMBKDKLEBMF : public ::System::Attribute
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class BPGMFAKEGDD;
 
-#define IGCOOMGCLCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB75580)
+#define IGCOOMGCLCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD3BB60)
 
-inline static constexpr unsigned int IGCOOMGCLCI_TypeDefinitionIndex = 43222;
+inline static constexpr unsigned int IGCOOMGCLCI_TypeDefinitionIndex = 44203;
 
 	class IGCOOMGCLCI : public ::System::Object
 	{

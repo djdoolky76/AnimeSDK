@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FEGJOAPIMCK_TypeDefinitionIndex = 31732;
+inline static constexpr unsigned int FEGJOAPIMCK_TypeDefinitionIndex = 32645;
 
 	enum class FEGJOAPIMCK : ::System::Int32
 	{

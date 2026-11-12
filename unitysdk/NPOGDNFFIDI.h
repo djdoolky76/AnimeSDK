@@ -6,10 +6,10 @@ class KNFCEJEJINK;
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NPOGDNFFIDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBD125C0)
-#define NPOGDNFFIDI_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xBD12520)
+#define NPOGDNFFIDI_CTOR_OFFSET UNITYSDK_OFFSET(0xC601F00)
+#define NPOGDNFFIDI_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xC601E60)
 
-inline static constexpr unsigned int NPOGDNFFIDI_TypeDefinitionIndex = 77684;
+inline static constexpr unsigned int NPOGDNFFIDI_TypeDefinitionIndex = 80419;
 
 	class NPOGDNFFIDI : public ::HBLDGJCDJPF
 	{

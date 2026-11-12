@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class ITerrainLayer; }
 
-#define UNITYENGINE_TERRAINADDITIONALCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4A16B0)
-#define UNITYENGINE_TERRAINADDITIONALCOMPONENT_GETACTIVELAYERS_OFFSET UNITYSDK_OFFSET(0x1F4A15E0)
+#define UNITYENGINE_TERRAINADDITIONALCOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x20751510)
+#define UNITYENGINE_TERRAINADDITIONALCOMPONENT_GETACTIVELAYERS_OFFSET UNITYSDK_OFFSET(0x20751440)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TerrainAdditionalComponent_TypeDefinitionIndex = 5328;
+	inline static constexpr unsigned int TerrainAdditionalComponent_TypeDefinitionIndex = 5333;
 
 	class TerrainAdditionalComponent : public ::UnityEngine::MonoBehaviour
 	{

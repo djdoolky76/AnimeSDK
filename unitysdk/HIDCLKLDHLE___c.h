@@ -4,18 +4,18 @@
 class HIDCLKLDHLE;
 namespace System { class Object; }
 
-#define HIDCLKLDHLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E58FB00)
-#define HIDCLKLDHLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E58FB40)
-#define HIDCLKLDHLE___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E58FB50)
+#define HIDCLKLDHLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F88A7E0)
+#define HIDCLKLDHLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F88A820)
+#define HIDCLKLDHLE___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F88A830)
 
-inline static constexpr unsigned int HIDCLKLDHLE___c_TypeDefinitionIndex = 29943;
+inline static constexpr unsigned int HIDCLKLDHLE___c_TypeDefinitionIndex = 30841;
 
 	class HIDCLKLDHLE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3BAB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30890);
 		}
 
 		static ::System::Void _cctor()

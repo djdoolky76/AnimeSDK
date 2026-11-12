@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDialogueConditionEffectConfig; }
 
-#define RPG_GAMECORE_ROGUEDIALOGUECONDITIONEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C7BE0)
-#define RPG_GAMECORE_ROGUEDIALOGUECONDITIONEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9C7BA0)
+#define RPG_GAMECORE_ROGUEDIALOGUECONDITIONEFFECTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC113F0)
+#define RPG_GAMECORE_ROGUEDIALOGUECONDITIONEFFECTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC113B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDialogueConditionEffectConfig_TypeDefinitionIndex = 19632;
+	inline static constexpr unsigned int RogueDialogueConditionEffectConfig_TypeDefinitionIndex = 19965;
 
 	class RogueDialogueConditionEffectConfig : public ::RPG::GameCore::JsonConfig
 	{

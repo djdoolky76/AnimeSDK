@@ -5,10 +5,10 @@ class DNFFEFPKDPC;
 class JCKNEKIMNOB;
 namespace UnityEngine { class GameObject; }
 
-#define JCKNEKIMNOB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1659A650)
-#define JCKNEKIMNOB___C__DISPLAYCLASS6_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0x165A5A70)
+#define JCKNEKIMNOB___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DEA90)
+#define JCKNEKIMNOB___C__DISPLAYCLASS6_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xB8E9550)
 
-inline static constexpr unsigned int JCKNEKIMNOB___c__DisplayClass6_0_TypeDefinitionIndex = 76821;
+inline static constexpr unsigned int JCKNEKIMNOB___c__DisplayClass6_0_TypeDefinitionIndex = 79155;
 
 	class JCKNEKIMNOB___c__DisplayClass6_0 : public ::System::Object
 	{

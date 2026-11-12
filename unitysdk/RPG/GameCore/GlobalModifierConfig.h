@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TurnBasedModifierConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GLOBALMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71F050)
-#define RPG_GAMECORE_GLOBALMODIFIERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D71EF50)
+#define RPG_GAMECORE_GLOBALMODIFIERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E928DD0)
+#define RPG_GAMECORE_GLOBALMODIFIERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E91ABC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GlobalModifierConfig_TypeDefinitionIndex = 18239;
+	inline static constexpr unsigned int GlobalModifierConfig_TypeDefinitionIndex = 18401;
 
 	class GlobalModifierConfig : public ::RPG::GameCore::JsonConfig
 	{

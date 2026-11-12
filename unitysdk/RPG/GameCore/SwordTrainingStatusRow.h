@@ -6,22 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingStatusRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTATUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4EA10)
-#define RPG_GAMECORE_SWORDTRAININGSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4E280)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFE010)
+#define RPG_GAMECORE_SWORDTRAININGSTATUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EDFD880)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStatusRow_TypeDefinitionIndex = 12428;
+	inline static constexpr unsigned int SwordTrainingStatusRow_TypeDefinitionIndex = 12495;
 
 	class SwordTrainingStatusRow : public ::System::Object
 	{
 	public:
-		::System::String* StatusIcon; // 0x10
-		::System::String* StatusOutLineIcon; // 0x18
+		::System::String* StatusOutLineIcon; // 0x10
+		::System::String* StatusIcon; // 0x18
 		::System::UInt32 MaximumValue; // 0x20
 		::System::UInt32 StatusID; // 0x24
-		::RPG::Client::TextID StatusName; // 0x28
-		::System::UInt32 InitialValue; // 0x38
+		::System::UInt32 InitialValue; // 0x28
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID StatusName; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSTATUSROW_CTOR_OFFSET))(this);

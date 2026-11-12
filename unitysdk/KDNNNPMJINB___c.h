@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define KDNNNPMJINB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C56B6A0)
-#define KDNNNPMJINB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C56B6E0)
-#define KDNNNPMJINB___C__ITERATEAFFECTEDCELLS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1C56B6F0)
+#define KDNNNPMJINB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6ED040)
+#define KDNNNPMJINB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6ED080)
+#define KDNNNPMJINB___C__ITERATEAFFECTEDCELLS_B__5_1_OFFSET UNITYSDK_OFFSET(0x1D6ED090)
 
-inline static constexpr unsigned int KDNNNPMJINB___c_TypeDefinitionIndex = 41781;
+inline static constexpr unsigned int KDNNNPMJINB___c_TypeDefinitionIndex = 42756;
 
 	class KDNNNPMJINB___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Int32, ::System::Boolean>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18280);
+			return (::System::Func_2<::System::Int32, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10570);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18288);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10578);
 		}
 
 		static ::System::Void _cctor()

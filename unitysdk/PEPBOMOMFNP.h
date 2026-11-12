@@ -5,20 +5,20 @@ namespace RPG::Client { class MapNpcDef; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TraceCurrentHeartDialNPC; }
 
-#define PEPBOMOMFNP_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F74C0)
-#define PEPBOMOMFNP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1F74D0)
-#define PEPBOMOMFNP_OFKLJDJPHHH_OFFSET UNITYSDK_OFFSET(0xC1F7830)
-#define PEPBOMOMFNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1F7510)
-#define PEPBOMOMFNP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1F7A00)
-#define PEPBOMOMFNP_TICK_OFFSET UNITYSDK_OFFSET(0xC1F7A50)
+#define PEPBOMOMFNP_CTOR_OFFSET UNITYSDK_OFFSET(0xCAD9610)
+#define PEPBOMOMFNP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCAD9620)
+#define PEPBOMOMFNP_OFKLJDJPHHH_OFFSET UNITYSDK_OFFSET(0xCAD9980)
+#define PEPBOMOMFNP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAD9660)
+#define PEPBOMOMFNP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCAD9B50)
+#define PEPBOMOMFNP_TICK_OFFSET UNITYSDK_OFFSET(0xCAD9BA0)
 
-inline static constexpr unsigned int PEPBOMOMFNP_TypeDefinitionIndex = 53410;
+inline static constexpr unsigned int PEPBOMOMFNP_TypeDefinitionIndex = 54572;
 
 	class PEPBOMOMFNP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TraceCurrentHeartDialNPC* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TraceCurrentHeartDialNPC* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TraceCurrentHeartDialNPC* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TraceCurrentHeartDialNPC*))((::PBYTE)hIl2Cpp + PEPBOMOMFNP_CTOR_OFFSET))(this, a1, a2);

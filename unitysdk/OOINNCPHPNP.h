@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FECDLDCCHPN.h"
 
-#define OOINNCPHPNP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF89090)
+#define OOINNCPHPNP_CTOR_OFFSET UNITYSDK_OFFSET(0xC8899D0)
 
-inline static constexpr unsigned int OOINNCPHPNP_TypeDefinitionIndex = 73994;
+inline static constexpr unsigned int OOINNCPHPNP_TypeDefinitionIndex = 76130;
 
 	class OOINNCPHPNP : public ::FECDLDCCHPN
 	{

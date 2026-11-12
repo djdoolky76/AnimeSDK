@@ -5,16 +5,16 @@
 namespace System::Runtime::Remoting { class ServerIdentity; }
 namespace System::Runtime::Remoting::Lifetime { class LeaseManager; }
 
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2E06D0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_LEASEMANAGERPOLLTIME_OFFSET UNITYSDK_OFFSET(0x1C2E0770)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_LEASETIME_OFFSET UNITYSDK_OFFSET(0x1C2E0850)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_RENEWONCALLTIME_OFFSET UNITYSDK_OFFSET(0x1C2E0910)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_SPONSORSHIPTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1C2E09D0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_LEASEMANAGERPOLLTIME_OFFSET UNITYSDK_OFFSET(0x1C2E07D0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_LEASETIME_OFFSET UNITYSDK_OFFSET(0x1C2E08B0)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_RENEWONCALLTIME_OFFSET UNITYSDK_OFFSET(0x1C2E0970)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_SPONSORSHIPTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1C2E0A30)
-#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_TRACKLIFETIME_OFFSET UNITYSDK_OFFSET(0x1C2E0A90)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D4671E0)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_LEASEMANAGERPOLLTIME_OFFSET UNITYSDK_OFFSET(0x1D467280)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_LEASETIME_OFFSET UNITYSDK_OFFSET(0x1D467360)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_RENEWONCALLTIME_OFFSET UNITYSDK_OFFSET(0x1D467420)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_GET_SPONSORSHIPTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1D4674E0)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_LEASEMANAGERPOLLTIME_OFFSET UNITYSDK_OFFSET(0x1D4672E0)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_LEASETIME_OFFSET UNITYSDK_OFFSET(0x1D4673C0)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_RENEWONCALLTIME_OFFSET UNITYSDK_OFFSET(0x1D467480)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_SET_SPONSORSHIPTIMEOUT_OFFSET UNITYSDK_OFFSET(0x1D467540)
+#define SYSTEM_RUNTIME_REMOTING_LIFETIME_LIFETIMESERVICES_TRACKLIFETIME_OFFSET UNITYSDK_OFFSET(0x1D4675A0)
 
 namespace System::Runtime::Remoting::Lifetime
 {
@@ -25,27 +25,27 @@ namespace System::Runtime::Remoting::Lifetime
 	public:
 		static ::System::Runtime::Remoting::Lifetime::LeaseManager** StaticGet__leaseManager()
 		{
-			return (::System::Runtime::Remoting::Lifetime::LeaseManager**)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x16420);
-		}
-
-		static ::System::TimeSpan* StaticGet__leaseManagerPollTime()
-		{
-			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5400);
-		}
-
-		static ::System::TimeSpan* StaticGet__leaseTime()
-		{
-			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5408);
+			return (::System::Runtime::Remoting::Lifetime::LeaseManager**)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x1A730);
 		}
 
 		static ::System::TimeSpan* StaticGet__sponsorshipTimeout()
 		{
-			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5410);
+			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5630);
 		}
 
 		static ::System::TimeSpan* StaticGet__renewOnCallTime()
 		{
-			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5418);
+			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5638);
+		}
+
+		static ::System::TimeSpan* StaticGet__leaseTime()
+		{
+			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5640);
+		}
+
+		static ::System::TimeSpan* StaticGet__leaseManagerPollTime()
+		{
+			return (::System::TimeSpan*)UnitySDK::FromName("System.Runtime.Remoting.Lifetime", "LifetimeServices")->GetStaticField(0x5648);
 		}
 
 		static ::System::Void _cctor()

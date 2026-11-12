@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphTripodModeConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHTRIPODMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D913F50)
-#define RPG_GAMECORE_PHOTOGRAPHTRIPODMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D913DF0)
+#define RPG_GAMECORE_PHOTOGRAPHTRIPODMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2D1A0)
+#define RPG_GAMECORE_PHOTOGRAPHTRIPODMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2D040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphTripodModeConfig_TypeDefinitionIndex = 21658;
+	inline static constexpr unsigned int PhotoGraphTripodModeConfig_TypeDefinitionIndex = 22046;
 
 	class PhotoGraphTripodModeConfig : public ::RPG::GameCore::JsonConfig
 	{

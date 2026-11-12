@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_GrantNewDeviceElements_TypeDefinitionIndex = 9215;
+	inline static constexpr unsigned int PluginUIConstants_GrantNewDeviceElements_TypeDefinitionIndex = 9224;
 
 	class PluginUIConstants_GrantNewDeviceElements : public ::System::Object
 	{

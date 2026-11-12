@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByChimeraDuelIsMasterSelected; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBLNGCFFNDG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E92F50)
-#define BBLNGCFFNDG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15E92F80)
+#define BBLNGCFFNDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1708B4A0)
+#define BBLNGCFFNDG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1708B4D0)
 
-inline static constexpr unsigned int BBLNGCFFNDG_TypeDefinitionIndex = 53131;
+inline static constexpr unsigned int BBLNGCFFNDG_TypeDefinitionIndex = 54293;
 
 	class BBLNGCFFNDG
 	{

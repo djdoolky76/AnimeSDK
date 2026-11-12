@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpecialRestartBattleRow; }
 
-#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB00F00)
-#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB00D90)
+#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED12E40)
+#define RPG_GAMECORE_SPECIALRESTARTBATTLEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED12CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpecialRestartBattleRow_TypeDefinitionIndex = 15172;
+	inline static constexpr unsigned int SpecialRestartBattleRow_TypeDefinitionIndex = 15328;
 
 	class SpecialRestartBattleRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 BattleAreaConfigID; // 0x10
-		::System::UInt32 EventID; // 0x14
-		::System::UInt32 TowardEventID; // 0x18
+		::System::UInt32 TowardEventID; // 0x14
+		::System::UInt32 EventID; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPECIALRESTARTBATTLEROW_CTOR_OFFSET))(this);

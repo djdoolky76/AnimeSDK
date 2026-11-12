@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_PROP_BOXMANCOORD_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0xDC2C370)
+#define RPG_CLIENT_PROP_BOXMANCOORD_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0xE6C8250)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int BoxmanCoord_TypeDefinitionIndex = 78842;
+	inline static constexpr unsigned int BoxmanCoord_TypeDefinitionIndex = 81613;
 
 	struct alignas(4) BoxmanCoord
 	{

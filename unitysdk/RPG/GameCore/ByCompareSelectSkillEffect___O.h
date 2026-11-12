@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareSelectSkillEffect___O_TypeDefinitionIndex = 23022;
+	inline static constexpr unsigned int ByCompareSelectSkillEffect___O_TypeDefinitionIndex = 23450;
 
 	class ByCompareSelectSkillEffect___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0xD520);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x53ED0);
 		}
 
 	};

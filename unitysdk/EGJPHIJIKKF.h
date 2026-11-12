@@ -4,10 +4,10 @@
 class JMOHKKCNCMA;
 namespace RPG::GameCore { class MarbleForceLaunchToTarget; }
 
-#define EGJPHIJIKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50400)
-#define EGJPHIJIKKF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CA50410)
+#define EGJPHIJIKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC13C70)
+#define EGJPHIJIKKF_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1DC13C80)
 
-inline static constexpr unsigned int EGJPHIJIKKF_TypeDefinitionIndex = 43101;
+inline static constexpr unsigned int EGJPHIJIKKF_TypeDefinitionIndex = 44082;
 
 	class EGJPHIJIKKF : public ::BKABEBEPPJK
 	{

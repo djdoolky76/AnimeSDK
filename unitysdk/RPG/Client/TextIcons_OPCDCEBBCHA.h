@@ -6,7 +6,7 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons_OPCDCEBBCHA_TypeDefinitionIndex = 72682;
+	inline static constexpr unsigned int TextIcons_OPCDCEBBCHA_TypeDefinitionIndex = 74761;
 
 	struct alignas(8) TextIcons_OPCDCEBBCHA
 	{

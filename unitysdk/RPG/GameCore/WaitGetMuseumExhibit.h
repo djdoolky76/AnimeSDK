@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class WaitGetMuseumExhibit; }
 
-#define RPG_GAMECORE_WAITGETMUSEUMEXHIBIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC99800)
-#define RPG_GAMECORE_WAITGETMUSEUMEXHIBIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC99830)
-#define RPG_GAMECORE_WAITGETMUSEUMEXHIBIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC997B0)
+#define RPG_GAMECORE_WAITGETMUSEUMEXHIBIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEABEE0)
+#define RPG_GAMECORE_WAITGETMUSEUMEXHIBIT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEABF10)
+#define RPG_GAMECORE_WAITGETMUSEUMEXHIBIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEABE90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGetMuseumExhibit_TypeDefinitionIndex = 22198;
+	inline static constexpr unsigned int WaitGetMuseumExhibit_TypeDefinitionIndex = 22603;
 
 	class WaitGetMuseumExhibit : public ::RPG::GameCore::TaskConfig
 	{

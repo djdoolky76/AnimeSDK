@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideEffectAutoLayout; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OCBDDGMOFNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBD56380)
-#define OCBDDGMOFNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD563B0)
+#define OCBDDGMOFNF_CTOR_OFFSET UNITYSDK_OFFSET(0xC65AB30)
+#define OCBDDGMOFNF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC65AB60)
 
-inline static constexpr unsigned int OCBDDGMOFNF_TypeDefinitionIndex = 55092;
+inline static constexpr unsigned int OCBDDGMOFNF_TypeDefinitionIndex = 56269;
 
 	class OCBDDGMOFNF
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int IFtcDropLinkJumpCommand_TypeDefinitionIndex = 74828;
+	inline static constexpr unsigned int IFtcDropLinkJumpCommand_TypeDefinitionIndex = 76998;
 
 	class IFtcDropLinkJumpCommand
 	{

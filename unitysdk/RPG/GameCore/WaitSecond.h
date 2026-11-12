@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class WaitSecond; }
 
-#define RPG_GAMECORE_WAITSECOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA11A0)
-#define RPG_GAMECORE_WAITSECOND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA1210)
-#define RPG_GAMECORE_WAITSECOND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA0F70)
+#define RPG_GAMECORE_WAITSECOND_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB3C40)
+#define RPG_GAMECORE_WAITSECOND_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB3CB0)
+#define RPG_GAMECORE_WAITSECOND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB3A10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitSecond_TypeDefinitionIndex = 23785;
+	inline static constexpr unsigned int WaitSecond_TypeDefinitionIndex = 24241;
 
 	class WaitSecond : public ::RPG::GameCore::TaskConfig
 	{

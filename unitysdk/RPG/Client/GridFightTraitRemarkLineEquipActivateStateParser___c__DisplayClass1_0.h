@@ -5,18 +5,18 @@ namespace RPG::Client { class GridFightNPC; }
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2C01C0)
-#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET UNITYSDK_OFFSET(0xD2C0370)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE8D00)
+#define RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0___GETISACTIVE_B__2_OFFSET UNITYSDK_OFFSET(0xDCE8EB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 65488;
+	inline static constexpr unsigned int GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0_TypeDefinitionIndex = 67399;
 
 	class GridFightTraitRemarkLineEquipActivateStateParser___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightNPC*>* allNPCs; // 0x10
-		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightRole*>* allRoles; // 0x18
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightRole*>* allRoles; // 0x10
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightNPC*>* allNPCs; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITREMARKLINEEQUIPACTIVATESTATEPARSER___C__DISPLAYCLASS1_0_CTOR_OFFSET))(this);

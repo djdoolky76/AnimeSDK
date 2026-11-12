@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class OOILIMPABGK;
 
-inline static constexpr unsigned int OOILIMPABGK_TypeDefinitionIndex = 44292;
+inline static constexpr unsigned int OOILIMPABGK_TypeDefinitionIndex = 45367;
 
 	class OOILIMPABGK : public ::System::Object
 	{

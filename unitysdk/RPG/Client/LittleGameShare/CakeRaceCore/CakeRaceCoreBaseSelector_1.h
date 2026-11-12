@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
-	inline static constexpr unsigned int CakeRaceCoreBaseSelector_1_TypeDefinitionIndex = 37421;
+	inline static constexpr unsigned int CakeRaceCoreBaseSelector_1_TypeDefinitionIndex = 38349;
 
 	template <typename T>
 	class CakeRaceCoreBaseSelector_1 : public ::LMIOHCMPBJB

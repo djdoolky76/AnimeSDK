@@ -1,22 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/GELIALJDFBL.h"
+#include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace RPG::GameCore { class StackRedStance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJMFGJMGIJH_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC5800)
-#define AJMFGJMGIJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC5810)
-#define AJMFGJMGIJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CC5900)
-#define AJMFGJMGIJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12CC5850)
-#define AJMFGJMGIJH_TICK_OFFSET UNITYSDK_OFFSET(0x12CC58A0)
+#define AJMFGJMGIJH_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA4540)
+#define AJMFGJMGIJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DA4550)
+#define AJMFGJMGIJH_GHBALPBMLJE_OFFSET UNITYSDK_OFFSET(0x12DA4910)
+#define AJMFGJMGIJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12DA4640)
+#define AJMFGJMGIJH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12DA4590)
+#define AJMFGJMGIJH_TICK_OFFSET UNITYSDK_OFFSET(0x12DA45E0)
 
-inline static constexpr unsigned int AJMFGJMGIJH_TypeDefinitionIndex = 55647;
+inline static constexpr unsigned int AJMFGJMGIJH_TypeDefinitionIndex = 56845;
 
 	class AJMFGJMGIJH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::StackRedStance* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::StackRedStance* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StackRedStance* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StackRedStance*))((::PBYTE)hIl2Cpp + AJMFGJMGIJH_CTOR_OFFSET))(this, a1, a2);
@@ -40,6 +42,11 @@ inline static constexpr unsigned int AJMFGJMGIJH_TypeDefinitionIndex = 55647;
 		::System::Void OnTaskBegin()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AJMFGJMGIJH_ONTASKBEGIN_OFFSET))(this);
+		}
+
+		::System::Boolean GHBALPBMLJE(::RPG::GameCore::FixPoint a1, ::RPG::GameCore::FixPoint a2, ::RPG::GameCore::FixPoint a3)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint, ::RPG::GameCore::FixPoint))((::PBYTE)hIl2Cpp + AJMFGJMGIJH_GHBALPBMLJE_OFFSET))(this, a1, a2, a3);
 		}
 
 	};

@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client::RoadRash
 {
-	inline static constexpr unsigned int RoadRashGameSettingsConfigure_FallingLandingQTEConfig_TypeDefinitionIndex = 75898;
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_FallingLandingQTEConfig_TypeDefinitionIndex = 78225;
 
 	struct alignas(8) RoadRashGameSettingsConfigure_FallingLandingQTEConfig
 	{

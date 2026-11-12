@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int POLOFKBIIKB_TypeDefinitionIndex = 56556;
+inline static constexpr unsigned int POLOFKBIIKB_TypeDefinitionIndex = 57776;
 
 	class POLOFKBIIKB
 	{

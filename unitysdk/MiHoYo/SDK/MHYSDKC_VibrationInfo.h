@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_VibrationInfo_TypeDefinitionIndex = 46173;
+	inline static constexpr unsigned int MHYSDKC_VibrationInfo_TypeDefinitionIndex = 47202;
 
 	class MHYSDKC_VibrationInfo : public ::System::Object
 	{

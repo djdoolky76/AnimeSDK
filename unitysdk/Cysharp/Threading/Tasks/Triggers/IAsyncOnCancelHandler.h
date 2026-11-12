@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnCancelHandler_TypeDefinitionIndex = 38620;
+	inline static constexpr unsigned int IAsyncOnCancelHandler_TypeDefinitionIndex = 39549;
 
 	class IAsyncOnCancelHandler
 	{

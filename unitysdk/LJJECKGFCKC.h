@@ -5,10 +5,10 @@
 class JGCMGAMHDHM;
 namespace RPG::Client { class RogueTournPersonaStyleInfo; }
 
-#define LJJECKGFCKC_CTOR_OFFSET UNITYSDK_OFFSET(0xB71A080)
-#define LJJECKGFCKC_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xB71A090)
+#define LJJECKGFCKC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB6520)
+#define LJJECKGFCKC_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xBFB6530)
 
-inline static constexpr unsigned int LJJECKGFCKC_TypeDefinitionIndex = 67103;
+inline static constexpr unsigned int LJJECKGFCKC_TypeDefinitionIndex = 69047;
 
 	class LJJECKGFCKC : public ::LIJALNGMHPK
 	{

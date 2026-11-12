@@ -4,7 +4,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MonoBehaviorExt_TypeDefinitionIndex = 37640;
+	inline static constexpr unsigned int MonoBehaviorExt_TypeDefinitionIndex = 38568;
 
 	class MonoBehaviorExt : public ::System::Object
 	{

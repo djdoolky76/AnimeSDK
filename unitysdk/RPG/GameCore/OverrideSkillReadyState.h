@@ -6,13 +6,13 @@ namespace RPG::GameCore { class OverrideSkillReadyState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OVERRIDESKILLREADYSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E9550)
-#define RPG_GAMECORE_OVERRIDESKILLREADYSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E9560)
-#define RPG_GAMECORE_OVERRIDESKILLREADYSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E9520)
+#define RPG_GAMECORE_OVERRIDESKILLREADYSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB01F70)
+#define RPG_GAMECORE_OVERRIDESKILLREADYSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB01F80)
+#define RPG_GAMECORE_OVERRIDESKILLREADYSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB01F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideSkillReadyState_TypeDefinitionIndex = 22838;
+	inline static constexpr unsigned int OverrideSkillReadyState_TypeDefinitionIndex = 23263;
 
 	class OverrideSkillReadyState : public ::RPG::GameCore::TaskConfig
 	{

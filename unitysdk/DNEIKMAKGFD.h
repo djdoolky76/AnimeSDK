@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class FormationMoveToStation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DNEIKMAKGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1194B6E0)
-#define DNEIKMAKGFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1194B710)
+#define DNEIKMAKGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x126DD640)
+#define DNEIKMAKGFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x126DD670)
 
-inline static constexpr unsigned int DNEIKMAKGFD_TypeDefinitionIndex = 58135;
+inline static constexpr unsigned int DNEIKMAKGFD_TypeDefinitionIndex = 59374;
 
 	class DNEIKMAKGFD
 	{

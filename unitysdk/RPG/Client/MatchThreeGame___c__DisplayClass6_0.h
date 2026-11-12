@@ -4,12 +4,12 @@
 class KLGJDILNNDH;
 namespace RPG::Client { class MatchThreeGameOpponent; }
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD59AEC0)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS6_0___UPDATEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xD59AED0)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE6860)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS6_0___UPDATEPLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xDFEFF00)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass6_0_TypeDefinitionIndex = 65945;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass6_0_TypeDefinitionIndex = 67877;
 
 	class MatchThreeGame___c__DisplayClass6_0 : public ::System::Object
 	{

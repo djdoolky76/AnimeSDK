@@ -3,7 +3,7 @@
 #include "unitysdk/BPEKEIDBJFD.h"
 class CMGMEOACHDC;
 
-inline static constexpr unsigned int BPEKEIDBJFD_PBHJOIIEPLI_TypeDefinitionIndex = 44275;
+inline static constexpr unsigned int BPEKEIDBJFD_PBHJOIIEPLI_TypeDefinitionIndex = 45350;
 
 	class BPEKEIDBJFD_PBHJOIIEPLI : public ::BPEKEIDBJFD
 	{

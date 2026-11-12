@@ -5,11 +5,11 @@ namespace RPG::GameCore { class StackWeakness; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define ABBLFHKKHGA_CTOR_OFFSET UNITYSDK_OFFSET(0xB0EA380)
-#define ABBLFHKKHGA_OJDEICKALEK_OFFSET UNITYSDK_OFFSET(0xB0EA720)
-#define ABBLFHKKHGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0EA3B0)
+#define ABBLFHKKHGA_CTOR_OFFSET UNITYSDK_OFFSET(0xB74CBD0)
+#define ABBLFHKKHGA_OJDEICKALEK_OFFSET UNITYSDK_OFFSET(0xB74CF70)
+#define ABBLFHKKHGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB74CC00)
 
-inline static constexpr unsigned int ABBLFHKKHGA_TypeDefinitionIndex = 55656;
+inline static constexpr unsigned int ABBLFHKKHGA_TypeDefinitionIndex = 56854;
 
 	class ABBLFHKKHGA
 	{

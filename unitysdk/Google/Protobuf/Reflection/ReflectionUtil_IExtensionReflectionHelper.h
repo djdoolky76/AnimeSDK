@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int ReflectionUtil_IExtensionReflectionHelper_TypeDefinitionIndex = 5561;
+	inline static constexpr unsigned int ReflectionUtil_IExtensionReflectionHelper_TypeDefinitionIndex = 5566;
 
 	class ReflectionUtil_IExtensionReflectionHelper
 	{

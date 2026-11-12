@@ -7,26 +7,26 @@ class CPONHFKDDDF;
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeartDialScriptRow; }
 
-#define RPG_GAMECORE_HEARTDIALSCRIPTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7590C0)
-#define RPG_GAMECORE_HEARTDIALSCRIPTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D758D30)
+#define RPG_GAMECORE_HEARTDIALSCRIPTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E96CA40)
+#define RPG_GAMECORE_HEARTDIALSCRIPTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E96C6B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialScriptRow_TypeDefinitionIndex = 13720;
+	inline static constexpr unsigned int HeartDialScriptRow_TypeDefinitionIndex = 13877;
 
 	class HeartDialScriptRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::HeartDialStepType>* StepList; // 0x10
-		::Il2CppArray<::CPONHFKDDDF*>* TotalEmoInfoList; // 0x18
-		::Il2CppArray<::RPG::GameCore::HeartDialEmoType>* MissingEmoList; // 0x20
-		::System::UInt32 FullDialogueID; // 0x28
-		::System::UInt32 UnLockDialogueID; // 0x2C
-		::System::UInt32 RaidID; // 0x30
-		::RPG::GameCore::HeartDialEmoType DefaultEmoType; // 0x34
-		::System::UInt32 LockDialogueID; // 0x38
-		::System::UInt32 MissingDialogueID; // 0x3C
-		::System::UInt32 ControlDialogueID; // 0x40
+		::Il2CppArray<::CPONHFKDDDF*>* TotalEmoInfoList; // 0x10
+		::Il2CppArray<::RPG::GameCore::HeartDialEmoType>* MissingEmoList; // 0x18
+		::Il2CppArray<::RPG::GameCore::HeartDialStepType>* StepList; // 0x20
+		::System::UInt32 UnLockDialogueID; // 0x28
+		::System::UInt32 MissingDialogueID; // 0x2C
+		::System::UInt32 FullDialogueID; // 0x30
+		::System::UInt32 ControlDialogueID; // 0x34
+		::System::UInt32 RaidID; // 0x38
+		::RPG::GameCore::HeartDialEmoType DefaultEmoType; // 0x3C
+		::System::UInt32 LockDialogueID; // 0x40
 		::System::UInt32 ScriptID; // 0x44
 		::System::Void _ctor()
 		{

@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/TABehaviorBase.h"
 namespace RPG::Client { class ShaderPropertyOverrideMonoPlugin; }
 
-#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE0B5C10)
-#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xE0B5B90)
+#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xEB203C0)
+#define RPG_CLIENT_SHADERPROPERTYOVERRIDEBEHAVIOR_GET__OWNERMONOPLUGIN_OFFSET UNITYSDK_OFFSET(0xEB20340)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ShaderPropertyOverrideBehavior_TypeDefinitionIndex = 71020;
+	inline static constexpr unsigned int ShaderPropertyOverrideBehavior_TypeDefinitionIndex = 72999;
 
 	class ShaderPropertyOverrideBehavior : public ::RPG::Client::TABehaviorBase
 	{

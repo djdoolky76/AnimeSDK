@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/StringID.h"
 namespace System { class Object; }
 
-#define UNITYENGINE_SYNCMARKER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3C6A500)
+#define UNITYENGINE_SYNCMARKER_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x3EB9970)
 #define UNITYENGINE_SYNCMARKER_EQUALS_OFFSET UNITYSDK_OFFSET(0xAF50)
-#define UNITYENGINE_SYNCMARKER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE620)
+#define UNITYENGINE_SYNCMARKER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE600)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int SyncMarker_TypeDefinitionIndex = 5732;
+	inline static constexpr unsigned int SyncMarker_TypeDefinitionIndex = 5738;
 
 	struct alignas(4) SyncMarker
 	{

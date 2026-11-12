@@ -5,13 +5,13 @@ namespace RPG::Client { class GameReplayModel; }
 namespace RPG::Client { class ReplayUploadContent; }
 namespace System { class String; }
 
-#define RPG_CLIENT_GAMEREPLAYMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD0AC660)
-#define RPG_CLIENT_GAMEREPLAYMODEL_DJKNAOANOCG_OFFSET UNITYSDK_OFFSET(0xD0AC3A0)
-#define RPG_CLIENT_GAMEREPLAYMODEL_PAIGGMHPGJK_OFFSET UNITYSDK_OFFSET(0xD0AC4E0)
+#define RPG_CLIENT_GAMEREPLAYMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDA35430)
+#define RPG_CLIENT_GAMEREPLAYMODEL_DJKNAOANOCG_OFFSET UNITYSDK_OFFSET(0xDA35170)
+#define RPG_CLIENT_GAMEREPLAYMODEL_PAIGGMHPGJK_OFFSET UNITYSDK_OFFSET(0xDA352B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameReplayModel_TypeDefinitionIndex = 60975;
+	inline static constexpr unsigned int GameReplayModel_TypeDefinitionIndex = 62351;
 
 	class GameReplayModel : public ::System::Object
 	{

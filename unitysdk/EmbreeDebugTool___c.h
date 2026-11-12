@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define EMBREEDEBUGTOOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF1DFA0)
-#define EMBREEDEBUGTOOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAF1DFE0)
-#define EMBREEDEBUGTOOL___C__CASTRAYGRID_B__19_0_OFFSET UNITYSDK_OFFSET(0xAF1DFF0)
+#define EMBREEDEBUGTOOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB57EFA0)
+#define EMBREEDEBUGTOOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB57EFE0)
+#define EMBREEDEBUGTOOL___C__CASTRAYGRID_B__19_0_OFFSET UNITYSDK_OFFSET(0xB57EFF0)
 
-inline static constexpr unsigned int EmbreeDebugTool___c_TypeDefinitionIndex = 45919;
+inline static constexpr unsigned int EmbreeDebugTool___c_TypeDefinitionIndex = 46948;
 
 	class EmbreeDebugTool___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19E00);
-		}
-
 		static ::System::Predicate_1<::System::Object*>** StaticGet___9__19_0()
 		{
-			return (::System::Predicate_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x19E08);
+			return (::System::Predicate_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14A60);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14A68);
 		}
 
 		static ::System::Void _cctor()

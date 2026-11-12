@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IChimeraDuelChallengeTeam_TypeDefinitionIndex = 63300;
+	inline static constexpr unsigned int IChimeraDuelChallengeTeam_TypeDefinitionIndex = 64738;
 
 	class IChimeraDuelChallengeTeam
 	{

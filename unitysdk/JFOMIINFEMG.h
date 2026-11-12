@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class AdvEffectConfig; }
 
-#define JFOMIINFEMG_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0x1665C0A0)
+#define JFOMIINFEMG_AEOIKFNKAAP_OFFSET UNITYSDK_OFFSET(0xB9A56C0)
 
-inline static constexpr unsigned int JFOMIINFEMG_TypeDefinitionIndex = 57330;
+inline static constexpr unsigned int JFOMIINFEMG_TypeDefinitionIndex = 58558;
 
 	class JFOMIINFEMG : public ::System::Object
 	{

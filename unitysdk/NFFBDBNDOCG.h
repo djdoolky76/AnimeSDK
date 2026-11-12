@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 class NFFBDBNDOCG;
 namespace System { class String; }
 
-#define NFFBDBNDOCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D202890)
-#define NFFBDBNDOCG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2028A0)
-#define NFFBDBNDOCG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D202860)
+#define NFFBDBNDOCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4175D0)
+#define NFFBDBNDOCG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4175E0)
+#define NFFBDBNDOCG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4175A0)
 
-inline static constexpr unsigned int NFFBDBNDOCG_TypeDefinitionIndex = 22855;
+inline static constexpr unsigned int NFFBDBNDOCG_TypeDefinitionIndex = 23280;
 
 	class NFFBDBNDOCG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::System::String* APIFGFCGEPG; // 0x18
-		::System::String* ILOCBPNKFGN; // 0x20
+		::System::String* JIKLHKCEFNL; // 0x20
 		::System::String* NECBFCLKAJI; // 0x28
-		::System::String* JIKLHKCEFNL; // 0x30
+		::System::String* ILOCBPNKFGN; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NFFBDBNDOCG_CTOR_OFFSET))(this);

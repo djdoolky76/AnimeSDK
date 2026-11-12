@@ -5,10 +5,10 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x1F592110)
-#define AKEVENTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1F592770)
+#define AKEVENTTRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x20841E50)
+#define AKEVENTTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x208424B0)
 
-inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 44928;
+inline static constexpr unsigned int AkEventTrack_TypeDefinitionIndex = 46003;
 
 	class AkEventTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

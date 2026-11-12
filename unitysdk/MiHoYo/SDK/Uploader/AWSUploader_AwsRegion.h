@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::Uploader
 {
-	inline static constexpr unsigned int AWSUploader_AwsRegion_TypeDefinitionIndex = 46671;
+	inline static constexpr unsigned int AWSUploader_AwsRegion_TypeDefinitionIndex = 47699;
 
 	class AWSUploader_AwsRegion : public ::System::Object
 	{

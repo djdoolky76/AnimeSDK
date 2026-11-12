@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MarbleCustomActionRow; }
 
-#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D83C510)
-#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D83C390)
+#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA56F50)
+#define RPG_GAMECORE_MARBLECUSTOMACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA56DD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MarbleCustomActionRow_TypeDefinitionIndex = 11892;
+	inline static constexpr unsigned int MarbleCustomActionRow_TypeDefinitionIndex = 11949;
 
 	class MarbleCustomActionRow : public ::System::Object
 	{

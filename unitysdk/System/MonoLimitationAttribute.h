@@ -3,7 +3,7 @@
 #include "unitysdk/System/MonoTODOAttribute.h"
 namespace System { class String; }
 
-#define SYSTEM_MONOLIMITATIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27FC70)
+#define SYSTEM_MONOLIMITATIONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D406940)
 
 namespace System
 {

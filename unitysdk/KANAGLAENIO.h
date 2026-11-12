@@ -11,44 +11,44 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define KANAGLAENIO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CBB0840)
-#define KANAGLAENIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB0E30)
-#define KANAGLAENIO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1CBB0300)
-#define KANAGLAENIO_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CBB0C00)
-#define KANAGLAENIO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CBB0DF0)
+#define KANAGLAENIO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD81F60)
+#define KANAGLAENIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD82550)
+#define KANAGLAENIO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1DD81A10)
+#define KANAGLAENIO_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DD82320)
+#define KANAGLAENIO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1DD82510)
 
-inline static constexpr unsigned int KANAGLAENIO_TypeDefinitionIndex = 43566;
+inline static constexpr unsigned int KANAGLAENIO_TypeDefinitionIndex = 44548;
 
 	class KANAGLAENIO : public ::System::Object
 	{
 	public:
-		::RPG::PoolList_1<::System::UInt32>* IKFKEDPGCOD; // 0x10
-		::RPG::PoolList_1<::System::UInt32>* KCIKHPPHHOC; // 0x18
-		::RPG::PoolList_1<::System::UInt32>* HNOMGGONLEI; // 0x20
-		::RPG::PoolDictionary_2<::System::UInt32, ::LFMFMHKDCIM*>* FOGPAKBNFLD; // 0x28
-		::RPG::PoolDictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* IMOFMAEHGPM; // 0x30
-		::System::String* JCLIFKACIJD; // 0x38
-		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolDictionary_2<::System::UInt32, ::System::UInt32>*>* HNOEILDODGC; // 0x40
-		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolDictionary_2<::System::UInt32, ::System::UInt32>*>* OOLFNOGDCAB; // 0x48
-		::System::String* PNKPNLMLHPD; // 0x50
-		::System::String* LJKKLBCOHKO; // 0x58
-		::RPG::PoolDictionary_2<::RPG::Client::LittleGame::FiveDim::FiveDimStatisticPlayerActionType, ::System::UInt32>* EDMKJDNECNE; // 0x60
-		::System::UInt32 FIBKKAIOABN; // 0x68
-		::System::UInt32 ALMLPGLFABD; // 0x6C
-		::System::UInt32 LLBAPECJJLE; // 0x70
-		::System::UInt32 OKJPABKIAGI; // 0x74
-		::System::UInt32 GFJHOJHILEK; // 0x78
-		::System::UInt32 GFMHNEBPKAH; // 0x7C
-		::System::UInt32 KJNBNAKELOM; // 0x80
-		::RPG::Client::LittleGame::FiveDim::FiveDimEnterType EEJAOGHGIOJ; // 0x84
-		::System::UInt32 PEMECOHNJOD; // 0x88
+		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolDictionary_2<::System::UInt32, ::System::UInt32>*>* OOLFNOGDCAB; // 0x10
+		::System::String* LJKKLBCOHKO; // 0x18
+		::RPG::PoolDictionary_2<::System::ValueTuple_3<::System::UInt32, ::System::UInt32, ::System::UInt32>, ::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* IMOFMAEHGPM; // 0x20
+		::System::String* PNKPNLMLHPD; // 0x28
+		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolDictionary_2<::System::UInt32, ::System::UInt32>*>* HNOEILDODGC; // 0x30
+		::RPG::PoolList_1<::System::UInt32>* HNOMGGONLEI; // 0x38
+		::System::String* JCLIFKACIJD; // 0x40
+		::RPG::PoolDictionary_2<::RPG::Client::LittleGame::FiveDim::FiveDimStatisticPlayerActionType, ::System::UInt32>* EDMKJDNECNE; // 0x48
+		::RPG::PoolList_1<::System::UInt32>* KCIKHPPHHOC; // 0x50
+		::RPG::PoolDictionary_2<::System::UInt32, ::LFMFMHKDCIM*>* FOGPAKBNFLD; // 0x58
+		::RPG::PoolList_1<::System::UInt32>* IKFKEDPGCOD; // 0x60
+		::System::UInt32 CMNJHDMIGND; // 0x68
+		::System::UInt32 OKJPABKIAGI; // 0x6C
+		::RPG::Client::LittleGame::FiveDim::FiveDimExitType BIIHMECEPPO; // 0x70
+		::RPG::Client::LittleGame::FiveDim::FiveDimEnterType EEJAOGHGIOJ; // 0x74
+		::System::UInt32 GFMHNEBPKAH; // 0x78
+		::System::UInt32 PEMECOHNJOD; // 0x7C
+		::System::UInt32 GFJHOJHILEK; // 0x80
+		::System::Single LIMLJNAHOKJ; // 0x84
+		::System::UInt32 ALMLPGLFABD; // 0x88
 		::System::UInt32 MOHHIEHPODI; // 0x8C
-		::RPG::Client::LittleGame::FiveDim::FiveDimExitType BIIHMECEPPO; // 0x90
-		::System::Single BFPKIMNFGCP; // 0x94
-		::System::UInt32 GDLKFAIBDCJ; // 0x98
-		::System::Single LIMLJNAHOKJ; // 0x9C
-		::System::UInt32 NGBAKIGBBHP; // 0xA0
-		::System::UInt32 CMNJHDMIGND; // 0xA4
+		::System::UInt32 NGBAKIGBBHP; // 0x90
+		::System::UInt32 FIBKKAIOABN; // 0x94
+		::System::UInt32 LLBAPECJJLE; // 0x98
+		::System::UInt32 GDLKFAIBDCJ; // 0x9C
+		::System::UInt32 KJNBNAKELOM; // 0xA0
+		::System::Single BFPKIMNFGCP; // 0xA4
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KANAGLAENIO_CTOR_OFFSET))(this);

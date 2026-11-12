@@ -4,18 +4,18 @@
 class JDMPHALCCKE;
 namespace System { class Object; }
 
-#define JDMPHALCCKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7100D0)
-#define JDMPHALCCKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E710110)
-#define JDMPHALCCKE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E710120)
+#define JDMPHALCCKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA1E800)
+#define JDMPHALCCKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA1E840)
+#define JDMPHALCCKE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FA1E850)
 
-inline static constexpr unsigned int JDMPHALCCKE___c_TypeDefinitionIndex = 31401;
+inline static constexpr unsigned int JDMPHALCCKE___c_TypeDefinitionIndex = 32314;
 
 	class JDMPHALCCKE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E0F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5EB60);
 		}
 
 		static ::System::Void _cctor()

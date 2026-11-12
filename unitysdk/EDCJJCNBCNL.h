@@ -5,15 +5,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine::Timeline { class GroupTrack; }
 namespace UnityEngine::Timeline { class TrackAsset; }
 
-#define EDCJJCNBCNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1330F850)
+#define EDCJJCNBCNL_CTOR_OFFSET UNITYSDK_OFFSET(0x140CBDF0)
 
-inline static constexpr unsigned int EDCJJCNBCNL_TypeDefinitionIndex = 48519;
+inline static constexpr unsigned int EDCJJCNBCNL_TypeDefinitionIndex = 49560;
 
 	class EDCJJCNBCNL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* EOHCPMLDIFE; // 0x10
-		::UnityEngine::Timeline::GroupTrack* HBBDNGBNCBM; // 0x18
+		::UnityEngine::Timeline::GroupTrack* HBBDNGBNCBM; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* EOHCPMLDIFE; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDCJJCNBCNL_CTOR_OFFSET))(this);

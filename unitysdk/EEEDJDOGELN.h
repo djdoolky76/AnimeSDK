@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroTeleportTiming; }
 
-#define EEEDJDOGELN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2A750)
-#define EEEDJDOGELN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A2A780)
+#define EEEDJDOGELN_CTOR_OFFSET UNITYSDK_OFFSET(0x147EA360)
+#define EEEDJDOGELN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147EA390)
 
-inline static constexpr unsigned int EEEDJDOGELN_TypeDefinitionIndex = 58966;
+inline static constexpr unsigned int EEEDJDOGELN_TypeDefinitionIndex = 60239;
 
 	class EEEDJDOGELN
 	{

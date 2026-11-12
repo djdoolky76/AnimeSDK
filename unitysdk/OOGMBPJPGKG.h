@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define OOGMBPJPGKG_KHFHNDEBGDH_OFFSET UNITYSDK_OFFSET(0xBF7CF00)
+#define OOGMBPJPGKG_KHFHNDEBGDH_OFFSET UNITYSDK_OFFSET(0xC87D8C0)
 
-inline static constexpr unsigned int OOGMBPJPGKG_TypeDefinitionIndex = 74851;
+inline static constexpr unsigned int OOGMBPJPGKG_TypeDefinitionIndex = 77178;
 
 	class OOGMBPJPGKG : public ::System::Object
 	{

@@ -1,0 +1,91 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/LittleGame/ComicDessert/ComicDessertDragInteractable_DragPhase.h"
+#include "unitysdk/RPG/Client/LittleGame/ComicDessert/ComicDessertInteractable.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+class LPHINGPIEAJ;
+namespace UnityEngine::EventSystems { class PointerEventData; }
+
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0xDE850B0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_FKBCAGIPBHM_OFFSET UNITYSDK_OFFSET(0xDE84660)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_GIJOHECMHAD_OFFSET UNITYSDK_OFFSET(0xDE84BB0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_HMCJGBBEBDM_OFFSET UNITYSDK_OFFSET(0xDE84CF0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xDE84AF0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_MAOPJMFIPGC_OFFSET UNITYSDK_OFFSET(0xDE84AA0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONBEGINDRAG_OFFSET UNITYSDK_OFFSET(0xDE841A0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDE84E60)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONDRAG_OFFSET UNITYSDK_OFFSET(0xDE84740)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONENDDRAG_OFFSET UNITYSDK_OFFSET(0xDE849D0)
+#define RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_RESETTOOUTOFGAMESTATE_OFFSET UNITYSDK_OFFSET(0xDE85040)
+
+namespace RPG::Client::LittleGame::ComicDessert
+{
+	inline static constexpr unsigned int ComicDessertDragInteractable_TypeDefinitionIndex = 79764;
+
+	class ComicDessertDragInteractable : public ::RPG::Client::LittleGame::ComicDessert::ComicDessertInteractable
+	{
+	public:
+		::System::Boolean _HasMultiSlot; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _OriginSlotID; // 0x24
+		::RPG::Client::LittleGame::ComicDessert::ComicDessertDragInteractable_DragPhase NOHNKAIALPJ; // 0x28
+		::System::Int32 NBHOFIBNCAA; // 0x2C
+		::UnityEngine::EventSystems::PointerEventData* ABOEDPKGPNM; // 0x30
+		::UnityEngine::Vector2 FCDIDCDBGKE; // 0x38
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_CTOR_OFFSET))(this);
+		}
+
+		::System::Void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONBEGINDRAG_OFFSET))(this, a1);
+		}
+
+		::System::Void OnDrag(::UnityEngine::EventSystems::PointerEventData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONDRAG_OFFSET))(this, a1);
+		}
+
+		::System::Void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONENDDRAG_OFFSET))(this, a1);
+		}
+
+		::System::Void LateUpdate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_LATEUPDATE_OFFSET))(this);
+		}
+
+		::System::Void HMCJGBBEBDM()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_HMCJGBBEBDM_OFFSET))(this);
+		}
+
+		::System::Boolean GIJOHECMHAD(::LPHINGPIEAJ* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::LPHINGPIEAJ*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_GIJOHECMHAD_OFFSET))(this, a1);
+		}
+
+		::System::Void FKBCAGIPBHM(::UnityEngine::EventSystems::PointerEventData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EventSystems::PointerEventData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_FKBCAGIPBHM_OFFSET))(this, a1);
+		}
+
+		::System::Void MAOPJMFIPGC()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_MAOPJMFIPGC_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void ResetToOutOfGameState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_COMICDESSERT_COMICDESSERTDRAGINTERACTABLE_RESETTOOUTOFGAMESTATE_OFFSET))(this);
+		}
+
+	};
+}

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchBattleEventCaster; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LLGDJOPPPEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB76C580)
-#define LLGDJOPPPEN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB76C5D0)
+#define LLGDJOPPPEN_CTOR_OFFSET UNITYSDK_OFFSET(0xC00BCF0)
+#define LLGDJOPPPEN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC00BD40)
 
-inline static constexpr unsigned int LLGDJOPPPEN_TypeDefinitionIndex = 59229;
+inline static constexpr unsigned int LLGDJOPPPEN_TypeDefinitionIndex = 60506;
 
 	class LLGDJOPPPEN
 	{

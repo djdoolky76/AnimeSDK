@@ -5,19 +5,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class WorldLevelStageUnlockConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCACDF0)
-#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DCAC780)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBF710)
+#define RPG_GAMECORE_WORLDLEVELSTAGEUNLOCKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EEBF0A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WorldLevelStageUnlockConfigRow_TypeDefinitionIndex = 12567;
+	inline static constexpr unsigned int WorldLevelStageUnlockConfigRow_TypeDefinitionIndex = 12634;
 
 	class WorldLevelStageUnlockConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* UIEntranceBgPath; // 0x10
-		::System::UInt32 UIEnviromentParam; // 0x18
-		::System::UInt32 UIEntranceParam; // 0x1C
+		::System::UInt32 UIEntranceParam; // 0x18
+		::System::UInt32 UIEnviromentParam; // 0x1C
 		::System::UInt32 RaidID; // 0x20
 		::System::Void _ctor()
 		{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowChallengeSuccessToastUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HEHJPBLMGGD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C51F60)
-#define HEHJPBLMGGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C51F90)
+#define HEHJPBLMGGD_CTOR_OFFSET UNITYSDK_OFFSET(0x16B96990)
+#define HEHJPBLMGGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B969C0)
 
-inline static constexpr unsigned int HEHJPBLMGGD_TypeDefinitionIndex = 53264;
+inline static constexpr unsigned int HEHJPBLMGGD_TypeDefinitionIndex = 54426;
 
 	class HEHJPBLMGGD
 	{

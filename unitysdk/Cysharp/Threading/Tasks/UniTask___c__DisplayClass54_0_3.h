@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask___c__DisplayClass54_0_3_TypeDefinitionIndex = 38345;
+	inline static constexpr unsigned int UniTask___c__DisplayClass54_0_3_TypeDefinitionIndex = 39274;
 
 	template <typename T1, typename T2, typename T3>
 	class UniTask___c__DisplayClass54_0_3 : public ::System::Object

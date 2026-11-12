@@ -7,24 +7,24 @@ namespace RPG::Client::LimaoNews { class LimaoNewsWindowService; }
 namespace Sofa::Core { class SimpleCommand; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD3E62F0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_GET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0xD3E6490)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_GET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0xD3E6470)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_SET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0xD3E64A0)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_SET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0xD3E6480)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xD3E64B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDE37530)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_GET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0xDE376C0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_GET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0xDE376A0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_SET_ONBTNCONTACT_OFFSET UNITYSDK_OFFSET(0xDE376D0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_SET_SHOWSPONSORS_OFFSET UNITYSDK_OFFSET(0xDE376B0)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xDE376E0)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsSponsorViewModel_TypeDefinitionIndex = 80473;
+	inline static constexpr unsigned int LimaoNewsSponsorViewModel_TypeDefinitionIndex = 83253;
 
 	class LimaoNewsSponsorViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::KPEKFHGKGFN* _SponsorService; // 0x20
-		::RPG::Client::LimaoNews::LimaoNewsWindowService* _WindowService; // 0x28
-		::Sofa::Core::SimpleCommand* _OnBtnContact_k__BackingField; // 0x30
-		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsSponsorItemViewModel*>* _ShowSponsors_k__BackingField; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::LimaoNews::LimaoNewsSponsorItemViewModel*>* _ShowSponsors_k__BackingField; // 0x20
+		::Sofa::Core::SimpleCommand* _OnBtnContact_k__BackingField; // 0x28
+		::RPG::Client::LimaoNews::LimaoNewsWindowService* _WindowService; // 0x30
+		::KPEKFHGKGFN* _SponsorService; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LIMAONEWS_LIMAONEWSSPONSORVIEWMODEL_CTOR_OFFSET))(this);

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin
 {
-	inline static constexpr unsigned int IFateRinExtraEffectViewModel_TypeDefinitionIndex = 80626;
+	inline static constexpr unsigned int IFateRinExtraEffectViewModel_TypeDefinitionIndex = 83406;
 
 	class IFateRinExtraEffectViewModel
 	{

@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define OCFKLJHADGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD60520)
-#define OCFKLJHADGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD60560)
-#define OCFKLJHADGF___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0xBD60570)
+#define OCFKLJHADGF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC664EF0)
+#define OCFKLJHADGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC664F30)
+#define OCFKLJHADGF___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0xC664F40)
 
-inline static constexpr unsigned int OCFKLJHADGF___c_TypeDefinitionIndex = 75163;
+inline static constexpr unsigned int OCFKLJHADGF___c_TypeDefinitionIndex = 77490;
 
 	class OCFKLJHADGF___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E700);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E708);
+			return (::System::Comparison_1<::RPG::Client::ActivityIdleLive::CharacterMeetEventSentence>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x657E0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x657E8);
 		}
 
 		static ::System::Void _cctor()

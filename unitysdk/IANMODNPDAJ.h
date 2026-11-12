@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define IANMODNPDAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB06210)
+#define IANMODNPDAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCCAC90)
 
-inline static constexpr unsigned int IANMODNPDAJ_TypeDefinitionIndex = 42790;
+inline static constexpr unsigned int IANMODNPDAJ_TypeDefinitionIndex = 43770;
 
 	class IANMODNPDAJ : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
-		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IANMODNPDAJ")->GetStaticField(0x33090);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IANMODNPDAJ")->GetStaticField(0x33098);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IANMODNPDAJ")->GetStaticField(0x275A0);
+		}
+
+		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
+		{
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "IANMODNPDAJ")->GetStaticField(0x275A8);
 		}
 
 		// static const ::System::Object EKEFPDFCNOM; // 0x0

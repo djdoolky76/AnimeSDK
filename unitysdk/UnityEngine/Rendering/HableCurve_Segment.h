@@ -2,22 +2,22 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define UNITYENGINE_RENDERING_HABLECURVE_SEGMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C36D0)
-#define UNITYENGINE_RENDERING_HABLECURVE_SEGMENT_EVAL_OFFSET UNITYSDK_OFFSET(0x1F2C37A0)
+#define UNITYENGINE_RENDERING_HABLECURVE_SEGMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x205744E0)
+#define UNITYENGINE_RENDERING_HABLECURVE_SEGMENT_EVAL_OFFSET UNITYSDK_OFFSET(0x205745B0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int HableCurve_Segment_TypeDefinitionIndex = 35601;
+	inline static constexpr unsigned int HableCurve_Segment_TypeDefinitionIndex = 36529;
 
 	class HableCurve_Segment : public ::System::Object
 	{
 	public:
-		::System::Single offsetX; // 0x10
-		::System::Single scaleY; // 0x14
-		::System::Single lnA; // 0x18
-		::System::Single offsetY; // 0x1C
-		::System::Single scaleX; // 0x20
-		::System::Single B; // 0x24
+		::System::Single offsetY; // 0x10
+		::System::Single lnA; // 0x14
+		::System::Single scaleX; // 0x18
+		::System::Single offsetX; // 0x1C
+		::System::Single B; // 0x20
+		::System::Single scaleY; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_HABLECURVE_SEGMENT_CTOR_OFFSET))(this);

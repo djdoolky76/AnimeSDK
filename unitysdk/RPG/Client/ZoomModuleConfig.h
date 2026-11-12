@@ -4,12 +4,12 @@
 #include "unitysdk/RPG/Client/CameraModuleType.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_ZOOMMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE48DE30)
-#define RPG_CLIENT_ZOOMMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xE48DDE0)
+#define RPG_CLIENT_ZOOMMODULECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xEF4CC10)
+#define RPG_CLIENT_ZOOMMODULECONFIG_JIGLNEDJDCC_OFFSET UNITYSDK_OFFSET(0xEF4CBC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ZoomModuleConfig_TypeDefinitionIndex = 69689;
+	inline static constexpr unsigned int ZoomModuleConfig_TypeDefinitionIndex = 71646;
 
 	class ZoomModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{

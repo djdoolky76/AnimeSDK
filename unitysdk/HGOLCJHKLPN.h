@@ -3,10 +3,10 @@
 class JNHAGNDEMNJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGOLCJHKLPN_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB3060)
-#define HGOLCJHKLPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CB3090)
+#define HGOLCJHKLPN_CTOR_OFFSET UNITYSDK_OFFSET(0x16BFEBB0)
+#define HGOLCJHKLPN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BFEBE0)
 
-inline static constexpr unsigned int HGOLCJHKLPN_TypeDefinitionIndex = 55221;
+inline static constexpr unsigned int HGOLCJHKLPN_TypeDefinitionIndex = 56402;
 
 	class HGOLCJHKLPN
 	{

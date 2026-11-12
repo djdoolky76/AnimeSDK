@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace System::Text { class StringBuilder; }
 
-#define RPG_GAMECORE_DYNAMICVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D62C450)
-#define RPG_GAMECORE_DYNAMICVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D62C480)
-#define RPG_GAMECORE_DYNAMICVALUE___C___CCTOR_B__80_0_OFFSET UNITYSDK_OFFSET(0x1D62C490)
+#define RPG_GAMECORE_DYNAMICVALUE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E86A370)
+#define RPG_GAMECORE_DYNAMICVALUE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86A3A0)
+#define RPG_GAMECORE_DYNAMICVALUE___C___CCTOR_B__80_0_OFFSET UNITYSDK_OFFSET(0x1E86A3B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicValue___c_TypeDefinitionIndex = 10842;
+	inline static constexpr unsigned int DynamicValue___c_TypeDefinitionIndex = 10858;
 
 	class DynamicValue___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x22CD0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x1B2C0);
 		}
 
 		static ::System::Void _cctor()

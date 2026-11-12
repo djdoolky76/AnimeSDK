@@ -4,15 +4,15 @@
 class BPDKJKJGECM;
 class FLJEGMGCIOG;
 
-#define MLNKKMBGFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74F870)
+#define MLNKKMBGFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D11C0)
 
-inline static constexpr unsigned int MLNKKMBGFNO_TypeDefinitionIndex = 37245;
+inline static constexpr unsigned int MLNKKMBGFNO_TypeDefinitionIndex = 38173;
 
 	class MLNKKMBGFNO : public ::System::Object
 	{
 	public:
-		::FLJEGMGCIOG* MOBBFEJHBGC; // 0x10
-		::BPDKJKJGECM* GJBOKLDCKEG; // 0x18
+		::BPDKJKJGECM* GJBOKLDCKEG; // 0x10
+		::FLJEGMGCIOG* MOBBFEJHBGC; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLNKKMBGFNO_CTOR_OFFSET))(this);

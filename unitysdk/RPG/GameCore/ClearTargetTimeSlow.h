@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ClearTargetTimeSlow; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLEARTARGETTIMESLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B73A0)
-#define RPG_GAMECORE_CLEARTARGETTIMESLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B73B0)
-#define RPG_GAMECORE_CLEARTARGETTIMESLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B7360)
+#define RPG_GAMECORE_CLEARTARGETTIMESLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C7380)
+#define RPG_GAMECORE_CLEARTARGETTIMESLOW_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7C7390)
+#define RPG_GAMECORE_CLEARTARGETTIMESLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7C7340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearTargetTimeSlow_TypeDefinitionIndex = 22675;
+	inline static constexpr unsigned int ClearTargetTimeSlow_TypeDefinitionIndex = 23097;
 
 	class ClearTargetTimeSlow : public ::RPG::GameCore::TaskConfig
 	{

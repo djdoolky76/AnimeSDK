@@ -4,18 +4,18 @@
 class FEIHGOEPANI;
 namespace System { class Object; }
 
-#define FEIHGOEPANI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E367910)
-#define FEIHGOEPANI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E367950)
-#define FEIHGOEPANI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E367960)
+#define FEIHGOEPANI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F64EDC0)
+#define FEIHGOEPANI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F64EE00)
+#define FEIHGOEPANI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F64EE10)
 
-inline static constexpr unsigned int FEIHGOEPANI___c_TypeDefinitionIndex = 32212;
+inline static constexpr unsigned int FEIHGOEPANI___c_TypeDefinitionIndex = 33125;
 
 	class FEIHGOEPANI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D720);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B330);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace OceanSystem
 {
-	inline static constexpr unsigned int OceanRenderer_WaveType_TypeDefinitionIndex = 48976;
+	inline static constexpr unsigned int OceanRenderer_WaveType_TypeDefinitionIndex = 50045;
 
 	enum class OceanRenderer_WaveType : ::System::Int32
 	{

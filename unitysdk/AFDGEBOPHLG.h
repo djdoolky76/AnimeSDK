@@ -3,24 +3,24 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define AFDGEBOPHLG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD0B010)
-#define AFDGEBOPHLG_DDMNGNFIGAK_OFFSET UNITYSDK_OFFSET(0x1DD0A7F0)
-#define AFDGEBOPHLG_EKAFDGOAGLJ_OFFSET UNITYSDK_OFFSET(0x1DD0A6F0)
-#define AFDGEBOPHLG_JDABGFMCGAH_OFFSET UNITYSDK_OFFSET(0x1DD0AB80)
+#define AFDGEBOPHLG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF0D780)
+#define AFDGEBOPHLG_DDMNGNFIGAK_OFFSET UNITYSDK_OFFSET(0x1EF0CF60)
+#define AFDGEBOPHLG_EKAFDGOAGLJ_OFFSET UNITYSDK_OFFSET(0x1EF0CE60)
+#define AFDGEBOPHLG_JDABGFMCGAH_OFFSET UNITYSDK_OFFSET(0x1EF0D2F0)
 
-inline static constexpr unsigned int AFDGEBOPHLG_TypeDefinitionIndex = 6270;
+inline static constexpr unsigned int AFDGEBOPHLG_TypeDefinitionIndex = 6277;
 
 	class AFDGEBOPHLG : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Single>** StaticGet_ACPMKNOOMHF()
-		{
-			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "AFDGEBOPHLG")->GetStaticField(0x207A0);
-		}
-
 		static ::Il2CppArray<::System::Single>** StaticGet_EHJGKDIFINJ()
 		{
-			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "AFDGEBOPHLG")->GetStaticField(0x207A8);
+			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "AFDGEBOPHLG")->GetStaticField(0x2AA60);
+		}
+
+		static ::Il2CppArray<::System::Single>** StaticGet_ACPMKNOOMHF()
+		{
+			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "AFDGEBOPHLG")->GetStaticField(0x2AA68);
 		}
 
 		// static const ::System::Object IPLDFDAGKGK; // 0x0

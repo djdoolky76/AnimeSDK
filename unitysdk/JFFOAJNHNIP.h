@@ -3,7 +3,7 @@
 #include "unitysdk/OEEKHELGHKF.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/PlayerDisableInteractReason.h"
 
-inline static constexpr unsigned int JFFOAJNHNIP_TypeDefinitionIndex = 43425;
+inline static constexpr unsigned int JFFOAJNHNIP_TypeDefinitionIndex = 44407;
 
 	struct alignas(4) JFFOAJNHNIP
 	{

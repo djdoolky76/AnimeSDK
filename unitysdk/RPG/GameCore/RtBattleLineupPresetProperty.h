@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtBattleLineupPresetProperty; }
 
-#define RPG_GAMECORE_RTBATTLELINEUPPRESETPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA4E040)
-#define RPG_GAMECORE_RTBATTLELINEUPPRESETPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA4E000)
+#define RPG_GAMECORE_RTBATTLELINEUPPRESETPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC60CD0)
+#define RPG_GAMECORE_RTBATTLELINEUPPRESETPROPERTY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC60C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleLineupPresetProperty_TypeDefinitionIndex = 18046;
+	inline static constexpr unsigned int RtBattleLineupPresetProperty_TypeDefinitionIndex = 18212;
 
 	class RtBattleLineupPresetProperty : public ::RPG::GameCore::JsonConfig
 	{

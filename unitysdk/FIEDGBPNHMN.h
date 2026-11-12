@@ -8,24 +8,24 @@ namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define FIEDGBPNHMN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x157A44B0)
-#define FIEDGBPNHMN_CTOR_2_OFFSET UNITYSDK_OFFSET(0x157A4550)
-#define FIEDGBPNHMN_CTOR_3_OFFSET UNITYSDK_OFFSET(0x157A40F0)
-#define FIEDGBPNHMN_CTOR_OFFSET UNITYSDK_OFFSET(0x157A3FD0)
-#define FIEDGBPNHMN_FKPHBABGBFH_OFFSET UNITYSDK_OFFSET(0x157A4060)
-#define FIEDGBPNHMN_FOEACHNKFIG_OFFSET UNITYSDK_OFFSET(0x157A4560)
-#define FIEDGBPNHMN_GET_FUNCTIONBUTTONS_OFFSET UNITYSDK_OFFSET(0x157A3FB0)
-#define FIEDGBPNHMN_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x157A3FA0)
-#define FIEDGBPNHMN_GET_NAVIGATIONENABLED_OFFSET UNITYSDK_OFFSET(0x157A3FC0)
+#define FIEDGBPNHMN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x166C5CC0)
+#define FIEDGBPNHMN_CTOR_2_OFFSET UNITYSDK_OFFSET(0x166C5D60)
+#define FIEDGBPNHMN_CTOR_3_OFFSET UNITYSDK_OFFSET(0x166C5900)
+#define FIEDGBPNHMN_CTOR_OFFSET UNITYSDK_OFFSET(0x166C57E0)
+#define FIEDGBPNHMN_FKPHBABGBFH_OFFSET UNITYSDK_OFFSET(0x166C5870)
+#define FIEDGBPNHMN_FOEACHNKFIG_OFFSET UNITYSDK_OFFSET(0x166C5D70)
+#define FIEDGBPNHMN_GET_FUNCTIONBUTTONS_OFFSET UNITYSDK_OFFSET(0x166C57C0)
+#define FIEDGBPNHMN_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x166C57B0)
+#define FIEDGBPNHMN_GET_NAVIGATIONENABLED_OFFSET UNITYSDK_OFFSET(0x166C57D0)
 
-inline static constexpr unsigned int FIEDGBPNHMN_TypeDefinitionIndex = 79149;
+inline static constexpr unsigned int FIEDGBPNHMN_TypeDefinitionIndex = 81925;
 
 	class FIEDGBPNHMN : public ::System::Object
 	{
 	public:
 		::ObservableCollections::ObservableList_1<::MEAFKINAELF*>* _Items_k__BackingField; // 0x10
-		::ObservableCollections::ObservableList_1<::KCFGMKGNMNP*>* _FunctionButtons_k__BackingField; // 0x18
-		::R3::ReadOnlyReactiveProperty_1<::System::Boolean>* _NavigationEnabled_k__BackingField; // 0x20
+		::R3::ReadOnlyReactiveProperty_1<::System::Boolean>* _NavigationEnabled_k__BackingField; // 0x18
+		::ObservableCollections::ObservableList_1<::KCFGMKGNMNP*>* _FunctionButtons_k__BackingField; // 0x20
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + FIEDGBPNHMN_CTOR_OFFSET))(this, a1);

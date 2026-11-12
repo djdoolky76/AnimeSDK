@@ -7,21 +7,21 @@ class NLNFLEDEKGM;
 namespace RPG::Client { class RogueBuffEnhanceItem; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CHEKNAEPBJH_CTOR_OFFSET UNITYSDK_OFFSET(0xCC93110)
-#define CHEKNAEPBJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC93130)
-#define CHEKNAEPBJH_GET_ACHIVEDBUFFS_OFFSET UNITYSDK_OFFSET(0xCC93850)
-#define CHEKNAEPBJH_GKOPHCDLOEN_OFFSET UNITYSDK_OFFSET(0xCC93770)
-#define CHEKNAEPBJH_OKKEBMDNPAO_1_OFFSET UNITYSDK_OFFSET(0xCC934E0)
-#define CHEKNAEPBJH_OKKEBMDNPAO_OFFSET UNITYSDK_OFFSET(0xCC93250)
-#define CHEKNAEPBJH_SET_ACHIVEDBUFFS_OFFSET UNITYSDK_OFFSET(0xCC93860)
+#define CHEKNAEPBJH_CTOR_OFFSET UNITYSDK_OFFSET(0xD641010)
+#define CHEKNAEPBJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD641030)
+#define CHEKNAEPBJH_GET_ACHIVEDBUFFS_OFFSET UNITYSDK_OFFSET(0xD641750)
+#define CHEKNAEPBJH_GKOPHCDLOEN_OFFSET UNITYSDK_OFFSET(0xD641670)
+#define CHEKNAEPBJH_OKKEBMDNPAO_1_OFFSET UNITYSDK_OFFSET(0xD6413E0)
+#define CHEKNAEPBJH_OKKEBMDNPAO_OFFSET UNITYSDK_OFFSET(0xD641150)
+#define CHEKNAEPBJH_SET_ACHIVEDBUFFS_OFFSET UNITYSDK_OFFSET(0xD641760)
 
-inline static constexpr unsigned int CHEKNAEPBJH_TypeDefinitionIndex = 67193;
+inline static constexpr unsigned int CHEKNAEPBJH_TypeDefinitionIndex = 69137;
 
 	class CHEKNAEPBJH : public ::System::Object
 	{
 	public:
-		::NLNFLEDEKGM* _AchivedBuffs_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueBuffEnhanceItem*>* MKFCIGNBOOB; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::RogueBuffEnhanceItem*>* MKFCIGNBOOB; // 0x10
+		::NLNFLEDEKGM* _AchivedBuffs_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CHEKNAEPBJH_CTOR_OFFSET))(this);

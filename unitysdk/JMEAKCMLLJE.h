@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define JMEAKCMLLJE_CTOR_OFFSET UNITYSDK_OFFSET(0xB262890)
+#define JMEAKCMLLJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA8D990)
 
-inline static constexpr unsigned int JMEAKCMLLJE_TypeDefinitionIndex = 70219;
+inline static constexpr unsigned int JMEAKCMLLJE_TypeDefinitionIndex = 72185;
 
 	class JMEAKCMLLJE : public ::System::Object
 	{

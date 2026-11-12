@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropertyAdsorptionConfig; }
 
-#define MCIJBGCGKIJ_FKIHEOAFGLE_OFFSET UNITYSDK_OFFSET(0x1D13E140)
-#define MCIJBGCGKIJ_NLDJECBDCOL_OFFSET UNITYSDK_OFFSET(0x1D13E1A0)
+#define MCIJBGCGKIJ_FKIHEOAFGLE_OFFSET UNITYSDK_OFFSET(0x1E33DAA0)
+#define MCIJBGCGKIJ_NLDJECBDCOL_OFFSET UNITYSDK_OFFSET(0x1E33DB00)
 
-inline static constexpr unsigned int MCIJBGCGKIJ_TypeDefinitionIndex = 10837;
+inline static constexpr unsigned int MCIJBGCGKIJ_TypeDefinitionIndex = 10853;
 
 	class MCIJBGCGKIJ : public ::System::Object
 	{

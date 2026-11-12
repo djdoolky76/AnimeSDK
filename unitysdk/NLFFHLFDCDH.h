@@ -7,24 +7,23 @@ namespace RPG::GameCore { class FiveDimRIStateEmissionAction; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NLFFHLFDCDH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C96F890)
-#define NLFFHLFDCDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96FD70)
-#define NLFFHLFDCDH_DJGPCNFPPOA_OFFSET UNITYSDK_OFFSET(0x1C96FA80)
-#define NLFFHLFDCDH_KPGLLKILGDE_OFFSET UNITYSDK_OFFSET(0x1C96FBF0)
-#define NLFFHLFDCDH_NKJJLMFDPHA_OFFSET UNITYSDK_OFFSET(0x1C96F8F0)
-#define NLFFHLFDCDH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C96F6E0)
-#define NLFFHLFDCDH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C96F850)
+#define NLFFHLFDCDH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB31670)
+#define NLFFHLFDCDH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB31B50)
+#define NLFFHLFDCDH_DJGPCNFPPOA_OFFSET UNITYSDK_OFFSET(0x1DB31860)
+#define NLFFHLFDCDH_KPGLLKILGDE_OFFSET UNITYSDK_OFFSET(0x1DB319D0)
+#define NLFFHLFDCDH_NKJJLMFDPHA_OFFSET UNITYSDK_OFFSET(0x1DB316D0)
+#define NLFFHLFDCDH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DB314C0)
+#define NLFFHLFDCDH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1DB31630)
 
-inline static constexpr unsigned int NLFFHLFDCDH_TypeDefinitionIndex = 43307;
+inline static constexpr unsigned int NLFFHLFDCDH_TypeDefinitionIndex = 44288;
 
 	class NLFFHLFDCDH : public ::System::Object
 	{
 	public:
-		::RPG::PoolDictionary_2<::System::String*, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason>* KOAMMIGEDJI; // 0x10
-		::RPG::GameCore::FiveDimRIStateEmissionAction* GHAIGFIPPDG; // 0x18
-		::System::Boolean OBMFBLPEMPI; // 0x20
-		::System::Byte _padding0[0x3];
-		::System::Single OHEPCONLDEC; // 0x24
+		::RPG::GameCore::FiveDimRIStateEmissionAction* GHAIGFIPPDG; // 0x10
+		::RPG::PoolDictionary_2<::System::String*, ::RPG::Client::LittleGame::FiveDim::RIStateSetReason>* KOAMMIGEDJI; // 0x18
+		::System::Single OHEPCONLDEC; // 0x20
+		::System::Boolean OBMFBLPEMPI; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NLFFHLFDCDH_CTOR_OFFSET))(this);

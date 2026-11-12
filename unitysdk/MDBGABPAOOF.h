@@ -8,7 +8,7 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-inline static constexpr unsigned int MDBGABPAOOF_TypeDefinitionIndex = 42012;
+inline static constexpr unsigned int MDBGABPAOOF_TypeDefinitionIndex = 42987;
 
 	struct alignas(8) MDBGABPAOOF
 	{

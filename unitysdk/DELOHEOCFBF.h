@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DELOHEOCFBF_TypeDefinitionIndex = 24706;
+inline static constexpr unsigned int DELOHEOCFBF_TypeDefinitionIndex = 25181;
 
 	enum class DELOHEOCFBF : ::System::Int32
 	{

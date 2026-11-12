@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_TEXTUREREPLACEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xE226AF0)
+#define RPG_CLIENT_TEXTUREREPLACEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xECD3D50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextureReplaceItem_TypeDefinitionIndex = 70736;
+	inline static constexpr unsigned int TextureReplaceItem_TypeDefinitionIndex = 72715;
 
 	class TextureReplaceItem : public ::System::Object
 	{

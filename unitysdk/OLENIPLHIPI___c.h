@@ -4,18 +4,18 @@
 class OLENIPLHIPI;
 namespace System { class Object; }
 
-#define OLENIPLHIPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEA5F90)
-#define OLENIPLHIPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA5FD0)
-#define OLENIPLHIPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEA5FE0)
+#define OLENIPLHIPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14E230)
+#define OLENIPLHIPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14E270)
+#define OLENIPLHIPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F14E280)
 
-inline static constexpr unsigned int OLENIPLHIPI___c_TypeDefinitionIndex = 31833;
+inline static constexpr unsigned int OLENIPLHIPI___c_TypeDefinitionIndex = 32746;
 
 	class OLENIPLHIPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x236E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1F380);
 		}
 
 		static ::System::Void _cctor()

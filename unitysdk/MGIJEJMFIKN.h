@@ -5,11 +5,11 @@ class KNADGNOONMC;
 class LNLKODEPCLB;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MGIJEJMFIKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB920940)
-#define MGIJEJMFIKN_GET_LEVELS_OFFSET UNITYSDK_OFFSET(0xB920930)
-#define MGIJEJMFIKN_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xB9209C0)
+#define MGIJEJMFIKN_CTOR_OFFSET UNITYSDK_OFFSET(0xC1D4190)
+#define MGIJEJMFIKN_GET_LEVELS_OFFSET UNITYSDK_OFFSET(0xC1D4180)
+#define MGIJEJMFIKN_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xC1D4210)
 
-inline static constexpr unsigned int MGIJEJMFIKN_TypeDefinitionIndex = 63926;
+inline static constexpr unsigned int MGIJEJMFIKN_TypeDefinitionIndex = 65368;
 
 	class MGIJEJMFIKN : public ::System::Object
 	{

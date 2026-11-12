@@ -6,12 +6,12 @@ namespace RPG::GameCore { class MonopolyAllMapConfig; }
 namespace RPG::GameCore { class MonopolyMapConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89BE70)
-#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D89BD70)
+#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB61C0)
+#define RPG_GAMECORE_MONOPOLYALLMAPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB60C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonopolyAllMapConfig_TypeDefinitionIndex = 16245;
+	inline static constexpr unsigned int MonopolyAllMapConfig_TypeDefinitionIndex = 16403;
 
 	class MonopolyAllMapConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define SPINE_UNITY_ATLASASSETBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF8CF0)
+#define SPINE_UNITY_ATLASASSETBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFA8A50)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int AtlasAssetBase_TypeDefinitionIndex = 44997;
+	inline static constexpr unsigned int AtlasAssetBase_TypeDefinitionIndex = 46072;
 
 	class AtlasAssetBase : public ::UnityEngine::ScriptableObject
 	{

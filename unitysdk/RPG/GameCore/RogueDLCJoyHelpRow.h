@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueDLCJoyHelpRow; }
 
-#define RPG_GAMECORE_ROGUEDLCJOYHELPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9C1CF0)
-#define RPG_GAMECORE_ROGUEDLCJOYHELPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9C1B70)
+#define RPG_GAMECORE_ROGUEDLCJOYHELPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC0B490)
+#define RPG_GAMECORE_ROGUEDLCJOYHELPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EC0B310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueDLCJoyHelpRow_TypeDefinitionIndex = 14751;
+	inline static constexpr unsigned int RogueDLCJoyHelpRow_TypeDefinitionIndex = 14907;
 
 	class RogueDLCJoyHelpRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 AeonDimensionID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID PlayShortDesc; // 0x18
+		::RPG::Client::TextID PlayShortDesc; // 0x10
+		::System::UInt32 AeonDimensionID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEDLCJOYHELPROW_CTOR_OFFSET))(this);

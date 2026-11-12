@@ -5,12 +5,12 @@ namespace RPG::GameCore { class TargetSortByModifierStatusCount; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PMHLLOHJHCN_COMPARE_OFFSET UNITYSDK_OFFSET(0xC31D730)
-#define PMHLLOHJHCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC31D710)
-#define PMHLLOHJHCN_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xC31D830)
-#define PMHLLOHJHCN_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC31D880)
+#define PMHLLOHJHCN_COMPARE_OFFSET UNITYSDK_OFFSET(0xCC4C520)
+#define PMHLLOHJHCN_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4C500)
+#define PMHLLOHJHCN_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xCC4C620)
+#define PMHLLOHJHCN_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xCC4C670)
 
-inline static constexpr unsigned int PMHLLOHJHCN_TypeDefinitionIndex = 59175;
+inline static constexpr unsigned int PMHLLOHJHCN_TypeDefinitionIndex = 60452;
 
 	class PMHLLOHJHCN
 	{

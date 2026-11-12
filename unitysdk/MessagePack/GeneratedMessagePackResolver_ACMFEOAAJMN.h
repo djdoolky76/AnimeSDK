@@ -5,19 +5,19 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_ACMFEOAAJMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C759B00)
-#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_ACMFEOAAJMN_GNLJKGAHBLI_OFFSET UNITYSDK_OFFSET(0x1C758C60)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_ACMFEOAAJMN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D8DB460)
+#define MESSAGEPACK_GENERATEDMESSAGEPACKRESOLVER_ACMFEOAAJMN_GNLJKGAHBLI_OFFSET UNITYSDK_OFFSET(0x1D8DA5C0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int GeneratedMessagePackResolver_ACMFEOAAJMN_TypeDefinitionIndex = 36095;
+	inline static constexpr unsigned int GeneratedMessagePackResolver_ACMFEOAAJMN_TypeDefinitionIndex = 37023;
 
 	class GeneratedMessagePackResolver_ACMFEOAAJMN : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>** StaticGet_PJHNAIJGAOI()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)UnitySDK::FromName("MessagePack", "ACMFEOAAJMN")->GetStaticField(0x16410);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)UnitySDK::FromName("MessagePack", "ACMFEOAAJMN")->GetStaticField(0xEDF0);
 		}
 
 		static ::System::Void _cctor()

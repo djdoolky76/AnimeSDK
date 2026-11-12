@@ -10,44 +10,44 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KPNDPCFELMN_AMNHHBMIOCP_OFFSET UNITYSDK_OFFSET(0xB5C2D90)
-#define KPNDPCFELMN_AOHGNELBJOB_OFFSET UNITYSDK_OFFSET(0xB5C2F60)
-#define KPNDPCFELMN_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5C52A0)
-#define KPNDPCFELMN_CPEOBNEKNLJ_OFFSET UNITYSDK_OFFSET(0xB5C4CD0)
-#define KPNDPCFELMN_FFOEODHPHNB_OFFSET UNITYSDK_OFFSET(0xB5C4760)
-#define KPNDPCFELMN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB5C3A60)
-#define KPNDPCFELMN_NBIDLMOCPNF_OFFSET UNITYSDK_OFFSET(0xB5C4070)
-#define KPNDPCFELMN_OGBLIEJNNPJ_OFFSET UNITYSDK_OFFSET(0xB5C3B90)
-#define KPNDPCFELMN_OLFHAEHKEKG_OFFSET UNITYSDK_OFFSET(0xB5C2E10)
+#define KPNDPCFELMN_AMNHHBMIOCP_OFFSET UNITYSDK_OFFSET(0xBE17640)
+#define KPNDPCFELMN_AOHGNELBJOB_OFFSET UNITYSDK_OFFSET(0xBE17810)
+#define KPNDPCFELMN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE19B50)
+#define KPNDPCFELMN_CPEOBNEKNLJ_OFFSET UNITYSDK_OFFSET(0xBE19580)
+#define KPNDPCFELMN_FFOEODHPHNB_OFFSET UNITYSDK_OFFSET(0xBE19010)
+#define KPNDPCFELMN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE18310)
+#define KPNDPCFELMN_NBIDLMOCPNF_OFFSET UNITYSDK_OFFSET(0xBE18920)
+#define KPNDPCFELMN_OGBLIEJNNPJ_OFFSET UNITYSDK_OFFSET(0xBE18440)
+#define KPNDPCFELMN_OLFHAEHKEKG_OFFSET UNITYSDK_OFFSET(0xBE176C0)
 
-inline static constexpr unsigned int KPNDPCFELMN_TypeDefinitionIndex = 69486;
+inline static constexpr unsigned int KPNDPCFELMN_TypeDefinitionIndex = 71440;
 
 	class KPNDPCFELMN : public ::System::Object
 	{
 	public:
-		static ::KPNDPCFELMN_IDGMFOKGLAO** StaticGet_LKGHPDODGDI()
+		static ::System::String** StaticGet_FGIHAOPOACK()
 		{
-			return (::KPNDPCFELMN_IDGMFOKGLAO**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x65D90);
+			return (::System::String**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x5F640);
 		}
 
 		static ::System::String** StaticGet_DHICLHDHNDN()
 		{
-			return (::System::String**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x65D98);
+			return (::System::String**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x5F648);
 		}
 
 		static ::System::String** StaticGet_LGFBAECDFID()
 		{
-			return (::System::String**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x65DA0);
-		}
-
-		static ::System::String** StaticGet_FGIHAOPOACK()
-		{
-			return (::System::String**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x65DA8);
+			return (::System::String**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x5F650);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::System::Int32>** StaticGet_EHNDHPCDNEH()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x65DB0);
+			return (::System::Collections::Generic::HashSet_1<::System::Int32>**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x5F658);
+		}
+
+		static ::KPNDPCFELMN_IDGMFOKGLAO** StaticGet_LKGHPDODGDI()
+		{
+			return (::KPNDPCFELMN_IDGMFOKGLAO**)UnitySDK::FromName("", "KPNDPCFELMN")->GetStaticField(0x5F660);
 		}
 
 		static ::System::Void _cctor()

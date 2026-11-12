@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Object; }
 
-#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0xDF9FEC0)
+#define CODE_MONOBEHAVIOR_LEVEL_MONOTRAINPARTYBUILDEFFECTSETTING_CTOR_OFFSET UNITYSDK_OFFSET(0xE902E10)
 
 namespace Code::MonoBehavior::Level
 {
-	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_TypeDefinitionIndex = 50051;
+	inline static constexpr unsigned int MonoTrainPartyBuildEffectSetting_TypeDefinitionIndex = 51099;
 
 	class MonoTrainPartyBuildEffectSetting : public ::UnityEngine::MonoBehaviour
 	{

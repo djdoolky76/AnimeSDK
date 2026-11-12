@@ -3,7 +3,7 @@
 #include "unitysdk/KLNKLOMDIIC.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int KBPLIDDOKLC_TypeDefinitionIndex = 43492;
+inline static constexpr unsigned int KBPLIDDOKLC_TypeDefinitionIndex = 44474;
 
 	struct alignas(4) KBPLIDDOKLC
 	{

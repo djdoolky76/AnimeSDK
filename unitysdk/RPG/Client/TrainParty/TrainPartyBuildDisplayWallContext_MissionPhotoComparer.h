@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_MISSIONPHOTOCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xE2D5280)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_MISSIONPHOTOCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xE2D5340)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_MISSIONPHOTOCOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xED401E0)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDDISPLAYWALLCONTEXT_MISSIONPHOTOCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xED402B0)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_MissionPhotoComparer_TypeDefinitionIndex = 74298;
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_MissionPhotoComparer_TypeDefinitionIndex = 76446;
 
 	class TrainPartyBuildDisplayWallContext_MissionPhotoComparer : public ::System::Object
 	{

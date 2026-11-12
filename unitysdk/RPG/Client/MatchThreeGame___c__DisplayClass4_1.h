@@ -4,12 +4,12 @@
 class KLGJDILNNDH;
 class LMLNNHKJEIP;
 
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD59ADF0)
-#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_1__INITPLAYERS_B__2_OFFSET UNITYSDK_OFFSET(0xD59AE00)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE5DA0)
+#define RPG_CLIENT_MATCHTHREEGAME___C__DISPLAYCLASS4_1__INITPLAYERS_B__2_OFFSET UNITYSDK_OFFSET(0xDFEFE50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass4_1_TypeDefinitionIndex = 65943;
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass4_1_TypeDefinitionIndex = 67875;
 
 	template <typename T>
 	class MatchThreeGame___c__DisplayClass4_1 : public ::System::Object

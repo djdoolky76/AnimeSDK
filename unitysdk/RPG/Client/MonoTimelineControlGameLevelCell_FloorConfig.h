@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_FLOORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD86CB70)
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_FLOORCONFIG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xD86C100)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_FLOORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE2BF100)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELCELL_FLOORCONFIG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xE2BE690)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_FloorConfig_TypeDefinitionIndex = 60437;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_FloorConfig_TypeDefinitionIndex = 61727;
 
 	class MonoTimelineControlGameLevelCell_FloorConfig : public ::System::Object
 	{

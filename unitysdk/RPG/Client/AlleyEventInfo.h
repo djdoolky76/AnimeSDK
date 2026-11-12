@@ -3,11 +3,11 @@
 #include "unitysdk/AJOCCOAIFIF.h"
 namespace RPG::GameCore { class AlleyEventRow; }
 
-#define RPG_CLIENT_ALLEYEVENTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE11E0)
+#define RPG_CLIENT_ALLEYEVENTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xECF50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AlleyEventInfo_TypeDefinitionIndex = 62257;
+	inline static constexpr unsigned int AlleyEventInfo_TypeDefinitionIndex = 63670;
 
 	struct alignas(8) AlleyEventInfo
 	{

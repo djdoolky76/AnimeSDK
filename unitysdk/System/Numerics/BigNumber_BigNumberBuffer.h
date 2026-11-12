@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Text { class StringBuilder; }
 
-#define SYSTEM_NUMERICS_BIGNUMBER_BIGNUMBERBUFFER_CREATE_OFFSET UNITYSDK_OFFSET(0x1EE7FF70)
+#define SYSTEM_NUMERICS_BIGNUMBER_BIGNUMBERBUFFER_CREATE_OFFSET UNITYSDK_OFFSET(0x2012F750)
 
 namespace System::Numerics
 {

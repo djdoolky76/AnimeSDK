@@ -7,11 +7,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FABJPIKENNK_CTOR_OFFSET UNITYSDK_OFFSET(0x15664200)
-#define FABJPIKENNK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156642A0)
-#define FABJPIKENNK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15664210)
+#define FABJPIKENNK_CTOR_OFFSET UNITYSDK_OFFSET(0x165777A0)
+#define FABJPIKENNK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16577840)
+#define FABJPIKENNK_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x165777B0)
 
-inline static constexpr unsigned int FABJPIKENNK_TypeDefinitionIndex = 59075;
+inline static constexpr unsigned int FABJPIKENNK_TypeDefinitionIndex = 60350;
 
 	class FABJPIKENNK : public ::System::Object
 	{

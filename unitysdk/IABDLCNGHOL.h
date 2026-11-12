@@ -10,11 +10,11 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IABDLCNGHOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DFC020)
-#define IABDLCNGHOL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15DFB630)
-#define IABDLCNGHOL_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0x15DFBA70)
+#define IABDLCNGHOL_CTOR_OFFSET UNITYSDK_OFFSET(0x16DA68B0)
+#define IABDLCNGHOL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16DA5EC0)
+#define IABDLCNGHOL_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0x16DA6300)
 
-inline static constexpr unsigned int IABDLCNGHOL_TypeDefinitionIndex = 77345;
+inline static constexpr unsigned int IABDLCNGHOL_TypeDefinitionIndex = 79679;
 
 	class IABDLCNGHOL : public ::System::Object
 	{

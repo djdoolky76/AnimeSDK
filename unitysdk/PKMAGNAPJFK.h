@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define PKMAGNAPJFK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E6390)
-#define PKMAGNAPJFK_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0xC2E63B0)
-#define PKMAGNAPJFK__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xC2E6430)
+#define PKMAGNAPJFK_CTOR_OFFSET UNITYSDK_OFFSET(0xCC15100)
+#define PKMAGNAPJFK_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0xCC15120)
+#define PKMAGNAPJFK__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xCC151A0)
 
-inline static constexpr unsigned int PKMAGNAPJFK_TypeDefinitionIndex = 59892;
+inline static constexpr unsigned int PKMAGNAPJFK_TypeDefinitionIndex = 61176;
 
 	class PKMAGNAPJFK : public ::RPG::Client::SyncCheckItemBase
 	{

@@ -6,22 +6,22 @@ namespace MiHoYo::SDK::Win { class SteamManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDF3F50)
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1BDF7720)
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1BDF7780)
-#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x1BDF8100)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF7C440)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1CF7FC20)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1CF7FC80)
+#define MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0__LOGIN_B__2_OFFSET UNITYSDK_OFFSET(0x1CF80600)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int SteamManager___c__DisplayClass15_0_TypeDefinitionIndex = 9367;
+	inline static constexpr unsigned int SteamManager___c__DisplayClass15_0_TypeDefinitionIndex = 9375;
 
 	class SteamManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
 		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnLogin; // 0x18
+		::System::Action_1<::System::String*>* __9__2; // 0x18
 		::MiHoYo::SDK::Win::SteamManager* __4__this; // 0x20
-		::System::Action_1<::System::String*>* __9__2; // 0x28
+		::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* OnLogin; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_STEAMMANAGER___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);

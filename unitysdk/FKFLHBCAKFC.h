@@ -3,7 +3,7 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int FKFLHBCAKFC_TypeDefinitionIndex = 60276;
+inline static constexpr unsigned int FKFLHBCAKFC_TypeDefinitionIndex = 61560;
 
 	struct alignas(8) FKFLHBCAKFC
 	{

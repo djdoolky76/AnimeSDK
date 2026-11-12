@@ -6,13 +6,13 @@ namespace RPG::GameCore { class OfflineCullingConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_OFFLINECULLINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8DF6F0)
-#define RPG_GAMECORE_OFFLINECULLINGCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D8DF700)
-#define RPG_GAMECORE_OFFLINECULLINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8DF530)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF83B0)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EAF83C0)
+#define RPG_GAMECORE_OFFLINECULLINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAF81F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OfflineCullingConfig_TypeDefinitionIndex = 19171;
+	inline static constexpr unsigned int OfflineCullingConfig_TypeDefinitionIndex = 19361;
 
 	class OfflineCullingConfig : public ::RPG::GameCore::JsonConfig
 	{

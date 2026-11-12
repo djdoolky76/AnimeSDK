@@ -6,29 +6,29 @@ class GHNMNFHDCME;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define AONBKHCHAHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5A21F0)
-#define AONBKHCHAHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A2230)
-#define AONBKHCHAHK___C___ADJUSTEXECUTEORDERBYMODIFIERPRIORITY_B__23_0_OFFSET UNITYSDK_OFFSET(0x1C5A2240)
-#define AONBKHCHAHK___C___INITCHARACTERSKILL_B__73_0_OFFSET UNITYSDK_OFFSET(0x1C5A2290)
+#define AONBKHCHAHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D723A70)
+#define AONBKHCHAHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D723AB0)
+#define AONBKHCHAHK___C___ADJUSTEXECUTEORDERBYMODIFIERPRIORITY_B__23_0_OFFSET UNITYSDK_OFFSET(0x1D723AC0)
+#define AONBKHCHAHK___C___INITCHARACTERSKILL_B__73_0_OFFSET UNITYSDK_OFFSET(0x1D723B10)
 
-inline static constexpr unsigned int AONBKHCHAHK___c_TypeDefinitionIndex = 36430;
+inline static constexpr unsigned int AONBKHCHAHK___c_TypeDefinitionIndex = 37358;
 
 	class AONBKHCHAHK___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::GHNMNFHDCME*, ::System::Int32>** StaticGet___9__23_0()
+		{
+			return (::System::Func_2<::GHNMNFHDCME*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67170);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55930);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67178);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>** StaticGet___9__73_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55938);
-		}
-
-		static ::System::Func_2<::GHNMNFHDCME*, ::System::Int32>** StaticGet___9__23_0()
-		{
-			return (::System::Func_2<::GHNMNFHDCME*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55940);
+			return (::System::Func_2<::System::UInt32, ::RPG::GameCore::FixPoint>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x67180);
 		}
 
 		static ::System::Void _cctor()

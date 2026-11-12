@@ -7,13 +7,13 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Reflection { class PropertyInfo; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B877C50)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1B877D40)
-#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1B877D30)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA00C50)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GETVALUE_OFFSET UNITYSDK_OFFSET(0x1CA00D40)
+#define GOOGLE_PROTOBUF_REFLECTION_FIELDACCESSORBASE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1CA00D30)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 5540;
+	inline static constexpr unsigned int FieldAccessorBase_TypeDefinitionIndex = 5545;
 
 	class FieldAccessorBase : public ::System::Object
 	{

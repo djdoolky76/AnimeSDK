@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class FGAAFLAALBF;
 
-#define IGEGNAJFAJE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1640A600)
-#define IGEGNAJFAJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1640A700)
+#define IGEGNAJFAJE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x173BACA0)
+#define IGEGNAJFAJE_CTOR_OFFSET UNITYSDK_OFFSET(0x173BAD90)
 
-inline static constexpr unsigned int IGEGNAJFAJE_TypeDefinitionIndex = 63863;
+inline static constexpr unsigned int IGEGNAJFAJE_TypeDefinitionIndex = 65305;
 
 	class IGEGNAJFAJE : public ::System::Object
 	{

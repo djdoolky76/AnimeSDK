@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FourRotateVoxelLevelEnvConfig; }
 
-#define OMJDPLIKJEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DDC0)
+#define OMJDPLIKJEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5FCB0)
 
-inline static constexpr unsigned int OMJDPLIKJEM_TypeDefinitionIndex = 43209;
+inline static constexpr unsigned int OMJDPLIKJEM_TypeDefinitionIndex = 44190;
 
 	class OMJDPLIKJEM : public ::System::Object
 	{

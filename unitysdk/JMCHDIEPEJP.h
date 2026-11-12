@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class LevelDialogInfo; }
 namespace System { class String; }
 
-#define JMCHDIEPEJP_CTOR_OFFSET UNITYSDK_OFFSET(0xB25E5D0)
-#define JMCHDIEPEJP_GNCMNBHMIPE_OFFSET UNITYSDK_OFFSET(0xB25E560)
+#define JMCHDIEPEJP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA896F0)
+#define JMCHDIEPEJP_GNCMNBHMIPE_OFFSET UNITYSDK_OFFSET(0xBA89680)
 
-inline static constexpr unsigned int JMCHDIEPEJP_TypeDefinitionIndex = 65657;
+inline static constexpr unsigned int JMCHDIEPEJP_TypeDefinitionIndex = 67579;
 
 	class JMCHDIEPEJP : public ::System::Object
 	{

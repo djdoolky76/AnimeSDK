@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AIDefaultSelectorConfig; }
 namespace RPG::GameCore { class AISelector; }
 
-#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D339860)
-#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D339770)
+#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E548DD0)
+#define RPG_GAMECORE_AIDEFAULTSELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E548CE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIDefaultSelectorConfig_TypeDefinitionIndex = 15604;
+	inline static constexpr unsigned int AIDefaultSelectorConfig_TypeDefinitionIndex = 15762;
 
 	class AIDefaultSelectorConfig : public ::RPG::GameCore::JsonConfig
 	{

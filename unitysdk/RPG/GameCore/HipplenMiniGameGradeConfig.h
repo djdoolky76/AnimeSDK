@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HipplenMiniGameGradeConfig; }
 
-#define RPG_GAMECORE_HIPPLENMINIGAMEGRADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76E650)
-#define RPG_GAMECORE_HIPPLENMINIGAMEGRADECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76E520)
+#define RPG_GAMECORE_HIPPLENMINIGAMEGRADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E981F20)
+#define RPG_GAMECORE_HIPPLENMINIGAMEGRADECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E981DF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenMiniGameGradeConfig_TypeDefinitionIndex = 16786;
+	inline static constexpr unsigned int HipplenMiniGameGradeConfig_TypeDefinitionIndex = 16953;
 
 	class HipplenMiniGameGradeConfig : public ::RPG::GameCore::JsonConfig
 	{

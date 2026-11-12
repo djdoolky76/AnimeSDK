@@ -11,7 +11,7 @@ namespace RootMotion::FinalIK { class GroundingThread; }
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GrounderIKThreadSolver_TypeDefinitionIndex = 46003;
+	inline static constexpr unsigned int GrounderIKThreadSolver_TypeDefinitionIndex = 47032;
 
 	struct alignas(8) GrounderIKThreadSolver
 	{

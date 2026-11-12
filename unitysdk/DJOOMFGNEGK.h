@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define DJOOMFGNEGK_CTOR_OFFSET UNITYSDK_OFFSET(0xF24E8B0)
+#define DJOOMFGNEGK_CTOR_OFFSET UNITYSDK_OFFSET(0xFFD1830)
 
-inline static constexpr unsigned int DJOOMFGNEGK_TypeDefinitionIndex = 60930;
+inline static constexpr unsigned int DJOOMFGNEGK_TypeDefinitionIndex = 62306;
 
 	class DJOOMFGNEGK : public ::System::Object
 	{

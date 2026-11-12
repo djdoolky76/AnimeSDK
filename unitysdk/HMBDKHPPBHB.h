@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class HMBDKHPPBHB;
 namespace System { class String; }
 
-#define HMBDKHPPBHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC26F0)
-#define HMBDKHPPBHB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC25C0)
+#define HMBDKHPPBHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0A3320)
+#define HMBDKHPPBHB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0A31F0)
 
-inline static constexpr unsigned int HMBDKHPPBHB_TypeDefinitionIndex = 14426;
+inline static constexpr unsigned int HMBDKHPPBHB_TypeDefinitionIndex = 14583;
 
 	class HMBDKHPPBHB : public ::System::Object
 	{

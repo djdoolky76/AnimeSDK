@@ -4,21 +4,21 @@
 #include "unitysdk/RPG/Client/ReasonBool_1.h"
 #include "unitysdk/System/Object.h"
 
-#define APMCNIMPELC_AEHBPGLMDAH_OFFSET UNITYSDK_OFFSET(0x15BB4930)
-#define APMCNIMPELC_CCTOR_OFFSET UNITYSDK_OFFSET(0x15BB4980)
-#define APMCNIMPELC_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB4970)
-#define APMCNIMPELC_GET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x15BB48A0)
-#define APMCNIMPELC_IGLLMOMBFKI_OFFSET UNITYSDK_OFFSET(0x15BB48C0)
-#define APMCNIMPELC_SET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x15BB48B0)
+#define APMCNIMPELC_AEHBPGLMDAH_OFFSET UNITYSDK_OFFSET(0x16A155C0)
+#define APMCNIMPELC_CCTOR_OFFSET UNITYSDK_OFFSET(0x16A15610)
+#define APMCNIMPELC_CTOR_OFFSET UNITYSDK_OFFSET(0x16A15600)
+#define APMCNIMPELC_GET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x16A15530)
+#define APMCNIMPELC_IGLLMOMBFKI_OFFSET UNITYSDK_OFFSET(0x16A15550)
+#define APMCNIMPELC_SET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x16A15540)
 
-inline static constexpr unsigned int APMCNIMPELC_TypeDefinitionIndex = 73871;
+inline static constexpr unsigned int APMCNIMPELC_TypeDefinitionIndex = 75997;
 
 	class APMCNIMPELC : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>* StaticGet__StreamingNotPause_k__BackingField()
 		{
-			return (::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>*)UnitySDK::FromName("", "APMCNIMPELC")->GetStaticField(0x14D60);
+			return (::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::StreamingPauseReason>*)UnitySDK::FromName("", "APMCNIMPELC")->GetStaticField(0x14110);
 		}
 
 		::System::Void _ctor()

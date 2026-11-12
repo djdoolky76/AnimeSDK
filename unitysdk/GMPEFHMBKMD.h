@@ -4,10 +4,10 @@
 class OOLJJHMLHBH;
 namespace RPG::Client { class RogueTournBuildRefShareCodeDataItem; }
 
-#define GMPEFHMBKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x15ADCA30)
-#define GMPEFHMBKMD_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x15ADC850)
+#define GMPEFHMBKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x16A5F410)
+#define GMPEFHMBKMD_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x16A5F240)
 
-inline static constexpr unsigned int GMPEFHMBKMD_TypeDefinitionIndex = 67559;
+inline static constexpr unsigned int GMPEFHMBKMD_TypeDefinitionIndex = 69503;
 
 	class GMPEFHMBKMD : public ::System::Object
 	{

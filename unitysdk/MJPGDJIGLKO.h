@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MJPGDJIGLKO_TypeDefinitionIndex = 32368;
+inline static constexpr unsigned int MJPGDJIGLKO_TypeDefinitionIndex = 33281;
 
 	enum class MJPGDJIGLKO : ::System::Int32
 	{

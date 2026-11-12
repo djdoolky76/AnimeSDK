@@ -8,30 +8,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class Transform; }
 
-#define MFHDFHJOKJC_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8FE990)
-#define MFHDFHJOKJC_CHIJHGLHOND_OFFSET UNITYSDK_OFFSET(0xB8FB6F0)
-#define MFHDFHJOKJC_CTOR_OFFSET UNITYSDK_OFFSET(0xB8FE980)
-#define MFHDFHJOKJC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8FD060)
-#define MFHDFHJOKJC_EPNBAMOEILG_OFFSET UNITYSDK_OFFSET(0xB8FD0E0)
-#define MFHDFHJOKJC_FDCLPOKMFJM_OFFSET UNITYSDK_OFFSET(0xB8FD720)
-#define MFHDFHJOKJC_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xB8FD380)
-#define MFHDFHJOKJC_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xB8FDC40)
-#define MFHDFHJOKJC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB8FB670)
-#define MFHDFHJOKJC_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xB8FDFB0)
+#define MFHDFHJOKJC_CCTOR_OFFSET UNITYSDK_OFFSET(0xC1B0C20)
+#define MFHDFHJOKJC_CHIJHGLHOND_OFFSET UNITYSDK_OFFSET(0xC1AD980)
+#define MFHDFHJOKJC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B0C10)
+#define MFHDFHJOKJC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1AF2F0)
+#define MFHDFHJOKJC_EPNBAMOEILG_OFFSET UNITYSDK_OFFSET(0xC1AF370)
+#define MFHDFHJOKJC_FDCLPOKMFJM_OFFSET UNITYSDK_OFFSET(0xC1AF9B0)
+#define MFHDFHJOKJC_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xC1AF610)
+#define MFHDFHJOKJC_JPKHCNDFAEL_OFFSET UNITYSDK_OFFSET(0xC1AFED0)
+#define MFHDFHJOKJC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC1AD900)
+#define MFHDFHJOKJC_OIBPOPCFDHA_OFFSET UNITYSDK_OFFSET(0xC1B0240)
 
-inline static constexpr unsigned int MFHDFHJOKJC_TypeDefinitionIndex = 69865;
+inline static constexpr unsigned int MFHDFHJOKJC_TypeDefinitionIndex = 71824;
 
 	class MFHDFHJOKJC : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::RPG::Client::CharacterEffect* HAHKDGACPIL; // 0x18
-		::UnityEngine::Transform* FLDGNOBDJOO; // 0x20
-		::System::Collections::Generic::List_1<::System::Object*>* CFDDPCELHLG; // 0x28
-		::System::Collections::Generic::List_1<::System::Object*>* AINDJAFODHB; // 0x30
+		::UnityEngine::Transform* FLDGNOBDJOO; // 0x18
+		::RPG::Client::CharacterEffect* HAHKDGACPIL; // 0x20
+		::System::Collections::Generic::List_1<::System::Object*>* AINDJAFODHB; // 0x28
+		::System::Collections::Generic::List_1<::System::Object*>* CFDDPCELHLG; // 0x30
 		::System::Boolean LBPLJDLJOEO; // 0x38
 		static ::System::Int32* StaticGet_BMMGDMANOFE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "MFHDFHJOKJC")->GetStaticField(0x15990);
+			return (::System::Int32*)UnitySDK::FromName("", "MFHDFHJOKJC")->GetStaticField(0x15F30);
 		}
 
 		::System::Void _ctor()

@@ -3,22 +3,22 @@
 #include "unitysdk/MiHoYo/SDK/UIElement.h"
 namespace MiHoYo::SDK { class UIManager; }
 
-#define MIHOYO_SDK_LOADINGWHEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE95B40)
-#define MIHOYO_SDK_LOADINGWHEEL_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BE95A40)
-#define MIHOYO_SDK_LOADINGWHEEL_HIDE_OFFSET UNITYSDK_OFFSET(0x1BE95A00)
-#define MIHOYO_SDK_LOADINGWHEEL_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1BE957E0)
-#define MIHOYO_SDK_LOADINGWHEEL_SHOW_OFFSET UNITYSDK_OFFSET(0x1BE958E0)
+#define MIHOYO_SDK_LOADINGWHEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01DDE0)
+#define MIHOYO_SDK_LOADINGWHEEL_HIDEPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1D01DCE0)
+#define MIHOYO_SDK_LOADINGWHEEL_HIDE_OFFSET UNITYSDK_OFFSET(0x1D01DCA0)
+#define MIHOYO_SDK_LOADINGWHEEL_SHOWPLUGINUI_OFFSET UNITYSDK_OFFSET(0x1D01DA80)
+#define MIHOYO_SDK_LOADINGWHEEL_SHOW_OFFSET UNITYSDK_OFFSET(0x1D01DB80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int LoadingWheel_TypeDefinitionIndex = 8247;
+	inline static constexpr unsigned int LoadingWheel_TypeDefinitionIndex = 8256;
 
 	class LoadingWheel : public ::MiHoYo::SDK::UIElement
 	{
 	public:
 		static ::MiHoYo::SDK::UIManager** StaticGet_manager()
 		{
-			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "LoadingWheel")->GetStaticField(0x10860);
+			return (::MiHoYo::SDK::UIManager**)UnitySDK::FromName("MiHoYo.SDK", "LoadingWheel")->GetStaticField(0x9370);
 		}
 
 		// static const ::System::String* PrefabName; // 0x0

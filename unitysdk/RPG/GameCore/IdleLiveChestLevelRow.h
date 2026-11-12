@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveChestLevelRow; }
 
-#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7794F0)
-#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7793D0)
+#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98CC20)
+#define RPG_GAMECORE_IDLELIVECHESTLEVELROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98CB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveChestLevelRow_TypeDefinitionIndex = 11746;
+	inline static constexpr unsigned int IdleLiveChestLevelRow_TypeDefinitionIndex = 11803;
 
 	class IdleLiveChestLevelRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Level; // 0x10
-		::System::UInt32 ExpUpLimit; // 0x14
+		::System::UInt32 ExpUpLimit; // 0x10
+		::System::UInt32 Level; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVECHESTLEVELROW_CTOR_OFFSET))(this);

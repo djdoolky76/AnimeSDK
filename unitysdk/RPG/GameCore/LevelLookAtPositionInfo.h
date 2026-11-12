@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelLookAtPositionInfo; }
 
-#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7B2A50)
-#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7B2900)
+#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F5830)
+#define RPG_GAMECORE_LEVELLOOKATPOSITIONINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9EB1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelLookAtPositionInfo_TypeDefinitionIndex = 17359;
+	inline static constexpr unsigned int LevelLookAtPositionInfo_TypeDefinitionIndex = 17527;
 
 	class LevelLookAtPositionInfo : public ::RPG::GameCore::JsonConfig
 	{

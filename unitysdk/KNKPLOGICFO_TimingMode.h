@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KNKPLOGICFO_TimingMode_TypeDefinitionIndex = 35326;
+inline static constexpr unsigned int KNKPLOGICFO_TimingMode_TypeDefinitionIndex = 36254;
 
 	enum class KNKPLOGICFO_TimingMode : ::System::Int32
 	{

@@ -5,9 +5,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OGBCFPAJBMN_HEGGFDLFOBB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE4F570)
+#define OGBCFPAJBMN_HEGGFDLFOBB_CTOR_OFFSET UNITYSDK_OFFSET(0xC709540)
 
-inline static constexpr unsigned int OGBCFPAJBMN_HEGGFDLFOBB_TypeDefinitionIndex = 62162;
+inline static constexpr unsigned int OGBCFPAJBMN_HEGGFDLFOBB_TypeDefinitionIndex = 63575;
 
 	class OGBCFPAJBMN_HEGGFDLFOBB : public ::System::Object
 	{

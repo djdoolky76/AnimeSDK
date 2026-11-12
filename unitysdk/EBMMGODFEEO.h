@@ -11,39 +11,39 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define EBMMGODFEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x12D030B0)
-#define EBMMGODFEEO_GKJIDICCMKK_OFFSET UNITYSDK_OFFSET(0x12D03780)
-#define EBMMGODFEEO_HBNICBEJJFJ_OFFSET UNITYSDK_OFFSET(0x12D03340)
-#define EBMMGODFEEO_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x12D036E0)
-#define EBMMGODFEEO_HOEPGHHFBPE_OFFSET UNITYSDK_OFFSET(0x12D038B0)
-#define EBMMGODFEEO_IECIAPPANHI_OFFSET UNITYSDK_OFFSET(0x12D03850)
-#define EBMMGODFEEO_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x12D030C0)
-#define EBMMGODFEEO_MEBCCPMCFMF_OFFSET UNITYSDK_OFFSET(0x12D032E0)
-#define EBMMGODFEEO_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x12D037D0)
+#define EBMMGODFEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x13AB4300)
+#define EBMMGODFEEO_GKJIDICCMKK_OFFSET UNITYSDK_OFFSET(0x13AB49E0)
+#define EBMMGODFEEO_HBNICBEJJFJ_OFFSET UNITYSDK_OFFSET(0x13AB45A0)
+#define EBMMGODFEEO_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x13AB4940)
+#define EBMMGODFEEO_HOEPGHHFBPE_OFFSET UNITYSDK_OFFSET(0x13AB4B10)
+#define EBMMGODFEEO_IECIAPPANHI_OFFSET UNITYSDK_OFFSET(0x13AB4AB0)
+#define EBMMGODFEEO_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x13AB4320)
+#define EBMMGODFEEO_MEBCCPMCFMF_OFFSET UNITYSDK_OFFSET(0x13AB4540)
+#define EBMMGODFEEO_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0x13AB4A30)
 
-inline static constexpr unsigned int EBMMGODFEEO_TypeDefinitionIndex = 48492;
+inline static constexpr unsigned int EBMMGODFEEO_TypeDefinitionIndex = 49533;
 
 	class EBMMGODFEEO : public ::System::Object
 	{
 	public:
-		::System::String* DKMKBPLKNDC; // 0x10
-		::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x18
-		::UnityEngine::GameObject* IHOJMGFDIHL; // 0x20
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* IEFMDBOGJFA; // 0x28
-		::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* NOLDNHOCOLH; // 0x30
-		::System::String* FEBCMBILJMP; // 0x38
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* DAMHMJPFPDN; // 0x40
-		::UnityEngine::Events::UnityAction* FMNFMLKMHHL; // 0x48
-		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* MCBALJMOIKL; // 0x50
-		::System::Double GKBFJPGEIJK; // 0x58
-		::System::UInt32 OOFOCLJKNCM; // 0x60
-		::System::Single AJKNDBOBHFK; // 0x64
-		::EBMMGODFEEO_DirectorState MEPFOEEGBEA; // 0x68
-		::System::Int32 PHFMCACHFIJ; // 0x6C
-		::System::UInt32 BMELGCPFLNA; // 0x70
+		::System::String* FEBCMBILJMP; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* DAMHMJPFPDN; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* IEFMDBOGJFA; // 0x20
+		::UnityEngine::Playables::PlayableDirector* LDALFGDPLLF; // 0x28
+		::System::String* DKMKBPLKNDC; // 0x30
+		::System::Action_1<::UnityEngine::Playables::PlayableDirector*>* NOLDNHOCOLH; // 0x38
+		::UnityEngine::Events::UnityAction* FMNFMLKMHHL; // 0x40
+		::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* MCBALJMOIKL; // 0x48
+		::UnityEngine::GameObject* IHOJMGFDIHL; // 0x50
+		::System::Single AJKNDBOBHFK; // 0x58
+		::System::Int32 PHFMCACHFIJ; // 0x5C
+		::System::UInt32 BMELGCPFLNA; // 0x60
 		::System::Byte _padding0[0x4];
-		::System::Double CKGKCODHELK; // 0x78
-		::System::Double JNJEDNMKCKI; // 0x80
+		::System::Double CKGKCODHELK; // 0x68
+		::EBMMGODFEEO_DirectorState MEPFOEEGBEA; // 0x70
+		::System::UInt32 OOFOCLJKNCM; // 0x74
+		::System::Double JNJEDNMKCKI; // 0x78
+		::System::Double GKBFJPGEIJK; // 0x80
 		::System::Void _ctor(::UnityEngine::Playables::PlayableDirector* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + EBMMGODFEEO_CTOR_OFFSET))(this, a1);

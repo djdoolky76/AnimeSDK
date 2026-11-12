@@ -9,45 +9,45 @@ namespace MiHoYo::SDK { class SecurityTunnel_OnLogVerboseAction; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGERRORWITHCODE_OFFSET UNITYSDK_OFFSET(0xB04BDD0)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGERROR_OFFSET UNITYSDK_OFFSET(0xB04BC70)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0xB04BB10)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGVERBOSE_OFFSET UNITYSDK_OFFSET(0xB04B9B0)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB04C030)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ERROR_1_OFFSET UNITYSDK_OFFSET(0xB04BF60)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ERROR_OFFSET UNITYSDK_OFFSET(0xB03B300)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_MESSAGE_OFFSET UNITYSDK_OFFSET(0xB03A750)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGERRORWITHCODE_OFFSET UNITYSDK_OFFSET(0xB04BE80)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGERROR_OFFSET UNITYSDK_OFFSET(0xB04BD20)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0xB04BBC0)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGVERBOSE_OFFSET UNITYSDK_OFFSET(0xB04BA60)
-#define MIHOYO_SDK_SECURITYTUNNEL_LOG_VERBOSE_OFFSET UNITYSDK_OFFSET(0xB03D180)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGERRORWITHCODE_OFFSET UNITYSDK_OFFSET(0xB6ACBC0)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGERROR_OFFSET UNITYSDK_OFFSET(0xB6ACA60)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0xB6AC900)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ADD_ONLOGVERBOSE_OFFSET UNITYSDK_OFFSET(0xB6AC7A0)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6ACE20)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ERROR_1_OFFSET UNITYSDK_OFFSET(0xB6ACD50)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_ERROR_OFFSET UNITYSDK_OFFSET(0xB69C1E0)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_MESSAGE_OFFSET UNITYSDK_OFFSET(0xB69B640)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGERRORWITHCODE_OFFSET UNITYSDK_OFFSET(0xB6ACC70)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGERROR_OFFSET UNITYSDK_OFFSET(0xB6ACB10)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGMESSAGE_OFFSET UNITYSDK_OFFSET(0xB6AC9B0)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_REMOVE_ONLOGVERBOSE_OFFSET UNITYSDK_OFFSET(0xB6AC850)
+#define MIHOYO_SDK_SECURITYTUNNEL_LOG_VERBOSE_OFFSET UNITYSDK_OFFSET(0xB69DF80)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_Log_TypeDefinitionIndex = 46406;
+	inline static constexpr unsigned int SecurityTunnel_Log_TypeDefinitionIndex = 47434;
 
 	class SecurityTunnel_Log : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::SecurityTunnel_OnLogErrorWithCodeAction** StaticGet_OnLogErrorWithCode()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_OnLogErrorWithCodeAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x33AC0);
-		}
-
 		static ::MiHoYo::SDK::SecurityTunnel_OnLogMessageAction** StaticGet_OnLogMessage()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_OnLogMessageAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x33AC8);
-		}
-
-		static ::MiHoYo::SDK::SecurityTunnel_OnLogVerboseAction** StaticGet_OnLogVerbose()
-		{
-			return (::MiHoYo::SDK::SecurityTunnel_OnLogVerboseAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x33AD0);
+			return (::MiHoYo::SDK::SecurityTunnel_OnLogMessageAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x2B4E0);
 		}
 
 		static ::MiHoYo::SDK::SecurityTunnel_OnLogErrorAction** StaticGet_OnLogError()
 		{
-			return (::MiHoYo::SDK::SecurityTunnel_OnLogErrorAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x33AD8);
+			return (::MiHoYo::SDK::SecurityTunnel_OnLogErrorAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x2B4E8);
+		}
+
+		static ::MiHoYo::SDK::SecurityTunnel_OnLogErrorWithCodeAction** StaticGet_OnLogErrorWithCode()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_OnLogErrorWithCodeAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x2B4F0);
+		}
+
+		static ::MiHoYo::SDK::SecurityTunnel_OnLogVerboseAction** StaticGet_OnLogVerbose()
+		{
+			return (::MiHoYo::SDK::SecurityTunnel_OnLogVerboseAction**)UnitySDK::FromName("MiHoYo.SDK", "Log")->GetStaticField(0x2B4F8);
 		}
 
 		::System::Void _ctor()

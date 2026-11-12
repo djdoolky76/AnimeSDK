@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleCollegeAimConfigRow; }
 
-#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D453E90)
-#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D453C40)
+#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6638D0)
+#define RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E663680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleCollegeAimConfigRow_TypeDefinitionIndex = 12842;
+	inline static constexpr unsigned int BattleCollegeAimConfigRow_TypeDefinitionIndex = 12914;
 
 	class BattleCollegeAimConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID AimDesc; // 0x10
-		::RPG::Client::TextID AimTitle; // 0x20
-		::System::UInt32 AimProgress; // 0x30
-		::System::UInt32 AimID; // 0x34
+		::RPG::Client::TextID AimTitle; // 0x10
+		::System::UInt32 AimID; // 0x20
+		::System::UInt32 AimProgress; // 0x24
+		::RPG::Client::TextID AimDesc; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BATTLECOLLEGEAIMCONFIGROW_CTOR_OFFSET))(this);

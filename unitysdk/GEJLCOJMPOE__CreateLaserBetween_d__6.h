@@ -6,30 +6,29 @@ class GEJLCOJMPOE;
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
-#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_CTOR_OFFSET UNITYSDK_OFFSET(0x159DBFF0)
-#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x159DDB50)
-#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x159DE1F0)
-#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x159DE250)
-#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x159DE200)
-#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159DDB40)
+#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_CTOR_OFFSET UNITYSDK_OFFSET(0x169150D0)
+#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x16916C20)
+#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x16917280)
+#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x169172E0)
+#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x16917290)
+#define GEJLCOJMPOE__CREATELASERBETWEEN_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16916C10)
 
-inline static constexpr unsigned int GEJLCOJMPOE__CreateLaserBetween_d__6_TypeDefinitionIndex = 78541;
+inline static constexpr unsigned int GEJLCOJMPOE__CreateLaserBetween_d__6_TypeDefinitionIndex = 81276;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class GEJLCOJMPOE__CreateLaserBetween_d__6 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::UnityEngine::GameObject* startGameObject; // 0x18
-		::GEJLCOJMPOE* __4__this; // 0x20
-		::System::Single _waitProtectTime_5__4; // 0x28
-		::System::Boolean needCreateNewEffect; // 0x2C
-		::System::Byte _padding0[0x3];
-		::System::Single _currentMoveTime_5__3; // 0x30
-		::System::Single _moveDuration_5__2; // 0x34
-		::UnityEngine::Vector3 position1; // 0x38
-		::System::Int32 __1__state; // 0x44
-		::UnityEngine::Vector3 position2; // 0x48
+		::UnityEngine::GameObject* startGameObject; // 0x10
+		::GEJLCOJMPOE* __4__this; // 0x18
+		::System::Object* __2__current; // 0x20
+		::System::Single _currentMoveTime_5__3; // 0x28
+		::System::Single _moveDuration_5__2; // 0x2C
+		::System::Single _waitProtectTime_5__4; // 0x30
+		::UnityEngine::Vector3 position1; // 0x34
+		::System::Int32 __1__state; // 0x40
+		::UnityEngine::Vector3 position2; // 0x44
+		::System::Boolean needCreateNewEffect; // 0x50
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + GEJLCOJMPOE__CREATELASERBETWEEN_D__6_CTOR_OFFSET))(this, a1);

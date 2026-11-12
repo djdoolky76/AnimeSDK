@@ -5,30 +5,30 @@
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PJFJMEEIOCO_CMLAFGNEMKN_OFFSET UNITYSDK_OFFSET(0xC285200)
-#define PJFJMEEIOCO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2845B0)
-#define PJFJMEEIOCO_GET_FINISHTIMESECONDS_OFFSET UNITYSDK_OFFSET(0xC2851B0)
-#define PJFJMEEIOCO_GET_ISPLAYERNEWRECORD_OFFSET UNITYSDK_OFFSET(0xC2851C0)
-#define PJFJMEEIOCO_GET_MATCHID_OFFSET UNITYSDK_OFFSET(0xC285190)
-#define PJFJMEEIOCO_GET_PLAYERRANK_OFFSET UNITYSDK_OFFSET(0xC2851A0)
-#define PJFJMEEIOCO_GET_RACERANKING_OFFSET UNITYSDK_OFFSET(0xC2851F0)
-#define PJFJMEEIOCO_GET_RANKFINISHTIMESECONDS_OFFSET UNITYSDK_OFFSET(0xC2851E0)
-#define PJFJMEEIOCO_KEKCHEBMIGI_1_OFFSET UNITYSDK_OFFSET(0xC284BB0)
-#define PJFJMEEIOCO_KEKCHEBMIGI_OFFSET UNITYSDK_OFFSET(0xC2849C0)
-#define PJFJMEEIOCO_SET_ISPLAYERNEWRECORD_OFFSET UNITYSDK_OFFSET(0xC2851D0)
+#define PJFJMEEIOCO_CMLAFGNEMKN_OFFSET UNITYSDK_OFFSET(0xCBACB00)
+#define PJFJMEEIOCO_CTOR_OFFSET UNITYSDK_OFFSET(0xCBAC490)
+#define PJFJMEEIOCO_GET_FINISHTIMESECONDS_OFFSET UNITYSDK_OFFSET(0xCBAC8C0)
+#define PJFJMEEIOCO_GET_ISPLAYERNEWRECORD_OFFSET UNITYSDK_OFFSET(0xCBAC8D0)
+#define PJFJMEEIOCO_GET_MATCHID_OFFSET UNITYSDK_OFFSET(0xCBAC8A0)
+#define PJFJMEEIOCO_GET_PLAYERRANK_OFFSET UNITYSDK_OFFSET(0xCBAC8B0)
+#define PJFJMEEIOCO_GET_RACERANKING_OFFSET UNITYSDK_OFFSET(0xCBAC900)
+#define PJFJMEEIOCO_GET_RANKFINISHTIMESECONDS_OFFSET UNITYSDK_OFFSET(0xCBAC8F0)
+#define PJFJMEEIOCO_KEKCHEBMIGI_1_OFFSET UNITYSDK_OFFSET(0xCBACBA0)
+#define PJFJMEEIOCO_KEKCHEBMIGI_OFFSET UNITYSDK_OFFSET(0xCBAC910)
+#define PJFJMEEIOCO_SET_ISPLAYERNEWRECORD_OFFSET UNITYSDK_OFFSET(0xCBAC8E0)
 
-inline static constexpr unsigned int PJFJMEEIOCO_TypeDefinitionIndex = 81943;
+inline static constexpr unsigned int PJFJMEEIOCO_TypeDefinitionIndex = 84724;
 
 	class PJFJMEEIOCO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::GNEEDEDGCOI>* _RaceRanking_k__BackingField; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::System::Single>* _RankFinishTimeSeconds_k__BackingField; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::System::Single>* _RankFinishTimeSeconds_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::GNEEDEDGCOI>* _RaceRanking_k__BackingField; // 0x18
 		::System::Single _FinishTimeSeconds_k__BackingField; // 0x20
-		::System::Boolean _IsPlayerNewRecord_k__BackingField; // 0x24
+		::System::Int32 _PlayerRank_k__BackingField; // 0x24
+		::System::Boolean _IsPlayerNewRecord_k__BackingField; // 0x28
 		::System::Byte _padding0[0x3];
-		::System::UInt32 _MatchId_k__BackingField; // 0x28
-		::System::Int32 _PlayerRank_k__BackingField; // 0x2C
+		::System::UInt32 _MatchId_k__BackingField; // 0x2C
 		// static const ::System::Object KAJAPKFEADN; // 0x0
 		// static const ::System::Object HILJFNAIEMD; // 0x0
 		::System::Void _ctor(::System::UInt32 a1, ::System::Int32 a2, ::System::Single a3, ::System::Collections::Generic::List_1<::GNEEDEDGCOI>* a4, ::System::Collections::Generic::IReadOnlyList_1<::System::Single>* a5)

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NADDHEILBBN_TypeDefinitionIndex = 30992;
+inline static constexpr unsigned int NADDHEILBBN_TypeDefinitionIndex = 31905;
 
 	enum class NADDHEILBBN : ::System::Int32
 	{

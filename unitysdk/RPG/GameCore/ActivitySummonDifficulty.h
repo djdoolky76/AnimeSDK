@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivitySummonDifficulty_TypeDefinitionIndex = 12405;
+	inline static constexpr unsigned int ActivitySummonDifficulty_TypeDefinitionIndex = 12472;
 
 	enum class ActivitySummonDifficulty : ::System::Int32
 	{

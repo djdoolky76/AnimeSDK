@@ -4,18 +4,18 @@
 class JLBDIAMCOME;
 namespace System { class Object; }
 
-#define JLBDIAMCOME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E774160)
-#define JLBDIAMCOME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E774190)
-#define JLBDIAMCOME___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1E7741A0)
+#define JLBDIAMCOME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAA2970)
+#define JLBDIAMCOME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAA29A0)
+#define JLBDIAMCOME___C___CCTOR_B__36_0_OFFSET UNITYSDK_OFFSET(0x1FAA29B0)
 
-inline static constexpr unsigned int JLBDIAMCOME___c_TypeDefinitionIndex = 33909;
+inline static constexpr unsigned int JLBDIAMCOME___c_TypeDefinitionIndex = 34824;
 
 	class JLBDIAMCOME___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66420);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x520E0);
 		}
 
 		static ::System::Void _cctor()

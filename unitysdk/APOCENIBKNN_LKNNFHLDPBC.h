@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 class IPFLLDFCGIE;
 
-inline static constexpr unsigned int APOCENIBKNN_LKNNFHLDPBC_TypeDefinitionIndex = 50002;
+inline static constexpr unsigned int APOCENIBKNN_LKNNFHLDPBC_TypeDefinitionIndex = 51050;
 
 	class APOCENIBKNN_LKNNFHLDPBC : public ::System::Object
 	{

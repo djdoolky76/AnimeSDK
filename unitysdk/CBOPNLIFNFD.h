@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ST_ByHasPatrolPath; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CBOPNLIFNFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC4B5EC0)
-#define CBOPNLIFNFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4B5EF0)
+#define CBOPNLIFNFD_CTOR_OFFSET UNITYSDK_OFFSET(0xCE1ECD0)
+#define CBOPNLIFNFD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCE1ED00)
 
-inline static constexpr unsigned int CBOPNLIFNFD_TypeDefinitionIndex = 52196;
+inline static constexpr unsigned int CBOPNLIFNFD_TypeDefinitionIndex = 53301;
 
 	class CBOPNLIFNFD
 	{

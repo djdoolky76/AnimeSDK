@@ -5,9 +5,9 @@ class LPNPMKNMMOK;
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define KPHINJGCEAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB5BDD40)
+#define KPHINJGCEAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE11C80)
 
-inline static constexpr unsigned int KPHINJGCEAO_TypeDefinitionIndex = 56215;
+inline static constexpr unsigned int KPHINJGCEAO_TypeDefinitionIndex = 57427;
 
 	struct alignas(8) KPHINJGCEAO
 	{

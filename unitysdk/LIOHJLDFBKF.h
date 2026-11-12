@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LIOHJLDFBKF_TypeDefinitionIndex = 42003;
+inline static constexpr unsigned int LIOHJLDFBKF_TypeDefinitionIndex = 42978;
 
 	class LIOHJLDFBKF
 	{

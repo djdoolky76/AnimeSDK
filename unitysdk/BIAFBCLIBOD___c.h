@@ -4,18 +4,18 @@
 class BIAFBCLIBOD;
 namespace System { class Object; }
 
-#define BIAFBCLIBOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF020)
-#define BIAFBCLIBOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFF050)
-#define BIAFBCLIBOD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DDFF060)
+#define BIAFBCLIBOD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F00D690)
+#define BIAFBCLIBOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F00D6D0)
+#define BIAFBCLIBOD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F00D6E0)
 
-inline static constexpr unsigned int BIAFBCLIBOD___c_TypeDefinitionIndex = 30518;
+inline static constexpr unsigned int BIAFBCLIBOD___c_TypeDefinitionIndex = 31424;
 
 	class BIAFBCLIBOD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47C80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x498C0);
 		}
 
 		static ::System::Void _cctor()

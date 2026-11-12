@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int StateTreeService_1_TypeDefinitionIndex = 76534;
+	inline static constexpr unsigned int StateTreeService_1_TypeDefinitionIndex = 78865;
 
 	template <typename T>
 	class StateTreeService_1 : public ::System::Object

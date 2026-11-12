@@ -4,18 +4,18 @@
 class NAGIJNLDDEA;
 namespace System { class Object; }
 
-#define NAGIJNLDDEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAC1F30)
-#define NAGIJNLDDEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC1F70)
-#define NAGIJNLDDEA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAC1F80)
+#define NAGIJNLDDEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDFD860)
+#define NAGIJNLDDEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDFD8A0)
+#define NAGIJNLDDEA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FDFD8B0)
 
-inline static constexpr unsigned int NAGIJNLDDEA___c_TypeDefinitionIndex = 28257;
+inline static constexpr unsigned int NAGIJNLDDEA___c_TypeDefinitionIndex = 28847;
 
 	class NAGIJNLDDEA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C590);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66CE0);
 		}
 
 		static ::System::Void _cctor()

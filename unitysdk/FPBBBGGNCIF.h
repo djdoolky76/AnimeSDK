@@ -17,7 +17,7 @@ namespace UnityEngine { class Camera; }
 #define FPBBBGGNCIF_SET_STAGECRAFTENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x9500)
 #define FPBBBGGNCIF_SET_UI3DCAMERA_OFFSET UNITYSDK_OFFSET(0x94E0)
 
-inline static constexpr unsigned int FPBBBGGNCIF_TypeDefinitionIndex = 44236;
+inline static constexpr unsigned int FPBBBGGNCIF_TypeDefinitionIndex = 45311;
 
 	struct alignas(8) FPBBBGGNCIF
 	{

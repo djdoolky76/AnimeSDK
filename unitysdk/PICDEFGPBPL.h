@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByBattleMissionTalkFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PICDEFGPBPL_CTOR_OFFSET UNITYSDK_OFFSET(0xC25CBA0)
-#define PICDEFGPBPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC25CBD0)
+#define PICDEFGPBPL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB832F0)
+#define PICDEFGPBPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCB83320)
 
-inline static constexpr unsigned int PICDEFGPBPL_TypeDefinitionIndex = 57964;
+inline static constexpr unsigned int PICDEFGPBPL_TypeDefinitionIndex = 59202;
 
 	class PICDEFGPBPL
 	{

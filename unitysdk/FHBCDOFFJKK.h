@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FHBCDOFFJKK_TypeDefinitionIndex = 25263;
+inline static constexpr unsigned int FHBCDOFFJKK_TypeDefinitionIndex = 25741;
 
 	enum class FHBCDOFFJKK : ::System::Int32
 	{

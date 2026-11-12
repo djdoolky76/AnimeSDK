@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class IEODIJJGAGM;
 
-#define IPAFDJKBJEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1651D2B0)
+#define IPAFDJKBJEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB851930)
 
-inline static constexpr unsigned int IPAFDJKBJEO_TypeDefinitionIndex = 80541;
+inline static constexpr unsigned int IPAFDJKBJEO_TypeDefinitionIndex = 83321;
 
 	class IPAFDJKBJEO : public ::System::Object
 	{

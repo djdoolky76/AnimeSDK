@@ -7,16 +7,16 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FKAKCEHMOCA_CTOR_OFFSET UNITYSDK_OFFSET(0x157E3D80)
-#define FKAKCEHMOCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157E3E60)
+#define FKAKCEHMOCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1674F890)
+#define FKAKCEHMOCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1674F970)
 
-inline static constexpr unsigned int FKAKCEHMOCA_TypeDefinitionIndex = 55410;
+inline static constexpr unsigned int FKAKCEHMOCA_TypeDefinitionIndex = 56595;
 
 	class FKAKCEHMOCA
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarBaseType, ::System::Int32>* LGNPHEHBGHK; // 0x28
-		::System::Collections::Generic::List_1<::RPG::GameCore::AvatarBaseType>* EGNGOCIBNPJ; // 0x30
+		::System::Collections::Generic::List_1<::RPG::GameCore::AvatarBaseType>* EGNGOCIBNPJ; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarBaseType, ::System::Int32>* LGNPHEHBGHK; // 0x30
 		::RPG::GameCore::StringHash DIJHOMCLPEG; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetDynamicValueByMostAvatarBaseTypeMemberCount* a2)
 		{

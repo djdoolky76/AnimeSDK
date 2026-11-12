@@ -8,13 +8,13 @@ namespace RPG::GameCore { class LoopMoveObject; }
 namespace RPG::GameCore { class TriggerLoopScene; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERLOOPSCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC54280)
-#define RPG_GAMECORE_TRIGGERLOOPSCENE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC542B0)
-#define RPG_GAMECORE_TRIGGERLOOPSCENE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC54230)
+#define RPG_GAMECORE_TRIGGERLOOPSCENE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE68490)
+#define RPG_GAMECORE_TRIGGERLOOPSCENE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE684C0)
+#define RPG_GAMECORE_TRIGGERLOOPSCENE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE68440)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerLoopScene_TypeDefinitionIndex = 20430;
+	inline static constexpr unsigned int TriggerLoopScene_TypeDefinitionIndex = 20765;
 
 	class TriggerLoopScene : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define EPHNBOCNHDD_CLEAR_OFFSET UNITYSDK_OFFSET(0x155D4DD0)
-#define EPHNBOCNHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x155D4E20)
+#define EPHNBOCNHDD_CLEAR_OFFSET UNITYSDK_OFFSET(0x164E7AD0)
+#define EPHNBOCNHDD_CTOR_OFFSET UNITYSDK_OFFSET(0x164E7B20)
 
-inline static constexpr unsigned int EPHNBOCNHDD_TypeDefinitionIndex = 55518;
+inline static constexpr unsigned int EPHNBOCNHDD_TypeDefinitionIndex = 56710;
 
 	class EPHNBOCNHDD : public ::System::Object
 	{

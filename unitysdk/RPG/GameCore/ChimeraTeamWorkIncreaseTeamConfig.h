@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraTeamWorkIncreaseTeamConfig; }
 
-#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B0740)
-#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B0700)
+#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C0750)
+#define RPG_GAMECORE_CHIMERATEAMWORKINCREASETEAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7C0710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTeamWorkIncreaseTeamConfig_TypeDefinitionIndex = 15889;
+	inline static constexpr unsigned int ChimeraTeamWorkIncreaseTeamConfig_TypeDefinitionIndex = 16047;
 
 	class ChimeraTeamWorkIncreaseTeamConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -2,44 +2,44 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HDG_SETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF3A100)
-#define HDG_SETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xAF3A0F0)
+#define HDG_SETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0xB59B190)
+#define HDG_SETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0xB59B180)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 46946;
+	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 47974;
 
 	class Settings : public ::System::Object
 	{
 	public:
+		static ::System::Single* StaticGet_GAMEOBJECT_UPDATE_TIME()
+		{
+			return (::System::Single*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x4780);
+		}
+
 		static ::System::Single* StaticGet_COMPONENT_UPDATE_TIME()
 		{
-			return (::System::Single*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6180);
+			return (::System::Single*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x4784);
 		}
 
 		static ::System::Int32* StaticGet_BROADCAST_TIME()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6184);
-		}
-
-		static ::System::Single* StaticGet_GAMEOBJECT_UPDATE_TIME()
-		{
-			return (::System::Single*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6188);
-		}
-
-		static ::System::Int32* StaticGet_SERVER_PORT_MASK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x618C);
-		}
-
-		static ::System::Int32* StaticGet_DEFAULT_BROADCAST_PORT()
-		{
-			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6190);
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x4788);
 		}
 
 		static ::System::Int32* StaticGet_DEFAULT_SERVER_PORT()
 		{
-			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x6194);
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x478C);
+		}
+
+		static ::System::Int32* StaticGet_SERVER_PORT_MASK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x4790);
+		}
+
+		static ::System::Int32* StaticGet_DEFAULT_BROADCAST_PORT()
+		{
+			return (::System::Int32*)UnitySDK::FromName("Hdg", "Settings")->GetStaticField(0x4794);
 		}
 
 		::System::Void _ctor()

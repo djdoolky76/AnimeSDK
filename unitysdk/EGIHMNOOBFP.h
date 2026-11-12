@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareHeartDialScriptStep; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGIHMNOOBFP_CTOR_OFFSET UNITYSDK_OFFSET(0x14519D80)
-#define EGIHMNOOBFP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x14519DB0)
+#define EGIHMNOOBFP_CTOR_OFFSET UNITYSDK_OFFSET(0x152F0420)
+#define EGIHMNOOBFP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x152F0450)
 
-inline static constexpr unsigned int EGIHMNOOBFP_TypeDefinitionIndex = 52570;
+inline static constexpr unsigned int EGIHMNOOBFP_TypeDefinitionIndex = 53676;
 
 	class EGIHMNOOBFP
 	{

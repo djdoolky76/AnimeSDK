@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetTeamRootOffset; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FHPKLEDCLHI_CTOR_OFFSET UNITYSDK_OFFSET(0x15794CF0)
-#define FHPKLEDCLHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15794D00)
-#define FHPKLEDCLHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15794D40)
-#define FHPKLEDCLHI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15795440)
-#define FHPKLEDCLHI_TICK_OFFSET UNITYSDK_OFFSET(0x15795490)
+#define FHPKLEDCLHI_CTOR_OFFSET UNITYSDK_OFFSET(0x166B5DD0)
+#define FHPKLEDCLHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x166B5DE0)
+#define FHPKLEDCLHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166B5E20)
+#define FHPKLEDCLHI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x166B6520)
+#define FHPKLEDCLHI_TICK_OFFSET UNITYSDK_OFFSET(0x166B6570)
 
-inline static constexpr unsigned int FHPKLEDCLHI_TypeDefinitionIndex = 56434;
+inline static constexpr unsigned int FHPKLEDCLHI_TypeDefinitionIndex = 57652;
 
 	class FHPKLEDCLHI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetTeamRootOffset* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetTeamRootOffset* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetTeamRootOffset* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetTeamRootOffset*))((::PBYTE)hIl2Cpp + FHPKLEDCLHI_CTOR_OFFSET))(this, a1, a2);

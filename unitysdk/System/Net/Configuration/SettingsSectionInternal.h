@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace System::Net::Configuration { class SettingsSectionInternal; }
 
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F021F00)
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F021EF0)
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_IPV6ENABLED_OFFSET UNITYSDK_OFFSET(0x1F021EE0)
-#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_SECTION_OFFSET UNITYSDK_OFFSET(0x1F021EB0)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_CCTOR_OFFSET UNITYSDK_OFFSET(0x202D1710)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_CTOR_OFFSET UNITYSDK_OFFSET(0x202D1700)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_IPV6ENABLED_OFFSET UNITYSDK_OFFSET(0x202D16F0)
+#define SYSTEM_NET_CONFIGURATION_SETTINGSSECTIONINTERNAL_GET_SECTION_OFFSET UNITYSDK_OFFSET(0x202D16C0)
 
 namespace System::Net::Configuration
 {
@@ -20,7 +20,7 @@ namespace System::Net::Configuration
 		::System::Boolean HttpListenerUnescapeRequestUrl; // 0x14
 		static ::System::Net::Configuration::SettingsSectionInternal** StaticGet_instance()
 		{
-			return (::System::Net::Configuration::SettingsSectionInternal**)UnitySDK::FromName("System.Net.Configuration", "SettingsSectionInternal")->GetStaticField(0x26AF0);
+			return (::System::Net::Configuration::SettingsSectionInternal**)UnitySDK::FromName("System.Net.Configuration", "SettingsSectionInternal")->GetStaticField(0x2DDF0);
 		}
 
 		::System::Void _ctor()

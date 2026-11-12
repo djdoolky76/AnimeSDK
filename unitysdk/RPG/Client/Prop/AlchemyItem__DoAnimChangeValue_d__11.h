@@ -6,31 +6,31 @@
 namespace RPG::Client::Prop { class AlchemyItem; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_CTOR_OFFSET UNITYSDK_OFFSET(0xDC1BC30)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xDC1BD30)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC1C120)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xDC1C180)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDC1C130)
-#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDC1BD20)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_CTOR_OFFSET UNITYSDK_OFFSET(0xE6B7B30)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xE6B7C30)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE6B8020)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xE6B8080)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE6B8030)
+#define RPG_CLIENT_PROP_ALCHEMYITEM__DOANIMCHANGEVALUE_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE6B7C20)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int AlchemyItem__DoAnimChangeValue_d__11_TypeDefinitionIndex = 78200;
+	inline static constexpr unsigned int AlchemyItem__DoAnimChangeValue_d__11_TypeDefinitionIndex = 80935;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class AlchemyItem__DoAnimChangeValue_d__11 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::RPG::Client::Prop::AlchemyItem* __4__this; // 0x18
-		::RPG::Client::Prop::AlchemyLogicType color; // 0x20
-		::UnityEngine::Color _oriColor_5__5; // 0x24
-		::UnityEngine::Color _targetColor_5__6; // 0x34
-		::System::Int32 value; // 0x44
-		::System::Single _totalTime_5__4; // 0x48
-		::System::Int32 __1__state; // 0x4C
+		::RPG::Client::Prop::AlchemyItem* __4__this; // 0x10
+		::System::Object* __2__current; // 0x18
+		::RPG::Client::Prop::AlchemyLogicType _lastColor_5__7; // 0x20
+		::System::Single _totalTime_5__4; // 0x24
+		::UnityEngine::Color _targetColor_5__6; // 0x28
+		::UnityEngine::Color _oriColor_5__5; // 0x38
+		::System::Int32 __1__state; // 0x48
+		::RPG::Client::Prop::AlchemyLogicType color; // 0x4C
 		::System::Int32 _oriValue_5__3; // 0x50
-		::RPG::Client::Prop::AlchemyLogicType _lastColor_5__7; // 0x54
+		::System::Int32 value; // 0x54
 		::System::Single _animTime_5__2; // 0x58
 		::System::Void _ctor(::System::Int32 a1)
 		{

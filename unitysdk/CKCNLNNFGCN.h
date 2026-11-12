@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JOHLECDICBB.h"
 
-#define CKCNLNNFGCN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C44D20)
-#define CKCNLNNFGCN_CTOR_OFFSET UNITYSDK_OFFSET(0x3C44D20)
+#define CKCNLNNFGCN_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3E94180)
+#define CKCNLNNFGCN_CTOR_OFFSET UNITYSDK_OFFSET(0x3E94180)
 
-inline static constexpr unsigned int CKCNLNNFGCN_TypeDefinitionIndex = 6291;
+inline static constexpr unsigned int CKCNLNNFGCN_TypeDefinitionIndex = 6298;
 
 	struct alignas(4) CKCNLNNFGCN
 	{

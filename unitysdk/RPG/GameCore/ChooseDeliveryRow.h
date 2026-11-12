@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChooseDeliveryRow; }
 
-#define RPG_GAMECORE_CHOOSEDELIVERYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B2050)
-#define RPG_GAMECORE_CHOOSEDELIVERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5B1EB0)
+#define RPG_GAMECORE_CHOOSEDELIVERYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C2060)
+#define RPG_GAMECORE_CHOOSEDELIVERYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7C1EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChooseDeliveryRow_TypeDefinitionIndex = 13056;
+	inline static constexpr unsigned int ChooseDeliveryRow_TypeDefinitionIndex = 13124;
 
 	class ChooseDeliveryRow : public ::System::Object
 	{

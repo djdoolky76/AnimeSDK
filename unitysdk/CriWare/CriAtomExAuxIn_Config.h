@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CriWare/CriAtomEx_SoundRendererType.h"
 
-#define CRIWARE_CRIATOMEXAUXIN_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x166E7F70)
+#define CRIWARE_CRIATOMEXAUXIN_CONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x1752BF70)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAuxIn_Config_TypeDefinitionIndex = 40040;
+	inline static constexpr unsigned int CriAtomExAuxIn_Config_TypeDefinitionIndex = 41015;
 
 	struct alignas(4) CriAtomExAuxIn_Config
 	{

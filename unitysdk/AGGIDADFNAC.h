@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetLockHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AGGIDADFNAC_CTOR_OFFSET UNITYSDK_OFFSET(0xCF2FBB0)
-#define AGGIDADFNAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF2FBE0)
+#define AGGIDADFNAC_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E69A0)
+#define AGGIDADFNAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD5E69D0)
 
-inline static constexpr unsigned int AGGIDADFNAC_TypeDefinitionIndex = 55153;
+inline static constexpr unsigned int AGGIDADFNAC_TypeDefinitionIndex = 56334;
 
 	class AGGIDADFNAC
 	{

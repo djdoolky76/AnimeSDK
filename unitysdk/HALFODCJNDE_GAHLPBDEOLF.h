@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class SDFObjectMonoPlugin; }
 
-#define HALFODCJNDE_GAHLPBDEOLF_COMPARE_OFFSET UNITYSDK_OFFSET(0x15B8F9C0)
-#define HALFODCJNDE_GAHLPBDEOLF_CTOR_OFFSET UNITYSDK_OFFSET(0x15B8F870)
+#define HALFODCJNDE_GAHLPBDEOLF_COMPARE_OFFSET UNITYSDK_OFFSET(0x16B162E0)
+#define HALFODCJNDE_GAHLPBDEOLF_CTOR_OFFSET UNITYSDK_OFFSET(0x16B16190)
 
-inline static constexpr unsigned int HALFODCJNDE_GAHLPBDEOLF_TypeDefinitionIndex = 51782;
+inline static constexpr unsigned int HALFODCJNDE_GAHLPBDEOLF_TypeDefinitionIndex = 52868;
 
 	class HALFODCJNDE_GAHLPBDEOLF : public ::System::Object
 	{

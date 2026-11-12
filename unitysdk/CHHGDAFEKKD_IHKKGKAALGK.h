@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace EnviromentSystem { class EnviromentProfile; }
 
-inline static constexpr unsigned int CHHGDAFEKKD_IHKKGKAALGK_TypeDefinitionIndex = 48644;
+inline static constexpr unsigned int CHHGDAFEKKD_IHKKGKAALGK_TypeDefinitionIndex = 49686;
 
 	struct alignas(8) CHHGDAFEKKD_IHKKGKAALGK
 	{

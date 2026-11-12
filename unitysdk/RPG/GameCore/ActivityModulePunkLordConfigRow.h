@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityModulePunkLordConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D36B970)
-#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D36B850)
+#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E57AAF0)
+#define RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E57A9D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityModulePunkLordConfigRow_TypeDefinitionIndex = 12287;
+	inline static constexpr unsigned int ActivityModulePunkLordConfigRow_TypeDefinitionIndex = 12344;
 
 	class ActivityModulePunkLordConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 ActivityModuleID; // 0x14
+		::System::UInt32 ActivityModuleID; // 0x10
+		::System::UInt32 ID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYMODULEPUNKLORDCONFIGROW_CTOR_OFFSET))(this);

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int ENPIIMHNOEI_TypeDefinitionIndex = 47689;
+inline static constexpr unsigned int ENPIIMHNOEI_TypeDefinitionIndex = 48719;
 
 	struct alignas(4) ENPIIMHNOEI
 	{

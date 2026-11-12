@@ -10,23 +10,23 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define IFOEBJMEFKG___C__DISPLAYCLASS53_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15F2EC00)
-#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__1_OFFSET UNITYSDK_OFFSET(0x15F2FA20)
-#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__7_OFFSET UNITYSDK_OFFSET(0x15F2FA70)
-#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__8_OFFSET UNITYSDK_OFFSET(0x15F2FAF0)
-#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_G__ISPROGRESSMET_12_OFFSET UNITYSDK_OFFSET(0x15F2FDB0)
-#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_G__MATCHES_11_OFFSET UNITYSDK_OFFSET(0x15F2FBF0)
+#define IFOEBJMEFKG___C__DISPLAYCLASS53_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16E9E000)
+#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__1_OFFSET UNITYSDK_OFFSET(0x16E9EE40)
+#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__7_OFFSET UNITYSDK_OFFSET(0x16E9EE90)
+#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_B__8_OFFSET UNITYSDK_OFFSET(0x16E9EF10)
+#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_G__ISPROGRESSMET_12_OFFSET UNITYSDK_OFFSET(0x16E9F1D0)
+#define IFOEBJMEFKG___C__DISPLAYCLASS53_0___TRYRECOMMENDMOLDFORTRAITNOTMETONLY_G__MATCHES_11_OFFSET UNITYSDK_OFFSET(0x16E9F010)
 
-inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass53_0_TypeDefinitionIndex = 79450;
+inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass53_0_TypeDefinitionIndex = 82227;
 
 	class IFOEBJMEFKG___c__DisplayClass53_0 : public ::System::Object
 	{
 	public:
-		::IFOEBJMEFKG* __4__this; // 0x10
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>* indexOfNotMetTrait; // 0x18
-		::System::Collections::Generic::IEnumerable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>* productTraits; // 0x20
-		::CHGHIALKMFM* mold; // 0x28
-		::System::Collections::Generic::HashSet_1<::RPG::Client::MechCraft::MechCraftAttributeType>* targetAttributeTypes; // 0x30
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::MechCraft::MechCraftChipTraitType>* productTraits; // 0x10
+		::CHGHIALKMFM* mold; // 0x18
+		::System::Collections::Generic::HashSet_1<::RPG::Client::MechCraft::MechCraftAttributeType>* targetAttributeTypes; // 0x20
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>* indexOfNotMetTrait; // 0x28
+		::IFOEBJMEFKG* __4__this; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IFOEBJMEFKG___C__DISPLAYCLASS53_0_CTOR_OFFSET))(this);

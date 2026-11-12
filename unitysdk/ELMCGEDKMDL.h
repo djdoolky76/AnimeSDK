@@ -3,9 +3,9 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define ELMCGEDKMDL_CTOR_OFFSET UNITYSDK_OFFSET(0x15528DC0)
+#define ELMCGEDKMDL_CTOR_OFFSET UNITYSDK_OFFSET(0x164720D0)
 
-inline static constexpr unsigned int ELMCGEDKMDL_TypeDefinitionIndex = 63666;
+inline static constexpr unsigned int ELMCGEDKMDL_TypeDefinitionIndex = 65108;
 
 	class ELMCGEDKMDL : public ::System::Exception
 	{

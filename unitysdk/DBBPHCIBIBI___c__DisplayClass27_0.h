@@ -5,16 +5,16 @@
 class DBBPHCIBIBI;
 class PBGNKMMDBGD;
 
-#define DBBPHCIBIBI___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5DAF40)
-#define DBBPHCIBIBI___C__DISPLAYCLASS27_0___FORCECATREPALCE_B__0_OFFSET UNITYSDK_OFFSET(0x1C5DB590)
+#define DBBPHCIBIBI___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D75C6C0)
+#define DBBPHCIBIBI___C__DISPLAYCLASS27_0___FORCECATREPALCE_B__0_OFFSET UNITYSDK_OFFSET(0x1D75CD10)
 
-inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass27_0_TypeDefinitionIndex = 37285;
+inline static constexpr unsigned int DBBPHCIBIBI___c__DisplayClass27_0_TypeDefinitionIndex = 38213;
 
 	class DBBPHCIBIBI___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* catsTargets; // 0x10
-		::DBBPHCIBIBI* __4__this; // 0x18
+		::DBBPHCIBIBI* __4__this; // 0x10
+		::Il2CppArray<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* catsTargets; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBBPHCIBIBI___C__DISPLAYCLASS27_0_CTOR_OFFSET))(this);

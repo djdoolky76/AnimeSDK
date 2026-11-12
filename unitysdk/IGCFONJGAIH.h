@@ -5,11 +5,11 @@
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IGCFONJGAIH_CTOR_OFFSET UNITYSDK_OFFSET(0x163F48A0)
-#define IGCFONJGAIH_DHOCFJDCLLN_OFFSET UNITYSDK_OFFSET(0x163F4820)
-#define IGCFONJGAIH_PDJHGGFBNPP_OFFSET UNITYSDK_OFFSET(0x163F4730)
+#define IGCFONJGAIH_CTOR_OFFSET UNITYSDK_OFFSET(0x173A4E80)
+#define IGCFONJGAIH_DHOCFJDCLLN_OFFSET UNITYSDK_OFFSET(0x173A4E00)
+#define IGCFONJGAIH_PDJHGGFBNPP_OFFSET UNITYSDK_OFFSET(0x173A4D10)
 
-inline static constexpr unsigned int IGCFONJGAIH_TypeDefinitionIndex = 63203;
+inline static constexpr unsigned int IGCFONJGAIH_TypeDefinitionIndex = 64641;
 
 	class IGCFONJGAIH : public ::System::Object
 	{

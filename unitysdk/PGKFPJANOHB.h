@@ -5,20 +5,20 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TrainPartyPerformanceCharacterTriggerFreeStyle; }
 
-#define PGKFPJANOHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC223850)
-#define PGKFPJANOHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC223860)
-#define PGKFPJANOHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2238B0)
-#define PGKFPJANOHB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC223DA0)
-#define PGKFPJANOHB_TICK_OFFSET UNITYSDK_OFFSET(0xC223DF0)
+#define PGKFPJANOHB_CTOR_OFFSET UNITYSDK_OFFSET(0xCB0D240)
+#define PGKFPJANOHB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB0D250)
+#define PGKFPJANOHB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB0D2A0)
+#define PGKFPJANOHB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCB0D790)
+#define PGKFPJANOHB_TICK_OFFSET UNITYSDK_OFFSET(0xCB0D7E0)
 
-inline static constexpr unsigned int PGKFPJANOHB_TypeDefinitionIndex = 53427;
+inline static constexpr unsigned int PGKFPJANOHB_TypeDefinitionIndex = 54589;
 
 	class PGKFPJANOHB : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x28
+		::RPG::GameCore::GameEntity* KAKEIDJDNHJ; // 0x18
+		::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::UInt32 EBJLPAFFKOM; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TrainPartyPerformanceCharacterTriggerFreeStyle* a2)
 		{

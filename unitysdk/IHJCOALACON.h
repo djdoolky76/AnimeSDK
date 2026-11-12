@@ -5,7 +5,7 @@
 #include "unitysdk/RPG/Client/FiveDimScreenTransferType.h"
 namespace System { class Action; }
 
-inline static constexpr unsigned int IHJCOALACON_TypeDefinitionIndex = 60545;
+inline static constexpr unsigned int IHJCOALACON_TypeDefinitionIndex = 61834;
 
 	struct alignas(8) IHJCOALACON
 	{

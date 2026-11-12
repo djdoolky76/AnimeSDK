@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAFEE820)
-#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS14_0__CALLREMOTEFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0xAFEFD70)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB64FAF0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWCLOUD___C__DISPLAYCLASS14_0__CALLREMOTEFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0xB651040)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MiHoYoSDKWebViewCloud___c__DisplayClass14_0_TypeDefinitionIndex = 46588;
+	inline static constexpr unsigned int MiHoYoSDKWebViewCloud___c__DisplayClass14_0_TypeDefinitionIndex = 47616;
 
 	class MiHoYoSDKWebViewCloud___c__DisplayClass14_0 : public ::System::Object
 	{

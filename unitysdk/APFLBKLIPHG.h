@@ -3,10 +3,10 @@
 class HBFEMMFOLEA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define APFLBKLIPHG_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA8FB0)
-#define APFLBKLIPHG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15BA8FE0)
+#define APFLBKLIPHG_CTOR_OFFSET UNITYSDK_OFFSET(0x16A09880)
+#define APFLBKLIPHG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A098B0)
 
-inline static constexpr unsigned int APFLBKLIPHG_TypeDefinitionIndex = 58627;
+inline static constexpr unsigned int APFLBKLIPHG_TypeDefinitionIndex = 59894;
 
 	class APFLBKLIPHG
 	{

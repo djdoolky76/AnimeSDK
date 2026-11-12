@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class FMIHMGNLBPN;
 
-#define IDIDNDHOJMI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15ED6B30)
-#define IDIDNDHOJMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED6CA0)
+#define IDIDNDHOJMI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16E41370)
+#define IDIDNDHOJMI_CTOR_OFFSET UNITYSDK_OFFSET(0x16E414E0)
 
-inline static constexpr unsigned int IDIDNDHOJMI_TypeDefinitionIndex = 66507;
+inline static constexpr unsigned int IDIDNDHOJMI_TypeDefinitionIndex = 68443;
 
 	class IDIDNDHOJMI : public ::System::Object
 	{

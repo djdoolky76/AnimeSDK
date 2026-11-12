@@ -8,21 +8,21 @@ class HPCKCJDCNFM;
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define AFOAMOJGBFC_BLPLAFPIJPC_OFFSET UNITYSDK_OFFSET(0x1C880FC0)
-#define AFOAMOJGBFC_BPLHGGOHOMB_OFFSET UNITYSDK_OFFSET(0x1C880F80)
-#define AFOAMOJGBFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C881040)
-#define AFOAMOJGBFC_FOBFBGPONKO_OFFSET UNITYSDK_OFFSET(0x1C881000)
+#define AFOAMOJGBFC_BLPLAFPIJPC_OFFSET UNITYSDK_OFFSET(0x1DA026B0)
+#define AFOAMOJGBFC_BPLHGGOHOMB_OFFSET UNITYSDK_OFFSET(0x1DA02670)
+#define AFOAMOJGBFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA02730)
+#define AFOAMOJGBFC_FOBFBGPONKO_OFFSET UNITYSDK_OFFSET(0x1DA026F0)
 
-inline static constexpr unsigned int AFOAMOJGBFC_TypeDefinitionIndex = 42526;
+inline static constexpr unsigned int AFOAMOJGBFC_TypeDefinitionIndex = 43501;
 
 	class AFOAMOJGBFC : public ::System::Object
 	{
 	public:
 		::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroup EJEHPEFPPNL; // 0x10
 		::Il2CppArray<::HPCKCJDCNFM*>* POIBMHKAKAA; // 0x38
-		::System::Boolean CAGCHKJHMPD; // 0x40
+		::UnityEngine::Vector3Int BBFOLEOPPPL; // 0x40
+		::System::Boolean CAGCHKJHMPD; // 0x4C
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Vector3Int BBFOLEOPPPL; // 0x44
 		::RPG::Client::LittleGame::ETimelineControlGameLevelRotation NMELCPIOKNO; // 0x50
 		::System::Void _ctor()
 		{

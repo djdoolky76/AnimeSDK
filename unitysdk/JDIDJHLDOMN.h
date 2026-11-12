@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/Match3/GridTag.h"
 #include "unitysdk/System/Object.h"
 
-#define JDIDJHLDOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x165B5840)
+#define JDIDJHLDOMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F9380)
 
-inline static constexpr unsigned int JDIDJHLDOMN_TypeDefinitionIndex = 65952;
+inline static constexpr unsigned int JDIDJHLDOMN_TypeDefinitionIndex = 67884;
 
 	class JDIDJHLDOMN : public ::System::Object
 	{

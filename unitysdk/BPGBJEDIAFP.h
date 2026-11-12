@@ -6,18 +6,18 @@ class CAINPBIGHGM;
 class ODMIILKBDBA;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BPGBJEDIAFP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xC1A4D10)
-#define BPGBJEDIAFP_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A4E90)
-#define BPGBJEDIAFP_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xC1A4CF0)
-#define BPGBJEDIAFP_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xC1A4D00)
+#define BPGBJEDIAFP_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xCB45860)
+#define BPGBJEDIAFP_CTOR_OFFSET UNITYSDK_OFFSET(0xCB459E0)
+#define BPGBJEDIAFP_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xCB45840)
+#define BPGBJEDIAFP_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xCB45850)
 
-inline static constexpr unsigned int BPGBJEDIAFP_TypeDefinitionIndex = 62706;
+inline static constexpr unsigned int BPGBJEDIAFP_TypeDefinitionIndex = 64140;
 
 	class BPGBJEDIAFP : public ::System::Object
 	{
 	public:
-		::ODMIILKBDBA* _Factory_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::AHLEKJMMLBA, ::CAINPBIGHGM*>* IALLAPIBJJL; // 0x18
+		::System::Collections::Generic::Dictionary_2<::AHLEKJMMLBA, ::CAINPBIGHGM*>* IALLAPIBJJL; // 0x10
+		::ODMIILKBDBA* _Factory_k__BackingField; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BPGBJEDIAFP_CTOR_OFFSET))(this);

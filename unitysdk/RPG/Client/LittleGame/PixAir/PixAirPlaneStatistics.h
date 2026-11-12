@@ -7,13 +7,13 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA094D0)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS_GETEQUIPSTATSSORTEDBYUSECOUNT_OFFSET UNITYSDK_OFFSET(0x1CA09250)
-#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS_GETORCREATEEQUIPSTATS_OFFSET UNITYSDK_OFFSET(0x1CA090E0)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBCCC00)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS_GETEQUIPSTATSSORTEDBYUSECOUNT_OFFSET UNITYSDK_OFFSET(0x1DBCC980)
+#define RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS_GETORCREATEEQUIPSTATS_OFFSET UNITYSDK_OFFSET(0x1DBCC810)
 
 namespace RPG::Client::LittleGame::PixAir
 {
-	inline static constexpr unsigned int PixAirPlaneStatistics_TypeDefinitionIndex = 43676;
+	inline static constexpr unsigned int PixAirPlaneStatistics_TypeDefinitionIndex = 44659;
 
 	class PixAirPlaneStatistics : public ::System::Object
 	{
@@ -22,9 +22,8 @@ namespace RPG::Client::LittleGame::PixAir
 		::System::String* ModelPath; // 0x18
 		::RPG::GameCore::FixPoint FinalHp; // 0x20
 		::RPG::GameCore::FixPoint InitialHp; // 0x28
-		::System::Int32 FinalBurnStacks; // 0x30
-		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint FinalShield; // 0x38
+		::RPG::GameCore::FixPoint FinalShield; // 0x30
+		::System::Int32 FinalBurnStacks; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_PIXAIR_PIXAIRPLANESTATISTICS_CTOR_OFFSET))(this);

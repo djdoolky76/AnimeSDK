@@ -5,16 +5,16 @@ class INMMPMDELKE;
 class MHIHPODNPMO;
 namespace RPG::GameCore { class FourRotateVoxelPortalConfig; }
 
-#define MHIHPODNPMO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB93EB50)
-#define MHIHPODNPMO___C__DISPLAYCLASS11_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0xB9430F0)
+#define MHIHPODNPMO___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F31F0)
+#define MHIHPODNPMO___C__DISPLAYCLASS11_0__INITIALIZE_B__0_OFFSET UNITYSDK_OFFSET(0xC1F7A20)
 
-inline static constexpr unsigned int MHIHPODNPMO___c__DisplayClass11_0_TypeDefinitionIndex = 76779;
+inline static constexpr unsigned int MHIHPODNPMO___c__DisplayClass11_0_TypeDefinitionIndex = 79112;
 
 	class MHIHPODNPMO___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:
-		::MHIHPODNPMO* __4__this; // 0x10
-		::RPG::GameCore::FourRotateVoxelPortalConfig* config; // 0x18
+		::RPG::GameCore::FourRotateVoxelPortalConfig* config; // 0x10
+		::MHIHPODNPMO* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MHIHPODNPMO___C__DISPLAYCLASS11_0_CTOR_OFFSET))(this);

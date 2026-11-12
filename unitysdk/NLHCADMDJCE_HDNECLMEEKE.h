@@ -6,19 +6,19 @@ namespace RPG::Client { class BattleAssetPreload_CharacterPreloadGroupBase; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define NLHCADMDJCE_HDNECLMEEKE_CLEAR_OFFSET UNITYSDK_OFFSET(0xBC6EB90)
-#define NLHCADMDJCE_HDNECLMEEKE_COMPARETO_OFFSET UNITYSDK_OFFSET(0xBC6EBE0)
-#define NLHCADMDJCE_HDNECLMEEKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6EC90)
+#define NLHCADMDJCE_HDNECLMEEKE_CLEAR_OFFSET UNITYSDK_OFFSET(0xC553E50)
+#define NLHCADMDJCE_HDNECLMEEKE_COMPARETO_OFFSET UNITYSDK_OFFSET(0xC553EA0)
+#define NLHCADMDJCE_HDNECLMEEKE_CTOR_OFFSET UNITYSDK_OFFSET(0xC553F50)
 
-inline static constexpr unsigned int NLHCADMDJCE_HDNECLMEEKE_TypeDefinitionIndex = 59723;
+inline static constexpr unsigned int NLHCADMDJCE_HDNECLMEEKE_TypeDefinitionIndex = 61002;
 
 	class NLHCADMDJCE_HDNECLMEEKE : public ::System::Object
 	{
 	public:
 		::System::String* ANHNKKIHIBL; // 0x10
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
-		::RPG::Client::BattleAssetPreload_CharacterPreloadGroupBase* DBALOLNOLGL; // 0x20
-		::System::String* PFJFIJDPKNF; // 0x28
+		::RPG::Client::BattleAssetPreload_CharacterPreloadGroupBase* DBALOLNOLGL; // 0x18
+		::System::String* PFJFIJDPKNF; // 0x20
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x28
 		::System::Single MNAKIEOGPDK; // 0x30
 		::System::Void _ctor()
 		{

@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace UnityEngine { class CapsuleCollider; }
 
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9AFEB0)
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9AFEF0)
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B9AFF00)
-#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B9AFF40)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB38DE0)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB38E20)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CB38E30)
+#define HOUDINIENGINEUNITY_TEST_CAPSULECOLLIDER_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1CB38E70)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_CapsuleCollider_Extensions___c_TypeDefinitionIndex = 40730;
+	inline static constexpr unsigned int Test_CapsuleCollider_Extensions___c_TypeDefinitionIndex = 41705;
 
 	class Test_CapsuleCollider_Extensions___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x56FC0);
-		}
-
-		static ::System::Converter_2<::UnityEngine::CapsuleCollider*, ::HoudiniEngineUnity::Test_CapsuleCollider*>** StaticGet___9__2_0()
-		{
-			return (::System::Converter_2<::UnityEngine::CapsuleCollider*, ::HoudiniEngineUnity::Test_CapsuleCollider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x56FC8);
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68B90);
 		}
 
 		static ::System::Converter_2<::UnityEngine::CapsuleCollider*, ::HoudiniEngineUnity::Test_CapsuleCollider*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::CapsuleCollider*, ::HoudiniEngineUnity::Test_CapsuleCollider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x56FD0);
+			return (::System::Converter_2<::UnityEngine::CapsuleCollider*, ::HoudiniEngineUnity::Test_CapsuleCollider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68B98);
+		}
+
+		static ::System::Converter_2<::UnityEngine::CapsuleCollider*, ::HoudiniEngineUnity::Test_CapsuleCollider*>** StaticGet___9__2_0()
+		{
+			return (::System::Converter_2<::UnityEngine::CapsuleCollider*, ::HoudiniEngineUnity::Test_CapsuleCollider*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68BA0);
 		}
 
 		static ::System::Void _cctor()

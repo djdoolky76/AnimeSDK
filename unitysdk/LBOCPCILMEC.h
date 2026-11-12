@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class RtSetDynamicValueByProperty; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LBOCPCILMEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB60DA30)
-#define LBOCPCILMEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB60DB10)
+#define LBOCPCILMEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA02A0)
+#define LBOCPCILMEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA0380)
 
-inline static constexpr unsigned int LBOCPCILMEC_TypeDefinitionIndex = 53916;
+inline static constexpr unsigned int LBOCPCILMEC_TypeDefinitionIndex = 55080;
 
 	class LBOCPCILMEC
 	{

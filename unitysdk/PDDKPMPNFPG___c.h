@@ -5,29 +5,29 @@ namespace RPG::Client::Prop { class ChimeraDuelShopViewEffectBase; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PDDKPMPNFPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC010CD0)
-#define PDDKPMPNFPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC010D10)
-#define PDDKPMPNFPG___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC010D20)
-#define PDDKPMPNFPG___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0xC010D30)
+#define PDDKPMPNFPG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC917370)
+#define PDDKPMPNFPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC9173B0)
+#define PDDKPMPNFPG___C__TRYCREATEWITHEFFECT_B__2_0_OFFSET UNITYSDK_OFFSET(0xC9173C0)
+#define PDDKPMPNFPG___C___TRYCREATEEFFECT_B__6_1_OFFSET UNITYSDK_OFFSET(0xC9173D0)
 
-inline static constexpr unsigned int PDDKPMPNFPG___c_TypeDefinitionIndex = 78347;
+inline static constexpr unsigned int PDDKPMPNFPG___c_TypeDefinitionIndex = 81082;
 
 	class PDDKPMPNFPG___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::UInt32, ::System::Int32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65520);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65528);
+			return (::System::Func_2<::System::UInt32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x664F0);
 		}
 
 		static ::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65530);
+			return (::System::Func_2<::RPG::Client::Prop::ChimeraDuelShopViewEffectBase*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x664F8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66500);
 		}
 
 		static ::System::Void _cctor()

@@ -5,28 +5,28 @@
 class PGJINBJDAHN;
 namespace RPG::GameCore { class AdventureModifierInitParams; }
 
-#define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CCTOR_OFFSET UNITYSDK_OFFSET(0xE570C10)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CLONE_OFFSET UNITYSDK_OFFSET(0xE570B80)
-#define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xE549A20)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CCTOR_OFFSET UNITYSDK_OFFSET(0xEFED320)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CLONE_OFFSET UNITYSDK_OFFSET(0xEFED070)
+#define RPG_GAMECORE_ADVENTUREMODIFIERINITPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0xEFED310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureModifierInitParams_TypeDefinitionIndex = 54414;
+	inline static constexpr unsigned int AdventureModifierInitParams_TypeDefinitionIndex = 55578;
 
 	class AdventureModifierInitParams : public ::System::Object
 	{
 	public:
 		::PGJINBJDAHN* BaseInitParams; // 0x10
-		::System::UInt32 SkillSeqID; // 0x18
-		::System::Nullable_1<::System::Single> OverrideLifeTime; // 0x1C
-		::System::Boolean IsClientOnly; // 0x24
-		::System::Boolean IsBuffCreate; // 0x25
-		::System::Boolean IsServerSync; // 0x26
+		::System::Nullable_1<::System::Single> OverrideLifeTime; // 0x18
+		::System::Boolean IsServerSync; // 0x20
+		::System::Boolean IsBuffCreate; // 0x21
+		::System::Boolean IsClientOnly; // 0x22
 		::System::Byte _padding0[0x1];
+		::System::UInt32 SkillSeqID; // 0x24
 		::System::UInt32 InitLvl; // 0x28
 		static ::RPG::GameCore::AdventureModifierInitParams** StaticGet_s_Empty()
 		{
-			return (::RPG::GameCore::AdventureModifierInitParams**)UnitySDK::FromName("RPG.GameCore", "AdventureModifierInitParams")->GetStaticField(0x56F80);
+			return (::RPG::GameCore::AdventureModifierInitParams**)UnitySDK::FromName("RPG.GameCore", "AdventureModifierInitParams")->GetStaticField(0x5EAB0);
 		}
 
 		::System::Void _ctor()

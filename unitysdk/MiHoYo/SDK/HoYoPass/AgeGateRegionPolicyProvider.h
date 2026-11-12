@@ -7,15 +7,15 @@ namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE4C320)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1BE4C740)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x1BE4A1F0)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1BE4A170)
-#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_TRYGETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1BE4B5F0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFD4B80)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1CFD4FA0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GETPOLICY_OFFSET UNITYSDK_OFFSET(0x1CFD2A50)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CFD29D0)
+#define MIHOYO_SDK_HOYOPASS_AGEGATEREGIONPOLICYPROVIDER_TRYGETCUSTOMDATETIMEFORMAT_OFFSET UNITYSDK_OFFSET(0x1CFD3E50)
 
 namespace MiHoYo::SDK::HoYoPass
 {
-	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8271;
+	inline static constexpr unsigned int AgeGateRegionPolicyProvider_TypeDefinitionIndex = 8280;
 
 	class AgeGateRegionPolicyProvider : public ::System::Object
 	{
@@ -23,7 +23,7 @@ namespace MiHoYo::SDK::HoYoPass
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Func_1<::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicy*>*>* m_dicPolicyFactories; // 0x10
 		static ::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider** StaticGet_sm_instance()
 		{
-			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "AgeGateRegionPolicyProvider")->GetStaticField(0xD6C0);
+			return (::MiHoYo::SDK::HoYoPass::AgeGateRegionPolicyProvider**)UnitySDK::FromName("MiHoYo.SDK.HoYoPass", "AgeGateRegionPolicyProvider")->GetStaticField(0x61F00);
 		}
 
 		// static const ::System::String* CHINESE_DATETIME_FORMAT; // 0x0

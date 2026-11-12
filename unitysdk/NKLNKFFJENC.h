@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetLayerWeight; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NKLNKFFJENC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC3C190)
-#define NKLNKFFJENC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC3C1C0)
+#define NKLNKFFJENC_CTOR_OFFSET UNITYSDK_OFFSET(0xC520860)
+#define NKLNKFFJENC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC520890)
 
-inline static constexpr unsigned int NKLNKFFJENC_TypeDefinitionIndex = 55527;
+inline static constexpr unsigned int NKLNKFFJENC_TypeDefinitionIndex = 56719;
 
 	class NKLNKFFJENC
 	{

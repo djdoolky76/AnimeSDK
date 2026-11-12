@@ -7,11 +7,11 @@
 class SpineSkeletonFlipBehaviour;
 namespace UnityEngine { class GameObject; }
 
-#define SPINESKELETONFLIPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1ECF6A30)
-#define SPINESKELETONFLIPCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF6AC0)
-#define SPINESKELETONFLIPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1ECF6A20)
+#define SPINESKELETONFLIPCLIP_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x1FFA6790)
+#define SPINESKELETONFLIPCLIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFA6820)
+#define SPINESKELETONFLIPCLIP_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1FFA6780)
 
-inline static constexpr unsigned int SpineSkeletonFlipClip_TypeDefinitionIndex = 45902;
+inline static constexpr unsigned int SpineSkeletonFlipClip_TypeDefinitionIndex = 46931;
 
 	class SpineSkeletonFlipClip : public ::UnityEngine::Playables::PlayableAsset
 	{

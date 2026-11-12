@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournCollectionExhibitionBoothData_TypeDefinitionIndex = 67566;
+	inline static constexpr unsigned int IRogueTournCollectionExhibitionBoothData_TypeDefinitionIndex = 69510;
 
 	class IRogueTournCollectionExhibitionBoothData
 	{

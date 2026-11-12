@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/BHJEGBMIKEJ.h"
 
-#define AKDCGEMIEEN_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCC600)
+#define AKDCGEMIEEN_CTOR_OFFSET UNITYSDK_OFFSET(0x12DB3050)
 
-inline static constexpr unsigned int AKDCGEMIEEN_TypeDefinitionIndex = 49658;
+inline static constexpr unsigned int AKDCGEMIEEN_TypeDefinitionIndex = 50734;
 
 	class AKDCGEMIEEN : public ::BHJEGBMIKEJ
 	{

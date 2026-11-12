@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityQuestRewardConfigRow; }
 
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D372DA0)
-#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D372790)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E581FD0)
+#define RPG_GAMECORE_ACTIVITYQUESTREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5819C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 12303;
+	inline static constexpr unsigned int ActivityQuestRewardConfigRow_TypeDefinitionIndex = 12360;
 
 	class ActivityQuestRewardConfigRow : public ::System::Object
 	{

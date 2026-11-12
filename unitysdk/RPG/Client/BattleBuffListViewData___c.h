@@ -5,25 +5,25 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC814C40)
-#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC814C80)
-#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C___SORTBUFFS_B__9_0_OFFSET UNITYSDK_OFFSET(0xC814C90)
+#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD176FD0)
+#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD177010)
+#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C___SORTBUFFS_B__9_0_OFFSET UNITYSDK_OFFSET(0xD177020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleBuffListViewData___c_TypeDefinitionIndex = 71516;
+	inline static constexpr unsigned int BattleBuffListViewData___c_TypeDefinitionIndex = 73501;
 
 	class BattleBuffListViewData___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59690);
-		}
-
 		static ::System::Comparison_1<::RPG::GameCore::TurnBasedModifierInstance*>** StaticGet___9__9_0()
 		{
-			return (::System::Comparison_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x59698);
+			return (::System::Comparison_1<::RPG::GameCore::TurnBasedModifierInstance*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C360);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5C368);
 		}
 
 		static ::System::Void _cctor()

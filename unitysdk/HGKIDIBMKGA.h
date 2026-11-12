@@ -7,27 +7,28 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerAnimState; }
 namespace UnityEngine { class Animator; }
 
-#define HGKIDIBMKGA_CTOR_OFFSET UNITYSDK_OFFSET(0x15CA9200)
-#define HGKIDIBMKGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CA92A0)
-#define HGKIDIBMKGA_GEEFBIHPEKP_OFFSET UNITYSDK_OFFSET(0x15CAA3B0)
-#define HGKIDIBMKGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CA92E0)
-#define HGKIDIBMKGA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15CA9EB0)
-#define HGKIDIBMKGA_PMLPLLLBPHL_OFFSET UNITYSDK_OFFSET(0x15CAA1F0)
-#define HGKIDIBMKGA_TICK_OFFSET UNITYSDK_OFFSET(0x15CA9F70)
+#define HGKIDIBMKGA_CTOR_OFFSET UNITYSDK_OFFSET(0x16BF3750)
+#define HGKIDIBMKGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16BF37F0)
+#define HGKIDIBMKGA_GEEFBIHPEKP_OFFSET UNITYSDK_OFFSET(0x16BF4920)
+#define HGKIDIBMKGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BF3830)
+#define HGKIDIBMKGA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16BF4410)
+#define HGKIDIBMKGA_PMLPLLLBPHL_OFFSET UNITYSDK_OFFSET(0x16BF4750)
+#define HGKIDIBMKGA_TICK_OFFSET UNITYSDK_OFFSET(0x16BF44D0)
 
-inline static constexpr unsigned int HGKIDIBMKGA_TypeDefinitionIndex = 55715;
+inline static constexpr unsigned int HGKIDIBMKGA_TypeDefinitionIndex = 56917;
 
 	class HGKIDIBMKGA : public ::GELIALJDFBL
 	{
 	public:
-		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x18
-		::RPG::GameCore::TriggerAnimState* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::ONLHJAEPLBB EJPILIBEFCB; // 0x18
+		::UnityEngine::Animator* JDFCDMAPBFJ; // 0x28
 		::RPG::GameCore::GameEntity* IEKCMJJGLOH; // 0x30
-		::ONLHJAEPLBB EJPILIBEFCB; // 0x38
+		::RPG::GameCore::TriggerAnimState* OFKGLJOAMLD; // 0x38
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x40
 		::System::UInt32 APAOCDBHPKE; // 0x48
-		::System::Int32 APNGJPMPMOB; // 0x4C
-		::System::Boolean HLDMHAMDIKF; // 0x50
+		::System::Boolean HLDMHAMDIKF; // 0x4C
+		::System::Byte _padding0[0x3];
+		::System::Int32 APNGJPMPMOB; // 0x50
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerAnimState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerAnimState*))((::PBYTE)hIl2Cpp + HGKIDIBMKGA_CTOR_OFFSET))(this, a1, a2);

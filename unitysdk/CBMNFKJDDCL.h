@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CBMNFKJDDCL_CTOR_OFFSET UNITYSDK_OFFSET(0xC4AFB10)
+#define CBMNFKJDDCL_CTOR_OFFSET UNITYSDK_OFFSET(0xCE18B10)
 
-inline static constexpr unsigned int CBMNFKJDDCL_TypeDefinitionIndex = 57758;
+inline static constexpr unsigned int CBMNFKJDDCL_TypeDefinitionIndex = 58993;
 
 	class CBMNFKJDDCL : public ::System::Object
 	{

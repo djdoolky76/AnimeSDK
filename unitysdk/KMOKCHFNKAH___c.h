@@ -4,52 +4,59 @@
 class DPBMNEMLMBI;
 class GJNEHIMBFMC;
 class LFKNBJPPOGC;
+class LPOLGDLAADM;
 class PMEMIDKDAFG;
 class POLMJOOOBNK;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define KMOKCHFNKAH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB56BE80)
-#define KMOKCHFNKAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB56BEC0)
-#define KMOKCHFNKAH___C__ACTIVEEIDOLON_B__16_0_OFFSET UNITYSDK_OFFSET(0xB56C340)
-#define KMOKCHFNKAH___C__LEVELUPAVATAR_B__7_0_OFFSET UNITYSDK_OFFSET(0xB56BED0)
-#define KMOKCHFNKAH___C__PROMOTEAVATAR_B__10_0_OFFSET UNITYSDK_OFFSET(0xB56C0C0)
-#define KMOKCHFNKAH___C__QUICKGROWAVATAR_B__11_0_OFFSET UNITYSDK_OFFSET(0xB56C0D0)
-#define KMOKCHFNKAH___C__UNLOCKTRACENODE_B__15_0_OFFSET UNITYSDK_OFFSET(0xB56C2C0)
+#define KMOKCHFNKAH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBDB7DC0)
+#define KMOKCHFNKAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBDB7E00)
+#define KMOKCHFNKAH___C__ACTIVEEIDOLON_B__16_0_OFFSET UNITYSDK_OFFSET(0xBDB8280)
+#define KMOKCHFNKAH___C__ACTIVEEXEIDOLON_B__17_0_OFFSET UNITYSDK_OFFSET(0xBDB8290)
+#define KMOKCHFNKAH___C__LEVELUPAVATAR_B__7_0_OFFSET UNITYSDK_OFFSET(0xBDB7E10)
+#define KMOKCHFNKAH___C__PROMOTEAVATAR_B__10_0_OFFSET UNITYSDK_OFFSET(0xBDB8000)
+#define KMOKCHFNKAH___C__QUICKGROWAVATAR_B__11_0_OFFSET UNITYSDK_OFFSET(0xBDB8010)
+#define KMOKCHFNKAH___C__UNLOCKTRACENODE_B__15_0_OFFSET UNITYSDK_OFFSET(0xBDB8200)
 
-inline static constexpr unsigned int KMOKCHFNKAH___c_TypeDefinitionIndex = 62765;
+inline static constexpr unsigned int KMOKCHFNKAH___c_TypeDefinitionIndex = 64203;
 
 	class KMOKCHFNKAH___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::DPBMNEMLMBI*>** StaticGet___9__7_0()
+		static ::System::Action_1<::LFKNBJPPOGC*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::DPBMNEMLMBI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60890);
+			return (::System::Action_1<::LFKNBJPPOGC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59790);
 		}
 
-		static ::System::Action_1<::POLMJOOOBNK*>** StaticGet___9__15_0()
+		static ::System::Action_1<::DPBMNEMLMBI*>** StaticGet___9__7_0()
 		{
-			return (::System::Action_1<::POLMJOOOBNK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x60898);
+			return (::System::Action_1<::DPBMNEMLMBI*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59798);
 		}
 
 		static ::System::Action_1<::GJNEHIMBFMC*>** StaticGet___9__16_0()
 		{
-			return (::System::Action_1<::GJNEHIMBFMC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608A0);
+			return (::System::Action_1<::GJNEHIMBFMC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x597A0);
 		}
 
-		static ::System::Action_1<::PMEMIDKDAFG*>** StaticGet___9__11_0()
+		static ::System::Action_1<::POLMJOOOBNK*>** StaticGet___9__15_0()
 		{
-			return (::System::Action_1<::PMEMIDKDAFG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608A8);
+			return (::System::Action_1<::POLMJOOOBNK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x597A8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x597B0);
 		}
 
-		static ::System::Action_1<::LFKNBJPPOGC*>** StaticGet___9__10_0()
+		static ::System::Action_1<::LPOLGDLAADM*>** StaticGet___9__17_0()
 		{
-			return (::System::Action_1<::LFKNBJPPOGC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x608B8);
+			return (::System::Action_1<::LPOLGDLAADM*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x597B8);
+		}
+
+		static ::System::Action_1<::PMEMIDKDAFG*>** StaticGet___9__11_0()
+		{
+			return (::System::Action_1<::PMEMIDKDAFG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x597C0);
 		}
 
 		static ::System::Void _cctor()
@@ -85,6 +92,11 @@ inline static constexpr unsigned int KMOKCHFNKAH___c_TypeDefinitionIndex = 62765
 		::System::Void _ActiveEidolon_b__16_0(::GJNEHIMBFMC* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::GJNEHIMBFMC*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C__ACTIVEEIDOLON_B__16_0_OFFSET))(this, a1);
+		}
+
+		::System::Void _ActiveExEidolon_b__17_0(::LPOLGDLAADM* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::LPOLGDLAADM*))((::PBYTE)hIl2Cpp + KMOKCHFNKAH___C__ACTIVEEXEIDOLON_B__17_0_OFFSET))(this, a1);
 		}
 
 	};

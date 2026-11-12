@@ -8,12 +8,12 @@ namespace RPG::GameCore { class PetPartyParticipantSlot; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PETPARTYINTERACTIONDEFINITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90A230)
-#define RPG_GAMECORE_PETPARTYINTERACTIONDEFINITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D909ED0)
+#define RPG_GAMECORE_PETPARTYINTERACTIONDEFINITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB235C0)
+#define RPG_GAMECORE_PETPARTYINTERACTIONDEFINITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB23260)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PetPartyInteractionDefinition_TypeDefinitionIndex = 17552;
+	inline static constexpr unsigned int PetPartyInteractionDefinition_TypeDefinitionIndex = 17720;
 
 	class PetPartyInteractionDefinition : public ::RPG::GameCore::JsonConfig
 	{

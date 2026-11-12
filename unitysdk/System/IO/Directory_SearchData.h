@@ -4,7 +4,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_IO_DIRECTORY_SEARCHDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2522C0)
+#define SYSTEM_IO_DIRECTORY_SEARCHDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D8B90)
 
 namespace System::IO
 {

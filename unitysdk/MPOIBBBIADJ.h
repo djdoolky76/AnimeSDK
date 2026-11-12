@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define MPOIBBBIADJ_KLKHEGGHOLA_OFFSET UNITYSDK_OFFSET(0xBA449B0)
-#define MPOIBBBIADJ_MPDMJBILNMI_OFFSET UNITYSDK_OFFSET(0xBA44A60)
-#define MPOIBBBIADJ_NJLICGGKCAB_OFFSET UNITYSDK_OFFSET(0xBA44AE0)
+#define MPOIBBBIADJ_KLKHEGGHOLA_OFFSET UNITYSDK_OFFSET(0xC304A30)
+#define MPOIBBBIADJ_MPDMJBILNMI_OFFSET UNITYSDK_OFFSET(0xC304AE0)
+#define MPOIBBBIADJ_NJLICGGKCAB_OFFSET UNITYSDK_OFFSET(0xC304B60)
 
-inline static constexpr unsigned int MPOIBBBIADJ_TypeDefinitionIndex = 55746;
+inline static constexpr unsigned int MPOIBBBIADJ_TypeDefinitionIndex = 56948;
 
 	class MPOIBBBIADJ : public ::System::Object
 	{

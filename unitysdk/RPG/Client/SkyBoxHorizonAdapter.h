@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_SKYBOXHORIZONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0xE0E9D40)
-#define RPG_CLIENT_SKYBOXHORIZONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE0EA120)
-#define RPG_CLIENT_SKYBOXHORIZONADAPTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE0E9DE0)
+#define RPG_CLIENT_SKYBOXHORIZONADAPTER_AWAKE_OFFSET UNITYSDK_OFFSET(0xEB53B40)
+#define RPG_CLIENT_SKYBOXHORIZONADAPTER_CTOR_OFFSET UNITYSDK_OFFSET(0xEB53F20)
+#define RPG_CLIENT_SKYBOXHORIZONADAPTER_UPDATE_OFFSET UNITYSDK_OFFSET(0xEB53BE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkyBoxHorizonAdapter_TypeDefinitionIndex = 72991;
+	inline static constexpr unsigned int SkyBoxHorizonAdapter_TypeDefinitionIndex = 75103;
 
 	class SkyBoxHorizonAdapter : public ::UnityEngine::MonoBehaviour
 	{

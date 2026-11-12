@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class Light; }
 
-#define RPG_CUSTOMRP_VOXELVISUALIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xE497000)
-#define RPG_CUSTOMRP_VOXELVISUALIZER_FIECNMDMEDG_OFFSET UNITYSDK_OFFSET(0xE496F40)
-#define RPG_CUSTOMRP_VOXELVISUALIZER_LIGHTCANBEBAKED_OFFSET UNITYSDK_OFFSET(0xE48FA60)
+#define RPG_CUSTOMRP_VOXELVISUALIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xEF55D80)
+#define RPG_CUSTOMRP_VOXELVISUALIZER_FIECNMDMEDG_OFFSET UNITYSDK_OFFSET(0xEF55CC0)
+#define RPG_CUSTOMRP_VOXELVISUALIZER_LIGHTCANBEBAKED_OFFSET UNITYSDK_OFFSET(0xEF4E840)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int VoxelVisualizer_TypeDefinitionIndex = 51852;
+	inline static constexpr unsigned int VoxelVisualizer_TypeDefinitionIndex = 52938;
 
 	class VoxelVisualizer : public ::UnityEngine::MonoBehaviour
 	{

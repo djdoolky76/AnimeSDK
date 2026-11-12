@@ -4,18 +4,18 @@
 class FLIPNFHAMPO;
 namespace System { class Object; }
 
-#define FLIPNFHAMPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3D97B0)
-#define FLIPNFHAMPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D97F0)
-#define FLIPNFHAMPO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3D9800)
+#define FLIPNFHAMPO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C4940)
+#define FLIPNFHAMPO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6C4980)
+#define FLIPNFHAMPO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F6C4990)
 
-inline static constexpr unsigned int FLIPNFHAMPO___c_TypeDefinitionIndex = 26968;
+inline static constexpr unsigned int FLIPNFHAMPO___c_TypeDefinitionIndex = 27499;
 
 	class FLIPNFHAMPO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64800);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B120);
 		}
 
 		static ::System::Void _cctor()

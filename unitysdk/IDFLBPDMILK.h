@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define IDFLBPDMILK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB075B0)
+#define IDFLBPDMILK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCC050)
 
-inline static constexpr unsigned int IDFLBPDMILK_TypeDefinitionIndex = 42165;
+inline static constexpr unsigned int IDFLBPDMILK_TypeDefinitionIndex = 43140;
 
 	class IDFLBPDMILK : public ::System::Object
 	{

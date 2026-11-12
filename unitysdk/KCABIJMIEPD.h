@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define KCABIJMIEPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C421530)
-#define KCABIJMIEPD_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x1C421540)
+#define KCABIJMIEPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A7D20)
+#define KCABIJMIEPD_GET_RETURNVALUE_OFFSET UNITYSDK_OFFSET(0x1D5A7D30)
 
-inline static constexpr unsigned int KCABIJMIEPD_TypeDefinitionIndex = 5080;
+inline static constexpr unsigned int KCABIJMIEPD_TypeDefinitionIndex = 5085;
 
 	class KCABIJMIEPD : public ::System::Attribute
 	{

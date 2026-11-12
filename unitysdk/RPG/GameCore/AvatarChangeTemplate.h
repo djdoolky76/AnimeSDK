@@ -8,12 +8,12 @@ namespace RPG::GameCore { class AvatarChangeTemplate; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AVATARCHANGETEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40D6C0)
-#define RPG_GAMECORE_AVATARCHANGETEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D40D370)
+#define RPG_GAMECORE_AVATARCHANGETEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62D950)
+#define RPG_GAMECORE_AVATARCHANGETEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E62D600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarChangeTemplate_TypeDefinitionIndex = 17136;
+	inline static constexpr unsigned int AvatarChangeTemplate_TypeDefinitionIndex = 17303;
 
 	class AvatarChangeTemplate : public ::RPG::GameCore::JsonConfig
 	{

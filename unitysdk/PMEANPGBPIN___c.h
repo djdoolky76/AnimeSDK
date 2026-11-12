@@ -4,18 +4,18 @@
 class PMEANPGBPIN;
 namespace System { class Object; }
 
-#define PMEANPGBPIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFA9E20)
-#define PMEANPGBPIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFA9E50)
-#define PMEANPGBPIN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DFA9E60)
+#define PMEANPGBPIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F25B560)
+#define PMEANPGBPIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F25B590)
+#define PMEANPGBPIN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F25B5A0)
 
-inline static constexpr unsigned int PMEANPGBPIN___c_TypeDefinitionIndex = 34159;
+inline static constexpr unsigned int PMEANPGBPIN___c_TypeDefinitionIndex = 35074;
 
 	class PMEANPGBPIN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D4D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3FCB0);
 		}
 
 		static ::System::Void _cctor()

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GLBDNMKLNBG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE62530)
-#define GLBDNMKLNBG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE62B00)
-#define GLBDNMKLNBG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE626A0)
-#define GLBDNMKLNBG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE61FA0)
-#define GLBDNMKLNBG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE62230)
-#define GLBDNMKLNBG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE62740)
-#define GLBDNMKLNBG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE62790)
-#define GLBDNMKLNBG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE62570)
-#define GLBDNMKLNBG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE621D0)
-#define GLBDNMKLNBG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE623A0)
-#define GLBDNMKLNBG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE62600)
-#define GLBDNMKLNBG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE61F20)
+#define GLBDNMKLNBG_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E03BE30)
+#define GLBDNMKLNBG_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E03C400)
+#define GLBDNMKLNBG_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E03BFA0)
+#define GLBDNMKLNBG_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E03B8A0)
+#define GLBDNMKLNBG_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E03BB30)
+#define GLBDNMKLNBG_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E03C040)
+#define GLBDNMKLNBG_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E03C090)
+#define GLBDNMKLNBG_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E03BE70)
+#define GLBDNMKLNBG_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E03BAD0)
+#define GLBDNMKLNBG_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E03BCA0)
+#define GLBDNMKLNBG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E03BF00)
+#define GLBDNMKLNBG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E03B820)
 
-inline static constexpr unsigned int GLBDNMKLNBG_TypeDefinitionIndex = 12146;
+inline static constexpr unsigned int GLBDNMKLNBG_TypeDefinitionIndex = 12203;
 
 	class GLBDNMKLNBG : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirEnemyRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x19000);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirEnemyRow*>**)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x10E90);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x19008);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x10E98);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirEnemyRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirEnemyRow*>**)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x19010);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x5C40);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x10EA0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x5C41);
+			return (::System::Byte*)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x37B0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "GLBDNMKLNBG")->GetStaticField(0x37B1);
 		}
 
 		static ::System::Void _cctor()

@@ -5,11 +5,11 @@ class FGAAFLAALBF;
 class IGEGNAJFAJE;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MFHHKBPHDOH_CTOR_OFFSET UNITYSDK_OFFSET(0xB8FEB40)
-#define MFHHKBPHDOH_GET_DISPLAYS_OFFSET UNITYSDK_OFFSET(0xB8FEB30)
-#define MFHHKBPHDOH_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xB8FEBE0)
+#define MFHHKBPHDOH_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B0DD0)
+#define MFHHKBPHDOH_GET_DISPLAYS_OFFSET UNITYSDK_OFFSET(0xC1B0DC0)
+#define MFHHKBPHDOH_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xC1B0E70)
 
-inline static constexpr unsigned int MFHHKBPHDOH_TypeDefinitionIndex = 63923;
+inline static constexpr unsigned int MFHHKBPHDOH_TypeDefinitionIndex = 65365;
 
 	class MFHHKBPHDOH : public ::System::Object
 	{

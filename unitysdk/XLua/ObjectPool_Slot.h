@@ -7,7 +7,7 @@ namespace System { class String; }
 
 namespace XLua
 {
-	inline static constexpr unsigned int ObjectPool_Slot_TypeDefinitionIndex = 50243;
+	inline static constexpr unsigned int ObjectPool_Slot_TypeDefinitionIndex = 51294;
 
 	struct alignas(8) ObjectPool_Slot
 	{

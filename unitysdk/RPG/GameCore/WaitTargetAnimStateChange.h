@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitTargetAnimStateChange; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WAITTARGETANIMSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA2FC0)
-#define RPG_GAMECORE_WAITTARGETANIMSTATECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA2FD0)
-#define RPG_GAMECORE_WAITTARGETANIMSTATECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA2F80)
+#define RPG_GAMECORE_WAITTARGETANIMSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB5970)
+#define RPG_GAMECORE_WAITTARGETANIMSTATECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB5980)
+#define RPG_GAMECORE_WAITTARGETANIMSTATECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB5930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTargetAnimStateChange_TypeDefinitionIndex = 22298;
+	inline static constexpr unsigned int WaitTargetAnimStateChange_TypeDefinitionIndex = 22703;
 
 	class WaitTargetAnimStateChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{

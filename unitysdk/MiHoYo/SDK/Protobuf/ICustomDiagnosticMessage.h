@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::Protobuf
 {
-	inline static constexpr unsigned int ICustomDiagnosticMessage_TypeDefinitionIndex = 35720;
+	inline static constexpr unsigned int ICustomDiagnosticMessage_TypeDefinitionIndex = 36648;
 
 	class ICustomDiagnosticMessage
 	{

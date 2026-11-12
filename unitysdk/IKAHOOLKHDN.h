@@ -8,18 +8,18 @@ class IKAHOOLKHDN;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define IKAHOOLKHDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF19D20)
-#define IKAHOOLKHDN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF19D30)
-#define IKAHOOLKHDN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF19CE0)
+#define IKAHOOLKHDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0FE660)
+#define IKAHOOLKHDN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E0FE670)
+#define IKAHOOLKHDN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E0FE620)
 
-inline static constexpr unsigned int IKAHOOLKHDN_TypeDefinitionIndex = 23340;
+inline static constexpr unsigned int IKAHOOLKHDN_TypeDefinitionIndex = 23782;
 
 	class IKAHOOLKHDN : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::BNCHFPFHIJL* EABKOHGCHFP; // 0x18
 		::System::String* GFNAPNFFGPJ; // 0x20
-		::BNCHFPFHIJL* EABKOHGCHFP; // 0x28
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::OFFCBOJNNJF GMPGDEINODK; // 0x30
 		::System::Boolean GNDCCBNILML; // 0x34
 		::System::Void _ctor()

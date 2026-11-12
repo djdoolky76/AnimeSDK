@@ -3,10 +3,10 @@
 #include "unitysdk/PJPIEKNGCMC.h"
 #include "unitysdk/Unity/Collections/NativeArray_1.h"
 
-#define PMDNKDCGAPA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDEAB0)
-#define PMDNKDCGAPA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDEAA0)
+#define PMDNKDCGAPA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE9EF0)
+#define PMDNKDCGAPA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE9EE0)
 
-inline static constexpr unsigned int PMDNKDCGAPA_TypeDefinitionIndex = 71093;
+inline static constexpr unsigned int PMDNKDCGAPA_TypeDefinitionIndex = 73076;
 
 	struct alignas(8) PMDNKDCGAPA
 	{

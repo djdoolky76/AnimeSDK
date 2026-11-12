@@ -4,7 +4,7 @@
 namespace System { class Uri; }
 namespace System::IO { class Stream; }
 
-#define SYSTEM_XML_XMLCACHEDSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4B720)
+#define SYSTEM_XML_XMLCACHEDSTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x201FAEE0)
 
 namespace System::Xml
 {

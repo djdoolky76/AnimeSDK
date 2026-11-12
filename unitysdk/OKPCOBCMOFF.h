@@ -1,16 +1,16 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OKPCOBCMOFF_TypeDefinitionIndex = 28185;
+inline static constexpr unsigned int OKPCOBCMOFF_TypeDefinitionIndex = 28775;
 
 	enum class OKPCOBCMOFF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		CHEPKADENJL = 2506,
-		DFJDNLNFKLG = 2526,
 		ECHFAEDEFLG = 2525,
-		CCMNFGHDCDO = 2523,
-		KDNHLKEOHHA = 2534,
-		MKBNPFGGANC = 2518,
-		OLCHGINAEIG = 2502,
+		CCMNFGHDCDO = 2544,
+		DFJDNLNFKLG = 2537,
+		KDNHLKEOHHA = 2542,
+		OLCHGINAEIG = 2516,
+		CHEPKADENJL = 2538,
+		MKBNPFGGANC = 2515,
 	};

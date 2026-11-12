@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyAdventureCharacterCollider; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ICCMCLOJADC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E4CA00)
-#define ICCMCLOJADC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E4CA30)
+#define ICCMCLOJADC_CTOR_OFFSET UNITYSDK_OFFSET(0x16DF7910)
+#define ICCMCLOJADC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DF7940)
 
-inline static constexpr unsigned int ICCMCLOJADC_TypeDefinitionIndex = 55879;
+inline static constexpr unsigned int ICCMCLOJADC_TypeDefinitionIndex = 57082;
 
 	class ICCMCLOJADC
 	{

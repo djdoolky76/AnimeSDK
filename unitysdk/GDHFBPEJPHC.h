@@ -6,21 +6,21 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class MonoBehaviour; }
 namespace UnityEngine { class ParticleSystem; }
 
-#define GDHFBPEJPHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1599CDD0)
-#define GDHFBPEJPHC_FHPAOJGFHHE_OFFSET UNITYSDK_OFFSET(0x1599CD90)
-#define GDHFBPEJPHC_HBAMMNHOAED_OFFSET UNITYSDK_OFFSET(0x1599C6F0)
-#define GDHFBPEJPHC_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x1599CD20)
-#define GDHFBPEJPHC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1599C680)
+#define GDHFBPEJPHC_CTOR_OFFSET UNITYSDK_OFFSET(0x168D3BC0)
+#define GDHFBPEJPHC_FHPAOJGFHHE_OFFSET UNITYSDK_OFFSET(0x168D3B80)
+#define GDHFBPEJPHC_HBAMMNHOAED_OFFSET UNITYSDK_OFFSET(0x168D34E0)
+#define GDHFBPEJPHC_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x168D3B10)
+#define GDHFBPEJPHC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x168D3470)
 
-inline static constexpr unsigned int GDHFBPEJPHC_TypeDefinitionIndex = 70475;
+inline static constexpr unsigned int GDHFBPEJPHC_TypeDefinitionIndex = 72450;
 
 	class GDHFBPEJPHC : public ::RPG::Client::BehaviorBase
 	{
 	public:
 		::UnityEngine::Camera* EKLHELJMIKG; // 0x18
 		::UnityEngine::ParticleSystem* NBJDDOGJDBP; // 0x20
-		::System::Boolean EMEKMDPDPJG; // 0x28
-		::System::Boolean JNKCOMNDMAD; // 0x29
+		::System::Boolean JNKCOMNDMAD; // 0x28
+		::System::Boolean EMEKMDPDPJG; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDHFBPEJPHC_CTOR_OFFSET))(this);

@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTRADARCHARTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6598C0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTRADARCHARTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD659900)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTRADARCHARTCONTROL___C__GET__PROPERTYVALUES_B__4_0_OFFSET UNITYSDK_OFFSET(0xD659910)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTRADARCHARTCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0E8420)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTRADARCHARTCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0E8460)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTRADARCHARTCONTROL___C__GET__PROPERTYVALUES_B__4_0_OFFSET UNITYSDK_OFFSET(0xE0E8470)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftRadarChartControl___c_TypeDefinitionIndex = 79825;
+	inline static constexpr unsigned int MechCraftRadarChartControl___c_TypeDefinitionIndex = 82602;
 
 	class MechCraftRadarChartControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x55A20);
-		}
-
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x55A28);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x65930);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x65938);
 		}
 
 		static ::System::Void _cctor()

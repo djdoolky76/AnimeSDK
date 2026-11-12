@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IPointerUpHandler_TypeDefinitionIndex = 6914;
+	inline static constexpr unsigned int IPointerUpHandler_TypeDefinitionIndex = 6925;
 
 	class IPointerUpHandler
 	{

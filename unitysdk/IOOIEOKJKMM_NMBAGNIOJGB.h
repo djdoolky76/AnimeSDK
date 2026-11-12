@@ -7,18 +7,18 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Net { class HttpWebRequest; }
 namespace System::Net { class WebResponse; }
 
-#define IOOIEOKJKMM_NMBAGNIOJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1651A1B0)
+#define IOOIEOKJKMM_NMBAGNIOJGB_CTOR_OFFSET UNITYSDK_OFFSET(0xB84E880)
 
-inline static constexpr unsigned int IOOIEOKJKMM_NMBAGNIOJGB_TypeDefinitionIndex = 60979;
+inline static constexpr unsigned int IOOIEOKJKMM_NMBAGNIOJGB_TypeDefinitionIndex = 62355;
 
 	class IOOIEOKJKMM_NMBAGNIOJGB : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::Net::HttpStatusCode>* PKOEDEOHADB; // 0x10
-		::System::Net::WebResponse* LCJPCLCCOHB; // 0x18
-		::System::Net::HttpWebRequest* MDPHGOBONBG; // 0x20
-		::OEIPKOKBJCH* FLKMPGABMCJ; // 0x28
-		::Il2CppArray<::System::Byte>* ONIHDHHBPDC; // 0x30
+		::Il2CppArray<::System::Byte>* ONIHDHHBPDC; // 0x10
+		::OEIPKOKBJCH* FLKMPGABMCJ; // 0x18
+		::System::Net::WebResponse* LCJPCLCCOHB; // 0x20
+		::System::Action_1<::System::Net::HttpStatusCode>* PKOEDEOHADB; // 0x28
+		::System::Net::HttpWebRequest* MDPHGOBONBG; // 0x30
 		::System::UInt32 ABPPIHPNGOA; // 0x38
 		::System::Void _ctor()
 		{

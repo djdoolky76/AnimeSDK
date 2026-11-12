@@ -4,18 +4,18 @@
 class DIOPCDKIEKN;
 namespace System { class Object; }
 
-#define DIOPCDKIEKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1C4470)
-#define DIOPCDKIEKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C44B0)
-#define DIOPCDKIEKN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E1C44C0)
+#define DIOPCDKIEKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F49FFB0)
+#define DIOPCDKIEKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49FFF0)
+#define DIOPCDKIEKN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F4A0000)
 
-inline static constexpr unsigned int DIOPCDKIEKN___c_TypeDefinitionIndex = 34520;
+inline static constexpr unsigned int DIOPCDKIEKN___c_TypeDefinitionIndex = 35448;
 
 	class DIOPCDKIEKN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36C70);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32E30);
 		}
 
 		static ::System::Void _cctor()

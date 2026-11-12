@@ -4,28 +4,28 @@
 namespace SuperScrollView { class ItemSizeGroup; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SUPERSCROLLVIEW_ITEMPOSMGR_CTOR_OFFSET UNITYSDK_OFFSET(0xE99F470)
-#define SUPERSCROLLVIEW_ITEMPOSMGR_GETITEMINDEXANDPOSATGIVENPOS_OFFSET UNITYSDK_OFFSET(0xE9A03A0)
-#define SUPERSCROLLVIEW_ITEMPOSMGR_GETITEMPOS_OFFSET UNITYSDK_OFFSET(0xE9A0070)
-#define SUPERSCROLLVIEW_ITEMPOSMGR_SETITEMMAXCOUNT_OFFSET UNITYSDK_OFFSET(0xE99F4C0)
-#define SUPERSCROLLVIEW_ITEMPOSMGR_SETITEMSIZE_OFFSET UNITYSDK_OFFSET(0xE99FEA0)
-#define SUPERSCROLLVIEW_ITEMPOSMGR_SETSPACING_OFFSET UNITYSDK_OFFSET(0xE99F3F0)
-#define SUPERSCROLLVIEW_ITEMPOSMGR_UPDATE_OFFSET UNITYSDK_OFFSET(0xE9A0170)
+#define SUPERSCROLLVIEW_ITEMPOSMGR_CTOR_OFFSET UNITYSDK_OFFSET(0xF4B4640)
+#define SUPERSCROLLVIEW_ITEMPOSMGR_GETITEMINDEXANDPOSATGIVENPOS_OFFSET UNITYSDK_OFFSET(0xF4B5570)
+#define SUPERSCROLLVIEW_ITEMPOSMGR_GETITEMPOS_OFFSET UNITYSDK_OFFSET(0xF4B5240)
+#define SUPERSCROLLVIEW_ITEMPOSMGR_SETITEMMAXCOUNT_OFFSET UNITYSDK_OFFSET(0xF4B4690)
+#define SUPERSCROLLVIEW_ITEMPOSMGR_SETITEMSIZE_OFFSET UNITYSDK_OFFSET(0xF4B5070)
+#define SUPERSCROLLVIEW_ITEMPOSMGR_SETSPACING_OFFSET UNITYSDK_OFFSET(0xF4B45C0)
+#define SUPERSCROLLVIEW_ITEMPOSMGR_UPDATE_OFFSET UNITYSDK_OFFSET(0xF4B5340)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int ItemPosMgr_TypeDefinitionIndex = 47639;
+	inline static constexpr unsigned int ItemPosMgr_TypeDefinitionIndex = 48669;
 
 	class ItemPosMgr : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::SuperScrollView::ItemSizeGroup*>* mItemSizeGroupList; // 0x10
-		::System::Single mItemDefaultSize; // 0x18
-		::System::Single mStartSpacing; // 0x1C
-		::System::Single mEndSpacing; // 0x20
-		::System::Int32 mMaxNotEmptyGroupIndex; // 0x24
-		::System::Single mTotalSize; // 0x28
-		::System::Int32 mDirtyBeginIndex; // 0x2C
+		::System::Single mTotalSize; // 0x18
+		::System::Int32 mDirtyBeginIndex; // 0x1C
+		::System::Single mStartSpacing; // 0x20
+		::System::Single mItemDefaultSize; // 0x24
+		::System::Single mEndSpacing; // 0x28
+		::System::Int32 mMaxNotEmptyGroupIndex; // 0x2C
 		// static const ::System::Object mItemMaxCountPerGroup; // 0x0
 		::System::Void _ctor(::System::Single a1)
 		{

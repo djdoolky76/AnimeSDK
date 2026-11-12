@@ -6,9 +6,9 @@ class LJFHKAJPFNE;
 namespace RPG::Client::OpenWorld { class StreamingLayerDetail; }
 namespace UnityEngine { class GameObject; }
 
-#define CLPDLAIBICM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA22630)
+#define CLPDLAIBICM_CTOR_OFFSET UNITYSDK_OFFSET(0xE3615C0)
 
-inline static constexpr unsigned int CLPDLAIBICM_TypeDefinitionIndex = 73745;
+inline static constexpr unsigned int CLPDLAIBICM_TypeDefinitionIndex = 75869;
 
 	class CLPDLAIBICM : public ::GDMONJOAKHD
 	{

@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COLORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9C820)
+#define RPG_CLIENT_COLORDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD501070)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 68925;
+	inline static constexpr unsigned int ColorData_TypeDefinitionIndex = 70878;
 
 	class ColorData : public ::UnityEngine::ScriptableObject
 	{

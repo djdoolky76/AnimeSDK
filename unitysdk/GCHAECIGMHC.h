@@ -5,20 +5,20 @@ namespace RPG::GameCore { class ElfEnterNextDay; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define GCHAECIGMHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1596AE90)
-#define GCHAECIGMHC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1596AEA0)
-#define GCHAECIGMHC_OEMHIBLBHLC_OFFSET UNITYSDK_OFFSET(0x1596B230)
-#define GCHAECIGMHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1596AF30)
-#define GCHAECIGMHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1596B280)
-#define GCHAECIGMHC_TICK_OFFSET UNITYSDK_OFFSET(0x1596B310)
+#define GCHAECIGMHC_CTOR_OFFSET UNITYSDK_OFFSET(0x168A0FD0)
+#define GCHAECIGMHC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x168A0FE0)
+#define GCHAECIGMHC_OEMHIBLBHLC_OFFSET UNITYSDK_OFFSET(0x168A1370)
+#define GCHAECIGMHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168A1070)
+#define GCHAECIGMHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x168A13C0)
+#define GCHAECIGMHC_TICK_OFFSET UNITYSDK_OFFSET(0x168A1450)
 
-inline static constexpr unsigned int GCHAECIGMHC_TypeDefinitionIndex = 58093;
+inline static constexpr unsigned int GCHAECIGMHC_TypeDefinitionIndex = 59332;
 
 	class GCHAECIGMHC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ElfEnterNextDay* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ElfEnterNextDay* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ElfEnterNextDay* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ElfEnterNextDay*))((::PBYTE)hIl2Cpp + GCHAECIGMHC_CTOR_OFFSET))(this, a1, a2);

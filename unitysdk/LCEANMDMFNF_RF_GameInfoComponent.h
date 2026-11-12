@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LCEANMDMFNF_RF_GameInfoComponent_TypeDefinitionIndex = 37081;
+inline static constexpr unsigned int LCEANMDMFNF_RF_GameInfoComponent_TypeDefinitionIndex = 38009;
 
 	enum class LCEANMDMFNF_RF_GameInfoComponent : ::System::Byte
 	{

@@ -8,18 +8,18 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define INNOKICFPLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E3330)
-#define INNOKICFPLN_GDEMMOMHFPF_OFFSET UNITYSDK_OFFSET(0x1C6E33D0)
-#define INNOKICFPLN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C6E3990)
-#define INNOKICFPLN_PIBGDEAECCM_OFFSET UNITYSDK_OFFSET(0x1C6E40B0)
+#define INNOKICFPLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D864CE0)
+#define INNOKICFPLN_GDEMMOMHFPF_OFFSET UNITYSDK_OFFSET(0x1D864D80)
+#define INNOKICFPLN_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1D865340)
+#define INNOKICFPLN_PIBGDEAECCM_OFFSET UNITYSDK_OFFSET(0x1D865A60)
 
-inline static constexpr unsigned int INNOKICFPLN_TypeDefinitionIndex = 36899;
+inline static constexpr unsigned int INNOKICFPLN_TypeDefinitionIndex = 37827;
 
 	class INNOKICFPLN : public ::JBIAMEODIHF
 	{
 	public:
-		::System::Collections::Generic::Queue_1<::ECAOILCPKLA>* MNGCFBPCNED; // 0x18
-		::RPG::Client::RPGProfilerMarker* PKCMNIGPGKE; // 0x20
+		::RPG::Client::RPGProfilerMarker* PKCMNIGPGKE; // 0x18
+		::System::Collections::Generic::Queue_1<::ECAOILCPKLA>* MNGCFBPCNED; // 0x20
 		::System::Void _ctor(::KLIKMKFLGLG* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::KLIKMKFLGLG*))((::PBYTE)hIl2Cpp + INNOKICFPLN_CTOR_OFFSET))(this, a1);

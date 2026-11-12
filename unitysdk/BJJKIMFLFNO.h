@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BJJKIMFLFNO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D80EEF0)
-#define BJJKIMFLFNO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D80F470)
-#define BJJKIMFLFNO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D80F060)
-#define BJJKIMFLFNO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D80E9E0)
-#define BJJKIMFLFNO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D80EC70)
-#define BJJKIMFLFNO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D80F100)
-#define BJJKIMFLFNO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D80F150)
-#define BJJKIMFLFNO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D80EF30)
-#define BJJKIMFLFNO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D80EC10)
-#define BJJKIMFLFNO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D80EDA0)
-#define BJJKIMFLFNO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D80EFC0)
-#define BJJKIMFLFNO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D80E960)
+#define BJJKIMFLFNO_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E9C2AB0)
+#define BJJKIMFLFNO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9C3030)
+#define BJJKIMFLFNO_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E9C2C20)
+#define BJJKIMFLFNO_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E9C25A0)
+#define BJJKIMFLFNO_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E9C2830)
+#define BJJKIMFLFNO_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E9C2CC0)
+#define BJJKIMFLFNO_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E9C2D10)
+#define BJJKIMFLFNO_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E9C2AF0)
+#define BJJKIMFLFNO_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E9C27D0)
+#define BJJKIMFLFNO_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E9C2960)
+#define BJJKIMFLFNO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E9C2B80)
+#define BJJKIMFLFNO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E9C2520)
 
-inline static constexpr unsigned int BJJKIMFLFNO_TypeDefinitionIndex = 12215;
+inline static constexpr unsigned int BJJKIMFLFNO_TypeDefinitionIndex = 12272;
 
 	class BJJKIMFLFNO : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0x35F90);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesGachaBasicRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesGachaBasicRow*>**)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0x35F98);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesGachaBasicRow*>**)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0x45AC0);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0x45AC8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0x35FA0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0xB600);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0x45AD0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0xB601);
+			return (::System::Boolean*)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0xEA60);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "BJJKIMFLFNO")->GetStaticField(0xEA61);
 		}
 
 		static ::System::Void _cctor()

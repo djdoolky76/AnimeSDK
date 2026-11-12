@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapSnapshotEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PBHINIKKGMI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEE7F0)
-#define PBHINIKKGMI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBFEE810)
+#define PBHINIKKGMI_CTOR_OFFSET UNITYSDK_OFFSET(0xC8F2D10)
+#define PBHINIKKGMI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC8F2D30)
 
-inline static constexpr unsigned int PBHINIKKGMI_TypeDefinitionIndex = 59250;
+inline static constexpr unsigned int PBHINIKKGMI_TypeDefinitionIndex = 60527;
 
 	class PBHINIKKGMI
 	{

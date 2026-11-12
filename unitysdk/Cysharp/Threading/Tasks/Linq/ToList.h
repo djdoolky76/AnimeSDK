@@ -4,7 +4,7 @@
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ToList_TypeDefinitionIndex = 45684;
+	inline static constexpr unsigned int ToList_TypeDefinitionIndex = 46713;
 
 	class ToList : public ::System::Object
 	{

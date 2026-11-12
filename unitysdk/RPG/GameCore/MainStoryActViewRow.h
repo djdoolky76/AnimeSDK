@@ -6,23 +6,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MainStoryActViewRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAINSTORYACTVIEWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FEA70)
-#define RPG_GAMECORE_MAINSTORYACTVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7FE2A0)
+#define RPG_GAMECORE_MAINSTORYACTVIEWROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA415D0)
+#define RPG_GAMECORE_MAINSTORYACTVIEWROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA40DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MainStoryActViewRow_TypeDefinitionIndex = 13997;
+	inline static constexpr unsigned int MainStoryActViewRow_TypeDefinitionIndex = 14154;
 
 	class MainStoryActViewRow : public ::System::Object
 	{
 	public:
 		::System::String* BannerPicPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 ID; // 0x28
+		::RPG::Client::TextID ChronicleChapterName; // 0x18
+		::System::UInt32 SortID; // 0x28
 		::System::UInt32 IsCompletionOverride; // 0x2C
-		::System::UInt32 SortID; // 0x30
-		::System::UInt32 IsCompleted; // 0x34
-		::RPG::Client::TextID ChronicleChapterName; // 0x38
+		::System::UInt32 IsCompleted; // 0x30
+		::System::UInt32 ID; // 0x34
+		::RPG::Client::TextID Name; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAINSTORYACTVIEWROW_CTOR_OFFSET))(this);

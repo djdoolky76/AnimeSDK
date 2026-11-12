@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HKOJMGEMDNN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D50420)
+#define HKOJMGEMDNN_CTOR_OFFSET UNITYSDK_OFFSET(0x16CA9260)
 
-inline static constexpr unsigned int HKOJMGEMDNN_TypeDefinitionIndex = 56074;
+inline static constexpr unsigned int HKOJMGEMDNN_TypeDefinitionIndex = 57286;
 
 	class HKOJMGEMDNN : public ::System::Object
 	{

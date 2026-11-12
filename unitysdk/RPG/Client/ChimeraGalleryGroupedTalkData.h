@@ -5,19 +5,19 @@
 namespace RPG::Client { class ChimeraGalleryTalkGroupEntry; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4AB00)
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xCB4AAE0)
-#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_TALKTEXTS_OFFSET UNITYSDK_OFFSET(0xCB4AAF0)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD4AE790)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xD4AE770)
+#define RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_GET_TALKTEXTS_OFFSET UNITYSDK_OFFSET(0xD4AE780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraGalleryGroupedTalkData_TypeDefinitionIndex = 63424;
+	inline static constexpr unsigned int ChimeraGalleryGroupedTalkData_TypeDefinitionIndex = 64862;
 
 	class ChimeraGalleryGroupedTalkData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::TextID>* _TalkTexts_k__BackingField; // 0x10
-		::RPG::Client::ChimeraGalleryTalkGroupEntry* _Config_k__BackingField; // 0x18
+		::RPG::Client::ChimeraGalleryTalkGroupEntry* _Config_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::TextID>* _TalkTexts_k__BackingField; // 0x18
 		::System::Void _ctor(::RPG::Client::ChimeraGalleryTalkGroupEntry* a1, ::System::Collections::Generic::List_1<::RPG::Client::TextID>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ChimeraGalleryTalkGroupEntry*, ::System::Collections::Generic::List_1<::RPG::Client::TextID>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_CHIMERAGALLERYGROUPEDTALKDATA_CTOR_OFFSET))(this, a1, a2);

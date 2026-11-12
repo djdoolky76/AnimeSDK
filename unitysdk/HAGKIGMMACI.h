@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideEntityModifierPhaseCamera; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HAGKIGMMACI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B76550)
-#define HAGKIGMMACI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B76580)
+#define HAGKIGMMACI_CTOR_OFFSET UNITYSDK_OFFSET(0x16AFD090)
+#define HAGKIGMMACI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16AFD0C0)
 
-inline static constexpr unsigned int HAGKIGMMACI_TypeDefinitionIndex = 55239;
+inline static constexpr unsigned int HAGKIGMMACI_TypeDefinitionIndex = 56420;
 
 	class HAGKIGMMACI
 	{

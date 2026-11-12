@@ -3,9 +3,9 @@
 #include "unitysdk/FIEBGAGBELM.h"
 #include "unitysdk/System/Exception.h"
 
-#define GOJOAIGGHJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F1E0)
+#define GOJOAIGGHJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1FBC0)
 
-inline static constexpr unsigned int GOJOAIGGHJB_TypeDefinitionIndex = 44300;
+inline static constexpr unsigned int GOJOAIGGHJB_TypeDefinitionIndex = 45375;
 
 	class GOJOAIGGHJB : public ::System::Exception
 	{

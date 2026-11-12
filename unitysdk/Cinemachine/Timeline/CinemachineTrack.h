@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define CINEMACHINE_TIMELINE_CINEMACHINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x166AF590)
-#define CINEMACHINE_TIMELINE_CINEMACHINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x166AF640)
+#define CINEMACHINE_TIMELINE_CINEMACHINETRACK_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x174F3C40)
+#define CINEMACHINE_TIMELINE_CINEMACHINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0x174F3CF0)
 
 namespace Cinemachine::Timeline
 {
-	inline static constexpr unsigned int CinemachineTrack_TypeDefinitionIndex = 39883;
+	inline static constexpr unsigned int CinemachineTrack_TypeDefinitionIndex = 40812;
 
 	class CinemachineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

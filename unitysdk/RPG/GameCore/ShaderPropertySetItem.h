@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ShaderPropertySetItem; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHADERPROPERTYSETITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DACEA30)
-#define RPG_GAMECORE_SHADERPROPERTYSETITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DACE820)
+#define RPG_GAMECORE_SHADERPROPERTYSETITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE0840)
+#define RPG_GAMECORE_SHADERPROPERTYSETITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE0630)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShaderPropertySetItem_TypeDefinitionIndex = 23848;
+	inline static constexpr unsigned int ShaderPropertySetItem_TypeDefinitionIndex = 24305;
 
 	class ShaderPropertySetItem : public ::RPG::GameCore::JsonConfig
 	{

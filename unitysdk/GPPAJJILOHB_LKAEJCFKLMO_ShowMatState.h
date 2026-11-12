@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GPPAJJILOHB_LKAEJCFKLMO_ShowMatState_TypeDefinitionIndex = 60842;
+inline static constexpr unsigned int GPPAJJILOHB_LKAEJCFKLMO_ShowMatState_TypeDefinitionIndex = 62221;
 
 	enum class GPPAJJILOHB_LKAEJCFKLMO_ShowMatState : ::System::Int32
 	{

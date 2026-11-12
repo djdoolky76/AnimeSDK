@@ -6,21 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyMtRankConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC33250)
-#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC33010)
+#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE464F0)
+#define RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE462B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyMtRankConfigRow_TypeDefinitionIndex = 15333;
+	inline static constexpr unsigned int TrainPartyMtRankConfigRow_TypeDefinitionIndex = 15489;
 
 	class TrainPartyMtRankConfigRow : public ::System::Object
 	{
 	public:
 		::System::String* RankPrefabPath; // 0x10
-		::RPG::Client::TextID RankName; // 0x18
-		::System::UInt32 RankScore; // 0x28
-		::System::UInt32 RankNum; // 0x2C
-		::System::UInt32 Rank; // 0x30
+		::System::UInt32 Rank; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID RankName; // 0x20
+		::System::UInt32 RankScore; // 0x30
+		::System::UInt32 RankNum; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYMTRANKCONFIGROW_CTOR_OFFSET))(this);

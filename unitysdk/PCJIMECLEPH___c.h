@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int PCJIMECLEPH___c_TypeDefinitionIndex = 50015;
+inline static constexpr unsigned int PCJIMECLEPH___c_TypeDefinitionIndex = 51063;
 
 	class PCJIMECLEPH___c : public ::System::Object
 	{

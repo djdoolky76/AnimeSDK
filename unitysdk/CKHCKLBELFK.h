@@ -4,10 +4,10 @@
 namespace RPG::Client { class VoracityInvasionProgressBuffData; }
 namespace RPG::GameCore { class ActivityVoracityInvasionProgressBuffRow; }
 
-#define CKHCKLBELFK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD75AD70)
-#define CKHCKLBELFK_CTOR_OFFSET UNITYSDK_OFFSET(0xD75AE20)
+#define CKHCKLBELFK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE0951D0)
+#define CKHCKLBELFK_CTOR_OFFSET UNITYSDK_OFFSET(0xE095280)
 
-inline static constexpr unsigned int CKHCKLBELFK_TypeDefinitionIndex = 68267;
+inline static constexpr unsigned int CKHCKLBELFK_TypeDefinitionIndex = 70213;
 
 	class CKHCKLBELFK : public ::System::Object
 	{

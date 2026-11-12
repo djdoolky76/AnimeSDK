@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PHKPDMEAMBP_TypeDefinitionIndex = 81456;
+inline static constexpr unsigned int PHKPDMEAMBP_TypeDefinitionIndex = 84236;
 
 	class PHKPDMEAMBP
 	{

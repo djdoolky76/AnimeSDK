@@ -5,20 +5,20 @@ class PMEPACFLODP;
 namespace RPG::GameCore { class MemoryVisionPuzzleInit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BDCHMAJEJLB_CTOR_OFFSET UNITYSDK_OFFSET(0x162EC6E0)
-#define BDCHMAJEJLB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x162EC720)
-#define BDCHMAJEJLB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162EC7C0)
-#define BDCHMAJEJLB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x162ECA40)
-#define BDCHMAJEJLB_TICK_OFFSET UNITYSDK_OFFSET(0x162ECA90)
+#define BDCHMAJEJLB_CTOR_OFFSET UNITYSDK_OFFSET(0x170B37E0)
+#define BDCHMAJEJLB_DISPOSE_OFFSET UNITYSDK_OFFSET(0x170B3820)
+#define BDCHMAJEJLB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x170B38C0)
+#define BDCHMAJEJLB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x170B3B40)
+#define BDCHMAJEJLB_TICK_OFFSET UNITYSDK_OFFSET(0x170B3B90)
 
-inline static constexpr unsigned int BDCHMAJEJLB_TypeDefinitionIndex = 53020;
+inline static constexpr unsigned int BDCHMAJEJLB_TypeDefinitionIndex = 54179;
 
 	class BDCHMAJEJLB : public ::GELIALJDFBL
 	{
 	public:
-		::PMEPACFLODP* PNMFAOJNNIC; // 0x18
+		::RPG::GameCore::MemoryVisionPuzzleInit* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::MemoryVisionPuzzleInit* OFKGLJOAMLD; // 0x28
+		::PMEPACFLODP* PNMFAOJNNIC; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MemoryVisionPuzzleInit* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MemoryVisionPuzzleInit*))((::PBYTE)hIl2Cpp + BDCHMAJEJLB_CTOR_OFFSET))(this, a1, a2);

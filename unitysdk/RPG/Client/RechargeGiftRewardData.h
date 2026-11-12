@@ -9,22 +9,22 @@ namespace RPG::GameCore { class RechargeGiftConfigRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET UNITYSDK_OFFSET(0xDE551B0)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDE56010)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xDE55FE0)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xDE56000)
-#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xDE55FF0)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CREATEREWARDSDATA_OFFSET UNITYSDK_OFFSET(0xE8BE820)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BF670)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ID_OFFSET UNITYSDK_OFFSET(0xE8BF640)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0xE8BF660)
+#define RPG_CLIENT_RECHARGEGIFTREWARDDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xE8BF650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RechargeGiftRewardData_TypeDefinitionIndex = 66795;
+	inline static constexpr unsigned int RechargeGiftRewardData_TypeDefinitionIndex = 68731;
 
 	class RechargeGiftRewardData : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* _Items_k__BackingField; // 0x10
-		::System::UInt32 _ID_k__BackingField; // 0x18
-		::RPG::Client::RechargeGiftRewardStatus _Status_k__BackingField; // 0x1C
+		::RPG::Client::RechargeGiftRewardStatus _Status_k__BackingField; // 0x18
+		::System::UInt32 _ID_k__BackingField; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::RechargeGiftRewardStatus a2, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a3, ::System::UInt32 a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::RechargeGiftRewardStatus, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECHARGEGIFTREWARDDATA_CTOR_OFFSET))(this, a1, a2, a3, a4);

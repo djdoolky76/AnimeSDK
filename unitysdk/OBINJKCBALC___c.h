@@ -4,18 +4,18 @@
 class OBINJKCBALC;
 namespace System { class Object; }
 
-#define OBINJKCBALC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBB0FA0)
-#define OBINJKCBALC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB0FE0)
-#define OBINJKCBALC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EBB0FF0)
+#define OBINJKCBALC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0A5650)
+#define OBINJKCBALC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0A5690)
+#define OBINJKCBALC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F0A56A0)
 
-inline static constexpr unsigned int OBINJKCBALC___c_TypeDefinitionIndex = 27737;
+inline static constexpr unsigned int OBINJKCBALC___c_TypeDefinitionIndex = 28268;
 
 	class OBINJKCBALC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x108C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB540);
 		}
 
 		static ::System::Void _cctor()

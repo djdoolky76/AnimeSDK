@@ -10,30 +10,30 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define DLLDHFAAHEP_CTOR_OFFSET UNITYSDK_OFFSET(0xF8AB740)
-#define DLLDHFAAHEP_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0xF8AB6E0)
-#define DLLDHFAAHEP_IOICLMIEEDK_OFFSET UNITYSDK_OFFSET(0xF8AB690)
-#define DLLDHFAAHEP_KLHMDMNOACG_OFFSET UNITYSDK_OFFSET(0xF8AB590)
-#define DLLDHFAAHEP_NALDJLBEGDI_OFFSET UNITYSDK_OFFSET(0xF8AB500)
-#define DLLDHFAAHEP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xF8AB010)
-#define DLLDHFAAHEP__ONBIND_OFFSET UNITYSDK_OFFSET(0xF8AAD10)
+#define DLLDHFAAHEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1061B6F0)
+#define DLLDHFAAHEP_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0x1061B690)
+#define DLLDHFAAHEP_IOICLMIEEDK_OFFSET UNITYSDK_OFFSET(0x1061B640)
+#define DLLDHFAAHEP_KLHMDMNOACG_OFFSET UNITYSDK_OFFSET(0x1061B540)
+#define DLLDHFAAHEP_NALDJLBEGDI_OFFSET UNITYSDK_OFFSET(0x1061B4B0)
+#define DLLDHFAAHEP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1061AFC0)
+#define DLLDHFAAHEP__ONBIND_OFFSET UNITYSDK_OFFSET(0x1061A920)
 
-inline static constexpr unsigned int DLLDHFAAHEP_TypeDefinitionIndex = 71312;
+inline static constexpr unsigned int DLLDHFAAHEP_TypeDefinitionIndex = 73289;
 
 	class DLLDHFAAHEP : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* DEJCIGBKEBM; // 0x60
-		::UnityEngine::UI::Image* IONEJJPBAHK; // 0x68
-		::UnityEngine::Animation* OELMLGBIEKF; // 0x70
-		::UnityEngine::Transform* KDOJNDJJNGM; // 0x78
-		::UnityEngine::UI::Text* CPOINHOCHMN; // 0x80
-		::UnityEngine::UI::Text* JHBMGKBIPJC; // 0x88
-		::UnityEngine::UI::Text* AEJPECICBGN; // 0x90
-		::UnityEngine::UI::Text* CEEHMOEPFMF; // 0x98
-		::UnityEngine::Transform* PGMAJHPHIFM; // 0xA0
-		::UnityEngine::Transform* LJBBPFPOKDE; // 0xA8
-		::UnityEngine::UI::Text* ICGLFOCOEJB; // 0xB0
+		::UnityEngine::Transform* PGMAJHPHIFM; // 0x60
+		::UnityEngine::Transform* KDOJNDJJNGM; // 0x68
+		::UnityEngine::UI::Image* IONEJJPBAHK; // 0x70
+		::UnityEngine::UI::Text* JHBMGKBIPJC; // 0x78
+		::UnityEngine::Transform* LJBBPFPOKDE; // 0x80
+		::UnityEngine::Animation* OELMLGBIEKF; // 0x88
+		::UnityEngine::Transform* DEJCIGBKEBM; // 0x90
+		::UnityEngine::UI::Text* ICGLFOCOEJB; // 0x98
+		::UnityEngine::UI::Text* AEJPECICBGN; // 0xA0
+		::UnityEngine::UI::Text* CEEHMOEPFMF; // 0xA8
+		::UnityEngine::UI::Text* CPOINHOCHMN; // 0xB0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLLDHFAAHEP_CTOR_OFFSET))(this);

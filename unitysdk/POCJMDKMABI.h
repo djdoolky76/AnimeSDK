@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int POCJMDKMABI_TypeDefinitionIndex = 27495;
+inline static constexpr unsigned int POCJMDKMABI_TypeDefinitionIndex = 28026;
 
 	enum class POCJMDKMABI : ::System::Int32
 	{

@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HOBCIDMKOFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5598E0)
-#define HOBCIDMKOFM_GET_BASEATTRIBUTEVALUE_OFFSET UNITYSDK_OFFSET(0x1C5598C0)
-#define HOBCIDMKOFM_GET_TALENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1C5598A0)
-#define HOBCIDMKOFM_SET_BASEATTRIBUTEVALUE_OFFSET UNITYSDK_OFFSET(0x1C5598D0)
-#define HOBCIDMKOFM_SET_TALENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1C5598B0)
+#define HOBCIDMKOFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DB2A0)
+#define HOBCIDMKOFM_GET_BASEATTRIBUTEVALUE_OFFSET UNITYSDK_OFFSET(0x1D6DB280)
+#define HOBCIDMKOFM_GET_TALENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1D6DB260)
+#define HOBCIDMKOFM_SET_BASEATTRIBUTEVALUE_OFFSET UNITYSDK_OFFSET(0x1D6DB290)
+#define HOBCIDMKOFM_SET_TALENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1D6DB270)
 
-inline static constexpr unsigned int HOBCIDMKOFM_TypeDefinitionIndex = 41873;
+inline static constexpr unsigned int HOBCIDMKOFM_TypeDefinitionIndex = 42848;
 
 	class HOBCIDMKOFM : public ::System::Object
 	{
 	public:
-		::System::Int32 _BaseAttributeValue_k__BackingField; // 0x10
-		::System::Int32 _TalentLevel_k__BackingField; // 0x14
+		::System::Int32 _TalentLevel_k__BackingField; // 0x10
+		::System::Int32 _BaseAttributeValue_k__BackingField; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOBCIDMKOFM_CTOR_OFFSET))(this);

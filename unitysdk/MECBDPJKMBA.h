@@ -5,21 +5,21 @@ namespace RPG::Client { class SmellPathGraph; }
 namespace RPG::Client { class SpecialVisionSystem; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MECBDPJKMBA_BIFMNKELGCP_OFFSET UNITYSDK_OFFSET(0xB8BA280)
-#define MECBDPJKMBA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BA130)
-#define MECBDPJKMBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8BA860)
-#define MECBDPJKMBA_EHPBKCNOMJM_OFFSET UNITYSDK_OFFSET(0xB8BA170)
-#define MECBDPJKMBA_KHKICCBPMPF_OFFSET UNITYSDK_OFFSET(0xB8BA310)
-#define MECBDPJKMBA_LNGDBLEKGHG_OFFSET UNITYSDK_OFFSET(0xB8BA6E0)
-#define MECBDPJKMBA_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xB8BA580)
+#define MECBDPJKMBA_BIFMNKELGCP_OFFSET UNITYSDK_OFFSET(0xC16BC80)
+#define MECBDPJKMBA_CTOR_OFFSET UNITYSDK_OFFSET(0xC16BB30)
+#define MECBDPJKMBA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC16C260)
+#define MECBDPJKMBA_EHPBKCNOMJM_OFFSET UNITYSDK_OFFSET(0xC16BB70)
+#define MECBDPJKMBA_KHKICCBPMPF_OFFSET UNITYSDK_OFFSET(0xC16BD10)
+#define MECBDPJKMBA_LNGDBLEKGHG_OFFSET UNITYSDK_OFFSET(0xC16C0E0)
+#define MECBDPJKMBA_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0xC16BF80)
 
-inline static constexpr unsigned int MECBDPJKMBA_TypeDefinitionIndex = 60948;
+inline static constexpr unsigned int MECBDPJKMBA_TypeDefinitionIndex = 62324;
 
 	class MECBDPJKMBA : public ::System::Object
 	{
 	public:
-		::RPG::Client::SpecialVisionSystem* CGKCJPPHKPK; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::SmellPathGraph*>* FKJEEFFNHEJ; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::SmellPathGraph*>* FKJEEFFNHEJ; // 0x10
+		::RPG::Client::SpecialVisionSystem* CGKCJPPHKPK; // 0x18
 		::System::Void _ctor(::RPG::Client::SpecialVisionSystem* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::SpecialVisionSystem*))((::PBYTE)hIl2Cpp + MECBDPJKMBA_CTOR_OFFSET))(this, a1);

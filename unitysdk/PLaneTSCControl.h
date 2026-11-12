@@ -6,15 +6,15 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Renderer; }
 
-#define PLANETSCCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xC311750)
-#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0xC3111C0)
-#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0xC3110C0)
-#define PLANETSCCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xC3116F0)
-#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0xC311230)
-#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0xC3114A0)
-#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xC310C00)
+#define PLANETSCCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC40520)
+#define PLANETSCCONTROL_CLEARRENDERERS_OFFSET UNITYSDK_OFFSET(0xCC3FF90)
+#define PLANETSCCONTROL_COLLECTRENDERERS_OFFSET UNITYSDK_OFFSET(0xCC3FE90)
+#define PLANETSCCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC404C0)
+#define PLANETSCCONTROL_STARTCLIP_OFFSET UNITYSDK_OFFSET(0xCC40000)
+#define PLANETSCCONTROL_STOPCLIP_OFFSET UNITYSDK_OFFSET(0xCC40270)
+#define PLANETSCCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xCC3F9D0)
 
-inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 47279;
+inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 48307;
 
 	class PLaneTSCControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -28,24 +28,24 @@ inline static constexpr unsigned int PLaneTSCControl_TypeDefinitionIndex = 47279
 		::System::Collections::Generic::List_1<::UnityEngine::Renderer*>* TargetObjects; // 0x38
 		::UnityEngine::GameObject* ClipBlockRoot; // 0x40
 		::System::Boolean NEBCHEJDPJA; // 0x48
-		static ::System::Int32* StaticGet_CCEADALFFEM()
+		static ::System::Int32* StaticGet_JDIOPOAEGGM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BE0);
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x16190);
 		}
 
 		static ::System::Int32* StaticGet_NEPFNFJCJFD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BE4);
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x16194);
+		}
+
+		static ::System::Int32* StaticGet_CCEADALFFEM()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x16198);
 		}
 
 		static ::System::Int32* StaticGet_ELBNMMKNPFJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BE8);
-		}
-
-		static ::System::Int32* StaticGet_JDIOPOAEGGM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x15BEC);
+			return (::System::Int32*)UnitySDK::FromName("", "PLaneTSCControl")->GetStaticField(0x1619C);
 		}
 
 		::System::Void _ctor()

@@ -4,18 +4,18 @@
 class ENEKCKAHDIM;
 namespace System { class Object; }
 
-#define ENEKCKAHDIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2EC4A0)
-#define ENEKCKAHDIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2EC4D0)
-#define ENEKCKAHDIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2EC4E0)
+#define ENEKCKAHDIM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5D1140)
+#define ENEKCKAHDIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5D1170)
+#define ENEKCKAHDIM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F5D1180)
 
-inline static constexpr unsigned int ENEKCKAHDIM___c_TypeDefinitionIndex = 33977;
+inline static constexpr unsigned int ENEKCKAHDIM___c_TypeDefinitionIndex = 34892;
 
 	class ENEKCKAHDIM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54590);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4F6F0);
 		}
 
 		static ::System::Void _cctor()

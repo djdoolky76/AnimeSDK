@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToggleUITop; }
 
-#define HBKMMPBNGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0FA00)
-#define HBKMMPBNGAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C0FA30)
+#define HBKMMPBNGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16B517B0)
+#define HBKMMPBNGAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B517E0)
 
-inline static constexpr unsigned int HBKMMPBNGAG_TypeDefinitionIndex = 47622;
+inline static constexpr unsigned int HBKMMPBNGAG_TypeDefinitionIndex = 48652;
 
 	class HBKMMPBNGAG
 	{

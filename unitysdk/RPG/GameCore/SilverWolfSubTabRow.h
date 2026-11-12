@@ -6,24 +6,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SilverWolfSubTabRow; }
 
-#define RPG_GAMECORE_SILVERWOLFSUBTABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE9400)
-#define RPG_GAMECORE_SILVERWOLFSUBTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAE90F0)
+#define RPG_GAMECORE_SILVERWOLFSUBTABROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFB1D0)
+#define RPG_GAMECORE_SILVERWOLFSUBTABROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ECFAEC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SilverWolfSubTabRow_TypeDefinitionIndex = 12351;
+	inline static constexpr unsigned int SilverWolfSubTabRow_TypeDefinitionIndex = 12418;
 
 	class SilverWolfSubTabRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* QuestList; // 0x10
-		::RPG::GameCore::SilverWolfSubTabType TabType; // 0x18
-		::System::UInt32 FinalQuest; // 0x1C
+		::System::UInt32 UnlockMission; // 0x18
+		::System::UInt32 GroupID; // 0x1C
 		::RPG::Client::TextID Title; // 0x20
-		::System::UInt32 EntranceID; // 0x30
-		::System::UInt32 UnlockMission; // 0x34
-		::System::UInt32 GroupID; // 0x38
-		::System::UInt32 MappingInfoID; // 0x3C
+		::System::UInt32 MappingInfoID; // 0x30
+		::System::UInt32 EntranceID; // 0x34
+		::System::UInt32 FinalQuest; // 0x38
+		::RPG::GameCore::SilverWolfSubTabType TabType; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SILVERWOLFSUBTABROW_CTOR_OFFSET))(this);

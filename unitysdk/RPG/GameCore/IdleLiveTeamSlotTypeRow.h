@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveTeamSlotTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7812A0)
-#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7810C0)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9949D0)
+#define RPG_GAMECORE_IDLELIVETEAMSLOTTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9947F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTeamSlotTypeRow_TypeDefinitionIndex = 11724;
+	inline static constexpr unsigned int IdleLiveTeamSlotTypeRow_TypeDefinitionIndex = 11781;
 
 	class IdleLiveTeamSlotTypeRow : public ::System::Object
 	{

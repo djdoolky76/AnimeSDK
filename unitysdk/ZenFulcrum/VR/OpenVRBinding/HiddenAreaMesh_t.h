@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int HiddenAreaMesh_t_TypeDefinitionIndex = 39304;
+	inline static constexpr unsigned int HiddenAreaMesh_t_TypeDefinitionIndex = 40233;
 
 	struct alignas(4) HiddenAreaMesh_t
 	{

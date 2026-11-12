@@ -5,23 +5,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightEnemyDifficultyLvConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTENEMYDIFFICULTYLVCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72BDD0)
-#define RPG_GAMECORE_GRIDFIGHTENEMYDIFFICULTYLVCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72BA20)
+#define RPG_GAMECORE_GRIDFIGHTENEMYDIFFICULTYLVCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E937B10)
+#define RPG_GAMECORE_GRIDFIGHTENEMYDIFFICULTYLVCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9376E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEnemyDifficultyLvConfigRow_TypeDefinitionIndex = 13641;
+	inline static constexpr unsigned int GridFightEnemyDifficultyLvConfigRow_TypeDefinitionIndex = 13766;
 
 	class GridFightEnemyDifficultyLvConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint AttackRatio; // 0x10
-		::RPG::GameCore::FixPoint DefenceRatio; // 0x18
-		::RPG::GameCore::FixPoint HPRatio; // 0x20
-		::System::UInt32 ChapterID; // 0x28
-		::System::UInt32 EnemyDifficultyLevel; // 0x2C
-		::RPG::GameCore::FixPoint SpeedRatio; // 0x30
-		::RPG::GameCore::FixPoint StanceRatio; // 0x38
+		::RPG::GameCore::FixPoint AllDamageReduce; // 0x10
+		::System::UInt32 EnemyDifficultyLevel; // 0x18
+		::System::UInt32 ChapterID; // 0x1C
+		::RPG::GameCore::FixPoint SpeedRatio; // 0x20
+		::RPG::GameCore::FixPoint AttackRatio; // 0x28
+		::RPG::GameCore::FixPoint StanceRatio; // 0x30
+		::RPG::GameCore::FixPoint DefenceRatio; // 0x38
+		::RPG::GameCore::FixPoint HPRatio; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTENEMYDIFFICULTYLVCONFIGROW_CTOR_OFFSET))(this);

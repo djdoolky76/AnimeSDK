@@ -6,20 +6,20 @@ class AECMCBAHALK;
 class CILNKGMHIIE;
 class LDMKDNCFGKL;
 
-#define AECMCBAHALK_BNEOJLLDFJP_OFFSET UNITYSDK_OFFSET(0xB14C480)
-#define AECMCBAHALK_CTOR_OFFSET UNITYSDK_OFFSET(0xB14C470)
-#define AECMCBAHALK_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0xB14C3E0)
+#define AECMCBAHALK_BNEOJLLDFJP_OFFSET UNITYSDK_OFFSET(0xB7B19C0)
+#define AECMCBAHALK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7B19B0)
+#define AECMCBAHALK_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0xB7B1920)
 
-inline static constexpr unsigned int AECMCBAHALK_TypeDefinitionIndex = 56299;
+inline static constexpr unsigned int AECMCBAHALK_TypeDefinitionIndex = 57513;
 
 	class AECMCBAHALK : public ::System::Object
 	{
 	public:
 		::LDMKDNCFGKL* FGNHFJHBPIM; // 0x10
-		::RPG::GameCore::FixPoint MCCIKOBOIEM; // 0x18
-		::System::Int32 DKAHMNKOMPB; // 0x20
-		::System::UInt32 PHFMCACHFIJ; // 0x24
-		::RPG::GameCore::FixPoint NHPMMJEMAHJ; // 0x28
+		::RPG::GameCore::FixPoint NHPMMJEMAHJ; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x20
+		::System::Int32 DKAHMNKOMPB; // 0x24
+		::RPG::GameCore::FixPoint MCCIKOBOIEM; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AECMCBAHALK_CTOR_OFFSET))(this);

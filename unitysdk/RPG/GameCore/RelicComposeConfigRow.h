@@ -5,22 +5,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemConfig; }
 namespace RPG::GameCore { class RelicComposeConfigRow; }
 
-#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D979350)
-#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9790D0)
+#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB91740)
+#define RPG_GAMECORE_RELICCOMPOSECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB914C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicComposeConfigRow_TypeDefinitionIndex = 13844;
+	inline static constexpr unsigned int RelicComposeConfigRow_TypeDefinitionIndex = 14001;
 
 	class RelicComposeConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::ItemConfig*>* MaterialCost; // 0x10
-		::System::UInt32 ItemID; // 0x18
-		::System::UInt32 WorldLevelRequire; // 0x1C
-		::System::UInt32 CoinCost; // 0x20
+		::System::UInt32 WorldLevelRequire; // 0x18
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 ItemID; // 0x20
 		::System::UInt32 Order; // 0x24
-		::System::UInt32 ID; // 0x28
+		::System::UInt32 CoinCost; // 0x28
 		::System::UInt32 Type; // 0x2C
 		::System::Void _ctor()
 		{

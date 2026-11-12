@@ -7,43 +7,43 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MAINMISSIONDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5097F0)
-#define RPG_CLIENT_MAINMISSIONDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD509820)
-#define RPG_CLIENT_MAINMISSIONDATA___C__ADDSUBMISSION_B__106_0_OFFSET UNITYSDK_OFFSET(0xD509830)
-#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_0_OFFSET UNITYSDK_OFFSET(0xD509C70)
-#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_1_OFFSET UNITYSDK_OFFSET(0xD509F60)
-#define RPG_CLIENT_MAINMISSIONDATA___C__INITMISSIONDATA_B__107_0_OFFSET UNITYSDK_OFFSET(0xD509A50)
+#define RPG_CLIENT_MAINMISSIONDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF5A070)
+#define RPG_CLIENT_MAINMISSIONDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF5A0A0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__ADDSUBMISSION_B__106_0_OFFSET UNITYSDK_OFFSET(0xDF5A0B0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_0_OFFSET UNITYSDK_OFFSET(0xDF5A4F0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__GETSUBMISSIONGROUPS_B__108_1_OFFSET UNITYSDK_OFFSET(0xDF5A7E0)
+#define RPG_CLIENT_MAINMISSIONDATA___C__INITMISSIONDATA_B__107_0_OFFSET UNITYSDK_OFFSET(0xDF5A2D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MainMissionData___c_TypeDefinitionIndex = 66131;
+	inline static constexpr unsigned int MainMissionData___c_TypeDefinitionIndex = 68064;
 
 	class MainMissionData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>** StaticGet___9__108_1()
+		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__107_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40770);
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4F850);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40778);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4F858);
 		}
 
-		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__106_0()
+		static ::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>** StaticGet___9__108_1()
 		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40780);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__107_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40788);
+			return (::System::Comparison_1<::RPG::Client::ISubMissionGroupData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4F860);
 		}
 
 		static ::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>** StaticGet___9__108_0()
 		{
-			return (::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x40790);
+			return (::System::Func_2<::RPG::Client::ISubMissionGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4F868);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::SubMissionData*>** StaticGet___9__106_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4F870);
 		}
 
 		static ::System::Void _cctor()

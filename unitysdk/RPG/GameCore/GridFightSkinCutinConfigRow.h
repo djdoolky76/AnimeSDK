@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightSkinCutinConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7434C0)
-#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D743390)
+#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E954F40)
+#define RPG_GAMECORE_GRIDFIGHTSKINCUTINCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E954E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSkinCutinConfigRow_TypeDefinitionIndex = 13562;
+	inline static constexpr unsigned int GridFightSkinCutinConfigRow_TypeDefinitionIndex = 13658;
 
 	class GridFightSkinCutinConfigRow : public ::System::Object
 	{

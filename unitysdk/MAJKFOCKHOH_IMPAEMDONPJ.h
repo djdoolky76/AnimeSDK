@@ -3,9 +3,9 @@
 class ODGPPIHLOFF;
 namespace System { class String; }
 
-#define MAJKFOCKHOH_IMPAEMDONPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C170)
+#define MAJKFOCKHOH_IMPAEMDONPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF50)
 
-inline static constexpr unsigned int MAJKFOCKHOH_IMPAEMDONPJ_TypeDefinitionIndex = 49212;
+inline static constexpr unsigned int MAJKFOCKHOH_IMPAEMDONPJ_TypeDefinitionIndex = 50288;
 
 	struct alignas(8) MAJKFOCKHOH_IMPAEMDONPJ
 	{

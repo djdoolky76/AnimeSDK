@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class WaterReflectionFoamShaderParam; }
 
-#define RPG_GAMECORE_WATERREFLECTIONFOAMSHADERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA5630)
-#define RPG_GAMECORE_WATERREFLECTIONFOAMSHADERPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA53F0)
+#define RPG_GAMECORE_WATERREFLECTIONFOAMSHADERPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB7F40)
+#define RPG_GAMECORE_WATERREFLECTIONFOAMSHADERPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB7DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaterReflectionFoamShaderParam_TypeDefinitionIndex = 16711;
+	inline static constexpr unsigned int WaterReflectionFoamShaderParam_TypeDefinitionIndex = 16877;
 
 	class WaterReflectionFoamShaderParam : public ::RPG::GameCore::JsonConfig
 	{

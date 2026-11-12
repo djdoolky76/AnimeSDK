@@ -5,7 +5,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int CBPFNLKLFLJ_FuncClosureWrapper_5_TypeDefinitionIndex = 6488;
+inline static constexpr unsigned int CBPFNLKLFLJ_FuncClosureWrapper_5_TypeDefinitionIndex = 6495;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class CBPFNLKLFLJ_FuncClosureWrapper_5 : public ::System::Object

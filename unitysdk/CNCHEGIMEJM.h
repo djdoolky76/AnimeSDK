@@ -4,16 +4,16 @@
 class CNCHEGIMEJM;
 class FCOEMCEDLNL;
 
-#define CNCHEGIMEJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1DF0)
-#define CNCHEGIMEJM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB1D00)
+#define CNCHEGIMEJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EED4240)
+#define CNCHEGIMEJM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EED4150)
 
-inline static constexpr unsigned int CNCHEGIMEJM_TypeDefinitionIndex = 11409;
+inline static constexpr unsigned int CNCHEGIMEJM_TypeDefinitionIndex = 11460;
 
 	class CNCHEGIMEJM : public ::System::Object
 	{
 	public:
-		::System::UInt32 BOKJJKFCFME; // 0x10
-		::System::UInt32 AAGKEBFHLMC; // 0x14
+		::System::UInt32 AAGKEBFHLMC; // 0x10
+		::System::UInt32 BOKJJKFCFME; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CNCHEGIMEJM_CTOR_OFFSET))(this);

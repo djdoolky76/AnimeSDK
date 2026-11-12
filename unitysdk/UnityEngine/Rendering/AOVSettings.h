@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AOVSettings_TypeDefinitionIndex = 4828;
+	inline static constexpr unsigned int AOVSettings_TypeDefinitionIndex = 4832;
 
 	struct alignas(4) AOVSettings
 	{

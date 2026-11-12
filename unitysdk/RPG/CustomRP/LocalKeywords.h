@@ -4,23 +4,23 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CUSTOMRP_LOCALKEYWORDS_ADD_OFFSET UNITYSDK_OFFSET(0x1CC34000)
-#define RPG_CUSTOMRP_LOCALKEYWORDS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC34320)
-#define RPG_CUSTOMRP_LOCALKEYWORDS_GETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1CC34150)
-#define RPG_CUSTOMRP_LOCALKEYWORDS_RESET_OFFSET UNITYSDK_OFFSET(0x1CC33FF0)
+#define RPG_CUSTOMRP_LOCALKEYWORDS_ADD_OFFSET UNITYSDK_OFFSET(0x1DDDB470)
+#define RPG_CUSTOMRP_LOCALKEYWORDS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDB790)
+#define RPG_CUSTOMRP_LOCALKEYWORDS_GETKEYWORDS_OFFSET UNITYSDK_OFFSET(0x1DDDB5C0)
+#define RPG_CUSTOMRP_LOCALKEYWORDS_RESET_OFFSET UNITYSDK_OFFSET(0x1DDDB460)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int LocalKeywords_TypeDefinitionIndex = 37887;
+	inline static constexpr unsigned int LocalKeywords_TypeDefinitionIndex = 38816;
 
 	class LocalKeywords : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _LocalMap; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::System::String*>*>* _Combination; // 0x10
 		::Il2CppArray<::System::String*>* _Keywords; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::System::String*>*>* _Combination; // 0x20
-		::System::Int32 _Mask; // 0x28
-		::System::Int32 _Count; // 0x2C
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Int32>* _LocalMap; // 0x20
+		::System::Int32 _Count; // 0x28
+		::System::Int32 _Mask; // 0x2C
 		// static const ::System::Object MAX_COUNT; // 0x0
 		::System::Void _ctor()
 		{

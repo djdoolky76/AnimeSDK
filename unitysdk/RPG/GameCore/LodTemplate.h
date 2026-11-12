@@ -6,13 +6,13 @@ namespace RPG::GameCore { class LodDetail; }
 namespace RPG::GameCore { class LodTemplate; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LODTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F33E0)
-#define RPG_GAMECORE_LODTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7F33F0)
-#define RPG_GAMECORE_LODTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F3190)
+#define RPG_GAMECORE_LODTEMPLATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36060)
+#define RPG_GAMECORE_LODTEMPLATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA36070)
+#define RPG_GAMECORE_LODTEMPLATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA35E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LodTemplate_TypeDefinitionIndex = 19198;
+	inline static constexpr unsigned int LodTemplate_TypeDefinitionIndex = 19388;
 
 	class LodTemplate : public ::RPG::GameCore::JsonConfig
 	{

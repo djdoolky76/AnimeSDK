@@ -10,53 +10,53 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define LIPLALHKAPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6DED70)
-#define LIPLALHKAPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB6DEDB0)
-#define LIPLALHKAPP___C__GET_ONLOCKEDTABCLICKEDCOMMAND_B__61_0_OFFSET UNITYSDK_OFFSET(0xB6DEEE0)
-#define LIPLALHKAPP___C___CTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0xB6DEDC0)
-#define LIPLALHKAPP___C___CTOR_B__13_1_OFFSET UNITYSDK_OFFSET(0xB6DEDF0)
-#define LIPLALHKAPP___C___CTOR_B__13_2_OFFSET UNITYSDK_OFFSET(0xB6DEE30)
-#define LIPLALHKAPP___C___CTOR_B__13_3_OFFSET UNITYSDK_OFFSET(0xB6DEEA0)
-#define LIPLALHKAPP___C___CTOR_B__13_4_OFFSET UNITYSDK_OFFSET(0xB6DEED0)
+#define LIPLALHKAPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF79F10)
+#define LIPLALHKAPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF79F50)
+#define LIPLALHKAPP___C__GET_ONLOCKEDTABCLICKEDCOMMAND_B__61_0_OFFSET UNITYSDK_OFFSET(0xBF7A080)
+#define LIPLALHKAPP___C___CTOR_B__13_0_OFFSET UNITYSDK_OFFSET(0xBF79F60)
+#define LIPLALHKAPP___C___CTOR_B__13_1_OFFSET UNITYSDK_OFFSET(0xBF79F90)
+#define LIPLALHKAPP___C___CTOR_B__13_2_OFFSET UNITYSDK_OFFSET(0xBF79FD0)
+#define LIPLALHKAPP___C___CTOR_B__13_3_OFFSET UNITYSDK_OFFSET(0xBF7A040)
+#define LIPLALHKAPP___C___CTOR_B__13_4_OFFSET UNITYSDK_OFFSET(0xBF7A070)
 
-inline static constexpr unsigned int LIPLALHKAPP___c_TypeDefinitionIndex = 73451;
+inline static constexpr unsigned int LIPLALHKAPP___c_TypeDefinitionIndex = 75574;
 
 	class LIPLALHKAPP___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_3<::System::Boolean, ::LIPLALHKAPP*, ::System::Boolean>** StaticGet___9__13_3()
-		{
-			return (::System::Func_3<::System::Boolean, ::LIPLALHKAPP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FE90);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FE98);
-		}
-
-		static ::System::Action** StaticGet___9__13_4()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEA0);
-		}
-
-		static ::System::Func_3<::System::Int32, ::LIPLALHKAPP*, ::System::Boolean>** StaticGet___9__13_0()
-		{
-			return (::System::Func_3<::System::Int32, ::LIPLALHKAPP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEA8);
-		}
-
-		static ::System::Func_2<::RPG::Client::Ui::Samples::FriendChatTabViewModel*, ::System::String*>** StaticGet___9__13_2()
-		{
-			return (::System::Func_2<::RPG::Client::Ui::Samples::FriendChatTabViewModel*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEB0);
-		}
-
-		static ::System::Func_2<::System::Boolean, ::System::String*>** StaticGet___9__13_1()
-		{
-			return (::System::Func_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEB8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65BB0);
 		}
 
 		static ::System::Action_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>** StaticGet___9__61_0()
 		{
-			return (::System::Action_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FEC0);
+			return (::System::Action_1<::RPG::Client::Ui::Samples::FriendChatTabViewModel*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65BB8);
+		}
+
+		static ::System::Func_3<::System::Int32, ::LIPLALHKAPP*, ::System::Boolean>** StaticGet___9__13_0()
+		{
+			return (::System::Func_3<::System::Int32, ::LIPLALHKAPP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65BC0);
+		}
+
+		static ::System::Func_2<::System::Boolean, ::System::String*>** StaticGet___9__13_1()
+		{
+			return (::System::Func_2<::System::Boolean, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65BC8);
+		}
+
+		static ::System::Action** StaticGet___9__13_4()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65BD0);
+		}
+
+		static ::System::Func_2<::RPG::Client::Ui::Samples::FriendChatTabViewModel*, ::System::String*>** StaticGet___9__13_2()
+		{
+			return (::System::Func_2<::RPG::Client::Ui::Samples::FriendChatTabViewModel*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65BD8);
+		}
+
+		static ::System::Func_3<::System::Boolean, ::LIPLALHKAPP*, ::System::Boolean>** StaticGet___9__13_3()
+		{
+			return (::System::Func_3<::System::Boolean, ::LIPLALHKAPP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x65BE0);
 		}
 
 		static ::System::Void _cctor()

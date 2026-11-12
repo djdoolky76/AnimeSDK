@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SelectorConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_SELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8C940)
-#define RPG_GAMECORE_SELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8C950)
-#define RPG_GAMECORE_SELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8C910)
+#define RPG_GAMECORE_SELECTORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9EFB0)
+#define RPG_GAMECORE_SELECTORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC9EFC0)
+#define RPG_GAMECORE_SELECTORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9EF80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectorConfig_TypeDefinitionIndex = 23784;
+	inline static constexpr unsigned int SelectorConfig_TypeDefinitionIndex = 24240;
 
 	class SelectorConfig : public ::RPG::GameCore::CompositeConfig
 	{

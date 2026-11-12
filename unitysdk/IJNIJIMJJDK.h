@@ -3,22 +3,22 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define IJNIJIMJJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x16471800)
-#define IJNIJIMJJDK_GET_ISFADEIN_OFFSET UNITYSDK_OFFSET(0x16471810)
-#define IJNIJIMJJDK_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x16471830)
-#define IJNIJIMJJDK_GET_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x16471850)
-#define IJNIJIMJJDK_SET_ISFADEIN_OFFSET UNITYSDK_OFFSET(0x16471820)
-#define IJNIJIMJJDK_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x16471840)
-#define IJNIJIMJJDK_SET_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x16471860)
+#define IJNIJIMJJDK_CTOR_OFFSET UNITYSDK_OFFSET(0x174441C0)
+#define IJNIJIMJJDK_GET_ISFADEIN_OFFSET UNITYSDK_OFFSET(0x174441D0)
+#define IJNIJIMJJDK_GET_ISWIN_OFFSET UNITYSDK_OFFSET(0x174441F0)
+#define IJNIJIMJJDK_GET_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x17444210)
+#define IJNIJIMJJDK_SET_ISFADEIN_OFFSET UNITYSDK_OFFSET(0x174441E0)
+#define IJNIJIMJJDK_SET_ISWIN_OFFSET UNITYSDK_OFFSET(0x17444200)
+#define IJNIJIMJJDK_SET_ONCOMPLETE_OFFSET UNITYSDK_OFFSET(0x17444220)
 
-inline static constexpr unsigned int IJNIJIMJJDK_TypeDefinitionIndex = 79017;
+inline static constexpr unsigned int IJNIJIMJJDK_TypeDefinitionIndex = 81793;
 
 	class IJNIJIMJJDK : public ::System::Object
 	{
 	public:
 		::System::Action* _OnComplete_k__BackingField; // 0x10
-		::System::Boolean _IsFadeIn_k__BackingField; // 0x18
-		::System::Boolean _IsWin_k__BackingField; // 0x19
+		::System::Boolean _IsWin_k__BackingField; // 0x18
+		::System::Boolean _IsFadeIn_k__BackingField; // 0x19
 		::System::Void _ctor(::System::Boolean a1, ::System::Boolean a2, ::System::Action* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean, ::System::Action*))((::PBYTE)hIl2Cpp + IJNIJIMJJDK_CTOR_OFFSET))(this, a1, a2, a3);

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooPageType_TypeDefinitionIndex = 24542;
+	inline static constexpr unsigned int SpaceZooPageType_TypeDefinitionIndex = 25003;
 
 	enum class SpaceZooPageType : ::System::Int32
 	{

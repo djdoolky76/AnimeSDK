@@ -4,22 +4,22 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MonsterAvatarGrowUpBeforeData; }
 
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xD8BA380)
-#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8BA400)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_COPYTO_OFFSET UNITYSDK_OFFSET(0xE30CEE0)
+#define RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE30CF60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 62222;
+	inline static constexpr unsigned int MonsterAvatarGrowUpBeforeData_TypeDefinitionIndex = 63635;
 
 	class MonsterAvatarGrowUpBeforeData : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint SpeedBefore; // 0x10
-		::RPG::GameCore::FixPoint AttackBefore; // 0x18
-		::RPG::GameCore::FixPoint HpMaxBefore; // 0x20
-		::System::UInt32 PromotionBefore; // 0x28
-		::System::UInt32 ExpBefore; // 0x2C
-		::RPG::GameCore::FixPoint DefenseBefore; // 0x30
+		::RPG::GameCore::FixPoint DefenseBefore; // 0x10
+		::System::UInt32 ExpBefore; // 0x18
+		::System::UInt32 PromotionBefore; // 0x1C
+		::RPG::GameCore::FixPoint AttackBefore; // 0x20
+		::RPG::GameCore::FixPoint HpMaxBefore; // 0x28
+		::RPG::GameCore::FixPoint SpeedBefore; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MONSTERAVATARGROWUPBEFOREDATA_CTOR_OFFSET))(this);

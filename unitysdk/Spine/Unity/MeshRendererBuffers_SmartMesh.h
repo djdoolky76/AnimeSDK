@@ -4,13 +4,13 @@
 namespace Spine::Unity { class SkeletonRendererInstruction; }
 namespace UnityEngine { class Mesh; }
 
-#define SPINE_UNITY_MESHRENDERERBUFFERS_SMARTMESH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1ED0F7D0)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_SMARTMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED0FD00)
-#define SPINE_UNITY_MESHRENDERERBUFFERS_SMARTMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1ED0FC80)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_SMARTMESH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1FFBF530)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_SMARTMESH_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFBFA60)
+#define SPINE_UNITY_MESHRENDERERBUFFERS_SMARTMESH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1FFBF9E0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshRendererBuffers_SmartMesh_TypeDefinitionIndex = 45084;
+	inline static constexpr unsigned int MeshRendererBuffers_SmartMesh_TypeDefinitionIndex = 46159;
 
 	class MeshRendererBuffers_SmartMesh : public ::System::Object
 	{

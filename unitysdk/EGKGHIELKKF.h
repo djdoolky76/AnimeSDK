@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionGenCurSectionWubbaboo; }
 
-#define EGKGHIELKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FECD0)
-#define EGKGHIELKKF_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5FECE0)
+#define EGKGHIELKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D780350)
+#define EGKGHIELKKF_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1D780360)
 
-inline static constexpr unsigned int EGKGHIELKKF_TypeDefinitionIndex = 37366;
+inline static constexpr unsigned int EGKGHIELKKF_TypeDefinitionIndex = 38294;
 
 	class EGKGHIELKKF : public ::GPLOFONGBGI
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasPlayerMoveInput; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOCFLCDBFDK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA251B0)
-#define MOCFLCDBFDK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA251E0)
+#define MOCFLCDBFDK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E3A70)
+#define MOCFLCDBFDK_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2E3AA0)
 
-inline static constexpr unsigned int MOCFLCDBFDK_TypeDefinitionIndex = 54617;
+inline static constexpr unsigned int MOCFLCDBFDK_TypeDefinitionIndex = 55783;
 
 	class MOCFLCDBFDK
 	{

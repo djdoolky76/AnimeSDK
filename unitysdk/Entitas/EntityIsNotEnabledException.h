@@ -3,11 +3,11 @@
 #include "unitysdk/Entitas/EntitasException.h"
 namespace System { class String; }
 
-#define ENTITAS_ENTITYISNOTENABLEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1675AEF0)
+#define ENTITAS_ENTITYISNOTENABLEDEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1759F120)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityIsNotEnabledException_TypeDefinitionIndex = 10009;
+	inline static constexpr unsigned int EntityIsNotEnabledException_TypeDefinitionIndex = 10017;
 
 	class EntityIsNotEnabledException : public ::Entitas::EntitasException
 	{

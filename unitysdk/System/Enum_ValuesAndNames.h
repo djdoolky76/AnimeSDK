@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_ENUM_VALUESANDNAMES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2051A0)
+#define SYSTEM_ENUM_VALUESANDNAMES_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38BE20)
 
 namespace System
 {

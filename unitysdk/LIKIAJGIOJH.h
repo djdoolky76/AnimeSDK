@@ -7,21 +7,21 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define LIKIAJGIOJH_BFCEEPHAGIF_OFFSET UNITYSDK_OFFSET(0xB6D60A0)
-#define LIKIAJGIOJH_BFMLFOOHFAC_OFFSET UNITYSDK_OFFSET(0xB6D65D0)
-#define LIKIAJGIOJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D5DC0)
-#define LIKIAJGIOJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6D5ED0)
-#define LIKIAJGIOJH_DJGDFMEEADH_OFFSET UNITYSDK_OFFSET(0xB6D6310)
-#define LIKIAJGIOJH_FMNIBBINBIO_OFFSET UNITYSDK_OFFSET(0xB6D6660)
-#define LIKIAJGIOJH_NAHLPAHLBLG_OFFSET UNITYSDK_OFFSET(0xB6D6250)
+#define LIKIAJGIOJH_BFCEEPHAGIF_OFFSET UNITYSDK_OFFSET(0xBF70470)
+#define LIKIAJGIOJH_BFMLFOOHFAC_OFFSET UNITYSDK_OFFSET(0xBF709E0)
+#define LIKIAJGIOJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF70190)
+#define LIKIAJGIOJH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF702A0)
+#define LIKIAJGIOJH_DJGDFMEEADH_OFFSET UNITYSDK_OFFSET(0xBF70710)
+#define LIKIAJGIOJH_FMNIBBINBIO_OFFSET UNITYSDK_OFFSET(0xBF70A70)
+#define LIKIAJGIOJH_NAHLPAHLBLG_OFFSET UNITYSDK_OFFSET(0xBF70650)
 
-inline static constexpr unsigned int LIKIAJGIOJH_TypeDefinitionIndex = 69671;
+inline static constexpr unsigned int LIKIAJGIOJH_TypeDefinitionIndex = 71628;
 
 	class LIKIAJGIOJH : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::CameraModuleType, ::System::Object*>* GCBIMJCNFOJ; // 0x10
-		::System::Collections::Generic::HashSet_1<::RPG::Client::CameraModuleType>* KPNAPJBCDCJ; // 0x18
+		::System::Collections::Generic::HashSet_1<::RPG::Client::CameraModuleType>* KPNAPJBCDCJ; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::CameraModuleType, ::System::Object*>* GCBIMJCNFOJ; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LIKIAJGIOJH_CTOR_OFFSET))(this);

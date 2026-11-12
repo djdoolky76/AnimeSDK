@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetSignedAngleByTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETSIGNEDANGLEBYTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC0E70)
-#define RPG_GAMECORE_SETSIGNEDANGLEBYTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC0E80)
-#define RPG_GAMECORE_SETSIGNEDANGLEBYTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC0E40)
+#define RPG_GAMECORE_SETSIGNEDANGLEBYTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD30F0)
+#define RPG_GAMECORE_SETSIGNEDANGLEBYTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD3100)
+#define RPG_GAMECORE_SETSIGNEDANGLEBYTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD30C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetSignedAngleByTarget_TypeDefinitionIndex = 22741;
+	inline static constexpr unsigned int SetSignedAngleByTarget_TypeDefinitionIndex = 23163;
 
 	class SetSignedAngleByTarget : public ::RPG::GameCore::TaskConfig
 	{

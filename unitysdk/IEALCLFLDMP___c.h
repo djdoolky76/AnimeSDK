@@ -4,18 +4,18 @@
 class IEALCLFLDMP;
 namespace System { class Object; }
 
-#define IEALCLFLDMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6340B0)
-#define IEALCLFLDMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6340F0)
-#define IEALCLFLDMP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E634100)
+#define IEALCLFLDMP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9523D0)
+#define IEALCLFLDMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F952410)
+#define IEALCLFLDMP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F952420)
 
-inline static constexpr unsigned int IEALCLFLDMP___c_TypeDefinitionIndex = 34386;
+inline static constexpr unsigned int IEALCLFLDMP___c_TypeDefinitionIndex = 35314;
 
 	class IEALCLFLDMP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x477F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45060);
 		}
 
 		static ::System::Void _cctor()

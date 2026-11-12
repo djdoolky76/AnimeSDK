@@ -4,16 +4,16 @@
 class KFELGAIGHAP;
 namespace System { class String; }
 
-#define EOINMKOBOKK_CTOR_OFFSET UNITYSDK_OFFSET(0x155C42B0)
-#define EOINMKOBOKK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155C41E0)
+#define EOINMKOBOKK_CTOR_OFFSET UNITYSDK_OFFSET(0x164D6330)
+#define EOINMKOBOKK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164D6260)
 
-inline static constexpr unsigned int EOINMKOBOKK_TypeDefinitionIndex = 55868;
+inline static constexpr unsigned int EOINMKOBOKK_TypeDefinitionIndex = 57071;
 
 	class EOINMKOBOKK : public ::System::Object
 	{
 	public:
-		::System::String* DIEKBKFIFLK; // 0x10
-		::KFELGAIGHAP* NGEALADFOOA; // 0x18
+		::KFELGAIGHAP* NGEALADFOOA; // 0x10
+		::System::String* DIEKBKFIFLK; // 0x18
 		::System::Int32 EFEPKLBFGBF; // 0x20
 		::System::Void _ctor()
 		{

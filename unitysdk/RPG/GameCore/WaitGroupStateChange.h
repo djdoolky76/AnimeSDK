@@ -6,13 +6,13 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitGroupStateChange; }
 
-#define RPG_GAMECORE_WAITGROUPSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC9A0D0)
-#define RPG_GAMECORE_WAITGROUPSTATECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC9A0F0)
-#define RPG_GAMECORE_WAITGROUPSTATECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC9A090)
+#define RPG_GAMECORE_WAITGROUPSTATECHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAC7B0)
+#define RPG_GAMECORE_WAITGROUPSTATECHANGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEAC7D0)
+#define RPG_GAMECORE_WAITGROUPSTATECHANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEAC770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitGroupStateChange_TypeDefinitionIndex = 20725;
+	inline static constexpr unsigned int WaitGroupStateChange_TypeDefinitionIndex = 21062;
 
 	class WaitGroupStateChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DOFEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_DOFEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5ECED0)
-#define RPG_GAMECORE_DOFEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5ECF30)
-#define RPG_GAMECORE_DOFEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5ECE40)
+#define RPG_GAMECORE_DOFEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FEED0)
+#define RPG_GAMECORE_DOFEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7FEF30)
+#define RPG_GAMECORE_DOFEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7FEE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DOFEffect_TypeDefinitionIndex = 20261;
+	inline static constexpr unsigned int DOFEffect_TypeDefinitionIndex = 20596;
 
 	class DOFEffect : public ::RPG::GameCore::TaskConfig
 	{

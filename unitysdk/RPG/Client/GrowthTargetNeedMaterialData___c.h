@@ -5,25 +5,25 @@ namespace RPG::GameCore { class ItemConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2E3570)
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2E35B0)
-#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C___ENSURECOMPOSEMATERIALMAP_B__8_0_OFFSET UNITYSDK_OFFSET(0xD2E35C0)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD183D0)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDD18410)
+#define RPG_CLIENT_GROWTHTARGETNEEDMATERIALDATA___C___ENSURECOMPOSEMATERIALMAP_B__8_0_OFFSET UNITYSDK_OFFSET(0xDD18420)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GrowthTargetNeedMaterialData___c_TypeDefinitionIndex = 65607;
+	inline static constexpr unsigned int GrowthTargetNeedMaterialData___c_TypeDefinitionIndex = 67529;
 
 	class GrowthTargetNeedMaterialData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE600);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17690);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xE608);
+			return (::System::Func_2<::RPG::GameCore::ItemConfig*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x17698);
 		}
 
 		static ::System::Void _cctor()

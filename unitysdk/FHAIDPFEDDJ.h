@@ -4,7 +4,7 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int FHAIDPFEDDJ_TypeDefinitionIndex = 68493;
+inline static constexpr unsigned int FHAIDPFEDDJ_TypeDefinitionIndex = 70441;
 
 	struct alignas(4) FHAIDPFEDDJ
 	{

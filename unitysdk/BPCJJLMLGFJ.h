@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define BPCJJLMLGFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC19F9A0)
-#define BPCJJLMLGFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC19F8F0)
-#define BPCJJLMLGFJ_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xC19F930)
+#define BPCJJLMLGFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCB40500)
+#define BPCJJLMLGFJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB40450)
+#define BPCJJLMLGFJ_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xCB40490)
 
-inline static constexpr unsigned int BPCJJLMLGFJ_TypeDefinitionIndex = 75456;
+inline static constexpr unsigned int BPCJJLMLGFJ_TypeDefinitionIndex = 77783;
 
 	class BPCJJLMLGFJ : public ::System::Object
 	{

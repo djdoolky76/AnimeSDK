@@ -4,18 +4,18 @@
 class HPAGFCCNCHE;
 namespace System { class Object; }
 
-#define HPAGFCCNCHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5F4070)
-#define HPAGFCCNCHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F40B0)
-#define HPAGFCCNCHE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5F40C0)
+#define HPAGFCCNCHE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8F08E0)
+#define HPAGFCCNCHE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8F0920)
+#define HPAGFCCNCHE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8F0930)
 
-inline static constexpr unsigned int HPAGFCCNCHE___c_TypeDefinitionIndex = 34763;
+inline static constexpr unsigned int HPAGFCCNCHE___c_TypeDefinitionIndex = 35691;
 
 	class HPAGFCCNCHE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x502F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41E70);
 		}
 
 		static ::System::Void _cctor()

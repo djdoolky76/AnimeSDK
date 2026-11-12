@@ -5,23 +5,23 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BDMNPIBNFAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16304260)
-#define BDMNPIBNFAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x163042A0)
-#define BDMNPIBNFAN___C__TICKROUND_B__3_0_OFFSET UNITYSDK_OFFSET(0x163042B0)
+#define BDMNPIBNFAN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7B94D0)
+#define BDMNPIBNFAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7B9510)
+#define BDMNPIBNFAN___C__TICKROUND_B__3_0_OFFSET UNITYSDK_OFFSET(0xB7B9520)
 
-inline static constexpr unsigned int BDMNPIBNFAN___c_TypeDefinitionIndex = 64373;
+inline static constexpr unsigned int BDMNPIBNFAN___c_TypeDefinitionIndex = 65820;
 
 	class BDMNPIBNFAN___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DBA0);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68F10);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DBA8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68F18);
 		}
 
 		static ::System::Void _cctor()

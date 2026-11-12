@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore::Match3 { class TagBehaviourConfig; }
 
-#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D852190)
-#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D851F80)
+#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6CB40)
+#define RPG_GAMECORE_MATCH3_TAGBEHAVIOURCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA68980)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int TagBehaviourConfig_TypeDefinitionIndex = 24952;
+	inline static constexpr unsigned int TagBehaviourConfig_TypeDefinitionIndex = 25432;
 
 	class TagBehaviourConfig : public ::RPG::GameCore::JsonConfig
 	{

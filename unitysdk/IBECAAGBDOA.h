@@ -5,10 +5,10 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine { class Transform; }
 
-#define IBECAAGBDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15E2C5C0)
-#define IBECAAGBDOA_ELINOHABNCJ_OFFSET UNITYSDK_OFFSET(0x15E2C5D0)
+#define IBECAAGBDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x16DD5FC0)
+#define IBECAAGBDOA_ELINOHABNCJ_OFFSET UNITYSDK_OFFSET(0x16DD5FD0)
 
-inline static constexpr unsigned int IBECAAGBDOA_TypeDefinitionIndex = 69001;
+inline static constexpr unsigned int IBECAAGBDOA_TypeDefinitionIndex = 70954;
 
 	class IBECAAGBDOA : public ::AAHOFEAIMFO
 	{

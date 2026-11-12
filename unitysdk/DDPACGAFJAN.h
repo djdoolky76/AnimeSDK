@@ -3,9 +3,9 @@
 namespace System { class String; }
 
 #define DDPACGAFJAN_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
-#define DDPACGAFJAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF5880)
+#define DDPACGAFJAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xFF890)
 
-inline static constexpr unsigned int DDPACGAFJAN_TypeDefinitionIndex = 67757;
+inline static constexpr unsigned int DDPACGAFJAN_TypeDefinitionIndex = 69702;
 
 	struct alignas(4) DDPACGAFJAN
 	{

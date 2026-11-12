@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleBattleAffiliationType_TypeDefinitionIndex = 65823;
+	inline static constexpr unsigned int MarbleBattleAffiliationType_TypeDefinitionIndex = 67755;
 
 	enum class MarbleBattleAffiliationType : ::System::Int32
 	{

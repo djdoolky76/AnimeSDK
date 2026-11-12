@@ -6,31 +6,31 @@ class EBBBJDPGDFG;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_GAMECORE_RTBATTLEMODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE7408D0)
-#define RPG_GAMECORE_RTBATTLEMODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE740910)
-#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_0_OFFSET UNITYSDK_OFFSET(0xE740920)
-#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_1_OFFSET UNITYSDK_OFFSET(0xE740940)
+#define RPG_GAMECORE_RTBATTLEMODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF243990)
+#define RPG_GAMECORE_RTBATTLEMODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF2439D0)
+#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_0_OFFSET UNITYSDK_OFFSET(0xF2439E0)
+#define RPG_GAMECORE_RTBATTLEMODE___C__ONPREINIT_B__83_1_OFFSET UNITYSDK_OFFSET(0xF243A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleMode___c_TypeDefinitionIndex = 54270;
+	inline static constexpr unsigned int RtBattleMode___c_TypeDefinitionIndex = 55434;
 
 	class RtBattleMode___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA80);
-		}
-
 		static ::System::Action_1<::EBBBJDPGDFG*>** StaticGet___9__83_0()
 		{
-			return (::System::Action_1<::EBBBJDPGDFG*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA88);
+			return (::System::Action_1<::EBBBJDPGDFG*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72510);
 		}
 
 		static ::System::Action_1<::AAKADBDHKBJ*>** StaticGet___9__83_1()
 		{
-			return (::System::Action_1<::AAKADBDHKBJ*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x6CA90);
+			return (::System::Action_1<::AAKADBDHKBJ*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72518);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x72520);
 		}
 
 		static ::System::Void _cctor()

@@ -12,28 +12,28 @@ namespace RPG::GameCore { class MazePuzzleOrigamiRow; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OGCAOECFEGM_AEGIAGFHBHB_OFFSET UNITYSDK_OFFSET(0xBE527E0)
-#define OGCAOECFEGM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE51F60)
-#define OGCAOECFEGM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE51F70)
-#define OGCAOECFEGM_ECEBDIPBCGN_OFFSET UNITYSDK_OFFSET(0xBE529D0)
-#define OGCAOECFEGM_HOODGGALJEL_OFFSET UNITYSDK_OFFSET(0xBE52840)
-#define OGCAOECFEGM_LJKLOKHHIEC_OFFSET UNITYSDK_OFFSET(0xBE52000)
-#define OGCAOECFEGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE520E0)
-#define OGCAOECFEGM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE52920)
-#define OGCAOECFEGM_TICK_OFFSET UNITYSDK_OFFSET(0xBE52970)
+#define OGCAOECFEGM_AEGIAGFHBHB_OFFSET UNITYSDK_OFFSET(0xC70C7F0)
+#define OGCAOECFEGM_CTOR_OFFSET UNITYSDK_OFFSET(0xC70BF70)
+#define OGCAOECFEGM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC70BF80)
+#define OGCAOECFEGM_ECEBDIPBCGN_OFFSET UNITYSDK_OFFSET(0xC70C9E0)
+#define OGCAOECFEGM_HOODGGALJEL_OFFSET UNITYSDK_OFFSET(0xC70C850)
+#define OGCAOECFEGM_LJKLOKHHIEC_OFFSET UNITYSDK_OFFSET(0xC70C010)
+#define OGCAOECFEGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC70C0F0)
+#define OGCAOECFEGM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC70C930)
+#define OGCAOECFEGM_TICK_OFFSET UNITYSDK_OFFSET(0xC70C980)
 
-inline static constexpr unsigned int OGCAOECFEGM_TypeDefinitionIndex = 52721;
+inline static constexpr unsigned int OGCAOECFEGM_TypeDefinitionIndex = 53865;
 
 	class OGCAOECFEGM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::MapDef* MJKJCCNJACA; // 0x18
-		::RPG::GameCore::CreateOrigamiByPropStateChange* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::RPG::Client::RuntimeGroupManager* KDCJFIMPKLP; // 0x30
+		::RPG::GameCore::CreateOrigamiByPropStateChange* OFKGLJOAMLD; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* HIJFAMPOEME; // 0x20
+		::RPG::Client::MapDef* MJKJCCNJACA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
 		::System::Collections::Generic::List_1<::System::ValueTuple_2<::RPG::Client::MapPropDef*, ::System::Int32>>* JBOKMBGMFLJ; // 0x38
-		::System::Collections::Generic::List_1<::RPG::GameCore::MazePuzzleOrigamiRow*>* HIJFAMPOEME; // 0x40
-		::RPG::GameCore::MazePuzzleOrigamiColonyRow* CLDJDHCJFFD; // 0x48
+		::RPG::GameCore::MazePuzzleOrigamiColonyRow* CLDJDHCJFFD; // 0x40
+		::RPG::Client::RuntimeGroupManager* KDCJFIMPKLP; // 0x48
 		::System::UInt32 KGGMOFBNALD; // 0x50
 		::System::Boolean MAPILNBMEIE; // 0x54
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateOrigamiByPropStateChange* a2)

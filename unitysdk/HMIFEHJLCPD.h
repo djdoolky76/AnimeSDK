@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HMIFEHJLCPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAED0D0)
+#define HMIFEHJLCPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1B10)
 
-inline static constexpr unsigned int HMIFEHJLCPD_TypeDefinitionIndex = 42137;
+inline static constexpr unsigned int HMIFEHJLCPD_TypeDefinitionIndex = 43112;
 
 	class HMIFEHJLCPD : public ::System::Object
 	{

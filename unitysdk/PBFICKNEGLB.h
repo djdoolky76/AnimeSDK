@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int PBFICKNEGLB_TypeDefinitionIndex = 73504;
+inline static constexpr unsigned int PBFICKNEGLB_TypeDefinitionIndex = 75627;
 
 	struct alignas(4) PBFICKNEGLB
 	{

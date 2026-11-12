@@ -4,12 +4,12 @@
 namespace RPG::Client::B51Racing { class B51RacingNewPartHintDialogViewModel; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGCONTROL___C__DISPLAYCLASS18_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B4170)
-#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGCONTROL___C__DISPLAYCLASS18_1__ONCONFIRMCLICK_B__1_OFFSET UNITYSDK_OFFSET(0xC7B4180)
+#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGCONTROL___C__DISPLAYCLASS18_1_CTOR_OFFSET UNITYSDK_OFFSET(0xD1153A0)
+#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGCONTROL___C__DISPLAYCLASS18_1__ONCONFIRMCLICK_B__1_OFFSET UNITYSDK_OFFSET(0xD1153B0)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingNewPartHintDialogControl___c__DisplayClass18_1_TypeDefinitionIndex = 81793;
+	inline static constexpr unsigned int B51RacingNewPartHintDialogControl___c__DisplayClass18_1_TypeDefinitionIndex = 84574;
 
 	template <typename T>
 	class B51RacingNewPartHintDialogControl___c__DisplayClass18_1 : public ::System::Object

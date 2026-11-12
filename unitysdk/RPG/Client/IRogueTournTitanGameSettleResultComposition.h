@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IRogueTournTitanGameSettleResultComposition_TypeDefinitionIndex = 67851;
+	inline static constexpr unsigned int IRogueTournTitanGameSettleResultComposition_TypeDefinitionIndex = 69796;
 
 	class IRogueTournTitanGameSettleResultComposition
 	{

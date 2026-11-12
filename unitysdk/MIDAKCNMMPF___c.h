@@ -6,29 +6,29 @@ class IHPIHJDMOPL;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define MIDAKCNMMPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C92BBD0)
-#define MIDAKCNMMPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92BC10)
-#define MIDAKCNMMPF___C___SORT_B__15_0_OFFSET UNITYSDK_OFFSET(0x1C92BC20)
-#define MIDAKCNMMPF___C___SORT_B__15_1_OFFSET UNITYSDK_OFFSET(0x1C92BCA0)
+#define MIDAKCNMMPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAECFB0)
+#define MIDAKCNMMPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAECFE0)
+#define MIDAKCNMMPF___C___SORT_B__15_0_OFFSET UNITYSDK_OFFSET(0x1DAECFF0)
+#define MIDAKCNMMPF___C___SORT_B__15_1_OFFSET UNITYSDK_OFFSET(0x1DAED070)
 
-inline static constexpr unsigned int MIDAKCNMMPF___c_TypeDefinitionIndex = 43640;
+inline static constexpr unsigned int MIDAKCNMMPF___c_TypeDefinitionIndex = 44623;
 
 	class MIDAKCNMMPF___c : public ::System::Object
 	{
 	public:
+		static ::System::Comparison_1<::GFIMNLJALNN*>** StaticGet___9__15_1()
+		{
+			return (::System::Comparison_1<::GFIMNLJALNN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x508C0);
+		}
+
 		static ::System::Comparison_1<::IHPIHJDMOPL*>** StaticGet___9__15_0()
 		{
-			return (::System::Comparison_1<::IHPIHJDMOPL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x562B0);
+			return (::System::Comparison_1<::IHPIHJDMOPL*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x508C8);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x562B8);
-		}
-
-		static ::System::Comparison_1<::GFIMNLJALNN*>** StaticGet___9__15_1()
-		{
-			return (::System::Comparison_1<::GFIMNLJALNN*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x562C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x508D0);
 		}
 
 		static ::System::Void _cctor()

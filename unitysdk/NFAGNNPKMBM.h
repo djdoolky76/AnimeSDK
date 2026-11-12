@@ -6,10 +6,10 @@ class CEEGMMCFCBG;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define NFAGNNPKMBM_AJAKLNHLMPD_OFFSET UNITYSDK_OFFSET(0xBB76C60)
-#define NFAGNNPKMBM_DIBHBGCEEGE_OFFSET UNITYSDK_OFFSET(0xBB76B50)
+#define NFAGNNPKMBM_AJAKLNHLMPD_OFFSET UNITYSDK_OFFSET(0xC451A90)
+#define NFAGNNPKMBM_DIBHBGCEEGE_OFFSET UNITYSDK_OFFSET(0xC451980)
 
-inline static constexpr unsigned int NFAGNNPKMBM_TypeDefinitionIndex = 80512;
+inline static constexpr unsigned int NFAGNNPKMBM_TypeDefinitionIndex = 83292;
 
 	class NFAGNNPKMBM : public ::System::Object
 	{

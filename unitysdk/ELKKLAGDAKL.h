@@ -4,14 +4,14 @@
 namespace System { class String; }
 namespace UnityEngine { class Animation; }
 
-#define ELKKLAGDAKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x155267E0)
-#define ELKKLAGDAKL_CTOR_OFFSET UNITYSDK_OFFSET(0x155267A0)
-#define ELKKLAGDAKL_DALIOPHDBIP_OFFSET UNITYSDK_OFFSET(0x155266F0)
-#define ELKKLAGDAKL_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0x15526580)
-#define ELKKLAGDAKL_JHJODHHJLAK_OFFSET UNITYSDK_OFFSET(0x15526660)
-#define ELKKLAGDAKL__ONBIND_OFFSET UNITYSDK_OFFSET(0x15526520)
+#define ELKKLAGDAKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1646EED0)
+#define ELKKLAGDAKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1646EE90)
+#define ELKKLAGDAKL_DALIOPHDBIP_OFFSET UNITYSDK_OFFSET(0x1646EDE0)
+#define ELKKLAGDAKL_JHJODHHJLAK_OFFSET UNITYSDK_OFFSET(0x1646ED50)
+#define ELKKLAGDAKL__ONBIND_OFFSET UNITYSDK_OFFSET(0x1646EBC0)
+#define ELKKLAGDAKL__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x1646EC70)
 
-inline static constexpr unsigned int ELKKLAGDAKL_TypeDefinitionIndex = 71865;
+inline static constexpr unsigned int ELKKLAGDAKL_TypeDefinitionIndex = 73886;
 
 	class ELKKLAGDAKL : public ::EJLNMFOPGOP
 	{
@@ -19,7 +19,7 @@ inline static constexpr unsigned int ELKKLAGDAKL_TypeDefinitionIndex = 71865;
 		::UnityEngine::Animation* JPHOOFFIAAH; // 0xD0
 		static ::System::String** StaticGet_DJCBDJMACFH()
 		{
-			return (::System::String**)UnitySDK::FromName("", "ELKKLAGDAKL")->GetStaticField(0x48FB0);
+			return (::System::String**)UnitySDK::FromName("", "ELKKLAGDAKL")->GetStaticField(0x27590);
 		}
 
 		// static const ::System::String* IIFENECAOBG; // 0x0
@@ -39,9 +39,9 @@ inline static constexpr unsigned int ELKKLAGDAKL_TypeDefinitionIndex = 71865;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ELKKLAGDAKL__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ELKKLAGDAKL_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ELKKLAGDAKL__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void DALIOPHDBIP(::System::Boolean a1)

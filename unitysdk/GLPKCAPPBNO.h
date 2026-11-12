@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int GLPKCAPPBNO_TypeDefinitionIndex = 6199;
+inline static constexpr unsigned int GLPKCAPPBNO_TypeDefinitionIndex = 6206;
 
 	struct alignas(4) GLPKCAPPBNO
 	{

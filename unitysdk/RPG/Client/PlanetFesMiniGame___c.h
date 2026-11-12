@@ -5,25 +5,25 @@ namespace RPG::Client { class PlanetFesMiniGameReward; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PLANETFESMINIGAME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB9D060)
-#define RPG_CLIENT_PLANETFESMINIGAME___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB9D0A0)
-#define RPG_CLIENT_PLANETFESMINIGAME___C__GETREWARDS_B__3_0_OFFSET UNITYSDK_OFFSET(0xDB9D0B0)
+#define RPG_CLIENT_PLANETFESMINIGAME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE637CD0)
+#define RPG_CLIENT_PLANETFESMINIGAME___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE637D10)
+#define RPG_CLIENT_PLANETFESMINIGAME___C__GETREWARDS_B__3_0_OFFSET UNITYSDK_OFFSET(0xE637D20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlanetFesMiniGame___c_TypeDefinitionIndex = 66606;
+	inline static constexpr unsigned int PlanetFesMiniGame___c_TypeDefinitionIndex = 68542;
 
 	class PlanetFesMiniGame___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x31190);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3DEB0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::PlanetFesMiniGameReward*>** StaticGet___9__3_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesMiniGameReward*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x31198);
+			return (::System::Comparison_1<::RPG::Client::PlanetFesMiniGameReward*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3DEB8);
 		}
 
 		static ::System::Void _cctor()

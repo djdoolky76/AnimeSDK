@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int DistinctUntilChangedAwaitWithCancellation_2_TypeDefinitionIndex = 45350;
+	inline static constexpr unsigned int DistinctUntilChangedAwaitWithCancellation_2_TypeDefinitionIndex = 46379;
 
 	template <typename T1, typename T2>
 	class DistinctUntilChangedAwaitWithCancellation_2 : public ::System::Object

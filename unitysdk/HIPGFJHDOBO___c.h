@@ -4,18 +4,18 @@
 class HIPGFJHDOBO;
 namespace System { class Object; }
 
-#define HIPGFJHDOBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5A0F30)
-#define HIPGFJHDOBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A0F70)
-#define HIPGFJHDOBO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5A0F80)
+#define HIPGFJHDOBO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F89C1D0)
+#define HIPGFJHDOBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F89C210)
+#define HIPGFJHDOBO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F89C220)
 
-inline static constexpr unsigned int HIPGFJHDOBO___c_TypeDefinitionIndex = 30393;
+inline static constexpr unsigned int HIPGFJHDOBO___c_TypeDefinitionIndex = 31299;
 
 	class HIPGFJHDOBO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3EF40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x334B0);
 		}
 
 		static ::System::Void _cctor()

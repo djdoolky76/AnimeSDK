@@ -6,12 +6,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LGGMCNNPELH_CTOR_OFFSET UNITYSDK_OFFSET(0xB6974C0)
-#define LGGMCNNPELH_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB697750)
-#define LGGMCNNPELH_FILTER_OFFSET UNITYSDK_OFFSET(0xB6975F0)
-#define LGGMCNNPELH_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0xB697520)
+#define LGGMCNNPELH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF2E5A0)
+#define LGGMCNNPELH_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBF2E830)
+#define LGGMCNNPELH_FILTER_OFFSET UNITYSDK_OFFSET(0xBF2E6D0)
+#define LGGMCNNPELH_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0xBF2E600)
 
-inline static constexpr unsigned int LGGMCNNPELH_TypeDefinitionIndex = 75780;
+inline static constexpr unsigned int LGGMCNNPELH_TypeDefinitionIndex = 78107;
 
 	class LGGMCNNPELH
 	{

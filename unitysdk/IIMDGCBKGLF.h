@@ -4,9 +4,9 @@
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define IIMDGCBKGLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1644DCA0)
+#define IIMDGCBKGLF_CTOR_OFFSET UNITYSDK_OFFSET(0x17408A50)
 
-inline static constexpr unsigned int IIMDGCBKGLF_TypeDefinitionIndex = 64788;
+inline static constexpr unsigned int IIMDGCBKGLF_TypeDefinitionIndex = 66332;
 
 	class IIMDGCBKGLF : public ::System::Object
 	{

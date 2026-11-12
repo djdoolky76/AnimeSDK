@@ -2,14 +2,14 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-#define SYSTEM_PARAMSARRAY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C290C40)
-#define SYSTEM_PARAMSARRAY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C22DB0)
-#define SYSTEM_PARAMSARRAY_CTOR_2_OFFSET UNITYSDK_OFFSET(0x3C22DE0)
-#define SYSTEM_PARAMSARRAY_CTOR_3_OFFSET UNITYSDK_OFFSET(0x3C22E00)
-#define SYSTEM_PARAMSARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x3C22D90)
-#define SYSTEM_PARAMSARRAY_GETATSLOW_OFFSET UNITYSDK_OFFSET(0x3C22EF0)
-#define SYSTEM_PARAMSARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3C22E80)
-#define SYSTEM_PARAMSARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x3C22E60)
+#define SYSTEM_PARAMSARRAY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D417940)
+#define SYSTEM_PARAMSARRAY_CTOR_1_OFFSET UNITYSDK_OFFSET(0x3E71D30)
+#define SYSTEM_PARAMSARRAY_CTOR_2_OFFSET UNITYSDK_OFFSET(0x3E71D60)
+#define SYSTEM_PARAMSARRAY_CTOR_3_OFFSET UNITYSDK_OFFSET(0x3E71D80)
+#define SYSTEM_PARAMSARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x3E71D10)
+#define SYSTEM_PARAMSARRAY_GETATSLOW_OFFSET UNITYSDK_OFFSET(0x3E71E70)
+#define SYSTEM_PARAMSARRAY_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x3E71E00)
+#define SYSTEM_PARAMSARRAY_GET_LENGTH_OFFSET UNITYSDK_OFFSET(0x3E71DE0)
 
 namespace System
 {
@@ -21,19 +21,19 @@ namespace System
 		::System::Object* arg1; // 0x18
 		::System::Object* arg2; // 0x20
 		::Il2CppArray<::System::Object*>* args; // 0x28
+		static ::Il2CppArray<::System::Object*>** StaticGet_threeArgArray()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x1B520);
+		}
+
 		static ::Il2CppArray<::System::Object*>** StaticGet_oneArgArray()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x12C00);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x1B528);
 		}
 
 		static ::Il2CppArray<::System::Object*>** StaticGet_twoArgArray()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x12C08);
-		}
-
-		static ::Il2CppArray<::System::Object*>** StaticGet_threeArgArray()
-		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x12C10);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("System", "ParamsArray")->GetStaticField(0x1B530);
 		}
 
 		::System::Void _ctor(::System::Object* a1)

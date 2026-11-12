@@ -6,10 +6,10 @@ class KNFCEJEJINK;
 namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AEPHFJDPEOE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF04A00)
-#define AEPHFJDPEOE_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xCF04960)
+#define AEPHFJDPEOE_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B6240)
+#define AEPHFJDPEOE_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xD5B61A0)
 
-inline static constexpr unsigned int AEPHFJDPEOE_TypeDefinitionIndex = 77693;
+inline static constexpr unsigned int AEPHFJDPEOE_TypeDefinitionIndex = 80428;
 
 	class AEPHFJDPEOE : public ::HBLDGJCDJPF
 	{

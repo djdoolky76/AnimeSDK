@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackCameraOverrideWayPointType_TypeDefinitionIndex = 69652;
+	inline static constexpr unsigned int TrackCameraOverrideWayPointType_TypeDefinitionIndex = 71609;
 
 	enum class TrackCameraOverrideWayPointType : ::System::Int32
 	{

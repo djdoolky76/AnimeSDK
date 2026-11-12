@@ -4,7 +4,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2ExplosionDef_TypeDefinitionIndex = 36666;
+	inline static constexpr unsigned int B2ExplosionDef_TypeDefinitionIndex = 37594;
 
 	struct alignas(4) B2ExplosionDef
 	{

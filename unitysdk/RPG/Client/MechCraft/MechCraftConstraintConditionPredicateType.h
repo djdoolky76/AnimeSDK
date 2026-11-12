@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft
 {
-	inline static constexpr unsigned int MechCraftConstraintConditionPredicateType_TypeDefinitionIndex = 41652;
+	inline static constexpr unsigned int MechCraftConstraintConditionPredicateType_TypeDefinitionIndex = 42627;
 
 	enum class MechCraftConstraintConditionPredicateType : ::System::Int32
 	{

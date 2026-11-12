@@ -4,18 +4,18 @@
 class ILLDFAANIEP;
 namespace System { class Object; }
 
-#define ILLDFAANIEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B1460)
-#define ILLDFAANIEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B14A0)
-#define ILLDFAANIEP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E6B14B0)
+#define ILLDFAANIEP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9B8ED0)
+#define ILLDFAANIEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9B8F10)
+#define ILLDFAANIEP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F9B8F20)
 
-inline static constexpr unsigned int ILLDFAANIEP___c_TypeDefinitionIndex = 29757;
+inline static constexpr unsigned int ILLDFAANIEP___c_TypeDefinitionIndex = 30655;
 
 	class ILLDFAANIEP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56790);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54160);
 		}
 
 		static ::System::Void _cctor()

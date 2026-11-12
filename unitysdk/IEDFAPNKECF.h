@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int IEDFAPNKECF_TypeDefinitionIndex = 6197;
+inline static constexpr unsigned int IEDFAPNKECF_TypeDefinitionIndex = 6204;
 
 	struct alignas(4) IEDFAPNKECF
 	{

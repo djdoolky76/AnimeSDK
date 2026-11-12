@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System::IO { class Stream; }
 
-#define DJJLNLJPGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F2870)
-#define DJJLNLJPGMJ_HMBFDGFCAFE_OFFSET UNITYSDK_OFFSET(0x1C5F2880)
+#define DJJLNLJPGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D773FB0)
+#define DJJLNLJPGMJ_HMBFDGFCAFE_OFFSET UNITYSDK_OFFSET(0x1D773FC0)
 
-inline static constexpr unsigned int DJJLNLJPGMJ_TypeDefinitionIndex = 36887;
+inline static constexpr unsigned int DJJLNLJPGMJ_TypeDefinitionIndex = 37815;
 
 	class DJJLNLJPGMJ : public ::System::Object
 	{

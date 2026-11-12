@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsSplitDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ENFCFMOFDHA_CTOR_OFFSET UNITYSDK_OFFSET(0x155AA6F0)
-#define ENFCFMOFDHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155AA720)
+#define ENFCFMOFDHA_CTOR_OFFSET UNITYSDK_OFFSET(0x164BAF00)
+#define ENFCFMOFDHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164BAF30)
 
-inline static constexpr unsigned int ENFCFMOFDHA_TypeDefinitionIndex = 54684;
+inline static constexpr unsigned int ENFCFMOFDHA_TypeDefinitionIndex = 55850;
 
 	class ENFCFMOFDHA
 	{

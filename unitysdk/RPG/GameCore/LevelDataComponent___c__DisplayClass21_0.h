@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class PBNONKAIAMK;
 
-#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E8A90)
-#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET UNITYSDK_OFFSET(0xE6EB120)
+#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF1EAE30)
+#define RPG_GAMECORE_LEVELDATACOMPONENT___C__DISPLAYCLASS21_0__STATISTICBATTLETARGETLIST_B__0_OFFSET UNITYSDK_OFFSET(0xF1ED680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDataComponent___c__DisplayClass21_0_TypeDefinitionIndex = 57599;
+	inline static constexpr unsigned int LevelDataComponent___c__DisplayClass21_0_TypeDefinitionIndex = 58827;
 
 	class LevelDataComponent___c__DisplayClass21_0 : public ::System::Object
 	{

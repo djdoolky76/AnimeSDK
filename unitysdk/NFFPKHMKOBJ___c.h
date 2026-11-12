@@ -10,71 +10,71 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine { class Collider; }
 
-#define NFFPKHMKOBJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB8F220)
-#define NFFPKHMKOBJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBB8F250)
-#define NFFPKHMKOBJ___C___CONFIGURECURVE_B__31_0_OFFSET UNITYSDK_OFFSET(0xBB8F330)
-#define NFFPKHMKOBJ___C___CONFIGURESURFACE_B__30_0_OFFSET UNITYSDK_OFFSET(0xBB8F2C0)
-#define NFFPKHMKOBJ___C___CREATESTAGE_B__19_0_OFFSET UNITYSDK_OFFSET(0xBB8F260)
-#define NFFPKHMKOBJ___C___DEPLOYEXITTRIGGER_B__53_0_OFFSET UNITYSDK_OFFSET(0xBB8F610)
-#define NFFPKHMKOBJ___C___DEPLOYGRAVITYBOARD_B__76_0_OFFSET UNITYSDK_OFFSET(0xBB8F690)
-#define NFFPKHMKOBJ___C___DEPLOYGRAVITYBOARD_B__76_1_OFFSET UNITYSDK_OFFSET(0xBB8F6B0)
-#define NFFPKHMKOBJ___C___DEPLOYTRAMPOLINE_B__55_0_OFFSET UNITYSDK_OFFSET(0xBB8F630)
-#define NFFPKHMKOBJ___C___DEPLOYTRAMPOLINE_B__55_1_OFFSET UNITYSDK_OFFSET(0xBB8F660)
-#define NFFPKHMKOBJ___C___RESOLVESURFACEBAKEDINFO_B__48_0_OFFSET UNITYSDK_OFFSET(0xBB8F5A0)
+#define NFFPKHMKOBJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC468620)
+#define NFFPKHMKOBJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC468650)
+#define NFFPKHMKOBJ___C___CONFIGURECURVE_B__31_0_OFFSET UNITYSDK_OFFSET(0xC468730)
+#define NFFPKHMKOBJ___C___CONFIGURESURFACE_B__30_0_OFFSET UNITYSDK_OFFSET(0xC4686C0)
+#define NFFPKHMKOBJ___C___CREATESTAGE_B__19_0_OFFSET UNITYSDK_OFFSET(0xC468660)
+#define NFFPKHMKOBJ___C___DEPLOYEXITTRIGGER_B__53_0_OFFSET UNITYSDK_OFFSET(0xC468A00)
+#define NFFPKHMKOBJ___C___DEPLOYGRAVITYBOARD_B__76_0_OFFSET UNITYSDK_OFFSET(0xC468A80)
+#define NFFPKHMKOBJ___C___DEPLOYGRAVITYBOARD_B__76_1_OFFSET UNITYSDK_OFFSET(0xC468AA0)
+#define NFFPKHMKOBJ___C___DEPLOYTRAMPOLINE_B__55_0_OFFSET UNITYSDK_OFFSET(0xC468A20)
+#define NFFPKHMKOBJ___C___DEPLOYTRAMPOLINE_B__55_1_OFFSET UNITYSDK_OFFSET(0xC468A50)
+#define NFFPKHMKOBJ___C___RESOLVESURFACEBAKEDINFO_B__48_0_OFFSET UNITYSDK_OFFSET(0xC468990)
 
-inline static constexpr unsigned int NFFPKHMKOBJ___c_TypeDefinitionIndex = 76889;
+inline static constexpr unsigned int NFFPKHMKOBJ___c_TypeDefinitionIndex = 79223;
 
 	class NFFPKHMKOBJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__55_1()
+		static ::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__55_0()
 		{
-			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x315F0);
-		}
-
-		static ::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>** StaticGet___9__19_0()
-		{
-			return (::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x315F8);
+			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC50);
 		}
 
 		static ::System::Action_2<::NFFPKHMKOBJ*, ::HIOEAKHGILF*>** StaticGet___9__48_0()
 		{
-			return (::System::Action_2<::NFFPKHMKOBJ*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31600);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31608);
-		}
-
-		static ::System::Action_1<::HIOEAKHGILF*>** StaticGet___9__31_0()
-		{
-			return (::System::Action_1<::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31610);
-		}
-
-		static ::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__76_0()
-		{
-			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31618);
+			return (::System::Action_2<::NFFPKHMKOBJ*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC58);
 		}
 
 		static ::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>** StaticGet___9__30_0()
 		{
-			return (::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31620);
+			return (::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC60);
 		}
 
-		static ::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__55_0()
+		static ::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>** StaticGet___9__19_0()
 		{
-			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31628);
+			return (::System::Action_2<::PEEDLCHFAFL*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC68);
 		}
 
 		static ::System::Action_2<::NFFPKHMKOBJ*, ::HIOEAKHGILF*>** StaticGet___9__53_0()
 		{
-			return (::System::Action_2<::NFFPKHMKOBJ*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31630);
+			return (::System::Action_2<::NFFPKHMKOBJ*, ::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC70);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC78);
+		}
+
+		static ::System::Action_1<::HIOEAKHGILF*>** StaticGet___9__31_0()
+		{
+			return (::System::Action_1<::HIOEAKHGILF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC80);
+		}
+
+		static ::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__76_0()
+		{
+			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC88);
+		}
+
+		static ::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__55_1()
+		{
+			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC90);
 		}
 
 		static ::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>** StaticGet___9__76_1()
 		{
-			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31638);
+			return (::System::Action_3<::NFFPKHMKOBJ*, ::HIOEAKHGILF*, ::UnityEngine::Collider*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DC98);
 		}
 
 		static ::System::Void _cctor()

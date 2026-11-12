@@ -9,12 +9,12 @@ namespace RPG::GameCore { class ModifierMonsterHPMarkConfig; }
 namespace RPG::GameCore { class TurnBasedModifierUIConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC63C90)
-#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC63290)
+#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE76890)
+#define RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE75E40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TurnBasedModifierUIConfig_TypeDefinitionIndex = 18249;
+	inline static constexpr unsigned int TurnBasedModifierUIConfig_TypeDefinitionIndex = 18411;
 
 	class TurnBasedModifierUIConfig : public ::RPG::GameCore::JsonConfig
 	{
@@ -29,9 +29,10 @@ namespace RPG::GameCore
 		::System::Boolean IsShowInHUD; // 0x32
 		::System::Byte _padding1[0x5];
 		::System::String* TextPath; // 0x38
-		::Il2CppArray<::RPG::GameCore::ModifierHint*>* Hints; // 0x40
-		::RPG::GameCore::ModifierForceKillConfig* ForceKillConfig; // 0x48
-		::RPG::GameCore::ModifierMonsterHPMarkConfig* MonsterHPMarkConfig; // 0x50
+		::System::String* AnimationPath; // 0x40
+		::Il2CppArray<::RPG::GameCore::ModifierHint*>* Hints; // 0x48
+		::RPG::GameCore::ModifierForceKillConfig* ForceKillConfig; // 0x50
+		::RPG::GameCore::ModifierMonsterHPMarkConfig* MonsterHPMarkConfig; // 0x58
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TURNBASEDMODIFIERUICONFIG_CTOR_OFFSET))(this);

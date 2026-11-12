@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int UIConstants_PopupDialogElements_TypeDefinitionIndex = 46800;
+	inline static constexpr unsigned int UIConstants_PopupDialogElements_TypeDefinitionIndex = 47828;
 
 	class UIConstants_PopupDialogElements : public ::System::Object
 	{

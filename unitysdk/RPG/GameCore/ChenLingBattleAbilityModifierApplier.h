@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChenLingBattleEffect; }
 namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChenLingBattleAbilityModifierApplier; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITYMODIFIERAPPLIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57EFE0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITYMODIFIERAPPLIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57EFF0)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITYMODIFIERAPPLIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57EF90)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITYMODIFIERAPPLIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78FD50)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITYMODIFIERAPPLIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E78FD60)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITYMODIFIERAPPLIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E78FD00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbilityModifierApplier_TypeDefinitionIndex = 15809;
+	inline static constexpr unsigned int ChenLingBattleAbilityModifierApplier_TypeDefinitionIndex = 15967;
 
 	class ChenLingBattleAbilityModifierApplier : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

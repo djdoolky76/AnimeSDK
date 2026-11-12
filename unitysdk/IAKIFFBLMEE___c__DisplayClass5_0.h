@@ -6,16 +6,16 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define IAKIFFBLMEE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E17800)
-#define IAKIFFBLMEE___C__DISPLAYCLASS5_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15E17F30)
+#define IAKIFFBLMEE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC0FD0)
+#define IAKIFFBLMEE___C__DISPLAYCLASS5_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x16DC16F0)
 
-inline static constexpr unsigned int IAKIFFBLMEE___c__DisplayClass5_0_TypeDefinitionIndex = 55765;
+inline static constexpr unsigned int IAKIFFBLMEE___c__DisplayClass5_0_TypeDefinitionIndex = 56968;
 
 	class IAKIFFBLMEE___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* targetEntity; // 0x10
-		::System::String* key; // 0x18
+		::System::String* key; // 0x10
+		::RPG::GameCore::GameEntity* targetEntity; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IAKIFFBLMEE___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

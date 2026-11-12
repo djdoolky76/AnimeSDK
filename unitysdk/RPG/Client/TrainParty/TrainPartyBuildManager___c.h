@@ -5,25 +5,25 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildAreaInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2E15D0)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2E1610)
-#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__GETSHOWINACTIVITYAREAINFOLIST_B__45_0_OFFSET UNITYSDK_OFFSET(0xE2E1620)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xED4C540)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xED4C580)
+#define RPG_CLIENT_TRAINPARTY_TRAINPARTYBUILDMANAGER___C__GETSHOWINACTIVITYAREAINFOLIST_B__45_0_OFFSET UNITYSDK_OFFSET(0xED4C590)
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartyBuildManager___c_TypeDefinitionIndex = 74300;
+	inline static constexpr unsigned int TrainPartyBuildManager___c_TypeDefinitionIndex = 76448;
 
 	class TrainPartyBuildManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x21910);
-		}
-
 		static ::System::Func_2<::RPG::Client::TrainParty::TrainPartyBuildAreaInfo*, ::System::Boolean>** StaticGet___9__45_0()
 		{
-			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyBuildAreaInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x21918);
+			return (::System::Func_2<::RPG::Client::TrainParty::TrainPartyBuildAreaInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x2EFE0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.TrainParty", "<>c")->GetStaticField(0x2EFE8);
 		}
 
 		static ::System::Void _cctor()

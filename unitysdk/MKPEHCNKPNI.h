@@ -4,11 +4,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class HideWaypoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MKPEHCNKPNI_BHJMPHKEGHL_OFFSET UNITYSDK_OFFSET(0xB9A4680)
-#define MKPEHCNKPNI_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A4560)
-#define MKPEHCNKPNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9A4590)
+#define MKPEHCNKPNI_BHJMPHKEGHL_OFFSET UNITYSDK_OFFSET(0xC25F710)
+#define MKPEHCNKPNI_CTOR_OFFSET UNITYSDK_OFFSET(0xC25F5F0)
+#define MKPEHCNKPNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC25F620)
 
-inline static constexpr unsigned int MKPEHCNKPNI_TypeDefinitionIndex = 58155;
+inline static constexpr unsigned int MKPEHCNKPNI_TypeDefinitionIndex = 59408;
 
 	class MKPEHCNKPNI
 	{

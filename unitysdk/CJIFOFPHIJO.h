@@ -7,18 +7,18 @@ namespace RPG::Client::BlindBox::Pool { class BlindBoxOpenResultPet; }
 namespace RPG::Client::BlindBox::Pool { class IBlindBoxOpenResult; }
 namespace RPG::Client::Pet { class IPetInstanceRepository; }
 
-#define CJIFOFPHIJO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD212F10)
-#define CJIFOFPHIJO_CTOR_OFFSET UNITYSDK_OFFSET(0xD212EC0)
-#define CJIFOFPHIJO_JPNENBMFGJI_OFFSET UNITYSDK_OFFSET(0xD213950)
+#define CJIFOFPHIJO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xDB88AC0)
+#define CJIFOFPHIJO_CTOR_OFFSET UNITYSDK_OFFSET(0xDB88A70)
+#define CJIFOFPHIJO_JPNENBMFGJI_OFFSET UNITYSDK_OFFSET(0xDB89500)
 
-inline static constexpr unsigned int CJIFOFPHIJO_TypeDefinitionIndex = 74954;
+inline static constexpr unsigned int CJIFOFPHIJO_TypeDefinitionIndex = 77281;
 
 	class CJIFOFPHIJO : public ::System::Object
 	{
 	public:
 		::RPG::Client::Pet::IPetInstanceRepository* EBDCGPKDBIK; // 0x10
-		::System::Single DPFFHBGECKM; // 0x18
-		::System::Single GJLPMPKOCBB; // 0x1C
+		::System::Single GJLPMPKOCBB; // 0x18
+		::System::Single DPFFHBGECKM; // 0x1C
 		::System::Void _ctor(::RPG::Client::Pet::IPetInstanceRepository* a1, ::System::Single a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::Pet::IPetInstanceRepository*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CJIFOFPHIJO_CTOR_OFFSET))(this, a1, a2, a3);

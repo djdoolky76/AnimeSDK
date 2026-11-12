@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HDJIGMBHENE.h"
 
-#define MDDEMDFJPFG_CTOR_OFFSET UNITYSDK_OFFSET(0xB89ECB0)
+#define MDDEMDFJPFG_CTOR_OFFSET UNITYSDK_OFFSET(0xC14BBF0)
 
-inline static constexpr unsigned int MDDEMDFJPFG_TypeDefinitionIndex = 61187;
+inline static constexpr unsigned int MDDEMDFJPFG_TypeDefinitionIndex = 62572;
 
 	class MDDEMDFJPFG : public ::HDJIGMBHENE
 	{

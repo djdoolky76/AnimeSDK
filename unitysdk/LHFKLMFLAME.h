@@ -4,9 +4,9 @@
 class INBJBBGLCKJ;
 namespace System { class String; }
 
-#define LHFKLMFLAME_ECIAEOJIOKI_OFFSET UNITYSDK_OFFSET(0xB6B0F80)
+#define LHFKLMFLAME_ECIAEOJIOKI_OFFSET UNITYSDK_OFFSET(0xBF48A70)
 
-inline static constexpr unsigned int LHFKLMFLAME_TypeDefinitionIndex = 74574;
+inline static constexpr unsigned int LHFKLMFLAME_TypeDefinitionIndex = 76722;
 
 	class LHFKLMFLAME : public ::System::Object
 	{

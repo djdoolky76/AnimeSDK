@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define BEPHFOHAGJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B8890)
+#define BEPHFOHAGJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA395B0)
 
-inline static constexpr unsigned int BEPHFOHAGJO_TypeDefinitionIndex = 41953;
+inline static constexpr unsigned int BEPHFOHAGJO_TypeDefinitionIndex = 42928;
 
 	class BEPHFOHAGJO : public ::System::Object
 	{

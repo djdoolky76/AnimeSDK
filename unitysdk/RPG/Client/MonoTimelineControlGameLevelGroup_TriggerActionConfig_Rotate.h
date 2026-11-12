@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/LittleGame/ETimelineControlGameLevelRotation.h"
 #include "unitysdk/RPG/Client/MonoTimelineControlGameLevelGroup_TriggerActionConfig.h"
 
-#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERACTIONCONFIG_ROTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xD86E390)
+#define RPG_CLIENT_MONOTIMELINECONTROLGAMELEVELGROUP_TRIGGERACTIONCONFIG_ROTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xE2C0920)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Rotate_TypeDefinitionIndex = 60447;
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Rotate_TypeDefinitionIndex = 61737;
 
 	class MonoTimelineControlGameLevelGroup_TriggerActionConfig_Rotate : public ::RPG::Client::MonoTimelineControlGameLevelGroup_TriggerActionConfig
 	{

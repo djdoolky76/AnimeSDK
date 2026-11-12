@@ -4,18 +4,18 @@
 class FMDGFHPOAIO;
 namespace System { class Object; }
 
-#define FMDGFHPOAIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3E0AD0)
-#define FMDGFHPOAIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E0B10)
-#define FMDGFHPOAIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3E0B20)
+#define FMDGFHPOAIO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6CCAC0)
+#define FMDGFHPOAIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6CCB00)
+#define FMDGFHPOAIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F6CCB10)
 
-inline static constexpr unsigned int FMDGFHPOAIO___c_TypeDefinitionIndex = 26594;
+inline static constexpr unsigned int FMDGFHPOAIO___c_TypeDefinitionIndex = 27125;
 
 	class FMDGFHPOAIO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64A00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C7F0);
 		}
 
 		static ::System::Void _cctor()

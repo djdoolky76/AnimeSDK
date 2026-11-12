@@ -6,31 +6,31 @@ namespace HoudiniEngineUnity { class Test_TreeInstance; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B9B7A80)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B7AC0)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1B9B7AD0)
-#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1B9B7B40)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB409B0)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB409F0)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__1_0_OFFSET UNITYSDK_OFFSET(0x1CB40A00)
+#define HOUDINIENGINEUNITY_TEST_TREEINSTANCE_EXTENSIONS___C__TOTESTOBJECT_B__2_0_OFFSET UNITYSDK_OFFSET(0x1CB40A70)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_TreeInstance_Extensions___c_TypeDefinitionIndex = 40759;
+	inline static constexpr unsigned int Test_TreeInstance_Extensions___c_TypeDefinitionIndex = 41734;
 
 	class Test_TreeInstance_Extensions___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__2_0()
-		{
-			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x57830);
-		}
-
 		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__1_0()
 		{
-			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x57838);
+			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68F80);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x57840);
+			return (::System::Object**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68F88);
+		}
+
+		static ::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>** StaticGet___9__2_0()
+		{
+			return (::System::Converter_2<::UnityEngine::TreeInstance, ::HoudiniEngineUnity::Test_TreeInstance*>**)UnitySDK::FromName("HoudiniEngineUnity", "<>c")->GetStaticField(0x68F90);
 		}
 
 		static ::System::Void _cctor()

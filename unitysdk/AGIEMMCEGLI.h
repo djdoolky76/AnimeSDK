@@ -3,9 +3,9 @@
 #include "unitysdk/HMDKMIJLJFH.h"
 class FBMAGNGKMNI;
 
-#define AGIEMMCEGLI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF33090)
+#define AGIEMMCEGLI_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E9FA0)
 
-inline static constexpr unsigned int AGIEMMCEGLI_TypeDefinitionIndex = 77635;
+inline static constexpr unsigned int AGIEMMCEGLI_TypeDefinitionIndex = 80370;
 
 	class AGIEMMCEGLI : public ::HMDKMIJLJFH
 	{

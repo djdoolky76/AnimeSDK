@@ -4,18 +4,18 @@
 class LCBIEJNJDIF;
 namespace System { class Object; }
 
-#define LCBIEJNJDIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8E2D70)
-#define LCBIEJNJDIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E2DB0)
-#define LCBIEJNJDIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8E2DC0)
+#define LCBIEJNJDIF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC20900)
+#define LCBIEJNJDIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC20940)
+#define LCBIEJNJDIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC20950)
 
-inline static constexpr unsigned int LCBIEJNJDIF___c_TypeDefinitionIndex = 30902;
+inline static constexpr unsigned int LCBIEJNJDIF___c_TypeDefinitionIndex = 31815;
 
 	class LCBIEJNJDIF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x316E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28130);
 		}
 
 		static ::System::Void _cctor()

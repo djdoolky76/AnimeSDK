@@ -8,13 +8,13 @@ namespace RPG::GameCore { class EntityLodModelConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_ENTITYLODLOADINGARTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D677F50)
-#define RPG_GAMECORE_ENTITYLODLOADINGARTDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D677D80)
-#define RPG_GAMECORE_ENTITYLODLOADINGARTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D646A20)
+#define RPG_GAMECORE_ENTITYLODLOADINGARTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E884460)
+#define RPG_GAMECORE_ENTITYLODLOADINGARTDATA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E884470)
+#define RPG_GAMECORE_ENTITYLODLOADINGARTDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E884300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityLodLoadingArtData_TypeDefinitionIndex = 19215;
+	inline static constexpr unsigned int EntityLodLoadingArtData_TypeDefinitionIndex = 19405;
 
 	class EntityLodLoadingArtData : public ::RPG::GameCore::JsonConfig
 	{

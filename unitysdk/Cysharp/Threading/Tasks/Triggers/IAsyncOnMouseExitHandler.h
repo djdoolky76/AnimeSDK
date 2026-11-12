@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int IAsyncOnMouseExitHandler_TypeDefinitionIndex = 38562;
+	inline static constexpr unsigned int IAsyncOnMouseExitHandler_TypeDefinitionIndex = 39491;
 
 	class IAsyncOnMouseExitHandler
 	{

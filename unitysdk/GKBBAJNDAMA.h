@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define GKBBAJNDAMA_CLEAR_OFFSET UNITYSDK_OFFSET(0x15A82E80)
-#define GKBBAJNDAMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A82EE0)
+#define GKBBAJNDAMA_CLEAR_OFFSET UNITYSDK_OFFSET(0x169BFDC0)
+#define GKBBAJNDAMA_CTOR_OFFSET UNITYSDK_OFFSET(0x169BFE20)
 
-inline static constexpr unsigned int GKBBAJNDAMA_TypeDefinitionIndex = 58604;
+inline static constexpr unsigned int GKBBAJNDAMA_TypeDefinitionIndex = 59869;
 
 	class GKBBAJNDAMA : public ::System::Object
 	{

@@ -5,7 +5,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ProjectileBGCurveExportData_KeyPathPointExPortData_TypeDefinitionIndex = 70142;
+	inline static constexpr unsigned int ProjectileBGCurveExportData_KeyPathPointExPortData_TypeDefinitionIndex = 72108;
 
 	struct alignas(4) ProjectileBGCurveExportData_KeyPathPointExPortData
 	{

@@ -3,7 +3,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int ObjectIntPair_1_TypeDefinitionIndex = 5411;
+	inline static constexpr unsigned int ObjectIntPair_1_TypeDefinitionIndex = 5416;
 
 	template <typename T>
 	struct alignas(8) ObjectIntPair_1

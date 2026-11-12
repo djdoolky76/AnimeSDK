@@ -4,18 +4,18 @@
 class FONIEGCDBDF;
 namespace System { class Object; }
 
-#define FONIEGCDBDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E400710)
-#define FONIEGCDBDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E400740)
-#define FONIEGCDBDF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E400750)
+#define FONIEGCDBDF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6ED6B0)
+#define FONIEGCDBDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6ED6E0)
+#define FONIEGCDBDF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F6ED6F0)
 
-inline static constexpr unsigned int FONIEGCDBDF___c_TypeDefinitionIndex = 26675;
+inline static constexpr unsigned int FONIEGCDBDF___c_TypeDefinitionIndex = 27206;
 
 	class FONIEGCDBDF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x663F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51390);
 		}
 
 		static ::System::Void _cctor()

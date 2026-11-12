@@ -4,25 +4,25 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class HIOEAKHGILF;
 
-#define NKEPCHLECBH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C96D3D0)
-#define NKEPCHLECBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C96DB90)
-#define NKEPCHLECBH_MNKFBMGKGII_OFFSET UNITYSDK_OFFSET(0x1C96D990)
-#define NKEPCHLECBH_PCDILBLPJPJ_OFFSET UNITYSDK_OFFSET(0x1C96D5C0)
+#define NKEPCHLECBH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB2F1C0)
+#define NKEPCHLECBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB2F960)
+#define NKEPCHLECBH_MNKFBMGKGII_OFFSET UNITYSDK_OFFSET(0x1DB2F760)
+#define NKEPCHLECBH_PCDILBLPJPJ_OFFSET UNITYSDK_OFFSET(0x1DB2F390)
 
-inline static constexpr unsigned int NKEPCHLECBH_TypeDefinitionIndex = 43540;
+inline static constexpr unsigned int NKEPCHLECBH_TypeDefinitionIndex = 44522;
 
 	class NKEPCHLECBH : public ::NOOHPODHIAA
 	{
 	public:
-		::UnityEngine::Vector3 KEJAHHOADEC; // 0x338
-		::System::Boolean NIEBBABBPNG; // 0x344
-		::System::Boolean DBAJLFNMHPI; // 0x345
-		::System::Boolean AMEPOEMDAPG; // 0x346
+		::System::Single NMPMMIAKFMO; // 0x338
+		::System::Boolean NIEBBABBPNG; // 0x33C
+		::System::Boolean AMEPOEMDAPG; // 0x33D
+		::System::Boolean DBAJLFNMHPI; // 0x33E
 		::System::Byte _padding0[0x1];
-		::System::UInt32 CCBIKJPMKBL; // 0x348
-		::UnityEngine::Vector3 EIAEMLJAPED; // 0x34C
-		::UnityEngine::Vector3 MGAHJFAHPAB; // 0x358
-		::System::Single NMPMMIAKFMO; // 0x364
+		::UnityEngine::Vector3 EIAEMLJAPED; // 0x340
+		::UnityEngine::Vector3 MGAHJFAHPAB; // 0x34C
+		::System::UInt32 CCBIKJPMKBL; // 0x358
+		::UnityEngine::Vector3 KEJAHHOADEC; // 0x35C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NKEPCHLECBH_CTOR_OFFSET))(this);

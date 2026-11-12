@@ -5,10 +5,10 @@
 class OONGDLIDJJJ;
 namespace RPG::GameCore { class CheckRandomChanceAxis; }
 
-#define DGNPPOHLACE_CTOR_OFFSET UNITYSDK_OFFSET(0xE8587C0)
-#define DGNPPOHLACE_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xE8587D0)
+#define DGNPPOHLACE_CTOR_OFFSET UNITYSDK_OFFSET(0xF42AD90)
+#define DGNPPOHLACE_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xF42ADA0)
 
-inline static constexpr unsigned int DGNPPOHLACE_TypeDefinitionIndex = 54369;
+inline static constexpr unsigned int DGNPPOHLACE_TypeDefinitionIndex = 55533;
 
 	class DGNPPOHLACE : public ::BEMKNPIFMBI
 	{

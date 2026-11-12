@@ -5,22 +5,23 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BookSeriesConfigRow; }
 
-#define RPG_GAMECORE_BOOKSERIESCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D472310)
-#define RPG_GAMECORE_BOOKSERIESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D471B80)
+#define RPG_GAMECORE_BOOKSERIESCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E681DA0)
+#define RPG_GAMECORE_BOOKSERIESCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E681610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BookSeriesConfigRow_TypeDefinitionIndex = 12905;
+	inline static constexpr unsigned int BookSeriesConfigRow_TypeDefinitionIndex = 12977;
 
 	class BookSeriesConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 BookSeriesID; // 0x10
-		::System::UInt32 BookSeriesNum; // 0x14
+		::System::Boolean IsShowInBookshelf; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::UInt32 BookSeriesID; // 0x14
 		::RPG::Client::TextID BookSeries; // 0x18
 		::RPG::Client::TextID BookSeriesComments; // 0x28
-		::System::UInt32 BookSeriesWorld; // 0x38
-		::System::Boolean IsShowInBookshelf; // 0x3C
+		::System::UInt32 BookSeriesNum; // 0x38
+		::System::UInt32 BookSeriesWorld; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKSERIESCONFIGROW_CTOR_OFFSET))(this);

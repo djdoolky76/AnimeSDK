@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector2Int.h"
 class PIIOAKOEACN;
 
-#define KHHHOLADJBF_KHFPAMHCCOA_OFFSET UNITYSDK_OFFSET(0x1C546790)
-#define KHHHOLADJBF_MDPCGICJPHK_OFFSET UNITYSDK_OFFSET(0x1C54A5A0)
+#define KHHHOLADJBF_KHFPAMHCCOA_OFFSET UNITYSDK_OFFSET(0x1D6C8150)
+#define KHHHOLADJBF_MDPCGICJPHK_OFFSET UNITYSDK_OFFSET(0x1D6CBF70)
 
-inline static constexpr unsigned int KHHHOLADJBF_TypeDefinitionIndex = 41691;
+inline static constexpr unsigned int KHHHOLADJBF_TypeDefinitionIndex = 42666;
 
 	class KHHHOLADJBF : public ::System::Object
 	{

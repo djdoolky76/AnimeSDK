@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CollierTriggerComponentEnableReason_TypeDefinitionIndex = 57506;
+	inline static constexpr unsigned int CollierTriggerComponentEnableReason_TypeDefinitionIndex = 58734;
 
 	enum class CollierTriggerComponentEnableReason : ::System::Int32
 	{
@@ -14,5 +14,6 @@ namespace RPG::GameCore
 		EraFlipDeviceControl = 4,
 		FiveDim = 5,
 		Puzzle = 6,
+		ImmediateHidden = 7,
 	};
 }

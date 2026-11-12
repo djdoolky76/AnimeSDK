@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int SplineMoveEvent_TypeDefinitionIndex = 43551;
+	inline static constexpr unsigned int SplineMoveEvent_TypeDefinitionIndex = 44533;
 
 	enum class SplineMoveEvent : ::System::Int32
 	{

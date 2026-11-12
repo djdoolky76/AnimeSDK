@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/MVector3.h"
 #include "unitysdk/System/Object.h"
 
-#define GCHKMEONAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x15971150)
+#define GCHKMEONAHE_CTOR_OFFSET UNITYSDK_OFFSET(0x168A7D20)
 
-inline static constexpr unsigned int GCHKMEONAHE_TypeDefinitionIndex = 55930;
+inline static constexpr unsigned int GCHKMEONAHE_TypeDefinitionIndex = 57133;
 
 	class GCHKMEONAHE : public ::System::Object
 	{

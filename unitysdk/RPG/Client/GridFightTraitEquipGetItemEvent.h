@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightEquipItemConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPGETITEMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xD2BD670)
+#define RPG_CLIENT_GRIDFIGHTTRAITEQUIPGETITEMEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE3400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitEquipGetItemEvent_TypeDefinitionIndex = 64959;
+	inline static constexpr unsigned int GridFightTraitEquipGetItemEvent_TypeDefinitionIndex = 66518;
 
 	class GridFightTraitEquipGetItemEvent : public ::System::Object
 	{

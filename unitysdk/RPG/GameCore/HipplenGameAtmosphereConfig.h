@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HipplenGameAtmosphereConfig; }
 
-#define RPG_GAMECORE_HIPPLENGAMEATMOSPHERECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76B4A0)
-#define RPG_GAMECORE_HIPPLENGAMEATMOSPHERECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76B130)
+#define RPG_GAMECORE_HIPPLENGAMEATMOSPHERECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97EE80)
+#define RPG_GAMECORE_HIPPLENGAMEATMOSPHERECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97EB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameAtmosphereConfig_TypeDefinitionIndex = 16783;
+	inline static constexpr unsigned int HipplenGameAtmosphereConfig_TypeDefinitionIndex = 16950;
 
 	class HipplenGameAtmosphereConfig : public ::RPG::GameCore::JsonConfig
 	{

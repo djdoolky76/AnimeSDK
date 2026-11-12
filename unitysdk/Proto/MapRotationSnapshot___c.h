@@ -4,20 +4,20 @@
 namespace Proto { class MapRotationSnapshot; }
 namespace System { class Object; }
 
-#define PROTO_MAPROTATIONSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0031C0)
-#define PROTO_MAPROTATIONSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E003200)
-#define PROTO_MAPROTATIONSNAPSHOT___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E003210)
+#define PROTO_MAPROTATIONSNAPSHOT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2D35C0)
+#define PROTO_MAPROTATIONSNAPSHOT___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2D3600)
+#define PROTO_MAPROTATIONSNAPSHOT___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F2D3610)
 
 namespace Proto
 {
-	inline static constexpr unsigned int MapRotationSnapshot___c_TypeDefinitionIndex = 25849;
+	inline static constexpr unsigned int MapRotationSnapshot___c_TypeDefinitionIndex = 26346;
 
 	class MapRotationSnapshot___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43DA0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x50770);
 		}
 
 		static ::System::Void _cctor()

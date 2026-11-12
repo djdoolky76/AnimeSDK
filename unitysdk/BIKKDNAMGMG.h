@@ -14,29 +14,29 @@ namespace RPG::GameCore { class TurnInsertActionUIConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BIKKDNAMGMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D808110)
-#define BIKKDNAMGMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8081D0)
-#define BIKKDNAMGMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8080D0)
+#define BIKKDNAMGMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9BBD00)
+#define BIKKDNAMGMG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E9BBDC0)
+#define BIKKDNAMGMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9BBCC0)
 
-inline static constexpr unsigned int BIKKDNAMGMG_TypeDefinitionIndex = 22611;
+inline static constexpr unsigned int BIKKDNAMGMG_TypeDefinitionIndex = 23026;
 
 	class BIKKDNAMGMG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OMFLDIGGPHC; // 0x18
-		::JKMJGCFCMMC* IHHIHDEHBIJ; // 0x20
+		::JKMJGCFCMMC* IHHIHDEHBIJ; // 0x18
+		::RPG::GameCore::DynamicFloat* CKLLHFKPACB; // 0x20
 		::RPG::GameCore::TurnInsertActionUIConfig* OLOKHEMMGOH; // 0x28
 		::RPG::GameCore::TargetEvaluator* MAGHKLPOJJJ; // 0x30
-		::RPG::GameCore::DynamicFloat* CKLLHFKPACB; // 0x38
-		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x40
-		::Il2CppArray<::RPG::GameCore::DynamicString*>* PJGLPMGOLPK; // 0x48
-		::System::String* MAGLCBLICBG; // 0x50
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x58
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x60
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x68
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x40
+		::Il2CppArray<::RPG::GameCore::ModifierBehaviorFlag>* HMOBDKGBECE; // 0x48
+		::Il2CppArray<::RPG::GameCore::DynamicString*>* PJGLPMGOLPK; // 0x50
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicString*>* BGCBMIGIAMM; // 0x58
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* OMFLDIGGPHC; // 0x60
+		::System::String* MAGLCBLICBG; // 0x68
 		::RPG::GameCore::JsonEnum* AGOHEFBOPNO; // 0x70
-		::System::Boolean LENIKLCJOHE; // 0x78
-		::System::Boolean LGKDFBLIOBP; // 0x79
+		::System::Boolean LGKDFBLIOBP; // 0x78
+		::System::Boolean LENIKLCJOHE; // 0x79
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BIKKDNAMGMG_CTOR_OFFSET))(this);

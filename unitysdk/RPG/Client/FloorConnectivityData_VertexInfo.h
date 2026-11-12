@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD046160)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD046510)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD9CDA00)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_VERTEXINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xD9CDDB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 64229;
+	inline static constexpr unsigned int FloorConnectivityData_VertexInfo_TypeDefinitionIndex = 65674;
 
 	class FloorConnectivityData_VertexInfo : public ::System::Object
 	{

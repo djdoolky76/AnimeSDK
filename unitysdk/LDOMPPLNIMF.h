@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LDOMPPLNIMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB644C90)
-#define LDOMPPLNIMF_PBEIGLCAHMN_OFFSET UNITYSDK_OFFSET(0xB644C40)
+#define LDOMPPLNIMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBEDAAF0)
+#define LDOMPPLNIMF_PBEIGLCAHMN_OFFSET UNITYSDK_OFFSET(0xBEDAAA0)
 
-inline static constexpr unsigned int LDOMPPLNIMF_TypeDefinitionIndex = 75373;
+inline static constexpr unsigned int LDOMPPLNIMF_TypeDefinitionIndex = 77700;
 
 	class LDOMPPLNIMF : public ::System::Object
 	{

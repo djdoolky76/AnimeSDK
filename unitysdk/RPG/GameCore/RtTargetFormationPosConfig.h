@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtTargetFormationPosConfig; }
 
-#define RPG_GAMECORE_RTTARGETFORMATIONPOSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA68A20)
-#define RPG_GAMECORE_RTTARGETFORMATIONPOSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA64D50)
+#define RPG_GAMECORE_RTTARGETFORMATIONPOSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7B2A0)
+#define RPG_GAMECORE_RTTARGETFORMATIONPOSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC77660)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtTargetFormationPosConfig_TypeDefinitionIndex = 24225;
+	inline static constexpr unsigned int RtTargetFormationPosConfig_TypeDefinitionIndex = 24684;
 
 	class RtTargetFormationPosConfig : public ::RPG::GameCore::JsonConfig
 	{

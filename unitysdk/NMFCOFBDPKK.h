@@ -6,11 +6,11 @@ class NMFCOFBDPKK;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NMFCOFBDPKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D237190)
-#define NMFCOFBDPKK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2371A0)
-#define NMFCOFBDPKK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D237160)
+#define NMFCOFBDPKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E43C1C0)
+#define NMFCOFBDPKK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E43C1D0)
+#define NMFCOFBDPKK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E43C190)
 
-inline static constexpr unsigned int NMFCOFBDPKK_TypeDefinitionIndex = 24089;
+inline static constexpr unsigned int NMFCOFBDPKK_TypeDefinitionIndex = 24548;
 
 	class NMFCOFBDPKK : public ::RPG::GameCore::TaskConfig
 	{

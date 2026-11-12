@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D405570)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D404DA0)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D404C30)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D404920)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D404BD0)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D404EF0)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D4049A0)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D404F30)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D405100)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D405250)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D405060)
-#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D404FC0)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E625820)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1E625050)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1E624EE0)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1E624BD0)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1E624E80)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1E6251A0)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E624C50)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1E6251E0)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E6253B0)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1E625500)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1E625310)
+#define RPG_GAMECORE_AUDIOBOOKDATAEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1E625270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioBookDataExcelTable_TypeDefinitionIndex = 12910;
+	inline static constexpr unsigned int AudioBookDataExcelTable_TypeDefinitionIndex = 12982;
 
 	class AudioBookDataExcelTable : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AudioBookDataRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AudioBookDataRow*>**)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x4E040);
-		}
-
-		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x4E048);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::AudioBookDataRow*>**)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x44950);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x4E050);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x44958);
 		}
 
-		static ::System::Byte* StaticGet_HashIndex()
+		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x11F30);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x44960);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0x11F31);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0xE790);
+		}
+
+		static ::System::Byte* StaticGet_HashIndex()
+		{
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "AudioBookDataExcelTable")->GetStaticField(0xE791);
 		}
 
 		static ::System::Void _cctor()

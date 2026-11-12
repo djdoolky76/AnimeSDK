@@ -8,49 +8,49 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_INVENTORYMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3727C0)
-#define RPG_CLIENT_INVENTORYMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3727F0)
-#define RPG_CLIENT_INVENTORYMODULE___C__UNLOCKALLRANKMAXEQUIPMENTS_B__1_0_OFFSET UNITYSDK_OFFSET(0xD372800)
-#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTPETITEMS_B__37_0_OFFSET UNITYSDK_OFFSET(0xD372980)
-#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTPETITEMS_B__37_1_OFFSET UNITYSDK_OFFSET(0xD372990)
-#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTVIRTUALITEMS_B__116_0_OFFSET UNITYSDK_OFFSET(0xD3729A0)
-#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTVIRTUALITEMS_B__116_1_OFFSET UNITYSDK_OFFSET(0xD3729B0)
+#define RPG_CLIENT_INVENTORYMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDDA6A30)
+#define RPG_CLIENT_INVENTORYMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDDA6A60)
+#define RPG_CLIENT_INVENTORYMODULE___C__UNLOCKALLRANKMAXEQUIPMENTS_B__1_0_OFFSET UNITYSDK_OFFSET(0xDDA6A70)
+#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTPETITEMS_B__37_0_OFFSET UNITYSDK_OFFSET(0xDDA6BF0)
+#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTPETITEMS_B__37_1_OFFSET UNITYSDK_OFFSET(0xDDA6C00)
+#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTVIRTUALITEMS_B__116_0_OFFSET UNITYSDK_OFFSET(0xDDA6C10)
+#define RPG_CLIENT_INVENTORYMODULE___C___CLEAREXCEPTVIRTUALITEMS_B__116_1_OFFSET UNITYSDK_OFFSET(0xDDA6C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int InventoryModule___c_TypeDefinitionIndex = 65686;
+	inline static constexpr unsigned int InventoryModule___c_TypeDefinitionIndex = 67612;
 
 	class InventoryModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ItemData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x188F0);
+			return (::System::Comparison_1<::RPG::Client::ItemData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24960);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x188F8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24968);
 		}
 
 		static ::System::Func_2<::RPG::Client::UniqueItemKey, ::System::UInt32>** StaticGet___9__116_1()
 		{
-			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x18900);
-		}
-
-		static ::System::Func_2<::RPG::Client::UniqueItemKey, ::System::Boolean>** StaticGet___9__116_0()
-		{
-			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x18908);
+			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24970);
 		}
 
 		static ::System::Func_2<::RPG::Client::UniqueItemKey, ::System::Boolean>** StaticGet___9__37_0()
 		{
-			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x18910);
+			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24978);
 		}
 
 		static ::System::Func_2<::RPG::Client::UniqueItemKey, ::RPG::Client::Pet::PetInstanceIdentifier>** StaticGet___9__37_1()
 		{
-			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::RPG::Client::Pet::PetInstanceIdentifier>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x18918);
+			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::RPG::Client::Pet::PetInstanceIdentifier>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24980);
+		}
+
+		static ::System::Func_2<::RPG::Client::UniqueItemKey, ::System::Boolean>** StaticGet___9__116_0()
+		{
+			return (::System::Func_2<::RPG::Client::UniqueItemKey, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x24988);
 		}
 
 		static ::System::Void _cctor()

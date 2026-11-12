@@ -4,18 +4,18 @@
 class INBDBFEEBAD;
 namespace System { class Object; }
 
-#define INBDBFEEBAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6BD650)
-#define INBDBFEEBAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6BD690)
-#define INBDBFEEBAD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E6BD6A0)
+#define INBDBFEEBAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9C5070)
+#define INBDBFEEBAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C50B0)
+#define INBDBFEEBAD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F9C50C0)
 
-inline static constexpr unsigned int INBDBFEEBAD___c_TypeDefinitionIndex = 32287;
+inline static constexpr unsigned int INBDBFEEBAD___c_TypeDefinitionIndex = 33200;
 
 	class INBDBFEEBAD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57DE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54D50);
 		}
 
 		static ::System::Void _cctor()

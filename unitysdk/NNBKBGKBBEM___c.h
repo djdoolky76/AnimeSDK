@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NNBKBGKBBEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC9DDF0)
-#define NNBKBGKBBEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9DE20)
-#define NNBKBGKBBEM___C__SETREQUESTUNLOCKEDMULTIPATHAVATARTYPES_B__5_0_OFFSET UNITYSDK_OFFSET(0xBC9DE30)
+#define NNBKBGKBBEM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC586320)
+#define NNBKBGKBBEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC586350)
+#define NNBKBGKBBEM___C__SETREQUESTUNLOCKEDMULTIPATHAVATARTYPES_B__5_0_OFFSET UNITYSDK_OFFSET(0xC586360)
 
-inline static constexpr unsigned int NNBKBGKBBEM___c_TypeDefinitionIndex = 62666;
+inline static constexpr unsigned int NNBKBGKBBEM___c_TypeDefinitionIndex = 64100;
 
 	class NNBKBGKBBEM___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52CF0);
-		}
-
 		static ::System::Func_2<::System::UInt32, ::HNOHHOEPFHC>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::HNOHHOEPFHC>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52CF8);
+			return (::System::Func_2<::System::UInt32, ::HNOHHOEPFHC>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50B60);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50B68);
 		}
 
 		static ::System::Void _cctor()

@@ -3,11 +3,11 @@
 namespace UnityEngine::UI { class Dropdown; }
 namespace UnityEngine::UI { class Text; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_DROPDOWNINTERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x3C11400)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG_DROPDOWNINTERACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x3E5FD40)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateVerificationDialog_DropDownInteraction_TypeDefinitionIndex = 9049;
+	inline static constexpr unsigned int ConsoleAgeGateVerificationDialog_DropDownInteraction_TypeDefinitionIndex = 9058;
 
 	struct alignas(8) ConsoleAgeGateVerificationDialog_DropDownInteraction
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FMJACPECMLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1585CB60)
-#define FMJACPECMLF_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1585CB70)
+#define FMJACPECMLF_CTOR_OFFSET UNITYSDK_OFFSET(0x167CCF90)
+#define FMJACPECMLF_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x167CCFA0)
 
-inline static constexpr unsigned int FMJACPECMLF_TypeDefinitionIndex = 67040;
+inline static constexpr unsigned int FMJACPECMLF_TypeDefinitionIndex = 68984;
 
 	class FMJACPECMLF : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_BINDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC24AD0)
-#define MIHOYO_SDK_BINDINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1BC3BFF0)
+#define MIHOYO_SDK_BINDINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDADA10)
+#define MIHOYO_SDK_BINDINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CDC50F0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 7953;
+	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 7962;
 
 	class BindInfo : public ::System::Object
 	{

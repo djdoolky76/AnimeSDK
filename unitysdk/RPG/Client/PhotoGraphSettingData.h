@@ -6,22 +6,21 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace RPG::GameCore { class PhotoGraphSettingDataConfig; }
 
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDAFFFF0)
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xDB00B40)
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xDB00B50)
-#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_OPTIONTYPE_OFFSET UNITYSDK_OFFSET(0xDB00BC0)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE556C70)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE557C30)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xE557C40)
+#define RPG_CLIENT_PHOTOGRAPHSETTINGDATA_GET_OPTIONTYPE_OFFSET UNITYSDK_OFFSET(0xE557CB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PhotoGraphSettingData_TypeDefinitionIndex = 66461;
+	inline static constexpr unsigned int PhotoGraphSettingData_TypeDefinitionIndex = 68397;
 
 	class PhotoGraphSettingData : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::PhotoGraphSettingDataConfig* _Config_k__BackingField; // 0x10
-		::System::Boolean IsEnable; // 0x18
-		::System::Byte _padding0[0x3];
-		::RPG::GameCore::PhotoGraphSettingItemType SettingType; // 0x1C
+		::RPG::GameCore::PhotoGraphSettingItemType SettingType; // 0x18
+		::System::Boolean IsEnable; // 0x1C
 		::System::Void _ctor(::RPG::GameCore::PhotoGraphSettingDataConfig* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PhotoGraphSettingDataConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PHOTOGRAPHSETTINGDATA_CTOR_OFFSET))(this, a1);

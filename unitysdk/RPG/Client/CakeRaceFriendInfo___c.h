@@ -5,25 +5,25 @@ namespace RPG::Client { class CakeRaceFriendRankingData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CAKERACEFRIENDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC9111C0)
-#define RPG_CLIENT_CAKERACEFRIENDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC911200)
-#define RPG_CLIENT_CAKERACEFRIENDINFO___C___SORTFRIENDRANK_B__7_0_OFFSET UNITYSDK_OFFSET(0xC911210)
+#define RPG_CLIENT_CAKERACEFRIENDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD275D60)
+#define RPG_CLIENT_CAKERACEFRIENDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD275DA0)
+#define RPG_CLIENT_CAKERACEFRIENDINFO___C___SORTFRIENDRANK_B__7_0_OFFSET UNITYSDK_OFFSET(0xD275DB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeRaceFriendInfo___c_TypeDefinitionIndex = 63028;
+	inline static constexpr unsigned int CakeRaceFriendInfo___c_TypeDefinitionIndex = 64466;
 
 	class CakeRaceFriendInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x654F0);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::CakeRaceFriendRankingData*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::CakeRaceFriendRankingData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x654F8);
+			return (::System::Comparison_1<::RPG::Client::CakeRaceFriendRankingData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D120);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D128);
 		}
 
 		static ::System::Void _cctor()

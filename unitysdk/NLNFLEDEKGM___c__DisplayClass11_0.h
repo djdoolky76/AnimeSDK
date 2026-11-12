@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueBuffData; }
 
-#define NLNFLEDEKGM___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC770A0)
-#define NLNFLEDEKGM___C__DISPLAYCLASS11_0__GET_B__0_OFFSET UNITYSDK_OFFSET(0xBC77120)
+#define NLNFLEDEKGM___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC55EDE0)
+#define NLNFLEDEKGM___C__DISPLAYCLASS11_0__GET_B__0_OFFSET UNITYSDK_OFFSET(0xC55EE60)
 
-inline static constexpr unsigned int NLNFLEDEKGM___c__DisplayClass11_0_TypeDefinitionIndex = 67191;
+inline static constexpr unsigned int NLNFLEDEKGM___c__DisplayClass11_0_TypeDefinitionIndex = 69135;
 
 	class NLNFLEDEKGM___c__DisplayClass11_0 : public ::System::Object
 	{

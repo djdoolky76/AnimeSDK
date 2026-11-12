@@ -6,12 +6,12 @@ namespace RPG::GameCore { class CharacterEmoConfig; }
 namespace RPG::GameCore { class CharacterEmoContextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D570150)
-#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D56F080)
+#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E781690)
+#define RPG_GAMECORE_CHARACTEREMOCONTEXTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7805C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CharacterEmoContextConfig_TypeDefinitionIndex = 16514;
+	inline static constexpr unsigned int CharacterEmoContextConfig_TypeDefinitionIndex = 16678;
 
 	class CharacterEmoContextConfig : public ::RPG::GameCore::JsonConfig
 	{

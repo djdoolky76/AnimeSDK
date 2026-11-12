@@ -4,18 +4,18 @@
 class PHCPOIHAPGP;
 namespace System { class Object; }
 
-#define PHCPOIHAPGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF37A40)
-#define PHCPOIHAPGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF37A80)
-#define PHCPOIHAPGP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF37A90)
+#define PHCPOIHAPGP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2059E0)
+#define PHCPOIHAPGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F205A20)
+#define PHCPOIHAPGP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F205A30)
 
-inline static constexpr unsigned int PHCPOIHAPGP___c_TypeDefinitionIndex = 31752;
+inline static constexpr unsigned int PHCPOIHAPGP___c_TypeDefinitionIndex = 32665;
 
 	class PHCPOIHAPGP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3ECB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35060);
 		}
 
 		static ::System::Void _cctor()

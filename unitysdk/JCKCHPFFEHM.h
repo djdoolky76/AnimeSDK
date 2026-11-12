@@ -5,18 +5,18 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class DLOJKAIBPBI;
 
-#define JCKCHPFFEHM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x16596D50)
-#define JCKCHPFFEHM_CTOR_OFFSET UNITYSDK_OFFSET(0x16596CF0)
-#define JCKCHPFFEHM_EOAGKKAIAGM_OFFSET UNITYSDK_OFFSET(0x16596D80)
+#define JCKCHPFFEHM_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB8DB160)
+#define JCKCHPFFEHM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DB100)
+#define JCKCHPFFEHM_EOAGKKAIAGM_OFFSET UNITYSDK_OFFSET(0xB8DB190)
 
-inline static constexpr unsigned int JCKCHPFFEHM_TypeDefinitionIndex = 47391;
+inline static constexpr unsigned int JCKCHPFFEHM_TypeDefinitionIndex = 48420;
 
 	class JCKCHPFFEHM : public ::System::Object
 	{
 	public:
-		::System::Single NIDAPHBEMDE; // 0x10
-		::UnityEngine::Vector3 ECKAIJLHEEM; // 0x14
-		::UnityEngine::Vector3 COIHCPBGBPA; // 0x20
+		::UnityEngine::Vector3 COIHCPBGBPA; // 0x10
+		::UnityEngine::Vector3 ECKAIJLHEEM; // 0x1C
+		::System::Single NIDAPHBEMDE; // 0x28
 		::System::Void _ctor(::DLOJKAIBPBI* a1, ::System::Single a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::DLOJKAIBPBI*, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + JCKCHPFFEHM_CTOR_OFFSET))(this, a1, a2, a3);

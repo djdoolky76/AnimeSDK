@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/VCameraBlendType.h"
 namespace UnityEngine { class AnimationCurve; }
 
-inline static constexpr unsigned int BDKPOKGBPIH_TypeDefinitionIndex = 47104;
+inline static constexpr unsigned int BDKPOKGBPIH_TypeDefinitionIndex = 48132;
 
 	struct alignas(8) BDKPOKGBPIH
 	{

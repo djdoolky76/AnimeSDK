@@ -4,18 +4,18 @@
 class DFDCPCNBPAD;
 namespace System { class Object; }
 
-#define DFDCPCNBPAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E19DA30)
-#define DFDCPCNBPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E19DA70)
-#define DFDCPCNBPAD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E19DA80)
+#define DFDCPCNBPAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F477550)
+#define DFDCPCNBPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F477590)
+#define DFDCPCNBPAD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F4775A0)
 
-inline static constexpr unsigned int DFDCPCNBPAD___c_TypeDefinitionIndex = 28440;
+inline static constexpr unsigned int DFDCPCNBPAD___c_TypeDefinitionIndex = 29030;
 
 	class DFDCPCNBPAD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32250);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BFF0);
 		}
 
 		static ::System::Void _cctor()

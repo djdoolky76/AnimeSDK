@@ -1,17 +1,17 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define FFFJHMKJJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x157356E0)
-#define FFFJHMKJJGB_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0x15735440)
-#define FFFJHMKJJGB_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x15735560)
+#define FFFJHMKJJGB_CTOR_OFFSET UNITYSDK_OFFSET(0x16650F10)
+#define FFFJHMKJJGB_GGNBOEIMEPM_OFFSET UNITYSDK_OFFSET(0x16650C70)
+#define FFFJHMKJJGB_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x16650D90)
 
-inline static constexpr unsigned int FFFJHMKJJGB_TypeDefinitionIndex = 68696;
+inline static constexpr unsigned int FFFJHMKJJGB_TypeDefinitionIndex = 70648;
 
 	class FFFJHMKJJGB
 	{
 	public:
-		::System::Single PDLCENKDNGO; // 0x28
-		::System::Int32 GAGEBMIOEGN; // 0x2C
+		::System::Int32 GAGEBMIOEGN; // 0x28
+		::System::Single PDLCENKDNGO; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FFFJHMKJJGB_CTOR_OFFSET))(this);

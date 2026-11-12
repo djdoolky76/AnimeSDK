@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueModifierRogueMagicUnitRandomListConfig; }
 
-#define RPG_GAMECORE_ROGUEMODIFIERROGUEMAGICUNITRANDOMLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1A240)
-#define RPG_GAMECORE_ROGUEMODIFIERROGUEMAGICUNITRANDOMLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA1A200)
+#define RPG_GAMECORE_ROGUEMODIFIERROGUEMAGICUNITRANDOMLISTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC2C340)
+#define RPG_GAMECORE_ROGUEMODIFIERROGUEMAGICUNITRANDOMLISTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC2C300)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueModifierRogueMagicUnitRandomListConfig_TypeDefinitionIndex = 17713;
+	inline static constexpr unsigned int RogueModifierRogueMagicUnitRandomListConfig_TypeDefinitionIndex = 17882;
 
 	class RogueModifierRogueMagicUnitRandomListConfig : public ::RPG::GameCore::JsonConfig
 	{

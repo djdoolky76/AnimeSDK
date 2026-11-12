@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 10015;
+	inline static constexpr unsigned int IEntity_TypeDefinitionIndex = 10023;
 
 	class IEntity
 	{

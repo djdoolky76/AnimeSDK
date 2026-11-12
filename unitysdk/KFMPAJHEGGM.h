@@ -4,16 +4,16 @@
 class KAAMFILLIND;
 namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind; }
 
-#define KFMPAJHEGGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F360)
-#define KFMPAJHEGGM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C70F370)
+#define KFMPAJHEGGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D890D10)
+#define KFMPAJHEGGM_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1D890D20)
 
-inline static constexpr unsigned int KFMPAJHEGGM_TypeDefinitionIndex = 36213;
+inline static constexpr unsigned int KFMPAJHEGGM_TypeDefinitionIndex = 37141;
 
 	class KFMPAJHEGGM : public ::PNECKGBKMEL
 	{
 	public:
-		::KAAMFILLIND* EEFMDEHLLFI; // 0x10
-		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* IGHAHBNLIJA; // 0x10
+		::KAAMFILLIND* EEFMDEHLLFI; // 0x18
 		::System::Void _ctor(::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind* a1, ::KAAMFILLIND* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig_DiceHasNOfAKind*, ::KAAMFILLIND*))((::PBYTE)hIl2Cpp + KFMPAJHEGGM_CTOR_OFFSET))(this, a1, a2);

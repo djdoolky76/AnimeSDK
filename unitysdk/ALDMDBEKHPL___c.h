@@ -6,29 +6,29 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ALDMDBEKHPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C53F210)
-#define ALDMDBEKHPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C53F250)
-#define ALDMDBEKHPL___C__DETERMINEPRODUCTTRAITS_B__6_1_OFFSET UNITYSDK_OFFSET(0x1C53F260)
-#define ALDMDBEKHPL___C__DETERMINEPRODUCTTRAITS_B__6_2_OFFSET UNITYSDK_OFFSET(0x1C53F270)
+#define ALDMDBEKHPL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D6C0BC0)
+#define ALDMDBEKHPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C0C00)
+#define ALDMDBEKHPL___C__DETERMINEPRODUCTTRAITS_B__6_1_OFFSET UNITYSDK_OFFSET(0x1D6C0C10)
+#define ALDMDBEKHPL___C__DETERMINEPRODUCTTRAITS_B__6_2_OFFSET UNITYSDK_OFFSET(0x1D6C0C20)
 
-inline static constexpr unsigned int ALDMDBEKHPL___c_TypeDefinitionIndex = 41740;
+inline static constexpr unsigned int ALDMDBEKHPL___c_TypeDefinitionIndex = 42715;
 
 	class ALDMDBEKHPL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x162F0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__6_2()
-		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x162F8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE740);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16300);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE748);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftChipTraitType>** StaticGet___9__6_2()
+		{
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftChipTraitType, ::System::Int32>, ::RPG::Client::MechCraft::MechCraftChipTraitType>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xE750);
 		}
 
 		static ::System::Void _cctor()

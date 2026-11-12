@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_MONOEFFECTLDBLOCKCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD7AA1E0)
-#define RPG_CLIENT_MONOEFFECTLDBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD7AA070)
+#define RPG_CLIENT_MONOEFFECTLDBLOCKCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE1FAE30)
+#define RPG_CLIENT_MONOEFFECTLDBLOCKCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xE1FACC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectLDBlockControl_TypeDefinitionIndex = 68584;
+	inline static constexpr unsigned int MonoEffectLDBlockControl_TypeDefinitionIndex = 70532;
 
 	class MonoEffectLDBlockControl : public ::UnityEngine::MonoBehaviour
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPG_EDITOR_SKILLPOINTASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE4AD290)
+#define RPG_EDITOR_SKILLPOINTASSETCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xEF6C0A0)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int SkillPointAssetConfig_TypeDefinitionIndex = 52036;
+	inline static constexpr unsigned int SkillPointAssetConfig_TypeDefinitionIndex = 53141;
 
 	class SkillPointAssetConfig : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int BaseEventActionSystem_1_EventCallbackCache_TypeDefinitionIndex = 77088;
+	inline static constexpr unsigned int BaseEventActionSystem_1_EventCallbackCache_TypeDefinitionIndex = 79422;
 
 	template <typename T>
 	class BaseEventActionSystem_1_EventCallbackCache

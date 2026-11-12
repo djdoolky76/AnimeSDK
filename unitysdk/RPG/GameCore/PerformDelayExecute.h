@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PerformDelayExecute; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PERFORMDELAYEXECUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F54B0)
-#define RPG_GAMECORE_PERFORMDELAYEXECUTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8F54C0)
-#define RPG_GAMECORE_PERFORMDELAYEXECUTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F5480)
+#define RPG_GAMECORE_PERFORMDELAYEXECUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0EA60)
+#define RPG_GAMECORE_PERFORMDELAYEXECUTE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB0EA70)
+#define RPG_GAMECORE_PERFORMDELAYEXECUTE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB0EA30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformDelayExecute_TypeDefinitionIndex = 22832;
+	inline static constexpr unsigned int PerformDelayExecute_TypeDefinitionIndex = 23257;
 
 	class PerformDelayExecute : public ::RPG::GameCore::TaskConfig
 	{

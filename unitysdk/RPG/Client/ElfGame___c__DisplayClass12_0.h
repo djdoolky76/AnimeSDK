@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Promises { class Promise; }
 
-#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCD9E970)
-#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS12_0___ENABLEELFSTREAMING_B__0_OFFSET UNITYSDK_OFFSET(0xCDA29F0)
+#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD7660F0)
+#define RPG_CLIENT_ELFGAME___C__DISPLAYCLASS12_0___ENABLEELFSTREAMING_B__0_OFFSET UNITYSDK_OFFSET(0xD76A370)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfGame___c__DisplayClass12_0_TypeDefinitionIndex = 63692;
+	inline static constexpr unsigned int ElfGame___c__DisplayClass12_0_TypeDefinitionIndex = 65134;
 
 	class ElfGame___c__DisplayClass12_0 : public ::System::Object
 	{

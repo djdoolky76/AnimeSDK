@@ -5,11 +5,11 @@ namespace HoudiniEngineUnity { class HEU_ShelfToolData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_SHELF_CTOR_OFFSET UNITYSDK_OFFSET(0x1B983230)
+#define HOUDINIENGINEUNITY_HEU_SHELF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0C160)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Shelf_TypeDefinitionIndex = 40663;
+	inline static constexpr unsigned int HEU_Shelf_TypeDefinitionIndex = 41638;
 
 	class HEU_Shelf : public ::System::Object
 	{

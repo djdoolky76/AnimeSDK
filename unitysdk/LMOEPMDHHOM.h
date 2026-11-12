@@ -4,9 +4,9 @@
 namespace System { class String; }
 namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
-#define LMOEPMDHHOM_GCBIIHKKBBA_OFFSET UNITYSDK_OFFSET(0xB7D2380)
+#define LMOEPMDHHOM_GCBIIHKKBBA_OFFSET UNITYSDK_OFFSET(0xC02EA80)
 
-inline static constexpr unsigned int LMOEPMDHHOM_TypeDefinitionIndex = 47284;
+inline static constexpr unsigned int LMOEPMDHHOM_TypeDefinitionIndex = 48313;
 
 	class LMOEPMDHHOM : public ::System::Object
 	{

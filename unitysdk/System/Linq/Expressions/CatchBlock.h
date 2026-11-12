@@ -7,13 +7,13 @@ namespace System::Linq::Expressions { class CatchBlock; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA2C30)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_BODY_OFFSET UNITYSDK_OFFSET(0x1EDA2C70)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_FILTER_OFFSET UNITYSDK_OFFSET(0x1EDA2C80)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_TEST_OFFSET UNITYSDK_OFFSET(0x1EDA2C60)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x1EDA2C50)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EDA2C90)
-#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x1EDA2D70)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x200526C0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_BODY_OFFSET UNITYSDK_OFFSET(0x20052700)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_FILTER_OFFSET UNITYSDK_OFFSET(0x20052710)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_TEST_OFFSET UNITYSDK_OFFSET(0x200526F0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_GET_VARIABLE_OFFSET UNITYSDK_OFFSET(0x200526E0)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x20052720)
+#define SYSTEM_LINQ_EXPRESSIONS_CATCHBLOCK_UPDATE_OFFSET UNITYSDK_OFFSET(0x20052800)
 
 namespace System::Linq::Expressions
 {
@@ -22,9 +22,9 @@ namespace System::Linq::Expressions
 	class CatchBlock : public ::System::Object
 	{
 	public:
-		::System::Linq::Expressions::Expression* _Filter_k__BackingField; // 0x10
+		::System::Type* _Test_k__BackingField; // 0x10
 		::System::Linq::Expressions::Expression* _Body_k__BackingField; // 0x18
-		::System::Type* _Test_k__BackingField; // 0x20
+		::System::Linq::Expressions::Expression* _Filter_k__BackingField; // 0x20
 		::System::Linq::Expressions::ParameterExpression* _Variable_k__BackingField; // 0x28
 		::System::Void _ctor(::System::Type* a1, ::System::Linq::Expressions::ParameterExpression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Linq::Expressions::Expression* a4)
 		{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceOverrideCharacterOutfit; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8FD360)
-#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8FD210)
+#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB167E0)
+#define RPG_GAMECORE_PERFORMANCEOVERRIDECHARACTEROUTFIT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB16690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceOverrideCharacterOutfit_TypeDefinitionIndex = 21857;
+	inline static constexpr unsigned int PerformanceOverrideCharacterOutfit_TypeDefinitionIndex = 22248;
 
 	class PerformanceOverrideCharacterOutfit : public ::RPG::GameCore::JsonConfig
 	{

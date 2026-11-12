@@ -8,12 +8,12 @@ namespace RPG::GameCore { class PhotoGraphOverrideModeConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D912130)
-#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D911BB0)
+#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2B380)
+#define RPG_GAMECORE_PHOTOGRAPHOVERRIDEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2AE00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphOverrideModeConfig_TypeDefinitionIndex = 21637;
+	inline static constexpr unsigned int PhotoGraphOverrideModeConfig_TypeDefinitionIndex = 22025;
 
 	class PhotoGraphOverrideModeConfig : public ::RPG::GameCore::JsonConfig
 	{

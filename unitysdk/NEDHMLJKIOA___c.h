@@ -4,18 +4,18 @@
 class NEDHMLJKIOA;
 namespace System { class Object; }
 
-#define NEDHMLJKIOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAF1C00)
-#define NEDHMLJKIOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF1C30)
-#define NEDHMLJKIOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EAF1C40)
+#define NEDHMLJKIOA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE32F40)
+#define NEDHMLJKIOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE32F70)
+#define NEDHMLJKIOA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FE32F80)
 
-inline static constexpr unsigned int NEDHMLJKIOA___c_TypeDefinitionIndex = 29670;
+inline static constexpr unsigned int NEDHMLJKIOA___c_TypeDefinitionIndex = 30482;
 
 	class NEDHMLJKIOA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DBA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68C30);
 		}
 
 		static ::System::Void _cctor()

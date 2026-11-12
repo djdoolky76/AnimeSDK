@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class NoteComboTemplateConfig; }
 
-#define RPG_GAMECORE_NOTECOMBOTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8D99E0)
-#define RPG_GAMECORE_NOTECOMBOTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8D99A0)
+#define RPG_GAMECORE_NOTECOMBOTEMPLATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAF2680)
+#define RPG_GAMECORE_NOTECOMBOTEMPLATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAF2640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int NoteComboTemplateConfig_TypeDefinitionIndex = 16971;
+	inline static constexpr unsigned int NoteComboTemplateConfig_TypeDefinitionIndex = 17138;
 
 	class NoteComboTemplateConfig : public ::RPG::GameCore::JsonConfig
 	{

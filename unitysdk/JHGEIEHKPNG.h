@@ -5,9 +5,9 @@
 namespace RPG::Client { class AnimatorButton; }
 namespace RPG::Client { class LongPressEvent; }
 
-#define JHGEIEHKPNG_FLEFHOLLKDK_OFFSET UNITYSDK_OFFSET(0xB1B3130)
+#define JHGEIEHKPNG_FLEFHOLLKDK_OFFSET UNITYSDK_OFFSET(0xB9D3080)
 
-inline static constexpr unsigned int JHGEIEHKPNG_TypeDefinitionIndex = 49872;
+inline static constexpr unsigned int JHGEIEHKPNG_TypeDefinitionIndex = 50920;
 
 	class JHGEIEHKPNG : public ::System::Object
 	{

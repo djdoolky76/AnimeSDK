@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_TRACKEXTENSIONMONOPLUGIN_GDDBFGDLILA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2B6800)
+#define RPG_CLIENT_TRACKEXTENSIONMONOPLUGIN_GDDBFGDLILA_CCTOR_OFFSET UNITYSDK_OFFSET(0xED20DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TrackExtensionMonoPlugin_GDDBFGDLILA_TypeDefinitionIndex = 71030;
+	inline static constexpr unsigned int TrackExtensionMonoPlugin_GDDBFGDLILA_TypeDefinitionIndex = 73009;
 
 	struct alignas(4) TrackExtensionMonoPlugin_GDDBFGDLILA
 	{
@@ -16,7 +16,7 @@ namespace RPG::Client
 		::UnityEngine::Vector3 LLKCEKEOIME; // 0x34
 		static ::RPG::Client::TrackExtensionMonoPlugin_GDDBFGDLILA* StaticGet_KPJGDHLENIP()
 		{
-			return (::RPG::Client::TrackExtensionMonoPlugin_GDDBFGDLILA*)UnitySDK::FromName("RPG.Client", "GDDBFGDLILA")->GetStaticField(0x7190);
+			return (::RPG::Client::TrackExtensionMonoPlugin_GDDBFGDLILA*)UnitySDK::FromName("RPG.Client", "GDDBFGDLILA")->GetStaticField(0x8EB0);
 		}
 
 		static ::System::Void _cctor()

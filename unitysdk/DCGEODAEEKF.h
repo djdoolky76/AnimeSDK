@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JIPBOGKHKBE;
 
-#define DCGEODAEEKF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE242FD0)
+#define DCGEODAEEKF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xEBA4180)
 
-inline static constexpr unsigned int DCGEODAEEKF_TypeDefinitionIndex = 78106;
+inline static constexpr unsigned int DCGEODAEEKF_TypeDefinitionIndex = 80841;
 
 	class DCGEODAEEKF : public ::System::Object
 	{

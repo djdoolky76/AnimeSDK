@@ -5,9 +5,9 @@ class ODHFCEALPFN;
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define BAPHDHLHJNP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E80E60)
+#define BAPHDHLHJNP_CTOR_OFFSET UNITYSDK_OFFSET(0x16D05180)
 
-inline static constexpr unsigned int BAPHDHLHJNP_TypeDefinitionIndex = 65819;
+inline static constexpr unsigned int BAPHDHLHJNP_TypeDefinitionIndex = 67751;
 
 	class BAPHDHLHJNP : public ::System::Object
 	{

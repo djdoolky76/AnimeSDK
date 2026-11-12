@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameKillEffectParams; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E35A0)
-#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E33E0)
+#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA23CC0)
+#define RPG_GAMECORE_LITTLEGAMEKILLEFFECTPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA23B00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameKillEffectParams_TypeDefinitionIndex = 18890;
+	inline static constexpr unsigned int LittleGameKillEffectParams_TypeDefinitionIndex = 19052;
 
 	class LittleGameKillEffectParams : public ::RPG::GameCore::JsonConfig
 	{

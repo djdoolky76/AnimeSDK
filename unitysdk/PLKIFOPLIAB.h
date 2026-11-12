@@ -7,10 +7,10 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_MarkRecommendDiceEX; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PLKIFOPLIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F4830)
-#define PLKIFOPLIAB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7F4A20)
+#define PLKIFOPLIAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D976180)
+#define PLKIFOPLIAB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D976370)
 
-inline static constexpr unsigned int PLKIFOPLIAB_TypeDefinitionIndex = 36291;
+inline static constexpr unsigned int PLKIFOPLIAB_TypeDefinitionIndex = 37219;
 
 	class PLKIFOPLIAB : public ::AJBKGPOEBFG
 	{

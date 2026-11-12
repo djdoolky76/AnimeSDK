@@ -5,10 +5,10 @@ namespace System { class String; }
 namespace System { class WeakReference; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SYSTEM_DIAGNOSTICS_SWITCH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F010CC0)
-#define SYSTEM_DIAGNOSTICS_SWITCH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F0104B0)
-#define SYSTEM_DIAGNOSTICS_SWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1F008B70)
-#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x1F010680)
+#define SYSTEM_DIAGNOSTICS_SWITCH_CCTOR_OFFSET UNITYSDK_OFFSET(0x202C0500)
+#define SYSTEM_DIAGNOSTICS_SWITCH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x202BFCF0)
+#define SYSTEM_DIAGNOSTICS_SWITCH_CTOR_OFFSET UNITYSDK_OFFSET(0x202B8480)
+#define SYSTEM_DIAGNOSTICS_SWITCH__PRUNECACHEDSWITCHES_OFFSET UNITYSDK_OFFSET(0x202BFEC0)
 
 namespace System::Diagnostics
 {
@@ -17,18 +17,18 @@ namespace System::Diagnostics
 	class Switch : public ::System::Object
 	{
 	public:
-		::System::String* displayName; // 0x10
+		::System::String* description; // 0x10
 		::System::String* defaultValue; // 0x18
-		::System::String* switchValueString; // 0x20
-		::System::String* description; // 0x28
+		::System::String* displayName; // 0x20
+		::System::String* switchValueString; // 0x28
 		static ::System::Collections::Generic::List_1<::System::WeakReference*>** StaticGet_switches()
 		{
-			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics", "Switch")->GetStaticField(0x3C8C0);
+			return (::System::Collections::Generic::List_1<::System::WeakReference*>**)UnitySDK::FromName("System.Diagnostics", "Switch")->GetStaticField(0x2CAF0);
 		}
 
 		static ::System::Int32* StaticGet_s_LastCollectionCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics", "Switch")->GetStaticField(0xCF60);
+			return (::System::Int32*)UnitySDK::FromName("System.Diagnostics", "Switch")->GetStaticField(0x9360);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::String* a2)

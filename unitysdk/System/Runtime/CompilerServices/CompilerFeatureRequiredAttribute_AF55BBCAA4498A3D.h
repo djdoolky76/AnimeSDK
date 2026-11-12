@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_COMPILERFEATUREREQUIREDATTRIBUTE_AF55BBCAA4498A3D_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBD9020)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_COMPILERFEATUREREQUIREDATTRIBUTE_AF55BBCAA4498A3D_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD61FB0)
 
 namespace System::Runtime::CompilerServices
 {
-	inline static constexpr unsigned int CompilerFeatureRequiredAttribute_AF55BBCAA4498A3D_TypeDefinitionIndex = 7522;
+	inline static constexpr unsigned int CompilerFeatureRequiredAttribute_AF55BBCAA4498A3D_TypeDefinitionIndex = 7533;
 
 	class CompilerFeatureRequiredAttribute_AF55BBCAA4498A3D : public ::System::Attribute
 	{

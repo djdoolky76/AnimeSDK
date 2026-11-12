@@ -4,18 +4,18 @@
 class NFDHOCKEPGD;
 namespace System { class Object; }
 
-#define NFDHOCKEPGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB00400)
-#define NFDHOCKEPGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB00440)
-#define NFDHOCKEPGD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB00450)
+#define NFDHOCKEPGD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE42980)
+#define NFDHOCKEPGD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE429C0)
+#define NFDHOCKEPGD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE429D0)
 
-inline static constexpr unsigned int NFDHOCKEPGD___c_TypeDefinitionIndex = 25799;
+inline static constexpr unsigned int NFDHOCKEPGD___c_TypeDefinitionIndex = 26296;
 
 	class NFDHOCKEPGD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E680);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x697C0);
 		}
 
 		static ::System::Void _cctor()

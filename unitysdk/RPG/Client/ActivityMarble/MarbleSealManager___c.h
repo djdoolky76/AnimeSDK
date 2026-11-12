@@ -8,37 +8,37 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5541F0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC554230)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GETSHOPMARBLELIST_B__8_0_OFFSET UNITYSDK_OFFSET(0xC554240)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GET_HASNEWTOBUY_B__18_0_OFFSET UNITYSDK_OFFSET(0xC5543A0)
-#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__RPG_CLIENT_ACTIVITYMARBLE_IMARBLEMANAGER_GETAVAILABLEMARBLELISTINTERFACE_B__11_0_OFFSET UNITYSDK_OFFSET(0xC554390)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE91F50)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE91F90)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GETSHOPMARBLELIST_B__8_0_OFFSET UNITYSDK_OFFSET(0xCE91FA0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__GET_HASNEWTOBUY_B__18_0_OFFSET UNITYSDK_OFFSET(0xCE920F0)
+#define RPG_CLIENT_ACTIVITYMARBLE_MARBLESEALMANAGER___C__RPG_CLIENT_ACTIVITYMARBLE_IMARBLEMANAGER_GETAVAILABLEMARBLELISTINTERFACE_B__11_0_OFFSET UNITYSDK_OFFSET(0xCE920E0)
 
 namespace RPG::Client::ActivityMarble
 {
-	inline static constexpr unsigned int MarbleSealManager___c_TypeDefinitionIndex = 75973;
+	inline static constexpr unsigned int MarbleSealManager___c_TypeDefinitionIndex = 78300;
 
 	class MarbleSealManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::RPG::Client::ActivityMarble::IMarbleData*>** StaticGet___9__11_0()
-		{
-			return (::System::Converter_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::RPG::Client::ActivityMarble::IMarbleData*>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x335B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x335B8);
-		}
-
-		static ::System::Func_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::System::Boolean>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x335C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2B470);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ActivityMarble::MarbleSealData*>** StaticGet___9__8_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ActivityMarble::MarbleSealData*>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x335C8);
+			return (::System::Comparison_1<::RPG::Client::ActivityMarble::MarbleSealData*>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2B478);
+		}
+
+		static ::System::Func_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::System::Boolean>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2B480);
+		}
+
+		static ::System::Converter_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::RPG::Client::ActivityMarble::IMarbleData*>** StaticGet___9__11_0()
+		{
+			return (::System::Converter_2<::RPG::Client::ActivityMarble::MarbleSealData*, ::RPG::Client::ActivityMarble::IMarbleData*>**)UnitySDK::FromName("RPG.Client.ActivityMarble", "<>c")->GetStaticField(0x2B488);
 		}
 
 		static ::System::Void _cctor()

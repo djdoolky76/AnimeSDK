@@ -4,23 +4,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GDPHGHOPGOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C63A290)
-#define GDPHGHOPGOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63A2D0)
-#define GDPHGHOPGOH___C___DISPATCHTITLES_B__25_0_OFFSET UNITYSDK_OFFSET(0x1C63A2E0)
+#define GDPHGHOPGOH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7BBF10)
+#define GDPHGHOPGOH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BBF50)
+#define GDPHGHOPGOH___C___DISPATCHTITLES_B__25_0_OFFSET UNITYSDK_OFFSET(0x1D7BBF60)
 
-inline static constexpr unsigned int GDPHGHOPGOH___c_TypeDefinitionIndex = 36529;
+inline static constexpr unsigned int GDPHGHOPGOH___c_TypeDefinitionIndex = 37457;
 
 	class GDPHGHOPGOH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C9C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A510);
 		}
 
 		static ::System::Func_2<::System::Int32, ::System::Int32>** StaticGet___9__25_0()
 		{
-			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C9C8);
+			return (::System::Func_2<::System::Int32, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A518);
 		}
 
 		static ::System::Void _cctor()

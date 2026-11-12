@@ -4,15 +4,15 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define FNINILGGBFC_CCTOR_OFFSET UNITYSDK_OFFSET(0x15873E20)
-#define FNINILGGBFC_DHCPMHIAAOK_OFFSET UNITYSDK_OFFSET(0x2E77EC0)
-#define FNINILGGBFC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2E77EF0)
-#define FNINILGGBFC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2E77EB0)
-#define FNINILGGBFC_GBFEGLDAENA_OFFSET UNITYSDK_OFFSET(0x2E77ED0)
-#define FNINILGGBFC_JAJLIBEAMMH_OFFSET UNITYSDK_OFFSET(0x15871A30)
-#define FNINILGGBFC_PHFIBKDEIJB_OFFSET UNITYSDK_OFFSET(0x2E77EE0)
+#define FNINILGGBFC_CCTOR_OFFSET UNITYSDK_OFFSET(0x167E6600)
+#define FNINILGGBFC_DHCPMHIAAOK_OFFSET UNITYSDK_OFFSET(0x304DEB0)
+#define FNINILGGBFC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x304DEE0)
+#define FNINILGGBFC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x304DEA0)
+#define FNINILGGBFC_GBFEGLDAENA_OFFSET UNITYSDK_OFFSET(0x304DEC0)
+#define FNINILGGBFC_JAJLIBEAMMH_OFFSET UNITYSDK_OFFSET(0x167E41F0)
+#define FNINILGGBFC_PHFIBKDEIJB_OFFSET UNITYSDK_OFFSET(0x304DED0)
 
-inline static constexpr unsigned int FNINILGGBFC_TypeDefinitionIndex = 71085;
+inline static constexpr unsigned int FNINILGGBFC_TypeDefinitionIndex = 73068;
 
 	struct alignas(8) FNINILGGBFC
 	{
@@ -21,12 +21,12 @@ inline static constexpr unsigned int FNINILGGBFC_TypeDefinitionIndex = 71085;
 		::System::Single ADPJPDDOLLK; // 0x20
 		static ::System::Object** StaticGet_JNACIPNELFK()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "FNINILGGBFC")->GetStaticField(0x58070);
+			return (::System::Object**)UnitySDK::FromName("", "FNINILGGBFC")->GetStaticField(0x5F460);
 		}
 
 		static ::System::Boolean* StaticGet_KCJNNDMOFLB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "FNINILGGBFC")->GetStaticField(0x135C0);
+			return (::System::Boolean*)UnitySDK::FromName("", "FNINILGGBFC")->GetStaticField(0x141F0);
 		}
 
 		static ::System::Void _cctor()

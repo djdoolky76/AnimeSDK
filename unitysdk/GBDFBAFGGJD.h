@@ -8,32 +8,32 @@ class JHBKDMFDFHF;
 class MKMLDELEKJC;
 class MLNIAHKIEJH;
 
-#define GBDFBAFGGJD_AGNHJBPONJM_OFFSET UNITYSDK_OFFSET(0x1594B280)
-#define GBDFBAFGGJD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1594B420)
+#define GBDFBAFGGJD_AGNHJBPONJM_OFFSET UNITYSDK_OFFSET(0x1687F820)
+#define GBDFBAFGGJD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1687F990)
 
-inline static constexpr unsigned int GBDFBAFGGJD_TypeDefinitionIndex = 68987;
+inline static constexpr unsigned int GBDFBAFGGJD_TypeDefinitionIndex = 70940;
 
 	class GBDFBAFGGJD : public ::System::Object
 	{
 	public:
 		static ::JAABBDCGHFF** StaticGet_HGLFLENHMBB()
 		{
-			return (::JAABBDCGHFF**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5F450);
+			return (::JAABBDCGHFF**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5AE10);
 		}
 
 		static ::MLNIAHKIEJH** StaticGet_JLALCNPLAPK()
 		{
-			return (::MLNIAHKIEJH**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5F458);
-		}
-
-		static ::JHBKDMFDFHF** StaticGet_PDHNPBBMKGD()
-		{
-			return (::JHBKDMFDFHF**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5F460);
+			return (::MLNIAHKIEJH**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5AE18);
 		}
 
 		static ::MKMLDELEKJC** StaticGet_NLJKLODIOJF()
 		{
-			return (::MKMLDELEKJC**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5F468);
+			return (::MKMLDELEKJC**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5AE20);
+		}
+
+		static ::JHBKDMFDFHF** StaticGet_PDHNPBBMKGD()
+		{
+			return (::JHBKDMFDFHF**)UnitySDK::FromName("", "GBDFBAFGGJD")->GetStaticField(0x5AE28);
 		}
 
 		static ::System::Void _cctor()

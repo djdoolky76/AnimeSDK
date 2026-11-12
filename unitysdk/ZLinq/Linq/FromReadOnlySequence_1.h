@@ -6,7 +6,7 @@ namespace System { class Object; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int FromReadOnlySequence_1_TypeDefinitionIndex = 6109;
+	inline static constexpr unsigned int FromReadOnlySequence_1_TypeDefinitionIndex = 6117;
 
 	template <typename T>
 	struct alignas(8) FromReadOnlySequence_1

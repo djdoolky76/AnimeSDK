@@ -6,19 +6,19 @@ class KBDDPBPABDD;
 class OPPEGLOCAGH;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define JCLDKJDFGEI_CTOR_OFFSET UNITYSDK_OFFSET(0x165A6010)
-#define JCLDKJDFGEI_GET_EFFECTCOLORS_OFFSET UNITYSDK_OFFSET(0x165A6040)
-#define JCLDKJDFGEI_GET_PAINTCOLORS_OFFSET UNITYSDK_OFFSET(0x165A6030)
-#define JCLDKJDFGEI_GET_POSES_OFFSET UNITYSDK_OFFSET(0x165A6020)
+#define JCLDKJDFGEI_CTOR_OFFSET UNITYSDK_OFFSET(0xB8E9AF0)
+#define JCLDKJDFGEI_GET_EFFECTCOLORS_OFFSET UNITYSDK_OFFSET(0xB8E9B20)
+#define JCLDKJDFGEI_GET_PAINTCOLORS_OFFSET UNITYSDK_OFFSET(0xB8E9B10)
+#define JCLDKJDFGEI_GET_POSES_OFFSET UNITYSDK_OFFSET(0xB8E9B00)
 
-inline static constexpr unsigned int JCLDKJDFGEI_TypeDefinitionIndex = 80221;
+inline static constexpr unsigned int JCLDKJDFGEI_TypeDefinitionIndex = 82998;
 
 	class JCLDKJDFGEI : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::KBDDPBPABDD*>* _PaintColors_k__BackingField; // 0x10
-		::System::Collections::Generic::IReadOnlyList_1<::CLNGKOPAMBJ*>* _Poses_k__BackingField; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::OPPEGLOCAGH*>* _EffectColors_k__BackingField; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::OPPEGLOCAGH*>* _EffectColors_k__BackingField; // 0x18
+		::System::Collections::Generic::IReadOnlyList_1<::CLNGKOPAMBJ*>* _Poses_k__BackingField; // 0x20
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::CLNGKOPAMBJ*>* a1, ::System::Collections::Generic::IReadOnlyList_1<::KBDDPBPABDD*>* a2, ::System::Collections::Generic::IReadOnlyList_1<::OPPEGLOCAGH*>* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::CLNGKOPAMBJ*>*, ::System::Collections::Generic::IReadOnlyList_1<::KBDDPBPABDD*>*, ::System::Collections::Generic::IReadOnlyList_1<::OPPEGLOCAGH*>*))((::PBYTE)hIl2Cpp + JCLDKJDFGEI_CTOR_OFFSET))(this, a1, a2, a3);

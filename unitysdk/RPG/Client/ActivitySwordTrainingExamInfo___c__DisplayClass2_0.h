@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivitySwordTrainingExamData; }
 
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5B32D0)
-#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C__DISPLAYCLASS2_0__GETEXAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xC5B4290)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF08CB0)
+#define RPG_CLIENT_ACTIVITYSWORDTRAININGEXAMINFO___C__DISPLAYCLASS2_0__GETEXAMDATA_B__0_OFFSET UNITYSDK_OFFSET(0xCF09C60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivitySwordTrainingExamInfo___c__DisplayClass2_0_TypeDefinitionIndex = 61947;
+	inline static constexpr unsigned int ActivitySwordTrainingExamInfo___c__DisplayClass2_0_TypeDefinitionIndex = 63359;
 
 	class ActivitySwordTrainingExamInfo___c__DisplayClass2_0 : public ::System::Object
 	{

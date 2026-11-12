@@ -3,7 +3,7 @@
 
 namespace RPGTools::LDWhiteBox
 {
-	inline static constexpr unsigned int PolishPrimitive_TypeDefinitionIndex = 48924;
+	inline static constexpr unsigned int PolishPrimitive_TypeDefinitionIndex = 49982;
 
 	enum class PolishPrimitive : ::System::Int32
 	{

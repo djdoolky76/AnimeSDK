@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_ListGoodsInfo_TypeDefinitionIndex = 46233;
+	inline static constexpr unsigned int MHYSDKC_ListGoodsInfo_TypeDefinitionIndex = 47262;
 
 	class MHYSDKC_ListGoodsInfo : public ::System::Object
 	{

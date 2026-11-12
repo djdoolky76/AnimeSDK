@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMissionIcon_TypeDefinitionIndex = 62912;
+	inline static constexpr unsigned int IMissionIcon_TypeDefinitionIndex = 64350;
 
 	class IMissionIcon
 	{

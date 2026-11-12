@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-inline static constexpr unsigned int PNIDGEPGDHI_TypeDefinitionIndex = 60281;
+inline static constexpr unsigned int PNIDGEPGDHI_TypeDefinitionIndex = 61565;
 
 	struct alignas(8) PNIDGEPGDHI
 	{

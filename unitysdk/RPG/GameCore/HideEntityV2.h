@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class HideEntityV2; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_HIDEENTITYV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1D768700)
-#define RPG_GAMECORE_HIDEENTITYV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D768710)
-#define RPG_GAMECORE_HIDEENTITYV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7686D0)
+#define RPG_GAMECORE_HIDEENTITYV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97C170)
+#define RPG_GAMECORE_HIDEENTITYV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E97C180)
+#define RPG_GAMECORE_HIDEENTITYV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97C140)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HideEntityV2_TypeDefinitionIndex = 21666;
+	inline static constexpr unsigned int HideEntityV2_TypeDefinitionIndex = 22054;
 
 	class HideEntityV2 : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,12 +4,12 @@
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_UI_UISTATECTRL_GAMEOBJECTSETACTIVEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE348F00)
-#define RPG_CLIENT_UI_UISTATECTRL_GAMEOBJECTSETACTIVEACTION_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xE348D40)
+#define RPG_CLIENT_UI_UISTATECTRL_GAMEOBJECTSETACTIVEACTION_CTOR_OFFSET UNITYSDK_OFFSET(0xEDB4F90)
+#define RPG_CLIENT_UI_UISTATECTRL_GAMEOBJECTSETACTIVEACTION_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xEDB4DD0)
 
 namespace RPG::Client::UI::UIStateCtrl
 {
-	inline static constexpr unsigned int GameObjectSetActiveAction_TypeDefinitionIndex = 74047;
+	inline static constexpr unsigned int GameObjectSetActiveAction_TypeDefinitionIndex = 76193;
 
 	class GameObjectSetActiveAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{

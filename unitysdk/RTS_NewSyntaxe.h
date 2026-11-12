@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class GameObject; }
 
-#define RTS_NEWSYNTAXE_CTOR_OFFSET UNITYSDK_OFFSET(0x16758060)
-#define RTS_NEWSYNTAXE_RESTECOLOR_OFFSET UNITYSDK_OFFSET(0x16757F70)
-#define RTS_NEWSYNTAXE_START_OFFSET UNITYSDK_OFFSET(0x16757960)
-#define RTS_NEWSYNTAXE_UPDATE_OFFSET UNITYSDK_OFFSET(0x16757970)
+#define RTS_NEWSYNTAXE_CTOR_OFFSET UNITYSDK_OFFSET(0x1759C290)
+#define RTS_NEWSYNTAXE_RESTECOLOR_OFFSET UNITYSDK_OFFSET(0x1759C1A0)
+#define RTS_NEWSYNTAXE_START_OFFSET UNITYSDK_OFFSET(0x1759BB90)
+#define RTS_NEWSYNTAXE_UPDATE_OFFSET UNITYSDK_OFFSET(0x1759BBA0)
 
-inline static constexpr unsigned int RTS_NewSyntaxe_TypeDefinitionIndex = 40242;
+inline static constexpr unsigned int RTS_NewSyntaxe_TypeDefinitionIndex = 41217;
 
 	class RTS_NewSyntaxe : public ::UnityEngine::MonoBehaviour
 	{

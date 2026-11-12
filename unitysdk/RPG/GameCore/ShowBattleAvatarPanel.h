@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ShowBattleAvatarPanel; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD74D0)
-#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAD74E0)
-#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAD74A0)
+#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE92E0)
+#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECE92F0)
+#define RPG_GAMECORE_SHOWBATTLEAVATARPANEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECE92B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowBattleAvatarPanel_TypeDefinitionIndex = 22816;
+	inline static constexpr unsigned int ShowBattleAvatarPanel_TypeDefinitionIndex = 23239;
 
 	class ShowBattleAvatarPanel : public ::RPG::GameCore::TaskConfig
 	{

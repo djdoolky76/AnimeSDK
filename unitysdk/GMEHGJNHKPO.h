@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerSkipDeadHandler; }
 
-#define GMEHGJNHKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACB6F0)
-#define GMEHGJNHKPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ACB720)
+#define GMEHGJNHKPO_CTOR_OFFSET UNITYSDK_OFFSET(0x16A4E1B0)
+#define GMEHGJNHKPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A4E1E0)
 
-inline static constexpr unsigned int GMEHGJNHKPO_TypeDefinitionIndex = 56468;
+inline static constexpr unsigned int GMEHGJNHKPO_TypeDefinitionIndex = 57688;
 
 	class GMEHGJNHKPO
 	{

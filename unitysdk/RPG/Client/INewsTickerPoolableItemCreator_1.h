@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int INewsTickerPoolableItemCreator_1_TypeDefinitionIndex = 69003;
+	inline static constexpr unsigned int INewsTickerPoolableItemCreator_1_TypeDefinitionIndex = 70956;
 
 	template <typename T>
 	class INewsTickerPoolableItemCreator_1

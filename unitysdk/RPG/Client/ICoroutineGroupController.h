@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ICoroutineGroupController_TypeDefinitionIndex = 35221;
+	inline static constexpr unsigned int ICoroutineGroupController_TypeDefinitionIndex = 36149;
 
 	class ICoroutineGroupController
 	{

@@ -3,23 +3,22 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class PetMarbleBattleTitle; }
 
-#define RPG_CLIENT_PETMARBLESEALBATTLESTAT_CTOR_OFFSET UNITYSDK_OFFSET(0xDAEC4E0)
+#define RPG_CLIENT_PETMARBLESEALBATTLESTAT_CTOR_OFFSET UNITYSDK_OFFSET(0xE542010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetMarbleSealBattleStat_TypeDefinitionIndex = 65815;
+	inline static constexpr unsigned int PetMarbleSealBattleStat_TypeDefinitionIndex = 67747;
 
 	class PetMarbleSealBattleStat : public ::System::Object
 	{
 	public:
 		::RPG::Client::PetMarbleBattleTitle* Title; // 0x10
-		::System::Int32 TotalDamage; // 0x18
-		::System::UInt32 SealId; // 0x1C
+		::System::UInt32 PlayerId; // 0x18
+		::System::Int32 TotalDamage; // 0x1C
 		::System::Int32 KillCount; // 0x20
-		::System::Boolean TeamA; // 0x24
-		::System::Byte _padding0[0x3];
-		::System::UInt32 EntityId; // 0x28
-		::System::UInt32 PlayerId; // 0x2C
+		::System::UInt32 EntityId; // 0x24
+		::System::UInt32 SealId; // 0x28
+		::System::Boolean TeamA; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PETMARBLESEALBATTLESTAT_CTOR_OFFSET))(this);

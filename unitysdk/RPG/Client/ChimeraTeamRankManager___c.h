@@ -5,31 +5,31 @@ namespace RPG::Client { class ChimeraTeamData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB67510)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB67540)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__GET_PLAYERFINISHWORKCNT_B__19_0_OFFSET UNITYSDK_OFFSET(0xCB67570)
-#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__SYNCPLAYERFINISHWORKCNT_B__5_0_OFFSET UNITYSDK_OFFSET(0xCB67550)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD4CB5A0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD4CB5D0)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__GET_PLAYERFINISHWORKCNT_B__19_0_OFFSET UNITYSDK_OFFSET(0xD4CB600)
+#define RPG_CLIENT_CHIMERATEAMRANKMANAGER___C__SYNCPLAYERFINISHWORKCNT_B__5_0_OFFSET UNITYSDK_OFFSET(0xD4CB5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraTeamRankManager___c_TypeDefinitionIndex = 63438;
+	inline static constexpr unsigned int ChimeraTeamRankManager___c_TypeDefinitionIndex = 64876;
 
 	class ChimeraTeamRankManager___c : public ::System::Object
 	{
 	public:
+		static ::System::Predicate_1<::RPG::Client::ChimeraTeamData*>** StaticGet___9__5_0()
+		{
+			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14260);
+		}
+
 		static ::System::Predicate_1<::RPG::Client::ChimeraTeamData*>** StaticGet___9__19_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15C90);
+			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14268);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15C98);
-		}
-
-		static ::System::Predicate_1<::RPG::Client::ChimeraTeamData*>** StaticGet___9__5_0()
-		{
-			return (::System::Predicate_1<::RPG::Client::ChimeraTeamData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x15CA0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14270);
 		}
 
 		static ::System::Void _cctor()

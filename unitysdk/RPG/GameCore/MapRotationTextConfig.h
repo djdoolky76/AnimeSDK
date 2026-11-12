@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationTextConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D830300)
-#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D82FBE0)
+#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA4AD20)
+#define RPG_GAMECORE_MAPROTATIONTEXTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA4A600)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationTextConfig_TypeDefinitionIndex = 17034;
+	inline static constexpr unsigned int MapRotationTextConfig_TypeDefinitionIndex = 17201;
 
 	class MapRotationTextConfig : public ::RPG::GameCore::JsonConfig
 	{

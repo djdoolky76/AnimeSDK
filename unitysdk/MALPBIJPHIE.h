@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MALPBIJPHIE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D131BA0)
-#define MALPBIJPHIE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1321A0)
-#define MALPBIJPHIE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D131D10)
-#define MALPBIJPHIE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1315D0)
-#define MALPBIJPHIE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D131860)
-#define MALPBIJPHIE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D131DB0)
-#define MALPBIJPHIE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D131E00)
-#define MALPBIJPHIE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D131BE0)
-#define MALPBIJPHIE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D131800)
-#define MALPBIJPHIE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1319D0)
-#define MALPBIJPHIE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D131C70)
-#define MALPBIJPHIE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D131550)
+#define MALPBIJPHIE_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E331750)
+#define MALPBIJPHIE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E331D50)
+#define MALPBIJPHIE_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E3318C0)
+#define MALPBIJPHIE_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E331180)
+#define MALPBIJPHIE_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E331410)
+#define MALPBIJPHIE_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E331960)
+#define MALPBIJPHIE_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E3319B0)
+#define MALPBIJPHIE_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E331790)
+#define MALPBIJPHIE_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E3313B0)
+#define MALPBIJPHIE_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E331580)
+#define MALPBIJPHIE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E331820)
+#define MALPBIJPHIE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E331100)
 
-inline static constexpr unsigned int MALPBIJPHIE_TypeDefinitionIndex = 13800;
+inline static constexpr unsigned int MALPBIJPHIE_TypeDefinitionIndex = 13957;
 
 	class MALPBIJPHIE : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x47110);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ILHardLevelGroupConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ILHardLevelGroupConfigRow*>**)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x47118);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x384F0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x47120);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x384F8);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ILHardLevelGroupConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ILHardLevelGroupConfigRow*>**)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x38500);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x10EF0);
+			return (::System::Byte*)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0xC320);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0x10EF1);
+			return (::System::Boolean*)UnitySDK::FromName("", "MALPBIJPHIE")->GetStaticField(0xC321);
 		}
 
 		static ::System::Void _cctor()

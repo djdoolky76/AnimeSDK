@@ -6,49 +6,49 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_GRIDFIGHTASSISTANT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD0CCC50)
-#define RPG_CLIENT_GRIDFIGHTASSISTANT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD0CCC90)
-#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__BOUGHTEXP_B__3_0_OFFSET UNITYSDK_OFFSET(0xD0CCDB0)
-#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__GETALLMESSAGE_B__7_0_OFFSET UNITYSDK_OFFSET(0xD0CD110)
-#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__TICKROUND_B__6_0_OFFSET UNITYSDK_OFFSET(0xD0CCFF0)
-#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__USEDEQUIP_B__4_0_OFFSET UNITYSDK_OFFSET(0xD0CCED0)
-#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__USEDORB_B__2_0_OFFSET UNITYSDK_OFFSET(0xD0CCCA0)
+#define RPG_CLIENT_GRIDFIGHTASSISTANT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA60340)
+#define RPG_CLIENT_GRIDFIGHTASSISTANT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA60380)
+#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__BOUGHTEXP_B__3_0_OFFSET UNITYSDK_OFFSET(0xDA604A0)
+#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__GETALLMESSAGE_B__7_0_OFFSET UNITYSDK_OFFSET(0xDA60800)
+#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__TICKROUND_B__6_0_OFFSET UNITYSDK_OFFSET(0xDA606E0)
+#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__USEDEQUIP_B__4_0_OFFSET UNITYSDK_OFFSET(0xDA605C0)
+#define RPG_CLIENT_GRIDFIGHTASSISTANT___C__USEDORB_B__2_0_OFFSET UNITYSDK_OFFSET(0xDA60390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightAssistant___c_TypeDefinitionIndex = 64366;
+	inline static constexpr unsigned int GridFightAssistant___c_TypeDefinitionIndex = 65813;
 
 	class GridFightAssistant___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__3_0()
-		{
-			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F70);
-		}
-
-		static ::System::Func_2<::PMIAJMPNJOO*, ::System::Int32>** StaticGet___9__7_0()
-		{
-			return (::System::Func_2<::PMIAJMPNJOO*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F78);
-		}
-
-		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F80);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F88);
-		}
-
-		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__6_0()
-		{
-			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F90);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AFB0);
 		}
 
 		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__2_0()
 		{
-			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x63F98);
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AFB8);
+		}
+
+		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__3_0()
+		{
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AFC0);
+		}
+
+		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__6_0()
+		{
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AFC8);
+		}
+
+		static ::System::Action_1<::PMIAJMPNJOO*>** StaticGet___9__4_0()
+		{
+			return (::System::Action_1<::PMIAJMPNJOO*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AFD0);
+		}
+
+		static ::System::Func_2<::PMIAJMPNJOO*, ::System::Int32>** StaticGet___9__7_0()
+		{
+			return (::System::Func_2<::PMIAJMPNJOO*, ::System::Int32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6AFD8);
 		}
 
 		static ::System::Void _cctor()

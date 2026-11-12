@@ -7,10 +7,10 @@ class DELPKNBPNLN;
 namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace System { class String; }
 
-#define OOPMKGIBJMN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9A0B60)
-#define OOPMKGIBJMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A0BE0)
+#define OOPMKGIBJMN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB62A50)
+#define OOPMKGIBJMN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB62AD0)
 
-inline static constexpr unsigned int OOPMKGIBJMN_TypeDefinitionIndex = 43656;
+inline static constexpr unsigned int OOPMKGIBJMN_TypeDefinitionIndex = 44639;
 
 	class OOPMKGIBJMN : public ::System::Object
 	{

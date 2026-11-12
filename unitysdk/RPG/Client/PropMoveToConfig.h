@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine { class AnimationCurve; }
 
-#define RPG_CLIENT_PROPMOVETOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDDF78A0)
+#define RPG_CLIENT_PROPMOVETOCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE85CA50)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PropMoveToConfig_TypeDefinitionIndex = 68644;
+	inline static constexpr unsigned int PropMoveToConfig_TypeDefinitionIndex = 70592;
 
 	class PropMoveToConfig : public ::UnityEngine::MonoBehaviour
 	{

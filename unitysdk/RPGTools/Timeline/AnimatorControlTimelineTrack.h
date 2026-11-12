@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8ADCA0)
+#define RPGTOOLS_TIMELINE_ANIMATORCONTROLTIMELINETRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF387BB0)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int AnimatorControlTimelineTrack_TypeDefinitionIndex = 47803;
+	inline static constexpr unsigned int AnimatorControlTimelineTrack_TypeDefinitionIndex = 48834;
 
 	class AnimatorControlTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

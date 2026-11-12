@@ -8,27 +8,26 @@ class BNEJEFALJIP;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BNEJEFALJIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E9290)
-#define BNEJEFALJIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E8E30)
+#define BNEJEFALJIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBB39F0)
+#define BNEJEFALJIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBB3590)
 
-inline static constexpr unsigned int BNEJEFALJIP_TypeDefinitionIndex = 13949;
+inline static constexpr unsigned int BNEJEFALJIP_TypeDefinitionIndex = 14106;
 
 	class BNEJEFALJIP : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* BHNIBPKLDKO; // 0x10
 		::System::String* FBKAMIHGLFK; // 0x18
-		::RPG::GameCore::LimaoNewsMessageSenderType GEFCMECLLIJ; // 0x20
-		::RPG::GameCore::LimaoNewsMessageItemType LINLNNHIBAK; // 0x24
-		::System::Boolean BGOCHGHFOLJ; // 0x28
-		::System::Byte _padding0[0x3];
+		::System::UInt32 JAKLCIIEDON; // 0x20
+		::System::UInt32 LDLDCLEIFML; // 0x24
+		::System::UInt32 NJFABJDCPNC; // 0x28
 		::System::UInt32 IJBDLNLOJKK; // 0x2C
-		::System::UInt32 JAKLCIIEDON; // 0x30
-		::System::UInt32 NJFABJDCPNC; // 0x34
-		::System::UInt32 LDLDCLEIFML; // 0x38
-		::System::Byte _padding1[0x4];
-		::RPG::Client::TextID HMGLFJABIII; // 0x40
-		::RPG::Client::TextID JGMIOKAJMFB; // 0x50
+		::RPG::GameCore::LimaoNewsMessageItemType LINLNNHIBAK; // 0x30
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID JGMIOKAJMFB; // 0x38
+		::RPG::Client::TextID HMGLFJABIII; // 0x48
+		::RPG::GameCore::LimaoNewsMessageSenderType GEFCMECLLIJ; // 0x58
+		::System::Boolean BGOCHGHFOLJ; // 0x5C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNEJEFALJIP_CTOR_OFFSET))(this);

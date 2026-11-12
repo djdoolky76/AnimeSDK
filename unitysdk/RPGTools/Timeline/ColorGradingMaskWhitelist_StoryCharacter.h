@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_COLORGRADINGMASKWHITELIST_STORYCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE8D4BF0)
+#define RPGTOOLS_TIMELINE_COLORGRADINGMASKWHITELIST_STORYCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0xF3AE380)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ColorGradingMaskWhitelist_StoryCharacter_TypeDefinitionIndex = 48463;
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_StoryCharacter_TypeDefinitionIndex = 49504;
 
 	class ColorGradingMaskWhitelist_StoryCharacter : public ::System::Object
 	{

@@ -7,9 +7,9 @@ class KCLIKAPODAD;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define MCHOGODBCKL_BCPPMJHKHIL_OFFSET UNITYSDK_OFFSET(0xB87F9C0)
+#define MCHOGODBCKL_BCPPMJHKHIL_OFFSET UNITYSDK_OFFSET(0xC0E67D0)
 
-inline static constexpr unsigned int MCHOGODBCKL_TypeDefinitionIndex = 62835;
+inline static constexpr unsigned int MCHOGODBCKL_TypeDefinitionIndex = 64273;
 
 	class MCHOGODBCKL : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectHideReason_TypeDefinitionIndex = 69910;
+	inline static constexpr unsigned int MonoEffectHideReason_TypeDefinitionIndex = 71869;
 
 	enum class MonoEffectHideReason : ::System::Int32
 	{
@@ -23,6 +23,7 @@ namespace RPG::Client
 		EffectSyncSourceNotLoaded = 14,
 		OpenWorldAlias = 15,
 		BlockVisible = 16,
+		LittleGameSandbox = 17,
 		MonoEffectField = 27,
 		MonoEffectCulled = 28,
 		MonoEffectAutoHidePlugin = 29,

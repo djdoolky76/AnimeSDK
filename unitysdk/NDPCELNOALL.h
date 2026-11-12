@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define NDPCELNOALL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB55D30)
-#define NDPCELNOALL_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBB55D40)
+#define NDPCELNOALL_CTOR_OFFSET UNITYSDK_OFFSET(0xC3DF430)
+#define NDPCELNOALL_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xC3DF440)
 
-inline static constexpr unsigned int NDPCELNOALL_TypeDefinitionIndex = 57041;
+inline static constexpr unsigned int NDPCELNOALL_TypeDefinitionIndex = 58268;
 
 	class NDPCELNOALL : public ::BDENDNDOFLF
 	{

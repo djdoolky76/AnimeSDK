@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudHandCardViewModel_TypeDefinitionIndex = 80924;
+	inline static constexpr unsigned int IFateRinBattleHudHandCardViewModel_TypeDefinitionIndex = 83704;
 
 	class IFateRinBattleHudHandCardViewModel
 	{

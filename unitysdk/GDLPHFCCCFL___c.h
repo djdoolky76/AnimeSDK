@@ -4,18 +4,18 @@
 class GDLPHFCCCFL;
 namespace System { class Object; }
 
-#define GDLPHFCCCFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E44ECB0)
-#define GDLPHFCCCFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44ECF0)
-#define GDLPHFCCCFL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E44ED00)
+#define GDLPHFCCCFL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F73CAB0)
+#define GDLPHFCCCFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F73CAF0)
+#define GDLPHFCCCFL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F73CB00)
 
-inline static constexpr unsigned int GDLPHFCCCFL___c_TypeDefinitionIndex = 29989;
+inline static constexpr unsigned int GDLPHFCCCFL___c_TypeDefinitionIndex = 30887;
 
 	class GDLPHFCCCFL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x113B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57880);
 		}
 
 		static ::System::Void _cctor()

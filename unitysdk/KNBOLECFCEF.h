@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define KNBOLECFCEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C909820)
+#define KNBOLECFCEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB5A50)
 
-inline static constexpr unsigned int KNBOLECFCEF_TypeDefinitionIndex = 43739;
+inline static constexpr unsigned int KNBOLECFCEF_TypeDefinitionIndex = 44814;
 
 	class KNBOLECFCEF : public ::System::Object
 	{

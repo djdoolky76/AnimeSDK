@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatTaskConfig_WriteCustomValue_ModifierData; }
 
-#define OKJHGHPGIGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D0AA0)
-#define OKJHGHPGIGB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7D0AB0)
+#define OKJHGHPGIGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D952330)
+#define OKJHGHPGIGB_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D952340)
 
-inline static constexpr unsigned int OKJHGHPGIGB_TypeDefinitionIndex = 36367;
+inline static constexpr unsigned int OKJHGHPGIGB_TypeDefinitionIndex = 37295;
 
 	class OKJHGHPGIGB : public ::AJBKGPOEBFG
 	{

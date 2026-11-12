@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvSetNpcVisionsConfig; }
 namespace RPG::GameCore { class VisionBaseConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B0B90)
-#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B0BA0)
-#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B0B60)
+#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C02B0)
+#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5C02C0)
+#define RPG_GAMECORE_ADVSETNPCVISIONSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C0280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetNpcVisionsConfig_TypeDefinitionIndex = 19998;
+	inline static constexpr unsigned int AdvSetNpcVisionsConfig_TypeDefinitionIndex = 20332;
 
 	class AdvSetNpcVisionsConfig : public ::RPG::GameCore::TaskConfig
 	{

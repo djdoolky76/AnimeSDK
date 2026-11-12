@@ -4,18 +4,18 @@
 class NMACHAFCGNI;
 namespace System { class Object; }
 
-#define NMACHAFCGNI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB6A9B0)
-#define NMACHAFCGNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6A9F0)
-#define NMACHAFCGNI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB6AA00)
+#define NMACHAFCGNI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F05B810)
+#define NMACHAFCGNI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F05B850)
+#define NMACHAFCGNI___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F05B860)
 
-inline static constexpr unsigned int NMACHAFCGNI___c_TypeDefinitionIndex = 31610;
+inline static constexpr unsigned int NMACHAFCGNI___c_TypeDefinitionIndex = 32523;
 
 	class NMACHAFCGNI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6BCD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x712F0);
 		}
 
 		static ::System::Void _cctor()

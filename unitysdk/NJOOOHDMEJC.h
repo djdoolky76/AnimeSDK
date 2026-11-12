@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int NJOOOHDMEJC_TypeDefinitionIndex = 48917;
+inline static constexpr unsigned int NJOOOHDMEJC_TypeDefinitionIndex = 49975;
 
 	struct alignas(4) NJOOOHDMEJC
 	{

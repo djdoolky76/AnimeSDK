@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ExitBreakState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DJCGNGINBAG_CTOR_OFFSET UNITYSDK_OFFSET(0xF22C4D0)
-#define DJCGNGINBAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF22C500)
+#define DJCGNGINBAG_CTOR_OFFSET UNITYSDK_OFFSET(0xFFAD600)
+#define DJCGNGINBAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFFAD630)
 
-inline static constexpr unsigned int DJCGNGINBAG_TypeDefinitionIndex = 55028;
+inline static constexpr unsigned int DJCGNGINBAG_TypeDefinitionIndex = 56204;
 
 	class DJCGNGINBAG
 	{

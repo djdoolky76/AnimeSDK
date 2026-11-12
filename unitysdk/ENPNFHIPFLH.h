@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Nullable_1.h"
 
-inline static constexpr unsigned int ENPNFHIPFLH_TypeDefinitionIndex = 66168;
+inline static constexpr unsigned int ENPNFHIPFLH_TypeDefinitionIndex = 68104;
 
 	struct alignas(8) ENPNFHIPFLH
 	{

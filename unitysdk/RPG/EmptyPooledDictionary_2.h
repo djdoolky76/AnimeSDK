@@ -5,7 +5,7 @@ namespace Collections::Pooled { template <typename T1, typename T2> class Pooled
 
 namespace RPG
 {
-	inline static constexpr unsigned int EmptyPooledDictionary_2_TypeDefinitionIndex = 6365;
+	inline static constexpr unsigned int EmptyPooledDictionary_2_TypeDefinitionIndex = 6372;
 
 	template <typename T1, typename T2>
 	class EmptyPooledDictionary_2 : public ::System::Object

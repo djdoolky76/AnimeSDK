@@ -7,11 +7,11 @@ namespace RPG::GameCore { class PointGeneratorConfig; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FDPPHEFGONA_BEJEGECHBAD_OFFSET UNITYSDK_OFFSET(0x156E3440)
-#define FDPPHEFGONA_BOPMPPBDEKH_OFFSET UNITYSDK_OFFSET(0x156E3720)
-#define FDPPHEFGONA_FHOEGCBAIEJ_OFFSET UNITYSDK_OFFSET(0x156E35A0)
+#define FDPPHEFGONA_BEJEGECHBAD_OFFSET UNITYSDK_OFFSET(0x165FD340)
+#define FDPPHEFGONA_BOPMPPBDEKH_OFFSET UNITYSDK_OFFSET(0x165FD620)
+#define FDPPHEFGONA_FHOEGCBAIEJ_OFFSET UNITYSDK_OFFSET(0x165FD4A0)
 
-inline static constexpr unsigned int FDPPHEFGONA_TypeDefinitionIndex = 60116;
+inline static constexpr unsigned int FDPPHEFGONA_TypeDefinitionIndex = 61400;
 
 	class FDPPHEFGONA : public ::System::Object
 	{

@@ -5,7 +5,7 @@ namespace RPG::GameCore::ConstValueMapping::Converter { template <typename T> cl
 
 namespace RPG::GameCore::ConstValueMapping::Converter
 {
-	inline static constexpr unsigned int DictionaryDynamicValueConverter_2_TypeDefinitionIndex = 43907;
+	inline static constexpr unsigned int DictionaryDynamicValueConverter_2_TypeDefinitionIndex = 44982;
 
 	template <typename T1, typename T2>
 	class DictionaryDynamicValueConverter_2 : public ::System::Object

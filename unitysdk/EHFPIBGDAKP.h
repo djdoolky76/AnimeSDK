@@ -5,23 +5,23 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class PamChatQuickFunctionConfigRow; }
 
-#define EHFPIBGDAKP_CTOR_OFFSET UNITYSDK_OFFSET(0x154A57B0)
-#define EHFPIBGDAKP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x154A5800)
-#define EHFPIBGDAKP_GET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x154A5820)
-#define EHFPIBGDAKP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x154A57E0)
-#define EHFPIBGDAKP_SET_NAME_OFFSET UNITYSDK_OFFSET(0x154A5810)
-#define EHFPIBGDAKP_SET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x154A5830)
-#define EHFPIBGDAKP_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x154A57F0)
+#define EHFPIBGDAKP_CTOR_OFFSET UNITYSDK_OFFSET(0x163A4400)
+#define EHFPIBGDAKP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x163A4450)
+#define EHFPIBGDAKP_GET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x163A4470)
+#define EHFPIBGDAKP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x163A4430)
+#define EHFPIBGDAKP_SET_NAME_OFFSET UNITYSDK_OFFSET(0x163A4460)
+#define EHFPIBGDAKP_SET_SENDTEXT_OFFSET UNITYSDK_OFFSET(0x163A4480)
+#define EHFPIBGDAKP_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x163A4440)
 
-inline static constexpr unsigned int EHFPIBGDAKP_TypeDefinitionIndex = 63288;
+inline static constexpr unsigned int EHFPIBGDAKP_TypeDefinitionIndex = 64726;
 
 	class EHFPIBGDAKP : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID _Name_k__BackingField; // 0x10
-		::RPG::Client::PamChatQuickFunctionType _Type_k__BackingField; // 0x20
+		::RPG::Client::PamChatQuickFunctionType _Type_k__BackingField; // 0x10
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _SendText_k__BackingField; // 0x28
+		::RPG::Client::TextID _SendText_k__BackingField; // 0x18
+		::RPG::Client::TextID _Name_k__BackingField; // 0x28
 		::System::Void _ctor(::RPG::GameCore::PamChatQuickFunctionConfigRow* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PamChatQuickFunctionConfigRow*))((::PBYTE)hIl2Cpp + EHFPIBGDAKP_CTOR_OFFSET))(this, a1);

@@ -7,10 +7,10 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JPKDLLGICEL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C5510)
-#define JPKDLLGICEL___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xB2C58E0)
+#define JPKDLLGICEL___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF1210)
+#define JPKDLLGICEL___C__DISPLAYCLASS1_0__TRIGGEREFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0xBAF15E0)
 
-inline static constexpr unsigned int JPKDLLGICEL___c__DisplayClass1_0_TypeDefinitionIndex = 52470;
+inline static constexpr unsigned int JPKDLLGICEL___c__DisplayClass1_0_TypeDefinitionIndex = 53576;
 
 	class JPKDLLGICEL___c__DisplayClass1_0 : public ::System::Object
 	{

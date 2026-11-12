@@ -4,9 +4,9 @@
 class KPIPGBDLNMM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BEIEDDIMMCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B8860)
+#define BEIEDDIMMCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA39570)
 
-inline static constexpr unsigned int BEIEDDIMMCP_TypeDefinitionIndex = 42838;
+inline static constexpr unsigned int BEIEDDIMMCP_TypeDefinitionIndex = 43819;
 
 	class BEIEDDIMMCP : public ::System::Object
 	{

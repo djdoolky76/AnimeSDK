@@ -5,23 +5,23 @@ class KDKHADGLIPJ;
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define HPLLFKGEKAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15DD4590)
-#define HPLLFKGEKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD45D0)
-#define HPLLFKGEKAP___C___TRIGGERCHIMERADEATH_B__2_0_OFFSET UNITYSDK_OFFSET(0x15DD45E0)
+#define HPLLFKGEKAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16D780F0)
+#define HPLLFKGEKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16D78130)
+#define HPLLFKGEKAP___C___TRIGGERCHIMERADEATH_B__2_0_OFFSET UNITYSDK_OFFSET(0x16D78140)
 
-inline static constexpr unsigned int HPLLFKGEKAP___c_TypeDefinitionIndex = 75755;
+inline static constexpr unsigned int HPLLFKGEKAP___c_TypeDefinitionIndex = 78082;
 
 	class HPLLFKGEKAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38A40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26340);
 		}
 
 		static ::System::Comparison_1<::KDKHADGLIPJ*>** StaticGet___9__2_0()
 		{
-			return (::System::Comparison_1<::KDKHADGLIPJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38A48);
+			return (::System::Comparison_1<::KDKHADGLIPJ*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26348);
 		}
 
 		static ::System::Void _cctor()

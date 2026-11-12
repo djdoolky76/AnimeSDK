@@ -5,7 +5,7 @@ namespace System { class Object; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1___c_TypeDefinitionIndex = 6610;
+	inline static constexpr unsigned int ImmutableHashSet_1___c_TypeDefinitionIndex = 6621;
 
 	template <typename T>
 	class ImmutableHashSet_1___c : public ::System::Object

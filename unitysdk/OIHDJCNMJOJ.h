@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OIHDJCNMJOJ_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D282B50)
-#define OIHDJCNMJOJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D283120)
-#define OIHDJCNMJOJ_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D282CC0)
-#define OIHDJCNMJOJ_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2825C0)
-#define OIHDJCNMJOJ_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D282850)
-#define OIHDJCNMJOJ_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D282D60)
-#define OIHDJCNMJOJ_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D282DB0)
-#define OIHDJCNMJOJ_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D282B90)
-#define OIHDJCNMJOJ_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2827F0)
-#define OIHDJCNMJOJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2829C0)
-#define OIHDJCNMJOJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D282C20)
-#define OIHDJCNMJOJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D282540)
+#define OIHDJCNMJOJ_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E4898F0)
+#define OIHDJCNMJOJ_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E489EC0)
+#define OIHDJCNMJOJ_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E489A60)
+#define OIHDJCNMJOJ_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E489360)
+#define OIHDJCNMJOJ_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E4895F0)
+#define OIHDJCNMJOJ_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E489B00)
+#define OIHDJCNMJOJ_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E489B50)
+#define OIHDJCNMJOJ_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E489930)
+#define OIHDJCNMJOJ_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E489590)
+#define OIHDJCNMJOJ_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E489760)
+#define OIHDJCNMJOJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E4899C0)
+#define OIHDJCNMJOJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E4892E0)
 
-inline static constexpr unsigned int OIHDJCNMJOJ_TypeDefinitionIndex = 11445;
+inline static constexpr unsigned int OIHDJCNMJOJ_TypeDefinitionIndex = 11496;
 
 	class OIHDJCNMJOJ : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x37340);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ExpeditionBattleRouteConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ExpeditionBattleRouteConfigRow*>**)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x37348);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x51C10);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x37350);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x51C18);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ExpeditionBattleRouteConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0xBB20);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ExpeditionBattleRouteConfigRow*>**)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x51C20);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0xBB21);
+			return (::System::Byte*)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x10060);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "OIHDJCNMJOJ")->GetStaticField(0x10061);
 		}
 
 		static ::System::Void _cctor()

@@ -7,20 +7,20 @@ namespace RPG::GameCore { class GameEntityList; }
 namespace RPG::GameCore { class OpenTimeRewindSnapPageParam; }
 namespace System { class Action; }
 
-#define JPDCGBNGKLL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2B4380)
-#define JPDCGBNGKLL_FJJELPCBFNE_OFFSET UNITYSDK_OFFSET(0xB2B3DD0)
-#define JPDCGBNGKLL_GFDHEJEAAKJ_OFFSET UNITYSDK_OFFSET(0xB2B4030)
-#define JPDCGBNGKLL_IHMOBDGAOMD_OFFSET UNITYSDK_OFFSET(0xB2B3EA0)
-#define JPDCGBNGKLL_KNOEMFGLKPI_OFFSET UNITYSDK_OFFSET(0xB2B3F80)
+#define JPDCGBNGKLL_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAE0260)
+#define JPDCGBNGKLL_FJJELPCBFNE_OFFSET UNITYSDK_OFFSET(0xBADFCB0)
+#define JPDCGBNGKLL_GFDHEJEAAKJ_OFFSET UNITYSDK_OFFSET(0xBADFF10)
+#define JPDCGBNGKLL_IHMOBDGAOMD_OFFSET UNITYSDK_OFFSET(0xBADFD80)
+#define JPDCGBNGKLL_KNOEMFGLKPI_OFFSET UNITYSDK_OFFSET(0xBADFE60)
 
-inline static constexpr unsigned int JPDCGBNGKLL_TypeDefinitionIndex = 60849;
+inline static constexpr unsigned int JPDCGBNGKLL_TypeDefinitionIndex = 62228;
 
 	class JPDCGBNGKLL : public ::System::Object
 	{
 	public:
 		static ::System::Int32* StaticGet_KMFBDEHCLFG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JPDCGBNGKLL")->GetStaticField(0x8380);
+			return (::System::Int32*)UnitySDK::FromName("", "JPDCGBNGKLL")->GetStaticField(0x65B0);
 		}
 
 		static ::System::Void _cctor()

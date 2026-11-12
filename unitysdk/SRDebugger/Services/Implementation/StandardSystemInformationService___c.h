@@ -4,73 +4,73 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Func_1; }
 
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1ED527E0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED52810)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x1ED52820)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_1_OFFSET UNITYSDK_OFFSET(0x1ED52880)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_2_OFFSET UNITYSDK_OFFSET(0x1ED528B0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_3_OFFSET UNITYSDK_OFFSET(0x1ED528E0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_4_OFFSET UNITYSDK_OFFSET(0x1ED52930)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_5_OFFSET UNITYSDK_OFFSET(0x1ED52980)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_6_OFFSET UNITYSDK_OFFSET(0x1ED529B0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_7_OFFSET UNITYSDK_OFFSET(0x1ED529E0)
-#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_8_OFFSET UNITYSDK_OFFSET(0x1ED52B80)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20002370)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x200023A0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_0_OFFSET UNITYSDK_OFFSET(0x200023B0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_1_OFFSET UNITYSDK_OFFSET(0x20002410)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_2_OFFSET UNITYSDK_OFFSET(0x20002440)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_3_OFFSET UNITYSDK_OFFSET(0x20002470)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_4_OFFSET UNITYSDK_OFFSET(0x200024C0)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_5_OFFSET UNITYSDK_OFFSET(0x20002510)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_6_OFFSET UNITYSDK_OFFSET(0x20002540)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_7_OFFSET UNITYSDK_OFFSET(0x20002570)
+#define SRDEBUGGER_SERVICES_IMPLEMENTATION_STANDARDSYSTEMINFORMATIONSERVICE___C__CREATEDEFAULTSET_B__6_8_OFFSET UNITYSDK_OFFSET(0x20002710)
 
 namespace SRDebugger::Services::Implementation
 {
-	inline static constexpr unsigned int StandardSystemInformationService___c_TypeDefinitionIndex = 38090;
+	inline static constexpr unsigned int StandardSystemInformationService___c_TypeDefinitionIndex = 39019;
 
 	class StandardSystemInformationService___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_4()
-		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B640);
-		}
-
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_8()
-		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B648);
-		}
-
 		static ::System::Func_1<::System::Object*>** StaticGet___9__6_6()
 		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B650);
-		}
-
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_1()
-		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B658);
-		}
-
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_0()
-		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B660);
-		}
-
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_2()
-		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B668);
-		}
-
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_7()
-		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B670);
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B678);
+			return (::System::Object**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331B8);
 		}
 
-		static ::System::Func_1<::System::Object*>** StaticGet___9__6_5()
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_7()
 		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B680);
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331C0);
+		}
+
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_4()
+		{
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331C8);
 		}
 
 		static ::System::Func_1<::System::Object*>** StaticGet___9__6_3()
 		{
-			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x3B688);
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331D0);
+		}
+
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_5()
+		{
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331D8);
+		}
+
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331E0);
+		}
+
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_2()
+		{
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331E8);
+		}
+
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_8()
+		{
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331F0);
+		}
+
+		static ::System::Func_1<::System::Object*>** StaticGet___9__6_0()
+		{
+			return (::System::Func_1<::System::Object*>**)UnitySDK::FromName("SRDebugger.Services.Implementation", "<>c")->GetStaticField(0x331F8);
 		}
 
 		static ::System::Void _cctor()

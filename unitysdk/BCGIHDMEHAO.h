@@ -7,17 +7,17 @@ class CMNOPNKOJPP;
 class FEIPLKMMIOI;
 namespace RPG::Client::FateRin::Card { class IFateRinCardOwnerViewModel; }
 
-#define BCGIHDMEHAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15EA6ED0)
-#define BCGIHDMEHAO_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA6EC0)
+#define BCGIHDMEHAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1709F610)
+#define BCGIHDMEHAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1709F600)
 
-inline static constexpr unsigned int BCGIHDMEHAO_TypeDefinitionIndex = 81151;
+inline static constexpr unsigned int BCGIHDMEHAO_TypeDefinitionIndex = 83931;
 
 	class BCGIHDMEHAO : public ::System::Object
 	{
 	public:
-		::BEIJCJFHANG* LBNAGLIGKIO; // 0x10
+		::CMNOPNKOJPP* LHKLOJLCCGO; // 0x10
 		::FEIPLKMMIOI* DEEMJACOGII; // 0x18
-		::CMNOPNKOJPP* LHKLOJLCCGO; // 0x20
+		::BEIJCJFHANG* LBNAGLIGKIO; // 0x20
 		::System::Void _ctor(::BEIJCJFHANG* a1, ::FEIPLKMMIOI* a2, ::CMNOPNKOJPP* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::BEIJCJFHANG*, ::FEIPLKMMIOI*, ::CMNOPNKOJPP*))((::PBYTE)hIl2Cpp + BCGIHDMEHAO_CTOR_OFFSET))(this, a1, a2, a3);

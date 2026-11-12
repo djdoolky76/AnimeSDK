@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class VCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_OVERRIDESKILLREADYCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8E9370)
-#define RPG_GAMECORE_OVERRIDESKILLREADYCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8E9380)
-#define RPG_GAMECORE_OVERRIDESKILLREADYCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8E9340)
+#define RPG_GAMECORE_OVERRIDESKILLREADYCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB01D90)
+#define RPG_GAMECORE_OVERRIDESKILLREADYCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB01DA0)
+#define RPG_GAMECORE_OVERRIDESKILLREADYCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB01D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int OverrideSkillReadyCamera_TypeDefinitionIndex = 22837;
+	inline static constexpr unsigned int OverrideSkillReadyCamera_TypeDefinitionIndex = 23262;
 
 	class OverrideSkillReadyCamera : public ::RPG::GameCore::TaskConfig
 	{

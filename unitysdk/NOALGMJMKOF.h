@@ -8,19 +8,19 @@ namespace Entitas { template <typename T> class IContext_1; }
 namespace Entitas { template <typename T> class IGroup_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NOALGMJMKOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C974770)
-#define NOALGMJMKOF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C974A70)
-#define NOALGMJMKOF_FILTER_OFFSET UNITYSDK_OFFSET(0x1C9749C0)
-#define NOALGMJMKOF_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C9748A0)
+#define NOALGMJMKOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB36540)
+#define NOALGMJMKOF_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1DB36840)
+#define NOALGMJMKOF_FILTER_OFFSET UNITYSDK_OFFSET(0x1DB36790)
+#define NOALGMJMKOF_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1DB36670)
 
-inline static constexpr unsigned int NOALGMJMKOF_TypeDefinitionIndex = 42865;
+inline static constexpr unsigned int NOALGMJMKOF_TypeDefinitionIndex = 43846;
 
 	class NOALGMJMKOF
 	{
 	public:
-		::System::Collections::Generic::List_1<::FAHKECADCOF*>* BGKHCJPFFLN; // 0x28
-		::System::Collections::Generic::List_1<::KHPOKIKCOFO*>* DBNOOEHAEAC; // 0x30
-		::Entitas::IGroup_1<::KHPOKIKCOFO*>* PMBNNOOFAOM; // 0x38
+		::System::Collections::Generic::List_1<::KHPOKIKCOFO*>* DBNOOEHAEAC; // 0x28
+		::Entitas::IGroup_1<::KHPOKIKCOFO*>* PMBNNOOFAOM; // 0x30
+		::System::Collections::Generic::List_1<::FAHKECADCOF*>* BGKHCJPFFLN; // 0x38
 		::System::Void _ctor(::FDPALAEIHPB* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::FDPALAEIHPB*))((::PBYTE)hIl2Cpp + NOALGMJMKOF_CTOR_OFFSET))(this, a1);

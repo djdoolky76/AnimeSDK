@@ -3,10 +3,10 @@
 namespace RPG::Client { class PlanetFesAvatarMoveTo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LLEFJIPDNNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB764950)
-#define LLEFJIPDNNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB764980)
+#define LLEFJIPDNNM_CTOR_OFFSET UNITYSDK_OFFSET(0xC0040C0)
+#define LLEFJIPDNNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0040F0)
 
-inline static constexpr unsigned int LLEFJIPDNNM_TypeDefinitionIndex = 58257;
+inline static constexpr unsigned int LLEFJIPDNNM_TypeDefinitionIndex = 59513;
 
 	class LLEFJIPDNNM
 	{

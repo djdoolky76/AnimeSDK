@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_JIGSAWEDITORHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xD38D770)
+#define RPG_CLIENT_JIGSAWEDITORHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xDDC3710)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int JigsawEditorHelper_TypeDefinitionIndex = 68503;
+	inline static constexpr unsigned int JigsawEditorHelper_TypeDefinitionIndex = 70451;
 
 	class JigsawEditorHelper : public ::UnityEngine::MonoBehaviour
 	{

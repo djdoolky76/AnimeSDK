@@ -5,21 +5,21 @@
 class GNPKFEMELOI;
 namespace System { class String; }
 
-#define GNPKFEMELOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1F920)
-#define GNPKFEMELOI_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15B1F870)
+#define GNPKFEMELOI_CTOR_OFFSET UNITYSDK_OFFSET(0x16AA5070)
+#define GNPKFEMELOI_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x16AA4FC0)
 
-inline static constexpr unsigned int GNPKFEMELOI_TypeDefinitionIndex = 69539;
+inline static constexpr unsigned int GNPKFEMELOI_TypeDefinitionIndex = 71496;
 
 	class GNPKFEMELOI : public ::System::Object
 	{
 	public:
 		::System::String* KGJFOKOJAKL; // 0x10
-		::System::Single FJAAFBHHKAM; // 0x18
-		::System::Single NCKLCBPEGML; // 0x1C
-		::UnityEngine::Vector3 KACAINDGKPI; // 0x20
-		::System::Single GAFENHHEBPG; // 0x2C
-		::System::Single CJKMNJIGMAI; // 0x30
-		::UnityEngine::Vector3 PDLLKALMODP; // 0x34
+		::System::Single NCKLCBPEGML; // 0x18
+		::System::Single CJKMNJIGMAI; // 0x1C
+		::System::Single GAFENHHEBPG; // 0x20
+		::System::Single FJAAFBHHKAM; // 0x24
+		::UnityEngine::Vector3 PDLLKALMODP; // 0x28
+		::UnityEngine::Vector3 KACAINDGKPI; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNPKFEMELOI_CTOR_OFFSET))(this);

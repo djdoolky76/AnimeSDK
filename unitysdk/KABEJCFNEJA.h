@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define KABEJCFNEJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C900)
+#define KABEJCFNEJA_CTOR_OFFSET UNITYSDK_OFFSET(0x20CB0)
 
-inline static constexpr unsigned int KABEJCFNEJA_TypeDefinitionIndex = 36946;
+inline static constexpr unsigned int KABEJCFNEJA_TypeDefinitionIndex = 37874;
 
 	struct alignas(8) KABEJCFNEJA
 	{

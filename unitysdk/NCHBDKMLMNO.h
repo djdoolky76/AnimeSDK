@@ -6,17 +6,17 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define NCHBDKMLMNO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB10BF0)
-#define NCHBDKMLMNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB10D30)
-#define NCHBDKMLMNO_NMNBPCGANNE_OFFSET UNITYSDK_OFFSET(0xBB10C80)
+#define NCHBDKMLMNO_CTOR_OFFSET UNITYSDK_OFFSET(0xC397CF0)
+#define NCHBDKMLMNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC397E30)
+#define NCHBDKMLMNO_NMNBPCGANNE_OFFSET UNITYSDK_OFFSET(0xC397D80)
 
-inline static constexpr unsigned int NCHBDKMLMNO_TypeDefinitionIndex = 54585;
+inline static constexpr unsigned int NCHBDKMLMNO_TypeDefinitionIndex = 55750;
 
 	class NCHBDKMLMNO
 	{
 	public:
-		::System::Action_1<::ENGBNDIPDJL*>* AEOGOHOOAHI; // 0x28
-		::RPG::GameCore::GameEntity* GKKPKKPFBCE; // 0x30
+		::RPG::GameCore::GameEntity* GKKPKKPFBCE; // 0x28
+		::System::Action_1<::ENGBNDIPDJL*>* AEOGOHOOAHI; // 0x30
 		::System::Int32 COEMCOBPMKD; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ByCompareUnusedInsertAbilityCount* a2)
 		{

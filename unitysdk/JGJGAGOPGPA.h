@@ -3,7 +3,7 @@
 #include "unitysdk/EnviromentSystemV2Space/EnvCallbackCurveType.h"
 class PNEMLMAGOMM;
 
-inline static constexpr unsigned int JGJGAGOPGPA_TypeDefinitionIndex = 49501;
+inline static constexpr unsigned int JGJGAGOPGPA_TypeDefinitionIndex = 50577;
 
 	class JGJGAGOPGPA
 	{

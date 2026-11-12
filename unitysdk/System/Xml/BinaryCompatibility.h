@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_XML_BINARYCOMPATIBILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE93450)
-#define SYSTEM_XML_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x1EE93080)
-#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x1EE930E0)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_CCTOR_OFFSET UNITYSDK_OFFSET(0x20142B90)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_GET_TARGETSATLEAST_DESKTOP_V4_5_2_OFFSET UNITYSDK_OFFSET(0x201427C0)
+#define SYSTEM_XML_BINARYCOMPATIBILITY_RUNNINGONCHECK_OFFSET UNITYSDK_OFFSET(0x20142820)
 
 namespace System::Xml
 {
@@ -16,7 +16,7 @@ namespace System::Xml
 	public:
 		static ::System::Boolean* StaticGet__targetsAtLeast_Desktop_V4_5_2()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("System.Xml", "BinaryCompatibility")->GetStaticField(0x7370);
+			return (::System::Boolean*)UnitySDK::FromName("System.Xml", "BinaryCompatibility")->GetStaticField(0x8A30);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class ANCENNCMLDH;
 namespace System { class Object; }
 
-#define ANCENNCMLDH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E528FC0)
-#define ANCENNCMLDH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E529000)
-#define ANCENNCMLDH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E529010)
+#define ANCENNCMLDH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F919250)
+#define ANCENNCMLDH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F919290)
+#define ANCENNCMLDH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F9192A0)
 
-inline static constexpr unsigned int ANCENNCMLDH___c_TypeDefinitionIndex = 31084;
+inline static constexpr unsigned int ANCENNCMLDH___c_TypeDefinitionIndex = 31997;
 
 	class ANCENNCMLDH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D5B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41E80);
 		}
 
 		static ::System::Void _cctor()

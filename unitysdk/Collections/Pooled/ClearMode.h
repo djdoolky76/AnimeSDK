@@ -3,7 +3,7 @@
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int ClearMode_TypeDefinitionIndex = 5086;
+	inline static constexpr unsigned int ClearMode_TypeDefinitionIndex = 5091;
 
 	enum class ClearMode : ::System::Int32
 	{

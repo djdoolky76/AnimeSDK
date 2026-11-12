@@ -11,89 +11,89 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define JIGBEFNLENA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB1F9B90)
-#define JIGBEFNLENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB1F9BD0)
-#define JIGBEFNLENA___C__GETALLAPPLYLIST_B__24_0_OFFSET UNITYSDK_OFFSET(0xB1F9F00)
-#define JIGBEFNLENA___C__GETAPPLYLIST_B__23_0_OFFSET UNITYSDK_OFFSET(0xB1F9E70)
-#define JIGBEFNLENA___C__GETFREEAPPLYLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0xB1F9F90)
-#define JIGBEFNLENA___C__GETOFFERLIST_B__26_0_OFFSET UNITYSDK_OFFSET(0xB1FA020)
-#define JIGBEFNLENA___C__GETPRESENTLIST_B__21_0_OFFSET UNITYSDK_OFFSET(0xB1F9D70)
-#define JIGBEFNLENA___C__SYNC_B__11_0_OFFSET UNITYSDK_OFFSET(0xB1F9CA0)
-#define JIGBEFNLENA___C__SYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0xB1F9CE0)
-#define JIGBEFNLENA___C__SYNC_B__14_0_OFFSET UNITYSDK_OFFSET(0xB1F9D20)
-#define JIGBEFNLENA___C__SYNC_B__9_0_OFFSET UNITYSDK_OFFSET(0xB1F9BE0)
-#define JIGBEFNLENA___C__SYNC_B__9_1_OFFSET UNITYSDK_OFFSET(0xB1F9C20)
-#define JIGBEFNLENA___C__SYNC_B__9_2_OFFSET UNITYSDK_OFFSET(0xB1F9C60)
-#define JIGBEFNLENA___C___FLITERINVALIDITEM_B__42_0_OFFSET UNITYSDK_OFFSET(0xB1FA120)
+#define JIGBEFNLENA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA1BAE0)
+#define JIGBEFNLENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA1BB20)
+#define JIGBEFNLENA___C__GETALLAPPLYLIST_B__24_0_OFFSET UNITYSDK_OFFSET(0xBA1BE50)
+#define JIGBEFNLENA___C__GETAPPLYLIST_B__23_0_OFFSET UNITYSDK_OFFSET(0xBA1BDC0)
+#define JIGBEFNLENA___C__GETFREEAPPLYLIST_B__25_0_OFFSET UNITYSDK_OFFSET(0xBA1BEE0)
+#define JIGBEFNLENA___C__GETOFFERLIST_B__26_0_OFFSET UNITYSDK_OFFSET(0xBA1BF70)
+#define JIGBEFNLENA___C__GETPRESENTLIST_B__21_0_OFFSET UNITYSDK_OFFSET(0xBA1BCC0)
+#define JIGBEFNLENA___C__SYNC_B__11_0_OFFSET UNITYSDK_OFFSET(0xBA1BBF0)
+#define JIGBEFNLENA___C__SYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0xBA1BC30)
+#define JIGBEFNLENA___C__SYNC_B__14_0_OFFSET UNITYSDK_OFFSET(0xBA1BC70)
+#define JIGBEFNLENA___C__SYNC_B__9_0_OFFSET UNITYSDK_OFFSET(0xBA1BB30)
+#define JIGBEFNLENA___C__SYNC_B__9_1_OFFSET UNITYSDK_OFFSET(0xBA1BB70)
+#define JIGBEFNLENA___C__SYNC_B__9_2_OFFSET UNITYSDK_OFFSET(0xBA1BBB0)
+#define JIGBEFNLENA___C___FLITERINVALIDITEM_B__42_0_OFFSET UNITYSDK_OFFSET(0xBA1C070)
 
-inline static constexpr unsigned int JIGBEFNLENA___c_TypeDefinitionIndex = 66589;
+inline static constexpr unsigned int JIGBEFNLENA___c_TypeDefinitionIndex = 68525;
 
 	class JIGBEFNLENA___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__9_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14870);
-		}
-
-		static ::System::Action** StaticGet___9__12_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14878);
-		}
-
-		static ::System::Comparison_1<::NIHBKNJHJGP*>** StaticGet___9__21_0()
-		{
-			return (::System::Comparison_1<::NIHBKNJHJGP*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14880);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardOfferItem*>** StaticGet___9__26_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardOfferItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14888);
-		}
-
-		static ::System::Func_2<::APMMCOELKEP*, ::System::Boolean>** StaticGet___9__42_0()
-		{
-			return (::System::Func_2<::APMMCOELKEP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14890);
-		}
-
-		static ::System::Action** StaticGet___9__9_1()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14898);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x148A0);
-		}
-
-		static ::System::Action** StaticGet___9__9_2()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x148A8);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__25_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x148B0);
-		}
-
-		static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__23_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x148B8);
-		}
-
-		static ::System::Action** StaticGet___9__11_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0x148C0);
+			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD240);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::PlanetFesRankDataItem*>** StaticGet___9__14_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesRankDataItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x148C8);
+			return (::System::Comparison_1<::RPG::Client::PlanetFesRankDataItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD248);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardOfferItem*>** StaticGet___9__26_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardOfferItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD250);
+		}
+
+		static ::System::Action** StaticGet___9__11_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD258);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__24_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x148D0);
+			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD260);
+		}
+
+		static ::System::Action** StaticGet___9__12_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD268);
+		}
+
+		static ::System::Action** StaticGet___9__9_2()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD270);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD278);
+		}
+
+		static ::System::Action** StaticGet___9__9_1()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD280);
+		}
+
+		static ::System::Func_2<::APMMCOELKEP*, ::System::Boolean>** StaticGet___9__42_0()
+		{
+			return (::System::Func_2<::APMMCOELKEP*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD288);
+		}
+
+		static ::System::Action** StaticGet___9__9_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD290);
+		}
+
+		static ::System::Comparison_1<::NIHBKNJHJGP*>** StaticGet___9__21_0()
+		{
+			return (::System::Comparison_1<::NIHBKNJHJGP*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD298);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>** StaticGet___9__23_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::PlanetFesTradingCardApplyItem*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD2A0);
 		}
 
 		static ::System::Void _cctor()

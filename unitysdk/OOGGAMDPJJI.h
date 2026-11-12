@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TutorialForbidAutoBattle; }
 
-#define OOGGAMDPJJI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF7C860)
-#define OOGGAMDPJJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF7C890)
+#define OOGGAMDPJJI_CTOR_OFFSET UNITYSDK_OFFSET(0xC87D220)
+#define OOGGAMDPJJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC87D250)
 
-inline static constexpr unsigned int OOGGAMDPJJI_TypeDefinitionIndex = 55782;
+inline static constexpr unsigned int OOGGAMDPJJI_TypeDefinitionIndex = 56985;
 
 	class OOGGAMDPJJI
 	{

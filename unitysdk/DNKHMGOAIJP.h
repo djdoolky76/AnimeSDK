@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DNKHMGOAIJP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD3D20)
-#define DNKHMGOAIJP_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x11FD3D40)
+#define DNKHMGOAIJP_CTOR_OFFSET UNITYSDK_OFFSET(0x12DCD070)
+#define DNKHMGOAIJP_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x12DCD090)
 
-inline static constexpr unsigned int DNKHMGOAIJP_TypeDefinitionIndex = 59272;
+inline static constexpr unsigned int DNKHMGOAIJP_TypeDefinitionIndex = 60549;
 
 	class DNKHMGOAIJP : public ::System::Object
 	{

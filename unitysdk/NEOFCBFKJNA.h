@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define NEOFCBFKJNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92E310)
+#define NEOFCBFKJNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEF810)
 
-inline static constexpr unsigned int NEOFCBFKJNA_TypeDefinitionIndex = 42437;
+inline static constexpr unsigned int NEOFCBFKJNA_TypeDefinitionIndex = 43412;
 
 	class NEOFCBFKJNA : public ::System::Object
 	{

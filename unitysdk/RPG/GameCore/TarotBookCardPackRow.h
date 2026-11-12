@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TarotBookCardPackRow; }
 
-#define RPG_GAMECORE_TAROTBOOKCARDPACKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB74D20)
-#define RPG_GAMECORE_TAROTBOOKCARDPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB74BA0)
+#define RPG_GAMECORE_TAROTBOOKCARDPACKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE244A0)
+#define RPG_GAMECORE_TAROTBOOKCARDPACKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE24320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotBookCardPackRow_TypeDefinitionIndex = 15227;
+	inline static constexpr unsigned int TarotBookCardPackRow_TypeDefinitionIndex = 15383;
 
 	class TarotBookCardPackRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Hint; // 0x18
+		::RPG::Client::TextID Hint; // 0x10
+		::System::UInt32 ID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTBOOKCARDPACKROW_CTOR_OFFSET))(this);

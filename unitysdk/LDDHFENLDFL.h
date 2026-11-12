@@ -4,10 +4,10 @@
 class DIHCJLDIMNA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDDHFENLDFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB61DA40)
-#define LDDHFENLDFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB61DB20)
+#define LDDHFENLDFL_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB2340)
+#define LDDHFENLDFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEB2420)
 
-inline static constexpr unsigned int LDDHFENLDFL_TypeDefinitionIndex = 55430;
+inline static constexpr unsigned int LDDHFENLDFL_TypeDefinitionIndex = 56615;
 
 	class LDDHFENLDFL
 	{

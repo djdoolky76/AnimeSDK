@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByPreShowRedStanceBreak; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNJEOBJBLBB_CTOR_OFFSET UNITYSDK_OFFSET(0xBCB0610)
-#define NNJEOBJBLBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCB0640)
+#define NNJEOBJBLBB_CTOR_OFFSET UNITYSDK_OFFSET(0xC599010)
+#define NNJEOBJBLBB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC599040)
 
-inline static constexpr unsigned int NNJEOBJBLBB_TypeDefinitionIndex = 54706;
+inline static constexpr unsigned int NNJEOBJBLBB_TypeDefinitionIndex = 55873;
 
 	class NNJEOBJBLBB
 	{

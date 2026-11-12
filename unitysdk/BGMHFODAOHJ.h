@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideSkillReadyState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BGMHFODAOHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB18D1F0)
-#define BGMHFODAOHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB18D220)
+#define BGMHFODAOHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB17BC0)
+#define BGMHFODAOHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB17BF0)
 
-inline static constexpr unsigned int BGMHFODAOHJ_TypeDefinitionIndex = 55245;
+inline static constexpr unsigned int BGMHFODAOHJ_TypeDefinitionIndex = 56426;
 
 	class BGMHFODAOHJ
 	{

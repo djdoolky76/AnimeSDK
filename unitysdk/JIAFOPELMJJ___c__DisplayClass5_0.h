@@ -7,18 +7,18 @@ class EJLIOMPMHHI;
 class HGCEOEHGPPE;
 class KPNOBBFKNHA;
 
-#define JIAFOPELMJJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E6EF0)
-#define JIAFOPELMJJ___C__DISPLAYCLASS5_0__STARTFORTEXTMAPPACKSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xB1E6F00)
+#define JIAFOPELMJJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9EEFB0)
+#define JIAFOPELMJJ___C__DISPLAYCLASS5_0__STARTFORTEXTMAPPACKSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xBA08E20)
 
-inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass5_0_TypeDefinitionIndex = 59518;
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass5_0_TypeDefinitionIndex = 60795;
 
 	class JIAFOPELMJJ___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::EJLIOMPMHHI* queue; // 0x10
-		::DJLGNEMNIKI* designData; // 0x18
-		::KPNOBBFKNHA* designHPatch; // 0x20
-		::AODPGPILMKK* resArchiveData; // 0x28
+		::AODPGPILMKK* resArchiveData; // 0x10
+		::EJLIOMPMHHI* queue; // 0x18
+		::DJLGNEMNIKI* designData; // 0x20
+		::KPNOBBFKNHA* designHPatch; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIAFOPELMJJ___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

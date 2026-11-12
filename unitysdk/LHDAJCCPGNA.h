@@ -7,22 +7,22 @@ namespace RPG::GameCore { class ListenTargetUseSkill; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define LHDAJCCPGNA_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A9B80)
-#define LHDAJCCPGNA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6A9D70)
-#define LHDAJCCPGNA_HHAJFDLEKCE_OFFSET UNITYSDK_OFFSET(0xB6A9FB0)
-#define LHDAJCCPGNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6A9C00)
-#define LHDAJCCPGNA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6A9CF0)
-#define LHDAJCCPGNA_TICK_OFFSET UNITYSDK_OFFSET(0xB6A9ED0)
+#define LHDAJCCPGNA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF40840)
+#define LHDAJCCPGNA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF40A30)
+#define LHDAJCCPGNA_HHAJFDLEKCE_OFFSET UNITYSDK_OFFSET(0xBF40C30)
+#define LHDAJCCPGNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF408C0)
+#define LHDAJCCPGNA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF409B0)
+#define LHDAJCCPGNA_TICK_OFFSET UNITYSDK_OFFSET(0xBF40B90)
 
-inline static constexpr unsigned int LHDAJCCPGNA_TypeDefinitionIndex = 52955;
+inline static constexpr unsigned int LHDAJCCPGNA_TypeDefinitionIndex = 54114;
 
 	class LHDAJCCPGNA : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::KFELGAIGHAP* HFOFIODMFGB; // 0x20
-		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x28
-		::RPG::GameCore::ListenTargetUseSkill* OFKGLJOAMLD; // 0x30
+		::KFELGAIGHAP* HFOFIODMFGB; // 0x18
+		::RPG::GameCore::ListenTargetUseSkill* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::GameEntity* ICHEDAEHEBG; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ListenTargetUseSkill* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ListenTargetUseSkill*))((::PBYTE)hIl2Cpp + LHDAJCCPGNA_CTOR_OFFSET))(this, a1, a2);

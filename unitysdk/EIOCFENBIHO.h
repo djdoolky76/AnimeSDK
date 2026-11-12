@@ -4,21 +4,21 @@
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EIOCFENBIHO_APLOECCILIF_OFFSET UNITYSDK_OFFSET(0x154D34E0)
-#define EIOCFENBIHO_CTOR_OFFSET UNITYSDK_OFFSET(0x154D3560)
-#define EIOCFENBIHO_FFGEGBNLLOO_OFFSET UNITYSDK_OFFSET(0x154D3520)
-#define EIOCFENBIHO_GET_ENHANCEDREDDOTAVATARIDS_OFFSET UNITYSDK_OFFSET(0x154D34C0)
-#define EIOCFENBIHO_GET_ENHANCEDREDDOTTRIALSTAGEIDS_OFFSET UNITYSDK_OFFSET(0x154D34D0)
-#define EIOCFENBIHO_GET_MAXENHANCEDSEASON_OFFSET UNITYSDK_OFFSET(0x154D34A0)
-#define EIOCFENBIHO_SET_MAXENHANCEDSEASON_OFFSET UNITYSDK_OFFSET(0x154D34B0)
+#define EIOCFENBIHO_APLOECCILIF_OFFSET UNITYSDK_OFFSET(0x16413E90)
+#define EIOCFENBIHO_CTOR_OFFSET UNITYSDK_OFFSET(0x16413F10)
+#define EIOCFENBIHO_FFGEGBNLLOO_OFFSET UNITYSDK_OFFSET(0x16413ED0)
+#define EIOCFENBIHO_GET_ENHANCEDREDDOTAVATARIDS_OFFSET UNITYSDK_OFFSET(0x16413E70)
+#define EIOCFENBIHO_GET_ENHANCEDREDDOTTRIALSTAGEIDS_OFFSET UNITYSDK_OFFSET(0x16413E80)
+#define EIOCFENBIHO_GET_MAXENHANCEDSEASON_OFFSET UNITYSDK_OFFSET(0x16413E50)
+#define EIOCFENBIHO_SET_MAXENHANCEDSEASON_OFFSET UNITYSDK_OFFSET(0x16413E60)
 
-inline static constexpr unsigned int EIOCFENBIHO_TypeDefinitionIndex = 62759;
+inline static constexpr unsigned int EIOCFENBIHO_TypeDefinitionIndex = 64199;
 
 	class EIOCFENBIHO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _EnhancedRedDotTrialStageIDs_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* _EnhancedRedDotAvatarIDs_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* _EnhancedRedDotAvatarIDs_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _EnhancedRedDotTrialStageIDs_k__BackingField; // 0x18
 		::System::UInt32 _MaxEnhancedSeason_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{

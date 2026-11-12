@@ -6,20 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityRaidCollectionModeRow; }
 
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D379120)
-#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D378AC0)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E588340)
+#define RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E587CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 12320;
+	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 12377;
 
 	class ActivityRaidCollectionModeRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* RaidCollectionGroupList; // 0x10
-		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x18
-		::System::UInt32 RaidCollectionTabID; // 0x1C
-		::RPG::Client::TextID RaidCollectionTabName; // 0x20
+		::RPG::Client::TextID RaidCollectionTabName; // 0x18
+		::RPG::GameCore::RaidCollectionType RaidCollectionType; // 0x28
+		::System::UInt32 RaidCollectionTabID; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ACTIVITYRAIDCOLLECTIONMODEROW_CTOR_OFFSET))(this);

@@ -5,17 +5,17 @@ class FFPAHFKMNOC;
 namespace RPG::Client { class ExpeditionBattleRoute; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MODHHPELPLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA273B0)
-#define MODHHPELPLO_GET_ROUTES_OFFSET UNITYSDK_OFFSET(0xBA273A0)
-#define MODHHPELPLO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xBA27430)
+#define MODHHPELPLO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E5BB0)
+#define MODHHPELPLO_GET_ROUTES_OFFSET UNITYSDK_OFFSET(0xC2E5BA0)
+#define MODHHPELPLO_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xC2E5C30)
 
-inline static constexpr unsigned int MODHHPELPLO_TypeDefinitionIndex = 63929;
+inline static constexpr unsigned int MODHHPELPLO_TypeDefinitionIndex = 65371;
 
 	class MODHHPELPLO : public ::System::Object
 	{
 	public:
-		::FFPAHFKMNOC* IPBJJAJCCKD; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleRoute*>* _Routes_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::ExpeditionBattleRoute*>* _Routes_k__BackingField; // 0x10
+		::FFPAHFKMNOC* IPBJJAJCCKD; // 0x18
 		::System::Void _ctor(::FFPAHFKMNOC* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::FFPAHFKMNOC*))((::PBYTE)hIl2Cpp + MODHHPELPLO_CTOR_OFFSET))(this, a1);

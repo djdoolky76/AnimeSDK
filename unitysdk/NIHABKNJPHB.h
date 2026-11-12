@@ -9,20 +9,20 @@ namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NIHABKNJPHB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBBEB100)
-#define NIHABKNJPHB_CTOR_OFFSET UNITYSDK_OFFSET(0xBBEAD70)
-#define NIHABKNJPHB_EFLJAIAIGIH_OFFSET UNITYSDK_OFFSET(0xBBEB140)
-#define NIHABKNJPHB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBBEAD80)
-#define NIHABKNJPHB_GMBOECMOMNA_OFFSET UNITYSDK_OFFSET(0xBBEB260)
-#define NIHABKNJPHB_TICK_OFFSET UNITYSDK_OFFSET(0xBBEB1F0)
+#define NIHABKNJPHB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xC4CD9E0)
+#define NIHABKNJPHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC4CD650)
+#define NIHABKNJPHB_EFLJAIAIGIH_OFFSET UNITYSDK_OFFSET(0xC4CDA20)
+#define NIHABKNJPHB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC4CD660)
+#define NIHABKNJPHB_GMBOECMOMNA_OFFSET UNITYSDK_OFFSET(0xC4CDB40)
+#define NIHABKNJPHB_TICK_OFFSET UNITYSDK_OFFSET(0xC4CDAD0)
 
-inline static constexpr unsigned int NIHABKNJPHB_TypeDefinitionIndex = 77669;
+inline static constexpr unsigned int NIHABKNJPHB_TypeDefinitionIndex = 80404;
 
 	class NIHABKNJPHB : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x10
-		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* PFHKDKKPBMF; // 0x18
+		::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* PFHKDKKPBMF; // 0x10
+		::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* OJFECHILFHG; // 0x18
 		::AFNDGNFOAKC* HFOFIODMFGB; // 0x20
 		::System::UInt32 CHPOANEOFCO; // 0x28
 		::System::Void _ctor(::System::Collections::Generic::List_1<::HBLDGJCDJPF*>* a1, ::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache* a2, ::System::UInt32 a3)

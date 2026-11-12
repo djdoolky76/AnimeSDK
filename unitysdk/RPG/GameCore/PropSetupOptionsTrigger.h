@@ -6,13 +6,13 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 namespace RPG::GameCore { class PropSetupOptionsTrigger; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPSETUPOPTIONSTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9553B0)
-#define RPG_GAMECORE_PROPSETUPOPTIONSTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9553E0)
-#define RPG_GAMECORE_PROPSETUPOPTIONSTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D955360)
+#define RPG_GAMECORE_PROPSETUPOPTIONSTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6DE10)
+#define RPG_GAMECORE_PROPSETUPOPTIONSTRIGGER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB6DE40)
+#define RPG_GAMECORE_PROPSETUPOPTIONSTRIGGER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6DDC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropSetupOptionsTrigger_TypeDefinitionIndex = 21593;
+	inline static constexpr unsigned int PropSetupOptionsTrigger_TypeDefinitionIndex = 21981;
 
 	class PropSetupOptionsTrigger : public ::RPG::GameCore::TaskConfig
 	{

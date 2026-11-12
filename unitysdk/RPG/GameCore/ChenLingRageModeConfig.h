@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingRageModeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D593C50)
-#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D585B20)
+#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A3F70)
+#define RPG_GAMECORE_CHENLINGRAGEMODECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7A3E20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingRageModeConfig_TypeDefinitionIndex = 15688;
+	inline static constexpr unsigned int ChenLingRageModeConfig_TypeDefinitionIndex = 15846;
 
 	class ChenLingRageModeConfig : public ::RPG::GameCore::JsonConfig
 	{

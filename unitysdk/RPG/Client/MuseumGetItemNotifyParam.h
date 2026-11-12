@@ -3,19 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MuseumExhibitItemData; }
 
-#define RPG_CLIENT_MUSEUMGETITEMNOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD8F5370)
+#define RPG_CLIENT_MUSEUMGETITEMNOTIFYPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE347760)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumGetItemNotifyParam_TypeDefinitionIndex = 66343;
+	inline static constexpr unsigned int MuseumGetItemNotifyParam_TypeDefinitionIndex = 68279;
 
 	class MuseumGetItemNotifyParam : public ::System::Object
 	{
 	public:
 		::RPG::Client::MuseumExhibitItemData* ItemData; // 0x10
-		::System::Boolean ShowRenewProgress; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::UInt32 RewardTargetID; // 0x1C
+		::System::UInt32 RewardTargetID; // 0x18
+		::System::Boolean ShowRenewProgress; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMGETITEMNOTIFYPARAM_CTOR_OFFSET))(this);

@@ -6,29 +6,29 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOPPKCFNLM_HMIJPMHKIME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C64BE10)
-#define GOOPPKCFNLM_HMIJPMHKIME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64BE50)
-#define GOOPPKCFNLM_HMIJPMHKIME___C__DEBUGSTRING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C64BE60)
-#define GOOPPKCFNLM_HMIJPMHKIME___C__DEBUGSTRING_B__6_1_OFFSET UNITYSDK_OFFSET(0x1C64BF00)
+#define GOOPPKCFNLM_HMIJPMHKIME___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7CD990)
+#define GOOPPKCFNLM_HMIJPMHKIME___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CD9D0)
+#define GOOPPKCFNLM_HMIJPMHKIME___C__DEBUGSTRING_B__6_0_OFFSET UNITYSDK_OFFSET(0x1D7CD9E0)
+#define GOOPPKCFNLM_HMIJPMHKIME___C__DEBUGSTRING_B__6_1_OFFSET UNITYSDK_OFFSET(0x1D7CDA80)
 
-inline static constexpr unsigned int GOOPPKCFNLM_HMIJPMHKIME___c_TypeDefinitionIndex = 37331;
+inline static constexpr unsigned int GOOPPKCFNLM_HMIJPMHKIME___c_TypeDefinitionIndex = 38259;
 
 	class GOOPPKCFNLM_HMIJPMHKIME___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::String*>** StaticGet___9__6_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CEC0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A950);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CEC8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A958);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::UInt32>, ::System::String*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CED0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::UInt32>, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A960);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightEquipTagConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72CCA0)
-#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72CB20)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E938B00)
+#define RPG_GAMECORE_GRIDFIGHTEQUIPTAGCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E938980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightEquipTagConfigRow_TypeDefinitionIndex = 13463;
+	inline static constexpr unsigned int GridFightEquipTagConfigRow_TypeDefinitionIndex = 13539;
 
 	class GridFightEquipTagConfigRow : public ::System::Object
 	{

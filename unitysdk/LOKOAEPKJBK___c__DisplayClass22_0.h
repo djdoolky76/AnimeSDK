@@ -4,10 +4,10 @@
 namespace RPG::CustomRP { class StencilDelegate; }
 namespace UnityEngine { class Object; }
 
-#define LOKOAEPKJBK___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB809E90)
-#define LOKOAEPKJBK___C__DISPLAYCLASS22_0___CREATESTENCILDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0xB80A8C0)
+#define LOKOAEPKJBK___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC06AF80)
+#define LOKOAEPKJBK___C__DISPLAYCLASS22_0___CREATESTENCILDELEGATE_B__0_OFFSET UNITYSDK_OFFSET(0xC06B9B0)
 
-inline static constexpr unsigned int LOKOAEPKJBK___c__DisplayClass22_0_TypeDefinitionIndex = 49076;
+inline static constexpr unsigned int LOKOAEPKJBK___c__DisplayClass22_0_TypeDefinitionIndex = 50152;
 
 	class LOKOAEPKJBK___c__DisplayClass22_0 : public ::System::Object
 	{

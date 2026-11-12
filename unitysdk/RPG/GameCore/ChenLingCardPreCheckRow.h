@@ -8,22 +8,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingCardPreCheckRow; }
 
-#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D58AA50)
-#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D58A7B0)
+#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E79AE90)
+#define RPG_GAMECORE_CHENLINGCARDPRECHECKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E79ABF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingCardPreCheckRow_TypeDefinitionIndex = 11045;
+	inline static constexpr unsigned int ChenLingCardPreCheckRow_TypeDefinitionIndex = 11061;
 
 	class ChenLingCardPreCheckRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID Toast; // 0x10
-		::System::UInt32 UseCardID; // 0x20
-		::RPG::GameCore::ChenLingCardPreCheckType ConditionType; // 0x24
-		::RPG::GameCore::ChenLingGridStatus TargetGridType; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::RPG::GameCore::ChenLingCardType UseCardType; // 0x30
+		::RPG::GameCore::ChenLingCardType UseCardType; // 0x20
+		::System::UInt32 ID; // 0x24
+		::RPG::GameCore::ChenLingCardPreCheckType ConditionType; // 0x28
+		::System::UInt32 UseCardID; // 0x2C
+		::RPG::GameCore::ChenLingGridStatus TargetGridType; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHENLINGCARDPRECHECKROW_CTOR_OFFSET))(this);

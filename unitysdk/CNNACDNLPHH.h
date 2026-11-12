@@ -4,19 +4,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class IDictionary_2; }
 
-#define CNNACDNLPHH_CTOR_OFFSET UNITYSDK_OFFSET(0xDA5A670)
-#define CNNACDNLPHH_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xDA5A660)
-#define CNNACDNLPHH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xDA5A800)
-#define CNNACDNLPHH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xDA5A860)
-#define CNNACDNLPHH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDA5A8B0)
+#define CNNACDNLPHH_CTOR_OFFSET UNITYSDK_OFFSET(0xE5F2F80)
+#define CNNACDNLPHH_GET_ISRUNNING_OFFSET UNITYSDK_OFFSET(0xE5F2F70)
+#define CNNACDNLPHH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xE5F3110)
+#define CNNACDNLPHH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xE5F3170)
+#define CNNACDNLPHH_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xE5F31C0)
 
-inline static constexpr unsigned int CNNACDNLPHH_TypeDefinitionIndex = 82280;
+inline static constexpr unsigned int CNNACDNLPHH_TypeDefinitionIndex = 85153;
 
 	class CNNACDNLPHH : public ::KAANKGHDHCB
 	{
 	public:
-		::System::Int32 DDEPHFKCBHI; // 0x20
-		::System::Int32 COEMCOBPMKD; // 0x24
+		::System::Int32 COEMCOBPMKD; // 0x20
+		::System::Int32 DDEPHFKCBHI; // 0x24
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::System::String* a3, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::String*, ::System::Collections::Generic::IDictionary_2<::System::String*, ::System::String*>*))((::PBYTE)hIl2Cpp + CNNACDNLPHH_CTOR_OFFSET))(this, a1, a2, a3, a4);

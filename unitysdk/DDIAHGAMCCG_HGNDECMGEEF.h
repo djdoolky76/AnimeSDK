@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/EInflatableFighterSide.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DDIAHGAMCCG_HGNDECMGEEF_CTOR_OFFSET UNITYSDK_OFFSET(0xF56A0)
+#define DDIAHGAMCCG_HGNDECMGEEF_CTOR_OFFSET UNITYSDK_OFFSET(0xFF620)
 
-inline static constexpr unsigned int DDIAHGAMCCG_HGNDECMGEEF_TypeDefinitionIndex = 68671;
+inline static constexpr unsigned int DDIAHGAMCCG_HGNDECMGEEF_TypeDefinitionIndex = 70623;
 
 	struct alignas(4) DDIAHGAMCCG_HGNDECMGEEF
 	{

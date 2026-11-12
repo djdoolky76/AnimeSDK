@@ -8,17 +8,18 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B87A0)
-#define MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_1__SCENENLIGHTMANAGER_RESOURCELOADINGHELPER_IASYNCRESOURCELOADERTASK_SUBMITLOADING_B__0_OFFSET UNITYSDK_OFFSET(0xB9B8810)
+#define MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC2743E0)
+#define MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_1__SCENENLIGHTMANAGER_RESOURCELOADINGHELPER_IASYNCRESOURCELOADERTASK_SUBMITLOADING_B__0_OFFSET UNITYSDK_OFFSET(0xC274450)
 
-inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO___c__DisplayClass10_1_TypeDefinitionIndex = 49176;
+inline static constexpr unsigned int MLLBMBEIAAB_CNLBPFJAGJO___c__DisplayClass10_1_TypeDefinitionIndex = 50252;
 
 	template <typename T>
 	class MLLBMBEIAAB_CNLBPFJAGJO___c__DisplayClass10_1 : public ::System::Object
 	{
 	public:
-		::System::Object* CS___8__locals1; // 0x10
-		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*> item; // 0x18
+		::System::Collections::Generic::KeyValuePair_2<::System::String*, ::System::Collections::Generic::List_1<::System::Action_1<::UnityEngine::Object*>*>*> item; // 0x10
+		::System::Byte _padding0[0x8];
+		::System::Object* CS___8__locals1; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MLLBMBEIAAB_CNLBPFJAGJO___C__DISPLAYCLASS10_1_CTOR_OFFSET))(this);

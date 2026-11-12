@@ -4,18 +4,18 @@
 class GOMLCMBBPCH;
 namespace System { class Object; }
 
-#define GOMLCMBBPCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4F3620)
-#define GOMLCMBBPCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F3650)
-#define GOMLCMBBPCH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E4F3660)
+#define GOMLCMBBPCH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F805F50)
+#define GOMLCMBBPCH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F805F80)
+#define GOMLCMBBPCH___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F805F90)
 
-inline static constexpr unsigned int GOMLCMBBPCH___c_TypeDefinitionIndex = 26973;
+inline static constexpr unsigned int GOMLCMBBPCH___c_TypeDefinitionIndex = 27504;
 
 	class GOMLCMBBPCH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2B530);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D370);
 		}
 
 		static ::System::Void _cctor()

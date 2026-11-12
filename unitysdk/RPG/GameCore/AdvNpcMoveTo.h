@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvNpcMoveTo; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVNPCMOVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A85B0)
-#define RPG_GAMECORE_ADVNPCMOVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A85E0)
-#define RPG_GAMECORE_ADVNPCMOVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A8560)
+#define RPG_GAMECORE_ADVNPCMOVETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B7C60)
+#define RPG_GAMECORE_ADVNPCMOVETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B7C90)
+#define RPG_GAMECORE_ADVNPCMOVETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B7C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvNpcMoveTo_TypeDefinitionIndex = 21957;
+	inline static constexpr unsigned int AdvNpcMoveTo_TypeDefinitionIndex = 22348;
 
 	class AdvNpcMoveTo : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class ChimeraDuelLeaveNode; }
 
-#define RPG_GAMECORE_CHIMERADUELLEAVENODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A3620)
-#define RPG_GAMECORE_CHIMERADUELLEAVENODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A3630)
-#define RPG_GAMECORE_CHIMERADUELLEAVENODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A35D0)
+#define RPG_GAMECORE_CHIMERADUELLEAVENODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B42E0)
+#define RPG_GAMECORE_CHIMERADUELLEAVENODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7B42F0)
+#define RPG_GAMECORE_CHIMERADUELLEAVENODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7B4290)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelLeaveNode_TypeDefinitionIndex = 15960;
+	inline static constexpr unsigned int ChimeraDuelLeaveNode_TypeDefinitionIndex = 16118;
 
 	class ChimeraDuelLeaveNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

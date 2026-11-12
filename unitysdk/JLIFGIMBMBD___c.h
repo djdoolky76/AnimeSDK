@@ -4,18 +4,18 @@
 class JLIFGIMBMBD;
 namespace System { class Object; }
 
-#define JLIFGIMBMBD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E77C2E0)
-#define JLIFGIMBMBD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E77C320)
-#define JLIFGIMBMBD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E77C330)
+#define JLIFGIMBMBD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAAB0D0)
+#define JLIFGIMBMBD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAAB110)
+#define JLIFGIMBMBD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FAAB120)
 
-inline static constexpr unsigned int JLIFGIMBMBD___c_TypeDefinitionIndex = 27036;
+inline static constexpr unsigned int JLIFGIMBMBD___c_TypeDefinitionIndex = 27567;
 
 	class JLIFGIMBMBD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69760);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x532D0);
 		}
 
 		static ::System::Void _cctor()

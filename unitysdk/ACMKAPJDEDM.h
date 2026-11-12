@@ -7,26 +7,26 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { template <typename T> class Action_1; }
 
-#define ACMKAPJDEDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB124A30)
-#define ACMKAPJDEDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB124E90)
-#define ACMKAPJDEDM_FFGAENEJAOC_OFFSET UNITYSDK_OFFSET(0xB126070)
-#define ACMKAPJDEDM_NLEKBHGAGOL_OFFSET UNITYSDK_OFFSET(0xB125F50)
-#define ACMKAPJDEDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB125260)
+#define ACMKAPJDEDM_CTOR_OFFSET UNITYSDK_OFFSET(0xB78AC70)
+#define ACMKAPJDEDM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB78B0D0)
+#define ACMKAPJDEDM_FFGAENEJAOC_OFFSET UNITYSDK_OFFSET(0xB78C2D0)
+#define ACMKAPJDEDM_NLEKBHGAGOL_OFFSET UNITYSDK_OFFSET(0xB78C1B0)
+#define ACMKAPJDEDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB78B4A0)
 
-inline static constexpr unsigned int ACMKAPJDEDM_TypeDefinitionIndex = 54838;
+inline static constexpr unsigned int ACMKAPJDEDM_TypeDefinitionIndex = 56008;
 
 	class ACMKAPJDEDM
 	{
 	public:
-		::RPG::GameCore::AvatarChangeTemplate* JILGFHGMAAC; // 0x28
+		::System::Action_1<::RPG::GameCore::GameEntity*>* LLHCINBIBMJ; // 0x28
 		::KFELGAIGHAP* FEINADIKCAB; // 0x30
-		::KFELGAIGHAP* IOIINLJHFHH; // 0x38
-		::System::Action_1<::RPG::GameCore::GameEntity*>* LLHCINBIBMJ; // 0x40
+		::KFELGAIGHAP* FGKOGMMBNFG; // 0x38
+		::RPG::GameCore::AvatarChangeTemplate* JILGFHGMAAC; // 0x40
 		::System::Action_1<::RPG::GameCore::GameEntity*>* CLOMEGLHGOE; // 0x48
-		::KFELGAIGHAP* FGKOGMMBNFG; // 0x50
-		::KFELGAIGHAP* OMBIIGIJFIA; // 0x58
+		::KFELGAIGHAP* IEEKLAMGHKI; // 0x50
+		::KFELGAIGHAP* IOIINLJHFHH; // 0x58
 		::KFELGAIGHAP* KBLLLKLEIOD; // 0x60
-		::KFELGAIGHAP* IEEKLAMGHKI; // 0x68
+		::KFELGAIGHAP* OMBIIGIJFIA; // 0x68
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AttachAvatarChange* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AttachAvatarChange*))((::PBYTE)hIl2Cpp + ACMKAPJDEDM_CTOR_OFFSET))(this, a1, a2);

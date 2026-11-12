@@ -3,10 +3,10 @@
 class EOCOMGDMJBD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AAEKGPILKFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C5510)
-#define AAEKGPILKFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0C5540)
+#define AAEKGPILKFL_CTOR_OFFSET UNITYSDK_OFFSET(0xB7271E0)
+#define AAEKGPILKFL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB727210)
 
-inline static constexpr unsigned int AAEKGPILKFL_TypeDefinitionIndex = 54289;
+inline static constexpr unsigned int AAEKGPILKFL_TypeDefinitionIndex = 55453;
 
 	class AAEKGPILKFL
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OPFCLDJDAGH_TypeDefinitionIndex = 54066;
+inline static constexpr unsigned int OPFCLDJDAGH_TypeDefinitionIndex = 55230;
 
 	class OPFCLDJDAGH
 	{

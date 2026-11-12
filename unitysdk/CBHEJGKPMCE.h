@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEffectForUI; }
 
-#define CBHEJGKPMCE_CTOR_OFFSET UNITYSDK_OFFSET(0xC4A2F10)
+#define CBHEJGKPMCE_CTOR_OFFSET UNITYSDK_OFFSET(0xCE0C0D0)
 
-inline static constexpr unsigned int CBHEJGKPMCE_TypeDefinitionIndex = 55728;
+inline static constexpr unsigned int CBHEJGKPMCE_TypeDefinitionIndex = 56930;
 
 	class CBHEJGKPMCE : public ::NFGENDDOCJJ
 	{

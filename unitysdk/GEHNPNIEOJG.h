@@ -7,16 +7,16 @@ class NDDFLGNNMDK;
 class PEEDLCHFAFL;
 namespace Entitas { template <typename T> class IGroup_1; }
 
-#define GEHNPNIEOJG_CTOR_OFFSET UNITYSDK_OFFSET(0x159D9770)
-#define GEHNPNIEOJG_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x159D9810)
+#define GEHNPNIEOJG_CTOR_OFFSET UNITYSDK_OFFSET(0x169128B0)
+#define GEHNPNIEOJG_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0x16912950)
 
-inline static constexpr unsigned int GEHNPNIEOJG_TypeDefinitionIndex = 76922;
+inline static constexpr unsigned int GEHNPNIEOJG_TypeDefinitionIndex = 79256;
 
 	class GEHNPNIEOJG : public ::System::Object
 	{
 	public:
-		::PEEDLCHFAFL* PDENFEFCAGN; // 0x10
-		::Entitas::IGroup_1<::HIOEAKHGILF*>* JKEKGMCBLEF; // 0x18
+		::Entitas::IGroup_1<::HIOEAKHGILF*>* JKEKGMCBLEF; // 0x10
+		::PEEDLCHFAFL* PDENFEFCAGN; // 0x18
 		::EFODGECFLLC* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::NDDFLGNNMDK* a1, ::PEEDLCHFAFL* a2)
 		{

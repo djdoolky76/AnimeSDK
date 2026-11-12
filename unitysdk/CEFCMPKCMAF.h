@@ -7,24 +7,24 @@ namespace RPG::Client { class InstanceArrayV2MonoPlugin; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define CEFCMPKCMAF_BBBBKOPLINO_OFFSET UNITYSDK_OFFSET(0xC783750)
-#define CEFCMPKCMAF_CTOR_OFFSET UNITYSDK_OFFSET(0xC783740)
-#define CEFCMPKCMAF_ELGPAFIMNDB_OFFSET UNITYSDK_OFFSET(0xC783A20)
-#define CEFCMPKCMAF_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xC783720)
-#define CEFCMPKCMAF_HAAKAHDPNAL_OFFSET UNITYSDK_OFFSET(0xC783990)
-#define CEFCMPKCMAF_KFEFAEBGMCO_OFFSET UNITYSDK_OFFSET(0xC783A60)
-#define CEFCMPKCMAF_LLDEGEGKJEB_OFFSET UNITYSDK_OFFSET(0xC783840)
-#define CEFCMPKCMAF_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xC783730)
+#define CEFCMPKCMAF_BBBBKOPLINO_OFFSET UNITYSDK_OFFSET(0xD0EDE30)
+#define CEFCMPKCMAF_CTOR_OFFSET UNITYSDK_OFFSET(0xD0EDE20)
+#define CEFCMPKCMAF_ELGPAFIMNDB_OFFSET UNITYSDK_OFFSET(0xD0EE100)
+#define CEFCMPKCMAF_GET_OWNER_OFFSET UNITYSDK_OFFSET(0xD0EDE00)
+#define CEFCMPKCMAF_HAAKAHDPNAL_OFFSET UNITYSDK_OFFSET(0xD0EE070)
+#define CEFCMPKCMAF_KFEFAEBGMCO_OFFSET UNITYSDK_OFFSET(0xD0EE140)
+#define CEFCMPKCMAF_LLDEGEGKJEB_OFFSET UNITYSDK_OFFSET(0xD0EDF20)
+#define CEFCMPKCMAF_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xD0EDE10)
 
-inline static constexpr unsigned int CEFCMPKCMAF_TypeDefinitionIndex = 70623;
+inline static constexpr unsigned int CEFCMPKCMAF_TypeDefinitionIndex = 72600;
 
 	class CEFCMPKCMAF : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* COHNLCNKKND; // 0x10
-		::RPG::Client::InstanceArrayV2MonoPlugin* _Owner_k__BackingField; // 0x18
+		::RPG::Client::InstanceArrayV2MonoPlugin* _Owner_k__BackingField; // 0x10
+		::Il2CppArray<::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Vector4>*>*>* CIHADONAEKO; // 0x18
 		::Il2CppArray<::Il2CppArray<::UnityEngine::Matrix4x4>*>* MBBBHFDGJPN; // 0x20
-		::Il2CppArray<::System::Collections::Generic::Dictionary_2<::System::Int32, ::Il2CppArray<::UnityEngine::Vector4>*>*>* CIHADONAEKO; // 0x28
+		::Il2CppArray<::UnityEngine::MaterialPropertyBlock*>* COHNLCNKKND; // 0x28
 		::System::Int32 DNJCFIPPBNG; // 0x30
 		::System::Boolean NKABPKEKKEP; // 0x34
 		::System::Void _ctor(::RPG::Client::InstanceArrayV2MonoPlugin* a1)

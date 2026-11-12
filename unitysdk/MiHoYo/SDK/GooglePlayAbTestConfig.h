@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_GOOGLEPLAYABTESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE44E00)
+#define MIHOYO_SDK_GOOGLEPLAYABTESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFCD410)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GooglePlayAbTestConfig_TypeDefinitionIndex = 7901;
+	inline static constexpr unsigned int GooglePlayAbTestConfig_TypeDefinitionIndex = 7910;
 
 	class GooglePlayAbTestConfig : public ::System::Object
 	{

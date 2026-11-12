@@ -3,7 +3,7 @@
 namespace RPG::GameCore { class SkillCharacterComponent; }
 namespace System { class String; }
 
-inline static constexpr unsigned int DOIGFLPIEAC_TypeDefinitionIndex = 55834;
+inline static constexpr unsigned int DOIGFLPIEAC_TypeDefinitionIndex = 57037;
 
 	struct alignas(8) DOIGFLPIEAC
 	{

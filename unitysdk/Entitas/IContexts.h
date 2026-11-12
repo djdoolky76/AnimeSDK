@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IContexts_TypeDefinitionIndex = 10000;
+	inline static constexpr unsigned int IContexts_TypeDefinitionIndex = 10008;
 
 	class IContexts
 	{

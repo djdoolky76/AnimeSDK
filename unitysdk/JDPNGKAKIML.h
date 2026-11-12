@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDPNGKAKIML_CTOR_OFFSET UNITYSDK_OFFSET(0x166120A0)
-#define JDPNGKAKIML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166120D0)
+#define JDPNGKAKIML_CTOR_OFFSET UNITYSDK_OFFSET(0xB95AB60)
+#define JDPNGKAKIML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB95AB90)
 
-inline static constexpr unsigned int JDPNGKAKIML_TypeDefinitionIndex = 54801;
+inline static constexpr unsigned int JDPNGKAKIML_TypeDefinitionIndex = 55970;
 
 	class JDPNGKAKIML
 	{

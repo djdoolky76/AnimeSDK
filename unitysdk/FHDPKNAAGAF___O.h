@@ -4,14 +4,14 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int FHDPKNAAGAF___O_TypeDefinitionIndex = 58197;
+inline static constexpr unsigned int FHDPKNAAGAF___O_TypeDefinitionIndex = 59452;
 
 	class FHDPKNAAGAF___O : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::RPG::Client::MonoEffect*>** StaticGet__0____OnEffectLoaded()
 		{
-			return (::System::Action_1<::RPG::Client::MonoEffect*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6BAD0);
+			return (::System::Action_1<::RPG::Client::MonoEffect*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5B300);
 		}
 
 	};

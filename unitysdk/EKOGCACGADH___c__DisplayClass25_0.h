@@ -5,16 +5,16 @@ class AHIJMGKPIMF;
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define EKOGCACGADH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15515D40)
-#define EKOGCACGADH___C__DISPLAYCLASS25_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x15516C00)
+#define EKOGCACGADH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1645E2C0)
+#define EKOGCACGADH___C__DISPLAYCLASS25_0___ASYNCLOADPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x1645F180)
 
-inline static constexpr unsigned int EKOGCACGADH___c__DisplayClass25_0_TypeDefinitionIndex = 71352;
+inline static constexpr unsigned int EKOGCACGADH___c__DisplayClass25_0_TypeDefinitionIndex = 73329;
 
 	class EKOGCACGADH___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::System::Action_1<::AHIJMGKPIMF*>* __9__0; // 0x18
+		::System::Action_1<::AHIJMGKPIMF*>* __9__0; // 0x10
+		::System::Action* callback; // 0x18
 		::System::Int32 count; // 0x20
 		::System::Int32 total; // 0x24
 		::System::Void _ctor()

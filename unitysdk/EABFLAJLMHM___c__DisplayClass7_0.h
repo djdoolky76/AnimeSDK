@@ -4,16 +4,16 @@
 class EABFLAJLMHM;
 class FOMNCOHAGBA;
 
-#define EABFLAJLMHM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1266FA60)
-#define EABFLAJLMHM___C__DISPLAYCLASS7_0__EXITSESSION_B__0_OFFSET UNITYSDK_OFFSET(0x1266FB90)
+#define EABFLAJLMHM___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1345FDE0)
+#define EABFLAJLMHM___C__DISPLAYCLASS7_0__EXITSESSION_B__0_OFFSET UNITYSDK_OFFSET(0x1345FF10)
 
-inline static constexpr unsigned int EABFLAJLMHM___c__DisplayClass7_0_TypeDefinitionIndex = 80227;
+inline static constexpr unsigned int EABFLAJLMHM___c__DisplayClass7_0_TypeDefinitionIndex = 83004;
 
 	class EABFLAJLMHM___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:
-		::FOMNCOHAGBA* session; // 0x10
-		::EABFLAJLMHM* __4__this; // 0x18
+		::EABFLAJLMHM* __4__this; // 0x10
+		::FOMNCOHAGBA* session; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EABFLAJLMHM___C__DISPLAYCLASS7_0_CTOR_OFFSET))(this);

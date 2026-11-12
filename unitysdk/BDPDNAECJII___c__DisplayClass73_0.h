@@ -4,10 +4,10 @@
 class BDPDNAECJII;
 namespace RPG::GameCore { class TeamTowersSkillConfig; }
 
-#define BDPDNAECJII___C__DISPLAYCLASS73_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5AF100)
-#define BDPDNAECJII___C__DISPLAYCLASS73_0___USEBOSSSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x1C5B7290)
+#define BDPDNAECJII___C__DISPLAYCLASS73_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D730980)
+#define BDPDNAECJII___C__DISPLAYCLASS73_0___USEBOSSSKILL_B__0_OFFSET UNITYSDK_OFFSET(0x1D738B60)
 
-inline static constexpr unsigned int BDPDNAECJII___c__DisplayClass73_0_TypeDefinitionIndex = 37162;
+inline static constexpr unsigned int BDPDNAECJII___c__DisplayClass73_0_TypeDefinitionIndex = 38090;
 
 	class BDPDNAECJII___c__DisplayClass73_0 : public ::System::Object
 	{

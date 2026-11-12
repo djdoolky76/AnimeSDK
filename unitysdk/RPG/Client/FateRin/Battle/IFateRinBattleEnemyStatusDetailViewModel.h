@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleEnemyStatusDetailViewModel_TypeDefinitionIndex = 80908;
+	inline static constexpr unsigned int IFateRinBattleEnemyStatusDetailViewModel_TypeDefinitionIndex = 83688;
 
 	class IFateRinBattleEnemyStatusDetailViewModel
 	{

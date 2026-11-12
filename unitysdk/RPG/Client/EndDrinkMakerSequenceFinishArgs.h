@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_ENDDRINKMAKERSEQUENCEFINISHARGS_CTOR_OFFSET UNITYSDK_OFFSET(0xCDEB580)
+#define RPG_CLIENT_ENDDRINKMAKERSEQUENCEFINISHARGS_CTOR_OFFSET UNITYSDK_OFFSET(0xD7B3440)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EndDrinkMakerSequenceFinishArgs_TypeDefinitionIndex = 63639;
+	inline static constexpr unsigned int EndDrinkMakerSequenceFinishArgs_TypeDefinitionIndex = 65081;
 
 	class EndDrinkMakerSequenceFinishArgs : public ::System::Object
 	{

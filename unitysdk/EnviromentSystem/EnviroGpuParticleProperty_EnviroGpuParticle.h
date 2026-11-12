@@ -11,7 +11,7 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroGpuParticleProperty_EnviroGpuParticle_TypeDefinitionIndex = 49602;
+	inline static constexpr unsigned int EnviroGpuParticleProperty_EnviroGpuParticle_TypeDefinitionIndex = 50678;
 
 	struct alignas(8) EnviroGpuParticleProperty_EnviroGpuParticle
 	{

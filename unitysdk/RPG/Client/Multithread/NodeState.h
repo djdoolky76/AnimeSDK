@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Multithread
 {
-	inline static constexpr unsigned int NodeState_TypeDefinitionIndex = 43825;
+	inline static constexpr unsigned int NodeState_TypeDefinitionIndex = 44900;
 
 	enum class NodeState : ::System::Int32
 	{

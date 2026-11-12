@@ -3,7 +3,7 @@
 
 namespace ScenenLightManager
 {
-	inline static constexpr unsigned int AfterExecOperation_TypeDefinitionIndex = 49119;
+	inline static constexpr unsigned int AfterExecOperation_TypeDefinitionIndex = 50195;
 
 	enum class AfterExecOperation : ::System::Int32
 	{

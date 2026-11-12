@@ -12,23 +12,23 @@ namespace System::IO { class TextReader; }
 namespace System::IO { class TextWriter; }
 namespace System::Text { class Encoding; }
 
-#define SYSTEM_CONSOLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C194660)
-#define SYSTEM_CONSOLE_DOCONSOLECANCELEVENT_OFFSET UNITYSDK_OFFSET(0x1C195800)
-#define SYSTEM_CONSOLE_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1C1950D0)
-#define SYSTEM_CONSOLE_GET_INPUTENCODING_OFFSET UNITYSDK_OFFSET(0x1C195550)
-#define SYSTEM_CONSOLE_GET_OUTPUTENCODING_OFFSET UNITYSDK_OFFSET(0x1C195580)
-#define SYSTEM_CONSOLE_GET_OUT_OFFSET UNITYSDK_OFFSET(0x1C195100)
-#define SYSTEM_CONSOLE_OPENSTANDARDERROR_OFFSET UNITYSDK_OFFSET(0x1C195080)
-#define SYSTEM_CONSOLE_OPENSTANDARDINPUT_OFFSET UNITYSDK_OFFSET(0x1C194FE0)
-#define SYSTEM_CONSOLE_OPENSTANDARDOUTPUT_OFFSET UNITYSDK_OFFSET(0x1C195030)
-#define SYSTEM_CONSOLE_OPEN_OFFSET UNITYSDK_OFFSET(0x1C195130)
-#define SYSTEM_CONSOLE_READKEY_1_OFFSET UNITYSDK_OFFSET(0x1C195620)
-#define SYSTEM_CONSOLE_READKEY_OFFSET UNITYSDK_OFFSET(0x1C1955B0)
-#define SYSTEM_CONSOLE_SETOUT_OFFSET UNITYSDK_OFFSET(0x1C195230)
-#define SYSTEM_CONSOLE_SETUPSTREAMS_OFFSET UNITYSDK_OFFSET(0x1C1948B0)
-#define SYSTEM_CONSOLE_WRITELINE_1_OFFSET UNITYSDK_OFFSET(0x1C195460)
-#define SYSTEM_CONSOLE_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1C195390)
-#define SYSTEM_CONSOLE_WRITE_OFFSET UNITYSDK_OFFSET(0x1C1952C0)
+#define SYSTEM_CONSOLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D31B840)
+#define SYSTEM_CONSOLE_DOCONSOLECANCELEVENT_OFFSET UNITYSDK_OFFSET(0x1D31CA40)
+#define SYSTEM_CONSOLE_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1D31C310)
+#define SYSTEM_CONSOLE_GET_INPUTENCODING_OFFSET UNITYSDK_OFFSET(0x1D31C790)
+#define SYSTEM_CONSOLE_GET_OUTPUTENCODING_OFFSET UNITYSDK_OFFSET(0x1D31C7C0)
+#define SYSTEM_CONSOLE_GET_OUT_OFFSET UNITYSDK_OFFSET(0x1D31C340)
+#define SYSTEM_CONSOLE_OPENSTANDARDERROR_OFFSET UNITYSDK_OFFSET(0x1D31C2C0)
+#define SYSTEM_CONSOLE_OPENSTANDARDINPUT_OFFSET UNITYSDK_OFFSET(0x1D31C220)
+#define SYSTEM_CONSOLE_OPENSTANDARDOUTPUT_OFFSET UNITYSDK_OFFSET(0x1D31C270)
+#define SYSTEM_CONSOLE_OPEN_OFFSET UNITYSDK_OFFSET(0x1D31C370)
+#define SYSTEM_CONSOLE_READKEY_1_OFFSET UNITYSDK_OFFSET(0x1D31C860)
+#define SYSTEM_CONSOLE_READKEY_OFFSET UNITYSDK_OFFSET(0x1D31C7F0)
+#define SYSTEM_CONSOLE_SETOUT_OFFSET UNITYSDK_OFFSET(0x1D31C470)
+#define SYSTEM_CONSOLE_SETUPSTREAMS_OFFSET UNITYSDK_OFFSET(0x1D31BA90)
+#define SYSTEM_CONSOLE_WRITELINE_1_OFFSET UNITYSDK_OFFSET(0x1D31C6A0)
+#define SYSTEM_CONSOLE_WRITELINE_OFFSET UNITYSDK_OFFSET(0x1D31C5D0)
+#define SYSTEM_CONSOLE_WRITE_OFFSET UNITYSDK_OFFSET(0x1D31C500)
 
 namespace System
 {
@@ -39,37 +39,37 @@ namespace System
 	public:
 		static ::System::Text::Encoding** StaticGet_outputEncoding()
 		{
-			return (::System::Text::Encoding**)UnitySDK::FromName("System", "Console")->GetStaticField(0xC160);
+			return (::System::Text::Encoding**)UnitySDK::FromName("System", "Console")->GetStaticField(0xCC50);
 		}
 
 		static ::System::IO::TextWriter** StaticGet_stdout()
 		{
-			return (::System::IO::TextWriter**)UnitySDK::FromName("System", "Console")->GetStaticField(0xC168);
+			return (::System::IO::TextWriter**)UnitySDK::FromName("System", "Console")->GetStaticField(0xCC58);
 		}
 
 		static ::System::Console_InternalCancelHandler** StaticGet_cancel_handler()
 		{
-			return (::System::Console_InternalCancelHandler**)UnitySDK::FromName("System", "Console")->GetStaticField(0xC170);
+			return (::System::Console_InternalCancelHandler**)UnitySDK::FromName("System", "Console")->GetStaticField(0xCC60);
 		}
 
 		static ::System::IO::TextWriter** StaticGet_stderr()
 		{
-			return (::System::IO::TextWriter**)UnitySDK::FromName("System", "Console")->GetStaticField(0xC178);
+			return (::System::IO::TextWriter**)UnitySDK::FromName("System", "Console")->GetStaticField(0xCC68);
 		}
 
 		static ::System::Text::Encoding** StaticGet_inputEncoding()
 		{
-			return (::System::Text::Encoding**)UnitySDK::FromName("System", "Console")->GetStaticField(0xC180);
+			return (::System::Text::Encoding**)UnitySDK::FromName("System", "Console")->GetStaticField(0xCC70);
 		}
 
 		static ::System::ConsoleCancelEventHandler** StaticGet_cancel_event()
 		{
-			return (::System::ConsoleCancelEventHandler**)UnitySDK::FromName("System", "Console")->GetStaticField(0xC188);
+			return (::System::ConsoleCancelEventHandler**)UnitySDK::FromName("System", "Console")->GetStaticField(0xCC78);
 		}
 
 		static ::System::IO::TextReader** StaticGet_stdin()
 		{
-			return (::System::IO::TextReader**)UnitySDK::FromName("System", "Console")->GetStaticField(0xC190);
+			return (::System::IO::TextReader**)UnitySDK::FromName("System", "Console")->GetStaticField(0xCC80);
 		}
 
 		static ::System::Void _cctor()

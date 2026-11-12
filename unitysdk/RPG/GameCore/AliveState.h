@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AliveState_TypeDefinitionIndex = 57800;
+	inline static constexpr unsigned int AliveState_TypeDefinitionIndex = 59035;
 
 	enum class AliveState : ::System::Int32
 	{

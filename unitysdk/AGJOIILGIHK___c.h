@@ -7,35 +7,35 @@ namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define AGJOIILGIHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF3C2B0)
-#define AGJOIILGIHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3C2F0)
-#define AGJOIILGIHK___C__GETPLAYERINDEX_B__21_0_OFFSET UNITYSDK_OFFSET(0xCF3C4D0)
-#define AGJOIILGIHK___C___REFRESHCHATMESSAGEDATALIST_B__1_0_OFFSET UNITYSDK_OFFSET(0xCF3C300)
-#define AGJOIILGIHK___C___REFRESHCHATMESSAGEDATALIST_B__1_1_OFFSET UNITYSDK_OFFSET(0xCF3C340)
+#define AGJOIILGIHK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5F3200)
+#define AGJOIILGIHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5F3240)
+#define AGJOIILGIHK___C__GETPLAYERINDEX_B__21_0_OFFSET UNITYSDK_OFFSET(0xD5F3420)
+#define AGJOIILGIHK___C___REFRESHCHATMESSAGEDATALIST_B__1_0_OFFSET UNITYSDK_OFFSET(0xD5F3250)
+#define AGJOIILGIHK___C___REFRESHCHATMESSAGEDATALIST_B__1_1_OFFSET UNITYSDK_OFFSET(0xD5F3290)
 
-inline static constexpr unsigned int AGJOIILGIHK___c_TypeDefinitionIndex = 66410;
+inline static constexpr unsigned int AGJOIILGIHK___c_TypeDefinitionIndex = 68346;
 
 	class AGJOIILGIHK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53D40);
-		}
-
-		static ::System::Predicate_1<::RPG::Client::ChatMessageData*>** StaticGet___9__1_1()
-		{
-			return (::System::Predicate_1<::RPG::Client::ChatMessageData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53D48);
-		}
-
-		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>>** StaticGet___9__21_0()
-		{
-			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53D50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BD20);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::ChatMessageData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ChatMessageData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x53D58);
+			return (::System::Comparison_1<::RPG::Client::ChatMessageData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BD28);
+		}
+
+		static ::System::Predicate_1<::RPG::Client::ChatMessageData*>** StaticGet___9__1_1()
+		{
+			return (::System::Predicate_1<::RPG::Client::ChatMessageData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BD30);
+		}
+
+		static ::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>>** StaticGet___9__21_0()
+		{
+			return (::System::Comparison_1<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::System::Int64>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BD38);
 		}
 
 		static ::System::Void _cctor()

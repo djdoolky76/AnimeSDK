@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define PAIBIGAADMI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFCA150)
-#define PAIBIGAADMI_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBFC9F90)
+#define PAIBIGAADMI_CTOR_OFFSET UNITYSDK_OFFSET(0xC8CCD40)
+#define PAIBIGAADMI_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xC8CCB80)
 
-inline static constexpr unsigned int PAIBIGAADMI_TypeDefinitionIndex = 66865;
+inline static constexpr unsigned int PAIBIGAADMI_TypeDefinitionIndex = 68811;
 
 	class PAIBIGAADMI : public ::System::Object
 	{

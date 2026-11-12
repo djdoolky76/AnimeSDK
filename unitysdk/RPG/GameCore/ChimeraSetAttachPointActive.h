@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChimeraSetAttachPointActive; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERASETATTACHPOINTACTIVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AE8D0)
-#define RPG_GAMECORE_CHIMERASETATTACHPOINTACTIVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5AE8E0)
-#define RPG_GAMECORE_CHIMERASETATTACHPOINTACTIVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5AE880)
+#define RPG_GAMECORE_CHIMERASETATTACHPOINTACTIVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BE580)
+#define RPG_GAMECORE_CHIMERASETATTACHPOINTACTIVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7BE590)
+#define RPG_GAMECORE_CHIMERASETATTACHPOINTACTIVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7BE530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraSetAttachPointActive_TypeDefinitionIndex = 15866;
+	inline static constexpr unsigned int ChimeraSetAttachPointActive_TypeDefinitionIndex = 16024;
 
 	class ChimeraSetAttachPointActive : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

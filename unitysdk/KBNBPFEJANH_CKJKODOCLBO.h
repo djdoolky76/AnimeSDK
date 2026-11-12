@@ -3,9 +3,9 @@
 #include "unitysdk/KBNBPFEJANH_ONEBDJAJMJJ.h"
 namespace System { class String; }
 
-#define KBNBPFEJANH_CKJKODOCLBO_CTOR_OFFSET UNITYSDK_OFFSET(0xB321F50)
+#define KBNBPFEJANH_CKJKODOCLBO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAC020)
 
-inline static constexpr unsigned int KBNBPFEJANH_CKJKODOCLBO_TypeDefinitionIndex = 69384;
+inline static constexpr unsigned int KBNBPFEJANH_CKJKODOCLBO_TypeDefinitionIndex = 71338;
 
 	class KBNBPFEJANH_CKJKODOCLBO : public ::KBNBPFEJANH_ONEBDJAJMJJ
 	{

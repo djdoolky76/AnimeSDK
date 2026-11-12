@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsSubTargetOfHpSharedGroup; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPGELICANBM_CTOR_OFFSET UNITYSDK_OFFSET(0x15917F90)
-#define FPGELICANBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15917FC0)
+#define FPGELICANBM_CTOR_OFFSET UNITYSDK_OFFSET(0x168496D0)
+#define FPGELICANBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16849700)
 
-inline static constexpr unsigned int FPGELICANBM_TypeDefinitionIndex = 54687;
+inline static constexpr unsigned int FPGELICANBM_TypeDefinitionIndex = 55853;
 
 	class FPGELICANBM
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IFocusRing_TypeDefinitionIndex = 5877;
+	inline static constexpr unsigned int IFocusRing_TypeDefinitionIndex = 5885;
 
 	class IFocusRing
 	{

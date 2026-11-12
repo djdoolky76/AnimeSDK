@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MBPKMGJGNHK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D137ED0)
-#define MBPKMGJGNHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D138A20)
-#define MBPKMGJGNHK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D138270)
-#define MBPKMGJGNHK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D137F10)
-#define MBPKMGJGNHK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D138760)
-#define MBPKMGJGNHK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D138310)
-#define MBPKMGJGNHK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D138360)
-#define MBPKMGJGNHK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D138140)
-#define MBPKMGJGNHK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D138700)
-#define MBPKMGJGNHK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1388D0)
-#define MBPKMGJGNHK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1381D0)
-#define MBPKMGJGNHK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D138680)
+#define MBPKMGJGNHK_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E337A00)
+#define MBPKMGJGNHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E338550)
+#define MBPKMGJGNHK_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E337DA0)
+#define MBPKMGJGNHK_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E337A40)
+#define MBPKMGJGNHK_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E338290)
+#define MBPKMGJGNHK_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E337E40)
+#define MBPKMGJGNHK_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E337E90)
+#define MBPKMGJGNHK_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E337C70)
+#define MBPKMGJGNHK_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E338230)
+#define MBPKMGJGNHK_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E338400)
+#define MBPKMGJGNHK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E337D00)
+#define MBPKMGJGNHK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E3381B0)
 
-inline static constexpr unsigned int MBPKMGJGNHK_TypeDefinitionIndex = 15255;
+inline static constexpr unsigned int MBPKMGJGNHK_TypeDefinitionIndex = 15411;
 
 	class MBPKMGJGNHK : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotBookRevealedCharacterRow*>** StaticGet_EHNHPCGDOIO()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotBookRevealedCharacterRow*>**)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x476F0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x388C0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x476F8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x388C8);
 		}
 
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotBookRevealedCharacterRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x47700);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::TarotBookRevealedCharacterRow*>**)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x388D0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x10FF0);
+			return (::System::Byte*)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0xC490);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0x10FF1);
+			return (::System::Boolean*)UnitySDK::FromName("", "MBPKMGJGNHK")->GetStaticField(0xC491);
 		}
 
 		static ::System::Void _cctor()

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIATOMCONFIG_ANDROIDLOWLATENCYSTANDARDVOICEPOOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x166CD920)
+#define CRIWARE_CRIATOMCONFIG_ANDROIDLOWLATENCYSTANDARDVOICEPOOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x17511970)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomConfig_AndroidLowLatencyStandardVoicePoolConfig_TypeDefinitionIndex = 40159;
+	inline static constexpr unsigned int CriAtomConfig_AndroidLowLatencyStandardVoicePoolConfig_TypeDefinitionIndex = 41134;
 
 	class CriAtomConfig_AndroidLowLatencyStandardVoicePoolConfig : public ::System::Object
 	{

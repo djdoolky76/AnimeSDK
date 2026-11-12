@@ -8,18 +8,18 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelChimeraCache; 
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JIDEANKJGGN_CTOR_OFFSET UNITYSDK_OFFSET(0xB1EDDF0)
-#define JIDEANKJGGN_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB1EE050)
-#define JIDEANKJGGN_TICK_OFFSET UNITYSDK_OFFSET(0xB1EE9A0)
+#define JIDEANKJGGN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0FD20)
+#define JIDEANKJGGN_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBA0FF80)
+#define JIDEANKJGGN_TICK_OFFSET UNITYSDK_OFFSET(0xBA108D0)
 
-inline static constexpr unsigned int JIDEANKJGGN_TypeDefinitionIndex = 77664;
+inline static constexpr unsigned int JIDEANKJGGN_TypeDefinitionIndex = 80399;
 
 	class JIDEANKJGGN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::ELECJOJHOAJ*>* JCDJIOEPELJ; // 0x10
-		::System::Action* LGAOOKPFIMF; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* FAGBDHNDLBO; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::LittleGame::ChimeraDuel::ChimeraDuelChimeraCache*>* FAGBDHNDLBO; // 0x10
+		::System::Collections::Generic::List_1<::ELECJOJHOAJ*>* JCDJIOEPELJ; // 0x18
+		::System::Action* LGAOOKPFIMF; // 0x20
 		::System::Void _ctor(::BFMHFBHIAAL* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::BFMHFBHIAAL*))((::PBYTE)hIl2Cpp + JIDEANKJGGN_CTOR_OFFSET))(this, a1);

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int POIIJJLFMOM_TypeDefinitionIndex = 74751;
+inline static constexpr unsigned int POIIJJLFMOM_TypeDefinitionIndex = 76905;
 
 	class POIIJJLFMOM
 	{

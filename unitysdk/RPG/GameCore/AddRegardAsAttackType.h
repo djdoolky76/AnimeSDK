@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AddRegardAsAttackType; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38B4C0)
-#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38B4D0)
-#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38B490)
+#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59B130)
+#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E59B140)
+#define RPG_GAMECORE_ADDREGARDASATTACKTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E59B100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddRegardAsAttackType_TypeDefinitionIndex = 23209;
+	inline static constexpr unsigned int AddRegardAsAttackType_TypeDefinitionIndex = 23641;
 
 	class AddRegardAsAttackType : public ::RPG::GameCore::TaskConfig
 	{
@@ -22,6 +22,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::TargetEvaluator* TargetType; // 0x20
 		::RPG::GameCore::AttackType OriginalAttackType; // 0x28
 		::RPG::GameCore::AttackType RegardAttackType; // 0x2C
+		::System::Boolean OnlyForCurrentDamage; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ADDREGARDASATTACKTYPE_CTOR_OFFSET))(this);

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapMoveTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JLEHAGMPNAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB23D4A0)
-#define JLEHAGMPNAE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB23D4C0)
+#define JLEHAGMPNAE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA65BD0)
+#define JLEHAGMPNAE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBA65BF0)
 
-inline static constexpr unsigned int JLEHAGMPNAE_TypeDefinitionIndex = 53808;
+inline static constexpr unsigned int JLEHAGMPNAE_TypeDefinitionIndex = 54972;
 
 	class JLEHAGMPNAE
 	{

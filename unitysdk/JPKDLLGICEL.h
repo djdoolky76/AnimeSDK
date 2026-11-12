@@ -6,11 +6,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define JPKDLLGICEL_CMBBOCIANPD_OFFSET UNITYSDK_OFFSET(0xB2C4ED0)
-#define JPKDLLGICEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C4EA0)
-#define JPKDLLGICEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2C5520)
+#define JPKDLLGICEL_CMBBOCIANPD_OFFSET UNITYSDK_OFFSET(0xBAF0BD0)
+#define JPKDLLGICEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBAF0BA0)
+#define JPKDLLGICEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAF1220)
 
-inline static constexpr unsigned int JPKDLLGICEL_TypeDefinitionIndex = 52469;
+inline static constexpr unsigned int JPKDLLGICEL_TypeDefinitionIndex = 53575;
 
 	class JPKDLLGICEL
 	{

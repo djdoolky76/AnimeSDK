@@ -11,47 +11,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JEMANAHCMPA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D01FAF0)
-#define JEMANAHCMPA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D020070)
-#define JEMANAHCMPA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D01FC60)
-#define JEMANAHCMPA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D01F5A0)
-#define JEMANAHCMPA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D01F830)
-#define JEMANAHCMPA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D01FD00)
-#define JEMANAHCMPA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D01FD50)
-#define JEMANAHCMPA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D01FB30)
-#define JEMANAHCMPA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D01F7D0)
-#define JEMANAHCMPA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D01F960)
-#define JEMANAHCMPA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D01FBC0)
-#define JEMANAHCMPA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D01F520)
+#define JEMANAHCMPA_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E20CBF0)
+#define JEMANAHCMPA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E20D360)
+#define JEMANAHCMPA_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E20CCD0)
+#define JEMANAHCMPA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E138730)
+#define JEMANAHCMPA_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E20C930)
+#define JEMANAHCMPA_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E20CD70)
+#define JEMANAHCMPA_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E20D040)
+#define JEMANAHCMPA_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E1C22B0)
+#define JEMANAHCMPA_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E20C8D0)
+#define JEMANAHCMPA_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E20CA60)
+#define JEMANAHCMPA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E20CC30)
+#define JEMANAHCMPA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E20C850)
 
-inline static constexpr unsigned int JEMANAHCMPA_TypeDefinitionIndex = 14514;
+inline static constexpr unsigned int JEMANAHCMPA_TypeDefinitionIndex = 14669;
 
 	class JEMANAHCMPA : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x2D2B0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerOutfitSlotRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerOutfitSlotRow*>**)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x2D2B8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlayerOutfitSlotRow*>**)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x2A020);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x2D2C0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x2A028);
 		}
 
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x9350);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x2A030);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x9351);
+			return (::System::Byte*)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x8750);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "JEMANAHCMPA")->GetStaticField(0x8751);
 		}
 
 		static ::System::Void _cctor()

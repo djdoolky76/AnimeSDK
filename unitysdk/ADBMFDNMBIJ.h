@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define ADBMFDNMBIJ_MCBDMHPPLAH_OFFSET UNITYSDK_OFFSET(0xF2A0)
+#define ADBMFDNMBIJ_MCBDMHPPLAH_OFFSET UNITYSDK_OFFSET(0xF260)
 
-inline static constexpr unsigned int ADBMFDNMBIJ_TypeDefinitionIndex = 57754;
+inline static constexpr unsigned int ADBMFDNMBIJ_TypeDefinitionIndex = 58989;
 
 	struct alignas(8) ADBMFDNMBIJ
 	{

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MaterialSubmitterGroupRow; }
 
-#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85E4B0)
-#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D85E340)
+#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA78D00)
+#define RPG_GAMECORE_MATERIALSUBMITTERGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA78B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialSubmitterGroupRow_TypeDefinitionIndex = 11961;
+	inline static constexpr unsigned int MaterialSubmitterGroupRow_TypeDefinitionIndex = 12018;
 
 	class MaterialSubmitterGroupRow : public ::System::Object
 	{

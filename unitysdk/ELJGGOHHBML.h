@@ -7,29 +7,29 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 
-#define ELJGGOHHBML_CCTOR_OFFSET UNITYSDK_OFFSET(0x15526440)
-#define ELJGGOHHBML_CTOR_OFFSET UNITYSDK_OFFSET(0x15526430)
-#define ELJGGOHHBML_DFIJDDDDDBC_OFFSET UNITYSDK_OFFSET(0x155261E0)
-#define ELJGGOHHBML_OOAKPDFAKAC_OFFSET UNITYSDK_OFFSET(0x155260B0)
+#define ELJGGOHHBML_CCTOR_OFFSET UNITYSDK_OFFSET(0x1646EAE0)
+#define ELJGGOHHBML_CTOR_OFFSET UNITYSDK_OFFSET(0x1646EAD0)
+#define ELJGGOHHBML_DFIJDDDDDBC_OFFSET UNITYSDK_OFFSET(0x1646E880)
+#define ELJGGOHHBML_OOAKPDFAKAC_OFFSET UNITYSDK_OFFSET(0x1646E750)
 
-inline static constexpr unsigned int ELJGGOHHBML_TypeDefinitionIndex = 69836;
+inline static constexpr unsigned int ELJGGOHHBML_TypeDefinitionIndex = 71795;
 
 	class ELJGGOHHBML : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>** StaticGet_BGPAHCAKLHB()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xCF40);
+		}
+
 		static ::UnityEngine::MaterialPropertyBlock** StaticGet_IAKNMACGKNP()
 		{
-			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xDDD0);
+			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xCF48);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet_FGAMNKMFEAL()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xDDD8);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>** StaticGet_BGPAHCAKLHB()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::Il2CppArray<::UnityEngine::Material*>*>*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xDDE0);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("", "ELJGGOHHBML")->GetStaticField(0xCF50);
 		}
 
 		// static const ::System::Object HHPJHACLDEH; // 0x0

@@ -5,9 +5,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntityList; }
 
-#define EFJCLCMOLGO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4EBE0)
+#define EFJCLCMOLGO_CTOR_OFFSET UNITYSDK_OFFSET(0x148100E0)
 
-inline static constexpr unsigned int EFJCLCMOLGO_TypeDefinitionIndex = 47616;
+inline static constexpr unsigned int EFJCLCMOLGO_TypeDefinitionIndex = 48646;
 
 	class EFJCLCMOLGO : public ::System::Object
 	{

@@ -7,12 +7,12 @@ namespace RPG::GameCore { class ConditionParam; }
 namespace RPG::GameCore { class GuideChallengeDataConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_GUIDECHALLENGEDATACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D74D640)
-#define RPG_GAMECORE_GUIDECHALLENGEDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D74D330)
+#define RPG_GAMECORE_GUIDECHALLENGEDATACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9610B0)
+#define RPG_GAMECORE_GUIDECHALLENGEDATACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E960DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GuideChallengeDataConfigRow_TypeDefinitionIndex = 13387;
+	inline static constexpr unsigned int GuideChallengeDataConfigRow_TypeDefinitionIndex = 13459;
 
 	class GuideChallengeDataConfigRow : public ::System::Object
 	{
@@ -21,10 +21,10 @@ namespace RPG::GameCore
 		::System::String* TabIconPath; // 0x18
 		::System::String* IconPath; // 0x20
 		::System::UInt32 MapEntranceID; // 0x28
-		::System::UInt32 ID; // 0x2C
-		::RPG::Client::TextID Name; // 0x30
-		::System::UInt32 TabID; // 0x40
-		::System::UInt32 RelatedID; // 0x44
+		::System::UInt32 RelatedID; // 0x2C
+		::System::UInt32 TabID; // 0x30
+		::System::UInt32 ID; // 0x34
+		::RPG::Client::TextID Name; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GUIDECHALLENGEDATACONFIGROW_CTOR_OFFSET))(this);

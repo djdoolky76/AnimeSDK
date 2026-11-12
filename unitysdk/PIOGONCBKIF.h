@@ -5,18 +5,18 @@ class MEDGOLOBNJM;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define PIOGONCBKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC275210)
-#define PIOGONCBKIF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xC274F70)
-#define PIOGONCBKIF__ONBIND_OFFSET UNITYSDK_OFFSET(0xC274DC0)
+#define PIOGONCBKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9D360)
+#define PIOGONCBKIF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xCB9D0C0)
+#define PIOGONCBKIF__ONBIND_OFFSET UNITYSDK_OFFSET(0xCB9CEB0)
 
-inline static constexpr unsigned int PIOGONCBKIF_TypeDefinitionIndex = 71330;
+inline static constexpr unsigned int PIOGONCBKIF_TypeDefinitionIndex = 73307;
 
 	class PIOGONCBKIF : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* BIIDDLHFPPG; // 0x60
-		::UnityEngine::Transform* FCLGOLCJBOE; // 0x68
-		::UnityEngine::UI::Text* CCOIIOCJIDI; // 0x70
+		::UnityEngine::Transform* FCLGOLCJBOE; // 0x60
+		::UnityEngine::UI::Text* CCOIIOCJIDI; // 0x68
+		::UnityEngine::Transform* BIIDDLHFPPG; // 0x70
 		::UnityEngine::Transform* AGOGNADGDNM; // 0x78
 		::System::Void _ctor()
 		{

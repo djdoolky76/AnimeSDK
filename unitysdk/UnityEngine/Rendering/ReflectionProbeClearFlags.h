@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ReflectionProbeClearFlags_TypeDefinitionIndex = 4716;
+	inline static constexpr unsigned int ReflectionProbeClearFlags_TypeDefinitionIndex = 4720;
 
 	enum class ReflectionProbeClearFlags : ::System::Int32
 	{

@@ -5,23 +5,23 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EMAFOGNODKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1552FE20)
-#define EMAFOGNODKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1552FE50)
-#define EMAFOGNODKM___C___REFRESHHUDACTIVESTATE_B__55_0_OFFSET UNITYSDK_OFFSET(0x1552FE60)
+#define EMAFOGNODKM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1647A510)
+#define EMAFOGNODKM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1647A540)
+#define EMAFOGNODKM___C___REFRESHHUDACTIVESTATE_B__55_0_OFFSET UNITYSDK_OFFSET(0x1647A550)
 
-inline static constexpr unsigned int EMAFOGNODKM___c_TypeDefinitionIndex = 71809;
+inline static constexpr unsigned int EMAFOGNODKM___c_TypeDefinitionIndex = 73829;
 
 	class EMAFOGNODKM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49830);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27D20);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>** StaticGet___9__55_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49838);
+			return (::System::Func_2<::RPG::GameCore::GameEntity*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x27D28);
 		}
 
 		static ::System::Void _cctor()

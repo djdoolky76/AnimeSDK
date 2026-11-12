@@ -6,10 +6,10 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 namespace RPG::Client::LittleGame::FiveDim { class FiveDimMonoCamera; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-#define LKGIMGKIFFI___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7446F0)
-#define LKGIMGKIFFI___C__DISPLAYCLASS72_0___FOREACHSTACKFOLLOWCAMERA_B__0_OFFSET UNITYSDK_OFFSET(0xB7478A0)
+#define LKGIMGKIFFI___C__DISPLAYCLASS72_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE33D0)
+#define LKGIMGKIFFI___C__DISPLAYCLASS72_0___FOREACHSTACKFOLLOWCAMERA_B__0_OFFSET UNITYSDK_OFFSET(0xBFE4DB0)
 
-inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass72_0_TypeDefinitionIndex = 76767;
+inline static constexpr unsigned int LKGIMGKIFFI___c__DisplayClass72_0_TypeDefinitionIndex = 79100;
 
 	class LKGIMGKIFFI___c__DisplayClass72_0 : public ::System::Object
 	{

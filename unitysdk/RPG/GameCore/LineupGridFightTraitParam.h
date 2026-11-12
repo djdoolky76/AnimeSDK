@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LineupGridFightTraitParam; }
 
-#define RPG_GAMECORE_LINEUPGRIDFIGHTTRAITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D5860)
-#define RPG_GAMECORE_LINEUPGRIDFIGHTTRAITPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D56E0)
+#define RPG_GAMECORE_LINEUPGRIDFIGHTTRAITPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA16E80)
+#define RPG_GAMECORE_LINEUPGRIDFIGHTTRAITPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA16D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LineupGridFightTraitParam_TypeDefinitionIndex = 18128;
+	inline static constexpr unsigned int LineupGridFightTraitParam_TypeDefinitionIndex = 18290;
 
 	class LineupGridFightTraitParam : public ::RPG::GameCore::JsonConfig
 	{

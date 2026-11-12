@@ -7,20 +7,20 @@ class NOCGHCNMOKB;
 namespace RPG::GameCore { class RelicSetSkillConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RELICSETSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D982020)
-#define RPG_GAMECORE_RELICSETSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D981930)
+#define RPG_GAMECORE_RELICSETSKILLCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9A490)
+#define RPG_GAMECORE_RELICSETSKILLCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB99D60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RelicSetSkillConfigRow_TypeDefinitionIndex = 14638;
+	inline static constexpr unsigned int RelicSetSkillConfigRow_TypeDefinitionIndex = 14794;
 
 	class RelicSetSkillConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* AbilityName; // 0x10
-		::Il2CppArray<::NOCGHCNMOKB*>* PropertyList; // 0x18
-		::System::String* SkillDesc; // 0x20
-		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x28
+		::Il2CppArray<::NOCGHCNMOKB*>* PropertyList; // 0x10
+		::Il2CppArray<::RPG::GameCore::FixPoint>* AbilityParamList; // 0x18
+		::System::String* AbilityName; // 0x20
+		::System::String* SkillDesc; // 0x28
 		::System::UInt32 SetID; // 0x30
 		::System::UInt32 RequireNum; // 0x34
 		::System::Void _ctor()

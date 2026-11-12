@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 namespace RPG::GameCore { class LittleGameAbilityPixAirFireMissle; }
 namespace RPG::GameCore { class PixAirMissleConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D9D50)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7D9D60)
-#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D9D20)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA1AA50)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA1AA60)
+#define RPG_GAMECORE_LITTLEGAMEABILITYPIXAIRFIREMISSLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA1AA20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityPixAirFireMissle_TypeDefinitionIndex = 21396;
+	inline static constexpr unsigned int LittleGameAbilityPixAirFireMissle_TypeDefinitionIndex = 21739;
 
 	class LittleGameAbilityPixAirFireMissle : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{

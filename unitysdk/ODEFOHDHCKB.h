@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int ODEFOHDHCKB_TypeDefinitionIndex = 62930;
+inline static constexpr unsigned int ODEFOHDHCKB_TypeDefinitionIndex = 64368;
 
 	class ODEFOHDHCKB
 	{

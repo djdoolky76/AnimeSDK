@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define MIHOYO_SDK_HOYOUI_COLORVALUEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xAFAB710)
+#define MIHOYO_SDK_HOYOUI_COLORVALUEMAP_CTOR_OFFSET UNITYSDK_OFFSET(0xB60CCF0)
 
 namespace MiHoYo::SDK::HoYoUI
 {
-	inline static constexpr unsigned int ColorValueMap_TypeDefinitionIndex = 46727;
+	inline static constexpr unsigned int ColorValueMap_TypeDefinitionIndex = 47755;
 
 	class ColorValueMap
 	{

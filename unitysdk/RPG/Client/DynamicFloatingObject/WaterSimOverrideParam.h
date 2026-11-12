@@ -4,11 +4,11 @@ namespace RPG::Client::DynamicFloatingObject { class WaterSimOverrideParam_Water
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_WATERSIMOVERRIDEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCCFC2F0)
+#define RPG_CLIENT_DYNAMICFLOATINGOBJECT_WATERSIMOVERRIDEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD6BD8F0)
 
 namespace RPG::Client::DynamicFloatingObject
 {
-	inline static constexpr unsigned int WaterSimOverrideParam_TypeDefinitionIndex = 73577;
+	inline static constexpr unsigned int WaterSimOverrideParam_TypeDefinitionIndex = 75700;
 
 	class WaterSimOverrideParam
 	{

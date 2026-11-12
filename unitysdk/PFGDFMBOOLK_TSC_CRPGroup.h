@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-inline static constexpr unsigned int PFGDFMBOOLK_TSC_CRPGroup_TypeDefinitionIndex = 69815;
+inline static constexpr unsigned int PFGDFMBOOLK_TSC_CRPGroup_TypeDefinitionIndex = 71774;
 
 	struct alignas(4) PFGDFMBOOLK_TSC_CRPGroup
 	{

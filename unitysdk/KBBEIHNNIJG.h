@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define KBBEIHNNIJG_ISPOOLABLE_OFFSET UNITYSDK_OFFSET(0xB2ED4B0)
+#define KBBEIHNNIJG_ISPOOLABLE_OFFSET UNITYSDK_OFFSET(0xBB74E20)
 
-inline static constexpr unsigned int KBBEIHNNIJG_TypeDefinitionIndex = 72782;
+inline static constexpr unsigned int KBBEIHNNIJG_TypeDefinitionIndex = 74861;
 
 	class KBBEIHNNIJG : public ::System::Object
 	{

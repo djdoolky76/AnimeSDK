@@ -6,19 +6,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShopGroupRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOPGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD5CB0)
-#define RPG_GAMECORE_SHOPGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAD5250)
+#define RPG_GAMECORE_SHOPGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE7AC0)
+#define RPG_GAMECORE_SHOPGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ECE7060)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShopGroupRow_TypeDefinitionIndex = 15101;
+	inline static constexpr unsigned int ShopGroupRow_TypeDefinitionIndex = 15257;
 
 	class ShopGroupRow : public ::System::Object
 	{
 	public:
 		::System::String* IconPath; // 0x10
-		::RPG::Client::TextID Name; // 0x18
-		::System::UInt32 ID; // 0x28
+		::System::UInt32 ID; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID Name; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOPGROUPROW_CTOR_OFFSET))(this);

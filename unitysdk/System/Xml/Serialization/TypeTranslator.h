@@ -6,14 +6,14 @@ namespace System { class Type; }
 namespace System::Collections { class Hashtable; }
 namespace System::Xml::Serialization { class TypeData; }
 
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEFD7A0)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_FINDPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x1EF03510)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETARRAYNAME_OFFSET UNITYSDK_OFFSET(0x1EEFB5E0)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x1EF03180)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x1EF03120)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x1EF01A50)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_OFFSET UNITYSDK_OFFSET(0x1EEFAB00)
-#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_PARSEARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x1EF03660)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x201ACF50)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_FINDPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x201B2CC0)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETARRAYNAME_OFFSET UNITYSDK_OFFSET(0x201AAD90)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x201B2930)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETPRIMITIVETYPEDATA_OFFSET UNITYSDK_OFFSET(0x201B28D0)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_1_OFFSET UNITYSDK_OFFSET(0x201B1200)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_GETTYPEDATA_OFFSET UNITYSDK_OFFSET(0x201AA2B0)
+#define SYSTEM_XML_SERIALIZATION_TYPETRANSLATOR_PARSEARRAYTYPE_OFFSET UNITYSDK_OFFSET(0x201B2E10)
 
 namespace System::Xml::Serialization
 {
@@ -22,24 +22,24 @@ namespace System::Xml::Serialization
 	class TypeTranslator : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Hashtable** StaticGet_nullableTypes()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x25FF0);
-		}
-
-		static ::System::Collections::Hashtable** StaticGet_primitiveArrayTypes()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x25FF8);
-		}
-
 		static ::System::Collections::Hashtable** StaticGet_nameCache()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x26000);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x30920);
 		}
 
 		static ::System::Collections::Hashtable** StaticGet_primitiveTypes()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x26008);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x30928);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_nullableTypes()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x30930);
+		}
+
+		static ::System::Collections::Hashtable** StaticGet_primitiveArrayTypes()
+		{
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Xml.Serialization", "TypeTranslator")->GetStaticField(0x30938);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class NKNEGBCMFBE;
 
-#define IOJNOCLDBAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A450)
+#define IOJNOCLDBAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD50A40)
 
-inline static constexpr unsigned int IOJNOCLDBAK_TypeDefinitionIndex = 42548;
+inline static constexpr unsigned int IOJNOCLDBAK_TypeDefinitionIndex = 43523;
 
 	class IOJNOCLDBAK : public ::System::Object
 	{

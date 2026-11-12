@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CalcElevatorLoopTime; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CALCELEVATORLOOPTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1D554500)
-#define RPG_GAMECORE_CALCELEVATORLOOPTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D554510)
-#define RPG_GAMECORE_CALCELEVATORLOOPTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5544D0)
+#define RPG_GAMECORE_CALCELEVATORLOOPTIME_CTOR_OFFSET UNITYSDK_OFFSET(0x1E766500)
+#define RPG_GAMECORE_CALCELEVATORLOOPTIME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E766510)
+#define RPG_GAMECORE_CALCELEVATORLOOPTIME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7664D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CalcElevatorLoopTime_TypeDefinitionIndex = 20496;
+	inline static constexpr unsigned int CalcElevatorLoopTime_TypeDefinitionIndex = 20831;
 
 	class CalcElevatorLoopTime : public ::RPG::GameCore::TaskConfig
 	{

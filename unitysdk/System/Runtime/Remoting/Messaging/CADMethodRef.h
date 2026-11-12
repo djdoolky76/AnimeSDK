@@ -6,9 +6,9 @@ namespace System { class Type; }
 namespace System::Reflection { class MethodBase; }
 namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2E1A30)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET UNITYSDK_OFFSET(0x1C2E5F40)
-#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1C2E2190)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D468540)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_GETTYPES_OFFSET UNITYSDK_OFFSET(0x1D46CAB0)
+#define SYSTEM_RUNTIME_REMOTING_MESSAGING_CADMETHODREF_RESOLVE_OFFSET UNITYSDK_OFFSET(0x1D468CF0)
 
 namespace System::Runtime::Remoting::Messaging
 {
@@ -18,9 +18,9 @@ namespace System::Runtime::Remoting::Messaging
 	{
 	public:
 		::Il2CppArray<::System::String*>* param_names; // 0x10
-		::Il2CppArray<::System::String*>* generic_arg_names; // 0x18
-		::System::String* typeName; // 0x20
-		::System::String* methodName; // 0x28
+		::System::String* methodName; // 0x18
+		::Il2CppArray<::System::String*>* generic_arg_names; // 0x20
+		::System::String* typeName; // 0x28
 		::System::Boolean ctor; // 0x30
 		::System::Void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* a1)
 		{

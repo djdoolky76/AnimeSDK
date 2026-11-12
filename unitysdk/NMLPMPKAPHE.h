@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NMLPMPKAPHE_TypeDefinitionIndex = 27845;
+inline static constexpr unsigned int NMLPMPKAPHE_TypeDefinitionIndex = 28422;
 
 	enum class NMLPMPKAPHE : ::System::Int32
 	{

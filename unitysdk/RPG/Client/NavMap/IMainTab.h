@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int IMainTab_TypeDefinitionIndex = 74626;
+	inline static constexpr unsigned int IMainTab_TypeDefinitionIndex = 76774;
 
 	class IMainTab
 	{

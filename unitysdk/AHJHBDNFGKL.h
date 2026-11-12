@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define AHJHBDNFGKL_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CCC4420)
+#define AHJHBDNFGKL_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1DE6D260)
 
-inline static constexpr unsigned int AHJHBDNFGKL_TypeDefinitionIndex = 10699;
+inline static constexpr unsigned int AHJHBDNFGKL_TypeDefinitionIndex = 10715;
 
 	class AHJHBDNFGKL : public ::System::Object
 	{

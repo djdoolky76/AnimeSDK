@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SmartObjectPlayMode_TypeDefinitionIndex = 17369;
+	inline static constexpr unsigned int SmartObjectPlayMode_TypeDefinitionIndex = 17537;
 
 	enum class SmartObjectPlayMode : ::System::Int32
 	{

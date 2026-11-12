@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/AbilityProperty.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-inline static constexpr unsigned int OCKPDPJGDHE_TypeDefinitionIndex = 56969;
+inline static constexpr unsigned int OCKPDPJGDHE_TypeDefinitionIndex = 58195;
 
 	struct alignas(4) OCKPDPJGDHE
 	{

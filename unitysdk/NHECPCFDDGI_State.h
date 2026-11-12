@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NHECPCFDDGI_State_TypeDefinitionIndex = 44210;
+inline static constexpr unsigned int NHECPCFDDGI_State_TypeDefinitionIndex = 45285;
 
 	enum class NHECPCFDDGI_State : ::System::Int32
 	{

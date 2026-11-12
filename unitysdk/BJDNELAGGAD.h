@@ -4,10 +4,10 @@ namespace RPG::GameCore { class CustomTeamFormationConfig; }
 namespace RPG::GameCore { class SetCharacterCustomTeamFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BJDNELAGGAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB798A60)
-#define BJDNELAGGAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB798A90)
+#define BJDNELAGGAD_CTOR_OFFSET UNITYSDK_OFFSET(0xBE5BC50)
+#define BJDNELAGGAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE5BC80)
 
-inline static constexpr unsigned int BJDNELAGGAD_TypeDefinitionIndex = 55368;
+inline static constexpr unsigned int BJDNELAGGAD_TypeDefinitionIndex = 56551;
 
 	class BJDNELAGGAD
 	{

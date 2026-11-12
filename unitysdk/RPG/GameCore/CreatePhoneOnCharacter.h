@@ -7,13 +7,13 @@ namespace RPG::GameCore { class CreatePhoneOnCharacter; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CREATEPHONEONCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E45C0)
-#define RPG_GAMECORE_CREATEPHONEONCHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E45D0)
-#define RPG_GAMECORE_CREATEPHONEONCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E4590)
+#define RPG_GAMECORE_CREATEPHONEONCHARACTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F6780)
+#define RPG_GAMECORE_CREATEPHONEONCHARACTER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F6790)
+#define RPG_GAMECORE_CREATEPHONEONCHARACTER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F6750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreatePhoneOnCharacter_TypeDefinitionIndex = 20877;
+	inline static constexpr unsigned int CreatePhoneOnCharacter_TypeDefinitionIndex = 21214;
 
 	class CreatePhoneOnCharacter : public ::RPG::GameCore::TaskConfig
 	{

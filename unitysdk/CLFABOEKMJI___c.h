@@ -4,18 +4,18 @@
 class CLFABOEKMJI;
 namespace System { class Object; }
 
-#define CLFABOEKMJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0F8440)
-#define CLFABOEKMJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0F8480)
-#define CLFABOEKMJI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0F8490)
+#define CLFABOEKMJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3EF1F0)
+#define CLFABOEKMJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3EF230)
+#define CLFABOEKMJI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F3EF240)
 
-inline static constexpr unsigned int CLFABOEKMJI___c_TypeDefinitionIndex = 29335;
+inline static constexpr unsigned int CLFABOEKMJI___c_TypeDefinitionIndex = 30046;
 
 	class CLFABOEKMJI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D1A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17EC0);
 		}
 
 		static ::System::Void _cctor()

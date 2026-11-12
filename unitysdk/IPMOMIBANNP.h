@@ -11,47 +11,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IPMOMIBANNP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CF332F0)
-#define IPMOMIBANNP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF338B0)
-#define IPMOMIBANNP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CF33460)
-#define IPMOMIBANNP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CF32D50)
-#define IPMOMIBANNP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CF32FE0)
-#define IPMOMIBANNP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CF33500)
-#define IPMOMIBANNP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CF33550)
-#define IPMOMIBANNP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CF33330)
-#define IPMOMIBANNP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CF32F80)
-#define IPMOMIBANNP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CF33150)
-#define IPMOMIBANNP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF333C0)
-#define IPMOMIBANNP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF32CD0)
+#define IPMOMIBANNP_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E119BF0)
+#define IPMOMIBANNP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E11A1B0)
+#define IPMOMIBANNP_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E119D60)
+#define IPMOMIBANNP_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E119650)
+#define IPMOMIBANNP_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E1198E0)
+#define IPMOMIBANNP_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E119E00)
+#define IPMOMIBANNP_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E119E50)
+#define IPMOMIBANNP_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E119C30)
+#define IPMOMIBANNP_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E119880)
+#define IPMOMIBANNP_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E119A50)
+#define IPMOMIBANNP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E119CC0)
+#define IPMOMIBANNP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E1195D0)
 
-inline static constexpr unsigned int IPMOMIBANNP_TypeDefinitionIndex = 13900;
+inline static constexpr unsigned int IPMOMIBANNP_TypeDefinitionIndex = 14057;
 
 	class IPMOMIBANNP : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x251E0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::OKEFHOAGJGH*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::OKEFHOAGJGH*>**)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x251E8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::OKEFHOAGJGH*>**)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x1D8A0);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x251F0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x1D8A8);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x1D8B0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x8130);
+			return (::System::Boolean*)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x66D0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x8131);
+			return (::System::Byte*)UnitySDK::FromName("", "IPMOMIBANNP")->GetStaticField(0x66D1);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 class IDNEFFCGFFL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HFMCICAIGNA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8BBC0)
-#define HFMCICAIGNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C8BCA0)
+#define HFMCICAIGNA_CTOR_OFFSET UNITYSDK_OFFSET(0x16BD3520)
+#define HFMCICAIGNA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BD3600)
 
-inline static constexpr unsigned int HFMCICAIGNA_TypeDefinitionIndex = 55418;
+inline static constexpr unsigned int HFMCICAIGNA_TypeDefinitionIndex = 56603;
 
 	class HFMCICAIGNA
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AirlineStation; }
 
-#define RPG_CLIENT_AIRLINESTATIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC640780)
+#define RPG_CLIENT_AIRLINESTATIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF9B460)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AirlineStationInfo_TypeDefinitionIndex = 59769;
+	inline static constexpr unsigned int AirlineStationInfo_TypeDefinitionIndex = 61049;
 
 	class AirlineStationInfo : public ::System::Object
 	{

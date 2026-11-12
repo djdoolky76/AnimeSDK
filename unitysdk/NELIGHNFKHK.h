@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyCurrentSkillDelayCost; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NELIGHNFKHK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB70D90)
-#define NELIGHNFKHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB70DC0)
+#define NELIGHNFKHK_CTOR_OFFSET UNITYSDK_OFFSET(0xC44BB90)
+#define NELIGHNFKHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC44BBC0)
 
-inline static constexpr unsigned int NELIGHNFKHK_TypeDefinitionIndex = 55191;
+inline static constexpr unsigned int NELIGHNFKHK_TypeDefinitionIndex = 56372;
 
 	class NELIGHNFKHK
 	{

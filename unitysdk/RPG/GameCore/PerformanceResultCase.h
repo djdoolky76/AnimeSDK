@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceResultCase; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_PERFORMANCERESULTCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D902880)
-#define RPG_GAMECORE_PERFORMANCERESULTCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9026D0)
+#define RPG_GAMECORE_PERFORMANCERESULTCASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB1BC90)
+#define RPG_GAMECORE_PERFORMANCERESULTCASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB1BB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceResultCase_TypeDefinitionIndex = 21243;
+	inline static constexpr unsigned int PerformanceResultCase_TypeDefinitionIndex = 21586;
 
 	class PerformanceResultCase : public ::RPG::GameCore::JsonConfig
 	{

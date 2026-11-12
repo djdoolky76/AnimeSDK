@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHasCharacterRevived; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MACGLHDBBGF_CTOR_OFFSET UNITYSDK_OFFSET(0xB83ED00)
-#define MACGLHDBBGF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB83ED30)
+#define MACGLHDBBGF_CTOR_OFFSET UNITYSDK_OFFSET(0xC0A0680)
+#define MACGLHDBBGF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC0A06B0)
 
-inline static constexpr unsigned int MACGLHDBBGF_TypeDefinitionIndex = 54612;
+inline static constexpr unsigned int MACGLHDBBGF_TypeDefinitionIndex = 55778;
 
 	class MACGLHDBBGF
 	{

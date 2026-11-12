@@ -5,22 +5,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesGachaBasicRow; }
 
-#define RPG_GAMECORE_PLANETFESGACHABASICROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D926300)
-#define RPG_GAMECORE_PLANETFESGACHABASICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D926090)
+#define RPG_GAMECORE_PLANETFESGACHABASICROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB3F400)
+#define RPG_GAMECORE_PLANETFESGACHABASICROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB3F190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesGachaBasicRow_TypeDefinitionIndex = 12214;
+	inline static constexpr unsigned int PlanetFesGachaBasicRow_TypeDefinitionIndex = 12271;
 
 	class PlanetFesGachaBasicRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* MultiGachaUnlockIDList; // 0x10
-		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x18
-		::System::UInt32 GachaID; // 0x20
-		::System::UInt32 CostGemNum; // 0x24
+		::Il2CppArray<::System::UInt32>* UnlockIDList; // 0x10
+		::Il2CppArray<::System::UInt32>* MultiGachaUnlockIDList; // 0x18
+		::RPG::GameCore::PlanetFesGachaType GachaType; // 0x20
+		::System::UInt32 GachaID; // 0x24
 		::System::UInt32 MultiGachaCount; // 0x28
-		::RPG::GameCore::PlanetFesGachaType GachaType; // 0x2C
+		::System::UInt32 CostGemNum; // 0x2C
 		::System::UInt32 CostItemID; // 0x30
 		::System::Void _ctor()
 		{

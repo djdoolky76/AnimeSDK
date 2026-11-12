@@ -5,23 +5,23 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GIKFAOJHKOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A40FB0)
-#define GIKFAOJHKOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A40FF0)
-#define GIKFAOJHKOL___C__REFRESHTRIALTEAMBUILD_B__1_0_OFFSET UNITYSDK_OFFSET(0x15A41000)
+#define GIKFAOJHKOL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1697BF50)
+#define GIKFAOJHKOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1697BF90)
+#define GIKFAOJHKOL___C__REFRESHTRIALTEAMBUILD_B__1_0_OFFSET UNITYSDK_OFFSET(0x1697BFA0)
 
-inline static constexpr unsigned int GIKFAOJHKOL___c_TypeDefinitionIndex = 61894;
+inline static constexpr unsigned int GIKFAOJHKOL___c_TypeDefinitionIndex = 63301;
 
 	class GIKFAOJHKOL___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E6F0);
-		}
-
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E6F8);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69620);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69628);
 		}
 
 		static ::System::Void _cctor()

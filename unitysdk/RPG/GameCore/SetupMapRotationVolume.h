@@ -6,13 +6,13 @@ namespace RPG::GameCore { class MapRotationVolumeEffectTransitPoint; }
 namespace RPG::GameCore { class MapRotationVolumeSlotConfigBase; }
 namespace RPG::GameCore { class SetupMapRotationVolume; }
 
-#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1DACD860)
-#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DACD870)
-#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DACD830)
+#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECDF640)
+#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECDF650)
+#define RPG_GAMECORE_SETUPMAPROTATIONVOLUME_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECDF610)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetupMapRotationVolume_TypeDefinitionIndex = 22306;
+	inline static constexpr unsigned int SetupMapRotationVolume_TypeDefinitionIndex = 22711;
 
 	class SetupMapRotationVolume : public ::RPG::GameCore::TaskConfig
 	{

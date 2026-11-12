@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareRogueDiceRotateImmediately; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OFLPDOMNIJF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE47730)
-#define OFLPDOMNIJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBE47760)
+#define OFLPDOMNIJF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7008D0)
+#define OFLPDOMNIJF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC700900)
 
-inline static constexpr unsigned int OFLPDOMNIJF_TypeDefinitionIndex = 52590;
+inline static constexpr unsigned int OFLPDOMNIJF_TypeDefinitionIndex = 53696;
 
 	class OFLPDOMNIJF
 	{

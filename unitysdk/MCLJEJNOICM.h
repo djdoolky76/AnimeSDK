@@ -7,20 +7,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define MCLJEJNOICM_BOLJDDJDNII_OFFSET UNITYSDK_OFFSET(0xB887DE0)
-#define MCLJEJNOICM_CTOR_OFFSET UNITYSDK_OFFSET(0xB886FD0)
-#define MCLJEJNOICM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB887EF0)
-#define MCLJEJNOICM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB886FF0)
-#define MCLJEJNOICM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB887EA0)
-#define MCLJEJNOICM_TICK_OFFSET UNITYSDK_OFFSET(0xB887F30)
+#define MCLJEJNOICM_BOLJDDJDNII_OFFSET UNITYSDK_OFFSET(0xC134230)
+#define MCLJEJNOICM_CTOR_OFFSET UNITYSDK_OFFSET(0xC133430)
+#define MCLJEJNOICM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC134340)
+#define MCLJEJNOICM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC133450)
+#define MCLJEJNOICM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC1342F0)
+#define MCLJEJNOICM_TICK_OFFSET UNITYSDK_OFFSET(0xC134380)
 
-inline static constexpr unsigned int MCLJEJNOICM_TypeDefinitionIndex = 52267;
+inline static constexpr unsigned int MCLJEJNOICM_TypeDefinitionIndex = 53373;
 
 	class MCLJEJNOICM : public ::KHEEFIDGFPC
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x78
-		::RPG::GameCore::ActiveMarbleVirtualCamera* IGHAHBNLIJA; // 0x80
+		::RPG::GameCore::ActiveMarbleVirtualCamera* IGHAHBNLIJA; // 0x78
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x80
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ActiveMarbleVirtualCamera* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ActiveMarbleVirtualCamera*))((::PBYTE)hIl2Cpp + MCLJEJNOICM_CTOR_OFFSET))(this, a1, a2);

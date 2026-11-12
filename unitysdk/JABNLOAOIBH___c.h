@@ -6,29 +6,29 @@ namespace RPGTools::Timeline::Discussion { class SwitchAnchorData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JABNLOAOIBH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x165402C0)
-#define JABNLOAOIBH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16540300)
-#define JABNLOAOIBH___C__GETCLIPANCHORINFO_B__12_0_OFFSET UNITYSDK_OFFSET(0x16540310)
-#define JABNLOAOIBH___C__GETCLIPANCHORINFO_B__12_1_OFFSET UNITYSDK_OFFSET(0x16540330)
+#define JABNLOAOIBH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB876240)
+#define JABNLOAOIBH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB876280)
+#define JABNLOAOIBH___C__GETCLIPANCHORINFO_B__12_0_OFFSET UNITYSDK_OFFSET(0xB876290)
+#define JABNLOAOIBH___C__GETCLIPANCHORINFO_B__12_1_OFFSET UNITYSDK_OFFSET(0xB8762B0)
 
-inline static constexpr unsigned int JABNLOAOIBH___c_TypeDefinitionIndex = 48478;
+inline static constexpr unsigned int JABNLOAOIBH___c_TypeDefinitionIndex = 49519;
 
 	class JABNLOAOIBH___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPGTools::Timeline::Discussion::SwitchAnchorData*, ::System::Boolean>** StaticGet___9__12_0()
 		{
-			return (::System::Func_2<::RPGTools::Timeline::Discussion::SwitchAnchorData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DEE0);
+			return (::System::Func_2<::RPGTools::Timeline::Discussion::SwitchAnchorData*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B940);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DEE8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B948);
 		}
 
 		static ::System::Func_2<::RPGTools::Timeline::Discussion::RelativeTransform, ::System::Boolean>** StaticGet___9__12_1()
 		{
-			return (::System::Func_2<::RPGTools::Timeline::Discussion::RelativeTransform, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6DEF0);
+			return (::System::Func_2<::RPGTools::Timeline::Discussion::RelativeTransform, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B950);
 		}
 
 		static ::System::Void _cctor()

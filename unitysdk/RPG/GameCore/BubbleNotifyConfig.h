@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BubbleNotifyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_BUBBLENOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D47FDD0)
-#define RPG_GAMECORE_BUBBLENOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D47FC10)
+#define RPG_GAMECORE_BUBBLENOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E68F930)
+#define RPG_GAMECORE_BUBBLENOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E68F770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BubbleNotifyConfig_TypeDefinitionIndex = 16958;
+	inline static constexpr unsigned int BubbleNotifyConfig_TypeDefinitionIndex = 17125;
 
 	class BubbleNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class MACGIEKOBNM;
 namespace System { class Object; }
 
-#define MACGIEKOBNM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9D6A00)
-#define MACGIEKOBNM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D6A40)
-#define MACGIEKOBNM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9D6A50)
+#define MACGIEKOBNM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCFE5B0)
+#define MACGIEKOBNM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCFE5F0)
+#define MACGIEKOBNM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FCFE600)
 
-inline static constexpr unsigned int MACGIEKOBNM___c_TypeDefinitionIndex = 31578;
+inline static constexpr unsigned int MACGIEKOBNM___c_TypeDefinitionIndex = 32491;
 
 	class MACGIEKOBNM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x427F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A640);
 		}
 
 		static ::System::Void _cctor()

@@ -7,10 +7,10 @@ class FCOEMCEDLNL;
 class OANOGADDKKH;
 namespace System { class String; }
 
-#define OANOGADDKKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D24E5C0)
-#define OANOGADDKKH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D24E3A0)
+#define OANOGADDKKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E454A30)
+#define OANOGADDKKH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E454810)
 
-inline static constexpr unsigned int OANOGADDKKH_TypeDefinitionIndex = 13903;
+inline static constexpr unsigned int OANOGADDKKH_TypeDefinitionIndex = 14060;
 
 	class OANOGADDKKH : public ::System::Object
 	{

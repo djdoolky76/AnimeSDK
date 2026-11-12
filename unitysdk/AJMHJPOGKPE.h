@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define AJMHJPOGKPE_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC5AF0)
+#define AJMHJPOGKPE_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA4D00)
 
-inline static constexpr unsigned int AJMHJPOGKPE_TypeDefinitionIndex = 49661;
+inline static constexpr unsigned int AJMHJPOGKPE_TypeDefinitionIndex = 50737;
 
 	class AJMHJPOGKPE : public ::System::Attribute
 	{

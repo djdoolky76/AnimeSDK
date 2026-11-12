@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KEPHAMIADEJ_ScrollState_TypeDefinitionIndex = 69008;
+inline static constexpr unsigned int KEPHAMIADEJ_ScrollState_TypeDefinitionIndex = 70961;
 
 	enum class KEPHAMIADEJ_ScrollState : ::System::Int32
 	{

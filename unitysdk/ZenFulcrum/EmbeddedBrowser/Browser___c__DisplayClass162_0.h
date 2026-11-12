@@ -5,19 +5,19 @@ namespace System { class Action; }
 namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
 namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ReadyFunc; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1F63BF60)
-#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0__WHENREADY_B__0_OFFSET UNITYSDK_OFFSET(0x1F6470E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0_CTOR_OFFSET UNITYSDK_OFFSET(0x208EB7F0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0__WHENREADY_B__0_OFFSET UNITYSDK_OFFSET(0x208F6960)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Browser___c__DisplayClass162_0_TypeDefinitionIndex = 39340;
+	inline static constexpr unsigned int Browser___c__DisplayClass162_0_TypeDefinitionIndex = 40269;
 
 	class Browser___c__DisplayClass162_0 : public ::System::Object
 	{
 	public:
-		::System::Action* callback; // 0x10
-		::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc* func; // 0x18
-		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x20
+		::ZenFulcrum::EmbeddedBrowser::BrowserNative_ReadyFunc* func; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::Browser* __4__this; // 0x18
+		::System::Action* callback; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_BROWSER___C__DISPLAYCLASS162_0_CTOR_OFFSET))(this);

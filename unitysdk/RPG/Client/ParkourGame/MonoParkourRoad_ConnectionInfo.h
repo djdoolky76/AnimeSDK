@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_CONNECTIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA7BB10)
+#define RPG_CLIENT_PARKOURGAME_MONOPARKOURROAD_CONNECTIONINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE4D10B0)
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoad_ConnectionInfo_TypeDefinitionIndex = 74161;
+	inline static constexpr unsigned int MonoParkourRoad_ConnectionInfo_TypeDefinitionIndex = 76309;
 
 	class MonoParkourRoad_ConnectionInfo : public ::System::Object
 	{

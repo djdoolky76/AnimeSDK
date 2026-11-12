@@ -5,23 +5,23 @@ namespace RPG::Client { class GpuParticleOccluder; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define HNHPHDLGHHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D96A20)
-#define HNHPHDLGHHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15D96A50)
-#define HNHPHDLGHHB___C__CALCULATEOBBAABBINTERSECTIONS_B__16_0_OFFSET UNITYSDK_OFFSET(0x15D96A60)
+#define HNHPHDLGHHB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16D379F0)
+#define HNHPHDLGHHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16D37A20)
+#define HNHPHDLGHHB___C__CALCULATEOBBAABBINTERSECTIONS_B__16_0_OFFSET UNITYSDK_OFFSET(0x16D37A30)
 
-inline static constexpr unsigned int HNHPHDLGHHB___c_TypeDefinitionIndex = 49317;
+inline static constexpr unsigned int HNHPHDLGHHB___c_TypeDefinitionIndex = 50393;
 
 	class HNHPHDLGHHB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31C90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1CDA0);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>** StaticGet___9__16_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31C98);
+			return (::System::Comparison_1<::RPG::Client::GpuParticleOccluder*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1CDA8);
 		}
 
 		static ::System::Void _cctor()

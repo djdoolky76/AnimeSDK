@@ -10,7 +10,7 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleCameraService_1___c_TypeDefinitionIndex = 76521;
+	inline static constexpr unsigned int SimpleCameraService_1___c_TypeDefinitionIndex = 78852;
 
 	template <typename T>
 	class SimpleCameraService_1___c : public ::System::Object

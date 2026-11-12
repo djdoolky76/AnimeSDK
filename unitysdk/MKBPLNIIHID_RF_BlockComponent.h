@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MKBPLNIIHID_RF_BlockComponent_TypeDefinitionIndex = 37070;
+inline static constexpr unsigned int MKBPLNIIHID_RF_BlockComponent_TypeDefinitionIndex = 37998;
 
 	enum class MKBPLNIIHID_RF_BlockComponent : ::System::Byte
 	{

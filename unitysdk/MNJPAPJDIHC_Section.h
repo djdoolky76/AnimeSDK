@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MNJPAPJDIHC_Section_TypeDefinitionIndex = 41480;
+inline static constexpr unsigned int MNJPAPJDIHC_Section_TypeDefinitionIndex = 42455;
 
 	enum class MNJPAPJDIHC_Section : ::System::Int32
 	{

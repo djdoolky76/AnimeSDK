@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelEntityRef; }
 namespace RPG::GameCore { class LevelFloorBakedSubmapInfo; }
 
-#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7ACAE0)
-#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7AC850)
+#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9F0140)
+#define RPG_GAMECORE_LEVELFLOORBAKEDSUBMAPINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9EFEB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelFloorBakedSubmapInfo_TypeDefinitionIndex = 17164;
+	inline static constexpr unsigned int LevelFloorBakedSubmapInfo_TypeDefinitionIndex = 17332;
 
 	class LevelFloorBakedSubmapInfo : public ::RPG::GameCore::JsonConfig
 	{

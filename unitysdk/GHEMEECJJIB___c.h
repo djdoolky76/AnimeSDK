@@ -4,18 +4,18 @@
 class GHEMEECJJIB;
 namespace System { class Object; }
 
-#define GHEMEECJJIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E486DA0)
-#define GHEMEECJJIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E486DE0)
-#define GHEMEECJJIB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E486DF0)
+#define GHEMEECJJIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F777BD0)
+#define GHEMEECJJIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F777C10)
+#define GHEMEECJJIB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F777C20)
 
-inline static constexpr unsigned int GHEMEECJJIB___c_TypeDefinitionIndex = 32285;
+inline static constexpr unsigned int GHEMEECJJIB___c_TypeDefinitionIndex = 33198;
 
 	class GHEMEECJJIB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16D10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF870);
 		}
 
 		static ::System::Void _cctor()

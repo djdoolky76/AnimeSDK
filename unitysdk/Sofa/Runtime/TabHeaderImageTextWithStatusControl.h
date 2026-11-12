@@ -6,12 +6,12 @@ namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE980120)
-#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE97F490)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xF495770)
+#define SOFA_RUNTIME_TABHEADERIMAGETEXTWITHSTATUSCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xF494AE0)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderImageTextWithStatusControl_TypeDefinitionIndex = 49732;
+	inline static constexpr unsigned int TabHeaderImageTextWithStatusControl_TypeDefinitionIndex = 50780;
 
 	class TabHeaderImageTextWithStatusControl
 	{

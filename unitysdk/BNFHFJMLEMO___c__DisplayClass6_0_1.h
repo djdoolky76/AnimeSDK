@@ -4,7 +4,7 @@
 class BNFHFJMLEMO;
 namespace System { class String; }
 
-inline static constexpr unsigned int BNFHFJMLEMO___c__DisplayClass6_0_1_TypeDefinitionIndex = 49269;
+inline static constexpr unsigned int BNFHFJMLEMO___c__DisplayClass6_0_1_TypeDefinitionIndex = 50345;
 
 	template <typename T>
 	class BNFHFJMLEMO___c__DisplayClass6_0_1 : public ::System::Object

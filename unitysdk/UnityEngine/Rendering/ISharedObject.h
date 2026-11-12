@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int ISharedObject_TypeDefinitionIndex = 35499;
+	inline static constexpr unsigned int ISharedObject_TypeDefinitionIndex = 36427;
 
 	class ISharedObject
 	{

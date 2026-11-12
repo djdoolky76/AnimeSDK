@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideAllEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EEGDINIPPBN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A2C720)
-#define EEGDINIPPBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A2C750)
+#define EEGDINIPPBN_CTOR_OFFSET UNITYSDK_OFFSET(0x147EC340)
+#define EEGDINIPPBN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147EC370)
 
-inline static constexpr unsigned int EEGDINIPPBN_TypeDefinitionIndex = 55090;
+inline static constexpr unsigned int EEGDINIPPBN_TypeDefinitionIndex = 56267;
 
 	class EEGDINIPPBN
 	{

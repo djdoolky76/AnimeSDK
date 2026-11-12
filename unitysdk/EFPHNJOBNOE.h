@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int EFPHNJOBNOE_TypeDefinitionIndex = 34979;
+inline static constexpr unsigned int EFPHNJOBNOE_TypeDefinitionIndex = 35907;
 
 	enum class EFPHNJOBNOE : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class PILLGGGIPAF;
 namespace System { class Object; }
 
-#define PILLGGGIPAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF6D3B0)
-#define PILLGGGIPAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF6D3F0)
-#define PILLGGGIPAF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF6D400)
+#define PILLGGGIPAF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F21EA10)
+#define PILLGGGIPAF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F21EA50)
+#define PILLGGGIPAF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F21EA60)
 
-inline static constexpr unsigned int PILLGGGIPAF___c_TypeDefinitionIndex = 26003;
+inline static constexpr unsigned int PILLGGGIPAF___c_TypeDefinitionIndex = 26500;
 
 	class PILLGGGIPAF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44830);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38F10);
 		}
 
 		static ::System::Void _cctor()

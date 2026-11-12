@@ -4,18 +4,18 @@
 class HNEBODEBELG;
 namespace System { class Object; }
 
-#define HNEBODEBELG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5DC5E0)
-#define HNEBODEBELG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5DC620)
-#define HNEBODEBELG___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5DC630)
+#define HNEBODEBELG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8D84F0)
+#define HNEBODEBELG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8D8530)
+#define HNEBODEBELG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F8D8540)
 
-inline static constexpr unsigned int HNEBODEBELG___c_TypeDefinitionIndex = 27811;
+inline static constexpr unsigned int HNEBODEBELG___c_TypeDefinitionIndex = 28388;
 
 	class HNEBODEBELG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BA00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C8D0);
 		}
 
 		static ::System::Void _cctor()
@@ -28,9 +28,9 @@ inline static constexpr unsigned int HNEBODEBELG___c_TypeDefinitionIndex = 27811
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNEBODEBELG___C_CTOR_OFFSET))(this);
 		}
 
-		::HNEBODEBELG* __cctor_b__33_0()
+		::HNEBODEBELG* __cctor_b__38_0()
 		{
-			return ((::HNEBODEBELG*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNEBODEBELG___C___CCTOR_B__33_0_OFFSET))(this);
+			return ((::HNEBODEBELG*(*)(::PVOID))((::PBYTE)hIl2Cpp + HNEBODEBELG___C___CCTOR_B__38_0_OFFSET))(this);
 		}
 
 	};

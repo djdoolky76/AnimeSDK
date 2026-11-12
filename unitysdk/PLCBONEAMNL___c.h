@@ -4,18 +4,18 @@
 class PLCBONEAMNL;
 namespace System { class Object; }
 
-#define PLCBONEAMNL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF9E8B0)
-#define PLCBONEAMNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9E8E0)
-#define PLCBONEAMNL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF9E8F0)
+#define PLCBONEAMNL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F24FF80)
+#define PLCBONEAMNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F24FFB0)
+#define PLCBONEAMNL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F24FFC0)
 
-inline static constexpr unsigned int PLCBONEAMNL___c_TypeDefinitionIndex = 30185;
+inline static constexpr unsigned int PLCBONEAMNL___c_TypeDefinitionIndex = 31083;
 
 	class PLCBONEAMNL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B8C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D0B0);
 		}
 
 		static ::System::Void _cctor()

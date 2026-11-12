@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LookAt; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_LOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F3E20)
-#define RPG_GAMECORE_LOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7F3E70)
-#define RPG_GAMECORE_LOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F3DB0)
+#define RPG_GAMECORE_LOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA36AA0)
+#define RPG_GAMECORE_LOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA36AF0)
+#define RPG_GAMECORE_LOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA36A30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LookAt_TypeDefinitionIndex = 22872;
+	inline static constexpr unsigned int LookAt_TypeDefinitionIndex = 23298;
 
 	class LookAt : public ::RPG::GameCore::TaskConfig
 	{

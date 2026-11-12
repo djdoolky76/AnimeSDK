@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetEntityType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGDDILHJHFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA2DD0)
-#define NGDDILHJHFO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA2E00)
+#define NGDDILHJHFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC47EE70)
+#define NGDDILHJHFO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC47EEA0)
 
-inline static constexpr unsigned int NGDDILHJHFO_TypeDefinitionIndex = 54717;
+inline static constexpr unsigned int NGDDILHJHFO_TypeDefinitionIndex = 55884;
 
 	class NGDDILHJHFO
 	{

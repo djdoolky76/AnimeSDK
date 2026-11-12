@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/ILPPBGLJABD.h"
 
-#define HFLCADOFDMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C88860)
-#define HFLCADOFDMA_OPMHNOIKBGA_OFFSET UNITYSDK_OFFSET(0x15C88820)
+#define HFLCADOFDMA_CTOR_OFFSET UNITYSDK_OFFSET(0x16BD0020)
+#define HFLCADOFDMA_OPMHNOIKBGA_OFFSET UNITYSDK_OFFSET(0x16BCFFE0)
 
-inline static constexpr unsigned int HFLCADOFDMA_TypeDefinitionIndex = 62305;
+inline static constexpr unsigned int HFLCADOFDMA_TypeDefinitionIndex = 63718;
 
 	class HFLCADOFDMA : public ::ILPPBGLJABD
 	{

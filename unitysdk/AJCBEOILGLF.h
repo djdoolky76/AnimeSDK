@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AJCBEOILGLF_TypeDefinitionIndex = 32817;
+inline static constexpr unsigned int AJCBEOILGLF_TypeDefinitionIndex = 33732;
 
 	enum class AJCBEOILGLF : ::System::Int32
 	{

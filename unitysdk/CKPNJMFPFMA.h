@@ -6,10 +6,10 @@ class MKINHDIFEBD;
 namespace RPG::GameCore { class ChimeraDuelEntityCompositeComparer; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CKPNJMFPFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xD770910)
-#define CKPNJMFPFMA_DDAIPDEDJBK_OFFSET UNITYSDK_OFFSET(0xD7709F0)
+#define CKPNJMFPFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0AB080)
+#define CKPNJMFPFMA_DDAIPDEDJBK_OFFSET UNITYSDK_OFFSET(0xE0AB160)
 
-inline static constexpr unsigned int CKPNJMFPFMA_TypeDefinitionIndex = 77443;
+inline static constexpr unsigned int CKPNJMFPFMA_TypeDefinitionIndex = 80178;
 
 	class CKPNJMFPFMA : public ::MKINHDIFEBD
 	{

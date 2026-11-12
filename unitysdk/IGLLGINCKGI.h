@@ -3,10 +3,10 @@
 class LDNFONFKMFJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IGLLGINCKGI_CTOR_OFFSET UNITYSDK_OFFSET(0x16410640)
-#define IGLLGINCKGI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16410670)
+#define IGLLGINCKGI_CTOR_OFFSET UNITYSDK_OFFSET(0x173C0C80)
+#define IGLLGINCKGI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x173C0CB0)
 
-inline static constexpr unsigned int IGLLGINCKGI_TypeDefinitionIndex = 53644;
+inline static constexpr unsigned int IGLLGINCKGI_TypeDefinitionIndex = 54808;
 
 	class IGLLGINCKGI
 	{

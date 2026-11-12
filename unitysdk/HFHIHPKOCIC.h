@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HFHIHPKOCIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC8320)
+#define HFHIHPKOCIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8CD30)
 
-inline static constexpr unsigned int HFHIHPKOCIC_TypeDefinitionIndex = 43256;
+inline static constexpr unsigned int HFHIHPKOCIC_TypeDefinitionIndex = 44237;
 
 	class HFHIHPKOCIC : public ::System::Object
 	{

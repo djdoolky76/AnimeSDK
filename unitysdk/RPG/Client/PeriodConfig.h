@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_PERIODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xDAAA9B0)
+#define RPG_CLIENT_PERIODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xE500400)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PeriodConfig_TypeDefinitionIndex = 72746;
+	inline static constexpr unsigned int PeriodConfig_TypeDefinitionIndex = 74825;
 
 	class PeriodConfig : public ::System::Object
 	{

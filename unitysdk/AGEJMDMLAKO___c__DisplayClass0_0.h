@@ -4,11 +4,11 @@
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define AGEJMDMLAKO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF27F30)
-#define AGEJMDMLAKO___C__DISPLAYCLASS0_0__ASOBSERVABLE_B__1_OFFSET UNITYSDK_OFFSET(0xCF28010)
-#define AGEJMDMLAKO___C__DISPLAYCLASS0_0__ASOBSERVABLE_B__2_OFFSET UNITYSDK_OFFSET(0xCF28030)
+#define AGEJMDMLAKO___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5DE5F0)
+#define AGEJMDMLAKO___C__DISPLAYCLASS0_0__ASOBSERVABLE_B__1_OFFSET UNITYSDK_OFFSET(0xD5DE6D0)
+#define AGEJMDMLAKO___C__DISPLAYCLASS0_0__ASOBSERVABLE_B__2_OFFSET UNITYSDK_OFFSET(0xD5DE6F0)
 
-inline static constexpr unsigned int AGEJMDMLAKO___c__DisplayClass0_0_TypeDefinitionIndex = 49989;
+inline static constexpr unsigned int AGEJMDMLAKO___c__DisplayClass0_0_TypeDefinitionIndex = 51037;
 
 	class AGEJMDMLAKO___c__DisplayClass0_0 : public ::System::Object
 	{

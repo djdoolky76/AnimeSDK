@@ -5,22 +5,21 @@ class MOGBCMFMAGC;
 namespace RPG::GameCore { class ShowFrameCaptureUI; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LDLCDCPDEKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB636E30)
-#define LDLCDCPDEKM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB636E40)
-#define LDLCDCPDEKM_FCOFMNEHHOG_OFFSET UNITYSDK_OFFSET(0xB637270)
-#define LDLCDCPDEKM_JMOKODNFEPG_OFFSET UNITYSDK_OFFSET(0xB637120)
-#define LDLCDCPDEKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB636E80)
-#define LDLCDCPDEKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6373B0)
-#define LDLCDCPDEKM_TICK_OFFSET UNITYSDK_OFFSET(0xB637400)
+#define LDLCDCPDEKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBECC990)
+#define LDLCDCPDEKM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBECC9A0)
+#define LDLCDCPDEKM_FCOFMNEHHOG_OFFSET UNITYSDK_OFFSET(0xBECCB90)
+#define LDLCDCPDEKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBECC9E0)
+#define LDLCDCPDEKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBECCCD0)
+#define LDLCDCPDEKM_TICK_OFFSET UNITYSDK_OFFSET(0xBECCD20)
 
-inline static constexpr unsigned int LDLCDCPDEKM_TypeDefinitionIndex = 56456;
+inline static constexpr unsigned int LDLCDCPDEKM_TypeDefinitionIndex = 57674;
 
 	class LDLCDCPDEKM : public ::GELIALJDFBL
 	{
 	public:
-		::MOGBCMFMAGC* LCNCPBDIKKK; // 0x18
-		::RPG::GameCore::ShowFrameCaptureUI* OFKGLJOAMLD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::ShowFrameCaptureUI* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::MOGBCMFMAGC* LCNCPBDIKKK; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowFrameCaptureUI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowFrameCaptureUI*))((::PBYTE)hIl2Cpp + LDLCDCPDEKM_CTOR_OFFSET))(this, a1, a2);
@@ -49,11 +48,6 @@ inline static constexpr unsigned int LDLCDCPDEKM_TypeDefinitionIndex = 56456;
 		::System::Void FCOFMNEHHOG()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDLCDCPDEKM_FCOFMNEHHOG_OFFSET))(this);
-		}
-
-		::System::Void JMOKODNFEPG()
-		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDLCDCPDEKM_JMOKODNFEPG_OFFSET))(this);
 		}
 
 	};

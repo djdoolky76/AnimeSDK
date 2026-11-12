@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphStealConfig; }
 
-#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9137A0)
-#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D912BF0)
+#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2C9F0)
+#define RPG_GAMECORE_PHOTOGRAPHSTEALCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2BE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphStealConfig_TypeDefinitionIndex = 19057;
+	inline static constexpr unsigned int PhotoGraphStealConfig_TypeDefinitionIndex = 19244;
 
 	class PhotoGraphStealConfig : public ::RPG::GameCore::JsonConfig
 	{

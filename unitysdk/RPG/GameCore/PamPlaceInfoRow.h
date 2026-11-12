@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PamPlaceInfoRow; }
 
-#define RPG_GAMECORE_PAMPLACEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EC780)
-#define RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8EC630)
+#define RPG_GAMECORE_PAMPLACEINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB051A0)
+#define RPG_GAMECORE_PAMPLACEINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB05050)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamPlaceInfoRow_TypeDefinitionIndex = 14304;
+	inline static constexpr unsigned int PamPlaceInfoRow_TypeDefinitionIndex = 14461;
 
 	class PamPlaceInfoRow : public ::System::Object
 	{

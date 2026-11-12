@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CreatePropV2; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class GroupEntityInfo; }
 
-#define RPG_GAMECORE_CREATEPROPV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E5850)
-#define RPG_GAMECORE_CREATEPROPV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E5860)
-#define RPG_GAMECORE_CREATEPROPV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E5820)
+#define RPG_GAMECORE_CREATEPROPV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F7920)
+#define RPG_GAMECORE_CREATEPROPV2_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F7930)
+#define RPG_GAMECORE_CREATEPROPV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F78F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreatePropV2_TypeDefinitionIndex = 21948;
+	inline static constexpr unsigned int CreatePropV2_TypeDefinitionIndex = 22339;
 
 	class CreatePropV2 : public ::RPG::GameCore::TaskConfig
 	{

@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TalkBackgroundCG; }
 
-#define RPG_GAMECORE_TALKBACKGROUNDCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB54B80)
-#define RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB54880)
+#define RPG_GAMECORE_TALKBACKGROUNDCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE03DB0)
+#define RPG_GAMECORE_TALKBACKGROUNDCG_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE03A50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkBackgroundCG_TypeDefinitionIndex = 24393;
+	inline static constexpr unsigned int TalkBackgroundCG_TypeDefinitionIndex = 24852;
 
 	class TalkBackgroundCG : public ::RPG::GameCore::JsonConfig
 	{
@@ -24,6 +24,7 @@ namespace RPG::GameCore
 		::RPG::GameCore::ScreenTransferType BGColor; // 0x20
 		::System::Boolean IsLoop; // 0x24
 		::System::Boolean WaitLastVideoLoopEnd; // 0x25
+		::System::Boolean AllowAlphaFadeOnBeginEnd; // 0x26
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TALKBACKGROUNDCG_CTOR_OFFSET))(this);

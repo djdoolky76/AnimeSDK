@@ -12,37 +12,37 @@ namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
-#define IAOCBAKNDJI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E23B50)
-#define IAOCBAKNDJI_DDGAJAANKFA_OFFSET UNITYSDK_OFFSET(0x15E237B0)
-#define IAOCBAKNDJI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E23560)
-#define IAOCBAKNDJI_GDHLIMDHFOL_OFFSET UNITYSDK_OFFSET(0x15E23810)
-#define IAOCBAKNDJI_HKCMEKODBHM_OFFSET UNITYSDK_OFFSET(0x15E23950)
-#define IAOCBAKNDJI_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15E22400)
-#define IAOCBAKNDJI_IAMMNDNCHKE_OFFSET UNITYSDK_OFFSET(0x15E238B0)
-#define IAOCBAKNDJI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15E22470)
-#define IAOCBAKNDJI_KCILLNBNPGL_OFFSET UNITYSDK_OFFSET(0x15E224C0)
-#define IAOCBAKNDJI_LFHACHMKOOJ_OFFSET UNITYSDK_OFFSET(0x15E23030)
-#define IAOCBAKNDJI_LPDPKOOEHFE_OFFSET UNITYSDK_OFFSET(0x15E23A50)
+#define IAOCBAKNDJI_CTOR_OFFSET UNITYSDK_OFFSET(0x16DCD580)
+#define IAOCBAKNDJI_DDGAJAANKFA_OFFSET UNITYSDK_OFFSET(0x16DCD1E0)
+#define IAOCBAKNDJI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DCCF80)
+#define IAOCBAKNDJI_GDHLIMDHFOL_OFFSET UNITYSDK_OFFSET(0x16DCD240)
+#define IAOCBAKNDJI_HKCMEKODBHM_OFFSET UNITYSDK_OFFSET(0x16DCD380)
+#define IAOCBAKNDJI_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x16DCBE20)
+#define IAOCBAKNDJI_IAMMNDNCHKE_OFFSET UNITYSDK_OFFSET(0x16DCD2E0)
+#define IAOCBAKNDJI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x16DCBE90)
+#define IAOCBAKNDJI_KCILLNBNPGL_OFFSET UNITYSDK_OFFSET(0x16DCBEE0)
+#define IAOCBAKNDJI_LFHACHMKOOJ_OFFSET UNITYSDK_OFFSET(0x16DCCA50)
+#define IAOCBAKNDJI_LPDPKOOEHFE_OFFSET UNITYSDK_OFFSET(0x16DCD480)
 
-inline static constexpr unsigned int IAOCBAKNDJI_TypeDefinitionIndex = 69713;
+inline static constexpr unsigned int IAOCBAKNDJI_TypeDefinitionIndex = 71670;
 
 	class IAOCBAKNDJI : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::UnityEngine::Texture2D* FIHHFOKOMPJ; // 0x18
-		::System::String* EEGNPMNAFFH; // 0x20
+		::System::String* EEGNPMNAFFH; // 0x18
+		::UnityEngine::Texture2D* FIHHFOKOMPJ; // 0x20
 		::Il2CppArray<::UnityEngine::Vector2>* CMGDDDMAHJN; // 0x28
-		::System::Single MIJAKIMPCGJ; // 0x30
-		::System::Single AOLGEMLDKAE; // 0x34
-		::System::Nullable_1<::UnityEngine::Color> NFAOFJMMFIA; // 0x38
-		::System::Byte _padding0[0xC];
-		::System::Single CMBLMGDPAFN; // 0x4C
-		::System::Nullable_1<::UnityEngine::Vector2> CFJAJIHFMIH; // 0x50
-		::System::Byte _padding1[0x4];
-		::System::Nullable_1<::System::Single> BFHMKJJCKKG; // 0x5C
-		::System::Nullable_1<::UnityEngine::Vector2> CMKEKJKNIKE; // 0x64
+		::System::Single CNACJMMOFNL; // 0x30
+		::System::Nullable_1<::UnityEngine::Vector2> CMKEKJKNIKE; // 0x34
+		::System::Byte _padding0[0x4];
+		::System::Single MIJAKIMPCGJ; // 0x40
+		::System::Single CMBLMGDPAFN; // 0x44
+		::System::Single AOLGEMLDKAE; // 0x48
+		::System::Nullable_1<::UnityEngine::Color> NFAOFJMMFIA; // 0x4C
+		::System::Byte _padding1[0xC];
+		::System::Nullable_1<::System::Single> BFHMKJJCKKG; // 0x60
+		::System::Nullable_1<::UnityEngine::Vector2> CFJAJIHFMIH; // 0x68
 		::System::Byte _padding2[0x4];
-		::System::Single CNACJMMOFNL; // 0x70
 		::System::Nullable_1<::System::Boolean> JGMGCPNCLPC; // 0x74
 		::System::Boolean FJMFKJEIOIO; // 0x76
 		::System::Void _ctor()

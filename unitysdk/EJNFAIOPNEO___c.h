@@ -4,18 +4,18 @@
 class EJNFAIOPNEO;
 namespace System { class Object; }
 
-#define EJNFAIOPNEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2BE630)
-#define EJNFAIOPNEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BE670)
-#define EJNFAIOPNEO___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E2BE680)
+#define EJNFAIOPNEO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5A1D10)
+#define EJNFAIOPNEO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A1D50)
+#define EJNFAIOPNEO___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1F5A1D60)
 
-inline static constexpr unsigned int EJNFAIOPNEO___c_TypeDefinitionIndex = 31500;
+inline static constexpr unsigned int EJNFAIOPNEO___c_TypeDefinitionIndex = 32413;
 
 	class EJNFAIOPNEO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C610);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46D70);
 		}
 
 		static ::System::Void _cctor()

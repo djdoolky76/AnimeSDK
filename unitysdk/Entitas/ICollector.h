@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ICollector_TypeDefinitionIndex = 9982;
+	inline static constexpr unsigned int ICollector_TypeDefinitionIndex = 9990;
 
 	class ICollector
 	{

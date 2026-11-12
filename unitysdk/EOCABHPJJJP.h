@@ -4,9 +4,9 @@
 #include "unitysdk/MLMFEFCOOIC.h"
 #include "unitysdk/RootMotion/IKJob/IKTransformRef.h"
 
-#define EOCABHPJJJP_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x2E73C90)
+#define EOCABHPJJJP_CIJDJDICMMM_OFFSET UNITYSDK_OFFSET(0x30490A0)
 
-inline static constexpr unsigned int EOCABHPJJJP_TypeDefinitionIndex = 68454;
+inline static constexpr unsigned int EOCABHPJJJP_TypeDefinitionIndex = 70401;
 
 	struct alignas(8) EOCABHPJJJP
 	{

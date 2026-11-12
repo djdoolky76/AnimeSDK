@@ -5,25 +5,25 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F11E6D0)
-#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F11E700)
-#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1F11E710)
+#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203CF780)
+#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203CF7B0)
+#define CYSHARP_THREADING_TASKS_INTERNAL_PLAYERLOOPRUNNER___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x203CF7C0)
 
 namespace Cysharp::Threading::Tasks::Internal
 {
-	inline static constexpr unsigned int PlayerLoopRunner___c_TypeDefinitionIndex = 38662;
+	inline static constexpr unsigned int PlayerLoopRunner___c_TypeDefinitionIndex = 39591;
 
 	class PlayerLoopRunner___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x3F770);
-		}
-
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__9_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x3F778);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x36ED0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks.Internal", "<>c")->GetStaticField(0x36ED8);
 		}
 
 		static ::System::Void _cctor()

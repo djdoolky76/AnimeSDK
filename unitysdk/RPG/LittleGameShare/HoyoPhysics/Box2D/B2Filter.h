@@ -5,7 +5,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Filter_TypeDefinitionIndex = 36667;
+	inline static constexpr unsigned int B2Filter_TypeDefinitionIndex = 37595;
 
 	struct alignas(4) B2Filter
 	{

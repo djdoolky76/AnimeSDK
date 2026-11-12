@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageInfiniteGroupRow; }
 
-#define RPG_GAMECORE_STAGEINFINITEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0DFF0)
-#define RPG_GAMECORE_STAGEINFINITEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0DEE0)
+#define RPG_GAMECORE_STAGEINFINITEGROUPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED20210)
+#define RPG_GAMECORE_STAGEINFINITEGROUPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED20100)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInfiniteGroupRow_TypeDefinitionIndex = 15149;
+	inline static constexpr unsigned int StageInfiniteGroupRow_TypeDefinitionIndex = 15305;
 
 	class StageInfiniteGroupRow : public ::System::Object
 	{

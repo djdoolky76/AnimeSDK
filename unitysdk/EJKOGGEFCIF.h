@@ -6,18 +6,18 @@ class EJKOGGEFCIF;
 class FCOEMCEDLNL;
 class FHJKNCMMMON;
 
-#define EJKOGGEFCIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD90F40)
-#define EJKOGGEFCIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD90D30)
+#define EJKOGGEFCIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF63B60)
+#define EJKOGGEFCIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF63950)
 
-inline static constexpr unsigned int EJKOGGEFCIF_TypeDefinitionIndex = 11982;
+inline static constexpr unsigned int EJKOGGEFCIF_TypeDefinitionIndex = 12039;
 
 	class EJKOGGEFCIF : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::FHJKNCMMMON*>* DIIINDCGMBE; // 0x10
-		::System::UInt32 PHFMCACHFIJ; // 0x18
-		::DIBANKBACNG EMCCLPLCOKG; // 0x1C
-		::System::UInt32 NJMFEDCACPC; // 0x20
+		::DIBANKBACNG EMCCLPLCOKG; // 0x18
+		::System::UInt32 NJMFEDCACPC; // 0x1C
+		::System::UInt32 PHFMCACHFIJ; // 0x20
 		::System::UInt32 GMFGFLLHPJJ; // 0x24
 		::System::Void _ctor()
 		{

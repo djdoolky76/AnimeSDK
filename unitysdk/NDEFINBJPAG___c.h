@@ -4,18 +4,18 @@
 class NDEFINBJPAG;
 namespace System { class Object; }
 
-#define NDEFINBJPAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EAE5E10)
-#define NDEFINBJPAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE5E50)
-#define NDEFINBJPAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EAE5E60)
+#define NDEFINBJPAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE26EF0)
+#define NDEFINBJPAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE26F30)
+#define NDEFINBJPAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE26F40)
 
-inline static constexpr unsigned int NDEFINBJPAG___c_TypeDefinitionIndex = 28093;
+inline static constexpr unsigned int NDEFINBJPAG___c_TypeDefinitionIndex = 28683;
 
 	class NDEFINBJPAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D4E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x68710);
 		}
 
 		static ::System::Void _cctor()

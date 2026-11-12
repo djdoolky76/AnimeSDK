@@ -4,21 +4,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MazeFloorConnectivityRow; }
 
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D866500)
-#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D865E90)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA80C00)
+#define RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA80590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MazeFloorConnectivityRow_TypeDefinitionIndex = 14054;
+	inline static constexpr unsigned int MazeFloorConnectivityRow_TypeDefinitionIndex = 14211;
 
 	class MazeFloorConnectivityRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 ToFloorID; // 0x10
-		::System::UInt32 FromFloorID; // 0x14
-		::System::UInt32 WayPointGroupID; // 0x18
-		::System::UInt32 WayPointEntityID; // 0x1C
-		::System::UInt32 LockAreaMapID; // 0x20
+		::System::UInt32 LockAreaMapID; // 0x14
+		::System::UInt32 FromFloorID; // 0x18
+		::System::UInt32 WayPointGroupID; // 0x1C
+		::System::UInt32 WayPointEntityID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAZEFLOORCONNECTIVITYROW_CTOR_OFFSET))(this);

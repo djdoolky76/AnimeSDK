@@ -6,19 +6,19 @@ namespace RPG::Client { class UIController; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Transform; }
 
-#define AGDMBFMJLLB_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xCF27AF0)
-#define AGDMBFMJLLB_CTOR_OFFSET UNITYSDK_OFFSET(0xCF27BF0)
-#define AGDMBFMJLLB_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xCF27800)
-#define AGDMBFMJLLB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xCF277A0)
+#define AGDMBFMJLLB_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xD5DE1B0)
+#define AGDMBFMJLLB_CTOR_OFFSET UNITYSDK_OFFSET(0xD5DE2B0)
+#define AGDMBFMJLLB_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xD5DDEC0)
+#define AGDMBFMJLLB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xD5DDE60)
 
-inline static constexpr unsigned int AGDMBFMJLLB_TypeDefinitionIndex = 71639;
+inline static constexpr unsigned int AGDMBFMJLLB_TypeDefinitionIndex = 73627;
 
 	class AGDMBFMJLLB : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* KJMDDAHEODL; // 0x10
-		::RPG::Client::UIController* CFKHNPGEAJA; // 0x18
-		::System::Collections::Generic::List_1<::DMMEEFLCJEN*>* GCIKKMGIPIO; // 0x20
+		::System::Collections::Generic::List_1<::DMMEEFLCJEN*>* GCIKKMGIPIO; // 0x10
+		::UnityEngine::Transform* KJMDDAHEODL; // 0x18
+		::RPG::Client::UIController* CFKHNPGEAJA; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGDMBFMJLLB_CTOR_OFFSET))(this);

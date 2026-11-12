@@ -3,18 +3,19 @@
 #include "unitysdk/EFNJLACKEDH.h"
 class BKHHFIJCHEP;
 
-#define LNMFGBNACBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E8AE0)
-#define LNMFGBNACBJ_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0xB7E8BB0)
-#define LNMFGBNACBJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB7E8AF0)
-#define LNMFGBNACBJ__START_B__3_0_OFFSET UNITYSDK_OFFSET(0xB7E8BF0)
+#define LNMFGBNACBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC048010)
+#define LNMFGBNACBJ_HCOFMFKFMDK_OFFSET UNITYSDK_OFFSET(0xC0480E0)
+#define LNMFGBNACBJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC048020)
+#define LNMFGBNACBJ__START_B__3_0_OFFSET UNITYSDK_OFFSET(0xC048120)
 
-inline static constexpr unsigned int LNMFGBNACBJ_TypeDefinitionIndex = 60378;
+inline static constexpr unsigned int LNMFGBNACBJ_TypeDefinitionIndex = 61663;
 
 	class LNMFGBNACBJ : public ::EFNJLACKEDH
 	{
 	public:
-		::System::Single EANMMFONHNC; // 0x18
-		::System::Boolean PIPLLENMLIM; // 0x1C
+		::System::Boolean PIPLLENMLIM; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Single EANMMFONHNC; // 0x1C
 		::System::Void _ctor(::BKHHFIJCHEP* a1, ::System::Single a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::BKHHFIJCHEP*, ::System::Single))((::PBYTE)hIl2Cpp + LNMFGBNACBJ_CTOR_OFFSET))(this, a1, a2);

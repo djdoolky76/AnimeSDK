@@ -3,11 +3,11 @@
 namespace RPG::GameCore { class DistrictSetupGeometryTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PPJNNPMNNFE_CTOR_OFFSET UNITYSDK_OFFSET(0xC38C650)
-#define PPJNNPMNNFE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC38C680)
-#define PPJNNPMNNFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC38C6C0)
+#define PPJNNPMNNFE_CTOR_OFFSET UNITYSDK_OFFSET(0xCCC1DA0)
+#define PPJNNPMNNFE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCCC1DD0)
+#define PPJNNPMNNFE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCCC1E10)
 
-inline static constexpr unsigned int PPJNNPMNNFE_TypeDefinitionIndex = 58087;
+inline static constexpr unsigned int PPJNNPMNNFE_TypeDefinitionIndex = 59326;
 
 	class PPJNNPMNNFE
 	{

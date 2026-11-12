@@ -7,13 +7,13 @@ namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 namespace RPG::GameCore { class ChenLingBattleAbility_FireVisualEffect; }
 namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREVISUALEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D580820)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREVISUALEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D580830)
-#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREVISUALEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5807D0)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREVISUALEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E791720)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREVISUALEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E791730)
+#define RPG_GAMECORE_CHENLINGBATTLEABILITY_FIREVISUALEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7916D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChenLingBattleAbility_FireVisualEffect_TypeDefinitionIndex = 15736;
+	inline static constexpr unsigned int ChenLingBattleAbility_FireVisualEffect_TypeDefinitionIndex = 15894;
 
 	class ChenLingBattleAbility_FireVisualEffect : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{

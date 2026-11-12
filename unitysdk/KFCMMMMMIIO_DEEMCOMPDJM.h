@@ -5,20 +5,20 @@
 class JPJKCHGBOGB;
 namespace InControl { class PlayerAction; }
 
-#define KFCMMMMMIIO_DEEMCOMPDJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB38FB30)
-#define KFCMMMMMIIO_DEEMCOMPDJM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB390F00)
-#define KFCMMMMMIIO_DEEMCOMPDJM_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xB390960)
+#define KFCMMMMMIIO_DEEMCOMPDJM_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1C570)
+#define KFCMMMMMIIO_DEEMCOMPDJM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC1D8F0)
+#define KFCMMMMMIIO_DEEMCOMPDJM_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xBC1D360)
 
-inline static constexpr unsigned int KFCMMMMMIIO_DEEMCOMPDJM_TypeDefinitionIndex = 75580;
+inline static constexpr unsigned int KFCMMMMMIIO_DEEMCOMPDJM_TypeDefinitionIndex = 77907;
 
 	class KFCMMMMMIIO_DEEMCOMPDJM : public ::System::Object
 	{
 	public:
-		::InControl::PlayerAction* MBBJOMKNFKC; // 0x10
-		::InControl::PlayerAction* HGJBOEJPOJE; // 0x18
-		::InControl::PlayerAction* GCBFKBOLFIG; // 0x20
-		::JPJKCHGBOGB* BINIJNJNDEE; // 0x28
-		::InControl::PlayerAction* MEDILGIIOLJ; // 0x30
+		::InControl::PlayerAction* HGJBOEJPOJE; // 0x10
+		::JPJKCHGBOGB* BINIJNJNDEE; // 0x18
+		::InControl::PlayerAction* MEDILGIIOLJ; // 0x20
+		::InControl::PlayerAction* GCBFKBOLFIG; // 0x28
+		::InControl::PlayerAction* MBBJOMKNFKC; // 0x30
 		::System::Single HPCHCEFOKJB; // 0x38
 		::UnityEngine::Vector2 MIFKHBDOGLN; // 0x3C
 		::System::Void _ctor()

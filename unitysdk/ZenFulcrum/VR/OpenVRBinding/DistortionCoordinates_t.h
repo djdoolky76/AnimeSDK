@@ -3,7 +3,7 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
-	inline static constexpr unsigned int DistortionCoordinates_t_TypeDefinitionIndex = 39275;
+	inline static constexpr unsigned int DistortionCoordinates_t_TypeDefinitionIndex = 40204;
 
 	struct alignas(4) DistortionCoordinates_t
 	{

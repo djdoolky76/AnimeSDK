@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2, typename T3> class Action
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int SimpleTriggerService_1___c_TypeDefinitionIndex = 76525;
+	inline static constexpr unsigned int SimpleTriggerService_1___c_TypeDefinitionIndex = 78856;
 
 	template <typename T>
 	class SimpleTriggerService_1___c : public ::System::Object

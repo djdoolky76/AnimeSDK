@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/RogueMagicScepterPropertyType.h"
 class HGLDNPONBAM;
 
-inline static constexpr unsigned int NKBKBFEEGEO_TypeDefinitionIndex = 55827;
+inline static constexpr unsigned int NKBKBFEEGEO_TypeDefinitionIndex = 57030;
 
 	struct alignas(8) NKBKBFEEGEO
 	{

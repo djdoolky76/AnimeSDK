@@ -5,12 +5,12 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CCKEHNGDJJF_CTOR_OFFSET UNITYSDK_OFFSET(0xC74B3E0)
-#define CCKEHNGDJJF_FLHAEFKDIHO_OFFSET UNITYSDK_OFFSET(0xC74B320)
-#define CCKEHNGDJJF_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0xC74B000)
-#define CCKEHNGDJJF_IKDDBODBGGN_OFFSET UNITYSDK_OFFSET(0xC74B070)
+#define CCKEHNGDJJF_CTOR_OFFSET UNITYSDK_OFFSET(0xD0B45E0)
+#define CCKEHNGDJJF_FLHAEFKDIHO_OFFSET UNITYSDK_OFFSET(0xD0B4520)
+#define CCKEHNGDJJF_GETTYPENAME_OFFSET UNITYSDK_OFFSET(0xD0B4200)
+#define CCKEHNGDJJF_IKDDBODBGGN_OFFSET UNITYSDK_OFFSET(0xD0B4270)
 
-inline static constexpr unsigned int CCKEHNGDJJF_TypeDefinitionIndex = 59487;
+inline static constexpr unsigned int CCKEHNGDJJF_TypeDefinitionIndex = 60764;
 
 	class CCKEHNGDJJF : public ::OEODAOIOGLO
 	{

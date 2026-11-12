@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define BIDFKKAKOLB_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A21A0)
-#define BIDFKKAKOLB_GET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xB4A2200)
-#define BIDFKKAKOLB_SET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xB4A2210)
+#define BIDFKKAKOLB_CTOR_OFFSET UNITYSDK_OFFSET(0xBE352F0)
+#define BIDFKKAKOLB_GET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xBE35350)
+#define BIDFKKAKOLB_SET_ISDISKFULL_OFFSET UNITYSDK_OFFSET(0xBE35360)
 
-inline static constexpr unsigned int BIDFKKAKOLB_TypeDefinitionIndex = 61272;
+inline static constexpr unsigned int BIDFKKAKOLB_TypeDefinitionIndex = 62657;
 
 	class BIDFKKAKOLB : public ::System::Exception
 	{

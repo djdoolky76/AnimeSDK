@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareTurnActionEntityTeamType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHCMCJNFCJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB1AA130)
-#define JHCMCJNFCJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1AA160)
+#define JHCMCJNFCJL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C9BE0)
+#define JHCMCJNFCJL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9C9C10)
 
-inline static constexpr unsigned int JHCMCJNFCJL_TypeDefinitionIndex = 54584;
+inline static constexpr unsigned int JHCMCJNFCJL_TypeDefinitionIndex = 55749;
 
 	class JHCMCJNFCJL
 	{

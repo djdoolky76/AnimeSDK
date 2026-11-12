@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_DISALLOWMULTIPLECOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E7480)
+#define UNITYENGINE_DISALLOWMULTIPLECOMPONENT_CTOR_OFFSET UNITYSDK_OFFSET(0x206982B0)
 
 namespace UnityEngine
 {

@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 class EBMFAGKJIIM;
 
-#define RPG_CLIENT_GRIDFIGHTGRIDDATA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD191530)
-#define RPG_CLIENT_GRIDFIGHTGRIDDATA___C__DISPLAYCLASS4_0__GETEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD191B70)
+#define RPG_CLIENT_GRIDFIGHTGRIDDATA___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB5FE90)
+#define RPG_CLIENT_GRIDFIGHTGRIDDATA___C__DISPLAYCLASS4_0__GETEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDB604D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGridData___c__DisplayClass4_0_TypeDefinitionIndex = 64831;
+	inline static constexpr unsigned int GridFightGridData___c__DisplayClass4_0_TypeDefinitionIndex = 66375;
 
 	class GridFightGridData___c__DisplayClass4_0 : public ::System::Object
 	{

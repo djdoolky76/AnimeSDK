@@ -6,12 +6,12 @@ namespace RPG::GameCore { class PriorityConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PRIORITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D940BE0)
-#define RPG_GAMECORE_PRIORITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D940B00)
+#define RPG_GAMECORE_PRIORITYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB59D60)
+#define RPG_GAMECORE_PRIORITYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB59C80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PriorityConfig_TypeDefinitionIndex = 17125;
+	inline static constexpr unsigned int PriorityConfig_TypeDefinitionIndex = 17292;
 
 	class PriorityConfig : public ::RPG::GameCore::JsonConfig
 	{

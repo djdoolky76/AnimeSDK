@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ConsumeActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MDFKMNDADKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A33C0)
-#define MDFKMNDADKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8A33F0)
+#define MDFKMNDADKD_CTOR_OFFSET UNITYSDK_OFFSET(0xC153200)
+#define MDFKMNDADKD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC153230)
 
-inline static constexpr unsigned int MDFKMNDADKD_TypeDefinitionIndex = 54796;
+inline static constexpr unsigned int MDFKMNDADKD_TypeDefinitionIndex = 55965;
 
 	class MDFKMNDADKD
 	{

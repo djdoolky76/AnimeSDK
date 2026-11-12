@@ -5,17 +5,17 @@ namespace RPG::Client { class MonoAboveSwitch; }
 namespace System { class String; }
 namespace UnityEngine::UI { class Image; }
 
-#define GDGKGOGKPCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1599C340)
-#define GDGKGOGKPCG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1599C270)
-#define GDGKGOGKPCG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1599C2C0)
+#define GDGKGOGKPCG_CTOR_OFFSET UNITYSDK_OFFSET(0x168D30F0)
+#define GDGKGOGKPCG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x168D3020)
+#define GDGKGOGKPCG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x168D3070)
 
-inline static constexpr unsigned int GDGKGOGKPCG_TypeDefinitionIndex = 73106;
+inline static constexpr unsigned int GDGKGOGKPCG_TypeDefinitionIndex = 75220;
 
 	class GDGKGOGKPCG : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::UI::Image* FPADKHELMCF; // 0x18
-		::RPG::Client::MonoAboveSwitch* KFEAFKFADDM; // 0x20
+		::RPG::Client::MonoAboveSwitch* KFEAFKFADDM; // 0x18
+		::UnityEngine::UI::Image* FPADKHELMCF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDGKGOGKPCG_CTOR_OFFSET))(this);

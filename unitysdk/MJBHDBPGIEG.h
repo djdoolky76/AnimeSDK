@@ -4,10 +4,10 @@
 namespace RPG::Client { class ActivityData; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MJBHDBPGIEG_CTOR_OFFSET UNITYSDK_OFFSET(0xB962FA0)
-#define MJBHDBPGIEG_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xB963100)
+#define MJBHDBPGIEG_CTOR_OFFSET UNITYSDK_OFFSET(0xC218E20)
+#define MJBHDBPGIEG_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0xC218F80)
 
-inline static constexpr unsigned int MJBHDBPGIEG_TypeDefinitionIndex = 61715;
+inline static constexpr unsigned int MJBHDBPGIEG_TypeDefinitionIndex = 63121;
 
 	class MJBHDBPGIEG : public ::System::Object
 	{

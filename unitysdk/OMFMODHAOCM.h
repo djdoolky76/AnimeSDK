@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define OMFMODHAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D8A90)
+#define OMFMODHAOCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D95A340)
 
-inline static constexpr unsigned int OMFMODHAOCM_TypeDefinitionIndex = 36435;
+inline static constexpr unsigned int OMFMODHAOCM_TypeDefinitionIndex = 37363;
 
 	class OMFMODHAOCM : public ::System::Object
 	{

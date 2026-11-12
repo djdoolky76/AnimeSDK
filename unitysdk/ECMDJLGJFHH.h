@@ -5,10 +5,10 @@
 namespace RPG::Client { class EmotionData; }
 namespace System { class String; }
 
-#define ECMDJLGJFHH_ACFJNEJBANA_OFFSET UNITYSDK_OFFSET(0x12D137C0)
-#define ECMDJLGJFHH_CTOR_OFFSET UNITYSDK_OFFSET(0x12D13910)
+#define ECMDJLGJFHH_ACFJNEJBANA_OFFSET UNITYSDK_OFFSET(0x13AC63B0)
+#define ECMDJLGJFHH_CTOR_OFFSET UNITYSDK_OFFSET(0x13AC6500)
 
-inline static constexpr unsigned int ECMDJLGJFHH_TypeDefinitionIndex = 69420;
+inline static constexpr unsigned int ECMDJLGJFHH_TypeDefinitionIndex = 71374;
 
 	class ECMDJLGJFHH : public ::System::Object
 	{

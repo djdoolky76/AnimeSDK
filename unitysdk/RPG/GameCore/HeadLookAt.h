@@ -6,13 +6,13 @@ namespace RPG::GameCore { class HeadLookAt; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HEADLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D755AA0)
-#define RPG_GAMECORE_HEADLOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D755AB0)
-#define RPG_GAMECORE_HEADLOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D755A60)
+#define RPG_GAMECORE_HEADLOOKAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E969400)
+#define RPG_GAMECORE_HEADLOOKAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E969410)
+#define RPG_GAMECORE_HEADLOOKAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E9693C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeadLookAt_TypeDefinitionIndex = 21680;
+	inline static constexpr unsigned int HeadLookAt_TypeDefinitionIndex = 22069;
 
 	class HeadLookAt : public ::RPG::GameCore::TaskConfig
 	{

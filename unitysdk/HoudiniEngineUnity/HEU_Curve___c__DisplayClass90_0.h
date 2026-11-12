@@ -5,18 +5,18 @@
 namespace HoudiniEngineUnity { class CurveNodeData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS90_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8DFDC0)
-#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS90_0__UPDATEPOINTS_B__0_OFFSET UNITYSDK_OFFSET(0x1B8E1210)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS90_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA68D80)
+#define HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS90_0__UPDATEPOINTS_B__0_OFFSET UNITYSDK_OFFSET(0x1CA6A1D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_Curve___c__DisplayClass90_0_TypeDefinitionIndex = 40387;
+	inline static constexpr unsigned int HEU_Curve___c__DisplayClass90_0_TypeDefinitionIndex = 41362;
 
 	class HEU_Curve___c__DisplayClass90_0 : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales; // 0x10
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* rotations; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* rotations; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_CURVE___C__DISPLAYCLASS90_0_CTOR_OFFSET))(this);

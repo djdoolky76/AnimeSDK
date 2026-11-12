@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define AALKJGAHAHC_CLEAR_OFFSET UNITYSDK_OFFSET(0xB0CFCB0)
-#define AALKJGAHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CFD00)
+#define AALKJGAHAHC_CLEAR_OFFSET UNITYSDK_OFFSET(0xB731710)
+#define AALKJGAHAHC_CTOR_OFFSET UNITYSDK_OFFSET(0xB731760)
 
-inline static constexpr unsigned int AALKJGAHAHC_TypeDefinitionIndex = 54837;
+inline static constexpr unsigned int AALKJGAHAHC_TypeDefinitionIndex = 56007;
 
 	class AALKJGAHAHC : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::TurnBasedModifierInstance* NGBAPOEDIOJ; // 0x10
-		::RPG::GameCore::GameEntity* KDKBMOMJIOH; // 0x18
+		::RPG::GameCore::GameEntity* KDKBMOMJIOH; // 0x10
+		::RPG::GameCore::TurnBasedModifierInstance* NGBAPOEDIOJ; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AALKJGAHAHC_CTOR_OFFSET))(this);

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HTTPRESPONSE_CTOR_OFFSET UNITYSDK_OFFSET(0xAFA65F0)
+#define MIHOYO_SDK_HOYOSDKNETWORKNATIVE_HTTPRESPONSE_CTOR_OFFSET UNITYSDK_OFFSET(0xB607BD0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoSDKNetworkNative_HttpResponse_TypeDefinitionIndex = 46117;
+	inline static constexpr unsigned int HoYoSDKNetworkNative_HttpResponse_TypeDefinitionIndex = 47146;
 
 	class HoYoSDKNetworkNative_HttpResponse : public ::System::Object
 	{

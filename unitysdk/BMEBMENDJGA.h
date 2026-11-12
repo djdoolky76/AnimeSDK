@@ -4,20 +4,20 @@
 class BMEBMENDJGA;
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define BMEBMENDJGA_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xBDA2CB0)
-#define BMEBMENDJGA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDA2B60)
-#define BMEBMENDJGA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA2CA0)
+#define BMEBMENDJGA_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0xC4314C0)
+#define BMEBMENDJGA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC431380)
+#define BMEBMENDJGA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4314B0)
 
-inline static constexpr unsigned int BMEBMENDJGA_TypeDefinitionIndex = 77736;
+inline static constexpr unsigned int BMEBMENDJGA_TypeDefinitionIndex = 80471;
 
 	class BMEBMENDJGA : public ::System::Object
 	{
 	public:
-		::System::UInt32 PHFMCACHFIJ; // 0x10
-		::System::Int32 AALKFOHEIMI; // 0x14
+		::System::Int32 AALKFOHEIMI; // 0x10
+		::System::UInt32 PHFMCACHFIJ; // 0x14
 		::System::Int32 KOPFHOPKFMH; // 0x18
-		::System::Int32 MGLGPNNMKLH; // 0x1C
-		::System::Int32 ALMKIPNHAFM; // 0x20
+		::System::Int32 ALMKIPNHAFM; // 0x1C
+		::System::Int32 MGLGPNNMKLH; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BMEBMENDJGA_CTOR_OFFSET))(this);

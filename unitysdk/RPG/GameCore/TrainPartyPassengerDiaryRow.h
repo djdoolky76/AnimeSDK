@@ -5,19 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyPassengerDiaryRow; }
 
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC337D0)
-#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC33670)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE46A70)
+#define RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE46910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 15319;
+	inline static constexpr unsigned int TrainPartyPassengerDiaryRow_TypeDefinitionIndex = 15475;
 
 	class TrainPartyPassengerDiaryRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 DiaryID; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID DiaryText; // 0x18
+		::RPG::Client::TextID DiaryText; // 0x10
+		::System::UInt32 DiaryID; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYPASSENGERDIARYROW_CTOR_OFFSET))(this);

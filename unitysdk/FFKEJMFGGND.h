@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define FFKEJMFGGND_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E310)
+#define FFKEJMFGGND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31C70)
 
-inline static constexpr unsigned int FFKEJMFGGND_TypeDefinitionIndex = 42091;
+inline static constexpr unsigned int FFKEJMFGGND_TypeDefinitionIndex = 43066;
 
 	class FFKEJMFGGND : public ::System::Object
 	{

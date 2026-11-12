@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 
-#define SPINE_UNITY_SKELETONDATAMODIFIERASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED00EA0)
+#define SPINE_UNITY_SKELETONDATAMODIFIERASSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1FFB0BA0)
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int SkeletonDataModifierAsset_TypeDefinitionIndex = 45007;
+	inline static constexpr unsigned int SkeletonDataModifierAsset_TypeDefinitionIndex = 46082;
 
 	class SkeletonDataModifierAsset : public ::UnityEngine::ScriptableObject
 	{

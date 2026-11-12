@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class MDIHMNFMNBH;
 
-#define APOLGMPILBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AD510)
+#define APOLGMPILBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2E1D0)
 
-inline static constexpr unsigned int APOLGMPILBI_TypeDefinitionIndex = 43718;
+inline static constexpr unsigned int APOLGMPILBI_TypeDefinitionIndex = 44793;
 
 	class APOLGMPILBI : public ::System::Object
 	{

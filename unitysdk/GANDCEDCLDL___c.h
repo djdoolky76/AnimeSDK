@@ -4,18 +4,18 @@
 class GANDCEDCLDL;
 namespace System { class Object; }
 
-#define GANDCEDCLDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E422E10)
-#define GANDCEDCLDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E422E40)
-#define GANDCEDCLDL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E422E50)
+#define GANDCEDCLDL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F710A60)
+#define GANDCEDCLDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F710A90)
+#define GANDCEDCLDL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F710AA0)
 
-inline static constexpr unsigned int GANDCEDCLDL___c_TypeDefinitionIndex = 25478;
+inline static constexpr unsigned int GANDCEDCLDL___c_TypeDefinitionIndex = 25957;
 
 	class GANDCEDCLDL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC6A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x54DB0);
 		}
 
 		static ::System::Void _cctor()

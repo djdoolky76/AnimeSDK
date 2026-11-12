@@ -5,11 +5,11 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define KDOLHBPALAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB36BB20)
-#define KDOLHBPALAA_OKNIDHAPGLH_OFFSET UNITYSDK_OFFSET(0xB36BE30)
-#define KDOLHBPALAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB36BB50)
+#define KDOLHBPALAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF6430)
+#define KDOLHBPALAA_OKNIDHAPGLH_OFFSET UNITYSDK_OFFSET(0xBBF6740)
+#define KDOLHBPALAA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBF6460)
 
-inline static constexpr unsigned int KDOLHBPALAA_TypeDefinitionIndex = 57999;
+inline static constexpr unsigned int KDOLHBPALAA_TypeDefinitionIndex = 59238;
 
 	class KDOLHBPALAA
 	{

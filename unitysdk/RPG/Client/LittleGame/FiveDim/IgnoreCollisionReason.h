@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int IgnoreCollisionReason_TypeDefinitionIndex = 43262;
+	inline static constexpr unsigned int IgnoreCollisionReason_TypeDefinitionIndex = 44243;
 
 	enum class IgnoreCollisionReason : ::System::Int16
 	{

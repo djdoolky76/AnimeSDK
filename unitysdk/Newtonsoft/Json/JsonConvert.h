@@ -12,81 +12,81 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System { template <typename T> class Func_1; }
 
-#define NEWTONSOFT_JSON_JSONCONVERT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C396740)
-#define NEWTONSOFT_JSON_JSONCONVERT_DESERIALIZEOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1C3979A0)
-#define NEWTONSOFT_JSON_JSONCONVERT_DESERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C397960)
-#define NEWTONSOFT_JSON_JSONCONVERT_ENSUREDECIMALPLACE_1_OFFSET UNITYSDK_OFFSET(0x1C396F60)
-#define NEWTONSOFT_JSON_JSONCONVERT_ENSUREDECIMALPLACE_OFFSET UNITYSDK_OFFSET(0x1C396C80)
-#define NEWTONSOFT_JSON_JSONCONVERT_ENSUREFLOATFORMAT_OFFSET UNITYSDK_OFFSET(0x1C396D50)
-#define NEWTONSOFT_JSON_JSONCONVERT_GETDEFAULTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1C3969F0)
-#define NEWTONSOFT_JSON_JSONCONVERT_GET_DEFAULTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1C3966D0)
-#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1C397380)
-#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1C397240)
-#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1C3972D0)
-#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1C3971E0)
-#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_4_OFFSET UNITYSDK_OFFSET(0x1C397290)
-#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_5_OFFSET UNITYSDK_OFFSET(0x1C397720)
-#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1C397180)
-#define NEWTONSOFT_JSON_JSONCONVERT_SET_DEFAULTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1C396700)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1C396A60)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x1C396BF0)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x1C396ED0)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_4_OFFSET UNITYSDK_OFFSET(0x1C396FD0)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_5_OFFSET UNITYSDK_OFFSET(0x1C396B60)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_6_OFFSET UNITYSDK_OFFSET(0x1C397090)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_7_OFFSET UNITYSDK_OFFSET(0x1C3970D0)
-#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C396A20)
+#define NEWTONSOFT_JSON_JSONCONVERT_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D51CE80)
+#define NEWTONSOFT_JSON_JSONCONVERT_DESERIALIZEOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1D51E0E0)
+#define NEWTONSOFT_JSON_JSONCONVERT_DESERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D51E0A0)
+#define NEWTONSOFT_JSON_JSONCONVERT_ENSUREDECIMALPLACE_1_OFFSET UNITYSDK_OFFSET(0x1D51D6B0)
+#define NEWTONSOFT_JSON_JSONCONVERT_ENSUREDECIMALPLACE_OFFSET UNITYSDK_OFFSET(0x1D51D3D0)
+#define NEWTONSOFT_JSON_JSONCONVERT_ENSUREFLOATFORMAT_OFFSET UNITYSDK_OFFSET(0x1D51D4A0)
+#define NEWTONSOFT_JSON_JSONCONVERT_GETDEFAULTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D51D140)
+#define NEWTONSOFT_JSON_JSONCONVERT_GET_DEFAULTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D51CE10)
+#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECTINTERNAL_OFFSET UNITYSDK_OFFSET(0x1D51DAD0)
+#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_1_OFFSET UNITYSDK_OFFSET(0x1D51D990)
+#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_2_OFFSET UNITYSDK_OFFSET(0x1D51DA20)
+#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_3_OFFSET UNITYSDK_OFFSET(0x1D51D930)
+#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_4_OFFSET UNITYSDK_OFFSET(0x1D51D9E0)
+#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_5_OFFSET UNITYSDK_OFFSET(0x1D51DE70)
+#define NEWTONSOFT_JSON_JSONCONVERT_SERIALIZEOBJECT_OFFSET UNITYSDK_OFFSET(0x1D51D8D0)
+#define NEWTONSOFT_JSON_JSONCONVERT_SET_DEFAULTSETTINGS_OFFSET UNITYSDK_OFFSET(0x1D51CE40)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1D51D1B0)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_2_OFFSET UNITYSDK_OFFSET(0x1D51D340)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_3_OFFSET UNITYSDK_OFFSET(0x1D51D620)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_4_OFFSET UNITYSDK_OFFSET(0x1D51D720)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_5_OFFSET UNITYSDK_OFFSET(0x1D51D2B0)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_6_OFFSET UNITYSDK_OFFSET(0x1D51D7E0)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_7_OFFSET UNITYSDK_OFFSET(0x1D51D820)
+#define NEWTONSOFT_JSON_JSONCONVERT_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1D51D170)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonConvert_TypeDefinitionIndex = 9618;
+	inline static constexpr unsigned int JsonConvert_TypeDefinitionIndex = 9626;
 
 	class JsonConvert : public ::System::Object
 	{
 	public:
-		static ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>** StaticGet__DefaultSettings_k__BackingField()
+		static ::System::String** StaticGet_Null()
 		{
-			return (::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C190);
-		}
-
-		static ::System::String** StaticGet_False()
-		{
-			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C198);
-		}
-
-		static ::System::String** StaticGet_NegativeInfinity()
-		{
-			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C1A0);
+			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAC0);
 		}
 
 		static ::Newtonsoft::Json::JsonSerializerSettings** StaticGet_InitialSerializerSettings()
 		{
-			return (::Newtonsoft::Json::JsonSerializerSettings**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C1A8);
-		}
-
-		static ::System::String** StaticGet_NaN()
-		{
-			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C1B0);
-		}
-
-		static ::System::String** StaticGet_PositiveInfinity()
-		{
-			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C1B8);
-		}
-
-		static ::System::String** StaticGet_Null()
-		{
-			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C1C0);
-		}
-
-		static ::System::String** StaticGet_Undefined()
-		{
-			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C1C8);
+			return (::Newtonsoft::Json::JsonSerializerSettings**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAC8);
 		}
 
 		static ::System::String** StaticGet_True()
 		{
-			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2C1D0);
+			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAD0);
+		}
+
+		static ::System::String** StaticGet_NaN()
+		{
+			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAD8);
+		}
+
+		static ::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>** StaticGet__DefaultSettings_k__BackingField()
+		{
+			return (::System::Func_1<::Newtonsoft::Json::JsonSerializerSettings*>**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAE0);
+		}
+
+		static ::System::String** StaticGet_False()
+		{
+			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAE8);
+		}
+
+		static ::System::String** StaticGet_PositiveInfinity()
+		{
+			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAF0);
+		}
+
+		static ::System::String** StaticGet_Undefined()
+		{
+			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AAF8);
+		}
+
+		static ::System::String** StaticGet_NegativeInfinity()
+		{
+			return (::System::String**)UnitySDK::FromName("Newtonsoft.Json", "JsonConvert")->GetStaticField(0x2AB00);
 		}
 
 		static ::System::Void _cctor()

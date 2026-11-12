@@ -5,25 +5,24 @@
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define LMIHOJAOELB_AMAHNKJPOBM_OFFSET UNITYSDK_OFFSET(0xB7C92C0)
-#define LMIHOJAOELB_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C95D0)
-#define LMIHOJAOELB_DHJBFGBPDLA_OFFSET UNITYSDK_OFFSET(0xB7C93D0)
-#define LMIHOJAOELB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7C9230)
-#define LMIHOJAOELB_GAIKIHDIOBM_OFFSET UNITYSDK_OFFSET(0xB7C94F0)
-#define LMIHOJAOELB_JBENBABCOGB_OFFSET UNITYSDK_OFFSET(0xB7C94E0)
-#define LMIHOJAOELB_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xB7C9280)
+#define LMIHOJAOELB_AMAHNKJPOBM_OFFSET UNITYSDK_OFFSET(0xC025630)
+#define LMIHOJAOELB_CTOR_OFFSET UNITYSDK_OFFSET(0xC025940)
+#define LMIHOJAOELB_DHJBFGBPDLA_OFFSET UNITYSDK_OFFSET(0xC025740)
+#define LMIHOJAOELB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC0255A0)
+#define LMIHOJAOELB_GAIKIHDIOBM_OFFSET UNITYSDK_OFFSET(0xC025860)
+#define LMIHOJAOELB_JBENBABCOGB_OFFSET UNITYSDK_OFFSET(0xC025850)
+#define LMIHOJAOELB_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xC0255F0)
 
-inline static constexpr unsigned int LMIHOJAOELB_TypeDefinitionIndex = 57556;
+inline static constexpr unsigned int LMIHOJAOELB_TypeDefinitionIndex = 58784;
 
 	class LMIHOJAOELB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
 		::System::Action_1<::System::Boolean>* HDMPDMAPKJP; // 0x18
 		::System::Action_2<::RPG::GameCore::UnitStatus, ::RPG::GameCore::UnitStatus>* JIJMALNHDOG; // 0x20
-		::System::Boolean COFDOHGGLCG; // 0x28
-		::System::Boolean KIBOPOOCEPL; // 0x29
-		::System::Byte _padding0[0x2];
-		::RPG::GameCore::UnitStatus CPPNFCBEJLK; // 0x2C
+		::RPG::GameCore::UnitStatus CPPNFCBEJLK; // 0x28
+		::System::Boolean COFDOHGGLCG; // 0x2C
+		::System::Boolean KIBOPOOCEPL; // 0x2D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LMIHOJAOELB_CTOR_OFFSET))(this);

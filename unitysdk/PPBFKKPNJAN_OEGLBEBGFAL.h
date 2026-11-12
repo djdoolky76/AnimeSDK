@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/RtBehaviorFlag.h"
 
-inline static constexpr unsigned int PPBFKKPNJAN_OEGLBEBGFAL_TypeDefinitionIndex = 53768;
+inline static constexpr unsigned int PPBFKKPNJAN_OEGLBEBGFAL_TypeDefinitionIndex = 54932;
 
 	struct alignas(4) PPBFKKPNJAN_OEGLBEBGFAL
 	{

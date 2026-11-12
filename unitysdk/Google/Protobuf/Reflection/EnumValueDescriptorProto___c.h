@@ -4,20 +4,20 @@
 namespace Google::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace System { class Object; }
 
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1B873ED0)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1B873F10)
-#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1B873F20)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9FCED0)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9FCF10)
+#define GOOGLE_PROTOBUF_REFLECTION_ENUMVALUEDESCRIPTORPROTO___C___CCTOR_B__47_0_OFFSET UNITYSDK_OFFSET(0x1C9FCF20)
 
 namespace Google::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumValueDescriptorProto___c_TypeDefinitionIndex = 5483;
+	inline static constexpr unsigned int EnumValueDescriptorProto___c_TypeDefinitionIndex = 5488;
 
 	class EnumValueDescriptorProto___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x1C950);
+			return (::System::Object**)UnitySDK::FromName("Google.Protobuf.Reflection", "<>c")->GetStaticField(0x1C820);
 		}
 
 		static ::System::Void _cctor()

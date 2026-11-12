@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightEquipItemConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1EE7D0)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1EE810)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C___UPDATETRAITLAYER_B__13_0_OFFSET UNITYSDK_OFFSET(0xD1EE820)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC449D0)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC44A10)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C___UPDATETRAITLAYER_B__13_0_OFFSET UNITYSDK_OFFSET(0xDC44A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex = 64818;
+	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c_TypeDefinitionIndex = 66362;
 
 	class GridFightRefTraitLayerCalculator___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E1C0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E1C8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x93A0);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::GridFightEquipItemConfig*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x93A8);
 		}
 
 		static ::System::Void _cctor()

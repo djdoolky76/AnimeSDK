@@ -3,7 +3,7 @@
 #include "unitysdk/System/Xml/Schema/XmlSchemaGroupBase.h"
 namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMACHOICE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x1EEE6AB0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMACHOICE_GET_ITEMS_OFFSET UNITYSDK_OFFSET(0x20196260)
 
 namespace System::Xml::Schema
 {

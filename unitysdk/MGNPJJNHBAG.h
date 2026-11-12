@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MGNPJJNHBAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB929850)
-#define MGNPJJNHBAG_KLAMOIEIAIO_OFFSET UNITYSDK_OFFSET(0xB9297A0)
+#define MGNPJJNHBAG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1DD0B0)
+#define MGNPJJNHBAG_KLAMOIEIAIO_OFFSET UNITYSDK_OFFSET(0xC1DD000)
 
-inline static constexpr unsigned int MGNPJJNHBAG_TypeDefinitionIndex = 80341;
+inline static constexpr unsigned int MGNPJJNHBAG_TypeDefinitionIndex = 83118;
 
 	class MGNPJJNHBAG : public ::System::Object
 	{

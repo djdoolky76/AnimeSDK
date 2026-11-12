@@ -6,11 +6,11 @@ class GKMHPIPOKLE;
 namespace RPG::Client { class AnimatorButton; }
 namespace UnityEngine::Events { class UnityAction; }
 
-#define NMEILIFKOFN_CTOR_OFFSET UNITYSDK_OFFSET(0xBC82200)
-#define NMEILIFKOFN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC82620)
-#define NMEILIFKOFN_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0xBC822B0)
+#define NMEILIFKOFN_CTOR_OFFSET UNITYSDK_OFFSET(0xC569E30)
+#define NMEILIFKOFN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC56A250)
+#define NMEILIFKOFN_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0xC569EE0)
 
-inline static constexpr unsigned int NMEILIFKOFN_TypeDefinitionIndex = 49903;
+inline static constexpr unsigned int NMEILIFKOFN_TypeDefinitionIndex = 50951;
 
 	class NMEILIFKOFN : public ::System::Object
 	{

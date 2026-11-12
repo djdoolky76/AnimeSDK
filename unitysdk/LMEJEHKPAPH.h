@@ -6,19 +6,19 @@ class LMEJEHKPAPH;
 namespace System { class Object; }
 namespace System { class String; }
 
-#define LMEJEHKPAPH_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xB77C180)
-#define LMEJEHKPAPH_CCTOR_OFFSET UNITYSDK_OFFSET(0xB77C4D0)
-#define LMEJEHKPAPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB77C120)
-#define LMEJEHKPAPH_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xB77C130)
+#define LMEJEHKPAPH_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0xC01C270)
+#define LMEJEHKPAPH_CCTOR_OFFSET UNITYSDK_OFFSET(0xC01C5C0)
+#define LMEJEHKPAPH_CTOR_OFFSET UNITYSDK_OFFSET(0xC01C210)
+#define LMEJEHKPAPH_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xC01C220)
 
-inline static constexpr unsigned int LMEJEHKPAPH_TypeDefinitionIndex = 67174;
+inline static constexpr unsigned int LMEJEHKPAPH_TypeDefinitionIndex = 69118;
 
 	class LMEJEHKPAPH : public ::System::Object
 	{
 	public:
 		static ::LMEJEHKPAPH** StaticGet_FMJPMFEDIJL()
 		{
-			return (::LMEJEHKPAPH**)UnitySDK::FromName("", "LMEJEHKPAPH")->GetStaticField(0x666A0);
+			return (::LMEJEHKPAPH**)UnitySDK::FromName("", "LMEJEHKPAPH")->GetStaticField(0x69910);
 		}
 
 		::System::Void _ctor()

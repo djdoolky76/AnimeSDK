@@ -5,7 +5,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int RTHandleProperties_TypeDefinitionIndex = 35583;
+	inline static constexpr unsigned int RTHandleProperties_TypeDefinitionIndex = 36511;
 
 	struct alignas(4) RTHandleProperties
 	{

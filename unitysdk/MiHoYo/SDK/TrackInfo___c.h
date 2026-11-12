@@ -4,20 +4,20 @@
 namespace MiHoYo::SDK { class TrackInfo; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_TRACKINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB0572F0)
-#define MIHOYO_SDK_TRACKINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB057330)
-#define MIHOYO_SDK_TRACKINFO___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0xB057340)
+#define MIHOYO_SDK_TRACKINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6B8080)
+#define MIHOYO_SDK_TRACKINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B80C0)
+#define MIHOYO_SDK_TRACKINFO___C___CCTOR_B__34_0_OFFSET UNITYSDK_OFFSET(0xB6B80D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int TrackInfo___c_TypeDefinitionIndex = 46363;
+	inline static constexpr unsigned int TrackInfo___c_TypeDefinitionIndex = 47391;
 
 	class TrackInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x34AF0);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x2C740);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PBNONKAIAMK;
 
-#define FMIEGACIIDH___C__DISPLAYCLASS1_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1585BAB0)
-#define FMIEGACIIDH___C__DISPLAYCLASS1_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x1585BAE0)
+#define FMIEGACIIDH___C__DISPLAYCLASS1_1_CTOR_OFFSET UNITYSDK_OFFSET(0x167CBED0)
+#define FMIEGACIIDH___C__DISPLAYCLASS1_1__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0x167CBF00)
 
-inline static constexpr unsigned int FMIEGACIIDH___c__DisplayClass1_1_TypeDefinitionIndex = 55660;
+inline static constexpr unsigned int FMIEGACIIDH___c__DisplayClass1_1_TypeDefinitionIndex = 56858;
 
 	template <typename T>
 	class FMIEGACIIDH___c__DisplayClass1_1 : public ::System::Object

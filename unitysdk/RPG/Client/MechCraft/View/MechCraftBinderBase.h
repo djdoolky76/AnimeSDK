@@ -8,12 +8,12 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Component; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E83B0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE_KJFEJLKBFLA_2_OFFSET UNITYSDK_OFFSET(0xD5EE090)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE_CTOR_OFFSET UNITYSDK_OFFSET(0xE03B290)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTBINDERBASE_KJFEJLKBFLA_2_OFFSET UNITYSDK_OFFSET(0xE040F70)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftBinderBase_TypeDefinitionIndex = 79977;
+	inline static constexpr unsigned int MechCraftBinderBase_TypeDefinitionIndex = 82754;
 
 	class MechCraftBinderBase : public ::System::Object
 	{

@@ -6,17 +6,17 @@ class NKLOMENKLHK;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define NKLOMENKLHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D22F780)
-#define NKLOMENKLHK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D22F790)
-#define NKLOMENKLHK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D22F740)
+#define NKLOMENKLHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4345D0)
+#define NKLOMENKLHK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E4345E0)
+#define NKLOMENKLHK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E434590)
 
-inline static constexpr unsigned int NKLOMENKLHK_TypeDefinitionIndex = 22602;
+inline static constexpr unsigned int NKLOMENKLHK_TypeDefinitionIndex = 23017;
 
 	class NKLOMENKLHK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* FHLJGDGMMHK; // 0x18
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::System::String* FHLJGDGMMHK; // 0x20
 		::System::Boolean EKCOLKIKCHO; // 0x28
 		::System::Void _ctor()
 		{

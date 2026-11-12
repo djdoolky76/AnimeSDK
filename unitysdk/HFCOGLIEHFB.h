@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/AssetSystem/Test/AsyncStatus.h"
 namespace RPG::Client { class IAssetOperation; }
 
-#define HFCOGLIEHFB_CTOR_OFFSET UNITYSDK_OFFSET(0x15C70680)
-#define HFCOGLIEHFB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15C705F0)
+#define HFCOGLIEHFB_CTOR_OFFSET UNITYSDK_OFFSET(0x16BB4DF0)
+#define HFCOGLIEHFB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x16BB4D60)
 
-inline static constexpr unsigned int HFCOGLIEHFB_TypeDefinitionIndex = 82302;
+inline static constexpr unsigned int HFCOGLIEHFB_TypeDefinitionIndex = 85175;
 
 	class HFCOGLIEHFB : public ::IDHNPGBOIKD
 	{

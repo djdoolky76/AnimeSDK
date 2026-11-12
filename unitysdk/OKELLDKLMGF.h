@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class OKELLDKLMGF;
 namespace RPG::GameCore { class StageMonsterRewardItem; }
 
-#define OKELLDKLMGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D28E140)
-#define OKELLDKLMGF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D28E050)
+#define OKELLDKLMGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E495170)
+#define OKELLDKLMGF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E495080)
 
-inline static constexpr unsigned int OKELLDKLMGF_TypeDefinitionIndex = 15145;
+inline static constexpr unsigned int OKELLDKLMGF_TypeDefinitionIndex = 15301;
 
 	class OKELLDKLMGF : public ::System::Object
 	{

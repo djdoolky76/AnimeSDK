@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerFightFestBattleInMission; }
 
-#define EDFCLNHCELE_CTOR_OFFSET UNITYSDK_OFFSET(0x13313EA0)
-#define EDFCLNHCELE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x13313EB0)
-#define EDFCLNHCELE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13313EF0)
-#define EDFCLNHCELE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13313FA0)
-#define EDFCLNHCELE_TICK_OFFSET UNITYSDK_OFFSET(0x13313FF0)
+#define EDFCLNHCELE_CTOR_OFFSET UNITYSDK_OFFSET(0x140D09F0)
+#define EDFCLNHCELE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x140D0A00)
+#define EDFCLNHCELE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x140D0A40)
+#define EDFCLNHCELE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x140D0AF0)
+#define EDFCLNHCELE_TICK_OFFSET UNITYSDK_OFFSET(0x140D0B40)
 
-inline static constexpr unsigned int EDFCLNHCELE_TypeDefinitionIndex = 58785;
+inline static constexpr unsigned int EDFCLNHCELE_TypeDefinitionIndex = 60053;
 
 	class EDFCLNHCELE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerFightFestBattleInMission* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerFightFestBattleInMission* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerFightFestBattleInMission* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerFightFestBattleInMission*))((::PBYTE)hIl2Cpp + EDFCLNHCELE_CTOR_OFFSET))(this, a1, a2);

@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define NOFHJIPIHCE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEB870)
+#define NOFHJIPIHCE_CTOR_OFFSET UNITYSDK_OFFSET(0xC5D7A80)
 
-inline static constexpr unsigned int NOFHJIPIHCE_TypeDefinitionIndex = 47600;
+inline static constexpr unsigned int NOFHJIPIHCE_TypeDefinitionIndex = 48629;
 
 	class NOFHJIPIHCE : public ::System::Object
 	{
 	public:
 		::System::String* EDMBKLOAKIG; // 0x10
-		::System::Int32 HCDEOKNIGKG; // 0x18
-		::System::UInt32 GBGNNIDPBBE; // 0x1C
-		::RPG::Client::TextID PJHMJKEIGOA; // 0x20
+		::RPG::Client::TextID PJHMJKEIGOA; // 0x18
+		::System::Int32 HCDEOKNIGKG; // 0x28
+		::System::UInt32 GBGNNIDPBBE; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NOFHJIPIHCE_CTOR_OFFSET))(this);

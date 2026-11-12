@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfFarmCellData_ElfCellUpdateReason_TypeDefinitionIndex = 63677;
+	inline static constexpr unsigned int ElfFarmCellData_ElfCellUpdateReason_TypeDefinitionIndex = 65119;
 
 	enum class ElfFarmCellData_ElfCellUpdateReason : ::System::Int32
 	{

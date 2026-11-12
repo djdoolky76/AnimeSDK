@@ -5,18 +5,18 @@ namespace RPG::Client { class BattleBuffListViewData; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC814800)
-#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C__DISPLAYCLASS8_0___CLASSIFYMODIFIERS_B__0_OFFSET UNITYSDK_OFFSET(0xC814D50)
+#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD176B90)
+#define RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C__DISPLAYCLASS8_0___CLASSIFYMODIFIERS_B__0_OFFSET UNITYSDK_OFFSET(0xD1770E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleBuffListViewData___c__DisplayClass8_0_TypeDefinitionIndex = 71517;
+	inline static constexpr unsigned int BattleBuffListViewData___c__DisplayClass8_0_TypeDefinitionIndex = 73502;
 
 	class BattleBuffListViewData___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::BattleBuffListViewData* __4__this; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* buffs; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::TurnBasedModifierInstance*>* buffs; // 0x10
+		::RPG::Client::BattleBuffListViewData* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_BATTLEBUFFLISTVIEWDATA___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

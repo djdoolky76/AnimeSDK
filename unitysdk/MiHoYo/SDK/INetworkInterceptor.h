@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int INetworkInterceptor_TypeDefinitionIndex = 8181;
+	inline static constexpr unsigned int INetworkInterceptor_TypeDefinitionIndex = 8190;
 
 	class INetworkInterceptor
 	{

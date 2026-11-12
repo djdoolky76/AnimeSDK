@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CaptureEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDCIOAAKFEO_CTOR_OFFSET UNITYSDK_OFFSET(0x165BF2E0)
-#define JDCIOAAKFEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165BF310)
+#define JDCIOAAKFEO_CTOR_OFFSET UNITYSDK_OFFSET(0xB904B70)
+#define JDCIOAAKFEO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB904BA0)
 
-inline static constexpr unsigned int JDCIOAAKFEO_TypeDefinitionIndex = 52634;
+inline static constexpr unsigned int JDCIOAAKFEO_TypeDefinitionIndex = 53741;
 
 	class JDCIOAAKFEO
 	{

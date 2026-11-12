@@ -10,29 +10,29 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_CLEARCACHESOLUTIONS_OFFSET UNITYSDK_OFFSET(0xD0450E0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD0461A0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xD045040)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xD0450A0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0xD0451D0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA__GETAVAILABLEEDGE_OFFSET UNITYSDK_OFFSET(0xD045270)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA__GETPATH_OFFSET UNITYSDK_OFFSET(0xD045BD0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA__RESETALLVERTICESVISITEDFLAG_OFFSET UNITYSDK_OFFSET(0xD045AC0)
-#define RPG_CLIENT_FLOORCONNECTIVITYDATA__TRYADDNEWVERTEX_OFFSET UNITYSDK_OFFSET(0xD046070)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_CLEARCACHESOLUTIONS_OFFSET UNITYSDK_OFFSET(0xD9CC980)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD9CDA40)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_GET_ISVALID_OFFSET UNITYSDK_OFFSET(0xD9CC8E0)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xD9CC940)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0xD9CCA70)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA__GETAVAILABLEEDGE_OFFSET UNITYSDK_OFFSET(0xD9CCB10)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA__GETPATH_OFFSET UNITYSDK_OFFSET(0xD9CD470)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA__RESETALLVERTICESVISITEDFLAG_OFFSET UNITYSDK_OFFSET(0xD9CD360)
+#define RPG_CLIENT_FLOORCONNECTIVITYDATA__TRYADDNEWVERTEX_OFFSET UNITYSDK_OFFSET(0xD9CD910)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FloorConnectivityData_TypeDefinitionIndex = 64228;
+	inline static constexpr unsigned int FloorConnectivityData_TypeDefinitionIndex = 65673;
 
 	class FloorConnectivityData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* _Edges; // 0x10
-		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Object*>* _Solutions; // 0x18
-		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::System::Object*>*>* _SolutionPathes; // 0x20
-		::System::Collections::Generic::Queue_1<::System::Collections::Generic::LinkedList_1<::System::Object*>*>* _PathsNeedCheck; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* _Vertices; // 0x30
-		::System::Collections::Generic::List_1<::System::UInt32>* _TempIDs; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Object*>* _Vertices; // 0x10
+		::System::Collections::Generic::Queue_1<::System::Collections::Generic::LinkedList_1<::System::Object*>*>* _PathsNeedCheck; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* _Edges; // 0x20
+		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Object*>* _Solutions; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* _TempIDs; // 0x30
+		::RPG::Client::TwoKeyDictionary_3<::System::UInt32, ::System::UInt32, ::System::Collections::Generic::List_1<::System::Object*>*>* _SolutionPathes; // 0x38
 		// static const ::System::Object WildcardID; // 0x0
 		::System::Void _ctor()
 		{

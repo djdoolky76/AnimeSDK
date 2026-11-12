@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoGraphFreeStyleDataConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOGRAPHFREESTYLEDATACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D911040)
-#define RPG_GAMECORE_PHOTOGRAPHFREESTYLEDATACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D910E90)
+#define RPG_GAMECORE_PHOTOGRAPHFREESTYLEDATACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2A290)
+#define RPG_GAMECORE_PHOTOGRAPHFREESTYLEDATACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB2A0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoGraphFreeStyleDataConfig_TypeDefinitionIndex = 19048;
+	inline static constexpr unsigned int PhotoGraphFreeStyleDataConfig_TypeDefinitionIndex = 19235;
 
 	class PhotoGraphFreeStyleDataConfig : public ::RPG::GameCore::JsonConfig
 	{

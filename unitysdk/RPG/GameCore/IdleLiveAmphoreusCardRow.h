@@ -8,26 +8,26 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveAmphoreusCardRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEAMPHOREUSCARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D777C20)
-#define RPG_GAMECORE_IDLELIVEAMPHOREUSCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D777820)
+#define RPG_GAMECORE_IDLELIVEAMPHOREUSCARDROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98B350)
+#define RPG_GAMECORE_IDLELIVEAMPHOREUSCARDROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98AF50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveAmphoreusCardRow_TypeDefinitionIndex = 11742;
+	inline static constexpr unsigned int IdleLiveAmphoreusCardRow_TypeDefinitionIndex = 11799;
 
 	class IdleLiveAmphoreusCardRow : public ::System::Object
 	{
 	public:
-		::System::String* MiniIcon; // 0x10
+		::System::String* AbilityName; // 0x10
 		::Il2CppArray<::RPG::GameCore::FixPoint>* Param; // 0x18
-		::System::String* AbilityName; // 0x20
-		::System::String* CardFigure; // 0x28
-		::System::UInt32 TriggerNode; // 0x30
+		::System::String* CardFigure; // 0x20
+		::System::String* MiniIcon; // 0x28
+		::RPG::GameCore::GenderType GenderLimit; // 0x30
 		::System::UInt32 ID; // 0x34
-		::RPG::GameCore::GenderType GenderLimit; // 0x38
-		::System::UInt32 TriggerChapter; // 0x3C
-		::RPG::Client::TextID Name; // 0x40
-		::RPG::Client::TextID Desc; // 0x50
+		::System::UInt32 TriggerChapter; // 0x38
+		::System::UInt32 TriggerNode; // 0x3C
+		::RPG::Client::TextID Desc; // 0x40
+		::RPG::Client::TextID Name; // 0x50
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEAMPHOREUSCARDROW_CTOR_OFFSET))(this);

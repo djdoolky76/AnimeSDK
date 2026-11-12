@@ -9,12 +9,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class MonsterConfig; }
 
-#define RPG_GAMECORE_MONSTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AF1C0)
-#define RPG_GAMECORE_MONSTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8AEAA0)
+#define RPG_GAMECORE_MONSTERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC91A0)
+#define RPG_GAMECORE_MONSTERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAC8C10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterConfig_TypeDefinitionIndex = 16516;
+	inline static constexpr unsigned int MonsterConfig_TypeDefinitionIndex = 16680;
 
 	class MonsterConfig : public ::RPG::GameCore::JsonConfig
 	{

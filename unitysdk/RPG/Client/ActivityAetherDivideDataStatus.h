@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityAetherDivideDataStatus_TypeDefinitionIndex = 61385;
+	inline static constexpr unsigned int ActivityAetherDivideDataStatus_TypeDefinitionIndex = 62770;
 
 	enum class ActivityAetherDivideDataStatus : ::System::Int32
 	{

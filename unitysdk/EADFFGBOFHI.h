@@ -8,28 +8,28 @@
 namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Texture; }
 
-#define EADFFGBOFHI_CTOR_OFFSET UNITYSDK_OFFSET(0x12671C70)
-#define EADFFGBOFHI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x12671CE0)
-#define EADFFGBOFHI_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0x12671C90)
+#define EADFFGBOFHI_CTOR_OFFSET UNITYSDK_OFFSET(0x13461EF0)
+#define EADFFGBOFHI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x13461F60)
+#define EADFFGBOFHI_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0x13461F10)
 
-inline static constexpr unsigned int EADFFGBOFHI_TypeDefinitionIndex = 70158;
+inline static constexpr unsigned int EADFFGBOFHI_TypeDefinitionIndex = 72124;
 
 	class EADFFGBOFHI : public ::BEAIJJCDJHO
 	{
 	public:
-		::UnityEngine::AnimationCurve* NLIFDJHPHLP; // 0x20
-		::UnityEngine::Texture* LHBMPPDMFKC; // 0x28
-		::System::Single ALJFIPDOIIB; // 0x30
-		::System::Single CAFPEJDDMNC; // 0x34
+		::UnityEngine::Texture* LHBMPPDMFKC; // 0x20
+		::UnityEngine::AnimationCurve* NLIFDJHPHLP; // 0x28
+		::System::Single HKHPEFCDPGP; // 0x30
+		::System::Single FEKBJFJOCLF; // 0x34
 		::System::Single GKBAJIBGNPK; // 0x38
 		::System::Single CCAOGMEFNLB; // 0x3C
-		::System::Single HKHPEFCDPGP; // 0x40
-		::System::Single FEKBJFJOCLF; // 0x44
-		::RPG::CustomRP::ColorGradingGradual EJLHCINGODM; // 0x48
-		::System::Single BJKPDKKNIOJ; // 0x4C
-		::System::Single CNBDOCBLIDP; // 0x50
-		::System::Single FABKKJMEAPO; // 0x54
-		::System::Single EJOCALJIDPB; // 0x58
+		::System::Single CAFPEJDDMNC; // 0x40
+		::RPG::CustomRP::ColorGradingGradual EJLHCINGODM; // 0x44
+		::System::Single ALJFIPDOIIB; // 0x48
+		::System::Single FABKKJMEAPO; // 0x4C
+		::System::Single EJOCALJIDPB; // 0x50
+		::System::Single BJKPDKKNIOJ; // 0x54
+		::System::Single CNBDOCBLIDP; // 0x58
 		::System::Void _ctor(::RPG::GameCore::PPEffectFilterPriorityGroup a1, ::RPG::GameCore::PPEffectFilterPriority a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PPEffectFilterPriorityGroup, ::RPG::GameCore::PPEffectFilterPriority))((::PBYTE)hIl2Cpp + EADFFGBOFHI_CTOR_OFFSET))(this, a1, a2);

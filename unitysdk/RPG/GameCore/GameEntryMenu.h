@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GameEntryMenu; }
 
-#define RPG_GAMECORE_GAMEENTRYMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1D716380)
-#define RPG_GAMECORE_GAMEENTRYMENU_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D716130)
+#define RPG_GAMECORE_GAMEENTRYMENU_CTOR_OFFSET UNITYSDK_OFFSET(0x1E920D90)
+#define RPG_GAMECORE_GAMEENTRYMENU_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E90C020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameEntryMenu_TypeDefinitionIndex = 16458;
+	inline static constexpr unsigned int GameEntryMenu_TypeDefinitionIndex = 16622;
 
 	class GameEntryMenu : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define BHJEGBMIKEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB48D8F0)
-#define BHJEGBMIKEJ_GET_AGGREGATEROOTTYPE_OFFSET UNITYSDK_OFFSET(0xB48D8E0)
+#define BHJEGBMIKEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB466F0)
+#define BHJEGBMIKEJ_GET_AGGREGATEROOTTYPE_OFFSET UNITYSDK_OFFSET(0xBB466E0)
 
-inline static constexpr unsigned int BHJEGBMIKEJ_TypeDefinitionIndex = 49659;
+inline static constexpr unsigned int BHJEGBMIKEJ_TypeDefinitionIndex = 50735;
 
 	class BHJEGBMIKEJ : public ::System::Attribute
 	{

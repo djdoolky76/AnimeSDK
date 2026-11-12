@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/AstraFXRendererDelegate.h"
 namespace UnityEngine { class Mesh; }
 
-#define IAPNMHAMBNP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E26980)
-#define IAPNMHAMBNP_IGGNLLFCMBN_OFFSET UNITYSDK_OFFSET(0x15E26620)
-#define IAPNMHAMBNP_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0x15E26770)
+#define IAPNMHAMBNP_CTOR_OFFSET UNITYSDK_OFFSET(0x16DD03D0)
+#define IAPNMHAMBNP_IGGNLLFCMBN_OFFSET UNITYSDK_OFFSET(0x16DD0070)
+#define IAPNMHAMBNP_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0x16DD01C0)
 
-inline static constexpr unsigned int IAPNMHAMBNP_TypeDefinitionIndex = 47596;
+inline static constexpr unsigned int IAPNMHAMBNP_TypeDefinitionIndex = 48625;
 
 	class IAPNMHAMBNP : public ::UnityEngine::AstraFXRendererDelegate
 	{

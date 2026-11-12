@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_INTRINSICATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE68EC0)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_INTRINSICATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x201186A0)
 
 namespace System::Runtime::CompilerServices
 {

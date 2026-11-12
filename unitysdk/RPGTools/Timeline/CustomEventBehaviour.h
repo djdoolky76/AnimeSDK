@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_AHEEAFKFALM_OFFSET UNITYSDK_OFFSET(0xE8D7190)
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xE8D7150)
-#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C5660)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_AHEEAFKFALM_OFFSET UNITYSDK_OFFSET(0xF3B0920)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xF3B08E0)
+#define RPGTOOLS_TIMELINE_CUSTOMEVENTBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF3B0960)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CustomEventBehaviour_TypeDefinitionIndex = 48398;
+	inline static constexpr unsigned int CustomEventBehaviour_TypeDefinitionIndex = 49439;
 
 	class CustomEventBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{

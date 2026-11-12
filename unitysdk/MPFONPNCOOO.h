@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define MPFONPNCOOO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3D740)
+#define MPFONPNCOOO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2FC570)
 
-inline static constexpr unsigned int MPFONPNCOOO_TypeDefinitionIndex = 47880;
+inline static constexpr unsigned int MPFONPNCOOO_TypeDefinitionIndex = 48911;
 
 	class MPFONPNCOOO : public ::UnityEngine::Playables::PlayableBehaviour
 	{

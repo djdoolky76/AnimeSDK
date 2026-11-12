@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PKFBNIHNLGG__PropertyRawValues_e__FixedBuffer_TypeDefinitionIndex = 59007;
+inline static constexpr unsigned int PKFBNIHNLGG__PropertyRawValues_e__FixedBuffer_TypeDefinitionIndex = 60280;
 
 	struct alignas(4) PKFBNIHNLGG__PropertyRawValues_e__FixedBuffer
 	{

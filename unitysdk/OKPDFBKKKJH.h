@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ResetWolfBroAchievementData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OKPDFBKKKJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBEFABF0)
-#define OKPDFBKKKJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEFAC20)
+#define OKPDFBKKKJH_CTOR_OFFSET UNITYSDK_OFFSET(0xC7F5E70)
+#define OKPDFBKKKJH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7F5EA0)
 
-inline static constexpr unsigned int OKPDFBKKKJH_TypeDefinitionIndex = 58400;
+inline static constexpr unsigned int OKPDFBKKKJH_TypeDefinitionIndex = 59656;
 
 	class OKPDFBKKKJH
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class ADODOFNNPEO;
 
-#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDBF61B0)
-#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0___ONCMDPLAYERLOGINSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xDBFAEE0)
+#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE691610)
+#define RPG_CLIENT_PLAYERMODULE___C__DISPLAYCLASS58_0___ONCMDPLAYERLOGINSCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xE6962B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PlayerModule___c__DisplayClass58_0_TypeDefinitionIndex = 66690;
+	inline static constexpr unsigned int PlayerModule___c__DisplayClass58_0_TypeDefinitionIndex = 68626;
 
 	class PlayerModule___c__DisplayClass58_0 : public ::System::Object
 	{

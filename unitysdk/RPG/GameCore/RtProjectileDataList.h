@@ -7,12 +7,12 @@ namespace RPG::GameCore { class NewProjectileConfig; }
 namespace RPG::GameCore { class ProjectileData; }
 namespace RPG::GameCore { class RtProjectileDataList; }
 
-#define RPG_GAMECORE_RTPROJECTILEDATALIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA62800)
-#define RPG_GAMECORE_RTPROJECTILEDATALIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA62640)
+#define RPG_GAMECORE_RTPROJECTILEDATALIST_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC74E80)
+#define RPG_GAMECORE_RTPROJECTILEDATALIST_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC74CC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtProjectileDataList_TypeDefinitionIndex = 24139;
+	inline static constexpr unsigned int RtProjectileDataList_TypeDefinitionIndex = 24598;
 
 	class RtProjectileDataList : public ::RPG::GameCore::JsonConfig
 	{

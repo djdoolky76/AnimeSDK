@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveEventSentenceRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77B570)
-#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77B2D0)
+#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98ECA0)
+#define RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98EA00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveEventSentenceRow_TypeDefinitionIndex = 11707;
+	inline static constexpr unsigned int IdleLiveEventSentenceRow_TypeDefinitionIndex = 11764;
 
 	class IdleLiveEventSentenceRow : public ::System::Object
 	{
 	public:
 		::System::String* FigurePath; // 0x10
-		::System::UInt32 Index; // 0x18
-		::System::UInt32 SectionID; // 0x1C
-		::RPG::Client::TextID Name; // 0x20
-		::RPG::Client::TextID Sentence; // 0x30
+		::System::UInt32 SectionID; // 0x18
+		::System::UInt32 Index; // 0x1C
+		::RPG::Client::TextID Sentence; // 0x20
+		::RPG::Client::TextID Name; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_IDLELIVEEVENTSENTENCEROW_CTOR_OFFSET))(this);

@@ -5,29 +5,29 @@ class HKAJMEMCBLC;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define IFMNCLKDLDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15F26180)
-#define IFMNCLKDLDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15F261C0)
-#define IFMNCLKDLDC___C__GETRECOMMENDDECK_B__1_0_OFFSET UNITYSDK_OFFSET(0x15F261D0)
-#define IFMNCLKDLDC___C___GETMASTERCARDPRESET_B__2_0_OFFSET UNITYSDK_OFFSET(0x15F261F0)
+#define IFMNCLKDLDC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16E955E0)
+#define IFMNCLKDLDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16E95620)
+#define IFMNCLKDLDC___C__GETRECOMMENDDECK_B__1_0_OFFSET UNITYSDK_OFFSET(0x16E95630)
+#define IFMNCLKDLDC___C___GETMASTERCARDPRESET_B__2_0_OFFSET UNITYSDK_OFFSET(0x16E95650)
 
-inline static constexpr unsigned int IFMNCLKDLDC___c_TypeDefinitionIndex = 81113;
+inline static constexpr unsigned int IFMNCLKDLDC___c_TypeDefinitionIndex = 83893;
 
 	class IFMNCLKDLDC___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58170);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58178);
+			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D50);
 		}
 
 		static ::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58180);
+			return (::System::Func_2<::HKAJMEMCBLC*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D58);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44D60);
 		}
 
 		static ::System::Void _cctor()

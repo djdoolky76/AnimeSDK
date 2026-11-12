@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define OONGDLIDJJJ_KGFBJAABGAN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF920D0)
-#define OONGDLIDJJJ_KGFBJAABGAN_CTOR_OFFSET UNITYSDK_OFFSET(0x14160)
+#define OONGDLIDJJJ_KGFBJAABGAN_CCTOR_OFFSET UNITYSDK_OFFSET(0xC893000)
+#define OONGDLIDJJJ_KGFBJAABGAN_CTOR_OFFSET UNITYSDK_OFFSET(0x18D10)
 
-inline static constexpr unsigned int OONGDLIDJJJ_KGFBJAABGAN_TypeDefinitionIndex = 54337;
+inline static constexpr unsigned int OONGDLIDJJJ_KGFBJAABGAN_TypeDefinitionIndex = 55501;
 
 	struct alignas(4) OONGDLIDJJJ_KGFBJAABGAN
 	{
@@ -13,7 +13,7 @@ inline static constexpr unsigned int OONGDLIDJJJ_KGFBJAABGAN_TypeDefinitionIndex
 		::System::Int32 GNPIMBBICED; // 0x18
 		static ::OONGDLIDJJJ_KGFBJAABGAN* StaticGet_OJPLDOMGBHI()
 		{
-			return (::OONGDLIDJJJ_KGFBJAABGAN*)UnitySDK::FromName("", "KGFBJAABGAN")->GetStaticField(0x144E0);
+			return (::OONGDLIDJJJ_KGFBJAABGAN*)UnitySDK::FromName("", "KGFBJAABGAN")->GetStaticField(0x137F0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::FixPoint a1, ::System::Int32 a2)

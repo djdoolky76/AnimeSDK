@@ -3,12 +3,12 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define RPG_CUSTOMRP_SHADERREMOTETEST_UNIFORMATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC78900)
-#define RPG_CUSTOMRP_SHADERREMOTETEST_UNIFORMATTRIBUTE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1CC788F0)
+#define RPG_CUSTOMRP_SHADERREMOTETEST_UNIFORMATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE1FB30)
+#define RPG_CUSTOMRP_SHADERREMOTETEST_UNIFORMATTRIBUTE_GET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x1DE1FB20)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ShaderRemoteTest_UniformAttribute_TypeDefinitionIndex = 37752;
+	inline static constexpr unsigned int ShaderRemoteTest_UniformAttribute_TypeDefinitionIndex = 38681;
 
 	class ShaderRemoteTest_UniformAttribute : public ::System::Attribute
 	{

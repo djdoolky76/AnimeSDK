@@ -4,10 +4,10 @@
 #include "unitysdk/OIPMNNAHIFP.h"
 class PEDNMPONAAO;
 
-#define OFAGKOLPCFP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE39F00)
-#define OFAGKOLPCFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBE39FE0)
+#define OFAGKOLPCFP_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC6F2920)
+#define OFAGKOLPCFP_CTOR_OFFSET UNITYSDK_OFFSET(0xC6F2A00)
 
-inline static constexpr unsigned int OFAGKOLPCFP_TypeDefinitionIndex = 62659;
+inline static constexpr unsigned int OFAGKOLPCFP_TypeDefinitionIndex = 64093;
 
 	class OFAGKOLPCFP : public ::System::Object
 	{

@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore::Match3 { class MatchThreePropConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84F830)
-#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D84F510)
+#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA6A760)
+#define RPG_GAMECORE_MATCH3_MATCHTHREEPROPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA6A440)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int MatchThreePropConfig_TypeDefinitionIndex = 24943;
+	inline static constexpr unsigned int MatchThreePropConfig_TypeDefinitionIndex = 25423;
 
 	class MatchThreePropConfig : public ::RPG::GameCore::JsonConfig
 	{

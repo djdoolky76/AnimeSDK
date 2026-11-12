@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETANIMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xD102BA0)
-#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETPARTICLESYSTEMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xD102A10)
+#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETANIMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xDAB7F30)
+#define RPG_CLIENT_GRIDFIGHTEFFECTUTILS_SETPARTICLESYSTEMSPEEDINCHILDREN_OFFSET UNITYSDK_OFFSET(0xDAB7DA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectUtils_TypeDefinitionIndex = 64494;
+	inline static constexpr unsigned int GridFightEffectUtils_TypeDefinitionIndex = 66010;
 
 	class GridFightEffectUtils : public ::System::Object
 	{

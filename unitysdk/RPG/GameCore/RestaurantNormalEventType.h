@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RestaurantNormalEventType_TypeDefinitionIndex = 10386;
+	inline static constexpr unsigned int RestaurantNormalEventType_TypeDefinitionIndex = 10396;
 
 	enum class RestaurantNormalEventType : ::System::Int32
 	{

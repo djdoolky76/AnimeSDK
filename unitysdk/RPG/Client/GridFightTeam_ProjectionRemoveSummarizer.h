@@ -1,15 +1,15 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/AMCOEFHHBPO.h"
+#include "unitysdk/RPG/Client/GridFightUpdateSummarizer.h"
 
-#define RPG_CLIENT_GRIDFIGHTTEAM_PROJECTIONREMOVESUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xD29C470)
-#define RPG_CLIENT_GRIDFIGHTTEAM_PROJECTIONREMOVESUMMARIZER_UPDATEPROJECTIONREMOVE_OFFSET UNITYSDK_OFFSET(0xD29C400)
+#define RPG_CLIENT_GRIDFIGHTTEAM_PROJECTIONREMOVESUMMARIZER_CTOR_OFFSET UNITYSDK_OFFSET(0xDCAD320)
+#define RPG_CLIENT_GRIDFIGHTTEAM_PROJECTIONREMOVESUMMARIZER_UPDATEPROJECTIONREMOVE_OFFSET UNITYSDK_OFFSET(0xDCAD2B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeam_ProjectionRemoveSummarizer_TypeDefinitionIndex = 65157;
+	inline static constexpr unsigned int GridFightTeam_ProjectionRemoveSummarizer_TypeDefinitionIndex = 66853;
 
-	class GridFightTeam_ProjectionRemoveSummarizer : public ::AMCOEFHHBPO
+	class GridFightTeam_ProjectionRemoveSummarizer : public ::RPG::Client::GridFightUpdateSummarizer
 	{
 	public:
 		::System::Void _ctor()

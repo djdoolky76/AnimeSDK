@@ -6,9 +6,9 @@ namespace RPG::GameCore { class AITakenDamageSelector; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CLICAJIEGII_HEANFLCGINL_OFFSET UNITYSDK_OFFSET(0xD78BDD0)
+#define CLICAJIEGII_HEANFLCGINL_OFFSET UNITYSDK_OFFSET(0xE353AA0)
 
-inline static constexpr unsigned int CLICAJIEGII_TypeDefinitionIndex = 54341;
+inline static constexpr unsigned int CLICAJIEGII_TypeDefinitionIndex = 55505;
 
 	class CLICAJIEGII : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System::Globalization { class CultureInfo; }
 
-#define SYSTEM_WEB_UTIL_HELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0F32C0)
+#define SYSTEM_WEB_UTIL_HELPERS_CCTOR_OFFSET UNITYSDK_OFFSET(0x203A4280)
 
 namespace System::Web::Util
 {
@@ -14,7 +14,7 @@ namespace System::Web::Util
 	public:
 		static ::System::Globalization::CultureInfo** StaticGet_InvariantCulture()
 		{
-			return (::System::Globalization::CultureInfo**)UnitySDK::FromName("System.Web.Util", "Helpers")->GetStaticField(0x339F0);
+			return (::System::Globalization::CultureInfo**)UnitySDK::FromName("System.Web.Util", "Helpers")->GetStaticField(0x3CCD0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,21 +6,21 @@ namespace RPG::Client { class QteCatchGhostRewindInstance; }
 namespace RPG::GameCore { class QteCatchGhostRewind; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BIGFGNELGEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A7710)
-#define BIGFGNELGEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4A7780)
-#define BIGFGNELGEL_MNBCEAPBHCE_OFFSET UNITYSDK_OFFSET(0xB4A7D10)
-#define BIGFGNELGEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4A78A0)
-#define BIGFGNELGEL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB4A7EB0)
-#define BIGFGNELGEL_TICK_OFFSET UNITYSDK_OFFSET(0xB4A7F00)
+#define BIGFGNELGEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBE3A830)
+#define BIGFGNELGEL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE3A8A0)
+#define BIGFGNELGEL_MNBCEAPBHCE_OFFSET UNITYSDK_OFFSET(0xBE3AE20)
+#define BIGFGNELGEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE3A9B0)
+#define BIGFGNELGEL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE3AFC0)
+#define BIGFGNELGEL_TICK_OFFSET UNITYSDK_OFFSET(0xBE3B010)
 
-inline static constexpr unsigned int BIGFGNELGEL_TypeDefinitionIndex = 53190;
+inline static constexpr unsigned int BIGFGNELGEL_TypeDefinitionIndex = 54352;
 
 	class BIGFGNELGEL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::QteCatchGhostRewindInstance* FLMODBLFAGD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::GameCore::QteCatchGhostRewind* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::QteCatchGhostRewind* OFKGLJOAMLD; // 0x18
+		::RPG::Client::QteCatchGhostRewindInstance* FLMODBLFAGD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::QteCatchGhostRewind* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::QteCatchGhostRewind*))((::PBYTE)hIl2Cpp + BIGFGNELGEL_CTOR_OFFSET))(this, a1, a2);

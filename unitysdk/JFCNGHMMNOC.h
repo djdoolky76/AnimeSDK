@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTimeRewindTargetMotionPause; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFCNGHMMNOC_CTOR_OFFSET UNITYSDK_OFFSET(0x166464E0)
-#define JFCNGHMMNOC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16646510)
+#define JFCNGHMMNOC_CTOR_OFFSET UNITYSDK_OFFSET(0xB98FA60)
+#define JFCNGHMMNOC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB98FA90)
 
-inline static constexpr unsigned int JFCNGHMMNOC_TypeDefinitionIndex = 53369;
+inline static constexpr unsigned int JFCNGHMMNOC_TypeDefinitionIndex = 54531;
 
 	class JFCNGHMMNOC
 	{

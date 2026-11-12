@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int CLLBJDEJFNF_OOIDNDCPEAF_TypeDefinitionIndex = 27838;
+inline static constexpr unsigned int CLLBJDEJFNF_OOIDNDCPEAF_TypeDefinitionIndex = 28415;
 
 	class CLLBJDEJFNF_OOIDNDCPEAF : public ::System::Object
 	{

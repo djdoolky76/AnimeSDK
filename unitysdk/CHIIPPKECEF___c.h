@@ -4,18 +4,18 @@
 class CHIIPPKECEF;
 namespace System { class Object; }
 
-#define CHIIPPKECEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0C8F30)
-#define CHIIPPKECEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C8F70)
-#define CHIIPPKECEF___C___CCTOR_B__93_0_OFFSET UNITYSDK_OFFSET(0x1E0C8F80)
+#define CHIIPPKECEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F399450)
+#define CHIIPPKECEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F399490)
+#define CHIIPPKECEF___C___CCTOR_B__93_0_OFFSET UNITYSDK_OFFSET(0x1F3994A0)
 
-inline static constexpr unsigned int CHIIPPKECEF___c_TypeDefinitionIndex = 26508;
+inline static constexpr unsigned int CHIIPPKECEF___c_TypeDefinitionIndex = 27039;
 
 	class CHIIPPKECEF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16A90);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xFDF0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 namespace System { class Action; }
 namespace System { class String; }
 
-inline static constexpr unsigned int GDBHHBCMEFL_EIHEMOLFOKO_TypeDefinitionIndex = 53343;
+inline static constexpr unsigned int GDBHHBCMEFL_EIHEMOLFOKO_TypeDefinitionIndex = 54505;
 
 	struct alignas(8) GDBHHBCMEFL_EIHEMOLFOKO
 	{

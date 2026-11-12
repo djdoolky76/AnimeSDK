@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraBattleOverrideAttachPoint; }
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERABATTLEOVERRIDEATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D597E00)
-#define RPG_GAMECORE_CHIMERABATTLEOVERRIDEATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D597E10)
-#define RPG_GAMECORE_CHIMERABATTLEOVERRIDEATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5999A0)
+#define RPG_GAMECORE_CHIMERABATTLEOVERRIDEATTACHPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A8120)
+#define RPG_GAMECORE_CHIMERABATTLEOVERRIDEATTACHPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A8130)
+#define RPG_GAMECORE_CHIMERABATTLEOVERRIDEATTACHPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7AA160)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleOverrideAttachPoint_TypeDefinitionIndex = 15880;
+	inline static constexpr unsigned int ChimeraBattleOverrideAttachPoint_TypeDefinitionIndex = 16038;
 
 	class ChimeraBattleOverrideAttachPoint : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

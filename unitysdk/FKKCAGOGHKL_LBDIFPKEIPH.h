@@ -5,51 +5,51 @@
 #include "unitysdk/UnityEngine/ConsoleVariableFloatProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define FKKCAGOGHKL_LBDIFPKEIPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15804F10)
+#define FKKCAGOGHKL_LBDIFPKEIPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x16771800)
 
-inline static constexpr unsigned int FKKCAGOGHKL_LBDIFPKEIPH_TypeDefinitionIndex = 59329;
+inline static constexpr unsigned int FKKCAGOGHKL_LBDIFPKEIPH_TypeDefinitionIndex = 60606;
 
 	class FKKCAGOGHKL_LBDIFPKEIPH : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::ConsoleVariableFloatProperty* StaticGet_HJKLPANANPG()
-		{
-			return (::UnityEngine::ConsoleVariableFloatProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x51050);
-		}
-
-		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_CPHIGPHAEIF()
-		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x51060);
-		}
-
 		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_LCPPLAPAKAJ()
 		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x51070);
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C5F0);
 		}
 
 		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_MLFEFILPGPM()
 		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x51080);
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C600);
+		}
+
+		static ::UnityEngine::ConsoleVariableFloatProperty* StaticGet_HJKLPANANPG()
+		{
+			return (::UnityEngine::ConsoleVariableFloatProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C610);
 		}
 
 		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_IHBIFIABKKH()
 		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x51090);
-		}
-
-		static ::UnityEngine::ConsoleVariableFloatProperty* StaticGet_DPAFOPKKALO()
-		{
-			return (::UnityEngine::ConsoleVariableFloatProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x510A0);
-		}
-
-		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_JJLNBLNMLNB()
-		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x510B0);
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C620);
 		}
 
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_MEIMLJLDEAN()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x510C0);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C630);
+		}
+
+		static ::UnityEngine::ConsoleVariableFloatProperty* StaticGet_DPAFOPKKALO()
+		{
+			return (::UnityEngine::ConsoleVariableFloatProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C640);
+		}
+
+		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_JJLNBLNMLNB()
+		{
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C650);
+		}
+
+		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_CPHIGPHAEIF()
+		{
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "LBDIFPKEIPH")->GetStaticField(0x4C660);
 		}
 
 		static ::System::Void _cctor()

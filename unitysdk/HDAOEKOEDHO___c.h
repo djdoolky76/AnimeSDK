@@ -4,18 +4,18 @@
 class HDAOEKOEDHO;
 namespace System { class Object; }
 
-#define HDAOEKOEDHO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E546F40)
-#define HDAOEKOEDHO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E546F80)
-#define HDAOEKOEDHO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E546F90)
+#define HDAOEKOEDHO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F83E180)
+#define HDAOEKOEDHO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F83E1C0)
+#define HDAOEKOEDHO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F83E1D0)
 
-inline static constexpr unsigned int HDAOEKOEDHO___c_TypeDefinitionIndex = 30613;
+inline static constexpr unsigned int HDAOEKOEDHO___c_TypeDefinitionIndex = 31519;
 
 	class HDAOEKOEDHO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30ED0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26650);
 		}
 
 		static ::System::Void _cctor()

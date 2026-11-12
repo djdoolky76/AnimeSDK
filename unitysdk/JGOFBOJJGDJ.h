@@ -5,22 +5,22 @@
 class LLGMEBOEBPP;
 namespace System { class String; }
 
-#define JGOFBOJJGDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A6140)
-#define JGOFBOJJGDJ_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xB1A60F0)
-#define JGOFBOJJGDJ_GET_HEADIMAGE_OFFSET UNITYSDK_OFFSET(0xB1A6120)
-#define JGOFBOJJGDJ_GET_ID_OFFSET UNITYSDK_OFFSET(0xB1A6100)
-#define JGOFBOJJGDJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB1A6110)
-#define JGOFBOJJGDJ_GET_PORTRAITIMAGE_OFFSET UNITYSDK_OFFSET(0xB1A6130)
+#define JGOFBOJJGDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C58C0)
+#define JGOFBOJJGDJ_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xB9C5870)
+#define JGOFBOJJGDJ_GET_HEADIMAGE_OFFSET UNITYSDK_OFFSET(0xB9C58A0)
+#define JGOFBOJJGDJ_GET_ID_OFFSET UNITYSDK_OFFSET(0xB9C5880)
+#define JGOFBOJJGDJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB9C5890)
+#define JGOFBOJJGDJ_GET_PORTRAITIMAGE_OFFSET UNITYSDK_OFFSET(0xB9C58B0)
 
-inline static constexpr unsigned int JGOFBOJJGDJ_TypeDefinitionIndex = 80083;
+inline static constexpr unsigned int JGOFBOJJGDJ_TypeDefinitionIndex = 82860;
 
 	class JGOFBOJJGDJ : public ::System::Object
 	{
 	public:
-		::System::String* _PortraitImage_k__BackingField; // 0x10
-		::System::String* _HeadImage_k__BackingField; // 0x18
-		::System::Int32 _CacheKey_k__BackingField; // 0x20
-		::System::UInt32 _ID_k__BackingField; // 0x24
+		::System::String* _HeadImage_k__BackingField; // 0x10
+		::System::String* _PortraitImage_k__BackingField; // 0x18
+		::System::UInt32 _ID_k__BackingField; // 0x20
+		::System::Int32 _CacheKey_k__BackingField; // 0x24
 		::RPG::Client::TextID _Name_k__BackingField; // 0x28
 		::System::Void _ctor(::LLGMEBOEBPP* a1)
 		{

@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class GIAKECJMGIF;
 
-#define GIAKECJMGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4D210)
-#define GIAKECJMGIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4D120)
+#define GIAKECJMGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E028800)
+#define GIAKECJMGIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E028710)
 
-inline static constexpr unsigned int GIAKECJMGIF_TypeDefinitionIndex = 14093;
+inline static constexpr unsigned int GIAKECJMGIF_TypeDefinitionIndex = 14250;
 
 	class GIAKECJMGIF : public ::System::Object
 	{
 	public:
-		::System::UInt32 LLDCHLHNADA; // 0x10
-		::System::UInt32 GDBJDAOOCOH; // 0x14
+		::System::UInt32 GDBJDAOOCOH; // 0x10
+		::System::UInt32 LLDCHLHNADA; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GIAKECJMGIF_CTOR_OFFSET))(this);

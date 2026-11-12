@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChallengeStoryMazeExtraConfigRow; }
 
-#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D563710)
-#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D563570)
+#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E774EB0)
+#define RPG_GAMECORE_CHALLENGESTORYMAZEEXTRACONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E774D10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChallengeStoryMazeExtraConfigRow_TypeDefinitionIndex = 12993;
+	inline static constexpr unsigned int ChallengeStoryMazeExtraConfigRow_TypeDefinitionIndex = 13061;
 
 	class ChallengeStoryMazeExtraConfigRow : public ::System::Object
 	{

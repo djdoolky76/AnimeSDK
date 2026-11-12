@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F3BE0)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSADJUSTLEVELTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF3CE5C0)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnviroSysAdjustLevelTrack_TypeDefinitionIndex = 48636;
+	inline static constexpr unsigned int EnviroSysAdjustLevelTrack_TypeDefinitionIndex = 49677;
 
 	class EnviroSysAdjustLevelTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

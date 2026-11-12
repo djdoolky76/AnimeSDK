@@ -5,16 +5,16 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BOGLEMMMDAC_BPFFEDDNDGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC191150)
+#define BOGLEMMMDAC_BPFFEDDNDGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC7711A0)
 
-inline static constexpr unsigned int BOGLEMMMDAC_BPFFEDDNDGC_TypeDefinitionIndex = 69889;
+inline static constexpr unsigned int BOGLEMMMDAC_BPFFEDDNDGC_TypeDefinitionIndex = 71848;
 
 	class BOGLEMMMDAC_BPFFEDDNDGC : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MODHBNJHAEP; // 0x10
-		::Il2CppArray<::System::Object*>* BDIAMMKNGLA; // 0x18
-		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MBMPMMMJGGC; // 0x20
+		::Il2CppArray<::System::Object*>* BDIAMMKNGLA; // 0x10
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MBMPMMMJGGC; // 0x18
+		::System::Collections::Generic::List_1<::UnityEngine::Vector4>* MODHBNJHAEP; // 0x20
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BOGLEMMMDAC_BPFFEDDNDGC_CTOR_OFFSET))(this, a1);

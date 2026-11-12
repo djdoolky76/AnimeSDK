@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GCFreeClosure/ClosureEvent_1.h"
 namespace UnityEngine { class Collider; }
 
-inline static constexpr unsigned int HPKDNHLINPC_TypeDefinitionIndex = 43649;
+inline static constexpr unsigned int HPKDNHLINPC_TypeDefinitionIndex = 44632;
 
 	struct alignas(8) HPKDNHLINPC
 	{

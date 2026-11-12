@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class LoseHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PMIOBHFIGCA_CTOR_OFFSET UNITYSDK_OFFSET(0xC321900)
-#define PMIOBHFIGCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3219D0)
+#define PMIOBHFIGCA_CTOR_OFFSET UNITYSDK_OFFSET(0xCC50760)
+#define PMIOBHFIGCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC50830)
 
-inline static constexpr unsigned int PMIOBHFIGCA_TypeDefinitionIndex = 55165;
+inline static constexpr unsigned int PMIOBHFIGCA_TypeDefinitionIndex = 56346;
 
 	class PMIOBHFIGCA
 	{

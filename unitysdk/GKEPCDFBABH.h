@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GKEPCDFBABH_CTOR_OFFSET UNITYSDK_OFFSET(0x15A962E0)
+#define GKEPCDFBABH_CTOR_OFFSET UNITYSDK_OFFSET(0x169D31E0)
 
-inline static constexpr unsigned int GKEPCDFBABH_TypeDefinitionIndex = 80499;
+inline static constexpr unsigned int GKEPCDFBABH_TypeDefinitionIndex = 83279;
 
 	class GKEPCDFBABH : public ::System::Object
 	{

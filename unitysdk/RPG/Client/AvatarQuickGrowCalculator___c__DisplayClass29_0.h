@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class NAIEKONLHAL;
 
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC70DCA0)
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0___RESOLVEFARMDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0xC70DE30)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD06E6B0)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR___C__DISPLAYCLASS29_0___RESOLVEFARMDEMAND_B__0_OFFSET UNITYSDK_OFFSET(0xD06E840)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQuickGrowCalculator___c__DisplayClass29_0_TypeDefinitionIndex = 62473;
+	inline static constexpr unsigned int AvatarQuickGrowCalculator___c__DisplayClass29_0_TypeDefinitionIndex = 63886;
 
 	class AvatarQuickGrowCalculator___c__DisplayClass29_0 : public ::System::Object
 	{

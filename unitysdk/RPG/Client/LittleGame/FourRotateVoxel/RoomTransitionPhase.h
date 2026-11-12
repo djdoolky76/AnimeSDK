@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int RoomTransitionPhase_TypeDefinitionIndex = 43199;
+	inline static constexpr unsigned int RoomTransitionPhase_TypeDefinitionIndex = 44180;
 
 	enum class RoomTransitionPhase : ::System::Int32
 	{

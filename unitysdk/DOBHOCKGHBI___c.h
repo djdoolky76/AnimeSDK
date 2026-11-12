@@ -4,18 +4,18 @@
 class DOBHOCKGHBI;
 namespace System { class Object; }
 
-#define DOBHOCKGHBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1FD480)
-#define DOBHOCKGHBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1FD4C0)
-#define DOBHOCKGHBI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1FD4D0)
+#define DOBHOCKGHBI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4DA3F0)
+#define DOBHOCKGHBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4DA430)
+#define DOBHOCKGHBI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F4DA440)
 
-inline static constexpr unsigned int DOBHOCKGHBI___c_TypeDefinitionIndex = 28348;
+inline static constexpr unsigned int DOBHOCKGHBI___c_TypeDefinitionIndex = 28938;
 
 	class DOBHOCKGHBI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41380);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C0C0);
 		}
 
 		static ::System::Void _cctor()

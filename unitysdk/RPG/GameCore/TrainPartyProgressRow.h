@@ -6,24 +6,24 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyProgressRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRAINPARTYPROGRESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC348E0)
-#define RPG_GAMECORE_TRAINPARTYPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC345A0)
+#define RPG_GAMECORE_TRAINPARTYPROGRESSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE47B80)
+#define RPG_GAMECORE_TRAINPARTYPROGRESSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE47840)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyProgressRow_TypeDefinitionIndex = 15307;
+	inline static constexpr unsigned int TrainPartyProgressRow_TypeDefinitionIndex = 15463;
 
 	class TrainPartyProgressRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* UnlockPassengerList; // 0x10
-		::System::String* PassengerUnlockActPath; // 0x18
-		::Il2CppArray<::System::UInt32>* TeamIDList; // 0x20
+		::System::String* PassengerUnlockActPath; // 0x10
+		::Il2CppArray<::System::UInt32>* TeamIDList; // 0x18
+		::Il2CppArray<::System::UInt32>* UnlockPassengerList; // 0x20
 		::System::UInt32 UnlcokRequireArea; // 0x28
-		::System::UInt32 CoinRatio; // 0x2C
-		::System::UInt32 StatRatio; // 0x30
-		::System::UInt32 ProgressID; // 0x34
-		::System::UInt32 InitialStatExp; // 0x38
+		::System::UInt32 ProgressID; // 0x2C
+		::System::UInt32 CoinRatio; // 0x30
+		::System::UInt32 InitialStatExp; // 0x34
+		::System::UInt32 StatRatio; // 0x38
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID ProgressTitle; // 0x40
 		::System::Void _ctor()

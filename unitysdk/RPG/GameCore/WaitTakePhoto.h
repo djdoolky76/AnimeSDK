@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WaitTakePhoto; }
 
-#define RPG_GAMECORE_WAITTAKEPHOTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA2DD0)
-#define RPG_GAMECORE_WAITTAKEPHOTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA2DE0)
-#define RPG_GAMECORE_WAITTAKEPHOTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA2D90)
+#define RPG_GAMECORE_WAITTAKEPHOTO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEB5780)
+#define RPG_GAMECORE_WAITTAKEPHOTO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEB5790)
+#define RPG_GAMECORE_WAITTAKEPHOTO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEB5740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitTakePhoto_TypeDefinitionIndex = 22171;
+	inline static constexpr unsigned int WaitTakePhoto_TypeDefinitionIndex = 22576;
 
 	class WaitTakePhoto : public ::RPG::GameCore::TaskConfig
 	{

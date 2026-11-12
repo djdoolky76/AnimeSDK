@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FormationZOffsetParams; }
 
-#define RPG_GAMECORE_FORMATIONZOFFSETPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EC160)
-#define RPG_GAMECORE_FORMATIONZOFFSETPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EC030)
+#define RPG_GAMECORE_FORMATIONZOFFSETPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F66F0)
+#define RPG_GAMECORE_FORMATIONZOFFSETPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F65C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationZOffsetParams_TypeDefinitionIndex = 16574;
+	inline static constexpr unsigned int FormationZOffsetParams_TypeDefinitionIndex = 16740;
 
 	class FormationZOffsetParams : public ::RPG::GameCore::JsonConfig
 	{

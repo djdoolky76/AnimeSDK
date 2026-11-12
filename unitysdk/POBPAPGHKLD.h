@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/MissionKind.h"
 #include "unitysdk/System/Object.h"
 
-#define POBPAPGHKLD_CTOR_OFFSET UNITYSDK_OFFSET(0xC358230)
+#define POBPAPGHKLD_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8A840)
 
-inline static constexpr unsigned int POBPAPGHKLD_TypeDefinitionIndex = 66167;
+inline static constexpr unsigned int POBPAPGHKLD_TypeDefinitionIndex = 68103;
 
 	class POBPAPGHKLD : public ::System::Object
 	{

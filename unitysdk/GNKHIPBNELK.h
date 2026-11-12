@@ -4,9 +4,9 @@
 class ANLADNEAIKJ;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GNKHIPBNELK_CTOR_OFFSET UNITYSDK_OFFSET(0x15B150E0)
+#define GNKHIPBNELK_CTOR_OFFSET UNITYSDK_OFFSET(0x16A9A890)
 
-inline static constexpr unsigned int GNKHIPBNELK_TypeDefinitionIndex = 82243;
+inline static constexpr unsigned int GNKHIPBNELK_TypeDefinitionIndex = 85116;
 
 	class GNKHIPBNELK : public ::NPEJPBFILIP
 	{

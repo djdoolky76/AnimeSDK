@@ -6,20 +6,20 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace UnityEngine { class Animator; }
 
-#define LKJIICKOLEK_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0x1C90FB80)
-#define LKJIICKOLEK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C90F6A0)
-#define LKJIICKOLEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90FEB0)
-#define LKJIICKOLEK_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C90F5D0)
-#define LKJIICKOLEK_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C90F660)
+#define LKJIICKOLEK_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0x1DABBFF0)
+#define LKJIICKOLEK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DABBB10)
+#define LKJIICKOLEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABC310)
+#define LKJIICKOLEK_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DABBA40)
+#define LKJIICKOLEK_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1DABBAD0)
 
-inline static constexpr unsigned int LKJIICKOLEK_TypeDefinitionIndex = 42032;
+inline static constexpr unsigned int LKJIICKOLEK_TypeDefinitionIndex = 43007;
 
 	class LKJIICKOLEK : public ::System::Object
 	{
 	public:
-		::RPG::PoolDictionary_2<::System::Int32, ::CCNCJLPFPBE*>* ICPHLMNMKBI; // 0x10
-		::RPG::PoolDictionary_2<::System::Int32, ::CCNCJLPFPBE*>* LDCIOFKJHKG; // 0x18
-		::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* CLLACKFPJKG; // 0x20
+		::RPG::PoolDictionary_2<::System::Int32, ::RPG::PoolList_1<::System::Int32>*>* CLLACKFPJKG; // 0x10
+		::RPG::PoolDictionary_2<::System::Int32, ::CCNCJLPFPBE*>* ICPHLMNMKBI; // 0x18
+		::RPG::PoolDictionary_2<::System::Int32, ::CCNCJLPFPBE*>* LDCIOFKJHKG; // 0x20
 		::System::Boolean MJIPOJPBKNB; // 0x28
 		::System::Void _ctor()
 		{

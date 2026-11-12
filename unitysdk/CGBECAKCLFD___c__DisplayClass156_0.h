@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer; }
 
-#define CGBECAKCLFD___C__DISPLAYCLASS156_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC81D00)
-#define CGBECAKCLFD___C__DISPLAYCLASS156_0__APPLYSLAMTARGETSPEEDCLAMP_B__0_OFFSET UNITYSDK_OFFSET(0xCC85100)
+#define CGBECAKCLFD___C__DISPLAYCLASS156_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD62F5F0)
+#define CGBECAKCLFD___C__DISPLAYCLASS156_0__APPLYSLAMTARGETSPEEDCLAMP_B__0_OFFSET UNITYSDK_OFFSET(0xD632A00)
 
-inline static constexpr unsigned int CGBECAKCLFD___c__DisplayClass156_0_TypeDefinitionIndex = 75917;
+inline static constexpr unsigned int CGBECAKCLFD___c__DisplayClass156_0_TypeDefinitionIndex = 78244;
 
 	class CGBECAKCLFD___c__DisplayClass156_0 : public ::System::Object
 	{

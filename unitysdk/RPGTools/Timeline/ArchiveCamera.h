@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/ArchiveAsset.h"
 
-#define RPGTOOLS_TIMELINE_ARCHIVECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B0A70)
+#define RPGTOOLS_TIMELINE_ARCHIVECAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0xF38A970)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveCamera_TypeDefinitionIndex = 48502;
+	inline static constexpr unsigned int ArchiveCamera_TypeDefinitionIndex = 49543;
 
 	class ArchiveCamera : public ::RPGTools::Timeline::ArchiveAsset
 	{

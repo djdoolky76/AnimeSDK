@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AttachEntityUnselectable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ANLCLMBAFLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15898CC0)
-#define ANLCLMBAFLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15898CF0)
+#define ANLCLMBAFLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1670E160)
+#define ANLCLMBAFLJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1670E190)
 
-inline static constexpr unsigned int ANLCLMBAFLJ_TypeDefinitionIndex = 54858;
+inline static constexpr unsigned int ANLCLMBAFLJ_TypeDefinitionIndex = 56028;
 
 	class ANLCLMBAFLJ
 	{

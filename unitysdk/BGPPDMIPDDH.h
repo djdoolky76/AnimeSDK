@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BGPPDMIPDDH_TypeDefinitionIndex = 34701;
+inline static constexpr unsigned int BGPPDMIPDDH_TypeDefinitionIndex = 35629;
 
 	enum class BGPPDMIPDDH : ::System::Int32
 	{

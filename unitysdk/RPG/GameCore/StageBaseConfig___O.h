@@ -5,19 +5,19 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageBaseConfig___O_TypeDefinitionIndex = 19138;
+	inline static constexpr unsigned int StageBaseConfig___O_TypeDefinitionIndex = 19327;
 
 	class StageBaseConfig___O : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet__0___FromJson()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1B900);
-		}
-
 		static ::System::Object** StaticGet__1___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1B908);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1BE30);
+		}
+
+		static ::System::Object** StaticGet__0___FromJson()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x1BE38);
 		}
 
 	};

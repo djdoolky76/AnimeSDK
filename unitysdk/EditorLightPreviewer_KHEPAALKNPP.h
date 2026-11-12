@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define EDITORLIGHTPREVIEWER_KHEPAALKNPP_CTOR_OFFSET UNITYSDK_OFFSET(0x155DFAC0)
+#define EDITORLIGHTPREVIEWER_KHEPAALKNPP_CTOR_OFFSET UNITYSDK_OFFSET(0x164F2A50)
 
-inline static constexpr unsigned int EditorLightPreviewer_KHEPAALKNPP_TypeDefinitionIndex = 47343;
+inline static constexpr unsigned int EditorLightPreviewer_KHEPAALKNPP_TypeDefinitionIndex = 48372;
 
 	class EditorLightPreviewer_KHEPAALKNPP : public ::System::Object
 	{

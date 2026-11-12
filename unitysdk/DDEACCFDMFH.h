@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TryAsyncLoadUI; }
 
-#define DDEACCFDMFH_CTOR_OFFSET UNITYSDK_OFFSET(0xE2606D0)
-#define DDEACCFDMFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE260700)
+#define DDEACCFDMFH_CTOR_OFFSET UNITYSDK_OFFSET(0xEE1BC60)
+#define DDEACCFDMFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE1BC90)
 
-inline static constexpr unsigned int DDEACCFDMFH_TypeDefinitionIndex = 53456;
+inline static constexpr unsigned int DDEACCFDMFH_TypeDefinitionIndex = 54618;
 
 	class DDEACCFDMFH
 	{

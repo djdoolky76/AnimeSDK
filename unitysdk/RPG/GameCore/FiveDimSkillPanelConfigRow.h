@@ -7,29 +7,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimSkillPanelConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMSKILLPANELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DCE60)
-#define RPG_GAMECORE_FIVEDIMSKILLPANELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6DC8C0)
+#define RPG_GAMECORE_FIVEDIMSKILLPANELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E7600)
+#define RPG_GAMECORE_FIVEDIMSKILLPANELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8E7070)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSkillPanelConfigRow_TypeDefinitionIndex = 14118;
+	inline static constexpr unsigned int FiveDimSkillPanelConfigRow_TypeDefinitionIndex = 14275;
 
 	class FiveDimSkillPanelConfigRow : public ::System::Object
 	{
 	public:
-		::System::String* IconPath2; // 0x10
+		::System::String* IconPath; // 0x10
 		::System::String* UI3DPath; // 0x18
-		::System::String* IconPath; // 0x20
+		::System::String* IconPath2; // 0x20
 		::System::UInt32 ID; // 0x28
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID Desc2; // 0x30
-		::RPG::Client::TextID Desc1; // 0x40
-		::RPG::Client::TextID IpDesc2; // 0x50
-		::RPG::Client::TextID SkillName; // 0x60
-		::RPG::Client::TextID Name; // 0x70
-		::RPG::Client::TextID IpDesc; // 0x80
-		::RPG::GameCore::FiveDimPanelSkillType Type; // 0x90
-		::System::UInt32 UnlockID; // 0x94
+		::RPG::GameCore::FiveDimPanelSkillType Type; // 0x2C
+		::RPG::Client::TextID Name; // 0x30
+		::RPG::Client::TextID SkillName; // 0x40
+		::RPG::Client::TextID Desc2; // 0x50
+		::RPG::Client::TextID IpDesc; // 0x60
+		::RPG::Client::TextID Desc1; // 0x70
+		::RPG::Client::TextID IpDesc2; // 0x80
+		::System::UInt32 UnlockID; // 0x90
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FIVEDIMSKILLPANELCONFIGROW_CTOR_OFFSET))(this);

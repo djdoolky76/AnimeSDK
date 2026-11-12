@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class IFOEBJMEFKG;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5F6D70)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROL___C__DISPLAYCLASS12_0___BIND_B__0_OFFSET UNITYSDK_OFFSET(0xD5F7CC0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE049C50)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTASSISTANTCONTROL___C__DISPLAYCLASS12_0___BIND_B__0_OFFSET UNITYSDK_OFFSET(0xE04ABA0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftAssistantControl___c__DisplayClass12_0_TypeDefinitionIndex = 79839;
+	inline static constexpr unsigned int MechCraftCraftAssistantControl___c__DisplayClass12_0_TypeDefinitionIndex = 82616;
 
 	class MechCraftCraftAssistantControl___c__DisplayClass12_0 : public ::System::Object
 	{

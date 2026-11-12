@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class PNPBCLAMINI;
 namespace RPG::GameCore { class TaskConfig; }
 
-#define PNPBCLAMINI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3150E0)
-#define PNPBCLAMINI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3150F0)
-#define PNPBCLAMINI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3150B0)
+#define PNPBCLAMINI_CTOR_OFFSET UNITYSDK_OFFSET(0x1E523BB0)
+#define PNPBCLAMINI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E523BC0)
+#define PNPBCLAMINI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E523B80)
 
-inline static constexpr unsigned int PNPBCLAMINI_TypeDefinitionIndex = 21551;
+inline static constexpr unsigned int PNPBCLAMINI_TypeDefinitionIndex = 21939;
 
 	class PNPBCLAMINI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DAGEPEOGNDD; // 0x18
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IMACINJMEJJ; // 0x20
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* IMACINJMEJJ; // 0x18
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* DAGEPEOGNDD; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PNPBCLAMINI_CTOR_OFFSET))(this);

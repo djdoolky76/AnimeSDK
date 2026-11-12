@@ -5,29 +5,29 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EFKIODJNHHJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x13A564B0)
-#define EFKIODJNHHJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x13A564F0)
-#define EFKIODJNHHJ___C__FILTERMODIFIERTOINFECT_B__3_1_OFFSET UNITYSDK_OFFSET(0x13A56500)
-#define EFKIODJNHHJ___C__FILTERMODIFIERTOINFECT_B__3_2_OFFSET UNITYSDK_OFFSET(0x13A56530)
+#define EFKIODJNHHJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x14818790)
+#define EFKIODJNHHJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x148187D0)
+#define EFKIODJNHHJ___C__FILTERMODIFIERTOINFECT_B__3_1_OFFSET UNITYSDK_OFFSET(0x148187E0)
+#define EFKIODJNHHJ___C__FILTERMODIFIERTOINFECT_B__3_2_OFFSET UNITYSDK_OFFSET(0x14818810)
 
-inline static constexpr unsigned int EFKIODJNHHJ___c_TypeDefinitionIndex = 55109;
+inline static constexpr unsigned int EFKIODJNHHJ___c_TypeDefinitionIndex = 56286;
 
 	class EFKIODJNHHJ___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>** StaticGet___9__3_1()
-		{
-			return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x700B0);
-		}
-
 		static ::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>** StaticGet___9__3_2()
 		{
-			return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x700B8);
+			return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73780);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x700C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73788);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>** StaticGet___9__3_1()
+		{
+			return (::System::Func_2<::RPG::GameCore::TurnBasedModifierInstance*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73790);
 		}
 
 		static ::System::Void _cctor()

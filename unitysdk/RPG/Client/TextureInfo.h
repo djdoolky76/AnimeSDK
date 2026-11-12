@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_TEXTUREINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xF2A00)
+#define RPG_CLIENT_TEXTUREINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xFEDA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextureInfo_TypeDefinitionIndex = 70595;
+	inline static constexpr unsigned int TextureInfo_TypeDefinitionIndex = 72572;
 
 	struct alignas(8) TextureInfo
 	{

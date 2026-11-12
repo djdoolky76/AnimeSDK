@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PEGCBKGINPN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D2D4DC0)
-#define PEGCBKGINPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2D5340)
-#define PEGCBKGINPN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D2D4F30)
-#define PEGCBKGINPN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2D4870)
-#define PEGCBKGINPN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2D4B00)
-#define PEGCBKGINPN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D2D4FD0)
-#define PEGCBKGINPN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D2D5020)
-#define PEGCBKGINPN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D2D4E00)
-#define PEGCBKGINPN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2D4AA0)
-#define PEGCBKGINPN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2D4C30)
-#define PEGCBKGINPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2D4E90)
-#define PEGCBKGINPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2D47F0)
+#define PEGCBKGINPN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E4E0FC0)
+#define PEGCBKGINPN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4E1540)
+#define PEGCBKGINPN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E4E1130)
+#define PEGCBKGINPN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E4E0A70)
+#define PEGCBKGINPN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E4E0D00)
+#define PEGCBKGINPN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E4E11D0)
+#define PEGCBKGINPN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E4E1220)
+#define PEGCBKGINPN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E4E1000)
+#define PEGCBKGINPN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E4E0CA0)
+#define PEGCBKGINPN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E4E0E30)
+#define PEGCBKGINPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E4E1090)
+#define PEGCBKGINPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E4E09F0)
 
-inline static constexpr unsigned int PEGCBKGINPN_TypeDefinitionIndex = 11719;
+inline static constexpr unsigned int PEGCBKGINPN_TypeDefinitionIndex = 11776;
 
 	class PEGCBKGINPN : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow*>**)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0x37CC0);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0x3EA80);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0x37CC8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0x3EA88);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveAvatarUpgradeRewardRow*>**)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0x3EA90);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0xD6C0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0x37CD0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0xD6C1);
+			return (::System::Boolean*)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0xC170);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "PEGCBKGINPN")->GetStaticField(0xC171);
 		}
 
 		static ::System::Void _cctor()

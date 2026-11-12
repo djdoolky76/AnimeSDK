@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HIPPLENBUILDERSTATUSASSET_STATGRADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1C50)
+#define HIPPLENBUILDERSTATUSASSET_STATGRADECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x16D8FB60)
 
-inline static constexpr unsigned int HipplenBuilderStatusAsset_StatGradeConfig_TypeDefinitionIndex = 47231;
+inline static constexpr unsigned int HipplenBuilderStatusAsset_StatGradeConfig_TypeDefinitionIndex = 48259;
 
 	class HipplenBuilderStatusAsset_StatGradeConfig : public ::System::Object
 	{

@@ -7,40 +7,40 @@ namespace RPG::Client { class RPGProfilerMarker; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NLFEAECMNAJ_BCECDOCKJMO_OFFSET UNITYSDK_OFFSET(0xBC65CC0)
-#define NLFEAECMNAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC67DE0)
-#define NLFEAECMNAJ_CFGGKLJOHDI_OFFSET UNITYSDK_OFFSET(0xBC65E00)
-#define NLFEAECMNAJ_CGMAKLJDOHD_OFFSET UNITYSDK_OFFSET(0xBC65F80)
-#define NLFEAECMNAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC657B0)
-#define NLFEAECMNAJ_DMGEBMEEKOP_OFFSET UNITYSDK_OFFSET(0xBC66A80)
-#define NLFEAECMNAJ_FCLDEGPCBKC_OFFSET UNITYSDK_OFFSET(0xBC66050)
-#define NLFEAECMNAJ_ICLCHHGBOMO_OFFSET UNITYSDK_OFFSET(0xBC65BA0)
-#define NLFEAECMNAJ_IFOODPPCJIK_OFFSET UNITYSDK_OFFSET(0xBC66E60)
-#define NLFEAECMNAJ_LBKKGGBHHOA_OFFSET UNITYSDK_OFFSET(0xBC661C0)
-#define NLFEAECMNAJ_NOCPJPMDIMA_OFFSET UNITYSDK_OFFSET(0xBC65C30)
-#define NLFEAECMNAJ_PLFOIHCLAPC_OFFSET UNITYSDK_OFFSET(0xBC66580)
+#define NLFEAECMNAJ_BCECDOCKJMO_OFFSET UNITYSDK_OFFSET(0xC54B050)
+#define NLFEAECMNAJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xC54D180)
+#define NLFEAECMNAJ_CFGGKLJOHDI_OFFSET UNITYSDK_OFFSET(0xC54B190)
+#define NLFEAECMNAJ_CGMAKLJDOHD_OFFSET UNITYSDK_OFFSET(0xC54B310)
+#define NLFEAECMNAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC54AB40)
+#define NLFEAECMNAJ_DMGEBMEEKOP_OFFSET UNITYSDK_OFFSET(0xC54BE20)
+#define NLFEAECMNAJ_FCLDEGPCBKC_OFFSET UNITYSDK_OFFSET(0xC54B3E0)
+#define NLFEAECMNAJ_ICLCHHGBOMO_OFFSET UNITYSDK_OFFSET(0xC54AF30)
+#define NLFEAECMNAJ_IFOODPPCJIK_OFFSET UNITYSDK_OFFSET(0xC54C200)
+#define NLFEAECMNAJ_LBKKGGBHHOA_OFFSET UNITYSDK_OFFSET(0xC54B560)
+#define NLFEAECMNAJ_NOCPJPMDIMA_OFFSET UNITYSDK_OFFSET(0xC54AFC0)
+#define NLFEAECMNAJ_PLFOIHCLAPC_OFFSET UNITYSDK_OFFSET(0xC54B920)
 
-inline static constexpr unsigned int NLFEAECMNAJ_TypeDefinitionIndex = 59749;
+inline static constexpr unsigned int NLFEAECMNAJ_TypeDefinitionIndex = 61029;
 
 	class NLFEAECMNAJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* AMOJDBFNICG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::Client::ListenerDirection, ::System::Single>* LIFPJKNOIJK; // 0x10
 		::Il2CppArray<::System::Single>* JDBFEPOEEAN; // 0x18
-		::System::Collections::Generic::Dictionary_2<::RPG::Client::ListenerDirection, ::System::Single>* LIFPJKNOIJK; // 0x20
-		::System::Single PCKOEELFGOJ; // 0x28
-		::System::Single DLNBFPKBIOD; // 0x2C
-		::System::Single PMCKIPFFFAJ; // 0x30
-		::System::Single BNCAIBLOFCA; // 0x34
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* AMOJDBFNICG; // 0x20
+		::System::Single PMCKIPFFFAJ; // 0x28
+		::System::Single PCKOEELFGOJ; // 0x2C
+		::System::Single COFAKJALIDB; // 0x30
+		::System::Single PAHBJLDKDFN; // 0x34
 		::System::Int32 LDCPOKNHAHH; // 0x38
 		::System::Single LGEOEEAHEGA; // 0x3C
 		::System::Single MJEKMGBOCLB; // 0x40
-		::System::Single MALNLGHBCCC; // 0x44
-		::System::Single COFAKJALIDB; // 0x48
-		::System::Single PAHBJLDKDFN; // 0x4C
+		::System::Single DLNBFPKBIOD; // 0x44
+		::System::Single MALNLGHBCCC; // 0x48
+		::System::Single BNCAIBLOFCA; // 0x4C
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_IDJFLOLPMDO()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "NLFEAECMNAJ")->GetStaticField(0x4B8B0);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "NLFEAECMNAJ")->GetStaticField(0x48D60);
 		}
 
 		// static const ::System::Object FIBFEMKAMJK; // 0x0

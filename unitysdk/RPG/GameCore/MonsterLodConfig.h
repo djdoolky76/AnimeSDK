@@ -6,12 +6,12 @@ namespace RPG::GameCore { class MonsterLodConfig; }
 namespace RPG::GameCore { class MonsterLodInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_MONSTERLODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6C80)
-#define RPG_GAMECORE_MONSTERLODCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B6BA0)
+#define RPG_GAMECORE_MONSTERLODCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD0A20)
+#define RPG_GAMECORE_MONSTERLODCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAD0940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterLodConfig_TypeDefinitionIndex = 19108;
+	inline static constexpr unsigned int MonsterLodConfig_TypeDefinitionIndex = 19295;
 
 	class MonsterLodConfig : public ::RPG::GameCore::JsonConfig
 	{

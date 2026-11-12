@@ -5,9 +5,9 @@ namespace RPG::GameCore { class EffectConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define IOAEALGNCHC_OCENPMNMNEG_OFFSET UNITYSDK_OFFSET(0x164FB850)
+#define IOAEALGNCHC_OCENPMNMNEG_OFFSET UNITYSDK_OFFSET(0xB82CCA0)
 
-inline static constexpr unsigned int IOAEALGNCHC_TypeDefinitionIndex = 57384;
+inline static constexpr unsigned int IOAEALGNCHC_TypeDefinitionIndex = 58612;
 
 	class IOAEALGNCHC : public ::System::Object
 	{

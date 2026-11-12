@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AIALJPDDDKH_EOperationAbortReason_TypeDefinitionIndex = 58987;
+inline static constexpr unsigned int AIALJPDDDKH_EOperationAbortReason_TypeDefinitionIndex = 60260;
 
 	enum class AIALJPDDDKH_EOperationAbortReason : ::System::Int32
 	{

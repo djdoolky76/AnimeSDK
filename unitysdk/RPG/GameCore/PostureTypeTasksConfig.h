@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PostureTypeTasksConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_POSTURETYPETASKSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93E130)
-#define RPG_GAMECORE_POSTURETYPETASKSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D93E010)
+#define RPG_GAMECORE_POSTURETYPETASKSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB572B0)
+#define RPG_GAMECORE_POSTURETYPETASKSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB57190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PostureTypeTasksConfig_TypeDefinitionIndex = 17619;
+	inline static constexpr unsigned int PostureTypeTasksConfig_TypeDefinitionIndex = 17788;
 
 	class PostureTypeTasksConfig : public ::RPG::GameCore::JsonConfig
 	{

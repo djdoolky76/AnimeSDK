@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define ONDHPCOOMID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99F4C0)
+#define ONDHPCOOMID_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB613B0)
 
-inline static constexpr unsigned int ONDHPCOOMID_TypeDefinitionIndex = 43709;
+inline static constexpr unsigned int ONDHPCOOMID_TypeDefinitionIndex = 44784;
 
 	class ONDHPCOOMID : public ::System::Object
 	{

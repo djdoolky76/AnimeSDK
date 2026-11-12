@@ -6,10 +6,10 @@ class HBFPEEPJOPK;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 namespace System { class Exception; }
 
-#define CFEFOGNGCMH___C__DISPLAYCLASS66_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA11360)
-#define CFEFOGNGCMH___C__DISPLAYCLASS66_0___STARTFINISHEDENDMATCHPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xCA115E0)
+#define CFEFOGNGCMH___C__DISPLAYCLASS66_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD37B8F0)
+#define CFEFOGNGCMH___C__DISPLAYCLASS66_0___STARTFINISHEDENDMATCHPROMISE_B__1_OFFSET UNITYSDK_OFFSET(0xD37BB70)
 
-inline static constexpr unsigned int CFEFOGNGCMH___c__DisplayClass66_0_TypeDefinitionIndex = 81868;
+inline static constexpr unsigned int CFEFOGNGCMH___c__DisplayClass66_0_TypeDefinitionIndex = 84649;
 
 	class CFEFOGNGCMH___c__DisplayClass66_0 : public ::System::Object
 	{

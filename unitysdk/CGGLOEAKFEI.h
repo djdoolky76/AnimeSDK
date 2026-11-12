@@ -4,16 +4,16 @@
 class CGGLOEAKFEI;
 class FCOEMCEDLNL;
 
-#define CGGLOEAKFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC0C460)
-#define CGGLOEAKFEI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0C320)
+#define CGGLOEAKFEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDC9D80)
+#define CGGLOEAKFEI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDC9C40)
 
-inline static constexpr unsigned int CGGLOEAKFEI_TypeDefinitionIndex = 11995;
+inline static constexpr unsigned int CGGLOEAKFEI_TypeDefinitionIndex = 12052;
 
 	class CGGLOEAKFEI : public ::System::Object
 	{
 	public:
-		::System::UInt32 AAGKEBFHLMC; // 0x10
-		::System::UInt32 AGDJPAPAFEO; // 0x14
+		::System::UInt32 AGDJPAPAFEO; // 0x10
+		::System::UInt32 AAGKEBFHLMC; // 0x14
 		::System::UInt32 MPHAIOHJKCD; // 0x18
 		::System::Void _ctor()
 		{

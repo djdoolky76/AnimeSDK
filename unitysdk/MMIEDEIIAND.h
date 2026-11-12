@@ -10,22 +10,22 @@ namespace RPG::Client::FateRin::Logging { class ILogger; }
 namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MMIEDEIIAND_CTOR_OFFSET UNITYSDK_OFFSET(0xB9CEF20)
-#define MMIEDEIIAND_DDGKJNMINPL_1_OFFSET UNITYSDK_OFFSET(0xB9CF990)
-#define MMIEDEIIAND_DDGKJNMINPL_OFFSET UNITYSDK_OFFSET(0xB9CF390)
-#define MMIEDEIIAND_HIPMAGHGNBK_OFFSET UNITYSDK_OFFSET(0xB9CFCC0)
-#define MMIEDEIIAND_OOCGNGDBNNN_1_OFFSET UNITYSDK_OFFSET(0xB9CF610)
-#define MMIEDEIIAND_OOCGNGDBNNN_OFFSET UNITYSDK_OFFSET(0xB9CF000)
-#define MMIEDEIIAND_PGCJBDEHIHO_OFFSET UNITYSDK_OFFSET(0xB9D0000)
+#define MMIEDEIIAND_CTOR_OFFSET UNITYSDK_OFFSET(0xC28B140)
+#define MMIEDEIIAND_DDGKJNMINPL_1_OFFSET UNITYSDK_OFFSET(0xC28BBB0)
+#define MMIEDEIIAND_DDGKJNMINPL_OFFSET UNITYSDK_OFFSET(0xC28B5B0)
+#define MMIEDEIIAND_HIPMAGHGNBK_OFFSET UNITYSDK_OFFSET(0xC28BEE0)
+#define MMIEDEIIAND_OOCGNGDBNNN_1_OFFSET UNITYSDK_OFFSET(0xC28B830)
+#define MMIEDEIIAND_OOCGNGDBNNN_OFFSET UNITYSDK_OFFSET(0xC28B220)
+#define MMIEDEIIAND_PGCJBDEHIHO_OFFSET UNITYSDK_OFFSET(0xC28C220)
 
-inline static constexpr unsigned int MMIEDEIIAND_TypeDefinitionIndex = 81217;
+inline static constexpr unsigned int MMIEDEIIAND_TypeDefinitionIndex = 83997;
 
 	class MMIEDEIIAND : public ::System::Object
 	{
 	public:
-		::JJNNAGMLCIC* HEJEGOGBFMP; // 0x10
+		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* JKMKALIDPJH; // 0x10
 		::RPG::Client::FateRin::Logging::ILogger* JKCNFDEAMDJ; // 0x18
-		::System::Collections::Generic::List_1<::RPG::AvatarSystem::IAvatar*>* JKMKALIDPJH; // 0x20
+		::JJNNAGMLCIC* HEJEGOGBFMP; // 0x20
 		::System::Void _ctor(::JJNNAGMLCIC* a1, ::RPG::Client::FateRin::Logging::ILoggerFactory* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::JJNNAGMLCIC*, ::RPG::Client::FateRin::Logging::ILoggerFactory*))((::PBYTE)hIl2Cpp + MMIEDEIIAND_CTOR_OFFSET))(this, a1, a2);

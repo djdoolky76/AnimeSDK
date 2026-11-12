@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDB4D930)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDB4D970)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE5A5B40)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREWINDOW___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE5A5B80)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGamePrepareWindow___c_TypeDefinitionIndex = 79233;
+	inline static constexpr unsigned int PixAirGamePrepareWindow___c_TypeDefinitionIndex = 82010;
 
 	class PixAirGamePrepareWindow___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x2B2A0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PixAir", "<>c")->GetStaticField(0x35540);
 		}
 
 		static ::System::Void _cctor()

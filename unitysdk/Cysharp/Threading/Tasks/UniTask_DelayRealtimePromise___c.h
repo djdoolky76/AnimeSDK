@@ -4,26 +4,26 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F148B30)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F148B70)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C__CREATE_B__12_0_OFFSET UNITYSDK_OFFSET(0x1F148BE0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F148B80)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203F9BD0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203F9C10)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C__CREATE_B__12_0_OFFSET UNITYSDK_OFFSET(0x203F9C80)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYREALTIMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x203F9C20)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayRealtimePromise___c_TypeDefinitionIndex = 38241;
+	inline static constexpr unsigned int UniTask_DelayRealtimePromise___c_TypeDefinitionIndex = 39170;
 
 	class UniTask_DelayRealtimePromise___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::System::Object*>** StaticGet___9__12_0()
-		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x46800);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x46808);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A1B0);
+		}
+
+		static ::System::Action_1<::System::Object*>** StaticGet___9__12_0()
+		{
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A1B8);
 		}
 
 		static ::System::Void _cctor()

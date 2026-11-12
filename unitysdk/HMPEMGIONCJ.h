@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define HMPEMGIONCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x202EFC0)
+#define HMPEMGIONCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x2168550)
 
-inline static constexpr unsigned int HMPEMGIONCJ_TypeDefinitionIndex = 71099;
+inline static constexpr unsigned int HMPEMGIONCJ_TypeDefinitionIndex = 73082;
 
 	struct alignas(4) HMPEMGIONCJ
 	{

@@ -2,16 +2,16 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LMIACDNCFJN_HOCMGCACCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xB783800)
+#define LMIACDNCFJN_HOCMGCACCBI_CTOR_OFFSET UNITYSDK_OFFSET(0xC0238E0)
 
-inline static constexpr unsigned int LMIACDNCFJN_HOCMGCACCBI_TypeDefinitionIndex = 64697;
+inline static constexpr unsigned int LMIACDNCFJN_HOCMGCACCBI_TypeDefinitionIndex = 66238;
 
 	class LMIACDNCFJN_HOCMGCACCBI : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* EquipIDs; // 0x10
-		::System::UInt32 RoleID; // 0x18
-		::System::UInt32 Pos; // 0x1C
+		::System::UInt32 Pos; // 0x18
+		::System::UInt32 RoleID; // 0x1C
 		::System::UInt32 Star; // 0x20
 		::System::Void _ctor()
 		{

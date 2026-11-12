@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/VideoEncryptionMethod.h"
 
-#define IGCLGKCKACE_CCTOR_OFFSET UNITYSDK_OFFSET(0x164013C0)
-#define IGCLGKCKACE_HGKALNHGNKL_OFFSET UNITYSDK_OFFSET(0x2E81500)
-#define IGCLGKCKACE_IEFPIFINEHC_OFFSET UNITYSDK_OFFSET(0x2E81510)
+#define IGCLGKCKACE_CCTOR_OFFSET UNITYSDK_OFFSET(0x173B1920)
+#define IGCLGKCKACE_HGKALNHGNKL_OFFSET UNITYSDK_OFFSET(0x3056E10)
+#define IGCLGKCKACE_IEFPIFINEHC_OFFSET UNITYSDK_OFFSET(0x3056E20)
 
-inline static constexpr unsigned int IGCLGKCKACE_TypeDefinitionIndex = 73212;
+inline static constexpr unsigned int IGCLGKCKACE_TypeDefinitionIndex = 75327;
 
 	struct alignas(8) IGCLGKCKACE
 	{
@@ -16,7 +16,7 @@ inline static constexpr unsigned int IGCLGKCKACE_TypeDefinitionIndex = 73212;
 		::RPG::GameCore::VideoEncryptionMethod BMGKFAIOCAA; // 0x28
 		static ::IGCLGKCKACE* StaticGet_NKHLMJGGKEM()
 		{
-			return (::IGCLGKCKACE*)UnitySDK::FromName("", "IGCLGKCKACE")->GetStaticField(0x1CA10);
+			return (::IGCLGKCKACE*)UnitySDK::FromName("", "IGCLGKCKACE")->GetStaticField(0x28BE0);
 		}
 
 		static ::System::Void _cctor()

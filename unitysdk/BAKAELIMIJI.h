@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int BAKAELIMIJI_TypeDefinitionIndex = 30993;
+inline static constexpr unsigned int BAKAELIMIJI_TypeDefinitionIndex = 31906;
 
 	enum class BAKAELIMIJI : ::System::Int32
 	{

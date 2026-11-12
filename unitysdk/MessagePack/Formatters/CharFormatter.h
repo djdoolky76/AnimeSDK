@@ -6,21 +6,21 @@
 namespace MessagePack { class MessagePackSerializerOptions; }
 namespace MessagePack::Formatters { class CharFormatter; }
 
-#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB705A0)
-#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB704E0)
-#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB70500)
-#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB704F0)
+#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCF92B0)
+#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF91F0)
+#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF9210)
+#define MESSAGEPACK_FORMATTERS_CHARFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCF9200)
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int CharFormatter_TypeDefinitionIndex = 7476;
+	inline static constexpr unsigned int CharFormatter_TypeDefinitionIndex = 7487;
 
 	class CharFormatter : public ::System::Object
 	{
 	public:
 		static ::MessagePack::Formatters::CharFormatter** StaticGet_Instance()
 		{
-			return (::MessagePack::Formatters::CharFormatter**)UnitySDK::FromName("MessagePack.Formatters", "CharFormatter")->GetStaticField(0x24BD0);
+			return (::MessagePack::Formatters::CharFormatter**)UnitySDK::FromName("MessagePack.Formatters", "CharFormatter")->GetStaticField(0x46A80);
 		}
 
 		::System::Void _ctor()

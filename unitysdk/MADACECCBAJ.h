@@ -6,18 +6,18 @@ class MADACECCBAJ;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define MADACECCBAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D130620)
-#define MADACECCBAJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D130630)
-#define MADACECCBAJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1305E0)
+#define MADACECCBAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E32F640)
+#define MADACECCBAJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E32F650)
+#define MADACECCBAJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E32F600)
 
-inline static constexpr unsigned int MADACECCBAJ_TypeDefinitionIndex = 24127;
+inline static constexpr unsigned int MADACECCBAJ_TypeDefinitionIndex = 24586;
 
 	class MADACECCBAJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* KDIOGNHBJNP; // 0x18
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
 		::RPG::GameCore::TargetEvaluator* EKNOCCGMJOF; // 0x20
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
+		::System::String* KDIOGNHBJNP; // 0x28
 		::System::Boolean MPHPLIJADOF; // 0x30
 		::System::Void _ctor()
 		{

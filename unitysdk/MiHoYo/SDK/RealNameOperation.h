@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int RealNameOperation_TypeDefinitionIndex = 8094;
+	inline static constexpr unsigned int RealNameOperation_TypeDefinitionIndex = 8103;
 
 	enum class RealNameOperation : ::System::Int32
 	{

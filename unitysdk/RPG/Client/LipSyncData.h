@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_LIPSYNCDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB0725A0)
+#define RPG_CLIENT_LIPSYNCDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D3380)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LipSyncData_TypeDefinitionIndex = 47011;
+	inline static constexpr unsigned int LipSyncData_TypeDefinitionIndex = 48039;
 
 	class LipSyncData : public ::UnityEngine::ScriptableObject
 	{

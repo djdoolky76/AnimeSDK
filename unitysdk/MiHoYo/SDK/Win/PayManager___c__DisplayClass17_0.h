@@ -5,12 +5,12 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BDCD940)
-#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__GETPRICETIER_B__0_OFFSET UNITYSDK_OFFSET(0x1BDD44C0)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF55EB0)
+#define MIHOYO_SDK_WIN_PAYMANAGER___C__DISPLAYCLASS17_0__GETPRICETIER_B__0_OFFSET UNITYSDK_OFFSET(0x1CF5CA70)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int PayManager___c__DisplayClass17_0_TypeDefinitionIndex = 9467;
+	inline static constexpr unsigned int PayManager___c__DisplayClass17_0_TypeDefinitionIndex = 9475;
 
 	class PayManager___c__DisplayClass17_0 : public ::System::Object
 	{

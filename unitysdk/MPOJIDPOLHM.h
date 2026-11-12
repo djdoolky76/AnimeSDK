@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsFirstChallengeBattle; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MPOJIDPOLHM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA44B80)
-#define MPOJIDPOLHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA44BB0)
+#define MPOJIDPOLHM_CTOR_OFFSET UNITYSDK_OFFSET(0xC304C00)
+#define MPOJIDPOLHM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC304C30)
 
-inline static constexpr unsigned int MPOJIDPOLHM_TypeDefinitionIndex = 54658;
+inline static constexpr unsigned int MPOJIDPOLHM_TypeDefinitionIndex = 55824;
 
 	class MPOJIDPOLHM
 	{

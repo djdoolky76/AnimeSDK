@@ -2,17 +2,17 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define OPEEJMCCEMG_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBFA7D20)
-#define OPEEJMCCEMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFA7CC0)
+#define OPEEJMCCEMG_CTOR_1_OFFSET UNITYSDK_OFFSET(0xC8A93C0)
+#define OPEEJMCCEMG_CTOR_OFFSET UNITYSDK_OFFSET(0xC8A9360)
 
-inline static constexpr unsigned int OPEEJMCCEMG_TypeDefinitionIndex = 74025;
+inline static constexpr unsigned int OPEEJMCCEMG_TypeDefinitionIndex = 76161;
 
 	class OPEEJMCCEMG
 	{
 	public:
-		::System::Boolean MHIPFCLLDLD; // 0x20
+		::System::Boolean CLBCJFLEAMN; // 0x20
 		::System::Boolean KFOEFBPENPP; // 0x21
-		::System::Boolean CLBCJFLEAMN; // 0x22
+		::System::Boolean MHIPFCLLDLD; // 0x22
 		::System::Void _ctor(::UnityEngine::Color a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Color))((::PBYTE)hIl2Cpp + OPEEJMCCEMG_CTOR_OFFSET))(this, a1);

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC941350)
-#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC941390)
+#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2A6D10)
+#define RPG_CLIENT_CHALLENGE_CHALLENGETARGETINFOROWCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A6D50)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeTargetInfoRowControl___c_TypeDefinitionIndex = 81421;
+	inline static constexpr unsigned int ChallengeTargetInfoRowControl___c_TypeDefinitionIndex = 84201;
 
 	class ChallengeTargetInfoRowControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x6B9B0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x5F630);
 		}
 
 		static ::System::Void _cctor()

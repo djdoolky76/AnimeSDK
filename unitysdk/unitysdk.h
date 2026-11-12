@@ -1,5 +1,5 @@
 #pragma once
-// AnimeSDK 4.6 name-resolution core (public SDK style).
+// AnimeSDK 4.7 name-resolution core (public SDK style).
 // Class lookups resolve through the il2cpp dispatch table anchored at the
 // byte-verified class-name getter (GameAssembly + 0x94D0). Only il2cpp runtime
 // APIs are used; no external tooling is required to use generated headers.
@@ -15,8 +15,8 @@
 #define UNITYSDK_OFFSET(offset) offset
 #endif
 
-// 4.6 static field pool pointer (GameAssembly global).
-#define STATICFIELDSPOOL_OFFSET UNITYSDK_OFFSET(0x93434B8)
+// 4.7 static field pool pointer (GameAssembly global).
+#define STATICFIELDSPOOL_OFFSET UNITYSDK_OFFSET(0x98B25C8)
 
 inline HMODULE hIl2Cpp = NULL;
 

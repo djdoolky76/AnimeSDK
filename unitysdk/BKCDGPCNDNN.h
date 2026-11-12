@@ -6,11 +6,11 @@ class KNHCNPDALBB;
 class NKFJNBDNEJA;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define BKCDGPCNDNN_AGCMADLIKOJ_OFFSET UNITYSDK_OFFSET(0xB7ACF50)
-#define BKCDGPCNDNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ACEC0)
-#define BKCDGPCNDNN_GMCFMKCBCBN_OFFSET UNITYSDK_OFFSET(0xB7ACED0)
+#define BKCDGPCNDNN_AGCMADLIKOJ_OFFSET UNITYSDK_OFFSET(0xC103040)
+#define BKCDGPCNDNN_CTOR_OFFSET UNITYSDK_OFFSET(0xC102FB0)
+#define BKCDGPCNDNN_GMCFMKCBCBN_OFFSET UNITYSDK_OFFSET(0xC102FC0)
 
-inline static constexpr unsigned int BKCDGPCNDNN_TypeDefinitionIndex = 80151;
+inline static constexpr unsigned int BKCDGPCNDNN_TypeDefinitionIndex = 82928;
 
 	class BKCDGPCNDNN : public ::System::Object
 	{

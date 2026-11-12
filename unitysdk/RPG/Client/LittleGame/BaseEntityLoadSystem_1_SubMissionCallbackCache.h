@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseEntityLoadSystem_1_SubMissionCallbackCache_TypeDefinitionIndex = 42083;
+	inline static constexpr unsigned int BaseEntityLoadSystem_1_SubMissionCallbackCache_TypeDefinitionIndex = 43058;
 
 	template <typename T>
 	class BaseEntityLoadSystem_1_SubMissionCallbackCache

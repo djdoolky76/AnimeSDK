@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/ScriptableObject.h"
 namespace System { class Object; }
 
-#define IRICLUSTERBUILDER_IRITEXTUREARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1652D130)
+#define IRICLUSTERBUILDER_IRITEXTUREARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0xB861B30)
 
 namespace IRIClusterBuilder
 {
-	inline static constexpr unsigned int IRITextureArray_TypeDefinitionIndex = 47751;
+	inline static constexpr unsigned int IRITextureArray_TypeDefinitionIndex = 48781;
 
 	class IRITextureArray : public ::UnityEngine::ScriptableObject
 	{

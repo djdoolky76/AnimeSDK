@@ -4,10 +4,10 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace R3 { template <typename T> class Observable_1; }
 
-#define BCKKHDBAENJ_NBCKMAFIBPI_OFFSET UNITYSDK_OFFSET(0x162E19D0)
-#define BCKKHDBAENJ_NKDAHLGNOKN_OFFSET UNITYSDK_OFFSET(0x162E1BE0)
+#define BCKKHDBAENJ_NBCKMAFIBPI_OFFSET UNITYSDK_OFFSET(0x170A7450)
+#define BCKKHDBAENJ_NKDAHLGNOKN_OFFSET UNITYSDK_OFFSET(0x170A7660)
 
-inline static constexpr unsigned int BCKKHDBAENJ_TypeDefinitionIndex = 49978;
+inline static constexpr unsigned int BCKKHDBAENJ_TypeDefinitionIndex = 51026;
 
 	class BCKKHDBAENJ : public ::System::Object
 	{

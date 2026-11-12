@@ -5,10 +5,10 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IRI_HLODDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16537920)
-#define IRI_HLODDATA_GETCURRENTSTAGEMATLUTPATH_OFFSET UNITYSDK_OFFSET(0x165377B0)
+#define IRI_HLODDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB86C380)
+#define IRI_HLODDATA_GETCURRENTSTAGEMATLUTPATH_OFFSET UNITYSDK_OFFSET(0xB86C210)
 
-inline static constexpr unsigned int IRI_HlodData_TypeDefinitionIndex = 47176;
+inline static constexpr unsigned int IRI_HlodData_TypeDefinitionIndex = 48204;
 
 	class IRI_HlodData : public ::UnityEngine::MonoBehaviour
 	{

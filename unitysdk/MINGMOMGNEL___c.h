@@ -4,18 +4,18 @@
 class MINGMOMGNEL;
 namespace System { class Object; }
 
-#define MINGMOMGNEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA3F030)
-#define MINGMOMGNEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3F070)
-#define MINGMOMGNEL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA3F080)
+#define MINGMOMGNEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD90B30)
+#define MINGMOMGNEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD90B70)
+#define MINGMOMGNEL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FD90B80)
 
-inline static constexpr unsigned int MINGMOMGNEL___c_TypeDefinitionIndex = 29784;
+inline static constexpr unsigned int MINGMOMGNEL___c_TypeDefinitionIndex = 30682;
 
 	class MINGMOMGNEL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x532D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x593D0);
 		}
 
 		static ::System::Void _cctor()

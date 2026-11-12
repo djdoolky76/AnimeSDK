@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Threading/EventWaitHandle.h"
 
-#define SYSTEM_THREADING_MANUALRESETEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1471C0)
+#define SYSTEM_THREADING_MANUALRESETEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CE570)
 
 namespace System::Threading
 {

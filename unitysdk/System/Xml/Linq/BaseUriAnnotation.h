@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_XML_LINQ_BASEURIANNOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE811D0)
+#define SYSTEM_XML_LINQ_BASEURIANNOTATION_CTOR_OFFSET UNITYSDK_OFFSET(0x201309B0)
 
 namespace System::Xml::Linq
 {

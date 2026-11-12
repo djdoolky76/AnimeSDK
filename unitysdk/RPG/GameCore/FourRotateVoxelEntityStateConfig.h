@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FourRotateVoxelEntityStateConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EDAC0)
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6EDAD0)
-#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EDA90)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F7E80)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8F7E90)
+#define RPG_GAMECORE_FOURROTATEVOXELENTITYSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F7E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FourRotateVoxelEntityStateConfig_TypeDefinitionIndex = 16776;
+	inline static constexpr unsigned int FourRotateVoxelEntityStateConfig_TypeDefinitionIndex = 16943;
 
 	class FourRotateVoxelEntityStateConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

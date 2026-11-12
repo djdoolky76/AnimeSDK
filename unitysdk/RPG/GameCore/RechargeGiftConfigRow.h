@@ -5,20 +5,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RechargeGiftConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D972320)
-#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D971CF0)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8A5A0)
+#define RPG_GAMECORE_RECHARGEGIFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB89ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 14622;
+	inline static constexpr unsigned int RechargeGiftConfigRow_TypeDefinitionIndex = 14778;
 
 	class RechargeGiftConfigRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x10
-		::Il2CppArray<::System::String*>* DiscountForFiat; // 0x18
-		::System::UInt32 GiftType; // 0x20
-		::System::Single Discount; // 0x24
+		::Il2CppArray<::System::String*>* DiscountForFiat; // 0x10
+		::Il2CppArray<::System::UInt32>* GiftIDList; // 0x18
+		::System::Single Discount; // 0x20
+		::System::Boolean IsRedDotHide; // 0x24
+		::System::Byte _padding0[0x3];
+		::System::UInt32 GiftType; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_RECHARGEGIFTCONFIGROW_CTOR_OFFSET))(this);

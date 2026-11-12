@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureAttackResult_TypeDefinitionIndex = 57919;
+	inline static constexpr unsigned int AdventureAttackResult_TypeDefinitionIndex = 59156;
 
 	enum class AdventureAttackResult : ::System::Int32
 	{

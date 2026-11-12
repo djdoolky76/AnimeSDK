@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define HNMCHBMDNKF_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA10E0)
+#define HNMCHBMDNKF_CTOR_OFFSET UNITYSDK_OFFSET(0x16D420F0)
 
-inline static constexpr unsigned int HNMCHBMDNKF_TypeDefinitionIndex = 48970;
+inline static constexpr unsigned int HNMCHBMDNKF_TypeDefinitionIndex = 50031;
 
 	class HNMCHBMDNKF : public ::System::Object
 	{
 	public:
-		::System::String* NCJBHLEKMIE; // 0x10
-		::System::String* FLNEHHAEINF; // 0x18
+		::System::String* FLNEHHAEINF; // 0x10
+		::System::String* NCJBHLEKMIE; // 0x18
 		::System::Int32 MCCNAJOKJPO; // 0x20
 		::System::Void _ctor()
 		{

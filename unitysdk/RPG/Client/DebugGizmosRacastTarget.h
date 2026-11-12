@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_DEBUGGIZMOSRACASTTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEBD30)
+#define RPG_CLIENT_DEBUGGIZMOSRACASTTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xD55FD10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugGizmosRacastTarget_TypeDefinitionIndex = 68338;
+	inline static constexpr unsigned int DebugGizmosRacastTarget_TypeDefinitionIndex = 70284;
 
 	class DebugGizmosRacastTarget : public ::UnityEngine::MonoBehaviour
 	{

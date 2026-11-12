@@ -5,10 +5,10 @@ class BBEHPOGADKM;
 namespace RPG::Client { class RogueMagicUnitDataItem; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HKCOBALNMIF_GOEEBLPHCEJ_OFFSET UNITYSDK_OFFSET(0x15D3E610)
-#define HKCOBALNMIF_MBDNDAPNMFH_OFFSET UNITYSDK_OFFSET(0x15D3EE80)
+#define HKCOBALNMIF_GOEEBLPHCEJ_OFFSET UNITYSDK_OFFSET(0x16C90710)
+#define HKCOBALNMIF_MBDNDAPNMFH_OFFSET UNITYSDK_OFFSET(0x16C90F80)
 
-inline static constexpr unsigned int HKCOBALNMIF_TypeDefinitionIndex = 67432;
+inline static constexpr unsigned int HKCOBALNMIF_TypeDefinitionIndex = 69376;
 
 	class HKCOBALNMIF : public ::System::Object
 	{

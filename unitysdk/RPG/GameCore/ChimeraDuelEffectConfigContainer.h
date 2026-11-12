@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace RPG::GameCore { class ChimeraDuelEffectConfigContainer; }
 
-#define RPG_GAMECORE_CHIMERADUELEFFECTCONFIGCONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D59EDC0)
-#define RPG_GAMECORE_CHIMERADUELEFFECTCONFIGCONTAINER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D59ECD0)
+#define RPG_GAMECORE_CHIMERADUELEFFECTCONFIGCONTAINER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7AFBD0)
+#define RPG_GAMECORE_CHIMERADUELEFFECTCONFIGCONTAINER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7AFAE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelEffectConfigContainer_TypeDefinitionIndex = 16009;
+	inline static constexpr unsigned int ChimeraDuelEffectConfigContainer_TypeDefinitionIndex = 16167;
 
 	class ChimeraDuelEffectConfigContainer : public ::RPG::GameCore::JsonConfig
 	{

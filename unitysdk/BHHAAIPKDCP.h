@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BHHAAIPKDCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C59A410)
+#define BHHAAIPKDCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71BC00)
 
-inline static constexpr unsigned int BHHAAIPKDCP_TypeDefinitionIndex = 36444;
+inline static constexpr unsigned int BHHAAIPKDCP_TypeDefinitionIndex = 37372;
 
 	class BHHAAIPKDCP : public ::System::Object
 	{

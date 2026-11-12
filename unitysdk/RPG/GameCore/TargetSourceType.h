@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TargetSourceType_TypeDefinitionIndex = 57463;
+	inline static constexpr unsigned int TargetSourceType_TypeDefinitionIndex = 58691;
 
 	enum class TargetSourceType : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class LMKECAPDMAC;
 namespace System { class Object; }
 
-#define LMKECAPDMAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9A8CE0)
-#define LMKECAPDMAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9A8D20)
-#define LMKECAPDMAC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9A8D30)
+#define LMKECAPDMAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCCCF30)
+#define LMKECAPDMAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCCCF70)
+#define LMKECAPDMAC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FCCCF80)
 
-inline static constexpr unsigned int LMKECAPDMAC___c_TypeDefinitionIndex = 34717;
+inline static constexpr unsigned int LMKECAPDMAC___c_TypeDefinitionIndex = 35645;
 
 	class LMKECAPDMAC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D870);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40EB0);
 		}
 
 		static ::System::Void _cctor()

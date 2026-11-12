@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowAttackTimeType_TypeDefinitionIndex = 24672;
+	inline static constexpr unsigned int ShowAttackTimeType_TypeDefinitionIndex = 25145;
 
 	enum class ShowAttackTimeType : ::System::Int32
 	{

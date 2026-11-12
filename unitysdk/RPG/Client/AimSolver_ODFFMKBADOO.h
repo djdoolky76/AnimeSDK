@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AimSolver_ODFFMKBADOO_TypeDefinitionIndex = 68434;
+	inline static constexpr unsigned int AimSolver_ODFFMKBADOO_TypeDefinitionIndex = 70381;
 
 	struct alignas(4) AimSolver_ODFFMKBADOO
 	{

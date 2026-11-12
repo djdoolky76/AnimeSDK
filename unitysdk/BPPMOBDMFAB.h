@@ -6,10 +6,10 @@ namespace RPG { template <typename T> class PoolList_1; }
 namespace RPG::GameCore { class FiveDimBaseEventAction; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define BPPMOBDMFAB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8DBAC0)
-#define BPPMOBDMFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DBC00)
+#define BPPMOBDMFAB_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DA5C7D0)
+#define BPPMOBDMFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5C910)
 
-inline static constexpr unsigned int BPPMOBDMFAB_TypeDefinitionIndex = 43312;
+inline static constexpr unsigned int BPPMOBDMFAB_TypeDefinitionIndex = 44293;
 
 	class BPPMOBDMFAB : public ::System::Object
 	{

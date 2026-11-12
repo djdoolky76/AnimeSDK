@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/Client/UIController.h"
 namespace System { class String; }
 
-#define JMHICJJKKCI_CTOR_OFFSET UNITYSDK_OFFSET(0xB266C90)
-#define JMHICJJKKCI_VIEWPREFABPATH_OFFSET UNITYSDK_OFFSET(0xB266D20)
+#define JMHICJJKKCI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA91D80)
+#define JMHICJJKKCI_VIEWPREFABPATH_OFFSET UNITYSDK_OFFSET(0xBA91E00)
 
-inline static constexpr unsigned int JMHICJJKKCI_TypeDefinitionIndex = 71722;
+inline static constexpr unsigned int JMHICJJKKCI_TypeDefinitionIndex = 73713;
 
 	class JMHICJJKKCI : public ::RPG::Client::UIController
 	{

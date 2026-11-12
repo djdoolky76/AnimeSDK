@@ -9,7 +9,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int SnapshotReplaySystem_1_TypeDefinitionIndex = 36935;
+	inline static constexpr unsigned int SnapshotReplaySystem_1_TypeDefinitionIndex = 37863;
 
 	template <typename T>
 	class SnapshotReplaySystem_1 : public ::System::Object

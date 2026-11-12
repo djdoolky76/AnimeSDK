@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HGMMFJHJECA.h"
 
-#define JNOKHEAMOOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB291DB0)
-#define JNOKHEAMOOA_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB2918B0)
+#define JNOKHEAMOOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBABD230)
+#define JNOKHEAMOOA_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xBABCD30)
 
-inline static constexpr unsigned int JNOKHEAMOOA_TypeDefinitionIndex = 64145;
+inline static constexpr unsigned int JNOKHEAMOOA_TypeDefinitionIndex = 65590;
 
 	class JNOKHEAMOOA : public ::HGMMFJHJECA
 	{

@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System::Threading { class ThreadStart; }
 
-#define RPG_CLIENT_APPUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6968D0)
-#define RPG_CLIENT_APPUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC696910)
-#define RPG_CLIENT_APPUTILS___C__LAUNCHCHECKSUMTHREAD_B__117_0_OFFSET UNITYSDK_OFFSET(0xC696920)
+#define RPG_CLIENT_APPUTILS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFF1220)
+#define RPG_CLIENT_APPUTILS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCFF1260)
+#define RPG_CLIENT_APPUTILS___C__LAUNCHCHECKSUMTHREAD_B__117_0_OFFSET UNITYSDK_OFFSET(0xCFF1270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AppUtils___c_TypeDefinitionIndex = 59279;
+	inline static constexpr unsigned int AppUtils___c_TypeDefinitionIndex = 60556;
 
 	class AppUtils___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x570C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4FE30);
 		}
 
 		static ::System::Threading::ThreadStart** StaticGet___9__117_0()
 		{
-			return (::System::Threading::ThreadStart**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x570C8);
+			return (::System::Threading::ThreadStart**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4FE38);
 		}
 
 		static ::System::Void _cctor()

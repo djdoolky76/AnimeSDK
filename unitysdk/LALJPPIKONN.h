@@ -5,10 +5,10 @@ class LALJPPIKONN;
 namespace RPG::GameCore { class RuntimeGroupInfo; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LALJPPIKONN_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E7060)
-#define LALJPPIKONN_IKLDNENPLDN_OFFSET UNITYSDK_OFFSET(0xB5E6EE0)
+#define LALJPPIKONN_CTOR_OFFSET UNITYSDK_OFFSET(0xBE78970)
+#define LALJPPIKONN_IKLDNENPLDN_OFFSET UNITYSDK_OFFSET(0xBE787F0)
 
-inline static constexpr unsigned int LALJPPIKONN_TypeDefinitionIndex = 47156;
+inline static constexpr unsigned int LALJPPIKONN_TypeDefinitionIndex = 48184;
 
 	class LALJPPIKONN : public ::System::Object
 	{

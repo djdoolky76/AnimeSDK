@@ -5,10 +5,10 @@ class JOGAOGMJHCK;
 namespace UnityEngine { class RectTransform; }
 namespace UnityEngine::UI { class Text; }
 
-#define JOGAOGMJHCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB2A0270)
-#define JOGAOGMJHCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0300)
+#define JOGAOGMJHCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBACC050)
+#define JOGAOGMJHCK_CTOR_OFFSET UNITYSDK_OFFSET(0xBACC0E0)
 
-inline static constexpr unsigned int JOGAOGMJHCK_TypeDefinitionIndex = 71892;
+inline static constexpr unsigned int JOGAOGMJHCK_TypeDefinitionIndex = 73913;
 
 	class JOGAOGMJHCK : public ::System::Object
 	{

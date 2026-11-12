@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTrackPhotoStandardSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BBLEKPOMNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x15E90E30)
-#define BBLEKPOMNPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E90E60)
+#define BBLEKPOMNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x17089420)
+#define BBLEKPOMNPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17089450)
 
-inline static constexpr unsigned int BBLEKPOMNPH_TypeDefinitionIndex = 53257;
+inline static constexpr unsigned int BBLEKPOMNPH_TypeDefinitionIndex = 54419;
 
 	class BBLEKPOMNPH
 	{

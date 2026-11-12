@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InitLittleGameWithLevelConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LCNAMEHEKPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB619470)
-#define LCNAMEHEKPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6194A0)
+#define LCNAMEHEKPD_CTOR_OFFSET UNITYSDK_OFFSET(0xBEAC130)
+#define LCNAMEHEKPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEAC160)
 
-inline static constexpr unsigned int LCNAMEHEKPD_TypeDefinitionIndex = 52958;
+inline static constexpr unsigned int LCNAMEHEKPD_TypeDefinitionIndex = 54117;
 
 	class LCNAMEHEKPD
 	{

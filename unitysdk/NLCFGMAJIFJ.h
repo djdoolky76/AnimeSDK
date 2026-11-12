@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvGameplayTrackNpcStart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NLCFGMAJIFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBC63070)
-#define NLCFGMAJIFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC630A0)
+#define NLCFGMAJIFJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC548450)
+#define NLCFGMAJIFJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC548480)
 
-inline static constexpr unsigned int NLCFGMAJIFJ_TypeDefinitionIndex = 52381;
+inline static constexpr unsigned int NLCFGMAJIFJ_TypeDefinitionIndex = 53487;
 
 	class NLCFGMAJIFJ
 	{

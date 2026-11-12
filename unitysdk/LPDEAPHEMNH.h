@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LockSource.h"
 #include "unitysdk/System/Object.h"
 
-#define LPDEAPHEMNH_PAANEAMLHMK_OFFSET UNITYSDK_OFFSET(0xB81ABA0)
+#define LPDEAPHEMNH_PAANEAMLHMK_OFFSET UNITYSDK_OFFSET(0xC07C130)
 
-inline static constexpr unsigned int LPDEAPHEMNH_TypeDefinitionIndex = 64356;
+inline static constexpr unsigned int LPDEAPHEMNH_TypeDefinitionIndex = 65803;
 
 	class LPDEAPHEMNH : public ::System::Object
 	{

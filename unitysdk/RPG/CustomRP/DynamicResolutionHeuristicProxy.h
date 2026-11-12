@@ -5,12 +5,12 @@
 namespace System { class Object; }
 namespace UnityEngine { class Camera; }
 
-#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC2F880)
-#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CC2F3C0)
+#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD6CE0)
+#define RPG_CUSTOMRP_DYNAMICRESOLUTIONHEURISTICPROXY_UPDATE_OFFSET UNITYSDK_OFFSET(0x1DDD6820)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_TypeDefinitionIndex = 37717;
+	inline static constexpr unsigned int DynamicResolutionHeuristicProxy_TypeDefinitionIndex = 38646;
 
 	class DynamicResolutionHeuristicProxy : public ::System::Object
 	{
@@ -20,14 +20,14 @@ namespace RPG::CustomRP
 		::System::Single _CurFrameRenderScale; // 0x20
 		::System::Int32 _FrameCount; // 0x24
 		::System::Int32 _TailIndex; // 0x28
-		static ::System::Single* StaticGet_LastCPUTime()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "DynamicResolutionHeuristicProxy")->GetStaticField(0xA580);
-		}
-
 		static ::System::Single* StaticGet_LastGPUTime()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "DynamicResolutionHeuristicProxy")->GetStaticField(0xA584);
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "DynamicResolutionHeuristicProxy")->GetStaticField(0x8870);
+		}
+
+		static ::System::Single* StaticGet_LastCPUTime()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.CustomRP", "DynamicResolutionHeuristicProxy")->GetStaticField(0x8874);
 		}
 
 		::System::Void _ctor()

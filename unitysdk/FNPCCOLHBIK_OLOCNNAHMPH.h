@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 
-#define FNPCCOLHBIK_OLOCNNAHMPH_CTOR_OFFSET UNITYSDK_OFFSET(0x158D7250)
+#define FNPCCOLHBIK_OLOCNNAHMPH_CTOR_OFFSET UNITYSDK_OFFSET(0x16805B70)
 
-inline static constexpr unsigned int FNPCCOLHBIK_OLOCNNAHMPH_TypeDefinitionIndex = 60266;
+inline static constexpr unsigned int FNPCCOLHBIK_OLOCNNAHMPH_TypeDefinitionIndex = 61550;
 
 	class FNPCCOLHBIK_OLOCNNAHMPH : public ::System::Object
 	{
 	public:
-		::System::String* NHIGJKJJPGM; // 0x10
+		::RPG::GameCore::GameEntity* FKMOKGOBEHJ; // 0x10
 		::System::String* APODMGIFMFI; // 0x18
-		::RPG::GameCore::GameEntity* FKMOKGOBEHJ; // 0x20
+		::System::String* NHIGJKJJPGM; // 0x20
 		::System::Boolean CIFAPEKOKFC; // 0x28
 		::System::Void _ctor()
 		{

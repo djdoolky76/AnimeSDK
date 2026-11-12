@@ -6,17 +6,17 @@ class INHGMDFDJMD;
 namespace RPG::GameCore { class LightningStrikeAreaConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define INHGMDFDJMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CF26480)
-#define INHGMDFDJMD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF26490)
-#define INHGMDFDJMD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF26450)
+#define INHGMDFDJMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E10CA80)
+#define INHGMDFDJMD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E10CA90)
+#define INHGMDFDJMD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E10CA50)
 
-inline static constexpr unsigned int INHGMDFDJMD_TypeDefinitionIndex = 21076;
+inline static constexpr unsigned int INHGMDFDJMD_TypeDefinitionIndex = 21414;
 
 	class INHGMDFDJMD : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::LightningStrikeAreaConfig* BKGNKKLLLNC; // 0x18
-		::RPG::GameCore::TargetEvaluator* EGMDGDCHCOI; // 0x20
+		::RPG::GameCore::TargetEvaluator* EGMDGDCHCOI; // 0x18
+		::RPG::GameCore::LightningStrikeAreaConfig* BKGNKKLLLNC; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + INHGMDFDJMD_CTOR_OFFSET))(this);

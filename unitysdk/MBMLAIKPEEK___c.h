@@ -4,18 +4,18 @@
 class MBMLAIKPEEK;
 namespace System { class Object; }
 
-#define MBMLAIKPEEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9EBA90)
-#define MBMLAIKPEEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EBAD0)
-#define MBMLAIKPEEK___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1E9EBAE0)
+#define MBMLAIKPEEK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD34900)
+#define MBMLAIKPEEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD34940)
+#define MBMLAIKPEEK___C___CCTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1FD34950)
 
-inline static constexpr unsigned int MBMLAIKPEEK___c_TypeDefinitionIndex = 27539;
+inline static constexpr unsigned int MBMLAIKPEEK___c_TypeDefinitionIndex = 28070;
 
 	class MBMLAIKPEEK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x45940);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4BE90);
 		}
 
 		static ::System::Void _cctor()

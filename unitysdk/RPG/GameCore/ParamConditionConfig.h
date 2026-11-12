@@ -6,13 +6,13 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 namespace RPG::GameCore { class MiParameterConfigBase; }
 namespace RPG::GameCore { class ParamConditionConfig; }
 
-#define RPG_GAMECORE_PARAMCONDITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8ED9B0)
-#define RPG_GAMECORE_PARAMCONDITIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8ED9C0)
-#define RPG_GAMECORE_PARAMCONDITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8ED960)
+#define RPG_GAMECORE_PARAMCONDITIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB06F20)
+#define RPG_GAMECORE_PARAMCONDITIONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB06F30)
+#define RPG_GAMECORE_PARAMCONDITIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB06ED0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamConditionConfig_TypeDefinitionIndex = 17091;
+	inline static constexpr unsigned int ParamConditionConfig_TypeDefinitionIndex = 17258;
 
 	class ParamConditionConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{

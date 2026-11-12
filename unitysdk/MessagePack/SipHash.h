@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/System/ReadOnlySpan_1_075EFA8CFBE0DE9A.h"
 
-#define MESSAGEPACK_SIPHASH_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1BBC06C0)
-#define MESSAGEPACK_SIPHASH_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC1260)
+#define MESSAGEPACK_SIPHASH_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1CD49540)
+#define MESSAGEPACK_SIPHASH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4A0E0)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int SipHash_TypeDefinitionIndex = 7244;
+	inline static constexpr unsigned int SipHash_TypeDefinitionIndex = 7255;
 
 	class SipHash : public ::System::Object
 	{
 	public:
-		::System::UInt64 initialState1; // 0x10
-		::System::UInt64 initialState0; // 0x18
+		::System::UInt64 initialState0; // 0x10
+		::System::UInt64 initialState1; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MESSAGEPACK_SIPHASH_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DefineDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OAABKOFDOOB_CTOR_OFFSET UNITYSDK_OFFSET(0xBD16F00)
-#define OAABKOFDOOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD16F30)
+#define OAABKOFDOOB_CTOR_OFFSET UNITYSDK_OFFSET(0xC6156A0)
+#define OAABKOFDOOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC6156D0)
 
-inline static constexpr unsigned int OAABKOFDOOB_TypeDefinitionIndex = 54999;
+inline static constexpr unsigned int OAABKOFDOOB_TypeDefinitionIndex = 56173;
 
 	class OAABKOFDOOB
 	{

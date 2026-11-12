@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BreakMunicipalChat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEKIIPIANNE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF01160)
-#define AEKIIPIANNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF01190)
+#define AEKIIPIANNE_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B29D0)
+#define AEKIIPIANNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5B2A00)
 
-inline static constexpr unsigned int AEKIIPIANNE_TypeDefinitionIndex = 57962;
+inline static constexpr unsigned int AEKIIPIANNE_TypeDefinitionIndex = 59200;
 
 	class AEKIIPIANNE
 	{

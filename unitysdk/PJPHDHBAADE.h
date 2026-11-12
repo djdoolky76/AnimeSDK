@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define PJPHDHBAADE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F66B0)
+#define PJPHDHBAADE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5035E0)
 
-inline static constexpr unsigned int PJPHDHBAADE_TypeDefinitionIndex = 25021;
+inline static constexpr unsigned int PJPHDHBAADE_TypeDefinitionIndex = 25499;
 
 	class PJPHDHBAADE : public ::System::Attribute
 	{

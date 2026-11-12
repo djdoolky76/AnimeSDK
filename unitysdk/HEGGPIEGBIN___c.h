@@ -4,18 +4,18 @@
 class HEGGPIEGBIN;
 namespace System { class Object; }
 
-#define HEGGPIEGBIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E55A420)
-#define HEGGPIEGBIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55A460)
-#define HEGGPIEGBIN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E55A470)
+#define HEGGPIEGBIN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F853E50)
+#define HEGGPIEGBIN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F853E90)
+#define HEGGPIEGBIN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F853EA0)
 
-inline static constexpr unsigned int HEGGPIEGBIN___c_TypeDefinitionIndex = 35081;
+inline static constexpr unsigned int HEGGPIEGBIN___c_TypeDefinitionIndex = 36009;
 
 	class HEGGPIEGBIN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33240);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x28340);
 		}
 
 		static ::System::Void _cctor()

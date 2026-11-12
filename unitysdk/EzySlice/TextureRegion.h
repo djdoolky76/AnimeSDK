@@ -11,11 +11,11 @@
 #define EZYSLICE_TEXTUREREGION_GET_START_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define EZYSLICE_TEXTUREREGION_MAP_1_OFFSET UNITYSDK_OFFSET(0x1DA0)
 #define EZYSLICE_TEXTUREREGION_MAP_OFFSET UNITYSDK_OFFSET(0x1D50)
-#define EZYSLICE_TEXTUREREGION_MAP_OFFSET UNITYSDK_OFFSET(0xAF28A30)
+#define EZYSLICE_TEXTUREREGION_MAP_OFFSET UNITYSDK_OFFSET(0xB589A30)
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 46999;
+	inline static constexpr unsigned int TextureRegion_TypeDefinitionIndex = 48027;
 
 	struct alignas(4) TextureRegion
 	{

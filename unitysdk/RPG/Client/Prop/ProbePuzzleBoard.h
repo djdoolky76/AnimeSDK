@@ -17,23 +17,23 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD84390)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_CEEEDGIBIOH_OFFSET UNITYSDK_OFFSET(0xDD81950)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xDD84270)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDD810B0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_GLNPHBHJMNJ_OFFSET UNITYSDK_OFFSET(0xDD80D30)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_IBDHKLFAKJP_OFFSET UNITYSDK_OFFSET(0xDD83620)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xDD806B0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xDD81060)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_LNHDAFFDMEN_OFFSET UNITYSDK_OFFSET(0xDD82D00)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_NPELFHOHOLJ_OFFSET UNITYSDK_OFFSET(0xDD83E20)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_RESET_OFFSET UNITYSDK_OFFSET(0xDD81570)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_SETRESETNUMBER_OFFSET UNITYSDK_OFFSET(0xDD814C0)
-#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xDD80DB0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_CCTOR_OFFSET UNITYSDK_OFFSET(0xE7E17E0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_CEEEDGIBIOH_OFFSET UNITYSDK_OFFSET(0xE7DEDE0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0xE7E16C0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE7DE560)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_GLNPHBHJMNJ_OFFSET UNITYSDK_OFFSET(0xE7DE1E0)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_IBDHKLFAKJP_OFFSET UNITYSDK_OFFSET(0xE7E0A80)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_INITPUZZLE_OFFSET UNITYSDK_OFFSET(0xE7DDB70)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_ISPUZZLEFINISH_OFFSET UNITYSDK_OFFSET(0xE7DE510)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_LNHDAFFDMEN_OFFSET UNITYSDK_OFFSET(0xE7E0170)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_NPELFHOHOLJ_OFFSET UNITYSDK_OFFSET(0xE7E1280)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_RESET_OFFSET UNITYSDK_OFFSET(0xE7DEA00)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_SETRESETNUMBER_OFFSET UNITYSDK_OFFSET(0xE7DE970)
+#define RPG_CLIENT_PROP_PROBEPUZZLEBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0xE7DE260)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ProbePuzzleBoard_TypeDefinitionIndex = 78778;
+	inline static constexpr unsigned int ProbePuzzleBoard_TypeDefinitionIndex = 81513;
 
 	class ProbePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
@@ -72,27 +72,27 @@ namespace RPG::Client::Prop
 		::RPG::GameCore::NotifyShowFuncBtnParam* OLDAHDINLCN; // 0xE8
 		static ::System::String** StaticGet_CJDIFCBFIAB()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x5BBE0);
-		}
-
-		static ::System::Int32* StaticGet_HPFOEOPAFNI()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13EC0);
-		}
-
-		static ::UnityEngine::Vector3* StaticGet_HMEHAGGCBHF()
-		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13EC4);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x5C490);
 		}
 
 		static ::System::Int32* StaticGet_LKENCCLAPAE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13ED0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13A60);
 		}
 
 		static ::UnityEngine::Vector3* StaticGet_OIPLILIGFCL()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13ED4);
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13A64);
+		}
+
+		static ::System::Int32* StaticGet_HPFOEOPAFNI()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13A70);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_HMEHAGGCBHF()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("RPG.Client.Prop", "ProbePuzzleBoard")->GetStaticField(0x13A74);
 		}
 
 		::System::Void _ctor()

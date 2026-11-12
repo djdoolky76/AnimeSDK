@@ -6,23 +6,23 @@ namespace System { class String; }
 namespace UnityEngine::Rendering { class VolumeComponent; }
 namespace UnityEngine::Rendering { class VolumeProfile; }
 
-#define KEPBHJAKHCL_BIHKNODHIDI_OFFSET UNITYSDK_OFFSET(0xB383C60)
-#define KEPBHJAKHCL_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB383AE0)
-#define KEPBHJAKHCL_CTOR_OFFSET UNITYSDK_OFFSET(0xB383AB0)
-#define KEPBHJAKHCL_DGPLBNAIIGN_OFFSET UNITYSDK_OFFSET(0xB383AF0)
-#define KEPBHJAKHCL_GMFKFFBMACL_OFFSET UNITYSDK_OFFSET(0xB384130)
-#define KEPBHJAKHCL_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0xB383F40)
-#define KEPBHJAKHCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB384180)
+#define KEPBHJAKHCL_BIHKNODHIDI_OFFSET UNITYSDK_OFFSET(0xBC0FCD0)
+#define KEPBHJAKHCL_CTOR_1_OFFSET UNITYSDK_OFFSET(0xBC0FB50)
+#define KEPBHJAKHCL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0FB20)
+#define KEPBHJAKHCL_DGPLBNAIIGN_OFFSET UNITYSDK_OFFSET(0xBC0FB60)
+#define KEPBHJAKHCL_GMFKFFBMACL_OFFSET UNITYSDK_OFFSET(0xBC101A0)
+#define KEPBHJAKHCL_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0xBC0FFB0)
+#define KEPBHJAKHCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBC101F0)
 
-inline static constexpr unsigned int KEPBHJAKHCL_TypeDefinitionIndex = 49192;
+inline static constexpr unsigned int KEPBHJAKHCL_TypeDefinitionIndex = 50268;
 
 	class KEPBHJAKHCL : public ::DGICFAFGCPA
 	{
 	public:
 		::UnityEngine::Rendering::VolumeComponent* BJHBCJJDKML; // 0x20
-		::UnityEngine::Rendering::VolumeComponent* NHJPKHOMNCA; // 0x28
+		::UnityEngine::Rendering::VolumeComponent* LOJMPFBJHLC; // 0x28
 		::UnityEngine::Rendering::VolumeComponent* PBKIIDDODAD; // 0x30
-		::UnityEngine::Rendering::VolumeComponent* LOJMPFBJHLC; // 0x38
+		::UnityEngine::Rendering::VolumeComponent* NHJPKHOMNCA; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KEPBHJAKHCL_CTOR_OFFSET))(this);

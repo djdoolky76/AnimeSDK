@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MPPCBGCKDKC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1E47C0)
-#define MPPCBGCKDKC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1E4D40)
-#define MPPCBGCKDKC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1E4930)
-#define MPPCBGCKDKC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1E42B0)
-#define MPPCBGCKDKC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1E4540)
-#define MPPCBGCKDKC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1E49D0)
-#define MPPCBGCKDKC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1E4A20)
-#define MPPCBGCKDKC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1E4800)
-#define MPPCBGCKDKC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1E44E0)
-#define MPPCBGCKDKC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1E4670)
-#define MPPCBGCKDKC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1E4890)
-#define MPPCBGCKDKC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1E4230)
+#define MPPCBGCKDKC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E3F8480)
+#define MPPCBGCKDKC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3F8A00)
+#define MPPCBGCKDKC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E3F85F0)
+#define MPPCBGCKDKC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E3F7F70)
+#define MPPCBGCKDKC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E3F8200)
+#define MPPCBGCKDKC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E3F8690)
+#define MPPCBGCKDKC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E3F86E0)
+#define MPPCBGCKDKC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E3F84C0)
+#define MPPCBGCKDKC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E3F81A0)
+#define MPPCBGCKDKC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E3F8330)
+#define MPPCBGCKDKC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E3F8550)
+#define MPPCBGCKDKC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E3F7EF0)
 
-inline static constexpr unsigned int MPPCBGCKDKC_TypeDefinitionIndex = 14754;
+inline static constexpr unsigned int MPPCBGCKDKC_TypeDefinitionIndex = 14910;
 
 	class MPPCBGCKDKC : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x2C020);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x45340);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x2C028);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x45348);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueDLCAeonCabinetRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueDLCAeonCabinetRow*>**)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x2C030);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x89E0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RogueDLCAeonCabinetRow*>**)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x45350);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0x89E1);
+			return (::System::Byte*)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0xE9B0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "MPPCBGCKDKC")->GetStaticField(0xE9B1);
 		}
 
 		static ::System::Void _cctor()

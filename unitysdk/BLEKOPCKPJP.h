@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/FloorConnectivityData.h"
 
-#define BLEKOPCKPJP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA6BB10)
-#define BLEKOPCKPJP_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xBA6B340)
+#define BLEKOPCKPJP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3FDA20)
+#define BLEKOPCKPJP_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xC3FD270)
 
-inline static constexpr unsigned int BLEKOPCKPJP_TypeDefinitionIndex = 64232;
+inline static constexpr unsigned int BLEKOPCKPJP_TypeDefinitionIndex = 65677;
 
 	class BLEKOPCKPJP : public ::RPG::Client::FloorConnectivityData
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGameShare::TeamTowersCore
 {
-	inline static constexpr unsigned int ModifyType_TypeDefinitionIndex = 37124;
+	inline static constexpr unsigned int ModifyType_TypeDefinitionIndex = 38052;
 
 	enum class ModifyType : ::System::Int32
 	{

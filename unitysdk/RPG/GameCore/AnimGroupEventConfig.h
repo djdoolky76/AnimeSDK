@@ -6,12 +6,12 @@ namespace RPG::GameCore { class AnimGroupEventConfig; }
 namespace RPG::GameCore { class AnimGroupEventEntry; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3F2620)
-#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3F2420)
+#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6128A0)
+#define RPG_GAMECORE_ANIMGROUPEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6126A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AnimGroupEventConfig_TypeDefinitionIndex = 16294;
+	inline static constexpr unsigned int AnimGroupEventConfig_TypeDefinitionIndex = 16457;
 
 	class AnimGroupEventConfig : public ::RPG::GameCore::JsonConfig
 	{

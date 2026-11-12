@@ -7,23 +7,23 @@ namespace RPG::GameCore { class GuessTheSilhouetteResult; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 
-#define CMFCBCOKECM_BHEIANKOOPN_OFFSET UNITYSDK_OFFSET(0xDA2F680)
-#define CMFCBCOKECM_CTOR_OFFSET UNITYSDK_OFFSET(0xDA2F270)
-#define CMFCBCOKECM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA2F280)
-#define CMFCBCOKECM_HLKALGHOENC_OFFSET UNITYSDK_OFFSET(0xDA2F7F0)
-#define CMFCBCOKECM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA2F340)
-#define CMFCBCOKECM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA2F740)
-#define CMFCBCOKECM_TICK_OFFSET UNITYSDK_OFFSET(0xDA2F790)
+#define CMFCBCOKECM_BHEIANKOOPN_OFFSET UNITYSDK_OFFSET(0xE36E5E0)
+#define CMFCBCOKECM_CTOR_OFFSET UNITYSDK_OFFSET(0xE36E1D0)
+#define CMFCBCOKECM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE36E1E0)
+#define CMFCBCOKECM_HLKALGHOENC_OFFSET UNITYSDK_OFFSET(0xE36E750)
+#define CMFCBCOKECM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE36E2A0)
+#define CMFCBCOKECM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE36E6A0)
+#define CMFCBCOKECM_TICK_OFFSET UNITYSDK_OFFSET(0xE36E6F0)
 
-inline static constexpr unsigned int CMFCBCOKECM_TypeDefinitionIndex = 52922;
+inline static constexpr unsigned int CMFCBCOKECM_TypeDefinitionIndex = 54078;
 
 	class CMFCBCOKECM : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::Client::ActivityGuessTheSilhouetteData* FHKOBFOLJKM; // 0x18
-		::RPG::GameCore::ActivityGuessSilhouetteRow* OKDEHPPEGBO; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::RPG::GameCore::GuessTheSilhouetteResult* OFKGLJOAMLD; // 0x28
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
+		::RPG::GameCore::ActivityGuessSilhouetteRow* OKDEHPPEGBO; // 0x30
 		// static const ::System::String* BPFHDDEINLE; // 0x0
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GuessTheSilhouetteResult* a2)
 		{

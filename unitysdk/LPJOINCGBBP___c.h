@@ -4,18 +4,18 @@
 class LPJOINCGBBP;
 namespace System { class Object; }
 
-#define LPJOINCGBBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9D0FB0)
-#define LPJOINCGBBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D0FE0)
-#define LPJOINCGBBP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9D0FF0)
+#define LPJOINCGBBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCF6ED0)
+#define LPJOINCGBBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCF6F00)
+#define LPJOINCGBBP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FCF6F10)
 
-inline static constexpr unsigned int LPJOINCGBBP___c_TypeDefinitionIndex = 28649;
+inline static constexpr unsigned int LPJOINCGBBP___c_TypeDefinitionIndex = 29239;
 
 	class LPJOINCGBBP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42080);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49850);
 		}
 
 		static ::System::Void _cctor()

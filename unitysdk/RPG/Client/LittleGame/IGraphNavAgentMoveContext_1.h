@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IGraphNavAgentMoveContext_1_TypeDefinitionIndex = 42723;
+	inline static constexpr unsigned int IGraphNavAgentMoveContext_1_TypeDefinitionIndex = 43702;
 
 	template <typename T>
 	class IGraphNavAgentMoveContext_1

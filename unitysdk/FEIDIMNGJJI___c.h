@@ -14,65 +14,65 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define FEIDIMNGJJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x156F2F60)
-#define FEIDIMNGJJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156F2F90)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x156F2FA0)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x156F3330)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x156F36E0)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x156F3A70)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x156F3310)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x156F36C0)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x156F3A50)
-#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x156F3E00)
+#define FEIDIMNGJJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1660D100)
+#define FEIDIMNGJJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1660D130)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_0_OFFSET UNITYSDK_OFFSET(0x1660D140)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_1_OFFSET UNITYSDK_OFFSET(0x1660D4D0)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x1660D880)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x1660DC10)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_4_OFFSET UNITYSDK_OFFSET(0x1660D4B0)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_5_OFFSET UNITYSDK_OFFSET(0x1660D860)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_6_OFFSET UNITYSDK_OFFSET(0x1660DBF0)
+#define FEIDIMNGJJI___C__HANDLEPOSTPROCESS_B__1_7_OFFSET UNITYSDK_OFFSET(0x1660DFA0)
 
-inline static constexpr unsigned int FEIDIMNGJJI___c_TypeDefinitionIndex = 67139;
+inline static constexpr unsigned int FEIDIMNGJJI___c_TypeDefinitionIndex = 69083;
 
 	class FEIDIMNGJJI___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::DJDGPBBPACL*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_5()
-		{
-			return (::System::Func_2<::DJDGPBBPACL*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610E0);
-		}
-
-		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DPGJKPEOAEL*>*, ::OAAOEKMCCNG*>** StaticGet___9__1_3()
-		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DPGJKPEOAEL*>*, ::OAAOEKMCCNG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610E8);
-		}
-
-		static ::System::Func_2<::OGNDLEOODHN*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_6()
-		{
-			return (::System::Func_2<::OGNDLEOODHN*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610F0);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::HMJOALIFFGO*>*, ::ODENGLAMPEH*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::HMJOALIFFGO*>*, ::ODENGLAMPEH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x610F8);
-		}
-
-		static ::System::Func_2<::HMJOALIFFGO*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_4()
-		{
-			return (::System::Func_2<::HMJOALIFFGO*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61100);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::HMJOALIFFGO*>*, ::ODENGLAMPEH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50AD0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61108);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50AD8);
+		}
+
+		static ::System::Func_2<::DJDGPBBPACL*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_5()
+		{
+			return (::System::Func_2<::DJDGPBBPACL*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50AE0);
+		}
+
+		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DPGJKPEOAEL*>*, ::OAAOEKMCCNG*>** StaticGet___9__1_3()
+		{
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DPGJKPEOAEL*>*, ::OAAOEKMCCNG*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50AE8);
+		}
+
+		static ::System::Func_2<::HMJOALIFFGO*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_4()
+		{
+			return (::System::Func_2<::HMJOALIFFGO*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50AF0);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::OGNDLEOODHN*>*, ::DDGKLDJJBKK*>** StaticGet___9__1_2()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::OGNDLEOODHN*>*, ::DDGKLDJJBKK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61110);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::OGNDLEOODHN*>*, ::DDGKLDJJBKK*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50AF8);
 		}
 
 		static ::System::Func_2<::DPGJKPEOAEL*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_7()
 		{
-			return (::System::Func_2<::DPGJKPEOAEL*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61118);
+			return (::System::Func_2<::DPGJKPEOAEL*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50B00);
+		}
+
+		static ::System::Func_2<::OGNDLEOODHN*, ::RPG::Client::RogueFormulaData*>** StaticGet___9__1_6()
+		{
+			return (::System::Func_2<::OGNDLEOODHN*, ::RPG::Client::RogueFormulaData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50B08);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DJDGPBBPACL*>*, ::PHLFCAAANAE*>** StaticGet___9__1_1()
 		{
-			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DJDGPBBPACL*>*, ::PHLFCAAANAE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x61120);
+			return (::System::Func_2<::System::Collections::Generic::IEnumerable_1<::DJDGPBBPACL*>*, ::PHLFCAAANAE*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50B10);
 		}
 
 		static ::System::Void _cctor()

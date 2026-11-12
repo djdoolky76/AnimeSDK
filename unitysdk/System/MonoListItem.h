@@ -4,7 +4,7 @@
 namespace System { class MonoListItem; }
 namespace System { class Object; }
 
-#define SYSTEM_MONOLISTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C27FC90)
+#define SYSTEM_MONOLISTITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D406960)
 
 namespace System
 {

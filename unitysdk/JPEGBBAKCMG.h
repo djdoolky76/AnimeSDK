@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsMultiTargetCustomTeamFormation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPEGBBAKCMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BB480)
-#define JPEGBBAKCMG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB2BB4B0)
+#define JPEGBBAKCMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBAE71E0)
+#define JPEGBBAKCMG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBAE7210)
 
-inline static constexpr unsigned int JPEGBBAKCMG_TypeDefinitionIndex = 54907;
+inline static constexpr unsigned int JPEGBBAKCMG_TypeDefinitionIndex = 56079;
 
 	class JPEGBBAKCMG
 	{

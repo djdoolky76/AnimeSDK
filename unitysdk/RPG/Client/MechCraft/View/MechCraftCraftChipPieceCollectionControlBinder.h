@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MechCraft/View/MechCraftBinderBase.h"
 namespace RPG::Client { class PrefabLoadMeta; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD60C360)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROLBINDER_GET_PREFABPIECE_OFFSET UNITYSDK_OFFSET(0xD60BCD0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROLBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE05F200)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPPIECECOLLECTIONCONTROLBINDER_GET_PREFABPIECE_OFFSET UNITYSDK_OFFSET(0xE05EB70)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftChipPieceCollectionControlBinder_TypeDefinitionIndex = 79867;
+	inline static constexpr unsigned int MechCraftCraftChipPieceCollectionControlBinder_TypeDefinitionIndex = 82644;
 
 	class MechCraftCraftChipPieceCollectionControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{

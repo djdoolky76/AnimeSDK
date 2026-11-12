@@ -4,11 +4,11 @@
 class GKMDIDJNMKA;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define INBKLJGLCIL_CTOR_OFFSET UNITYSDK_OFFSET(0x164E69B0)
-#define INBKLJGLCIL_DMAPBGHPDCI_OFFSET UNITYSDK_OFFSET(0x164E6840)
-#define INBKLJGLCIL_NPJPBDLJLLN_OFFSET UNITYSDK_OFFSET(0x164E66E0)
+#define INBKLJGLCIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8163C0)
+#define INBKLJGLCIL_DMAPBGHPDCI_OFFSET UNITYSDK_OFFSET(0xB816250)
+#define INBKLJGLCIL_NPJPBDLJLLN_OFFSET UNITYSDK_OFFSET(0xB8160F0)
 
-inline static constexpr unsigned int INBKLJGLCIL_TypeDefinitionIndex = 81477;
+inline static constexpr unsigned int INBKLJGLCIL_TypeDefinitionIndex = 84257;
 
 	class INBKLJGLCIL : public ::System::Object
 	{

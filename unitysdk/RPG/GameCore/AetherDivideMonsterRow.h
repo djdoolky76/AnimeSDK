@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AetherDivideMonsterRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3D68A0)
-#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D3D61E0)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F6550)
+#define RPG_GAMECORE_AETHERDIVIDEMONSTERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5F5E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AetherDivideMonsterRow_TypeDefinitionIndex = 10924;
+	inline static constexpr unsigned int AetherDivideMonsterRow_TypeDefinitionIndex = 10940;
 
 	class AetherDivideMonsterRow : public ::System::Object
 	{
 	public:
 		::System::String* UltraSkillCutInPrefabPath; // 0x10
-		::RPG::GameCore::AetherSpiritType MonsterType; // 0x18
-		::System::UInt32 MonsterID; // 0x1C
-		::RPG::GameCore::FixPoint SPMax; // 0x20
+		::RPG::GameCore::FixPoint SPMax; // 0x18
+		::RPG::GameCore::AetherSpiritType MonsterType; // 0x20
+		::System::UInt32 MonsterID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AETHERDIVIDEMONSTERROW_CTOR_OFFSET))(this);

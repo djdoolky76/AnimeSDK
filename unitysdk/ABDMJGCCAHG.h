@@ -3,10 +3,10 @@
 #include "unitysdk/GPFEAEOEGFA.h"
 namespace UnityEngine { class GameObject; }
 
-#define ABDMJGCCAHG_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F03E0)
-#define ABDMJGCCAHG_GETTYPEID_OFFSET UNITYSDK_OFFSET(0xB0F03F0)
+#define ABDMJGCCAHG_CTOR_OFFSET UNITYSDK_OFFSET(0xB752FE0)
+#define ABDMJGCCAHG_GETTYPEID_OFFSET UNITYSDK_OFFSET(0xB752FF0)
 
-inline static constexpr unsigned int ABDMJGCCAHG_TypeDefinitionIndex = 49043;
+inline static constexpr unsigned int ABDMJGCCAHG_TypeDefinitionIndex = 50119;
 
 	class ABDMJGCCAHG : public ::GPFEAEOEGFA
 	{

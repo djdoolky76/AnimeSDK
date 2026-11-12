@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPG_CLIENT_CROWDANIMATOR_CAPSULECOLLIDERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC9590)
+#define RPG_CLIENT_CROWDANIMATOR_CAPSULECOLLIDERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xD53D1F0)
 
 namespace RPG::Client::CrowdAnimator
 {
-	inline static constexpr unsigned int CapsuleColliderInfo_TypeDefinitionIndex = 73734;
+	inline static constexpr unsigned int CapsuleColliderInfo_TypeDefinitionIndex = 75857;
 
 	class CapsuleColliderInfo : public ::System::Object
 	{

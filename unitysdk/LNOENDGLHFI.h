@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LNOENDGLHFI_BDGELOGOIKA_OFFSET UNITYSDK_OFFSET(0xB7EA410)
-#define LNOENDGLHFI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7EA0D0)
-#define LNOENDGLHFI_NLJFGDDFJMH_OFFSET UNITYSDK_OFFSET(0xB7EA170)
-#define LNOENDGLHFI_PBBODGEKGDH_OFFSET UNITYSDK_OFFSET(0xB7EA450)
-#define LNOENDGLHFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB7EA2A0)
-#define LNOENDGLHFI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB7EA350)
+#define LNOENDGLHFI_BDGELOGOIKA_OFFSET UNITYSDK_OFFSET(0xC049920)
+#define LNOENDGLHFI_CTOR_OFFSET UNITYSDK_OFFSET(0xC0495B0)
+#define LNOENDGLHFI_NLJFGDDFJMH_OFFSET UNITYSDK_OFFSET(0xC049650)
+#define LNOENDGLHFI_PBBODGEKGDH_OFFSET UNITYSDK_OFFSET(0xC049960)
+#define LNOENDGLHFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC049780)
+#define LNOENDGLHFI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC049830)
 
-inline static constexpr unsigned int LNOENDGLHFI_TypeDefinitionIndex = 67050;
+inline static constexpr unsigned int LNOENDGLHFI_TypeDefinitionIndex = 68994;
 
 	class LNOENDGLHFI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* OLDOJJDKBOO; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* FICEEDILADP; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* FICEEDILADP; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* OLDOJJDKBOO; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a1, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::IRogueTournPersonaRoomCardInGame*>*))((::PBYTE)hIl2Cpp + LNOENDGLHFI_CTOR_OFFSET))(this, a1, a2);

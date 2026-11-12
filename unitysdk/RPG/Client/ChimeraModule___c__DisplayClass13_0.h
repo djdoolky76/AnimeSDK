@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ChimeraModule; }
 
-#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCB52400)
-#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0___UPDATECURRENTWORKREMAINHP_B__0_OFFSET UNITYSDK_OFFSET(0xCB55E40)
+#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD4B6150)
+#define RPG_CLIENT_CHIMERAMODULE___C__DISPLAYCLASS13_0___UPDATECURRENTWORKREMAINHP_B__0_OFFSET UNITYSDK_OFFSET(0xD4BA020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraModule___c__DisplayClass13_0_TypeDefinitionIndex = 63414;
+	inline static constexpr unsigned int ChimeraModule___c__DisplayClass13_0_TypeDefinitionIndex = 64852;
 
 	class ChimeraModule___c__DisplayClass13_0 : public ::System::Object
 	{

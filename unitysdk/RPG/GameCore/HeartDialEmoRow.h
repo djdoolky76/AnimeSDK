@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class HeartDialEmoRow; }
 
-#define RPG_GAMECORE_HEARTDIALEMOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7588A0)
-#define RPG_GAMECORE_HEARTDIALEMOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D758260)
+#define RPG_GAMECORE_HEARTDIALEMOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E96C200)
+#define RPG_GAMECORE_HEARTDIALEMOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E96BBC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeartDialEmoRow_TypeDefinitionIndex = 13726;
+	inline static constexpr unsigned int HeartDialEmoRow_TypeDefinitionIndex = 13883;
 
 	class HeartDialEmoRow : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class PEGJIHHIFOP;
 namespace System { class Object; }
 
-#define PEGJIHHIFOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF1A110)
-#define PEGJIHHIFOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF1A150)
-#define PEGJIHHIFOP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF1A160)
+#define PEGJIHHIFOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1E6410)
+#define PEGJIHHIFOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1E6450)
+#define PEGJIHHIFOP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F1E6460)
 
-inline static constexpr unsigned int PEGJIHHIFOP___c_TypeDefinitionIndex = 25151;
+inline static constexpr unsigned int PEGJIHHIFOP___c_TypeDefinitionIndex = 25629;
 
 	class PEGJIHHIFOP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39500);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x30580);
 		}
 
 		static ::System::Void _cctor()

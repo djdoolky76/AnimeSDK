@@ -12,32 +12,32 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Animator; }
 
-#define KIBCICJMIAC_ACFJJGEHCNK_OFFSET UNITYSDK_OFFSET(0xB417E10)
-#define KIBCICJMIAC_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4186F0)
-#define KIBCICJMIAC_CTOR_OFFSET UNITYSDK_OFFSET(0xB4163D0)
-#define KIBCICJMIAC_DBHHKOICCAJ_OFFSET UNITYSDK_OFFSET(0xB417FD0)
-#define KIBCICJMIAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB416B40)
-#define KIBCICJMIAC_GET_ANIM_ZONE_COUNT_OFFSET UNITYSDK_OFFSET(0xB4163A0)
-#define KIBCICJMIAC_INCCIJPEAKB_OFFSET UNITYSDK_OFFSET(0xB418670)
-#define KIBCICJMIAC_JFEMLDKBLBJ_OFFSET UNITYSDK_OFFSET(0xB416BE0)
-#define KIBCICJMIAC_LEEFMLEPGLB_OFFSET UNITYSDK_OFFSET(0xB416570)
-#define KIBCICJMIAC_MPNJBFIAGHN_1_OFFSET UNITYSDK_OFFSET(0xB4175B0)
-#define KIBCICJMIAC_MPNJBFIAGHN_OFFSET UNITYSDK_OFFSET(0xB416CC0)
-#define KIBCICJMIAC_PMLFICBIINN_OFFSET UNITYSDK_OFFSET(0xB418020)
+#define KIBCICJMIAC_ACFJJGEHCNK_OFFSET UNITYSDK_OFFSET(0xBCAE110)
+#define KIBCICJMIAC_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCAE9F0)
+#define KIBCICJMIAC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCAC6D0)
+#define KIBCICJMIAC_DBHHKOICCAJ_OFFSET UNITYSDK_OFFSET(0xBCAE2D0)
+#define KIBCICJMIAC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCACE40)
+#define KIBCICJMIAC_GET_ANIM_ZONE_COUNT_OFFSET UNITYSDK_OFFSET(0xBCAC6A0)
+#define KIBCICJMIAC_INCCIJPEAKB_OFFSET UNITYSDK_OFFSET(0xBCAE970)
+#define KIBCICJMIAC_JFEMLDKBLBJ_OFFSET UNITYSDK_OFFSET(0xBCACEE0)
+#define KIBCICJMIAC_LEEFMLEPGLB_OFFSET UNITYSDK_OFFSET(0xBCAC870)
+#define KIBCICJMIAC_MPNJBFIAGHN_1_OFFSET UNITYSDK_OFFSET(0xBCAD8B0)
+#define KIBCICJMIAC_MPNJBFIAGHN_OFFSET UNITYSDK_OFFSET(0xBCACFC0)
+#define KIBCICJMIAC_PMLFICBIINN_OFFSET UNITYSDK_OFFSET(0xBCAE320)
 
-inline static constexpr unsigned int KIBCICJMIAC_TypeDefinitionIndex = 55916;
+inline static constexpr unsigned int KIBCICJMIAC_TypeDefinitionIndex = 57119;
 
 	class KIBCICJMIAC : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Object*>* DODOMIEMOOH; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::AnimatorStateZoneDescConfig*>*>* NBADGOKJLCJ; // 0x18
-		::System::Collections::Generic::List_1<::RPG::GameCore::AnimatorStateZoneDescConfig*>* CIJMDLJEMGE; // 0x20
-		::Il2CppArray<::System::String*>* MJNLPCFEOMB; // 0x28
+		::System::Collections::Generic::List_1<::RPG::GameCore::AnimatorStateZoneDescConfig*>* CIJMDLJEMGE; // 0x10
+		::Il2CppArray<::System::Object*>* DODOMIEMOOH; // 0x18
+		::Il2CppArray<::System::String*>* MJNLPCFEOMB; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::RPG::GameCore::AnimatorStateZoneDescConfig*>*>* NBADGOKJLCJ; // 0x28
 		::System::Int32 JNODFHKKIDF; // 0x30
 		static ::System::Int32* StaticGet__ANIM_ZONE_COUNT_k__BackingField()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "KIBCICJMIAC")->GetStaticField(0x12C00);
+			return (::System::Int32*)UnitySDK::FromName("", "KIBCICJMIAC")->GetStaticField(0xDBB0);
 		}
 
 		// static const ::System::Object KNHHMHHFOIH; // 0x0

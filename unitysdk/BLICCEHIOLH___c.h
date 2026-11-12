@@ -4,18 +4,18 @@
 class BLICCEHIOLH;
 namespace System { class Object; }
 
-#define BLICCEHIOLH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF63690)
-#define BLICCEHIOLH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF636D0)
-#define BLICCEHIOLH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF636E0)
+#define BLICCEHIOLH___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2BBB80)
+#define BLICCEHIOLH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2BBBC0)
+#define BLICCEHIOLH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F2BBBD0)
 
-inline static constexpr unsigned int BLICCEHIOLH___c_TypeDefinitionIndex = 33310;
+inline static constexpr unsigned int BLICCEHIOLH___c_TypeDefinitionIndex = 34225;
 
 	class BLICCEHIOLH___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4CF20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4FEA0);
 		}
 
 		static ::System::Void _cctor()

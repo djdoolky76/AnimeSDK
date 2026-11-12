@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightRole; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONROLEOPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xD154B70)
+#define RPG_CLIENT_GRIDFIGHTGAMEFORMATIONEDITOR_GRIDFIGHTGAMEFORMATIONROLEOPTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDB1A030)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationRoleOption_TypeDefinitionIndex = 64642;
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationRoleOption_TypeDefinitionIndex = 66171;
 
 	class GridFightGameFormationEditor_GridFightGameFormationRoleOption : public ::System::Object
 	{

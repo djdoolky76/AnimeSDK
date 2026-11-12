@@ -7,30 +7,30 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GCMNECJNLBL_JPIJLDPPJBF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15985AE0)
-#define GCMNECJNLBL_JPIJLDPPJBF_EGKNKHEANAN_OFFSET UNITYSDK_OFFSET(0x15985530)
-#define GCMNECJNLBL_JPIJLDPPJBF_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x159854C0)
-#define GCMNECJNLBL_JPIJLDPPJBF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x159858E0)
-#define GCMNECJNLBL_JPIJLDPPJBF_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0x15985700)
+#define GCMNECJNLBL_JPIJLDPPJBF_CCTOR_OFFSET UNITYSDK_OFFSET(0x168BC1F0)
+#define GCMNECJNLBL_JPIJLDPPJBF_EGKNKHEANAN_OFFSET UNITYSDK_OFFSET(0x168BBC40)
+#define GCMNECJNLBL_JPIJLDPPJBF_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x168BBBD0)
+#define GCMNECJNLBL_JPIJLDPPJBF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x168BBFF0)
+#define GCMNECJNLBL_JPIJLDPPJBF_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0x168BBE10)
 
-inline static constexpr unsigned int GCMNECJNLBL_JPIJLDPPJBF_TypeDefinitionIndex = 49217;
+inline static constexpr unsigned int GCMNECJNLBL_JPIJLDPPJBF_TypeDefinitionIndex = 50293;
 
 	class GCMNECJNLBL_JPIJLDPPJBF : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::System::Object*>** StaticGet_JDICEOFMLDK()
 		{
-			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("", "JPIJLDPPJBF")->GetStaticField(0x544C0);
+			return (::System::Collections::Generic::List_1<::System::Object*>**)UnitySDK::FromName("", "JPIJLDPPJBF")->GetStaticField(0x5E320);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>** StaticGet_JPIOMJKGNOC()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "JPIJLDPPJBF")->GetStaticField(0x544C8);
+			return (::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "JPIJLDPPJBF")->GetStaticField(0x5E328);
 		}
 
 		static ::System::Int32* StaticGet_PILENEALLFH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "JPIJLDPPJBF")->GetStaticField(0x12BE0);
+			return (::System::Int32*)UnitySDK::FromName("", "JPIJLDPPJBF")->GetStaticField(0x13ED0);
 		}
 
 		static ::System::Void _cctor()

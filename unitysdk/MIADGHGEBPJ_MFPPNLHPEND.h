@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIADGHGEBPJ_MFPPNLHPEND_CLEAR_OFFSET UNITYSDK_OFFSET(0xB94B940)
-#define MIADGHGEBPJ_MFPPNLHPEND_CTOR_OFFSET UNITYSDK_OFFSET(0xB94B9A0)
+#define MIADGHGEBPJ_MFPPNLHPEND_CLEAR_OFFSET UNITYSDK_OFFSET(0xC2002F0)
+#define MIADGHGEBPJ_MFPPNLHPEND_CTOR_OFFSET UNITYSDK_OFFSET(0xC200350)
 
-inline static constexpr unsigned int MIADGHGEBPJ_MFPPNLHPEND_TypeDefinitionIndex = 57448;
+inline static constexpr unsigned int MIADGHGEBPJ_MFPPNLHPEND_TypeDefinitionIndex = 58676;
 
 	class MIADGHGEBPJ_MFPPNLHPEND : public ::System::Object
 	{

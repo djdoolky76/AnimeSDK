@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class AGAGNDEHIOI;
 
-#define AGAGNDEHIOI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF24900)
-#define AGAGNDEHIOI___C__DISPLAYCLASS11_0__SETSIBLINGINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xCF25040)
+#define AGAGNDEHIOI___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5DA710)
+#define AGAGNDEHIOI___C__DISPLAYCLASS11_0__SETSIBLINGINDEX_B__0_OFFSET UNITYSDK_OFFSET(0xD5DAE50)
 
-inline static constexpr unsigned int AGAGNDEHIOI___c__DisplayClass11_0_TypeDefinitionIndex = 71435;
+inline static constexpr unsigned int AGAGNDEHIOI___c__DisplayClass11_0_TypeDefinitionIndex = 73417;
 
 	class AGAGNDEHIOI___c__DisplayClass11_0 : public ::System::Object
 	{

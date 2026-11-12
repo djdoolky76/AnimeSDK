@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_JOYPADTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE87720)
+#define MIHOYO_SDK_JOYPADTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D010920)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int JoyPadType_TypeDefinitionIndex = 7576;
+	inline static constexpr unsigned int JoyPadType_TypeDefinitionIndex = 7585;
 
 	class JoyPadType : public ::System::Object
 	{

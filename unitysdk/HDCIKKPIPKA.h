@@ -6,10 +6,10 @@ namespace Google::Protobuf::Collections { template <typename T> class RepeatedFi
 namespace RPG::Client::BlindBox::Trade { class PublicBlindBoxTradeOrder; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HDCIKKPIPKA_CABIFHLBBOF_OFFSET UNITYSDK_OFFSET(0x15C302D0)
-#define HDCIKKPIPKA_PIOKOOFLFLA_OFFSET UNITYSDK_OFFSET(0x15C30800)
+#define HDCIKKPIPKA_CABIFHLBBOF_OFFSET UNITYSDK_OFFSET(0x16B73980)
+#define HDCIKKPIPKA_PIOKOOFLFLA_OFFSET UNITYSDK_OFFSET(0x16B73EB0)
 
-inline static constexpr unsigned int HDCIKKPIPKA_TypeDefinitionIndex = 74864;
+inline static constexpr unsigned int HDCIKKPIPKA_TypeDefinitionIndex = 77191;
 
 	class HDCIKKPIPKA : public ::System::Object
 	{

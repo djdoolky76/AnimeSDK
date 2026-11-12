@@ -6,13 +6,13 @@ namespace RPG::GameCore { class MazeBuff; }
 namespace RPG::GameCore { class TriggerMazeBuffSelect; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC54C50)
-#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC54C60)
-#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC54C20)
+#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE68C50)
+#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE68C60)
+#define RPG_GAMECORE_TRIGGERMAZEBUFFSELECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE68C20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerMazeBuffSelect_TypeDefinitionIndex = 20418;
+	inline static constexpr unsigned int TriggerMazeBuffSelect_TypeDefinitionIndex = 20753;
 
 	class TriggerMazeBuffSelect : public ::RPG::GameCore::TaskConfig
 	{

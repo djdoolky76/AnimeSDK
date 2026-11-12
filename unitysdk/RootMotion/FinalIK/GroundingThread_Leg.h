@@ -25,7 +25,7 @@ namespace RootMotion::FinalIK { class GroundingThread; }
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundingThread_Leg_TypeDefinitionIndex = 46000;
+	inline static constexpr unsigned int GroundingThread_Leg_TypeDefinitionIndex = 47029;
 
 	struct alignas(8) GroundingThread_Leg
 	{

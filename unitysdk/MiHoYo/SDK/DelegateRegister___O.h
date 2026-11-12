@@ -46,219 +46,219 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelDelegate_RegisterMicroTxnCallba
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int DelegateRegister___O_TypeDefinitionIndex = 46274;
+	inline static constexpr unsigned int DelegateRegister___O_TypeDefinitionIndex = 47302;
 
 	class DelegateRegister___O : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate** StaticGet__21___Checkout()
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate** StaticGet__26___Query()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F110);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate** StaticGet__18___Login()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F118);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate** StaticGet__29___SDKLogin()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F120);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate** StaticGet__14___GetGlobalUserAgent()
-		{
-			return (::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F128);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable** StaticGet__7___SetAnimationEnable()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F130);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_AsbPathDelegate** StaticGet__0___OnGetAsbPath()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_AsbPathDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F138);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate** StaticGet__33___GetProcessWnd()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F140);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194A0);
 		}
 
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ProductsDelegate** StaticGet__20___Products()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ProductsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F148);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate** StaticGet__24___RegisterMicroTxnCallback()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F150);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate** StaticGet__40___StopKibana()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F158);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_ReportToKibanaDelegate** StaticGet__41___ReportToKibana()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_ReportToKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F160);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ProductsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194A8);
 		}
 
 		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckEntitlementsDelegate** StaticGet__22___CheckEntitlements()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckEntitlementsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F168);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_WebEventDelegate** StaticGet__6___OnGetWebEvent()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_WebEventDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F170);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate** StaticGet__31___SDKStartHeartbeat()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F178);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate** StaticGet__16___SetGameVolume()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F180);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate** StaticGet__13___GetGlobalUserAgent()
-		{
-			return (::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F188);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate** StaticGet__12___SetGlobalUserAgent()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F190);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate** StaticGet__30___SDKPay()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F198);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable** StaticGet__8___SetJoypadCloseEnable()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1A0);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate** StaticGet__26___Query()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_QueryDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1A8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ConsumeDelegate** StaticGet__23___Consume()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ConsumeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1B0);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate** StaticGet__37___StopDataUpload()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1B8);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InitDelegate** StaticGet__17___Init()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1C0);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_InitDelegate** StaticGet__34___Init()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1C8);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate** StaticGet__32___SDKLogout()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1D0);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate** StaticGet__38___ReportToDataUpload()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1D8);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKInitDelegate** StaticGet__27___SDKInit()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1E0);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate** StaticGet__39___StartKibana()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1E8);
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckEntitlementsDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194B0);
 		}
 
 		static ::MiHoYo::SDK::SDKDelegate_LoadFileDelegate** StaticGet__3___LoadJsonFile()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_LoadFileDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1F0);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate** StaticGet__15___SetWebVolume()
-		{
-			return (::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F1F8);
-		}
-
-		static ::MiHoYo::SDK::WebDelegate_InitDelegate** StaticGet__10___Init()
-		{
-			return (::MiHoYo::SDK::WebDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F200);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_LogDelegate** StaticGet__4___OnMiHoYoSDKLogNotification()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_LogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F208);
-		}
-
-		static ::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate** StaticGet__36___StartDataUpload()
-		{
-			return (::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F210);
-		}
-
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate** StaticGet__19___AuthToken()
-		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F218);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate** StaticGet__5___SetLoginResult()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F220);
-		}
-
-		static ::MiHoYo::SDK::SDKDelegate_ResourcePathDelegate** StaticGet__1___OnGetResourcePath()
-		{
-			return (::MiHoYo::SDK::SDKDelegate_ResourcePathDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F228);
+			return (::MiHoYo::SDK::SDKDelegate_LoadFileDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194B8);
 		}
 
 		static ::MiHoYo::SDK::BiliBiliDelegate_SDKUnInitDelegate** StaticGet__28___SDKUnInit()
 		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKUnInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F230);
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKUnInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194C0);
 		}
 
-		static ::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate** StaticGet__9___GetDiskType()
+		static ::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate** StaticGet__5___SetLoginResult()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F238);
+			return (::MiHoYo::SDK::SDKDelegate_SecuritySetLoginResultDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194C8);
 		}
 
-		static ::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate** StaticGet__35___SetConfig()
+		static ::MiHoYo::SDK::SDKDelegate_AsbPathDelegate** StaticGet__0___OnGetAsbPath()
 		{
-			return (::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F240);
+			return (::MiHoYo::SDK::SDKDelegate_AsbPathDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194D0);
 		}
 
-		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate** StaticGet__25___RegisterGameOverlayCallback()
+		static ::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate** StaticGet__15___SetWebVolume()
 		{
-			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F248);
+			return (::MiHoYo::SDK::WebDelegate_SetWebVolumeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194D8);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_ResourcePathDelegate** StaticGet__1___OnGetResourcePath()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_ResourcePathDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194E0);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate** StaticGet__31___SDKStartHeartbeat()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194E8);
 		}
 
 		static ::MiHoYo::SDK::SDKDelegate_IsEditorDelegate** StaticGet__2___IsEditor()
 		{
-			return (::MiHoYo::SDK::SDKDelegate_IsEditorDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F250);
+			return (::MiHoYo::SDK::SDKDelegate_IsEditorDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194F0);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_ReportToKibanaDelegate** StaticGet__41___ReportToKibana()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_ReportToKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x194F8);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable** StaticGet__8___SetJoypadCloseEnable()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_WebViewJoypadCloseEnable**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19500);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate** StaticGet__30___SDKPay()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19508);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate** StaticGet__38___ReportToDataUpload()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_ReportToDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19510);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate** StaticGet__29___SDKLogin()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19518);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_LogDelegate** StaticGet__4___OnMiHoYoSDKLogNotification()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_LogDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19520);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate** StaticGet__39___StartKibana()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StartKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19528);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate** StaticGet__9___GetDiskType()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_GetDiskTypeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19530);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InitDelegate** StaticGet__17___Init()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19538);
 		}
 
 		static ::MiHoYo::SDK::WebDelegate_PreLoadDelegate** StaticGet__11___PreLoad()
 		{
-			return (::MiHoYo::SDK::WebDelegate_PreLoadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x1F258);
+			return (::MiHoYo::SDK::WebDelegate_PreLoadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19540);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_WebEventDelegate** StaticGet__6___OnGetWebEvent()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_WebEventDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19548);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate** StaticGet__16___SetGameVolume()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetGameVolumeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19550);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate** StaticGet__19___AuthToken()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_AuthTokenDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19558);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ConsumeDelegate** StaticGet__23___Consume()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_ConsumeDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19560);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_InitDelegate** StaticGet__10___Init()
+		{
+			return (::MiHoYo::SDK::WebDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19568);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate** StaticGet__36___StartDataUpload()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StartDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19570);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate** StaticGet__13___GetGlobalUserAgent()
+		{
+			return (::MiHoYo::SDK::WebDelegate_GetGlobalUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19578);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate** StaticGet__37___StopDataUpload()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StopDataUploadDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19580);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate** StaticGet__32___SDKLogout()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19588);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate** StaticGet__33___GetProcessWnd()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19590);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate** StaticGet__25___RegisterGameOverlayCallback()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterGameOverlayCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x19598);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate** StaticGet__18___Login()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_LoginDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195A0);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate** StaticGet__40___StopKibana()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_StopKibanaDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195A8);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_InitDelegate** StaticGet__34___Init()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_InitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195B0);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate** StaticGet__24___RegisterMicroTxnCallback()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_RegisterMicroTxnCallbackDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195B8);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKInitDelegate** StaticGet__27___SDKInit()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195C0);
+		}
+
+		static ::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate** StaticGet__21___Checkout()
+		{
+			return (::MiHoYo::SDK::PC::OS::HoYoChannelDelegate_CheckoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195C8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate** StaticGet__14___GetGlobalUserAgent()
+		{
+			return (::MiHoYo::SDK::WebDelegate_GetUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195D0);
+		}
+
+		static ::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable** StaticGet__7___SetAnimationEnable()
+		{
+			return (::MiHoYo::SDK::SDKDelegate_WebViewAnimationEnable**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195D8);
+		}
+
+		static ::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate** StaticGet__12___SetGlobalUserAgent()
+		{
+			return (::MiHoYo::SDK::WebDelegate_SetGlobalUserAgentDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195E0);
+		}
+
+		static ::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate** StaticGet__35___SetConfig()
+		{
+			return (::MiHoYo::SDK::TelemetryDelegate_SetConfigDelegate**)UnitySDK::FromName("MiHoYo.SDK", "<>O")->GetStaticField(0x195E8);
 		}
 
 	};

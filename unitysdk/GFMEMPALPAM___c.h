@@ -4,18 +4,18 @@
 class GFMEMPALPAM;
 namespace System { class Object; }
 
-#define GFMEMPALPAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E472560)
-#define GFMEMPALPAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4725A0)
-#define GFMEMPALPAM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4725B0)
+#define GFMEMPALPAM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7604A0)
+#define GFMEMPALPAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7604E0)
+#define GFMEMPALPAM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F7604F0)
 
-inline static constexpr unsigned int GFMEMPALPAM___c_TypeDefinitionIndex = 32779;
+inline static constexpr unsigned int GFMEMPALPAM___c_TypeDefinitionIndex = 33694;
 
 	class GFMEMPALPAM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14C10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xD070);
 		}
 
 		static ::System::Void _cctor()

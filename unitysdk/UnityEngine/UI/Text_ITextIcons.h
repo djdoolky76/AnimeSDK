@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Text_ITextIcons_TypeDefinitionIndex = 6864;
+	inline static constexpr unsigned int Text_ITextIcons_TypeDefinitionIndex = 6875;
 
 	class Text_ITextIcons
 	{

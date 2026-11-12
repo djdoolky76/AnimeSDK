@@ -5,25 +5,25 @@ namespace RPG::Client { class RogueTournPersonaHexEquipmentSlotItemInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE020520)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE020560)
-#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__GET_EQUIPPEDCOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0xE020570)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA8A920)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA8A960)
+#define RPG_CLIENT_ROGUETOURNPERSONAHEXEQUIPMENTSLOTPANELINFO___C__GET_EQUIPPEDCOUNT_B__2_0_OFFSET UNITYSDK_OFFSET(0xEA8A970)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex = 72889;
+	inline static constexpr unsigned int RogueTournPersonaHexEquipmentSlotPanelInfo___c_TypeDefinitionIndex = 74999;
 
 	class RogueTournPersonaHexEquipmentSlotPanelInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*, ::System::Boolean>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D5E0);
+			return (::System::Func_2<::RPG::Client::RogueTournPersonaHexEquipmentSlotItemInfo*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72560);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D5E8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72568);
 		}
 
 		static ::System::Void _cctor()

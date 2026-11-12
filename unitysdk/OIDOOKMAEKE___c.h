@@ -4,18 +4,18 @@
 class OIDOOKMAEKE;
 namespace System { class Object; }
 
-#define OIDOOKMAEKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE6A9A0)
-#define OIDOOKMAEKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6A9D0)
-#define OIDOOKMAEKE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DE6A9E0)
+#define OIDOOKMAEKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1129E0)
+#define OIDOOKMAEKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F112A10)
+#define OIDOOKMAEKE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F112A20)
 
-inline static constexpr unsigned int OIDOOKMAEKE___c_TypeDefinitionIndex = 26292;
+inline static constexpr unsigned int OIDOOKMAEKE___c_TypeDefinitionIndex = 26819;
 
 	class OIDOOKMAEKE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1BD50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16B50);
 		}
 
 		static ::System::Void _cctor()

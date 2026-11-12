@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 
-#define HFLGMNENECK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAC84B0)
-#define HFLGMNENECK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC8500)
+#define HFLGMNENECK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DC8CEE0)
+#define HFLGMNENECK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8CF30)
 
-inline static constexpr unsigned int HFLGMNENECK_TypeDefinitionIndex = 43389;
+inline static constexpr unsigned int HFLGMNENECK_TypeDefinitionIndex = 44370;
 
 	class HFLGMNENECK : public ::System::Object
 	{

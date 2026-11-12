@@ -7,15 +7,15 @@ namespace Cinemachine { class CinemachineBrain; }
 namespace Cinemachine::Timeline { class CinemachineMixer_MasterDirectorDelegate; }
 namespace System { class Object; }
 
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0x166AF260)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x166AF200)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x166AE7F0)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x166AE820)
-#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x166AE830)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_CTOR_OFFSET UNITYSDK_OFFSET(0x174F3910)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_GETDELTATIME_OFFSET UNITYSDK_OFFSET(0x174F38B0)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x174F2EA0)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x174F2ED0)
+#define CINEMACHINE_TIMELINE_CINEMACHINEMIXER_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x174F2EE0)
 
 namespace Cinemachine::Timeline
 {
-	inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 39879;
+	inline static constexpr unsigned int CinemachineMixer_TypeDefinitionIndex = 40808;
 
 	class CinemachineMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
@@ -26,7 +26,7 @@ namespace Cinemachine::Timeline
 		::System::Int32 mBrainOverrideId; // 0x1C
 		static ::Cinemachine::Timeline::CinemachineMixer_MasterDirectorDelegate** StaticGet_GetMasterPlayableDirector()
 		{
-			return (::Cinemachine::Timeline::CinemachineMixer_MasterDirectorDelegate**)UnitySDK::FromName("Cinemachine.Timeline", "CinemachineMixer")->GetStaticField(0x70130);
+			return (::Cinemachine::Timeline::CinemachineMixer_MasterDirectorDelegate**)UnitySDK::FromName("Cinemachine.Timeline", "CinemachineMixer")->GetStaticField(0x73DF0);
 		}
 
 		::System::Void _ctor()

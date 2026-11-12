@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class RevertActionEntityToObserveState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CCPFAPIFKOE_CTOR_OFFSET UNITYSDK_OFFSET(0xC753C50)
-#define CCPFAPIFKOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC753F60)
-#define CCPFAPIFKOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC753C60)
-#define CCPFAPIFKOE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC753F10)
-#define CCPFAPIFKOE_TICK_OFFSET UNITYSDK_OFFSET(0xC753EB0)
+#define CCPFAPIFKOE_CTOR_OFFSET UNITYSDK_OFFSET(0xD0BCE10)
+#define CCPFAPIFKOE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD0BD120)
+#define CCPFAPIFKOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD0BCE20)
+#define CCPFAPIFKOE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD0BD0D0)
+#define CCPFAPIFKOE_TICK_OFFSET UNITYSDK_OFFSET(0xD0BD070)
 
-inline static constexpr unsigned int CCPFAPIFKOE_TypeDefinitionIndex = 55325;
+inline static constexpr unsigned int CCPFAPIFKOE_TypeDefinitionIndex = 56507;
 
 	class CCPFAPIFKOE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::RevertActionEntityToObserveState* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::RevertActionEntityToObserveState* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::RevertActionEntityToObserveState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::RevertActionEntityToObserveState*))((::PBYTE)hIl2Cpp + CCPFAPIFKOE_CTOR_OFFSET))(this, a1, a2);

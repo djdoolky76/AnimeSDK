@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class StartReShaSceneSelection; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ACNMLIJFIIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB126D90)
-#define ACNMLIJFIIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB126DC0)
+#define ACNMLIJFIIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB78CFF0)
+#define ACNMLIJFIIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB78D020)
 
-inline static constexpr unsigned int ACNMLIJFIIG_TypeDefinitionIndex = 53291;
+inline static constexpr unsigned int ACNMLIJFIIG_TypeDefinitionIndex = 54453;
 
 	class ACNMLIJFIIG
 	{

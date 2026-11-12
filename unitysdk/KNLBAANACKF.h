@@ -4,7 +4,7 @@
 #include "unitysdk/LPBCNFBMCJK.h"
 #include "unitysdk/RPG/GameCore/HitBoxType.h"
 
-inline static constexpr unsigned int KNLBAANACKF_TypeDefinitionIndex = 56854;
+inline static constexpr unsigned int KNLBAANACKF_TypeDefinitionIndex = 58078;
 
 	struct alignas(4) KNLBAANACKF
 	{

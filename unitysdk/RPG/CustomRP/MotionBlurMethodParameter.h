@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CUSTOMRP_MOTIONBLURMETHODPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC37E60)
+#define RPG_CUSTOMRP_MOTIONBLURMETHODPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDDF250)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MotionBlurMethodParameter_TypeDefinitionIndex = 37830;
+	inline static constexpr unsigned int MotionBlurMethodParameter_TypeDefinitionIndex = 38759;
 
 	class MotionBlurMethodParameter
 	{

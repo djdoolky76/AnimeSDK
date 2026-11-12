@@ -6,11 +6,11 @@ class DGEPFHILKPM;
 class GGHEGHCAIEH;
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define NBJOMCFBDFN_CTOR_OFFSET UNITYSDK_OFFSET(0xBAD8D40)
-#define NBJOMCFBDFN_JMBMOCBBBEM_OFFSET UNITYSDK_OFFSET(0xBAD8D50)
-#define NBJOMCFBDFN_MEAGKJGPAOO_OFFSET UNITYSDK_OFFSET(0xBAD8E00)
+#define NBJOMCFBDFN_CTOR_OFFSET UNITYSDK_OFFSET(0xC35F5B0)
+#define NBJOMCFBDFN_JMBMOCBBBEM_OFFSET UNITYSDK_OFFSET(0xC35F5C0)
+#define NBJOMCFBDFN_MEAGKJGPAOO_OFFSET UNITYSDK_OFFSET(0xC35F670)
 
-inline static constexpr unsigned int NBJOMCFBDFN_TypeDefinitionIndex = 80112;
+inline static constexpr unsigned int NBJOMCFBDFN_TypeDefinitionIndex = 82889;
 
 	class NBJOMCFBDFN : public ::System::Object
 	{

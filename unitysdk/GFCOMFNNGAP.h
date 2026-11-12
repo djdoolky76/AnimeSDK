@@ -6,18 +6,18 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GFCOMFNNGAP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD5DAE0)
-#define GFCOMFNNGAP_ICLOCNNCPFG_1_OFFSET UNITYSDK_OFFSET(0x1DD5D820)
-#define GFCOMFNNGAP_ICLOCNNCPFG_2_OFFSET UNITYSDK_OFFSET(0x1DD5DA10)
+#define GFCOMFNNGAP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EF60260)
+#define GFCOMFNNGAP_ICLOCNNCPFG_1_OFFSET UNITYSDK_OFFSET(0x1EF5FFA0)
+#define GFCOMFNNGAP_ICLOCNNCPFG_2_OFFSET UNITYSDK_OFFSET(0x1EF60190)
 
-inline static constexpr unsigned int GFCOMFNNGAP_TypeDefinitionIndex = 6395;
+inline static constexpr unsigned int GFCOMFNNGAP_TypeDefinitionIndex = 6402;
 
 	class GFCOMFNNGAP : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>** StaticGet_DDPHAPFKNPL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("", "GFCOMFNNGAP")->GetStaticField(0x2BB30);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::String*>**)UnitySDK::FromName("", "GFCOMFNNGAP")->GetStaticField(0x30AA0);
 		}
 
 		static ::System::Void _cctor()

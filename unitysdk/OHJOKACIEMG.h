@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddRegardAsAttackType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OHJOKACIEMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE6ED40)
-#define OHJOKACIEMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE6ED70)
+#define OHJOKACIEMG_CTOR_OFFSET UNITYSDK_OFFSET(0xC729450)
+#define OHJOKACIEMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC729480)
 
-inline static constexpr unsigned int OHJOKACIEMG_TypeDefinitionIndex = 54818;
+inline static constexpr unsigned int OHJOKACIEMG_TypeDefinitionIndex = 55987;
 
 	class OHJOKACIEMG
 	{

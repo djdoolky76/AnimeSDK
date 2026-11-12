@@ -6,19 +6,19 @@ class DCCEKONOPCK;
 class IEODIJJGAGM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AADIBKNAJJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C1BD0)
-#define AADIBKNAJJI_GET_MASTER_OFFSET UNITYSDK_OFFSET(0xB0C1BB0)
-#define AADIBKNAJJI_GET_SERVANT_OFFSET UNITYSDK_OFFSET(0xB0C1BC0)
-#define AADIBKNAJJI_GET_TEAMHEALTH_OFFSET UNITYSDK_OFFSET(0xB0C1B90)
-#define AADIBKNAJJI_GET_TEAMSTATUSES_OFFSET UNITYSDK_OFFSET(0xB0C1BA0)
+#define AADIBKNAJJI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7228B0)
+#define AADIBKNAJJI_GET_MASTER_OFFSET UNITYSDK_OFFSET(0xB722890)
+#define AADIBKNAJJI_GET_SERVANT_OFFSET UNITYSDK_OFFSET(0xB7228A0)
+#define AADIBKNAJJI_GET_TEAMHEALTH_OFFSET UNITYSDK_OFFSET(0xB722870)
+#define AADIBKNAJJI_GET_TEAMSTATUSES_OFFSET UNITYSDK_OFFSET(0xB722880)
 
-inline static constexpr unsigned int AADIBKNAJJI_TypeDefinitionIndex = 80821;
+inline static constexpr unsigned int AADIBKNAJJI_TypeDefinitionIndex = 83601;
 
 	class AADIBKNAJJI : public ::System::Object
 	{
 	public:
-		::IEODIJJGAGM* _Servant_k__BackingField; // 0x10
-		::DCCEKONOPCK* _TeamHealth_k__BackingField; // 0x18
+		::DCCEKONOPCK* _TeamHealth_k__BackingField; // 0x10
+		::IEODIJJGAGM* _Servant_k__BackingField; // 0x18
 		::IEODIJJGAGM* _Master_k__BackingField; // 0x20
 		::System::Collections::Generic::List_1<::AOFHFKPKKJI*>* _TeamStatuses_k__BackingField; // 0x28
 		::System::Void _ctor()

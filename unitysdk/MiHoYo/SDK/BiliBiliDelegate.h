@@ -9,48 +9,48 @@ namespace MiHoYo::SDK { class BiliBiliDelegate_SDKPayDelegate; }
 namespace MiHoYo::SDK { class BiliBiliDelegate_SDKStartHeartbeatDelegate; }
 namespace MiHoYo::SDK { class BiliBiliDelegate_SDKUnInitDelegate; }
 
-#define MIHOYO_SDK_BILIBILIDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC3B4B0)
+#define MIHOYO_SDK_BILIBILIDELEGATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC45B0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int BiliBiliDelegate_TypeDefinitionIndex = 7601;
+	inline static constexpr unsigned int BiliBiliDelegate_TypeDefinitionIndex = 7610;
 
 	class BiliBiliDelegate : public ::System::Object
 	{
 	public:
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate** StaticGet_SDKStartHeartbeat()
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate** StaticGet_SDKLogout()
 		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x18C70);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate** StaticGet_SDKLogin()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x18C78);
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x19940);
 		}
 
 		static ::MiHoYo::SDK::BiliBiliDelegate_SDKInitDelegate** StaticGet_SDKInit()
 		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x18C80);
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x19948);
 		}
 
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate** StaticGet_SDKPay()
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate** StaticGet_SDKLogin()
 		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x18C88);
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLoginDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x19950);
 		}
 
-		static ::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate** StaticGet_SDKLogout()
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate** StaticGet_SDKStartHeartbeat()
 		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKLogoutDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x18C90);
-		}
-
-		static ::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate** StaticGet_GetProcessWnd()
-		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x18C98);
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKStartHeartbeatDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x19958);
 		}
 
 		static ::MiHoYo::SDK::BiliBiliDelegate_SDKUnInitDelegate** StaticGet_SDKUnInit()
 		{
-			return (::MiHoYo::SDK::BiliBiliDelegate_SDKUnInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x18CA0);
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKUnInitDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x19960);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate** StaticGet_SDKPay()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_SDKPayDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x19968);
+		}
+
+		static ::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate** StaticGet_GetProcessWnd()
+		{
+			return (::MiHoYo::SDK::BiliBiliDelegate_GetProcessWndDelegate**)UnitySDK::FromName("MiHoYo.SDK", "BiliBiliDelegate")->GetStaticField(0x19970);
 		}
 
 		::System::Void _ctor()

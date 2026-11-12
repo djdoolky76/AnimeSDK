@@ -10,7 +10,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int EquipSelectUiData_TypeDefinitionIndex = 75422;
+	inline static constexpr unsigned int EquipSelectUiData_TypeDefinitionIndex = 77749;
 
 	struct alignas(8) EquipSelectUiData
 	{

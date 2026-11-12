@@ -5,13 +5,13 @@
 namespace RPG::Client { class QuestData; }
 namespace RPG::GameCore { class ActivityNewbiePromoteRow; }
 
-#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD9DBA90)
-#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xD9DBC60)
-#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET__QUESTDATA_OFFSET UNITYSDK_OFFSET(0xD9DBD10)
+#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE471F60)
+#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET_STATUS_OFFSET UNITYSDK_OFFSET(0xE472130)
+#define RPG_CLIENT_NOVICEQUESTSINGLEDATA_GET__QUESTDATA_OFFSET UNITYSDK_OFFSET(0xE4721E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int NoviceQuestSingleData_TypeDefinitionIndex = 61647;
+	inline static constexpr unsigned int NoviceQuestSingleData_TypeDefinitionIndex = 63045;
 
 	class NoviceQuestSingleData : public ::System::Object
 	{

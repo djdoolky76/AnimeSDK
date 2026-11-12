@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MIGPNAOGHEP.h"
 
-inline static constexpr unsigned int EPAHNPPLIAJ_TypeDefinitionIndex = 69394;
+inline static constexpr unsigned int EPAHNPPLIAJ_TypeDefinitionIndex = 71348;
 
 	struct alignas(4) EPAHNPPLIAJ
 	{

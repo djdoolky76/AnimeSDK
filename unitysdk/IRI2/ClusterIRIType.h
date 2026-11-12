@@ -7,7 +7,7 @@ namespace UnityEngine { class Texture2D; }
 
 namespace IRI2
 {
-	inline static constexpr unsigned int ClusterIRIType_TypeDefinitionIndex = 49665;
+	inline static constexpr unsigned int ClusterIRIType_TypeDefinitionIndex = 50741;
 
 	struct alignas(8) ClusterIRIType
 	{

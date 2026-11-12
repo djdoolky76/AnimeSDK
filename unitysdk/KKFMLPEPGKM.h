@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class KKFMLPEPGKM;
 
-#define KKFMLPEPGKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D09CD80)
-#define KKFMLPEPGKM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D09CC90)
+#define KKFMLPEPGKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E28FEA0)
+#define KKFMLPEPGKM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E28FDB0)
 
-inline static constexpr unsigned int KKFMLPEPGKM_TypeDefinitionIndex = 11555;
+inline static constexpr unsigned int KKFMLPEPGKM_TypeDefinitionIndex = 11606;
 
 	class KKFMLPEPGKM : public ::System::Object
 	{
 	public:
-		::System::UInt32 PHFMCACHFIJ; // 0x10
-		::System::UInt32 KGOOAOJLLDA; // 0x14
+		::System::UInt32 KGOOAOJLLDA; // 0x10
+		::System::UInt32 PHFMCACHFIJ; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KKFMLPEPGKM_CTOR_OFFSET))(this);

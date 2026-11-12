@@ -4,52 +4,52 @@
 class AkBasePathGetter;
 namespace System { class String; }
 
-#define AKBASEPATHGETTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F57D310)
-#define AKBASEPATHGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57CE70)
-#define AKBASEPATHGETTER_EVALUATEGAMEPATHS_OFFSET UNITYSDK_OFFSET(0x1F57CE80)
-#define AKBASEPATHGETTER_GETPLATFORMBASEPATH_OFFSET UNITYSDK_OFFSET(0x1F57CD00)
-#define AKBASEPATHGETTER_GETPLATFORMNAME_OFFSET UNITYSDK_OFFSET(0x1F57CC10)
-#define AKBASEPATHGETTER_GET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x1F57D2F0)
-#define AKBASEPATHGETTER_GET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x1F57CC90)
-#define AKBASEPATHGETTER_GET_OFFSET UNITYSDK_OFFSET(0x1F57C4D0)
-#define AKBASEPATHGETTER_GET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x1F57D2D0)
-#define AKBASEPATHGETTER_GET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x1F57D2B0)
-#define AKBASEPATHGETTER_SET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x1F57D300)
-#define AKBASEPATHGETTER_SET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x1F57CCD0)
-#define AKBASEPATHGETTER_SET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x1F57D2E0)
-#define AKBASEPATHGETTER_SET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x1F57D2C0)
+#define AKBASEPATHGETTER_CCTOR_OFFSET UNITYSDK_OFFSET(0x2082D130)
+#define AKBASEPATHGETTER_CTOR_OFFSET UNITYSDK_OFFSET(0x2082CC90)
+#define AKBASEPATHGETTER_EVALUATEGAMEPATHS_OFFSET UNITYSDK_OFFSET(0x2082CCA0)
+#define AKBASEPATHGETTER_GETPLATFORMBASEPATH_OFFSET UNITYSDK_OFFSET(0x2082CB20)
+#define AKBASEPATHGETTER_GETPLATFORMNAME_OFFSET UNITYSDK_OFFSET(0x2082CA30)
+#define AKBASEPATHGETTER_GET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x2082D110)
+#define AKBASEPATHGETTER_GET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x2082CAB0)
+#define AKBASEPATHGETTER_GET_OFFSET UNITYSDK_OFFSET(0x2082C2F0)
+#define AKBASEPATHGETTER_GET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x2082D0F0)
+#define AKBASEPATHGETTER_GET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x2082D0D0)
+#define AKBASEPATHGETTER_SET_DECODEDBANKFULLPATH_OFFSET UNITYSDK_OFFSET(0x2082D120)
+#define AKBASEPATHGETTER_SET_LOGWARNINGS_OFFSET UNITYSDK_OFFSET(0x2082CAF0)
+#define AKBASEPATHGETTER_SET_PERSISTENTDATAPATH_OFFSET UNITYSDK_OFFSET(0x2082D100)
+#define AKBASEPATHGETTER_SET_SOUNDBANKBASEPATH_OFFSET UNITYSDK_OFFSET(0x2082D0E0)
 
-inline static constexpr unsigned int AkBasePathGetter_TypeDefinitionIndex = 44821;
+inline static constexpr unsigned int AkBasePathGetter_TypeDefinitionIndex = 45896;
 
 	class AkBasePathGetter : public ::System::Object
 	{
 	public:
-		::System::String* _PersistentDataPath_k__BackingField; // 0x10
-		::System::String* _SoundBankBasePath_k__BackingField; // 0x18
-		::System::String* _DecodedBankFullPath_k__BackingField; // 0x20
-		static ::AkBasePathGetter** StaticGet_Instance()
-		{
-			return (::AkBasePathGetter**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x2530);
-		}
-
+		::System::String* _SoundBankBasePath_k__BackingField; // 0x10
+		::System::String* _DecodedBankFullPath_k__BackingField; // 0x18
+		::System::String* _PersistentDataPath_k__BackingField; // 0x20
 		static ::System::String** StaticGet_DefaultBasePath()
 		{
-			return (::System::String**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x2538);
-		}
-
-		static ::System::String** StaticGet_DefaultPlatformName()
-		{
-			return (::System::String**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x2540);
+			return (::System::String**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x6D540);
 		}
 
 		static ::System::String** StaticGet_DefaultPersistentDataPath()
 		{
-			return (::System::String**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x2548);
+			return (::System::String**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x6D548);
+		}
+
+		static ::AkBasePathGetter** StaticGet_Instance()
+		{
+			return (::AkBasePathGetter**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x6D550);
+		}
+
+		static ::System::String** StaticGet_DefaultPlatformName()
+		{
+			return (::System::String**)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x6D558);
 		}
 
 		static ::System::Boolean* StaticGet_LogWarnings_Internal()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x1DC0);
+			return (::System::Boolean*)UnitySDK::FromName("", "AkBasePathGetter")->GetStaticField(0x15BA0);
 		}
 
 		// static const ::System::String* DecodedBankFolder; // 0x0

@@ -4,11 +4,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudCardAreaViewModel_CardPresentationTransition; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_CARDANIMATIONENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xCEBA260)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL_CARDANIMATIONENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0xD882B90)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardAnimationEntry_TypeDefinitionIndex = 80887;
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel_CardAnimationEntry_TypeDefinitionIndex = 83667;
 
 	class FateRinBattleHudCardAreaViewModel_CardAnimationEntry : public ::System::Object
 	{

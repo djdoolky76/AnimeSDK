@@ -3,10 +3,10 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define HCOPAPIKLIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD61BA0)
-#define HCOPAPIKLIJ_GET_PARAMETERNAME_OFFSET UNITYSDK_OFFSET(0x1DD61BB0)
+#define HCOPAPIKLIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF64320)
+#define HCOPAPIKLIJ_GET_PARAMETERNAME_OFFSET UNITYSDK_OFFSET(0x1EF64330)
 
-inline static constexpr unsigned int HCOPAPIKLIJ_TypeDefinitionIndex = 6317;
+inline static constexpr unsigned int HCOPAPIKLIJ_TypeDefinitionIndex = 6324;
 
 	class HCOPAPIKLIJ : public ::System::Attribute
 	{

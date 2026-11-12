@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OADEJAABALE;
 
-#define OEAJBKAIPKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C600)
+#define OEAJBKAIPKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4E370)
 
-inline static constexpr unsigned int OEAJBKAIPKB_TypeDefinitionIndex = 42890;
+inline static constexpr unsigned int OEAJBKAIPKB_TypeDefinitionIndex = 43871;
 
 	class OEAJBKAIPKB : public ::System::Object
 	{

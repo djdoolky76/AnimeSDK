@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JPNIHFOOFLP_ZoneOut_TypeDefinitionIndex = 62311;
+inline static constexpr unsigned int JPNIHFOOFLP_ZoneOut_TypeDefinitionIndex = 63724;
 
 	enum class JPNIHFOOFLP_ZoneOut : ::System::Int32
 	{

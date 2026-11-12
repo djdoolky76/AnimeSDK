@@ -4,12 +4,12 @@
 class MFCCCIMGMFL;
 namespace RPG::Client::BlindBox::Pool { class BlindBoxPoolModule; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8895B0)
-#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0___ONBLINDBOXGETDATASCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xC88CB50)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1EEB10)
+#define RPG_CLIENT_BLINDBOX_POOL_BLINDBOXPOOLMODULE___C__DISPLAYCLASS5_0___ONBLINDBOXGETDATASCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xD1F20B0)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int BlindBoxPoolModule___c__DisplayClass5_0_TypeDefinitionIndex = 74915;
+	inline static constexpr unsigned int BlindBoxPoolModule___c__DisplayClass5_0_TypeDefinitionIndex = 77242;
 
 	class BlindBoxPoolModule___c__DisplayClass5_0 : public ::System::Object
 	{

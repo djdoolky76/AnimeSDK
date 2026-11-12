@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PropStateOverrideItem; }
 
-#define RPG_GAMECORE_PROPSTATEOVERRIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D959A70)
-#define RPG_GAMECORE_PROPSTATEOVERRIDEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9598F0)
+#define RPG_GAMECORE_PROPSTATEOVERRIDEITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB72010)
+#define RPG_GAMECORE_PROPSTATEOVERRIDEITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB71E90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropStateOverrideItem_TypeDefinitionIndex = 19040;
+	inline static constexpr unsigned int PropStateOverrideItem_TypeDefinitionIndex = 19227;
 
 	class PropStateOverrideItem : public ::RPG::GameCore::JsonConfig
 	{

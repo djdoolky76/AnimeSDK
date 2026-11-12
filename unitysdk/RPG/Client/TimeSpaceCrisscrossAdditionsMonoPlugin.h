@@ -6,15 +6,15 @@ namespace UnityEngine { class AnimationCurve; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xE28D8E0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE28D8C0)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xE28D820)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_HIGHLIGHTALL_OFFSET UNITYSDK_OFFSET(0xE28D870)
-#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xE28D7D0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_CCTOR_OFFSET UNITYSDK_OFFSET(0xECF7F90)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xECF7F70)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_DESPAWNED_OFFSET UNITYSDK_OFFSET(0xECF7ED0)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_HIGHLIGHTALL_OFFSET UNITYSDK_OFFSET(0xECF7F20)
+#define RPG_CLIENT_TIMESPACECRISSCROSSADDITIONSMONOPLUGIN_SPAWNED_OFFSET UNITYSDK_OFFSET(0xECF7E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex = 70198;
+	inline static constexpr unsigned int TimeSpaceCrisscrossAdditionsMonoPlugin_TypeDefinitionIndex = 72164;
 
 	class TimeSpaceCrisscrossAdditionsMonoPlugin
 	{
@@ -35,14 +35,14 @@ namespace RPG::Client
 		::UnityEngine::Material* NOAFOIEEOII; // 0x70
 		::UnityEngine::Material* CMGIFNGGOGD; // 0x78
 		::RPG::Client::TSCMaterialReferenceCache* TSCMatRefCache; // 0x80
-		static ::System::Int32* StaticGet_FLGFKKKBIDE()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TimeSpaceCrisscrossAdditionsMonoPlugin")->GetStaticField(0x62C0);
-		}
-
 		static ::System::Int32* StaticGet_MBPOIKBMIMJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TimeSpaceCrisscrossAdditionsMonoPlugin")->GetStaticField(0x62C4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TimeSpaceCrisscrossAdditionsMonoPlugin")->GetStaticField(0x83B0);
+		}
+
+		static ::System::Int32* StaticGet_FLGFKKKBIDE()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "TimeSpaceCrisscrossAdditionsMonoPlugin")->GetStaticField(0x83B4);
 		}
 
 		::System::Void _ctor()

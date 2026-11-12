@@ -1,32 +1,32 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
-#include "unitysdk/HEOLKMLMPML.h"
+#include "unitysdk/RPG/Client/GridFightRichTextNodeCompiler.h"
 class DNGMCNPJHBJ;
 class FMKEJLGKEMH;
 class KFLOFDNCIPO;
 namespace System { class String; }
 
-#define KFLOFDNCIPO_ACMPHJJOOHE_OFFSET UNITYSDK_OFFSET(0xB3C54E0)
-#define KFLOFDNCIPO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB3C5A60)
-#define KFLOFDNCIPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB3C5A50)
-#define KFLOFDNCIPO_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0xB3C5420)
-#define KFLOFDNCIPO_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0xB3C5480)
-#define KFLOFDNCIPO_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0xB3C53B0)
+#define KFLOFDNCIPO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC556F0)
+#define KFLOFDNCIPO_COMPILE_OFFSET UNITYSDK_OFFSET(0xBC55170)
+#define KFLOFDNCIPO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC556E0)
+#define KFLOFDNCIPO_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0xBC550B0)
+#define KFLOFDNCIPO_GET_EMPTY_OFFSET UNITYSDK_OFFSET(0xBC55110)
+#define KFLOFDNCIPO_GET_TAG_OFFSET UNITYSDK_OFFSET(0xBC55040)
 
-inline static constexpr unsigned int KFLOFDNCIPO_TypeDefinitionIndex = 65280;
+inline static constexpr unsigned int KFLOFDNCIPO_TypeDefinitionIndex = 67035;
 
-	class KFLOFDNCIPO : public ::HEOLKMLMPML
+	class KFLOFDNCIPO : public ::RPG::Client::GridFightRichTextNodeCompiler
 	{
 	public:
 		::System::Boolean ONFKPBBCNLA; // 0x10
-		static ::KFLOFDNCIPO** StaticGet__Empty_k__BackingField()
-		{
-			return (::KFLOFDNCIPO**)UnitySDK::FromName("", "KFLOFDNCIPO")->GetStaticField(0x4B0E0);
-		}
-
 		static ::KFLOFDNCIPO** StaticGet__Default_k__BackingField()
 		{
-			return (::KFLOFDNCIPO**)UnitySDK::FromName("", "KFLOFDNCIPO")->GetStaticField(0x4B0E8);
+			return (::KFLOFDNCIPO**)UnitySDK::FromName("", "KFLOFDNCIPO")->GetStaticField(0x38A40);
+		}
+
+		static ::KFLOFDNCIPO** StaticGet__Empty_k__BackingField()
+		{
+			return (::KFLOFDNCIPO**)UnitySDK::FromName("", "KFLOFDNCIPO")->GetStaticField(0x38A48);
 		}
 
 		::System::Void _ctor()
@@ -39,9 +39,9 @@ inline static constexpr unsigned int KFLOFDNCIPO_TypeDefinitionIndex = 65280;
 			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + KFLOFDNCIPO_CCTOR_OFFSET))();
 		}
 
-		::System::String* NDMBDGKAJEK()
+		::System::String* get_Tag()
 		{
-			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFLOFDNCIPO_NDMBDGKAJEK_OFFSET))(this);
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + KFLOFDNCIPO_GET_TAG_OFFSET))(this);
 		}
 
 		static ::KFLOFDNCIPO* get_Default()
@@ -54,9 +54,9 @@ inline static constexpr unsigned int KFLOFDNCIPO_TypeDefinitionIndex = 65280;
 			return ((::KFLOFDNCIPO*(*)())((::PBYTE)hIl2Cpp + KFLOFDNCIPO_GET_EMPTY_OFFSET))();
 		}
 
-		::System::String* ACMPHJJOOHE(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
+		::System::String* Compile(::FMKEJLGKEMH* a1, ::DNGMCNPJHBJ* a2)
 		{
-			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + KFLOFDNCIPO_ACMPHJJOOHE_OFFSET))(this, a1, a2);
+			return ((::System::String*(*)(::PVOID, ::FMKEJLGKEMH*, ::DNGMCNPJHBJ*))((::PBYTE)hIl2Cpp + KFLOFDNCIPO_COMPILE_OFFSET))(this, a1, a2);
 		}
 
 	};

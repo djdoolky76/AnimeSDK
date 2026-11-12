@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerDialogueEvent; }
 
-#define LBEGLKNAMAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F9B10)
-#define LBEGLKNAMAG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5F9B20)
-#define LBEGLKNAMAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F9B60)
-#define LBEGLKNAMAG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB5F9BB0)
-#define LBEGLKNAMAG_TICK_OFFSET UNITYSDK_OFFSET(0xB5F9C00)
+#define LBEGLKNAMAG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE8BCD0)
+#define LBEGLKNAMAG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE8BCE0)
+#define LBEGLKNAMAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE8BD20)
+#define LBEGLKNAMAG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE8BD70)
+#define LBEGLKNAMAG_TICK_OFFSET UNITYSDK_OFFSET(0xBE8BDC0)
 
-inline static constexpr unsigned int LBEGLKNAMAG_TypeDefinitionIndex = 58777;
+inline static constexpr unsigned int LBEGLKNAMAG_TypeDefinitionIndex = 60045;
 
 	class LBEGLKNAMAG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerDialogueEvent* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerDialogueEvent* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerDialogueEvent* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerDialogueEvent*))((::PBYTE)hIl2Cpp + LBEGLKNAMAG_CTOR_OFFSET))(this, a1, a2);

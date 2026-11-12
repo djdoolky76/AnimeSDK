@@ -6,13 +6,13 @@ namespace RPG::Client { class NotifyHandler; }
 namespace System { class Action; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LCHGGJGGAKM_CCTOR_OFFSET UNITYSDK_OFFSET(0xB615260)
-#define LCHGGJGGAKM_CTOR_OFFSET UNITYSDK_OFFSET(0xB6151E0)
-#define LCHGGJGGAKM_ENDDOOAMEFP_OFFSET UNITYSDK_OFFSET(0xB6150B0)
-#define LCHGGJGGAKM_OHLBBCBKLHN_OFFSET UNITYSDK_OFFSET(0xB614EC0)
-#define LCHGGJGGAKM_OOLBMLIDOOJ_OFFSET UNITYSDK_OFFSET(0xB614F90)
+#define LCHGGJGGAKM_CCTOR_OFFSET UNITYSDK_OFFSET(0xBEA7CA0)
+#define LCHGGJGGAKM_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA7C20)
+#define LCHGGJGGAKM_ENDDOOAMEFP_OFFSET UNITYSDK_OFFSET(0xBEA7AF0)
+#define LCHGGJGGAKM_OHLBBCBKLHN_OFFSET UNITYSDK_OFFSET(0xBEA7900)
+#define LCHGGJGGAKM_OOLBMLIDOOJ_OFFSET UNITYSDK_OFFSET(0xBEA79D0)
 
-inline static constexpr unsigned int LCHGGJGGAKM_TypeDefinitionIndex = 65682;
+inline static constexpr unsigned int LCHGGJGGAKM_TypeDefinitionIndex = 67608;
 
 	class LCHGGJGGAKM : public ::System::Object
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int LCHGGJGGAKM_TypeDefinitionIndex = 65682;
 		::System::Collections::Generic::Dictionary_2<::System::Action*, ::RPG::Client::NotifyHandler*>* GNIDKBCKFMD; // 0x10
 		static ::LCHGGJGGAKM** StaticGet_FMJPMFEDIJL()
 		{
-			return (::LCHGGJGGAKM**)UnitySDK::FromName("", "LCHGGJGGAKM")->GetStaticField(0x1B680);
+			return (::LCHGGJGGAKM**)UnitySDK::FromName("", "LCHGGJGGAKM")->GetStaticField(0x1B1D0);
 		}
 
 		::System::Void _ctor()

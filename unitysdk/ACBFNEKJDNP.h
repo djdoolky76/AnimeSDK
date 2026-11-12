@@ -15,32 +15,32 @@ namespace RPG::Client { class PipelineCameraGlobalConfig; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ACBFNEKJDNP_APNNEEJJPHA_OFFSET UNITYSDK_OFFSET(0xB112E80)
-#define ACBFNEKJDNP_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB112C20)
-#define ACBFNEKJDNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB112C00)
-#define ACBFNEKJDNP_FOGKIMNNLLG_OFFSET UNITYSDK_OFFSET(0xB114F90)
-#define ACBFNEKJDNP_KDKNJIJOLME_OFFSET UNITYSDK_OFFSET(0xB1158A0)
-#define ACBFNEKJDNP_KFOPKEFOHFE_OFFSET UNITYSDK_OFFSET(0xB115260)
-#define ACBFNEKJDNP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB112D90)
-#define ACBFNEKJDNP_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0xB114E60)
-#define ACBFNEKJDNP_NHIDIHPLGHG_OFFSET UNITYSDK_OFFSET(0xB116190)
-#define ACBFNEKJDNP_PJAPKCJPAFJ_OFFSET UNITYSDK_OFFSET(0xB1168B0)
-#define ACBFNEKJDNP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB1167C0)
+#define ACBFNEKJDNP_APNNEEJJPHA_OFFSET UNITYSDK_OFFSET(0xB7792A0)
+#define ACBFNEKJDNP_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB779040)
+#define ACBFNEKJDNP_CTOR_OFFSET UNITYSDK_OFFSET(0xB779020)
+#define ACBFNEKJDNP_FOGKIMNNLLG_OFFSET UNITYSDK_OFFSET(0xB77B3B0)
+#define ACBFNEKJDNP_KDKNJIJOLME_OFFSET UNITYSDK_OFFSET(0xB77BCB0)
+#define ACBFNEKJDNP_KFOPKEFOHFE_OFFSET UNITYSDK_OFFSET(0xB77B680)
+#define ACBFNEKJDNP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7791B0)
+#define ACBFNEKJDNP_NHEDINBLOIH_OFFSET UNITYSDK_OFFSET(0xB77B280)
+#define ACBFNEKJDNP_NHIDIHPLGHG_OFFSET UNITYSDK_OFFSET(0xB77C5A0)
+#define ACBFNEKJDNP_PJAPKCJPAFJ_OFFSET UNITYSDK_OFFSET(0xB77CCE0)
+#define ACBFNEKJDNP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB77CBF0)
 
-inline static constexpr unsigned int ACBFNEKJDNP_TypeDefinitionIndex = 69622;
+inline static constexpr unsigned int ACBFNEKJDNP_TypeDefinitionIndex = 71579;
 
 	class ACBFNEKJDNP : public ::MDILEMALGNC
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::VCameraState, ::RPG::Client::ICameraFightState*>* HDMPHBKNFEG; // 0x38
-		::MGIJBEAPGFA* IJGMAOGLPMH; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::CameraFightStateCommonConfig*>* ENNHPMKLEMG; // 0x48
-		::RPG::GameCore::VCameraState GCKCLKLHAOM; // 0x50
-		::System::Single BHEOFLPGHEO; // 0x54
-		::System::Single POPIILBCAHE; // 0x58
-		::Cinemachine::CinemachineBlendDefinition_Style NEBFPFNNEDG; // 0x5C
+		::System::Collections::Generic::List_1<::RPG::Client::CameraFightStateCommonConfig*>* ENNHPMKLEMG; // 0x38
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::VCameraState, ::RPG::Client::ICameraFightState*>* HDMPHBKNFEG; // 0x40
+		::MGIJBEAPGFA* IJGMAOGLPMH; // 0x48
+		::System::Int32 OAIPLAHOEEK; // 0x50
+		::Cinemachine::CinemachineBlendDefinition_Style NEBFPFNNEDG; // 0x54
+		::RPG::GameCore::VCameraState GCKCLKLHAOM; // 0x58
+		::System::Single BHEOFLPGHEO; // 0x5C
 		::System::Single CAAHOEEJNMN; // 0x60
-		::System::Int32 OAIPLAHOEEK; // 0x64
+		::System::Single POPIILBCAHE; // 0x64
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACBFNEKJDNP_CTOR_OFFSET))(this);

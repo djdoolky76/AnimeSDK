@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvLogisticsRobotBlockByDoor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHJMPHMMOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15CD0160)
-#define HHJMPHMMOMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CD0190)
+#define HHJMPHMMOMP_CTOR_OFFSET UNITYSDK_OFFSET(0x16C1DBB0)
+#define HHJMPHMMOMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C1DBE0)
 
-inline static constexpr unsigned int HHJMPHMMOMP_TypeDefinitionIndex = 52392;
+inline static constexpr unsigned int HHJMPHMMOMP_TypeDefinitionIndex = 53498;
 
 	class HHJMPHMMOMP
 	{

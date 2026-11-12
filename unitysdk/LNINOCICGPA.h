@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTeammate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LNINOCICGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E3AE0)
-#define LNINOCICGPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7E3B10)
+#define LNINOCICGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xC042ED0)
+#define LNINOCICGPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC042F00)
 
-inline static constexpr unsigned int LNINOCICGPA_TypeDefinitionIndex = 54694;
+inline static constexpr unsigned int LNINOCICGPA_TypeDefinitionIndex = 55860;
 
 	class LNINOCICGPA
 	{

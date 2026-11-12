@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KODIMAJKOMJ.h"
 
-#define NJDPCNLGPML_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2156C0)
+#define NJDPCNLGPML_CTOR_OFFSET UNITYSDK_OFFSET(0x1E42AED0)
 
-inline static constexpr unsigned int NJDPCNLGPML_TypeDefinitionIndex = 25008;
+inline static constexpr unsigned int NJDPCNLGPML_TypeDefinitionIndex = 25486;
 
 	class NJDPCNLGPML : public ::KODIMAJKOMJ
 	{

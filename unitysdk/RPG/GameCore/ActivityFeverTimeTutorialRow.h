@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityFeverTimeTutorialRow; }
 
-#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D361580)
-#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D360F40)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E56FEB0)
+#define RPG_GAMECORE_ACTIVITYFEVERTIMETUTORIALROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E56F870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityFeverTimeTutorialRow_TypeDefinitionIndex = 11591;
+	inline static constexpr unsigned int ActivityFeverTimeTutorialRow_TypeDefinitionIndex = 11642;
 
 	class ActivityFeverTimeTutorialRow : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MainMissionData; }
 
-#define KPNBOEKLHBN___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C28F0)
-#define KPNBOEKLHBN___C__DISPLAYCLASS0_0__TRYTRACKINGNEXTMISSION_B__1_OFFSET UNITYSDK_OFFSET(0xB5C2C50)
+#define KPNBOEKLHBN___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE171A0)
+#define KPNBOEKLHBN___C__DISPLAYCLASS0_0__TRYTRACKINGNEXTMISSION_B__1_OFFSET UNITYSDK_OFFSET(0xBE17500)
 
-inline static constexpr unsigned int KPNBOEKLHBN___c__DisplayClass0_0_TypeDefinitionIndex = 66178;
+inline static constexpr unsigned int KPNBOEKLHBN___c__DisplayClass0_0_TypeDefinitionIndex = 68114;
 
 	class KPNBOEKLHBN___c__DisplayClass0_0 : public ::System::Object
 	{

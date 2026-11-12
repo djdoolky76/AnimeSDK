@@ -12,24 +12,24 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 
-#define PKABGPKKMHL_FPOIPMGLHBF_CTOR_OFFSET UNITYSDK_OFFSET(0xC2A52C0)
-#define PKABGPKKMHL_FPOIPMGLHBF_FIPDBFMPEKH_OFFSET UNITYSDK_OFFSET(0xC2A6440)
-#define PKABGPKKMHL_FPOIPMGLHBF_NAGADEEMABM_OFFSET UNITYSDK_OFFSET(0xC2A6AC0)
-#define PKABGPKKMHL_FPOIPMGLHBF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC2A7900)
-#define PKABGPKKMHL_FPOIPMGLHBF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC2A54F0)
+#define PKABGPKKMHL_FPOIPMGLHBF_CTOR_OFFSET UNITYSDK_OFFSET(0xCBCFFC0)
+#define PKABGPKKMHL_FPOIPMGLHBF_FIPDBFMPEKH_OFFSET UNITYSDK_OFFSET(0xCBD1130)
+#define PKABGPKKMHL_FPOIPMGLHBF_NAGADEEMABM_OFFSET UNITYSDK_OFFSET(0xCBD17B0)
+#define PKABGPKKMHL_FPOIPMGLHBF_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xCBD25F0)
+#define PKABGPKKMHL_FPOIPMGLHBF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCBD01F0)
 
-inline static constexpr unsigned int PKABGPKKMHL_FPOIPMGLHBF_TypeDefinitionIndex = 73853;
+inline static constexpr unsigned int PKABGPKKMHL_FPOIPMGLHBF_TypeDefinitionIndex = 75979;
 
 	class PKABGPKKMHL_FPOIPMGLHBF : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::LPHOEFFEOBD*, ::System::Int32>* CODINANPDLG; // 0x10
-		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::LPHOEFFEOBD*>*>* PMBENGEOJLN; // 0x18
-		::System::Single PLBAAHBFELH; // 0x20
-		::System::Single EJHOLDPPAEE; // 0x24
-		::System::Single ADHEMNOPMIM; // 0x28
-		::System::Int32 FANAHCMOOMJ; // 0x2C
-		::System::Single EMNAKHEHDPG; // 0x30
+		::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::LPHOEFFEOBD*>*>* PMBENGEOJLN; // 0x10
+		::System::Collections::Generic::Dictionary_2<::LPHOEFFEOBD*, ::System::Int32>* CODINANPDLG; // 0x18
+		::System::Single EJHOLDPPAEE; // 0x20
+		::System::Single ADHEMNOPMIM; // 0x24
+		::System::Int32 FANAHCMOOMJ; // 0x28
+		::System::Single EMNAKHEHDPG; // 0x2C
+		::System::Single PLBAAHBFELH; // 0x30
 		::System::Void _ctor(::System::Int32 a1, ::System::Single a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + PKABGPKKMHL_FPOIPMGLHBF_CTOR_OFFSET))(this, a1, a2, a3);

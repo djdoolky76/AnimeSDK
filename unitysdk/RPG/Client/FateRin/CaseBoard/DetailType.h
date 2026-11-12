@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
-	inline static constexpr unsigned int DetailType_TypeDefinitionIndex = 80795;
+	inline static constexpr unsigned int DetailType_TypeDefinitionIndex = 83575;
 
 	enum class DetailType : ::System::Int32
 	{

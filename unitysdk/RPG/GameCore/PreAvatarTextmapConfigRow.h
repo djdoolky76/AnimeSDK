@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PreAvatarTextmapConfigRow; }
 
-#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93E6C0)
-#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D93E540)
+#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB57840)
+#define RPG_GAMECORE_PREAVATARTEXTMAPCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB576C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PreAvatarTextmapConfigRow_TypeDefinitionIndex = 14560;
+	inline static constexpr unsigned int PreAvatarTextmapConfigRow_TypeDefinitionIndex = 14715;
 
 	class PreAvatarTextmapConfigRow : public ::System::Object
 	{

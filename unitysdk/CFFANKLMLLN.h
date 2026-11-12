@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define CFFANKLMLLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E1330)
+#define CFFANKLMLLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA62030)
 
-inline static constexpr unsigned int CFFANKLMLLN_TypeDefinitionIndex = 43671;
+inline static constexpr unsigned int CFFANKLMLLN_TypeDefinitionIndex = 44654;
 
 	class CFFANKLMLLN : public ::System::Object
 	{

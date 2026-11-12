@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MiParameterConfigBase; }
 namespace RPG::GameCore { class ParamExprConfig; }
 
-#define RPG_GAMECORE_PARAMEXPRCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EDD80)
-#define RPG_GAMECORE_PARAMEXPRCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D8EDD90)
-#define RPG_GAMECORE_PARAMEXPRCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8EDD30)
+#define RPG_GAMECORE_PARAMEXPRCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB072F0)
+#define RPG_GAMECORE_PARAMEXPRCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB07300)
+#define RPG_GAMECORE_PARAMEXPRCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB072A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamExprConfig_TypeDefinitionIndex = 17081;
+	inline static constexpr unsigned int ParamExprConfig_TypeDefinitionIndex = 17248;
 
 	class ParamExprConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{

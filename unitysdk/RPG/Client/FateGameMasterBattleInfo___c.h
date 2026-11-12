@@ -7,31 +7,31 @@ namespace RPG::Client { class IFateGameMasterInfoRealItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE914B0)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE914F0)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETCURPLAYERRIVALMASTER_B__12_0_OFFSET UNITYSDK_OFFSET(0xCE91570)
-#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETPLAYERMASTER_B__9_0_OFFSET UNITYSDK_OFFSET(0xCE91500)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD859E80)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD859EC0)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETCURPLAYERRIVALMASTER_B__12_0_OFFSET UNITYSDK_OFFSET(0xD859F40)
+#define RPG_CLIENT_FATEGAMEMASTERBATTLEINFO___C__GETPLAYERMASTER_B__9_0_OFFSET UNITYSDK_OFFSET(0xD859ED0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FateGameMasterBattleInfo___c_TypeDefinitionIndex = 64088;
+	inline static constexpr unsigned int FateGameMasterBattleInfo___c_TypeDefinitionIndex = 65533;
 
 	class FateGameMasterBattleInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x596E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58650);
 		}
 
 		static ::System::Predicate_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>** StaticGet___9__12_0()
 		{
-			return (::System::Predicate_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x596E8);
+			return (::System::Predicate_1<::System::ValueTuple_2<::RPG::Client::IFateGameMasterInfoItem*, ::RPG::Client::IFateGameMasterInfoItem*>>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58658);
 		}
 
 		static ::System::Predicate_1<::RPG::Client::IFateGameMasterInfoRealItem*>** StaticGet___9__9_0()
 		{
-			return (::System::Predicate_1<::RPG::Client::IFateGameMasterInfoRealItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x596F0);
+			return (::System::Predicate_1<::RPG::Client::IFateGameMasterInfoRealItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58660);
 		}
 
 		static ::System::Void _cctor()

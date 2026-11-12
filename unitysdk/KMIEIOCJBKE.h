@@ -5,19 +5,19 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client { class UIController; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define KMIEIOCJBKE_CTOR_OFFSET UNITYSDK_OFFSET(0xB558DF0)
-#define KMIEIOCJBKE_ONENTERBEGIN_OFFSET UNITYSDK_OFFSET(0xB559010)
-#define KMIEIOCJBKE_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0xB558EA0)
-#define KMIEIOCJBKE__ONEXITBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB559060)
+#define KMIEIOCJBKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA4810)
+#define KMIEIOCJBKE_ONENTERBEGIN_OFFSET UNITYSDK_OFFSET(0xBDA4A30)
+#define KMIEIOCJBKE_ONEXITBEGIN_OFFSET UNITYSDK_OFFSET(0xBDA48C0)
+#define KMIEIOCJBKE__ONEXITBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xBDA4A80)
 
-inline static constexpr unsigned int KMIEIOCJBKE_TypeDefinitionIndex = 64619;
+inline static constexpr unsigned int KMIEIOCJBKE_TypeDefinitionIndex = 66148;
 
 	class KMIEIOCJBKE : public ::HFACHPPOANI
 	{
 	public:
 		::RPG::Client::UIController* IBLBKLNHKLL; // 0x10
-		::RPG::Client::UIController* HKJLKMCDMGB; // 0x18
-		::RPG::Client::LuaUIController* BBELBMLHHBG; // 0x20
+		::RPG::Client::LuaUIController* BBELBMLHHBG; // 0x18
+		::RPG::Client::UIController* HKJLKMCDMGB; // 0x20
 		::RPG::Client::Promises::Promise* DBIFFNIBBDL; // 0x28
 		::System::Void _ctor(::RPG::Client::UIController* a1, ::RPG::Client::UIController* a2)
 		{

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LBDPOFAICGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8FBF90)
+#define LBDPOFAICGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB89E0)
 
-inline static constexpr unsigned int LBDPOFAICGB_TypeDefinitionIndex = 42146;
+inline static constexpr unsigned int LBDPOFAICGB_TypeDefinitionIndex = 43121;
 
 	class LBDPOFAICGB : public ::System::Object
 	{

@@ -4,9 +4,9 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define ROOTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xE95EBE0)
+#define ROOTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0xF47D430)
 
-inline static constexpr unsigned int RootPoint_TypeDefinitionIndex = 47138;
+inline static constexpr unsigned int RootPoint_TypeDefinitionIndex = 48166;
 
 	class RootPoint : public ::System::Object
 	{

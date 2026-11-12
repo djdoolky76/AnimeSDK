@@ -7,12 +7,12 @@ namespace R3 { template <typename T> class Observable_1; }
 namespace System { class Action; }
 namespace System { template <typename T> class Action_1; }
 
-#define R3_OBSERVABLE_FROMEVENT_OFFSET UNITYSDK_OFFSET(0x1C4239F0)
-#define R3_OBSERVABLE_RETURN_1_OFFSET UNITYSDK_OFFSET(0x1C423B30)
+#define R3_OBSERVABLE_FROMEVENT_OFFSET UNITYSDK_OFFSET(0x1D5AA1E0)
+#define R3_OBSERVABLE_RETURN_1_OFFSET UNITYSDK_OFFSET(0x1D5AA320)
 
 namespace R3
 {
-	inline static constexpr unsigned int Observable_TypeDefinitionIndex = 35905;
+	inline static constexpr unsigned int Observable_TypeDefinitionIndex = 36833;
 
 	class Observable : public ::System::Object
 	{

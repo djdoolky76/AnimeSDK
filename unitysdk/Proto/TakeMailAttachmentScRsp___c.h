@@ -4,20 +4,20 @@
 namespace Proto { class TakeMailAttachmentScRsp; }
 namespace System { class Object; }
 
-#define PROTO_TAKEMAILATTACHMENTSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E017F30)
-#define PROTO_TAKEMAILATTACHMENTSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E017F70)
-#define PROTO_TAKEMAILATTACHMENTSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E017F80)
+#define PROTO_TAKEMAILATTACHMENTSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2E84D0)
+#define PROTO_TAKEMAILATTACHMENTSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2E8510)
+#define PROTO_TAKEMAILATTACHMENTSCRSP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F2E8520)
 
 namespace Proto
 {
-	inline static constexpr unsigned int TakeMailAttachmentScRsp___c_TypeDefinitionIndex = 30501;
+	inline static constexpr unsigned int TakeMailAttachmentScRsp___c_TypeDefinitionIndex = 31407;
 
 	class TakeMailAttachmentScRsp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x46CA0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x52E40);
 		}
 
 		static ::System::Void _cctor()

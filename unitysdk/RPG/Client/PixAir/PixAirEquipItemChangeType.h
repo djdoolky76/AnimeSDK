@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipItemChangeType_TypeDefinitionIndex = 79270;
+	inline static constexpr unsigned int PixAirEquipItemChangeType_TypeDefinitionIndex = 82047;
 
 	enum class PixAirEquipItemChangeType : ::System::Int32
 	{

@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_UI_TOGGLE_TOGGLESELECTEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F55EBD0)
+#define UNITYENGINE_UI_TOGGLE_TOGGLESELECTEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x2080EAB0)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int Toggle_ToggleSelectEvent_TypeDefinitionIndex = 6868;
+	inline static constexpr unsigned int Toggle_ToggleSelectEvent_TypeDefinitionIndex = 6879;
 
 	class Toggle_ToggleSelectEvent
 	{

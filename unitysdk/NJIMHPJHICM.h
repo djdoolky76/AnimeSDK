@@ -5,7 +5,7 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-inline static constexpr unsigned int NJIMHPJHICM_TypeDefinitionIndex = 49466;
+inline static constexpr unsigned int NJIMHPJHICM_TypeDefinitionIndex = 50542;
 
 	class NJIMHPJHICM : public ::GNPPNJNBKAI
 	{

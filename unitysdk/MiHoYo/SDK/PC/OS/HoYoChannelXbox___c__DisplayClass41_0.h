@@ -5,12 +5,12 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckoutResult; }
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelXbox; }
 namespace MiHoYo::SDK::PC::OS { class XboxPayInfo; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF3A5A0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS41_0__OPENXBOXCHECKOUT_B__0_OFFSET UNITYSDK_OFFSET(0x1BF3DED0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS41_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C1150)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELXBOX___C__DISPLAYCLASS41_0__OPENXBOXCHECKOUT_B__0_OFFSET UNITYSDK_OFFSET(0x1D0C4AF0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass41_0_TypeDefinitionIndex = 8652;
+	inline static constexpr unsigned int HoYoChannelXbox___c__DisplayClass41_0_TypeDefinitionIndex = 8661;
 
 	class HoYoChannelXbox___c__DisplayClass41_0 : public ::System::Object
 	{

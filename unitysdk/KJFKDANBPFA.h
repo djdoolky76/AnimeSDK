@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/MonsterHUDType.h"
 #include "unitysdk/System/Object.h"
 
-#define KJFKDANBPFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB449AF0)
+#define KJFKDANBPFA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE08A0)
 
-inline static constexpr unsigned int KJFKDANBPFA_TypeDefinitionIndex = 55542;
+inline static constexpr unsigned int KJFKDANBPFA_TypeDefinitionIndex = 56734;
 
 	class KJFKDANBPFA : public ::System::Object
 	{

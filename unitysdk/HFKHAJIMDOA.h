@@ -6,10 +6,10 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HFKHAJIMDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x15C881B0)
-#define HFKHAJIMDOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C88270)
+#define HFKHAJIMDOA_CTOR_OFFSET UNITYSDK_OFFSET(0x16BCF980)
+#define HFKHAJIMDOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BCFA40)
 
-inline static constexpr unsigned int HFKHAJIMDOA_TypeDefinitionIndex = 58616;
+inline static constexpr unsigned int HFKHAJIMDOA_TypeDefinitionIndex = 59881;
 
 	class HFKHAJIMDOA
 	{

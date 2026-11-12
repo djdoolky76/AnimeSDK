@@ -6,9 +6,9 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HIPPLENBUILDERBUFFASSET_BUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE2FA0)
+#define HIPPLENBUILDERBUFFASSET_BUFFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x16D87620)
 
-inline static constexpr unsigned int HipplenBuilderBuffAsset_BuffConfig_TypeDefinitionIndex = 47228;
+inline static constexpr unsigned int HipplenBuilderBuffAsset_BuffConfig_TypeDefinitionIndex = 48256;
 
 	class HipplenBuilderBuffAsset_BuffConfig : public ::System::Object
 	{

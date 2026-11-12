@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvEntitySetExtAnimLayerEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EMLFLBBDLPG_CTOR_OFFSET UNITYSDK_OFFSET(0x155524D0)
-#define EMLFLBBDLPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15552500)
+#define EMLFLBBDLPG_CTOR_OFFSET UNITYSDK_OFFSET(0x164A16A0)
+#define EMLFLBBDLPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164A16D0)
 
-inline static constexpr unsigned int EMLFLBBDLPG_TypeDefinitionIndex = 52369;
+inline static constexpr unsigned int EMLFLBBDLPG_TypeDefinitionIndex = 53475;
 
 	class EMLFLBBDLPG
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByComparePropFastDeliverCheckSimplifiedMode; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NEDGGLGEIHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBB58B90)
-#define NEDGGLGEIHJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB58BC0)
+#define NEDGGLGEIHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC3E2380)
+#define NEDGGLGEIHJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC3E23B0)
 
-inline static constexpr unsigned int NEDGGLGEIHJ_TypeDefinitionIndex = 52586;
+inline static constexpr unsigned int NEDGGLGEIHJ_TypeDefinitionIndex = 53692;
 
 	class NEDGGLGEIHJ
 	{

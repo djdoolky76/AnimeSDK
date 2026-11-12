@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace HedgehogTeam::EasyTouch { class EasyTouchTrigger_EasyTouchReceiver; }
 
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHTRIGGER___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16750E10)
-#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHTRIGGER___C__DISPLAYCLASS51_0__ISRECEVIER4_B__0_OFFSET UNITYSDK_OFFSET(0x16750E80)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHTRIGGER___C__DISPLAYCLASS51_0_CTOR_OFFSET UNITYSDK_OFFSET(0x17595000)
+#define HEDGEHOGTEAM_EASYTOUCH_EASYTOUCHTRIGGER___C__DISPLAYCLASS51_0__ISRECEVIER4_B__0_OFFSET UNITYSDK_OFFSET(0x17595070)
 
 namespace HedgehogTeam::EasyTouch
 {
-	inline static constexpr unsigned int EasyTouchTrigger___c__DisplayClass51_0_TypeDefinitionIndex = 40248;
+	inline static constexpr unsigned int EasyTouchTrigger___c__DisplayClass51_0_TypeDefinitionIndex = 41223;
 
 	class EasyTouchTrigger___c__DisplayClass51_0 : public ::System::Object
 	{

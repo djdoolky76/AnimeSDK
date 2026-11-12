@@ -3,7 +3,7 @@
 
 namespace EnviromentSystem
 {
-	inline static constexpr unsigned int EnviroParticleProperty_ParticleType_TypeDefinitionIndex = 49608;
+	inline static constexpr unsigned int EnviroParticleProperty_ParticleType_TypeDefinitionIndex = 50684;
 
 	enum class EnviroParticleProperty_ParticleType : ::System::Int32
 	{

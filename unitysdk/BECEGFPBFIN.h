@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BECEGFPBFIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1630D490)
+#define BECEGFPBFIN_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C45C0)
 
-inline static constexpr unsigned int BECEGFPBFIN_TypeDefinitionIndex = 58516;
+inline static constexpr unsigned int BECEGFPBFIN_TypeDefinitionIndex = 59780;
 
 	class BECEGFPBFIN : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpticalIllusionExitPerformance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNLPIHFPNKG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B16670)
-#define GNLPIHFPNKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B166A0)
+#define GNLPIHFPNKG_CTOR_OFFSET UNITYSDK_OFFSET(0x16A9BE20)
+#define GNLPIHFPNKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A9BE50)
 
-inline static constexpr unsigned int GNLPIHFPNKG_TypeDefinitionIndex = 53041;
+inline static constexpr unsigned int GNLPIHFPNKG_TypeDefinitionIndex = 54201;
 
 	class GNLPIHFPNKG
 	{

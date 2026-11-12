@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class SetTargetTeamLocation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_SETTARGETTEAMLOCATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC5FD0)
-#define RPG_GAMECORE_SETTARGETTEAMLOCATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAC5FE0)
-#define RPG_GAMECORE_SETTARGETTEAMLOCATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC5F90)
+#define RPG_GAMECORE_SETTARGETTEAMLOCATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD7F50)
+#define RPG_GAMECORE_SETTARGETTEAMLOCATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECD7F60)
+#define RPG_GAMECORE_SETTARGETTEAMLOCATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD7F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTargetTeamLocation_TypeDefinitionIndex = 22915;
+	inline static constexpr unsigned int SetTargetTeamLocation_TypeDefinitionIndex = 23341;
 
 	class SetTargetTeamLocation : public ::RPG::GameCore::TaskConfig
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByTargetAliveState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NIKJJBGIJAN_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF79A0)
-#define NIKJJBGIJAN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBF79D0)
+#define NIKJJBGIJAN_CTOR_OFFSET UNITYSDK_OFFSET(0xC4DA740)
+#define NIKJJBGIJAN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC4DA770)
 
-inline static constexpr unsigned int NIKJJBGIJAN_TypeDefinitionIndex = 54909;
+inline static constexpr unsigned int NIKJJBGIJAN_TypeDefinitionIndex = 56081;
 
 	class NIKJJBGIJAN
 	{

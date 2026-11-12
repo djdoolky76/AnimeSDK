@@ -5,14 +5,14 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MarbleModule___O_TypeDefinitionIndex = 65809;
+	inline static constexpr unsigned int MarbleModule___O_TypeDefinitionIndex = 67741;
 
 	class MarbleModule___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0___OpenMarbleMatchPage()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x4FBD0);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x5A850);
 		}
 
 	};

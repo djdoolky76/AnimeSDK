@@ -8,37 +8,37 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3EDC40)
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3EDC80)
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_0_OFFSET UNITYSDK_OFFSET(0xC3EDCE0)
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_1_OFFSET UNITYSDK_OFFSET(0xC3EDD00)
-#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GETSORTEDMONSTERS_B__49_0_OFFSET UNITYSDK_OFFSET(0xC3EDC90)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCD27F70)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCD27FB0)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_0_OFFSET UNITYSDK_OFFSET(0xCD28010)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GERSELECTABLEAVATARDATALIST_B__54_1_OFFSET UNITYSDK_OFFSET(0xCD28030)
+#define RPG_CLIENT_ACTIVITYELATIONSTAGE___C__GETSORTEDMONSTERS_B__49_0_OFFSET UNITYSDK_OFFSET(0xCD27FC0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityElationStage___c_TypeDefinitionIndex = 61512;
+	inline static constexpr unsigned int ActivityElationStage___c_TypeDefinitionIndex = 62897;
 
 	class ActivityElationStage___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14DB0);
-		}
-
-		static ::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__54_0()
-		{
-			return (::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14DB8);
-		}
-
-		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__54_1()
-		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14DC0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13390);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::MonsterData*>** StaticGet___9__49_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14DC8);
+			return (::System::Comparison_1<::RPG::Client::MonsterData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x13398);
+		}
+
+		static ::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__54_0()
+		{
+			return (::System::Func_2<::RPG::Client::ActivityElationAvatarData*, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x133A0);
+		}
+
+		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__54_1()
+		{
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x133A8);
 		}
 
 		static ::System::Void _cctor()

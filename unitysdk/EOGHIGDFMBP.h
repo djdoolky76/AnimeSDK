@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define EOGHIGDFMBP_CTOR_OFFSET UNITYSDK_OFFSET(0x155BF9B0)
+#define EOGHIGDFMBP_CTOR_OFFSET UNITYSDK_OFFSET(0x164D1AA0)
 
-inline static constexpr unsigned int EOGHIGDFMBP_TypeDefinitionIndex = 70154;
+inline static constexpr unsigned int EOGHIGDFMBP_TypeDefinitionIndex = 72120;
 
 	class EOGHIGDFMBP : public ::System::Attribute
 	{

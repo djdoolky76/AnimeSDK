@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 class SWRTAsset;
 
-#define SWRT_SWRT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC84420)
-#define SWRT_SWRT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CC84320)
-#define SWRT_SWRT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CC84180)
+#define SWRT_SWRT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2B5B0)
+#define SWRT_SWRT_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1DE2B4B0)
+#define SWRT_SWRT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1DE2B310)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int SWRT_TypeDefinitionIndex = 37511;
+	inline static constexpr unsigned int SWRT_TypeDefinitionIndex = 38439;
 
 	class SWRT : public ::UnityEngine::MonoBehaviour
 	{

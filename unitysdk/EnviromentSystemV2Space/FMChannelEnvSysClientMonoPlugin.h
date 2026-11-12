@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define ENVIROMENTSYSTEMV2SPACE_FMCHANNELENVSYSCLIENTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x15653730)
+#define ENVIROMENTSYSTEMV2SPACE_FMCHANNELENVSYSCLIENTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0x16566AC0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int FMChannelEnvSysClientMonoPlugin_TypeDefinitionIndex = 49567;
+	inline static constexpr unsigned int FMChannelEnvSysClientMonoPlugin_TypeDefinitionIndex = 50643;
 
 	class FMChannelEnvSysClientMonoPlugin
 	{

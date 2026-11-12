@@ -4,18 +4,18 @@
 class DINGDGLKHIP;
 namespace System { class Object; }
 
-#define DINGDGLKHIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1C3030)
-#define DINGDGLKHIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C3060)
-#define DINGDGLKHIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1C3070)
+#define DINGDGLKHIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F49EB70)
+#define DINGDGLKHIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49EBA0)
+#define DINGDGLKHIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F49EBB0)
 
-inline static constexpr unsigned int DINGDGLKHIP___c_TypeDefinitionIndex = 33420;
+inline static constexpr unsigned int DINGDGLKHIP___c_TypeDefinitionIndex = 34335;
 
 	class DINGDGLKHIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36B40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32D50);
 		}
 
 		static ::System::Void _cctor()

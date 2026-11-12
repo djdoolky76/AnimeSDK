@@ -4,18 +4,18 @@
 class CHEPPLBNOFF;
 namespace System { class Object; }
 
-#define CHEPPLBNOFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0C48C0)
-#define CHEPPLBNOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C4900)
-#define CHEPPLBNOFF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0C4910)
+#define CHEPPLBNOFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F394E00)
+#define CHEPPLBNOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F394E40)
+#define CHEPPLBNOFF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F394E50)
 
-inline static constexpr unsigned int CHEPPLBNOFF___c_TypeDefinitionIndex = 32901;
+inline static constexpr unsigned int CHEPPLBNOFF___c_TypeDefinitionIndex = 33816;
 
 	class CHEPPLBNOFF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x163A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF9D0);
 		}
 
 		static ::System::Void _cctor()

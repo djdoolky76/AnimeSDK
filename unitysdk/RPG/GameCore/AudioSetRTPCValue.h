@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUDIOSETRTPCVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D409160)
-#define RPG_GAMECORE_AUDIOSETRTPCVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D409170)
-#define RPG_GAMECORE_AUDIOSETRTPCVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D409130)
+#define RPG_GAMECORE_AUDIOSETRTPCVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6293F0)
+#define RPG_GAMECORE_AUDIOSETRTPCVALUE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E629400)
+#define RPG_GAMECORE_AUDIOSETRTPCVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6293C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioSetRTPCValue_TypeDefinitionIndex = 20613;
+	inline static constexpr unsigned int AudioSetRTPCValue_TypeDefinitionIndex = 20950;
 
 	class AudioSetRTPCValue : public ::RPG::GameCore::TaskConfig
 	{

@@ -11,26 +11,26 @@ class MNCOPNHONHO;
 namespace RPG::Client { class RPGProfilerMarker; }
 namespace RPG::Client { class RPGProfilerMarkerWithIntData; }
 
-#define DDKPJAGBNCK_AJAMJDIIFDO_OFFSET UNITYSDK_OFFSET(0xE4E4B90)
-#define DDKPJAGBNCK_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4E5AD0)
-#define DDKPJAGBNCK_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4E4820)
-#define DDKPJAGBNCK_CTOR_OFFSET UNITYSDK_OFFSET(0xE4E5A50)
-#define DDKPJAGBNCK_EMHDHINLCOP_OFFSET UNITYSDK_OFFSET(0xE4E4870)
-#define DDKPJAGBNCK_GEFDKBCCEJC_OFFSET UNITYSDK_OFFSET(0xE4E53E0)
-#define DDKPJAGBNCK_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xE4E4AC0)
-#define DDKPJAGBNCK_GET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0xE4E59A0)
-#define DDKPJAGBNCK_GET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0xE4E59F0)
-#define DDKPJAGBNCK_HAMPOKCIBEC_OFFSET UNITYSDK_OFFSET(0xE4E4B20)
-#define DDKPJAGBNCK_HKMPJGMGHEG_OFFSET UNITYSDK_OFFSET(0xE4E5810)
-#define DDKPJAGBNCK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE4E4620)
-#define DDKPJAGBNCK_LHMKCOHPLMN_OFFSET UNITYSDK_OFFSET(0xE4E59C0)
-#define DDKPJAGBNCK_OABJIFMOLIH_OFFSET UNITYSDK_OFFSET(0xE4E5490)
-#define DDKPJAGBNCK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xE4E55A0)
-#define DDKPJAGBNCK_SET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xE4E4760)
-#define DDKPJAGBNCK_SET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0xE4E59B0)
-#define DDKPJAGBNCK_SET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0xE4E47C0)
+#define DDKPJAGBNCK_AJAMJDIIFDO_OFFSET UNITYSDK_OFFSET(0xEE2ABB0)
+#define DDKPJAGBNCK_CCTOR_OFFSET UNITYSDK_OFFSET(0xEE2BAF0)
+#define DDKPJAGBNCK_CLEAR_OFFSET UNITYSDK_OFFSET(0xEE2A830)
+#define DDKPJAGBNCK_CTOR_OFFSET UNITYSDK_OFFSET(0xEE2BA70)
+#define DDKPJAGBNCK_EMHDHINLCOP_OFFSET UNITYSDK_OFFSET(0xEE2A890)
+#define DDKPJAGBNCK_GEFDKBCCEJC_OFFSET UNITYSDK_OFFSET(0xEE2B400)
+#define DDKPJAGBNCK_GET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xEE2AAE0)
+#define DDKPJAGBNCK_GET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0xEE2B9C0)
+#define DDKPJAGBNCK_GET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0xEE2BA10)
+#define DDKPJAGBNCK_HAMPOKCIBEC_OFFSET UNITYSDK_OFFSET(0xEE2AB40)
+#define DDKPJAGBNCK_HKMPJGMGHEG_OFFSET UNITYSDK_OFFSET(0xEE2B830)
+#define DDKPJAGBNCK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xEE2A630)
+#define DDKPJAGBNCK_LHMKCOHPLMN_OFFSET UNITYSDK_OFFSET(0xEE2B9E0)
+#define DDKPJAGBNCK_OABJIFMOLIH_OFFSET UNITYSDK_OFFSET(0xEE2B4B0)
+#define DDKPJAGBNCK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xEE2B5C0)
+#define DDKPJAGBNCK_SET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0xEE2A770)
+#define DDKPJAGBNCK_SET_OWNERSYSTEM_OFFSET UNITYSDK_OFFSET(0xEE2B9D0)
+#define DDKPJAGBNCK_SET_PREVSTATE_OFFSET UNITYSDK_OFFSET(0xEE2A7D0)
 
-inline static constexpr unsigned int DDKPJAGBNCK_TypeDefinitionIndex = 76784;
+inline static constexpr unsigned int DDKPJAGBNCK_TypeDefinitionIndex = 79117;
 
 	class DDKPJAGBNCK : public ::HFCPGANBGMI
 	{
@@ -38,64 +38,64 @@ inline static constexpr unsigned int DDKPJAGBNCK_TypeDefinitionIndex = 76784;
 		::MNCOPNHONHO* PDENFEFCAGN; // 0x40
 		::BABNOKHOBCF* FKINCGODJEP; // 0x48
 		::AMDDFBFKPPK* _OwnerSystem_k__BackingField; // 0x50
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_MOFPCGMIJHK()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x609D0);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_NJLGFOLCOBE()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x609D8);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_GNPEKAIBIHJ()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x609E0);
-		}
-
-		static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_NKGJLELHIOP()
-		{
-			return (::RPG::Client::RPGProfilerMarkerWithIntData**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x609E8);
-		}
-
-		static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_BHANKJBINMJ()
-		{
-			return (::RPG::Client::RPGProfilerMarkerWithIntData**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x609F0);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_BAEDMJDKMOA()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x609F8);
-		}
-
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_GEINNMNCAJO()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x60A00);
-		}
-
-		static ::RPG::Client::RPGProfilerMarker** StaticGet_JGKEEJCCBCO()
-		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x60A08);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55310);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_EEAJFDAIBBN()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x60A10);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55318);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_LDBPLFDPPBC()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x60A18);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55320);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_MOFPCGMIJHK()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55328);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_DNJIDIGLAFN()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x60A20);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55330);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_BAEDMJDKMOA()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55338);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_JGKEEJCCBCO()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55340);
+		}
+
+		static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_BHANKJBINMJ()
+		{
+			return (::RPG::Client::RPGProfilerMarkerWithIntData**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55348);
+		}
+
+		static ::RPG::Client::RPGProfilerMarkerWithIntData** StaticGet_NKGJLELHIOP()
+		{
+			return (::RPG::Client::RPGProfilerMarkerWithIntData**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55350);
 		}
 
 		static ::RPG::Client::RPGProfilerMarker** StaticGet_LAAGPIPAJIP()
 		{
-			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x60A28);
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55358);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_GNPEKAIBIHJ()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55360);
+		}
+
+		static ::RPG::Client::RPGProfilerMarker** StaticGet_NJLGFOLCOBE()
+		{
+			return (::RPG::Client::RPGProfilerMarker**)UnitySDK::FromName("", "DDKPJAGBNCK")->GetStaticField(0x55368);
 		}
 
 		::System::Void _ctor()

@@ -7,11 +7,11 @@ class DADDJLABCNM;
 class DLECIKAMKEG;
 namespace RPG::Client::Prop { class DuelChimeraProxy; }
 
-#define EOECLJCFFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x155BCC40)
-#define EOECLJCFFEB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x155BD2A0)
-#define EOECLJCFFEB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x155BCC50)
+#define EOECLJCFFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x164CED30)
+#define EOECLJCFFEB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x164CF390)
+#define EOECLJCFFEB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x164CED40)
 
-inline static constexpr unsigned int EOECLJCFFEB_TypeDefinitionIndex = 78265;
+inline static constexpr unsigned int EOECLJCFFEB_TypeDefinitionIndex = 81000;
 
 	class EOECLJCFFEB : public ::KNFCEJEJINK
 	{
@@ -20,12 +20,12 @@ inline static constexpr unsigned int EOECLJCFFEB_TypeDefinitionIndex = 78265;
 		::RPG::Client::Prop::DuelChimeraProxy* IBLBKLNHKLL; // 0x20
 		::DLECIKAMKEG* EEFMDEHLLFI; // 0x28
 		::DADDJLABCNM* MKKLHFCCCNF; // 0x30
-		::System::Single FOMCKBAHCFM; // 0x38
-		::UnityEngine::Quaternion NGIMALNHLNI; // 0x3C
-		::UnityEngine::Vector3 JNFHAIACECG; // 0x4C
-		::System::Single MFLNKDOADDG; // 0x58
-		::UnityEngine::Quaternion OKBPGPNJMFL; // 0x5C
-		::UnityEngine::Vector3 KGMNHAFNOHK; // 0x6C
+		::UnityEngine::Quaternion OKBPGPNJMFL; // 0x38
+		::UnityEngine::Vector3 JNFHAIACECG; // 0x48
+		::UnityEngine::Quaternion NGIMALNHLNI; // 0x54
+		::UnityEngine::Vector3 KGMNHAFNOHK; // 0x64
+		::System::Single FOMCKBAHCFM; // 0x70
+		::System::Single MFLNKDOADDG; // 0x74
 		::System::Void _ctor(::DADDJLABCNM* a1, ::DLECIKAMKEG* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::DADDJLABCNM*, ::DLECIKAMKEG*))((::PBYTE)hIl2Cpp + EOECLJCFFEB_CTOR_OFFSET))(this, a1, a2);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsMazeBuffAffectCurrentWave; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPHMCDMJBNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFE070)
-#define NPHMCDMJBNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCFE0A0)
+#define NPHMCDMJBNF_CTOR_OFFSET UNITYSDK_OFFSET(0xC5EDB40)
+#define NPHMCDMJBNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC5EDB70)
 
-inline static constexpr unsigned int NPHMCDMJBNF_TypeDefinitionIndex = 54676;
+inline static constexpr unsigned int NPHMCDMJBNF_TypeDefinitionIndex = 55842;
 
 	class NPHMCDMJBNF
 	{

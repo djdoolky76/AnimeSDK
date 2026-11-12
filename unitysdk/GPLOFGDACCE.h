@@ -5,9 +5,9 @@
 class OPEJFIDCNPO;
 namespace RPG::GameCore { class ComplexSkillAIFactor; }
 
-#define GPLOFGDACCE_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15B604B0)
+#define GPLOFGDACCE_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x16AE5E50)
 
-inline static constexpr unsigned int GPLOFGDACCE_TypeDefinitionIndex = 54346;
+inline static constexpr unsigned int GPLOFGDACCE_TypeDefinitionIndex = 55510;
 
 	class GPLOFGDACCE : public ::System::Object
 	{

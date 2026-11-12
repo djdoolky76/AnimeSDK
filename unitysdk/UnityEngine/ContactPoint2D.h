@@ -4,7 +4,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int ContactPoint2D_TypeDefinitionIndex = 5810;
+	inline static constexpr unsigned int ContactPoint2D_TypeDefinitionIndex = 5818;
 
 	struct alignas(4) ContactPoint2D
 	{

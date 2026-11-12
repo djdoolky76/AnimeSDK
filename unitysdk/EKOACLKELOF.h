@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByInTrackCameraByPathID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKOACLKELOF_CTOR_OFFSET UNITYSDK_OFFSET(0x15510F70)
-#define EKOACLKELOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15510FA0)
+#define EKOACLKELOF_CTOR_OFFSET UNITYSDK_OFFSET(0x16459510)
+#define EKOACLKELOF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16459540)
 
-inline static constexpr unsigned int EKOACLKELOF_TypeDefinitionIndex = 53146;
+inline static constexpr unsigned int EKOACLKELOF_TypeDefinitionIndex = 54308;
 
 	class EKOACLKELOF
 	{

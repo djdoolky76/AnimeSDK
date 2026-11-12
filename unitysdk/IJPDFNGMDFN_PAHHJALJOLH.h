@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/AdventureModifierBehaviorFlag.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define IJPDFNGMDFN_PAHHJALJOLH_CTOR_OFFSET UNITYSDK_OFFSET(0x14160)
+#define IJPDFNGMDFN_PAHHJALJOLH_CTOR_OFFSET UNITYSDK_OFFSET(0x18D10)
 
-inline static constexpr unsigned int IJPDFNGMDFN_PAHHJALJOLH_TypeDefinitionIndex = 58492;
+inline static constexpr unsigned int IJPDFNGMDFN_PAHHJALJOLH_TypeDefinitionIndex = 59748;
 
 	struct alignas(8) IJPDFNGMDFN_PAHHJALJOLH
 	{

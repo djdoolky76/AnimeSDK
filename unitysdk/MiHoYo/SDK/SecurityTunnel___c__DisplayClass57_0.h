@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB043520)
+#define MIHOYO_SDK_SECURITYTUNNEL___C__DISPLAYCLASS57_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A4320)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass57_0_TypeDefinitionIndex = 46424;
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass57_0_TypeDefinitionIndex = 47452;
 
 	class SecurityTunnel___c__DisplayClass57_0 : public ::System::Object
 	{

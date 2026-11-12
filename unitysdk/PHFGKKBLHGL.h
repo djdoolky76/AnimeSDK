@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PropSetupOptionsTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PHFGKKBLHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC24B820)
-#define PHFGKKBLHGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC24B850)
+#define PHFGKKBLHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB708F0)
+#define PHFGKKBLHGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB70920)
 
-inline static constexpr unsigned int PHFGKKBLHGL_TypeDefinitionIndex = 53183;
+inline static constexpr unsigned int PHFGKKBLHGL_TypeDefinitionIndex = 54345;
 
 	class PHFGKKBLHGL
 	{

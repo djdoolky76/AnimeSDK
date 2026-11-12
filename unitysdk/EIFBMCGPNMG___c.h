@@ -4,18 +4,18 @@
 class EIFBMCGPNMG;
 namespace System { class Object; }
 
-#define EIFBMCGPNMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A8990)
-#define EIFBMCGPNMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A89D0)
-#define EIFBMCGPNMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2A89E0)
+#define EIFBMCGPNMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F58C030)
+#define EIFBMCGPNMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58C070)
+#define EIFBMCGPNMG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F58C080)
 
-inline static constexpr unsigned int EIFBMCGPNMG___c_TypeDefinitionIndex = 31630;
+inline static constexpr unsigned int EIFBMCGPNMG___c_TypeDefinitionIndex = 32543;
 
 	class EIFBMCGPNMG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x49880);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42C90);
 		}
 
 		static ::System::Void _cctor()

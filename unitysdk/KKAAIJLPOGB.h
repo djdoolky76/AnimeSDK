@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChimeraAbility; }
 
-#define KKAAIJLPOGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C905510)
+#define KKAAIJLPOGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB1730)
 
-inline static constexpr unsigned int KKAAIJLPOGB_TypeDefinitionIndex = 41982;
+inline static constexpr unsigned int KKAAIJLPOGB_TypeDefinitionIndex = 42957;
 
 	class KKAAIJLPOGB : public ::System::Object
 	{

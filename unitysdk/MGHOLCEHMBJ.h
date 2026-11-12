@@ -5,10 +5,10 @@ class EGDGOMKKEJI;
 class IFNMPBPNBIF;
 namespace RPG::GameCore { class DiceCombatDiceSelectorConfig; }
 
-#define MGHOLCEHMBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74AF60)
-#define MGHOLCEHMBJ_KDNJPGOCAED_OFFSET UNITYSDK_OFFSET(0x1C70FBB0)
+#define MGHOLCEHMBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8CC8C0)
+#define MGHOLCEHMBJ_KDNJPGOCAED_OFFSET UNITYSDK_OFFSET(0x1D891560)
 
-inline static constexpr unsigned int MGHOLCEHMBJ_TypeDefinitionIndex = 36373;
+inline static constexpr unsigned int MGHOLCEHMBJ_TypeDefinitionIndex = 37301;
 
 	class MGHOLCEHMBJ : public ::System::Object
 	{

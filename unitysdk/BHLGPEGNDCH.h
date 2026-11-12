@@ -3,10 +3,10 @@
 class KJNHIELIFEK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHLGPEGNDCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB48E020)
-#define BHLGPEGNDCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB48E050)
+#define BHLGPEGNDCH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB46E10)
+#define BHLGPEGNDCH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB46E40)
 
-inline static constexpr unsigned int BHLGPEGNDCH_TypeDefinitionIndex = 56419;
+inline static constexpr unsigned int BHLGPEGNDCH_TypeDefinitionIndex = 57637;
 
 	class BHLGPEGNDCH
 	{

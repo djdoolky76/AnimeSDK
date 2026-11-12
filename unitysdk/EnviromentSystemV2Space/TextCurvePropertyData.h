@@ -7,13 +7,13 @@ namespace EnviromentSystemV2Space { class PropertyDataBase; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15657E30)
-#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEPROPERTYDATA_EIOEKCFAIMG_OFFSET UNITYSDK_OFFSET(0x15657C10)
-#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEPROPERTYDATA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x15657C80)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEPROPERTYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1656B1A0)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEPROPERTYDATA_EIOEKCFAIMG_OFFSET UNITYSDK_OFFSET(0x1656AF80)
+#define ENVIROMENTSYSTEMV2SPACE_TEXTCURVEPROPERTYDATA_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1656AFF0)
 
 namespace EnviromentSystemV2Space
 {
-	inline static constexpr unsigned int TextCurvePropertyData_TypeDefinitionIndex = 49400;
+	inline static constexpr unsigned int TextCurvePropertyData_TypeDefinitionIndex = 50476;
 
 	class TextCurvePropertyData : public ::EnviromentSystemV2Space::CustomCurvePropertyData
 	{

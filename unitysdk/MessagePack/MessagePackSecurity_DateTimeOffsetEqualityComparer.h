@@ -3,20 +3,20 @@
 #include "unitysdk/System/DateTimeOffset.h"
 namespace MessagePack { class MessagePackSecurity_DateTimeOffsetEqualityComparer; }
 
-#define MESSAGEPACK_MESSAGEPACKSECURITY_DATETIMEOFFSETEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBC18F0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_DATETIMEOFFSETEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC1890)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_DATETIMEOFFSETEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBC1800)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_DATETIMEOFFSETEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD4A770)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_DATETIMEOFFSETEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4A710)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_DATETIMEOFFSETEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CD4A680)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_DateTimeOffsetEqualityComparer_TypeDefinitionIndex = 7209;
+	inline static constexpr unsigned int MessagePackSecurity_DateTimeOffsetEqualityComparer_TypeDefinitionIndex = 7220;
 
 	class MessagePackSecurity_DateTimeOffsetEqualityComparer
 	{
 	public:
 		static ::MessagePack::MessagePackSecurity_DateTimeOffsetEqualityComparer** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackSecurity_DateTimeOffsetEqualityComparer**)UnitySDK::FromName("MessagePack", "DateTimeOffsetEqualityComparer")->GetStaticField(0x2C2E0);
+			return (::MessagePack::MessagePackSecurity_DateTimeOffsetEqualityComparer**)UnitySDK::FromName("MessagePack", "DateTimeOffsetEqualityComparer")->GetStaticField(0x4E620);
 		}
 
 		::System::Void _ctor()

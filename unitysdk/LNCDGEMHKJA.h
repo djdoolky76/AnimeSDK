@@ -5,11 +5,11 @@ namespace RPG::Client { class CommonActivityLightConeRewardData; }
 namespace RPG::Client { class CommonActivityLightConeRewardGroup; }
 namespace RPG::GameCore { class PlanetFesOpticalRow; }
 
-#define LNCDGEMHKJA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB7D60E0)
-#define LNCDGEMHKJA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D6620)
-#define LNCDGEMHKJA_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xB7D64F0)
+#define LNCDGEMHKJA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC032520)
+#define LNCDGEMHKJA_CTOR_OFFSET UNITYSDK_OFFSET(0xC032A60)
+#define LNCDGEMHKJA_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xC032930)
 
-inline static constexpr unsigned int LNCDGEMHKJA_TypeDefinitionIndex = 66604;
+inline static constexpr unsigned int LNCDGEMHKJA_TypeDefinitionIndex = 68540;
 
 	class LNCDGEMHKJA : public ::System::Object
 	{

@@ -7,19 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChenLingFesPredicateItemCondition; }
 namespace SimpleJSON { class JSONNode; }
 
-#define EHPBMPFKNFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD849C0)
-#define EHPBMPFKNFP_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1CD84BD0)
-#define EHPBMPFKNFP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1CD84B90)
-#define EHPBMPFKNFP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD849D0)
-#define EHPBMPFKNFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD84980)
+#define EHPBMPFKNFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF560E0)
+#define EHPBMPFKNFP_EOJLPDGNHEK_OFFSET UNITYSDK_OFFSET(0x1DF562F0)
+#define EHPBMPFKNFP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DF562B0)
+#define EHPBMPFKNFP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF560F0)
+#define EHPBMPFKNFP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF560A0)
 
-inline static constexpr unsigned int EHPBMPFKNFP_TypeDefinitionIndex = 21508;
+inline static constexpr unsigned int EHPBMPFKNFP_TypeDefinitionIndex = 21861;
 
 	class EHPBMPFKNFP : public ::RPG::GameCore::PredicateConfig
 	{
 	public:
-		::RPG::GameCore::ChenLingFesPredicateItemCondition* EKIJFPIPCKF; // 0x20
-		::RPG::GameCore::ChenLingFesPredicateItemCondition* LGPMCJDBDIA; // 0x28
+		::RPG::GameCore::ChenLingFesPredicateItemCondition* LGPMCJDBDIA; // 0x20
+		::RPG::GameCore::ChenLingFesPredicateItemCondition* EKIJFPIPCKF; // 0x28
 		::RPG::GameCore::LogicOperationType NDJKPABPJHO; // 0x30
 		::System::Void _ctor()
 		{

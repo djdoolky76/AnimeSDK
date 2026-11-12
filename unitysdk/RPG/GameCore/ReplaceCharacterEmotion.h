@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class ReplaceCharacterEmotion; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REPLACECHARACTEREMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D987E10)
-#define RPG_GAMECORE_REPLACECHARACTEREMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D987E20)
-#define RPG_GAMECORE_REPLACECHARACTEREMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D987DE0)
+#define RPG_GAMECORE_REPLACECHARACTEREMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBA00B0)
+#define RPG_GAMECORE_REPLACECHARACTEREMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EBA00C0)
+#define RPG_GAMECORE_REPLACECHARACTEREMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBA0080)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ReplaceCharacterEmotion_TypeDefinitionIndex = 22413;
+	inline static constexpr unsigned int ReplaceCharacterEmotion_TypeDefinitionIndex = 22822;
 
 	class ReplaceCharacterEmotion : public ::RPG::GameCore::TaskConfig
 	{

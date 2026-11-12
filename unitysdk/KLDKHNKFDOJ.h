@@ -4,22 +4,22 @@
 namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class String; }
 
-#define KLDKHNKFDOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB4EE610)
-#define KLDKHNKFDOJ_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xB4EE5F0)
-#define KLDKHNKFDOJ_GET_ICON_OFFSET UNITYSDK_OFFSET(0xB4EE5D0)
-#define KLDKHNKFDOJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB4EE5B0)
-#define KLDKHNKFDOJ_SET_COUNT_OFFSET UNITYSDK_OFFSET(0xB4EE600)
-#define KLDKHNKFDOJ_SET_ICON_OFFSET UNITYSDK_OFFSET(0xB4EE5E0)
-#define KLDKHNKFDOJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB4EE5C0)
+#define KLDKHNKFDOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBD384E0)
+#define KLDKHNKFDOJ_GET_COUNT_OFFSET UNITYSDK_OFFSET(0xBD384C0)
+#define KLDKHNKFDOJ_GET_ICON_OFFSET UNITYSDK_OFFSET(0xBD384A0)
+#define KLDKHNKFDOJ_GET_NAME_OFFSET UNITYSDK_OFFSET(0xBD38480)
+#define KLDKHNKFDOJ_SET_COUNT_OFFSET UNITYSDK_OFFSET(0xBD384D0)
+#define KLDKHNKFDOJ_SET_ICON_OFFSET UNITYSDK_OFFSET(0xBD384B0)
+#define KLDKHNKFDOJ_SET_NAME_OFFSET UNITYSDK_OFFSET(0xBD38490)
 
-inline static constexpr unsigned int KLDKHNKFDOJ_TypeDefinitionIndex = 73429;
+inline static constexpr unsigned int KLDKHNKFDOJ_TypeDefinitionIndex = 75552;
 
 	class KLDKHNKFDOJ : public ::System::Object
 	{
 	public:
-		::R3::ReactiveProperty_1<::System::Int32>* _Count_k__BackingField; // 0x10
-		::R3::ReactiveProperty_1<::System::String*>* _Icon_k__BackingField; // 0x18
-		::R3::ReactiveProperty_1<::System::String*>* _Name_k__BackingField; // 0x20
+		::R3::ReactiveProperty_1<::System::String*>* _Icon_k__BackingField; // 0x10
+		::R3::ReactiveProperty_1<::System::String*>* _Name_k__BackingField; // 0x18
+		::R3::ReactiveProperty_1<::System::Int32>* _Count_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KLDKHNKFDOJ_CTOR_OFFSET))(this);

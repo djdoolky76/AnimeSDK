@@ -5,10 +5,10 @@
 namespace RPG::Client { class RechargeGiftData; }
 namespace RPG::Client { class RechargeShopModule; }
 
-#define HMHFCDLJFLD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D82320)
-#define HMHFCDLJFLD_PFKOENKLFON_OFFSET UNITYSDK_OFFSET(0x15D823A0)
+#define HMHFCDLJFLD_CTOR_OFFSET UNITYSDK_OFFSET(0x16D1FBE0)
+#define HMHFCDLJFLD_PFKOENKLFON_OFFSET UNITYSDK_OFFSET(0x16D1FC60)
 
-inline static constexpr unsigned int HMHFCDLJFLD_TypeDefinitionIndex = 66789;
+inline static constexpr unsigned int HMHFCDLJFLD_TypeDefinitionIndex = 68725;
 
 	class HMHFCDLJFLD : public ::System::Object
 	{

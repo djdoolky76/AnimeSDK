@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class BJMIMCDCPME;
 
-#define HPPGEICLFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB061D0)
+#define HPPGEICLFKB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCAC40)
 
-inline static constexpr unsigned int HPPGEICLFKB_TypeDefinitionIndex = 43214;
+inline static constexpr unsigned int HPPGEICLFKB_TypeDefinitionIndex = 44195;
 
 	class HPPGEICLFKB : public ::System::Object
 	{

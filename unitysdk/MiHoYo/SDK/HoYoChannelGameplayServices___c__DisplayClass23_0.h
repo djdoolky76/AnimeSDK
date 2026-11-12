@@ -5,18 +5,18 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelActivityResult; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF839A0)
-#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES___C__DISPLAYCLASS23_0__ONACTIVITYCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xAF87F50)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES___C__DISPLAYCLASS23_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E4E90)
+#define MIHOYO_SDK_HOYOCHANNELGAMEPLAYSERVICES___C__DISPLAYCLASS23_0__ONACTIVITYCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xB5E9460)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelGameplayServices___c__DisplayClass23_0_TypeDefinitionIndex = 46511;
+	inline static constexpr unsigned int HoYoChannelGameplayServices___c__DisplayClass23_0_TypeDefinitionIndex = 47539;
 
 	class HoYoChannelGameplayServices___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelActivityResult*>* callback; // 0x10
-		::System::String* jsonResponse; // 0x18
+		::System::String* jsonResponse; // 0x10
+		::System::Action_1<::MiHoYo::SDK::PC::OS::HoYoChannelActivityResult*>* callback; // 0x18
 		::System::Int32 resultCode; // 0x20
 		::System::Void _ctor()
 		{

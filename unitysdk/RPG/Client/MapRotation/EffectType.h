@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MapRotation
 {
-	inline static constexpr unsigned int EffectType_TypeDefinitionIndex = 75750;
+	inline static constexpr unsigned int EffectType_TypeDefinitionIndex = 78077;
 
 	enum class EffectType : ::System::Int32
 	{

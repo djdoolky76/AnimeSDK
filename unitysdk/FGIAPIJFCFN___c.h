@@ -4,23 +4,23 @@
 namespace Cinemachine { class CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate; }
 namespace System { class Object; }
 
-#define FGIAPIJFCFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15764520)
-#define FGIAPIJFCFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15764560)
-#define FGIAPIJFCFN___C___SETVCAM_B__10_0_OFFSET UNITYSDK_OFFSET(0x15764570)
+#define FGIAPIJFCFN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16684C50)
+#define FGIAPIJFCFN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16684C90)
+#define FGIAPIJFCFN___C___SETVCAM_B__10_0_OFFSET UNITYSDK_OFFSET(0x16684CA0)
 
-inline static constexpr unsigned int FGIAPIJFCFN___c_TypeDefinitionIndex = 60766;
+inline static constexpr unsigned int FGIAPIJFCFN___c_TypeDefinitionIndex = 62143;
 
 	class FGIAPIJFCFN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x664F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59E70);
 		}
 
 		static ::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate** StaticGet___9__10_0()
 		{
-			return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)UnitySDK::FromName("", "<>c")->GetStaticField(0x664F8);
+			return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)UnitySDK::FromName("", "<>c")->GetStaticField(0x59E78);
 		}
 
 		static ::System::Void _cctor()

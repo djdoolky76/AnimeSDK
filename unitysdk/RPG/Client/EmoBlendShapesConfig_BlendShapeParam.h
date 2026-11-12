@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE4D80)
+#define RPG_CLIENT_EMOBLENDSHAPESCONFIG_BLENDSHAPEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xD7ACC70)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapeParam_TypeDefinitionIndex = 60035;
+	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapeParam_TypeDefinitionIndex = 61319;
 
 	class EmoBlendShapesConfig_BlendShapeParam : public ::System::Object
 	{

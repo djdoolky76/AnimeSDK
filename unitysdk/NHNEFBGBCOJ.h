@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NHNEFBGBCOJ_TypeDefinitionIndex = 43328;
+inline static constexpr unsigned int NHNEFBGBCOJ_TypeDefinitionIndex = 44309;
 
 	struct alignas(4) NHNEFBGBCOJ
 	{

@@ -6,23 +6,23 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class AsyncOperation; }
 
-#define BOCEFFDMFPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C441740)
-#define BOCEFFDMFPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C441770)
-#define BOCEFFDMFPM___C___CTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1C441780)
+#define BOCEFFDMFPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5C66F0)
+#define BOCEFFDMFPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C6720)
+#define BOCEFFDMFPM___C___CTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1D5C6730)
 
-inline static constexpr unsigned int BOCEFFDMFPM___c_TypeDefinitionIndex = 41568;
+inline static constexpr unsigned int BOCEFFDMFPM___c_TypeDefinitionIndex = 42543;
 
 	class BOCEFFDMFPM___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_2<::BOCEFFDMFPM*, ::UnityEngine::AsyncOperation*>** StaticGet___9__68_0()
 		{
-			return (::System::Action_2<::BOCEFFDMFPM*, ::UnityEngine::AsyncOperation*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11590);
+			return (::System::Action_2<::BOCEFFDMFPM*, ::UnityEngine::AsyncOperation*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D740);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11598);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6D748);
 		}
 
 		static ::System::Void _cctor()

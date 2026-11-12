@@ -7,20 +7,21 @@ namespace RPG::GameCore { class CakeRaceActionBase; }
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ONJKKFIPKHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E35E0)
-#define ONJKKFIPKHF_FCKDPOPNLIB_OFFSET UNITYSDK_OFFSET(0x1C7E3640)
-#define ONJKKFIPKHF_GHDPPCEGIHA_OFFSET UNITYSDK_OFFSET(0x1C7E37A0)
-#define ONJKKFIPKHF_HGCPMHECECO_OFFSET UNITYSDK_OFFSET(0x1C7E3F20)
-#define ONJKKFIPKHF_TICK_OFFSET UNITYSDK_OFFSET(0x1C7E3C20)
+#define ONJKKFIPKHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D964F10)
+#define ONJKKFIPKHF_FCKDPOPNLIB_OFFSET UNITYSDK_OFFSET(0x1D964F70)
+#define ONJKKFIPKHF_GHDPPCEGIHA_OFFSET UNITYSDK_OFFSET(0x1D9650D0)
+#define ONJKKFIPKHF_HGCPMHECECO_OFFSET UNITYSDK_OFFSET(0x1D965850)
+#define ONJKKFIPKHF_TICK_OFFSET UNITYSDK_OFFSET(0x1D965550)
 
-inline static constexpr unsigned int ONJKKFIPKHF_TypeDefinitionIndex = 37346;
+inline static constexpr unsigned int ONJKKFIPKHF_TypeDefinitionIndex = 38274;
 
 	class ONJKKFIPKHF : public ::HOCBJOJNLLC
 	{
 	public:
 		::System::Collections::Generic::List_1<::System::Tuple_2<::RPG::GameCore::CakeRaceActionBase*, ::System::UInt64>*>* MEBHIJOEDHP; // 0x28
-		::System::UInt64 ACEPCNAKOEH; // 0x30
-		::System::Int32 PPENONBJDFO; // 0x38
+		::System::Int32 PPENONBJDFO; // 0x30
+		::System::Byte _padding0[0x4];
+		::System::UInt64 ACEPCNAKOEH; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ONJKKFIPKHF_CTOR_OFFSET))(this);

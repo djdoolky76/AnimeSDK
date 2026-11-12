@@ -9,10 +9,10 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IAPMMPBHGLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E26100)
-#define IAPMMPBHGLO_ECNKMIFCAFC_OFFSET UNITYSDK_OFFSET(0x15E26170)
+#define IAPMMPBHGLO_CTOR_OFFSET UNITYSDK_OFFSET(0x16DCFB50)
+#define IAPMMPBHGLO_ECNKMIFCAFC_OFFSET UNITYSDK_OFFSET(0x16DCFBC0)
 
-inline static constexpr unsigned int IAPMMPBHGLO_TypeDefinitionIndex = 60922;
+inline static constexpr unsigned int IAPMMPBHGLO_TypeDefinitionIndex = 62298;
 
 	class IAPMMPBHGLO : public ::PBDLKBEAHDL
 	{

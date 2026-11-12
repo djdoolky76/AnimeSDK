@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::LimaoNews { class LimaoNewsOfficeSurveyItem; }
 
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3CB000)
-#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE___C__DISPLAYCLASS2_0__REBUILDSURVEYITEMSBYRECOMMENDID_B__0_OFFSET UNITYSDK_OFFSET(0xD3CB810)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDE03510)
+#define RPG_CLIENT_LIMAONEWS_LIMAONEWSOFFICESURVEYSERVICE___C__DISPLAYCLASS2_0__REBUILDSURVEYITEMSBYRECOMMENDID_B__0_OFFSET UNITYSDK_OFFSET(0xDE03D20)
 
 namespace RPG::Client::LimaoNews
 {
-	inline static constexpr unsigned int LimaoNewsOfficeSurveyService___c__DisplayClass2_0_TypeDefinitionIndex = 80331;
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyService___c__DisplayClass2_0_TypeDefinitionIndex = 83108;
 
 	class LimaoNewsOfficeSurveyService___c__DisplayClass2_0 : public ::System::Object
 	{

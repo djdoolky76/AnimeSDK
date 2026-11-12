@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCompareDimensionID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPAOLLAIEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1590B650)
-#define FPAOLLAIEEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1590B680)
+#define FPAOLLAIEEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1683AB20)
+#define FPAOLLAIEEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1683AB50)
 
-inline static constexpr unsigned int FPAOLLAIEEL_TypeDefinitionIndex = 53109;
+inline static constexpr unsigned int FPAOLLAIEEL_TypeDefinitionIndex = 54271;
 
 	class FPAOLLAIEEL
 	{

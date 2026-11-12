@@ -4,8 +4,8 @@
 namespace System { class String; }
 namespace System::Security::Cryptography { class HashAlgorithm; }
 
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C030720)
-#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C0302D0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1B7BD0)
+#define MONO_SECURITY_CRYPTOGRAPHY_PKCS1_A149AE361CDC7E3E_CREATEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1D1B7730)
 
 namespace Mono::Security::Cryptography
 {
@@ -16,22 +16,22 @@ namespace Mono::Security::Cryptography
 	public:
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA384()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x34470);
-		}
-
-		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
-		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x34478);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x26B00);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA256()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x34480);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x26B08);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA512()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x34488);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x26B10);
+		}
+
+		static ::Il2CppArray<::System::Byte>** StaticGet_emptySHA1()
+		{
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("Mono.Security.Cryptography", "PKCS1")->GetStaticField(0x26B18);
 		}
 
 		static ::System::Void _cctor()

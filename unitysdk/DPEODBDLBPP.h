@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DPEODBDLBPP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFB190)
+#define DPEODBDLBPP_CTOR_OFFSET UNITYSDK_OFFSET(0x12DF6410)
 
-inline static constexpr unsigned int DPEODBDLBPP_TypeDefinitionIndex = 80579;
+inline static constexpr unsigned int DPEODBDLBPP_TypeDefinitionIndex = 83359;
 
 	class DPEODBDLBPP : public ::System::Object
 	{

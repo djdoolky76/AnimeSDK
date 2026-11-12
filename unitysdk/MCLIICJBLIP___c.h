@@ -4,18 +4,18 @@
 class MCLIICJBLIP;
 namespace System { class Object; }
 
-#define MCLIICJBLIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9FB6D0)
-#define MCLIICJBLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9FB710)
-#define MCLIICJBLIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9FB720)
+#define MCLIICJBLIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD44EF0)
+#define MCLIICJBLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD44F30)
+#define MCLIICJBLIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD44F40)
 
-inline static constexpr unsigned int MCLIICJBLIP___c_TypeDefinitionIndex = 31905;
+inline static constexpr unsigned int MCLIICJBLIP___c_TypeDefinitionIndex = 32818;
 
 	class MCLIICJBLIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48620);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4EE60);
 		}
 
 		static ::System::Void _cctor()

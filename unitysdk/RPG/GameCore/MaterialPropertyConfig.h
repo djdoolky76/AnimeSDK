@@ -8,12 +8,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MaterialPropertyConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MATERIALPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D85E330)
-#define RPG_GAMECORE_MATERIALPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D85E0A0)
+#define RPG_GAMECORE_MATERIALPROPERTYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA78B80)
+#define RPG_GAMECORE_MATERIALPROPERTYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA78970)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MaterialPropertyConfig_TypeDefinitionIndex = 16509;
+	inline static constexpr unsigned int MaterialPropertyConfig_TypeDefinitionIndex = 16673;
 
 	class MaterialPropertyConfig : public ::RPG::GameCore::JsonConfig
 	{

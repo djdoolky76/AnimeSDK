@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetViewModeEnabled; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EHAKMACGEEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1549D350)
-#define EHAKMACGEEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1549D380)
+#define EHAKMACGEEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1639BC80)
+#define EHAKMACGEEA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1639BCB0)
 
-inline static constexpr unsigned int EHAKMACGEEA_TypeDefinitionIndex = 58590;
+inline static constexpr unsigned int EHAKMACGEEA_TypeDefinitionIndex = 59855;
 
 	class EHAKMACGEEA
 	{

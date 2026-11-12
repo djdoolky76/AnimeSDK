@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TextID.h"
 
-#define AOBIKHHFNEA_CTOR_OFFSET UNITYSDK_OFFSET(0xDFFC0)
+#define AOBIKHHFNEA_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB60)
 
-inline static constexpr unsigned int AOBIKHHFNEA_TypeDefinitionIndex = 72380;
+inline static constexpr unsigned int AOBIKHHFNEA_TypeDefinitionIndex = 74459;
 
 	struct alignas(4) AOBIKHHFNEA
 	{

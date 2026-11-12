@@ -7,21 +7,21 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
 
-#define KNMJJHEKJDI_ADD_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0xB588DC0)
-#define KNMJJHEKJDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB588E80)
-#define KNMJJHEKJDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB588F40)
-#define KNMJJHEKJDI_OFBKIOEEMKE_OFFSET UNITYSDK_OFFSET(0xB588FC0)
-#define KNMJJHEKJDI_PPEDLFNLPCN_OFFSET UNITYSDK_OFFSET(0xB589260)
-#define KNMJJHEKJDI_REMOVE_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0xB588E20)
+#define KNMJJHEKJDI_ADD_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0xBDDB470)
+#define KNMJJHEKJDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDDB530)
+#define KNMJJHEKJDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDDB5F0)
+#define KNMJJHEKJDI_OFBKIOEEMKE_OFFSET UNITYSDK_OFFSET(0xBDDB670)
+#define KNMJJHEKJDI_PPEDLFNLPCN_OFFSET UNITYSDK_OFFSET(0xBDDB910)
+#define KNMJJHEKJDI_REMOVE_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0xBDDB4D0)
 
-inline static constexpr unsigned int KNMJJHEKJDI_TypeDefinitionIndex = 79678;
+inline static constexpr unsigned int KNMJJHEKJDI_TypeDefinitionIndex = 82455;
 
 	class KNMJJHEKJDI : public ::System::Object
 	{
 	public:
 		::NLHNLMGAACM* OJDFLANLCEF; // 0x10
-		::System::Collections::Immutable::IImmutableSet_1<::System::UInt32>* EOPAAKIBIEP; // 0x18
-		::System::Action* OnMaybeChanged; // 0x20
+		::System::Action* OnMaybeChanged; // 0x18
+		::System::Collections::Immutable::IImmutableSet_1<::System::UInt32>* EOPAAKIBIEP; // 0x20
 		::System::Void _ctor(::NLHNLMGAACM* a1, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::NLHNLMGAACM*, ::System::Collections::Generic::IEnumerable_1<::System::UInt32>*))((::PBYTE)hIl2Cpp + KNMJJHEKJDI_CTOR_OFFSET))(this, a1, a2);

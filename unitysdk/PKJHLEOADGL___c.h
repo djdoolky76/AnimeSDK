@@ -5,23 +5,23 @@ class KPMLCCHLLKG;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define PKJHLEOADGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC2C3960)
-#define PKJHLEOADGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C39A0)
-#define PKJHLEOADGL___C___CTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0xC2C39B0)
+#define PKJHLEOADGL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCBEEDA0)
+#define PKJHLEOADGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEEDE0)
+#define PKJHLEOADGL___C___CTOR_B__29_0_OFFSET UNITYSDK_OFFSET(0xCBEEDF0)
 
-inline static constexpr unsigned int PKJHLEOADGL___c_TypeDefinitionIndex = 79471;
+inline static constexpr unsigned int PKJHLEOADGL___c_TypeDefinitionIndex = 82248;
 
 	class PKJHLEOADGL___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::KPMLCCHLLKG*, ::System::Boolean>** StaticGet___9__29_0()
-		{
-			return (::System::Func_2<::KPMLCCHLLKG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD20);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6FD28);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72E00);
+		}
+
+		static ::System::Func_2<::KPMLCCHLLKG*, ::System::Boolean>** StaticGet___9__29_0()
+		{
+			return (::System::Func_2<::KPMLCCHLLKG*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x72E08);
 		}
 
 		static ::System::Void _cctor()

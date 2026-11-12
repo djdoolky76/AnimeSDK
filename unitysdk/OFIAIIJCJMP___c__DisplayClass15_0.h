@@ -5,17 +5,17 @@ class OFIAIIJCJMP;
 namespace RPG::Client { class ChimeraDuelItemData; }
 namespace RPG::Client { class ChimeraDuelItemInfo; }
 
-#define OFIAIIJCJMP___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE42670)
-#define OFIAIIJCJMP___C__DISPLAYCLASS15_0___GETITEMPOOLMAXRARITY_B__0_OFFSET UNITYSDK_OFFSET(0xBE42850)
-#define OFIAIIJCJMP___C__DISPLAYCLASS15_0___GETITEMPOOLMAXRARITY_B__2_OFFSET UNITYSDK_OFFSET(0xBE42870)
+#define OFIAIIJCJMP___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC6FBFA0)
+#define OFIAIIJCJMP___C__DISPLAYCLASS15_0___GETITEMPOOLMAXRARITY_B__0_OFFSET UNITYSDK_OFFSET(0xC6FC180)
+#define OFIAIIJCJMP___C__DISPLAYCLASS15_0___GETITEMPOOLMAXRARITY_B__2_OFFSET UNITYSDK_OFFSET(0xC6FC1A0)
 
-inline static constexpr unsigned int OFIAIIJCJMP___c__DisplayClass15_0_TypeDefinitionIndex = 63385;
+inline static constexpr unsigned int OFIAIIJCJMP___c__DisplayClass15_0_TypeDefinitionIndex = 64823;
 
 	class OFIAIIJCJMP___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChimeraDuelItemInfo* itemInfo; // 0x10
-		::OFIAIIJCJMP* __4__this; // 0x18
+		::OFIAIIJCJMP* __4__this; // 0x10
+		::RPG::Client::ChimeraDuelItemInfo* itemInfo; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OFIAIIJCJMP___C__DISPLAYCLASS15_0_CTOR_OFFSET))(this);

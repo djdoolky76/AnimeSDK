@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SetTVNotifyConfig; }
 
-#define RPG_GAMECORE_SETTVNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAC42C0)
-#define RPG_GAMECORE_SETTVNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAC41E0)
+#define RPG_GAMECORE_SETTVNOTIFYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECD62C0)
+#define RPG_GAMECORE_SETTVNOTIFYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECD61E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetTVNotifyConfig_TypeDefinitionIndex = 16967;
+	inline static constexpr unsigned int SetTVNotifyConfig_TypeDefinitionIndex = 17134;
 
 	class SetTVNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{

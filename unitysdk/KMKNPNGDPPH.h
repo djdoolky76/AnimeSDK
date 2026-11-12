@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define KMKNPNGDPPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C908AA0)
+#define KMKNPNGDPPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DAB4CD0)
 
-inline static constexpr unsigned int KMKNPNGDPPH_TypeDefinitionIndex = 42787;
+inline static constexpr unsigned int KMKNPNGDPPH_TypeDefinitionIndex = 43767;
 
 	class KMKNPNGDPPH : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KMKNPNGDPPH")->GetStaticField(0x32140);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "KMKNPNGDPPH")->GetStaticField(0x268A0);
 		}
 
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "KMKNPNGDPPH")->GetStaticField(0x32148);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "KMKNPNGDPPH")->GetStaticField(0x268A8);
 		}
 
 		// static const ::System::Object ODFIAHONDOC; // 0x0

@@ -3,10 +3,10 @@
 class LPMGDCDFOOE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define KHDEAMCCLLN_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FF9A0)
-#define KHDEAMCCLLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3FF9D0)
+#define KHDEAMCCLLN_CTOR_OFFSET UNITYSDK_OFFSET(0xBC93060)
+#define KHDEAMCCLLN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC93090)
 
-inline static constexpr unsigned int KHDEAMCCLLN_TypeDefinitionIndex = 56397;
+inline static constexpr unsigned int KHDEAMCCLLN_TypeDefinitionIndex = 57615;
 
 	class KHDEAMCCLLN
 	{

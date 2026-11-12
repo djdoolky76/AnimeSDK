@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace RPG::Client { class ElfFarmCellData; }
 
-#define RPG_CLIENT_ELFRUNTIMECELL_CTOR_OFFSET UNITYSDK_OFFSET(0xCDE08D0)
+#define RPG_CLIENT_ELFRUNTIMECELL_CTOR_OFFSET UNITYSDK_OFFSET(0xD7A7BA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ElfRuntimeCell_TypeDefinitionIndex = 68665;
+	inline static constexpr unsigned int ElfRuntimeCell_TypeDefinitionIndex = 70617;
 
 	class ElfRuntimeCell : public ::UnityEngine::MonoBehaviour
 	{

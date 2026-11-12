@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JNNKMOBIEOB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D055D50)
-#define JNNKMOBIEOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D056320)
-#define JNNKMOBIEOB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D055EC0)
-#define JNNKMOBIEOB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D0557C0)
-#define JNNKMOBIEOB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D055A50)
-#define JNNKMOBIEOB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D055F60)
-#define JNNKMOBIEOB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D055FB0)
-#define JNNKMOBIEOB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D055D90)
-#define JNNKMOBIEOB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D0559F0)
-#define JNNKMOBIEOB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D055BC0)
-#define JNNKMOBIEOB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D055E20)
-#define JNNKMOBIEOB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D055740)
+#define JNNKMOBIEOB_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E244D50)
+#define JNNKMOBIEOB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E245320)
+#define JNNKMOBIEOB_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E244EC0)
+#define JNNKMOBIEOB_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E2447C0)
+#define JNNKMOBIEOB_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E244A50)
+#define JNNKMOBIEOB_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E244F60)
+#define JNNKMOBIEOB_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E244FB0)
+#define JNNKMOBIEOB_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E244D90)
+#define JNNKMOBIEOB_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E2449F0)
+#define JNNKMOBIEOB_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E244BC0)
+#define JNNKMOBIEOB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E244E20)
+#define JNNKMOBIEOB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E244740)
 
-inline static constexpr unsigned int JNNKMOBIEOB_TypeDefinitionIndex = 11721;
+inline static constexpr unsigned int JNNKMOBIEOB_TypeDefinitionIndex = 11778;
 
 	class JNNKMOBIEOB : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveTeamSlotLevelLimitRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveTeamSlotLevelLimitRow*>**)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0x300E0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0x2FA70);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0x300E8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0x2FA78);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveTeamSlotLevelLimitRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0x300F0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0xA2F0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::IdleLiveTeamSlotLevelLimitRow*>**)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0x2FA80);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0xA2F1);
+			return (::System::Boolean*)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0xA090);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "JNNKMOBIEOB")->GetStaticField(0xA091);
 		}
 
 		static ::System::Void _cctor()

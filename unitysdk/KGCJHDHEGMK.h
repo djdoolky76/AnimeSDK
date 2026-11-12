@@ -3,9 +3,9 @@
 #include "unitysdk/KGCJHDHEGMK_TargetType.h"
 namespace System { class String; }
 
-#define KGCJHDHEGMK_CTOR_OFFSET UNITYSDK_OFFSET(0x14160)
+#define KGCJHDHEGMK_CTOR_OFFSET UNITYSDK_OFFSET(0x18D10)
 
-inline static constexpr unsigned int KGCJHDHEGMK_TypeDefinitionIndex = 56516;
+inline static constexpr unsigned int KGCJHDHEGMK_TypeDefinitionIndex = 57736;
 
 	struct alignas(8) KGCJHDHEGMK
 	{

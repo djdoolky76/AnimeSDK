@@ -5,10 +5,10 @@ class DFGDEHAHLHC;
 class OOIIMCDEJMM;
 namespace UnityEngine { class GameObject; }
 
-#define OOIIMCDEJMM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF88300)
-#define OOIIMCDEJMM___C__DISPLAYCLASS9_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xBF88BD0)
+#define OOIIMCDEJMM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC888C40)
+#define OOIIMCDEJMM___C__DISPLAYCLASS9_0__LOADASSETASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xC889510)
 
-inline static constexpr unsigned int OOIIMCDEJMM___c__DisplayClass9_0_TypeDefinitionIndex = 76551;
+inline static constexpr unsigned int OOIIMCDEJMM___c__DisplayClass9_0_TypeDefinitionIndex = 78882;
 
 	class OOIIMCDEJMM___c__DisplayClass9_0 : public ::System::Object
 	{

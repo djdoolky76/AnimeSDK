@@ -7,22 +7,22 @@ class MBJOEPEGLII;
 namespace RPG::Client::Promises { class IPromise; }
 namespace System { template <typename T> class Func_1; }
 
-#define CJGNCPIDGNH___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD20EE80)
-#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__0_OFFSET UNITYSDK_OFFSET(0xD210FF0)
-#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__1_OFFSET UNITYSDK_OFFSET(0xD211190)
-#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__2_OFFSET UNITYSDK_OFFSET(0xD2111B0)
-#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__3_OFFSET UNITYSDK_OFFSET(0xD2111D0)
+#define CJGNCPIDGNH___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB84A70)
+#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__0_OFFSET UNITYSDK_OFFSET(0xDB86BE0)
+#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__1_OFFSET UNITYSDK_OFFSET(0xDB86D80)
+#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__2_OFFSET UNITYSDK_OFFSET(0xDB86DA0)
+#define CJGNCPIDGNH___C__DISPLAYCLASS14_0__TRYRECONNECTTOFIGHT_B__3_OFFSET UNITYSDK_OFFSET(0xDB86DC0)
 
-inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass14_0_TypeDefinitionIndex = 80269;
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass14_0_TypeDefinitionIndex = 83046;
 
 	class CJGNCPIDGNH___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__2; // 0x10
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__1; // 0x18
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__3; // 0x10
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__2; // 0x18
 		::MBJOEPEGLII* session; // 0x20
-		::CJGNCPIDGNH* __4__this; // 0x28
-		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__3; // 0x30
+		::System::Func_1<::RPG::Client::Promises::IPromise*>* __9__1; // 0x28
+		::CJGNCPIDGNH* __4__this; // 0x30
 		::FJPMJPEKLJL gameMode; // 0x38
 		::System::Void _ctor()
 		{

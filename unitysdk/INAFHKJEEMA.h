@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define INAFHKJEEMA_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CF251F0)
+#define INAFHKJEEMA_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1E10AA40)
 
-inline static constexpr unsigned int INAFHKJEEMA_TypeDefinitionIndex = 10644;
+inline static constexpr unsigned int INAFHKJEEMA_TypeDefinitionIndex = 10659;
 
 	class INAFHKJEEMA : public ::System::Object
 	{

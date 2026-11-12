@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FiveDimTriggerShape; }
 namespace RPG::GameCore { class LittleGameDynamicVar; }
 namespace RPG::GameCore { class LittleGameEvent; }
 
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D31D0)
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6D31E0)
-#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6D31A0)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DDD60)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8DDD70)
+#define RPG_GAMECORE_FIVEDIMPRESSURESWITCHCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8DDD30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimPressureSwitchConfig_TypeDefinitionIndex = 18558;
+	inline static constexpr unsigned int FiveDimPressureSwitchConfig_TypeDefinitionIndex = 18718;
 
 	class FiveDimPressureSwitchConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

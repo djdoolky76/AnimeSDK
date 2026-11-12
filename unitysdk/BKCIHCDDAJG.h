@@ -7,18 +7,18 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BKCIHCDDAJG_CMICFEJGGAN_OFFSET UNITYSDK_OFFSET(0xB7AD940)
-#define BKCIHCDDAJG_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AD3C0)
-#define BKCIHCDDAJG_JEKDFLAMJON_OFFSET UNITYSDK_OFFSET(0xB7AD9F0)
-#define BKCIHCDDAJG_PIMCHDILMMJ_OFFSET UNITYSDK_OFFSET(0xB7AD890)
+#define BKCIHCDDAJG_CMICFEJGGAN_OFFSET UNITYSDK_OFFSET(0xC103A30)
+#define BKCIHCDDAJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1034B0)
+#define BKCIHCDDAJG_JEKDFLAMJON_OFFSET UNITYSDK_OFFSET(0xC103AE0)
+#define BKCIHCDDAJG_PIMCHDILMMJ_OFFSET UNITYSDK_OFFSET(0xC103980)
 
-inline static constexpr unsigned int BKCIHCDDAJG_TypeDefinitionIndex = 80781;
+inline static constexpr unsigned int BKCIHCDDAJG_TypeDefinitionIndex = 83561;
 
 	class BKCIHCDDAJG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HCLLCONFADM*>* JOJNHBFJNNH; // 0x10
-		::System::Collections::Generic::List_1<::HCLLCONFADM*>* GFIMIKPFFLC; // 0x18
+		::System::Collections::Generic::List_1<::HCLLCONFADM*>* GFIMIKPFFLC; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::HCLLCONFADM*>* JOJNHBFJNNH; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKCIHCDDAJG_CTOR_OFFSET))(this);

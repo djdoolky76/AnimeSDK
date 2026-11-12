@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvOverridePropButtonConfig; }
 namespace RPG::GameCore { class PropButtonConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVOVERRIDEPROPBUTTONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3A9D40)
-#define RPG_GAMECORE_ADVOVERRIDEPROPBUTTONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3A9D50)
-#define RPG_GAMECORE_ADVOVERRIDEPROPBUTTONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3A9D10)
+#define RPG_GAMECORE_ADVOVERRIDEPROPBUTTONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5B92F0)
+#define RPG_GAMECORE_ADVOVERRIDEPROPBUTTONCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5B9300)
+#define RPG_GAMECORE_ADVOVERRIDEPROPBUTTONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5B92C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvOverridePropButtonConfig_TypeDefinitionIndex = 20541;
+	inline static constexpr unsigned int AdvOverridePropButtonConfig_TypeDefinitionIndex = 20877;
 
 	class AdvOverridePropButtonConfig : public ::RPG::GameCore::TaskConfig
 	{

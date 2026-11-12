@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/Client/Prop/DronesPuzzleAreaConfig.h"
 class OCAMFPAJPDH;
 
-#define OGEFODDPPOF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE57080)
+#define OGEFODDPPOF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7110A0)
 
-inline static constexpr unsigned int OGEFODDPPOF_TypeDefinitionIndex = 78572;
+inline static constexpr unsigned int OGEFODDPPOF_TypeDefinitionIndex = 81307;
 
 	class OGEFODDPPOF : public ::System::Object
 	{

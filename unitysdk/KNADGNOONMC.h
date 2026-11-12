@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KNADGNOONMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB575CA0)
-#define KNADGNOONMC_GET_ID_OFFSET UNITYSDK_OFFSET(0xB575C60)
-#define KNADGNOONMC_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0xB575C80)
-#define KNADGNOONMC_SET_ID_OFFSET UNITYSDK_OFFSET(0xB575C70)
-#define KNADGNOONMC_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xB575C90)
+#define KNADGNOONMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC2F90)
+#define KNADGNOONMC_GET_ID_OFFSET UNITYSDK_OFFSET(0xBDC2F50)
+#define KNADGNOONMC_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0xBDC2F70)
+#define KNADGNOONMC_SET_ID_OFFSET UNITYSDK_OFFSET(0xBDC2F60)
+#define KNADGNOONMC_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0xBDC2F80)
 
-inline static constexpr unsigned int KNADGNOONMC_TypeDefinitionIndex = 63843;
+inline static constexpr unsigned int KNADGNOONMC_TypeDefinitionIndex = 65285;
 
 	class KNADGNOONMC : public ::System::Object
 	{
 	public:
-		::System::UInt32 _ID_k__BackingField; // 0x10
-		::System::UInt32 _StageID_k__BackingField; // 0x14
+		::System::UInt32 _StageID_k__BackingField; // 0x10
+		::System::UInt32 _ID_k__BackingField; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KNADGNOONMC_CTOR_OFFSET))(this);

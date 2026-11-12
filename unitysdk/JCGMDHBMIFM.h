@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 class OFBJPFPNFBP;
 
-#define JCGMDHBMIFM_CKFLDHJAAOM_OFFSET UNITYSDK_OFFSET(0x16588CE0)
+#define JCGMDHBMIFM_CKFLDHJAAOM_OFFSET UNITYSDK_OFFSET(0xB8CD140)
 
-inline static constexpr unsigned int JCGMDHBMIFM_TypeDefinitionIndex = 48909;
+inline static constexpr unsigned int JCGMDHBMIFM_TypeDefinitionIndex = 49966;
 
 	class JCGMDHBMIFM : public ::System::Object
 	{

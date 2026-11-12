@@ -4,18 +4,18 @@
 class JIDMMPAOELM;
 namespace System { class Object; }
 
-#define JIDMMPAOELM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E749C40)
-#define JIDMMPAOELM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E749C80)
-#define JIDMMPAOELM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E749C90)
+#define JIDMMPAOELM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA5A660)
+#define JIDMMPAOELM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA5A6A0)
+#define JIDMMPAOELM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FA5A6B0)
 
-inline static constexpr unsigned int JIDMMPAOELM___c_TypeDefinitionIndex = 34218;
+inline static constexpr unsigned int JIDMMPAOELM___c_TypeDefinitionIndex = 35146;
 
 	class JIDMMPAOELM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x63E80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A6E0);
 		}
 
 		static ::System::Void _cctor()

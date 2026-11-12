@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BySkillPointActivated; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKCGLJNIANG_CTOR_OFFSET UNITYSDK_OFFSET(0xB4B5D00)
-#define KKCGLJNIANG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB4B5D30)
+#define KKCGLJNIANG_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFED10)
+#define KKCGLJNIANG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCFED40)
 
-inline static constexpr unsigned int KKCGLJNIANG_TypeDefinitionIndex = 54714;
+inline static constexpr unsigned int KKCGLJNIANG_TypeDefinitionIndex = 55881;
 
 	class KKCGLJNIANG
 	{

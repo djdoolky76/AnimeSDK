@@ -5,17 +5,17 @@
 #include "unitysdk/RPG/Client/BlindBox/Pool/BlindBoxCostCalculateResult.h"
 class AGADOMHIAHE;
 
-#define EJOMCEBMHPA_CTOR_OFFSET UNITYSDK_OFFSET(0x154F73E0)
-#define EJOMCEBMHPA_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0x154F7440)
-#define EJOMCEBMHPA_DFOFGONIDNM_OFFSET UNITYSDK_OFFSET(0x154F7400)
+#define EJOMCEBMHPA_CTOR_OFFSET UNITYSDK_OFFSET(0x1643F320)
+#define EJOMCEBMHPA_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0x1643F380)
+#define EJOMCEBMHPA_DFOFGONIDNM_OFFSET UNITYSDK_OFFSET(0x1643F340)
 
-inline static constexpr unsigned int EJOMCEBMHPA_TypeDefinitionIndex = 74943;
+inline static constexpr unsigned int EJOMCEBMHPA_TypeDefinitionIndex = 77270;
 
 	class EJOMCEBMHPA : public ::System::Object
 	{
 	public:
-		::AGADOMHIAHE* KPDHEKMAFOA; // 0x10
-		::AGADOMHIAHE* HCBGDLHMMHN; // 0x18
+		::AGADOMHIAHE* HCBGDLHMMHN; // 0x10
+		::AGADOMHIAHE* KPDHEKMAFOA; // 0x18
 		::AGADOMHIAHE* OJPOMMLGJMI; // 0x20
 		::RPG::Client::BlindBox::Pool::BlindBoxCostExchangeRatio BFPOCEDAOMA; // 0x28
 		::System::Void _ctor(::AGADOMHIAHE* a1, ::AGADOMHIAHE* a2, ::AGADOMHIAHE* a3, ::RPG::Client::BlindBox::Pool::BlindBoxCostExchangeRatio a4)

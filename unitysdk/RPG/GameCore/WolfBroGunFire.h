@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class WolfBroGunFire; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_WOLFBROGUNFIRE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCA7F60)
-#define RPG_GAMECORE_WOLFBROGUNFIRE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCA7F70)
-#define RPG_GAMECORE_WOLFBROGUNFIRE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCA7F30)
+#define RPG_GAMECORE_WOLFBROGUNFIRE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEBA880)
+#define RPG_GAMECORE_WOLFBROGUNFIRE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEBA890)
+#define RPG_GAMECORE_WOLFBROGUNFIRE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEBA850)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WolfBroGunFire_TypeDefinitionIndex = 20175;
+	inline static constexpr unsigned int WolfBroGunFire_TypeDefinitionIndex = 20509;
 
 	class WolfBroGunFire : public ::RPG::GameCore::TaskConfig
 	{

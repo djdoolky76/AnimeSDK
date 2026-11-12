@@ -6,21 +6,21 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 namespace RPG { template <typename T> class PoolList_1; }
 namespace System { class String; }
 
-#define HPNAKDOGIAD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAF7840)
-#define HPNAKDOGIAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF7DF0)
-#define HPNAKDOGIAD_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0x1CAF7D50)
-#define HPNAKDOGIAD_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAF7B50)
-#define HPNAKDOGIAD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CAF7BC0)
-#define HPNAKDOGIAD_PMFEDGBNHGO_OFFSET UNITYSDK_OFFSET(0x1CAF7C00)
+#define HPNAKDOGIAD_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DCBC290)
+#define HPNAKDOGIAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCBC840)
+#define HPNAKDOGIAD_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0x1DCBC7A0)
+#define HPNAKDOGIAD_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1DCBC5A0)
+#define HPNAKDOGIAD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1DCBC610)
+#define HPNAKDOGIAD_PMFEDGBNHGO_OFFSET UNITYSDK_OFFSET(0x1DCBC650)
 
-inline static constexpr unsigned int HPNAKDOGIAD_TypeDefinitionIndex = 43358;
+inline static constexpr unsigned int HPNAKDOGIAD_TypeDefinitionIndex = 44339;
 
 	class HPNAKDOGIAD : public ::System::Object
 	{
 	public:
-		::RPG::PoolDictionary_2<::System::UInt32, ::CKOLIMBFFBD*>* FJGGIKFIOOF; // 0x10
+		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolList_1<::System::UInt32>*>* HGJHCMAIBKI; // 0x10
 		::RPG::PoolDictionary_2<::System::String*, ::RPG::PoolList_1<::System::UInt32>*>* IOBFEDODDGN; // 0x18
-		::RPG::PoolDictionary_2<::System::UInt32, ::RPG::PoolList_1<::System::UInt32>*>* HGJHCMAIBKI; // 0x20
+		::RPG::PoolDictionary_2<::System::UInt32, ::CKOLIMBFFBD*>* FJGGIKFIOOF; // 0x20
 		::System::UInt32 OMLGICHPKON; // 0x28
 		::System::Void _ctor()
 		{

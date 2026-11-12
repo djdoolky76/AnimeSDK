@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int InputControlType_TypeDefinitionIndex = 40825;
+	inline static constexpr unsigned int InputControlType_TypeDefinitionIndex = 41800;
 
 	enum class InputControlType : ::System::Int32
 	{

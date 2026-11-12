@@ -8,7 +8,7 @@ namespace System { template <typename T1, typename T2> class Tuple_2; }
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int PromiseHelpers___c__1_3_TypeDefinitionIndex = 9897;
+	inline static constexpr unsigned int PromiseHelpers___c__1_3_TypeDefinitionIndex = 9905;
 
 	template <typename T1, typename T2, typename T3>
 	class PromiseHelpers___c__1_3 : public ::System::Object

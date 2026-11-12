@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LevelPedestrianV2MemberExtendFreeStyle; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELPEDESTRIANV2MEMBEREXTENDFREESTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C8D80)
-#define RPG_GAMECORE_LEVELPEDESTRIANV2MEMBEREXTENDFREESTYLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7C8BD0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2MEMBEREXTENDFREESTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA080F0)
+#define RPG_GAMECORE_LEVELPEDESTRIANV2MEMBEREXTENDFREESTYLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA07F20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelPedestrianV2MemberExtendFreeStyle_TypeDefinitionIndex = 17316;
+	inline static constexpr unsigned int LevelPedestrianV2MemberExtendFreeStyle_TypeDefinitionIndex = 17484;
 
 	class LevelPedestrianV2MemberExtendFreeStyle : public ::RPG::GameCore::JsonConfig
 	{

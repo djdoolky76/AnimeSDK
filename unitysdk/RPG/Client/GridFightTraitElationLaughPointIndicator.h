@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/GridFightPreparationTraitEffectIndicator.h"
+namespace RPG::Client { class GridFightBonusResultData; }
+namespace RPG::Client { class GridFightTrait; }
+namespace RPG::Client { class GridFightTraitElationLaughPointEffect; }
+namespace System { class String; }
+
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDFA30)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETBGPATH_OFFSET UNITYSDK_OFFSET(0xDCE1970)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETEFFECT_OFFSET UNITYSDK_OFFSET(0xDCE1B60)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETICONPATH_OFFSET UNITYSDK_OFFSET(0xDCE18A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETLEVEL_OFFSET UNITYSDK_OFFSET(0xDCE1B10)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETSTATEDESC_OFFSET UNITYSDK_OFFSET(0xDCE1A50)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_EFFECTID_OFFSET UNITYSDK_OFFSET(0xDCE17F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_PANELSCRIPTPATH_OFFSET UNITYSDK_OFFSET(0xDCE1840)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_SORTORDER_OFFSET UNITYSDK_OFFSET(0xDCE1850)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_TRAITID_OFFSET UNITYSDK_OFFSET(0xDCE17A0)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_ISACTIVATED_OFFSET UNITYSDK_OFFSET(0xDCE1AA0)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_NOTIFYAHATHREESTAR_OFFSET UNITYSDK_OFFSET(0xDCE1EA0)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_NOTIFYBONUS_OFFSET UNITYSDK_OFFSET(0xDCE1DA0)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_NOTIFYEQUIPUNDRESSED_OFFSET UNITYSDK_OFFSET(0xDCE1C20)
+#define RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_UPDATESTATE_OFFSET UNITYSDK_OFFSET(0xDCE1BA0)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int GridFightTraitElationLaughPointIndicator_TypeDefinitionIndex = 67201;
+
+	class GridFightTraitElationLaughPointIndicator : public ::RPG::Client::GridFightPreparationTraitEffectIndicator
+	{
+	public:
+		::RPG::Client::GridFightTrait* _Trait; // 0x18
+		::System::String* _PanelScriptPath_k__BackingField; // 0x20
+		::RPG::Client::GridFightTraitElationLaughPointEffect* _Effect; // 0x28
+		// static const ::System::String* _ThreeStarBgPath; // 0x0
+		::System::Void _ctor(::RPG::Client::GridFightTrait* a1, ::RPG::Client::GridFightTraitElationLaughPointEffect* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightTrait*, ::RPG::Client::GridFightTraitElationLaughPointEffect*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::UInt32 get_TraitID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_TRAITID_OFFSET))(this);
+		}
+
+		::System::UInt32 get_EffectID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_EFFECTID_OFFSET))(this);
+		}
+
+		::System::String* get_PanelScriptPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_PANELSCRIPTPATH_OFFSET))(this);
+		}
+
+		::System::UInt32 get_SortOrder()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GET_SORTORDER_OFFSET))(this);
+		}
+
+		::System::String* GetIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETICONPATH_OFFSET))(this);
+		}
+
+		::System::String* GetBgPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETBGPATH_OFFSET))(this);
+		}
+
+		::System::String* GetStateDesc()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETSTATEDESC_OFFSET))(this);
+		}
+
+		::System::Boolean IsActivated()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_ISACTIVATED_OFFSET))(this);
+		}
+
+		::System::UInt32 GetLevel()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETLEVEL_OFFSET))(this);
+		}
+
+		::RPG::Client::GridFightTraitElationLaughPointEffect* GetEffect()
+		{
+			return ((::RPG::Client::GridFightTraitElationLaughPointEffect*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_GETEFFECT_OFFSET))(this);
+		}
+
+		::System::Void UpdateState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_UPDATESTATE_OFFSET))(this);
+		}
+
+		::System::Void NotifyEquipUndressed(::System::Int32 a1, ::System::UInt32 a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_NOTIFYEQUIPUNDRESSED_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void NotifyBonus(::RPG::Client::GridFightBonusResultData* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::GridFightBonusResultData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_NOTIFYBONUS_OFFSET))(this, a1);
+		}
+
+		::System::Void NotifyAhaThreeStar()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITELATIONLAUGHPOINTINDICATOR_NOTIFYAHATHREESTAR_OFFSET))(this);
+		}
+
+	};
+}

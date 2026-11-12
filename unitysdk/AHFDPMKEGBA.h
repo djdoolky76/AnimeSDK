@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define AHFDPMKEGBA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB80480)
+#define AHFDPMKEGBA_CTOR_OFFSET UNITYSDK_OFFSET(0xF13F970)
 
-inline static constexpr unsigned int AHFDPMKEGBA_TypeDefinitionIndex = 48144;
+inline static constexpr unsigned int AHFDPMKEGBA_TypeDefinitionIndex = 49175;
 
 	class AHFDPMKEGBA : public ::UnityEngine::Playables::PlayableBehaviour
 	{

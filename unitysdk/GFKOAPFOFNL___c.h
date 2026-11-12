@@ -4,18 +4,18 @@
 class GFKOAPFOFNL;
 namespace System { class Object; }
 
-#define GFKOAPFOFNL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4714D0)
-#define GFKOAPFOFNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E471510)
-#define GFKOAPFOFNL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E471520)
+#define GFKOAPFOFNL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F75F410)
+#define GFKOAPFOFNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F75F450)
+#define GFKOAPFOFNL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F75F460)
 
-inline static constexpr unsigned int GFKOAPFOFNL___c_TypeDefinitionIndex = 30187;
+inline static constexpr unsigned int GFKOAPFOFNL___c_TypeDefinitionIndex = 31085;
 
 	class GFKOAPFOFNL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14930);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCD50);
 		}
 
 		static ::System::Void _cctor()

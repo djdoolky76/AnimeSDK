@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HipplenGameTriggerOpertation; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OHNIJOLKFMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE74F40)
-#define OHNIJOLKFMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE74F70)
+#define OHNIJOLKFMO_CTOR_OFFSET UNITYSDK_OFFSET(0xC72FE00)
+#define OHNIJOLKFMO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC72FE30)
 
-inline static constexpr unsigned int OHNIJOLKFMO_TypeDefinitionIndex = 52275;
+inline static constexpr unsigned int OHNIJOLKFMO_TypeDefinitionIndex = 53381;
 
 	class OHNIJOLKFMO
 	{

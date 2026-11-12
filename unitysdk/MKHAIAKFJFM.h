@@ -4,11 +4,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerHitVibration; }
 
-#define MKHAIAKFJFM_CTOR_OFFSET UNITYSDK_OFFSET(0xB997B90)
-#define MKHAIAKFJFM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB997BC0)
-#define MKHAIAKFJFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB997C00)
+#define MKHAIAKFJFM_CTOR_OFFSET UNITYSDK_OFFSET(0xC252780)
+#define MKHAIAKFJFM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2527B0)
+#define MKHAIAKFJFM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2527F0)
 
-inline static constexpr unsigned int MKHAIAKFJFM_TypeDefinitionIndex = 56467;
+inline static constexpr unsigned int MKHAIAKFJFM_TypeDefinitionIndex = 57687;
 
 	class MKHAIAKFJFM
 	{

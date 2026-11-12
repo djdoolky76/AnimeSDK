@@ -6,11 +6,11 @@
 #include "unitysdk/RPG/MVector2.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define DOCHMPOABII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FA1A0)
-#define DOCHMPOABII_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C5F9E60)
-#define DOCHMPOABII_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C5F9D90)
+#define DOCHMPOABII_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77B890)
+#define DOCHMPOABII_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D77B550)
+#define DOCHMPOABII_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D77B480)
 
-inline static constexpr unsigned int DOCHMPOABII_TypeDefinitionIndex = 37206;
+inline static constexpr unsigned int DOCHMPOABII_TypeDefinitionIndex = 38134;
 
 	class DOCHMPOABII : public ::System::Object
 	{

@@ -9,29 +9,29 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FAFFMDBPCGJ_GNEDEMCFKGI_ALCLGFPGDPI_OFFSET UNITYSDK_OFFSET(0x156781C0)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_BNHFHKHNMDG_OFFSET UNITYSDK_OFFSET(0x1567A370)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1566D3A0)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_DNHPJGOFILA_OFFSET UNITYSDK_OFFSET(0x1566EC80)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x15672AD0)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_EHICOCENCBL_OFFSET UNITYSDK_OFFSET(0x1567A360)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_GIDJKPNEOMG_OFFSET UNITYSDK_OFFSET(0x156769E0)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_HFCAOJOMCFI_OFFSET UNITYSDK_OFFSET(0x156782D0)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_LEGDFJHAFJJ_OFFSET UNITYSDK_OFFSET(0x1566EE90)
-#define FAFFMDBPCGJ_GNEDEMCFKGI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1566DE20)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_ALCLGFPGDPI_OFFSET UNITYSDK_OFFSET(0x16589020)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_BNHFHKHNMDG_OFFSET UNITYSDK_OFFSET(0x1658CF70)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1658D9A0)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_DNHPJGOFILA_OFFSET UNITYSDK_OFFSET(0x1658D3C0)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x1658CF80)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_EHICOCENCBL_OFFSET UNITYSDK_OFFSET(0x1658CF60)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_GIDJKPNEOMG_OFFSET UNITYSDK_OFFSET(0x16589950)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_HFCAOJOMCFI_OFFSET UNITYSDK_OFFSET(0x16589130)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_LEGDFJHAFJJ_OFFSET UNITYSDK_OFFSET(0x1658D490)
+#define FAFFMDBPCGJ_GNEDEMCFKGI_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1658D710)
 
-inline static constexpr unsigned int FAFFMDBPCGJ_GNEDEMCFKGI_TypeDefinitionIndex = 76725;
+inline static constexpr unsigned int FAFFMDBPCGJ_GNEDEMCFKGI_TypeDefinitionIndex = 79058;
 
 	class FAFFMDBPCGJ_GNEDEMCFKGI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::HashSet_1<::FiveDimRenderingItem*>* LBDAEKMCPDB; // 0x10
-		::System::Collections::Generic::List_1<::FiveDimRenderingItem*>* JGFGIFGPMEG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::FiveDimRenderingItem*, ::INMMPMDELKE*>* JCOOCEHAMKB; // 0x10
+		::System::Collections::Generic::List_1<::INMMPMDELKE*>* HBCGAKPGGAI; // 0x18
 		::System::Collections::Generic::Dictionary_2<::FiveDimRenderingItem*, ::System::Object*>* IEJGIDNBGGH; // 0x20
-		::System::Collections::Generic::List_1<::INMMPMDELKE*>* HBCGAKPGGAI; // 0x28
+		::System::Collections::Generic::List_1<::FiveDimRenderingItem*>* JGFGIFGPMEG; // 0x28
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::INMMPMDELKE*>* OHINGGBOLDF; // 0x30
-		::System::Collections::Generic::Dictionary_2<::FiveDimRenderingItem*, ::INMMPMDELKE*>* JCOOCEHAMKB; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::FiveDimRenderingItem*>*>* NHEKGPPBLGF; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::List_1<::FiveDimRenderingItem*>*>* NHEKGPPBLGF; // 0x38
+		::System::Collections::Generic::HashSet_1<::FiveDimRenderingItem*>* LBDAEKMCPDB; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAFFMDBPCGJ_GNEDEMCFKGI_CTOR_OFFSET))(this);

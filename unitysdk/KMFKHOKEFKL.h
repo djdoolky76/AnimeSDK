@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KMFKHOKEFKL_TypeDefinitionIndex = 74571;
+inline static constexpr unsigned int KMFKHOKEFKL_TypeDefinitionIndex = 76719;
 
 	class KMFKHOKEFKL
 	{

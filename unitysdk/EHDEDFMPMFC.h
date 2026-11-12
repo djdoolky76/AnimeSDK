@@ -3,25 +3,25 @@
 #include "unitysdk/RPG/Client/IPVersion.h"
 #include "unitysdk/System/Object.h"
 
-#define EHDEDFMPMFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA4760)
-#define EHDEDFMPMFC_GET_FROM_OFFSET UNITYSDK_OFFSET(0x1DDAA7C0)
-#define EHDEDFMPMFC_GET_PACKETLOSSRATE_OFFSET UNITYSDK_OFFSET(0x1DDAA820)
-#define EHDEDFMPMFC_GET_RTT_OFFSET UNITYSDK_OFFSET(0x1DDAA800)
-#define EHDEDFMPMFC_GET_TO_OFFSET UNITYSDK_OFFSET(0x1DDAA7E0)
-#define EHDEDFMPMFC_SET_FROM_OFFSET UNITYSDK_OFFSET(0x1DDAA7D0)
-#define EHDEDFMPMFC_SET_PACKETLOSSRATE_OFFSET UNITYSDK_OFFSET(0x1DDAA830)
-#define EHDEDFMPMFC_SET_RTT_OFFSET UNITYSDK_OFFSET(0x1DDAA810)
-#define EHDEDFMPMFC_SET_TO_OFFSET UNITYSDK_OFFSET(0x1DDAA7F0)
+#define EHDEDFMPMFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFA70B0)
+#define EHDEDFMPMFC_GET_FROM_OFFSET UNITYSDK_OFFSET(0x1EFAD260)
+#define EHDEDFMPMFC_GET_PACKETLOSSRATE_OFFSET UNITYSDK_OFFSET(0x1EFAD2C0)
+#define EHDEDFMPMFC_GET_RTT_OFFSET UNITYSDK_OFFSET(0x1EFAD2A0)
+#define EHDEDFMPMFC_GET_TO_OFFSET UNITYSDK_OFFSET(0x1EFAD280)
+#define EHDEDFMPMFC_SET_FROM_OFFSET UNITYSDK_OFFSET(0x1EFAD270)
+#define EHDEDFMPMFC_SET_PACKETLOSSRATE_OFFSET UNITYSDK_OFFSET(0x1EFAD2D0)
+#define EHDEDFMPMFC_SET_RTT_OFFSET UNITYSDK_OFFSET(0x1EFAD2B0)
+#define EHDEDFMPMFC_SET_TO_OFFSET UNITYSDK_OFFSET(0x1EFAD290)
 
-inline static constexpr unsigned int EHDEDFMPMFC_TypeDefinitionIndex = 43920;
+inline static constexpr unsigned int EHDEDFMPMFC_TypeDefinitionIndex = 44995;
 
 	class EHDEDFMPMFC : public ::System::Object
 	{
 	public:
 		::RPG::Client::IPVersion _From_k__BackingField; // 0x10
-		::System::Single _RTT_k__BackingField; // 0x14
-		::RPG::Client::IPVersion _To_k__BackingField; // 0x18
-		::System::Single _PacketLossRate_k__BackingField; // 0x1C
+		::RPG::Client::IPVersion _To_k__BackingField; // 0x14
+		::System::Single _PacketLossRate_k__BackingField; // 0x18
+		::System::Single _RTT_k__BackingField; // 0x1C
 		::System::Void _ctor(::RPG::Client::IPVersion a1, ::RPG::Client::IPVersion a2, ::System::Single a3, ::System::Single a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::IPVersion, ::RPG::Client::IPVersion, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + EHDEDFMPMFC_CTOR_OFFSET))(this, a1, a2, a3, a4);

@@ -3,20 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace HoudiniEngineUnity { class HEU_DetailProperties; }
 
-#define HOUDINIENGINEUNITY_HEU_DETAILPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8E16A0)
-#define HOUDINIENGINEUNITY_HEU_DETAILPROPERTIES_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B8E1510)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6A660)
+#define HOUDINIENGINEUNITY_HEU_DETAILPROPERTIES_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CA6A4D0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_DetailProperties_TypeDefinitionIndex = 40773;
+	inline static constexpr unsigned int HEU_DetailProperties_TypeDefinitionIndex = 41748;
 
 	class HEU_DetailProperties : public ::System::Object
 	{
 	public:
 		::System::Single _detailDistance; // 0x10
-		::System::Int32 _detailResolutionPerPatch; // 0x14
-		::System::Int32 _detailResolution; // 0x18
-		::System::Single _detailDensity; // 0x1C
+		::System::Single _detailDensity; // 0x14
+		::System::Int32 _detailResolutionPerPatch; // 0x18
+		::System::Int32 _detailResolution; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HOUDINIENGINEUNITY_HEU_DETAILPROPERTIES_CTOR_OFFSET))(this);

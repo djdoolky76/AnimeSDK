@@ -23,104 +23,104 @@ class NAJCEIHIIIP;
 class PAIKIFFPMNH;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int JBACCAGFHON___O_TypeDefinitionIndex = 78009;
+inline static constexpr unsigned int JBACCAGFHON___O_TypeDefinitionIndex = 80744;
 
 	class JBACCAGFHON___O : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::JBACCAGFHON*, ::EGDAOGCDJBB*>** StaticGet__16___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::EGDAOGCDJBB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4A0);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::DICKPDFNEHP*>** StaticGet__14___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::DICKPDFNEHP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4A8);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::GCHGOOJFCFP*>** StaticGet__5___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::GCHGOOJFCFP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4B0);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::MIMCAGPCALM*>** StaticGet__10___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::MIMCAGPCALM*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4B8);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::CPMPDLEPIKP*>** StaticGet__8___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::CPMPDLEPIKP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4C0);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::GBHADOLNLHE*>** StaticGet__13___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::GBHADOLNLHE*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4C8);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::PAIKIFFPMNH*>** StaticGet__1___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::PAIKIFFPMNH*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4D0);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::NAJCEIHIIIP*>** StaticGet__17___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::NAJCEIHIIIP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4D8);
-		}
-
 		static ::System::Func_2<::JBACCAGFHON*, ::CFCBKPOGNHF*>** StaticGet__11___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::CFCBKPOGNHF*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4E0);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::BOBJFFPMFDB*>** StaticGet__12___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::BOBJFFPMFDB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4E8);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::AFLHEGNAGAB*>** StaticGet__2___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::AFLHEGNAGAB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4F0);
-		}
-
-		static ::System::Func_2<::JBACCAGFHON*, ::ECPGBDINBAB*>** StaticGet__9___Create()
-		{
-			return (::System::Func_2<::JBACCAGFHON*, ::ECPGBDINBAB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E4F8);
+			return (::System::Func_2<::JBACCAGFHON*, ::CFCBKPOGNHF*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5DFE0);
 		}
 
 		static ::System::Func_2<::JBACCAGFHON*, ::HHOJMPHDOAK*>** StaticGet__18___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::HHOJMPHDOAK*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E500);
+			return (::System::Func_2<::JBACCAGFHON*, ::HHOJMPHDOAK*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5DFE8);
 		}
 
-		static ::System::Func_2<::JBACCAGFHON*, ::HOBAKOLBNMI*>** StaticGet__7___Create()
+		static ::System::Func_2<::JBACCAGFHON*, ::GBHADOLNLHE*>** StaticGet__13___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::HOBAKOLBNMI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E508);
+			return (::System::Func_2<::JBACCAGFHON*, ::GBHADOLNLHE*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5DFF0);
 		}
 
-		static ::System::Func_2<::JBACCAGFHON*, ::MKAEECGEMME*>** StaticGet__4___Create()
+		static ::System::Func_2<::JBACCAGFHON*, ::PAIKIFFPMNH*>** StaticGet__1___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::MKAEECGEMME*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E510);
+			return (::System::Func_2<::JBACCAGFHON*, ::PAIKIFFPMNH*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5DFF8);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::EGDAOGCDJBB*>** StaticGet__16___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::EGDAOGCDJBB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E000);
 		}
 
 		static ::System::Func_2<::JBACCAGFHON*, ::JEIFBCPKIDA*>** StaticGet__0___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::JEIFBCPKIDA*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E518);
+			return (::System::Func_2<::JBACCAGFHON*, ::JEIFBCPKIDA*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E008);
 		}
 
-		static ::System::Func_2<::JBACCAGFHON*, ::GGNCONNFMHM*>** StaticGet__3___Create()
+		static ::System::Func_2<::JBACCAGFHON*, ::CPMPDLEPIKP*>** StaticGet__8___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::GGNCONNFMHM*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E520);
+			return (::System::Func_2<::JBACCAGFHON*, ::CPMPDLEPIKP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E010);
 		}
 
-		static ::System::Func_2<::JBACCAGFHON*, ::KIIMBJDNGLG*>** StaticGet__6___Create()
+		static ::System::Func_2<::JBACCAGFHON*, ::AFLHEGNAGAB*>** StaticGet__2___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::KIIMBJDNGLG*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E528);
+			return (::System::Func_2<::JBACCAGFHON*, ::AFLHEGNAGAB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E018);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::BOBJFFPMFDB*>** StaticGet__12___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::BOBJFFPMFDB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E020);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::HOBAKOLBNMI*>** StaticGet__7___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::HOBAKOLBNMI*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E028);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::GCHGOOJFCFP*>** StaticGet__5___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::GCHGOOJFCFP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E030);
 		}
 
 		static ::System::Func_2<::JBACCAGFHON*, ::FMOEFNOMPOG*>** StaticGet__15___Create()
 		{
-			return (::System::Func_2<::JBACCAGFHON*, ::FMOEFNOMPOG*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x6E530);
+			return (::System::Func_2<::JBACCAGFHON*, ::FMOEFNOMPOG*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E038);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::NAJCEIHIIIP*>** StaticGet__17___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::NAJCEIHIIIP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E040);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::DICKPDFNEHP*>** StaticGet__14___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::DICKPDFNEHP*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E048);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::MIMCAGPCALM*>** StaticGet__10___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::MIMCAGPCALM*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E050);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::MKAEECGEMME*>** StaticGet__4___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::MKAEECGEMME*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E058);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::GGNCONNFMHM*>** StaticGet__3___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::GGNCONNFMHM*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E060);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::ECPGBDINBAB*>** StaticGet__9___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::ECPGBDINBAB*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E068);
+		}
+
+		static ::System::Func_2<::JBACCAGFHON*, ::KIIMBJDNGLG*>** StaticGet__6___Create()
+		{
+			return (::System::Func_2<::JBACCAGFHON*, ::KIIMBJDNGLG*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x5E070);
 		}
 
 	};

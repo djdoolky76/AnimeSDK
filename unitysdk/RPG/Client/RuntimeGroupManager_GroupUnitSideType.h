@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RuntimeGroupManager_GroupUnitSideType_TypeDefinitionIndex = 62065;
+	inline static constexpr unsigned int RuntimeGroupManager_GroupUnitSideType_TypeDefinitionIndex = 63478;
 
 	enum class RuntimeGroupManager_GroupUnitSideType : ::System::Int32
 	{

@@ -6,19 +6,19 @@ namespace MiHoYo::SDK { class AccountListManager; }
 namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC23020)
-#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS17_0__ONDELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1BC23FB0)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDABF60)
+#define MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS17_0__ONDELETEACCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0x1CDACEF0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int AccountListManager___c__DisplayClass17_0_TypeDefinitionIndex = 7985;
+	inline static constexpr unsigned int AccountListManager___c__DisplayClass17_0_TypeDefinitionIndex = 7994;
 
 	class AccountListManager___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
-		::System::Action_1<::System::String*>* callback; // 0x10
-		::System::String* strArgs; // 0x18
-		::MiHoYo::SDK::AccountListManager* __4__this; // 0x20
+		::MiHoYo::SDK::AccountListManager* __4__this; // 0x10
+		::System::Action_1<::System::String*>* callback; // 0x18
+		::System::String* strArgs; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ACCOUNTLISTMANAGER___C__DISPLAYCLASS17_0_CTOR_OFFSET))(this);

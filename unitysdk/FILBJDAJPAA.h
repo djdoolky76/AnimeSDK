@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FILBJDAJPAA_TypeDefinitionIndex = 31331;
+inline static constexpr unsigned int FILBJDAJPAA_TypeDefinitionIndex = 32244;
 
 	enum class FILBJDAJPAA : ::System::Int32
 	{

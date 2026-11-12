@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define PFCCMMPECFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D9E30)
+#define PFCCMMPECFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E6250)
 
-inline static constexpr unsigned int PFCCMMPECFF_TypeDefinitionIndex = 25018;
+inline static constexpr unsigned int PFCCMMPECFF_TypeDefinitionIndex = 25496;
 
 	class PFCCMMPECFF : public ::System::Attribute
 	{

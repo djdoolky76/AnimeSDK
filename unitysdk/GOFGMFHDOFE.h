@@ -5,10 +5,10 @@
 namespace Entitas { class IInitializeSystem; }
 namespace Entitas { class ISystem; }
 
-#define GOFGMFHDOFE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2E020)
-#define GOFGMFHDOFE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x15B2E0F0)
+#define GOFGMFHDOFE_CTOR_OFFSET UNITYSDK_OFFSET(0x16AB4320)
+#define GOFGMFHDOFE_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x16AB43F0)
 
-inline static constexpr unsigned int GOFGMFHDOFE_TypeDefinitionIndex = 76771;
+inline static constexpr unsigned int GOFGMFHDOFE_TypeDefinitionIndex = 79104;
 
 	class GOFGMFHDOFE : public ::System::Object
 	{

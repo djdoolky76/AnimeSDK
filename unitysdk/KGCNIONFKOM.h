@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KGCNIONFKOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB80D0)
+#define KGCNIONFKOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6AB10)
 
-inline static constexpr unsigned int KGCNIONFKOM_TypeDefinitionIndex = 42984;
+inline static constexpr unsigned int KGCNIONFKOM_TypeDefinitionIndex = 43965;
 
 	class KGCNIONFKOM : public ::System::Object
 	{

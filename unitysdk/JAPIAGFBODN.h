@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define JAPIAGFBODN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D011620)
-#define JAPIAGFBODN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D011F40)
-#define JAPIAGFBODN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D011700)
-#define JAPIAGFBODN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CF50F50)
-#define JAPIAGFBODN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D011C40)
-#define JAPIAGFBODN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D0117A0)
-#define JAPIAGFBODN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D0117F0)
-#define JAPIAGFBODN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CFD6C70)
-#define JAPIAGFBODN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D011BE0)
-#define JAPIAGFBODN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D011DB0)
-#define JAPIAGFBODN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D011660)
-#define JAPIAGFBODN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D011B60)
+#define JAPIAGFBODN_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E1FE930)
+#define JAPIAGFBODN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1FF250)
+#define JAPIAGFBODN_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E1FEA10)
+#define JAPIAGFBODN_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E138DC0)
+#define JAPIAGFBODN_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E1FEF50)
+#define JAPIAGFBODN_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E1FEAB0)
+#define JAPIAGFBODN_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E1FEB00)
+#define JAPIAGFBODN_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E1C2460)
+#define JAPIAGFBODN_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E1FEEF0)
+#define JAPIAGFBODN_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E1FF0C0)
+#define JAPIAGFBODN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E1FE970)
+#define JAPIAGFBODN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E1FEE70)
 
-inline static constexpr unsigned int JAPIAGFBODN_TypeDefinitionIndex = 15092;
+inline static constexpr unsigned int JAPIAGFBODN_TypeDefinitionIndex = 15248;
 
 	class JAPIAGFBODN : public ::System::Object
 	{
 	public:
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ServerInteractVerificationRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ServerInteractVerificationRow*>**)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x29E30);
+		}
+
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x2AB40);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x29E38);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x2AB48);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ServerInteractVerificationRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ServerInteractVerificationRow*>**)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x2AB50);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x29E40);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x8650);
+			return (::System::Boolean*)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x8660);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x8651);
+			return (::System::Byte*)UnitySDK::FromName("", "JAPIAGFBODN")->GetStaticField(0x8661);
 		}
 
 		static ::System::Void _cctor()

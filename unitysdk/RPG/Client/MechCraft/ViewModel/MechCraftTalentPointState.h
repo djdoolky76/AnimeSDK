@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
-	inline static constexpr unsigned int MechCraftTalentPointState_TypeDefinitionIndex = 79777;
+	inline static constexpr unsigned int MechCraftTalentPointState_TypeDefinitionIndex = 82554;
 
 	enum class MechCraftTalentPointState : ::System::Int32
 	{

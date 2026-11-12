@@ -8,7 +8,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionMonitor_TypeDefinitionIndex = 73826;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionMonitor_TypeDefinitionIndex = 75952;
 
 	template <typename T>
 	class SceneItemHLODStreamingLayer_1_HLODTransitionMonitor : public ::System::Object

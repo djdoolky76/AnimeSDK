@@ -8,13 +8,13 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Mesh; }
 
-#define RPG_CLIENT_EFF_GPUINSTANCETEST_CTOR_OFFSET UNITYSDK_OFFSET(0xCD0F6A0)
-#define RPG_CLIENT_EFF_GPUINSTANCETEST_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xCD0F590)
-#define RPG_CLIENT_EFF_GPUINSTANCETEST_ONENABLE_OFFSET UNITYSDK_OFFSET(0xCD0EF50)
+#define RPG_CLIENT_EFF_GPUINSTANCETEST_CTOR_OFFSET UNITYSDK_OFFSET(0xD6D0C30)
+#define RPG_CLIENT_EFF_GPUINSTANCETEST_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD6D0B20)
+#define RPG_CLIENT_EFF_GPUINSTANCETEST_ONENABLE_OFFSET UNITYSDK_OFFSET(0xD6D04E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Eff_GpuInstanceTest_TypeDefinitionIndex = 70403;
+	inline static constexpr unsigned int Eff_GpuInstanceTest_TypeDefinitionIndex = 72370;
 
 	class Eff_GpuInstanceTest : public ::UnityEngine::MonoBehaviour
 	{

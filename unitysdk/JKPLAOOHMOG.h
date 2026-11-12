@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PeiPeiChallengeUpdateCheckPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JKPLAOOHMOG_CTOR_OFFSET UNITYSDK_OFFSET(0xB22E820)
-#define JKPLAOOHMOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB22E850)
+#define JKPLAOOHMOG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA56A40)
+#define JKPLAOOHMOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA56A70)
 
-inline static constexpr unsigned int JKPLAOOHMOG_TypeDefinitionIndex = 53064;
+inline static constexpr unsigned int JKPLAOOHMOG_TypeDefinitionIndex = 54224;
 
 	class JKPLAOOHMOG
 	{

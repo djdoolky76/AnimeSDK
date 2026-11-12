@@ -4,10 +4,10 @@
 namespace RPG::Client::ActivityMarble { class MarbleTeamSelection; }
 namespace RPG::Client::PetMarble { class IPetMarbleData; }
 
-#define DLANPNGEOJK_COMPARE_OFFSET UNITYSDK_OFFSET(0xF8908D0)
-#define DLANPNGEOJK_CTOR_OFFSET UNITYSDK_OFFSET(0xF8908C0)
+#define DLANPNGEOJK_COMPARE_OFFSET UNITYSDK_OFFSET(0x105FFC70)
+#define DLANPNGEOJK_CTOR_OFFSET UNITYSDK_OFFSET(0x105FFC60)
 
-inline static constexpr unsigned int DLANPNGEOJK_TypeDefinitionIndex = 74693;
+inline static constexpr unsigned int DLANPNGEOJK_TypeDefinitionIndex = 76841;
 
 	class DLANPNGEOJK : public ::System::Object
 	{

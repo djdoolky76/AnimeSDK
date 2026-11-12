@@ -2,8 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_THREADING_PLATFORMHELPER_GET_ISSINGLEPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1C147AB0)
-#define SYSTEM_THREADING_PLATFORMHELPER_GET_PROCESSORCOUNT_OFFSET UNITYSDK_OFFSET(0x1C144660)
+#define SYSTEM_THREADING_PLATFORMHELPER_GET_ISSINGLEPROCESSOR_OFFSET UNITYSDK_OFFSET(0x1D2CEE60)
+#define SYSTEM_THREADING_PLATFORMHELPER_GET_PROCESSORCOUNT_OFFSET UNITYSDK_OFFSET(0x1D2CBA20)
 
 namespace System::Threading
 {
@@ -14,12 +14,12 @@ namespace System::Threading
 	public:
 		static ::System::Int32* StaticGet_s_processorCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Threading", "PlatformHelper")->GetStaticField(0x7430);
+			return (::System::Int32*)UnitySDK::FromName("System.Threading", "PlatformHelper")->GetStaticField(0x7BE0);
 		}
 
 		static ::System::Int32* StaticGet_s_lastProcessorCountRefreshTicks()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Threading", "PlatformHelper")->GetStaticField(0x7434);
+			return (::System::Int32*)UnitySDK::FromName("System.Threading", "PlatformHelper")->GetStaticField(0x7BE4);
 		}
 
 		static ::System::Int32 get_ProcessorCount()

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NPJKDMFBDFG___C__DISPLAYCLASS65_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD08F30)
+#define NPJKDMFBDFG___C__DISPLAYCLASS65_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5F8AD0)
 
-inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass65_0_TypeDefinitionIndex = 49438;
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass65_0_TypeDefinitionIndex = 50514;
 
 	class NPJKDMFBDFG___c__DisplayClass65_0 : public ::System::Object
 	{

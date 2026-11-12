@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AudioTriggerInfo_TypeDefinitionIndex = 47517;
+inline static constexpr unsigned int AudioTriggerInfo_TypeDefinitionIndex = 48546;
 
 	struct alignas(4) AudioTriggerInfo
 	{

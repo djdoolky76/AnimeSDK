@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/KLNKLOMDIIC.h"
 
-inline static constexpr unsigned int ONKPJKCDPJG_TypeDefinitionIndex = 43484;
+inline static constexpr unsigned int ONKPJKCDPJG_TypeDefinitionIndex = 44466;
 
 	struct alignas(4) ONKPJKCDPJG
 	{

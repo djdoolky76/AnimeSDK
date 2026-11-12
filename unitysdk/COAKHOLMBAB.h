@@ -3,10 +3,10 @@
 class GOLCDANDHHM;
 namespace RPG::GameCore { class TaskContext; }
 
-#define COAKHOLMBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB1730)
-#define COAKHOLMBAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCB1760)
+#define COAKHOLMBAB_CTOR_OFFSET UNITYSDK_OFFSET(0xE5FDF00)
+#define COAKHOLMBAB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE5FDF30)
 
-inline static constexpr unsigned int COAKHOLMBAB_TypeDefinitionIndex = 52908;
+inline static constexpr unsigned int COAKHOLMBAB_TypeDefinitionIndex = 54064;
 
 	class COAKHOLMBAB
 	{

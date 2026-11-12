@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightOrbExtraBonusConfig; }
 
-#define RPG_GAMECORE_GRIDFIGHTORBEXTRABONUSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D737B00)
-#define RPG_GAMECORE_GRIDFIGHTORBEXTRABONUSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D737AC0)
+#define RPG_GAMECORE_GRIDFIGHTORBEXTRABONUSCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E946970)
+#define RPG_GAMECORE_GRIDFIGHTORBEXTRABONUSCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E946930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightOrbExtraBonusConfig_TypeDefinitionIndex = 19407;
+	inline static constexpr unsigned int GridFightOrbExtraBonusConfig_TypeDefinitionIndex = 19634;
 
 	class GridFightOrbExtraBonusConfig : public ::RPG::GameCore::JsonConfig
 	{

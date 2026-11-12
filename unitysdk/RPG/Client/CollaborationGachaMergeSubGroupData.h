@@ -4,21 +4,21 @@
 namespace RPG::Client { class BaseGachaPoolData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB9C1B0)
-#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_GET_AVATARGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xCB9C1C0)
-#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_GET_WEAPONGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xCB9C1E0)
-#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_SET_AVATARGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xCB9C1D0)
-#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_SET_WEAPONGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xCB9C1F0)
+#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD500A00)
+#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_GET_AVATARGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xD500A10)
+#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_GET_WEAPONGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xD500A30)
+#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_SET_AVATARGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xD500A20)
+#define RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_SET_WEAPONGACHAPOOLS_OFFSET UNITYSDK_OFFSET(0xD500A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CollaborationGachaMergeSubGroupData_TypeDefinitionIndex = 64317;
+	inline static constexpr unsigned int CollaborationGachaMergeSubGroupData_TypeDefinitionIndex = 65762;
 
 	class CollaborationGachaMergeSubGroupData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* _AvatarGachaPools_k__BackingField; // 0x10
-		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* _WeaponGachaPools_k__BackingField; // 0x18
+		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* _WeaponGachaPools_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* _AvatarGachaPools_k__BackingField; // 0x18
 		::System::Void _ctor(::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* a1, ::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>*, ::System::Collections::Generic::List_1<::RPG::Client::BaseGachaPoolData*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COLLABORATIONGACHAMERGESUBGROUPDATA_CTOR_OFFSET))(this, a1, a2);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyCharacterFaceMaterial; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGEAPILKGHC_CTOR_OFFSET UNITYSDK_OFFSET(0x13A64570)
-#define EGEAPILKGHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A645A0)
+#define EGEAPILKGHC_CTOR_OFFSET UNITYSDK_OFFSET(0x152DD760)
+#define EGEAPILKGHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x152DD790)
 
-inline static constexpr unsigned int EGEAPILKGHC_TypeDefinitionIndex = 53025;
+inline static constexpr unsigned int EGEAPILKGHC_TypeDefinitionIndex = 54185;
 
 	class EGEAPILKGHC
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class StopEffectFollow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JCMHNJJLLNE_CTOR_OFFSET UNITYSDK_OFFSET(0x165A7770)
-#define JCMHNJJLLNE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x165A7780)
-#define JCMHNJJLLNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165A77C0)
-#define JCMHNJJLLNE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x165A7B00)
-#define JCMHNJJLLNE_TICK_OFFSET UNITYSDK_OFFSET(0x165A7B50)
+#define JCMHNJJLLNE_CTOR_OFFSET UNITYSDK_OFFSET(0xB8EB220)
+#define JCMHNJJLLNE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8EB230)
+#define JCMHNJJLLNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8EB270)
+#define JCMHNJJLLNE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8EB5B0)
+#define JCMHNJJLLNE_TICK_OFFSET UNITYSDK_OFFSET(0xB8EB600)
 
-inline static constexpr unsigned int JCMHNJJLLNE_TypeDefinitionIndex = 55667;
+inline static constexpr unsigned int JCMHNJJLLNE_TypeDefinitionIndex = 56865;
 
 	class JCMHNJJLLNE : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::StopEffectFollow* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::StopEffectFollow* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::StopEffectFollow* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::StopEffectFollow*))((::PBYTE)hIl2Cpp + JCMHNJJLLNE_CTOR_OFFSET))(this, a1, a2);

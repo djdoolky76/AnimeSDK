@@ -9,23 +9,24 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class ChenLingBattleAbility_SummonSoldier; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define NELDMGIGNPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB6FD90)
-#define NELDMGIGNPH_FGFFFICOLCN_OFFSET UNITYSDK_OFFSET(0xBB70840)
-#define NELDMGIGNPH_GONPDMJKNDG_OFFSET UNITYSDK_OFFSET(0xBB70640)
-#define NELDMGIGNPH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB70C00)
-#define NELDMGIGNPH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xBB6FEE0)
-#define NELDMGIGNPH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBB70C40)
+#define NELDMGIGNPH_CTOR_OFFSET UNITYSDK_OFFSET(0xC44A260)
+#define NELDMGIGNPH_FGFFFICOLCN_OFFSET UNITYSDK_OFFSET(0xC44AD10)
+#define NELDMGIGNPH_GONPDMJKNDG_OFFSET UNITYSDK_OFFSET(0xC44AB10)
+#define NELDMGIGNPH_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC44B0D0)
+#define NELDMGIGNPH_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xC44A3B0)
+#define NELDMGIGNPH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC44B110)
 
-inline static constexpr unsigned int NELDMGIGNPH_TypeDefinitionIndex = 77923;
+inline static constexpr unsigned int NELDMGIGNPH_TypeDefinitionIndex = 80658;
 
 	class NELDMGIGNPH : public ::JNALBIEDNLH
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::ALMFLCJCHKP*>* DIJCEKBNNKK; // 0x28
 		::RPG::GameCore::ChenLingBattleAbility_SummonSoldier* GIEHPOMKGKG; // 0x30
-		::System::Single DKOFFPPGEFI; // 0x38
-		::System::Single LLNIGIGFCEA; // 0x3C
-		::System::Boolean KLBDNLEGJPB; // 0x40
+		::System::Boolean KLBDNLEGJPB; // 0x38
+		::System::Byte _padding0[0x3];
+		::System::Single DKOFFPPGEFI; // 0x3C
+		::System::Single LLNIGIGFCEA; // 0x40
 		::System::Void _ctor(::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig* a1, ::CIIKBJFOKHL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig*, ::CIIKBJFOKHL*))((::PBYTE)hIl2Cpp + NELDMGIGNPH_CTOR_OFFSET))(this, a1, a2);

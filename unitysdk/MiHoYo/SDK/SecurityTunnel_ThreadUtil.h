@@ -7,39 +7,39 @@ namespace System { class Random; }
 namespace System { class String; }
 namespace System::Threading { class WaitCallback; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB04E2D0)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CHECKANDSTARTUPQUEUE_OFFSET UNITYSDK_OFFSET(0xB04DB10)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CHECKANDSTOPQUEUE_OFFSET UNITYSDK_OFFSET(0xB04DF00)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB04E2C0)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_ENQUEUE_OFFSET UNITYSDK_OFFSET(0xB039780)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_GETNEW_OFFSET UNITYSDK_OFFSET(0xB04D850)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_RANDOMSTRING_OFFSET UNITYSDK_OFFSET(0xB04D8D0)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0xB6AF050)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CHECKANDSTARTUPQUEUE_OFFSET UNITYSDK_OFFSET(0xB6AE890)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CHECKANDSTOPQUEUE_OFFSET UNITYSDK_OFFSET(0xB6AEC80)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB6AF040)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_ENQUEUE_OFFSET UNITYSDK_OFFSET(0xB69A620)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_GETNEW_OFFSET UNITYSDK_OFFSET(0xB6AE5D0)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL_RANDOMSTRING_OFFSET UNITYSDK_OFFSET(0xB6AE650)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ThreadUtil_TypeDefinitionIndex = 46411;
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil_TypeDefinitionIndex = 47439;
 
 	class SecurityTunnel_ThreadUtil : public ::System::Object
 	{
 	public:
 		static ::System::Random** StaticGet_random()
 		{
-			return (::System::Random**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x340B0);
-		}
-
-		static ::MiHoYo::SDK::ThreadPoolQueue** StaticGet_sm_queue()
-		{
-			return (::MiHoYo::SDK::ThreadPoolQueue**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x340B8);
-		}
-
-		static ::System::Object** StaticGet_sm_lock()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x340C0);
+			return (::System::Random**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x2BAE0);
 		}
 
 		static ::System::String** StaticGet_Prefix()
 		{
-			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x340C8);
+			return (::System::String**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x2BAE8);
+		}
+
+		static ::System::Object** StaticGet_sm_lock()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x2BAF0);
+		}
+
+		static ::MiHoYo::SDK::ThreadPoolQueue** StaticGet_sm_queue()
+		{
+			return (::MiHoYo::SDK::ThreadPoolQueue**)UnitySDK::FromName("MiHoYo.SDK", "ThreadUtil")->GetStaticField(0x2BAF8);
 		}
 
 		::System::Void _ctor()

@@ -4,10 +4,10 @@
 class OCALBBHOKCK;
 namespace RPG::GameCore { class SpecialAvatarRow; }
 
-#define GPOJLCIIJFD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15B65AC0)
-#define GPOJLCIIJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B65B60)
+#define GPOJLCIIJFD_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16AEB780)
+#define GPOJLCIIJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x16AEB820)
 
-inline static constexpr unsigned int GPOJLCIIJFD_TypeDefinitionIndex = 62819;
+inline static constexpr unsigned int GPOJLCIIJFD_TypeDefinitionIndex = 64257;
 
 	class GPOJLCIIJFD : public ::System::Object
 	{

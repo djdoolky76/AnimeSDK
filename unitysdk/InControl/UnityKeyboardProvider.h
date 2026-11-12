@@ -7,54 +7,54 @@ namespace InControl { class KeyboardLayoutWatcher; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define INCONTROL_UNITYKEYBOARDPROVIDER_ANYKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x1BB54E70)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BB55280)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB55270)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYBOARDLAYOUTTYPE_OFFSET UNITYSDK_OFFSET(0x1BB55240)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x1BB54E80)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYWASPRESSED_OFFSET UNITYSDK_OFFSET(0x1BB55030)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETNAMEFORKEY_OFFSET UNITYSDK_OFFSET(0x1BB54F60)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_GETUINTYKEY_OFFSET UNITYSDK_OFFSET(0x1BB55110)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_ONKEYBOARDCHANGED_OFFSET UNITYSDK_OFFSET(0x1BB55180)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_RESET_OFFSET UNITYSDK_OFFSET(0x1BB54E50)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_SETUP_OFFSET UNITYSDK_OFFSET(0x1BB54D80)
-#define INCONTROL_UNITYKEYBOARDPROVIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1BB54E60)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_ANYKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x1CCDDA70)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CCDDE80)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCDDE70)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYBOARDLAYOUTTYPE_OFFSET UNITYSDK_OFFSET(0x1CCDDE40)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYISPRESSED_OFFSET UNITYSDK_OFFSET(0x1CCDDA80)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETKEYWASPRESSED_OFFSET UNITYSDK_OFFSET(0x1CCDDC30)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETNAMEFORKEY_OFFSET UNITYSDK_OFFSET(0x1CCDDB60)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_GETUINTYKEY_OFFSET UNITYSDK_OFFSET(0x1CCDDD10)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_ONKEYBOARDCHANGED_OFFSET UNITYSDK_OFFSET(0x1CCDDD80)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_RESET_OFFSET UNITYSDK_OFFSET(0x1CCDDA50)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_SETUP_OFFSET UNITYSDK_OFFSET(0x1CCDD980)
+#define INCONTROL_UNITYKEYBOARDPROVIDER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CCDDA60)
 
 namespace InControl
 {
-	inline static constexpr unsigned int UnityKeyboardProvider_TypeDefinitionIndex = 40858;
+	inline static constexpr unsigned int UnityKeyboardProvider_TypeDefinitionIndex = 41833;
 
 	class UnityKeyboardProvider : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Object*>** StaticGet_GermanKeyMappings()
+		static ::InControl::KeyboardLayoutWatcher** StaticGet_LayoutWatcher()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0xFB20);
-		}
-
-		static ::Il2CppArray<::System::Object*>** StaticGet_KeyMappings()
-		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0xFB28);
+			return (::InControl::KeyboardLayoutWatcher**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x20000);
 		}
 
 		static ::Il2CppArray<::System::Object*>** StaticGet__CurrentKeyMappings()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0xFB30);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x20008);
 		}
 
 		static ::Il2CppArray<::System::Object*>** StaticGet_FrenchKeyMappings()
 		{
-			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0xFB38);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x20010);
 		}
 
-		static ::InControl::KeyboardLayoutWatcher** StaticGet_LayoutWatcher()
+		static ::Il2CppArray<::System::Object*>** StaticGet_KeyMappings()
 		{
-			return (::InControl::KeyboardLayoutWatcher**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0xFB40);
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x20018);
+		}
+
+		static ::Il2CppArray<::System::Object*>** StaticGet_GermanKeyMappings()
+		{
+			return (::Il2CppArray<::System::Object*>**)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x20020);
 		}
 
 		static ::System::Int32* StaticGet__CurrentLayout()
 		{
-			return (::System::Int32*)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x3530);
+			return (::System::Int32*)UnitySDK::FromName("InControl", "UnityKeyboardProvider")->GetStaticField(0x6E00);
 		}
 
 		::System::Void _ctor()

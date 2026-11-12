@@ -4,18 +4,18 @@
 class MLHLIMIJHDD;
 namespace System { class Object; }
 
-#define MLHLIMIJHDD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA81E60)
-#define MLHLIMIJHDD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA81E90)
-#define MLHLIMIJHDD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA81EA0)
+#define MLHLIMIJHDD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDB80D0)
+#define MLHLIMIJHDD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB8100)
+#define MLHLIMIJHDD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1FDB8110)
 
-inline static constexpr unsigned int MLHLIMIJHDD___c_TypeDefinitionIndex = 30599;
+inline static constexpr unsigned int MLHLIMIJHDD___c_TypeDefinitionIndex = 31505;
 
 	class MLHLIMIJHDD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57F20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D860);
 		}
 
 		static ::System::Void _cctor()

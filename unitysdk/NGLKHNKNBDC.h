@@ -8,18 +8,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define NGLKHNKNBDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D207DF0)
-#define NGLKHNKNBDC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D207E00)
-#define NGLKHNKNBDC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D207DC0)
+#define NGLKHNKNBDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E41D020)
+#define NGLKHNKNBDC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E41D030)
+#define NGLKHNKNBDC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E41CFF0)
 
-inline static constexpr unsigned int NGLKHNKNBDC_TypeDefinitionIndex = 22485;
+inline static constexpr unsigned int NGLKHNKNBDC_TypeDefinitionIndex = 22894;
 
 	class NGLKHNKNBDC : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HOPKBCJIOCD; // 0x18
+		::System::String* ECNKCCNJNPJ; // 0x18
 		::RPG::GameCore::DynamicFloat* IEHPFADHJFD; // 0x20
-		::System::String* ECNKCCNJNPJ; // 0x28
+		::RPG::GameCore::TargetEvaluator* HOPKBCJIOCD; // 0x28
 		::RPG::GameCore::BattleAvatarUltraSkillEnergyFlyEffectType DLMINHHKKMK; // 0x30
 		::System::Void _ctor()
 		{

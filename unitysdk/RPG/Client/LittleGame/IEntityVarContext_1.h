@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEntityVarContext_1_TypeDefinitionIndex = 42750;
+	inline static constexpr unsigned int IEntityVarContext_1_TypeDefinitionIndex = 43729;
 
 	template <typename T>
 	class IEntityVarContext_1

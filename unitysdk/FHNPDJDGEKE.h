@@ -15,42 +15,42 @@ namespace RPG::GameCore { class RelicMainAffixAvatarValueRow; }
 namespace RPG::GameCore { class RelicSubAffixAvatarValueRow; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FHNPDJDGEKE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1578FFC0)
-#define FHNPDJDGEKE_CCTOR_OFFSET UNITYSDK_OFFSET(0x157913C0)
-#define FHNPDJDGEKE_CTOR_OFFSET UNITYSDK_OFFSET(0x15790050)
-#define FHNPDJDGEKE_DPLIJOIDNIJ_OFFSET UNITYSDK_OFFSET(0x15790C70)
-#define FHNPDJDGEKE_EIPANLOJAJA_OFFSET UNITYSDK_OFFSET(0x15791010)
-#define FHNPDJDGEKE_EPILGILCEAP_OFFSET UNITYSDK_OFFSET(0x15790330)
-#define FHNPDJDGEKE_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1578FFB0)
-#define FHNPDJDGEKE_HDEFFKOLEEN_OFFSET UNITYSDK_OFFSET(0x157904E0)
-#define FHNPDJDGEKE_HFGGDILEBFG_OFFSET UNITYSDK_OFFSET(0x15790BC0)
-#define FHNPDJDGEKE_KAOGGMCEEPI_OFFSET UNITYSDK_OFFSET(0x15790D60)
-#define FHNPDJDGEKE_KCOKMKMIKKA_OFFSET UNITYSDK_OFFSET(0x15790F80)
-#define FHNPDJDGEKE_LGKIDNPKEIC_OFFSET UNITYSDK_OFFSET(0x157906F0)
-#define FHNPDJDGEKE_MADGHBKMIKA_1_OFFSET UNITYSDK_OFFSET(0x157908F0)
-#define FHNPDJDGEKE_MADGHBKMIKA_OFFSET UNITYSDK_OFFSET(0x15790480)
-#define FHNPDJDGEKE_OBKAHOIEJDJ_OFFSET UNITYSDK_OFFSET(0x15791370)
-#define FHNPDJDGEKE_OIPKFCKJENO_OFFSET UNITYSDK_OFFSET(0x15791290)
-#define FHNPDJDGEKE_PNJPDNAFGHJ_OFFSET UNITYSDK_OFFSET(0x15791110)
+#define FHNPDJDGEKE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x166B10B0)
+#define FHNPDJDGEKE_CCTOR_OFFSET UNITYSDK_OFFSET(0x166B24A0)
+#define FHNPDJDGEKE_CTOR_OFFSET UNITYSDK_OFFSET(0x166B1140)
+#define FHNPDJDGEKE_DPLIJOIDNIJ_OFFSET UNITYSDK_OFFSET(0x166B1D60)
+#define FHNPDJDGEKE_EIPANLOJAJA_OFFSET UNITYSDK_OFFSET(0x166B2100)
+#define FHNPDJDGEKE_EPILGILCEAP_OFFSET UNITYSDK_OFFSET(0x166B1420)
+#define FHNPDJDGEKE_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x166B10A0)
+#define FHNPDJDGEKE_HDEFFKOLEEN_OFFSET UNITYSDK_OFFSET(0x166B15D0)
+#define FHNPDJDGEKE_HFGGDILEBFG_OFFSET UNITYSDK_OFFSET(0x166B1CB0)
+#define FHNPDJDGEKE_KAOGGMCEEPI_OFFSET UNITYSDK_OFFSET(0x166B1E50)
+#define FHNPDJDGEKE_KCOKMKMIKKA_OFFSET UNITYSDK_OFFSET(0x166B2070)
+#define FHNPDJDGEKE_LGKIDNPKEIC_OFFSET UNITYSDK_OFFSET(0x166B17E0)
+#define FHNPDJDGEKE_MADGHBKMIKA_1_OFFSET UNITYSDK_OFFSET(0x166B19E0)
+#define FHNPDJDGEKE_MADGHBKMIKA_OFFSET UNITYSDK_OFFSET(0x166B1570)
+#define FHNPDJDGEKE_OBKAHOIEJDJ_OFFSET UNITYSDK_OFFSET(0x166B2450)
+#define FHNPDJDGEKE_OIPKFCKJENO_OFFSET UNITYSDK_OFFSET(0x166B2370)
+#define FHNPDJDGEKE_PNJPDNAFGHJ_OFFSET UNITYSDK_OFFSET(0x166B21F0)
 
-inline static constexpr unsigned int FHNPDJDGEKE_TypeDefinitionIndex = 74431;
+inline static constexpr unsigned int FHNPDJDGEKE_TypeDefinitionIndex = 76579;
 
 	class FHNPDJDGEKE : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::RelicSubAffixAvatarValueRow* LKODOEBPKKA; // 0x10
+		::RPG::GameCore::RelicMainAffixAvatarValueRow* NFGBGNPFFOC; // 0x10
 		::CENEJCKEFHJ* GANLOCFFMEF; // 0x18
 		::RPG::Client::RelicSmartSuit::MainPropertyMatchChecker* FDAJDAPOCCN; // 0x20
-		::RPG::GameCore::RelicMainAffixAvatarValueRow* NFGBGNPFFOC; // 0x28
+		::RPG::GameCore::RelicSubAffixAvatarValueRow* LKODOEBPKKA; // 0x28
 		::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig _Config_k__BackingField; // 0x30
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>** StaticGet_IBNAIAKECIE()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("", "FHNPDJDGEKE")->GetStaticField(0x6C840);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AttackDamageType>** StaticGet_CACFFENNFHD()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AttackDamageType>**)UnitySDK::FromName("", "FHNPDJDGEKE")->GetStaticField(0x6C848);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AttackDamageType>**)UnitySDK::FromName("", "FHNPDJDGEKE")->GetStaticField(0x5CD80);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>** StaticGet_IBNAIAKECIE()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarPropertyType, ::RPG::GameCore::AvatarPropertyType>**)UnitySDK::FromName("", "FHNPDJDGEKE")->GetStaticField(0x5CD88);
 		}
 
 		::System::Void _ctor(::CENEJCKEFHJ* a1, ::RPG::Client::RelicSmartSuit::RelicScoreCalculatorConfig a2)

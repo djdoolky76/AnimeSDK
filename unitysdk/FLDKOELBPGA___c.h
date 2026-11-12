@@ -4,18 +4,18 @@
 class FLDKOELBPGA;
 namespace System { class Object; }
 
-#define FLDKOELBPGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3B88A0)
-#define FLDKOELBPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B88E0)
-#define FLDKOELBPGA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E3B88F0)
+#define FLDKOELBPGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6BECD0)
+#define FLDKOELBPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6BED10)
+#define FLDKOELBPGA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F6BED20)
 
-inline static constexpr unsigned int FLDKOELBPGA___c_TypeDefinitionIndex = 27899;
+inline static constexpr unsigned int FLDKOELBPGA___c_TypeDefinitionIndex = 28489;
 
 	class FLDKOELBPGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64280);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A0C0);
 		}
 
 		static ::System::Void _cctor()

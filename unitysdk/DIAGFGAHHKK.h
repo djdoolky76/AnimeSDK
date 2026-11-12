@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define DIAGFGAHHKK_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEF0F0)
-#define DIAGFGAHHKK_HDHKGACLMAN_OFFSET UNITYSDK_OFFSET(0xEBEEBB0)
-#define DIAGFGAHHKK_NLLPCNDOFMC_OFFSET UNITYSDK_OFFSET(0xEBEEEE0)
+#define DIAGFGAHHKK_CTOR_OFFSET UNITYSDK_OFFSET(0xF960EB0)
+#define DIAGFGAHHKK_HDHKGACLMAN_OFFSET UNITYSDK_OFFSET(0xF960970)
+#define DIAGFGAHHKK_NLLPCNDOFMC_OFFSET UNITYSDK_OFFSET(0xF960CA0)
 
-inline static constexpr unsigned int DIAGFGAHHKK_TypeDefinitionIndex = 54122;
+inline static constexpr unsigned int DIAGFGAHHKK_TypeDefinitionIndex = 55286;
 
 	class DIAGFGAHHKK : public ::System::Object
 	{

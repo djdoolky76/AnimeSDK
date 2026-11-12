@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FILMJJMEBJA_TypeDefinitionIndex = 27270;
+inline static constexpr unsigned int FILMJJMEBJA_TypeDefinitionIndex = 27801;
 
 	enum class FILMJJMEBJA : ::System::Int32
 	{

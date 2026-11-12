@@ -3,10 +3,10 @@
 class NJGLADGCALF;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HCNNJPHOKDK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C2A360)
-#define HCNNJPHOKDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C2A390)
+#define HCNNJPHOKDK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B6D530)
+#define HCNNJPHOKDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16B6D560)
 
-inline static constexpr unsigned int HCNNJPHOKDK_TypeDefinitionIndex = 58602;
+inline static constexpr unsigned int HCNNJPHOKDK_TypeDefinitionIndex = 59867;
 
 	class HCNNJPHOKDK
 	{

@@ -4,13 +4,13 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_LEVELWAVEMONSTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6FFF10)
-#define RPG_GAMECORE_LEVELWAVEMONSTER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6FFE70)
-#define RPG_GAMECORE_LEVELWAVEMONSTER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6FFEC0)
+#define RPG_GAMECORE_LEVELWAVEMONSTER_CTOR_OFFSET UNITYSDK_OFFSET(0xF202CA0)
+#define RPG_GAMECORE_LEVELWAVEMONSTER_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF202C00)
+#define RPG_GAMECORE_LEVELWAVEMONSTER_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF202C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelWaveMonster_TypeDefinitionIndex = 56730;
+	inline static constexpr unsigned int LevelWaveMonster_TypeDefinitionIndex = 57954;
 
 	class LevelWaveMonster : public ::System::Object
 	{

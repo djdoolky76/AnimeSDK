@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvSetColliderGroupState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AEE90)
-#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3AEEA0)
-#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AEE60)
+#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BE3C0)
+#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5BE3D0)
+#define RPG_GAMECORE_ADVSETCOLLIDERGROUPSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5BE390)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetColliderGroupState_TypeDefinitionIndex = 20532;
+	inline static constexpr unsigned int AdvSetColliderGroupState_TypeDefinitionIndex = 20868;
 
 	class AdvSetColliderGroupState : public ::RPG::GameCore::TaskConfig
 	{

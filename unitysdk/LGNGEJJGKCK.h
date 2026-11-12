@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 class GIHIEMMKHIP;
 
-#define LGNGEJJGKCK_OMNMLHEFNIN_OFFSET UNITYSDK_OFFSET(0xB69CE00)
+#define LGNGEJJGKCK_OMNMLHEFNIN_OFFSET UNITYSDK_OFFSET(0xBF340A0)
 
-inline static constexpr unsigned int LGNGEJJGKCK_TypeDefinitionIndex = 67415;
+inline static constexpr unsigned int LGNGEJJGKCK_TypeDefinitionIndex = 69359;
 
 	class LGNGEJJGKCK : public ::System::Object
 	{

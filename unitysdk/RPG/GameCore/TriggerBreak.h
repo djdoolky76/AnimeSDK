@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerBreak; }
 
-#define RPG_GAMECORE_TRIGGERBREAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC44A50)
-#define RPG_GAMECORE_TRIGGERBREAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC44A60)
-#define RPG_GAMECORE_TRIGGERBREAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC44A10)
+#define RPG_GAMECORE_TRIGGERBREAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE57C90)
+#define RPG_GAMECORE_TRIGGERBREAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE57CA0)
+#define RPG_GAMECORE_TRIGGERBREAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE57C50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerBreak_TypeDefinitionIndex = 22716;
+	inline static constexpr unsigned int TriggerBreak_TypeDefinitionIndex = 23138;
 
 	class TriggerBreak : public ::RPG::GameCore::TaskConfig
 	{

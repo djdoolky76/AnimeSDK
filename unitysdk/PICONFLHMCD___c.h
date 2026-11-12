@@ -4,18 +4,18 @@
 class PICONFLHMCD;
 namespace System { class Object; }
 
-#define PICONFLHMCD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF43D80)
-#define PICONFLHMCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF43DC0)
-#define PICONFLHMCD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF43DD0)
+#define PICONFLHMCD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F214AB0)
+#define PICONFLHMCD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F214AF0)
+#define PICONFLHMCD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F214B00)
 
-inline static constexpr unsigned int PICONFLHMCD___c_TypeDefinitionIndex = 30898;
+inline static constexpr unsigned int PICONFLHMCD___c_TypeDefinitionIndex = 31811;
 
 	class PICONFLHMCD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40D50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37C20);
 		}
 
 		static ::System::Void _cctor()

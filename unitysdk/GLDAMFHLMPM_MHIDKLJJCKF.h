@@ -4,7 +4,7 @@
 #include "unitysdk/GLDAMFHLMPM_UIControllerType.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int GLDAMFHLMPM_MHIDKLJJCKF_TypeDefinitionIndex = 59856;
+inline static constexpr unsigned int GLDAMFHLMPM_MHIDKLJJCKF_TypeDefinitionIndex = 61137;
 
 	struct alignas(8) GLDAMFHLMPM_MHIDKLJJCKF
 	{

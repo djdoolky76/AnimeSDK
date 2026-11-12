@@ -5,11 +5,11 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TransformComponent; }
 
-#define BMMMMCHEPDI_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0xBDBEC10)
-#define BMMMMCHEPDI_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBEBC0)
-#define BMMMMCHEPDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDBF050)
+#define BMMMMCHEPDI_AEGMLJMJBDO_OFFSET UNITYSDK_OFFSET(0xC73D720)
+#define BMMMMCHEPDI_CTOR_OFFSET UNITYSDK_OFFSET(0xC73D6D0)
+#define BMMMMCHEPDI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC73DB60)
 
-inline static constexpr unsigned int BMMMMCHEPDI_TypeDefinitionIndex = 78508;
+inline static constexpr unsigned int BMMMMCHEPDI_TypeDefinitionIndex = 81243;
 
 	class BMMMMCHEPDI : public ::System::Object
 	{

@@ -7,17 +7,17 @@ class NMMNJLDKJMD;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define NMMNJLDKJMD___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC8E3B0)
-#define NMMNJLDKJMD___C__DISPLAYCLASS5_0__SWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0xBC8F270)
+#define NMMNJLDKJMD___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC576A10)
+#define NMMNJLDKJMD___C__DISPLAYCLASS5_0__SWITCHAREA_B__0_OFFSET UNITYSDK_OFFSET(0xC577820)
 
-inline static constexpr unsigned int NMMNJLDKJMD___c__DisplayClass5_0_TypeDefinitionIndex = 75471;
+inline static constexpr unsigned int NMMNJLDKJMD___c__DisplayClass5_0_TypeDefinitionIndex = 77798;
 
 	class NMMNJLDKJMD___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
 		::NMMNJLDKJMD* __4__this; // 0x10
-		::System::Action* onFinish; // 0x18
-		::System::String* areaPath; // 0x20
+		::System::String* areaPath; // 0x18
+		::System::Action* onFinish; // 0x20
 		::UnityEngine::Vector3 position; // 0x28
 		::UnityEngine::Quaternion rotation; // 0x34
 		::System::Void _ctor()

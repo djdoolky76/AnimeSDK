@@ -5,11 +5,11 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class GameWorld; }
 namespace System { class String; }
 
-#define OKKMBCHONMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE9490)
-#define OKKMBCHONMA_DAGCNLBDMIA_OFFSET UNITYSDK_OFFSET(0xBEE9590)
-#define OKKMBCHONMA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEE9750)
+#define OKKMBCHONMA_CTOR_OFFSET UNITYSDK_OFFSET(0xC7E46F0)
+#define OKKMBCHONMA_DAGCNLBDMIA_OFFSET UNITYSDK_OFFSET(0xC7E47F0)
+#define OKKMBCHONMA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC7E49B0)
 
-inline static constexpr unsigned int OKKMBCHONMA_TypeDefinitionIndex = 60247;
+inline static constexpr unsigned int OKKMBCHONMA_TypeDefinitionIndex = 61531;
 
 	class OKKMBCHONMA : public ::System::Object
 	{

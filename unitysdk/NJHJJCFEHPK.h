@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
-#define NJHJJCFEHPK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0FF90)
-#define NJHJJCFEHPK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xBC0FF70)
-#define NJHJJCFEHPK_GET_SPEQUIP_OFFSET UNITYSDK_OFFSET(0xBC0FF80)
+#define NJHJJCFEHPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC4F3540)
+#define NJHJJCFEHPK_GET_AVATARID_OFFSET UNITYSDK_OFFSET(0xC4F3520)
+#define NJHJJCFEHPK_GET_SPEQUIP_OFFSET UNITYSDK_OFFSET(0xC4F3530)
 
-inline static constexpr unsigned int NJHJJCFEHPK_TypeDefinitionIndex = 75224;
+inline static constexpr unsigned int NJHJJCFEHPK_TypeDefinitionIndex = 77551;
 
 	class NJHJJCFEHPK : public ::System::Object
 	{

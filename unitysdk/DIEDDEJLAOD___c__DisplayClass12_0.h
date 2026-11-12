@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class DIEDDEJLAOD;
 
-#define DIEDDEJLAOD___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBF1B60)
-#define DIEDDEJLAOD___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xEBF26F0)
+#define DIEDDEJLAOD___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF9639C0)
+#define DIEDDEJLAOD___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0xF964550)
 
-inline static constexpr unsigned int DIEDDEJLAOD___c__DisplayClass12_0_TypeDefinitionIndex = 71283;
+inline static constexpr unsigned int DIEDDEJLAOD___c__DisplayClass12_0_TypeDefinitionIndex = 73260;
 
 	class DIEDDEJLAOD___c__DisplayClass12_0 : public ::System::Object
 	{

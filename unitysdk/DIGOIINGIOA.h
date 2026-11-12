@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyModifier_1; }
 
-#define DIGOIINGIOA_CTOR_OFFSET UNITYSDK_OFFSET(0xEBF6660)
-#define DIGOIINGIOA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xEBF6670)
+#define DIGOIINGIOA_CTOR_OFFSET UNITYSDK_OFFSET(0xF968C80)
+#define DIGOIINGIOA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xF968C90)
 
-inline static constexpr unsigned int DIGOIINGIOA_TypeDefinitionIndex = 62529;
+inline static constexpr unsigned int DIGOIINGIOA_TypeDefinitionIndex = 63942;
 
 	class DIGOIINGIOA : public ::System::Object
 	{

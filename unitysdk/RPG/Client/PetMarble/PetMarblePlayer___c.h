@@ -5,25 +5,25 @@ class OAAKAIBPENC;
 namespace System { class Object; }
 namespace System { template <typename T> class Predicate_1; }
 
-#define RPG_CLIENT_PETMARBLE_PETMARBLEPLAYER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAE7A80)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEPLAYER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAE7AC0)
-#define RPG_CLIENT_PETMARBLE_PETMARBLEPLAYER___C__GET_ISOWNMASTERTITLE_B__43_0_OFFSET UNITYSDK_OFFSET(0xDAE7AD0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEPLAYER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE53D5C0)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEPLAYER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE53D600)
+#define RPG_CLIENT_PETMARBLE_PETMARBLEPLAYER___C__GET_ISOWNMASTERTITLE_B__43_0_OFFSET UNITYSDK_OFFSET(0xE53D610)
 
 namespace RPG::Client::PetMarble
 {
-	inline static constexpr unsigned int PetMarblePlayer___c_TypeDefinitionIndex = 74701;
+	inline static constexpr unsigned int PetMarblePlayer___c_TypeDefinitionIndex = 76849;
 
 	class PetMarblePlayer___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1B6C0);
-		}
-
 		static ::System::Predicate_1<::OAAKAIBPENC*>** StaticGet___9__43_0()
 		{
-			return (::System::Predicate_1<::OAAKAIBPENC*>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x1B6C8);
+			return (::System::Predicate_1<::OAAKAIBPENC*>**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B9F0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetMarble", "<>c")->GetStaticField(0x2B9F8);
 		}
 
 		static ::System::Void _cctor()

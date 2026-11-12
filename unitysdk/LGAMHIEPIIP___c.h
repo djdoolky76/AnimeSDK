@@ -4,18 +4,18 @@
 class LGAMHIEPIIP;
 namespace System { class Object; }
 
-#define LGAMHIEPIIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9495F0)
-#define LGAMHIEPIIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E949630)
-#define LGAMHIEPIIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E949640)
+#define LGAMHIEPIIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC69000)
+#define LGAMHIEPIIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC69040)
+#define LGAMHIEPIIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FC69050)
 
-inline static constexpr unsigned int LGAMHIEPIIP___c_TypeDefinitionIndex = 31214;
+inline static constexpr unsigned int LGAMHIEPIIP___c_TypeDefinitionIndex = 32127;
 
 	class LGAMHIEPIIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D790);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31900);
 		}
 
 		static ::System::Void _cctor()

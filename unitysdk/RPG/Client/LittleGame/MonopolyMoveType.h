@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int MonopolyMoveType_TypeDefinitionIndex = 42550;
+	inline static constexpr unsigned int MonopolyMoveType_TypeDefinitionIndex = 43525;
 
 	enum class MonopolyMoveType : ::System::Int32
 	{

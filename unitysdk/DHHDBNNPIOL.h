@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DHHDBNNPIOL_CTOR_OFFSET UNITYSDK_OFFSET(0xEBD9270)
-#define DHHDBNNPIOL_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xEBD91D0)
+#define DHHDBNNPIOL_CTOR_OFFSET UNITYSDK_OFFSET(0xF94ACA0)
+#define DHHDBNNPIOL_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xF94AC00)
 
-inline static constexpr unsigned int DHHDBNNPIOL_TypeDefinitionIndex = 62454;
+inline static constexpr unsigned int DHHDBNNPIOL_TypeDefinitionIndex = 63867;
 
 	class DHHDBNNPIOL : public ::System::Object
 	{

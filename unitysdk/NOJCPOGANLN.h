@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TransitEnvProfile; }
 
-#define NOJCPOGANLN_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF26F0)
-#define NOJCPOGANLN_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0xBCF2700)
+#define NOJCPOGANLN_CTOR_OFFSET UNITYSDK_OFFSET(0xC5DEEC0)
+#define NOJCPOGANLN_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0xC5DEED0)
 
-inline static constexpr unsigned int NOJCPOGANLN_TypeDefinitionIndex = 58766;
+inline static constexpr unsigned int NOJCPOGANLN_TypeDefinitionIndex = 60034;
 
 	class NOJCPOGANLN : public ::BAHCPACOGOI
 	{

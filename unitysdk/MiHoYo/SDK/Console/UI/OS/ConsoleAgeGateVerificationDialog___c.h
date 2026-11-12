@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::Console::UI::OS { class ConsoleAgeGateVerificationDialog;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE3C390)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE3C3D0)
-#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG___C__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x1BE3C3E0)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFC4820)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFC4860)
+#define MIHOYO_SDK_CONSOLE_UI_OS_CONSOLEAGEGATEVERIFICATIONDIALOG___C__SHOW_B__43_0_OFFSET UNITYSDK_OFFSET(0x1CFC4870)
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
-	inline static constexpr unsigned int ConsoleAgeGateVerificationDialog___c_TypeDefinitionIndex = 9050;
+	inline static constexpr unsigned int ConsoleAgeGateVerificationDialog___c_TypeDefinitionIndex = 9059;
 
 	class ConsoleAgeGateVerificationDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.UI.OS", "<>c")->GetStaticField(0xBEE0);
-		}
-
 		static ::System::Action_1<::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateVerificationDialog*>** StaticGet___9__43_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateVerificationDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console.UI.OS", "<>c")->GetStaticField(0xBEE8);
+			return (::System::Action_1<::MiHoYo::SDK::Console::UI::OS::ConsoleAgeGateVerificationDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console.UI.OS", "<>c")->GetStaticField(0x5EF50);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console.UI.OS", "<>c")->GetStaticField(0x5EF58);
 		}
 
 		static ::System::Void _cctor()

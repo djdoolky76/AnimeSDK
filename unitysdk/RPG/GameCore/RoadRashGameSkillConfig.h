@@ -7,12 +7,12 @@ namespace RPG::GameCore { class RoadRashGameAbilityConfig; }
 namespace RPG::GameCore { class RoadRashGameModifierConfig; }
 namespace RPG::GameCore { class RoadRashGameSkillConfig; }
 
-#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D99CF30)
-#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D99CB40)
+#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBE5FB0)
+#define RPG_GAMECORE_ROADRASHGAMESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBE5BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoadRashGameSkillConfig_TypeDefinitionIndex = 17008;
+	inline static constexpr unsigned int RoadRashGameSkillConfig_TypeDefinitionIndex = 17175;
 
 	class RoadRashGameSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

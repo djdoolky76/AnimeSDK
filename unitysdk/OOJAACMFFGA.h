@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class PhotoGraphAimContainerConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOJAACMFFGA_BFALCBKCFFF_OFFSET UNITYSDK_OFFSET(0xBF89140)
-#define OOJAACMFFGA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF890E0)
+#define OOJAACMFFGA_BFALCBKCFFF_OFFSET UNITYSDK_OFFSET(0xC889A80)
+#define OOJAACMFFGA_CTOR_OFFSET UNITYSDK_OFFSET(0xC889A20)
 
-inline static constexpr unsigned int OOJAACMFFGA_TypeDefinitionIndex = 69437;
+inline static constexpr unsigned int OOJAACMFFGA_TypeDefinitionIndex = 71391;
 
 	class OOJAACMFFGA : public ::BBHJHADOEID
 	{

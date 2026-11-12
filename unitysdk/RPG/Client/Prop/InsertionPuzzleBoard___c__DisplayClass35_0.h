@@ -4,12 +4,12 @@
 class DPLLFKALLIN;
 namespace RPG::Client::Prop { class InsertionPuzzleBoard; }
 
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD01C10)
-#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS35_0___ONREVERTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xDD03730)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS35_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE75E600)
+#define RPG_CLIENT_PROP_INSERTIONPUZZLEBOARD___C__DISPLAYCLASS35_0___ONREVERTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xE75E610)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass35_0_TypeDefinitionIndex = 78629;
+	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass35_0_TypeDefinitionIndex = 81364;
 
 	class InsertionPuzzleBoard___c__DisplayClass35_0 : public ::System::Object
 	{

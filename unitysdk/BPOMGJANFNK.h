@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PreloadBattleEvent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BPOMGJANFNK_CTOR_OFFSET UNITYSDK_OFFSET(0xC1ADB80)
-#define BPOMGJANFNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1ADBB0)
+#define BPOMGJANFNK_CTOR_OFFSET UNITYSDK_OFFSET(0xCB4ED70)
+#define BPOMGJANFNK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCB4EDA0)
 
-inline static constexpr unsigned int BPOMGJANFNK_TypeDefinitionIndex = 58297;
+inline static constexpr unsigned int BPOMGJANFNK_TypeDefinitionIndex = 59553;
 
 	class BPOMGJANFNK
 	{

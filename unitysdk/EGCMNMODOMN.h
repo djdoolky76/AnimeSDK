@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByCheckWindowPermCodes; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EGCMNMODOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x13A60210)
-#define EGCMNMODOMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A60240)
+#define EGCMNMODOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x152D8DC0)
+#define EGCMNMODOMN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x152D8DF0)
 
-inline static constexpr unsigned int EGCMNMODOMN_TypeDefinitionIndex = 52820;
+inline static constexpr unsigned int EGCMNMODOMN_TypeDefinitionIndex = 53964;
 
 	class EGCMNMODOMN
 	{

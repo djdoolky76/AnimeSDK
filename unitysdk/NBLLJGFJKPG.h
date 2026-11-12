@@ -5,20 +5,20 @@ namespace RPG::GameCore { class AIVariableInt; }
 namespace RPG::GameCore { class ModifyAIVariableInt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NBLLJGFJKPG_AGCLGFNAIPM_OFFSET UNITYSDK_OFFSET(0xBADC750)
-#define NBLLJGFJKPG_CTOR_OFFSET UNITYSDK_OFFSET(0xBADC640)
-#define NBLLJGFJKPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBADC650)
-#define NBLLJGFJKPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBADC690)
-#define NBLLJGFJKPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBADC7E0)
-#define NBLLJGFJKPG_TICK_OFFSET UNITYSDK_OFFSET(0xBADC830)
+#define NBLLJGFJKPG_AGCLGFNAIPM_OFFSET UNITYSDK_OFFSET(0xC363120)
+#define NBLLJGFJKPG_CTOR_OFFSET UNITYSDK_OFFSET(0xC363010)
+#define NBLLJGFJKPG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC363020)
+#define NBLLJGFJKPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC363060)
+#define NBLLJGFJKPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC3631B0)
+#define NBLLJGFJKPG_TICK_OFFSET UNITYSDK_OFFSET(0xC363200)
 
-inline static constexpr unsigned int NBLLJGFJKPG_TypeDefinitionIndex = 54392;
+inline static constexpr unsigned int NBLLJGFJKPG_TypeDefinitionIndex = 55556;
 
 	class NBLLJGFJKPG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::ModifyAIVariableInt* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::ModifyAIVariableInt* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyAIVariableInt* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyAIVariableInt*))((::PBYTE)hIl2Cpp + NBLLJGFJKPG_CTOR_OFFSET))(this, a1, a2);

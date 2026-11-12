@@ -4,10 +4,10 @@
 namespace RPG::Client { class MusicRhythmPhase; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define DBDAGGLHIIB_CIOEDCPDEPA_OFFSET UNITYSDK_OFFSET(0xDFDBC20)
-#define DBDAGGLHIIB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFDCB00)
+#define DBDAGGLHIIB_CIOEDCPDEPA_OFFSET UNITYSDK_OFFSET(0xEB7DB00)
+#define DBDAGGLHIIB_CTOR_OFFSET UNITYSDK_OFFSET(0xEB7EA00)
 
-inline static constexpr unsigned int DBDAGGLHIIB_TypeDefinitionIndex = 61806;
+inline static constexpr unsigned int DBDAGGLHIIB_TypeDefinitionIndex = 63212;
 
 	class DBDAGGLHIIB : public ::System::Object
 	{

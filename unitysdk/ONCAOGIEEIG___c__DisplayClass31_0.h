@@ -4,10 +4,10 @@
 class ODGPPIHLOFF;
 namespace System { class Action; }
 
-#define ONCAOGIEEIG___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4CC50)
-#define ONCAOGIEEIG___C__DISPLAYCLASS31_0__APPLYLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xBF4F210)
+#define ONCAOGIEEIG___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC84A6F0)
+#define ONCAOGIEEIG___C__DISPLAYCLASS31_0__APPLYLAYER_B__0_OFFSET UNITYSDK_OFFSET(0xC84CCD0)
 
-inline static constexpr unsigned int ONCAOGIEEIG___c__DisplayClass31_0_TypeDefinitionIndex = 49443;
+inline static constexpr unsigned int ONCAOGIEEIG___c__DisplayClass31_0_TypeDefinitionIndex = 50519;
 
 	class ONCAOGIEEIG___c__DisplayClass31_0 : public ::System::Object
 	{

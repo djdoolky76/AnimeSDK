@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CFGFAHEKNPD.h"
 
-#define GJBADDEBBEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C554720)
+#define GJBADDEBBEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D60E0)
 
-inline static constexpr unsigned int GJBADDEBBEP_TypeDefinitionIndex = 41774;
+inline static constexpr unsigned int GJBADDEBBEP_TypeDefinitionIndex = 42749;
 
 	class GJBADDEBBEP : public ::CFGFAHEKNPD
 	{

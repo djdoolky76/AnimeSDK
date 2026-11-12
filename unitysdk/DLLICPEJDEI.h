@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class ShowBonusUIEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLLICPEJDEI_CTOR_OFFSET UNITYSDK_OFFSET(0xF8ACA40)
-#define DLLICPEJDEI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF8ACA50)
-#define DLLICPEJDEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8ACAF0)
-#define DLLICPEJDEI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF8ACC20)
-#define DLLICPEJDEI_TICK_OFFSET UNITYSDK_OFFSET(0xF8ACA90)
+#define DLLICPEJDEI_CTOR_OFFSET UNITYSDK_OFFSET(0x1061C9F0)
+#define DLLICPEJDEI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1061CA00)
+#define DLLICPEJDEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1061CAA0)
+#define DLLICPEJDEI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1061CBD0)
+#define DLLICPEJDEI_TICK_OFFSET UNITYSDK_OFFSET(0x1061CA40)
 
-inline static constexpr unsigned int DLLICPEJDEI_TypeDefinitionIndex = 58622;
+inline static constexpr unsigned int DLLICPEJDEI_TypeDefinitionIndex = 59887;
 
 	class DLLICPEJDEI : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::ShowBonusUIEffect* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::ShowBonusUIEffect* HAOKDAIPDIM; // 0x20
-		::RPG::GameCore::TaskContext* OEGOIILHDOD; // 0x28
+		::RPG::GameCore::TaskContext* OEGOIILHDOD; // 0x20
+		::RPG::GameCore::ShowBonusUIEffect* HAOKDAIPDIM; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowBonusUIEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowBonusUIEffect*))((::PBYTE)hIl2Cpp + DLLICPEJDEI_CTOR_OFFSET))(this, a1, a2);

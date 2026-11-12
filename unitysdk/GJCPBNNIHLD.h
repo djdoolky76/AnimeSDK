@@ -4,16 +4,16 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatTaskConfig_WriteCustomValue; }
 
-#define GJCPBNNIHLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C643070)
-#define GJCPBNNIHLD_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C643080)
+#define GJCPBNNIHLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7C4CD0)
+#define GJCPBNNIHLD_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D7C4CE0)
 
-inline static constexpr unsigned int GJCPBNNIHLD_TypeDefinitionIndex = 36369;
+inline static constexpr unsigned int GJCPBNNIHLD_TypeDefinitionIndex = 37297;
 
 	class GJCPBNNIHLD : public ::AJBKGPOEBFG
 	{
 	public:
-		::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue* IGHAHBNLIJA; // 0x18
-		::EGDGOMKKEJI* EEFMDEHLLFI; // 0x20
+		::EGDGOMKKEJI* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue* a1, ::EGDGOMKKEJI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DiceCombatTaskConfig_WriteCustomValue*, ::EGDGOMKKEJI*))((::PBYTE)hIl2Cpp + GJCPBNNIHLD_CTOR_OFFSET))(this, a1, a2);

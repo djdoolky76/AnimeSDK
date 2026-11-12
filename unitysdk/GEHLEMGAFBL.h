@@ -6,11 +6,11 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GEHLEMGAFBL_AGIBOFIBMNA_OFFSET UNITYSDK_OFFSET(0x159D7440)
-#define GEHLEMGAFBL_CTOR_OFFSET UNITYSDK_OFFSET(0x159D71A0)
-#define GEHLEMGAFBL_POANJGPHBGM_OFFSET UNITYSDK_OFFSET(0x159D71B0)
+#define GEHLEMGAFBL_AGIBOFIBMNA_OFFSET UNITYSDK_OFFSET(0x1690F8F0)
+#define GEHLEMGAFBL_CTOR_OFFSET UNITYSDK_OFFSET(0x1690F650)
+#define GEHLEMGAFBL_POANJGPHBGM_OFFSET UNITYSDK_OFFSET(0x1690F660)
 
-inline static constexpr unsigned int GEHLEMGAFBL_TypeDefinitionIndex = 74383;
+inline static constexpr unsigned int GEHLEMGAFBL_TypeDefinitionIndex = 76531;
 
 	class GEHLEMGAFBL : public ::System::Object
 	{

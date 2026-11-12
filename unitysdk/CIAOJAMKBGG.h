@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CIAOJAMKBGG_CTOR_OFFSET UNITYSDK_OFFSET(0xCF65190)
-#define CIAOJAMKBGG_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xCF651A0)
+#define CIAOJAMKBGG_CTOR_OFFSET UNITYSDK_OFFSET(0xD8CF0E0)
+#define CIAOJAMKBGG_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xD8CF0F0)
 
-inline static constexpr unsigned int CIAOJAMKBGG_TypeDefinitionIndex = 79198;
+inline static constexpr unsigned int CIAOJAMKBGG_TypeDefinitionIndex = 81975;
 
 	class CIAOJAMKBGG : public ::System::Object
 	{

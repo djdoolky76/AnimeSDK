@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/LittleGameShare/FightServerLogLevel.h"
 namespace System { class String; }
 
-#define FAJICBKHAOE_CTOR_OFFSET UNITYSDK_OFFSET(0x25920)
+#define FAJICBKHAOE_CTOR_OFFSET UNITYSDK_OFFSET(0x2B570)
 
-inline static constexpr unsigned int FAJICBKHAOE_TypeDefinitionIndex = 36945;
+inline static constexpr unsigned int FAJICBKHAOE_TypeDefinitionIndex = 37873;
 
 	struct alignas(8) FAJICBKHAOE
 	{

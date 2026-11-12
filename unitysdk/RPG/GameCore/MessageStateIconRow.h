@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MessageStateIconRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MESSAGESTATEICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87E1D0)
-#define RPG_GAMECORE_MESSAGESTATEICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D87DBD0)
+#define RPG_GAMECORE_MESSAGESTATEICONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA987F0)
+#define RPG_GAMECORE_MESSAGESTATEICONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA981F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MessageStateIconRow_TypeDefinitionIndex = 14483;
+	inline static constexpr unsigned int MessageStateIconRow_TypeDefinitionIndex = 14638;
 
 	class MessageStateIconRow : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StringCase_TypeDefinitionIndex = 35217;
+	inline static constexpr unsigned int StringCase_TypeDefinitionIndex = 36145;
 
 	enum class StringCase : ::System::Int32
 	{

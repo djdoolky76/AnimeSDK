@@ -7,7 +7,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Create_1_AsyncWriter_TypeDefinitionIndex = 45332;
+	inline static constexpr unsigned int Create_1_AsyncWriter_TypeDefinitionIndex = 46361;
 
 	template <typename T>
 	class Create_1_AsyncWriter : public ::System::Object

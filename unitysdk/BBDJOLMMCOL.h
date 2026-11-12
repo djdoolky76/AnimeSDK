@@ -10,22 +10,22 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenIncidentOption; }
 namespace RPG::GameCore { class HipplenIncidentOptionStepConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BBDJOLMMCOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15E854F0)
-#define BBDJOLMMCOL_CNKLGPEIBGI_OFFSET UNITYSDK_OFFSET(0x15E85790)
-#define BBDJOLMMCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15E85590)
-#define BBDJOLMMCOL_EPGNFOIJHAK_OFFSET UNITYSDK_OFFSET(0x15E85950)
-#define BBDJOLMMCOL_EPJPICKMJLF_OFFSET UNITYSDK_OFFSET(0x15E85BB0)
-#define BBDJOLMMCOL_JJHHOJFLOAK_OFFSET UNITYSDK_OFFSET(0x15E858C0)
-#define BBDJOLMMCOL_OKAAGEKIOCD_OFFSET UNITYSDK_OFFSET(0x15E857E0)
+#define BBDJOLMMCOL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x16D09E60)
+#define BBDJOLMMCOL_CNKLGPEIBGI_OFFSET UNITYSDK_OFFSET(0x16D0A100)
+#define BBDJOLMMCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D09F00)
+#define BBDJOLMMCOL_EPGNFOIJHAK_OFFSET UNITYSDK_OFFSET(0x16D0A2C0)
+#define BBDJOLMMCOL_EPJPICKMJLF_OFFSET UNITYSDK_OFFSET(0x16D0A530)
+#define BBDJOLMMCOL_JJHHOJFLOAK_OFFSET UNITYSDK_OFFSET(0x16D0A230)
+#define BBDJOLMMCOL_OKAAGEKIOCD_OFFSET UNITYSDK_OFFSET(0x16D0A150)
 
-inline static constexpr unsigned int BBDJOLMMCOL_TypeDefinitionIndex = 75551;
+inline static constexpr unsigned int BBDJOLMMCOL_TypeDefinitionIndex = 77878;
 
 	class BBDJOLMMCOL : public ::JCHBFEIOIHA
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* DAKADOEFDKC; // 0x30
-		::RPG::GameCore::HipplenIncidentOptionStepConfig* IGHAHBNLIJA; // 0x38
-		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*>* AMDDFDJAHCG; // 0x40
+		::RPG::GameCore::HipplenIncidentOptionStepConfig* IGHAHBNLIJA; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::ActivityHipplenIncidentOption*>* AMDDFDJAHCG; // 0x38
+		::System::Collections::Generic::List_1<::RPG::Client::ActivityHipplen::StatusViewData>* DAKADOEFDKC; // 0x40
 		::System::Boolean JABLOGLPLOP; // 0x48
 		::System::Byte _padding0[0x3];
 		::System::Int32 ANBBJKEFNJH; // 0x4C

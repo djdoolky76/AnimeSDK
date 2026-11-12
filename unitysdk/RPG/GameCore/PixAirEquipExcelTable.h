@@ -10,49 +10,49 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D91B100)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1D91A730)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1D91A600)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1D91A2F0)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1D91A5A0)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1D91A880)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D91A370)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1D91A8C0)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D91AA90)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1D91ADE0)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1D91A9F0)
-#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1D91A950)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB34350)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_GETDATA_OFFSET UNITYSDK_OFFSET(0x1EB33980)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1EB33850)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_GET_DATADICT_OFFSET UNITYSDK_OFFSET(0x1EB33540)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_ISDATAEMPTY_OFFSET UNITYSDK_OFFSET(0x1EB337F0)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_ISDATALOADED_OFFSET UNITYSDK_OFFSET(0x1EB33AD0)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EB335C0)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE_UNLOADDATA_OFFSET UNITYSDK_OFFSET(0x1EB33B10)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__ADDITEMFROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB33CE0)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__ADDITEM_OFFSET UNITYSDK_OFFSET(0x1EB34030)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__LOADDATAINCREMENTIAL_OFFSET UNITYSDK_OFFSET(0x1EB33C40)
+#define RPG_GAMECORE_PIXAIREQUIPEXCELTABLE__LOADDATA_OFFSET UNITYSDK_OFFSET(0x1EB33BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEquipExcelTable_TypeDefinitionIndex = 12156;
+	inline static constexpr unsigned int PixAirEquipExcelTable_TypeDefinitionIndex = 12213;
 
 	class PixAirEquipExcelTable : public ::System::Object
 	{
 	public:
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
+		{
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x553E0);
+		}
+
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirEquipRow*>** StaticGet_dataDict_()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirEquipRow*>**)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x48010);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PixAirEquipRow*>**)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x553E8);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_s_PathList()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x48018);
-		}
-
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet__AddItemFromBinary_ActionInst()
-		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x48020);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x553F0);
 		}
 
 		static ::System::Boolean* StaticGet_isDataLoaded()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x11110);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x10610);
 		}
 
 		static ::System::Byte* StaticGet_HashIndex()
 		{
-			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x11111);
+			return (::System::Byte*)UnitySDK::FromName("RPG.GameCore", "PixAirEquipExcelTable")->GetStaticField(0x10611);
 		}
 
 		static ::System::Void _cctor()

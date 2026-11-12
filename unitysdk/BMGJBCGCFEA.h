@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int BMGJBCGCFEA_TypeDefinitionIndex = 79383;
+inline static constexpr unsigned int BMGJBCGCFEA_TypeDefinitionIndex = 82160;
 
 	class BMGJBCGCFEA : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KDFFHMDFALG_PoseSwitchState_TypeDefinitionIndex = 60582;
+inline static constexpr unsigned int KDFFHMDFALG_PoseSwitchState_TypeDefinitionIndex = 61959;
 
 	enum class KDFFHMDFALG_PoseSwitchState : ::System::Int32
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/EntityDestroyWaitReason.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define HMCHEOBPCBH_EQUALS_OFFSET UNITYSDK_OFFSET(0x2E7EFC0)
+#define HMCHEOBPCBH_EQUALS_OFFSET UNITYSDK_OFFSET(0x30550B0)
 
-inline static constexpr unsigned int HMCHEOBPCBH_TypeDefinitionIndex = 57802;
+inline static constexpr unsigned int HMCHEOBPCBH_TypeDefinitionIndex = 59037;
 
 	struct alignas(8) HMCHEOBPCBH
 	{

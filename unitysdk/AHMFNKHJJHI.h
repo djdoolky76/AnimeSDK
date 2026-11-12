@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UpdateTreasureChallengeProgress; }
 
-#define AHMFNKHJJHI_CTOR_OFFSET UNITYSDK_OFFSET(0xEB88170)
-#define AHMFNKHJJHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEB88350)
-#define AHMFNKHJJHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB88180)
-#define AHMFNKHJJHI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB882A0)
-#define AHMFNKHJJHI_TICK_OFFSET UNITYSDK_OFFSET(0xEB882F0)
+#define AHMFNKHJJHI_CTOR_OFFSET UNITYSDK_OFFSET(0xF147DC0)
+#define AHMFNKHJJHI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xF147FA0)
+#define AHMFNKHJJHI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF147DD0)
+#define AHMFNKHJJHI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xF147EF0)
+#define AHMFNKHJJHI_TICK_OFFSET UNITYSDK_OFFSET(0xF147F40)
 
-inline static constexpr unsigned int AHMFNKHJJHI_TypeDefinitionIndex = 58844;
+inline static constexpr unsigned int AHMFNKHJJHI_TypeDefinitionIndex = 60112;
 
 	class AHMFNKHJJHI : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::UpdateTreasureChallengeProgress* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::UpdateTreasureChallengeProgress* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::UpdateTreasureChallengeProgress* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::UpdateTreasureChallengeProgress*))((::PBYTE)hIl2Cpp + AHMFNKHJJHI_CTOR_OFFSET))(this, a1, a2);

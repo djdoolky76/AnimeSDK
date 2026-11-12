@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KCPGCBEIIAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB345E90)
-#define KCPGCBEIIAO_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB345EC0)
+#define KCPGCBEIIAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBCFA50)
+#define KCPGCBEIIAO_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xBBCFA80)
 
-inline static constexpr unsigned int KCPGCBEIIAO_TypeDefinitionIndex = 62445;
+inline static constexpr unsigned int KCPGCBEIIAO_TypeDefinitionIndex = 63858;
 
 	class KCPGCBEIIAO : public ::System::Object
 	{

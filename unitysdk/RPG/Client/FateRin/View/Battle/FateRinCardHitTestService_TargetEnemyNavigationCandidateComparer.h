@@ -4,20 +4,20 @@
 #include "unitysdk/AFMGKIIDMJL.h"
 namespace RPG::Client::FateRin::View::Battle { class FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer; }
 
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0xCFC6690)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xCFC65B0)
-#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xCFC6680)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9490D0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0xD948FF0)
+#define RPG_CLIENT_FATERIN_VIEW_BATTLE_FATERINCARDHITTESTSERVICE_TARGETENEMYNAVIGATIONCANDIDATECOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0xD9490C0)
 
 namespace RPG::Client::FateRin::View::Battle
 {
-	inline static constexpr unsigned int FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer_TypeDefinitionIndex = 80677;
+	inline static constexpr unsigned int FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer_TypeDefinitionIndex = 83457;
 
 	class FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer : public ::System::Object
 	{
 	public:
 		static ::RPG::Client::FateRin::View::Battle::FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer** StaticGet_Instance()
 		{
-			return (::RPG::Client::FateRin::View::Battle::FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer**)UnitySDK::FromName("RPG.Client.FateRin.View.Battle", "TargetEnemyNavigationCandidateComparer")->GetStaticField(0x586F0);
+			return (::RPG::Client::FateRin::View::Battle::FateRinCardHitTestService_TargetEnemyNavigationCandidateComparer**)UnitySDK::FromName("RPG.Client.FateRin.View.Battle", "TargetEnemyNavigationCandidateComparer")->GetStaticField(0x65610);
 		}
 
 		::System::Void _ctor()

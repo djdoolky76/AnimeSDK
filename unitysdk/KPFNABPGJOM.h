@@ -3,10 +3,10 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define KPFNABPGJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B70D0)
-#define KPFNABPGJOM_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB5B70E0)
+#define KPFNABPGJOM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE0B010)
+#define KPFNABPGJOM_GET_TARGETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xBE0B020)
 
-inline static constexpr unsigned int KPFNABPGJOM_TypeDefinitionIndex = 56244;
+inline static constexpr unsigned int KPFNABPGJOM_TypeDefinitionIndex = 57458;
 
 	class KPFNABPGJOM : public ::System::Attribute
 	{

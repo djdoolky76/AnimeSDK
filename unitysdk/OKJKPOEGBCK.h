@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OKJKPOEGBCK_TypeDefinitionIndex = 32265;
+inline static constexpr unsigned int OKJKPOEGBCK_TypeDefinitionIndex = 33178;
 
 	enum class OKJKPOEGBCK : ::System::Int32
 	{

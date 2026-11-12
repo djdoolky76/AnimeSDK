@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AIVariableValueSource; }
 namespace RPG::GameCore { class LittleGameStateTreeConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7E6C30)
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7E6C40)
-#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7E6C00)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA29A30)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA29A40)
+#define RPG_GAMECORE_LITTLEGAMESTATETREECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA29A00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameStateTreeConfig_TypeDefinitionIndex = 18848;
+	inline static constexpr unsigned int LittleGameStateTreeConfig_TypeDefinitionIndex = 19010;
 
 	class LittleGameStateTreeConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{

@@ -5,18 +5,18 @@ namespace EnviromentSystem { class EnviromentClip_OnEnvironmentClipLoadDelegate;
 namespace RPG::Client { class EnvironmentSystemV1; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE055A0)
-#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xCE10470)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD7CD4A0)
+#define RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0___REFRESHACTIVEPROFILEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xD7D83B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass18_0_TypeDefinitionIndex = 69786;
+	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass18_0_TypeDefinitionIndex = 71745;
 
 	class EnvironmentSystemV1___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:
-		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x10
-		::RPG::Client::EnvironmentSystemV1* __4__this; // 0x18
+		::RPG::Client::EnvironmentSystemV1* __4__this; // 0x10
+		::EnviromentSystem::EnviromentClip_OnEnvironmentClipLoadDelegate* onLoadFinish; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ENVIRONMENTSYSTEMV1___C__DISPLAYCLASS18_0_CTOR_OFFSET))(this);

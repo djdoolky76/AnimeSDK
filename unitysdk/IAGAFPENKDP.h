@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class DirectDeliveryNoticeToastConfig; }
 
-#define IAGAFPENKDP_BPHHFLNIGID_OFFSET UNITYSDK_OFFSET(0x15E0D120)
+#define IAGAFPENKDP_BPHHFLNIGID_OFFSET UNITYSDK_OFFSET(0x16DB6EE0)
 
-inline static constexpr unsigned int IAGAFPENKDP_TypeDefinitionIndex = 63580;
+inline static constexpr unsigned int IAGAFPENKDP_TypeDefinitionIndex = 65022;
 
 	class IAGAFPENKDP : public ::System::Object
 	{

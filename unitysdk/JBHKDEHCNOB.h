@@ -3,10 +3,10 @@
 class EGAIKBNEPOG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBHKDEHCNOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1656FBE0)
-#define JBHKDEHCNOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1656FC10)
+#define JBHKDEHCNOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A8BB0)
+#define JBHKDEHCNOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8A8BE0)
 
-inline static constexpr unsigned int JBHKDEHCNOB_TypeDefinitionIndex = 54820;
+inline static constexpr unsigned int JBHKDEHCNOB_TypeDefinitionIndex = 55989;
 
 	class JBHKDEHCNOB
 	{

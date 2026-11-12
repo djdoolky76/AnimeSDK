@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ITriggerEventEmitterContext_1_TypeDefinitionIndex = 42746;
+	inline static constexpr unsigned int ITriggerEventEmitterContext_1_TypeDefinitionIndex = 43725;
 
 	template <typename T>
 	class ITriggerEventEmitterContext_1

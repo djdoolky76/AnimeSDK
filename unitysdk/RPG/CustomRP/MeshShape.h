@@ -3,7 +3,7 @@
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int MeshShape_TypeDefinitionIndex = 37935;
+	inline static constexpr unsigned int MeshShape_TypeDefinitionIndex = 38864;
 
 	enum class MeshShape : ::System::Int32
 	{

@@ -15,11 +15,11 @@ namespace UnityEngine { class Camera; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Texture2D; }
 
-#define RPG_CLIENT_DIALOGRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xCBFC4C0)
+#define RPG_CLIENT_DIALOGRENDERER_CTOR_OFFSET UNITYSDK_OFFSET(0xD573F40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DialogRenderer_TypeDefinitionIndex = 70281;
+	inline static constexpr unsigned int DialogRenderer_TypeDefinitionIndex = 72247;
 
 	class DialogRenderer
 	{

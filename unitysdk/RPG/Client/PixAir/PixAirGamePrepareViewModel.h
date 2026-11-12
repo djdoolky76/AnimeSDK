@@ -9,25 +9,25 @@ namespace RPG::Client::PixAir { class PixAirGameProgressViewModel; }
 namespace RPG::Client::PixAir { class PixAirPrepareContentViewModel; }
 namespace Sofa::Core { class SimpleCommand; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xDB4CDE0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL_GET_BTNSHOWEQUIPASSEMBLE_OFFSET UNITYSDK_OFFSET(0xDB4D0B0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL_SET_BTNSHOWEQUIPASSEMBLE_OFFSET UNITYSDK_OFFSET(0xDB4D0C0)
-#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xDB4D0D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xE5A4FF0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL_GET_BTNSHOWEQUIPASSEMBLE_OFFSET UNITYSDK_OFFSET(0xE5A52C0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL_SET_BTNSHOWEQUIPASSEMBLE_OFFSET UNITYSDK_OFFSET(0xE5A52D0)
+#define RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xE5A52E0)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirGamePrepareViewModel_TypeDefinitionIndex = 79256;
+	inline static constexpr unsigned int PixAirGamePrepareViewModel_TypeDefinitionIndex = 82033;
 
 	class PixAirGamePrepareViewModel : public ::Sofa::BaseViewModel
 	{
 	public:
-		::RPG::Client::PixAir::PixAirGameProgressViewModel* ProgressViewModel; // 0x20
-		::RPG::Client::PixAir::PixAirBattleEquipsViewModel* BattleEquipsViewModel; // 0x28
-		::Sofa::Core::SimpleCommand* _BtnShowEquipAssemble_k__BackingField; // 0x30
-		::RPG::Client::PixAir::PixAirPrepareContentViewModel* ContentViewModel; // 0x38
-		::KIICEFFNEGG* _WindowService; // 0x40
-		::LPOOJCMOLDC* _EquipService; // 0x48
-		::JIAPCHALLMF* _GameFlowService; // 0x50
+		::Sofa::Core::SimpleCommand* _BtnShowEquipAssemble_k__BackingField; // 0x20
+		::KIICEFFNEGG* _WindowService; // 0x28
+		::RPG::Client::PixAir::PixAirGameProgressViewModel* ProgressViewModel; // 0x30
+		::RPG::Client::PixAir::PixAirBattleEquipsViewModel* BattleEquipsViewModel; // 0x38
+		::LPOOJCMOLDC* _EquipService; // 0x40
+		::JIAPCHALLMF* _GameFlowService; // 0x48
+		::RPG::Client::PixAir::PixAirPrepareContentViewModel* ContentViewModel; // 0x50
 		::System::Void _ctor(::KIICEFFNEGG* a1, ::JIAPCHALLMF* a2, ::LPOOJCMOLDC* a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::KIICEFFNEGG*, ::JIAPCHALLMF*, ::LPOOJCMOLDC*))((::PBYTE)hIl2Cpp + RPG_CLIENT_PIXAIR_PIXAIRGAMEPREPAREVIEWMODEL_CTOR_OFFSET))(this, a1, a2, a3);

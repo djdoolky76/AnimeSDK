@@ -16,51 +16,51 @@ namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class SmoothMask; }
 namespace UnityEngine::UI { class Text; }
 
-#define LLIOIOHMNEP_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB7732B0)
-#define LLIOIOHMNEP_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xB7734F0)
-#define LLIOIOHMNEP_CPPEDLEIALN_OFFSET UNITYSDK_OFFSET(0xB772680)
-#define LLIOIOHMNEP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7736F0)
-#define LLIOIOHMNEP_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0xB771C20)
-#define LLIOIOHMNEP_EIEGENKODBN_OFFSET UNITYSDK_OFFSET(0xB772DC0)
-#define LLIOIOHMNEP_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB772090)
-#define LLIOIOHMNEP_EMIHBGIHCMD_OFFSET UNITYSDK_OFFSET(0xB7731C0)
-#define LLIOIOHMNEP_HMKFHMKIOPK_OFFSET UNITYSDK_OFFSET(0xB772E40)
-#define LLIOIOHMNEP_IAHKKGHGJFN_OFFSET UNITYSDK_OFFSET(0xB772EC0)
-#define LLIOIOHMNEP_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB771F20)
-#define LLIOIOHMNEP_OMHAOIEPNCB_OFFSET UNITYSDK_OFFSET(0xB773040)
-#define LLIOIOHMNEP__ONBIND_OFFSET UNITYSDK_OFFSET(0xB7712B0)
+#define LLIOIOHMNEP_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xC013460)
+#define LLIOIOHMNEP_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xC0136A0)
+#define LLIOIOHMNEP_CPPEDLEIALN_OFFSET UNITYSDK_OFFSET(0xC012820)
+#define LLIOIOHMNEP_CTOR_OFFSET UNITYSDK_OFFSET(0xC0138A0)
+#define LLIOIOHMNEP_ECOHEIAHIAO_OFFSET UNITYSDK_OFFSET(0xC011DC0)
+#define LLIOIOHMNEP_EIEGENKODBN_OFFSET UNITYSDK_OFFSET(0xC012F70)
+#define LLIOIOHMNEP_EMIHBGIHCMD_OFFSET UNITYSDK_OFFSET(0xC013370)
+#define LLIOIOHMNEP_HMKFHMKIOPK_OFFSET UNITYSDK_OFFSET(0xC012FF0)
+#define LLIOIOHMNEP_IAHKKGHGJFN_OFFSET UNITYSDK_OFFSET(0xC013070)
+#define LLIOIOHMNEP_OMHAOIEPNCB_OFFSET UNITYSDK_OFFSET(0xC0131F0)
+#define LLIOIOHMNEP__INITVARONCE_OFFSET UNITYSDK_OFFSET(0xC0120B0)
+#define LLIOIOHMNEP__ONBIND_OFFSET UNITYSDK_OFFSET(0xC010A10)
+#define LLIOIOHMNEP__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xC012220)
 
-inline static constexpr unsigned int LLIOIOHMNEP_TypeDefinitionIndex = 72104;
+inline static constexpr unsigned int LLIOIOHMNEP_TypeDefinitionIndex = 74139;
 
 	class LLIOIOHMNEP : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Text* KHEKAEPGEFJ; // 0x60
-		::UnityEngine::Animator* KMDJLABGAIL; // 0x68
+		::UnityEngine::UI::Button* KHPBNLJHDNN; // 0x60
+		::RPG::Client::ActivityFeverTimePileToast* LNNOLHNKOJJ; // 0x68
 		::UnityEngine::Animation* LJDAFFMNCBH; // 0x70
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Transform*>* FBJDADLJKBK; // 0x78
-		::UnityEngine::UI::Text* CDDKKEHPBAO; // 0x80
-		::UnityEngine::UI::Button* PEBNIHKBICH; // 0x88
-		::UnityEngine::UI::Button* NNKMCKBIKEI; // 0x90
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::RPG::Client::ProgressBar*>* FGPACFGPMIF; // 0x98
-		::UnityEngine::UI::Text* ACPBNFHIHID; // 0xA0
-		::System::String* IECFNAFDEGN; // 0xA8
-		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0xB0
-		::UnityEngine::Transform* OCFPCNALDKP; // 0xB8
-		::UnityEngine::Transform* KCBNCGDICGN; // 0xC0
-		::UnityEngine::UI::Button* LMBPJMHGLBE; // 0xC8
-		::UnityEngine::UI::Button* KHPBNLJHDNN; // 0xD0
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Animation*>* HCJAHGMOGPH; // 0xD8
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::UI::SmoothMask*>* JPNMJNMNJEB; // 0xE0
-		::UnityEngine::Transform* MCNEMMCFEIK; // 0xE8
-		::RPG::Client::ActivityFeverTimePileToast* LNNOLHNKOJJ; // 0xF0
-		::System::String* PABPGCLAAMF; // 0xF8
-		::System::Int32 MBIKNBEBMCH; // 0x100
-		::System::UInt32 JGBABANKIKL; // 0x104
-		::System::Boolean IDBEBIDMHME; // 0x108
+		::System::String* PABPGCLAAMF; // 0x78
+		::UnityEngine::UI::Text* KHEKAEPGEFJ; // 0x80
+		::UnityEngine::Transform* MCNEMMCFEIK; // 0x88
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Transform*>* FBJDADLJKBK; // 0x90
+		::System::String* IECFNAFDEGN; // 0x98
+		::UnityEngine::UI::Button* NNKMCKBIKEI; // 0xA0
+		::UnityEngine::UI::Text* ACPBNFHIHID; // 0xA8
+		::UnityEngine::Transform* OCFPCNALDKP; // 0xB0
+		::UnityEngine::UI::Button* LMBPJMHGLBE; // 0xB8
+		::UnityEngine::UI::Button* PEBNIHKBICH; // 0xC0
+		::UnityEngine::UI::Text* CDDKKEHPBAO; // 0xC8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::Animation*>* HCJAHGMOGPH; // 0xD0
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::RPG::Client::ProgressBar*>* FGPACFGPMIF; // 0xD8
+		::UnityEngine::Transform* KCBNCGDICGN; // 0xE0
+		::RPG::GameCore::LevelUIComponent* GEAHNEAGEBG; // 0xE8
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::FeverTimePeriodType, ::UnityEngine::UI::SmoothMask*>* JPNMJNMNJEB; // 0xF0
+		::UnityEngine::Animator* KMDJLABGAIL; // 0xF8
+		::System::Boolean IDBEBIDMHME; // 0x100
 		::System::Byte _padding0[0x3];
-		::System::UInt32 LKGLNFBMHOG; // 0x10C
-		::RPG::GameCore::FeverTimePeriodType DAEKEPDOFOG; // 0x110
+		::RPG::GameCore::FeverTimePeriodType DAEKEPDOFOG; // 0x104
+		::System::UInt32 LKGLNFBMHOG; // 0x108
+		::System::UInt32 JGBABANKIKL; // 0x10C
+		::System::Int32 MBIKNBEBMCH; // 0x110
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLIOIOHMNEP_CTOR_OFFSET))(this);
@@ -76,14 +76,14 @@ inline static constexpr unsigned int LLIOIOHMNEP_TypeDefinitionIndex = 72104;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLIOIOHMNEP_ECOHEIAHIAO_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLIOIOHMNEP_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLIOIOHMNEP__INITVARONCE_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLIOIOHMNEP_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLIOIOHMNEP__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void EIEGENKODBN(::System::Object* a1)

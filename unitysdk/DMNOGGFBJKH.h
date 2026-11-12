@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Exception.h"
 
-#define DMNOGGFBJKH_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC7EF0)
+#define DMNOGGFBJKH_CTOR_OFFSET UNITYSDK_OFFSET(0x10640BE0)
 
-inline static constexpr unsigned int DMNOGGFBJKH_TypeDefinitionIndex = 61271;
+inline static constexpr unsigned int DMNOGGFBJKH_TypeDefinitionIndex = 62656;
 
 	class DMNOGGFBJKH : public ::System::Exception
 	{

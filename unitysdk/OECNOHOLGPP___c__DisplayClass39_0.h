@@ -4,10 +4,10 @@
 #include "unitysdk/OECNOHOLGPP_IFNIHBGFAOH.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-#define OECNOHOLGPP___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5781B0)
-#define OECNOHOLGPP___C__DISPLAYCLASS39_0__LIFTMANY_B__1_OFFSET UNITYSDK_OFFSET(0x1C578280)
+#define OECNOHOLGPP___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6F9B20)
+#define OECNOHOLGPP___C__DISPLAYCLASS39_0__LIFTMANY_B__1_OFFSET UNITYSDK_OFFSET(0x1D6F9BF0)
 
-inline static constexpr unsigned int OECNOHOLGPP___c__DisplayClass39_0_TypeDefinitionIndex = 41799;
+inline static constexpr unsigned int OECNOHOLGPP___c__DisplayClass39_0_TypeDefinitionIndex = 42774;
 
 	class OECNOHOLGPP___c__DisplayClass39_0 : public ::System::Object
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KDNCOBMFFEB_TypeDefinitionIndex = 25675;
+inline static constexpr unsigned int KDNCOBMFFEB_TypeDefinitionIndex = 26172;
 
 	enum class KDNCOBMFFEB : ::System::Int32
 	{

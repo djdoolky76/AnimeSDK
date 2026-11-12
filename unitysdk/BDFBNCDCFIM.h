@@ -7,10 +7,10 @@ class IHOAIJMMOEF;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace RPG::Client { class UpgradeAvatarProxy; }
 
-#define BDFBNCDCFIM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x162F6950)
-#define BDFBNCDCFIM_CTOR_OFFSET UNITYSDK_OFFSET(0x162F68C0)
+#define BDFBNCDCFIM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x170BDE10)
+#define BDFBNCDCFIM_CTOR_OFFSET UNITYSDK_OFFSET(0x170BDD80)
 
-inline static constexpr unsigned int BDFBNCDCFIM_TypeDefinitionIndex = 62864;
+inline static constexpr unsigned int BDFBNCDCFIM_TypeDefinitionIndex = 64302;
 
 	class BDFBNCDCFIM : public ::System::Object
 	{

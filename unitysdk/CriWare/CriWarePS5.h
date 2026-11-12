@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CRIWARE_CRIWAREPS5_CTOR_OFFSET UNITYSDK_OFFSET(0x16737C20)
-#define CRIWARE_CRIWAREPS5_SETUPFILESYSTEM_OFFSET UNITYSDK_OFFSET(0x16737C10)
+#define CRIWARE_CRIWAREPS5_CTOR_OFFSET UNITYSDK_OFFSET(0x1757BEC0)
+#define CRIWARE_CRIWAREPS5_SETUPFILESYSTEM_OFFSET UNITYSDK_OFFSET(0x1757BEB0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriWarePS5_TypeDefinitionIndex = 39924;
+	inline static constexpr unsigned int CriWarePS5_TypeDefinitionIndex = 40899;
 
 	class CriWarePS5 : public ::System::Object
 	{

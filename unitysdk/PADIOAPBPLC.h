@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ChimeraDuelComparerBase; }
 
-#define PADIOAPBPLC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC6330)
-#define PADIOAPBPLC_GET__ISASCEND_OFFSET UNITYSDK_OFFSET(0xBFC6310)
-#define PADIOAPBPLC_SET__ISASCEND_OFFSET UNITYSDK_OFFSET(0xBFC6320)
+#define PADIOAPBPLC_CTOR_OFFSET UNITYSDK_OFFSET(0xC8C7BB0)
+#define PADIOAPBPLC_GET__ISASCEND_OFFSET UNITYSDK_OFFSET(0xC8C7B90)
+#define PADIOAPBPLC_SET__ISASCEND_OFFSET UNITYSDK_OFFSET(0xC8C7BA0)
 
-inline static constexpr unsigned int PADIOAPBPLC_TypeDefinitionIndex = 77440;
+inline static constexpr unsigned int PADIOAPBPLC_TypeDefinitionIndex = 80175;
 
 	class PADIOAPBPLC : public ::System::Object
 	{

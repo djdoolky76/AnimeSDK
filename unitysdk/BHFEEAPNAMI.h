@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAttachEffectTimeSlow; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BHFEEAPNAMI_CTOR_OFFSET UNITYSDK_OFFSET(0xB475AC0)
-#define BHFEEAPNAMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB475AF0)
+#define BHFEEAPNAMI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB2E020)
+#define BHFEEAPNAMI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB2E050)
 
-inline static constexpr unsigned int BHFEEAPNAMI_TypeDefinitionIndex = 55346;
+inline static constexpr unsigned int BHFEEAPNAMI_TypeDefinitionIndex = 56529;
 
 	class BHFEEAPNAMI
 	{

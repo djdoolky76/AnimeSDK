@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Configuration/ConfigurationElementCollection.h"
 
-#define SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0217E0)
+#define SYSTEM_NET_CONFIGURATION_BYPASSELEMENTCOLLECTION_CTOR_OFFSET UNITYSDK_OFFSET(0x202D0FF0)
 
 namespace System::Net::Configuration
 {

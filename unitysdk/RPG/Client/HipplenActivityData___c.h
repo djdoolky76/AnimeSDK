@@ -5,25 +5,25 @@ namespace RPG::GameCore { class DynamicValue; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_HIPPLENACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3302D0)
-#define RPG_CLIENT_HIPPLENACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD330310)
-#define RPG_CLIENT_HIPPLENACTIVITYDATA___C___HASRESIDENTREWARDSTOTAKE_B__5_0_OFFSET UNITYSDK_OFFSET(0xD330320)
+#define RPG_CLIENT_HIPPLENACTIVITYDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD64880)
+#define RPG_CLIENT_HIPPLENACTIVITYDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDD648C0)
+#define RPG_CLIENT_HIPPLENACTIVITYDATA___C___HASRESIDENTREWARDSTOTAKE_B__5_0_OFFSET UNITYSDK_OFFSET(0xDD648D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HipplenActivityData___c_TypeDefinitionIndex = 61531;
+	inline static constexpr unsigned int HipplenActivityData___c_TypeDefinitionIndex = 62916;
 
 	class HipplenActivityData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14A50);
+			return (::System::Func_2<::RPG::GameCore::DynamicValue*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1ECF0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x14A58);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1ECF8);
 		}
 
 		static ::System::Void _cctor()

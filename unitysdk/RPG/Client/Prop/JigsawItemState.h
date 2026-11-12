@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawItemState_TypeDefinitionIndex = 78656;
+	inline static constexpr unsigned int JigsawItemState_TypeDefinitionIndex = 81391;
 
 	enum class JigsawItemState : ::System::Int32
 	{

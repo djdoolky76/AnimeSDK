@@ -3,15 +3,15 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define AMNKHHBDPMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E420)
+#define AMNKHHBDPMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA1FA70)
 
-inline static constexpr unsigned int AMNKHHBDPMJ_TypeDefinitionIndex = 42149;
+inline static constexpr unsigned int AMNKHHBDPMJ_TypeDefinitionIndex = 43124;
 
 	class AMNKHHBDPMJ : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10
-		::UnityEngine::Vector3 NMELCPIOKNO; // 0x1C
+		::UnityEngine::Vector3 NMELCPIOKNO; // 0x10
+		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMNKHHBDPMJ_CTOR_OFFSET))(this);

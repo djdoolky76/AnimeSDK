@@ -4,14 +4,14 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TickLodDetail; }
 
-#define RPG_GAMECORE_TICKLODDETAIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DB84D10)
-#define RPG_GAMECORE_TICKLODDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB848C0)
-#define RPG_GAMECORE_TICKLODDETAIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB848E0)
-#define RPG_GAMECORE_TICKLODDETAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB84850)
+#define RPG_GAMECORE_TICKLODDETAIL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE343F0)
+#define RPG_GAMECORE_TICKLODDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE33FA0)
+#define RPG_GAMECORE_TICKLODDETAIL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE33FC0)
+#define RPG_GAMECORE_TICKLODDETAIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE33F30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TickLodDetail_TypeDefinitionIndex = 19218;
+	inline static constexpr unsigned int TickLodDetail_TypeDefinitionIndex = 19408;
 
 	class TickLodDetail : public ::RPG::GameCore::LodDetail
 	{
@@ -24,7 +24,7 @@ namespace RPG::GameCore
 		::System::Int32 AnimatorInvisibleTickLod; // 0x44
 		static ::RPG::GameCore::TickLodDetail** StaticGet_ForbidTickDetail()
 		{
-			return (::RPG::GameCore::TickLodDetail**)UnitySDK::FromName("RPG.GameCore", "TickLodDetail")->GetStaticField(0x2CE60);
+			return (::RPG::GameCore::TickLodDetail**)UnitySDK::FromName("RPG.GameCore", "TickLodDetail")->GetStaticField(0x279E0);
 		}
 
 		// static const ::System::Object LOD0_TICK_INTERVAL; // 0x0

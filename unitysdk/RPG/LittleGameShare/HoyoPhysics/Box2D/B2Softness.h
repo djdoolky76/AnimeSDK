@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SOFTNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x14D60)
+#define RPG_LITTLEGAMESHARE_HOYOPHYSICS_BOX2D_B2SOFTNESS_CTOR_OFFSET UNITYSDK_OFFSET(0x19910)
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2Softness_TypeDefinitionIndex = 36775;
+	inline static constexpr unsigned int B2Softness_TypeDefinitionIndex = 37703;
 
 	struct alignas(4) B2Softness
 	{

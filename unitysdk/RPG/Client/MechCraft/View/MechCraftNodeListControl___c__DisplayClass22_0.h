@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTNODELISTCONTROL___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD64A030)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTNODELISTCONTROL___C__DISPLAYCLASS22_0___BINDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xD64A0A0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTNODELISTCONTROL___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE0D8F30)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTNODELISTCONTROL___C__DISPLAYCLASS22_0___BINDITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xE0D8FB0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftNodeListControl___c__DisplayClass22_0_TypeDefinitionIndex = 79823;
+	inline static constexpr unsigned int MechCraftNodeListControl___c__DisplayClass22_0_TypeDefinitionIndex = 82600;
 
 	class MechCraftNodeListControl___c__DisplayClass22_0 : public ::System::Object
 	{

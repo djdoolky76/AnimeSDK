@@ -4,10 +4,10 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define PLLPNJOEDHF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC30B730)
-#define PLLPNJOEDHF___C__DISPLAYCLASS3_0__ADDHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xC30B860)
+#define PLLPNJOEDHF___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC3A7E0)
+#define PLLPNJOEDHF___C__DISPLAYCLASS3_0__ADDHANDLER_B__0_OFFSET UNITYSDK_OFFSET(0xCC3A910)
 
-inline static constexpr unsigned int PLLPNJOEDHF___c__DisplayClass3_0_TypeDefinitionIndex = 64338;
+inline static constexpr unsigned int PLLPNJOEDHF___c__DisplayClass3_0_TypeDefinitionIndex = 65785;
 
 	class PLLPNJOEDHF___c__DisplayClass3_0 : public ::System::Object
 	{

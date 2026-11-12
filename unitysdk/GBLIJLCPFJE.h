@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByIsLocateAtArea; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GBLIJLCPFJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15952360)
-#define GBLIJLCPFJE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15952390)
+#define GBLIJLCPFJE_CTOR_OFFSET UNITYSDK_OFFSET(0x16887A40)
+#define GBLIJLCPFJE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16887A70)
 
-inline static constexpr unsigned int GBLIJLCPFJE_TypeDefinitionIndex = 54467;
+inline static constexpr unsigned int GBLIJLCPFJE_TypeDefinitionIndex = 55631;
 
 	class GBLIJLCPFJE
 	{

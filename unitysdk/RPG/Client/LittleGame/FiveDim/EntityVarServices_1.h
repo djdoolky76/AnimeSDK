@@ -4,7 +4,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int EntityVarServices_1_TypeDefinitionIndex = 76875;
+	inline static constexpr unsigned int EntityVarServices_1_TypeDefinitionIndex = 79209;
 
 	template <typename T>
 	class EntityVarServices_1 : public ::System::Object

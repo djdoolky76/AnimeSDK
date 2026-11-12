@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ActiveActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BOEIKFCGKLI_CTOR_OFFSET UNITYSDK_OFFSET(0xC18F840)
-#define BOEIKFCGKLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC18F870)
+#define BOEIKFCGKLI_CTOR_OFFSET UNITYSDK_OFFSET(0xC76F8B0)
+#define BOEIKFCGKLI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC76F8E0)
 
-inline static constexpr unsigned int BOEIKFCGKLI_TypeDefinitionIndex = 54800;
+inline static constexpr unsigned int BOEIKFCGKLI_TypeDefinitionIndex = 55969;
 
 	class BOEIKFCGKLI
 	{

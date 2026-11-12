@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BJNMNEGFJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BECB0)
+#define BJNMNEGFJKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D740540)
 
-inline static constexpr unsigned int BJNMNEGFJKA_TypeDefinitionIndex = 37170;
+inline static constexpr unsigned int BJNMNEGFJKA_TypeDefinitionIndex = 38098;
 
 	class BJNMNEGFJKA : public ::System::Object
 	{

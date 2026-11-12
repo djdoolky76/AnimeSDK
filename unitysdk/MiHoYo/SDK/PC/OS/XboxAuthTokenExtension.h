@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_XBOXAUTHTOKENEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42860)
+#define MIHOYO_SDK_PC_OS_XBOXAUTHTOKENEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C9480)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxAuthTokenExtension_TypeDefinitionIndex = 8661;
+	inline static constexpr unsigned int XboxAuthTokenExtension_TypeDefinitionIndex = 8670;
 
 	class XboxAuthTokenExtension : public ::System::Object
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle::HoverBrainStates
 {
-	inline static constexpr unsigned int FateRinHoverPointerEventKind_TypeDefinitionIndex = 80998;
+	inline static constexpr unsigned int FateRinHoverPointerEventKind_TypeDefinitionIndex = 83778;
 
 	enum class FateRinHoverPointerEventKind : ::System::Int32
 	{

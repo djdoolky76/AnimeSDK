@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddTargetStancePreshowConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PBFJNDGLPAK_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEC290)
-#define PBFJNDGLPAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFEC2C0)
+#define PBFJNDGLPAK_CTOR_OFFSET UNITYSDK_OFFSET(0xC8EFE90)
+#define PBFJNDGLPAK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8EFEC0)
 
-inline static constexpr unsigned int PBFJNDGLPAK_TypeDefinitionIndex = 54823;
+inline static constexpr unsigned int PBFJNDGLPAK_TypeDefinitionIndex = 55992;
 
 	class PBFJNDGLPAK
 	{

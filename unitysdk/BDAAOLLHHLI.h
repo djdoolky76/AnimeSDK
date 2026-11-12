@@ -7,30 +7,30 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define BDAAOLLHHLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x162EB5F0)
-#define BDAAOLLHHLI_GPKIEBPEKDG_OFFSET UNITYSDK_OFFSET(0x162EAAA0)
-#define BDAAOLLHHLI_IJBLECNCCFA_OFFSET UNITYSDK_OFFSET(0x162EAB80)
-#define BDAAOLLHHLI_OCJGPCNJDGG_OFFSET UNITYSDK_OFFSET(0x162EB400)
-#define BDAAOLLHHLI_PFNCKNAICGC_OFFSET UNITYSDK_OFFSET(0x162EB480)
+#define BDAAOLLHHLI_CCTOR_OFFSET UNITYSDK_OFFSET(0x170B26F0)
+#define BDAAOLLHHLI_GPKIEBPEKDG_OFFSET UNITYSDK_OFFSET(0x170B1BA0)
+#define BDAAOLLHHLI_IJBLECNCCFA_OFFSET UNITYSDK_OFFSET(0x170B1C80)
+#define BDAAOLLHHLI_OCJGPCNJDGG_OFFSET UNITYSDK_OFFSET(0x170B2500)
+#define BDAAOLLHHLI_PFNCKNAICGC_OFFSET UNITYSDK_OFFSET(0x170B2580)
 
-inline static constexpr unsigned int BDAAOLLHHLI_TypeDefinitionIndex = 60085;
+inline static constexpr unsigned int BDAAOLLHHLI_TypeDefinitionIndex = 61369;
 
 	class BDAAOLLHHLI : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>** StaticGet_IMDHKOKGNJF()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)UnitySDK::FromName("", "BDAAOLLHHLI")->GetStaticField(0x66150);
-		}
-
-		static ::UnityEngine::SceneManagement::Scene* StaticGet_PDNJFABBNPL()
-		{
-			return (::UnityEngine::SceneManagement::Scene*)UnitySDK::FromName("", "BDAAOLLHHLI")->GetStaticField(0x14E20);
+			return (::System::Collections::Generic::List_1<::UnityEngine::GameObject*>**)UnitySDK::FromName("", "BDAAOLLHHLI")->GetStaticField(0x5F7C0);
 		}
 
 		static ::System::Boolean* StaticGet_HKBBJJEDNJL()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BDAAOLLHHLI")->GetStaticField(0x14E24);
+			return (::System::Boolean*)UnitySDK::FromName("", "BDAAOLLHHLI")->GetStaticField(0x142E0);
+		}
+
+		static ::UnityEngine::SceneManagement::Scene* StaticGet_PDNJFABBNPL()
+		{
+			return (::UnityEngine::SceneManagement::Scene*)UnitySDK::FromName("", "BDAAOLLHHLI")->GetStaticField(0x142E4);
 		}
 
 		// static const ::System::Object HFNCJEJJPJO; // 0x0

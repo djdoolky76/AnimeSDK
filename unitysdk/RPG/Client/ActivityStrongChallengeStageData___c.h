@@ -6,37 +6,37 @@ namespace RPG::Client { class ActivityStrongChallengeBossDetailData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5AAA80)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5AAAB0)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C__GETTRIALAVATARS_B__36_0_OFFSET UNITYSDK_OFFSET(0xC5AAB10)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C__GET_ISCHALLENGED_B__54_0_OFFSET UNITYSDK_OFFSET(0xC5AAB20)
-#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xC5AAAC0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF00490)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCF004C0)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C__GETTRIALAVATARS_B__36_0_OFFSET UNITYSDK_OFFSET(0xCF00520)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C__GET_ISCHALLENGED_B__54_0_OFFSET UNITYSDK_OFFSET(0xCF00530)
+#define RPG_CLIENT_ACTIVITYSTRONGCHALLENGESTAGEDATA___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0xCF004D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityStrongChallengeStageData___c_TypeDefinitionIndex = 61917;
+	inline static constexpr unsigned int ActivityStrongChallengeStageData___c_TypeDefinitionIndex = 63329;
 
 	class ActivityStrongChallengeStageData___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3D6B0);
-		}
-
-		static ::System::Func_2<::System::UInt32, ::RPG::Client::ActivityStrongChallengeBossDetailData*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityStrongChallengeBossDetailData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3D6B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34600);
 		}
 
 		static ::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>** StaticGet___9__54_0()
 		{
-			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3D6C0);
+			return (::System::Func_2<::RPG::AvatarSystem::IAvatar*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34608);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::RPG::Client::ActivityStrongChallengeBossDetailData*>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::System::UInt32, ::RPG::Client::ActivityStrongChallengeBossDetailData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34610);
 		}
 
 		static ::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>** StaticGet___9__36_0()
 		{
-			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x3D6C8);
+			return (::System::Func_2<::System::UInt32, ::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x34618);
 		}
 
 		static ::System::Void _cctor()

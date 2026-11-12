@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SpeedLineEffect; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SPEEDLINEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB01330)
-#define RPG_GAMECORE_SPEEDLINEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB013B0)
-#define RPG_GAMECORE_SPEEDLINEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB01290)
+#define RPG_GAMECORE_SPEEDLINEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED13270)
+#define RPG_GAMECORE_SPEEDLINEEFFECT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED132F0)
+#define RPG_GAMECORE_SPEEDLINEEFFECT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED131D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpeedLineEffect_TypeDefinitionIndex = 20262;
+	inline static constexpr unsigned int SpeedLineEffect_TypeDefinitionIndex = 20597;
 
 	class SpeedLineEffect : public ::RPG::GameCore::TaskConfig
 	{

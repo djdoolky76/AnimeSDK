@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class SwitchPhotographDragMode; }
 
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHDRAGMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB45190)
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHDRAGMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB451A0)
-#define RPG_GAMECORE_SWITCHPHOTOGRAPHDRAGMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB45160)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHDRAGMODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDF4780)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHDRAGMODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EDF4790)
+#define RPG_GAMECORE_SWITCHPHOTOGRAPHDRAGMODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EDF4750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwitchPhotographDragMode_TypeDefinitionIndex = 21636;
+	inline static constexpr unsigned int SwitchPhotographDragMode_TypeDefinitionIndex = 22024;
 
 	class SwitchPhotographDragMode : public ::RPG::GameCore::TaskConfig
 	{

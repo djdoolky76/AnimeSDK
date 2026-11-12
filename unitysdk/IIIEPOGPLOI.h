@@ -5,10 +5,10 @@ namespace RPG::GameCore { class RtTargetMapSkillAbortSource; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IIIEPOGPLOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1643DC40)
-#define IIIEPOGPLOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1643DC60)
+#define IIIEPOGPLOI_CTOR_OFFSET UNITYSDK_OFFSET(0x173F68C0)
+#define IIIEPOGPLOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x173F68E0)
 
-inline static constexpr unsigned int IIIEPOGPLOI_TypeDefinitionIndex = 53806;
+inline static constexpr unsigned int IIIEPOGPLOI_TypeDefinitionIndex = 54970;
 
 	class IIIEPOGPLOI
 	{

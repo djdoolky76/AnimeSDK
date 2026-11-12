@@ -5,29 +5,29 @@ class MOJAIJPCMMF;
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MOJAIJPCMMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA32760)
-#define MOJAIJPCMMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA327A0)
-#define MOJAIJPCMMF___C__GET__FIXEDUPDATEACTION_B__29_0_OFFSET UNITYSDK_OFFSET(0xBA327B0)
-#define MOJAIJPCMMF___C__GET__LATEFIXEDUPDATEACTION_B__31_0_OFFSET UNITYSDK_OFFSET(0xBA327D0)
+#define MOJAIJPCMMF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC2F10A0)
+#define MOJAIJPCMMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC2F10E0)
+#define MOJAIJPCMMF___C__GET__FIXEDUPDATEACTION_B__29_0_OFFSET UNITYSDK_OFFSET(0xC2F10F0)
+#define MOJAIJPCMMF___C__GET__LATEFIXEDUPDATEACTION_B__31_0_OFFSET UNITYSDK_OFFSET(0xC2F1110)
 
-inline static constexpr unsigned int MOJAIJPCMMF___c_TypeDefinitionIndex = 76932;
+inline static constexpr unsigned int MOJAIJPCMMF___c_TypeDefinitionIndex = 79266;
 
 	class MOJAIJPCMMF___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::MOJAIJPCMMF*>** StaticGet___9__31_0()
-		{
-			return (::System::Action_1<::MOJAIJPCMMF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15570);
-		}
-
 		static ::System::Action_1<::MOJAIJPCMMF*>** StaticGet___9__29_0()
 		{
-			return (::System::Action_1<::MOJAIJPCMMF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15578);
+			return (::System::Action_1<::MOJAIJPCMMF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10440);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15580);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10448);
+		}
+
+		static ::System::Action_1<::MOJAIJPCMMF*>** StaticGet___9__31_0()
+		{
+			return (::System::Action_1<::MOJAIJPCMMF*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x10450);
 		}
 
 		static ::System::Void _cctor()

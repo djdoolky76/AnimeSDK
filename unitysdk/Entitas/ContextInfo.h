@@ -4,17 +4,17 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define ENTITAS_CONTEXTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x16759150)
+#define ENTITAS_CONTEXTINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1759D390)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ContextInfo_TypeDefinitionIndex = 10001;
+	inline static constexpr unsigned int ContextInfo_TypeDefinitionIndex = 10009;
 
 	class ContextInfo : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::RuntimeTypeHandle>* componentTypes; // 0x10
-		::Il2CppArray<::System::String*>* componentNames; // 0x18
+		::Il2CppArray<::System::String*>* componentNames; // 0x10
+		::Il2CppArray<::System::RuntimeTypeHandle>* componentTypes; // 0x18
 		::System::String* name; // 0x20
 		::System::Void _ctor(::System::String* a1, ::Il2CppArray<::System::String*>* a2, ::Il2CppArray<::System::RuntimeTypeHandle>* a3)
 		{

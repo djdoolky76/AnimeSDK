@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DeployMapPoseSwitcher; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MHOKENOFIPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB949A70)
-#define MHOKENOFIPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB949AA0)
+#define MHOKENOFIPD_CTOR_OFFSET UNITYSDK_OFFSET(0xC1FE410)
+#define MHOKENOFIPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1FE440)
 
-inline static constexpr unsigned int MHOKENOFIPD_TypeDefinitionIndex = 52989;
+inline static constexpr unsigned int MHOKENOFIPD_TypeDefinitionIndex = 54148;
 
 	class MHOKENOFIPD
 	{

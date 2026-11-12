@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ISmartObjectContext_1_TypeDefinitionIndex = 42728;
+	inline static constexpr unsigned int ISmartObjectContext_1_TypeDefinitionIndex = 43707;
 
 	template <typename T>
 	class ISmartObjectContext_1

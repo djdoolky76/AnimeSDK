@@ -5,10 +5,10 @@ class FMHEHLIFNGJ;
 class MBJOEPEGLII;
 namespace RPG::Client::Promises { class IPromise; }
 
-#define CJGNCPIDGNH___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD20DE20)
-#define CJGNCPIDGNH___C__DISPLAYCLASS9_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xD211D60)
+#define CJGNCPIDGNH___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB83A10)
+#define CJGNCPIDGNH___C__DISPLAYCLASS9_0__STARTMATCH_B__0_OFFSET UNITYSDK_OFFSET(0xDB87910)
 
-inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass9_0_TypeDefinitionIndex = 80275;
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass9_0_TypeDefinitionIndex = 83052;
 
 	class CJGNCPIDGNH___c__DisplayClass9_0 : public ::System::Object
 	{

@@ -5,23 +5,23 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FFAEAODMCPM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C475830)
-#define FFAEAODMCPM_FIBHKCHBENJ_OFFSET UNITYSDK_OFFSET(0x1C475C40)
-#define FFAEAODMCPM_JCIHMJGKNGG_OFFSET UNITYSDK_OFFSET(0x1C475E60)
+#define FFAEAODMCPM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D5F9780)
+#define FFAEAODMCPM_FIBHKCHBENJ_OFFSET UNITYSDK_OFFSET(0x1D5F9BB0)
+#define FFAEAODMCPM_JCIHMJGKNGG_OFFSET UNITYSDK_OFFSET(0x1D5F9DD0)
 
-inline static constexpr unsigned int FFAEAODMCPM_TypeDefinitionIndex = 41573;
+inline static constexpr unsigned int FFAEAODMCPM_TypeDefinitionIndex = 42548;
 
 	class FFAEAODMCPM : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>** StaticGet_KHLENHHIBDO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)UnitySDK::FromName("", "FFAEAODMCPM")->GetStaticField(0x12090);
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Int32>**)UnitySDK::FromName("", "FFAEAODMCPM")->GetStaticField(0x70E70);
 		}
 
 		static ::System::Collections::Generic::List_1<::System::Type*>** StaticGet_MLHMJBOPHCC()
 		{
-			return (::System::Collections::Generic::List_1<::System::Type*>**)UnitySDK::FromName("", "FFAEAODMCPM")->GetStaticField(0x12098);
+			return (::System::Collections::Generic::List_1<::System::Type*>**)UnitySDK::FromName("", "FFAEAODMCPM")->GetStaticField(0x70E78);
 		}
 
 		static ::System::Void _cctor()

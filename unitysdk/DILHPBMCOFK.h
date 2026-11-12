@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DILHPBMCOFK_TypeDefinitionIndex = 25726;
+inline static constexpr unsigned int DILHPBMCOFK_TypeDefinitionIndex = 26223;
 
 	enum class DILHPBMCOFK : ::System::Int32
 	{

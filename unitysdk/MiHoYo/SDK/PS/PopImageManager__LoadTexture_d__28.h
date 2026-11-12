@@ -7,25 +7,25 @@ namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 namespace UnityEngine::Events { template <typename T> class UnityAction_1; }
 
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF77A60)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1BF78500)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BF786B0)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1BF78710)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1BF786C0)
-#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1BF784F0)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0FE5B0)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1D0FF070)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D0FF210)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1D0FF270)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1D0FF220)
+#define MIHOYO_SDK_PS_POPIMAGEMANAGER__LOADTEXTURE_D__28_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1D0FF060)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PopImageManager__LoadTexture_d__28_TypeDefinitionIndex = 8921;
+	inline static constexpr unsigned int PopImageManager__LoadTexture_d__28_TypeDefinitionIndex = 8930;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28>
 	class PopImageManager__LoadTexture_d__28 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PS::PopImageManager* __4__this; // 0x10
-		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x18
-		::System::String* url; // 0x20
-		::System::Object* __2__current; // 0x28
+		::System::Object* __2__current; // 0x10
+		::System::String* url; // 0x18
+		::MiHoYo::SDK::PS::PopImageManager* __4__this; // 0x20
+		::UnityEngine::Events::UnityAction_1<::UnityEngine::Texture2D*>* callback; // 0x28
 		::System::Int32 __1__state; // 0x30
 		::System::Void _ctor(::System::Int32 a1)
 		{

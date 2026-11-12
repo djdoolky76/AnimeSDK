@@ -3,7 +3,7 @@
 #include "unitysdk/UnityChan/SpringManager_BoneTag.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-inline static constexpr unsigned int GDDPPPNAHKA_TypeDefinitionIndex = 47685;
+inline static constexpr unsigned int GDDPPPNAHKA_TypeDefinitionIndex = 48715;
 
 	struct alignas(4) GDDPPPNAHKA
 	{

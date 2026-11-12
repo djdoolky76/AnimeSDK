@@ -4,11 +4,11 @@ namespace RPG::GameCore { class ColliderTriggerComponent; }
 namespace RPG::GameCore { class ST_Side_EnableInteractionTrigger; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KJCJAGJBJMN_CTOR_OFFSET UNITYSDK_OFFSET(0xB440760)
-#define KJCJAGJBJMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB440820)
-#define KJCJAGJBJMN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB4408D0)
+#define KJCJAGJBJMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD74E0)
+#define KJCJAGJBJMN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCD75A0)
+#define KJCJAGJBJMN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCD7650)
 
-inline static constexpr unsigned int KJCJAGJBJMN_TypeDefinitionIndex = 52233;
+inline static constexpr unsigned int KJCJAGJBJMN_TypeDefinitionIndex = 53339;
 
 	class KJCJAGJBJMN
 	{

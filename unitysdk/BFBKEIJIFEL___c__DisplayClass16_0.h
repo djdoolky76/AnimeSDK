@@ -4,10 +4,10 @@
 namespace RPG::Client { class RelicRecommendData; }
 namespace RPG::Client::Promises { class Promise; }
 
-#define BFBKEIJIFEL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB15F440)
-#define BFBKEIJIFEL___C__DISPLAYCLASS16_0__REQUESTRELICRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB15F770)
+#define BFBKEIJIFEL___C__DISPLAYCLASS16_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E8C60)
+#define BFBKEIJIFEL___C__DISPLAYCLASS16_0__REQUESTRELICRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xB7E8F90)
 
-inline static constexpr unsigned int BFBKEIJIFEL___c__DisplayClass16_0_TypeDefinitionIndex = 66711;
+inline static constexpr unsigned int BFBKEIJIFEL___c__DisplayClass16_0_TypeDefinitionIndex = 68647;
 
 	class BFBKEIJIFEL___c__DisplayClass16_0 : public ::System::Object
 	{

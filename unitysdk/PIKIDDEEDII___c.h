@@ -4,18 +4,18 @@
 class PIKIDDEEDII;
 namespace System { class Object; }
 
-#define PIKIDDEEDII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF6B8E0)
-#define PIKIDDEEDII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF6B920)
-#define PIKIDDEEDII___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF6B930)
+#define PIKIDDEEDII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F21CF40)
+#define PIKIDDEEDII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F21CF80)
+#define PIKIDDEEDII___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F21CF90)
 
-inline static constexpr unsigned int PIKIDDEEDII___c_TypeDefinitionIndex = 28320;
+inline static constexpr unsigned int PIKIDDEEDII___c_TypeDefinitionIndex = 28910;
 
 	class PIKIDDEEDII___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x444B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38B20);
 		}
 
 		static ::System::Void _cctor()

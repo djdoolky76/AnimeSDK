@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DeformSourceMode_TypeDefinitionIndex = 70855;
+	inline static constexpr unsigned int DeformSourceMode_TypeDefinitionIndex = 72834;
 
 	enum class DeformSourceMode : ::System::Int32
 	{

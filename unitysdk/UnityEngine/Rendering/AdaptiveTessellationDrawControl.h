@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int AdaptiveTessellationDrawControl_TypeDefinitionIndex = 4864;
+	inline static constexpr unsigned int AdaptiveTessellationDrawControl_TypeDefinitionIndex = 4869;
 
 	enum class AdaptiveTessellationDrawControl : ::System::Int32
 	{

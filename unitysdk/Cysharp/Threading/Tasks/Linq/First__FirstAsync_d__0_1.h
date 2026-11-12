@@ -9,7 +9,7 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int First__FirstAsync_d__0_1_TypeDefinitionIndex = 45361;
+	inline static constexpr unsigned int First__FirstAsync_d__0_1_TypeDefinitionIndex = 46390;
 
 	template <typename T>
 	struct alignas(8) First__FirstAsync_d__0_1

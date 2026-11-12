@@ -7,12 +7,12 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GMOELMHCNEE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15ADAB20)
-#define GMOELMHCNEE_CTOR_OFFSET UNITYSDK_OFFSET(0x15AD9100)
-#define GMOELMHCNEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AD91B0)
-#define GMOELMHCNEE__ONTASKBEGIN_G___ADDWEAK_1_0_OFFSET UNITYSDK_OFFSET(0x15ADA8D0)
+#define GMOELMHCNEE_CCTOR_OFFSET UNITYSDK_OFFSET(0x16A5D510)
+#define GMOELMHCNEE_CTOR_OFFSET UNITYSDK_OFFSET(0x16A5BAF0)
+#define GMOELMHCNEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A5BBA0)
+#define GMOELMHCNEE__ONTASKBEGIN_G___ADDWEAK_1_0_OFFSET UNITYSDK_OFFSET(0x16A5D2C0)
 
-inline static constexpr unsigned int GMOELMHCNEE_TypeDefinitionIndex = 54824;
+inline static constexpr unsigned int GMOELMHCNEE_TypeDefinitionIndex = 55993;
 
 	class GMOELMHCNEE
 	{
@@ -20,7 +20,7 @@ inline static constexpr unsigned int GMOELMHCNEE_TypeDefinitionIndex = 54824;
 		::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>* DOIMPKLDJFO; // 0x28
 		static ::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>** StaticGet_BKJPPNCGPOD()
 		{
-			return (::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>**)UnitySDK::FromName("", "GMOELMHCNEE")->GetStaticField(0x660D0);
+			return (::System::Collections::Generic::List_1<::RPG::GameCore::AttackDamageType>**)UnitySDK::FromName("", "GMOELMHCNEE")->GetStaticField(0x6D200);
 		}
 
 		// static const ::System::String* AHKFNMKDDAD; // 0x0

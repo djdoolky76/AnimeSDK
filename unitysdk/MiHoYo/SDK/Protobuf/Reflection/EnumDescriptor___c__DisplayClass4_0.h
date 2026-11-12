@@ -6,18 +6,18 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class EnumValueDescriptor; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class EnumValueDescriptorProto; }
 namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBF74B0)
-#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1BBF7550)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD80360)
+#define MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x1CD80400)
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int EnumDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 35827;
+	inline static constexpr unsigned int EnumDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 36755;
 
 	class EnumDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x10
-		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* __4__this; // 0x18
+		::MiHoYo::SDK::Protobuf::Reflection::EnumDescriptor* __4__this; // 0x10
+		::MiHoYo::SDK::Protobuf::Reflection::FileDescriptor* file; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PROTOBUF_REFLECTION_ENUMDESCRIPTOR___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

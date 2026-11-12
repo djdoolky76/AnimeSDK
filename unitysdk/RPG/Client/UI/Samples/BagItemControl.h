@@ -5,12 +5,12 @@ class HIKAAGHELPH;
 namespace RPG::Client { class LocalizedText; }
 namespace UnityEngine::UI { class Image; }
 
-#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE40D930)
-#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE40D280)
+#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xEEC8E30)
+#define RPG_CLIENT_UI_SAMPLES_BAGITEMCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xEEC8780)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int BagItemControl_TypeDefinitionIndex = 73426;
+	inline static constexpr unsigned int BagItemControl_TypeDefinitionIndex = 75549;
 
 	class BagItemControl
 	{

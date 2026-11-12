@@ -1,28 +1,27 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+#include "unitysdk/AHDJACCHDCE.h"
 #include "unitysdk/System/Object.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Nullable_1.h"
 class CLMEOCEIFBI;
-class KFELGAIGHAP;
 namespace RPG::GameCore { class DynamicValueRangeCallback; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EKJEHDDDBII_CTOR_OFFSET UNITYSDK_OFFSET(0x1550A230)
-#define EKJEHDDDBII_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x15508F20)
-#define EKJEHDDDBII_FEBKLLMDHCJ_OFFSET UNITYSDK_OFFSET(0x15509590)
-#define EKJEHDDDBII_OJPAPNHNCAB_OFFSET UNITYSDK_OFFSET(0x15509270)
+#define EKJEHDDDBII_CTOR_OFFSET UNITYSDK_OFFSET(0x164528A0)
+#define EKJEHDDDBII_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x16451810)
+#define EKJEHDDDBII_FEBKLLMDHCJ_OFFSET UNITYSDK_OFFSET(0x16451C80)
+#define EKJEHDDDBII_OJPAPNHNCAB_OFFSET UNITYSDK_OFFSET(0x16451B80)
 
-inline static constexpr unsigned int EKJEHDDDBII_TypeDefinitionIndex = 53754;
+inline static constexpr unsigned int EKJEHDDDBII_TypeDefinitionIndex = 54918;
 
 	class EKJEHDDDBII : public ::System::Object
 	{
 	public:
-		::KFELGAIGHAP* LEAHACBFJBP; // 0x10
-		::Il2CppArray<::CLMEOCEIFBI*>* BJJHBLIPILN; // 0x18
-		::System::Byte PLPOFKKEENK; // 0x20
+		::Il2CppArray<::CLMEOCEIFBI*>* BJJHBLIPILN; // 0x10
+		::AHDJACCHDCE LEAHACBFJBP; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EKJEHDDDBII_CTOR_OFFSET))(this);

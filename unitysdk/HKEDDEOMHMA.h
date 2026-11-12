@@ -4,10 +4,10 @@
 class INHCJHBALFC;
 namespace System { class String; }
 
-#define HKEDDEOMHMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15D40CB0)
-#define HKEDDEOMHMA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15D40AC0)
+#define HKEDDEOMHMA_CTOR_OFFSET UNITYSDK_OFFSET(0x16C92EC0)
+#define HKEDDEOMHMA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16C92CD0)
 
-inline static constexpr unsigned int HKEDDEOMHMA_TypeDefinitionIndex = 54263;
+inline static constexpr unsigned int HKEDDEOMHMA_TypeDefinitionIndex = 55427;
 
 	class HKEDDEOMHMA : public ::BHDAFDOMINP
 	{

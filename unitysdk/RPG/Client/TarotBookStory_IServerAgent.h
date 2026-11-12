@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TarotBookStory_IServerAgent_TypeDefinitionIndex = 68075;
+	inline static constexpr unsigned int TarotBookStory_IServerAgent_TypeDefinitionIndex = 70021;
 
 	class TarotBookStory_IServerAgent
 	{

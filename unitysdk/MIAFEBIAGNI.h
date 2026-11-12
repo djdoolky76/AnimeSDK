@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockAnimatorSpeed; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MIAFEBIAGNI_CTOR_OFFSET UNITYSDK_OFFSET(0xB94BA00)
-#define MIAFEBIAGNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB94BA30)
+#define MIAFEBIAGNI_CTOR_OFFSET UNITYSDK_OFFSET(0xC2003B0)
+#define MIAFEBIAGNI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2003E0)
 
-inline static constexpr unsigned int MIAFEBIAGNI_TypeDefinitionIndex = 55146;
+inline static constexpr unsigned int MIAFEBIAGNI_TypeDefinitionIndex = 56327;
 
 	class MIAFEBIAGNI
 	{

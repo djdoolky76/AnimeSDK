@@ -4,10 +4,10 @@
 namespace System { class String; }
 namespace System::IO { class FileInfo; }
 
-#define GNDDDDKENPN___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC141A0)
-#define GNDDDDKENPN___C__DISPLAYCLASS44_0__DELETEFILES_B__0_OFFSET UNITYSDK_OFFSET(0x1EC1B7F0)
+#define GNDDDDKENPN___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1FEC4C30)
+#define GNDDDDKENPN___C__DISPLAYCLASS44_0__DELETEFILES_B__0_OFFSET UNITYSDK_OFFSET(0x1FECC290)
 
-inline static constexpr unsigned int GNDDDDKENPN___c__DisplayClass44_0_TypeDefinitionIndex = 35308;
+inline static constexpr unsigned int GNDDDDKENPN___c__DisplayClass44_0_TypeDefinitionIndex = 36236;
 
 	class GNDDDDKENPN___c__DisplayClass44_0 : public ::System::Object
 	{

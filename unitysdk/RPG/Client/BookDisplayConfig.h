@@ -4,11 +4,11 @@
 #include "unitysdk/TMPro/TextAlignmentOptions.h"
 #include "unitysdk/UnityEngine/TextAnchor.h"
 
-#define RPG_CLIENT_BOOKDISPLAYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC8AE560)
+#define RPG_CLIENT_BOOKDISPLAYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD2139A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookDisplayConfig_TypeDefinitionIndex = 66376;
+	inline static constexpr unsigned int BookDisplayConfig_TypeDefinitionIndex = 68312;
 
 	class BookDisplayConfig : public ::System::Object
 	{

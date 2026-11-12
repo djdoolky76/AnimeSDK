@@ -11,77 +11,77 @@ namespace System { template <typename T> class Comparison_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; }
 
-#define COPKPNCABFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCCD9B0)
-#define COPKPNCABFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCD9F0)
-#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_0_OFFSET UNITYSDK_OFFSET(0xDCCDAD0)
-#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_1_OFFSET UNITYSDK_OFFSET(0xDCCDA00)
-#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_2_OFFSET UNITYSDK_OFFSET(0xDCCDA60)
-#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_3_OFFSET UNITYSDK_OFFSET(0xDCCDAA0)
-#define COPKPNCABFO___C__GENERATECARDINFOTEXTURE_B__64_0_OFFSET UNITYSDK_OFFSET(0xDCCDBB0)
-#define COPKPNCABFO___C__GENERATECARDINFOTEXTURE_B__64_1_OFFSET UNITYSDK_OFFSET(0xDCCDBD0)
-#define COPKPNCABFO___C__GENERATECARDINFOTEXTURE_B__64_2_OFFSET UNITYSDK_OFFSET(0xDCCDCF0)
-#define COPKPNCABFO___C__PACKCARDSTOATLAS_AUTO_B__47_0_OFFSET UNITYSDK_OFFSET(0xDCCDB70)
-#define COPKPNCABFO___C__PACKCARDSTOATLAS_MANUAL_B__46_0_OFFSET UNITYSDK_OFFSET(0xDCCDAF0)
-#define COPKPNCABFO___C__PACKCARDSTOATLAS_MANUAL_B__46_1_OFFSET UNITYSDK_OFFSET(0xDCCDB30)
+#define COPKPNCABFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE61A430)
+#define COPKPNCABFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE61A470)
+#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_0_OFFSET UNITYSDK_OFFSET(0xE61A550)
+#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_1_OFFSET UNITYSDK_OFFSET(0xE61A480)
+#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_2_OFFSET UNITYSDK_OFFSET(0xE61A4E0)
+#define COPKPNCABFO___C__COLLECTTOPCLUSTERS_B__43_3_OFFSET UNITYSDK_OFFSET(0xE61A520)
+#define COPKPNCABFO___C__GENERATECARDINFOTEXTURE_B__64_0_OFFSET UNITYSDK_OFFSET(0xE61A630)
+#define COPKPNCABFO___C__GENERATECARDINFOTEXTURE_B__64_1_OFFSET UNITYSDK_OFFSET(0xE61A650)
+#define COPKPNCABFO___C__GENERATECARDINFOTEXTURE_B__64_2_OFFSET UNITYSDK_OFFSET(0xE61A770)
+#define COPKPNCABFO___C__PACKCARDSTOATLAS_AUTO_B__47_0_OFFSET UNITYSDK_OFFSET(0xE61A5F0)
+#define COPKPNCABFO___C__PACKCARDSTOATLAS_MANUAL_B__46_0_OFFSET UNITYSDK_OFFSET(0xE61A570)
+#define COPKPNCABFO___C__PACKCARDSTOATLAS_MANUAL_B__46_1_OFFSET UNITYSDK_OFFSET(0xE61A5B0)
 
-inline static constexpr unsigned int COPKPNCABFO___c_TypeDefinitionIndex = 51761;
+inline static constexpr unsigned int COPKPNCABFO___c_TypeDefinitionIndex = 52847;
 
 	class COPKPNCABFO___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*>** StaticGet___9__64_2()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573C0);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__64_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573C8);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Single>** StaticGet___9__43_3()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573D0);
-		}
-
-		static ::System::Comparison_1<::System::Object*>** StaticGet___9__46_0()
-		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573D8);
-		}
-
-		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__64_1()
-		{
-			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573E0);
-		}
-
-		static ::System::Comparison_1<::System::Object*>** StaticGet___9__46_1()
-		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573E8);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB50);
 		}
 
 		static ::System::Comparison_1<::System::Object*>** StaticGet___9__47_0()
 		{
-			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x573F8);
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB58);
 		}
 
-		static ::System::Func_2<::System::Object*, ::System::Single>** StaticGet___9__43_0()
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*>** StaticGet___9__64_2()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57400);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__43_2()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57408);
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Collections::Generic::List_1<::System::Object*>*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB60);
 		}
 
 		static ::System::Func_3<::System::Object*, ::System::Int32, ::System::Object*>** StaticGet___9__43_1()
 		{
-			return (::System::Func_3<::System::Object*, ::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57410);
+			return (::System::Func_3<::System::Object*, ::System::Int32, ::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB68);
+		}
+
+		static ::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>** StaticGet___9__64_1()
+		{
+			return (::System::Func_2<::System::Linq::IGrouping_2<::System::Int32, ::System::Object*>*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB70);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Single>** StaticGet___9__43_3()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB78);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Int32>** StaticGet___9__64_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Int32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB80);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Single>** StaticGet___9__43_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB88);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__43_2()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB90);
+		}
+
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__46_1()
+		{
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CB98);
+		}
+
+		static ::System::Comparison_1<::System::Object*>** StaticGet___9__46_0()
+		{
+			return (::System::Comparison_1<::System::Object*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3CBA0);
 		}
 
 		static ::System::Void _cctor()

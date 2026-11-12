@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NGIKMAMAPPF_TypeDefinitionIndex = 80780;
+inline static constexpr unsigned int NGIKMAMAPPF_TypeDefinitionIndex = 83560;
 
 	class NGIKMAMAPPF
 	{

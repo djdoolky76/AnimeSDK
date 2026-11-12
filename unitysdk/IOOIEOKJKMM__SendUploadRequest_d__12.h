@@ -7,23 +7,23 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_CTOR_OFFSET UNITYSDK_OFFSET(0x16519620)
-#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1651B3B0)
-#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1651BBA0)
-#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x1651BC00)
-#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1651BBB0)
-#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1651B3A0)
+#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_CTOR_OFFSET UNITYSDK_OFFSET(0xB84DD20)
+#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xB84FA40)
+#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB850220)
+#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB850280)
+#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB850230)
+#define IOOIEOKJKMM__SENDUPLOADREQUEST_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB84FA30)
 
-inline static constexpr unsigned int IOOIEOKJKMM__SendUploadRequest_d__12_TypeDefinitionIndex = 60982;
+inline static constexpr unsigned int IOOIEOKJKMM__SendUploadRequest_d__12_TypeDefinitionIndex = 62358;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	class IOOIEOKJKMM__SendUploadRequest_d__12 : public ::System::Object
 	{
 	public:
-		::System::Object* __2__current; // 0x10
-		::IOOIEOKJKMM* __4__this; // 0x18
-		::System::Collections::Generic::List_1<::RPG::Client::GameReplayModel*>* reportingList; // 0x20
-		::System::Action* finishCallback; // 0x28
+		::IOOIEOKJKMM* __4__this; // 0x10
+		::System::Action* finishCallback; // 0x18
+		::System::Object* __2__current; // 0x20
+		::System::Collections::Generic::List_1<::RPG::Client::GameReplayModel*>* reportingList; // 0x28
 		::System::Int32 __1__state; // 0x30
 		::System::Void _ctor(::System::Int32 a1)
 		{

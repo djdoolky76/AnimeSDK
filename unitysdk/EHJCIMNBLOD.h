@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EHJCIMNBLOD_CTOR_OFFSET UNITYSDK_OFFSET(0x154AD000)
+#define EHJCIMNBLOD_CTOR_OFFSET UNITYSDK_OFFSET(0x163ABBD0)
 
-inline static constexpr unsigned int EHJCIMNBLOD_TypeDefinitionIndex = 57592;
+inline static constexpr unsigned int EHJCIMNBLOD_TypeDefinitionIndex = 58820;
 
 	class EHJCIMNBLOD : public ::System::Object
 	{

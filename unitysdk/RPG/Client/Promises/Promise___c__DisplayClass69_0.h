@@ -7,22 +7,22 @@ namespace System { class Action; }
 namespace System { class Exception; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBE2B90)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0__RACE_B__0_OFFSET UNITYSDK_OFFSET(0x1CBE4180)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0__RACE_B__2_OFFSET UNITYSDK_OFFSET(0x1CBE4430)
-#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0__RACE_B__3_OFFSET UNITYSDK_OFFSET(0x1CBE4460)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD89BD0)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0__RACE_B__0_OFFSET UNITYSDK_OFFSET(0x1DD8B190)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0__RACE_B__2_OFFSET UNITYSDK_OFFSET(0x1DD8B440)
+#define RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0__RACE_B__3_OFFSET UNITYSDK_OFFSET(0x1DD8B470)
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int Promise___c__DisplayClass69_0_TypeDefinitionIndex = 9928;
+	inline static constexpr unsigned int Promise___c__DisplayClass69_0_TypeDefinitionIndex = 9936;
 
 	class Promise___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:
 		::System::Action* __9__3; // 0x10
 		::System::Action_1<::System::Exception*>* __9__2; // 0x18
-		::Il2CppArray<::System::Single>* progress; // 0x20
-		::RPG::Client::Promises::Promise* resultPromise; // 0x28
+		::RPG::Client::Promises::Promise* resultPromise; // 0x20
+		::Il2CppArray<::System::Single>* progress; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROMISES_PROMISE___C__DISPLAYCLASS69_0_CTOR_OFFSET))(this);

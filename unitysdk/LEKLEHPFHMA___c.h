@@ -4,18 +4,18 @@
 class LEKLEHPFHMA;
 namespace System { class Object; }
 
-#define LEKLEHPFHMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9361F0)
-#define LEKLEHPFHMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E936230)
-#define LEKLEHPFHMA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E936240)
+#define LEKLEHPFHMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC54B60)
+#define LEKLEHPFHMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC54BA0)
+#define LEKLEHPFHMA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC54BB0)
 
-inline static constexpr unsigned int LEKLEHPFHMA___c_TypeDefinitionIndex = 32753;
+inline static constexpr unsigned int LEKLEHPFHMA___c_TypeDefinitionIndex = 33668;
 
 	class LEKLEHPFHMA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x397C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2EE20);
 		}
 
 		static ::System::Void _cctor()

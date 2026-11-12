@@ -4,18 +4,18 @@
 class GBAKEFGOLCB;
 namespace System { class Object; }
 
-#define GBAKEFGOLCB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4274D0)
-#define GBAKEFGOLCB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E427510)
-#define GBAKEFGOLCB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E427520)
+#define GBAKEFGOLCB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F715160)
+#define GBAKEFGOLCB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7151A0)
+#define GBAKEFGOLCB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F7151B0)
 
-inline static constexpr unsigned int GBAKEFGOLCB___c_TypeDefinitionIndex = 25790;
+inline static constexpr unsigned int GBAKEFGOLCB___c_TypeDefinitionIndex = 26287;
 
 	class GBAKEFGOLCB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCAA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x55230);
 		}
 
 		static ::System::Void _cctor()

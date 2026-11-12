@@ -5,17 +5,17 @@ class FCOEMCEDLNL;
 class NOLOGOCDLLO;
 namespace System { class String; }
 
-#define NOLOGOCDLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D241610)
-#define NOLOGOCDLLO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D241620)
-#define NOLOGOCDLLO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2415D0)
+#define NOLOGOCDLLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E446FD0)
+#define NOLOGOCDLLO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E446FE0)
+#define NOLOGOCDLLO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E446F90)
 
-inline static constexpr unsigned int NOLOGOCDLLO_TypeDefinitionIndex = 22382;
+inline static constexpr unsigned int NOLOGOCDLLO_TypeDefinitionIndex = 22791;
 
 	class NOLOGOCDLLO : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::System::String* GJKFNFEBDKJ; // 0x18
-		::System::String* HIJAJMAFHKA; // 0x20
+		::System::String* HIJAJMAFHKA; // 0x18
+		::System::String* GJKFNFEBDKJ; // 0x20
 		::System::Single AHGHKEIDBLN; // 0x28
 		::System::Void _ctor()
 		{

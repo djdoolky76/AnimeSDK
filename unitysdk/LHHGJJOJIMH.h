@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareInfiniteWaveSummonProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHHGJJOJIMH_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B3040)
-#define LHHGJJOJIMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB6B3070)
+#define LHHGJJOJIMH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF4AEA0)
+#define LHHGJJOJIMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF4AED0)
 
-inline static constexpr unsigned int LHHGJJOJIMH_TypeDefinitionIndex = 54885;
+inline static constexpr unsigned int LHHGJJOJIMH_TypeDefinitionIndex = 56056;
 
 	class LHHGJJOJIMH
 	{

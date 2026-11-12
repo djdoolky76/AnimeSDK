@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdvSetupTrainCollectionSystem; }
 namespace RPG::GameCore { class PropButtonConfig; }
 namespace RPG::GameCore { class TrainCollectionMissionPerformancePair; }
 
-#define RPG_GAMECORE_ADVSETUPTRAINCOLLECTIONSYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B2330)
-#define RPG_GAMECORE_ADVSETUPTRAINCOLLECTIONSYSTEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3B2340)
-#define RPG_GAMECORE_ADVSETUPTRAINCOLLECTIONSYSTEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B2300)
+#define RPG_GAMECORE_ADVSETUPTRAINCOLLECTIONSYSTEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C1A50)
+#define RPG_GAMECORE_ADVSETUPTRAINCOLLECTIONSYSTEM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5C1A60)
+#define RPG_GAMECORE_ADVSETUPTRAINCOLLECTIONSYSTEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C1A20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetupTrainCollectionSystem_TypeDefinitionIndex = 21040;
+	inline static constexpr unsigned int AdvSetupTrainCollectionSystem_TypeDefinitionIndex = 21378;
 
 	class AdvSetupTrainCollectionSystem : public ::RPG::GameCore::TaskConfig
 	{

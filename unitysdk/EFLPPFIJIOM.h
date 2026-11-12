@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByRaidTargetProgress; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EFLPPFIJIOM_CTOR_OFFSET UNITYSDK_OFFSET(0x13A5ABB0)
-#define EFLPPFIJIOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A5AD40)
+#define EFLPPFIJIOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1481CEF0)
+#define EFLPPFIJIOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1481D080)
 
-inline static constexpr unsigned int EFLPPFIJIOM_TypeDefinitionIndex = 58539;
+inline static constexpr unsigned int EFLPPFIJIOM_TypeDefinitionIndex = 59804;
 
 	class EFLPPFIJIOM
 	{

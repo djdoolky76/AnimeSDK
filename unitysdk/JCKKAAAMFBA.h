@@ -10,19 +10,19 @@ namespace RPG::Client::FateRin::Battle { class FateRinPrepareBattleViewModel; }
 namespace RPG::Client::FateRin::HouguMap { class FateRinHouguMapFight; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define JCKKAAAMFBA_BCIGDPFHEAL_OFFSET UNITYSDK_OFFSET(0x16597510)
-#define JCKKAAAMFBA_CTOR_OFFSET UNITYSDK_OFFSET(0x165972F0)
-#define JCKKAAAMFBA_KLMNJNNIKOK_OFFSET UNITYSDK_OFFSET(0x16597420)
+#define JCKKAAAMFBA_BCIGDPFHEAL_OFFSET UNITYSDK_OFFSET(0xB8DB920)
+#define JCKKAAAMFBA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8DB700)
+#define JCKKAAAMFBA_KLMNJNNIKOK_OFFSET UNITYSDK_OFFSET(0xB8DB830)
 
-inline static constexpr unsigned int JCKKAAAMFBA_TypeDefinitionIndex = 80982;
+inline static constexpr unsigned int JCKKAAAMFBA_TypeDefinitionIndex = 83762;
 
 	class JCKKAAAMFBA : public ::System::Object
 	{
 	public:
-		::HPOCHBIJIHH* PODJBLOPDAK; // 0x10
-		::ELDKPCBCIIO* DBHBDBIFCNF; // 0x18
-		::EBEHJBOGLII* CGFKNIOKJAH; // 0x20
-		::MAMLJFHHHBN* GCNNDHCLBPI; // 0x28
+		::ELDKPCBCIIO* DBHBDBIFCNF; // 0x10
+		::EBEHJBOGLII* CGFKNIOKJAH; // 0x18
+		::MAMLJFHHHBN* GCNNDHCLBPI; // 0x20
+		::HPOCHBIJIHH* PODJBLOPDAK; // 0x28
 		::DEGELHCLDJB* JNBGEJAAMEG; // 0x30
 		::System::Void _ctor(::MAMLJFHHHBN* a1, ::EBEHJBOGLII* a2, ::HPOCHBIJIHH* a3, ::DEGELHCLDJB* a4, ::ELDKPCBCIIO* a5)
 		{

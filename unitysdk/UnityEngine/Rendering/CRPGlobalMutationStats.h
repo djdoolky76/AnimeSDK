@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPGlobalMutationStats_TypeDefinitionIndex = 4835;
+	inline static constexpr unsigned int CRPGlobalMutationStats_TypeDefinitionIndex = 4839;
 
 	struct alignas(8) CRPGlobalMutationStats
 	{

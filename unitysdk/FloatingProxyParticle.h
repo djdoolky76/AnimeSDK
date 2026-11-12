@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define FLOATINGPROXYPARTICLE_CTOR_OFFSET UNITYSDK_OFFSET(0x2E789D0)
-#define FLOATINGPROXYPARTICLE_MFDJHAAOODM_OFFSET UNITYSDK_OFFSET(0x159330D0)
-#define FLOATINGPROXYPARTICLE_OGPDIJFMIHM_OFFSET UNITYSDK_OFFSET(0x15933D10)
+#define FLOATINGPROXYPARTICLE_CTOR_OFFSET UNITYSDK_OFFSET(0x304E410)
+#define FLOATINGPROXYPARTICLE_MFDJHAAOODM_OFFSET UNITYSDK_OFFSET(0x16866BE0)
+#define FLOATINGPROXYPARTICLE_OGPDIJFMIHM_OFFSET UNITYSDK_OFFSET(0x168677D0)
 
-inline static constexpr unsigned int FloatingProxyParticle_TypeDefinitionIndex = 47491;
+inline static constexpr unsigned int FloatingProxyParticle_TypeDefinitionIndex = 48520;
 
 	struct alignas(4) FloatingProxyParticle
 	{

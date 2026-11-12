@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyAddModifierBindValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EOOJOKNMMLF_CTOR_OFFSET UNITYSDK_OFFSET(0x155CC180)
-#define EOOJOKNMMLF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155CC1B0)
+#define EOOJOKNMMLF_CTOR_OFFSET UNITYSDK_OFFSET(0x164DE680)
+#define EOOJOKNMMLF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164DE6B0)
 
-inline static constexpr unsigned int EOOJOKNMMLF_TypeDefinitionIndex = 55188;
+inline static constexpr unsigned int EOOJOKNMMLF_TypeDefinitionIndex = 56369;
 
 	class EOOJOKNMMLF
 	{

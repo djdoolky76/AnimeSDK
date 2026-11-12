@@ -6,13 +6,13 @@ namespace RPG::GameCore { class RtGridTransmitToPos; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTGRIDTRANSMITTOPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5DBC0)
-#define RPG_GAMECORE_RTGRIDTRANSMITTOPOS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA5DC00)
-#define RPG_GAMECORE_RTGRIDTRANSMITTOPOS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5DB60)
+#define RPG_GAMECORE_RTGRIDTRANSMITTOPOS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC701B0)
+#define RPG_GAMECORE_RTGRIDTRANSMITTOPOS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC701F0)
+#define RPG_GAMECORE_RTGRIDTRANSMITTOPOS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC70150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtGridTransmitToPos_TypeDefinitionIndex = 24116;
+	inline static constexpr unsigned int RtGridTransmitToPos_TypeDefinitionIndex = 24575;
 
 	class RtGridTransmitToPos : public ::RPG::GameCore::TaskConfig
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/TerrainDeformationReceiverMonoPlugin_DeformationLayerSettings.h"
 
-#define RPG_CLIENT_TERRAINDEFORMATIONRECEIVERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE20A0C0)
+#define RPG_CLIENT_TERRAINDEFORMATIONRECEIVERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xECB7180)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TerrainDeformationReceiverMonoPlugin_TypeDefinitionIndex = 71032;
+	inline static constexpr unsigned int TerrainDeformationReceiverMonoPlugin_TypeDefinitionIndex = 73011;
 
 	class TerrainDeformationReceiverMonoPlugin
 	{

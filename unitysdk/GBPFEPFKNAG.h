@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OpticalIllusionSetFinalPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GBPFEPFKNAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15959420)
-#define GBPFEPFKNAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15959790)
+#define GBPFEPFKNAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1688F4A0)
+#define GBPFEPFKNAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1688F4D0)
 
-inline static constexpr unsigned int GBPFEPFKNAG_TypeDefinitionIndex = 53043;
+inline static constexpr unsigned int GBPFEPFKNAG_TypeDefinitionIndex = 54203;
 
 	class GBPFEPFKNAG
 	{

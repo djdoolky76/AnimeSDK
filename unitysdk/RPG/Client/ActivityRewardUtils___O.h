@@ -6,29 +6,29 @@ namespace RPG::Client { class ActivityRewardUtils_QuestCheckerFunc; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityRewardUtils___O_TypeDefinitionIndex = 61748;
+	inline static constexpr unsigned int ActivityRewardUtils___O_TypeDefinitionIndex = 63154;
 
 	class ActivityRewardUtils___O : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ActivityRewardUtils_QuestCheckerFunc** StaticGet__3____IsQuestRewardTaken()
+		static ::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc** StaticGet__0____CheckMultiIDOr()
 		{
-			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x3B280);
+			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x33F70);
 		}
 
 		static ::RPG::Client::ActivityRewardUtils_QuestCheckerFunc** StaticGet__1____IsQuestShowRedDot()
 		{
-			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x3B288);
-		}
-
-		static ::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc** StaticGet__0____CheckMultiIDOr()
-		{
-			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x3B290);
+			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x33F78);
 		}
 
 		static ::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc** StaticGet__2____CheckMultiIDAnd()
 		{
-			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x3B298);
+			return (::RPG::Client::ActivityRewardUtils_MultiIDCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x33F80);
+		}
+
+		static ::RPG::Client::ActivityRewardUtils_QuestCheckerFunc** StaticGet__3____IsQuestRewardTaken()
+		{
+			return (::RPG::Client::ActivityRewardUtils_QuestCheckerFunc**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x33F88);
 		}
 
 	};

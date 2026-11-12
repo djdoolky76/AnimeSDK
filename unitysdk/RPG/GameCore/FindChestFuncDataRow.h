@@ -7,27 +7,27 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FindChestFuncDataRow; }
 
-#define RPG_GAMECORE_FINDCHESTFUNCDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A8890)
-#define RPG_GAMECORE_FINDCHESTFUNCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D6A8010)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B5090)
+#define RPG_GAMECORE_FINDCHESTFUNCDATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E8B47D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FindChestFuncDataRow_TypeDefinitionIndex = 13293;
+	inline static constexpr unsigned int FindChestFuncDataRow_TypeDefinitionIndex = 13365;
 
 	class FindChestFuncDataRow : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* WorldIDList; // 0x10
-		::Il2CppArray<::RPG::GameCore::ChestType>* ChestTypeList; // 0x18
-		::Il2CppArray<::System::UInt32>* TriggerParamList; // 0x20
-		::Il2CppArray<::RPG::GameCore::GameModeType>* GameModeList; // 0x28
-		::System::UInt32 MapIconID; // 0x30
-		::RPG::GameCore::FindChestTriggerType TriggerType; // 0x34
-		::System::UInt32 SpecialMappinginfo; // 0x38
-		::System::UInt32 FindRange; // 0x3C
-		::System::UInt32 FindNum; // 0x40
-		::System::UInt32 MappingInfoID; // 0x44
-		::System::UInt32 FuncID; // 0x48
+		::Il2CppArray<::System::UInt32>* TriggerParamList; // 0x10
+		::Il2CppArray<::RPG::GameCore::GameModeType>* GameModeList; // 0x18
+		::Il2CppArray<::System::UInt32>* WorldIDList; // 0x20
+		::Il2CppArray<::RPG::GameCore::ChestType>* ChestTypeList; // 0x28
+		::System::UInt32 FindNum; // 0x30
+		::System::UInt32 MappingInfoID; // 0x34
+		::System::UInt32 FuncID; // 0x38
+		::RPG::GameCore::FindChestTriggerType TriggerType; // 0x3C
+		::System::UInt32 SpecialMappinginfo; // 0x40
+		::System::UInt32 MapIconID; // 0x44
+		::System::UInt32 FindRange; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_FINDCHESTFUNCDATAROW_CTOR_OFFSET))(this);

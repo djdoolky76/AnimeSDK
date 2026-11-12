@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MAKCGPLBAFI_TypeDefinitionIndex = 11312;
+inline static constexpr unsigned int MAKCGPLBAFI_TypeDefinitionIndex = 11363;
 
 	enum class MAKCGPLBAFI : ::System::Int32
 	{

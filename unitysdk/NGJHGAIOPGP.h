@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WolfBroStunTargetArchive; }
 
-#define NGJHGAIOPGP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBAA010)
-#define NGJHGAIOPGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBAA020)
-#define NGJHGAIOPGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBAA070)
-#define NGJHGAIOPGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBAA430)
-#define NGJHGAIOPGP_TICK_OFFSET UNITYSDK_OFFSET(0xBBAA480)
+#define NGJHGAIOPGP_CTOR_OFFSET UNITYSDK_OFFSET(0xC4857B0)
+#define NGJHGAIOPGP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC4857C0)
+#define NGJHGAIOPGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC485810)
+#define NGJHGAIOPGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC485BD0)
+#define NGJHGAIOPGP_TICK_OFFSET UNITYSDK_OFFSET(0xC485C20)
 
-inline static constexpr unsigned int NGJHGAIOPGP_TypeDefinitionIndex = 58965;
+inline static constexpr unsigned int NGJHGAIOPGP_TypeDefinitionIndex = 60238;
 
 	class NGJHGAIOPGP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::WolfBroStunTargetArchive* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::WolfBroStunTargetArchive* OFKGLJOAMLD; // 0x20
 		::System::UInt32 LIOBGEKEABI; // 0x28
 		::System::UInt32 BCAGKLKAFCF; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WolfBroStunTargetArchive* a2)

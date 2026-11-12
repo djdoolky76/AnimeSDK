@@ -4,18 +4,18 @@
 class OEBKLEPMMKE;
 namespace System { class Object; }
 
-#define OEBKLEPMMKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE23D90)
-#define OEBKLEPMMKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE23DD0)
-#define OEBKLEPMMKE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE23DE0)
+#define OEBKLEPMMKE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F0C5420)
+#define OEBKLEPMMKE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0C5460)
+#define OEBKLEPMMKE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F0C5470)
 
-inline static constexpr unsigned int OEBKLEPMMKE___c_TypeDefinitionIndex = 29433;
+inline static constexpr unsigned int OEBKLEPMMKE___c_TypeDefinitionIndex = 30155;
 
 	class OEBKLEPMMKE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x14550);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xEDB0);
 		}
 
 		static ::System::Void _cctor()

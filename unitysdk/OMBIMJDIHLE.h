@@ -8,20 +8,20 @@ class OMBIMJDIHLE;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OMBIMJDIHLE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1C99DC10)
-#define OMBIMJDIHLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DCD0)
-#define OMBIMJDIHLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C99DCE0)
+#define OMBIMJDIHLE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1DB5FB00)
+#define OMBIMJDIHLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB5FBC0)
+#define OMBIMJDIHLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DB5FBD0)
 
-inline static constexpr unsigned int OMBIMJDIHLE_TypeDefinitionIndex = 41998;
+inline static constexpr unsigned int OMBIMJDIHLE_TypeDefinitionIndex = 42973;
 
 	class OMBIMJDIHLE : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::BCDFHNMLPFJ*>* OLJCAJMFJPO; // 0x10
-		::RPG::GameCore::FixPoint DDAGDNNDCDI; // 0x18
-		::RPG::GameCore::LittleGameAbilityAttributeType CADLBIKGCCP; // 0x20
-		::System::Boolean IJCDEINGADN; // 0x24
+		::System::Boolean IJCDEINGADN; // 0x18
 		::System::Byte _padding0[0x3];
+		::RPG::GameCore::LittleGameAbilityAttributeType CADLBIKGCCP; // 0x1C
+		::RPG::GameCore::FixPoint DDAGDNNDCDI; // 0x20
 		::RPG::GameCore::FixPoint MNDFOPKBHKP; // 0x28
 		::System::Void _ctor()
 		{

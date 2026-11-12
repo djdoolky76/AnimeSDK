@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellTrigger_TypeDefinitionIndex = 42505;
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelCellTrigger_TypeDefinitionIndex = 43480;
 
 	struct alignas(8) TimelineControlGameWorld_LevelCellTrigger
 	{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchOwnerEntity; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NKFJCCOALIN_CTOR_OFFSET UNITYSDK_OFFSET(0xBC336C0)
-#define NKFJCCOALIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC33710)
+#define NKFJCCOALIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC517300)
+#define NKFJCCOALIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC517350)
 
-inline static constexpr unsigned int NKFJCCOALIN_TypeDefinitionIndex = 59237;
+inline static constexpr unsigned int NKFJCCOALIN_TypeDefinitionIndex = 60514;
 
 	class NKFJCCOALIN
 	{

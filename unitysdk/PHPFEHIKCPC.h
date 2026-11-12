@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PHPFEHIKCPC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D2EC6E0)
-#define PHPFEHIKCPC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2ECCB0)
-#define PHPFEHIKCPC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D2EC850)
-#define PHPFEHIKCPC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D2EC150)
-#define PHPFEHIKCPC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D2EC3E0)
-#define PHPFEHIKCPC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D2EC8F0)
-#define PHPFEHIKCPC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D2EC940)
-#define PHPFEHIKCPC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D2EC720)
-#define PHPFEHIKCPC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D2EC380)
-#define PHPFEHIKCPC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D2EC550)
-#define PHPFEHIKCPC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2EC7B0)
-#define PHPFEHIKCPC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2EC0D0)
+#define PHPFEHIKCPC_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E4F8CF0)
+#define PHPFEHIKCPC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4F92C0)
+#define PHPFEHIKCPC_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E4F8E60)
+#define PHPFEHIKCPC_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E4F8760)
+#define PHPFEHIKCPC_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E4F89F0)
+#define PHPFEHIKCPC_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E4F8F00)
+#define PHPFEHIKCPC_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E4F8F50)
+#define PHPFEHIKCPC_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E4F8D30)
+#define PHPFEHIKCPC_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E4F8990)
+#define PHPFEHIKCPC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E4F8B60)
+#define PHPFEHIKCPC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E4F8DC0)
+#define PHPFEHIKCPC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E4F86E0)
 
-inline static constexpr unsigned int PHPFEHIKCPC_TypeDefinitionIndex = 13593;
+inline static constexpr unsigned int PHPFEHIKCPC_TypeDefinitionIndex = 13704;
 
 	class PHPFEHIKCPC : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestGoToWikiConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestGoToWikiConfigRow*>**)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x43ED0);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::GridFightGuideQuestGoToWikiConfigRow*>**)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x38FB0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x43ED8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x38FB8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x43EE0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x103A0);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x38FC0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0x103A1);
+			return (::System::Boolean*)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0xC620);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "PHPFEHIKCPC")->GetStaticField(0xC621);
 		}
 
 		static ::System::Void _cctor()

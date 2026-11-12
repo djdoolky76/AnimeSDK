@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShareRewardConfigRow; }
 
-#define RPG_GAMECORE_SHAREREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAD02E0)
-#define RPG_GAMECORE_SHAREREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAD0170)
+#define RPG_GAMECORE_SHAREREWARDCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECE20F0)
+#define RPG_GAMECORE_SHAREREWARDCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ECE1F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShareRewardConfigRow_TypeDefinitionIndex = 15097;
+	inline static constexpr unsigned int ShareRewardConfigRow_TypeDefinitionIndex = 15253;
 
 	class ShareRewardConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RewardID; // 0x10
+		::System::UInt32 RewardNum; // 0x10
 		::System::UInt32 ID; // 0x14
-		::System::UInt32 RewardNum; // 0x18
+		::System::UInt32 RewardID; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHAREREWARDCONFIGROW_CTOR_OFFSET))(this);

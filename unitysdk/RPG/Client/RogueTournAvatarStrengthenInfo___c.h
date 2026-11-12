@@ -5,31 +5,31 @@ namespace RPG::AvatarSystem { class IAvatar; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF7E4F0)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF7E530)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_0_OFFSET UNITYSDK_OFFSET(0xDF7E540)
-#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_1_OFFSET UNITYSDK_OFFSET(0xDF7E5E0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA2E780)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA2E7C0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_0_OFFSET UNITYSDK_OFFSET(0xEA2E7D0)
+#define RPG_CLIENT_ROGUETOURNAVATARSTRENGTHENINFO___C__CREATESTRENGTHENEDAVATARCOMPARER_B__3_1_OFFSET UNITYSDK_OFFSET(0xEA2E870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex = 67501;
+	inline static constexpr unsigned int RogueTournAvatarStrengthenInfo___c_TypeDefinitionIndex = 69445;
 
 	class RogueTournAvatarStrengthenInfo___c : public ::System::Object
 	{
 	public:
+		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__3_0()
+		{
+			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71240);
+		}
+
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6BD80);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71248);
 		}
 
 		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__3_1()
 		{
-			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6BD88);
-		}
-
-		static ::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>** StaticGet___9__3_0()
-		{
-			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6BD90);
+			return (::System::Comparison_1<::RPG::AvatarSystem::IAvatar*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71250);
 		}
 
 		static ::System::Void _cctor()

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class DNFFEFPKDPC;
 
-inline static constexpr unsigned int GNACIJDMBOK_DJGJDAODCOL_TypeDefinitionIndex = 76721;
+inline static constexpr unsigned int GNACIJDMBOK_DJGJDAODCOL_TypeDefinitionIndex = 79054;
 
 	struct alignas(8) GNACIJDMBOK_DJGJDAODCOL
 	{

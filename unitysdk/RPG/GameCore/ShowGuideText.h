@@ -6,13 +6,13 @@ namespace RPG::GameCore { class GuideTextPC; }
 namespace RPG::GameCore { class ShowGuideText; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWGUIDETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADF920)
-#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1DADF960)
-#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DADF8C0)
+#define RPG_GAMECORE_SHOWGUIDETEXT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECF1830)
+#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARYIMPL_OFFSET UNITYSDK_OFFSET(0x1ECF1870)
+#define RPG_GAMECORE_SHOWGUIDETEXT_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ECF17D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowGuideText_TypeDefinitionIndex = 24334;
+	inline static constexpr unsigned int ShowGuideText_TypeDefinitionIndex = 24793;
 
 	class ShowGuideText : public ::RPG::GameCore::TaskConfig
 	{

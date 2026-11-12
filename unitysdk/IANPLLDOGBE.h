@@ -3,10 +3,10 @@
 class IPIMHIGNICC;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IANPLLDOGBE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E220E0)
-#define IANPLLDOGBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E22110)
+#define IANPLLDOGBE_CTOR_OFFSET UNITYSDK_OFFSET(0x16DCBB40)
+#define IANPLLDOGBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DCBB70)
 
-inline static constexpr unsigned int IANPLLDOGBE_TypeDefinitionIndex = 52778;
+inline static constexpr unsigned int IANPLLDOGBE_TypeDefinitionIndex = 53922;
 
 	class IANPLLDOGBE
 	{

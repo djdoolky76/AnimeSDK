@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/CakeRaceAnimState.h"
 #include "unitysdk/System/Object.h"
 
-#define GEMFBMOKLDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63B430)
+#define GEMFBMOKLDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7BD0A0)
 
-inline static constexpr unsigned int GEMFBMOKLDM_TypeDefinitionIndex = 37249;
+inline static constexpr unsigned int GEMFBMOKLDM_TypeDefinitionIndex = 38177;
 
 	class GEMFBMOKLDM : public ::System::Object
 	{

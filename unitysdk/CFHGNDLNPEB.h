@@ -7,21 +7,21 @@ namespace RPG::GameCore { class ModifyShield; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
-#define CFHGNDLNPEB_AKIPEOABOEO_OFFSET UNITYSDK_OFFSET(0xCC4BDE0)
-#define CFHGNDLNPEB_CAJEHLHAPLK_OFFSET UNITYSDK_OFFSET(0xCC4C2A0)
-#define CFHGNDLNPEB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4B890)
-#define CFHGNDLNPEB_DOFALKFLIME_OFFSET UNITYSDK_OFFSET(0xCC4C620)
-#define CFHGNDLNPEB_NLMCDHNHMEL_OFFSET UNITYSDK_OFFSET(0xCC4BF60)
-#define CFHGNDLNPEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC4B900)
+#define CFHGNDLNPEB_AKIPEOABOEO_OFFSET UNITYSDK_OFFSET(0xD5F9450)
+#define CFHGNDLNPEB_CAJEHLHAPLK_OFFSET UNITYSDK_OFFSET(0xD5F9910)
+#define CFHGNDLNPEB_CTOR_OFFSET UNITYSDK_OFFSET(0xD5F8EC0)
+#define CFHGNDLNPEB_DOFALKFLIME_OFFSET UNITYSDK_OFFSET(0xD5F9C90)
+#define CFHGNDLNPEB_NLMCDHNHMEL_OFFSET UNITYSDK_OFFSET(0xD5F95D0)
+#define CFHGNDLNPEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5F8F30)
 
-inline static constexpr unsigned int CFHGNDLNPEB_TypeDefinitionIndex = 55210;
+inline static constexpr unsigned int CFHGNDLNPEB_TypeDefinitionIndex = 56391;
 
 	class CFHGNDLNPEB
 	{
 	public:
 		::RPG::GameCore::GameEntity* NAFJJEABEMI; // 0x28
-		::RPG::GameCore::StringHash PBCKLHILNAD; // 0x30
-		::RPG::GameCore::StringHash IGDMHJBOOLE; // 0x34
+		::RPG::GameCore::StringHash IGDMHJBOOLE; // 0x30
+		::RPG::GameCore::StringHash PBCKLHILNAD; // 0x34
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ModifyShield* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ModifyShield*))((::PBYTE)hIl2Cpp + CFHGNDLNPEB_CTOR_OFFSET))(this, a1, a2);

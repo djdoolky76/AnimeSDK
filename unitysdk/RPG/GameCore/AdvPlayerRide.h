@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvPlayerRide; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVPLAYERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AB420)
-#define RPG_GAMECORE_ADVPLAYERRIDE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3AB460)
-#define RPG_GAMECORE_ADVPLAYERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AB3C0)
+#define RPG_GAMECORE_ADVPLAYERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BA950)
+#define RPG_GAMECORE_ADVPLAYERRIDE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5BA990)
+#define RPG_GAMECORE_ADVPLAYERRIDE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5BA8F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvPlayerRide_TypeDefinitionIndex = 21032;
+	inline static constexpr unsigned int AdvPlayerRide_TypeDefinitionIndex = 21370;
 
 	class AdvPlayerRide : public ::RPG::GameCore::TaskConfig
 	{

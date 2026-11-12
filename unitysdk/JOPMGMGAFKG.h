@@ -7,18 +7,18 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define JOPMGMGAFKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0589D0)
-#define JOPMGMGAFKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D058A60)
-#define JOPMGMGAFKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D058920)
+#define JOPMGMGAFKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E247B30)
+#define JOPMGMGAFKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E247BC0)
+#define JOPMGMGAFKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E247A80)
 
-inline static constexpr unsigned int JOPMGMGAFKG_TypeDefinitionIndex = 24087;
+inline static constexpr unsigned int JOPMGMGAFKG_TypeDefinitionIndex = 24546;
 
 	class JOPMGMGAFKG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
-		::RPG::GameCore::DynamicFloat* FMHMAHCNDGB; // 0x20
-		::System::String* PODFJDMHFMK; // 0x28
+		::RPG::GameCore::DynamicFloat* FMHMAHCNDGB; // 0x18
+		::System::String* PODFJDMHFMK; // 0x20
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JOPMGMGAFKG_CTOR_OFFSET))(this);

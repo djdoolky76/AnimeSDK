@@ -7,10 +7,10 @@ class MEGIEBCBOCI;
 class MFNNPOOOBBD;
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define MFNNPOOOBBD___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB90DE20)
-#define MFNNPOOOBBD___C__DISPLAYCLASS11_0__SUBMITORDER_B__0_OFFSET UNITYSDK_OFFSET(0xB90F790)
+#define MFNNPOOOBBD___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC1BFE60)
+#define MFNNPOOOBBD___C__DISPLAYCLASS11_0__SUBMITORDER_B__0_OFFSET UNITYSDK_OFFSET(0xC1C17D0)
 
-inline static constexpr unsigned int MFNNPOOOBBD___c__DisplayClass11_0_TypeDefinitionIndex = 80249;
+inline static constexpr unsigned int MFNNPOOOBBD___c__DisplayClass11_0_TypeDefinitionIndex = 83026;
 
 	class MFNNPOOOBBD___c__DisplayClass11_0 : public ::System::Object
 	{

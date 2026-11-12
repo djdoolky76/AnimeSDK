@@ -4,7 +4,7 @@
 
 namespace R3
 {
-	inline static constexpr unsigned int ReactivePropertyExtensions_TypeDefinitionIndex = 35963;
+	inline static constexpr unsigned int ReactivePropertyExtensions_TypeDefinitionIndex = 36891;
 
 	class ReactivePropertyExtensions : public ::System::Object
 	{

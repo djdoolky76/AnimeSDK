@@ -5,12 +5,12 @@ namespace RPG::Client { class ItemData; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_HEADICONUTILS___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3071B0)
-#define RPG_CLIENT_HEADICONUTILS___C__DISPLAYCLASS5_0__GETSORTEDHEADICONDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0xD3076B0)
+#define RPG_CLIENT_HEADICONUTILS___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD3B890)
+#define RPG_CLIENT_HEADICONUTILS___C__DISPLAYCLASS5_0__GETSORTEDHEADICONDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0xDD3BD90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HeadIconUtils___c__DisplayClass5_0_TypeDefinitionIndex = 65652;
+	inline static constexpr unsigned int HeadIconUtils___c__DisplayClass5_0_TypeDefinitionIndex = 67574;
 
 	class HeadIconUtils___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class LPODFEEGDOB;
 namespace System { class Object; }
 
-#define LPODFEEGDOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9D4BF0)
-#define LPODFEEGDOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D4C30)
-#define LPODFEEGDOB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9D4C40)
+#define LPODFEEGDOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCFBFA0)
+#define LPODFEEGDOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCFBFE0)
+#define LPODFEEGDOB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FCFBFF0)
 
-inline static constexpr unsigned int LPODFEEGDOB___c_TypeDefinitionIndex = 33332;
+inline static constexpr unsigned int LPODFEEGDOB___c_TypeDefinitionIndex = 34247;
 
 	class LPODFEEGDOB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x425B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A090);
 		}
 
 		static ::System::Void _cctor()

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimEmotionConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMEMOTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BAED0)
-#define RPG_GAMECORE_FIVEDIMEMOTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BADC0)
+#define RPG_GAMECORE_FIVEDIMEMOTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C7880)
+#define RPG_GAMECORE_FIVEDIMEMOTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8C7770)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEmotionConfig_TypeDefinitionIndex = 16715;
+	inline static constexpr unsigned int FiveDimEmotionConfig_TypeDefinitionIndex = 16881;
 
 	class FiveDimEmotionConfig : public ::RPG::GameCore::JsonConfig
 	{

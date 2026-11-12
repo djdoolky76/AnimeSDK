@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdapterEnumerator64_2_TypeDefinitionIndex = 10867;
+	inline static constexpr unsigned int AdapterEnumerator64_2_TypeDefinitionIndex = 10883;
 
 	template <typename T1, typename T2>
 	struct alignas(8) AdapterEnumerator64_2

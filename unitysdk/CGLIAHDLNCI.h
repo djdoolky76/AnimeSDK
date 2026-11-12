@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BattleFullScreenTransfer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGLIAHDLNCI_CTOR_OFFSET UNITYSDK_OFFSET(0xCC8B3A0)
-#define CGLIAHDLNCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC8B3D0)
+#define CGLIAHDLNCI_CTOR_OFFSET UNITYSDK_OFFSET(0xD639070)
+#define CGLIAHDLNCI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD6390A0)
 
-inline static constexpr unsigned int CGLIAHDLNCI_TypeDefinitionIndex = 57951;
+inline static constexpr unsigned int CGLIAHDLNCI_TypeDefinitionIndex = 59188;
 
 	class CGLIAHDLNCI
 	{

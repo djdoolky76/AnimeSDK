@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DKICGLIHCMG_CTOR_OFFSET UNITYSDK_OFFSET(0xF880A40)
-#define DKICGLIHCMG_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xF8809A0)
+#define DKICGLIHCMG_CTOR_OFFSET UNITYSDK_OFFSET(0xFFE6660)
+#define DKICGLIHCMG_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xFFE65C0)
 
-inline static constexpr unsigned int DKICGLIHCMG_TypeDefinitionIndex = 62453;
+inline static constexpr unsigned int DKICGLIHCMG_TypeDefinitionIndex = 63866;
 
 	class DKICGLIHCMG : public ::System::Object
 	{

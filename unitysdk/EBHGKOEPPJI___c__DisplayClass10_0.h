@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 class EBHGKOEPPJI;
 
-inline static constexpr unsigned int EBHGKOEPPJI___c__DisplayClass10_0_TypeDefinitionIndex = 79789;
+inline static constexpr unsigned int EBHGKOEPPJI___c__DisplayClass10_0_TypeDefinitionIndex = 82566;
 
 	struct alignas(8) EBHGKOEPPJI___c__DisplayClass10_0
 	{

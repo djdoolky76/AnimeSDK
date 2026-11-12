@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_SKINCOLORMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE0C20)
+#define MIHOYO_SDK_SKINCOLORMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D167D30)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SkinColorModel_TypeDefinitionIndex = 7887;
+	inline static constexpr unsigned int SkinColorModel_TypeDefinitionIndex = 7896;
 
 	class SkinColorModel : public ::System::Object
 	{

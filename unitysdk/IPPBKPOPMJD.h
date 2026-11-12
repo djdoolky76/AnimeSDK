@@ -4,17 +4,17 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define IPPBKPOPMJD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC30F80)
-#define IPPBKPOPMJD_FGOIDMKPLGF_OFFSET UNITYSDK_OFFSET(0x1EC30D50)
+#define IPPBKPOPMJD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FEE1A00)
+#define IPPBKPOPMJD_FGOIDMKPLGF_OFFSET UNITYSDK_OFFSET(0x1FEE17D0)
 
-inline static constexpr unsigned int IPPBKPOPMJD_TypeDefinitionIndex = 35310;
+inline static constexpr unsigned int IPPBKPOPMJD_TypeDefinitionIndex = 36238;
 
 	class IPPBKPOPMJD : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet_AAKLPOBKFGL()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "IPPBKPOPMJD")->GetStaticField(0x4E380);
+			return (::System::Object**)UnitySDK::FromName("", "IPPBKPOPMJD")->GetStaticField(0x55EA0);
 		}
 
 		static ::System::Void _cctor()

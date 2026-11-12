@@ -6,29 +6,29 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define EGLMGCKMJDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1451EB70)
-#define EGLMGCKMJDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1451EBB0)
-#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_0_OFFSET UNITYSDK_OFFSET(0x1451EBC0)
-#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_1_OFFSET UNITYSDK_OFFSET(0x1451EBE0)
+#define EGLMGCKMJDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x152F5310)
+#define EGLMGCKMJDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x152F5350)
+#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_0_OFFSET UNITYSDK_OFFSET(0x152F5360)
+#define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_1_OFFSET UNITYSDK_OFFSET(0x152F5380)
 
-inline static constexpr unsigned int EGLMGCKMJDM___c_TypeDefinitionIndex = 81763;
+inline static constexpr unsigned int EGLMGCKMJDM___c_TypeDefinitionIndex = 84544;
 
 	class EGLMGCKMJDM___c : public ::System::Object
 	{
 	public:
+		static ::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>** StaticGet___9__13_0()
+		{
+			return (::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73980);
+		}
+
 		static ::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>** StaticGet___9__13_1()
 		{
-			return (::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D90);
+			return (::System::Func_2<::RPG::Client::BlendConfig*, ::RPG::Client::BlendConfig*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73988);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D98);
-		}
-
-		static ::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>** StaticGet___9__13_0()
-		{
-			return (::System::Func_2<::RPG::Client::BlendConfig*, ::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x73990);
 		}
 
 		static ::System::Void _cctor()

@@ -12,23 +12,23 @@ namespace BansheeGz::BGSpline::Curve { class BGCurveBaseMath; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_BIND_OFFSET UNITYSDK_OFFSET(0x1C4F1F60)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_COUNTSTRAIGHTLINES_OFFSET UNITYSDK_OFFSET(0x1C4F0400)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4F1F40)
-#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_INITPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C4FA820)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_BIND_OFFSET UNITYSDK_OFFSET(0x1D674210)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_COUNTSTRAIGHTLINES_OFFSET UNITYSDK_OFFSET(0x1D6726C0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6741F0)
+#define BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_INITPROVIDER_OFFSET UNITYSDK_OFFSET(0x1D67CAD0)
 
 namespace BansheeGz::BGSpline::Components
 {
-	inline static constexpr unsigned int BGPolylineSplitter_TypeDefinitionIndex = 36064;
+	inline static constexpr unsigned int BGPolylineSplitter_TypeDefinitionIndex = 36992;
 
 	class BGPolylineSplitter : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Boolean>* straightBits; // 0x10
+		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderTotalParts* providerTotalParts; // 0x10
 		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderMath* providerMath; // 0x18
-		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProvider* positionsProvider; // 0x20
+		::Il2CppArray<::System::Boolean>* straightBits; // 0x20
 		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderPartsPerSection* providerPartsPerSection; // 0x28
-		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProviderTotalParts* providerTotalParts; // 0x30
+		::BansheeGz::BGSpline::Components::BGPolylineSplitter_PositionsProvider* positionsProvider; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BANSHEEGZ_BGSPLINE_COMPONENTS_BGPOLYLINESPLITTER_CTOR_OFFSET))(this);

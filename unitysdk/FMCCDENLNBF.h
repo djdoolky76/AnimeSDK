@@ -4,19 +4,19 @@ namespace RPG::Client { class ElfFarmGameplayManager; }
 namespace RPG::GameCore { class ElfFarmGameplayInit; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FMCCDENLNBF_CTOR_OFFSET UNITYSDK_OFFSET(0x1584C920)
-#define FMCCDENLNBF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1584C950)
-#define FMCCDENLNBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1584C9B0)
-#define FMCCDENLNBF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1584CB20)
+#define FMCCDENLNBF_CTOR_OFFSET UNITYSDK_OFFSET(0x167BCC90)
+#define FMCCDENLNBF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x167BCCC0)
+#define FMCCDENLNBF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x167BCD20)
+#define FMCCDENLNBF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x167BCE90)
 
-inline static constexpr unsigned int FMCCDENLNBF_TypeDefinitionIndex = 52739;
+inline static constexpr unsigned int FMCCDENLNBF_TypeDefinitionIndex = 53883;
 
 	class FMCCDENLNBF
 	{
 	public:
-		::RPG::Client::ElfFarmGameplayManager* PNMFAOJNNIC; // 0x28
-		::RPG::GameCore::ElfFarmGameplayInit* OFKGLJOAMLD; // 0x30
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::Client::ElfFarmGameplayManager* PNMFAOJNNIC; // 0x30
+		::RPG::GameCore::ElfFarmGameplayInit* OFKGLJOAMLD; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ElfFarmGameplayInit* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ElfFarmGameplayInit*))((::PBYTE)hIl2Cpp + FMCCDENLNBF_CTOR_OFFSET))(this, a1, a2);

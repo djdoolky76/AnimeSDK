@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AISkillDependencyConfig; }
 namespace RPG::GameCore { class CheckSkillDependencyAxis; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D57C900)
-#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D57C910)
-#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D57C8D0)
+#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E78D670)
+#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E78D680)
+#define RPG_GAMECORE_CHECKSKILLDEPENDENCYAXIS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E78D640)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CheckSkillDependencyAxis_TypeDefinitionIndex = 15507;
+	inline static constexpr unsigned int CheckSkillDependencyAxis_TypeDefinitionIndex = 15665;
 
 	class CheckSkillDependencyAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{

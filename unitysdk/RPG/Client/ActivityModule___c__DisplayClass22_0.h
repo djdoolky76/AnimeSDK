@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityLoginData; }
 
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC570AD0)
-#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET UNITYSDK_OFFSET(0xC570AE0)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEAF920)
+#define RPG_CLIENT_ACTIVITYMODULE___C__DISPLAYCLASS22_0__GETACTIVITYLOGINDATABYMODULEID_B__0_OFFSET UNITYSDK_OFFSET(0xCEAF930)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityModule___c__DisplayClass22_0_TypeDefinitionIndex = 61690;
+	inline static constexpr unsigned int ActivityModule___c__DisplayClass22_0_TypeDefinitionIndex = 63096;
 
 	class ActivityModule___c__DisplayClass22_0 : public ::System::Object
 	{

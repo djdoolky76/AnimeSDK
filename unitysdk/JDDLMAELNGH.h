@@ -3,10 +3,10 @@
 class LICPPNHKHGD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define JDDLMAELNGH_CTOR_OFFSET UNITYSDK_OFFSET(0x165BF890)
-#define JDDLMAELNGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165BF8C0)
+#define JDDLMAELNGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB9054D0)
+#define JDDLMAELNGH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB905500)
 
-inline static constexpr unsigned int JDDLMAELNGH_TypeDefinitionIndex = 52476;
+inline static constexpr unsigned int JDDLMAELNGH_TypeDefinitionIndex = 53582;
 
 	class JDDLMAELNGH
 	{

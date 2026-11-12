@@ -7,26 +7,26 @@ namespace RPG::Client { class TalkOptionData; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD08B3A0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_GET_SDFTEXTASSETPATH_OFFSET UNITYSDK_OFFSET(0xD08B180)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETCONFIG_OFFSET UNITYSDK_OFFSET(0xD08B3F0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETOPTIONLIST_OFFSET UNITYSDK_OFFSET(0xD08B2E0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETHEROAVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xD08B6B0)
-#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETSDFFONTASSETPATH_OFFSET UNITYSDK_OFFSET(0xD08B1D0)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA13920)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_GET_SDFTEXTASSETPATH_OFFSET UNITYSDK_OFFSET(0xDA136A0)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETCONFIG_OFFSET UNITYSDK_OFFSET(0xDA13960)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_SETOPTIONLIST_OFFSET UNITYSDK_OFFSET(0xDA13830)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETHEROAVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xDA13C50)
+#define RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA__GETSDFFONTASSETPATH_OFFSET UNITYSDK_OFFSET(0xDA136F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FullScreenOptionTalkUIData_TypeDefinitionIndex = 68023;
+	inline static constexpr unsigned int FullScreenOptionTalkUIData_TypeDefinitionIndex = 69969;
 
 	class FullScreenOptionTalkUIData : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* OptionList; // 0x10
-		::System::String* HintIconPath; // 0x18
-		::RPG::Client::FontAssetConfig* FontConfig; // 0x20
-		::System::Single XAxisOffset; // 0x28
-		::System::Single ZAxisOffset; // 0x2C
-		::RPG::Client::TextID HintText; // 0x30
+		::RPG::Client::FontAssetConfig* FontConfig; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::TalkOptionData*>* OptionList; // 0x18
+		::System::String* HintIconPath; // 0x20
+		::RPG::Client::TextID HintText; // 0x28
+		::System::Single XAxisOffset; // 0x38
+		::System::Single ZAxisOffset; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FULLSCREENOPTIONTALKUIDATA_CTOR_OFFSET))(this);

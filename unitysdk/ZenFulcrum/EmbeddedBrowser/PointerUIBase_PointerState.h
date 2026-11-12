@@ -6,7 +6,7 @@
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int PointerUIBase_PointerState_TypeDefinitionIndex = 39482;
+	inline static constexpr unsigned int PointerUIBase_PointerState_TypeDefinitionIndex = 40411;
 
 	struct alignas(4) PointerUIBase_PointerState
 	{

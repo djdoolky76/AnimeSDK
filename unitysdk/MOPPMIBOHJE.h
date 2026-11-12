@@ -4,10 +4,10 @@
 class HBFNLNPLILA;
 namespace RPG::GameCore { class GameWorld; }
 
-#define MOPPMIBOHJE_KCPOCEODDCN_1_OFFSET UNITYSDK_OFFSET(0xBA37D00)
-#define MOPPMIBOHJE_KDKAGPALKBM_OFFSET UNITYSDK_OFFSET(0xBA37C70)
+#define MOPPMIBOHJE_KCPOCEODDCN_1_OFFSET UNITYSDK_OFFSET(0xC2F66D0)
+#define MOPPMIBOHJE_KDKAGPALKBM_OFFSET UNITYSDK_OFFSET(0xC2F6640)
 
-inline static constexpr unsigned int MOPPMIBOHJE_TypeDefinitionIndex = 73248;
+inline static constexpr unsigned int MOPPMIBOHJE_TypeDefinitionIndex = 75364;
 
 	class MOPPMIBOHJE : public ::System::Object
 	{

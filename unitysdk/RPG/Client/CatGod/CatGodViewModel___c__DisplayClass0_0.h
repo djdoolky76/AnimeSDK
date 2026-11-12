@@ -4,19 +4,19 @@
 class GNNOKOIPMLA;
 namespace RPG::Client::CatGod { class CatGodViewModel; }
 
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC93C440)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xC93C490)
-#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC93C5A0)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A1DF0)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD2A1E40)
+#define RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xD2A1F50)
 
 namespace RPG::Client::CatGod
 {
-	inline static constexpr unsigned int CatGodViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 81657;
+	inline static constexpr unsigned int CatGodViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 84438;
 
 	class CatGodViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:
-		::GNNOKOIPMLA* catGodService; // 0x10
-		::RPG::Client::CatGod::CatGodViewModel* __4__this; // 0x18
+		::RPG::Client::CatGod::CatGodViewModel* __4__this; // 0x10
+		::GNNOKOIPMLA* catGodService; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_CATGOD_CATGODVIEWMODEL___C__DISPLAYCLASS0_0_CTOR_OFFSET))(this);

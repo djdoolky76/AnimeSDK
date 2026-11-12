@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateEmergentBroadcastConditionType_TypeDefinitionIndex = 11495;
+	inline static constexpr unsigned int FateEmergentBroadcastConditionType_TypeDefinitionIndex = 11546;
 
 	enum class FateEmergentBroadcastConditionType : ::System::Int32
 	{

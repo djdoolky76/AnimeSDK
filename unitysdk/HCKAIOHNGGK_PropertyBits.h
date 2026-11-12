@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HCKAIOHNGGK_PropertyBits_TypeDefinitionIndex = 37223;
+inline static constexpr unsigned int HCKAIOHNGGK_PropertyBits_TypeDefinitionIndex = 38151;
 
 	enum class HCKAIOHNGGK_PropertyBits : ::System::Int32
 	{

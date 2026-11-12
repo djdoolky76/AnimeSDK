@@ -3,10 +3,10 @@
 class FFMONJGCKDI;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HGMNPNALCAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB24E0)
-#define HGMNPNALCAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CB2510)
+#define HGMNPNALCAL_CTOR_OFFSET UNITYSDK_OFFSET(0x16BFCA90)
+#define HGMNPNALCAL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16BFCAC0)
 
-inline static constexpr unsigned int HGMNPNALCAL_TypeDefinitionIndex = 54812;
+inline static constexpr unsigned int HGMNPNALCAL_TypeDefinitionIndex = 55981;
 
 	class HGMNPNALCAL
 	{

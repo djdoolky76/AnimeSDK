@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByComparePlanetFesEventProgressLeft; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DPLEFGOCNIN_CTOR_OFFSET UNITYSDK_OFFSET(0x12658390)
-#define DPLEFGOCNIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x126583C0)
+#define DPLEFGOCNIN_CTOR_OFFSET UNITYSDK_OFFSET(0x13447EC0)
+#define DPLEFGOCNIN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13447EF0)
 
-inline static constexpr unsigned int DPLEFGOCNIN_TypeDefinitionIndex = 57976;
+inline static constexpr unsigned int DPLEFGOCNIN_TypeDefinitionIndex = 59214;
 
 	class DPLEFGOCNIN
 	{

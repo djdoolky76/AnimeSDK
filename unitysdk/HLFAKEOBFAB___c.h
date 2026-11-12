@@ -4,18 +4,18 @@
 class HLFAKEOBFAB;
 namespace System { class Object; }
 
-#define HLFAKEOBFAB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5BD4D0)
-#define HLFAKEOBFAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BD510)
-#define HLFAKEOBFAB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E5BD520)
+#define HLFAKEOBFAB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8B9390)
+#define HLFAKEOBFAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8B93D0)
+#define HLFAKEOBFAB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F8B93E0)
 
-inline static constexpr unsigned int HLFAKEOBFAB___c_TypeDefinitionIndex = 33915;
+inline static constexpr unsigned int HLFAKEOBFAB___c_TypeDefinitionIndex = 34830;
 
 	class HLFAKEOBFAB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x47CF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x37EB0);
 		}
 
 		static ::System::Void _cctor()

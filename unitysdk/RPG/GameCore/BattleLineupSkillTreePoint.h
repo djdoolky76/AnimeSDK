@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BattleLineupSkillTreePoint; }
 
-#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D460450)
-#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D460330)
+#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6702D0)
+#define RPG_GAMECORE_BATTLELINEUPSKILLTREEPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6701B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleLineupSkillTreePoint_TypeDefinitionIndex = 18121;
+	inline static constexpr unsigned int BattleLineupSkillTreePoint_TypeDefinitionIndex = 18283;
 
 	class BattleLineupSkillTreePoint : public ::RPG::GameCore::JsonConfig
 	{

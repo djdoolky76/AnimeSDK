@@ -3,7 +3,7 @@
 
 namespace RPG::Client::TrainParty
 {
-	inline static constexpr unsigned int TrainPartySettleSourceType_TypeDefinitionIndex = 74365;
+	inline static constexpr unsigned int TrainPartySettleSourceType_TypeDefinitionIndex = 76513;
 
 	enum class TrainPartySettleSourceType : ::System::Int32
 	{

@@ -3,17 +3,17 @@
 #include "unitysdk/Sofa/Core/ObservableObject.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERAMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xCB14AD0)
+#define RPG_CLIENT_CHIMERADUEL_CHIMERADUELBATTLECHIMERAMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD478520)
 
 namespace RPG::Client::ChimeraDuel
 {
-	inline static constexpr unsigned int ChimeraDuelBattleChimeraModel_TypeDefinitionIndex = 81248;
+	inline static constexpr unsigned int ChimeraDuelBattleChimeraModel_TypeDefinitionIndex = 84028;
 
 	class ChimeraDuelBattleChimeraModel : public ::Sofa::Core::ObservableObject
 	{
 	public:
-		::System::String* InstanceName; // 0x18
-		::System::String* InstanceDesc; // 0x20
+		::System::String* InstanceDesc; // 0x18
+		::System::String* InstanceName; // 0x20
 		::System::UInt32 InstanceID; // 0x28
 		::System::Void _ctor(::System::UInt32 a1)
 		{

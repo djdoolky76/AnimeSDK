@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SUPERSCROLLVIEW_ITEMINDEXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE99DC20)
+#define SUPERSCROLLVIEW_ITEMINDEXDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF4B3050)
 
 namespace SuperScrollView
 {
-	inline static constexpr unsigned int ItemIndexData_TypeDefinitionIndex = 47675;
+	inline static constexpr unsigned int ItemIndexData_TypeDefinitionIndex = 48705;
 
 	class ItemIndexData : public ::System::Object
 	{

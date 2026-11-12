@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ModifyFMChannelSourceSignal; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CCJBEFNAFMP_CTOR_OFFSET UNITYSDK_OFFSET(0xC73DCA0)
-#define CCJBEFNAFMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC73DCD0)
+#define CCJBEFNAFMP_CTOR_OFFSET UNITYSDK_OFFSET(0xCE30B10)
+#define CCJBEFNAFMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCE30B40)
 
-inline static constexpr unsigned int CCJBEFNAFMP_TypeDefinitionIndex = 53026;
+inline static constexpr unsigned int CCJBEFNAFMP_TypeDefinitionIndex = 54186;
 
 	class CCJBEFNAFMP
 	{

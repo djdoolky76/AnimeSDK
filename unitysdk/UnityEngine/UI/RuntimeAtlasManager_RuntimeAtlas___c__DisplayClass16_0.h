@@ -5,7 +5,7 @@ namespace UnityEngine::UI { class RuntimeAtlasManager_RuntimeAtlas; }
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0_TypeDefinitionIndex = 6821;
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0_TypeDefinitionIndex = 6832;
 
 	struct alignas(8) RuntimeAtlasManager_RuntimeAtlas___c__DisplayClass16_0
 	{

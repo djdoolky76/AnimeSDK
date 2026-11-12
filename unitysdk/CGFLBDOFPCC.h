@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTimeRewindEntityMinRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGFLBDOFPCC_CTOR_OFFSET UNITYSDK_OFFSET(0xCC88360)
-#define CGFLBDOFPCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC88390)
+#define CGFLBDOFPCC_CTOR_OFFSET UNITYSDK_OFFSET(0xD636020)
+#define CGFLBDOFPCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD636050)
 
-inline static constexpr unsigned int CGFLBDOFPCC_TypeDefinitionIndex = 53395;
+inline static constexpr unsigned int CGFLBDOFPCC_TypeDefinitionIndex = 54557;
 
 	class CGFLBDOFPCC
 	{

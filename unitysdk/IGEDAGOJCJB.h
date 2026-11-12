@@ -6,20 +6,20 @@ namespace System { class String; }
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
-#define IGEDAGOJCJB_BGEFMOIHGIN_OFFSET UNITYSDK_OFFSET(0x1640A4F0)
-#define IGEDAGOJCJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1640A550)
-#define IGEDAGOJCJB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x1640A1F0)
-#define IGEDAGOJCJB__ONBIND_OFFSET UNITYSDK_OFFSET(0x1640A150)
+#define IGEDAGOJCJB_BGEFMOIHGIN_OFFSET UNITYSDK_OFFSET(0x173BAB90)
+#define IGEDAGOJCJB_CTOR_OFFSET UNITYSDK_OFFSET(0x173BABF0)
+#define IGEDAGOJCJB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x173BA890)
+#define IGEDAGOJCJB__ONBIND_OFFSET UNITYSDK_OFFSET(0x173BA6D0)
 
-inline static constexpr unsigned int IGEDAGOJCJB_TypeDefinitionIndex = 71368;
+inline static constexpr unsigned int IGEDAGOJCJB_TypeDefinitionIndex = 73345;
 
 	class IGEDAGOJCJB : public ::FMPCODLIOLG
 	{
 	public:
-		::System::String* ONMIFAAODML; // 0x60
-		::UnityEngine::UI::Image* OJKPNKKJADJ; // 0x68
+		::UnityEngine::UI::Image* OJKPNKKJADJ; // 0x60
+		::UnityEngine::Animation* KCOAILOHDND; // 0x68
 		::UnityEngine::UI::Image* LPMHMLOGPPN; // 0x70
-		::UnityEngine::Animation* KCOAILOHDND; // 0x78
+		::System::String* ONMIFAAODML; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IGEDAGOJCJB_CTOR_OFFSET))(this);

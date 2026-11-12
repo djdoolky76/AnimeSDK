@@ -3,10 +3,10 @@
 class LDODCBONPLA;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IECJEHPAJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15EED0D0)
-#define IECJEHPAJAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EED100)
+#define IECJEHPAJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16E58310)
+#define IECJEHPAJAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E58340)
 
-inline static constexpr unsigned int IECJEHPAJAG_TypeDefinitionIndex = 58626;
+inline static constexpr unsigned int IECJEHPAJAG_TypeDefinitionIndex = 59893;
 
 	class IECJEHPAJAG
 	{

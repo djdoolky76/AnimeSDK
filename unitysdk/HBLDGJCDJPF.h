@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HBLDGJCDJPF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0FFB0)
+#define HBLDGJCDJPF_CTOR_OFFSET UNITYSDK_OFFSET(0x16B51D60)
 
-inline static constexpr unsigned int HBLDGJCDJPF_TypeDefinitionIndex = 77658;
+inline static constexpr unsigned int HBLDGJCDJPF_TypeDefinitionIndex = 80393;
 
 	class HBLDGJCDJPF : public ::System::Object
 	{

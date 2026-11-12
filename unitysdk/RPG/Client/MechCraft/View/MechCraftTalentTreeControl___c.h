@@ -5,25 +5,25 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentPointControl; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD6706A0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD6706E0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C___FINDPOINTCONTROL_B__14_1_OFFSET UNITYSDK_OFFSET(0xD6706F0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE0FF200)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE0FF240)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTTALENTTREECONTROL___C___FINDPOINTCONTROL_B__14_1_OFFSET UNITYSDK_OFFSET(0xE0FF250)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftTalentTreeControl___c_TypeDefinitionIndex = 80055;
+	inline static constexpr unsigned int MechCraftTalentTreeControl___c_TypeDefinitionIndex = 82832;
 
 	class MechCraftTalentTreeControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x56450);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x66360);
 		}
 
 		static ::System::Func_2<::RPG::Client::MechCraft::View::MechCraftTalentPointControl*, ::System::Boolean>** StaticGet___9__14_1()
 		{
-			return (::System::Func_2<::RPG::Client::MechCraft::View::MechCraftTalentPointControl*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x56458);
+			return (::System::Func_2<::RPG::Client::MechCraft::View::MechCraftTalentPointControl*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x66368);
 		}
 
 		static ::System::Void _cctor()

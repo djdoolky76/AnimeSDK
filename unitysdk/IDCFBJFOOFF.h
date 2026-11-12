@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetMissionWayPoint; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IDCFBJFOOFF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E6B020)
-#define IDCFBJFOOFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E6B030)
-#define IDCFBJFOOFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E6B070)
-#define IDCFBJFOOFF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E6B260)
-#define IDCFBJFOOFF_TICK_OFFSET UNITYSDK_OFFSET(0x15EAC510)
+#define IDCFBJFOOFF_CTOR_OFFSET UNITYSDK_OFFSET(0x16E18AD0)
+#define IDCFBJFOOFF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16E18AE0)
+#define IDCFBJFOOFF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E18B20)
+#define IDCFBJFOOFF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16E18D10)
+#define IDCFBJFOOFF_TICK_OFFSET UNITYSDK_OFFSET(0x16E18D60)
 
-inline static constexpr unsigned int IDCFBJFOOFF_TypeDefinitionIndex = 53245;
+inline static constexpr unsigned int IDCFBJFOOFF_TypeDefinitionIndex = 54407;
 
 	class IDCFBJFOOFF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetMissionWayPoint* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetMissionWayPoint* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetMissionWayPoint* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetMissionWayPoint*))((::PBYTE)hIl2Cpp + IDCFBJFOOFF_CTOR_OFFSET))(this, a1, a2);

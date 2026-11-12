@@ -4,18 +4,18 @@
 class PLIDMPJNFEA;
 namespace System { class Object; }
 
-#define PLIDMPJNFEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFA2CF0)
-#define PLIDMPJNFEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFA2D30)
-#define PLIDMPJNFEA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFA2D40)
+#define PLIDMPJNFEA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2543A0)
+#define PLIDMPJNFEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2543E0)
+#define PLIDMPJNFEA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2543F0)
 
-inline static constexpr unsigned int PLIDMPJNFEA___c_TypeDefinitionIndex = 32735;
+inline static constexpr unsigned int PLIDMPJNFEA___c_TypeDefinitionIndex = 33650;
 
 	class PLIDMPJNFEA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C0C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E910);
 		}
 
 		static ::System::Void _cctor()

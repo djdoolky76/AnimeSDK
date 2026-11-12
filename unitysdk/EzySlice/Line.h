@@ -10,7 +10,7 @@
 
 namespace EzySlice
 {
-	inline static constexpr unsigned int Line_TypeDefinitionIndex = 46996;
+	inline static constexpr unsigned int Line_TypeDefinitionIndex = 48024;
 
 	struct alignas(4) Line
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class NGIPBCJPFPG;
 
-#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC5F6640)
-#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0___ONGRIDFIGHTENTERBATTLESTAGESCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xC5F6650)
+#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3ADA0)
+#define RPG_CLIENT_ADVENTUREMODULE___C__DISPLAYCLASS62_0___ONGRIDFIGHTENTERBATTLESTAGESCRSP_B__0_OFFSET UNITYSDK_OFFSET(0xCF51270)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AdventureModule___c__DisplayClass62_0_TypeDefinitionIndex = 62013;
+	inline static constexpr unsigned int AdventureModule___c__DisplayClass62_0_TypeDefinitionIndex = 63425;
 
 	class AdventureModule___c__DisplayClass62_0 : public ::System::Object
 	{

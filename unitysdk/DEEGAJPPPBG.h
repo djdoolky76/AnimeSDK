@@ -14,53 +14,53 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DEEGAJPPPBG_CTOR_OFFSET UNITYSDK_OFFSET(0xE506210)
-#define DEEGAJPPPBG_DHFBDMHFNIK_OFFSET UNITYSDK_OFFSET(0xE504C70)
-#define DEEGAJPPPBG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE506130)
-#define DEEGAJPPPBG_DKOIMGEHNCF_OFFSET UNITYSDK_OFFSET(0xE504CC0)
-#define DEEGAJPPPBG_FCOMCBOECID_OFFSET UNITYSDK_OFFSET(0xE505750)
-#define DEEGAJPPPBG_KCLCICKJBCH_OFFSET UNITYSDK_OFFSET(0xE5056C0)
-#define DEEGAJPPPBG_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xE504BB0)
-#define DEEGAJPPPBG_MGHBJGAFLBI_OFFSET UNITYSDK_OFFSET(0xE505970)
-#define DEEGAJPPPBG_MNDDGALECDH_OFFSET UNITYSDK_OFFSET(0xE5055E0)
-#define DEEGAJPPPBG_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xE504C20)
-#define DEEGAJPPPBG_NOKLFHJPEAE_OFFSET UNITYSDK_OFFSET(0xE505930)
-#define DEEGAJPPPBG_OLEHHDHEJGB_OFFSET UNITYSDK_OFFSET(0xE5061C0)
-#define DEEGAJPPPBG_PFCKLEMPAAD_OFFSET UNITYSDK_OFFSET(0xE504C10)
-#define DEEGAJPPPBG_PKNAKPALBEK_1_OFFSET UNITYSDK_OFFSET(0xE5054C0)
-#define DEEGAJPPPBG_PKNAKPALBEK_OFFSET UNITYSDK_OFFSET(0xE5051B0)
+#define DEEGAJPPPBG_CTOR_OFFSET UNITYSDK_OFFSET(0xEE4D070)
+#define DEEGAJPPPBG_DHFBDMHFNIK_OFFSET UNITYSDK_OFFSET(0xEE4BAD0)
+#define DEEGAJPPPBG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xEE4CF90)
+#define DEEGAJPPPBG_DKOIMGEHNCF_OFFSET UNITYSDK_OFFSET(0xEE4BB20)
+#define DEEGAJPPPBG_FCOMCBOECID_OFFSET UNITYSDK_OFFSET(0xEE4C5B0)
+#define DEEGAJPPPBG_KCLCICKJBCH_OFFSET UNITYSDK_OFFSET(0xEE4C520)
+#define DEEGAJPPPBG_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xEE4BA10)
+#define DEEGAJPPPBG_MGHBJGAFLBI_OFFSET UNITYSDK_OFFSET(0xEE4C7D0)
+#define DEEGAJPPPBG_MNDDGALECDH_OFFSET UNITYSDK_OFFSET(0xEE4C440)
+#define DEEGAJPPPBG_MOKNCFJICIC_OFFSET UNITYSDK_OFFSET(0xEE4BA80)
+#define DEEGAJPPPBG_NOKLFHJPEAE_OFFSET UNITYSDK_OFFSET(0xEE4C790)
+#define DEEGAJPPPBG_OLEHHDHEJGB_OFFSET UNITYSDK_OFFSET(0xEE4D020)
+#define DEEGAJPPPBG_PFCKLEMPAAD_OFFSET UNITYSDK_OFFSET(0xEE4BA70)
+#define DEEGAJPPPBG_PKNAKPALBEK_1_OFFSET UNITYSDK_OFFSET(0xEE4C320)
+#define DEEGAJPPPBG_PKNAKPALBEK_OFFSET UNITYSDK_OFFSET(0xEE4C010)
 
-inline static constexpr unsigned int DEEGAJPPPBG_TypeDefinitionIndex = 56978;
+inline static constexpr unsigned int DEEGAJPPPBG_TypeDefinitionIndex = 58204;
 
 	class DEEGAJPPPBG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
-		::EAHGHBMGCJE* DJFOLMKFBLL; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::GameCore::EntityTag>*>* GBCANCFOAKP; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::COKLGCPKGIE*>* ILMKKLLICHA; // 0x18
+		::RPG::GameCore::TransformComponent* LMCMCFHLJEJ; // 0x20
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::GameCore::EntityTag>*>* IPMGFAJEEFP; // 0x28
-		::MHEPLMICGAO* HPBCADIENBE; // 0x30
-		::RPG::GameCore::TransformComponent* LMCMCFHLJEJ; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::COKLGCPKGIE*>* ILMKKLLICHA; // 0x40
-		::System::Int32 BIILCFAOPLN; // 0x48
-		::System::Single HKEGCBCHCKJ; // 0x4C
-		static ::System::Single* StaticGet_MCIJCCJMCAG()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x7D60);
-		}
-
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Collections::Generic::List_1<::RPG::GameCore::EntityTag>*>* GBCANCFOAKP; // 0x30
+		::MHEPLMICGAO* HPBCADIENBE; // 0x38
+		::EAHGHBMGCJE* DJFOLMKFBLL; // 0x40
+		::System::Single HKEGCBCHCKJ; // 0x48
+		::System::Int32 BIILCFAOPLN; // 0x4C
 		static ::System::Single* StaticGet_JGFCHJCLKKH()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x7D64);
-		}
-
-		static ::System::Single* StaticGet_KNLOFMMHMOF()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x7D68);
+			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x5620);
 		}
 
 		static ::System::Single* StaticGet_MMEGPLFBNAK()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x7D6C);
+			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x5624);
+		}
+
+		static ::System::Single* StaticGet_MCIJCCJMCAG()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x5628);
+		}
+
+		static ::System::Single* StaticGet_KNLOFMMHMOF()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "DEEGAJPPPBG")->GetStaticField(0x562C);
 		}
 
 		::System::Void _ctor()

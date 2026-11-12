@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK::UI::OS
 {
-	inline static constexpr unsigned int ITipsBar_TypeDefinitionIndex = 8473;
+	inline static constexpr unsigned int ITipsBar_TypeDefinitionIndex = 8482;
 
 	class ITipsBar
 	{

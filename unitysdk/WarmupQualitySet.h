@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/CustomRP/Quality.h"
 #include "unitysdk/UnityEngine/WarmupQualityCategory.h"
 
-inline static constexpr unsigned int WarmupQualitySet_TypeDefinitionIndex = 47420;
+inline static constexpr unsigned int WarmupQualitySet_TypeDefinitionIndex = 48449;
 
 	struct alignas(4) WarmupQualitySet
 	{

@@ -6,11 +6,11 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { class Type; }
 
-#define GENPMBCFONO_CTOR_OFFSET UNITYSDK_OFFSET(0x159E4CB0)
-#define GENPMBCFONO_FORMAT_OFFSET UNITYSDK_OFFSET(0x159E4800)
-#define GENPMBCFONO_GETFORMAT_OFFSET UNITYSDK_OFFSET(0x159E4780)
+#define GENPMBCFONO_CTOR_OFFSET UNITYSDK_OFFSET(0x1691DD20)
+#define GENPMBCFONO_FORMAT_OFFSET UNITYSDK_OFFSET(0x1691D870)
+#define GENPMBCFONO_GETFORMAT_OFFSET UNITYSDK_OFFSET(0x1691D7F0)
 
-inline static constexpr unsigned int GENPMBCFONO_TypeDefinitionIndex = 51721;
+inline static constexpr unsigned int GENPMBCFONO_TypeDefinitionIndex = 52807;
 
 	class GENPMBCFONO : public ::System::Object
 	{

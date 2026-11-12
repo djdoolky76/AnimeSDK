@@ -5,18 +5,18 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelProductsResult; }
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class PayManagerCXHandheld; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF0B980)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS20_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1BF0E470)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D092470)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS20_0__TRYGETPRODUCTS_B__0_OFFSET UNITYSDK_OFFSET(0x1D094FC0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass20_0_TypeDefinitionIndex = 8773;
+	inline static constexpr unsigned int PayManagerCXHandheld___c__DisplayClass20_0_TypeDefinitionIndex = 8782;
 
 	class PayManagerCXHandheld___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:
-		::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld* __4__this; // 0x10
-		::Il2CppArray<::System::String*>* productLabels; // 0x18
+		::Il2CppArray<::System::String*>* productLabels; // 0x10
+		::MiHoYo::SDK::PC::OS::CXHandheld::PayManagerCXHandheld* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_PC_OS_CXHANDHELD_PAYMANAGERCXHANDHELD___C__DISPLAYCLASS20_0_CTOR_OFFSET))(this);

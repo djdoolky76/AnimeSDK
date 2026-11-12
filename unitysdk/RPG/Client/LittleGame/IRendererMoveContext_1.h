@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IRendererMoveContext_1_TypeDefinitionIndex = 42742;
+	inline static constexpr unsigned int IRendererMoveContext_1_TypeDefinitionIndex = 43721;
 
 	template <typename T>
 	class IRendererMoveContext_1

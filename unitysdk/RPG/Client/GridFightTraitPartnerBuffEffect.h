@@ -6,23 +6,23 @@ namespace RPG::Client { class GridFightTrait; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CANCAST_OFFSET UNITYSDK_OFFSET(0xD2BE090)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2BE100)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD2BE0F0)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xD2BDBE0)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xD2BDE10)
-#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__TRYGETACTIVITEROLE_OFFSET UNITYSDK_OFFSET(0xD2BDC50)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CANCAST_OFFSET UNITYSDK_OFFSET(0xDCE3FC0)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCE4030)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE4020)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT_GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xDCE3AD0)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__GETEFFECTPATH_OFFSET UNITYSDK_OFFSET(0xDCE3D40)
+#define RPG_CLIENT_GRIDFIGHTTRAITPARTNERBUFFEFFECT__TRYGETACTIVITEROLE_OFFSET UNITYSDK_OFFSET(0xDCE3B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitPartnerBuffEffect_TypeDefinitionIndex = 65363;
+	inline static constexpr unsigned int GridFightTraitPartnerBuffEffect_TypeDefinitionIndex = 67141;
 
 	class GridFightTraitPartnerBuffEffect : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>** StaticGet__EffectByRoleID()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client", "GridFightTraitPartnerBuffEffect")->GetStaticField(0xACC0);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client", "GridFightTraitPartnerBuffEffect")->GetStaticField(0x14EF0);
 		}
 
 		// static const ::System::String* _CommonPath; // 0x0

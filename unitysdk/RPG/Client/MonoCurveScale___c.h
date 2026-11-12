@@ -5,31 +5,31 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MONOCURVESCALE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD742440)
-#define RPG_CLIENT_MONOCURVESCALE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD742480)
-#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_0_OFFSET UNITYSDK_OFFSET(0xD742490)
-#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_1_OFFSET UNITYSDK_OFFSET(0xD7424F0)
+#define RPG_CLIENT_MONOCURVESCALE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1D58D0)
+#define RPG_CLIENT_MONOCURVESCALE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1D5910)
+#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_0_OFFSET UNITYSDK_OFFSET(0xE1D5920)
+#define RPG_CLIENT_MONOCURVESCALE___C__GENERATEREVERSECURVE_B__10_1_OFFSET UNITYSDK_OFFSET(0xE1D5980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoCurveScale___c_TypeDefinitionIndex = 71048;
+	inline static constexpr unsigned int MonoCurveScale___c_TypeDefinitionIndex = 73027;
 
 	class MonoCurveScale___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B580);
-		}
-
 		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_0()
 		{
-			return (::System::Comparison_1<::UnityEngine::Keyframe>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B588);
+			return (::System::Comparison_1<::UnityEngine::Keyframe>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A840);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A848);
 		}
 
 		static ::System::Comparison_1<::UnityEngine::Keyframe>** StaticGet___9__10_1()
 		{
-			return (::System::Comparison_1<::UnityEngine::Keyframe>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5B590);
+			return (::System::Comparison_1<::UnityEngine::Keyframe>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6A850);
 		}
 
 		static ::System::Void _cctor()

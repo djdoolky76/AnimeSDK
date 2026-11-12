@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xCBD4870)
-#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCBD4820)
+#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD5481E0)
+#define RPG_CLIENT_CUBEMAPGENERATORMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD548190)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CubemapGeneratorMonoPlugin_TypeDefinitionIndex = 71041;
+	inline static constexpr unsigned int CubemapGeneratorMonoPlugin_TypeDefinitionIndex = 73020;
 
 	class CubemapGeneratorMonoPlugin
 	{

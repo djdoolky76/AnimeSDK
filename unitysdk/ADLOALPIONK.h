@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define ADLOALPIONK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD190)
+#define ADLOALPIONK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE55DC0)
 
-inline static constexpr unsigned int ADLOALPIONK_TypeDefinitionIndex = 25036;
+inline static constexpr unsigned int ADLOALPIONK_TypeDefinitionIndex = 25514;
 
 	class ADLOALPIONK : public ::System::Attribute
 	{

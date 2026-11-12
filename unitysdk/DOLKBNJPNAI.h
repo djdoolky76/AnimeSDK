@@ -5,26 +5,26 @@ namespace RPG::GameCore { class ChenLingFesItemConfig; }
 namespace RPG::GameCore { class ChenLingFesPosition; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DOLKBNJPNAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FE30)
+#define DOLKBNJPNAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBF3670)
 
-inline static constexpr unsigned int DOLKBNJPNAI_TypeDefinitionIndex = 43717;
+inline static constexpr unsigned int DOLKBNJPNAI_TypeDefinitionIndex = 44792;
 
 	class DOLKBNJPNAI : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChenLingFesItemConfig* EABKOHGCHFP; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* OJFFPIIKPDJ; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* AACDGMCNIDL; // 0x20
-		::System::Collections::Generic::List_1<::System::Int32>* KEMEPBIGIAE; // 0x28
-		::RPG::GameCore::ChenLingFesPosition* FOCNBOANONM; // 0x30
-		::System::Collections::Generic::List_1<::System::Int32>* CHFEJBFFPLD; // 0x38
-		::System::Collections::Generic::List_1<::System::Int32>* KNNMFKMCKBP; // 0x40
-		::System::Collections::Generic::List_1<::System::Int32>* AJPFKOLEMOL; // 0x48
-		::System::Single PLFMKDOCPLP; // 0x50
-		::System::Single IKFHADBJEOC; // 0x54
-		::System::UInt32 PHFMCACHFIJ; // 0x58
-		::System::Single EEGAODGBDJF; // 0x5C
-		::System::Single ICONGDFLKIP; // 0x60
+		::System::Collections::Generic::List_1<::System::Int32>* KEMEPBIGIAE; // 0x10
+		::RPG::GameCore::ChenLingFesItemConfig* EABKOHGCHFP; // 0x18
+		::System::Collections::Generic::List_1<::System::Int32>* KNNMFKMCKBP; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* CHFEJBFFPLD; // 0x28
+		::System::Collections::Generic::List_1<::System::UInt32>* OJFFPIIKPDJ; // 0x30
+		::System::Collections::Generic::List_1<::System::Int32>* AJPFKOLEMOL; // 0x38
+		::System::Collections::Generic::List_1<::System::Int32>* AACDGMCNIDL; // 0x40
+		::RPG::GameCore::ChenLingFesPosition* FOCNBOANONM; // 0x48
+		::System::Single EEGAODGBDJF; // 0x50
+		::System::Single PLFMKDOCPLP; // 0x54
+		::System::Single ICONGDFLKIP; // 0x58
+		::System::Single IKFHADBJEOC; // 0x5C
+		::System::UInt32 PHFMCACHFIJ; // 0x60
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOLKBNJPNAI_CTOR_OFFSET))(this);

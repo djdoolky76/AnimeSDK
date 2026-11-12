@@ -14,21 +14,21 @@ namespace RPG::GameCore { class GridFightDragOpGridSelector; }
 namespace RPG::GameCore { class GridFightDragOpRoleSelector; }
 namespace RPG::GameCore { class GridFightDragOpgConsumableSelector; }
 
-#define MJKAAFGONCL_CTOR_OFFSET UNITYSDK_OFFSET(0xB96E230)
-#define MJKAAFGONCL_EFJNHEPHDJM_OFFSET UNITYSDK_OFFSET(0xB96DFE0)
-#define MJKAAFGONCL_KJNMMFEAFCH_OFFSET UNITYSDK_OFFSET(0xB96E0F0)
-#define MJKAAFGONCL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB96DE10)
-#define MJKAAFGONCL_MDJBPLKFAKP_OFFSET UNITYSDK_OFFSET(0xB96E190)
-#define MJKAAFGONCL_OJOFNANIKLC_OFFSET UNITYSDK_OFFSET(0xB96DE90)
+#define MJKAAFGONCL_CTOR_OFFSET UNITYSDK_OFFSET(0xC227700)
+#define MJKAAFGONCL_EFJNHEPHDJM_OFFSET UNITYSDK_OFFSET(0xC2274B0)
+#define MJKAAFGONCL_KJNMMFEAFCH_OFFSET UNITYSDK_OFFSET(0xC2275C0)
+#define MJKAAFGONCL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC2272F0)
+#define MJKAAFGONCL_MDJBPLKFAKP_OFFSET UNITYSDK_OFFSET(0xC227660)
+#define MJKAAFGONCL_OJOFNANIKLC_OFFSET UNITYSDK_OFFSET(0xC227360)
 
-inline static constexpr unsigned int MJKAAFGONCL_TypeDefinitionIndex = 65502;
+inline static constexpr unsigned int MJKAAFGONCL_TypeDefinitionIndex = 67416;
 
 	class MJKAAFGONCL : public ::System::Object
 	{
 	public:
-		::RPG::Client::GridFightTeam* GJHCMKBNING; // 0x10
-		::RPG::Client::GridFightConsumableInfo* KBOHJOMPLKH; // 0x18
-		::RPG::Client::GridFightEquipInfo* NCHCLADAFBP; // 0x20
+		::RPG::Client::GridFightConsumableInfo* KBOHJOMPLKH; // 0x10
+		::RPG::Client::GridFightEquipInfo* NCHCLADAFBP; // 0x18
+		::RPG::Client::GridFightTeam* GJHCMKBNING; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MJKAAFGONCL_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class FreeStyleController; }
 
-#define IMPNPPMLNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x164E58E0)
-#define IMPNPPMLNPH_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x164E5890)
+#define IMPNPPMLNPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB815230)
+#define IMPNPPMLNPH_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB8151E0)
 
-inline static constexpr unsigned int IMPNPPMLNPH_TypeDefinitionIndex = 57273;
+inline static constexpr unsigned int IMPNPPMLNPH_TypeDefinitionIndex = 58500;
 
 	class IMPNPPMLNPH : public ::System::Object
 	{

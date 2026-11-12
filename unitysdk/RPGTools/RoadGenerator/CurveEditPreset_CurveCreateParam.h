@@ -3,11 +3,11 @@
 #include "unitysdk/RPGTools/RoadGenerator/CurveCreateMode.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET_CURVECREATEPARAM_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8A7EB0)
+#define RPGTOOLS_ROADGENERATOR_CURVEEDITPRESET_CURVECREATEPARAM_CCTOR_OFFSET UNITYSDK_OFFSET(0xF3794F0)
 
 namespace RPGTools::RoadGenerator
 {
-	inline static constexpr unsigned int CurveEditPreset_CurveCreateParam_TypeDefinitionIndex = 48864;
+	inline static constexpr unsigned int CurveEditPreset_CurveCreateParam_TypeDefinitionIndex = 49910;
 
 	struct alignas(4) CurveEditPreset_CurveCreateParam
 	{
@@ -20,7 +20,7 @@ namespace RPGTools::RoadGenerator
 		::System::Single TotalHeight; // 0x30
 		static ::RPGTools::RoadGenerator::CurveEditPreset_CurveCreateParam* StaticGet_Default()
 		{
-			return (::RPGTools::RoadGenerator::CurveEditPreset_CurveCreateParam*)UnitySDK::FromName("RPGTools.RoadGenerator", "CurveCreateParam")->GetStaticField(0x159B0);
+			return (::RPGTools::RoadGenerator::CurveEditPreset_CurveCreateParam*)UnitySDK::FromName("RPGTools.RoadGenerator", "CurveCreateParam")->GetStaticField(0x16470);
 		}
 
 		static ::System::Void _cctor()

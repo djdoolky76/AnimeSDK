@@ -11,29 +11,29 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CFIDDJKANKG_CGNJAJMEKOI_OFFSET UNITYSDK_OFFSET(0xCC4DDC0)
-#define CFIDDJKANKG_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4CA60)
-#define CFIDDJKANKG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC4CBE0)
-#define CFIDDJKANKG_IGHNLNEHFOI_OFFSET UNITYSDK_OFFSET(0xCC4DD80)
-#define CFIDDJKANKG_IMHAOAICOPP_OFFSET UNITYSDK_OFFSET(0xCC4DE00)
-#define CFIDDJKANKG_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xCC4DEB0)
-#define CFIDDJKANKG_NCMDGGHBPFD_OFFSET UNITYSDK_OFFSET(0xCC4DD40)
-#define CFIDDJKANKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC4CD50)
-#define CFIDDJKANKG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCC4DAF0)
-#define CFIDDJKANKG_TICK_OFFSET UNITYSDK_OFFSET(0xCC4DC50)
+#define CFIDDJKANKG_CGNJAJMEKOI_OFFSET UNITYSDK_OFFSET(0xD5FB3D0)
+#define CFIDDJKANKG_CTOR_OFFSET UNITYSDK_OFFSET(0xD5FA0D0)
+#define CFIDDJKANKG_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD5FA250)
+#define CFIDDJKANKG_IGHNLNEHFOI_OFFSET UNITYSDK_OFFSET(0xD5FB390)
+#define CFIDDJKANKG_IMHAOAICOPP_OFFSET UNITYSDK_OFFSET(0xD5FB410)
+#define CFIDDJKANKG_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xD5FB4C0)
+#define CFIDDJKANKG_NCMDGGHBPFD_OFFSET UNITYSDK_OFFSET(0xD5FB350)
+#define CFIDDJKANKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5FA3C0)
+#define CFIDDJKANKG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD5FB120)
+#define CFIDDJKANKG_TICK_OFFSET UNITYSDK_OFFSET(0xD5FB280)
 
-inline static constexpr unsigned int CFIDDJKANKG_TypeDefinitionIndex = 55107;
+inline static constexpr unsigned int CFIDDJKANKG_TypeDefinitionIndex = 56284;
 
 	class CFIDDJKANKG : public ::GELIALJDFBL
 	{
 	public:
-		::ENEIHJJPNPI* HGGIIDBDGKD; // 0x18
-		::RPG::GameCore::GameEntityList* OOEJOOBDCHC; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* BPGGBFAHLHM; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* BPGGBFAHLHM; // 0x18
+		::KFELGAIGHAP* HFOFIODMFGB; // 0x20
+		::ENEIHJJPNPI* HGGIIDBDGKD; // 0x28
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::KFELGAIGHAP*>* ONOOIGMOCMB; // 0x38
-		::RPG::GameCore::IncludeTaskListTemplate* OFKGLJOAMLD; // 0x40
-		::KFELGAIGHAP* HFOFIODMFGB; // 0x48
+		::RPG::GameCore::GameEntityList* OOEJOOBDCHC; // 0x38
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::KFELGAIGHAP*>* ONOOIGMOCMB; // 0x40
+		::RPG::GameCore::IncludeTaskListTemplate* OFKGLJOAMLD; // 0x48
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::IncludeTaskListTemplate* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::IncludeTaskListTemplate*))((::PBYTE)hIl2Cpp + CFIDDJKANKG_CTOR_OFFSET))(this, a1, a2);

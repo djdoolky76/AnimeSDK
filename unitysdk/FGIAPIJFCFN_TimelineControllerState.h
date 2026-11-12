@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FGIAPIJFCFN_TimelineControllerState_TypeDefinitionIndex = 60765;
+inline static constexpr unsigned int FGIAPIJFCFN_TimelineControllerState_TypeDefinitionIndex = 62142;
 
 	enum class FGIAPIJFCFN_TimelineControllerState : ::System::Int32
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class SetEnergyBarState; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETENERGYBARSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAAF890)
-#define RPG_GAMECORE_SETENERGYBARSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAAF9E0)
-#define RPG_GAMECORE_SETENERGYBARSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAAF850)
+#define RPG_GAMECORE_SETENERGYBARSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECC1BD0)
+#define RPG_GAMECORE_SETENERGYBARSTATE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECC1D20)
+#define RPG_GAMECORE_SETENERGYBARSTATE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECC1B90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetEnergyBarState_TypeDefinitionIndex = 22737;
+	inline static constexpr unsigned int SetEnergyBarState_TypeDefinitionIndex = 23159;
 
 	class SetEnergyBarState : public ::RPG::GameCore::TaskConfig
 	{

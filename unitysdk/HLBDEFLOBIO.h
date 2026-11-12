@@ -8,25 +8,25 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HLBDEFLOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D5A3A0)
-#define HLBDEFLOBIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D59730)
-#define HLBDEFLOBIO_FOEFKIBDGMD_OFFSET UNITYSDK_OFFSET(0x15D59770)
-#define HLBDEFLOBIO_GIKHNIDBMCP_OFFSET UNITYSDK_OFFSET(0x15D59ED0)
-#define HLBDEFLOBIO_HFFPBOBJADB_OFFSET UNITYSDK_OFFSET(0x15D59B20)
-#define HLBDEFLOBIO_JGMLLOGAFFE_OFFSET UNITYSDK_OFFSET(0x15D59680)
+#define HLBDEFLOBIO_CTOR_OFFSET UNITYSDK_OFFSET(0x16CB3460)
+#define HLBDEFLOBIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16CB2800)
+#define HLBDEFLOBIO_FOEFKIBDGMD_OFFSET UNITYSDK_OFFSET(0x16CB2840)
+#define HLBDEFLOBIO_GIKHNIDBMCP_OFFSET UNITYSDK_OFFSET(0x16CB2FA0)
+#define HLBDEFLOBIO_HFFPBOBJADB_OFFSET UNITYSDK_OFFSET(0x16CB2BF0)
+#define HLBDEFLOBIO_JGMLLOGAFFE_OFFSET UNITYSDK_OFFSET(0x16CB2750)
 
-inline static constexpr unsigned int HLBDEFLOBIO_TypeDefinitionIndex = 60156;
+inline static constexpr unsigned int HLBDEFLOBIO_TypeDefinitionIndex = 61440;
 
 	class HLBDEFLOBIO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* FIIICPCKMGM; // 0x10
-		::System::Collections::Generic::List_1<::System::UInt32>* PEKHPFIABFP; // 0x18
-		::RPG::Client::AchievementData* JDHNECALNJB; // 0x20
+		::System::Collections::Generic::List_1<::System::UInt32>* HJFEGLFPIHA; // 0x10
+		::RPG::Client::AchievementData* JDHNECALNJB; // 0x18
+		::System::Collections::Generic::List_1<::System::UInt32>* PEKHPFIABFP; // 0x20
 		::RPG::Client::AchievementData* BBCKPPKLFII; // 0x28
-		::System::Collections::Generic::List_1<::System::UInt32>* HJFEGLFPIHA; // 0x30
-		::System::UInt32 KLEFBLNIMJE; // 0x38
-		::System::UInt32 EAOPIJCBMIJ; // 0x3C
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* FIIICPCKMGM; // 0x30
+		::System::UInt32 EAOPIJCBMIJ; // 0x38
+		::System::UInt32 KLEFBLNIMJE; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HLBDEFLOBIO_CTOR_OFFSET))(this);

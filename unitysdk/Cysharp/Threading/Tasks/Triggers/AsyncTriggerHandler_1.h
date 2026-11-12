@@ -11,7 +11,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
-	inline static constexpr unsigned int AsyncTriggerHandler_1_TypeDefinitionIndex = 38503;
+	inline static constexpr unsigned int AsyncTriggerHandler_1_TypeDefinitionIndex = 39432;
 
 	template <typename T>
 	class AsyncTriggerHandler_1 : public ::System::Object

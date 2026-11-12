@@ -3,18 +3,18 @@
 #include "unitysdk/RPG/GameCore/LevelDataComponent_PerMonster_State.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_GAMECORE_LEVELDATACOMPONENT_PERMONSTER_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E6460)
+#define RPG_GAMECORE_LEVELDATACOMPONENT_PERMONSTER_CTOR_OFFSET UNITYSDK_OFFSET(0xF1E8530)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDataComponent_PerMonster_TypeDefinitionIndex = 57596;
+	inline static constexpr unsigned int LevelDataComponent_PerMonster_TypeDefinitionIndex = 58824;
 
 	class LevelDataComponent_PerMonster : public ::System::Object
 	{
 	public:
-		::System::UInt32 MonsterRuntimeID; // 0x10
-		::System::UInt32 MonsterID; // 0x14
-		::RPG::GameCore::LevelDataComponent_PerMonster_State SummonState; // 0x18
+		::System::UInt32 MonsterID; // 0x10
+		::RPG::GameCore::LevelDataComponent_PerMonster_State SummonState; // 0x14
+		::System::UInt32 MonsterRuntimeID; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELDATACOMPONENT_PERMONSTER_CTOR_OFFSET))(this);

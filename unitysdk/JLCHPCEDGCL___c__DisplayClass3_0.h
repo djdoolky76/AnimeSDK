@@ -4,10 +4,10 @@
 class JLCHPCEDGCL;
 namespace System { class Action; }
 
-#define JLCHPCEDGCL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB238E90)
-#define JLCHPCEDGCL___C__DISPLAYCLASS3_0__CREATEANDSTARTLG_B__0_OFFSET UNITYSDK_OFFSET(0xB239300)
+#define JLCHPCEDGCL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA60E30)
+#define JLCHPCEDGCL___C__DISPLAYCLASS3_0__CREATEANDSTARTLG_B__0_OFFSET UNITYSDK_OFFSET(0xBA612A0)
 
-inline static constexpr unsigned int JLCHPCEDGCL___c__DisplayClass3_0_TypeDefinitionIndex = 75479;
+inline static constexpr unsigned int JLCHPCEDGCL___c__DisplayClass3_0_TypeDefinitionIndex = 77806;
 
 	class JLCHPCEDGCL___c__DisplayClass3_0 : public ::System::Object
 	{

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_ABTESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC20EA0)
+#define MIHOYO_SDK_ABTESTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDA9D40)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ABTestConfig_TypeDefinitionIndex = 7861;
+	inline static constexpr unsigned int ABTestConfig_TypeDefinitionIndex = 7870;
 
 	class ABTestConfig : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/ABLJFELHPOE.h"
 #include "unitysdk/System/Object.h"
 
-#define JGNANLCCPNN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB94A50)
-#define JGNANLCCPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94AA0)
+#define JGNANLCCPNN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DD5AE70)
+#define JGNANLCCPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5AEC0)
 
-inline static constexpr unsigned int JGNANLCCPNN_TypeDefinitionIndex = 43491;
+inline static constexpr unsigned int JGNANLCCPNN_TypeDefinitionIndex = 44473;
 
 	class JGNANLCCPNN : public ::System::Object
 	{

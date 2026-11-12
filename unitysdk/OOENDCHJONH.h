@@ -3,10 +3,10 @@
 class ONMOHNKNAID;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OOENDCHJONH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF79B30)
-#define OOENDCHJONH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF79B60)
+#define OOENDCHJONH_CTOR_OFFSET UNITYSDK_OFFSET(0xC87A060)
+#define OOENDCHJONH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC87A090)
 
-inline static constexpr unsigned int OOENDCHJONH_TypeDefinitionIndex = 52963;
+inline static constexpr unsigned int OOENDCHJONH_TypeDefinitionIndex = 54122;
 
 	class OOENDCHJONH
 	{

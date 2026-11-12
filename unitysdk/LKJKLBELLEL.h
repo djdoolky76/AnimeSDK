@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentVCameraConfigCaster; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKJKLBELLEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB752BB0)
-#define LKJKLBELLEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB752BE0)
+#define LKJKLBELLEL_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF0810)
+#define LKJKLBELLEL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFF0840)
 
-inline static constexpr unsigned int LKJKLBELLEL_TypeDefinitionIndex = 55798;
+inline static constexpr unsigned int LKJKLBELLEL_TypeDefinitionIndex = 57001;
 
 	class LKJKLBELLEL
 	{

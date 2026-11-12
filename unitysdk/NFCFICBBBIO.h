@@ -5,11 +5,11 @@
 namespace RPG::Client { class SwordTrainingStatusChangeInfo; }
 namespace RPG::GameCore { class SwordTrainingEffectRow; }
 
-#define NFCFICBBBIO_ABMAJIMOMBA_OFFSET UNITYSDK_OFFSET(0xBB78E70)
-#define NFCFICBBBIO_BOEPEMKFPDH_OFFSET UNITYSDK_OFFSET(0xBB78DD0)
-#define NFCFICBBBIO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB78D10)
+#define NFCFICBBBIO_ABMAJIMOMBA_OFFSET UNITYSDK_OFFSET(0xC453FE0)
+#define NFCFICBBBIO_BOEPEMKFPDH_OFFSET UNITYSDK_OFFSET(0xC453F40)
+#define NFCFICBBBIO_CTOR_OFFSET UNITYSDK_OFFSET(0xC453E80)
 
-inline static constexpr unsigned int NFCFICBBBIO_TypeDefinitionIndex = 75023;
+inline static constexpr unsigned int NFCFICBBBIO_TypeDefinitionIndex = 77350;
 
 	class NFCFICBBBIO : public ::BNAIELOHEFF
 	{

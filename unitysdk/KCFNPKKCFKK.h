@@ -8,26 +8,26 @@ class MDHODFHBAAO;
 namespace RPG::LittleGameShare::HoyoPhysics { class PhysicsCollider2DFilterConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KCFNPKKCFKK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C70CC00)
-#define KCFNPKKCFKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70CBF0)
-#define KCFNPKKCFKK_HBKBDBGNGCO_OFFSET UNITYSDK_OFFSET(0x1C70C060)
-#define KCFNPKKCFKK_JOHEBLJAFKD_OFFSET UNITYSDK_OFFSET(0x1C70BF10)
-#define KCFNPKKCFKK_LJCNOHPGAMN_OFFSET UNITYSDK_OFFSET(0x1C70C910)
-#define KCFNPKKCFKK_NBFPFDKJJNE_OFFSET UNITYSDK_OFFSET(0x1C70BFE0)
+#define KCFNPKKCFKK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D88E5E0)
+#define KCFNPKKCFKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88E5D0)
+#define KCFNPKKCFKK_HBKBDBGNGCO_OFFSET UNITYSDK_OFFSET(0x1D88DA40)
+#define KCFNPKKCFKK_JOHEBLJAFKD_OFFSET UNITYSDK_OFFSET(0x1D88D8F0)
+#define KCFNPKKCFKK_LJCNOHPGAMN_OFFSET UNITYSDK_OFFSET(0x1D88E2F0)
+#define KCFNPKKCFKK_NBFPFDKJJNE_OFFSET UNITYSDK_OFFSET(0x1D88D9C0)
 
-inline static constexpr unsigned int KCFNPKKCFKK_TypeDefinitionIndex = 37177;
+inline static constexpr unsigned int KCFNPKKCFKK_TypeDefinitionIndex = 38105;
 
 	class KCFNPKKCFKK : public ::System::Object
 	{
 	public:
-		static ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig** StaticGet_JKBDFGBDFDD()
-		{
-			return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)UnitySDK::FromName("", "KCFNPKKCFKK")->GetStaticField(0x12930);
-		}
-
 		static ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig** StaticGet_FFPMCODFHPG()
 		{
-			return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)UnitySDK::FromName("", "KCFNPKKCFKK")->GetStaticField(0x12938);
+			return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)UnitySDK::FromName("", "KCFNPKKCFKK")->GetStaticField(0x9770);
+		}
+
+		static ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig** StaticGet_JKBDFGBDFDD()
+		{
+			return (::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DFilterConfig**)UnitySDK::FromName("", "KCFNPKKCFKK")->GetStaticField(0x9778);
 		}
 
 		// static const ::System::Object GHAIJJDAOJG; // 0x0

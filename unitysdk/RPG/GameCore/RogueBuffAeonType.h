@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBuffAeonType_TypeDefinitionIndex = 14724;
+	inline static constexpr unsigned int RogueBuffAeonType_TypeDefinitionIndex = 14880;
 
 	enum class RogueBuffAeonType : ::System::Int32
 	{

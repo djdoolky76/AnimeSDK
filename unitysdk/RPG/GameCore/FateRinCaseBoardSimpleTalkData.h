@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FateRinCaseBoardSimpleTalkData; }
 
-#define RPG_GAMECORE_FATERINCASEBOARDSIMPLETALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D69E5A0)
-#define RPG_GAMECORE_FATERINCASEBOARDSIMPLETALKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D69E470)
+#define RPG_GAMECORE_FATERINCASEBOARDSIMPLETALKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AAF10)
+#define RPG_GAMECORE_FATERINCASEBOARDSIMPLETALKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8AADE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FateRinCaseBoardSimpleTalkData_TypeDefinitionIndex = 19932;
+	inline static constexpr unsigned int FateRinCaseBoardSimpleTalkData_TypeDefinitionIndex = 20261;
 
 	class FateRinCaseBoardSimpleTalkData : public ::RPG::GameCore::JsonConfig
 	{

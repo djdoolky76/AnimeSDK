@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class KCMILMCIDIO;
 
-#define MKACPGGHPDO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92C8F0)
-#define MKACPGGHPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C970)
+#define MKACPGGHPDO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAEDDF0)
+#define MKACPGGHPDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEDE50)
 
-inline static constexpr unsigned int MKACPGGHPDO_TypeDefinitionIndex = 43270;
+inline static constexpr unsigned int MKACPGGHPDO_TypeDefinitionIndex = 44251;
 
 	class MKACPGGHPDO : public ::System::Object
 	{

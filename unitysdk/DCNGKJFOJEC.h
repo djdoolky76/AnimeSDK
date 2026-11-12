@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BaseAdventureCameraLookAt; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DCNGKJFOJEC_CTOR_OFFSET UNITYSDK_OFFSET(0xE2523E0)
-#define DCNGKJFOJEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE252410)
+#define DCNGKJFOJEC_CTOR_OFFSET UNITYSDK_OFFSET(0xEE0D3A0)
+#define DCNGKJFOJEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEE0D3D0)
 
-inline static constexpr unsigned int DCNGKJFOJEC_TypeDefinitionIndex = 54873;
+inline static constexpr unsigned int DCNGKJFOJEC_TypeDefinitionIndex = 56043;
 
 	class DCNGKJFOJEC
 	{

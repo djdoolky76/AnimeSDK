@@ -7,22 +7,22 @@ class HCIOAKJMLDA;
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define INHFINPHDJE_CCTOR_OFFSET UNITYSDK_OFFSET(0x164EF0D0)
-#define INHFINPHDJE_MLLBLLHGFCA_OFFSET UNITYSDK_OFFSET(0x164EF3C0)
+#define INHFINPHDJE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8200A0)
+#define INHFINPHDJE_MLLBLLHGFCA_OFFSET UNITYSDK_OFFSET(0xB820390)
 
-inline static constexpr unsigned int INHFINPHDJE_TypeDefinitionIndex = 56022;
+inline static constexpr unsigned int INHFINPHDJE_TypeDefinitionIndex = 57226;
 
 	class INHFINPHDJE : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMode, ::System::Type*>** StaticGet_PMNIFHJNFHP()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMode, ::System::Type*>**)UnitySDK::FromName("", "INHFINPHDJE")->GetStaticField(0x6C760);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StageType, ::System::Type*>** StaticGet_AJCICNJHJCP()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StageType, ::System::Type*>**)UnitySDK::FromName("", "INHFINPHDJE")->GetStaticField(0x6C768);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StageType, ::System::Type*>**)UnitySDK::FromName("", "INHFINPHDJE")->GetStaticField(0x55840);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMode, ::System::Type*>** StaticGet_PMNIFHJNFHP()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMode, ::System::Type*>**)UnitySDK::FromName("", "INHFINPHDJE")->GetStaticField(0x55848);
 		}
 
 		static ::System::Void _cctor()

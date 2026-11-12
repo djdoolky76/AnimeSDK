@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class AvatarPathChangeVirtualCameraBlendConfig; }
 
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC707630)
-#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0__STARTBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xC707650)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD067F60)
+#define RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0__STARTBLEND_B__0_OFFSET UNITYSDK_OFFSET(0xD067F80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPathChangeCameraController___c__DisplayClass5_0_TypeDefinitionIndex = 71335;
+	inline static constexpr unsigned int AvatarPathChangeCameraController___c__DisplayClass5_0_TypeDefinitionIndex = 73312;
 
 	class AvatarPathChangeCameraController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::UInt32 fromAvatarID; // 0x10
-		::System::UInt32 toAvatarID; // 0x14
+		::System::UInt32 toAvatarID; // 0x10
+		::System::UInt32 fromAvatarID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_AVATARPATHCHANGECAMERACONTROLLER___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

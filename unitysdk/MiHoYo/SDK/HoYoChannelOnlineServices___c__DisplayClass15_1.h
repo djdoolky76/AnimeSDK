@@ -4,12 +4,12 @@
 namespace MiHoYo::SDK::PC::OS { class HoYoChannelCheckPermissionResult; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES___C__DISPLAYCLASS15_1_CTOR_OFFSET UNITYSDK_OFFSET(0xAF9AFE0)
-#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES___C__DISPLAYCLASS15_1__CLEANUPTIMEDOUTCALLBACKS_B__1_OFFSET UNITYSDK_OFFSET(0xAF9B370)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES___C__DISPLAYCLASS15_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB5FC5C0)
+#define MIHOYO_SDK_HOYOCHANNELONLINESERVICES___C__DISPLAYCLASS15_1__CLEANUPTIMEDOUTCALLBACKS_B__1_OFFSET UNITYSDK_OFFSET(0xB5FC950)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelOnlineServices___c__DisplayClass15_1_TypeDefinitionIndex = 46542;
+	inline static constexpr unsigned int HoYoChannelOnlineServices___c__DisplayClass15_1_TypeDefinitionIndex = 47570;
 
 	template <typename T>
 	class HoYoChannelOnlineServices___c__DisplayClass15_1 : public ::System::Object

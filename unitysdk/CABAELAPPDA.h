@@ -11,7 +11,7 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int CABAELAPPDA_TypeDefinitionIndex = 44251;
+inline static constexpr unsigned int CABAELAPPDA_TypeDefinitionIndex = 45326;
 
 	struct alignas(8) CABAELAPPDA
 	{

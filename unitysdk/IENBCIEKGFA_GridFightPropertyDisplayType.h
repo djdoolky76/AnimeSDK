@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IENBCIEKGFA_GridFightPropertyDisplayType_TypeDefinitionIndex = 65291;
+inline static constexpr unsigned int IENBCIEKGFA_GridFightPropertyDisplayType_TypeDefinitionIndex = 67051;
 
 	enum class IENBCIEKGFA_GridFightPropertyDisplayType : ::System::Int32
 	{

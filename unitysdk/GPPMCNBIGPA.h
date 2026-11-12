@@ -5,11 +5,11 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 
-#define GPPMCNBIGPA_CTOR_OFFSET UNITYSDK_OFFSET(0x15B690F0)
-#define GPPMCNBIGPA_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x15B69020)
-#define GPPMCNBIGPA_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x15B68F40)
+#define GPPMCNBIGPA_CTOR_OFFSET UNITYSDK_OFFSET(0x16AEEE50)
+#define GPPMCNBIGPA_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x16AEED80)
+#define GPPMCNBIGPA_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x16AEECA0)
 
-inline static constexpr unsigned int GPPMCNBIGPA_TypeDefinitionIndex = 69824;
+inline static constexpr unsigned int GPPMCNBIGPA_TypeDefinitionIndex = 71783;
 
 	class GPPMCNBIGPA : public ::System::Object
 	{

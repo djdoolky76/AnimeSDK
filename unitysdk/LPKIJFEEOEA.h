@@ -4,15 +4,15 @@
 class PMDPEENJIHC;
 namespace System { class String; }
 
-#define LPKIJFEEOEA_CTOR_OFFSET UNITYSDK_OFFSET(0xB822920)
+#define LPKIJFEEOEA_CTOR_OFFSET UNITYSDK_OFFSET(0xC083E50)
 
-inline static constexpr unsigned int LPKIJFEEOEA_TypeDefinitionIndex = 64791;
+inline static constexpr unsigned int LPKIJFEEOEA_TypeDefinitionIndex = 66335;
 
 	class LPKIJFEEOEA : public ::System::Object
 	{
 	public:
-		::System::String* ID; // 0x10
-		::System::String* OpType; // 0x18
+		::System::String* OpType; // 0x10
+		::System::String* ID; // 0x18
 		::PMDPEENJIHC* Base; // 0x20
 		::System::Void _ctor()
 		{

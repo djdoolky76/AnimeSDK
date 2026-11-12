@@ -7,24 +7,24 @@
 class BEAIJJCDJHO;
 namespace System { class String; }
 
-#define BEAIJJCDJHO_CTOR_OFFSET UNITYSDK_OFFSET(0x16309370)
-#define BEAIJJCDJHO_EHMHHDKBGIL_OFFSET UNITYSDK_OFFSET(0x16309710)
-#define BEAIJJCDJHO_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x163097D0)
-#define BEAIJJCDJHO_IICAABCDHPM_1_OFFSET UNITYSDK_OFFSET(0x16309660)
-#define BEAIJJCDJHO_IICAABCDHPM_OFFSET UNITYSDK_OFFSET(0x163093C0)
-#define BEAIJJCDJHO_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0x16309380)
+#define BEAIJJCDJHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C0200)
+#define BEAIJJCDJHO_EHMHHDKBGIL_OFFSET UNITYSDK_OFFSET(0xB7C05A0)
+#define BEAIJJCDJHO_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB7C0660)
+#define BEAIJJCDJHO_IICAABCDHPM_1_OFFSET UNITYSDK_OFFSET(0xB7C04F0)
+#define BEAIJJCDJHO_IICAABCDHPM_OFFSET UNITYSDK_OFFSET(0xB7C0250)
+#define BEAIJJCDJHO_MFCOINKALKA_OFFSET UNITYSDK_OFFSET(0xB7C0210)
 
-inline static constexpr unsigned int BEAIJJCDJHO_TypeDefinitionIndex = 70160;
+inline static constexpr unsigned int BEAIJJCDJHO_TypeDefinitionIndex = 72126;
 
 	class BEAIJJCDJHO : public ::System::Object
 	{
 	public:
-		::System::Boolean BHMGBPJCFBK; // 0x10
-		::System::Boolean KCOEPCMEJCB; // 0x11
-		::System::Boolean IOBJFEJFLJP; // 0x12
+		::RPG::GameCore::PPEffectFilterPriority NALMBOOCCIN; // 0x10
+		::System::Boolean IOBJFEJFLJP; // 0x14
+		::System::Boolean BHMGBPJCFBK; // 0x15
+		::System::Boolean KCOEPCMEJCB; // 0x16
 		::System::Byte _padding0[0x1];
-		::RPG::GameCore::PPEffectFilterPriorityGroup OMJNGMHJPBD; // 0x14
-		::RPG::GameCore::PPEffectFilterPriority NALMBOOCCIN; // 0x18
+		::RPG::GameCore::PPEffectFilterPriorityGroup OMJNGMHJPBD; // 0x18
 		::System::Void _ctor(::RPG::GameCore::PPEffectFilterPriorityGroup a1, ::RPG::GameCore::PPEffectFilterPriority a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::PPEffectFilterPriorityGroup, ::RPG::GameCore::PPEffectFilterPriority))((::PBYTE)hIl2Cpp + BEAIJJCDJHO_CTOR_OFFSET))(this, a1, a2);

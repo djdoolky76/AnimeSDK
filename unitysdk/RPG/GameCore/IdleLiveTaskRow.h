@@ -5,18 +5,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveTaskRow; }
 
-#define RPG_GAMECORE_IDLELIVETASKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7809E0)
-#define RPG_GAMECORE_IDLELIVETASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7807E0)
+#define RPG_GAMECORE_IDLELIVETASKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E994110)
+#define RPG_GAMECORE_IDLELIVETASKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E993F10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveTaskRow_TypeDefinitionIndex = 11726;
+	inline static constexpr unsigned int IdleLiveTaskRow_TypeDefinitionIndex = 11783;
 
 	class IdleLiveTaskRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FinishwayID; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 FinishwayID; // 0x14
 		::System::UInt32 RewardID; // 0x18
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Desc; // 0x20

@@ -6,7 +6,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class ListView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-inline static constexpr unsigned int LEHADCICFPP___c__DisplayClass3_0_TypeDefinitionIndex = 49801;
+inline static constexpr unsigned int LEHADCICFPP___c__DisplayClass3_0_TypeDefinitionIndex = 50849;
 
 	class LEHADCICFPP___c__DisplayClass3_0 : public ::System::Object
 	{

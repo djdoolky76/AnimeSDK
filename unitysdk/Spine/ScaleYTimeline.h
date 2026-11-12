@@ -7,13 +7,13 @@ namespace Spine { class Event; }
 namespace Spine { class Skeleton; }
 namespace Spine { template <typename T> class ExposedList_1; }
 
-#define SPINE_SCALEYTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1ECB0080)
-#define SPINE_SCALEYTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECB0000)
-#define SPINE_SCALEYTIMELINE_GET_BONEINDEX_OFFSET UNITYSDK_OFFSET(0x1ECB0070)
+#define SPINE_SCALEYTIMELINE_APPLY_OFFSET UNITYSDK_OFFSET(0x1FF60830)
+#define SPINE_SCALEYTIMELINE_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF607B0)
+#define SPINE_SCALEYTIMELINE_GET_BONEINDEX_OFFSET UNITYSDK_OFFSET(0x1FF60820)
 
 namespace Spine
 {
-	inline static constexpr unsigned int ScaleYTimeline_TypeDefinitionIndex = 39609;
+	inline static constexpr unsigned int ScaleYTimeline_TypeDefinitionIndex = 40538;
 
 	class ScaleYTimeline : public ::Spine::CurveTimeline1
 	{

@@ -5,19 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TarotExperimentFilesRow; }
 
-#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB77C20)
-#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB77A60)
+#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE273D0)
+#define RPG_GAMECORE_TAROTEXPERIMENTFILESROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE27210)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TarotExperimentFilesRow_TypeDefinitionIndex = 15241;
+	inline static constexpr unsigned int TarotExperimentFilesRow_TypeDefinitionIndex = 15397;
 
 	class TarotExperimentFilesRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 ID; // 0x10
-		::System::UInt32 VoiceID; // 0x14
-		::RPG::Client::TextID Sentence; // 0x18
+		::RPG::Client::TextID Sentence; // 0x10
+		::System::UInt32 VoiceID; // 0x20
+		::System::UInt32 ID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TAROTEXPERIMENTFILESROW_CTOR_OFFSET))(this);

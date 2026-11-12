@@ -4,18 +4,18 @@
 class BMDEEMIDNEL;
 namespace System { class Object; }
 
-#define BMDEEMIDNEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0236F0)
-#define BMDEEMIDNEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E023720)
-#define BMDEEMIDNEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E023730)
+#define BMDEEMIDNEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2C7F00)
+#define BMDEEMIDNEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C7F30)
+#define BMDEEMIDNEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2C7F40)
 
-inline static constexpr unsigned int BMDEEMIDNEL___c_TypeDefinitionIndex = 30264;
+inline static constexpr unsigned int BMDEEMIDNEL___c_TypeDefinitionIndex = 31166;
 
 	class BMDEEMIDNEL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x50050);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x51500);
 		}
 
 		static ::System::Void _cctor()

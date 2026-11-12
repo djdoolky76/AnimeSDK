@@ -4,18 +4,18 @@
 class FHNOLIMEEOM;
 namespace System { class Object; }
 
-#define FHNOLIMEEOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3937E0)
-#define FHNOLIMEEOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E393820)
-#define FHNOLIMEEOM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E393830)
+#define FHNOLIMEEOM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F698780)
+#define FHNOLIMEEOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6987C0)
+#define FHNOLIMEEOM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F6987D0)
 
-inline static constexpr unsigned int FHNOLIMEEOM___c_TypeDefinitionIndex = 26724;
+inline static constexpr unsigned int FHNOLIMEEOM___c_TypeDefinitionIndex = 27255;
 
 	class FHNOLIMEEOM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FDA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44300);
 		}
 
 		static ::System::Void _cctor()

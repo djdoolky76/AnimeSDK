@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/Entitas/CodeGeneration/Attributes/ContextAttribute.h"
 
-#define LFFGCEDJFCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73AC70)
+#define LFFGCEDJFCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BC610)
 
-inline static constexpr unsigned int LFFGCEDJFCH_TypeDefinitionIndex = 37059;
+inline static constexpr unsigned int LFFGCEDJFCH_TypeDefinitionIndex = 37987;
 
 	class LFFGCEDJFCH : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{

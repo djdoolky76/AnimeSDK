@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByGridFightTraitBonus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFMHEKHJPPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB173500)
-#define BFMHEKHJPPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1735E0)
+#define BFMHEKHJPPC_CTOR_OFFSET UNITYSDK_OFFSET(0xBAFB070)
+#define BFMHEKHJPPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAFB150)
 
-inline static constexpr unsigned int BFMHEKHJPPC_TypeDefinitionIndex = 55441;
+inline static constexpr unsigned int BFMHEKHJPPC_TypeDefinitionIndex = 56627;
 
 	class BFMHEKHJPPC
 	{

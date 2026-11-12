@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByAttackSkillEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HLOANOFPIAF_CTOR_OFFSET UNITYSDK_OFFSET(0x15D736A0)
-#define HLOANOFPIAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D736D0)
+#define HLOANOFPIAF_CTOR_OFFSET UNITYSDK_OFFSET(0x16CCEA10)
+#define HLOANOFPIAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16CCEA40)
 
-inline static constexpr unsigned int HLOANOFPIAF_TypeDefinitionIndex = 54484;
+inline static constexpr unsigned int HLOANOFPIAF_TypeDefinitionIndex = 55648;
 
 	class HLOANOFPIAF
 	{

@@ -10,12 +10,12 @@ namespace RPG::GameCore { class ParallelAbility; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PARALLELABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8ECD60)
-#define RPG_GAMECORE_PARALLELABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8ECA50)
+#define RPG_GAMECORE_PARALLELABILITY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB062D0)
+#define RPG_GAMECORE_PARALLELABILITY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB05FC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParallelAbility_TypeDefinitionIndex = 22689;
+	inline static constexpr unsigned int ParallelAbility_TypeDefinitionIndex = 23111;
 
 	class ParallelAbility : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class ELBILFGFDHA;
 namespace System { class Object; }
 
-#define ELBILFGFDHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2C8E10)
-#define ELBILFGFDHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2C8E50)
-#define ELBILFGFDHA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2C8E60)
+#define ELBILFGFDHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F5ACF90)
+#define ELBILFGFDHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5ACFD0)
+#define ELBILFGFDHA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F5ACFE0)
 
-inline static constexpr unsigned int ELBILFGFDHA___c_TypeDefinitionIndex = 34805;
+inline static constexpr unsigned int ELBILFGFDHA___c_TypeDefinitionIndex = 35733;
 
 	class ELBILFGFDHA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E1A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x48A50);
 		}
 
 		static ::System::Void _cctor()

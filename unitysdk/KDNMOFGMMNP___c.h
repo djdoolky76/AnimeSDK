@@ -4,18 +4,18 @@
 class KDNMOFGMMNP;
 namespace System { class Object; }
 
-#define KDNMOFGMMNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8067D0)
-#define KDNMOFGMMNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E806800)
-#define KDNMOFGMMNP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E806810)
+#define KDNMOFGMMNP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB1CE70)
+#define KDNMOFGMMNP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB1CEA0)
+#define KDNMOFGMMNP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FB1CEB0)
 
-inline static constexpr unsigned int KDNMOFGMMNP___c_TypeDefinitionIndex = 33757;
+inline static constexpr unsigned int KDNMOFGMMNP___c_TypeDefinitionIndex = 34672;
 
 	class KDNMOFGMMNP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x115E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x93B0);
 		}
 
 		static ::System::Void _cctor()

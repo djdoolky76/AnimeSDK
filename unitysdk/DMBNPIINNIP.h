@@ -6,37 +6,37 @@ class AFMMIMLKEDK;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define DMBNPIINNIP_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB85B0)
-#define DMBNPIINNIP_GET_ARTPREFABPATH_OFFSET UNITYSDK_OFFSET(0xFEB8530)
-#define DMBNPIINNIP_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xFEB8500)
-#define DMBNPIINNIP_GET_EFFECTCOLORLIST_OFFSET UNITYSDK_OFFSET(0xFEB8590)
-#define DMBNPIINNIP_GET_ID_OFFSET UNITYSDK_OFFSET(0xFEB8510)
-#define DMBNPIINNIP_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xFEB85A0)
-#define DMBNPIINNIP_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0xFEB8540)
-#define DMBNPIINNIP_GET_NAME_OFFSET UNITYSDK_OFFSET(0xFEB8560)
-#define DMBNPIINNIP_GET_PAINTCOLORLIST_OFFSET UNITYSDK_OFFSET(0xFEB8580)
-#define DMBNPIINNIP_GET_POSELIST_OFFSET UNITYSDK_OFFSET(0xFEB8570)
-#define DMBNPIINNIP_GET_PREVIEWIMAGE_OFFSET UNITYSDK_OFFSET(0xFEB8550)
-#define DMBNPIINNIP_GET_UNLOCKCONDITIONID_OFFSET UNITYSDK_OFFSET(0xFEB8520)
+#define DMBNPIINNIP_CTOR_OFFSET UNITYSDK_OFFSET(0x10630D00)
+#define DMBNPIINNIP_GET_ARTPREFABPATH_OFFSET UNITYSDK_OFFSET(0x10630C80)
+#define DMBNPIINNIP_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0x10630C50)
+#define DMBNPIINNIP_GET_EFFECTCOLORLIST_OFFSET UNITYSDK_OFFSET(0x10630CE0)
+#define DMBNPIINNIP_GET_ID_OFFSET UNITYSDK_OFFSET(0x10630C60)
+#define DMBNPIINNIP_GET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0x10630CF0)
+#define DMBNPIINNIP_GET_ISSPECIAL_OFFSET UNITYSDK_OFFSET(0x10630C90)
+#define DMBNPIINNIP_GET_NAME_OFFSET UNITYSDK_OFFSET(0x10630CB0)
+#define DMBNPIINNIP_GET_PAINTCOLORLIST_OFFSET UNITYSDK_OFFSET(0x10630CD0)
+#define DMBNPIINNIP_GET_POSELIST_OFFSET UNITYSDK_OFFSET(0x10630CC0)
+#define DMBNPIINNIP_GET_PREVIEWIMAGE_OFFSET UNITYSDK_OFFSET(0x10630CA0)
+#define DMBNPIINNIP_GET_UNLOCKCONDITIONID_OFFSET UNITYSDK_OFFSET(0x10630C70)
 
-inline static constexpr unsigned int DMBNPIINNIP_TypeDefinitionIndex = 80120;
+inline static constexpr unsigned int DMBNPIINNIP_TypeDefinitionIndex = 82897;
 
 	class DMBNPIINNIP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _EffectColorList_k__BackingField; // 0x10
-		::System::String* _PreviewImage_k__BackingField; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _PaintColorList_k__BackingField; // 0x20
-		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _PoseList_k__BackingField; // 0x28
-		::System::String* _ArtPrefabPath_k__BackingField; // 0x30
-		::System::Int32 _CacheKey_k__BackingField; // 0x38
-		::System::UInt32 _ID_k__BackingField; // 0x3C
-		::System::UInt32 _UnlockConditionID_k__BackingField; // 0x40
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Name_k__BackingField; // 0x48
-		::System::Boolean _IsSpecial_k__BackingField; // 0x58
-		::System::Byte _padding1[0x3];
-		::System::UInt32 _InstanceID_k__BackingField; // 0x5C
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _PaintColorList_k__BackingField; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _EffectColorList_k__BackingField; // 0x18
+		::System::String* _PreviewImage_k__BackingField; // 0x20
+		::System::String* _ArtPrefabPath_k__BackingField; // 0x28
+		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _PoseList_k__BackingField; // 0x30
+		::System::UInt32 _ID_k__BackingField; // 0x38
+		::System::Boolean _IsSpecial_k__BackingField; // 0x3C
+		::System::Byte _padding0[0x3];
+		::System::Int32 _CacheKey_k__BackingField; // 0x40
+		::System::UInt32 _InstanceID_k__BackingField; // 0x44
+		::System::UInt32 _UnlockConditionID_k__BackingField; // 0x48
+		::System::Byte _padding1[0x4];
+		::RPG::Client::TextID _Name_k__BackingField; // 0x50
 		::System::Void _ctor(::AFMMIMLKEDK* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::AFMMIMLKEDK*))((::PBYTE)hIl2Cpp + DMBNPIINNIP_CTOR_OFFSET))(this, a1);

@@ -6,9 +6,9 @@
 #include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 
-#define EHGMEDDCHLH_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0x2E72A70)
+#define EHGMEDDCHLH_KDPEDNKCMEB_OFFSET UNITYSDK_OFFSET(0x30476E0)
 
-inline static constexpr unsigned int EHGMEDDCHLH_TypeDefinitionIndex = 57671;
+inline static constexpr unsigned int EHGMEDDCHLH_TypeDefinitionIndex = 58901;
 
 	struct alignas(8) EHGMEDDCHLH
 	{

@@ -6,22 +6,22 @@ namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelPerformanceInitialize; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MPJJHEFFKFK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3FA60)
-#define MPJJHEFFKFK_GET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xBA3FA40)
-#define MPJJHEFFKFK_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBA3F890)
-#define MPJJHEFFKFK_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBA3F800)
-#define MPJJHEFFKFK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBA3F6A0)
-#define MPJJHEFFKFK_NOFJENGOJGE_OFFSET UNITYSDK_OFFSET(0xBA3F950)
-#define MPJJHEFFKFK_SET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xBA3FA50)
+#define MPJJHEFFKFK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2FED70)
+#define MPJJHEFFKFK_GET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xC2FED50)
+#define MPJJHEFFKFK_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC2FEB90)
+#define MPJJHEFFKFK_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC2FEB00)
+#define MPJJHEFFKFK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC2FE9A0)
+#define MPJJHEFFKFK_NOFJENGOJGE_OFFSET UNITYSDK_OFFSET(0xC2FEC60)
+#define MPJJHEFFKFK_SET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xC2FED60)
 
-inline static constexpr unsigned int MPJJHEFFKFK_TypeDefinitionIndex = 60698;
+inline static constexpr unsigned int MPJJHEFFKFK_TypeDefinitionIndex = 62075;
 
 	class MPJJHEFFKFK : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::HashSet_1<::System::ValueTuple_2<::System::UInt32, ::System::UInt32>>* LCCCBGBIMFA; // 0x10
-		::System::Boolean _BlockNew_k__BackingField; // 0x18
-		::System::Boolean OCCIFHOEJMI; // 0x19
+		::System::Boolean OCCIFHOEJMI; // 0x18
+		::System::Boolean _BlockNew_k__BackingField; // 0x19
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MPJJHEFFKFK_CTOR_OFFSET))(this);

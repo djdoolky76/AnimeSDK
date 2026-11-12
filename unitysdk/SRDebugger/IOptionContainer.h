@@ -3,7 +3,7 @@
 
 namespace SRDebugger
 {
-	inline static constexpr unsigned int IOptionContainer_TypeDefinitionIndex = 37949;
+	inline static constexpr unsigned int IOptionContainer_TypeDefinitionIndex = 38878;
 
 	class IOptionContainer
 	{

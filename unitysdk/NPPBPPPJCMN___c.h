@@ -5,23 +5,23 @@ namespace RPG::Client { class FateBuffData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NPPBPPPJCMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD139E0)
-#define NPPBPPPJCMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD13A20)
-#define NPPBPPPJCMN___C__EVALUATE_B__1_1_OFFSET UNITYSDK_OFFSET(0xBD13A30)
+#define NPPBPPPJCMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC603340)
+#define NPPBPPPJCMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC603380)
+#define NPPBPPPJCMN___C__EVALUATE_B__1_1_OFFSET UNITYSDK_OFFSET(0xC603390)
 
-inline static constexpr unsigned int NPPBPPPJCMN___c_TypeDefinitionIndex = 64137;
+inline static constexpr unsigned int NPPBPPPJCMN___c_TypeDefinitionIndex = 65582;
 
 	class NPPBPPPJCMN___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::FateBuffData*, ::System::Int64>** StaticGet___9__1_1()
-		{
-			return (::System::Func_2<::RPG::Client::FateBuffData*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A850);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5A858);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B650);
+		}
+
+		static ::System::Func_2<::RPG::Client::FateBuffData*, ::System::Int64>** StaticGet___9__1_1()
+		{
+			return (::System::Func_2<::RPG::Client::FateBuffData*, ::System::Int64>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5B658);
 		}
 
 		static ::System::Void _cctor()

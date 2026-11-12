@@ -4,18 +4,18 @@
 class CNFPBAJNIEL;
 namespace System { class Object; }
 
-#define CNFPBAJNIEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1095D0)
-#define CNFPBAJNIEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E109610)
-#define CNFPBAJNIEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E109620)
+#define CNFPBAJNIEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4017C0)
+#define CNFPBAJNIEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F401800)
+#define CNFPBAJNIEL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F401810)
 
-inline static constexpr unsigned int CNFPBAJNIEL___c_TypeDefinitionIndex = 34849;
+inline static constexpr unsigned int CNFPBAJNIEL___c_TypeDefinitionIndex = 35777;
 
 	class CNFPBAJNIEL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FC10);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A710);
 		}
 
 		static ::System::Void _cctor()

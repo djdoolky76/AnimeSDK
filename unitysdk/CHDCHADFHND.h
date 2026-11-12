@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define CHDCHADFHND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4720)
+#define CHDCHADFHND_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA65410)
 
-inline static constexpr unsigned int CHDCHADFHND_TypeDefinitionIndex = 42945;
+inline static constexpr unsigned int CHDCHADFHND_TypeDefinitionIndex = 43926;
 
 	class CHDCHADFHND : public ::System::Object
 	{

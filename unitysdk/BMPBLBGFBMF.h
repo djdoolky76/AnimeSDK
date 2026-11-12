@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapSkillSubTarget; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BMPBLBGFBMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC4540)
-#define BMPBLBGFBMF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBDC4560)
+#define BMPBLBGFBMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC742400)
+#define BMPBLBGFBMF_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC742420)
 
-inline static constexpr unsigned int BMPBLBGFBMF_TypeDefinitionIndex = 59120;
+inline static constexpr unsigned int BMPBLBGFBMF_TypeDefinitionIndex = 60396;
 
 	class BMPBLBGFBMF
 	{

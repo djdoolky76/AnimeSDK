@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvTrackNpcLockAlert; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FIPBLECCMPO_CTOR_OFFSET UNITYSDK_OFFSET(0x157B15F0)
-#define FIPBLECCMPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157B1620)
+#define FIPBLECCMPO_CTOR_OFFSET UNITYSDK_OFFSET(0x166D26D0)
+#define FIPBLECCMPO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x166D2700)
 
-inline static constexpr unsigned int FIPBLECCMPO_TypeDefinitionIndex = 52512;
+inline static constexpr unsigned int FIPBLECCMPO_TypeDefinitionIndex = 53618;
 
 	class FIPBLECCMPO
 	{

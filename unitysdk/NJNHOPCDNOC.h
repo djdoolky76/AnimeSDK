@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 class NOOHPODHIAA;
 
-#define NJNHOPCDNOC_FBOFBLKBHOH_OFFSET UNITYSDK_OFFSET(0xBC26FF0)
+#define NJNHOPCDNOC_FBOFBLKBHOH_OFFSET UNITYSDK_OFFSET(0xC50A940)
 
-inline static constexpr unsigned int NJNHOPCDNOC_TypeDefinitionIndex = 77020;
+inline static constexpr unsigned int NJNHOPCDNOC_TypeDefinitionIndex = 79354;
 
 	class NJNHOPCDNOC : public ::System::Object
 	{

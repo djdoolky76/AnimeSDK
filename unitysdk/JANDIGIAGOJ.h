@@ -6,17 +6,17 @@ class JHIDGDHOJEF;
 namespace System { class Object; }
 namespace System { class Type; }
 
-#define JANDIGIAGOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1655BF30)
+#define JANDIGIAGOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB894750)
 
-inline static constexpr unsigned int JANDIGIAGOJ_TypeDefinitionIndex = 61038;
+inline static constexpr unsigned int JANDIGIAGOJ_TypeDefinitionIndex = 62423;
 
 	class JANDIGIAGOJ : public ::System::Object
 	{
 	public:
-		::System::Type* DIJNEEGMAMN; // 0x10
-		::System::Object* KHAIOMLFBCM; // 0x18
-		::System::Object* ACDGBAICMPE; // 0x20
-		::JHIDGDHOJEF* LMCAEIHLKHB; // 0x28
+		::System::Object* KHAIOMLFBCM; // 0x10
+		::JHIDGDHOJEF* LMCAEIHLKHB; // 0x18
+		::System::Type* DIJNEEGMAMN; // 0x20
+		::System::Object* ACDGBAICMPE; // 0x28
 		::RPG::GameCore::BattleModeType OLOIGGPNHBI; // 0x30
 		::System::Void _ctor()
 		{

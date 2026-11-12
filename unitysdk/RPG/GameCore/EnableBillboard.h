@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EnableBillboard; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ENABLEBILLBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D63E3C0)
-#define RPG_GAMECORE_ENABLEBILLBOARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D63E3F0)
-#define RPG_GAMECORE_ENABLEBILLBOARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D63E370)
+#define RPG_GAMECORE_ENABLEBILLBOARD_CTOR_OFFSET UNITYSDK_OFFSET(0x1E87BD20)
+#define RPG_GAMECORE_ENABLEBILLBOARD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E87BD50)
+#define RPG_GAMECORE_ENABLEBILLBOARD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E87BCD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnableBillboard_TypeDefinitionIndex = 20462;
+	inline static constexpr unsigned int EnableBillboard_TypeDefinitionIndex = 20797;
 
 	class EnableBillboard : public ::RPG::GameCore::TaskConfig
 	{

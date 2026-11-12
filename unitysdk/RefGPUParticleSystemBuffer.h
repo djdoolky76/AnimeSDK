@@ -25,85 +25,85 @@ namespace UnityEngine { class Texture3D; }
 namespace UnityEngine { class Texture; }
 namespace UnityEngine { class Transform; }
 
-#define REFGPUPARTICLESYSTEMBUFFER_AABPCEPPPEC_OFFSET UNITYSDK_OFFSET(0x1EBD4F10)
-#define REFGPUPARTICLESYSTEMBUFFER_AFOEHLMAELF_OFFSET UNITYSDK_OFFSET(0x1EBD7010)
-#define REFGPUPARTICLESYSTEMBUFFER_AIFAEFJOFPM_OFFSET UNITYSDK_OFFSET(0x1EBD6F80)
-#define REFGPUPARTICLESYSTEMBUFFER_AKEAELFOKGC_OFFSET UNITYSDK_OFFSET(0x1EBD9AB0)
-#define REFGPUPARTICLESYSTEMBUFFER_ALMDEIOGJOI_OFFSET UNITYSDK_OFFSET(0x1EBD6540)
-#define REFGPUPARTICLESYSTEMBUFFER_BDGOFCLFFIJ_OFFSET UNITYSDK_OFFSET(0x1EBD5110)
-#define REFGPUPARTICLESYSTEMBUFFER_BEEHALCIAOO_OFFSET UNITYSDK_OFFSET(0x1EBD7180)
-#define REFGPUPARTICLESYSTEMBUFFER_BHBJJKKEKKC_OFFSET UNITYSDK_OFFSET(0x1EBD7360)
-#define REFGPUPARTICLESYSTEMBUFFER_BJIEOPKGOJH_OFFSET UNITYSDK_OFFSET(0x1EBDA760)
-#define REFGPUPARTICLESYSTEMBUFFER_CCLIIPPDKDP_OFFSET UNITYSDK_OFFSET(0x1EBD1C80)
-#define REFGPUPARTICLESYSTEMBUFFER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBEAF40)
-#define REFGPUPARTICLESYSTEMBUFFER_CFNJAHFOLKH_OFFSET UNITYSDK_OFFSET(0x1EBE70B0)
-#define REFGPUPARTICLESYSTEMBUFFER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EBD29D0)
-#define REFGPUPARTICLESYSTEMBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBDF550)
-#define REFGPUPARTICLESYSTEMBUFFER_DDEPOCFHAHF_OFFSET UNITYSDK_OFFSET(0x1EBE51D0)
-#define REFGPUPARTICLESYSTEMBUFFER_DFDAOCIAADN_OFFSET UNITYSDK_OFFSET(0x1EBDA890)
-#define REFGPUPARTICLESYSTEMBUFFER_DFEIKCJKLBK_OFFSET UNITYSDK_OFFSET(0x1EBD7F80)
-#define REFGPUPARTICLESYSTEMBUFFER_DFPIBEJNHMP_1_OFFSET UNITYSDK_OFFSET(0x1EBD8330)
-#define REFGPUPARTICLESYSTEMBUFFER_DFPIBEJNHMP_OFFSET UNITYSDK_OFFSET(0x1EBE2D90)
-#define REFGPUPARTICLESYSTEMBUFFER_DHINPALLLNB_OFFSET UNITYSDK_OFFSET(0x1EBD28B0)
-#define REFGPUPARTICLESYSTEMBUFFER_DLAILGNMFGI_1_OFFSET UNITYSDK_OFFSET(0x1EBEA410)
-#define REFGPUPARTICLESYSTEMBUFFER_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x1EBEA350)
-#define REFGPUPARTICLESYSTEMBUFFER_DNCEOCKCOHA_OFFSET UNITYSDK_OFFSET(0x1EBD5E80)
-#define REFGPUPARTICLESYSTEMBUFFER_DOHBOIDLHLO_OFFSET UNITYSDK_OFFSET(0x1EBEAF10)
-#define REFGPUPARTICLESYSTEMBUFFER_DPDBMNLJFCD_OFFSET UNITYSDK_OFFSET(0x1EBD5790)
-#define REFGPUPARTICLESYSTEMBUFFER_EEDCIAEEDDA_OFFSET UNITYSDK_OFFSET(0x1EBD3F20)
-#define REFGPUPARTICLESYSTEMBUFFER_EEOCDCMLOPB_OFFSET UNITYSDK_OFFSET(0x1EBD55E0)
-#define REFGPUPARTICLESYSTEMBUFFER_EPAHOKOPGMI_OFFSET UNITYSDK_OFFSET(0x1EBEADE0)
-#define REFGPUPARTICLESYSTEMBUFFER_FHGOINBBFNF_1_OFFSET UNITYSDK_OFFSET(0x1EBE7BF0)
-#define REFGPUPARTICLESYSTEMBUFFER_FHGOINBBFNF_OFFSET UNITYSDK_OFFSET(0x1EBD4580)
-#define REFGPUPARTICLESYSTEMBUFFER_FJOGMHHGIKE_OFFSET UNITYSDK_OFFSET(0x1EBEAA10)
-#define REFGPUPARTICLESYSTEMBUFFER_FLALLLOJIMH_1_OFFSET UNITYSDK_OFFSET(0x1EBEAAA0)
-#define REFGPUPARTICLESYSTEMBUFFER_FLALLLOJIMH_OFFSET UNITYSDK_OFFSET(0x1EBEA4C0)
-#define REFGPUPARTICLESYSTEMBUFFER_GJMPHLOMKPH_OFFSET UNITYSDK_OFFSET(0x1EBD5C30)
-#define REFGPUPARTICLESYSTEMBUFFER_GNHHCGLCBBO_OFFSET UNITYSDK_OFFSET(0x1EBCEF70)
-#define REFGPUPARTICLESYSTEMBUFFER_GPHAKIELDPM_OFFSET UNITYSDK_OFFSET(0x1EBD6490)
-#define REFGPUPARTICLESYSTEMBUFFER_HBOCKFNMJPM_1_OFFSET UNITYSDK_OFFSET(0x1EBEAB80)
-#define REFGPUPARTICLESYSTEMBUFFER_HBOCKFNMJPM_OFFSET UNITYSDK_OFFSET(0x1EBEA6D0)
-#define REFGPUPARTICLESYSTEMBUFFER_HENAKHMGBCA_OFFSET UNITYSDK_OFFSET(0x1EBD76E0)
-#define REFGPUPARTICLESYSTEMBUFFER_HFMBFGHODCF_OFFSET UNITYSDK_OFFSET(0x1EBEAEE0)
-#define REFGPUPARTICLESYSTEMBUFFER_HGFIFNGJGCK_OFFSET UNITYSDK_OFFSET(0x1EBCEA30)
-#define REFGPUPARTICLESYSTEMBUFFER_HIHNFGOFGOG_OFFSET UNITYSDK_OFFSET(0x1EBD2940)
-#define REFGPUPARTICLESYSTEMBUFFER_HLPPJPKAKIP_OFFSET UNITYSDK_OFFSET(0x1EBD54D0)
-#define REFGPUPARTICLESYSTEMBUFFER_IMFOKMFMIML_OFFSET UNITYSDK_OFFSET(0x1EBD7E00)
-#define REFGPUPARTICLESYSTEMBUFFER_JEAHACPOKDK_OFFSET UNITYSDK_OFFSET(0x1EBD6650)
-#define REFGPUPARTICLESYSTEMBUFFER_JEEJIJLGDBG_OFFSET UNITYSDK_OFFSET(0x1EBDAC30)
-#define REFGPUPARTICLESYSTEMBUFFER_JHKPHJHNBKJ_1_OFFSET UNITYSDK_OFFSET(0x1EBEACB0)
-#define REFGPUPARTICLESYSTEMBUFFER_JHKPHJHNBKJ_OFFSET UNITYSDK_OFFSET(0x1EBEA870)
-#define REFGPUPARTICLESYSTEMBUFFER_JJIHNBGBFEM_OFFSET UNITYSDK_OFFSET(0x1EBD5590)
-#define REFGPUPARTICLESYSTEMBUFFER_JLAIGAAMPNC_OFFSET UNITYSDK_OFFSET(0x1EBD7D30)
-#define REFGPUPARTICLESYSTEMBUFFER_JMPGJLEDILA_OFFSET UNITYSDK_OFFSET(0x1EBD4E00)
-#define REFGPUPARTICLESYSTEMBUFFER_KBMCDCHHIEJ_OFFSET UNITYSDK_OFFSET(0x1EBD9730)
-#define REFGPUPARTICLESYSTEMBUFFER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1EBCE1F0)
-#define REFGPUPARTICLESYSTEMBUFFER_KPJOLADAODA_OFFSET UNITYSDK_OFFSET(0x1EBD4FA0)
-#define REFGPUPARTICLESYSTEMBUFFER_LBEGAHHDKBE_OFFSET UNITYSDK_OFFSET(0x1EBD4290)
-#define REFGPUPARTICLESYSTEMBUFFER_LBKIONGDFIK_OFFSET UNITYSDK_OFFSET(0x1EBD51A0)
-#define REFGPUPARTICLESYSTEMBUFFER_LBNPGENFGAK_OFFSET UNITYSDK_OFFSET(0x1EBD8180)
-#define REFGPUPARTICLESYSTEMBUFFER_LDMOBCODOLB_OFFSET UNITYSDK_OFFSET(0x1EBD2650)
-#define REFGPUPARTICLESYSTEMBUFFER_LINMLPBLPLD_OFFSET UNITYSDK_OFFSET(0x1EBE4B90)
-#define REFGPUPARTICLESYSTEMBUFFER_LJOOKEFIBEA_OFFSET UNITYSDK_OFFSET(0x1EBD2820)
-#define REFGPUPARTICLESYSTEMBUFFER_LJPNDIPPFGM_OFFSET UNITYSDK_OFFSET(0x1EBEA5C0)
-#define REFGPUPARTICLESYSTEMBUFFER_MBBDNEJCCED_OFFSET UNITYSDK_OFFSET(0x1EBE7160)
-#define REFGPUPARTICLESYSTEMBUFFER_MBJDBKGBMGP_OFFSET UNITYSDK_OFFSET(0x1EBD9BC0)
-#define REFGPUPARTICLESYSTEMBUFFER_MDJONMOPCFH_OFFSET UNITYSDK_OFFSET(0x1EBD5080)
-#define REFGPUPARTICLESYSTEMBUFFER_MJNDBPGMKIM_OFFSET UNITYSDK_OFFSET(0x1EBD1B00)
-#define REFGPUPARTICLESYSTEMBUFFER_MMGIKAGEPJO_OFFSET UNITYSDK_OFFSET(0x1EBD9960)
-#define REFGPUPARTICLESYSTEMBUFFER_NJKFIDAGDBM_OFFSET UNITYSDK_OFFSET(0x1EBD4000)
-#define REFGPUPARTICLESYSTEMBUFFER_NLPAHGPDABB_OFFSET UNITYSDK_OFFSET(0x1EBD1BD0)
-#define REFGPUPARTICLESYSTEMBUFFER_NPNFPAAPJFJ_OFFSET UNITYSDK_OFFSET(0x1EBD5CC0)
-#define REFGPUPARTICLESYSTEMBUFFER_OFCIOFDKHBI_OFFSET UNITYSDK_OFFSET(0x1EBD7200)
-#define REFGPUPARTICLESYSTEMBUFFER_OHIOLEKJMPG_OFFSET UNITYSDK_OFFSET(0x1EBD72E0)
-#define REFGPUPARTICLESYSTEMBUFFER_OMHGPDLADEA_OFFSET UNITYSDK_OFFSET(0x1EBD4440)
-#define REFGPUPARTICLESYSTEMBUFFER_ONCIPPOHNNF_OFFSET UNITYSDK_OFFSET(0x1EBD2710)
-#define REFGPUPARTICLESYSTEMBUFFER_OPMONCLDAKI_OFFSET UNITYSDK_OFFSET(0x1EBD63E0)
-#define REFGPUPARTICLESYSTEMBUFFER_PAOKEIBMGGD_OFFSET UNITYSDK_OFFSET(0x1EBE38B0)
-#define REFGPUPARTICLESYSTEMBUFFER_PDHEFNPNIDI_OFFSET UNITYSDK_OFFSET(0x1EBCF190)
-#define REFGPUPARTICLESYSTEMBUFFER_PHLBAODCLPI_OFFSET UNITYSDK_OFFSET(0x1EBD5480)
+#define REFGPUPARTICLESYSTEMBUFFER_AABPCEPPPEC_OFFSET UNITYSDK_OFFSET(0x1FE874D0)
+#define REFGPUPARTICLESYSTEMBUFFER_AFOEHLMAELF_OFFSET UNITYSDK_OFFSET(0x1FE891D0)
+#define REFGPUPARTICLESYSTEMBUFFER_AIFAEFJOFPM_OFFSET UNITYSDK_OFFSET(0x1FE89170)
+#define REFGPUPARTICLESYSTEMBUFFER_AKEAELFOKGC_OFFSET UNITYSDK_OFFSET(0x1FE8B710)
+#define REFGPUPARTICLESYSTEMBUFFER_ALMDEIOGJOI_OFFSET UNITYSDK_OFFSET(0x1FE88810)
+#define REFGPUPARTICLESYSTEMBUFFER_BDGOFCLFFIJ_OFFSET UNITYSDK_OFFSET(0x1FE87630)
+#define REFGPUPARTICLESYSTEMBUFFER_BEEHALCIAOO_OFFSET UNITYSDK_OFFSET(0x1FE89310)
+#define REFGPUPARTICLESYSTEMBUFFER_BHBJJKKEKKC_OFFSET UNITYSDK_OFFSET(0x1FE89480)
+#define REFGPUPARTICLESYSTEMBUFFER_BJIEOPKGOJH_OFFSET UNITYSDK_OFFSET(0x1FE8C330)
+#define REFGPUPARTICLESYSTEMBUFFER_CCLIIPPDKDP_OFFSET UNITYSDK_OFFSET(0x1FE84450)
+#define REFGPUPARTICLESYSTEMBUFFER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE9BB50)
+#define REFGPUPARTICLESYSTEMBUFFER_CFNJAHFOLKH_OFFSET UNITYSDK_OFFSET(0x1FE97F70)
+#define REFGPUPARTICLESYSTEMBUFFER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1FE85100)
+#define REFGPUPARTICLESYSTEMBUFFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE90E70)
+#define REFGPUPARTICLESYSTEMBUFFER_DDEPOCFHAHF_OFFSET UNITYSDK_OFFSET(0x1FE96470)
+#define REFGPUPARTICLESYSTEMBUFFER_DFDAOCIAADN_OFFSET UNITYSDK_OFFSET(0x1FE8C420)
+#define REFGPUPARTICLESYSTEMBUFFER_DFEIKCJKLBK_OFFSET UNITYSDK_OFFSET(0x1FE89EF0)
+#define REFGPUPARTICLESYSTEMBUFFER_DFPIBEJNHMP_1_OFFSET UNITYSDK_OFFSET(0x1FE8A280)
+#define REFGPUPARTICLESYSTEMBUFFER_DFPIBEJNHMP_OFFSET UNITYSDK_OFFSET(0x1FE94300)
+#define REFGPUPARTICLESYSTEMBUFFER_DHINPALLLNB_OFFSET UNITYSDK_OFFSET(0x1FE85040)
+#define REFGPUPARTICLESYSTEMBUFFER_DLAILGNMFGI_1_OFFSET UNITYSDK_OFFSET(0x1FE9B1B0)
+#define REFGPUPARTICLESYSTEMBUFFER_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0x1FE9B120)
+#define REFGPUPARTICLESYSTEMBUFFER_DNCEOCKCOHA_OFFSET UNITYSDK_OFFSET(0x1FE88280)
+#define REFGPUPARTICLESYSTEMBUFFER_DOHBOIDLHLO_OFFSET UNITYSDK_OFFSET(0x1FE9BB20)
+#define REFGPUPARTICLESYSTEMBUFFER_DPDBMNLJFCD_OFFSET UNITYSDK_OFFSET(0x1FE87BF0)
+#define REFGPUPARTICLESYSTEMBUFFER_EEDCIAEEDDA_OFFSET UNITYSDK_OFFSET(0x1FE86630)
+#define REFGPUPARTICLESYSTEMBUFFER_EEOCDCMLOPB_OFFSET UNITYSDK_OFFSET(0x1FE87A70)
+#define REFGPUPARTICLESYSTEMBUFFER_EPAHOKOPGMI_OFFSET UNITYSDK_OFFSET(0x1FE9BA40)
+#define REFGPUPARTICLESYSTEMBUFFER_FHGOINBBFNF_1_OFFSET UNITYSDK_OFFSET(0x1FE98AA0)
+#define REFGPUPARTICLESYSTEMBUFFER_FHGOINBBFNF_OFFSET UNITYSDK_OFFSET(0x1FE86BD0)
+#define REFGPUPARTICLESYSTEMBUFFER_FJOGMHHGIKE_OFFSET UNITYSDK_OFFSET(0x1FE9B750)
+#define REFGPUPARTICLESYSTEMBUFFER_FLALLLOJIMH_1_OFFSET UNITYSDK_OFFSET(0x1FE9B7B0)
+#define REFGPUPARTICLESYSTEMBUFFER_FLALLLOJIMH_OFFSET UNITYSDK_OFFSET(0x1FE9B2C0)
+#define REFGPUPARTICLESYSTEMBUFFER_GJMPHLOMKPH_OFFSET UNITYSDK_OFFSET(0x1FE88090)
+#define REFGPUPARTICLESYSTEMBUFFER_GNHHCGLCBBO_OFFSET UNITYSDK_OFFSET(0x1FE819A0)
+#define REFGPUPARTICLESYSTEMBUFFER_GPHAKIELDPM_OFFSET UNITYSDK_OFFSET(0x1FE887A0)
+#define REFGPUPARTICLESYSTEMBUFFER_HBOCKFNMJPM_1_OFFSET UNITYSDK_OFFSET(0x1FE9B860)
+#define REFGPUPARTICLESYSTEMBUFFER_HBOCKFNMJPM_OFFSET UNITYSDK_OFFSET(0x1FE9B460)
+#define REFGPUPARTICLESYSTEMBUFFER_HENAKHMGBCA_OFFSET UNITYSDK_OFFSET(0x1FE897D0)
+#define REFGPUPARTICLESYSTEMBUFFER_HFMBFGHODCF_OFFSET UNITYSDK_OFFSET(0x1FE9BAF0)
+#define REFGPUPARTICLESYSTEMBUFFER_HGFIFNGJGCK_OFFSET UNITYSDK_OFFSET(0x1FE81480)
+#define REFGPUPARTICLESYSTEMBUFFER_HIHNFGOFGOG_OFFSET UNITYSDK_OFFSET(0x1FE850A0)
+#define REFGPUPARTICLESYSTEMBUFFER_HLPPJPKAKIP_OFFSET UNITYSDK_OFFSET(0x1FE87990)
+#define REFGPUPARTICLESYSTEMBUFFER_IMFOKMFMIML_OFFSET UNITYSDK_OFFSET(0x1FE89DA0)
+#define REFGPUPARTICLESYSTEMBUFFER_JEAHACPOKDK_OFFSET UNITYSDK_OFFSET(0x1FE888E0)
+#define REFGPUPARTICLESYSTEMBUFFER_JEEJIJLGDBG_OFFSET UNITYSDK_OFFSET(0x1FE8C730)
+#define REFGPUPARTICLESYSTEMBUFFER_JHKPHJHNBKJ_1_OFFSET UNITYSDK_OFFSET(0x1FE9B950)
+#define REFGPUPARTICLESYSTEMBUFFER_JHKPHJHNBKJ_OFFSET UNITYSDK_OFFSET(0x1FE9B5D0)
+#define REFGPUPARTICLESYSTEMBUFFER_JJIHNBGBFEM_OFFSET UNITYSDK_OFFSET(0x1FE87A20)
+#define REFGPUPARTICLESYSTEMBUFFER_JLAIGAAMPNC_OFFSET UNITYSDK_OFFSET(0x1FE89D00)
+#define REFGPUPARTICLESYSTEMBUFFER_JMPGJLEDILA_OFFSET UNITYSDK_OFFSET(0x1FE87400)
+#define REFGPUPARTICLESYSTEMBUFFER_KBMCDCHHIEJ_OFFSET UNITYSDK_OFFSET(0x1FE8B430)
+#define REFGPUPARTICLESYSTEMBUFFER_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1FE80B30)
+#define REFGPUPARTICLESYSTEMBUFFER_KPJOLADAODA_OFFSET UNITYSDK_OFFSET(0x1FE87530)
+#define REFGPUPARTICLESYSTEMBUFFER_LBEGAHHDKBE_OFFSET UNITYSDK_OFFSET(0x1FE86960)
+#define REFGPUPARTICLESYSTEMBUFFER_LBKIONGDFIK_OFFSET UNITYSDK_OFFSET(0x1FE87690)
+#define REFGPUPARTICLESYSTEMBUFFER_LBNPGENFGAK_OFFSET UNITYSDK_OFFSET(0x1FE8A0F0)
+#define REFGPUPARTICLESYSTEMBUFFER_LDMOBCODOLB_OFFSET UNITYSDK_OFFSET(0x1FE84E70)
+#define REFGPUPARTICLESYSTEMBUFFER_LINMLPBLPLD_OFFSET UNITYSDK_OFFSET(0x1FE95DD0)
+#define REFGPUPARTICLESYSTEMBUFFER_LJOOKEFIBEA_OFFSET UNITYSDK_OFFSET(0x1FE84FE0)
+#define REFGPUPARTICLESYSTEMBUFFER_LJPNDIPPFGM_OFFSET UNITYSDK_OFFSET(0x1FE9B390)
+#define REFGPUPARTICLESYSTEMBUFFER_MBBDNEJCCED_OFFSET UNITYSDK_OFFSET(0x1FE97FF0)
+#define REFGPUPARTICLESYSTEMBUFFER_MBJDBKGBMGP_OFFSET UNITYSDK_OFFSET(0x1FE8B820)
+#define REFGPUPARTICLESYSTEMBUFFER_MDJONMOPCFH_OFFSET UNITYSDK_OFFSET(0x1FE875D0)
+#define REFGPUPARTICLESYSTEMBUFFER_MJNDBPGMKIM_OFFSET UNITYSDK_OFFSET(0x1FE84330)
+#define REFGPUPARTICLESYSTEMBUFFER_MMGIKAGEPJO_OFFSET UNITYSDK_OFFSET(0x1FE8B5F0)
+#define REFGPUPARTICLESYSTEMBUFFER_NJKFIDAGDBM_OFFSET UNITYSDK_OFFSET(0x1FE86710)
+#define REFGPUPARTICLESYSTEMBUFFER_NLPAHGPDABB_OFFSET UNITYSDK_OFFSET(0x1FE843D0)
+#define REFGPUPARTICLESYSTEMBUFFER_NPNFPAAPJFJ_OFFSET UNITYSDK_OFFSET(0x1FE880F0)
+#define REFGPUPARTICLESYSTEMBUFFER_OFCIOFDKHBI_OFFSET UNITYSDK_OFFSET(0x1FE89390)
+#define REFGPUPARTICLESYSTEMBUFFER_OHIOLEKJMPG_OFFSET UNITYSDK_OFFSET(0x1FE89430)
+#define REFGPUPARTICLESYSTEMBUFFER_OMHGPDLADEA_OFFSET UNITYSDK_OFFSET(0x1FE86AD0)
+#define REFGPUPARTICLESYSTEMBUFFER_ONCIPPOHNNF_OFFSET UNITYSDK_OFFSET(0x1FE84F00)
+#define REFGPUPARTICLESYSTEMBUFFER_OPMONCLDAKI_OFFSET UNITYSDK_OFFSET(0x1FE88730)
+#define REFGPUPARTICLESYSTEMBUFFER_PAOKEIBMGGD_OFFSET UNITYSDK_OFFSET(0x1FE94C40)
+#define REFGPUPARTICLESYSTEMBUFFER_PDHEFNPNIDI_OFFSET UNITYSDK_OFFSET(0x1FE81BA0)
+#define REFGPUPARTICLESYSTEMBUFFER_PHLBAODCLPI_OFFSET UNITYSDK_OFFSET(0x1FE87940)
 
-inline static constexpr unsigned int RefGPUParticleSystemBuffer_TypeDefinitionIndex = 44012;
+inline static constexpr unsigned int RefGPUParticleSystemBuffer_TypeDefinitionIndex = 45087;
 
 	class RefGPUParticleSystemBuffer : public ::System::Object
 	{
@@ -131,279 +131,279 @@ inline static constexpr unsigned int RefGPUParticleSystemBuffer_TypeDefinitionIn
 		::UnityEngine::Material* calculatePosition; // 0xB8
 		::UnityEngine::Material* resetMeta; // 0xC0
 		::UnityEngine::Material* resetPosition; // 0xC8
-		static ::System::Int32* StaticGet__PlanePositionID()
+		static ::System::Int32* StaticGet__TurbulenceMatrixID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14890);
-		}
-
-		static ::System::Int32* StaticGet__Meta3ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14894);
-		}
-
-		static ::System::Int32* StaticGet__MapHeightID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14898);
-		}
-
-		static ::System::Int32* StaticGet__StartLifeTimeSpeedID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1489C);
-		}
-
-		static ::System::Int32* StaticGet__PosUVReverseID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148A0);
-		}
-
-		static ::System::Int32* StaticGet__PositionID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148A4);
-		}
-
-		static ::System::Int32* StaticGet__ForceOverLifetimeID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148A8);
-		}
-
-		static ::System::Int32* StaticGet__EndIDID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148AC);
-		}
-
-		static ::System::Int32* StaticGet__OnTargetID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148B0);
-		}
-
-		static ::System::Int32* StaticGet__EffectLengthID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148B4);
-		}
-
-		static ::System::Int32* StaticGet__CustomData2XYID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148B8);
-		}
-
-		static ::System::Int32* StaticGet__MeshTargetStrengthID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148BC);
-		}
-
-		static ::System::Int32* StaticGet__AttractorID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148C0);
-		}
-
-		static ::System::Int32* StaticGet__StartSizeRotID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148C4);
-		}
-
-		static ::System::Int32* StaticGet__CircularForceCenterID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148C8);
-		}
-
-		static ::System::Int32* StaticGet__CurvePointPositionsID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148CC);
-		}
-
-		static ::System::Int32* StaticGet__CustomData1XYID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148D0);
-		}
-
-		static ::System::Int32* StaticGet__OffsetID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148D4);
-		}
-
-		static ::System::Int32* StaticGet__CustomData1ZWID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148D8);
-		}
-
-		static ::System::Int32* StaticGet__GravityID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148DC);
-		}
-
-		static ::System::Int32* StaticGet__CustomData2ZWID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148E0);
-		}
-
-		static ::System::Int32* StaticGet__EmitterPositionID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148E4);
-		}
-
-		static ::System::Int32* StaticGet__VelocityID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148E8);
-		}
-
-		static ::System::Int32* StaticGet__CircularForceOverLifetimeID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148EC);
-		}
-
-		static ::System::Int32* StaticGet__EmitterParamID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148F0);
-		}
-
-		static ::System::Int32* StaticGet__MetaID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148F4);
-		}
-
-		static ::System::Int32* StaticGet__TurbulenceID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148F8);
-		}
-
-		static ::System::Int32* StaticGet__MeshEmitterNormalsID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x148FC);
-		}
-
-		static ::System::Int32* StaticGet__CustomTimeID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14900);
-		}
-
-		static ::System::Int32* StaticGet__StartIDID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14904);
-		}
-
-		static ::System::Int32* StaticGet__MeshEmitterPositionsID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14908);
-		}
-
-		static ::System::Int32* StaticGet__NewParticleID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1490C);
-		}
-
-		static ::System::Int32* StaticGet__MaxVelocityID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14910);
-		}
-
-		static ::System::Int32* StaticGet__AirResistanceID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14914);
-		}
-
-		static ::System::Int32* StaticGet__EmitterMatrixID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14918);
-		}
-
-		static ::System::Int32* StaticGet__RandomValuesID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1491C);
-		}
-
-		static ::System::Int32* StaticGet__Meta2ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14920);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14430);
 		}
 
 		static ::System::Int32* StaticGet__FollowSpeedID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14924);
-		}
-
-		static ::System::Int32* StaticGet__MeshEmitterTangentsID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14928);
-		}
-
-		static ::System::Int32* StaticGet__StartSize23ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1492C);
-		}
-
-		static ::System::Int32* StaticGet__TargetMatrixID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14930);
-		}
-
-		static ::System::Int32* StaticGet__TurbulenceMatrixID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14934);
-		}
-
-		static ::System::Int32* StaticGet__AmplitudeID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14938);
-		}
-
-		static ::System::Int32* StaticGet__Meta4ID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1493C);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14434);
 		}
 
 		static ::System::Int32* StaticGet__TightnessID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14940);
-		}
-
-		static ::System::Int32* StaticGet__TurbulenceDDDID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14944);
-		}
-
-		static ::System::Int32* StaticGet__MapWidthID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14948);
-		}
-
-		static ::System::Int32* StaticGet__FrequencyID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1494C);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14438);
 		}
 
 		static ::System::Int32* StaticGet__MeshTargetID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14950);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1443C);
+		}
+
+		static ::System::Int32* StaticGet__RandomValuesID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14440);
+		}
+
+		static ::System::Int32* StaticGet__AirResistanceID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14444);
+		}
+
+		static ::System::Int32* StaticGet__MeshTargetStrengthID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14448);
+		}
+
+		static ::System::Int32* StaticGet__GravityID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1444C);
+		}
+
+		static ::System::Int32* StaticGet__CurvePointPositionsID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14450);
+		}
+
+		static ::System::Int32* StaticGet__CircularForceCenterID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14454);
+		}
+
+		static ::System::Int32* StaticGet__Meta4ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14458);
+		}
+
+		static ::System::Int32* StaticGet__StartSize23ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1445C);
+		}
+
+		static ::System::Int32* StaticGet__EmitterParamID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14460);
+		}
+
+		static ::System::Int32* StaticGet__PositionID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14464);
 		}
 
 		static ::System::Int32* StaticGet__EmitterVelocityID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14954);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14468);
 		}
 
-		static ::System::Int32* StaticGet__StrengthID()
+		static ::System::Int32* StaticGet__MetaID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14958);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1446C);
 		}
 
-		static ::System::Int32* StaticGet__FollowSegmentID()
+		static ::System::Int32* StaticGet__TurbulenceID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1495C);
-		}
-
-		static ::System::Int32* StaticGet__PlaneNormalID()
-		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14960);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14470);
 		}
 
 		static ::System::Int32* StaticGet__PosUVRandomID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14964);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14474);
+		}
+
+		static ::System::Int32* StaticGet__PosUVReverseID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14478);
+		}
+
+		static ::System::Int32* StaticGet__FollowSegmentID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1447C);
+		}
+
+		static ::System::Int32* StaticGet__NewParticleID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14480);
+		}
+
+		static ::System::Int32* StaticGet__EffectLengthID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14484);
+		}
+
+		static ::System::Int32* StaticGet__MeshEmitterPositionsID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14488);
+		}
+
+		static ::System::Int32* StaticGet__EndIDID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1448C);
+		}
+
+		static ::System::Int32* StaticGet__MeshEmitterTangentsID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14490);
+		}
+
+		static ::System::Int32* StaticGet__StartLifeTimeSpeedID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14494);
+		}
+
+		static ::System::Int32* StaticGet__CustomData2ZWID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14498);
+		}
+
+		static ::System::Int32* StaticGet__MeshEmitterNormalsID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x1449C);
+		}
+
+		static ::System::Int32* StaticGet__PlanePositionID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144A0);
+		}
+
+		static ::System::Int32* StaticGet__StrengthID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144A4);
+		}
+
+		static ::System::Int32* StaticGet__CustomData2XYID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144A8);
+		}
+
+		static ::System::Int32* StaticGet__AmplitudeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144AC);
+		}
+
+		static ::System::Int32* StaticGet__Meta2ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144B0);
+		}
+
+		static ::System::Int32* StaticGet__AttractorID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144B4);
+		}
+
+		static ::System::Int32* StaticGet__ForceOverLifetimeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144B8);
+		}
+
+		static ::System::Int32* StaticGet__FrequencyID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144BC);
+		}
+
+		static ::System::Int32* StaticGet__VelocityID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144C0);
+		}
+
+		static ::System::Int32* StaticGet__StartSizeRotID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144C4);
+		}
+
+		static ::System::Int32* StaticGet__Meta3ID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144C8);
+		}
+
+		static ::System::Int32* StaticGet__OnTargetID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144CC);
+		}
+
+		static ::System::Int32* StaticGet__MapWidthID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144D0);
+		}
+
+		static ::System::Int32* StaticGet__TurbulenceDDDID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144D4);
+		}
+
+		static ::System::Int32* StaticGet__CustomTimeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144D8);
+		}
+
+		static ::System::Int32* StaticGet__CustomData1XYID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144DC);
+		}
+
+		static ::System::Int32* StaticGet__StartIDID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144E0);
 		}
 
 		static ::System::Int32* StaticGet__CustomDeltaTimeID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14968);
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144E4);
+		}
+
+		static ::System::Int32* StaticGet__CircularForceOverLifetimeID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144E8);
+		}
+
+		static ::System::Int32* StaticGet__MaxVelocityID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144EC);
+		}
+
+		static ::System::Int32* StaticGet__CustomData1ZWID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144F0);
+		}
+
+		static ::System::Int32* StaticGet__OffsetID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144F4);
+		}
+
+		static ::System::Int32* StaticGet__TargetMatrixID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144F8);
+		}
+
+		static ::System::Int32* StaticGet__PlaneNormalID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x144FC);
+		}
+
+		static ::System::Int32* StaticGet__MapHeightID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14500);
+		}
+
+		static ::System::Int32* StaticGet__EmitterPositionID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14504);
+		}
+
+		static ::System::Int32* StaticGet__EmitterMatrixID()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "RefGPUParticleSystemBuffer")->GetStaticField(0x14508);
 		}
 
 		::System::Void _ctor(::System::Int32 a1, ::System::Int32 a2, ::UnityEngine::RenderTextureFormat a3, ::RefGPUParticleSystem_ParticleType a4, ::System::Int32 a5)

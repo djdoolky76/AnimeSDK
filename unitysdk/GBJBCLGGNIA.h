@@ -4,17 +4,17 @@
 class Effect_SetRandomAnimTime;
 namespace UnityEngine { class MonoBehaviour; }
 
-#define GBJBCLGGNIA_CTOR_OFFSET UNITYSDK_OFFSET(0x159513A0)
-#define GBJBCLGGNIA_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15951350)
-#define GBJBCLGGNIA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15951120)
+#define GBJBCLGGNIA_CTOR_OFFSET UNITYSDK_OFFSET(0x16886C50)
+#define GBJBCLGGNIA_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x16886C00)
+#define GBJBCLGGNIA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x168869D0)
 
-inline static constexpr unsigned int GBJBCLGGNIA_TypeDefinitionIndex = 47449;
+inline static constexpr unsigned int GBJBCLGGNIA_TypeDefinitionIndex = 48478;
 
 	class GBJBCLGGNIA : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::System::Single NFLIHBKMJMG; // 0x18
-		::System::Int32 DNOIBALKLKH; // 0x1C
+		::System::Int32 DNOIBALKLKH; // 0x18
+		::System::Single NFLIHBKMJMG; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GBJBCLGGNIA_CTOR_OFFSET))(this);

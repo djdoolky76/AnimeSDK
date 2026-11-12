@@ -7,10 +7,10 @@ class LOJIKMHLCBL;
 class OINNEGOFKAA;
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define GKIIPGMBEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A98B80)
-#define GKIIPGMBEIP_DHOCFJDCLLN_OFFSET UNITYSDK_OFFSET(0x15A98C70)
+#define GKIIPGMBEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x169D5A60)
+#define GKIIPGMBEIP_DHOCFJDCLLN_OFFSET UNITYSDK_OFFSET(0x169D5B80)
 
-inline static constexpr unsigned int GKIIPGMBEIP_TypeDefinitionIndex = 63137;
+inline static constexpr unsigned int GKIIPGMBEIP_TypeDefinitionIndex = 64575;
 
 	class GKIIPGMBEIP : public ::System::Object
 	{

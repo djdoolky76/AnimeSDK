@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
-#define NKIHMKEFBAL_HECAPMIIOBE_OFFSET UNITYSDK_OFFSET(0xBC35840)
-#define NKIHMKEFBAL_KGNOLLBFAAH_OFFSET UNITYSDK_OFFSET(0xBC355A0)
+#define NKIHMKEFBAL_HECAPMIIOBE_OFFSET UNITYSDK_OFFSET(0xC519D10)
+#define NKIHMKEFBAL_KGNOLLBFAAH_OFFSET UNITYSDK_OFFSET(0xC519A70)
 
-inline static constexpr unsigned int NKIHMKEFBAL_TypeDefinitionIndex = 78454;
+inline static constexpr unsigned int NKIHMKEFBAL_TypeDefinitionIndex = 81189;
 
 	class NKIHMKEFBAL : public ::System::Object
 	{

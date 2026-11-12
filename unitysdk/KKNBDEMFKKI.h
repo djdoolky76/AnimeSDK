@@ -3,11 +3,11 @@
 namespace RPG::GameCore { class ForcePlayerLockAdventureTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKNBDEMFKKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB4D6070)
-#define KKNBDEMFKKI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4D60A0)
-#define KKNBDEMFKKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4D60E0)
+#define KKNBDEMFKKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBD1F420)
+#define KKNBDEMFKKI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD1F450)
+#define KKNBDEMFKKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD1F490)
 
-inline static constexpr unsigned int KKNBDEMFKKI_TypeDefinitionIndex = 52900;
+inline static constexpr unsigned int KKNBDEMFKKI_TypeDefinitionIndex = 54056;
 
 	class KKNBDEMFKKI
 	{

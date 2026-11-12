@@ -5,20 +5,20 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class SetHudTemplate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IIMGCMOIDDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1644DEB0)
-#define IIMGCMOIDDF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1644DEC0)
-#define IIMGCMOIDDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1644DF00)
-#define IIMGCMOIDDF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1644E060)
-#define IIMGCMOIDDF_TICK_OFFSET UNITYSDK_OFFSET(0x1644E0B0)
+#define IIMGCMOIDDF_CTOR_OFFSET UNITYSDK_OFFSET(0x17416BE0)
+#define IIMGCMOIDDF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17416BF0)
+#define IIMGCMOIDDF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x17416C30)
+#define IIMGCMOIDDF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x17416D80)
+#define IIMGCMOIDDF_TICK_OFFSET UNITYSDK_OFFSET(0x17416DD0)
 
-inline static constexpr unsigned int IIMGCMOIDDF_TypeDefinitionIndex = 58548;
+inline static constexpr unsigned int IIMGCMOIDDF_TypeDefinitionIndex = 59813;
 
 	class IIMGCMOIDDF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SetHudTemplate* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x28
+		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x18
+		::RPG::GameCore::SetHudTemplate* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetHudTemplate* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetHudTemplate*))((::PBYTE)hIl2Cpp + IIMGCMOIDDF_CTOR_OFFSET))(this, a1, a2);

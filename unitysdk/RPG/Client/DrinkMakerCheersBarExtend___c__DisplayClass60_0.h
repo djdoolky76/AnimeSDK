@@ -4,18 +4,18 @@
 namespace RPG::Client { class DrinkMakerCheersBarExtend; }
 namespace RPG::Client { class DrinkMakerCheersGuestDrinkRecordData; }
 
-#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCCE97B0)
-#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0__PLAYDRINKGIVENAMEPERFORMANCEAFTERINVITEGUESTGIVEDRINK_B__0_OFFSET UNITYSDK_OFFSET(0xCCEAFA0)
+#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6AA5B0)
+#define RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0__PLAYDRINKGIVENAMEPERFORMANCEAFTERINVITEGUESTGIVEDRINK_B__0_OFFSET UNITYSDK_OFFSET(0xD6ABDA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DrinkMakerCheersBarExtend___c__DisplayClass60_0_TypeDefinitionIndex = 63614;
+	inline static constexpr unsigned int DrinkMakerCheersBarExtend___c__DisplayClass60_0_TypeDefinitionIndex = 65056;
 
 	class DrinkMakerCheersBarExtend___c__DisplayClass60_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::DrinkMakerCheersGuestDrinkRecordData* drinkRecordData; // 0x10
-		::RPG::Client::DrinkMakerCheersBarExtend* __4__this; // 0x18
+		::RPG::Client::DrinkMakerCheersBarExtend* __4__this; // 0x10
+		::RPG::Client::DrinkMakerCheersGuestDrinkRecordData* drinkRecordData; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_DRINKMAKERCHEERSBAREXTEND___C__DISPLAYCLASS60_0_CTOR_OFFSET))(this);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class JBFFCBPMKEF;
 
-#define EAEOPDAKGAE_ILLKOBGDEHE_OFFSET UNITYSDK_OFFSET(0x12675290)
+#define EAEOPDAKGAE_ILLKOBGDEHE_OFFSET UNITYSDK_OFFSET(0x13465570)
 
-inline static constexpr unsigned int EAEOPDAKGAE_TypeDefinitionIndex = 57768;
+inline static constexpr unsigned int EAEOPDAKGAE_TypeDefinitionIndex = 59003;
 
 	class EAEOPDAKGAE : public ::System::Object
 	{

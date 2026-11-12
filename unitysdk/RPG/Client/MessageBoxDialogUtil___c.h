@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD69CE40)
-#define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD69CE80)
-#define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C__SHOWDIALOGTEXTANDRESTARTGAME_B__4_0_OFFSET UNITYSDK_OFFSET(0xD69CE90)
+#define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE12B930)
+#define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE12B970)
+#define RPG_CLIENT_MESSAGEBOXDIALOGUTIL___C__SHOWDIALOGTEXTANDRESTARTGAME_B__4_0_OFFSET UNITYSDK_OFFSET(0xE12B980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageBoxDialogUtil___c_TypeDefinitionIndex = 72819;
+	inline static constexpr unsigned int MessageBoxDialogUtil___c_TypeDefinitionIndex = 74898;
 
 	class MessageBoxDialogUtil___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58310);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x671C0);
 		}
 
 		static ::System::Action_1<::System::Boolean>** StaticGet___9__4_0()
 		{
-			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58318);
+			return (::System::Action_1<::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x671C8);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 class IMEFDMEGEON;
 namespace System { class Object; }
 
-#define IMEFDMEGEON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B6200)
-#define IMEFDMEGEON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B6240)
-#define IMEFDMEGEON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6B6250)
+#define IMEFDMEGEON___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9BDC90)
+#define IMEFDMEGEON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9BDCD0)
+#define IMEFDMEGEON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F9BDCE0)
 
-inline static constexpr unsigned int IMEFDMEGEON___c_TypeDefinitionIndex = 30830;
+inline static constexpr unsigned int IMEFDMEGEON___c_TypeDefinitionIndex = 31743;
 
 	class IMEFDMEGEON___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57160);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x545F0);
 		}
 
 		static ::System::Void _cctor()

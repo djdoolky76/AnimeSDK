@@ -6,11 +6,11 @@ namespace System { template <typename T1, typename T2> class Action_2; }
 namespace System { template <typename T> class Action_1; }
 namespace UnityEngine::U2D { class SpriteAtlas; }
 
-#define UNITYENGINE_U2D_SPRITEATLASMANAGER_ADD_ATLASREGISTERED_OFFSET UNITYSDK_OFFSET(0x1F43AA40)
-#define UNITYENGINE_U2D_SPRITEATLASMANAGER_POSTREGISTEREDATLAS_OFFSET UNITYSDK_OFFSET(0x1F43ABA0)
-#define UNITYENGINE_U2D_SPRITEATLASMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1F43ABD0)
-#define UNITYENGINE_U2D_SPRITEATLASMANAGER_REMOVE_ATLASREGISTERED_OFFSET UNITYSDK_OFFSET(0x1F43AAF0)
-#define UNITYENGINE_U2D_SPRITEATLASMANAGER_REQUESTATLAS_OFFSET UNITYSDK_OFFSET(0x1F43A990)
+#define UNITYENGINE_U2D_SPRITEATLASMANAGER_ADD_ATLASREGISTERED_OFFSET UNITYSDK_OFFSET(0x206EB440)
+#define UNITYENGINE_U2D_SPRITEATLASMANAGER_POSTREGISTEREDATLAS_OFFSET UNITYSDK_OFFSET(0x206EB5A0)
+#define UNITYENGINE_U2D_SPRITEATLASMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x206EB5D0)
+#define UNITYENGINE_U2D_SPRITEATLASMANAGER_REMOVE_ATLASREGISTERED_OFFSET UNITYSDK_OFFSET(0x206EB4F0)
+#define UNITYENGINE_U2D_SPRITEATLASMANAGER_REQUESTATLAS_OFFSET UNITYSDK_OFFSET(0x206EB390)
 
 namespace UnityEngine::U2D
 {
@@ -19,14 +19,14 @@ namespace UnityEngine::U2D
 	class SpriteAtlasManager : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>** StaticGet_atlasRegistered()
-		{
-			return (::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>**)UnitySDK::FromName("UnityEngine.U2D", "SpriteAtlasManager")->GetStaticField(0x16A40);
-		}
-
 		static ::System::Action_2<::System::String*, ::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>*>** StaticGet_atlasRequested()
 		{
-			return (::System::Action_2<::System::String*, ::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>*>**)UnitySDK::FromName("UnityEngine.U2D", "SpriteAtlasManager")->GetStaticField(0x16A48);
+			return (::System::Action_2<::System::String*, ::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>*>**)UnitySDK::FromName("UnityEngine.U2D", "SpriteAtlasManager")->GetStaticField(0x12DC0);
+		}
+
+		static ::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>** StaticGet_atlasRegistered()
+		{
+			return (::System::Action_1<::UnityEngine::U2D::SpriteAtlas*>**)UnitySDK::FromName("UnityEngine.U2D", "SpriteAtlasManager")->GetStaticField(0x12DC8);
 		}
 
 		static ::System::Boolean RequestAtlas(::System::String* a1)

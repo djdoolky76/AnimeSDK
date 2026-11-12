@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define HDIFJLMFKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABDD80)
+#define HDIFJLMFKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC82790)
 
-inline static constexpr unsigned int HDIFJLMFKLF_TypeDefinitionIndex = 43361;
+inline static constexpr unsigned int HDIFJLMFKLF_TypeDefinitionIndex = 44342;
 
 	class HDIFJLMFKLF : public ::System::Object
 	{

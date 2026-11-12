@@ -5,9 +5,9 @@ namespace System { class String; }
 namespace System { class Type; }
 namespace System::Net { class IWebRequestCreate; }
 
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F0A2330)
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1F0A1E40)
-#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x1F0A5560)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x20353070)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_GET_CREATOR_OFFSET UNITYSDK_OFFSET(0x20352B80)
+#define SYSTEM_NET_WEBREQUESTPREFIXELEMENT_SET_CREATOR_OFFSET UNITYSDK_OFFSET(0x203562B0)
 
 namespace System::Net
 {
@@ -16,8 +16,8 @@ namespace System::Net
 	class WebRequestPrefixElement : public ::System::Object
 	{
 	public:
-		::System::Net::IWebRequestCreate* creator; // 0x10
-		::System::String* Prefix; // 0x18
+		::System::String* Prefix; // 0x10
+		::System::Net::IWebRequestCreate* creator; // 0x18
 		::System::Type* creatorType; // 0x20
 		::System::Void _ctor(::System::String* a1, ::System::Net::IWebRequestCreate* a2)
 		{

@@ -4,18 +4,18 @@
 class BLEEIKBLHIK;
 namespace System { class Object; }
 
-#define BLEEIKBLHIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF5E660)
-#define BLEEIKBLHIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF5E6A0)
-#define BLEEIKBLHIK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF5E6B0)
+#define BLEEIKBLHIK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2B6AE0)
+#define BLEEIKBLHIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2B6B20)
+#define BLEEIKBLHIK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F2B6B30)
 
-inline static constexpr unsigned int BLEEIKBLHIK___c_TypeDefinitionIndex = 33878;
+inline static constexpr unsigned int BLEEIKBLHIK___c_TypeDefinitionIndex = 34793;
 
 	class BLEEIKBLHIK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C4E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4F480);
 		}
 
 		static ::System::Void _cctor()

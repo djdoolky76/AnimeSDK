@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AISelector; }
 namespace RPG::GameCore { class SelectAISkillTarget; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SELECTAISKILLTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA8BC30)
-#define RPG_GAMECORE_SELECTAISKILLTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA8BC40)
-#define RPG_GAMECORE_SELECTAISKILLTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA8BC00)
+#define RPG_GAMECORE_SELECTAISKILLTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9E2A0)
+#define RPG_GAMECORE_SELECTAISKILLTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC9E2B0)
+#define RPG_GAMECORE_SELECTAISKILLTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9E270)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SelectAISkillTarget_TypeDefinitionIndex = 22434;
+	inline static constexpr unsigned int SelectAISkillTarget_TypeDefinitionIndex = 22843;
 
 	class SelectAISkillTarget : public ::RPG::GameCore::TaskConfig
 	{

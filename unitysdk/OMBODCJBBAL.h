@@ -5,35 +5,35 @@
 class LCADLLHKAGE;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define OMBODCJBBAL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF1A250)
-#define OMBODCJBBAL_GET_ASSISTANTPRETALK_OFFSET UNITYSDK_OFFSET(0xBF1A220)
-#define OMBODCJBBAL_GET_ASSISTANTTALK_OFFSET UNITYSDK_OFFSET(0xBF1A210)
-#define OMBODCJBBAL_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xBF1A1A0)
-#define OMBODCJBBAL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xBF1A1F0)
-#define OMBODCJBBAL_GET_ID_OFFSET UNITYSDK_OFFSET(0xBF1A1B0)
-#define OMBODCJBBAL_GET_LOCKEDTALK_OFFSET UNITYSDK_OFFSET(0xBF1A240)
-#define OMBODCJBBAL_GET_PARTNERACTORID_OFFSET UNITYSDK_OFFSET(0xBF1A1E0)
-#define OMBODCJBBAL_GET_PARTNERTALK_OFFSET UNITYSDK_OFFSET(0xBF1A200)
-#define OMBODCJBBAL_GET_TALENTPOINTIDLIST_OFFSET UNITYSDK_OFFSET(0xBF1A1C0)
-#define OMBODCJBBAL_GET_UNLOCKBYFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0xBF1A1D0)
-#define OMBODCJBBAL_GET_UNLOCKTALK_OFFSET UNITYSDK_OFFSET(0xBF1A230)
+#define OMBODCJBBAL_CTOR_OFFSET UNITYSDK_OFFSET(0xC818680)
+#define OMBODCJBBAL_GET_ASSISTANTPRETALK_OFFSET UNITYSDK_OFFSET(0xC818650)
+#define OMBODCJBBAL_GET_ASSISTANTTALK_OFFSET UNITYSDK_OFFSET(0xC818640)
+#define OMBODCJBBAL_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xC8185D0)
+#define OMBODCJBBAL_GET_DESC_OFFSET UNITYSDK_OFFSET(0xC818620)
+#define OMBODCJBBAL_GET_ID_OFFSET UNITYSDK_OFFSET(0xC8185E0)
+#define OMBODCJBBAL_GET_LOCKEDTALK_OFFSET UNITYSDK_OFFSET(0xC818670)
+#define OMBODCJBBAL_GET_PARTNERACTORID_OFFSET UNITYSDK_OFFSET(0xC818610)
+#define OMBODCJBBAL_GET_PARTNERTALK_OFFSET UNITYSDK_OFFSET(0xC818630)
+#define OMBODCJBBAL_GET_TALENTPOINTIDLIST_OFFSET UNITYSDK_OFFSET(0xC8185F0)
+#define OMBODCJBBAL_GET_UNLOCKBYFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0xC818600)
+#define OMBODCJBBAL_GET_UNLOCKTALK_OFFSET UNITYSDK_OFFSET(0xC818660)
 
-inline static constexpr unsigned int OMBODCJBBAL_TypeDefinitionIndex = 80149;
+inline static constexpr unsigned int OMBODCJBBAL_TypeDefinitionIndex = 82926;
 
 	class OMBODCJBBAL : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::IReadOnlyList_1<::System::UInt32>* _TalentPointIDList_k__BackingField; // 0x10
-		::RPG::Client::TextID _AssistantTalk_k__BackingField; // 0x18
-		::System::UInt32 _ID_k__BackingField; // 0x28
-		::System::UInt32 _PartnerActorID_k__BackingField; // 0x2C
-		::RPG::Client::TextID _AssistantPreTalk_k__BackingField; // 0x30
-		::RPG::Client::TextID _UnlockTalk_k__BackingField; // 0x40
-		::System::Int32 _CacheKey_k__BackingField; // 0x50
-		::System::UInt32 _UnlockByFinishSubMissionID_k__BackingField; // 0x54
-		::RPG::Client::TextID _PartnerTalk_k__BackingField; // 0x58
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x68
-		::RPG::Client::TextID _LockedTalk_k__BackingField; // 0x78
+		::RPG::Client::TextID _LockedTalk_k__BackingField; // 0x18
+		::RPG::Client::TextID _UnlockTalk_k__BackingField; // 0x28
+		::RPG::Client::TextID _PartnerTalk_k__BackingField; // 0x38
+		::RPG::Client::TextID _AssistantPreTalk_k__BackingField; // 0x48
+		::RPG::Client::TextID _AssistantTalk_k__BackingField; // 0x58
+		::System::UInt32 _ID_k__BackingField; // 0x68
+		::System::UInt32 _UnlockByFinishSubMissionID_k__BackingField; // 0x6C
+		::System::Int32 _CacheKey_k__BackingField; // 0x70
+		::System::UInt32 _PartnerActorID_k__BackingField; // 0x74
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x78
 		::System::Void _ctor(::LCADLLHKAGE* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::LCADLLHKAGE*))((::PBYTE)hIl2Cpp + OMBODCJBBAL_CTOR_OFFSET))(this, a1);

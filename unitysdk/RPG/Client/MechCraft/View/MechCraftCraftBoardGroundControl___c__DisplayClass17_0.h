@@ -8,22 +8,22 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Immutable { template <typename T> class IImmutableSet_1; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD5FD480)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0___ONLINESETCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0xD600630)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0___ONLINESETCHANGED_B__1_OFFSET UNITYSDK_OFFSET(0xD600720)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0___ONLINESETCHANGED_B__2_OFFSET UNITYSDK_OFFSET(0xD600860)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE050360)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0___ONLINESETCHANGED_B__0_OFFSET UNITYSDK_OFFSET(0xE053520)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0___ONLINESETCHANGED_B__1_OFFSET UNITYSDK_OFFSET(0xE053610)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTBOARDGROUNDCONTROL___C__DISPLAYCLASS17_0___ONLINESETCHANGED_B__2_OFFSET UNITYSDK_OFFSET(0xE053750)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass17_0_TypeDefinitionIndex = 79845;
+	inline static constexpr unsigned int MechCraftCraftBoardGroundControl___c__DisplayClass17_0_TypeDefinitionIndex = 82622;
 
 	class MechCraftCraftBoardGroundControl___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:
 		::System::Func_2<::ONPKMMDCDAN, ::System::Boolean>* __9__1; // 0x10
 		::System::Func_2<::ONPKMMDCDAN, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* __9__2; // 0x18
-		::System::Func_2<::ONPKMMDCDAN, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* __9__0; // 0x20
-		::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>* oldLines; // 0x28
+		::System::Collections::Immutable::IImmutableSet_1<::ONPKMMDCDAN>* oldLines; // 0x20
+		::System::Func_2<::ONPKMMDCDAN, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector2Int>*>* __9__0; // 0x28
 		::RPG::Client::MechCraft::View::MechCraftCraftBoardGroundControl* __4__this; // 0x30
 		::System::Void _ctor()
 		{

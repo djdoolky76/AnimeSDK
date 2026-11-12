@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HPGKMODCGOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC26D0)
-#define HPGKMODCGOD_INTERP_OFFSET UNITYSDK_OFFSET(0x15DC2720)
+#define HPGKMODCGOD_CTOR_OFFSET UNITYSDK_OFFSET(0x16D66750)
+#define HPGKMODCGOD_INTERP_OFFSET UNITYSDK_OFFSET(0x16D667A0)
 
-inline static constexpr unsigned int HPGKMODCGOD_TypeDefinitionIndex = 74014;
+inline static constexpr unsigned int HPGKMODCGOD_TypeDefinitionIndex = 76150;
 
 	class HPGKMODCGOD
 	{

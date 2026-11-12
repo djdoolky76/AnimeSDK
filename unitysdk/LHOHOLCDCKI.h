@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class OverrideEndTransferColor; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHOHOLCDCKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB6BFC90)
-#define LHOHOLCDCKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6BFCC0)
+#define LHOHOLCDCKI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF57B60)
+#define LHOHOLCDCKI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF57B90)
 
-inline static constexpr unsigned int LHOHOLCDCKI_TypeDefinitionIndex = 53048;
+inline static constexpr unsigned int LHOHOLCDCKI_TypeDefinitionIndex = 54208;
 
 	class LHOHOLCDCKI
 	{

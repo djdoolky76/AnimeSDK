@@ -6,28 +6,28 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PhotoExhibitionDetailRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PHOTOEXHIBITIONDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D90CF50)
-#define RPG_GAMECORE_PHOTOEXHIBITIONDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D90C970)
+#define RPG_GAMECORE_PHOTOEXHIBITIONDETAILROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB265C0)
+#define RPG_GAMECORE_PHOTOEXHIBITIONDETAILROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB25FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PhotoExhibitionDetailRow_TypeDefinitionIndex = 12118;
+	inline static constexpr unsigned int PhotoExhibitionDetailRow_TypeDefinitionIndex = 12175;
 
 	class PhotoExhibitionDetailRow : public ::System::Object
 	{
 	public:
 		::System::String* UnlockPicPath; // 0x10
-		::Il2CppArray<::System::String*>* FemalePicPath; // 0x18
-		::Il2CppArray<::System::String*>* MalePicPath; // 0x20
+		::Il2CppArray<::System::String*>* MalePicPath; // 0x18
+		::Il2CppArray<::System::String*>* FemalePicPath; // 0x20
 		::Il2CppArray<::System::UInt32>* TaskOption; // 0x28
-		::RPG::Client::TextID RuikeReply; // 0x30
-		::RPG::Client::TextID AuthorName; // 0x40
-		::System::UInt32 ID; // 0x50
+		::RPG::Client::TextID Unlock; // 0x30
+		::RPG::Client::TextID RuikeReply; // 0x40
+		::System::Boolean ShowRuikeName; // 0x50
+		::System::Byte _padding0[0x3];
 		::System::UInt32 MissionID; // 0x54
 		::RPG::Client::TextID GroupphotoDesc; // 0x58
-		::RPG::Client::TextID Unlock; // 0x68
-		::System::Boolean ShowRuikeName; // 0x78
-		::System::Byte _padding0[0x3];
+		::RPG::Client::TextID AuthorName; // 0x68
+		::System::UInt32 ID; // 0x78
 		::System::UInt32 FinishSubMissionID; // 0x7C
 		::RPG::Client::TextID Name; // 0x80
 		::System::Void _ctor()

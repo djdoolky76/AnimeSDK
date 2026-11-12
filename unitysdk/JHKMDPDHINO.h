@@ -6,12 +6,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define JHKMDPDHINO_CTOR_OFFSET UNITYSDK_OFFSET(0xB1BA740)
-#define JHKMDPDHINO_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB1BA7E0)
-#define JHKMDPDHINO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB1BA9C0)
-#define JHKMDPDHINO__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB1BA870)
+#define JHKMDPDHINO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9DC530)
+#define JHKMDPDHINO_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xB9DC5D0)
+#define JHKMDPDHINO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB9DC7B0)
+#define JHKMDPDHINO__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB9DC660)
 
-inline static constexpr unsigned int JHKMDPDHINO_TypeDefinitionIndex = 59877;
+inline static constexpr unsigned int JHKMDPDHINO_TypeDefinitionIndex = 61161;
 
 	class JHKMDPDHINO : public ::RPG::Client::SyncCheckItemBase
 	{

@@ -3,10 +3,10 @@
 class AJBACDGLCMO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OMGDIJLJFAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBF276D0)
-#define OMGDIJLJFAA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBF27700)
+#define OMGDIJLJFAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC824FF0)
+#define OMGDIJLJFAA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC825020)
 
-inline static constexpr unsigned int OMGDIJLJFAA_TypeDefinitionIndex = 52782;
+inline static constexpr unsigned int OMGDIJLJFAA_TypeDefinitionIndex = 53926;
 
 	class OMGDIJLJFAA
 	{

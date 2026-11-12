@@ -4,12 +4,12 @@
 namespace RPG::GameCore { class CharacterModelComponent; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE648320)
-#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS33_0__CLIENTCREATEUI3DMODELENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xE664020)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF0E8EB0)
+#define RPG_GAMECORE_ENTITYMANAGEREXTENSION___C__DISPLAYCLASS33_0__CLIENTCREATEUI3DMODELENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xF0E8EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass33_0_TypeDefinitionIndex = 57780;
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass33_0_TypeDefinitionIndex = 59015;
 
 	class EntityManagerExtension___c__DisplayClass33_0 : public ::System::Object
 	{

@@ -7,17 +7,17 @@ class GHMGGIHEHJE;
 namespace RPG::Client { class MonoEffect; }
 namespace RPG::Client::RoadRash { class MonoRoadRashGameCar; }
 
-#define CGBECAKCLFD___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC6CFA0)
-#define CGBECAKCLFD___C__DISPLAYCLASS32_0__FIRECAREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCC85140)
+#define CGBECAKCLFD___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD61A880)
+#define CGBECAKCLFD___C__DISPLAYCLASS32_0__FIRECAREFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD632A40)
 
-inline static constexpr unsigned int CGBECAKCLFD___c__DisplayClass32_0_TypeDefinitionIndex = 75919;
+inline static constexpr unsigned int CGBECAKCLFD___c__DisplayClass32_0_TypeDefinitionIndex = 78246;
 
 	class CGBECAKCLFD___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:
 		::CGBECAKCLFD* __4__this; // 0x10
-		::GHMGGIHEHJE* entity; // 0x18
-		::RPG::Client::RoadRash::MonoRoadRashGameCar* monoCar; // 0x20
+		::RPG::Client::RoadRash::MonoRoadRashGameCar* monoCar; // 0x18
+		::GHMGGIHEHJE* entity; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CGBECAKCLFD___C__DISPLAYCLASS32_0_CTOR_OFFSET))(this);

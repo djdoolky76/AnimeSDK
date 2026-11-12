@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_SPINEANIMEKEYWORDTOTRACKINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0xE101D60)
+#define RPG_CLIENT_SPINEANIMEKEYWORDTOTRACKINDEX_CTOR_OFFSET UNITYSDK_OFFSET(0xEBAE5E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SpineAnimeKeywordToTrackIndex_TypeDefinitionIndex = 69022;
+	inline static constexpr unsigned int SpineAnimeKeywordToTrackIndex_TypeDefinitionIndex = 70975;
 
 	class SpineAnimeKeywordToTrackIndex : public ::System::Object
 	{

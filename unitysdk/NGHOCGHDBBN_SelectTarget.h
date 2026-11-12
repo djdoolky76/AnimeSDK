@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NGHOCGHDBBN_SelectTarget_TypeDefinitionIndex = 61309;
+inline static constexpr unsigned int NGHOCGHDBBN_SelectTarget_TypeDefinitionIndex = 62694;
 
 	enum class NGHOCGHDBBN_SelectTarget : ::System::Int32
 	{

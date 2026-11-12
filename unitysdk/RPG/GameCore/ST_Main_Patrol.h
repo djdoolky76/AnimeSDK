@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ST_Main_Patrol; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ST_MAIN_PATROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA806A0)
-#define RPG_GAMECORE_ST_MAIN_PATROL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA806B0)
-#define RPG_GAMECORE_ST_MAIN_PATROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA80660)
+#define RPG_GAMECORE_ST_MAIN_PATROL_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC92F20)
+#define RPG_GAMECORE_ST_MAIN_PATROL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC92F30)
+#define RPG_GAMECORE_ST_MAIN_PATROL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC92EE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_Main_Patrol_TypeDefinitionIndex = 20103;
+	inline static constexpr unsigned int ST_Main_Patrol_TypeDefinitionIndex = 20437;
 
 	class ST_Main_Patrol : public ::RPG::GameCore::STTaskConfig
 	{

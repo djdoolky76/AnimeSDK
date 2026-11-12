@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define GCIBMBJGPKI_EKLGEDEDFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x15976B90)
+#define GCIBMBJGPKI_EKLGEDEDFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x168AD770)
 
-inline static constexpr unsigned int GCIBMBJGPKI_EKLGEDEDFFE_TypeDefinitionIndex = 77936;
+inline static constexpr unsigned int GCIBMBJGPKI_EKLGEDEDFFE_TypeDefinitionIndex = 80671;
 
 	class GCIBMBJGPKI_EKLGEDEDFFE : public ::System::Object
 	{

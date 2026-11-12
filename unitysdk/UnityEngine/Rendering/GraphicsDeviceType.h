@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int GraphicsDeviceType_TypeDefinitionIndex = 4709;
+	inline static constexpr unsigned int GraphicsDeviceType_TypeDefinitionIndex = 4713;
 
 	enum class GraphicsDeviceType : ::System::Int32
 	{

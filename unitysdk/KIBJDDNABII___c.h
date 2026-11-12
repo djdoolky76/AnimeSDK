@@ -4,18 +4,18 @@
 class KIBJDDNABII;
 namespace System { class Object; }
 
-#define KIBJDDNABII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E854A70)
-#define KIBJDDNABII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E854AB0)
-#define KIBJDDNABII___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E854AC0)
+#define KIBJDDNABII___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB6EB70)
+#define KIBJDDNABII___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB6EBB0)
+#define KIBJDDNABII___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FB6EBC0)
 
-inline static constexpr unsigned int KIBJDDNABII___c_TypeDefinitionIndex = 26389;
+inline static constexpr unsigned int KIBJDDNABII___c_TypeDefinitionIndex = 26916;
 
 	class KIBJDDNABII___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18CF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x12820);
 		}
 
 		static ::System::Void _cctor()

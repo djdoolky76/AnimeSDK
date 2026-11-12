@@ -8,13 +8,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA61480)
-#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DA61490)
-#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA61320)
+#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC73A70)
+#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1EC73A80)
+#define RPG_GAMECORE_RTLIFEBINDINGCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC73910)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtLifeBindingConfig_TypeDefinitionIndex = 24156;
+	inline static constexpr unsigned int RtLifeBindingConfig_TypeDefinitionIndex = 24615;
 
 	class RtLifeBindingConfig : public ::RPG::GameCore::JsonConfig
 	{

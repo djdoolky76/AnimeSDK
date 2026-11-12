@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterDifficultyGuideConfigRow; }
 
-#define RPG_GAMECORE_MONSTERDIFFICULTYGUIDECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B02C0)
-#define RPG_GAMECORE_MONSTERDIFFICULTYGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8AFBE0)
+#define RPG_GAMECORE_MONSTERDIFFICULTYGUIDECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EACA2A0)
+#define RPG_GAMECORE_MONSTERDIFFICULTYGUIDECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAC9BC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterDifficultyGuideConfigRow_TypeDefinitionIndex = 14208;
+	inline static constexpr unsigned int MonsterDifficultyGuideConfigRow_TypeDefinitionIndex = 14365;
 
 	class MonsterDifficultyGuideConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::Single>* ParameterList; // 0x10
-		::RPG::Client::TextID DifficultyGuideDescription; // 0x18
-		::System::UInt32 DifficultyGuideID; // 0x28
-		::System::UInt32 SkillID; // 0x2C
+		::System::UInt32 SkillID; // 0x18
+		::System::UInt32 DifficultyGuideID; // 0x1C
+		::RPG::Client::TextID DifficultyGuideDescription; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERDIFFICULTYGUIDECONFIGROW_CTOR_OFFSET))(this);

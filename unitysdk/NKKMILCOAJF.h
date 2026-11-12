@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define NKKMILCOAJF_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
-#define NKKMILCOAJF_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x21970)
+#define NKKMILCOAJF_CTOR_OFFSET UNITYSDK_OFFSET(0x12B00)
+#define NKKMILCOAJF_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x26C80)
 
-inline static constexpr unsigned int NKKMILCOAJF_TypeDefinitionIndex = 73810;
+inline static constexpr unsigned int NKKMILCOAJF_TypeDefinitionIndex = 75936;
 
 	struct alignas(4) NKKMILCOAJF
 	{

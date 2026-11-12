@@ -3,7 +3,7 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T> class Action_1; }
 
-inline static constexpr unsigned int CAFFJNJEKFC_TypeDefinitionIndex = 49836;
+inline static constexpr unsigned int CAFFJNJEKFC_TypeDefinitionIndex = 50884;
 
 	class CAFFJNJEKFC : public ::System::Object
 	{

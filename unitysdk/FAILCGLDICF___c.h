@@ -6,35 +6,35 @@ class FBKKFMONGAA;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define FAILCGLDICF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1567F400)
-#define FAILCGLDICF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1567F440)
-#define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_0_OFFSET UNITYSDK_OFFSET(0x1567F450)
-#define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_1_OFFSET UNITYSDK_OFFSET(0x1567F4C0)
-#define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_2_OFFSET UNITYSDK_OFFSET(0x1567F530)
+#define FAILCGLDICF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16593780)
+#define FAILCGLDICF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x165937C0)
+#define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_0_OFFSET UNITYSDK_OFFSET(0x165937D0)
+#define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_1_OFFSET UNITYSDK_OFFSET(0x16593840)
+#define FAILCGLDICF___C___NOTIFYBUFFEDCELLSMAYBECHANGED_B__17_2_OFFSET UNITYSDK_OFFSET(0x165938B0)
 
-inline static constexpr unsigned int FAILCGLDICF___c_TypeDefinitionIndex = 79500;
+inline static constexpr unsigned int FAILCGLDICF___c_TypeDefinitionIndex = 82277;
 
 	class FAILCGLDICF___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
+		static ::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>** StaticGet___9__17_2()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C750);
-		}
-
-		static ::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>** StaticGet___9__17_1()
-		{
-			return (::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C758);
+			return (::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40920);
 		}
 
 		static ::System::Func_2<::DIGCDGKOBMK*, ::System::Boolean>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::DIGCDGKOBMK*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C760);
+			return (::System::Func_2<::DIGCDGKOBMK*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40928);
 		}
 
-		static ::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>** StaticGet___9__17_2()
+		static ::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>** StaticGet___9__17_1()
 		{
-			return (::System::Func_2<::FBKKFMONGAA*, ::System::Boolean>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C768);
+			return (::System::Func_2<::DIGCDGKOBMK*, ::FBKKFMONGAA*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40930);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40938);
 		}
 
 		static ::System::Void _cctor()

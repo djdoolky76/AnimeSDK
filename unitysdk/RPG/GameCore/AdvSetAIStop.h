@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvSetAIStop; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVSETAISTOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3AECD0)
-#define RPG_GAMECORE_ADVSETAISTOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3AECE0)
-#define RPG_GAMECORE_ADVSETAISTOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3AECA0)
+#define RPG_GAMECORE_ADVSETAISTOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5BE200)
+#define RPG_GAMECORE_ADVSETAISTOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5BE210)
+#define RPG_GAMECORE_ADVSETAISTOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5BE1D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvSetAIStop_TypeDefinitionIndex = 22203;
+	inline static constexpr unsigned int AdvSetAIStop_TypeDefinitionIndex = 22608;
 
 	class AdvSetAIStop : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,18 +4,18 @@
 class GDGKPCGNDIB;
 namespace System { class Object; }
 
-#define GDGKPCGNDIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E449C90)
-#define GDGKPCGNDIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E449CD0)
-#define GDGKPCGNDIB___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E449CE0)
+#define GDGKPCGNDIB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7379F0)
+#define GDGKPCGNDIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F737A30)
+#define GDGKPCGNDIB___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F737A40)
 
-inline static constexpr unsigned int GDGKPCGNDIB___c_TypeDefinitionIndex = 33791;
+inline static constexpr unsigned int GDGKPCGNDIB___c_TypeDefinitionIndex = 34706;
 
 	class GDGKPCGNDIB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x109A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57210);
 		}
 
 		static ::System::Void _cctor()

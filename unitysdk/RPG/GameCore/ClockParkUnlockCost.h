@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ClockParkUnlockCost; }
 
-#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5C73E0)
-#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5C2DA0)
+#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7D7170)
+#define RPG_GAMECORE_CLOCKPARKUNLOCKCOST_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7D2BB0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClockParkUnlockCost_TypeDefinitionIndex = 11161;
+	inline static constexpr unsigned int ClockParkUnlockCost_TypeDefinitionIndex = 11177;
 
 	class ClockParkUnlockCost : public ::System::Object
 	{

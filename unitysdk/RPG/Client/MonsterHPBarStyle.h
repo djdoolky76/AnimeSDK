@@ -6,96 +6,97 @@ class LACLKDPNNLH;
 namespace RPG::Client { class MonsterHPBarStyle; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_CLIENT_MONSTERHPBARSTYLE_CREATE_OFFSET UNITYSDK_OFFSET(0xD8BDB30)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0xD8BD760)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_GETPLURALITYBACKCOLOR_OFFSET UNITYSDK_OFFSET(0xD8BE0E0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_GETPLURALITYFRONTCOLOR_OFFSET UNITYSDK_OFFSET(0xD8BDEE0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_COLORL_OFFSET UNITYSDK_OFFSET(0xD8BD6B0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_COLORR_OFFSET UNITYSDK_OFFSET(0xD8BD6D0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_ISDAMAGEUPSTYLE_OFFSET UNITYSDK_OFFSET(0xD8BD6F0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_SHOULDAPPLYMAINCOLOR_OFFSET UNITYSDK_OFFSET(0xD8BD710)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_REFRESH_OFFSET UNITYSDK_OFFSET(0xD8BDC50)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_SETGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xD8BDC00)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_SETNORMALCOLOR_OFFSET UNITYSDK_OFFSET(0xD8BDDD0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_SETSUPERARMORBREAK_OFFSET UNITYSDK_OFFSET(0xD8BDD30)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_SETTOTALPLURALITYNUM_OFFSET UNITYSDK_OFFSET(0xD8BDD80)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_SET_COLORL_OFFSET UNITYSDK_OFFSET(0xD8BD6C0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_SET_COLORR_OFFSET UNITYSDK_OFFSET(0xD8BD6E0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE_SET_ISDAMAGEUPSTYLE_OFFSET UNITYSDK_OFFSET(0xD8BD700)
-#define RPG_CLIENT_MONSTERHPBARSTYLE__ENSURECOLORS_OFFSET UNITYSDK_OFFSET(0xD8BD7B0)
-#define RPG_CLIENT_MONSTERHPBARSTYLE__ENSURESTAGEINVASIONMODULE_OFFSET UNITYSDK_OFFSET(0xD8BE240)
-#define RPG_CLIENT_MONSTERHPBARSTYLE__GETPLURALITYCOLORINDEX_OFFSET UNITYSDK_OFFSET(0xD8BE050)
-#define RPG_CLIENT_MONSTERHPBARSTYLE__SHOULDUSEINVASIONCOLOR_OFFSET UNITYSDK_OFFSET(0xD8BDE40)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_CREATE_OFFSET UNITYSDK_OFFSET(0xE310810)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_CTOR_OFFSET UNITYSDK_OFFSET(0xE310440)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_GETPLURALITYBACKCOLOR_OFFSET UNITYSDK_OFFSET(0xE310E20)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_GETPLURALITYFRONTCOLOR_OFFSET UNITYSDK_OFFSET(0xE310C20)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_COLORL_OFFSET UNITYSDK_OFFSET(0xE310390)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_COLORR_OFFSET UNITYSDK_OFFSET(0xE3103B0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_ISDAMAGEUPSTYLE_OFFSET UNITYSDK_OFFSET(0xE3103D0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_GET_SHOULDAPPLYMAINCOLOR_OFFSET UNITYSDK_OFFSET(0xE3103F0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_REFRESH_OFFSET UNITYSDK_OFFSET(0xE310930)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_SETGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xE3108E0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_SETNORMALCOLOR_OFFSET UNITYSDK_OFFSET(0xE310AB0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_SETSUPERARMORBREAK_OFFSET UNITYSDK_OFFSET(0xE310A10)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_SETTOTALPLURALITYNUM_OFFSET UNITYSDK_OFFSET(0xE310A60)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_SET_COLORL_OFFSET UNITYSDK_OFFSET(0xE3103A0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_SET_COLORR_OFFSET UNITYSDK_OFFSET(0xE3103C0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE_SET_ISDAMAGEUPSTYLE_OFFSET UNITYSDK_OFFSET(0xE3103E0)
+#define RPG_CLIENT_MONSTERHPBARSTYLE__ENSURECOLORS_OFFSET UNITYSDK_OFFSET(0xE310490)
+#define RPG_CLIENT_MONSTERHPBARSTYLE__ENSURESTAGEINVASIONMODULE_OFFSET UNITYSDK_OFFSET(0xE310F80)
+#define RPG_CLIENT_MONSTERHPBARSTYLE__GETPLURALITYCOLORINDEX_OFFSET UNITYSDK_OFFSET(0xE310D90)
+#define RPG_CLIENT_MONSTERHPBARSTYLE__SHOULDUSEINVASIONCOLOR_OFFSET UNITYSDK_OFFSET(0xE310B20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonsterHPBarStyle_TypeDefinitionIndex = 71678;
+	inline static constexpr unsigned int MonsterHPBarStyle_TypeDefinitionIndex = 73668;
 
 	class MonsterHPBarStyle : public ::System::Object
 	{
 	public:
 		::LACLKDPNNLH* _StageInvasionModule; // 0x10
 		::RPG::GameCore::GameEntity* _Entity; // 0x18
-		::UnityEngine::Color _NormalColorR; // 0x20
-		::UnityEngine::Color _ColorR_k__BackingField; // 0x30
-		::UnityEngine::Color _NormalColorL; // 0x40
-		::System::Int32 _TotalPluralityNum; // 0x50
-		::UnityEngine::Color _ColorL_k__BackingField; // 0x54
-		::System::Boolean _IsDamageUpStyle_k__BackingField; // 0x64
-		::System::Boolean _IsSuperArmorBreak; // 0x65
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_s_PluralityRight()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x6DA30);
-		}
-
+		::UnityEngine::Color _ColorL_k__BackingField; // 0x20
+		::System::Int32 _TotalPluralityNum; // 0x30
+		::UnityEngine::Color _ColorR_k__BackingField; // 0x34
+		::UnityEngine::Color _NormalColorR; // 0x44
+		::System::Boolean _IsDamageUpStyle_k__BackingField; // 0x54
+		::System::Boolean _IsSuperArmorBreak; // 0x55
+		::System::Byte _padding0[0x2];
+		::UnityEngine::Color _NormalColorL; // 0x58
 		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_s_PluralityLeft()
 		{
-			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x6DA38);
+			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x67D70);
 		}
 
-		static ::UnityEngine::Color* StaticGet_s_InvasionActivatedL()
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_s_PluralityRight()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x151C0);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_NormalR()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x151D0);
-		}
-
-		static ::System::Boolean* StaticGet_s_ColorsLoaded()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x151E0);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_DamageUpL()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x151E4);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_NormalL()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x151F4);
-		}
-
-		static ::UnityEngine::Color* StaticGet_s_InvasionActivatedR()
-		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x15204);
+			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x67D78);
 		}
 
 		static ::UnityEngine::Color* StaticGet_s_LastBarR()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x15214);
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14DA0);
 		}
 
-		static ::UnityEngine::Color* StaticGet_s_LastBarL()
+		static ::UnityEngine::Color* StaticGet_s_InvasionActivatedL()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x15224);
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14DB0);
+		}
+
+		static ::System::Boolean* StaticGet_s_ColorsLoaded()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14DC0);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_NormalR()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14DC4);
 		}
 
 		static ::UnityEngine::Color* StaticGet_s_DamageUpR()
 		{
-			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x15234);
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14DD4);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_DamageUpL()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14DE4);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_NormalL()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14DF4);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_InvasionActivatedR()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14E04);
+		}
+
+		static ::UnityEngine::Color* StaticGet_s_LastBarL()
+		{
+			return (::UnityEngine::Color*)UnitySDK::FromName("RPG.Client", "MonsterHPBarStyle")->GetStaticField(0x14E14);
 		}
 
 		// static const ::System::Object _PLURALITY_COLOR_NUM; // 0x0

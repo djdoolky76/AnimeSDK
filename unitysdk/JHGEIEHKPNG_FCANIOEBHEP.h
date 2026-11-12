@@ -7,7 +7,7 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 namespace UnityEngine { class GameObject; }
 
-inline static constexpr unsigned int JHGEIEHKPNG_FCANIOEBHEP_TypeDefinitionIndex = 49878;
+inline static constexpr unsigned int JHGEIEHKPNG_FCANIOEBHEP_TypeDefinitionIndex = 50926;
 
 	class JHGEIEHKPNG_FCANIOEBHEP : public ::System::Object
 	{

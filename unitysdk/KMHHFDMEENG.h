@@ -5,11 +5,11 @@ namespace RPG::Client { class CommonActivityLightConeRewardData; }
 namespace RPG::Client { class CommonActivityLightConeRewardGroup; }
 namespace RPG::GameCore { class MusicRhythmOpticalRow; }
 
-#define KMHHFDMEENG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB556E80)
-#define KMHHFDMEENG_CTOR_OFFSET UNITYSDK_OFFSET(0xB5573C0)
-#define KMHHFDMEENG_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xB557290)
+#define KMHHFDMEENG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDA28B0)
+#define KMHHFDMEENG_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA2DF0)
+#define KMHHFDMEENG_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xBDA2CC0)
 
-inline static constexpr unsigned int KMHHFDMEENG_TypeDefinitionIndex = 61812;
+inline static constexpr unsigned int KMHHFDMEENG_TypeDefinitionIndex = 63218;
 
 	class KMHHFDMEENG : public ::System::Object
 	{

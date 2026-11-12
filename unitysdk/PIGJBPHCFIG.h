@@ -5,20 +5,20 @@
 class FCOEMCEDLNL;
 class PIGJBPHCFIG;
 
-#define PIGJBPHCFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2EF7C0)
-#define PIGJBPHCFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2EF590)
+#define PIGJBPHCFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4FBDD0)
+#define PIGJBPHCFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4FBBA0)
 
-inline static constexpr unsigned int PIGJBPHCFIG_TypeDefinitionIndex = 11563;
+inline static constexpr unsigned int PIGJBPHCFIG_TypeDefinitionIndex = 11614;
 
 	class PIGJBPHCFIG : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* CJEEEFLFFOL; // 0x10
-		::System::UInt32 AJCDFGPPLJP; // 0x18
+		::System::UInt32 LIPCDDAPHNF; // 0x18
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID OENAMINOLLF; // 0x20
-		::System::UInt32 PHFMCACHFIJ; // 0x30
-		::System::UInt32 LIPCDDAPHNF; // 0x34
+		::System::UInt32 AJCDFGPPLJP; // 0x30
+		::System::UInt32 PHFMCACHFIJ; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + PIGJBPHCFIG_CTOR_OFFSET))(this);

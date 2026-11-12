@@ -6,7 +6,7 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int UniTaskAsyncEnumerable___c__129_2_TypeDefinitionIndex = 45186;
+	inline static constexpr unsigned int UniTaskAsyncEnumerable___c__129_2_TypeDefinitionIndex = 46215;
 
 	template <typename T1, typename T2>
 	class UniTaskAsyncEnumerable___c__129_2 : public ::System::Object

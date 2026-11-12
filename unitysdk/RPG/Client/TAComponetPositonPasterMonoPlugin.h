@@ -4,12 +4,12 @@ class NILFOJGCPHI;
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE18A230)
-#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE18A1E0)
+#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xEC376B0)
+#define RPG_CLIENT_TACOMPONETPOSITONPASTERMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xEC37660)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TAComponetPositonPasterMonoPlugin_TypeDefinitionIndex = 70764;
+	inline static constexpr unsigned int TAComponetPositonPasterMonoPlugin_TypeDefinitionIndex = 72743;
 
 	class TAComponetPositonPasterMonoPlugin
 	{

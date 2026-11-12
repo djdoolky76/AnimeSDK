@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 class GOOGNAIABBN;
 namespace RPG::GameCore { class TeamTowersPassiveSkillConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSPASSIVESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7DD60)
-#define RPG_GAMECORE_TEAMTOWERSPASSIVESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB7DC90)
+#define RPG_GAMECORE_TEAMTOWERSPASSIVESKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2D310)
+#define RPG_GAMECORE_TEAMTOWERSPASSIVESKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE2D240)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersPassiveSkillConfig_TypeDefinitionIndex = 21407;
+	inline static constexpr unsigned int TeamTowersPassiveSkillConfig_TypeDefinitionIndex = 21750;
 
 	class TeamTowersPassiveSkillConfig : public ::RPG::GameCore::JsonConfig
 	{

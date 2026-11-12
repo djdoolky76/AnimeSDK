@@ -6,18 +6,18 @@ class OFKKIMABHJD;
 namespace RPG::Client { class UIController; }
 namespace System { class Object; }
 
-#define LMFLBGKCGFD_AHEEAFKFALM_OFFSET UNITYSDK_OFFSET(0xB77D0B0)
-#define LMFLBGKCGFD_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xB77CF50)
-#define LMFLBGKCGFD_CTOR_OFFSET UNITYSDK_OFFSET(0xB77CF40)
-#define LMFLBGKCGFD_OHINFDICPFI_OFFSET UNITYSDK_OFFSET(0xB77D190)
+#define LMFLBGKCGFD_AHEEAFKFALM_OFFSET UNITYSDK_OFFSET(0xC01D1A0)
+#define LMFLBGKCGFD_CLJEBKODGHK_OFFSET UNITYSDK_OFFSET(0xC01D040)
+#define LMFLBGKCGFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC01D030)
+#define LMFLBGKCGFD_OHINFDICPFI_OFFSET UNITYSDK_OFFSET(0xC01D280)
 
-inline static constexpr unsigned int LMFLBGKCGFD_TypeDefinitionIndex = 64047;
+inline static constexpr unsigned int LMFLBGKCGFD_TypeDefinitionIndex = 65492;
 
 	class LMFLBGKCGFD : public ::BMPICAPOOFD
 	{
 	public:
-		::RPG::Client::UIController* FAJFHDCOEGE; // 0x18
-		::RPG::Client::UIController* NJGMENOFECG; // 0x20
+		::RPG::Client::UIController* NJGMENOFECG; // 0x18
+		::RPG::Client::UIController* FAJFHDCOEGE; // 0x20
 		::System::Void _ctor(::OFKKIMABHJD* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::OFKKIMABHJD*))((::PBYTE)hIl2Cpp + LMFLBGKCGFD_CTOR_OFFSET))(this, a1);

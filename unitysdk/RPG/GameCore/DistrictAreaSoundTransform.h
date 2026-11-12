@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class DistrictAreaSoundTransform; }
 
-#define RPG_GAMECORE_DISTRICTAREASOUNDTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D618680)
-#define RPG_GAMECORE_DISTRICTAREASOUNDTRANSFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6183A0)
+#define RPG_GAMECORE_DISTRICTAREASOUNDTRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E856550)
+#define RPG_GAMECORE_DISTRICTAREASOUNDTRANSFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E856400)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DistrictAreaSoundTransform_TypeDefinitionIndex = 17263;
+	inline static constexpr unsigned int DistrictAreaSoundTransform_TypeDefinitionIndex = 17431;
 
 	class DistrictAreaSoundTransform : public ::RPG::GameCore::JsonConfig
 	{

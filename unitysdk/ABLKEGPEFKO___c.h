@@ -5,23 +5,23 @@ namespace RPG::Client { class SubMissionData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define ABLKEGPEFKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB107920)
-#define ABLKEGPEFKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB107960)
-#define ABLKEGPEFKO___C__SETTRACKINGSUBMISSION_B__4_0_OFFSET UNITYSDK_OFFSET(0xB107970)
+#define ABLKEGPEFKO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB76A290)
+#define ABLKEGPEFKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB76A2D0)
+#define ABLKEGPEFKO___C__SETTRACKINGSUBMISSION_B__4_0_OFFSET UNITYSDK_OFFSET(0xB76A2E0)
 
-inline static constexpr unsigned int ABLKEGPEFKO___c_TypeDefinitionIndex = 80177;
+inline static constexpr unsigned int ABLKEGPEFKO___c_TypeDefinitionIndex = 82954;
 
 	class ABLKEGPEFKO___c : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::RPG::Client::SubMissionData*>** StaticGet___9__4_0()
-		{
-			return (::System::Action_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43260);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43268);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39F60);
+		}
+
+		static ::System::Action_1<::RPG::Client::SubMissionData*>** StaticGet___9__4_0()
+		{
+			return (::System::Action_1<::RPG::Client::SubMissionData*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39F68);
 		}
 
 		static ::System::Void _cctor()

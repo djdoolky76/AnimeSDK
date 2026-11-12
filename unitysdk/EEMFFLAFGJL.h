@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PlayerForceWalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EEMFFLAFGJL_CTOR_OFFSET UNITYSDK_OFFSET(0x13A3DC20)
-#define EEMFFLAFGJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A3DC50)
+#define EEMFFLAFGJL_CTOR_OFFSET UNITYSDK_OFFSET(0x147FE370)
+#define EEMFFLAFGJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x147FE3A0)
 
-inline static constexpr unsigned int EEMFFLAFGJL_TypeDefinitionIndex = 58290;
+inline static constexpr unsigned int EEMFFLAFGJL_TypeDefinitionIndex = 59546;
 
 	class EEMFFLAFGJL
 	{

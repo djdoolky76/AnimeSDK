@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define EMBREEDEBUGTOOL_RAYDEBUGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAF1D180)
-#define EMBREEDEBUGTOOL_RAYDEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAF1E000)
+#define EMBREEDEBUGTOOL_RAYDEBUGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xB57E180)
+#define EMBREEDEBUGTOOL_RAYDEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB57F000)
 
-inline static constexpr unsigned int EmbreeDebugTool_RayDebugInfo_TypeDefinitionIndex = 45918;
+inline static constexpr unsigned int EmbreeDebugTool_RayDebugInfo_TypeDefinitionIndex = 46947;
 
 	class EmbreeDebugTool_RayDebugInfo : public ::System::Object
 	{

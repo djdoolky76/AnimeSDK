@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/PropertyAttribute.h"
 
-#define UNITYENGINE_TIMELINE_CUSTOMSIGNALEVENTDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F389A30)
+#define UNITYENGINE_TIMELINE_CUSTOMSIGNALEVENTDRAWER_CTOR_OFFSET UNITYSDK_OFFSET(0x2063A7D0)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int CustomSignalEventDrawer_TypeDefinitionIndex = 38832;
+	inline static constexpr unsigned int CustomSignalEventDrawer_TypeDefinitionIndex = 39761;
 
 	class CustomSignalEventDrawer : public ::UnityEngine::PropertyAttribute
 	{

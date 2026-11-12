@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_STREAMINGNOTIFYMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE146B00)
+#define RPG_CLIENT_STREAMINGNOTIFYMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xEBF40A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StreamingNotifyMonoPlugin_TypeDefinitionIndex = 70864;
+	inline static constexpr unsigned int StreamingNotifyMonoPlugin_TypeDefinitionIndex = 72843;
 
 	class StreamingNotifyMonoPlugin
 	{

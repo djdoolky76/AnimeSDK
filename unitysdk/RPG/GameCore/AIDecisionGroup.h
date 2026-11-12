@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AIDecisionGroup; }
 namespace RPG::GameCore { class AIDecisionUnitConfig; }
 
-#define RPG_GAMECORE_AIDECISIONGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3394C0)
-#define RPG_GAMECORE_AIDECISIONGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3393D0)
+#define RPG_GAMECORE_AIDECISIONGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1E548A30)
+#define RPG_GAMECORE_AIDECISIONGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E548940)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AIDecisionGroup_TypeDefinitionIndex = 15488;
+	inline static constexpr unsigned int AIDecisionGroup_TypeDefinitionIndex = 15646;
 
 	class AIDecisionGroup : public ::RPG::GameCore::JsonConfig
 	{

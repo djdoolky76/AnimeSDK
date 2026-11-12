@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int IAnyOfMatcher_1_TypeDefinitionIndex = 10039;
+	inline static constexpr unsigned int IAnyOfMatcher_1_TypeDefinitionIndex = 10047;
 
 	template <typename T>
 	class IAnyOfMatcher_1

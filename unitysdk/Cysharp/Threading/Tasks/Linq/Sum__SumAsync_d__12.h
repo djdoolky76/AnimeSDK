@@ -8,25 +8,25 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 namespace System { class Object; }
 namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
-#define CYSHARP_THREADING_TASKS_LINQ_SUM__SUMASYNC_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3C5E640)
+#define CYSHARP_THREADING_TASKS_LINQ_SUM__SUMASYNC_D__12_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x3EAD9C0)
 #define CYSHARP_THREADING_TASKS_LINQ_SUM__SUMASYNC_D__12_SETSTATEMACHINE_OFFSET UNITYSDK_OFFSET(0x10B0)
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int Sum__SumAsync_d__12_TypeDefinitionIndex = 45612;
+	inline static constexpr unsigned int Sum__SumAsync_d__12_TypeDefinitionIndex = 46641;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	struct alignas(8) Sum__SumAsync_d__12
 	{
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Double>* source; // 0x10
-		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Double>* _e_5__3; // 0x18
-		::System::Object* __7__wrap3; // 0x20
-		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x28
-		::System::Object* __u__1; // 0x38
-		::System::Byte _padding0[0x8];
-		::System::Threading::CancellationToken cancellationToken; // 0x48
-		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Double> __t__builder; // 0x50
-		::System::Byte _padding1[0x10];
+		::Cysharp::Threading::Tasks::UniTask_Awaiter __u__2; // 0x10
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerator_1<::System::Double>* _e_5__3; // 0x20
+		::Cysharp::Threading::Tasks::CompilerServices::AsyncUniTaskMethodBuilder_1<::System::Double> __t__builder; // 0x28
+		::System::Byte _padding0[0x10];
+		::System::Object* __7__wrap3; // 0x40
+		::Cysharp::Threading::Tasks::IUniTaskAsyncEnumerable_1<::System::Double>* source; // 0x48
+		::System::Threading::CancellationToken cancellationToken; // 0x50
+		::System::Object* __u__1; // 0x58
+		::System::Byte _padding1[0x8];
 		::System::Int32 __1__state; // 0x68
 		::System::Int32 __7__wrap4; // 0x6C
 		::System::Double _sum_5__2; // 0x70

@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterBlackListConfigRow; }
 
-#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8AEA90)
-#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8AE970)
+#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC8C00)
+#define RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAC8AE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterBlackListConfigRow_TypeDefinitionIndex = 12899;
+	inline static constexpr unsigned int MonsterBlackListConfigRow_TypeDefinitionIndex = 12971;
 
 	class MonsterBlackListConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 MonsterID; // 0x10
-		::System::UInt32 Rank; // 0x14
+		::System::UInt32 Rank; // 0x10
+		::System::UInt32 MonsterID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MONSTERBLACKLISTCONFIGROW_CTOR_OFFSET))(this);

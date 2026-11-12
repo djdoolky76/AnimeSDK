@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
-	inline static constexpr unsigned int FieldOptions_Types_TypeDefinitionIndex = 35791;
+	inline static constexpr unsigned int FieldOptions_Types_TypeDefinitionIndex = 36719;
 
 	class FieldOptions_Types : public ::System::Object
 	{

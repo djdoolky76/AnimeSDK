@@ -4,10 +4,10 @@
 namespace RPG::Client { class PlayerModule; }
 namespace System { class Object; }
 
-#define FMAPHFIJDBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15844B10)
-#define FMAPHFIJDBK_KKKKNGADDHP_OFFSET UNITYSDK_OFFSET(0x15844B20)
+#define FMAPHFIJDBK_CTOR_OFFSET UNITYSDK_OFFSET(0x167B47B0)
+#define FMAPHFIJDBK_KKKKNGADDHP_OFFSET UNITYSDK_OFFSET(0x167B47C0)
 
-inline static constexpr unsigned int FMAPHFIJDBK_TypeDefinitionIndex = 66684;
+inline static constexpr unsigned int FMAPHFIJDBK_TypeDefinitionIndex = 68620;
 
 	class FMAPHFIJDBK : public ::FFAOGKGJGPO
 	{

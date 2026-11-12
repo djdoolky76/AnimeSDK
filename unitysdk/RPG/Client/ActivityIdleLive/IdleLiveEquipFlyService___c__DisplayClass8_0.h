@@ -4,18 +4,18 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipFly; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipFlyService; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4CDD00)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0__SHOWEQUIPFLY_B__0_OFFSET UNITYSDK_OFFSET(0xC4CDDF0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDC4960)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0__SHOWEQUIPFLY_B__0_OFFSET UNITYSDK_OFFSET(0xCDC4A50)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass8_0_TypeDefinitionIndex = 75289;
+	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass8_0_TypeDefinitionIndex = 77616;
 
 	class IdleLiveEquipFlyService___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveEquipFlyService* __4__this; // 0x10
-		::RPG::Client::ActivityIdleLive::IdleLiveEquipFly* equipFly; // 0x18
+		::RPG::Client::ActivityIdleLive::IdleLiveEquipFly* equipFly; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveEquipFlyService* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEEQUIPFLYSERVICE___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

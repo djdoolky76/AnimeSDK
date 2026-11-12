@@ -3,16 +3,16 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/ConsoleVariableStringProperty.h"
 
-#define FKKCAGOGHKL_INHNBCHLLKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x15804110)
+#define FKKCAGOGHKL_INHNBCHLLKL_CCTOR_OFFSET UNITYSDK_OFFSET(0x16770930)
 
-inline static constexpr unsigned int FKKCAGOGHKL_INHNBCHLLKL_TypeDefinitionIndex = 59331;
+inline static constexpr unsigned int FKKCAGOGHKL_INHNBCHLLKL_TypeDefinitionIndex = 60608;
 
 	class FKKCAGOGHKL_INHNBCHLLKL : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ConsoleVariableStringProperty* StaticGet_NAINKMNAELB()
 		{
-			return (::UnityEngine::ConsoleVariableStringProperty*)UnitySDK::FromName("", "INHNBCHLLKL")->GetStaticField(0x30F60);
+			return (::UnityEngine::ConsoleVariableStringProperty*)UnitySDK::FromName("", "INHNBCHLLKL")->GetStaticField(0x26590);
 		}
 
 		static ::System::Void _cctor()

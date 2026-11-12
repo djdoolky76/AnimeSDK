@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraBuildMode_TypeDefinitionIndex = 78456;
+	inline static constexpr unsigned int ChimeraBuildMode_TypeDefinitionIndex = 81191;
 
 	enum class ChimeraBuildMode : ::System::Int32
 	{

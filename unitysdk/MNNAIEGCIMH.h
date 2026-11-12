@@ -4,10 +4,10 @@
 class PCBNKBFHCMO;
 namespace RPG::Client { class IActivityQuestRewardTabGroupInfo; }
 
-#define MNNAIEGCIMH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBA17BB0)
-#define MNNAIEGCIMH_CTOR_OFFSET UNITYSDK_OFFSET(0xBA17B60)
+#define MNNAIEGCIMH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC2D6200)
+#define MNNAIEGCIMH_CTOR_OFFSET UNITYSDK_OFFSET(0xC2D61B0)
 
-inline static constexpr unsigned int MNNAIEGCIMH_TypeDefinitionIndex = 61735;
+inline static constexpr unsigned int MNNAIEGCIMH_TypeDefinitionIndex = 63141;
 
 	class MNNAIEGCIMH : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsControlSkillDisable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FGBEBFFLCFB_CTOR_OFFSET UNITYSDK_OFFSET(0x15751500)
-#define FGBEBFFLCFB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15751530)
+#define FGBEBFFLCFB_CTOR_OFFSET UNITYSDK_OFFSET(0x16670920)
+#define FGBEBFFLCFB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16670950)
 
-inline static constexpr unsigned int FGBEBFFLCFB_TypeDefinitionIndex = 54643;
+inline static constexpr unsigned int FGBEBFFLCFB_TypeDefinitionIndex = 55809;
 
 	class FGBEBFFLCFB
 	{

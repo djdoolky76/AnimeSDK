@@ -9,13 +9,13 @@ namespace RPG::GameCore { class ShowWaypointByProp; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAE8400)
-#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DAE8420)
-#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAE83B0)
+#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECFA250)
+#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECFA270)
+#define RPG_GAMECORE_SHOWWAYPOINTBYPROP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECFA200)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowWaypointByProp_TypeDefinitionIndex = 20874;
+	inline static constexpr unsigned int ShowWaypointByProp_TypeDefinitionIndex = 21211;
 
 	class ShowWaypointByProp : public ::RPG::GameCore::TaskConfig
 	{

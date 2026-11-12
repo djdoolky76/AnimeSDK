@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_MAPNPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD556380)
-#define RPG_CLIENT_MAPNPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5563C0)
-#define RPG_CLIENT_MAPNPC___C__BEGINFADEIN_B__7_0_OFFSET UNITYSDK_OFFSET(0xD5563D0)
+#define RPG_CLIENT_MAPNPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFA6820)
+#define RPG_CLIENT_MAPNPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFA6860)
+#define RPG_CLIENT_MAPNPC___C__BEGINFADEIN_B__7_0_OFFSET UNITYSDK_OFFSET(0xDFA6870)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MapNpc___c_TypeDefinitionIndex = 60880;
+	inline static constexpr unsigned int MapNpc___c_TypeDefinitionIndex = 62259;
 
 	class MapNpc___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4AB70);
-		}
-
 		static ::System::Action** StaticGet___9__7_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4AB78);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58830);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x58838);
 		}
 
 		static ::System::Void _cctor()

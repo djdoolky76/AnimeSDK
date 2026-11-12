@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JHOEDOPHEPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1C8B30)
+#define JHOEDOPHEPC_CTOR_OFFSET UNITYSDK_OFFSET(0xB9EA830)
 
-inline static constexpr unsigned int JHOEDOPHEPC_TypeDefinitionIndex = 49067;
+inline static constexpr unsigned int JHOEDOPHEPC_TypeDefinitionIndex = 50143;
 
 	class JHOEDOPHEPC : public ::System::Attribute
 	{

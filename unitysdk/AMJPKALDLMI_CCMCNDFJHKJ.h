@@ -7,17 +7,17 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AMJPKALDLMI_CCMCNDFJHKJ_AOOALODBCEC_OFFSET UNITYSDK_OFFSET(0x15583F20)
-#define AMJPKALDLMI_CCMCNDFJHKJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x155848C0)
-#define AMJPKALDLMI_CCMCNDFJHKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15584920)
+#define AMJPKALDLMI_CCMCNDFJHKJ_AOOALODBCEC_OFFSET UNITYSDK_OFFSET(0x163F2FB0)
+#define AMJPKALDLMI_CCMCNDFJHKJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x163F3950)
+#define AMJPKALDLMI_CCMCNDFJHKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x163F39B0)
 
-inline static constexpr unsigned int AMJPKALDLMI_CCMCNDFJHKJ_TypeDefinitionIndex = 53730;
+inline static constexpr unsigned int AMJPKALDLMI_CCMCNDFJHKJ_TypeDefinitionIndex = 54894;
 
 	class AMJPKALDLMI_CCMCNDFJHKJ : public ::System::Object
 	{
 	public:
-		::System::String* OENAMINOLLF; // 0x10
-		::System::Collections::Generic::List_1<::System::Object*>* LDNHOKKHOCO; // 0x18
+		::System::Collections::Generic::List_1<::System::Object*>* LDNHOKKHOCO; // 0x10
+		::System::String* OENAMINOLLF; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AMJPKALDLMI_CCMCNDFJHKJ_CTOR_OFFSET))(this);

@@ -6,19 +6,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightElationEquipDescConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTELATIONEQUIPDESCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D72B8D0)
-#define RPG_GAMECORE_GRIDFIGHTELATIONEQUIPDESCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D72B6F0)
+#define RPG_GAMECORE_GRIDFIGHTELATIONEQUIPDESCCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E937160)
+#define RPG_GAMECORE_GRIDFIGHTELATIONEQUIPDESCCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E936F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightElationEquipDescConfigRow_TypeDefinitionIndex = 13469;
+	inline static constexpr unsigned int GridFightElationEquipDescConfigRow_TypeDefinitionIndex = 13545;
 
 	class GridFightElationEquipDescConfigRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x10
-		::RPG::Client::TextID ElationEquipDesc; // 0x18
-		::System::UInt32 ID; // 0x28
+		::System::UInt32 ID; // 0x18
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID ElationEquipDesc; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_GRIDFIGHTELATIONEQUIPDESCCONFIGROW_CTOR_OFFSET))(this);

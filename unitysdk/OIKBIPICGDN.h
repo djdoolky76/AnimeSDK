@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int OIKBIPICGDN_TypeDefinitionIndex = 25368;
+inline static constexpr unsigned int OIKBIPICGDN_TypeDefinitionIndex = 25846;
 
 	enum class OIKBIPICGDN : ::System::Int32
 	{

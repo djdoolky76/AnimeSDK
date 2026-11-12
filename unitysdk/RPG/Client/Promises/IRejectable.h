@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Promises
 {
-	inline static constexpr unsigned int IRejectable_TypeDefinitionIndex = 9873;
+	inline static constexpr unsigned int IRejectable_TypeDefinitionIndex = 9881;
 
 	class IRejectable
 	{

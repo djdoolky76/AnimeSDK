@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KCKJILIMNFF_TypeDefinitionIndex = 32578;
+inline static constexpr unsigned int KCKJILIMNFF_TypeDefinitionIndex = 33493;
 
 	enum class KCKJILIMNFF : ::System::Int32
 	{

@@ -4,15 +4,15 @@
 #include "unitysdk/System/Object.h"
 class KFELGAIGHAP;
 
-#define IGCBDPPGKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x163F4720)
+#define IGCBDPPGKMD_CTOR_OFFSET UNITYSDK_OFFSET(0x173A4D00)
 
-inline static constexpr unsigned int IGCBDPPGKMD_TypeDefinitionIndex = 54106;
+inline static constexpr unsigned int IGCBDPPGKMD_TypeDefinitionIndex = 55270;
 
 	class IGCBDPPGKMD : public ::System::Object
 	{
 	public:
-		::KFELGAIGHAP* GGNBOEIMEPM; // 0x10
-		::KFELGAIGHAP* GAFKECIDLJG; // 0x18
+		::KFELGAIGHAP* GAFKECIDLJG; // 0x10
+		::KFELGAIGHAP* GGNBOEIMEPM; // 0x18
 		::RPG::GameCore::RtBehaviorFlag FNPGDNFLMPC; // 0x20
 		::System::Void _ctor()
 		{

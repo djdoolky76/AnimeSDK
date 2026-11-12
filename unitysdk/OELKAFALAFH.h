@@ -5,23 +5,22 @@
 class ACGKMEPLIBJ;
 namespace RPG::Client { class MonoInflatableFighter; }
 
-#define OELKAFALAFH_CTOR_OFFSET UNITYSDK_OFFSET(0xBE32020)
-#define OELKAFALAFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBE32090)
-#define OELKAFALAFH_JFMILGOGGHP_OFFSET UNITYSDK_OFFSET(0xBE32030)
-#define OELKAFALAFH_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xBE320E0)
-#define OELKAFALAFH_KKOFJAJIKHI_OFFSET UNITYSDK_OFFSET(0xBE32190)
+#define OELKAFALAFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC6E9400)
+#define OELKAFALAFH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC6E9470)
+#define OELKAFALAFH_JFMILGOGGHP_OFFSET UNITYSDK_OFFSET(0xC6E9410)
+#define OELKAFALAFH_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xC6E94C0)
+#define OELKAFALAFH_KKOFJAJIKHI_OFFSET UNITYSDK_OFFSET(0xC6E9570)
 
-inline static constexpr unsigned int OELKAFALAFH_TypeDefinitionIndex = 68685;
+inline static constexpr unsigned int OELKAFALAFH_TypeDefinitionIndex = 70637;
 
 	class OELKAFALAFH : public ::System::Object
 	{
 	public:
 		::ACGKMEPLIBJ* CPIIOIPAAKK; // 0x10
 		::RPG::Client::MonoInflatableFighter* CEODOONOFBM; // 0x18
-		::System::Boolean IEGFFNAPBDL; // 0x20
-		::System::Boolean DEANEDGAIHB; // 0x21
-		::System::Byte _padding0[0x2];
-		::OELKAFALAFH_EWindowType PJMLOLKIEOM; // 0x24
+		::OELKAFALAFH_EWindowType PJMLOLKIEOM; // 0x20
+		::System::Boolean IEGFFNAPBDL; // 0x24
+		::System::Boolean DEANEDGAIHB; // 0x25
 		::System::Void _ctor(::RPG::Client::MonoInflatableFighter* a1, ::ACGKMEPLIBJ* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::MonoInflatableFighter*, ::ACGKMEPLIBJ*))((::PBYTE)hIl2Cpp + OELKAFALAFH_CTOR_OFFSET))(this, a1, a2);

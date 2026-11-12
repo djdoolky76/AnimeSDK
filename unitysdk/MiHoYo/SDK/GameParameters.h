@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MIHOYO_SDK_GAMEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE43D30)
+#define MIHOYO_SDK_GAMEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFCC240)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int GameParameters_TypeDefinitionIndex = 7575;
+	inline static constexpr unsigned int GameParameters_TypeDefinitionIndex = 7584;
 
 	class GameParameters : public ::System::Object
 	{

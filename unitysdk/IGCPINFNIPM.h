@@ -6,11 +6,11 @@
 #include "unitysdk/RPG/MVector3.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define IGCPINFNIPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D5340)
-#define IGCPINFNIPM_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6D4F40)
-#define IGCPINFNIPM_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C6D4E70)
+#define IGCPINFNIPM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D856C80)
+#define IGCPINFNIPM_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D856880)
+#define IGCPINFNIPM_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D8567B0)
 
-inline static constexpr unsigned int IGCPINFNIPM_TypeDefinitionIndex = 37205;
+inline static constexpr unsigned int IGCPINFNIPM_TypeDefinitionIndex = 38133;
 
 	class IGCPINFNIPM : public ::System::Object
 	{

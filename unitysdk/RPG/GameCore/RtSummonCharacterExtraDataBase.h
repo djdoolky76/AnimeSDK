@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtSummonCharacterExtraDataBase; }
 
-#define RPG_GAMECORE_RTSUMMONCHARACTEREXTRADATABASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA663E0)
-#define RPG_GAMECORE_RTSUMMONCHARACTEREXTRADATABASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA66350)
+#define RPG_GAMECORE_RTSUMMONCHARACTEREXTRADATABASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC78C60)
+#define RPG_GAMECORE_RTSUMMONCHARACTEREXTRADATABASE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC78BD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtSummonCharacterExtraDataBase_TypeDefinitionIndex = 24123;
+	inline static constexpr unsigned int RtSummonCharacterExtraDataBase_TypeDefinitionIndex = 24582;
 
 	class RtSummonCharacterExtraDataBase : public ::RPG::GameCore::JsonConfig
 	{

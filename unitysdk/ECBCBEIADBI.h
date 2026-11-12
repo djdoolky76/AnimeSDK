@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define ECBCBEIADBI_CTOR_OFFSET UNITYSDK_OFFSET(0x12D05DF0)
+#define ECBCBEIADBI_CTOR_OFFSET UNITYSDK_OFFSET(0x13AB73F0)
 
-inline static constexpr unsigned int ECBCBEIADBI_TypeDefinitionIndex = 73284;
+inline static constexpr unsigned int ECBCBEIADBI_TypeDefinitionIndex = 75400;
 
 	class ECBCBEIADBI : public ::System::Object
 	{

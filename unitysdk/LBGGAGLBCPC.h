@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LBGGAGLBCPC_TypeDefinitionIndex = 32808;
+inline static constexpr unsigned int LBGGAGLBCPC_TypeDefinitionIndex = 33723;
 
 	enum class LBGGAGLBCPC : ::System::Int32
 	{

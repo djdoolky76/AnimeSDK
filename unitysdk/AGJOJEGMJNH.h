@@ -8,31 +8,31 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MonoBehaviour; }
 
-#define AGJOJEGMJNH_BIKNOLHCEOC_OFFSET UNITYSDK_OFFSET(0xCF3DA00)
-#define AGJOJEGMJNH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF3F6F0)
-#define AGJOJEGMJNH_GBEAMKCHEEK_OFFSET UNITYSDK_OFFSET(0xCF3D150)
-#define AGJOJEGMJNH_HBOHKIPCHHE_OFFSET UNITYSDK_OFFSET(0xCF3D960)
-#define AGJOJEGMJNH_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xCF3D100)
-#define AGJOJEGMJNH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF3C810)
+#define AGJOJEGMJNH_BIKNOLHCEOC_OFFSET UNITYSDK_OFFSET(0xD5F4950)
+#define AGJOJEGMJNH_CTOR_OFFSET UNITYSDK_OFFSET(0xD5F6630)
+#define AGJOJEGMJNH_GBEAMKCHEEK_OFFSET UNITYSDK_OFFSET(0xD5F40A0)
+#define AGJOJEGMJNH_HBOHKIPCHHE_OFFSET UNITYSDK_OFFSET(0xD5F48B0)
+#define AGJOJEGMJNH_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xD5F4050)
+#define AGJOJEGMJNH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xD5F3760)
 
-inline static constexpr unsigned int AGJOJEGMJNH_TypeDefinitionIndex = 70377;
+inline static constexpr unsigned int AGJOJEGMJNH_TypeDefinitionIndex = 72344;
 
 	class AGJOJEGMJNH : public ::RPG::Client::BehaviorBase
 	{
 	public:
-		::UnityEngine::MaterialPropertyBlock* HMHMGLCEALK; // 0x18
-		::UnityEngine::GameObject* JJGCCEGHDDM; // 0x20
-		::UnityEngine::GameObject* EJDCMEDEBGO; // 0x28
+		::UnityEngine::GameObject* EJDCMEDEBGO; // 0x18
+		::UnityEngine::MaterialPropertyBlock* HMHMGLCEALK; // 0x20
+		::UnityEngine::GameObject* JJGCCEGHDDM; // 0x28
 		::UnityEngine::GameObject* JPCMHJPCJLP; // 0x30
 		::UnityEngine::Quaternion NCMEPPHLGEG; // 0x38
-		::UnityEngine::Vector3 ICNBBLAOJGH; // 0x48
+		::UnityEngine::Vector3 NFBLJCEJGDL; // 0x48
 		::System::Single DLHGCGFDLBN; // 0x54
 		::UnityEngine::Vector3 NOKOFCBMICO; // 0x58
-		::System::Single JBMGKOLIJBD; // 0x64
-		::System::Single AJOEFOBJGBH; // 0x68
-		::System::Single NECEODNNDMA; // 0x6C
-		::UnityEngine::Vector3 BHOPCDGLGEE; // 0x70
-		::UnityEngine::Vector3 NFBLJCEJGDL; // 0x7C
+		::UnityEngine::Vector3 BHOPCDGLGEE; // 0x64
+		::System::Single NECEODNNDMA; // 0x70
+		::UnityEngine::Vector3 ICNBBLAOJGH; // 0x74
+		::System::Single JBMGKOLIJBD; // 0x80
+		::System::Single AJOEFOBJGBH; // 0x84
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AGJOJEGMJNH_CTOR_OFFSET))(this);

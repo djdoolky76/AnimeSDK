@@ -5,26 +5,26 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBF1CF0)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x1CBF1C00)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_SETSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1CBF1C30)
-#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_UNSETSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1CBF1C90)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD990C0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_RESET_OFFSET UNITYSDK_OFFSET(0x1DD98FD0)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_SETSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1DD99000)
+#define RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_UNSETSUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x1DD99060)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int AvatarEffectInfo_PerRendererEffect_TypeDefinitionIndex = 37583;
+	inline static constexpr unsigned int AvatarEffectInfo_PerRendererEffect_TypeDefinitionIndex = 38511;
 
 	class AvatarEffectInfo_PerRendererEffect : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* passIDs; // 0x10
-		::Il2CppArray<::System::Int32>* subMeshIndexMasks; // 0x18
-		::Il2CppArray<::Il2CppArray<::UnityEngine::Material*>*>* rendererMaterials; // 0x20
-		::Il2CppArray<::UnityEngine::Renderer*>* renderers; // 0x28
+		::Il2CppArray<::System::Int32>* subMeshIndexMasks; // 0x10
+		::Il2CppArray<::UnityEngine::Renderer*>* renderers; // 0x18
+		::Il2CppArray<::System::Int32>* passIDs; // 0x20
+		::Il2CppArray<::Il2CppArray<::UnityEngine::Material*>*>* rendererMaterials; // 0x28
 		::Il2CppArray<::System::UInt32>* renderingLayerMasks; // 0x30
 		::RPG::CustomRP::AvatarEffectInfo_EExecutionOrder passesExecutionOrder; // 0x38
-		::System::Boolean afterTransparent; // 0x3C
-		::System::Boolean ignoreMpb; // 0x3D
+		::System::Boolean ignoreMpb; // 0x3C
+		::System::Boolean afterTransparent; // 0x3D
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_AVATAREFFECTINFO_PERRENDEREREFFECT_CTOR_OFFSET))(this);

@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::Challenge { class IChallengeEnvironmentHintViewModel; }
 
-#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGEENVIRONMENTHINTVIEWMODELTIERCEEXTENSIONS_CHECKISTIERCE_OFFSET UNITYSDK_OFFSET(0xC942770)
+#define RPG_CLIENT_CHALLENGE_TIERCE_CHALLENGEENVIRONMENTHINTVIEWMODELTIERCEEXTENSIONS_CHECKISTIERCE_OFFSET UNITYSDK_OFFSET(0xD2A80B0)
 
 namespace RPG::Client::Challenge::Tierce
 {
-	inline static constexpr unsigned int ChallengeEnvironmentHintViewModelTierceExtensions_TypeDefinitionIndex = 81595;
+	inline static constexpr unsigned int ChallengeEnvironmentHintViewModelTierceExtensions_TypeDefinitionIndex = 84376;
 
 	class ChallengeEnvironmentHintViewModelTierceExtensions : public ::System::Object
 	{

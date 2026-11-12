@@ -6,14 +6,14 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeRecommendData___O_TypeDefinitionIndex = 66813;
+	inline static constexpr unsigned int LightConeRecommendData___O_TypeDefinitionIndex = 68749;
 
 	class LightConeRecommendData___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::FJIFFMGIAHL*>** StaticGet__0____SortLightConeByUsageRate()
 		{
-			return (::System::Comparison_1<::FJIFFMGIAHL*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x1CE00);
+			return (::System::Comparison_1<::FJIFFMGIAHL*>**)UnitySDK::FromName("RPG.Client", "<>O")->GetStaticField(0x28420);
 		}
 
 	};

@@ -4,12 +4,12 @@
 class IJEFCGNGHBD;
 namespace RPG::Client::Challenge { class ChallengeAvatarLineupSlotControl; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC93DE60)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0___BINDICON_B__0_OFFSET UNITYSDK_OFFSET(0xC93DFB0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A3810)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEAVATARLINEUPSLOTCONTROL___C__DISPLAYCLASS13_0___BINDICON_B__0_OFFSET UNITYSDK_OFFSET(0xD2A3960)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass13_0_TypeDefinitionIndex = 81413;
+	inline static constexpr unsigned int ChallengeAvatarLineupSlotControl___c__DisplayClass13_0_TypeDefinitionIndex = 84193;
 
 	class ChallengeAvatarLineupSlotControl___c__DisplayClass13_0 : public ::System::Object
 	{

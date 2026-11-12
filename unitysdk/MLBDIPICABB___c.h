@@ -4,18 +4,18 @@
 class MLBDIPICABB;
 namespace System { class Object; }
 
-#define MLBDIPICABB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA7F8E0)
-#define MLBDIPICABB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA7F920)
-#define MLBDIPICABB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA7F930)
+#define MLBDIPICABB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDB5150)
+#define MLBDIPICABB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDB5190)
+#define MLBDIPICABB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FDB51A0)
 
-inline static constexpr unsigned int MLBDIPICABB___c_TypeDefinitionIndex = 29985;
+inline static constexpr unsigned int MLBDIPICABB___c_TypeDefinitionIndex = 30883;
 
 	class MLBDIPICABB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57C20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D3D0);
 		}
 
 		static ::System::Void _cctor()

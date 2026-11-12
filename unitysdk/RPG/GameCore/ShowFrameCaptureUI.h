@@ -5,13 +5,13 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShowFrameCaptureUI; }
 
-#define RPG_GAMECORE_SHOWFRAMECAPTUREUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DADCCC0)
-#define RPG_GAMECORE_SHOWFRAMECAPTUREUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DADCCE0)
-#define RPG_GAMECORE_SHOWFRAMECAPTUREUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DADCC70)
+#define RPG_GAMECORE_SHOWFRAMECAPTUREUI_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECEEAC0)
+#define RPG_GAMECORE_SHOWFRAMECAPTUREUI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECEEAE0)
+#define RPG_GAMECORE_SHOWFRAMECAPTUREUI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECEEA70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ShowFrameCaptureUI_TypeDefinitionIndex = 23230;
+	inline static constexpr unsigned int ShowFrameCaptureUI_TypeDefinitionIndex = 23661;
 
 	class ShowFrameCaptureUI : public ::RPG::GameCore::TaskConfig
 	{
@@ -19,8 +19,8 @@ namespace RPG::GameCore
 		::RPG::GameCore::FrameCaptureFadeoutType Type; // 0x18
 		::System::Single Delay; // 0x1C
 		::System::Single FadeDuration; // 0x20
-		::System::Boolean UseRecord; // 0x24
-		::System::Boolean MultiCaptureAllowed; // 0x25
+		::System::Boolean MultiCaptureAllowed; // 0x24
+		::System::Boolean SetAsFirstSibling; // 0x25
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SHOWFRAMECAPTUREUI_CTOR_OFFSET))(this);

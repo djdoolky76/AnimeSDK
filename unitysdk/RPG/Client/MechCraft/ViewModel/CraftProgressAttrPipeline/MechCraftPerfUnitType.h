@@ -3,7 +3,7 @@
 
 namespace RPG::Client::MechCraft::ViewModel::CraftProgressAttrPipeline
 {
-	inline static constexpr unsigned int MechCraftPerfUnitType_TypeDefinitionIndex = 79796;
+	inline static constexpr unsigned int MechCraftPerfUnitType_TypeDefinitionIndex = 82573;
 
 	enum class MechCraftPerfUnitType : ::System::Int32
 	{

@@ -4,12 +4,12 @@
 class CBHJJCBDJHA;
 namespace RPG::Client::Pet { class PetModule; }
 
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDABE040)
-#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS24_0___ONPETDATACHANGESCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xDAC0C70)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE513E20)
+#define RPG_CLIENT_PET_PETMODULE___C__DISPLAYCLASS24_0___ONPETDATACHANGESCNOTIFY_B__0_OFFSET UNITYSDK_OFFSET(0xE516A50)
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int PetModule___c__DisplayClass24_0_TypeDefinitionIndex = 75696;
+	inline static constexpr unsigned int PetModule___c__DisplayClass24_0_TypeDefinitionIndex = 78023;
 
 	class PetModule___c__DisplayClass24_0 : public ::System::Object
 	{

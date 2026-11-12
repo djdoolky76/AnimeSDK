@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NEKAOEFLAMO_BeatType_TypeDefinitionIndex = 60162;
+inline static constexpr unsigned int NEKAOEFLAMO_BeatType_TypeDefinitionIndex = 61446;
 
 	enum class NEKAOEFLAMO_BeatType : ::System::Int32
 	{

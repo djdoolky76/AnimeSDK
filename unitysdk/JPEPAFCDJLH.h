@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int JPEPAFCDJLH_TypeDefinitionIndex = 49744;
+inline static constexpr unsigned int JPEPAFCDJLH_TypeDefinitionIndex = 50792;
 
 	class JPEPAFCDJLH : public ::System::Object
 	{

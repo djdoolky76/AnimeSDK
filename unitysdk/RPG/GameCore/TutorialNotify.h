@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TutorialNotify; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TUTORIALNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC6CFA0)
-#define RPG_GAMECORE_TUTORIALNOTIFY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC6CFB0)
-#define RPG_GAMECORE_TUTORIALNOTIFY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC6CF70)
+#define RPG_GAMECORE_TUTORIALNOTIFY_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE7FC90)
+#define RPG_GAMECORE_TUTORIALNOTIFY_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE7FCA0)
+#define RPG_GAMECORE_TUTORIALNOTIFY_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE7FC60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TutorialNotify_TypeDefinitionIndex = 24350;
+	inline static constexpr unsigned int TutorialNotify_TypeDefinitionIndex = 24809;
 
 	class TutorialNotify : public ::RPG::GameCore::TaskConfig
 	{

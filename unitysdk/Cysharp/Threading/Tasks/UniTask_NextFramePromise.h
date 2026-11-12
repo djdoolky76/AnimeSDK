@@ -13,34 +13,34 @@ namespace Cysharp::Threading::Tasks { class UniTask_NextFramePromise; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14A010)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F13FF30)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14A110)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F14A120)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F14A2D0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F14A000)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F14A3F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F14A3D0)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F14A240)
-#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F14A380)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x203FB0B0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x203F0E50)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x203FB1B0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x203FB1C0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x203FB370)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x203FB0A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x203FB4E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x203FB4C0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x203FB2E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_NEXTFRAMEPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x203FB440)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_NextFramePromise_TypeDefinitionIndex = 38230;
+	inline static constexpr unsigned int UniTask_NextFramePromise_TypeDefinitionIndex = 39159;
 
 	class UniTask_NextFramePromise : public ::System::Object
 	{
 	public:
 		::System::Threading::CancellationToken cancellationToken; // 0x10
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x18
+		::Cysharp::Threading::Tasks::UniTask_NextFramePromise* nextNode; // 0x18
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::Cysharp::Threading::Tasks::AsyncUnit> core; // 0x20
 		::System::Byte _padding0[0x18];
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x38
-		::Cysharp::Threading::Tasks::UniTask_NextFramePromise* nextNode; // 0x50
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x40
 		::System::Int32 frameCount; // 0x58
 		::System::Boolean cancelImmediately; // 0x5C
 		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "NextFramePromise")->GetStaticField(0x46E40);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "NextFramePromise")->GetStaticField(0x3A2C0);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class OFKKIMABHJD;
 
-#define BMPICAPOOFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC4770)
+#define BMPICAPOOFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC742640)
 
-inline static constexpr unsigned int BMPICAPOOFD_TypeDefinitionIndex = 64042;
+inline static constexpr unsigned int BMPICAPOOFD_TypeDefinitionIndex = 65487;
 
 	class BMPICAPOOFD : public ::System::Object
 	{

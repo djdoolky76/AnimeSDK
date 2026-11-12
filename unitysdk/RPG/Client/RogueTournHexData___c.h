@@ -6,25 +6,25 @@ namespace RPG::GameCore { class RogueTournHexRow; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDFF8BB0)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDFF8BF0)
-#define RPG_CLIENT_ROGUETOURNHEXDATA___C__GETALLDATAS_B__41_0_OFFSET UNITYSDK_OFFSET(0xDFF8C00)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA63000)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA63040)
+#define RPG_CLIENT_ROGUETOURNHEXDATA___C__GETALLDATAS_B__41_0_OFFSET UNITYSDK_OFFSET(0xEA63050)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournHexData___c_TypeDefinitionIndex = 67672;
+	inline static constexpr unsigned int RogueTournHexData___c_TypeDefinitionIndex = 69617;
 
 	class RogueTournHexData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>** StaticGet___9__41_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D200);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6D208);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71F00);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>** StaticGet___9__41_0()
+		{
+			return (::System::Func_2<::RPG::GameCore::RogueTournHexRow*, ::RPG::Client::RogueTournHexData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71F08);
 		}
 
 		static ::System::Void _cctor()

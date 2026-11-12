@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class FiveDimSplineMovePoint; }
 
-inline static constexpr unsigned int KEHLFNHAMLA_TypeDefinitionIndex = 43549;
+inline static constexpr unsigned int KEHLFNHAMLA_TypeDefinitionIndex = 44531;
 
 	struct alignas(8) KEHLFNHAMLA
 	{

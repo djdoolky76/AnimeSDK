@@ -3,11 +3,11 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define XLUA_LUAEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x14DC0FF0)
+#define XLUA_LUAEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x15C81630)
 
 namespace XLua
 {
-	inline static constexpr unsigned int LuaException_TypeDefinitionIndex = 50209;
+	inline static constexpr unsigned int LuaException_TypeDefinitionIndex = 51260;
 
 	class LuaException : public ::System::Exception
 	{

@@ -3,7 +3,7 @@
 
 namespace Spine
 {
-	inline static constexpr unsigned int TransformMode_TypeDefinitionIndex = 39666;
+	inline static constexpr unsigned int TransformMode_TypeDefinitionIndex = 40595;
 
 	enum class TransformMode : ::System::Int32
 	{

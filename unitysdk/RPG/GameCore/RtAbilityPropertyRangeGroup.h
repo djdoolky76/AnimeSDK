@@ -7,12 +7,12 @@ namespace RPG::GameCore { class DynamicValueRangeCallback; }
 namespace RPG::GameCore { class RtAbilityPropertyRangeGroup; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA48720)
-#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA485A0)
+#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC5B540)
+#define RPG_GAMECORE_RTABILITYPROPERTYRANGEGROUP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC5B3C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtAbilityPropertyRangeGroup_TypeDefinitionIndex = 17661;
+	inline static constexpr unsigned int RtAbilityPropertyRangeGroup_TypeDefinitionIndex = 17830;
 
 	class RtAbilityPropertyRangeGroup : public ::RPG::GameCore::JsonConfig
 	{

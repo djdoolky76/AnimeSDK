@@ -4,20 +4,20 @@
 namespace Proto { class FinishTutorialScRsp; }
 namespace System { class Object; }
 
-#define PROTO_FINISHTUTORIALSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFF3200)
-#define PROTO_FINISHTUTORIALSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFF3240)
-#define PROTO_FINISHTUTORIALSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFF3250)
+#define PROTO_FINISHTUTORIALSCRSP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2A4900)
+#define PROTO_FINISHTUTORIALSCRSP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2A4940)
+#define PROTO_FINISHTUTORIALSCRSP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F2A4950)
 
 namespace Proto
 {
-	inline static constexpr unsigned int FinishTutorialScRsp___c_TypeDefinitionIndex = 35059;
+	inline static constexpr unsigned int FinishTutorialScRsp___c_TypeDefinitionIndex = 35987;
 
 	class FinishTutorialScRsp___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x43B20);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4CF40);
 		}
 
 		static ::System::Void _cctor()

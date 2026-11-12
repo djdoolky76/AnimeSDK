@@ -4,12 +4,12 @@
 class LNCHJBMIMAF;
 namespace RPG::Client { class MonopolyOptionalEventDisplayData; }
 
-#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xD8ABAB0)
-#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD8ABB40)
+#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CREATE_OFFSET UNITYSDK_OFFSET(0xE2FE3F0)
+#define RPG_CLIENT_MONOPOLYOPTIONALEVENTDISPLAYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE2FE480)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyOptionalEventDisplayData_TypeDefinitionIndex = 66287;
+	inline static constexpr unsigned int MonopolyOptionalEventDisplayData_TypeDefinitionIndex = 68223;
 
 	class MonopolyOptionalEventDisplayData : public ::System::Object
 	{

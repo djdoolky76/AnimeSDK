@@ -4,18 +4,18 @@
 class BEKKPBIKINI;
 namespace System { class Object; }
 
-#define BEKKPBIKINI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA63D20)
-#define BEKKPBIKINI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA63D60)
-#define BEKKPBIKINI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA63D70)
+#define BEKKPBIKINI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD24970)
+#define BEKKPBIKINI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD249B0)
+#define BEKKPBIKINI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FD249C0)
 
-inline static constexpr unsigned int BEKKPBIKINI___c_TypeDefinitionIndex = 27149;
+inline static constexpr unsigned int BEKKPBIKINI___c_TypeDefinitionIndex = 27680;
 
 	class BEKKPBIKINI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40E00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x407D0);
 		}
 
 		static ::System::Void _cctor()

@@ -4,10 +4,10 @@
 class EGDGOMKKEJI;
 namespace RPG::GameCore { class DiceCombatTaskConfig_ModifyPreviewValue; }
 
-#define CMICOGONBDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5D7760)
-#define CMICOGONBDE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5D7770)
+#define CMICOGONBDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D758F90)
+#define CMICOGONBDE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D758FA0)
 
-inline static constexpr unsigned int CMICOGONBDE_TypeDefinitionIndex = 36289;
+inline static constexpr unsigned int CMICOGONBDE_TypeDefinitionIndex = 37217;
 
 	class CMICOGONBDE : public ::AJBKGPOEBFG
 	{

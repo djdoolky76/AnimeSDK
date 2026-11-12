@@ -4,18 +4,18 @@
 class MELNFDAIHIL;
 namespace System { class Object; }
 
-#define MELNFDAIHIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA11260)
-#define MELNFDAIHIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA112A0)
-#define MELNFDAIHIL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA112B0)
+#define MELNFDAIHIL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD5B8B0)
+#define MELNFDAIHIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FD5B8F0)
+#define MELNFDAIHIL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FD5B900)
 
-inline static constexpr unsigned int MELNFDAIHIL___c_TypeDefinitionIndex = 34839;
+inline static constexpr unsigned int MELNFDAIHIL___c_TypeDefinitionIndex = 35767;
 
 	class MELNFDAIHIL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B350);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52240);
 		}
 
 		static ::System::Void _cctor()

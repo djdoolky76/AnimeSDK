@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityDiceCombatShopRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D353120)
-#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D352ED0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5619F0)
+#define RPG_GAMECORE_ACTIVITYDICECOMBATSHOPROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E5617A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityDiceCombatShopRow_TypeDefinitionIndex = 11245;
+	inline static constexpr unsigned int ActivityDiceCombatShopRow_TypeDefinitionIndex = 11296;
 
 	class ActivityDiceCombatShopRow : public ::System::Object
 	{

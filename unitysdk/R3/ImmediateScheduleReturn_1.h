@@ -3,7 +3,7 @@
 
 namespace R3
 {
-	inline static constexpr unsigned int ImmediateScheduleReturn_1_TypeDefinitionIndex = 35917;
+	inline static constexpr unsigned int ImmediateScheduleReturn_1_TypeDefinitionIndex = 36845;
 
 	template <typename T>
 	class ImmediateScheduleReturn_1

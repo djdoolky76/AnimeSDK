@@ -3,11 +3,11 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define COFFEE_UIPARTICLEINTERNAL_ICONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x166C5350)
+#define COFFEE_UIPARTICLEINTERNAL_ICONATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x17509360)
 
 namespace Coffee::UIParticleInternal
 {
-	inline static constexpr unsigned int IconAttribute_TypeDefinitionIndex = 45137;
+	inline static constexpr unsigned int IconAttribute_TypeDefinitionIndex = 40850;
 
 	class IconAttribute : public ::System::Attribute
 	{

@@ -6,11 +6,11 @@
 #include "unitysdk/UnityEngine/Rendering/StencilOp.h"
 namespace UnityEngine { class Material; }
 
-#define UNITYENGINE_UI_STENCILMATERIAL_MATENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F556280)
+#define UNITYENGINE_UI_STENCILMATERIAL_MATENTRY_CTOR_OFFSET UNITYSDK_OFFSET(0x20806160)
 
 namespace UnityEngine::UI
 {
-	inline static constexpr unsigned int StencilMaterial_MatEntry_TypeDefinitionIndex = 6862;
+	inline static constexpr unsigned int StencilMaterial_MatEntry_TypeDefinitionIndex = 6873;
 
 	class StencilMaterial_MatEntry : public ::System::Object
 	{

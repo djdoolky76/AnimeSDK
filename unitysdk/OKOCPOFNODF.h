@@ -7,20 +7,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define OKOCPOFNODF_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF2E80)
+#define OKOCPOFNODF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7EE0D0)
 
-inline static constexpr unsigned int OKOCPOFNODF_TypeDefinitionIndex = 57755;
+inline static constexpr unsigned int OKOCPOFNODF_TypeDefinitionIndex = 58990;
 
 	class OKOCPOFNODF : public ::System::Object
 	{
 	public:
-		::ADBMFDNMBIJ CFKOIAGCFDA; // 0x10
-		::ADBMFDNMBIJ FMIINGDFPKN; // 0x28
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x40
-		::ADBMFDNMBIJ KIPAGNCANAJ; // 0x48
-		::ADBMFDNMBIJ LKFNPPCHCII; // 0x60
-		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x78
-		::System::String* OENAMINOLLF; // 0x80
+		::RPG::GameCore::TaskContext* BKIFMPHBIAK; // 0x10
+		::ADBMFDNMBIJ CFKOIAGCFDA; // 0x18
+		::ADBMFDNMBIJ FMIINGDFPKN; // 0x30
+		::System::String* OENAMINOLLF; // 0x48
+		::ADBMFDNMBIJ KIPAGNCANAJ; // 0x50
+		::ADBMFDNMBIJ LKFNPPCHCII; // 0x68
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::RPG::GameCore::DynamicFloat*>* FMCJJBALBEN; // 0x80
 		::System::Boolean BBBAJEEMOIE; // 0x88
 		::System::Void _ctor()
 		{

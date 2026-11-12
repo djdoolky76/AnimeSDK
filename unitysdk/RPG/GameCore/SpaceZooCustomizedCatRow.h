@@ -4,19 +4,20 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SpaceZooCustomizedCatRow; }
 
-#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF3F30)
-#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAF3D80)
+#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED05F30)
+#define RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED05D80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooCustomizedCatRow_TypeDefinitionIndex = 12373;
+	inline static constexpr unsigned int SpaceZooCustomizedCatRow_TypeDefinitionIndex = 12440;
 
 	class SpaceZooCustomizedCatRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ChannelFeature; // 0x10
-		::System::UInt32 AddCatID; // 0x18
-		::System::Boolean NotShowDialog; // 0x1C
+		::System::Boolean NotShowDialog; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::UInt32 AddCatID; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SPACEZOOCUSTOMIZEDCATROW_CTOR_OFFSET))(this);

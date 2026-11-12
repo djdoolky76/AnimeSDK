@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeHeroBasicType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PLBPNCJJDGF_CTOR_OFFSET UNITYSDK_OFFSET(0xC2ECB70)
-#define PLBPNCJJDGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2ECBA0)
+#define PLBPNCJJDGF_CTOR_OFFSET UNITYSDK_OFFSET(0xCC1B900)
+#define PLBPNCJJDGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC1B930)
 
-inline static constexpr unsigned int PLBPNCJJDGF_TypeDefinitionIndex = 52640;
+inline static constexpr unsigned int PLBPNCJJDGF_TypeDefinitionIndex = 53747;
 
 	class PLBPNCJJDGF
 	{

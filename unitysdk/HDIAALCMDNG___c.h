@@ -8,29 +8,29 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Func_1; }
 
-#define HDIAALCMDNG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CABDC50)
-#define HDIAALCMDNG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABDC90)
-#define HDIAALCMDNG___C___CTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CABDCA0)
-#define HDIAALCMDNG___C___CTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x1CABDCD0)
+#define HDIAALCMDNG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC82660)
+#define HDIAALCMDNG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC826A0)
+#define HDIAALCMDNG___C___CTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DC826B0)
+#define HDIAALCMDNG___C___CTOR_B__18_1_OFFSET UNITYSDK_OFFSET(0x1DC826E0)
 
-inline static constexpr unsigned int HDIAALCMDNG___c_TypeDefinitionIndex = 42568;
+inline static constexpr unsigned int HDIAALCMDNG___c_TypeDefinitionIndex = 43543;
 
 	class HDIAALCMDNG___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_1<::NGFHCJIAOLH*>** StaticGet___9__18_1()
 		{
-			return (::System::Func_1<::NGFHCJIAOLH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A770);
-		}
-
-		static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A778);
+			return (::System::Func_1<::NGFHCJIAOLH*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D9D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A780);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D9D8);
+		}
+
+		static ::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::Entitas::IEntity*, ::Entitas::IAERC*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D9E0);
 		}
 
 		static ::System::Void _cctor()

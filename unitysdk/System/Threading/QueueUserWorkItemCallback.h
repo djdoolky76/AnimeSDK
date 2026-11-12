@@ -8,11 +8,11 @@ namespace System::Threading { class ExecutionContext; }
 namespace System::Threading { class ThreadAbortException; }
 namespace System::Threading { class WaitCallback; }
 
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C1499F0)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C149A50)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1C149B30)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1C149BE0)
-#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C149BF0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D2D0DD0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D0E30)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_EXECUTEWORKITEM_OFFSET UNITYSDK_OFFSET(0x1D2D0F10)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_SYSTEM_THREADING_ITHREADPOOLWORKITEM_MARKABORTED_OFFSET UNITYSDK_OFFSET(0x1D2D0FC0)
+#define SYSTEM_THREADING_QUEUEUSERWORKITEMCALLBACK_WAITCALLBACK_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1D2D0FD0)
 
 namespace System::Threading
 {
@@ -21,12 +21,12 @@ namespace System::Threading
 	class QueueUserWorkItemCallback : public ::System::Object
 	{
 	public:
-		::System::Threading::WaitCallback* callback; // 0x10
-		::System::Threading::ExecutionContext* context; // 0x18
+		::System::Threading::ExecutionContext* context; // 0x10
+		::System::Threading::WaitCallback* callback; // 0x18
 		::System::Object* state; // 0x20
 		static ::System::Threading::ContextCallback** StaticGet_ccb()
 		{
-			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading", "QueueUserWorkItemCallback")->GetStaticField(0x1FCB0);
+			return (::System::Threading::ContextCallback**)UnitySDK::FromName("System.Threading", "QueueUserWorkItemCallback")->GetStaticField(0x26990);
 		}
 
 		static ::System::Void _cctor()

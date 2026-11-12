@@ -7,19 +7,19 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class LittleGameBaseEventAction; }
 namespace System { class String; }
 
-#define KMGHEKCKAAP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C908A10)
-#define KMGHEKCKAAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C908A80)
+#define KMGHEKCKAAP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DAB4C40)
+#define KMGHEKCKAAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAB4CB0)
 
-inline static constexpr unsigned int KMGHEKCKAAP_TypeDefinitionIndex = 42015;
+inline static constexpr unsigned int KMGHEKCKAAP_TypeDefinitionIndex = 42990;
 
 	class KMGHEKCKAAP : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::LittleGameBaseEventAction*>* GGHCKBHGHFC; // 0x10
-		::NDNNILEFPHG* NNACKOBKFGE; // 0x18
-		::System::String* OEPLADOIMOC; // 0x20
-		::RPG::GCFreeClosure::ClosureEvent_2<::Entitas::IEntity*, ::NDNNILEFPHG*> ECIECIEAMOK; // 0x28
+		::RPG::GCFreeClosure::ClosureEvent_2<::Entitas::IEntity*, ::NDNNILEFPHG*> ECIECIEAMOK; // 0x10
 		::System::Byte _padding0[0x8];
+		::NDNNILEFPHG* NNACKOBKFGE; // 0x20
+		::System::String* OEPLADOIMOC; // 0x28
+		::Il2CppArray<::RPG::GameCore::LittleGameBaseEventAction*>* GGHCKBHGHFC; // 0x30
 		::System::Single PNJEGPAFNCI; // 0x38
 		::System::Boolean KAGICIAJEEA; // 0x3C
 		::System::Void _ctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class OOADCLKADJC;
 
-#define FDLIJBAOHKC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x156DE150)
-#define FDLIJBAOHKC_CTOR_OFFSET UNITYSDK_OFFSET(0x156DE220)
+#define FDLIJBAOHKC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x165F7CA0)
+#define FDLIJBAOHKC_CTOR_OFFSET UNITYSDK_OFFSET(0x165F7D70)
 
-inline static constexpr unsigned int FDLIJBAOHKC_TypeDefinitionIndex = 63864;
+inline static constexpr unsigned int FDLIJBAOHKC_TypeDefinitionIndex = 65306;
 
 	class FDLIJBAOHKC : public ::System::Object
 	{

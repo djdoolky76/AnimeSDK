@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IDAPGOKNGMP_TypeDefinitionIndex = 62051;
+inline static constexpr unsigned int IDAPGOKNGMP_TypeDefinitionIndex = 63464;
 
 	struct alignas(4) IDAPGOKNGMP
 	{

@@ -6,12 +6,12 @@ namespace Entitas { template <typename T> class ICollector_1; }
 namespace Entitas { template <typename T> class IContext_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EMCFDLNCGGA_CTOR_OFFSET UNITYSDK_OFFSET(0x15530280)
-#define EMCFDLNCGGA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x155304B0)
-#define EMCFDLNCGGA_FILTER_OFFSET UNITYSDK_OFFSET(0x155303B0)
-#define EMCFDLNCGGA_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x155302E0)
+#define EMCFDLNCGGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1647BFC0)
+#define EMCFDLNCGGA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1647C1F0)
+#define EMCFDLNCGGA_FILTER_OFFSET UNITYSDK_OFFSET(0x1647C0F0)
+#define EMCFDLNCGGA_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1647C020)
 
-inline static constexpr unsigned int EMCFDLNCGGA_TypeDefinitionIndex = 75783;
+inline static constexpr unsigned int EMCFDLNCGGA_TypeDefinitionIndex = 78110;
 
 	class EMCFDLNCGGA
 	{

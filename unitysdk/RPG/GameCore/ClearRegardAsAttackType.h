@@ -7,13 +7,13 @@ namespace RPG::GameCore { class ClearRegardAsAttackType; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CLEARREGARDASATTACKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B6E10)
-#define RPG_GAMECORE_CLEARREGARDASATTACKTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5B6E20)
-#define RPG_GAMECORE_CLEARREGARDASATTACKTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5B6DE0)
+#define RPG_GAMECORE_CLEARREGARDASATTACKTYPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C6DF0)
+#define RPG_GAMECORE_CLEARREGARDASATTACKTYPE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7C6E00)
+#define RPG_GAMECORE_CLEARREGARDASATTACKTYPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7C6DC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ClearRegardAsAttackType_TypeDefinitionIndex = 23210;
+	inline static constexpr unsigned int ClearRegardAsAttackType_TypeDefinitionIndex = 23642;
 
 	class ClearRegardAsAttackType : public ::RPG::GameCore::TaskConfig
 	{

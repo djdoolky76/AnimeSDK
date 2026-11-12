@@ -4,9 +4,9 @@
 class FAFFMDBPCGJ;
 class INMMPMDELKE;
 
-#define FAFFMDBPCGJ___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156723E0)
+#define FAFFMDBPCGJ___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1658A310)
 
-inline static constexpr unsigned int FAFFMDBPCGJ___c__DisplayClass21_0_TypeDefinitionIndex = 76737;
+inline static constexpr unsigned int FAFFMDBPCGJ___c__DisplayClass21_0_TypeDefinitionIndex = 79070;
 
 	class FAFFMDBPCGJ___c__DisplayClass21_0 : public ::System::Object
 	{

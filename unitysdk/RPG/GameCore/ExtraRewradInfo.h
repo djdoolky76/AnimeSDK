@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExtraRewradInfo; }
 
-#define RPG_GAMECORE_EXTRAREWRADINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D695760)
-#define RPG_GAMECORE_EXTRAREWRADINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D695720)
+#define RPG_GAMECORE_EXTRAREWRADINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8A1CD0)
+#define RPG_GAMECORE_EXTRAREWRADINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8A1C90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExtraRewradInfo_TypeDefinitionIndex = 17764;
+	inline static constexpr unsigned int ExtraRewradInfo_TypeDefinitionIndex = 17933;
 
 	class ExtraRewradInfo : public ::RPG::GameCore::JsonConfig
 	{

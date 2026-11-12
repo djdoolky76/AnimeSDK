@@ -8,21 +8,21 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Collider; }
 namespace UnityEngine { class GameObject; }
 
-#define AKROOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5BA2A0)
-#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x1F5B7D80)
-#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x1F5B7970)
-#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x1F5B7AA0)
-#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1F5B7B80)
-#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x1F5BA250)
-#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1F5B95D0)
-#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F5B7E40)
-#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x1F5B9E00)
-#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1F5B9F10)
-#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x1F5BA020)
-#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x1F5B7B90)
-#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x1F5B7BA0)
+#define AKROOM_CTOR_OFFSET UNITYSDK_OFFSET(0x20869C40)
+#define AKROOM_EXIT_OFFSET UNITYSDK_OFFSET(0x20867720)
+#define AKROOM_GETAKROOMID_OFFSET UNITYSDK_OFFSET(0x20867310)
+#define AKROOM_GETID_OFFSET UNITYSDK_OFFSET(0x20867440)
+#define AKROOM_GET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x20867520)
+#define AKROOM_HANDLEEVENT_OFFSET UNITYSDK_OFFSET(0x20869BF0)
+#define AKROOM_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x20868F70)
+#define AKROOM_ONENABLE_OFFSET UNITYSDK_OFFSET(0x208677E0)
+#define AKROOM_ONTRIGGERENTER_OFFSET UNITYSDK_OFFSET(0x208697A0)
+#define AKROOM_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x208698B0)
+#define AKROOM_POSTROOMTONE_OFFSET UNITYSDK_OFFSET(0x208699C0)
+#define AKROOM_SET_ROOMCOUNT_OFFSET UNITYSDK_OFFSET(0x20867530)
+#define AKROOM_TRYENTER_OFFSET UNITYSDK_OFFSET(0x20867540)
 
-inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 44943;
+inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 46018;
 
 	class AkRoom : public ::AkTriggerHandler
 	{
@@ -36,14 +36,14 @@ inline static constexpr unsigned int AkRoom_TypeDefinitionIndex = 44943;
 		::System::Byte _padding0[0x4];
 		::System::Collections::Generic::List_1<::AkRoomAwareObject*>* roomAwareObjectsEntered; // 0x50
 		::System::Collections::Generic::List_1<::AkRoomAwareObject*>* roomAwareObjectsDetectedWhileDisabled; // 0x58
-		static ::System::UInt64* StaticGet_INVALID_ROOM_ID()
-		{
-			return (::System::UInt64*)UnitySDK::FromName("", "AkRoom")->GetStaticField(0x2B20);
-		}
-
 		static ::System::Int32* StaticGet__RoomCount_k__BackingField()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "AkRoom")->GetStaticField(0x2B28);
+			return (::System::Int32*)UnitySDK::FromName("", "AkRoom")->GetStaticField(0x15C40);
+		}
+
+		static ::System::UInt64* StaticGet_INVALID_ROOM_ID()
+		{
+			return (::System::UInt64*)UnitySDK::FromName("", "AkRoom")->GetStaticField(0x15C48);
 		}
 
 		::System::Void _ctor()

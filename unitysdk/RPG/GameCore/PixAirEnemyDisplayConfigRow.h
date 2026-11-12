@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PixAirEnemyDisplayConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PIXAIRENEMYDISPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D919EA0)
-#define RPG_GAMECORE_PIXAIRENEMYDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D919A50)
+#define RPG_GAMECORE_PIXAIRENEMYDISPLAYCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB330F0)
+#define RPG_GAMECORE_PIXAIRENEMYDISPLAYCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB32CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PixAirEnemyDisplayConfigRow_TypeDefinitionIndex = 12147;
+	inline static constexpr unsigned int PixAirEnemyDisplayConfigRow_TypeDefinitionIndex = 12204;
 
 	class PixAirEnemyDisplayConfigRow : public ::System::Object
 	{
@@ -21,9 +21,9 @@ namespace RPG::GameCore
 		::System::UInt32 EnemyDisplayID; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID EnemyDeadTalk; // 0x28
-		::RPG::Client::TextID PlayerTrashTalk; // 0x38
-		::RPG::Client::TextID EnemyDesc; // 0x48
-		::RPG::Client::TextID EnemyName; // 0x58
+		::RPG::Client::TextID EnemyDesc; // 0x38
+		::RPG::Client::TextID EnemyName; // 0x48
+		::RPG::Client::TextID PlayerTrashTalk; // 0x58
 		::RPG::Client::TextID EnemyTrashTalk; // 0x68
 		::System::Void _ctor()
 		{

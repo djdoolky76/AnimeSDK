@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define HHPEBHHMKDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEAD640)
+#define HHPEBHHMKDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E08C610)
 
-inline static constexpr unsigned int HHPEBHHMKDJ_TypeDefinitionIndex = 25005;
+inline static constexpr unsigned int HHPEBHHMKDJ_TypeDefinitionIndex = 25483;
 
 	class HHPEBHHMKDJ : public ::System::Attribute
 	{

@@ -5,22 +5,23 @@ class CPGHDGPPBJH;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AJHPHMDACGG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBE2B0)
-#define AJHPHMDACGG_GET_ID_OFFSET UNITYSDK_OFFSET(0x12CBE340)
-#define AJHPHMDACGG_GET_ISBATTLEEVENT_OFFSET UNITYSDK_OFFSET(0x12CBE360)
-#define AJHPHMDACGG_GET_SPECIALMARKDICT_OFFSET UNITYSDK_OFFSET(0x12CBE380)
-#define AJHPHMDACGG_SET_ID_OFFSET UNITYSDK_OFFSET(0x12CBE350)
-#define AJHPHMDACGG_SET_ISBATTLEEVENT_OFFSET UNITYSDK_OFFSET(0x12CBE370)
-#define AJHPHMDACGG_SET_SPECIALMARKDICT_OFFSET UNITYSDK_OFFSET(0x12CBE390)
+#define AJHPHMDACGG_CTOR_OFFSET UNITYSDK_OFFSET(0x12D9CED0)
+#define AJHPHMDACGG_GET_ID_OFFSET UNITYSDK_OFFSET(0x12D9CF60)
+#define AJHPHMDACGG_GET_ISBATTLEEVENT_OFFSET UNITYSDK_OFFSET(0x12D9CF80)
+#define AJHPHMDACGG_GET_SPECIALMARKDICT_OFFSET UNITYSDK_OFFSET(0x12D9CFA0)
+#define AJHPHMDACGG_SET_ID_OFFSET UNITYSDK_OFFSET(0x12D9CF70)
+#define AJHPHMDACGG_SET_ISBATTLEEVENT_OFFSET UNITYSDK_OFFSET(0x12D9CF90)
+#define AJHPHMDACGG_SET_SPECIALMARKDICT_OFFSET UNITYSDK_OFFSET(0x12D9CFB0)
 
-inline static constexpr unsigned int AJHPHMDACGG_TypeDefinitionIndex = 81010;
+inline static constexpr unsigned int AJHPHMDACGG_TypeDefinitionIndex = 83790;
 
 	class AJHPHMDACGG : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::CPGHDGPPBJH*>* _SpecialMarkDict_k__BackingField; // 0x10
-		::System::UInt32 _ID_k__BackingField; // 0x18
-		::System::Boolean _IsBattleEvent_k__BackingField; // 0x1C
+		::System::Boolean _IsBattleEvent_k__BackingField; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::UInt32 _ID_k__BackingField; // 0x1C
 		::System::Void _ctor(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + AJHPHMDACGG_CTOR_OFFSET))(this, a1);

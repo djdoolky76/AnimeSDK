@@ -4,18 +4,18 @@
 namespace RPG::Client::ActivityIdleLive { class IdleLiveNormalRewardFly; }
 namespace RPG::Client::ActivityIdleLive { class IdleliveRewardFlyController; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC50E8E0)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0__SHOWBOXFLY_B__0_OFFSET UNITYSDK_OFFSET(0xC50E920)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCE4C2E0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0__SHOWBOXFLY_B__0_OFFSET UNITYSDK_OFFSET(0xCE4C320)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleliveRewardFlyController___c__DisplayClass5_0_TypeDefinitionIndex = 75194;
+	inline static constexpr unsigned int IdleliveRewardFlyController___c__DisplayClass5_0_TypeDefinitionIndex = 77521;
 
 	class IdleliveRewardFlyController___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveNormalRewardFly* normalFly; // 0x10
-		::RPG::Client::ActivityIdleLive::IdleliveRewardFlyController* __4__this; // 0x18
+		::RPG::Client::ActivityIdleLive::IdleliveRewardFlyController* __4__this; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveNormalRewardFly* normalFly; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEREWARDFLYCONTROLLER___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

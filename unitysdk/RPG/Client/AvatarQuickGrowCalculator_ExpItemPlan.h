@@ -4,11 +4,11 @@
 namespace RPG::GameCore { class ItemConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_EXPITEMPLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xC70DD10)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_EXPITEMPLAN_CTOR_OFFSET UNITYSDK_OFFSET(0xD06E720)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQuickGrowCalculator_ExpItemPlan_TypeDefinitionIndex = 62470;
+	inline static constexpr unsigned int AvatarQuickGrowCalculator_ExpItemPlan_TypeDefinitionIndex = 63883;
 
 	class AvatarQuickGrowCalculator_ExpItemPlan : public ::System::Object
 	{

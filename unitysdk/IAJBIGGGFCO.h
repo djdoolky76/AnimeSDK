@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Bounds.h"
 
-#define IAJBIGGGFCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB06200)
+#define IAJBIGGGFCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCAC80)
 
-inline static constexpr unsigned int IAJBIGGGFCO_TypeDefinitionIndex = 43303;
+inline static constexpr unsigned int IAJBIGGGFCO_TypeDefinitionIndex = 44284;
 
 	class IAJBIGGGFCO : public ::System::Object
 	{

@@ -5,7 +5,7 @@ namespace UnityEngine { class Gradient; }
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_AfterImageNew_MaterialColorProperty_TypeDefinitionIndex = 70429;
+	inline static constexpr unsigned int Effect_AfterImageNew_MaterialColorProperty_TypeDefinitionIndex = 72396;
 
 	struct alignas(8) Effect_AfterImageNew_MaterialColorProperty
 	{

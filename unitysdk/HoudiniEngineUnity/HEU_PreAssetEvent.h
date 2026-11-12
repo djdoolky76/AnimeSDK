@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define HOUDINIENGINEUNITY_HEU_PREASSETEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1B97BC70)
+#define HOUDINIENGINEUNITY_HEU_PREASSETEVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB04B60)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_PreAssetEvent_TypeDefinitionIndex = 40364;
+	inline static constexpr unsigned int HEU_PreAssetEvent_TypeDefinitionIndex = 41339;
 
 	class HEU_PreAssetEvent
 	{

@@ -7,18 +7,18 @@ class GAGIJDJFKAB;
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GAGIJDJFKAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1593B420)
-#define GAGIJDJFKAB_KAFCFMCLNLK_OFFSET UNITYSDK_OFFSET(0x1593B390)
-#define GAGIJDJFKAB_KMPOOBLGAMJ_OFFSET UNITYSDK_OFFSET(0x1593B2F0)
+#define GAGIJDJFKAB_CTOR_OFFSET UNITYSDK_OFFSET(0x1686F5A0)
+#define GAGIJDJFKAB_KAFCFMCLNLK_OFFSET UNITYSDK_OFFSET(0x1686F510)
+#define GAGIJDJFKAB_KMPOOBLGAMJ_OFFSET UNITYSDK_OFFSET(0x1686F470)
 
-inline static constexpr unsigned int GAGIJDJFKAB_TypeDefinitionIndex = 54776;
+inline static constexpr unsigned int GAGIJDJFKAB_TypeDefinitionIndex = 55945;
 
 	class GAGIJDJFKAB : public ::System::Object
 	{
 	public:
-		::GAGIJDJFKAB* BNLCCCCMABF; // 0x10
+		::ENEIHJJPNPI* NCMDGGHBPFD; // 0x10
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::StringHash, ::System::String*>* IGHNLNEHFOI; // 0x18
-		::ENEIHJJPNPI* NCMDGGHBPFD; // 0x20
+		::GAGIJDJFKAB* BNLCCCCMABF; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GAGIJDJFKAB_CTOR_OFFSET))(this);

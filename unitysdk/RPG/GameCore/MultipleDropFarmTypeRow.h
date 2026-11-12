@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MultipleDropFarmTypeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MULTIPLEDROPFARMTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8BFC40)
-#define RPG_GAMECORE_MULTIPLEDROPFARMTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8BF600)
+#define RPG_GAMECORE_MULTIPLEDROPFARMTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD9960)
+#define RPG_GAMECORE_MULTIPLEDROPFARMTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD9320)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MultipleDropFarmTypeRow_TypeDefinitionIndex = 11478;
+	inline static constexpr unsigned int MultipleDropFarmTypeRow_TypeDefinitionIndex = 11529;
 
 	class MultipleDropFarmTypeRow : public ::System::Object
 	{

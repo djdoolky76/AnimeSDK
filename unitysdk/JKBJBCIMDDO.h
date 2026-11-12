@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class JKBJBCIMDDO;
 namespace System { class String; }
 
-#define JKBJBCIMDDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D03F720)
-#define JKBJBCIMDDO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D03F490)
+#define JKBJBCIMDDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E22E560)
+#define JKBJBCIMDDO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E22E2D0)
 
-inline static constexpr unsigned int JKBJBCIMDDO_TypeDefinitionIndex = 22868;
+inline static constexpr unsigned int JKBJBCIMDDO_TypeDefinitionIndex = 23293;
 
 	class JKBJBCIMDDO : public ::RPG::GameCore::JsonConfig
 	{
@@ -17,8 +17,8 @@ inline static constexpr unsigned int JKBJBCIMDDO_TypeDefinitionIndex = 22868;
 		::System::String* CEJBDKKJPBN; // 0x18
 		::System::Single IEFLOMPIIAK; // 0x20
 		::System::Single AABCFBDDNIE; // 0x24
-		::System::Boolean KMFHIAABCOC; // 0x28
-		::System::Boolean GBPJCBMDNAN; // 0x29
+		::System::Boolean GBPJCBMDNAN; // 0x28
+		::System::Boolean KMFHIAABCOC; // 0x29
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JKBJBCIMDDO_CTOR_OFFSET))(this);

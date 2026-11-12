@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LHECALLFFNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EBF0)
+#define LHECALLFFNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABB060)
 
-inline static constexpr unsigned int LHECALLFFNE_TypeDefinitionIndex = 42261;
+inline static constexpr unsigned int LHECALLFFNE_TypeDefinitionIndex = 43236;
 
 	class LHECALLFFNE : public ::System::Object
 	{

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define FCMCFKJCAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x156CE970)
+#define FCMCFKJCAPA_CTOR_OFFSET UNITYSDK_OFFSET(0x165E8160)
 
-inline static constexpr unsigned int FCMCFKJCAPA_TypeDefinitionIndex = 52052;
+inline static constexpr unsigned int FCMCFKJCAPA_TypeDefinitionIndex = 53157;
 
 	class FCMCFKJCAPA : public ::System::Attribute
 	{

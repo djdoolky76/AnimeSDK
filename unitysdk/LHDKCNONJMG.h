@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class MarkTargetForFutureReviveAbility; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LHDKCNONJMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB6AA330)
-#define LHDKCNONJMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6AA360)
+#define LHDKCNONJMG_CTOR_OFFSET UNITYSDK_OFFSET(0xBF41F20)
+#define LHDKCNONJMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF41F50)
 
-inline static constexpr unsigned int LHDKCNONJMG_TypeDefinitionIndex = 55172;
+inline static constexpr unsigned int LHDKCNONJMG_TypeDefinitionIndex = 56353;
 
 	class LHDKCNONJMG
 	{

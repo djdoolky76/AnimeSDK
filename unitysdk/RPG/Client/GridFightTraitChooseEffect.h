@@ -9,27 +9,27 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B0180)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GETCURSUBTRAITMODULEID_OFFSET UNITYSDK_OFFSET(0xD2A9AA0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_CURRENTSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD2AFC80)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_ISSUBTRAITACTIVE_OFFSET UNITYSDK_OFFSET(0xD2AFC40)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_SUBTRAITEFFECTS_OFFSET UNITYSDK_OFFSET(0xD2AFF00)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xD2B0810)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCUREFFECTS_OFFSET UNITYSDK_OFFSET(0xD2AFF50)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCURSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD2AFCD0)
-#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__INITSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xD2B03B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCEAF0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GETCURSUBTRAITMODULEID_OFFSET UNITYSDK_OFFSET(0xDCC2A30)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_CURRENTSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xDCCE5F0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_ISSUBTRAITACTIVE_OFFSET UNITYSDK_OFFSET(0xDCCE5B0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_GET_SUBTRAITEFFECTS_OFFSET UNITYSDK_OFFSET(0xDCCE870)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xDCCF180)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCUREFFECTS_OFFSET UNITYSDK_OFFSET(0xDCCE8C0)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__GETCURSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xDCCE640)
+#define RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT__INITSUBTRAITCONFIG_OFFSET UNITYSDK_OFFSET(0xDCCED20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitChooseEffect_TypeDefinitionIndex = 65392;
+	inline static constexpr unsigned int GridFightTraitChooseEffect_TypeDefinitionIndex = 67233;
 
 	class GridFightTraitChooseEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightTraitSubTraitConfig*>* _SubTraitConfigByModuleID; // 0x30
+		::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitEffect*>* _DefaultSubTraitEffects; // 0x30
 		::RPG::Client::GridFightTraitSubTraitConfig* _DefaultSubTraitConfig; // 0x38
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitEffect*>*>* _SubTraitEffectsByModuleID; // 0x40
-		::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitEffect*>* _DefaultSubTraitEffects; // 0x48
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::GridFightTraitSubTraitConfig*>* _SubTraitConfigByModuleID; // 0x40
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Collections::Generic::List_1<::RPG::Client::IGridFightTraitEffect*>*>* _SubTraitEffectsByModuleID; // 0x48
 		::System::Void _ctor(::System::UInt32 a1, ::RPG::Client::GridFightTrait* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::RPG::Client::GridFightTrait*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCHOOSEEFFECT_CTOR_OFFSET))(this, a1, a2);

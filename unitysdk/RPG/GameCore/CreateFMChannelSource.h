@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CreateFMChannelSource; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_CREATEFMCHANNELSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E3A70)
-#define RPG_GAMECORE_CREATEFMCHANNELSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5E3A80)
-#define RPG_GAMECORE_CREATEFMCHANNELSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E3A40)
+#define RPG_GAMECORE_CREATEFMCHANNELSOURCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7F5C30)
+#define RPG_GAMECORE_CREATEFMCHANNELSOURCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7F5C40)
+#define RPG_GAMECORE_CREATEFMCHANNELSOURCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7F5C00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CreateFMChannelSource_TypeDefinitionIndex = 20575;
+	inline static constexpr unsigned int CreateFMChannelSource_TypeDefinitionIndex = 20911;
 
 	class CreateFMChannelSource : public ::RPG::GameCore::TaskConfig
 	{

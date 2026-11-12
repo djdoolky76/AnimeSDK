@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchActualOwner; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DPKIMPAAIBN_CTOR_OFFSET UNITYSDK_OFFSET(0x12658280)
-#define DPKIMPAAIBN_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x126582A0)
+#define DPKIMPAAIBN_CTOR_OFFSET UNITYSDK_OFFSET(0x13447DA0)
+#define DPKIMPAAIBN_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x13447DC0)
 
-inline static constexpr unsigned int DPKIMPAAIBN_TypeDefinitionIndex = 59150;
+inline static constexpr unsigned int DPKIMPAAIBN_TypeDefinitionIndex = 60426;
 
 	class DPKIMPAAIBN
 	{

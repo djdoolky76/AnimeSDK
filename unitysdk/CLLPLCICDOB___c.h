@@ -4,18 +4,18 @@
 class CLLPLCICDOB;
 namespace System { class Object; }
 
-#define CLLPLCICDOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0FB6B0)
-#define CLLPLCICDOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0FB6F0)
-#define CLLPLCICDOB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0FB700)
+#define CLLPLCICDOB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3F2ED0)
+#define CLLPLCICDOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3F2F10)
+#define CLLPLCICDOB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F3F2F20)
 
-inline static constexpr unsigned int CLLPLCICDOB___c_TypeDefinitionIndex = 31456;
+inline static constexpr unsigned int CLLPLCICDOB___c_TypeDefinitionIndex = 32369;
 
 	class CLLPLCICDOB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1D640);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x18600);
 		}
 
 		static ::System::Void _cctor()

@@ -6,24 +6,24 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerFightFestLineupInMission; }
 
-#define JFGNALMKMOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1664C820)
-#define JFGNALMKMOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1664C920)
-#define JFGNALMKMOL_JNIKOAEAEHB_OFFSET UNITYSDK_OFFSET(0x1664CEC0)
-#define JFGNALMKMOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1664CA80)
-#define JFGNALMKMOL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1664CCE0)
-#define JFGNALMKMOL_TICK_OFFSET UNITYSDK_OFFSET(0x1664CDC0)
+#define JFGNALMKMOL_CTOR_OFFSET UNITYSDK_OFFSET(0xB995DD0)
+#define JFGNALMKMOL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB995ED0)
+#define JFGNALMKMOL_JNIKOAEAEHB_OFFSET UNITYSDK_OFFSET(0xB996440)
+#define JFGNALMKMOL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB996030)
+#define JFGNALMKMOL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB996290)
+#define JFGNALMKMOL_TICK_OFFSET UNITYSDK_OFFSET(0xB996370)
 
-inline static constexpr unsigned int JFGNALMKMOL_TypeDefinitionIndex = 58786;
+inline static constexpr unsigned int JFGNALMKMOL_TypeDefinitionIndex = 60054;
 
 	class JFGNALMKMOL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
-		::KFELGAIGHAP* JKDMEHBMIPO; // 0x28
+		::KFELGAIGHAP* JKDMEHBMIPO; // 0x18
+		::RPG::GameCore::TriggerFightFestLineupInMission* OFKGLJOAMLD; // 0x20
+		::KFELGAIGHAP* IKNPCLDDCDI; // 0x28
 		::KFELGAIGHAP* IFHIKLDHEKK; // 0x30
-		::KFELGAIGHAP* IKNPCLDDCDI; // 0x38
-		::RPG::GameCore::TriggerFightFestLineupInMission* OFKGLJOAMLD; // 0x40
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
+		::RPG::Client::LuaUIController* OGOFNHAGOPO; // 0x40
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerFightFestLineupInMission* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerFightFestLineupInMission*))((::PBYTE)hIl2Cpp + JFGNALMKMOL_CTOR_OFFSET))(this, a1, a2);

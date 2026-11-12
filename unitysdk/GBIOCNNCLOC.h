@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define GBIOCNNCLOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15951110)
+#define GBIOCNNCLOC_CTOR_OFFSET UNITYSDK_OFFSET(0x168869C0)
 
-inline static constexpr unsigned int GBIOCNNCLOC_TypeDefinitionIndex = 80540;
+inline static constexpr unsigned int GBIOCNNCLOC_TypeDefinitionIndex = 83320;
 
 	class GBIOCNNCLOC : public ::System::Object
 	{

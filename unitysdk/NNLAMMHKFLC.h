@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define NNLAMMHKFLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D23C430)
+#define NNLAMMHKFLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E441920)
 
-inline static constexpr unsigned int NNLAMMHKFLC_TypeDefinitionIndex = 24988;
+inline static constexpr unsigned int NNLAMMHKFLC_TypeDefinitionIndex = 25468;
 
 	class NNLAMMHKFLC : public ::System::Attribute
 	{

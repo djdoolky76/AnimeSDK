@@ -6,10 +6,10 @@ class ENGFCDJAFCG;
 class OFAKEFLLHNP;
 namespace RPG::Client { class GridFightRole; }
 
-#define BFFELMNEJGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB162280)
-#define BFFELMNEJGJ_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xB162310)
+#define BFFELMNEJGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB7EBE60)
+#define BFFELMNEJGJ_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xB7EBEF0)
 
-inline static constexpr unsigned int BFFELMNEJGJ_TypeDefinitionIndex = 65140;
+inline static constexpr unsigned int BFFELMNEJGJ_TypeDefinitionIndex = 66824;
 
 	class BFFELMNEJGJ : public ::System::Object
 	{

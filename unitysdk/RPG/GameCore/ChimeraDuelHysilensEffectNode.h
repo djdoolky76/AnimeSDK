@@ -6,13 +6,13 @@ namespace RPG::GameCore { class BaseChimeraDuelEntitiesSelectorConfig; }
 namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 namespace RPG::GameCore { class ChimeraDuelHysilensEffectNode; }
 
-#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A2E80)
-#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5A2E90)
-#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5A2E30)
+#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B3B40)
+#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7B3B50)
+#define RPG_GAMECORE_CHIMERADUELHYSILENSEFFECTNODE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7B3AF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelHysilensEffectNode_TypeDefinitionIndex = 15981;
+	inline static constexpr unsigned int ChimeraDuelHysilensEffectNode_TypeDefinitionIndex = 16139;
 
 	class ChimeraDuelHysilensEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{

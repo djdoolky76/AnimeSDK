@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int PorterPuzzleMode_TypeDefinitionIndex = 78773;
+	inline static constexpr unsigned int PorterPuzzleMode_TypeDefinitionIndex = 81508;
 
 	enum class PorterPuzzleMode : ::System::Int32
 	{

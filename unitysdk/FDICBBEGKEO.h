@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FDICBBEGKEO_TypeDefinitionIndex = 28730;
+inline static constexpr unsigned int FDICBBEGKEO_TypeDefinitionIndex = 29320;
 
 	enum class FDICBBEGKEO : ::System::Int32
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ST_SteerTargetType_TypeDefinitionIndex = 24471;
+	inline static constexpr unsigned int ST_SteerTargetType_TypeDefinitionIndex = 24930;
 
 	enum class ST_SteerTargetType : ::System::Int32
 	{

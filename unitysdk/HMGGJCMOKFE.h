@@ -17,107 +17,107 @@ namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 namespace UnityEngine { class Texture2D; }
 
-#define HMGGJCMOKFE_ANLFIDLPNGB_OFFSET UNITYSDK_OFFSET(0x1EBC6350)
-#define HMGGJCMOKFE_BCGLIELBIAP_OFFSET UNITYSDK_OFFSET(0x1EBC5430)
-#define HMGGJCMOKFE_BICHNNAEGKJ_OFFSET UNITYSDK_OFFSET(0x1EBC5E10)
-#define HMGGJCMOKFE_CCHCCPJPNBK_OFFSET UNITYSDK_OFFSET(0x1EBC5B90)
-#define HMGGJCMOKFE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBC6CC0)
-#define HMGGJCMOKFE_EIMBDMPGKNH_1_OFFSET UNITYSDK_OFFSET(0x1EBC3680)
-#define HMGGJCMOKFE_EIMBDMPGKNH_OFFSET UNITYSDK_OFFSET(0x1EBC4290)
-#define HMGGJCMOKFE_EKCPEAKHHEE_1_OFFSET UNITYSDK_OFFSET(0x1EBC5830)
-#define HMGGJCMOKFE_EKCPEAKHHEE_OFFSET UNITYSDK_OFFSET(0x1EBC5520)
-#define HMGGJCMOKFE_ELPCBLHAJHB_OFFSET UNITYSDK_OFFSET(0x1EBC1290)
-#define HMGGJCMOKFE_EMHODOMPBHD_OFFSET UNITYSDK_OFFSET(0x1EBC6160)
-#define HMGGJCMOKFE_GCCHAFBODDC_OFFSET UNITYSDK_OFFSET(0x1EBC6C20)
-#define HMGGJCMOKFE_GOAPFHJOCFG_OFFSET UNITYSDK_OFFSET(0x1EBC5B20)
-#define HMGGJCMOKFE_IIPDCNHDEHN_OFFSET UNITYSDK_OFFSET(0x1EBC48D0)
-#define HMGGJCMOKFE_IONBFENIJHK_OFFSET UNITYSDK_OFFSET(0x1EBC2F20)
-#define HMGGJCMOKFE_IPFMOCCCJHP_OFFSET UNITYSDK_OFFSET(0x1EBC0890)
-#define HMGGJCMOKFE_JCBFBBEOLDD_OFFSET UNITYSDK_OFFSET(0x1EBBEF90)
-#define HMGGJCMOKFE_JFHKENMBHOK_OFFSET UNITYSDK_OFFSET(0x1EBC5230)
-#define HMGGJCMOKFE_JMANEPOJDEH_OFFSET UNITYSDK_OFFSET(0x1EBBEF60)
-#define HMGGJCMOKFE_JMCEINBJDPM_OFFSET UNITYSDK_OFFSET(0x1EBC6360)
-#define HMGGJCMOKFE_KIODDMLJDEN_OFFSET UNITYSDK_OFFSET(0x1EBC4E70)
-#define HMGGJCMOKFE_LDDJHFBNCHD_OFFSET UNITYSDK_OFFSET(0x1EBC6000)
-#define HMGGJCMOKFE_MBBOPFOFNLI_OFFSET UNITYSDK_OFFSET(0x1EBBF5C0)
-#define HMGGJCMOKFE_MHBKIPJCADC_OFFSET UNITYSDK_OFFSET(0x1EBC3270)
-#define HMGGJCMOKFE_NDNHMDDPGGD_OFFSET UNITYSDK_OFFSET(0x1EBC2B80)
-#define HMGGJCMOKFE_NGOIJGINMNP_OFFSET UNITYSDK_OFFSET(0x1EBC3B60)
-#define HMGGJCMOKFE_NICOCKHGMIK_OFFSET UNITYSDK_OFFSET(0x1EBC66D0)
-#define HMGGJCMOKFE_NKODFCJBNCO_OFFSET UNITYSDK_OFFSET(0x1EBC22E0)
-#define HMGGJCMOKFE_PCJFAOMNFMP_OFFSET UNITYSDK_OFFSET(0x1EBC3210)
-#define HMGGJCMOKFE_PHAOALLGBNG_OFFSET UNITYSDK_OFFSET(0x1EBC6290)
-#define HMGGJCMOKFE_PJPHENJCHCB_OFFSET UNITYSDK_OFFSET(0x1EBC60B0)
-#define HMGGJCMOKFE_PLLHCDNBPAL_OFFSET UNITYSDK_OFFSET(0x1EBBFE70)
+#define HMGGJCMOKFE_ANLFIDLPNGB_OFFSET UNITYSDK_OFFSET(0x1FE79470)
+#define HMGGJCMOKFE_BCGLIELBIAP_OFFSET UNITYSDK_OFFSET(0x1FE78720)
+#define HMGGJCMOKFE_BICHNNAEGKJ_OFFSET UNITYSDK_OFFSET(0x1FE78FC0)
+#define HMGGJCMOKFE_CCHCCPJPNBK_OFFSET UNITYSDK_OFFSET(0x1FE78D70)
+#define HMGGJCMOKFE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE79DA0)
+#define HMGGJCMOKFE_EIMBDMPGKNH_1_OFFSET UNITYSDK_OFFSET(0x1FE76BE0)
+#define HMGGJCMOKFE_EIMBDMPGKNH_OFFSET UNITYSDK_OFFSET(0x1FE776F0)
+#define HMGGJCMOKFE_EKCPEAKHHEE_1_OFFSET UNITYSDK_OFFSET(0x1FE78A80)
+#define HMGGJCMOKFE_EKCPEAKHHEE_OFFSET UNITYSDK_OFFSET(0x1FE78810)
+#define HMGGJCMOKFE_ELPCBLHAJHB_OFFSET UNITYSDK_OFFSET(0x1FE748D0)
+#define HMGGJCMOKFE_EMHODOMPBHD_OFFSET UNITYSDK_OFFSET(0x1FE79280)
+#define HMGGJCMOKFE_GCCHAFBODDC_OFFSET UNITYSDK_OFFSET(0x1FE79D00)
+#define HMGGJCMOKFE_GOAPFHJOCFG_OFFSET UNITYSDK_OFFSET(0x1FE78D00)
+#define HMGGJCMOKFE_IIPDCNHDEHN_OFFSET UNITYSDK_OFFSET(0x1FE77D10)
+#define HMGGJCMOKFE_IONBFENIJHK_OFFSET UNITYSDK_OFFSET(0x1FE764E0)
+#define HMGGJCMOKFE_IPFMOCCCJHP_OFFSET UNITYSDK_OFFSET(0x1FE73F00)
+#define HMGGJCMOKFE_JCBFBBEOLDD_OFFSET UNITYSDK_OFFSET(0x1FE72650)
+#define HMGGJCMOKFE_JFHKENMBHOK_OFFSET UNITYSDK_OFFSET(0x1FE78520)
+#define HMGGJCMOKFE_JMANEPOJDEH_OFFSET UNITYSDK_OFFSET(0x1FE72620)
+#define HMGGJCMOKFE_JMCEINBJDPM_OFFSET UNITYSDK_OFFSET(0x1FE79480)
+#define HMGGJCMOKFE_KIODDMLJDEN_OFFSET UNITYSDK_OFFSET(0x1FE781C0)
+#define HMGGJCMOKFE_LDDJHFBNCHD_OFFSET UNITYSDK_OFFSET(0x1FE79180)
+#define HMGGJCMOKFE_MBBOPFOFNLI_OFFSET UNITYSDK_OFFSET(0x1FE72C70)
+#define HMGGJCMOKFE_MHBKIPJCADC_OFFSET UNITYSDK_OFFSET(0x1FE76830)
+#define HMGGJCMOKFE_NDNHMDDPGGD_OFFSET UNITYSDK_OFFSET(0x1FE76170)
+#define HMGGJCMOKFE_NGOIJGINMNP_OFFSET UNITYSDK_OFFSET(0x1FE77080)
+#define HMGGJCMOKFE_NICOCKHGMIK_OFFSET UNITYSDK_OFFSET(0x1FE797F0)
+#define HMGGJCMOKFE_NKODFCJBNCO_OFFSET UNITYSDK_OFFSET(0x1FE75900)
+#define HMGGJCMOKFE_PCJFAOMNFMP_OFFSET UNITYSDK_OFFSET(0x1FE767D0)
+#define HMGGJCMOKFE_PHAOALLGBNG_OFFSET UNITYSDK_OFFSET(0x1FE793B0)
+#define HMGGJCMOKFE_PJPHENJCHCB_OFFSET UNITYSDK_OFFSET(0x1FE79200)
+#define HMGGJCMOKFE_PLLHCDNBPAL_OFFSET UNITYSDK_OFFSET(0x1FE73510)
 
-inline static constexpr unsigned int HMGGJCMOKFE_TypeDefinitionIndex = 44015;
+inline static constexpr unsigned int HMGGJCMOKFE_TypeDefinitionIndex = 45090;
 
 	class HMGGJCMOKFE : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_DGKDPNMAFML()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5F9E0);
-		}
-
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_CELLIBLAABN()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5F9E8);
-		}
-
-		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_KFHPMKEGGKC()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5F9F0);
-		}
-
-		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_IAADHCELIGL()
-		{
-			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5F9F8);
-		}
-
-		static ::Il2CppArray<::System::Int32>** StaticGet_MGLKCAKGNLL()
-		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5FA00);
-		}
-
 		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_CBMEIEGDBED()
 		{
-			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5FA08);
-		}
-
-		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_BIMGADHGEJC()
-		{
-			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5FA10);
+			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61CF0);
 		}
 
 		static ::Il2CppArray<::System::Single>** StaticGet_GAFNJEENGMJ()
 		{
-			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x5FA18);
+			return (::Il2CppArray<::System::Single>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61CF8);
 		}
 
-		static ::System::Single* StaticGet_KPHHOJHOFOL()
+		static ::Il2CppArray<::System::Int32>** StaticGet_MGLKCAKGNLL()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14660);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61D00);
 		}
 
-		static ::System::Int32* StaticGet_PLKHFIPGEFN()
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_DGKDPNMAFML()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14664);
+			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61D08);
 		}
 
-		static ::UnityEngine::Vector3* StaticGet_HAPGMEKJNMN()
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_BIMGADHGEJC()
 		{
-			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14668);
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61D10);
 		}
 
-		static ::System::Single* StaticGet_DCHOFPFDBNJ()
+		static ::Il2CppArray<::UnityEngine::Color>** StaticGet_IAADHCELIGL()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14674);
+			return (::Il2CppArray<::UnityEngine::Color>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61D18);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector3>** StaticGet_CELLIBLAABN()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector3>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61D20);
+		}
+
+		static ::Il2CppArray<::UnityEngine::Vector2>** StaticGet_KFHPMKEGGKC()
+		{
+			return (::Il2CppArray<::UnityEngine::Vector2>**)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x61D28);
 		}
 
 		static ::System::Single* StaticGet_JMKLIDDKFIE()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14678);
+			return (::System::Single*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14360);
+		}
+
+		static ::System::Single* StaticGet_KPHHOJHOFOL()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14364);
+		}
+
+		static ::System::Single* StaticGet_DCHOFPFDBNJ()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14368);
+		}
+
+		static ::System::Int32* StaticGet_PLKHFIPGEFN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x1436C);
+		}
+
+		static ::UnityEngine::Vector3* StaticGet_HAPGMEKJNMN()
+		{
+			return (::UnityEngine::Vector3*)UnitySDK::FromName("", "HMGGJCMOKFE")->GetStaticField(0x14370);
 		}
 
 		static ::System::Void _cctor()

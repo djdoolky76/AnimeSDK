@@ -7,19 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define ECAGMOOFEAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD63D40)
-#define ECAGMOOFEAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD63D90)
-#define ECAGMOOFEAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD63CD0)
+#define ECAGMOOFEAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF35370)
+#define ECAGMOOFEAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DF353C0)
+#define ECAGMOOFEAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DF35300)
 
-inline static constexpr unsigned int ECAGMOOFEAI_TypeDefinitionIndex = 24126;
+inline static constexpr unsigned int ECAGMOOFEAI_TypeDefinitionIndex = 24585;
 
 	class ECAGMOOFEAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:
 		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
 		::System::String* FMADKPNEFDD; // 0x20
-		::System::Single IEHPFADHJFD; // 0x28
-		::RPG::MVector3 LJDHGFECMHJ; // 0x2C
+		::RPG::MVector3 LJDHGFECMHJ; // 0x28
+		::System::Single IEHPFADHJFD; // 0x34
 		::System::Single MLKAGGJKCGN; // 0x38
 		::System::Void _ctor()
 		{

@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvFakeAvatar; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define HKMDHGFNMAL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D4E700)
-#define HKMDHGFNMAL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D4E770)
+#define HKMDHGFNMAL_CTOR_OFFSET UNITYSDK_OFFSET(0x16CA5240)
+#define HKMDHGFNMAL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16CA52B0)
 
-inline static constexpr unsigned int HKMDHGFNMAL_TypeDefinitionIndex = 59094;
+inline static constexpr unsigned int HKMDHGFNMAL_TypeDefinitionIndex = 60369;
 
 	class HKMDHGFNMAL
 	{

@@ -11,25 +11,25 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Text { class StringBuilder; }
 
-#define KEGBGDCJHDH_ACIJAIOJEAK_OFFSET UNITYSDK_OFFSET(0xB377EA0)
-#define KEGBGDCJHDH_CTOR_OFFSET UNITYSDK_OFFSET(0xB378E70)
-#define KEGBGDCJHDH_ECGOHNPHOKH_OFFSET UNITYSDK_OFFSET(0xB377350)
-#define KEGBGDCJHDH_EKMCDJNEDBM_OFFSET UNITYSDK_OFFSET(0xB377D70)
-#define KEGBGDCJHDH_JIFANILBBEK_OFFSET UNITYSDK_OFFSET(0xB377F10)
-#define KEGBGDCJHDH_KNKALOLLDEJ_OFFSET UNITYSDK_OFFSET(0xB376A20)
-#define KEGBGDCJHDH_NFLGGCHDENJ_OFFSET UNITYSDK_OFFSET(0xB3772B0)
+#define KEGBGDCJHDH_ACIJAIOJEAK_OFFSET UNITYSDK_OFFSET(0xBC026F0)
+#define KEGBGDCJHDH_CTOR_OFFSET UNITYSDK_OFFSET(0xBC036C0)
+#define KEGBGDCJHDH_ECGOHNPHOKH_OFFSET UNITYSDK_OFFSET(0xBC01BB0)
+#define KEGBGDCJHDH_EKMCDJNEDBM_OFFSET UNITYSDK_OFFSET(0xBC025D0)
+#define KEGBGDCJHDH_JIFANILBBEK_OFFSET UNITYSDK_OFFSET(0xBC02760)
+#define KEGBGDCJHDH_KNKALOLLDEJ_OFFSET UNITYSDK_OFFSET(0xBC01280)
+#define KEGBGDCJHDH_NFLGGCHDENJ_OFFSET UNITYSDK_OFFSET(0xBC01B10)
 
-inline static constexpr unsigned int KEGBGDCJHDH_TypeDefinitionIndex = 73865;
+inline static constexpr unsigned int KEGBGDCJHDH_TypeDefinitionIndex = 75991;
 
 	class KEGBGDCJHDH : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::BlockNodeConfig* ALPMEMFCLJG; // 0x10
-		::System::Collections::Generic::HashSet_1<::MCLHMGFGEFK>* OFPHHAJLNAI; // 0x18
-		::KLEFGGIHGMI* OKPMJOCEKBC; // 0x20
-		::System::Collections::Generic::Dictionary_2<::MCLHMGFGEFK, ::RPG::GameCore::BlockNodeConfig*>* BICDNBMIJPB; // 0x28
+		::System::Collections::Generic::Dictionary_2<::MCLHMGFGEFK, ::RPG::GameCore::BlockNodeConfig*>* BICDNBMIJPB; // 0x10
+		::System::String* ANBDEIDCEAC; // 0x18
+		::System::Collections::Generic::HashSet_1<::MCLHMGFGEFK>* OFPHHAJLNAI; // 0x20
+		::RPG::GameCore::BlockNodeConfig* ALPMEMFCLJG; // 0x28
 		::System::Collections::Generic::HashSet_1<::MCLHMGFGEFK>* FIPHAHPENBP; // 0x30
-		::System::String* ANBDEIDCEAC; // 0x38
+		::KLEFGGIHGMI* OKPMJOCEKBC; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KEGBGDCJHDH_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareMusicRhythmSongID; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AJKPAABBOCG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC4050)
-#define AJKPAABBOCG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CC4080)
+#define AJKPAABBOCG_CTOR_OFFSET UNITYSDK_OFFSET(0x12DA2D90)
+#define AJKPAABBOCG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12DA2DC0)
 
-inline static constexpr unsigned int AJKPAABBOCG_TypeDefinitionIndex = 54551;
+inline static constexpr unsigned int AJKPAABBOCG_TypeDefinitionIndex = 55716;
 
 	class AJKPAABBOCG
 	{

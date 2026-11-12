@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_CONVINCEHPTOSPLITELINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC69D0)
+#define RPG_CLIENT_CONVINCEHPTOSPLITELINECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xD53A580)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ConvinceHPToSpliteLineConfig_TypeDefinitionIndex = 60678;
+	inline static constexpr unsigned int ConvinceHPToSpliteLineConfig_TypeDefinitionIndex = 62055;
 
 	class ConvinceHPToSpliteLineConfig : public ::System::Object
 	{

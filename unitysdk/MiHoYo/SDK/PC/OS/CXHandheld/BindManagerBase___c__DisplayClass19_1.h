@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldEmailBindingDialog; }
 
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE___C__DISPLAYCLASS19_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BED4FF0)
-#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE___C__DISPLAYCLASS19_1__SHOWEMAILBINDINGDIALOG_B__7_OFFSET UNITYSDK_OFFSET(0x1BED50D0)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE___C__DISPLAYCLASS19_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1D05BC00)
+#define MIHOYO_SDK_PC_OS_CXHANDHELD_BINDMANAGERBASE___C__DISPLAYCLASS19_1__SHOWEMAILBINDINGDIALOG_B__7_OFFSET UNITYSDK_OFFSET(0x1D05BCE0)
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
-	inline static constexpr unsigned int BindManagerBase___c__DisplayClass19_1_TypeDefinitionIndex = 8736;
+	inline static constexpr unsigned int BindManagerBase___c__DisplayClass19_1_TypeDefinitionIndex = 8745;
 
 	template <typename T>
 	class BindManagerBase___c__DisplayClass19_1 : public ::System::Object

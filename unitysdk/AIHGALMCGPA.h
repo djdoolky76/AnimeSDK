@@ -4,29 +4,29 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define AIHGALMCGPA_CTOR_1_OFFSET UNITYSDK_OFFSET(0xEBA4D90)
-#define AIHGALMCGPA_CTOR_2_OFFSET UNITYSDK_OFFSET(0xEBA4E90)
-#define AIHGALMCGPA_CTOR_3_OFFSET UNITYSDK_OFFSET(0xEBA5000)
-#define AIHGALMCGPA_CTOR_4_OFFSET UNITYSDK_OFFSET(0xEBA5160)
-#define AIHGALMCGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xEBA4CE0)
-#define AIHGALMCGPA_GET_ALIAS_OFFSET UNITYSDK_OFFSET(0xEBA4CB0)
-#define AIHGALMCGPA_GET_CONTAINERNAME_OFFSET UNITYSDK_OFFSET(0xEBA4CC0)
-#define AIHGALMCGPA_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0xEBA4C90)
-#define AIHGALMCGPA_GET_MEMBERNAMES_OFFSET UNITYSDK_OFFSET(0xEBA4CD0)
-#define AIHGALMCGPA_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0xEBA4CA0)
-#define AIHGALMCGPA_GET_PATH_OFFSET UNITYSDK_OFFSET(0xEBA4C80)
+#define AIHGALMCGPA_CTOR_1_OFFSET UNITYSDK_OFFSET(0xF164310)
+#define AIHGALMCGPA_CTOR_2_OFFSET UNITYSDK_OFFSET(0xF164410)
+#define AIHGALMCGPA_CTOR_3_OFFSET UNITYSDK_OFFSET(0xF164580)
+#define AIHGALMCGPA_CTOR_4_OFFSET UNITYSDK_OFFSET(0xF1646E0)
+#define AIHGALMCGPA_CTOR_OFFSET UNITYSDK_OFFSET(0xF164260)
+#define AIHGALMCGPA_GET_ALIAS_OFFSET UNITYSDK_OFFSET(0xF164230)
+#define AIHGALMCGPA_GET_CONTAINERNAME_OFFSET UNITYSDK_OFFSET(0xF164240)
+#define AIHGALMCGPA_GET_DECLARINGTYPE_OFFSET UNITYSDK_OFFSET(0xF164210)
+#define AIHGALMCGPA_GET_MEMBERNAMES_OFFSET UNITYSDK_OFFSET(0xF164250)
+#define AIHGALMCGPA_GET_MEMBERNAME_OFFSET UNITYSDK_OFFSET(0xF164220)
+#define AIHGALMCGPA_GET_PATH_OFFSET UNITYSDK_OFFSET(0xF164200)
 
-inline static constexpr unsigned int AIHGALMCGPA_TypeDefinitionIndex = 49034;
+inline static constexpr unsigned int AIHGALMCGPA_TypeDefinitionIndex = 50110;
 
 	class AIHGALMCGPA : public ::System::Attribute
 	{
 	public:
-		::System::Type* _DeclaringType_k__BackingField; // 0x10
-		::System::String* _ContainerName_k__BackingField; // 0x18
+		::System::String* _Alias_k__BackingField; // 0x10
+		::System::Type* _DeclaringType_k__BackingField; // 0x18
 		::Il2CppArray<::System::String*>* _MemberNames_k__BackingField; // 0x20
-		::System::String* _Alias_k__BackingField; // 0x28
-		::System::String* _MemberName_k__BackingField; // 0x30
-		::System::String* _Path_k__BackingField; // 0x38
+		::System::String* _Path_k__BackingField; // 0x28
+		::System::String* _ContainerName_k__BackingField; // 0x30
+		::System::String* _MemberName_k__BackingField; // 0x38
 		::System::Void _ctor(::System::String* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + AIHGALMCGPA_CTOR_OFFSET))(this, a1);

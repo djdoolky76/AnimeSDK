@@ -6,23 +6,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define HIDDJGKBEBC_NHFNCBMGABG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x15CE15F0)
-#define HIDDJGKBEBC_NHFNCBMGABG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE1630)
-#define HIDDJGKBEBC_NHFNCBMGABG___C__CREATESORTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x15CE1640)
+#define HIDDJGKBEBC_NHFNCBMGABG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C2EEE0)
+#define HIDDJGKBEBC_NHFNCBMGABG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16C2EF20)
+#define HIDDJGKBEBC_NHFNCBMGABG___C__CREATESORTED_B__4_0_OFFSET UNITYSDK_OFFSET(0x16C2EF30)
 
-inline static constexpr unsigned int HIDDJGKBEBC_NHFNCBMGABG___c_TypeDefinitionIndex = 79594;
+inline static constexpr unsigned int HIDDJGKBEBC_NHFNCBMGABG___c_TypeDefinitionIndex = 82371;
 
 	class HIDDJGKBEBC_NHFNCBMGABG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A8A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC240);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A8A8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>, ::System::Collections::Generic::KeyValuePair_2<::RPG::Client::MechCraft::MechCraftAttributeType, ::System::Int32>>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xC248);
 		}
 
 		static ::System::Void _cctor()

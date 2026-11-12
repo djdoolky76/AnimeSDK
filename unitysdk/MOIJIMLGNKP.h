@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByIsNPCControlled; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MOIJIMLGNKP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2CE00)
-#define MOIJIMLGNKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA2CE30)
+#define MOIJIMLGNKP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2EB7B0)
+#define MOIJIMLGNKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2EB7E0)
 
-inline static constexpr unsigned int MOIJIMLGNKP_TypeDefinitionIndex = 54468;
+inline static constexpr unsigned int MOIJIMLGNKP_TypeDefinitionIndex = 55632;
 
 	class MOIJIMLGNKP
 	{

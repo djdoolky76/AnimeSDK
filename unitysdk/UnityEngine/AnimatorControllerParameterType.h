@@ -3,7 +3,7 @@
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int AnimatorControllerParameterType_TypeDefinitionIndex = 5696;
+	inline static constexpr unsigned int AnimatorControllerParameterType_TypeDefinitionIndex = 5702;
 
 	enum class AnimatorControllerParameterType : ::System::Int32
 	{

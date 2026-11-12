@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareIsEntityInDialogue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDOBJEKDJDP_CTOR_OFFSET UNITYSDK_OFFSET(0xB368990)
-#define KDOBJEKDJDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB3689C0)
+#define KDOBJEKDJDP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF32C0)
+#define KDOBJEKDJDP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBF32F0)
 
-inline static constexpr unsigned int KDOBJEKDJDP_TypeDefinitionIndex = 52573;
+inline static constexpr unsigned int KDOBJEKDJDP_TypeDefinitionIndex = 53679;
 
 	class KDOBJEKDJDP
 	{

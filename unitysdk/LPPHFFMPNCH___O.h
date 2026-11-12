@@ -4,14 +4,14 @@
 class BOCEFFDMFPM;
 namespace System { template <typename T> class Comparison_1; }
 
-inline static constexpr unsigned int LPPHFFMPNCH___O_TypeDefinitionIndex = 41581;
+inline static constexpr unsigned int LPPHFFMPNCH___O_TypeDefinitionIndex = 42556;
 
 	class LPPHFFMPNCH___O : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::BOCEFFDMFPM*>** StaticGet__0___CompareBundleLoaderByBlockOffset()
 		{
-			return (::System::Comparison_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0x13EB0);
+			return (::System::Comparison_1<::BOCEFFDMFPM*>**)UnitySDK::FromName("", "<>O")->GetStaticField(0xB850);
 		}
 
 	};

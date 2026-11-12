@@ -11,7 +11,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
-	inline static constexpr unsigned int ZipAwait_3__ZipAwait_TypeDefinitionIndex = 45743;
+	inline static constexpr unsigned int ZipAwait_3__ZipAwait_TypeDefinitionIndex = 46772;
 
 	template <typename T1, typename T2, typename T3>
 	class ZipAwait_3__ZipAwait : public ::Cysharp::Threading::Tasks::MoveNextSource

@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace UnityEngine { class GameObject; }
 
-#define APCCFELCPKH_BMILOCEDDIE_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA0670)
-#define APCCFELCPKH_BMILOCEDDIE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15BA07D0)
-#define APCCFELCPKH_BMILOCEDDIE_EDMMDOLNANO_OFFSET UNITYSDK_OFFSET(0x15BA0AD0)
-#define APCCFELCPKH_BMILOCEDDIE_GET_OVERLAYEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x15BA0660)
+#define APCCFELCPKH_BMILOCEDDIE_CTOR_OFFSET UNITYSDK_OFFSET(0x16A01BD0)
+#define APCCFELCPKH_BMILOCEDDIE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16A01D30)
+#define APCCFELCPKH_BMILOCEDDIE_EDMMDOLNANO_OFFSET UNITYSDK_OFFSET(0x16A02030)
+#define APCCFELCPKH_BMILOCEDDIE_GET_OVERLAYEFFECTPATH_OFFSET UNITYSDK_OFFSET(0x16A01BC0)
 
-inline static constexpr unsigned int APCCFELCPKH_BMILOCEDDIE_TypeDefinitionIndex = 60244;
+inline static constexpr unsigned int APCCFELCPKH_BMILOCEDDIE_TypeDefinitionIndex = 61528;
 
 	class APCCFELCPKH_BMILOCEDDIE : public ::APCCFELCPKH_HJOJHIGBBKC
 	{
 	public:
-		::System::String* _OverlayEffectPath_k__BackingField; // 0x20
-		::UnityEngine::GameObject* GKNBCPMJHMN; // 0x28
+		::UnityEngine::GameObject* GKNBCPMJHMN; // 0x20
+		::System::String* _OverlayEffectPath_k__BackingField; // 0x28
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::Boolean))((::PBYTE)hIl2Cpp + APCCFELCPKH_BMILOCEDDIE_CTOR_OFFSET))(this, a1, a2);

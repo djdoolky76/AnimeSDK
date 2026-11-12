@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HeroPathType_TypeDefinitionIndex = 10477;
+	inline static constexpr unsigned int HeroPathType_TypeDefinitionIndex = 10488;
 
 	enum class HeroPathType : ::System::Int32
 	{

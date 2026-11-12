@@ -3,17 +3,17 @@
 #include "unitysdk/System/Object.h"
 class JBGMDJBCHFO;
 
-#define ALNFHFDBDCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD0C2F0)
-#define ALNFHFDBDCH_GDNFNCJPDKD_OFFSET UNITYSDK_OFFSET(0x1DD0C2D0)
-#define ALNFHFDBDCH_ILJANLIPIKB_OFFSET UNITYSDK_OFFSET(0x1DD0C2E0)
+#define ALNFHFDBDCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1EF0EA60)
+#define ALNFHFDBDCH_GDNFNCJPDKD_OFFSET UNITYSDK_OFFSET(0x1EF0EA40)
+#define ALNFHFDBDCH_ILJANLIPIKB_OFFSET UNITYSDK_OFFSET(0x1EF0EA50)
 
-inline static constexpr unsigned int ALNFHFDBDCH_TypeDefinitionIndex = 6273;
+inline static constexpr unsigned int ALNFHFDBDCH_TypeDefinitionIndex = 6280;
 
 	class ALNFHFDBDCH : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* CDGOENMGNNH; // 0x10
-		::JBGMDJBCHFO* FGJCDIODHML; // 0x18
+		::JBGMDJBCHFO* FGJCDIODHML; // 0x10
+		::Il2CppArray<::System::Single>* CDGOENMGNNH; // 0x18
 		::System::Int32 FFJHGDOLECF; // 0x20
 		::System::Single CLPOMLADGFD; // 0x24
 		::System::Void _ctor(::System::Int32 a1, ::System::Single a2, ::JBGMDJBCHFO* a3)

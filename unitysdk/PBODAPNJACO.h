@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class UnloadBattleEvent; }
 
-#define PBODAPNJACO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF5DA0)
-#define PBODAPNJACO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFF5DD0)
+#define PBODAPNJACO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8FA620)
+#define PBODAPNJACO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8FA650)
 
-inline static constexpr unsigned int PBODAPNJACO_TypeDefinitionIndex = 58841;
+inline static constexpr unsigned int PBODAPNJACO_TypeDefinitionIndex = 60109;
 
 	class PBODAPNJACO
 	{

@@ -3,10 +3,10 @@
 class EEBBKOAECHG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAFNFMOFIHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1593A060)
-#define GAFNFMOFIHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1593A090)
+#define GAFNFMOFIHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1686DF10)
+#define GAFNFMOFIHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1686DF40)
 
-inline static constexpr unsigned int GAFNFMOFIHE_TypeDefinitionIndex = 55327;
+inline static constexpr unsigned int GAFNFMOFIHE_TypeDefinitionIndex = 56509;
 
 	class GAFNFMOFIHE
 	{

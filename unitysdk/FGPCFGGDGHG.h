@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FGPCFGGDGHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E5A0)
+#define FGPCFGGDGHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC31F10)
 
-inline static constexpr unsigned int FGPCFGGDGHG_TypeDefinitionIndex = 42244;
+inline static constexpr unsigned int FGPCFGGDGHG_TypeDefinitionIndex = 43219;
 
 	class FGPCFGGDGHG : public ::System::Object
 	{

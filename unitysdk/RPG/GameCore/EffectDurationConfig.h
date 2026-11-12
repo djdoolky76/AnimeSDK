@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EffectDurationConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_EFFECTDURATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D62FEB0)
-#define RPG_GAMECORE_EFFECTDURATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D62FDA0)
+#define RPG_GAMECORE_EFFECTDURATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E86D920)
+#define RPG_GAMECORE_EFFECTDURATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E86D810)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EffectDurationConfig_TypeDefinitionIndex = 16347;
+	inline static constexpr unsigned int EffectDurationConfig_TypeDefinitionIndex = 16511;
 
 	class EffectDurationConfig : public ::RPG::GameCore::JsonConfig
 	{

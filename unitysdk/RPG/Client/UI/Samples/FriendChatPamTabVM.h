@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/Ui/Samples/FriendChatTabViewModel.h"
 
-#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAMTABVM_CTOR_OFFSET UNITYSDK_OFFSET(0xE410720)
+#define RPG_CLIENT_UI_SAMPLES_FRIENDCHATPAMTABVM_CTOR_OFFSET UNITYSDK_OFFSET(0xEECBC30)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int FriendChatPamTabVM_TypeDefinitionIndex = 73440;
+	inline static constexpr unsigned int FriendChatPamTabVM_TypeDefinitionIndex = 75563;
 
 	class FriendChatPamTabVM : public ::RPG::Client::Ui::Samples::FriendChatTabViewModel
 	{

@@ -1,14 +1,14 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GJPPDNGGKCC_TypeDefinitionIndex = 26529;
+inline static constexpr unsigned int GJPPDNGGKCC_TypeDefinitionIndex = 27060;
 
 	enum class GJPPDNGGKCC : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		DNAPAEJPILD = 5760,
-		GGMOCMBGFAJ = 5734,
-		LGCCILOHONJ = 5725,
-		HMHLNKIKKHG = 5705,
-		DLAEKJKFPJO = 5775,
+		LGCCILOHONJ = 5719,
+		GGMOCMBGFAJ = 5774,
+		DLAEKJKFPJO = 5787,
+		DNAPAEJPILD = 5705,
+		HMHLNKIKKHG = 5731,
 	};

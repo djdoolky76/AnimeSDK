@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HNNJFHDKAME_DisableInteractReason_TypeDefinitionIndex = 57320;
+inline static constexpr unsigned int HNNJFHDKAME_DisableInteractReason_TypeDefinitionIndex = 58548;
 
 	enum class HNNJFHDKAME_DisableInteractReason : ::System::Int32
 	{

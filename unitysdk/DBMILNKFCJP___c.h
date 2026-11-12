@@ -4,18 +4,18 @@
 class DBMILNKFCJP;
 namespace System { class Object; }
 
-#define DBMILNKFCJP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E161C60)
-#define DBMILNKFCJP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E161CA0)
-#define DBMILNKFCJP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E161CB0)
+#define DBMILNKFCJP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F43AEA0)
+#define DBMILNKFCJP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F43AEE0)
+#define DBMILNKFCJP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F43AEF0)
 
-inline static constexpr unsigned int DBMILNKFCJP___c_TypeDefinitionIndex = 30405;
+inline static constexpr unsigned int DBMILNKFCJP___c_TypeDefinitionIndex = 31311;
 
 	class DBMILNKFCJP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x261E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x249D0);
 		}
 
 		static ::System::Void _cctor()

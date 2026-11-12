@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByHaveAbilityTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LJPBBIJMFOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB724430)
-#define LJPBBIJMFOI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB724460)
+#define LJPBBIJMFOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC1330)
+#define LJPBBIJMFOI_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFC1360)
 
-inline static constexpr unsigned int LJPBBIJMFOI_TypeDefinitionIndex = 54625;
+inline static constexpr unsigned int LJPBBIJMFOI_TypeDefinitionIndex = 55791;
 
 	class LJPBBIJMFOI
 	{

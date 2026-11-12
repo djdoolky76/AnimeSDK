@@ -4,9 +4,9 @@
 namespace RPG::Client::LittleGame { class MovieBossConfig; }
 namespace RPG::Client::LittleGame { class MovieGameLevelConfig; }
 
-#define HGJLBGPLHIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACAE40)
+#define HGJLBGPLHIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8F870)
 
-inline static constexpr unsigned int HGJLBGPLHIA_TypeDefinitionIndex = 42331;
+inline static constexpr unsigned int HGJLBGPLHIA_TypeDefinitionIndex = 43306;
 
 	class HGJLBGPLHIA : public ::System::Object
 	{

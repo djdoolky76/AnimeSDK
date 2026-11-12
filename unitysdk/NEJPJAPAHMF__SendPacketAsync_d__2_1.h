@@ -6,7 +6,7 @@
 namespace Google::Protobuf { class IMessage; }
 namespace System { class Object; }
 
-inline static constexpr unsigned int NEJPJAPAHMF__SendPacketAsync_d__2_1_TypeDefinitionIndex = 80503;
+inline static constexpr unsigned int NEJPJAPAHMF__SendPacketAsync_d__2_1_TypeDefinitionIndex = 83283;
 
 	template <typename T>
 	struct alignas(8) NEJPJAPAHMF__SendPacketAsync_d__2_1

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByDelayCumulate; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JPEKACPHGEM_CTOR_OFFSET UNITYSDK_OFFSET(0xB2BBE90)
-#define JPEKACPHGEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2BBF70)
+#define JPEKACPHGEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBAE7BF0)
+#define JPEKACPHGEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAE7CD0)
 
-inline static constexpr unsigned int JPEKACPHGEM_TypeDefinitionIndex = 55428;
+inline static constexpr unsigned int JPEKACPHGEM_TypeDefinitionIndex = 56613;
 
 	class JPEKACPHGEM
 	{

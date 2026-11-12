@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
-inline static constexpr unsigned int BCDEDCMABGG_TypeDefinitionIndex = 6228;
+inline static constexpr unsigned int BCDEDCMABGG_TypeDefinitionIndex = 6235;
 
 	struct alignas(4) BCDEDCMABGG
 	{

@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace HoudiniEngineUnity { class Test_HAPI_GeoInfo; }
 
-#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B1400)
-#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B1420)
+#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB3A330)
+#define HOUDINIENGINEUNITY_TEST_HAPI_GEOINFO_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CB3A350)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_HAPI_GeoInfo_TypeDefinitionIndex = 40702;
+	inline static constexpr unsigned int Test_HAPI_GeoInfo_TypeDefinitionIndex = 41677;
 
 	class Test_HAPI_GeoInfo : public ::System::Object
 	{

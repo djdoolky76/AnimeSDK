@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/Playable.h"
 namespace System { class Object; }
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9241A0)
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE923BA0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR_CTOR_OFFSET UNITYSDK_OFFSET(0xF3FFEE0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_GAUSSIANBLURTIMELINEBEHAVIOUR_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xF3FF8E0)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int GaussianBlurTimelineBehaviour_TypeDefinitionIndex = 48573;
+	inline static constexpr unsigned int GaussianBlurTimelineBehaviour_TypeDefinitionIndex = 49614;
 
 	class GaussianBlurTimelineBehaviour
 	{

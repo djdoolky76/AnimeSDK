@@ -3,10 +3,10 @@
 class KHJCNJAILFO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OHEAFHBABNG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE61FA0)
-#define OHEAFHBABNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE61FD0)
+#define OHEAFHBABNG_CTOR_OFFSET UNITYSDK_OFFSET(0xC71C1F0)
+#define OHEAFHBABNG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC71C220)
 
-inline static constexpr unsigned int OHEAFHBABNG_TypeDefinitionIndex = 58631;
+inline static constexpr unsigned int OHEAFHBABNG_TypeDefinitionIndex = 59898;
 
 	class OHEAFHBABNG
 	{

@@ -5,20 +5,20 @@ namespace MiHoYo::SDK { class JSONArray; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC354F0)
-#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__2_OFFSET UNITYSDK_OFFSET(0x1BC358D0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDBE5F0)
+#define MIHOYO_SDK_BASE_GOODSPLATFORM_GOODSPLATFORMMANAGER___C__DISPLAYCLASS9_1__RETRIEVEGOODSLIST_B__2_OFFSET UNITYSDK_OFFSET(0x1CDBE9D0)
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
-	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_1_TypeDefinitionIndex = 8845;
+	inline static constexpr unsigned int GoodsPlatformManager___c__DisplayClass9_1_TypeDefinitionIndex = 8854;
 
 	template <typename T>
 	class GoodsPlatformManager___c__DisplayClass9_1 : public ::System::Object
 	{
 	public:
 		::MiHoYo::SDK::JSONArray* goods; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
-		::System::String* message; // 0x20
+		::System::String* message; // 0x18
+		::System::Object* CS___8__locals1; // 0x20
 		::System::Int64 listGoodsTime; // 0x28
 		::System::Int32 code; // 0x30
 		::System::Void _ctor()

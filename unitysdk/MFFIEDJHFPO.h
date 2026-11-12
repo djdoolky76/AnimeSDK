@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/HDJIGMBHENE.h"
 
-#define MFFIEDJHFPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F4830)
+#define MFFIEDJHFPO_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A6AE0)
 
-inline static constexpr unsigned int MFFIEDJHFPO_TypeDefinitionIndex = 61196;
+inline static constexpr unsigned int MFFIEDJHFPO_TypeDefinitionIndex = 62581;
 
 	class MFFIEDJHFPO : public ::HDJIGMBHENE
 	{

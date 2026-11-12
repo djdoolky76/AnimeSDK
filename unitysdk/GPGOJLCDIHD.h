@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/DesignDataShortNameHash.h"
 
-#define GPGOJLCDIHD_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x3C27830)
+#define GPGOJLCDIHD_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x3E767B0)
 
-inline static constexpr unsigned int GPGOJLCDIHD_TypeDefinitionIndex = 41426;
+inline static constexpr unsigned int GPGOJLCDIHD_TypeDefinitionIndex = 42401;
 
 	struct alignas(4) GPGOJLCDIHD
 	{

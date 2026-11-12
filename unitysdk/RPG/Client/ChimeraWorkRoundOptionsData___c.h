@@ -5,25 +5,25 @@ namespace RPG::Client { class ChimeraWorkRoundOptionData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB6DA70)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6DAB0)
-#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xCB6DAC0)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD4D1600)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD4D1640)
+#define RPG_CLIENT_CHIMERAWORKROUNDOPTIONSDATA___C__GET_BANNEDARRANGEMENTS_B__9_0_OFFSET UNITYSDK_OFFSET(0xD4D1650)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex = 63516;
+	inline static constexpr unsigned int ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex = 64954;
 
 	class ChimeraWorkRoundOptionsData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>** StaticGet___9__9_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x164B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x164B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x156D0);
+		}
+
+		static ::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>** StaticGet___9__9_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChimeraWorkRoundOptionData*, ::Il2CppArray<::System::UInt32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x156D8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class GOJNGCCBOGI;
 
-#define OOMJGNGJNKG___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF8F9F0)
-#define OOMJGNGJNKG___C__DISPLAYCLASS17_0___TRYENQUEENTRYQUEUE_B__0_OFFSET UNITYSDK_OFFSET(0xBF8FC00)
+#define OOMJGNGJNKG___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC890400)
+#define OOMJGNGJNKG___C__DISPLAYCLASS17_0___TRYENQUEENTRYQUEUE_B__0_OFFSET UNITYSDK_OFFSET(0xC890610)
 
-inline static constexpr unsigned int OOMJGNGJNKG___c__DisplayClass17_0_TypeDefinitionIndex = 71555;
+inline static constexpr unsigned int OOMJGNGJNKG___c__DisplayClass17_0_TypeDefinitionIndex = 73539;
 
 	class OOMJGNGJNKG___c__DisplayClass17_0 : public ::System::Object
 	{

@@ -5,11 +5,11 @@ namespace RPG::GameCore { class StageConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define NBHLFPACHPP_BJILKBJKOAP_OFFSET UNITYSDK_OFFSET(0xBAC4010)
-#define NBHLFPACHPP_CTOR_OFFSET UNITYSDK_OFFSET(0xBAC4220)
-#define NBHLFPACHPP_KDEAEDHAAAE_OFFSET UNITYSDK_OFFSET(0xBAC4160)
+#define NBHLFPACHPP_BJILKBJKOAP_OFFSET UNITYSDK_OFFSET(0xC3497C0)
+#define NBHLFPACHPP_CTOR_OFFSET UNITYSDK_OFFSET(0xC3499D0)
+#define NBHLFPACHPP_KDEAEDHAAAE_OFFSET UNITYSDK_OFFSET(0xC349910)
 
-inline static constexpr unsigned int NBHLFPACHPP_TypeDefinitionIndex = 69506;
+inline static constexpr unsigned int NBHLFPACHPP_TypeDefinitionIndex = 71461;
 
 	class NBHLFPACHPP : public ::System::Object
 	{

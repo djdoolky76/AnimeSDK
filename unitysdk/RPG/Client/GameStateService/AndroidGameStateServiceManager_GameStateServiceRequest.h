@@ -6,7 +6,7 @@ namespace System { class String; }
 
 namespace RPG::Client::GameStateService
 {
-	inline static constexpr unsigned int AndroidGameStateServiceManager_GameStateServiceRequest_TypeDefinitionIndex = 75629;
+	inline static constexpr unsigned int AndroidGameStateServiceManager_GameStateServiceRequest_TypeDefinitionIndex = 77956;
 
 	struct alignas(8) AndroidGameStateServiceManager_GameStateServiceRequest
 	{

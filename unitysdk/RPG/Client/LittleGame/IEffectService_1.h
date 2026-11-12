@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IEffectService_1_TypeDefinitionIndex = 42405;
+	inline static constexpr unsigned int IEffectService_1_TypeDefinitionIndex = 43380;
 
 	template <typename T>
 	class IEffectService_1

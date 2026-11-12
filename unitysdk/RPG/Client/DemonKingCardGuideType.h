@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DemonKingCardGuideType_TypeDefinitionIndex = 63831;
+	inline static constexpr unsigned int DemonKingCardGuideType_TypeDefinitionIndex = 65273;
 
 	enum class DemonKingCardGuideType : ::System::Int32
 	{

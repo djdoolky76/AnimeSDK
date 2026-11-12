@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define MBLCCFAFPFD_MPPAFMHFEEA_CTOR_OFFSET UNITYSDK_OFFSET(0xB860750)
+#define MBLCCFAFPFD_MPPAFMHFEEA_CTOR_OFFSET UNITYSDK_OFFSET(0xC0C63F0)
 
-inline static constexpr unsigned int MBLCCFAFPFD_MPPAFMHFEEA_TypeDefinitionIndex = 60526;
+inline static constexpr unsigned int MBLCCFAFPFD_MPPAFMHFEEA_TypeDefinitionIndex = 61815;
 
 	class MBLCCFAFPFD_MPPAFMHFEEA : public ::System::Object
 	{

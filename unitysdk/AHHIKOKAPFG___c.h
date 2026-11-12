@@ -4,18 +4,18 @@
 class AHHIKOKAPFG;
 namespace System { class Object; }
 
-#define AHHIKOKAPFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E26F2E0)
-#define AHHIKOKAPFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E26F320)
-#define AHHIKOKAPFG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E26F330)
+#define AHHIKOKAPFG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F523510)
+#define AHHIKOKAPFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F523550)
+#define AHHIKOKAPFG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F523560)
 
-inline static constexpr unsigned int AHHIKOKAPFG___c_TypeDefinitionIndex = 33870;
+inline static constexpr unsigned int AHHIKOKAPFG___c_TypeDefinitionIndex = 34785;
 
 	class AHHIKOKAPFG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31CC0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D480);
 		}
 
 		static ::System::Void _cctor()

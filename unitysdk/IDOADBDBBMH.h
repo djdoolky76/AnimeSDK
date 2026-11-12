@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class MNLLCNFNKKP;
 
-#define IDOADBDBBMH_CTOR_OFFSET UNITYSDK_OFFSET(0x15EDFD30)
+#define IDOADBDBBMH_CTOR_OFFSET UNITYSDK_OFFSET(0x16E4AD00)
 
-inline static constexpr unsigned int IDOADBDBBMH_TypeDefinitionIndex = 65820;
+inline static constexpr unsigned int IDOADBDBBMH_TypeDefinitionIndex = 67752;
 
 	class IDOADBDBBMH : public ::System::Object
 	{

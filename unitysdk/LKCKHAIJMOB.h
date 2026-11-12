@@ -17,235 +17,235 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define LKCKHAIJMOB_BABLKCEBHIJ_OFFSET UNITYSDK_OFFSET(0xB72D5C0)
-#define LKCKHAIJMOB_BPGLLLGDNGP_OFFSET UNITYSDK_OFFSET(0xB72D2F0)
-#define LKCKHAIJMOB_CFAGELFBNJD_OFFSET UNITYSDK_OFFSET(0xB72B2A0)
-#define LKCKHAIJMOB_CKALNDFMOKL_OFFSET UNITYSDK_OFFSET(0xB72C210)
-#define LKCKHAIJMOB_DMFBFIJHFOG_OFFSET UNITYSDK_OFFSET(0xB72C3D0)
-#define LKCKHAIJMOB_DNAIFAEBPHJ_OFFSET UNITYSDK_OFFSET(0xB72D370)
-#define LKCKHAIJMOB_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0xB72CFD0)
-#define LKCKHAIJMOB_EBHPDFPIJMI_OFFSET UNITYSDK_OFFSET(0xB72B7E0)
-#define LKCKHAIJMOB_EDACCEPGKPM_OFFSET UNITYSDK_OFFSET(0xB72C590)
-#define LKCKHAIJMOB_EFCNDKBEIIN_OFFSET UNITYSDK_OFFSET(0xB729F00)
-#define LKCKHAIJMOB_EKDFMBHKHJI_OFFSET UNITYSDK_OFFSET(0xB72D540)
-#define LKCKHAIJMOB_FDJKMIAEHJI_OFFSET UNITYSDK_OFFSET(0xB72CCD0)
-#define LKCKHAIJMOB_FFCGOAJMMAC_OFFSET UNITYSDK_OFFSET(0xB72A1E0)
-#define LKCKHAIJMOB_FHFOCDKJIJB_OFFSET UNITYSDK_OFFSET(0xB72D630)
-#define LKCKHAIJMOB_FJLCCHBNADM_OFFSET UNITYSDK_OFFSET(0xB72C9D0)
-#define LKCKHAIJMOB_FNPFKCJJCFL_OFFSET UNITYSDK_OFFSET(0xB72A4A0)
-#define LKCKHAIJMOB_GCIBCNHOKKG_OFFSET UNITYSDK_OFFSET(0xB72AD60)
-#define LKCKHAIJMOB_GFOPPGAEJMF_OFFSET UNITYSDK_OFFSET(0xB72A090)
-#define LKCKHAIJMOB_HDHJIKHKMDO_OFFSET UNITYSDK_OFFSET(0xB72A5E0)
-#define LKCKHAIJMOB_IDKKLODPLMO_OFFSET UNITYSDK_OFFSET(0xB72B980)
-#define LKCKHAIJMOB_IMCPOIBAIOO_OFFSET UNITYSDK_OFFSET(0xB72A720)
-#define LKCKHAIJMOB_IMICLPJOFJA_OFFSET UNITYSDK_OFFSET(0xB72D7B0)
-#define LKCKHAIJMOB_IMIOMMKOMBN_OFFSET UNITYSDK_OFFSET(0xB72BB40)
-#define LKCKHAIJMOB_JAMNLCKMMHA_OFFSET UNITYSDK_OFFSET(0xB72D210)
-#define LKCKHAIJMOB_JDIBKNIJODJ_OFFSET UNITYSDK_OFFSET(0xB72CE10)
-#define LKCKHAIJMOB_JHILODFFHJL_OFFSET UNITYSDK_OFFSET(0xB72B620)
-#define LKCKHAIJMOB_JKOJDDMPDLK_OFFSET UNITYSDK_OFFSET(0xB72D700)
-#define LKCKHAIJMOB_JLADCJAELDI_OFFSET UNITYSDK_OFFSET(0xB72AC20)
-#define LKCKHAIJMOB_KAGEKBLGGCA_OFFSET UNITYSDK_OFFSET(0xB72A410)
-#define LKCKHAIJMOB_KGKNBJMIEOM_OFFSET UNITYSDK_OFFSET(0xB72A2C0)
-#define LKCKHAIJMOB_KIIMINFEICK_OFFSET UNITYSDK_OFFSET(0xB728CA0)
-#define LKCKHAIJMOB_LAAFIHJLPLB_OFFSET UNITYSDK_OFFSET(0xB72D040)
-#define LKCKHAIJMOB_LPBLDMDBIOA_OFFSET UNITYSDK_OFFSET(0xB72AF20)
-#define LKCKHAIJMOB_NCKICPBOBKH_OFFSET UNITYSDK_OFFSET(0xB72D190)
-#define LKCKHAIJMOB_NDAMLDDDJKI_OFFSET UNITYSDK_OFFSET(0xB72A860)
-#define LKCKHAIJMOB_NGKGFBMAMPK_OFFSET UNITYSDK_OFFSET(0xB72C890)
-#define LKCKHAIJMOB_NJDALCEMHIM_OFFSET UNITYSDK_OFFSET(0xB72AAE0)
-#define LKCKHAIJMOB_NJKHIGAJHFG_OFFSET UNITYSDK_OFFSET(0xB72A9A0)
-#define LKCKHAIJMOB_NJNFGMIGCJC_OFFSET UNITYSDK_OFFSET(0xB72B460)
-#define LKCKHAIJMOB_OMMANNJPJOI_OFFSET UNITYSDK_OFFSET(0xB72C750)
-#define LKCKHAIJMOB_ONKKKAPGIKC_OFFSET UNITYSDK_OFFSET(0xB72C050)
-#define LKCKHAIJMOB_OOMKEJHOJEG_OFFSET UNITYSDK_OFFSET(0xB72CB90)
-#define LKCKHAIJMOB_OPCGFJPHIPA_OFFSET UNITYSDK_OFFSET(0xB729F40)
-#define LKCKHAIJMOB_PCCBKNGDAHB_OFFSET UNITYSDK_OFFSET(0xB72B0E0)
-#define LKCKHAIJMOB_PFDAKBENIJF_OFFSET UNITYSDK_OFFSET(0xB72D860)
+#define LKCKHAIJMOB_BABLKCEBHIJ_OFFSET UNITYSDK_OFFSET(0xBFCA4B0)
+#define LKCKHAIJMOB_BPGLLLGDNGP_OFFSET UNITYSDK_OFFSET(0xBFCA1E0)
+#define LKCKHAIJMOB_CFAGELFBNJD_OFFSET UNITYSDK_OFFSET(0xBFC8190)
+#define LKCKHAIJMOB_CKALNDFMOKL_OFFSET UNITYSDK_OFFSET(0xBFC9100)
+#define LKCKHAIJMOB_DMFBFIJHFOG_OFFSET UNITYSDK_OFFSET(0xBFC92C0)
+#define LKCKHAIJMOB_DNAIFAEBPHJ_OFFSET UNITYSDK_OFFSET(0xBFCA260)
+#define LKCKHAIJMOB_EBHNJMPEILL_OFFSET UNITYSDK_OFFSET(0xBFC9EC0)
+#define LKCKHAIJMOB_EBHPDFPIJMI_OFFSET UNITYSDK_OFFSET(0xBFC86D0)
+#define LKCKHAIJMOB_EDACCEPGKPM_OFFSET UNITYSDK_OFFSET(0xBFC9480)
+#define LKCKHAIJMOB_EFCNDKBEIIN_OFFSET UNITYSDK_OFFSET(0xBFC6DF0)
+#define LKCKHAIJMOB_EKDFMBHKHJI_OFFSET UNITYSDK_OFFSET(0xBFCA430)
+#define LKCKHAIJMOB_FDJKMIAEHJI_OFFSET UNITYSDK_OFFSET(0xBFC9BC0)
+#define LKCKHAIJMOB_FFCGOAJMMAC_OFFSET UNITYSDK_OFFSET(0xBFC70D0)
+#define LKCKHAIJMOB_FHFOCDKJIJB_OFFSET UNITYSDK_OFFSET(0xBFCA520)
+#define LKCKHAIJMOB_FJLCCHBNADM_OFFSET UNITYSDK_OFFSET(0xBFC98C0)
+#define LKCKHAIJMOB_FNPFKCJJCFL_OFFSET UNITYSDK_OFFSET(0xBFC7390)
+#define LKCKHAIJMOB_GCIBCNHOKKG_OFFSET UNITYSDK_OFFSET(0xBFC7C50)
+#define LKCKHAIJMOB_GFOPPGAEJMF_OFFSET UNITYSDK_OFFSET(0xBFC6F80)
+#define LKCKHAIJMOB_HDHJIKHKMDO_OFFSET UNITYSDK_OFFSET(0xBFC74D0)
+#define LKCKHAIJMOB_IDKKLODPLMO_OFFSET UNITYSDK_OFFSET(0xBFC8870)
+#define LKCKHAIJMOB_IMCPOIBAIOO_OFFSET UNITYSDK_OFFSET(0xBFC7610)
+#define LKCKHAIJMOB_IMICLPJOFJA_OFFSET UNITYSDK_OFFSET(0xBFCA6A0)
+#define LKCKHAIJMOB_IMIOMMKOMBN_OFFSET UNITYSDK_OFFSET(0xBFC8A30)
+#define LKCKHAIJMOB_JAMNLCKMMHA_OFFSET UNITYSDK_OFFSET(0xBFCA100)
+#define LKCKHAIJMOB_JDIBKNIJODJ_OFFSET UNITYSDK_OFFSET(0xBFC9D00)
+#define LKCKHAIJMOB_JHILODFFHJL_OFFSET UNITYSDK_OFFSET(0xBFC8510)
+#define LKCKHAIJMOB_JKOJDDMPDLK_OFFSET UNITYSDK_OFFSET(0xBFCA5F0)
+#define LKCKHAIJMOB_JLADCJAELDI_OFFSET UNITYSDK_OFFSET(0xBFC7B10)
+#define LKCKHAIJMOB_KAGEKBLGGCA_OFFSET UNITYSDK_OFFSET(0xBFC7300)
+#define LKCKHAIJMOB_KGKNBJMIEOM_OFFSET UNITYSDK_OFFSET(0xBFC71B0)
+#define LKCKHAIJMOB_KIIMINFEICK_OFFSET UNITYSDK_OFFSET(0xBFC5B90)
+#define LKCKHAIJMOB_LAAFIHJLPLB_OFFSET UNITYSDK_OFFSET(0xBFC9F30)
+#define LKCKHAIJMOB_LPBLDMDBIOA_OFFSET UNITYSDK_OFFSET(0xBFC7E10)
+#define LKCKHAIJMOB_NCKICPBOBKH_OFFSET UNITYSDK_OFFSET(0xBFCA080)
+#define LKCKHAIJMOB_NDAMLDDDJKI_OFFSET UNITYSDK_OFFSET(0xBFC7750)
+#define LKCKHAIJMOB_NGKGFBMAMPK_OFFSET UNITYSDK_OFFSET(0xBFC9780)
+#define LKCKHAIJMOB_NJDALCEMHIM_OFFSET UNITYSDK_OFFSET(0xBFC79D0)
+#define LKCKHAIJMOB_NJKHIGAJHFG_OFFSET UNITYSDK_OFFSET(0xBFC7890)
+#define LKCKHAIJMOB_NJNFGMIGCJC_OFFSET UNITYSDK_OFFSET(0xBFC8350)
+#define LKCKHAIJMOB_OMMANNJPJOI_OFFSET UNITYSDK_OFFSET(0xBFC9640)
+#define LKCKHAIJMOB_ONKKKAPGIKC_OFFSET UNITYSDK_OFFSET(0xBFC8F40)
+#define LKCKHAIJMOB_OOMKEJHOJEG_OFFSET UNITYSDK_OFFSET(0xBFC9A80)
+#define LKCKHAIJMOB_OPCGFJPHIPA_OFFSET UNITYSDK_OFFSET(0xBFC6E30)
+#define LKCKHAIJMOB_PCCBKNGDAHB_OFFSET UNITYSDK_OFFSET(0xBFC7FD0)
+#define LKCKHAIJMOB_PFDAKBENIJF_OFFSET UNITYSDK_OFFSET(0xBFCA750)
 
-inline static constexpr unsigned int LKCKHAIJMOB_TypeDefinitionIndex = 48514;
+inline static constexpr unsigned int LKCKHAIJMOB_TypeDefinitionIndex = 49555;
 
 	class LKCKHAIJMOB : public ::System::Object
 	{
 	public:
-		static ::UnityEngine::Transform** StaticGet_PAECDBJLLCM()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64640);
-		}
-
-		static ::RPG::Client::DebugPerformanceInfoPanel** StaticGet_FNNJPCLHMPC()
-		{
-			return (::RPG::Client::DebugPerformanceInfoPanel**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64648);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_PLADJIEFFBI()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64650);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_JPICPJEINDC()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64658);
-		}
-
-		static ::UnityEngine::UI::Image** StaticGet_MEPIKEFJLHG()
-		{
-			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64660);
-		}
-
 		static ::UnityEngine::UI::Image** StaticGet_IEPFFCEBCDB()
 		{
-			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64668);
-		}
-
-		static ::RPG::Client::LocalizedText** StaticGet_IGKJFIBBOFE()
-		{
-			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64670);
-		}
-
-		static ::UnityEngine::UI::Text** StaticGet_IOLCFAPCPDP()
-		{
-			return (::UnityEngine::UI::Text**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64678);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_CPPMPGJCFMJ()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64680);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_LLADEPHOPBE()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64688);
-		}
-
-		static ::RPG::Client::ClientOnlyCommonConfig** StaticGet_FJEPLGBIAOH()
-		{
-			return (::RPG::Client::ClientOnlyCommonConfig**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64690);
-		}
-
-		static ::UnityEngine::UI::Text** StaticGet_JDCABDNBIPH()
-		{
-			return (::UnityEngine::UI::Text**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64698);
-		}
-
-		static ::UnityEngine::UI::Text** StaticGet_FLMOCLGKGLI()
-		{
-			return (::UnityEngine::UI::Text**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646A0);
-		}
-
-		static ::CriWare::CriManaMovieMaterial** StaticGet_BAFJFDKDPON()
-		{
-			return (::CriWare::CriManaMovieMaterial**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646A8);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_LHFCECHDELD()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646B0);
-		}
-
-		static ::RPG::Client::LocalizedText** StaticGet_MBMGNOAGGJO()
-		{
-			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646B8);
-		}
-
-		static ::RPG::Client::LocalizedText** StaticGet_CCDJOLNPLBJ()
-		{
-			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646C0);
-		}
-
-		static ::UnityEngine::Canvas** StaticGet_EPOABONPPGJ()
-		{
-			return (::UnityEngine::Canvas**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646C8);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_LIGEMMPFLKI()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646D0);
-		}
-
-		static ::UnityEngine::UI::Image** StaticGet_BJKCBOCLKBL()
-		{
-			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646D8);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_DOLBOABHAAM()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646E0);
-		}
-
-		static ::RPG::Client::LocalizedText** StaticGet_AACOHEKCIDH()
-		{
-			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646E8);
-		}
-
-		static ::UnityEngine::UI::Image** StaticGet_AFJIGEDHIPO()
-		{
-			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646F0);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_NAFDDKLMGLL()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x646F8);
+			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C30);
 		}
 
 		static ::UnityEngine::Transform** StaticGet_BGPIFFEJIJL()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64700);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C38);
 		}
 
-		static ::UnityEngine::Transform** StaticGet_JILDIDPIJJH()
+		static ::CriWare::CriManaMovieMaterial** StaticGet_BAFJFDKDPON()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64708);
+			return (::CriWare::CriManaMovieMaterial**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C40);
 		}
 
 		static ::UnityEngine::UI::Image** StaticGet_MFMPHLIAAIH()
 		{
-			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64710);
-		}
-
-		static ::UnityEngine::Playables::PlayableDirector** StaticGet_OPNHINPCKOJ()
-		{
-			return (::UnityEngine::Playables::PlayableDirector**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64718);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_EJIKHNFJGFI()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64720);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_EAOPEAJHBKG()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64728);
+			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C48);
 		}
 
 		static ::UnityEngine::Transform** StaticGet_NIKFDIBDGGJ()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64730);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C50);
+		}
+
+		static ::UnityEngine::UI::Image** StaticGet_AFJIGEDHIPO()
+		{
+			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C58);
+		}
+
+		static ::UnityEngine::Playables::PlayableDirector** StaticGet_OPNHINPCKOJ()
+		{
+			return (::UnityEngine::Playables::PlayableDirector**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C60);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_PLADJIEFFBI()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C68);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_LIGEMMPFLKI()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C70);
+		}
+
+		static ::UnityEngine::Canvas** StaticGet_EPOABONPPGJ()
+		{
+			return (::UnityEngine::Canvas**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C78);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_NAFDDKLMGLL()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C80);
+		}
+
+		static ::RPG::Client::LocalizedText** StaticGet_AACOHEKCIDH()
+		{
+			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C88);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_CPPMPGJCFMJ()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C90);
+		}
+
+		static ::RPG::Client::LocalizedText** StaticGet_CCDJOLNPLBJ()
+		{
+			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67C98);
+		}
+
+		static ::UnityEngine::UI::Text** StaticGet_IOLCFAPCPDP()
+		{
+			return (::UnityEngine::UI::Text**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CA0);
+		}
+
+		static ::UnityEngine::UI::Text** StaticGet_JDCABDNBIPH()
+		{
+			return (::UnityEngine::UI::Text**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CA8);
+		}
+
+		static ::RPG::Client::DebugPerformanceInfoPanel** StaticGet_FNNJPCLHMPC()
+		{
+			return (::RPG::Client::DebugPerformanceInfoPanel**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CB0);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_JPICPJEINDC()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CB8);
+		}
+
+		static ::UnityEngine::UI::Image** StaticGet_MEPIKEFJLHG()
+		{
+			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CC0);
 		}
 
 		static ::UnityEngine::Transform** StaticGet_KGDOGDLMELJ()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64738);
-		}
-
-		static ::UnityEngine::Transform** StaticGet_DGNBNJFKJLK()
-		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64740);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CC8);
 		}
 
 		static ::RPG::Client::LocalizedText** StaticGet_APAPIBBMKDL()
 		{
-			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x64748);
+			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CD0);
 		}
 
-		static ::System::Boolean* StaticGet_BPFJNDHIFLD()
+		static ::RPG::Client::LocalizedText** StaticGet_IGKJFIBBOFE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x14C40);
+			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CD8);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_PAECDBJLLCM()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CE0);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_LLADEPHOPBE()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CE8);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_DOLBOABHAAM()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CF0);
+		}
+
+		static ::RPG::Client::ClientOnlyCommonConfig** StaticGet_FJEPLGBIAOH()
+		{
+			return (::RPG::Client::ClientOnlyCommonConfig**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67CF8);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_JILDIDPIJJH()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D00);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_EAOPEAJHBKG()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D08);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_DGNBNJFKJLK()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D10);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_LHFCECHDELD()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D18);
+		}
+
+		static ::UnityEngine::UI::Text** StaticGet_FLMOCLGKGLI()
+		{
+			return (::UnityEngine::UI::Text**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D20);
+		}
+
+		static ::UnityEngine::UI::Image** StaticGet_BJKCBOCLKBL()
+		{
+			return (::UnityEngine::UI::Image**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D28);
+		}
+
+		static ::RPG::Client::LocalizedText** StaticGet_MBMGNOAGGJO()
+		{
+			return (::RPG::Client::LocalizedText**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D30);
+		}
+
+		static ::UnityEngine::Transform** StaticGet_EJIKHNFJGFI()
+		{
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x67D38);
 		}
 
 		static ::System::Boolean* StaticGet_PCMDPHMBOHC()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x14C41);
+			return (::System::Boolean*)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x14D90);
+		}
+
+		static ::System::Boolean* StaticGet_BPFJNDHIFLD()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "LKCKHAIJMOB")->GetStaticField(0x14D91);
 		}
 
 		// static const ::System::String* GGDHBBDCAOG; // 0x0

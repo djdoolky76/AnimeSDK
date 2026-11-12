@@ -8,14 +8,14 @@ namespace System::Collections { class Hashtable; }
 namespace System::Globalization { class CodePageDataItem; }
 namespace System::Text { class EncodingInfo; }
 
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C2297C0)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_ENC_OFFSET UNITYSDK_OFFSET(0x1C229780)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1C2302F0)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C230090)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETENCODINGS_OFFSET UNITYSDK_OFFSET(0x1C22FD50)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETNUMENCODINGITEMS_OFFSET UNITYSDK_OFFSET(0x1C229730)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_INTERNALGETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1C22FAD0)
-#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_MAPCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1C2297A0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3B0120)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_ENC_OFFSET UNITYSDK_OFFSET(0x1D3B00E0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1D3B6C50)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1D3B69F0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETENCODINGS_OFFSET UNITYSDK_OFFSET(0x1D3B66B0)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_GETNUMENCODINGITEMS_OFFSET UNITYSDK_OFFSET(0x1D3B0090)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_INTERNALGETCODEPAGEFROMNAME_OFFSET UNITYSDK_OFFSET(0x1D3B6430)
+#define SYSTEM_GLOBALIZATION_ENCODINGTABLE_MAPCODEPAGEDATAITEM_OFFSET UNITYSDK_OFFSET(0x1D3B0100)
 
 namespace System::Globalization
 {
@@ -24,34 +24,34 @@ namespace System::Globalization
 	class EncodingTable : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Hashtable** StaticGet_hashByCodePage()
-		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124E0);
-		}
-
 		static ::Il2CppArray<::System::Globalization::InternalEncodingDataItem>** StaticGet_encodingDataPtr()
 		{
-			return (::Il2CppArray<::System::Globalization::InternalEncodingDataItem>**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124E8);
+			return (::Il2CppArray<::System::Globalization::InternalEncodingDataItem>**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x140D0);
 		}
 
 		static ::Il2CppArray<::System::Globalization::InternalCodePageDataItem>** StaticGet_codePageDataPtr()
 		{
-			return (::Il2CppArray<::System::Globalization::InternalCodePageDataItem>**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124F0);
+			return (::Il2CppArray<::System::Globalization::InternalCodePageDataItem>**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x140D8);
 		}
 
 		static ::System::Collections::Hashtable** StaticGet_hashByName()
 		{
-			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x124F8);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x140E0);
 		}
 
-		static ::System::Int32* StaticGet_lastEncodingItem()
+		static ::System::Collections::Hashtable** StaticGet_hashByCodePage()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x3F50);
+			return (::System::Collections::Hashtable**)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x140E8);
 		}
 
 		static ::System::Int32* StaticGet_lastCodePageItem()
 		{
-			return (::System::Int32*)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x3F54);
+			return (::System::Int32*)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x43C0);
+		}
+
+		static ::System::Int32* StaticGet_lastEncodingItem()
+		{
+			return (::System::Int32*)UnitySDK::FromName("System.Globalization", "EncodingTable")->GetStaticField(0x43C4);
 		}
 
 		static ::System::Void _cctor()

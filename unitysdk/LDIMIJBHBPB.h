@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/MHCOBFJNNJB.h"
 
-inline static constexpr unsigned int LDIMIJBHBPB_TypeDefinitionIndex = 42291;
+inline static constexpr unsigned int LDIMIJBHBPB_TypeDefinitionIndex = 43266;
 
 	struct alignas(4) LDIMIJBHBPB
 	{

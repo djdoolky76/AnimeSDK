@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SetStageBattleEvents; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ONFPAFDKFAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBF518E0)
-#define ONFPAFDKFAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF518F0)
-#define ONFPAFDKFAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF51930)
-#define ONFPAFDKFAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF519E0)
-#define ONFPAFDKFAM_TICK_OFFSET UNITYSDK_OFFSET(0xBF51A30)
+#define ONFPAFDKFAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC84FA10)
+#define ONFPAFDKFAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC84FA20)
+#define ONFPAFDKFAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC84FA60)
+#define ONFPAFDKFAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC84FB10)
+#define ONFPAFDKFAM_TICK_OFFSET UNITYSDK_OFFSET(0xC84FB60)
 
-inline static constexpr unsigned int ONFPAFDKFAM_TypeDefinitionIndex = 55567;
+inline static constexpr unsigned int ONFPAFDKFAM_TypeDefinitionIndex = 56761;
 
 	class ONFPAFDKFAM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::SetStageBattleEvents* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::SetStageBattleEvents* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SetStageBattleEvents* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SetStageBattleEvents*))((::PBYTE)hIl2Cpp + ONFPAFDKFAM_CTOR_OFFSET))(this, a1, a2);

@@ -4,18 +4,18 @@
 class DIAGLMMBKIP;
 namespace System { class Object; }
 
-#define DIAGLMMBKIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1BAD60)
-#define DIAGLMMBKIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BADA0)
-#define DIAGLMMBKIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1BADB0)
+#define DIAGLMMBKIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F496720)
+#define DIAGLMMBKIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F496760)
+#define DIAGLMMBKIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F496770)
 
-inline static constexpr unsigned int DIAGLMMBKIP___c_TypeDefinitionIndex = 34464;
+inline static constexpr unsigned int DIAGLMMBKIP___c_TypeDefinitionIndex = 35392;
 
 	class DIAGLMMBKIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35CD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x313B0);
 		}
 
 		static ::System::Void _cctor()

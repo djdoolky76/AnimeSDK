@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xE18DA10)
-#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xE190360)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY_CTOR_OFFSET UNITYSDK_OFFSET(0xEC3AE90)
+#define RPG_CLIENT_TAUTILS_MATERIALPROPERTIESCOLLECTION_TEXTUREPROPERTY_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xEC3D7E0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int MaterialPropertiesCollection_TextureProperty_TypeDefinitionIndex = 73622;
+	inline static constexpr unsigned int MaterialPropertiesCollection_TextureProperty_TypeDefinitionIndex = 75745;
 
 	class MaterialPropertiesCollection_TextureProperty
 	{

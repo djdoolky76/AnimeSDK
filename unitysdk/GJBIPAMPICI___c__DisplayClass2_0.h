@@ -6,10 +6,10 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GJBIPAMPICI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5A130)
-#define GJBIPAMPICI___C__DISPLAYCLASS2_0__SYNCHRONIZEONE_B__0_OFFSET UNITYSDK_OFFSET(0x15A5A7C0)
+#define GJBIPAMPICI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16995680)
+#define GJBIPAMPICI___C__DISPLAYCLASS2_0__SYNCHRONIZEONE_B__0_OFFSET UNITYSDK_OFFSET(0x16995D10)
 
-inline static constexpr unsigned int GJBIPAMPICI___c__DisplayClass2_0_TypeDefinitionIndex = 80834;
+inline static constexpr unsigned int GJBIPAMPICI___c__DisplayClass2_0_TypeDefinitionIndex = 83614;
 
 	class GJBIPAMPICI___c__DisplayClass2_0 : public ::System::Object
 	{

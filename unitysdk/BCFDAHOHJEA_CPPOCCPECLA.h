@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
-#define BCFDAHOHJEA_CPPOCCPECLA_CTOR_OFFSET UNITYSDK_OFFSET(0xF54D0)
+#define BCFDAHOHJEA_CPPOCCPECLA_CTOR_OFFSET UNITYSDK_OFFSET(0x102240)
 
-inline static constexpr unsigned int BCFDAHOHJEA_CPPOCCPECLA_TypeDefinitionIndex = 71492;
+inline static constexpr unsigned int BCFDAHOHJEA_CPPOCCPECLA_TypeDefinitionIndex = 73477;
 
 	struct alignas(8) BCFDAHOHJEA_CPPOCCPECLA
 	{

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IEventHandler_TypeDefinitionIndex = 5938;
+	inline static constexpr unsigned int IEventHandler_TypeDefinitionIndex = 5946;
 
 	class IEventHandler
 	{

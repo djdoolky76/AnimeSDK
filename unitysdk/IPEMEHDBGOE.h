@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FHKIKPOPLPJ.h"
 
-#define IPEMEHDBGOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1651F410)
+#define IPEMEHDBGOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB853F20)
 
-inline static constexpr unsigned int IPEMEHDBGOE_TypeDefinitionIndex = 57316;
+inline static constexpr unsigned int IPEMEHDBGOE_TypeDefinitionIndex = 58544;
 
 	class IPEMEHDBGOE : public ::FHKIKPOPLPJ
 	{

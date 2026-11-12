@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GFDKGLOANOH_TypeDefinitionIndex = 57513;
+inline static constexpr unsigned int GFDKGLOANOH_TypeDefinitionIndex = 58741;
 
 	class GFDKGLOANOH
 	{

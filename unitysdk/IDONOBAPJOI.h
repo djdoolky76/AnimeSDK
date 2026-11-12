@@ -8,33 +8,33 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
-#define IDONOBAPJOI_AGADIADBNKI_OFFSET UNITYSDK_OFFSET(0x15EE36B0)
-#define IDONOBAPJOI_CLEAR_OFFSET UNITYSDK_OFFSET(0x15EE3650)
-#define IDONOBAPJOI_CTOR_OFFSET UNITYSDK_OFFSET(0x15EE4110)
-#define IDONOBAPJOI_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15EE40F0)
-#define IDONOBAPJOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EE3470)
-#define IDONOBAPJOI_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0x15EE38C0)
-#define IDONOBAPJOI_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x15EE4100)
+#define IDONOBAPJOI_AGADIADBNKI_OFFSET UNITYSDK_OFFSET(0x16E4E630)
+#define IDONOBAPJOI_CLEAR_OFFSET UNITYSDK_OFFSET(0x16E4E5D0)
+#define IDONOBAPJOI_CTOR_OFFSET UNITYSDK_OFFSET(0x16E4F0B0)
+#define IDONOBAPJOI_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16E4F090)
+#define IDONOBAPJOI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16E4E400)
+#define IDONOBAPJOI_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0x16E4E840)
+#define IDONOBAPJOI_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x16E4F0A0)
 
-inline static constexpr unsigned int IDONOBAPJOI_TypeDefinitionIndex = 57085;
+inline static constexpr unsigned int IDONOBAPJOI_TypeDefinitionIndex = 58312;
 
 	class IDONOBAPJOI : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Single>* FNKPDLLALIO; // 0x10
+		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x10
 		::RPG::GameCore::GameEntity* IDHIFEDLFDN; // 0x18
-		::Il2CppArray<::UnityEngine::Vector3>* FJKLKJCBJGC; // 0x20
-		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x28
+		::Il2CppArray<::System::Single>* FNKPDLLALIO; // 0x20
+		::Il2CppArray<::UnityEngine::Vector3>* FJKLKJCBJGC; // 0x28
 		::UnityEngine::Transform* AFIBNIPMICJ; // 0x30
-		::RPG::GameCore::AdventureMoveOnNavMeshFaceToType MLMEAGPKCIA; // 0x38
-		::System::Boolean _IsActive_k__BackingField; // 0x3C
-		::System::Byte _padding0[0x3];
+		::System::Single CLEHKNOLHMC; // 0x38
+		::System::Single HGEMDOPMOPG; // 0x3C
 		::System::Single MBPJEPNJHBA; // 0x40
-		::System::Single HGEMDOPMOPG; // 0x44
-		::System::Single CLEHKNOLHMC; // 0x48
-		::System::Int32 DPMIEOJHAGA; // 0x4C
-		::System::Single NPINECOCALC; // 0x50
-		::System::Single HPCHCEFOKJB; // 0x54
+		::System::Single HPCHCEFOKJB; // 0x44
+		::RPG::GameCore::AdventureMoveOnNavMeshFaceToType MLMEAGPKCIA; // 0x48
+		::System::Single NPINECOCALC; // 0x4C
+		::System::Boolean _IsActive_k__BackingField; // 0x50
+		::System::Byte _padding0[0x3];
+		::System::Int32 DPMIEOJHAGA; // 0x54
 		// static const ::System::Object BILJLIDLBIJ; // 0x0
 		// static const ::System::Object HIGKCDFBEON; // 0x0
 		::System::Void _ctor()

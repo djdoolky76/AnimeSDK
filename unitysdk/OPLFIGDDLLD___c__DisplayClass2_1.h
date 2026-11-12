@@ -4,17 +4,17 @@
 namespace RPG::GameCore { class ChimeraDuelStatusConfig; }
 namespace System { class Object; }
 
-#define OPLFIGDDLLD___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3BB0)
-#define OPLFIGDDLLD___C__DISPLAYCLASS2_1___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xBFB3C30)
+#define OPLFIGDDLLD___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC8B51E0)
+#define OPLFIGDDLLD___C__DISPLAYCLASS2_1___TRYAPPLY_B__0_OFFSET UNITYSDK_OFFSET(0xC8B5260)
 
-inline static constexpr unsigned int OPLFIGDDLLD___c__DisplayClass2_1_TypeDefinitionIndex = 77462;
+inline static constexpr unsigned int OPLFIGDDLLD___c__DisplayClass2_1_TypeDefinitionIndex = 80197;
 
 	template <typename T>
 	class OPLFIGDDLLD___c__DisplayClass2_1 : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::ChimeraDuelStatusConfig* statusConfig; // 0x10
-		::System::Object* CS___8__locals1; // 0x18
+		::System::Object* CS___8__locals1; // 0x10
+		::RPG::GameCore::ChimeraDuelStatusConfig* statusConfig; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OPLFIGDDLLD___C__DISPLAYCLASS2_1_CTOR_OFFSET))(this);

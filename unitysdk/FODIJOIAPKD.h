@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FODIJOIAPKD_TypeDefinitionIndex = 24449;
+inline static constexpr unsigned int FODIJOIAPKD_TypeDefinitionIndex = 24908;
 
 	enum class FODIJOIAPKD : ::System::Int32
 	{

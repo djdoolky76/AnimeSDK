@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SceneConstValueConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SCENECONSTVALUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA89060)
-#define RPG_GAMECORE_SCENECONSTVALUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA88DB0)
+#define RPG_GAMECORE_SCENECONSTVALUECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC9B6D0)
+#define RPG_GAMECORE_SCENECONSTVALUECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC9B420)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SceneConstValueConfig_TypeDefinitionIndex = 19180;
+	inline static constexpr unsigned int SceneConstValueConfig_TypeDefinitionIndex = 19370;
 
 	class SceneConstValueConfig : public ::RPG::GameCore::JsonConfig
 	{

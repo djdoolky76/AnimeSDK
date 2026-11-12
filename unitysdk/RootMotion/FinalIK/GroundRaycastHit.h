@@ -9,7 +9,7 @@ namespace UnityEngine { class Collider; }
 
 namespace RootMotion::FinalIK
 {
-	inline static constexpr unsigned int GroundRaycastHit_TypeDefinitionIndex = 45986;
+	inline static constexpr unsigned int GroundRaycastHit_TypeDefinitionIndex = 47015;
 
 	struct alignas(4) GroundRaycastHit
 	{

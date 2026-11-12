@@ -7,19 +7,21 @@ namespace RPG::GameCore { class LevelUIComponent; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define IIOGEFLNOCE_CTOR_OFFSET UNITYSDK_OFFSET(0x16454C70)
+#define IIOGEFLNOCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1741D7D0)
 
-inline static constexpr unsigned int IIOGEFLNOCE_TypeDefinitionIndex = 71824;
+inline static constexpr unsigned int IIOGEFLNOCE_TypeDefinitionIndex = 73845;
 
 	class IIOGEFLNOCE : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* EGMMEEKIKMA; // 0x10
+		::UnityEngine::Transform* NEPPCIBOOAA; // 0x10
 		::UnityEngine::Transform* MJPMAPNJMNE; // 0x18
-		::HGKIKKOLLFA* IDJEEOFELEJ; // 0x20
-		::RPG::Client::MonsterHPBarStyle* AFKBNHEDIFB; // 0x28
-		::UnityEngine::UI::Text* IABIKOKLBLJ; // 0x30
+		::RPG::Client::MonsterHPBarStyle* AFKBNHEDIFB; // 0x20
+		::UnityEngine::UI::Text* IMBHJBAJJMF; // 0x28
+		::HGKIKKOLLFA* IDJEEOFELEJ; // 0x30
 		::RPG::GameCore::LevelUIComponent* DFHKMAHPJIB; // 0x38
+		::UnityEngine::Transform* EGMMEEKIKMA; // 0x40
+		::UnityEngine::UI::Text* IABIKOKLBLJ; // 0x48
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + IIOGEFLNOCE_CTOR_OFFSET))(this);

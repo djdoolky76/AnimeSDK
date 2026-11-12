@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AddTimeRewindBtnCD; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FNCCNNLPAJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1586A5B0)
-#define FNCCNNLPAJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1586A5E0)
+#define FNCCNNLPAJP_CTOR_OFFSET UNITYSDK_OFFSET(0x167DC3D0)
+#define FNCCNNLPAJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x167DC400)
 
-inline static constexpr unsigned int FNCCNNLPAJP_TypeDefinitionIndex = 53359;
+inline static constexpr unsigned int FNCCNNLPAJP_TypeDefinitionIndex = 54521;
 
 	class FNCCNNLPAJP
 	{

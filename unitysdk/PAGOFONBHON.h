@@ -5,10 +5,10 @@ class FCOEMCEDLNL;
 class PAGOFONBHON;
 namespace System { class String; }
 
-#define PAGOFONBHON_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2C0030)
-#define PAGOFONBHON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2BFF00)
+#define PAGOFONBHON_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4CB180)
+#define PAGOFONBHON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E4CB050)
 
-inline static constexpr unsigned int PAGOFONBHON_TypeDefinitionIndex = 12012;
+inline static constexpr unsigned int PAGOFONBHON_TypeDefinitionIndex = 12069;
 
 	class PAGOFONBHON : public ::System::Object
 	{

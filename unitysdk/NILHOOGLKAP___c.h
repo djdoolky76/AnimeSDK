@@ -4,18 +4,18 @@
 class NILHOOGLKAP;
 namespace System { class Object; }
 
-#define NILHOOGLKAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB36710)
-#define NILHOOGLKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB36750)
-#define NILHOOGLKAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB36760)
+#define NILHOOGLKAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F01ED20)
+#define NILHOOGLKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F01ED60)
+#define NILHOOGLKAP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F01ED70)
 
-inline static constexpr unsigned int NILHOOGLKAP___c_TypeDefinitionIndex = 32800;
+inline static constexpr unsigned int NILHOOGLKAP___c_TypeDefinitionIndex = 33715;
 
 	class NILHOOGLKAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x648A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6CF60);
 		}
 
 		static ::System::Void _cctor()

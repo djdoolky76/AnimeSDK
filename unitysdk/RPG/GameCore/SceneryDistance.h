@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SceneryDistance_TypeDefinitionIndex = 17169;
+	inline static constexpr unsigned int SceneryDistance_TypeDefinitionIndex = 17337;
 
 	enum class SceneryDistance : ::System::Int32
 	{

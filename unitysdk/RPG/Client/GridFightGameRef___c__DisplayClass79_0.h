@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD161370)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__SAVEFORMATIONTOSERVER_B__0_OFFSET UNITYSDK_OFFSET(0xD165B90)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2C590)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS79_0__SAVEFORMATIONTOSERVER_B__0_OFFSET UNITYSDK_OFFSET(0xDB2C5A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass79_0_TypeDefinitionIndex = 64714;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass79_0_TypeDefinitionIndex = 66257;
 
 	class GridFightGameRef___c__DisplayClass79_0 : public ::System::Object
 	{

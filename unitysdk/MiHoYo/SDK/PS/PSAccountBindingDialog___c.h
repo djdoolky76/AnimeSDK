@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::PS { class PSAccountBindingDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BF66F30)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF66F70)
-#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C__SHOW_B__58_0_OFFSET UNITYSDK_OFFSET(0x1BF66F80)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D0EDA20)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0EDA60)
+#define MIHOYO_SDK_PS_PSACCOUNTBINDINGDIALOG___C__SHOW_B__58_0_OFFSET UNITYSDK_OFFSET(0x1D0EDA70)
 
 namespace MiHoYo::SDK::PS
 {
-	inline static constexpr unsigned int PSAccountBindingDialog___c_TypeDefinitionIndex = 8932;
+	inline static constexpr unsigned int PSAccountBindingDialog___c_TypeDefinitionIndex = 8941;
 
 	class PSAccountBindingDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18370);
-		}
-
 		static ::System::Action_1<::MiHoYo::SDK::PS::PSAccountBindingDialog*>** StaticGet___9__58_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::PS::PSAccountBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x18378);
+			return (::System::Action_1<::MiHoYo::SDK::PS::PSAccountBindingDialog*>**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x16450);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.PS", "<>c")->GetStaticField(0x16458);
 		}
 
 		static ::System::Void _cctor()

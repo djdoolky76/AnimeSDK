@@ -5,7 +5,7 @@ namespace Google::Protobuf { template <typename T> class FieldCodec_1; }
 
 namespace Google::Protobuf::Collections
 {
-	inline static constexpr unsigned int MapField_2_Codec_TypeDefinitionIndex = 5581;
+	inline static constexpr unsigned int MapField_2_Codec_TypeDefinitionIndex = 5586;
 
 	template <typename T1, typename T2>
 	class MapField_2_Codec : public ::System::Object

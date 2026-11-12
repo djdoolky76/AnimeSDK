@@ -4,18 +4,18 @@
 class COPLCPBANMD;
 namespace System { class Object; }
 
-#define COPLCPBANMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E139D60)
-#define COPLCPBANMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E139D90)
-#define COPLCPBANMD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E139DA0)
+#define COPLCPBANMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F411FB0)
+#define COPLCPBANMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F411FE0)
+#define COPLCPBANMD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F411FF0)
 
-inline static constexpr unsigned int COPLCPBANMD___c_TypeDefinitionIndex = 31551;
+inline static constexpr unsigned int COPLCPBANMD___c_TypeDefinitionIndex = 32464;
 
 	class COPLCPBANMD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x21F20);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C980);
 		}
 
 		static ::System::Void _cctor()

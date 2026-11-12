@@ -6,7 +6,7 @@
 class NGEHNDIFKLM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int NLKFLEHLHAD_TypeDefinitionIndex = 54011;
+inline static constexpr unsigned int NLKFLEHLHAD_TypeDefinitionIndex = 55175;
 
 	struct alignas(8) NLKFLEHLHAD
 	{

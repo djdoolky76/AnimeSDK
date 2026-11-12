@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/MaterialProppertySetWay.h"
 #include "unitysdk/System/Object.h"
 
-#define PIJEFEJMFFA_NFECDPGDBMO_OFFSET UNITYSDK_OFFSET(0xC269780)
+#define PIJEFEJMFFA_NFECDPGDBMO_OFFSET UNITYSDK_OFFSET(0xCB919A0)
 
-inline static constexpr unsigned int PIJEFEJMFFA_TypeDefinitionIndex = 69812;
+inline static constexpr unsigned int PIJEFEJMFFA_TypeDefinitionIndex = 71771;
 
 	class PIJEFEJMFFA : public ::System::Object
 	{

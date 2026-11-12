@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersAIParamType_TypeDefinitionIndex = 24572;
+	inline static constexpr unsigned int TeamTowersAIParamType_TypeDefinitionIndex = 25037;
 
 	enum class TeamTowersAIParamType : ::System::Int32
 	{

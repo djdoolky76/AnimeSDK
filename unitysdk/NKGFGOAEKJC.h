@@ -8,26 +8,26 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NKGFGOAEKJC_CCALJNGOIPK_OFFSET UNITYSDK_OFFSET(0xBC34810)
-#define NKGFGOAEKJC_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC34A10)
-#define NKGFGOAEKJC_GNNMKIOFKKB_OFFSET UNITYSDK_OFFSET(0xBC340A0)
-#define NKGFGOAEKJC_HIIMEIFGMFF_1_OFFSET UNITYSDK_OFFSET(0xBC345D0)
-#define NKGFGOAEKJC_HIIMEIFGMFF_OFFSET UNITYSDK_OFFSET(0xBC34150)
-#define NKGFGOAEKJC_MEILPOCGIIK_OFFSET UNITYSDK_OFFSET(0xBC33FA0)
+#define NKGFGOAEKJC_CCALJNGOIPK_OFFSET UNITYSDK_OFFSET(0xC5185C0)
+#define NKGFGOAEKJC_CCTOR_OFFSET UNITYSDK_OFFSET(0xC5187C0)
+#define NKGFGOAEKJC_GNNMKIOFKKB_OFFSET UNITYSDK_OFFSET(0xC517E50)
+#define NKGFGOAEKJC_HIIMEIFGMFF_1_OFFSET UNITYSDK_OFFSET(0xC518380)
+#define NKGFGOAEKJC_HIIMEIFGMFF_OFFSET UNITYSDK_OFFSET(0xC517F00)
+#define NKGFGOAEKJC_MEILPOCGIIK_OFFSET UNITYSDK_OFFSET(0xC517D50)
 
-inline static constexpr unsigned int NKGFGOAEKJC_TypeDefinitionIndex = 78578;
+inline static constexpr unsigned int NKGFGOAEKJC_TypeDefinitionIndex = 81313;
 
 	class NKGFGOAEKJC : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>** StaticGet_DMPIGOFPLLB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>**)UnitySDK::FromName("", "NKGFGOAEKJC")->GetStaticField(0x47B10);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::Object*>**)UnitySDK::FromName("", "NKGFGOAEKJC")->GetStaticField(0x415E0);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::String*>** StaticGet_CAPEMEGKBPD()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::String*>**)UnitySDK::FromName("", "NKGFGOAEKJC")->GetStaticField(0x47B18);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::GameEntity*, ::System::String*>**)UnitySDK::FromName("", "NKGFGOAEKJC")->GetStaticField(0x415E8);
 		}
 
 		static ::System::Void _cctor()

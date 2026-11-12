@@ -6,10 +6,10 @@ class AJCJJOCGIEL;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define AJCJJOCGIEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCCCA00)
-#define AJCJJOCGIEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCCC8F0)
+#define AJCJJOCGIEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE758B0)
+#define AJCJJOCGIEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE757A0)
 
-inline static constexpr unsigned int AJCJJOCGIEL_TypeDefinitionIndex = 14702;
+inline static constexpr unsigned int AJCJJOCGIEL_TypeDefinitionIndex = 14858;
 
 	class AJCJJOCGIEL : public ::System::Object
 	{

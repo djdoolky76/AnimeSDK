@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/GameComponentBase.h"
 
-#define PDFGGJMMGIO_CTOR_OFFSET UNITYSDK_OFFSET(0xC011140)
-#define PDFGGJMMGIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC0110C0)
-#define PDFGGJMMGIO_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xC011080)
+#define PDFGGJMMGIO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9177D0)
+#define PDFGGJMMGIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC917760)
+#define PDFGGJMMGIO_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xC917720)
 
-inline static constexpr unsigned int PDFGGJMMGIO_TypeDefinitionIndex = 57256;
+inline static constexpr unsigned int PDFGGJMMGIO_TypeDefinitionIndex = 58483;
 
 	class PDFGGJMMGIO : public ::RPG::GameCore::GameComponentBase
 	{

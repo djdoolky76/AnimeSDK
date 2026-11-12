@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChangeAnimEventConfig; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHANGEANIMEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D563E50)
-#define RPG_GAMECORE_CHANGEANIMEVENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D563E90)
-#define RPG_GAMECORE_CHANGEANIMEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D563DF0)
+#define RPG_GAMECORE_CHANGEANIMEVENTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7755F0)
+#define RPG_GAMECORE_CHANGEANIMEVENTCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E775630)
+#define RPG_GAMECORE_CHANGEANIMEVENTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E775590)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChangeAnimEventConfig_TypeDefinitionIndex = 22881;
+	inline static constexpr unsigned int ChangeAnimEventConfig_TypeDefinitionIndex = 23307;
 
 	class ChangeAnimEventConfig : public ::RPG::GameCore::TaskConfig
 	{

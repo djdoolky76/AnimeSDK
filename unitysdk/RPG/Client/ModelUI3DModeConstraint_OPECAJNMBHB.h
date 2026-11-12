@@ -6,11 +6,11 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_OPECAJNMBHB_CTOR_OFFSET UNITYSDK_OFFSET(0xD729890)
+#define RPG_CLIENT_MODELUI3DMODECONSTRAINT_OPECAJNMBHB_CTOR_OFFSET UNITYSDK_OFFSET(0xE1B9770)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ModelUI3DModeConstraint_OPECAJNMBHB_TypeDefinitionIndex = 68512;
+	inline static constexpr unsigned int ModelUI3DModeConstraint_OPECAJNMBHB_TypeDefinitionIndex = 70460;
 
 	class ModelUI3DModeConstraint_OPECAJNMBHB : public ::System::Object
 	{

@@ -9,13 +9,13 @@ namespace RPG::GameCore { class PropCurveMoveStart; }
 namespace RPG::GameCore { class PropCurveMoveStartMode; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVEMOVESTART_CTOR_OFFSET UNITYSDK_OFFSET(0x1D947290)
-#define RPG_GAMECORE_PROPCURVEMOVESTART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9473D0)
-#define RPG_GAMECORE_PROPCURVEMOVESTART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D947250)
+#define RPG_GAMECORE_PROPCURVEMOVESTART_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB60380)
+#define RPG_GAMECORE_PROPCURVEMOVESTART_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB604C0)
+#define RPG_GAMECORE_PROPCURVEMOVESTART_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB60340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveMoveStart_TypeDefinitionIndex = 21008;
+	inline static constexpr unsigned int PropCurveMoveStart_TypeDefinitionIndex = 21346;
 
 	class PropCurveMoveStart : public ::RPG::GameCore::TaskConfig
 	{

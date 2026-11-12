@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class InControlKeyInfoRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_INCONTROLKEYINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D784C90)
-#define RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D784540)
+#define RPG_GAMECORE_INCONTROLKEYINFOROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9983C0)
+#define RPG_GAMECORE_INCONTROLKEYINFOROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E997C70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int InControlKeyInfoRow_TypeDefinitionIndex = 13817;
+	inline static constexpr unsigned int InControlKeyInfoRow_TypeDefinitionIndex = 13974;
 
 	class InControlKeyInfoRow : public ::System::Object
 	{
 	public:
 		::System::String* key; // 0x10
-		::RPG::Client::TextID keyString; // 0x18
+		::RPG::Client::TextID keyStringGermany; // 0x18
 		::System::Boolean isSettingKey; // 0x28
 		::System::Byte _padding0[0x7];
 		::RPG::Client::TextID keyStringFrance; // 0x30
-		::RPG::Client::TextID keyStringGermany; // 0x40
+		::RPG::Client::TextID keyString; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_INCONTROLKEYINFOROW_CTOR_OFFSET))(this);

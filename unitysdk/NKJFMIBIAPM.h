@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DecalPuzzleClear; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NKJFMIBIAPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBC38ED0)
-#define NKJFMIBIAPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC38F00)
+#define NKJFMIBIAPM_CTOR_OFFSET UNITYSDK_OFFSET(0xC51D3E0)
+#define NKJFMIBIAPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC51D410)
 
-inline static constexpr unsigned int NKJFMIBIAPM_TypeDefinitionIndex = 52729;
+inline static constexpr unsigned int NKJFMIBIAPM_TypeDefinitionIndex = 53873;
 
 	class NKJFMIBIAPM
 	{

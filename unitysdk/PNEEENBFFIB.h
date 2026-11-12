@@ -7,11 +7,11 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define PNEEENBFFIB_CTOR_OFFSET UNITYSDK_OFFSET(0xC3356A0)
-#define PNEEENBFFIB_MEPAOJIBLED_OFFSET UNITYSDK_OFFSET(0xC335360)
-#define PNEEENBFFIB_NHBPDCJIAPI_OFFSET UNITYSDK_OFFSET(0xC335020)
+#define PNEEENBFFIB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC68260)
+#define PNEEENBFFIB_MEPAOJIBLED_OFFSET UNITYSDK_OFFSET(0xCC67F30)
+#define PNEEENBFFIB_NHBPDCJIAPI_OFFSET UNITYSDK_OFFSET(0xCC67C00)
 
-inline static constexpr unsigned int PNEEENBFFIB_TypeDefinitionIndex = 62409;
+inline static constexpr unsigned int PNEEENBFFIB_TypeDefinitionIndex = 63822;
 
 	class PNEEENBFFIB : public ::System::Object
 	{

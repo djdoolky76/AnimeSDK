@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BMCEEIAPDGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC770)
+#define BMCEEIAPDGM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA3D490)
 
-inline static constexpr unsigned int BMCEEIAPDGM_TypeDefinitionIndex = 42148;
+inline static constexpr unsigned int BMCEEIAPDGM_TypeDefinitionIndex = 43123;
 
 	class BMCEEIAPDGM : public ::System::Object
 	{

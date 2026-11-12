@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareScreenRatio; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EEMIBFBEADI_CTOR_OFFSET UNITYSDK_OFFSET(0x13A3E6E0)
-#define EEMIBFBEADI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13A3E710)
+#define EEMIBFBEADI_CTOR_OFFSET UNITYSDK_OFFSET(0x147FF080)
+#define EEMIBFBEADI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x147FF0B0)
 
-inline static constexpr unsigned int EEMIBFBEADI_TypeDefinitionIndex = 54563;
+inline static constexpr unsigned int EEMIBFBEADI_TypeDefinitionIndex = 55728;
 
 	class EEMIBFBEADI
 	{

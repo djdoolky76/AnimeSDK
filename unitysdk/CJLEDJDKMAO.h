@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareItemNum; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CJLEDJDKMAO_CTOR_OFFSET UNITYSDK_OFFSET(0xD4CF900)
-#define CJLEDJDKMAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD4CF930)
+#define CJLEDJDKMAO_CTOR_OFFSET UNITYSDK_OFFSET(0xE086DE0)
+#define CJLEDJDKMAO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xE086E10)
 
-inline static constexpr unsigned int CJLEDJDKMAO_TypeDefinitionIndex = 52576;
+inline static constexpr unsigned int CJLEDJDKMAO_TypeDefinitionIndex = 53682;
 
 	class CJLEDJDKMAO
 	{

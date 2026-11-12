@@ -4,12 +4,12 @@
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_TAUTILS_RENDERERMATERIALS_CTOR_OFFSET UNITYSDK_OFFSET(0xE193060)
-#define RPG_CLIENT_TAUTILS_RENDERERMATERIALS_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0xE193070)
+#define RPG_CLIENT_TAUTILS_RENDERERMATERIALS_CTOR_OFFSET UNITYSDK_OFFSET(0xEC404E0)
+#define RPG_CLIENT_TAUTILS_RENDERERMATERIALS_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0xEC404F0)
 
 namespace RPG::Client::TAUtils
 {
-	inline static constexpr unsigned int RendererMaterials_TypeDefinitionIndex = 73653;
+	inline static constexpr unsigned int RendererMaterials_TypeDefinitionIndex = 75776;
 
 	class RendererMaterials : public ::System::Object
 	{

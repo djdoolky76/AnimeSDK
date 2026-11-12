@@ -6,31 +6,31 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SwordTrainingStoryLineRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB4F260)
-#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB4ED10)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDFE860)
+#define RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EDFE310)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SwordTrainingStoryLineRow_TypeDefinitionIndex = 12458;
+	inline static constexpr unsigned int SwordTrainingStoryLineRow_TypeDefinitionIndex = 12525;
 
 	class SwordTrainingStoryLineRow : public ::System::Object
 	{
 	public:
 		::System::String* StoryLineImage; // 0x10
-		::Il2CppArray<::System::UInt32>* EndingStoryIDList; // 0x18
-		::System::String* EndingOptionKey; // 0x20
+		::System::String* StartTalkImage; // 0x18
+		::Il2CppArray<::System::UInt32>* EndingStoryIDList; // 0x20
 		::Il2CppArray<::System::UInt32>* TurnIDList; // 0x28
 		::Il2CppArray<::System::UInt32>* AvatarIDList; // 0x30
-		::System::String* StartTalkImage; // 0x38
+		::System::String* EndingOptionKey; // 0x38
 		::RPG::Client::TextID StoryHardDesc; // 0x40
-		::RPG::Client::TextID StoryLineName; // 0x50
-		::System::UInt32 UnlockID; // 0x60
-		::System::UInt32 RewardID; // 0x64
-		::System::UInt32 StoryLine; // 0x68
-		::System::UInt32 TalkSentenceID; // 0x6C
-		::System::UInt32 StartTalkSentenceID; // 0x70
+		::System::UInt32 UnlockID; // 0x50
+		::System::UInt32 StoryLine; // 0x54
+		::System::UInt32 StartTalkSentenceID; // 0x58
+		::System::UInt32 RewardID; // 0x5C
+		::System::UInt32 TalkSentenceID; // 0x60
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID StoryLineDesc; // 0x78
+		::RPG::Client::TextID StoryLineDesc; // 0x68
+		::RPG::Client::TextID StoryLineName; // 0x78
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_SWORDTRAININGSTORYLINEROW_CTOR_OFFSET))(this);

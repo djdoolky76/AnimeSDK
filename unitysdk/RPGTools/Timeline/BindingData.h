@@ -6,12 +6,12 @@ class ELDKEKGOENH;
 namespace RPGTools::Timeline { class ArchiveAsset; }
 namespace UnityEngine::Playables { class PlayableDirector; }
 
-#define RPGTOOLS_TIMELINE_BINDINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BB6D0)
-#define RPGTOOLS_TIMELINE_BINDINGDATA_PFMNODOHKGB_OFFSET UNITYSDK_OFFSET(0xE8BB470)
+#define RPGTOOLS_TIMELINE_BINDINGDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF3955F0)
+#define RPGTOOLS_TIMELINE_BINDINGDATA_PFMNODOHKGB_OFFSET UNITYSDK_OFFSET(0xF395390)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int BindingData_TypeDefinitionIndex = 48510;
+	inline static constexpr unsigned int BindingData_TypeDefinitionIndex = 49551;
 
 	class BindingData : public ::UnityEngine::ScriptableObject
 	{

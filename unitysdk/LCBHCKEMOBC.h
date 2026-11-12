@@ -6,19 +6,19 @@
 namespace RPG::GameCore { class AdventureAbilityComponent; }
 namespace RPG::GameCore { class GameEntity; }
 
-#define LCBHCKEMOBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB610CC0)
-#define LCBHCKEMOBC_FDKEHBDDNGC_OFFSET UNITYSDK_OFFSET(0xB610D50)
-#define LCBHCKEMOBC_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xB610EB0)
-#define LCBHCKEMOBC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB610D00)
-#define LCBHCKEMOBC_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xB610DB0)
+#define LCBHCKEMOBC_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA3720)
+#define LCBHCKEMOBC_FDKEHBDDNGC_OFFSET UNITYSDK_OFFSET(0xBEA37B0)
+#define LCBHCKEMOBC_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBEA3910)
+#define LCBHCKEMOBC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBEA3760)
+#define LCBHCKEMOBC_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xBEA3810)
 
-inline static constexpr unsigned int LCBHCKEMOBC_TypeDefinitionIndex = 57046;
+inline static constexpr unsigned int LCBHCKEMOBC_TypeDefinitionIndex = 58273;
 
 	class LCBHCKEMOBC : public ::BDENDNDOFLF
 	{
 	public:
-		::RPG::GameCore::AdventureAbilityComponent* NJFKODGGCFA; // 0x68
-		::RPG::GameCore::GameEntity* GDCCJFKJGPD; // 0x70
+		::RPG::GameCore::GameEntity* GDCCJFKJGPD; // 0x68
+		::RPG::GameCore::AdventureAbilityComponent* NJFKODGGCFA; // 0x70
 		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0x78
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{

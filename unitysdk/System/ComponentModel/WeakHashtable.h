@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System::Collections { class IEqualityComparer; }
 
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F005A10)
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1F0058B0)
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F003CE0)
-#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F005A00)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x202B5340)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CLEAR_OFFSET UNITYSDK_OFFSET(0x202B51E0)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x202B3610)
+#define SYSTEM_COMPONENTMODEL_WEAKHASHTABLE_REMOVE_OFFSET UNITYSDK_OFFSET(0x202B5330)
 
 namespace System::ComponentModel
 {
@@ -18,7 +18,7 @@ namespace System::ComponentModel
 	public:
 		static ::System::Collections::IEqualityComparer** StaticGet__comparer()
 		{
-			return (::System::Collections::IEqualityComparer**)UnitySDK::FromName("System.ComponentModel", "WeakHashtable")->GetStaticField(0x3C250);
+			return (::System::Collections::IEqualityComparer**)UnitySDK::FromName("System.ComponentModel", "WeakHashtable")->GetStaticField(0x2BBA0);
 		}
 
 		::System::Void _ctor()

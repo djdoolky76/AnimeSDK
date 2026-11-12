@@ -6,13 +6,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DebugLog; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DEBUGLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5F6230)
-#define RPG_GAMECORE_DEBUGLOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D5F6240)
-#define RPG_GAMECORE_DEBUGLOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5F6200)
+#define RPG_GAMECORE_DEBUGLOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8081C0)
+#define RPG_GAMECORE_DEBUGLOG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8081D0)
+#define RPG_GAMECORE_DEBUGLOG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E808190)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DebugLog_TypeDefinitionIndex = 23763;
+	inline static constexpr unsigned int DebugLog_TypeDefinitionIndex = 24219;
 
 	class DebugLog : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,25 +5,25 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define MFKLFGHHCIC_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0xB905670)
-#define MFKLFGHHCIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB905590)
-#define MFKLFGHHCIC_FEPGPMECKIF_OFFSET UNITYSDK_OFFSET(0xB905A40)
-#define MFKLFGHHCIC_IPGJMHHFNEA_OFFSET UNITYSDK_OFFSET(0xB9055B0)
-#define MFKLFGHHCIC_NKAPPIPMIKK_OFFSET UNITYSDK_OFFSET(0xB905C10)
-#define MFKLFGHHCIC_OHMLABGPCOI_OFFSET UNITYSDK_OFFSET(0xB905AD0)
+#define MFKLFGHHCIC_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0xC1B7A10)
+#define MFKLFGHHCIC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B7860)
+#define MFKLFGHHCIC_FEPGPMECKIF_OFFSET UNITYSDK_OFFSET(0xC1B7DE0)
+#define MFKLFGHHCIC_IPGJMHHFNEA_OFFSET UNITYSDK_OFFSET(0xC1B7880)
+#define MFKLFGHHCIC_NKAPPIPMIKK_OFFSET UNITYSDK_OFFSET(0xC1B7FB0)
+#define MFKLFGHHCIC_OHMLABGPCOI_OFFSET UNITYSDK_OFFSET(0xC1B7E70)
 
-inline static constexpr unsigned int MFKLFGHHCIC_TypeDefinitionIndex = 68908;
+inline static constexpr unsigned int MFKLFGHHCIC_TypeDefinitionIndex = 70861;
 
 	class MFKLFGHHCIC : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* GKNBCPMJHMN; // 0x10
-		::Il2CppArray<::UnityEngine::Vector2>* MFAINMHAPEK; // 0x18
-		::System::Single OHBAEMDKIJA; // 0x20
-		::System::Single IPPKIDDEDBB; // 0x24
-		::System::Single MMOFEIOKJEI; // 0x28
-		::System::Single AMEBGAHDFNI; // 0x2C
-		::System::Single OHMPPKAJIBM; // 0x30
+		::Il2CppArray<::UnityEngine::Vector2>* MFAINMHAPEK; // 0x10
+		::UnityEngine::Transform* GKNBCPMJHMN; // 0x18
+		::System::Single MMOFEIOKJEI; // 0x20
+		::System::Single AMEBGAHDFNI; // 0x24
+		::System::Single OHMPPKAJIBM; // 0x28
+		::System::Single IPPKIDDEDBB; // 0x2C
+		::System::Single OHBAEMDKIJA; // 0x30
 		::System::Void _ctor(::UnityEngine::Transform* a1, ::Il2CppArray<::UnityEngine::Vector2>* a2, ::System::Single a3)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*, ::Il2CppArray<::UnityEngine::Vector2>*, ::System::Single))((::PBYTE)hIl2Cpp + MFKLFGHHCIC_CTOR_OFFSET))(this, a1, a2, a3);

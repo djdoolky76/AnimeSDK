@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AudioStateConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_AUDIOSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4096F0)
-#define RPG_GAMECORE_AUDIOSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D408BF0)
+#define RPG_GAMECORE_AUDIOSTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E629980)
+#define RPG_GAMECORE_AUDIOSTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E629020)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AudioStateConfig_TypeDefinitionIndex = 16383;
+	inline static constexpr unsigned int AudioStateConfig_TypeDefinitionIndex = 16547;
 
 	class AudioStateConfig : public ::RPG::GameCore::JsonConfig
 	{

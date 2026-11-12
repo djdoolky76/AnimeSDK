@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareHeartDialScriptEmo; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PPGNGHFINKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC3867B0)
-#define PPGNGHFINKB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC3867E0)
+#define PPGNGHFINKB_CTOR_OFFSET UNITYSDK_OFFSET(0xCCBBF30)
+#define PPGNGHFINKB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCCBBF60)
 
-inline static constexpr unsigned int PPGNGHFINKB_TypeDefinitionIndex = 52569;
+inline static constexpr unsigned int PPGNGHFINKB_TypeDefinitionIndex = 53675;
 
 	class PPGNGHFINKB
 	{

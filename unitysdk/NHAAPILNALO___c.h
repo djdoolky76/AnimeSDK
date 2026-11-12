@@ -4,18 +4,18 @@
 class NHAAPILNALO;
 namespace System { class Object; }
 
-#define NHAAPILNALO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EB18B90)
-#define NHAAPILNALO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB18BD0)
-#define NHAAPILNALO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB18BE0)
+#define NHAAPILNALO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FE5B0D0)
+#define NHAAPILNALO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE5B110)
+#define NHAAPILNALO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FE5B120)
 
-inline static constexpr unsigned int NHAAPILNALO___c_TypeDefinitionIndex = 28948;
+inline static constexpr unsigned int NHAAPILNALO___c_TypeDefinitionIndex = 29538;
 
 	class NHAAPILNALO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5FFB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A910);
 		}
 
 		static ::System::Void _cctor()

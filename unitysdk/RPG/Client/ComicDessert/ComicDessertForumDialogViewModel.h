@@ -1,0 +1,190 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/RPG/Client/TextID.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/AIMGBHJFAFK.h"
+namespace RPG::Client::ComicDessert { class ComicDessertForumCommentViewModel; }
+namespace RPG::Client::ComicDessert { class ComicDessertForumReplyViewModel; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD504690)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_HASANYPLAYERCHOICE_OFFSET UNITYSDK_OFFSET(0xD504920)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT1TEXT_OFFSET UNITYSDK_OFFSET(0xD5048E0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT1_OFFSET UNITYSDK_OFFSET(0xD5048A0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT2TEXT_OFFSET UNITYSDK_OFFSET(0xD504900)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT2_OFFSET UNITYSDK_OFFSET(0xD5048C0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTCONTENT_OFFSET UNITYSDK_OFFSET(0xD504840)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTERICONPATH_OFFSET UNITYSDK_OFFSET(0xD5047E0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTERNAME_OFFSET UNITYSDK_OFFSET(0xD504800)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTID_OFFSET UNITYSDK_OFFSET(0xD5047C0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTPICPATH_OFFSET UNITYSDK_OFFSET(0xD504860)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTTITLE_OFFSET UNITYSDK_OFFSET(0xD504820)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_TOPLEVELCOMMENTS_OFFSET UNITYSDK_OFFSET(0xD504880)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_REPORTCOMMENTINTERACT_OFFSET UNITYSDK_OFFSET(0xD504980)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_REQUESTCLOSE_OFFSET UNITYSDK_OFFSET(0xD504760)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT1TEXT_OFFSET UNITYSDK_OFFSET(0xD5048F0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT1_OFFSET UNITYSDK_OFFSET(0xD5048B0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT2TEXT_OFFSET UNITYSDK_OFFSET(0xD504910)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT2_OFFSET UNITYSDK_OFFSET(0xD5048D0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTCONTENT_OFFSET UNITYSDK_OFFSET(0xD504850)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTERICONPATH_OFFSET UNITYSDK_OFFSET(0xD5047F0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTERNAME_OFFSET UNITYSDK_OFFSET(0xD504810)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTID_OFFSET UNITYSDK_OFFSET(0xD5047D0)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTPICPATH_OFFSET UNITYSDK_OFFSET(0xD504870)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTTITLE_OFFSET UNITYSDK_OFFSET(0xD504830)
+#define RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_TOPLEVELCOMMENTS_OFFSET UNITYSDK_OFFSET(0xD504890)
+
+namespace RPG::Client::ComicDessert
+{
+	inline static constexpr unsigned int ComicDessertForumDialogViewModel_TypeDefinitionIndex = 77112;
+
+	class ComicDessertForumDialogViewModel : public ::System::Object
+	{
+	public:
+		::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel* _PlayerComment2_k__BackingField; // 0x10
+		::System::String* _PostPicPath_k__BackingField; // 0x18
+		::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel* _PlayerComment1_k__BackingField; // 0x20
+		::System::String* _PosterIconPath_k__BackingField; // 0x28
+		::System::Action* _CloseRequested; // 0x30
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ComicDessert::ComicDessertForumCommentViewModel*>* _TopLevelComments_k__BackingField; // 0x38
+		::RPG::Client::TextID _PosterName_k__BackingField; // 0x40
+		::System::UInt32 _PostId_k__BackingField; // 0x50
+		::System::Byte _padding0[0x4];
+		::RPG::Client::TextID _PlayerComment2Text_k__BackingField; // 0x58
+		::RPG::Client::TextID _PlayerComment1Text_k__BackingField; // 0x68
+		::RPG::Client::TextID _PostTitle_k__BackingField; // 0x78
+		::RPG::Client::TextID _PostContent_k__BackingField; // 0x88
+		::System::Void _ctor(::AIMGBHJFAFK a1, ::System::Action* a2)
+		{
+			return ((::System::Void(*)(::PVOID, ::AIMGBHJFAFK, ::System::Action*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_CTOR_OFFSET))(this, a1, a2);
+		}
+
+		::System::Void RequestClose()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_REQUESTCLOSE_OFFSET))(this);
+		}
+
+		::System::UInt32 get_PostId()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTID_OFFSET))(this);
+		}
+
+		::System::Void set_PostId(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTID_OFFSET))(this, a1);
+		}
+
+		::System::String* get_PosterIconPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTERICONPATH_OFFSET))(this);
+		}
+
+		::System::Void set_PosterIconPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTERICONPATH_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_PosterName()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTERNAME_OFFSET))(this);
+		}
+
+		::System::Void set_PosterName(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTERNAME_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_PostTitle()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTTITLE_OFFSET))(this);
+		}
+
+		::System::Void set_PostTitle(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTTITLE_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_PostContent()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTCONTENT_OFFSET))(this);
+		}
+
+		::System::Void set_PostContent(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTCONTENT_OFFSET))(this, a1);
+		}
+
+		::System::String* get_PostPicPath()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_POSTPICPATH_OFFSET))(this);
+		}
+
+		::System::Void set_PostPicPath(::System::String* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_POSTPICPATH_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ComicDessert::ComicDessertForumCommentViewModel*>* get_TopLevelComments()
+		{
+			return ((::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ComicDessert::ComicDessertForumCommentViewModel*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_TOPLEVELCOMMENTS_OFFSET))(this);
+		}
+
+		::System::Void set_TopLevelComments(::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ComicDessert::ComicDessertForumCommentViewModel*>* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::ComicDessert::ComicDessertForumCommentViewModel*>*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_TOPLEVELCOMMENTS_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel* get_PlayerComment1()
+		{
+			return ((::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT1_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerComment1(::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT1_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel* get_PlayerComment2()
+		{
+			return ((::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT2_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerComment2(::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::ComicDessert::ComicDessertForumReplyViewModel*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT2_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_PlayerComment1Text()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT1TEXT_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerComment1Text(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT1TEXT_OFFSET))(this, a1);
+		}
+
+		::RPG::Client::TextID get_PlayerComment2Text()
+		{
+			return ((::RPG::Client::TextID(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_PLAYERCOMMENT2TEXT_OFFSET))(this);
+		}
+
+		::System::Void set_PlayerComment2Text(::RPG::Client::TextID a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::RPG::Client::TextID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_SET_PLAYERCOMMENT2TEXT_OFFSET))(this, a1);
+		}
+
+		::System::Boolean get_HasAnyPlayerChoice()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_GET_HASANYPLAYERCHOICE_OFFSET))(this);
+		}
+
+		::System::Void ReportCommentInteract(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMICDESSERT_COMICDESSERTFORUMDIALOGVIEWMODEL_REPORTCOMMENTINTERACT_OFFSET))(this, a1);
+		}
+
+	};
+}

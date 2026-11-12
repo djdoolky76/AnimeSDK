@@ -8,24 +8,24 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitEntityArtLoad; }
 namespace System { template <typename T> class Action_1; }
 
-#define NBBCNHGCNAM_BKPGNCBNMGP_OFFSET UNITYSDK_OFFSET(0xBABD1A0)
-#define NBBCNHGCNAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBABCEC0)
-#define NBBCNHGCNAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBABCF20)
-#define NBBCNHGCNAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBABD060)
-#define NBBCNHGCNAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBABCF70)
-#define NBBCNHGCNAM_PBAAICNFJJO_OFFSET UNITYSDK_OFFSET(0xBABD1F0)
-#define NBBCNHGCNAM_TICK_OFFSET UNITYSDK_OFFSET(0xBABD140)
+#define NBBCNHGCNAM_BKPGNCBNMGP_OFFSET UNITYSDK_OFFSET(0xC3426F0)
+#define NBBCNHGCNAM_CTOR_OFFSET UNITYSDK_OFFSET(0xC342410)
+#define NBBCNHGCNAM_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC342470)
+#define NBBCNHGCNAM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3425B0)
+#define NBBCNHGCNAM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC3424C0)
+#define NBBCNHGCNAM_PBAAICNFJJO_OFFSET UNITYSDK_OFFSET(0xC342740)
+#define NBBCNHGCNAM_TICK_OFFSET UNITYSDK_OFFSET(0xC342690)
 
-inline static constexpr unsigned int NBBCNHGCNAM_TypeDefinitionIndex = 58887;
+inline static constexpr unsigned int NBBCNHGCNAM_TypeDefinitionIndex = 60159;
 
 	class NBBCNHGCNAM : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::GameEntity* POPNDPJELNO; // 0x18
-		::System::Action_1<::RPG::GameCore::GameEntity*>* MNGIAJPCOCG; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::GameEntity* POPNDPJELNO; // 0x20
 		::RPG::GameCore::WaitEntityArtLoad* OFKGLJOAMLD; // 0x28
-		::GELIALJDFBL* JLMAKNFAEBH; // 0x30
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x38
+		::System::Action_1<::RPG::GameCore::GameEntity*>* MNGIAJPCOCG; // 0x30
+		::GELIALJDFBL* JLMAKNFAEBH; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitEntityArtLoad* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::WaitEntityArtLoad*))((::PBYTE)hIl2Cpp + NBBCNHGCNAM_CTOR_OFFSET))(this, a1, a2);

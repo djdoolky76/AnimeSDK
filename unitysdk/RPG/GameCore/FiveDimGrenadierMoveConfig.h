@@ -11,13 +11,13 @@ namespace RPG::GameCore { class FiveDimGrenadierProjectileConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6C32B0)
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6C32D0)
-#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6C3260)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8CFBC0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8CFBE0)
+#define RPG_GAMECORE_FIVEDIMGRENADIERMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8CFB70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimGrenadierMoveConfig_TypeDefinitionIndex = 16704;
+	inline static constexpr unsigned int FiveDimGrenadierMoveConfig_TypeDefinitionIndex = 16870;
 
 	class FiveDimGrenadierMoveConfig : public ::RPG::GameCore::FiveDimPropMoveConfig
 	{

@@ -5,25 +5,25 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCC1F310)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCC1F350)
-#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTINFO___C__CREATEPVERESULT_B__1_0_OFFSET UNITYSDK_OFFSET(0xCC1F360)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD596CA0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD596CE0)
+#define RPG_CLIENT_DICECOMBAT_DICECOMBATBATTLERESULTINFO___C__CREATEPVERESULT_B__1_0_OFFSET UNITYSDK_OFFSET(0xD596CF0)
 
 namespace RPG::Client::DiceCombat
 {
-	inline static constexpr unsigned int DiceCombatBattleResultInfo___c_TypeDefinitionIndex = 76048;
+	inline static constexpr unsigned int DiceCombatBattleResultInfo___c_TypeDefinitionIndex = 78375;
 
 	class DiceCombatBattleResultInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::ItemDisplayData*>** StaticGet___9__1_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x253F0);
+			return (::System::Comparison_1<::RPG::Client::ItemDisplayData*>**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x26080);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x253F8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.DiceCombat", "<>c")->GetStaticField(0x26088);
 		}
 
 		static ::System::Void _cctor()

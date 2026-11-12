@@ -4,25 +4,25 @@
 namespace Cinemachine { class CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE40CAB0)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE40CAF0)
-#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER___C__ACTIVEVIRTUALCAMERA_B__0_0_OFFSET UNITYSDK_OFFSET(0xE40CB00)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEEC7FB0)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEEC7FF0)
+#define RPG_CLIENT_UIVIRTUALCAMERACONTROLLER___C__ACTIVEVIRTUALCAMERA_B__0_0_OFFSET UNITYSDK_OFFSET(0xEEC8000)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIVirtualCameraController___c_TypeDefinitionIndex = 69120;
+	inline static constexpr unsigned int UIVirtualCameraController___c_TypeDefinitionIndex = 71073;
 
 	class UIVirtualCameraController___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x422A0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4CEE0);
 		}
 
 		static ::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate** StaticGet___9__0_0()
 		{
-			return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x422A8);
+			return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x4CEE8);
 		}
 
 		static ::System::Void _cctor()

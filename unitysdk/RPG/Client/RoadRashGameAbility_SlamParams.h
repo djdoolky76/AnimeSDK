@@ -7,12 +7,12 @@ namespace RPG::Client { class RoadRashGameAbilityValueModifer; }
 namespace RPG::Client { class RoadRashGameAbility_SlamParams; }
 namespace System { class String; }
 
-#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAMPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D32E0F0)
-#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAMPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D32DA40)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAMPARAMS_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53D660)
+#define RPG_CLIENT_ROADRASHGAMEABILITY_SLAMPARAMS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E53CFB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RoadRashGameAbility_SlamParams_TypeDefinitionIndex = 10292;
+	inline static constexpr unsigned int RoadRashGameAbility_SlamParams_TypeDefinitionIndex = 10302;
 
 	class RoadRashGameAbility_SlamParams : public ::RPG::GameCore::JsonConfig
 	{

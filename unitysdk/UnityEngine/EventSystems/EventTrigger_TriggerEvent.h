@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_TRIGGEREVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D2370)
+#define UNITYENGINE_EVENTSYSTEMS_EVENTTRIGGER_TRIGGEREVENT_CTOR_OFFSET UNITYSDK_OFFSET(0x207821C0)
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int EventTrigger_TriggerEvent_TypeDefinitionIndex = 6931;
+	inline static constexpr unsigned int EventTrigger_TriggerEvent_TypeDefinitionIndex = 6942;
 
 	class EventTrigger_TriggerEvent
 	{

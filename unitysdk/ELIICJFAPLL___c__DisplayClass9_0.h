@@ -4,10 +4,10 @@
 class FKMBGNOKAFF;
 namespace RPG::GameCore { class FreeStyleAnimGroupEventConfig; }
 
-#define ELIICJFAPLL___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15523070)
-#define ELIICJFAPLL___C__DISPLAYCLASS9_0__GENERATECLIPGROUPEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x155230C0)
+#define ELIICJFAPLL___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1646B4B0)
+#define ELIICJFAPLL___C__DISPLAYCLASS9_0__GENERATECLIPGROUPEVENTS_B__0_OFFSET UNITYSDK_OFFSET(0x1646B500)
 
-inline static constexpr unsigned int ELIICJFAPLL___c__DisplayClass9_0_TypeDefinitionIndex = 57265;
+inline static constexpr unsigned int ELIICJFAPLL___c__DisplayClass9_0_TypeDefinitionIndex = 58492;
 
 	class ELIICJFAPLL___c__DisplayClass9_0 : public ::System::Object
 	{

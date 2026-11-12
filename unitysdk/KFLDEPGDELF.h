@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SwitchHandShowPuzzleFinishToast; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KFLDEPGDELF_CTOR_OFFSET UNITYSDK_OFFSET(0xB3BE8D0)
-#define KFLDEPGDELF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB3BE8E0)
-#define KFLDEPGDELF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3BE920)
-#define KFLDEPGDELF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3BE9A0)
-#define KFLDEPGDELF_TICK_OFFSET UNITYSDK_OFFSET(0xB3BE9F0)
+#define KFLDEPGDELF_CTOR_OFFSET UNITYSDK_OFFSET(0xBC4D530)
+#define KFLDEPGDELF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC4D540)
+#define KFLDEPGDELF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC4D580)
+#define KFLDEPGDELF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC4D600)
+#define KFLDEPGDELF_TICK_OFFSET UNITYSDK_OFFSET(0xBC4D650)
 
-inline static constexpr unsigned int KFLDEPGDELF_TypeDefinitionIndex = 53319;
+inline static constexpr unsigned int KFLDEPGDELF_TypeDefinitionIndex = 54481;
 
 	class KFLDEPGDELF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
-		::RPG::GameCore::SwitchHandShowPuzzleFinishToast* IGHAHBNLIJA; // 0x20
+		::RPG::GameCore::SwitchHandShowPuzzleFinishToast* IGHAHBNLIJA; // 0x18
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchHandShowPuzzleFinishToast* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchHandShowPuzzleFinishToast*))((::PBYTE)hIl2Cpp + KFLDEPGDELF_CTOR_OFFSET))(this, a1, a2);

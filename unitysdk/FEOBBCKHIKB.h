@@ -4,9 +4,9 @@
 namespace RPG::Client { class GeneralAudioItem; }
 namespace UnityEngine { class GameObject; }
 
-#define FEOBBCKHIKB_BEJDIFDOLBG_OFFSET UNITYSDK_OFFSET(0x1572C8A0)
+#define FEOBBCKHIKB_BEJDIFDOLBG_OFFSET UNITYSDK_OFFSET(0x16646BC0)
 
-inline static constexpr unsigned int FEOBBCKHIKB_TypeDefinitionIndex = 68430;
+inline static constexpr unsigned int FEOBBCKHIKB_TypeDefinitionIndex = 70377;
 
 	class FEOBBCKHIKB : public ::System::Object
 	{

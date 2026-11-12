@@ -8,30 +8,30 @@ namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xD5E6520)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETBILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0xD5E6470)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETENTITYPOS_OFFSET UNITYSDK_OFFSET(0xD5E62A0)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0xD5E6170)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xD5E6160)
-#define RPG_CLIENT_MAZEWAYPOINTTARGET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0xD5E63E0)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0xE039410)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETBILLBOARDIDENTIFIER_OFFSET UNITYSDK_OFFSET(0xE039350)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETENTITYPOS_OFFSET UNITYSDK_OFFSET(0xE039180)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GETTARGETPOS_OFFSET UNITYSDK_OFFSET(0xE039050)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xE039040)
+#define RPG_CLIENT_MAZEWAYPOINTTARGET_ISVISIBLE_OFFSET UNITYSDK_OFFSET(0xE0392C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MazeWaypointTarget_TypeDefinitionIndex = 69073;
+	inline static constexpr unsigned int MazeWaypointTarget_TypeDefinitionIndex = 71026;
 
 	class MazeWaypointTarget : public ::System::Object
 	{
 	public:
-		::UnityEngine::Transform* TargetTransform; // 0x10
-		::RPG::Client::Billboard::BillboardIdentifier* _BillboardIdentifier; // 0x18
-		::UnityEngine::GameObject* TargetObject; // 0x20
-		::RPG::Client::WaypointIdentifier* WaypointIdentifier; // 0x28
-		::RPG::GameCore::GameEntity* TargetEntity; // 0x30
-		::System::Boolean IsGameObject; // 0x38
+		::UnityEngine::GameObject* TargetObject; // 0x10
+		::RPG::GameCore::GameEntity* TargetEntity; // 0x18
+		::RPG::Client::Billboard::BillboardIdentifier* _BillboardIdentifier; // 0x20
+		::UnityEngine::Transform* TargetTransform; // 0x28
+		::RPG::Client::WaypointIdentifier* WaypointIdentifier; // 0x30
+		::System::UInt32 InstanceID; // 0x38
+		::System::Boolean IsGameObject; // 0x3C
 		::System::Byte _padding0[0x3];
-		::System::UInt32 GroupID; // 0x3C
 		::UnityEngine::Vector3 TargetPos; // 0x40
-		::System::UInt32 InstanceID; // 0x4C
+		::System::UInt32 GroupID; // 0x4C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MAZEWAYPOINTTARGET_CTOR_OFFSET))(this);

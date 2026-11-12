@@ -5,20 +5,20 @@ namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class WaitSilverWolfCompanionToastExit; }
 namespace System { class Object; }
 
-#define JMGIOMFJMLC_CTOR_OFFSET UNITYSDK_OFFSET(0xB263EB0)
-#define JMGIOMFJMLC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB263EC0)
-#define JMGIOMFJMLC_FMADPMADPHK_OFFSET UNITYSDK_OFFSET(0xB2641E0)
-#define JMGIOMFJMLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB263F00)
-#define JMGIOMFJMLC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB264110)
-#define JMGIOMFJMLC_TICK_OFFSET UNITYSDK_OFFSET(0xB264160)
+#define JMGIOMFJMLC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA8EF90)
+#define JMGIOMFJMLC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA8EFA0)
+#define JMGIOMFJMLC_FMADPMADPHK_OFFSET UNITYSDK_OFFSET(0xBA8F2C0)
+#define JMGIOMFJMLC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA8EFE0)
+#define JMGIOMFJMLC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA8F1F0)
+#define JMGIOMFJMLC_TICK_OFFSET UNITYSDK_OFFSET(0xBA8F240)
 
-inline static constexpr unsigned int JMGIOMFJMLC_TypeDefinitionIndex = 58926;
+inline static constexpr unsigned int JMGIOMFJMLC_TypeDefinitionIndex = 60199;
 
 	class JMGIOMFJMLC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::WaitSilverWolfCompanionToastExit* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::WaitSilverWolfCompanionToastExit* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Single HJAOODPONOD; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::WaitSilverWolfCompanionToastExit* a2)
 		{

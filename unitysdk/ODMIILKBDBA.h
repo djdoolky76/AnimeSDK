@@ -4,10 +4,10 @@
 #include "unitysdk/AHLEKJMMLBA.h"
 class CAINPBIGHGM;
 
-#define ODMIILKBDBA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDEE180)
-#define ODMIILKBDBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDEFDF0)
+#define ODMIILKBDBA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC6A3520)
+#define ODMIILKBDBA_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A5180)
 
-inline static constexpr unsigned int ODMIILKBDBA_TypeDefinitionIndex = 62705;
+inline static constexpr unsigned int ODMIILKBDBA_TypeDefinitionIndex = 64139;
 
 	class ODMIILKBDBA : public ::System::Object
 	{

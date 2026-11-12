@@ -5,10 +5,10 @@
 class FAPHHBABPCF;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipmentData; }
 
-#define FAPHHBABPCF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1568A880)
-#define FAPHHBABPCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1568A940)
+#define FAPHHBABPCF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1659EB20)
+#define FAPHHBABPCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1659EBE0)
 
-inline static constexpr unsigned int FAPHHBABPCF_TypeDefinitionIndex = 75393;
+inline static constexpr unsigned int FAPHHBABPCF_TypeDefinitionIndex = 77720;
 
 	class FAPHHBABPCF : public ::System::Object
 	{

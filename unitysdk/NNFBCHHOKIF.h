@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByPropShowInfoId; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNFBCHHOKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA60D0)
-#define NNFBCHHOKIF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCA6100)
+#define NNFBCHHOKIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC58EBA0)
+#define NNFBCHHOKIF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC58EBD0)
 
-inline static constexpr unsigned int NNFBCHHOKIF_TypeDefinitionIndex = 54476;
+inline static constexpr unsigned int NNFBCHHOKIF_TypeDefinitionIndex = 55640;
 
 	class NNFBCHHOKIF
 	{

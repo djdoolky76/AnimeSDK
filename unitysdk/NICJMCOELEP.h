@@ -5,9 +5,9 @@ class KPNFHKGKPGL;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define NICJMCOELEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDEF90)
+#define NICJMCOELEP_CTOR_OFFSET UNITYSDK_OFFSET(0xC4BFCC0)
 
-inline static constexpr unsigned int NICJMCOELEP_TypeDefinitionIndex = 47062;
+inline static constexpr unsigned int NICJMCOELEP_TypeDefinitionIndex = 48090;
 
 	class NICJMCOELEP : public ::System::Object
 	{

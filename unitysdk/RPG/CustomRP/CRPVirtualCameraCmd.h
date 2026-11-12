@@ -4,14 +4,14 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace UnityEngine::Rendering { class CommandBuffer; }
 
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC0C050)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_GETCMDREADONLY_OFFSET UNITYSDK_OFFSET(0x1CC0BDB0)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_GETCMD_OFFSET UNITYSDK_OFFSET(0x1CC0BDE0)
-#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_ONDESTORY_OFFSET UNITYSDK_OFFSET(0x1CC0BF60)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB31E0)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_GETCMDREADONLY_OFFSET UNITYSDK_OFFSET(0x1DDB2F70)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_GETCMD_OFFSET UNITYSDK_OFFSET(0x1DDB2FA0)
+#define RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1DDB30F0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int CRPVirtualCameraCmd_TypeDefinitionIndex = 37686;
+	inline static constexpr unsigned int CRPVirtualCameraCmd_TypeDefinitionIndex = 38615;
 
 	class CRPVirtualCameraCmd : public ::UnityEngine::MonoBehaviour
 	{
@@ -32,9 +32,9 @@ namespace RPG::CustomRP
 			return ((::UnityEngine::Rendering::CommandBuffer*(*)(::PVOID, ::RPG::CustomRP::VirtualCameraCmd, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_GETCMD_OFFSET))(this, a1, a2);
 		}
 
-		::System::Void OnDestory()
+		::System::Void OnDestroy()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_ONDESTORY_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_CRPVIRTUALCAMERACMD_ONDESTROY_OFFSET))(this);
 		}
 
 	};

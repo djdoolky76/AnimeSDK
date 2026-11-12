@@ -4,18 +4,18 @@
 namespace RPG::Client::Prop { class JigsawPuzzleItem; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDD19690)
-#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0__STARTROTATEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xDD19830)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE776F00)
+#define RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0__STARTROTATEANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xE7770A0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int JigsawPuzzleItem___c__DisplayClass36_0_TypeDefinitionIndex = 78660;
+	inline static constexpr unsigned int JigsawPuzzleItem___c__DisplayClass36_0_TypeDefinitionIndex = 81395;
 
 	class JigsawPuzzleItem___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Prop::JigsawPuzzleItem* __4__this; // 0x10
-		::System::Action* OnRotationDone; // 0x18
+		::System::Action* OnRotationDone; // 0x10
+		::RPG::Client::Prop::JigsawPuzzleItem* __4__this; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_PROP_JIGSAWPUZZLEITEM___C__DISPLAYCLASS36_0_CTOR_OFFSET))(this);

@@ -33,77 +33,77 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Runtime::Serialization { class SerializationBinder; }
 
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3A1DA0)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1C396840)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_BINDER_OFFSET UNITYSDK_OFFSET(0x1C3A1D60)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONSTRUCTORHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F980)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1C39F9A0)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONTRACTRESOLVER_OFFSET UNITYSDK_OFFSET(0x1C3A1D20)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONVERTERS_OFFSET UNITYSDK_OFFSET(0x1C3A1D00)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_DEFAULTVALUEHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F960)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_EQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1C3A1D30)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1C3A1D70)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_METADATAPROPERTYHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F880)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_MISSINGMEMBERHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F900)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_NULLVALUEHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F940)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_OBJECTCREATIONHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F920)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_PRESERVEREFERENCESHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F8C0)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_REFERENCELOOPHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F8E0)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_REFERENCERESOLVERPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C3A1D40)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_TRACEWRITER_OFFSET UNITYSDK_OFFSET(0x1C3A1D50)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_TYPENAMEASSEMBLYFORMAT_OFFSET UNITYSDK_OFFSET(0x1C39F8A0)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_TYPENAMEHANDLING_OFFSET UNITYSDK_OFFSET(0x1C39F860)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_SET_CONVERTERS_OFFSET UNITYSDK_OFFSET(0x1C3A1D10)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_SET_FORMATTING_OFFSET UNITYSDK_OFFSET(0x1C3A1D80)
-#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_SET_NULLVALUEHANDLING_OFFSET UNITYSDK_OFFSET(0x1C3A1CE0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D528540)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D51CF90)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_BINDER_OFFSET UNITYSDK_OFFSET(0x1D528500)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONSTRUCTORHANDLING_OFFSET UNITYSDK_OFFSET(0x1D526130)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONTEXT_OFFSET UNITYSDK_OFFSET(0x1D526150)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONTRACTRESOLVER_OFFSET UNITYSDK_OFFSET(0x1D5284C0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_CONVERTERS_OFFSET UNITYSDK_OFFSET(0x1D5284A0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_DEFAULTVALUEHANDLING_OFFSET UNITYSDK_OFFSET(0x1D526110)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_EQUALITYCOMPARER_OFFSET UNITYSDK_OFFSET(0x1D5284D0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_ERROR_OFFSET UNITYSDK_OFFSET(0x1D528510)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_METADATAPROPERTYHANDLING_OFFSET UNITYSDK_OFFSET(0x1D526030)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_MISSINGMEMBERHANDLING_OFFSET UNITYSDK_OFFSET(0x1D5260B0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_NULLVALUEHANDLING_OFFSET UNITYSDK_OFFSET(0x1D5260F0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_OBJECTCREATIONHANDLING_OFFSET UNITYSDK_OFFSET(0x1D5260D0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_PRESERVEREFERENCESHANDLING_OFFSET UNITYSDK_OFFSET(0x1D526070)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_REFERENCELOOPHANDLING_OFFSET UNITYSDK_OFFSET(0x1D526090)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_REFERENCERESOLVERPROVIDER_OFFSET UNITYSDK_OFFSET(0x1D5284E0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_TRACEWRITER_OFFSET UNITYSDK_OFFSET(0x1D5284F0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_TYPENAMEASSEMBLYFORMAT_OFFSET UNITYSDK_OFFSET(0x1D526050)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_GET_TYPENAMEHANDLING_OFFSET UNITYSDK_OFFSET(0x1D526010)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_SET_CONVERTERS_OFFSET UNITYSDK_OFFSET(0x1D5284B0)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_SET_FORMATTING_OFFSET UNITYSDK_OFFSET(0x1D528520)
+#define NEWTONSOFT_JSON_JSONSERIALIZERSETTINGS_SET_NULLVALUEHANDLING_OFFSET UNITYSDK_OFFSET(0x1D528480)
 
 namespace Newtonsoft::Json
 {
-	inline static constexpr unsigned int JsonSerializerSettings_TypeDefinitionIndex = 9603;
+	inline static constexpr unsigned int JsonSerializerSettings_TypeDefinitionIndex = 9611;
 
 	class JsonSerializerSettings : public ::System::Object
 	{
 	public:
 		::Newtonsoft::Json::Serialization::ITraceWriter* _TraceWriter_k__BackingField; // 0x10
-		::System::Globalization::CultureInfo* _culture; // 0x18
-		::System::Collections::IEqualityComparer* _EqualityComparer_k__BackingField; // 0x20
-		::Newtonsoft::Json::Serialization::IContractResolver* _ContractResolver_k__BackingField; // 0x28
-		::System::Runtime::Serialization::SerializationBinder* _Binder_k__BackingField; // 0x30
-		::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* _ReferenceResolverProvider_k__BackingField; // 0x38
-		::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> _context; // 0x40
+		::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* _Error_k__BackingField; // 0x18
+		::Newtonsoft::Json::Serialization::IContractResolver* _ContractResolver_k__BackingField; // 0x20
+		::System::Collections::IEqualityComparer* _EqualityComparer_k__BackingField; // 0x28
+		::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> _context; // 0x30
 		::System::Byte _padding0[0x10];
-		::System::String* _dateFormatString; // 0x58
-		::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* _Error_k__BackingField; // 0x60
-		::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* _Converters_k__BackingField; // 0x68
-		::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> _preserveReferencesHandling; // 0x70
-		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _typeNameHandling; // 0x78
-		::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> _dateTimeZoneHandling; // 0x80
-		::System::Nullable_1<::Newtonsoft::Json::Formatting> _formatting; // 0x88
-		::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> _stringEscapeHandling; // 0x90
-		::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> _constructorHandling; // 0x98
-		::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> _metadataPropertyHandling; // 0xA0
-		::System::Boolean _dateFormatStringSet; // 0xA8
-		::System::Boolean _maxDepthSet; // 0xA9
-		::System::Nullable_1<::System::Boolean> _checkAdditionalContent; // 0xAA
-		::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> _floatParseHandling; // 0xAC
-		::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> _dateParseHandling; // 0xB4
-		::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _defaultValueHandling; // 0xBC
-		::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> _dateFormatHandling; // 0xC4
-		::System::Nullable_1<::System::Int32> _maxDepth; // 0xCC
-		::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> _typeNameAssemblyFormat; // 0xD4
-		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _referenceLoopHandling; // 0xDC
-		::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _objectCreationHandling; // 0xE4
-		::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> _floatFormatHandling; // 0xEC
-		::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> _missingMemberHandling; // 0xF4
-		::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _nullValueHandling; // 0xFC
+		::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* _ReferenceResolverProvider_k__BackingField; // 0x48
+		::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* _Converters_k__BackingField; // 0x50
+		::System::Globalization::CultureInfo* _culture; // 0x58
+		::System::Runtime::Serialization::SerializationBinder* _Binder_k__BackingField; // 0x60
+		::System::String* _dateFormatString; // 0x68
+		::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> _dateParseHandling; // 0x70
+		::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> _missingMemberHandling; // 0x78
+		::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> _typeNameAssemblyFormat; // 0x80
+		::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> _dateTimeZoneHandling; // 0x88
+		::System::Nullable_1<::System::Int32> _maxDepth; // 0x90
+		::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _objectCreationHandling; // 0x98
+		::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> _floatFormatHandling; // 0xA0
+		::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _typeNameHandling; // 0xA8
+		::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> _metadataPropertyHandling; // 0xB0
+		::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> _constructorHandling; // 0xB8
+		::System::Nullable_1<::Newtonsoft::Json::Formatting> _formatting; // 0xC0
+		::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> _preserveReferencesHandling; // 0xC8
+		::System::Boolean _maxDepthSet; // 0xD0
+		::System::Nullable_1<::System::Boolean> _checkAdditionalContent; // 0xD1
+		::System::Boolean _dateFormatStringSet; // 0xD3
+		::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> _floatParseHandling; // 0xD4
+		::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> _dateFormatHandling; // 0xDC
+		::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _defaultValueHandling; // 0xE4
+		::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _nullValueHandling; // 0xEC
+		::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> _stringEscapeHandling; // 0xF4
+		::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _referenceLoopHandling; // 0xFC
 		static ::System::Globalization::CultureInfo** StaticGet_DefaultCulture()
 		{
-			return (::System::Globalization::CultureInfo**)UnitySDK::FromName("Newtonsoft.Json", "JsonSerializerSettings")->GetStaticField(0x2CCE0);
+			return (::System::Globalization::CultureInfo**)UnitySDK::FromName("Newtonsoft.Json", "JsonSerializerSettings")->GetStaticField(0x2AE20);
 		}
 
 		static ::System::Runtime::Serialization::StreamingContext* StaticGet_DefaultContext()
 		{
-			return (::System::Runtime::Serialization::StreamingContext*)UnitySDK::FromName("Newtonsoft.Json", "JsonSerializerSettings")->GetStaticField(0x2CCE8);
+			return (::System::Runtime::Serialization::StreamingContext*)UnitySDK::FromName("Newtonsoft.Json", "JsonSerializerSettings")->GetStaticField(0x2AE28);
 		}
 
 		static ::System::Void _cctor()

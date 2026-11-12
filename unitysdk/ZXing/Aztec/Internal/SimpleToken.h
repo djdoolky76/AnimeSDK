@@ -5,13 +5,13 @@ namespace System { class String; }
 namespace ZXing::Aztec::Internal { class Token; }
 namespace ZXing::Common { class BitArray; }
 
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x1F6A3100)
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6A3090)
-#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F6A3130)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_APPENDTO_OFFSET UNITYSDK_OFFSET(0x20952870)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_CTOR_OFFSET UNITYSDK_OFFSET(0x20952800)
+#define ZXING_AZTEC_INTERNAL_SIMPLETOKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x209528A0)
 
 namespace ZXing::Aztec::Internal
 {
-	inline static constexpr unsigned int SimpleToken_TypeDefinitionIndex = 7026;
+	inline static constexpr unsigned int SimpleToken_TypeDefinitionIndex = 7037;
 
 	class SimpleToken : public ::ZXing::Aztec::Internal::Token
 	{

@@ -4,16 +4,16 @@
 class DHAFGMHPMHG;
 class KGPCBBIOGLB;
 
-#define DHAFGMHPMHG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBB5680)
-#define DHAFGMHPMHG___C__DISPLAYCLASS5_0___ONDATASTARTINGBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xEBB5690)
+#define DHAFGMHPMHG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF4325A0)
+#define DHAFGMHPMHG___C__DISPLAYCLASS5_0___ONDATASTARTINGBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xF433D90)
 
-inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass5_0_TypeDefinitionIndex = 59585;
+inline static constexpr unsigned int DHAFGMHPMHG___c__DisplayClass5_0_TypeDefinitionIndex = 60862;
 
 	class DHAFGMHPMHG___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::KGPCBBIOGLB* data; // 0x10
-		::DHAFGMHPMHG* __4__this; // 0x18
+		::DHAFGMHPMHG* __4__this; // 0x10
+		::KGPCBBIOGLB* data; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHAFGMHPMHG___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

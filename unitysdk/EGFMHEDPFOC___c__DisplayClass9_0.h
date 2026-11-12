@@ -5,10 +5,10 @@
 #include "unitysdk/RPG/Client/TextID.h"
 namespace System { template <typename T1, typename T2> class Tuple_2; }
 
-#define EGFMHEDPFOC___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14517790)
-#define EGFMHEDPFOC___C__DISPLAYCLASS9_0___GETUPTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x14517EA0)
+#define EGFMHEDPFOC___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x152EDF40)
+#define EGFMHEDPFOC___C__DISPLAYCLASS9_0___GETUPTEXT_B__0_OFFSET UNITYSDK_OFFSET(0x152EE680)
 
-inline static constexpr unsigned int EGFMHEDPFOC___c__DisplayClass9_0_TypeDefinitionIndex = 71598;
+inline static constexpr unsigned int EGFMHEDPFOC___c__DisplayClass9_0_TypeDefinitionIndex = 73586;
 
 	class EGFMHEDPFOC___c__DisplayClass9_0 : public ::System::Object
 	{

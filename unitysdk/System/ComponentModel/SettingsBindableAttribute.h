@@ -4,11 +4,11 @@
 namespace System { class Object; }
 namespace System::ComponentModel { class SettingsBindableAttribute; }
 
-#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFF75E0)
-#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFF7550)
-#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EFF7570)
-#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EFF75D0)
-#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_GET_BINDABLE_OFFSET UNITYSDK_OFFSET(0x1EFF7560)
+#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_CCTOR_OFFSET UNITYSDK_OFFSET(0x202A6F60)
+#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x202A6ED0)
+#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_EQUALS_OFFSET UNITYSDK_OFFSET(0x202A6EF0)
+#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x202A6F50)
+#define SYSTEM_COMPONENTMODEL_SETTINGSBINDABLEATTRIBUTE_GET_BINDABLE_OFFSET UNITYSDK_OFFSET(0x202A6EE0)
 
 namespace System::ComponentModel
 {
@@ -20,12 +20,12 @@ namespace System::ComponentModel
 		::System::Boolean _bindable; // 0x10
 		static ::System::ComponentModel::SettingsBindableAttribute** StaticGet_No()
 		{
-			return (::System::ComponentModel::SettingsBindableAttribute**)UnitySDK::FromName("System.ComponentModel", "SettingsBindableAttribute")->GetStaticField(0x3B980);
+			return (::System::ComponentModel::SettingsBindableAttribute**)UnitySDK::FromName("System.ComponentModel", "SettingsBindableAttribute")->GetStaticField(0x2B310);
 		}
 
 		static ::System::ComponentModel::SettingsBindableAttribute** StaticGet_Yes()
 		{
-			return (::System::ComponentModel::SettingsBindableAttribute**)UnitySDK::FromName("System.ComponentModel", "SettingsBindableAttribute")->GetStaticField(0x3B988);
+			return (::System::ComponentModel::SettingsBindableAttribute**)UnitySDK::FromName("System.ComponentModel", "SettingsBindableAttribute")->GetStaticField(0x2B318);
 		}
 
 		::System::Void _ctor(::System::Boolean a1)

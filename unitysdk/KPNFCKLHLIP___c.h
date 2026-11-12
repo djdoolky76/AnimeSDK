@@ -4,18 +4,18 @@
 class KPNFCKLHLIP;
 namespace System { class Object; }
 
-#define KPNFCKLHLIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E8C1630)
-#define KPNFCKLHLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C1670)
-#define KPNFCKLHLIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8C1680)
+#define KPNFCKLHLIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FBFE020)
+#define KPNFCKLHLIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FBFE060)
+#define KPNFCKLHLIP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FBFE070)
 
-inline static constexpr unsigned int KPNFCKLHLIP___c_TypeDefinitionIndex = 26088;
+inline static constexpr unsigned int KPNFCKLHLIP___c_TypeDefinitionIndex = 26615;
 
 	class KPNFCKLHLIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2D4E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24F10);
 		}
 
 		static ::System::Void _cctor()

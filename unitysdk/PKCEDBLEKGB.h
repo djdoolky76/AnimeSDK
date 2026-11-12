@@ -3,10 +3,10 @@
 class GPGGGPJOGID;
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKCEDBLEKGB_CTOR_OFFSET UNITYSDK_OFFSET(0xC2B11F0)
-#define PKCEDBLEKGB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC2B1220)
+#define PKCEDBLEKGB_CTOR_OFFSET UNITYSDK_OFFSET(0xCBDBE50)
+#define PKCEDBLEKGB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCBDBE80)
 
-inline static constexpr unsigned int PKCEDBLEKGB_TypeDefinitionIndex = 53872;
+inline static constexpr unsigned int PKCEDBLEKGB_TypeDefinitionIndex = 55036;
 
 	class PKCEDBLEKGB
 	{

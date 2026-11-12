@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define NEEJNCHJFKL_KIKCNLDNLCF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5C430)
-#define NEEJNCHJFKL_KIKCNLDNLCF_ONGUI_OFFSET UNITYSDK_OFFSET(0xBB5C1E0)
+#define NEEJNCHJFKL_KIKCNLDNLCF_CTOR_OFFSET UNITYSDK_OFFSET(0xC3E5C30)
+#define NEEJNCHJFKL_KIKCNLDNLCF_ONGUI_OFFSET UNITYSDK_OFFSET(0xC3E59E0)
 
-inline static constexpr unsigned int NEEJNCHJFKL_KIKCNLDNLCF_TypeDefinitionIndex = 73793;
+inline static constexpr unsigned int NEEJNCHJFKL_KIKCNLDNLCF_TypeDefinitionIndex = 75919;
 
 	class NEEJNCHJFKL_KIKCNLDNLCF : public ::UnityEngine::MonoBehaviour
 	{

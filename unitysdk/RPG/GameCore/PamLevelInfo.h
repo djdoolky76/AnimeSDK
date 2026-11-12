@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PamLevelInfo; }
 
-#define RPG_GAMECORE_PAMLEVELINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8EC3F0)
-#define RPG_GAMECORE_PAMLEVELINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8EC2B0)
+#define RPG_GAMECORE_PAMLEVELINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB04E10)
+#define RPG_GAMECORE_PAMLEVELINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB04CD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamLevelInfo_TypeDefinitionIndex = 15622;
+	inline static constexpr unsigned int PamLevelInfo_TypeDefinitionIndex = 15780;
 
 	class PamLevelInfo : public ::RPG::GameCore::JsonConfig
 	{

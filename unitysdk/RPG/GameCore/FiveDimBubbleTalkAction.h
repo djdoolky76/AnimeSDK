@@ -6,13 +6,13 @@ namespace RPG::GameCore { class FiveDimActionBubbleTalkInfo; }
 namespace RPG::GameCore { class FiveDimBubbleTalkAction; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FIVEDIMBUBBLETALKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B39D0)
-#define RPG_GAMECORE_FIVEDIMBUBBLETALKACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D6B39E0)
-#define RPG_GAMECORE_FIVEDIMBUBBLETALKACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B3990)
+#define RPG_GAMECORE_FIVEDIMBUBBLETALKACTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C06D0)
+#define RPG_GAMECORE_FIVEDIMBUBBLETALKACTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E8C06E0)
+#define RPG_GAMECORE_FIVEDIMBUBBLETALKACTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8C0690)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimBubbleTalkAction_TypeDefinitionIndex = 18772;
+	inline static constexpr unsigned int FiveDimBubbleTalkAction_TypeDefinitionIndex = 18933;
 
 	class FiveDimBubbleTalkAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{

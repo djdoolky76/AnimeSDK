@@ -3,7 +3,7 @@
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_RawPcmFormat_TypeDefinitionIndex = 40084;
+	inline static constexpr unsigned int CriAtomExRawPcmVoicePool_RawPcmFormat_TypeDefinitionIndex = 41059;
 
 	enum class CriAtomExRawPcmVoicePool_RawPcmFormat : ::System::Int32
 	{

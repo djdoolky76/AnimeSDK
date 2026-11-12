@@ -8,28 +8,28 @@ namespace RPG::GameCore { class RtCharacterFlagVisual; }
 namespace RPG::GameCore { class RtCharacterVisual; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CPCJHAMKGKC_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCF1B0)
-#define CPCJHAMKGKC_DCGHFMDLDBN_OFFSET UNITYSDK_OFFSET(0xDCB9D40)
-#define CPCJHAMKGKC_FKPIHLIOEJN_OFFSET UNITYSDK_OFFSET(0xDCB9D00)
-#define CPCJHAMKGKC_IBCFGBOGPDF_OFFSET UNITYSDK_OFFSET(0xDCCF1C0)
-#define CPCJHAMKGKC_JCAGBIBIGIP_OFFSET UNITYSDK_OFFSET(0xDCCED50)
-#define CPCJHAMKGKC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xDCCED70)
-#define CPCJHAMKGKC_MLJGBPDDBDD_OFFSET UNITYSDK_OFFSET(0xDCB9D20)
-#define CPCJHAMKGKC_MPAKADKIDCK_OFFSET UNITYSDK_OFFSET(0xDCCED30)
+#define CPCJHAMKGKC_CTOR_OFFSET UNITYSDK_OFFSET(0xE61C610)
+#define CPCJHAMKGKC_DCGHFMDLDBN_OFFSET UNITYSDK_OFFSET(0xE6067E0)
+#define CPCJHAMKGKC_FKPIHLIOEJN_OFFSET UNITYSDK_OFFSET(0xE6067A0)
+#define CPCJHAMKGKC_IBCFGBOGPDF_OFFSET UNITYSDK_OFFSET(0xE61C620)
+#define CPCJHAMKGKC_JCAGBIBIGIP_OFFSET UNITYSDK_OFFSET(0xE61C1B0)
+#define CPCJHAMKGKC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE61C1D0)
+#define CPCJHAMKGKC_MLJGBPDDBDD_OFFSET UNITYSDK_OFFSET(0xE6067C0)
+#define CPCJHAMKGKC_MPAKADKIDCK_OFFSET UNITYSDK_OFFSET(0xE61C190)
 
-inline static constexpr unsigned int CPCJHAMKGKC_TypeDefinitionIndex = 53968;
+inline static constexpr unsigned int CPCJHAMKGKC_TypeDefinitionIndex = 55132;
 
 	class CPCJHAMKGKC : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* ILPDNHEJDJH; // 0x10
-		::Il2CppArray<::PILFPGHPECF>* HBMMNAMCAHO; // 0x18
-		::RPG::GameCore::RtCharacterVisual* EABKOHGCHFP; // 0x20
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* LJEADACFDCI; // 0x28
-		::System::Int32 OBIABMKKIAF; // 0x30
-		::System::Int32 LBGPDEAIBDJ; // 0x34
+		::Il2CppArray<::PILFPGHPECF>* HBMMNAMCAHO; // 0x10
+		::RPG::GameCore::RtCharacterVisual* EABKOHGCHFP; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* LJEADACFDCI; // 0x20
+		::Il2CppArray<::RPG::GameCore::RtBehaviorFlag>* ILPDNHEJDJH; // 0x28
+		::System::Int32 LBGPDEAIBDJ; // 0x30
+		::System::Int32 NALMBOOCCIN; // 0x34
 		::System::Int32 NFFHMIABMPM; // 0x38
-		::System::Int32 NALMBOOCCIN; // 0x3C
+		::System::Int32 OBIABMKKIAF; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CPCJHAMKGKC_CTOR_OFFSET))(this);

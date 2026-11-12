@@ -5,18 +5,18 @@ class FCOEMCEDLNL;
 class LBMLBLLLMGG;
 namespace RPG::GameCore { class DynamicFloat; }
 
-#define LBMLBLLLMGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0D6EF0)
-#define LBMLBLLLMGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0D6F00)
-#define LBMLBLLLMGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0D6EC0)
+#define LBMLBLLLMGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2CBC50)
+#define LBMLBLLLMGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E2CBC60)
+#define LBMLBLLLMGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E2CBC20)
 
-inline static constexpr unsigned int LBMLBLLLMGG_TypeDefinitionIndex = 23162;
+inline static constexpr unsigned int LBMLBLLLMGG_TypeDefinitionIndex = 23592;
 
 	class LBMLBLLLMGG : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* GMDBHJKEAEI; // 0x18
-		::RPG::GameCore::DynamicFloat* FIJLEDEKBJP; // 0x20
-		::RPG::GameCore::DynamicFloat* CCAOGMEFNLB; // 0x28
+		::RPG::GameCore::DynamicFloat* CCAOGMEFNLB; // 0x18
+		::RPG::GameCore::DynamicFloat* GMDBHJKEAEI; // 0x20
+		::RPG::GameCore::DynamicFloat* FIJLEDEKBJP; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LBMLBLLLMGG_CTOR_OFFSET))(this);

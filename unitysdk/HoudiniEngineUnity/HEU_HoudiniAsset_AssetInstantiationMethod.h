@@ -3,7 +3,7 @@
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_HoudiniAsset_AssetInstantiationMethod_TypeDefinitionIndex = 40397;
+	inline static constexpr unsigned int HEU_HoudiniAsset_AssetInstantiationMethod_TypeDefinitionIndex = 41372;
 
 	enum class HEU_HoudiniAsset_AssetInstantiationMethod : ::System::Int32
 	{

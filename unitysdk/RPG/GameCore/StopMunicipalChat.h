@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class StopMunicipalChat; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_STOPMUNICIPALCHAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB256C0)
-#define RPG_GAMECORE_STOPMUNICIPALCHAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB256D0)
-#define RPG_GAMECORE_STOPMUNICIPALCHAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB25690)
+#define RPG_GAMECORE_STOPMUNICIPALCHAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED36EF0)
+#define RPG_GAMECORE_STOPMUNICIPALCHAT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED36F00)
+#define RPG_GAMECORE_STOPMUNICIPALCHAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED36EC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopMunicipalChat_TypeDefinitionIndex = 20770;
+	inline static constexpr unsigned int StopMunicipalChat_TypeDefinitionIndex = 21107;
 
 	class StopMunicipalChat : public ::RPG::GameCore::TaskConfig
 	{

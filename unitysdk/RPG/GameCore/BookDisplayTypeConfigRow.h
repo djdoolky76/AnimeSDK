@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class BookDisplayTypeConfigRow; }
 
-#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D471380)
-#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D471290)
+#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E680E10)
+#define RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E680D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BookDisplayTypeConfigRow_TypeDefinitionIndex = 12901;
+	inline static constexpr unsigned int BookDisplayTypeConfigRow_TypeDefinitionIndex = 12973;
 
 	class BookDisplayTypeConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 Alignment; // 0x10
-		::System::UInt32 BookDisplayTypeID; // 0x14
+		::System::UInt32 BookDisplayTypeID; // 0x10
+		::System::UInt32 Alignment; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_BOOKDISPLAYTYPECONFIGROW_CTOR_OFFSET))(this);

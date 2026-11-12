@@ -6,22 +6,22 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamLimitConditionRow; }
 
-#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7B1D0)
-#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB7A6A0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2A8C0)
+#define RPG_GAMECORE_TEAMLIMITCONDITIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE29E50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamLimitConditionRow_TypeDefinitionIndex = 15277;
+	inline static constexpr unsigned int TeamLimitConditionRow_TypeDefinitionIndex = 15433;
 
 	class TeamLimitConditionRow : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* ParamIntList; // 0x10
-		::System::UInt32 ID; // 0x18
-		::System::UInt32 ParamInt2; // 0x1C
+		::System::UInt32 ParamInt1; // 0x18
+		::System::UInt32 ID; // 0x1C
 		::RPG::Client::TextID LimitDesc; // 0x20
-		::System::UInt32 ParamInt1; // 0x30
-		::RPG::GameCore::TeamLimitType LimitType; // 0x34
+		::RPG::GameCore::TeamLimitType LimitType; // 0x30
+		::System::UInt32 ParamInt2; // 0x34
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TEAMLIMITCONDITIONROW_CTOR_OFFSET))(this);

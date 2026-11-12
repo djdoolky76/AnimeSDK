@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveCLTriggerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D778AF0)
-#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D778960)
+#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98C220)
+#define RPG_GAMECORE_IDLELIVECLTRIGGERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98C090)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveCLTriggerRow_TypeDefinitionIndex = 11735;
+	inline static constexpr unsigned int IdleLiveCLTriggerRow_TypeDefinitionIndex = 11792;
 
 	class IdleLiveCLTriggerRow : public ::System::Object
 	{

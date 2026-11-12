@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class CharacterFollowAnimState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BEDMFKOECEP_BDDBKIIBILC_OFFSET UNITYSDK_OFFSET(0x163111C0)
-#define BEDMFKOECEP_CTOR_OFFSET UNITYSDK_OFFSET(0x16311170)
-#define BEDMFKOECEP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16311180)
-#define BEDMFKOECEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163111D0)
-#define BEDMFKOECEP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x163116C0)
-#define BEDMFKOECEP_TICK_OFFSET UNITYSDK_OFFSET(0x16311710)
+#define BEDMFKOECEP_BDDBKIIBILC_OFFSET UNITYSDK_OFFSET(0xB7C83B0)
+#define BEDMFKOECEP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7C8360)
+#define BEDMFKOECEP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB7C8370)
+#define BEDMFKOECEP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7C83C0)
+#define BEDMFKOECEP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7C88B0)
+#define BEDMFKOECEP_TICK_OFFSET UNITYSDK_OFFSET(0xB7C8900)
 
-inline static constexpr unsigned int BEDMFKOECEP_TypeDefinitionIndex = 58001;
+inline static constexpr unsigned int BEDMFKOECEP_TypeDefinitionIndex = 59240;
 
 	class BEDMFKOECEP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CharacterFollowAnimState* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CharacterFollowAnimState* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CharacterFollowAnimState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CharacterFollowAnimState*))((::PBYTE)hIl2Cpp + BEDMFKOECEP_CTOR_OFFSET))(this, a1, a2);

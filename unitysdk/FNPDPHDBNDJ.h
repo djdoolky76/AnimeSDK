@@ -6,9 +6,9 @@ class BOEEDNCHKMI;
 namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase; }
 namespace System { class String; }
 
-#define FNPDPHDBNDJ_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0x158DBEA0)
+#define FNPDPHDBNDJ_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0x1680A730)
 
-inline static constexpr unsigned int FNPDPHDBNDJ_TypeDefinitionIndex = 74839;
+inline static constexpr unsigned int FNPDPHDBNDJ_TypeDefinitionIndex = 77010;
 
 	class FNPDPHDBNDJ : public ::System::Object
 	{

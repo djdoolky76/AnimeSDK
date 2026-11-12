@@ -6,12 +6,12 @@ namespace RPG::Client { class ItemDisplayData; }
 namespace RPG::Client::BlindBox::Trade { class BlindBoxTradeFlowService; }
 namespace RPG::Client::BlindBox::Trade { class IBlindBoxTradeOrder; }
 
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC8949E0)
-#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS5_0__CONFIRMCHANGEPUBLICORDER_B__0_OFFSET UNITYSDK_OFFSET(0xC8989E0)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1FA010)
+#define RPG_CLIENT_BLINDBOX_TRADE_BLINDBOXTRADEFLOWSERVICE___C__DISPLAYCLASS5_0__CONFIRMCHANGEPUBLICORDER_B__0_OFFSET UNITYSDK_OFFSET(0xD1FDFE0)
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeFlowService___c__DisplayClass5_0_TypeDefinitionIndex = 74900;
+	inline static constexpr unsigned int BlindBoxTradeFlowService___c__DisplayClass5_0_TypeDefinitionIndex = 77227;
 
 	class BlindBoxTradeFlowService___c__DisplayClass5_0 : public ::System::Object
 	{

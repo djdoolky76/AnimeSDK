@@ -4,18 +4,18 @@
 class GNILAAACODB;
 namespace System { class Object; }
 
-#define GNILAAACODB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4E1990)
-#define GNILAAACODB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4E19D0)
-#define GNILAAACODB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4E19E0)
+#define GNILAAACODB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7F2F30)
+#define GNILAAACODB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7F2F70)
+#define GNILAAACODB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F7F2F80)
 
-inline static constexpr unsigned int GNILAAACODB___c_TypeDefinitionIndex = 34949;
+inline static constexpr unsigned int GNILAAACODB___c_TypeDefinitionIndex = 35877;
 
 	class GNILAAACODB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23670);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1A540);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class LookAtAdditiveCurveConstraint; }
 
-#define RPG_GAMECORE_LOOKATADDITIVECURVECONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7F44E0)
-#define RPG_GAMECORE_LOOKATADDITIVECURVECONSTRAINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7F4120)
+#define RPG_GAMECORE_LOOKATADDITIVECURVECONSTRAINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA37160)
+#define RPG_GAMECORE_LOOKATADDITIVECURVECONSTRAINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA36DA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LookAtAdditiveCurveConstraint_TypeDefinitionIndex = 21913;
+	inline static constexpr unsigned int LookAtAdditiveCurveConstraint_TypeDefinitionIndex = 22304;
 
 	class LookAtAdditiveCurveConstraint : public ::RPG::GameCore::JsonConfig
 	{

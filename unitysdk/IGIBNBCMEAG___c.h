@@ -4,18 +4,18 @@
 class IGIBNBCMEAG;
 namespace System { class Object; }
 
-#define IGIBNBCMEAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E64D4D0)
-#define IGIBNBCMEAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E64D500)
-#define IGIBNBCMEAG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E64D510)
+#define IGIBNBCMEAG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F96D770)
+#define IGIBNBCMEAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F96D7B0)
+#define IGIBNBCMEAG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F96D7C0)
 
-inline static constexpr unsigned int IGIBNBCMEAG___c_TypeDefinitionIndex = 30290;
+inline static constexpr unsigned int IGIBNBCMEAG___c_TypeDefinitionIndex = 31192;
 
 	class IGIBNBCMEAG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B1E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x495D0);
 		}
 
 		static ::System::Void _cctor()

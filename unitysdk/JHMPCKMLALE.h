@@ -6,10 +6,10 @@ class OBEPKIPNAHF;
 namespace RPG::GameCore { class BattleQTEBaseConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JHMPCKMLALE_HGBMGFHHCAO_OFFSET UNITYSDK_OFFSET(0xB1BFB40)
-#define JHMPCKMLALE_PDGIEOJCLDD_OFFSET UNITYSDK_OFFSET(0xB1BFC60)
+#define JHMPCKMLALE_HGBMGFHHCAO_OFFSET UNITYSDK_OFFSET(0xB9E1760)
+#define JHMPCKMLALE_PDGIEOJCLDD_OFFSET UNITYSDK_OFFSET(0xB9E1880)
 
-inline static constexpr unsigned int JHMPCKMLALE_TypeDefinitionIndex = 56190;
+inline static constexpr unsigned int JHMPCKMLALE_TypeDefinitionIndex = 57402;
 
 	class JHMPCKMLALE : public ::System::Object
 	{

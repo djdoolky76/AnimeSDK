@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class KPMLCCHLLKG;
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD6094C0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROL___C__DISPLAYCLASS7_0___BIND_B__0_OFFSET UNITYSDK_OFFSET(0xD6096B0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROL___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE05C3C0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCRAFTCHIPMOLDFILTERTABCONTROL___C__DISPLAYCLASS7_0___BIND_B__0_OFFSET UNITYSDK_OFFSET(0xE05C5B0)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabControl___c__DisplayClass7_0_TypeDefinitionIndex = 79861;
+	inline static constexpr unsigned int MechCraftCraftChipMoldFilterTabControl___c__DisplayClass7_0_TypeDefinitionIndex = 82638;
 
 	class MechCraftCraftChipMoldFilterTabControl___c__DisplayClass7_0 : public ::System::Object
 	{

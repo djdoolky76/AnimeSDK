@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCompareSPChangeTag; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HEFKHEHHEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4EC50)
-#define HEFKHEHHEPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C4EC80)
+#define HEFKHEHHEPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16B92D60)
+#define HEFKHEHHEPJ_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16B92D90)
 
-inline static constexpr unsigned int HEFKHEHHEPJ_TypeDefinitionIndex = 54887;
+inline static constexpr unsigned int HEFKHEHHEPJ_TypeDefinitionIndex = 56058;
 
 	class HEFKHEHHEPJ
 	{

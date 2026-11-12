@@ -4,18 +4,18 @@
 class CHEKMBNIGBP;
 namespace System { class Object; }
 
-#define CHEKMBNIGBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0C36D0)
-#define CHEKMBNIGBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C3710)
-#define CHEKMBNIGBP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E0C3720)
+#define CHEKMBNIGBP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F393C10)
+#define CHEKMBNIGBP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F393C50)
+#define CHEKMBNIGBP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F393C60)
 
-inline static constexpr unsigned int CHEKMBNIGBP___c_TypeDefinitionIndex = 34245;
+inline static constexpr unsigned int CHEKMBNIGBP___c_TypeDefinitionIndex = 35173;
 
 	class CHEKMBNIGBP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16200);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xF8F0);
 		}
 
 		static ::System::Void _cctor()

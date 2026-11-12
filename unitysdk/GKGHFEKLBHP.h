@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ST_ByAlertLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GKGHFEKLBHP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A96A60)
-#define GKGHFEKLBHP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A96A90)
+#define GKGHFEKLBHP_CTOR_OFFSET UNITYSDK_OFFSET(0x169D3950)
+#define GKGHFEKLBHP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x169D3980)
 
-inline static constexpr unsigned int GKGHFEKLBHP_TypeDefinitionIndex = 52180;
+inline static constexpr unsigned int GKGHFEKLBHP_TypeDefinitionIndex = 53285;
 
 	class GKGHFEKLBHP
 	{

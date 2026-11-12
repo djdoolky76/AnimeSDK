@@ -4,13 +4,13 @@
 namespace HoudiniEngineUnity { class Test_Transform; }
 namespace UnityEngine { class Transform; }
 
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1B9B7160)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1B9B7190)
-#define HOUDINIENGINEUNITY_TEST_TRANSFORM_ISNULL_OFFSET UNITYSDK_OFFSET(0x1B9B7170)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB40090)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_ISEQUIVALENTTO_OFFSET UNITYSDK_OFFSET(0x1CB400C0)
+#define HOUDINIENGINEUNITY_TEST_TRANSFORM_ISNULL_OFFSET UNITYSDK_OFFSET(0x1CB400A0)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int Test_Transform_TypeDefinitionIndex = 40713;
+	inline static constexpr unsigned int Test_Transform_TypeDefinitionIndex = 41688;
 
 	class Test_Transform : public ::System::Object
 	{

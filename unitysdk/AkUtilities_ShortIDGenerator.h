@@ -3,25 +3,25 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define AKUTILITIES_SHORTIDGENERATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F61A1D0)
-#define AKUTILITIES_SHORTIDGENERATOR_COMPUTE_OFFSET UNITYSDK_OFFSET(0x1F617E40)
-#define AKUTILITIES_SHORTIDGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61A4C0)
-#define AKUTILITIES_SHORTIDGENERATOR_GET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x1F61A340)
-#define AKUTILITIES_SHORTIDGENERATOR_SET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x1F61A2D0)
+#define AKUTILITIES_SHORTIDGENERATOR_CCTOR_OFFSET UNITYSDK_OFFSET(0x208C9B00)
+#define AKUTILITIES_SHORTIDGENERATOR_COMPUTE_OFFSET UNITYSDK_OFFSET(0x208C7690)
+#define AKUTILITIES_SHORTIDGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0x208C9DF0)
+#define AKUTILITIES_SHORTIDGENERATOR_GET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x208C9C70)
+#define AKUTILITIES_SHORTIDGENERATOR_SET_HASHSIZE_OFFSET UNITYSDK_OFFSET(0x208C9C00)
 
-inline static constexpr unsigned int AkUtilities_ShortIDGenerator_TypeDefinitionIndex = 44853;
+inline static constexpr unsigned int AkUtilities_ShortIDGenerator_TypeDefinitionIndex = 45928;
 
 	class AkUtilities_ShortIDGenerator : public ::System::Object
 	{
 	public:
-		static ::System::UInt32* StaticGet_s_mask()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("", "ShortIDGenerator")->GetStaticField(0x39A0);
-		}
-
 		static ::System::Byte* StaticGet_s_hashSize()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "ShortIDGenerator")->GetStaticField(0x39A4);
+			return (::System::Byte*)UnitySDK::FromName("", "ShortIDGenerator")->GetStaticField(0x11A0);
+		}
+
+		static ::System::UInt32* StaticGet_s_mask()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("", "ShortIDGenerator")->GetStaticField(0x11A4);
 		}
 
 		// static const ::System::Object s_prime32; // 0x0

@@ -5,25 +5,25 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimFluteDataGroup; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD437FD0)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD438010)
-#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C__GETUNLOCKFIVEDIMFLUTEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xD438020)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDEA8410)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDEA8450)
+#define RPG_CLIENT_LITTLEGAME_FIVEDIM_FIVEDIMFLUTEDATAMANAGER___C__GETUNLOCKFIVEDIMFLUTEDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0xDEA8460)
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int FiveDimFluteDataManager___c_TypeDefinitionIndex = 77215;
+	inline static constexpr unsigned int FiveDimFluteDataManager___c_TypeDefinitionIndex = 79549;
 
 	class FiveDimFluteDataManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup*>** StaticGet___9__7_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup*>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x30EF0);
+			return (::System::Comparison_1<::RPG::Client::LittleGame::FiveDim::FiveDimFluteDataGroup*>**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x3C3F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x30EF8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.LittleGame.FiveDim", "<>c")->GetStaticField(0x3C3F8);
 		}
 
 		static ::System::Void _cctor()

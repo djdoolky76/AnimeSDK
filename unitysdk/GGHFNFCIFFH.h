@@ -4,19 +4,19 @@
 namespace RPG::Client { class TarotMailData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GGHFNFCIFFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15A047A0)
-#define GGHFNFCIFFH_MAAHJCEHJDG_OFFSET UNITYSDK_OFFSET(0x15A04A20)
-#define GGHFNFCIFFH_MCICJIGBFLJ_OFFSET UNITYSDK_OFFSET(0x15A04920)
-#define GGHFNFCIFFH_MJDEIPBNMOB_OFFSET UNITYSDK_OFFSET(0x15A04750)
+#define GGHFNFCIFFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1693ED10)
+#define GGHFNFCIFFH_MAAHJCEHJDG_OFFSET UNITYSDK_OFFSET(0x1693EF90)
+#define GGHFNFCIFFH_MCICJIGBFLJ_OFFSET UNITYSDK_OFFSET(0x1693EE90)
+#define GGHFNFCIFFH_MJDEIPBNMOB_OFFSET UNITYSDK_OFFSET(0x1693ECC0)
 
-inline static constexpr unsigned int GGHFNFCIFFH_TypeDefinitionIndex = 68046;
+inline static constexpr unsigned int GGHFNFCIFFH_TypeDefinitionIndex = 69992;
 
 	class GGHFNFCIFFH : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::RPG::Client::TarotMailData*>* MCLOFGADJDC; // 0x10
-		::System::UInt32 PHFMCACHFIJ; // 0x18
-		::System::UInt32 HGKDEKECDAN; // 0x1C
+		::System::UInt32 HGKDEKECDAN; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + GGHFNFCIFFH_CTOR_OFFSET))(this, a1);

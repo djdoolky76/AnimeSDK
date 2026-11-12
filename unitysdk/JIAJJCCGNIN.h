@@ -4,10 +4,10 @@
 class EHMBINMCDGN;
 namespace RPG::GameCore { class DiceCombatTaskConfig_InitExtraColorDice; }
 
-#define JIAJJCCGNIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F51C0)
-#define JIAJJCCGNIN_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F51D0)
+#define JIAJJCCGNIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D876C20)
+#define JIAJJCCGNIN_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1D876C30)
 
-inline static constexpr unsigned int JIAJJCCGNIN_TypeDefinitionIndex = 36327;
+inline static constexpr unsigned int JIAJJCCGNIN_TypeDefinitionIndex = 37255;
 
 	class JIAJJCCGNIN : public ::AJBKGPOEBFG
 	{

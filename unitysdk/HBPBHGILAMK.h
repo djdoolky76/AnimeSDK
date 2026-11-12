@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class DOJOHDFGJLB;
 
-#define HBPBHGILAMK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C13B10)
-#define HBPBHGILAMK_GET_RESPONSE_OFFSET UNITYSDK_OFFSET(0x15C13B00)
+#define HBPBHGILAMK_CTOR_OFFSET UNITYSDK_OFFSET(0x16B55C10)
+#define HBPBHGILAMK_GET_RESPONSE_OFFSET UNITYSDK_OFFSET(0x16B55C00)
 
-inline static constexpr unsigned int HBPBHGILAMK_TypeDefinitionIndex = 75564;
+inline static constexpr unsigned int HBPBHGILAMK_TypeDefinitionIndex = 77891;
 
 	class HBPBHGILAMK : public ::System::Object
 	{

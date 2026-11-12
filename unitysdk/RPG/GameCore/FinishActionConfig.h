@@ -7,13 +7,13 @@ namespace RPG::GameCore { class FinishActionConfig; }
 namespace SimpleJSON { class JSONNode; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_FINISHACTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A8CB0)
-#define RPG_GAMECORE_FINISHACTIONCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1D6A8CC0)
-#define RPG_GAMECORE_FINISHACTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A8B30)
+#define RPG_GAMECORE_FINISHACTIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B54B0)
+#define RPG_GAMECORE_FINISHACTIONCONFIG_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1E8B54C0)
+#define RPG_GAMECORE_FINISHACTIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8B5330)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinishActionConfig_TypeDefinitionIndex = 19014;
+	inline static constexpr unsigned int FinishActionConfig_TypeDefinitionIndex = 19201;
 
 	class FinishActionConfig : public ::RPG::GameCore::JsonConfig
 	{

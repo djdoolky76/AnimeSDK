@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MakeSuccess; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_MAKESUCCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7FEF60)
-#define RPG_GAMECORE_MAKESUCCESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D7FEF70)
-#define RPG_GAMECORE_MAKESUCCESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7FEF30)
+#define RPG_GAMECORE_MAKESUCCESS_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA41AC0)
+#define RPG_GAMECORE_MAKESUCCESS_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA41AD0)
+#define RPG_GAMECORE_MAKESUCCESS_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA41A90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MakeSuccess_TypeDefinitionIndex = 22505;
+	inline static constexpr unsigned int MakeSuccess_TypeDefinitionIndex = 22914;
 
 	class MakeSuccess : public ::RPG::GameCore::TaskConfig
 	{

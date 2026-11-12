@@ -7,9 +7,9 @@ namespace RPG::Client { class EmotionData; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MHMLBEJKFDE_DDKCAGBNBDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB9477E0)
+#define MHMLBEJKFDE_DDKCAGBNBDC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1FC140)
 
-inline static constexpr unsigned int MHMLBEJKFDE_DDKCAGBNBDC_TypeDefinitionIndex = 69422;
+inline static constexpr unsigned int MHMLBEJKFDE_DDKCAGBNBDC_TypeDefinitionIndex = 71376;
 
 	class MHMLBEJKFDE_DDKCAGBNBDC : public ::System::Object
 	{

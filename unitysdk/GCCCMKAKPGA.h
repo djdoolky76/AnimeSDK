@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/Client/TextID.h"
 #include "unitysdk/System/Object.h"
 
-#define GCCCMKAKPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x15960F90)
+#define GCCCMKAKPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x16896C40)
 
-inline static constexpr unsigned int GCCCMKAKPGA_TypeDefinitionIndex = 55071;
+inline static constexpr unsigned int GCCCMKAKPGA_TypeDefinitionIndex = 56247;
 
 	class GCCCMKAKPGA : public ::System::Object
 	{

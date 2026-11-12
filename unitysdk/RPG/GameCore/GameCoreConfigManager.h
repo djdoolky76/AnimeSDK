@@ -43,269 +43,269 @@ namespace RPG::GameCore { class VCameraConfigList; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_ASYNCLOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0xE69FC40)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE6A2720)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_CHECKLEGALITY_OFFSET UNITYSDK_OFFSET(0xE6A0CE0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_CLEARIMPORTEDCONFIGCACHE_OFFSET UNITYSDK_OFFSET(0xE69F930)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_GET_CURRENTRESOLUTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1ED0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_LOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0xE69F9D0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_LOADCONFIGMANIFEST_OFFSET UNITYSDK_OFFSET(0xE69F970)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_RELOADIMPORTEDCONFIG_OFFSET UNITYSDK_OFFSET(0xE69F8F0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_RELOADREPLAYRELEVANTCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A0940)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_TRYGETRESOLUTIONDELTAFROMNORMAL_OFFSET UNITYSDK_OFFSET(0xE6A2560)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER_UNLOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A0790)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADADVENTUREAIDEFAULTPARAMETERCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1630)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADBATTLEBGMCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1020)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADCAMERACONFIGMAPCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1160)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADCAMERASHAKETEMPLATECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A10C0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADDEBUGUICONFIG_OFFSET UNITYSDK_OFFSET(0xE6A0EE0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADENTITYTIMELINECONTROLGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1C20)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADFOLLOWSLOTCONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1B30)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGACHACUTSCENECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1590)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMECORECONSTVALUE_OFFSET UNITYSDK_OFFSET(0xE6A0AB0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMECOREUISETTING_OFFSET UNITYSDK_OFFSET(0xE6A0DF0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMEOBJECTPOOLCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A18B0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMEPLAYMONSTERSNEAKCONSTCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A16D0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMEPLAYTRACKNPCCONSTCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1950)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGLOBALREACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1D60)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADLEVELGROUPMAINMISSIONPATCH_OFFSET UNITYSDK_OFFSET(0xE6A1770)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADLIGHTNINGSTRIKEAREAGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1E00)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADMAINSTORYCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A0D50)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADMARBLEGAMECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A0E90)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADMAZECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A0F80)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADNETDEFINECONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A14F0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPAMAICONSTVALUE_OFFSET UNITYSDK_OFFSET(0xE6A1810)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPETTEAMFOLLOWSLOTCONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1BD0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPOINTEVALUATORCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xE6A1CC0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPREFABCACHECONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1450)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADRESIDENTPOSSESSIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A19F0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADRESOLUTIONADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1280)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADSETTINGSCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A13B0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADSUMMONUNITGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xE6A1A90)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__ONCONFIGLOADINGPROGRESSCHANGED_OFFSET UNITYSDK_OFFSET(0xE6A0370)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__ONCONFIGSLOADFINISHED_OFFSET UNITYSDK_OFFSET(0xE6A05E0)
-#define RPG_GAMECORE_GAMECORECONFIGMANAGER__QUEUECONFIGLOADWORK_OFFSET UNITYSDK_OFFSET(0xE69FE10)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_ASYNCLOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0xF124600)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0xF1270E0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_CHECKLEGALITY_OFFSET UNITYSDK_OFFSET(0xF1256A0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_CLEARIMPORTEDCONFIGCACHE_OFFSET UNITYSDK_OFFSET(0xF1242F0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_GET_CURRENTRESOLUTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xF126890)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_LOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0xF124390)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_LOADCONFIGMANIFEST_OFFSET UNITYSDK_OFFSET(0xF124330)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_RELOADIMPORTEDCONFIG_OFFSET UNITYSDK_OFFSET(0xF1242B0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_RELOADREPLAYRELEVANTCONFIG_OFFSET UNITYSDK_OFFSET(0xF125300)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_TRYGETRESOLUTIONDELTAFROMNORMAL_OFFSET UNITYSDK_OFFSET(0xF126F20)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER_UNLOADALLCONFIG_OFFSET UNITYSDK_OFFSET(0xF125150)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADADVENTUREAIDEFAULTPARAMETERCONFIG_OFFSET UNITYSDK_OFFSET(0xF125FF0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADBATTLEBGMCONFIG_OFFSET UNITYSDK_OFFSET(0xF1259E0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADCAMERACONFIGMAPCONFIG_OFFSET UNITYSDK_OFFSET(0xF125B20)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADCAMERASHAKETEMPLATECONFIG_OFFSET UNITYSDK_OFFSET(0xF125A80)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADDEBUGUICONFIG_OFFSET UNITYSDK_OFFSET(0xF1258A0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADENTITYTIMELINECONTROLGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xF1265E0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADFOLLOWSLOTCONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0xF1264F0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGACHACUTSCENECONFIG_OFFSET UNITYSDK_OFFSET(0xF125F50)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMECORECONSTVALUE_OFFSET UNITYSDK_OFFSET(0xF125470)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMECOREUISETTING_OFFSET UNITYSDK_OFFSET(0xF1257B0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMEOBJECTPOOLCONFIG_OFFSET UNITYSDK_OFFSET(0xF126270)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMEPLAYMONSTERSNEAKCONSTCONFIG_OFFSET UNITYSDK_OFFSET(0xF126090)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGAMEPLAYTRACKNPCCONSTCONFIG_OFFSET UNITYSDK_OFFSET(0xF126310)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADGLOBALREACTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xF126720)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADLEVELGROUPMAINMISSIONPATCH_OFFSET UNITYSDK_OFFSET(0xF126130)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADLIGHTNINGSTRIKEAREAGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xF1267C0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADMAINSTORYCONFIG_OFFSET UNITYSDK_OFFSET(0xF125710)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADMARBLEGAMECONFIG_OFFSET UNITYSDK_OFFSET(0xF125850)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADMAZECONFIG_OFFSET UNITYSDK_OFFSET(0xF125940)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADNETDEFINECONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0xF125EB0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPAMAICONSTVALUE_OFFSET UNITYSDK_OFFSET(0xF1261D0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPETTEAMFOLLOWSLOTCONSTVALUECONFIG_OFFSET UNITYSDK_OFFSET(0xF126590)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPOINTEVALUATORCONSTVALUE_OFFSET UNITYSDK_OFFSET(0xF126680)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADPREFABCACHECONFIG_OFFSET UNITYSDK_OFFSET(0xF125E10)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADRESIDENTPOSSESSIONCONFIG_OFFSET UNITYSDK_OFFSET(0xF1263B0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADRESOLUTIONADAPTIONCONFIG_OFFSET UNITYSDK_OFFSET(0xF125C40)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADSETTINGSCONFIG_OFFSET UNITYSDK_OFFSET(0xF125D70)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__LOADSUMMONUNITGLOBALCONFIG_OFFSET UNITYSDK_OFFSET(0xF126450)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__ONCONFIGLOADINGPROGRESSCHANGED_OFFSET UNITYSDK_OFFSET(0xF124D30)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__ONCONFIGSLOADFINISHED_OFFSET UNITYSDK_OFFSET(0xF124FA0)
+#define RPG_GAMECORE_GAMECORECONFIGMANAGER__QUEUECONFIGLOADWORK_OFFSET UNITYSDK_OFFSET(0xF1247D0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreConfigManager_TypeDefinitionIndex = 56506;
+	inline static constexpr unsigned int GameCoreConfigManager_TypeDefinitionIndex = 57726;
 
 	class GameCoreConfigManager : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::LevelGroupMainMissionIssuePatchList** StaticGet_LevelGroupMainMissionIssuePatchList()
+		static ::RPG::GameCore::MainStoryConfig** StaticGet_MainStoryConfig()
 		{
-			return (::RPG::GameCore::LevelGroupMainMissionIssuePatchList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18B0);
-		}
-
-		static ::RPG::GameCore::GameCoreUISetting** StaticGet_GameCoreUIConfig()
-		{
-			return (::RPG::GameCore::GameCoreUISetting**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18B8);
-		}
-
-		static ::RPG::GameCore::FollowSlotConstValue** StaticGet_FollowSlotConstValueConfig()
-		{
-			return (::RPG::GameCore::FollowSlotConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18C0);
-		}
-
-		static ::RPG::GameCore::JsonEnumDefineConfig** StaticGet_JsonEnumDefineConfig()
-		{
-			return (::RPG::GameCore::JsonEnumDefineConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18C8);
-		}
-
-		static ::RPG::GameCore::VCameraConfigList** StaticGet_CameraConfigList()
-		{
-			return (::RPG::GameCore::VCameraConfigList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18D0);
-		}
-
-		static ::RPG::GameCore::NetDefineConstValue** StaticGet_NetDefineConstValueConfig()
-		{
-			return (::RPG::GameCore::NetDefineConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18D8);
-		}
-
-		static ::RPG::GameCore::GachaCutsceneConfig** StaticGet_GachaCutsceneConfig()
-		{
-			return (::RPG::GameCore::GachaCutsceneConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18E0);
-		}
-
-		static ::RPG::GameCore::ResidentPossessionConfig** StaticGet_ResidentPossessionConfig()
-		{
-			return (::RPG::GameCore::ResidentPossessionConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18E8);
-		}
-
-		static ::RPG::GameCore::LightningStrikeAreaGlobalConfig** StaticGet_LightningStrikeAreaGlobalConfig()
-		{
-			return (::RPG::GameCore::LightningStrikeAreaGlobalConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18F0);
-		}
-
-		static ::RPG::GameCore::MarbleGameConfig** StaticGet_MarbleGameConfig()
-		{
-			return (::RPG::GameCore::MarbleGameConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x18F8);
-		}
-
-		static ::RPG::GameCore::GameCoreConstValue** StaticGet_GameCoreConstValueConfig()
-		{
-			return (::RPG::GameCore::GameCoreConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1900);
-		}
-
-		static ::RPG::GameCore::DamageBehaviorTemplateListConfig** StaticGet_DamageBehaviorTemplateConfig()
-		{
-			return (::RPG::GameCore::DamageBehaviorTemplateListConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1908);
+			return (::RPG::GameCore::MainStoryConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1730);
 		}
 
 		static ::RPG::GameCore::GlobalReactionParameter** StaticGet_GlobalReactionParameter()
 		{
-			return (::RPG::GameCore::GlobalReactionParameter**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1910);
-		}
-
-		static ::RPG::GameCore::PamAIConstValue** StaticGet_PamAIConstValueConfig()
-		{
-			return (::RPG::GameCore::PamAIConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1918);
-		}
-
-		static ::RPG::GameCore::ResolutionAdaptionConfigMapping** StaticGet__RAMapping()
-		{
-			return (::RPG::GameCore::ResolutionAdaptionConfigMapping**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1920);
-		}
-
-		static ::System::String** StaticGet_tmpResolutionName()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1928);
-		}
-
-		static ::RPG::GameCore::GameObjectPoolConfig** StaticGet_GameObjectPoolConfig()
-		{
-			return (::RPG::GameCore::GameObjectPoolConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1930);
-		}
-
-		static ::RPG::GameCore::CRPVirtualCameraConfigMap** StaticGet_CRPVirtualCameraConfigMap()
-		{
-			return (::RPG::GameCore::CRPVirtualCameraConfigMap**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1938);
-		}
-
-		static ::RPG::GameCore::BattleBGMConfig** StaticGet_BattleBGMConfig()
-		{
-			return (::RPG::GameCore::BattleBGMConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1940);
-		}
-
-		static ::RPG::GameCore::CameraShakeTemplateConfig** StaticGet_ShakeTemplateConfig()
-		{
-			return (::RPG::GameCore::CameraShakeTemplateConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1948);
-		}
-
-		static ::RPG::GameCore::MazeConfig** StaticGet_MazeConfig()
-		{
-			return (::RPG::GameCore::MazeConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1950);
-		}
-
-		static ::RPG::GameCore::PrefabCacheConfig** StaticGet_PrefabCacheConfig()
-		{
-			return (::RPG::GameCore::PrefabCacheConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1958);
+			return (::RPG::GameCore::GlobalReactionParameter**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1738);
 		}
 
 		static ::RPG::GameCore::PetTeamFollowSlotConstValue** StaticGet_PetTeamFollowSlotConstValueConfig()
 		{
-			return (::RPG::GameCore::PetTeamFollowSlotConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1960);
+			return (::RPG::GameCore::PetTeamFollowSlotConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1740);
 		}
 
-		static ::RPG::GameCore::EntityTimelineControlGlobalConfig** StaticGet_EntityTimelineControlConstConfig()
+		static ::RPG::GameCore::PrefabCacheConfig** StaticGet_PrefabCacheConfig()
 		{
-			return (::RPG::GameCore::EntityTimelineControlGlobalConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1968);
+			return (::RPG::GameCore::PrefabCacheConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1748);
+		}
+
+		static ::RPG::GameCore::PamAIConstValue** StaticGet_PamAIConstValueConfig()
+		{
+			return (::RPG::GameCore::PamAIConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1750);
+		}
+
+		static ::RPG::GameCore::DamageBehaviorTemplateListConfig** StaticGet_DamageBehaviorTemplateConfig()
+		{
+			return (::RPG::GameCore::DamageBehaviorTemplateListConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1758);
+		}
+
+		static ::RPG::GameCore::LightningStrikeAreaGlobalConfig** StaticGet_LightningStrikeAreaGlobalConfig()
+		{
+			return (::RPG::GameCore::LightningStrikeAreaGlobalConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1760);
+		}
+
+		static ::RPG::GameCore::GameObjectPoolConfig** StaticGet_GameObjectPoolConfig()
+		{
+			return (::RPG::GameCore::GameObjectPoolConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1768);
 		}
 
 		static ::System::Collections::Generic::List_1<::DCNKNFJEDDJ*>** StaticGet_JsonConfigHolderActions()
 		{
-			return (::System::Collections::Generic::List_1<::DCNKNFJEDDJ*>**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1970);
-		}
-
-		static ::RPG::GameCore::ResolutionAdaptionConfigList** StaticGet__RAConfigList()
-		{
-			return (::RPG::GameCore::ResolutionAdaptionConfigList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1978);
-		}
-
-		static ::RPG::GameCore::SettingsConfig** StaticGet_SettingsConfig()
-		{
-			return (::RPG::GameCore::SettingsConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1980);
-		}
-
-		static ::RPG::GameCore::SummonUnitGlobalConfig** StaticGet_SummonUnitGlobalConfig()
-		{
-			return (::RPG::GameCore::SummonUnitGlobalConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1988);
+			return (::System::Collections::Generic::List_1<::DCNKNFJEDDJ*>**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1770);
 		}
 
 		static ::RPG::GameCore::PointEvaluatorConstValue** StaticGet_PointEvaluatorConstValue()
 		{
-			return (::RPG::GameCore::PointEvaluatorConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1990);
+			return (::RPG::GameCore::PointEvaluatorConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1778);
 		}
 
 		static ::RPG::GameCore::PriorityConfigList** StaticGet_PriorityConfigList()
 		{
-			return (::RPG::GameCore::PriorityConfigList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1998);
-		}
-
-		static ::RPG::GameCore::ConfigManifest** StaticGet_Manifest()
-		{
-			return (::RPG::GameCore::ConfigManifest**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19A0);
-		}
-
-		static ::RPG::GameCore::MainStoryConfig** StaticGet_MainStoryConfig()
-		{
-			return (::RPG::GameCore::MainStoryConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19A8);
-		}
-
-		static ::RPG::GameCore::MonsterSneakConst** StaticGet_MonsterSneakConstConfig()
-		{
-			return (::RPG::GameCore::MonsterSneakConst**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19B0);
-		}
-
-		static ::RPG::GameCore::DebugUIConfig** StaticGet_DebugUIConfig()
-		{
-			return (::RPG::GameCore::DebugUIConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19B8);
-		}
-
-		static ::RPG::GameCore::ResolutionAdaptionConfig** StaticGet__CurrentRAConfig()
-		{
-			return (::RPG::GameCore::ResolutionAdaptionConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19C0);
+			return (::RPG::GameCore::PriorityConfigList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1780);
 		}
 
 		static ::RPG::GameCore::SdkEnvConfig** StaticGet_SdkEnvConfig()
 		{
-			return (::RPG::GameCore::SdkEnvConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19C8);
+			return (::RPG::GameCore::SdkEnvConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1788);
 		}
 
-		static ::RPG::GameCore::AdventureAIDefaultParameter** StaticGet_AdventureAIDefaultParameter()
+		static ::RPG::GameCore::ResidentPossessionConfig** StaticGet_ResidentPossessionConfig()
 		{
-			return (::RPG::GameCore::AdventureAIDefaultParameter**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19D0);
+			return (::RPG::GameCore::ResidentPossessionConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1790);
+		}
+
+		static ::RPG::GameCore::ConfigManifest** StaticGet_Manifest()
+		{
+			return (::RPG::GameCore::ConfigManifest**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1798);
+		}
+
+		static ::RPG::GameCore::JsonEnumDefineConfig** StaticGet_JsonEnumDefineConfig()
+		{
+			return (::RPG::GameCore::JsonEnumDefineConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17A0);
+		}
+
+		static ::RPG::GameCore::ResolutionAdaptionConfig** StaticGet__CurrentRAConfig()
+		{
+			return (::RPG::GameCore::ResolutionAdaptionConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17A8);
+		}
+
+		static ::RPG::GameCore::CameraShakeTemplateConfig** StaticGet_ShakeTemplateConfig()
+		{
+			return (::RPG::GameCore::CameraShakeTemplateConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17B0);
 		}
 
 		static ::RPG::GameCore::TrackNpcConst** StaticGet_TrackNpcConstConfig()
 		{
-			return (::RPG::GameCore::TrackNpcConst**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19D8);
+			return (::RPG::GameCore::TrackNpcConst**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17B8);
+		}
+
+		static ::RPG::GameCore::GachaCutsceneConfig** StaticGet_GachaCutsceneConfig()
+		{
+			return (::RPG::GameCore::GachaCutsceneConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17C0);
+		}
+
+		static ::RPG::GameCore::ResolutionAdaptionConfigList** StaticGet__RAConfigList()
+		{
+			return (::RPG::GameCore::ResolutionAdaptionConfigList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17C8);
+		}
+
+		static ::RPG::GameCore::MonsterSneakConst** StaticGet_MonsterSneakConstConfig()
+		{
+			return (::RPG::GameCore::MonsterSneakConst**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17D0);
+		}
+
+		static ::RPG::GameCore::MarbleGameConfig** StaticGet_MarbleGameConfig()
+		{
+			return (::RPG::GameCore::MarbleGameConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17D8);
+		}
+
+		static ::RPG::GameCore::GameCoreConstValue** StaticGet_GameCoreConstValueConfig()
+		{
+			return (::RPG::GameCore::GameCoreConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17E0);
+		}
+
+		static ::RPG::GameCore::SummonUnitGlobalConfig** StaticGet_SummonUnitGlobalConfig()
+		{
+			return (::RPG::GameCore::SummonUnitGlobalConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17E8);
+		}
+
+		static ::RPG::GameCore::LevelGroupMainMissionIssuePatchList** StaticGet_LevelGroupMainMissionIssuePatchList()
+		{
+			return (::RPG::GameCore::LevelGroupMainMissionIssuePatchList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17F0);
+		}
+
+		static ::RPG::GameCore::ResolutionAdaptionConfigMapping** StaticGet__RAMapping()
+		{
+			return (::RPG::GameCore::ResolutionAdaptionConfigMapping**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x17F8);
 		}
 
 		static ::RPG::Client::Promises::Promise** StaticGet__LoadAllConfigPromise()
 		{
-			return (::RPG::Client::Promises::Promise**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x19E0);
+			return (::RPG::Client::Promises::Promise**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1800);
 		}
 
-		static ::System::Int32* StaticGet_CurProgress()
+		static ::RPG::GameCore::GameCoreUISetting** StaticGet_GameCoreUIConfig()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x8D0);
+			return (::RPG::GameCore::GameCoreUISetting**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1808);
 		}
 
-		static ::System::Boolean* StaticGet_EnableResoulutionFixCameraOffset()
+		static ::RPG::GameCore::MazeConfig** StaticGet_MazeConfig()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x8D4);
+			return (::RPG::GameCore::MazeConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1810);
 		}
 
-		static ::System::Single* StaticGet__LastScreenAspect()
+		static ::RPG::GameCore::AdventureAIDefaultParameter** StaticGet_AdventureAIDefaultParameter()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x8D8);
+			return (::RPG::GameCore::AdventureAIDefaultParameter**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1818);
+		}
+
+		static ::RPG::GameCore::FollowSlotConstValue** StaticGet_FollowSlotConstValueConfig()
+		{
+			return (::RPG::GameCore::FollowSlotConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1820);
+		}
+
+		static ::RPG::GameCore::EntityTimelineControlGlobalConfig** StaticGet_EntityTimelineControlConstConfig()
+		{
+			return (::RPG::GameCore::EntityTimelineControlGlobalConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1828);
+		}
+
+		static ::RPG::GameCore::BattleBGMConfig** StaticGet_BattleBGMConfig()
+		{
+			return (::RPG::GameCore::BattleBGMConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1830);
+		}
+
+		static ::RPG::GameCore::CRPVirtualCameraConfigMap** StaticGet_CRPVirtualCameraConfigMap()
+		{
+			return (::RPG::GameCore::CRPVirtualCameraConfigMap**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1838);
+		}
+
+		static ::RPG::GameCore::NetDefineConstValue** StaticGet_NetDefineConstValueConfig()
+		{
+			return (::RPG::GameCore::NetDefineConstValue**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1840);
+		}
+
+		static ::RPG::GameCore::SettingsConfig** StaticGet_SettingsConfig()
+		{
+			return (::RPG::GameCore::SettingsConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1848);
+		}
+
+		static ::RPG::GameCore::DebugUIConfig** StaticGet_DebugUIConfig()
+		{
+			return (::RPG::GameCore::DebugUIConfig**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1850);
+		}
+
+		static ::RPG::GameCore::VCameraConfigList** StaticGet_CameraConfigList()
+		{
+			return (::RPG::GameCore::VCameraConfigList**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1858);
+		}
+
+		static ::System::String** StaticGet_tmpResolutionName()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x1860);
 		}
 
 		static ::System::Int32* StaticGet_Total()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x8DC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x7A0);
+		}
+
+		static ::System::Single* StaticGet__LastScreenAspect()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x7A4);
+		}
+
+		static ::System::Int32* StaticGet_CurProgress()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x7A8);
+		}
+
+		static ::System::Boolean* StaticGet_EnableResoulutionFixCameraOffset()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.GameCore", "GameCoreConfigManager")->GetStaticField(0x7AC);
 		}
 
 		static ::System::Void _cctor()

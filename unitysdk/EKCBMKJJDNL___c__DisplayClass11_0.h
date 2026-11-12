@@ -6,10 +6,10 @@ class IOIIFAENPNH;
 namespace System { template <typename T> class Predicate_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EKCBMKJJDNL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154FDE70)
-#define EKCBMKJJDNL___C__DISPLAYCLASS11_0___DORELOADALL_B__0_OFFSET UNITYSDK_OFFSET(0x154FE2F0)
+#define EKCBMKJJDNL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16446100)
+#define EKCBMKJJDNL___C__DISPLAYCLASS11_0___DORELOADALL_B__0_OFFSET UNITYSDK_OFFSET(0x16446580)
 
-inline static constexpr unsigned int EKCBMKJJDNL___c__DisplayClass11_0_TypeDefinitionIndex = 72072;
+inline static constexpr unsigned int EKCBMKJJDNL___c__DisplayClass11_0_TypeDefinitionIndex = 74105;
 
 	class EKCBMKJJDNL___c__DisplayClass11_0 : public ::System::Object
 	{

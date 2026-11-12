@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class PKJHLEOADGL;
 
-#define PKJHLEOADGL___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C3530)
-#define PKJHLEOADGL___C__DISPLAYCLASS29_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC2C39D0)
+#define PKJHLEOADGL___C__DISPLAYCLASS29_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEE970)
+#define PKJHLEOADGL___C__DISPLAYCLASS29_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xCBEEE10)
 
-inline static constexpr unsigned int PKJHLEOADGL___c__DisplayClass29_0_TypeDefinitionIndex = 79472;
+inline static constexpr unsigned int PKJHLEOADGL___c__DisplayClass29_0_TypeDefinitionIndex = 82249;
 
 	class PKJHLEOADGL___c__DisplayClass29_0 : public ::System::Object
 	{

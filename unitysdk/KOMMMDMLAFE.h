@@ -4,9 +4,9 @@
 class DDENCEMCKLN;
 namespace System { class String; }
 
-#define KOMMMDMLAFE_BAKDIMJICMN_OFFSET UNITYSDK_OFFSET(0x1C4AA2E0)
+#define KOMMMDMLAFE_BAKDIMJICMN_OFFSET UNITYSDK_OFFSET(0x1D62DE60)
 
-inline static constexpr unsigned int KOMMMDMLAFE_TypeDefinitionIndex = 41560;
+inline static constexpr unsigned int KOMMMDMLAFE_TypeDefinitionIndex = 42535;
 
 	class KOMMMDMLAFE : public ::System::Object
 	{

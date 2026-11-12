@@ -4,18 +4,18 @@
 class LBJLBMOOJGM;
 namespace System { template <typename T> class Action_1; }
 
-#define DPAAAFINPEB_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FF8670)
-#define DPAAAFINPEB_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF8660)
-#define DPAAAFINPEB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x11FF85C0)
+#define DPAAAFINPEB_CCTOR_OFFSET UNITYSDK_OFFSET(0x12DF3A10)
+#define DPAAAFINPEB_CTOR_OFFSET UNITYSDK_OFFSET(0x12DF3A00)
+#define DPAAAFINPEB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x12DF3960)
 
-inline static constexpr unsigned int DPAAAFINPEB_TypeDefinitionIndex = 49772;
+inline static constexpr unsigned int DPAAAFINPEB_TypeDefinitionIndex = 50820;
 
 	class DPAAAFINPEB : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::LBJLBMOOJGM*>** StaticGet_BEJJCPGEMIG()
 		{
-			return (::System::Action_1<::LBJLBMOOJGM*>**)UnitySDK::FromName("", "DPAAAFINPEB")->GetStaticField(0x6FA20);
+			return (::System::Action_1<::LBJLBMOOJGM*>**)UnitySDK::FromName("", "DPAAAFINPEB")->GetStaticField(0x70CE0);
 		}
 
 		::System::Void _ctor()

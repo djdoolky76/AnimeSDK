@@ -5,11 +5,11 @@ namespace RPG::Client { class MemberData; }
 namespace RPG::GameCore { class AdventureModifyTeamPlayerHP; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define BEONILAAKHO_CDJLECPHMPB_OFFSET UNITYSDK_OFFSET(0xB15BE70)
-#define BEONILAAKHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB15B820)
-#define BEONILAAKHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB15B850)
+#define BEONILAAKHO_CDJLECPHMPB_OFFSET UNITYSDK_OFFSET(0xB7E55F0)
+#define BEONILAAKHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E4F90)
+#define BEONILAAKHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7E4FC0)
 
-inline static constexpr unsigned int BEONILAAKHO_TypeDefinitionIndex = 57904;
+inline static constexpr unsigned int BEONILAAKHO_TypeDefinitionIndex = 59141;
 
 	class BEONILAAKHO
 	{

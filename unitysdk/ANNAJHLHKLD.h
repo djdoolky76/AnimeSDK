@@ -7,19 +7,19 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define ANNAJHLHKLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCE6430)
-#define ANNAJHLHKLD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCE6450)
-#define ANNAJHLHKLD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCE63F0)
+#define ANNAJHLHKLD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8FF20)
+#define ANNAJHLHKLD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DE8FF40)
+#define ANNAJHLHKLD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE8FEE0)
 
-inline static constexpr unsigned int ANNAJHLHKLD_TypeDefinitionIndex = 23723;
+inline static constexpr unsigned int ANNAJHLHKLD_TypeDefinitionIndex = 24179;
 
 	class ANNAJHLHKLD : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x18
+		::RPG::GameCore::DynamicFloat* FKGOBKPKAAD; // 0x18
 		::RPG::GameCore::DynamicFloat* AJHHCOHFIFA; // 0x20
 		::RPG::GameCore::DynamicFloat* IKGOAIEHFJD; // 0x28
-		::RPG::GameCore::DynamicFloat* FKGOBKPKAAD; // 0x30
+		::RPG::GameCore::TargetEvaluator* HILNFHCPEAD; // 0x30
 		::RPG::GameCore::PropertyModifyFunction OPILAJBILKM; // 0x38
 		::RPG::GameCore::PropertyModifyFunction NFCPJINGLGA; // 0x3C
 		::System::Void _ctor()

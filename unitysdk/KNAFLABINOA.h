@@ -6,21 +6,21 @@ class KNAFLABINOA;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define KNAFLABINOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB576980)
-#define KNAFLABINOA_GET_AVATARDAMAGEMAP_OFFSET UNITYSDK_OFFSET(0xB575CE0)
-#define KNAFLABINOA_GET_DEADAVATARIDS_OFFSET UNITYSDK_OFFSET(0xB575CD0)
-#define KNAFLABINOA_GET_LEVELID_OFFSET UNITYSDK_OFFSET(0xB575CB0)
-#define KNAFLABINOA_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xB5765D0)
-#define KNAFLABINOA_PLGEBDDNCKC_OFFSET UNITYSDK_OFFSET(0xB575CF0)
-#define KNAFLABINOA_SET_LEVELID_OFFSET UNITYSDK_OFFSET(0xB575CC0)
+#define KNAFLABINOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC3C40)
+#define KNAFLABINOA_GET_AVATARDAMAGEMAP_OFFSET UNITYSDK_OFFSET(0xBDC2FD0)
+#define KNAFLABINOA_GET_DEADAVATARIDS_OFFSET UNITYSDK_OFFSET(0xBDC2FC0)
+#define KNAFLABINOA_GET_LEVELID_OFFSET UNITYSDK_OFFSET(0xBDC2FA0)
+#define KNAFLABINOA_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xBDC38C0)
+#define KNAFLABINOA_PLGEBDDNCKC_OFFSET UNITYSDK_OFFSET(0xBDC2FE0)
+#define KNAFLABINOA_SET_LEVELID_OFFSET UNITYSDK_OFFSET(0xBDC2FB0)
 
-inline static constexpr unsigned int KNAFLABINOA_TypeDefinitionIndex = 63852;
+inline static constexpr unsigned int KNAFLABINOA_TypeDefinitionIndex = 65294;
 
 	class KNAFLABINOA : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* _DeadAvatarIDs_k__BackingField; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt64>* _AvatarDamageMap_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::UInt64>* _AvatarDamageMap_k__BackingField; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* _DeadAvatarIDs_k__BackingField; // 0x18
 		::System::UInt32 _LevelID_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{

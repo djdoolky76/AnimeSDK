@@ -5,11 +5,11 @@ namespace RPG::GameCore { class ByCheckMonsterDie; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LKLEILNGCDD_CTOR_OFFSET UNITYSDK_OFFSET(0xB753D60)
-#define LKLEILNGCDD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB753E40)
-#define LKLEILNGCDD_FEJKOHFHHNN_OFFSET UNITYSDK_OFFSET(0xB754010)
+#define LKLEILNGCDD_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF2DC0)
+#define LKLEILNGCDD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBFF2EA0)
+#define LKLEILNGCDD_FEJKOHFHHNN_OFFSET UNITYSDK_OFFSET(0xBFF3060)
 
-inline static constexpr unsigned int LKLEILNGCDD_TypeDefinitionIndex = 57970;
+inline static constexpr unsigned int LKLEILNGCDD_TypeDefinitionIndex = 59208;
 
 	class LKLEILNGCDD
 	{

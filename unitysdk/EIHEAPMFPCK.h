@@ -4,10 +4,10 @@
 #include "unitysdk/NOJEJFMMCEG.h"
 class FPNHGPEICOG;
 
-#define EIHEAPMFPCK_CTOR_OFFSET UNITYSDK_OFFSET(0x154C8170)
-#define EIHEAPMFPCK_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x154C6B10)
+#define EIHEAPMFPCK_CTOR_OFFSET UNITYSDK_OFFSET(0x16406D50)
+#define EIHEAPMFPCK_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x164056F0)
 
-inline static constexpr unsigned int EIHEAPMFPCK_TypeDefinitionIndex = 53687;
+inline static constexpr unsigned int EIHEAPMFPCK_TypeDefinitionIndex = 54851;
 
 	class EIHEAPMFPCK : public ::System::Object
 	{

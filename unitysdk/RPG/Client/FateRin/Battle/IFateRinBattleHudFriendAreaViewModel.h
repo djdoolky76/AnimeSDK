@@ -3,7 +3,7 @@
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int IFateRinBattleHudFriendAreaViewModel_TypeDefinitionIndex = 80917;
+	inline static constexpr unsigned int IFateRinBattleHudFriendAreaViewModel_TypeDefinitionIndex = 83697;
 
 	class IFateRinBattleHudFriendAreaViewModel
 	{

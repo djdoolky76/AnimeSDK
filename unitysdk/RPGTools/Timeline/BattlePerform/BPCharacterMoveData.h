@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8B91F0)
-#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B91C0)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xF393130)
+#define RPGTOOLS_TIMELINE_BATTLEPERFORM_BPCHARACTERMOVEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF393100)
 
 namespace RPGTools::Timeline::BattlePerform
 {
-	inline static constexpr unsigned int BPCharacterMoveData_TypeDefinitionIndex = 48819;
+	inline static constexpr unsigned int BPCharacterMoveData_TypeDefinitionIndex = 49865;
 
 	class BPCharacterMoveData : public ::System::Object
 	{
@@ -33,7 +33,7 @@ namespace RPGTools::Timeline::BattlePerform
 		::UnityEngine::Vector3 EndPosition; // 0x4C
 		static ::System::String** StaticGet_JsonPath()
 		{
-			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline.BattlePerform", "BPCharacterMoveData")->GetStaticField(0x6C300);
+			return (::System::String**)UnitySDK::FromName("RPGTools.Timeline.BattlePerform", "BPCharacterMoveData")->GetStaticField(0x5BA10);
 		}
 
 		::System::Void _ctor()

@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_ADDBUFFPERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D385900)
-#define RPG_GAMECORE_ADDBUFFPERFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D385970)
-#define RPG_GAMECORE_ADDBUFFPERFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D385870)
+#define RPG_GAMECORE_ADDBUFFPERFORM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E595630)
+#define RPG_GAMECORE_ADDBUFFPERFORM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5956A0)
+#define RPG_GAMECORE_ADDBUFFPERFORM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5955A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AddBuffPerform_TypeDefinitionIndex = 23551;
+	inline static constexpr unsigned int AddBuffPerform_TypeDefinitionIndex = 23997;
 
 	class AddBuffPerform : public ::RPG::GameCore::TaskConfig
 	{

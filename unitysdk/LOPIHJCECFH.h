@@ -4,9 +4,9 @@
 class LDFALPJPFEB;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LOPIHJCECFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C921A10)
+#define LOPIHJCECFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1DACD790)
 
-inline static constexpr unsigned int LOPIHJCECFH_TypeDefinitionIndex = 42844;
+inline static constexpr unsigned int LOPIHJCECFH_TypeDefinitionIndex = 43825;
 
 	class LOPIHJCECFH : public ::System::Object
 	{

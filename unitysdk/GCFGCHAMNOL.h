@@ -12,44 +12,44 @@ namespace Google::Protobuf::Reflection { class MessageDescriptor; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define GCFGCHAMNOL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1E43D3D0)
-#define GCFGCHAMNOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E43D750)
-#define GCFGCHAMNOL_CLONE_OFFSET UNITYSDK_OFFSET(0x1E43CF40)
-#define GCFGCHAMNOL_CMLIMOKKNED_OFFSET UNITYSDK_OFFSET(0x1E43CF80)
-#define GCFGCHAMNOL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E43CEB0)
-#define GCFGCHAMNOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E43CE60)
-#define GCFGCHAMNOL_EKKPACFEELB_OFFSET UNITYSDK_OFFSET(0x1E43CF90)
-#define GCFGCHAMNOL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1E43D0A0)
-#define GCFGCHAMNOL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1E43CFA0)
-#define GCFGCHAMNOL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1E43D190)
-#define GCFGCHAMNOL_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1E43CE20)
-#define GCFGCHAMNOL_JOIJKHBKGNL_OFFSET UNITYSDK_OFFSET(0x1E43CF70)
-#define GCFGCHAMNOL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1E43D510)
-#define GCFGCHAMNOL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1E43D4C0)
-#define GCFGCHAMNOL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1E43CE50)
-#define GCFGCHAMNOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E43D290)
-#define GCFGCHAMNOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E43D2F0)
+#define GCFGCHAMNOL_CALCULATESIZE_OFFSET UNITYSDK_OFFSET(0x1F72B140)
+#define GCFGCHAMNOL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F72B4C0)
+#define GCFGCHAMNOL_CLONE_OFFSET UNITYSDK_OFFSET(0x1F72ACB0)
+#define GCFGCHAMNOL_CMLIMOKKNED_OFFSET UNITYSDK_OFFSET(0x1F72ACE0)
+#define GCFGCHAMNOL_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F72AC20)
+#define GCFGCHAMNOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F72ABD0)
+#define GCFGCHAMNOL_EKKPACFEELB_OFFSET UNITYSDK_OFFSET(0x1F72ACF0)
+#define GCFGCHAMNOL_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x1F72AE10)
+#define GCFGCHAMNOL_EQUALS_OFFSET UNITYSDK_OFFSET(0x1F72AD10)
+#define GCFGCHAMNOL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1F72AF00)
+#define GCFGCHAMNOL_JJGHOBBFNJD_OFFSET UNITYSDK_OFFSET(0x1F72AB90)
+#define GCFGCHAMNOL_JOIJKHBKGNL_OFFSET UNITYSDK_OFFSET(0x1F72AD00)
+#define GCFGCHAMNOL_MERGEFROM_1_OFFSET UNITYSDK_OFFSET(0x1F72B270)
+#define GCFGCHAMNOL_MERGEFROM_OFFSET UNITYSDK_OFFSET(0x1F72B220)
+#define GCFGCHAMNOL_PB__GOOGLE_PROTOBUF_IMESSAGE_GET_DESCRIPTOR_OFFSET UNITYSDK_OFFSET(0x1F72ABC0)
+#define GCFGCHAMNOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F72B000)
+#define GCFGCHAMNOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1F72B060)
 
-inline static constexpr unsigned int GCFGCHAMNOL_TypeDefinitionIndex = 27504;
+inline static constexpr unsigned int GCFGCHAMNOL_TypeDefinitionIndex = 28035;
 
 	class GCFGCHAMNOL : public ::System::Object
 	{
 	public:
-		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x10
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* DMCMFNPDHHK; // 0x18
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* DMCMFNPDHHK; // 0x10
+		::Google::Protobuf::UnknownFieldSet* DHHIJOGAOFI; // 0x18
 		::System::UInt32 CCKEBKGCJGH; // 0x20
 		static ::Google::Protobuf::MessageParser_1<::GCFGCHAMNOL*>** StaticGet_CHLCMCKIGKG()
 		{
-			return (::Google::Protobuf::MessageParser_1<::GCFGCHAMNOL*>**)UnitySDK::FromName("", "GCFGCHAMNOL")->GetStaticField(0xF160);
+			return (::Google::Protobuf::MessageParser_1<::GCFGCHAMNOL*>**)UnitySDK::FromName("", "GCFGCHAMNOL")->GetStaticField(0x56600);
 		}
 
 		static ::Google::Protobuf::FieldCodec_1<::System::UInt32>** StaticGet_GPLHELGOADD()
 		{
-			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "GCFGCHAMNOL")->GetStaticField(0xF168);
+			return (::Google::Protobuf::FieldCodec_1<::System::UInt32>**)UnitySDK::FromName("", "GCFGCHAMNOL")->GetStaticField(0x56608);
 		}
 
-		// static const ::System::Object IGAGHLNCGFL; // 0x0
 		// static const ::System::Object KGAEKKJEHEC; // 0x0
+		// static const ::System::Object IGAGHLNCGFL; // 0x0
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GCFGCHAMNOL_CTOR_OFFSET))(this);
@@ -80,11 +80,6 @@ inline static constexpr unsigned int GCFGCHAMNOL_TypeDefinitionIndex = 27504;
 			return ((::GCFGCHAMNOL*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCFGCHAMNOL_CLONE_OFFSET))(this);
 		}
 
-		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* JOIJKHBKGNL()
-		{
-			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCFGCHAMNOL_JOIJKHBKGNL_OFFSET))(this);
-		}
-
 		::System::UInt32 CMLIMOKKNED()
 		{
 			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + GCFGCHAMNOL_CMLIMOKKNED_OFFSET))(this);
@@ -93,6 +88,11 @@ inline static constexpr unsigned int GCFGCHAMNOL_TypeDefinitionIndex = 27504;
 		::System::Void EKKPACFEELB(::System::UInt32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + GCFGCHAMNOL_EKKPACFEELB_OFFSET))(this, a1);
+		}
+
+		::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>* JOIJKHBKGNL()
+		{
+			return ((::Google::Protobuf::Collections::RepeatedField_1<::System::UInt32>*(*)(::PVOID))((::PBYTE)hIl2Cpp + GCFGCHAMNOL_JOIJKHBKGNL_OFFSET))(this);
 		}
 
 		::System::Boolean Equals(::System::Object* a1)

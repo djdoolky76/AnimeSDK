@@ -4,10 +4,10 @@
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define GFHAAMNLJJN_CTOR_OFFSET UNITYSDK_OFFSET(0x159F7960)
-#define GFHAAMNLJJN_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0x159F7520)
+#define GFHAAMNLJJN_CTOR_OFFSET UNITYSDK_OFFSET(0x16931310)
+#define GFHAAMNLJJN_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0x16930EC0)
 
-inline static constexpr unsigned int GFHAAMNLJJN_TypeDefinitionIndex = 67908;
+inline static constexpr unsigned int GFHAAMNLJJN_TypeDefinitionIndex = 69853;
 
 	class GFHAAMNLJJN : public ::System::Object
 	{

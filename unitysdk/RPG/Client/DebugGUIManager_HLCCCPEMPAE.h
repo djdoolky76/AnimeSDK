@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int DebugGUIManager_HLCCCPEMPAE_TypeDefinitionIndex = 68336;
+	inline static constexpr unsigned int DebugGUIManager_HLCCCPEMPAE_TypeDefinitionIndex = 70282;
 
 	struct alignas(4) DebugGUIManager_HLCCCPEMPAE
 	{

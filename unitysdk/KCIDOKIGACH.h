@@ -12,40 +12,39 @@ namespace System { class Action; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define KCIDOKIGACH_ADD_HANDLEEXIT_OFFSET UNITYSDK_OFFSET(0xB338150)
-#define KCIDOKIGACH_CCHJEFPJBFD_OFFSET UNITYSDK_OFFSET(0xB338090)
-#define KCIDOKIGACH_CTOR_OFFSET UNITYSDK_OFFSET(0xB338220)
-#define KCIDOKIGACH_FICJINGODOM_OFFSET UNITYSDK_OFFSET(0xB337F90)
-#define KCIDOKIGACH_GET_CMTCOUNT_OFFSET UNITYSDK_OFFSET(0xB337F80)
-#define KCIDOKIGACH_GET_CMTS_OFFSET UNITYSDK_OFFSET(0xB337F40)
-#define KCIDOKIGACH_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xB337F60)
-#define KCIDOKIGACH_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xB337F50)
-#define KCIDOKIGACH_GET_LIKECOUNT_OFFSET UNITYSDK_OFFSET(0xB337F70)
-#define KCIDOKIGACH_GET_REPORTID_OFFSET UNITYSDK_OFFSET(0xB338210)
-#define KCIDOKIGACH_MNLMDIHJFGF_OFFSET UNITYSDK_OFFSET(0xB3383F0)
-#define KCIDOKIGACH_NMPLHCJKEOI_OFFSET UNITYSDK_OFFSET(0xB338310)
-#define KCIDOKIGACH_OGNJAICKAOB_OFFSET UNITYSDK_OFFSET(0xB337FD0)
-#define KCIDOKIGACH_REMOVE_HANDLEEXIT_OFFSET UNITYSDK_OFFSET(0xB3381B0)
-#define KCIDOKIGACH___ONEXIT_B__33_0_OFFSET UNITYSDK_OFFSET(0xB338550)
+#define KCIDOKIGACH_ADD_HANDLEEXIT_OFFSET UNITYSDK_OFFSET(0xBBC2B60)
+#define KCIDOKIGACH_CCHJEFPJBFD_OFFSET UNITYSDK_OFFSET(0xBBC2AA0)
+#define KCIDOKIGACH_CTOR_OFFSET UNITYSDK_OFFSET(0xBBC2C30)
+#define KCIDOKIGACH_FICJINGODOM_OFFSET UNITYSDK_OFFSET(0xBBC29A0)
+#define KCIDOKIGACH_GET_CMTCOUNT_OFFSET UNITYSDK_OFFSET(0xBBC2990)
+#define KCIDOKIGACH_GET_CMTS_OFFSET UNITYSDK_OFFSET(0xBBC2950)
+#define KCIDOKIGACH_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0xBBC2970)
+#define KCIDOKIGACH_GET_IMAGEPATH_OFFSET UNITYSDK_OFFSET(0xBBC2960)
+#define KCIDOKIGACH_GET_LIKECOUNT_OFFSET UNITYSDK_OFFSET(0xBBC2980)
+#define KCIDOKIGACH_GET_REPORTID_OFFSET UNITYSDK_OFFSET(0xBBC2C20)
+#define KCIDOKIGACH_MNLMDIHJFGF_OFFSET UNITYSDK_OFFSET(0xBBC2E00)
+#define KCIDOKIGACH_NMPLHCJKEOI_OFFSET UNITYSDK_OFFSET(0xBBC2D20)
+#define KCIDOKIGACH_OGNJAICKAOB_OFFSET UNITYSDK_OFFSET(0xBBC29E0)
+#define KCIDOKIGACH_REMOVE_HANDLEEXIT_OFFSET UNITYSDK_OFFSET(0xBBC2BC0)
+#define KCIDOKIGACH___ONEXIT_B__33_0_OFFSET UNITYSDK_OFFSET(0xBBC2F60)
 
-inline static constexpr unsigned int KCIDOKIGACH_TypeDefinitionIndex = 79685;
+inline static constexpr unsigned int KCIDOKIGACH_TypeDefinitionIndex = 82462;
 
 	class KCIDOKIGACH : public ::System::Object
 	{
 	public:
-		::System::Action* HandleExit; // 0x10
-		::System::String* _ImagePath_k__BackingField; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* _Cmts_k__BackingField; // 0x20
+		::System::String* _ImagePath_k__BackingField; // 0x10
+		::System::Action* HandleExit; // 0x18
+		::System::Action* MDHOFBGIMIG; // 0x20
 		::R3::ReactiveProperty_1<::System::Boolean>* LJJADGBEGGC; // 0x28
-		::MGFNPLKAALN* IIDIJLNGJNM; // 0x30
-		::System::Action* MDHOFBGIMIG; // 0x38
-		::OBJANKHLNGO* GJALMBBNNOF; // 0x40
-		::System::Int32 _CmtCount_k__BackingField; // 0x48
-		::System::Boolean FOFDKHPKNDH; // 0x4C
-		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID _Content_k__BackingField; // 0x50
+		::OBJANKHLNGO* GJALMBBNNOF; // 0x30
+		::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* _Cmts_k__BackingField; // 0x38
+		::MGFNPLKAALN* IIDIJLNGJNM; // 0x40
+		::RPG::Client::TextID _Content_k__BackingField; // 0x48
+		::System::Int32 _CmtCount_k__BackingField; // 0x58
+		::System::UInt32 _ReportID_k__BackingField; // 0x5C
 		::System::Single _LikeCount_k__BackingField; // 0x60
-		::System::UInt32 _ReportID_k__BackingField; // 0x64
+		::System::Boolean FOFDKHPKNDH; // 0x64
 		::System::Void _ctor(::OBJANKHLNGO* a1, ::MGFNPLKAALN* a2, ::System::UInt32 a3, ::System::Boolean a4, ::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>* a5, ::System::String* a6, ::RPG::Client::TextID a7, ::System::Single a8, ::System::Int32 a9, ::System::Action* a10)
 		{
 			return ((::System::Void(*)(::PVOID, ::OBJANKHLNGO*, ::MGFNPLKAALN*, ::System::UInt32, ::System::Boolean, ::System::Collections::Generic::IReadOnlyList_1<::CNIPJLLHIJA*>*, ::System::String*, ::RPG::Client::TextID, ::System::Single, ::System::Int32, ::System::Action*))((::PBYTE)hIl2Cpp + KCIDOKIGACH_CTOR_OFFSET))(this, a1, a2, a3, a4, a5, a6, a7, a8, a9, a10);

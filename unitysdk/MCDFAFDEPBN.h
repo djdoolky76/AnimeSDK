@@ -5,11 +5,11 @@ class MCDFAFDEPBN;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MCDFAFDEPBN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB874740)
-#define MCDFAFDEPBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB874780)
-#define MCDFAFDEPBN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB874790)
+#define MCDFAFDEPBN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC0DB4A0)
+#define MCDFAFDEPBN_CTOR_OFFSET UNITYSDK_OFFSET(0xC0DB4E0)
+#define MCDFAFDEPBN_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC0DB4F0)
 
-inline static constexpr unsigned int MCDFAFDEPBN_TypeDefinitionIndex = 62556;
+inline static constexpr unsigned int MCDFAFDEPBN_TypeDefinitionIndex = 63969;
 
 	class MCDFAFDEPBN : public ::System::Object
 	{

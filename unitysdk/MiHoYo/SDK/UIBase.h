@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define MIHOYO_SDK_UIBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0127A0)
-#define MIHOYO_SDK_UIBASE_DESTROY_OFFSET UNITYSDK_OFFSET(0x1C012780)
-#define MIHOYO_SDK_UIBASE_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1C012750)
+#define MIHOYO_SDK_UIBASE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D199770)
+#define MIHOYO_SDK_UIBASE_DESTROY_OFFSET UNITYSDK_OFFSET(0x1D199750)
+#define MIHOYO_SDK_UIBASE_SETACTIVE_OFFSET UNITYSDK_OFFSET(0x1D199720)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UIBase_TypeDefinitionIndex = 8227;
+	inline static constexpr unsigned int UIBase_TypeDefinitionIndex = 8236;
 
 	class UIBase : public ::UnityEngine::MonoBehaviour
 	{

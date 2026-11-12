@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PamActionType_TypeDefinitionIndex = 14299;
+	inline static constexpr unsigned int PamActionType_TypeDefinitionIndex = 14456;
 
 	enum class PamActionType : ::System::Int32
 	{

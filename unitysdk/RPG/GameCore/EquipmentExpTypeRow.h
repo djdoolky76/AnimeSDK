@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class EquipmentExpTypeRow; }
 
-#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D67EA60)
-#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D67E400)
+#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E88AD90)
+#define RPG_GAMECORE_EQUIPMENTEXPTYPEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E88A730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EquipmentExpTypeRow_TypeDefinitionIndex = 13242;
+	inline static constexpr unsigned int EquipmentExpTypeRow_TypeDefinitionIndex = 13316;
 
 	class EquipmentExpTypeRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 ExpType; // 0x10
-		::System::UInt32 Level; // 0x14
-		::System::UInt32 Exp; // 0x18
+		::System::UInt32 Exp; // 0x14
+		::System::UInt32 Level; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EQUIPMENTEXPTYPEROW_CTOR_OFFSET))(this);

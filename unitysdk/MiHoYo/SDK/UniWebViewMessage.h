@@ -3,8 +3,8 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x3C136D0)
-#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GETQUERYDICTIONARY_OFFSET UNITYSDK_OFFSET(0x3C136E0)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x3E61FF0)
+#define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GETQUERYDICTIONARY_OFFSET UNITYSDK_OFFSET(0x3E62000)
 #define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_ARGS_OFFSET UNITYSDK_OFFSET(0xAD00)
 #define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_PATH_OFFSET UNITYSDK_OFFSET(0x94D0)
 #define MIHOYO_SDK_UNIWEBVIEWMESSAGE_GET_QUERY_OFFSET UNITYSDK_OFFSET(0x94F0)
@@ -18,7 +18,7 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UniWebViewMessage_TypeDefinitionIndex = 7940;
+	inline static constexpr unsigned int UniWebViewMessage_TypeDefinitionIndex = 7949;
 
 	struct alignas(8) UniWebViewMessage
 	{

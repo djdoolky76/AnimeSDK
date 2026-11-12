@@ -4,21 +4,21 @@
 #include "unitysdk/System/RuntimeTypeHandle.h"
 namespace System { class String; }
 
-#define HEGHLFAFDHN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CABDFA0)
+#define HEGHLFAFDHN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC829C0)
 
-inline static constexpr unsigned int HEGHLFAFDHN_TypeDefinitionIndex = 42788;
+inline static constexpr unsigned int HEGHLFAFDHN_TypeDefinitionIndex = 43768;
 
 	class HEGHLFAFDHN : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_MLFGMEBDJLD()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HEGHLFAFDHN")->GetStaticField(0x23FC0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HEGHLFAFDHN")->GetStaticField(0x18A90);
 		}
 
 		static ::Il2CppArray<::System::RuntimeTypeHandle>** StaticGet_FJFMMIIMAGL()
 		{
-			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "HEGHLFAFDHN")->GetStaticField(0x23FC8);
+			return (::Il2CppArray<::System::RuntimeTypeHandle>**)UnitySDK::FromName("", "HEGHLFAFDHN")->GetStaticField(0x18A98);
 		}
 
 		// static const ::System::Object FBDEHCJEBOJ; // 0x0

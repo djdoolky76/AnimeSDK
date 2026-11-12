@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class VCameraBlend_PerformanceTransition; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC7A330)
-#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC79F60)
+#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE8CF50)
+#define RPG_GAMECORE_VCAMERABLEND_PERFORMANCETRANSITION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE8CB80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraBlend_PerformanceTransition_TypeDefinitionIndex = 16420;
+	inline static constexpr unsigned int VCameraBlend_PerformanceTransition_TypeDefinitionIndex = 16584;
 
 	class VCameraBlend_PerformanceTransition : public ::RPG::GameCore::JsonConfig
 	{

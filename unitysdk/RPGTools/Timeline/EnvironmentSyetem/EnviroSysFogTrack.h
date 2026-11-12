@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Timeline/TrackAsset.h"
 
-#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSFOGTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8F8060)
+#define RPGTOOLS_TIMELINE_ENVIRONMENTSYETEM_ENVIROSYSFOGTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF3D3D20)
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
-	inline static constexpr unsigned int EnviroSysFogTrack_TypeDefinitionIndex = 48640;
+	inline static constexpr unsigned int EnviroSysFogTrack_TypeDefinitionIndex = 49682;
 
 	class EnviroSysFogTrack : public ::UnityEngine::Timeline::TrackAsset
 	{

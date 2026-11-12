@@ -3,7 +3,7 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
-	inline static constexpr unsigned int B2BodyFlags_TypeDefinitionIndex = 36594;
+	inline static constexpr unsigned int B2BodyFlags_TypeDefinitionIndex = 37522;
 
 	enum class B2BodyFlags : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsConvertDamage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CGAMHMILCAF_CTOR_OFFSET UNITYSDK_OFFSET(0xCC63460)
-#define CGAMHMILCAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCC63490)
+#define CGAMHMILCAF_CTOR_OFFSET UNITYSDK_OFFSET(0xD610D20)
+#define CGAMHMILCAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xD610D50)
 
-inline static constexpr unsigned int CGAMHMILCAF_TypeDefinitionIndex = 54644;
+inline static constexpr unsigned int CGAMHMILCAF_TypeDefinitionIndex = 55810;
 
 	class CGAMHMILCAF
 	{

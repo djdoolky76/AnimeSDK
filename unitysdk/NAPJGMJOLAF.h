@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TeleportToRotatableRegion; }
 
-#define NAPJGMJOLAF_CTOR_OFFSET UNITYSDK_OFFSET(0xBAB8B80)
-#define NAPJGMJOLAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBAB8B90)
-#define NAPJGMJOLAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAB8C60)
-#define NAPJGMJOLAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAB8C10)
-#define NAPJGMJOLAF_TICK_OFFSET UNITYSDK_OFFSET(0xBAB8F10)
+#define NAPJGMJOLAF_CTOR_OFFSET UNITYSDK_OFFSET(0xC33DAA0)
+#define NAPJGMJOLAF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC33DAB0)
+#define NAPJGMJOLAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC33DB80)
+#define NAPJGMJOLAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC33DB30)
+#define NAPJGMJOLAF_TICK_OFFSET UNITYSDK_OFFSET(0xC33DE30)
 
-inline static constexpr unsigned int NAPJGMJOLAF_TypeDefinitionIndex = 53355;
+inline static constexpr unsigned int NAPJGMJOLAF_TypeDefinitionIndex = 54517;
 
 	class NAPJGMJOLAF : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TeleportToRotatableRegion* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TeleportToRotatableRegion* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TeleportToRotatableRegion* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TeleportToRotatableRegion*))((::PBYTE)hIl2Cpp + NAPJGMJOLAF_CTOR_OFFSET))(this, a1, a2);

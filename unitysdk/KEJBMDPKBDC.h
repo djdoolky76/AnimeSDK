@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class ToastPage; }
 
-#define KEJBMDPKBDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB37BAD0)
-#define KEJBMDPKBDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB37BB00)
+#define KEJBMDPKBDC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC062D0)
+#define KEJBMDPKBDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC06300)
 
-inline static constexpr unsigned int KEJBMDPKBDC_TypeDefinitionIndex = 53407;
+inline static constexpr unsigned int KEJBMDPKBDC_TypeDefinitionIndex = 54569;
 
 	class KEJBMDPKBDC
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicParam; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D629960)
-#define RPG_GAMECORE_DYNAMICPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6297B0)
+#define RPG_GAMECORE_DYNAMICPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E867710)
+#define RPG_GAMECORE_DYNAMICPARAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E867560)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicParam_TypeDefinitionIndex = 18124;
+	inline static constexpr unsigned int DynamicParam_TypeDefinitionIndex = 18286;
 
 	class DynamicParam : public ::RPG::GameCore::JsonConfig
 	{

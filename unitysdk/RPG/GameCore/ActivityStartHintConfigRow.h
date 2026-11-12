@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityStartHintConfigRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D37FFB0)
-#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D37F960)
+#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E58FD10)
+#define RPG_GAMECORE_ACTIVITYSTARTHINTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E58F6C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityStartHintConfigRow_TypeDefinitionIndex = 11209;
+	inline static constexpr unsigned int ActivityStartHintConfigRow_TypeDefinitionIndex = 11260;
 
 	class ActivityStartHintConfigRow : public ::System::Object
 	{

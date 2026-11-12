@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Quaternion.h"
 
-#define DEBAMOFGDCE_IELMAIBIJOM_OFFSET UNITYSDK_OFFSET(0xF59D0)
-#define DEBAMOFGDCE_PKMNGOHOIID_OFFSET UNITYSDK_OFFSET(0xF58E0)
+#define DEBAMOFGDCE_IELMAIBIJOM_OFFSET UNITYSDK_OFFSET(0xFF9E0)
+#define DEBAMOFGDCE_PKMNGOHOIID_OFFSET UNITYSDK_OFFSET(0xFF8F0)
 
-inline static constexpr unsigned int DEBAMOFGDCE_TypeDefinitionIndex = 78892;
+inline static constexpr unsigned int DEBAMOFGDCE_TypeDefinitionIndex = 81663;
 
 	struct alignas(4) DEBAMOFGDCE
 	{

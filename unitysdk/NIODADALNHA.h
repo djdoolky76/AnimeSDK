@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define NIODADALNHA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC056E0)
+#define NIODADALNHA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E88C0)
 
-inline static constexpr unsigned int NIODADALNHA_TypeDefinitionIndex = 56308;
+inline static constexpr unsigned int NIODADALNHA_TypeDefinitionIndex = 57522;
 
 	class NIODADALNHA : public ::System::Object
 	{

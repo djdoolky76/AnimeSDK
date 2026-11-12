@@ -2,19 +2,19 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMECOMPONENTUPDATEHANDLERCOLLECTOR_ASSEMBLY_CSHARP_CTOR_OFFSET UNITYSDK_OFFSET(0xD48B0D0)
-#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMECOMPONENTUPDATEHANDLERCOLLECTOR_ASSEMBLY_CSHARP_INIT_OFFSET UNITYSDK_OFFSET(0xD48AB20)
+#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMECOMPONENTUPDATEHANDLERCOLLECTOR_ASSEMBLY_CSHARP_CTOR_OFFSET UNITYSDK_OFFSET(0xDEF90A0)
+#define RPG_CLIENT_LITTLEGAMESHARE_LITTLEGAMECOMPONENTUPDATEHANDLERCOLLECTOR_ASSEMBLY_CSHARP_INIT_OFFSET UNITYSDK_OFFSET(0xDEF8AF0)
 
 namespace RPG::Client::LittleGameShare
 {
-	inline static constexpr unsigned int LittleGameComponentUpdateHandlerCollector_Assembly_CSharp_TypeDefinitionIndex = 73345;
+	inline static constexpr unsigned int LittleGameComponentUpdateHandlerCollector_Assembly_CSharp_TypeDefinitionIndex = 75462;
 
 	class LittleGameComponentUpdateHandlerCollector_Assembly_CSharp : public ::System::Object
 	{
 	public:
 		static ::System::Boolean* StaticGet_DBAHJNANIOG()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.LittleGameShare", "LittleGameComponentUpdateHandlerCollector_Assembly_CSharp")->GetStaticField(0xBBA0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.LittleGameShare", "LittleGameComponentUpdateHandlerCollector_Assembly_CSharp")->GetStaticField(0xE490);
 		}
 
 		::System::Void _ctor()

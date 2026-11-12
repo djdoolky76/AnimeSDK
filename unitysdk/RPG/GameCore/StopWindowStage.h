@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class StopWindowStage; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STOPWINDOWSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB263E0)
-#define RPG_GAMECORE_STOPWINDOWSTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB263F0)
-#define RPG_GAMECORE_STOPWINDOWSTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB263B0)
+#define RPG_GAMECORE_STOPWINDOWSTAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED37C10)
+#define RPG_GAMECORE_STOPWINDOWSTAGE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED37C20)
+#define RPG_GAMECORE_STOPWINDOWSTAGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED37BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StopWindowStage_TypeDefinitionIndex = 21286;
+	inline static constexpr unsigned int StopWindowStage_TypeDefinitionIndex = 21629;
 
 	class StopWindowStage : public ::RPG::GameCore::TaskConfig
 	{

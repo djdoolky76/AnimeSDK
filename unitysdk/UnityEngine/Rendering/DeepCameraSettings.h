@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int DeepCameraSettings_TypeDefinitionIndex = 4827;
+	inline static constexpr unsigned int DeepCameraSettings_TypeDefinitionIndex = 4831;
 
 	struct alignas(4) DeepCameraSettings
 	{

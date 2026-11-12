@@ -3,9 +3,9 @@
 #include "unitysdk/LIFDICCJGMJ_InspectType.h"
 #include "unitysdk/System/Attribute.h"
 
-#define LIFDICCJGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F7770)
+#define LIFDICCJGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F1C50)
 
-inline static constexpr unsigned int LIFDICCJGMJ_TypeDefinitionIndex = 25041;
+inline static constexpr unsigned int LIFDICCJGMJ_TypeDefinitionIndex = 25519;
 
 	class LIFDICCJGMJ : public ::System::Attribute
 	{

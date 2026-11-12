@@ -3,11 +3,11 @@
 #include "unitysdk/System/Exception.h"
 namespace System { class String; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_JSEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1F65F8C0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_JSEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x2090F080)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int JSException_TypeDefinitionIndex = 39568;
+	inline static constexpr unsigned int JSException_TypeDefinitionIndex = 40497;
 
 	class JSException : public ::System::Exception
 	{

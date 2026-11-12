@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_PETMARBLEBATTLETITLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAEC470)
-#define RPG_CLIENT_PETMARBLEBATTLETITLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAEC4B0)
-#define RPG_CLIENT_PETMARBLEBATTLETITLE___C___COMBINEUSINGSELECTMANY_B__1_0_OFFSET UNITYSDK_OFFSET(0xDAEC4C0)
+#define RPG_CLIENT_PETMARBLEBATTLETITLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE541FA0)
+#define RPG_CLIENT_PETMARBLEBATTLETITLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE541FE0)
+#define RPG_CLIENT_PETMARBLEBATTLETITLE___C___COMBINEUSINGSELECTMANY_B__1_0_OFFSET UNITYSDK_OFFSET(0xE541FF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetMarbleBattleTitle___c_TypeDefinitionIndex = 65817;
+	inline static constexpr unsigned int PetMarbleBattleTitle___c_TypeDefinitionIndex = 67749;
 
 	class PetMarbleBattleTitle___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BAA0);
-		}
-
 		static ::System::Func_2<::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BAA8);
+			return (::System::Func_2<::Il2CppArray<::System::Int32>*, ::System::Collections::Generic::IEnumerable_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2BCF0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2BCF8);
 		}
 
 		static ::System::Void _cctor()

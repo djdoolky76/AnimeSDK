@@ -5,27 +5,26 @@
 namespace RPG::Client { class MapNpcDef; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define CALHMLAJPKJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xC488AA0)
-#define CALHMLAJPKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC488A90)
-#define CALHMLAJPKJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC488730)
-#define CALHMLAJPKJ_EMGMJJGLNEH_OFFSET UNITYSDK_OFFSET(0xC4887C0)
-#define CALHMLAJPKJ_FJFMLMCMAEL_OFFSET UNITYSDK_OFFSET(0xC488770)
-#define CALHMLAJPKJ_IJDALCCMPFK_OFFSET UNITYSDK_OFFSET(0xC4888C0)
-#define CALHMLAJPKJ_JDGPBEJKFLD_OFFSET UNITYSDK_OFFSET(0xC488830)
-#define CALHMLAJPKJ_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xC4886B0)
+#define CALHMLAJPKJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xCDF1100)
+#define CALHMLAJPKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCDF10F0)
+#define CALHMLAJPKJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCDF0DD0)
+#define CALHMLAJPKJ_EMGMJJGLNEH_OFFSET UNITYSDK_OFFSET(0xCDF0E60)
+#define CALHMLAJPKJ_FJFMLMCMAEL_OFFSET UNITYSDK_OFFSET(0xCDF0E10)
+#define CALHMLAJPKJ_IJDALCCMPFK_OFFSET UNITYSDK_OFFSET(0xCDF0F60)
+#define CALHMLAJPKJ_JDGPBEJKFLD_OFFSET UNITYSDK_OFFSET(0xCDF0ED0)
+#define CALHMLAJPKJ_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xCDF0D50)
 
-inline static constexpr unsigned int CALHMLAJPKJ_TypeDefinitionIndex = 73307;
+inline static constexpr unsigned int CALHMLAJPKJ_TypeDefinitionIndex = 75423;
 
 	class CALHMLAJPKJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
 		::System::Int32 GIGGAMCGNHL; // 0x18
-		::System::Boolean BFCNAEAPOEJ; // 0x1C
-		::System::Byte _padding0[0x3];
-		::System::Single OMPINHODDNK; // 0x20
+		::System::Single OMPINHODDNK; // 0x1C
+		::System::Boolean BFCNAEAPOEJ; // 0x20
 		static ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Single>** StaticGet_ADFEOKGIOKB()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Single>**)UnitySDK::FromName("", "CALHMLAJPKJ")->GetStaticField(0x10820);
+			return (::System::Collections::Generic::Dictionary_2<::System::UInt32, ::System::Single>**)UnitySDK::FromName("", "CALHMLAJPKJ")->GetStaticField(0x73510);
 		}
 
 		::System::Void _ctor()

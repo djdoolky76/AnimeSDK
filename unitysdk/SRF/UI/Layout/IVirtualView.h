@@ -3,7 +3,7 @@
 
 namespace SRF::UI::Layout
 {
-	inline static constexpr unsigned int IVirtualView_TypeDefinitionIndex = 35403;
+	inline static constexpr unsigned int IVirtualView_TypeDefinitionIndex = 36331;
 
 	class IVirtualView
 	{

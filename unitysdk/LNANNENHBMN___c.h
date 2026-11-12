@@ -6,23 +6,23 @@ class FHJKNCMMMON;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define LNANNENHBMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7D5AA0)
-#define LNANNENHBMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D5AE0)
-#define LNANNENHBMN___C__GET_BANNEDCELLRELATIVEPOSITIONS_B__13_0_OFFSET UNITYSDK_OFFSET(0xB7D5AF0)
+#define LNANNENHBMN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC0321B0)
+#define LNANNENHBMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC0321F0)
+#define LNANNENHBMN___C__GET_BANNEDCELLRELATIVEPOSITIONS_B__13_0_OFFSET UNITYSDK_OFFSET(0xC032200)
 
-inline static constexpr unsigned int LNANNENHBMN___c_TypeDefinitionIndex = 80088;
+inline static constexpr unsigned int LNANNENHBMN___c_TypeDefinitionIndex = 82865;
 
 	class LNANNENHBMN___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::FHJKNCMMMON*, ::UnityEngine::Vector2Int>** StaticGet___9__13_0()
 		{
-			return (::System::Func_2<::FHJKNCMMMON*, ::UnityEngine::Vector2Int>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C540);
+			return (::System::Func_2<::FHJKNCMMMON*, ::UnityEngine::Vector2Int>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A020);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6C548);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A028);
 		}
 
 		static ::System::Void _cctor()

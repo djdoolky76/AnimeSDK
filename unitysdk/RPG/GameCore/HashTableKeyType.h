@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HashTableKeyType_TypeDefinitionIndex = 10739;
+	inline static constexpr unsigned int HashTableKeyType_TypeDefinitionIndex = 10755;
 
 	enum class HashTableKeyType : ::System::Byte
 	{

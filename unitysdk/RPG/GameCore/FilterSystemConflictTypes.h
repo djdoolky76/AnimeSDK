@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FilterSystemConflictTypes; }
 
-#define RPG_GAMECORE_FILTERSYSTEMCONFLICTTYPES_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6A74A0)
-#define RPG_GAMECORE_FILTERSYSTEMCONFLICTTYPES_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6A73E0)
+#define RPG_GAMECORE_FILTERSYSTEMCONFLICTTYPES_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8B3C60)
+#define RPG_GAMECORE_FILTERSYSTEMCONFLICTTYPES_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8B3BA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FilterSystemConflictTypes_TypeDefinitionIndex = 16494;
+	inline static constexpr unsigned int FilterSystemConflictTypes_TypeDefinitionIndex = 16658;
 
 	class FilterSystemConflictTypes : public ::RPG::GameCore::JsonConfig
 	{

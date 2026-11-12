@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByStatusResistance; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GDGJIPCMLDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1599BF90)
-#define GDGJIPCMLDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1599C070)
+#define GDGJIPCMLDA_CTOR_OFFSET UNITYSDK_OFFSET(0x168D2D40)
+#define GDGJIPCMLDA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x168D2E20)
 
-inline static constexpr unsigned int GDGJIPCMLDA_TypeDefinitionIndex = 55471;
+inline static constexpr unsigned int GDGJIPCMLDA_TypeDefinitionIndex = 56659;
 
 	class GDGJIPCMLDA
 	{

@@ -9,33 +9,33 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define GJCFMFEAEBG_AEOMOEJCPHB_OFFSET UNITYSDK_OFFSET(0x15A5C7F0)
-#define GJCFMFEAEBG_CCTOR_OFFSET UNITYSDK_OFFSET(0x15A5CC10)
-#define GJCFMFEAEBG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5C1F0)
-#define GJCFMFEAEBG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15A5C770)
-#define GJCFMFEAEBG_GPOOBEJLGOG_OFFSET UNITYSDK_OFFSET(0x15A5C320)
-#define GJCFMFEAEBG_HPNKDJDJMLN_OFFSET UNITYSDK_OFFSET(0x15A5C710)
-#define GJCFMFEAEBG_IILIABMPCNB_OFFSET UNITYSDK_OFFSET(0x15A5C970)
-#define GJCFMFEAEBG_JIFPPKNBGMH_OFFSET UNITYSDK_OFFSET(0x15A5CA30)
-#define GJCFMFEAEBG_NLHPBAOOMDK_OFFSET UNITYSDK_OFFSET(0x15A5C840)
+#define GJCFMFEAEBG_AEOMOEJCPHB_OFFSET UNITYSDK_OFFSET(0x16997D30)
+#define GJCFMFEAEBG_CCTOR_OFFSET UNITYSDK_OFFSET(0x16998150)
+#define GJCFMFEAEBG_CTOR_OFFSET UNITYSDK_OFFSET(0x16997730)
+#define GJCFMFEAEBG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16997CB0)
+#define GJCFMFEAEBG_GPOOBEJLGOG_OFFSET UNITYSDK_OFFSET(0x16997860)
+#define GJCFMFEAEBG_HPNKDJDJMLN_OFFSET UNITYSDK_OFFSET(0x16997C50)
+#define GJCFMFEAEBG_IILIABMPCNB_OFFSET UNITYSDK_OFFSET(0x16997EB0)
+#define GJCFMFEAEBG_JIFPPKNBGMH_OFFSET UNITYSDK_OFFSET(0x16997F70)
+#define GJCFMFEAEBG_NLHPBAOOMDK_OFFSET UNITYSDK_OFFSET(0x16997D80)
 
-inline static constexpr unsigned int GJCFMFEAEBG_TypeDefinitionIndex = 74371;
+inline static constexpr unsigned int GJCFMFEAEBG_TypeDefinitionIndex = 76519;
 
 	class GJCFMFEAEBG : public ::System::Object
 	{
 	public:
-		::UnityEngine::GameObject* GHKKPFEJLBP; // 0x10
-		::UnityEngine::Material* NCNJEKDLNEN; // 0x18
+		::GJCFMFEAEBG_CDBDNCNBDBC* AOKKCIPBODJ; // 0x10
+		::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* FJECIBLPPIJ; // 0x18
 		::GJCFMFEAEBG_CDBDNCNBDBC* JJBOPOPCOCH; // 0x20
-		::UnityEngine::MeshRenderer* JAMDAALMOAL; // 0x28
-		::RPG::CustomRP::AvatarEffectInfo_PerRendererEffect* FJECIBLPPIJ; // 0x30
-		::System::Collections::Generic::List_1<::UnityEngine::Material*>* ABAJIOEFDFB; // 0x38
-		::GJCFMFEAEBG_CDBDNCNBDBC* LKGBNJEFHLB; // 0x40
-		::GJCFMFEAEBG_CDBDNCNBDBC* AOKKCIPBODJ; // 0x48
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* ABAJIOEFDFB; // 0x28
+		::UnityEngine::Material* NCNJEKDLNEN; // 0x30
+		::GJCFMFEAEBG_CDBDNCNBDBC* LKGBNJEFHLB; // 0x38
+		::UnityEngine::MeshRenderer* JAMDAALMOAL; // 0x40
+		::UnityEngine::GameObject* GHKKPFEJLBP; // 0x48
 		::System::Boolean AABHPGANPJG; // 0x50
 		static ::Il2CppArray<::System::Int32>** StaticGet_DPOBOPKPMHI()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "GJCFMFEAEBG")->GetStaticField(0x5F9C0);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("", "GJCFMFEAEBG")->GetStaticField(0x69F70);
 		}
 
 		::System::Void _ctor(::UnityEngine::GameObject* a1, ::UnityEngine::MeshRenderer* a2, ::UnityEngine::Material* a3)

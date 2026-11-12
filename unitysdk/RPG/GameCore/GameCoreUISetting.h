@@ -12,6 +12,7 @@ namespace RPG::GameCore { class ActionBarStyleSizeSetting; }
 namespace RPG::GameCore { class DamageTextPoolMaxSizeOfGraphicsQuality; }
 namespace RPG::GameCore { class ElationLevelSetting; }
 namespace RPG::GameCore { class GameCoreUISetting; }
+namespace RPG::GameCore { class HPBarCameraSetting; }
 namespace RPG::GameCore { class HighlightOutlineSetting; }
 namespace RPG::GameCore { class ModifierDestroyTextInfo; }
 namespace RPG::GameCore { class MonsterEnergyBarNumColorSetting; }
@@ -23,12 +24,12 @@ namespace RPG::GameCore { class UIPanelGroup; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_GAMECOREUISETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7160C0)
-#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D713770)
+#define RPG_GAMECORE_GAMECOREUISETTING_CTOR_OFFSET UNITYSDK_OFFSET(0x1E920D20)
+#define RPG_GAMECORE_GAMECOREUISETTING_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E915150)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 17141;
+	inline static constexpr unsigned int GameCoreUISetting_TypeDefinitionIndex = 17308;
 
 	class GameCoreUISetting : public ::RPG::GameCore::JsonConfig
 	{
@@ -93,10 +94,8 @@ namespace RPG::GameCore
 		::System::Byte _padding3[0x4];
 		::System::String* PlayerFootprintPath; // 0x1F8
 		::System::Collections::Generic::Dictionary_2<::RPG::Client::TextID, ::System::String*>* SkillTypeColor; // 0x200
-		::System::Single HPBarCameraOffsetYFar; // 0x208
-		::System::Single HPBarCameraOffsetYNear; // 0x20C
-		::System::Single HPBarCameraDistanceMax; // 0x210
-		::System::Single HPBarCameraDistanceMin; // 0x214
+		::RPG::GameCore::HPBarCameraSetting* MonsterHPBarCameraSetting; // 0x208
+		::RPG::GameCore::HPBarCameraSetting* AvatarHPBarCameraSetting; // 0x210
 		::System::Single ShowBuffGapTime; // 0x218
 		::System::Single ShowBuffDamageTextGapTime; // 0x21C
 		::System::Boolean CheckUIFollow3DTargetVisibility; // 0x220

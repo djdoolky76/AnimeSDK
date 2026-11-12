@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IAsyncSubmitEventHandler_1_TypeDefinitionIndex = 38479;
+	inline static constexpr unsigned int IAsyncSubmitEventHandler_1_TypeDefinitionIndex = 39408;
 
 	template <typename T>
 	class IAsyncSubmitEventHandler_1

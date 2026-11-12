@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtSkillFinish; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHBNAADGDGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB4590)
-#define HHBNAADGDGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CB45C0)
+#define HHBNAADGDGN_CTOR_OFFSET UNITYSDK_OFFSET(0x16C00470)
+#define HHBNAADGDGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C004A0)
 
-inline static constexpr unsigned int HHBNAADGDGN_TypeDefinitionIndex = 53933;
+inline static constexpr unsigned int HHBNAADGDGN_TypeDefinitionIndex = 55097;
 
 	class HHBNAADGDGN
 	{

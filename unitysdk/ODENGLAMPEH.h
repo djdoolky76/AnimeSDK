@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define ODENGLAMPEH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD919A0)
-#define ODENGLAMPEH_PAEOPFFDNJM_OFFSET UNITYSDK_OFFSET(0xBD91B90)
-#define ODENGLAMPEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD91A20)
-#define ODENGLAMPEH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBD91AB0)
+#define ODENGLAMPEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC697F50)
+#define ODENGLAMPEH_PAEOPFFDNJM_OFFSET UNITYSDK_OFFSET(0xC698140)
+#define ODENGLAMPEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC697FD0)
+#define ODENGLAMPEH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC698060)
 
-inline static constexpr unsigned int ODENGLAMPEH_TypeDefinitionIndex = 66993;
+inline static constexpr unsigned int ODENGLAMPEH_TypeDefinitionIndex = 68937;
 
 	class ODENGLAMPEH : public ::System::Object
 	{

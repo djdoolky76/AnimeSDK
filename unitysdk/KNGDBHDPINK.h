@@ -5,19 +5,19 @@ namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 namespace UnityEngine::UI { class Text; }
 
-#define KNGDBHDPINK_CTOR_OFFSET UNITYSDK_OFFSET(0xB583A20)
-#define KNGDBHDPINK_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB5837A0)
-#define KNGDBHDPINK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5835D0)
+#define KNGDBHDPINK_CTOR_OFFSET UNITYSDK_OFFSET(0xBDD2120)
+#define KNGDBHDPINK_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBDD1EA0)
+#define KNGDBHDPINK__ONBIND_OFFSET UNITYSDK_OFFSET(0xBDD1C10)
 
-inline static constexpr unsigned int KNGDBHDPINK_TypeDefinitionIndex = 71374;
+inline static constexpr unsigned int KNGDBHDPINK_TypeDefinitionIndex = 73351;
 
 	class KNGDBHDPINK : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::Transform* LHIBEDODAHA; // 0x60
-		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x68
-		::UnityEngine::UI::Text* EGAEPHINFAP; // 0x70
-		::UnityEngine::Transform* FCDDMEAANPH; // 0x78
+		::UnityEngine::UI::Text* EGAEPHINFAP; // 0x60
+		::UnityEngine::Transform* FCDDMEAANPH; // 0x68
+		::UnityEngine::Transform* LHIBEDODAHA; // 0x70
+		::UnityEngine::UI::Image* HPCAJDKDMEI; // 0x78
 		::UnityEngine::Transform* AOKHJDHAAKP; // 0x80
 		::System::Void _ctor()
 		{

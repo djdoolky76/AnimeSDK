@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IVirtualCursor_TypeDefinitionIndex = 73228;
+	inline static constexpr unsigned int IVirtualCursor_TypeDefinitionIndex = 75344;
 
 	class IVirtualCursor
 	{

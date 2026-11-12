@@ -5,20 +5,20 @@
 namespace RPG::Client::B51Racing { class B51RacingPartRetentionItemViewModel; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B41E0)
+#define RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGVIEWMODEL_CTOR_OFFSET UNITYSDK_OFFSET(0xD115410)
 
 namespace RPG::Client::B51Racing
 {
-	inline static constexpr unsigned int B51RacingNewPartHintDialogViewModel_TypeDefinitionIndex = 82008;
+	inline static constexpr unsigned int B51RacingNewPartHintDialogViewModel_TypeDefinitionIndex = 84789;
 
 	class B51RacingNewPartHintDialogViewModel : public ::System::Object
 	{
 	public:
-		::RPG::Client::B51Racing::B51RacingPartRetentionItemViewModel* NewPartItem; // 0x10
-		::System::Action* OnClose; // 0x18
-		::RPG::Client::B51Racing::B51RacingPartRetentionItemViewModel* OldPartItem; // 0x20
-		::RPG::GameCore::B51RacingPartType PartSlotType; // 0x28
-		::System::Int32 SelectedIndex; // 0x2C
+		::RPG::Client::B51Racing::B51RacingPartRetentionItemViewModel* OldPartItem; // 0x10
+		::RPG::Client::B51Racing::B51RacingPartRetentionItemViewModel* NewPartItem; // 0x18
+		::System::Action* OnClose; // 0x20
+		::System::Int32 SelectedIndex; // 0x28
+		::RPG::GameCore::B51RacingPartType PartSlotType; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_B51RACING_B51RACINGNEWPARTHINTDIALOGVIEWMODEL_CTOR_OFFSET))(this);

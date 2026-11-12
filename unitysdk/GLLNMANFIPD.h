@@ -3,10 +3,10 @@
 class PIILJCMOBLJ;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GLLNMANFIPD_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABCF60)
-#define GLLNMANFIPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ABCF90)
+#define GLLNMANFIPD_CTOR_OFFSET UNITYSDK_OFFSET(0x16A3F560)
+#define GLLNMANFIPD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16A3F590)
 
-inline static constexpr unsigned int GLLNMANFIPD_TypeDefinitionIndex = 55687;
+inline static constexpr unsigned int GLLNMANFIPD_TypeDefinitionIndex = 56888;
 
 	class GLLNMANFIPD
 	{

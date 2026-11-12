@@ -7,20 +7,20 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveFuncUnlockHintRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEFUNCUNLOCKHINTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77B950)
-#define RPG_GAMECORE_IDLELIVEFUNCUNLOCKHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77B700)
+#define RPG_GAMECORE_IDLELIVEFUNCUNLOCKHINTROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E98F080)
+#define RPG_GAMECORE_IDLELIVEFUNCUNLOCKHINTROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98EE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveFuncUnlockHintRow_TypeDefinitionIndex = 11740;
+	inline static constexpr unsigned int IdleLiveFuncUnlockHintRow_TypeDefinitionIndex = 11797;
 
 	class IdleLiveFuncUnlockHintRow : public ::System::Object
 	{
 	public:
 		::System::String* Icon; // 0x10
 		::RPG::GameCore::IdleLiveFuncUnlockType FuncUnlockType; // 0x18
-		::System::UInt32 UnlockId; // 0x1C
-		::System::UInt32 ID; // 0x20
+		::System::UInt32 ID; // 0x1C
+		::System::UInt32 UnlockId; // 0x20
 		::System::Byte _padding0[0x4];
 		::RPG::Client::TextID Desc; // 0x28
 		::System::Void _ctor()

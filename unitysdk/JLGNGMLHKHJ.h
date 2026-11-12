@@ -5,17 +5,17 @@
 class FCOEMCEDLNL;
 class JLGNGMLHKHJ;
 
-#define JLGNGMLHKHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D046050)
-#define JLGNGMLHKHJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D046060)
-#define JLGNGMLHKHJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D046020)
+#define JLGNGMLHKHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1E235050)
+#define JLGNGMLHKHJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E235060)
+#define JLGNGMLHKHJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E235020)
 
-inline static constexpr unsigned int JLGNGMLHKHJ_TypeDefinitionIndex = 10252;
+inline static constexpr unsigned int JLGNGMLHKHJ_TypeDefinitionIndex = 10261;
 
 	class JLGNGMLHKHJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* EIAFAKDMGBO; // 0x18
-		::Il2CppArray<::System::UInt32>* JBDKDPNPCDI; // 0x20
+		::Il2CppArray<::System::UInt32>* JBDKDPNPCDI; // 0x18
+		::Il2CppArray<::System::UInt32>* EIAFAKDMGBO; // 0x20
 		::Il2CppArray<::System::UInt32>* AFKFBFDBJCM; // 0x28
 		::System::Boolean JCJDLNJONMO; // 0x30
 		::System::Byte _padding0[0x3];

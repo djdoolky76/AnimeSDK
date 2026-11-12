@@ -4,11 +4,11 @@
 #include "unitysdk/System/Attribute.h"
 #include "unitysdk/System/Nullable_1.h"
 
-#define HPKGFEHMMAO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1CED6830)
-#define HPKGFEHMMAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CED6820)
-#define HPKGFEHMMAO_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1CED6850)
+#define HPKGFEHMMAO_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1E0C85E0)
+#define HPKGFEHMMAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0C85D0)
+#define HPKGFEHMMAO_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x1E0C8600)
 
-inline static constexpr unsigned int HPKGFEHMMAO_TypeDefinitionIndex = 24849;
+inline static constexpr unsigned int HPKGFEHMMAO_TypeDefinitionIndex = 25329;
 
 	class HPKGFEHMMAO : public ::System::Attribute
 	{

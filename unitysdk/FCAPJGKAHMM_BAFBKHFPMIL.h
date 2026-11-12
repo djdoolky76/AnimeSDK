@@ -4,7 +4,7 @@
 namespace R3 { template <typename T> class Observer_1; }
 namespace System { class IDisposable; }
 
-inline static constexpr unsigned int FCAPJGKAHMM_BAFBKHFPMIL_TypeDefinitionIndex = 44240;
+inline static constexpr unsigned int FCAPJGKAHMM_BAFBKHFPMIL_TypeDefinitionIndex = 45315;
 
 	class FCAPJGKAHMM_BAFBKHFPMIL : public ::System::Object
 	{

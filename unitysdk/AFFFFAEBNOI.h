@@ -7,27 +7,27 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 namespace RPG::GameCore { class ChenLingBattleAbility_SelfBoom; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define AFFFFAEBNOI_CCBFBLMACLA_OFFSET UNITYSDK_OFFSET(0xCF0A5A0)
-#define AFFFFAEBNOI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF09090)
-#define AFFFFAEBNOI_EDOMALELMED_OFFSET UNITYSDK_OFFSET(0xCF0A490)
-#define AFFFFAEBNOI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xCF0AE30)
-#define AFFFFAEBNOI_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xCF091A0)
-#define AFFFFAEBNOI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCF0AF10)
+#define AFFFFAEBNOI_CCBFBLMACLA_OFFSET UNITYSDK_OFFSET(0xD5BBDD0)
+#define AFFFFAEBNOI_CTOR_OFFSET UNITYSDK_OFFSET(0xD5BA8A0)
+#define AFFFFAEBNOI_EDOMALELMED_OFFSET UNITYSDK_OFFSET(0xD5BBCC0)
+#define AFFFFAEBNOI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xD5BC660)
+#define AFFFFAEBNOI_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xD5BA9B0)
+#define AFFFFAEBNOI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xD5BC740)
 
-inline static constexpr unsigned int AFFFFAEBNOI_TypeDefinitionIndex = 77913;
+inline static constexpr unsigned int AFFFFAEBNOI_TypeDefinitionIndex = 80648;
 
 	class AFFFFAEBNOI : public ::JNALBIEDNLH
 	{
 	public:
-		::RPG::GameCore::ChenLingBattleAbility_SelfBoom* EOOLHMDBDFA; // 0x28
-		::System::Collections::Generic::List_1<::System::Int32>* DLLFLMBCNEN; // 0x30
-		::System::Single LDJONAIFFOB; // 0x38
-		::System::Single LLNIGIGFCEA; // 0x3C
-		::System::Boolean NEGOBENGEFK; // 0x40
+		::System::Collections::Generic::List_1<::System::Int32>* DLLFLMBCNEN; // 0x28
+		::RPG::GameCore::ChenLingBattleAbility_SelfBoom* EOOLHMDBDFA; // 0x30
+		::System::Single COAELIHGAHH; // 0x38
+		::System::Boolean NEGOBENGEFK; // 0x3C
 		::System::Byte _padding0[0x3];
-		::System::Single COAELIHGAHH; // 0x44
-		::System::Single LFFKDKCGGOE; // 0x48
-		::System::Single KBELPMJNDMB; // 0x4C
+		::System::Single LDJONAIFFOB; // 0x40
+		::System::Single KBELPMJNDMB; // 0x44
+		::System::Single LLNIGIGFCEA; // 0x48
+		::System::Single LFFKDKCGGOE; // 0x4C
 		::System::Void _ctor(::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig* a1, ::CIIKBJFOKHL* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig*, ::CIIKBJFOKHL*))((::PBYTE)hIl2Cpp + AFFFFAEBNOI_CTOR_OFFSET))(this, a1, a2);

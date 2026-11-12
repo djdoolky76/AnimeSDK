@@ -4,11 +4,11 @@
 namespace Entitas { class IContext; }
 namespace Entitas::VisualDebugging::Unity { class ContextObserverBehaviour; }
 
-#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVEREXTENSION_FINDCONTEXTOBSERVER_OFFSET UNITYSDK_OFFSET(0x167605F0)
+#define ENTITAS_VISUALDEBUGGING_UNITY_CONTEXTOBSERVEREXTENSION_FINDCONTEXTOBSERVER_OFFSET UNITYSDK_OFFSET(0x175A4840)
 
 namespace Entitas::VisualDebugging::Unity
 {
-	inline static constexpr unsigned int ContextObserverExtension_TypeDefinitionIndex = 10058;
+	inline static constexpr unsigned int ContextObserverExtension_TypeDefinitionIndex = 10066;
 
 	class ContextObserverExtension : public ::System::Object
 	{

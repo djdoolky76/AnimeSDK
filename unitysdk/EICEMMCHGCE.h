@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetSelector; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EICEMMCHGCE_CTOR_OFFSET UNITYSDK_OFFSET(0x154BC940)
-#define EICEMMCHGCE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x154BC9B0)
+#define EICEMMCHGCE_CTOR_OFFSET UNITYSDK_OFFSET(0x163FB070)
+#define EICEMMCHGCE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x163FB0E0)
 
-inline static constexpr unsigned int EICEMMCHGCE_TypeDefinitionIndex = 59201;
+inline static constexpr unsigned int EICEMMCHGCE_TypeDefinitionIndex = 60478;
 
 	class EICEMMCHGCE
 	{

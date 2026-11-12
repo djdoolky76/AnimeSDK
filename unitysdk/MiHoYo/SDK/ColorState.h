@@ -3,7 +3,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ColorState_TypeDefinitionIndex = 8019;
+	inline static constexpr unsigned int ColorState_TypeDefinitionIndex = 8028;
 
 	enum class ColorState : ::System::Int32
 	{

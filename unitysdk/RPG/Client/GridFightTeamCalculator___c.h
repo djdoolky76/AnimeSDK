@@ -5,25 +5,25 @@ namespace RPG::Client { class GridFightEquipItemData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2A39B0)
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A39F0)
-#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__28_0_OFFSET UNITYSDK_OFFSET(0xD2A3A00)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCB4FC0)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB5000)
+#define RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__30_0_OFFSET UNITYSDK_OFFSET(0xDCB5010)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTeamCalculator___c_TypeDefinitionIndex = 64825;
+	inline static constexpr unsigned int GridFightTeamCalculator___c_TypeDefinitionIndex = 66369;
 
 	class GridFightTeamCalculator___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22E0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11C30);
 		}
 
-		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__28_0()
+		static ::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>** StaticGet___9__30_0()
 		{
-			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x22E8);
+			return (::System::Func_2<::RPG::Client::GridFightEquipItemData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x11C38);
 		}
 
 		static ::System::Void _cctor()
@@ -36,9 +36,9 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Boolean __CalculateEmblemScore_b__28_0(::RPG::Client::GridFightEquipItemData* a1)
+		::System::Boolean __CalculateEmblemScore_b__30_0(::RPG::Client::GridFightEquipItemData* a1)
 		{
-			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__28_0_OFFSET))(this, a1);
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightEquipItemData*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTEAMCALCULATOR___C___CALCULATEEMBLEMSCORE_B__30_0_OFFSET))(this, a1);
 		}
 
 	};

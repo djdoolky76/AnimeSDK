@@ -6,11 +6,11 @@ class NHPAANINLPK;
 namespace RPG::AvatarSystem { class IAvatar; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define CDIKCLEFPJL_CTOR_OFFSET UNITYSDK_OFFSET(0xC76A730)
-#define CDIKCLEFPJL_DCFAKMPMNFJ_OFFSET UNITYSDK_OFFSET(0xC76A770)
-#define CDIKCLEFPJL_LKFNNODKIIN_OFFSET UNITYSDK_OFFSET(0xC76AB10)
+#define CDIKCLEFPJL_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D3760)
+#define CDIKCLEFPJL_DCFAKMPMNFJ_OFFSET UNITYSDK_OFFSET(0xD0D37A0)
+#define CDIKCLEFPJL_LKFNNODKIIN_OFFSET UNITYSDK_OFFSET(0xD0D3B40)
 
-inline static constexpr unsigned int CDIKCLEFPJL_TypeDefinitionIndex = 65593;
+inline static constexpr unsigned int CDIKCLEFPJL_TypeDefinitionIndex = 67509;
 
 	class CDIKCLEFPJL : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 namespace System { class String; }
 namespace System::Security::Principal { class IIdentity; }
 
-#define SYSTEM_SECURITY_PRINCIPAL_GENERICPRINCIPAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0EE060)
+#define SYSTEM_SECURITY_PRINCIPAL_GENERICPRINCIPAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2751B0)
 
 namespace System::Security::Principal
 {

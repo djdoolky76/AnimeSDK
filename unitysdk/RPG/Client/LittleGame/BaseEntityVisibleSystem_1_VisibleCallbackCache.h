@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int BaseEntityVisibleSystem_1_VisibleCallbackCache_TypeDefinitionIndex = 42087;
+	inline static constexpr unsigned int BaseEntityVisibleSystem_1_VisibleCallbackCache_TypeDefinitionIndex = 43062;
 
 	template <typename T>
 	class BaseEntityVisibleSystem_1_VisibleCallbackCache

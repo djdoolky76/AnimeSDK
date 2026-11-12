@@ -5,20 +5,20 @@ namespace RPG::Client { class RoadRashGameModifier_TimedState; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PFFKIKDHPNH_CTOR_OFFSET UNITYSDK_OFFSET(0xC20D430)
-#define PFFKIKDHPNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC20D440)
-#define PFFKIKDHPNH_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xC20D650)
-#define PFFKIKDHPNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC20D480)
-#define PFFKIKDHPNH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC20D4D0)
-#define PFFKIKDHPNH_TICK_OFFSET UNITYSDK_OFFSET(0xC20D520)
+#define PFFKIKDHPNH_CTOR_OFFSET UNITYSDK_OFFSET(0xCAEFCE0)
+#define PFFKIKDHPNH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCAEFCF0)
+#define PFFKIKDHPNH_GETCONFIG_OFFSET UNITYSDK_OFFSET(0xCAEFF00)
+#define PFFKIKDHPNH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCAEFD30)
+#define PFFKIKDHPNH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCAEFD80)
+#define PFFKIKDHPNH_TICK_OFFSET UNITYSDK_OFFSET(0xCAEFDD0)
 
-inline static constexpr unsigned int PFFKIKDHPNH_TypeDefinitionIndex = 58432;
+inline static constexpr unsigned int PFFKIKDHPNH_TypeDefinitionIndex = 59688;
 
 	class PFFKIKDHPNH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::Client::RoadRashGameModifier_TimedState* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::Client::RoadRashGameModifier_TimedState* OFKGLJOAMLD; // 0x20
 		::System::Single BPAIDCADMDO; // 0x28
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::Client::RoadRashGameModifier_TimedState* a2)
 		{

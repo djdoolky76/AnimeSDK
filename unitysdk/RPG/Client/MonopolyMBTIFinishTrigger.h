@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/Client/MonopolyEffectShowType.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_MONOPOLYMBTIFINISHTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0xD89EA70)
-#define RPG_CLIENT_MONOPOLYMBTIFINISHTRIGGER_TRIGGER_OFFSET UNITYSDK_OFFSET(0xD89EA80)
+#define RPG_CLIENT_MONOPOLYMBTIFINISHTRIGGER_CTOR_OFFSET UNITYSDK_OFFSET(0xE2DAEB0)
+#define RPG_CLIENT_MONOPOLYMBTIFINISHTRIGGER_TRIGGER_OFFSET UNITYSDK_OFFSET(0xE2F1110)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyMBTIFinishTrigger_TypeDefinitionIndex = 66238;
+	inline static constexpr unsigned int MonopolyMBTIFinishTrigger_TypeDefinitionIndex = 68174;
 
 	class MonopolyMBTIFinishTrigger : public ::System::Object
 	{

@@ -4,18 +4,18 @@
 class HJHOMFFGCPE;
 namespace System { class String; }
 
-#define HJHOMFFGCPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D22000)
-#define HJHOMFFGCPE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D21FA0)
-#define HJHOMFFGCPE_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x15D21FB0)
+#define HJHOMFFGCPE_CCTOR_OFFSET UNITYSDK_OFFSET(0x16C72010)
+#define HJHOMFFGCPE_CTOR_OFFSET UNITYSDK_OFFSET(0x16C71FB0)
+#define HJHOMFFGCPE_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x16C71FC0)
 
-inline static constexpr unsigned int HJHOMFFGCPE_TypeDefinitionIndex = 67721;
+inline static constexpr unsigned int HJHOMFFGCPE_TypeDefinitionIndex = 69666;
 
 	class HJHOMFFGCPE : public ::GOGCDNMNIKF
 	{
 	public:
 		static ::HJHOMFFGCPE** StaticGet_FMJPMFEDIJL()
 		{
-			return (::HJHOMFFGCPE**)UnitySDK::FromName("", "HJHOMFFGCPE")->GetStaticField(0x20390);
+			return (::HJHOMFFGCPE**)UnitySDK::FromName("", "HJHOMFFGCPE")->GetStaticField(0x11060);
 		}
 
 		::System::Void _ctor()

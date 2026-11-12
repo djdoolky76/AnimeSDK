@@ -6,13 +6,13 @@ namespace RPG::GameCore { class ChimeraBattleShowDither; }
 namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CHIMERABATTLESHOWDITHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D598800)
-#define RPG_GAMECORE_CHIMERABATTLESHOWDITHER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D598810)
-#define RPG_GAMECORE_CHIMERABATTLESHOWDITHER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D599B30)
+#define RPG_GAMECORE_CHIMERABATTLESHOWDITHER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7A8AA0)
+#define RPG_GAMECORE_CHIMERABATTLESHOWDITHER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7A8AB0)
+#define RPG_GAMECORE_CHIMERABATTLESHOWDITHER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7AA2F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraBattleShowDither_TypeDefinitionIndex = 15876;
+	inline static constexpr unsigned int ChimeraBattleShowDither_TypeDefinitionIndex = 16034;
 
 	class ChimeraBattleShowDither : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_LINE3DPARTICLEEFFECTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD3F8180)
+#define RPG_CLIENT_LINE3DPARTICLEEFFECTMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDE4B390)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Line3DParticleEffectMonoPlugin_TypeDefinitionIndex = 70643;
+	inline static constexpr unsigned int Line3DParticleEffectMonoPlugin_TypeDefinitionIndex = 72620;
 
 	class Line3DParticleEffectMonoPlugin
 	{

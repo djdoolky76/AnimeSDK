@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class ElfBehaviorStateContentItem; }
 
-#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DELAYBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD42B310)
+#define RPG_CLIENT_LITTLEGAME_ELFRESTAURANT_ELFRESTAURANTAISERVICE_DELAYBEHAVIOR_CTOR_OFFSET UNITYSDK_OFFSET(0xDE97FB0)
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
-	inline static constexpr unsigned int ElfRestaurantAIService_DelayBehavior_TypeDefinitionIndex = 77251;
+	inline static constexpr unsigned int ElfRestaurantAIService_DelayBehavior_TypeDefinitionIndex = 79585;
 
 	class ElfRestaurantAIService_DelayBehavior : public ::System::Object
 	{

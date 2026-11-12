@@ -4,18 +4,18 @@
 class OMPEMGHMDPM;
 namespace System { class Object; }
 
-#define OMPEMGHMDPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEBE430)
-#define OMPEMGHMDPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEBE470)
-#define OMPEMGHMDPM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEBE480)
+#define OMPEMGHMDPM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1861A0)
+#define OMPEMGHMDPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1861E0)
+#define OMPEMGHMDPM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F1861F0)
 
-inline static constexpr unsigned int OMPEMGHMDPM___c_TypeDefinitionIndex = 27766;
+inline static constexpr unsigned int OMPEMGHMDPM___c_TypeDefinitionIndex = 28297;
 
 	class OMPEMGHMDPM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2BA80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25530);
 		}
 
 		static ::System::Void _cctor()

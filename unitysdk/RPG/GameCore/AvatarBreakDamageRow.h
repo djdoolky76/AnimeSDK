@@ -5,18 +5,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AvatarBreakDamageRow; }
 
-#define RPG_GAMECORE_AVATARBREAKDAMAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D40D360)
-#define RPG_GAMECORE_AVATARBREAKDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D40D220)
+#define RPG_GAMECORE_AVATARBREAKDAMAGEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62D5F0)
+#define RPG_GAMECORE_AVATARBREAKDAMAGEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E62D4B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarBreakDamageRow_TypeDefinitionIndex = 12758;
+	inline static constexpr unsigned int AvatarBreakDamageRow_TypeDefinitionIndex = 12828;
 
 	class AvatarBreakDamageRow : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint BreakBaseDamage; // 0x10
-		::System::UInt32 Level; // 0x18
+		::System::UInt32 Level; // 0x10
+		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint BreakBaseDamage; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_AVATARBREAKDAMAGEROW_CTOR_OFFSET))(this);

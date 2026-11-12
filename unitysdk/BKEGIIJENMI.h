@@ -4,11 +4,11 @@
 class JEPGAKKOHLE;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define BKEGIIJENMI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AFA00)
-#define BKEGIIJENMI_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xB7AF9B0)
-#define BKEGIIJENMI_GET_PLACEDCHIPS_OFFSET UNITYSDK_OFFSET(0xB7AF9F0)
+#define BKEGIIJENMI_CTOR_OFFSET UNITYSDK_OFFSET(0xC106430)
+#define BKEGIIJENMI_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xC1063E0)
+#define BKEGIIJENMI_GET_PLACEDCHIPS_OFFSET UNITYSDK_OFFSET(0xC106420)
 
-inline static constexpr unsigned int BKEGIIJENMI_TypeDefinitionIndex = 80137;
+inline static constexpr unsigned int BKEGIIJENMI_TypeDefinitionIndex = 82914;
 
 	class BKEGIIJENMI : public ::System::Object
 	{

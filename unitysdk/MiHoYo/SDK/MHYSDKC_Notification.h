@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int MHYSDKC_Notification_TypeDefinitionIndex = 46218;
+	inline static constexpr unsigned int MHYSDKC_Notification_TypeDefinitionIndex = 47247;
 
 	class MHYSDKC_Notification : public ::System::Object
 	{

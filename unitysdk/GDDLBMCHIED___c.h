@@ -4,18 +4,18 @@
 class GDDLBMCHIED;
 namespace System { class Object; }
 
-#define GDDLBMCHIED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E445D00)
-#define GDDLBMCHIED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E445D40)
-#define GDDLBMCHIED___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E445D50)
+#define GDDLBMCHIED___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F733AA0)
+#define GDDLBMCHIED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F733AE0)
+#define GDDLBMCHIED___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F733AF0)
 
-inline static constexpr unsigned int GDDLBMCHIED___c_TypeDefinitionIndex = 27066;
+inline static constexpr unsigned int GDDLBMCHIED___c_TypeDefinitionIndex = 27597;
 
 	class GDDLBMCHIED___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x101F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56CF0);
 		}
 
 		static ::System::Void _cctor()

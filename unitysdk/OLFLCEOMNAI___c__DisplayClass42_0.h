@@ -5,10 +5,10 @@
 class HFCOGLIEHFB;
 namespace System { class String; }
 
-#define OLFLCEOMNAI___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBF07370)
-#define OLFLCEOMNAI___C__DISPLAYCLASS42_0__GETASYNCOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0xBF08340)
+#define OLFLCEOMNAI___C__DISPLAYCLASS42_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC802850)
+#define OLFLCEOMNAI___C__DISPLAYCLASS42_0__GETASYNCOPERATION_B__0_OFFSET UNITYSDK_OFFSET(0xC803820)
 
-inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass42_0_TypeDefinitionIndex = 82263;
+inline static constexpr unsigned int OLFLCEOMNAI___c__DisplayClass42_0_TypeDefinitionIndex = 85136;
 
 	class OLFLCEOMNAI___c__DisplayClass42_0 : public ::System::Object
 	{

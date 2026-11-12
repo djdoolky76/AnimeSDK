@@ -7,19 +7,19 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define FPNCFGCJNJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15921490)
-#define FPNCFGCJNJL_GHIMCEMDDOA_OFFSET UNITYSDK_OFFSET(0x15920F20)
-#define FPNCFGCJNJL_JLBHBIPIDCO_1_OFFSET UNITYSDK_OFFSET(0x15921600)
-#define FPNCFGCJNJL_JLBHBIPIDCO_OFFSET UNITYSDK_OFFSET(0x159215A0)
-#define FPNCFGCJNJL_NPLMOGNCNLD_OFFSET UNITYSDK_OFFSET(0x15920E40)
+#define FPNCFGCJNJL_CTOR_OFFSET UNITYSDK_OFFSET(0x168547D0)
+#define FPNCFGCJNJL_GHIMCEMDDOA_OFFSET UNITYSDK_OFFSET(0x16854260)
+#define FPNCFGCJNJL_JLBHBIPIDCO_1_OFFSET UNITYSDK_OFFSET(0x16854910)
+#define FPNCFGCJNJL_JLBHBIPIDCO_OFFSET UNITYSDK_OFFSET(0x168548B0)
+#define FPNCFGCJNJL_NPLMOGNCNLD_OFFSET UNITYSDK_OFFSET(0x16854180)
 
-inline static constexpr unsigned int FPNCFGCJNJL_TypeDefinitionIndex = 49082;
+inline static constexpr unsigned int FPNCFGCJNJL_TypeDefinitionIndex = 50158;
 
 	class FPNCFGCJNJL : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* AIIKOFMNHII; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* JFEMAJLJHNG; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* JFEMAJLJHNG; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Object*>* AIIKOFMNHII; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FPNCFGCJNJL_CTOR_OFFSET))(this);

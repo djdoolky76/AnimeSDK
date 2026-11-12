@@ -6,21 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicValue; }
 namespace RPG::GameCore { class SpaceZooInteractionRow; }
 
-#define RPG_GAMECORE_SPACEZOOINTERACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAF6080)
-#define RPG_GAMECORE_SPACEZOOINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DAF5DF0)
+#define RPG_GAMECORE_SPACEZOOINTERACTIONROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED080C0)
+#define RPG_GAMECORE_SPACEZOOINTERACTIONROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED07E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SpaceZooInteractionRow_TypeDefinitionIndex = 12384;
+	inline static constexpr unsigned int SpaceZooInteractionRow_TypeDefinitionIndex = 12451;
 
 	class SpaceZooInteractionRow : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::DynamicValue* Param; // 0x10
-		::RPG::GameCore::SpaceZooInteractionCase Case; // 0x18
-		::System::Int32 Priority; // 0x1C
-		::System::UInt32 RoomID; // 0x20
-		::System::UInt32 ID; // 0x24
+		::System::Int32 Priority; // 0x18
+		::RPG::GameCore::SpaceZooInteractionCase Case; // 0x1C
+		::System::UInt32 ID; // 0x20
+		::System::UInt32 RoomID; // 0x24
 		::System::UInt32 PerformanceID; // 0x28
 		::System::Void _ctor()
 		{

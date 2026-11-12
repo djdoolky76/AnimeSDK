@@ -4,23 +4,23 @@
 class KBDDNMNIHIG;
 namespace RPG::GameCore { class DeviceSettingConfig; }
 
-#define EDLEPBPAPDN_BEKDECABOKI_OFFSET UNITYSDK_OFFSET(0x1332A960)
-#define EDLEPBPAPDN_FFEDKCEDHIL_OFFSET UNITYSDK_OFFSET(0x1332A900)
-#define EDLEPBPAPDN_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0x1332A660)
+#define EDLEPBPAPDN_BEKDECABOKI_OFFSET UNITYSDK_OFFSET(0x140E7800)
+#define EDLEPBPAPDN_FFEDKCEDHIL_OFFSET UNITYSDK_OFFSET(0x140E77A0)
+#define EDLEPBPAPDN_ODPAPLIIDDD_OFFSET UNITYSDK_OFFSET(0x140E7500)
 
-inline static constexpr unsigned int EDLEPBPAPDN_TypeDefinitionIndex = 68285;
+inline static constexpr unsigned int EDLEPBPAPDN_TypeDefinitionIndex = 70231;
 
 	class EDLEPBPAPDN : public ::System::Object
 	{
 	public:
-		static ::KBDDNMNIHIG** StaticGet_HMPDKCFLOFJ()
-		{
-			return (::KBDDNMNIHIG**)UnitySDK::FromName("", "EDLEPBPAPDN")->GetStaticField(0x6FF90);
-		}
-
 		static ::RPG::GameCore::DeviceSettingConfig** StaticGet_KGKBIIIAJCL()
 		{
-			return (::RPG::GameCore::DeviceSettingConfig**)UnitySDK::FromName("", "EDLEPBPAPDN")->GetStaticField(0x6FF98);
+			return (::RPG::GameCore::DeviceSettingConfig**)UnitySDK::FromName("", "EDLEPBPAPDN")->GetStaticField(0x73330);
+		}
+
+		static ::KBDDNMNIHIG** StaticGet_HMPDKCFLOFJ()
+		{
+			return (::KBDDNMNIHIG**)UnitySDK::FromName("", "EDLEPBPAPDN")->GetStaticField(0x73338);
 		}
 
 		static ::System::Void ODPAPLIIDDD()

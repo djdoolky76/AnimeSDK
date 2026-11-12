@@ -3,7 +3,7 @@
 #include "unitysdk/Unity/Jobs/LowLevel/Unsafe/ScheduleMode.h"
 #include "unitysdk/Unity/Jobs/JobHandle.h"
 
-#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x3C6AF40)
+#define UNITY_JOBS_LOWLEVEL_UNSAFE_JOBSUTILITY_JOBSCHEDULEPARAMETERS_CTOR_OFFSET UNITYSDK_OFFSET(0x3EBA3B0)
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {

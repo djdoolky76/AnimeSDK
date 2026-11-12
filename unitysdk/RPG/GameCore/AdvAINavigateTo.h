@@ -9,13 +9,13 @@ namespace RPG::GameCore { class AdvAINavigateTo; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_ADVAINAVIGATETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D38D760)
-#define RPG_GAMECORE_ADVAINAVIGATETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D38D770)
-#define RPG_GAMECORE_ADVAINAVIGATETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D38D720)
+#define RPG_GAMECORE_ADVAINAVIGATETO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E59D430)
+#define RPG_GAMECORE_ADVAINAVIGATETO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E59D440)
+#define RPG_GAMECORE_ADVAINAVIGATETO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E59D3F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdvAINavigateTo_TypeDefinitionIndex = 20003;
+	inline static constexpr unsigned int AdvAINavigateTo_TypeDefinitionIndex = 20337;
 
 	class AdvAINavigateTo : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,18 +4,18 @@
 class EIFJNMDDNPF;
 namespace System { class Object; }
 
-#define EIFJNMDDNPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E2A91D0)
-#define EIFJNMDDNPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2A9210)
-#define EIFJNMDDNPF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2A9220)
+#define EIFJNMDDNPF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F58C870)
+#define EIFJNMDDNPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F58C8B0)
+#define EIFJNMDDNPF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F58C8C0)
 
-inline static constexpr unsigned int EIFJNMDDNPF___c_TypeDefinitionIndex = 27125;
+inline static constexpr unsigned int EIFJNMDDNPF___c_TypeDefinitionIndex = 27656;
 
 	class EIFJNMDDNPF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x498E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42DC0);
 		}
 
 		static ::System::Void _cctor()

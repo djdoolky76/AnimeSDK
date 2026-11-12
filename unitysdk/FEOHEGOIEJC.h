@@ -1,10 +1,10 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define FEOHEGOIEJC_CTOR_OFFSET UNITYSDK_OFFSET(0x1572D7F0)
-#define FEOHEGOIEJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1572D700)
+#define FEOHEGOIEJC_CTOR_OFFSET UNITYSDK_OFFSET(0x16647B00)
+#define FEOHEGOIEJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16647A10)
 
-inline static constexpr unsigned int FEOHEGOIEJC_TypeDefinitionIndex = 68597;
+inline static constexpr unsigned int FEOHEGOIEJC_TypeDefinitionIndex = 70545;
 
 	class FEOHEGOIEJC
 	{

@@ -5,13 +5,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelBlockListResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxBlockListExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF22080)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF22040)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF22030)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A8C40)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1D0A8C00)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELBLOCKLISTRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0A8BF0)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelBlockListResult_TypeDefinitionIndex = 8623;
+	inline static constexpr unsigned int HoYoChannelBlockListResult_TypeDefinitionIndex = 8632;
 
 	class HoYoChannelBlockListResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

@@ -3,10 +3,10 @@
 class CFBFPOLPBIE;
 namespace RPG::GameCore { class TaskContext; }
 
-#define GJCLBPHPINK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A5CEC0)
-#define GJCLBPHPINK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15A5CEF0)
+#define GJCLBPHPINK_CTOR_OFFSET UNITYSDK_OFFSET(0x16998400)
+#define GJCLBPHPINK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16998430)
 
-inline static constexpr unsigned int GJCLBPHPINK_TypeDefinitionIndex = 55032;
+inline static constexpr unsigned int GJCLBPHPINK_TypeDefinitionIndex = 56208;
 
 	class GJCLBPHPINK
 	{

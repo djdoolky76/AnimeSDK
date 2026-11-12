@@ -7,12 +7,12 @@ namespace RPG::GameCore { class PointEvaluatorConstValue; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D93D680)
-#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D93D5A0)
+#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB56800)
+#define RPG_GAMECORE_POINTEVALUATORCONSTVALUE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB56720)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PointEvaluatorConstValue_TypeDefinitionIndex = 15633;
+	inline static constexpr unsigned int PointEvaluatorConstValue_TypeDefinitionIndex = 15791;
 
 	class PointEvaluatorConstValue : public ::RPG::GameCore::JsonConfig
 	{

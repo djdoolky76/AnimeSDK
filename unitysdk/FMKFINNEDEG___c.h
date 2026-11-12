@@ -4,18 +4,18 @@
 class FMKFINNEDEG;
 namespace System { class Object; }
 
-#define FMKFINNEDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E3E8AB0)
-#define FMKFINNEDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3E8AE0)
-#define FMKFINNEDEG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E3E8AF0)
+#define FMKFINNEDEG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6D4A90)
+#define FMKFINNEDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6D4AC0)
+#define FMKFINNEDEG___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F6D4AD0)
 
-inline static constexpr unsigned int FMKFINNEDEG___c_TypeDefinitionIndex = 32057;
+inline static constexpr unsigned int FMKFINNEDEG___c_TypeDefinitionIndex = 32970;
 
 	class FMKFINNEDEG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x64E60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E070);
 		}
 
 		static ::System::Void _cctor()

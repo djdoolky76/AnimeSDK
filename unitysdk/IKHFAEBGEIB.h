@@ -4,18 +4,18 @@
 class IKHFAEBGEIB;
 namespace RPG::Client::Promises { class Promise; }
 
-#define IKHFAEBGEIB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1648D250)
-#define IKHFAEBGEIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1648D2C0)
-#define IKHFAEBGEIB_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1648D2D0)
+#define IKHFAEBGEIB_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0x1745FE70)
+#define IKHFAEBGEIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1745FEE0)
+#define IKHFAEBGEIB_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1745FEF0)
 
-inline static constexpr unsigned int IKHFAEBGEIB_TypeDefinitionIndex = 73116;
+inline static constexpr unsigned int IKHFAEBGEIB_TypeDefinitionIndex = 75230;
 
 	class IKHFAEBGEIB : public ::System::Object
 	{
 	public:
 		static ::IKHFAEBGEIB** StaticGet_FLMODBLFAGD()
 		{
-			return (::IKHFAEBGEIB**)UnitySDK::FromName("", "IKHFAEBGEIB")->GetStaticField(0x64420);
+			return (::IKHFAEBGEIB**)UnitySDK::FromName("", "IKHFAEBGEIB")->GetStaticField(0x6A0E0);
 		}
 
 		::System::Void _ctor()

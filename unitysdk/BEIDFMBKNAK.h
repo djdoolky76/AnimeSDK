@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define BEIDFMBKNAK_CTOR_OFFSET UNITYSDK_OFFSET(0x16323820)
+#define BEIDFMBKNAK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7DAAB0)
 
-inline static constexpr unsigned int BEIDFMBKNAK_TypeDefinitionIndex = 79199;
+inline static constexpr unsigned int BEIDFMBKNAK_TypeDefinitionIndex = 81976;
 
 	class BEIDFMBKNAK : public ::System::Object
 	{

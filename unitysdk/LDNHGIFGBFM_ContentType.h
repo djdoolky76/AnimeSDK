@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int LDNHGIFGBFM_ContentType_TypeDefinitionIndex = 79485;
+inline static constexpr unsigned int LDNHGIFGBFM_ContentType_TypeDefinitionIndex = 82262;
 
 	enum class LDNHGIFGBFM_ContentType : ::System::Int32
 	{

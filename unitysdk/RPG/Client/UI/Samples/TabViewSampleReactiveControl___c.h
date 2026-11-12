@@ -8,31 +8,31 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE411650)
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE411690)
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_0_OFFSET UNITYSDK_OFFSET(0xE4116A0)
-#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_1_OFFSET UNITYSDK_OFFSET(0xE4116C0)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEECCB60)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEECCBA0)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_0_OFFSET UNITYSDK_OFFSET(0xEECCBB0)
+#define RPG_CLIENT_UI_SAMPLES_TABVIEWSAMPLEREACTIVECONTROL___C___BINDING_B__2_1_OFFSET UNITYSDK_OFFSET(0xEECCBD0)
 
 namespace RPG::Client::Ui::Samples
 {
-	inline static constexpr unsigned int TabViewSampleReactiveControl___c_TypeDefinitionIndex = 73465;
+	inline static constexpr unsigned int TabViewSampleReactiveControl___c_TypeDefinitionIndex = 75588;
 
 	class TabViewSampleReactiveControl___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::KBKLMAHKJAE*, ::ObservableCollections::IObservableCollection_1<::BFKICIPPEBD*>*>** StaticGet___9__2_1()
 		{
-			return (::System::Func_2<::KBKLMAHKJAE*, ::ObservableCollections::IObservableCollection_1<::BFKICIPPEBD*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42780);
-		}
-
-		static ::System::Func_2<::KBKLMAHKJAE*, ::R3::ReactiveProperty_1<::System::Int32>*>** StaticGet___9__2_0()
-		{
-			return (::System::Func_2<::KBKLMAHKJAE*, ::R3::ReactiveProperty_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42788);
+			return (::System::Func_2<::KBKLMAHKJAE*, ::ObservableCollections::IObservableCollection_1<::BFKICIPPEBD*>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D6E0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x42790);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D6E8);
+		}
+
+		static ::System::Func_2<::KBKLMAHKJAE*, ::R3::ReactiveProperty_1<::System::Int32>*>** StaticGet___9__2_0()
+		{
+			return (::System::Func_2<::KBKLMAHKJAE*, ::R3::ReactiveProperty_1<::System::Int32>*>**)UnitySDK::FromName("RPG.Client.Ui.Samples", "<>c")->GetStaticField(0x4D6F0);
 		}
 
 		static ::System::Void _cctor()

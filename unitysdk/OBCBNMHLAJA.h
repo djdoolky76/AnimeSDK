@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 class KFELGAIGHAP;
 
-#define OBCBNMHLAJA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD372C0)
-#define OBCBNMHLAJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBD37160)
+#define OBCBNMHLAJA_CTOR_OFFSET UNITYSDK_OFFSET(0xC63ABB0)
+#define OBCBNMHLAJA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC63AA50)
 
-inline static constexpr unsigned int OBCBNMHLAJA_TypeDefinitionIndex = 55906;
+inline static constexpr unsigned int OBCBNMHLAJA_TypeDefinitionIndex = 57109;
 
 	class OBCBNMHLAJA : public ::System::Object
 	{
 	public:
-		::KFELGAIGHAP* FHNFLOPBOAG; // 0x10
-		::KFELGAIGHAP* GEJDEFABOJM; // 0x18
-		::System::Boolean OOPCCJLOGEG; // 0x20
+		::KFELGAIGHAP* GEJDEFABOJM; // 0x10
+		::KFELGAIGHAP* FHNFLOPBOAG; // 0x18
+		::System::Boolean LAMKDFKBGFA; // 0x20
 		::System::Boolean FJOJGCGNNOO; // 0x21
-		::System::Boolean LAMKDFKBGFA; // 0x22
+		::System::Boolean OOPCCJLOGEG; // 0x22
 		::System::Byte _padding0[0x1];
 		::System::Int32 GMDBHJKEAEI; // 0x24
 		::System::Void _ctor()

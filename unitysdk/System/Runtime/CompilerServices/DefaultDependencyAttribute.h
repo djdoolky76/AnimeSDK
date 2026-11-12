@@ -3,7 +3,7 @@
 #include "unitysdk/System/Runtime/CompilerServices/LoadHint.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2C7680)
+#define SYSTEM_RUNTIME_COMPILERSERVICES_DEFAULTDEPENDENCYATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D44E300)
 
 namespace System::Runtime::CompilerServices
 {

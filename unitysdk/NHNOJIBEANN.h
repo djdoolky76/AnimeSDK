@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PreloadStageBattleEventEffects; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NHNOJIBEANN_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDA260)
-#define NHNOJIBEANN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBDA290)
+#define NHNOJIBEANN_CTOR_OFFSET UNITYSDK_OFFSET(0xC4BAF80)
+#define NHNOJIBEANN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC4BAFB0)
 
-inline static constexpr unsigned int NHNOJIBEANN_TypeDefinitionIndex = 58300;
+inline static constexpr unsigned int NHNOJIBEANN_TypeDefinitionIndex = 59556;
 
 	class NHNOJIBEANN
 	{

@@ -7,16 +7,16 @@ namespace System::Collections::Concurrent { template <typename T> class Blocking
 namespace System::IO { class FileStream; }
 namespace System::Threading { class Thread; }
 
-#define PHEMNMILGND_CCTOR_OFFSET UNITYSDK_OFFSET(0xC249750)
-#define PHEMNMILGND_CTOR_OFFSET UNITYSDK_OFFSET(0xC248CA0)
-#define PHEMNMILGND_DOMMOJEBNIN_OFFSET UNITYSDK_OFFSET(0xC249060)
-#define PHEMNMILGND_GLLEGCNKOJM_OFFSET UNITYSDK_OFFSET(0xC248990)
-#define PHEMNMILGND_HFDOJNAACOM_OFFSET UNITYSDK_OFFSET(0xC248E40)
-#define PHEMNMILGND_KFMHFDHJANO_OFFSET UNITYSDK_OFFSET(0xC248B30)
-#define PHEMNMILGND_NDLHPJGNKDI_OFFSET UNITYSDK_OFFSET(0xC248B80)
-#define PHEMNMILGND_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0xC2495B0)
+#define PHEMNMILGND_CCTOR_OFFSET UNITYSDK_OFFSET(0xCB6E820)
+#define PHEMNMILGND_CTOR_OFFSET UNITYSDK_OFFSET(0xCB6DD70)
+#define PHEMNMILGND_DOMMOJEBNIN_OFFSET UNITYSDK_OFFSET(0xCB6E130)
+#define PHEMNMILGND_GLLEGCNKOJM_OFFSET UNITYSDK_OFFSET(0xCB32410)
+#define PHEMNMILGND_HFDOJNAACOM_OFFSET UNITYSDK_OFFSET(0xCB6DF10)
+#define PHEMNMILGND_KFMHFDHJANO_OFFSET UNITYSDK_OFFSET(0xCB325B0)
+#define PHEMNMILGND_NDLHPJGNKDI_OFFSET UNITYSDK_OFFSET(0xCB6DC80)
+#define PHEMNMILGND_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0xCB6E680)
 
-inline static constexpr unsigned int PHEMNMILGND_TypeDefinitionIndex = 60065;
+inline static constexpr unsigned int PHEMNMILGND_TypeDefinitionIndex = 61349;
 
 	class PHEMNMILGND : public ::System::Object
 	{
@@ -26,7 +26,7 @@ inline static constexpr unsigned int PHEMNMILGND_TypeDefinitionIndex = 60065;
 		::System::Collections::Concurrent::BlockingCollection_1<::System::String*>* DKEJNELHLKI; // 0x20
 		static ::System::Boolean* StaticGet_CIGNLGMJCCO()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "PHEMNMILGND")->GetStaticField(0x15950);
+			return (::System::Boolean*)UnitySDK::FromName("", "PHEMNMILGND")->GetStaticField(0x15DF0);
 		}
 
 		::System::Void _ctor(::System::String* a1)

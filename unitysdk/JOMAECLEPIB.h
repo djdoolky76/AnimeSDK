@@ -20,33 +20,33 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JOMAECLEPIB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB2A83F0)
-#define JOMAECLEPIB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB2A95C0)
-#define JOMAECLEPIB_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A8370)
-#define JOMAECLEPIB_KAFHHKCGAEN_OFFSET UNITYSDK_OFFSET(0xB2A8800)
-#define JOMAECLEPIB_MCHILAAHBLH_OFFSET UNITYSDK_OFFSET(0xB2A8F80)
-#define JOMAECLEPIB_MGEFMEFCICP_OFFSET UNITYSDK_OFFSET(0xB2A9430)
+#define JOMAECLEPIB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBAD4220)
+#define JOMAECLEPIB_CCTOR_OFFSET UNITYSDK_OFFSET(0xBAD53E0)
+#define JOMAECLEPIB_CTOR_OFFSET UNITYSDK_OFFSET(0xBAD41A0)
+#define JOMAECLEPIB_KAFHHKCGAEN_OFFSET UNITYSDK_OFFSET(0xBAD4620)
+#define JOMAECLEPIB_MCHILAAHBLH_OFFSET UNITYSDK_OFFSET(0xBAD4DA0)
+#define JOMAECLEPIB_MGEFMEFCICP_OFFSET UNITYSDK_OFFSET(0xBAD5250)
 
-inline static constexpr unsigned int JOMAECLEPIB_TypeDefinitionIndex = 79762;
+inline static constexpr unsigned int JOMAECLEPIB_TypeDefinitionIndex = 82539;
 
 	class JOMAECLEPIB : public ::System::Object
 	{
 	public:
-		::OBJANKHLNGO* GJALMBBNNOF; // 0x10
-		::AMFNPJFKAOH* BDLGFMBOOGC; // 0x18
-		::KPOPHKNMCAJ* JNMEHDHDMMI; // 0x20
-		::KCJNGDLDKFG* JGJPOOFDENC; // 0x28
-		::RPG::Client::MechCraft::ViewModel::MechCraftCoinViewModel* HPIBHGDEBOH; // 0x30
-		::FOACJPEHDKO_JNPNKBMJIPH* PGCEEDIPLJJ; // 0x38
-		::RPG::Client::MechCraft::ViewModel::MechCraftTalentActorViewModel_Factory* JCCDFLJFLNJ; // 0x40
-		::OADFMMPLOGL* KEFLCNICLED; // 0x48
-		::EAKMNIMFGGK* NHBLHOGMAHA; // 0x50
-		::EJCLAFODBMD* FALCIBDCBJK; // 0x58
-		::JBBAMLKCDKG* KCBGOKGEIDD; // 0x60
+		::JBBAMLKCDKG* KCBGOKGEIDD; // 0x10
+		::OBJANKHLNGO* GJALMBBNNOF; // 0x18
+		::AMFNPJFKAOH* BDLGFMBOOGC; // 0x20
+		::OADFMMPLOGL* KEFLCNICLED; // 0x28
+		::EAKMNIMFGGK* NHBLHOGMAHA; // 0x30
+		::RPG::Client::MechCraft::ViewModel::MechCraftTalentActorViewModel_Factory* JCCDFLJFLNJ; // 0x38
+		::RPG::Client::MechCraft::ViewModel::MechCraftCoinViewModel* HPIBHGDEBOH; // 0x40
+		::KPOPHKNMCAJ* JNMEHDHDMMI; // 0x48
+		::KCJNGDLDKFG* JGJPOOFDENC; // 0x50
+		::FOACJPEHDKO_JNPNKBMJIPH* PGCEEDIPLJJ; // 0x58
+		::EJCLAFODBMD* FALCIBDCBJK; // 0x60
 		::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointPhaseViewModel_Factory* FDENINIIPHM; // 0x68
 		static ::Il2CppArray<::System::UInt32>** StaticGet_NDBPHCCELGB()
 		{
-			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("", "JOMAECLEPIB")->GetStaticField(0x25720);
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("", "JOMAECLEPIB")->GetStaticField(0x1C2B0);
 		}
 
 		::System::Void _ctor(::AMFNPJFKAOH* a1, ::FOACJPEHDKO_JNPNKBMJIPH* a2, ::RPG::Client::MechCraft::ViewModel::MechCraftTalentActorViewModel_Factory* a3, ::RPG::Client::MechCraft::ViewModel::MechCraftTalentPointPhaseViewModel_Factory* a4, ::EAKMNIMFGGK* a5, ::KCJNGDLDKFG* a6, ::OBJANKHLNGO* a7, ::KPOPHKNMCAJ* a8, ::OADFMMPLOGL* a9, ::JBBAMLKCDKG* a10, ::RPG::Client::MechCraft::ViewModel::MechCraftCoinViewModel* a11, ::EJCLAFODBMD* a12)

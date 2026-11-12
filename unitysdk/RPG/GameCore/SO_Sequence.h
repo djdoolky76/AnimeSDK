@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class SOTaskConfig; }
 namespace RPG::GameCore { class SO_Sequence; }
 
-#define RPG_GAMECORE_SO_SEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA6EAE0)
-#define RPG_GAMECORE_SO_SEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA6EAF0)
-#define RPG_GAMECORE_SO_SEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA70DD0)
+#define RPG_GAMECORE_SO_SEQUENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC81360)
+#define RPG_GAMECORE_SO_SEQUENCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC81370)
+#define RPG_GAMECORE_SO_SEQUENCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC83650)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SO_Sequence_TypeDefinitionIndex = 20056;
+	inline static constexpr unsigned int SO_Sequence_TypeDefinitionIndex = 20390;
 
 	class SO_Sequence : public ::RPG::GameCore::SOCompositeConfig
 	{

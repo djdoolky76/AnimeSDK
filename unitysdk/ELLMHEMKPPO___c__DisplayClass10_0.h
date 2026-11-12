@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class FJOADPKDFLC;
 
-#define ELLMHEMKPPO___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C550490)
-#define ELLMHEMKPPO___C__DISPLAYCLASS10_0__EXCEPT_B__0_OFFSET UNITYSDK_OFFSET(0x1C550A90)
+#define ELLMHEMKPPO___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6D1E60)
+#define ELLMHEMKPPO___C__DISPLAYCLASS10_0__EXCEPT_B__0_OFFSET UNITYSDK_OFFSET(0x1D6D2460)
 
-inline static constexpr unsigned int ELLMHEMKPPO___c__DisplayClass10_0_TypeDefinitionIndex = 41744;
+inline static constexpr unsigned int ELLMHEMKPPO___c__DisplayClass10_0_TypeDefinitionIndex = 42719;
 
 	class ELLMHEMKPPO___c__DisplayClass10_0 : public ::System::Object
 	{

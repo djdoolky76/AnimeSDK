@@ -4,20 +4,20 @@
 namespace RPG::GameCore { class ShowHipplenBubbleTalk; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IAMDFLBMOAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E1F2A0)
-#define IAMDFLBMOAG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E1F670)
-#define IAMDFLBMOAG_FGHEKOANCBN_OFFSET UNITYSDK_OFFSET(0x15E1F760)
-#define IAMDFLBMOAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E1F2B0)
-#define IAMDFLBMOAG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E1F6B0)
-#define IAMDFLBMOAG_TICK_OFFSET UNITYSDK_OFFSET(0x15E1F700)
+#define IAMDFLBMOAG_CTOR_OFFSET UNITYSDK_OFFSET(0x16DC8D00)
+#define IAMDFLBMOAG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16DC90D0)
+#define IAMDFLBMOAG_FGHEKOANCBN_OFFSET UNITYSDK_OFFSET(0x16DC91C0)
+#define IAMDFLBMOAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16DC8D10)
+#define IAMDFLBMOAG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16DC9110)
+#define IAMDFLBMOAG_TICK_OFFSET UNITYSDK_OFFSET(0x16DC9160)
 
-inline static constexpr unsigned int IAMDFLBMOAG_TypeDefinitionIndex = 52298;
+inline static constexpr unsigned int IAMDFLBMOAG_TypeDefinitionIndex = 53404;
 
 	class IAMDFLBMOAG : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ShowHipplenBubbleTalk* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ShowHipplenBubbleTalk* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ShowHipplenBubbleTalk* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ShowHipplenBubbleTalk*))((::PBYTE)hIl2Cpp + IAMDFLBMOAG_CTOR_OFFSET))(this, a1, a2);

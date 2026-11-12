@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GameModeParamNotifyType_TypeDefinitionIndex = 24776;
+	inline static constexpr unsigned int GameModeParamNotifyType_TypeDefinitionIndex = 25256;
 
 	enum class GameModeParamNotifyType : ::System::Int32
 	{

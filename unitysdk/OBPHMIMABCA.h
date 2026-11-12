@@ -6,11 +6,11 @@
 #include "unitysdk/RPG/GameCore/FixVec3.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define OBPHMIMABCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CBBE0)
-#define OBPHMIMABCA_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C7CB5E0)
-#define OBPHMIMABCA_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C7CB1C0)
+#define OBPHMIMABCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94D470)
+#define OBPHMIMABCA_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D94CE70)
+#define OBPHMIMABCA_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1D94CA50)
 
-inline static constexpr unsigned int OBPHMIMABCA_TypeDefinitionIndex = 37203;
+inline static constexpr unsigned int OBPHMIMABCA_TypeDefinitionIndex = 38131;
 
 	class OBPHMIMABCA : public ::System::Object
 	{

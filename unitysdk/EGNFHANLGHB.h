@@ -3,23 +3,22 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class DrinkMakerCheersPerformanceRow; }
 
-#define EGNFHANLGHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1451ECD0)
-#define EGNFHANLGHB_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1451ED00)
-#define EGNFHANLGHB_GET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x1451ED20)
-#define EGNFHANLGHB_GET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1451ED40)
-#define EGNFHANLGHB_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x1451ED10)
-#define EGNFHANLGHB_SET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x1451ED30)
-#define EGNFHANLGHB_SET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x1451ED50)
+#define EGNFHANLGHB_CTOR_OFFSET UNITYSDK_OFFSET(0x152F98A0)
+#define EGNFHANLGHB_GET_GROUPID_OFFSET UNITYSDK_OFFSET(0x152F98D0)
+#define EGNFHANLGHB_GET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x152F98F0)
+#define EGNFHANLGHB_GET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x152F9910)
+#define EGNFHANLGHB_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0x152F98E0)
+#define EGNFHANLGHB_SET_ISFIRSTDRINKONDAY_OFFSET UNITYSDK_OFFSET(0x152F9900)
+#define EGNFHANLGHB_SET_PERFORMANCEID_OFFSET UNITYSDK_OFFSET(0x152F9920)
 
-inline static constexpr unsigned int EGNFHANLGHB_TypeDefinitionIndex = 63624;
+inline static constexpr unsigned int EGNFHANLGHB_TypeDefinitionIndex = 65066;
 
 	class EGNFHANLGHB : public ::System::Object
 	{
 	public:
-		::System::Boolean _IsFirstDrinkOnDay_k__BackingField; // 0x10
-		::System::Byte _padding0[0x3];
-		::System::UInt32 _PerformanceId_k__BackingField; // 0x14
-		::System::UInt32 _GroupId_k__BackingField; // 0x18
+		::System::UInt32 _PerformanceId_k__BackingField; // 0x10
+		::System::UInt32 _GroupId_k__BackingField; // 0x14
+		::System::Boolean _IsFirstDrinkOnDay_k__BackingField; // 0x18
 		::System::Void _ctor(::RPG::GameCore::DrinkMakerCheersPerformanceRow* a1, ::System::Boolean a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::DrinkMakerCheersPerformanceRow*, ::System::Boolean))((::PBYTE)hIl2Cpp + EGNFHANLGHB_CTOR_OFFSET))(this, a1, a2);

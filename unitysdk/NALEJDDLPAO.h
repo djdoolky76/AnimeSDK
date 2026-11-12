@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ShowDamageText; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NALEJDDLPAO_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA6530)
-#define NALEJDDLPAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBAA6560)
+#define NALEJDDLPAO_CTOR_OFFSET UNITYSDK_OFFSET(0xC32B320)
+#define NALEJDDLPAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC32B350)
 
-inline static constexpr unsigned int NALEJDDLPAO_TypeDefinitionIndex = 55610;
+inline static constexpr unsigned int NALEJDDLPAO_TypeDefinitionIndex = 56806;
 
 	class NALEJDDLPAO
 	{

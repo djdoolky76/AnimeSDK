@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 class FGJAKGPJCKB;
 
-#define FIIPOAMEICN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C61A800)
-#define FIIPOAMEICN_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1C612730)
+#define FIIPOAMEICN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D79BDC0)
+#define FIIPOAMEICN_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1D793DC0)
 
-inline static constexpr unsigned int FIIPOAMEICN_TypeDefinitionIndex = 37325;
+inline static constexpr unsigned int FIIPOAMEICN_TypeDefinitionIndex = 38253;
 
 	class FIIPOAMEICN : public ::System::Object
 	{
 	public:
-		::System::Int32 MHAHLJPLCII; // 0x10
-		::System::UInt32 GBJLLAJJEOL; // 0x14
-		::System::UInt32 MNAKIEOGPDK; // 0x18
-		::System::Int32 ELPDAJBOFEE; // 0x1C
+		::System::Int32 ELPDAJBOFEE; // 0x10
+		::System::UInt32 MNAKIEOGPDK; // 0x14
+		::System::Int32 MHAHLJPLCII; // 0x18
+		::System::UInt32 GBJLLAJJEOL; // 0x1C
 		::System::UInt32 NICBADCOCBA; // 0x20
 		::System::UInt32 KMFAPDJCKLF; // 0x24
 		::System::Void _ctor()

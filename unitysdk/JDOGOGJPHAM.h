@@ -6,12 +6,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JDOGOGJPHAM_BDGELOGOIKA_OFFSET UNITYSDK_OFFSET(0x16611320)
-#define JDOGOGJPHAM_CTOR_OFFSET UNITYSDK_OFFSET(0x16611160)
-#define JDOGOGJPHAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16611210)
-#define JDOGOGJPHAM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x166112A0)
+#define JDOGOGJPHAM_BDGELOGOIKA_OFFSET UNITYSDK_OFFSET(0xB959DE0)
+#define JDOGOGJPHAM_CTOR_OFFSET UNITYSDK_OFFSET(0xB959C20)
+#define JDOGOGJPHAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB959CD0)
+#define JDOGOGJPHAM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB959D60)
 
-inline static constexpr unsigned int JDOGOGJPHAM_TypeDefinitionIndex = 67046;
+inline static constexpr unsigned int JDOGOGJPHAM_TypeDefinitionIndex = 68990;
 
 	class JDOGOGJPHAM : public ::System::Object
 	{

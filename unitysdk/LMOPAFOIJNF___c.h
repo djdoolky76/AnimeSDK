@@ -4,18 +4,18 @@
 class LMOPAFOIJNF;
 namespace System { class Object; }
 
-#define LMOPAFOIJNF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E9AE750)
-#define LMOPAFOIJNF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9AE790)
-#define LMOPAFOIJNF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9AE7A0)
+#define LMOPAFOIJNF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FCD29B0)
+#define LMOPAFOIJNF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FCD29F0)
+#define LMOPAFOIJNF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FCD2A00)
 
-inline static constexpr unsigned int LMOPAFOIJNF___c_TypeDefinitionIndex = 28322;
+inline static constexpr unsigned int LMOPAFOIJNF___c_TypeDefinitionIndex = 28912;
 
 	class LMOPAFOIJNF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4E3B0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41F70);
 		}
 
 		static ::System::Void _cctor()

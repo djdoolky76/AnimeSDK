@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class RogueBuffData; }
 
-#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF4CD40)
-#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS68_0__ISBUFFACHIVEDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xDF54A20)
+#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS68_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE9FD1A0)
+#define RPG_CLIENT_ROGUEMODULE___C__DISPLAYCLASS68_0__ISBUFFACHIVEDBUFF_B__0_OFFSET UNITYSDK_OFFSET(0xEA04DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueModule___c__DisplayClass68_0_TypeDefinitionIndex = 67453;
+	inline static constexpr unsigned int RogueModule___c__DisplayClass68_0_TypeDefinitionIndex = 69397;
 
 	class RogueModule___c__DisplayClass68_0 : public ::System::Object
 	{

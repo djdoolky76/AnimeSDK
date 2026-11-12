@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ReadOnlyDictionaryFormatter_2_TypeDefinitionIndex = 7424;
+	inline static constexpr unsigned int ReadOnlyDictionaryFormatter_2_TypeDefinitionIndex = 7435;
 
 	template <typename T1, typename T2>
 	class ReadOnlyDictionaryFormatter_2

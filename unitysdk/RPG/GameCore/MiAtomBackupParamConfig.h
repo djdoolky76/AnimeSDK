@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MiAtomBackupParamConfig; }
 
-#define RPG_GAMECORE_MIATOMBACKUPPARAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87F130)
-#define RPG_GAMECORE_MIATOMBACKUPPARAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D87F0F0)
+#define RPG_GAMECORE_MIATOMBACKUPPARAMCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA99750)
+#define RPG_GAMECORE_MIATOMBACKUPPARAMCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA99710)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiAtomBackupParamConfig_TypeDefinitionIndex = 17058;
+	inline static constexpr unsigned int MiAtomBackupParamConfig_TypeDefinitionIndex = 17225;
 
 	class MiAtomBackupParamConfig : public ::RPG::GameCore::JsonConfig
 	{

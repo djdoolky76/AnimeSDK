@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PEDAPLLONJD.h"
 
-#define DBBKONJPIEP_BKHKBEJCGJK_OFFSET UNITYSDK_OFFSET(0xDFD6B70)
-#define DBBKONJPIEP_CTOR_OFFSET UNITYSDK_OFFSET(0xDFD6BC0)
+#define DBBKONJPIEP_BKHKBEJCGJK_OFFSET UNITYSDK_OFFSET(0xEB78A10)
+#define DBBKONJPIEP_CTOR_OFFSET UNITYSDK_OFFSET(0xEB78A60)
 
-inline static constexpr unsigned int DBBKONJPIEP_TypeDefinitionIndex = 57118;
+inline static constexpr unsigned int DBBKONJPIEP_TypeDefinitionIndex = 58347;
 
 	class DBBKONJPIEP : public ::PEDAPLLONJD
 	{

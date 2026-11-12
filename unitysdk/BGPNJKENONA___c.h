@@ -4,18 +4,18 @@
 class BGPNJKENONA;
 namespace System { class Object; }
 
-#define BGPNJKENONA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDF1F70)
-#define BGPNJKENONA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDF1FB0)
-#define BGPNJKENONA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DDF1FC0)
+#define BGPNJKENONA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F000520)
+#define BGPNJKENONA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F000560)
+#define BGPNJKENONA___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F000570)
 
-inline static constexpr unsigned int BGPNJKENONA___c_TypeDefinitionIndex = 26076;
+inline static constexpr unsigned int BGPNJKENONA___c_TypeDefinitionIndex = 26603;
 
 	class BGPNJKENONA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44EE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x474B0);
 		}
 
 		static ::System::Void _cctor()

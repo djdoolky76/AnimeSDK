@@ -13,34 +13,34 @@ namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 namespace System { template <typename T> class Func_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14B400)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x1F1430B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14B500)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x1F14B510)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F14B710)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x1F14B3F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x1F14B890)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1F14B830)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x1F14B670)
-#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x1F14B7E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CCTOR_OFFSET UNITYSDK_OFFSET(0x203FC5D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CREATE_OFFSET UNITYSDK_OFFSET(0x203F3FF0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_CTOR_OFFSET UNITYSDK_OFFSET(0x203FC6D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETRESULT_OFFSET UNITYSDK_OFFSET(0x203FC6E0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GETSTATUS_OFFSET UNITYSDK_OFFSET(0x203FC8D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_GET_NEXTNODE_OFFSET UNITYSDK_OFFSET(0x203FC5C0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x203FCAB0)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_ONCOMPLETED_OFFSET UNITYSDK_OFFSET(0x203FCA50)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_TRYRETURN_OFFSET UNITYSDK_OFFSET(0x203FC830)
+#define CYSHARP_THREADING_TASKS_UNITASK_WAITUNTILPROMISE_UNSAFEGETSTATUS_OFFSET UNITYSDK_OFFSET(0x203FC9D0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_WaitUntilPromise_TypeDefinitionIndex = 38252;
+	inline static constexpr unsigned int UniTask_WaitUntilPromise_TypeDefinitionIndex = 39181;
 
 	class UniTask_WaitUntilPromise : public ::System::Object
 	{
 	public:
-		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x10
+		::System::Threading::CancellationToken cancellationToken; // 0x10
+		::Cysharp::Threading::Tasks::UniTaskCompletionSourceCore_1<::System::Object*> core; // 0x18
 		::System::Byte _padding0[0x20];
-		::Cysharp::Threading::Tasks::UniTask_WaitUntilPromise* nextNode; // 0x38
-		::System::Threading::CancellationToken cancellationToken; // 0x40
-		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x48
+		::System::Threading::CancellationTokenRegistration cancellationTokenRegistration; // 0x40
+		::Cysharp::Threading::Tasks::UniTask_WaitUntilPromise* nextNode; // 0x58
 		::System::Func_1<::System::Boolean>* predicate; // 0x60
 		::System::Boolean cancelImmediately; // 0x68
 		static ::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>* StaticGet_pool()
 		{
-			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "WaitUntilPromise")->GetStaticField(0x471D0);
+			return (::Cysharp::Threading::Tasks::TaskPool_1<::System::Object*>*)UnitySDK::FromName("Cysharp.Threading.Tasks", "WaitUntilPromise")->GetStaticField(0x3A4B0);
 		}
 
 		static ::System::Void _cctor()

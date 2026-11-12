@@ -5,12 +5,12 @@ class BCIAMPIIHPF;
 namespace System { class String; }
 namespace UnityEngine { class GPUParticlesRenderer; }
 
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0xCD3CC50)
-#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xCD3CC00)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_CTOR_OFFSET UNITYSDK_OFFSET(0xD703AE0)
+#define RPG_CLIENT_EFFECT_INSTANCEDATAGPUPARTICLES_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xD703A90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 70639;
+	inline static constexpr unsigned int Effect_InstanceDataGPUParticles_TypeDefinitionIndex = 72616;
 
 	class Effect_InstanceDataGPUParticles
 	{

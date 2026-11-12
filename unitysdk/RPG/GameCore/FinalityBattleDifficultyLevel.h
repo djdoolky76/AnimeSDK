@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FinalityBattleDifficultyLevel_TypeDefinitionIndex = 11608;
+	inline static constexpr unsigned int FinalityBattleDifficultyLevel_TypeDefinitionIndex = 11659;
 
 	enum class FinalityBattleDifficultyLevel : ::System::Int32
 	{

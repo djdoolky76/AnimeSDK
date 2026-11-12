@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveQuestionTeamRow; }
 
-#define RPG_GAMECORE_IDLELIVEQUESTIONTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77EB90)
-#define RPG_GAMECORE_IDLELIVEQUESTIONTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77EA50)
+#define RPG_GAMECORE_IDLELIVEQUESTIONTEAMROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9922C0)
+#define RPG_GAMECORE_IDLELIVEQUESTIONTEAMROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E992180)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveQuestionTeamRow_TypeDefinitionIndex = 11831;
+	inline static constexpr unsigned int IdleLiveQuestionTeamRow_TypeDefinitionIndex = 11888;
 
 	class IdleLiveQuestionTeamRow : public ::System::Object
 	{

@@ -3,12 +3,12 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2D330)
-#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xDB2D2E0)
+#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE584560)
+#define RPG_CLIENT_PIVOTBASEDFRACTUREMONOPLUGIN_GETTICKLODTEMPLATENAME_OFFSET UNITYSDK_OFFSET(0xE584510)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PivotBasedFractureMonoPlugin_TypeDefinitionIndex = 70696;
+	inline static constexpr unsigned int PivotBasedFractureMonoPlugin_TypeDefinitionIndex = 72673;
 
 	class PivotBasedFractureMonoPlugin
 	{

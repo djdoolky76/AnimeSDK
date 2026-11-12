@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int IAtlasFaceEmotionContext_1_TypeDefinitionIndex = 42713;
+	inline static constexpr unsigned int IAtlasFaceEmotionContext_1_TypeDefinitionIndex = 43692;
 
 	template <typename T>
 	class IAtlasFaceEmotionContext_1

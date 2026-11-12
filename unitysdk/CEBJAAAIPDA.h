@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int CEBJAAAIPDA_TypeDefinitionIndex = 35034;
+inline static constexpr unsigned int CEBJAAAIPDA_TypeDefinitionIndex = 35962;
 
 	enum class CEBJAAAIPDA : ::System::Int32
 	{

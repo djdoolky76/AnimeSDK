@@ -4,18 +4,18 @@
 class JPNPDPIBNBB;
 namespace System { class Object; }
 
-#define JPNPDPIBNBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7DAE60)
-#define JPNPDPIBNBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7DAEA0)
-#define JPNPDPIBNBB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E7DAEB0)
+#define JPNPDPIBNBB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAEF790)
+#define JPNPDPIBNBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAEF7D0)
+#define JPNPDPIBNBB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FAEF7E0)
 
-inline static constexpr unsigned int JPNPDPIBNBB___c_TypeDefinitionIndex = 28407;
+inline static constexpr unsigned int JPNPDPIBNBB___c_TypeDefinitionIndex = 28997;
 
 	class JPNPDPIBNBB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xCAD0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4A720);
 		}
 
 		static ::System::Void _cctor()

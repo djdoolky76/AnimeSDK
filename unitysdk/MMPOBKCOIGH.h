@@ -5,18 +5,18 @@ class CJLCPMDGIBO;
 class IFJOADBBGHG;
 namespace RPG::Client { class AvatarOutfit; }
 
-#define MMPOBKCOIGH_CTOR_OFFSET UNITYSDK_OFFSET(0xB9DFCA0)
-#define MMPOBKCOIGH_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0xB9DFC90)
-#define MMPOBKCOIGH_LAEKOKGBDIG_OFFSET UNITYSDK_OFFSET(0xB9DFE10)
-#define MMPOBKCOIGH_MKHOINGLJDN_OFFSET UNITYSDK_OFFSET(0xB9DFD80)
+#define MMPOBKCOIGH_CTOR_OFFSET UNITYSDK_OFFSET(0xC29C870)
+#define MMPOBKCOIGH_GET_OUTFIT_OFFSET UNITYSDK_OFFSET(0xC29C860)
+#define MMPOBKCOIGH_LAEKOKGBDIG_OFFSET UNITYSDK_OFFSET(0xC29C9E0)
+#define MMPOBKCOIGH_MKHOINGLJDN_OFFSET UNITYSDK_OFFSET(0xC29C950)
 
-inline static constexpr unsigned int MMPOBKCOIGH_TypeDefinitionIndex = 62675;
+inline static constexpr unsigned int MMPOBKCOIGH_TypeDefinitionIndex = 64109;
 
 	class MMPOBKCOIGH : public ::System::Object
 	{
 	public:
-		::IFJOADBBGHG* FHPLLDMHOJK; // 0x10
-		::RPG::Client::AvatarOutfit* _Outfit_k__BackingField; // 0x18
+		::RPG::Client::AvatarOutfit* _Outfit_k__BackingField; // 0x10
+		::IFJOADBBGHG* FHPLLDMHOJK; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MMPOBKCOIGH_CTOR_OFFSET))(this);

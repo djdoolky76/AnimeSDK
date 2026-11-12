@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class AtlasConfigRow; }
 
-#define RPG_GAMECORE_ATLASCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D401270)
-#define RPG_GAMECORE_ATLASCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D4010F0)
+#define RPG_GAMECORE_ATLASCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6214E0)
+#define RPG_GAMECORE_ATLASCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E621360)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AtlasConfigRow_TypeDefinitionIndex = 12678;
+	inline static constexpr unsigned int AtlasConfigRow_TypeDefinitionIndex = 12745;
 
 	class AtlasConfigRow : public ::System::Object
 	{

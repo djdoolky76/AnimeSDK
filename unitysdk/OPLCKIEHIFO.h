@@ -3,10 +3,10 @@
 class ECEGLOOOCHL;
 namespace RPG::GameCore { class TaskContext; }
 
-#define OPLCKIEHIFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB0570)
-#define OPLCKIEHIFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFB05A0)
+#define OPLCKIEHIFO_CTOR_OFFSET UNITYSDK_OFFSET(0xC8B1D10)
+#define OPLCKIEHIFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC8B1D40)
 
-inline static constexpr unsigned int OPLCKIEHIFO_TypeDefinitionIndex = 55043;
+inline static constexpr unsigned int OPLCKIEHIFO_TypeDefinitionIndex = 56219;
 
 	class OPLCKIEHIFO
 	{

@@ -4,21 +4,20 @@
 #include "unitysdk/System/Object.h"
 class NGHCDGHFMKA;
 
-#define NGHCDGHFMKA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBA70D0)
-#define NGHCDGHFMKA_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA7190)
-#define NGHCDGHFMKA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xBBA71A0)
-#define NGHCDGHFMKA_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xBBA71C0)
-#define NGHCDGHFMKA_SET_NAME_OFFSET UNITYSDK_OFFSET(0xBBA71B0)
-#define NGHCDGHFMKA_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xBBA71D0)
+#define NGHCDGHFMKA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC482900)
+#define NGHCDGHFMKA_CTOR_OFFSET UNITYSDK_OFFSET(0xC4829C0)
+#define NGHCDGHFMKA_GET_NAME_OFFSET UNITYSDK_OFFSET(0xC4829D0)
+#define NGHCDGHFMKA_GET_RARITY_OFFSET UNITYSDK_OFFSET(0xC4829F0)
+#define NGHCDGHFMKA_SET_NAME_OFFSET UNITYSDK_OFFSET(0xC4829E0)
+#define NGHCDGHFMKA_SET_RARITY_OFFSET UNITYSDK_OFFSET(0xC482A00)
 
-inline static constexpr unsigned int NGHCDGHFMKA_TypeDefinitionIndex = 75080;
+inline static constexpr unsigned int NGHCDGHFMKA_TypeDefinitionIndex = 77407;
 
 	class NGHCDGHFMKA : public ::System::Object
 	{
 	public:
-		::System::UInt32 _Rarity_k__BackingField; // 0x10
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Name_k__BackingField; // 0x18
+		::RPG::Client::TextID _Name_k__BackingField; // 0x10
+		::System::UInt32 _Rarity_k__BackingField; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + NGHCDGHFMKA_CTOR_OFFSET))(this);

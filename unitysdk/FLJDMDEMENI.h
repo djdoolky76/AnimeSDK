@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define FLJDMDEMENI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71240)
+#define FLJDMDEMENI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC34BD0)
 
-inline static constexpr unsigned int FLJDMDEMENI_TypeDefinitionIndex = 43776;
+inline static constexpr unsigned int FLJDMDEMENI_TypeDefinitionIndex = 44851;
 
 	class FLJDMDEMENI : public ::System::Object
 	{

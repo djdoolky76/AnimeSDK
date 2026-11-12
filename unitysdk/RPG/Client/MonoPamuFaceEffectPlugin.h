@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Vector4.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD855260)
-#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xD854BC0)
-#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_START_OFFSET UNITYSDK_OFFSET(0xD854B80)
+#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE2A77C0)
+#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE2A7120)
+#define RPG_CLIENT_MONOPAMUFACEEFFECTPLUGIN_START_OFFSET UNITYSDK_OFFSET(0xE2A70E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoPamuFaceEffectPlugin_TypeDefinitionIndex = 68612;
+	inline static constexpr unsigned int MonoPamuFaceEffectPlugin_TypeDefinitionIndex = 70560;
 
 	class MonoPamuFaceEffectPlugin : public ::UnityEngine::MonoBehaviour
 	{

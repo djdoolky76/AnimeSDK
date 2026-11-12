@@ -7,35 +7,35 @@ namespace RPG::GameCore { class LevelPropInfo; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define BELPLOHGILD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB1578D0)
-#define BELPLOHGILD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB157910)
-#define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_0_OFFSET UNITYSDK_OFFSET(0xB157920)
-#define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_1_OFFSET UNITYSDK_OFFSET(0xB157940)
-#define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_2_OFFSET UNITYSDK_OFFSET(0xB157960)
+#define BELPLOHGILD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7E0FF0)
+#define BELPLOHGILD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7E1030)
+#define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_0_OFFSET UNITYSDK_OFFSET(0xB7E1040)
+#define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_1_OFFSET UNITYSDK_OFFSET(0xB7E1060)
+#define BELPLOHGILD___C___GETINSTANCESFROMGROUP_B__5_2_OFFSET UNITYSDK_OFFSET(0xB7E1080)
 
-inline static constexpr unsigned int BELPLOHGILD___c_TypeDefinitionIndex = 52345;
+inline static constexpr unsigned int BELPLOHGILD___c_TypeDefinitionIndex = 53451;
 
 	class BELPLOHGILD___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::GameCore::LevelMonsterInfo*, ::System::UInt32>** StaticGet___9__5_2()
+		static ::System::Func_2<::RPG::GameCore::LevelNPCInfo*, ::System::UInt32>** StaticGet___9__5_1()
 		{
-			return (::System::Func_2<::RPG::GameCore::LevelMonsterInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E250);
-		}
-
-		static ::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>** StaticGet___9__5_0()
-		{
-			return (::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E258);
+			return (::System::Func_2<::RPG::GameCore::LevelNPCInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69950);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E260);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69958);
 		}
 
-		static ::System::Func_2<::RPG::GameCore::LevelNPCInfo*, ::System::UInt32>** StaticGet___9__5_1()
+		static ::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::LevelNPCInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6E268);
+			return (::System::Func_2<::RPG::GameCore::LevelPropInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69960);
+		}
+
+		static ::System::Func_2<::RPG::GameCore::LevelMonsterInfo*, ::System::UInt32>** StaticGet___9__5_2()
+		{
+			return (::System::Func_2<::RPG::GameCore::LevelMonsterInfo*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x69968);
 		}
 
 		static ::System::Void _cctor()

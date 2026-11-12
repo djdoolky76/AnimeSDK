@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class ChangeActionEntityToObserveState; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAMKBJGPINC_CTOR_OFFSET UNITYSDK_OFFSET(0x15942510)
-#define GAMKBJGPINC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15942840)
-#define GAMKBJGPINC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15942520)
-#define GAMKBJGPINC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159427F0)
-#define GAMKBJGPINC_TICK_OFFSET UNITYSDK_OFFSET(0x15942790)
+#define GAMKBJGPINC_CTOR_OFFSET UNITYSDK_OFFSET(0x16876530)
+#define GAMKBJGPINC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16876860)
+#define GAMKBJGPINC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16876540)
+#define GAMKBJGPINC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16876810)
+#define GAMKBJGPINC_TICK_OFFSET UNITYSDK_OFFSET(0x168767B0)
 
-inline static constexpr unsigned int GAMKBJGPINC_TypeDefinitionIndex = 54912;
+inline static constexpr unsigned int GAMKBJGPINC_TypeDefinitionIndex = 56084;
 
 	class GAMKBJGPINC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::ChangeActionEntityToObserveState* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::ChangeActionEntityToObserveState* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ChangeActionEntityToObserveState* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ChangeActionEntityToObserveState*))((::PBYTE)hIl2Cpp + GAMKBJGPINC_CTOR_OFFSET))(this, a1, a2);

@@ -4,18 +4,18 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class SkillData; }
 
-#define KECKKGPEKPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xB371080)
-#define KECKKGPEKPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB3710D0)
-#define KECKKGPEKPJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB371010)
+#define KECKKGPEKPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0xBBFB8F0)
+#define KECKKGPEKPJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBBFB940)
+#define KECKKGPEKPJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBBFB880)
 
-inline static constexpr unsigned int KECKKGPEKPJ_TypeDefinitionIndex = 55380;
+inline static constexpr unsigned int KECKKGPEKPJ_TypeDefinitionIndex = 56563;
 
 	class KECKKGPEKPJ : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x10
-		::RPG::GameCore::SkillData* KPFEFOBGMMM; // 0x18
-		::RPG::GameCore::SkillData* NDMDINFCKNG; // 0x20
+		::RPG::GameCore::SkillData* NDMDINFCKNG; // 0x10
+		::RPG::GameCore::GameEntity* MCLLALGABAB; // 0x18
+		::RPG::GameCore::SkillData* KPFEFOBGMMM; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KECKKGPEKPJ_CTOR_OFFSET))(this);

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterHPBarStyleColorConfig; }
 namespace RPG::GameCore { class MonsterHPBarStyleColorSetting; }
 
-#define RPG_GAMECORE_MONSTERHPBARSTYLECOLORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B6860)
-#define RPG_GAMECORE_MONSTERHPBARSTYLECOLORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8B6780)
+#define RPG_GAMECORE_MONSTERHPBARSTYLECOLORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD0600)
+#define RPG_GAMECORE_MONSTERHPBARSTYLECOLORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAD0520)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterHPBarStyleColorConfig_TypeDefinitionIndex = 17155;
+	inline static constexpr unsigned int MonsterHPBarStyleColorConfig_TypeDefinitionIndex = 17322;
 
 	class MonsterHPBarStyleColorConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,18 +4,18 @@
 class OLNIMIPEKAB;
 namespace System { class Object; }
 
-#define OLNIMIPEKAB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEAB690)
-#define OLNIMIPEKAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEAB6D0)
-#define OLNIMIPEKAB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DEAB6E0)
+#define OLNIMIPEKAB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F153950)
+#define OLNIMIPEKAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F153990)
+#define OLNIMIPEKAB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F1539A0)
 
-inline static constexpr unsigned int OLNIMIPEKAB___c_TypeDefinitionIndex = 26165;
+inline static constexpr unsigned int OLNIMIPEKAB___c_TypeDefinitionIndex = 26692;
 
 	class OLNIMIPEKAB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23FE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1FBB0);
 		}
 
 		static ::System::Void _cctor()

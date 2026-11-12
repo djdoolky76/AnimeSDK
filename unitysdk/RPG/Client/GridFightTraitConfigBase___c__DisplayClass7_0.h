@@ -3,12 +3,13 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightTraitLayerConfig; }
 
-#define RPG_CLIENT_GRIDFIGHTTRAITCONFIGBASE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD2B4E30)
-#define RPG_CLIENT_GRIDFIGHTTRAITCONFIGBASE___C__DISPLAYCLASS7_0__GETACTIVETEDLAYERCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xD2B5C00)
+#define RPG_CLIENT_GRIDFIGHTTRAITCONFIGBASE___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD6520)
+#define RPG_CLIENT_GRIDFIGHTTRAITCONFIGBASE___C__DISPLAYCLASS7_0__GETACTIVETEDLAYERCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0xDCD7230)
+#define RPG_CLIENT_GRIDFIGHTTRAITCONFIGBASE___C__DISPLAYCLASS7_0__GETACTIVETEDLAYERCONFIG_B__1_OFFSET UNITYSDK_OFFSET(0xDCD7290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightTraitConfigBase___c__DisplayClass7_0_TypeDefinitionIndex = 65450;
+	inline static constexpr unsigned int GridFightTraitConfigBase___c__DisplayClass7_0_TypeDefinitionIndex = 67346;
 
 	class GridFightTraitConfigBase___c__DisplayClass7_0 : public ::System::Object
 	{
@@ -22,6 +23,11 @@ namespace RPG::Client
 		::System::Boolean _GetActivetedLayerConfig_b__0(::RPG::Client::GridFightTraitLayerConfig* a1)
 		{
 			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitLayerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCONFIGBASE___C__DISPLAYCLASS7_0__GETACTIVETEDLAYERCONFIG_B__0_OFFSET))(this, a1);
+		}
+
+		::System::Boolean _GetActivetedLayerConfig_b__1(::RPG::Client::GridFightTraitLayerConfig* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::Client::GridFightTraitLayerConfig*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTTRAITCONFIGBASE___C__DISPLAYCLASS7_0__GETACTIVETEDLAYERCONFIG_B__1_OFFSET))(this, a1);
 		}
 
 	};

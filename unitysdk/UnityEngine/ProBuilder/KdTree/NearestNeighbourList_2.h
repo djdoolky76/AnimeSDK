@@ -6,7 +6,7 @@ namespace UnityEngine::ProBuilder::KdTree { template <typename T> class ITypeMat
 
 namespace UnityEngine::ProBuilder::KdTree
 {
-	inline static constexpr unsigned int NearestNeighbourList_2_TypeDefinitionIndex = 38727;
+	inline static constexpr unsigned int NearestNeighbourList_2_TypeDefinitionIndex = 39656;
 
 	template <typename T1, typename T2>
 	class NearestNeighbourList_2 : public ::System::Object

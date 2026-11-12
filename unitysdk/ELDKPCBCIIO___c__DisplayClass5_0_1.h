@@ -4,7 +4,7 @@
 namespace RPG::Client::FateRin { template <typename T> class PresentResult_1; }
 namespace RPG::Client::Promises { template <typename T> class Promise_1; }
 
-inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass5_0_1_TypeDefinitionIndex = 80619;
+inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass5_0_1_TypeDefinitionIndex = 83399;
 
 	template <typename T>
 	class ELDKPCBCIIO___c__DisplayClass5_0_1 : public ::System::Object

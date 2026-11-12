@@ -5,18 +5,18 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define PAKNAELLIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6DFF0)
-#define PAKNAELLIDA_GET_OWNERTYPE_OFFSET UNITYSDK_OFFSET(0x1EC8B150)
-#define PAKNAELLIDA_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1EC8B160)
-#define PAKNAELLIDA_GET_SIDE_OFFSET UNITYSDK_OFFSET(0x1EC8B170)
+#define PAKNAELLIDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1E9D0)
+#define PAKNAELLIDA_GET_OWNERTYPE_OFFSET UNITYSDK_OFFSET(0x1FF3BA30)
+#define PAKNAELLIDA_GET_PROPERTYNAME_OFFSET UNITYSDK_OFFSET(0x1FF3BA40)
+#define PAKNAELLIDA_GET_SIDE_OFFSET UNITYSDK_OFFSET(0x1FF3BA50)
 
-inline static constexpr unsigned int PAKNAELLIDA_TypeDefinitionIndex = 44057;
+inline static constexpr unsigned int PAKNAELLIDA_TypeDefinitionIndex = 45132;
 
 	class PAKNAELLIDA : public ::System::Exception
 	{
 	public:
-		::System::String* _PropertyName_k__BackingField; // 0x88
-		::System::Type* _OwnerType_k__BackingField; // 0x90
+		::System::Type* _OwnerType_k__BackingField; // 0x88
+		::System::String* _PropertyName_k__BackingField; // 0x90
 		::PAKNAELLIDA_BindingSide _Side_k__BackingField; // 0x98
 		::System::Void _ctor(::System::Type* a1, ::System::String* a2, ::PAKNAELLIDA_BindingSide a3)
 		{

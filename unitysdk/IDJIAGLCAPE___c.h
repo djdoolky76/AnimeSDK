@@ -4,18 +4,18 @@
 class IDJIAGLCAPE;
 namespace System { class Object; }
 
-#define IDJIAGLCAPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E62E420)
-#define IDJIAGLCAPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62E460)
-#define IDJIAGLCAPE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E62E470)
+#define IDJIAGLCAPE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F94BBE0)
+#define IDJIAGLCAPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F94BC20)
+#define IDJIAGLCAPE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F94BC30)
 
-inline static constexpr unsigned int IDJIAGLCAPE___c_TypeDefinitionIndex = 25498;
+inline static constexpr unsigned int IDJIAGLCAPE___c_TypeDefinitionIndex = 25977;
 
 	class IDJIAGLCAPE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x468C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4D8D0);
 		}
 
 		static ::System::Void _cctor()

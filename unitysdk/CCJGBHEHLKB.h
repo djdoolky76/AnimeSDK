@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityPlayerReturnRecommendData; }
 
-#define CCJGBHEHLKB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC73EE10)
-#define CCJGBHEHLKB_CTOR_OFFSET UNITYSDK_OFFSET(0xC73F0A0)
+#define CCJGBHEHLKB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD0A8050)
+#define CCJGBHEHLKB_CTOR_OFFSET UNITYSDK_OFFSET(0xD0A82E0)
 
-inline static constexpr unsigned int CCJGBHEHLKB_TypeDefinitionIndex = 61881;
+inline static constexpr unsigned int CCJGBHEHLKB_TypeDefinitionIndex = 63288;
 
 	class CCJGBHEHLKB : public ::System::Object
 	{

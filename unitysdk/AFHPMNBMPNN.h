@@ -6,18 +6,18 @@ class AFHPMNBMPNN;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define AFHPMNBMPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB6050)
-#define AFHPMNBMPNN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB5E90)
+#define AFHPMNBMPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE5ECC0)
+#define AFHPMNBMPNN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE5EB00)
 
-inline static constexpr unsigned int AFHPMNBMPNN_TypeDefinitionIndex = 12820;
+inline static constexpr unsigned int AFHPMNBMPNN_TypeDefinitionIndex = 12892;
 
 	class AFHPMNBMPNN : public ::System::Object
 	{
 	public:
 		::System::String* KILDBPGFAPG; // 0x10
-		::System::UInt32 PHFMCACHFIJ; // 0x18
+		::System::UInt32 PNOPJBELEDM; // 0x18
 		::RPG::GameCore::RhythmType FCHEGBOMJHB; // 0x1C
-		::System::UInt32 PNOPJBELEDM; // 0x20
+		::System::UInt32 PHFMCACHFIJ; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFHPMNBMPNN_CTOR_OFFSET))(this);

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetTargetUniqueName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HJPOJOOICFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D39D40)
-#define HJPOJOOICFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D39D70)
+#define HJPOJOOICFO_CTOR_OFFSET UNITYSDK_OFFSET(0x16C8C0B0)
+#define HJPOJOOICFO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C8C0E0)
 
-inline static constexpr unsigned int HJPOJOOICFO_TypeDefinitionIndex = 55581;
+inline static constexpr unsigned int HJPOJOOICFO_TypeDefinitionIndex = 56776;
 
 	class HJPOJOOICFO
 	{

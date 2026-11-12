@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AvdMonitorPlayerRun; }
 namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_AVDMONITORPLAYERRUN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D432A10)
-#define RPG_GAMECORE_AVDMONITORPLAYERRUN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D432A20)
-#define RPG_GAMECORE_AVDMONITORPLAYERRUN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D4329E0)
+#define RPG_GAMECORE_AVDMONITORPLAYERRUN_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6536E0)
+#define RPG_GAMECORE_AVDMONITORPLAYERRUN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E6536F0)
+#define RPG_GAMECORE_AVDMONITORPLAYERRUN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E6536B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvdMonitorPlayerRun_TypeDefinitionIndex = 21030;
+	inline static constexpr unsigned int AvdMonitorPlayerRun_TypeDefinitionIndex = 21368;
 
 	class AvdMonitorPlayerRun : public ::RPG::GameCore::TaskConfig
 	{

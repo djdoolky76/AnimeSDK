@@ -3,7 +3,7 @@
 #include "unitysdk/DLGOFLDEIOF.h"
 class AAAGCHBIIFI;
 
-inline static constexpr unsigned int NAEJBMCOMKK_TypeDefinitionIndex = 49420;
+inline static constexpr unsigned int NAEJBMCOMKK_TypeDefinitionIndex = 50496;
 
 	class NAEJBMCOMKK : public ::DLGOFLDEIOF
 	{

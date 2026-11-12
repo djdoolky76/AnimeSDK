@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ShakeDistanceAttenuation; }
 namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 
-#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC7FA10)
-#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC7C390)
+#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE91E40)
+#define RPG_GAMECORE_VCAMERAOVERRIDESHAKEV2_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE8EDA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int VCameraOverrideShakeV2_TypeDefinitionIndex = 16418;
+	inline static constexpr unsigned int VCameraOverrideShakeV2_TypeDefinitionIndex = 16582;
 
 	class VCameraOverrideShakeV2 : public ::RPG::GameCore::JsonConfig
 	{

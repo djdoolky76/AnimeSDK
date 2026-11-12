@@ -4,16 +4,16 @@
 namespace RPG::GameCore { class GameEntityList; }
 namespace System { class String; }
 
-#define MNNJNNIHOJN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA18B30)
+#define MNNJNNIHOJN_CTOR_OFFSET UNITYSDK_OFFSET(0xC2D7180)
 
-inline static constexpr unsigned int MNNJNNIHOJN_TypeDefinitionIndex = 71802;
+inline static constexpr unsigned int MNNJNNIHOJN_TypeDefinitionIndex = 73822;
 
 	class MNNJNNIHOJN : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::GameEntityList* GKHDCODGAMF; // 0x10
-		::System::String* BDACPPLKLGL; // 0x18
-		::System::String* PHAJKALJLFP; // 0x20
+		::System::String* BDACPPLKLGL; // 0x10
+		::System::String* PHAJKALJLFP; // 0x18
+		::RPG::GameCore::GameEntityList* GKHDCODGAMF; // 0x20
 		::System::Boolean CAGCHKJHMPD; // 0x28
 		::System::Void _ctor()
 		{

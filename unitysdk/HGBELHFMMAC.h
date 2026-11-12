@@ -4,9 +4,9 @@
 class JIJBCGDANLJ;
 class KPDKCEAFBHI;
 
-#define HGBELHFMMAC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8F570)
+#define HGBELHFMMAC_CTOR_OFFSET UNITYSDK_OFFSET(0x16BD9200)
 
-inline static constexpr unsigned int HGBELHFMMAC_TypeDefinitionIndex = 75908;
+inline static constexpr unsigned int HGBELHFMMAC_TypeDefinitionIndex = 78235;
 
 	class HGBELHFMMAC : public ::DJJKNHPLHDI
 	{

@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/PBEFEAJGFMA.h"
 
-#define FBGCEENEKND_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x1569A080)
-#define FBGCEENEKND_MEDLNGKACMG_OFFSET UNITYSDK_OFFSET(0x2E75060)
+#define FBGCEENEKND_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x165B1B60)
+#define FBGCEENEKND_MEDLNGKACMG_OFFSET UNITYSDK_OFFSET(0x304A580)
 
-inline static constexpr unsigned int FBGCEENEKND_TypeDefinitionIndex = 69841;
+inline static constexpr unsigned int FBGCEENEKND_TypeDefinitionIndex = 71800;
 
 	struct alignas(4) FBGCEENEKND
 	{

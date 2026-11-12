@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class BindTimeRewindParent; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKJFIMHABAF_CTOR_OFFSET UNITYSDK_OFFSET(0xC2C16F0)
-#define PKJFIMHABAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2C1720)
+#define PKJFIMHABAF_CTOR_OFFSET UNITYSDK_OFFSET(0xCBEC920)
+#define PKJFIMHABAF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBEC950)
 
-inline static constexpr unsigned int PKJFIMHABAF_TypeDefinitionIndex = 53363;
+inline static constexpr unsigned int PKJFIMHABAF_TypeDefinitionIndex = 54525;
 
 	class PKJFIMHABAF
 	{

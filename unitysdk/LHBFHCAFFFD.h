@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerTurnPage; }
 
-#define LHBFHCAFFFD_CTOR_OFFSET UNITYSDK_OFFSET(0xB6A4C30)
-#define LHBFHCAFFFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6A4C40)
-#define LHBFHCAFFFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6A4C80)
-#define LHBFHCAFFFD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6A4E40)
-#define LHBFHCAFFFD_TICK_OFFSET UNITYSDK_OFFSET(0xB6A4E90)
+#define LHBFHCAFFFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBF3BD20)
+#define LHBFHCAFFFD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF3BD30)
+#define LHBFHCAFFFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF3BD70)
+#define LHBFHCAFFFD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF3BF30)
+#define LHBFHCAFFFD_TICK_OFFSET UNITYSDK_OFFSET(0xBF3BF80)
 
-inline static constexpr unsigned int LHBFHCAFFFD_TypeDefinitionIndex = 55768;
+inline static constexpr unsigned int LHBFHCAFFFD_TypeDefinitionIndex = 56971;
 
 	class LHBFHCAFFFD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::TriggerTurnPage* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::TriggerTurnPage* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerTurnPage* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerTurnPage*))((::PBYTE)hIl2Cpp + LHBFHCAFFFD_CTOR_OFFSET))(this, a1, a2);

@@ -5,10 +5,10 @@
 namespace RPG::GameCore { class BaseChimeraDuelNode; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GMOJFIOPIAD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15ADB540)
-#define GMOJFIOPIAD___C__DISPLAYCLASS2_0___EVALUATEPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x15ADC690)
+#define GMOJFIOPIAD___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16A5DF30)
+#define GMOJFIOPIAD___C__DISPLAYCLASS2_0___EVALUATEPARALLEL_B__0_OFFSET UNITYSDK_OFFSET(0x16A5F080)
 
-inline static constexpr unsigned int GMOJFIOPIAD___c__DisplayClass2_0_TypeDefinitionIndex = 77620;
+inline static constexpr unsigned int GMOJFIOPIAD___c__DisplayClass2_0_TypeDefinitionIndex = 80355;
 
 	class GMOJFIOPIAD___c__DisplayClass2_0 : public ::System::Object
 	{

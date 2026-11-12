@@ -6,26 +6,26 @@ namespace SWRT { class SWRT; }
 namespace SWRT { class SWRTManager; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define SWRT_SWRTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC84520)
-#define SWRT_SWRTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC844E0)
-#define SWRT_SWRTMANAGER_GETACTIVEASSET_OFFSET UNITYSDK_OFFSET(0x1CC72DE0)
-#define SWRT_SWRTMANAGER_GETACTIVEBINDER_OFFSET UNITYSDK_OFFSET(0x1CC84460)
-#define SWRT_SWRTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1CC84430)
-#define SWRT_SWRTMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1CC84280)
-#define SWRT_SWRTMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1CC843C0)
+#define SWRT_SWRTMANAGER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE2B6B0)
+#define SWRT_SWRTMANAGER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE2B670)
+#define SWRT_SWRTMANAGER_GETACTIVEASSET_OFFSET UNITYSDK_OFFSET(0x1DE1A210)
+#define SWRT_SWRTMANAGER_GETACTIVEBINDER_OFFSET UNITYSDK_OFFSET(0x1DE2B5F0)
+#define SWRT_SWRTMANAGER_GET_INSTANCE_OFFSET UNITYSDK_OFFSET(0x1DE2B5C0)
+#define SWRT_SWRTMANAGER_REGISTER_OFFSET UNITYSDK_OFFSET(0x1DE2B410)
+#define SWRT_SWRTMANAGER_UNREGISTER_OFFSET UNITYSDK_OFFSET(0x1DE2B550)
 
 namespace SWRT
 {
-	inline static constexpr unsigned int SWRTManager_TypeDefinitionIndex = 37512;
+	inline static constexpr unsigned int SWRTManager_TypeDefinitionIndex = 38440;
 
 	class SWRTManager : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::SWRT::SWRT*>* _Binders; // 0x10
-		::SWRTAsset* OverrideAsset; // 0x18
+		::SWRTAsset* OverrideAsset; // 0x10
+		::System::Collections::Generic::List_1<::SWRT::SWRT*>* _Binders; // 0x18
 		static ::SWRT::SWRTManager** StaticGet_s_Instance()
 		{
-			return (::SWRT::SWRTManager**)UnitySDK::FromName("SWRT", "SWRTManager")->GetStaticField(0x37E00);
+			return (::SWRT::SWRTManager**)UnitySDK::FromName("SWRT", "SWRTManager")->GetStaticField(0x30410);
 		}
 
 		::System::Void _ctor()

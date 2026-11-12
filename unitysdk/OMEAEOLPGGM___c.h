@@ -4,18 +4,18 @@
 class OMEAEOLPGGM;
 namespace System { class Object; }
 
-#define OMEAEOLPGGM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEB27C0)
-#define OMEAEOLPGGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB27F0)
-#define OMEAEOLPGGM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEB2800)
+#define OMEAEOLPGGM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F15AAD0)
+#define OMEAEOLPGGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F15AB00)
+#define OMEAEOLPGGM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F15AB10)
 
-inline static constexpr unsigned int OMEAEOLPGGM___c_TypeDefinitionIndex = 26020;
+inline static constexpr unsigned int OMEAEOLPGGM___c_TypeDefinitionIndex = 26545;
 
 	class OMEAEOLPGGM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x24D60);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x20470);
 		}
 
 		static ::System::Void _cctor()

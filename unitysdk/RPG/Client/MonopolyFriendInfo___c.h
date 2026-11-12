@@ -5,31 +5,31 @@ namespace RPG::Client { class MonopolyFriendRankingDisplayDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD88D5E0)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD88D620)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0xD88D630)
-#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0xD88D650)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE2DFCA0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE2DFCE0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_0_OFFSET UNITYSDK_OFFSET(0xE2DFCF0)
+#define RPG_CLIENT_MONOPOLYFRIENDINFO___C__SORTFRIENDRANKDATA_B__8_1_OFFSET UNITYSDK_OFFSET(0xE2DFD10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyFriendInfo___c_TypeDefinitionIndex = 66258;
+	inline static constexpr unsigned int MonopolyFriendInfo___c_TypeDefinitionIndex = 68194;
 
 	class MonopolyFriendInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CDB0);
-		}
-
 		static ::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CDB8);
+			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66FD0);
 		}
 
 		static ::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6CDC0);
+			return (::System::Func_2<::RPG::Client::MonopolyFriendRankingDisplayDataItem*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66FD8);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x66FE0);
 		}
 
 		static ::System::Void _cctor()

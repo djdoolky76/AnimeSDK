@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1F2C5000)
-#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C4EB0)
+#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x20575E40)
+#define UNITYENGINE_RENDERING_NOINTERPCOLORPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x20575CF0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int NoInterpColorParameter_TypeDefinitionIndex = 35644;
+	inline static constexpr unsigned int NoInterpColorParameter_TypeDefinitionIndex = 36572;
 
 	class NoInterpColorParameter
 	{

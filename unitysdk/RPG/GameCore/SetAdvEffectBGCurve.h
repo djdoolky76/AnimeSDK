@@ -7,13 +7,13 @@ namespace RPG::GameCore { class SetAdvEffectBGCurve; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETADVEFFECTBGCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA931E0)
-#define RPG_GAMECORE_SETADVEFFECTBGCURVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA931F0)
-#define RPG_GAMECORE_SETADVEFFECTBGCURVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA931B0)
+#define RPG_GAMECORE_SETADVEFFECTBGCURVE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECA5760)
+#define RPG_GAMECORE_SETADVEFFECTBGCURVE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECA5770)
+#define RPG_GAMECORE_SETADVEFFECTBGCURVE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECA5730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetAdvEffectBGCurve_TypeDefinitionIndex = 22321;
+	inline static constexpr unsigned int SetAdvEffectBGCurve_TypeDefinitionIndex = 22726;
 
 	class SetAdvEffectBGCurve : public ::RPG::GameCore::TaskConfig
 	{

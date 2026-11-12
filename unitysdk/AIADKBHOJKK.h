@@ -3,10 +3,10 @@
 class NPLNOOJIGOP;
 namespace RPG::GameCore { class TaskContext; }
 
-#define AIADKBHOJKK_CTOR_OFFSET UNITYSDK_OFFSET(0xEB8E110)
-#define AIADKBHOJKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB8E140)
+#define AIADKBHOJKK_CTOR_OFFSET UNITYSDK_OFFSET(0xF14DD30)
+#define AIADKBHOJKK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF14DD60)
 
-inline static constexpr unsigned int AIADKBHOJKK_TypeDefinitionIndex = 57938;
+inline static constexpr unsigned int AIADKBHOJKK_TypeDefinitionIndex = 59175;
 
 	class AIADKBHOJKK
 	{

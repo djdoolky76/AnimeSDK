@@ -5,14 +5,14 @@ namespace System { class Action; }
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleTeamInfoViewModel___O_TypeDefinitionIndex = 80978;
+	inline static constexpr unsigned int FateRinBattleTeamInfoViewModel___O_TypeDefinitionIndex = 83758;
 
 	class FateRinBattleTeamInfoViewModel___O : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet__0____OnPageEnter()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>O")->GetStaticField(0x55120);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client.FateRin.Battle", "<>O")->GetStaticField(0x5CAB0);
 		}
 
 	};

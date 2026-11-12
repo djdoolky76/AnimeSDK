@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define TMPRO_SPRITEASSETUTILITIES_TEXTUREPACKER_JSONARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2EA2D0)
+#define TMPRO_SPRITEASSETUTILITIES_TEXTUREPACKER_JSONARRAY_CTOR_OFFSET UNITYSDK_OFFSET(0x2059B140)
 
 namespace TMPro::SpriteAssetUtilities
 {
-	inline static constexpr unsigned int TexturePacker_JsonArray_TypeDefinitionIndex = 44698;
+	inline static constexpr unsigned int TexturePacker_JsonArray_TypeDefinitionIndex = 45773;
 
 	class TexturePacker_JsonArray : public ::System::Object
 	{

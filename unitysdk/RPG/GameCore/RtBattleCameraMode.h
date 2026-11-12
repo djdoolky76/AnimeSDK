@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtBattleCameraMode_TypeDefinitionIndex = 24803;
+	inline static constexpr unsigned int RtBattleCameraMode_TypeDefinitionIndex = 25283;
 
 	enum class RtBattleCameraMode : ::System::Int32
 	{

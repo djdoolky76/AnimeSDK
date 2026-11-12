@@ -5,23 +5,23 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T> class Func_1; }
 
-#define POMGFODDLFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC371380)
-#define POMGFODDLFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3713C0)
-#define POMGFODDLFE___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0xC3713D0)
+#define POMGFODDLFE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCA68B0)
+#define POMGFODDLFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCA68F0)
+#define POMGFODDLFE___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0xCCA6900)
 
-inline static constexpr unsigned int POMGFODDLFE___c_TypeDefinitionIndex = 65590;
+inline static constexpr unsigned int POMGFODDLFE___c_TypeDefinitionIndex = 67506;
 
 	class POMGFODDLFE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB1D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA580);
 		}
 
 		static ::System::Func_1<::System::String*>** StaticGet___9__1_0()
 		{
-			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xB1D8);
+			return (::System::Func_1<::System::String*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA588);
 		}
 
 		static ::System::Void _cctor()

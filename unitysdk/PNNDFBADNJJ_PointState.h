@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int PNNDFBADNJJ_PointState_TypeDefinitionIndex = 81923;
+inline static constexpr unsigned int PNNDFBADNJJ_PointState_TypeDefinitionIndex = 84704;
 
 	enum class PNNDFBADNJJ_PointState : ::System::Int32
 	{

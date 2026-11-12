@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageInvasionMaterialWhiteRow; }
 
-#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB0F5E0)
-#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DB0F520)
+#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED21800)
+#define RPG_GAMECORE_STAGEINVASIONMATERIALWHITEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1ED21740)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageInvasionMaterialWhiteRow_TypeDefinitionIndex = 15159;
+	inline static constexpr unsigned int StageInvasionMaterialWhiteRow_TypeDefinitionIndex = 15315;
 
 	class StageInvasionMaterialWhiteRow : public ::System::Object
 	{

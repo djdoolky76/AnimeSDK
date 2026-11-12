@@ -10,40 +10,40 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MonsterSkillRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MONSTERSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8B9F40)
-#define RPG_GAMECORE_MONSTERSKILLROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1D8B85D0)
-#define RPG_GAMECORE_MONSTERSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8B8DF0)
-#define RPG_GAMECORE_MONSTERSKILLROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1D8B9E90)
-#define RPG_GAMECORE_MONSTERSKILLROW_RESET_OFFSET UNITYSDK_OFFSET(0x1D8B9EF0)
+#define RPG_GAMECORE_MONSTERSKILLROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAD3CF0)
+#define RPG_GAMECORE_MONSTERSKILLROW_FROMBINARYWITHOUTNEW_OFFSET UNITYSDK_OFFSET(0x1EAD2380)
+#define RPG_GAMECORE_MONSTERSKILLROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EAD2BA0)
+#define RPG_GAMECORE_MONSTERSKILLROW_FROMTABLEOFFSET_OFFSET UNITYSDK_OFFSET(0x1EAD3C40)
+#define RPG_GAMECORE_MONSTERSKILLROW_RESET_OFFSET UNITYSDK_OFFSET(0x1EAD3CA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MonsterSkillRow_TypeDefinitionIndex = 14186;
+	inline static constexpr unsigned int MonsterSkillRow_TypeDefinitionIndex = 14343;
 
 	class MonsterSkillRow : public ::System::Object
 	{
 	public:
-		::System::String* SkillTriggerKey; // 0x10
-		::System::String* IconPath; // 0x18
+		::System::String* IconPath; // 0x10
+		::Il2CppArray<::System::UInt32>* PhaseList; // 0x18
 		::Il2CppArray<::System::UInt32>* ExtraEffectIDList; // 0x20
-		::Il2CppArray<::System::UInt32>* PhaseList; // 0x28
+		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x28
 		::Il2CppArray<::System::String*>* ModifierList; // 0x30
-		::Il2CppArray<::RPG::GameCore::FixPoint>* ParamList; // 0x38
-		::RPG::GameCore::AttackType AttackType; // 0x40
-		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID SkillTypeDesc; // 0x48
-		::RPG::GameCore::FixPoint SPHitBase; // 0x58
-		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0x60
-		::RPG::Client::TextID SkillDesc; // 0x68
-		::RPG::GameCore::AttackDamageType DamageType; // 0x78
-		::System::Boolean IsThreat; // 0x7C
-		::System::Byte _padding1[0x3];
-		::System::UInt32 SortOrder; // 0x80
-		::System::UInt32 SkillID; // 0x84
-		::System::UInt32 AI_ICD; // 0x88
-		::System::UInt32 AI_CD; // 0x8C
-		::RPG::Client::TextID SkillTag; // 0x90
-		::RPG::Client::TextID SkillName; // 0xA0
+		::System::String* SkillTriggerKey; // 0x38
+		::System::UInt32 SortOrder; // 0x40
+		::RPG::GameCore::AttackType AttackType; // 0x44
+		::RPG::GameCore::FixPoint SPHitBase; // 0x48
+		::System::UInt32 AI_CD; // 0x50
+		::System::Boolean IsThreat; // 0x54
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::AttackDamageType DamageType; // 0x58
+		::System::Byte _padding1[0x4];
+		::RPG::Client::TextID SkillTag; // 0x60
+		::RPG::Client::TextID SkillName; // 0x70
+		::RPG::Client::TextID SkillDesc; // 0x80
+		::System::UInt32 SkillID; // 0x90
+		::System::UInt32 AI_ICD; // 0x94
+		::RPG::Client::TextID SkillTypeDesc; // 0x98
+		::RPG::GameCore::FixPoint SkillComboValueDelta; // 0xA8
 		::RPG::GameCore::FixPoint DelayRatio; // 0xB0
 		::System::Void _ctor()
 		{

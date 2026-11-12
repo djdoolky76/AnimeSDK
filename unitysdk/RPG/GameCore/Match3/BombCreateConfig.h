@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore::Match3 { class BombCreateConfig; }
 
-#define RPG_GAMECORE_MATCH3_BOMBCREATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84B510)
-#define RPG_GAMECORE_MATCH3_BOMBCREATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D84B310)
+#define RPG_GAMECORE_MATCH3_BOMBCREATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA65EC0)
+#define RPG_GAMECORE_MATCH3_BOMBCREATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA65CC0)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int BombCreateConfig_TypeDefinitionIndex = 24868;
+	inline static constexpr unsigned int BombCreateConfig_TypeDefinitionIndex = 25348;
 
 	class BombCreateConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int KPOIEOPCEJL_TypeDefinitionIndex = 25373;
+inline static constexpr unsigned int KPOIEOPCEJL_TypeDefinitionIndex = 25851;
 
 	enum class KPOIEOPCEJL : ::System::Int32
 	{

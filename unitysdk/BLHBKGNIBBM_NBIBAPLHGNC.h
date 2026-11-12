@@ -4,9 +4,9 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define BLHBKGNIBBM_NBIBAPLHGNC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA72480)
+#define BLHBKGNIBBM_NBIBAPLHGNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC404680)
 
-inline static constexpr unsigned int BLHBKGNIBBM_NBIBAPLHGNC_TypeDefinitionIndex = 71792;
+inline static constexpr unsigned int BLHBKGNIBBM_NBIBAPLHGNC_TypeDefinitionIndex = 73811;
 
 	class BLHBKGNIBBM_NBIBAPLHGNC : public ::System::Object
 	{

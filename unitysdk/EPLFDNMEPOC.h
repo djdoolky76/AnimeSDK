@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class EnterFlipperLightDeviceControl; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EPLFDNMEPOC_CTOR_OFFSET UNITYSDK_OFFSET(0x155D7530)
-#define EPLFDNMEPOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155D7560)
+#define EPLFDNMEPOC_CTOR_OFFSET UNITYSDK_OFFSET(0x164EA230)
+#define EPLFDNMEPOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164EA260)
 
-inline static constexpr unsigned int EPLFDNMEPOC_TypeDefinitionIndex = 52760;
+inline static constexpr unsigned int EPLFDNMEPOC_TypeDefinitionIndex = 53904;
 
 	class EPLFDNMEPOC
 	{

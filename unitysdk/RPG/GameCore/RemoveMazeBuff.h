@@ -5,13 +5,13 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RemoveMazeBuff; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_REMOVEMAZEBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D985BA0)
-#define RPG_GAMECORE_REMOVEMAZEBUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D985BB0)
-#define RPG_GAMECORE_REMOVEMAZEBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D985B70)
+#define RPG_GAMECORE_REMOVEMAZEBUFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9DFD0)
+#define RPG_GAMECORE_REMOVEMAZEBUFF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB9DFE0)
+#define RPG_GAMECORE_REMOVEMAZEBUFF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9DFA0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RemoveMazeBuff_TypeDefinitionIndex = 20420;
+	inline static constexpr unsigned int RemoveMazeBuff_TypeDefinitionIndex = 20755;
 
 	class RemoveMazeBuff : public ::RPG::GameCore::TaskConfig
 	{

@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ElfEntranceNPCConfig; }
 namespace RPG::GameCore { class ElfEntranceNPCSet; }
 
-#define RPG_GAMECORE_ELFENTRANCENPCSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1D635A60)
-#define RPG_GAMECORE_ELFENTRANCENPCSET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D635970)
+#define RPG_GAMECORE_ELFENTRANCENPCSET_CTOR_OFFSET UNITYSDK_OFFSET(0x1E873430)
+#define RPG_GAMECORE_ELFENTRANCENPCSET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E873340)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ElfEntranceNPCSet_TypeDefinitionIndex = 16193;
+	inline static constexpr unsigned int ElfEntranceNPCSet_TypeDefinitionIndex = 16351;
 
 	class ElfEntranceNPCSet : public ::RPG::GameCore::JsonConfig
 	{

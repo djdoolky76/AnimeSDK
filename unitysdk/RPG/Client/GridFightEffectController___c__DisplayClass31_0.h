@@ -2,28 +2,28 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightEffectController; }
-namespace RPG::Client { class GridFightParticleEffect; }
+namespace RPG::Client { class GridFightFlyEffect; }
 
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD100D90)
-#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS31_0__PLAYCYRENEACTIVEEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xD102830)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS31_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDAB6950)
+#define RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS31_0__PLAYCYRENEFLYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xDAB6960)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass31_0_TypeDefinitionIndex = 64489;
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass31_0_TypeDefinitionIndex = 65969;
 
 	class GridFightEffectController___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:
 		::RPG::Client::GridFightEffectController* __4__this; // 0x10
-		::RPG::Client::GridFightParticleEffect* effect; // 0x18
+		::RPG::Client::GridFightFlyEffect* effect; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS31_0_CTOR_OFFSET))(this);
 		}
 
-		::System::Void _PlayCyreneActiveEffect_b__0()
+		::System::Void _PlayCyreneFlyEffect_b__0()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS31_0__PLAYCYRENEACTIVEEFFECT_B__0_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEFFECTCONTROLLER___C__DISPLAYCLASS31_0__PLAYCYRENEFLYEFFECT_B__0_OFFSET))(this);
 		}
 
 	};

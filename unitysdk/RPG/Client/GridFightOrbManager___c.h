@@ -5,25 +5,25 @@ class DJECDMCCEBM;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1C90C0)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C9100)
-#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__ADDPRESENT_B__32_1_OFFSET UNITYSDK_OFFSET(0xD1C9110)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC13BD0)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC13C10)
+#define RPG_CLIENT_GRIDFIGHTORBMANAGER___C__ADDPRESENT_B__32_1_OFFSET UNITYSDK_OFFSET(0xDC13C20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightOrbManager___c_TypeDefinitionIndex = 64462;
+	inline static constexpr unsigned int GridFightOrbManager___c_TypeDefinitionIndex = 65948;
 
 	class GridFightOrbManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::DJECDMCCEBM*, ::System::Boolean>** StaticGet___9__32_1()
 		{
-			return (::System::Func_2<::DJECDMCCEBM*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DD60);
+			return (::System::Func_2<::DJECDMCCEBM*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72D90);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DD68);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72D98);
 		}
 
 		static ::System::Void _cctor()

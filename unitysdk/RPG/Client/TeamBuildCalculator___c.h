@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1C9FA0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE1C9FE0)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__GETTEAMBUILDSYNOPSIS_B__25_1_OFFSET UNITYSDK_OFFSET(0xE1CA010)
-#define RPG_CLIENT_TEAMBUILDCALCULATOR___C___FILLWITHMAINAVATARS_B__20_0_OFFSET UNITYSDK_OFFSET(0xE1C9FF0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEC774A0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEC774E0)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C__GETTEAMBUILDSYNOPSIS_B__25_1_OFFSET UNITYSDK_OFFSET(0xEC77510)
+#define RPG_CLIENT_TEAMBUILDCALCULATOR___C___FILLWITHMAINAVATARS_B__20_0_OFFSET UNITYSDK_OFFSET(0xEC774F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TeamBuildCalculator___c_TypeDefinitionIndex = 68088;
+	inline static constexpr unsigned int TeamBuildCalculator___c_TypeDefinitionIndex = 70034;
 
 	class TeamBuildCalculator___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5A0);
-		}
-
 		static ::System::Action_1<::MDNBBCOBGPH*>** StaticGet___9__20_0()
 		{
-			return (::System::Action_1<::MDNBBCOBGPH*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5A8);
+			return (::System::Action_1<::MDNBBCOBGPH*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BE80);
 		}
 
 		static ::System::Func_2<::LLCICCEMLIO*, ::System::Boolean>** StaticGet___9__25_1()
 		{
-			return (::System::Func_2<::LLCICCEMLIO*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF5B0);
+			return (::System::Func_2<::LLCICCEMLIO*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BE88);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x1BE90);
 		}
 
 		static ::System::Void _cctor()

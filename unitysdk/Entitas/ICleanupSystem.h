@@ -3,7 +3,7 @@
 
 namespace Entitas
 {
-	inline static constexpr unsigned int ICleanupSystem_TypeDefinitionIndex = 10045;
+	inline static constexpr unsigned int ICleanupSystem_TypeDefinitionIndex = 10053;
 
 	class ICleanupSystem
 	{

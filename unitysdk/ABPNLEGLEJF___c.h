@@ -4,18 +4,18 @@
 class ABPNLEGLEJF;
 namespace System { class Object; }
 
-#define ABPNLEGLEJF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDD5410)
-#define ABPNLEGLEJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDD5450)
-#define ABPNLEGLEJF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DDD5460)
+#define ABPNLEGLEJF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFD8580)
+#define ABPNLEGLEJF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFD85C0)
+#define ABPNLEGLEJF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EFD85D0)
 
-inline static constexpr unsigned int ABPNLEGLEJF___c_TypeDefinitionIndex = 32499;
+inline static constexpr unsigned int ABPNLEGLEJF___c_TypeDefinitionIndex = 33414;
 
 	class ABPNLEGLEJF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2AFE0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x35570);
 		}
 
 		static ::System::Void _cctor()

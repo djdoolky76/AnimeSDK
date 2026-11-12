@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HOKILDIHDLF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CED01D0)
-#define HOKILDIHDLF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CED0750)
-#define HOKILDIHDLF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CED0340)
-#define HOKILDIHDLF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CECFC80)
-#define HOKILDIHDLF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CECFF10)
-#define HOKILDIHDLF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CED03E0)
-#define HOKILDIHDLF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CED0430)
-#define HOKILDIHDLF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CED0210)
-#define HOKILDIHDLF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CECFEB0)
-#define HOKILDIHDLF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CED0080)
-#define HOKILDIHDLF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CED02A0)
-#define HOKILDIHDLF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CECFC00)
+#define HOKILDIHDLF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E0B0DE0)
+#define HOKILDIHDLF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E0C24C0)
+#define HOKILDIHDLF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E0B0F50)
+#define HOKILDIHDLF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E0B0890)
+#define HOKILDIHDLF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E0B0B20)
+#define HOKILDIHDLF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E0B0FF0)
+#define HOKILDIHDLF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E0C21A0)
+#define HOKILDIHDLF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E0B0E20)
+#define HOKILDIHDLF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E0B0AC0)
+#define HOKILDIHDLF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E0B0C90)
+#define HOKILDIHDLF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E0B0EB0)
+#define HOKILDIHDLF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E0B0810)
 
-inline static constexpr unsigned int HOKILDIHDLF_TypeDefinitionIndex = 11397;
+inline static constexpr unsigned int HOKILDIHDLF_TypeDefinitionIndex = 11448;
 
 	class HOKILDIHDLF : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityEquipmentRewardMaterialRow*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityEquipmentRewardMaterialRow*>**)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x20230);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x173C0);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x20238);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x173C8);
 		}
 
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityEquipmentRewardMaterialRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x20240);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x7560);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ActivityEquipmentRewardMaterialRow*>**)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x173D0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x7561);
+			return (::System::Byte*)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x4CB0);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "HOKILDIHDLF")->GetStaticField(0x4CB1);
 		}
 
 		static ::System::Void _cctor()

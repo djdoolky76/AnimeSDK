@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class InfiniteWaveAddCurWaveMaxCount; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ONJAOPELIEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBF57DC0)
-#define ONJAOPELIEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF57DF0)
+#define ONJAOPELIEC_CTOR_OFFSET UNITYSDK_OFFSET(0xC855F40)
+#define ONJAOPELIEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC855F70)
 
-inline static constexpr unsigned int ONJAOPELIEC_TypeDefinitionIndex = 55120;
+inline static constexpr unsigned int ONJAOPELIEC_TypeDefinitionIndex = 56297;
 
 	class ONJAOPELIEC
 	{

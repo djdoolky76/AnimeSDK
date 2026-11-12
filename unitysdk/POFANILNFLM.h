@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CKFDNGOHNPC.h"
 
-#define POFANILNFLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F9410)
-#define POFANILNFLM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C9F9420)
+#define POFANILNFLM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBBCB30)
+#define POFANILNFLM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1DBBCB40)
 
-inline static constexpr unsigned int POFANILNFLM_TypeDefinitionIndex = 42205;
+inline static constexpr unsigned int POFANILNFLM_TypeDefinitionIndex = 43180;
 
 	class POFANILNFLM : public ::CKFDNGOHNPC
 	{

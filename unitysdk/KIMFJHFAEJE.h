@@ -4,10 +4,10 @@
 class FJKMGCKMNNA;
 namespace System { class String; }
 
-#define KIMFJHFAEJE_MJKMLOELJHO_OFFSET UNITYSDK_OFFSET(0xB435A80)
-#define KIMFJHFAEJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x14ED0)
+#define KIMFJHFAEJE_MJKMLOELJHO_OFFSET UNITYSDK_OFFSET(0xBCCC030)
+#define KIMFJHFAEJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x19A80)
 
-inline static constexpr unsigned int KIMFJHFAEJE_TypeDefinitionIndex = 64034;
+inline static constexpr unsigned int KIMFJHFAEJE_TypeDefinitionIndex = 65479;
 
 	struct alignas(4) KIMFJHFAEJE
 	{

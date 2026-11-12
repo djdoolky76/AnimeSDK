@@ -4,18 +4,18 @@
 #include "unitysdk/R3/Result.h"
 namespace System { class Object; }
 
-#define HAGLEMEGDCB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F390)
-#define HAGLEMEGDCB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6F3D0)
-#define HAGLEMEGDCB___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EC6F3E0)
+#define HAGLEMEGDCB___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FF1FD70)
+#define HAGLEMEGDCB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1FDB0)
+#define HAGLEMEGDCB___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1FF1FDC0)
 
-inline static constexpr unsigned int HAGLEMEGDCB___c_TypeDefinitionIndex = 44258;
+inline static constexpr unsigned int HAGLEMEGDCB___c_TypeDefinitionIndex = 45333;
 
 	class HAGLEMEGDCB___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4B220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x620F0);
 		}
 
 		static ::System::Void _cctor()

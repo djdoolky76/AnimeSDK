@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AliasConfig; }
 namespace RPG::GameCore { class RuntimeStageCaptureAliasData; }
 
-#define RPG_GAMECORE_ALIASCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3DF480)
-#define RPG_GAMECORE_ALIASCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3DF390)
+#define RPG_GAMECORE_ALIASCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5FF820)
+#define RPG_GAMECORE_ALIASCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5FF730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AliasConfig_TypeDefinitionIndex = 19168;
+	inline static constexpr unsigned int AliasConfig_TypeDefinitionIndex = 19358;
 
 	class AliasConfig : public ::RPG::GameCore::JsonConfig
 	{

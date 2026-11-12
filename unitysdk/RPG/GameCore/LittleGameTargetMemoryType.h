@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameTargetMemoryType_TypeDefinitionIndex = 24562;
+	inline static constexpr unsigned int LittleGameTargetMemoryType_TypeDefinitionIndex = 25023;
 
 	enum class LittleGameTargetMemoryType : ::System::Int32
 	{

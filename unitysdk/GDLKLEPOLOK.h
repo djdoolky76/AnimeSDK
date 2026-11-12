@@ -4,16 +4,16 @@
 class FCOEMCEDLNL;
 class GDLKLEPOLOK;
 
-#define GDLKLEPOLOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE30590)
-#define GDLKLEPOLOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE30440)
+#define GDLKLEPOLOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E00B640)
+#define GDLKLEPOLOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E00B4F0)
 
-inline static constexpr unsigned int GDLKLEPOLOK_TypeDefinitionIndex = 11992;
+inline static constexpr unsigned int GDLKLEPOLOK_TypeDefinitionIndex = 12049;
 
 	class GDLKLEPOLOK : public ::System::Object
 	{
 	public:
-		::System::Int32 HCDEOKNIGKG; // 0x10
-		::System::UInt32 PFDHNIJBGKO; // 0x14
+		::System::UInt32 PFDHNIJBGKO; // 0x10
+		::System::Int32 HCDEOKNIGKG; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GDLKLEPOLOK_CTOR_OFFSET))(this);

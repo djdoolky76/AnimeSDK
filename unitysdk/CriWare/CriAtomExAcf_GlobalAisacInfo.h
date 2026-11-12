@@ -3,11 +3,11 @@
 #include "unitysdk/CriWare/CriAtomExAcf_AcfAisacType.h"
 namespace System { class String; }
 
-#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x2E8B210)
+#define CRIWARE_CRIATOMEXACF_GLOBALAISACINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x305D840)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 40032;
+	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 41007;
 
 	struct alignas(8) CriAtomExAcf_GlobalAisacInfo
 	{

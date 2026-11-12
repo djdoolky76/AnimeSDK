@@ -5,25 +5,25 @@ namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDF90200)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDF90240)
-#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT___C__ISALLSLOTHASRECOM_B__5_0_OFFSET UNITYSDK_OFFSET(0xDF90250)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEA40490)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEA404D0)
+#define RPG_CLIENT_ROGUETOURNBUILDREFTEAMDATAEXT___C__ISALLSLOTHASRECOM_B__5_0_OFFSET UNITYSDK_OFFSET(0xEA404E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueTournBuildRefTeamDataExt___c_TypeDefinitionIndex = 67537;
+	inline static constexpr unsigned int RogueTournBuildRefTeamDataExt___c_TypeDefinitionIndex = 69481;
 
 	class RogueTournBuildRefTeamDataExt___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C4E0);
+			return (::System::Func_2<::RPG::Client::IRogueTournBuildRefTeamMemberData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71640);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6C4E8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x71648);
 		}
 
 		static ::System::Void _cctor()

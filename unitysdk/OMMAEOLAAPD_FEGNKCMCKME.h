@@ -5,16 +5,16 @@ class FLFFOGEGIDK;
 namespace System { class Action; }
 namespace System { class String; }
 
-#define OMMAEOLAAPD_FEGNKCMCKME_CTOR_OFFSET UNITYSDK_OFFSET(0xBF32070)
+#define OMMAEOLAAPD_FEGNKCMCKME_CTOR_OFFSET UNITYSDK_OFFSET(0xC82FA80)
 
-inline static constexpr unsigned int OMMAEOLAAPD_FEGNKCMCKME_TypeDefinitionIndex = 72142;
+inline static constexpr unsigned int OMMAEOLAAPD_FEGNKCMCKME_TypeDefinitionIndex = 74180;
 
 	class OMMAEOLAAPD_FEGNKCMCKME : public ::System::Object
 	{
 	public:
-		::System::String* OLOIFNNLKJP; // 0x10
-		::System::Action* MDLAFGAIBKE; // 0x18
-		::FLFFOGEGIDK* DGAIECEBNJG; // 0x20
+		::FLFFOGEGIDK* DGAIECEBNJG; // 0x10
+		::System::String* OLOIFNNLKJP; // 0x18
+		::System::Action* MDLAFGAIBKE; // 0x20
 		::System::Int32 CPJDKJJDBCD; // 0x28
 		::System::Void _ctor()
 		{

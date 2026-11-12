@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueChestGridItem; }
 
-#define RPG_GAMECORE_ROGUECHESTGRIDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9B0AB0)
-#define RPG_GAMECORE_ROGUECHESTGRIDITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9B08C0)
+#define RPG_GAMECORE_ROGUECHESTGRIDITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF9B70)
+#define RPG_GAMECORE_ROGUECHESTGRIDITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EBF9980)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueChestGridItem_TypeDefinitionIndex = 17909;
+	inline static constexpr unsigned int RogueChestGridItem_TypeDefinitionIndex = 18078;
 
 	class RogueChestGridItem : public ::RPG::GameCore::JsonConfig
 	{

@@ -3,20 +3,20 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/System/Object.h"
 
-#define KHPIHFGEONC_CTOR_OFFSET UNITYSDK_OFFSET(0xB416390)
-#define KHPIHFGEONC_GHIDBNBCICB_OFFSET UNITYSDK_OFFSET(0xB4161F0)
-#define KHPIHFGEONC_IFMDIELKPGL_OFFSET UNITYSDK_OFFSET(0xB416340)
-#define KHPIHFGEONC_OODEPOBHJLO_OFFSET UNITYSDK_OFFSET(0xB4162F0)
+#define KHPIHFGEONC_CTOR_OFFSET UNITYSDK_OFFSET(0xBCABD50)
+#define KHPIHFGEONC_GHIDBNBCICB_OFFSET UNITYSDK_OFFSET(0xBCABBB0)
+#define KHPIHFGEONC_IFMDIELKPGL_OFFSET UNITYSDK_OFFSET(0xBCABD00)
+#define KHPIHFGEONC_OODEPOBHJLO_OFFSET UNITYSDK_OFFSET(0xBCABCB0)
 
-inline static constexpr unsigned int KHPIHFGEONC_TypeDefinitionIndex = 54421;
+inline static constexpr unsigned int KHPIHFGEONC_TypeDefinitionIndex = 55585;
 
 	class KHPIHFGEONC : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::FixPoint AHAEIFEOELB; // 0x10
-		::System::Int32 DPLMENILLLL; // 0x18
+		::System::Int32 DPLMENILLLL; // 0x10
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint HKOJCEMPDGE; // 0x20
+		::RPG::GameCore::FixPoint HKOJCEMPDGE; // 0x18
+		::RPG::GameCore::FixPoint AHAEIFEOELB; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KHPIHFGEONC_CTOR_OFFSET))(this);

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Text::RegularExpressions { class Regex; }
 
-inline static constexpr unsigned int NCAGIGPOPFN_TypeDefinitionIndex = 54870;
+inline static constexpr unsigned int NCAGIGPOPFN_TypeDefinitionIndex = 56040;
 
 	struct alignas(8) NCAGIGPOPFN
 	{

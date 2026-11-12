@@ -5,17 +5,17 @@
 class FCOEMCEDLNL;
 class OEJDHDANODH;
 
-#define OEJDHDANODH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D260DE0)
-#define OEJDHDANODH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D260C80)
+#define OEJDHDANODH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E467030)
+#define OEJDHDANODH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E466ED0)
 
-inline static constexpr unsigned int OEJDHDANODH_TypeDefinitionIndex = 12498;
+inline static constexpr unsigned int OEJDHDANODH_TypeDefinitionIndex = 12565;
 
 	class OEJDHDANODH : public ::System::Object
 	{
 	public:
 		::Il2CppArray<::System::UInt32>* KPHIIIDGLEB; // 0x10
-		::System::UInt32 PHFMCACHFIJ; // 0x18
-		::RPG::GameCore::TeamTowersBossSkillGroupType GMPGDEINODK; // 0x1C
+		::RPG::GameCore::TeamTowersBossSkillGroupType GMPGDEINODK; // 0x18
+		::System::UInt32 PHFMCACHFIJ; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + OEJDHDANODH_CTOR_OFFSET))(this);

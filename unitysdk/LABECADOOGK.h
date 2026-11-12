@@ -9,11 +9,11 @@ namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LABECADOOGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB5D61C0)
-#define LABECADOOGK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB5D5600)
-#define LABECADOOGK_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0xB5D5A00)
+#define LABECADOOGK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE674F0)
+#define LABECADOOGK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xBE66930)
+#define LABECADOOGK_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0xBE66D30)
 
-inline static constexpr unsigned int LABECADOOGK_TypeDefinitionIndex = 77348;
+inline static constexpr unsigned int LABECADOOGK_TypeDefinitionIndex = 79682;
 
 	class LABECADOOGK : public ::System::Object
 	{

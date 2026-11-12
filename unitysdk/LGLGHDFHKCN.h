@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchAudioListenerToTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LGLGHDFHKCN_CTOR_OFFSET UNITYSDK_OFFSET(0xB69C330)
-#define LGLGHDFHKCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB69C360)
+#define LGLGHDFHKCN_CTOR_OFFSET UNITYSDK_OFFSET(0xBF335D0)
+#define LGLGHDFHKCN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBF33600)
 
-inline static constexpr unsigned int LGLGHDFHKCN_TypeDefinitionIndex = 58742;
+inline static constexpr unsigned int LGLGHDFHKCN_TypeDefinitionIndex = 60010;
 
 	class LGLGHDFHKCN
 	{

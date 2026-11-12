@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LOLIPPMAFCI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1226C0)
-#define LOLIPPMAFCI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D122C90)
-#define LOLIPPMAFCI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D122830)
-#define LOLIPPMAFCI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D122130)
-#define LOLIPPMAFCI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1223C0)
-#define LOLIPPMAFCI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1228D0)
-#define LOLIPPMAFCI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D122920)
-#define LOLIPPMAFCI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D122700)
-#define LOLIPPMAFCI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D122360)
-#define LOLIPPMAFCI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D122530)
-#define LOLIPPMAFCI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D122790)
-#define LOLIPPMAFCI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1220B0)
+#define LOLIPPMAFCI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E3216E0)
+#define LOLIPPMAFCI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E321CB0)
+#define LOLIPPMAFCI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E321850)
+#define LOLIPPMAFCI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E321150)
+#define LOLIPPMAFCI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E3213E0)
+#define LOLIPPMAFCI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E3218F0)
+#define LOLIPPMAFCI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E321940)
+#define LOLIPPMAFCI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E321720)
+#define LOLIPPMAFCI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E321380)
+#define LOLIPPMAFCI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E321550)
+#define LOLIPPMAFCI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E3217B0)
+#define LOLIPPMAFCI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E3210D0)
 
-inline static constexpr unsigned int LOLIPPMAFCI_TypeDefinitionIndex = 11101;
+inline static constexpr unsigned int LOLIPPMAFCI_TypeDefinitionIndex = 11117;
 
 	class LOLIPPMAFCI : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x45B40);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingFesItemRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingFesItemRow*>**)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x45B48);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x36D10);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x45B50);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x36D18);
 		}
 
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingFesItemRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x10B00);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::ChenLingFesItemRow*>**)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x36D20);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0x10B01);
+			return (::System::Boolean*)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0xBC40);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "LOLIPPMAFCI")->GetStaticField(0xBC41);
 		}
 
 		static ::System::Void _cctor()

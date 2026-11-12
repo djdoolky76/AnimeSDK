@@ -7,30 +7,30 @@ class JIHILNOBAPH;
 class KDHICPODIMK;
 namespace System { class String; }
 
-#define JIHILNOBAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D034CA0)
-#define JIHILNOBAPH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D034790)
+#define JIHILNOBAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2220A0)
+#define JIHILNOBAPH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E221B90)
 
-inline static constexpr unsigned int JIHILNOBAPH_TypeDefinitionIndex = 11302;
+inline static constexpr unsigned int JIHILNOBAPH_TypeDefinitionIndex = 11353;
 
 	class JIHILNOBAPH : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::UInt32>* ENHDOJLCADJ; // 0x10
-		::System::String* AJJDAJLFNBP; // 0x18
-		::Il2CppArray<::System::UInt32>* JDMNNJLANMI; // 0x20
-		::Il2CppArray<::System::UInt32>* MBHMFMANFOJ; // 0x28
+		::System::String* AJJDAJLFNBP; // 0x10
+		::Il2CppArray<::System::UInt32>* MBHMFMANFOJ; // 0x18
+		::Il2CppArray<::System::UInt32>* ENHDOJLCADJ; // 0x20
+		::Il2CppArray<::System::UInt32>* JDMNNJLANMI; // 0x28
 		::System::String* KKKDCNECFDG; // 0x30
-		::Il2CppArray<::KDHICPODIMK*>* LCNHHDJNHPF; // 0x38
-		::Il2CppArray<::System::UInt32>* EKMLKINHNOJ; // 0x40
-		::System::UInt32 OKDHOHKPEKK; // 0x48
-		::System::UInt32 LIPCDDAPHNF; // 0x4C
-		::System::UInt32 NCNDBAIHDMC; // 0x50
+		::Il2CppArray<::System::UInt32>* EKMLKINHNOJ; // 0x38
+		::Il2CppArray<::KDHICPODIMK*>* LCNHHDJNHPF; // 0x40
+		::RPG::GameCore::DiceCombatStageFirstType MMNJJHDBJCI; // 0x48
+		::System::UInt32 PHFMCACHFIJ; // 0x4C
+		::System::UInt32 HPIANKGODCK; // 0x50
 		::System::UInt32 DEAKHCBABDF; // 0x54
-		::System::UInt32 PHFMCACHFIJ; // 0x58
-		::System::UInt32 MPHLEBAPCOK; // 0x5C
-		::System::UInt32 BFJDEHGEDFB; // 0x60
-		::RPG::GameCore::DiceCombatStageFirstType MMNJJHDBJCI; // 0x64
-		::System::UInt32 HPIANKGODCK; // 0x68
+		::System::UInt32 MPHLEBAPCOK; // 0x58
+		::System::UInt32 BFJDEHGEDFB; // 0x5C
+		::System::UInt32 NCNDBAIHDMC; // 0x60
+		::System::UInt32 OKDHOHKPEKK; // 0x64
+		::System::UInt32 LIPCDDAPHNF; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JIHILNOBAPH_CTOR_OFFSET))(this);

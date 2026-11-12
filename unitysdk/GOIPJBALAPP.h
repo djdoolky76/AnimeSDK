@@ -6,10 +6,10 @@ namespace Entitas { class IEntity; }
 namespace RPG::GameCore { class BaseLittleGameAbilityEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GOIPJBALAPP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B34C50)
-#define GOIPJBALAPP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15B34750)
+#define GOIPJBALAPP_CTOR_OFFSET UNITYSDK_OFFSET(0x16ABAF50)
+#define GOIPJBALAPP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x16ABAA50)
 
-inline static constexpr unsigned int GOIPJBALAPP_TypeDefinitionIndex = 77340;
+inline static constexpr unsigned int GOIPJBALAPP_TypeDefinitionIndex = 79674;
 
 	class GOIPJBALAPP : public ::System::Object
 	{

@@ -4,78 +4,128 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GridFightEquipCraftRecipe; }
 namespace RPG::Client { class GridFightEquipCraftRecipeCollection; }
+namespace RPG::Client { class IGridFightEquipCraftRecipeEntry; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
+namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD10FFE0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD110020)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__5_0_OFFSET UNITYSDK_OFFSET(0xD110170)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__5_1_OFFSET UNITYSDK_OFFSET(0xD110190)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__5_3_OFFSET UNITYSDK_OFFSET(0xD1101F0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__4_0_OFFSET UNITYSDK_OFFSET(0xD1100D0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__4_1_OFFSET UNITYSDK_OFFSET(0xD1100F0)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__4_3_OFFSET UNITYSDK_OFFSET(0xD110150)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__3_0_OFFSET UNITYSDK_OFFSET(0xD110030)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__3_1_OFFSET UNITYSDK_OFFSET(0xD110050)
-#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__3_3_OFFSET UNITYSDK_OFFSET(0xD1100B0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDAD20D0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDAD2110)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__10_0_OFFSET UNITYSDK_OFFSET(0xDAD23C0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__10_1_OFFSET UNITYSDK_OFFSET(0xDAD23E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__10_3_OFFSET UNITYSDK_OFFSET(0xDAD2440)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYELATIONLAUGHPOINTEQUIPS_B__8_0_OFFSET UNITYSDK_OFFSET(0xDAD2320)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYELATIONLAUGHPOINTEQUIPS_B__8_1_OFFSET UNITYSDK_OFFSET(0xDAD2340)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYELATIONLAUGHPOINTEQUIPS_B__8_3_OFFSET UNITYSDK_OFFSET(0xDAD23A0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__6_0_OFFSET UNITYSDK_OFFSET(0xDAD21E0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__6_1_OFFSET UNITYSDK_OFFSET(0xDAD2200)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__6_3_OFFSET UNITYSDK_OFFSET(0xDAD2260)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__7_0_OFFSET UNITYSDK_OFFSET(0xDAD2280)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__7_1_OFFSET UNITYSDK_OFFSET(0xDAD22A0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__7_3_OFFSET UNITYSDK_OFFSET(0xDAD2300)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__4_0_OFFSET UNITYSDK_OFFSET(0xDAD2130)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__4_1_OFFSET UNITYSDK_OFFSET(0xDAD2150)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__4_3_OFFSET UNITYSDK_OFFSET(0xDAD21B0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__5_0_OFFSET UNITYSDK_OFFSET(0xDAD21D0)
+#define RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETTARGETEQUIPCRAFTRECIPES_B__3_0_OFFSET UNITYSDK_OFFSET(0xDAD2120)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c_TypeDefinitionIndex = 64519;
+	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c_TypeDefinitionIndex = 66047;
 
 	class GridFightEquipCraftMapInfo___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__5_3()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EB0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DA80);
+		}
+
+		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__8_3()
+		{
+			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DA88);
+		}
+
+		static ::System::Converter_2<::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::IGridFightEquipCraftRecipeEntry*>** StaticGet___9__3_0()
+		{
+			return (::System::Converter_2<::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::IGridFightEquipCraftRecipeEntry*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DA90);
+		}
+
+		static ::System::Converter_2<::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::IGridFightEquipCraftRecipeEntry*>** StaticGet___9__5_0()
+		{
+			return (::System::Converter_2<::RPG::Client::GridFightEquipCraftRecipe*, ::RPG::Client::IGridFightEquipCraftRecipeEntry*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DA98);
+		}
+
+		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__7_3()
+		{
+			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAA0);
+		}
+
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>** StaticGet___9__10_1()
+		{
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAA8);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>** StaticGet___9__4_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EB8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAB0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>** StaticGet___9__5_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EC0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAB8);
 		}
 
-		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>** StaticGet___9__3_1()
+		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__6_3()
 		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EC8);
-		}
-
-		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__3_3()
-		{
-			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65ED0);
-		}
-
-		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__4_3()
-		{
-			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65ED8);
+			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAC0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAC8);
+		}
+
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>** StaticGet___9__7_1()
+		{
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAD0);
+		}
+
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>** StaticGet___9__8_1()
+		{
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAD8);
 		}
 
 		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>** StaticGet___9__4_1()
 		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EE8);
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAE0);
 		}
 
-		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>** StaticGet___9__3_0()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EF0);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAE8);
 		}
 
-		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>** StaticGet___9__5_1()
+		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>** StaticGet___9__7_0()
 		{
-			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x65EF8);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAF0);
+		}
+
+		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__10_3()
+		{
+			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DAF8);
+		}
+
+		static ::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_3<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*, ::System::Object*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DB00);
+		}
+
+		static ::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>** StaticGet___9__4_3()
+		{
+			return (::System::Func_2<::System::Object*, ::RPG::Client::GridFightEquipCraftRecipe*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DB08);
 		}
 
 		static ::System::Void _cctor()
@@ -88,49 +138,89 @@ namespace RPG::Client
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C_CTOR_OFFSET))(this);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesContainsItem_b__3_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
+		::RPG::Client::IGridFightEquipCraftRecipeEntry* _GetTargetEquipCraftRecipes_b__3_0(::RPG::Client::GridFightEquipCraftRecipe* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__3_0_OFFSET))(this, a1);
+			return ((::RPG::Client::IGridFightEquipCraftRecipeEntry*(*)(::PVOID, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETTARGETEQUIPCRAFTRECIPES_B__3_0_OFFSET))(this, a1);
 		}
 
-		::System::Object* _GetRecipesContainsItem_b__3_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesContainsItem_b__4_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__3_1_OFFSET))(this, a1, a2);
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__4_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesContainsItem_b__3_3(::System::Object* a1)
+		::System::Object* _GetRecipesContainsItem_b__4_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
 		{
-			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__3_3_OFFSET))(this, a1);
+			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__4_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesCanCraft_b__4_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
+		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesContainsItem_b__4_3(::System::Object* a1)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__4_0_OFFSET))(this, a1);
+			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__4_3_OFFSET))(this, a1);
 		}
 
-		::System::Object* _GetRecipesCanCraft_b__4_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
+		::RPG::Client::IGridFightEquipCraftRecipeEntry* _GetRecipesContainsItem_b__5_0(::RPG::Client::GridFightEquipCraftRecipe* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__4_1_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::IGridFightEquipCraftRecipeEntry*(*)(::PVOID, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCONTAINSITEM_B__5_0_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesCanCraft_b__4_3(::System::Object* a1)
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesCanCraft_b__6_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
 		{
-			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__4_3_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__6_0_OFFSET))(this, a1);
 		}
 
-		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesCanCraftByAddItem_b__5_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
+		::System::Object* _GetRecipesCanCraft_b__6_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
 		{
-			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__5_0_OFFSET))(this, a1);
+			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__6_1_OFFSET))(this, a1, a2);
 		}
 
-		::System::Object* _GetRecipesCanCraftByAddItem_b__5_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
+		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesCanCraft_b__6_3(::System::Object* a1)
 		{
-			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__5_1_OFFSET))(this, a1, a2);
+			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__6_3_OFFSET))(this, a1);
 		}
 
-		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesCanCraftByAddItem_b__5_3(::System::Object* a1)
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesCanCraft_b__7_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
 		{
-			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__5_3_OFFSET))(this, a1);
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__7_0_OFFSET))(this, a1);
+		}
+
+		::System::Object* _GetRecipesCanCraft_b__7_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__7_1_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesCanCraft_b__7_3(::System::Object* a1)
+		{
+			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFT_B__7_3_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesCanCraftByElationLaughPointEquips_b__8_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYELATIONLAUGHPOINTEQUIPS_B__8_0_OFFSET))(this, a1);
+		}
+
+		::System::Object* _GetRecipesCanCraftByElationLaughPointEquips_b__8_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYELATIONLAUGHPOINTEQUIPS_B__8_1_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesCanCraftByElationLaughPointEquips_b__8_3(::System::Object* a1)
+		{
+			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYELATIONLAUGHPOINTEQUIPS_B__8_3_OFFSET))(this, a1);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>* _GetRecipesCanCraftByAddItem_b__10_0(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1)
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightEquipCraftRecipe*>*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__10_0_OFFSET))(this, a1);
+		}
+
+		::System::Object* _GetRecipesCanCraftByAddItem_b__10_1(::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*> a1, ::RPG::Client::GridFightEquipCraftRecipe* a2)
+		{
+			return ((::System::Object*(*)(::PVOID, ::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::GridFightEquipCraftRecipeCollection*>, ::RPG::Client::GridFightEquipCraftRecipe*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__10_1_OFFSET))(this, a1, a2);
+		}
+
+		::RPG::Client::GridFightEquipCraftRecipe* _GetRecipesCanCraftByAddItem_b__10_3(::System::Object* a1)
+		{
+			return ((::RPG::Client::GridFightEquipCraftRecipe*(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTEQUIPCRAFTMAPINFO___C__GETRECIPESCANCRAFTBYADDITEM_B__10_3_OFFSET))(this, a1);
 		}
 
 	};

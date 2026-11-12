@@ -3,7 +3,7 @@
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirNodeCase_TypeDefinitionIndex = 79295;
+	inline static constexpr unsigned int PixAirNodeCase_TypeDefinitionIndex = 82072;
 
 	enum class PixAirNodeCase : ::System::Int32
 	{

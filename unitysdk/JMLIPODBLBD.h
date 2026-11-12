@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetFetchAdvLocalPlayer; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JMLIPODBLBD_CTOR_OFFSET UNITYSDK_OFFSET(0xB2705D0)
-#define JMLIPODBLBD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB270620)
+#define JMLIPODBLBD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9B420)
+#define JMLIPODBLBD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA9B470)
 
-inline static constexpr unsigned int JMLIPODBLBD_TypeDefinitionIndex = 59080;
+inline static constexpr unsigned int JMLIPODBLBD_TypeDefinitionIndex = 60355;
 
 	class JMLIPODBLBD
 	{

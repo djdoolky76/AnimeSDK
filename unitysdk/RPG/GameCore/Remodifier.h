@@ -11,13 +11,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_REMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D983550)
-#define RPG_GAMECORE_REMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9835C0)
-#define RPG_GAMECORE_REMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9834C0)
+#define RPG_GAMECORE_REMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB9B9C0)
+#define RPG_GAMECORE_REMODIFIER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB9BA30)
+#define RPG_GAMECORE_REMODIFIER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB9B930)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int Remodifier_TypeDefinitionIndex = 23628;
+	inline static constexpr unsigned int Remodifier_TypeDefinitionIndex = 24075;
 
 	class Remodifier : public ::RPG::GameCore::TaskConfig
 	{

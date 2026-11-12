@@ -4,25 +4,25 @@
 namespace Cinemachine { class CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate; }
 namespace System { class Object; }
 
-#define RPG_GAMECORE_LEVELAREAMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE6E0CF0)
-#define RPG_GAMECORE_LEVELAREAMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE6E0D20)
-#define RPG_GAMECORE_LEVELAREAMANAGER___C__ACTIVEVIRTUALCAMERA_B__23_0_OFFSET UNITYSDK_OFFSET(0xE6E0D30)
+#define RPG_GAMECORE_LEVELAREAMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xF1E2DF0)
+#define RPG_GAMECORE_LEVELAREAMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xF1E2E20)
+#define RPG_GAMECORE_LEVELAREAMANAGER___C__ACTIVEVIRTUALCAMERA_B__23_0_OFFSET UNITYSDK_OFFSET(0xF1E2E30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelAreaManager___c_TypeDefinitionIndex = 57841;
+	inline static constexpr unsigned int LevelAreaManager___c_TypeDefinitionIndex = 59078;
 
 	class LevelAreaManager___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x64CE0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x71030);
 		}
 
 		static ::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate** StaticGet___9__23_0()
 		{
-			return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x64CE8);
+			return (::Cinemachine::CinemachineVirtualCamera_OnUpdateVirtualCameraDelegate**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x71038);
 		}
 
 		static ::System::Void _cctor()

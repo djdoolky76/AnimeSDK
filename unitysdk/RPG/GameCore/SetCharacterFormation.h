@@ -10,13 +10,13 @@ namespace RPG::GameCore { class SetCharacterFormation; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_SETCHARACTERFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA9A810)
-#define RPG_GAMECORE_SETCHARACTERFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA9A880)
-#define RPG_GAMECORE_SETCHARACTERFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA9A770)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1ECACBB0)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ECACC20)
+#define RPG_GAMECORE_SETCHARACTERFORMATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ECACB10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SetCharacterFormation_TypeDefinitionIndex = 22643;
+	inline static constexpr unsigned int SetCharacterFormation_TypeDefinitionIndex = 23065;
 
 	class SetCharacterFormation : public ::RPG::GameCore::TaskConfig
 	{

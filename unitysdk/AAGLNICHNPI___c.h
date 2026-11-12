@@ -4,18 +4,18 @@
 class AAGLNICHNPI;
 namespace System { class Object; }
 
-#define AAGLNICHNPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDBAF20)
-#define AAGLNICHNPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDBAF60)
-#define AAGLNICHNPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDBAF70)
+#define AAGLNICHNPI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EFBD850)
+#define AAGLNICHNPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFBD890)
+#define AAGLNICHNPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EFBD8A0)
 
-inline static constexpr unsigned int AAGLNICHNPI___c_TypeDefinitionIndex = 27384;
+inline static constexpr unsigned int AAGLNICHNPI___c_TypeDefinitionIndex = 27915;
 
 	class AAGLNICHNPI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36DA0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x31AA0);
 		}
 
 		static ::System::Void _cctor()

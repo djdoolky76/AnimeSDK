@@ -6,11 +6,11 @@ class MIBPJLAGBLD;
 namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 namespace RPG::Client::Promises { template <typename T> class IPromise_1; }
 
-#define MIBPJLAGBLD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9504D0)
-#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xB951520)
-#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xB9515C0)
+#define MIBPJLAGBLD___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC204E00)
+#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__0_OFFSET UNITYSDK_OFFSET(0xC205E50)
+#define MIBPJLAGBLD___C__DISPLAYCLASS7_0__CONFIRMLOAN_B__1_OFFSET UNITYSDK_OFFSET(0xC205EF0)
 
-inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass7_0_TypeDefinitionIndex = 76463;
+inline static constexpr unsigned int MIBPJLAGBLD___c__DisplayClass7_0_TypeDefinitionIndex = 78794;
 
 	class MIBPJLAGBLD___c__DisplayClass7_0 : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimCameraSimpleOverrideFollow; }
 
-#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6B41F0)
-#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6B2180)
+#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C0EF0)
+#define RPG_GAMECORE_FIVEDIMCAMERASIMPLEOVERRIDEFOLLOW_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8BEE40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimCameraSimpleOverrideFollow_TypeDefinitionIndex = 18623;
+	inline static constexpr unsigned int FiveDimCameraSimpleOverrideFollow_TypeDefinitionIndex = 18783;
 
 	class FiveDimCameraSimpleOverrideFollow : public ::RPG::GameCore::JsonConfig
 	{

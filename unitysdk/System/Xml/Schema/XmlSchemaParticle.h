@@ -5,10 +5,10 @@
 #include "unitysdk/System/Decimal.h"
 namespace System::Xml::Schema { class XmlSchemaParticle; }
 
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EEE9320)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEE69F0)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET UNITYSDK_OFFSET(0x1EEE7720)
-#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET UNITYSDK_OFFSET(0x1EEE7560)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_CCTOR_OFFSET UNITYSDK_OFFSET(0x20198AD0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_CTOR_OFFSET UNITYSDK_OFFSET(0x201961A0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MAXOCCURS_OFFSET UNITYSDK_OFFSET(0x20196ED0)
+#define SYSTEM_XML_SCHEMA_XMLSCHEMAPARTICLE_SET_MINOCCURS_OFFSET UNITYSDK_OFFSET(0x20196D10)
 
 namespace System::Xml::Schema
 {
@@ -22,7 +22,7 @@ namespace System::Xml::Schema
 		::System::Decimal minOccurs; // 0x24
 		static ::System::Xml::Schema::XmlSchemaParticle** StaticGet_Empty()
 		{
-			return (::System::Xml::Schema::XmlSchemaParticle**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaParticle")->GetStaticField(0x25010);
+			return (::System::Xml::Schema::XmlSchemaParticle**)UnitySDK::FromName("System.Xml.Schema", "XmlSchemaParticle")->GetStaticField(0x2F810);
 		}
 
 		::System::Void _ctor()

@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class WaitForWithDuration; }
 
-#define RPG_GAMECORE_WAITFORWITHDURATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC98F20)
-#define RPG_GAMECORE_WAITFORWITHDURATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC98F80)
-#define RPG_GAMECORE_WAITFORWITHDURATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC98EA0)
+#define RPG_GAMECORE_WAITFORWITHDURATION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EEAB600)
+#define RPG_GAMECORE_WAITFORWITHDURATION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EEAB660)
+#define RPG_GAMECORE_WAITFORWITHDURATION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EEAB580)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int WaitForWithDuration_TypeDefinitionIndex = 23793;
+	inline static constexpr unsigned int WaitForWithDuration_TypeDefinitionIndex = 24249;
 
 	class WaitForWithDuration : public ::RPG::GameCore::TaskConfig
 	{

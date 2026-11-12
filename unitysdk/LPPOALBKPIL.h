@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMIHMGNLBPN.h"
 
-#define LPPOALBKPIL_CTOR_OFFSET UNITYSDK_OFFSET(0xB836B70)
-#define LPPOALBKPIL_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xB836920)
+#define LPPOALBKPIL_CTOR_OFFSET UNITYSDK_OFFSET(0xC098120)
+#define LPPOALBKPIL_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xC097ED0)
 
-inline static constexpr unsigned int LPPOALBKPIL_TypeDefinitionIndex = 66521;
+inline static constexpr unsigned int LPPOALBKPIL_TypeDefinitionIndex = 68457;
 
 	class LPPOALBKPIL : public ::FMIHMGNLBPN
 	{

@@ -3,7 +3,7 @@
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int IAsyncEndEditEventHandler_1_TypeDefinitionIndex = 38474;
+	inline static constexpr unsigned int IAsyncEndEditEventHandler_1_TypeDefinitionIndex = 39403;
 
 	template <typename T>
 	class IAsyncEndEditEventHandler_1

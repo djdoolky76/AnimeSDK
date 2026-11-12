@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_BOOKSERIES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8AFCB0)
-#define RPG_CLIENT_BOOKSERIES___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8AFCF0)
-#define RPG_CLIENT_BOOKSERIES___C__GETBOOKS_B__5_0_OFFSET UNITYSDK_OFFSET(0xC8AFD00)
-#define RPG_CLIENT_BOOKSERIES___C__GET_HASAUDIOCONTENT_B__53_0_OFFSET UNITYSDK_OFFSET(0xC8AFDC0)
+#define RPG_CLIENT_BOOKSERIES___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2150E0)
+#define RPG_CLIENT_BOOKSERIES___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD215120)
+#define RPG_CLIENT_BOOKSERIES___C__GETBOOKS_B__5_0_OFFSET UNITYSDK_OFFSET(0xD215130)
+#define RPG_CLIENT_BOOKSERIES___C__GET_HASAUDIOCONTENT_B__53_0_OFFSET UNITYSDK_OFFSET(0xD2151F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BookSeries___c_TypeDefinitionIndex = 66379;
+	inline static constexpr unsigned int BookSeries___c_TypeDefinitionIndex = 68315;
 
 	class BookSeries___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::Book*>** StaticGet___9__5_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::Book*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EE70);
-		}
-
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>** StaticGet___9__53_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EE78);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::Book*>, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5CF50);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5EE80);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5CF58);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::Book*>** StaticGet___9__5_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::Book*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5CF60);
 		}
 
 		static ::System::Void _cctor()

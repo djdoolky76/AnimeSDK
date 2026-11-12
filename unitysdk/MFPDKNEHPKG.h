@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
-#define MFPDKNEHPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB911A80)
-#define MFPDKNEHPKG_EKBLGBCCLIC_OFFSET UNITYSDK_OFFSET(0xB911AA0)
+#define MFPDKNEHPKG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1C4150)
+#define MFPDKNEHPKG_EKBLGBCCLIC_OFFSET UNITYSDK_OFFSET(0xC1C4170)
 
-inline static constexpr unsigned int MFPDKNEHPKG_TypeDefinitionIndex = 49273;
+inline static constexpr unsigned int MFPDKNEHPKG_TypeDefinitionIndex = 50349;
 
 	class MFPDKNEHPKG : public ::System::Object
 	{

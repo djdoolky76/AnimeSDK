@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define GNOMKKKCLKM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CE70270)
-#define GNOMKKKCLKM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE70870)
-#define GNOMKKKCLKM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CE703E0)
-#define GNOMKKKCLKM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CE6FCA0)
-#define GNOMKKKCLKM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CE6FF30)
-#define GNOMKKKCLKM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CE70480)
-#define GNOMKKKCLKM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CE704D0)
-#define GNOMKKKCLKM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CE702B0)
-#define GNOMKKKCLKM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CE6FED0)
-#define GNOMKKKCLKM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CE700A0)
-#define GNOMKKKCLKM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE70340)
-#define GNOMKKKCLKM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE6FC20)
+#define GNOMKKKCLKM_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E04B1C0)
+#define GNOMKKKCLKM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E04B7C0)
+#define GNOMKKKCLKM_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E04B330)
+#define GNOMKKKCLKM_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E04ABF0)
+#define GNOMKKKCLKM_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E04AE80)
+#define GNOMKKKCLKM_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E04B3D0)
+#define GNOMKKKCLKM_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E04B420)
+#define GNOMKKKCLKM_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E04B200)
+#define GNOMKKKCLKM_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E04AE20)
+#define GNOMKKKCLKM_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E04AFF0)
+#define GNOMKKKCLKM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E04B290)
+#define GNOMKKKCLKM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E04AB70)
 
-inline static constexpr unsigned int GNOMKKKCLKM_TypeDefinitionIndex = 13956;
+inline static constexpr unsigned int GNOMKKKCLKM_TypeDefinitionIndex = 14113;
 
 	class GNOMKKKCLKM : public ::System::Object
 	{
 	public:
-		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::FIEGHNDKMOI*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x1A490);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::FIEGHNDKMOI*>**)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x12510);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x1A498);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x12518);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::FIEGHNDKMOI*>** StaticGet_EHNHPCGDOIO()
+		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::FIEGHNDKMOI*>**)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x1A4A0);
-		}
-
-		static ::System::Byte* StaticGet_GDMLAIBCKIP()
-		{
-			return (::System::Byte*)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x5F80);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x12520);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x5F81);
+			return (::System::Boolean*)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x3B80);
+		}
+
+		static ::System::Byte* StaticGet_GDMLAIBCKIP()
+		{
+			return (::System::Byte*)UnitySDK::FromName("", "GNOMKKKCLKM")->GetStaticField(0x3B81);
 		}
 
 		static ::System::Void _cctor()

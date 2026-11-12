@@ -4,12 +4,12 @@
 class DKEFAMNAFAK;
 namespace RPG::Client::ChenLingBattle { class Policy; }
 
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCA75ED0)
-#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0__ATTACHPOLICYSKILLS_B__0_OFFSET UNITYSDK_OFFSET(0xCA77640)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD3D9830)
+#define RPG_CLIENT_CHENLINGBATTLETEAMSNAPSHOT___C__DISPLAYCLASS3_0__ATTACHPOLICYSKILLS_B__0_OFFSET UNITYSDK_OFFSET(0xD3DAFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass3_0_TypeDefinitionIndex = 61435;
+	inline static constexpr unsigned int ChenLingBattleTeamSnapshot___c__DisplayClass3_0_TypeDefinitionIndex = 62820;
 
 	class ChenLingBattleTeamSnapshot___c__DisplayClass3_0 : public ::System::Object
 	{

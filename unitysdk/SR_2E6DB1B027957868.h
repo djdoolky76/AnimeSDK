@@ -5,8 +5,8 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Globalization { class CultureInfo; }
 
-#define SR_2E6DB1B027957868_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x1EE91DB0)
-#define SR_2E6DB1B027957868_GETSTRING_OFFSET UNITYSDK_OFFSET(0x1EE91D00)
+#define SR_2E6DB1B027957868_GETSTRING_1_OFFSET UNITYSDK_OFFSET(0x20141590)
+#define SR_2E6DB1B027957868_GETSTRING_OFFSET UNITYSDK_OFFSET(0x201414E0)
 
 inline static constexpr unsigned int SR_2E6DB1B027957868_TypeDefinitionIndex = 1776;
 

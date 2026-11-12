@@ -5,25 +5,25 @@ namespace RPG::Client::ChenLingBattle { class EffectProgressConfig; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA55670)
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA556B0)
-#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CREATEDYNAMICPROGRESSEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0xCA556C0)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3BA2D0)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3BA310)
+#define RPG_CLIENT_CHENLINGBATTLE_DYNAMICPROGRESSEFFECT___C__CREATEDYNAMICPROGRESSEFFECT_B__0_0_OFFSET UNITYSDK_OFFSET(0xD3BA320)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int DynamicProgressEffect___c_TypeDefinitionIndex = 76359;
+	inline static constexpr unsigned int DynamicProgressEffect___c_TypeDefinitionIndex = 78690;
 
 	class DynamicProgressEffect___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E3B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E3B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x685D0);
+		}
+
+		static ::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::RPG::Client::ChenLingBattle::EffectProgressConfig*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x685D8);
 		}
 
 		static ::System::Void _cctor()

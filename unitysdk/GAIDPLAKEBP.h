@@ -4,10 +4,10 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHoverBrain; }
 
-#define GAIDPLAKEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1593C700)
-#define GAIDPLAKEBP_DDDBKDFGAHF_OFFSET UNITYSDK_OFFSET(0x1593C550)
+#define GAIDPLAKEBP_CTOR_OFFSET UNITYSDK_OFFSET(0x16870800)
+#define GAIDPLAKEBP_DDDBKDFGAHF_OFFSET UNITYSDK_OFFSET(0x16870650)
 
-inline static constexpr unsigned int GAIDPLAKEBP_TypeDefinitionIndex = 80992;
+inline static constexpr unsigned int GAIDPLAKEBP_TypeDefinitionIndex = 83772;
 
 	class GAIDPLAKEBP : public ::OMCMJNICFCH
 	{

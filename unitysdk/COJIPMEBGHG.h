@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define COJIPMEBGHG_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB8610)
+#define COJIPMEBGHG_CTOR_OFFSET UNITYSDK_OFFSET(0xE604DD0)
 
-inline static constexpr unsigned int COJIPMEBGHG_TypeDefinitionIndex = 71163;
+inline static constexpr unsigned int COJIPMEBGHG_TypeDefinitionIndex = 73146;
 
 	class COJIPMEBGHG : public ::System::Object
 	{

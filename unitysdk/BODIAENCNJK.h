@@ -3,7 +3,7 @@
 #include "unitysdk/KLNKLOMDIIC.h"
 #include "unitysdk/RPG/Client/LittleGame/FiveDim/SurfaceBorderType.h"
 
-inline static constexpr unsigned int BODIAENCNJK_TypeDefinitionIndex = 43430;
+inline static constexpr unsigned int BODIAENCNJK_TypeDefinitionIndex = 44412;
 
 	struct alignas(4) BODIAENCNJK
 	{

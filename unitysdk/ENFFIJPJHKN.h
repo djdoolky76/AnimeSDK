@@ -8,12 +8,12 @@ class LAEINKGACID;
 namespace RPG::Client::BlindBox::Pool { class BlindBoxPool; }
 namespace System { class String; }
 
-#define ENFFIJPJHKN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x155AA920)
-#define ENFFIJPJHKN_CCTOR_OFFSET UNITYSDK_OFFSET(0x155AB230)
-#define ENFFIJPJHKN_CTOR_OFFSET UNITYSDK_OFFSET(0x155AA890)
-#define ENFFIJPJHKN_EHECHGPMPHM_OFFSET UNITYSDK_OFFSET(0x155AB0C0)
+#define ENFFIJPJHKN_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x164BB130)
+#define ENFFIJPJHKN_CCTOR_OFFSET UNITYSDK_OFFSET(0x164BBA40)
+#define ENFFIJPJHKN_CTOR_OFFSET UNITYSDK_OFFSET(0x164BB0A0)
+#define ENFFIJPJHKN_EHECHGPMPHM_OFFSET UNITYSDK_OFFSET(0x164BB8D0)
 
-inline static constexpr unsigned int ENFFIJPJHKN_TypeDefinitionIndex = 74910;
+inline static constexpr unsigned int ENFFIJPJHKN_TypeDefinitionIndex = 77237;
 
 	class ENFFIJPJHKN : public ::System::Object
 	{
@@ -21,21 +21,21 @@ inline static constexpr unsigned int ENFFIJPJHKN_TypeDefinitionIndex = 74910;
 		::LAEINKGACID* KHNOPFEHCBP; // 0x10
 		::KCFOLLEKPGG* POKJONGDBGC; // 0x18
 		::System::UInt32 NFMDGJAEEFD; // 0x20
-		::System::UInt32 LOHKJHKONCO; // 0x24
-		::System::UInt32 KCBFECAKIFD; // 0x28
+		::System::UInt32 KCBFECAKIFD; // 0x24
+		::System::UInt32 LOHKJHKONCO; // 0x28
 		static ::RPG::Client::TextID* StaticGet_FLAIOKFKFEJ()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x12200);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x93C0);
 		}
 
 		static ::RPG::Client::TextID* StaticGet_HCINJBEFNIA()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x12210);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x93D0);
 		}
 
 		static ::RPG::Client::TextID* StaticGet_FDKPMNKMEBE()
 		{
-			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x12220);
+			return (::RPG::Client::TextID*)UnitySDK::FromName("", "ENFFIJPJHKN")->GetStaticField(0x93E0);
 		}
 
 		::System::Void _ctor(::System::UInt32 a1, ::System::UInt32 a2, ::System::UInt32 a3, ::KCFOLLEKPGG* a4, ::LAEINKGACID* a5)

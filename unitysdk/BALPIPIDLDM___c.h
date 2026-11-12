@@ -4,18 +4,18 @@
 class BALPIPIDLDM;
 namespace System { class Object; }
 
-#define BALPIPIDLDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E7BBBC0)
-#define BALPIPIDLDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BBC00)
-#define BALPIPIDLDM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7BBC10)
+#define BALPIPIDLDM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA76E30)
+#define BALPIPIDLDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA76E70)
+#define BALPIPIDLDM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FA76E80)
 
-inline static constexpr unsigned int BALPIPIDLDM___c_TypeDefinitionIndex = 27670;
+inline static constexpr unsigned int BALPIPIDLDM___c_TypeDefinitionIndex = 28201;
 
 	class BALPIPIDLDM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46380);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F290);
 		}
 
 		static ::System::Void _cctor()

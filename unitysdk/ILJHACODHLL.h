@@ -8,23 +8,23 @@ namespace RPG::GameCore { class TaskContext; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define ILJHACODHLL_CTOR_OFFSET UNITYSDK_OFFSET(0x164BE230)
-#define ILJHACODHLL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164BE2B0)
-#define ILJHACODHLL_ELMNLDCPIMP_OFFSET UNITYSDK_OFFSET(0x164BE6E0)
-#define ILJHACODHLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164BE4D0)
-#define ILJHACODHLL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164BE400)
-#define ILJHACODHLL_TICK_OFFSET UNITYSDK_OFFSET(0x164BE600)
+#define ILJHACODHLL_CTOR_OFFSET UNITYSDK_OFFSET(0x17496410)
+#define ILJHACODHLL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x17496490)
+#define ILJHACODHLL_ELMNLDCPIMP_OFFSET UNITYSDK_OFFSET(0x17496880)
+#define ILJHACODHLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x174966B0)
+#define ILJHACODHLL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x174965E0)
+#define ILJHACODHLL_TICK_OFFSET UNITYSDK_OFFSET(0x174967E0)
 
-inline static constexpr unsigned int ILJHACODHLL_TypeDefinitionIndex = 57895;
+inline static constexpr unsigned int ILJHACODHLL_TypeDefinitionIndex = 59132;
 
 	class ILJHACODHLL : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x18
-		::System::String* IJMGEMMNNPI; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::AdvWaitTickValueFinish* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::GameEntity* OJAHLJGABMJ; // 0x28
 		::KFELGAIGHAP* HFOFIODMFGB; // 0x30
-		::RPG::GameCore::AdvWaitTickValueFinish* OFKGLJOAMLD; // 0x38
+		::System::String* IJMGEMMNNPI; // 0x38
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvWaitTickValueFinish* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvWaitTickValueFinish*))((::PBYTE)hIl2Cpp + ILJHACODHLL_CTOR_OFFSET))(this, a1, a2);

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HCMEILLLKBD_TypeDefinitionIndex = 25198;
+inline static constexpr unsigned int HCMEILLLKBD_TypeDefinitionIndex = 25676;
 
 	enum class HCMEILLLKBD : ::System::Int32
 	{

@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class GameObject; }
 
-#define AKSOUNDENGINE_AUTOOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5DFC10)
-#define AKSOUNDENGINE_AUTOOBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x1F5DFEC0)
+#define AKSOUNDENGINE_AUTOOBJECT_CTOR_OFFSET UNITYSDK_OFFSET(0x2088F540)
+#define AKSOUNDENGINE_AUTOOBJECT_FINALIZE_OFFSET UNITYSDK_OFFSET(0x2088F7F0)
 
-inline static constexpr unsigned int AkSoundEngine_AutoObject_TypeDefinitionIndex = 44803;
+inline static constexpr unsigned int AkSoundEngine_AutoObject_TypeDefinitionIndex = 45878;
 
 	class AkSoundEngine_AutoObject : public ::System::Object
 	{

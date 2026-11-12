@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define GHNBHKDNDKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4214E0)
-#define GHNBHKDNDKI_GET_PARAMETERVALUE_OFFSET UNITYSDK_OFFSET(0x1C4214F0)
+#define GHNBHKDNDKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5A7CD0)
+#define GHNBHKDNDKI_GET_PARAMETERVALUE_OFFSET UNITYSDK_OFFSET(0x1D5A7CE0)
 
-inline static constexpr unsigned int GHNBHKDNDKI_TypeDefinitionIndex = 5084;
+inline static constexpr unsigned int GHNBHKDNDKI_TypeDefinitionIndex = 5089;
 
 	class GHNBHKDNDKI : public ::System::Attribute
 	{

@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimOneWayEntryConfig; }
 namespace RPG::GameCore { class LittleGameTriggerConfig; }
 
-#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6CF710)
-#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6CF4C0)
+#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8DB260)
+#define RPG_GAMECORE_FIVEDIMONEWAYENTRYCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8C8950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimOneWayEntryConfig_TypeDefinitionIndex = 18537;
+	inline static constexpr unsigned int FiveDimOneWayEntryConfig_TypeDefinitionIndex = 18697;
 
 	class FiveDimOneWayEntryConfig : public ::RPG::GameCore::JsonConfig
 	{

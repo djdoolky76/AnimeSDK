@@ -6,10 +6,10 @@
 namespace RPG::GameCore { class ByIsInModifierCallback; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NPDLCNDBOAE_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFAB30)
-#define NPDLCNDBOAE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBCFAD30)
+#define NPDLCNDBOAE_CTOR_OFFSET UNITYSDK_OFFSET(0xC5E9D00)
+#define NPDLCNDBOAE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC5E9F00)
 
-inline static constexpr unsigned int NPDLCNDBOAE_TypeDefinitionIndex = 54668;
+inline static constexpr unsigned int NPDLCNDBOAE_TypeDefinitionIndex = 55834;
 
 	class NPDLCNDBOAE
 	{

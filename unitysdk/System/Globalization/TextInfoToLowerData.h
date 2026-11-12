@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_GLOBALIZATION_TEXTINFOTOLOWERDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C23B160)
+#define SYSTEM_GLOBALIZATION_TEXTINFOTOLOWERDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D3C1AA0)
 
 namespace System::Globalization
 {
@@ -11,49 +11,49 @@ namespace System::Globalization
 	class TextInfoToLowerData : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::Char>** StaticGet_range_24b6_24cf()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132C0);
-		}
-
-		static ::Il2CppArray<::System::Char>** StaticGet_range_a640_a696()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132C8);
-		}
-
 		static ::Il2CppArray<::System::Char>** StaticGet_range_2c00_2c2e()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132D0);
-		}
-
-		static ::Il2CppArray<::System::Char>** StaticGet_range_00c0_0556()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132D8);
-		}
-
-		static ::Il2CppArray<::System::Char>** StaticGet_range_10a0_10c5()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132E0);
-		}
-
-		static ::Il2CppArray<::System::Char>** StaticGet_range_a722_a78b()
-		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132E8);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x16090);
 		}
 
 		static ::Il2CppArray<::System::Char>** StaticGet_range_2c60_2ce2()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132F0);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x16098);
 		}
 
 		static ::Il2CppArray<::System::Char>** StaticGet_range_1e00_1ffc()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x132F8);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x160A0);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_range_24b6_24cf()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x160A8);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_range_10a0_10c5()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x160B0);
 		}
 
 		static ::Il2CppArray<::System::Char>** StaticGet_range_2160_216f()
 		{
-			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x13300);
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x160B8);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_range_a640_a696()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x160C0);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_range_a722_a78b()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x160C8);
+		}
+
+		static ::Il2CppArray<::System::Char>** StaticGet_range_00c0_0556()
+		{
+			return (::Il2CppArray<::System::Char>**)UnitySDK::FromName("System.Globalization", "TextInfoToLowerData")->GetStaticField(0x160D0);
 		}
 
 		static ::System::Void _cctor()

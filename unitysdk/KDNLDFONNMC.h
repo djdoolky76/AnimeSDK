@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CorrectionPlayerTeleportPos; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDNLDFONNMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB368540)
-#define KDNLDFONNMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB368570)
+#define KDNLDFONNMC_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF2C00)
+#define KDNLDFONNMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBF2C30)
 
-inline static constexpr unsigned int KDNLDFONNMC_TypeDefinitionIndex = 58036;
+inline static constexpr unsigned int KDNLDFONNMC_TypeDefinitionIndex = 59275;
 
 	class KDNLDFONNMC
 	{

@@ -3,7 +3,7 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector2.h"
 
-inline static constexpr unsigned int PBCBECEMBGK_TypeDefinitionIndex = 6202;
+inline static constexpr unsigned int PBCBECEMBGK_TypeDefinitionIndex = 6209;
 
 	struct alignas(4) PBCBECEMBGK
 	{

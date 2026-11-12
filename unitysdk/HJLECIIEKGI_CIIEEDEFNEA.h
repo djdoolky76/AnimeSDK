@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int HJLECIIEKGI_CIIEEDEFNEA_TypeDefinitionIndex = 34784;
+inline static constexpr unsigned int HJLECIIEKGI_CIIEEDEFNEA_TypeDefinitionIndex = 35712;
 
 	enum class HJLECIIEKGI_CIIEEDEFNEA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,
-		KLONPDNKBJF = 2043,
-		AKDJGIJMHPJ = 2019,
-		LGBJDFHBIND = 2030,
+		KLONPDNKBJF = 719,
+		AKDJGIJMHPJ = 1034,
+		LGBJDFHBIND = 1707,
 	};

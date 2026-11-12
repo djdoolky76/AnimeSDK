@@ -6,10 +6,10 @@ class BACIMFPMOPJ;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BACIMFPMOPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF0B00)
-#define BACIMFPMOPJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF0850)
+#define BACIMFPMOPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE9A5F0)
+#define BACIMFPMOPJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DE9A340)
 
-inline static constexpr unsigned int BACIMFPMOPJ_TypeDefinitionIndex = 11568;
+inline static constexpr unsigned int BACIMFPMOPJ_TypeDefinitionIndex = 11619;
 
 	class BACIMFPMOPJ : public ::System::Object
 	{
@@ -18,9 +18,9 @@ inline static constexpr unsigned int BACIMFPMOPJ_TypeDefinitionIndex = 11568;
 		::Il2CppArray<::System::UInt32>* FOHHOOKJPIM; // 0x18
 		::System::UInt32 HNEIIAGADGO; // 0x20
 		::System::UInt32 JFDHFPIIGCC; // 0x24
-		::System::UInt32 PHFMCACHFIJ; // 0x28
-		::System::UInt32 DOBKKDIECDO; // 0x2C
-		::RPG::Client::TextID OENAMINOLLF; // 0x30
+		::RPG::Client::TextID OENAMINOLLF; // 0x28
+		::System::UInt32 PHFMCACHFIJ; // 0x38
+		::System::UInt32 DOBKKDIECDO; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BACIMFPMOPJ_CTOR_OFFSET))(this);

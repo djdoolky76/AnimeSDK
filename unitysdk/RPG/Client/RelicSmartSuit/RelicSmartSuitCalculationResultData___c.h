@@ -6,31 +6,31 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitResultRelicInfo; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDE93420)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDE93460)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C__GET_RELICINFOLIST_B__32_0_OFFSET UNITYSDK_OFFSET(0xDE93470)
-#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C__GET_RELICITEMDATAS_B__34_0_OFFSET UNITYSDK_OFFSET(0xDE93520)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE9440D0)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE944110)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C__GET_RELICINFOLIST_B__32_0_OFFSET UNITYSDK_OFFSET(0xE944120)
+#define RPG_CLIENT_RELICSMARTSUIT_RELICSMARTSUITCALCULATIONRESULTDATA___C__GET_RELICITEMDATAS_B__34_0_OFFSET UNITYSDK_OFFSET(0xE9441D0)
 
 namespace RPG::Client::RelicSmartSuit
 {
-	inline static constexpr unsigned int RelicSmartSuitCalculationResultData___c_TypeDefinitionIndex = 74420;
+	inline static constexpr unsigned int RelicSmartSuitCalculationResultData___c_TypeDefinitionIndex = 76568;
 
 	class RelicSmartSuitCalculationResultData___c : public ::System::Object
 	{
 	public:
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x6A460);
+		}
+
 		static ::System::Comparison_1<::RPG::Client::RelicItemData*>** StaticGet___9__34_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RelicItemData*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x5A5A0);
+			return (::System::Comparison_1<::RPG::Client::RelicItemData*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x6A468);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*>** StaticGet___9__32_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x5A5A8);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x5A5B0);
+			return (::System::Comparison_1<::RPG::Client::RelicSmartSuit::RelicSmartSuitResultRelicInfo*>**)UnitySDK::FromName("RPG.Client.RelicSmartSuit", "<>c")->GetStaticField(0x6A470);
 		}
 
 		static ::System::Void _cctor()

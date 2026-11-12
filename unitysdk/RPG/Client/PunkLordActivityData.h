@@ -2,12 +2,12 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/ActivityPanelData.h"
 
-#define RPG_CLIENT_PUNKLORDACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDDFCBE0)
-#define RPG_CLIENT_PUNKLORDACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xDDFCBF0)
+#define RPG_CLIENT_PUNKLORDACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE861DD0)
+#define RPG_CLIENT_PUNKLORDACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xE861DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PunkLordActivityData_TypeDefinitionIndex = 61652;
+	inline static constexpr unsigned int PunkLordActivityData_TypeDefinitionIndex = 63051;
 
 	class PunkLordActivityData : public ::RPG::Client::ActivityPanelData
 	{

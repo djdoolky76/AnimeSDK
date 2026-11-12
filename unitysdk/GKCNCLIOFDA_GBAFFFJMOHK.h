@@ -8,22 +8,22 @@ namespace RPG::GameCore { class PetPartySingleCombinationStartPattern; }
 namespace System { class Object; }
 namespace System { class String; }
 
-#define GKCNCLIOFDA_GBAFFFJMOHK_CTOR_OFFSET UNITYSDK_OFFSET(0x15A8EBA0)
-#define GKCNCLIOFDA_GBAFFFJMOHK_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x15A90590)
-#define GKCNCLIOFDA_GBAFFFJMOHK_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x15A905A0)
-#define GKCNCLIOFDA_GBAFFFJMOHK_GET_MEMBERGROUPS_OFFSET UNITYSDK_OFFSET(0x15A905D0)
-#define GKCNCLIOFDA_GBAFFFJMOHK_GET_SELECTIONKEY_OFFSET UNITYSDK_OFFSET(0x15A905B0)
-#define GKCNCLIOFDA_GBAFFFJMOHK_GET_STARTPATTERNS_OFFSET UNITYSDK_OFFSET(0x15A905C0)
+#define GKCNCLIOFDA_GBAFFFJMOHK_CTOR_OFFSET UNITYSDK_OFFSET(0x169CBA00)
+#define GKCNCLIOFDA_GBAFFFJMOHK_GET_CATEGORY_OFFSET UNITYSDK_OFFSET(0x169CD3E0)
+#define GKCNCLIOFDA_GBAFFFJMOHK_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x169CD3F0)
+#define GKCNCLIOFDA_GBAFFFJMOHK_GET_MEMBERGROUPS_OFFSET UNITYSDK_OFFSET(0x169CD420)
+#define GKCNCLIOFDA_GBAFFFJMOHK_GET_SELECTIONKEY_OFFSET UNITYSDK_OFFSET(0x169CD400)
+#define GKCNCLIOFDA_GBAFFFJMOHK_GET_STARTPATTERNS_OFFSET UNITYSDK_OFFSET(0x169CD410)
 
-inline static constexpr unsigned int GKCNCLIOFDA_GBAFFFJMOHK_TypeDefinitionIndex = 53527;
+inline static constexpr unsigned int GKCNCLIOFDA_GBAFFFJMOHK_TypeDefinitionIndex = 54690;
 
 	class GKCNCLIOFDA_GBAFFFJMOHK : public ::System::Object
 	{
 	public:
 		::RPG::PoolList_1<::System::Object*>* _MemberGroups_k__BackingField; // 0x10
-		::RPG::PoolList_1<::RPG::GameCore::PetPartySingleCombinationStartPattern*>* _StartPatterns_k__BackingField; // 0x18
-		::RPG::GameCore::PetPartySingleCombinationConfig* _Config_k__BackingField; // 0x20
-		::RPG::GameCore::PetPartyInteractionCategoryConfig* _Category_k__BackingField; // 0x28
+		::RPG::GameCore::PetPartyInteractionCategoryConfig* _Category_k__BackingField; // 0x18
+		::RPG::PoolList_1<::RPG::GameCore::PetPartySingleCombinationStartPattern*>* _StartPatterns_k__BackingField; // 0x20
+		::RPG::GameCore::PetPartySingleCombinationConfig* _Config_k__BackingField; // 0x28
 		::System::String* _SelectionKey_k__BackingField; // 0x30
 		::System::Void _ctor(::RPG::GameCore::PetPartyInteractionCategoryConfig* a1, ::RPG::GameCore::PetPartySingleCombinationConfig* a2, ::System::String* a3, ::RPG::PoolList_1<::RPG::GameCore::PetPartySingleCombinationStartPattern*>* a4, ::RPG::PoolList_1<::System::Object*>* a5)
 		{

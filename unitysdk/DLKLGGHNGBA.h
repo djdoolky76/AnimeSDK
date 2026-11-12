@@ -3,10 +3,10 @@
 class LAPKGFCDPCD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLKLGGHNGBA_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A3540)
-#define DLKLGGHNGBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8A3570)
+#define DLKLGGHNGBA_CTOR_OFFSET UNITYSDK_OFFSET(0x10613180)
+#define DLKLGGHNGBA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x106131B0)
 
-inline static constexpr unsigned int DLKLGGHNGBA_TypeDefinitionIndex = 55157;
+inline static constexpr unsigned int DLKLGGHNGBA_TypeDefinitionIndex = 56338;
 
 	class DLKLGGHNGBA
 	{

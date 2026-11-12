@@ -4,18 +4,18 @@
 class PALAOPCBAPC;
 namespace System { class Object; }
 
-#define PALAOPCBAPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEF0380)
-#define PALAOPCBAPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF03C0)
-#define PALAOPCBAPC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEF03D0)
+#define PALAOPCBAPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1B9240)
+#define PALAOPCBAPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1B9280)
+#define PALAOPCBAPC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F1B9290)
 
-inline static constexpr unsigned int PALAOPCBAPC___c_TypeDefinitionIndex = 33773;
+inline static constexpr unsigned int PALAOPCBAPC___c_TypeDefinitionIndex = 34688;
 
 	class PALAOPCBAPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32730);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x299F0);
 		}
 
 		static ::System::Void _cctor()

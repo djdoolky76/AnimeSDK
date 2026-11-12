@@ -4,18 +4,18 @@
 class LENKELHGNBG;
 namespace System { class Object; }
 
-#define LENKELHGNBG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E937D80)
-#define LENKELHGNBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E937DC0)
-#define LENKELHGNBG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E937DD0)
+#define LENKELHGNBG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC566F0)
+#define LENKELHGNBG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC56730)
+#define LENKELHGNBG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1FC56740)
 
-inline static constexpr unsigned int LENKELHGNBG___c_TypeDefinitionIndex = 27704;
+inline static constexpr unsigned int LENKELHGNBG___c_TypeDefinitionIndex = 28235;
 
 	class LENKELHGNBG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x39B30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2F3D0);
 		}
 
 		static ::System::Void _cctor()

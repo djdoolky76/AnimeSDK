@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Object; }
 
-inline static constexpr unsigned int SkirtIK_CCIGOEDBOJA_TypeDefinitionIndex = 47254;
+inline static constexpr unsigned int SkirtIK_CCIGOEDBOJA_TypeDefinitionIndex = 48282;
 
 	struct alignas(8) SkirtIK_CCIGOEDBOJA
 	{

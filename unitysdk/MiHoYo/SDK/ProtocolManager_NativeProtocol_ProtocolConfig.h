@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL_PROTOCOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFBD4C0)
+#define MIHOYO_SDK_PROTOCOLMANAGER_NATIVEPROTOCOL_PROTOCOLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1442C0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolManager_NativeProtocol_ProtocolConfig_TypeDefinitionIndex = 8042;
+	inline static constexpr unsigned int ProtocolManager_NativeProtocol_ProtocolConfig_TypeDefinitionIndex = 8051;
 
 	class ProtocolManager_NativeProtocol_ProtocolConfig : public ::System::Object
 	{

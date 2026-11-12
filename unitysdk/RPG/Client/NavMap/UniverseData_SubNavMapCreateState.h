@@ -3,7 +3,7 @@
 
 namespace RPG::Client::NavMap
 {
-	inline static constexpr unsigned int UniverseData_SubNavMapCreateState_TypeDefinitionIndex = 74636;
+	inline static constexpr unsigned int UniverseData_SubNavMapCreateState_TypeDefinitionIndex = 76784;
 
 	enum class UniverseData_SubNavMapCreateState : ::System::Int32
 	{

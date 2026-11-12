@@ -8,35 +8,35 @@ namespace RPG::GameCore { class AdventureHitConfig; }
 namespace RPG::GameCore { class GameEntity; }
 namespace UnityEngine { class Transform; }
 
-#define PJMAKJHFMMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC29A170)
-#define PJMAKJHFMMF_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xC29AC70)
-#define PJMAKJHFMMF_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xC29A1B0)
-#define PJMAKJHFMMF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC29A650)
+#define PJMAKJHFMMF_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC4AB0)
+#define PJMAKJHFMMF_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xCBC55B0)
+#define PJMAKJHFMMF_IEHGJKIODLM_OFFSET UNITYSDK_OFFSET(0xCBC4AF0)
+#define PJMAKJHFMMF_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCBC4F90)
 
-inline static constexpr unsigned int PJMAKJHFMMF_TypeDefinitionIndex = 57040;
+inline static constexpr unsigned int PJMAKJHFMMF_TypeDefinitionIndex = 58267;
 
 	class PJMAKJHFMMF : public ::BDENDNDOFLF
 	{
 	public:
 		::RPG::GameCore::GameEntity* KKFCJOJLGCO; // 0x68
-		::UnityEngine::Transform* AFIBNIPMICJ; // 0x70
-		::NAGAOPOFKDI* GKPNBPIGELD; // 0x78
-		::RPG::GameCore::AdventureHitConfig* PKDMMBCHHIG; // 0x80
-		::System::Single AOEKHGBJIFP; // 0x88
-		::UnityEngine::Vector3 EKKPMIOJMGM; // 0x8C
-		::System::Single NMMAFJCIBHG; // 0x98
-		::System::Single BGKNMHEKMIA; // 0x9C
-		::UnityEngine::Vector3 BJNKIKNBFOJ; // 0xA0
-		::System::Single AEBJKGGCGDG; // 0xAC
-		::System::Single JFJOLFHJKNF; // 0xB0
-		::System::Single JALGFHMPGMO; // 0xB4
-		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0xB8
-		::System::Boolean EHJOLABCMOD; // 0xBC
+		::NAGAOPOFKDI* GKPNBPIGELD; // 0x70
+		::RPG::GameCore::AdventureHitConfig* PKDMMBCHHIG; // 0x78
+		::UnityEngine::Transform* AFIBNIPMICJ; // 0x80
+		::System::Single DEEBMCJELGL; // 0x88
+		::System::Single BGKNMHEKMIA; // 0x8C
+		::System::Single AEBJKGGCGDG; // 0x90
+		::UnityEngine::Vector3 EKKPMIOJMGM; // 0x94
+		::System::Single BFGGMAHHOLF; // 0xA0
+		::System::Single NMMAFJCIBHG; // 0xA4
+		::System::Single FAPCGFINDFF; // 0xA8
+		::RPG::GameCore::AdventureModifierBehaviorFlag _Flag_k__BackingField; // 0xAC
+		::System::Single HIHIBOIKOOM; // 0xB0
+		::System::Single AOEKHGBJIFP; // 0xB4
+		::System::Single JALGFHMPGMO; // 0xB8
+		::System::Single JFJOLFHJKNF; // 0xBC
+		::System::Boolean EHJOLABCMOD; // 0xC0
 		::System::Byte _padding0[0x3];
-		::System::Single HIHIBOIKOOM; // 0xC0
-		::System::Single FAPCGFINDFF; // 0xC4
-		::System::Single BFGGMAHHOLF; // 0xC8
-		::System::Single DEEBMCJELGL; // 0xCC
+		::UnityEngine::Vector3 BJNKIKNBFOJ; // 0xC4
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + PJMAKJHFMMF_CTOR_OFFSET))(this, a1);

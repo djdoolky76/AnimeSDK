@@ -6,16 +6,16 @@ class BCBBIEHANAD;
 class FCOEMCEDLNL;
 namespace System { class String; }
 
-#define BCBBIEHANAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCF7FF0)
-#define BCBBIEHANAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF7DD0)
+#define BCBBIEHANAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEA1300)
+#define BCBBIEHANAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DEA10E0)
 
-inline static constexpr unsigned int BCBBIEHANAD_TypeDefinitionIndex = 11315;
+inline static constexpr unsigned int BCBBIEHANAD_TypeDefinitionIndex = 11366;
 
 	class BCBBIEHANAD : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::System::Int32>* JCNCDOOLACB; // 0x10
-		::System::String* ABJGONAEFCB; // 0x18
+		::System::String* ABJGONAEFCB; // 0x10
+		::Il2CppArray<::System::Int32>* JCNCDOOLACB; // 0x18
 		::RPG::Client::TextID OENAMINOLLF; // 0x20
 		::System::UInt32 PHFMCACHFIJ; // 0x30
 		::System::Void _ctor()

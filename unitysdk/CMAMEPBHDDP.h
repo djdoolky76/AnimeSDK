@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class LDMBNFAMCOI;
 
-#define CMAMEPBHDDP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA244D0)
+#define CMAMEPBHDDP_CTOR_OFFSET UNITYSDK_OFFSET(0xE363460)
 
-inline static constexpr unsigned int CMAMEPBHDDP_TypeDefinitionIndex = 80564;
+inline static constexpr unsigned int CMAMEPBHDDP_TypeDefinitionIndex = 83344;
 
 	class CMAMEPBHDDP : public ::System::Object
 	{

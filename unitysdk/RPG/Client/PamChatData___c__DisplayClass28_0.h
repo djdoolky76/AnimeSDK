@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 class EHFPIBGDAKP;
 
-#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDA6E940)
-#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0xDA6F440)
+#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE4C3F40)
+#define RPG_CLIENT_PAMCHATDATA___C__DISPLAYCLASS28_0__GETPAMCHATQUICKFUNCTION_B__0_OFFSET UNITYSDK_OFFSET(0xE4C4A40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PamChatData___c__DisplayClass28_0_TypeDefinitionIndex = 63279;
+	inline static constexpr unsigned int PamChatData___c__DisplayClass28_0_TypeDefinitionIndex = 64717;
 
 	class PamChatData___c__DisplayClass28_0 : public ::System::Object
 	{

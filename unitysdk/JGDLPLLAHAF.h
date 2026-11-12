@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define JGDLPLLAHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94720)
+#define JGDLPLLAHAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5AB40)
 
-inline static constexpr unsigned int JGDLPLLAHAF_TypeDefinitionIndex = 42447;
+inline static constexpr unsigned int JGDLPLLAHAF_TypeDefinitionIndex = 43422;
 
 	class JGDLPLLAHAF : public ::System::Object
 	{

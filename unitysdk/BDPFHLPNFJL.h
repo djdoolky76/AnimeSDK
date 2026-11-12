@@ -4,16 +4,16 @@
 class MHDGKLOHHFJ;
 namespace RPG::GameCore { class FiveDimOneSidePassConfig; }
 
-#define BDPFHLPNFJL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8B8450)
-#define BDPFHLPNFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B84B0)
+#define BDPFHLPNFJL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DA39160)
+#define BDPFHLPNFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA391C0)
 
-inline static constexpr unsigned int BDPFHLPNFJL_TypeDefinitionIndex = 43456;
+inline static constexpr unsigned int BDPFHLPNFJL_TypeDefinitionIndex = 44438;
 
 	class BDPFHLPNFJL : public ::System::Object
 	{
 	public:
-		::MHDGKLOHHFJ* BPAPBAFOMCH; // 0x10
-		::RPG::GameCore::FiveDimOneSidePassConfig* EABKOHGCHFP; // 0x18
+		::RPG::GameCore::FiveDimOneSidePassConfig* EABKOHGCHFP; // 0x10
+		::MHDGKLOHHFJ* BPAPBAFOMCH; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDPFHLPNFJL_CTOR_OFFSET))(this);

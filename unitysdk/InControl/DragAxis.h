@@ -3,7 +3,7 @@
 
 namespace InControl
 {
-	inline static constexpr unsigned int DragAxis_TypeDefinitionIndex = 40877;
+	inline static constexpr unsigned int DragAxis_TypeDefinitionIndex = 41852;
 
 	enum class DragAxis : ::System::Int32
 	{

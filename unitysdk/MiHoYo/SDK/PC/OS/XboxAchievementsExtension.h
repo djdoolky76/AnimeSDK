@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace MiHoYo::SDK::PC::OS { class XboxAchievementEntry; }
 
-#define MIHOYO_SDK_PC_OS_XBOXACHIEVEMENTSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF42800)
+#define MIHOYO_SDK_PC_OS_XBOXACHIEVEMENTSEXTENSION_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C9420)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int XboxAchievementsExtension_TypeDefinitionIndex = 8678;
+	inline static constexpr unsigned int XboxAchievementsExtension_TypeDefinitionIndex = 8687;
 
 	class XboxAchievementsExtension : public ::System::Object
 	{

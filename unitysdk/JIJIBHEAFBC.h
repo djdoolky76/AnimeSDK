@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckModifierCallBackName; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JIJIBHEAFBC_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FB910)
-#define JIJIBHEAFBC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1FB940)
+#define JIJIBHEAFBC_CTOR_OFFSET UNITYSDK_OFFSET(0xBA1D860)
+#define JIJIBHEAFBC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA1D890)
 
-inline static constexpr unsigned int JIJIBHEAFBC_TypeDefinitionIndex = 54506;
+inline static constexpr unsigned int JIJIBHEAFBC_TypeDefinitionIndex = 55671;
 
 	class JIJIBHEAFBC
 	{

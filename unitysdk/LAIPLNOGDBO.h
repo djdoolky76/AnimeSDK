@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-inline static constexpr unsigned int LAIPLNOGDBO_TypeDefinitionIndex = 43576;
+inline static constexpr unsigned int LAIPLNOGDBO_TypeDefinitionIndex = 44558;
 
 	class LAIPLNOGDBO : public ::System::Object
 	{

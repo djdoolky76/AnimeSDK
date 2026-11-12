@@ -4,18 +4,18 @@
 class DIKBPKAKENO;
 namespace System { class Object; }
 
-#define DIKBPKAKENO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1C1BC0)
-#define DIKBPKAKENO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1C1BF0)
-#define DIKBPKAKENO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1C1C00)
+#define DIKBPKAKENO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F49D650)
+#define DIKBPKAKENO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D680)
+#define DIKBPKAKENO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F49D690)
 
-inline static constexpr unsigned int DIKBPKAKENO___c_TypeDefinitionIndex = 33375;
+inline static constexpr unsigned int DIKBPKAKENO___c_TypeDefinitionIndex = 34290;
 
 	class DIKBPKAKENO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x36830);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32C30);
 		}
 
 		static ::System::Void _cctor()

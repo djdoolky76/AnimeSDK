@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsBattleReStart; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GNBFPNFNLMH_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFC120)
-#define GNBFPNFNLMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AFC150)
+#define GNBFPNFNLMH_CTOR_OFFSET UNITYSDK_OFFSET(0x16A7EFE0)
+#define GNBFPNFNLMH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16A7F010)
 
-inline static constexpr unsigned int GNBFPNFNLMH_TypeDefinitionIndex = 54636;
+inline static constexpr unsigned int GNBFPNFNLMH_TypeDefinitionIndex = 55802;
 
 	class GNBFPNFNLMH
 	{

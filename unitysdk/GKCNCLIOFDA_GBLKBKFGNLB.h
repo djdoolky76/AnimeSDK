@@ -5,14 +5,14 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class Action; }
 namespace System { class String; }
 
-#define GKCNCLIOFDA_GBLKBKFGNLB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A86920)
-#define GKCNCLIOFDA_GBLKBKFGNLB_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x15A905E0)
-#define GKCNCLIOFDA_GBLKBKFGNLB_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x15A90600)
-#define GKCNCLIOFDA_GBLKBKFGNLB_GET_RUNID_OFFSET UNITYSDK_OFFSET(0x15A90610)
-#define GKCNCLIOFDA_GBLKBKFGNLB_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15A905F0)
-#define GKCNCLIOFDA_GBLKBKFGNLB_MNBAGHPEFBC_OFFSET UNITYSDK_OFFSET(0x15A8F0A0)
+#define GKCNCLIOFDA_GBLKBKFGNLB_CTOR_OFFSET UNITYSDK_OFFSET(0x169C37F0)
+#define GKCNCLIOFDA_GBLKBKFGNLB_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0x169CD430)
+#define GKCNCLIOFDA_GBLKBKFGNLB_GET_PRIORITY_OFFSET UNITYSDK_OFFSET(0x169CD450)
+#define GKCNCLIOFDA_GBLKBKFGNLB_GET_RUNID_OFFSET UNITYSDK_OFFSET(0x169CD460)
+#define GKCNCLIOFDA_GBLKBKFGNLB_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x169CD440)
+#define GKCNCLIOFDA_GBLKBKFGNLB_MNBAGHPEFBC_OFFSET UNITYSDK_OFFSET(0x169CBF00)
 
-inline static constexpr unsigned int GKCNCLIOFDA_GBLKBKFGNLB_TypeDefinitionIndex = 53539;
+inline static constexpr unsigned int GKCNCLIOFDA_GBLKBKFGNLB_TypeDefinitionIndex = 54702;
 
 	class GKCNCLIOFDA_GBLKBKFGNLB : public ::System::Object
 	{
@@ -20,8 +20,8 @@ inline static constexpr unsigned int GKCNCLIOFDA_GBLKBKFGNLB_TypeDefinitionIndex
 		::System::Action* AECONAAPKJE; // 0x10
 		::System::String* _UniqueName_k__BackingField; // 0x18
 		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x20
-		::System::Int32 _Priority_k__BackingField; // 0x28
-		::System::UInt32 _RunId_k__BackingField; // 0x2C
+		::System::UInt32 _RunId_k__BackingField; // 0x28
+		::System::Int32 _Priority_k__BackingField; // 0x2C
 		::System::Void _ctor(::RPG::GameCore::GameEntity* a1, ::System::String* a2, ::System::Int32 a3, ::System::UInt32 a4, ::System::Action* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::GameEntity*, ::System::String*, ::System::Int32, ::System::UInt32, ::System::Action*))((::PBYTE)hIl2Cpp + GKCNCLIOFDA_GBLKBKFGNLB_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

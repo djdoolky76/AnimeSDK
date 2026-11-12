@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TeamMemberExpansionFightFormationConfig; }
 
-#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7B940)
-#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB7B600)
+#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2B010)
+#define RPG_GAMECORE_TEAMMEMBEREXPANSIONFIGHTFORMATIONCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE2ACD0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamMemberExpansionFightFormationConfig_TypeDefinitionIndex = 16579;
+	inline static constexpr unsigned int TeamMemberExpansionFightFormationConfig_TypeDefinitionIndex = 16745;
 
 	class TeamMemberExpansionFightFormationConfig : public ::RPG::GameCore::JsonConfig
 	{

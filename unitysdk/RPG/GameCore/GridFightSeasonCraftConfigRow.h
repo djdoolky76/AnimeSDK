@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class GridFightSeasonCraftConfigRow; }
 
-#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7405F0)
-#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7404D0)
+#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E951E10)
+#define RPG_GAMECORE_GRIDFIGHTSEASONCRAFTCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E951D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int GridFightSeasonCraftConfigRow_TypeDefinitionIndex = 13461;
+	inline static constexpr unsigned int GridFightSeasonCraftConfigRow_TypeDefinitionIndex = 13537;
 
 	class GridFightSeasonCraftConfigRow : public ::System::Object
 	{

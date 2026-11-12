@@ -6,19 +6,19 @@ class BLPBNHJNGID;
 class DAEAOGMOHHA;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BKLKJCJFHKO_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xBA5CCE0)
-#define BKLKJCJFHKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA5CE30)
-#define BKLKJCJFHKO_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xBA5CCC0)
-#define BKLKJCJFHKO_PGNEBFCPLHF_OFFSET UNITYSDK_OFFSET(0xBA5CEB0)
-#define BKLKJCJFHKO_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xBA5CCD0)
+#define BKLKJCJFHKO_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xC126270)
+#define BKLKJCJFHKO_CTOR_OFFSET UNITYSDK_OFFSET(0xC1263C0)
+#define BKLKJCJFHKO_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0xC126250)
+#define BKLKJCJFHKO_PGNEBFCPLHF_OFFSET UNITYSDK_OFFSET(0xC126440)
+#define BKLKJCJFHKO_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0xC126260)
 
-inline static constexpr unsigned int BKLKJCJFHKO_TypeDefinitionIndex = 62748;
+inline static constexpr unsigned int BKLKJCJFHKO_TypeDefinitionIndex = 64182;
 
 	class BKLKJCJFHKO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::KDLIDKMMNOA, ::BLPBNHJNGID*>* JJJOBMKIGJE; // 0x10
-		::DAEAOGMOHHA* _Factory_k__BackingField; // 0x18
+		::DAEAOGMOHHA* _Factory_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::KDLIDKMMNOA, ::BLPBNHJNGID*>* JJJOBMKIGJE; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BKLKJCJFHKO_CTOR_OFFSET))(this);

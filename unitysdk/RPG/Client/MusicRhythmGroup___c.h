@@ -6,31 +6,31 @@ namespace RPG::Client { class MusicRhythmTrack; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD911A00)
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD911A40)
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLLEVELS_B__5_0_OFFSET UNITYSDK_OFFSET(0xD911A80)
-#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLTRACKS_B__4_0_OFFSET UNITYSDK_OFFSET(0xD911A50)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE3A5650)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE3A5690)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLLEVELS_B__5_0_OFFSET UNITYSDK_OFFSET(0xE3A56D0)
+#define RPG_CLIENT_MUSICRHYTHMGROUP___C__GETALLTRACKS_B__4_0_OFFSET UNITYSDK_OFFSET(0xE3A56A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MusicRhythmGroup___c_TypeDefinitionIndex = 61815;
+	inline static constexpr unsigned int MusicRhythmGroup___c_TypeDefinitionIndex = 63221;
 
 	class MusicRhythmGroup___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>** StaticGet___9__4_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E430);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::MusicRhythmLevel*>** StaticGet___9__5_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::MusicRhythmLevel*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E438);
+			return (::System::Comparison_1<::RPG::Client::MusicRhythmLevel*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x693A0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6E440);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x693A8);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>** StaticGet___9__4_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::MusicRhythmTrack*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x693B0);
 		}
 
 		static ::System::Void _cctor()

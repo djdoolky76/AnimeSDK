@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class SwitchHandChangeUICoinCntActive; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KDPLOGLJHAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB36EF60)
-#define KDPLOGLJHAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB36EF70)
-#define KDPLOGLJHAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB36EFB0)
-#define KDPLOGLJHAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB36F030)
-#define KDPLOGLJHAD_TICK_OFFSET UNITYSDK_OFFSET(0xB36F080)
+#define KDPLOGLJHAD_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF9820)
+#define KDPLOGLJHAD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBF9830)
+#define KDPLOGLJHAD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBF9870)
+#define KDPLOGLJHAD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBF98F0)
+#define KDPLOGLJHAD_TICK_OFFSET UNITYSDK_OFFSET(0xBBF9940)
 
-inline static constexpr unsigned int KDPLOGLJHAD_TypeDefinitionIndex = 53310;
+inline static constexpr unsigned int KDPLOGLJHAD_TypeDefinitionIndex = 54472;
 
 	class KDPLOGLJHAD : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::SwitchHandChangeUICoinCntActive* IGHAHBNLIJA; // 0x18
-		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x20
+		::RPG::GameCore::TaskContext* EEFMDEHLLFI; // 0x18
+		::RPG::GameCore::SwitchHandChangeUICoinCntActive* IGHAHBNLIJA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::SwitchHandChangeUICoinCntActive* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::SwitchHandChangeUICoinCntActive*))((::PBYTE)hIl2Cpp + KDPLOGLJHAD_CTOR_OFFSET))(this, a1, a2);

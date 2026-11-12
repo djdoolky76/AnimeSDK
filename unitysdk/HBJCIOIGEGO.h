@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::AvatarSystem { class IAvatar; }
 
-#define HBJCIOIGEGO_CAHJOAIPMBL_OFFSET UNITYSDK_OFFSET(0x15C0AB20)
+#define HBJCIOIGEGO_CAHJOAIPMBL_OFFSET UNITYSDK_OFFSET(0x16B4C880)
 
-inline static constexpr unsigned int HBJCIOIGEGO_TypeDefinitionIndex = 62809;
+inline static constexpr unsigned int HBJCIOIGEGO_TypeDefinitionIndex = 64247;
 
 	class HBJCIOIGEGO : public ::System::Object
 	{

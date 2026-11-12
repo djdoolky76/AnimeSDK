@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCurrentAudioLanguage; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HENKNGAHMNO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5E320)
-#define HENKNGAHMNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C5E350)
+#define HENKNGAHMNO_CTOR_OFFSET UNITYSDK_OFFSET(0x16BA2D10)
+#define HENKNGAHMNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16BA2D40)
 
-inline static constexpr unsigned int HENKNGAHMNO_TypeDefinitionIndex = 52596;
+inline static constexpr unsigned int HENKNGAHMNO_TypeDefinitionIndex = 53702;
 
 	class HENKNGAHMNO
 	{

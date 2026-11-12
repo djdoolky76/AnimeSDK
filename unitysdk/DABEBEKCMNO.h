@@ -4,10 +4,10 @@
 namespace BansheeGz::BGSpline::Components { class BGCcMath; }
 namespace BansheeGz::BGSpline::Components { class BGCcTrs; }
 
-#define DABEBEKCMNO_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBAD80)
-#define DABEBEKCMNO_IGICAMCPABK_OFFSET UNITYSDK_OFFSET(0xDFBABC0)
+#define DABEBEKCMNO_CTOR_OFFSET UNITYSDK_OFFSET(0xE91DC90)
+#define DABEBEKCMNO_IGICAMCPABK_OFFSET UNITYSDK_OFFSET(0xE91DAD0)
 
-inline static constexpr unsigned int DABEBEKCMNO_TypeDefinitionIndex = 62295;
+inline static constexpr unsigned int DABEBEKCMNO_TypeDefinitionIndex = 63708;
 
 	class DABEBEKCMNO : public ::System::Object
 	{

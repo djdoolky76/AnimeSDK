@@ -4,9 +4,9 @@
 #include "unitysdk/NHHMEPILLHL.h"
 namespace RPG::Client { class RogueTournPersonaStyleInfo; }
 
-#define LIJALNGMHPK_CTOR_OFFSET UNITYSDK_OFFSET(0xB6D34D0)
+#define LIJALNGMHPK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF6CD00)
 
-inline static constexpr unsigned int LIJALNGMHPK_TypeDefinitionIndex = 67099;
+inline static constexpr unsigned int LIJALNGMHPK_TypeDefinitionIndex = 69043;
 
 	class LIJALNGMHPK : public ::EBIMENNAEIE
 	{

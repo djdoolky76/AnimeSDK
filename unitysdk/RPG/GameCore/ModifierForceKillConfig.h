@@ -8,12 +8,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifierForceKillConfig; }
 
-#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D88E3E0)
-#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D88E180)
+#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAA8750)
+#define RPG_GAMECORE_MODIFIERFORCEKILLCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAA84F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifierForceKillConfig_TypeDefinitionIndex = 18247;
+	inline static constexpr unsigned int ModifierForceKillConfig_TypeDefinitionIndex = 18409;
 
 	class ModifierForceKillConfig : public ::RPG::GameCore::JsonConfig
 	{

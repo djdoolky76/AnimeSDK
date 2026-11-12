@@ -4,18 +4,18 @@
 class PEGDBKDLJDJ;
 namespace System { class Object; }
 
-#define PEGDBKDLJDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF18770)
-#define PEGDBKDLJDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF187B0)
-#define PEGDBKDLJDJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF187C0)
+#define PEGDBKDLJDJ___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1E4A90)
+#define PEGDBKDLJDJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1E4AD0)
+#define PEGDBKDLJDJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F1E4AE0)
 
-inline static constexpr unsigned int PEGDBKDLJDJ___c_TypeDefinitionIndex = 27718;
+inline static constexpr unsigned int PEGDBKDLJDJ___c_TypeDefinitionIndex = 28249;
 
 	class PEGDBKDLJDJ___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x38D40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x302F0);
 		}
 
 		static ::System::Void _cctor()

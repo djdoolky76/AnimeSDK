@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int GAICBMDAOFB_RF_BrickComponent_TypeDefinitionIndex = 37078;
+inline static constexpr unsigned int GAICBMDAOFB_RF_BrickComponent_TypeDefinitionIndex = 38006;
 
 	enum class GAICBMDAOFB_RF_BrickComponent : ::System::UInt16
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AvatarSkillTreePointTriggerKey_TypeDefinitionIndex = 10403;
+	inline static constexpr unsigned int AvatarSkillTreePointTriggerKey_TypeDefinitionIndex = 10413;
 
 	enum class AvatarSkillTreePointTriggerKey : ::System::Int32
 	{
@@ -30,5 +30,6 @@ namespace RPG::GameCore
 		PointServant2 = 20,
 		PointSpecial1 = 21,
 		PointElation = 22,
+		PointAeonPower = 23,
 	};
 }

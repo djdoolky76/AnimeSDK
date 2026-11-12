@@ -5,12 +5,12 @@ namespace RPG::Client::BlindBox::Pool { class IBlindBoxPool; }
 namespace RPG::Client::BlindBox::Pool { class IBlindBoxPoolRepository; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS_GETALLOPEN_OFFSET UNITYSDK_OFFSET(0xC88D900)
-#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS_GETFIRSTOPEN_OFFSET UNITYSDK_OFFSET(0xC88B390)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS_GETALLOPEN_OFFSET UNITYSDK_OFFSET(0xD1F2E60)
+#define RPG_CLIENT_BLINDBOX_POOL_IBLINDBOXPOOLREPOSITORYEXTENSIONS_GETFIRSTOPEN_OFFSET UNITYSDK_OFFSET(0xD1F08F0)
 
 namespace RPG::Client::BlindBox::Pool
 {
-	inline static constexpr unsigned int IBlindBoxPoolRepositoryExtensions_TypeDefinitionIndex = 74950;
+	inline static constexpr unsigned int IBlindBoxPoolRepositoryExtensions_TypeDefinitionIndex = 77277;
 
 	class IBlindBoxPoolRepositoryExtensions : public ::System::Object
 	{

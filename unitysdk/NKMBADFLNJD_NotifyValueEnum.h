@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int NKMBADFLNJD_NotifyValueEnum_TypeDefinitionIndex = 58855;
+inline static constexpr unsigned int NKMBADFLNJD_NotifyValueEnum_TypeDefinitionIndex = 60127;
 
 	enum class NKMBADFLNJD_NotifyValueEnum : ::System::Int32
 	{

@@ -4,18 +4,18 @@
 class HPGLOBODDMA;
 namespace System { class Object; }
 
-#define HPGLOBODDMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5F65A0)
-#define HPGLOBODDMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F65E0)
-#define HPGLOBODDMA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5F65F0)
+#define HPGLOBODDMA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8F36A0)
+#define HPGLOBODDMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8F36E0)
+#define HPGLOBODDMA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8F36F0)
 
-inline static constexpr unsigned int HPGLOBODDMA___c_TypeDefinitionIndex = 33779;
+inline static constexpr unsigned int HPGLOBODDMA___c_TypeDefinitionIndex = 34694;
 
 	class HPGLOBODDMA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x509C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x42370);
 		}
 
 		static ::System::Void _cctor()

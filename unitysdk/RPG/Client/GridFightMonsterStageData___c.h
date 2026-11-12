@@ -7,31 +7,31 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD1C1330)
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C1370)
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xD1C1380)
-#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_1_OFFSET UNITYSDK_OFFSET(0xD1C1390)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC08F80)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC08FC0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xDC08FD0)
+#define RPG_CLIENT_GRIDFIGHTMONSTERSTAGEDATA___C___GETHIGHESTTIERMONSTER_B__2_1_OFFSET UNITYSDK_OFFSET(0xDC08FE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightMonsterStageData___c_TypeDefinitionIndex = 65061;
+	inline static constexpr unsigned int GridFightMonsterStageData___c_TypeDefinitionIndex = 66688;
 
 	class GridFightMonsterStageData___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::UInt32>** StaticGet___9__2_1()
-		{
-			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DC70);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DC78);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72BF0);
+		}
+
+		static ::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::UInt32>** StaticGet___9__2_1()
+		{
+			return (::System::Func_2<::RPG::Client::GridFightMonsterData*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72BF8);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::List_1<::RPG::Client::GridFightMonsterData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightMonsterData*>*>** StaticGet___9__2_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::List_1<::RPG::Client::GridFightMonsterData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightMonsterData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6DC80);
+			return (::System::Func_2<::System::Collections::Generic::List_1<::RPG::Client::GridFightMonsterData*>*, ::System::Collections::Generic::IEnumerable_1<::RPG::Client::GridFightMonsterData*>*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x72C00);
 		}
 
 		static ::System::Void _cctor()

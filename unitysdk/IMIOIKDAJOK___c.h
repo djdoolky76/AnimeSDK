@@ -4,18 +4,18 @@
 class IMIOIKDAJOK;
 namespace System { class Object; }
 
-#define IMIOIKDAJOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6B8AA0)
-#define IMIOIKDAJOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B8AE0)
-#define IMIOIKDAJOK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6B8AF0)
+#define IMIOIKDAJOK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9C0470)
+#define IMIOIKDAJOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9C04B0)
+#define IMIOIKDAJOK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F9C04C0)
 
-inline static constexpr unsigned int IMIOIKDAJOK___c_TypeDefinitionIndex = 32453;
+inline static constexpr unsigned int IMIOIKDAJOK___c_TypeDefinitionIndex = 33366;
 
 	class IMIOIKDAJOK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57670);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x548D0);
 		}
 
 		static ::System::Void _cctor()

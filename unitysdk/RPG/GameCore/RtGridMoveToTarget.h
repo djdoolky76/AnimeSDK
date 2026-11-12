@@ -8,13 +8,13 @@ namespace RPG::GameCore { class RtGridMoveToTarget; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TaskConfig; }
 
-#define RPG_GAMECORE_RTGRIDMOVETOTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5D5A0)
-#define RPG_GAMECORE_RTGRIDMOVETOTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DA5D6D0)
-#define RPG_GAMECORE_RTGRIDMOVETOTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5D560)
+#define RPG_GAMECORE_RTGRIDMOVETOTARGET_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6FB90)
+#define RPG_GAMECORE_RTGRIDMOVETOTARGET_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EC6FCC0)
+#define RPG_GAMECORE_RTGRIDMOVETOTARGET_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC6FB50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtGridMoveToTarget_TypeDefinitionIndex = 24115;
+	inline static constexpr unsigned int RtGridMoveToTarget_TypeDefinitionIndex = 24574;
 
 	class RtGridMoveToTarget : public ::RPG::GameCore::TaskConfig
 	{

@@ -1,12 +1,12 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define UNITYENGINE_RENDERING_FLOATPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2AAA50)
-#define UNITYENGINE_RENDERING_FLOATPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x1F2C1CC0)
+#define UNITYENGINE_RENDERING_FLOATPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x2055B7C0)
+#define UNITYENGINE_RENDERING_FLOATPARAMETER_INTERP_OFFSET UNITYSDK_OFFSET(0x20572AD0)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int FloatParameter_TypeDefinitionIndex = 35633;
+	inline static constexpr unsigned int FloatParameter_TypeDefinitionIndex = 36561;
 
 	class FloatParameter
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG
 {
-	inline static constexpr unsigned int IPriorityLinkableNode_1_TypeDefinitionIndex = 6396;
+	inline static constexpr unsigned int IPriorityLinkableNode_1_TypeDefinitionIndex = 6403;
 
 	template <typename T>
 	class IPriorityLinkableNode_1

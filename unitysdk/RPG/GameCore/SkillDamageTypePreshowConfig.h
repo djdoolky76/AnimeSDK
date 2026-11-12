@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class SkillDamageTypePreshowConfig; }
 
-#define RPG_GAMECORE_SKILLDAMAGETYPEPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DAEF2A0)
-#define RPG_GAMECORE_SKILLDAMAGETYPEPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DAEF110)
+#define RPG_GAMECORE_SKILLDAMAGETYPEPRESHOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED010F0)
+#define RPG_GAMECORE_SKILLDAMAGETYPEPRESHOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED00F60)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int SkillDamageTypePreshowConfig_TypeDefinitionIndex = 17114;
+	inline static constexpr unsigned int SkillDamageTypePreshowConfig_TypeDefinitionIndex = 17281;
 
 	class SkillDamageTypePreshowConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureBehaviorConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3B7870)
-#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3B74D0)
+#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5C6D00)
+#define RPG_GAMECORE_ADVENTUREBEHAVIORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5C6960)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureBehaviorConfig_TypeDefinitionIndex = 17630;
+	inline static constexpr unsigned int AdventureBehaviorConfig_TypeDefinitionIndex = 17799;
 
 	class AdventureBehaviorConfig : public ::RPG::GameCore::JsonConfig
 	{

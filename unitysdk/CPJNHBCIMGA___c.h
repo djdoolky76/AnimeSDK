@@ -5,23 +5,23 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CPJNHBCIMGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDCD8330)
-#define CPJNHBCIMGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD8370)
-#define CPJNHBCIMGA___C___EXECUTESWITCH_B__10_4_OFFSET UNITYSDK_OFFSET(0xDCD8380)
+#define CPJNHBCIMGA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE8EC3B0)
+#define CPJNHBCIMGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE8EC3F0)
+#define CPJNHBCIMGA___C___EXECUTESWITCH_B__10_4_OFFSET UNITYSDK_OFFSET(0xE8EC400)
 
-inline static constexpr unsigned int CPJNHBCIMGA___c_TypeDefinitionIndex = 77726;
+inline static constexpr unsigned int CPJNHBCIMGA___c_TypeDefinitionIndex = 80461;
 
 	class CPJNHBCIMGA___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__10_4()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57DD0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x401F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57DD8);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x401F8);
 		}
 
 		static ::System::Void _cctor()

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByFuncUnlockCheck; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HIFABFMKEAH_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE2F70)
-#define HIFABFMKEAH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15CE2FA0)
+#define HIFABFMKEAH_CTOR_OFFSET UNITYSDK_OFFSET(0x16C30820)
+#define HIFABFMKEAH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16C30850)
 
-inline static constexpr unsigned int HIFABFMKEAH_TypeDefinitionIndex = 52088;
+inline static constexpr unsigned int HIFABFMKEAH_TypeDefinitionIndex = 53193;
 
 	class HIFABFMKEAH
 	{

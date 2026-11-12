@@ -5,25 +5,25 @@ namespace RPG::Client { class CakeCatchPerformanceData; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_CAKECATCHMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC8ECA30)
-#define RPG_CLIENT_CAKECATCHMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC8ECA70)
-#define RPG_CLIENT_CAKECATCHMODULE___C__GETALLPERFORMANCEDATA_B__42_0_OFFSET UNITYSDK_OFFSET(0xC8ECA80)
+#define RPG_CLIENT_CAKECATCHMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD251AE0)
+#define RPG_CLIENT_CAKECATCHMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD251B20)
+#define RPG_CLIENT_CAKECATCHMODULE___C__GETALLPERFORMANCEDATA_B__42_0_OFFSET UNITYSDK_OFFSET(0xD251B30)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CakeCatchModule___c_TypeDefinitionIndex = 62967;
+	inline static constexpr unsigned int CakeCatchModule___c_TypeDefinitionIndex = 64405;
 
 	class CakeCatchModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x608C0);
-		}
-
 		static ::System::Comparison_1<::RPG::Client::CakeCatchPerformanceData*>** StaticGet___9__42_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::CakeCatchPerformanceData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x608C8);
+			return (::System::Comparison_1<::RPG::Client::CakeCatchPerformanceData*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5A9D0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5A9D8);
 		}
 
 		static ::System::Void _cctor()

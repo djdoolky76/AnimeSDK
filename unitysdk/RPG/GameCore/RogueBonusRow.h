@@ -6,22 +6,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class RogueBonusRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ROGUEBONUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9AC6F0)
-#define RPG_GAMECORE_ROGUEBONUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D9ABF00)
+#define RPG_GAMECORE_ROGUEBONUSROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBF5770)
+#define RPG_GAMECORE_ROGUEBONUSROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EBF4F80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RogueBonusRow_TypeDefinitionIndex = 14687;
+	inline static constexpr unsigned int RogueBonusRow_TypeDefinitionIndex = 14843;
 
 	class RogueBonusRow : public ::System::Object
 	{
 	public:
 		::System::String* BonusIcon; // 0x10
-		::System::UInt32 BonusID; // 0x18
-		::System::UInt32 BonusEvent; // 0x1C
-		::RPG::Client::TextID BonusDesc; // 0x20
+		::RPG::Client::TextID BonusTitle; // 0x18
+		::System::UInt32 BonusID; // 0x28
+		::System::UInt32 BonusEvent; // 0x2C
 		::RPG::Client::TextID BonusTag; // 0x30
-		::RPG::Client::TextID BonusTitle; // 0x40
+		::RPG::Client::TextID BonusDesc; // 0x40
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ROGUEBONUSROW_CTOR_OFFSET))(this);

@@ -4,18 +4,18 @@
 class DNDMLICBKEF;
 namespace System { class Object; }
 
-#define DNDMLICBKEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E1F4E60)
-#define DNDMLICBKEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1F4EA0)
-#define DNDMLICBKEF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E1F4EB0)
+#define DNDMLICBKEF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4D12F0)
+#define DNDMLICBKEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4D1330)
+#define DNDMLICBKEF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F4D1340)
 
-inline static constexpr unsigned int DNDMLICBKEF___c_TypeDefinitionIndex = 32641;
+inline static constexpr unsigned int DNDMLICBKEF___c_TypeDefinitionIndex = 33556;
 
 	class DNDMLICBKEF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40220);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3B1C0);
 		}
 
 		static ::System::Void _cctor()

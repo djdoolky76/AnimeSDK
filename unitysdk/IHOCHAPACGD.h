@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int IHOCHAPACGD_TypeDefinitionIndex = 42056;
+inline static constexpr unsigned int IHOCHAPACGD_TypeDefinitionIndex = 43031;
 
 	class IHOCHAPACGD
 	{

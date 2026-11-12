@@ -9,21 +9,21 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define OEPOKOJHKEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D264430)
-#define OEPOKOJHKEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D264440)
-#define OEPOKOJHKEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D264400)
+#define OEPOKOJHKEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E46A680)
+#define OEPOKOJHKEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E46A690)
+#define OEPOKOJHKEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E46A650)
 
-inline static constexpr unsigned int OEPOKOJHKEL_TypeDefinitionIndex = 22863;
+inline static constexpr unsigned int OEPOKOJHKEL_TypeDefinitionIndex = 23288;
 
 	class OEPOKOJHKEL : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::RPG::GameCore::DynamicFloat* NPLCDLGCHNJ; // 0x18
-		::System::String* NPIKCFCKBLM; // 0x20
-		::JBPIHNMIAPO* HDJHDKLHLAM; // 0x28
-		::BHELCIBGKGA* FOBFFEIDADN; // 0x30
-		::RPG::GameCore::TargetEvaluator* BPIBFOGDDHD; // 0x38
-		::System::String* ECHFEMAFJNN; // 0x40
+		::JBPIHNMIAPO* HDJHDKLHLAM; // 0x18
+		::RPG::GameCore::DynamicFloat* NPLCDLGCHNJ; // 0x20
+		::RPG::GameCore::TargetEvaluator* BPIBFOGDDHD; // 0x28
+		::System::String* NPIKCFCKBLM; // 0x30
+		::System::String* ECHFEMAFJNN; // 0x38
+		::BHELCIBGKGA* FOBFFEIDADN; // 0x40
 		::System::Boolean DOABIHDOJLJ; // 0x48
 		::System::Void _ctor()
 		{

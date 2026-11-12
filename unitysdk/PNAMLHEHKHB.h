@@ -3,10 +3,10 @@
 #include "unitysdk/HGEGFCADEEC.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define PNAMLHEHKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xC332B50)
-#define PNAMLHEHKHB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC332BA0)
+#define PNAMLHEHKHB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC62820)
+#define PNAMLHEHKHB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCC62870)
 
-inline static constexpr unsigned int PNAMLHEHKHB_TypeDefinitionIndex = 69797;
+inline static constexpr unsigned int PNAMLHEHKHB_TypeDefinitionIndex = 71756;
 
 	class PNAMLHEHKHB : public ::HGEGFCADEEC
 	{

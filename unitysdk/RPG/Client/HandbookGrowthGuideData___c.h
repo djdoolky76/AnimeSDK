@@ -4,25 +4,25 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2F1850)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2F1890)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C___INITROGUETOURNRELICSETIDTOGUIDEDATAMAP_B__28_0_OFFSET UNITYSDK_OFFSET(0xD2F18A0)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD26C40)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDD26C80)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEDATA___C___INITROGUETOURNRELICSETIDTOGUIDEDATAMAP_B__28_0_OFFSET UNITYSDK_OFFSET(0xDD26C90)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideData___c_TypeDefinitionIndex = 65618;
+	inline static constexpr unsigned int HandbookGrowthGuideData___c_TypeDefinitionIndex = 67542;
 
 	class HandbookGrowthGuideData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::System::UInt32>** StaticGet___9__28_0()
-		{
-			return (::System::Comparison_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF0B0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF0B8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19210);
+		}
+
+		static ::System::Comparison_1<::System::UInt32>** StaticGet___9__28_0()
+		{
+			return (::System::Comparison_1<::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19218);
 		}
 
 		static ::System::Void _cctor()

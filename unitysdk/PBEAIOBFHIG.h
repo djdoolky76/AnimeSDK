@@ -3,18 +3,18 @@
 #include "unitysdk/System/Object.h"
 class PBEAIOBFHIG;
 
-#define PBEAIOBFHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBFEA4E0)
-#define PBEAIOBFHIG_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xBFEA470)
-#define PBEAIOBFHIG_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xBFEA4F0)
+#define PBEAIOBFHIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC8EE090)
+#define PBEAIOBFHIG_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xC8EE020)
+#define PBEAIOBFHIG_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xC8EE0A0)
 
-inline static constexpr unsigned int PBEAIOBFHIG_TypeDefinitionIndex = 71821;
+inline static constexpr unsigned int PBEAIOBFHIG_TypeDefinitionIndex = 73842;
 
 	class PBEAIOBFHIG : public ::System::Object
 	{
 	public:
 		static ::PBEAIOBFHIG** StaticGet_FLMODBLFAGD()
 		{
-			return (::PBEAIOBFHIG**)UnitySDK::FromName("", "PBEAIOBFHIG")->GetStaticField(0x64430);
+			return (::PBEAIOBFHIG**)UnitySDK::FromName("", "PBEAIOBFHIG")->GetStaticField(0x623B0);
 		}
 
 		::System::Void _ctor()

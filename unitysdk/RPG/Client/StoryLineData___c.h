@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Converter_2; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_STORYLINEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE142C50)
-#define RPG_CLIENT_STORYLINEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE142C80)
-#define RPG_CLIENT_STORYLINEDATA___C__GETALLFLOORIDS_B__37_0_OFFSET UNITYSDK_OFFSET(0xE142C90)
-#define RPG_CLIENT_STORYLINEDATA___C___PREPAREFLOORDATA_B__44_0_OFFSET UNITYSDK_OFFSET(0xE142CF0)
+#define RPG_CLIENT_STORYLINEDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xEBEFF40)
+#define RPG_CLIENT_STORYLINEDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEFF70)
+#define RPG_CLIENT_STORYLINEDATA___C__GETALLFLOORIDS_B__37_0_OFFSET UNITYSDK_OFFSET(0xEBEFF80)
+#define RPG_CLIENT_STORYLINEDATA___C___PREPAREFLOORDATA_B__44_0_OFFSET UNITYSDK_OFFSET(0xEBEFFE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StoryLineData___c_TypeDefinitionIndex = 67988;
+	inline static constexpr unsigned int StoryLineData___c_TypeDefinitionIndex = 69934;
 
 	class StoryLineData___c : public ::System::Object
 	{
 	public:
-		static ::System::Converter_2<::MCMFHHKJDEE*, ::System::UInt32>** StaticGet___9__37_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Converter_2<::MCMFHHKJDEE*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F7C0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEAE0);
 		}
 
 		static ::System::Func_2<::MCMFHHKJDEE*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__44_0()
 		{
-			return (::System::Func_2<::MCMFHHKJDEE*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F7C8);
+			return (::System::Func_2<::MCMFHHKJDEE*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEAE8);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Converter_2<::MCMFHHKJDEE*, ::System::UInt32>** StaticGet___9__37_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x6F7D0);
+			return (::System::Converter_2<::MCMFHHKJDEE*, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xEAF0);
 		}
 
 		static ::System::Void _cctor()

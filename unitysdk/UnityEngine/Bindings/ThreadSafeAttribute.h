@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Bindings/NativeMethodAttribute.h"
 
-#define UNITYENGINE_BINDINGS_THREADSAFEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D280)
+#define UNITYENGINE_BINDINGS_THREADSAFEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x2074D0E0)
 
 namespace UnityEngine::Bindings
 {

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_OPENWORLD_MONOSTAGEPREFABINFOOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xD9FD620)
+#define RPG_CLIENT_OPENWORLD_MONOSTAGEPREFABINFOOVERRIDE_CTOR_OFFSET UNITYSDK_OFFSET(0xE493FC0)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int MonoStagePrefabInfoOverride_TypeDefinitionIndex = 73744;
+	inline static constexpr unsigned int MonoStagePrefabInfoOverride_TypeDefinitionIndex = 75868;
 
 	class MonoStagePrefabInfoOverride : public ::UnityEngine::MonoBehaviour
 	{

@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int ConcurrentBagFormatter_1_TypeDefinitionIndex = 7411;
+	inline static constexpr unsigned int ConcurrentBagFormatter_1_TypeDefinitionIndex = 7422;
 
 	template <typename T>
 	class ConcurrentBagFormatter_1

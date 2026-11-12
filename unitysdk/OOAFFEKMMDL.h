@@ -6,25 +6,24 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class SkinnedMeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define OOAFFEKMMDL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF61D00)
-#define OOAFFEKMMDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF61AB0)
-#define OOAFFEKMMDL_GFPGNOOKDBD_OFFSET UNITYSDK_OFFSET(0xBF61D60)
-#define OOAFFEKMMDL_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xBF62300)
-#define OOAFFEKMMDL_MCPPMEAEBKE_OFFSET UNITYSDK_OFFSET(0xBF61B10)
-#define OOAFFEKMMDL_MLLMAFCHNGD_OFFSET UNITYSDK_OFFSET(0xBF61FC0)
-#define OOAFFEKMMDL_PIGJDJADHAB_OFFSET UNITYSDK_OFFSET(0xBF62060)
+#define OOAFFEKMMDL_CTOR_OFFSET UNITYSDK_OFFSET(0xC860B80)
+#define OOAFFEKMMDL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC860930)
+#define OOAFFEKMMDL_GFPGNOOKDBD_OFFSET UNITYSDK_OFFSET(0xC860BE0)
+#define OOAFFEKMMDL_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xC861180)
+#define OOAFFEKMMDL_MCPPMEAEBKE_OFFSET UNITYSDK_OFFSET(0xC860990)
+#define OOAFFEKMMDL_MLLMAFCHNGD_OFFSET UNITYSDK_OFFSET(0xC860E40)
+#define OOAFFEKMMDL_PIGJDJADHAB_OFFSET UNITYSDK_OFFSET(0xC860EE0)
 
-inline static constexpr unsigned int OOAFFEKMMDL_TypeDefinitionIndex = 60767;
+inline static constexpr unsigned int OOAFFEKMMDL_TypeDefinitionIndex = 62144;
 
 	class OOAFFEKMMDL : public ::System::Object
 	{
 	public:
 		::UnityEngine::GameObject* OLPPHJJNMEA; // 0x10
-		::UnityEngine::Transform* PMNDHEHLCAP; // 0x18
-		::UnityEngine::SkinnedMeshRenderer* DINHCOCIJDJ; // 0x20
-		::System::Boolean NDHEDNNNPFH; // 0x28
-		::System::Byte _padding0[0x3];
-		::RPG::CustomRP::EObjectFeature DFPEAPNOCGN; // 0x2C
+		::UnityEngine::SkinnedMeshRenderer* DINHCOCIJDJ; // 0x18
+		::UnityEngine::Transform* PMNDHEHLCAP; // 0x20
+		::RPG::CustomRP::EObjectFeature DFPEAPNOCGN; // 0x28
+		::System::Boolean NDHEDNNNPFH; // 0x2C
 		::System::Void _ctor(::UnityEngine::GameObject* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + OOAFFEKMMDL_CTOR_OFFSET))(this, a1);

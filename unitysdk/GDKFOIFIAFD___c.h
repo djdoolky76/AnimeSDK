@@ -4,18 +4,18 @@
 class GDKFOIFIAFD;
 namespace System { class Object; }
 
-#define GDKFOIFIAFD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E44D5A0)
-#define GDKFOIFIAFD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E44D5E0)
-#define GDKFOIFIAFD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E44D5F0)
+#define GDKFOIFIAFD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F73B3B0)
+#define GDKFOIFIAFD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F73B3F0)
+#define GDKFOIFIAFD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F73B400)
 
-inline static constexpr unsigned int GDKFOIFIAFD___c_TypeDefinitionIndex = 32417;
+inline static constexpr unsigned int GDKFOIFIAFD___c_TypeDefinitionIndex = 33330;
 
 	class GDKFOIFIAFD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x111E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x576E0);
 		}
 
 		static ::System::Void _cctor()

@@ -6,21 +6,21 @@ namespace RPG::GameCore { class AdvChaseBailu; }
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FFEEJDHEDIK_CTOR_OFFSET UNITYSDK_OFFSET(0x15733250)
-#define FFEEJDHEDIK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15733260)
-#define FFEEJDHEDIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15733310)
-#define FFEEJDHEDIK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157332D0)
-#define FFEEJDHEDIK_TICK_OFFSET UNITYSDK_OFFSET(0x15733760)
+#define FFEEJDHEDIK_CTOR_OFFSET UNITYSDK_OFFSET(0x1664EC70)
+#define FFEEJDHEDIK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1664EC80)
+#define FFEEJDHEDIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1664ED30)
+#define FFEEJDHEDIK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1664ECF0)
+#define FFEEJDHEDIK_TICK_OFFSET UNITYSDK_OFFSET(0x1664F170)
 
-inline static constexpr unsigned int FFEEJDHEDIK_TypeDefinitionIndex = 52342;
+inline static constexpr unsigned int FFEEJDHEDIK_TypeDefinitionIndex = 53448;
 
 	class FFEEJDHEDIK : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::AdvChaseBailu* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::GameEntity* ILAJEHHAPBD; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
-		::AKGKDDMPGPA* KCAPNKMBOBO; // 0x30
+		::AKGKDDMPGPA* KCAPNKMBOBO; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::AdvChaseBailu* OFKGLJOAMLD; // 0x28
+		::RPG::GameCore::GameEntity* ILAJEHHAPBD; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvChaseBailu* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AdvChaseBailu*))((::PBYTE)hIl2Cpp + FFEEJDHEDIK_CTOR_OFFSET))(this, a1, a2);

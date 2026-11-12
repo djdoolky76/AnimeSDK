@@ -4,18 +4,18 @@
 class JLHEBEDKIPC;
 namespace System { class Object; }
 
-#define JLHEBEDKIPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E779200)
-#define JLHEBEDKIPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E779240)
-#define JLHEBEDKIPC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E779250)
+#define JLHEBEDKIPC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FAA7FC0)
+#define JLHEBEDKIPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FAA8000)
+#define JLHEBEDKIPC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1FAA8010)
 
-inline static constexpr unsigned int JLHEBEDKIPC___c_TypeDefinitionIndex = 32556;
+inline static constexpr unsigned int JLHEBEDKIPC___c_TypeDefinitionIndex = 33471;
 
 	class JLHEBEDKIPC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x66890);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x52AA0);
 		}
 
 		static ::System::Void _cctor()

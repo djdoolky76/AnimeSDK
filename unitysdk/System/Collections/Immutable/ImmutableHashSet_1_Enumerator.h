@@ -4,7 +4,7 @@ namespace System { class Object; }
 
 namespace System::Collections::Immutable
 {
-	inline static constexpr unsigned int ImmutableHashSet_1_Enumerator_TypeDefinitionIndex = 6601;
+	inline static constexpr unsigned int ImmutableHashSet_1_Enumerator_TypeDefinitionIndex = 6612;
 
 	template <typename T>
 	struct alignas(8) ImmutableHashSet_1_Enumerator

@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IPlanetFesBuff_TypeDefinitionIndex = 66532;
+	inline static constexpr unsigned int IPlanetFesBuff_TypeDefinitionIndex = 68468;
 
 	class IPlanetFesBuff
 	{

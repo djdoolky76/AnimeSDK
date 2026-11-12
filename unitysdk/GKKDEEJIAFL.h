@@ -7,11 +7,11 @@ class LMJPODEEGKK;
 namespace RPG::GameCore { class ChimeraDuelEffectConfig; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define GKKDEEJIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x15A9E2A0)
-#define GKKDEEJIAFL_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x15A9DFF0)
-#define GKKDEEJIAFL_JKAJCDHLOPO_OFFSET UNITYSDK_OFFSET(0x15A9DFA0)
+#define GKKDEEJIAFL_CTOR_OFFSET UNITYSDK_OFFSET(0x169DAFB0)
+#define GKKDEEJIAFL_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x169DAD00)
+#define GKKDEEJIAFL_JKAJCDHLOPO_OFFSET UNITYSDK_OFFSET(0x169DACB0)
 
-inline static constexpr unsigned int GKKDEEJIAFL_TypeDefinitionIndex = 77472;
+inline static constexpr unsigned int GKKDEEJIAFL_TypeDefinitionIndex = 80207;
 
 	class GKKDEEJIAFL : public ::FJNNEOKOCJD
 	{

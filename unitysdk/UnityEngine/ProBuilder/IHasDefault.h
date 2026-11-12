@@ -3,7 +3,7 @@
 
 namespace UnityEngine::ProBuilder
 {
-	inline static constexpr unsigned int IHasDefault_TypeDefinitionIndex = 44363;
+	inline static constexpr unsigned int IHasDefault_TypeDefinitionIndex = 45438;
 
 	class IHasDefault
 	{

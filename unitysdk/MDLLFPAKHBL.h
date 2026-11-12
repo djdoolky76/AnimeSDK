@@ -5,19 +5,19 @@ namespace RPG::Client { class PlanetFesAvatarEffectController; }
 namespace UnityEngine { class Canvas; }
 namespace UnityEngine { class Transform; }
 
-#define MDLLFPAKHBL_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AD9D0)
-#define MDLLFPAKHBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8AD910)
-#define MDLLFPAKHBL_FGFILICHKOH_OFFSET UNITYSDK_OFFSET(0xB8AD960)
-#define MDLLFPAKHBL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB8AD8A0)
+#define MDLLFPAKHBL_CTOR_OFFSET UNITYSDK_OFFSET(0xC15F100)
+#define MDLLFPAKHBL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC15F040)
+#define MDLLFPAKHBL_FGFILICHKOH_OFFSET UNITYSDK_OFFSET(0xC15F090)
+#define MDLLFPAKHBL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC15EFD0)
 
-inline static constexpr unsigned int MDLLFPAKHBL_TypeDefinitionIndex = 66663;
+inline static constexpr unsigned int MDLLFPAKHBL_TypeDefinitionIndex = 68599;
 
 	class MDLLFPAKHBL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:
 		::RPG::Client::PlanetFesAvatarEffectController* LLFEHKABAIA; // 0x18
-		::UnityEngine::Transform* LPEOHKHOLEP; // 0x20
-		::UnityEngine::Canvas* PMNMEPIMANC; // 0x28
+		::UnityEngine::Canvas* PMNMEPIMANC; // 0x20
+		::UnityEngine::Transform* LPEOHKHOLEP; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MDLLFPAKHBL_CTOR_OFFSET))(this);

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Transform; }
 
-#define ATTRACTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBBD810)
+#define ATTRACTOR_CTOR_OFFSET UNITYSDK_OFFSET(0x1FE70ED0)
 
-inline static constexpr unsigned int Attractor_TypeDefinitionIndex = 43986;
+inline static constexpr unsigned int Attractor_TypeDefinitionIndex = 45061;
 
 	class Attractor : public ::System::Object
 	{

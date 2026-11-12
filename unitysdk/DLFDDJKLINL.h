@@ -5,11 +5,11 @@ namespace RPG::GameCore { class ModifySPNew; }
 namespace RPG::GameCore { class SkillData; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define DLFDDJKLINL_ANAGAHONMKO_OFFSET UNITYSDK_OFFSET(0xF89C670)
-#define DLFDDJKLINL_CTOR_OFFSET UNITYSDK_OFFSET(0xF89BBA0)
-#define DLFDDJKLINL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF89BBD0)
+#define DLFDDJKLINL_ANAGAHONMKO_OFFSET UNITYSDK_OFFSET(0x1060BF90)
+#define DLFDDJKLINL_CTOR_OFFSET UNITYSDK_OFFSET(0x1060B4D0)
+#define DLFDDJKLINL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1060B500)
 
-inline static constexpr unsigned int DLFDDJKLINL_TypeDefinitionIndex = 55207;
+inline static constexpr unsigned int DLFDDJKLINL_TypeDefinitionIndex = 56388;
 
 	class DLFDDJKLINL
 	{

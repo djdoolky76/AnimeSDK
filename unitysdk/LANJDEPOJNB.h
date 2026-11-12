@@ -5,10 +5,10 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define LANJDEPOJNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6EB60)
-#define LANJDEPOJNB_MMKGLLKFHCH_OFFSET UNITYSDK_OFFSET(0x1EC7BF30)
+#define LANJDEPOJNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1FF1F540)
+#define LANJDEPOJNB_MMKGLLKFHCH_OFFSET UNITYSDK_OFFSET(0x1FF2C8D0)
 
-inline static constexpr unsigned int LANJDEPOJNB_TypeDefinitionIndex = 44303;
+inline static constexpr unsigned int LANJDEPOJNB_TypeDefinitionIndex = 45378;
 
 	class LANJDEPOJNB : public ::System::Exception
 	{

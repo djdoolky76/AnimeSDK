@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ExpeditionBattleLevelConfigRow; }
 
-#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D68F410)
-#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D68F2F0)
+#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E89B980)
+#define RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E89B860)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ExpeditionBattleLevelConfigRow_TypeDefinitionIndex = 11446;
+	inline static constexpr unsigned int ExpeditionBattleLevelConfigRow_TypeDefinitionIndex = 11497;
 
 	class ExpeditionBattleLevelConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 StageID; // 0x10
-		::System::UInt32 ID; // 0x14
+		::System::UInt32 ID; // 0x10
+		::System::UInt32 StageID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_EXPEDITIONBATTLELEVELCONFIGROW_CTOR_OFFSET))(this);

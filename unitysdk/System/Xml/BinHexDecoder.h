@@ -2,10 +2,10 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Xml/IncrementalReadDecoder.h"
 
-#define SYSTEM_XML_BINHEXDECODER_DECODE_1_OFFSET UNITYSDK_OFFSET(0x1EE92A00)
-#define SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET UNITYSDK_OFFSET(0x1EE92780)
-#define SYSTEM_XML_BINHEXDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x1EE925A0)
-#define SYSTEM_XML_BINHEXDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x1EE92590)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_1_OFFSET UNITYSDK_OFFSET(0x20142140)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_2_OFFSET UNITYSDK_OFFSET(0x20141EC0)
+#define SYSTEM_XML_BINHEXDECODER_DECODE_OFFSET UNITYSDK_OFFSET(0x20141CE0)
+#define SYSTEM_XML_BINHEXDECODER_GET_ISFULL_OFFSET UNITYSDK_OFFSET(0x20141CD0)
 
 namespace System::Xml
 {
@@ -16,8 +16,8 @@ namespace System::Xml
 	public:
 		::Il2CppArray<::System::Byte>* buffer; // 0x10
 		::System::Int32 endIndex; // 0x18
-		::System::Byte cachedHalfByte; // 0x1C
-		::System::Boolean hasHalfByteCached; // 0x1D
+		::System::Boolean hasHalfByteCached; // 0x1C
+		::System::Byte cachedHalfByte; // 0x1D
 		::System::Byte _padding0[0x2];
 		::System::Int32 curIndex; // 0x20
 		::System::Boolean get_IsFull()

@@ -3,10 +3,10 @@
 class IAJEHABKDFG;
 namespace RPG::GameCore { class TaskContext; }
 
-#define BFENACEDFNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB161B10)
-#define BFENACEDFNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB161B40)
+#define BFENACEDFNM_CTOR_OFFSET UNITYSDK_OFFSET(0xB7EB6E0)
+#define BFENACEDFNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7EB710)
 
-inline static constexpr unsigned int BFENACEDFNM_TypeDefinitionIndex = 58025;
+inline static constexpr unsigned int BFENACEDFNM_TypeDefinitionIndex = 59264;
 
 	class BFENACEDFNM
 	{

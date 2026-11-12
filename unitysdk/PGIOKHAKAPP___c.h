@@ -4,18 +4,18 @@
 class PGIOKHAKAPP;
 namespace System { class Object; }
 
-#define PGIOKHAKAPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF33350)
-#define PGIOKHAKAPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF33390)
-#define PGIOKHAKAPP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DF333A0)
+#define PGIOKHAKAPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2012A0)
+#define PGIOKHAKAPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2012E0)
+#define PGIOKHAKAPP___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F2012F0)
 
-inline static constexpr unsigned int PGIOKHAKAPP___c_TypeDefinitionIndex = 30652;
+inline static constexpr unsigned int PGIOKHAKAPP___c_TypeDefinitionIndex = 31558;
 
 	class PGIOKHAKAPP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E470);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x347F0);
 		}
 
 		static ::System::Void _cctor()

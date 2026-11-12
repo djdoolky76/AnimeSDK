@@ -6,12 +6,12 @@
 #include "unitysdk/RPG/Client/VectorMaterialBlock.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD7F03C0)
-#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xD7F0050)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xE242150)
+#define RPG_CLIENT_MONOEFFECTPLUGINCHARARUNEMATERIALBLOCK_SETMATERIALPROPETIES_OFFSET UNITYSDK_OFFSET(0xE241DE0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginCharaRuneMaterialBlock_TypeDefinitionIndex = 69926;
+	inline static constexpr unsigned int MonoEffectPluginCharaRuneMaterialBlock_TypeDefinitionIndex = 71885;
 
 	class MonoEffectPluginCharaRuneMaterialBlock : public ::RPG::Client::MonoEffectPluginCompoundMaterialBlock
 	{

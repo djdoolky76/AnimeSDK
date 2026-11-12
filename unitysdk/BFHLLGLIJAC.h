@@ -1,24 +1,24 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
-namespace RPG::Client { class ChooseDeliveryEntry; }
 namespace RPG::Client { class ChooseDeliveryGroup; }
 namespace RPG::Client { class ChooseDeliveryToastConfig; }
+namespace RPG::Client { class IChooseDeliveryEntry; }
 namespace RPG::GameCore { class ChooseDeliveryRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BFHLLGLIJAC_FLFMJGDNBOG_OFFSET UNITYSDK_OFFSET(0xB1644B0)
-#define BFHLLGLIJAC_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xB164320)
-#define BFHLLGLIJAC_OCHBPHJEPAM_OFFSET UNITYSDK_OFFSET(0xB164400)
+#define BFHLLGLIJAC_FLFMJGDNBOG_OFFSET UNITYSDK_OFFSET(0xB7EE0D0)
+#define BFHLLGLIJAC_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0xB7EDF00)
+#define BFHLLGLIJAC_OCHBPHJEPAM_OFFSET UNITYSDK_OFFSET(0xB7EE310)
 
-inline static constexpr unsigned int BFHLLGLIJAC_TypeDefinitionIndex = 63519;
+inline static constexpr unsigned int BFHLLGLIJAC_TypeDefinitionIndex = 64957;
 
 	class BFHLLGLIJAC : public ::System::Object
 	{
 	public:
-		static ::RPG::Client::ChooseDeliveryEntry* LHLALAKKKKJ(::System::UInt32 a1)
+		static ::RPG::Client::IChooseDeliveryEntry* LHLALAKKKKJ(::System::UInt32 a1)
 		{
-			return ((::RPG::Client::ChooseDeliveryEntry*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + BFHLLGLIJAC_LHLALAKKKKJ_OFFSET))(a1);
+			return ((::RPG::Client::IChooseDeliveryEntry*(*)(::System::UInt32))((::PBYTE)hIl2Cpp + BFHLLGLIJAC_LHLALAKKKKJ_OFFSET))(a1);
 		}
 
 		static ::RPG::Client::ChooseDeliveryToastConfig* OCHBPHJEPAM(::System::UInt32 a1)

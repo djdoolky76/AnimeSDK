@@ -3,7 +3,7 @@
 
 namespace RPG::Client::Pet
 {
-	inline static constexpr unsigned int IMutablePetLineup_TypeDefinitionIndex = 75655;
+	inline static constexpr unsigned int IMutablePetLineup_TypeDefinitionIndex = 77982;
 
 	class IMutablePetLineup
 	{

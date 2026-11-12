@@ -7,12 +7,12 @@ namespace RPG::GameCore { class LevelDialogPackInfo; }
 namespace RPG::GameCore { class LevelGroupMissionConditionSet; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_LEVELDIALOGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7A8630)
-#define RPG_GAMECORE_LEVELDIALOGINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D7A8470)
+#define RPG_GAMECORE_LEVELDIALOGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EB9C0)
+#define RPG_GAMECORE_LEVELDIALOGINFO_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9EB800)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelDialogInfo_TypeDefinitionIndex = 17237;
+	inline static constexpr unsigned int LevelDialogInfo_TypeDefinitionIndex = 17405;
 
 	class LevelDialogInfo : public ::RPG::GameCore::JsonConfig
 	{

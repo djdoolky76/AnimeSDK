@@ -3,10 +3,10 @@
 #include "unitysdk/BOIKIMJHDHK.h"
 #include "unitysdk/CAHKKMIFGGB.h"
 
-#define JIDFALOGIBF_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0xB1EEAB0)
-#define JIDFALOGIBF_CTOR_OFFSET UNITYSDK_OFFSET(0xB1EEB50)
+#define JIDFALOGIBF_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0xBA109E0)
+#define JIDFALOGIBF_CTOR_OFFSET UNITYSDK_OFFSET(0xBA10A80)
 
-inline static constexpr unsigned int JIDFALOGIBF_TypeDefinitionIndex = 64937;
+inline static constexpr unsigned int JIDFALOGIBF_TypeDefinitionIndex = 66508;
 
 	class JIDFALOGIBF : public ::BOIKIMJHDHK
 	{

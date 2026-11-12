@@ -5,11 +5,11 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 class OAKPPPHIOCN_ItemData;
 
-#define OAKPPPHIOCN_MODULECUSTOMDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xBD2AFA0)
-#define OAKPPPHIOCN_MODULECUSTOMDATA_GET_CUSTOMUVTILLING_OFFSET UNITYSDK_OFFSET(0x22A10)
-#define OAKPPPHIOCN_MODULECUSTOMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x22A80)
+#define OAKPPPHIOCN_MODULECUSTOMDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0xC62A070)
+#define OAKPPPHIOCN_MODULECUSTOMDATA_GET_CUSTOMUVTILLING_OFFSET UNITYSDK_OFFSET(0x27F00)
+#define OAKPPPHIOCN_MODULECUSTOMDATA_GET_ITEMDATA_OFFSET UNITYSDK_OFFSET(0x27F70)
 
-inline static constexpr unsigned int OAKPPPHIOCN_ModuleCustomData_TypeDefinitionIndex = 48866;
+inline static constexpr unsigned int OAKPPPHIOCN_ModuleCustomData_TypeDefinitionIndex = 49912;
 
 	struct alignas(4) OAKPPPHIOCN_ModuleCustomData
 	{
@@ -47,7 +47,7 @@ inline static constexpr unsigned int OAKPPPHIOCN_ModuleCustomData_TypeDefinition
 		::System::Single RightTopOffsetY; // 0x84
 		static ::OAKPPPHIOCN_ModuleCustomData* StaticGet_Default()
 		{
-			return (::OAKPPPHIOCN_ModuleCustomData*)UnitySDK::FromName("", "ModuleCustomData")->GetStaticField(0x13E20);
+			return (::OAKPPPHIOCN_ModuleCustomData*)UnitySDK::FromName("", "ModuleCustomData")->GetStaticField(0x13710);
 		}
 
 		static ::System::Void _cctor()

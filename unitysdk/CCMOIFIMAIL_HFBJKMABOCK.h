@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::Client::OpenWorld { class StreamingItemData; }
 
-inline static constexpr unsigned int CCMOIFIMAIL_HFBJKMABOCK_TypeDefinitionIndex = 73814;
+inline static constexpr unsigned int CCMOIFIMAIL_HFBJKMABOCK_TypeDefinitionIndex = 75940;
 
 	struct alignas(8) CCMOIFIMAIL_HFBJKMABOCK
 	{

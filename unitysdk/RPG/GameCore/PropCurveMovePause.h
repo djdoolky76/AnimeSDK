@@ -6,13 +6,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class PropCurveMovePause; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D946EE0)
-#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D946F20)
-#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D946E80)
+#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5FFD0)
+#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB60010)
+#define RPG_GAMECORE_PROPCURVEMOVEPAUSE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB5FF70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropCurveMovePause_TypeDefinitionIndex = 21009;
+	inline static constexpr unsigned int PropCurveMovePause_TypeDefinitionIndex = 21347;
 
 	class PropCurveMovePause : public ::RPG::GameCore::TaskConfig
 	{

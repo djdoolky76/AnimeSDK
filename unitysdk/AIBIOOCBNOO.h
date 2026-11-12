@@ -3,9 +3,9 @@
 #include "unitysdk/HNBBDOGAMJG.h"
 class ILPPBGLJABD;
 
-#define AIBIOOCBNOO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB940C0)
+#define AIBIOOCBNOO_CTOR_OFFSET UNITYSDK_OFFSET(0xF153CF0)
 
-inline static constexpr unsigned int AIBIOOCBNOO_TypeDefinitionIndex = 62308;
+inline static constexpr unsigned int AIBIOOCBNOO_TypeDefinitionIndex = 63721;
 
 	class AIBIOOCBNOO : public ::HNBBDOGAMJG
 	{

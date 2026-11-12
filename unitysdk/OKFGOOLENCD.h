@@ -6,11 +6,11 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define OKFGOOLENCD_COOGNCHJOMF_OFFSET UNITYSDK_OFFSET(0xBED7BF0)
-#define OKFGOOLENCD_OLHCIHEPAFD_OFFSET UNITYSDK_OFFSET(0xBED7CF0)
-#define OKFGOOLENCD_PACFMNIDLKH_OFFSET UNITYSDK_OFFSET(0xBED7E70)
+#define OKFGOOLENCD_COOGNCHJOMF_OFFSET UNITYSDK_OFFSET(0xC7CFD50)
+#define OKFGOOLENCD_OLHCIHEPAFD_OFFSET UNITYSDK_OFFSET(0xC7CFE50)
+#define OKFGOOLENCD_PACFMNIDLKH_OFFSET UNITYSDK_OFFSET(0xC7CFFD0)
 
-inline static constexpr unsigned int OKFGOOLENCD_TypeDefinitionIndex = 74861;
+inline static constexpr unsigned int OKFGOOLENCD_TypeDefinitionIndex = 77188;
 
 	class OKFGOOLENCD : public ::System::Object
 	{

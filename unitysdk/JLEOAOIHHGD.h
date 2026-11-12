@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class NotifyGameModeParamChange; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JLEOAOIHHGD_CTOR_OFFSET UNITYSDK_OFFSET(0xB23D770)
-#define JLEOAOIHHGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB23D7A0)
+#define JLEOAOIHHGD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA65EA0)
+#define JLEOAOIHHGD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA65ED0)
 
-inline static constexpr unsigned int JLEOAOIHHGD_TypeDefinitionIndex = 55237;
+inline static constexpr unsigned int JLEOAOIHHGD_TypeDefinitionIndex = 56418;
 
 	class JLEOAOIHHGD
 	{

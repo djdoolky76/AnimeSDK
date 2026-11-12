@@ -4,18 +4,18 @@
 class LFEFLIMJOGO;
 namespace System { class Object; }
 
-#define LFEFLIMJOGO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E93BBF0)
-#define LFEFLIMJOGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E93BC30)
-#define LFEFLIMJOGO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E93BC40)
+#define LFEFLIMJOGO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC5A550)
+#define LFEFLIMJOGO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC5A590)
+#define LFEFLIMJOGO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FC5A5A0)
 
-inline static constexpr unsigned int LFEFLIMJOGO___c_TypeDefinitionIndex = 29443;
+inline static constexpr unsigned int LFEFLIMJOGO___c_TypeDefinitionIndex = 30165;
 
 	class LFEFLIMJOGO___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3A9E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FF30);
 		}
 
 		static ::System::Void _cctor()

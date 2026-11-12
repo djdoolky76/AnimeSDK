@@ -4,18 +4,18 @@
 class APCDHOBPBHA;
 namespace System { class Object; }
 
-#define APCDHOBPBHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E672D80)
-#define APCDHOBPBHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E672DC0)
-#define APCDHOBPBHA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E672DD0)
+#define APCDHOBPBHA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9307E0)
+#define APCDHOBPBHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F930820)
+#define APCDHOBPBHA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F930830)
 
-inline static constexpr unsigned int APCDHOBPBHA___c_TypeDefinitionIndex = 25803;
+inline static constexpr unsigned int APCDHOBPBHA___c_TypeDefinitionIndex = 26300;
 
 	class APCDHOBPBHA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41D30);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46500);
 		}
 
 		static ::System::Void _cctor()

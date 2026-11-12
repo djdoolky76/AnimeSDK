@@ -7,12 +7,12 @@ namespace RPG::GameCore { class FiveDimEvilSmileStateConfig; }
 namespace RPG::GameCore { class FiveDimEvilSmileStateEventConfig; }
 namespace RPG::GameCore { class FloatCurve; }
 
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6BD540)
-#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6BD380)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8C9DA0)
+#define RPG_GAMECORE_FIVEDIMEVILSMILESTATECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8C9BE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimEvilSmileStateConfig_TypeDefinitionIndex = 16700;
+	inline static constexpr unsigned int FiveDimEvilSmileStateConfig_TypeDefinitionIndex = 16866;
 
 	class FiveDimEvilSmileStateConfig : public ::RPG::GameCore::JsonConfig
 	{

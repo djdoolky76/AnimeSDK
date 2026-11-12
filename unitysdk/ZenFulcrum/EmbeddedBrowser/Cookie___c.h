@@ -6,31 +6,31 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F656AC0)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F656B00)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__17_0_OFFSET UNITYSDK_OFFSET(0x1F656B10)
-#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F657240)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20906290)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x209062D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__17_0_OFFSET UNITYSDK_OFFSET(0x209062E0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_COOKIE___C__COPY_B__18_0_OFFSET UNITYSDK_OFFSET(0x20906A10)
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
-	inline static constexpr unsigned int Cookie___c_TypeDefinitionIndex = 39488;
+	inline static constexpr unsigned int Cookie___c_TypeDefinitionIndex = 40417;
 
 	class Cookie___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::DateTime, ::System::String*>** StaticGet___9__18_0()
-		{
-			return (::System::Func_2<::System::DateTime, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x51E80);
-		}
-
 		static ::System::Func_2<::System::String*, ::System::DateTime>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x51E88);
+			return (::System::Func_2<::System::String*, ::System::DateTime>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x479D0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x51E90);
+			return (::System::Object**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x479D8);
+		}
+
+		static ::System::Func_2<::System::DateTime, ::System::String*>** StaticGet___9__18_0()
+		{
+			return (::System::Func_2<::System::DateTime, ::System::String*>**)UnitySDK::FromName("ZenFulcrum.EmbeddedBrowser", "<>c")->GetStaticField(0x479E0);
 		}
 
 		static ::System::Void _cctor()

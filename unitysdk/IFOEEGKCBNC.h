@@ -4,10 +4,10 @@ class BACCOPOCMPC;
 namespace RPG::GameCore { class ST_ByInAIStatus; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IFOEEGKCBNC_CTOR_OFFSET UNITYSDK_OFFSET(0x15F30830)
-#define IFOEEGKCBNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15F308F0)
+#define IFOEEGKCBNC_CTOR_OFFSET UNITYSDK_OFFSET(0x16E9FC60)
+#define IFOEEGKCBNC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16E9FD20)
 
-inline static constexpr unsigned int IFOEEGKCBNC_TypeDefinitionIndex = 52198;
+inline static constexpr unsigned int IFOEEGKCBNC_TypeDefinitionIndex = 53303;
 
 	class IFOEEGKCBNC
 	{

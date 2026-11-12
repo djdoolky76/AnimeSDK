@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements::StyleSheets
 {
-	inline static constexpr unsigned int StyleSheetCache_SheetHandleKey_TypeDefinitionIndex = 6013;
+	inline static constexpr unsigned int StyleSheetCache_SheetHandleKey_TypeDefinitionIndex = 6021;
 
 	struct alignas(4) StyleSheetCache_SheetHandleKey
 	{

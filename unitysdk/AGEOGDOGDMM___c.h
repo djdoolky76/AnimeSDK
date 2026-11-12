@@ -4,18 +4,18 @@
 class AGEOGDOGDMM;
 namespace System { class Object; }
 
-#define AGEOGDOGDMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E12AD40)
-#define AGEOGDOGDMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E12AD70)
-#define AGEOGDOGDMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E12AD80)
+#define AGEOGDOGDMM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F3E9230)
+#define AGEOGDOGDMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3E9260)
+#define AGEOGDOGDMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F3E9270)
 
-inline static constexpr unsigned int AGEOGDOGDMM___c_TypeDefinitionIndex = 32913;
+inline static constexpr unsigned int AGEOGDOGDMM___c_TypeDefinitionIndex = 33828;
 
 	class AGEOGDOGDMM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x306D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C610);
 		}
 
 		static ::System::Void _cctor()

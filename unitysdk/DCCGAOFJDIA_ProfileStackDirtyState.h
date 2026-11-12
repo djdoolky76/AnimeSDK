@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int DCCGAOFJDIA_ProfileStackDirtyState_TypeDefinitionIndex = 49591;
+inline static constexpr unsigned int DCCGAOFJDIA_ProfileStackDirtyState_TypeDefinitionIndex = 50667;
 
 	enum class DCCGAOFJDIA_ProfileStackDirtyState : ::System::Int32
 	{

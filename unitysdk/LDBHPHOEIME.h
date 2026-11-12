@@ -5,22 +5,22 @@
 namespace UnityEngine { class Animation; }
 namespace UnityEngine::UI { class Image; }
 
-#define LDBHPHOEIME_AIAAJNDJLAA_OFFSET UNITYSDK_OFFSET(0xB61C330)
-#define LDBHPHOEIME_CTOR_OFFSET UNITYSDK_OFFSET(0xB61C720)
-#define LDBHPHOEIME_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB61C2F0)
-#define LDBHPHOEIME_HCIBIBHMHJH_OFFSET UNITYSDK_OFFSET(0xB61C450)
-#define LDBHPHOEIME_HFMEIIDNJOL_OFFSET UNITYSDK_OFFSET(0xB61C680)
-#define LDBHPHOEIME_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xB61C570)
-#define LDBHPHOEIME__ONBIND_OFFSET UNITYSDK_OFFSET(0xB61C260)
+#define LDBHPHOEIME_AIAAJNDJLAA_OFFSET UNITYSDK_OFFSET(0xBEB0C10)
+#define LDBHPHOEIME_CTOR_OFFSET UNITYSDK_OFFSET(0xBEB1000)
+#define LDBHPHOEIME_HCIBIBHMHJH_OFFSET UNITYSDK_OFFSET(0xBEB0D30)
+#define LDBHPHOEIME_HFMEIIDNJOL_OFFSET UNITYSDK_OFFSET(0xBEB0F60)
+#define LDBHPHOEIME_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xBEB0E50)
+#define LDBHPHOEIME__ONBIND_OFFSET UNITYSDK_OFFSET(0xBEB0A30)
+#define LDBHPHOEIME__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBEB0BD0)
 
-inline static constexpr unsigned int LDBHPHOEIME_TypeDefinitionIndex = 71387;
+inline static constexpr unsigned int LDBHPHOEIME_TypeDefinitionIndex = 73367;
 
 	class LDBHPHOEIME : public ::FMPCODLIOLG
 	{
 	public:
-		::UnityEngine::UI::Image* IMBIAJFLJNB; // 0x60
-		::UnityEngine::Animation* JPHOOFFIAAH; // 0x68
-		::UnityEngine::UI::Image* NNPNDDIAGKJ; // 0x70
+		::UnityEngine::UI::Image* NNPNDDIAGKJ; // 0x60
+		::UnityEngine::UI::Image* IMBIAJFLJNB; // 0x68
+		::UnityEngine::Animation* JPHOOFFIAAH; // 0x70
 		// static const ::System::String* DALEEBHJNKD; // 0x0
 		// static const ::System::String* GEJMBLLCMFN; // 0x0
 		// static const ::System::String* AHGEGMMHOCA; // 0x0
@@ -34,9 +34,9 @@ inline static constexpr unsigned int LDBHPHOEIME_TypeDefinitionIndex = 71387;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDBHPHOEIME__ONBIND_OFFSET))(this);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDBHPHOEIME_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LDBHPHOEIME__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void AIAAJNDJLAA(::UnityEngine::Color a1)

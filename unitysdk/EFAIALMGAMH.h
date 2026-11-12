@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define EFAIALMGAMH_CTOR_OFFSET UNITYSDK_OFFSET(0x13A42D70)
+#define EFAIALMGAMH_CTOR_OFFSET UNITYSDK_OFFSET(0x148036F0)
 
-inline static constexpr unsigned int EFAIALMGAMH_TypeDefinitionIndex = 81284;
+inline static constexpr unsigned int EFAIALMGAMH_TypeDefinitionIndex = 84064;
 
 	class EFAIALMGAMH : public ::System::Object
 	{

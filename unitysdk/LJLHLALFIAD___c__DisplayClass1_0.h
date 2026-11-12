@@ -4,10 +4,10 @@
 namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
-#define LJLHLALFIAD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB71F050)
-#define LJLHLALFIAD___C__DISPLAYCLASS1_0__CREATEMARKSKIPLAYOUTCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xB720B00)
+#define LJLHLALFIAD___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBBD70)
+#define LJLHLALFIAD___C__DISPLAYCLASS1_0__CREATEMARKSKIPLAYOUTCOMMAND_B__0_OFFSET UNITYSDK_OFFSET(0xBFBD820)
 
-inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass1_0_TypeDefinitionIndex = 80841;
+inline static constexpr unsigned int LJLHLALFIAD___c__DisplayClass1_0_TypeDefinitionIndex = 83621;
 
 	class LJLHLALFIAD___c__DisplayClass1_0 : public ::System::Object
 	{

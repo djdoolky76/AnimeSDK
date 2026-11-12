@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ChangeIncomingActionCountDown; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FDDMGKHJIGC_CTOR_OFFSET UNITYSDK_OFFSET(0x156D4C40)
-#define FDDMGKHJIGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156D4C70)
+#define FDDMGKHJIGC_CTOR_OFFSET UNITYSDK_OFFSET(0x165EE670)
+#define FDDMGKHJIGC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165EE6A0)
 
-inline static constexpr unsigned int FDDMGKHJIGC_TypeDefinitionIndex = 54798;
+inline static constexpr unsigned int FDDMGKHJIGC_TypeDefinitionIndex = 55967;
 
 	class FDDMGKHJIGC
 	{

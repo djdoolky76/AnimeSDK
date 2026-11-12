@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define AKUTILITIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1F61A1C0)
-#define AKUTILITIES_FIXSLASHES_1_OFFSET UNITYSDK_OFFSET(0x1F619FC0)
-#define AKUTILITIES_FIXSLASHES_OFFSET UNITYSDK_OFFSET(0x1F619C00)
+#define AKUTILITIES_CTOR_OFFSET UNITYSDK_OFFSET(0x208C9AF0)
+#define AKUTILITIES_FIXSLASHES_1_OFFSET UNITYSDK_OFFSET(0x208C98F0)
+#define AKUTILITIES_FIXSLASHES_OFFSET UNITYSDK_OFFSET(0x208C9530)
 
-inline static constexpr unsigned int AkUtilities_TypeDefinitionIndex = 44852;
+inline static constexpr unsigned int AkUtilities_TypeDefinitionIndex = 45927;
 
 	class AkUtilities : public ::System::Object
 	{

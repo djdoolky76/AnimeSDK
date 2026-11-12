@@ -4,11 +4,11 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define MIHOYO_SDK_WATERMARKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C01D830)
+#define MIHOYO_SDK_WATERMARKINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1A4830)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int WatermarkInfo_TypeDefinitionIndex = 7895;
+	inline static constexpr unsigned int WatermarkInfo_TypeDefinitionIndex = 7904;
 
 	class WatermarkInfo : public ::System::Object
 	{

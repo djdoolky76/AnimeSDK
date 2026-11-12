@@ -4,18 +4,18 @@
 class DPDILLMEAKN;
 namespace System { class Object; }
 
-#define DPDILLMEAKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E20C300)
-#define DPDILLMEAKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E20C340)
-#define DPDILLMEAKN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E20C350)
+#define DPDILLMEAKN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F4EB500)
+#define DPDILLMEAKN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4EB540)
+#define DPDILLMEAKN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F4EB550)
 
-inline static constexpr unsigned int DPDILLMEAKN___c_TypeDefinitionIndex = 31924;
+inline static constexpr unsigned int DPDILLMEAKN___c_TypeDefinitionIndex = 32837;
 
 	class DPDILLMEAKN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x44A80);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x40310);
 		}
 
 		static ::System::Void _cctor()

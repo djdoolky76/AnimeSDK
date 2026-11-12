@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class CompleteMove; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define HHFCDOBKLAO_CTOR_OFFSET UNITYSDK_OFFSET(0x15CCA400)
-#define HHFCDOBKLAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CCA430)
+#define HHFCDOBKLAO_CTOR_OFFSET UNITYSDK_OFFSET(0x16C17DC0)
+#define HHFCDOBKLAO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16C17DF0)
 
-inline static constexpr unsigned int HHFCDOBKLAO_TypeDefinitionIndex = 54972;
+inline static constexpr unsigned int HHFCDOBKLAO_TypeDefinitionIndex = 56146;
 
 	class HHFCDOBKLAO
 	{

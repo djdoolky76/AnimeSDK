@@ -4,10 +4,10 @@
 class IAJGGEMFOMB;
 class MCKHEFFODHO;
 
-#define MCKHEFFODHO___C__DISPLAYCLASS149_1_CTOR_OFFSET UNITYSDK_OFFSET(0xB885A70)
-#define MCKHEFFODHO___C__DISPLAYCLASS149_1__INIT_B__1_OFFSET UNITYSDK_OFFSET(0xB8866D0)
+#define MCKHEFFODHO___C__DISPLAYCLASS149_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC132730)
+#define MCKHEFFODHO___C__DISPLAYCLASS149_1__INIT_B__1_OFFSET UNITYSDK_OFFSET(0xC132740)
 
-inline static constexpr unsigned int MCKHEFFODHO___c__DisplayClass149_1_TypeDefinitionIndex = 79504;
+inline static constexpr unsigned int MCKHEFFODHO___c__DisplayClass149_1_TypeDefinitionIndex = 82281;
 
 	template <typename T>
 	class MCKHEFFODHO___c__DisplayClass149_1 : public ::System::Object

@@ -3,11 +3,11 @@
 #include "unitysdk/Entitas/EntitasException.h"
 namespace System { class String; }
 
-#define ENTITAS_ENTITYALREADYHASCOMPONENTEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1675AFE0)
+#define ENTITAS_ENTITYALREADYHASCOMPONENTEXCEPTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1759F210)
 
 namespace Entitas
 {
-	inline static constexpr unsigned int EntityAlreadyHasComponentException_TypeDefinitionIndex = 10006;
+	inline static constexpr unsigned int EntityAlreadyHasComponentException_TypeDefinitionIndex = 10014;
 
 	class EntityAlreadyHasComponentException : public ::Entitas::EntitasException
 	{

@@ -3,19 +3,19 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C3B3D30)
-#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C3B3D70)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D53A5E0)
+#define NEWTONSOFT_JSON_LINQ_EXTENSIONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D53A620)
 
 namespace Newtonsoft::Json::Linq
 {
-	inline static constexpr unsigned int Extensions___c_TypeDefinitionIndex = 9766;
+	inline static constexpr unsigned int Extensions___c_TypeDefinitionIndex = 9774;
 
 	class Extensions___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Linq", "<>c")->GetStaticField(0x2DF00);
+			return (::System::Object**)UnitySDK::FromName("Newtonsoft.Json.Linq", "<>c")->GetStaticField(0x2BAA0);
 		}
 
 		static ::System::Void _cctor()

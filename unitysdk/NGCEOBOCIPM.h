@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByIsTurnOwnerEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NGCEOBOCIPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA2220)
-#define NGCEOBOCIPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBA2250)
+#define NGCEOBOCIPM_CTOR_OFFSET UNITYSDK_OFFSET(0xC47DB50)
+#define NGCEOBOCIPM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC47DB80)
 
-inline static constexpr unsigned int NGCEOBOCIPM_TypeDefinitionIndex = 54699;
+inline static constexpr unsigned int NGCEOBOCIPM_TypeDefinitionIndex = 55865;
 
 	class NGCEOBOCIPM
 	{

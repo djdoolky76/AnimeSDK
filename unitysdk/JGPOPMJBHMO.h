@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByIsBattleSkillType; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JGPOPMJBHMO_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A7D70)
-#define JGPOPMJBHMO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1A7DA0)
+#define JGPOPMJBHMO_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C7760)
+#define JGPOPMJBHMO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB9C7790)
 
-inline static constexpr unsigned int JGPOPMJBHMO_TypeDefinitionIndex = 54464;
+inline static constexpr unsigned int JGPOPMJBHMO_TypeDefinitionIndex = 55628;
 
 	class JGPOPMJBHMO
 	{

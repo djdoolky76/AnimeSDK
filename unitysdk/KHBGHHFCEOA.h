@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
 
-#define KHBGHHFCEOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FC850)
+#define KHBGHHFCEOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC8FF20)
 
-inline static constexpr unsigned int KHBGHHFCEOA_TypeDefinitionIndex = 48184;
+inline static constexpr unsigned int KHBGHHFCEOA_TypeDefinitionIndex = 49215;
 
 	class KHBGHHFCEOA : public ::UnityEngine::Playables::PlayableBehaviour
 	{

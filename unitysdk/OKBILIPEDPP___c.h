@@ -4,18 +4,18 @@
 class OKBILIPEDPP;
 namespace System { class Object; }
 
-#define OKBILIPEDPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE8F3E0)
-#define OKBILIPEDPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8F420)
-#define OKBILIPEDPP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE8F430)
+#define OKBILIPEDPP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F137620)
+#define OKBILIPEDPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F137660)
+#define OKBILIPEDPP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F137670)
 
-inline static constexpr unsigned int OKBILIPEDPP___c_TypeDefinitionIndex = 28160;
+inline static constexpr unsigned int OKBILIPEDPP___c_TypeDefinitionIndex = 28750;
 
 	class OKBILIPEDPP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x208D0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C330);
 		}
 
 		static ::System::Void _cctor()

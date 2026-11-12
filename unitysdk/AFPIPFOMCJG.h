@@ -6,11 +6,11 @@ class JLPEICPFLMC;
 namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 namespace RPG::Client::ChenLingBattle { class DynamicProgressEffect; }
 
-#define AFPIPFOMCJG_CTOR_OFFSET UNITYSDK_OFFSET(0xCF23A40)
-#define AFPIPFOMCJG_GKMPNELOMAP_OFFSET UNITYSDK_OFFSET(0xCF233C0)
-#define AFPIPFOMCJG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xCF22F90)
+#define AFPIPFOMCJG_CTOR_OFFSET UNITYSDK_OFFSET(0xD5D9860)
+#define AFPIPFOMCJG_GKMPNELOMAP_OFFSET UNITYSDK_OFFSET(0xD5D91E0)
+#define AFPIPFOMCJG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xD5D8DB0)
 
-inline static constexpr unsigned int AFPIPFOMCJG_TypeDefinitionIndex = 76275;
+inline static constexpr unsigned int AFPIPFOMCJG_TypeDefinitionIndex = 78606;
 
 	class AFPIPFOMCJG : public ::MLKDDLHNNHH
 	{

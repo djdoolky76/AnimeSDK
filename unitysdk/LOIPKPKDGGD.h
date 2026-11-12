@@ -8,30 +8,30 @@ namespace RPG::GameCore { class ShowBattleScreenEffect; }
 namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define LOIPKPKDGGD_AMFBKGEOBND_OFFSET UNITYSDK_OFFSET(0xB805EC0)
-#define LOIPKPKDGGD_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xB805F80)
-#define LOIPKPKDGGD_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xB806050)
-#define LOIPKPKDGGD_CFGNMLEGOOL_OFFSET UNITYSDK_OFFSET(0xB805A50)
-#define LOIPKPKDGGD_CTOR_OFFSET UNITYSDK_OFFSET(0xB8060F0)
-#define LOIPKPKDGGD_KPJKOMEMJAB_OFFSET UNITYSDK_OFFSET(0xB805C70)
-#define LOIPKPKDGGD_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB805930)
-#define LOIPKPKDGGD_NOAALDOOBLN_OFFSET UNITYSDK_OFFSET(0xB805D20)
+#define LOIPKPKDGGD_AMFBKGEOBND_OFFSET UNITYSDK_OFFSET(0xC067010)
+#define LOIPKPKDGGD_AUTOBINDCALLBACK_OFFSET UNITYSDK_OFFSET(0xC0670D0)
+#define LOIPKPKDGGD_AUTOREMOVECALLBACK_OFFSET UNITYSDK_OFFSET(0xC0671A0)
+#define LOIPKPKDGGD_CFGNMLEGOOL_OFFSET UNITYSDK_OFFSET(0xC066BD0)
+#define LOIPKPKDGGD_CTOR_OFFSET UNITYSDK_OFFSET(0xC067240)
+#define LOIPKPKDGGD_KPJKOMEMJAB_OFFSET UNITYSDK_OFFSET(0xC066D60)
+#define LOIPKPKDGGD_NOAALDOOBLN_OFFSET UNITYSDK_OFFSET(0xC066E40)
+#define LOIPKPKDGGD__INITVARONCE_OFFSET UNITYSDK_OFFSET(0xC066AB0)
 
-inline static constexpr unsigned int LOIPKPKDGGD_TypeDefinitionIndex = 71854;
+inline static constexpr unsigned int LOIPKPKDGGD_TypeDefinitionIndex = 73875;
 
 	class LOIPKPKDGGD : public ::FMPCODLIOLG
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleScreenEffectType, ::HJJEHFCMFIP*>* KCNIOEPMBEJ; // 0x60
-		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x68
+		::RPG::GameCore::BattleInstance* IFKCCHIFMOC; // 0x60
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::BattleScreenEffectType, ::HJJEHFCMFIP*>* KCNIOEPMBEJ; // 0x68
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOIPKPKDGGD_CTOR_OFFSET))(this);
 		}
 
-		::System::Void NIJJPBOIGBI()
+		::System::Void _InitVarOnce()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOIPKPKDGGD_NIJJPBOIGBI_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LOIPKPKDGGD__INITVARONCE_OFFSET))(this);
 		}
 
 		::System::Void CFGNMLEGOOL(::RPG::GameCore::ShowBattleScreenEffect* a1)

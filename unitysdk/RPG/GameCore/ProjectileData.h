@@ -11,12 +11,12 @@ namespace RPG::GameCore { class ProjectileBezierControlPoint; }
 namespace RPG::GameCore { class ProjectileData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROJECTILEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9445A0)
-#define RPG_GAMECORE_PROJECTILEDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D943020)
+#define RPG_GAMECORE_PROJECTILEDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB5D3E0)
+#define RPG_GAMECORE_PROJECTILEDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB5C1A0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ProjectileData_TypeDefinitionIndex = 15655;
+	inline static constexpr unsigned int ProjectileData_TypeDefinitionIndex = 15813;
 
 	class ProjectileData : public ::RPG::GameCore::JsonConfig
 	{

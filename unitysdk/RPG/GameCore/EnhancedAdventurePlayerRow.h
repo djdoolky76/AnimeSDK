@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class EnhancedAdventurePlayerRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D642FC0)
-#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D642E20)
+#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8808D0)
+#define RPG_GAMECORE_ENHANCEDADVENTUREPLAYERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E880730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int EnhancedAdventurePlayerRow_TypeDefinitionIndex = 12587;
+	inline static constexpr unsigned int EnhancedAdventurePlayerRow_TypeDefinitionIndex = 12654;
 
 	class EnhancedAdventurePlayerRow : public ::System::Object
 	{

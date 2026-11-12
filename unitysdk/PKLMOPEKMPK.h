@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class HideEntityV2; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PKLMOPEKMPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E5B00)
-#define PKLMOPEKMPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2E5B30)
+#define PKLMOPEKMPK_CTOR_OFFSET UNITYSDK_OFFSET(0xCC14870)
+#define PKLMOPEKMPK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCC148A0)
 
-inline static constexpr unsigned int PKLMOPEKMPK_TypeDefinitionIndex = 55097;
+inline static constexpr unsigned int PKLMOPEKMPK_TypeDefinitionIndex = 56274;
 
 	class PKLMOPEKMPK
 	{

@@ -5,19 +5,19 @@ namespace RPG::GameCore { class ActiveTrackCamera; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define NNCKPOAFPJL_ADCMNCCCGPM_OFFSET UNITYSDK_OFFSET(0xBC9F2B0)
-#define NNCKPOAFPJL_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9ED50)
-#define NNCKPOAFPJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC9ED80)
-#define NNCKPOAFPJL_JMCNOJFBBEB_OFFSET UNITYSDK_OFFSET(0xBC9FBA0)
-#define NNCKPOAFPJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC9EF40)
+#define NNCKPOAFPJL_ADCMNCCCGPM_OFFSET UNITYSDK_OFFSET(0xC587D50)
+#define NNCKPOAFPJL_CTOR_OFFSET UNITYSDK_OFFSET(0xC587830)
+#define NNCKPOAFPJL_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC587860)
+#define NNCKPOAFPJL_JMCNOJFBBEB_OFFSET UNITYSDK_OFFSET(0xC588650)
+#define NNCKPOAFPJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC587A00)
 
-inline static constexpr unsigned int NNCKPOAFPJL_TypeDefinitionIndex = 57852;
+inline static constexpr unsigned int NNCKPOAFPJL_TypeDefinitionIndex = 59089;
 
 	class NNCKPOAFPJL
 	{
 	public:
-		::System::String* CENMHIGCEDG; // 0x28
-		::System::String* MLHHKCCAOJK; // 0x30
+		::System::String* MLHHKCCAOJK; // 0x28
+		::System::String* CENMHIGCEDG; // 0x30
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::ActiveTrackCamera* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::ActiveTrackCamera*))((::PBYTE)hIl2Cpp + NNCKPOAFPJL_CTOR_OFFSET))(this, a1, a2);

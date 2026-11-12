@@ -6,29 +6,29 @@ class IFBFJDCECML;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define JJAKFICJBBF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C6FC170)
-#define JJAKFICJBBF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6FC1B0)
-#define JJAKFICJBBF___C__COMPUTENOWFIGHTCATRANKSWITHENTITY_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C6FC1C0)
-#define JJAKFICJBBF___C__COMPUTENOWFIGHTCATRANKSWITHENTITY_B__8_1_OFFSET UNITYSDK_OFFSET(0x1C6FC1D0)
+#define JJAKFICJBBF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D87DC00)
+#define JJAKFICJBBF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87DC40)
+#define JJAKFICJBBF___C__COMPUTENOWFIGHTCATRANKSWITHENTITY_B__8_0_OFFSET UNITYSDK_OFFSET(0x1D87DC50)
+#define JJAKFICJBBF___C__COMPUTENOWFIGHTCATRANKSWITHENTITY_B__8_1_OFFSET UNITYSDK_OFFSET(0x1D87DC60)
 
-inline static constexpr unsigned int JJAKFICJBBF___c_TypeDefinitionIndex = 37280;
+inline static constexpr unsigned int JJAKFICJBBF___c_TypeDefinitionIndex = 38208;
 
 	class JJAKFICJBBF___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x110F0);
-		}
-
 		static ::System::Func_2<::System::ValueTuple_2<::System::Single, ::IFBFJDCECML*>, ::System::Single>** StaticGet___9__8_0()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Single, ::IFBFJDCECML*>, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x110F8);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Single, ::IFBFJDCECML*>, ::System::Single>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71100);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71108);
 		}
 
 		static ::System::Func_2<::System::ValueTuple_2<::System::Single, ::IFBFJDCECML*>, ::IFBFJDCECML*>** StaticGet___9__8_1()
 		{
-			return (::System::Func_2<::System::ValueTuple_2<::System::Single, ::IFBFJDCECML*>, ::IFBFJDCECML*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11100);
+			return (::System::Func_2<::System::ValueTuple_2<::System::Single, ::IFBFJDCECML*>, ::IFBFJDCECML*>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x71110);
 		}
 
 		static ::System::Void _cctor()

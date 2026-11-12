@@ -4,10 +4,10 @@
 #include "unitysdk/NOJEJFMMCEG.h"
 class FPNHGPEICOG;
 
-#define CDLHPKIKJJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC76D5C0)
-#define CDLHPKIKJJG_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xC76D1B0)
+#define CDLHPKIKJJG_CTOR_OFFSET UNITYSDK_OFFSET(0xD0D7AA0)
+#define CDLHPKIKJJG_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xD0D7690)
 
-inline static constexpr unsigned int CDLHPKIKJJG_TypeDefinitionIndex = 53685;
+inline static constexpr unsigned int CDLHPKIKJJG_TypeDefinitionIndex = 54849;
 
 	class CDLHPKIKJJG : public ::System::Object
 	{

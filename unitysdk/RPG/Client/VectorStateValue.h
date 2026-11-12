@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/Client/StateValueEntry.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
-#define RPG_CLIENT_VECTORSTATEVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xE43F500)
+#define RPG_CLIENT_VECTORSTATEVALUE_CTOR_OFFSET UNITYSDK_OFFSET(0xEEFBBB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int VectorStateValue_TypeDefinitionIndex = 71011;
+	inline static constexpr unsigned int VectorStateValue_TypeDefinitionIndex = 72990;
 
 	class VectorStateValue : public ::RPG::Client::StateValueEntry
 	{

@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JEHMCCGIOKG_TypeDefinitionIndex = 29118;
+inline static constexpr unsigned int JEHMCCGIOKG_TypeDefinitionIndex = 29713;
 
 	enum class JEHMCCGIOKG : ::System::Int32
 	{

@@ -10,60 +10,60 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 namespace System { template <typename T1, typename T2, typename T3> class Tuple_3; }
 namespace UnityEngine { class Transform; }
 
-#define MGOKKPMFACL_AHGLOBMOBCP_OFFSET UNITYSDK_OFFSET(0xB92A8A0)
-#define MGOKKPMFACL_CJNDHGJBMHI_OFFSET UNITYSDK_OFFSET(0xB92A540)
-#define MGOKKPMFACL_EDAMFBHFEGE_OFFSET UNITYSDK_OFFSET(0xB92AAE0)
-#define MGOKKPMFACL_FGGPBOJDFOE_OFFSET UNITYSDK_OFFSET(0xB92B070)
-#define MGOKKPMFACL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB92A7D0)
-#define MGOKKPMFACL_JCLNBGMJGPB_OFFSET UNITYSDK_OFFSET(0xB92A980)
-#define MGOKKPMFACL_JKAOGFNAIMP_OFFSET UNITYSDK_OFFSET(0xB92AAA0)
-#define MGOKKPMFACL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB92A700)
-#define MGOKKPMFACL_LJFIHGFIODI_OFFSET UNITYSDK_OFFSET(0xB92ABE0)
-#define MGOKKPMFACL_OPGGOMKJIOM_OFFSET UNITYSDK_OFFSET(0xB92A820)
+#define MGOKKPMFACL_AHGLOBMOBCP_OFFSET UNITYSDK_OFFSET(0xC1DE1A0)
+#define MGOKKPMFACL_CJNDHGJBMHI_OFFSET UNITYSDK_OFFSET(0xC1DDDA0)
+#define MGOKKPMFACL_EDAMFBHFEGE_OFFSET UNITYSDK_OFFSET(0xC1DE3E0)
+#define MGOKKPMFACL_FGGPBOJDFOE_OFFSET UNITYSDK_OFFSET(0xC1DE970)
+#define MGOKKPMFACL_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xC1DE0D0)
+#define MGOKKPMFACL_JCLNBGMJGPB_OFFSET UNITYSDK_OFFSET(0xC1DE280)
+#define MGOKKPMFACL_JKAOGFNAIMP_OFFSET UNITYSDK_OFFSET(0xC1DE3A0)
+#define MGOKKPMFACL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC1DE000)
+#define MGOKKPMFACL_LJFIHGFIODI_OFFSET UNITYSDK_OFFSET(0xC1DE4E0)
+#define MGOKKPMFACL_OPGGOMKJIOM_OFFSET UNITYSDK_OFFSET(0xC1DE120)
 
-inline static constexpr unsigned int MGOKKPMFACL_TypeDefinitionIndex = 74116;
+inline static constexpr unsigned int MGOKKPMFACL_TypeDefinitionIndex = 76264;
 
 	class MGOKKPMFACL : public ::System::Object
 	{
 	public:
 		static ::KHOJFFEPLEO** StaticGet_NPMFLJPODJF()
 		{
-			return (::KHOJFFEPLEO**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x117B0);
+			return (::KHOJFFEPLEO**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x10F20);
 		}
 
 		static ::UnityEngine::Transform** StaticGet_HFHEHFBMIIK()
 		{
-			return (::UnityEngine::Transform**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x117B8);
+			return (::UnityEngine::Transform**)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x10F28);
 		}
 
 		static ::System::Int32* StaticGet_MLMMJMGLLML()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3A40);
-		}
-
-		static ::System::Single* StaticGet_FCEBGJJBDJF()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3A44);
-		}
-
-		static ::System::Single* StaticGet_ONFEMIIEBAP()
-		{
-			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3A48);
+			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x37D0);
 		}
 
 		static ::System::Single* StaticGet_MKJFANJHICG()
 		{
-			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3A4C);
+			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x37D4);
+		}
+
+		static ::System::Single* StaticGet_ONFEMIIEBAP()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x37D8);
 		}
 
 		static ::System::Int32* StaticGet_ONDEDGKEEOK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3A50);
+			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x37DC);
+		}
+
+		static ::System::Single* StaticGet_FCEBGJJBDJF()
+		{
+			return (::System::Single*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x37E0);
 		}
 
 		static ::System::Int32* StaticGet_LKKOLFBJDGC()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x3A54);
+			return (::System::Int32*)UnitySDK::FromName("", "MGOKKPMFACL")->GetStaticField(0x37E4);
 		}
 
 		static ::System::Tuple_3<::System::Int32, ::System::Int32, ::System::Int32>* CJNDHGJBMHI(::UnityEngine::Vector3 a1)

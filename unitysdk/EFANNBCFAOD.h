@@ -4,15 +4,15 @@
 class ECBCBEIADBI;
 namespace System { class String; }
 
-#define EFANNBCFAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x13A47110)
+#define EFANNBCFAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x14807AE0)
 
-inline static constexpr unsigned int EFANNBCFAOD_TypeDefinitionIndex = 71241;
+inline static constexpr unsigned int EFANNBCFAOD_TypeDefinitionIndex = 73218;
 
 	class EFANNBCFAOD : public ::System::Object
 	{
 	public:
-		::Il2CppArray<::ECBCBEIADBI*>* MOJOOLJFAIG; // 0x10
-		::System::String* CDEEHGCEOKN; // 0x18
+		::System::String* CDEEHGCEOKN; // 0x10
+		::Il2CppArray<::ECBCBEIADBI*>* MOJOOLJFAIG; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EFANNBCFAOD_CTOR_OFFSET))(this);

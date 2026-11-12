@@ -5,20 +5,20 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define FPJJAGKMJHG_CTOR_OFFSET UNITYSDK_OFFSET(0x1591D7A0)
-#define FPJJAGKMJHG_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0x1591D710)
-#define FPJJAGKMJHG_FPMOHGAEKBD_OFFSET UNITYSDK_OFFSET(0x1591D6D0)
-#define FPJJAGKMJHG_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1591D760)
-#define FPJJAGKMJHG_TRIGGER_OFFSET UNITYSDK_OFFSET(0x1591D630)
+#define FPJJAGKMJHG_CTOR_OFFSET UNITYSDK_OFFSET(0x16850C20)
+#define FPJJAGKMJHG_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0x16850B90)
+#define FPJJAGKMJHG_FPMOHGAEKBD_OFFSET UNITYSDK_OFFSET(0x16850B50)
+#define FPJJAGKMJHG_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x16850BE0)
+#define FPJJAGKMJHG_TRIGGER_OFFSET UNITYSDK_OFFSET(0x16850AB0)
 
-inline static constexpr unsigned int FPJJAGKMJHG_TypeDefinitionIndex = 66229;
+inline static constexpr unsigned int FPJJAGKMJHG_TypeDefinitionIndex = 68165;
 
 	class FPJJAGKMJHG : public ::System::Object
 	{
 	public:
-		::RPG::Client::MonopolyEffectTriggerWayType KJELCKIDLOE; // 0x10
-		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x14
-		::System::UInt32 AIKAPJELHNK; // 0x18
+		::System::UInt32 AIKAPJELHNK; // 0x10
+		::RPG::Client::MonopolyEffectTriggerWayType KJELCKIDLOE; // 0x14
+		::RPG::Client::MonopolyEffectShowType GDEIGEOELDJ; // 0x18
 		::System::Void _ctor(::Proto::MonopolyActionResult* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::Proto::MonopolyActionResult*))((::PBYTE)hIl2Cpp + FPJJAGKMJHG_CTOR_OFFSET))(this, a1);

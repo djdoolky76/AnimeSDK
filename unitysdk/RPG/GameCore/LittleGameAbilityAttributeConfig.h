@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 namespace RPG::GameCore { class LittleGameAbilityAttributeConfig; }
 
-#define RPG_GAMECORE_LITTLEGAMEABILITYATTRIBUTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7D64F0)
-#define RPG_GAMECORE_LITTLEGAMEABILITYATTRIBUTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7D63D0)
+#define RPG_GAMECORE_LITTLEGAMEABILITYATTRIBUTECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA17B10)
+#define RPG_GAMECORE_LITTLEGAMEABILITYATTRIBUTECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA179F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAbilityAttributeConfig_TypeDefinitionIndex = 21335;
+	inline static constexpr unsigned int LittleGameAbilityAttributeConfig_TypeDefinitionIndex = 21678;
 
 	class LittleGameAbilityAttributeConfig : public ::RPG::GameCore::JsonConfig
 	{

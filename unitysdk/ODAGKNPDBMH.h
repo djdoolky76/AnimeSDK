@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/CMIMHAHPAOC.h"
 
-inline static constexpr unsigned int ODAGKNPDBMH_TypeDefinitionIndex = 56325;
+inline static constexpr unsigned int ODAGKNPDBMH_TypeDefinitionIndex = 57539;
 
 	struct alignas(8) ODAGKNPDBMH
 	{

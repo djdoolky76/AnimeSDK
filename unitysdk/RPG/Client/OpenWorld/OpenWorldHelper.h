@@ -41,636 +41,643 @@ namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class TextAsset; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADDTAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xDA08810)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORMINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0xDA05D20)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xDA03130)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xDA04C50)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xDA04F90)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xDA055D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_5_OFFSET UNITYSDK_OFFSET(0xDA056D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_6_OFFSET UNITYSDK_OFFSET(0xDA05970)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_7_OFFSET UNITYSDK_OFFSET(0xDA05C40)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA03030)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSCONTAIN_OFFSET UNITYSDK_OFFSET(0xDA01570)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSPROJECTTOXZPLANE_OFFSET UNITYSDK_OFFSET(0xDA012D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xDA08930)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xDA0A740)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CHECKSTREAMINGRECTSIMILAR_OFFSET UNITYSDK_OFFSET(0xD9FF830)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CLOSEIRIHIZTEST_OFFSET UNITYSDK_OFFSET(0xDA0A660)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_COPYANIMATOR_OFFSET UNITYSDK_OFFSET(0xDA02770)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CREATERECTBYCENTERANDSIZE_OFFSET UNITYSDK_OFFSET(0xDA01220)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xDA0A730)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0xDA06830)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GAMEOBJECTHIERARCHYPATH_OFFSET UNITYSDK_OFFSET(0xDA063E0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETCELLFILTER_OFFSET UNITYSDK_OFFSET(0xDA0A0C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET UNITYSDK_OFFSET(0xDA0A1D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHTEXTASSET_OFFSET UNITYSDK_OFFSET(0xDA0A2C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETLODLEVELBYDISTANCE_OFFSET UNITYSDK_OFFSET(0xDA086B0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETMINLODLEVEL_OFFSET UNITYSDK_OFFSET(0xDA08480)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xDA06220)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xDA036C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xDA03D40)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xDA043C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xDA04590)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_OFFSET UNITYSDK_OFFSET(0xDA035C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEDIR_OFFSET UNITYSDK_OFFSET(0xDA06010)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xDA061B0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETVECTOR3S_OFFSET UNITYSDK_OFFSET(0xD9FF740)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ASYNCLOADPERSISTENTASSET_OFFSET UNITYSDK_OFFSET(0xDA0A4D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xDA0A4E0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xDA0A470)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODCONFIG_OFFSET UNITYSDK_OFFSET(0xDA0A530)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xDA09F50)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_GROUPLODCONFIG_OFFSET UNITYSDK_OFFSET(0xDA0A5A0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_QUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xDA09950)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xDA0A6D0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A320)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGLAYERSETTING_OFFSET UNITYSDK_OFFSET(0xDA011A0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A3F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCROOMCACHE_OFFSET UNITYSDK_OFFSET(0xDA079E0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCSPROOMCACHE_OFFSET UNITYSDK_OFFSET(0xDA07970)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GIZMODRAWRECT_OFFSET UNITYSDK_OFFSET(0xDA016C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORMANDCANFORCECHOOSEPLATFORM_OFFSET UNITYSDK_OFFSET(0xDA0A000)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORM_OFFSET UNITYSDK_OFFSET(0xDA09FB0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISCOLLIDERGO_OFFSET UNITYSDK_OFFSET(0xDA09500)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_1_OFFSET UNITYSDK_OFFSET(0xD9FFC40)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_2_OFFSET UNITYSDK_OFFSET(0xDA007E0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_OFFSET UNITYSDK_OFFSET(0xD9FF910)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_OPENHIZTEST_OFFSET UNITYSDK_OFFSET(0xDA0A610)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_PROJECTPOINT_OFFSET UNITYSDK_OFFSET(0xDA066C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTCONTAIN_OFFSET UNITYSDK_OFFSET(0xDA01370)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTOVERLAY_OFFSET UNITYSDK_OFFSET(0xDA01440)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REMOVETAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xDA02310)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REPLACELODCONFIGLAYER_OFFSET UNITYSDK_OFFSET(0xDA07860)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RETURNVECTOR3S_OFFSET UNITYSDK_OFFSET(0xD9FF7C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RUNTIMECALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xDA08A50)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_1_OFFSET UNITYSDK_OFFSET(0xDA097B0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_OFFSET UNITYSDK_OFFSET(0xDA09670)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xDA068B0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETSTREAMINGGRASSFASTMODE_OFFSET UNITYSDK_OFFSET(0xDA098F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_1_OFFSET UNITYSDK_OFFSET(0xDA07AF0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_OFFSET UNITYSDK_OFFSET(0xDA079F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xDA0A4F0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xDA0A4C0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xDA0A720)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A330)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xDA0A460)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SHRINKOPENWORLDIRIBYTEARRAYCACHE_OFFSET UNITYSDK_OFFSET(0xDA0A150)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_STREAMINGDESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0xDA01880)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TRANSFORMMESHBOUND_OFFSET UNITYSDK_OFFSET(0xDA02DF0)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TREEDEPTHTOCOLOR_OFFSET UNITYSDK_OFFSET(0xDA01640)
-#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_UPDATEGRAPHICQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xDA099A0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADDTAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xE49F1B0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORMINWORLDSPACE_OFFSET UNITYSDK_OFFSET(0xE49C6C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xE499AD0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xE49B5F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xE49B930)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xE49BF70)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_5_OFFSET UNITYSDK_OFFSET(0xE49C070)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_6_OFFSET UNITYSDK_OFFSET(0xE49C310)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_7_OFFSET UNITYSDK_OFFSET(0xE49C5E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ADJUSTTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE4999D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSCONTAIN_OFFSET UNITYSDK_OFFSET(0xE497F10)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_BOUNDSPROJECTTOXZPLANE_OFFSET UNITYSDK_OFFSET(0xE497C70)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xE49F2D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CCTOR_OFFSET UNITYSDK_OFFSET(0xE4A1130)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CHECKSTREAMINGRECTSIMILAR_OFFSET UNITYSDK_OFFSET(0xE4961D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CLOSEIRIHIZTEST_OFFSET UNITYSDK_OFFSET(0xE4A1050)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_COPYANIMATOR_OFFSET UNITYSDK_OFFSET(0xE499110)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CREATERECTBYCENTERANDSIZE_OFFSET UNITYSDK_OFFSET(0xE497BC0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0xE4A1120)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ENABLEKEYWORD_OFFSET UNITYSDK_OFFSET(0xE49D1D0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GAMEOBJECTHIERARCHYPATH_OFFSET UNITYSDK_OFFSET(0xE49CD80)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETCELLFILTER_OFFSET UNITYSDK_OFFSET(0xE4A0A60)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHCONFIGDATAPOOL_OFFSET UNITYSDK_OFFSET(0xE4A0B70)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETIRIBUILDINGRENDERERLISTWITHTEXTASSET_OFFSET UNITYSDK_OFFSET(0xE4A0C60)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETLODLEVELBYDISTANCE_OFFSET UNITYSDK_OFFSET(0xE49F050)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETMINLODLEVEL_OFFSET UNITYSDK_OFFSET(0xE49EE20)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xE49CBC0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_1_OFFSET UNITYSDK_OFFSET(0xE49A060)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_2_OFFSET UNITYSDK_OFFSET(0xE49A6E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_3_OFFSET UNITYSDK_OFFSET(0xE49AD60)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_4_OFFSET UNITYSDK_OFFSET(0xE49AF30)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSTREAMINGITEMTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE499F60)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEDIR_OFFSET UNITYSDK_OFFSET(0xE49C9B0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETSUBSTAGEJSONPATH_OFFSET UNITYSDK_OFFSET(0xE49CB50)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GETVECTOR3S_OFFSET UNITYSDK_OFFSET(0xE4960E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ASYNCLOADPERSISTENTASSET_OFFSET UNITYSDK_OFFSET(0xE4A0E70)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLESCENELOGERROR_OFFSET UNITYSDK_OFFSET(0xE4A0ED0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xE4A0E80)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xE4A0E10)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODCONFIG_OFFSET UNITYSDK_OFFSET(0xE4A0F20)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENTITYLODQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xE4A08F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_GROUPLODCONFIG_OFFSET UNITYSDK_OFFSET(0xE4A0F90)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_QUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xE4A02F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xE4A10C0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xE4A0CC0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGLAYERSETTING_OFFSET UNITYSDK_OFFSET(0xE497B40)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xE4A0D90)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCROOMCACHE_OFFSET UNITYSDK_OFFSET(0xE49E380)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_TSCSPROOMCACHE_OFFSET UNITYSDK_OFFSET(0xE49E310)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GIZMODRAWRECT_OFFSET UNITYSDK_OFFSET(0xE498060)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORMANDCANFORCECHOOSEPLATFORM_OFFSET UNITYSDK_OFFSET(0xE4A09A0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISADVANCEPLATFORM_OFFSET UNITYSDK_OFFSET(0xE4A0950)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_ISCOLLIDERGO_OFFSET UNITYSDK_OFFSET(0xE49FEA0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_1_OFFSET UNITYSDK_OFFSET(0xE4965E0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_2_OFFSET UNITYSDK_OFFSET(0xE497180)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_LOCALSPACEBOUNDTOFIELDSPACEBOUND_OFFSET UNITYSDK_OFFSET(0xE4962B0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_OPENHIZTEST_OFFSET UNITYSDK_OFFSET(0xE4A1000)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_PROJECTPOINT_OFFSET UNITYSDK_OFFSET(0xE49D060)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTCONTAIN_OFFSET UNITYSDK_OFFSET(0xE497D10)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RECTOVERLAY_OFFSET UNITYSDK_OFFSET(0xE497DE0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REMOVETAMONOTICKENTRY_OFFSET UNITYSDK_OFFSET(0xE498CB0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_REPLACELODCONFIGLAYER_OFFSET UNITYSDK_OFFSET(0xE49E200)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RETURNVECTOR3S_OFFSET UNITYSDK_OFFSET(0xE496160)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_RUNTIMECALCBOUNDSIZE_OFFSET UNITYSDK_OFFSET(0xE49F3F0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_1_OFFSET UNITYSDK_OFFSET(0xE4A0150)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETBLOCKGRASS_OFFSET UNITYSDK_OFFSET(0xE4A0010)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETHEIGHTBLEND_OFFSET UNITYSDK_OFFSET(0xE49D250)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETSTREAMINGGRASSFASTMODE_OFFSET UNITYSDK_OFFSET(0xE4A0290)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_1_OFFSET UNITYSDK_OFFSET(0xE49E490)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SETTERRAINTEX_OFFSET UNITYSDK_OFFSET(0xE49E390)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLESCENELOGERROR_OFFSET UNITYSDK_OFFSET(0xE4A0EE0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLETAMONOTICKLOGERROR_OFFSET UNITYSDK_OFFSET(0xE4A0E90)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLEUSINGSYNCLOAD_OFFSET UNITYSDK_OFFSET(0xE4A0E60)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_REGIONOVERRIDEMAXPEROBJECTSHADOWCOUNT_OFFSET UNITYSDK_OFFSET(0xE4A1110)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGENABLE_OFFSET UNITYSDK_OFFSET(0xE4A0CD0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_STREAMINGVISIBLEENABLE_OFFSET UNITYSDK_OFFSET(0xE4A0E00)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SHRINKOPENWORLDIRIBYTEARRAYCACHE_OFFSET UNITYSDK_OFFSET(0xE4A0AF0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_STREAMINGDESTROYINSTANCE_OFFSET UNITYSDK_OFFSET(0xE498220)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TRANSFORMMESHBOUND_OFFSET UNITYSDK_OFFSET(0xE499790)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_TREEDEPTHTOCOLOR_OFFSET UNITYSDK_OFFSET(0xE497FE0)
+#define RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_UPDATEGRAPHICQUALITYSETTING_OFFSET UNITYSDK_OFFSET(0xE4A0340)
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int OpenWorldHelper_TypeDefinitionIndex = 73874;
+	inline static constexpr unsigned int OpenWorldHelper_TypeDefinitionIndex = 76000;
 
 	class OpenWorldHelper : public ::System::Object
 	{
 	public:
-		static ::RPG::GameCore::LodConfig** StaticGet__GroupLodConfig()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Animator*>** StaticGet__AnimatorList()
 		{
-			return (::RPG::GameCore::LodConfig**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB350);
-		}
-
-		static ::System::String** StaticGet_MonoEffectLodSettingTemplate()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB358);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Animator*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9BD0);
 		}
 
 		static ::System::Collections::Generic::List_1<::UnityEngine::Renderer*>** StaticGet__RendererList()
 		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB360);
-		}
-
-		static ::System::String** StaticGet_FadingTraceTarget()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB368);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet__CachedRendererMats()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB370);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>** StaticGet__AnimatorParaList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB378);
-		}
-
-		static ::System::Collections::Generic::Queue_1<::Il2CppArray<::UnityEngine::Vector3>*>** StaticGet__vectorsPool()
-		{
-			return (::System::Collections::Generic::Queue_1<::Il2CppArray<::UnityEngine::Vector3>*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB380);
-		}
-
-		static ::System::String** StaticGet_SceneItemHLODStreamingLayerName()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB388);
-		}
-
-		static ::System::Collections::Generic::List_1<::UnityEngine::Animator*>** StaticGet__AnimatorList()
-		{
-			return (::System::Collections::Generic::List_1<::UnityEngine::Animator*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB390);
-		}
-
-		static ::UnityEngine::GameObject** StaticGet_TransformTool()
-		{
-			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB398);
-		}
-
-		static ::UnityEngine::MaterialPropertyBlock** StaticGet__EmptyMatPropertyBlock()
-		{
-			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3A0);
-		}
-
-		static ::System::String** StaticGet_SceneConstValueConfigAssetPath()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3A8);
-		}
-
-		static ::System::String** StaticGet_LodSettingTemplateAssetPath()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3B0);
-		}
-
-		static ::System::String** StaticGet_StreamingLayerSettingAssetPath()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3B8);
-		}
-
-		static ::System::String** StaticGet_GroupDefaultStreamingTemplateName()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3C0);
-		}
-
-		static ::System::String** StaticGet_TSCOverrideLayer()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3C8);
-		}
-
-		static ::RPG::Client::OpenWorld::StreamingLayerSetting** StaticGet__StreamingLayerSetting()
-		{
-			return (::RPG::Client::OpenWorld::StreamingLayerSetting**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3D0);
-		}
-
-		static ::System::String** StaticGet_VariantMDVItemStreamingLayerName()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3D8);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Renderer*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9BD8);
 		}
 
 		static ::System::String** StaticGet_TAMonoTickLodSettingTemplateAssetPath()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3E0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9BE0);
 		}
 
-		static ::RPG::GameCore::LodConfig** StaticGet__entityLodConfig()
+		static ::UnityEngine::GameObject** StaticGet_TransformTool()
 		{
-			return (::RPG::GameCore::LodConfig**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3E8);
+			return (::UnityEngine::GameObject**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9BE8);
+		}
+
+		static ::System::String** StaticGet_SceneConstValueConfigAssetPath()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9BF0);
 		}
 
 		static ::Il2CppArray<::System::Byte>** StaticGet_OpenWorldByteArrayCache()
 		{
-			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3F0);
+			return (::Il2CppArray<::System::Byte>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9BF8);
 		}
 
-		static ::System::String** StaticGet_GroupLodSettingTemplate()
+		static ::System::String** StaticGet_TSCOverrideLayer()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB3F8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C00);
+		}
+
+		static ::System::Collections::Generic::Queue_1<::Il2CppArray<::UnityEngine::Vector3>*>** StaticGet__vectorsPool()
+		{
+			return (::System::Collections::Generic::Queue_1<::Il2CppArray<::UnityEngine::Vector3>*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C08);
 		}
 
 		static ::System::String** StaticGet_EntityStreamingLayerName()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB400);
-		}
-
-		static ::System::String** StaticGet_HeightBlendTexSuffix()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB408);
-		}
-
-		static ::System::String** StaticGet_GameplayLodSettingTemplate()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB410);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C10);
 		}
 
 		static ::System::String** StaticGet_StageCapturedPropCommonJson()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB418);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C18);
 		}
 
-		static ::System::String** StaticGet_GroupNoStreamingTemplateName()
+		static ::RPG::Client::OpenWorld::StreamingLayerSetting** StaticGet__StreamingLayerSetting()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB420);
+			return (::RPG::Client::OpenWorld::StreamingLayerSetting**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C20);
 		}
 
-		static ::System::String** StaticGet_NormDistanceLodSettingTemplateAssetPath()
+		static ::System::String** StaticGet_GroupLodSettingTemplate()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB428);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C28);
 		}
 
 		static ::System::String** StaticGet_EntityLodSettingTemplate()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB430);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C30);
 		}
 
-		static ::System::Boolean* StaticGet_EnableImmediateFinishResolver()
+		static ::System::String** StaticGet_GroupDefaultStreamingTemplateName()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2670);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C38);
 		}
 
-		static ::System::Boolean* StaticGet__StreamingEnable()
+		static ::System::String** StaticGet_NormDistanceLodSettingTemplateAssetPath()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2671);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C40);
 		}
 
-		static ::System::Boolean* StaticGet_EnableTimeoutPromote()
+		static ::System::String** StaticGet_GroupNoStreamingTemplateName()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2672);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C48);
 		}
 
-		static ::System::Boolean* StaticGet_GraphicSettingDirty()
+		static ::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>** StaticGet__AnimatorParaList()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2673);
+			return (::System::Collections::Generic::List_1<::UnityEngine::AnimatorControllerParameter*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C50);
 		}
 
-		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_LOAD_DELTA_R()
+		static ::UnityEngine::MaterialPropertyBlock** StaticGet__EmptyMatPropertyBlock()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2674);
+			return (::UnityEngine::MaterialPropertyBlock**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C58);
 		}
 
-		static ::System::Int32* StaticGet__Block_Normal_Detail_Map()
+		static ::System::Collections::Generic::List_1<::UnityEngine::Material*>** StaticGet__CachedRendererMats()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2678);
+			return (::System::Collections::Generic::List_1<::UnityEngine::Material*>**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C60);
 		}
 
-		static ::System::Int32* StaticGet__Block_Bbox_Range()
+		static ::System::String** StaticGet_FadingTraceTarget()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x267C);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C68);
 		}
 
-		static ::System::Int32* StaticGet__Block_Albedo_Height_Map()
+		static ::System::String** StaticGet_MonoEffectLodSettingTemplate()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2680);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C70);
 		}
 
-		static ::System::Single* StaticGet_HLODSwitchDelay()
+		static ::RPG::GameCore::LodConfig** StaticGet__GroupLodConfig()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2684);
+			return (::RPG::GameCore::LodConfig**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C78);
 		}
 
-		static ::System::Single* StaticGet_SchedulerFadingFramingLimitDelta()
+		static ::RPG::GameCore::LodConfig** StaticGet__entityLodConfig()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2688);
+			return (::RPG::GameCore::LodConfig**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C80);
 		}
 
-		static ::System::Boolean* StaticGet_EnableCameraOcculuder()
+		static ::System::String** StaticGet_HeightBlendTexSuffix()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268C);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C88);
 		}
 
-		static ::System::Boolean* StaticGet_ENABLE_ANIMATOR_URO()
+		static ::System::String** StaticGet_VariantMDVItemStreamingLayerName()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268D);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C90);
 		}
 
-		static ::System::Boolean* StaticGet_StreamingDebugScriptOpen()
+		static ::System::String** StaticGet_SceneItemHLODStreamingLayerName()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268E);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9C98);
 		}
 
-		static ::System::Boolean* StaticGet_IRI_USE_BINARY_DATA()
+		static ::System::String** StaticGet_GameplayLodSettingTemplate()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x268F);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9CA0);
 		}
 
-		static ::System::Int32* StaticGet__TerrainCoverageParamsId()
+		static ::System::String** StaticGet_LodSettingTemplateAssetPath()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2690);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9CA8);
 		}
 
-		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomLodGraphicQuality()
+		static ::System::String** StaticGet_StreamingLayerSettingAssetPath()
 		{
-			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2694);
-		}
-
-		static ::System::Boolean* StaticGet_EnableGrass()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269C);
-		}
-
-		static ::System::Boolean* StaticGet_UsingStreamingInstanceStub()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269D);
-		}
-
-		static ::System::Boolean* StaticGet_LevelEditorStageStreaming()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269E);
-		}
-
-		static ::System::Boolean* StaticGet_UseBunchItem()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x269F);
-		}
-
-		static ::System::Int32* StaticGet__RegionOverrideMaxPerObjectShadowCount()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A0);
-		}
-
-		static ::System::Single* StaticGet_OutvisiontToInvisioinLimitDist()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A4);
-		}
-
-		static ::System::Boolean* StaticGet_EnableBacklogWatchdog()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A8);
-		}
-
-		static ::System::Boolean* StaticGet_UseLodCulling()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26A9);
-		}
-
-		static ::System::Boolean* StaticGet_IRI_FALLBACK()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26AA);
-		}
-
-		static ::System::Boolean* StaticGet_UseStageConfigV2()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26AB);
-		}
-
-		static ::System::Int32* StaticGet_CLOSE_HIZ_TEST()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26AC);
-		}
-
-		static ::System::Int32* StaticGet__Blend_Base_Range()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B0);
-		}
-
-		static ::System::UInt32* StaticGet_SUB_STAGE_ISLAND_ID_OFFSET()
-		{
-			return (::System::UInt32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B4);
-		}
-
-		static ::System::Boolean* StaticGet_PVS_USE_BINARY_DATA()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B8);
-		}
-
-		static ::System::Boolean* StaticGet_COLLIDER_STREAMING_DEBUG()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26B9);
-		}
-
-		static ::System::Boolean* StaticGet_UseLodShakeThreshold()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BA);
-		}
-
-		static ::System::Boolean* StaticGet__StreamingVisibleEnalbe()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BB);
-		}
-
-		static ::System::Boolean* StaticGet_UsePriorityScheduler()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BC);
-		}
-
-		static ::System::Boolean* StaticGet_ForbidInstantiatePrefabWhenUseBunchItem()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BD);
-		}
-
-		static ::System::Boolean* StaticGet_EnableRenderItemShadowCastingModeBugFix()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BE);
-		}
-
-		static ::System::Boolean* StaticGet_InStageConfigV2Mode()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26BF);
-		}
-
-		static ::System::Int32* StaticGet__ES_BlockBboxRange()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C0);
-		}
-
-		static ::System::Boolean* StaticGet_EntityStreaming()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C4);
-		}
-
-		static ::System::Boolean* StaticGet_EnableFadingTraceLog()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C5);
-		}
-
-		static ::System::Boolean* StaticGet_IsBaselineMode()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C6);
-		}
-
-		static ::System::Boolean* StaticGet_LOW_IPHONE_STREAMING_FEATURE()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C7);
-		}
-
-		static ::System::Int32* StaticGet_RegionDecEntityLodQualityRef()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26C8);
+			return (::System::String**)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x9CB0);
 		}
 
 		static ::System::Boolean* StaticGet_UseSystemScheduler()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26CC);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA70);
 		}
 
-		static ::System::Boolean* StaticGet_FORCE_DRAW_IRI()
+		static ::System::Boolean* StaticGet_UseStageConfigV2()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26CD);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA71);
 		}
 
-		static ::RPG::GameCore::GraphicQuality* StaticGet_CacheLodGraphicQuality()
+		static ::System::Boolean* StaticGet_EnableImmediateFinishResolver()
 		{
-			return (::RPG::GameCore::GraphicQuality*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D0);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA72);
 		}
 
-		static ::System::Boolean* StaticGet_IRI_CLOSE_UPDATE_HIZ()
+		static ::System::Boolean* StaticGet_IRI_FALLBACK()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D4);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA73);
 		}
 
-		static ::System::Boolean* StaticGet_EnableVolumeHLODHide()
+		static ::System::Int32* StaticGet__ES_BlockBboxRange()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D5);
-		}
-
-		static ::System::Boolean* StaticGet_EnableSceneItemHLOD()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D6);
-		}
-
-		static ::System::Boolean* StaticGet_EnableRegionOverrideMaxPerObjectShadowCount()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D7);
-		}
-
-		static ::System::Boolean* StaticGet_SpaceFoldHideInvalidItem()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D8);
-		}
-
-		static ::System::Boolean* StaticGet_DEBUG_SKIP_ITEM()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26D9);
-		}
-
-		static ::System::Boolean* StaticGet_UseNewStageCaptureProp()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26DA);
-		}
-
-		static ::System::Boolean* StaticGet_EnableStreamingVolumeThreadTask()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26DB);
-		}
-
-		static ::System::Single* StaticGet_MainSourceAttachPlayerThresholdDist()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26DC);
-		}
-
-		static ::System::Boolean* StaticGet_RadicalCulling()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E0);
-		}
-
-		static ::System::Boolean* StaticGet_IRI_FORCE_LOW_GRAPHIC()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E1);
-		}
-
-		static ::System::Boolean* StaticGet_ForbidCityAtmosphereStreaming()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E2);
-		}
-
-		static ::System::Boolean* StaticGet_RenderDebugLodEnable()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E3);
-		}
-
-		static ::System::Single* StaticGet_SchedulerFadingFramingLimitStandard()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E4);
-		}
-
-		static ::System::Single* StaticGet_s_VisionSimilarValue()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26E8);
-		}
-
-		static ::System::Boolean* StaticGet_StreamingItemUsingObjectPool()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26EC);
-		}
-
-		static ::System::Boolean* StaticGet_UsingStreamingGrass()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26ED);
-		}
-
-		static ::System::Boolean* StaticGet_STREAMING_CHECK_LOADING_TIMEOUT()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26EE);
-		}
-
-		static ::System::Boolean* StaticGet_EnableStreamingJobSystem()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26EF);
-		}
-
-		static ::System::Single* StaticGet_s_CenterSimilarValue()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F0);
-		}
-
-		static ::System::Boolean* StaticGet_SwitchQualityAndReloadPersistent()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F4);
-		}
-
-		static ::System::Boolean* StaticGet_RuntimeStreamingEnable()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F5);
-		}
-
-		static ::System::Boolean* StaticGet_EnableMaintenanceSweep()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F6);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA74);
 		}
 
 		static ::System::Boolean* StaticGet_GRASS_FORCE_REFRESH_CULLING_ON_PERFORMANCE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F7);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA78);
 		}
 
-		static ::System::Int32* StaticGet__Block_Bbox_Base()
+		static ::System::Boolean* StaticGet__StreamingVisibleEnalbe()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26F8);
-		}
-
-		static ::System::Int32* StaticGet__ES_HeightMap()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x26FC);
-		}
-
-		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomEntityLodGraphicQuality()
-		{
-			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2700);
-		}
-
-		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_UNLOAD_DELTA_R()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2708);
-		}
-
-		static ::System::Single* StaticGet_SchedulerFadingFramingLimit()
-		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x270C);
-		}
-
-		static ::System::Int32* StaticGet__ES_BlockBboxBase()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2710);
-		}
-
-		static ::System::Boolean* StaticGet_EnableLowTailSweep()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2714);
-		}
-
-		static ::System::Boolean* StaticGet_RegionUpdateBlockVisibleInDisableStreaming()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2715);
-		}
-
-		static ::System::Boolean* StaticGet_StreamingGrassFastMode()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2716);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA79);
 		}
 
 		static ::System::Boolean* StaticGet__EnableUsingSyncLoad()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0x2717);
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA7A);
+		}
+
+		static ::System::Boolean* StaticGet__StreamingEnable()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA7B);
+		}
+
+		static ::System::Int32* StaticGet__Blend_Base_Range()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA7C);
+		}
+
+		static ::System::Single* StaticGet_SchedulerFadingFramingLimitStandard()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA80);
+		}
+
+		static ::System::Boolean* StaticGet_COLLIDER_STREAMING_DEBUG()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA84);
+		}
+
+		static ::System::Boolean* StaticGet_EnableRegionOverrideMaxPerObjectShadowCount()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA85);
+		}
+
+		static ::System::Boolean* StaticGet_ForbidInstantiatePrefabWhenUseBunchItem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA86);
+		}
+
+		static ::System::Boolean* StaticGet_IRI_CLOSE_UPDATE_HIZ()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA87);
+		}
+
+		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_LOAD_DELTA_R()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA88);
+		}
+
+		static ::System::Int32* StaticGet__Block_Bbox_Base()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA8C);
+		}
+
+		static ::System::Boolean* StaticGet_IRI_FORCE_LOW_GRAPHIC()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA90);
+		}
+
+		static ::System::Boolean* StaticGet_RegionUpdateBlockVisibleInDisableStreaming()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA91);
+		}
+
+		static ::System::Boolean* StaticGet_UseNewStageCaptureProp()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA92);
+		}
+
+		static ::System::Boolean* StaticGet_LOW_IPHONE_STREAMING_FEATURE()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA93);
+		}
+
+		static ::System::Boolean* StaticGet_EnableBacklogWatchdog()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA94);
+		}
+
+		static ::System::Boolean* StaticGet_StreamingDebugScriptOpen()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA95);
+		}
+
+		static ::System::Boolean* StaticGet_ForbidCityAtmosphereStreaming()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA96);
+		}
+
+		static ::System::Boolean* StaticGet_InStageConfigV2Mode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA97);
+		}
+
+		static ::System::Boolean* StaticGet_UsingStreamingInstanceStub()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA98);
+		}
+
+		static ::System::Boolean* StaticGet_SpaceFoldHideInvalidItem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA99);
+		}
+
+		static ::System::Boolean* StaticGet_RuntimeStreamingEnable()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA9A);
+		}
+
+		static ::System::Boolean* StaticGet_UseLodCulling()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA9B);
+		}
+
+		static ::System::Int32* StaticGet__RegionOverrideMaxPerObjectShadowCount()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xA9C);
+		}
+
+		static ::System::Boolean* StaticGet_EnableTimeoutPromote()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAA0);
+		}
+
+		static ::System::Boolean* StaticGet_StreamingItemUsingObjectPool()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAA1);
+		}
+
+		static ::System::Boolean* StaticGet_EnableFadingTraceLog()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAA2);
+		}
+
+		static ::System::Boolean* StaticGet_EntityStreaming()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAA3);
+		}
+
+		static ::System::Single* StaticGet_s_VisionSimilarValue()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAA4);
+		}
+
+		static ::System::Boolean* StaticGet_SwitchQualityAndReloadPersistent()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAA8);
+		}
+
+		static ::System::Boolean* StaticGet_RadicalCulling()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAA9);
+		}
+
+		static ::System::Boolean* StaticGet_STREAMING_CHECK_LOADING_TIMEOUT()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAAA);
+		}
+
+		static ::System::Boolean* StaticGet_EnableStreamingJobSystem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAAB);
+		}
+
+		static ::System::Boolean* StaticGet_ENABLE_ANIMATOR_URO()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAAC);
+		}
+
+		static ::System::Boolean* StaticGet_EnableSceneItemHLOD()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAAD);
+		}
+
+		static ::System::Boolean* StaticGet_EnableVolumeHLODHide()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAAE);
+		}
+
+		static ::System::Single* StaticGet_HLODSwitchDelay()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAB0);
+		}
+
+		static ::System::Single* StaticGet_s_CenterSimilarValue()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAB4);
+		}
+
+		static ::System::Int32* StaticGet_CLOSE_HIZ_TEST()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAB8);
+		}
+
+		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomEntityLodGraphicQuality()
+		{
+			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xABC);
+		}
+
+		static ::System::Int32* StaticGet__Block_Bbox_Range()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAC4);
+		}
+
+		static ::System::Int32* StaticGet_RegionDecEntityLodQualityRef()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAC8);
+		}
+
+		static ::System::Boolean* StaticGet_IRI_USE_BINARY_DATA()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xACC);
+		}
+
+		static ::System::Boolean* StaticGet_RenderDebugLodEnable()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xACD);
+		}
+
+		static ::System::Boolean* StaticGet_IsBaselineMode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xACE);
+		}
+
+		static ::System::Boolean* StaticGet_DisableOldBlockHLODPreload()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xACF);
+		}
+
+		static ::System::Int32* StaticGet__Block_Albedo_Height_Map()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAD0);
+		}
+
+		static ::System::Nullable_1<::RPG::GameCore::GraphicQuality>* StaticGet_CustomLodGraphicQuality()
+		{
+			return (::System::Nullable_1<::RPG::GameCore::GraphicQuality>*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAD4);
+		}
+
+		static ::System::Boolean* StaticGet_EnableCameraOcculuder()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xADC);
+		}
+
+		static ::System::Boolean* StaticGet_EnableLowTailSweep()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xADD);
+		}
+
+		static ::System::Boolean* StaticGet_EnableGrass()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xADE);
+		}
+
+		static ::System::Boolean* StaticGet_EnableMaintenanceSweep()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xADF);
+		}
+
+		static ::System::Int32* StaticGet__ES_HeightMap()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAE0);
+		}
+
+		static ::System::Int32* StaticGet__TerrainCoverageParamsId()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAE4);
+		}
+
+		static ::System::Single* StaticGet_OutvisiontToInvisioinLimitDist()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAE8);
+		}
+
+		static ::System::Single* StaticGet_SchedulerFadingFramingLimit()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAEC);
+		}
+
+		static ::System::Single* StaticGet_SchedulerFadingFramingLimitDelta()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAF0);
+		}
+
+		static ::System::Boolean* StaticGet_UsingStreamingGrass()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAF4);
+		}
+
+		static ::System::Boolean* StaticGet_LevelEditorStageStreaming()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAF5);
+		}
+
+		static ::System::Boolean* StaticGet_StreamingGrassFastMode()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAF6);
+		}
+
+		static ::System::Boolean* StaticGet_EnableRenderItemShadowCastingModeBugFix()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAF7);
+		}
+
+		static ::RPG::GameCore::GraphicQuality* StaticGet_CacheLodGraphicQuality()
+		{
+			return (::RPG::GameCore::GraphicQuality*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAF8);
+		}
+
+		static ::System::Boolean* StaticGet_UseBunchItem()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAFC);
+		}
+
+		static ::System::Boolean* StaticGet_EnableStreamingVolumeThreadTask()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAFD);
+		}
+
+		static ::System::Boolean* StaticGet_GraphicSettingDirty()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAFE);
+		}
+
+		static ::System::Boolean* StaticGet_DEBUG_SKIP_ITEM()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xAFF);
+		}
+
+		static ::System::Int32* StaticGet__Block_Normal_Detail_Map()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB00);
+		}
+
+		static ::System::Int32* StaticGet__ES_BlockBboxBase()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB04);
+		}
+
+		static ::System::Boolean* StaticGet_PVS_USE_BINARY_DATA()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB08);
+		}
+
+		static ::System::Boolean* StaticGet_UsePriorityScheduler()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB09);
+		}
+
+		static ::System::Boolean* StaticGet_UseLodShakeThreshold()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB0A);
+		}
+
+		static ::System::Boolean* StaticGet_FORCE_DRAW_IRI()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB0B);
+		}
+
+		static ::System::Int32* StaticGet_OVERRIDE_STREAMING_SOURCE_UNLOAD_DELTA_R()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB0C);
+		}
+
+		static ::System::UInt32* StaticGet_SUB_STAGE_ISLAND_ID_OFFSET()
+		{
+			return (::System::UInt32*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB10);
+		}
+
+		static ::System::Single* StaticGet_MainSourceAttachPlayerThresholdDist()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client.OpenWorld", "OpenWorldHelper")->GetStaticField(0xB14);
 		}
 
 		// static const ::System::Object OpenWorldByteArrayIncreaseSize; // 0x0
@@ -1044,6 +1051,16 @@ namespace RPG::Client::OpenWorld
 		static ::System::Void set_EnableTAMonoTickLogError(::System::Boolean a1)
 		{
 			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLETAMONOTICKLOGERROR_OFFSET))(a1);
+		}
+
+		static ::System::Boolean get_EnableSceneLogError()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_GET_ENABLESCENELOGERROR_OFFSET))();
+		}
+
+		static ::System::Void set_EnableSceneLogError(::System::Boolean a1)
+		{
+			return ((::System::Void(*)(::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_OPENWORLD_OPENWORLDHELPER_SET_ENABLESCENELOGERROR_OFFSET))(a1);
 		}
 
 		static ::RPG::GameCore::LodConfig* get_EntityLodConfig()

@@ -4,11 +4,11 @@
 namespace RPG::Client { class GridFightRole; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OJLNNNNKBJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBEBE7B0)
-#define OJLNNNNKBJD_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0xBEBE660)
-#define OJLNNNNKBJD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBEBE710)
+#define OJLNNNNKBJD_CTOR_OFFSET UNITYSDK_OFFSET(0xC7B5E30)
+#define OJLNNNNKBJD_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0xC7B5CE0)
+#define OJLNNNNKBJD_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC7B5D90)
 
-inline static constexpr unsigned int OJLNNNNKBJD_TypeDefinitionIndex = 65179;
+inline static constexpr unsigned int OJLNNNNKBJD_TypeDefinitionIndex = 66876;
 
 	class OJLNNNNKBJD : public ::System::Object
 	{

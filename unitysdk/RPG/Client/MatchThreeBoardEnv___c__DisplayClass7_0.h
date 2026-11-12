@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class MatchThreeBoardEnv; }
 
-#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD58DA40)
-#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0__SETGRIDTAG_B__0_OFFSET UNITYSDK_OFFSET(0xD58DDB0)
+#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE17D0)
+#define RPG_CLIENT_MATCHTHREEBOARDENV___C__DISPLAYCLASS7_0__SETGRIDTAG_B__0_OFFSET UNITYSDK_OFFSET(0xDFE1B40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MatchThreeBoardEnv___c__DisplayClass7_0_TypeDefinitionIndex = 65928;
+	inline static constexpr unsigned int MatchThreeBoardEnv___c__DisplayClass7_0_TypeDefinitionIndex = 67860;
 
 	class MatchThreeBoardEnv___c__DisplayClass7_0 : public ::System::Object
 	{

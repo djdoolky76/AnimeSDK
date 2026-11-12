@@ -5,7 +5,7 @@
 
 namespace RPGTools::LDWhiteBox
 {
-	inline static constexpr unsigned int PathNodePoint_TypeDefinitionIndex = 48954;
+	inline static constexpr unsigned int PathNodePoint_TypeDefinitionIndex = 50013;
 
 	struct alignas(4) PathNodePoint
 	{

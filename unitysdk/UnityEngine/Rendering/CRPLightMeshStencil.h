@@ -4,7 +4,7 @@
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int CRPLightMeshStencil_TypeDefinitionIndex = 4877;
+	inline static constexpr unsigned int CRPLightMeshStencil_TypeDefinitionIndex = 4882;
 
 	struct alignas(4) CRPLightMeshStencil
 	{

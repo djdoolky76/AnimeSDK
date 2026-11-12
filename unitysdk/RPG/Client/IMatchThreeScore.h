@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int IMatchThreeScore_TypeDefinitionIndex = 66036;
+	inline static constexpr unsigned int IMatchThreeScore_TypeDefinitionIndex = 67968;
 
 	class IMatchThreeScore
 	{

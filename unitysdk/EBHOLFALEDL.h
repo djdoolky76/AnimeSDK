@@ -3,17 +3,17 @@
 namespace RPG::GameCore { class GravityBallPuzzleLastFinishCondition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define EBHOLFALEDL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF8940)
-#define EBHOLFALEDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CF8970)
+#define EBHOLFALEDL_CTOR_OFFSET UNITYSDK_OFFSET(0x13AA9AA0)
+#define EBHOLFALEDL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13AA9AD0)
 
-inline static constexpr unsigned int EBHOLFALEDL_TypeDefinitionIndex = 52913;
+inline static constexpr unsigned int EBHOLFALEDL_TypeDefinitionIndex = 54069;
 
 	class EBHOLFALEDL
 	{
 	public:
 		static ::System::Int16* StaticGet_NBDIGJLGOFA()
 		{
-			return (::System::Int16*)UnitySDK::FromName("", "EBHOLFALEDL")->GetStaticField(0x10030);
+			return (::System::Int16*)UnitySDK::FromName("", "EBHOLFALEDL")->GetStaticField(0xC0D0);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::GravityBallPuzzleLastFinishCondition* a2)

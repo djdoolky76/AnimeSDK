@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore::Match3 { class MatchThree1v1AILevelConfig; }
 namespace RPG::GameCore::Match3 { class MatchThree1v1AIPriorityRetainMap; }
 
-#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AILEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D84EF70)
-#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AILEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D84EDD0)
+#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AILEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA69EA0)
+#define RPG_GAMECORE_MATCH3_MATCHTHREE1V1AILEVELCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA69D00)
 
 namespace RPG::GameCore::Match3
 {
-	inline static constexpr unsigned int MatchThree1v1AILevelConfig_TypeDefinitionIndex = 24948;
+	inline static constexpr unsigned int MatchThree1v1AILevelConfig_TypeDefinitionIndex = 25428;
 
 	class MatchThree1v1AILevelConfig : public ::RPG::GameCore::JsonConfig
 	{

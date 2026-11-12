@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector2Int.h"
 
-inline static constexpr unsigned int ELEADPAIDJP_TypeDefinitionIndex = 78867;
+inline static constexpr unsigned int ELEADPAIDJP_TypeDefinitionIndex = 81638;
 
 	struct alignas(4) ELEADPAIDJP
 	{

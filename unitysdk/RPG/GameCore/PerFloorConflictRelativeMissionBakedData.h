@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerFloorConflictRelativeMissionBakedData; }
 
-#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F5300)
-#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F51D0)
+#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0E8B0)
+#define RPG_GAMECORE_PERFLOORCONFLICTRELATIVEMISSIONBAKEDDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB0E780)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerFloorConflictRelativeMissionBakedData_TypeDefinitionIndex = 17156;
+	inline static constexpr unsigned int PerFloorConflictRelativeMissionBakedData_TypeDefinitionIndex = 17324;
 
 	class PerFloorConflictRelativeMissionBakedData : public ::RPG::GameCore::JsonConfig
 	{

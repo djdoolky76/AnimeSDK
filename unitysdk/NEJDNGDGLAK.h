@@ -3,10 +3,10 @@
 #include "unitysdk/ODLJOLJDLNI.h"
 namespace System { class String; }
 
-#define NEJDNGDGLAK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5F300)
-#define NEJDNGDGLAK_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0xBB5F1A0)
+#define NEJDNGDGLAK_CTOR_OFFSET UNITYSDK_OFFSET(0xC3E9200)
+#define NEJDNGDGLAK_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0xC3E90A0)
 
-inline static constexpr unsigned int NEJDNGDGLAK_TypeDefinitionIndex = 76352;
+inline static constexpr unsigned int NEJDNGDGLAK_TypeDefinitionIndex = 78683;
 
 	class NEJDNGDGLAK : public ::ODLJOLJDLNI
 	{

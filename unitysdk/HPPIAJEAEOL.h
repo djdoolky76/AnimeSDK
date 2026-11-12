@@ -7,9 +7,9 @@ namespace System { class Type; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define HPPIAJEAEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x15DDB350)
+#define HPPIAJEAEOL_CTOR_OFFSET UNITYSDK_OFFSET(0x16D7F1C0)
 
-inline static constexpr unsigned int HPPIAJEAEOL_TypeDefinitionIndex = 64329;
+inline static constexpr unsigned int HPPIAJEAEOL_TypeDefinitionIndex = 65776;
 
 	class HPPIAJEAEOL : public ::System::Object
 	{

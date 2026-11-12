@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamRecommendData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC503360)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__3_OFFSET UNITYSDK_OFFSET(0xC503A70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCE40DC0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVETEAMRECOMMENDINFO___C__DISPLAYCLASS4_1__GETRECOMMENDDATALISTSORTEDBYWEIGHT_B__3_OFFSET UNITYSDK_OFFSET(0xCE414D0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass4_1_TypeDefinitionIndex = 75091;
+	inline static constexpr unsigned int IdleLiveTeamRecommendInfo___c__DisplayClass4_1_TypeDefinitionIndex = 77418;
 
 	template <typename T>
 	class IdleLiveTeamRecommendInfo___c__DisplayClass4_1 : public ::System::Object

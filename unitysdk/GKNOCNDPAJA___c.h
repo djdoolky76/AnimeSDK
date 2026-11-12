@@ -4,18 +4,18 @@
 class GKNOCNDPAJA;
 namespace System { class Object; }
 
-#define GKNOCNDPAJA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4BCD10)
-#define GKNOCNDPAJA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4BCD50)
-#define GKNOCNDPAJA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4BCD60)
+#define GKNOCNDPAJA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F7AEDB0)
+#define GKNOCNDPAJA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F7AEDF0)
+#define GKNOCNDPAJA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F7AEE00)
 
-inline static constexpr unsigned int GKNOCNDPAJA___c_TypeDefinitionIndex = 27049;
+inline static constexpr unsigned int GKNOCNDPAJA___c_TypeDefinitionIndex = 27580;
 
 	class GKNOCNDPAJA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1E820);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x15F10);
 		}
 
 		static ::System::Void _cctor()

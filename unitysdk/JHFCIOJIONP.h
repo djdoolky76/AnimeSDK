@@ -3,21 +3,20 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define JHFCIOJIONP_CLEAR_OFFSET UNITYSDK_OFFSET(0xB1AFCE0)
-#define JHFCIOJIONP_CTOR_OFFSET UNITYSDK_OFFSET(0xB1AFDF0)
-#define JHFCIOJIONP_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0xB1AFD30)
-#define JHFCIOJIONP_DOGONNEEEOI_OFFSET UNITYSDK_OFFSET(0xB1AFCD0)
-#define JHFCIOJIONP_HDNHBCHJMLN_OFFSET UNITYSDK_OFFSET(0xB1AFD90)
+#define JHFCIOJIONP_CLEAR_OFFSET UNITYSDK_OFFSET(0xB9CF720)
+#define JHFCIOJIONP_CTOR_OFFSET UNITYSDK_OFFSET(0xB9CF830)
+#define JHFCIOJIONP_DLAILGNMFGI_OFFSET UNITYSDK_OFFSET(0xB9CF770)
+#define JHFCIOJIONP_DOGONNEEEOI_OFFSET UNITYSDK_OFFSET(0xB9CF710)
+#define JHFCIOJIONP_HDNHBCHJMLN_OFFSET UNITYSDK_OFFSET(0xB9CF7D0)
 
-inline static constexpr unsigned int JHFCIOJIONP_TypeDefinitionIndex = 57814;
+inline static constexpr unsigned int JHFCIOJIONP_TypeDefinitionIndex = 59049;
 
 	class JHFCIOJIONP : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* OCGEPPOBEPF; // 0x10
-		::System::Boolean FHKAIANBPKH; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Int32 KAAOIFKEBGH; // 0x1C
+		::System::Int32 KAAOIFKEBGH; // 0x18
+		::System::Boolean FHKAIANBPKH; // 0x1C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JHFCIOJIONP_CTOR_OFFSET))(this);

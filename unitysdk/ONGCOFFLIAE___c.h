@@ -4,18 +4,18 @@
 class ONGCOFFLIAE;
 namespace System { class Object; }
 
-#define ONGCOFFLIAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DEC5CE0)
-#define ONGCOFFLIAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEC5D20)
-#define ONGCOFFLIAE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1DEC5D30)
+#define ONGCOFFLIAE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F18DA70)
+#define ONGCOFFLIAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F18DAB0)
+#define ONGCOFFLIAE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F18DAC0)
 
-inline static constexpr unsigned int ONGCOFFLIAE___c_TypeDefinitionIndex = 27115;
+inline static constexpr unsigned int ONGCOFFLIAE___c_TypeDefinitionIndex = 27646;
 
 	class ONGCOFFLIAE___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2C4A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x26020);
 		}
 
 		static ::System::Void _cctor()

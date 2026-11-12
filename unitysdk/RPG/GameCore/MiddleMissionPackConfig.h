@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MiddleMissionPackConfig; }
 namespace RPG::GameCore { class MiddleSinglePackMissionConfig; }
 
-#define RPG_GAMECORE_MIDDLEMISSIONPACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D87F910)
-#define RPG_GAMECORE_MIDDLEMISSIONPACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D87F7F0)
+#define RPG_GAMECORE_MIDDLEMISSIONPACKCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA99F30)
+#define RPG_GAMECORE_MIDDLEMISSIONPACKCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA99E10)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiddleMissionPackConfig_TypeDefinitionIndex = 18981;
+	inline static constexpr unsigned int MiddleMissionPackConfig_TypeDefinitionIndex = 19168;
 
 	class MiddleMissionPackConfig : public ::RPG::GameCore::JsonConfig
 	{

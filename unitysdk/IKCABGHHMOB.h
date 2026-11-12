@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define IKCABGHHMOB_CTOR_OFFSET UNITYSDK_OFFSET(0x16482A60)
+#define IKCABGHHMOB_CTOR_OFFSET UNITYSDK_OFFSET(0x17455430)
 
-inline static constexpr unsigned int IKCABGHHMOB_TypeDefinitionIndex = 52105;
+inline static constexpr unsigned int IKCABGHHMOB_TypeDefinitionIndex = 53210;
 
 	class IKCABGHHMOB : public ::System::Object
 	{

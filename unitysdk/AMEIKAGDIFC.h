@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int AMEIKAGDIFC_TypeDefinitionIndex = 33590;
+inline static constexpr unsigned int AMEIKAGDIFC_TypeDefinitionIndex = 34505;
 
 	enum class AMEIKAGDIFC : ::System::Int32
 	{

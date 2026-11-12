@@ -7,19 +7,19 @@ namespace RPG::Client { class MonoEffect; }
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define APFPHAGPMAJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x15BA96C0)
-#define APFPHAGPMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA9770)
-#define APFPHAGPMAJ_DCCILJIBPNK_OFFSET UNITYSDK_OFFSET(0x15BA9180)
-#define APFPHAGPMAJ_IFAECDEFCHA_OFFSET UNITYSDK_OFFSET(0x15BA92E0)
-#define APFPHAGPMAJ_MFCFABPGFGB_OFFSET UNITYSDK_OFFSET(0x15BA9460)
+#define APFPHAGPMAJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x16A09F90)
+#define APFPHAGPMAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x16A0A040)
+#define APFPHAGPMAJ_DCCILJIBPNK_OFFSET UNITYSDK_OFFSET(0x16A09A50)
+#define APFPHAGPMAJ_IFAECDEFCHA_OFFSET UNITYSDK_OFFSET(0x16A09BB0)
+#define APFPHAGPMAJ_MFCFABPGFGB_OFFSET UNITYSDK_OFFSET(0x16A09D30)
 
-inline static constexpr unsigned int APFPHAGPMAJ_TypeDefinitionIndex = 69774;
+inline static constexpr unsigned int APFPHAGPMAJ_TypeDefinitionIndex = 71733;
 
 	class APFPHAGPMAJ : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::RPG::Client::MonoEffect*>* MAHNOPJIPCB; // 0x10
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x18
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+		::System::Collections::Generic::List_1<::RPG::Client::MonoEffect*>* MAHNOPJIPCB; // 0x18
 		::System::Collections::Generic::List_1<::RPG::Client::CharacterShaderPropertyTransition*>* AFNHAJCMJAJ; // 0x20
 		::System::Void _ctor()
 		{

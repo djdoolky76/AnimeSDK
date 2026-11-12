@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int MIGEAMGGJFN_SummonUnitSummonerType_TypeDefinitionIndex = 62213;
+inline static constexpr unsigned int MIGEAMGGJFN_SummonUnitSummonerType_TypeDefinitionIndex = 63626;
 
 	enum class MIGEAMGGJFN_SummonUnitSummonerType : ::System::Int32
 	{

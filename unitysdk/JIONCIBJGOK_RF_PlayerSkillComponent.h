@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JIONCIBJGOK_RF_PlayerSkillComponent_TypeDefinitionIndex = 37093;
+inline static constexpr unsigned int JIONCIBJGOK_RF_PlayerSkillComponent_TypeDefinitionIndex = 38021;
 
 	enum class JIONCIBJGOK_RF_PlayerSkillComponent : ::System::Byte
 	{

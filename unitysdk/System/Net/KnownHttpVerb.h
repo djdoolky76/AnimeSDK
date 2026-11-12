@@ -5,9 +5,9 @@ namespace System { class String; }
 namespace System::Collections::Specialized { class ListDictionary; }
 namespace System::Net { class KnownHttpVerb; }
 
-#define SYSTEM_NET_KNOWNHTTPVERB_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F068AA0)
-#define SYSTEM_NET_KNOWNHTTPVERB_CTOR_OFFSET UNITYSDK_OFFSET(0x1F068A80)
-#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x1F03EFE0)
+#define SYSTEM_NET_KNOWNHTTPVERB_CCTOR_OFFSET UNITYSDK_OFFSET(0x203184F0)
+#define SYSTEM_NET_KNOWNHTTPVERB_CTOR_OFFSET UNITYSDK_OFFSET(0x203184D0)
+#define SYSTEM_NET_KNOWNHTTPVERB_PARSE_OFFSET UNITYSDK_OFFSET(0x202EEA70)
 
 namespace System::Net
 {
@@ -17,43 +17,43 @@ namespace System::Net
 	{
 	public:
 		::System::String* Name; // 0x10
-		::System::Boolean RequireContentBody; // 0x18
-		::System::Boolean ExpectNoContentResponse; // 0x19
-		::System::Boolean ContentBodyNotAllowed; // 0x1A
+		::System::Boolean ContentBodyNotAllowed; // 0x18
+		::System::Boolean RequireContentBody; // 0x19
+		::System::Boolean ExpectNoContentResponse; // 0x1A
 		::System::Boolean ConnectRequest; // 0x1B
-		static ::System::Net::KnownHttpVerb** StaticGet_Head()
+		static ::System::Net::KnownHttpVerb** StaticGet_Get()
 		{
-			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x26560);
+			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x32190);
 		}
 
 		static ::System::Net::KnownHttpVerb** StaticGet_Post()
 		{
-			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x26568);
-		}
-
-		static ::System::Net::KnownHttpVerb** StaticGet_Get()
-		{
-			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x26570);
-		}
-
-		static ::System::Collections::Specialized::ListDictionary** StaticGet_NamedHeaders()
-		{
-			return (::System::Collections::Specialized::ListDictionary**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x26578);
+			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x32198);
 		}
 
 		static ::System::Net::KnownHttpVerb** StaticGet_Put()
 		{
-			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x26580);
-		}
-
-		static ::System::Net::KnownHttpVerb** StaticGet_MkCol()
-		{
-			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x26588);
+			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x321A0);
 		}
 
 		static ::System::Net::KnownHttpVerb** StaticGet_Connect()
 		{
-			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x26590);
+			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x321A8);
+		}
+
+		static ::System::Net::KnownHttpVerb** StaticGet_Head()
+		{
+			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x321B0);
+		}
+
+		static ::System::Net::KnownHttpVerb** StaticGet_MkCol()
+		{
+			return (::System::Net::KnownHttpVerb**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x321B8);
+		}
+
+		static ::System::Collections::Specialized::ListDictionary** StaticGet_NamedHeaders()
+		{
+			return (::System::Collections::Specialized::ListDictionary**)UnitySDK::FromName("System.Net", "KnownHttpVerb")->GetStaticField(0x321C0);
 		}
 
 		::System::Void _ctor(::System::String* a1, ::System::Boolean a2, ::System::Boolean a3, ::System::Boolean a4, ::System::Boolean a5)

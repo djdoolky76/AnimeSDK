@@ -4,12 +4,12 @@
 namespace HoudiniEngineUnity { class HEU_SessionBase; }
 namespace System { class String; }
 
-#define HOUDINIENGINEUNITY_HEU_GEOSYNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8FC380)
-#define HOUDINIENGINEUNITY_HEU_GEOSYNC_SETUPLOADTASK_OFFSET UNITYSDK_OFFSET(0x1B8FC2C0)
+#define HOUDINIENGINEUNITY_HEU_GEOSYNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA852F0)
+#define HOUDINIENGINEUNITY_HEU_GEOSYNC_SETUPLOADTASK_OFFSET UNITYSDK_OFFSET(0x1CA85230)
 
 namespace HoudiniEngineUnity
 {
-	inline static constexpr unsigned int HEU_GeoSync_TypeDefinitionIndex = 40597;
+	inline static constexpr unsigned int HEU_GeoSync_TypeDefinitionIndex = 41572;
 
 	class HEU_GeoSync : public ::HoudiniEngineUnity::HEU_BaseSync
 	{

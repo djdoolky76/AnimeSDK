@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define SYSTEM_NET_TIMERTHREAD_QUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F08D390)
+#define SYSTEM_NET_TIMERTHREAD_QUEUE_CTOR_OFFSET UNITYSDK_OFFSET(0x2033DF20)
 
 namespace System::Net
 {

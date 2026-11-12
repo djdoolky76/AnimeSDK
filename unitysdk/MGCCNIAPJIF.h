@@ -5,11 +5,11 @@
 namespace RPG::Client { class IAvatarSkinData; }
 namespace RPG::Client { template <typename T1, typename T2> class LRUCache_2; }
 
-#define MGCCNIAPJIF_CTOR_OFFSET UNITYSDK_OFFSET(0xB915E70)
-#define MGCCNIAPJIF_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0xB915DF0)
-#define MGCCNIAPJIF_IAONPECOKLB_OFFSET UNITYSDK_OFFSET(0xB915D70)
+#define MGCCNIAPJIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC1C8690)
+#define MGCCNIAPJIF_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0xC1C8610)
+#define MGCCNIAPJIF_IAONPECOKLB_OFFSET UNITYSDK_OFFSET(0xC1C8590)
 
-inline static constexpr unsigned int MGCCNIAPJIF_TypeDefinitionIndex = 62791;
+inline static constexpr unsigned int MGCCNIAPJIF_TypeDefinitionIndex = 64229;
 
 	class MGCCNIAPJIF : public ::System::Object
 	{

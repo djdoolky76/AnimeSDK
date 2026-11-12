@@ -7,23 +7,23 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenEndingRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENENDINGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D366FC0)
-#define RPG_GAMECORE_ACTIVITYHIPPLENENDINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D366BE0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENENDINGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5758F0)
+#define RPG_GAMECORE_ACTIVITYHIPPLENENDINGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E575510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenEndingRow_TypeDefinitionIndex = 11673;
+	inline static constexpr unsigned int ActivityHipplenEndingRow_TypeDefinitionIndex = 11724;
 
 	class ActivityHipplenEndingRow : public ::System::Object
 	{
 	public:
 		::System::String* ImagePath; // 0x10
-		::RPG::Client::TextID UnlockDesc; // 0x18
-		::RPG::Client::TextID Name; // 0x28
-		::System::Boolean IsShowInGuidePage; // 0x38
+		::RPG::GameCore::HipplenStatType StatType; // 0x18
+		::System::UInt32 RewardID; // 0x1C
+		::RPG::Client::TextID Name; // 0x20
+		::RPG::Client::TextID UnlockDesc; // 0x30
+		::System::Boolean IsShowInGuidePage; // 0x40
 		::System::Byte _padding0[0x3];
-		::System::UInt32 RewardID; // 0x3C
-		::RPG::GameCore::HipplenStatType StatType; // 0x40
 		::System::UInt32 ID; // 0x44
 		::RPG::Client::TextID Desc; // 0x48
 		::System::Void _ctor()

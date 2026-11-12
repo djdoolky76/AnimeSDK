@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class LBJLBMOOJGM;
 
-#define NIOFJNPDHPI_CTOR_OFFSET UNITYSDK_OFFSET(0xBC058F0)
-#define NIOFJNPDHPI_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBC05840)
+#define NIOFJNPDHPI_CTOR_OFFSET UNITYSDK_OFFSET(0xC4E8AD0)
+#define NIOFJNPDHPI_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xC4E8A20)
 
-inline static constexpr unsigned int NIOFJNPDHPI_TypeDefinitionIndex = 80251;
+inline static constexpr unsigned int NIOFJNPDHPI_TypeDefinitionIndex = 83028;
 
 	class NIOFJNPDHPI : public ::System::Object
 	{

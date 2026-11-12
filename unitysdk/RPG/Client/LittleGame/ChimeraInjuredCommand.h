@@ -4,20 +4,21 @@
 namespace RPG::Client::Prop { class ChimeraBattlePuzzleBoard; }
 namespace System { class Action; }
 
-#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xD423010)
-#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xD422FB0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_CTOR_OFFSET UNITYSDK_OFFSET(0xDE763A0)
+#define RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDE76340)
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraInjuredCommand_TypeDefinitionIndex = 76630;
+	inline static constexpr unsigned int ChimeraInjuredCommand_TypeDefinitionIndex = 78961;
 
 	class ChimeraInjuredCommand : public ::System::Object
 	{
 	public:
-		::System::Single ChangeVal; // 0x10
-		::System::UInt32 InjuredChimeraID; // 0x14
+		::System::Boolean IsByWork; // 0x10
+		::System::Byte _padding0[0x3];
+		::System::Single ChangeVal; // 0x14
 		::System::Single CurVal; // 0x18
-		::System::Boolean IsByWork; // 0x1C
+		::System::UInt32 InjuredChimeraID; // 0x1C
 		::System::Void _ctor(::System::UInt32 a1, ::System::Single a2, ::System::Single a3, ::System::Boolean a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::UInt32, ::System::Single, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + RPG_CLIENT_LITTLEGAME_CHIMERAINJUREDCOMMAND_CTOR_OFFSET))(this, a1, a2, a3, a4);

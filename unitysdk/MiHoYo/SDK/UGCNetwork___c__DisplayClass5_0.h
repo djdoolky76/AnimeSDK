@@ -4,19 +4,19 @@
 namespace System { class String; }
 namespace UnityEngine::Networking { class UnityWebRequest; }
 
-#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB063D70)
-#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0__HTTPPOSTBINARY_B__0_OFFSET UNITYSDK_OFFSET(0xB063F00)
+#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C4A40)
+#define MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0__HTTPPOSTBINARY_B__0_OFFSET UNITYSDK_OFFSET(0xB6C4C90)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int UGCNetwork___c__DisplayClass5_0_TypeDefinitionIndex = 46454;
+	inline static constexpr unsigned int UGCNetwork___c__DisplayClass5_0_TypeDefinitionIndex = 47482;
 
 	class UGCNetwork___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::System::String* strContentType; // 0x10
-		::Il2CppArray<::System::Byte>* bodyRaw; // 0x18
-		::System::String* url; // 0x20
+		::Il2CppArray<::System::Byte>* bodyRaw; // 0x10
+		::System::String* url; // 0x18
+		::System::String* strContentType; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UGCNETWORK___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

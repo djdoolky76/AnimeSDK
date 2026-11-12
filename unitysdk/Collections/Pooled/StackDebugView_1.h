@@ -5,7 +5,7 @@ namespace Collections::Pooled { template <typename T> class PooledStack_1; }
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int StackDebugView_1_TypeDefinitionIndex = 5133;
+	inline static constexpr unsigned int StackDebugView_1_TypeDefinitionIndex = 5138;
 
 	template <typename T>
 	class StackDebugView_1 : public ::System::Object

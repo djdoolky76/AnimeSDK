@@ -6,37 +6,37 @@ namespace RPG::Client { class TextIcons_KMPBAAJEKPL; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_TEXTICONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE212F30)
-#define RPG_CLIENT_TEXTICONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE212F70)
-#define RPG_CLIENT_TEXTICONS___C__CLEAR_B__10_0_OFFSET UNITYSDK_OFFSET(0xE212F90)
-#define RPG_CLIENT_TEXTICONS___C__ONDISABLE_B__5_0_OFFSET UNITYSDK_OFFSET(0xE212F80)
-#define RPG_CLIENT_TEXTICONS___C__UPDATEKEY_B__19_0_OFFSET UNITYSDK_OFFSET(0xE212FC0)
+#define RPG_CLIENT_TEXTICONS___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xECBFF20)
+#define RPG_CLIENT_TEXTICONS___C_CTOR_OFFSET UNITYSDK_OFFSET(0xECBFF50)
+#define RPG_CLIENT_TEXTICONS___C__CLEAR_B__10_0_OFFSET UNITYSDK_OFFSET(0xECBFF70)
+#define RPG_CLIENT_TEXTICONS___C__ONDISABLE_B__5_0_OFFSET UNITYSDK_OFFSET(0xECBFF60)
+#define RPG_CLIENT_TEXTICONS___C__UPDATEKEY_B__19_0_OFFSET UNITYSDK_OFFSET(0xECBFFA0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TextIcons___c_TypeDefinitionIndex = 72683;
+	inline static constexpr unsigned int TextIcons___c_TypeDefinitionIndex = 74762;
 
 	class TextIcons___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__10_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x150B0);
-		}
-
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x150B8);
-		}
-
-		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__19_0()
-		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x150C0);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25480);
 		}
 
 		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__5_0()
 		{
-			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x150C8);
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25488);
+		}
+
+		static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet___9__19_0()
+		{
+			return (::System::Func_2<::System::Object*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25490);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x25498);
 		}
 
 		static ::System::Void _cctor()

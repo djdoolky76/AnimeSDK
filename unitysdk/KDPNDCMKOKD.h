@@ -2,18 +2,18 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define KDPNDCMKOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB36F0E0)
+#define KDPNDCMKOKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBBF99A0)
 
-inline static constexpr unsigned int KDPNDCMKOKD_TypeDefinitionIndex = 74904;
+inline static constexpr unsigned int KDPNDCMKOKD_TypeDefinitionIndex = 77231;
 
 	class KDPNDCMKOKD : public ::System::Object
 	{
 	public:
 		::System::UInt32 LNLDJDODOIL; // 0x10
-		::System::UInt32 BEGLJAJNODJ; // 0x14
-		::System::UInt32 GJEMOLIJJMP; // 0x18
-		::System::UInt32 NBJFAIOOHIH; // 0x1C
-		::System::UInt32 CECFNAHHIKG; // 0x20
+		::System::UInt32 CECFNAHHIKG; // 0x14
+		::System::UInt32 BEGLJAJNODJ; // 0x18
+		::System::UInt32 GJEMOLIJJMP; // 0x1C
+		::System::UInt32 NBJFAIOOHIH; // 0x20
 		::System::UInt32 AILLFLECICB; // 0x24
 		::System::Void _ctor()
 		{

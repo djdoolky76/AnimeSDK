@@ -3,10 +3,10 @@
 class BJILOCGMKOO;
 namespace RPG::GameCore { class TaskContext; }
 
-#define IDHJBIPIGJG_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED4010)
-#define IDHJBIPIGJG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ED4040)
+#define IDHJBIPIGJG_CTOR_OFFSET UNITYSDK_OFFSET(0x16E3E780)
+#define IDHJBIPIGJG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16E3E7B0)
 
-inline static constexpr unsigned int IDHJBIPIGJG_TypeDefinitionIndex = 55317;
+inline static constexpr unsigned int IDHJBIPIGJG_TypeDefinitionIndex = 56499;
 
 	class IDHJBIPIGJG
 	{

@@ -6,10 +6,10 @@ class JCMJBMIKIFO;
 class KKGMHJNMOID;
 namespace System { class String; }
 
-#define NPCHDCDLCPD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFA2C0)
-#define NPCHDCDLCPD_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xBCFA2D0)
+#define NPCHDCDLCPD_CTOR_OFFSET UNITYSDK_OFFSET(0xC5E9490)
+#define NPCHDCDLCPD_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xC5E94A0)
 
-inline static constexpr unsigned int NPCHDCDLCPD_TypeDefinitionIndex = 79702;
+inline static constexpr unsigned int NPCHDCDLCPD_TypeDefinitionIndex = 82479;
 
 	class NPCHDCDLCPD : public ::System::Object
 	{

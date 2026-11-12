@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/FMPCODLIOLG.h"
 
-#define CMJHOOMIIPP_CTOR_OFFSET UNITYSDK_OFFSET(0xDA39150)
+#define CMJHOOMIIPP_CTOR_OFFSET UNITYSDK_OFFSET(0xE378B80)
 
-inline static constexpr unsigned int CMJHOOMIIPP_TypeDefinitionIndex = 71823;
+inline static constexpr unsigned int CMJHOOMIIPP_TypeDefinitionIndex = 73844;
 
 	class CMJHOOMIIPP : public ::FMPCODLIOLG
 	{

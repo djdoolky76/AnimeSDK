@@ -4,57 +4,57 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define LFNMHPAIFOD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB685BC0)
-#define LFNMHPAIFOD_MKGBADKMKBA_OFFSET UNITYSDK_OFFSET(0xB685B20)
+#define LFNMHPAIFOD_CCTOR_OFFSET UNITYSDK_OFFSET(0xBF1B8A0)
+#define LFNMHPAIFOD_MKGBADKMKBA_OFFSET UNITYSDK_OFFSET(0xBF1B800)
 
-inline static constexpr unsigned int LFNMHPAIFOD_TypeDefinitionIndex = 72740;
+inline static constexpr unsigned int LFNMHPAIFOD_TypeDefinitionIndex = 74819;
 
 	class LFNMHPAIFOD : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_FPIGENIAMCJ()
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_LCOIAHCPNJF()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50760);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_ODJIMHMIEFO()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50768);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EKHLMLLCCEF()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50770);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EPBPOIBDALD()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50778);
-		}
-
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_HBIMPMOAMPF()
-		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50780);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C570);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_CFNCOIPJCHJ()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50788);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C578);
 		}
 
-		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_LCOIAHCPNJF()
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_HBIMPMOAMPF()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50790);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C580);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EPBPOIBDALD()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C588);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EKHLMLLCCEF()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C590);
 		}
 
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_OAEDEOALAEA()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x50798);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C598);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_ODJIMHMIEFO()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C5A0);
+		}
+
+		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_FPIGENIAMCJ()
+		{
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x3C5A8);
 		}
 
 		static ::System::Boolean* StaticGet_OMIMNLGICLE()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0x12170);
+			return (::System::Boolean*)UnitySDK::FromName("", "LFNMHPAIFOD")->GetStaticField(0xD530);
 		}
 
 		static ::System::Void _cctor()

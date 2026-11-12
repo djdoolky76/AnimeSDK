@@ -7,22 +7,22 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define EIAPGPIHHKO_ACLFABNHBDM_OFFSET UNITYSDK_OFFSET(0x154BB8F0)
-#define EIAPGPIHHKO_CDHDLODJJKD_OFFSET UNITYSDK_OFFSET(0x154BBA40)
-#define EIAPGPIHHKO_CTOR_OFFSET UNITYSDK_OFFSET(0x154BB6B0)
-#define EIAPGPIHHKO_JCMKEOIHHEG_OFFSET UNITYSDK_OFFSET(0x154BB710)
-#define EIAPGPIHHKO_KBGOBCHKFPJ_OFFSET UNITYSDK_OFFSET(0x154BB7B0)
-#define EIAPGPIHHKO_MGPJKBKPIMO_OFFSET UNITYSDK_OFFSET(0x154BB850)
-#define EIAPGPIHHKO_POJDCEKAMHH_OFFSET UNITYSDK_OFFSET(0x154BB6C0)
+#define EIAPGPIHHKO_ACLFABNHBDM_OFFSET UNITYSDK_OFFSET(0x163FA020)
+#define EIAPGPIHHKO_CDHDLODJJKD_OFFSET UNITYSDK_OFFSET(0x163FA170)
+#define EIAPGPIHHKO_CTOR_OFFSET UNITYSDK_OFFSET(0x163F9DE0)
+#define EIAPGPIHHKO_JCMKEOIHHEG_OFFSET UNITYSDK_OFFSET(0x163F9E40)
+#define EIAPGPIHHKO_KBGOBCHKFPJ_OFFSET UNITYSDK_OFFSET(0x163F9EE0)
+#define EIAPGPIHHKO_MGPJKBKPIMO_OFFSET UNITYSDK_OFFSET(0x163F9F80)
+#define EIAPGPIHHKO_POJDCEKAMHH_OFFSET UNITYSDK_OFFSET(0x163F9DF0)
 
-inline static constexpr unsigned int EIAPGPIHHKO_TypeDefinitionIndex = 49691;
+inline static constexpr unsigned int EIAPGPIHHKO_TypeDefinitionIndex = 50767;
 
 	class EIAPGPIHHKO : public ::System::Object
 	{
 	public:
-		::EGKKDIOKFDA* CFKHNPGEAJA; // 0x10
-		::System::Collections::Generic::List_1<::Sofa::BaseSofaControl*>* GFFAGJOELCH; // 0x18
-		::System::Action_1<::Sofa::BaseSofaControl*>* DLLGEJMHAPN; // 0x20
+		::System::Collections::Generic::List_1<::Sofa::BaseSofaControl*>* GFFAGJOELCH; // 0x10
+		::System::Action_1<::Sofa::BaseSofaControl*>* DLLGEJMHAPN; // 0x18
+		::EGKKDIOKFDA* CFKHNPGEAJA; // 0x20
 		::System::Void _ctor(::EGKKDIOKFDA* a1, ::System::Action_1<::Sofa::BaseSofaControl*>* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::EGKKDIOKFDA*, ::System::Action_1<::Sofa::BaseSofaControl*>*))((::PBYTE)hIl2Cpp + EIAPGPIHHKO_CTOR_OFFSET))(this, a1, a2);

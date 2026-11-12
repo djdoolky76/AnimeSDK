@@ -4,20 +4,20 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define LMIACDNCFJN_CKKGEBFPKAE_OFFSET UNITYSDK_OFFSET(0xB782B70)
-#define LMIACDNCFJN_CTOR_OFFSET UNITYSDK_OFFSET(0xB782B50)
+#define LMIACDNCFJN_CKKGEBFPKAE_OFFSET UNITYSDK_OFFSET(0xC022C50)
+#define LMIACDNCFJN_CTOR_OFFSET UNITYSDK_OFFSET(0xC022C30)
 
-inline static constexpr unsigned int LMIACDNCFJN_TypeDefinitionIndex = 64696;
+inline static constexpr unsigned int LMIACDNCFJN_TypeDefinitionIndex = 66237;
 
 	class LMIACDNCFJN : public ::System::Object
 	{
 	public:
-		::System::String* Title; // 0x10
-		::Il2CppArray<::System::Object*>* RoleList; // 0x18
-		::System::UInt32 SectionID; // 0x20
-		::System::UInt32 PlayerLevel; // 0x24
-		::System::UInt32 UID; // 0x28
-		::System::UInt32 DivisiionID; // 0x2C
+		::Il2CppArray<::System::Object*>* RoleList; // 0x10
+		::System::String* Title; // 0x18
+		::System::UInt32 DivisiionID; // 0x20
+		::System::UInt32 UID; // 0x24
+		::System::UInt32 SectionID; // 0x28
+		::System::UInt32 PlayerLevel; // 0x2C
 		::System::UInt32 CampID; // 0x30
 		::System::UInt32 ChapterID; // 0x34
 		::System::Void _ctor()

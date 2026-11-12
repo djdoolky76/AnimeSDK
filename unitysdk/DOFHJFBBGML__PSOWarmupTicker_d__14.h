@@ -9,31 +9,31 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_CTOR_OFFSET UNITYSDK_OFFSET(0x11FE45D0)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x11FE58D0)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_OBJECT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x11FE5EB0)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11FE5E40)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x11FE5F30)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x11FE5EA0)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x11FE5E50)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x11FE5760)
-#define DOFHJFBBGML__PSOWARMUPTICKER_D__14___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x11FE57A0)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_CTOR_OFFSET UNITYSDK_OFFSET(0x12DDDEA0)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_MOVENEXT_OFFSET UNITYSDK_OFFSET(0x12DDF1A0)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERABLE_SYSTEM_OBJECT__GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x12DDF780)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12DDF710)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x12DDF800)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0x12DDF770)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x12DDF720)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12DDF030)
+#define DOFHJFBBGML__PSOWARMUPTICKER_D__14___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x12DDF070)
 
-inline static constexpr unsigned int DOFHJFBBGML__PSOWarmupTicker_d__14_TypeDefinitionIndex = 47426;
+inline static constexpr unsigned int DOFHJFBBGML__PSOWarmupTicker_d__14_TypeDefinitionIndex = 48455;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14>
 	class DOFHJFBBGML__PSOWarmupTicker_d__14 : public ::System::Object
 	{
 	public:
 		::DOFHJFBBGML* __4__this; // 0x10
-		::System::Object* __2__current; // 0x18
-		::System::Collections::IEnumerator* __7__wrap3; // 0x20
-		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* warmupPSOs; // 0x28
-		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* __3__warmupPSOs; // 0x30
-		::System::Int32 __l__initialThreadId; // 0x38
-		::System::Int32 _warmupCntRemain_5__3; // 0x3C
+		::System::Collections::IEnumerator* __7__wrap3; // 0x18
+		::System::Object* __2__current; // 0x20
+		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* __3__warmupPSOs; // 0x28
+		::System::Collections::Generic::Dictionary_2<::WarmupQualitySet, ::System::Collections::Generic::List_1<::System::Object*>*>* warmupPSOs; // 0x30
+		::System::Int32 _warmupCntRemain_5__3; // 0x38
+		::System::Int32 __1__state; // 0x3C
 		::System::Int32 _warmupCntRemainDuringTick_5__2; // 0x40
-		::System::Int32 __1__state; // 0x44
+		::System::Int32 __l__initialThreadId; // 0x44
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + DOFHJFBBGML__PSOWARMUPTICKER_D__14_CTOR_OFFSET))(this, a1);

@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define NEOPJOKAPID_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D1FD840)
-#define NEOPJOKAPID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D1FE390)
-#define NEOPJOKAPID_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D1FDBE0)
-#define NEOPJOKAPID_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1FD880)
-#define NEOPJOKAPID_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D1FE0D0)
-#define NEOPJOKAPID_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D1FDC80)
-#define NEOPJOKAPID_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D1FDCD0)
-#define NEOPJOKAPID_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D1FDAB0)
-#define NEOPJOKAPID_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D1FE070)
-#define NEOPJOKAPID_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D1FE200)
-#define NEOPJOKAPID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1FDB40)
-#define NEOPJOKAPID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1FDFF0)
+#define NEOPJOKAPID_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E4124B0)
+#define NEOPJOKAPID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E413000)
+#define NEOPJOKAPID_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E412850)
+#define NEOPJOKAPID_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E4124F0)
+#define NEOPJOKAPID_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E412D40)
+#define NEOPJOKAPID_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E4128F0)
+#define NEOPJOKAPID_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E412940)
+#define NEOPJOKAPID_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E412720)
+#define NEOPJOKAPID_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E412CE0)
+#define NEOPJOKAPID_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E412E70)
+#define NEOPJOKAPID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E4127B0)
+#define NEOPJOKAPID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E412C60)
 
-inline static constexpr unsigned int NEOPJOKAPID_TypeDefinitionIndex = 15177;
+inline static constexpr unsigned int NEOPJOKAPID_TypeDefinitionIndex = 15333;
 
 	class NEOPJOKAPID : public ::System::Object
 	{
 	public:
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DifficultyAdjustmentStageRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DifficultyAdjustmentStageRow*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x2DD20);
-		}
-
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x2DD28);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x483C0);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DifficultyAdjustmentStageRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::DifficultyAdjustmentStageRow*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x483C8);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x2DD30);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x9610);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x483D0);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0x9611);
+			return (::System::Byte*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0xEE90);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "NEOPJOKAPID")->GetStaticField(0xEE91);
 		}
 
 		static ::System::Void _cctor()

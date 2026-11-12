@@ -4,18 +4,18 @@
 class AIIAOELLFAP;
 namespace System { class Object; }
 
-#define AIIAOELLFAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E27CAE0)
-#define AIIAOELLFAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27CB20)
-#define AIIAOELLFAP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E27CB30)
+#define AIIAOELLFAP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F530C80)
+#define AIIAOELLFAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F530CC0)
+#define AIIAOELLFAP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F530CD0)
 
-inline static constexpr unsigned int AIIAOELLFAP___c_TypeDefinitionIndex = 27954;
+inline static constexpr unsigned int AIIAOELLFAP___c_TypeDefinitionIndex = 28544;
 
 	class AIIAOELLFAP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x32F00);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D720);
 		}
 
 		static ::System::Void _cctor()

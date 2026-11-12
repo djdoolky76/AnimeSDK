@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class LockTargetActionDelay; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define OKFIEONPGGE_CTOR_OFFSET UNITYSDK_OFFSET(0xBED7EC0)
-#define OKFIEONPGGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBED7EF0)
+#define OKFIEONPGGE_CTOR_OFFSET UNITYSDK_OFFSET(0xC7D0020)
+#define OKFIEONPGGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC7D0050)
 
-inline static constexpr unsigned int OKFIEONPGGE_TypeDefinitionIndex = 55151;
+inline static constexpr unsigned int OKFIEONPGGE_TypeDefinitionIndex = 56332;
 
 	class OKFIEONPGGE
 	{

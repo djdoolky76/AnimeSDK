@@ -5,25 +5,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCOINRESBARCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD5F5FD0)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCOINRESBARCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD5F6010)
-#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCOINRESBARCONTROL___C___ONBINDVIEWMODEL_B__10_6_OFFSET UNITYSDK_OFFSET(0xD5F6020)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCOINRESBARCONTROL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE048EB0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCOINRESBARCONTROL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE048EF0)
+#define RPG_CLIENT_MECHCRAFT_VIEW_MECHCRAFTCOINRESBARCONTROL___C___ONBINDVIEWMODEL_B__10_6_OFFSET UNITYSDK_OFFSET(0xE048F00)
 
 namespace RPG::Client::MechCraft::View
 {
-	inline static constexpr unsigned int MechCraftCoinResBarControl___c_TypeDefinitionIndex = 79813;
+	inline static constexpr unsigned int MechCraftCoinResBarControl___c_TypeDefinitionIndex = 82590;
 
 	class MechCraftCoinResBarControl___c : public ::System::Object
 	{
 	public:
-		static ::System::Func_2<::System::UInt32, ::System::String*>** StaticGet___9__10_6()
-		{
-			return (::System::Func_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x57310);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x57318);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x5F670);
+		}
+
+		static ::System::Func_2<::System::UInt32, ::System::String*>** StaticGet___9__10_6()
+		{
+			return (::System::Func_2<::System::UInt32, ::System::String*>**)UnitySDK::FromName("RPG.Client.MechCraft.View", "<>c")->GetStaticField(0x5F678);
 		}
 
 		static ::System::Void _cctor()

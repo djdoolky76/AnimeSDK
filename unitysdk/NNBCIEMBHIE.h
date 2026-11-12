@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class PerformDelayExecute; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NNBCIEMBHIE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9BC80)
-#define NNBCIEMBHIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC9BCB0)
+#define NNBCIEMBHIE_CTOR_OFFSET UNITYSDK_OFFSET(0xC5841D0)
+#define NNBCIEMBHIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC584200)
 
-inline static constexpr unsigned int NNBCIEMBHIE_TypeDefinitionIndex = 55259;
+inline static constexpr unsigned int NNBCIEMBHIE_TypeDefinitionIndex = 56441;
 
 	class NNBCIEMBHIE
 	{

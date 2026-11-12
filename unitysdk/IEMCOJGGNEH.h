@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdventureByCheckMoveInput; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IEMCOJGGNEH_CTOR_OFFSET UNITYSDK_OFFSET(0x15F050B0)
-#define IEMCOJGGNEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15F050E0)
+#define IEMCOJGGNEH_CTOR_OFFSET UNITYSDK_OFFSET(0x16E73B80)
+#define IEMCOJGGNEH_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16E73BB0)
 
-inline static constexpr unsigned int IEMCOJGGNEH_TypeDefinitionIndex = 53123;
+inline static constexpr unsigned int IEMCOJGGNEH_TypeDefinitionIndex = 54285;
 
 	class IEMCOJGGNEH
 	{

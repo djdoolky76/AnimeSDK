@@ -8,12 +8,12 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define ADMFPAJJPIF_CCTOR_OFFSET UNITYSDK_OFFSET(0xB146F70)
-#define ADMFPAJJPIF_CTOR_OFFSET UNITYSDK_OFFSET(0xB146EF0)
-#define ADMFPAJJPIF_JOLDDCGIKIL_OFFSET UNITYSDK_OFFSET(0xB146C10)
-#define ADMFPAJJPIF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB146E60)
+#define ADMFPAJJPIF_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7AC250)
+#define ADMFPAJJPIF_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AC1D0)
+#define ADMFPAJJPIF_JOLDDCGIKIL_OFFSET UNITYSDK_OFFSET(0xB7ABED0)
+#define ADMFPAJJPIF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB7AC140)
 
-inline static constexpr unsigned int ADMFPAJJPIF_TypeDefinitionIndex = 73751;
+inline static constexpr unsigned int ADMFPAJJPIF_TypeDefinitionIndex = 75875;
 
 	class ADMFPAJJPIF : public ::System::Object
 	{
@@ -21,7 +21,7 @@ inline static constexpr unsigned int ADMFPAJJPIF_TypeDefinitionIndex = 73751;
 		::System::Collections::Generic::Dictionary_2<::System::String*, ::KDEFLDJHDEB*>* BEHHICMOFIE; // 0x10
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_OEHLFICEHCO()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "ADMFPAJJPIF")->GetStaticField(0x4B930);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("", "ADMFPAJJPIF")->GetStaticField(0x40B60);
 		}
 
 		::System::Void _ctor()

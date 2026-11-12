@@ -4,24 +4,24 @@
 #include "unitysdk/RPG/GameCore/EventType.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xE6F2A40)
-#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6F2AB0)
-#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6F29A0)
-#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6F29F0)
+#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_CLEAR_OFFSET UNITYSDK_OFFSET(0xF1F4ED0)
+#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xF1F4F40)
+#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF1F4E30)
+#define RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF1F4E80)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelGridFightWaveProgressChange_TypeDefinitionIndex = 56736;
+	inline static constexpr unsigned int LevelGridFightWaveProgressChange_TypeDefinitionIndex = 57960;
 
 	class LevelGridFightWaveProgressChange : public ::CMPGEAFHHDC
 	{
 	public:
-		::RPG::GameCore::FixPoint DeadLineProgress; // 0x18
-		::RPG::GameCore::FixPoint CurrentProgress; // 0x20
-		::RPG::GameCore::FixPoint TotalProgress; // 0x28
-		::System::Int32 CurrentWaveIndex; // 0x30
+		::System::Int32 CurrentWaveIndex; // 0x18
 		::System::Byte _padding0[0x4];
-		::RPG::GameCore::FixPoint MonsterRemainSummonCount; // 0x38
+		::RPG::GameCore::FixPoint TotalProgress; // 0x20
+		::RPG::GameCore::FixPoint MonsterRemainSummonCount; // 0x28
+		::RPG::GameCore::FixPoint DeadLineProgress; // 0x30
+		::RPG::GameCore::FixPoint CurrentProgress; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELGRIDFIGHTWAVEPROGRESSCHANGE_CTOR_OFFSET))(this);

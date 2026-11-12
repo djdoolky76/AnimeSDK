@@ -4,18 +4,18 @@
 class HCFLAPPBPOP;
 namespace System { class Object; }
 
-#define HCFLAPPBPOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E53A810)
-#define HCFLAPPBPOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E53A850)
-#define HCFLAPPBPOP___C___CCTOR_B__90_0_OFFSET UNITYSDK_OFFSET(0x1E53A860)
+#define HCFLAPPBPOP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F831A00)
+#define HCFLAPPBPOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F831A40)
+#define HCFLAPPBPOP___C___CCTOR_B__90_0_OFFSET UNITYSDK_OFFSET(0x1F831A50)
 
-inline static constexpr unsigned int HCFLAPPBPOP___c_TypeDefinitionIndex = 28614;
+inline static constexpr unsigned int HCFLAPPBPOP___c_TypeDefinitionIndex = 29204;
 
 	class HCFLAPPBPOP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2FB50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x25040);
 		}
 
 		static ::System::Void _cctor()

@@ -3,14 +3,14 @@
 #include "unitysdk/UnityEngine/Vector2.h"
 namespace UnityEngine { class Collider2D; }
 
-#define UNITYENGINE_RAYCASTHIT2D_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x3C848C0)
-#define UNITYENGINE_RAYCASTHIT2D_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x3C313C0)
+#define UNITYENGINE_RAYCASTHIT2D_GET_COLLIDER_OFFSET UNITYSDK_OFFSET(0x3ED3AE0)
+#define UNITYENGINE_RAYCASTHIT2D_GET_DISTANCE_OFFSET UNITYSDK_OFFSET(0x25E00)
 #define UNITYENGINE_RAYCASTHIT2D_GET_NORMAL_OFFSET UNITYSDK_OFFSET(0x94D0)
 #define UNITYENGINE_RAYCASTHIT2D_GET_POINT_OFFSET UNITYSDK_OFFSET(0x1D40)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int RaycastHit2D_TypeDefinitionIndex = 5811;
+	inline static constexpr unsigned int RaycastHit2D_TypeDefinitionIndex = 5819;
 
 	struct alignas(4) RaycastHit2D
 	{

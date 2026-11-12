@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_LogoutConfirmElements_TypeDefinitionIndex = 9226;
+	inline static constexpr unsigned int PluginUIConstants_LogoutConfirmElements_TypeDefinitionIndex = 9235;
 
 	class PluginUIConstants_LogoutConfirmElements : public ::System::Object
 	{

@@ -4,12 +4,13 @@ class CBJMIBEHHND;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPPDAOGBINN_CTOR_OFFSET UNITYSDK_OFFSET(0x15922BC0)
-#define FPPDAOGBINN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15922BF0)
-#define FPPDAOGBINN_JONMGNFBJLE_OFFSET UNITYSDK_OFFSET(0x15922E20)
-#define FPPDAOGBINN_LFGFOBFEJFD_OFFSET UNITYSDK_OFFSET(0x15922D90)
+#define FPPDAOGBINN_CTOR_OFFSET UNITYSDK_OFFSET(0x16856590)
+#define FPPDAOGBINN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x168565C0)
+#define FPPDAOGBINN_IIKGMKLKDOF_OFFSET UNITYSDK_OFFSET(0x16856810)
+#define FPPDAOGBINN_JONMGNFBJLE_OFFSET UNITYSDK_OFFSET(0x168568D0)
+#define FPPDAOGBINN_LFGFOBFEJFD_OFFSET UNITYSDK_OFFSET(0x16856780)
 
-inline static constexpr unsigned int FPPDAOGBINN_TypeDefinitionIndex = 54716;
+inline static constexpr unsigned int FPPDAOGBINN_TypeDefinitionIndex = 55883;
 
 	class FPPDAOGBINN
 	{
@@ -27,6 +28,11 @@ inline static constexpr unsigned int FPPDAOGBINN_TypeDefinitionIndex = 54716;
 		static ::System::Boolean LFGFOBFEJFD(::RPG::GameCore::GameEntity* a1)
 		{
 			return ((::System::Boolean(*)(::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + FPPDAOGBINN_LFGFOBFEJFD_OFFSET))(a1);
+		}
+
+		::System::Boolean IIKGMKLKDOF(::RPG::GameCore::GameEntity* a1)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::RPG::GameCore::GameEntity*))((::PBYTE)hIl2Cpp + FPPDAOGBINN_IIKGMKLKDOF_OFFSET))(this, a1);
 		}
 
 		::System::Boolean JONMGNFBJLE(::RPG::GameCore::GameEntity* a1)

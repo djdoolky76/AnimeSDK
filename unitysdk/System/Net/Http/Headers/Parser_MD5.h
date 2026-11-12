@@ -5,8 +5,8 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE57AE0)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x1EE57A30)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5_CCTOR_OFFSET UNITYSDK_OFFSET(0x20107470)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5_TRYPARSE_OFFSET UNITYSDK_OFFSET(0x201073C0)
 
 namespace System::Net::Http::Headers
 {
@@ -17,7 +17,7 @@ namespace System::Net::Http::Headers
 	public:
 		static ::System::Func_2<::System::Object*, ::System::String*>** StaticGet_ToString()
 		{
-			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "MD5")->GetStaticField(0x3220);
+			return (::System::Func_2<::System::Object*, ::System::String*>**)UnitySDK::FromName("System.Net.Http.Headers", "MD5")->GetStaticField(0x49270);
 		}
 
 		static ::System::Void _cctor()

@@ -3,7 +3,7 @@
 
 namespace UnityEngine::EventSystems
 {
-	inline static constexpr unsigned int IDragHandler_TypeDefinitionIndex = 6918;
+	inline static constexpr unsigned int IDragHandler_TypeDefinitionIndex = 6929;
 
 	class IDragHandler
 	{

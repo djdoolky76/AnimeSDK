@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_PCRESOLUTION_CTOR_OFFSET UNITYSDK_OFFSET(0xDA5E3E0)
+#define RPG_CLIENT_PCRESOLUTION_CTOR_OFFSET UNITYSDK_OFFSET(0xE4B3290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PCResolution_TypeDefinitionIndex = 67925;
+	inline static constexpr unsigned int PCResolution_TypeDefinitionIndex = 69871;
 
 	class PCResolution : public ::System::Object
 	{

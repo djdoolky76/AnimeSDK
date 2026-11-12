@@ -5,16 +5,16 @@ namespace UnityEngine { class CanvasGroup; }
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Text; }
 
-#define DBLCHICFCLA_IOMEFFKGEGD_CTOR_OFFSET UNITYSDK_OFFSET(0xE22E730)
+#define DBLCHICFCLA_IOMEFFKGEGD_CTOR_OFFSET UNITYSDK_OFFSET(0xEB8D5C0)
 
-inline static constexpr unsigned int DBLCHICFCLA_IOMEFFKGEGD_TypeDefinitionIndex = 73202;
+inline static constexpr unsigned int DBLCHICFCLA_IOMEFFKGEGD_TypeDefinitionIndex = 75317;
 
 	class DBLCHICFCLA_IOMEFFKGEGD : public ::System::Object
 	{
 	public:
-		::UnityEngine::UI::Text* KBEPAIAFLHL; // 0x10
+		::UnityEngine::Transform* DHIPFJBEJPI; // 0x10
 		::UnityEngine::CanvasGroup* OCPOBLJMBNF; // 0x18
-		::UnityEngine::Transform* DHIPFJBEJPI; // 0x20
+		::UnityEngine::UI::Text* KBEPAIAFLHL; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DBLCHICFCLA_IOMEFFKGEGD_CTOR_OFFSET))(this);

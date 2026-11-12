@@ -7,13 +7,13 @@ namespace RPG::GameCore { class AdventureCameraToOrthographic; }
 namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class DynamicString; }
 
-#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C47B0)
-#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3C47C0)
-#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C4780)
+#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D3A10)
+#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E5D3A20)
+#define RPG_GAMECORE_ADVENTURECAMERATOORTHOGRAPHIC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5D39E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCameraToOrthographic_TypeDefinitionIndex = 22137;
+	inline static constexpr unsigned int AdventureCameraToOrthographic_TypeDefinitionIndex = 22542;
 
 	class AdventureCameraToOrthographic : public ::RPG::GameCore::TaskConfig
 	{

@@ -6,13 +6,13 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelAuthTokenResult; }
 namespace MiHoYo::SDK::PC::OS { class XboxAuthTokenExtension; }
 namespace System { class String; }
 
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1BF22000)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1BF21FC0)
-#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1BF21FB0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0A8BC0)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_FROMJSON_OFFSET UNITYSDK_OFFSET(0x1D0A8B80)
+#define MIHOYO_SDK_PC_OS_HOYOCHANNELAUTHTOKENRESULT_TOJSON_OFFSET UNITYSDK_OFFSET(0x1D0A8B70)
 
 namespace MiHoYo::SDK::PC::OS
 {
-	inline static constexpr unsigned int HoYoChannelAuthTokenResult_TypeDefinitionIndex = 8597;
+	inline static constexpr unsigned int HoYoChannelAuthTokenResult_TypeDefinitionIndex = 8606;
 
 	class HoYoChannelAuthTokenResult : public ::MiHoYo::SDK::PC::OS::HoYoChannelBaseResult
 	{

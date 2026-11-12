@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class ParticleSystem; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD805680)
-#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xD805660)
+#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE2575C0)
+#define RPG_CLIENT_MONOEFFECTPLUGINPARTICLEREWIND_PARTICLESYSTEMITEM_CTOR_OFFSET UNITYSDK_OFFSET(0xE2575A0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginParticleRewind_ParticleSystemItem_TypeDefinitionIndex = 70092;
+	inline static constexpr unsigned int MonoEffectPluginParticleRewind_ParticleSystemItem_TypeDefinitionIndex = 72057;
 
 	class MonoEffectPluginParticleRewind_ParticleSystemItem : public ::System::Object
 	{

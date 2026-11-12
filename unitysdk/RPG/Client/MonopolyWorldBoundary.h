@@ -4,13 +4,13 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class RectTransform; }
 
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_CTOR_OFFSET UNITYSDK_OFFSET(0xD8B8DC0)
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_GETWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0xD8B8D60)
-#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_START_OFFSET UNITYSDK_OFFSET(0xD8B8BF0)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_CTOR_OFFSET UNITYSDK_OFFSET(0xE30B920)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_GETWORLDCORNERS_OFFSET UNITYSDK_OFFSET(0xE30B8C0)
+#define RPG_CLIENT_MONOPOLYWORLDBOUNDARY_START_OFFSET UNITYSDK_OFFSET(0xE30B750)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonopolyWorldBoundary_TypeDefinitionIndex = 72850;
+	inline static constexpr unsigned int MonopolyWorldBoundary_TypeDefinitionIndex = 74929;
 
 	class MonopolyWorldBoundary : public ::UnityEngine::MonoBehaviour
 	{

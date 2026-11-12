@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetAutoBlinkMaskRenderer; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PDFBPJLDBKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC010E20)
-#define PDFBPJLDBKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC010E50)
+#define PDFBPJLDBKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC9174C0)
+#define PDFBPJLDBKM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC9174F0)
 
-inline static constexpr unsigned int PDFBPJLDBKM_TypeDefinitionIndex = 55889;
+inline static constexpr unsigned int PDFBPJLDBKM_TypeDefinitionIndex = 57092;
 
 	class PDFBPJLDBKM
 	{

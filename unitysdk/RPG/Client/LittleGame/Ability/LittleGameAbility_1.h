@@ -7,7 +7,7 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::Client::LittleGame::Ability
 {
-	inline static constexpr unsigned int LittleGameAbility_1_TypeDefinitionIndex = 77362;
+	inline static constexpr unsigned int LittleGameAbility_1_TypeDefinitionIndex = 79696;
 
 	template <typename T>
 	class LittleGameAbility_1 : public ::System::Object

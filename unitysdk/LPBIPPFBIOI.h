@@ -3,10 +3,10 @@
 class OHFCLBIKMKD;
 namespace RPG::GameCore { class TaskContext; }
 
-#define LPBIPPFBIOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB816620)
-#define LPBIPPFBIOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB816650)
+#define LPBIPPFBIOI_CTOR_OFFSET UNITYSDK_OFFSET(0xC077B50)
+#define LPBIPPFBIOI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC077B80)
 
-inline static constexpr unsigned int LPBIPPFBIOI_TypeDefinitionIndex = 53341;
+inline static constexpr unsigned int LPBIPPFBIOI_TypeDefinitionIndex = 54503;
 
 	class LPBIPPFBIOI
 	{

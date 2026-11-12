@@ -6,29 +6,29 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define AEANOGAFBGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB14A5B0)
-#define AEANOGAFBGK_GET_ADDSTATMAP_OFFSET UNITYSDK_OFFSET(0xB14A590)
-#define AEANOGAFBGK_GET_AVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xB14A570)
-#define AEANOGAFBGK_GET_DESC_OFFSET UNITYSDK_OFFSET(0xB14A550)
-#define AEANOGAFBGK_GET_DRIVERID_OFFSET UNITYSDK_OFFSET(0xB14A510)
-#define AEANOGAFBGK_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB14A530)
-#define AEANOGAFBGK_SET_ADDSTATMAP_OFFSET UNITYSDK_OFFSET(0xB14A5A0)
-#define AEANOGAFBGK_SET_AVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xB14A580)
-#define AEANOGAFBGK_SET_DESC_OFFSET UNITYSDK_OFFSET(0xB14A560)
-#define AEANOGAFBGK_SET_DRIVERID_OFFSET UNITYSDK_OFFSET(0xB14A520)
-#define AEANOGAFBGK_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB14A540)
+#define AEANOGAFBGK_CTOR_OFFSET UNITYSDK_OFFSET(0xB7AFAF0)
+#define AEANOGAFBGK_GET_ADDSTATMAP_OFFSET UNITYSDK_OFFSET(0xB7AFAD0)
+#define AEANOGAFBGK_GET_AVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xB7AFAB0)
+#define AEANOGAFBGK_GET_DESC_OFFSET UNITYSDK_OFFSET(0xB7AFA90)
+#define AEANOGAFBGK_GET_DRIVERID_OFFSET UNITYSDK_OFFSET(0xB7AFA50)
+#define AEANOGAFBGK_GET_NAME_OFFSET UNITYSDK_OFFSET(0xB7AFA70)
+#define AEANOGAFBGK_SET_ADDSTATMAP_OFFSET UNITYSDK_OFFSET(0xB7AFAE0)
+#define AEANOGAFBGK_SET_AVATARICONPATH_OFFSET UNITYSDK_OFFSET(0xB7AFAC0)
+#define AEANOGAFBGK_SET_DESC_OFFSET UNITYSDK_OFFSET(0xB7AFAA0)
+#define AEANOGAFBGK_SET_DRIVERID_OFFSET UNITYSDK_OFFSET(0xB7AFA60)
+#define AEANOGAFBGK_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB7AFA80)
 
-inline static constexpr unsigned int AEANOGAFBGK_TypeDefinitionIndex = 81719;
+inline static constexpr unsigned int AEANOGAFBGK_TypeDefinitionIndex = 84500;
 
 	class AEANOGAFBGK : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* _AddStatMap_k__BackingField; // 0x10
-		::System::String* _AvatarIconPath_k__BackingField; // 0x18
-		::RPG::Client::TextID _Desc_k__BackingField; // 0x20
-		::System::UInt32 _DriverID_k__BackingField; // 0x30
+		::System::String* _AvatarIconPath_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::B51RacingStatType, ::System::UInt32>* _AddStatMap_k__BackingField; // 0x18
+		::System::UInt32 _DriverID_k__BackingField; // 0x20
 		::System::Byte _padding0[0x4];
-		::RPG::Client::TextID _Name_k__BackingField; // 0x38
+		::RPG::Client::TextID _Name_k__BackingField; // 0x28
+		::RPG::Client::TextID _Desc_k__BackingField; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AEANOGAFBGK_CTOR_OFFSET))(this);

@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
-#define NAKLLNKNLLD_ICACFJPGOJD_OFFSET UNITYSDK_OFFSET(0x1F000)
+#define NAKLLNKNLLD_ICACFJPGOJD_OFFSET UNITYSDK_OFFSET(0x239B0)
 
-inline static constexpr unsigned int NAKLLNKNLLD_TypeDefinitionIndex = 54444;
+inline static constexpr unsigned int NAKLLNKNLLD_TypeDefinitionIndex = 55608;
 
 	struct alignas(4) NAKLLNKNLLD
 	{

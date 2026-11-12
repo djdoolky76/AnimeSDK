@@ -4,12 +4,12 @@
 class CPFNEECKCMK;
 namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonData; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC4C7E50)
-#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS21_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xC4C8C70)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCDBEAB0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_IDLELIVEDUNGEONINFO___C__DISPLAYCLASS21_0__UPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xCDBF8D0)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int IdleLiveDungeonInfo___c__DisplayClass21_0_TypeDefinitionIndex = 75213;
+	inline static constexpr unsigned int IdleLiveDungeonInfo___c__DisplayClass21_0_TypeDefinitionIndex = 77540;
 
 	class IdleLiveDungeonInfo___c__DisplayClass21_0 : public ::System::Object
 	{

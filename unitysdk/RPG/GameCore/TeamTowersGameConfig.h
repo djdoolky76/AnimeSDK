@@ -7,13 +7,13 @@ namespace RPG::GameCore { class TeamTowersGameConfig; }
 namespace RPG::GameCore { class TeamTowersMobileInputConfig; }
 namespace RPG::GameCore { class TeamTowersRobotConfig; }
 
-#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB7C5B0)
-#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB7C5C0)
-#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB7C570)
+#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE2BC80)
+#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE2BC90)
+#define RPG_GAMECORE_TEAMTOWERSGAMECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE2BC40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamTowersGameConfig_TypeDefinitionIndex = 18943;
+	inline static constexpr unsigned int TeamTowersGameConfig_TypeDefinitionIndex = 19130;
 
 	class TeamTowersGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{

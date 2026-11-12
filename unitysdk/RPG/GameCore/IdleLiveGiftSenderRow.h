@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class IdleLiveGiftSenderRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D77C8E0)
-#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D77C720)
+#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E990010)
+#define RPG_GAMECORE_IDLELIVEGIFTSENDERROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E98FE50)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int IdleLiveGiftSenderRow_TypeDefinitionIndex = 11806;
+	inline static constexpr unsigned int IdleLiveGiftSenderRow_TypeDefinitionIndex = 11863;
 
 	class IdleLiveGiftSenderRow : public ::System::Object
 	{

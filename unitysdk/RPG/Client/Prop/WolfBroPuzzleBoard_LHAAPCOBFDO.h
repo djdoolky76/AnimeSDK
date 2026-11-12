@@ -5,7 +5,7 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int WolfBroPuzzleBoard_LHAAPCOBFDO_TypeDefinitionIndex = 78691;
+	inline static constexpr unsigned int WolfBroPuzzleBoard_LHAAPCOBFDO_TypeDefinitionIndex = 81426;
 
 	struct alignas(8) WolfBroPuzzleBoard_LHAAPCOBFDO
 	{

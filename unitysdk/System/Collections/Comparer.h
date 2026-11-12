@@ -8,12 +8,12 @@ namespace System::Globalization { class CompareInfo; }
 namespace System::Globalization { class CultureInfo; }
 namespace System::Runtime::Serialization { class SerializationInfo; }
 
-#define SYSTEM_COLLECTIONS_COMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C0C12B0)
-#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1C0BE6F0)
-#define SYSTEM_COLLECTIONS_COMPARER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1C0C0FA0)
-#define SYSTEM_COLLECTIONS_COMPARER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1C0C1060)
-#define SYSTEM_COLLECTIONS_COMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1C0C0F90)
-#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1C0C1210)
+#define SYSTEM_COLLECTIONS_COMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D248540)
+#define SYSTEM_COLLECTIONS_COMPARER_COMPARE_OFFSET UNITYSDK_OFFSET(0x1D245980)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1D248230)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_2_OFFSET UNITYSDK_OFFSET(0x1D2482F0)
+#define SYSTEM_COLLECTIONS_COMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D248220)
+#define SYSTEM_COLLECTIONS_COMPARER_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x1D2484A0)
 
 namespace System::Collections
 {
@@ -25,12 +25,12 @@ namespace System::Collections
 		::System::Globalization::CompareInfo* m_compareInfo; // 0x10
 		static ::System::Collections::Comparer** StaticGet_DefaultInvariant()
 		{
-			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xE7F0);
+			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xD5E0);
 		}
 
 		static ::System::Collections::Comparer** StaticGet_Default()
 		{
-			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xE7F8);
+			return (::System::Collections::Comparer**)UnitySDK::FromName("System.Collections", "Comparer")->GetStaticField(0xD5E8);
 		}
 
 		::System::Void _ctor()

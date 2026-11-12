@@ -4,11 +4,11 @@
 namespace UnityEngine { class MeshRenderer; }
 namespace UnityEngine { class Transform; }
 
-#define RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_CAMERAMASKRENDER_CTOR_OFFSET UNITYSDK_OFFSET(0xD8027E0)
+#define RPG_CLIENT_MONOEFFECTPLUGINMULTICRPVCAMERA_CAMERAMASKRENDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE254780)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoEffectPluginMultiCRPVCamera_CameraMaskRender_TypeDefinitionIndex = 70081;
+	inline static constexpr unsigned int MonoEffectPluginMultiCRPVCamera_CameraMaskRender_TypeDefinitionIndex = 72046;
 
 	class MonoEffectPluginMultiCRPVCamera_CameraMaskRender : public ::System::Object
 	{

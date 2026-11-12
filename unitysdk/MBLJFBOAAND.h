@@ -8,39 +8,39 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define MBLJFBOAAND_CTOR_OFFSET UNITYSDK_OFFSET(0xB862850)
-#define MBLJFBOAAND_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB862B90)
-#define MBLJFBOAAND_FDBDECPJEKF_OFFSET UNITYSDK_OFFSET(0xB864180)
-#define MBLJFBOAAND_HPNHBGEOGPO_OFFSET UNITYSDK_OFFSET(0xB862C50)
-#define MBLJFBOAAND_JOACGNDEHOE_OFFSET UNITYSDK_OFFSET(0xB862BD0)
-#define MBLJFBOAAND_KMNNKNOAIHL_OFFSET UNITYSDK_OFFSET(0xB862990)
-#define MBLJFBOAAND_MDEFJLNGJOE_OFFSET UNITYSDK_OFFSET(0xB863680)
-#define MBLJFBOAAND_NJBJFELDKOA_OFFSET UNITYSDK_OFFSET(0xB8641E0)
-#define MBLJFBOAAND_NLKPKABOIPJ_OFFSET UNITYSDK_OFFSET(0xB862890)
-#define MBLJFBOAAND_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB862940)
+#define MBLJFBOAAND_CTOR_OFFSET UNITYSDK_OFFSET(0xC0C8230)
+#define MBLJFBOAAND_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC0C8560)
+#define MBLJFBOAAND_FDBDECPJEKF_OFFSET UNITYSDK_OFFSET(0xC0C9B40)
+#define MBLJFBOAAND_HPNHBGEOGPO_OFFSET UNITYSDK_OFFSET(0xC0C8610)
+#define MBLJFBOAAND_JOACGNDEHOE_OFFSET UNITYSDK_OFFSET(0xC0C85A0)
+#define MBLJFBOAAND_KMNNKNOAIHL_OFFSET UNITYSDK_OFFSET(0xC0C8370)
+#define MBLJFBOAAND_MDEFJLNGJOE_OFFSET UNITYSDK_OFFSET(0xC0C9040)
+#define MBLJFBOAAND_NJBJFELDKOA_OFFSET UNITYSDK_OFFSET(0xC0C9BA0)
+#define MBLJFBOAAND_NLKPKABOIPJ_OFFSET UNITYSDK_OFFSET(0xC0C8270)
+#define MBLJFBOAAND_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC0C8320)
 
-inline static constexpr unsigned int MBLJFBOAAND_TypeDefinitionIndex = 69708;
+inline static constexpr unsigned int MBLJFBOAAND_TypeDefinitionIndex = 71665;
 
 	class MBLJFBOAAND : public ::System::Object
 	{
 	public:
 		::UnityEngine::Transform* AFIBNIPMICJ; // 0x10
-		::System::Single BAGGGIOKJAK; // 0x18
-		::UnityEngine::Vector2 MJGIHIGGBIK; // 0x1C
-		::System::Single MEHLMFMJANN; // 0x24
-		::System::Single DCLAIMLDBFO; // 0x28
-		::UnityEngine::Quaternion CPOGADDNCLM; // 0x2C
-		::System::Boolean MOKNCFJICIC; // 0x3C
+		::System::Single DCLAIMLDBFO; // 0x18
+		::System::Single NMFDLKEPKLJ; // 0x1C
+		::System::Single MEHLMFMJANN; // 0x20
+		::UnityEngine::Quaternion IKLDDLDIJIC; // 0x24
+		::System::Single BAGGGIOKJAK; // 0x34
+		::System::Single PBLBNOOMKCC; // 0x38
+		::RPG::Client::SwipeCameraStateEnum DLNIGFGLPLJ; // 0x3C
+		::System::Single GNFOMGEBMAA; // 0x40
+		::UnityEngine::Quaternion HCFLKAIIMMN; // 0x44
+		::UnityEngine::Vector2 OGDEKPDMCLF; // 0x54
+		::UnityEngine::Vector2 MJGIHIGGBIK; // 0x5C
+		::System::Single MIPBBGJCKCB; // 0x64
+		::UnityEngine::Quaternion ECDODICPJJH; // 0x68
+		::System::Boolean MOKNCFJICIC; // 0x78
 		::System::Byte _padding0[0x3];
-		::UnityEngine::Quaternion HCFLKAIIMMN; // 0x40
-		::System::Single GNFOMGEBMAA; // 0x50
-		::UnityEngine::Quaternion IKLDDLDIJIC; // 0x54
-		::UnityEngine::Quaternion ECDODICPJJH; // 0x64
-		::System::Single MIPBBGJCKCB; // 0x74
-		::UnityEngine::Vector2 OGDEKPDMCLF; // 0x78
-		::System::Single NMFDLKEPKLJ; // 0x80
-		::RPG::Client::SwipeCameraStateEnum DLNIGFGLPLJ; // 0x84
-		::System::Single PBLBNOOMKCC; // 0x88
+		::UnityEngine::Quaternion CPOGADDNCLM; // 0x7C
 		::System::Void _ctor(::UnityEngine::Transform* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + MBLJFBOAAND_CTOR_OFFSET))(this, a1);

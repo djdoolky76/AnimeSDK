@@ -5,23 +5,23 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define GOOPPKCFNLM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C64BB50)
-#define GOOPPKCFNLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C64BB90)
-#define GOOPPKCFNLM___C__STATSECTIONSETTLE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1C64BBA0)
+#define GOOPPKCFNLM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D7CD6D0)
+#define GOOPPKCFNLM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7CD710)
+#define GOOPPKCFNLM___C__STATSECTIONSETTLE_B__16_0_OFFSET UNITYSDK_OFFSET(0x1D7CD720)
 
-inline static constexpr unsigned int GOOPPKCFNLM___c_TypeDefinitionIndex = 37334;
+inline static constexpr unsigned int GOOPPKCFNLM___c_TypeDefinitionIndex = 38262;
 
 	class GOOPPKCFNLM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CEB0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A900);
 		}
 
 		static ::System::Func_2<::RPG::GameCore::CakeRaceRegionTag, ::System::UInt32>** StaticGet___9__16_0()
 		{
-			return (::System::Func_2<::RPG::GameCore::CakeRaceRegionTag, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5CEB8);
+			return (::System::Func_2<::RPG::GameCore::CakeRaceRegionTag, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x6A908);
 		}
 
 		static ::System::Void _cctor()

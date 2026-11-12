@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::Console { class PS4BindEmailDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BE17F10)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BE17F50)
-#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C__SHOW_B__53_0_OFFSET UNITYSDK_OFFSET(0x1BE17F60)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CFA0580)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CFA05C0)
+#define MIHOYO_SDK_CONSOLE_PS4BINDEMAILDIALOG___C__SHOW_B__53_0_OFFSET UNITYSDK_OFFSET(0x1CFA05D0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int PS4BindEmailDialog___c_TypeDefinitionIndex = 9019;
+	inline static constexpr unsigned int PS4BindEmailDialog___c_TypeDefinitionIndex = 9028;
 
 	class PS4BindEmailDialog___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::Console::PS4BindEmailDialog*>** StaticGet___9__53_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::PS4BindEmailDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x12F0);
+			return (::System::Action_1<::MiHoYo::SDK::Console::PS4BindEmailDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x5CE30);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x12F8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x5CE38);
 		}
 
 		static ::System::Void _cctor()

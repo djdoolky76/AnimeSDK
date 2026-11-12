@@ -4,15 +4,15 @@
 class GLPPDCIBMIH;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define BKKCAANDKJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C59B840)
+#define BKKCAANDKJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D71D030)
 
-inline static constexpr unsigned int BKKCAANDKJI_TypeDefinitionIndex = 36445;
+inline static constexpr unsigned int BKKCAANDKJI_TypeDefinitionIndex = 37373;
 
 	class BKKCAANDKJI : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::UInt32>* JIHJOPHPFHL; // 0x10
-		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* AIIPGJNJJIC; // 0x18
+		::System::Collections::Generic::List_1<::GLPPDCIBMIH*>* AIIPGJNJJIC; // 0x10
+		::System::Collections::Generic::List_1<::System::UInt32>* JIHJOPHPFHL; // 0x18
 		::System::UInt32 KKOCBDMBPBN; // 0x20
 		::System::Void _ctor()
 		{

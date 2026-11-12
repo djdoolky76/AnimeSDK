@@ -6,36 +6,36 @@ class GOCDHLDEGEJ;
 class ILLGBAOOJNL;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define LJAIOGHEIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F510)
+#define LJAIOGHEIBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABB980)
 
-inline static constexpr unsigned int LJAIOGHEIBA_TypeDefinitionIndex = 42913;
+inline static constexpr unsigned int LJAIOGHEIBA_TypeDefinitionIndex = 43894;
 
 	class LJAIOGHEIBA : public ::System::Object
 	{
 	public:
 		::System::Collections::Generic::List_1<::ILLGBAOOJNL*>* KEHMPHPNKOJ; // 0x10
 		::System::Collections::Generic::List_1<::GOCDHLDEGEJ*>* GAILLLKAPBG; // 0x18
-		::System::Single DLABOOMFBOG; // 0x20
-		::System::Single FMFLEFJALHG; // 0x24
-		::System::Single ICGGAKJGMKP; // 0x28
-		::System::Single JOBIDGDKIFA; // 0x2C
-		::System::Boolean KOBBEOHKHMP; // 0x30
-		::System::Boolean HIPOBLKBCNJ; // 0x31
-		::System::Boolean OCCJEJNJPBJ; // 0x32
+		::System::Single AJLMPDEEALF; // 0x20
+		::System::Single AHDJBLLKJHH; // 0x24
+		::System::Int32 FPNAIENFKPC; // 0x28
+		::System::Single HHCHHADNNLL; // 0x2C
+		::System::Int32 DCCLODLELLG; // 0x30
+		::System::Single KPFEKBDCGPB; // 0x34
+		::System::Single FMFLEFJALHG; // 0x38
+		::System::Single ICBEAHNHEPE; // 0x3C
+		::System::Single ICGGAKJGMKP; // 0x40
+		::System::Single JOBIDGDKIFA; // 0x44
+		::System::Single FFMCDLHHJOJ; // 0x48
+		::System::Single JJGOEDKMFPH; // 0x4C
+		::System::Single OPCFBHBHDKP; // 0x50
+		::System::Boolean OCCJEJNJPBJ; // 0x54
+		::System::Boolean KOBBEOHKHMP; // 0x55
+		::System::Boolean HIPOBLKBCNJ; // 0x56
 		::System::Byte _padding0[0x1];
-		::System::Int32 DCCLODLELLG; // 0x34
-		::RPG::Client::LittleGame::RoadRash::EImpactForbidReason HGGCKKKJGEA; // 0x38
-		::System::Single OMCCJFEOHNM; // 0x3C
-		::System::Single OPCFBHBHDKP; // 0x40
-		::System::Int32 FPNAIENFKPC; // 0x44
-		::System::Single HHCHHADNNLL; // 0x48
-		::System::Single AJLMPDEEALF; // 0x4C
-		::System::Single GGBKKCNLAJC; // 0x50
-		::System::Single AHDJBLLKJHH; // 0x54
-		::System::Single ICBEAHNHEPE; // 0x58
-		::System::Single FFMCDLHHJOJ; // 0x5C
-		::System::Single JJGOEDKMFPH; // 0x60
-		::System::Single KPFEKBDCGPB; // 0x64
+		::System::Single OMCCJFEOHNM; // 0x58
+		::RPG::Client::LittleGame::RoadRash::EImpactForbidReason HGGCKKKJGEA; // 0x5C
+		::System::Single GGBKKCNLAJC; // 0x60
+		::System::Single DLABOOMFBOG; // 0x64
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LJAIOGHEIBA_CTOR_OFFSET))(this);

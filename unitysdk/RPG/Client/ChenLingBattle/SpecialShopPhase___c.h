@@ -5,31 +5,31 @@ namespace System { class Exception; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCA6A7A0)
-#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA6A7E0)
-#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__REQUESTBUYSHOPITEM_B__9_0_OFFSET UNITYSDK_OFFSET(0xCA6A800)
-#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__REQUESTREFRESHSHOP_B__6_0_OFFSET UNITYSDK_OFFSET(0xCA6A7F0)
+#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD3CE1C0)
+#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD3CE200)
+#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__REQUESTBUYSHOPITEM_B__9_0_OFFSET UNITYSDK_OFFSET(0xD3CE220)
+#define RPG_CLIENT_CHENLINGBATTLE_SPECIALSHOPPHASE___C__REQUESTREFRESHSHOP_B__6_0_OFFSET UNITYSDK_OFFSET(0xD3CE210)
 
 namespace RPG::Client::ChenLingBattle
 {
-	inline static constexpr unsigned int SpecialShopPhase___c_TypeDefinitionIndex = 76325;
+	inline static constexpr unsigned int SpecialShopPhase___c_TypeDefinitionIndex = 78656;
 
 	class SpecialShopPhase___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7A0);
-		}
-
-		static ::System::Action_1<::System::Exception*>** StaticGet___9__9_0()
-		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7A8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x68F40);
 		}
 
 		static ::System::Action_1<::System::Exception*>** StaticGet___9__6_0()
 		{
-			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x6E7B0);
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x68F48);
+		}
+
+		static ::System::Action_1<::System::Exception*>** StaticGet___9__9_0()
+		{
+			return (::System::Action_1<::System::Exception*>**)UnitySDK::FromName("RPG.Client.ChenLingBattle", "<>c")->GetStaticField(0x68F50);
 		}
 
 		static ::System::Void _cctor()

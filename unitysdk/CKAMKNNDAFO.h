@@ -11,54 +11,54 @@ namespace RPG::Client::CrowdAnimator { class CrowdPrototype; }
 namespace RPG::Client::CrowdAnimator { class CrowdVariant; }
 namespace System { class Object; }
 
-#define CKAMKNNDAFO_AJIGALIAMLJ_1_OFFSET UNITYSDK_OFFSET(0xD753850)
-#define CKAMKNNDAFO_AJIGALIAMLJ_OFFSET UNITYSDK_OFFSET(0xD753430)
-#define CKAMKNNDAFO_AODHDMJMBNO_OFFSET UNITYSDK_OFFSET(0xD753640)
-#define CKAMKNNDAFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xD752F80)
-#define CKAMKNNDAFO_FNJGFKFHPJA_OFFSET UNITYSDK_OFFSET(0xD753C20)
-#define CKAMKNNDAFO_GIEMABLIHLF_OFFSET UNITYSDK_OFFSET(0xD753B90)
-#define CKAMKNNDAFO_HNPFGLDAEIE_OFFSET UNITYSDK_OFFSET(0xD7539D0)
-#define CKAMKNNDAFO_JOOCENHOOED_1_OFFSET UNITYSDK_OFFSET(0xD753760)
-#define CKAMKNNDAFO_JOOCENHOOED_OFFSET UNITYSDK_OFFSET(0xD753340)
-#define CKAMKNNDAFO_KCOMICMBJCM_OFFSET UNITYSDK_OFFSET(0xD753940)
-#define CKAMKNNDAFO_NIKACLEHEME_OFFSET UNITYSDK_OFFSET(0xD753520)
-#define CKAMKNNDAFO_NNALCIHNPFE_OFFSET UNITYSDK_OFFSET(0xD753B00)
-#define CKAMKNNDAFO_PILNEEFIHOK_OFFSET UNITYSDK_OFFSET(0xD753A70)
-#define CKAMKNNDAFO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xD7531F0)
+#define CKAMKNNDAFO_AJIGALIAMLJ_1_OFFSET UNITYSDK_OFFSET(0xE08D690)
+#define CKAMKNNDAFO_AJIGALIAMLJ_OFFSET UNITYSDK_OFFSET(0xE08D270)
+#define CKAMKNNDAFO_AODHDMJMBNO_OFFSET UNITYSDK_OFFSET(0xE08D480)
+#define CKAMKNNDAFO_CCTOR_OFFSET UNITYSDK_OFFSET(0xE08CDC0)
+#define CKAMKNNDAFO_FNJGFKFHPJA_OFFSET UNITYSDK_OFFSET(0xE08DA60)
+#define CKAMKNNDAFO_GIEMABLIHLF_OFFSET UNITYSDK_OFFSET(0xE08D9D0)
+#define CKAMKNNDAFO_HNPFGLDAEIE_OFFSET UNITYSDK_OFFSET(0xE08D810)
+#define CKAMKNNDAFO_JOOCENHOOED_1_OFFSET UNITYSDK_OFFSET(0xE08D5A0)
+#define CKAMKNNDAFO_JOOCENHOOED_OFFSET UNITYSDK_OFFSET(0xE08D180)
+#define CKAMKNNDAFO_KCOMICMBJCM_OFFSET UNITYSDK_OFFSET(0xE08D780)
+#define CKAMKNNDAFO_NIKACLEHEME_OFFSET UNITYSDK_OFFSET(0xE08D360)
+#define CKAMKNNDAFO_NNALCIHNPFE_OFFSET UNITYSDK_OFFSET(0xE08D940)
+#define CKAMKNNDAFO_PILNEEFIHOK_OFFSET UNITYSDK_OFFSET(0xE08D8B0)
+#define CKAMKNNDAFO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xE08D030)
 
-inline static constexpr unsigned int CKAMKNNDAFO_TypeDefinitionIndex = 69132;
+inline static constexpr unsigned int CKAMKNNDAFO_TypeDefinitionIndex = 71085;
 
 	class CKAMKNNDAFO : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet_CJJLFKBLJKD()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x46890);
-		}
-
-		static ::System::Object** StaticGet_CHHOGMJFINC()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x46898);
-		}
-
 		static ::System::Object** StaticGet_CGCPGJJHIMN()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x468A0);
-		}
-
-		static ::System::Object** StaticGet_LIJACOBKEBJ()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x468A8);
-		}
-
-		static ::System::Object** StaticGet_PJOIIMGLKBM()
-		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x468B0);
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2D2B0);
 		}
 
 		static ::System::Object** StaticGet_EOGNIHBOCBE()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x468B8);
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2D2B8);
+		}
+
+		static ::System::Object** StaticGet_PJOIIMGLKBM()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2D2C0);
+		}
+
+		static ::System::Object** StaticGet_CHHOGMJFINC()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2D2C8);
+		}
+
+		static ::System::Object** StaticGet_CJJLFKBLJKD()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2D2D0);
+		}
+
+		static ::System::Object** StaticGet_LIJACOBKEBJ()
+		{
+			return (::System::Object**)UnitySDK::FromName("", "CKAMKNNDAFO")->GetStaticField(0x2D2D8);
 		}
 
 		static ::System::Void _cctor()

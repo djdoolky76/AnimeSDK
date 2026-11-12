@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class ByCheckModifierCallBackModifierValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FPANHACFILK_CTOR_OFFSET UNITYSDK_OFFSET(0x1590B400)
-#define FPANHACFILK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1590B430)
+#define FPANHACFILK_CTOR_OFFSET UNITYSDK_OFFSET(0x1683A8D0)
+#define FPANHACFILK_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1683A900)
 
-inline static constexpr unsigned int FPANHACFILK_TypeDefinitionIndex = 54505;
+inline static constexpr unsigned int FPANHACFILK_TypeDefinitionIndex = 55670;
 
 	class FPANHACFILK
 	{

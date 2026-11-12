@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_CAMERABAKINGMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xC92C150)
+#define RPG_CLIENT_CAMERABAKINGMONOPLUGIN_CTOR_OFFSET UNITYSDK_OFFSET(0xD2912C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int CameraBakingMonoPlugin_TypeDefinitionIndex = 71039;
+	inline static constexpr unsigned int CameraBakingMonoPlugin_TypeDefinitionIndex = 73018;
 
 	class CameraBakingMonoPlugin
 	{

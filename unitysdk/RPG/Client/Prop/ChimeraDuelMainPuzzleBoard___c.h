@@ -7,31 +7,31 @@ namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class GameObject; }
 
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDC66690)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDC666D0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_0_OFFSET UNITYSDK_OFFSET(0xDC666E0)
-#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_1_OFFSET UNITYSDK_OFFSET(0xDC66700)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE705350)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE705390)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_0_OFFSET UNITYSDK_OFFSET(0xE7053A0)
+#define RPG_CLIENT_PROP_CHIMERADUELMAINPUZZLEBOARD___C__INITPUZZLE_B__6_1_OFFSET UNITYSDK_OFFSET(0xE7053C0)
 
 namespace RPG::Client::Prop
 {
-	inline static constexpr unsigned int ChimeraDuelMainPuzzleBoard___c_TypeDefinitionIndex = 78302;
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBoard___c_TypeDefinitionIndex = 81037;
 
 	class ChimeraDuelMainPuzzleBoard___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4C1D0);
-		}
-
-		static ::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>** StaticGet___9__6_1()
-		{
-			return (::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4C1D8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x53630);
 		}
 
 		static ::System::Func_2<::System::Object*, ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>** StaticGet___9__6_0()
 		{
-			return (::System::Func_2<::System::Object*, ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x4C1E0);
+			return (::System::Func_2<::System::Object*, ::RPG::Client::Prop::ChimeraDuelMainPuzzleStateType>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x53638);
+		}
+
+		static ::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>** StaticGet___9__6_1()
+		{
+			return (::System::Func_2<::System::Object*, ::UnityEngine::GameObject*>**)UnitySDK::FromName("RPG.Client.Prop", "<>c")->GetStaticField(0x53640);
 		}
 
 		static ::System::Void _cctor()

@@ -4,18 +4,18 @@
 #include "unitysdk/System/Object.h"
 class JGMPGPNCAFA;
 
-#define JGMPGPNCAFA_COMPARE_OFFSET UNITYSDK_OFFSET(0xB19F070)
-#define JGMPGPNCAFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB19F140)
-#define JGMPGPNCAFA_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB19F0D0)
+#define JGMPGPNCAFA_COMPARE_OFFSET UNITYSDK_OFFSET(0xB9B9900)
+#define JGMPGPNCAFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B99D0)
+#define JGMPGPNCAFA_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB9B9960)
 
-inline static constexpr unsigned int JGMPGPNCAFA_TypeDefinitionIndex = 74971;
+inline static constexpr unsigned int JGMPGPNCAFA_TypeDefinitionIndex = 77298;
 
 	class JGMPGPNCAFA : public ::System::Object
 	{
 	public:
 		static ::JGMPGPNCAFA** StaticGet_EMLNOINPICJ()
 		{
-			return (::JGMPGPNCAFA**)UnitySDK::FromName("", "JGMPGPNCAFA")->GetStaticField(0x101B0);
+			return (::JGMPGPNCAFA**)UnitySDK::FromName("", "JGMPGPNCAFA")->GetStaticField(0x69C00);
 		}
 
 		::System::Void _ctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Object.h"
 class FOLHKNBFONK;
 
-#define HGOPEPJHPPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACAED0)
+#define HGOPEPJHPPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC8F900)
 
-inline static constexpr unsigned int HGOPEPJHPPP_TypeDefinitionIndex = 42023;
+inline static constexpr unsigned int HGOPEPJHPPP_TypeDefinitionIndex = 42998;
 
 	class HGOPEPJHPPP : public ::System::Object
 	{

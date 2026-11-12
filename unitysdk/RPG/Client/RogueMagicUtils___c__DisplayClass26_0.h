@@ -4,12 +4,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class PassiveUnitEffectTypeMatchFactorConfig; }
 
-#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDF41890)
-#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0___GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_B__0_OFFSET UNITYSDK_OFFSET(0xDF42540)
+#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE9F1D70)
+#define RPG_CLIENT_ROGUEMAGICUTILS___C__DISPLAYCLASS26_0___GETPASSIVEUNITEFFECTTYPECONFIGFACTOR_B__0_OFFSET UNITYSDK_OFFSET(0xE9F2A20)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int RogueMagicUtils___c__DisplayClass26_0_TypeDefinitionIndex = 67413;
+	inline static constexpr unsigned int RogueMagicUtils___c__DisplayClass26_0_TypeDefinitionIndex = 69357;
 
 	class RogueMagicUtils___c__DisplayClass26_0 : public ::System::Object
 	{

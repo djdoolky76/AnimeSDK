@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define MBLNDHDDPPD___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB866660)
-#define MBLNDHDDPPD___C__DISPLAYCLASS14_0__EVALUATE_COMPLEXSKILLAISOURCEVALUE_B__0_OFFSET UNITYSDK_OFFSET(0xB86D090)
+#define MBLNDHDDPPD___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC0CBFE0)
+#define MBLNDHDDPPD___C__DISPLAYCLASS14_0__EVALUATE_COMPLEXSKILLAISOURCEVALUE_B__0_OFFSET UNITYSDK_OFFSET(0xC0D29A0)
 
-inline static constexpr unsigned int MBLNDHDDPPD___c__DisplayClass14_0_TypeDefinitionIndex = 54355;
+inline static constexpr unsigned int MBLNDHDDPPD___c__DisplayClass14_0_TypeDefinitionIndex = 55519;
 
 	class MBLNDHDDPPD___c__DisplayClass14_0 : public ::System::Object
 	{

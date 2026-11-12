@@ -6,13 +6,13 @@ namespace RPG::GameCore { class TargetEvaluator; }
 namespace RPG::GameCore { class TriggerPermanentEmotion; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC57C40)
-#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC57C50)
-#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC57C00)
+#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE6BCB0)
+#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EE6BCC0)
+#define RPG_GAMECORE_TRIGGERPERMANENTEMOTION_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE6BC70)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TriggerPermanentEmotion_TypeDefinitionIndex = 21888;
+	inline static constexpr unsigned int TriggerPermanentEmotion_TypeDefinitionIndex = 22279;
 
 	class TriggerPermanentEmotion : public ::RPG::GameCore::TaskConfig
 	{

@@ -4,9 +4,9 @@
 class POEGKFEADIE;
 namespace RPG::GameCore { class GameWorld; }
 
-#define KANHBPAGDJD_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DF430)
+#define KANHBPAGDJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBB642B0)
 
-inline static constexpr unsigned int KANHBPAGDJD_TypeDefinitionIndex = 54320;
+inline static constexpr unsigned int KANHBPAGDJD_TypeDefinitionIndex = 55484;
 
 	class KANHBPAGDJD : public ::NFFHMOLDPEH
 	{

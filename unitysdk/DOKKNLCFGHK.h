@@ -5,24 +5,27 @@
 class AIDNGNILOAF;
 class DMGLFMNEJGL;
 class LDOGDMLGLPI;
+class NPECKAJCCAH;
 namespace System { class String; }
 namespace System::Text::RegularExpressions { class Regex; }
 
-#define DOKKNLCFGHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x11FEF450)
-#define DOKKNLCFGHK_CTOR_OFFSET UNITYSDK_OFFSET(0x11FEF430)
-#define DOKKNLCFGHK_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0x11FEEB90)
-#define DOKKNLCFGHK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x11FEEB20)
-#define DOKKNLCFGHK_NOPOPGMPMGL_OFFSET UNITYSDK_OFFSET(0x11FEF320)
+#define DOKKNLCFGHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x12DE9250)
+#define DOKKNLCFGHK_CTOR_1_OFFSET UNITYSDK_OFFSET(0x12DE8230)
+#define DOKKNLCFGHK_CTOR_OFFSET UNITYSDK_OFFSET(0x12DE8200)
+#define DOKKNLCFGHK_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0x12DE82D0)
+#define DOKKNLCFGHK_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x12DE8260)
+#define DOKKNLCFGHK_NOPOPGMPMGL_OFFSET UNITYSDK_OFFSET(0x12DE9140)
 
-inline static constexpr unsigned int DOKKNLCFGHK_TypeDefinitionIndex = 73393;
+inline static constexpr unsigned int DOKKNLCFGHK_TypeDefinitionIndex = 75513;
 
 	class DOKKNLCFGHK : public ::System::Object
 	{
 	public:
 		::LDOGDMLGLPI* FLLACONDCPE; // 0x10
+		::NPECKAJCCAH* LFGLEFABAIJ; // 0x18
 		static ::System::Text::RegularExpressions::Regex** StaticGet_EBGGCOCOJCC()
 		{
-			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "DOKKNLCFGHK")->GetStaticField(0x6F980);
+			return (::System::Text::RegularExpressions::Regex**)UnitySDK::FromName("", "DOKKNLCFGHK")->GetStaticField(0x6E0A0);
 		}
 
 		// static const ::System::String* CEIJMKBACNH; // 0x0
@@ -30,6 +33,11 @@ inline static constexpr unsigned int DOKKNLCFGHK_TypeDefinitionIndex = 73393;
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DOKKNLCFGHK_CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::NPECKAJCCAH* a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::NPECKAJCCAH*))((::PBYTE)hIl2Cpp + DOKKNLCFGHK_CTOR_1_OFFSET))(this, a1);
 		}
 
 		static ::System::Void _cctor()

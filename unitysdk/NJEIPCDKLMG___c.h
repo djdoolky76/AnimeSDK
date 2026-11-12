@@ -5,23 +5,23 @@ namespace RPG::Client { class RogueNousDiceSlotDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define NJEIPCDKLMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC0D7B0)
-#define NJEIPCDKLMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBC0D7F0)
-#define NJEIPCDKLMG___C__GETDICESURFACEDISPLAYDATALIST_B__17_0_OFFSET UNITYSDK_OFFSET(0xBC0D800)
+#define NJEIPCDKLMG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC4F0C20)
+#define NJEIPCDKLMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC4F0C60)
+#define NJEIPCDKLMG___C__GETDICESURFACEDISPLAYDATALIST_B__17_0_OFFSET UNITYSDK_OFFSET(0xC4F0C70)
 
-inline static constexpr unsigned int NJEIPCDKLMG___c_TypeDefinitionIndex = 66949;
+inline static constexpr unsigned int NJEIPCDKLMG___c_TypeDefinitionIndex = 68893;
 
 	class NJEIPCDKLMG___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41E40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E450);
 		}
 
 		static ::System::Func_2<::RPG::Client::RogueNousDiceSlotDataItem*, ::System::UInt32>** StaticGet___9__17_0()
 		{
-			return (::System::Func_2<::RPG::Client::RogueNousDiceSlotDataItem*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x41E48);
+			return (::System::Func_2<::RPG::Client::RogueNousDiceSlotDataItem*, ::System::UInt32>**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3E458);
 		}
 
 		static ::System::Void _cctor()

@@ -4,14 +4,14 @@
 class BabyHipplenController;
 namespace System { class Object; }
 
-#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B06D0)
-#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xC1B3B80)
-#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC1B3D80)
-#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xC1B3DE0)
-#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xC1B3D90)
-#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1B3B70)
+#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_CTOR_OFFSET UNITYSDK_OFFSET(0xCB51BA0)
+#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_MOVENEXT_OFFSET UNITYSDK_OFFSET(0xCB55070)
+#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_COLLECTIONS_GENERIC_IENUMERATOR_SYSTEM_OBJECT__GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xCB55240)
+#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xCB552A0)
+#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xCB55250)
+#define BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB55060)
 
-inline static constexpr unsigned int BabyHipplenController__RiseHeadForSeconds_d__38_TypeDefinitionIndex = 47198;
+inline static constexpr unsigned int BabyHipplenController__RiseHeadForSeconds_d__38_TypeDefinitionIndex = 48226;
 
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24, typename T25, typename T26, typename T27, typename T28, typename T29, typename T30, typename T31, typename T32, typename T33, typename T34, typename T35, typename T36, typename T37, typename T38>
 	class BabyHipplenController__RiseHeadForSeconds_d__38 : public ::System::Object
@@ -19,8 +19,8 @@ inline static constexpr unsigned int BabyHipplenController__RiseHeadForSeconds_d
 	public:
 		::BabyHipplenController* __4__this; // 0x10
 		::System::Object* __2__current; // 0x18
-		::System::Int32 __1__state; // 0x20
-		::System::Single seconds; // 0x24
+		::System::Single seconds; // 0x20
+		::System::Int32 __1__state; // 0x24
 		::System::Void _ctor(::System::Int32 a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BABYHIPPLENCONTROLLER__RISEHEADFORSECONDS_D__38_CTOR_OFFSET))(this, a1);

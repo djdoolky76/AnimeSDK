@@ -3,13 +3,13 @@
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 namespace System { class Action; }
 
-#define RPG_EDITOR_PREVIEWEDITORTICKER_CTOR_OFFSET UNITYSDK_OFFSET(0xE4AB1F0)
-#define RPG_EDITOR_PREVIEWEDITORTICKER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE4AB190)
-#define RPG_EDITOR_PREVIEWEDITORTICKER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE4AB130)
+#define RPG_EDITOR_PREVIEWEDITORTICKER_CTOR_OFFSET UNITYSDK_OFFSET(0xEF6A000)
+#define RPG_EDITOR_PREVIEWEDITORTICKER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xEF69FA0)
+#define RPG_EDITOR_PREVIEWEDITORTICKER_UPDATE_OFFSET UNITYSDK_OFFSET(0xEF69F40)
 
 namespace RPG::Editor
 {
-	inline static constexpr unsigned int PreviewEditorTicker_TypeDefinitionIndex = 52034;
+	inline static constexpr unsigned int PreviewEditorTicker_TypeDefinitionIndex = 53139;
 
 	class PreviewEditorTicker : public ::UnityEngine::MonoBehaviour
 	{

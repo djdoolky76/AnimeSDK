@@ -3,18 +3,19 @@
 #include "unitysdk/KNFCEJEJINK.h"
 class BFPJJDPNKPN;
 
-#define FCNNNHFGEDD_CTOR_OFFSET UNITYSDK_OFFSET(0x156CF770)
-#define FCNNNHFGEDD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x156CF840)
-#define FCNNNHFGEDD_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x156CF780)
+#define FCNNNHFGEDD_CTOR_OFFSET UNITYSDK_OFFSET(0x165E8F00)
+#define FCNNNHFGEDD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x165E8FD0)
+#define FCNNNHFGEDD_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x165E8F10)
 
-inline static constexpr unsigned int FCNNNHFGEDD_TypeDefinitionIndex = 78238;
+inline static constexpr unsigned int FCNNNHFGEDD_TypeDefinitionIndex = 80973;
 
 	class FCNNNHFGEDD : public ::KNFCEJEJINK
 	{
 	public:
 		::BFPJJDPNKPN* MKKLHFCCCNF; // 0x18
-		::System::Single HBDJCFFDGDD; // 0x20
-		::System::Boolean OELBLBCINNB; // 0x24
+		::System::Boolean OELBLBCINNB; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Single HBDJCFFDGDD; // 0x24
 		::System::Void _ctor(::BFPJJDPNKPN* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::BFPJJDPNKPN*))((::PBYTE)hIl2Cpp + FCNNNHFGEDD_CTOR_OFFSET))(this, a1);

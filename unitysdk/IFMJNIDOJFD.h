@@ -3,10 +3,10 @@
 #include "unitysdk/KIEMPKOFMLG.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
-#define IFMJNIDOJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x15F24A70)
-#define IFMJNIDOJFD_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x15F24A60)
+#define IFMJNIDOJFD_CTOR_OFFSET UNITYSDK_OFFSET(0x16E93ED0)
+#define IFMJNIDOJFD_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x16E93EC0)
 
-inline static constexpr unsigned int IFMJNIDOJFD_TypeDefinitionIndex = 77004;
+inline static constexpr unsigned int IFMJNIDOJFD_TypeDefinitionIndex = 79338;
 
 	class IFMJNIDOJFD : public ::KIEMPKOFMLG
 	{

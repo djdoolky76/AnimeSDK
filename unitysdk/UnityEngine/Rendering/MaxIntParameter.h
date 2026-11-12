@@ -2,13 +2,13 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Rendering/IntParameter.h"
 
-#define UNITYENGINE_RENDERING_MAXINTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F2C4660)
-#define UNITYENGINE_RENDERING_MAXINTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F2C4640)
-#define UNITYENGINE_RENDERING_MAXINTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1F2C4650)
+#define UNITYENGINE_RENDERING_MAXINTPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x205754A0)
+#define UNITYENGINE_RENDERING_MAXINTPARAMETER_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x20575480)
+#define UNITYENGINE_RENDERING_MAXINTPARAMETER_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x20575490)
 
 namespace UnityEngine::Rendering
 {
-	inline static constexpr unsigned int MaxIntParameter_TypeDefinitionIndex = 35629;
+	inline static constexpr unsigned int MaxIntParameter_TypeDefinitionIndex = 36557;
 
 	class MaxIntParameter : public ::UnityEngine::Rendering::IntParameter
 	{

@@ -3,7 +3,7 @@
 
 namespace RPG::Client::RedDot
 {
-	inline static constexpr unsigned int IRedDotChecker_1_TypeDefinitionIndex = 79151;
+	inline static constexpr unsigned int IRedDotChecker_1_TypeDefinitionIndex = 81927;
 
 	template <typename T>
 	class IRedDotChecker_1

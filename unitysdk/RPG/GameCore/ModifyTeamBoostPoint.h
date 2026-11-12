@@ -8,13 +8,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class ModifyTeamBoostPoint; }
 namespace RPG::GameCore { class SpecialBpFeature; }
 
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D89B170)
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D89B180)
-#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D89B130)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB5550)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EAB5560)
+#define RPG_GAMECORE_MODIFYTEAMBOOSTPOINT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EAB5510)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ModifyTeamBoostPoint_TypeDefinitionIndex = 22606;
+	inline static constexpr unsigned int ModifyTeamBoostPoint_TypeDefinitionIndex = 23021;
 
 	class ModifyTeamBoostPoint : public ::RPG::GameCore::TaskConfig
 	{

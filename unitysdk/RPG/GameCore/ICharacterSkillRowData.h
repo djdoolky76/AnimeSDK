@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ICharacterSkillRowData_TypeDefinitionIndex = 57672;
+	inline static constexpr unsigned int ICharacterSkillRowData_TypeDefinitionIndex = 58903;
 
 	class ICharacterSkillRowData
 	{

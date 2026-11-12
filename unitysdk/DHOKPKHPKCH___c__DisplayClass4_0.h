@@ -4,16 +4,16 @@
 class DHOKPKHPKCH;
 class IFEABBJBIGK;
 
-#define DHOKPKHPKCH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEBEC2F0)
-#define DHOKPKHPKCH___C__DISPLAYCLASS4_0__EXECUTESEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0xEBEC400)
+#define DHOKPKHPKCH___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF95E0B0)
+#define DHOKPKHPKCH___C__DISPLAYCLASS4_0__EXECUTESEQUENCE_B__0_OFFSET UNITYSDK_OFFSET(0xF95E1C0)
 
-inline static constexpr unsigned int DHOKPKHPKCH___c__DisplayClass4_0_TypeDefinitionIndex = 76572;
+inline static constexpr unsigned int DHOKPKHPKCH___c__DisplayClass4_0_TypeDefinitionIndex = 78903;
 
 	class DHOKPKHPKCH___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:
-		::IFEABBJBIGK* seq; // 0x10
-		::DHOKPKHPKCH* __4__this; // 0x18
+		::DHOKPKHPKCH* __4__this; // 0x10
+		::IFEABBJBIGK* seq; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DHOKPKHPKCH___C__DISPLAYCLASS4_0_CTOR_OFFSET))(this);

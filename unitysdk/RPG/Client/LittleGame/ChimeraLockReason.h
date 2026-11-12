@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ChimeraLockReason_TypeDefinitionIndex = 41992;
+	inline static constexpr unsigned int ChimeraLockReason_TypeDefinitionIndex = 42967;
 
 	enum class ChimeraLockReason : ::System::Int32
 	{

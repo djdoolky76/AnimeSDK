@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlayerLockRangeConfig; }
 
-#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9364C0)
-#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D935ED0)
+#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB4F5B0)
+#define RPG_GAMECORE_PLAYERLOCKRANGECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB4F040)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlayerLockRangeConfig_TypeDefinitionIndex = 17617;
+	inline static constexpr unsigned int PlayerLockRangeConfig_TypeDefinitionIndex = 17786;
 
 	class PlayerLockRangeConfig : public ::RPG::GameCore::JsonConfig
 	{

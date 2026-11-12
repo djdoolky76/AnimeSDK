@@ -6,11 +6,11 @@ class KGHMBCLFFLG;
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define CJMKENDJALE_DELMBDMKBJK_OFFSET UNITYSDK_OFFSET(0xD4D2DB0)
-#define CJMKENDJALE_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0xD4D25C0)
-#define CJMKENDJALE_EFKEHEAMAKI_OFFSET UNITYSDK_OFFSET(0xD4D26C0)
+#define CJMKENDJALE_DELMBDMKBJK_OFFSET UNITYSDK_OFFSET(0xE08A260)
+#define CJMKENDJALE_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0xE089AA0)
+#define CJMKENDJALE_EFKEHEAMAKI_OFFSET UNITYSDK_OFFSET(0xE089BA0)
 
-inline static constexpr unsigned int CJMKENDJALE_TypeDefinitionIndex = 62651;
+inline static constexpr unsigned int CJMKENDJALE_TypeDefinitionIndex = 64085;
 
 	class CJMKENDJALE : public ::System::Object
 	{

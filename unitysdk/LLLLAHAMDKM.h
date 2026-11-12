@@ -5,21 +5,22 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define LLLLAHAMDKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C910970)
-#define LLLLAHAMDKM_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x1C9106F0)
-#define LLLLAHAMDKM_GKMDJFIGIID_OFFSET UNITYSDK_OFFSET(0x1C9108F0)
+#define LLLLAHAMDKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DABCDE0)
+#define LLLLAHAMDKM_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x1DABCB60)
+#define LLLLAHAMDKM_GKMDJFIGIID_OFFSET UNITYSDK_OFFSET(0x1DABCD60)
 
-inline static constexpr unsigned int LLLLAHAMDKM_TypeDefinitionIndex = 42107;
+inline static constexpr unsigned int LLLLAHAMDKM_TypeDefinitionIndex = 43082;
 
 	class LLLLAHAMDKM : public ::System::Object
 	{
 	public:
-		::System::String* DOPHFLLNGPJ; // 0x10
-		::System::String* KBEPAIAFLHL; // 0x18
-		::RPG::GameCore::ElfBehaviorStateType NIKECAGLOCE; // 0x20
-		::System::Single KIPAGNCANAJ; // 0x24
-		::RPG::Client::TextID MNAIAJJKGNG; // 0x28
-		::System::Boolean AEPILOPAFKG; // 0x38
+		::System::String* KBEPAIAFLHL; // 0x10
+		::System::String* DOPHFLLNGPJ; // 0x18
+		::RPG::Client::TextID MNAIAJJKGNG; // 0x20
+		::System::Boolean AEPILOPAFKG; // 0x30
+		::System::Byte _padding0[0x3];
+		::RPG::GameCore::ElfBehaviorStateType NIKECAGLOCE; // 0x34
+		::System::Single KIPAGNCANAJ; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + LLLLAHAMDKM_CTOR_OFFSET))(this);

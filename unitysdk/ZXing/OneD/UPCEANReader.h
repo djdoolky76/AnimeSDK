@@ -4,50 +4,50 @@
 #include "unitysdk/System/Nullable_1.h"
 namespace System { class String; }
 
-#define ZXING_ONED_UPCEANREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6C7380)
-#define ZXING_ONED_UPCEANREADER_CHECKSTANDARDUPCEANCHECKSUM_OFFSET UNITYSDK_OFFSET(0x1F6C12A0)
-#define ZXING_ONED_UPCEANREADER_GETSTANDARDUPCEANCHECKSUM_OFFSET UNITYSDK_OFFSET(0x1F6C1080)
+#define ZXING_ONED_UPCEANREADER_CCTOR_OFFSET UNITYSDK_OFFSET(0x20976AB0)
+#define ZXING_ONED_UPCEANREADER_CHECKSTANDARDUPCEANCHECKSUM_OFFSET UNITYSDK_OFFSET(0x209709C0)
+#define ZXING_ONED_UPCEANREADER_GETSTANDARDUPCEANCHECKSUM_OFFSET UNITYSDK_OFFSET(0x209707A0)
 
 namespace ZXing::OneD
 {
-	inline static constexpr unsigned int UPCEANReader_TypeDefinitionIndex = 6987;
+	inline static constexpr unsigned int UPCEANReader_TypeDefinitionIndex = 6998;
 
 	class UPCEANReader : public ::ZXing::OneD::OneDReader
 	{
 	public:
-		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_L_PATTERNS()
-		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x22A80);
-		}
-
 		static ::Il2CppArray<::System::Int32>** StaticGet_MIDDLE_PATTERN()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x22A88);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x43320);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_START_END_PATTERN()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x22A90);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x43328);
 		}
 
 		static ::Il2CppArray<::System::Int32>** StaticGet_END_PATTERN()
 		{
-			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x22A98);
+			return (::Il2CppArray<::System::Int32>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x43330);
 		}
 
 		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_L_AND_G_PATTERNS()
 		{
-			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x22AA0);
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x43338);
+		}
+
+		static ::Il2CppArray<::Il2CppArray<::System::Int32>*>** StaticGet_L_PATTERNS()
+		{
+			return (::Il2CppArray<::Il2CppArray<::System::Int32>*>**)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x43340);
 		}
 
 		static ::System::Int32* StaticGet_MAX_AVG_VARIANCE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x7B50);
+			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0xE340);
 		}
 
 		static ::System::Int32* StaticGet_MAX_INDIVIDUAL_VARIANCE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0x7B54);
+			return (::System::Int32*)UnitySDK::FromName("ZXing.OneD", "UPCEANReader")->GetStaticField(0xE344);
 		}
 
 		static ::System::Void _cctor()

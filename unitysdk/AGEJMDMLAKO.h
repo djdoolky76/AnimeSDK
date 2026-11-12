@@ -6,9 +6,9 @@
 namespace R3 { template <typename T> class Observable_1; }
 namespace UnityEngine::Events { class UnityEvent; }
 
-#define AGEJMDMLAKO_PLNDEPCFOFE_OFFSET UNITYSDK_OFFSET(0xCF27CA0)
+#define AGEJMDMLAKO_PLNDEPCFOFE_OFFSET UNITYSDK_OFFSET(0xD5DE360)
 
-inline static constexpr unsigned int AGEJMDMLAKO_TypeDefinitionIndex = 49983;
+inline static constexpr unsigned int AGEJMDMLAKO_TypeDefinitionIndex = 51031;
 
 	class AGEJMDMLAKO : public ::System::Object
 	{

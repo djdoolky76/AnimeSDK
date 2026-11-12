@@ -4,7 +4,7 @@ namespace System { class String; }
 
 namespace RPG::Client::ParkourGame
 {
-	inline static constexpr unsigned int MonoParkourRoadMap_RoadMapPoint_TypeDefinitionIndex = 74167;
+	inline static constexpr unsigned int MonoParkourRoadMap_RoadMapPoint_TypeDefinitionIndex = 76315;
 
 	struct alignas(8) MonoParkourRoadMap_RoadMapPoint
 	{

@@ -13,28 +13,28 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define OCBFOHCHPPG_CTOR_OFFSET UNITYSDK_OFFSET(0xBD56670)
-#define OCBFOHCHPPG_EFHIMDKNADD_OFFSET UNITYSDK_OFFSET(0xBD56FD0)
-#define OCBFOHCHPPG_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xBD56CB0)
-#define OCBFOHCHPPG_GET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xBD56630)
-#define OCBFOHCHPPG_GET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xBD56650)
-#define OCBFOHCHPPG_GET_VERSION_OFFSET UNITYSDK_OFFSET(0xBD56610)
-#define OCBFOHCHPPG_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xBD56770)
-#define OCBFOHCHPPG_MHOJFDOJILH_OFFSET UNITYSDK_OFFSET(0xBD56DD0)
-#define OCBFOHCHPPG_SET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xBD56640)
-#define OCBFOHCHPPG_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xBD56660)
-#define OCBFOHCHPPG_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xBD56620)
+#define OCBFOHCHPPG_CTOR_OFFSET UNITYSDK_OFFSET(0xC65AE20)
+#define OCBFOHCHPPG_EFHIMDKNADD_OFFSET UNITYSDK_OFFSET(0xC65B780)
+#define OCBFOHCHPPG_EXPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xC65B460)
+#define OCBFOHCHPPG_GET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xC65ADE0)
+#define OCBFOHCHPPG_GET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xC65AE00)
+#define OCBFOHCHPPG_GET_VERSION_OFFSET UNITYSDK_OFFSET(0xC65ADC0)
+#define OCBFOHCHPPG_IMPORTPROFILE_OFFSET UNITYSDK_OFFSET(0xC65AF20)
+#define OCBFOHCHPPG_MHOJFDOJILH_OFFSET UNITYSDK_OFFSET(0xC65B580)
+#define OCBFOHCHPPG_SET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xC65ADF0)
+#define OCBFOHCHPPG_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xC65AE10)
+#define OCBFOHCHPPG_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xC65ADD0)
 
-inline static constexpr unsigned int OCBFOHCHPPG_TypeDefinitionIndex = 51950;
+inline static constexpr unsigned int OCBFOHCHPPG_TypeDefinitionIndex = 53051;
 
 	class OCBFOHCHPPG : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AvatarSkillTreeAnchorType>* AAKHNJLJJLM; // 0x10
+		::BCGKEELAOEA* _SkillLevelProvider_k__BackingField; // 0x10
 		::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::KFBOFAILIBG>* EJDPMHENIAC; // 0x18
-		::BCGKEELAOEA* _SkillLevelProvider_k__BackingField; // 0x20
-		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::KFBOFAILIBG>* NIBABJHIMLD; // 0x28
-		::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::GameCore::FixPoint>* _PropertyModifierProvider_k__BackingField; // 0x30
+		::RPG::AvatarSystem::Property::IPropertyModifierProvider_1<::RPG::GameCore::FixPoint>* _PropertyModifierProvider_k__BackingField; // 0x20
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AvatarSkillTreeAnchorType>* AAKHNJLJJLM; // 0x28
+		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::KFBOFAILIBG>* NIBABJHIMLD; // 0x30
 		::System::UInt32 _Version_k__BackingField; // 0x38
 		::System::Void _ctor(::System::Collections::Generic::IReadOnlyList_1<::RPG::GameCore::AvatarSkillTreeAnchorType>* a1, ::System::Collections::Generic::IReadOnlyDictionary_2<::RPG::GameCore::AvatarSkillTreeAnchorType, ::KFBOFAILIBG>* a2)
 		{

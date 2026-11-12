@@ -4,18 +4,18 @@
 class HNODHEJGACP;
 namespace System { class Object; }
 
-#define HNODHEJGACP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E5E2360)
-#define HNODHEJGACP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5E23A0)
-#define HNODHEJGACP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5E23B0)
+#define HNODHEJGACP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F8DE1F0)
+#define HNODHEJGACP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F8DE230)
+#define HNODHEJGACP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F8DE240)
 
-inline static constexpr unsigned int HNODHEJGACP___c_TypeDefinitionIndex = 29796;
+inline static constexpr unsigned int HNODHEJGACP___c_TypeDefinitionIndex = 30694;
 
 	class HNODHEJGACP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x4C6E0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3F200);
 		}
 
 		static ::System::Void _cctor()

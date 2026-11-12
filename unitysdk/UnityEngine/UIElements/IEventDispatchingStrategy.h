@@ -3,7 +3,7 @@
 
 namespace UnityEngine::UIElements
 {
-	inline static constexpr unsigned int IEventDispatchingStrategy_TypeDefinitionIndex = 5946;
+	inline static constexpr unsigned int IEventDispatchingStrategy_TypeDefinitionIndex = 5954;
 
 	class IEventDispatchingStrategy
 	{

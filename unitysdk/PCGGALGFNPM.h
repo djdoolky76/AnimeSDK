@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/FateRinActionIntentType.h"
 #include "unitysdk/System/Object.h"
 
-#define PCGGALGFNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBFFF610)
+#define PCGGALGFNPM_CTOR_OFFSET UNITYSDK_OFFSET(0xC903D10)
 
-inline static constexpr unsigned int PCGGALGFNPM_TypeDefinitionIndex = 80592;
+inline static constexpr unsigned int PCGGALGFNPM_TypeDefinitionIndex = 83372;
 
 	class PCGGALGFNPM : public ::System::Object
 	{

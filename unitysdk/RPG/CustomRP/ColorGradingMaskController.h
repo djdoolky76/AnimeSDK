@@ -8,24 +8,24 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC1EB90)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CLEARALLRENDERERMASKVALUES_OFFSET UNITYSDK_OFFSET(0x1CC1E3C0)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CLEARRENDERERMASKVALUE_OFFSET UNITYSDK_OFFSET(0x1CC1E350)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_COLLECTRENDERERSFROMROOT_OFFSET UNITYSDK_OFFSET(0x1CC1E260)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC1EA20)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1CC1E010)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1CC1DE10)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1CC1DC00)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1CC1D880)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_SETRENDERERMASKVALUE_OFFSET UNITYSDK_OFFSET(0x1CC1E290)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__CLEARMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0x1CC1DE80)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__INITMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CC1D8D0)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__REBUILDDRAWLIST_OFFSET UNITYSDK_OFFSET(0x1CC1E090)
-#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__RESOLVEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1CC1E420)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDC5CC0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CLEARALLRENDERERMASKVALUES_OFFSET UNITYSDK_OFFSET(0x1DDC5570)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CLEARRENDERERMASKVALUE_OFFSET UNITYSDK_OFFSET(0x1DDC5530)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_COLLECTRENDERERSFROMROOT_OFFSET UNITYSDK_OFFSET(0x1DDC5440)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDC5BB0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1DDC5220)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x1DDC5080)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x1DDC4ED0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1DDC4B90)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER_SETRENDERERMASKVALUE_OFFSET UNITYSDK_OFFSET(0x1DDC5470)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__CLEARMATERIALINSTANCES_OFFSET UNITYSDK_OFFSET(0x1DDC50C0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__INITMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DDC4BD0)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__REBUILDDRAWLIST_OFFSET UNITYSDK_OFFSET(0x1DDC5270)
+#define RPG_CUSTOMRP_COLORGRADINGMASKCONTROLLER__RESOLVEMATERIAL_OFFSET UNITYSDK_OFFSET(0x1DDC55D0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int ColorGradingMaskController_TypeDefinitionIndex = 37765;
+	inline static constexpr unsigned int ColorGradingMaskController_TypeDefinitionIndex = 38694;
 
 	class ColorGradingMaskController : public ::UnityEngine::MonoBehaviour
 	{
@@ -38,64 +38,64 @@ namespace RPG::CustomRP
 		::UnityEngine::Material* _maskMat; // 0x38
 		::System::Collections::Generic::Dictionary_2<::System::Int32, ::UnityEngine::Material*>* _materialInstances; // 0x40
 		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::System::Single>* _customMaskValues; // 0x48
-		static ::System::Int32* StaticGet__DissolveSTProp()
+		static ::System::Int32* StaticGet__DissolveRateProp()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CE0);
-		}
-
-		static ::System::Int32* StaticGet__UseDitherAlphaProp()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CE4);
-		}
-
-		static ::System::Int32* StaticGet__DistortionSTProp()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CE8);
-		}
-
-		static ::System::Int32* StaticGet__DissolveMapAddProp()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CEC);
-		}
-
-		static ::System::Int32* StaticGet__DissolveDistIntProp()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CF0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D80);
 		}
 
 		static ::System::Int32* StaticGet__DissolveUVSpeedProp()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CF4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D84);
 		}
 
-		static ::System::Int32* StaticGet__DissolveRateProp()
+		static ::System::Int32* StaticGet__DissolveSTProp()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CF8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D88);
+		}
+
+		static ::System::Int32* StaticGet__UseDitherAlphaProp()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D8C);
 		}
 
 		static ::System::Int32* StaticGet__DitherAlphaProp()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9CFC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D90);
 		}
 
 		static ::System::Int32* StaticGet__customOutputPropID()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9D00);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D94);
 		}
 
-		static ::System::Int32* StaticGet__DissolveUVProp()
+		static ::System::Int32* StaticGet__DissolveDistIntProp()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9D04);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D98);
 		}
 
 		static ::System::Int32* StaticGet__DissolveOnProp()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9D08);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7D9C);
+		}
+
+		static ::System::Int32* StaticGet__DistortionSTProp()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7DA0);
+		}
+
+		static ::System::Int32* StaticGet__DissolveUVProp()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7DA4);
+		}
+
+		static ::System::Int32* StaticGet__DissolveMapAddProp()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7DA8);
 		}
 
 		static ::System::Int32* StaticGet__DissolveMapProp()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x9D0C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.CustomRP", "ColorGradingMaskController")->GetStaticField(0x7DAC);
 		}
 
 		::System::Void _ctor()

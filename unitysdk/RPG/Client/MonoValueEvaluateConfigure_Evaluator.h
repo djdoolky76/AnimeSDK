@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_EVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xD87F9A0)
+#define RPG_CLIENT_MONOVALUEEVALUATECONFIGURE_EVALUATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE2D1E80)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoValueEvaluateConfigure_Evaluator_TypeDefinitionIndex = 68628;
+	inline static constexpr unsigned int MonoValueEvaluateConfigure_Evaluator_TypeDefinitionIndex = 70576;
 
 	class MonoValueEvaluateConfigure_Evaluator : public ::System::Object
 	{

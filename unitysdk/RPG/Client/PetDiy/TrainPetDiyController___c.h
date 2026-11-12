@@ -5,25 +5,25 @@ namespace RPG::Client::PetDiy { class PetDiyAreaInfo; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_PETDIY_TRAINPETDIYCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDACD5E0)
-#define RPG_CLIENT_PETDIY_TRAINPETDIYCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDACD610)
-#define RPG_CLIENT_PETDIY_TRAINPETDIYCONTROLLER___C___INITAREAS_B__6_0_OFFSET UNITYSDK_OFFSET(0xDACD620)
+#define RPG_CLIENT_PETDIY_TRAINPETDIYCONTROLLER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xE523520)
+#define RPG_CLIENT_PETDIY_TRAINPETDIYCONTROLLER___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE523550)
+#define RPG_CLIENT_PETDIY_TRAINPETDIYCONTROLLER___C___INITAREAS_B__6_0_OFFSET UNITYSDK_OFFSET(0xE523560)
 
 namespace RPG::Client::PetDiy
 {
-	inline static constexpr unsigned int TrainPetDiyController___c_TypeDefinitionIndex = 74490;
+	inline static constexpr unsigned int TrainPetDiyController___c_TypeDefinitionIndex = 76638;
 
 	class TrainPetDiyController___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x191D0);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x28750);
 		}
 
 		static ::System::Comparison_1<::RPG::Client::PetDiy::PetDiyAreaInfo*>** StaticGet___9__6_0()
 		{
-			return (::System::Comparison_1<::RPG::Client::PetDiy::PetDiyAreaInfo*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x191D8);
+			return (::System::Comparison_1<::RPG::Client::PetDiy::PetDiyAreaInfo*>**)UnitySDK::FromName("RPG.Client.PetDiy", "<>c")->GetStaticField(0x28758);
 		}
 
 		static ::System::Void _cctor()

@@ -5,24 +5,23 @@ class NAOKFLDEDBJ;
 namespace RPG::GameCore { class TraceWithDetectProjectileData; }
 namespace UnityEngine { class Collider; }
 
-#define ECPIKMPOLFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1330D710)
-#define ECPIKMPOLFL_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0x1330DD50)
-#define ECPIKMPOLFL_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0x1330DAA0)
-#define ECPIKMPOLFL_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x1330D770)
-#define ECPIKMPOLFL_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x1330DC10)
+#define ECPIKMPOLFL_CTOR_OFFSET UNITYSDK_OFFSET(0x140C9840)
+#define ECPIKMPOLFL_GOLCDGNLEKL_OFFSET UNITYSDK_OFFSET(0x140C9E70)
+#define ECPIKMPOLFL_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0x140C9BC0)
+#define ECPIKMPOLFL_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x140C98A0)
+#define ECPIKMPOLFL_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x140C9D30)
 
-inline static constexpr unsigned int ECPIKMPOLFL_TypeDefinitionIndex = 54761;
+inline static constexpr unsigned int ECPIKMPOLFL_TypeDefinitionIndex = 55928;
 
 	class ECPIKMPOLFL : public ::GGJEMEHMBNL
 	{
 	public:
-		::RPG::GameCore::TraceWithDetectProjectileData* FPGPHIEOMFL; // 0x48
-		::UnityEngine::Collider* PAKKIDHJAPI; // 0x50
-		::System::Boolean CGPILFCEFGN; // 0x58
-		::System::Boolean GCFHHOLDLAB; // 0x59
-		::System::Boolean CDGGODAIMGN; // 0x5A
-		::System::Byte _padding0[0x1];
-		::System::Int32 CCKPDMAHLNJ; // 0x5C
+		::UnityEngine::Collider* PAKKIDHJAPI; // 0x48
+		::RPG::GameCore::TraceWithDetectProjectileData* FPGPHIEOMFL; // 0x50
+		::System::Int32 CCKPDMAHLNJ; // 0x58
+		::System::Boolean CDGGODAIMGN; // 0x5C
+		::System::Boolean CGPILFCEFGN; // 0x5D
+		::System::Boolean GCFHHOLDLAB; // 0x5E
 		::System::Void _ctor(::NAOKFLDEDBJ* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NAOKFLDEDBJ*))((::PBYTE)hIl2Cpp + ECPIKMPOLFL_CTOR_OFFSET))(this, a1);

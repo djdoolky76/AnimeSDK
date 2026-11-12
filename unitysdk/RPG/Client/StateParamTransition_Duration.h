@@ -3,11 +3,11 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_STATEPARAMTRANSITION_DURATION_CTOR_OFFSET UNITYSDK_OFFSET(0xE12F680)
+#define RPG_CLIENT_STATEPARAMTRANSITION_DURATION_CTOR_OFFSET UNITYSDK_OFFSET(0xEBDC8E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int StateParamTransition_Duration_TypeDefinitionIndex = 68836;
+	inline static constexpr unsigned int StateParamTransition_Duration_TypeDefinitionIndex = 70789;
 
 	class StateParamTransition_Duration : public ::System::Object
 	{

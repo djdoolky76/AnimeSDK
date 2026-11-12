@@ -5,9 +5,9 @@
 namespace RPG::Client { class MockAnimator; }
 namespace RPG::GameCore { class FreeStyleComponent; }
 
-#define CMPCKAGMFGF_DNGFMBGDHDB_CTOR_OFFSET UNITYSDK_OFFSET(0xED090)
+#define CMPCKAGMFGF_DNGFMBGDHDB_CTOR_OFFSET UNITYSDK_OFFSET(0xF88A0)
 
-inline static constexpr unsigned int CMPCKAGMFGF_DNGFMBGDHDB_TypeDefinitionIndex = 69199;
+inline static constexpr unsigned int CMPCKAGMFGF_DNGFMBGDHDB_TypeDefinitionIndex = 71152;
 
 	struct alignas(8) CMPCKAGMFGF_DNGFMBGDHDB
 	{

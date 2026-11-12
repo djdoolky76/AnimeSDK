@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 class OABDFLPEHDO;
 
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD1ED6E0)
-#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xD1EE8D0)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDC43890)
+#define RPG_CLIENT_GRIDFIGHTREFTRAITLAYERCALCULATOR___C__DISPLAYCLASS5_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0xDC44AD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_0_TypeDefinitionIndex = 64821;
+	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_0_TypeDefinitionIndex = 66365;
 
 	class GridFightRefTraitLayerCalculator___c__DisplayClass5_0 : public ::System::Object
 	{

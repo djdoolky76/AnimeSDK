@@ -4,23 +4,23 @@
 namespace CriWare { class CriAudioWriteStream_Delegate; }
 namespace CriWare { class CriAudioWriteStream_InternalDelegate; }
 
-#define CRIWARE_CRIAUDIOWRITESTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1670E560)
-#define CRIWARE_CRIAUDIOWRITESTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1670E550)
-#define CRIWARE_CRIAUDIOWRITESTREAM_GET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x1670E510)
-#define CRIWARE_CRIAUDIOWRITESTREAM_GET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x1670E530)
-#define CRIWARE_CRIAUDIOWRITESTREAM_SET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x1670E520)
-#define CRIWARE_CRIAUDIOWRITESTREAM_SET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x1670E540)
+#define CRIWARE_CRIAUDIOWRITESTREAM_CTOR_1_OFFSET UNITYSDK_OFFSET(0x175524F0)
+#define CRIWARE_CRIAUDIOWRITESTREAM_CTOR_OFFSET UNITYSDK_OFFSET(0x175524E0)
+#define CRIWARE_CRIAUDIOWRITESTREAM_GET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x175524A0)
+#define CRIWARE_CRIAUDIOWRITESTREAM_GET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x175524C0)
+#define CRIWARE_CRIAUDIOWRITESTREAM_SET_CALLBACKFUNCTION_OFFSET UNITYSDK_OFFSET(0x175524B0)
+#define CRIWARE_CRIAUDIOWRITESTREAM_SET_CALLBACKPOINTER_OFFSET UNITYSDK_OFFSET(0x175524D0)
 
 namespace CriWare
 {
-	inline static constexpr unsigned int CriAudioWriteStream_TypeDefinitionIndex = 40091;
+	inline static constexpr unsigned int CriAudioWriteStream_TypeDefinitionIndex = 41066;
 
 	class CriAudioWriteStream : public ::System::Object
 	{
 	public:
 		::CriWare::CriAudioWriteStream_InternalDelegate* internalDelegate; // 0x10
-		::System::IntPtr _callbackFunction_k__BackingField; // 0x18
-		::System::IntPtr _callbackPointer_k__BackingField; // 0x20
+		::System::IntPtr _callbackPointer_k__BackingField; // 0x18
+		::System::IntPtr _callbackFunction_k__BackingField; // 0x20
 		::System::Void _ctor(::System::IntPtr a1, ::System::IntPtr a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::IntPtr))((::PBYTE)hIl2Cpp + CRIWARE_CRIAUDIOWRITESTREAM_CTOR_OFFSET))(this, a1, a2);

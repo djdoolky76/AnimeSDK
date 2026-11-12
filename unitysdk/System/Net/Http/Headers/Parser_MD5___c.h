@@ -4,9 +4,9 @@
 namespace System { class Object; }
 namespace System { class String; }
 
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE57BA0)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE57BE0)
-#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EE57BF0)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x20107530)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C_CTOR_OFFSET UNITYSDK_OFFSET(0x20107570)
+#define SYSTEM_NET_HTTP_HEADERS_PARSER_MD5___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x20107580)
 
 namespace System::Net::Http::Headers
 {
@@ -17,7 +17,7 @@ namespace System::Net::Http::Headers
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x3210);
+			return (::System::Object**)UnitySDK::FromName("System.Net.Http.Headers", "<>c")->GetStaticField(0x49260);
 		}
 
 		static ::System::Void _cctor()

@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class String; }
 
-#define LNGFNDMFLOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7DD350)
+#define LNGFNDMFLOI_CTOR_OFFSET UNITYSDK_OFFSET(0xC03ADC0)
 
-inline static constexpr unsigned int LNGFNDMFLOI_TypeDefinitionIndex = 52051;
+inline static constexpr unsigned int LNGFNDMFLOI_TypeDefinitionIndex = 53156;
 
 	class LNGFNDMFLOI : public ::System::Attribute
 	{

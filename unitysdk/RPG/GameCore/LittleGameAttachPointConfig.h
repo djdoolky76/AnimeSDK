@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class LittleGameAttachPointConfig; }
 namespace RPG::GameCore { class LittleGameAttachPointInfo; }
 
-#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7DD480)
-#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D7DD3C0)
+#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA1DFA0)
+#define RPG_GAMECORE_LITTLEGAMEATTACHPOINTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA1DEE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LittleGameAttachPointConfig_TypeDefinitionIndex = 18855;
+	inline static constexpr unsigned int LittleGameAttachPointConfig_TypeDefinitionIndex = 19017;
 
 	class LittleGameAttachPointConfig : public ::RPG::GameCore::JsonConfig
 	{

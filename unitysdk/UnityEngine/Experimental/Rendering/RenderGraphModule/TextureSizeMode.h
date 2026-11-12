@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
-	inline static constexpr unsigned int TextureSizeMode_TypeDefinitionIndex = 35463;
+	inline static constexpr unsigned int TextureSizeMode_TypeDefinitionIndex = 36391;
 
 	enum class TextureSizeMode : ::System::Int32
 	{

@@ -7,7 +7,7 @@ class OEIKFPLBOMH;
 namespace Sofa { class BaseSofaControl; }
 namespace System { class IDisposable; }
 
-inline static constexpr unsigned int GNEECPEFLDC_TypeDefinitionIndex = 49841;
+inline static constexpr unsigned int GNEECPEFLDC_TypeDefinitionIndex = 50889;
 
 	class GNEECPEFLDC : public ::System::Object
 	{

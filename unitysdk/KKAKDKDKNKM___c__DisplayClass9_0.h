@@ -6,18 +6,18 @@
 class IOLIAAFBFON;
 class WaveSimPanel;
 
-#define KKAKDKDKNKM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB4B36E0)
-#define KKAKDKDKNKM___C__DISPLAYCLASS9_0__TRIGGERFALLEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xB4B36F0)
+#define KKAKDKDKNKM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFA2C0)
+#define KKAKDKDKNKM___C__DISPLAYCLASS9_0__TRIGGERFALLEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xBCFB7D0)
 
-inline static constexpr unsigned int KKAKDKDKNKM___c__DisplayClass9_0_TypeDefinitionIndex = 70866;
+inline static constexpr unsigned int KKAKDKDKNKM___c__DisplayClass9_0_TypeDefinitionIndex = 72845;
 
 	class KKAKDKDKNKM___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:
-		::IOLIAAFBFON* instance; // 0x10
-		::WaveSimPanel* panel; // 0x18
-		::System::Single radius; // 0x20
-		::UnityEngine::Quaternion rotation; // 0x24
+		::WaveSimPanel* panel; // 0x10
+		::IOLIAAFBFON* instance; // 0x18
+		::UnityEngine::Quaternion rotation; // 0x20
+		::System::Single radius; // 0x30
 		::UnityEngine::Vector3 position; // 0x34
 		::System::Void _ctor()
 		{

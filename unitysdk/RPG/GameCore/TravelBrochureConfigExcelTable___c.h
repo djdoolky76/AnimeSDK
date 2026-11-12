@@ -5,25 +5,25 @@ namespace RPG::GameCore { class TravelBrochureConfigRow; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DC3A830)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC3A860)
-#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C___SAFEINITIALIZE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1DC3A870)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EE4DAF0)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE4DB20)
+#define RPG_GAMECORE_TRAVELBROCHURECONFIGEXCELTABLE___C___SAFEINITIALIZE_B__20_0_OFFSET UNITYSDK_OFFSET(0x1EE4DB30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TravelBrochureConfigExcelTable___c_TypeDefinitionIndex = 15375;
+	inline static constexpr unsigned int TravelBrochureConfigExcelTable___c_TypeDefinitionIndex = 15531;
 
 	class TravelBrochureConfigExcelTable___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>** StaticGet___9__20_0()
-		{
-			return (::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x2F0D0);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x2F0D8);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x2A8C0);
+		}
+
+		static ::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>** StaticGet___9__20_0()
+		{
+			return (::System::Comparison_1<::RPG::GameCore::TravelBrochureConfigRow*>**)UnitySDK::FromName("RPG.GameCore", "<>c")->GetStaticField(0x2A8C8);
 		}
 
 		static ::System::Void _cctor()

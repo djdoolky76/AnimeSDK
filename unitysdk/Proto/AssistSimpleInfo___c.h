@@ -4,20 +4,20 @@
 namespace Proto { class AssistSimpleInfo; }
 namespace System { class Object; }
 
-#define PROTO_ASSISTSIMPLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFE84C0)
-#define PROTO_ASSISTSIMPLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFE84F0)
-#define PROTO_ASSISTSIMPLEINFO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DFE8500)
+#define PROTO_ASSISTSIMPLEINFO___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F299CD0)
+#define PROTO_ASSISTSIMPLEINFO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F299D00)
+#define PROTO_ASSISTSIMPLEINFO___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1F299D10)
 
 namespace Proto
 {
-	inline static constexpr unsigned int AssistSimpleInfo___c_TypeDefinitionIndex = 25862;
+	inline static constexpr unsigned int AssistSimpleInfo___c_TypeDefinitionIndex = 26359;
 
 	class AssistSimpleInfo___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x439F0);
+			return (::System::Object**)UnitySDK::FromName("Proto", "<>c")->GetStaticField(0x4B590);
 		}
 
 		static ::System::Void _cctor()

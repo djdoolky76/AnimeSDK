@@ -4,18 +4,18 @@
 class LEGNLMENMJK;
 namespace System { class Object; }
 
-#define LEGNLMENMJK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E92EF40)
-#define LEGNLMENMJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E92EF70)
-#define LEGNLMENMJK___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1E92EF80)
+#define LEGNLMENMJK___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FC4D910)
+#define LEGNLMENMJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FC4D940)
+#define LEGNLMENMJK___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1FC4D950)
 
-inline static constexpr unsigned int LEGNLMENMJK___c_TypeDefinitionIndex = 27052;
+inline static constexpr unsigned int LEGNLMENMJK___c_TypeDefinitionIndex = 27583;
 
 	class LEGNLMENMJK___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x385F0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x2DEF0);
 		}
 
 		static ::System::Void _cctor()

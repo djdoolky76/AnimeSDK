@@ -3,9 +3,9 @@
 #include "unitysdk/System/Attribute.h"
 namespace System { class Type; }
 
-#define IEAMIIFFDKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEE7C60)
+#define IEAMIIFFDKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0DA6A0)
 
-inline static constexpr unsigned int IEAMIIFFDKL_TypeDefinitionIndex = 25010;
+inline static constexpr unsigned int IEAMIIFFDKL_TypeDefinitionIndex = 25488;
 
 	class IEAMIIFFDKL : public ::System::Attribute
 	{

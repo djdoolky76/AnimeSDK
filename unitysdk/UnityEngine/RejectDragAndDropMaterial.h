@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define UNITYENGINE_REJECTDRAGANDDROPMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1F49D320)
+#define UNITYENGINE_REJECTDRAGANDDROPMATERIAL_CTOR_OFFSET UNITYSDK_OFFSET(0x2074D180)
 
 namespace UnityEngine
 {

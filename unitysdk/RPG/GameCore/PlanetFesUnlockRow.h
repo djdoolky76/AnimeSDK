@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PlanetFesUnlockRow; }
 
-#define RPG_GAMECORE_PLANETFESUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92BDA0)
-#define RPG_GAMECORE_PLANETFESUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D92BBE0)
+#define RPG_GAMECORE_PLANETFESUNLOCKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB44EE0)
+#define RPG_GAMECORE_PLANETFESUNLOCKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB44D20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PlanetFesUnlockRow_TypeDefinitionIndex = 12231;
+	inline static constexpr unsigned int PlanetFesUnlockRow_TypeDefinitionIndex = 12288;
 
 	class PlanetFesUnlockRow : public ::System::Object
 	{

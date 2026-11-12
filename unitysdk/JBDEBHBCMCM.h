@@ -4,18 +4,18 @@
 class JBDEBHBCMCM;
 namespace RPG::Client::FateRin::Card { class IFateRinSystemCardViewModel; }
 
-#define JBDEBHBCMCM_CCTOR_OFFSET UNITYSDK_OFFSET(0x165679A0)
-#define JBDEBHBCMCM_COMPARE_OFFSET UNITYSDK_OFFSET(0x16567590)
-#define JBDEBHBCMCM_CTOR_OFFSET UNITYSDK_OFFSET(0x16567990)
+#define JBDEBHBCMCM_CCTOR_OFFSET UNITYSDK_OFFSET(0xB8A01B0)
+#define JBDEBHBCMCM_COMPARE_OFFSET UNITYSDK_OFFSET(0xB89FD90)
+#define JBDEBHBCMCM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8A01A0)
 
-inline static constexpr unsigned int JBDEBHBCMCM_TypeDefinitionIndex = 81200;
+inline static constexpr unsigned int JBDEBHBCMCM_TypeDefinitionIndex = 83980;
 
 	class JBDEBHBCMCM : public ::System::Object
 	{
 	public:
 		static ::JBDEBHBCMCM** StaticGet_FMJPMFEDIJL()
 		{
-			return (::JBDEBHBCMCM**)UnitySDK::FromName("", "JBDEBHBCMCM")->GetStaticField(0x558F0);
+			return (::JBDEBHBCMCM**)UnitySDK::FromName("", "JBDEBHBCMCM")->GetStaticField(0x5DE50);
 		}
 
 		::System::Void _ctor()

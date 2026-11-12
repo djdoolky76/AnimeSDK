@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PetMarbleBattleSpecialKillType_TypeDefinitionIndex = 65826;
+	inline static constexpr unsigned int PetMarbleBattleSpecialKillType_TypeDefinitionIndex = 67758;
 
 	enum class PetMarbleBattleSpecialKillType : ::System::Int32
 	{

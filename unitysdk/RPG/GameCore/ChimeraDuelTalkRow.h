@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraDuelTalkRow; }
 
-#define RPG_GAMECORE_CHIMERADUELTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5AB9F0)
-#define RPG_GAMECORE_CHIMERADUELTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5AB7D0)
+#define RPG_GAMECORE_CHIMERADUELTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BC050)
+#define RPG_GAMECORE_CHIMERADUELTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7BBE30)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraDuelTalkRow_TypeDefinitionIndex = 11151;
+	inline static constexpr unsigned int ChimeraDuelTalkRow_TypeDefinitionIndex = 11167;
 
 	class ChimeraDuelTalkRow : public ::System::Object
 	{

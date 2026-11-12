@@ -6,13 +6,13 @@ namespace RPG::GameCore { class HipplenGameSwitchCamera; }
 namespace RPG::GameCore { class VCameraBlend; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HIPPLENGAMESWITCHCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D76BFD0)
-#define RPG_GAMECORE_HIPPLENGAMESWITCHCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D76BFE0)
-#define RPG_GAMECORE_HIPPLENGAMESWITCHCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D76BFA0)
+#define RPG_GAMECORE_HIPPLENGAMESWITCHCAMERA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E97F8A0)
+#define RPG_GAMECORE_HIPPLENGAMESWITCHCAMERA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E97F8B0)
+#define RPG_GAMECORE_HIPPLENGAMESWITCHCAMERA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E97F870)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HipplenGameSwitchCamera_TypeDefinitionIndex = 21316;
+	inline static constexpr unsigned int HipplenGameSwitchCamera_TypeDefinitionIndex = 21659;
 
 	class HipplenGameSwitchCamera : public ::RPG::GameCore::TaskConfig
 	{

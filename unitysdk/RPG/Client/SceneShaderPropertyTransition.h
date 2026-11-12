@@ -4,14 +4,14 @@
 #include "unitysdk/UnityEngine/Color.h"
 class DEBEAKKOHLN;
 
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_CCTOR_OFFSET UNITYSDK_OFFSET(0xE094DC0)
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_CTOR_OFFSET UNITYSDK_OFFSET(0xE094DB0)
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xE094C30)
-#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_SETSCENESHADOWCOLOR_OFFSET UNITYSDK_OFFSET(0xE094CD0)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_CCTOR_OFFSET UNITYSDK_OFFSET(0xEAFF380)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_CTOR_OFFSET UNITYSDK_OFFSET(0xEAFF370)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_DIOEAJEHHND_OFFSET UNITYSDK_OFFSET(0xEAFF1F0)
+#define RPG_CLIENT_SCENESHADERPROPERTYTRANSITION_SETSCENESHADOWCOLOR_OFFSET UNITYSDK_OFFSET(0xEAFF290)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SceneShaderPropertyTransition_TypeDefinitionIndex = 68884;
+	inline static constexpr unsigned int SceneShaderPropertyTransition_TypeDefinitionIndex = 70837;
 
 	class SceneShaderPropertyTransition : public ::UnityEngine::MonoBehaviour
 	{
@@ -19,7 +19,7 @@ namespace RPG::Client
 		::DEBEAKKOHLN* OIDAGBPPNBJ; // 0x18
 		static ::System::Int32* StaticGet_JEMFDPPDDKO()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "SceneShaderPropertyTransition")->GetStaticField(0x155B0);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "SceneShaderPropertyTransition")->GetStaticField(0x16100);
 		}
 
 		::System::Void _ctor()

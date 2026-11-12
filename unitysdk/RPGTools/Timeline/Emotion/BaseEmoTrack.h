@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPGTools/Timeline/CustomUniqueNameTrack.h"
 
-#define RPGTOOLS_TIMELINE_EMOTION_BASEEMOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8E8050)
+#define RPGTOOLS_TIMELINE_EMOTION_BASEEMOTRACK_CTOR_OFFSET UNITYSDK_OFFSET(0xF3C1C90)
 
 namespace RPGTools::Timeline::Emotion
 {
-	inline static constexpr unsigned int BaseEmoTrack_TypeDefinitionIndex = 48717;
+	inline static constexpr unsigned int BaseEmoTrack_TypeDefinitionIndex = 49763;
 
 	class BaseEmoTrack : public ::RPGTools::Timeline::CustomUniqueNameTrack
 	{

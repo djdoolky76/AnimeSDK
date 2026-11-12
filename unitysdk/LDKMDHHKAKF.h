@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace UnityEngine { class Behaviour; }
 
-#define LDKMDHHKAKF_HGFKCIDPEEI_OFFSET UNITYSDK_OFFSET(0xB636DD0)
-#define LDKMDHHKAKF_MDMLJCPBPAH_OFFSET UNITYSDK_OFFSET(0xB636D70)
+#define LDKMDHHKAKF_HGFKCIDPEEI_OFFSET UNITYSDK_OFFSET(0xBECC930)
+#define LDKMDHHKAKF_MDMLJCPBPAH_OFFSET UNITYSDK_OFFSET(0xBECC8D0)
 
-inline static constexpr unsigned int LDKMDHHKAKF_TypeDefinitionIndex = 73658;
+inline static constexpr unsigned int LDKMDHHKAKF_TypeDefinitionIndex = 75781;
 
 	class LDKMDHHKAKF : public ::System::Object
 	{

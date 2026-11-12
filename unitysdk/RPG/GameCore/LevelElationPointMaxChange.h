@@ -6,22 +6,22 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class LevelElationPointMaxChange; }
 
-#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xE6EC130)
-#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xE6EC0E0)
-#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE6EC090)
-#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xE6EC010)
+#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_CTOR_OFFSET UNITYSDK_OFFSET(0xF1EE690)
+#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xF1EE640)
+#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xF1EE5F0)
+#define RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_INIT_OFFSET UNITYSDK_OFFSET(0xF1EE570)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int LevelElationPointMaxChange_TypeDefinitionIndex = 56759;
+	inline static constexpr unsigned int LevelElationPointMaxChange_TypeDefinitionIndex = 57983;
 
 	class LevelElationPointMaxChange : public ::CMPGEAFHHDC
 	{
 	public:
 		::RPG::GameCore::GameEntity* Source; // 0x18
 		::RPG::GameCore::FixPoint ChangeValue; // 0x20
-		::RPG::GameCore::FixPoint OldValue; // 0x28
-		::RPG::GameCore::FixPoint NewValue; // 0x30
+		::RPG::GameCore::FixPoint NewValue; // 0x28
+		::RPG::GameCore::FixPoint OldValue; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_LEVELELATIONPOINTMAXCHANGE_CTOR_OFFSET))(this);

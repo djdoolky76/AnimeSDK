@@ -7,12 +7,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ActivityHipplenPhaseGradeRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D368640)
-#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D368460)
+#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E576F70)
+#define RPG_GAMECORE_ACTIVITYHIPPLENPHASEGRADEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E576D90)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ActivityHipplenPhaseGradeRow_TypeDefinitionIndex = 11635;
+	inline static constexpr unsigned int ActivityHipplenPhaseGradeRow_TypeDefinitionIndex = 11686;
 
 	class ActivityHipplenPhaseGradeRow : public ::System::Object
 	{

@@ -5,10 +5,10 @@ class IFBFJDCECML;
 class PBGNKMMDBGD;
 namespace RPG::GameCore { class CakeRaceActionManhattanPlacePickupItem; }
 
-#define BCKMCJIEENC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A3B50)
-#define BCKMCJIEENC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5A3B60)
+#define BCKMCJIEENC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D7253D0)
+#define BCKMCJIEENC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1D7253E0)
 
-inline static constexpr unsigned int BCKMCJIEENC_TypeDefinitionIndex = 37371;
+inline static constexpr unsigned int BCKMCJIEENC_TypeDefinitionIndex = 38299;
 
 	class BCKMCJIEENC : public ::GPLOFONGBGI
 	{

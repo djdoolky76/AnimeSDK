@@ -6,13 +6,13 @@ namespace RPG::GameCore { class AdvCharacterSteerToInputDir; }
 namespace RPG::GameCore { class AdventureCharacterController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AEHIOOGCDGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB151C60)
-#define AEHIOOGCDGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB151CB0)
-#define AEHIOOGCDGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB151CF0)
-#define AEHIOOGCDGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1525C0)
-#define AEHIOOGCDGJ_TICK_OFFSET UNITYSDK_OFFSET(0xB151FE0)
+#define AEHIOOGCDGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xD5AD470)
+#define AEHIOOGCDGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xD5AD4C0)
+#define AEHIOOGCDGJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD5AD500)
+#define AEHIOOGCDGJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD5ADDC0)
+#define AEHIOOGCDGJ_TICK_OFFSET UNITYSDK_OFFSET(0xD5AD7E0)
 
-inline static constexpr unsigned int AEHIOOGCDGJ_TypeDefinitionIndex = 52340;
+inline static constexpr unsigned int AEHIOOGCDGJ_TypeDefinitionIndex = 53446;
 
 	class AEHIOOGCDGJ : public ::GELIALJDFBL
 	{
@@ -20,10 +20,10 @@ inline static constexpr unsigned int AEHIOOGCDGJ_TypeDefinitionIndex = 52340;
 		::RPG::GameCore::AdvCharacterSteerToInputDir* OFKGLJOAMLD; // 0x18
 		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::RPG::GameCore::AdventureCharacterController* CPIIOIPAAKK; // 0x28
-		::System::Boolean NICGJCKBCEB; // 0x30
+		::UnityEngine::Vector3 BGNACBGBMHG; // 0x30
+		::System::Single JFNDPOLHLNK; // 0x3C
+		::System::Boolean NICGJCKBCEB; // 0x40
 		::System::Byte _padding0[0x3];
-		::System::Single JFNDPOLHLNK; // 0x34
-		::UnityEngine::Vector3 BGNACBGBMHG; // 0x38
 		::System::Int32 APNGJPMPMOB; // 0x44
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdvCharacterSteerToInputDir* a2)
 		{

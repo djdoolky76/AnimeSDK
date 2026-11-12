@@ -4,24 +4,24 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CakeRaceFieldScoreRow; }
 
-#define RPG_GAMECORE_CAKERACEFIELDSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D54F770)
-#define RPG_GAMECORE_CAKERACEFIELDSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D54F4F0)
+#define RPG_GAMECORE_CAKERACEFIELDSCOREROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E761870)
+#define RPG_GAMECORE_CAKERACEFIELDSCOREROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7615F0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CakeRaceFieldScoreRow_TypeDefinitionIndex = 11014;
+	inline static constexpr unsigned int CakeRaceFieldScoreRow_TypeDefinitionIndex = 11030;
 
 	class CakeRaceFieldScoreRow : public ::System::Object
 	{
 	public:
 		::System::UInt32 FieldID; // 0x10
-		::System::UInt32 TotalScoreRate; // 0x14
-		::System::UInt32 SingleScoreMaxLimit; // 0x18
-		::System::UInt32 SingleScoreMinLimit; // 0x1C
+		::System::UInt32 BetBaseScore; // 0x14
+		::System::UInt32 SingleScoreMinLimit; // 0x18
+		::System::UInt32 TotalScoreMinLimit; // 0x1C
 		::System::UInt32 SingleScoreRate; // 0x20
-		::System::UInt32 TotalScoreMaxLimit; // 0x24
-		::System::UInt32 TotalScoreMinLimit; // 0x28
-		::System::UInt32 BetBaseScore; // 0x2C
+		::System::UInt32 TotalScoreRate; // 0x24
+		::System::UInt32 SingleScoreMaxLimit; // 0x28
+		::System::UInt32 TotalScoreMaxLimit; // 0x2C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CAKERACEFIELDSCOREROW_CTOR_OFFSET))(this);

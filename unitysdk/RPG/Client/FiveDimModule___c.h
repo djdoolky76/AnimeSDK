@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define RPG_CLIENT_FIVEDIMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD036440)
-#define RPG_CLIENT_FIVEDIMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD036470)
-#define RPG_CLIENT_FIVEDIMMODULE___C__ONENTERGAME_B__169_0_OFFSET UNITYSDK_OFFSET(0xD036480)
+#define RPG_CLIENT_FIVEDIMMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9B9370)
+#define RPG_CLIENT_FIVEDIMMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD9B93A0)
+#define RPG_CLIENT_FIVEDIMMODULE___C__ONENTERGAME_B__169_0_OFFSET UNITYSDK_OFFSET(0xD9B93B0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int FiveDimModule___c_TypeDefinitionIndex = 64211;
+	inline static constexpr unsigned int FiveDimModule___c_TypeDefinitionIndex = 65656;
 
 	class FiveDimModule___c : public ::System::Object
 	{
 	public:
 		static ::System::Action** StaticGet___9__169_0()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D020);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68A50);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x5D028);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x68A58);
 		}
 
 		static ::System::Void _cctor()

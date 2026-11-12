@@ -4,18 +4,18 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapDefaultEntranceRow; }
 
-#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D829A70)
-#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D829980)
+#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA444D0)
+#define RPG_GAMECORE_MAPDEFAULTENTRANCEROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EA443E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapDefaultEntranceRow_TypeDefinitionIndex = 14018;
+	inline static constexpr unsigned int MapDefaultEntranceRow_TypeDefinitionIndex = 14175;
 
 	class MapDefaultEntranceRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 FloorID; // 0x10
-		::System::UInt32 EntranceID; // 0x14
+		::System::UInt32 EntranceID; // 0x10
+		::System::UInt32 FloorID; // 0x14
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_MAPDEFAULTENTRANCEROW_CTOR_OFFSET))(this);

@@ -12,47 +12,47 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Renderer; }
 
-#define DLAAIAJKEHP_CCTOR_OFFSET UNITYSDK_OFFSET(0xF890370)
-#define DLAAIAJKEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xF88F100)
-#define DLAAIAJKEHP_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF890350)
-#define DLAAIAJKEHP_HAIHHFOPBLN_1_OFFSET UNITYSDK_OFFSET(0xF890250)
-#define DLAAIAJKEHP_HAIHHFOPBLN_2_OFFSET UNITYSDK_OFFSET(0xF890180)
-#define DLAAIAJKEHP_HAIHHFOPBLN_OFFSET UNITYSDK_OFFSET(0xF8900E0)
-#define DLAAIAJKEHP_HMOOMCLKOJA_OFFSET UNITYSDK_OFFSET(0xF88FEC0)
-#define DLAAIAJKEHP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xF88FA50)
-#define DLAAIAJKEHP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xF88F210)
-#define DLAAIAJKEHP_NFECGOAMEIF_OFFSET UNITYSDK_OFFSET(0xF88FD10)
-#define DLAAIAJKEHP_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xF890360)
+#define DLAAIAJKEHP_CCTOR_OFFSET UNITYSDK_OFFSET(0xFFF5EB0)
+#define DLAAIAJKEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xFFF4C40)
+#define DLAAIAJKEHP_GET_ENTITY_OFFSET UNITYSDK_OFFSET(0xFFF5E90)
+#define DLAAIAJKEHP_HAIHHFOPBLN_1_OFFSET UNITYSDK_OFFSET(0xFFF5D90)
+#define DLAAIAJKEHP_HAIHHFOPBLN_2_OFFSET UNITYSDK_OFFSET(0xFFF5CC0)
+#define DLAAIAJKEHP_HAIHHFOPBLN_OFFSET UNITYSDK_OFFSET(0xFFF5C20)
+#define DLAAIAJKEHP_HMOOMCLKOJA_OFFSET UNITYSDK_OFFSET(0xFFF5A00)
+#define DLAAIAJKEHP_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xFFF5590)
+#define DLAAIAJKEHP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xFFF4D50)
+#define DLAAIAJKEHP_NFECGOAMEIF_OFFSET UNITYSDK_OFFSET(0xFFF5850)
+#define DLAAIAJKEHP_SET_ENTITY_OFFSET UNITYSDK_OFFSET(0xFFF5EA0)
 
-inline static constexpr unsigned int DLAAIAJKEHP_TypeDefinitionIndex = 55183;
+inline static constexpr unsigned int DLAAIAJKEHP_TypeDefinitionIndex = 56364;
 
 	class DLAAIAJKEHP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* GDJKHEEEPJM; // 0x10
-		::Il2CppArray<::UnityEngine::Renderer*>* JEKLDIIKPLI; // 0x18
-		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* KFOBOAGEAML; // 0x20
-		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x28
-		::RPG::GameCore::ModifierPlayerChangeEffect* DOCBCODGIEH; // 0x30
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* KFOBOAGEAML; // 0x10
+		::RPG::GameCore::GameEntity* _Entity_k__BackingField; // 0x18
+		::System::Collections::Generic::Dictionary_2<::UnityEngine::Renderer*, ::Il2CppArray<::UnityEngine::Material*>*>* GDJKHEEEPJM; // 0x20
+		::RPG::GameCore::ModifierPlayerChangeEffect* DOCBCODGIEH; // 0x28
+		::Il2CppArray<::UnityEngine::Renderer*>* JEKLDIIKPLI; // 0x30
 		::System::Collections::Generic::List_1<::UnityEngine::Material*>* OIPDNIJEMAF; // 0x38
-		::UnityEngine::Vector4 BKOECPKLOGD; // 0x40
-		::System::Single KHCBCLOMOHE; // 0x50
-		::UnityEngine::Color KAPOKDONACI; // 0x54
-		::System::Single AHNCHIOFGLB; // 0x64
-		::System::Int32 GMDBHJKEAEI; // 0x68
-		static ::System::Int32* StaticGet_JEJLEFAMBAK()
+		::System::Int32 GMDBHJKEAEI; // 0x40
+		::UnityEngine::Vector4 BKOECPKLOGD; // 0x44
+		::System::Single KHCBCLOMOHE; // 0x54
+		::UnityEngine::Color KAPOKDONACI; // 0x58
+		::System::Single AHNCHIOFGLB; // 0x68
+		static ::System::Int32* StaticGet_LMEDHJLHMFM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x13D00);
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x14F40);
 		}
 
 		static ::System::Int32* StaticGet_KJLLAFEBBMG()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x13D04);
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x14F44);
 		}
 
-		static ::System::Int32* StaticGet_LMEDHJLHMFM()
+		static ::System::Int32* StaticGet_JEJLEFAMBAK()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x13D08);
+			return (::System::Int32*)UnitySDK::FromName("", "DLAAIAJKEHP")->GetStaticField(0x14F48);
 		}
 
 		::System::Void _ctor(::RPG::GameCore::ModifierPlayerChangeEffect* a1)

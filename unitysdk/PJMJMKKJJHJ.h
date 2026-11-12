@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class MatchThreeCreateLevel; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PJMJMKKJJHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC29C1C0)
-#define PJMJMKKJJHJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC29C1D0)
-#define PJMJMKKJJHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC29C210)
-#define PJMJMKKJJHJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC29C310)
-#define PJMJMKKJJHJ_TICK_OFFSET UNITYSDK_OFFSET(0xC29C360)
+#define PJMJMKKJJHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xCBC6B00)
+#define PJMJMKKJJHJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCBC6B10)
+#define PJMJMKKJJHJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCBC6B50)
+#define PJMJMKKJJHJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCBC6C50)
+#define PJMJMKKJJHJ_TICK_OFFSET UNITYSDK_OFFSET(0xCBC6CA0)
 
-inline static constexpr unsigned int PJMJMKKJJHJ_TypeDefinitionIndex = 55173;
+inline static constexpr unsigned int PJMJMKKJJHJ_TypeDefinitionIndex = 56354;
 
 	class PJMJMKKJJHJ : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::MatchThreeCreateLevel* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::MatchThreeCreateLevel* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::MatchThreeCreateLevel* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::MatchThreeCreateLevel*))((::PBYTE)hIl2Cpp + PJMJMKKJJHJ_CTOR_OFFSET))(this, a1, a2);

@@ -6,23 +6,23 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define NEOFADECOGH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB74FF0)
-#define NEOFADECOGH_DBIELBAPKIK_OFFSET UNITYSDK_OFFSET(0xBB74E10)
-#define NEOFADECOGH_FKHMPOKCFOJ_OFFSET UNITYSDK_OFFSET(0xBB743F0)
-#define NEOFADECOGH_FLAAIBEJDOI_OFFSET UNITYSDK_OFFSET(0xBB74800)
-#define NEOFADECOGH_GGKNGCOPLKH_OFFSET UNITYSDK_OFFSET(0xBB74ED0)
-#define NEOFADECOGH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBB74440)
-#define NEOFADECOGH_NAJDKFDDPCC_OFFSET UNITYSDK_OFFSET(0xBB74F60)
+#define NEOFADECOGH_CTOR_OFFSET UNITYSDK_OFFSET(0xC44FE00)
+#define NEOFADECOGH_DBIELBAPKIK_OFFSET UNITYSDK_OFFSET(0xC44FC20)
+#define NEOFADECOGH_FKHMPOKCFOJ_OFFSET UNITYSDK_OFFSET(0xC44F200)
+#define NEOFADECOGH_FLAAIBEJDOI_OFFSET UNITYSDK_OFFSET(0xC44F610)
+#define NEOFADECOGH_GGKNGCOPLKH_OFFSET UNITYSDK_OFFSET(0xC44FCE0)
+#define NEOFADECOGH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xC44F250)
+#define NEOFADECOGH_NAJDKFDDPCC_OFFSET UNITYSDK_OFFSET(0xC44FD70)
 
-inline static constexpr unsigned int NEOFADECOGH_TypeDefinitionIndex = 49288;
+inline static constexpr unsigned int NEOFADECOGH_TypeDefinitionIndex = 50364;
 
 	class NEOFADECOGH
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* JPAHBNOGAEI; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ALKHDILAGKC; // 0x18
-		::System::Collections::Generic::List_1<::System::Int32>* KMOANAPHMPG; // 0x20
-		::System::Collections::Generic::List_1<::System::Int32>* BAAMMJNKAKI; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::String*>* ALKHDILAGKC; // 0x10
+		::System::Collections::Generic::List_1<::System::Int32>* BAAMMJNKAKI; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* JPAHBNOGAEI; // 0x20
+		::System::Collections::Generic::List_1<::System::Int32>* KMOANAPHMPG; // 0x28
 		::System::Int32 BJOKJMLJMKE; // 0x30
 		::System::Void _ctor()
 		{

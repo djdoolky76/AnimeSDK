@@ -4,18 +4,18 @@
 class GFDCKPPKGAC;
 namespace System { class Object; }
 
-#define GFDCKPPKGAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E4630F0)
-#define GFDCKPPKGAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E463120)
-#define GFDCKPPKGAC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E463130)
+#define GFDCKPPKGAC___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F750F50)
+#define GFDCKPPKGAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F750F80)
+#define GFDCKPPKGAC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F750F90)
 
-inline static constexpr unsigned int GFDCKPPKGAC___c_TypeDefinitionIndex = 32117;
+inline static constexpr unsigned int GFDCKPPKGAC___c_TypeDefinitionIndex = 33030;
 
 	class GFDCKPPKGAC___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x13190);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0xA680);
 		}
 
 		static ::System::Void _cctor()

@@ -9,37 +9,37 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_EXPEDITIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE5A230)
-#define RPG_CLIENT_EXPEDITIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE5A260)
-#define RPG_CLIENT_EXPEDITIONMODULE___C__GETALLGROUPIDS_B__3_0_OFFSET UNITYSDK_OFFSET(0xCE5A2D0)
-#define RPG_CLIENT_EXPEDITIONMODULE___C__PREPAREUNLOCKEDCONDITIONDATA_B__0_0_OFFSET UNITYSDK_OFFSET(0xCE5A270)
-#define RPG_CLIENT_EXPEDITIONMODULE___C___REGISTERWAITSTORESHOWREDDOT_B__26_0_OFFSET UNITYSDK_OFFSET(0xCE5A2E0)
+#define RPG_CLIENT_EXPEDITIONMODULE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD822D20)
+#define RPG_CLIENT_EXPEDITIONMODULE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD822D50)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__GETALLGROUPIDS_B__3_0_OFFSET UNITYSDK_OFFSET(0xD822DC0)
+#define RPG_CLIENT_EXPEDITIONMODULE___C__PREPAREUNLOCKEDCONDITIONDATA_B__0_0_OFFSET UNITYSDK_OFFSET(0xD822D60)
+#define RPG_CLIENT_EXPEDITIONMODULE___C___REGISTERWAITSTORESHOWREDDOT_B__26_0_OFFSET UNITYSDK_OFFSET(0xD822DD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ExpeditionModule___c_TypeDefinitionIndex = 63967;
+	inline static constexpr unsigned int ExpeditionModule___c_TypeDefinitionIndex = 65409;
 
 	class ExpeditionModule___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__26_0()
+		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56DF0);
-		}
-
-		static ::System::Func_2<::RPG::Client::ExpeditionHarvestData*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__0_0()
-		{
-			return (::System::Func_2<::RPG::Client::ExpeditionHarvestData*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56DF8);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54470);
 		}
 
 		static ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ExpeditionGroupData*>, ::System::UInt32>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ExpeditionGroupData*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56E00);
+			return (::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::System::UInt32, ::RPG::Client::ExpeditionGroupData*>, ::System::UInt32>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54478);
 		}
 
-		static ::System::Object** StaticGet___9()
+		static ::System::Action** StaticGet___9__26_0()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x56E08);
+			return (::System::Action**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54480);
+		}
+
+		static ::System::Func_2<::RPG::Client::ExpeditionHarvestData*, ::RPG::Client::Promises::IPromise*>** StaticGet___9__0_0()
+		{
+			return (::System::Func_2<::RPG::Client::ExpeditionHarvestData*, ::RPG::Client::Promises::IPromise*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x54488);
 		}
 
 		static ::System::Void _cctor()

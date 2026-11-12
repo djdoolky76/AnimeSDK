@@ -3,15 +3,15 @@
 #include "unitysdk/RPG/Client/LittleGameShare/ReplicatedCondition.h"
 #include "unitysdk/System/Attribute.h"
 
-#define BDNJOEHHEID_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A3CB0)
+#define BDNJOEHHEID_CTOR_OFFSET UNITYSDK_OFFSET(0x1D725530)
 
-inline static constexpr unsigned int BDNJOEHHEID_TypeDefinitionIndex = 36880;
+inline static constexpr unsigned int BDNJOEHHEID_TypeDefinitionIndex = 37808;
 
 	class BDNJOEHHEID : public ::System::Attribute
 	{
 	public:
-		::RPG::Client::LittleGameShare::ReplicatedCondition EKIJFPIPCKF; // 0x10
-		::System::Boolean HIDDBHPPPJI; // 0x11
+		::System::Boolean HIDDBHPPPJI; // 0x10
+		::RPG::Client::LittleGameShare::ReplicatedCondition EKIJFPIPCKF; // 0x11
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BDNJOEHHEID_CTOR_OFFSET))(this);

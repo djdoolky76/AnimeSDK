@@ -4,13 +4,13 @@
 #include "unitysdk/RPG/Client/MessageContentBlock_BlockType.h"
 namespace RPG::Client { class MessageContentBlock; }
 
-#define RPG_CLIENT_MESSAGECONTENTTYPINGBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xD6A4920)
-#define RPG_CLIENT_MESSAGECONTENTTYPINGBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xD6A48D0)
-#define RPG_CLIENT_MESSAGECONTENTTYPINGBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xD6A4880)
+#define RPG_CLIENT_MESSAGECONTENTTYPINGBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xE133260)
+#define RPG_CLIENT_MESSAGECONTENTTYPINGBLOCK_EQUALS_OFFSET UNITYSDK_OFFSET(0xE133210)
+#define RPG_CLIENT_MESSAGECONTENTTYPINGBLOCK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xE1331C0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MessageContentTypingBlock_TypeDefinitionIndex = 63270;
+	inline static constexpr unsigned int MessageContentTypingBlock_TypeDefinitionIndex = 64708;
 
 	class MessageContentTypingBlock : public ::RPG::Client::MessageContentBlock
 	{

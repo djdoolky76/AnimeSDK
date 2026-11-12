@@ -6,7 +6,7 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class TabView; }
 namespace System { template <typename T1, typename T2> class Action_2; }
 
-inline static constexpr unsigned int AEKBGPMBFMK_TypeDefinitionIndex = 49817;
+inline static constexpr unsigned int AEKBGPMBFMK_TypeDefinitionIndex = 50865;
 
 	class AEKBGPMBFMK
 	{

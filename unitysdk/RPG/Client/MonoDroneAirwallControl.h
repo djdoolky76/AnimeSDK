@@ -8,16 +8,16 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class MeshCollider; }
 namespace UnityEngine { class Renderer; }
 
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xD795070)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xD795930)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xD795920)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_ISCLOSETPOINT_OFFSET UNITYSDK_OFFSET(0xD7956F0)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0xD7953F0)
-#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xD795220)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_AWAKE_OFFSET UNITYSDK_OFFSET(0xE1E6080)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_CCTOR_OFFSET UNITYSDK_OFFSET(0xE1E6940)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE1E6930)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_ISCLOSETPOINT_OFFSET UNITYSDK_OFFSET(0xE1E6700)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATETARGET_OFFSET UNITYSDK_OFFSET(0xE1E6400)
+#define RPG_CLIENT_MONODRONEAIRWALLCONTROL_UPDATE_OFFSET UNITYSDK_OFFSET(0xE1E6230)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MonoDroneAirwallControl_TypeDefinitionIndex = 68583;
+	inline static constexpr unsigned int MonoDroneAirwallControl_TypeDefinitionIndex = 70531;
 
 	class MonoDroneAirwallControl : public ::UnityEngine::MonoBehaviour
 	{
@@ -33,24 +33,24 @@ namespace RPG::Client
 		::System::Boolean IAOBBMAFCGK; // 0x50
 		::System::Byte _padding0[0x7];
 		::UnityEngine::MaterialPropertyBlock* KHFINMBNGBE; // 0x58
-		static ::System::Int32* StaticGet_NPPGCBMJHFJ()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142E0);
-		}
-
 		static ::System::Int32* StaticGet_ADBBBDDPDGJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142E4);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x15760);
 		}
 
-		static ::System::Int32* StaticGet_LMDKDABEFEH()
+		static ::System::Int32* StaticGet_NPPGCBMJHFJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142E8);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x15764);
 		}
 
 		static ::System::Int32* StaticGet_JKDBJLDGGLP()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x142EC);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x15768);
+		}
+
+		static ::System::Int32* StaticGet_LMDKDABEFEH()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "MonoDroneAirwallControl")->GetStaticField(0x1576C);
 		}
 
 		::System::Void _ctor()

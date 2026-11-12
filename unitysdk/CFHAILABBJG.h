@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class GameEntity; }
 
-inline static constexpr unsigned int CFHAILABBJG_TypeDefinitionIndex = 60776;
+inline static constexpr unsigned int CFHAILABBJG_TypeDefinitionIndex = 62155;
 
 	struct alignas(8) CFHAILABBJG
 	{

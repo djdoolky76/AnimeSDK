@@ -4,18 +4,18 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC6B020)
-#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0__GETASSEMBLYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1CC6B660)
+#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE12460)
+#define RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0__GETASSEMBLYTYPE_B__0_OFFSET UNITYSDK_OFFSET(0x1DE12AC0)
 
 namespace RPG::CustomRP
 {
-	inline static constexpr unsigned int RPUtility___c__DisplayClass129_0_TypeDefinitionIndex = 37900;
+	inline static constexpr unsigned int RPUtility___c__DisplayClass129_0_TypeDefinitionIndex = 38829;
 
 	class RPUtility___c__DisplayClass129_0 : public ::System::Object
 	{
 	public:
-		::System::Type* type; // 0x10
-		::System::String* interfaceName; // 0x18
+		::System::String* interfaceName; // 0x10
+		::System::Type* type; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CUSTOMRP_RPUTILITY___C__DISPLAYCLASS129_0_CTOR_OFFSET))(this);

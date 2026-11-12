@@ -5,25 +5,25 @@ namespace MiHoYo::SDK::Console { class ConsoleUGCAgreementDialog; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BC94110)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BC94150)
-#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__SHOW_B__22_0_OFFSET UNITYSDK_OFFSET(0x1BC94160)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE1D780)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1D7C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUGCAGREEMENTDIALOG___C__SHOW_B__22_0_OFFSET UNITYSDK_OFFSET(0x1CE1D7D0)
 
 namespace MiHoYo::SDK::Console
 {
-	inline static constexpr unsigned int ConsoleUGCAgreementDialog___c_TypeDefinitionIndex = 8962;
+	inline static constexpr unsigned int ConsoleUGCAgreementDialog___c_TypeDefinitionIndex = 8971;
 
 	class ConsoleUGCAgreementDialog___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x35B60);
-		}
-
 		static ::System::Action_1<::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*>** StaticGet___9__22_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x35B68);
+			return (::System::Action_1<::MiHoYo::SDK::Console::ConsoleUGCAgreementDialog*>**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x58F90);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Console", "<>c")->GetStaticField(0x58F98);
 		}
 
 		static ::System::Void _cctor()

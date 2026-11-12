@@ -6,13 +6,13 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class MeshRenderer; }
 
-#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_ABEEPLFANAF_OFFSET UNITYSDK_OFFSET(0xE196A90)
-#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xE196D70)
-#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_CTOR_OFFSET UNITYSDK_OFFSET(0xE1968C0)
+#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_ABEEPLFANAF_OFFSET UNITYSDK_OFFSET(0xEC43F10)
+#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xEC441F0)
+#define RPG_CLIENT_TSCMATERIALREFERENCECACHE_CTOR_OFFSET UNITYSDK_OFFSET(0xEC43D40)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int TSCMaterialReferenceCache_TypeDefinitionIndex = 70209;
+	inline static constexpr unsigned int TSCMaterialReferenceCache_TypeDefinitionIndex = 72175;
 
 	class TSCMaterialReferenceCache : public ::System::Object
 	{

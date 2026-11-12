@@ -4,10 +4,10 @@
 class BFHEHDNBJLL;
 namespace System { class String; }
 
-#define OOAEMMBJOOK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBF61A20)
-#define OOAEMMBJOOK_CTOR_OFFSET UNITYSDK_OFFSET(0xBF61AA0)
+#define OOAEMMBJOOK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC8608A0)
+#define OOAEMMBJOOK_CTOR_OFFSET UNITYSDK_OFFSET(0xC860920)
 
-inline static constexpr unsigned int OOAEMMBJOOK_TypeDefinitionIndex = 61098;
+inline static constexpr unsigned int OOAEMMBJOOK_TypeDefinitionIndex = 62483;
 
 	class OOAEMMBJOOK : public ::System::Object
 	{

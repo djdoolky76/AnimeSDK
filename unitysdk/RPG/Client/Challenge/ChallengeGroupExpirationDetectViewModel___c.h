@@ -5,25 +5,25 @@ namespace RPG::Client { class ChallengeGroupData; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC93F320)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC93F360)
-#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C___DETECT_B__9_0_OFFSET UNITYSDK_OFFSET(0xC93F370)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2A4CD0)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2A4D10)
+#define RPG_CLIENT_CHALLENGE_CHALLENGEGROUPEXPIRATIONDETECTVIEWMODEL___C___DETECT_B__9_0_OFFSET UNITYSDK_OFFSET(0xD2A4D20)
 
 namespace RPG::Client::Challenge
 {
-	inline static constexpr unsigned int ChallengeGroupExpirationDetectViewModel___c_TypeDefinitionIndex = 81425;
+	inline static constexpr unsigned int ChallengeGroupExpirationDetectViewModel___c_TypeDefinitionIndex = 84205;
 
 	class ChallengeGroupExpirationDetectViewModel___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>** StaticGet___9__9_0()
 		{
-			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x6B900);
+			return (::System::Func_2<::RPG::Client::ChallengeGroupData*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x5F4F0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x6B908);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Challenge", "<>c")->GetStaticField(0x5F4F8);
 		}
 
 		static ::System::Void _cctor()

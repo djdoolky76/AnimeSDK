@@ -5,10 +5,10 @@ namespace RPG::GameCore { class TargetMapAttackTargetList; }
 namespace RPG::GameCore { class TaskContext; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FHDAGBDFBCB_CTOR_OFFSET UNITYSDK_OFFSET(0x15775950)
-#define FHDAGBDFBCB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15775970)
+#define FHDAGBDFBCB_CTOR_OFFSET UNITYSDK_OFFSET(0x16696670)
+#define FHDAGBDFBCB_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16696690)
 
-inline static constexpr unsigned int FHDAGBDFBCB_TypeDefinitionIndex = 59138;
+inline static constexpr unsigned int FHDAGBDFBCB_TypeDefinitionIndex = 60414;
 
 	class FHDAGBDFBCB
 	{

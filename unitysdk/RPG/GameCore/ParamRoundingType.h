@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ParamRoundingType_TypeDefinitionIndex = 17085;
+	inline static constexpr unsigned int ParamRoundingType_TypeDefinitionIndex = 17252;
 
 	enum class ParamRoundingType : ::System::Int32
 	{

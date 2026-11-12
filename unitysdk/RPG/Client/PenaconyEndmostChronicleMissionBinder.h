@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define RPG_CLIENT_PENACONYENDMOSTCHRONICLEMISSIONBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xDA98E20)
+#define RPG_CLIENT_PENACONYENDMOSTCHRONICLEMISSIONBINDER_CTOR_OFFSET UNITYSDK_OFFSET(0xE4EE6F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int PenaconyEndmostChronicleMissionBinder_TypeDefinitionIndex = 66107;
+	inline static constexpr unsigned int PenaconyEndmostChronicleMissionBinder_TypeDefinitionIndex = 68040;
 
 	class PenaconyEndmostChronicleMissionBinder : public ::UnityEngine::MonoBehaviour
 	{

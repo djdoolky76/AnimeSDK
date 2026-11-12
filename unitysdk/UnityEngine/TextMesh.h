@@ -3,11 +3,11 @@
 #include "unitysdk/UnityEngine/Component.h"
 namespace System { class String; }
 
-#define UNITYENGINE_TEXTMESH_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x1F4A9730)
+#define UNITYENGINE_TEXTMESH_SET_TEXT_OFFSET UNITYSDK_OFFSET(0x207595B0)
 
 namespace UnityEngine
 {
-	inline static constexpr unsigned int TextMesh_TypeDefinitionIndex = 5051;
+	inline static constexpr unsigned int TextMesh_TypeDefinitionIndex = 5056;
 
 	class TextMesh : public ::UnityEngine::Component
 	{

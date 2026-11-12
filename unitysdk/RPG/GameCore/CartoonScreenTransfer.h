@@ -6,13 +6,13 @@ namespace RPG::GameCore { class CartoonScreenTransfer; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CARTOONSCREENTRANSFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1D557A40)
-#define RPG_GAMECORE_CARTOONSCREENTRANSFER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D557A50)
-#define RPG_GAMECORE_CARTOONSCREENTRANSFER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D557A00)
+#define RPG_GAMECORE_CARTOONSCREENTRANSFER_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7696C0)
+#define RPG_GAMECORE_CARTOONSCREENTRANSFER_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E7696D0)
+#define RPG_GAMECORE_CARTOONSCREENTRANSFER_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E769680)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CartoonScreenTransfer_TypeDefinitionIndex = 22299;
+	inline static constexpr unsigned int CartoonScreenTransfer_TypeDefinitionIndex = 22704;
 
 	class CartoonScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{

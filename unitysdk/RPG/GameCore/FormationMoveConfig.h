@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class FormationMoveConfig; }
 namespace RPG::GameCore { class FormationPatternConfig; }
 
-#define RPG_GAMECORE_FORMATIONMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6EAFC0)
-#define RPG_GAMECORE_FORMATIONMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6EAED0)
+#define RPG_GAMECORE_FORMATIONMOVECONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F5550)
+#define RPG_GAMECORE_FORMATIONMOVECONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8F5460)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FormationMoveConfig_TypeDefinitionIndex = 15621;
+	inline static constexpr unsigned int FormationMoveConfig_TypeDefinitionIndex = 15779;
 
 	class FormationMoveConfig : public ::RPG::GameCore::JsonConfig
 	{

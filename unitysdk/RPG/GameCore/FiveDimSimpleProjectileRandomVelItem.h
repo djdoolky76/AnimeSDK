@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class FiveDimSimpleProjectileRandomVelItem; }
 
-#define RPG_GAMECORE_FIVEDIMSIMPLEPROJECTILERANDOMVELITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6DC2F0)
-#define RPG_GAMECORE_FIVEDIMSIMPLEPROJECTILERANDOMVELITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D6DC0D0)
+#define RPG_GAMECORE_FIVEDIMSIMPLEPROJECTILERANDOMVELITEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8E6AA0)
+#define RPG_GAMECORE_FIVEDIMSIMPLEPROJECTILERANDOMVELITEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E8E6990)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int FiveDimSimpleProjectileRandomVelItem_TypeDefinitionIndex = 18588;
+	inline static constexpr unsigned int FiveDimSimpleProjectileRandomVelItem_TypeDefinitionIndex = 18748;
 
 	class FiveDimSimpleProjectileRandomVelItem : public ::RPG::GameCore::JsonConfig
 	{

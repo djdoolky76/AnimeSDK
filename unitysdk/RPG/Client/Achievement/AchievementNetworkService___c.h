@@ -6,25 +6,25 @@ namespace RPG::Client::Achievement { class AchievementTakeRewardResultViewModel;
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACHIEVEMENT_ACHIEVEMENTNETWORKSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3A8B30)
-#define RPG_CLIENT_ACHIEVEMENT_ACHIEVEMENTNETWORKSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A8B70)
-#define RPG_CLIENT_ACHIEVEMENT_ACHIEVEMENTNETWORKSERVICE___C__SENDTAKEACHIEVEMENTREWARDCSREQANDBUILDRESULT_B__3_0_OFFSET UNITYSDK_OFFSET(0xC3A8B80)
+#define RPG_CLIENT_ACHIEVEMENT_ACHIEVEMENTNETWORKSERVICE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCCE2E70)
+#define RPG_CLIENT_ACHIEVEMENT_ACHIEVEMENTNETWORKSERVICE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCCE2EB0)
+#define RPG_CLIENT_ACHIEVEMENT_ACHIEVEMENTNETWORKSERVICE___C__SENDTAKEACHIEVEMENTREWARDCSREQANDBUILDRESULT_B__3_0_OFFSET UNITYSDK_OFFSET(0xCCE2EC0)
 
 namespace RPG::Client::Achievement
 {
-	inline static constexpr unsigned int AchievementNetworkService___c_TypeDefinitionIndex = 82114;
+	inline static constexpr unsigned int AchievementNetworkService___c_TypeDefinitionIndex = 84987;
 
 	class AchievementNetworkService___c : public ::System::Object
 	{
 	public:
-		static ::System::Object** StaticGet___9()
-		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.Achievement", "<>c")->GetStaticField(0x10710);
-		}
-
 		static ::System::Func_2<::MGAMADCNPAG*, ::RPG::Client::Achievement::AchievementTakeRewardResultViewModel*>** StaticGet___9__3_0()
 		{
-			return (::System::Func_2<::MGAMADCNPAG*, ::RPG::Client::Achievement::AchievementTakeRewardResultViewModel*>**)UnitySDK::FromName("RPG.Client.Achievement", "<>c")->GetStaticField(0x10718);
+			return (::System::Func_2<::MGAMADCNPAG*, ::RPG::Client::Achievement::AchievementTakeRewardResultViewModel*>**)UnitySDK::FromName("RPG.Client.Achievement", "<>c")->GetStaticField(0xFFB0);
+		}
+
+		static ::System::Object** StaticGet___9()
+		{
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.Achievement", "<>c")->GetStaticField(0xFFB8);
 		}
 
 		static ::System::Void _cctor()

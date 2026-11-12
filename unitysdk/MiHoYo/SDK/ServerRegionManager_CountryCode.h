@@ -4,19 +4,19 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 
-#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFE0120)
-#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFE0110)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D167270)
+#define MIHOYO_SDK_SERVERREGIONMANAGER_COUNTRYCODE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D167260)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ServerRegionManager_CountryCode_TypeDefinitionIndex = 7966;
+	inline static constexpr unsigned int ServerRegionManager_CountryCode_TypeDefinitionIndex = 7975;
 
 	class ServerRegionManager_CountryCode : public ::System::Object
 	{
 	public:
 		static ::System::Collections::Generic::HashSet_1<::System::String*>** StaticGet_EU()
 		{
-			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "CountryCode")->GetStaticField(0x1FC90);
+			return (::System::Collections::Generic::HashSet_1<::System::String*>**)UnitySDK::FromName("MiHoYo.SDK", "CountryCode")->GetStaticField(0x1ECB0);
 		}
 
 		// static const ::System::String* AT; // 0x0

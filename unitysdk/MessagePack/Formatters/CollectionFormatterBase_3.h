@@ -3,7 +3,7 @@
 
 namespace MessagePack::Formatters
 {
-	inline static constexpr unsigned int CollectionFormatterBase_3_TypeDefinitionIndex = 7384;
+	inline static constexpr unsigned int CollectionFormatterBase_3_TypeDefinitionIndex = 7395;
 
 	template <typename T1, typename T2, typename T3>
 	class CollectionFormatterBase_3

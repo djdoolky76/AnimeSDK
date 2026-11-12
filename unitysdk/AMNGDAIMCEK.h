@@ -5,25 +5,25 @@ namespace RPG::Client { class CameraDataAndFlags; }
 namespace RPG::GameCore { class AdventureWaitCameraLookAtTransition; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define AMNGDAIMCEK_CTOR_OFFSET UNITYSDK_OFFSET(0x15586D50)
-#define AMNGDAIMCEK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15586D60)
-#define AMNGDAIMCEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15586DB0)
-#define AMNGDAIMCEK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15586FD0)
-#define AMNGDAIMCEK_TICK_OFFSET UNITYSDK_OFFSET(0x15587020)
+#define AMNGDAIMCEK_CTOR_OFFSET UNITYSDK_OFFSET(0x163F6040)
+#define AMNGDAIMCEK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x163F6050)
+#define AMNGDAIMCEK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x163F60A0)
+#define AMNGDAIMCEK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x163F62C0)
+#define AMNGDAIMCEK_TICK_OFFSET UNITYSDK_OFFSET(0x163F6310)
 
-inline static constexpr unsigned int AMNGDAIMCEK_TypeDefinitionIndex = 54835;
+inline static constexpr unsigned int AMNGDAIMCEK_TypeDefinitionIndex = 56005;
 
 	class AMNGDAIMCEK : public ::GELIALJDFBL
 	{
 	public:
 		::RPG::GameCore::AdventureWaitCameraLookAtTransition* OFKGLJOAMLD; // 0x18
-		::RPG::Client::CameraDataAndFlags* OEPENBEJDCN; // 0x20
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x28
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::Client::CameraDataAndFlags* OEPENBEJDCN; // 0x28
 		::System::Boolean JOJNLNCPKFB; // 0x30
 		::System::Boolean AOFHEKMDFKA; // 0x31
 		::System::Byte _padding0[0x2];
-		::System::Single IPNKKELPHFI; // 0x34
-		::System::Single ENDEDGKHCCO; // 0x38
+		::System::Single ENDEDGKHCCO; // 0x34
+		::System::Single IPNKKELPHFI; // 0x38
 		::System::Single HEOGMNJDFAH; // 0x3C
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AdventureWaitCameraLookAtTransition* a2)
 		{

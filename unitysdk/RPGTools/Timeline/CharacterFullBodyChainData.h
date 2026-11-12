@@ -6,17 +6,18 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCHAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8C89B0)
+#define RPGTOOLS_TIMELINE_CHARACTERFULLBODYCHAINDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xF3A2120)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int CharacterFullBodyChainData_TypeDefinitionIndex = 47962;
+	inline static constexpr unsigned int CharacterFullBodyChainData_TypeDefinitionIndex = 48993;
 
 	class CharacterFullBodyChainData : public ::System::Object
 	{
 	public:
 		::System::Boolean Enabled; // 0x10
-		::System::Byte _padding0[0x7];
+		::System::Boolean UseLocalCoordinates; // 0x11
+		::System::Byte _padding0[0x6];
 		::System::String* CharacterUniqueName; // 0x18
 		::System::String* TargetCharacterUniqueName; // 0x20
 		::System::String* TargetCharacterAttachPoint; // 0x28

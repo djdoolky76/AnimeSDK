@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JFIIIHFBLPA_TypeDefinitionIndex = 32510;
+inline static constexpr unsigned int JFIIIHFBLPA_TypeDefinitionIndex = 33425;
 
 	enum class JFIIIHFBLPA : ::System::Int32
 	{

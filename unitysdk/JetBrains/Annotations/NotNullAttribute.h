@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define JETBRAINS_ANNOTATIONS_NOTNULLATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3CB6C0)
+#define JETBRAINS_ANNOTATIONS_NOTNULLATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x2067C560)
 
 namespace JetBrains::Annotations
 {

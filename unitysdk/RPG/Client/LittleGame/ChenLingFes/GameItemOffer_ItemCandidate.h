@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::ChenLingFes
 {
-	inline static constexpr unsigned int GameItemOffer_ItemCandidate_TypeDefinitionIndex = 77743;
+	inline static constexpr unsigned int GameItemOffer_ItemCandidate_TypeDefinitionIndex = 80478;
 
 	struct alignas(4) GameItemOffer_ItemCandidate
 	{

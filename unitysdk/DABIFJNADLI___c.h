@@ -4,18 +4,18 @@
 class DABIFJNADLI;
 namespace System { class Object; }
 
-#define DABIFJNADLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E149F40)
-#define DABIFJNADLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E149F70)
-#define DABIFJNADLI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E149F80)
+#define DABIFJNADLI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F423070)
+#define DABIFJNADLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F4230A0)
+#define DABIFJNADLI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F4230B0)
 
-inline static constexpr unsigned int DABIFJNADLI___c_TypeDefinitionIndex = 32031;
+inline static constexpr unsigned int DABIFJNADLI___c_TypeDefinitionIndex = 32944;
 
 	class DABIFJNADLI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x23540);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1EC40);
 		}
 
 		static ::System::Void _cctor()

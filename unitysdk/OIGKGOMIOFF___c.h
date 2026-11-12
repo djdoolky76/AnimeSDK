@@ -4,18 +4,18 @@
 class OIGKGOMIOFF;
 namespace System { class Object; }
 
-#define OIGKGOMIOFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE6C860)
-#define OIGKGOMIOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6C8A0)
-#define OIGKGOMIOFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE6C8B0)
+#define OIGKGOMIOFF___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F114890)
+#define OIGKGOMIOFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1148D0)
+#define OIGKGOMIOFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F1148E0)
 
-inline static constexpr unsigned int OIGKGOMIOFF___c_TypeDefinitionIndex = 32792;
+inline static constexpr unsigned int OIGKGOMIOFF___c_TypeDefinitionIndex = 33707;
 
 	class OIGKGOMIOFF___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C0A0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x16E30);
 		}
 
 		static ::System::Void _cctor()

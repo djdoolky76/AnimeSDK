@@ -5,12 +5,12 @@
 #include "unitysdk/UnityEngine/Playables/PlayableGraph.h"
 namespace UnityEngine { class GameObject; }
 
-#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xE90BF00)
-#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CTOR_OFFSET UNITYSDK_OFFSET(0xE90C890)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0xF3E7AA0)
+#define RPGTOOLS_TIMELINE_MAINCAMERAREF_CTOR_OFFSET UNITYSDK_OFFSET(0xF3E8430)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int MainCameraRef_TypeDefinitionIndex = 48444;
+	inline static constexpr unsigned int MainCameraRef_TypeDefinitionIndex = 49485;
 
 	class MainCameraRef : public ::UnityEngine::Timeline::TrackAsset
 	{

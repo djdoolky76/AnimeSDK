@@ -7,13 +7,13 @@ namespace RPG::GameCore { class PropReplaceTVTexture; }
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPREPLACETVTEXTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9528D0)
-#define RPG_GAMECORE_PROPREPLACETVTEXTURE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D952920)
-#define RPG_GAMECORE_PROPREPLACETVTEXTURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D952860)
+#define RPG_GAMECORE_PROPREPLACETVTEXTURE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB6B4C0)
+#define RPG_GAMECORE_PROPREPLACETVTEXTURE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB6B510)
+#define RPG_GAMECORE_PROPREPLACETVTEXTURE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB6B450)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropReplaceTVTexture_TypeDefinitionIndex = 22072;
+	inline static constexpr unsigned int PropReplaceTVTexture_TypeDefinitionIndex = 22477;
 
 	class PropReplaceTVTexture : public ::RPG::GameCore::TaskConfig
 	{

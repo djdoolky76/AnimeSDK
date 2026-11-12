@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class RtByIsMoving; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define IHOJCGKOLJC_CTOR_OFFSET UNITYSDK_OFFSET(0x16426670)
-#define IHOJCGKOLJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164266A0)
+#define IHOJCGKOLJC_CTOR_OFFSET UNITYSDK_OFFSET(0x173DE250)
+#define IHOJCGKOLJC_EVALUATE_OFFSET UNITYSDK_OFFSET(0x173DE280)
 
-inline static constexpr unsigned int IHOJCGKOLJC_TypeDefinitionIndex = 54175;
+inline static constexpr unsigned int IHOJCGKOLJC_TypeDefinitionIndex = 55339;
 
 	class IHOJCGKOLJC
 	{

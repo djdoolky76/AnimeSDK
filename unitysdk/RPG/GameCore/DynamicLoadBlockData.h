@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class DynamicLoadBlockData; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D6292E0)
-#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D629230)
+#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E867090)
+#define RPG_GAMECORE_DYNAMICLOADBLOCKDATA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E866FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int DynamicLoadBlockData_TypeDefinitionIndex = 19159;
+	inline static constexpr unsigned int DynamicLoadBlockData_TypeDefinitionIndex = 19349;
 
 	class DynamicLoadBlockData : public ::RPG::GameCore::JsonConfig
 	{

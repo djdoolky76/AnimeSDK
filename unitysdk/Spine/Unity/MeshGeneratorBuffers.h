@@ -7,7 +7,7 @@ namespace Spine::Unity { class MeshGenerator; }
 
 namespace Spine::Unity
 {
-	inline static constexpr unsigned int MeshGeneratorBuffers_TypeDefinitionIndex = 45080;
+	inline static constexpr unsigned int MeshGeneratorBuffers_TypeDefinitionIndex = 46155;
 
 	struct alignas(8) MeshGeneratorBuffers
 	{

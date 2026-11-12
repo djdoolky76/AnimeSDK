@@ -7,39 +7,40 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JMNAGCHOAKN_ANEDHKJABMN_OFFSET UNITYSDK_OFFSET(0xB272640)
-#define JMNAGCHOAKN_CCTOR_OFFSET UNITYSDK_OFFSET(0xB273250)
-#define JMNAGCHOAKN_CTOR_OFFSET UNITYSDK_OFFSET(0xB272DA0)
-#define JMNAGCHOAKN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB273200)
-#define JMNAGCHOAKN_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xB272960)
-#define JMNAGCHOAKN_EKFIEAALOFF_OFFSET UNITYSDK_OFFSET(0xB272A80)
-#define JMNAGCHOAKN_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xB272610)
-#define JMNAGCHOAKN_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xB272890)
-#define JMNAGCHOAKN_NBJHKGDALEE_OFFSET UNITYSDK_OFFSET(0xB2726C0)
-#define JMNAGCHOAKN_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0xB2727A0)
-#define JMNAGCHOAKN_NHIJFPLPFJI_OFFSET UNITYSDK_OFFSET(0xB273000)
-#define JMNAGCHOAKN_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0xB272630)
-#define JMNAGCHOAKN_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0xB2726D0)
-#define JMNAGCHOAKN_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xB272620)
+#define JMNAGCHOAKN_ANEDHKJABMN_OFFSET UNITYSDK_OFFSET(0xBA9D4A0)
+#define JMNAGCHOAKN_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA9E0E0)
+#define JMNAGCHOAKN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9DC00)
+#define JMNAGCHOAKN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA9E090)
+#define JMNAGCHOAKN_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xBA9D7C0)
+#define JMNAGCHOAKN_EKFIEAALOFF_OFFSET UNITYSDK_OFFSET(0xBA9D8E0)
+#define JMNAGCHOAKN_GET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xBA9D470)
+#define JMNAGCHOAKN_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0xBA9D6F0)
+#define JMNAGCHOAKN_NBJHKGDALEE_OFFSET UNITYSDK_OFFSET(0xBA9D520)
+#define JMNAGCHOAKN_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0xBA9D600)
+#define JMNAGCHOAKN_NHIJFPLPFJI_OFFSET UNITYSDK_OFFSET(0xBA9DE90)
+#define JMNAGCHOAKN_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0xBA9D490)
+#define JMNAGCHOAKN_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0xBA9D530)
+#define JMNAGCHOAKN_SET_CONTROLLER_OFFSET UNITYSDK_OFFSET(0xBA9D480)
 
-inline static constexpr unsigned int JMNAGCHOAKN_TypeDefinitionIndex = 71147;
+inline static constexpr unsigned int JMNAGCHOAKN_TypeDefinitionIndex = 73130;
 
 	class JMNAGCHOAKN : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* BIOEMGDAOMM; // 0x10
-		::RPG::Client::MonoEmoBlendShapesController* _Controller_k__BackingField; // 0x18
+		::RPG::Client::MonoEmoBlendShapesController* _Controller_k__BackingField; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Single>* BIOEMGDAOMM; // 0x18
 		::System::Single KJLHNBJMPDC; // 0x20
-		::System::UInt32 DKLOGEOIHCJ; // 0x24
-		::System::Boolean ADMEOMGNNDN; // 0x28
+		::System::Boolean ADMEOMGNNDN; // 0x24
+		::System::Byte _padding0[0x3];
+		::System::UInt32 DKLOGEOIHCJ; // 0x28
 		static ::System::Collections::Generic::List_1<::System::String*>** StaticGet_GMIODKLGJHD()
 		{
-			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("", "JMNAGCHOAKN")->GetStaticField(0x1F9D0);
+			return (::System::Collections::Generic::List_1<::System::String*>**)UnitySDK::FromName("", "JMNAGCHOAKN")->GetStaticField(0x17980);
 		}
 
 		static ::System::UInt32* StaticGet_LFKDNJKBIGP()
 		{
-			return (::System::UInt32*)UnitySDK::FromName("", "JMNAGCHOAKN")->GetStaticField(0x7350);
+			return (::System::UInt32*)UnitySDK::FromName("", "JMNAGCHOAKN")->GetStaticField(0x4E40);
 		}
 
 		::System::Void _ctor(::RPG::Client::MonoEmoBlendShapesController* a1, ::System::Single a2)

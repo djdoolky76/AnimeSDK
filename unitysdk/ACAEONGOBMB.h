@@ -4,12 +4,12 @@
 #include "unitysdk/IGKFNIEJGLM.h"
 class BCNKFBPILLH;
 
-#define ACAEONGOBMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB110780)
-#define ACAEONGOBMB_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0xB1103A0)
-#define ACAEONGOBMB_EJDAKAECODE_OFFSET UNITYSDK_OFFSET(0xB1105E0)
-#define ACAEONGOBMB_EKGCGIDIFJJ_OFFSET UNITYSDK_OFFSET(0xB110400)
+#define ACAEONGOBMB_CTOR_OFFSET UNITYSDK_OFFSET(0xB773CC0)
+#define ACAEONGOBMB_EJDAKAECODE_OFFSET UNITYSDK_OFFSET(0xB773B20)
+#define ACAEONGOBMB__ONINITPARAMS_OFFSET UNITYSDK_OFFSET(0xB7738E0)
+#define ACAEONGOBMB__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xB773940)
 
-inline static constexpr unsigned int ACAEONGOBMB_TypeDefinitionIndex = 71622;
+inline static constexpr unsigned int ACAEONGOBMB_TypeDefinitionIndex = 73610;
 
 	class ACAEONGOBMB : public ::FMPCODLIOLG
 	{
@@ -21,14 +21,14 @@ inline static constexpr unsigned int ACAEONGOBMB_TypeDefinitionIndex = 71622;
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAEONGOBMB_CTOR_OFFSET))(this);
 		}
 
-		::System::Void DHHDFAAJMMC(::IGKFNIEJGLM a1)
+		::System::Void _OnInitParams(::IGKFNIEJGLM a1)
 		{
-			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + ACAEONGOBMB_DHHDFAAJMMC_OFFSET))(this, a1);
+			return ((::System::Void(*)(::PVOID, ::IGKFNIEJGLM))((::PBYTE)hIl2Cpp + ACAEONGOBMB__ONINITPARAMS_OFFSET))(this, a1);
 		}
 
-		::System::Void EKGCGIDIFJJ()
+		::System::Void _SetupView()
 		{
-			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAEONGOBMB_EKGCGIDIFJJ_OFFSET))(this);
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ACAEONGOBMB__SETUPVIEW_OFFSET))(this);
 		}
 
 		::System::Void EJDAKAECODE(::System::Int32 a1)

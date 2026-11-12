@@ -5,7 +5,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ZLinq::Linq
 {
-	inline static constexpr unsigned int ListSelectWhere_2_TypeDefinitionIndex = 6138;
+	inline static constexpr unsigned int ListSelectWhere_2_TypeDefinitionIndex = 6145;
 
 	template <typename T1, typename T2>
 	struct alignas(8) ListSelectWhere_2

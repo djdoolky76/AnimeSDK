@@ -4,17 +4,17 @@
 namespace RPG::Client { class VoracityInvasionFightEntranceData; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JLFCOGDFAOO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB23F2E0)
-#define JLFCOGDFAOO_FOCBHOFDOIM_OFFSET UNITYSDK_OFFSET(0xB23F020)
+#define JLFCOGDFAOO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA679E0)
+#define JLFCOGDFAOO_FOCBHOFDOIM_OFFSET UNITYSDK_OFFSET(0xBA67720)
 
-inline static constexpr unsigned int JLFCOGDFAOO_TypeDefinitionIndex = 68262;
+inline static constexpr unsigned int JLFCOGDFAOO_TypeDefinitionIndex = 70208;
 
 	class JLFCOGDFAOO : public ::System::Object
 	{
 	public:
 		static ::Il2CppArray<::System::UInt32>** StaticGet_FFLIALCHAIO()
 		{
-			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("", "JLFCOGDFAOO")->GetStaticField(0x1BC70);
+			return (::Il2CppArray<::System::UInt32>**)UnitySDK::FromName("", "JLFCOGDFAOO")->GetStaticField(0x131D0);
 		}
 
 		static ::System::Void _cctor()

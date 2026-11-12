@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class CustomCameraBattleTransitionShotConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5E9960)
-#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D5E9110)
+#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7FB820)
+#define RPG_GAMECORE_CUSTOMCAMERABATTLETRANSITIONSHOTCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E7FB0E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CustomCameraBattleTransitionShotConfig_TypeDefinitionIndex = 20424;
+	inline static constexpr unsigned int CustomCameraBattleTransitionShotConfig_TypeDefinitionIndex = 20759;
 
 	class CustomCameraBattleTransitionShotConfig : public ::RPG::GameCore::JsonConfig
 	{

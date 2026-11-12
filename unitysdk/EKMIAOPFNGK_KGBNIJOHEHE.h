@@ -4,9 +4,9 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Transform; }
 
-#define EKMIAOPFNGK_KGBNIJOHEHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1550D880)
+#define EKMIAOPFNGK_KGBNIJOHEHE_CTOR_OFFSET UNITYSDK_OFFSET(0x16455EF0)
 
-inline static constexpr unsigned int EKMIAOPFNGK_KGBNIJOHEHE_TypeDefinitionIndex = 68449;
+inline static constexpr unsigned int EKMIAOPFNGK_KGBNIJOHEHE_TypeDefinitionIndex = 70396;
 
 	class EKMIAOPFNGK_KGBNIJOHEHE : public ::System::Object
 	{

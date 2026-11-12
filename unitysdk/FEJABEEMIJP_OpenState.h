@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FEJABEEMIJP_OpenState_TypeDefinitionIndex = 53214;
+inline static constexpr unsigned int FEJABEEMIJP_OpenState_TypeDefinitionIndex = 54376;
 
 	enum class FEJABEEMIJP_OpenState : ::System::Int32
 	{

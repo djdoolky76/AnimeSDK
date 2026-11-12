@@ -10,29 +10,29 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define GOCODBMFHPH_BHLDCIHDBDM_OFFSET UNITYSDK_OFFSET(0x15B29CE0)
-#define GOCODBMFHPH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B29D20)
-#define GOCODBMFHPH_DCJBGECKAHO_OFFSET UNITYSDK_OFFSET(0x15B29FE0)
-#define GOCODBMFHPH_GGJDNENMHNA_OFFSET UNITYSDK_OFFSET(0x15B29E20)
-#define GOCODBMFHPH_IDCGCDAOKIK_OFFSET UNITYSDK_OFFSET(0x15B2A140)
-#define GOCODBMFHPH_IEBBOMGACIG_OFFSET UNITYSDK_OFFSET(0x15B297A0)
-#define GOCODBMFHPH_JGAFOJIBEPA_OFFSET UNITYSDK_OFFSET(0x15B2A240)
-#define GOCODBMFHPH_KLJJJPECGLI_OFFSET UNITYSDK_OFFSET(0x15B295B0)
-#define GOCODBMFHPH_NMEIKMNMFCJ_OFFSET UNITYSDK_OFFSET(0x15B2A300)
-#define GOCODBMFHPH_OELCJEDFNFD_OFFSET UNITYSDK_OFFSET(0x15B2A0B0)
-#define GOCODBMFHPH_OMAPMGMEBFA_OFFSET UNITYSDK_OFFSET(0x15B2A1C0)
+#define GOCODBMFHPH_BHLDCIHDBDM_OFFSET UNITYSDK_OFFSET(0x16AAF990)
+#define GOCODBMFHPH_CTOR_OFFSET UNITYSDK_OFFSET(0x16AAF9D0)
+#define GOCODBMFHPH_DCJBGECKAHO_OFFSET UNITYSDK_OFFSET(0x16AAFC90)
+#define GOCODBMFHPH_GGJDNENMHNA_OFFSET UNITYSDK_OFFSET(0x16AAFAD0)
+#define GOCODBMFHPH_IDCGCDAOKIK_OFFSET UNITYSDK_OFFSET(0x16AAFDF0)
+#define GOCODBMFHPH_IEBBOMGACIG_OFFSET UNITYSDK_OFFSET(0x16AAF450)
+#define GOCODBMFHPH_JGAFOJIBEPA_OFFSET UNITYSDK_OFFSET(0x16AAFEF0)
+#define GOCODBMFHPH_KLJJJPECGLI_OFFSET UNITYSDK_OFFSET(0x16AAF260)
+#define GOCODBMFHPH_NMEIKMNMFCJ_OFFSET UNITYSDK_OFFSET(0x16AAFFB0)
+#define GOCODBMFHPH_OELCJEDFNFD_OFFSET UNITYSDK_OFFSET(0x16AAFD60)
+#define GOCODBMFHPH_OMAPMGMEBFA_OFFSET UNITYSDK_OFFSET(0x16AAFE70)
 
-inline static constexpr unsigned int GOCODBMFHPH_TypeDefinitionIndex = 76300;
+inline static constexpr unsigned int GOCODBMFHPH_TypeDefinitionIndex = 78631;
 
 	class GOCODBMFHPH : public ::System::Object
 	{
 	public:
-		::RPG::Client::ChenLingBattle::IGamePhase* GDHFEAKLHFJ; // 0x10
-		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* PHCFMCOJHAO; // 0x18
-		::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::ChenLingBattle::IGamePhase*>* PAHJPOGLALP; // 0x20
-		::RPG::Client::ChenLingBattle::IGamePhase* OIONFABNEBK; // 0x28
-		::System::Collections::Generic::Queue_1<::System::Object*>* JKEJPOGHMND; // 0x30
-		::RPG::Client::ChenLingBattle::IGamePhase* BOKIJMMFCKO; // 0x38
+		::RPG::Client::ChenLingBattle::IGamePhase* BOKIJMMFCKO; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::Type*, ::RPG::Client::ChenLingBattle::IGamePhase*>* PAHJPOGLALP; // 0x18
+		::System::Collections::Generic::Queue_1<::System::Object*>* JKEJPOGHMND; // 0x20
+		::RPG::Client::ChenLingBattle::IGamePhase* GDHFEAKLHFJ; // 0x28
+		::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* PHCFMCOJHAO; // 0x30
+		::RPG::Client::ChenLingBattle::IGamePhase* OIONFABNEBK; // 0x38
 		::System::Boolean AKBAIKCDEHP; // 0x40
 		::System::Void _ctor(::RPG::Client::ChenLingBattle::ChenLingBattleGameContext* a1)
 		{

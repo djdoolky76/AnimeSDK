@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define IPAONACBAID_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1CF2B4E0)
-#define IPAONACBAID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CF2BAB0)
-#define IPAONACBAID_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1CF2B650)
-#define IPAONACBAID_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1CF2AF50)
-#define IPAONACBAID_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1CF2B1E0)
-#define IPAONACBAID_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1CF2B6F0)
-#define IPAONACBAID_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1CF2B740)
-#define IPAONACBAID_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1CF2B520)
-#define IPAONACBAID_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1CF2B180)
-#define IPAONACBAID_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1CF2B350)
-#define IPAONACBAID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF2B5B0)
-#define IPAONACBAID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF2AED0)
+#define IPAONACBAID_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E111DB0)
+#define IPAONACBAID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E112380)
+#define IPAONACBAID_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E111F20)
+#define IPAONACBAID_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E111820)
+#define IPAONACBAID_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E111AB0)
+#define IPAONACBAID_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E111FC0)
+#define IPAONACBAID_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E112010)
+#define IPAONACBAID_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E111DF0)
+#define IPAONACBAID_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E111A50)
+#define IPAONACBAID_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E111C20)
+#define IPAONACBAID_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E111E80)
+#define IPAONACBAID_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E1117A0)
 
-inline static constexpr unsigned int IPAONACBAID_TypeDefinitionIndex = 13845;
+inline static constexpr unsigned int IPAONACBAID_TypeDefinitionIndex = 14002;
 
 	class IPAONACBAID : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x24AD0);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RelicComposeConfigRow*>** StaticGet_EHNHPCGDOIO()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RelicComposeConfigRow*>**)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x24AD8);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x1CF70);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x24AE0);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x1CF78);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RelicComposeConfigRow*>** StaticGet_EHNHPCGDOIO()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RelicComposeConfigRow*>**)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x1CF80);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x8080);
+			return (::System::Byte*)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x6590);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x8081);
+			return (::System::Boolean*)UnitySDK::FromName("", "IPAONACBAID")->GetStaticField(0x6591);
 		}
 
 		static ::System::Void _cctor()

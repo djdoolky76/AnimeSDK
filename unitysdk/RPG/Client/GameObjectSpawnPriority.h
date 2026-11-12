@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GameObjectSpawnPriority_TypeDefinitionIndex = 59377;
+	inline static constexpr unsigned int GameObjectSpawnPriority_TypeDefinitionIndex = 60654;
 
 	enum class GameObjectSpawnPriority : ::System::Int32
 	{

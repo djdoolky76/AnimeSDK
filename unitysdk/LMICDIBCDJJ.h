@@ -5,29 +5,29 @@ namespace System { class String; }
 namespace UnityEngine { class ComputeShader; }
 namespace UnityEngine { class Object; }
 
-#define LMICDIBCDJJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xB784990)
-#define LMICDIBCDJJ_FHJFAACBEPM_OFFSET UNITYSDK_OFFSET(0xB784A30)
-#define LMICDIBCDJJ_GPIDPKOBNIJ_OFFSET UNITYSDK_OFFSET(0xB7849B0)
-#define LMICDIBCDJJ_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xB784A90)
+#define LMICDIBCDJJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xC024A60)
+#define LMICDIBCDJJ_FHJFAACBEPM_OFFSET UNITYSDK_OFFSET(0xC024B00)
+#define LMICDIBCDJJ_GPIDPKOBNIJ_OFFSET UNITYSDK_OFFSET(0xC024A80)
+#define LMICDIBCDJJ_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xC024B60)
 
-inline static constexpr unsigned int LMICDIBCDJJ_TypeDefinitionIndex = 73713;
+inline static constexpr unsigned int LMICDIBCDJJ_TypeDefinitionIndex = 75836;
 
 	class LMICDIBCDJJ : public ::System::Object
 	{
 	public:
-		static ::System::Int32* StaticGet_LIPHEJCBPBD()
+		static ::System::Boolean* StaticGet_GKNCPKCLMPJ()
 		{
-			return (::System::Int32*)UnitySDK::FromName("", "LMICDIBCDJJ")->GetStaticField(0x10170);
+			return (::System::Boolean*)UnitySDK::FromName("", "LMICDIBCDJJ")->GetStaticField(0xC710);
 		}
 
 		static ::System::Boolean* StaticGet_DFKKLPMLNGH()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LMICDIBCDJJ")->GetStaticField(0x10174);
+			return (::System::Boolean*)UnitySDK::FromName("", "LMICDIBCDJJ")->GetStaticField(0xC711);
 		}
 
-		static ::System::Boolean* StaticGet_GKNCPKCLMPJ()
+		static ::System::Int32* StaticGet_LIPHEJCBPBD()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "LMICDIBCDJJ")->GetStaticField(0x10175);
+			return (::System::Int32*)UnitySDK::FromName("", "LMICDIBCDJJ")->GetStaticField(0xC714);
 		}
 
 		// static const ::System::Object HEFNCMFOKLG; // 0x0

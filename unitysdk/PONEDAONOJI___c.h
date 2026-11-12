@@ -4,18 +4,18 @@
 class PONEDAONOJI;
 namespace System { class Object; }
 
-#define PONEDAONOJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DFCE8C0)
-#define PONEDAONOJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFCE900)
-#define PONEDAONOJI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFCE910)
+#define PONEDAONOJI___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F2804F0)
+#define PONEDAONOJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F280530)
+#define PONEDAONOJI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1F280540)
 
-inline static constexpr unsigned int PONEDAONOJI___c_TypeDefinitionIndex = 34342;
+inline static constexpr unsigned int PONEDAONOJI___c_TypeDefinitionIndex = 35270;
 
 	class PONEDAONOJI___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x43590);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x46BF0);
 		}
 
 		static ::System::Void _cctor()

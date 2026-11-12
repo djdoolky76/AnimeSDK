@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ByCompareResistChance___O_TypeDefinitionIndex = 23490;
+	inline static constexpr unsigned int ByCompareResistChance___O_TypeDefinitionIndex = 23936;
 
 	class ByCompareResistChance___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0xD0A0);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x53C30);
 		}
 
 	};

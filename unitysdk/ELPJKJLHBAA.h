@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/Match3/BombType.h"
 #include "unitysdk/System/Object.h"
 
-#define ELPJKJLHBAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61530)
+#define ELPJKJLHBAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC24DB0)
 
-inline static constexpr unsigned int ELPJKJLHBAA_TypeDefinitionIndex = 42224;
+inline static constexpr unsigned int ELPJKJLHBAA_TypeDefinitionIndex = 43199;
 
 	class ELPJKJLHBAA : public ::System::Object
 	{

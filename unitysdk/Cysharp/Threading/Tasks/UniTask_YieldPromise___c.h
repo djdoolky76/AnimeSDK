@@ -4,26 +4,26 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F14D300)
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F14D340)
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C__CREATE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1F14D3B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F14D350)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203FE660)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203FE6A0)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C__CREATE_B__10_0_OFFSET UNITYSDK_OFFSET(0x203FE710)
+#define CYSHARP_THREADING_TASKS_UNITASK_YIELDPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x203FE6B0)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_YieldPromise___c_TypeDefinitionIndex = 38229;
+	inline static constexpr unsigned int UniTask_YieldPromise___c_TypeDefinitionIndex = 39158;
 
 	class UniTask_YieldPromise___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::System::Object*>** StaticGet___9__10_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48150);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A940);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x48158);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A948);
 		}
 
 		static ::System::Void _cctor()

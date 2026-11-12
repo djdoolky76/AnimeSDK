@@ -4,18 +4,18 @@
 class AIOOFPINJMD;
 namespace System { class Object; }
 
-#define AIOOFPINJMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E283070)
-#define AIOOFPINJMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2830B0)
-#define AIOOFPINJMD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2830C0)
+#define AIOOFPINJMD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F6764B0)
+#define AIOOFPINJMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F6764F0)
+#define AIOOFPINJMD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1F676500)
 
-inline static constexpr unsigned int AIOOFPINJMD___c_TypeDefinitionIndex = 32077;
+inline static constexpr unsigned int AIOOFPINJMD___c_TypeDefinitionIndex = 32990;
 
 	class AIOOFPINJMD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33B50);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3D870);
 		}
 
 		static ::System::Void _cctor()

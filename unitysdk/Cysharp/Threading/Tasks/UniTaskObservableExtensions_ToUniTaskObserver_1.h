@@ -10,7 +10,7 @@ namespace System { template <typename T> class Action_1; }
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTaskObservableExtensions_ToUniTaskObserver_1_TypeDefinitionIndex = 38439;
+	inline static constexpr unsigned int UniTaskObservableExtensions_ToUniTaskObserver_1_TypeDefinitionIndex = 39368;
 
 	template <typename T>
 	class UniTaskObservableExtensions_ToUniTaskObserver_1 : public ::System::Object

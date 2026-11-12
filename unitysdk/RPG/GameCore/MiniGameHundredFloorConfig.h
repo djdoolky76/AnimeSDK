@@ -6,13 +6,13 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 namespace RPG::GameCore { class MiniGameHundredFloorWaveConfig; }
 
-#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D881760)
-#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D881780)
-#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D881710)
+#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA9BB50)
+#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORCONFIG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EA9BB70)
+#define RPG_GAMECORE_MINIGAMEHUNDREDFLOORCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA9BB00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MiniGameHundredFloorConfig_TypeDefinitionIndex = 18812;
+	inline static constexpr unsigned int MiniGameHundredFloorConfig_TypeDefinitionIndex = 18973;
 
 	class MiniGameHundredFloorConfig : public ::RPG::GameCore::BaseScrollGameConfig
 	{

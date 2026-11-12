@@ -3,7 +3,7 @@
 
 namespace RPG::Client::BlindBox::Trade
 {
-	inline static constexpr unsigned int BlindBoxTradeState_TypeDefinitionIndex = 74877;
+	inline static constexpr unsigned int BlindBoxTradeState_TypeDefinitionIndex = 77204;
 
 	enum class BlindBoxTradeState : ::System::Int32
 	{

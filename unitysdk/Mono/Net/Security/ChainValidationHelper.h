@@ -18,16 +18,16 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 namespace System::Security::Cryptography::X509Certificates { class X509CertificateCollection; }
 namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x1EFC4640)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x1EFC42A0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1EFC4850)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x1EFC4230)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x1EFC49A0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EFC49B0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x1EFC4CB0)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x1EFC4A00)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x1EFC4E30)
-#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x1EFC4BE0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CREATE_OFFSET UNITYSDK_OFFSET(0x20273DA0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CTOR_OFFSET UNITYSDK_OFFSET(0x202739A0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_DEFAULTSELECTIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x20273FB0)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GETINTERNALVALIDATOR_OFFSET UNITYSDK_OFFSET(0x20273930)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_GET_SETTINGS_OFFSET UNITYSDK_OFFSET(0x20274100)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_SELECTCLIENTCERTIFICATE_OFFSET UNITYSDK_OFFSET(0x20274110)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_1_OFFSET UNITYSDK_OFFSET(0x20274410)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECERTIFICATE_OFFSET UNITYSDK_OFFSET(0x20274160)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_1_OFFSET UNITYSDK_OFFSET(0x20274590)
+#define MONO_NET_SECURITY_CHAINVALIDATIONHELPER_VALIDATECHAIN_OFFSET UNITYSDK_OFFSET(0x20274340)
 
 namespace Mono::Net::Security
 {
@@ -36,14 +36,14 @@ namespace Mono::Net::Security
 	class ChainValidationHelper : public ::System::Object
 	{
 	public:
-		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x10
-		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x18
-		::System::Net::HttpWebRequest* request; // 0x20
-		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x28
-		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x30
-		::System::Object* sender; // 0x38
-		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x40
-		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x48
+		::System::Net::ServerCertValidationCallback* certValidationCallback; // 0x10
+		::System::Net::HttpWebRequest* request; // 0x18
+		::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback; // 0x20
+		::Mono::Security::Interface::MonoTlsSettings* settings; // 0x28
+		::System::Object* sender; // 0x30
+		::Mono::Security::Interface::MonoTlsProvider* provider; // 0x38
+		::Mono::Net::Security::MonoTlsStream* tlsStream; // 0x40
+		::Mono::Net::Security::ServerCertValidationCallbackWrapper* callbackWrapper; // 0x48
 		::System::Void _ctor(::Mono::Security::Interface::MonoTlsProvider* a1, ::Mono::Security::Interface::MonoTlsSettings* a2, ::System::Boolean a3, ::Mono::Net::Security::MonoTlsStream* a4, ::Mono::Net::Security::ServerCertValidationCallbackWrapper* a5)
 		{
 			return ((::System::Void(*)(::PVOID, ::Mono::Security::Interface::MonoTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*, ::System::Boolean, ::Mono::Net::Security::MonoTlsStream*, ::Mono::Net::Security::ServerCertValidationCallbackWrapper*))((::PBYTE)hIl2Cpp + MONO_NET_SECURITY_CHAINVALIDATIONHELPER_CTOR_OFFSET))(this, a1, a2, a3, a4, a5);

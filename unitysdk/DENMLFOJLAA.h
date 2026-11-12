@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DENMLFOJLAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA259D0)
+#define DENMLFOJLAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBE9210)
 
-inline static constexpr unsigned int DENMLFOJLAA_TypeDefinitionIndex = 42229;
+inline static constexpr unsigned int DENMLFOJLAA_TypeDefinitionIndex = 43204;
 
 	class DENMLFOJLAA : public ::System::Object
 	{

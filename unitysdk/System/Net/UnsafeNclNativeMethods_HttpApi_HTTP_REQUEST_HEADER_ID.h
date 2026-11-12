@@ -3,8 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F08D970)
-#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1F08D8E0)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID_CCTOR_OFFSET UNITYSDK_OFFSET(0x2033E4F0)
+#define SYSTEM_NET_UNSAFENCLNATIVEMETHODS_HTTPAPI_HTTP_REQUEST_HEADER_ID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2033E460)
 
 namespace System::Net
 {
@@ -15,7 +15,7 @@ namespace System::Net
 	public:
 		static ::Il2CppArray<::System::String*>** StaticGet_m_Strings()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Net", "HTTP_REQUEST_HEADER_ID")->GetStaticField(0x2D340);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("System.Net", "HTTP_REQUEST_HEADER_ID")->GetStaticField(0x35E90);
 		}
 
 		static ::System::Void _cctor()

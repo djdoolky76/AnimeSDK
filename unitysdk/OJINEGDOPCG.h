@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 class NLFFHLFDCDH;
 
-#define OJINEGDOPCG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9951A0)
-#define OJINEGDOPCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995200)
+#define OJINEGDOPCG_CLEAR_OFFSET UNITYSDK_OFFSET(0x1DB57070)
+#define OJINEGDOPCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB570D0)
 
-inline static constexpr unsigned int OJINEGDOPCG_TypeDefinitionIndex = 43308;
+inline static constexpr unsigned int OJINEGDOPCG_TypeDefinitionIndex = 44289;
 
 	class OJINEGDOPCG : public ::System::Object
 	{

@@ -4,11 +4,11 @@ namespace RPG::GameCore { class ByContainBehaviorFlag; }
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-#define GNOLIGEJDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x15B1EEA0)
-#define GNOLIGEJDGE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B1EED0)
-#define GNOLIGEJDGE_IEIOAKEMGCI_OFFSET UNITYSDK_OFFSET(0x15B1F040)
+#define GNOLIGEJDGE_CTOR_OFFSET UNITYSDK_OFFSET(0x16AA45F0)
+#define GNOLIGEJDGE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16AA4620)
+#define GNOLIGEJDGE_IEIOAKEMGCI_OFFSET UNITYSDK_OFFSET(0x16AA4790)
 
-inline static constexpr unsigned int GNOLIGEJDGE_TypeDefinitionIndex = 54590;
+inline static constexpr unsigned int GNOLIGEJDGE_TypeDefinitionIndex = 55755;
 
 	class GNOLIGEJDGE
 	{

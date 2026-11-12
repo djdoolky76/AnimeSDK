@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/Client/LittleGame/ETimelineControlGameCharacterMoveDirection.h"
 class HPCKCJDCNFM;
 
-inline static constexpr unsigned int EJLKOFIFOBG_TypeDefinitionIndex = 42495;
+inline static constexpr unsigned int EJLKOFIFOBG_TypeDefinitionIndex = 43470;
 
 	struct alignas(8) EJLKOFIFOBG
 	{

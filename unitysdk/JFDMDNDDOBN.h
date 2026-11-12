@@ -3,10 +3,10 @@
 namespace RPG::Client { class ByIsPlanetFesLandAvailableForPurchase; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JFDMDNDDOBN_CTOR_OFFSET UNITYSDK_OFFSET(0x16646BC0)
-#define JFDMDNDDOBN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16646BF0)
+#define JFDMDNDDOBN_CTOR_OFFSET UNITYSDK_OFFSET(0xB990150)
+#define JFDMDNDDOBN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB990180)
 
-inline static constexpr unsigned int JFDMDNDDOBN_TypeDefinitionIndex = 57983;
+inline static constexpr unsigned int JFDMDNDDOBN_TypeDefinitionIndex = 59222;
 
 	class JFDMDNDDOBN
 	{

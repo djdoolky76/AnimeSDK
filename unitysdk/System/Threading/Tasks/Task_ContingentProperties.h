@@ -10,9 +10,9 @@ namespace System::Threading::Tasks { class Task; }
 namespace System::Threading::Tasks { class TaskExceptionHolder; }
 namespace System::Threading::Tasks { template <typename T> class Shared_1; }
 
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1C1509B0)
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_DEREGISTERCANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C153C70)
-#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_SETCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1C153C50)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D7D00)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_DEREGISTERCANCELLATIONCALLBACK_OFFSET UNITYSDK_OFFSET(0x1D2DAF70)
+#define SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_SETCOMPLETED_OFFSET UNITYSDK_OFFSET(0x1D2DAF50)
 
 namespace System::Threading::Tasks
 {
@@ -22,13 +22,13 @@ namespace System::Threading::Tasks
 	{
 	public:
 		::System::Threading::ManualResetEventSlim* m_completionEvent; // 0x10
-		::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder; // 0x18
-		::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>* m_cancellationRegistration; // 0x20
+		::System::Threading::ExecutionContext* m_capturedContext; // 0x18
+		::System::Threading::CancellationToken m_cancellationToken; // 0x20
 		::System::Collections::Generic::List_1<::System::Threading::Tasks::Task*>* m_exceptionalChildren; // 0x28
-		::System::Threading::ExecutionContext* m_capturedContext; // 0x30
-		::System::Threading::CancellationToken m_cancellationToken; // 0x38
-		::System::Int32 m_completionCountdown; // 0x40
-		::System::Int32 m_internalCancellationRequested; // 0x44
+		::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder; // 0x30
+		::System::Threading::Tasks::Shared_1<::System::Threading::CancellationTokenRegistration>* m_cancellationRegistration; // 0x38
+		::System::Int32 m_internalCancellationRequested; // 0x40
+		::System::Int32 m_completionCountdown; // 0x44
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_THREADING_TASKS_TASK_CONTINGENTPROPERTIES_CTOR_OFFSET))(this);

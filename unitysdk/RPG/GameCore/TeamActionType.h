@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TeamActionType_TypeDefinitionIndex = 24697;
+	inline static constexpr unsigned int TeamActionType_TypeDefinitionIndex = 25172;
 
 	enum class TeamActionType : ::System::Int32
 	{

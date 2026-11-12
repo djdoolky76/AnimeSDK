@@ -5,27 +5,27 @@
 #include "unitysdk/UnityEngine/ConsoleVariableBoolProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define ECKANFHGNPP_BOKFHPNIIEO_OFFSET UNITYSDK_OFFSET(0x12D124D0)
-#define ECKANFHGNPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x12D12540)
+#define ECKANFHGNPP_BOKFHPNIIEO_OFFSET UNITYSDK_OFFSET(0x13AC50C0)
+#define ECKANFHGNPP_CCTOR_OFFSET UNITYSDK_OFFSET(0x13AC5130)
 
-inline static constexpr unsigned int ECKANFHGNPP_TypeDefinitionIndex = 69332;
+inline static constexpr unsigned int ECKANFHGNPP_TypeDefinitionIndex = 71286;
 
 	class ECKANFHGNPP : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_OPJDJAIMMOG()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ECKANFHGNPP")->GetStaticField(0x6FE80);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ECKANFHGNPP")->GetStaticField(0x72CA0);
 		}
 
 		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_LEKFCCMACGM()
 		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "ECKANFHGNPP")->GetStaticField(0x6FE90);
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "ECKANFHGNPP")->GetStaticField(0x72CB0);
 		}
 
 		static ::UnityEngine::ConsoleVariableBoolProperty* StaticGet_LDEAODNEGCG()
 		{
-			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ECKANFHGNPP")->GetStaticField(0x6FEA0);
+			return (::UnityEngine::ConsoleVariableBoolProperty*)UnitySDK::FromName("", "ECKANFHGNPP")->GetStaticField(0x72CC0);
 		}
 
 		static ::System::Void _cctor()

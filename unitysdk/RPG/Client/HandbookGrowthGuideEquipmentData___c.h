@@ -5,25 +5,25 @@ namespace RPG::Client { class HandbookGrowthGuideEquipmentDataItem; }
 namespace System { class Object; }
 namespace System { template <typename T> class Comparison_1; }
 
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD2F2B00)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD2F2B40)
-#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATA___C___PREPAREDATALIST_B__8_0_OFFSET UNITYSDK_OFFSET(0xD2F2B50)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xDD27EA0)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDD27EE0)
+#define RPG_CLIENT_HANDBOOKGROWTHGUIDEEQUIPMENTDATA___C___PREPAREDATALIST_B__8_0_OFFSET UNITYSDK_OFFSET(0xDD27EF0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int HandbookGrowthGuideEquipmentData___c_TypeDefinitionIndex = 65623;
+	inline static constexpr unsigned int HandbookGrowthGuideEquipmentData___c_TypeDefinitionIndex = 67547;
 
 	class HandbookGrowthGuideEquipmentData___c : public ::System::Object
 	{
 	public:
-		static ::System::Comparison_1<::RPG::Client::HandbookGrowthGuideEquipmentDataItem*>** StaticGet___9__8_0()
-		{
-			return (::System::Comparison_1<::RPG::Client::HandbookGrowthGuideEquipmentDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF210);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0xF218);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19320);
+		}
+
+		static ::System::Comparison_1<::RPG::Client::HandbookGrowthGuideEquipmentDataItem*>** StaticGet___9__8_0()
+		{
+			return (::System::Comparison_1<::RPG::Client::HandbookGrowthGuideEquipmentDataItem*>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x19328);
 		}
 
 		static ::System::Void _cctor()

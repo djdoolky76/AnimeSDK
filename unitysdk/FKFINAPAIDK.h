@@ -8,13 +8,13 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define FKFINAPAIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x157EF580)
-#define FKFINAPAIDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x157EF600)
-#define FKFINAPAIDK_KGIIEOBJHLF_OFFSET UNITYSDK_OFFSET(0x157EFC10)
-#define FKFINAPAIDK_MGIILEHMCJK_OFFSET UNITYSDK_OFFSET(0x157EF6B0)
-#define FKFINAPAIDK_NDIDKJKOEJB_OFFSET UNITYSDK_OFFSET(0x157EF9C0)
+#define FKFINAPAIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1675BE30)
+#define FKFINAPAIDK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1675BEB0)
+#define FKFINAPAIDK_KGIIEOBJHLF_OFFSET UNITYSDK_OFFSET(0x1675C4C0)
+#define FKFINAPAIDK_MGIILEHMCJK_OFFSET UNITYSDK_OFFSET(0x1675BF60)
+#define FKFINAPAIDK_NDIDKJKOEJB_OFFSET UNITYSDK_OFFSET(0x1675C270)
 
-inline static constexpr unsigned int FKFINAPAIDK_TypeDefinitionIndex = 55954;
+inline static constexpr unsigned int FKFINAPAIDK_TypeDefinitionIndex = 57157;
 
 	class FKFINAPAIDK : public ::System::Object
 	{

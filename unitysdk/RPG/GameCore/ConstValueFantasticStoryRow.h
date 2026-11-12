@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ConstValueFantasticStoryRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5D9840)
-#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5D92C0)
+#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7EBCB0)
+#define RPG_GAMECORE_CONSTVALUEFANTASTICSTORYROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7EB730)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ConstValueFantasticStoryRow_TypeDefinitionIndex = 11471;
+	inline static constexpr unsigned int ConstValueFantasticStoryRow_TypeDefinitionIndex = 11522;
 
 	class ConstValueFantasticStoryRow : public ::System::Object
 	{

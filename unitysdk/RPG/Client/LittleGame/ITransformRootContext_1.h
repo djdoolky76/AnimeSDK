@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame
 {
-	inline static constexpr unsigned int ITransformRootContext_1_TypeDefinitionIndex = 42741;
+	inline static constexpr unsigned int ITransformRootContext_1_TypeDefinitionIndex = 43720;
 
 	template <typename T>
 	class ITransformRootContext_1

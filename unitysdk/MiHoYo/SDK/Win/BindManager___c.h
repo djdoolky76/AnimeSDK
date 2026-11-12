@@ -4,25 +4,25 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
-#define MIHOYO_SDK_WIN_BINDMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BCF3000)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BCF3040)
-#define MIHOYO_SDK_WIN_BINDMANAGER___C__SHOWBINDTAPTAPVIEW_B__41_0_OFFSET UNITYSDK_OFFSET(0x1BCF3050)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CE7C0A0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7C0E0)
+#define MIHOYO_SDK_WIN_BINDMANAGER___C__SHOWBINDTAPTAPVIEW_B__41_0_OFFSET UNITYSDK_OFFSET(0x1CE7C0F0)
 
 namespace MiHoYo::SDK::Win
 {
-	inline static constexpr unsigned int BindManager___c_TypeDefinitionIndex = 9391;
+	inline static constexpr unsigned int BindManager___c_TypeDefinitionIndex = 9399;
 
 	class BindManager___c : public ::System::Object
 	{
 	public:
-		static ::System::Action** StaticGet___9__41_0()
-		{
-			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x19C80);
-		}
-
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x19C88);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x26D20);
+		}
+
+		static ::System::Action** StaticGet___9__41_0()
+		{
+			return (::System::Action**)UnitySDK::FromName("MiHoYo.SDK.Win", "<>c")->GetStaticField(0x26D28);
 		}
 
 		static ::System::Void _cctor()

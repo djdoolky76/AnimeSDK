@@ -3,11 +3,11 @@
 #include "unitysdk/RPG/GameCore/SilverWolf999UltraSkillUIState.h"
 #include "unitysdk/System/Object.h"
 
-#define RPG_CLIENT_BATTLESILVERWOLF999ULTRASKILLUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC860030)
+#define RPG_CLIENT_BATTLESILVERWOLF999ULTRASKILLUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD1C4CD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int BattleSilverWolf999UltraSkillUIData_TypeDefinitionIndex = 71466;
+	inline static constexpr unsigned int BattleSilverWolf999UltraSkillUIData_TypeDefinitionIndex = 73450;
 
 	class BattleSilverWolf999UltraSkillUIData : public ::System::Object
 	{

@@ -4,26 +4,26 @@
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1476B0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1476F0)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x1F147760)
-#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x1F147700)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x203F8620)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x203F8660)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C__CREATE_B__13_0_OFFSET UNITYSDK_OFFSET(0x203F86D0)
+#define CYSHARP_THREADING_TASKS_UNITASK_DELAYFRAMEPROMISE___C___CCTOR_B__4_0_OFFSET UNITYSDK_OFFSET(0x203F8670)
 
 namespace Cysharp::Threading::Tasks
 {
-	inline static constexpr unsigned int UniTask_DelayFramePromise___c_TypeDefinitionIndex = 38235;
+	inline static constexpr unsigned int UniTask_DelayFramePromise___c_TypeDefinitionIndex = 39164;
 
 	class UniTask_DelayFramePromise___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x46510);
+			return (::System::Object**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A050);
 		}
 
 		static ::System::Action_1<::System::Object*>** StaticGet___9__13_0()
 		{
-			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x46518);
+			return (::System::Action_1<::System::Object*>**)UnitySDK::FromName("Cysharp.Threading.Tasks", "<>c")->GetStaticField(0x3A058);
 		}
 
 		static ::System::Void _cctor()

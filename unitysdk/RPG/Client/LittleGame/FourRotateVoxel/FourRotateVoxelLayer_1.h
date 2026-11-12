@@ -6,7 +6,7 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
-	inline static constexpr unsigned int FourRotateVoxelLayer_1_TypeDefinitionIndex = 43182;
+	inline static constexpr unsigned int FourRotateVoxelLayer_1_TypeDefinitionIndex = 44163;
 
 	template <typename T>
 	class FourRotateVoxelLayer_1

@@ -4,9 +4,9 @@
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace UnityEngine { class GameObject; }
 
-#define DHCNPPICIAO_AKKKLMIIFII_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC9CF0)
+#define DHCNPPICIAO_AKKKLMIIFII_CTOR_OFFSET UNITYSDK_OFFSET(0xF4483A0)
 
-inline static constexpr unsigned int DHCNPPICIAO_AKKKLMIIFII_TypeDefinitionIndex = 59746;
+inline static constexpr unsigned int DHCNPPICIAO_AKKKLMIIFII_TypeDefinitionIndex = 61026;
 
 	class DHCNPPICIAO_AKKKLMIIFII : public ::System::Object
 	{

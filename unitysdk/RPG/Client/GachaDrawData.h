@@ -3,24 +3,23 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class GachaTokenData; }
 
-#define RPG_CLIENT_GACHADRAWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD091BA0)
-#define RPG_CLIENT_GACHADRAWDATA_GETGOLDCOSTNUM_OFFSET UNITYSDK_OFFSET(0xD091C50)
-#define RPG_CLIENT_GACHADRAWDATA_GETTOKENCOSTNUM_OFFSET UNITYSDK_OFFSET(0xD091CB0)
-#define RPG_CLIENT_GACHADRAWDATA_HAVEDISCOUNT_OFFSET UNITYSDK_OFFSET(0xD091D00)
-#define RPG_CLIENT_GACHADRAWDATA_SETTOKENPRICE_OFFSET UNITYSDK_OFFSET(0xD091BF0)
+#define RPG_CLIENT_GACHADRAWDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xDA1A110)
+#define RPG_CLIENT_GACHADRAWDATA_GETGOLDCOSTNUM_OFFSET UNITYSDK_OFFSET(0xDA1A2A0)
+#define RPG_CLIENT_GACHADRAWDATA_GETTOKENCOSTNUM_OFFSET UNITYSDK_OFFSET(0xDA1A300)
+#define RPG_CLIENT_GACHADRAWDATA_HAVEDISCOUNT_OFFSET UNITYSDK_OFFSET(0xDA1A350)
+#define RPG_CLIENT_GACHADRAWDATA_SETTOKENPRICE_OFFSET UNITYSDK_OFFSET(0xDA1A240)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GachaDrawData_TypeDefinitionIndex = 64297;
+	inline static constexpr unsigned int GachaDrawData_TypeDefinitionIndex = 65742;
 
 	class GachaDrawData : public ::System::Object
 	{
 	public:
 		::RPG::Client::GachaTokenData* _GachaTokenData; // 0x10
-		::System::Boolean Active; // 0x18
-		::System::Byte _padding0[0x3];
-		::System::Int32 DrawTime; // 0x1C
-		::System::Single TokenCostNumPerDraw; // 0x20
+		::System::Int32 DrawTime; // 0x18
+		::System::Single TokenCostNumPerDraw; // 0x1C
+		::System::Boolean Active; // 0x20
 		// static const ::System::Object _DEFALUT_DRAW_TIME; // 0x0
 		// static const ::System::Object _DEFAULT_TOKEN_COST_PER_DRAW; // 0x0
 		::System::Void _ctor(::System::UInt32 a1)

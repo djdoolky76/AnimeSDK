@@ -3,10 +3,10 @@
 class HMGEOKPCKOK;
 namespace RPG::GameCore { class TaskContext; }
 
-#define HOGGGGAMMNG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DB4170)
-#define HOGGGGAMMNG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15DB41A0)
+#define HOGGGGAMMNG_CTOR_OFFSET UNITYSDK_OFFSET(0x16D570D0)
+#define HOGGGGAMMNG_EVALUATE_OFFSET UNITYSDK_OFFSET(0x16D57100)
 
-inline static constexpr unsigned int HOGGGGAMMNG_TypeDefinitionIndex = 53336;
+inline static constexpr unsigned int HOGGGGAMMNG_TypeDefinitionIndex = 54498;
 
 	class HOGGGGAMMNG
 	{

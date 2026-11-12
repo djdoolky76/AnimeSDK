@@ -7,11 +7,11 @@ namespace System::Linq::Expressions { class BlockExpression; }
 namespace System::Linq::Expressions { class Expression; }
 namespace System::Linq::Expressions { class ParameterExpression; }
 
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_CTOR_OFFSET UNITYSDK_OFFSET(0x1EDA1100)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x1EDA1180)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x1EDA1230)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x1EDA1220)
-#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_REWRITE_OFFSET UNITYSDK_OFFSET(0x1EDA1240)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_CTOR_OFFSET UNITYSDK_OFFSET(0x20050B90)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETEXPRESSION_OFFSET UNITYSDK_OFFSET(0x20050C10)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GETORMAKEEXPRESSIONS_OFFSET UNITYSDK_OFFSET(0x20050CC0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_GET_EXPRESSIONCOUNT_OFFSET UNITYSDK_OFFSET(0x20050CB0)
+#define SYSTEM_LINQ_EXPRESSIONS_BLOCK4_REWRITE_OFFSET UNITYSDK_OFFSET(0x20050CD0)
 
 namespace System::Linq::Expressions
 {
@@ -20,10 +20,10 @@ namespace System::Linq::Expressions
 	class Block4 : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:
-		::System::Linq::Expressions::Expression* _arg1; // 0x10
-		::System::Object* _arg0; // 0x18
-		::System::Linq::Expressions::Expression* _arg3; // 0x20
-		::System::Linq::Expressions::Expression* _arg2; // 0x28
+		::System::Object* _arg0; // 0x10
+		::System::Linq::Expressions::Expression* _arg3; // 0x18
+		::System::Linq::Expressions::Expression* _arg2; // 0x20
+		::System::Linq::Expressions::Expression* _arg1; // 0x28
 		::System::Void _ctor(::System::Linq::Expressions::Expression* a1, ::System::Linq::Expressions::Expression* a2, ::System::Linq::Expressions::Expression* a3, ::System::Linq::Expressions::Expression* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*))((::PBYTE)hIl2Cpp + SYSTEM_LINQ_EXPRESSIONS_BLOCK4_CTOR_OFFSET))(this, a1, a2, a3, a4);

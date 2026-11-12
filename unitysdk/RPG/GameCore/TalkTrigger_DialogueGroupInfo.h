@@ -3,12 +3,12 @@
 #include "unitysdk/RPG/GameCore/DialogueUtil_DialogueTriggerReason.h"
 namespace System { class String; }
 
-#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_RESET_OFFSET UNITYSDK_OFFSET(0xF6540)
-#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF6590)
+#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_RESET_OFFSET UNITYSDK_OFFSET(0x103900)
+#define RPG_GAMECORE_TALKTRIGGER_DIALOGUEGROUPINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x103950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TalkTrigger_DialogueGroupInfo_TypeDefinitionIndex = 57532;
+	inline static constexpr unsigned int TalkTrigger_DialogueGroupInfo_TypeDefinitionIndex = 58760;
 
 	struct alignas(4) TalkTrigger_DialogueGroupInfo
 	{

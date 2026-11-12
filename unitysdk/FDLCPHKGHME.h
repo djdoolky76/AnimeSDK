@@ -4,9 +4,9 @@
 #include "unitysdk/RPG/GameCore/ControlSkillType.h"
 #include "unitysdk/System/Object.h"
 
-#define FDLCPHKGHME_CTOR_OFFSET UNITYSDK_OFFSET(0x156DE140)
+#define FDLCPHKGHME_CTOR_OFFSET UNITYSDK_OFFSET(0x165F7C90)
 
-inline static constexpr unsigned int FDLCPHKGHME_TypeDefinitionIndex = 72004;
+inline static constexpr unsigned int FDLCPHKGHME_TypeDefinitionIndex = 74033;
 
 	class FDLCPHKGHME : public ::System::Object
 	{

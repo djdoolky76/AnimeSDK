@@ -5,25 +5,25 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC6A4E60)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC6A4EA0)
-#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__GET_ISVALID_B__14_0_OFFSET UNITYSDK_OFFSET(0xC6A4EB0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xD000CD0)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xD000D10)
+#define RPG_CLIENT_ASTRAFX_ASTRAFXDATANODE___C__GET_ISVALID_B__14_0_OFFSET UNITYSDK_OFFSET(0xD000D20)
 
 namespace RPG::Client::AstraFX
 {
-	inline static constexpr unsigned int AstraFXDataNode___c_TypeDefinitionIndex = 73686;
+	inline static constexpr unsigned int AstraFXDataNode___c_TypeDefinitionIndex = 75809;
 
 	class AstraFXDataNode___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x58010);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x51870);
 		}
 
 		static ::System::Func_2<::RPG::Client::AstraFX::AstraFXDataNodeDescription, ::System::Boolean>** StaticGet___9__14_0()
 		{
-			return (::System::Func_2<::RPG::Client::AstraFX::AstraFXDataNodeDescription, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x58018);
+			return (::System::Func_2<::RPG::Client::AstraFX::AstraFXDataNodeDescription, ::System::Boolean>**)UnitySDK::FromName("RPG.Client.AstraFX", "<>c")->GetStaticField(0x51878);
 		}
 
 		static ::System::Void _cctor()

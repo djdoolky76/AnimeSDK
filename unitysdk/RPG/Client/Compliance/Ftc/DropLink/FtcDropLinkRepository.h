@@ -6,18 +6,18 @@ namespace RPG::Client::Compliance::Ftc::DropLink { class FtcDropLink; }
 namespace RPG::Client::Compliance::Ftc::DropLink { class IFtcDropLink; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_CTOR_OFFSET UNITYSDK_OFFSET(0xCBACBC0)
-#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0xCBAC200)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_CTOR_OFFSET UNITYSDK_OFFSET(0xD520A00)
+#define RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_GET_OFFSET UNITYSDK_OFFSET(0xD51FFF0)
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
-	inline static constexpr unsigned int FtcDropLinkRepository_TypeDefinitionIndex = 74822;
+	inline static constexpr unsigned int FtcDropLinkRepository_TypeDefinitionIndex = 76992;
 
 	class FtcDropLinkRepository : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Compliance::Ftc::DropLink::FtcDropLink*>* _Cached; // 0x10
-		::NIIIDGPJADK* _Factory; // 0x18
+		::NIIIDGPJADK* _Factory; // 0x10
+		::System::Collections::Generic::Dictionary_2<::System::UInt32, ::RPG::Client::Compliance::Ftc::DropLink::FtcDropLink*>* _Cached; // 0x18
 		::System::Void _ctor(::NIIIDGPJADK* a1)
 		{
 			return ((::System::Void(*)(::PVOID, ::NIIIDGPJADK*))((::PBYTE)hIl2Cpp + RPG_CLIENT_COMPLIANCE_FTC_DROPLINK_FTCDROPLINKREPOSITORY_CTOR_OFFSET))(this, a1);

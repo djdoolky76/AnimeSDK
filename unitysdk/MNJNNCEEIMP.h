@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class TaskContext; }
 namespace RPG::GameCore { class TriggerEnterSafeUI; }
 
-#define MNJNNCEEIMP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0FC10)
-#define MNJNNCEEIMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBA0FC20)
-#define MNJNNCEEIMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA0FDB0)
-#define MNJNNCEEIMP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA0FE30)
-#define MNJNNCEEIMP_TICK_OFFSET UNITYSDK_OFFSET(0xBA0FEC0)
+#define MNJNNCEEIMP_CTOR_OFFSET UNITYSDK_OFFSET(0xC2CD8F0)
+#define MNJNNCEEIMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC2CD900)
+#define MNJNNCEEIMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2CDA90)
+#define MNJNNCEEIMP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2CDB10)
+#define MNJNNCEEIMP_TICK_OFFSET UNITYSDK_OFFSET(0xC2CDBA0)
 
-inline static constexpr unsigned int MNJNNCEEIMP_TypeDefinitionIndex = 53446;
+inline static constexpr unsigned int MNJNNCEEIMP_TypeDefinitionIndex = 54608;
 
 	class MNJNNCEEIMP : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TriggerEnterSafeUI* OFKGLJOAMLD; // 0x18
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
+		::RPG::GameCore::TriggerEnterSafeUI* OFKGLJOAMLD; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::TriggerEnterSafeUI* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::TriggerEnterSafeUI*))((::PBYTE)hIl2Cpp + MNJNNCEEIMP_CTOR_OFFSET))(this, a1, a2);

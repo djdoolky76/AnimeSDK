@@ -7,22 +7,22 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceARow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PERFORMANCEAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F6770)
-#define RPG_GAMECORE_PERFORMANCEAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D8F6000)
+#define RPG_GAMECORE_PERFORMANCEAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0FD20)
+#define RPG_GAMECORE_PERFORMANCEAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EB0F5B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceARow_TypeDefinitionIndex = 14326;
+	inline static constexpr unsigned int PerformanceARow_TypeDefinitionIndex = 14483;
 
 	class PerformanceARow : public ::System::Object
 	{
 	public:
 		::System::String* PerformancePath; // 0x10
-		::RPG::GameCore::StoryBlackType EndBlack; // 0x18
+		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x18
 		::System::UInt32 PlaneID; // 0x1C
 		::System::UInt32 FloorID; // 0x20
-		::RPG::GameCore::StoryBlackType StartBlack; // 0x24
-		::RPG::GameCore::PerformanceSkipType IsSkip; // 0x28
+		::RPG::GameCore::StoryBlackType EndBlack; // 0x24
+		::RPG::GameCore::StoryBlackType StartBlack; // 0x28
 		::System::Boolean EndWithCrack; // 0x2C
 		::System::Byte _padding0[0x3];
 		::System::UInt32 PerformanceID; // 0x30

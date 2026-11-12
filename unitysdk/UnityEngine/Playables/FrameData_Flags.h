@@ -3,7 +3,7 @@
 
 namespace UnityEngine::Playables
 {
-	inline static constexpr unsigned int FrameData_Flags_TypeDefinitionIndex = 4903;
+	inline static constexpr unsigned int FrameData_Flags_TypeDefinitionIndex = 4908;
 
 	enum class FrameData_Flags : ::System::Int32
 	{

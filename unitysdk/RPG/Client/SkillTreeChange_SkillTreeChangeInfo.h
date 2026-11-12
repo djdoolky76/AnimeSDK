@@ -5,19 +5,19 @@ namespace RPG::GameCore { class AvatarSkillRow; }
 namespace RPG::GameCore { class AvatarSkillTreeRow; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xE0E5960)
-#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_GET_HASSIMPLEDESC_OFFSET UNITYSDK_OFFSET(0xE0E6170)
-#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_SETSKILL_OFFSET UNITYSDK_OFFSET(0xE0E7240)
+#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xEB4F740)
+#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_GET_HASSIMPLEDESC_OFFSET UNITYSDK_OFFSET(0xEB4FF50)
+#define RPG_CLIENT_SKILLTREECHANGE_SKILLTREECHANGEINFO_SETSKILL_OFFSET UNITYSDK_OFFSET(0xEB51020)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int SkillTreeChange_SkillTreeChangeInfo_TypeDefinitionIndex = 62494;
+	inline static constexpr unsigned int SkillTreeChange_SkillTreeChangeInfo_TypeDefinitionIndex = 63907;
 
 	class SkillTreeChange_SkillTreeChangeInfo : public ::System::Object
 	{
 	public:
-		::RPG::GameCore::AvatarSkillRow* Skill; // 0x10
-		::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>* SubSkills; // 0x18
+		::System::Collections::Generic::List_1<::RPG::GameCore::AvatarSkillRow*>* SubSkills; // 0x10
+		::RPG::GameCore::AvatarSkillRow* Skill; // 0x18
 		::RPG::GameCore::AvatarSkillTreeRow* Point; // 0x20
 		::System::Void _ctor(::RPG::GameCore::AvatarSkillTreeRow* a1)
 		{

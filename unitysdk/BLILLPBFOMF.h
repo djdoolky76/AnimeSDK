@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define BLILLPBFOMF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D9E02A0)
-#define BLILLPBFOMF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9E0820)
-#define BLILLPBFOMF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D9E0410)
-#define BLILLPBFOMF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D9DFD50)
-#define BLILLPBFOMF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D9DFFE0)
-#define BLILLPBFOMF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D9E04B0)
-#define BLILLPBFOMF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D9E0500)
-#define BLILLPBFOMF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D9E02E0)
-#define BLILLPBFOMF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D9DFF80)
-#define BLILLPBFOMF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D9E0110)
-#define BLILLPBFOMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9E0370)
-#define BLILLPBFOMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9DFCD0)
+#define BLILLPBFOMF_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1EBA8000)
+#define BLILLPBFOMF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EBA8580)
+#define BLILLPBFOMF_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1EBA8170)
+#define BLILLPBFOMF_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1EBA7AB0)
+#define BLILLPBFOMF_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1EBA7D40)
+#define BLILLPBFOMF_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1EBA8210)
+#define BLILLPBFOMF_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1EBA8260)
+#define BLILLPBFOMF_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1EBA8040)
+#define BLILLPBFOMF_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1EBA7CE0)
+#define BLILLPBFOMF_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1EBA7E70)
+#define BLILLPBFOMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1EBA80D0)
+#define BLILLPBFOMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1EBA7A30)
 
-inline static constexpr unsigned int BLILLPBFOMF_TypeDefinitionIndex = 11389;
+inline static constexpr unsigned int BLILLPBFOMF_TypeDefinitionIndex = 11440;
 
 	class BLILLPBFOMF : public ::System::Object
 	{
 	public:
-		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
-		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0x37FF0);
-		}
-
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantOptionEffectConfigRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantOptionEffectConfigRow*>**)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0x37FF8);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::RestaurantOptionEffectConfigRow*>**)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0x49A50);
+		}
+
+		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
+		{
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0x49A58);
 		}
 
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0x38000);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0x49A60);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0xBED0);
+			return (::System::Byte*)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0xF0A0);
 		}
 
 		static ::System::Boolean* StaticGet_AHBLLGCADBB()
 		{
-			return (::System::Boolean*)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0xBED1);
+			return (::System::Boolean*)UnitySDK::FromName("", "BLILLPBFOMF")->GetStaticField(0xF0A1);
 		}
 
 		static ::System::Void _cctor()

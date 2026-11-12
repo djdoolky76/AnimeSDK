@@ -6,21 +6,21 @@ namespace System { class Object; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define JFJCIGJIPBP_AALCCPJCBME_OFFSET UNITYSDK_OFFSET(0x1664FBF0)
-#define JFJCIGJIPBP_BFADFAELKLJ_OFFSET UNITYSDK_OFFSET(0x1664FA70)
-#define JFJCIGJIPBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1664FF50)
-#define JFJCIGJIPBP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1664FE50)
-#define JFJCIGJIPBP_GAJGBBFELEL_OFFSET UNITYSDK_OFFSET(0x1664FA10)
-#define JFJCIGJIPBP_JDMAECPHEOG_OFFSET UNITYSDK_OFFSET(0x1664FCE0)
-#define JFJCIGJIPBP_OMIMLKMKKDE_OFFSET UNITYSDK_OFFSET(0x1664FDC0)
+#define JFJCIGJIPBP_AALCCPJCBME_OFFSET UNITYSDK_OFFSET(0xB999170)
+#define JFJCIGJIPBP_BFADFAELKLJ_OFFSET UNITYSDK_OFFSET(0xB998FF0)
+#define JFJCIGJIPBP_CTOR_OFFSET UNITYSDK_OFFSET(0xB9994D0)
+#define JFJCIGJIPBP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB9993D0)
+#define JFJCIGJIPBP_GAJGBBFELEL_OFFSET UNITYSDK_OFFSET(0xB998F90)
+#define JFJCIGJIPBP_JDMAECPHEOG_OFFSET UNITYSDK_OFFSET(0xB999260)
+#define JFJCIGJIPBP_OMIMLKMKKDE_OFFSET UNITYSDK_OFFSET(0xB999340)
 
-inline static constexpr unsigned int JFJCIGJIPBP_TypeDefinitionIndex = 61549;
+inline static constexpr unsigned int JFJCIGJIPBP_TypeDefinitionIndex = 62946;
 
 	class JFJCIGJIPBP : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::List_1<::System::Object*>* DPFJAKAIJMH; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Boolean>* IPIDLEDJDGF; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Boolean>* IPIDLEDJDGF; // 0x10
+		::System::Collections::Generic::List_1<::System::Object*>* DPFJAKAIJMH; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + JFJCIGJIPBP_CTOR_OFFSET))(this);

@@ -5,25 +5,25 @@ namespace RPG::Client { class ActivityLocalLegendRewardGroup; }
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xC537180)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC5371C0)
-#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__HASUNTAKENREWARD_B__1_0_OFFSET UNITYSDK_OFFSET(0xC5371D0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xCE74F80)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCE74FC0)
+#define RPG_CLIENT_ACTIVITYLOCALLEGENDREWARDDATA___C__HASUNTAKENREWARD_B__1_0_OFFSET UNITYSDK_OFFSET(0xCE74FD0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityLocalLegendRewardData___c_TypeDefinitionIndex = 61563;
+	inline static constexpr unsigned int ActivityLocalLegendRewardData___c_TypeDefinitionIndex = 62960;
 
 	class ActivityLocalLegendRewardData___c : public ::System::Object
 	{
 	public:
 		static ::System::Func_2<::RPG::Client::ActivityLocalLegendRewardGroup*, ::System::Boolean>** StaticGet___9__1_0()
 		{
-			return (::System::Func_2<::RPG::Client::ActivityLocalLegendRewardGroup*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x31810);
+			return (::System::Func_2<::RPG::Client::ActivityLocalLegendRewardGroup*, ::System::Boolean>**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2A480);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x31818);
+			return (::System::Object**)UnitySDK::FromName("RPG.Client", "<>c")->GetStaticField(0x2A488);
 		}
 
 		static ::System::Void _cctor()

@@ -6,13 +6,13 @@
 #include "unitysdk/UnityEngine/Bounds.h"
 namespace MessagePack { class MessagePackSerializerOptions; }
 
-#define MESSAGEPACK_UNITY_BOUNDSFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BB624D0)
-#define MESSAGEPACK_UNITY_BOUNDSFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB62030)
-#define MESSAGEPACK_UNITY_BOUNDSFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1BB61D20)
+#define MESSAGEPACK_UNITY_BOUNDSFORMATTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEB1E0)
+#define MESSAGEPACK_UNITY_BOUNDSFORMATTER_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCEAD40)
+#define MESSAGEPACK_UNITY_BOUNDSFORMATTER_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1CCEAA30)
 
 namespace MessagePack::Unity
 {
-	inline static constexpr unsigned int BoundsFormatter_TypeDefinitionIndex = 10123;
+	inline static constexpr unsigned int BoundsFormatter_TypeDefinitionIndex = 10131;
 
 	class BoundsFormatter : public ::System::Object
 	{

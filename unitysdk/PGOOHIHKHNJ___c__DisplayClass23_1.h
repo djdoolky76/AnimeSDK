@@ -5,10 +5,10 @@
 namespace RPG::Client { class MonoEffect; }
 namespace System { class Object; }
 
-#define PGOOHIHKHNJ___C__DISPLAYCLASS23_1_CTOR_OFFSET UNITYSDK_OFFSET(0xC234BE0)
-#define PGOOHIHKHNJ___C__DISPLAYCLASS23_1___PLAYDAMAGEHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xC235000)
+#define PGOOHIHKHNJ___C__DISPLAYCLASS23_1_CTOR_OFFSET UNITYSDK_OFFSET(0xCB1E770)
+#define PGOOHIHKHNJ___C__DISPLAYCLASS23_1___PLAYDAMAGEHITEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xCB1EB80)
 
-inline static constexpr unsigned int PGOOHIHKHNJ___c__DisplayClass23_1_TypeDefinitionIndex = 54984;
+inline static constexpr unsigned int PGOOHIHKHNJ___c__DisplayClass23_1_TypeDefinitionIndex = 56158;
 
 	template <typename T>
 	class PGOOHIHKHNJ___c__DisplayClass23_1 : public ::System::Object

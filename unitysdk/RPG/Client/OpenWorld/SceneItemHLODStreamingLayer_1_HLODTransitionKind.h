@@ -3,7 +3,7 @@
 
 namespace RPG::Client::OpenWorld
 {
-	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionKind_TypeDefinitionIndex = 73823;
+	inline static constexpr unsigned int SceneItemHLODStreamingLayer_1_HLODTransitionKind_TypeDefinitionIndex = 75949;
 
 	enum class SceneItemHLODStreamingLayer_1_HLODTransitionKind : ::System::Int32
 	{

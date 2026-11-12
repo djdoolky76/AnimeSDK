@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/MonoBehaviour.h"
 
-#define EFFECTGROUPBOUNDS_CTOR_OFFSET UNITYSDK_OFFSET(0x155DFAE0)
+#define EFFECTGROUPBOUNDS_CTOR_OFFSET UNITYSDK_OFFSET(0x164F2A70)
 
-inline static constexpr unsigned int EffectGroupBounds_TypeDefinitionIndex = 47292;
+inline static constexpr unsigned int EffectGroupBounds_TypeDefinitionIndex = 48321;
 
 	class EffectGroupBounds : public ::UnityEngine::MonoBehaviour
 	{

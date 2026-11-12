@@ -4,12 +4,12 @@
 namespace Hdg { class ReadMessageThread; }
 namespace Hdg { class rdtTcpMessage; }
 
-#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xAF2A6F0)
-#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0__ONREADING_B__0_OFFSET UNITYSDK_OFFSET(0xAF2AB60)
+#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB58B6D0)
+#define HDG_READMESSAGETHREAD___C__DISPLAYCLASS15_0__ONREADING_B__0_OFFSET UNITYSDK_OFFSET(0xB58BB40)
 
 namespace Hdg
 {
-	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass15_0_TypeDefinitionIndex = 46939;
+	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass15_0_TypeDefinitionIndex = 47967;
 
 	class ReadMessageThread___c__DisplayClass15_0 : public ::System::Object
 	{

@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetForceStreamingThisFrame; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define KKEEIPACPCC_CTOR_OFFSET UNITYSDK_OFFSET(0xB4BB170)
-#define KKEEIPACPCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4BB1A0)
+#define KKEEIPACPCC_CTOR_OFFSET UNITYSDK_OFFSET(0xBD04170)
+#define KKEEIPACPCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD041A0)
 
-inline static constexpr unsigned int KKEEIPACPCC_TypeDefinitionIndex = 55895;
+inline static constexpr unsigned int KKEEIPACPCC_TypeDefinitionIndex = 57098;
 
 	class KKEEIPACPCC
 	{

@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Material; }
 
-#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_NACHGOICNOM_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A1A10)
+#define RPG_CLIENT_A4SKYDOMEEFFECTCONTROLBEHAVIOR_NACHGOICNOM_CTOR_OFFSET UNITYSDK_OFFSET(0xCCDBC60)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_NACHGOICNOM_TypeDefinitionIndex = 70873;
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_NACHGOICNOM_TypeDefinitionIndex = 72852;
 
 	class A4SkyDomeEffectControlBehavior_NACHGOICNOM : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 namespace RPG::GameCore { class TargetEvaluator; }
 namespace System { class String; }
 
-inline static constexpr unsigned int LOKABAGIKFG_TypeDefinitionIndex = 56471;
+inline static constexpr unsigned int LOKABAGIKFG_TypeDefinitionIndex = 57691;
 
 	struct alignas(8) LOKABAGIKFG
 	{

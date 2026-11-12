@@ -4,18 +4,18 @@
 class OIIDOJCEEDN;
 namespace System { class Object; }
 
-#define OIIDOJCEEDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DE6FBE0)
-#define OIIDOJCEEDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE6FC20)
-#define OIIDOJCEEDN___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1DE6FC30)
+#define OIIDOJCEEDN___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F117BC0)
+#define OIIDOJCEEDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F117C00)
+#define OIIDOJCEEDN___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1F117C10)
 
-inline static constexpr unsigned int OIIDOJCEEDN___c_TypeDefinitionIndex = 27537;
+inline static constexpr unsigned int OIIDOJCEEDN___c_TypeDefinitionIndex = 28068;
 
 	class OIIDOJCEEDN___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x1C690);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x172D0);
 		}
 
 		static ::System::Void _cctor()

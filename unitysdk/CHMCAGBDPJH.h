@@ -7,11 +7,12 @@ class HIOAMIPNLIN;
 class NCJILFFNINI;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
+namespace RPG::GameCore { class TaskContext; }
 namespace System { class String; }
 
-#define CHMCAGBDPJH_CCTOR_OFFSET UNITYSDK_OFFSET(0xCF5FA70)
+#define CHMCAGBDPJH_CCTOR_OFFSET UNITYSDK_OFFSET(0xD8C7DE0)
 
-inline static constexpr unsigned int CHMCAGBDPJH_TypeDefinitionIndex = 57728;
+inline static constexpr unsigned int CHMCAGBDPJH_TypeDefinitionIndex = 58961;
 
 	struct alignas(8) CHMCAGBDPJH
 	{
@@ -40,15 +41,16 @@ inline static constexpr unsigned int CHMCAGBDPJH_TypeDefinitionIndex = 57728;
 		::RPG::GameCore::GameEntity* AAEBCMJLHMA; // 0x38
 		::HIOAMIPNLIN* NGBAPOEDIOJ; // 0x40
 		::RPG::GameCore::GameEntity* EJCOCNJPBEF; // 0x48
-		::NCJILFFNINI* GNHAPABLMDF; // 0x50
-		::RPG::GameCore::JsonEnum* NHALJPDONCP; // 0x58
-		::System::Boolean CFBPHCJAFPG; // 0x60
-		::System::Boolean HNGEDNBEDKB; // 0x61
+		::RPG::GameCore::TaskContext* GPKCGOLOJKC; // 0x50
+		::NCJILFFNINI* GNHAPABLMDF; // 0x58
+		::RPG::GameCore::JsonEnum* NHALJPDONCP; // 0x60
+		::System::Boolean CFBPHCJAFPG; // 0x68
+		::System::Boolean HNGEDNBEDKB; // 0x69
 		::System::Byte _padding3[0x6];
-		::JDMNPLMAKGE BDAFAHKLKAC; // 0x68
+		::JDMNPLMAKGE BDAFAHKLKAC; // 0x70
 		static ::CHMCAGBDPJH* StaticGet_HGLIFJGHADE()
 		{
-			return (::CHMCAGBDPJH*)UnitySDK::FromName("", "CHMCAGBDPJH")->GetStaticField(0x56BD0);
+			return (::CHMCAGBDPJH*)UnitySDK::FromName("", "CHMCAGBDPJH")->GetStaticField(0x418A0);
 		}
 
 		static ::System::Void _cctor()

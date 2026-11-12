@@ -6,19 +6,19 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudCardAreaViewModel
 namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewModel; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCEBF290)
-#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS30_0___RAISEADDCARDANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xCEC43E0)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD887B80)
+#define RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS30_0___RAISEADDCARDANIMATION_B__0_OFFSET UNITYSDK_OFFSET(0xD88CDC0)
 
 namespace RPG::Client::FateRin::Battle
 {
-	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel___c__DisplayClass30_0_TypeDefinitionIndex = 80894;
+	inline static constexpr unsigned int FateRinBattleHudCardAreaViewModel___c__DisplayClass30_0_TypeDefinitionIndex = 83674;
 
 	class FateRinBattleHudCardAreaViewModel___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::FateRin::Battle::FateRinBattleHudCardAreaViewModel* __4__this; // 0x10
-		::RPG::Client::FateRin::Battle::FateRinBattleHudCardAreaViewModel_CardAnimationEntry* entry; // 0x18
-		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>* affectedHandCardVMs; // 0x20
+		::RPG::Client::FateRin::Battle::FateRinBattleHudCardAreaViewModel_CardAnimationEntry* entry; // 0x10
+		::System::Collections::Generic::IReadOnlyList_1<::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel*>* affectedHandCardVMs; // 0x18
+		::RPG::Client::FateRin::Battle::FateRinBattleHudCardAreaViewModel* __4__this; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_FATERIN_BATTLE_FATERINBATTLEHUDCARDAREAVIEWMODEL___C__DISPLAYCLASS30_0_CTOR_OFFSET))(this);

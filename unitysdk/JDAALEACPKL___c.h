@@ -4,18 +4,18 @@
 class JDAALEACPKL;
 namespace System { class Object; }
 
-#define JDAALEACPKL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E706510)
-#define JDAALEACPKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E706550)
-#define JDAALEACPKL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E706560)
+#define JDAALEACPKL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA13D30)
+#define JDAALEACPKL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA13D70)
+#define JDAALEACPKL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FA13D80)
 
-inline static constexpr unsigned int JDAALEACPKL___c_TypeDefinitionIndex = 30838;
+inline static constexpr unsigned int JDAALEACPKL___c_TypeDefinitionIndex = 31751;
 
 	class JDAALEACPKL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DA40);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5D920);
 		}
 
 		static ::System::Void _cctor()

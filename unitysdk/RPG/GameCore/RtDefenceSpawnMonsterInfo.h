@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RtDefenceSpawnMonsterInfo; }
 
-#define RPG_GAMECORE_RTDEFENCESPAWNMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA5B8C0)
-#define RPG_GAMECORE_RTDEFENCESPAWNMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA5B630)
+#define RPG_GAMECORE_RTDEFENCESPAWNMONSTERINFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC6DEB0)
+#define RPG_GAMECORE_RTDEFENCESPAWNMONSTERINFO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC6DC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RtDefenceSpawnMonsterInfo_TypeDefinitionIndex = 18066;
+	inline static constexpr unsigned int RtDefenceSpawnMonsterInfo_TypeDefinitionIndex = 18232;
 
 	class RtDefenceSpawnMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{

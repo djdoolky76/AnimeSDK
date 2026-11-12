@@ -9,22 +9,22 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Object; }
 
-#define BNFHFJMLEMO_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xBDCB5E0)
-#define BNFHFJMLEMO_CCLOABELDPG_OFFSET UNITYSDK_OFFSET(0xBDCB1D0)
-#define BNFHFJMLEMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBDCC3A0)
-#define BNFHFJMLEMO_FINOLDPFEOO_OFFSET UNITYSDK_OFFSET(0xBDCB470)
-#define BNFHFJMLEMO_IDPFIMKAMDN_OFFSET UNITYSDK_OFFSET(0xBDCBD60)
-#define BNFHFJMLEMO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBDCBF10)
-#define BNFHFJMLEMO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBDCB980)
+#define BNFHFJMLEMO_ABKBOGIGAEH_OFFSET UNITYSDK_OFFSET(0xC749DE0)
+#define BNFHFJMLEMO_CCLOABELDPG_OFFSET UNITYSDK_OFFSET(0xC7499D0)
+#define BNFHFJMLEMO_CTOR_OFFSET UNITYSDK_OFFSET(0xC74ABC0)
+#define BNFHFJMLEMO_FINOLDPFEOO_OFFSET UNITYSDK_OFFSET(0xC749C70)
+#define BNFHFJMLEMO_IDPFIMKAMDN_OFFSET UNITYSDK_OFFSET(0xC74A560)
+#define BNFHFJMLEMO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC74A710)
+#define BNFHFJMLEMO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xC74A180)
 
-inline static constexpr unsigned int BNFHFJMLEMO_TypeDefinitionIndex = 49265;
+inline static constexpr unsigned int BNFHFJMLEMO_TypeDefinitionIndex = 50341;
 
 	class BNFHFJMLEMO : public ::System::Object
 	{
 	public:
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* HMKHIAFJIOM; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* JHCNCBIIPGF; // 0x18
-		::System::Collections::Generic::List_1<::System::String*>* LCILLAHPLGC; // 0x20
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* JHCNCBIIPGF; // 0x10
+		::System::Collections::Generic::List_1<::System::String*>* LCILLAHPLGC; // 0x18
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* HMKHIAFJIOM; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BNFHFJMLEMO_CTOR_OFFSET))(this);

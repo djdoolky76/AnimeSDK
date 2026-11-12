@@ -4,18 +4,18 @@
 class BHPBJOMBCAD;
 namespace System { class Object; }
 
-#define BHPBJOMBCAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDFE330)
-#define BHPBJOMBCAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDFE360)
-#define BHPBJOMBCAD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DDFE370)
+#define BHPBJOMBCAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F00C970)
+#define BHPBJOMBCAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F00C9A0)
+#define BHPBJOMBCAD___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1F00C9B0)
 
-inline static constexpr unsigned int BHPBJOMBCAD___c_TypeDefinitionIndex = 33444;
+inline static constexpr unsigned int BHPBJOMBCAD___c_TypeDefinitionIndex = 34359;
 
 	class BHPBJOMBCAD___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x479C0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x497A0);
 		}
 
 		static ::System::Void _cctor()

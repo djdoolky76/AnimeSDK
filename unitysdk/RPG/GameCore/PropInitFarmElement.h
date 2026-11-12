@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicString; }
 namespace RPG::GameCore { class PropInitFarmElement; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_PROPINITFARMELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1D94DA60)
-#define RPG_GAMECORE_PROPINITFARMELEMENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D94DA70)
-#define RPG_GAMECORE_PROPINITFARMELEMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D94DA30)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB66C20)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1EB66C30)
+#define RPG_GAMECORE_PROPINITFARMELEMENT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB66BF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PropInitFarmElement_TypeDefinitionIndex = 22090;
+	inline static constexpr unsigned int PropInitFarmElement_TypeDefinitionIndex = 22495;
 
 	class PropInitFarmElement : public ::RPG::GameCore::TaskConfig
 	{

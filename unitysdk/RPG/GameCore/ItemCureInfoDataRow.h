@@ -6,22 +6,21 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class ItemCureInfoDataRow; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_ITEMCUREINFODATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D795DD0)
-#define RPG_GAMECORE_ITEMCUREINFODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D795650)
+#define RPG_GAMECORE_ITEMCUREINFODATAROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D9280)
+#define RPG_GAMECORE_ITEMCUREINFODATAROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E9D8FE0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ItemCureInfoDataRow_TypeDefinitionIndex = 13879;
+	inline static constexpr unsigned int ItemCureInfoDataRow_TypeDefinitionIndex = 14036;
 
 	class ItemCureInfoDataRow : public ::System::Object
 	{
 	public:
 		::System::String* ImgPath; // 0x10
 		::RPG::Client::TextID CureInfoTitle; // 0x18
-		::System::UInt32 ID; // 0x28
-		::System::Boolean SyncServerOnUse; // 0x2C
-		::System::Byte _padding0[0x3];
-		::RPG::Client::TextID CureInfoDesc; // 0x30
+		::RPG::Client::TextID CureInfoDesc; // 0x28
+		::System::UInt32 ID; // 0x38
+		::System::UInt32 PageID; // 0x3C
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_ITEMCUREINFODATAROW_CTOR_OFFSET))(this);

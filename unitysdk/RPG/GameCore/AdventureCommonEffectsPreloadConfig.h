@@ -6,12 +6,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class AdventureCommonEffectsPreloadConfig; }
 namespace RPG::GameCore { class PreloadItem; }
 
-#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D3C7850)
-#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3C7730)
+#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5D69B0)
+#define RPG_GAMECORE_ADVENTURECOMMONEFFECTSPRELOADCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E5D6890)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int AdventureCommonEffectsPreloadConfig_TypeDefinitionIndex = 16368;
+	inline static constexpr unsigned int AdventureCommonEffectsPreloadConfig_TypeDefinitionIndex = 16532;
 
 	class AdventureCommonEffectsPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{

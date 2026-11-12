@@ -7,12 +7,12 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xC6B2AF0)
-#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_GKIHABEHHHE_OFFSET UNITYSDK_OFFSET(0xC6B2A20)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xD00E4B0)
+#define RPG_CLIENT_AUDIENCEMOODMAPCONFIG_MOODDATA_GKIHABEHHHE_OFFSET UNITYSDK_OFFSET(0xD00E3E0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AudienceMoodMapConfig_MoodData_TypeDefinitionIndex = 69155;
+	inline static constexpr unsigned int AudienceMoodMapConfig_MoodData_TypeDefinitionIndex = 71108;
 
 	class AudienceMoodMapConfig_MoodData : public ::System::Object
 	{

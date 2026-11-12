@@ -3,7 +3,7 @@
 #include "unitysdk/RPG/GameCore/WeaknessStackOperationType.h"
 namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 
-inline static constexpr unsigned int HPLDJOLCDOE_TypeDefinitionIndex = 55828;
+inline static constexpr unsigned int HPLDJOLCDOE_TypeDefinitionIndex = 57031;
 
 	struct alignas(8) HPLDJOLCDOE
 	{

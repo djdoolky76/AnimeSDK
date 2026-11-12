@@ -10,47 +10,47 @@ namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Concurrent { template <typename T1, typename T2> class ConcurrentDictionary_2; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define MEKOPONIEBI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1D151EF0)
-#define MEKOPONIEBI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D152470)
-#define MEKOPONIEBI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1D152060)
-#define MEKOPONIEBI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1D1519E0)
-#define MEKOPONIEBI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1D151C70)
-#define MEKOPONIEBI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1D152100)
-#define MEKOPONIEBI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1D152150)
-#define MEKOPONIEBI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1D151F30)
-#define MEKOPONIEBI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1D151C10)
-#define MEKOPONIEBI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1D151DA0)
-#define MEKOPONIEBI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D151FC0)
-#define MEKOPONIEBI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D151960)
+#define MEKOPONIEBI_ANPPJFBBJFP_OFFSET UNITYSDK_OFFSET(0x1E350CC0)
+#define MEKOPONIEBI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E351240)
+#define MEKOPONIEBI_DDLFGAJGKAO_OFFSET UNITYSDK_OFFSET(0x1E350E30)
+#define MEKOPONIEBI_FCMDLFKMBMH_OFFSET UNITYSDK_OFFSET(0x1E3507B0)
+#define MEKOPONIEBI_FPHGMAMDFHE_OFFSET UNITYSDK_OFFSET(0x1E350A40)
+#define MEKOPONIEBI_ICLCFODNNAE_OFFSET UNITYSDK_OFFSET(0x1E350ED0)
+#define MEKOPONIEBI_KAAIFCHAOLA_OFFSET UNITYSDK_OFFSET(0x1E350F20)
+#define MEKOPONIEBI_KACCGMCPAFN_OFFSET UNITYSDK_OFFSET(0x1E350D00)
+#define MEKOPONIEBI_LGELIIPIDEC_OFFSET UNITYSDK_OFFSET(0x1E3509E0)
+#define MEKOPONIEBI_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0x1E350B70)
+#define MEKOPONIEBI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1E350D90)
+#define MEKOPONIEBI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1E350730)
 
-inline static constexpr unsigned int MEKOPONIEBI_TypeDefinitionIndex = 12188;
+inline static constexpr unsigned int MEKOPONIEBI_TypeDefinitionIndex = 12245;
 
 	class MEKOPONIEBI : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::FCOEMCEDLNL*>** StaticGet_MPCODIGIBGL()
 		{
-			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x49850);
+			return (::System::Action_1<::FCOEMCEDLNL*>**)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x39730);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesLandRow*>** StaticGet_EHNHPCGDOIO()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesLandRow*>**)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x49858);
+			return (::System::Collections::Generic::Dictionary_2<::RPG::GameCore::CommonIndexKey, ::RPG::GameCore::PlanetFesLandRow*>**)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x39738);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_JHPLPOEEIFE()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x49860);
-		}
-
-		static ::System::Boolean* StaticGet_AHBLLGCADBB()
-		{
-			return (::System::Boolean*)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x11400);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x39740);
 		}
 
 		static ::System::Byte* StaticGet_GDMLAIBCKIP()
 		{
-			return (::System::Byte*)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0x11401);
+			return (::System::Byte*)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0xC960);
+		}
+
+		static ::System::Boolean* StaticGet_AHBLLGCADBB()
+		{
+			return (::System::Boolean*)UnitySDK::FromName("", "MEKOPONIEBI")->GetStaticField(0xC961);
 		}
 
 		static ::System::Void _cctor()

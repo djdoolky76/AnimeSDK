@@ -5,20 +5,20 @@ namespace System { class String; }
 namespace UnityEngine::UI { class Button; }
 namespace UnityEngine::UI { class InputField; }
 
-#define GNDBFODAHFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFE9E0)
-#define GNDBFODAHFK_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15AFE860)
-#define GNDBFODAHFK_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15AFE8D0)
+#define GNDBFODAHFK_CTOR_OFFSET UNITYSDK_OFFSET(0x16A81810)
+#define GNDBFODAHFK_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x16A81690)
+#define GNDBFODAHFK_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x16A81700)
 
-inline static constexpr unsigned int GNDBFODAHFK_TypeDefinitionIndex = 72752;
+inline static constexpr unsigned int GNDBFODAHFK_TypeDefinitionIndex = 74831;
 
 	class GNDBFODAHFK : public ::LBAMBIMMJKB
 	{
 	public:
 		::UnityEngine::UI::InputField* FKJJFDBDKCM; // 0x18
-		::UnityEngine::UI::Button* CGOOOBMPHMO; // 0x20
+		::UnityEngine::UI::Button* FPNIIGOJKGG; // 0x20
 		::UnityEngine::UI::InputField* ONBBDMLMJGG; // 0x28
-		::UnityEngine::UI::Button* AGFFNONHCKO; // 0x30
-		::UnityEngine::UI::Button* FPNIIGOJKGG; // 0x38
+		::UnityEngine::UI::Button* CGOOOBMPHMO; // 0x30
+		::UnityEngine::UI::Button* AGFFNONHCKO; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GNDBFODAHFK_CTOR_OFFSET))(this);

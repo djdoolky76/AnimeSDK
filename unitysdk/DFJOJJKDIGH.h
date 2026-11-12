@@ -3,9 +3,9 @@
 #include "unitysdk/RPG/GameCore/TurnState.h"
 #include "unitysdk/System/Object.h"
 
-#define DFJOJJKDIGH_CTOR_OFFSET UNITYSDK_OFFSET(0xE830B90)
+#define DFJOJJKDIGH_CTOR_OFFSET UNITYSDK_OFFSET(0xF191730)
 
-inline static constexpr unsigned int DFJOJJKDIGH_TypeDefinitionIndex = 80598;
+inline static constexpr unsigned int DFJOJJKDIGH_TypeDefinitionIndex = 83378;
 
 	class DFJOJJKDIGH : public ::System::Object
 	{

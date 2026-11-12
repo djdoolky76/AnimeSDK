@@ -3,12 +3,12 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB3A460)
-#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__DISPLAYCLASS10_0__GETEQUIPINSTANCEBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xDB3C500)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE5921E0)
+#define RPG_CLIENT_PIXAIR_PIXAIREQUIPBAR___C__DISPLAYCLASS10_0__GETEQUIPINSTANCEBYUID_B__0_OFFSET UNITYSDK_OFFSET(0xE594280)
 
 namespace RPG::Client::PixAir
 {
-	inline static constexpr unsigned int PixAirEquipBar___c__DisplayClass10_0_TypeDefinitionIndex = 79328;
+	inline static constexpr unsigned int PixAirEquipBar___c__DisplayClass10_0_TypeDefinitionIndex = 82105;
 
 	class PixAirEquipBar___c__DisplayClass10_0 : public ::System::Object
 	{

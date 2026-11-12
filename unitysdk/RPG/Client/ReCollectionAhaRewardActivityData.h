@@ -1,0 +1,99 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AKFLCCJFKNF.h"
+#include "unitysdk/RPG/Client/ActivityPanelData.h"
+namespace RPG::Client { class ActivityReCollectionItemData; }
+namespace RPG::Client { class ActivityReCollectionModule; }
+namespace RPG::Client { class ItemData; }
+namespace RPG::Client { class QuestData; }
+namespace RPG::Client { class QuestModule; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE8BB870)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GETPREVIEWREWARDITEMLIST_OFFSET UNITYSDK_OFFSET(0xE8BBBF0)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GETREWARDSTATUS_OFFSET UNITYSDK_OFFSET(0xE8BB900)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET_ISDISPLAY_OFFSET UNITYSDK_OFFSET(0xE8BBA40)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__COLLECTIONITEMDATA_OFFSET UNITYSDK_OFFSET(0xE8BBFC0)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__MODULE_OFFSET UNITYSDK_OFFSET(0xE8BBD60)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__QUESTMODULE_OFFSET UNITYSDK_OFFSET(0xE8BC110)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__REWARDQUESTDATA_OFFSET UNITYSDK_OFFSET(0xE8BBA80)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__REWARDQUESTID_OFFSET UNITYSDK_OFFSET(0xE8BBDF0)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_ISFINISHCONDITIONSCOMPLETED_OFFSET UNITYSDK_OFFSET(0xE8BB960)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_ISGOT_OFFSET UNITYSDK_OFFSET(0xE8BB9C0)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET UNITYSDK_OFFSET(0xE8BB880)
+#define RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_SENDGETREWARD_OFFSET UNITYSDK_OFFSET(0xE8BBE70)
+
+namespace RPG::Client
+{
+	inline static constexpr unsigned int ReCollectionAhaRewardActivityData_TypeDefinitionIndex = 63057;
+
+	class ReCollectionAhaRewardActivityData : public ::RPG::Client::ActivityPanelData
+	{
+	public:
+		::System::Void _ctor(::System::UInt32 a1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_CTOR_OFFSET))(this, a1);
+		}
+
+		::System::Boolean IsShowNormalRedDot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_ISSHOWNORMALREDDOT_OFFSET))(this);
+		}
+
+		::System::Boolean IsFinishConditionsCompleted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_ISFINISHCONDITIONSCOMPLETED_OFFSET))(this);
+		}
+
+		::System::Boolean get_IsDisplay()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET_ISDISPLAY_OFFSET))(this);
+		}
+
+		::System::Boolean IsGot()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_ISGOT_OFFSET))(this);
+		}
+
+		::AKFLCCJFKNF GetRewardStatus()
+		{
+			return ((::AKFLCCJFKNF(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GETREWARDSTATUS_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::RPG::Client::ItemData*>* GetPreviewRewardItemList()
+		{
+			return ((::System::Collections::Generic::List_1<::RPG::Client::ItemData*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GETPREVIEWREWARDITEMLIST_OFFSET))(this);
+		}
+
+		::System::Void SendGetReward()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_SENDGETREWARD_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityReCollectionItemData* get__CollectionItemData()
+		{
+			return ((::RPG::Client::ActivityReCollectionItemData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__COLLECTIONITEMDATA_OFFSET))(this);
+		}
+
+		::System::UInt32 get__RewardQuestID()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__REWARDQUESTID_OFFSET))(this);
+		}
+
+		::RPG::Client::QuestData* get__RewardQuestData()
+		{
+			return ((::RPG::Client::QuestData*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__REWARDQUESTDATA_OFFSET))(this);
+		}
+
+		::RPG::Client::ActivityReCollectionModule* get__Module()
+		{
+			return ((::RPG::Client::ActivityReCollectionModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__MODULE_OFFSET))(this);
+		}
+
+		::RPG::Client::QuestModule* get__QuestModule()
+		{
+			return ((::RPG::Client::QuestModule*(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_RECOLLECTIONAHAREWARDACTIVITYDATA_GET__QUESTMODULE_OFFSET))(this);
+		}
+
+	};
+}

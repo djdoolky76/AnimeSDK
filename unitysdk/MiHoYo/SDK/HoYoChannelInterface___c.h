@@ -6,25 +6,25 @@ namespace System { class Object; }
 namespace System { class String; }
 namespace UnityEngine { class Application_LogCallback; }
 
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xAF989C0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xAF989F0)
-#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__SETUP_B__13_0_OFFSET UNITYSDK_OFFSET(0xAF98A00)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C_CCTOR_OFFSET UNITYSDK_OFFSET(0xB5F9FA0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB5F9FD0)
+#define MIHOYO_SDK_HOYOCHANNELINTERFACE___C__SETUP_B__13_0_OFFSET UNITYSDK_OFFSET(0xB5F9FE0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int HoYoChannelInterface___c_TypeDefinitionIndex = 46525;
+	inline static constexpr unsigned int HoYoChannelInterface___c_TypeDefinitionIndex = 47553;
 
 	class HoYoChannelInterface___c : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::Application_LogCallback** StaticGet___9__13_0()
 		{
-			return (::UnityEngine::Application_LogCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x20CE0);
+			return (::UnityEngine::Application_LogCallback**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C1B0);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x20CE8);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C1B8);
 		}
 
 		static ::System::Void _cctor()

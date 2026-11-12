@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace Proto { class MonopolyActionResult; }
 
-#define KLPBHOIGLJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5364C0)
-#define KLPBHOIGLJH_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB536480)
+#define KLPBHOIGLJH_CTOR_OFFSET UNITYSDK_OFFSET(0xBD815B0)
+#define KLPBHOIGLJH_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBD81570)
 
-inline static constexpr unsigned int KLPBHOIGLJH_TypeDefinitionIndex = 66242;
+inline static constexpr unsigned int KLPBHOIGLJH_TypeDefinitionIndex = 68178;
 
 	class KLPBHOIGLJH : public ::System::Object
 	{

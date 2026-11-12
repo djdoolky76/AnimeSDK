@@ -4,18 +4,18 @@
 class KHODCLCAIIP;
 namespace System { class Object; }
 
-#define KHODCLCAIIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E84DFB0)
-#define KHODCLCAIIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E84DFF0)
-#define KHODCLCAIIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E84E000)
+#define KHODCLCAIIP___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FB67930)
+#define KHODCLCAIIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FB67970)
+#define KHODCLCAIIP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FB67980)
 
-inline static constexpr unsigned int KHODCLCAIIP___c_TypeDefinitionIndex = 29816;
+inline static constexpr unsigned int KHODCLCAIIP___c_TypeDefinitionIndex = 30714;
 
 	class KHODCLCAIIP___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x17DF0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x11EE0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,12 +5,12 @@ class JCCLCIJBBJD;
 namespace UnityEngine { class Transform; }
 namespace UnityEngine::UI { class Image; }
 
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xE980DC0)
-#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xE980370)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL_CTOR_OFFSET UNITYSDK_OFFSET(0xF496410)
+#define SOFA_RUNTIME_TABHEADERIMAGEWITHSTATUSCONTROL__BINDING_OFFSET UNITYSDK_OFFSET(0xF4959C0)
 
 namespace Sofa::Runtime
 {
-	inline static constexpr unsigned int TabHeaderImageWithStatusControl_TypeDefinitionIndex = 49734;
+	inline static constexpr unsigned int TabHeaderImageWithStatusControl_TypeDefinitionIndex = 50782;
 
 	class TabHeaderImageWithStatusControl
 	{

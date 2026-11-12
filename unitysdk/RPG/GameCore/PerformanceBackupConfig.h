@@ -6,12 +6,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class PerformanceBackupConfig; }
 
-#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D8F6CA0)
-#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D8F6A10)
+#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB101D0)
+#define RPG_GAMECORE_PERFORMANCEBACKUPCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EB0FFC0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PerformanceBackupConfig_TypeDefinitionIndex = 19034;
+	inline static constexpr unsigned int PerformanceBackupConfig_TypeDefinitionIndex = 19221;
 
 	class PerformanceBackupConfig : public ::RPG::GameCore::JsonConfig
 	{

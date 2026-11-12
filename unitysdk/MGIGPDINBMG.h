@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValueByEvolveBuild; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define MGIGPDINBMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB9202F0)
-#define MGIGPDINBMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9203D0)
+#define MGIGPDINBMG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1D3B40)
+#define MGIGPDINBMG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC1D3C20)
 
-inline static constexpr unsigned int MGIGPDINBMG_TypeDefinitionIndex = 55432;
+inline static constexpr unsigned int MGIGPDINBMG_TypeDefinitionIndex = 56618;
 
 	class MGIGPDINBMG
 	{

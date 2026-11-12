@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
-#define OICJECAKIJG_CTOR_OFFSET UNITYSDK_OFFSET(0xBE76A80)
+#define OICJECAKIJG_CTOR_OFFSET UNITYSDK_OFFSET(0xC7319D0)
 
-inline static constexpr unsigned int OICJECAKIJG_TypeDefinitionIndex = 63747;
+inline static constexpr unsigned int OICJECAKIJG_TypeDefinitionIndex = 65189;
 
 	class OICJECAKIJG : public ::System::Object
 	{

@@ -4,7 +4,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AutoBindEventHandlerCreator_1_TypeDefinitionIndex = 73157;
+	inline static constexpr unsigned int AutoBindEventHandlerCreator_1_TypeDefinitionIndex = 75271;
 
 	template <typename T>
 	class AutoBindEventHandlerCreator_1 : public ::System::Object

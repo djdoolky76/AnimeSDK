@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SwitchOverrideController; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define ACHECNHECLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB120130)
-#define ACHECNHECLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB120160)
+#define ACHECNHECLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB786300)
+#define ACHECNHECLG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB786330)
 
-inline static constexpr unsigned int ACHECNHECLG_TypeDefinitionIndex = 55689;
+inline static constexpr unsigned int ACHECNHECLG_TypeDefinitionIndex = 56891;
 
 	class ACHECNHECLG
 	{

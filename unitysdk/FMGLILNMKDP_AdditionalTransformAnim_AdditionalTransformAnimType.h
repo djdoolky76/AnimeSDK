@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FMGLILNMKDP_AdditionalTransformAnim_AdditionalTransformAnimType_TypeDefinitionIndex = 70335;
+inline static constexpr unsigned int FMGLILNMKDP_AdditionalTransformAnim_AdditionalTransformAnimType_TypeDefinitionIndex = 72301;
 
 	enum class FMGLILNMKDP_AdditionalTransformAnim_AdditionalTransformAnimType : ::System::Int32
 	{

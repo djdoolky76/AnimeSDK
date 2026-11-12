@@ -4,9 +4,9 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class CakeRaceRegionCellConfig; }
 
-#define DHNPDHKLIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5F12E0)
+#define DHNPDHKLIAN_CTOR_OFFSET UNITYSDK_OFFSET(0x1D772A20)
 
-inline static constexpr unsigned int DHNPDHKLIAN_TypeDefinitionIndex = 36829;
+inline static constexpr unsigned int DHNPDHKLIAN_TypeDefinitionIndex = 37757;
 
 	class DHNPDHKLIAN : public ::System::Object
 	{

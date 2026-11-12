@@ -9,20 +9,20 @@ namespace RPG::GameCore { class PredicateConfig; }
 namespace RPG::GameCore { class TaskConfig; }
 namespace System { class String; }
 
-#define GOCLJECCFAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE71790)
-#define GOCLJECCFAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE717A0)
-#define GOCLJECCFAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE71760)
+#define GOCLJECCFAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1E04C6E0)
+#define GOCLJECCFAK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1E04C6F0)
+#define GOCLJECCFAK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E04C6B0)
 
-inline static constexpr unsigned int GOCLJECCFAK_TypeDefinitionIndex = 23609;
+inline static constexpr unsigned int GOCLJECCFAK_TypeDefinitionIndex = 24056;
 
 	class GOCLJECCFAK : public ::RPG::GameCore::TaskConfig
 	{
 	public:
-		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GEKIGCNCNBH; // 0x18
+		::RPG::GameCore::PredicateConfig* EKIJFPIPCKF; // 0x18
 		::Il2CppArray<::RPG::GameCore::SkillType>* DCMBIGIDAHM; // 0x20
-		::Il2CppArray<::RPG::GameCore::ControlSkillType>* BFKINNEPCKC; // 0x28
-		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x30
-		::RPG::GameCore::PredicateConfig* EKIJFPIPCKF; // 0x38
+		::Il2CppArray<::System::String*>* COIKNMHIEPK; // 0x28
+		::Il2CppArray<::RPG::GameCore::ControlSkillType>* BFKINNEPCKC; // 0x30
+		::Il2CppArray<::RPG::GameCore::TaskConfig*>* GEKIGCNCNBH; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GOCLJECCFAK_CTOR_OFFSET))(this);

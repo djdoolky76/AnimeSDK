@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int INCFAFNOAPM_TypeDefinitionIndex = 30914;
+inline static constexpr unsigned int INCFAFNOAPM_TypeDefinitionIndex = 31827;
 
 	enum class INCFAFNOAPM : ::System::Int32
 	{

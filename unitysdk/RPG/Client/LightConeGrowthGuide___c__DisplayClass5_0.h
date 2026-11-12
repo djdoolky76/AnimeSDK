@@ -4,12 +4,12 @@
 namespace RPG::Client { class LightConeRecommendData; }
 namespace System { template <typename T> class Action_1; }
 
-#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD395870)
-#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C__DISPLAYCLASS5_0__REQUESTRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xD3958F0)
+#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDDCB810)
+#define RPG_CLIENT_LIGHTCONEGROWTHGUIDE___C__DISPLAYCLASS5_0__REQUESTRECOMMENDDATA_B__0_OFFSET UNITYSDK_OFFSET(0xDDCB890)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int LightConeGrowthGuide___c__DisplayClass5_0_TypeDefinitionIndex = 65552;
+	inline static constexpr unsigned int LightConeGrowthGuide___c__DisplayClass5_0_TypeDefinitionIndex = 67468;
 
 	class LightConeGrowthGuide___c__DisplayClass5_0 : public ::System::Object
 	{

@@ -4,10 +4,10 @@
 namespace RPG::GameCore { class SetDynamicValue; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define GAIJNANMMHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1593C710)
-#define GAIJNANMMHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1593C740)
+#define GAIJNANMMHK_CTOR_OFFSET UNITYSDK_OFFSET(0x16870810)
+#define GAIJNANMMHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16870840)
 
-inline static constexpr unsigned int GAIJNANMMHK_TypeDefinitionIndex = 55484;
+inline static constexpr unsigned int GAIJNANMMHK_TypeDefinitionIndex = 56672;
 
 	class GAIJNANMMHK
 	{

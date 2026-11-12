@@ -4,17 +4,17 @@
 #include "unitysdk/System/Object.h"
 #include "unitysdk/UnityEngine/Vector2.h"
 
-#define JNDMKKMMBPH_CTOR_OFFSET UNITYSDK_OFFSET(0xB27B7A0)
+#define JNDMKKMMBPH_CTOR_OFFSET UNITYSDK_OFFSET(0xBAA59D0)
 
-inline static constexpr unsigned int JNDMKKMMBPH_TypeDefinitionIndex = 60426;
+inline static constexpr unsigned int JNDMKKMMBPH_TypeDefinitionIndex = 61716;
 
 	class JNDMKKMMBPH : public ::System::Object
 	{
 	public:
-		::UnityEngine::Vector2 HHGPIAFJNDL; // 0x10
+		::System::Single EJEHJHNJJBK; // 0x10
+		::RPG::Client::SealState MEPFOEEGBEA; // 0x14
 		::UnityEngine::Vector2 KLPCBAHLDBA; // 0x18
-		::RPG::Client::SealState MEPFOEEGBEA; // 0x20
-		::System::Single EJEHJHNJJBK; // 0x24
+		::UnityEngine::Vector2 HHGPIAFJNDL; // 0x20
 		::UnityEngine::Vector2 BBFOLEOPPPL; // 0x28
 		::System::Void _ctor()
 		{

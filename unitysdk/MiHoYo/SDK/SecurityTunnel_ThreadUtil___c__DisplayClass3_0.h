@@ -4,13 +4,13 @@
 namespace System { class Object; }
 namespace System::Threading { class WaitCallback; }
 
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB04DB00)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_0__ENQUEUE_B__0_OFFSET UNITYSDK_OFFSET(0xB04E530)
-#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_0__ENQUEUE_B__1_OFFSET UNITYSDK_OFFSET(0xB04E550)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6AE880)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_0__ENQUEUE_B__0_OFFSET UNITYSDK_OFFSET(0xB6AF2B0)
+#define MIHOYO_SDK_SECURITYTUNNEL_THREADUTIL___C__DISPLAYCLASS3_0__ENQUEUE_B__1_OFFSET UNITYSDK_OFFSET(0xB6AF2D0)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c__DisplayClass3_0_TypeDefinitionIndex = 46413;
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil___c__DisplayClass3_0_TypeDefinitionIndex = 47441;
 
 	class SecurityTunnel_ThreadUtil___c__DisplayClass3_0 : public ::System::Object
 	{

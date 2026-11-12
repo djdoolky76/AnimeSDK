@@ -4,18 +4,18 @@
 class INHMDFDBGCL;
 namespace System { class Object; }
 
-#define INHMDFDBGCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E6C3360)
-#define INHMDFDBGCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C33A0)
-#define INHMDFDBGCL___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E6C33B0)
+#define INHMDFDBGCL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F9CB750)
+#define INHMDFDBGCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F9CB790)
+#define INHMDFDBGCL___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1F9CB7A0)
 
-inline static constexpr unsigned int INHMDFDBGCL___c_TypeDefinitionIndex = 25109;
+inline static constexpr unsigned int INHMDFDBGCL___c_TypeDefinitionIndex = 25587;
 
 	class INHMDFDBGCL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x58620);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x56CE0);
 		}
 
 		static ::System::Void _cctor()

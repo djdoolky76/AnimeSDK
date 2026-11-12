@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetCharacterMaterialEffectEnable; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define JBMDBOLKEPM_CTOR_OFFSET UNITYSDK_OFFSET(0x165740C0)
-#define JBMDBOLKEPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165740F0)
+#define JBMDBOLKEPM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AD030)
+#define JBMDBOLKEPM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8AD060)
 
-inline static constexpr unsigned int JBMDBOLKEPM_TypeDefinitionIndex = 53222;
+inline static constexpr unsigned int JBMDBOLKEPM_TypeDefinitionIndex = 54384;
 
 	class JBMDBOLKEPM
 	{

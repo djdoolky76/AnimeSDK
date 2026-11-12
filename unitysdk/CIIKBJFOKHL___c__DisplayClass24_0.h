@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class ALMFLCJCHKP;
 
-#define CIIKBJFOKHL___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF871D0)
-#define CIIKBJFOKHL___C__DISPLAYCLASS24_0___GETCANDIDATESBYTEAMTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xCF8B120)
+#define CIIKBJFOKHL___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD8F67A0)
+#define CIIKBJFOKHL___C__DISPLAYCLASS24_0___GETCANDIDATESBYTEAMTYPE_B__0_OFFSET UNITYSDK_OFFSET(0xD8FA740)
 
-inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass24_0_TypeDefinitionIndex = 77875;
+inline static constexpr unsigned int CIIKBJFOKHL___c__DisplayClass24_0_TypeDefinitionIndex = 80610;
 
 	class CIIKBJFOKHL___c__DisplayClass24_0 : public ::System::Object
 	{

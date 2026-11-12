@@ -4,12 +4,12 @@
 namespace RPGTools::Timeline { class ArchiveAsset; }
 namespace System { class String; }
 
-#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_ABNMKAPKMGF_OFFSET UNITYSDK_OFFSET(0xE8B0C00)
-#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xE8B0D00)
+#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_ABNMKAPKMGF_OFFSET UNITYSDK_OFFSET(0xF38AB00)
+#define RPGTOOLS_TIMELINE_ARCHIVELEVELBLOCK_CTOR_OFFSET UNITYSDK_OFFSET(0xF38AC00)
 
 namespace RPGTools::Timeline
 {
-	inline static constexpr unsigned int ArchiveLevelBlock_TypeDefinitionIndex = 48504;
+	inline static constexpr unsigned int ArchiveLevelBlock_TypeDefinitionIndex = 49545;
 
 	class ArchiveLevelBlock : public ::RPGTools::Timeline::ArchiveAsset
 	{

@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class AvatarIntensityEffect; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define NDDHCFFNJIH_CTOR_OFFSET UNITYSDK_OFFSET(0xBB20CF0)
-#define NDDHCFFNJIH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB21660)
-#define NDDHCFFNJIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB20D00)
-#define NDDHCFFNJIH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB215B0)
-#define NDDHCFFNJIH_TICK_OFFSET UNITYSDK_OFFSET(0xBB21600)
+#define NDDHCFFNJIH_CTOR_OFFSET UNITYSDK_OFFSET(0xC3A9D40)
+#define NDDHCFFNJIH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC3AA6B0)
+#define NDDHCFFNJIH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC3A9D50)
+#define NDDHCFFNJIH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC3AA600)
+#define NDDHCFFNJIH_TICK_OFFSET UNITYSDK_OFFSET(0xC3AA650)
 
-inline static constexpr unsigned int NDDHCFFNJIH_TypeDefinitionIndex = 56346;
+inline static constexpr unsigned int NDDHCFFNJIH_TypeDefinitionIndex = 57560;
 
 	class NDDHCFFNJIH : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::AvatarIntensityEffect* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::AvatarIntensityEffect* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::AvatarIntensityEffect* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::AvatarIntensityEffect*))((::PBYTE)hIl2Cpp + NDDHCFFNJIH_CTOR_OFFSET))(this, a1, a2);

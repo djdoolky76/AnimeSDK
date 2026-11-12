@@ -5,14 +5,14 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int PckPatchPlatform___O_TypeDefinitionIndex = 16393;
+	inline static constexpr unsigned int PckPatchPlatform___O_TypeDefinitionIndex = 16557;
 
 	class PckPatchPlatform___O : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet__0___FromJson()
 		{
-			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x44A60);
+			return (::System::Object**)UnitySDK::FromName("RPG.GameCore", "<>O")->GetStaticField(0x534B0);
 		}
 
 	};

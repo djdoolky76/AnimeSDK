@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class RoguePersonaGuideDrawConfig; }
 
-#define RPG_GAMECORE_ROGUEPERSONAGUIDEDRAWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA2BA20)
-#define RPG_GAMECORE_ROGUEPERSONAGUIDEDRAWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA2B9E0)
+#define RPG_GAMECORE_ROGUEPERSONAGUIDEDRAWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3DC60)
+#define RPG_GAMECORE_ROGUEPERSONAGUIDEDRAWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EC3DC20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int RoguePersonaGuideDrawConfig_TypeDefinitionIndex = 17857;
+	inline static constexpr unsigned int RoguePersonaGuideDrawConfig_TypeDefinitionIndex = 18026;
 
 	class RoguePersonaGuideDrawConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -9,11 +9,11 @@ namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define PHKKDKMNPFA_BDDDKINALPG_OFFSET UNITYSDK_OFFSET(0xC253E70)
-#define PHKKDKMNPFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2540F0)
-#define PHKKDKMNPFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC253DD0)
+#define PHKKDKMNPFA_BDDDKINALPG_OFFSET UNITYSDK_OFFSET(0xCB792A0)
+#define PHKKDKMNPFA_CTOR_OFFSET UNITYSDK_OFFSET(0xCB79520)
+#define PHKKDKMNPFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCB79200)
 
-inline static constexpr unsigned int PHKKDKMNPFA_TypeDefinitionIndex = 77331;
+inline static constexpr unsigned int PHKKDKMNPFA_TypeDefinitionIndex = 79665;
 
 	class PHKKDKMNPFA : public ::System::Object
 	{

@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class StageRegionLayerConfig; }
 
-#define RPG_GAMECORE_STAGEREGIONLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB13F40)
-#define RPG_GAMECORE_STAGEREGIONLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB13F00)
+#define RPG_GAMECORE_STAGEREGIONLAYERCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED26030)
+#define RPG_GAMECORE_STAGEREGIONLAYERCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED25FF0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StageRegionLayerConfig_TypeDefinitionIndex = 19195;
+	inline static constexpr unsigned int StageRegionLayerConfig_TypeDefinitionIndex = 19385;
 
 	class StageRegionLayerConfig : public ::RPG::GameCore::JsonConfig
 	{

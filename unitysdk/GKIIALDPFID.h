@@ -5,21 +5,22 @@
 #include "unitysdk/RPG/GameCore/LogSamplerType.h"
 namespace System { class String; }
 
-#define GKIIALDPFID_CTOR_OFFSET UNITYSDK_OFFSET(0x15A98B70)
-#define GKIIALDPFID_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x15A989A0)
-#define GKIIALDPFID_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x15A989E0)
-#define GKIIALDPFID_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15A986D0)
-#define GKIIALDPFID_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15A986E0)
+#define GKIIALDPFID_CTOR_OFFSET UNITYSDK_OFFSET(0x169D5A50)
+#define GKIIALDPFID_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0x169D5880)
+#define GKIIALDPFID_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x169D58C0)
+#define GKIIALDPFID_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x169D55B0)
+#define GKIIALDPFID_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x169D55C0)
 
-inline static constexpr unsigned int GKIIALDPFID_TypeDefinitionIndex = 56151;
+inline static constexpr unsigned int GKIIALDPFID_TypeDefinitionIndex = 57363;
 
 	class GKIIALDPFID : public ::DBGDNLLDPFI
 	{
 	public:
 		::System::String* MFIEDDGBIPH; // 0x10
-		::RPG::GameCore::FixPoint KHBBNDBJAFK; // 0x18
+		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x18
+		::System::Byte _padding0[0x4];
 		::RPG::GameCore::FixPoint FOBILLOEFJK; // 0x20
-		::RPG::GameCore::LogSamplerType _Type_k__BackingField; // 0x28
+		::RPG::GameCore::FixPoint KHBBNDBJAFK; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + GKIIALDPFID_CTOR_OFFSET))(this);

@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client::NavMap { class IMapDataSource; }
 
-#define PLEODCMINJF___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2FEF40)
-#define PLEODCMINJF___C__DISPLAYCLASS22_0___CHECKSUBMISSIONCONDITIONS_B__0_OFFSET UNITYSDK_OFFSET(0xC301B80)
+#define PLEODCMINJF___C__DISPLAYCLASS22_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCC2DE10)
+#define PLEODCMINJF___C__DISPLAYCLASS22_0___CHECKSUBMISSIONCONDITIONS_B__0_OFFSET UNITYSDK_OFFSET(0xCC30A50)
 
-inline static constexpr unsigned int PLEODCMINJF___c__DisplayClass22_0_TypeDefinitionIndex = 62202;
+inline static constexpr unsigned int PLEODCMINJF___c__DisplayClass22_0_TypeDefinitionIndex = 63615;
 
 	class PLEODCMINJF___c__DisplayClass22_0 : public ::System::Object
 	{

@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Color.h"
 
-#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0xF8FC0)
+#define RPGTOOLS_TIMELINE_POSTPROCESSING_POLAROIDPARAMETER_CTOR_OFFSET UNITYSDK_OFFSET(0x105F70)
 
 namespace RPGTools::Timeline::PostProcessing
 {
-	inline static constexpr unsigned int PolaroidParameter_TypeDefinitionIndex = 48593;
+	inline static constexpr unsigned int PolaroidParameter_TypeDefinitionIndex = 49634;
 
 	struct alignas(4) PolaroidParameter
 	{

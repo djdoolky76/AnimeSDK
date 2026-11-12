@@ -4,7 +4,7 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
-	inline static constexpr unsigned int PluginUIConstants_ProtocolElements_TypeDefinitionIndex = 9182;
+	inline static constexpr unsigned int PluginUIConstants_ProtocolElements_TypeDefinitionIndex = 9191;
 
 	class PluginUIConstants_ProtocolElements : public ::System::Object
 	{

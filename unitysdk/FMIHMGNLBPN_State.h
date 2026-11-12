@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int FMIHMGNLBPN_State_TypeDefinitionIndex = 66509;
+inline static constexpr unsigned int FMIHMGNLBPN_State_TypeDefinitionIndex = 68445;
 
 	enum class FMIHMGNLBPN_State : ::System::Int32
 	{

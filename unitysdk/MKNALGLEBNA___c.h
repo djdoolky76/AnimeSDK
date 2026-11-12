@@ -4,18 +4,18 @@
 class MKNALGLEBNA;
 namespace System { class Object; }
 
-#define MKNALGLEBNA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EA5BFA0)
-#define MKNALGLEBNA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA5BFE0)
-#define MKNALGLEBNA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA5BFF0)
+#define MKNALGLEBNA___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FDAE790)
+#define MKNALGLEBNA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FDAE7D0)
+#define MKNALGLEBNA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1FDAE7E0)
 
-inline static constexpr unsigned int MKNALGLEBNA___c_TypeDefinitionIndex = 33019;
+inline static constexpr unsigned int MKNALGLEBNA___c_TypeDefinitionIndex = 33934;
 
 	class MKNALGLEBNA___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x57390);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5C1B0);
 		}
 
 		static ::System::Void _cctor()

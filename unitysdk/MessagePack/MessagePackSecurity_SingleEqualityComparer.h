@@ -2,20 +2,20 @@
 #include "unitysdk/unitysdk.h"
 namespace MessagePack { class MessagePackSecurity_SingleEqualityComparer; }
 
-#define MESSAGEPACK_MESSAGEPACKSECURITY_SINGLEEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BBC27C0)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_SINGLEEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1BBC2760)
-#define MESSAGEPACK_MESSAGEPACKSECURITY_SINGLEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1BBC26F0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_SINGLEEQUALITYCOMPARER_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CD4B640)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_SINGLEEQUALITYCOMPARER_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD4B5E0)
+#define MESSAGEPACK_MESSAGEPACKSECURITY_SINGLEEQUALITYCOMPARER_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1CD4B570)
 
 namespace MessagePack
 {
-	inline static constexpr unsigned int MessagePackSecurity_SingleEqualityComparer_TypeDefinitionIndex = 7206;
+	inline static constexpr unsigned int MessagePackSecurity_SingleEqualityComparer_TypeDefinitionIndex = 7217;
 
 	class MessagePackSecurity_SingleEqualityComparer
 	{
 	public:
 		static ::MessagePack::MessagePackSecurity_SingleEqualityComparer** StaticGet_Instance()
 		{
-			return (::MessagePack::MessagePackSecurity_SingleEqualityComparer**)UnitySDK::FromName("MessagePack", "SingleEqualityComparer")->GetStaticField(0x2C3E0);
+			return (::MessagePack::MessagePackSecurity_SingleEqualityComparer**)UnitySDK::FromName("MessagePack", "SingleEqualityComparer")->GetStaticField(0x4E740);
 		}
 
 		::System::Void _ctor()

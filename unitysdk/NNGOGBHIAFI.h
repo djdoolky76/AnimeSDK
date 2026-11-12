@@ -23,74 +23,73 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
-#define NNGOGBHIAFI_AMHAHFHBLMN_OFFSET UNITYSDK_OFFSET(0x1C79DFC0)
-#define NNGOGBHIAFI_BANPECPLFKI_OFFSET UNITYSDK_OFFSET(0x1C79E240)
-#define NNGOGBHIAFI_BBMMINIIILK_OFFSET UNITYSDK_OFFSET(0x1C79DF10)
-#define NNGOGBHIAFI_BLKAIHPEODN_OFFSET UNITYSDK_OFFSET(0x1C79D860)
-#define NNGOGBHIAFI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C79E480)
-#define NNGOGBHIAFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ADAF0)
-#define NNGOGBHIAFI_EJAHEDDMHCF_OFFSET UNITYSDK_OFFSET(0x1C79D050)
-#define NNGOGBHIAFI_EPNDAOIGIOM_OFFSET UNITYSDK_OFFSET(0x1C79D540)
-#define NNGOGBHIAFI_FADKKKKFJCB_OFFSET UNITYSDK_OFFSET(0x1C79D920)
-#define NNGOGBHIAFI_FDLGBOENEOH_OFFSET UNITYSDK_OFFSET(0x1C79D790)
-#define NNGOGBHIAFI_FHMPLBNGBJB_OFFSET UNITYSDK_OFFSET(0x1C79D600)
-#define NNGOGBHIAFI_FNACALDOOIF_OFFSET UNITYSDK_OFFSET(0x1C79D3E0)
-#define NNGOGBHIAFI_GET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x1C79D820)
-#define NNGOGBHIAFI_GET_LOGICDELTATIMEMS_OFFSET UNITYSDK_OFFSET(0x1C79D850)
-#define NNGOGBHIAFI_GET_NETMODE_OFFSET UNITYSDK_OFFSET(0x1C79D800)
-#define NNGOGBHIAFI_HAKFAECLAII_OFFSET UNITYSDK_OFFSET(0x1C79D530)
-#define NNGOGBHIAFI_HCIJFDEJABF_OFFSET UNITYSDK_OFFSET(0x1C79D5A0)
-#define NNGOGBHIAFI_HEMCGEAIHMF_OFFSET UNITYSDK_OFFSET(0x1C79D930)
-#define NNGOGBHIAFI_HFBLGAJEFIL_OFFSET UNITYSDK_OFFSET(0x1C79D660)
-#define NNGOGBHIAFI_HKOHFOOOAMF_OFFSET UNITYSDK_OFFSET(0x1C79D840)
-#define NNGOGBHIAFI_IPKDBPIDHEC_OFFSET UNITYSDK_OFFSET(0x1C79DC30)
-#define NNGOGBHIAFI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C79D380)
-#define NNGOGBHIAFI_JMOPKECLJAM_OFFSET UNITYSDK_OFFSET(0x1C79E140)
-#define NNGOGBHIAFI_KJGMAKPDHOH_OFFSET UNITYSDK_OFFSET(0x1C79E3C0)
-#define NNGOGBHIAFI_LJODGOFAMEN_OFFSET UNITYSDK_OFFSET(0x1C79E300)
-#define NNGOGBHIAFI_MJMJHFMADDM_OFFSET UNITYSDK_OFFSET(0x1C79D940)
-#define NNGOGBHIAFI_OAONLKBJEIJ_OFFSET UNITYSDK_OFFSET(0x1C79D950)
-#define NNGOGBHIAFI_SET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x1C79D830)
-#define NNGOGBHIAFI_SET_NETMODE_OFFSET UNITYSDK_OFFSET(0x1C79D810)
+#define NNGOGBHIAFI_AMHAHFHBLMN_OFFSET UNITYSDK_OFFSET(0x1D91F860)
+#define NNGOGBHIAFI_BANPECPLFKI_OFFSET UNITYSDK_OFFSET(0x1D91FAE0)
+#define NNGOGBHIAFI_BBMMINIIILK_OFFSET UNITYSDK_OFFSET(0x1D91F7B0)
+#define NNGOGBHIAFI_BLKAIHPEODN_OFFSET UNITYSDK_OFFSET(0x1D91F100)
+#define NNGOGBHIAFI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D91FD20)
+#define NNGOGBHIAFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D92F390)
+#define NNGOGBHIAFI_EJAHEDDMHCF_OFFSET UNITYSDK_OFFSET(0x1D91E8F0)
+#define NNGOGBHIAFI_EPNDAOIGIOM_OFFSET UNITYSDK_OFFSET(0x1D91EDE0)
+#define NNGOGBHIAFI_FADKKKKFJCB_OFFSET UNITYSDK_OFFSET(0x1D91F1C0)
+#define NNGOGBHIAFI_FDLGBOENEOH_OFFSET UNITYSDK_OFFSET(0x1D91F030)
+#define NNGOGBHIAFI_FHMPLBNGBJB_OFFSET UNITYSDK_OFFSET(0x1D91EEA0)
+#define NNGOGBHIAFI_FNACALDOOIF_OFFSET UNITYSDK_OFFSET(0x1D91EC80)
+#define NNGOGBHIAFI_GET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x1D91F0C0)
+#define NNGOGBHIAFI_GET_LOGICDELTATIMEMS_OFFSET UNITYSDK_OFFSET(0x1D91F0F0)
+#define NNGOGBHIAFI_GET_NETMODE_OFFSET UNITYSDK_OFFSET(0x1D91F0A0)
+#define NNGOGBHIAFI_HAKFAECLAII_OFFSET UNITYSDK_OFFSET(0x1D91EDD0)
+#define NNGOGBHIAFI_HCIJFDEJABF_OFFSET UNITYSDK_OFFSET(0x1D91EE40)
+#define NNGOGBHIAFI_HEMCGEAIHMF_OFFSET UNITYSDK_OFFSET(0x1D91F1D0)
+#define NNGOGBHIAFI_HFBLGAJEFIL_OFFSET UNITYSDK_OFFSET(0x1D91EF00)
+#define NNGOGBHIAFI_HKOHFOOOAMF_OFFSET UNITYSDK_OFFSET(0x1D91F0E0)
+#define NNGOGBHIAFI_IPKDBPIDHEC_OFFSET UNITYSDK_OFFSET(0x1D91F4D0)
+#define NNGOGBHIAFI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1D91EC20)
+#define NNGOGBHIAFI_JMOPKECLJAM_OFFSET UNITYSDK_OFFSET(0x1D91F9E0)
+#define NNGOGBHIAFI_KJGMAKPDHOH_OFFSET UNITYSDK_OFFSET(0x1D91FC60)
+#define NNGOGBHIAFI_LJODGOFAMEN_OFFSET UNITYSDK_OFFSET(0x1D91FBA0)
+#define NNGOGBHIAFI_MJMJHFMADDM_OFFSET UNITYSDK_OFFSET(0x1D91F1E0)
+#define NNGOGBHIAFI_OAONLKBJEIJ_OFFSET UNITYSDK_OFFSET(0x1D91F1F0)
+#define NNGOGBHIAFI_SET_ISSERVER_OFFSET UNITYSDK_OFFSET(0x1D91F0D0)
+#define NNGOGBHIAFI_SET_NETMODE_OFFSET UNITYSDK_OFFSET(0x1D91F0B0)
 
-inline static constexpr unsigned int NNGOGBHIAFI_TypeDefinitionIndex = 36870;
+inline static constexpr unsigned int NNGOGBHIAFI_TypeDefinitionIndex = 37798;
 
 	class NNGOGBHIAFI : public ::LIAIOEBDNEE
 	{
 	public:
-		::JJGKFBDCPFB* PFEAFPJKFDF; // 0x10
-		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt64>*>* CNEMHKGFPIC; // 0x18
+		::System::Collections::Generic::HashSet_1<::System::Int32>* BLNIEECFPFL; // 0x10
+		::JJGKFBDCPFB* PFEAFPJKFDF; // 0x18
 		::BIHHJPHJELO* HMKCAOHPKKP; // 0x20
-		::System::Collections::Generic::HashSet_1<::System::Int32>* JOACHIJKHCM; // 0x28
-		::System::Collections::Generic::HashSet_1<::System::Int32>* BLNIEECFPFL; // 0x30
-		::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>* JKBDCEFLNBE; // 0x38
-		::System::UInt32 ADBHGNPFDBK; // 0x40
-		::System::Boolean _IsServer_k__BackingField; // 0x44
-		::RPG::Client::LittleGameShare::LittleGameNetMode _NetMode_k__BackingField; // 0x45
-		::System::Int32 CLHOAAHEJEG; // 0x48
-		::System::UInt32 _LogicDeltaTimeMs_k__BackingField; // 0x4C
-		::System::UInt64 DKGFAKFBDDD; // 0x50
-		::System::Single MAOMGPCHMDH; // 0x58
-		::System::Byte _padding0[0x4];
-		::System::UInt64 IKNHCAGCLPI; // 0x60
-		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>** StaticGet_FGOEPGEFIBN()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3480);
-		}
-
+		::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>* JKBDCEFLNBE; // 0x28
+		::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::UInt64>*>* CNEMHKGFPIC; // 0x30
+		::System::Collections::Generic::HashSet_1<::System::Int32>* JOACHIJKHCM; // 0x38
+		::System::UInt64 DKGFAKFBDDD; // 0x40
+		::System::Boolean _IsServer_k__BackingField; // 0x48
+		::RPG::Client::LittleGameShare::LittleGameNetMode _NetMode_k__BackingField; // 0x49
+		::System::Int32 CLHOAAHEJEG; // 0x4C
+		::System::UInt64 IKNHCAGCLPI; // 0x50
+		::System::UInt32 ADBHGNPFDBK; // 0x58
+		::System::UInt32 _LogicDeltaTimeMs_k__BackingField; // 0x5C
+		::System::Single MAOMGPCHMDH; // 0x60
 		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_3<::System::UInt32, ::ECAOILCPKLA, ::IDBBMOMLPOJ*>*>** StaticGet_NHBJGKNKPLF()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_3<::System::UInt32, ::ECAOILCPKLA, ::IDBBMOMLPOJ*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3488);
+			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_3<::System::UInt32, ::ECAOILCPKLA, ::IDBBMOMLPOJ*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x11020);
 		}
 
-		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>** StaticGet_JDMKICMLHDI()
+		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>** StaticGet_FGOEPGEFIBN()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3490);
+			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::System::Buffers::IBufferWriter_1<::System::Byte>*, ::Il2CppArray<::System::Object*>*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x11028);
 		}
 
 		static ::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::IDBBMOMLPOJ*, ::Il2CppArray<::System::Object*>*>*>** StaticGet_OJIGIHIMCBG()
 		{
-			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::IDBBMOMLPOJ*, ::Il2CppArray<::System::Object*>*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x3498);
+			return (::System::Collections::Generic::Dictionary_2<::BNFNLAHMAND, ::System::Action_2<::IDBBMOMLPOJ*, ::Il2CppArray<::System::Object*>*>*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x11030);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>** StaticGet_JDMKICMLHDI()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::RuntimeTypeHandle, ::IDBBMOMLPOJ*>**)UnitySDK::FromName("", "NNGOGBHIAFI")->GetStaticField(0x11038);
 		}
 
 		// static const ::System::Object LKGICPPPOBC; // 0x0

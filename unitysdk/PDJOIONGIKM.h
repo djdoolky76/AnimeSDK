@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class AdvByHasMoveSinceLastTeleport; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define PDJOIONGIKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC019310)
-#define PDJOIONGIKM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC019340)
+#define PDJOIONGIKM_CTOR_OFFSET UNITYSDK_OFFSET(0xC91F5D0)
+#define PDJOIONGIKM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC91F600)
 
-inline static constexpr unsigned int PDJOIONGIKM_TypeDefinitionIndex = 53115;
+inline static constexpr unsigned int PDJOIONGIKM_TypeDefinitionIndex = 54277;
 
 	class PDJOIONGIKM
 	{

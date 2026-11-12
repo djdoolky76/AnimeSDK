@@ -3,7 +3,7 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
-	inline static constexpr unsigned int SplineMoveStopMode_TypeDefinitionIndex = 43552;
+	inline static constexpr unsigned int SplineMoveStopMode_TypeDefinitionIndex = 44534;
 
 	enum class SplineMoveStopMode : ::System::Int32
 	{

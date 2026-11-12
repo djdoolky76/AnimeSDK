@@ -8,12 +8,12 @@ class MJDKJEIAABG;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-#define OKOGCELDCCF_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xBEF2F00)
-#define OKOGCELDCCF_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF3480)
-#define OKOGCELDCCF_JHLOPJHGJFO_OFFSET UNITYSDK_OFFSET(0xBEF2E90)
-#define OKOGCELDCCF_JOMFMJCNEKJ_OFFSET UNITYSDK_OFFSET(0xBEF3200)
+#define OKOGCELDCCF_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xC7EE150)
+#define OKOGCELDCCF_CTOR_OFFSET UNITYSDK_OFFSET(0xC7EE6D0)
+#define OKOGCELDCCF_JHLOPJHGJFO_OFFSET UNITYSDK_OFFSET(0xC7EE0E0)
+#define OKOGCELDCCF_JOMFMJCNEKJ_OFFSET UNITYSDK_OFFSET(0xC7EE450)
 
-inline static constexpr unsigned int OKOGCELDCCF_TypeDefinitionIndex = 81945;
+inline static constexpr unsigned int OKOGCELDCCF_TypeDefinitionIndex = 84726;
 
 	class OKOGCELDCCF : public ::System::Object
 	{

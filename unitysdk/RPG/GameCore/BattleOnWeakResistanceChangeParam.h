@@ -5,19 +5,19 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::GameCore { class GameEntity; }
 
-#define RPG_GAMECORE_BATTLEONWEAKRESISTANCECHANGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xE5CADF0)
+#define RPG_GAMECORE_BATTLEONWEAKRESISTANCECHANGEPARAM_CTOR_OFFSET UNITYSDK_OFFSET(0xF04C9C0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int BattleOnWeakResistanceChangeParam_TypeDefinitionIndex = 57740;
+	inline static constexpr unsigned int BattleOnWeakResistanceChangeParam_TypeDefinitionIndex = 58974;
 
 	class BattleOnWeakResistanceChangeParam : public ::System::Object
 	{
 	public:
 		::RPG::GameCore::GameEntity* Entity; // 0x10
-		::RPG::GameCore::FixPoint fOldValue; // 0x18
-		::RPG::GameCore::AbilityProperty Property; // 0x20
+		::RPG::GameCore::AbilityProperty Property; // 0x18
 		::System::Byte _padding0[0x4];
+		::RPG::GameCore::FixPoint fOldValue; // 0x20
 		::RPG::GameCore::FixPoint fNewValue; // 0x28
 		::System::Void _ctor()
 		{

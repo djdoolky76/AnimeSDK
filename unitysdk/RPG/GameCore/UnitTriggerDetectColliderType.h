@@ -3,7 +3,7 @@
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int UnitTriggerDetectColliderType_TypeDefinitionIndex = 17599;
+	inline static constexpr unsigned int UnitTriggerDetectColliderType_TypeDefinitionIndex = 17768;
 
 	enum class UnitTriggerDetectColliderType : ::System::UInt16
 	{

@@ -4,18 +4,18 @@
 class PFPDFEPNLHL;
 namespace System { class Object; }
 
-#define PFPDFEPNLHL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DF29C40)
-#define PFPDFEPNLHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF29C70)
-#define PFPDFEPNLHL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF29C80)
+#define PFPDFEPNLHL___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1F1F7160)
+#define PFPDFEPNLHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1F1F7190)
+#define PFPDFEPNLHL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1F1F71A0)
 
-inline static constexpr unsigned int PFPDFEPNLHL___c_TypeDefinitionIndex = 30674;
+inline static constexpr unsigned int PFPDFEPNLHL___c_TypeDefinitionIndex = 31580;
 
 	class PFPDFEPNLHL___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x3C350);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x33110);
 		}
 
 		static ::System::Void _cctor()

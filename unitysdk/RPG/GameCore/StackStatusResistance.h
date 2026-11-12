@@ -7,13 +7,13 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class StackStatusResistance; }
 namespace RPG::GameCore { class TargetEvaluator; }
 
-#define RPG_GAMECORE_STACKSTATUSRESISTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DB04930)
-#define RPG_GAMECORE_STACKSTATUSRESISTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DB04940)
-#define RPG_GAMECORE_STACKSTATUSRESISTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DB04900)
+#define RPG_GAMECORE_STACKSTATUSRESISTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1ED16980)
+#define RPG_GAMECORE_STACKSTATUSRESISTANCE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1ED16990)
+#define RPG_GAMECORE_STACKSTATUSRESISTANCE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1ED16950)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int StackStatusResistance_TypeDefinitionIndex = 22682;
+	inline static constexpr unsigned int StackStatusResistance_TypeDefinitionIndex = 23104;
 
 	class StackStatusResistance : public ::RPG::GameCore::TaskConfig
 	{

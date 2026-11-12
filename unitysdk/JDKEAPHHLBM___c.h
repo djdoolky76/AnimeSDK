@@ -4,18 +4,18 @@
 class JDKEAPHHLBM;
 namespace System { class Object; }
 
-#define JDKEAPHHLBM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1E70C7B0)
-#define JDKEAPHHLBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E70C7E0)
-#define JDKEAPHHLBM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E70C7F0)
+#define JDKEAPHHLBM___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1FA1AEC0)
+#define JDKEAPHHLBM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1FA1AEF0)
+#define JDKEAPHHLBM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1FA1AF00)
 
-inline static constexpr unsigned int JDKEAPHHLBM___c_TypeDefinitionIndex = 29078;
+inline static constexpr unsigned int JDKEAPHHLBM___c_TypeDefinitionIndex = 29668;
 
 	class JDKEAPHHLBM___c : public ::System::Object
 	{
 	public:
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5DED0);
+			return (::System::Object**)UnitySDK::FromName("", "<>c")->GetStaticField(0x5E6D0);
 		}
 
 		static ::System::Void _cctor()

@@ -5,21 +5,21 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyCardSpecialShowConfigRow; }
 
-#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC2F930)
-#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC2F650)
+#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE43220)
+#define RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE42F40)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyCardSpecialShowConfigRow_TypeDefinitionIndex = 15317;
+	inline static constexpr unsigned int TrainPartyCardSpecialShowConfigRow_TypeDefinitionIndex = 15473;
 
 	class TrainPartyCardSpecialShowConfigRow : public ::System::Object
 	{
 	public:
-		::RPG::Client::TextID OverWriteTips; // 0x10
-		::RPG::Client::TextID SpecialShowTitle; // 0x20
-		::RPG::Client::TextID SpecialShowDesc; // 0x30
-		::System::UInt32 CardID; // 0x40
-		::System::UInt32 PreShowGridNum; // 0x44
+		::RPG::Client::TextID SpecialShowDesc; // 0x10
+		::RPG::Client::TextID OverWriteTips; // 0x20
+		::System::UInt32 CardID; // 0x30
+		::System::UInt32 PreShowGridNum; // 0x34
+		::RPG::Client::TextID SpecialShowTitle; // 0x38
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYCARDSPECIALSHOWCONFIGROW_CTOR_OFFSET))(this);

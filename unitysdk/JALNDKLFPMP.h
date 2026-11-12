@@ -1,7 +1,7 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-inline static constexpr unsigned int JALNDKLFPMP_TypeDefinitionIndex = 73808;
+inline static constexpr unsigned int JALNDKLFPMP_TypeDefinitionIndex = 75934;
 
 	class JALNDKLFPMP
 	{

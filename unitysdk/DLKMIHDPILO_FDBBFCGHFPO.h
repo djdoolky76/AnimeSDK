@@ -4,20 +4,19 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
-#define DLKMIHDPILO_FDBBFCGHFPO_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A3760)
+#define DLKMIHDPILO_FDBBFCGHFPO_CTOR_OFFSET UNITYSDK_OFFSET(0x106133B0)
 
-inline static constexpr unsigned int DLKMIHDPILO_FDBBFCGHFPO_TypeDefinitionIndex = 76808;
+inline static constexpr unsigned int DLKMIHDPILO_FDBBFCGHFPO_TypeDefinitionIndex = 79142;
 
 	class DLKMIHDPILO_FDBBFCGHFPO : public ::System::Object
 	{
 	public:
-		::UnityEngine::Quaternion MECHOCFGMKF; // 0x10
-		::System::Boolean OEKKHDBJHCO; // 0x20
-		::System::Boolean NPHBBCAGDLL; // 0x21
-		::System::Byte _padding0[0x2];
-		::UnityEngine::Vector3 PECGKNAAKOO; // 0x24
-		::UnityEngine::Quaternion DDJBFFBNIGI; // 0x30
-		::UnityEngine::Vector3 NCLKEBCHNOG; // 0x40
+		::UnityEngine::Vector3 PECGKNAAKOO; // 0x10
+		::UnityEngine::Quaternion DDJBFFBNIGI; // 0x1C
+		::UnityEngine::Vector3 NCLKEBCHNOG; // 0x2C
+		::UnityEngine::Quaternion MECHOCFGMKF; // 0x38
+		::System::Boolean NPHBBCAGDLL; // 0x48
+		::System::Boolean OEKKHDBJHCO; // 0x49
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DLKMIHDPILO_FDBBFCGHFPO_CTOR_OFFSET))(this);

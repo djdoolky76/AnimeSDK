@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class SetGraphDynamicFloat; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define CKELAMNJMJF_CTOR_OFFSET UNITYSDK_OFFSET(0xD7587E0)
-#define CKELAMNJMJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD758810)
+#define CKELAMNJMJF_CTOR_OFFSET UNITYSDK_OFFSET(0xE092620)
+#define CKELAMNJMJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE092650)
 
-inline static constexpr unsigned int CKELAMNJMJF_TypeDefinitionIndex = 53238;
+inline static constexpr unsigned int CKELAMNJMJF_TypeDefinitionIndex = 54400;
 
 	class CKELAMNJMJF
 	{

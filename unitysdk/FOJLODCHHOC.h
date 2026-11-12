@@ -4,19 +4,19 @@
 namespace RPG::GameCore { class CreateLevelAreas; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define FOJLODCHHOC_CTOR_OFFSET UNITYSDK_OFFSET(0x158F6300)
-#define FOJLODCHHOC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x158F6310)
-#define FOJLODCHHOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x158F6350)
-#define FOJLODCHHOC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x158F6540)
-#define FOJLODCHHOC_TICK_OFFSET UNITYSDK_OFFSET(0x158F6590)
+#define FOJLODCHHOC_CTOR_OFFSET UNITYSDK_OFFSET(0x16824B80)
+#define FOJLODCHHOC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16824B90)
+#define FOJLODCHHOC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16824BD0)
+#define FOJLODCHHOC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x16824DB0)
+#define FOJLODCHHOC_TICK_OFFSET UNITYSDK_OFFSET(0x16824E00)
 
-inline static constexpr unsigned int FOJLODCHHOC_TypeDefinitionIndex = 58049;
+inline static constexpr unsigned int FOJLODCHHOC_TypeDefinitionIndex = 59288;
 
 	class FOJLODCHHOC : public ::GELIALJDFBL
 	{
 	public:
-		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x18
-		::RPG::GameCore::CreateLevelAreas* OFKGLJOAMLD; // 0x20
+		::RPG::GameCore::CreateLevelAreas* OFKGLJOAMLD; // 0x18
+		::RPG::GameCore::TaskContext* DDDNLILNMKA; // 0x20
 		::System::Void _ctor(::RPG::GameCore::TaskContext* a1, ::RPG::GameCore::CreateLevelAreas* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::GameCore::TaskContext*, ::RPG::GameCore::CreateLevelAreas*))((::PBYTE)hIl2Cpp + FOJLODCHHOC_CTOR_OFFSET))(this, a1, a2);

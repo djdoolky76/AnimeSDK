@@ -6,19 +6,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class ChimeraTeamTalkRow; }
 
-#define RPG_GAMECORE_CHIMERATEAMTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1D5B0650)
-#define RPG_GAMECORE_CHIMERATEAMTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1D5B04A0)
+#define RPG_GAMECORE_CHIMERATEAMTALKROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C0660)
+#define RPG_GAMECORE_CHIMERATEAMTALKROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1E7C04B0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int ChimeraTeamTalkRow_TypeDefinitionIndex = 13034;
+	inline static constexpr unsigned int ChimeraTeamTalkRow_TypeDefinitionIndex = 13102;
 
 	class ChimeraTeamTalkRow : public ::System::Object
 	{
 	public:
 		::RPG::Client::TextID TalkContent; // 0x10
-		::System::UInt32 TalkID; // 0x20
-		::RPG::GameCore::ChimeraTeamTalkEffectType Effect; // 0x24
+		::RPG::GameCore::ChimeraTeamTalkEffectType Effect; // 0x20
+		::System::UInt32 TalkID; // 0x24
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_CHIMERATEAMTALKROW_CTOR_OFFSET))(this);

@@ -11,180 +11,180 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace UnityEngine { class Coroutine; }
 
-#define RPG_CLIENT_OPEUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0xD9FBB10)
-#define RPG_CLIENT_OPEUTIL_CLEARSETDEVICECOROUTINE_OFFSET UNITYSDK_OFFSET(0xD9F9CC0)
-#define RPG_CLIENT_OPEUTIL_CONVERTENCRYPTURL_OFFSET UNITYSDK_OFFSET(0xD9F9F90)
-#define RPG_CLIENT_OPEUTIL_CONVERTEVENTURL_OFFSET UNITYSDK_OFFSET(0xD9F6E90)
-#define RPG_CLIENT_OPEUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xD9FBB00)
-#define RPG_CLIENT_OPEUTIL_DEVICEINFOURL_OFFSET UNITYSDK_OFFSET(0xD9F9E20)
-#define RPG_CLIENT_OPEUTIL_GENERALURLPARAMSTRING_OFFSET UNITYSDK_OFFSET(0xD9F6900)
-#define RPG_CLIENT_OPEUTIL_GENERALURL_1_OFFSET UNITYSDK_OFFSET(0xD9F6C10)
-#define RPG_CLIENT_OPEUTIL_GENERALURL_OFFSET UNITYSDK_OFFSET(0xD9F6B80)
-#define RPG_CLIENT_OPEUTIL_ISGPSINFONEEDED_OFFSET UNITYSDK_OFFSET(0xD9FA230)
-#define RPG_CLIENT_OPEUTIL_OPENBANAPPEALURL_OFFSET UNITYSDK_OFFSET(0xD9F6E20)
-#define RPG_CLIENT_OPEUTIL_OPENDISPATCHURL_OFFSET UNITYSDK_OFFSET(0xD9FAC90)
-#define RPG_CLIENT_OPEUTIL_OPENGACHADETAILURL_OFFSET UNITYSDK_OFFSET(0xD9FA390)
-#define RPG_CLIENT_OPEUTIL_OPENGACHAHISTORYURL_OFFSET UNITYSDK_OFFSET(0xD9FA830)
-#define RPG_CLIENT_OPEUTIL_OPENURLDIRECT_OFFSET UNITYSDK_OFFSET(0xD9F7E00)
-#define RPG_CLIENT_OPEUTIL_OPENURLINEMBEDDEDBROWSER_OFFSET UNITYSDK_OFFSET(0xD9F7D70)
-#define RPG_CLIENT_OPEUTIL_OPENURLINEXTERNALBROWSER_OFFSET UNITYSDK_OFFSET(0xD9F6D90)
-#define RPG_CLIENT_OPEUTIL_OPENURLWITHLOGINSTATE_OFFSET UNITYSDK_OFFSET(0xD9F7E90)
-#define RPG_CLIENT_OPEUTIL_PARSEURL_1_OFFSET UNITYSDK_OFFSET(0xD9F6760)
-#define RPG_CLIENT_OPEUTIL_PARSEURL_OFFSET UNITYSDK_OFFSET(0xD9F6000)
-#define RPG_CLIENT_OPEUTIL_REPEATSENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xD9F9D80)
-#define RPG_CLIENT_OPEUTIL_SENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xD9F9BC0)
-#define RPG_CLIENT_OPEUTIL_SETUPHTTPGAMEPARAMS_OFFSET UNITYSDK_OFFSET(0xD9FB770)
-#define RPG_CLIENT_OPEUTIL_SETUPHTTPRISKCONTROLPARAMS_OFFSET UNITYSDK_OFFSET(0xD9FAF20)
-#define RPG_CLIENT_OPEUTIL_SETUPRESERVEDPARAM_OFFSET UNITYSDK_OFFSET(0xD9F9020)
-#define RPG_CLIENT_OPEUTIL_SWAPSTR_OFFSET UNITYSDK_OFFSET(0xD9F99D0)
-#define RPG_CLIENT_OPEUTIL_TESTOPENURL_OFFSET UNITYSDK_OFFSET(0xD9F6C90)
-#define RPG_CLIENT_OPEUTIL__ADDAUTHKEYPARAM_OFFSET UNITYSDK_OFFSET(0xD9F8480)
-#define RPG_CLIENT_OPEUTIL__ADDCLIIDPARAM_OFFSET UNITYSDK_OFFSET(0xD9F8C50)
-#define RPG_CLIENT_OPEUTIL__GETCLIID_OFFSET UNITYSDK_OFFSET(0xD9F9B40)
-#define RPG_CLIENT_OPEUTIL__INCLUDEAUTHKEY_OFFSET UNITYSDK_OFFSET(0xD9F8200)
-#define RPG_CLIENT_OPEUTIL__INTERNALOPENURL_OFFSET UNITYSDK_OFFSET(0xD9F8870)
-#define RPG_CLIENT_OPEUTIL__SETUPURLPLATFORMTYPEPARAM_OFFSET UNITYSDK_OFFSET(0xD9F7F10)
+#define RPG_CLIENT_OPEUTIL_CCTOR_OFFSET UNITYSDK_OFFSET(0xE492480)
+#define RPG_CLIENT_OPEUTIL_CLEARSETDEVICECOROUTINE_OFFSET UNITYSDK_OFFSET(0xE490630)
+#define RPG_CLIENT_OPEUTIL_CONVERTENCRYPTURL_OFFSET UNITYSDK_OFFSET(0xE490900)
+#define RPG_CLIENT_OPEUTIL_CONVERTEVENTURL_OFFSET UNITYSDK_OFFSET(0xE48D770)
+#define RPG_CLIENT_OPEUTIL_CTOR_OFFSET UNITYSDK_OFFSET(0xE492470)
+#define RPG_CLIENT_OPEUTIL_DEVICEINFOURL_OFFSET UNITYSDK_OFFSET(0xE490790)
+#define RPG_CLIENT_OPEUTIL_GENERALURLPARAMSTRING_OFFSET UNITYSDK_OFFSET(0xE48D210)
+#define RPG_CLIENT_OPEUTIL_GENERALURL_1_OFFSET UNITYSDK_OFFSET(0xE48D4F0)
+#define RPG_CLIENT_OPEUTIL_GENERALURL_OFFSET UNITYSDK_OFFSET(0xE48D460)
+#define RPG_CLIENT_OPEUTIL_ISGPSINFONEEDED_OFFSET UNITYSDK_OFFSET(0xE490BA0)
+#define RPG_CLIENT_OPEUTIL_OPENBANAPPEALURL_OFFSET UNITYSDK_OFFSET(0xE48D700)
+#define RPG_CLIENT_OPEUTIL_OPENDISPATCHURL_OFFSET UNITYSDK_OFFSET(0xE491630)
+#define RPG_CLIENT_OPEUTIL_OPENGACHADETAILURL_OFFSET UNITYSDK_OFFSET(0xE490D00)
+#define RPG_CLIENT_OPEUTIL_OPENGACHAHISTORYURL_OFFSET UNITYSDK_OFFSET(0xE4911D0)
+#define RPG_CLIENT_OPEUTIL_OPENURLDIRECT_OFFSET UNITYSDK_OFFSET(0xE48E6E0)
+#define RPG_CLIENT_OPEUTIL_OPENURLINEMBEDDEDBROWSER_OFFSET UNITYSDK_OFFSET(0xE48E650)
+#define RPG_CLIENT_OPEUTIL_OPENURLINEXTERNALBROWSER_OFFSET UNITYSDK_OFFSET(0xE48D670)
+#define RPG_CLIENT_OPEUTIL_OPENURLWITHLOGINSTATE_OFFSET UNITYSDK_OFFSET(0xE48E770)
+#define RPG_CLIENT_OPEUTIL_PARSEURL_1_OFFSET UNITYSDK_OFFSET(0xE48D070)
+#define RPG_CLIENT_OPEUTIL_PARSEURL_OFFSET UNITYSDK_OFFSET(0xE48C910)
+#define RPG_CLIENT_OPEUTIL_REPEATSENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xE4906F0)
+#define RPG_CLIENT_OPEUTIL_SENDDEVICEINFO_OFFSET UNITYSDK_OFFSET(0xE490530)
+#define RPG_CLIENT_OPEUTIL_SETUPHTTPGAMEPARAMS_OFFSET UNITYSDK_OFFSET(0xE492110)
+#define RPG_CLIENT_OPEUTIL_SETUPHTTPRISKCONTROLPARAMS_OFFSET UNITYSDK_OFFSET(0xE4918C0)
+#define RPG_CLIENT_OPEUTIL_SETUPRESERVEDPARAM_OFFSET UNITYSDK_OFFSET(0xE48F960)
+#define RPG_CLIENT_OPEUTIL_SWAPSTR_OFFSET UNITYSDK_OFFSET(0xE490340)
+#define RPG_CLIENT_OPEUTIL_TESTOPENURL_OFFSET UNITYSDK_OFFSET(0xE48D570)
+#define RPG_CLIENT_OPEUTIL__ADDAUTHKEYPARAM_OFFSET UNITYSDK_OFFSET(0xE48ED90)
+#define RPG_CLIENT_OPEUTIL__ADDCLIIDPARAM_OFFSET UNITYSDK_OFFSET(0xE48F590)
+#define RPG_CLIENT_OPEUTIL__GETCLIID_OFFSET UNITYSDK_OFFSET(0xE4904B0)
+#define RPG_CLIENT_OPEUTIL__INCLUDEAUTHKEY_OFFSET UNITYSDK_OFFSET(0xE48EAE0)
+#define RPG_CLIENT_OPEUTIL__INTERNALOPENURL_OFFSET UNITYSDK_OFFSET(0xE48F180)
+#define RPG_CLIENT_OPEUTIL__SETUPURLPLATFORMTYPEPARAM_OFFSET UNITYSDK_OFFSET(0xE48E7F0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int OpeUtil_TypeDefinitionIndex = 59308;
+	inline static constexpr unsigned int OpeUtil_TypeDefinitionIndex = 60585;
 
 	class OpeUtil : public ::System::Object
 	{
 	public:
-		static ::System::String** StaticGet_CDKEY_URL_TO_USE()
+		static ::System::String** StaticGet_DeviceFP()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xBFF0);
-		}
-
-		static ::System::String** StaticGet_OperatingSystem()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xBFF8);
-		}
-
-		static ::System::String** StaticGet_PLAT_TYPE_NAME()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC000);
-		}
-
-		static ::System::String** StaticGet_CHANNEL_ID()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC008);
-		}
-
-		static ::System::String** StaticGet_AUTH_KEY_VERSION_NAME()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC010);
-		}
-
-		static ::System::String** StaticGet_CLI_ID()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC018);
-		}
-
-		static ::UnityEngine::Coroutine** StaticGet_setInfoCoroutine()
-		{
-			return (::UnityEngine::Coroutine**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC020);
-		}
-
-		static ::System::String** StaticGet_AUTH_KEY()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC028);
-		}
-
-		static ::System::String** StaticGet_DeviceModel()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC030);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A920);
 		}
 
 		static ::System::String** StaticGet_DeviceName()
 		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC038);
-		}
-
-		static ::System::String** StaticGet_CDKEY_URL_KEY()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC040);
-		}
-
-		static ::System::String** StaticGet_DeviceFP()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC048);
-		}
-
-		static ::System::String** StaticGet_NEW_SIGN_TYPE_VALUE()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC050);
-		}
-
-		static ::System::String** StaticGet_SIGN_TYPE_NAME()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC058);
-		}
-
-		static ::System::String** StaticGet_CDKEY_REQUEST_URL()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC060);
-		}
-
-		static ::System::String** StaticGet_Platform()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC068);
-		}
-
-		static ::System::String** StaticGet_ExtraDeviceInfo()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC070);
-		}
-
-		static ::System::String** StaticGet_CLOUD_GAME()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC078);
-		}
-
-		static ::System::String** StaticGet_AUTH_APP_ID_NAME()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC080);
-		}
-
-		static ::System::String** StaticGet_DeviceID()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC088);
-		}
-
-		static ::System::String** StaticGet_AppVersion()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC090);
-		}
-
-		static ::System::String** StaticGet_GAME_BIZ()
-		{
-			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC098);
-		}
-
-		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_deviceParamDict()
-		{
-			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC0A0);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A928);
 		}
 
 		static ::Il2CppArray<::System::String*>** StaticGet_RESERVED_WORDS()
 		{
-			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0xC0A8);
+			return (::Il2CppArray<::System::String*>**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A930);
 		}
 
-		static ::System::Single* StaticGet_TrySpan()
+		static ::System::String** StaticGet_SIGN_TYPE_NAME()
 		{
-			return (::System::Single*)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x2A20);
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A938);
+		}
+
+		static ::System::String** StaticGet_DeviceID()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A940);
+		}
+
+		static ::System::String** StaticGet_CHANNEL_ID()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A948);
+		}
+
+		static ::System::String** StaticGet_CLI_ID()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A950);
+		}
+
+		static ::System::String** StaticGet_Platform()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A958);
+		}
+
+		static ::System::String** StaticGet_CLOUD_GAME()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A960);
+		}
+
+		static ::System::String** StaticGet_CDKEY_REQUEST_URL()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A968);
+		}
+
+		static ::System::String** StaticGet_GAME_BIZ()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A970);
+		}
+
+		static ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>** StaticGet_deviceParamDict()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A978);
+		}
+
+		static ::System::String** StaticGet_PLAT_TYPE_NAME()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A980);
+		}
+
+		static ::System::String** StaticGet_CDKEY_URL_KEY()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A988);
+		}
+
+		static ::System::String** StaticGet_AUTH_KEY()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A990);
+		}
+
+		static ::System::String** StaticGet_AUTH_KEY_VERSION_NAME()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A998);
+		}
+
+		static ::System::String** StaticGet_AppVersion()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9A0);
+		}
+
+		static ::System::String** StaticGet_AUTH_APP_ID_NAME()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9A8);
+		}
+
+		static ::System::String** StaticGet_ExtraDeviceInfo()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9B0);
+		}
+
+		static ::System::String** StaticGet_DeviceModel()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9B8);
+		}
+
+		static ::System::String** StaticGet_CDKEY_URL_TO_USE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9C0);
+		}
+
+		static ::System::String** StaticGet_NEW_SIGN_TYPE_VALUE()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9C8);
+		}
+
+		static ::UnityEngine::Coroutine** StaticGet_setInfoCoroutine()
+		{
+			return (::UnityEngine::Coroutine**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9D0);
+		}
+
+		static ::System::String** StaticGet_OperatingSystem()
+		{
+			return (::System::String**)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x1A9D8);
 		}
 
 		static ::System::Int32* StaticGet_MaxTryCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x2A24);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x56A0);
+		}
+
+		static ::System::Single* StaticGet_TrySpan()
+		{
+			return (::System::Single*)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x56A4);
 		}
 
 		static ::System::Int32* StaticGet_TryCount()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x2A28);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "OpeUtil")->GetStaticField(0x56A8);
 		}
 
 		// static const ::System::String* SIGN_KEY; // 0x0

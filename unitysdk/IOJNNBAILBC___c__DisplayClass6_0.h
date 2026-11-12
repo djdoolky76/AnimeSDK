@@ -4,10 +4,10 @@
 #include "unitysdk/System/Object.h"
 class BHHPHPGCODJ;
 
-#define IOJNNBAILBC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16503590)
-#define IOJNNBAILBC___C__DISPLAYCLASS6_0__SETTARGETUNREACHED_B__0_OFFSET UNITYSDK_OFFSET(0x16503620)
+#define IOJNNBAILBC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB837EE0)
+#define IOJNNBAILBC___C__DISPLAYCLASS6_0__SETTARGETUNREACHED_B__0_OFFSET UNITYSDK_OFFSET(0xB837F70)
 
-inline static constexpr unsigned int IOJNNBAILBC___c__DisplayClass6_0_TypeDefinitionIndex = 79551;
+inline static constexpr unsigned int IOJNNBAILBC___c__DisplayClass6_0_TypeDefinitionIndex = 82328;
 
 	class IOJNNBAILBC___c__DisplayClass6_0 : public ::System::Object
 	{

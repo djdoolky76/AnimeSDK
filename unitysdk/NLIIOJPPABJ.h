@@ -4,11 +4,11 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Rigidbody; }
 
-#define NLIIOJPPABJ_CTOR_OFFSET UNITYSDK_OFFSET(0x21A50)
-#define NLIIOJPPABJ_HHCBBGLHFAN_OFFSET UNITYSDK_OFFSET(0x21AC0)
-#define NLIIOJPPABJ_HKELLKAAHNN_OFFSET UNITYSDK_OFFSET(0x21A60)
+#define NLIIOJPPABJ_CTOR_OFFSET UNITYSDK_OFFSET(0x26D60)
+#define NLIIOJPPABJ_HHCBBGLHFAN_OFFSET UNITYSDK_OFFSET(0x26DD0)
+#define NLIIOJPPABJ_HKELLKAAHNN_OFFSET UNITYSDK_OFFSET(0x26D70)
 
-inline static constexpr unsigned int NLIIOJPPABJ_TypeDefinitionIndex = 54756;
+inline static constexpr unsigned int NLIIOJPPABJ_TypeDefinitionIndex = 55923;
 
 	struct alignas(4) NLIIOJPPABJ
 	{

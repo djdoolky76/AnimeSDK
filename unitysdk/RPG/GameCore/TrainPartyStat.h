@@ -5,12 +5,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyStat; }
 
-#define RPG_GAMECORE_TRAINPARTYSTAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC35610)
-#define RPG_GAMECORE_TRAINPARTYSTAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC354B0)
+#define RPG_GAMECORE_TRAINPARTYSTAT_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE488B0)
+#define RPG_GAMECORE_TRAINPARTYSTAT_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EE48750)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStat_TypeDefinitionIndex = 10631;
+	inline static constexpr unsigned int TrainPartyStat_TypeDefinitionIndex = 10646;
 
 	class TrainPartyStat : public ::RPG::GameCore::JsonConfig
 	{

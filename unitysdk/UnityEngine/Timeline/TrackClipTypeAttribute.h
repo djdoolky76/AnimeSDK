@@ -5,19 +5,19 @@
 namespace System { class String; }
 namespace System { class Type; }
 
-#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F3A7FA0)
+#define UNITYENGINE_TIMELINE_TRACKCLIPTYPEATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x20658D20)
 
 namespace UnityEngine::Timeline
 {
-	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 38857;
+	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 39786;
 
 	class TrackClipTypeAttribute : public ::System::Attribute
 	{
 	public:
-		::System::Type* inspectedType; // 0x10
-		::System::String* showIfMethod; // 0x18
-		::System::Boolean isHideSubClass; // 0x20
-		::System::Boolean allowAutoCreate; // 0x21
+		::System::String* showIfMethod; // 0x10
+		::System::Type* inspectedType; // 0x18
+		::System::Boolean allowAutoCreate; // 0x20
+		::System::Boolean isHideSubClass; // 0x21
 		::System::Byte _padding0[0x2];
 		::UnityEngine::Timeline::CreateClipFlags clipFlags; // 0x24
 		::System::Void _ctor(::System::Type* a1, ::System::Boolean a2, ::UnityEngine::Timeline::CreateClipFlags a3, ::System::String* a4, ::System::Boolean a5)

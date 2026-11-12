@@ -3,7 +3,7 @@
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int EmissionMode_TypeDefinitionIndex = 70704;
+	inline static constexpr unsigned int EmissionMode_TypeDefinitionIndex = 72681;
 
 	enum class EmissionMode : ::System::Int32
 	{

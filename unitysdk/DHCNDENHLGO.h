@@ -2,11 +2,11 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define DHCNDENHLGO_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC97A0)
-#define DHCNDENHLGO_GET_ID_OFFSET UNITYSDK_OFFSET(0xEBC9780)
-#define DHCNDENHLGO_SET_ID_OFFSET UNITYSDK_OFFSET(0xEBC9790)
+#define DHCNDENHLGO_CTOR_OFFSET UNITYSDK_OFFSET(0xF447E70)
+#define DHCNDENHLGO_GET_ID_OFFSET UNITYSDK_OFFSET(0xF447E50)
+#define DHCNDENHLGO_SET_ID_OFFSET UNITYSDK_OFFSET(0xF447E60)
 
-inline static constexpr unsigned int DHCNDENHLGO_TypeDefinitionIndex = 81443;
+inline static constexpr unsigned int DHCNDENHLGO_TypeDefinitionIndex = 84223;
 
 	class DHCNDENHLGO : public ::System::Object
 	{

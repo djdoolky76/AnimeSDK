@@ -4,12 +4,12 @@
 class DABIJNBDBBA;
 namespace RPG::Client { class ActivityElationStage; }
 
-#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC3EB450)
-#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0___SETSTAGERESULT_B__0_OFFSET UNITYSDK_OFFSET(0xC3EB7A0)
+#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCD25760)
+#define RPG_CLIENT_ACTIVITYELATIONMODULE___C__DISPLAYCLASS36_0___SETSTAGERESULT_B__0_OFFSET UNITYSDK_OFFSET(0xCD25AB0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int ActivityElationModule___c__DisplayClass36_0_TypeDefinitionIndex = 61510;
+	inline static constexpr unsigned int ActivityElationModule___c__DisplayClass36_0_TypeDefinitionIndex = 62895;
 
 	class ActivityElationModule___c__DisplayClass36_0 : public ::System::Object
 	{

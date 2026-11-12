@@ -5,10 +5,10 @@
 class OONGDLIDJJJ;
 namespace RPG::GameCore { class CheckTargetDistanceAxis; }
 
-#define EFNDJABPBKA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A5D7F0)
-#define EFNDJABPBKA_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x13A5D800)
+#define EFNDJABPBKA_CTOR_OFFSET UNITYSDK_OFFSET(0x14821A20)
+#define EFNDJABPBKA_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x14821A30)
 
-inline static constexpr unsigned int EFNDJABPBKA_TypeDefinitionIndex = 54374;
+inline static constexpr unsigned int EFNDJABPBKA_TypeDefinitionIndex = 55538;
 
 	class EFNDJABPBKA : public ::BEMKNPIFMBI
 	{

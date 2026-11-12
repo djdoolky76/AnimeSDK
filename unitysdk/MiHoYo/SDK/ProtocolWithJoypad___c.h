@@ -5,25 +5,25 @@ namespace MiHoYo::SDK { class ProtocolWithJoypad; }
 namespace System { class Object; }
 namespace System { template <typename T> class Action_1; }
 
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1BFC0A00)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1BFC0A40)
-#define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C__SHOW_B__42_0_OFFSET UNITYSDK_OFFSET(0x1BFC0A50)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C_CCTOR_OFFSET UNITYSDK_OFFSET(0x1D147800)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1D147840)
+#define MIHOYO_SDK_PROTOCOLWITHJOYPAD___C__SHOW_B__42_0_OFFSET UNITYSDK_OFFSET(0x1D147850)
 
 namespace MiHoYo::SDK
 {
-	inline static constexpr unsigned int ProtocolWithJoypad___c_TypeDefinitionIndex = 8029;
+	inline static constexpr unsigned int ProtocolWithJoypad___c_TypeDefinitionIndex = 8038;
 
 	class ProtocolWithJoypad___c : public ::System::Object
 	{
 	public:
 		static ::System::Action_1<::MiHoYo::SDK::ProtocolWithJoypad*>** StaticGet___9__42_0()
 		{
-			return (::System::Action_1<::MiHoYo::SDK::ProtocolWithJoypad*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C820);
+			return (::System::Action_1<::MiHoYo::SDK::ProtocolWithJoypad*>**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1B100);
 		}
 
 		static ::System::Object** StaticGet___9()
 		{
-			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1C828);
+			return (::System::Object**)UnitySDK::FromName("MiHoYo.SDK", "<>c")->GetStaticField(0x1B108);
 		}
 
 		static ::System::Void _cctor()

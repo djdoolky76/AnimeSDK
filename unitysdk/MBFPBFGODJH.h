@@ -4,17 +4,17 @@
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define MBFPBFGODJH_CTOR_OFFSET UNITYSDK_OFFSET(0xB85A9E0)
-#define MBFPBFGODJH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xB85A910)
-#define MBFPBFGODJH_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xB85A960)
+#define MBFPBFGODJH_CTOR_OFFSET UNITYSDK_OFFSET(0xC0C07B0)
+#define MBFPBFGODJH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xC0C06E0)
+#define MBFPBFGODJH_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xC0C0730)
 
-inline static constexpr unsigned int MBFPBFGODJH_TypeDefinitionIndex = 71643;
+inline static constexpr unsigned int MBFPBFGODJH_TypeDefinitionIndex = 73631;
 
 	class MBFPBFGODJH : public ::LBAMBIMMJKB
 	{
 	public:
-		::UnityEngine::Transform* OFIPFNIBMLB; // 0x18
-		::UnityEngine::Transform* BOGDFBIKEJE; // 0x20
+		::UnityEngine::Transform* BOGDFBIKEJE; // 0x18
+		::UnityEngine::Transform* OFIPFNIBMLB; // 0x20
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MBFPBFGODJH_CTOR_OFFSET))(this);

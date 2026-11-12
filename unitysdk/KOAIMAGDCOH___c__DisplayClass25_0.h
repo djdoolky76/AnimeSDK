@@ -6,17 +6,17 @@ class KOAIMAGDCOH_MPBMCPMMMHH;
 namespace System { class String; }
 namespace UnityEngine { class Texture2D; }
 
-#define KOAIMAGDCOH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB58E340)
-#define KOAIMAGDCOH___C__DISPLAYCLASS25_0___LOADSCENETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xB58F400)
+#define KOAIMAGDCOH___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE18B0)
+#define KOAIMAGDCOH___C__DISPLAYCLASS25_0___LOADSCENETVTEXTURE_B__0_OFFSET UNITYSDK_OFFSET(0xBDE18C0)
 
-inline static constexpr unsigned int KOAIMAGDCOH___c__DisplayClass25_0_TypeDefinitionIndex = 68808;
+inline static constexpr unsigned int KOAIMAGDCOH___c__DisplayClass25_0_TypeDefinitionIndex = 70760;
 
 	class KOAIMAGDCOH___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:
-		::KOAIMAGDCOH* __4__this; // 0x10
+		::System::String* asset; // 0x10
 		::KOAIMAGDCOH_MPBMCPMMMHH* slice; // 0x18
-		::System::String* asset; // 0x20
+		::KOAIMAGDCOH* __4__this; // 0x20
 		::System::Boolean callbackInvoked; // 0x28
 		::System::Void _ctor()
 		{

@@ -2,7 +2,7 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Attribute.h"
 
-#define SYSTEM_RUNTIME_INTEROPSERVICES_OUTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C2ADC10)
+#define SYSTEM_RUNTIME_INTEROPSERVICES_OUTATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D4348F0)
 
 namespace System::Runtime::InteropServices
 {

@@ -3,7 +3,7 @@
 
 namespace XInputDotNetPure
 {
-	inline static constexpr unsigned int PlayerIndex_TypeDefinitionIndex = 40790;
+	inline static constexpr unsigned int PlayerIndex_TypeDefinitionIndex = 41765;
 
 	enum class PlayerIndex : ::System::Int32
 	{

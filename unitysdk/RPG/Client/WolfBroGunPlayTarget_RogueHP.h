@@ -10,20 +10,20 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 namespace UnityEngine { class Renderer; }
 namespace UnityEngine { class Texture; }
 
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_CCTOR_OFFSET UNITYSDK_OFFSET(0xE47A920)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xE47A710)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_GET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xE47A6F0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_INIT_OFFSET UNITYSDK_OFFSET(0xE479660)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xE47A690)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONLOSSHP_OFFSET UNITYSDK_OFFSET(0xE47A2A0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPCOINMATERIAL_OFFSET UNITYSDK_OFFSET(0xE479800)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPMIRACLEMATERIAL_OFFSET UNITYSDK_OFFSET(0xE479BC0)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xE47A700)
-#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SHOWSCORE_OFFSET UNITYSDK_OFFSET(0xE47A380)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_CCTOR_OFFSET UNITYSDK_OFFSET(0xEF39430)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_CTOR_OFFSET UNITYSDK_OFFSET(0xEF391B0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_GET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xEF39190)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_INIT_OFFSET UNITYSDK_OFFSET(0xEF380F0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONDESTROY_OFFSET UNITYSDK_OFFSET(0xEF39130)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_ONLOSSHP_OFFSET UNITYSDK_OFFSET(0xEF38D30)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPCOINMATERIAL_OFFSET UNITYSDK_OFFSET(0xEF38290)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SETUPMIRACLEMATERIAL_OFFSET UNITYSDK_OFFSET(0xEF38650)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SET_ROGUEINDEX_OFFSET UNITYSDK_OFFSET(0xEF391A0)
+#define RPG_CLIENT_WOLFBROGUNPLAYTARGET_ROGUEHP_SHOWSCORE_OFFSET UNITYSDK_OFFSET(0xEF38E10)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex = 68733;
+	inline static constexpr unsigned int WolfBroGunPlayTarget_RogueHP_TypeDefinitionIndex = 70685;
 
 	class WolfBroGunPlayTarget_RogueHP : public ::RPG::Client::WolfBroGunPlayTarget_HP
 	{
@@ -34,64 +34,64 @@ namespace RPG::Client
 		::UnityEngine::Texture* ECPMAMBLIAB; // 0x108
 		::UnityEngine::MaterialPropertyBlock* IDGFNFGGDOL; // 0x110
 		::System::Collections::Generic::Dictionary_2<::RPG::GameCore::RogueMiracleCategory, ::System::Object*>* JNJOOPAOBFO; // 0x118
-		static ::System::Int32* StaticGet_BONBEACEIKA()
+		static ::System::Int32* StaticGet_HPCILKKLFEE()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12050);
-		}
-
-		static ::System::Int32* StaticGet_GFJFOCKBIOH()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12054);
-		}
-
-		static ::System::Int32* StaticGet_KLMHDIPLGDD()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12058);
-		}
-
-		static ::System::Int32* StaticGet_COHANNMEAAN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x1205C);
-		}
-
-		static ::System::Int32* StaticGet_DDAHGMIOJNK()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12060);
-		}
-
-		static ::System::Int32* StaticGet_NJGMMIOOJBM()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12064);
-		}
-
-		static ::System::Int32* StaticGet_NKDMCLKKLCN()
-		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12068);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x109F0);
 		}
 
 		static ::System::Int32* StaticGet_HPDCIGKGHFN()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x1206C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x109F4);
 		}
 
-		static ::System::Int32* StaticGet_EOJEBLGCBDA()
+		static ::System::Int32* StaticGet_NJGMMIOOJBM()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12070);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x109F8);
 		}
 
-		static ::System::Int32* StaticGet_JLDBBEKLJAN()
+		static ::System::Int32* StaticGet_GFJFOCKBIOH()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12074);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x109FC);
 		}
 
 		static ::System::Int32* StaticGet_CHCEPCADKGI()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x12078);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A00);
 		}
 
-		static ::System::Int32* StaticGet_HPCILKKLFEE()
+		static ::System::Int32* StaticGet_KLMHDIPLGDD()
 		{
-			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x1207C);
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A04);
+		}
+
+		static ::System::Int32* StaticGet_COHANNMEAAN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A08);
+		}
+
+		static ::System::Int32* StaticGet_BONBEACEIKA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A0C);
+		}
+
+		static ::System::Int32* StaticGet_JLDBBEKLJAN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A10);
+		}
+
+		static ::System::Int32* StaticGet_NKDMCLKKLCN()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A14);
+		}
+
+		static ::System::Int32* StaticGet_DDAHGMIOJNK()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A18);
+		}
+
+		static ::System::Int32* StaticGet_EOJEBLGCBDA()
+		{
+			return (::System::Int32*)UnitySDK::FromName("RPG.Client", "WolfBroGunPlayTarget_RogueHP")->GetStaticField(0x10A1C);
 		}
 
 		::System::Void _ctor()

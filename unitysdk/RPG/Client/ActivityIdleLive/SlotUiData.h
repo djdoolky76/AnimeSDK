@@ -3,11 +3,11 @@
 class INPDCDFPKON;
 namespace System { class String; }
 
-#define RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE0DD0)
+#define RPG_CLIENT_ACTIVITYIDLELIVE_SLOTUIDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xECB40)
 
 namespace RPG::Client::ActivityIdleLive
 {
-	inline static constexpr unsigned int SlotUiData_TypeDefinitionIndex = 75433;
+	inline static constexpr unsigned int SlotUiData_TypeDefinitionIndex = 77760;
 
 	struct alignas(8) SlotUiData
 	{

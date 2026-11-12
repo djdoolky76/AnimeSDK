@@ -4,12 +4,12 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class CameraLookAtScreenRange; }
 
-#define RPG_GAMECORE_CAMERALOOKATSCREENRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D556710)
-#define RPG_GAMECORE_CAMERALOOKATSCREENRANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D556600)
+#define RPG_GAMECORE_CAMERALOOKATSCREENRANGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1E768390)
+#define RPG_GAMECORE_CAMERALOOKATSCREENRANGE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E768280)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int CameraLookAtScreenRange_TypeDefinitionIndex = 20506;
+	inline static constexpr unsigned int CameraLookAtScreenRange_TypeDefinitionIndex = 20842;
 
 	class CameraLookAtScreenRange : public ::RPG::GameCore::JsonConfig
 	{

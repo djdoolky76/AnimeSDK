@@ -4,7 +4,7 @@
 
 namespace Google::Protobuf
 {
-	inline static constexpr unsigned int FieldCodec_1_ValueWriterAction_TypeDefinitionIndex = 5388;
+	inline static constexpr unsigned int FieldCodec_1_ValueWriterAction_TypeDefinitionIndex = 5393;
 
 	template <typename T>
 	class FieldCodec_1_ValueWriterAction : public ::System::MulticastDelegate

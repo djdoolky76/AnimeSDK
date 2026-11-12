@@ -3,10 +3,10 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class ActivityData; }
 
-#define FIBHJDMFCJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1579B360)
-#define FIBHJDMFCJA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x1579B2E0)
+#define FIBHJDMFCJA_CTOR_OFFSET UNITYSDK_OFFSET(0x166BCB60)
+#define FIBHJDMFCJA_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x166BCAE0)
 
-inline static constexpr unsigned int FIBHJDMFCJA_TypeDefinitionIndex = 61721;
+inline static constexpr unsigned int FIBHJDMFCJA_TypeDefinitionIndex = 63127;
 
 	class FIBHJDMFCJA : public ::System::Object
 	{

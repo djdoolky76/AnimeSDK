@@ -4,10 +4,10 @@
 #include "unitysdk/System/Nullable_1.h"
 #include "unitysdk/System/Object.h"
 
-#define AGOFDNJAOMA_CLEAR_OFFSET UNITYSDK_OFFSET(0xCF46350)
-#define AGOFDNJAOMA_CTOR_OFFSET UNITYSDK_OFFSET(0xCF463A0)
+#define AGOFDNJAOMA_CLEAR_OFFSET UNITYSDK_OFFSET(0xF1350C0)
+#define AGOFDNJAOMA_CTOR_OFFSET UNITYSDK_OFFSET(0xF135110)
 
-inline static constexpr unsigned int AGOFDNJAOMA_TypeDefinitionIndex = 54386;
+inline static constexpr unsigned int AGOFDNJAOMA_TypeDefinitionIndex = 55550;
 
 	class AGOFDNJAOMA : public ::System::Object
 	{

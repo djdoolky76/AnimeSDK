@@ -6,16 +6,16 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 namespace RPG::Client::ActivityIdleLive { class IdleLiveBaseTeamInfo; }
 namespace RPG::Client::ActivityIdleLive { class SpEquipSlotInfo; }
 
-#define AEOMMHDHPGO_BUILD_OFFSET UNITYSDK_OFFSET(0xCF04230)
-#define AEOMMHDHPGO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF04210)
+#define AEOMMHDHPGO_BUILD_OFFSET UNITYSDK_OFFSET(0xD5B5A70)
+#define AEOMMHDHPGO_CTOR_OFFSET UNITYSDK_OFFSET(0xD5B5A50)
 
-inline static constexpr unsigned int AEOMMHDHPGO_TypeDefinitionIndex = 75134;
+inline static constexpr unsigned int AEOMMHDHPGO_TypeDefinitionIndex = 77461;
 
 	class AEOMMHDHPGO
 	{
 	public:
-		::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* GLCFFOIDEMA; // 0x10
-		::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* KIHNNLDEOOM; // 0x18
+		::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* KIHNNLDEOOM; // 0x10
+		::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* GLCFFOIDEMA; // 0x18
 		::System::Void _ctor(::RPG::Client::ActivityIdleLive::SpEquipSlotInfo* a1, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo* a2)
 		{
 			return ((::System::Void(*)(::PVOID, ::RPG::Client::ActivityIdleLive::SpEquipSlotInfo*, ::RPG::Client::ActivityIdleLive::IdleLiveBaseTeamInfo*))((::PBYTE)hIl2Cpp + AEOMMHDHPGO_CTOR_OFFSET))(this, a1, a2);

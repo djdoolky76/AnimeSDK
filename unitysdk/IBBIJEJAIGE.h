@@ -9,31 +9,32 @@ namespace UnityEngine { class Animation; }
 namespace UnityEngine { class AnimationClip; }
 namespace UnityEngine { class Camera; }
 
-#define IBBIJEJAIGE_CTOR_OFFSET UNITYSDK_OFFSET(0x15E2AB90)
-#define IBBIJEJAIGE_FBICIDBOIFE_OFFSET UNITYSDK_OFFSET(0x15E2AAE0)
-#define IBBIJEJAIGE_HNJEPKLPIDH_OFFSET UNITYSDK_OFFSET(0x15E2A100)
-#define IBBIJEJAIGE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x15E2A580)
-#define IBBIJEJAIGE_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15E2AA50)
-#define IBBIJEJAIGE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x15E2A860)
-#define IBBIJEJAIGE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15E2A050)
+#define IBBIJEJAIGE_CTOR_OFFSET UNITYSDK_OFFSET(0x16DD45A0)
+#define IBBIJEJAIGE_FBICIDBOIFE_OFFSET UNITYSDK_OFFSET(0x16DD44F0)
+#define IBBIJEJAIGE_HNJEPKLPIDH_OFFSET UNITYSDK_OFFSET(0x16DD3B10)
+#define IBBIJEJAIGE_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x16DD3F90)
+#define IBBIJEJAIGE_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x16DD4460)
+#define IBBIJEJAIGE_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0x16DD4270)
+#define IBBIJEJAIGE_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x16DD3A60)
 
-inline static constexpr unsigned int IBBIJEJAIGE_TypeDefinitionIndex = 48445;
+inline static constexpr unsigned int IBBIJEJAIGE_TypeDefinitionIndex = 49486;
 
 	class IBBIJEJAIGE : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:
-		::UnityEngine::Animation* KECNBLFGCAL; // 0x18
-		::RPGTools::Timeline::CameraData* IJDAJGKLAKH; // 0x20
-		::UnityEngine::AnimationClip* EHAGPHLMPEJ; // 0x28
-		::UnityEngine::Camera* FGAEINFODPA; // 0x30
-		::System::Single IPOMOEDEBGI; // 0x38
-		::System::Single PFECIOFGLKM; // 0x3C
-		::System::Single IGHOFMLBICF; // 0x40
+		::UnityEngine::Camera* FGAEINFODPA; // 0x18
+		::UnityEngine::AnimationClip* EHAGPHLMPEJ; // 0x20
+		::UnityEngine::Animation* KECNBLFGCAL; // 0x28
+		::RPGTools::Timeline::CameraData* IJDAJGKLAKH; // 0x30
+		::System::Single IGHOFMLBICF; // 0x38
+		::System::Single MFIKOOOBMFL; // 0x3C
+		::System::Single PFECIOFGLKM; // 0x40
 		::System::Byte _padding0[0x4];
 		::System::Double LLICGDGPMJL; // 0x48
-		::System::Double EPOLJCOBFFC; // 0x50
-		::System::Single MFIKOOOBMFL; // 0x58
-		::System::Boolean DACMFGDHIMN; // 0x5C
+		::System::Single IPOMOEDEBGI; // 0x50
+		::System::Boolean DACMFGDHIMN; // 0x54
+		::System::Byte _padding1[0x3];
+		::System::Double EPOLJCOBFFC; // 0x58
 		// static const ::System::Object PNIJINJNLOI; // 0x0
 		// static const ::System::Object ABJLMHCJJPF; // 0x0
 		::System::Void _ctor()

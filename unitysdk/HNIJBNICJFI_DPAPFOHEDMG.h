@@ -5,24 +5,24 @@ namespace RPG::GameCore { class GameEntity; }
 namespace System { class String; }
 namespace UnityEngine { class Transform; }
 
-#define HNIJBNICJFI_DPAPFOHEDMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x15D9BA60)
-#define HNIJBNICJFI_DPAPFOHEDMG_CTOR_OFFSET UNITYSDK_OFFSET(0x15D9BAB0)
-#define HNIJBNICJFI_DPAPFOHEDMG_NGIIIPMKPND_OFFSET UNITYSDK_OFFSET(0x15D9B5F0)
-#define HNIJBNICJFI_DPAPFOHEDMG_PNFAHABNEMH_OFFSET UNITYSDK_OFFSET(0x15D9A6B0)
+#define HNIJBNICJFI_DPAPFOHEDMG_CLEAR_OFFSET UNITYSDK_OFFSET(0x16D3CA30)
+#define HNIJBNICJFI_DPAPFOHEDMG_CTOR_OFFSET UNITYSDK_OFFSET(0x16D3CA80)
+#define HNIJBNICJFI_DPAPFOHEDMG_NGIIIPMKPND_OFFSET UNITYSDK_OFFSET(0x16D3C5C0)
+#define HNIJBNICJFI_DPAPFOHEDMG_PNFAHABNEMH_OFFSET UNITYSDK_OFFSET(0x16D3B650)
 
-inline static constexpr unsigned int HNIJBNICJFI_DPAPFOHEDMG_TypeDefinitionIndex = 60737;
+inline static constexpr unsigned int HNIJBNICJFI_DPAPFOHEDMG_TypeDefinitionIndex = 62114;
 
 	class HNIJBNICJFI_DPAPFOHEDMG : public ::System::Object
 	{
 	public:
-		::System::String* GFNAPNFFGPJ; // 0x10
-		::UnityEngine::Transform* NNHJMGCALHP; // 0x18
-		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x20
+		::RPG::GameCore::GameEntity* GGKGFABFGFE; // 0x10
+		::System::String* GFNAPNFFGPJ; // 0x18
+		::UnityEngine::Transform* NNHJMGCALHP; // 0x20
 		::System::Single MFAFKCOAPKO; // 0x28
-		::System::Boolean HDPBMLFMLNC; // 0x2C
-		::System::Boolean LCECMAIHOAE; // 0x2D
-		::System::Boolean DDEINLDDKJJ; // 0x2E
-		::System::Boolean DMHJINGNBIH; // 0x2F
+		::System::Boolean LCECMAIHOAE; // 0x2C
+		::System::Boolean DMHJINGNBIH; // 0x2D
+		::System::Boolean HDPBMLFMLNC; // 0x2E
+		::System::Boolean DDEINLDDKJJ; // 0x2F
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + HNIJBNICJFI_DPAPFOHEDMG_CTOR_OFFSET))(this);

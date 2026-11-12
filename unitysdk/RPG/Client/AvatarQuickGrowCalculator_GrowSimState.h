@@ -1,11 +1,11 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
-#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_GROWSIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0xFE60)
+#define RPG_CLIENT_AVATARQUICKGROWCALCULATOR_GROWSIMSTATE_CTOR_OFFSET UNITYSDK_OFFSET(0x16980)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarQuickGrowCalculator_GrowSimState_TypeDefinitionIndex = 62469;
+	inline static constexpr unsigned int AvatarQuickGrowCalculator_GrowSimState_TypeDefinitionIndex = 63882;
 
 	struct alignas(4) AvatarQuickGrowCalculator_GrowSimState
 	{

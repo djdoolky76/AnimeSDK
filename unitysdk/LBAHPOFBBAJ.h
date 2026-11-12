@@ -2,9 +2,9 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
-#define LBAHPOFBBAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB5EAD80)
+#define LBAHPOFBBAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE7C640)
 
-inline static constexpr unsigned int LBAHPOFBBAJ_TypeDefinitionIndex = 72397;
+inline static constexpr unsigned int LBAHPOFBBAJ_TypeDefinitionIndex = 74476;
 
 	class LBAHPOFBBAJ : public ::System::Object
 	{

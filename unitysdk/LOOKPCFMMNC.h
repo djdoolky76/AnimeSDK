@@ -3,10 +3,10 @@
 namespace RPG::GameCore { class DisableBattleTarget; }
 namespace RPG::GameCore { class TaskContext; }
 
-#define LOOKPCFMMNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB811790)
-#define LOOKPCFMMNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8117C0)
+#define LOOKPCFMMNC_CTOR_OFFSET UNITYSDK_OFFSET(0xC0729A0)
+#define LOOKPCFMMNC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0729D0)
 
-inline static constexpr unsigned int LOOKPCFMMNC_TypeDefinitionIndex = 58082;
+inline static constexpr unsigned int LOOKPCFMMNC_TypeDefinitionIndex = 59321;
 
 	class LOOKPCFMMNC
 	{

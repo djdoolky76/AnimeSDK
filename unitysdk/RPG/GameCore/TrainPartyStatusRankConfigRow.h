@@ -4,19 +4,19 @@
 class FCOEMCEDLNL;
 namespace RPG::GameCore { class TrainPartyStatusRankConfigRow; }
 
-#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC359F0)
-#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1DC35880)
+#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW_CTOR_OFFSET UNITYSDK_OFFSET(0x1EE48C90)
+#define RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW_FROMBINARY_OFFSET UNITYSDK_OFFSET(0x1EE48B20)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int TrainPartyStatusRankConfigRow_TypeDefinitionIndex = 15314;
+	inline static constexpr unsigned int TrainPartyStatusRankConfigRow_TypeDefinitionIndex = 15470;
 
 	class TrainPartyStatusRankConfigRow : public ::System::Object
 	{
 	public:
-		::System::UInt32 RequireValue; // 0x10
-		::System::UInt32 RankRequireExp; // 0x14
-		::System::UInt32 Rank; // 0x18
+		::System::UInt32 Rank; // 0x10
+		::System::UInt32 RequireValue; // 0x14
+		::System::UInt32 RankRequireExp; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_GAMECORE_TRAINPARTYSTATUSRANKCONFIGROW_CTOR_OFFSET))(this);

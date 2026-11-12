@@ -5,11 +5,11 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 namespace System { class String; }
 
-#define RPG_CLIENT_AVATARPROPERTYDISPLAYUTILS_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xC709E10)
+#define RPG_CLIENT_AVATARPROPERTYDISPLAYUTILS_FORMATDISPLAYDATABYTYPE_OFFSET UNITYSDK_OFFSET(0xD06A740)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int AvatarPropertyDisplayUtils_TypeDefinitionIndex = 62871;
+	inline static constexpr unsigned int AvatarPropertyDisplayUtils_TypeDefinitionIndex = 64309;
 
 	class AvatarPropertyDisplayUtils : public ::System::Object
 	{

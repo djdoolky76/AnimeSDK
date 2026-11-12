@@ -7,7 +7,7 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Collections::Pooled
 {
-	inline static constexpr unsigned int PooledDictionary_2_TypeDefinitionIndex = 5101;
+	inline static constexpr unsigned int PooledDictionary_2_TypeDefinitionIndex = 5106;
 
 	template <typename T1, typename T2>
 	class PooledDictionary_2 : public ::System::Object

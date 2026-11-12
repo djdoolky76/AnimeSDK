@@ -12,23 +12,23 @@ namespace System { class String; }
 namespace System { template <typename T> class Action_1; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD15C440)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__0_OFFSET UNITYSDK_OFFSET(0xD165880)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__1_OFFSET UNITYSDK_OFFSET(0xD1658F0)
-#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__2_OFFSET UNITYSDK_OFFSET(0xD165920)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xDB2C250)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__0_OFFSET UNITYSDK_OFFSET(0xDB2C260)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__1_OFFSET UNITYSDK_OFFSET(0xDB2C2D0)
+#define RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0__SENDGRIDFIGHTGETGAMEREFINTERECTDATAREQ_B__2_OFFSET UNITYSDK_OFFSET(0xDB2C300)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass5_0_TypeDefinitionIndex = 64711;
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass5_0_TypeDefinitionIndex = 66254;
 
 	class GridFightGameRef___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:
-		::GHHJNCOAIJF* req; // 0x10
-		::RPG::Client::GridFightGameRef* __4__this; // 0x18
-		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x20
-		::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::CCGFCHPPIDH*>*>* callback; // 0x28
-		::Il2CppArray<::System::String*>* ids; // 0x30
+		::GHHJNCOAIJF_KKHGKLOBDFN* sendParams; // 0x10
+		::GHHJNCOAIJF* req; // 0x18
+		::System::Action_1<::System::Collections::Generic::Dictionary_2<::System::String*, ::CCGFCHPPIDH*>*>* callback; // 0x20
+		::Il2CppArray<::System::String*>* ids; // 0x28
+		::RPG::Client::GridFightGameRef* __4__this; // 0x30
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_GRIDFIGHTGAMEREF___C__DISPLAYCLASS5_0_CTOR_OFFSET))(this);

@@ -5,18 +5,18 @@ namespace RPG::Client { class MuseumModule; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
 
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD902000)
-#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0___REFRESHSTAFFAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0xD904140)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE395840)
+#define RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0___REFRESHSTAFFAVAILABLE_B__0_OFFSET UNITYSDK_OFFSET(0xE3979D0)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_0_TypeDefinitionIndex = 66335;
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_0_TypeDefinitionIndex = 68271;
 
 	class MuseumModule___c__DisplayClass171_0 : public ::System::Object
 	{
 	public:
-		::RPG::Client::Promises::Promise* finishPromise; // 0x10
-		::RPG::Client::MuseumModule* __4__this; // 0x18
+		::RPG::Client::MuseumModule* __4__this; // 0x10
+		::RPG::Client::Promises::Promise* finishPromise; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RPG_CLIENT_MUSEUMMODULE___C__DISPLAYCLASS171_0_CTOR_OFFSET))(this);

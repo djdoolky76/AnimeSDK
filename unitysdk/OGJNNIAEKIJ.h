@@ -6,16 +6,16 @@ class KJAMNOGFAMJ;
 namespace RPG::Client { class RogueBuffInfo; }
 namespace RPG::Client { class RogueFormulaInfo; }
 
-#define OGJNNIAEKIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE593A0)
-#define OGJNNIAEKIJ_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xBE593C0)
+#define OGJNNIAEKIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC7133C0)
+#define OGJNNIAEKIJ_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xC7133E0)
 
-inline static constexpr unsigned int OGJNNIAEKIJ_TypeDefinitionIndex = 67075;
+inline static constexpr unsigned int OGJNNIAEKIJ_TypeDefinitionIndex = 69019;
 
 	class OGJNNIAEKIJ : public ::KOJHMGMKDPJ
 	{
 	public:
-		::KJAMNOGFAMJ* LEEMNOCGBOJ; // 0x28
-		::RPG::Client::RogueFormulaInfo* PCCPCCCFBHJ; // 0x30
+		::RPG::Client::RogueFormulaInfo* PCCPCCCFBHJ; // 0x28
+		::KJAMNOGFAMJ* LEEMNOCGBOJ; // 0x30
 		::System::Void _ctor(::NHHMEPILLHL a1, ::RPG::Client::RogueBuffInfo* a2, ::RPG::Client::RogueFormulaInfo* a3, ::KJAMNOGFAMJ* a4)
 		{
 			return ((::System::Void(*)(::PVOID, ::NHHMEPILLHL, ::RPG::Client::RogueBuffInfo*, ::RPG::Client::RogueFormulaInfo*, ::KJAMNOGFAMJ*))((::PBYTE)hIl2Cpp + OGJNNIAEKIJ_CTOR_OFFSET))(this, a1, a2, a3, a4);

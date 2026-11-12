@@ -4,12 +4,12 @@
 namespace RPG::Client { class IUI3DController; }
 namespace RPG::Client { class UIManager; }
 
-#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS107_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE3B6DA0)
-#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS107_0___HANDLESHOWUI3D_B__0_OFFSET UNITYSDK_OFFSET(0xE3C0D30)
+#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS107_0_CTOR_OFFSET UNITYSDK_OFFSET(0xEE71740)
+#define RPG_CLIENT_UIMANAGER___C__DISPLAYCLASS107_0___HANDLESHOWUI3D_B__0_OFFSET UNITYSDK_OFFSET(0xEE7B640)
 
 namespace RPG::Client
 {
-	inline static constexpr unsigned int UIManager___c__DisplayClass107_0_TypeDefinitionIndex = 73081;
+	inline static constexpr unsigned int UIManager___c__DisplayClass107_0_TypeDefinitionIndex = 75195;
 
 	class UIManager___c__DisplayClass107_0 : public ::System::Object
 	{

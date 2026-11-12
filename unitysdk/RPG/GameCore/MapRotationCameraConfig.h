@@ -5,12 +5,12 @@ class FCOEMCEDLNL;
 namespace RPG::GameCore { class MapRotationCameraConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D82EE10)
-#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D82ECC0)
+#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA49830)
+#define RPG_GAMECORE_MAPROTATIONCAMERACONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1EA496E0)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int MapRotationCameraConfig_TypeDefinitionIndex = 17033;
+	inline static constexpr unsigned int MapRotationCameraConfig_TypeDefinitionIndex = 17200;
 
 	class MapRotationCameraConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -8,18 +8,18 @@ class PJPPGJEDCOG;
 namespace System::Collections::Generic { template <typename T> class HashSet_1; }
 namespace System::Collections::Generic { template <typename T> class IReadOnlyCollection_1; }
 
-#define DGKFMEELDNN_JBMAEFHONHA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xE84EEA0)
-#define DGKFMEELDNN_JBMAEFHONHA___C__DISPLAYCLASS8_0___CREATEATTRIBUTEITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xE84EFD0)
+#define DGKFMEELDNN_JBMAEFHONHA___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF420F50)
+#define DGKFMEELDNN_JBMAEFHONHA___C__DISPLAYCLASS8_0___CREATEATTRIBUTEITEMS_B__0_OFFSET UNITYSDK_OFFSET(0xF421080)
 
-inline static constexpr unsigned int DGKFMEELDNN_JBMAEFHONHA___c__DisplayClass8_0_TypeDefinitionIndex = 79526;
+inline static constexpr unsigned int DGKFMEELDNN_JBMAEFHONHA___c__DisplayClass8_0_TypeDefinitionIndex = 82303;
 
 	class DGKFMEELDNN_JBMAEFHONHA___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:
-		::DGKFMEELDNN_JBMAEFHONHA* __4__this; // 0x10
-		::System::Collections::Generic::IReadOnlyCollection_1<::RPG::Client::MechCraft::MechCraftAttributeType>* selectedAttributeTypes; // 0x18
-		::PJPPGJEDCOG* requirementConfig; // 0x20
-		::System::Collections::Generic::HashSet_1<::RPG::Client::MechCraft::MechCraftAttributeType>* availableTypes; // 0x28
+		::System::Collections::Generic::IReadOnlyCollection_1<::RPG::Client::MechCraft::MechCraftAttributeType>* selectedAttributeTypes; // 0x10
+		::System::Collections::Generic::HashSet_1<::RPG::Client::MechCraft::MechCraftAttributeType>* availableTypes; // 0x18
+		::DGKFMEELDNN_JBMAEFHONHA* __4__this; // 0x20
+		::PJPPGJEDCOG* requirementConfig; // 0x28
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + DGKFMEELDNN_JBMAEFHONHA___C__DISPLAYCLASS8_0_CTOR_OFFSET))(this);

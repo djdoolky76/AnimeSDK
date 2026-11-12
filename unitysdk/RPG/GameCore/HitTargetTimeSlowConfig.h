@@ -6,12 +6,12 @@ namespace RPG::GameCore { class DynamicFloat; }
 namespace RPG::GameCore { class HitTargetTimeSlowConfig; }
 namespace System { class String; }
 
-#define RPG_GAMECORE_HITTARGETTIMESLOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D770A70)
-#define RPG_GAMECORE_HITTARGETTIMESLOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D770640)
+#define RPG_GAMECORE_HITTARGETTIMESLOWCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1E984110)
+#define RPG_GAMECORE_HITTARGETTIMESLOWCONFIG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1E983D00)
 
 namespace RPG::GameCore
 {
-	inline static constexpr unsigned int HitTargetTimeSlowConfig_TypeDefinitionIndex = 22594;
+	inline static constexpr unsigned int HitTargetTimeSlowConfig_TypeDefinitionIndex = 23009;
 
 	class HitTargetTimeSlowConfig : public ::RPG::GameCore::JsonConfig
 	{

@@ -4,21 +4,21 @@
 #include "unitysdk/UnityEngine/ConsoleVariableFloatProperty.h"
 #include "unitysdk/UnityEngine/ConsoleVariableIntProperty.h"
 
-#define FKKCAGOGHKL_JGHHMPKNKNI_CCTOR_OFFSET UNITYSDK_OFFSET(0x158041C0)
+#define FKKCAGOGHKL_JGHHMPKNKNI_CCTOR_OFFSET UNITYSDK_OFFSET(0x167709E0)
 
-inline static constexpr unsigned int FKKCAGOGHKL_JGHHMPKNKNI_TypeDefinitionIndex = 59344;
+inline static constexpr unsigned int FKKCAGOGHKL_JGHHMPKNKNI_TypeDefinitionIndex = 60621;
 
 	class FKKCAGOGHKL_JGHHMPKNKNI : public ::System::Object
 	{
 	public:
 		static ::UnityEngine::ConsoleVariableFloatProperty* StaticGet_JEMBOMGGEFO()
 		{
-			return (::UnityEngine::ConsoleVariableFloatProperty*)UnitySDK::FromName("", "JGHHMPKNKNI")->GetStaticField(0x50F20);
+			return (::UnityEngine::ConsoleVariableFloatProperty*)UnitySDK::FromName("", "JGHHMPKNKNI")->GetStaticField(0x66B00);
 		}
 
 		static ::UnityEngine::ConsoleVariableIntProperty* StaticGet_JPBOIHHMFMO()
 		{
-			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "JGHHMPKNKNI")->GetStaticField(0x50F30);
+			return (::UnityEngine::ConsoleVariableIntProperty*)UnitySDK::FromName("", "JGHHMPKNKNI")->GetStaticField(0x66B10);
 		}
 
 		static ::System::Void _cctor()

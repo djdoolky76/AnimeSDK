@@ -4,16 +4,16 @@
 class EGEJIOKOFOF;
 class HGCEOEHGPPE;
 
-#define KJHGBANLEIC___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB451D20)
-#define KJHGBANLEIC___C__DISPLAYCLASS30_0___SENDITEMSUCCEED_B__0_OFFSET UNITYSDK_OFFSET(0xB456470)
+#define KJHGBANLEIC___C__DISPLAYCLASS30_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBCE8AD0)
+#define KJHGBANLEIC___C__DISPLAYCLASS30_0___SENDITEMSUCCEED_B__0_OFFSET UNITYSDK_OFFSET(0xBCED2C0)
 
-inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass30_0_TypeDefinitionIndex = 59598;
+inline static constexpr unsigned int KJHGBANLEIC___c__DisplayClass30_0_TypeDefinitionIndex = 60875;
 
 	class KJHGBANLEIC___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:
-		::EGEJIOKOFOF* item; // 0x10
-		::HGCEOEHGPPE* progress; // 0x18
+		::HGCEOEHGPPE* progress; // 0x10
+		::EGEJIOKOFOF* item; // 0x18
 		::System::Void _ctor()
 		{
 			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + KJHGBANLEIC___C__DISPLAYCLASS30_0_CTOR_OFFSET))(this);

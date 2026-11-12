@@ -3,7 +3,7 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
-inline static constexpr unsigned int MGGNGAELECK_TypeDefinitionIndex = 54100;
+inline static constexpr unsigned int MGGNGAELECK_TypeDefinitionIndex = 55264;
 
 	struct alignas(8) MGGNGAELECK
 	{
